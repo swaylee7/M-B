@@ -458,6 +458,152 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-13",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-IMMU-1301",
+      "titre": "Recherche d'un donneur de cellules souches hématopoïétiques pour un adolescent atteint de leucémie aiguë",
+      "niveau": "residanat",
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 15 ans, lycéen, troisième d'une fratrie de quatre, parents cousins germains, suivi dans un service d'hématologie pédiatrique.",
+      "motif_consultation": "Leucémie aiguë myéloblastique à haut risque en première rémission complète : indication d'allogreffe de cellules souches hématopoïétiques posée en réunion de concertation.",
+      "antecedents": "Aucun antécédent transfusionnel avant la leucémie ; a reçu depuis plusieurs concentrés plaquettaires et globulaires déleucocytés.",
+      "symptomes": "Asymptomatique en rémission.",
+      "examen_clinique": "Examen normal.",
+      "biologie": "Typage HLA haute résolution du patient : A*02:01, A*30:01 ; B*18:01, B*51:01 ; C*05:01, C*14:02 ; DRB1*03:01, DRB1*11:04 ; DQB1*02:01, DQB1*03:01. Recherche d'anticorps anti-HLA : négative. Fratrie : sœur aînée identique sur les 10 allèles ; frère aîné haplo-identique ; petite sœur haplo-identique (autre haplotype partagé).",
+      "imagerie": "Sans objet.",
+      "hypotheses_diagnostiques": [
+        "Donneur intrafamilial HLA-identique disponible (sœur aînée)",
+        "Donneur haplo-identique (frère, petite sœur, parents) en alternative",
+        "Donneur non apparenté de registre si aucun donneur familial"
+      ],
+      "diagnostics_differentiels": [
+        "Fausse identité par typage de basse résolution (à éviter : typage haute résolution)",
+        "Homozygotie parentale pouvant simuler une identité (consanguinité) : vérification par l'étude familiale"
+      ],
+      "examens_a_demander": [
+        "Confirmation du typage de la sœur sur un second prélèvement",
+        "Groupe ABO et statut sérologique CMV du donneur et du receveur",
+        "Bilan d'aptitude au don de la sœur",
+        "Typage des parents pour l'établissement des haplotypes"
+      ],
+      "diagnostic_final": "Donneur de référence : sœur aînée HLA-identique (génoïdentique, 10/10), sans anticorps anti-HLA chez le receveur.",
+      "traitement": "Allogreffe de cellules souches hématopoïétiques à partir de la sœur HLA-identique selon le protocole du centre (conditionnement, prophylaxie de la GVH) [POSOLOGIE À VÉRIFIER — protocole local].",
+      "surveillance": "Prise de greffe, chimérisme, GVH aiguë et chronique, infections (CMV), rechute.",
+      "evolution": "Prise de greffe à J18 ; GVH cutanée aiguë de grade modéré contrôlée ; rémission maintenue.",
+      "explication_pedagogique": "Dans une fratrie, chaque frère ou sœur a 25 % de probabilité d'être HLA-identique ; avec trois frères et sœurs, la probabilité qu'au moins un le soit est de 1 − (3/4)³ ≈ 58 %. La consanguinité parentale augmente la probabilité d'haplotypes partagés et peut rendre un parent quasi identique, d'où l'intérêt de typer les parents pour établir les haplotypes. Même avec une identité HLA génotypique, une GVH peut survenir, liée aux antigènes mineurs d'histocompatibilité. La recherche d'anticorps anti-HLA chez le receveur est indispensable, surtout si un donneur haplo-identique ou du sang placentaire est envisagé, car les DSA augmentent le risque d'échec de prise de greffe (recommandations NMDP/CIBMTR 2019).",
+      "questions": [
+        {
+          "question": "Pourquoi exiger un typage de haute résolution ?",
+          "reponse": "La GVH et le rejet dépendent de différences portant sur la protéine HLA (2e champ) ; une identité en basse résolution peut masquer des incompatibilités alléliques."
+        },
+        {
+          "question": "Quelle est la probabilité qu'au moins un des trois frères et sœurs soit HLA-identique ?",
+          "reponse": "1 − (3/4)³ ≈ 58 %."
+        },
+        {
+          "question": "Pourquoi une GVH survient-elle malgré l'identité HLA ?",
+          "reponse": "Les antigènes mineurs d'histocompatibilité (peptides polymorphes présentés par les molécules HLA) sont reconnus par les lymphocytes T du donneur."
+        },
+        {
+          "question": "Quelle serait l'alternative en l'absence de donneur familial identique ?",
+          "reponse": "Donneur non apparenté 8/8 ou 10/10, donneur haplo-identique avec cyclophosphamide post-greffe, ou sang placentaire."
+        },
+        {
+          "question": "Quel est l'intérêt de rechercher des anticorps anti-HLA chez le receveur ?",
+          "reponse": "Des DSA dirigés contre le donneur choisi augmentent le risque d'échec de prise de greffe, surtout en haplo-identique et en sang placentaire."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Dehn J et al. Selection of unrelated donors and cord blood units for hematopoietic cell transplantation: guidelines from the NMDP/CIBMTR. Blood 2019;134:924-34",
+          "date": "2019"
+        },
+        {
+          "reference": "Klein J, Sato A. The HLA system. N Engl J Med 2000;343:702-9 et 782-6",
+          "date": "2000"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-IMMU-1302",
+      "titre": "Fièvre et éruption à J9 d'un traitement antirétroviral — place du typage HLA-B*57:01",
+      "niveau": "resident",
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 34 ans, chauffeur, infection par le VIH-1 découverte récemment, suivi dans un service de maladies infectieuses.",
+      "motif_consultation": "Fièvre à 38,8 °C, éruption maculo-papuleuse, nausées, diarrhée et toux sèche apparues 9 jours après l'introduction d'un traitement antirétroviral comprenant de l'abacavir ; aggravation des symptômes après chaque prise.",
+      "antecedents": "Aucun. Le typage HLA-B*57:01 avait été demandé mais le résultat n'était pas encore disponible au moment de la prescription.",
+      "symptomes": "Malaise général, fièvre, éruption prurigineuse modérée, douleurs abdominales, dyspnée légère.",
+      "examen_clinique": "T 38,8 °C, PA 105/65 mmHg, FC 110/min, éruption maculo-papuleuse du tronc, muqueuses indemnes, pas de décollement cutané, auscultation pulmonaire normale.",
+      "biologie": "CRP 45 mg/L ; ALAT 2 × N ; créatinine normale ; éosinophiles 0,3 G/L ; résultat reçu : HLA-B*57:01 positif.",
+      "imagerie": "Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Syndrome d'hypersensibilité à l'abacavir",
+        "Infection intercurrente",
+        "Autre toxidermie médicamenteuse (cotrimoxazole, névirapine selon le traitement)"
+      ],
+      "diagnostics_differentiels": [
+        "Syndrome de restauration immunitaire",
+        "Infection virale aiguë",
+        "DRESS (délai et éosinophilie plus marqués habituellement)",
+        "Syndrome de Stevens-Johnson (atteinte muqueuse, décollement)"
+      ],
+      "examens_a_demander": [
+        "Bilan infectieux selon la clinique",
+        "Bilan hépatique et rénal",
+        "Avis allergologique / dermatologique si doute",
+        "Déclaration de pharmacovigilance"
+      ],
+      "diagnostic_final": "Syndrome d'hypersensibilité à l'abacavir chez un patient porteur de HLA-B*57:01.",
+      "traitement": "Arrêt immédiat et définitif de l'abacavir ; traitement symptomatique ; remplacement par un autre antirétroviral ; **réintroduction formellement contre-indiquée** (risque de réaction grave, potentiellement mortelle) ; mention de l'allergie dans le dossier et remise d'une carte au patient.",
+      "surveillance": "Régression des symptômes en 48 à 72 heures ; tolérance du nouveau traitement.",
+      "evolution": "Apyrexie en 48 heures, disparition de l'éruption en 5 jours.",
+      "explication_pedagogique": "L'hypersensibilité à l'abacavir est une réaction retardée médiée par les lymphocytes T CD8, restreinte par HLA-B*57:01 : l'abacavir se fixe dans le sillon de cette molécule (poche F) et modifie le répertoire des peptides du soi présentés, qui sont alors reconnus comme étrangers. Dans l'essai PREDICT-1, le dépistage prospectif de HLA-B*57:01 (prévalence 5,6 %) a supprimé les réactions immunologiquement confirmées (0 % contre 2,7 %). La règle est donc de disposer du résultat AVANT toute prescription. Ce cas illustre à la fois une application clinique du système HLA (pharmacogénétique) et une hypersensibilité de type IV (voir DOS-IMMU-0002).",
+      "questions": [
+        {
+          "question": "Quel est le mécanisme de la réaction ?",
+          "reponse": "Hypersensibilité retardée médiée par les T CD8, restreinte par HLA-B*57:01 ; l'abacavir modifie le répertoire des peptides présentés."
+        },
+        {
+          "question": "Quelle erreur a été commise ?",
+          "reponse": "Prescrire l'abacavir avant d'avoir le résultat du typage HLA-B*57:01."
+        },
+        {
+          "question": "Peut-on réintroduire l'abacavir à distance ?",
+          "reponse": "Non : la réintroduction est formellement contre-indiquée (réactions plus rapides et plus graves)."
+        },
+        {
+          "question": "Quel a été l'apport de l'essai PREDICT-1 ?",
+          "reponse": "Le dépistage prospectif a supprimé les réactions immunologiquement confirmées (0 % contre 2,7 %)."
+        },
+        {
+          "question": "Citez une autre association pharmacogénétique HLA.",
+          "reponse": "HLA-B*15:02 et syndrome de Stevens-Johnson à la carbamazépine (populations asiatiques) ; HLA-B*58:01 et allopurinol."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Mallal S et al. HLA-B*5701 screening for hypersensitivity to abacavir. N Engl J Med 2008;358:568-79",
+          "date": "2008"
+        },
+        {
+          "reference": "Chung WH et al. A marker for Stevens-Johnson syndrome. Nature 2004;428:486",
+          "date": "2004"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
     }
   ]
 }

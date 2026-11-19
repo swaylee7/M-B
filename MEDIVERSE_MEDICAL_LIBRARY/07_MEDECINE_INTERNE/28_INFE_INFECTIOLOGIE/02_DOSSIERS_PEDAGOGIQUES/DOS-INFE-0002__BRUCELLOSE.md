@@ -6,7 +6,7 @@ sous_specialite: "Zoonoses"
 items_residanat: [RES-MED-008]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 12
     rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-INFE-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : endocardite brucellienne harmonisée avec DOS-CARD-0005 (divergence de dose de rifampicine ESC 2015 / Ioannina 2007 présentée, aminoside initial, chirurgie) ; attributions au consensus d'Ioannina corrigées (aucune recommandation pour la neurobrucellose ni schéma validé pour l'endocardite ; spondylite ≥ 3 mois confirmée sur le texte intégral)."
 sources:
   - id: S1
     reference: "Corbel MJ (coord.). Brucellosis in humans and animals. Geneva: World Health Organization, FAO, OIE; 2006. WHO/CDS/EPR/2006.7. ISBN 92 4 154713 8."
@@ -35,7 +41,7 @@ sources:
     doi: "10.1371/journal.pmed.0040317"
     url: ""
     verifiee: true
-    remarque: "Audit AUD-04 : référence et DOI confirmés ; message principal confirmé (forme non compliquée : doxycycline 6 semaines + streptomycine 2–3 semaines ou + rifampicine 6 semaines ; gentamicine alternative acceptable à la streptomycine ; risque de résistance mycobactérienne lié à la rifampicine là où brucellose et tuberculose coexistent). Durées des formes focalisées non confirmées."
+    remarque: "Audit AUD-04 : référence et DOI confirmés ; message principal confirmé (forme non compliquée : doxycycline 6 semaines + streptomycine 2–3 semaines ou + rifampicine 6 semaines ; gentamicine alternative acceptable à la streptomycine ; risque de résistance mycobactérienne lié à la rifampicine là où brucellose et tuberculose coexistent). Durées des formes focalisées non confirmées." Texte intégral relu par AUD-05 (2026-11-19, PDF acquis 18_RECOMMANDATIONS/03_SOCIETES_SAVANTES/Brucellose_recommandations_Ioannina_PLoSMed_2007.pdf) : spondylite — données en faveur d'au moins 3 mois ; neurobrucellose — aucune recommandation possible faute de données ; endocardite — choix des antibiotiques empirique, chirurgie dans la majorité des cas ; grossesse — cotrimoxazole seul ou associé à la rifampicine.
   - id: S3
     reference: "Pappas G, Akritidis N, Bosilkovski M, Tsianos E. Brucellosis. N Engl J Med. 2005;352(22):2325-2336."
     organisme: "Revue"
@@ -95,6 +101,33 @@ sources:
     url: "https://www.who.int/news-room/fact-sheets/detail/brucellosis"
     verifiee: true
     remarque: "Ajoutée par l'audit : schéma principal doxycycline + streptomycine (durée de l'aminoside non relevée lors de l'audit) ; alternative principale doxycycline 100 mg × 2/j 45 jours + rifampicine 15 mg/kg/j (600–900 mg) 45 jours ; traitement optimal de la femme enceinte et de l'enfant < 8 ans non établi (enfant : cotrimoxazole + aminoside ou rifampicine)."
+  - id: S10
+    reference: "Habib G, Lancellotti P, Antunes MJ, et al. 2015 ESC Guidelines for the management of infective endocarditis. Eur Heart J. 2015;36(44):3075-3128."
+    organisme: ESC
+    annee: 2015
+    type: recommandation
+    doi: "10.1093/eurheartj/ehv319"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 (2026-11-19) pour le schéma de l'endocardite brucellienne (tableau des EI à hémocultures négatives, repris dans DOS-CARD-0005 [S3]). Remplacée par l'ESC 2023 (Delgado V, et al. Eur Heart J. 2023;44(39):3948-4042) ; reprise de ce tableau en 2023 non vérifiée. Pagination finale discordante selon les bases."
+  - id: S11
+    reference: "Keshtkar-Jahromi M, et al. Medical versus medical and surgical treatment for Brucella endocarditis. Ann Thorac Surg. 2012;94(6):2141-2146."
+    organisme: ""
+    annee: 2012
+    type: article
+    doi: "10.1016/j.athoracsur.2012.07.006"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 : revue systématique de 308 cas (1966-2011) ; résumé consulté (recherche web)."
+  - id: S12
+    reference: "Başaran S, Şimşek-Yavuz S, Sarıcaoğlu ME, et al. A systematic review and analysis of Brucella endocarditis cases. Anatol J Cardiol. 2025;29(3):111-117."
+    organisme: ""
+    annee: 2025
+    type: article
+    doi: "10.14744/AnatolJCardiol.2025.4259"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 : 273 cas ; aminosides et chirurgie associés à une mortalité plus faible ; niveau de preuve faible. Résumé consulté (recherche web)."
 mots_cles: [brucellose, fièvre de Malte, Brucella melitensis, zoonose, lait cru, sérodiagnostic de Wright, rose Bengale, spondylodiscite, doxycycline, streptomycine, gentamicine, rifampicine, One Health, Algérie]
 ---
 
@@ -305,7 +338,7 @@ Méningite ou **méningo-encéphalite lymphocytaire** subaiguë avec **hyperprot
 
 ### 10.3 Endocardite brucellienne
 
-**Rare mais principale cause de décès** de la brucellose ; atteinte fréquente de la **valve aortique**, végétations volumineuses, destructions valvulaires ; traitement médical prolongé, **chirurgie valvulaire** souvent nécessaire [S2, S3].
+**Rare mais principale cause de décès** de la brucellose ; atteinte fréquente de la **valve aortique**, végétations volumineuses, destructions valvulaires ; traitement médical prolongé (trithérapie avec aminoside initial, § 13.3 e), **chirurgie valvulaire** souvent nécessaire [S2, S11].
 
 ### 10.4 Autres localisations
 
@@ -382,13 +415,17 @@ Les doses adultes de **doxycycline** (100 mg × 2/j), de **streptomycine** (≈ 
 
 La revue Cochrane de 2012 conclut que **doxycycline + rifampicine est moins efficace** (échec thérapeutique, RR 1,91) que **doxycycline + streptomycine**, et que doxycycline + gentamicine pourrait réduire les échecs par rapport à doxycycline + streptomycine (faible niveau de certitude) [S5] ; la méta-analyse de Solís García del Pozo et Solera va dans le même sens (doxycycline + streptomycine supérieure à doxycycline + rifampicine ; pas de différence significative avec doxycycline + gentamicine) [S6].
 
-**b) Spondylite / spondylodiscite brucellienne** : traitement **prolongé d'au moins 12 semaines (3 mois)** ; schéma préféré : **doxycycline + streptomycine** (2–3 semaines d'aminoside), ou trithérapie avec rifampicine ; la durée est souvent prolongée selon l'évolution clinique et IRM [S2] `[À VÉRIFIER]`. Repos et immobilisation antalgique initiale ; **chirurgie** rarement nécessaire (abcès volumineux, instabilité, compression neurologique).
+**b) Spondylite / spondylodiscite brucellienne** : traitement **prolongé d'au moins 12 semaines (3 mois)** ; schéma préféré : **doxycycline + streptomycine** (2–3 semaines d'aminoside), ou trithérapie avec rifampicine ; la durée est souvent prolongée selon l'évolution clinique et IRM [S2] (texte d'Ioannina relu : données en faveur d'une durée d'**au moins 3 mois** ; schémas avec aminoside possiblement supérieurs aux schémas avec rifampicine ; IRM et immobilisation recommandées). Repos et immobilisation antalgique initiale ; **chirurgie** rarement nécessaire (abcès volumineux, instabilité, compression neurologique).
 
 **c) Sacro-iliite, arthrites périphériques** : bithérapie de 6 semaines habituellement, prolongée si réponse lente.
 
-**d) Neurobrucellose** : associations comportant des antibiotiques à bonne diffusion méningée — par exemple **ceftriaxone** (les premières semaines) + **doxycycline** + **rifampicine** — pendant **plusieurs mois** (au moins 3 à 6 mois, jusqu'à normalisation du LCR) [S2] `[À VÉRIFIER]`.
+**d) Neurobrucellose** : associations comportant des antibiotiques à bonne diffusion méningée — par exemple **ceftriaxone** (les premières semaines) + **doxycycline** + **rifampicine** — pendant **plusieurs mois** (au moins 3 à 6 mois, jusqu'à normalisation du LCR) `[À VÉRIFIER — source à identifier]` ; le consensus d'Ioannina estime que la rareté des données thérapeutiques **ne permet aucune recommandation** pour la neurobrucellose [S2].
 
-**e) Endocardite** : association **doxycycline + rifampicine + aminoside** (± cotrimoxazole), durée prolongée (**au moins 3 à 6 mois**), **chirurgie valvulaire** fréquemment nécessaire [S2, S3] `[À VÉRIFIER]`.
+**e) Endocardite** (synthèse harmonisée avec DOS-CARD-0005 § 13.2.2 — audit de cohérence AUD-05, 2026-11-19) : association **doxycycline + rifampicine (± cotrimoxazole) + aminoside les premières semaines**, durée prolongée (**au moins 3 à 6 mois**), **avis chirurgical précoce** (remplacement valvulaire fréquemment nécessaire). Sources et divergences :
+- le **consensus d'Ioannina (2007)** ne recommande **aucun schéma** pour l'endocardite (moins de 200 cas publiés, aucun essai : choix des antibiotiques empirique) et note qu'une **chirurgie** a été nécessaire dans la majorité des cas rapportés [S2] ;
+- le tableau des EI à hémocultures négatives de l'**ESC 2015** propose doxycycline 200 mg/j + cotrimoxazole 960 mg × 2/j + rifampicine **300–600 mg/j** per os pendant au moins 3 à 6 mois, certains auteurs ajoutant la **gentamicine les 3 premières semaines** [S10] (reprise par l'ESC 2023 non vérifiée `[À VÉRIFIER]`) ; la rifampicine y est donc moins dosée que dans les schémas de la brucellose non compliquée (**600–900 mg/j**, OMS 1986 / Ioannina 2007 [S2]) ;
+- revues systématiques de cas : mortalité de 6,7 % avec traitement médico-chirurgical contre 32,7 % avec traitement médical seul (308 cas [S11]) ; aminosides et chirurgie associés à une mortalité plus faible (273 cas, 2025, niveau de preuve faible [S12]).
+Doses de rifampicine et d'aminoside dans l'endocardite : `[POSOLOGIE À VÉRIFIER — avis infectiologique / protocole local]`.
 
 **f) Orchi-épididymite, formes viscérales** : bithérapie de 6 semaines ; drainage des abcès volumineux.
 
@@ -473,7 +510,8 @@ Brucellose confirmée
  │      OU doxycycline + rifampicine 6 sem (alternative orale)
  ├─ Spondylite → ≥ 12 semaines (doxycycline + aminoside ± rifampicine)
  ├─ Neurobrucellose → ceftriaxone + doxycycline + rifampicine, plusieurs mois
- ├─ Endocardite → trithérapie prolongée + avis chirurgical
+ ├─ Endocardite → doxy + rifampicine (± cotrimoxazole) + aminoside initial,
+ │                ≥ 3–6 mois + avis chirurgical précoce
  ├─ Grossesse → rifampicine ± cotrimoxazole (pas de tétracycline ni d'aminoside)
  ├─ Enfant < 8 ans → cotrimoxazole + rifampicine (ou + gentamicine)
  └─ Rechute → même schéma de référence ; rechercher un foyer ; vérifier l'observance
@@ -777,6 +815,7 @@ Quelles mesures contribuent à la prévention de la brucellose humaine ?
 | **Document OMS 2006** [S1] | Reprend doxycycline-rifampicine et doxycycline-streptomycine comme options | — | Les deux schémas coexistent dans les pratiques |
 | **Durée de traitement des spondylites** | Au moins **12 semaines** (Ioannina) [S2] | Certains auteurs prolongent jusqu'à **6 mois** selon l'évolution | Adapter à la clinique et à l'IRM |
 | **Trithérapie d'emblée** | Réservée aux formes compliquées (endocardite, neurobrucellose, spondylite) | Proposée par certaines équipes dans toutes les formes pour réduire les rechutes | Données limitées |
+| **Endocardite brucellienne** | **ESC 2015** [S10] : doxycycline + cotrimoxazole + rifampicine **300–600 mg/j**, ≥ 3–6 mois ; gentamicine les 3 premières semaines « selon certains auteurs » | **Ioannina 2007** [S2] : aucun schéma recommandé (choix empirique), chirurgie dans la majorité des cas ; rifampicine **600–900 mg/j** dans la forme non compliquée | Revues de cas [S11, S12] : aminoside et chirurgie associés à une moindre mortalité → trithérapie avec aminoside initial, ≥ 3–6 mois, avis chirurgical (§ 13.3 e ; DOS-CARD-0005) |
 | **Seuil de positivité du Wright** | ≥ 1/80 hors zone d'endémie | **≥ 1/160** en zone d'endémie [S1] | Toujours interpréter avec la clinique et l'exposition |
 | **Enfant < 8 ans** | Éviter les tétracyclines → cotrimoxazole + rifampicine [S1] | La doxycycline en cure courte est désormais jugée acceptable par certaines sociétés pédiatriques dans d'autres indications `[À VÉRIFIER]` | Pour une cure de 6 semaines, l'éviction reste la règle |
 | **Rifampicine en pays d'endémie tuberculeuse** | Utilisée largement (schéma OMS 1986) | Préférence pour les schémas avec aminoside afin de préserver la rifampicine (position d'experts) `[À VÉRIFIER]` | Éliminer une tuberculose active avant tout schéma avec rifampicine |
@@ -796,5 +835,10 @@ Détail complet dans l'en-tête YAML. **Audit AUD-04 (2026-11-19)** : existence 
 7. [S7] Dean AS, et al. Clinical manifestations of human brucellosis. PLoS Negl Trop Dis 2012;6(12):e1929.
 8. [S8] Ministère de la Santé / INSP / services vétérinaires (Algérie) — textes et relevés à préciser.
 9. [S9] OMS. Brucellose — aide-mémoire (consulté le 19/11/2026).
+10. [S10] Habib G, et al. 2015 ESC Guidelines for the management of infective endocarditis. Eur Heart J 2015;36(44):3075-31xx. doi:10.1093/eurheartj/ehv319 (remplacée par l'ESC 2023).
+11. [S11] Keshtkar-Jahromi M, et al. Medical versus medical and surgical treatment for Brucella endocarditis. Ann Thorac Surg 2012;94(6):2141-6.
+12. [S12] Başaran S, et al. A systematic review and analysis of Brucella endocarditis cases. Anatol J Cardiol 2025;29(3):111-7.
+
+> **Audit de cohérence AUD-05 (2026-11-19)** : endocardite brucellienne harmonisée avec DOS-CARD-0005 ; attributions au consensus d'Ioannina vérifiées sur le texte intégral (PDF acquis) ; détails dans `00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md`.
 
 > **Reste à faire après l'audit du 2026-11-19** : (1) confronter au texte intégral d'Ioannina et de l'OMS 2006 les durées des formes focalisées (spondylite, neurobrucellose, endocardite) et les schémas de l'enfant et de la femme enceinte ; (2) rechercher un **protocole national algérien** de prise en charge de la brucellose et les **relevés épidémiologiques de l'INSP** (incidence, wilayas, saisonnalité) ; (3) vérifier le statut de maladie à déclaration obligatoire et de maladie professionnelle ; (4) préciser le programme vétérinaire national (vaccins, dépistage-abattage).

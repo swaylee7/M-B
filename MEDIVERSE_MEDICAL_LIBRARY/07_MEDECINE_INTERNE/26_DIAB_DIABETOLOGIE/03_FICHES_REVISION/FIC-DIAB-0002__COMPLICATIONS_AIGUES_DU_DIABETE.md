@@ -4,7 +4,12 @@ titre: "Fiche — Complications aiguës du diabète : acidocétose, hypoglycémi
 specialite: DIAB
 items_residanat: [RES-MED-092]
 dossier_source: DOS-DIAB-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-DIAB-0002 v1.2 : cible glycémique de l'ACD (autour de 200 mg/dL, consensus 2024) distinguée de celle de l'EHH (JBDS 2023 : 10–15 mmol/L les 24 premières heures)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Complications aiguës du diabète (RES-MED-092)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-DIAB-0002 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau. Référentiels : **consensus international 2024** sur les crises hyperglycémiques de l'adulte [S1], ADA 2026 (hypoglycémie) [S2], JBDS [S4, S5], ISPAD 2022 (enfant) [S6]. Protocoles adultes ≠ pédiatriques.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-DIAB-0002 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau. Référentiels : **consensus international 2024** sur les crises hyperglycémiques de l'adulte [S1], ADA 2026 (hypoglycémie) [S2], JBDS [S4, S5], ISPAD 2022 (enfant) [S6]. Protocoles adultes ≠ pédiatriques.
 
 ## 1. Définition (2 lignes)
 
@@ -144,7 +149,7 @@ ACD DE L'ADULTE (consensus 2024)
 | ACD légère/modérée non compliquée | Analogues rapides SC : 0,1 U/kg toutes les heures ou 0,2 U/kg toutes les 2 h (pas si sévère, compliquée ni EHH) |
 | Mesures générales | Scope, surveillance horaire, **arrêt des iSGLT2**, **HBPM préventive**, traitement du déclencheur |
 
-**EHH** : **remplissage d'abord** (NaCl 0,9 %, 500–1 000 mL/h ; JBDS : + 3 à 6 L en 12 h) ; corriger **lentement** : glycémie ≤ 90–120 mg/dL/h (JBDS ≤ 5 mmol/L/h), **osmolalité 3–8 mOsm/kg/h**, **natrémie ≤ 10 mmol/L/24 h** ; une hausse initiale de la natrémie n'impose pas de soluté hypotonique ; insuline **0,05 U/kg/h** (0,1 si cétose ≥ 3 ou acidose) — JBDS 2023 : seulement quand la glycémie ne baisse plus ; **HBPM** toute l'hospitalisation ; **protection des talons**.
+**EHH** : **remplissage d'abord** (NaCl 0,9 %, 500–1 000 mL/h ; JBDS : + 3 à 6 L en 12 h) ; corriger **lentement** : glycémie ≤ 90–120 mg/dL/h (JBDS ≤ 5 mmol/L/h), **osmolalité 3–8 mOsm/kg/h**, **natrémie ≤ 10 mmol/L/24 h** ; une hausse initiale de la natrémie n'impose pas de soluté hypotonique ; insuline **0,05 U/kg/h** (0,1 si cétose ≥ 3 ou acidose) — JBDS 2023 : seulement quand la glycémie ne baisse plus ; **cible glycémique JBDS : 10–15 mmol/L (≈ 180–270 mg/dL) les 24 premières heures**, glucose 5–10 % dès < 14 mmol/L (≠ cible de l'ACD, autour de 200 mg/dL) ; **HBPM** toute l'hospitalisation ; **protection des talons**.
 
 **Hypoglycémie** :
 

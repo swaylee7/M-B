@@ -4,7 +4,12 @@ titre: "Fiche — Hépatites virales A, B, C"
 specialite: HEPA
 items_residanat: [RES-MED-019]
 dossier_source: DOS-HEPA-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-HEPA-0001 v1.2 : critères de traitement OMS 2024 (fibrose ≥ F2 et ADN > 2 000 + ALAT > LSN = critères distincts) séparés de la formule EASL 2017."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Hépatites virales A, B, C (RES-MED-019)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-HEPA-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau. EASL 2025 (VHB) : texte intégral non consulté, critères détaillés `[À VÉRIFIER]` ; OMS 2024 vérifiée dans le document acquis.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-HEPA-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau. EASL 2025 (VHB) : texte intégral non consulté, critères détaillés `[À VÉRIFIER]` ; OMS 2024 vérifiée dans le document acquis.
 
 ## 1. Définition (2 lignes)
 
@@ -185,7 +190,7 @@ VHC — TRAITER TOUTE PERSONNE VIRÉMIQUE (y compris aiguë) → RVS12
 2. VHB aigu : AgHBs + IgM anti-HBc ; chronique : AgHBs > 6 mois.
 3. Gravité : TP/facteur V + encéphalopathie.
 4. Anti-VHD chez tout porteur de l'AgHBs.
-5. Traitement VHB : cirrhose + ADN détectable ; ADN ≥ 2 000 + ALAT ↑ et/ou fibrose ; critères OMS élargis.
+5. Traitement VHB : cirrhose + ADN détectable (EASL 2025) ; ADN ≥ 2 000 + ALAT ↑ et/ou fibrose (EASL 2017) ; OMS 2024 : fibrose ≥ F2 seule, OU ADN > 2 000 + ALAT > LSN, OU cofacteur.
 6. ETV, TDF, TAF ; jamais d'arrêt chez le cirrhotique.
 7. VHC : traiter tout virémique ; SOF/VEL 12 sem ou G/P 8 sem ; interactions, AgHBs.
 8. Grossesse : TDF, sérovaccination, allaitement possible.

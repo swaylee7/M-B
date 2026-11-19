@@ -1971,6 +1971,663 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-13",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1301",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'organisation génomique du complexe HLA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est situé sur le bras court du chromosome 6.",
+        "B": "Le gène de la β2-microglobuline appartient à la région de classe I.",
+        "C": "Les gènes TAP1 et TAP2 sont situés dans la région de classe II.",
+        "D": "La région de classe III contient des gènes du complément (C2, C4, facteur B).",
+        "E": "Le gène CYP21A2 de la 21-hydroxylase est situé dans la région HLA."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le complexe HLA (6p21.3) comprend les régions de classe I, II (avec DM, DO, TAP, PSMB) et III (complément, TNF, CYP21A2). La β2-microglobuline est codée sur le chromosome 15.",
+      "explications_par_proposition": {
+        "A": "Vrai : 6p21.3.",
+        "B": "Faux : chromosome 15.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai : d'où le lien entre HLA et hyperplasie congénitale des surrénales."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "HLA — organisation génomique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Placer la β2-microglobuline dans le complexe HLA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Klein J, Sato A. N Engl J Med 2000;343:702-9",
+          "date": "2000"
+        },
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1302",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les molécules HLA de classe I, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le sillon peptidique est formé par les domaines α1 et α2 de la chaîne lourde.",
+        "B": "Le sillon est fermé à ses deux extrémités et loge des peptides de 8 à 10 acides aminés.",
+        "C": "Le domaine α3 fixe le corécepteur CD4.",
+        "D": "Elles sont exprimées par toutes les cellules nucléées.",
+        "E": "Les résidus polymorphes sont concentrés dans le sillon peptidique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Classe I : chaîne α (α1, α2, α3) + β2m ; sillon fermé (α1-α2), peptides courts ; α3 fixe CD8 ; expression ubiquitaire (cellules nucléées) ; polymorphisme concentré dans le sillon.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : CD8.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Structure des molécules HLA de classe I",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inverser CD4 et CD8.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bjorkman PJ et al. Nature 1987;329:506-12",
+          "date": "1987"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1303",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les molécules HLA de classe II, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles sont formées de deux chaînes transmembranaires α et β.",
+        "B": "Le sillon est formé par les domaines α1 et β1 et il est ouvert à ses extrémités.",
+        "C": "Elles présentent des peptides de 12 à 25 acides aminés environ.",
+        "D": "Le domaine β2 fixe le corécepteur CD4.",
+        "E": "Elles sont exprimées constitutivement par toutes les cellules nucléées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Classe II : α + β ; sillon ouvert (α1-β1), peptides longs ; CD4 sur β2 ; expression constitutive limitée aux cellules présentatrices professionnelles et à l'épithélium thymique, inductible par l'IFN-γ.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Structure des molécules HLA de classe II",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brown JH et al. Nature 1993;364:33-9",
+          "date": "1993"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1304",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'apprêtement et la présentation des antigènes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les transporteurs TAP font entrer les peptides cytosoliques dans le réticulum endoplasmique.",
+        "B": "La chaîne invariante empêche le chargement prématuré de peptides sur les molécules de classe II dans le réticulum.",
+        "C": "HLA-DM catalyse l'échange du peptide CLIP contre un peptide antigénique.",
+        "D": "La présentation croisée permet à certaines cellules dendritiques de présenter des antigènes exogènes sur la classe I.",
+        "E": "Les peptides présentés par la classe II proviennent exclusivement de protéines cytosoliques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Voie I : protéasome → TAP → complexe de chargement (tapasine) → surface (T CD8). Voie II : chaîne invariante → CLIP → HLA-DM → surface (T CD4). Présentation croisée par les cDC1 ; l'autophagie permet aussi la présentation de protéines cytosoliques par la classe II.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : surtout des protéines endocytées ou membranaires."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Voies de présentation des antigènes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que HLA-DM présente des peptides.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        },
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology, 9e éd. 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1305",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle est la probabilité qu'un frère ou une sœur soit HLA-identique (mêmes deux haplotypes) à un patient ?",
+      "propositions": {
+        "A": "0 %.",
+        "B": "12,5 %.",
+        "C": "25 %.",
+        "D": "50 %.",
+        "E": "100 %."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Chaque enfant reçoit un des deux haplotypes de chaque parent : 1/2 × 1/2 = 1/4 d'identité, 1/2 d'haplo-identité, 1/4 de différence totale.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Faux : c'est la probabilité d'haplo-identité.",
+        "E": "Faux : seuls les jumeaux monozygotes sont toujours identiques."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Transmission des haplotypes HLA",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre identité et haplo-identité.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Klein J, Sato A. N Engl J Med 2000;343:702-9",
+          "date": "2000"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1306",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos de l'allèle « HLA-B*57:01 », quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "« 57 » désigne le groupe d'allèles, correspondant le plus souvent à la spécificité sérologique.",
+        "B": "« 01 » désigne une protéine HLA spécifique.",
+        "C": "Un typage qui identifie B*57:01 est un typage de haute résolution.",
+        "D": "La lettre N ajoutée en fin de nom signale un allèle sécrété.",
+        "E": "Cet allèle est associé à l'hypersensibilité à l'abacavir."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Nomenclature à champs (2010) : gène*groupe:protéine:synonyme:non codant + suffixe d'expression (N = nul, S = sécrété, L = faible). B*57:01 est dépisté avant toute prescription d'abacavir.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : 2e champ.",
+        "D": "Faux : N = allèle nul (non exprimé) ; S = sécrété.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Nomenclature HLA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Marsh SGE et al. Tissue Antigens 2010;75:291-455",
+          "date": "2010"
+        },
+        {
+          "reference": "Mallal S et al. N Engl J Med 2008;358:568-79",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1307",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Zinkernagel et Doherty ont montré que les lymphocytes T cytotoxiques ne tuent des cellules infectées que si elles partagent avec eux des molécules du CMH.",
+        "B": "Le récepteur T reconnaît un complexe formé par le peptide et la molécule HLA.",
+        "C": "La sélection positive thymique retient les thymocytes reconnaissant faiblement le complexe peptide du soi-HLA du soi.",
+        "D": "La sélection négative élimine les thymocytes qui ne reconnaissent aucune molécule HLA.",
+        "E": "Les thymocytes reconnaissant la classe I s'orientent vers la lignée CD8."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Restriction par le CMH (1974) ; sélection positive (reconnaissance faible → survie, choix CD4/CD8) ; sélection négative (reconnaissance forte → délétion ou orientation régulatrice). Les thymocytes qui ne reconnaissent rien meurent par négligence.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : ce sont ceux qui reconnaissent trop fortement le soi qui sont éliminés ; l'absence de reconnaissance entraîne une mort par négligence.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Restriction par le CMH et sélection thymique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre mort par négligence et sélection négative.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Zinkernagel RM, Doherty PC. Nature 1974;248:701-2",
+          "date": "1974"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1308",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les interactions entre cellules NK et molécules HLA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les récepteurs KIR reconnaissent notamment des groupes d'allèles HLA-C.",
+        "B": "CD94/NKG2A reconnaît HLA-E.",
+        "C": "La perte d'expression de la classe I par une cellule tumorale favorise sa lyse par les NK.",
+        "D": "HLA-G est exprimé par le trophoblaste extravilleux.",
+        "E": "Les cellules NK nécessitent une restriction par le CMH pour reconnaître un peptide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les NK sont inhibées par les molécules de classe I du soi (KIR/HLA-C, Bw4 ; NKG2A/HLA-E) : leur absence lève l'inhibition (« soi manquant »). HLA-G participe à la tolérance fœto-maternelle.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : les NK n'ont pas de récepteur spécifique d'un peptide restreint par le CMH."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Cellules NK et molécules HLA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1309",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le bilan immunologique d'une greffe rénale, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un crossmatch lymphocytaire T positif par lymphocytotoxicité, dû à des IgG anti-HLA, expose à un rejet hyperaigu.",
+        "B": "Le crossmatch consiste à tester le sérum du receveur contre les lymphocytes du donneur.",
+        "C": "Les tests en phase solide sur billes single antigen permettent d'identifier les spécificités des anticorps anti-HLA.",
+        "D": "Les grossesses et les transfusions peuvent induire des anticorps anti-HLA.",
+        "E": "La compatibilité HLA dispense de la compatibilité ABO."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Patel et Terasaki (1969) ont associé le crossmatch positif au rejet hyperaigu. Les tests sur microbilles (Luminex) identifient les DSA (consensus 2013). L'ABO reste la première barrière.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Crossmatch et anticorps anti-HLA en greffe rénale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre crossmatch et typage.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Patel R, Terasaki PI. N Engl J Med 1969;280:735-9",
+          "date": "1969"
+        },
+        {
+          "reference": "Tait BD et al. Transplantation 2013;95:19-47",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1310",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la compatibilité HLA en greffe de cellules souches hématopoïétiques allogénique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un frère ou une sœur HLA-identique est le donneur de référence.",
+        "B": "Pour un donneur adulte non apparenté, une compatibilité haute résolution HLA-A, -B, -C et -DRB1 (8/8) est recherchée.",
+        "C": "La présence de DSA chez le receveur augmente le risque d'échec de prise de greffe.",
+        "D": "La greffe haplo-identique est impossible.",
+        "E": "La compatibilité HLA est moins importante qu'en greffe rénale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La GVH impose une compatibilité stricte. Recommandations NMDP/CIBMTR 2019 : compatibilité haute résolution primordiale pour un donneur non apparenté, rôle des DSA ; greffes haplo-identiques possibles avec cyclophosphamide post-greffe.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : elle est largement pratiquée.",
+        "E": "Faux : elle est plus stricte."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Greffe de cellules souches hématopoïétiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dehn J et al. Blood 2019;134:924-34",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1311",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles associations HLA – maladie sont exactes ?",
+      "propositions": {
+        "A": "HLA-B27 – spondylarthrite ankylosante.",
+        "B": "HLA-B51 – maladie de Behçet.",
+        "C": "HLA-DQ2/DQ8 – maladie cœliaque.",
+        "D": "HLA-DQB1*06:02 – narcolepsie de type 1.",
+        "E": "HLA-A29 – polyarthrite rhumatoïde."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "HLA-A29 est associé à la choriorétinopathie de type birdshot ; la polyarthrite rhumatoïde à ACPA est associée aux allèles DRB1 de l'« épitope partagé ».",
+      "explications_par_proposition": {
+        "A": "Vrai : retrouvé en Algérie (OR ≈ 14,6).",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : birdshot."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Associations HLA – maladies",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brewerton DA et al. Lancet 1973;1:904-7",
+          "date": "1973"
+        },
+        {
+          "reference": "Dahmani CA et al. Int J Immunogenet 2018;45:109-17",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1312",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'utilisation diagnostique du typage HLA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'absence de HLA-DQ2 et de HLA-DQ8 rend une maladie cœliaque très improbable.",
+        "B": "Selon l'ESPGHAN 2020, la détermination de HLA-DQ2/DQ8 n'est pas un critère obligatoire du diagnostic sans biopsie chez l'enfant.",
+        "C": "La présence de HLA-B27 suffit à poser le diagnostic de spondylarthrite.",
+        "D": "La valeur prédictive positive d'un allèle fréquent dans la population générale est faible.",
+        "E": "Le dépistage de HLA-B*57:01 avant abacavir a supprimé les réactions d'hypersensibilité immunologiquement confirmées dans l'essai PREDICT-1."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le typage HLA est surtout utile par sa valeur prédictive négative (DQ2/DQ8) et en pharmacogénétique (B*57:01 : 0 % contre 2,7 % de réactions confirmées). Une association forte n'implique pas une bonne valeur prédictive positive.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Valeur diagnostique du typage HLA",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Utiliser HLA-B27 ou DQ2 comme test de confirmation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Husby S et al. J Pediatr Gastroenterol Nutr 2020;70:141-56",
+          "date": "2020"
+        },
+        {
+          "reference": "Mallal S et al. N Engl J Med 2008;358:568-79",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1313",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le déficit d'expression des molécules HLA de classe II, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est dû à des mutations de facteurs de transcription (CIITA, RFX5, RFXAP, RFXANK).",
+        "B": "Il entraîne une lymphopénie T CD4 et un déficit immunitaire combiné.",
+        "C": "Une mutation fondatrice de RFXANK est partagée par des familles d'Afrique du Nord.",
+        "D": "La greffe de cellules souches hématopoïétiques est le seul traitement curatif.",
+        "E": "Il s'agit d'une maladie liée à l'X."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Maladie autosomique récessive, fréquente au Maghreb du fait d'une mutation fondatrice de RFXANK et de la consanguinité ; la greffe de CSH est curative (série de 35 patients nord-africains).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : autosomique récessive."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Déficit d'expression des molécules HLA de classe II",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Attribuer le déficit à une mutation des gènes HLA eux-mêmes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ouederni M et al. Blood 2011;118:5108-18",
+          "date": "2011"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
     }
   ]
 }

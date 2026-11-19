@@ -1,0 +1,158 @@
+{
+  "agent": "DOS-02",
+  "lot": "lot2",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-INFE-0201",
+      "titre": "Fièvre prolongée et prostration chez un étudiant de 21 ans",
+      "niveau": "residanat",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 21 ans, étudiant, vivant dans un quartier périurbain alimenté par citerne.",
+      "motif_consultation": "Fièvre persistante depuis 9 jours malgré du paracétamol.",
+      "antecedents": "Aucun. Pas de voyage. Deux voisins ont été hospitalisés pour « fièvre » le mois précédent.",
+      "symptomes": "Fièvre d'installation progressive, céphalées frontales, insomnie, douleurs abdominales diffuses, constipation puis diarrhée depuis 2 jours, épistaxis à J4 ; depuis 48 heures, somnolence et indifférence.",
+      "examen_clinique": "T 39,8 °C, FC 84/min (pouls dissocié), PA 110/70 mmHg, FR 18/min ; patient prostré, répondant lentement ; langue saburrale ; abdomen souple, sensible, gargouillement de la fosse iliaque droite ; splénomégalie à 2 travers de doigt ; quelques macules rosées sur l'abdomen ; pas de raideur de nuque ; auscultation cardiaque normale.",
+      "biologie": "Leucocytes 3 200/mm3 (N 4 000–10 000), PNN 1 900/mm3, éosinophiles 0/mm3, Hb 12,4 g/dL, plaquettes 128 000/mm3 (N 150 000–400 000), CRP 96 mg/L (N < 5), ASAT 2 × N, ALAT 2,5 × N, créatinine 9 mg/L (N 6–12), natrémie 133 mmol/L. TDR paludisme non réalisé (aucune exposition). Hémocultures (2 paires) : bacilles à Gram négatif à J2, identifiés Salmonella Typhi ; antibiogramme : sensible à l'ampicilline, au cotrimoxazole, à la ceftriaxone et à l'azithromycine ; résistant à l'acide nalidixique, ciprofloxacine intermédiaire.",
+      "imagerie": "Échographie abdominale : splénomégalie homogène, épaississement de la dernière anse iléale, adénopathies mésentériques ; pas d'épanchement.",
+      "hypotheses_diagnostiques": [
+        "Fièvre typhoïde à la phase d'état",
+        "Fièvre paratyphoïde"
+      ],
+      "diagnostics_differentiels": [
+        "Brucellose",
+        "Leishmaniose viscérale",
+        "Tuberculose",
+        "Rickettsiose",
+        "Primo-infection VIH",
+        "Endocardite infectieuse"
+      ],
+      "examens_a_demander": [
+        "Hémocultures avant antibiotique",
+        "NFS, CRP, bilan hépatique et rénal, ionogramme",
+        "Coproculture",
+        "ECG",
+        "Échographie abdominale"
+      ],
+      "diagnostic_final": "Fièvre typhoïde à S. Typhi de sensibilité diminuée aux fluoroquinolones, forme non compliquée avec tuphos modéré.",
+      "traitement": "Hospitalisation (tuphos). Après les hémocultures, traitement probabiliste ; au vu de l'antibiogramme (sensibilité diminuée aux fluoroquinolones), azithromycine 1 g le 1er jour puis 500 mg/j par voie orale (OMS, AWaRe 2022) ; durée 7 jours (forme légère) — à porter à 10 jours si la forme était jugée sévère. Paracétamol, hydratation, alimentation adaptée ; précautions d'hygiène (mains, selles). Déclaration obligatoire ; enquête (citerne, voisins).",
+      "surveillance": "Température (défervescence attendue en 3 à 5 jours), conscience, examen abdominal biquotidien, selles, NFS et CRP, ECG (QT sous azithromycine) ; coprocultures de contrôle après traitement si profession à risque.",
+      "evolution": "Apyrexie à J5 du traitement, disparition du tuphos à J3 ; sortie à J7 ; coprocultures de contrôle négatives.",
+      "explication_pedagogique": "Le cas illustre la fièvre typhoïde typique (fièvre progressive, pouls dissocié, tuphos, taches rosées, leuconeutropénie avec anéosinophilie), la primauté des hémocultures, le repérage de la sensibilité diminuée aux fluoroquinolones par la résistance à l'acide nalidixique et le choix de l'azithromycine, ainsi que la dimension de santé publique (eau de citerne, cas groupés, déclaration).",
+      "questions": [
+        {
+          "question": "Quels éléments orientent vers une fièvre typhoïde ?",
+          "reponse": "Fièvre progressive de plus d'une semaine, céphalées, insomnie, troubles digestifs, épistaxis, pouls dissocié, tuphos, splénomégalie, taches rosées, leuconeutropénie avec anéosinophilie, contexte hydrique et cas dans l'entourage."
+        },
+        {
+          "question": "Quel examen est prioritaire ?",
+          "reponse": "Les hémocultures avant toute antibiothérapie ; la sérologie de Widal, non fiable selon l'OMS, ne doit ni retarder ni remplacer les cultures."
+        },
+        {
+          "question": "Comment interpréter la résistance à l'acide nalidixique ?",
+          "reponse": "Elle signale une sensibilité diminuée aux fluoroquinolones : la ciprofloxacine est à éviter ; on retient l'azithromycine (forme légère) ou la ceftriaxone (forme sévère)."
+        },
+        {
+          "question": "Quelles mesures de santé publique ?",
+          "reponse": "Déclaration obligatoire (catégorie 1, décret 22-250), enquête sur l'eau de citerne et les cas voisins avec les services d'hygiène, éducation à l'hygiène des mains et de l'eau, contrôle du portage chez les personnes à risque de transmission."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Crump JA, et al. Invasive Salmonella infections. Clin Microbiol Rev 2015;28(4):901-937",
+          "date": "2015"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "CAS-INFE-0202",
+      "titre": "Fièvre et douleur abdominale aiguë chez une enfant revenant du Pakistan",
+      "niveau": "dems",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille, 8 ans, 24 kg, de retour d'un séjour familial de 6 semaines à Karachi (Pakistan), rentrée il y a 6 jours.",
+      "motif_consultation": "Fièvre depuis 12 jours et douleur abdominale brutale depuis 6 heures.",
+      "antecedents": "Aucun. Vaccinations du calendrier national à jour. Pas de vaccination antityphoïdique. Traitée sur place par céfixime oral pendant 5 jours sans amélioration.",
+      "symptomes": "Fièvre persistante, anorexie, diarrhée intermittente, somnolence ; ce matin, douleur abdominale brutale, vomissements.",
+      "examen_clinique": "T 39,4 °C, FC 148/min, PA 82/50 mmHg, TRC 4 s, marbrures des genoux ; enfant geignarde ; abdomen distendu, défense diffuse, disparition de la matité préhépatique.",
+      "biologie": "Leucocytes 14 500/mm3, CRP 260 mg/L, lactate 4,2 mmol/L (N < 2), créatinine 9 mg/L (N 3–7 à cet âge), plaquettes 92 000/mm3. TDR paludisme négatif. Hémocultures : S. Typhi résistante à l'ampicilline, au chloramphénicol, au cotrimoxazole, à la ciprofloxacine et à la ceftriaxone (bêta-lactamase à spectre étendu) ; sensible à l'azithromycine et au méropénem.",
+      "imagerie": "Radiographie de l'abdomen debout : pneumopéritoine. Scanner : épanchement péritonéal, épaississement iléal.",
+      "hypotheses_diagnostiques": [
+        "Fièvre typhoïde compliquée de perforation iléale avec choc septique",
+        "Souche ultrarésistante (XDR) acquise au Pakistan"
+      ],
+      "diagnostics_differentiels": [
+        "Appendicite perforée",
+        "Paludisme grave (éliminé par le TDR, à confirmer par frottis)",
+        "Invagination, volvulus"
+      ],
+      "examens_a_demander": [
+        "Hémocultures, antibiogramme complet",
+        "Frottis-goutte épaisse",
+        "Lactate, gaz du sang, hémostase",
+        "Radiographie / scanner abdominal",
+        "Groupe sanguin, bilan préopératoire"
+      ],
+      "diagnostic_final": "Fièvre typhoïde XDR compliquée de perforation iléale et de choc septique, chez une enfant revenant du Pakistan.",
+      "traitement": "Réanimation pédiatrique du choc septique (remplissage, vasopresseur si besoin, selon les recommandations pédiatriques) ; antibiothérapie intraveineuse immédiate active sur une souche XDR : carbapénème (méropénem) ± azithromycine [POSOLOGIE À VÉRIFIER — protocole pédiatrique local], la ceftriaxone étant à proscrire devant le risque XDR ; laparotomie en urgence (suture ou résection iléale, lavage péritonéal) ; isolement contact (BMR, BLSE) ; déclaration obligatoire avec mention du profil de résistance.",
+      "surveillance": "Hémodynamique, lactate, diurèse, examen de la paroi et des drains, NFS, CRP, fonction rénale ; hémocultures de contrôle ; relais oral par azithromycine selon l'évolution ; coprocultures de contrôle et dépistage de l'entourage.",
+      "evolution": "Chirurgie à H4 (perforation unique de l'iléon terminal, suture) ; sevrage des vasopresseurs à J2 ; apyrexie à J6 ; relais oral par azithromycine ; sortie à J14.",
+      "explication_pedagogique": "Le cas souligne le poids du lieu d'acquisition (Pakistan = risque XDR), l'inefficacité prévisible des céphalosporines (céfixime, ceftriaxone), la gravité de la perforation iléale (3e semaine), la nécessité d'une réanimation, d'une chirurgie urgente et d'une antibiothérapie par carbapénème réservée à cette situation, ainsi que l'intérêt du vaccin conjugué avant un séjour en zone d'endémie.",
+      "questions": [
+        {
+          "question": "Pourquoi suspecter d'emblée une souche XDR ?",
+          "reponse": "Acquisition au Pakistan (clone XDR décrit au Sindh depuis 2016) et échec d'une céphalosporine orale."
+        },
+        {
+          "question": "Quelle antibiothérapie probabiliste ?",
+          "reponse": "Une molécule active sur une souche XDR : carbapénème (méropénem) ± azithromycine dans cette forme compliquée ; ni ceftriaxone ni fluoroquinolone."
+        },
+        {
+          "question": "Quelle prise en charge de la complication ?",
+          "reponse": "Réanimation du choc septique puis laparotomie urgente pour perforation iléale, avec antibiothérapie couvrant aussi la flore digestive."
+        },
+        {
+          "question": "Quelle prévention aurait pu être proposée avant le voyage ?",
+          "reponse": "Vaccin conjugué antityphoïdique (dose unique dès 6 mois selon l'OMS), conseils d'hygiène de l'eau et des aliments."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "OMS. Typhoid vaccines: WHO position paper – March 2018. Wkly Epidemiol Rec 2018;93(13):153-172",
+          "date": "2018"
+        },
+        {
+          "reference": "Klemm EJ, et al. Extensively drug-resistant Salmonella Typhi clone (Pakistan). mBio 2018;9(1):e00105-18",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    }
+  ]
+}

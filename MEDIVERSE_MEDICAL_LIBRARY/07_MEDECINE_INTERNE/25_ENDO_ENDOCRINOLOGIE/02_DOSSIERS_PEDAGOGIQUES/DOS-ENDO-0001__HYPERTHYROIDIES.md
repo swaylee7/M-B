@@ -6,12 +6,18 @@ sous_specialite: "Thyroïde — thyrotoxicoses"
 items_residanat: [RES-MED-084]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-03 (IA) — dossier pédagogique original"
 statut: audite_corrections_requises
 audit:
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : fréquence de l'agranulocytose sous ATS harmonisée (≈ 0,2–0,5 % des patients, revue Vicente 2017 [S13], cohérent avec la catégorie « rare, 0,2–1 % » du tableau ETA) ; valeurs non sourcées MMI ≈ 0,6 % / PTU ≈ 1–1,5 % et « 0,1–1 % » supprimées. Restent ouverts les points des audits précédents."
   - date: 2026-11-19
     auditeur: "AUD-01 (IA)"
     verdict: audite_corrections_requises
@@ -121,6 +127,15 @@ sources:
     doi: "10.1530/ETJ-25-0318"
     url: ""
     verifiee: true
+  - id: S13
+    reference: "Vicente N, Cardoso L, Barros L, Carrilho F. Antithyroid Drug-Induced Agranulocytosis: State of the Art on Diagnosis and Management. Drugs R D. 2017;17(1):91-96."
+    organisme: ""
+    annee: 2017
+    type: article
+    doi: "10.1007/s40268-017-0172-1"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 (2026-11-19) : agranulocytose chez 0,2–0,5 % des patients atteints de maladie de Basedow traités par ATS (résumé consulté par recherche web). Valeur concordante avec une revue des preuves du NICE (NG145, 2019)."
 mots_cles: [hyperthyroïdie, thyrotoxicose, maladie de Basedow, TRAb, goitre multinodulaire toxique, adénome toxique, thyroïdite, amiodarone, crise aiguë thyrotoxique, antithyroïdiens de synthèse, iode radioactif, thyroïdectomie, orbitopathie, grossesse]
 ---
 
@@ -415,7 +430,7 @@ Contrôler rapidement les symptômes adrénergiques ; restaurer et maintenir l'e
 |---|---|---|
 | Demi-vie / durée d'action | 6–8 h / > 24 h (prise unique) | 90 min / 8–12 h (prises fractionnées) |
 | Puissance relative | ≈ 10 | 1 |
-| Agranulocytose (tableau ETA) | ≈ 0,6 % | ≈ 1–1,5 % |
+| Agranulocytose | ≈ 0,2–0,5 % des patients sous ATS, toutes molécules confondues [S13] (catégorie « rare » du tableau ETA [S1]) | Même ordre de fréquence [S13] |
 | Hépatotoxicité | Plutôt cholestatique, dose-dépendante | **Hépatite cytolytique** potentiellement sévère, surtout chez l'enfant |
 | Autres | Embryopathie (semaines 6–10) | Vascularite à ANCA, lupus induit |
 | Place | **Molécule de choix hors grossesse** [S1, recommandation 6] | 1er trimestre de grossesse, crise aiguë, intolérance mineure au MMI |
@@ -432,7 +447,7 @@ Contrôler rapidement les symptômes adrénergiques ; restaurer et maintenir l'e
 
 **Effets indésirables** (tableau ETA) [S1] :
 - **Fréquents (1–5 %)** : rash, urticaire, arthralgies, fièvre, leucopénie modérée transitoire — les réactions cutanées mineures se traitent par antihistaminique sans arrêter l'ATS ou par changement de molécule ; en cas de réaction allergique grave, ne pas prescrire l'autre ATS.
-- **Rares (0,2–1 %)** : troubles digestifs, troubles du goût, **agranulocytose** (PNN < 500/mm³ ; 0,1–1 % ; survenue brutale, surtout dans les **3 premiers mois**).
+- **Rares (0,2–1 %)** : troubles digestifs, troubles du goût, **agranulocytose** (PNN < 500/mm³ ; **≈ 0,2–0,5 % des patients traités** [S13] ; survenue brutale, surtout dans les **3 premiers mois**).
 - **Très rares (< 0,1 %)** : aplasie, thrombopénie, **vascularite à ANCA / lupus induit (PTU)**, **hépatite (PTU)**, ictère cholestatique (MMI/CBZ), hypoglycémie auto-immune (PTU).
 - **Conduite** : informer **par écrit** le patient d'arrêter l'ATS et de faire une **NFS en urgence** en cas de fièvre, angine, ulcérations buccales ; bilan hépatique en cas d'ictère, selles décolorées, urines foncées ; **un effet majeur contre-indique définitivement les ATS** [S1, recommandations 10–11]. La surveillance systématique répétée de la NFS n'est pas jugée utile par l'ETA (début brutal) [S1].
 - Facteurs génétiques de l'agranulocytose (HLA-B*38:02, HLA-DRB1*08:03 chez les Asiatiques) : intérêt de recherche [S1].
@@ -633,7 +648,7 @@ Fièvre, angine, ulcérations buccales sous ATS
 2. **TSH = test initial** ; TSH + T4L d'emblée si suspicion forte ; sous ATS, suivre **T4L/T3L** (TSH en retard) [S1].
 3. **TRAb** : sensibilité ~97 %, spécificité ~98 % pour le Basedow ; échographie-Doppler en 1re intention ; scintigraphie si nodules ou avant iode 131 [S1].
 4. Basedow (ETA 2018) : **MMI/CBZ 12–18 mois**, titration ; TRAb avant l'arrêt ; rechute ≈ 50 % ; rechute → traitement radical ou MMI faible dose au long cours [S1].
-5. **Agranulocytose** (0,1–1 %, surtout dans les 3 premiers mois) : arrêt de l'ATS et NFS en urgence devant fièvre ou angine ; contre-indication définitive [S1].
+5. **Agranulocytose** (≈ 0,2–0,5 % des patients, surtout dans les 3 premiers mois [S13]) : arrêt de l'ATS et NFS en urgence devant fièvre ou angine ; contre-indication définitive [S1].
 6. **Iode 131** : contre-indiqué pendant la grossesse et l'allaitement, conception différée de 6 mois (femme et homme), ATS suspendus ~1 semaine avant/après, corticoprophylaxie si orbitopathie à risque [S1].
 7. **Chirurgie** : thyroïdectomie totale par chirurgien expérimenté, euthyroïdie préalable, iodure 10 jours, vitamine D [S1].
 8. **Crise aiguë thyrotoxique** : Burch-Wartofsky ≥ 45 ; ATS puis iode **≥ 1 h après**, bêtabloquant, corticoïdes, réanimation ; mortalité ~10 % [S1, S6].
@@ -810,3 +825,4 @@ Fièvre, angine, ulcérations buccales sous ATS
 10. **[S10]** Oudahmane-Akdader S, et al. Urinary iodine concentration and its associations with iodized table salt and thyroid parameters during pregnancy in Algeria. *Afr J Reprod Health*. 2025;29(8):123-130. doi:10.29063/ajrh2025/v29i8.12. — vérifiée (résumé PubMed).
 11. **[S11]** Burch HB, Perros P, Bednarczuk T, et al. Management of Thyroid Eye Disease: A Consensus Statement by the ATA and the ETA. *Thyroid*. 2022;32(12):1439-1470. doi:10.1089/thy.2022.0251. — vérifiée (existence).
 12. **[S12]** Bartalena L, et al. Comparison of the 2021 EUGOGO guidelines and the 2022 ATA/ETA consensus statement for the management of Graves' orbitopathy. *Eur Thyroid J*. 2025;14(6). doi:10.1530/ETJ-25-0318. — vérifiée (existence).
+13. **[S13]** Vicente N, Cardoso L, Barros L, Carrilho F. Antithyroid Drug-Induced Agranulocytosis: State of the Art on Diagnosis and Management. *Drugs R D*. 2017;17(1):91-96. doi:10.1007/s40268-017-0172-1. — vérifiée (résumé ; ajoutée par l'audit de cohérence AUD-05, 2026-11-19).

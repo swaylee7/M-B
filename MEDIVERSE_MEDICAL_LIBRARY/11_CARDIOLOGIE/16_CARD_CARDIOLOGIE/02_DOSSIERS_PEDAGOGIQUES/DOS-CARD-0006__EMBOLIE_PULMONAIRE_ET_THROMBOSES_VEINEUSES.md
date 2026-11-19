@@ -662,3 +662,575 @@ Thromboses veineuses cérébrales, splanchniques (porte, mésentérique, sus-hé
 ### 12.4 Scores de risque hémorragique
 
 Aucun score n'est suffisamment discriminant pour contre-indiquer à lui seul l'anticoagulation. Le **score de risque hémorragique** sert à identifier et corriger les facteurs modifiables (HTA non contrôlée, association avec antiagrégants ou AINS, alcool, anémie, insuffisance rénale) et à intensifier la surveillance [S1]. Facteurs majeurs : âge > 75 ans, antécédent d'hémorragie, cancer actif (surtout digestif ou urogénital), insuffisance rénale ou hépatique, thrombopénie, antiagrégants associés, chute fréquente.
+
+---
+
+## 13. Traitement
+
+### 13.1 Objectifs
+
+1. **Survie immédiate** : restaurer une perfusion pulmonaire suffisante dans l'EP à haut risque (reperfusion) et soutenir le VD.
+2. **Arrêter l'extension du thrombus** et prévenir la récidive précoce : anticoagulation immédiate.
+3. **Prévenir la récidive à long terme** : durée adaptée au facteur déclenchant et au risque hémorragique.
+4. **Limiter les séquelles** : syndrome post-thrombotique, HTP-TEC.
+5. **Éviter l'iatrogénie** : hémorragies, TIH, interactions.
+
+### 13.2 Mesures générales
+
+- **Anticoagulation immédiate dès la suspicion** chez un patient de probabilité clinique élevée ou intermédiaire, **sans attendre** le résultat des examens, sauf contre-indication (classe I) [S1].
+- **Oxygénothérapie** si SaO2 < 90 % ; l'oxygénothérapie à haut débit par canule nasale est une option ; l'**intubation** est évitée si possible (risque de collapsus à l'induction et sous ventilation en pression positive) [S1].
+- **Soutien hémodynamique** dans l'EP à haut risque [S1] :
+  - **remplissage prudent** (≤ 500 mL) seulement si la pression veineuse centrale est basse ; un remplissage excessif aggrave la dilatation du VD ;
+  - **noradrénaline 0,2 à 1,0 µg/kg/min** pour restaurer la pression artérielle et la perfusion coronaire droite ;
+  - **dobutamine 2 à 20 µg/kg/min** en cas de bas débit avec pression artérielle conservée ;
+  - **assistance circulatoire (ECMO veino-artérielle)** à envisager en cas de collapsus réfractaire ou d'arrêt cardiaque, en association avec une reperfusion (classe IIb) [S1].
+- **Lever précoce** autorisé dès que l'anticoagulation est efficace et que l'état clinique le permet (l'alitement « pour éviter la migration » n'a pas d'intérêt démontré).
+- **Compression veineuse** : utile pour soulager les symptômes de la TVP ; son intérêt pour prévenir le syndrome post-thrombotique est discuté (essais négatifs) [S3, S4].
+
+### 13.3 Moyens thérapeutiques
+
+#### 13.3.1 Anticoagulants parentéraux
+
+| Molécule | Posologie curative (adulte) | Particularités | Source |
+|---|---|---|---|
+| **Énoxaparine** (HBPM) | **100 UI/kg (1 mg/kg) SC toutes les 12 h** | Clairance < 30 mL/min : contre-indiquée à dose curative selon le RCP français (préférer l'HNF) ; certains RCP prévoient 1 mg/kg/24 h | RCP ; [S1] |
+| **Tinzaparine** (HBPM) | **175 UI/kg SC une fois par jour** | Utilisée aussi dans le cancer | RCP |
+| **Daltéparine** (HBPM) | **200 UI/kg SC une fois par jour** ; dans le cancer : 200 UI/kg/j le 1er mois puis 150 UI/kg/j du 2e au 6e mois | Schéma de l'essai CLOT | RCP ; [S6] |
+| **Nadroparine** (HBPM) | **85 UI/kg SC toutes les 12 h** (ou 171 UI/kg une fois par jour selon la spécialité) | | RCP |
+| **Fondaparinux** | **5 mg (< 50 kg), 7,5 mg (50–100 kg), 10 mg (> 100 kg) SC une fois par jour** | Contre-indiqué à dose curative si clairance < 30 mL/min ; pas de TIH | RCP ; [S1] |
+| **HNF** | Bolus IV **80 UI/kg** puis **18 UI/kg/h** (nomogramme pondéral), adaptée au TCA (1,5 à 2,5 fois le témoin) ou à l'activité anti-Xa (0,3–0,7 UI/mL) **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | **Préférée** dans l'EP à haut risque (reperfusion possible), en cas d'insuffisance rénale sévère, d'obésité extrême ou de risque hémorragique élevé (réversibilité rapide par la protamine) ; surveillance des plaquettes | [S1] |
+
+**Règle ESC 2019** : chez le patient stable, une **HBPM ou le fondaparinux** sont **préférés à l'HNF** (moins d'hémorragies et de TIH, pas de surveillance du TCA) [S1].
+
+**Surveillance des plaquettes sous héparine** : indispensable sous HNF ; sous HBPM, elle est recommandée selon le contexte (surtout chirurgical ou en cas d'exposition antérieure à l'héparine), selon le RCP [À VÉRIFIER — rythme exact selon le RCP et le protocole local].
+
+#### 13.3.2 Anticoagulants oraux directs (AOD)
+
+Les AOD sont **recommandés de préférence aux AVK** chez les patients éligibles (classe I) [S1, S4, S5].
+
+| Molécule | Phase initiale | Entretien | Prolongation (après 6 mois, si indiquée) | Source |
+|---|---|---|---|---|
+| **Apixaban** | **10 mg × 2/j pendant 7 jours** (sans héparine préalable) | **5 mg × 2/j** | **2,5 mg × 2/j** (dose réduite, classe IIa) | [S1] ; RCP |
+| **Rivaroxaban** | **15 mg × 2/j pendant 21 jours** (sans héparine préalable), au cours d'un repas | **20 mg/j** | **10 mg/j** (classe IIa ; 20 mg/j si risque de récidive élevé) | [S1] ; RCP |
+| **Dabigatran** | Après **au moins 5 jours** d'anticoagulant parentéral | **150 mg × 2/j** (110 mg × 2/j si ≥ 80 ans ou vérapamil) | 150 mg × 2/j | [S1] ; RCP |
+| **Édoxaban** | Après **au moins 5 jours** d'anticoagulant parentéral | **60 mg/j** ; **30 mg/j** si clairance 15–50 mL/min, poids ≤ 60 kg ou certains inhibiteurs de la P-gp | 60 mg/j | [S1] ; RCP |
+
+**Contre-indications et situations où les AOD sont déconseillés** [S1, S12] :
+
+- **insuffisance rénale sévère** (clairance < 30 mL/min pour le dabigatran ; < 15 mL/min pour les anti-Xa ; prudence entre 15 et 30) ;
+- **grossesse et allaitement** (classe III) ;
+- **syndrome des antiphospholipides** (surtout triple positif) : AVK recommandés (classe III pour les AOD) ;
+- **valve cardiaque mécanique** ;
+- **interactions** avec les inducteurs ou inhibiteurs puissants du CYP3A4 et de la P-gp (rifampicine, carbamazépine, phénytoïne, certains antifongiques azolés et inhibiteurs de protéase du VIH) ;
+- hémorragie active, insuffisance hépatique sévère avec coagulopathie.
+
+> **Point algérien et maghrébin à souligner** : la **rifampicine** (traitement antituberculeux) est un inducteur enzymatique puissant qui diminue fortement l'exposition aux AOD et aux AVK. Chez un patient tuberculeux traité, l'anticoagulation doit être discutée au cas par cas (HBPM, ou AVK avec surveillance très rapprochée de l'INR) **[À VÉRIFIER — RCP et avis spécialisé]**.
+
+#### 13.3.3 Antivitamines K (AVK)
+
+- **Indications privilégiées** : SAPL, insuffisance rénale sévère, valve mécanique, interactions incompatibles avec un AOD, impossibilité d'accès aux AOD.
+- **Relais** : AVK débuté dès le 1er jour, en **chevauchement** avec l'héparine ou le fondaparinux pendant **au moins 5 jours** et jusqu'à obtenir un **INR entre 2 et 3** sur deux contrôles successifs à 24 h d'intervalle [S1].
+- **Cible d'INR** : **2,5 (2 à 3)** [S1].
+- **Doses initiales** : selon le RCP de chaque molécule (warfarine, acénocoumarol, fluindione), plus faibles chez le sujet âgé, dénutri ou insuffisant hépatique **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
+- **Éducation** : carnet de suivi, interactions médicamenteuses (antibiotiques, antifongiques, amiodarone), alimentation régulière en vitamine K (sans exclusion), signes d'alerte hémorragiques, contraception chez la femme en âge de procréer (tératogénicité).
+
+#### 13.3.4 Thrombolyse systémique
+
+**Indication** : EP **à haut risque** (classe I) ; **thrombolyse de sauvetage** en cas de dégradation hémodynamique sous anticoagulation dans l'EP de risque intermédiaire-élevé (classe I). La thrombolyse **systématique** n'est **pas recommandée** dans l'EP de risque intermédiaire ou faible (classe III) [S1]. Ce dernier point repose notamment sur l'essai **PEITHO** (ténectéplase dans l'EP de risque intermédiaire-élevé) : réduction des décompensations hémodynamiques au prix d'une augmentation des hémorragies majeures et des AVC hémorragiques [S1].
+
+**Schémas (tableau ESC 2019)** [S1] :
+
+| Molécule | Schéma standard | Schéma accéléré |
+|---|---|---|
+| **Altéplase (rtPA)** | **100 mg IV en 2 heures** | **0,6 mg/kg en 15 minutes** (maximum 50 mg) |
+| **Streptokinase** | **250 000 UI en 30 minutes**, puis **100 000 UI/h pendant 12 à 24 h** | **1,5 million d'UI en 2 heures** |
+| **Urokinase** | **4 400 UI/kg en 10 minutes**, puis **4 400 UI/kg/h pendant 12 à 24 h** | **3 millions d'UI en 2 heures** |
+
+- L'**HNF** peut être poursuivie pendant la perfusion d'altéplase ; elle doit être **interrompue** pendant la perfusion de streptokinase ou d'urokinase [S1].
+- La **ténectéplase** a été utilisée dans les essais (dose adaptée au poids, en bolus unique) mais elle n'a pas d'AMM dans l'EP dans de nombreux pays **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
+- Le bénéfice est maximal dans les **48 premières heures** des symptômes, mais une thrombolyse peut rester utile jusqu'à 6–14 jours [S1].
+- En cas d'**arrêt cardiaque** attribué à une EP, la thrombolyse est administrée pendant la réanimation, qui doit alors être prolongée [S1].
+
+**Contre-indications à la thrombolyse (ESC 2019)** [S1] :
+
+| Absolues | Relatives |
+|---|---|
+| Antécédent d'AVC hémorragique ou d'AVC d'origine indéterminée | AIT dans les 6 mois |
+| AVC ischémique dans les 6 mois | Anticoagulation orale en cours |
+| Tumeur du système nerveux central | Grossesse ou 1re semaine du post-partum |
+| Traumatisme majeur, chirurgie ou traumatisme crânien dans les 3 semaines | Ponction d'un site non compressible |
+| Diathèse hémorragique | Réanimation traumatique |
+| Hémorragie active | HTA réfractaire (PAS > 180 mmHg) ; maladie hépatique avancée ; endocardite infectieuse ; ulcère peptique évolutif |
+
+Dans l'EP à haut risque menaçant le pronostic vital, les contre-indications **relatives** (voire certaines absolues) sont pondérées au cas par cas.
+
+#### 13.3.5 Reperfusion non pharmacologique et filtres caves
+
+- **Embolectomie chirurgicale** sous circulation extracorporelle : EP à haut risque avec **contre-indication ou échec de la thrombolyse** (classe I) ; également en cas de thrombus dans les cavités droites ou dans un foramen ovale [S1].
+- **Traitement percutané par cathéter** (fragmentation, aspiration, thrombolyse in situ à faible dose) : alternative à la chirurgie dans les mêmes situations (classe IIa) ; ses indications pourraient évoluer (essais récents dans l'EP de risque intermédiaire-élevé, par exemple PRAGUE-26 présenté en 2026) [S1, S2].
+- **Équipes multidisciplinaires « EP »** (PERT) : à envisager dans les centres (classe IIa) [S1].
+- **Filtre cave** : seulement en cas de **contre-indication absolue à l'anticoagulation** ou de **récidive malgré une anticoagulation bien conduite** (classe IIa) ; **pas en routine** (classe III) ; préférer un filtre **retirable**, à enlever dès que l'anticoagulation est possible [S1].
+
+#### 13.3.6 Cancer
+
+- **Phase de traitement (au moins 6 mois)** :
+  - l'ESC 2019 propose une **HBPM ajustée au poids** pendant les 6 premiers mois plutôt qu'un AVK (classe IIa), et **l'édoxaban ou le rivaroxaban** comme alternative chez les patients **sans cancer gastro-intestinal** (classe IIa) [S1] ;
+  - la recommandation ESC 2022 de cardio-oncologie place les **AOD (édoxaban, apixaban, rivaroxaban)** en classe I chez les patients sans contre-indication, et les **HBPM** comme traitement de référence alternatif, avec des précautions en cas de thrombopénie (seuil de 50 G/L pour une dose curative) [S6] ;
+  - **prudence avec les AOD** dans les cancers **digestifs luminaux** et **urogénitaux** non opérés (risque hémorragique), en cas d'**interactions** avec la chimiothérapie, de vomissements ou de troubles de l'absorption [S6].
+- **Après 6 mois** : anticoagulation **prolongée tant que le cancer est actif** (métastases, traitement en cours) [S1, S6].
+- **Prophylaxie primaire** chez certains patients ambulatoires sous traitement systémique à haut risque thrombotique (apixaban, rivaroxaban ou HBPM : classe IIb selon l'ESC 2022) [S6].
+
+#### 13.3.7 Grossesse
+
+- **HBPM à dose curative** fixée sur le **poids du début de grossesse** (classe I selon l'ESC 2019) ; la surveillance de l'anti-Xa n'est pas systématique [S1, S7].
+- **AOD contre-indiqués** ; **AVK** évités pendant la grossesse (embryopathie au 1er trimestre, hémorragie fœtale ensuite) [S1, S7].
+- **Accouchement** : programmé ; pas de ponction péridurale ou rachidienne dans les **24 heures** suivant la dernière dose curative d'HBPM (classe III) [S1] ; un relais par HNF autour du terme peut faciliter l'anesthésie locorégionale.
+- **Post-partum** : poursuite de l'anticoagulation **au moins 6 semaines** après l'accouchement, avec une durée **totale minimale de 3 mois** ; HBPM ou AVK (la warfarine est compatible avec l'allaitement) [S1, S7].
+- **EP à haut risque pendant la grossesse** : **thrombolyse** ou **embolectomie chirurgicale** (classe I) [S1].
+
+#### 13.3.8 Antidotes et gestion des hémorragies
+
+| Anticoagulant | Antagonisation | Source |
+|---|---|---|
+| HNF | **Sulfate de protamine** : 1 mg neutralise environ 100 UI d'HNF administrée dans les heures précédentes | RCP |
+| HBPM | Protamine : neutralisation **partielle** (activité anti-Xa) | RCP |
+| AVK | **Vitamine K** + **concentré de complexe prothrombinique (CCP)** dose selon l'INR et le poids **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | RCP |
+| Dabigatran | **Idarucizumab 5 g IV** (2 × 2,5 g) | RCP |
+| Anti-Xa directs | **Andexanet alfa** (disponibilité limitée) ou CCP à défaut **[À VÉRIFIER — disponibilité locale]** | RCP |
+
+### 13.4 Indications et stratégie
+
+#### 13.4.1 Stratégie selon la gravité de l'EP (ESC 2019)
+
+| Classe de risque | Lieu de prise en charge | Traitement initial |
+|---|---|---|
+| **Élevé** | Réanimation, soins intensifs | **HNF** + **thrombolyse** (ou embolectomie / traitement percutané si contre-indication ou échec) ; soutien hémodynamique |
+| **Intermédiaire-élevé** | **Surveillance continue** pendant 48–72 h (USIC, soins intensifs) | Anticoagulation parentérale (HBPM préférée) ; **pas de thrombolyse systématique** ; thrombolyse de sauvetage si dégradation [S1] |
+| **Intermédiaire-faible** | Hospitalisation conventionnelle | Anticoagulation (HBPM, fondaparinux ou AOD d'emblée) |
+| **Faible** | **Sortie précoce ou traitement ambulatoire** possible si le contexte le permet (critères de Hestia négatifs ou sPESI 0, absence de comorbidité, entourage, accès aux soins) — classe IIa [S1] | AOD de préférence |
+
+**Critères de Hestia** (un seul critère positif → pas de traitement ambulatoire) [S1] :
+
+1. Instabilité hémodynamique ;
+2. Thrombolyse ou embolectomie nécessaire ;
+3. Hémorragie active ou risque hémorragique élevé ;
+4. Oxygénothérapie > 24 h pour maintenir une SaO2 > 90 % ;
+5. EP diagnostiquée sous anticoagulation ;
+6. Douleur sévère nécessitant des antalgiques IV > 24 h ;
+7. Raison médicale ou sociale de rester hospitalisé > 24 h ;
+8. Clairance de la créatinine < 30 mL/min ;
+9. Insuffisance hépatique sévère ;
+10. Grossesse ;
+11. Antécédent documenté de TIH.
+
+#### 13.4.2 Durée de l'anticoagulation
+
+Principe : une **phase initiale** (5 à 21 jours), une **phase de traitement** (au moins **3 mois**), puis une **décision explicite** d'arrêt ou de **prolongation** (durée non déterminée, réévaluée régulièrement) [S1, S4].
+
+| Situation | Durée recommandée (ESC 2019) | Classe |
+|---|---|---|
+| Premier épisode lié à un **facteur transitoire ou réversible majeur** | **3 mois**, puis arrêt | I |
+| Récidive de MTEV non liée à un facteur transitoire majeur | **Prolongée** (durée non déterminée) | I |
+| **SAPL** | **Prolongée**, par **AVK** | I |
+| Premier épisode **sans facteur de risque identifiable** | Prolongée **à envisager** | IIa |
+| Facteur de risque **persistant** (autre que le SAPL) | Prolongée à envisager | IIa |
+| Facteur transitoire **mineur** | Prolongée à envisager | IIa |
+| **Cancer actif** | Au moins 6 mois, puis tant que le cancer est actif | IIa |
+
+En cas de prolongation par AOD, une **dose réduite** d'apixaban (2,5 mg × 2/j) ou de rivaroxaban (10 mg/j) peut être envisagée **après 6 mois** (classe IIa) [S1]. La décision intègre le **risque hémorragique**, les **préférences du patient** et la **réévaluation** au moins annuelle [S1, S4, S5].
+
+#### 13.4.3 Thrombose veineuse profonde (ESVS 2021, CHEST 2021)
+
+```text
+TVP proximale confirmée
+ ├─ Anticoagulation curative immédiate (AOD de préférence, ou HBPM → AVK)
+ ├─ Traitement ambulatoire si pas de critère de gravité, pas de risque hémorragique majeur,
+ │  pas d'insuffisance rénale sévère, contexte social adapté
+ ├─ TVP ilio-fémorale récente très symptomatique, faible risque hémorragique
+ │    → discuter en centre une désobstruction (thrombolyse in situ / thrombectomie)
+ ├─ Phlegmatia caerulea dolens → urgence de désobstruction
+ └─ Durée : comme l'EP (3 mois minimum, puis décision de prolongation)
+
+TVP distale isolée
+ ├─ Symptômes sévères ou facteurs d'extension → anticoagulation 3 mois
+ └─ Sinon → anticoagulation 3 mois OU surveillance échographique à 1–2 semaines
+```
+
+[S3, S4]
+
+#### 13.4.4 Particularités algériennes
+
+- **Aucune recommandation nationale algérienne** spécifique de la MTEV n'a été identifiée pendant la rédaction **[À VÉRIFIER — MSPRH, sociétés savantes algériennes de cardiologie, de pneumologie et de médecine vasculaire]**.
+- **Disponibilité et remboursement** des AOD (apixaban, rivaroxaban, dabigatran, édoxaban), des HBPM et des thrombolytiques (altéplase, ténectéplase, streptokinase) dans la nomenclature nationale et auprès de la CNAS : à vérifier **[À VÉRIFIER]**. En pratique, l'**AVK** reste une option importante lorsque l'AOD n'est pas accessible ; elle impose une **surveillance biologique de l'INR** et une éducation thérapeutique, plus difficiles dans les zones éloignées des laboratoires.
+- **Accès à l'imagerie** : l'angioscanner est disponible dans les CHU, EHU et de nombreux EPH ; la scintigraphie de ventilation-perfusion est réservée à un nombre plus limité de services de médecine nucléaire **[À VÉRIFIER — cartographie nationale]**. L'échographie veineuse et l'ETT au lit sont des outils clés lorsque l'angioscanner est indisponible ou contre-indiqué.
+- **Interactions avec les antituberculeux** (rifampicine) : point spécifique aux pays d'endémie tuberculeuse (voir § 13.3.2).
+
+---
+
+## 14. Surveillance
+
+### 14.1 Phase aiguë
+
+- **Clinique** : PA, FC, SaO2, FR, diurèse, conscience ; signes de saignement ; tolérance de la thrombolyse (points de ponction, examen neurologique).
+- **Biologie** : numération plaquettaire (HNF, contexte chirurgical), TCA ou anti-Xa sous HNF, créatinine (adaptation des doses), hémoglobine.
+- **EP de risque intermédiaire-élevé** : surveillance continue pendant les premières 48–72 heures, pour détecter précocement une décompensation et proposer une thrombolyse de sauvetage [S1].
+
+### 14.2 Au long cours
+
+- **Consultation à 3–6 mois** (classe I) : tolérance, observance, risque hémorragique, décision sur la durée [S1].
+- **Dyspnée persistante ou limitation fonctionnelle** : ETT, puis **scintigraphie de ventilation-perfusion** à la recherche d'une HTP-TEC, et orientation vers un centre expert si positif [S1].
+- Sous **AVK** : INR au moins mensuel une fois stable ; sous **AOD** : fonction rénale au moins annuelle (plus souvent chez le sujet âgé ou insuffisant rénal), hémoglobine, observance.
+- **Dépistage du cancer** après un épisode sans facteur identifiable : examen clinique et dépistages adaptés à l'âge, sans bilan extensif systématique [S1].
+- **Contraception** : contre-indication des œstroprogestatifs après une MTEV ; préférer une méthode non hormonale ou progestative seule selon les recommandations gynécologiques [À VÉRIFIER — options exactes].
+
+---
+
+## 15. Prévention
+
+### 15.1 Thromboprophylaxie chez le patient hospitalisé
+
+- **Patients médicaux** : évaluer le risque (par exemple **score de Padoue** ; risque élevé si ≥ 4) et le risque hémorragique ; prophylaxie pharmacologique chez les patients à risque élevé, alités pour une affection aiguë [À VÉRIFIER — recommandations de référence pour la prophylaxie médicale].
+- **Patients chirurgicaux** : selon le type de chirurgie et le terrain (score de **Caprini**) ; prophylaxie **prolongée** après prothèse de hanche ou de genou et après chirurgie carcinologique abdomino-pelvienne majeure (durées selon les RCP et les recommandations de chirurgie) [À VÉRIFIER — durées exactes].
+- **Moyens pharmacologiques** (doses prophylactiques standard des RCP) : **énoxaparine 4 000 UI (40 mg) SC une fois par jour** ; **fondaparinux 2,5 mg SC une fois par jour** ; **HNF 5 000 UI SC deux à trois fois par jour** (notamment en insuffisance rénale sévère) ; certains AOD ont une AMM en prophylaxie après prothèse de hanche ou de genou (RCP).
+- **Moyens mécaniques** : compression pneumatique intermittente lorsque l'anticoagulation est contre-indiquée ; lever précoce ; mobilisation.
+
+### 15.2 Autres situations
+
+- **Voyages prolongés** : mobilisation, hydratation, éviter les vêtements serrés ; bas de compression chez les sujets à risque ; prophylaxie médicamenteuse exceptionnelle et individuelle.
+- **Grossesse à risque** (antécédent de MTEV, thrombophilie majeure) : prophylaxie par HBPM pendant la grossesse et/ou le post-partum selon le niveau de risque [S7].
+- **Contraception et traitement hormonal** : évaluation du risque individuel et familial avant la prescription d'œstrogènes.
+
+---
+
+## 16. Algorithmes décisionnels et arbres diagnostiques
+
+### 16.1 Suspicion d'EP **avec** instabilité hémodynamique (d'après l'ESC 2019 [S1])
+
+```text
+Suspicion d'EP + choc ou hypotension persistante
+ │
+ ├─ ETT au lit immédiate
+ │    ├─ Pas de dysfonction VD → chercher une autre cause du choc
+ │    │                           (tamponnade, dissection, choc cardiogénique, hypovolémie, sepsis)
+ │    └─ Dysfonction VD
+ │         ├─ Angioscanner réalisable immédiatement et patient transportable
+ │         │     → angioscanner : EP confirmée → reperfusion
+ │         └─ Angioscanner non réalisable
+ │               → traiter comme une EP à haut risque sur la base de l'ETT
+ │                 (± échographie veineuse : TVP proximale = argument supplémentaire)
+ │
+ └─ Traitement : HNF IV + thrombolyse systémique
+                 (si contre-indiquée ou inefficace : embolectomie chirurgicale
+                  ou traitement percutané ; ECMO si collapsus réfractaire)
+```
+
+### 16.2 Suspicion d'EP **sans** instabilité hémodynamique
+
+```text
+Suspicion d'EP, patient stable
+ │
+ 1. Probabilité clinique (Wells ou Genève révisé, ou jugement empirique)
+ │    └─ Faible + urgences à faible prévalence : règle PERC
+ │         → 8 critères négatifs : EP exclue, pas de D-dimères
+ │
+ 2. Probabilité NON élevée (ou EP « peu probable »)
+ │    → D-dimères (seuil ajusté à l'âge après 50 ans, ou seuil adapté à la probabilité/YEARS)
+ │         ├─ Négatifs → EP exclue, pas d'anticoagulation
+ │         └─ Positifs → angioscanner
+ │
+ 3. Probabilité ÉLEVÉE (ou EP « probable »)
+ │    → angioscanner d'emblée (pas de D-dimères) ; anticoagulation débutée en attendant
+ │
+ 4. Angioscanner
+ │    ├─ Positif → EP confirmée → stratification pronostique (§ 7.1)
+ │    ├─ Négatif → EP exclue (sauf forte probabilité : discuter d'autres examens)
+ │    └─ Contre-indiqué (insuffisance rénale, allergie, grossesse)
+ │         → échographie veineuse (TVP proximale = MTEV confirmée)
+ │           et/ou scintigraphie de ventilation-perfusion
+```
+
+### 16.3 Après le diagnostic : stratification et orientation
+
+```text
+EP confirmée chez un patient stable
+ │
+ ├─ sPESI 0 (ou PESI I–II) et critères de Hestia négatifs
+ │     → (évaluation VD/troponine facultative ; si positive → intermédiaire-faible)
+ │     → risque FAIBLE → traitement ambulatoire ou sortie précoce, AOD
+ │
+ └─ sPESI ≥ 1 (ou PESI III–V)
+       → ETT ou rapport VD/VG au scanner + troponine
+         ├─ Dysfonction VD ET troponine élevée → INTERMÉDIAIRE-ÉLEVÉ
+         │     → HBPM, surveillance continue 48–72 h, thrombolyse de sauvetage si dégradation
+         └─ Un seul critère ou aucun → INTERMÉDIAIRE-FAIBLE
+               → hospitalisation, anticoagulation (relais AOD)
+```
+
+### 16.4 Suspicion de TVP
+
+```text
+Suspicion de TVP
+ │
+ 1. Score de Wells TVP
+ │    ├─ < 2 (peu probable) → D-dimères
+ │    │        ├─ Négatifs → TVP exclue
+ │    │        └─ Positifs → échographie veineuse
+ │    └─ ≥ 2 (probable) → échographie veineuse d'emblée
+ │
+ 2. Échographie
+      ├─ Proximale « 2 points » négative alors que la suspicion reste forte
+      │      → répéter à 1 semaine, ou échographie complète du membre
+      ├─ TVP proximale → traitement curatif
+      └─ TVP distale isolée → traitement 3 mois OU surveillance échographique (§ 10.6)
+```
+
+### 16.5 Décision de durée à 3 mois
+
+```text
+Fin de la phase de traitement (3 mois)
+ │
+ ├─ Facteur transitoire MAJEUR (chirurgie, alitement hospitalier ≥ 3 j, césarienne)
+ │     → ARRÊT
+ ├─ SAPL → AVK au long cours
+ ├─ Cancer actif → poursuite tant que le cancer est actif
+ ├─ Récidive non provoquée → prolongation
+ └─ Épisode sans facteur identifiable, facteur mineur, facteur persistant
+       → prolongation à envisager si le risque hémorragique est acceptable
+         (AOD à dose réduite après 6 mois possible : apixaban 2,5 mg × 2/j ou rivaroxaban 10 mg/j)
+       → réévaluation au moins annuelle
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** Mme K., 58 ans, enseignante à Constantine, consulte aux urgences pour une **dyspnée d'apparition brutale** depuis 6 heures, avec une douleur basithoracique droite majorée à l'inspiration. Elle a été opérée il y a **3 semaines** d'une **fracture de la cheville droite** (ostéosynthèse, botte plâtrée), sans prophylaxie après la sortie. Antécédents : HTA traitée par amlodipine ; pas de cancer connu ; pas d'antécédent thromboembolique.
+
+**Examen** : PA 128/76 mmHg, FC 112/min, FR 26/min, SaO2 91 % en air ambiant, température 37,6 °C. Mollet droit difficile à examiner (plâtre retiré il y a 3 jours) mais œdème de la jambe droite. Auscultation cardiopulmonaire normale ; pas de turgescence jugulaire.
+
+**ECG** : tachycardie sinusale, ondes T négatives de V1 à V3. **Gaz du sang** : PaO2 62 mmHg, PaCO2 31 mmHg, pH 7,47.
+
+**Question 1 — Quelle est la probabilité clinique ?**
+Score de Wells : signes cliniques de TVP (3) + EP diagnostic le plus probable (3) + FC > 100 (1,5) + chirurgie dans les 4 semaines (1,5) = **9 points** → **probabilité élevée** (EP « probable » en deux niveaux). Score de Genève révisé : chirurgie/fracture dans le mois (2) + FC ≥ 95 (5) + douleur unilatérale du membre inférieur (3) + œdème et douleur à la palpation (4) = **14** → probabilité **élevée**.
+
+**Question 2 — Faut-il doser les D-dimères ?**
+**Non** : en cas de probabilité élevée, un résultat négatif ne permettrait pas d'exclure l'EP. On réalise d'emblée l'**angioscanner** et l'on **débute l'anticoagulation** sans attendre (en l'absence de contre-indication) [S1].
+
+**Question 3 — L'angioscanner montre des emboles bilatéraux des artères lobaires inférieures, avec un rapport VD/VG de 1,1. Comment stratifier ?**
+Patiente **stable** (pas d'instabilité hémodynamique). **sPESI** : FC ≥ 110 (1) ; SaO2 < 90 % ? non (91 %) → sPESI = **1** → risque au moins intermédiaire. Dysfonction VD au scanner (VD/VG > 1,0). **Troponine** hs-cTnT élevée (valeur au-dessus du 99e percentile du dosage utilisé — le seuil dépend de la technique locale). → Dysfonction VD **et** troponine élevée = **risque intermédiaire-élevé** [S1].
+
+**Question 4 — Quel traitement ?**
+- Hospitalisation en **unité de surveillance continue** pendant 48–72 h ;
+- **anticoagulation parentérale** par HBPM (énoxaparine 100 UI/kg toutes les 12 h si la clairance le permet) ; **pas de thrombolyse systématique** (classe III) ;
+- **thrombolyse de sauvetage** si une instabilité hémodynamique apparaît (classe I) [S1] ;
+- relais par un **AOD** après stabilisation (par exemple apixaban, en tenant compte des jours d'HBPM déjà reçus, selon le RCP), ou par AVK.
+
+**Question 5 — Durée du traitement ?**
+L'EP est provoquée par un **facteur transitoire majeur** (chirurgie orthopédique avec immobilisation plâtrée) → **3 mois** d'anticoagulation puis **arrêt** (classe I) [S1]. Pas de recherche de thrombophilie. Consultation à 3 mois avec recherche d'une dyspnée résiduelle.
+
+**Question 6 — À 4 mois, la patiente décrit une dyspnée d'effort persistante. Que faire ?**
+Rechercher un **syndrome post-EP** et une **HTP-TEC** : ETT (signes d'hypertension pulmonaire), puis **scintigraphie de ventilation-perfusion** ; en cas d'anomalie, orientation vers un centre expert (cathétérisme droit) [S1].
+
+**Commentaire pédagogique.** Ce cas illustre : (1) l'inutilité des D-dimères en cas de forte probabilité ; (2) la différence entre risque intermédiaire-élevé et haut risque (la tension artérielle est normale : pas de thrombolyse d'emblée) ; (3) la règle de durée liée au facteur déclenchant ; (4) la prévention manquée (absence de prophylaxie après une immobilisation plâtrée du membre inférieur, situation où elle doit être discutée selon le risque individuel).
+
+---
+
+## 18. Points clés à retenir
+
+1. MTEV = **TVP + EP** : mêmes facteurs de risque, même traitement, même logique de durée.
+2. **Triade de Virchow** : stase, lésion endothéliale, hypercoagulabilité.
+3. La gravité de l'EP est celle de la **défaillance du VD** ; l'hypotension est un critère de haut risque.
+4. Toujours **estimer la probabilité clinique** (Wells, Genève révisé) **avant** de prescrire des examens.
+5. **D-dimères seulement si la probabilité n'est pas élevée** ; seuil **ajusté à l'âge** (âge × 10 µg/L après 50 ans) [S1, S8].
+6. **PERC** : exclusion sans D-dimères, uniquement chez des patients à faible probabilité dans une population à faible prévalence.
+7. **Angioscanner** = examen de confirmation de référence ; **scintigraphie** en alternative ; **TVP proximale à l'échographie** = MTEV confirmée.
+8. Patient instable : **ETT au lit** ; une dysfonction VD suffit pour décider de la reperfusion si le scanner n'est pas réalisable.
+9. Stratification **ESC 2019** : élevé / intermédiaire-élevé / intermédiaire-faible / faible (instabilité, sPESI, VD, troponine).
+10. **Thrombolyse** : EP à haut risque (I) ; sauvetage si dégradation (I) ; **pas systématique** en risque intermédiaire (III).
+11. **AOD préférés aux AVK** ; HBPM ou fondaparinux préférés à l'HNF chez le patient stable ; HNF si haut risque ou insuffisance rénale sévère.
+12. AOD **contre-indiqués** : grossesse, allaitement, insuffisance rénale sévère, **SAPL**, valve mécanique, interactions majeures (rifampicine).
+13. Durée : **3 mois** si facteur transitoire majeur ; **prolongée** si récidive non provoquée, SAPL, cancer actif ; à **discuter** si épisode sans facteur identifiable.
+14. **Cancer** : HBPM ou AOD (prudence dans les cancers digestifs et urogénitaux), au moins 6 mois puis tant que le cancer est actif.
+15. **Grossesse** : HBPM curative ; AOD et AVK évités ; YEARS adapté à la grossesse ; ≥ 6 semaines après l'accouchement (≥ 3 mois au total).
+16. Dyspnée persistante après 3 mois : rechercher une **HTP-TEC** (scintigraphie de ventilation-perfusion).
+
+---
+
+## 19. Pièges classiques à l'examen
+
+1. **Doser les D-dimères chez un patient à forte probabilité** : inutile, car un résultat négatif n'exclut pas l'EP.
+2. **Conclure à une EP sur des D-dimères élevés** : ils ne confirment jamais le diagnostic.
+3. **Appliquer la règle PERC** à un patient hospitalisé ou à forte probabilité.
+4. **Confondre risque intermédiaire-élevé et haut risque** : la thrombolyse d'emblée n'est indiquée que dans l'EP avec instabilité hémodynamique.
+5. **Retarder l'anticoagulation** dans l'attente de l'angioscanner chez un patient à probabilité élevée ou intermédiaire.
+6. **Prescrire un AOD dans un SAPL triple positif**, pendant la grossesse ou avec la rifampicine.
+7. **Oublier la dose de charge** des AOD (apixaban 10 mg × 2/j pendant 7 jours ; rivaroxaban 15 mg × 2/j pendant 21 jours) ou, à l'inverse, **oublier le traitement parentéral préalable** du dabigatran et de l'édoxaban.
+8. **Arrêter l'AVK avant 5 jours de chevauchement** avec l'héparine, ou avant deux INR dans la cible.
+9. **Remplir massivement** un patient en choc par EP.
+10. **Poser un filtre cave « de principe »** chez un patient qui peut être anticoagulé.
+11. **Considérer la veine fémorale comme superficielle** à cause de son ancien nom.
+12. **Négliger la dyspnée persistante** après une EP : l'HTP-TEC est un diagnostic à ne pas manquer.
+13. **Faire un bilan de thrombophilie en phase aiguë** ou sous anticoagulant : résultats ininterprétables.
+14. Croire qu'une **ETT normale exclut l'EP** chez un patient stable.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+> Ces QCM sont repris dans la banque structurée (lot DOS-01-lot2) avec les mêmes identifiants. Réponses multiples possibles sauf mention QCS.
+
+**QCM 1** (QCM-CARD-0101 — QCS) — Une femme de 47 ans consulte pour une dyspnée brutale 10 jours après une hystérectomie. FC 108/min, SaO2 93 %, pas de signe de thrombose veineuse des membres inférieurs, pas d'antécédent thromboembolique, pas de cancer ; le médecin juge que l'embolie pulmonaire est le diagnostic le plus probable. Quel est son score de Wells (version originale) pour l'EP ?
+
+- A. 3 points
+- B. 4,5 points
+- C. 6 points
+- D. 7,5 points
+- E. 9 points
+
+**QCM 2** (QCM-CARD-0102 — QCM) — Un homme de 78 ans, à probabilité clinique intermédiaire d'embolie pulmonaire (score de Genève révisé à 6), a un taux de D-dimères de 690 µg/L (technique quantitative de haute sensibilité). Quelles propositions sont exactes ?
+
+- A. Avec le seuil ajusté à l'âge, son seuil est de 780 µg/L.
+- B. L'EP peut être exclue sans imagerie selon la stratégie validée par l'étude ADJUST-PE.
+- C. Le seuil ajusté à l'âge s'applique à partir de 50 ans.
+- D. Un résultat de D-dimères supérieur au seuil confirme le diagnostic d'EP.
+- E. Si la probabilité clinique avait été élevée, le dosage des D-dimères n'aurait pas été indiqué.
+
+**QCM 3** (QCM-CARD-0104 — QCS) — Un homme de 66 ans a une embolie pulmonaire bilatérale confirmée par angioscanner. PA 118/72 mmHg, FC 114/min, SaO2 92 %, rapport VD/VG de 1,2 à l'angioscanner, troponine ultrasensible au-dessus du 99e percentile du dosage utilisé. Selon l'ESC 2019, quelle est sa classe de risque de mortalité précoce ?
+
+- A. Risque élevé
+- B. Risque intermédiaire-élevé
+- C. Risque intermédiaire-faible
+- D. Risque faible
+- E. Impossible à préciser sans calcul du PESI complet
+
+**QCM 4** (QCM-CARD-0105 — QCM) — Concernant la thrombolyse systémique au cours de l'embolie pulmonaire selon l'ESC 2019, quelles propositions sont exactes ?
+
+- A. Elle est recommandée dans l'EP avec instabilité hémodynamique.
+- B. Elle est recommandée de façon systématique dans l'EP de risque intermédiaire-élevé.
+- C. Le schéma standard d'altéplase est de 100 mg en 2 heures.
+- D. Un AVC ischémique survenu il y a 3 mois est une contre-indication absolue.
+- E. L'héparine non fractionnée doit être interrompue pendant la perfusion de streptokinase ou d'urokinase.
+
+**QCM 5** (QCM-CARD-0106 — QCM) — Concernant les schémas d'anticoagulants oraux directs (AOD) dans le traitement d'une embolie pulmonaire non grave chez un adulte à fonction rénale normale, quelles propositions sont exactes ?
+
+- A. L'apixaban est débuté à 10 mg deux fois par jour pendant 7 jours, puis 5 mg deux fois par jour.
+- B. Le rivaroxaban est débuté à 15 mg deux fois par jour pendant 21 jours, puis 20 mg une fois par jour.
+- C. Le dabigatran peut être débuté d'emblée sans traitement parentéral préalable.
+- D. L'édoxaban nécessite au moins 5 jours de traitement parentéral préalable.
+- E. Après 6 mois, une prolongation par apixaban 2,5 mg deux fois par jour peut être envisagée.
+
+**QCM 6** (QCM-CARD-0107 — QCM) — Dans quelles situations un anticoagulant oral direct est-il contre-indiqué ou déconseillé pour traiter une maladie thromboembolique veineuse ?
+
+- A. Syndrome des antiphospholipides triple positif.
+- B. Grossesse.
+- C. Traitement antituberculeux comportant de la rifampicine.
+- D. Âge supérieur à 75 ans avec une clairance de la créatinine à 70 mL/min.
+- E. Clairance de la créatinine à 20 mL/min pour le dabigatran.
+
+**QCM 7** (QCM-CARD-0108 — QCM) — Concernant la durée de l'anticoagulation après une embolie pulmonaire selon l'ESC 2019, quelles propositions sont exactes ?
+
+- A. Après un premier épisode lié à une chirurgie sous anesthésie générale, l'arrêt est recommandé après 3 mois.
+- B. Une récidive de MTEV non liée à un facteur transitoire majeur justifie une anticoagulation prolongée.
+- C. Un premier épisode sans facteur de risque identifiable impose un arrêt systématique à 6 mois.
+- D. En cas de cancer actif, l'anticoagulation est poursuivie tant que le cancer est actif.
+- E. La décision de prolonger le traitement intègre le risque hémorragique et la préférence du patient.
+
+**QCM 8** (QCM-CARD-0110 — QCM) — Une femme enceinte de 14 semaines d'aménorrhée est suspecte d'embolie pulmonaire, sans signe de thrombose veineuse et sans hémoptysie ; l'EP n'est pas jugée le diagnostic le plus probable. Ses D-dimères sont à 820 ng/mL. Selon l'algorithme YEARS adapté à la grossesse, quelles propositions sont exactes ?
+
+- A. L'EP peut être exclue sans imagerie.
+- B. En présence d'un item YEARS, le seuil d'exclusion serait de 500 ng/mL.
+- C. Si une imagerie était nécessaire, l'irradiation fœtale de l'angioscanner contre-indiquerait l'examen.
+- D. En cas d'EP confirmée, le traitement repose sur une HBPM à dose curative.
+- E. En cas d'EP confirmée, le rivaroxaban est une alternative à l'HBPM.
+
+### Corrigé commenté
+
+**QCM 1 — réponse(s) : C.** Diagnostic alternatif moins probable que l'EP (3) + FC > 100/min (1,5) + chirurgie dans les 4 semaines (1,5) = 6 points : probabilité intermédiaire (2–6) en trois niveaux, EP « probable » (> 4) en deux niveaux. Les D-dimères ne sont alors pas l'étape suivante si l'on raisonne en deux niveaux : l'angioscanner est indiqué d'emblée.
+- A : Faux : oublie la tachycardie et la chirurgie récente.
+- B : Faux : un des deux items à 1,5 point a été omis.
+- C : Vrai : 3 + 1,5 + 1,5.
+- D : Faux : il n'y a ni hémoptysie, ni cancer, ni antécédent de MTEV.
+- E : Faux : les signes de TVP (3 points) sont absents.
+
+**QCM 2 — réponse(s) : A, B, C, E.** Le seuil ajusté à l'âge (âge × 10 µg/L au-delà de 50 ans) augmente le nombre de patients âgés chez qui l'EP peut être exclue sans imagerie, avec un taux d'échec très faible (ADJUST-PE). Les D-dimères ne servent qu'à exclure, et seulement en l'absence de probabilité élevée.
+- A : Vrai : 78 × 10 = 780 µg/L.
+- B : Vrai : 690 < 780 µg/L, avec une probabilité non élevée.
+- C : Vrai : chez les patients de plus de 50 ans.
+- D : Faux : les D-dimères sont peu spécifiques ; un résultat positif impose l'imagerie.
+- E : Vrai : en cas de forte probabilité, on réalise d'emblée l'angioscanner.
+
+**QCM 3 — réponse(s) : B.** Pas d'instabilité hémodynamique (pas de choc ni d'hypotension persistante) ; sPESI ≥ 1 (FC ≥ 110/min) ; dysfonction VD ET troponine élevée : risque intermédiaire-élevé. Conduite : anticoagulation parentérale, surveillance continue, thrombolyse seulement en sauvetage.
+- A : Faux : le risque élevé suppose une instabilité hémodynamique.
+- B : Vrai : les deux critères (VD et troponine) sont présents.
+- C : Faux : il faudrait un seul des deux critères ou aucun.
+- D : Faux : le sPESI est ≥ 1 et le VD est dilaté.
+- E : Faux : le sPESI suffit pour cette classification.
+
+**QCM 4 — réponse(s) : A, C, D, E.** La thrombolyse est de classe I dans l'EP à haut risque et en sauvetage en cas de dégradation, mais de classe III en traitement systématique du risque intermédiaire (essai PEITHO : moins de décompensations mais plus d'hémorragies majeures). Un AVC ischémique dans les 6 mois est une contre-indication absolue.
+- A : Vrai : classe I.
+- B : Faux : classe III en systématique ; réservée au sauvetage.
+- C : Vrai : schéma accéléré possible 0,6 mg/kg en 15 min (maximum 50 mg).
+- D : Vrai : AVC ischémique dans les 6 mois.
+- E : Vrai : l'HNF peut en revanche être poursuivie pendant l'altéplase.
+
+**QCM 5 — réponse(s) : A, B, D, E.** Apixaban et rivaroxaban s'utilisent d'emblée avec une phase de dose renforcée ; dabigatran et édoxaban exigent au moins 5 jours d'anticoagulant parentéral. Les doses réduites d'apixaban (2,5 mg × 2/j) ou de rivaroxaban (10 mg/j) peuvent être envisagées après 6 mois en traitement prolongé (classe IIa).
+- A : Vrai.
+- B : Vrai : à prendre au cours d'un repas.
+- C : Faux : au moins 5 jours d'anticoagulant parentéral avant le dabigatran.
+- D : Vrai : puis 60 mg/j (30 mg selon la clairance, le poids, les interactions).
+- E : Vrai : classe IIa (ESC 2019).
+
+**QCM 6 — réponse(s) : A, B, C, E.** Les AOD sont déconseillés dans le SAPL (surtout triple positif : AVK), contre-indiqués pendant la grossesse et l'allaitement, exposés à une perte d'efficacité avec les inducteurs puissants (rifampicine), et le dabigatran est contre-indiqué si la clairance est < 30 mL/min. L'âge seul n'est pas une contre-indication.
+- A : Vrai : EULAR 2019 et ESC 2019 recommandent un AVK.
+- B : Vrai : HBPM pendant la grossesse.
+- C : Vrai : induction enzymatique (CYP3A4/P-gp).
+- D : Faux : l'âge isolé n'est pas une contre-indication ; la fonction rénale est correcte.
+- E : Vrai : dabigatran contre-indiqué si clairance < 30 mL/min.
+
+**QCM 7 — réponse(s) : A, B, D, E.** La durée dépend du facteur déclenchant : 3 mois si facteur transitoire majeur ; prolongée si récidive, SAPL ou cancer actif ; prolongation à envisager (IIa) après un épisode sans facteur identifiable, un facteur mineur ou persistant, si le risque hémorragique est acceptable.
+- A : Vrai : classe I.
+- B : Vrai : classe I.
+- C : Faux : la prolongation de durée non déterminée est à envisager (IIa).
+- D : Vrai.
+- E : Vrai : réévaluation régulière.
+
+**QCM 8 — réponse(s) : A, B, D.** Avec 0 item YEARS, le seuil est de 1 000 ng/mL : 820 ng/mL permet d'exclure l'EP (Artemis). L'irradiation fœtale de l'angioscanner ou de la scintigraphie de perfusion est faible et ne doit pas faire renoncer au diagnostic. Traitement : HBPM curative ; AOD contre-indiqués.
+- A : Vrai : 0 item et D-dimères < 1 000 ng/mL.
+- B : Vrai.
+- C : Faux : le diagnostic prime ; les doses fœtales sont faibles.
+- D : Vrai : dose fondée sur le poids du début de grossesse.
+- E : Faux : AOD contre-indiqués pendant la grossesse (classe III).
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 | Position 2 | Commentaire |
+|---|---|---|---|
+| **Classification de gravité de l'EP** | **ESC 2019** : risque élevé / intermédiaire-élevé / intermédiaire-faible / faible (instabilité, PESI/sPESI, VD, troponine) [S1] | **AHA/ACC 2026** : catégories cliniques **A à E** avec sous-catégories ; abandon des termes « massive/submassive » [S2] | Les deux systèmes ne se superposent pas exactement ; pour l'examen en Algérie, connaître d'abord l'ESC 2019 |
+| **Traitements avancés hors haut risque** | ESC 2019 : thrombolyse systématique non recommandée (III) en risque intermédiaire ; traitement percutané en alternative à la chirurgie (IIa) dans le haut risque [S1] | AHA/ACC 2026 : traitements avancés « envisageables » en catégorie D1–D2 [S2] | Évolution liée aux essais récents de traitement par cathéter (une nouvelle recommandation ESC est attendue) |
+| **Choix de l'anticoagulant dans le cancer** | ESC 2019 : HBPM pendant 6 mois (IIa) ; édoxaban ou rivaroxaban en alternative, sauf cancer gastro-intestinal (IIa) [S1] | ESC 2022 cardio-oncologie : AOD (édoxaban, apixaban, rivaroxaban) en classe I chez les patients sans contre-indication [S6] | Le texte de 2022 intègre l'essai Caravaggio (apixaban) ; la prudence dans les cancers digestifs et urogénitaux persiste |
+| **TVP distale isolée** | CHEST 2021 : surveillance échographique en l'absence de symptômes sévères ou de facteur d'extension, sinon anticoagulation [S4] | ESVS 2021 : anticoagulation généralement proposée pour les TVP distales symptomatiques, durée de 3 mois **[À VÉRIFIER — classe et formulation exactes]** [S3] | Les deux options sont acceptables ; décision partagée selon le risque hémorragique |
+| **EP sous-segmentaire isolée** | CHEST 2021 : surveillance clinique possible sans TVP proximale ni facteur de risque de récidive [S4] | ESC 2019 : pas de recommandation de non-traitement ; prudence, données limitées [S1] | Diagnostic par excès fréquent ; relecture du scanner recommandée |
+| **Seuil des D-dimères** | ESC 2019 : seuil ajusté à l'âge ou adapté à la probabilité clinique (IIa) [S1] | Recommandations françaises 2019 : seuil ajusté à l'âge recommandé **[À VÉRIFIER — formulation]** [S13] | Ne jamais combiner librement deux stratégies non validées ensemble |
+| **Durée après un épisode sans facteur identifiable** | ESC 2019 : prolongation à envisager (IIa) [S1] | ASH 2020 : prolongation de durée indéfinie suggérée [S5] ; CHEST 2021 : prolongation proposée si risque hémorragique faible à modéré [S4] | Convergence sur la prolongation, divergence sur la force de la recommandation |
+
+---
+
+## 22. Références
+
+1. **[S1]** Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS). *Eur Heart J.* 2020;41(4):543-603. doi:10.1093/eurheartj/ehz405. — vérifiée.
+2. **[S2]** Creager MA, Barnes GD, et al. 2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults. *Circulation.* 2026;153(12):e977-e1051. doi:10.1161/CIR.0000000000001415. — vérifiée (contenu détaillé partiellement).
+3. **[S3]** Kakkos SK, Gohel M, Baekgaard N, et al. European Society for Vascular Surgery (ESVS) 2021 Clinical Practice Guidelines on the Management of Venous Thrombosis. *Eur J Vasc Endovasc Surg.* 2021;61(1):9-82. — vérifiée (DOI non confirmé).
+4. **[S4]** Stevens SM, Woller SC, Baumann Kreuziger L, et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline and Expert Panel Report. *Chest.* 2021;160(6):e545-e608. doi:10.1016/j.chest.2021.07.055. — vérifiée.
+5. **[S5]** Ortel TL, Neumann I, Ageno W, et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism. *Blood Adv.* 2020;4(19):4693-4738. doi:10.1182/bloodadvances.2020001830. — vérifiée.
+6. **[S6]** Lyon AR, López-Fernández T, Couch LS, et al. 2022 ESC Guidelines on cardio-oncology. *Eur Heart J.* 2022;43(41):4229-4361. doi:10.1093/eurheartj/ehac244. — vérifiée (volume et pages à confirmer).
+7. **[S7]** De Backer J, Haugaa KH, Hasselberg NE, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. *Eur Heart J.* 2025;46(43):4462-4568. doi:10.1093/eurheartj/ehaf193. — vérifiée (texte intégral non lu).
+8. **[S8]** Righini M, Van Es J, Den Exter PL, et al. Age-adjusted D-dimer cutoff levels to rule out pulmonary embolism: the ADJUST-PE study. *JAMA.* 2014;311(11):1117-1124. — vérifiée.
+9. **[S9]** van der Pol LM, Tromeur C, Bistervels IM, et al. Pregnancy-Adapted YEARS Algorithm for Diagnosis of Suspected Pulmonary Embolism. *N Engl J Med.* 2019;380(12):1139-1149. — vérifiée.
+10. **[S10]** van der Hulle T, Cheung WY, Kooij S, et al. Simplified diagnostic management of suspected pulmonary embolism (the YEARS study). *Lancet.* 2017;390(10091):289-297. — **non vérifiée**.
+11. **[S11]** Freund Y, Cachanado M, Aubry A, et al. Effect of the Pulmonary Embolism Rule-Out Criteria on Subsequent Thromboembolic Events Among Low-Risk Emergency Department Patients: The PROPER Randomized Clinical Trial. *JAMA.* 2018;319(6):559-566. — **non vérifiée**.
+12. **[S12]** Tektonidou MG, Andreoli L, Limper M, et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. *Ann Rheum Dis.* 2019;78(10):1296-1304. doi:10.1136/annrheumdis-2019-215213. — vérifiée.
+13. **[S13]** Sanchez O, Benhamou Y, Bertoletti L, et al. Recommandations de bonne pratique pour la prise en charge de la maladie veineuse thromboembolique chez l'adulte. Version courte. *Rev Mal Respir.* 2019;36(2):249-283. — **non vérifiée**.
+
+*Posologies citées d'après les tableaux de l'ESC 2019 [S1] et les RCP des spécialités ; les marqueurs `[POSOLOGIE À VÉRIFIER]` signalent les schémas non confirmés pendant la rédaction (HNF, ténectéplase, AVK, CCP).*

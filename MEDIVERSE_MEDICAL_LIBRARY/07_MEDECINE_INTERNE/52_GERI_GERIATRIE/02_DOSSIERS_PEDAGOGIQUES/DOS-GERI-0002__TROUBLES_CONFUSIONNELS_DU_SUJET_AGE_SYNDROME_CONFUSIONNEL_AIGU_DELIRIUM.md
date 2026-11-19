@@ -456,7 +456,38 @@ La confusion est une urgence : l'**hospitalisation** est habituellement nécessa
 - Surveillance de tout antipsychotique : sédation excessive, chutes, fausses routes, syndrome extrapyramidal, allongement du QT (ECG), hypotension.
 - **Prévention médicamenteuse** (antipsychotiques, mélatonine, etc.) : non recommandée de façon systématique en l'état des données ; en réanimation, les recommandations PADIS suggèrent de ne pas utiliser d'halopéridol ni d'antipsychotique atypique pour prévenir le delirium chez tous les patients [S16] `[À VÉRIFIER — formulation]`.
 
-### 12.6 Aspects éthiques et légaux (Algérie)
+### 12.6 Révision de l'ordonnance : la charge anticholinergique
+
+Les effets anticholinergiques **s'additionnent** : plusieurs médicaments faiblement anticholinergiques, pris ensemble, peuvent provoquer une confusion. Les critères de Beers 2023 recommandent d'éviter les médicaments fortement anticholinergiques chez le sujet âgé, en particulier en cas de confusion ou de démence, et de limiter le nombre de médicaments anticholinergiques associés ; les critères STOPP/START v3 comportent des critères de même esprit [S10, S11] `[libellés exacts à confronter aux tableaux des critères]`.
+
+| Classe | Exemples (molécules courantes) | Piste de remplacement (à discuter au cas par cas) |
+|---|---|---|
+| Antispasmodiques urinaires | Oxybutynine, toltérodine, solifénacine | Mesures comportementales (mictions programmées) ; alternatives non anticholinergiques selon avis spécialisé |
+| Antihistaminiques de 1re génération | Hydroxyzine, dexchlorphéniramine, prométhazine | Antihistaminiques non sédatifs (allergie) ; mesures d'hygiène du sommeil (insomnie) |
+| Antidépresseurs tricycliques | Amitriptyline, clomipramine, imipramine | Autres classes d'antidépresseurs selon le contexte |
+| Antipsychotiques à forte activité anticholinergique | Phénothiazines (chlorpromazine…) | Éviter ; avis spécialisé |
+| Antiparkinsoniens anticholinergiques | Trihexyphénidyle | Éviter chez le sujet âgé |
+| Antispasmodiques digestifs, certains antiémétiques | Selon les spécialités | Réévaluer l'indication |
+
+Démarche : **lister** tous les médicaments, **identifier** ceux qui sont anticholinergiques ou sédatifs, **arrêter** ce qui n'est pas indispensable, **substituer** ce qui peut l'être, **diminuer progressivement** ce qui expose à un sevrage (benzodiazépines, antidépresseurs), puis **réévaluer** la confusion. Les dosages pharmacologiques (digoxine, lithium) et l'adaptation à la fonction rénale (DFG estimé) font partie de cette révision.
+
+### 12.7 Rôle de l'équipe soignante et des aidants
+
+- **Infirmiers et aides-soignants** : repérage quotidien (4AT), surveillance de l'hydratation, du transit, de la diurèse, de la douleur et du sommeil, réorientation, signalement des fluctuations ; ils sont au premier plan de la prévention.
+- **Médecin** : bilan étiologique, révision médicamenteuse, décision et réévaluation de tout psychotrope, information de la famille.
+- **Kinésithérapeute** : lever précoce, prévention des chutes et du déconditionnement.
+- **Aidants familiaux** : présence rassurante (surtout la nuit), apport d'objets familiers, lunettes et appareils auditifs, informations sur l'état antérieur ; ils doivent être **informés** que la confusion est une complication médicale souvent réversible, et non une « folie » ou une démence brutale.
+- **Communication** : expliquer au patient, une fois l'épisode résolu, ce qui s'est passé (les souvenirs d'hallucinations ou de contention peuvent être traumatisants).
+
+### 12.8 Confusion à domicile : conduite du médecin généraliste
+
+1. Évaluer la gravité (paramètres vitaux, glycémie capillaire, vigilance, signes de localisation, fièvre, déshydratation, chute récente).
+2. Relire l'ordonnance et rechercher les modifications récentes ; rechercher un globe vésical et un fécalome.
+3. Hospitaliser si : signe de gravité, cause non évidente, impossibilité de surveillance, chute avec traumatisme crânien sous anticoagulant, suspicion d'AVC, de sepsis ou de syndrome coronarien.
+4. Maintien à domicile envisageable seulement si la cause est évidente et rapidement corrigeable (médicament arrêté, rétention levée), avec un entourage présent et une réévaluation dans les 24 à 48 heures.
+5. Prévenir la récidive : ordonnance simplifiée, éviter les anticholinergiques et sédatifs, informer l'entourage des signes d'alerte.
+
+### 12.9 Aspects éthiques et légaux (Algérie)
 
 - Le patient confus a souvent une **capacité de consentement altérée** : l'information est adaptée et répétée ; l'entourage est associé. La loi 18-11 pose le principe du **consentement libre et éclairé** (art. 343) et prévoit que les droits des personnes **incapables** sont exercés par les parents ou le représentant légal (art. 23) ; l'accès aux soins ne peut être refusé, notamment en urgence (art. 21) [S15].
 - Le delirium est une **urgence somatique** : sa prise en charge relève d'abord d'un service de médecine ou de gériatrie, avec avis psychiatrique si besoin ; une réflexion collégiale et une traçabilité sont nécessaires pour toute mesure restrictive. Le cadre légal précis de la **contention physique** en milieu somatique n'a pas été retrouvé dans les textes consultés `[À VÉRIFIER]`.
@@ -490,3 +521,218 @@ Le NICE recommande, chez les patients à risque, une **évaluation dans les 24 h
 - sommeil (éviter les soins nocturnes, réduire le bruit).
 
 Autres mesures : évaluation gériatrique et prise en charge **orthogériatrique** des fractures du col, anesthésie et analgésie adaptées, révision des prescriptions à l'aide des critères **Beers 2023** et **STOPP/START v3** (anticholinergiques, benzodiazépines) [S10, S11], formation des équipes, implication des familles.
+
+---
+
+## 15. Algorithmes décisionnels
+
+### 15.1 Devant une modification aiguë du comportement ou de la cognition
+
+```text
+1. Urgences vitales immédiates ?
+   - glycémie capillaire, SpO2, PA, FC, température, vigilance (score de Glasgow)
+   - hypoglycémie → resucrage ; hypoxie → oxygène ; choc/sepsis → prise en charge urgente
+2. Est-ce une confusion ? → repérage 4AT (≥ 4 : confusion possible) ; confirmer par CAM ou critères DSM-5-TR
+   - inattention + début aigu/fluctuant = argument clé
+   - interroger l'entourage sur l'état antérieur (démence connue ?)
+3. Recherche de la cause (souvent multiple) :
+   a. MÉDICAMENTS : introduction, arrêt, majoration récents ; anticholinergiques, sédatifs, opioïdes ; sevrage (alcool, benzodiazépines)
+   b. Examen : globe vésical, fécalome, douleur, déshydratation, foyer infectieux, signes neurologiques, traumatisme
+   c. Bilan socle : NFS, CRP, ionogramme, calcémie, glycémie, urée, créatinine, bilan hépatique, ECG, BU
+   d. Bilan orienté : gaz du sang, hémocultures, radiographie thoracique, troponine, dosages médicamenteux
+   e. Scanner cérébral si : signe focal, chute/traumatisme crânien (anticoagulant), vigilance altérée inexpliquée, cause non trouvée
+   f. PL si fièvre sans foyer ou syndrome méningé ; EEG si suspicion d'état de mal non convulsif
+4. Traiter chaque cause identifiée ; arrêter ou adapter les médicaments responsables
+5. Mesures non médicamenteuses pour tous ; éviter contention et sonde urinaire
+6. Détresse sévère ou danger persistant malgré ces mesures ?
+   → traitement médicamenteux bref, à faible dose, réévalué quotidiennement (halopéridol selon NICE ; benzodiazépine seulement si sevrage)
+   → prudence extrême si Parkinson / démence à corps de Lewy (avis spécialisé)
+7. Surveillance quotidienne ; à la sortie : information, transmission, réévaluation cognitive à distance
+```
+
+### 15.2 Orientation diagnostique rapide selon le contexte
+
+```text
+- Fièvre                         → infection (poumon, urine, peau, abdomen) ; méningite si signes méningés
+- Globe vésical / constipation   → rétention urinaire (anticholinergiques, adénome) ; fécalome (opioïdes)
+- Médicament récent              → iatrogénie ; syndrome anticholinergique ou sérotoninergique
+- Arrêt récent d'alcool / BZD    → sevrage (delirium tremens) → benzodiazépines + thiamine
+- Chute / anticoagulant          → hématome sous-dural (scanner)
+- Signes de localisation         → AVC (imagerie urgente)
+- Somnolence + BPCO / opioïdes   → hypercapnie (gaz du sang)
+- Diurétique / ISRS              → hyponatrémie
+- Diabétique traité              → hypoglycémie
+- Confusion fluctuante inexpliquée → état de mal non convulsif (EEG)
+```
+
+---
+
+## 16. Cas clinique commenté (fictif)
+
+**Présentation.** Mme B., 87 ans, atteinte d'une maladie d'Alzheimer au stade léger (MMSE à 22/30 il y a 6 mois), vivant chez sa fille, est amenée aux urgences pour une **agitation nocturne** et des **propos incohérents** depuis 48 heures. Elle « voit des enfants dans la chambre », a tenté de sortir la nuit, et somnole le jour. Il y a 5 jours, son médecin a introduit de l'**oxybutynine** pour une incontinence par urgenturie et du **tramadol** pour des douleurs de gonarthrose. Traitements habituels : donépézil, amlodipine.
+
+**Examen.** T 37,4 °C, PA 138/76 mmHg, FC 96/min, SpO₂ 95 % en air ambiant, glycémie capillaire 1,12 g/L. Patiente somnolente par moments, puis agitée ; elle ne peut pas dire les mois de l'année à l'envers au-delà de « décembre, novembre » ; se trompe sur l'année et le lieu. **Globe vésical** (échographie : 650 mL) ; **fécalome** au toucher rectal ; muqueuses sèches ; pas de signe de localisation neurologique ; pas de syndrome méningé ; auscultation pulmonaire normale.
+
+**4AT** : vigilance anormale (4) + AMT4 : 2 erreurs (2) + mois à l'envers : débute mais < 7 mois (1) + changement aigu rapporté par la fille (4) = **11/12** → confusion probable. **CAM** : début aigu et fluctuant (+), inattention (+), pensée désorganisée (+), niveau de conscience altéré (+) → positif.
+
+**Biologie.** Na 133 mmol/L, K 4,1 mmol/L, calcémie normale, urée 0,62 g/L, créatinine 13 mg/L (valeur habituelle 9 mg/L), CRP 12 mg/L, NFS normale, bilan hépatique normal ; BU : leucocytes +, nitrites − ; ECG : rythme sinusal, QTc 440 ms.
+
+**Raisonnement et conduite.**
+1. *Diagnostic* : **confusion mixte** (agitation nocturne, somnolence diurne) superposée à une démence légère.
+2. *Causes probables, cumulées* : effet **anticholinergique** de l'oxybutynine (confusion + rétention urinaire), **tramadol** (confusiogène, constipant, abaisse le seuil épileptogène, risque sérotoninergique avec certains antidépresseurs), **rétention aiguë d'urine** et **fécalome** (aggravés par les deux médicaments), **déshydratation** modérée (insuffisance rénale fonctionnelle) ; l'association d'un **anticholinergique** et d'un **anticholinestérasique** (donépézil) est pharmacologiquement incohérente.
+3. *Mesures* : **arrêt** de l'oxybutynine et du tramadol ; **sondage évacuateur** (puis ablation de la sonde dès que possible, avec contrôle du résidu) ; évacuation du fécalome et laxatifs ; réhydratation ; antalgie par **paracétamol** ; la leucocyturie isolée sans fièvre ni signes urinaires n'impose pas d'antibiotique d'emblée (prélever un ECBU, réévaluer).
+4. *Environnement* : présence de la fille, lunettes, horloge, chambre calme et éclairée le jour, lever accompagné, pas de contention.
+5. *Psychotrope* : la première nuit, malgré les mesures, la patiente est très angoissée par ses hallucinations et tente d'enjamber les barrières : un antipsychotique à **très faible dose** est discuté et prescrit pour une durée brève, avec réévaluation le lendemain et ECG de contrôle `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+6. *Évolution* : amélioration nette en 72 heures ; 4AT à 2 au 5e jour (troubles cognitifs connus). Sortie avec une ordonnance révisée (pas d'anticholinergique ; prise en charge non médicamenteuse de l'incontinence), information de la famille et du médecin référent, **réévaluation cognitive à 3 mois**.
+
+**Message pédagogique** : chez le sujet âgé, la confusion est souvent **iatrogène** et **multifactorielle** ; l'examen de la **vessie** et du **rectum** et la **lecture de l'ordonnance** valent souvent plus qu'un scanner.
+
+---
+
+## 17. Points clés à retenir
+
+1. Le syndrome confusionnel aigu (**delirium**) associe **trouble de l'attention et de la conscience**, **début rapide**, **fluctuations**, autres troubles cognitifs, et une **cause organique**.
+2. C'est une **urgence médicale**, fréquente, grave, **sous-diagnostiquée**, surtout dans sa forme **hypoactive**.
+3. Modèle **vulnérabilité × facteurs précipitants** : chez un sujet très vulnérable (démence), une cause minime suffit ; les causes sont souvent **multiples**.
+4. Repérage par le **4AT** (≥ 4 : confusion possible) ; diagnostic par la **CAM** (1 + 2 + [3 ou 4]) ou les critères DSM-5-TR ; tester l'**attention** (mois à l'envers).
+5. Causes à rechercher en premier : **médicaments** (anticholinergiques, benzodiazépines, opioïdes, sevrages), **rétention urinaire**, **fécalome**, **douleur**, **déshydratation**, **infection**, troubles **métaboliques** (Na, Ca, glucose), hypoxie/hypercapnie, **hématome sous-dural**.
+6. Bilan socle : glycémie, NFS, CRP, ionogramme, calcémie, urée, créatinine, bilan hépatique, ECG, BU ; **scanner cérébral non systématique**.
+7. Traitement : **cause** + mesures **non médicamenteuses** ; **pas de contention** ; psychotrope seulement en cas de détresse ou de danger, **bref**, à **faible dose**, réévalué ; **benzodiazépines** réservées aux **sevrages**.
+8. Prévention **multicomposante** non médicamenteuse chez les patients à risque (orientation, hydratation, mobilisation, sommeil, sensoriel, révision des médicaments, douleur).
+9. Pronostic : surmortalité, perte d'autonomie, institutionnalisation, déclin cognitif → **suivi cognitif** après l'épisode.
+
+---
+
+## 18. Pièges classiques à l'examen
+
+- Confondre **confusion** (delirium) et **délire** (idée délirante).
+- Attribuer une agitation aiguë à « la démence » ou à « l'âge » sans rechercher de cause organique.
+- Méconnaître la forme **hypoactive** (somnolence, apathie) en la prenant pour une dépression ou de la fatigue.
+- Conclure à une **infection urinaire** sur une bandelette positive isolée sans fièvre ni signes urinaires (bactériurie asymptomatique fréquente) et arrêter là le bilan.
+- Oublier le **globe vésical** et le **fécalome**.
+- Prescrire une **benzodiazépine** pour calmer une confusion qui n'est pas liée à un sevrage.
+- Prescrire un **neuroleptique** à un patient parkinsonien ou atteint de démence à corps de Lewy sans précaution.
+- Recourir à la **contention physique**, qui aggrave l'agitation.
+- Demander un **scanner cérébral** systématique… ou l'oublier après une chute sous anticoagulant.
+- Arrêter **brutalement** une benzodiazépine prise depuis des années (sevrage confusiogène).
+- Associer un **anticholinergique** à un **anticholinestérasique** chez un patient dément.
+
+---
+
+## 19. QCM d'auto-évaluation
+
+**QCM 1.** Concernant le syndrome confusionnel aigu :
+A. Le trouble de l'attention en est l'élément central
+B. Le début est progressif sur plusieurs mois
+C. Les symptômes fluctuent au cours de la journée
+D. Une cause organique est présente par définition
+E. Il ne peut pas survenir chez un patient dément
+
+**QCM 2.** La forme hypoactive de la confusion :
+A. Est rare chez le sujet âgé
+B. Est souvent méconnue
+C. Peut être prise à tort pour une dépression
+D. A un pronostic plus défavorable que la forme hyperactive
+E. Ne nécessite pas de bilan étiologique
+
+**QCM 3.** Concernant le 4AT :
+A. Il comporte une évaluation de la vigilance
+B. Il comporte un test d'attention par les mois de l'année à l'envers
+C. Un score ≥ 4 évoque une confusion possible
+D. Il nécessite une formation spécifique longue
+E. Il est l'outil de repérage recommandé par défaut par le NICE depuis 2023
+
+**QCM 4.** Selon l'algorithme de la CAM, le diagnostic de confusion requiert :
+A. Un début aigu et une évolution fluctuante
+B. Une inattention
+C. Une pensée désorganisée ou une altération du niveau de conscience
+D. Des hallucinations visuelles
+E. Une désorientation temporo-spatiale obligatoire
+
+**QCM 5.** Médicaments fréquemment en cause dans une confusion du sujet âgé :
+A. Oxybutynine
+B. Hydroxyzine
+C. Tramadol
+D. Benzodiazépines
+E. Paracétamol à dose usuelle
+
+**QCM 6.** Bilan initial d'une confusion chez une femme de 85 ans sans signe de localisation ni chute :
+A. Glycémie capillaire
+B. Ionogramme sanguin et calcémie
+C. ECG
+D. Recherche d'un globe vésical
+E. Scanner cérébral systématique
+
+**QCM 7.** Concernant le traitement :
+A. Le traitement étiologique est prioritaire
+B. La contention physique est recommandée en première intention en cas d'agitation
+C. Un antipsychotique peut être envisagé brièvement en cas de détresse sévère ou de danger
+D. Les benzodiazépines sont le traitement de choix du delirium tremens
+E. Les neuroleptiques doivent être évités ou utilisés avec une grande prudence dans la démence à corps de Lewy
+
+**QCM 8.** Mesures de prévention de la confusion à l'hôpital :
+A. Réorientation régulière (horloge, calendrier)
+B. Remise des lunettes et des appareils auditifs
+C. Mobilisation précoce
+D. Pose systématique d'une sonde urinaire pour surveiller la diurèse
+E. Respect du sommeil nocturne
+
+**QCM 9.** Diagnostic différentiel confusion / démence :
+A. La démence a un début insidieux
+B. L'attention est très altérée dès le début de la démence d'Alzheimer
+C. Les fluctuations marquées orientent vers une confusion
+D. La démence à corps de Lewy peut comporter des fluctuations et des hallucinations visuelles
+E. Une confusion peut révéler une démence méconnue
+
+**QCM 10.** Après un épisode de confusion :
+A. Le risque de déclin cognitif ultérieur est augmenté
+B. Une réévaluation cognitive à distance est recommandée
+C. Le pronostic vital n'est jamais modifié
+D. Le patient et sa famille doivent être informés
+E. Les médicaments responsables doivent être signalés au médecin référent
+
+### Corrigé commenté
+
+- **QCM 1 : A, C, D.** B faux (début rapide) ; E faux (la démence est le principal facteur de risque).
+- **QCM 2 : B, C, D.** A faux (forme la plus fréquente chez le sujet âgé) ; E faux.
+- **QCM 3 : A, B, C, E.** D faux (outil rapide, sans formation spécifique) [S1, S4].
+- **QCM 4 : A, B, C** [S3]. D et E ne sont pas des critères obligatoires.
+- **QCM 5 : A, B, C, D.** Oxybutynine et hydroxyzine : anticholinergiques ; tramadol : opioïde sérotoninergique ; benzodiazépines. E faux.
+- **QCM 6 : A, B, C, D.** E faux : imagerie orientée (signe focal, chute, cause non trouvée) [S6].
+- **QCM 7 : A, C, D, E.** B faux : la contention aggrave l'agitation et expose à des complications.
+- **QCM 8 : A, B, C, E.** D faux (la sonde urinaire est un facteur précipitant).
+- **QCM 9 : A, C, D, E.** B faux (attention relativement préservée aux stades initiaux).
+- **QCM 10 : A, B, D, E.** C faux (surmortalité associée).
+
+---
+
+## 20. Divergences entre recommandations
+
+| Sujet | Position 1 (organisme, date) | Position 2 (organisme, date) | Commentaire |
+|---|---|---|---|
+| Outil de repérage | NICE 2023 : **4AT** par défaut ; CAM-ICU ou ICDSC en réanimation et salle de réveil [S1] | HAS 2009 : utilisation d'outils tels que la **CAM** dans l'évaluation de la confusion [S6] `[À VÉRIFIER — outil cité]` | Le 4AT, plus court et utilisable sans formation, s'est imposé dans les recommandations récentes |
+| Psychotropes en cas d'agitation | NICE : halopéridol à court terme si détresse ou danger, après échec de la désescalade ; benzodiazépines réservées au sevrage [S1] | HAS 2009 : molécule à demi-vie courte, dose faible, durée brève ; benzodiazépine à demi-vie courte envisageable quand l'anxiété prédomine, neuroleptique quand les symptômes psychotiques prédominent `[À VÉRIFIER]` [S6] | Accord sur le principe « le moins possible, le plus court possible » ; désaccord sur la place des benzodiazépines hors sevrage |
+| Prévention médicamenteuse | Pas de prévention médicamenteuse systématique (NICE, SIGN) [S1, S12] `[À VÉRIFIER — formulation]` | Réanimation (PADIS 2018) : suggestion de ne pas utiliser halopéridol ni antipsychotique atypique en prévention chez tous les patients [S16] | Priorité aux interventions multicomposantes non médicamenteuses [S8] |
+| Champ des recommandations | HAS 2009 : exclut la confusion postopératoire [S6] | NICE : hôpital (y compris chirurgie) et établissements de long séjour [S1] | Pour la chirurgie, se référer aux recommandations spécifiques (orthogériatrie, anesthésie) |
+| Classification | DSM-5-TR : delirium dans les troubles neurocognitifs ; sous-types hyper/hypo/mixte [S2] | CIM-11 : delirium (6D70) `[À VÉRIFIER]` | Terminologie française : « syndrome confusionnel aigu » ≈ delirium |
+
+---
+
+## 21. Références
+
+1. [S1] NICE. Delirium: prevention, diagnosis and management in hospital and long-term care (CG103). 2010, updated January 2023.
+2. [S2] American Psychiatric Association. DSM-5-TR. 2022.
+3. [S3] Inouye SK et al. Clarifying confusion: the confusion assessment method. Ann Intern Med 1990;113(12):941-948. doi:10.7326/0003-4819-113-12-941.
+4. [S4] Tieges Z et al. Diagnostic accuracy of the 4AT for delirium detection in older adults. Age Ageing 2021;50(3):733-743. doi:10.1093/ageing/afaa224.
+5. [S5] Bellelli G et al. Validation of the 4AT. Age Ageing 2014;43(4):496-502.
+6. [S6] HAS. Confusion aiguë chez la personne âgée : prise en charge initiale de l'agitation. Mai 2009.
+7. [S7] Inouye SK, Westendorp RGJ, Saczynski JS. Delirium in elderly people. Lancet 2014;383:911-922.
+8. [S8] Inouye SK et al. A multicomponent intervention to prevent delirium in hospitalized older patients. N Engl J Med 1999;340:669-676.
+9. [S9] Inouye SK, Charpentier PA. JAMA 1996;275(11):852-857.
+10. [S10] American Geriatrics Society. 2023 updated AGS Beers Criteria. J Am Geriatr Soc 2023;71(7):2052-2081. doi:10.1111/jgs.18372.
+11. [S11] O'Mahony D et al. STOPP/START version 3. Eur Geriatr Med 2023;14(4):625-632. doi:10.1007/s41999-023-00777-y.
+12. [S12] SIGN 157. Risk reduction and management of delirium. 2019.
+13. [S13] Ely EW et al. CAM-ICU. JAMA 2001;286(21):2703-2710.
+14. [S14] Wilson JE et al. Delirium. Nat Rev Dis Primers 2020;6:90.
+15. [S15] Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074).
+16. [S16] Devlin JW et al. PADIS guidelines. Crit Care Med 2018;46(9):e825-e873.

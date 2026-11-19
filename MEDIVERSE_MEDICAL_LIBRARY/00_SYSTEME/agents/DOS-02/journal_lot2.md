@@ -1,0 +1,8 @@
+# Journal — DOS-02 (lot 2) — dossiers pédagogiques maladies infectieuses
+
+Mission : DOS-INFE-0003 à 0007 (RES-MED-001, 002, 006, 004, 003) ; QCM-INFE-0201… ; CAS-INFE-0201…
+
+- 2026-11-19 — démarrage : lecture BRIEF_COMMUN_DOSSIERS, CONVENTIONS, MODELE_DOSSIER, schémas QCM/cas, programme (RES-MED-001 à 006), dossiers DOS-INFE-0001/0002 v1.1 et rapports d'audit AUD-02 (dont DOS-MINT_REA-0001 pour la SSC 2026), registre des acquisitions et catalogue des recommandations (REC-0004, 0266, 0268, 0279, 0280, 0285, 0286, 0488, 0531).
+- 2026-11-19 — sources acquises lues (pdftotext -layout) : OMS paludisme 2026 (DOC-00024) et FR 2023 (DOC-00058) ; OMS VIH 2021 (DOC-00029) et 2025 (DOC-00057) ; OMS rage TRS 1012 (DOC-00038) ; livre AWaRe 2022 (DOC-00039 : chapitres fièvre entérique et sepsis de l'adulte, texte extractible malgré la mention « OCR requis ») ; décrets 22-250, 22-211, arrêtés du calendrier vaccinal 2018/2026 (DOC-00070/71/72/73) ; fiche du décret 24-366 (catalogue REC-0006).
+- 2026-11-19 — WebSearch (15 requêtes) : certification OMS de l'Algérie (22/05/2019) ; Klemm mBio 2018 (XDR) ; note OMS vaccins typhoïde 2018 ; rage en Algérie (IPA, WOAH 2025) ; SSC 2021 (Evans, ICM) ; lénacapavir OMS 14/07/2025 ; paludisme d'importation Sud algérien 2020 (presse) ; SPILF paludisme 2017 ; Shakya NEJM 2019 ; Phoenix JAMA 2024 ; OMS cryptococcose 2022 ; Crump CMR 2015 ; données VIH Algérie (presse).
+- 2026-11-19 — DOS-INFE-0003 (fièvres typhoïde et paratyphoïdes) rédigé ; 13 QCM (QCM-INFE-0201…0213) et 2 cas (CAS-INFE-0201, 0202) générés par build.py (scratchpad) et insérés (§17, §20).

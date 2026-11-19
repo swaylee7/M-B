@@ -4,7 +4,12 @@ titre: "Fiche — Endocardites infectieuses"
 specialite: CARD
 items_residanat: [RES-MED-053]
 dossier_source: DOS-CARD-0005
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-CARD-0005 v1.2 et DOS-INFE-0002 v1.2 : EI à Brucella (aminoside initial, divergence de dose de rifampicine, chirurgie) ; abandon de la clindamycine par l'ESC 2023 confirmé."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Endocardites infectieuses (RES-MED-053)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-CARD-0005 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau. Posologies adultes à fonction rénale normale : avis infectiologique, RCP et dosages plasmatiques indispensables.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-CARD-0005 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau. Posologies adultes à fonction rénale normale : avis infectiologique, RCP et dosages plasmatiques indispensables.
 
 ## 1. Définition (2 lignes)
 
@@ -134,7 +139,7 @@ Principes : **bactéricide, IV, fortes doses, prolongé** ; durée comptée du *
 | HACEK | Ceftriaxone 2 g/j — 4 sem | 6 sem |
 | *Coxiella* | Doxycycline 200 mg/j + hydroxychloroquine 200–600 mg/j, **> 18 mois** | Idem (plus long) |
 | *Bartonella* | Doxycycline 100 mg × 2/j 4 sem + gentamicine 3 mg/kg/j 2 sem | Idem |
-| *Brucella* | Doxycycline 200 mg/j + cotrimoxazole 960 mg × 2/j + rifampicine 300–600 mg/j, ≥ 3–6 mois | Idem |
+| *Brucella* | **Doxycycline + rifampicine (± cotrimoxazole) + aminoside initial**, ≥ 3–6 mois, **chirurgie fréquente** ; rifampicine 300–600 mg/j (tableau ESC 2015, gentamicine les 3 premières semaines « selon certains auteurs ») vs 600–900 mg/j (Ioannina 2007, forme non compliquée) `[POSOLOGIE À VÉRIFIER — avis infectiologique]` | Idem |
 
 - **Probabiliste** (après hémocultures, si sepsis/complication) : couvrir staphylocoques, streptocoques, entérocoques ; schémas ESC 2023 non confirmés `[POSOLOGIE À VÉRIFIER — ESC 2023, tableau des traitements probabilistes / avis infectiologique]`.
 - **Relais oral** chez des patients sélectionnés (IIa, ESC 2023 [S1], essai POET [S5]).
@@ -158,7 +163,7 @@ Hémorragie intracrânienne → chirurgie en règle différée
 - Quotidien : température, souffle, IC, embolies, neurologie, **ECG** ; **hémocultures de contrôle à 48–72 h** ; CRP/NFS ; créatinine/K+ ≥ 2 fois/semaine ; dosages de vancomycine/gentamicine ; audiogramme si aminosides prolongés.
 - Complications : **IC** (la plus fréquente, 1er facteur pronostique), infection non contrôlée, embolies (cerveau, rate, reins), anévrismes infectieux, abcès splénique, glomérulonéphrite, spondylodiscite, rechute (< 6 mois).
 - Après traitement : échocardiographie de référence, suivi rapproché, patient devenu **à haut risque**.
-- **Prophylaxie** (ESC 2023) : seulement **risque élevé** (antécédent d'EI, prothèse chirurgicale ou percutanée, cardiopathie congénitale cyanogène non opérée…) **+ geste dentaire** à risque. Risque intermédiaire (dont **cardiopathie rhumatismale**) : pas de prophylaxie systématique. Allergie : céfalexine 2 g, azithro-/clarithromycine 500 mg, doxycycline 100 mg ; **clindamycine plus recommandée** (AHA 2021 [S4] ; ESC 2023 a priori concordante `[À VÉRIFIER]`).
+- **Prophylaxie** (ESC 2023) : seulement **risque élevé** (antécédent d'EI, prothèse chirurgicale ou percutanée, cardiopathie congénitale cyanogène non opérée…) **+ geste dentaire** à risque. Risque intermédiaire (dont **cardiopathie rhumatismale**) : pas de prophylaxie systématique. Allergie : céfalexine 2 g, azithro-/clarithromycine 500 mg, doxycycline 100 mg ; **clindamycine plus recommandée** (AHA 2021 [S4] ; ESC 2023 [S1], confirmé [S9 du dossier]).
 - Algérie : prophylaxie secondaire du RAA (programme national, source S7 du dossier) — schéma rapporté de benzathine-benzylpénicilline tous les 21 jours `[POSOLOGIE ET DURÉE À VÉRIFIER sur le document officiel du programme national S7]`.
 
 ## 6. Pièges classiques

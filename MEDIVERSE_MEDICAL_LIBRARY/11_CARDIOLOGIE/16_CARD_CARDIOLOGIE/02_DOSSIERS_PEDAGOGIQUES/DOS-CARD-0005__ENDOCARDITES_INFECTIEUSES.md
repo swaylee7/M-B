@@ -6,12 +6,18 @@ sous_specialite: "Valvulopathies et infections cardiaques"
 items_residanat: [RES-MED-053]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
 statut: audite_corrections_requises
 audit:
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : EI à Brucella harmonisée avec DOS-INFE-0002 (aminoside initial, divergence de dose de rifampicine ESC 2015 / Ioannina 2007 présentée, chirurgie) ; abandon de la clindamycine (ESC 2023) harmonisé et marqueur levé. Restent ouverts les points des audits précédents."
   - date: 2026-11-19
     auditeur: "AUD-01 (IA)"
     verdict: audite_corrections_requises
@@ -93,13 +99,49 @@ sources:
     url: ""
     verifiee: false
     remarque: "Seul le résumé a été repéré par recherche web ; métadonnées incomplètes."
+  - id: S9
+    reference: "SEC Working Group for the 2023 ESC guidelines for the management of endocarditis; SEC Guidelines Committee. Comments on the 2023 ESC guidelines for the management of endocarditis. Rev Esp Cardiol (Engl Ed). 2024;77(3):191-195."
+    organisme: "Société espagnole de cardiologie (SEC)"
+    annee: 2024
+    type: article
+    doi: ""
+    url: "https://www.revespcardiol.org/en-comments-on-2023-esc-guidelines-avance-S1885585723003122"
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 (2026-11-19) : existence confirmée par recherche web ; confirme que l'ESC 2023 déconseille la clindamycine chez l'allergique aux bêtalactamines (risque de C. difficile), remplacée par macrolides ou doxycycline. DOI discordant selon les bases : non renseigné."
+  - id: S10
+    reference: "Ariza J, Bosilkovski M, Cascio A, et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med. 2007;4(12):e317."
+    organisme: "Consensus d'Ioannina"
+    annee: 2007
+    type: recommandation
+    doi: "10.1371/journal.pmed.0040317"
+    url: ""
+    verifiee: true
+    remarque: "Texte intégral relu par AUD-05 (PDF acquis : 18_RECOMMANDATIONS/03_SOCIETES_SAVANTES/Brucellose_recommandations_Ioannina_PLoSMed_2007.pdf)."
+  - id: S11
+    reference: "Keshtkar-Jahromi M, et al. Medical versus medical and surgical treatment for Brucella endocarditis. Ann Thorac Surg. 2012;94(6):2141-2146."
+    organisme: ""
+    annee: 2012
+    type: article
+    doi: "10.1016/j.athoracsur.2012.07.006"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 : revue systématique de 308 cas (1966-2011) ; résumé consulté (recherche web), texte intégral non lu. Liste d'auteurs au-delà du premier à confirmer."
+  - id: S12
+    reference: "Başaran S, Şimşek-Yavuz S, Sarıcaoğlu ME, et al. A systematic review and analysis of Brucella endocarditis cases. Anatol J Cardiol. 2025;29(3):111-117."
+    organisme: ""
+    annee: 2025
+    type: article
+    doi: "10.14744/AnatolJCardiol.2025.4259"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 : 273 cas (86 articles) ; aminosides et chirurgie associés à une mortalité plus faible ; niveau de preuve faible. Résumé consulté (recherche web)."
 mots_cles: [endocardite infectieuse, critères de Duke, Duke-ISCVID 2023, hémocultures, échocardiographie transœsophagienne, TEP-TDM, Staphylococcus aureus, streptocoques oraux, endocardite à hémocultures négatives, Bartonella, Brucella, Coxiella, chirurgie valvulaire, antibioprophylaxie, rhumatisme articulaire aigu]
 ---
 
 # Endocardites infectieuses
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (antibiothérapie probabiliste ESC 2023 et prophylaxie du RAA à confirmer ; voir le rapport d'audit). Les posologies doivent être confrontées au RCP, aux recommandations originales et aux protocoles locaux (avis infectiologique) avant tout usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19 ; cohérence transversale AUD-05, 2026-11-19) — corrections requises** (antibiothérapie probabiliste ESC 2023 et prophylaxie du RAA à confirmer ; voir le rapport d'audit). Les posologies doivent être confrontées au RCP, aux recommandations originales et aux protocoles locaux (avis infectiologique) avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-053 — *Endocardites infectieuses : physiopathologie, diagnostic, évolution, traitement.*
 
@@ -509,7 +551,13 @@ La mortalité hospitalière reste élevée (de l'ordre de 15 à 30 % selon les s
 | **Groupe HACEK** | **Ceftriaxone** 2 g/j — 4 semaines | 6 semaines |
 | ***Coxiella burnetii*** | **Doxycycline 200 mg/j + hydroxychloroquine 200–600 mg/j** per os, **plus de 18 mois**, avec surveillance sérologique et des concentrations plasmatiques (tableau ESC 2015 des EI à hémocultures négatives [S3]) | Idem, durée souvent plus longue (avis spécialisé) |
 | ***Bartonella*** spp. | **Doxycycline 100 mg × 2/j per os pendant 4 semaines + gentamicine 3 mg/kg/j IV pendant 2 semaines** [S3] | Idem (avis spécialisé) |
-| ***Brucella*** spp. | **Doxycycline 200 mg/j + cotrimoxazole 960 mg × 2/j + rifampicine 300–600 mg/j** per os, **au moins 3 à 6 mois** [S3] ; chirurgie fréquente | Idem |
+| ***Brucella*** spp. | **Doxycycline + rifampicine (± cotrimoxazole) + aminoside les premières semaines**, **au moins 3 à 6 mois** ; **chirurgie valvulaire fréquente**. Tableau ESC 2015 [S3] : doxycycline 200 mg/j + cotrimoxazole 960 mg × 2/j + rifampicine 300–600 mg/j per os, ≥ 3–6 mois, « certains auteurs » ajoutant la gentamicine les 3 premières semaines (voir l'encadré ci-dessous : divergences de doses) | Idem |
+
+> **Endocardite à *Brucella* — sources et divergences (audit de cohérence AUD-05, 2026-11-19 ; même synthèse dans DOS-INFE-0002 § 13.3 e)**
+> - **ESC 2015 [S3]** (tableau des EI à hémocultures négatives) : doxycycline 200 mg/j + cotrimoxazole 960 mg × 2/j + rifampicine **300–600 mg/j** per os pendant au moins 3 à 6 mois ; succès défini par un titre d'anticorps < 1/60 ; certains auteurs ajoutent la **gentamicine pendant les 3 premières semaines** (dose non précisée dans ce tableau). La reprise de ce tableau à l'identique par l'**ESC 2023** [S1] n'a pas pu être vérifiée sur le texte intégral `[À VÉRIFIER]`.
+> - **Consensus d'Ioannina (2007) [S10]** : **aucun schéma n'est recommandé** pour l'endocardite (moins de 200 cas publiés, aucun essai randomisé : choix des antibiotiques « empirique ») ; une **chirurgie** a été nécessaire dans la majorité des cas rapportés. Dans la brucellose non compliquée, la rifampicine y est prescrite à **600–900 mg/j** (≈ 15 mg/kg/j), comme dans le schéma OMS de 1986.
+> - **Revues systématiques de cas** : mortalité de **6,7 %** avec traitement médico-chirurgical contre **32,7 %** avec traitement médical seul (308 cas publiés de 1966 à 2011 [S11]) ; **aminosides** et **chirurgie** associés à une mortalité plus faible (273 cas, 2025 ; niveau de preuve faible [S12]).
+> - **À retenir** : trithérapie **doxycycline + rifampicine (± cotrimoxazole) + aminoside initial**, durée **prolongée (≥ 3 à 6 mois)**, **avis chirurgical précoce**. La dose de rifampicine diffère selon la source (300–600 mg/j dans le tableau ESC 2015 ; 600–900 mg/j dans les schémas de la brucellose, Ioannina 2007) et la dose de l'aminoside n'est pas fixée par ces sources : `[POSOLOGIE À VÉRIFIER — avis infectiologique / protocole local]`.
 
 #### 13.2.3 Antibiothérapie probabiliste (avant identification du germe)
 
@@ -632,7 +680,7 @@ Suspicion d'EI (fièvre + souffle, embolie fébrile, bactériémie à germe typi
 |---|---|---|
 | Pas d'allergie aux bêtalactamines | **Amoxicilline 2 g** per os ou IV (ampicilline 2 g IM/IV ; céfazoline ou ceftriaxone 1 g IM/IV si voie orale impossible) | 50 mg/kg (céfazoline/ceftriaxone : 50 mg/kg) |
 | Allergie à la pénicilline | **Céfalexine 2 g** per os (si pas d'antécédent d'anaphylaxie, d'angio-œdème ou d'urticaire à la pénicilline) ; **azithromycine ou clarithromycine 500 mg** per os ; **doxycycline 100 mg** per os | Céfalexine 50 mg/kg ; azithro-/clarithromycine 15 mg/kg ; doxycycline 2,2 mg/kg si < 45 kg, 100 mg au-delà |
-| | **La clindamycine n'est plus recommandée** (AHA 2021 [S4] ; position ESC 2023 [S1] a priori concordante `[À VÉRIFIER sur le texte]`) en raison de ses effets indésirables (*Clostridioides difficile*) | — |
+| | **La clindamycine n'est plus recommandée** (AHA 2021 [S4] ; ESC 2023 [S1], position confirmée par le commentaire de la Société espagnole de cardiologie [S9]) en raison du risque d'effets indésirables graves, notamment d'infection à *Clostridioides difficile* | — |
 
 Posologies confrontées par l'audit AUD-02 (2026-11-19) au tableau de l'AHA 2021 [S4], concordant avec l'ESC 2023 [S1] : conformes.
 
@@ -947,7 +995,7 @@ Concernant l'antibioprophylaxie de l'endocardite infectieuse, quelles propositio
 - E : Vrai.
 - *Piège* : Méconnaître la signification d'un BAV au cours d'une EI aortique.
 
-**QCM 10** — réponse(s) exacte(s) : **A, B, D**. La clindamycine n'est plus recommandée (AHA 2021) ; la prophylaxie ne concerne pas systématiquement les gestes digestifs.
+**QCM 10** — réponse(s) exacte(s) : **A, B, D**. La clindamycine n'est plus recommandée (AHA 2021, ESC 2023) ; la prophylaxie ne concerne pas systématiquement les gestes digestifs.
 
 - A : Vrai.
 - B : Vrai.
@@ -964,7 +1012,8 @@ Concernant l'antibioprophylaxie de l'endocardite infectieuse, quelles propositio
 |---|---|---|---|
 | **Critères diagnostiques** | Duke modifiés + imagerie (scanner, TEP sur prothèse > 3 mois après l'implantation, scintigraphie aux leucocytes) | Critères de Duke modifiés ESC 2023 : imagerie (échographie, scanner, TEP-TDM, scintigraphie) en critère majeur ; embolies détectées uniquement par l'imagerie en critère mineur | **Duke-ISCVID** : ajout de critères microbiologiques moléculaires, liste élargie de germes typiques, **critère chirurgical majeur**, prédispositions élargies ; « document évolutif » |
 | **Catégories de risque pour la prophylaxie** | Risque élevé uniquement (prothèses, antécédent d'EI, certaines cardiopathies congénitales) | **Risque élevé** (dont **prothèses percutanées**) et **risque intermédiaire** (cardiopathie rhumatismale, valvulopathies, bicuspidie, dispositifs, CMH) | **AHA 2021** : maintien des groupes à risque le plus élevé (aucun changement par rapport à 2007) |
-| **Antibiotique en cas d'allergie à la pénicilline (prophylaxie)** | Clindamycine | Clindamycine **abandonnée** au profit de la céfalexine, de l'azithromycine/clarithromycine ou de la doxycycline `[À VÉRIFIER]` | **AHA 2021** : clindamycine **plus recommandée** ; **doxycycline** ajoutée (vérifié) |
+| **Antibiotique en cas d'allergie à la pénicilline (prophylaxie)** | Clindamycine | Clindamycine **abandonnée** au profit de la céfalexine, de l'azithromycine/clarithromycine ou de la doxycycline (confirmé [S9]) | **AHA 2021** : clindamycine **plus recommandée** ; **doxycycline** ajoutée (vérifié) |
+| **EI à *Brucella*** | Doxycycline + cotrimoxazole + rifampicine **300–600 mg/j**, ≥ 3–6 mois ; gentamicine les 3 premières semaines « selon certains auteurs » | Reprise du tableau non vérifiée `[À VÉRIFIER]` | **Ioannina 2007** [S10] : pas de schéma recommandé pour l'endocardite ; rifampicine **600–900 mg/j** dans la forme non compliquée ; revues de cas : aminoside et chirurgie associés à une moindre mortalité [S11, S12] (§ 13.2.2) |
 | **Aminosides** | Utilisés plus largement | Place réduite ; non recommandés dans l'EI à staphylocoque sur valve native | — |
 | **Relais oral** | Non recommandé | **Recommandé chez des patients sélectionnés** (essai POET [S5]) | — |
 | **Chirurgie pour prévenir les embolies** | Végétation > 10 mm après embolie, ou > 30 mm isolée, ou > 10 mm avec dysfonction sévère | **Seuil de 10 mm** dans plusieurs situations, y compris sans embolie à faible risque opératoire (indication plus faible) | — |
@@ -986,6 +1035,12 @@ Concernant l'antibioprophylaxie de l'endocardite infectieuse, quelles propositio
 6. **[S6]** Benslimani A, Fenollar F, Lepidi H, Raoult D. Bacterial zoonoses and infective endocarditis, Algeria. *Emerg Infect Dis.* 2005;11(2):216-224. — *Vérifiée.*
 7. **[S7]** Ministère de la Santé et de la Population (Algérie). Programme national de lutte contre le rhumatisme articulaire aigu (révisé en 2000). — *Existence vérifiée.*
 8. **[S8]** Benamara S, et al. Série rétrospective d'EI, hôpital de Béni Messous (Alger), 1996–2010. — *Non vérifiée (métadonnées incomplètes).*
+9. **[S9]** SEC Working Group for the 2023 ESC guidelines for the management of endocarditis; SEC Guidelines Committee. Comments on the 2023 ESC guidelines for the management of endocarditis. *Rev Esp Cardiol (Engl Ed).* 2024;77(3):191-195. — *Existence vérifiée (recherche web, AUD-05).*
+10. **[S10]** Ariza J, Bosilkovski M, Cascio A, et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. *PLoS Med.* 2007;4(12):e317. doi:10.1371/journal.pmed.0040317. — *Texte intégral relu (PDF acquis).*
+11. **[S11]** Keshtkar-Jahromi M, et al. Medical versus medical and surgical treatment for Brucella endocarditis. *Ann Thorac Surg.* 2012;94(6):2141-2146. doi:10.1016/j.athoracsur.2012.07.006. — *Résumé consulté.*
+12. **[S12]** Başaran S, Şimşek-Yavuz S, Sarıcaoğlu ME, et al. A systematic review and analysis of Brucella endocarditis cases. *Anatol J Cardiol.* 2025;29(3):111-117. doi:10.14744/AnatolJCardiol.2025.4259. — *Résumé consulté.*
+
+> **Note d'audit de cohérence (AUD-05, 2026-11-19)** : EI à *Brucella* harmonisée avec DOS-INFE-0002 (aminoside initial, divergence de dose de rifampicine présentée, chirurgie) ; abandon de la clindamycine par l'ESC 2023 confirmé (marqueur levé) ; détails dans `00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md`.
 
 > **Note d'audit (AUD-01/AUD-02, 2026-11-19)** : antibiothérapies curatives et antibioprophylaxie vérifiées ; restent à confirmer l'antibiothérapie probabiliste ESC 2023 et la prophylaxie secondaire du RAA selon le programme national ; détails dans `00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0005.md`.
 

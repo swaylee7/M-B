@@ -4,7 +4,12 @@ titre: "Fiche — Hyperthyroïdies"
 specialite: ENDO
 items_residanat: [RES-MED-084]
 dossier_source: DOS-ENDO-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-ENDO-0001 v1.2 : fréquence de l'agranulocytose sous ATS (≈ 0,2–0,5 % des patients)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Hyperthyroïdies (RES-MED-084)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-ENDO-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau. Référentiels : **ETA 2018** (Basedow) [S1], ATA 2016 [S2], ETA 2018 amiodarone [S3], EUGOGO 2021 [S4], JTA/JES 2016 (crise) [S5]. Disponibilité des ATS en Algérie `[À VÉRIFIER — nomenclature nationale]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-ENDO-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau. Référentiels : **ETA 2018** (Basedow) [S1], ATA 2016 [S2], ETA 2018 amiodarone [S3], EUGOGO 2021 [S4], JTA/JES 2016 (crise) [S5]. Disponibilité des ATS en Algérie `[À VÉRIFIER — nomenclature nationale]`.
 
 ## 1. Définition (2 lignes)
 
@@ -77,7 +82,7 @@ sources:
 | TRAb | **Sensibilité ≈ 97 %, spécificité ≈ 98 %** pour le Basedow |
 | Rémission après ATS | ≈ 50–55 % au mieux ; rechute **52,7 %** (vs 15 % iode 131, 10 % chirurgie) |
 | Durée des ATS | **12–18 mois** |
-| Agranulocytose | PNN < 500/mm³ ; 0,1–1 % ; surtout **3 premiers mois** (MMI ≈ 0,6 %, PTU ≈ 1–1,5 % selon le tableau ETA) |
+| Agranulocytose | PNN < 500/mm³ ; **≈ 0,2–0,5 % des patients sous ATS** (MMI comme PTU) [S13 du dossier] ; surtout **3 premiers mois** |
 | Iode 131 | Conception différée **≥ 6 mois** (femme et homme) ; ATS suspendus ≈ 1 semaine avant/après |
 | Orbitopathie active | **CAS ≥ 3/7** |
 | Crise aiguë | **Burch-Wartofsky ≥ 45** (25–44 imminente) ; mortalité ≈ 10 % |

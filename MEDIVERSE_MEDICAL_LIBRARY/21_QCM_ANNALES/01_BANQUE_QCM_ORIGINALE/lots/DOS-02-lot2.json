@@ -1,0 +1,680 @@
+{
+  "agent": "DOS-02",
+  "lot": "lot2",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-INFE-0201",
+      "format": "QCM",
+      "enonce": "Concernant Salmonella enterica sérotype Typhi et la fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le réservoir de Salmonella Typhi est strictement humain.",
+        "B": "La transmission est principalement féco-orale, par l'eau ou les aliments contaminés.",
+        "C": "Salmonella Typhi est responsable de la majorité (70 à 80 %) des fièvres entériques dans le monde.",
+        "D": "Une fièvre typhoïde guérie confère une immunité complète et définitive.",
+        "E": "En Algérie, les fièvres typhoïde et paratyphoïdes figurent parmi les maladies à déclaration obligatoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "S. Typhi est une bactérie à réservoir humain strict, transmise par voie féco-orale ; elle cause 70 à 80 % des fièvres entériques. L'infection naturelle ne protège pas complètement. La maladie est une MDO de catégorie 1 en Algérie (décret 22-250).",
+      "explications_par_proposition": {
+        "A": "Vrai : malades, convalescents et porteurs chroniques constituent le réservoir.",
+        "B": "Vrai : eau et aliments contaminés, mains sales, contact avec un porteur.",
+        "C": "Vrai : selon l'OMS (livre AWaRe 2022).",
+        "D": "Faux : l'infection naturelle ne protège pas complètement ; des réinfections sont possibles.",
+        "E": "Vrai : catégorie 1 (surveillance nationale) du décret exécutif 22-250."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Bactériologie et épidémiologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre la salmonelle typhique (réservoir humain) avec les salmonelles non typhiques (réservoir animal, TIAC).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0202",
+      "format": "QCM",
+      "enonce": "Concernant la physiopathologie de la fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les salmonelles franchissent la muqueuse intestinale surtout au niveau de l'iléon distal.",
+        "B": "Elles se multiplient dans les organes du système réticulo-endothélial pendant l'incubation.",
+        "C": "La perforation intestinale résulte de la nécrose des plaques de Peyer, typiquement au cours de la 3e semaine.",
+        "D": "La vésicule biliaire, surtout lithiasique, est un gîte du portage chronique.",
+        "E": "Les signes généraux sont liés à une exotoxine neurotrope."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Après franchissement de l'iléon distal (cellules M des plaques de Peyer), les bactéries gagnent les ganglions mésentériques et le système réticulo-endothélial, puis provoquent une bactériémie secondaire. L'endotoxine (lipopolysaccharide) et la réponse de l'hôte expliquent les signes généraux ; la nécrose des plaques de Peyer explique hémorragies et perforations ; la vésicule entretient le portage.",
+      "explications_par_proposition": {
+        "A": "Vrai : porte d'entrée iléale (OMS).",
+        "B": "Vrai : foie, rate, moelle, ganglions — d'où l'intérêt de la myéloculture.",
+        "C": "Vrai : complication classique de la 3e semaine non traitée.",
+        "D": "Vrai : la lithiase favorise le portage chronique.",
+        "E": "Faux : c'est l'endotoxine (LPS), non une exotoxine neurotrope."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Physiopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Crump JA, et al. Invasive Salmonella infections. Clin Microbiol Rev 2015;28(4):901-937",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0203",
+      "format": "QCM",
+      "enonce": "Un homme de 30 ans présente depuis 10 jours une fièvre en plateau à 40 °C. Quels signes sont classiquement évocateurs d'une fièvre typhoïde à la phase d'état ?",
+      "propositions": {
+        "A": "Tuphos (prostration, obnubilation).",
+        "B": "Pouls dissocié, relativement lent pour la température.",
+        "C": "Angine de Duguet (ulcérations indolores des piliers antérieurs du voile).",
+        "D": "Taches rosées lenticulaires du tronc.",
+        "E": "Hyperleucocytose franche à polynucléaires neutrophiles."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La phase d'état associe fièvre en plateau, tuphos, troubles digestifs, splénomégalie, taches rosées et angine de Duguet (inconstantes), pouls dissocié. La NFS montre classiquement des leucocytes normaux ou bas (leuconeutropénie).",
+      "explications_par_proposition": {
+        "A": "Vrai : du grec typhos, stupeur.",
+        "B": "Vrai : signe classique mais inconstant.",
+        "C": "Vrai : rare mais évocatrice.",
+        "D": "Vrai : inconstantes et fugaces.",
+        "E": "Faux : la leuconeutropénie est plus évocatrice ; une hyperleucocytose doit faire chercher une complication ou un autre diagnostic."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Signes cliniques de la phase d'état",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Crump JA, et al. Invasive Salmonella infections. Clin Microbiol Rev 2015;28(4):901-937",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0204",
+      "format": "QCM",
+      "enonce": "Concernant le diagnostic bactériologique d'une fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hémocultures doivent être prélevées avant toute antibiothérapie.",
+        "B": "La myéloculture est l'examen le plus sensible, même après le début des antibiotiques.",
+        "C": "La coproculture est l'examen de première intention la plus sensible en 1re semaine.",
+        "D": "Toute souche isolée doit faire l'objet d'un antibiogramme incluant fluoroquinolones, C3G et azithromycine.",
+        "E": "Une hémoculture négative chez un patient ayant déjà reçu des antibiotiques n'élimine pas le diagnostic."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'hémoculture est l'examen clé (positive chez 5 à 7 patients sur 10 sans antibiothérapie préalable) ; la myéloculture est la référence ; les coprocultures sont souvent négatives au début. L'antibiogramme guide le traitement, compte tenu des résistances.",
+      "explications_par_proposition": {
+        "A": "Vrai : la sensibilité chute après antibiotique.",
+        "B": "Vrai : examen de référence, mais invasif et peu pratiqué.",
+        "C": "Faux : la coproculture est souvent négative en 1re semaine.",
+        "D": "Vrai : résistances aux FQ, aux C3G (XDR) ; critères CLSI pour l'azithromycine depuis 2015.",
+        "E": "Vrai : forme décapitée ; discuter la myéloculture."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Diagnostic bactériologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Crump JA, et al. Invasive Salmonella infections. Clin Microbiol Rev 2015;28(4):901-937",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0205",
+      "format": "QCS",
+      "enonce": "Selon le livre AWaRe de l'OMS (2022), quelle est la place de la sérologie de Widal dans le diagnostic d'une fièvre typhoïde aiguë ?",
+      "propositions": {
+        "A": "Examen de référence, suffisant pour poser le diagnostic sur un prélèvement unique.",
+        "B": "Méthode non fiable pour diagnostiquer une maladie aiguë, un résultat positif pouvant traduire une infection antérieure ou une vaccination.",
+        "C": "Examen à réaliser avant les hémocultures pour décider de leur prescription.",
+        "D": "Examen indispensable avant de débuter l'antibiothérapie.",
+        "E": "Examen qui différencie Salmonella Typhi de Salmonella Paratyphi A avec une excellente spécificité."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'OMS considère la sérologie de Widal comme non fiable pour le diagnostic aigu : cicatrice d'une infection ancienne, vaccination, réactions croisées ; il faudrait deux prélèvements à 10 jours d'intervalle montrant une multiplication du titre par quatre.",
+      "explications_par_proposition": {
+        "A": "Faux : la référence est la culture (myéloculture, hémoculture).",
+        "B": "Vrai : position de l'OMS.",
+        "C": "Faux : les hémocultures sont prioritaires.",
+        "D": "Faux : le traitement ne doit pas attendre la sérologie.",
+        "E": "Faux : réactions croisées fréquentes."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Sérologie de Widal",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter ou étiqueter une typhoïde sur un Widal isolé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0206",
+      "format": "QCM",
+      "enonce": "Un adulte présente une fièvre typhoïde non compliquée acquise dans une région où le risque de résistance aux fluoroquinolones est faible. Selon l'OMS (AWaRe 2022), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La ciprofloxacine orale à 500 mg toutes les 12 heures est une option de première intention.",
+        "B": "La durée totale recommandée est de 7 jours.",
+        "C": "Une hospitalisation et une voie intraveineuse sont nécessaires dans tous les cas.",
+        "D": "L'antibiothérapie doit être débutée dès la suspicion, car le retard augmente le risque de complications.",
+        "E": "Le chloramphénicol reste le traitement probabiliste de choix."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "En cas de faible risque de résistance aux FQ, l'OMS propose la ciprofloxacine orale 500 mg × 2/j, 7 jours pour une forme légère (10 jours pour une forme sévère). Les formes légères peuvent être traitées en ambulatoire. Les anciennes molécules ne sont pas recommandées en probabiliste.",
+      "explications_par_proposition": {
+        "A": "Vrai : posologie AWaRe adulte.",
+        "B": "Vrai : 7 jours pour une forme légère.",
+        "C": "Faux : les formes légères relèvent d'un traitement oral, éventuellement ambulatoire.",
+        "D": "Vrai : message clé de l'OMS.",
+        "E": "Faux : usage probabiliste déconseillé (risque de rebond des souches multirésistantes)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Traitement — faible risque de résistance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0207",
+      "format": "QCM",
+      "enonce": "Un patient revient de Karachi (Pakistan) avec une fièvre typhoïde. Concernant le risque de souche XDR, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une souche XDR est résistante à l'ampicilline, au chloramphénicol, au cotrimoxazole, aux fluoroquinolones et aux C3G.",
+        "B": "Le clone XDR décrit au Sindh depuis 2016 porte un plasmide codant une bêta-lactamase à spectre étendu (CTX-M-15) et le gène qnrS.",
+        "C": "La ceftriaxone reste un choix probabiliste fiable dans cette situation.",
+        "D": "L'azithromycine est une option pour une forme non compliquée.",
+        "E": "Un carbapénème est utilisé dans les formes compliquées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les souches XDR (Pakistan, Sindh, depuis novembre 2016 ; lignée H58, plasmide IncY avec blaCTX-M-15 et qnrS) sont MDR et résistantes aux FQ et aux C3G. L'azithromycine (formes légères) et les carbapénèmes (formes graves) restent actifs ; l'OMS recommande de prioriser l'azithromycine là où la résistance à la ceftriaxone progresse.",
+      "explications_par_proposition": {
+        "A": "Vrai : définition de la XDR.",
+        "B": "Vrai : données de Klemm et al. (mBio 2018).",
+        "C": "Faux : résistance aux C3G par définition.",
+        "D": "Vrai : souvent la seule option orale restante.",
+        "E": "Vrai : posologie à confronter au protocole local."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Souche ultrarésistante (XDR)",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Appliquer le schéma « ceftriaxone » standard à un cas importé du Pakistan.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Klemm EJ, et al. Extensively drug-resistant Salmonella Typhi clone (Pakistan). mBio 2018;9(1):e00105-18",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0208",
+      "format": "QCM",
+      "enonce": "Une femme de 25 ans est hospitalisée pour une fièvre typhoïde avec sepsis, dans un contexte de risque élevé de résistance aux fluoroquinolones. Selon l'OMS (AWaRe 2022), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ceftriaxone 2 g une fois par jour par voie intraveineuse.",
+        "B": "Durée totale de 10 jours si l'évolution clinique est favorable et l'apyrexie obtenue depuis 48 heures.",
+        "C": "Relais oral possible, guidé par l'antibiogramme, dès amélioration, apyrexie et tolérance digestive.",
+        "D": "Ciprofloxacine intraveineuse en première intention.",
+        "E": "Avis chirurgical si apparaissent une défense abdominale ou un pneumopéritoine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Pour une forme sévère avec risque élevé de résistance aux FQ, l'OMS propose la ceftriaxone 2 g/j IV (enfant 80 mg/kg/j), 10 jours au total si amélioration et apyrexie de 48 h, avec relais oral dès que possible. Toute suspicion de perforation impose un avis chirurgical urgent.",
+      "explications_par_proposition": {
+        "A": "Vrai : posologie adulte AWaRe.",
+        "B": "Vrai : durée des formes sévères.",
+        "C": "Vrai : principe du relais oral.",
+        "D": "Faux : risque élevé de résistance aux FQ.",
+        "E": "Vrai : la perforation est une urgence chirurgicale."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Forme sévère — risque élevé de résistance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0209",
+      "format": "QCS",
+      "enonce": "Un patient traité depuis 72 heures par azithromycine pour une fièvre typhoïde à souche sensible reste fébrile à 38,8 °C, mais son état général s'améliore et l'examen abdominal est normal. Quelle est la conduite la plus adaptée ?",
+      "propositions": {
+        "A": "Remplacer immédiatement l'azithromycine par un carbapénème.",
+        "B": "Poursuivre le traitement en surveillant, la fièvre baissant habituellement en 3 à 5 jours sous traitement efficace.",
+        "C": "Arrêter tout antibiotique pour refaire des hémocultures.",
+        "D": "Ajouter systématiquement une corticothérapie.",
+        "E": "Demander une sérologie de Widal pour juger de l'efficacité."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La défervescence est lente : la fièvre baisse en général après 3 à 5 jours de traitement efficace (OMS). Une fièvre isolée à 72 h chez un patient qui s'améliore, avec une souche sensible, ne justifie pas de changement ; la surveillance recherche une complication.",
+      "explications_par_proposition": {
+        "A": "Faux : escalade injustifiée.",
+        "B": "Vrai : conduite recommandée.",
+        "C": "Faux : l'arrêt est dangereux.",
+        "D": "Faux : la corticothérapie se discute seulement dans certaines formes graves.",
+        "E": "Faux : le Widal n'a aucune valeur de suivi."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Évolution sous traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre défervescence lente et échec thérapeutique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0210",
+      "format": "QCM",
+      "enonce": "Au 18e jour d'une fièvre typhoïde non traitée, un patient tuphique devient tachycarde avec un abdomen distendu et une douleur diffuse modérée. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une perforation iléale doit être évoquée même si la défense est peu marquée.",
+        "B": "Un cliché d'abdomen sans préparation ou un scanner à la recherche d'un pneumopéritoine est indiqué.",
+        "C": "Le traitement de la perforation est exclusivement médical.",
+        "D": "L'antibiothérapie doit couvrir aussi les anaérobies et les entérobactéries d'origine digestive.",
+        "E": "La myocardite et l'encéphalopathie font partie des autres complications graves."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La perforation survient classiquement à la 3e semaine ; le tuphos peut masquer la douleur et la défense. Imagerie et avis chirurgical urgents ; laparotomie ; antibiothérapie élargie (par exemple ceftriaxone + métronidazole selon l'OMS pour les infections intra-abdominales).",
+      "explications_par_proposition": {
+        "A": "Vrai : tableau parfois trompeur.",
+        "B": "Vrai : recherche d'un pneumopéritoine.",
+        "C": "Faux : traitement chirurgical (laparotomie).",
+        "D": "Vrai : péritonite polymicrobienne.",
+        "E": "Vrai : autres complications graves."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Complications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0211",
+      "format": "QCM",
+      "enonce": "Concernant la vaccination contre la fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Selon l'OMS (2018), le vaccin conjugué (TCV) est le vaccin préféré à tous les âges.",
+        "B": "Le vaccin conjugué peut être administré en dose unique dès l'âge de 6 mois dans les pays d'endémie.",
+        "C": "Le vaccin antityphoïdique fait partie du calendrier vaccinal obligatoire algérien depuis 2018.",
+        "D": "Les vaccins antityphoïdiques protègent aussi contre Salmonella Paratyphi A.",
+        "E": "L'efficacité du vaccin conjugué à 1 an a été d'environ 82 % dans un essai randomisé chez l'enfant au Népal."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "L'OMS (note de synthèse 2018) préfère le vaccin conjugué, en dose unique dès 6 mois, et priorise les pays à forte charge ou à résistance croissante. L'essai népalais (NEJM 2019) a montré une efficacité de 81,6 % à 1 an. Le calendrier obligatoire algérien (2018, complété en 2026) ne comporte pas de vaccin antityphoïdique. Aucun vaccin ne protège contre Paratyphi A.",
+      "explications_par_proposition": {
+        "A": "Vrai : position OMS 2018.",
+        "B": "Vrai : dose unique dès 6 mois.",
+        "C": "Faux : absent du calendrier obligatoire (arrêtés de 2018 et 2026).",
+        "D": "Faux : pas de protection démontrée contre Paratyphi A.",
+        "E": "Vrai : 81,6 % (IC 95 % 58,8–91,8)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Vaccination",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Typhoid vaccines: WHO position paper – March 2018. Wkly Epidemiol Rec 2018;93(13):153-172",
+          "date": "2018"
+        },
+        {
+          "reference": "Shakya M, et al. Typhoid conjugate vaccine trial in Nepal. N Engl J Med 2019;381:2209-2218",
+          "date": "2019"
+        },
+        {
+          "reference": "Arrêtés du 3 juillet 2018 et du 28 avril 2026 (calendrier vaccinal obligatoire), JORADP — DOC-00070/71",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0212",
+      "format": "QCM",
+      "enonce": "Concernant le portage chronique de Salmonella Typhi et les mesures de santé publique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le porteur chronique est asymptomatique mais peut transmettre la maladie.",
+        "B": "La lithiase vésiculaire favorise le portage chronique.",
+        "C": "Les coprocultures de contrôle après traitement sont particulièrement importantes chez les manipulateurs d'aliments.",
+        "D": "La déclaration n'est obligatoire qu'en cas de décès.",
+        "E": "L'enquête autour d'un cas recherche une source hydrique ou alimentaire et des cas groupés."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le porteur chronique excrète la bactérie pendant des mois ou des années ; la lithiase biliaire en est le principal facteur. Contrôle des coprocultures chez les personnes à risque de transmission, déclaration de tout cas (MDO catégorie 1) et enquête épidémiologique sont essentiels.",
+      "explications_par_proposition": {
+        "A": "Vrai : définition (OMS).",
+        "B": "Vrai : gîte vésiculaire.",
+        "C": "Vrai : prévention de la transmission alimentaire (modalités nationales à vérifier).",
+        "D": "Faux : tout cas suspect ou confirmé est déclaré (catégorie 1).",
+        "E": "Vrai : objectif de l'enquête."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Portage chronique et santé publique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0213",
+      "format": "QCM",
+      "enonce": "Selon le livre AWaRe de l'OMS (2022), quelles posologies pédiatriques sont exactes pour la fièvre entérique (fonction rénale normale) ?",
+      "propositions": {
+        "A": "Azithromycine orale : 20 mg/kg/dose une fois par jour (forme légère, risque élevé de résistance aux FQ).",
+        "B": "Ceftriaxone IV : 80 mg/kg/dose une fois par jour (forme sévère, risque élevé de résistance aux FQ).",
+        "C": "Ciprofloxacine orale : 15 mg/kg/dose toutes les 12 heures (risque faible de résistance aux FQ).",
+        "D": "Ciprofloxacine : contre-indication absolue chez l'enfant dans cette indication selon l'OMS.",
+        "E": "Ceftriaxone IV : 20 mg/kg/j en deux injections."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le tableau 15.2 du livre AWaRe donne : azithromycine 20 mg/kg/j, ceftriaxone 80 mg/kg/j, ciprofloxacine 15 mg/kg/dose × 2/j (avec des tranches de poids) ; au-delà de 30 kg, doses adultes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'OMS propose la ciprofloxacine chez l'enfant par tranches de poids.",
+        "E": "Faux : dose inexacte."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Posologies pédiatriques (OMS)",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0003"
+    }
+  ]
+}

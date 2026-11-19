@@ -6,12 +6,18 @@ sous_specialite: "Urgences métaboliques du diabète"
 items_residanat: [RES-MED-092]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-03 (IA) — dossier pédagogique original"
 statut: audite_corrections_requises
 audit:
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : cible glycémique de l'ACD sous perfusion d'insuline harmonisée (consensus 2024 : autour de 200 mg/dL jusqu'à la résolution ; 150–200 mg/dL = consensus ADA 2009 ; JBDS : seuil de 14 mmol/L sans cible chiffrée) ; cible distincte de l'EHH ajoutée (JBDS 2023 : 10–15 mmol/L les 24 premières heures, glucose 5–10 % sous 14 mmol/L) ; piège de l'ACD euglycémique reformulé avec le seuil 2024. Restent ouverts les points des audits précédents."
   - date: 2026-11-19
     auditeur: "AUD-01 (IA)"
     verdict: audite_corrections_requises
@@ -482,6 +488,7 @@ Kaliémie **2 h après le début de l'insuline puis toutes les 4 h** jusqu'à la
   - baisse de la natrémie **≤ 10 mmol/L/24 h** [S1].
 - **Une hausse initiale de la natrémie n'est pas une indication aux solutés hypotoniques** ; le NaCl 0,45 % n'est indiqué que si l'osmolalité ne baisse plus malgré un bilan hydrique positif adéquat et une insulinothérapie appropriée [S1, S5].
 - Normalisation complète pouvant demander jusqu'à 72 h [S5].
+- **Cible glycémique (JBDS 2023)** : **10–15 mmol/L (≈ 180–270 mg/dL) pendant les 24 premières heures** ; ajouter une perfusion de **glucose 5 ou 10 %** dès que la glycémie est < 14 mmol/L [S5]. Cette cible est plus haute que celle de l'ACD (autour de 200 mg/dL jusqu'à la résolution de la cétose, § 13.2) : l'objectif de l'EHH est la baisse lente de l'osmolalité.
 
 **2) Insuline**
 - **Consensus 2024** : sans cétose significative (β-OHB < 3 mmol/L) ni acidose, **insuline IV à débit fixe 0,05 U/kg/h** ; si cétonémie ≥ 3 mmol/L ou acidose (forme mixte) : **0,1 U/kg/h** [S1]. Certains recommandent d'attendre que la glycémie cesse de baisser sous remplissage seul [S1].
@@ -643,7 +650,7 @@ ACD (D : diabète connu, glycémie ≥ 200 mg/dL ; K : β-OHB ≥ 3 ; A : pH < 7
 
 ## 19. Pièges classiques à l'examen
 
-- Exclure une ACD parce que la glycémie est < 2,50 g/L (**ACD euglycémique sous iSGLT2**, grossesse, jeûne).
+- Exclure une ACD parce que la glycémie est < 2,50 g/L (ancien seuil de 2009) ou même < 2,00 g/L (**ACD euglycémique sous iSGLT2**, grossesse, jeûne : le critère « D » 2024 est rempli par un diabète connu).
 - Juger la résolution sur la **cétonurie** ou le **trou anionique** (acidose hyperchlorémique de récupération).
 - Débuter l'insuline avec une **kaliémie < 3,5 mmol/L**.
 - Arrêter l'insuline IV quand la glycémie se normalise alors que la cétose persiste (il faut ajouter du glucose).
@@ -787,7 +794,8 @@ ACD (D : diabète connu, glycémie ≥ 200 mg/dL ; K : β-OHB ≥ 3 ; A : pH < 7
 | Sujet | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
 |---|---|---|---|
 | Seuil glycémique de l'ACD | **Consensus ADA 2009** : glycémie > 250 mg/dL (13,9 mmol/L) [cité par S1] | **Consensus international 2024** : ≥ 200 mg/dL **ou** diabète connu quelle que soit la glycémie [S1] | Le seuil 2024 intègre l'ACD euglycémique (iSGLT2). |
-| Insuline quand la glycémie passe sous ~14 mmol/L | **Consensus 2024** : réduire à **0,05 U/kg/h** et ajouter G5–10 %, cible ≈ 150–200 mg/dL [S1] | **JBDS (révision 2021, publiée en 2022)** : ajouter du **glucose 10 % à 125 mL/h** en parallèle du NaCl 0,9 % et **envisager** de réduire le débit fixe de 0,1 à **0,05 U/kg/h** quand la glycémie est < 14 mmol/L [S4] | Positions **convergentes** (la réduction est systématique dans le consensus, laissée au jugement clinique par le JBDS). Suivre le protocole local. |
+| Insuline quand la glycémie passe sous ~14 mmol/L | **Consensus 2024** : réduire à **0,05 U/kg/h** et ajouter G5–10 % sous 250 mg/dL, puis ajuster l'insuline pour maintenir la glycémie **autour de 200 mg/dL (11,1 mmol/L)** jusqu'à la résolution [S1] (le consensus ADA 2009 visait 150–200 mg/dL) | **JBDS (révision 2021, publiée en 2022)** : ajouter du **glucose 10 % à 125 mL/h** en parallèle du NaCl 0,9 % et **envisager** de réduire le débit fixe de 0,1 à **0,05 U/kg/h** quand la glycémie est < 14 mmol/L [S4] | Positions **convergentes** (la réduction est systématique dans le consensus, laissée au jugement clinique par le JBDS ; le parcours JBDS ne fixe pas de cible chiffrée de glycémie dans l'ACD). Suivre le protocole local. **Ne pas transposer cette cible à l'EHH** (ligne suivante). |
+| Cible glycémique dans l'EHH | **JBDS 2023** : glycémie **10–15 mmol/L (≈ 180–270 mg/dL) pendant les 24 premières heures** ; glucose 5 ou 10 % dès que la glycémie est < 14 mmol/L [S5] | **Consensus 2024** : priorité à une baisse lente de la glycémie (≤ 90–120 mg/dL/h) et de l'osmolalité ; résolution si glycémie < 250 mg/dL et osmolalité < 300 mOsm/kg [S1] | Dans l'EHH, l'objectif est la correction progressive de l'osmolalité, non la normoglycémie rapide. |
 | Seuils de la supplémentation potassique | **Consensus 2024** : K < 3,5 → KCl ~10 mmol/h et insuline différée ; 3,5–5,0 → 20–30 mmol/L de soluté ; > 5,0 → pas de K⁺ [S1] | **JBDS** : K > 5,5 → pas de K⁺ ; 3,5–5,5 → 40 mmol/L de soluté (poches prémélangées) ; < 3,5 → avis senior et apport supplémentaire [S4] | Seuil supérieur différent (5,0 vs 5,5 mmol/L) ; la kaliémie de contrôle à H2 est commune. |
 | Bolus initial d'insuline | **Consensus 2024** : seulement si l'accès veineux est retardé [S1] | **ISPAD 2022** (enfant) : pas de bolus [S6] | Chez l'enfant, le bolus est associé à des complications ; protocoles pédiatriques distincts. |
 | Soluté de remplissage | **Consensus 2024** : NaCl 0,9 % ou cristalloïde balancé, selon disponibilité ; les balancés accélèrent la résolution [S1] | **JBDS** : NaCl 0,9 % privilégié (poches prémélangées de potassium) [S4] ; **PECARN 2018** (enfant) : pas de différence neurologique entre NaCl 0,9 % et 0,45 % ni selon le débit [S7] | Choix pragmatique : disponibilité, coût, potassium prémélangé. |

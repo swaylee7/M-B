@@ -6,7 +6,7 @@ sous_specialite: "Hépatites virales"
 items_residanat: [RES-MED-019]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 26
     rapport: 00_SYSTEME/agents/AUD-04/rapports/DOS-HEPA-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : point clé 7 corrigé d'après le texte de l'OMS 2024 (PDF acquis, chap. 5.1) — la fibrose significative (≥ F2) ou la cirrhose (critère 1) et l'association ADN > 2 000 UI/mL + ALAT > LSN (critère 2) sont deux critères distincts, chacun suffisant ; la formule « ADN ≥ 2 000 + ALAT > LSN et/ou fibrose » est celle de l'EASL 2017. Arbre décisionnel § 16.2 annoté. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of hepatitis B virus infection. J Hepatol. 2025;83(2):502-583."
@@ -661,7 +667,9 @@ AgHBs +
         │
         NON
         ▼
-   ADN ≥ 2 000 UI/mL ET (ALAT > LSN et/ou fibrose significative) → TRAITER
+   ADN ≥ 2 000 UI/mL ET (ALAT > LSN et/ou fibrose significative) → TRAITER (EASL 2017)
+   [OMS 2024 : fibrose ≥ F2 SEULE suffit ; OU ADN > 2 000 ET ALAT > LSN ; OU cofacteur
+    (co-infection, ATCD familial, immunosuppression, comorbidité, extrahépatique) — § 13.3.2]
         ▼
    ADN < 2 000 + ALAT persistamment élevées → éliminer autre cause ; traitement possible
         ▼
@@ -730,7 +738,7 @@ Dépistage du **premier enfant** (AgHBs, anti-HBs, anti-HBc), du **conjoint** (e
 4. Diagnostic de l'hépatite B aiguë : **AgHBs + IgM anti-HBc** ; chronique : AgHBs > 6 mois.
 5. **Anti-VHD chez tout porteur de l'AgHBs** [S1, S10].
 6. Gravité de l'hépatite aiguë : **TP/facteur V et encéphalopathie**, pas les transaminases.
-7. Indications : tout **cirrhotique avec ADN détectable** (EASL 2025) [S1] ; **ADN ≥ 2 000 UI/mL + ALAT > LSN et/ou fibrose significative** (EASL 2017, critère repris par l'OMS 2024 [S2, S5] ; formulation EASL 2025 à confirmer sur le texte intégral) ; l'OMS 2024 ajoute co-infections, antécédent familial, immunosuppression, comorbidités, manifestations extrahépatiques [S5].
+7. Indications : tout **cirrhotique avec ADN détectable** (EASL 2025) [S1] ; **ADN ≥ 2 000 UI/mL + ALAT > LSN et/ou fibrose** (EASL 2017 [S2] ; formulation EASL 2025 à confirmer sur le texte intégral). **OMS 2024** [S5] : critères **distincts, chacun suffisant** — (1) **fibrose significative ≥ F2** (APRI > 0,5 ou élastométrie > 7 kPa) **ou cirrhose**, quels que soient l'ADN et les ALAT ; (2) **ADN > 2 000 UI/mL ET ALAT > LSN** (30 U/L chez l'homme, 19 U/L chez la femme) ; (3) co-infection, antécédent familial de CHC ou de cirrhose, immunosuppression, comorbidité ou manifestation extrahépatique, quels que soient l'APRI, l'ADN et les ALAT ; (4) sans accès à l'ADN : ALAT persistamment anormales.
 8. Première ligne VHB : **entécavir, TDF ou TAF** ; durée souvent indéfinie [S1, S2].
 9. VHC : **traiter tout patient virémique** ; SOF/VEL 12 semaines ou G/P 8 semaines ; vérifier les **interactions** et l'AgHBs [S3].
 10. Après RVS : la **fibrose avancée/cirrhose** impose la poursuite du dépistage du CHC [S4].

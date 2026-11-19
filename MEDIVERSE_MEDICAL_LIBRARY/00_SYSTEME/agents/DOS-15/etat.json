@@ -1,9 +1,65 @@
 {
   "id": "DOS-15",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19T03:29:30+00:00",
+  "taches_terminees": [
+    "DOS-EPID-0001 (RES-MED-128, mesure de l'état de santé : indicateurs et mesures d'impact)",
+    "DOS-EPID-0002 (RES-MED-132, enquêtes épidémiologiques : transversales, cas-témoins, cohortes)",
+    "DOS-SPUB-0001 (RES-MED-135, organisation sanitaire et système de santé algérien)",
+    "DOS-GERI-0001 (RES-MED-159, chutes et troubles de l'équilibre du sujet âgé)",
+    "DOS-GERI-0002 (RES-MED-165, troubles confusionnels du sujet âgé / delirium)",
+    "lot QCM DOS-15 (65 : QCM-EPID-1501..1526, QCM-SPUB-1501..1513, QCM-GERI-1501..1526)",
+    "lot cas DOS-15 (10 : CAS-EPID-1501..1504, CAS-SPUB-1501..1502, CAS-GERI-1501..1504)",
+    "validation JSON/YAML ; recalcul par script de tous les exemples numériques ; journal global (operations.jsonl)"
+  ],
+  "taches_suivantes": [
+    "Audit : confronter les chiffres ONS 2023 (relayés par la presse) à la publication ONS n° 1030 et les chiffres STEPS 2016-2017 au fascicule officiel (hôtes afro.who.int et ambassade-algerie.ch inaccessibles pendant la session)",
+    "Audit SPUB : consulter les textes non acquis (décrets 07-140, 97-465, 97-467, ordonnance 73-65, décret 11-379, textes d'organisation des directions de wilaya, de l'INSP, des SEMEP, de la CNAS/CASNOS, ordonnance 20-02 modifiant la loi 18-11) et lever les mentions [À VÉRIFIER]",
+    "Audit GERI : relire le texte intégral des World Falls Guidelines 2022 (seuils de l'algorithme, position sur la vitamine D), de NICE NG249 et NICE CG103 (formulation exacte sur l'halopéridol et la prévention médicamenteuse), de la HAS 2009 confusion (molécules citées) ; vérifier le code CIM-11 6D70",
+    "Confronter toutes les mentions [POSOLOGIE À VÉRIFIER] (antipsychotique dans la confusion, benzodiazépines et thiamine dans le sevrage alcoolique, vitamine A dans la rougeole, calcium/vitamine D) aux RCP et protocoles locaux",
+    "Revérifier les références classiques marquées verifiee: false (Hill 1965, Doll & Hill, Mantel-Haenszel, Inouye 1996/1999/2014, Tinetti 1988, Podsiadlo 1991, DSM-5-TR, SIGN 157, PADIS 2018, Gordis 6e éd.)"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm_min_par_item": 12,
+    "cas_par_item": 2
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 65,
+    "qcm_par_item": {
+      "RES-MED-128": 13,
+      "RES-MED-132": 13,
+      "RES-MED-135": 13,
+      "RES-MED-159": 13,
+      "RES-MED-165": 13
+    },
+    "qcm_dans_les_dossiers": 50,
+    "cas": 10,
+    "cas_par_item": {
+      "RES-MED-128": 2,
+      "RES-MED-132": 2,
+      "RES-MED-135": 2,
+      "RES-MED-159": 2,
+      "RES-MED-165": 2
+    },
+    "mots": {
+      "DOS-EPID-0001": 11274,
+      "DOS-EPID-0002": 8791,
+      "DOS-SPUB-0001": 9518,
+      "DOS-GERI-0001": 8548,
+      "DOS-GERI-0002": 8053
+    },
+    "mots_corps_hors_yaml": {
+      "DOS-EPID-0001": 10204,
+      "DOS-EPID-0002": 7996,
+      "DOS-SPUB-0001": 8184,
+      "DOS-GERI-0001": 7392,
+      "DOS-GERI-0002": 7131
+    },
+    "sources_verifiees": 55,
+    "sources_non_verifiees": 37,
+    "recherches_web": 21,
+    "mots_methode": "wc -w, en-tête YAML inclus ; sources comptées par dossier (doublons inter-dossiers inclus)"
+  }
 }

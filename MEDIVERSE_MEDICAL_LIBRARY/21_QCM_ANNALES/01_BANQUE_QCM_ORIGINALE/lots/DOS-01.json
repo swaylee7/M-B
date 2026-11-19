@@ -3192,7 +3192,7 @@
         "B",
         "D"
       ],
-      "explication_generale": "La clindamycine n'est plus recommandée (AHA 2021) ; la prophylaxie ne concerne pas systématiquement les gestes digestifs.",
+      "explication_generale": "La clindamycine n'est plus recommandée (AHA 2021, ESC 2023) ; la prophylaxie ne concerne pas systématiquement les gestes digestifs.",
       "explications_par_proposition": {
         "A": "Vrai.",
         "B": "Vrai.",
@@ -3232,7 +3232,14 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "verdict": "audite_valide",
         "remarque": "Réponses et explications vérifiées : aucune erreur."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Explication harmonisée avec DOS-CARD-0005 v1.2 : abandon de la clindamycine confirmé pour l'ESC 2023 (et non seulement l'AHA 2021). Clé inchangée."
+        }
+      ]
     },
     {
       "id": "QCM-CARD-0059",

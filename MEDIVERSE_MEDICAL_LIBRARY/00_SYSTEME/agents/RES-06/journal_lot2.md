@@ -15,3 +15,12 @@ Le lot 1 (cardio, pneumo-infectio, gastro, endocrino-néphro) est traité par un
 - 2026-11-19 — FIC-URGE-0001 (intoxications aiguës) créée depuis DOS-URGE-0001 v1.1.
 - 2026-11-19 — FIC-URGE-0002 (morsures et envenimations) créée depuis DOS-URGE-0002 v1.1.
 - 2026-11-19 — FIC-OBST-0001 (pré-éclampsie) créée depuis DOS-OBST-0001 v1.1.
+- 2026-11-19 — FIC-OBST-0002 (hémorragie de la délivrance) créée depuis DOS-OBST-0002 v1.1.
+- 2026-11-19 — FIC-GYNE-0001 (GEU) créée depuis DOS-GYNE-0001 v1.1.
+- 2026-11-19 — FIC-GYNE-0002 (cancer du col) créée depuis DOS-GYNE-0002 v1.1 (dossier audite_valide).
+- 2026-11-19 — FIC-GYNE-0003 (tumeurs du sein) créée depuis DOS-GYNE-0003 v1.1.
+- 2026-11-19 — FIC-HEMA-0001 (anémies de l'adulte) créée depuis DOS-HEMA-0001 v1.1.
+- 2026-11-19 — FIC-HEMA-0002 (PTI) créée depuis DOS-HEMA-0002 v1.1.
+- 2026-11-19 — FIC-HEMA-0003 (hémophilie) créée depuis DOS-HEMA-0003 v1.1 (dossier audite_valide).
+- 2026-11-19 — FIC-HEMA-0004 (myélome) créée depuis DOS-HEMA-0004 v1.1 (dossier audite_valide).
+- 2026-11-19 — FIC-HEMA-0005 (lymphome de Hodgkin) créée depuis DOS-HEMA-0005 v1.1 (dossier audite_valide). Les 20 fiches du lot 2 sont rédigées.

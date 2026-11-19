@@ -1,0 +1,728 @@
+{
+  "agent": "DOS-15",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-EPID-1501",
+      "titre": "Tableau de bord de mortalité d'une wilaya fictive : calcul et interprétation des indicateurs",
+      "niveau": "residanat",
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : médecin résident en épidémiologie affecté au service d'épidémiologie d'un établissement public de santé ; wilaya fictive de 800 000 habitants (population moyenne de l'année).",
+      "motif_consultation": "La direction de wilaya chargée de la santé demande un tableau de bord des indicateurs de natalité et de mortalité de l'année pour le projet d'établissement.",
+      "antecedents": "Données de l'année précédente (fictives) : mortalité infantile 18 ‰, ratio de mortalité maternelle 62 pour 100 000 naissances vivantes.",
+      "symptomes": "Sans objet (situation de santé publique). Données recueillies : 16 000 naissances vivantes ; 240 mort-nés ; 3 600 décès tous âges ; 272 décès d'enfants de moins d'un an, dont 176 entre 0 et 27 jours et, parmi eux, 120 entre 0 et 6 jours ; 9 décès maternels.",
+      "examen_clinique": "Sans objet. Qualité des données : 6 % des certificats de décès portent une cause « mal définie » (arrêt cardio-respiratoire).",
+      "biologie": "Sans objet.",
+      "imagerie": "Sans objet.",
+      "hypotheses_diagnostiques": [
+        "Baisse de la mortalité infantile à confirmer sur plusieurs années",
+        "Prédominance de la mortalité néonatale (facteurs endogènes et qualité des soins périnatals)",
+        "Sous-enregistrement possible des décès néonatals précoces et des mort-nés"
+      ],
+      "diagnostics_differentiels": [
+        "Variation aléatoire liée aux petits effectifs (décès maternels)",
+        "Artefact d'enregistrement (exhaustivité de l'état civil)",
+        "Changement de définition de la mortinaissance (seuil d'âge gestationnel)"
+      ],
+      "examens_a_demander": [
+        "Séries des 5 à 10 dernières années",
+        "Intervalles de confiance des taux",
+        "Répartition des causes de décès (codage CIM)",
+        "Audit de l'exhaustivité de l'enregistrement des naissances et décès",
+        "Revue des décès maternels"
+      ],
+      "diagnostic_final": "TBN = 16 000/800 000 = 20 ‰ ; TBM = 3 600/800 000 = 4,5 ‰ ; accroissement naturel = 12 400/800 000 = 1,55 % ; mortalité infantile = 272/16 000 = 17 ‰ ; néonatale = 176/16 000 = 11 ‰ ; post-néonatale = 96/16 000 = 6 ‰ ; mortinatalité = 240/16 240 = 14,8 ‰ ; mortalité périnatale = (240 + 120)/16 240 = 22,2 ‰ ; RMM = 9/16 000 × 100 000 = 56,25 pour 100 000 NV.",
+      "traitement": "Recommandations : renforcer la surveillance de la grossesse et la prise en charge néonatale (65 % des décès infantiles sont néonatals) ; revue systématique de chaque décès maternel ; formation des médecins au remplissage du certificat de décès (cause directe et états morbides antérieurs, décret 22-178) ; contrôle de l'exhaustivité de l'état civil.",
+      "surveillance": "Suivi annuel des indicateurs avec séries temporelles et intervalles de confiance ; comparaison aux cibles des ODD (néonatale ≤ 12 ‰, RMM < 70/100 000 en moyenne mondiale).",
+      "evolution": "Situation fictive : l'audit révèle que 15 % des décès néonatals précoces n'étaient pas enregistrés ; après correction, la mortalité néonatale est réévaluée à la hausse.",
+      "explication_pedagogique": "L'exercice entraîne au calcul exact des indicateurs (bons dénominateurs : naissances vivantes pour la mortalité infantile, naissances totales pour la mortinatalité et la mortalité périnatale, ×100 000 pour le RMM) et à leur lecture critique (petits effectifs, qualité des sources). La vérification néonatale + post-néonatale = infantile est un bon contrôle.",
+      "questions": [
+        {
+          "question": "Calculez la mortalité infantile et ses composantes.",
+          "reponse": "17 ‰ = 11 ‰ (néonatale) + 6 ‰ (post-néonatale), pour 1 000 naissances vivantes."
+        },
+        {
+          "question": "Pourquoi la mortinatalité n'est-elle pas rapportée aux seules naissances vivantes ?",
+          "reponse": "Parce que les mort-nés font partie des naissances à risque : le dénominateur est l'ensemble des naissances (vivantes + mort-nés) = 16 240."
+        },
+        {
+          "question": "Le RMM a-t-il réellement baissé (62 → 56,25) ?",
+          "reponse": "Pas forcément : 9 décès seulement, l'intervalle de confiance est large ; il faut des séries pluriannuelles et une revue de chaque décès."
+        },
+        {
+          "question": "Quel texte encadre le recueil des causes de décès ?",
+          "reponse": "Le décret exécutif 22-178 (certificat médical de décès : partie médicale anonyme transmise à la direction de wilaya chargée de la santé), pris en application de l'art. 204 de la loi 18-11."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Décret exécutif n° 22-178 du 28 avril 2022 (certificat médical de décès), JORADP n° 32/2022 (DOC-00077)",
+          "date": "2022"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-EPID-1502",
+      "titre": "Épidémie de rougeole dans une école : efficacité vaccinale et fraction prévenue",
+      "niveau": "residanat",
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : médecin de santé scolaire et équipe d'épidémiologie d'un EPSP ; école primaire de 500 élèves.",
+      "motif_consultation": "Signalement de plusieurs cas d'éruption fébrile dans une école en 3 semaines ; des parents affirment que « le vaccin ne sert à rien puisque des enfants vaccinés sont malades ».",
+      "antecedents": "Couverture vaccinale de l'école : 400 élèves sur 500 correctement vaccinés selon les carnets (80 %).",
+      "symptomes": "48 cas répondant à la définition de cas de rougeole (fièvre, éruption maculo-papuleuse, toux, coryza ou conjonctivite) : 8 chez les élèves vaccinés, 40 chez les non-vaccinés.",
+      "examen_clinique": "Sans objet individuellement ; aucune complication grave signalée à ce stade.",
+      "biologie": "Confirmation biologique (IgM spécifiques) obtenue chez les premiers cas.",
+      "imagerie": "Sans objet.",
+      "hypotheses_diagnostiques": [
+        "Épidémie de rougeole dans une population à couverture vaccinale insuffisante",
+        "Échecs vaccinaux primaires attendus chez une petite fraction de vaccinés"
+      ],
+      "diagnostics_differentiels": [
+        "Rubéole",
+        "Infections à parvovirus B19 ou à entérovirus",
+        "Toxidermie (rare dans ce contexte collectif)"
+      ],
+      "examens_a_demander": [
+        "Confirmation biologique d'un échantillon de cas",
+        "Vérification des carnets de vaccination",
+        "Liste des contacts réceptifs (fratries, personnels)"
+      ],
+      "diagnostic_final": "Taux d'attaque : vaccinés 8/400 = 2 % ; non-vaccinés 40/100 = 40 % ; RR = 0,05 ; efficacité vaccinale = 1 − 0,05 = 95 %. Taux d'attaque global = 48/500 = 9,6 % ; fraction prévenue dans la population = (40 − 9,6)/40 = 76 % = couverture (0,8) × EV (0,95). Proportion de vaccinés parmi les cas = 8/48 = 16,7 % : la méthode de dépistage donne EV = 1 − (0,167/0,833) × (0,2/0,8) = 95 %, résultat concordant.",
+      "traitement": "Déclaration sans délai des cas suspects (rougeole, MDO de catégorie 1, décret 22-250 ; art. 39 de la loi 18-11) ; éviction des malades selon les règles locales ; vérification des statuts vaccinaux et rattrapage (vaccinations obligatoires gratuites, art. 40-41 ; calendrier fixé par arrêté) ; prise en charge symptomatique des cas et orientation des formes compliquées ; information des parents.",
+      "surveillance": "Surveillance active de nouveaux cas pendant au moins deux périodes d'incubation après le dernier cas ; suivi de la couverture vaccinale.",
+      "evolution": "Situation fictive : après la campagne de rattrapage, 3 nouveaux cas puis fin de l'épidémie.",
+      "explication_pedagogique": "Le cas illustre le paradoxe apparent « des vaccinés tombent malades » : quand la couverture est élevée, une part non nulle des cas survient chez des vaccinés, sans remettre en cause l'efficacité vaccinale, qui se mesure par la comparaison des taux d'attaque. Il relie mesures d'impact (EV, fraction prévenue) et obligations réglementaires (MDO, vaccination).",
+      "questions": [
+        {
+          "question": "Calculez l'efficacité vaccinale.",
+          "reponse": "EV = (TA non-vaccinés − TA vaccinés)/TA non-vaccinés = (40 − 2)/40 = 95 %."
+        },
+        {
+          "question": "Quelle fraction des cas la vaccination a-t-elle évitée dans l'école ?",
+          "reponse": "76 % (couverture 80 % × EV 95 %) : sans vaccination, on aurait attendu environ 200 cas (40 % de 500) au lieu de 48."
+        },
+        {
+          "question": "Que répondre aux parents ?",
+          "reponse": "Un vacciné a 20 fois moins de risque d'être malade (RR = 0,05) ; les cas chez les vaccinés reflètent quelques échecs vaccinaux dans un groupe très majoritaire."
+        },
+        {
+          "question": "Quelle obligation pour le médecin qui voit le premier cas ?",
+          "reponse": "Déclarer sans délai tout cas suspect ou confirmé (art. 39 de la loi 18-11 ; rougeole en catégorie 1 du décret 22-250)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 (liste des MDO), JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire (DOC-00070), complété par l'arrêté du 28 avril 2026 (DOC-00071)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-EPID-1503",
+      "titre": "Toxi-infection alimentaire collective après un repas de mariage : enquête de cohorte rétrospective",
+      "niveau": "residanat",
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : équipe d'épidémiologie d'un EPSP alertée par les urgences d'un EPH ; 200 convives d'un repas de mariage.",
+      "motif_consultation": "Afflux aux urgences, en une nuit, de convives présentant diarrhée, vomissements et douleurs abdominales 6 à 24 heures après un repas.",
+      "antecedents": "Repas servi par un traiteur ; plats : salade au poulet, couscous, dessert à la crème.",
+      "symptomes": "64 malades sur 200 convives interrogés (définition de cas : diarrhée ou vomissements dans les 48 heures suivant le repas).",
+      "examen_clinique": "Signes de déshydratation chez 6 malades âgés ou jeunes enfants ; pas de signe de gravité neurologique.",
+      "biologie": "Coprocultures prélevées chez 10 malades ; prélèvement des restes alimentaires conservés.",
+      "imagerie": "Sans objet.",
+      "hypotheses_diagnostiques": [
+        "TIAC liée à un plat contaminé (salade au poulet suspectée)"
+      ],
+      "diagnostics_differentiels": [
+        "Gastro-entérite virale de transmission interhumaine",
+        "Intoxication chimique",
+        "Contamination de l'eau de boisson"
+      ],
+      "examens_a_demander": [
+        "Questionnaire alimentaire standardisé à tous les convives (malades et non malades)",
+        "Coprocultures",
+        "Analyse microbiologique des restes alimentaires",
+        "Inspection de la cuisine du traiteur (services d'hygiène)"
+      ],
+      "diagnostic_final": "Cohorte rétrospective (toute la population exposée au repas est connue). Salade au poulet : 60 malades sur 120 consommateurs (taux d'attaque 50 %) contre 4 sur 80 non-consommateurs (5 %) → RR = 10 ; fraction étiologique chez les exposés = 90 %. Dessert : 48/150 (32 %) contre 16/50 (32 %) → RR = 1. La salade au poulet est le véhicule probable.",
+      "traitement": "Réhydratation orale ou intraveineuse selon l'état ; pas d'antibiothérapie systématique ; déclaration de la TIAC (MDO de catégorie 1, décret 22-250) ; retrait des aliments suspects ; mesures correctrices chez le traiteur (chaîne du froid) ; information des convives.",
+      "surveillance": "Recherche de cas secondaires ; résultats des coprocultures et des analyses alimentaires.",
+      "evolution": "Situation fictive : coprocultures positives à une salmonelle mineure chez 7 malades et dans la salade ; guérison de tous les malades.",
+      "explication_pedagogique": "L'investigation d'une TIAC illustre le choix du schéma : lorsque toute la population exposée est connue (convives), une cohorte rétrospective permet de calculer des taux d'attaque et des RR par aliment ; si les convives ne sont pas tous identifiables, on recourt à une étude cas-témoins (OR).",
+      "questions": [
+        {
+          "question": "Quel est le type d'étude réalisé ?",
+          "reponse": "Une cohorte historique (rétrospective) : on part de l'exposition (aliments consommés) pour comparer les taux d'attaque."
+        },
+        {
+          "question": "Calculez le RR associé à la salade au poulet.",
+          "reponse": "50 %/5 % = 10."
+        },
+        {
+          "question": "Le dessert est-il en cause ?",
+          "reponse": "Non : taux d'attaque identiques (32 %) chez les consommateurs et les non-consommateurs, RR = 1."
+        },
+        {
+          "question": "Quelle obligation réglementaire ?",
+          "reponse": "Déclarer la toxi-infection alimentaire collective (catégorie 1 du décret 22-250) sans délai (art. 39 de la loi 18-11)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 (liste des MDO), JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-EPID-1504",
+      "titre": "Benzodiazépines et fracture de hanche du sujet âgé : étude cas-témoins et ajustement sur l'âge",
+      "niveau": "dems",
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : résidents en épidémiologie et en gériatrie conduisant une étude dans deux CHU.",
+      "motif_consultation": "Question de recherche : la prise de benzodiazépines est-elle associée aux fractures de l'extrémité supérieure du fémur chez les personnes de 65 ans et plus ?",
+      "antecedents": "Cas : 300 patients de 65 ans et plus hospitalisés pour une première fracture de l'extrémité supérieure du fémur ; témoins : 600 personnes de 65 ans et plus de la même population source, sans fracture.",
+      "symptomes": "Exposition (benzodiazépine prise dans le mois précédent, vérifiée sur les ordonnances) : 120 cas et 150 témoins exposés.",
+      "examen_clinique": "Stratification par âge : 65-79 ans : cas 30 exposés / 70 non exposés ; témoins 60 / 240. ≥ 80 ans : cas 90 / 110 ; témoins 90 / 210.",
+      "biologie": "Sans objet.",
+      "imagerie": "Sans objet.",
+      "hypotheses_diagnostiques": [
+        "Association causale benzodiazépines → chutes → fractures",
+        "Confusion par l'âge (les plus âgés consomment plus de benzodiazépines et se fracturent plus)"
+      ],
+      "diagnostics_differentiels": [
+        "Biais de mémorisation (limité ici par la vérification des ordonnances)",
+        "Confusion par l'indication (troubles cognitifs, dépression)",
+        "Biais de sélection des témoins"
+      ],
+      "examens_a_demander": [
+        "Analyse stratifiée sur l'âge et OR de Mantel-Haenszel",
+        "Ajustement multivarié (sexe, démence, autres psychotropes)",
+        "Relation dose-effet (dose, demi-vie, durée)"
+      ],
+      "diagnostic_final": "OR brut = (120 × 450)/(180 × 150) = 2,0 (IC 95 % de Woolf : 1,49-2,69). OR 65-79 ans = (30 × 240)/(70 × 60) = 1,71 ; OR ≥ 80 ans = (90 × 210)/(110 × 90) = 1,91 (homogènes). OR de Mantel-Haenszel = (18 + 37,8)/(10,5 + 19,8) = 55,8/30,3 = 1,84. L'âge est un facteur de confusion modeste (variation de 2,0 à 1,84, environ 8 %) ; l'association persiste après ajustement.",
+      "traitement": "Implications pratiques : révision des prescriptions de benzodiazépines chez le sujet âgé (critères de Beers 2023, STOPP/START v3) et sevrage progressif ; prévention des chutes.",
+      "surveillance": "Discussion de la causalité : temporalité (exposition vérifiée avant la fracture), plausibilité (sédation, troubles de l'équilibre), relation dose-effet à rechercher, cohérence avec la littérature.",
+      "evolution": "Situation fictive : l'ajustement complémentaire sur la démence ramène l'OR à 1,7 (IC 95 % excluant 1).",
+      "explication_pedagogique": "Le cas fait pratiquer le calcul d'un OR et de son intervalle de confiance, la stratification, l'OR de Mantel-Haenszel et la distinction confusion / interaction (OR de strates homogènes → pas d'interaction ; brut ≠ ajusté → confusion), puis le raisonnement causal.",
+      "questions": [
+        {
+          "question": "Pourquoi un schéma cas-témoins ?",
+          "reponse": "La fracture de hanche est relativement rare à l'échelle individuelle et l'on veut étudier une exposition fréquente : on part des cas, avec des témoins issus de la même population source."
+        },
+        {
+          "question": "L'âge est-il un facteur de confusion ?",
+          "reponse": "Oui, modeste : il est lié à l'exposition (30 % d'exposés chez les témoins ≥ 80 ans contre 20 % chez les 65-79 ans) et à la maladie (67 % des cas contre 50 % des témoins ont ≥ 80 ans) ; l'OR passe de 2,0 à 1,84 après ajustement."
+        },
+        {
+          "question": "Y a-t-il une interaction ?",
+          "reponse": "Non : les OR de strate (1,71 et 1,91) sont proches ; on peut résumer par l'OR de Mantel-Haenszel."
+        },
+        {
+          "question": "Comment limiter le biais de mémorisation ?",
+          "reponse": "En mesurant l'exposition à partir de sources documentaires antérieures à la fracture (ordonnances, dossiers), identiques pour cas et témoins."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "AGS 2023 updated Beers Criteria. J Am Geriatr Soc 2023;71(7):2052-2081",
+          "date": "2023"
+        },
+        {
+          "reference": "O'Mahony D et al. STOPP/START version 3. Eur Geriatr Med 2023;14(4):625-632",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-SPUB-1501",
+      "titre": "Suspicion de rougeole chez un enfant non vacciné vu en polyclinique : parcours de soins et obligations du médecin",
+      "niveau": "generaliste",
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon de 4 ans, vivant dans une commune rurale ; vu par le médecin généraliste d'une polyclinique rattachée à un EPSP.",
+      "motif_consultation": "Fièvre à 39,5 °C depuis 4 jours, toux, yeux rouges, puis éruption apparue la veille derrière les oreilles.",
+      "antecedents": "Carnet de vaccination : vaccinations de la naissance faites, doses ultérieures non réalisées (déménagement de la famille). Deux cousins fébriles dans le même foyer.",
+      "symptomes": "Toux, larmoiement, rhinorrhée, éruption maculo-papuleuse descendante, asthénie, alimentation conservée.",
+      "examen_clinique": "T 39,2 °C, FR 30/min, SpO2 97 %, conjonctivite, signe de Köplik, exanthème maculo-papuleux du visage et du tronc ; auscultation pulmonaire normale ; pas de signe de déshydratation ; conscience normale.",
+      "biologie": "Recherche d'IgM anti-rougeole prélevée (résultat attendu).",
+      "imagerie": "Non indiquée en l'absence de signe respiratoire de gravité.",
+      "hypotheses_diagnostiques": [
+        "Rougeole (cas suspect)"
+      ],
+      "diagnostics_differentiels": [
+        "Rubéole",
+        "Exanthème subit",
+        "Scarlatine",
+        "Toxidermie",
+        "Infection à entérovirus"
+      ],
+      "examens_a_demander": [
+        "IgM spécifiques (confirmation du cas)",
+        "Recensement des contacts du foyer et de l'entourage",
+        "Vérification des statuts vaccinaux des contacts"
+      ],
+      "diagnostic_final": "Rougeole (cas suspect puis confirmé) chez un enfant incomplètement vacciné.",
+      "traitement": "Traitement symptomatique (antipyrétique, hydratation) et surveillance des complications ; supplémentation en vitamine A selon les recommandations de l'OMS [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; déclaration sans délai du cas suspect (rougeole, catégorie 1 du décret 22-250 ; art. 39 de la loi 18-11) ; signalement au service d'épidémiologie pour l'investigation autour du cas ; vaccination de rattrapage des contacts réceptifs selon le calendrier réglementaire (vaccinations obligatoires gratuites, art. 40-41) ; orientation vers le service de pédiatrie de l'EPH en cas de complication (pneumopathie, déshydratation, convulsions) ; soins gratuits dans le secteur public (art. 13).",
+      "surveillance": "Revoir l'enfant à 48 heures ; consignes de reconsultation (dyspnée, refus de boire, somnolence, convulsions) ; surveillance des contacts pendant la période d'incubation.",
+      "evolution": "Évolution simple en 10 jours ; deux cas secondaires dans la famille ; campagne de rattrapage dans le quartier.",
+      "explication_pedagogique": "Le cas relie clinique et organisation sanitaire : premier recours (médecin référent en structure de proximité), hiérarchisation (recours à l'EPH si complication), déclaration obligatoire (catégorie 1), rôle du service d'épidémiologie et intersectorialité (école, commune), gratuité et caractère obligatoire des vaccinations.",
+      "questions": [
+        {
+          "question": "Faut-il attendre la confirmation biologique pour déclarer ?",
+          "reponse": "Non : tout cas suspect ou confirmé doit être déclaré sans délai (art. 39)."
+        },
+        {
+          "question": "À quelle catégorie de MDO appartient la rougeole ?",
+          "reponse": "Catégorie 1 (surveillance nationale) du décret 22-250."
+        },
+        {
+          "question": "Quand adresser l'enfant au niveau secondaire ?",
+          "reponse": "En cas de complication ou de signe de gravité : orientation vers le service de pédiatrie de l'EPH (soins spécialisés)."
+        },
+        {
+          "question": "Quelle base légale pour la vaccination de rattrapage ?",
+          "reponse": "Les vaccinations obligatoires sont assurées gratuitement (art. 40) ; le calendrier est fixé par arrêté (3 juillet 2018, complété en 2026) ; campagnes possibles en cas de risque épidémique (art. 41)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 (liste des MDO), JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        },
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire (DOC-00070), complété par l'arrêté du 28 avril 2026 (DOC-00071)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-SPUB-1502",
+      "titre": "Ouvrir un centre d'hémodialyse dans une daïra mal desservie : planification et partenariat public-privé",
+      "niveau": "dems",
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : daïra de 180 000 habitants des Hauts-Plateaux ; 95 patients en insuffisance rénale chronique terminale effectuent chacun trois trajets hebdomadaires de 120 km vers le chef-lieu de wilaya pour leurs séances d'hémodialyse.",
+      "motif_consultation": "Les associations de malades saisissent la direction de wilaya chargée de la santé ; un investisseur privé propose d'ouvrir un centre d'hémodialyse.",
+      "antecedents": "Le seul centre public de la wilaya est saturé ; pas de néphrologue installé dans la daïra.",
+      "symptomes": "Données de besoin : prévalence de l'IRCT dialysée dans la daïra = 95/180 000 = 528 par million d'habitants ; temps de transport moyen 3 heures par séance ; absentéisme aux séances de 8 %.",
+      "examen_clinique": "Sans objet (situation d'organisation).",
+      "biologie": "Sans objet.",
+      "imagerie": "Sans objet.",
+      "hypotheses_diagnostiques": [
+        "Déficit d'offre de soins dans une zone à couverture sanitaire insuffisante"
+      ],
+      "diagnostics_differentiels": [
+        "Renforcer le centre public existant",
+        "Ouvrir une unité publique rattachée à l'EPH de la daïra",
+        "Confier une mission de service public à une structure privée par cahier des charges"
+      ],
+      "examens_a_demander": [
+        "Normes de la carte sanitaire et priorités du schéma d'organisation sanitaire",
+        "Projection des besoins (incidence de l'IRCT, diabète, HTA, vieillissement)",
+        "Disponibilité des ressources humaines (néphrologues, infirmiers formés)",
+        "Coûts et modalités de prise en charge par la sécurité sociale [À VÉRIFIER — conventions en vigueur]"
+      ],
+      "diagnostic_final": "Besoin avéré relevant de la planification sanitaire (art. 7, 269-271 de la loi 18-11) ; solution possible : autorisation d'une structure privée conforme à la carte sanitaire (art. 306-307) investie d'une mission de service public par cahier des charges pour une zone à couverture insuffisante (art. 311), avec convention de prise en charge des dépenses (art. 312), ou création d'une unité publique.",
+      "traitement": "Étapes : avis technique des services de santé ; autorisation du ministre (création, ouverture, exploitation, équipements soumis à normes, art. 307) ; cahier des charges de service public (prestations, durée, modalités) ; projet d'établissement compatible avec le schéma d'organisation sanitaire ; affectation possible de néphrologues au titre du service civil (art. 196-197) ; conventions de prise en charge ; inscription des données dans le système national d'information sanitaire (art. 321).",
+      "surveillance": "Indicateurs : nombre de patients pris en charge, délais d'accès, temps de transport, qualité de la dialyse (indicateurs biologiques et cliniques), infections liées aux abords vasculaires, satisfaction ; contrôle et évaluation par les services du ministère (art. 310), évaluation interne (art. 325).",
+      "evolution": "Situation fictive : ouverture d'un centre de 20 postes ; le temps de transport moyen passe de 3 heures à 20 minutes ; l'absentéisme aux séances diminue.",
+      "explication_pedagogique": "La situation fait mobiliser les outils de planification (carte sanitaire, schéma d'organisation), le régime d'autorisation du secteur privé, la mission de service public et l'évaluation, en reliant un besoin mesuré par des indicateurs à une décision d'organisation.",
+      "questions": [
+        {
+          "question": "Quel instrument fixe les normes de couverture permettant de juger du besoin ?",
+          "reponse": "La carte sanitaire (art. 269-270), complétée par le schéma d'organisation sanitaire pour les complémentarités et coopérations (art. 271)."
+        },
+        {
+          "question": "Qui autorise l'ouverture d'un centre privé ?",
+          "reponse": "Le ministre chargé de la santé (art. 307), après vérification des conditions techniques (art. 306)."
+        },
+        {
+          "question": "Comment garantir l'accès gratuit des patients dans une structure privée ?",
+          "reponse": "Par l'attribution d'une mission de service public selon un cahier des charges (art. 311) et des conventions régissant les dépenses (art. 312) [modalités financières à vérifier]."
+        },
+        {
+          "question": "Citez deux indicateurs d'évaluation.",
+          "reponse": "Temps de transport par séance ; taux d'infections des abords vasculaires (ou tout indicateur de qualité de la dialyse)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-GERI-1501",
+      "titre": "Chutes répétées chez un homme parkinsonien de 78 ans",
+      "niveau": "resident",
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme de 78 ans, retraité, vit avec son épouse au 1er étage ; maladie de Parkinson depuis 7 ans.",
+      "motif_consultation": "Quatre chutes en 6 mois, la dernière avec plaie du cuir chevelu ; peur de sortir de chez lui.",
+      "antecedents": "Maladie de Parkinson traitée par lévodopa/bensérazide 4 prises par jour ; hypertrophie bénigne de prostate traitée par tamsulosine ; HTA traitée par ramipril ; nycturie (3 levers par nuit).",
+      "symptomes": "Chutes lors des demi-tours et au lever nocturne ; « pieds collés au sol » au passage des portes ; sensation de flou visuel et de jambes molles au lever le matin ; pas de perte de connaissance rapportée par l'épouse.",
+      "examen_clinique": "PA couché 142/80 mmHg, debout à 1 min 112/68, à 3 min 104/64 mmHg, FC 74/min sans accélération ; rigidité et akinésie modérées, enrayage cinétique au passage de porte, demi-tour en 6 temps, rétropulsion à la poussée sternale ; TUG 19 s ; appui unipodal impossible ; MMSE 26/30 ; acuité visuelle corrigée correcte ; pieds sans lésion.",
+      "biologie": "Natrémie 136 mmol/L, créatinine 10 mg/L, glycémie 0,95 g/L, NFS normale.",
+      "imagerie": "Scanner cérébral réalisé aux urgences lors de la dernière chute : pas de lésion traumatique.",
+      "hypotheses_diagnostiques": [
+        "Chutes multifactorielles : instabilité posturale et freezing parkinsoniens",
+        "Hypotension orthostatique neurogène majorée par les médicaments (lévodopa, tamsulosine, ramipril)",
+        "Nycturie et levers nocturnes"
+      ],
+      "diagnostics_differentiels": [
+        "Syncope cardiaque (à éliminer par l'ECG)",
+        "Atrophie multisystématisée (si dysautonomie sévère précoce)",
+        "Hématome sous-dural (exclu par le scanner)"
+      ],
+      "examens_a_demander": [
+        "ECG",
+        "Recherche d'hypotension orthostatique répétée (et post-prandiale)",
+        "Évaluation des fluctuations motrices (carnet on/off)",
+        "Ostéodensitométrie (risque fracturaire)"
+      ],
+      "diagnostic_final": "Chutes répétées de mécanisme multifactoriel chez un parkinsonien : instabilité posturale et freezing + hypotension orthostatique (baisse de 38 mmHg de systolique à 3 min) d'origine neurogène et médicamenteuse.",
+      "traitement": "Arrêt de la tamsulosine (alpha-bloquant) à discuter avec l'urologue et réévaluation de l'antihypertenseur (cible tensionnelle moins stricte) ; hydratation, lever en plusieurs temps, bas de contention, surélévation de la tête du lit ; avis neurologique pour adapter le traitement antiparkinsonien (fluctuations, freezing) ; kinésithérapie spécialisée (indices visuels et auditifs contre le freezing, demi-tours, équilibre, renforcement) ; urinal la nuit et éclairage nocturne ; aménagement du domicile ; apprentissage du relever du sol et téléassistance ; prise en charge de l'ostéoporose si confirmée.",
+      "surveillance": "PA couché-debout à chaque consultation, carnet de chutes, TUG, tolérance des modifications thérapeutiques, état cognitif.",
+      "evolution": "Situation fictive : à 3 mois, une seule chute sans gravité ; hypotension orthostatique réduite à 15 mmHg ; TUG 15 s.",
+      "explication_pedagogique": "La chute du parkinsonien est multifactorielle : maladie (instabilité posturale, freezing, dysautonomie) et médicaments (alpha-bloquant, antihypertenseurs, dopaminergiques). La mesure de la PA couché-debout et la révision de l'ordonnance sont prioritaires ; la kinésithérapie spécialisée est centrale.",
+      "questions": [
+        {
+          "question": "L'hypotension orthostatique est-elle établie ?",
+          "reponse": "Oui : baisse de la systolique de 38 mmHg (≥ 20) et de la diastolique de 16 mmHg (≥ 10) à 3 min, sans accélération compensatrice (évocatrice d'une origine neurogène)."
+        },
+        {
+          "question": "Quels médicaments réévaluer en priorité ?",
+          "reponse": "La tamsulosine (alpha-bloquant) et le ramipril ; l'adaptation de la lévodopa relève du neurologue."
+        },
+        {
+          "question": "Quel classement selon l'algorithme mondial 2022 ?",
+          "reponse": "Risque élevé (chutes répétées avec blessure) → évaluation multifactorielle et interventions personnalisées."
+        },
+        {
+          "question": "Une rééducation est-elle utile chez le parkinsonien ?",
+          "reponse": "Oui : kinésithérapie ciblant l'équilibre, les demi-tours, le freezing (indices externes) et le renforcement."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults. Age Ageing 2022;51(9):afac205",
+          "date": "2022"
+        },
+        {
+          "reference": "HAS/SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009",
+          "date": "2009"
+        },
+        {
+          "reference": "Brignole M et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J 2018;39:1883-1948",
+          "date": "2018"
+        },
+        {
+          "reference": "O'Mahony D et al. STOPP/START version 3. Eur Geriatr Med 2023;14(4):625-632",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-GERI-1502",
+      "titre": "Chute « inexpliquée » avec fracture du poignet chez une femme de 80 ans : une syncope à ne pas méconnaître",
+      "niveau": "generaliste",
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme de 80 ans, autonome, vit seule ; amenée aux urgences d'un EPH par une voisine.",
+      "motif_consultation": "Chute dans la rue avec fracture du poignet droit ; elle « ne se souvient pas comment elle est tombée ».",
+      "antecedents": "HTA traitée par aténolol ; aucun antécédent de chute ; pas de diabète.",
+      "symptomes": "La voisine rapporte une chute brutale « comme une masse », sans prodrome, avec une perte de contact de quelques secondes et récupération rapide sans confusion ; deux épisodes de « voile noir » les semaines précédentes.",
+      "examen_clinique": "Déformation du poignet droit (fracture extrémité distale du radius), hématome frontal ; FC 42/min régulière, PA 150/70 mmHg ; pas d'hypotension orthostatique ; souffle cardiaque absent ; examen neurologique normal ; TUG 11 s.",
+      "biologie": "Natrémie, kaliémie, créatinine et glycémie normales ; troponine non élevée.",
+      "imagerie": "Radiographie : fracture de l'extrémité distale du radius ; scanner cérébral (traumatisme crânien, perte de contact) : normal.",
+      "hypotheses_diagnostiques": [
+        "Syncope cardiaque par bradycardie (trouble conductif de haut degré)",
+        "Bradycardie majorée par le bêtabloquant"
+      ],
+      "diagnostics_differentiels": [
+        "Chute mécanique",
+        "Crise d'épilepsie",
+        "Hypotension orthostatique",
+        "AIT vertébro-basilaire"
+      ],
+      "examens_a_demander": [
+        "ECG 12 dérivations",
+        "Monitorage ECG continu",
+        "Échocardiographie",
+        "Ionogramme et kaliémie",
+        "Avis cardiologique"
+      ],
+      "diagnostic_final": "Syncope révélant un bloc auriculo-ventriculaire de haut degré (ECG : BAV complet avec échappement à 42/min), responsable d'une chute traumatique (fracture du radius, traumatisme crânien bénin).",
+      "traitement": "Arrêt du bêtabloquant ; surveillance scopée ; implantation d'un stimulateur cardiaque selon l'avis cardiologique (recommandations ESC sur la syncope) ; traitement orthopédique de la fracture ; évaluation de l'ostéoporose (fracture de fragilité) et traitement adapté ; antihypertenseur alternatif.",
+      "surveillance": "Contrôle du stimulateur ; évaluation du risque de chute après consolidation ; ostéodensitométrie.",
+      "evolution": "Situation fictive : pas de récidive de syncope ni de chute à 6 mois ; traitement anti-ostéoporotique instauré.",
+      "explication_pedagogique": "Une chute sans prodrome avec amnésie des circonstances et récupération rapide doit faire évoquer une syncope : l'ECG est systématique. Les critères de sévérité (blessure, perte de connaissance suspectée) classent la patiente à risque élevé. La fracture de fragilité impose une évaluation de l'ostéoporose.",
+      "questions": [
+        {
+          "question": "Quel examen simple oriente immédiatement le diagnostic ?",
+          "reponse": "L'ECG (bradycardie, trouble conductif)."
+        },
+        {
+          "question": "Quels éléments évoquent une syncope plutôt qu'une chute mécanique ?",
+          "reponse": "Chute brutale sans prodrome ni obstacle, perte de contact rapportée, amnésie des circonstances, récupération rapide, épisodes de voile noir antérieurs, bradycardie."
+        },
+        {
+          "question": "Le scanner cérébral était-il justifié ?",
+          "reponse": "Oui : traumatisme crânien avec perte de contact chez une personne âgée ; il n'est en revanche pas systématique après toute chute."
+        },
+        {
+          "question": "Que faire de la fracture du poignet au-delà de l'orthopédie ?",
+          "reponse": "La considérer comme une fracture de fragilité : évaluer et traiter l'ostéoporose."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults. Age Ageing 2022;51(9):afac205",
+          "date": "2022"
+        },
+        {
+          "reference": "Brignole M et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J 2018;39:1883-1948",
+          "date": "2018"
+        },
+        {
+          "reference": "HAS/SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-GERI-1503",
+      "titre": "Somnolence inhabituelle au 2e jour postopératoire d'une fracture du col du fémur : confusion hypoactive",
+      "niveau": "resident",
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme de 86 ans, vivant avec sa fille, opérée d'une fracture du col du fémur (prothèse) dans un service de chirurgie orthopédique d'un CHU.",
+      "motif_consultation": "L'infirmière signale au 2e jour postopératoire une patiente « calme, qui dort beaucoup » et qui mange peu.",
+      "antecedents": "Troubles de mémoire signalés par la fille depuis un an, non explorés ; HTA traitée par hydrochlorothiazide ; presbyacousie (appareil auditif resté à domicile).",
+      "symptomes": "Somnolence diurne, réponses lentes et hors de propos, désorientation temporelle, aucune agitation ; la fille trouve sa mère « absente », très différente d'avant l'intervention.",
+      "examen_clinique": "T 37,6 °C, PA 108/60 mmHg, FC 98/min, SpO2 93 % en air ambiant ; muqueuses sèches ; sonde urinaire en place ; pas de selles depuis l'intervention ; douleur de hanche cotée difficilement ; pas de signe de localisation ; 4AT : vigilance anormale (4), AMT4 : 2 erreurs (2), mois à l'envers : s'arrête à octobre (1), changement aigu (4) = 11.",
+      "biologie": "Hb 8,4 g/dL (préopératoire 11,2), Na 129 mmol/L, K 3,6 mmol/L, créatinine 15 mg/L (9 en préopératoire), CRP 85 mg/L, glycémie 1,05 g/L.",
+      "imagerie": "Radiographie thoracique : pas de foyer franc.",
+      "hypotheses_diagnostiques": [
+        "Confusion postopératoire hypoactive multifactorielle"
+      ],
+      "diagnostics_differentiels": [
+        "Dépression",
+        "Évolution d'une démence méconnue (sans changement aigu, ce qui n'est pas le cas)",
+        "AVC",
+        "Hématome sous-dural (chute initiale)",
+        "Embolie pulmonaire (SpO2 basse, tachycardie)"
+      ],
+      "examens_a_demander": [
+        "Gaz du sang",
+        "ECG",
+        "Bilan infectieux orienté (ECBU sur nouvelle sonde ou après ablation, hémocultures si fièvre)",
+        "Recherche d'embolie pulmonaire selon la probabilité clinique",
+        "Réévaluation de la douleur et des antalgiques"
+      ],
+      "diagnostic_final": "Confusion hypoactive postopératoire (4AT = 11) de causes multiples : anémie postopératoire, hypoxémie, hyponatrémie (thiazidique), déshydratation avec insuffisance rénale fonctionnelle, constipation, sonde urinaire, douleur mal évaluée, privation sensorielle (appareil auditif absent), terrain de troubles cognitifs probables.",
+      "traitement": "Correction de l'anémie selon les seuils transfusionnels du service, oxygénothérapie, réhydratation et arrêt de l'hydrochlorothiazide avec correction prudente de la natrémie, laxatifs, ablation de la sonde urinaire dès que possible, antalgie adaptée (paracétamol systématique, opioïdes titrés et réévalués) ; mesures non médicamenteuses : appareil auditif et lunettes apportés par la fille, présence familiale, réorientation, lever et rééducation précoces, respect du sommeil ; pas de psychotrope (pas d'agitation) ; collaboration orthogériatrique.",
+      "surveillance": "4AT quotidien, natrémie, hémoglobine, créatinine, transit, diurèse après ablation de la sonde, douleur, mobilisation.",
+      "evolution": "Situation fictive : amélioration progressive en 5 jours ; 4AT à 3 à J7 (troubles cognitifs) ; consultation mémoire programmée à 3 mois.",
+      "explication_pedagogique": "La forme hypoactive est la plus fréquente et la plus méconnue ; elle se repère par un outil systématique (4AT) et l'interrogatoire de l'entourage (changement aigu). Le bilan retrouve le plus souvent plusieurs causes intriquées, toutes corrigeables. Le suivi cognitif est indispensable après l'épisode.",
+      "questions": [
+        {
+          "question": "Pourquoi cette patiente n'a-t-elle pas été repérée plus tôt ?",
+          "reponse": "La forme hypoactive (calme, somnolente) passe pour de la fatigue ; seul un repérage systématique (4AT) et l'avis de l'entourage la révèlent."
+        },
+        {
+          "question": "Interprétez le 4AT.",
+          "reponse": "11/12 ≥ 4 : confusion possible (associée ici à des troubles cognitifs antérieurs probables)."
+        },
+        {
+          "question": "Citez quatre causes corrigeables.",
+          "reponse": "Anémie, hypoxémie, hyponatrémie sous thiazidique, déshydratation, constipation, sonde urinaire, douleur, privation sensorielle (au choix)."
+        },
+        {
+          "question": "Faut-il prescrire un antipsychotique ?",
+          "reponse": "Non : il n'y a ni détresse ni danger ; le traitement repose sur les causes et les mesures non médicamenteuses."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management (mise à jour 2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "Tieges Z et al. Diagnostic accuracy of the 4AT. Age Ageing 2021;50(3):733-743",
+          "date": "2021"
+        },
+        {
+          "reference": "HAS. Confusion aiguë chez la personne âgée : prise en charge initiale de l'agitation. Mai 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-GERI-1504",
+      "titre": "Agitation, tremblements et hallucinations au 3e jour d'hospitalisation chez un homme de 68 ans : delirium tremens",
+      "niveau": "resident",
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme de 68 ans, hospitalisé en médecine interne d'un EPH pour une pneumopathie communautaire.",
+      "motif_consultation": "Au 3e jour d'hospitalisation, agitation nocturne, propos incohérents, tentative d'arracher sa perfusion ; il « voit des insectes sur les murs ».",
+      "antecedents": "Consommation d'alcool quotidienne importante non signalée à l'admission (révélée secondairement par la famille) ; tabagisme ; pas de démence connue.",
+      "symptomes": "Désorientation, hallucinations visuelles, anxiété majeure, insomnie, sueurs profuses.",
+      "examen_clinique": "T 38,3 °C, FC 124/min, PA 165/95 mmHg, FR 24/min, SpO2 94 % sous 2 L/min ; tremblement des extrémités, sueurs ; inattention majeure (incapable de citer les mois à l'envers) ; nystagmus horizontal ; marche non testable ; pas de signe de localisation ; pas de raideur méningée.",
+      "biologie": "Na 133 mmol/L, K 3,1 mmol/L, magnésium bas, glycémie 0,82 g/L, GGT et VGM élevés, CRP en baisse sous antibiotique, créatinine normale.",
+      "imagerie": "Radiographie thoracique : foyer lobaire inférieur droit en amélioration.",
+      "hypotheses_diagnostiques": [
+        "Delirium tremens (sevrage alcoolique)",
+        "Encéphalopathie de Gayet-Wernicke associée (nystagmus, dénutrition probable)"
+      ],
+      "diagnostics_differentiels": [
+        "Confusion d'origine infectieuse (pneumopathie, méningite)",
+        "Hypoglycémie",
+        "Hématome sous-dural (chutes éthyliques)",
+        "Encéphalopathie hépatique",
+        "Syndrome anticholinergique"
+      ],
+      "examens_a_demander": [
+        "Glycémie capillaire répétée",
+        "Ionogramme, magnésémie, phosphorémie",
+        "Bilan hépatique, TP, ammoniémie si signes d'hépatopathie",
+        "Scanner cérébral si traumatisme, signe focal ou évolution atypique",
+        "Ponction lombaire si syndrome méningé ou fièvre inexpliquée"
+      ],
+      "diagnostic_final": "Delirium tremens (confusion hyperactive de sevrage alcoolique) avec suspicion d'encéphalopathie de Gayet-Wernicke, au décours d'une pneumopathie.",
+      "traitement": "Urgence : surveillance rapprochée (idéalement en unité de soins continus) ; benzodiazépine, traitement de choix du sevrage, selon un protocole guidé par les symptômes [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; thiamine par voie parentérale avant tout apport glucosé [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; correction de l'hypokaliémie et de l'hypomagnésémie, hydratation ; poursuite de l'antibiothérapie ; mesures non médicamenteuses (environnement calme et éclairé, présence rassurante) ; éviter la contention autant que possible ; ultérieurement, prise en charge addictologique.",
+      "surveillance": "Paramètres vitaux, score de sevrage, vigilance (risque de sédation excessive et de dépression respiratoire), ionogramme, glycémie, signes neurologiques (oculomotricité, ataxie).",
+      "evolution": "Situation fictive : résolution de la confusion en 4 jours ; nystagmus régressif sous thiamine ; orientation vers une consultation d'addictologie.",
+      "explication_pedagogique": "Le sevrage alcoolique est la principale situation où les benzodiazépines sont indiquées dans une confusion ; l'alcoolisme est souvent méconnu à l'admission (interroger systématiquement). La thiamine doit précéder le glucose chez tout patient à risque de carence.",
+      "questions": [
+        {
+          "question": "Quel élément chronologique oriente vers un sevrage ?",
+          "reponse": "La survenue 48 à 72 heures après l'admission (arrêt de l'alcool), avec signes adrénergiques (tachycardie, sueurs, HTA, tremblement)."
+        },
+        {
+          "question": "Pourquoi ici une benzodiazépine alors qu'on les évite dans la confusion ?",
+          "reponse": "Parce que le sevrage alcoolique est l'exception : elles en sont le traitement de choix."
+        },
+        {
+          "question": "Quelle vitamine administrer et quand ?",
+          "reponse": "La thiamine (vitamine B1), en urgence et avant tout apport glucosé (prévention ou traitement de l'encéphalopathie de Gayet-Wernicke)."
+        },
+        {
+          "question": "Quels diagnostics associés rechercher ?",
+          "reponse": "Infection (méningite, pneumopathie), hypoglycémie, troubles ioniques, hématome sous-dural, encéphalopathie hépatique."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management (mise à jour 2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "HAS. Confusion aiguë chez la personne âgée : prise en charge initiale de l'agitation. Mai 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

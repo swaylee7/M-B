@@ -4,7 +4,12 @@ titre: "Fiche — Brucellose"
 specialite: INFE
 items_residanat: [RES-MED-008]
 dossier_source: DOS-INFE-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-INFE-0002 v1.2 et DOS-CARD-0005 v1.2 : endocardite brucellienne (aminoside initial, divergence de dose de rifampicine ESC 2015 / Ioannina 2007, chirurgie) ; attribution de la neurobrucellose corrigée."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Brucellose (RES-MED-008)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-INFE-0002 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau. Doses de doxycycline, streptomycine, gentamicine et rifampicine conformes au consensus d'Ioannina [S2] et à l'aide-mémoire OMS [S9] ; cotrimoxazole et ceftriaxone `[POSOLOGIE À VÉRIFIER — RCP / protocole national]`. Les données épidémiologiques algériennes sont `[À VÉRIFIER — relevés INSP et données des services vétérinaires]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-INFE-0002 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau. Doses de doxycycline, streptomycine, gentamicine et rifampicine conformes au consensus d'Ioannina [S2] et à l'aide-mémoire OMS [S9] ; cotrimoxazole et ceftriaxone `[POSOLOGIE À VÉRIFIER — RCP / protocole national]`. Les données épidémiologiques algériennes sont `[À VÉRIFIER — relevés INSP et données des services vétérinaires]`.
 
 ## 1. Définition (2 lignes)
 
@@ -143,8 +148,11 @@ Forme aiguë non compliquée (adulte) — 6 semaines
      → éliminer d'abord une TUBERCULOSE
 Spondylite → ≥ 12 semaines (doxycycline + streptomycine ou trithérapie)
 Neurobrucellose → ceftriaxone + doxycycline + rifampicine, ≥ 3–6 mois `[À VÉRIFIER]`
-Endocardite → doxycycline + rifampicine + aminoside (± cotrimoxazole),
-              ≥ 3–6 mois + chirurgie valvulaire fréquente `[À VÉRIFIER]`
+                  (Ioannina 2007 : aucune recommandation, données insuffisantes)
+Endocardite → doxycycline + rifampicine (± cotrimoxazole) + aminoside initial,
+              ≥ 3–6 mois + avis chirurgical précoce (chirurgie fréquente)
+              Rifampicine : 300–600 mg/j (ESC 2015) vs 600–900 mg/j (Ioannina
+              2007, forme simple) `[POSOLOGIE À VÉRIFIER — avis infectiologique]`
 Grossesse → rifampicine 600–900 mg/j 6 sem ± cotrimoxazole (pas en fin de
             grossesse) ; tétracyclines et aminosides contre-indiqués
 Enfant < 8 ans → cotrimoxazole + rifampicine 6 sem, ou cotrimoxazole +
