@@ -6,20 +6,26 @@ sous_specialite: "Gastro-entérologie pédiatrique — urgences pédiatriques"
 items_residanat: [RES-MED-074]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0001.md
 sources:
   - id: S1
-    reference: "Organisation mondiale de la Santé. The treatment of diarrhoea: a manual for physicians and other senior health workers. 4e révision. Genève : OMS ; 2005."
+    reference: "Organisation mondiale de la Santé. The treatment of diarrhoea: a manual for physicians and other senior health workers. 4e révision. Genève : OMS ; 2005. (Existence confirmée par la bibliographie de deux documents OMS acquis : AWaRe antibiotic book 2022, DOC-00039, réf. 145 ; Pocket book 2013, DOC-00063.)"
     organisme: OMS
     annee: 2005
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://apps.who.int/iris/handle/10665/43209"
+    verifiee: true
   - id: S2
     reference: "OMS/UNICEF. Déclaration commune : prise en charge clinique de la diarrhée aiguë (SRO à osmolarité réduite et zinc). 2004."
     organisme: OMS/UNICEF
@@ -29,21 +35,21 @@ sources:
     url: ""
     verifiee: false
   - id: S3
-    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses. 2e éd. Genève : OMS ; 2013."
+    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses. 2e éd. Genève : OMS ; 2013. ISBN 978 92 4 154837 3. Document acquis DOC-00063 (stockage local, non redistribuable) — texte lu par l'audit."
     organisme: OMS
     annee: 2013
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S4
-    reference: "Guarino A, Ashkenazi S, Gendrel D, Lo Vecchio A, Shamir R, Szajewska H. European Society for Pediatric Gastroenterology, Hepatology, and Nutrition/European Society for Pediatric Infectious Diseases evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014. J Pediatr Gastroenterol Nutr. 2014;59(1):132-152."
+    reference: "Guarino A, Ashkenazi S, Gendrel D, Lo Vecchio A, Shamir R, Szajewska H. European Society for Pediatric Gastroenterology, Hepatology, and Nutrition/European Society for Pediatric Infectious Diseases evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014. J Pediatr Gastroenterol Nutr. 2014;59(1):132-152. PMID 24739189 (existence confirmée par recherche web, audit AUD-01)."
     organisme: ESPGHAN/ESPID
     annee: 2014
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://pubmed.ncbi.nlm.nih.gov/24739189/"
+    verifiee: true
   - id: S5
     reference: "National Institute for Health and Care Excellence. Diarrhoea and vomiting caused by gastroenteritis in under 5s: diagnosis and management. Clinical guideline CG84. Londres : NICE ; 2009."
     organisme: NICE
@@ -53,13 +59,13 @@ sources:
     url: ""
     verifiee: false
   - id: S6
-    reference: "Organisation mondiale de la Santé. Guideline: updates on the management of severe acute malnutrition in infants and children. Genève : OMS ; 2013."
+    reference: "Organisation mondiale de la Santé. Guideline: updates on the management of severe acute malnutrition in infants and children. Genève : OMS ; 2013. (Existence confirmée par la bibliographie de DOC-00033, réf. 10 ; en partie actualisée par la ligne directrice OMS 2023 [S14].)"
     organisme: OMS
     annee: 2013
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S7
     reference: "Organisation mondiale de la Santé, UNICEF. Integrated Management of Childhood Illness (IMCI) — chart booklet. Genève : OMS ; 2014."
     organisme: OMS/UNICEF
@@ -116,6 +122,14 @@ sources:
     doi: ""
     url: ""
     verifiee: true
+  - id: S14
+    reference: "Organisation mondiale de la Santé. WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years. Genève : OMS ; 2023. ISBN 978-92-4-008283-0. Document acquis DOC-00033 (texte lu par l'audit)."
+    organisme: OMS
+    annee: 2023
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [déshydratation, nourrisson, diarrhée aiguë, gastro-entérite, SRO, soluté de réhydratation orale, plan A B C OMS, zinc, hypernatrémie, hyponatrémie, choc hypovolémique, ReSoMal, PCIME]
 ---
 
@@ -124,6 +138,7 @@ mots_cles: [déshydratation, nourrisson, diarrhée aiguë, gastro-entérite, SRO
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > **Avertissement de vérification** : lors de la rédaction (19/11/2026), le budget de recherche web de la session était épuisé avant la vérification des références internationales ; toutes les sources marquées `verifiee: false` doivent être contrôlées par l'agent d'audit des références (AUD-04). Les valeurs chiffrées issues de ces sources sont des repères pédagogiques classiques, non des citations.
+> **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : plans A/B/C, SRO, zinc, ReSoMal et remplissage du malnutri confrontés au Pocket book OMS 2013 (DOC-00063) et à la ligne directrice OMS 2023 (DOC-00033) ; ESPGHAN 2014 et manuel OMS 2005 vérifiés. Voir le rapport `00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0001.md`.
 
 **Items du programme couverts** : RES-MED-074 — « Déshydratations aiguës du nourrisson : Diagnostic - évolution - traitement ».
 
@@ -529,8 +544,8 @@ C'est une situation **spécifique**, développée dans DOS-PEDI-0003. Les points
 
 - les signes classiques sont **trompeurs** (pli et yeux enfoncés existent sans déshydratation) ; on s'appuie sur l'**histoire de pertes récentes**, le changement récent du regard, la soif, les signes de choc ;
 - le cœur du malnutri tolère mal la surcharge : **éviter la perfusion** sauf choc ;
-- réhydratation **orale ou par sonde** avec **ReSoMal** (soluté pauvre en sodium et riche en potassium), plus **lentement** que chez l'enfant bien nourri : de l'ordre de **5 mL/kg toutes les 30 minutes pendant 2 heures**, puis **5 à 10 mL/kg/h** pendant les 4 à 10 heures suivantes, en alternant avec l'alimentation F-75 [S3] ;
-- en cas de choc : soluté isotonique (Ringer lactate glucosé à 5 % ou équivalent recommandé par l'OMS) **15 mL/kg en 1 heure**, réévaluation, éventuellement répété une fois, puis relais oral ; transfusion si absence d'amélioration [S3, S6] ;
+- réhydratation **orale ou par sonde** avec **ReSoMal** (soluté pauvre en sodium et riche en potassium), plus **lentement** que chez l'enfant bien nourri : **5 mL/kg toutes les 30 minutes pendant 2 heures**, puis **5 à 10 mL/kg/h** pendant les 4 à 10 heures suivantes, en alternant avec l'alimentation F-75 [S3] ; depuis 2023, l'OMS admet le **SRO à osmolarité réduite** lorsque le ReSoMal n'est pas disponible (recommandation B7) [S14] ;
+- en cas de choc : **15 mL/kg en 1 heure** de Ringer lactate glucosé à 5 %, de soluté de Darrow demi-concentré glucosé ou, à défaut, de NaCl 0,45 % glucosé à 5 % ; si amélioration, répéter 15 mL/kg en 1 heure puis relais par ReSoMal (10 mL/kg/h, jusqu'à 10 h) ; en l'absence d'amélioration après deux bolus : soluté d'entretien (4 mL/kg/h) en attendant une **transfusion de sang total frais 10 mL/kg en 3 heures** (culot globulaire si insuffisance cardiaque) [S3, tableau 8] ;
 - surveillance rapprochée : fréquence respiratoire, fréquence cardiaque, apparition d'**œdèmes**, d'une **hépatomégalie**, de crépitants → arrêter la réhydratation.
 
 ### 10.7 Formes selon le terrain
@@ -606,17 +621,17 @@ Le pronostic dépend de la **précocité de la prise en charge**, de l'**âge** 
 
 #### 13.2.1 Solutés de réhydratation orale (SRO)
 
-| Composition (mmol/L) | SRO OMS « standard » (avant 2002) | **SRO OMS à osmolarité réduite** (recommandé) | SRO hypo-osmolaire ESPGHAN | ReSoMal (malnutrition sévère) |
+| Composition (mmol/L) | SRO OMS « standard » (avant 2002) | **SRO OMS à osmolarité réduite** (recommandé) | SRO hypo-osmolaire ESPGHAN (formule de 1992, reprise en 2014) | ReSoMal (malnutrition sévère) |
 |---|---|---|---|---|
 | Sodium | 90 | **75** | 60 | ≈ 45 |
 | Potassium | 20 | 20 | 20 | ≈ 40 |
-| Chlore | 80 | 65 | 60 | ≈ 70 |
+| Chlore | 80 | 65 | ≥ 25 | ≈ 70 |
 | Citrate (ou bicarbonate) | 10 (citrate) | 10 (citrate) | 10 (citrate) | ≈ 7 |
 | Glucose | 111 | 75 | 74–111 | ≈ 125 |
 | Osmolarité (mOsm/L) | 311 | **245** | 200–250 | ≈ 300 |
 | Sources | [S1] | [S1, S2] | [S4] | [S3, S6] |
 
-*(Valeurs à confronter aux documents sources ; la composition exacte du ReSoMal dépend de sa préparation — sachet industriel ou reconstitution à partir du SRO à osmolarité réduite.)*
+*(Valeurs à confronter aux documents sources ; la composition exacte du ReSoMal dépend de sa préparation — sachet industriel ou reconstitution à partir du SRO : environ 45 mmol de sodium, 40 mmol de potassium et 3 mmol de magnésium par litre selon le Pocket book OMS 2013 [S3].)*
 
 **Règles de préparation et d'utilisation à enseigner aux parents** :
 
@@ -647,7 +662,7 @@ Les **solutés hypotoniques** (glucosé 5 % seul, NaCl 0,18 % ou 0,2 % en glucos
 
 | Molécule | Position | Posologie indicative et commentaires |
 |---|---|---|
-| **Ondansétron** (antiémétique, anti-5-HT3) | Peut être utilisé en dose unique **par voie orale** chez l'enfant qui vomit, pour faciliter la réhydratation orale et réduire le recours à la perfusion (ESPGHAN 2014 [S4] ; essai de Freedman [S12]) | Dose orale unique de l'ordre de **0,15 mg/kg** (ou par tranches de poids dans l'essai princeps : 2 mg pour 8–15 kg, 4 mg pour 15–30 kg, 8 mg au-delà) **[POSOLOGIE À VÉRIFIER — RCP / protocole local ; statut d'AMM variable selon les pays, risque d'allongement du QT, non étudié chez le nourrisson de moins de 6 mois]** |
+| **Ondansétron** (antiémétique, anti-5-HT3) | Peut être utilisé en dose unique **par voie orale** chez l'enfant qui vomit, pour faciliter la réhydratation orale et réduire le recours à la perfusion (ESPGHAN 2014 [S4] ; essai de Freedman [S12]) | Dose orale unique de l'ordre de **0,15 mg/kg** (ou par tranches de poids dans l'essai princeps : 2 mg pour 8–15 kg, 4 mg pour 15–30 kg, 8 mg au-delà) **[POSOLOGIE À VÉRIFIER — RCP / protocole local ; statut d'AMM variable selon les pays, risque d'allongement du QT, non étudié chez le nourrisson de moins de 6 mois]**. L'ESPGHAN 2014 le juge efficace sur les vomissements mais subordonne son usage **systématique** à une clarification de sa sécurité (alerte sur le QT) [S4] |
 | **Métoclopramide, dompéridone, antihistaminiques** | **Non recommandés** chez le nourrisson (effets indésirables extrapyramidaux, cardiaques, sédation) | — |
 | **Lopéramide** | **Contre-indiqué** chez le nourrisson (iléus, dépression respiratoire) | — |
 | **Racécadotril** (antisécrétoire, inhibiteur de l'enképhalinase) | Peut être envisagé selon l'ESPGHAN 2014 [S4] ; non retenu par l'OMS | Posologie usuelle citée : **1,5 mg/kg trois fois par jour** **[POSOLOGIE À VÉRIFIER — RCP]** |
@@ -912,12 +927,12 @@ A. Le ReSoMal est le soluté recommandé — B. Environ 5 mL/kg toutes les 30 mi
 
 ## 22. Références
 
-1. [S1] OMS. *The treatment of diarrhoea: a manual for physicians and other senior health workers*, 4ᵉ révision, 2005. — non vérifiée en session.
+1. [S1] OMS. *The treatment of diarrhoea: a manual for physicians and other senior health workers*, 4ᵉ révision, 2005. — **vérifiée** (existence, audit 19/11/2026 : bibliographies de DOC-00039 et DOC-00063).
 2. [S2] OMS/UNICEF. Déclaration commune sur la prise en charge clinique de la diarrhée aiguë (SRO à osmolarité réduite et zinc), 2004. — non vérifiée en session.
-3. [S3] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013. — non vérifiée en session.
-4. [S4] Guarino A, et al. ESPGHAN/ESPID guidelines for the management of acute gastroenteritis in children in Europe: update 2014. *J Pediatr Gastroenterol Nutr* 2014;59(1):132-152. — non vérifiée en session.
+3. [S3] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013. — **vérifiée** (DOC-00063, texte lu par l'audit).
+4. [S4] Guarino A, et al. ESPGHAN/ESPID guidelines for the management of acute gastroenteritis in children in Europe: update 2014. *J Pediatr Gastroenterol Nutr* 2014;59(1):132-152. — **vérifiée** (PMID 24739189, audit 19/11/2026).
 5. [S5] NICE. CG84 — *Diarrhoea and vomiting caused by gastroenteritis in under 5s*, 2009. — non vérifiée en session.
-6. [S6] OMS. *Guideline: updates on the management of severe acute malnutrition in infants and children*, 2013. — non vérifiée en session.
+6. [S6] OMS. *Guideline: updates on the management of severe acute malnutrition in infants and children*, 2013. — **vérifiée** (existence : bibliographie de DOC-00033).
 7. [S7] OMS/UNICEF. *IMCI chart booklet*, 2014. — non vérifiée en session.
 8. [S8] Holliday MA, Segar WE. *Pediatrics* 1957;19(5):823-832. — non vérifiée en session.
 9. [S9] Feld LG, et al. AAP clinical practice guideline: maintenance intravenous fluids in children. *Pediatrics* 2018;142(6):e20183083. — non vérifiée en session.
@@ -925,3 +940,4 @@ A. Le ReSoMal est le soluté recommandé — B. Environ 5 mL/kg toutes les 30 mi
 11. [S11] Friedman JN, et al. Clinical dehydration scale. *J Pediatr* 2004;145(2):201-207. — non vérifiée en session.
 12. [S12] Freedman SB, et al. Oral ondansetron for gastroenteritis. *N Engl J Med* 2006;354(16):1698-1705. — non vérifiée en session.
 13. [S13] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **DOC-00070, texte lu** (complété par l'arrêté du 28 avril 2026, JORADP n° 36 du 17 mai 2026, DOC-00071).
+14. [S14] OMS. *WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years*, 2023 — **vérifiée** (DOC-00033, texte lu par l'audit).

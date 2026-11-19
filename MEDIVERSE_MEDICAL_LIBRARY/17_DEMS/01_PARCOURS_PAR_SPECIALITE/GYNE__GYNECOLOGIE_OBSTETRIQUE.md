@@ -101,7 +101,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes avec réalisation des interventions d'urgence de base **en premier opérateur sous supervision**.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Ministère de la Santé (Algérie) — programme national de périnatalité et de lutte contre la mortalité maternelle (textes en vigueur à acquérir)
 - CNGOF (France) — thèmes obstétricaux et gynécologiques
@@ -134,7 +133,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en premier opérateur pour les urgences courantes ; senior présent pour les cas complexes.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - FIGO / RCOG / ACOG — pré-éclampsie, accouchement prématuré, hémorragies
 - OMS — dépistage du cancer du col (catalogue)
@@ -163,7 +161,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - **Gestion de la garde** : tri des urgences, décisions opératoires, coordination avec l'anesthésie-réanimation.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Approfondir les recommandations des années précédentes et leurs mises à jour.
 
@@ -190,7 +187,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Autonomie de garde sous contrôle a posteriori ; encadrement des juniors.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
@@ -235,7 +231,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 60 (codes GYNE, OBST) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 10 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (30)
+**Recommandations cataloguées** : 29 en vigueur (+ 1 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0002 — Arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026 complétant l'arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (Ministère de la santé — Algérie, 2026-05 (JORADP n°36 du 17 mai 2026 ; arrêté signé le 28 avril 2026) ; statut : actuelle)
 - REC-0006 — Décret exécutif n°24-366 du 7 novembre 2024 relatif au certificat médical et aux examens et analyses prénuptiaux (Gouvernement algérien (rapport conjoint du ministre de la justice et du ministre de la santé), 2024-11 (JORADP n°76 du 13 novembre 2024) ; statut : actuelle)
 - REC-0269 — Sexually Transmitted Infections Treatment Guidelines, 2021 (CDC, 2021-07 ; statut : actuelle)
@@ -264,7 +260,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0450 — Placenta Praevia and Placenta Accreta: Diagnosis and Management: Green-top Guideline No. 27a (RCOG, 2018-09 ; statut : actuelle)
 - REC-0454 — ACOG Practice Bulletin No. 190: Gestational Diabetes Mellitus (ACOG, 2018-02 ; statut : actuelle)
 - REC-0456 — WHO recommendations on antenatal care for a positive pregnancy experience (OMS, 2016-11 ; statut : actuelle)
-- REC-0516 — Hémorragies du post-partum immédiat (HAS (Haute Autorité de santé), 2004-11 ; statut : remplacee)
 - REC-0517 — Allaitement maternel - Mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant (HAS (Haute Autorité de santé), 2002-05 ; statut : actuelle)
 
 **Documents acquis (registre)** (10)

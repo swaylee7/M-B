@@ -6,11 +6,23 @@ sous_specialite: "Cardiopathie ischémique — SCA"
 items_residanat: [RES-MED-056]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_valide
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0003.md
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0003.md
+    remarque: "Antithrombotiques, ténectéplase selon le poids, altéplase, rétéplase, anticoagulants (primo-angioplastie et fibrinolyse) confrontés aux tableaux ESC 2017/2023 : conformes. Marqueurs levés : streptokinase, statines de forte intensité, colchicine."
 sources:
   - id: S1
     reference: "Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-3826."
@@ -79,7 +91,7 @@ mots_cles: [infarctus du myocarde, STEMI, SCA ST+, définition universelle, trop
 # Infarctus du myocarde — syndrome coronarien aigu avec sus-décalage du segment ST
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité et validé par l'IA (AUD-01/AUD-02, 2026-11-19)** — relecture par un enseignant qualifié encore nécessaire ; quelques points secondaires restent marqués `[À VÉRIFIER]` (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-056 — *Infarctus du myocarde : épidémiologie, étiologie, physiopathologie, anatomie, diagnostic, évolution, traitement.* Les SCA sans sus-décalage de ST font l'objet du dossier DOS-CARD-0004 (RES-MED-057).
 
@@ -159,7 +171,7 @@ La **cardiopathie ischémique est la première cause de décès dans le monde**.
 
 - **Aucun registre national publié du SCA ST+** n'a pu être identifié et vérifié pendant la rédaction `[À VÉRIFIER — registres de la Société algérienne de cardiologie, CHU]`.
 - Le **terrain de risque** est lourd : l'analyse des données STEPS 2016–2017 retrouve une HTA chez 31,6 % des adultes de 18 à 69 ans, avec un rôle de l'obésité abdominale et de l'hypercholestérolémie [S6]. Les chiffres nationaux de diabète et de tabagisme issus de cette enquête sont à reprendre sur le fascicule officiel `[À VÉRIFIER]`.
-- Des travaux régionaux suggèrent que **la majorité des patients consultent d'abord une structure ne disposant ni d'angioplastie ni de fibrinolyse**, avec des **délais** importants [S7 — référence incomplète, à vérifier]. L'organisation en **réseau** (régulation pré-hospitalière, fibrinolyse précoce, transfert) est donc un enjeu majeur.
+- Un travail régional (Blida), dont la référence n'a pas pu être vérifiée, rapporte des **délais de prise en charge importants** et un premier recours fréquent à des structures non équipées [S7 — référence incomplète, non vérifiée ; proportions non reprises ici] `[À VÉRIFIER]`. L'organisation en **réseau** (régulation pré-hospitalière, fibrinolyse précoce, transfert) est donc un enjeu majeur.
 
 ### 3.3 Facteurs de risque cardiovasculaire
 
@@ -431,7 +443,7 @@ Examen diagnostique et thérapeutique (angioplastie primaire) : localisation de 
 | **Rupture septale (CIV)** | J2–J7 | Souffle holosystolique nouveau, choc, IC droite | Stabilisation (assistance), **chirurgie** ou fermeture percutanée |
 | **Rupture de pilier mitral** | J2–J7 (souvent infarctus inférieur, pilier postéro-médian) | **OAP brutal**, souffle d'insuffisance mitrale (parfois discret) | **Chirurgie urgente** |
 | Péricardite précoce | J2–J4 | Douleur positionnelle, frottement | Aspirine ; éviter les autres AINS et les corticoïdes en phase précoce |
-| **Thrombus intraventriculaire gauche** | Premières semaines (infarctus antérieur étendu) | Échocardiographie, IRM | Anticoagulation orale (durée de l'ordre de 3–6 mois, à réévaluer) `[À VÉRIFIER]` |
+| **Thrombus intraventriculaire gauche** | Premières semaines (infarctus antérieur étendu) | Échocardiographie, IRM | Anticoagulation orale (AVK ou AOD) **3 à 6 mois**, guidée par l'imagerie de contrôle (ESC 2023, classe IIa [S1]) ; en association aux antiplaquettaires, triple thérapie la plus courte possible avec clopidogrel |
 | Récidive ischémique / réocclusion / thrombose de stent | Variable | Nouvelle douleur, nouveau sus-décalage | Coronarographie urgente |
 | Complications hémorragiques | Sous antithrombotiques | Point de ponction, digestives, intracrâniennes | Prévention (voie radiale, IPP, adaptation des doses) |
 
@@ -489,7 +501,7 @@ Avec la fibrinolyse : aspirine + **clopidogrel 300 mg** (**75 mg sans dose de ch
 
 **Prétraitement** (inhibiteur du P2Y12 avant la coronarographie) : **peut être envisagé** dans le SCA ST+ allant à l'angioplastie primaire [S1].
 
-**Durée** : **double antiagrégation plaquettaire (DAPT) de 12 mois** par défaut ; stratégies raccourcies ou de désescalade chez les patients à haut risque hémorragique ; inhibiteur du P2Y12 en monothérapie après 1 à 6 mois envisageable chez certains patients [S1]. **Inhibiteur de la pompe à protons** associé en cas de risque hémorragique digestif.
+**Durée** : **double antiagrégation plaquettaire (DAPT) de 12 mois** par défaut ; chez le patient sans événement après 3 à 6 mois et sans haut risque ischémique, passage à une monothérapie (de préférence par inhibiteur du P2Y12) à envisager (IIa) ; chez le patient à haut risque hémorragique, monothérapie après 1 mois de DAPT envisageable (IIb) ; désescalade (passage au clopidogrel) comme alternative (IIb) [S1]. **Inhibiteur de la pompe à protons** associé en cas de risque hémorragique digestif.
 
 #### 13.2.4 Anticoagulants (ESC 2023 [S1])
 
@@ -515,7 +527,7 @@ Avec la fibrinolyse : aspirine + **clopidogrel 300 mg** (**75 mg sans dose de ch
 
 Chez les patients de **75 ans et plus**, une **demi-dose** de ténectéplase doit être envisagée [S1].
 
-Autres fibrinolytiques : **altéplase** (15 mg IV en bolus, puis 0,75 mg/kg en 30 min [≤ 50 mg], puis 0,5 mg/kg en 60 min [≤ 35 mg]) ; **rétéplase** (10 U + 10 U IV à 30 min d'intervalle) [S3] ; streptokinase (non spécifique de la fibrine, allergisante, non réadministrable) `[POSOLOGIE À VÉRIFIER — RCP ; disponibilité en Algérie À VÉRIFIER]`.
+Autres fibrinolytiques : **altéplase** (15 mg IV en bolus, puis 0,75 mg/kg en 30 min [≤ 50 mg], puis 0,5 mg/kg en 60 min [≤ 35 mg]) ; **rétéplase** (10 U + 10 U IV à 30 min d'intervalle) [S3] ; streptokinase (non spécifique de la fibrine, allergisante, non réadministrable) : **1,5 million d'UI IV en 30 à 60 minutes** (posologie du RCP ; avec la streptokinase, l'anticoagulant associé peut être le fondaparinux 2,5 mg IV puis 2,5 mg SC/24 h [S3]) — vérification AUD-02 ; disponibilité en Algérie `[À VÉRIFIER]`.
 
 **Contre-indications de la fibrinolyse** [S1, S3] :
 
@@ -543,18 +555,18 @@ Autres fibrinolytiques : **altéplase** (15 mg IV en bolus, puis 0,75 mg/kg en 3
 
 | Traitement | Indication | Modalités |
 |---|---|---|
-| **Statine de forte intensité** | **Tous**, le plus tôt possible | Atorvastatine 40–80 mg ou rosuvastatine 20–40 mg `[POSOLOGIE À VÉRIFIER — RCP]` ; objectif **LDL-c < 1,4 mmol/L (0,55 g/L) et baisse ≥ 50 %** |
+| **Statine de forte intensité** | **Tous**, le plus tôt possible | Atorvastatine 40–80 mg/j ou rosuvastatine 20–40 mg/j (définition standard de la statine de forte intensité, conforme aux RCP — vérification AUD-02) ; objectif **LDL-c < 1,4 mmol/L (0,55 g/L) et baisse ≥ 50 %** |
 | Ézétimibe | LDL non contrôlé sous statine maximale tolérée (après 4–6 semaines) | 10 mg/j `[RCP]` |
 | Inhibiteur de PCSK9 | LDL non contrôlé sous statine + ézétimibe | Spécialisé |
 | **Bêtabloquant** | **FEVG ≤ 40 %** (recommandé) ; envisagé chez tous les autres patients | Bêtabloquant IV précoce envisageable chez les patients sans IC, PAS > 120 mmHg, allant à l'angioplastie |
 | **IEC** (ou ARA II) | IC, **FEVG ≤ 40 %**, diabète, HTA, maladie rénale chronique (recommandé) ; envisagé chez tous | Titration progressive |
 | **ARM** (éplérénone) | **FEVG ≤ 40 % avec IC ou diabète** | Surveillance kaliémie |
-| Colchicine à faible dose | Peut être envisagée (risque résiduel inflammatoire) | 0,5 mg/j `[POSOLOGIE À VÉRIFIER — RCP]` |
+| Colchicine à faible dose | Peut être envisagée (classe IIb [S1]), surtout si facteurs de risque insuffisamment contrôlés ou récidive sous traitement optimal | 0,5 mg × 1/j (dose des essais COLCOT et LoDoCo2, reprise par l'ESC 2023 — vérification AUD-02) ; prudence en insuffisance rénale sévère et avec les inhibiteurs puissants du CYP3A4/de la P-gp |
 | Traitements de l'IC (iSGLT2, ARNI…) | Si IC ou FEVG réduite | Selon les recommandations IC [S5] |
 | **Réadaptation cardiaque**, arrêt du tabac, activité physique, alimentation | Tous | Programmes structurés |
 | Vaccination antigrippale | Tous | — |
 
-**Données récentes sur les bêtabloquants** : plusieurs essais publiés après 2023 ont réévalué l'intérêt d'un bêtabloquant systématique après infarctus à FEVG préservée ; leurs conclusions et leur intégration dans les recommandations sont **à vérifier** avant d'être enseignées `[À VÉRIFIER]`.
+**Données récentes sur les bêtabloquants** : plusieurs essais randomisés publiés en 2024–2025 (notamment REDUCE-AMI, ABYSS, REBOOT, BETAMI-DANBLOCK) ont réévalué l'intérêt d'un bêtabloquant systématique après infarctus revascularisé à FEVG préservée, avec des résultats discordants selon la FEVG (≥ 50 % ou 40–49 %) ; leurs résultats détaillés et leur intégration dans les recommandations ne sont pas repris ici `[À VÉRIFIER — références primaires non citées]`. Pour l'examen, retenir la position ESC 2023 (recommandé si FEVG ≤ 40 %, à envisager chez les autres).
 
 ### 13.3 Stratégie : arbre de reperfusion (ESC 2023 [S1])
 
@@ -590,7 +602,7 @@ Douleur thoracique + ECG : SCA ST+ (ou équivalent) — symptômes ≤ 12 h
 ### 13.4 Particularités algériennes
 
 - **Accès à l'angioplastie primaire** : le nombre et la répartition des salles de cathétérisme disponibles 24 h/24 n'ont pas pu être vérifiés `[À VÉRIFIER — MSPRH, Société algérienne de cardiologie]`. Dans les wilayas éloignées d'un centre interventionnel, la **fibrinolyse précoce suivie d'un transfert (stratégie pharmaco-invasive)** est souvent la seule option compatible avec les délais recommandés.
-- **Délais** : les retards au premier contact et le passage par des structures non équipées sont signalés par des travaux régionaux [S7, à vérifier] ; l'**éducation du public** (appeler les secours pour toute douleur thoracique prolongée) et la **régulation pré-hospitalière** sont prioritaires.
+- **Délais** : les retards au premier contact et le passage par des structures non équipées sont signalés par un travail régional dont la référence n'a pas pu être vérifiée [S7] ; l'**éducation du public** (appeler les secours pour toute douleur thoracique prolongée) et la **régulation pré-hospitalière** sont prioritaires.
 - **Molécules** : disponibilité de la ténectéplase, de la streptokinase, du prasugrel, du ticagrélor, de la bivalirudine `[À VÉRIFIER — nomenclature nationale, PCH]`. Le clopidogrel reste l'inhibiteur du P2Y12 de référence avec la fibrinolyse.
 - **Réadaptation cardiaque** : offre limitée et inégalement répartie `[À VÉRIFIER]` ; les conseils d'activité physique et l'arrêt du tabac doivent être assurés en consultation.
 
@@ -966,6 +978,8 @@ Concernant le traitement de sortie après un SCA ST+ avec FEVG à 35 % et signes
 4. **[S4]** Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. *Circulation.* 2025. doi:10.1161/CIR.0000000000001309 ; *J Am Coll Cardiol.* 2025;85(22):2135-2237. — *Vérifiée (contenu via résumés).*
 5. **[S5]** McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for heart failure. *Eur Heart J.* 2021;42(36):3599-3726. doi:10.1093/eurheartj/ehab368. — *Vérifiée ; remplacée par ESC 2026.*
 6. **[S6]** Moussouni A, et al. *BMC Public Health.* 2022;22(1):1571. doi:10.1186/s12889-022-13942-y. — *Vérifiée.*
-7. **[S7]** Étude sur le profil des patients consultant tardivement pour SCA (région de Blida) — résumé, em-consulte. — *Non vérifiée (métadonnées incomplètes).*
+7. **[S7]** Étude sur le profil des patients consultant tardivement pour SCA (région de Blida) — résumé, em-consulte. — *Non vérifiée (métadonnées incomplètes) ; source secondaire non majeure, aucun chiffre n'en est repris.*
+
+> **Note d'audit (AUD-01/AUD-02, 2026-11-19)** : posologies antithrombotiques et fibrinolytiques confrontées aux tableaux ESC 2017/2023 (conformes) ; corrections et points restant à vérifier détaillés dans `00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0003.md`.
 
 > **Note de l'agent** : les posologies des antithrombotiques et fibrinolytiques proviennent des tableaux des recommandations ESC 2017/2023, restitués de mémoire (texte intégral non consulté pendant la session) : **audit prioritaire** sur les documents originaux et les RCP.

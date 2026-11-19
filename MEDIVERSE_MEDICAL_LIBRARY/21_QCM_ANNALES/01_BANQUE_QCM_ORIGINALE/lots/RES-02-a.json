@@ -4151,6 +4151,2300 @@
       "statut": "brouillon_a_auditer",
       "auteur": "RES-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la transmission mendélienne des caractères, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La loi de ségrégation prévoit que les deux allèles d'un gène se séparent lors de la formation des gamètes.",
+        "B": "Le croisement de deux individus hétérozygotes pour un gène autosomique donne, pour un caractère dominant, un rapport phénotypique de 3 pour 1.",
+        "C": "La loi d'assortiment indépendant s'applique aux gènes situés sur des chromosomes différents (ou très distants sur un même chromosome).",
+        "D": "Un allèle récessif ne s'exprime phénotypiquement qu'à l'état hétérozygote.",
+        "E": "Chez un hétérozygote, les deux allèles s'expriment toujours de façon intermédiaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les lois de Mendel décrivent la transmission des caractères monofactoriels : loi d'uniformité des hybrides de première génération, loi de ségrégation des allèles (chaque gamète reçoit un allèle), loi d'assortiment indépendant (pour des gènes non liés). Un croisement d'hétérozygotes (Aa × Aa) donne un rapport génotypique 1:2:1 et, pour une dominance complète, un rapport phénotypique 3:1. Les relations entre allèles peuvent être plus complexes : dominance incomplète, codominance (groupes sanguins AB), allèles multiples. Ces principes fondent l'analyse des arbres généalogiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : Chaque gamète ne reçoit qu'un seul des deux allèles (première loi de Mendel).",
+        "B": "Vrai : Trois individus présentant le phénotype dominant pour un présentant le phénotype récessif.",
+        "C": "Vrai : Les gènes liés (proches sur un même chromosome) ne s'assortissent pas indépendamment.",
+        "D": "Faux : Un allèle récessif ne s'exprime qu'à l'état homozygote (ou hémizygote chez le garçon pour un gène lié à l'X) ; à l'état hétérozygote, c'est l'allèle dominant qui s'exprime.",
+        "E": "Faux : L'expression intermédiaire caractérise la codominance ou la dominance incomplète ; dans une relation dominant/récessif classique, seul l'allèle dominant s'exprime."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-023"
+      ],
+      "theme": "Lois de Mendel",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre dominance incomplète/codominance et relation dominant/récessif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hérédité récessive liée au chromosome X, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les garçons hémizygotes atteints sont plus fréquents que les filles atteintes.",
+        "B": "Il n'y a pas de transmission père-fils.",
+        "C": "Une femme conductrice transmet la mutation à la moitié de ses fils (atteints) et à la moitié de ses filles (conductrices).",
+        "D": "Toutes les filles d'un homme atteint sont indemnes et non conductrices.",
+        "E": "Un trait récessif lié à l'X saute systématiquement toutes les générations."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Dans l'hérédité récessive liée à l'X, la mutation siège sur le chromosome X : les garçons (hémizygotes) sont atteints dès qu'ils héritent l'allèle muté, les filles le sont rarement (homozygotie exceptionnelle). Caractéristiques de l'arbre généalogique : prédominance masculine, absence de transmission père-fils, transmission par les femmes conductrices (la moitié des fils atteints, la moitié des filles conductrices), filles d'un homme atteint toutes conductrices. Exemples : hémophilies A et B, myopathie de Duchenne, daltonisme. L'hérédité dominante liée à l'X (atteinte des deux sexes, pas de transmission père-fils) obéit à d'autres règles.",
+      "explications_par_proposition": {
+        "A": "Vrai : Un seul allèle muté suffit chez le garçon (un seul X), alors que la fille doit être homozygote.",
+        "B": "Vrai : Le père transmet son Y à ses fils ; il transmet son X (porteur de la mutation) à toutes ses filles, qui deviennent conductrices.",
+        "C": "Vrai : Transmission caractéristique, par exemple de l'hémophilie ou de la myopathie de Duchenne.",
+        "D": "Faux : Toutes les filles d'un homme atteint reçoivent son X muté et sont donc conductrices obligatoires.",
+        "E": "Faux : Il peut paraître sauter des générations (femmes conductrices asymptomatiques), mais la transmission suit une logique précise, non un saut systématique."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-023"
+      ],
+      "theme": "Hérédité liée au sexe",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier que toutes les filles d'un homme atteint sont conductrices obligatoires.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5011",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un couple sain a eu un enfant atteint d'une maladie autosomique récessive. Quel est le risque que leur prochain enfant soit atteint ?",
+      "propositions": {
+        "A": "50 %.",
+        "B": "100 %.",
+        "C": "25 %.",
+        "D": "2 %.",
+        "E": "0 %."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Dans une maladie autosomique récessive, l'enfant atteint est homozygote pour l'allèle muté ; ses deux parents sains sont donc hétérozygotes obligatoires. Le croisement Aa × Aa donne, à chaque grossesse, un risque de 1/4 (25 %) d'enfant atteint, 1/2 de porteur sain et 1/4 d'homozygote sain ; parmi les enfants sains, deux tiers sont porteurs. Ce risque de 25 % est indépendant à chaque grossesse. La consanguinité augmente la probabilité que les deux parents portent le même allèle muté. Ces notions sont essentielles au conseil génétique.",
+      "explications_par_proposition": {
+        "A": "Faux : C'est le risque d'un enfant hétérozygote atteint dans une transmission autosomique dominante avec un parent atteint.",
+        "B": "Faux : Aucun des deux parents n'étant atteint, le risque n'est pas de 100 %.",
+        "C": "Vrai : Les deux parents sont hétérozygotes obligatoires : le croisement Aa × Aa donne un quart d'homozygotes récessifs atteints.",
+        "D": "Faux : Confusion avec une estimation de risque populationnel, sans rapport avec ce croisement.",
+        "E": "Faux : Le risque n'est pas nul : les deux parents sont conducteurs."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-023"
+      ],
+      "theme": "Risque de récurrence en hérédité autosomique récessive",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer un risque de 50 % (schéma dominant) à une maladie récessive.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hérédité autosomique dominante, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les deux sexes sont atteints et peuvent transmettre la maladie.",
+        "B": "La transmission père-fils est possible.",
+        "C": "Un sujet atteint hétérozygote a un risque de 50 % de transmettre l'allèle muté à chaque enfant.",
+        "D": "Une maladie autosomique dominante saute toujours une génération.",
+        "E": "La pénétrance incomplète signifie que la maladie est toujours mortelle avant l'âge adulte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'hérédité autosomique dominante se caractérise par une transmission verticale, l'atteinte des deux sexes, la possibilité de transmission père-fils et un risque de 50 % à chaque grossesse pour un parent atteint hétérozygote. Deux notions nuancent le tableau : la pénétrance (proportion de porteurs exprimant le phénotype) et l'expressivité (variabilité de sévérité entre porteurs). S'y ajoutent les mutations de novo (sujet atteint sans antécédent familial) et l'anticipation de certaines maladies à répétitions de triplets. Exemples : achondroplasie, maladie de Huntington, neurofibromatose de type 1.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le gène étant autosomique, hommes et femmes sont également concernés.",
+        "B": "Vrai : Elle permet de distinguer une hérédité autosomique dominante d'une hérédité dominante liée à l'X.",
+        "C": "Vrai : Croisement Aa × aa.",
+        "D": "Faux : En règle, elle ne saute pas de génération (transmission verticale), sauf en cas de pénétrance incomplète ou d'expressivité variable.",
+        "E": "Faux : La pénétrance est la proportion de porteurs de la mutation qui expriment la maladie ; une pénétrance incomplète signifie que certains porteurs restent indemnes."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-023"
+      ],
+      "theme": "Hérédité autosomique dominante",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre pénétrance (expression ou non) et expressivité (degré d'expression).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la reconnaissance des modes de transmission sur un arbre généalogique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une transmission verticale atteignant les deux sexes, de génération en génération, évoque une hérédité autosomique dominante.",
+        "B": "Une transmission maternelle exclusive à toute la descendance évoque une hérédité mitochondriale.",
+        "C": "L'absence de transmission père-fils associée à une prédominance masculine évoque une hérédité récessive liée à l'X.",
+        "D": "Une maladie autosomique récessive se transmet typiquement de façon verticale sur plusieurs générations.",
+        "E": "Dans l'hérédité mitochondriale, un homme atteint transmet la maladie à la moitié de ses enfants."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'analyse de l'arbre généalogique repose sur quelques repères : atteinte des deux sexes ou prédominance d'un sexe, transmission verticale (dominant) ou horizontale (récessif), présence ou non de transmission père-fils, transmission maternelle exclusive (mitochondriale). L'hérédité mitochondriale se reconnaît à la transmission par les femmes à toute leur descendance et à l'absence de transmission par les hommes, avec une expression variable (hétéroplasmie, effet de seuil). Pénétrance incomplète, expressivité variable, mutations de novo et empreinte compliquent parfois l'interprétation. Le conseil génétique intègre ces éléments.",
+      "explications_par_proposition": {
+        "A": "Vrai : Surtout en présence d'une transmission père-fils.",
+        "B": "Vrai : L'ADN mitochondrial est transmis par l'ovocyte ; un homme atteint ne transmet pas la maladie.",
+        "C": "Vrai : Le père ne transmet pas son X à ses fils.",
+        "D": "Faux : Elle se transmet plutôt de façon horizontale (atteinte dans une même fratrie), souvent avec consanguinité et sans atteinte des générations précédentes.",
+        "E": "Faux : Un homme atteint ne transmet pas une maladie mitochondriale : la transmission est exclusivement maternelle."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-024"
+      ],
+      "theme": "Modes de transmission : reconnaissance sur l'arbre généalogique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à une maladie mitochondriale une transmission paternelle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les particularités de certaines transmissions héréditaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Dans les maladies par expansion de triplets, le phénomène d'anticipation se traduit par une aggravation et une survenue plus précoce au fil des générations.",
+        "B": "L'ADN mitochondrial est soumis à l'hétéroplasmie, coexistence de molécules mutées et normales dans une même cellule.",
+        "C": "Une maladie multifactorielle résulte de l'interaction de plusieurs gènes et de facteurs environnementaux.",
+        "D": "Le mosaïcisme correspond à la présence, chez un même individu, de plusieurs populations cellulaires de génotypes différents.",
+        "E": "Les maladies multifactorielles ont un risque de récurrence fixe de 25 %."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Au-delà des transmissions mendéliennes classiques existent des particularités : hérédité mitochondriale (transmission maternelle, hétéroplasmie, effet de seuil), maladies par expansion de répétitions (anticipation), empreinte génomique, mosaïcisme (populations cellulaires distinctes après un événement post-zygotique) et surtout hérédité multifactorielle (gènes de prédisposition et environnement, risque de récurrence empirique). Ces modèles expliquent de nombreuses maladies fréquentes et imposent un conseil génétique adapté, fondé sur des risques empiriques plutôt que sur les proportions mendéliennes.",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemples : maladie de Huntington, dystrophie myotonique de Steinert.",
+        "B": "Vrai : Le phénotype dépend de la proportion de molécules mutées (effet de seuil).",
+        "C": "Vrai : Exemples : diabète de type 2, malformations du tube neural ; le risque de récurrence ne suit pas les lois de Mendel.",
+        "D": "Vrai : Il résulte d'un événement post-zygotique (mutation ou anomalie chromosomique survenant après la fécondation).",
+        "E": "Faux : Leur risque de récurrence est empirique, variable, généralement plus faible, et augmente avec le nombre d'apparentés atteints et la sévérité."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-024"
+      ],
+      "theme": "Hérédités non mendéliennes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer un risque mendélien fixe à une maladie multifactorielle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5015",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un homme est atteint d'une maladie due à une mutation de l'ADN mitochondrial. Quel est le risque qu'il la transmette à ses enfants ?",
+      "propositions": {
+        "A": "50 %.",
+        "B": "25 %.",
+        "C": "Nul (il ne la transmet pas).",
+        "D": "100 %.",
+        "E": "50 % des garçons seulement."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "L'ADN mitochondrial est transmis par la mère : l'ovocyte apporte les mitochondries du zygote, les mitochondries du spermatozoïde étant éliminées. Une femme porteuse d'une mutation mitochondriale la transmet donc à toute sa descendance (avec une expression variable liée à l'hétéroplasmie et à l'effet de seuil), tandis qu'un homme atteint ne la transmet pas. Cette transmission maternelle stricte distingue les maladies mitochondriales des maladies mendéliennes. Des exemples sont la neuropathie optique de Leber et certaines encéphalomyopathies (MELAS, MERRF).",
+      "explications_par_proposition": {
+        "A": "Faux : Ce serait le risque d'une transmission autosomique dominante.",
+        "B": "Faux : Ce serait le risque d'une transmission autosomique récessive.",
+        "C": "Vrai : L'ADN mitochondrial provient de l'ovocyte ; un homme atteint ne transmet pas la mutation à sa descendance.",
+        "D": "Faux : Seule une femme atteinte transmet la mutation à toute sa descendance.",
+        "E": "Faux : Il n'existe pas de transmission liée au sexe pour l'ADN mitochondrial dans ce contexte."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-024"
+      ],
+      "theme": "Hérédité d'une maladie mitochondriale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer un schéma mendélien à une maladie de transmission maternelle stricte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hérédité autosomique récessive chez l'homme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les sujets atteints sont homozygotes pour l'allèle muté.",
+        "B": "La consanguinité augmente la fréquence des sujets atteints.",
+        "C": "La transmission est le plus souvent horizontale, les parents étant généralement indemnes.",
+        "D": "Les deux sexes sont atteints avec une fréquence comparable.",
+        "E": "Un sujet atteint transmet toujours la maladie à tous ses enfants."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'hérédité autosomique récessive se caractérise par des sujets atteints homozygotes, des parents en général hétérozygotes sains, une transmission horizontale (fratrie), l'atteinte égale des deux sexes et un rôle favorisant de la consanguinité. Le risque de récurrence pour un couple de deux hétérozygotes est de 25 % à chaque grossesse. Un sujet atteint, s'il s'unit à un conjoint non porteur, aura des enfants tous porteurs sains. Exemples : mucoviscidose, drépanocytose, bêta-thalassémie, nombreuses maladies métaboliques. Le dépistage des hétérozygotes et le conseil génétique sont essentiels dans les populations à risque.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les deux allèles sont mutés ; les hétérozygotes sont des porteurs sains.",
+        "B": "Vrai : Elle augmente la probabilité que deux apparentés transmettent le même allèle muté hérité d'un ancêtre commun.",
+        "C": "Vrai : Les atteintes se concentrent dans une même fratrie, sans antécédents aux générations antérieures.",
+        "D": "Vrai : Le gène étant autosomique, hommes et femmes sont également concernés.",
+        "E": "Faux : Un sujet atteint transmet un allèle muté à tous ses enfants, mais ceux-ci ne sont atteints que si l'autre parent transmet aussi un allèle muté ; sinon ils sont porteurs sains."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-024"
+      ],
+      "theme": "Caractéristiques de l'hérédité autosomique récessive",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un sujet atteint transmet forcément la maladie à ses enfants : cela dépend du génotype du conjoint.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la réplication de l'ADN, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La réplication est semi-conservative.",
+        "B": "L'ADN polymérase synthétise le nouveau brin dans le sens 5' vers 3'.",
+        "C": "Le brin retardé (discontinu) est synthétisé sous forme de fragments d'Okazaki.",
+        "D": "La réplication nécessite une amorce (primer) d'ARN.",
+        "E": "Les deux brins de la double hélice sont parallèles et de même polarité."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La réplication de l'ADN, semi-conservative, se déroule aux fourches de réplication à partir d'origines. L'hélicase ouvre la double hélice ; la primase pose des amorces d'ARN ; l'ADN polymérase allonge les brins dans le sens 5' vers 3', de façon continue sur le brin avancé et par fragments d'Okazaki sur le brin retardé, réunis par l'ADN ligase. La fidélité est assurée par l'appariement des bases et l'activité de relecture (exonucléase 3' vers 5') des polymérases. L'antiparallélisme des brins explique l'asymétrie de synthèse. Les télomérases compensent le raccourcissement des extrémités.",
+      "explications_par_proposition": {
+        "A": "Vrai : Chaque molécule fille comporte un brin parental et un brin néosynthétisé.",
+        "B": "Vrai : Elle ajoute les nucléotides à l'extrémité 3'-OH libre.",
+        "C": "Vrai : Ils sont ensuite reliés par l'ADN ligase.",
+        "D": "Vrai : Elle est synthétisée par la primase et fournit l'extrémité 3'-OH nécessaire à l'ADN polymérase.",
+        "E": "Faux : Les deux brins sont antiparallèles (orientations 5'-3' opposées) et complémentaires."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-025"
+      ],
+      "theme": "Réplication de l'ADN",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier l'antiparallélisme des deux brins ou la nécessité d'une amorce.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Strachan T, Read AP. Human Molecular Genetics. 5e éd. CRC Press / Taylor & Francis ; 2019 [catalogue OUV-0196].",
+          "date": "2019"
+        },
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la transcription et la traduction de l'information génétique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La transcription synthétise un ARN complémentaire d'un brin matrice de l'ADN.",
+        "B": "La traduction a lieu sur les ribosomes et utilise des ARN de transfert portant l'anticodon correspondant à chaque codon.",
+        "C": "Le code génétique est dégénéré : plusieurs codons peuvent coder le même acide aminé.",
+        "D": "Le codon AUG, codant la méthionine, est le codon d'initiation de la traduction.",
+        "E": "Les codons stop (UAA, UAG, UGA) codent des acides aminés spécifiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'expression de l'information génétique suit le dogme ADN vers ARN vers protéine. La transcription produit un ARN messager complémentaire du brin matrice (uracile remplaçant la thymine). La traduction décode l'ARN messager par triplets (codons) grâce aux ARN de transfert, au niveau des ribosomes : initiation (codon AUG, méthionine), élongation, terminaison (codons stop UAA, UAG, UGA). Le code génétique est à triplets, non chevauchant, dégénéré et quasi universel. La connaissance du code et du cadre de lecture est indispensable pour comprendre les conséquences des mutations (faux-sens, non-sens, décalage du cadre).",
+      "explications_par_proposition": {
+        "A": "Vrai : L'ARN contient de l'uracile à la place de la thymine.",
+        "B": "Vrai : L'appariement codon-anticodon assure l'incorporation du bon acide aminé.",
+        "C": "Vrai : Cette redondance limite l'effet de certaines mutations.",
+        "D": "Vrai : Il fixe le cadre de lecture.",
+        "E": "Faux : Les codons stop ne codent aucun acide aminé : ils déclenchent la terminaison de la traduction."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-025"
+      ],
+      "theme": "Transcription et traduction",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les codons stop codent un acide aminé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Strachan T, Read AP. Human Molecular Genetics. 5e éd. CRC Press / Taylor & Francis ; 2019 [catalogue OUV-0196].",
+          "date": "2019"
+        },
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les variations de la séquence d'ADN, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une mutation faux-sens remplace un acide aminé par un autre.",
+        "B": "Une mutation non-sens crée un codon stop prématuré.",
+        "C": "Une insertion ou une délétion d'un nombre de nucléotides non multiple de trois entraîne un décalage du cadre de lecture.",
+        "D": "Un polymorphisme est une variation de séquence présente dans la population à une fréquence appréciable (classiquement supérieure à 1 %).",
+        "E": "Une mutation synonyme (silencieuse) modifie toujours la séquence d'acides aminés de la protéine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les variations de séquence vont de la substitution d'une seule base aux grands remaniements. Les substitutions sont synonymes (sans changement d'acide aminé), faux-sens (changement d'acide aminé) ou non-sens (codon stop prématuré). Les insertions/délétions non multiples de trois décalent le cadre de lecture. On distingue les mutations (variations rares, souvent pathogènes) des polymorphismes (variations fréquentes, souvent neutres, utiles comme marqueurs). La pathogénicité dépend de la nature et de la localisation de la variation. Ces notions fondent l'interprétation des analyses moléculaires et du diagnostic génétique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle résulte d'une substitution de base modifiant le sens du codon.",
+        "B": "Vrai : Elle entraîne une protéine tronquée, souvent non fonctionnelle.",
+        "C": "Vrai : Mutation dite frameshift, modifiant toute la séquence en aval.",
+        "D": "Vrai : Les polymorphismes nucléotidiques (SNP) sont très nombreux dans le génome.",
+        "E": "Faux : Une mutation synonyme ne change pas l'acide aminé codé (grâce à la dégénérescence du code) ; elle est en général sans effet sur la séquence protéique."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-025"
+      ],
+      "theme": "Mutations et polymorphismes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'une mutation synonyme modifie la protéine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Strachan T, Read AP. Human Molecular Genetics. 5e éd. CRC Press / Taylor & Francis ; 2019 [catalogue OUV-0196].",
+          "date": "2019"
+        },
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5019",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans la molécule d'ADN, à quelle base l'adénine s'apparie-t-elle sur le brin complémentaire ?",
+      "propositions": {
+        "A": "La thymine.",
+        "B": "La guanine.",
+        "C": "La cytosine.",
+        "D": "L'uracile.",
+        "E": "Une autre adénine."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La complémentarité des bases est la base de la structure et de la fonction de l'ADN : l'adénine (purine) s'apparie à la thymine (pyrimidine) par deux liaisons hydrogène, la guanine à la cytosine par trois liaisons. Cet appariement purine-pyrimidine maintient un diamètre constant à la double hélice antiparallèle et permet la réplication fidèle et la transcription. Dans l'ARN, l'uracile remplace la thymine et s'apparie à l'adénine. La proportion plus élevée de paires G-C augmente la stabilité thermique d'un fragment d'ADN. Cette règle d'appariement est exploitée par les techniques d'hybridation et de PCR.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'adénine s'apparie à la thymine par deux liaisons hydrogène (A=T).",
+        "B": "Faux : La guanine s'apparie à la cytosine par trois liaisons hydrogène.",
+        "C": "Faux : La cytosine s'apparie à la guanine.",
+        "D": "Faux : L'uracile remplace la thymine dans l'ARN, pas dans l'ADN.",
+        "E": "Faux : Deux purines ne s'apparient pas entre elles dans la double hélice."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-025"
+      ],
+      "theme": "Base de l'appariement des bases de l'ADN",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Oublier que, dans l'ADN, l'adénine s'apparie à la thymine, l'uracile étant propre à l'ARN.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Strachan T, Read AP. Human Molecular Genetics. 5e éd. CRC Press / Taylor & Francis ; 2019 [catalogue OUV-0196].",
+          "date": "2019"
+        },
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les besoins énergétiques de l'organisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le métabolisme de base est la dépense énergétique minimale d'un sujet éveillé, au repos, à jeun et en neutralité thermique.",
+        "B": "L'oxydation complète d'un gramme de lipides fournit environ 9 kcal.",
+        "C": "La dépense énergétique totale comprend le métabolisme de base, la thermogenèse alimentaire et l'activité physique.",
+        "D": "Un gramme d'alcool (éthanol) n'apporte aucune énergie.",
+        "E": "Le métabolisme de base est indépendant de la masse maigre."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La dépense énergétique totale se décompose en métabolisme de base (60 à 70 % chez le sédentaire, surtout déterminé par la masse maigre), thermogenèse postprandiale (environ 10 %) et dépense liée à l'activité physique (très variable). Les apports énergétiques proviennent de l'oxydation des macronutriments : glucides et protéines environ 4 kcal/g, lipides environ 9 kcal/g, éthanol environ 7 kcal/g. L'équilibre entre apports et dépenses détermine le poids. La ration alimentaire doit couvrir les besoins énergétiques et qualitatifs (protéines de bonne valeur biologique, acides gras essentiels, vitamines, minéraux).",
+      "explications_par_proposition": {
+        "A": "Vrai : Il représente la plus grande part de la dépense énergétique quotidienne chez un sujet sédentaire.",
+        "B": "Vrai : Contre environ 4 kcal pour un gramme de glucides ou de protéines.",
+        "C": "Vrai : L'activité physique est la composante la plus variable.",
+        "D": "Faux : L'éthanol apporte environ 7 kcal par gramme, énergie dépourvue de valeur nutritionnelle (calories vides).",
+        "E": "Faux : Le métabolisme de base est étroitement corrélé à la masse maigre (muscle, viscères), principal déterminant de la dépense de repos."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-026"
+      ],
+      "theme": "Besoins énergétiques et métabolisme de base",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Oublier l'apport énergétique de l'alcool ou le lien entre métabolisme de base et masse maigre.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "FAO/WHO/UNU. Human energy requirements: report of a joint FAO/WHO/UNU Expert Consultation. FAO Food and Nutrition Technical Report Series 1. Rome : FAO ; 2004.",
+          "date": "2004"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant une ration alimentaire équilibrée chez l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La répartition énergétique classiquement recommandée accorde la plus grande part aux glucides, suivis des lipides puis des protéines.",
+        "B": "Les acides gras essentiels (acide linoléique et acide alpha-linolénique) doivent être apportés par l'alimentation.",
+        "C": "Certains acides aminés dits indispensables ne peuvent pas être synthétisés par l'organisme.",
+        "D": "Les fibres alimentaires sont une source énergétique majeure car elles sont totalement digérées dans l'intestin grêle.",
+        "E": "Les vitamines sont des nutriments énergétiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Une ration équilibrée couvre les besoins énergétiques et apporte les nutriments indispensables dans de bonnes proportions : glucides (surtout complexes), lipides (en limitant les acides gras saturés et trans, en assurant les acides gras essentiels), protéines de bonne valeur biologique (acides aminés indispensables), ainsi que fibres, vitamines, minéraux et oligoéléments. Les vitamines et minéraux, non énergétiques, jouent un rôle de cofacteurs. L'équilibre qualitatif prévient carences et pathologies de pléthore. Les recommandations nutritionnelles adaptent ces apports selon l'âge, le sexe et l'activité.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ordre habituel : glucides environ la moitié de l'apport, lipides un tiers environ, protéines le reste.",
+        "B": "Vrai : L'organisme ne peut pas les synthétiser.",
+        "C": "Vrai : Ils doivent être apportés par l'alimentation ; une protéine est dite de bonne valeur biologique quand elle les contient en proportions adéquates.",
+        "D": "Faux : Les fibres ne sont pas digérées par les enzymes humaines ; elles sont partiellement fermentées par le microbiote colique et ont un rôle surtout fonctionnel (transit, satiété, métabolisme).",
+        "E": "Faux : Les vitamines ne fournissent pas d'énergie ; ce sont des micronutriments à rôle de cofacteurs ou de régulateurs, nécessaires en faible quantité."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-026"
+      ],
+      "theme": "Composition de la ration alimentaire équilibrée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Considérer les vitamines ou les fibres comme des sources énergétiques majeures.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "FAO/WHO/UNU. Human energy requirements: report of a joint FAO/WHO/UNU Expert Consultation. FAO Food and Nutrition Technical Report Series 1. Rome : FAO ; 2004.",
+          "date": "2004"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5008",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle est la valeur énergétique approximative de l'oxydation complète d'un gramme de glucides ?",
+      "propositions": {
+        "A": "9 kcal.",
+        "B": "4 kcal.",
+        "C": "7 kcal.",
+        "D": "2 kcal.",
+        "E": "12 kcal."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Les coefficients énergétiques (coefficients d'Atwater) permettent d'estimer l'apport énergétique des aliments : environ 4 kcal/g pour les glucides, 4 kcal/g pour les protéines, 9 kcal/g pour les lipides et 7 kcal/g pour l'éthanol. Ces valeurs expliquent la densité énergétique élevée des aliments gras. Le calcul de la ration énergétique repose sur ces coefficients appliqués à la composition en macronutriments. La connaissance de ces repères est utile en pratique clinique (prescriptions diététiques, nutrition artificielle, évaluation des apports).",
+      "explications_par_proposition": {
+        "A": "Faux : C'est la valeur approximative d'un gramme de lipides.",
+        "B": "Vrai : Les glucides et les protéines fournissent environ 4 kcal par gramme.",
+        "C": "Faux : C'est la valeur approximative d'un gramme d'éthanol.",
+        "D": "Faux : Valeur trop basse, ne correspondant à aucun macronutriment usuel.",
+        "E": "Faux : Aucune valeur de macronutriment n'atteint 12 kcal par gramme."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-026"
+      ],
+      "theme": "Valeur énergétique des macronutriments",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer 9 kcal/g aux glucides au lieu des lipides.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "FAO/WHO/UNU. Human energy requirements: report of a joint FAO/WHO/UNU Expert Consultation. FAO Food and Nutrition Technical Report Series 1. Rome : FAO ; 2004.",
+          "date": "2004"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les vitamines, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les vitamines A, D, E et K sont liposolubles.",
+        "B": "Les vitamines du groupe B et la vitamine C sont hydrosolubles.",
+        "C": "La carence en vitamine D entraîne un rachitisme chez l'enfant et une ostéomalacie chez l'adulte.",
+        "D": "La vitamine B12 et les folates sont nécessaires à la synthèse de l'ADN ; leur carence entraîne une anémie macrocytaire mégaloblastique.",
+        "E": "La carence en vitamine C provoque un béribéri."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les vitamines, micronutriments non énergétiques indispensables, se répartissent en liposolubles (A, D, E, K ; stockées, risque de toxicité) et hydrosolubles (groupe B, vitamine C ; peu stockées, apport régulier nécessaire). Chaque carence a une traduction clinique spécifique : vitamine D (rachitisme, ostéomalacie), vitamine B1 (béribéri, encéphalopathie de Gayet-Wernicke), vitamine C (scorbut), vitamine B12 et folates (anémie mégaloblastique, et atteinte neurologique pour la B12), vitamine K (troubles de l'hémostase). La prévention des carences est un enjeu de santé publique, notamment chez l'enfant et la femme enceinte.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elles sont absorbées avec les lipides et stockées dans l'organisme, d'où un risque de surdosage.",
+        "B": "Vrai : Peu stockées, elles doivent être apportées régulièrement.",
+        "C": "Vrai : Par défaut de minéralisation osseuse lié à une baisse de l'absorption du calcium et du phosphore.",
+        "D": "Vrai : La carence en B12 peut aussi entraîner des troubles neurologiques.",
+        "E": "Faux : La carence en vitamine C provoque le scorbut ; le béribéri est dû à une carence en vitamine B1 (thiamine)."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-026"
+      ],
+      "theme": "Vitamines et carences",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre scorbut (vitamine C) et béribéri (vitamine B1).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        },
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la régulation de la glycémie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'insuline est la principale hormone hypoglycémiante.",
+        "B": "Le glucagon est une hormone hyperglycémiante sécrétée par les cellules alpha des îlots de Langerhans.",
+        "C": "L'insuline est sécrétée par les cellules bêta des îlots de Langerhans.",
+        "D": "Le cortisol, l'adrénaline et l'hormone de croissance sont des hormones hyperglycémiantes (de contre-régulation).",
+        "E": "Le glucose pénètre dans le myocyte et l'adipocyte indépendamment de l'insuline."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La glycémie est maintenue dans une fourchette étroite par un équilibre entre l'insuline (seule hormone hypoglycémiante : captation du glucose via GLUT4 dans le muscle et le tissu adipeux, stockage sous forme de glycogène et de lipides) et les hormones hyperglycémiantes de contre-régulation (glucagon, adrénaline, cortisol, hormone de croissance). Le foie joue un rôle central comme organe de stockage et de production de glucose. Le déséquilibre de ce système est au cœur du diabète sucré. Les transporteurs du glucose (GLUT) ont des distributions tissulaires et des régulations différentes.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle favorise la captation du glucose, la glycogénogenèse et la lipogenèse, et inhibe la néoglucogenèse.",
+        "B": "Vrai : Il stimule la glycogénolyse et la néoglucogenèse hépatiques.",
+        "C": "Vrai : Sa sécrétion est stimulée par l'élévation de la glycémie.",
+        "D": "Vrai : Elles s'opposent à l'action de l'insuline, notamment lors d'un stress ou d'une hypoglycémie.",
+        "E": "Faux : Dans le muscle et le tissu adipeux, l'entrée du glucose dépend du transporteur GLUT4, dont l'insuline stimule la translocation à la membrane ; le cerveau et le foie, eux, utilisent des transporteurs insulino-indépendants."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-027"
+      ],
+      "theme": "Régulation hormonale de la glycémie",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'entrée du glucose dans toutes les cellules dépend de l'insuline : le cerveau et le foie en sont indépendants.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exploration de la glycémie et le diagnostic du diabète sucré selon les critères usuels, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une glycémie à jeun supérieure ou égale à 1,26 g/L (7,0 mmol/L), confirmée, définit le diabète.",
+        "B": "Une glycémie supérieure ou égale à 2,0 g/L (11,1 mmol/L) à la 2e heure d'une hyperglycémie provoquée par voie orale définit le diabète.",
+        "C": "Une hémoglobine glyquée (HbA1c) supérieure ou égale à 6,5 % est un critère diagnostique de diabète.",
+        "D": "Une glycémie à jeun comprise entre 1,10 et 1,25 g/L définit une hyperglycémie modérée à jeun.",
+        "E": "L'HbA1c reflète la glycémie des dernières 24 heures."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le diagnostic du diabète sucré repose sur des seuils glycémiques : glycémie à jeun supérieure ou égale à 1,26 g/L, glycémie 2 heures après charge orale de 75 g supérieure ou égale à 2 g/L, HbA1c supérieure ou égale à 6,5 %, ou glycémie aléatoire supérieure ou égale à 2 g/L avec symptômes. En l'absence de symptômes, une confirmation est nécessaire. L'HbA1c, reflet de la glycémie moyenne des 2 à 3 mois, sert au diagnostic et au suivi. Les états intermédiaires (hyperglycémie modérée à jeun, intolérance au glucose) définissent le prédiabète. Ces repères guident le dépistage et la prise en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le jeûne est défini par au moins 8 heures sans apport calorique.",
+        "B": "Vrai : Charge orale de 75 g de glucose.",
+        "C": "Vrai : L'HbA1c reflète la glycémie moyenne des 2 à 3 mois précédents.",
+        "D": "Vrai : État de prédiabète, à risque d'évolution vers le diabète.",
+        "E": "Faux : L'HbA1c reflète la glycémie moyenne des 2 à 3 mois précédents, du fait de la durée de vie des hématies."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-027"
+      ],
+      "theme": "Exploration de la glycémie et diagnostic du diabète",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'HbA1c reflète la glycémie des dernières 24 heures.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Diabetes Association Professional Practice Committee. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2025. Diabetes Care 2025;48(Suppl 1).",
+          "date": "2025"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le métabolisme du glucose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La glycogénolyse hépatique libère du glucose dans le sang.",
+        "B": "La néoglucogenèse produit du glucose à partir de précurseurs non glucidiques (lactate, glycérol, acides aminés glucoformateurs).",
+        "C": "Le muscle peut libérer directement du glucose dans la circulation à partir de son glycogène.",
+        "D": "L'insuline stimule la glycogénogenèse et inhibe la néoglucogenèse.",
+        "E": "La glycolyse se déroule dans les mitochondries."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le glucose est au cœur du métabolisme énergétique. En période postprandiale, l'insuline favorise son stockage (glycogénogenèse, lipogenèse). À jeun, le glucagon et les hormones de contre-régulation mobilisent les réserves : glycogénolyse puis néoglucogenèse hépatiques maintiennent la glycémie, essentielle au cerveau et aux hématies. Le foie, grâce à la glucose-6-phosphatase, exporte du glucose, contrairement au muscle, qui conserve son glycogène pour lui-même et fournit lactate et acides aminés. La glycolyse (cytosolique) et l'oxydation mitochondriale assurent la production d'ATP. Ces voies sont finement régulées par l'état hormonal.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le foie possède la glucose-6-phosphatase, qui permet la sortie du glucose.",
+        "B": "Vrai : Elle a lieu principalement dans le foie, et accessoirement dans le rein.",
+        "C": "Faux : Le muscle ne possède pas de glucose-6-phosphatase : son glycogène sert à ses propres besoins ; il libère du lactate et des acides aminés, précurseurs de la néoglucogenèse hépatique.",
+        "D": "Vrai : Elle oriente le métabolisme vers le stockage en période postprandiale.",
+        "E": "Faux : La glycolyse se déroule dans le cytosol ; c'est le cycle de Krebs et la phosphorylation oxydative qui sont mitochondriaux."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-027"
+      ],
+      "theme": "Métabolisme du glucose : glycogène et néoglucogenèse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le muscle libère du glucose dans le sang : il lui manque la glucose-6-phosphatase.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'intérêt des explorations de la glycémie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'HbA1c est utilisée pour le suivi de l'équilibre glycémique au long cours du patient diabétique.",
+        "B": "La glycémie capillaire permet l'autosurveillance et la détection rapide des hypo- et hyperglycémies.",
+        "C": "La découverte d'une hyperglycémie impose d'en rechercher les complications et le type de diabète.",
+        "D": "L'HbA1c est fiable pour le suivi quel que soit le contexte hématologique.",
+        "E": "L'hypoglycémie se définit par une glycémie élevée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les dosages glycémiques ont plusieurs intérêts : diagnostiquer le diabète (glycémie à jeun, hyperglycémie provoquée orale, HbA1c), surveiller l'équilibre au long cours (HbA1c, reflet de 2 à 3 mois), permettre l'autosurveillance quotidienne (glycémie capillaire, capteurs de glucose) et dépister les complications aiguës (hypo- et hyperglycémies). L'HbA1c peut être prise en défaut en cas d'anomalie de la durée de vie des hématies (hémolyse, hémoglobinopathies) ou d'insuffisance rénale. La glycémie reste un examen central de la pratique médicale, du diagnostic au suivi.",
+      "explications_par_proposition": {
+        "A": "Vrai : Un objectif usuel se situe autour de 7 %, à individualiser.",
+        "B": "Vrai : Elle guide l'adaptation du traitement, notamment sous insuline.",
+        "C": "Vrai : Diabète de type 1, de type 2, gestationnel ou secondaire.",
+        "D": "Faux : Certaines situations (anémies hémolytiques, hémoglobinopathies, insuffisance rénale, grossesse) faussent son interprétation ; il faut alors recourir à d'autres marqueurs.",
+        "E": "Faux : L'hypoglycémie correspond à une glycémie basse ; chez le diabétique traité, elle est une complication fréquente et potentiellement grave."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-027"
+      ],
+      "theme": "Intérêt clinique du dosage de la glycémie et de l'HbA1c",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter l'HbA1c sans tenir compte du contexte hématologique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Diabetes Association Professional Practice Committee. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2025. Diabetes Care 2025;48(Suppl 1).",
+          "date": "2025"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le métabolisme du fer, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le fer alimentaire héminique est mieux absorbé que le fer non héminique.",
+        "B": "L'absorption du fer non héminique est favorisée par la vitamine C et diminuée par les phytates et les tanins.",
+        "C": "L'hepcidine est l'hormone régulatrice clé du métabolisme du fer ; elle diminue l'absorption intestinale et la libération du fer macrophagique.",
+        "D": "La transferrine est la principale protéine de transport du fer dans le plasma.",
+        "E": "Le fer est principalement éliminé par voie urinaire, de façon régulée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le fer, indispensable à l'hémoglobine et à de nombreuses enzymes, a un métabolisme quasi fermé, sans excrétion régulée : l'équilibre repose sur l'absorption duodénale (fer héminique mieux absorbé, fer non héminique réduit en Fe2+, favorisé par la vitamine C). L'hepcidine hépatique est le régulateur central : elle abaisse l'absorption et la libération du fer en dégradant la ferroportine ; elle augmente dans l'inflammation (anémie inflammatoire). Le fer circule lié à la transferrine et est stocké sous forme de ferritine et d'hémosidérine. Ce cycle explique les anémies ferriprives et les surcharges (hémochromatose).",
+      "explications_par_proposition": {
+        "A": "Vrai : Le fer héminique (viandes) est absorbé sous forme d'hème ; le fer non héminique doit être réduit en fer ferreux (Fe2+).",
+        "B": "Vrai : La vitamine C réduit le fer ferrique en fer ferreux, mieux absorbé.",
+        "C": "Vrai : Elle dégrade la ferroportine, transporteur de sortie du fer.",
+        "D": "Vrai : Son taux de saturation est un paramètre d'exploration du statut martial.",
+        "E": "Faux : Il n'existe pas de voie d'excrétion régulée du fer ; les pertes sont surtout des pertes cellulaires (desquamation, menstruations) : le bilan est réglé par l'absorption."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-028"
+      ],
+      "theme": "Métabolisme et absorption du fer",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire à l'existence d'une excrétion rénale régulée du fer.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exploration biologique du statut en fer, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La ferritine sérique reflète les réserves en fer de l'organisme.",
+        "B": "La ferritine est une protéine de la phase aiguë de l'inflammation.",
+        "C": "Dans la carence martiale, le coefficient de saturation de la transferrine est abaissé et la capacité totale de fixation augmentée.",
+        "D": "Une ferritine élevée élimine formellement une carence en fer.",
+        "E": "Le fer sérique seul est un paramètre fiable pour évaluer les réserves en fer."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'exploration du statut martial associe plusieurs paramètres : la ferritine (reflet des réserves, mais protéine inflammatoire), le fer sérique (peu fiable isolément), la transferrine et son coefficient de saturation (abaissé dans la carence, la capacité totale de fixation étant augmentée) et, dans les cas difficiles, le récepteur soluble de la transferrine. L'interprétation doit tenir compte de l'inflammation : une ferritine basse affirme la carence, mais une ferritine normale ne l'élimine pas en contexte inflammatoire. Ces marqueurs orientent le diagnostic entre anémie ferriprive, anémie inflammatoire et surcharge en fer.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une ferritine basse est un marqueur spécifique de carence en fer.",
+        "B": "Vrai : Elle peut être normale ou augmentée malgré une carence martiale en cas d'inflammation, limitant son interprétation.",
+        "C": "Vrai : L'organisme augmente la synthèse de transferrine pour capter le fer disponible.",
+        "D": "Faux : En contexte inflammatoire, une ferritine « normale » ou élevée n'élimine pas une carence ; d'autres marqueurs (récepteur soluble de la transferrine) peuvent aider.",
+        "E": "Faux : Le fer sérique varie fortement (rythme nycthéméral, alimentation) et ne reflète pas les réserves ; la ferritine est bien plus informative."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-028"
+      ],
+      "theme": "Exploration biologique du statut martial",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se fier à la ferritine sans tenir compte de son élévation par l'inflammation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        },
+        {
+          "reference": "World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. Genève : OMS ; 2020.",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5016",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle protéine assure principalement le stockage intracellulaire du fer ?",
+      "propositions": {
+        "A": "La ferritine.",
+        "B": "La transferrine.",
+        "C": "L'hepcidine.",
+        "D": "L'haptoglobine.",
+        "E": "La céruloplasmine."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le fer, potentiellement toxique à l'état libre (production de radicaux libres), est maintenu lié à des protéines. La ferritine est la principale protéine de stockage : elle séquestre des milliers d'atomes de fer sous forme ferrique dans sa coque protéique, surtout dans les hépatocytes, les macrophages et les érythroblastes ; l'hémosidérine en est une forme condensée. La transferrine assure le transport plasmatique et l'hepcidine la régulation. La ferritine sérique, proportionnelle aux réserves (hors inflammation), est le meilleur marqueur biologique du statut martial. Sa chute est précoce dans la carence en fer.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle séquestre le fer sous forme non toxique, surtout dans le foie, la rate et la moelle osseuse ; sa forme sérique reflète les réserves.",
+        "B": "Faux : C'est la protéine de transport plasmatique du fer, non de stockage.",
+        "C": "Faux : C'est l'hormone régulatrice du métabolisme du fer, non une protéine de stockage.",
+        "D": "Faux : Elle lie l'hémoglobine libre plasmatique, non le fer de réserve.",
+        "E": "Faux : Elle transporte le cuivre et a une activité ferroxydase, mais n'est pas la protéine de stockage du fer."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-028"
+      ],
+      "theme": "Protéine de stockage du fer",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre la ferritine (stockage) et la transferrine (transport).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les anomalies du métabolisme du fer, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'anémie ferriprive est une anémie microcytaire hypochrome.",
+        "B": "L'hémochromatose génétique est une surcharge en fer souvent liée à des mutations du gène HFE.",
+        "C": "Au cours des syndromes inflammatoires chroniques, l'augmentation de l'hepcidine favorise une anémie avec fer sérique bas mais réserves conservées.",
+        "D": "Dans l'anémie ferriprive, le coefficient de saturation de la transferrine est élevé.",
+        "E": "La principale cause d'anémie ferriprive chez l'homme adulte et la femme ménopausée est l'hémolyse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les anomalies du fer vont de la carence à la surcharge. La carence en fer (saignements chroniques surtout) entraîne une anémie microcytaire hypochrome, avec ferritine basse et coefficient de saturation abaissé ; chez l'homme et la femme ménopausée, elle impose la recherche d'un saignement digestif. L'anémie inflammatoire associe une hepcidine élevée, un fer sérique bas et des réserves conservées. La surcharge (hémochromatose génétique liée à HFE, surcharges secondaires transfusionnelles) élève la ferritine et la saturation de la transferrine et retentit sur le foie, le cœur et le pancréas. Le bilan martial oriente le diagnostic.",
+      "explications_par_proposition": {
+        "A": "Vrai : La carence en fer limite la synthèse de l'hémoglobine.",
+        "B": "Vrai : Elle entraîne une accumulation tissulaire (foie, cœur, pancréas) avec un coefficient de saturation de la transferrine élevé.",
+        "C": "Vrai : Anémie inflammatoire (fer séquestré dans les macrophages).",
+        "D": "Faux : Il est abaissé : le fer disponible pour la transferrine est insuffisant.",
+        "E": "Faux : Chez eux, elle doit faire rechercher un saignement digestif chronique ; chez la femme en période d'activité génitale, les pertes menstruelles prédominent."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-028"
+      ],
+      "theme": "Anomalies du bilan du fer",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre une saturation de la transferrine élevée dans la carence martiale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les lipoprotéines plasmatiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les chylomicrons transportent principalement les triglycérides d'origine alimentaire (exogène).",
+        "B": "Les LDL sont les lipoprotéines les plus riches en cholestérol et les plus athérogènes.",
+        "C": "Les HDL assurent le transport inverse du cholestérol, des tissus vers le foie.",
+        "D": "Les VLDL, sécrétées par le foie, transportent surtout les triglycérides d'origine endogène.",
+        "E": "Les LDL sont captées par les cellules indépendamment de tout récepteur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les lipoprotéines transportent les lipides insolubles dans le plasma. On les classe par densité croissante : chylomicrons (triglycérides exogènes), VLDL (triglycérides endogènes), IDL, LDL (cholestérol, athérogènes) et HDL (transport inverse du cholestérol, protectrices). Leur métabolisme fait intervenir des apolipoprotéines, des enzymes (lipoprotéine lipase, LCAT) et des récepteurs (récepteur aux LDL). L'accumulation de LDL favorise l'athérosclérose ; les HDL exercent un effet protecteur. La compréhension de ce métabolisme fonde le diagnostic et le traitement des dyslipidémies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ils sont synthétisés par l'intestin après un repas.",
+        "B": "Vrai : Elles transportent le cholestérol vers les tissus périphériques.",
+        "C": "Vrai : Un taux élevé de HDL-cholestérol est associé à un moindre risque cardiovasculaire.",
+        "D": "Vrai : Elles sont progressivement transformées en LDL dans la circulation.",
+        "E": "Faux : Les LDL sont captées par endocytose via le récepteur aux LDL (récepteur de Brown et Goldstein) ; son déficit cause l'hypercholestérolémie familiale."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-029"
+      ],
+      "theme": "Lipoprotéines : structure et classification",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier le rôle du récepteur aux LDL dans la captation du cholestérol.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Mach F, Baigent C, Catapano AL et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020;41(1):111-188.",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exploration d'une anomalie lipidique (EAL), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le bilan lipidique standard comprend le cholestérol total, les triglycérides, le HDL-cholestérol et le calcul du LDL-cholestérol.",
+        "B": "La formule de Friedewald n'est pas valide en cas d'hypertriglycéridémie importante.",
+        "C": "Le LDL-cholestérol est la cible principale du traitement hypolipémiant dans la prévention cardiovasculaire.",
+        "D": "Un dosage fiable des triglycérides ne nécessite aucune condition particulière de prélèvement.",
+        "E": "Le HDL-cholestérol élevé est un facteur de risque cardiovasculaire majeur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'exploration d'une anomalie lipidique mesure le cholestérol total, les triglycérides et le HDL-cholestérol, et calcule le LDL-cholestérol (formule de Friedewald, non valide en cas d'hypertriglycéridémie marquée, où un dosage direct est requis). Le prélèvement à jeun est recommandé, surtout pour les triglycérides. L'interprétation se fait en fonction du risque cardiovasculaire global : le LDL-cholestérol est la cible thérapeutique principale, avec des objectifs d'autant plus bas que le risque est élevé. Un HDL-cholestérol bas et une hypertriglycéridémie sont aussi des marqueurs de risque. Ce bilan guide la prévention cardiovasculaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le LDL-cholestérol est souvent calculé par la formule de Friedewald.",
+        "B": "Vrai : Au-delà d'environ 4 g/L (parfois 3,4 g/L) de triglycérides, le LDL-cholestérol doit être mesuré directement.",
+        "C": "Vrai : Les objectifs sont d'autant plus bas que le risque cardiovasculaire est élevé.",
+        "D": "Faux : Les triglycérides doivent être dosés à jeun pour une interprétation optimale, car ils augmentent en période postprandiale (un bilan non à jeun reste acceptable pour le cholestérol total et le HDL).",
+        "E": "Faux : Un HDL-cholestérol élevé est plutôt associé à un moindre risque ; c'est un HDL-cholestérol bas qui constitue un facteur de risque."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-029"
+      ],
+      "theme": "Exploration d'une anomalie lipidique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer la formule de Friedewald en cas d'hypertriglycéridémie importante.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mach F, Baigent C, Catapano AL et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020;41(1):111-188.",
+          "date": "2019"
+        },
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le métabolisme des lipoprotéines, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La lipoprotéine lipase, située à la surface de l'endothélium capillaire, hydrolyse les triglycérides des chylomicrons et des VLDL.",
+        "B": "La LCAT estérifie le cholestérol au sein des HDL.",
+        "C": "Les statines inhibent l'HMG-CoA réductase, enzyme clé de la synthèse hépatique du cholestérol.",
+        "D": "L'apolipoprotéine B100 est le ligand des HDL pour leur captation hépatique.",
+        "E": "Le cholestérol est une molécule exclusivement d'origine alimentaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le métabolisme des lipoprotéines comprend une voie exogène (chylomicrons, triglycérides alimentaires), une voie endogène (VLDL hépatiques, IDL, LDL) et le transport inverse du cholestérol (HDL, LCAT, retour vers le foie). Les enzymes clés sont la lipoprotéine lipase (hydrolyse des triglycérides, activée par l'apolipoprotéine C-II) et la LCAT (estérification du cholestérol). Le cholestérol est à la fois alimentaire et synthétisé (HMG-CoA réductase hépatique). Les apolipoprotéines servent de ligands et de cofacteurs. Ces voies sont les cibles des hypolipémiants (statines, ézétimibe, fibrates), pierres angulaires de la prévention de l'athérosclérose.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle libère des acides gras captés par les tissus ; elle est activée par l'apolipoprotéine C-II.",
+        "B": "Vrai : Elle permet la maturation des HDL et le transport inverse du cholestérol.",
+        "C": "Vrai : La baisse du cholestérol intracellulaire augmente l'expression des récepteurs aux LDL, d'où une diminution du LDL-cholestérol plasmatique.",
+        "D": "Faux : L'apolipoprotéine B100 est l'apolipoprotéine structurale des VLDL, IDL et LDL, reconnue par le récepteur aux LDL ; les HDL contiennent surtout l'apolipoprotéine A-I.",
+        "E": "Faux : Le cholestérol est à la fois d'origine alimentaire et endogène (synthèse hépatique à partir de l'acétyl-CoA, voie de l'HMG-CoA réductase)."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-029"
+      ],
+      "theme": "Métabolisme des lipoprotéines",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Confondre apolipoprotéine B100 (LDL) et apolipoprotéine A-I (HDL).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Mach F, Baigent C, Catapano AL et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020;41(1):111-188.",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5021",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle fraction lipoprotéique est considérée comme la plus athérogène et constitue la cible principale du traitement ?",
+      "propositions": {
+        "A": "Les HDL.",
+        "B": "Les LDL.",
+        "C": "Les chylomicrons.",
+        "D": "Les HDL de petite taille.",
+        "E": "L'albumine."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Les LDL, principales transporteuses de cholestérol vers les tissus, sont la fraction la plus athérogène : leur excès favorise leur pénétration et leur oxydation dans la paroi artérielle, étape initiale de l'athérosclérose. Le LDL-cholestérol est donc la cible principale du traitement hypolipémiant, avec des objectifs adaptés au risque cardiovasculaire. À l'inverse, les HDL assurent le transport inverse du cholestérol et sont plutôt protectrices. Les triglycérides très élevés (chylomicrons) exposent surtout à la pancréatite aiguë. Cette hiérarchie guide la prévention cardiovasculaire.",
+      "explications_par_proposition": {
+        "A": "Faux : Les HDL ont un effet plutôt protecteur (transport inverse du cholestérol).",
+        "B": "Vrai : Riches en cholestérol, elles s'accumulent dans la paroi artérielle et initient la plaque d'athérome ; le LDL-cholestérol est la cible thérapeutique principale.",
+        "C": "Faux : Ils transportent surtout les triglycérides alimentaires ; une élévation majeure expose surtout à la pancréatite aiguë.",
+        "D": "Faux : Elles restent globalement associées au transport inverse du cholestérol.",
+        "E": "Faux : Ce n'est pas une lipoprotéine ; elle transporte notamment les acides gras libres."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-029"
+      ],
+      "theme": "Fraction lipidique la plus athérogène",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Désigner les HDL comme athérogènes alors qu'elles sont plutôt protectrices.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mach F, Baigent C, Catapano AL et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020;41(1):111-188.",
+          "date": "2019"
+        },
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les protéines plasmatiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'albumine est la protéine plasmatique la plus abondante et le principal déterminant de la pression oncotique.",
+        "B": "L'albumine assure le transport de nombreuses substances (bilirubine, acides gras, médicaments).",
+        "C": "La plupart des protéines plasmatiques, dont l'albumine et les facteurs de la coagulation, sont synthétisées par le foie.",
+        "D": "L'électrophorèse des protéines sériques sépare l'albumine et les globulines (alpha-1, alpha-2, bêta, gamma).",
+        "E": "Les immunoglobulines migrent principalement dans la fraction albumine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les protéines plasmatiques, d'origine surtout hépatique (sauf les immunoglobulines, produites par les plasmocytes), remplissent de multiples rôles : maintien de la pression oncotique (albumine), transport (albumine, transferrine, protéines porteuses), coagulation, défense (immunoglobulines, complément), réaction inflammatoire (protéines de la phase aiguë). L'électrophorèse des protéines sériques, en séparant albumine et globulines, oriente de nombreux diagnostics : syndrome inflammatoire (augmentation des alpha-globulines), syndrome néphrotique, insuffisance hépatique, gammapathies monoclonales ou polyclonales. Le dosage de l'albumine reflète en partie l'état nutritionnel et hépatique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une hypoalbuminémie favorise la formation d'œdèmes.",
+        "B": "Vrai : Sa capacité de liaison influe sur la fraction libre active des médicaments.",
+        "C": "Vrai : Une insuffisance hépatocellulaire peut donc entraîner une hypoalbuminémie et des troubles de l'hémostase.",
+        "D": "Vrai : Elle aide au diagnostic des syndromes inflammatoires, néphrotiques et des dysglobulinémies.",
+        "E": "Faux : Les immunoglobulines migrent dans la fraction gamma (et bêta) ; un pic monoclonal étroit dans cette zone évoque une gammapathie monoclonale."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-030"
+      ],
+      "theme": "Protéines plasmatiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Situer les immunoglobulines dans la fraction albumine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le métabolisme des protéines et des acides aminés, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le groupement aminé des acides aminés est éliminé sous forme d'urée, synthétisée par le foie.",
+        "B": "Un bilan azoté positif traduit une synthèse protéique supérieure au catabolisme (croissance, anabolisme).",
+        "C": "Les acides aminés indispensables ne peuvent pas être synthétisés par l'organisme.",
+        "D": "L'ammoniac est totalement inoffensif pour le système nerveux central.",
+        "E": "L'urée est synthétisée principalement par le rein."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le métabolisme protéique associe synthèse et dégradation permanentes (renouvellement protéique). Les acides aminés, issus de l'alimentation et du catabolisme, servent à la synthèse protéique, à la néoglucogenèse et à la production d'énergie ; leur groupement aminé est détoxifié en urée par le foie (cycle de l'urée) à partir de l'ammoniac, neurotoxique. Le bilan azoté (différence entre apports et pertes azotées) évalue l'équilibre anabolisme/catabolisme. Les acides aminés indispensables doivent être apportés par l'alimentation. Ces notions éclairent la dénutrition, l'encéphalopathie hépatique et la prise en charge nutritionnelle.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le cycle de l'urée transforme l'ammoniac, toxique, en urée éliminée par le rein.",
+        "B": "Vrai : À l'inverse, un bilan négatif traduit un catabolisme prédominant (dénutrition, stress, maladies cataboliques).",
+        "C": "Vrai : Ils doivent être apportés par l'alimentation.",
+        "D": "Faux : L'ammoniac est neurotoxique ; son accumulation (insuffisance hépatique, déficits du cycle de l'urée) provoque une encéphalopathie.",
+        "E": "Faux : L'urée est synthétisée par le foie (cycle de l'urée) et éliminée par le rein ; une élévation de l'urémie peut traduire une insuffisance rénale ou un hypercatabolisme."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-030"
+      ],
+      "theme": "Métabolisme protéique et bilan azoté",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer la synthèse de l'urée au rein au lieu du foie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exploration biologique des protéines, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'hypoalbuminémie peut résulter d'un défaut de synthèse (insuffisance hépatique, dénutrition) ou de pertes (syndrome néphrotique, entéropathie exsudative).",
+        "B": "La protéinurie des 24 heures permet de quantifier une fuite rénale de protéines.",
+        "C": "Un syndrome inflammatoire augmente les protéines de la phase aiguë, dont la CRP.",
+        "D": "Un pic monoclonal à l'électrophorèse des protéines sériques doit faire rechercher une gammapathie monoclonale.",
+        "E": "L'albuminémie augmente typiquement au cours d'une insuffisance hépatocellulaire sévère."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'exploration des protéines a de multiples intérêts : évaluation nutritionnelle et hépatique (albumine, préalbumine), diagnostic des syndromes inflammatoires (CRP, protéines de la phase aiguë, fraction alpha), des syndromes néphrotiques (hypoalbuminémie, protéinurie), des dysglobulinémies (électrophorèse, immunofixation) et des déficits immunitaires (dosage pondéral des immunoglobulines). L'électrophorèse des protéines sériques est un examen d'orientation clé. L'interprétation intègre le contexte clinique : une hypoalbuminémie oriente selon qu'il existe une insuffisance hépatique, une dénutrition ou une fuite rénale ou digestive.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ou encore d'une dilution ou d'une fuite capillaire.",
+        "B": "Vrai : Une protéinurie abondante (supérieure à 3 g par jour chez l'adulte) oriente vers un syndrome néphrotique.",
+        "C": "Vrai : La CRP est un marqueur sensible et rapide de l'inflammation.",
+        "D": "Vrai : Comme un myélome ou une gammapathie monoclonale de signification indéterminée ; l'immunofixation en précise le type.",
+        "E": "Faux : L'albuminémie diminue, du fait d'un défaut de synthèse hépatique."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-030"
+      ],
+      "theme": "Exploration et intérêt du dosage des protéines",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre une hyperalbuminémie dans l'insuffisance hépatocellulaire sévère.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5025",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle protéine plasmatique est le principal déterminant de la pression oncotique du plasma ?",
+      "propositions": {
+        "A": "L'albumine.",
+        "B": "Le fibrinogène.",
+        "C": "Les immunoglobulines.",
+        "D": "L'hémoglobine.",
+        "E": "La transferrine."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La pression oncotique (ou colloïdo-osmotique) du plasma, d'environ 25 mmHg, est due aux protéines plasmatiques qui ne franchissent pas librement la paroi capillaire. L'albumine, la plus abondante et la plus petite, en est le principal déterminant (environ 75 à 80 %). Elle s'oppose à la filtration capillaire (équilibre de Starling) et participe au maintien de la volémie. Une hypoalbuminémie (insuffisance hépatique, syndrome néphrotique, dénutrition, entéropathie) abaisse la pression oncotique et favorise la formation d'œdèmes. L'albumine assure en outre le transport de nombreuses substances endogènes et de médicaments.",
+      "explications_par_proposition": {
+        "A": "Vrai : Du fait de sa concentration élevée et de sa petite taille, elle assure environ 75 à 80 % de la pression oncotique plasmatique.",
+        "B": "Faux : C'est un facteur de la coagulation ; sa contribution à la pression oncotique est faible.",
+        "C": "Faux : Leur masse moléculaire élevée et leur concentration limitent leur contribution oncotique.",
+        "D": "Faux : C'est une protéine intra-érythrocytaire, non plasmatique.",
+        "E": "Faux : Protéine de transport du fer, de contribution oncotique mineure."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-030"
+      ],
+      "theme": "Principale protéine de la pression oncotique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer la pression oncotique aux immunoglobulines ou au fibrinogène plutôt qu'à l'albumine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        },
+        {
+          "reference": "Lieberman M, Peet A. Marks' Basic Medical Biochemistry: A Clinical Approach. 6e éd. Wolters Kluwer Health ; 2023 [catalogue OUV-0185].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les caractéristiques générales des bactéries, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les bactéries sont des organismes procaryotes dépourvus de noyau individualisé.",
+        "B": "La paroi des bactéries à Gram positif est épaisse et riche en peptidoglycane.",
+        "C": "Les bactéries à Gram négatif possèdent une membrane externe contenant du lipopolysaccharide.",
+        "D": "De nombreuses bactéries se multiplient par scissiparité (division binaire).",
+        "E": "Les bactéries possèdent des mitochondries et un réticulum endoplasmique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les bactéries sont des procaryotes unicellulaires sans noyau ni organites membranaires. La paroi, faite de peptidoglycane, détermine la coloration de Gram : paroi épaisse (Gram positif, violet) ou paroi fine avec membrane externe lipopolysaccharidique (Gram négatif, rose). D'autres structures (capsule, flagelles, pili, spores) conditionnent la virulence et la survie. Elles se multiplient par division binaire, très rapidement dans des conditions favorables. La connaissance de ces caractéristiques fonde l'identification bactériologique et explique l'action des antibiotiques (cible du peptidoglycane pour les bêta-lactamines) et la pathogénicité (endotoxine du lipopolysaccharide).",
+      "explications_par_proposition": {
+        "A": "Vrai : Leur matériel génétique (chromosome circulaire) est libre dans le cytoplasme (nucléoïde).",
+        "B": "Vrai : Elle retient le cristal violet lors de la coloration de Gram (bactéries violettes).",
+        "C": "Vrai : Le lipopolysaccharide (endotoxine) est responsable d'effets toxiques (choc endotoxinique).",
+        "D": "Vrai : Reproduction asexuée rapide, base de la croissance exponentielle.",
+        "E": "Faux : Les bactéries, procaryotes, n'ont pas d'organites membranaires : la respiration a lieu au niveau de la membrane cytoplasmique."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-031"
+      ],
+      "theme": "Caractéristiques générales des bactéries",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer aux bactéries des organites d'eucaryotes (mitochondries, réticulum).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        },
+        {
+          "reference": "Ryan KJ (éd.). Sherris & Ryan's Medical Microbiology. 8e éd. McGraw Hill ; 2022 [catalogue OUV-0205].",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les virus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les virus sont des parasites intracellulaires obligatoires.",
+        "B": "Un virus contient un seul type d'acide nucléique, ADN ou ARN.",
+        "C": "La capside est la coque protéique protégeant le génome viral.",
+        "D": "Les rétrovirus possèdent une transcriptase inverse qui transcrit leur ARN en ADN.",
+        "E": "Les antibiotiques antibactériens usuels sont efficaces sur les virus."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les virus sont des agents infectieux acellulaires, parasites intracellulaires obligatoires, formés d'un seul type d'acide nucléique (ADN ou ARN), d'une capside protéique et parfois d'une enveloppe. Leur cycle comprend attachement, pénétration, décapsidation, réplication, assemblage et libération. Les rétrovirus (VIH) utilisent une transcriptase inverse. Dépourvus de métabolisme propre et de paroi, ils ne sont pas sensibles aux antibiotiques antibactériens : seuls des antiviraux ciblant des étapes spécifiques du cycle sont actifs. La compréhension de leur structure et de leur cycle fonde le diagnostic virologique et le traitement antiviral.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ils ne possèdent pas de métabolisme autonome et détournent la machinerie de la cellule hôte pour se multiplier.",
+        "B": "Vrai : Ce critère sépare les virus à ADN des virus à ARN ; les bactéries contiennent les deux.",
+        "C": "Vrai : Certains virus possèdent en outre une enveloppe d'origine membranaire de la cellule hôte.",
+        "D": "Vrai : Le VIH en est l'exemple ; cette enzyme est une cible thérapeutique.",
+        "E": "Faux : Les antibiotiques n'agissent pas sur les virus ; on utilise des antiviraux spécifiques."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-031"
+      ],
+      "theme": "Virus : caractéristiques générales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les antibiotiques antibactériens sont actifs sur les virus.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        },
+        {
+          "reference": "Ryan KJ (éd.). Sherris & Ryan's Medical Microbiology. 8e éd. McGraw Hill ; 2022 [catalogue OUV-0205].",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5003",
+      "format": "QCS (réponse unique)",
+      "enonce": "À la coloration de Gram, une bactérie dite « à Gram positif » apparaît :",
+      "propositions": {
+        "A": "Violette (elle retient le cristal violet).",
+        "B": "Rose (elle est décolorée puis contre-colorée par la fuchsine).",
+        "C": "Incolore.",
+        "D": "Verte.",
+        "E": "Bleue sur fond rouge comme à la coloration de Ziehl-Neelsen."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La coloration de Gram, étape fondamentale de l'identification bactérienne, repose sur la structure de la paroi. Après cristal violet, lugol, décoloration à l'alcool et contre-coloration à la fuchsine (ou safranine) : les bactéries à Gram positif, à paroi épaisse de peptidoglycane, retiennent le cristal violet et apparaissent violettes ; les bactéries à Gram négatif, à paroi fine avec membrane externe, sont décolorées puis colorées en rose. Ce résultat, combiné à la morphologie (cocci, bacilles) et au mode de groupement, oriente d'emblée le diagnostic et l'antibiothérapie probabiliste. Certaines bactéries (mycobactéries) nécessitent la coloration de Ziehl-Neelsen.",
+      "explications_par_proposition": {
+        "A": "Vrai : Sa paroi épaisse de peptidoglycane retient le complexe cristal violet-lugol malgré la décoloration.",
+        "B": "Faux : C'est l'aspect des bactéries à Gram négatif.",
+        "C": "Faux : La coloration de Gram colore toutes les bactéries, en violet ou en rose.",
+        "D": "Faux : La coloration de Gram ne produit pas de teinte verte.",
+        "E": "Faux : La coloration de Ziehl-Neelsen, différente, met en évidence les bacilles acido-alcoolo-résistants (rouges)."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-031"
+      ],
+      "theme": "Résultat de la coloration de Gram",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre coloration de Gram et coloration de Ziehl-Neelsen.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        },
+        {
+          "reference": "Ryan KJ (éd.). Sherris & Ryan's Medical Microbiology. 8e éd. McGraw Hill ; 2022 [catalogue OUV-0205].",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PARA-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les parasites et les champignons, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les protozoaires sont des parasites unicellulaires eucaryotes.",
+        "B": "Les helminthes sont des parasites pluricellulaires (vers).",
+        "C": "Les champignons sont des eucaryotes dont la paroi contient de la chitine et des stérols (ergostérol).",
+        "D": "Certains parasites nécessitent un hôte intermédiaire pour accomplir leur cycle.",
+        "E": "Les champignons sont des organismes procaryotes dépourvus de noyau."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les agents parasitaires et fongiques sont des eucaryotes. Les protozoaires sont unicellulaires (Plasmodium, amibes, Toxoplasma, Leishmania) ; les helminthes sont des vers pluricellulaires (némathelminthes et plathelminthes). Les champignons (levures et moisissures) ont une paroi riche en chitine et une membrane contenant de l'ergostérol, cible des antifongiques. Les cycles parasitaires, souvent complexes, font intervenir des hôtes définitifs et intermédiaires et des vecteurs, notions essentielles en épidémiologie et en prophylaxie. Ces caractéristiques distinguent nettement parasites et champignons (eucaryotes) des bactéries (procaryotes) et des virus (acellulaires).",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemples : Plasmodium (paludisme), Entamoeba histolytica (amibiase), Toxoplasma gondii.",
+        "B": "Vrai : On distingue les némathelminthes (vers ronds) et les plathelminthes (vers plats : cestodes et trématodes).",
+        "C": "Vrai : L'ergostérol est la cible de nombreux antifongiques (azolés, polyènes).",
+        "D": "Vrai : Exemple : le cycle du paludisme entre l'anophèle (hôte définitif) et l'homme (hôte intermédiaire).",
+        "E": "Faux : Les champignons sont des eucaryotes possédant un noyau et des organites."
+      },
+      "specialite": "PARA",
+      "items_residanat": [
+        "RES-SF-031"
+      ],
+      "theme": "Parasites et champignons",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Classer les champignons parmi les procaryotes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Garcia LS. Diagnostic Medical Parasitology. 6e éd. ASM Press ; 2016 [catalogue OUV-0213].",
+          "date": "2016"
+        },
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOM-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'antibiogramme et la mesure de la sensibilité aux antibiotiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La concentration minimale inhibitrice (CMI) est la plus faible concentration d'antibiotique inhibant la croissance visible de la bactérie.",
+        "B": "L'antibiogramme par diffusion en milieu gélosé mesure un diamètre d'inhibition autour du disque d'antibiotique.",
+        "C": "Les souches sont catégorisées en sensible, intermédiaire (ou sensible à forte posologie) et résistant.",
+        "D": "Une CMI élevée traduit une grande sensibilité de la bactérie à l'antibiotique.",
+        "E": "La résistance d'une bactérie à un antibiotique est toujours un caractère acquis."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'antibiogramme évalue la sensibilité d'une bactérie isolée aux antibiotiques, soit par mesure directe de la concentration minimale inhibitrice (dilutions, bandelettes à gradient), soit par la méthode des disques (diamètre d'inhibition corrélé à la CMI). Les souches sont catégorisées (sensible, intermédiaire, résistant) selon des concentrations critiques définies par les comités d'experts, en tenant compte des concentrations atteignables in vivo. Une CMI basse signe une bonne sensibilité. La résistance peut être naturelle ou acquise (mutation, gènes transférables). L'antibiogramme guide l'antibiothérapie documentée et la surveillance épidémiologique des résistances.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle est mesurée en conditions standardisées.",
+        "B": "Vrai : Ce diamètre est corrélé à la CMI et permet une catégorisation.",
+        "C": "Vrai : La catégorisation guide le choix thérapeutique selon les concentrations atteignables in vivo.",
+        "D": "Faux : Une CMI élevée traduit au contraire une faible sensibilité (voire une résistance) : il faut plus d'antibiotique pour inhiber la bactérie.",
+        "E": "Faux : La résistance peut être naturelle (intrinsèque à l'espèce) ou acquise (mutation, acquisition de gènes de résistance)."
+      },
+      "specialite": "BIOM",
+      "items_residanat": [
+        "RES-SF-032"
+      ],
+      "theme": "Antibiogramme et concentration minimale inhibitrice",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter une CMI élevée comme une grande sensibilité.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Carroll KC, Pfaller MA (éd.). Manual of Clinical Microbiology. 12e éd. ASM Press ; 2019 [catalogue OUV-0209].",
+          "date": "2019"
+        },
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les prélèvements à visée microbiologique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les prélèvements bactériologiques doivent, autant que possible, être réalisés avant toute antibiothérapie.",
+        "B": "L'hémoculture doit être prélevée de façon aseptique, idéalement lors des pics fébriles ou des frissons.",
+        "C": "Le transport des prélèvements vers le laboratoire doit être rapide et dans des conditions adaptées.",
+        "D": "L'examen cytobactériologique des urines doit être réalisé sur des urines fraîches, après toilette, en milieu de jet.",
+        "E": "Un prélèvement contaminé par la flore commensale est sans conséquence sur l'interprétation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La qualité du prélèvement conditionne la fiabilité du diagnostic microbiologique. Règles générales : prélever au bon site, au bon moment (avant antibiothérapie, lors des pics fébriles pour les hémocultures), dans des conditions d'asepsie, en quantité suffisante, avec un transport rapide et adapté (milieux de transport pour germes fragiles). L'identification du contexte clinique et la distinction entre flore commensale, colonisation et infection sont essentielles à l'interprétation. Un prélèvement mal réalisé expose aux faux négatifs (antibiothérapie, délai) et aux faux positifs (contamination). Ces principes valent pour les hémocultures, l'ECBU, les prélèvements respiratoires, le liquide céphalorachidien, etc.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une antibiothérapie préalable peut négativer les cultures.",
+        "B": "Vrai : Une asepsie rigoureuse limite les contaminations par la flore cutanée.",
+        "C": "Vrai : Certains germes fragiles (anaérobies, gonocoque) nécessitent des milieux de transport spécifiques.",
+        "D": "Vrai : Pour limiter la contamination par la flore urétrale et périnéale.",
+        "E": "Faux : La contamination peut conduire à des faux positifs et à une interprétation erronée ; la qualité du prélèvement est déterminante."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-032"
+      ],
+      "theme": "Prélèvements microbiologiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Négliger l'impact d'une antibiothérapie préalable ou d'une contamination sur les résultats.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        },
+        {
+          "reference": "Carroll KC, Pfaller MA (éd.). Manual of Clinical Microbiology. 12e éd. ASM Press ; 2019 [catalogue OUV-0209].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les méthodes de diagnostic en microbiologie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'examen direct (état frais, colorations) fournit une orientation rapide.",
+        "B": "La culture permet l'identification de l'agent et la réalisation d'un antibiogramme.",
+        "C": "Les techniques de biologie moléculaire (PCR) permettent un diagnostic rapide et sensible, y compris pour des germes difficiles à cultiver.",
+        "D": "La sérologie met en évidence une réponse immunitaire (anticorps) de l'hôte vis-à-vis d'un agent infectieux.",
+        "E": "L'antibiogramme se réalise directement sur le prélèvement, sans isolement préalable du germe."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le diagnostic microbiologique repose sur des approches complémentaires : directes (examen microscopique, cultures avec identification et antibiogramme, détection d'antigènes, biologie moléculaire par PCR) et indirectes (sérologie, recherche d'anticorps). Le choix dépend du germe suspecté, de sa culturabilité et du délai souhaité. La culture reste la référence pour l'antibiogramme (concentration minimale inhibitrice, catégorisation clinique), mais la PCR offre rapidité et sensibilité, notamment pour les germes exigeants ou non cultivables. La spectrométrie de masse (MALDI-TOF) a accéléré l'identification. L'interprétation intègre toujours le contexte clinique.",
+      "explications_par_proposition": {
+        "A": "Vrai : La coloration de Gram oriente d'emblée l'antibiothérapie probabiliste.",
+        "B": "Vrai : L'antibiogramme étudie la sensibilité aux antibiotiques (concentration minimale inhibitrice, catégorisation S/I/R).",
+        "C": "Vrai : Elles détectent le génome du micro-organisme.",
+        "D": "Vrai : Utile notamment pour les infections difficiles à cultiver ; la séroconversion ou l'élévation du titre a une valeur diagnostique.",
+        "E": "Faux : L'antibiogramme classique nécessite l'isolement et l'identification préalables de la bactérie en culture (des approches rapides directes existent mais restent particulières)."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-032"
+      ],
+      "theme": "Méthodes de diagnostic en microbiologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'antibiogramme standard peut se passer de l'isolement du germe.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        },
+        {
+          "reference": "Carroll KC, Pfaller MA (éd.). Manual of Clinical Microbiology. 12e éd. ASM Press ; 2019 [catalogue OUV-0209].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la culture des bactéries en microbiologie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Certaines bactéries sont exigeantes et nécessitent des milieux enrichis pour se multiplier.",
+        "B": "Les bactéries anaérobies strictes nécessitent des conditions d'anaérobiose pour leur culture.",
+        "C": "Les milieux sélectifs permettent d'isoler certaines bactéries en inhibant la flore associée.",
+        "D": "L'identification repose sur des caractères culturaux, biochimiques, et de plus en plus sur la spectrométrie de masse (MALDI-TOF).",
+        "E": "Toutes les bactéries d'intérêt médical sont facilement cultivables sur milieux usuels."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La culture bactérienne, étape clé du diagnostic, utilise des milieux variés : usuels, enrichis (pour les bactéries exigeantes), sélectifs (pour isoler un germe au sein d'une flore) et différentiels. Les conditions d'incubation (atmosphère, température, durée) sont adaptées au germe recherché, notamment pour les anaérobies et les bactéries à croissance lente. L'identification combine morphologie des colonies, caractères biochimiques, et désormais spectrométrie de masse (MALDI-TOF), rapide et fiable. Certaines bactéries non cultivables imposent le recours à la sérologie ou à la biologie moléculaire. La culture reste indispensable à l'antibiogramme.",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemple : la gélose chocolat pour Haemophilus et le gonocoque.",
+        "B": "Vrai : L'oxygène leur est toxique ; des systèmes générateurs d'anaérobiose sont utilisés.",
+        "C": "Vrai : Ils contiennent des inhibiteurs (antibiotiques, sels) favorisant la pousse du germe recherché.",
+        "D": "Vrai : Le MALDI-TOF identifie rapidement le germe à partir d'une colonie.",
+        "E": "Faux : Certaines bactéries sont non cultivables ou difficiles à cultiver (Treponema pallidum, Mycobacterium leprae, Chlamydia) et nécessitent d'autres méthodes diagnostiques (sérologie, PCR)."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-032"
+      ],
+      "theme": "Milieux de culture et exigences bactériennes",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que toutes les bactéries pathogènes sont cultivables sur milieux usuels.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Carroll KC, Pfaller MA (éd.). Manual of Clinical Microbiology. 12e éd. ASM Press ; 2019 [catalogue OUV-0209].",
+          "date": "2019"
+        },
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'immunité non spécifique (innée), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle constitue la première ligne de défense et agit de façon immédiate, sans mémoire.",
+        "B": "Les polynucléaires neutrophiles et les macrophages sont des cellules phagocytaires majeures de l'immunité innée.",
+        "C": "Les cellules Natural Killer (NK) participent à l'immunité innée en détruisant des cellules infectées ou tumorales.",
+        "D": "Les barrières épithéliales (peau, muqueuses) font partie de l'immunité innée.",
+        "E": "L'immunité innée repose sur des récepteurs réarrangés spécifiques d'un antigène unique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'immunité innée est la première ligne de défense, immédiate, non spécifique et sans mémoire. Elle comprend des barrières (épithéliums, mucus, pH, peptides antimicrobiens), des cellules (phagocytes : neutrophiles et macrophages ; cellules dendritiques ; cellules NK ; mastocytes) et des molécules solubles (complément, cytokines, protéines de la phase aiguë). Elle reconnaît des motifs moléculaires conservés des pathogènes (PAMP) grâce à des récepteurs de reconnaissance de motifs (récepteurs Toll). Elle déclenche l'inflammation et oriente l'immunité adaptative (présentation de l'antigène). Son efficacité conditionne le contrôle initial de l'infection.",
+      "explications_par_proposition": {
+        "A": "Vrai : Contrairement à l'immunité adaptative, plus lente mais dotée de mémoire.",
+        "B": "Vrai : Ils assurent la phagocytose et la destruction des micro-organismes.",
+        "C": "Vrai : Elles reconnaissent notamment les cellules ayant perdu l'expression des molécules du CMH de classe I.",
+        "D": "Vrai : Elles constituent une barrière physique et chimique de première ligne.",
+        "E": "Faux : L'immunité innée utilise des récepteurs non réarrangés (récepteurs de reconnaissance de motifs, comme les récepteurs Toll) reconnaissant des motifs moléculaires communs à des groupes de pathogènes ; les récepteurs réarrangés caractérisent l'immunité adaptative."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-034"
+      ],
+      "theme": "Acteurs de l'immunité innée",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à l'immunité innée des récepteurs réarrangés spécifiques d'antigène.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology. 9e éd. Garland Science ; 2017 [catalogue OUV-0188].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la réaction inflammatoire et la phagocytose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les signes cardinaux de l'inflammation aiguë sont la rougeur, la chaleur, la tuméfaction et la douleur.",
+        "B": "La phagocytose comprend les étapes de chimiotactisme, d'adhérence, d'ingestion et de digestion.",
+        "C": "Les macrophages et les neutrophiles détruisent les micro-organismes notamment grâce aux dérivés réactifs de l'oxygène et à des enzymes lysosomales.",
+        "D": "Des cytokines pro-inflammatoires comme l'IL-1, le TNF-alpha et l'IL-6 sont libérées au cours de la réaction inflammatoire.",
+        "E": "Le chimiotactisme désigne la destruction intracellulaire des germes par les phagocytes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La réaction inflammatoire aiguë, composante de l'immunité innée, associe des phénomènes vasculaires (vasodilatation, augmentation de la perméabilité, œdème) et cellulaires (recrutement des phagocytes). La phagocytose se déroule en étapes : chimiotactisme, adhérence (molécules d'adhésion), ingestion facilitée par l'opsonisation, puis digestion par les enzymes lysosomales et les dérivés réactifs de l'oxygène. Les cytokines (IL-1, TNF-alpha, IL-6) amplifient la réaction et induisent des effets systémiques (fièvre, protéines de la phase aiguë). Cette réponse élimine le pathogène et initie la réparation, mais peut devenir délétère si elle est excessive.",
+      "explications_par_proposition": {
+        "A": "Vrai : Dus à la vasodilatation, à l'augmentation de la perméabilité capillaire et à la libération de médiateurs.",
+        "B": "Vrai : L'opsonisation (par des anticorps ou le complément) facilite la reconnaissance et l'ingestion.",
+        "C": "Vrai : L'explosion oxydative génère des radicaux microbicides.",
+        "D": "Vrai : Elles induisent notamment la fièvre et la synthèse hépatique des protéines de la phase aiguë.",
+        "E": "Faux : Le chimiotactisme est le déplacement orienté des phagocytes vers le foyer infectieux selon un gradient de médiateurs ; la destruction intracellulaire est une étape distincte (digestion)."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-034"
+      ],
+      "theme": "Réaction inflammatoire et phagocytose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre chimiotactisme (déplacement orienté) et digestion intracellulaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le système du complément, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il peut être activé par la voie classique, la voie alterne et la voie des lectines.",
+        "B": "La voie classique est activée par des complexes immuns (anticorps liés à l'antigène).",
+        "C": "Le complément participe à l'opsonisation, au chimiotactisme et à la lyse cellulaire.",
+        "D": "Les anaphylatoxines C3a et C5a augmentent la perméabilité vasculaire et recrutent les leucocytes.",
+        "E": "Le complément n'intervient que dans l'immunité adaptative."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le système du complément est un ensemble de protéines plasmatiques activables en cascade, acteur essentiel de l'immunité innée et pont avec l'immunité adaptative. Trois voies d'activation (classique par les complexes immuns, alterne, lectines) convergent vers le clivage du C3, puis du C5, aboutissant au complexe d'attaque membranaire (C5b-9) lytique. Ses fonctions sont l'opsonisation (C3b), le recrutement et l'activation des leucocytes (anaphylatoxines C3a, C5a) et la lyse directe des cibles. Ses déficits exposent à des infections (notamment à bactéries encapsulées, à Neisseria) et à des maladies auto-immunes ; son activation excessive participe à certaines pathologies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les trois voies convergent vers l'activation du C3.",
+        "B": "Vrai : Elle relie l'immunité adaptative (anticorps) au complément.",
+        "C": "Vrai : Le C3b opsonise, les anaphylatoxines (C3a, C5a) recrutent les cellules, le complexe d'attaque membranaire (C5b-9) lyse les cibles.",
+        "D": "Vrai : Elles participent à la réaction inflammatoire.",
+        "E": "Faux : Le complément est un acteur majeur de l'immunité innée, même si la voie classique peut être déclenchée par des anticorps."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-034"
+      ],
+      "theme": "Système du complément",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réduire le complément à l'immunité adaptative.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology. 9e éd. Garland Science ; 2017 [catalogue OUV-0188].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les marqueurs biologiques de la réaction inflammatoire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La protéine C-réactive (CRP) est une protéine de la phase aiguë dont la concentration s'élève rapidement en cas d'inflammation.",
+        "B": "La vitesse de sédimentation (VS) est un marqueur non spécifique de l'inflammation.",
+        "C": "Un syndrome inflammatoire biologique s'accompagne souvent d'une hyperfibrinogénémie et d'une augmentation des alpha-2 globulines.",
+        "D": "Au cours de l'inflammation, l'augmentation de l'hepcidine peut entraîner une anémie inflammatoire.",
+        "E": "La CRP s'abaisse au cours d'une infection bactérienne aiguë sévère."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La réaction inflammatoire s'accompagne de modifications biologiques utiles au diagnostic et au suivi : synthèse hépatique accrue des protéines de la phase aiguë (CRP, fibrinogène, haptoglobine, ferritine), sous l'effet des cytokines (IL-6 notamment). La CRP, d'élévation et de normalisation rapides, est le marqueur le plus utilisé ; la VS, plus inerte et moins spécifique, garde un intérêt dans certaines affections. L'inflammation chronique peut entraîner une anémie inflammatoire (hepcidine élevée) et une augmentation des alpha-2 globulines. L'interprétation de ces marqueurs doit toujours être rapportée au contexte clinique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Son élévation est précoce (quelques heures) et sa décroissance rapide après résolution.",
+        "B": "Vrai : Elle est influencée par de nombreux facteurs (âge, anémie, hyperprotéinémie) et s'élève plus lentement que la CRP.",
+        "C": "Vrai : Visibles à l'électrophorèse des protéines sériques.",
+        "D": "Vrai : Avec fer sérique bas et réserves conservées (ferritine normale ou élevée).",
+        "E": "Faux : La CRP s'élève dans l'infection bactérienne ; une CRP élevée oriente notamment vers une infection bactérienne."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-034"
+      ],
+      "theme": "Variations biologiques de la réaction inflammatoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la CRP s'abaisse dans une infection bactérienne aiguë.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }

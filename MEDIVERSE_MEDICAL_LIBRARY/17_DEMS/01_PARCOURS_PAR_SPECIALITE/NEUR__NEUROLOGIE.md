@@ -88,7 +88,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Hiérarchisation et décision dans les situations courantes ; présentation en staff ; information et consentement éclairé ; certificats et responsabilité médico-légale de base.
 
 **Gestes et savoir-faire**
-- Observer / aider : Réalisation et interprétation d'un ENMG de base ; Injection de toxine botulique (aide)
+- Observer / aider : Réalisation et interprétation d'un ENMG de base ; Injection de toxine botulique
 - Réaliser sous supervision : Lecture d'EEG standard ; Test aux anticholinestérasiques / évaluation d'une myasthénie ; Écho-doppler des troncs supra-aortiques (lecture)
 - Autonomie (contrôle a posteriori) : Décision et surveillance de thrombolyse
 
@@ -98,7 +98,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - EAN (European Academy of Neurology) — thèmes de neurologie
@@ -122,7 +121,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Participation aux réunions de concertation pluridisciplinaire et de morbi-mortalité ; encadrement des externes et internes ; lecture critique d'article ; travail de recherche selon les exigences de la faculté.
 
 **Gestes et savoir-faire**
-- Réaliser sous supervision : Réalisation et interprétation d'un ENMG de base ; Injection de toxine botulique (aide)
+- Réaliser sous supervision : Réalisation et interprétation d'un ENMG de base ; Injection de toxine botulique
 - Autonomie (contrôle a posteriori) : Lecture d'EEG standard ; Test aux anticholinestérasiques / évaluation d'une myasthénie
 
 **Urgences et conduites à tenir prioritaires**
@@ -131,7 +130,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - HAS (France) — maladie de Parkinson, maladie d'Alzheimer (parcours)
@@ -153,14 +151,13 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Autonomie décisionnelle encadrée ; consultation spécialisée ; annonce d'une mauvaise nouvelle ; gestion des risques et des événements indésirables.
 
 **Gestes et savoir-faire**
-- Autonomie (contrôle a posteriori) : Réalisation et interprétation d'un ENMG de base ; Écho-doppler des troncs supra-aortiques (lecture) ; Injection de toxine botulique (aide)
+- Autonomie (contrôle a posteriori) : Réalisation et interprétation d'un ENMG de base ; Écho-doppler des troncs supra-aortiques (lecture) ; Injection de toxine botulique
 
 **Urgences et conduites à tenir prioritaires**
 - Réviser les urgences des années précédentes sous forme de cas cliniques chronométrés ; **toutes** les urgences de la liste en vue de l'examen final.
 
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
@@ -175,7 +172,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 | Situation | Palier | Dossier existant dans la bibliothèque |
 |---|---|---|
-| AVC ischémique à la phase aiguë (thrombolyse, thrombectomie) | A | — (à rédiger) |
+| AVC ischémique à la phase aiguë (thrombolyse, thrombectomie) | A | [DOS-NEUR-0001](../../12_NEUROLOGIE/21_NEUR_NEUROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEUR-0001__ACCIDENTS_VASCULAIRES_CEREBRAUX.md) |
 | Hémorragie cérébrale et hémorragie méningée | A | — (à rédiger) |
 | État de mal épileptique | A | — (à rédiger) |
 | Méningite et méningo-encéphalite | A | [DOS-INFE-0001](../../07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0001__MENINGITES_PURULENTES.md) |
@@ -197,11 +194,10 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 12 (codes NEUR) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 2 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (35)
+**Recommandations cataloguées** : 32 en vigueur (+ 3 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0276 — ESCMID guideline: diagnosis and treatment of acute bacterial meningitis (ESCMID, 2016-04 ; statut : actuelle)
 - REC-0277 — Management of acute community-acquired bacterial meningitis (excluding newborns). Short text (SPILF (avec sociétés savantes françaises), 2019-07 ; statut : actuelle)
 - REC-0278 — WHO guidelines on meningitis diagnosis, treatment and care (OMS, 2025-04 ; statut : actuelle)
-- REC-0404 — Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines for the Early Management of Acute Ischemic Stroke (AHA / ASA, 2019-10 ; statut : remplacee)
 - REC-0405 — 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: A Guideline From the American Heart Association/American Stroke Association (AHA / ASA, 2026-01 ; statut : actuelle)
 - REC-0406 — European Stroke Organisation (ESO) guidelines on intravenous thrombolysis for acute ischaemic stroke (ESO (European Stroke Organisation), 2021-02 ; statut : actuelle)
 - REC-0407 — European Stroke Organisation (ESO) - European Society for Minimally Invasive Neurological Therapy (ESMINT) Guidelines on Mechanical Thrombectomy in Acute Ischaemic StrokeEndorsed by Stroke Alliance for Europe (SAFE) (ESO / ESMINT, 2019-02 ; statut : actuelle)
@@ -210,8 +206,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0410 — European Stroke Organisation (ESO) and European Association of Neurosurgical Societies (EANS) guideline on stroke due to spontaneous intracerebral haemorrhage (ESO / EANS, 2025-05 ; statut : actuelle)
 - REC-0411 — 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage: A Guideline From the American Heart Association/American Stroke Association (AHA / ASA, 2023-05 ; statut : actuelle)
 - REC-0412 — ILAE official report: a practical clinical definition of epilepsy (ILAE (International League Against Epilepsy), 2014-04 ; statut : actuelle)
-- REC-0413 — Operational classification of seizure types by the International League Against Epilepsy: Position Paper of the ILAE Commission for Classification and Terminology (ILAE, 2017-03 ; statut : remplacee)
-- REC-0414 — Diagnosis of multiple sclerosis: 2017 revisions of the McDonald criteria (International Panel on Diagnosis of MS, 2017-12 ; statut : remplacee)
 - REC-0415 — Diagnosis of multiple sclerosis: 2024 revisions of the McDonald criteria (International Panel on Diagnosis of MS, 2025-10 ; statut : actuelle)
 - REC-0416 — ECTRIMS/EAN Guideline on the pharmacological treatment of people with multiple sclerosis (ECTRIMS / EAN, 2018-01 ; statut : actuelle)
 - REC-0417 — International Consensus Guidance for Management of Myasthenia Gravis: 2020 Update (MGFA (consensus international), 2020-11 ; statut : actuelle)

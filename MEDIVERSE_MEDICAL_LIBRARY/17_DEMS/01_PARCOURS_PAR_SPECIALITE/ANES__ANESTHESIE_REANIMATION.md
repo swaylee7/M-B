@@ -23,7 +23,7 @@ statut: brouillon_a_auditer
 |---|---|---|
 | Intitulé | Anesthésie-réanimation | intitulé français de l'annexe de l'arrêté 1001/2024 (DOC-00020) |
 | Intitulé arabe | التخدير والإنعاش | annexe de l'arrêté 1137/2015 (DOC-00066) |
-| Filière | spécialités médicales | Arrêté 1137 du 04/11/2015, annexe, tableau « médecine », n°1 (4 ans)  |
+| Filière | spécialités médicales | Arrêté 1137 du 04/11/2015, annexe, tableau « médecine », n°1 (4 ans) |
 | Durée de formation | **4 ans** | Arrêté 1137 du 04/11/2015, annexe, tableau « médecine », n°1 (4 ans) ; Arrêté 099 du 02/02/2025, art. 2 (4 ans) (DOC-00066, DOC-00020, DOC-00014) |
 | Texte de programme | Arrêté 099 du 02/02/2025 (durée fixée ; programme en annexe **non publiée au BO**) | DOC-00014 |
 | Jury national 2024-2025 | oui | arrêté 1001 du 29/07/2024 (DOC-00020) |
@@ -100,7 +100,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Surviving Sepsis Campaign — sepsis et choc septique
 - ESAIC (European Society of Anaesthesiology and Intensive Care) — saignement périopératoire, évaluation préopératoire
@@ -132,7 +131,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Difficult Airway Society — algorithmes de gestion des voies aériennes
 - OMS — check-list de sécurité chirurgicale
@@ -161,7 +159,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
 
@@ -178,7 +175,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 | Arrêt cardio-respiratoire | A | — (à rédiger) |
 | Intubation difficile imprévue | A | — (à rédiger) |
 | Choc anaphylactique peranesthésique | A | [DOS-MINT_REA-0001](../../13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md) |
-| Choc hémorragique | A | — (à rédiger) |
+| Choc hémorragique | A | [DOS-MINT_REA-0001](../../13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md) |
 | Hémorragie du post-partum (versant anesthésique) | A | [DOS-OBST-0002](../../10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/02_DOSSIERS_PEDAGOGIQUES/DOS-OBST-0002__HEMORRAGIE_DE_LA_DELIVRANCE.md) |
 | Inhalation bronchique | A | — (à rédiger) |
 | Toxicité systémique des anesthésiques locaux | B | — (à rédiger) |
@@ -199,7 +196,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 0 (codes ANES) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 0 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (1)
+**Recommandations cataloguées** : 1 en vigueur — références datées des thèmes cités en partie C
 - REC-0301 — Red Blood Cell Transfusion: 2023 AABB International Guidelines (AABB (Association for the Advancement of Blood & Biotherapies), 2023-11 ; statut : actuelle)
 
 **Documents acquis (registre)** (1)

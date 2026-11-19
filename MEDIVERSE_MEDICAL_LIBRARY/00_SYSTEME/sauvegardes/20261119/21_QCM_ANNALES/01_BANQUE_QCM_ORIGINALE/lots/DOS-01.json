@@ -1,0 +1,2991 @@
+{
+  "agent": "DOS-01",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-CARD-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations ESC 2021 sur l'insuffisance cardiaque, quelles propositions concernant les phénotypes définis par la FEVG sont exactes ?",
+      "propositions": {
+        "A": "L'IC à FEVG réduite correspond à une FEVG ≤ 40 %.",
+        "B": "L'IC à FEVG modérément réduite correspond à une FEVG comprise entre 41 et 49 %.",
+        "C": "Le diagnostic d'IC à FEVG préservée nécessite uniquement une FEVG ≥ 50 % et une dyspnée.",
+        "D": "Une IC à FEVG améliorée correspond à une FEVG initialement ≤ 40 %, ayant augmenté d'au moins 10 points et dépassant 40 %.",
+        "E": "La classification 2021 a été conservée à l'identique par les recommandations ESC 2026."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'ESC 2021 distingue trois phénotypes selon la FEVG ; l'ICFEp exige en plus des arguments objectifs (anomalies structurelles/fonctionnelles, peptides élevés). L'ESC 2026 a supprimé la catégorie modérément réduite.",
+      "explications_par_proposition": {
+        "A": "Vrai : seuil ≤ 40 % (ESC 2021).",
+        "B": "Vrai : 41–49 % = ICFEmr (ESC 2021).",
+        "C": "Faux : il faut des preuves objectives d'anomalie structurelle/fonctionnelle compatibles avec une élévation des pressions de remplissage, dont les peptides natriurétiques.",
+        "D": "Vrai : définition de la définition universelle 2021 (Bozkurt et al.).",
+        "E": "Faux : l'ESC 2026 ne retient que deux phénotypes (FEVG < 50 % et ≥ 50 %) d'après les sources disponibles."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — définitions et classification",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Oublier que l'ICFEp ne se définit pas par la seule FEVG normale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        },
+        {
+          "reference": "Bozkurt B et al. Universal definition of HF. Eur J Heart Fail 2021;23:352-380",
+          "date": "2021"
+        },
+        {
+          "reference": "2026 ESC Guidelines for the management of heart failure, doi:10.1093/eurheartj/ehag100 (contenu via sources secondaires)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les peptides natriurétiques dans le diagnostic de l'insuffisance cardiaque (ESC 2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "En situation non aiguë, un NT-proBNP < 125 pg/mL rend le diagnostic d'IC peu probable.",
+        "B": "En situation aiguë, le seuil d'exclusion du BNP est de 100 pg/mL.",
+        "C": "L'obésité est responsable de valeurs faussement élevées.",
+        "D": "Sous sacubitril/valsartan, le NT-proBNP reste interprétable pour le suivi.",
+        "E": "La fibrillation atriale et l'insuffisance rénale peuvent élever les peptides en dehors de toute décompensation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les peptides ont surtout une valeur prédictive négative. Seuils ESC 2021 : chronique BNP < 35 / NT-proBNP < 125 pg/mL ; aigu BNP < 100 / NT-proBNP < 300 pg/mL.",
+      "explications_par_proposition": {
+        "A": "Vrai : seuil d'exclusion en situation non aiguë.",
+        "B": "Vrai : seuil d'exclusion en situation aiguë.",
+        "C": "Faux : l'obésité abaisse les peptides (faux négatifs).",
+        "D": "Vrai : le NT-proBNP n'est pas un substrat de la néprilysine, contrairement au BNP.",
+        "E": "Vrai : âge, FA, insuffisance rénale, embolie pulmonaire, sepsis élèvent les peptides."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — biomarqueurs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter le BNP sous sacubitril/valsartan ou se rassurer devant un BNP bas chez l'obèse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient de 58 ans présente une IC à FEVG réduite (FEVG 28 %), NYHA II, PA 118/72 mmHg, FC 78/min en rythme sinusal, K+ 4,4 mmol/L, DFGe 62 mL/min/1,73 m². Selon le cadre ESC 2021/2023, quelles classes médicamenteuses doivent faire partie de son traitement de fond (sauf contre-indication) ?",
+      "propositions": {
+        "A": "IEC ou sacubitril/valsartan.",
+        "B": "Bêtabloquant validé dans l'IC.",
+        "C": "Antagoniste des récepteurs minéralocorticoïdes.",
+        "D": "Inhibiteur du SGLT2, uniquement s'il est diabétique.",
+        "E": "Digoxine systématique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les quatre piliers de l'ICFEr (classe I, ESC 2021) sont IEC/ARNI, bêtabloquant, ARM et iSGLT2 (dapagliflozine ou empagliflozine), ce dernier quel que soit le statut diabétique.",
+      "explications_par_proposition": {
+        "A": "Vrai : IEC (ou ARNI) en classe I.",
+        "B": "Vrai : bisoprolol, carvédilol, métoprolol succinate ou nébivolol.",
+        "C": "Vrai : spironolactone ou éplérénone.",
+        "D": "Faux : l'iSGLT2 est indiqué chez le diabétique comme chez le non-diabétique.",
+        "E": "Faux : la digoxine est un traitement de seconde ligne (classe IIb), non systématique."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — traitement de fond de l'ICFEr",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Réserver l'iSGLT2 au diabétique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le sacubitril/valsartan dans l'IC à FEVG réduite, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il associe un antagoniste du récepteur AT1 de l'angiotensine II et un inhibiteur de la néprilysine.",
+        "B": "Il peut être pris le même jour que la dernière dose d'IEC.",
+        "C": "Un délai d'au moins 36 heures après la dernière prise d'IEC est nécessaire.",
+        "D": "La dose cible habituelle est de 97/103 mg deux fois par jour.",
+        "E": "Il augmente le risque d'angio-œdème en association avec un IEC."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'inhibition de la néprilysine et l'IEC augmentent tous deux la bradykinine : l'association expose à l'angio-œdème, d'où le délai de 36 h.",
+      "explications_par_proposition": {
+        "A": "Vrai : valsartan + sacubitril.",
+        "B": "Faux : risque d'angio-œdème.",
+        "C": "Vrai.",
+        "D": "Vrai : dose cible du tableau ESC 2021.",
+        "E": "Vrai : contre-indication de l'association."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — ARNI",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la fenêtre thérapeutique de 36 h.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une patiente de 74 ans est admise pour un œdème aigu pulmonaire : FR 34/min, SpO2 84 %, PA 196/108 mmHg, extrémités chaudes, crépitants bilatéraux. Quelles mesures sont adaptées dans la première heure ?",
+      "propositions": {
+        "A": "Ventilation non invasive (CPAP) en l'absence de contre-indication.",
+        "B": "Trinitrine IV à débit progressif.",
+        "C": "Furosémide IV.",
+        "D": "Morphine IV systématique pour réduire l'anxiété.",
+        "E": "Dobutamine IV."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Profil chaud-humide avec PA élevée : oxygène/VNI, vasodilatateur (PAS > 110 mmHg) et diurétique IV. Morphine non recommandée en routine ; inotropes réservés à l'hypoperfusion avec hypotension.",
+      "explications_par_proposition": {
+        "A": "Vrai : VNI en cas de détresse respiratoire.",
+        "B": "Vrai : vasodilatateur clé de l'OAP hypertensif.",
+        "C": "Vrai : décongestion.",
+        "D": "Faux : opiacés non recommandés en routine (ESC 2021).",
+        "E": "Faux : pas d'hypoperfusion ni d'hypotension."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque aiguë — OAP",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "La morphine « classique » dans l'OAP n'est plus recommandée en routine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les éléments suivants, lesquels font partie des causes à rechercher en priorité devant une insuffisance cardiaque aiguë (acronyme CHAMPIT, ESC 2021) ?",
+      "propositions": {
+        "A": "Syndrome coronarien aigu.",
+        "B": "Urgence hypertensive.",
+        "C": "Embolie pulmonaire.",
+        "D": "Tamponnade.",
+        "E": "Hypothyroïdie fruste."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "CHAMPIT : Coronarien aigu, Hypertension (urgence), Arythmie, cause Mécanique, embolie Pulmonaire, Infection, Tamponnade.",
+      "explications_par_proposition": {
+        "A": "Vrai : C.",
+        "B": "Vrai : H.",
+        "C": "Vrai : P.",
+        "D": "Vrai : T.",
+        "E": "Faux : ne fait pas partie de l'acronyme, même si la dysthyroïdie peut être un facteur aggravant."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque aiguë — facteurs déclenchants",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la diurèse dans l'IC aiguë congestive (ESC 2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez un patient déjà sous furosémide oral, la dose IV initiale représente 1 à 2 fois la dose orale quotidienne.",
+        "B": "Chez un patient naïf, une dose initiale de 20 à 40 mg de furosémide IV est proposée.",
+        "C": "Une natriurèse < 50–70 mmol/L à 2 heures traduit une réponse insuffisante.",
+        "D": "En cas de réponse insuffisante, on peut doubler la dose de diurétique de l'anse.",
+        "E": "L'ajout d'un thiazidique est contre-indiqué."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'ESC 2021 propose une diurèse guidée par la natriurèse (2 h) et la diurèse (6 h), avec escalade de dose puis blocage néphronique séquentiel.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : seuil de réponse insuffisante.",
+        "D": "Vrai : première étape d'escalade.",
+        "E": "Faux : l'association à un thiazidique est une option en cas de résistance (surveillance ionique étroite)."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque aiguë — diurétiques",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Sous-doser le diurétique chez un patient déjà traité au long cours.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient avec ICFEr ischémique reçoit depuis 4 mois un traitement médical optimal. FEVG 32 %, NYHA II, rythme sinusal, QRS 160 ms avec aspect de bloc de branche gauche. Quelles propositions sont exactes (ESC 2021) ?",
+      "propositions": {
+        "A": "Une resynchronisation cardiaque est indiquée.",
+        "B": "Une fonction défibrillateur peut être associée à la resynchronisation.",
+        "C": "La resynchronisation est contre-indiquée en NYHA II.",
+        "D": "Le bénéfice de la resynchronisation est maximal avec un QRS large de type BBG.",
+        "E": "Un QRS < 130 ms aurait contre-indiqué la resynchronisation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "CRT : FEVG ≤ 35 %, symptômes malgré traitement optimal, rythme sinusal, QRS ≥ 150 ms et BBG (indication la plus forte). La CRT est contre-indiquée si QRS < 130 ms.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : CRT-D chez ce patient ischémique avec FEVG ≤ 35 %.",
+        "C": "Faux : la CRT est indiquée chez les patients symptomatiques, NYHA II inclus.",
+        "D": "Vrai.",
+        "E": "Vrai : absence de bénéfice, voire effet délétère."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — dispositifs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Proposer une CRT pour un QRS fin.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'insuffisance cardiaque à FEVG préservée, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est plus fréquente chez la femme âgée hypertendue.",
+        "B": "Les iSGLT2 (dapagliflozine, empagliflozine) y sont recommandés en classe I depuis la mise à jour ESC 2023.",
+        "C": "Une amylose à transthyrétine doit être évoquée chez le sujet âgé avec HVG et microvoltage.",
+        "D": "Le score H2FPEF intègre la fibrillation atriale.",
+        "E": "Les peptides natriurétiques y sont toujours très élevés."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'ICFEp est liée aux comorbidités ; ses peptides peuvent être peu élevés (obésité). Les iSGLT2 sont en classe I depuis 2023 ; l'ESC 2026 y ajoute les ARM comme traitement fondamental (d'après les sources secondaires).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : mise à jour ESC 2023.",
+        "C": "Vrai : discordance HVG/microvoltage évocatrice.",
+        "D": "Vrai : FA = 3 points dans le score H2FPEF.",
+        "E": "Faux : souvent moins élevés que dans l'ICFEr, surtout chez l'obèse."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — ICFEp",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer une ICFEp sur un BNP « modestement » élevé chez un obèse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2023 Focused Update ESC HF. Eur Heart J 2023;44:3627-3639",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la surveillance d'un traitement par antagoniste des récepteurs minéralocorticoïdes dans l'ICFEr, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La kaliémie et la créatinine doivent être contrôlées 1 à 2 semaines après l'introduction.",
+        "B": "Une kaliémie à 5,3 mmol/L impose l'arrêt définitif.",
+        "C": "La gynécomastie est un effet indésirable de la spironolactone.",
+        "D": "L'éplérénone est une alternative en cas de gynécomastie.",
+        "E": "L'association systématique IEC + ARA II + ARM est recommandée."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Une kaliémie jusqu'à 5,5 mmol/L est généralement tolérée ; au-delà, réduire la dose ; arrêter si > 6,0 mmol/L. Le triple blocage SRAA est déconseillé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : surveillance, éventuelle réduction au-delà de 5,5 mmol/L.",
+        "C": "Vrai : effet anti-androgénique.",
+        "D": "Vrai : plus sélective.",
+        "E": "Faux : risque d'hyperkaliémie et d'insuffisance rénale."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — surveillance du traitement",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": "Arrêter un ARM pour une hyperkaliémie modérée tolérable.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la carence martiale dans l'insuffisance cardiaque, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est définie par une ferritine < 100 µg/L.",
+        "B": "Elle est aussi retenue si la ferritine est entre 100 et 299 µg/L avec un coefficient de saturation de la transferrine < 20 %.",
+        "C": "Elle nécessite la présence d'une anémie.",
+        "D": "Le fer intraveineux peut être proposé pour améliorer les symptômes et la qualité de vie.",
+        "E": "Le dépistage est réservé aux patients anémiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La définition de la carence martiale dans l'IC est indépendante de l'hémoglobine ; tous les patients doivent être dépistés.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : carence possible sans anémie.",
+        "D": "Vrai : carboxymaltose ou dérisomaltose ferrique.",
+        "E": "Faux : dépistage systématique (ESC 2021)."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — comorbidités",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Exiger une anémie pour parler de carence martiale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        },
+        {
+          "reference": "McDonagh TA et al. 2023 Focused Update ESC HF. Eur Heart J 2023;44:3627-3639",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les informations disponibles sur les recommandations ESC 2026 sur l'insuffisance cardiaque, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le terme « IC décompensée » remplace celui d'« IC aiguë ».",
+        "B": "Une stadification de A à D est adoptée.",
+        "C": "La catégorie d'IC à FEVG modérément réduite est maintenue.",
+        "D": "Les antagonistes des récepteurs minéralocorticoïdes sont recommandés en classe I dans l'IC chronique quelle que soit la FEVG.",
+        "E": "Les iSGLT2 sont abandonnés dans l'ICFEp."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les communiqués de l'ESC et la presse médicale rapportent ces changements ; le texte intégral doit être consulté pour les classes exactes.",
+      "explications_par_proposition": {
+        "A": "Vrai (selon les sources secondaires).",
+        "B": "Vrai.",
+        "C": "Faux : deux phénotypes seulement (< 50 % et ≥ 50 %).",
+        "D": "Vrai (selon le communiqué ESC).",
+        "E": "Faux : les iSGLT2 font partie du traitement fondamental de l'ICFEp avec les ARM."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "theme": "Insuffisance cardiaque — actualités 2026",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Citer une classification sans préciser l'année du référentiel.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "2026 ESC Guidelines for the management of heart failure, doi:10.1093/eurheartj/ehag100 (contenu via sources secondaires)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les seuils diagnostiques de l'hypertension artérielle selon les recommandations européennes (ESH 2023, ESC 2024), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Au cabinet, l'HTA est définie par une PA ≥ 140/90 mmHg.",
+        "B": "En automesure, le seuil est ≥ 135/85 mmHg.",
+        "C": "En MAPA, la moyenne des 24 heures définit une HTA à partir de 140/90 mmHg.",
+        "D": "En MAPA, la moyenne nocturne définit une HTA à partir de 120/70 mmHg.",
+        "E": "Le seuil de 130/80 mmHg au cabinet est celui retenu par les recommandations nord-américaines."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les seuils hors cabinet sont plus bas que ceux de consultation : AMT ≥ 135/85, MAPA 24 h ≥ 130/80, jour ≥ 135/85, nuit ≥ 120/70. L'ACC/AHA définit l'HTA dès 130/80 (2017, maintenu en 2025).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : seuil de 130/80 mmHg sur 24 h.",
+        "D": "Vrai.",
+        "E": "Vrai : ACC/AHA 2017 et AHA/ACC 2025."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — définitions et mesure",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Appliquer le seuil de consultation à la MAPA des 24 h.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        },
+        {
+          "reference": "McEvoy JW et al. 2024 ESC Guidelines elevated BP and hypertension. Eur Heart J 2024;45:3912-4018",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la classification de la PA dans les recommandations ESC 2024, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle comporte trois catégories : PA non élevée, PA élevée, hypertension.",
+        "B": "La PA élevée correspond à une PAS de 120 à 139 mmHg ou une PAD de 70 à 89 mmHg.",
+        "C": "La catégorie « normale haute » y est conservée.",
+        "D": "L'hypertension reste définie à partir de 140/90 mmHg.",
+        "E": "Les grades 1, 2 et 3 constituent la base de la décision thérapeutique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'ESC 2024 simplifie la classification en trois catégories, le seuil d'HTA restant à 140/90. La terminologie « normale haute » et les grades appartiennent à l'ESH 2023.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est la classification ESH 2023.",
+        "D": "Vrai.",
+        "E": "Faux : la décision repose sur la catégorie et le risque cardiovasculaire (SCORE2), pas sur les grades."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — classifications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Mélanger les classifications ESH 2023 et ESC 2024.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McEvoy JW et al. 2024 ESC Guidelines elevated BP and hypertension. Eur Heart J 2024;45:3912-4018",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les examens suivants, lesquels font partie du bilan initial systématique d'un hypertendu selon les recommandations européennes récentes ?",
+      "propositions": {
+        "A": "Créatininémie avec estimation du DFG.",
+        "B": "Kaliémie.",
+        "C": "Rapport albumine/créatinine urinaire.",
+        "D": "ECG 12 dérivations.",
+        "E": "Dosage systématique des métanéphrines."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le bilan initial évalue le risque et le retentissement : créatinine/DFGe, ionogramme, glycémie, lipides, albuminurie, ECG. Les examens d'HTA secondaire sont orientés.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : dépistage d'une hypokaliémie.",
+        "C": "Vrai : recommandé chez tous (ESH 2023, ESC 2024, AHA/ACC 2025).",
+        "D": "Vrai.",
+        "E": "Faux : réservé à une suspicion de phéochromocytome."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — bilan initial",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Prescrire un bilan d'HTA secondaire exhaustif à tous les patients.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        },
+        {
+          "reference": "HAS/SFHTA. Prise en charge de l'HTA de l'adulte. Fiche mémo 2016",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 38 ans a une HTA à 158/98 mmHg confirmée en automesure et une kaliémie à 3,2 mmol/L sans traitement. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un hyperaldostéronisme primaire doit être recherché.",
+        "B": "Le dépistage repose sur le rapport aldostérone/rénine.",
+        "C": "Le dosage doit être réalisé de préférence sous spironolactone.",
+        "D": "La kaliémie doit être corrigée avant le dosage.",
+        "E": "Un scanner surrénalien seul suffit à décider d'une surrénalectomie dans tous les cas."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "HTA du sujet jeune avec hypokaliémie spontanée : hyperaldostéronisme primaire à rechercher par le rapport aldostérone/rénine en conditions standardisées, puis confirmation et latéralisation.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : la spironolactone fausse le test (élévation de la rénine).",
+        "D": "Vrai : l'hypokaliémie freine la sécrétion d'aldostérone (faux négatif).",
+        "E": "Faux : la latéralisation par cathétérisme des veines surrénales est souvent nécessaire."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — HTA secondaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Doser le rapport aldostérone/rénine en hypokaliémie ou sous antialdostérone.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement initial d'une HTA grade 2 non compliquée chez un homme de 55 ans, selon l'ESH 2023 et l'ESC 2024, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une bithérapie à faibles doses est recommandée d'emblée chez la plupart des patients.",
+        "B": "L'association fixe en un comprimé est préférée pour l'observance.",
+        "C": "IEC + ARA II est une association de choix.",
+        "D": "IEC ou ARA II + inhibiteur calcique dihydropyridinique est une association recommandée.",
+        "E": "IEC ou ARA II + diurétique thiazidique ou apparenté est une association recommandée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La bithérapie fixe initiale (bloqueur du SRAA + inhibiteur calcique ou diurétique) est la stratégie de référence européenne depuis 2018.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : double blocage du SRAA non recommandé.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — stratégie thérapeutique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Associer deux bloqueurs du SRAA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        },
+        {
+          "reference": "McEvoy JW et al. 2024 ESC Guidelines. Eur Heart J 2024;45:3912-4018",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les cibles tensionnelles chez le patient traité, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'ESC 2024 propose une PAS de 120 à 129 mmHg chez la plupart des adultes si le traitement est bien toléré.",
+        "B": "L'ESH 2023 propose chez les 18–64 ans une cible < 130/80 mmHg (PAS 120–129).",
+        "C": "L'ESH 2023 propose chez les ≥ 80 ans une PAS de 140 à 150 mmHg, voire 130–139 si bien tolérée.",
+        "D": "L'AHA/ACC 2025 propose une cible < 140/90 mmHg pour la plupart des adultes.",
+        "E": "Le principe ALARA (aussi bas que raisonnablement possible) est mis en avant par l'ESC 2024 lorsque la cible n'est pas tolérée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les cibles convergent vers des valeurs plus basses mais diffèrent selon l'âge et le référentiel.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : cible < 130/80 mmHg.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — objectifs tensionnels",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Donner une cible sans préciser l'âge, la tolérance et le référentiel.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        },
+        {
+          "reference": "McEvoy JW et al. 2024 ESC Guidelines. Eur Heart J 2024;45:3912-4018",
+          "date": "2024"
+        },
+        {
+          "reference": "Jones DW et al. 2025 AHA/ACC High Blood Pressure Guideline. Hypertension 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'HTA résistante, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle se définit par une PA non contrôlée malgré au moins trois antihypertenseurs dont un diurétique, à doses optimales.",
+        "B": "Le défaut d'observance est une cause fréquente de pseudo-résistance.",
+        "C": "La confirmation par MAPA ou automesure est nécessaire.",
+        "D": "La spironolactone est le quatrième médicament de choix si la kaliémie et la fonction rénale le permettent.",
+        "E": "La dénervation rénale est le traitement de première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La résistance vraie suppose d'avoir éliminé la pseudo-résistance (mesure, observance, effet blouse blanche). La spironolactone est la 4e ligne de référence ; la dénervation rénale est une option de recours en centre expert.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : option de recours chez des patients sélectionnés."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — HTA résistante",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retenir une résistance sans vérifier l'observance ni réaliser de MAPA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 61 ans hypertendu présente une douleur thoracique transfixiante irradiant dans le dos ; PA 196/104 mmHg, FC 104/min. Un angioscanner confirme une dissection aortique de type A. Quelles propositions sont exactes concernant le contrôle tensionnel ?",
+      "propositions": {
+        "A": "L'objectif est une PAS < 120 mmHg et une FC < 60/min dans les plus brefs délais.",
+        "B": "Un bêtabloquant IV (esmolol, labétalol) doit être administré en premier.",
+        "C": "Un vasodilatateur seul est préférable pour éviter la bradycardie.",
+        "D": "La baisse de PA doit être limitée à 25 % de la PAM sur 24 heures.",
+        "E": "L'avis chirurgical urgent est indispensable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "La dissection aortique est l'exception à la règle de la baisse progressive : objectif PAS < 120 mmHg et FC < 60/min immédiatement, bêtabloquant d'abord puis vasodilatateur si besoin ; type A = chirurgie urgente.",
+      "explications_par_proposition": {
+        "A": "Vrai (ESC/ESH 2018).",
+        "B": "Vrai : réduire la dP/dt et éviter la tachycardie réflexe.",
+        "C": "Faux : le vasodilatateur seul provoque une tachycardie réflexe.",
+        "D": "Faux : règle des autres urgences hypertensives.",
+        "E": "Vrai : la dissection de type A est une urgence chirurgicale."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — urgences hypertensives",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer la baisse progressive de 25 % à la dissection aortique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Williams B et al. 2018 ESC/ESH Guidelines. Eur Heart J 2018;39:3021-3104",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les antihypertenseurs pendant la grossesse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La méthyldopa peut être utilisée.",
+        "B": "Le labétalol peut être utilisé.",
+        "C": "La nifédipine à libération prolongée peut être utilisée.",
+        "D": "Les IEC sont utilisables au troisième trimestre.",
+        "E": "Les ARA II sont contre-indiqués."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "IEC, ARA II, ARM, inhibiteurs de la rénine sont fœtotoxiques et contre-indiqués pendant la grossesse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : fœtotoxicité (insuffisance rénale fœtale, oligoamnios), surtout aux 2e et 3e trimestres.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — grossesse",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les effets indésirables des antihypertenseurs, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "Amlodipine — œdèmes des chevilles peu sensibles aux diurétiques.",
+        "B": "IEC — toux sèche.",
+        "C": "Hydrochlorothiazide — hyperkaliémie.",
+        "D": "Spironolactone — gynécomastie.",
+        "E": "Clonidine — rebond hypertensif à l'arrêt brutal."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les thiazidiques provoquent une hypokaliémie, pas une hyperkaliémie.",
+      "explications_par_proposition": {
+        "A": "Vrai : vasodilatation précapillaire.",
+        "B": "Vrai : accumulation de bradykinine.",
+        "C": "Faux : hypokaliémie.",
+        "D": "Vrai : effet anti-androgénique.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — pharmacologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter les œdèmes d'amlodipine par un diurétique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la place des bêtabloquants dans l'HTA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'ESH 2023 les considère comme une des cinq classes majeures utilisables à toute étape.",
+        "B": "L'ESC 2024 les réserve en règle aux patients ayant une indication spécifique (angor, post-infarctus, ICFEr, contrôle de la fréquence).",
+        "C": "Ils sont contre-indiqués pendant la grossesse.",
+        "D": "Leur association au vérapamil est recommandée.",
+        "E": "En monothérapie, leur protection contre l'AVC est moindre que celle des autres classes majeures."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "La place des bêtabloquants est un point de divergence ESH 2023 / ESC 2024.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : le labétalol est un traitement de référence de l'HTA gravidique.",
+        "D": "Faux : risque de bradycardie et de BAV.",
+        "E": "Vrai : donnée classique des méta-analyses (aténolol notamment)."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — divergences ESH/ESC",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Répondre « selon les recommandations européennes » sans préciser ESH ou ESC.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        },
+        {
+          "reference": "McEvoy JW et al. 2024 ESC Guidelines. Eur Heart J 2024;45:3912-4018",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'épidémiologie de l'HTA en Algérie d'après l'analyse publiée en 2022 des données de l'enquête STEPwise 2016–2017, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La prévalence de l'HTA est d'environ 31,6 %.",
+        "B": "La prévalence de la pré-hypertension est d'environ 36,2 %.",
+        "C": "L'obésité abdominale est un facteur associé.",
+        "D": "L'HTA y est plus fréquente chez la femme.",
+        "E": "L'enquête porte uniquement sur les plus de 70 ans."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Analyse de Moussouni et al. (BMC Public Health 2022) des données STEPS chez les 18–69 ans.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : avec l'âge et l'obésité.",
+        "D": "Vrai : la pré-HTA était plus fréquente chez l'homme.",
+        "E": "Faux : adultes de 18 à 69 ans."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "theme": "HTA — épidémiologie algérienne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre le chiffre institutionnel (≈ 23–24 %, définition différente) et celui de l'analyse publiée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Moussouni A et al. BMC Public Health 2022;22:1571",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0025",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la 4e définition universelle de l'infarctus du myocarde (2018), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une lésion myocardique est définie par une troponine supérieure au 99e percentile de la limite supérieure de référence.",
+        "B": "Une élévation stable de la troponine définit une lésion myocardique chronique.",
+        "C": "L'infarctus de type 2 résulte d'une rupture de plaque.",
+        "D": "L'infarctus requiert une lésion myocardique aiguë associée à un argument clinique d'ischémie.",
+        "E": "L'infarctus de type 1 est lié à une athérothrombose."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La définition distingue lésion myocardique (biologique) et infarctus (lésion aiguë + ischémie). Le type 1 est athérothrombotique, le type 2 lié à un déséquilibre apports/besoins.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : absence de cinétique.",
+        "C": "Faux : c'est le type 1 ; le type 2 est un déséquilibre apports/besoins.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "Infarctus du myocarde — définition universelle",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Assimiler toute élévation de troponine à un infarctus.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Thygesen K et al. Fourth universal definition of MI. Eur Heart J 2019;40:237-269",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0026",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les critères ECG de sus-décalage du segment ST au cours d'un SCA (ESC 2023), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le sus-décalage doit concerner au moins deux dérivations contiguës.",
+        "B": "En V2–V3, le seuil est de 2,5 mm chez l'homme de moins de 40 ans.",
+        "C": "En V2–V3, le seuil est de 1,5 mm chez la femme.",
+        "D": "En V7–V9, un sus-décalage ≥ 0,5 mm est significatif.",
+        "E": "Un sus-décalage diffus concave avec sous-décalage de PR est typique d'un SCA ST+."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les seuils dépendent de la dérivation, de l'âge et du sexe. Un sus-décalage diffus concave avec sous-décalage de PR évoque une péricardite.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : dérivations postérieures.",
+        "E": "Faux : aspect de péricardite aiguë."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "SCA ST+ — ECG",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre péricardite et infarctus.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        },
+        {
+          "reference": "Thygesen K et al. Fourth universal definition of MI. Eur Heart J 2019;40:237-269",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0027",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient présente un SCA ST+ antérieur évoluant depuis 2 heures. Le centre d'angioplastie le plus proche est à 3 heures de transport. Quelles propositions sont exactes (ESC 2023) ?",
+      "propositions": {
+        "A": "Une fibrinolyse doit être réalisée dans les 10 minutes suivant le diagnostic en l'absence de contre-indication.",
+        "B": "Le patient doit être transféré vers un centre d'angioplastie après la fibrinolyse.",
+        "C": "En cas de succès de la fibrinolyse, une coronarographie est recommandée entre 2 et 24 heures.",
+        "D": "En cas d'échec à 60–90 minutes, une seconde fibrinolyse est recommandée.",
+        "E": "Il faut attendre le résultat de la troponine avant de décider."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Si l'angioplastie primaire ne peut être réalisée dans les 120 minutes suivant le diagnostic, la fibrinolyse précoce suivie d'un transfert (stratégie pharmaco-invasive) est recommandée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : angioplastie de sauvetage.",
+        "E": "Faux : la décision repose sur l'ECG et la clinique."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "SCA ST+ — stratégie de reperfusion",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Répéter la fibrinolyse en cas d'échec.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0028",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les situations suivantes, lesquelles constituent des contre-indications absolues à la fibrinolyse ?",
+      "propositions": {
+        "A": "Antécédent d'hémorragie intracrânienne.",
+        "B": "AVC ischémique dans les 6 derniers mois.",
+        "C": "Dissection aortique.",
+        "D": "Traitement anticoagulant oral en cours.",
+        "E": "Hémorragie digestive dans le mois précédent."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le traitement anticoagulant oral est une contre-indication relative.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : contre-indication relative.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "SCA ST+ — fibrinolyse",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": "Méconnaître une dissection aortique avant fibrinolyse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ibanez B et al. 2017 ESC STEMI Guidelines. Eur Heart J 2018;39:119-177",
+          "date": "2017"
+        },
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0029",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 79 ans, 68 kg, est fibrinolysé pour un SCA ST+. Quelles modalités antithrombotiques sont adaptées selon l'ESC 2023 ?",
+      "propositions": {
+        "A": "Ténectéplase à demi-dose à envisager.",
+        "B": "Énoxaparine sans bolus IV, 0,75 mg/kg SC toutes les 12 heures.",
+        "C": "Clopidogrel 75 mg sans dose de charge.",
+        "D": "Prasugrel 60 mg en dose de charge.",
+        "E": "Aspirine en dose de charge."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Après 75 ans : demi-dose de ténectéplase à envisager, pas de bolus d'énoxaparine et 0,75 mg/kg SC/12 h, clopidogrel 75 mg sans charge. Le prasugrel n'est pas l'inhibiteur du P2Y12 associé à la fibrinolyse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : clopidogrel avec la fibrinolyse.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "SCA ST+ — sujet âgé",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Bolus d'énoxaparine et dose de charge de clopidogrel après 75 ans.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0030",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient présente un infarctus inférieur avec PA 85/50 mmHg, turgescence jugulaire et poumons clairs. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une extension au ventricule droit doit être recherchée en V3R–V4R.",
+        "B": "La trinitrine sublinguale est indiquée pour soulager la douleur.",
+        "C": "Un remplissage prudent peut être nécessaire.",
+        "D": "La reperfusion coronaire est prioritaire.",
+        "E": "Les diurétiques de l'anse sont le traitement de première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'infarctus du VD est précharge-dépendant : nitrés et diurétiques peuvent effondrer la PA.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : contre-indiquée (hypotension, VD).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : aggravent l'hypotension."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "SCA ST+ — infarctus du ventricule droit",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Donner des dérivés nitrés dans l'infarctus du VD.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0031",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les complications mécaniques de l'infarctus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles surviennent typiquement entre le 2e et le 7e jour.",
+        "B": "La rupture septale se manifeste par un souffle holosystolique nouveau.",
+        "C": "La rupture de pilier mitral entraîne un OAP brutal.",
+        "D": "La rupture de la paroi libre se manifeste par une tamponnade.",
+        "E": "Leur traitement est exclusivement médical."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les ruptures surviennent pendant la phase de ramollissement de la nécrose (détersion macrophagique) et relèvent de la chirurgie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : chirurgie (± fermeture percutanée de CIV, assistance)."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "Infarctus — complications mécaniques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0032",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les inhibiteurs du P2Y12 dans le SCA (ESC 2023), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le prasugrel est contre-indiqué en cas d'antécédent d'AVC ou d'AIT.",
+        "B": "La dose d'entretien du prasugrel est réduite à 5 mg/j après 75 ans ou en dessous de 60 kg.",
+        "C": "La dose de charge du ticagrélor est de 180 mg.",
+        "D": "Le prasugrel est préféré au ticagrélor chez les patients allant à l'angioplastie.",
+        "E": "Le ticagrélor est l'inhibiteur du P2Y12 recommandé avec la fibrinolyse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le clopidogrel est l'inhibiteur du P2Y12 associé à la fibrinolyse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai (classe IIa, ESC 2023).",
+        "E": "Faux : clopidogrel."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "SCA — antiagrégants",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Associer prasugrel ou ticagrélor à la fibrinolyse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0033",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les troubles conductifs à la phase aiguë de l'infarctus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le BAV de l'infarctus inférieur est habituellement nodal et transitoire.",
+        "B": "Le BAV de l'infarctus antérieur est habituellement infra-nodal, à QRS larges.",
+        "C": "Le BAV de l'infarctus antérieur a un meilleur pronostic que celui de l'inférieur.",
+        "D": "L'atropine peut être efficace dans le BAV de l'infarctus inférieur.",
+        "E": "Une stimulation temporaire peut être nécessaire en cas de mauvaise tolérance."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le nœud AV dépend le plus souvent de la coronaire droite ; le tissu de conduction infra-nodal dépend des septales de l'IVA.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pronostic plus sévère (nécrose septale étendue).",
+        "D": "Vrai : composante vagale.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "Infarctus — complications rythmiques",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0034",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de sortie après un SCA ST+ avec FEVG à 35 % et signes d'IC, quelles propositions sont exactes (ESC 2023) ?",
+      "propositions": {
+        "A": "Une statine de forte intensité est recommandée avec un objectif de LDL-c < 1,4 mmol/L.",
+        "B": "Un bêtabloquant est recommandé.",
+        "C": "Un IEC est recommandé.",
+        "D": "Un antagoniste des récepteurs minéralocorticoïdes est recommandé.",
+        "E": "Un défibrillateur implantable doit être posé avant la sortie en prévention primaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "FEVG ≤ 40 % avec IC : bêtabloquant, IEC, ARM ; statine forte intensité pour tous. Le DAI de prévention primaire se discute à distance (≥ 40 jours, réévaluation de la FEVG).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai (éplérénone).",
+        "E": "Faux : réévaluation de la FEVG à distance."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "Infarctus — prévention secondaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Implanter un DAI de prévention primaire dans les 40 jours.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        },
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0035",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prise en charge du choc cardiogénique compliquant un SCA ST+ (ESC 2023), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une coronarographie immédiate est indiquée quel que soit le délai depuis le début des symptômes.",
+        "B": "Seule l'artère coupable doit être traitée lors de la procédure initiale.",
+        "C": "Le ballon de contre-pulsion intra-aortique est recommandé en routine.",
+        "D": "Une échocardiographie recherche une complication mécanique.",
+        "E": "La noradrénaline peut être utilisée en cas d'hypotension persistante."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Dans le choc, angioplastie de l'artère coupable seule ; pas de contre-pulsion systématique ; recherche d'une complication mécanique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : non recommandé en routine.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "Infarctus — choc cardiogénique",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Revasculariser toutes les lésions en urgence dans le choc.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0036",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la chronologie anatomopathologique de la nécrose myocardique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'infiltrat à polynucléaires neutrophiles prédomine entre le 1er et le 3e jour.",
+        "B": "Le ramollissement maximal, période à risque de rupture, se situe entre le 3e et le 7e jour.",
+        "C": "La cicatrice collagène est constituée en quelques heures.",
+        "D": "La nécrose progresse du sous-endocarde vers le sous-épicarde.",
+        "E": "Le tissu de granulation apparaît vers la 1re–2e semaine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Nécrose de coagulation (6–24 h), neutrophiles (1–3 j), macrophages et ramollissement (3–7 j), granulation (1–2 sem.), cicatrice (2–8 sem.).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : plusieurs semaines.",
+        "D": "Vrai : « vague » de nécrose.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "theme": "Infarctus — anatomie pathologique",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Thygesen K et al. Fourth universal definition of MI. Eur Heart J 2019;40:237-269",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0037",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les syndromes coronariens aigus sans sus-décalage persistant du segment ST, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'ECG peut être normal.",
+        "B": "Le NSTEMI se distingue de l'angor instable par l'élévation de la troponine avec cinétique.",
+        "C": "Le thrombus coronaire est typiquement riche en plaquettes et non occlusif.",
+        "D": "La fibrinolyse est indiquée en l'absence d'angioplastie disponible dans les 2 heures.",
+        "E": "L'angor instable est devenu moins fréquent avec les troponines ultrasensibles."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le SCA ST− repose sur une thrombose non occlusive ; la fibrinolyse n'apporte pas de bénéfice et augmente les hémorragies.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : la fibrinolyse est réservée au SCA ST+.",
+        "E": "Vrai : reclassement en NSTEMI."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — définitions",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Fibrinolyser un SCA ST−.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0038",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'algorithme rapide de troponine ultrasensible (0 h/1 h) recommandé par l'ESC, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les seuils sont spécifiques de chaque dosage de troponine.",
+        "B": "Une troponine très basse à H0 chez un patient dont la douleur a débuté plus de 3 heures auparavant permet d'exclure un infarctus.",
+        "C": "Une variation significative entre H0 et H1 oriente vers l'inclusion.",
+        "D": "Les patients en zone d'observation nécessitent un nouveau prélèvement (par exemple à H3) et une réévaluation.",
+        "E": "L'algorithme s'applique aussi au patient en choc cardiogénique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'algorithme 0 h/1 h classe les patients en exclusion, inclusion ou observation ; il ne concerne pas les patients instables, qui relèvent d'une stratégie immédiate.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : très haut risque → coronarographie immédiate."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — troponine ultrasensible",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Exclure un infarctus sur une troponine précoce isolée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0039",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les situations suivantes, lesquelles peuvent s'accompagner d'une élévation de la troponine en dehors d'un SCA de type 1 ?",
+      "propositions": {
+        "A": "Embolie pulmonaire.",
+        "B": "Sepsis.",
+        "C": "Insuffisance rénale chronique.",
+        "D": "Myocardite.",
+        "E": "Fibrillation atriale rapide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Toutes ces situations peuvent élever la troponine ; la cinétique, le contexte et les signes d'ischémie guident l'interprétation.",
+      "explications_par_proposition": {
+        "A": "Vrai : surcharge du VD.",
+        "B": "Vrai.",
+        "C": "Vrai : élévation souvent chronique.",
+        "D": "Vrai.",
+        "E": "Vrai : infarctus de type 2 ou lésion non ischémique."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — interprétation de la troponine",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Assimiler troponine élevée et SCA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Thygesen K et al. Fourth universal definition of MI. Eur Heart J 2019;40:237-269",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0040",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'ESC 2023, quels critères définissent un SCA ST− à très haut risque justifiant une coronarographie immédiate (< 2 h) ?",
+      "propositions": {
+        "A": "Choc cardiogénique.",
+        "B": "Douleur thoracique réfractaire malgré le traitement médical.",
+        "C": "Arythmie ventriculaire menaçante.",
+        "D": "Score GRACE > 140 isolé.",
+        "E": "Insuffisance cardiaque aiguë clairement liée au SCA."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Un score GRACE > 140 est un critère de haut risque (coronarographie < 24 h à envisager), non de très haut risque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : haut risque.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — stratification du risque",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre critères de très haut risque et de haut risque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0041",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les anticoagulants dans le SCA ST− (ESC 2023), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le fondaparinux est préféré à l'énoxaparine lorsque la coronarographie n'est pas prévue dans les 24 heures.",
+        "B": "Un bolus d'héparine non fractionnée est nécessaire lors de l'angioplastie chez un patient sous fondaparinux.",
+        "C": "La posologie du fondaparinux est de 2,5 mg SC une fois par jour.",
+        "D": "L'anticoagulation parentérale doit être poursuivie systématiquement 7 jours après l'angioplastie.",
+        "E": "Il est recommandé d'alterner HNF et énoxaparine au cours de la prise en charge."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Fondaparinux si stratégie différée, avec HNF en salle ; arrêt de l'anticoagulation après l'angioplastie ; ne pas changer d'anticoagulant.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : risque de thrombose de cathéter.",
+        "C": "Vrai.",
+        "D": "Faux : arrêt après l'angioplastie sauf autre indication.",
+        "E": "Faux : le changement augmente les saignements."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — anticoagulation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier l'HNF en salle chez un patient sous fondaparinux.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0042",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient de 60 ans a un NSTEMI ; une coronarographie est prévue dans les 12 heures. Quelles propositions sont exactes concernant les antiagrégants (ESC 2023) ?",
+      "propositions": {
+        "A": "L'aspirine est débutée dès le diagnostic.",
+        "B": "Un prétraitement systématique par prasugrel est recommandé avant la coronarographie.",
+        "C": "Le prasugrel est préféré au ticagrélor si une angioplastie est réalisée, en l'absence de contre-indication.",
+        "D": "Les anti-GP IIb/IIIa sont recommandés en routine avant la coronarographie.",
+        "E": "La durée par défaut de la DAPT est de 12 mois."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Pas de prétraitement en routine si coronarographie < 24 h ; prasugrel préféré après angioplastie ; anti-GP IIb/IIIa en sauvetage seulement.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : non recommandé en routine.",
+        "C": "Vrai (classe IIa).",
+        "D": "Faux : réservés au sauvetage.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — antiagrégants",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prétraiter par prasugrel avant de connaître l'anatomie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0043",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient en fibrillation atriale sous anticoagulant oral direct est traité par angioplastie pour un NSTEMI. Quelles propositions sont exactes (ESC 2023) ?",
+      "propositions": {
+        "A": "Une triple thérapie (AOD + aspirine + clopidogrel) est recommandée en règle jusqu'à 1 semaine.",
+        "B": "La double thérapie AOD + clopidogrel est ensuite poursuivie jusqu'à 12 mois.",
+        "C": "Le ticagrélor est l'inhibiteur du P2Y12 de choix en triple thérapie.",
+        "D": "Les AOD sont préférés aux antivitamines K.",
+        "E": "Au-delà de 12 mois, l'anticoagulant oral seul est en règle suffisant."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le clopidogrel est l'inhibiteur du P2Y12 de référence en association à l'anticoagulant oral.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : clopidogrel.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — patient anticoagulé",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Prescrire prasugrel ou ticagrélor dans une triple thérapie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0044",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les critères de haut risque d'un SCA ST− (ESC 2023), justifiant une coronarographie précoce (< 24 h) à envisager, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Diagnostic de NSTEMI confirmé par l'algorithme de troponine.",
+        "B": "Modifications dynamiques du segment ST ou de l'onde T.",
+        "C": "Sus-décalage transitoire du segment ST.",
+        "D": "Score GRACE > 140.",
+        "E": "Âge > 50 ans isolé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Ces critères définissent le haut risque ; l'âge isolé n'en fait pas partie (mais entre dans le score GRACE).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — délai de la coronarographie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0045",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'angor de Prinzmetal (vasospastique), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les douleurs surviennent volontiers au repos, en fin de nuit.",
+        "B": "Il s'accompagne typiquement d'un sus-décalage transitoire du segment ST.",
+        "C": "Les inhibiteurs calciques constituent le traitement de fond de référence.",
+        "D": "Un bêtabloquant seul est le traitement de choix.",
+        "E": "Le tabac et la cocaïne sont des facteurs favorisants."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le spasme coronaire est favorisé par le tabac et la cocaïne ; les bêtabloquants seuls peuvent l'aggraver (stimulation alpha non compensée).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — angor vasospastique",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": "Prescrire un bêtabloquant seul dans un angor vasospastique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0046",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les divergences et l'évolution des recommandations sur le SCA ST−, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'ESC 2023 traite l'ensemble des SCA dans un document unique.",
+        "B": "La stratégie invasive précoce (< 24 h) chez le patient à haut risque est passée de la classe I (ESC 2020) à la classe IIa (ESC 2023).",
+        "C": "Les recommandations américaines 2025 retiennent une DAPT de 12 mois par défaut chez les patients sans haut risque hémorragique.",
+        "D": "Les recommandations américaines 2025 proscrivent l'association statine–ézétimibe d'emblée.",
+        "E": "L'ESC 2023 recommande la fibrinolyse dans le SCA ST− à haut risque."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les recommandations américaines 2025 permettent au contraire l'association d'emblée statine de forte intensité–ézétimibe.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — divergences entre recommandations",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Citer une classe de recommandation sans préciser l'année.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        },
+        {
+          "reference": "Rao SV et al. 2025 ACC/AHA ACS Guideline. Circulation 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0047",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'ECG au cours d'un SCA ST−, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le sous-décalage de ST traduit une ischémie sous-endocardique.",
+        "B": "Un sous-décalage isolé de V1 à V3 doit faire enregistrer V7–V9.",
+        "C": "Un sus-décalage en aVR associé à un sous-décalage diffus évoque une atteinte du tronc commun ou tritronculaire.",
+        "D": "Un ECG doit être répété en cas de récidive douloureuse.",
+        "E": "Des ondes T négatives excluent un SCA."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les ondes T négatives font partie des anomalies évocatrices d'ischémie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : recherche d'un infarctus postérieur (équivalent ST+).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — ECG",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Méconnaître un équivalent de SCA ST+ postérieur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0048",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient de 68 ans présente un infarctus de type 2 dans un contexte d'hémorragie digestive avec hémoglobine à 6,8 g/dL. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le traitement repose d'abord sur la correction de la cause (transfusion, hémostase).",
+        "B": "Une double antiagrégation plaquettaire à dose de charge est indiquée en urgence.",
+        "C": "La troponine peut s'élever par déséquilibre entre apports et besoins en oxygène.",
+        "D": "Une coronaropathie sous-jacente peut être recherchée à distance.",
+        "E": "La fibrinolyse est indiquée."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Dans l'infarctus de type 2, la priorité est de corriger le déséquilibre ; les antithrombotiques seraient délétères en cas d'hémorragie active.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : contre-indiquée en hémorragie active.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "theme": "SCA ST− — infarctus de type 2",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter un infarctus de type 2 comme un SCA athérothrombotique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Thygesen K et al. Fourth universal definition of MI. Eur Heart J 2019;40:237-269",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0049",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiopathologie de l'endocardite infectieuse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une lésion endothéliale favorise le dépôt de plaquettes et de fibrine (endocardite thrombotique non bactérienne).",
+        "B": "Les bactéries des végétations, organisées en biofilm, sont protégées des défenses immunitaires.",
+        "C": "Les végétations des valves auriculo-ventriculaires siègent habituellement sur leur face ventriculaire.",
+        "D": "Staphylococcus aureus peut infecter une valve saine.",
+        "E": "Les nodosités d'Osler relèvent d'un mécanisme immunologique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les végétations se forment du côté de basse pression du jet : face auriculaire des valves mitrale et tricuspide, face ventriculaire des valves sigmoïdes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : d'où une antibiothérapie bactéricide prolongée.",
+        "C": "Faux : face auriculaire.",
+        "D": "Vrai : invasion directe de l'endothélium.",
+        "E": "Vrai (dépôts de complexes immuns), même si une composante embolique est discutée."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — physiopathologie",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0050",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les hémocultures en cas de suspicion d'endocardite infectieuse (ESC 2023), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Trois séries sont prélevées avant toute antibiothérapie.",
+        "B": "Le prélèvement doit être réalisé de préférence sur le cathéter veineux central.",
+        "C": "Chaque série comprend un flacon aérobie et un flacon anaérobie d'environ 10 mL.",
+        "D": "Il faut attendre un pic fébrile pour prélever.",
+        "E": "Chez un patient en sepsis, l'antibiothérapie débute immédiatement après les prélèvements."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La bactériémie de l'EI est continue : il n'est pas nécessaire d'attendre un pic fébrile ; les prélèvements se font par ponction veineuse périphérique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : ponction veineuse périphérique.",
+        "C": "Vrai.",
+        "D": "Faux : bactériémie continue.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — hémocultures",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Prescrire un antibiotique avant les hémocultures.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0051",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les critères de Duke modifiés, quelles combinaisons permettent de retenir une endocardite infectieuse certaine ?",
+      "propositions": {
+        "A": "Deux critères majeurs.",
+        "B": "Un critère majeur et trois critères mineurs.",
+        "C": "Cinq critères mineurs.",
+        "D": "Un critère majeur et un critère mineur.",
+        "E": "Trois critères mineurs."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "1 majeur + 1 mineur ou 3 mineurs définissent une EI possible.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : EI possible.",
+        "E": "Faux : EI possible."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — critères diagnostiques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        },
+        {
+          "reference": "Fowler VG et al. 2023 Duke-ISCVID criteria. Clin Infect Dis 2023;77:518-526",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0052",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les critères de Duke-ISCVID 2023, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils intègrent des techniques moléculaires (PCR, séquençage) parmi les critères microbiologiques.",
+        "B": "Ils reconnaissent le scanner cardiaque et la TEP-TDM parmi les critères d'imagerie.",
+        "C": "Ils introduisent un critère chirurgical majeur (constatation peropératoire).",
+        "D": "Ils suppriment la fièvre des critères mineurs.",
+        "E": "Les auteurs proposent d'en faire un document évolutif régulièrement mis à jour."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les critères Duke-ISCVID actualisent les critères de Duke modifiés (2000) ; la fièvre reste un critère mineur.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — Duke-ISCVID 2023",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Ignorer la coexistence de deux systèmes de critères en 2023 (ESC et ISCVID).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fowler VG et al. 2023 Duke-ISCVID criteria. Clin Infect Dis 2023;77:518-526",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0053",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'échocardiographie dans l'endocardite infectieuse (ESC 2023), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'ETT est l'examen de première intention.",
+        "B": "L'ETO est recommandée chez un porteur de prothèse valvulaire suspect d'EI, même si l'ETT est négative.",
+        "C": "Une ETO négative élimine définitivement le diagnostic.",
+        "D": "En cas d'examen initial négatif et de forte suspicion, l'échographie est répétée à 5–7 jours.",
+        "E": "L'ETO permet de rechercher un abcès périvalvulaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les petites végétations et les lésions précoces peuvent échapper à un premier examen.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : répétition possible, autres imageries.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — imagerie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Exclure une EI sur prothèse sur une ETT normale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0054",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'endocardite à hémocultures négatives en Algérie, quelles propositions sont exactes d'après la série algéroise publiée en 2005 ?",
+      "propositions": {
+        "A": "Le taux d'EI à hémocultures négatives y est rapporté comme pouvant atteindre 76 %.",
+        "B": "Bartonella quintana est l'agent zoonotique le plus fréquemment identifié dans cette série.",
+        "C": "Brucella melitensis et Coxiella burnetii y ont été identifiés.",
+        "D": "Les sérologies zoonotiques sont inutiles en Algérie.",
+        "E": "L'antibiothérapie préalable aux hémocultures est une cause majeure d'hémocultures négatives."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Benslimani et al. (Emerg Infect Dis 2005) : 110 cas, 18 dus à des bactéries zoonotiques ou transmises par des arthropodes, dont 14 B. quintana.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (14 cas).",
+        "C": "Vrai (2 cas chacun).",
+        "D": "Faux : elles sont indispensables.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — contexte algérien",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier les sérologies Bartonella, Brucella, Coxiella.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Benslimani A et al. Bacterial zoonoses and infective endocarditis, Algeria. Emerg Infect Dis 2005;11:216-224",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0055",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'antibiothérapie de l'endocardite infectieuse (ESC 2023), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les antibiotiques doivent être bactéricides et administrés à fortes doses.",
+        "B": "La durée est en règle de 4 semaines pour une valve native et de 6 semaines pour une prothèse.",
+        "C": "Un aminoside est systématiquement associé dans l'EI à S. aureus sur valve native.",
+        "D": "La rifampicine est utilisée dans l'EI sur prothèse à staphylocoque.",
+        "E": "Pour Enterococcus faecalis, l'association amoxicilline + ceftriaxone est une option de référence."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les aminosides ne sont plus recommandés dans l'EI à staphylocoque sur valve native (néphrotoxicité sans bénéfice).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (en règle).",
+        "C": "Faux.",
+        "D": "Vrai : action sur le biofilm du matériel.",
+        "E": "Vrai : double bêtalactamine, notamment en cas de résistance de haut niveau aux aminosides."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — antibiothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Associer systématiquement un aminoside.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0056",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les situations suivantes au cours d'une endocardite mitrale ou aortique, lesquelles constituent des indications chirurgicales selon l'ESC 2023 ?",
+      "propositions": {
+        "A": "OAP réfractaire par insuffisance aortique aiguë sévère.",
+        "B": "Abcès de l'anneau aortique.",
+        "C": "Hémocultures restant positives malgré une antibiothérapie adaptée et le contrôle des foyers à distance.",
+        "D": "Végétation persistante ≥ 10 mm après un épisode embolique malgré l'antibiothérapie.",
+        "E": "Végétation de 4 mm sans dysfonction valvulaire chez un patient stable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Trois grandes indications : insuffisance cardiaque, infection non contrôlée, prévention des embolies.",
+      "explications_par_proposition": {
+        "A": "Vrai : extrême urgence.",
+        "B": "Vrai : infection localement non contrôlée.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — chirurgie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0057",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient traité pour une endocardite aortique à S. aureus développe au 6e jour un allongement du PR puis un BAV du 2e degré. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un abcès de l'anneau aortique doit être suspecté.",
+        "B": "Une ETO doit être réalisée rapidement.",
+        "C": "Il s'agit d'une indication chirurgicale urgente si l'abcès est confirmé.",
+        "D": "Il s'agit le plus souvent d'un effet indésirable de la cloxacilline.",
+        "E": "Un ECG quotidien aurait permis un dépistage précoce."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'anneau aortique est proche du tissu de conduction ; un trouble conductif nouveau signe une extension périvalvulaire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : infection localement non contrôlée.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — complications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Méconnaître la signification d'un BAV au cours d'une EI aortique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0058",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'antibioprophylaxie de l'endocardite infectieuse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Selon l'ESC 2023, elle est recommandée chez les patients à risque élevé avant un geste dentaire impliquant la gencive ou la région périapicale.",
+        "B": "Le schéma de référence est l'amoxicilline 2 g per os 30 à 60 minutes avant le geste.",
+        "C": "La clindamycine reste l'alternative de référence en cas d'allergie selon l'AHA 2021.",
+        "D": "Un porteur de prothèse valvulaire implantée par voie percutanée est à risque élevé selon l'ESC 2023.",
+        "E": "Elle est recommandée systématiquement avant une coloscopie chez tous les valvulopathes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La clindamycine n'est plus recommandée (AHA 2021) ; la prophylaxie ne concerne pas systématiquement les gestes digestifs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : abandonnée au profit notamment de la doxycycline et des macrolides.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — prophylaxie",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": "Prescrire de la clindamycine en cas d'allergie à la pénicilline.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        },
+        {
+          "reference": "Wilson WR et al. AHA Scientific Statement. Circulation 2021;143:e963-e978",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0059",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les catégories de risque d'endocardite infectieuse de l'ESC 2023, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La cardiopathie rhumatismale est classée à risque intermédiaire.",
+        "B": "L'antécédent d'endocardite infectieuse est classé à risque élevé.",
+        "C": "La bicuspidie aortique est classée à risque intermédiaire.",
+        "D": "Chez un patient à risque intermédiaire, la prophylaxie dentaire est systématique.",
+        "E": "Le porteur d'une réparation valvulaire chirurgicale avec matériel est à risque élevé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La catégorie intermédiaire (nouveauté 2023) ne donne pas lieu à une prophylaxie systématique ; l'hygiène bucco-dentaire reste essentielle.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : décision individuelle.",
+        "E": "Vrai."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — terrains à risque",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Confondre risque intermédiaire et risque élevé chez le valvulopathe rhumatismal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-0060",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le relais oral de l'antibiothérapie dans l'endocardite infectieuse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'essai POET a montré la non-infériorité d'un relais oral chez des patients stables avec EI du cœur gauche.",
+        "B": "POET incluait des EI à streptocoques, E. faecalis, S. aureus et staphylocoques à coagulase négative.",
+        "C": "Le relais oral peut être proposé dès le 2e jour de traitement.",
+        "D": "La présence d'un abcès à l'ETO est un argument contre le relais oral.",
+        "E": "Le relais oral concerne tous les patients, y compris instables."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le relais oral est réservé à des patients sélectionnés, stables, après une phase IV d'au moins 10 jours, sans abcès.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : après une phase IV initiale (≥ 10 jours selon l'ESC 2023).",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "theme": "Endocardite infectieuse — relais oral",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Iversen K et al. Partial oral versus intravenous antibiotic treatment of endocarditis. N Engl J Med 2019;380:415-424",
+          "date": "2019"
+        },
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

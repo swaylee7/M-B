@@ -6,11 +6,17 @@ sous_specialite: "Asthme et BPCO"
 items_residanat: [RES-MED-045]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 / AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-PNEU-0003.md
 sources:
   - id: S1
     reference: "Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention. Rapport 2025 (publié en mai 2025 ; mise à jour mineure de novembre 2025)."
@@ -76,7 +82,7 @@ mots_cles: [asthme, GINA, contrôle de l'asthme, corticostéroïdes inhalés, bu
 # Asthme de l'adulte et de l'enfant : diagnostic et principes de traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Doses et dispositifs à confronter au RCP, au rapport GINA en vigueur et aux protocoles locaux. **Aucune recommandation nationale algérienne sur l'asthme n'a été identifiée pendant la rédaction** ; les données algériennes proviennent de l'étude maghrébine AIRMAG [S4, S5].
+> Statut : audité (AUD-01/02/04, 2026-11-19) — corrections requises (voir le rapport d'audit). Doses et dispositifs à confronter au RCP, au rapport GINA en vigueur et aux protocoles locaux. **Aucune recommandation nationale algérienne sur l'asthme n'a été identifiée pendant la rédaction** ; les données algériennes proviennent de l'étude maghrébine AIRMAG [S4, S5].
 
 **Items du programme couverts** : RES-MED-045 — « Asthme de l'adulte et de l'enfant : Diagnostic - principes de traitement ».
 
@@ -326,7 +332,7 @@ La HAS (2009) retenait chez l'enfant de moins de 36 mois une définition fondée
 
 **Enfants 6–11 ans** (µg/jour) : budésonide (poudre) 100–200 / > 200–400 / > 400 ; fluticasone propionate 50–100 / > 100–200 / > 200 ; béclométasone (standard) 100–200 / > 200–400 / > 400 [S1].
 **Enfants ≤ 5 ans — dose quotidienne « faible »** : béclométasone (aérosol doseur standard) 100 µg ; budésonide nébulisé 500 µg ; fluticasone propionate (aérosol doseur) 50 µg [S1].
-`[POSOLOGIE À VÉRIFIER — tableaux de l'édition GINA en vigueur et RCP des spécialités disponibles]`
+*Audit (2026-11-19)* : ces valeurs sont celles des tableaux de doses de CSI de GINA, inchangés dans leurs grandes lignes depuis 2019 ; la ligne budésonide (poudre) 6–11 ans a été recoupée avec une adaptation australienne du tableau GINA 2025. Il s'agit d'**équivalences cliniques**, non de doses d'AMM : vérifier l'AMM et l'âge minimal de chaque spécialité disponible (RCP).
 
 **b) Mesures non médicamenteuses** — indissociables du traitement :
 - **éducation thérapeutique** : nature de la maladie, différence entre traitement de fond et de secours, **technique d'inhalation** vérifiée à chaque consultation (chambre d'inhalation chez l'enfant et chez tout patient en difficulté avec l'aérosol doseur), observance ;
@@ -357,7 +363,7 @@ VOIE 2 (« Track 2 », alternative) — secours = BDCA (ou CSI-BDCA) à la deman
 ```
 
 - **Le traitement par BDCA seul est déconseillé** (« contre-indiqué » dans les formulations récentes de GINA) chez l'adulte et l'adolescent [S1].
-- Exemple de MART (budésonide-formotérol 200/6 µg dose mesurée) : 1 inhalation matin et soir + 1 inhalation à la demande, **sans dépasser 12 inhalations par jour** au total chez l'adulte [S1] `[POSOLOGIE À VÉRIFIER — RCP]`. Le schéma MART **ne s'applique pas** avec une association CSI-salmétérol ou CSI-vilantérol.
+- Exemple de MART (budésonide-formotérol 200/6 µg dose mesurée) : 1 inhalation matin et soir + 1 inhalation à la demande, **sans dépasser 12 inhalations par jour** au total chez l'adulte (GINA) [S1] ; le RCP précise qu'au-delà de **8 inhalations par jour** le patient doit consulter (12 inhalations/jour seulement de façon transitoire). Le schéma MART **ne s'applique pas** avec une association CSI-salmétérol ou CSI-vilantérol.
 - **Choix initial** : symptômes peu fréquents → palier 1–2 ; symptômes la plupart des jours ou réveils nocturnes hebdomadaires → palier 3 ; symptômes quotidiens avec réveils fréquents ou fonction basse → palier 4 ; asthme très mal contrôlé ou exacerbation → palier 4 ± courte corticothérapie orale [S1].
 - **Ajustement** : réévaluer à 1–3 mois ; **augmenter** d'un palier après vérification de la technique, de l'observance, de l'exposition et du diagnostic ; **diminuer** après **3 mois de contrôle**, sans jamais arrêter complètement le CSI chez l'adulte ou l'adolescent.
 
@@ -385,11 +391,11 @@ VOIE 2 (« Track 2 », alternative) — secours = BDCA (ou CSI-BDCA) à la deman
 2. **Bronchodilatateur de courte durée d'action** : salbutamol **4 à 10 bouffées** par aérosol doseur + chambre d'inhalation **toutes les 20 minutes pendant la 1ʳᵉ heure**, puis selon la réponse (la nébulisation est une alternative, notamment dans les formes sévères).
 3. **Oxygène** contrôlé : objectif de SpO₂ **93–95 %** chez l'adulte, **94–98 %** chez l'enfant.
 4. **Corticostéroïde oral** précoce : prednisolone **40–50 mg/j** chez l'adulte pendant **5 à 7 jours** ; **1–2 mg/kg/j (maximum 40 mg)** pendant **3 à 5 jours** chez l'enfant de 6–11 ans [S1].
-5. Formes sévères aux urgences : **ipratropium** associé au BDCA ; **sulfate de magnésium IV** (adulte : **2 g en 20 minutes**) si absence de réponse au traitement initial ; CSI à forte dose dans la première heure [S1].
+5. Formes sévères aux urgences : **ipratropium** associé au BDCA (adulte et enfant 6–11 ans) ; **sulfate de magnésium IV** si absence de réponse au traitement initial — adulte : **2 g en 20 minutes** [S1] ; enfant : 40 à 50 mg/kg (maximum 2 g) en perfusion lente `[POSOLOGIE À VÉRIFIER — GINA / protocole pédiatrique]` ; CSI à forte dose dans la première heure [S1].
 6. **Ne pas** prescrire de sédatifs ; antibiotiques seulement en cas d'infection bactérienne avérée.
 7. **Critères de sortie et suivi** : amélioration nette, DEP > 60–80 % de la théorique ou du meilleur, SpO₂ > 94 % en air ; **instaurer ou intensifier un traitement contenant un CSI**, vérifier la technique et l'observance, remettre un plan d'action écrit, **consultation de suivi dans les 2 à 7 jours** [S1].
 
-**Enfant ≤ 5 ans** : salbutamol 2 bouffées de 100 µg par chambre d'inhalation, répétées toutes les 20 minutes la première heure ; oxygène pour SpO₂ 94–98 % ; prednisolone 1–2 mg/kg/j sur une durée courte en cas d'exacerbation sévère, avec des doses maximales inférieures à celles de l'enfant plus âgé [S1] `[POSOLOGIE À VÉRIFIER — doses maximales par âge dans GINA et RCP]`.
+**Enfant ≤ 5 ans** : salbutamol 2 bouffées de 100 µg par chambre d'inhalation (prise en charge initiale), répétées toutes les 20 minutes la première heure ; aux urgences, 2 à 6 bouffées (ou 2,5 mg nébulisés) toutes les 20 minutes la première heure ; **ipratropium** nébulisé associé dans les formes modérées à sévères pendant la première heure ; oxygène pour SpO₂ 94–98 % ; prednisolone 1–2 mg/kg/j sur une durée courte en cas d'exacerbation sévère, avec des doses maximales inférieures à celles de l'enfant plus âgé (GINA : 20 mg avant 2 ans, 30 mg de 2 à 5 ans) [S1] ; sulfate de magnésium **nébulisé** discuté après 2 ans dans les formes sévères `[POSOLOGIE À VÉRIFIER — doses de salbutamol, d'ipratropium, de magnésium et maxima de prednisolone dans le texte GINA en vigueur et le RCP]`.
 
 ### 13.7 Particularités algériennes
 
@@ -477,7 +483,7 @@ Examen : elle **parle par mots**, assise penchée en avant, **FR 32/min**, **FC 
 > **Absence de CSI**, **surconsommation de BDCA** (3 flacons/mois), symptômes non contrôlés, exacerbation sévère récente [S1].
 
 **Question 4 — Quel traitement de fond à la sortie ?**
-> Asthme non contrôlé avec exacerbation sévère → **palier 4** de la voie 1 : **MART** par budésonide-formotérol 200/6 µg, **2 inhalations matin et soir** (dose moyenne) **+ 1 inhalation à la demande**, sans dépasser 12 inhalations/jour [S1] `[POSOLOGIE À VÉRIFIER — RCP]` ; **prednisolone 40–50 mg/j pour 5 à 7 jours au total** ; arrêt du salbutamol seul ; **éducation** (technique d'inhalation, plan d'action écrit) ; mesures d'éviction des acariens réalistes ; prise en charge de la rhinite ; **vaccination antigrippale** ; consultation dans **2 à 7 jours**.
+> Asthme non contrôlé avec exacerbation sévère → **palier 4** de la voie 1 : **MART** par budésonide-formotérol 200/6 µg, **2 inhalations matin et soir** (dose moyenne) **+ 1 inhalation à la demande**, sans dépasser 12 inhalations/jour (GINA ; consulter au-delà de 8/jour selon le RCP) [S1] ; **prednisolone 40–50 mg/j pour 5 à 7 jours au total** ; arrêt du salbutamol seul ; **éducation** (technique d'inhalation, plan d'action écrit) ; mesures d'éviction des acariens réalistes ; prise en charge de la rhinite ; **vaccination antigrippale** ; consultation dans **2 à 7 jours**.
 
 **Question 5 — À 3 mois, l'asthme est contrôlé (aucune réponse positive au questionnaire GINA, VEMS 92 %). Que faites-vous ?**
 > **Diminution d'un palier** (MART faible dose : 1 inhalation matin et soir + à la demande), en maintenant le CSI ; réévaluation à 3 mois ; une immunothérapie sublinguale aux acariens peut se discuter avec l'allergologue [S1].
@@ -772,4 +778,4 @@ Détail complet (organisme, URL/DOI, statut de vérification) dans l'en-tête YA
 6. [S6] Stanojevic S, et al. ERS/ATS 2022 interpretive strategies — **non vérifiée**.
 7. [S7] HAS. Asthme de l'enfant de moins de 36 mois, 2009 — **non vérifiée**.
 
-> **Points à auditer en priorité** : (1) confronter les tableaux de doses de CSI et les doses maximales MART (adulte et enfant) au rapport GINA 2025 et aux RCP ; (2) vérifier les doses de prednisolone chez l'enfant ≤ 5 ans ; (3) rechercher un document de la Société algérienne de pneumo-phtisiologie sur l'asthme et des données algériennes postérieures à AIRMAG ; (4) vérifier les références [S6, S7].
+> **Reste à faire après l'audit du 2026-11-19** : (1) confronter au texte GINA 2025 la dose maximale MART de l'enfant 6–11 ans et les doses pédiatriques d'exacerbation (salbutamol, ipratropium, magnésium, maxima de prednisolone avant 6 ans) ; (2) vérifier l'AMM pédiatrique des CSI disponibles en Algérie ; (3) rechercher un document de la Société algérienne de pneumo-phtisiologie sur l'asthme et des données algériennes postérieures à AIRMAG ; (4) vérifier les références [S6, S7].

@@ -23,7 +23,7 @@ statut: brouillon_a_auditer
 |---|---|---|
 | Intitulé | Imagerie médicale et radiologie | intitulé français de l'annexe de l'arrêté 1001/2024 (DOC-00020) |
 | Intitulé arabe | التصوير الطبي وعلم الأشعة | annexe de l'arrêté 1137/2015 (DOC-00066) |
-| Filière | spécialités fondamentales | Arrêté 1137 du 04/11/2015, annexe, tableau « spécialités fondamentales », n°7 (4 ans)  |
+| Filière | spécialités fondamentales | Arrêté 1137 du 04/11/2015, annexe, tableau « spécialités fondamentales », n°7 (4 ans) |
 | Durée de formation | **4 ans** | Arrêté 1137 du 04/11/2015, annexe, tableau « spécialités fondamentales », n°7 (4 ans) ; Arrêté 737 du 31/05/2026, art. 2 (4 ans) (DOC-00066, DOC-00020, DOC-00016) |
 | Texte de programme | Arrêté 737 du 31/05/2026 (durée fixée ; programme en annexe **non publiée au BO**) | DOC-00016 |
 | Jury national 2024-2025 | oui | arrêté 1001 du 29/07/2024 (DOC-00020) |
@@ -75,7 +75,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Préparation à l'évaluation**
 - **[Officiel]** Examen **national** de fin de 1re année, éliminatoire et classant (épreuves théoriques et pratiques dont le CPNS fixe les modalités) ; passage si moyenne compensée ≥ 10/20 **sans note < 8/20** ; un seul redoublement possible ; accès subordonné à la validation de l'année sur le carnet — arrêté 1137 du 04/11/2015, art. 10, 12-15 (DOC-00066).
-- *[Proposition Mediverse]* Se renseigner dès la rentrée, auprès du CPRS, sur le **format exact** des épreuves (non publié dans les textes acquis) ; réviser le socle de 1re année par cas cliniques hebdomadaires ; examens blancs au 2e semestre.
+- *[Proposition Mediverse]* Se renseigner dès la rentrée, auprès du CPRS, sur le **format exact** des épreuves (non publié dans les textes acquis) ; réviser le socle de 1re année par séances hebdomadaires de lecture commentée d'examens ; examens blancs au 2e semestre.
 
 ### Année 2 — approfondissement
 
@@ -101,14 +101,13 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Lecture des scanners urgents en premier, validation par le senior ; gestion des réactions aux produits de contraste.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - ACR Appropriateness Criteria / guide du bon usage des examens d'imagerie (SFR, France)
 - ACR — BI-RADS, LI-RADS, TI-RADS, PI-RADS (systèmes de compte rendu)
 
 **Préparation à l'évaluation**
 - **[Officiel]** Évaluation annuelle **éliminatoire** fondée sur le **carnet du résident** (validé par le chef de service ou le responsable du stage, approuvé par le président du CPRS) — arrêté 1137, art. 10-II et 11. Si la spécialité comporte un **tronc commun de deux ans**, l'examen de fin de 2e année est national (art. 10, 14) — liste des spécialités concernées non trouvée `[À VÉRIFIER]`.
-- *[Proposition Mediverse]* Bilan trimestriel du carnet avec le maître de stage (activités quantifiées atteintes ?) ; présentation d'au moins un cas en staff par mois ; auto-évaluation par les QCM et cas cliniques de la bibliothèque.
+- *[Proposition Mediverse]* Bilan trimestriel du carnet avec le maître de stage (activités quantifiées atteintes ?) ; présentation d'au moins un dossier en staff par mois ; auto-évaluation par les QCM et cas cliniques de la bibliothèque.
 
 ### Année 3 — expertise et responsabilités
 
@@ -133,13 +132,12 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Autonomie de lecture des urgences courantes (scanner, échographie) ; senior pour les examens complexes et l'interventionnel.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - CIPR / AIEA — principes de radioprotection des patients
 
 **Préparation à l'évaluation**
 - **[Officiel]** Évaluation annuelle **éliminatoire** fondée sur le **carnet du résident** (validé par le chef de service ou le responsable du stage, approuvé par le président du CPRS) — arrêté 1137, art. 10-II et 11.
-- *[Proposition Mediverse]* Bilan trimestriel du carnet avec le maître de stage (activités quantifiées atteintes ?) ; présentation d'au moins un cas en staff par mois ; auto-évaluation par les QCM et cas cliniques de la bibliothèque.
+- *[Proposition Mediverse]* Bilan trimestriel du carnet avec le maître de stage (activités quantifiées atteintes ?) ; présentation d'au moins un dossier en staff par mois ; auto-évaluation par les QCM et cas cliniques de la bibliothèque.
 
 ### Année 4 — consolidation, autonomie et examen final
 
@@ -160,7 +158,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Responsabilité de la garde d'imagerie et encadrement des juniors.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
 
@@ -176,11 +173,11 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 |---|---|---|
 | Réaction anaphylactique aux produits de contraste | A | [DOS-MINT_REA-0001](../../13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md) |
 | Polytraumatisé : scanner corps entier et lecture prioritaire | A | — (à rédiger) |
-| AVC aigu : imagerie de la filière thrombolyse | A | — (à rédiger) |
+| AVC aigu : imagerie de la filière thrombolyse | A | [DOS-NEUR-0001](../../12_NEUROLOGIE/21_NEUR_NEUROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEUR-0001__ACCIDENTS_VASCULAIRES_CEREBRAUX.md) |
 | Embolie pulmonaire (angioscanner) | A | — (à rédiger) |
 | Pneumopéritoine et occlusion | A | — (à rédiger) |
 | Dissection aortique | B | — (à rédiger) |
-| Hémorragie active (extravasation de contraste) | B | [DOS-GAST-0001](../../07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0001__HEMORRAGIES_DIGESTIVES.md) ; [DOS-OBST-0002](../../10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/02_DOSSIERS_PEDAGOGIQUES/DOS-OBST-0002__HEMORRAGIE_DE_LA_DELIVRANCE.md) |
+| Hémorragie active (extravasation de contraste) | B | — (à rédiger) |
 | Compression médullaire | B | — (à rédiger) |
 | Torsion testiculaire ou annexielle (échographie-doppler) | B | — (à rédiger) |
 | Invagination intestinale de l'enfant | C | — (à rédiger) |
@@ -196,7 +193,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 0 (codes RADI, IMAG) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 0 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (2)
+**Recommandations cataloguées** : 2 en vigueur — références datées des thèmes cités en partie C
 - REC-0325 — European Thyroid Association Guidelines for Ultrasound Malignancy Risk Stratification of Thyroid Nodules in Adults: The EU-TIRADS (ETA, 2017-08 ; statut : actuelle)
 - REC-0455 — Terminology for describing normally sited and ectopic pregnancies on ultrasound: ESHRE recommendations for good practice (ESHRE, 2020-12 ; statut : actuelle)
 

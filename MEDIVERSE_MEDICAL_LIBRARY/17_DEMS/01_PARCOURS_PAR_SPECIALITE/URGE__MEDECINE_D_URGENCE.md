@@ -23,7 +23,7 @@ statut: brouillon_a_auditer
 |---|---|---|
 | Intitulé | Médecine d'urgence *(trad. libre)* | traduction libre de « الطب الاستعجالي » (DOC-00018) |
 | Intitulé arabe | الطب الاستعجالي | DOC-00018 |
-| Filière | spécialités médicales | Arrêté 1059 du 03/08/2023 portant création du cycle de formation du DEMS de médecine d'urgence, art. 1-2 (4 ans)  |
+| Filière | spécialités médicales *(rattachement éditorial : filière non précisée par le texte de création/programme)* `[À VÉRIFIER]` | — |
 | Durée de formation | **4 ans** | Arrêté 1059 du 03/08/2023 portant création du cycle de formation du DEMS de médecine d'urgence, art. 1-2 (4 ans) ; art. 5 : stages en structures hospitalo-universitaires, préhospitalières et de santé publique agréées (DOC-00018) |
 | Texte de programme | Arrêté 1059 du 03/08/2023 (durée fixée ; programme en annexe **non publiée au BO**) | DOC-00018 |
 | Jury national 2024-2025 | non (spécialité absente de la liste) | arrêté 1001 du 29/07/2024 (DOC-00020) |
@@ -102,7 +102,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - ATLS — prise en charge du traumatisé
 - SFMU (France) — thèmes de médecine d'urgence
@@ -133,7 +132,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Ministère de la Santé (Algérie) — programme national de lutte contre l'envenimation scorpionique (textes à acquérir)
 - OMS — triage et soins d'urgence (outils ETAT/BEC)
@@ -161,7 +159,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
 
@@ -181,7 +178,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 | Détresse respiratoire aiguë | A | — (à rédiger) |
 | Coma et état de mal épileptique | A | [DOS-DIAB-0002](../../07_MEDECINE_INTERNE/26_DIAB_DIABETOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-DIAB-0002__COMPLICATIONS_AIGUES_DU_DIABETE_ACIDOCETOSE_HYPOGLYCEMIE_ETAT_HYPEROSMOLAIRE.md) ; [DOS-MINT_REA-0002](../../13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0002__COMAS.md) |
 | Polytraumatisé | A | — (à rédiger) |
-| AVC aigu | A | — (à rédiger) |
+| AVC aigu | A | [DOS-NEUR-0001](../../12_NEUROLOGIE/21_NEUR_NEUROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEUR-0001__ACCIDENTS_VASCULAIRES_CEREBRAUX.md) |
 | Envenimation scorpionique | B | [DOS-URGE-0002](../../13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0002__MORSURES_ET_ENVENIMATIONS.md) |
 | Intoxications graves (CO, organophosphorés, médicaments cardiotropes) | B | [DOS-URGE-0001](../../13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0001__CONDUITE_A_TENIR_DEVANT_UNE_INTOXICATION_AIGUE.md) |
 | Urgences obstétricales hors maternité | B | — (à rédiger) |
@@ -199,13 +196,11 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 24 (codes URGE) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 4 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (27)
+**Recommandations cataloguées** : 24 en vigueur (+ 3 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0236 — 2018 ESC Guidelines for the diagnosis and management of syncope (ESC, 2018-06 ; statut : actuelle)
-- REC-0265 — Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021 (Surviving Sepsis Campaign (SCCM / ESICM), 2021-10 ; statut : remplacee)
 - REC-0266 — Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock 2026 (Surviving Sepsis Campaign (SCCM / ESICM), 2026-05 ; statut : actuelle)
 - REC-0280 — WHO expert consultation on rabies: third report (TRS 1012) (OMS, 2018-04 ; statut : actuelle)
 - REC-0292 — Consensus on circulatory shock and hemodynamic monitoring. Task force of the European Society of Intensive Care Medicine (ESICM, 2014-11 ; statut : actuelle)
-- REC-0293 — European Resuscitation Council Guidelines 2021: Executive summary (ERC (European Resuscitation Council), 2021-03 ; statut : remplacee)
 - REC-0294 — European Resuscitation Council Guidelines 2025 Executive Summary (ERC, 2025-10 ; statut : actuelle)
 - REC-0295 — Part 1: Executive Summary: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care (AHA, 2025-10 ; statut : actuelle)
 - REC-0296 — EAACI guidelines: Anaphylaxis (2021 update) (EAACI, 2021-09 ; statut : actuelle)
@@ -216,7 +211,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0318 — Hyperglycemic Crises in Adults With Diabetes: A Consensus Report (ADA / EASD / JBDS / AACE / DTS, 2024-08 ; statut : actuelle)
 - REC-0319 — ISPAD clinical practice consensus guidelines 2022: Diabetic ketoacidosis and hyperglycemic hyperosmolar state (ISPAD, 2022-11 ; statut : actuelle)
 - REC-0347 — Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline - Update 2021 (ESGE, 2021-02 ; statut : actuelle)
-- REC-0404 — Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines for the Early Management of Acute Ischemic Stroke (AHA / ASA, 2019-10 ; statut : remplacee)
 - REC-0405 — 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: A Guideline From the American Heart Association/American Stroke Association (AHA / ASA, 2026-01 ; statut : actuelle)
 - REC-0406 — European Stroke Organisation (ESO) guidelines on intravenous thrombolysis for acute ischaemic stroke (ESO (European Stroke Organisation), 2021-02 ; statut : actuelle)
 - REC-0407 — European Stroke Organisation (ESO) - European Society for Minimally Invasive Neurological Therapy (ESMINT) Guidelines on Mechanical Thrombectomy in Acute Ischaemic StrokeEndorsed by Stroke Alliance for Europe (SAFE) (ESO / ESMINT, 2019-02 ; statut : actuelle)

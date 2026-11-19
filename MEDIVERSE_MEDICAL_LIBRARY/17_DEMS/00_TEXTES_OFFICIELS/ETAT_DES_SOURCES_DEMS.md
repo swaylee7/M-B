@@ -195,3 +195,15 @@ Cette liste reflète les jurys d'une session, **pas** la nomenclature officielle
   https://fntic.univ-ouargla.dz/images/pdf/laws/129_B.PDF, https://fntic.univ-ouargla.dz/images/pdf/laws/129_H.PDF
 - `www.univ-sba.dz` : https://www.univ-sba.dz/med/wp-content/uploads/2026/02/progr_enseign_postgrad_biophysique_medicale.pdf
 - `www.ummto.dz` (page HTML) : https://www.ummto.dz/en/arrete-modifiant-les-dates-des-examens-de-d-e-m-s/
+
+
+## 6. Addendum DEMS-03 (19/11/2026) — relecture et produits dérivés
+Relecture intégrale du scan de l'arrêté 1137/2015 (DOC-00066) et contrôle visuel des annexes des arrêtés 1001/2024, 308/2025, 1276/2024 et 1651/2025. Corrections et précisions :
+1. **Arrêté 1001/2024** : l'annexe compte **13** spécialités fondamentales dotées d'un jury (et non 12) — la n°13 est « physiologie clinique et exploration fonctionnelle métabolique et nutrition » (p. 226 du BO) ; total des jurys 2024-2025 : **68**. La n°23 des spécialités médicales est la pédopsychiatrie.
+2. **Arrêté 1137, art. 8** : le seuil « 10 jours non justifiés / 30 jours justifiés » vise l'ensemble des activités de formation (le texte ne précise pas « en stage ») ; le seuil « 3 / 5 jours » vise l'enseignement théorique.
+3. **Arrêté 1276 du 07/11/2024** : seule la page des visas (p. 257) a été acquise ; le contenu de son annexe (modification de la nomenclature) est **inconnu**.
+4. **Arrêté n°40 (examen final)** : daté du 25/02/1989 dans les visas du 1137, mais du 25/02/1982 dans ceux de l'arrêté 1059/2023 — divergence entre textes officiels `[À VÉRIFIER]`.
+5. **Arrêté 738 du 31/05/2026** (DOC-00016, p. 476) : composition des commissions **régionales** d'examen de 1re année 2025-2026 ; il vise une **note n°802 du 20/09/2021** sur le déroulement des examens de 1re année et du DEMS (non acquise).
+6. **Arrêté 1271/2023** : l'extrait acquis s'arrête à l'art. 30 (p. 802) ; les articles finaux (abrogation éventuelle des arrêtés 91/2012 et 767/2017) ne sont pas acquis.
+
+Produits dérivés : `nomenclature_dems.json` et `NOMENCLATURE_DEMS.md` (75 entrées consolidées), `17_DEMS/03_EVALUATIONS/ORGANISATION_EVALUATION_DEMS.md`, 61 parcours dans `17_DEMS/01_PARCOURS_PAR_SPECIALITE/`, `17_DEMS/04_URGENCES_ET_CAT/LISTE_URGENCES_PAR_SPECIALITE.md`.

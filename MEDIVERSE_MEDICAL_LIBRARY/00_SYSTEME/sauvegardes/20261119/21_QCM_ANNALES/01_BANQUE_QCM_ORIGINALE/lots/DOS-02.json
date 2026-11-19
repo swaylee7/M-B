@@ -1,0 +1,3183 @@
+{
+  "agent": "DOS-02",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-PNEU-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant Mycobacterium tuberculosis et le complexe tuberculosis, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "C'est une bactérie aérobie stricte.",
+        "B": "Il apparaît rouge sur fond bleu à la coloration de Ziehl-Neelsen en raison de son acido-alcoolo-résistance.",
+        "C": "Ses colonies apparaissent en 24 à 48 heures sur milieu de Löwenstein-Jensen.",
+        "D": "Mycobacterium bovis est naturellement résistant au pyrazinamide.",
+        "E": "La présence de BAAR à l'examen direct permet d'affirmer qu'il s'agit de M. tuberculosis."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le BK est un BAAR aérobie strict à croissance lente (division en ~20 h ; colonies en 3–4 semaines). Les BAAR signent une mycobactérie, sans distinguer le complexe tuberculosis des mycobactéries non tuberculeuses. M. bovis est naturellement résistant au pyrazinamide.",
+      "explications_par_proposition": {
+        "A": "Vrai : l'aérobiose stricte explique la prédilection pour les sommets et les cavernes.",
+        "B": "Vrai : la paroi riche en acides mycoliques retient la fuchsine malgré l'acide et l'alcool.",
+        "C": "Faux : la croissance est lente, 3 à 4 semaines sur milieu solide à l'œuf.",
+        "D": "Vrai : résistance naturelle de M. bovis (et du BCG) au pyrazinamide, d'où l'intérêt de l'identification d'espèce.",
+        "E": "Faux : les BAAR peuvent être des mycobactéries non tuberculeuses ; seuls l'identification (culture) ou un test moléculaire spécifique le prouvent."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Bacille de la tuberculose — bactériologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Assimiler BAAR et M. tuberculosis.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "The Union. Prise en charge de la tuberculose — Guide des éléments essentiels. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos de la transmission et de l'histoire naturelle de la tuberculose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La transmission se fait principalement par voie aérienne via des gouttelettes desséchées de petite taille.",
+        "B": "Un malade atteint de tuberculose pulmonaire cavitaire à microscopie positive est la source la plus contagieuse.",
+        "C": "Une tuberculose ganglionnaire cervicale isolée est une forme très contagieuse.",
+        "D": "Environ 5 à 10 % des sujets infectés immunocompétents développent une tuberculose maladie au cours de leur vie, la moitié environ dans les deux ans.",
+        "E": "La contagiosité persiste habituellement jusqu'au 6e mois d'un traitement efficace sur souche sensible."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La transmission est aérienne à partir des formes pulmonaires (surtout microscopie positive et cavitaires). Le risque de progression vers la maladie est concentré dans les deux années suivant l'infection. Sous traitement efficace, la contagiosité diminue rapidement (classiquement en 2–3 semaines).",
+      "explications_par_proposition": {
+        "A": "Vrai : droplet nuclei de 1 à 5 µm restant en suspension.",
+        "B": "Vrai : charge bacillaire maximale dans les cavernes.",
+        "C": "Faux : la tuberculose extrapulmonaire isolée est peu ou pas contagieuse.",
+        "D": "Vrai : ordre de grandeur classique, majoré chez le jeune enfant et l'immunodéprimé.",
+        "E": "Faux : elle diminue en quelques semaines ; la négativation est documentée par la microscopie."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Transmission et histoire naturelle",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "The Union. Prise en charge de la tuberculose — Guide des éléments essentiels. 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "OMS. Lignes directrices unifiées sur la tuberculose, module 1 : traitement préventif — guide pratique (version française)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0003",
+      "format": "QCS (réponse unique)",
+      "enonce": "Concernant l'intradermoréaction à la tuberculine (IDR) et les tests de libération d'interféron gamma (IGRA), quelle proposition est exacte ?",
+      "propositions": {
+        "A": "Une IDR positive affirme le diagnostic de tuberculose maladie.",
+        "B": "Un IGRA négatif élimine une tuberculose pulmonaire active.",
+        "C": "Leur indication principale est le diagnostic de l'infection tuberculeuse latente chez les sujets exposés ou à risque.",
+        "D": "Les IGRA sont faussement positifs après vaccination par le BCG, comme l'IDR.",
+        "E": "L'IDR se lit à la 24e heure."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "IDR et IGRA témoignent d'une réponse immunitaire aux antigènes mycobactériens ; ils ne distinguent pas infection et maladie et peuvent être faussement négatifs au cours des formes graves ou de l'immunodépression. Les IGRA ne sont pas influencés par le BCG. L'IDR se lit à 72 heures.",
+      "explications_par_proposition": {
+        "A": "Faux : un test positif signe une infection (ancienne ou récente), pas une maladie.",
+        "B": "Faux : faux négatifs possibles (miliaire, dénutrition, immunodépression).",
+        "C": "Vrai : c'est leur indication principale (contacts, bilan avant biothérapie).",
+        "D": "Faux : les antigènes des IGRA (ESAT-6, CFP-10) sont absents du BCG.",
+        "E": "Faux : lecture de l'induration à 72 heures."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Tests immunologiques (IDR, IGRA)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser l'IDR pour poser ou éliminer un diagnostic de tuberculose maladie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Lignes directrices unifiées sur la tuberculose, module 1 : traitement préventif — guide pratique (version française)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0004",
+      "format": "QCS (réponse unique)",
+      "enonce": "À la lecture d'un frottis d'expectoration coloré par Ziehl-Neelsen (objectif à immersion), le technicien compte 15 BAAR sur 100 champs. Selon l'échelle OMS/Union, comment le résultat est-il rendu ?",
+      "propositions": {
+        "A": "Négatif",
+        "B": "Positif « rare » avec le nombre exact de BAAR",
+        "C": "Positif 1+",
+        "D": "Positif 2+",
+        "E": "Positif 3+"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Échelle OMS/Union : 0 BAAR/100 champs = négatif ; 1–9/100 champs = rare (noter le nombre) ; 10–99/100 champs = 1+ ; 1–10 par champ = 2+ ; > 10 par champ = 3+.",
+      "explications_par_proposition": {
+        "A": "Faux : des BAAR sont vus.",
+        "B": "Faux : « rare » correspond à 1–9 BAAR sur 100 champs.",
+        "C": "Vrai : 10 à 99 BAAR sur 100 champs.",
+        "D": "Faux : 2+ = 1 à 10 BAAR par champ.",
+        "E": "Faux : 3+ = plus de 10 BAAR par champ."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Lecture de la microscopie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "The Union. Prise en charge de la tuberculose — Guide des éléments essentiels. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 48 ans, traité en 2019 pour une tuberculose pulmonaire et déclaré guéri, présente en 2026 une toux avec expectoration à microscopie positive. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une rechute.",
+        "B": "Il doit être enregistré comme « nouveau cas » car plus d'un an s'est écoulé depuis la guérison.",
+        "C": "Un test moléculaire rapide avec recherche de résistance à la rifampicine, une culture et un antibiogramme sont indiqués avant de choisir le schéma.",
+        "D": "Le schéma 2SHRZE/1HRZE/5HRE est le schéma recommandé par l'instruction nationale de 2024.",
+        "E": "La déclaration du cas est obligatoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Tout nouvel épisode après un traitement déclaré guéri ou achevé est une rechute (cas déjà traité), quel que soit le délai. Le risque de résistance impose un bilan de sensibilité avant le choix du schéma. L'instruction n°07/2024 a abandonné le schéma 2SHRZE/1HRZE/5HRE.",
+      "explications_par_proposition": {
+        "A": "Vrai : définition de la rechute.",
+        "B": "Faux : un patient déjà traité n'est jamais un nouveau cas.",
+        "C": "Vrai : la recherche de résistance est prioritaire chez le déjà traité.",
+        "D": "Faux : ce schéma « ne doit plus être » utilisé selon l'instruction de 2024 (texte connu par extraits).",
+        "E": "Vrai : la tuberculose est une maladie à déclaration obligatoire (référence réglementaire à vérifier)."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Classification des cas — cas déjà traité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Proposer l'ancien schéma de retraitement de catégorie II.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ministère de la Santé (DGPPS). Instruction n°07 du 21 mars 2024 relative aux directives nationales du traitement de la tuberculose",
+          "date": "2024"
+        },
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis: module 4: treatment and care. WHO, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un nouveau cas de tuberculose pulmonaire confirmée, pharmacosensible, pèse 62 kg. Quelles propositions concernant son traitement sont exactes ?",
+      "propositions": {
+        "A": "Le schéma standard est 2HRZE/4HR.",
+        "B": "En phase intensive, il reçoit 4 comprimés par jour de la forme combinée RHZE 150/75/400/275 mg.",
+        "C": "La phase de continuation associe isoniazide, rifampicine et éthambutol.",
+        "D": "Les prises sont trois fois par semaine pendant la phase intensive.",
+        "E": "La prise est directement observée au moins pendant la phase intensive."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Schéma national et OMS des nouveaux cas : 2 mois HRZE puis 4 mois HR, en prises quotidiennes, sous formes combinées selon le poids (55–70 kg : 4 comprimés). Le TDO est un pilier du programme. Les tranches de poids doivent être vérifiées dans le protocole national.",
+      "explications_par_proposition": {
+        "A": "Vrai : schéma standard (Instruction n°07/2024, OMS 2025).",
+        "B": "Vrai : tranche 55–70 kg = 4 comprimés (tranches OMS ; à confronter au protocole national).",
+        "C": "Faux : la continuation est une bithérapie HR.",
+        "D": "Faux : les prises sont quotidiennes.",
+        "E": "Vrai : traitement directement observé, au minimum en phase intensive."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Schéma standard de première ligne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ajouter l'éthambutol en phase de continuation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ministère de la Santé (DGPPS). Instruction n°07 du 21 mars 2024 relative aux directives nationales du traitement de la tuberculose",
+          "date": "2024"
+        },
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis: module 4: treatment and care. WHO, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "The Union. Prise en charge de la tuberculose — Guide des éléments essentiels. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les effets indésirables des antituberculeux, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "Isoniazide — neuropathie périphérique, prévenue par la pyridoxine chez les sujets à risque.",
+        "B": "Éthambutol — névrite optique rétrobulbaire.",
+        "C": "Rifampicine — coloration orange des urines et des larmes.",
+        "D": "Pyrazinamide — hypo-uricémie.",
+        "E": "Streptomycine — médicament de choix chez la femme enceinte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Effets classiques : H (hépatite, neuropathie), R (coloration orangée, hépatite, réactions immuno-allergiques, induction enzymatique), Z (hépatite, hyperuricémie, arthralgies), E (névrite optique), S (oto- et néphrotoxicité, contre-indiquée pendant la grossesse).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : baisse d'acuité et dyschromatopsie rouge-vert, dose-dépendantes.",
+        "C": "Vrai : effet bénin dont il faut prévenir le patient.",
+        "D": "Faux : le pyrazinamide provoque une hyperuricémie.",
+        "E": "Faux : la streptomycine est contre-indiquée (ototoxicité fœtale)."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Effets indésirables des antituberculeux",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis: module 4: treatment and care. WHO, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "The Union. Prise en charge de la tuberculose — Guide des éléments essentiels. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À la 3e semaine d'un traitement 2HRZE, un patient asymptomatique présente des ALAT à 6 fois la limite supérieure de la normale, bilirubine normale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il faut arrêter les médicaments hépatotoxiques (isoniazide, rifampicine, pyrazinamide).",
+        "B": "On poursuit le traitement puisque le patient est asymptomatique.",
+        "C": "Il faut rechercher une autre cause d'hépatite (virale, alcool, autre médicament).",
+        "D": "Dès la normalisation, on réintroduit simultanément les trois médicaments.",
+        "E": "La réintroduction se fait de façon séquentielle, avec contrôle des transaminases, lorsque les ALAT sont redescendues sous environ 2 fois la normale."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Selon l'ATS, l'arrêt des hépatotoxiques est indiqué si ALAT ≥ 5 × LSN sans symptôme ou ≥ 3 × LSN avec symptômes ou ictère. La réintroduction est séquentielle (rifampicine, puis isoniazide, puis discussion du pyrazinamide) après amélioration. Seuils à confronter au protocole national.",
+      "explications_par_proposition": {
+        "A": "Vrai : seuil ≥ 5 × LSN atteint.",
+        "B": "Faux : au-delà de 5 × LSN, l'arrêt s'impose même sans symptôme.",
+        "C": "Vrai : diagnostic différentiel systématique.",
+        "D": "Faux : la réintroduction simultanée empêche d'identifier le responsable et expose à une rechute d'hépatite.",
+        "E": "Vrai : modalité classique de réintroduction."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Hépatotoxicité des antituberculeux",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Considérer qu'une cytolyse asymptomatique majeure autorise la poursuite.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nahid P et al. ATS/CDC/IDSA drug-susceptible TB guidelines. Clin Infect Dis 2016 [référence à vérifier]",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un nouveau cas de tuberculose pulmonaire à microscopie positive traité par 2HRZE/4HR, la microscopie de contrôle du 5e mois est positive. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ce résultat définit un échec thérapeutique.",
+        "B": "La conduite recommandée est d'ajouter la streptomycine au schéma en cours.",
+        "C": "Une culture, un antibiogramme et un test moléculaire de résistance sont indiqués.",
+        "D": "Le test moléculaire rapide est l'examen de référence pour juger la négativation sous traitement.",
+        "E": "L'observance réelle du traitement doit être vérifiée."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Une microscopie ou une culture positive au 5e mois ou plus tard définit l'échec. Il faut rechercher une résistance et une mauvaise observance ; on n'ajoute jamais un seul médicament à un schéma en échec. Le test moléculaire détecte aussi l'ADN de bacilles morts et ne sert pas au suivi.",
+      "explications_par_proposition": {
+        "A": "Vrai : définition OMS de l'échec.",
+        "B": "Faux : ajouter un seul médicament sélectionne des résistances.",
+        "C": "Vrai : bilan de résistance indispensable.",
+        "D": "Faux : le suivi repose sur la microscopie (et la culture).",
+        "E": "Vrai : cause fréquente d'échec."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Surveillance bactériologique et échec",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Suivre la réponse au traitement par GeneXpert.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis: module 4: treatment and care. WHO, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "The Union. Prise en charge de la tuberculose — Guide des éléments essentiels. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'organisation du programme national algérien de lutte contre la tuberculose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le Service de contrôle de la tuberculose et des maladies respiratoires (SCTMR) est la structure opérationnelle de diagnostic, d'enregistrement, de traitement et de suivi des malades.",
+        "B": "L'Institut Pasteur d'Algérie joue le rôle de laboratoire national de référence.",
+        "C": "L'INSP assure la surveillance épidémiologique des cas déclarés.",
+        "D": "Le plan 2011–2015 visait un taux de succès thérapeutique d'au moins 90 % des cas contagieux.",
+        "E": "Le choix du schéma thérapeutique des nouveaux cas est laissé à la libre appréciation de chaque prescripteur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le programme repose sur une organisation pyramidale (DGPPS, INSP, IPA, coordination de wilaya, SCTMR) et sur un traitement standardisé fixé par instruction ministérielle (n°07 du 21 mars 2024). Le plan 2011–2015 fixait notamment BCG > 95 %, dépistage ≥ 90 % et succès ≥ 90 %.",
+      "explications_par_proposition": {
+        "A": "Vrai (organisation décrite dans le manuel national ; organigramme actuel à vérifier).",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai (objectif du plan 2011–2015).",
+        "E": "Faux : le traitement est standardisé par les directives nationales."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Programme national algérien de lutte antituberculeuse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "MSPRH/INSP. Manuel de la lutte antituberculeuse à l'usage des personnels médicaux, éd. 2011 (texte intégral non consulté)",
+          "date": "2011"
+        },
+        {
+          "reference": "Ministère de la Santé (DGPPS). Instruction n°07 du 21 mars 2024 relative aux directives nationales du traitement de la tuberculose",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 26 ans sous contraception œstroprogestative orale débute un traitement 2HRZE/4HR. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La rifampicine diminue l'efficacité de la contraception hormonale.",
+        "B": "Une contraception non hormonale (par exemple un dispositif intra-utérin au cuivre) doit être proposée.",
+        "C": "En cas de grossesse, le traitement HRZE doit être interrompu.",
+        "D": "La rifampicine potentialise l'effet des antivitamines K.",
+        "E": "Une supplémentation en pyridoxine est recommandée en cas de grossesse sous isoniazide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "La rifampicine est un puissant inducteur enzymatique : baisse d'efficacité des contraceptifs hormonaux et des AVK (risque thrombotique, nécessité d'augmenter les doses sous contrôle de l'INR). Le schéma HRZE est compatible avec la grossesse ; la streptomycine est contre-indiquée ; la pyridoxine est recommandée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : HRZE est compatible avec la grossesse ; l'interruption expose la mère et l'enfant.",
+        "D": "Faux : elle diminue l'effet des AVK.",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Interactions et terrain — femme jeune",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interrompre un traitement antituberculeux efficace à l'annonce d'une grossesse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis: module 4: treatment and care. WHO, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "The Union. Prise en charge de la tuberculose — Guide des éléments essentiels. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un enfant de 2 ans, vacciné par le BCG à la naissance, vit avec son père atteint de tuberculose pulmonaire à microscopie positive. Il est asymptomatique et sa radiographie thoracique est normale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un traitement préventif est indiqué après avoir éliminé une tuberculose active.",
+        "B": "Une revaccination par le BCG est la mesure prioritaire.",
+        "C": "Il doit recevoir le schéma curatif 2HRZE/4HR.",
+        "D": "L'association isoniazide-rifampicine pendant 3 mois (3HR) fait partie des schémas préventifs de l'OMS.",
+        "E": "Aucun traitement n'est nécessaire puisqu'il a été vacciné par le BCG."
+      },
+      "reponses_correctes": [
+        "A",
+        "D"
+      ],
+      "explication_generale": "L'enfant de moins de 5 ans contact d'un cas contagieux est la cible prioritaire du traitement préventif, après exclusion d'une tuberculose active. Le BCG protège surtout contre les formes graves mais n'empêche pas l'infection. Le schéma préventif national (instruction ITL 2024) est à vérifier.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la revaccination n'a pas d'intérêt démontré.",
+        "C": "Faux : en l'absence de maladie, on prescrit un traitement préventif, pas curatif.",
+        "D": "Vrai : 3HR, 6H, 3HP, 1HP, 4R sont des options OMS.",
+        "E": "Faux : le BCG ne dispense pas du traitement préventif."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Enquête autour d'un cas — traitement préventif",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Considérer le BCG comme une protection suffisante.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Lignes directrices unifiées sur la tuberculose, module 1 : traitement préventif — guide pratique (version française)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les schémas de 4 mois pour la tuberculose pharmacosensible, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Dans l'essai Study 31/A5349, le schéma de 4 mois associant rifapentine et moxifloxacine a été non inférieur au schéma standard de 6 mois.",
+        "B": "Dans le même essai, le schéma de 4 mois à base de rifapentine sans moxifloxacine a également démontré sa non-infériorité.",
+        "C": "L'essai SHINE a montré qu'un traitement de 4 mois était non inférieur à 6 mois chez l'enfant atteint de tuberculose non grave.",
+        "D": "Le schéma 2HPZM/2HPM est proposé par l'OMS à partir de 12 ans.",
+        "E": "L'instruction algérienne de 2024 généralise le schéma de 4 mois à tous les nouveaux cas."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Study 31/A5349 (NEJM 2021) : non-infériorité du bras rifapentine-moxifloxacine, pas du bras rifapentine seul. SHINE (NEJM 2022) : 4 mois non inférieur chez l'enfant avec forme non grave. L'instruction algérienne retient 2HRZE/4HR pour tous les nouveaux cas.",
+      "explications_par_proposition": {
+        "A": "Vrai : issues défavorables 15,5 % contre 14,6 %.",
+        "B": "Faux : la non-infériorité n'a pas été démontrée pour ce bras.",
+        "C": "Vrai : 1 204 enfants randomisés.",
+        "D": "Vrai.",
+        "E": "Faux : le schéma national reste 2HRZE/4HR."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "theme": "Schémas courts de 4 mois (OMS)",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Confondre recommandations OMS et directive nationale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dorman SE et al. N Engl J Med 2021;384:1705-18 (doi:10.1056/NEJMoa2033400)",
+          "date": "2021"
+        },
+        {
+          "reference": "Turkova A et al. N Engl J Med 2022;386:911-22 (doi:10.1056/NEJMoa2104535)",
+          "date": "2022"
+        },
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis: module 4: treatment and care. WHO, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Ministère de la Santé (DGPPS). Instruction n°07 du 21 mars 2024 relative aux directives nationales du traitement de la tuberculose",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0014",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel est l'agent bactérien le plus fréquemment responsable de pneumonie aiguë communautaire chez l'adulte ?",
+      "propositions": {
+        "A": "Haemophilus influenzae",
+        "B": "Streptococcus pneumoniae",
+        "C": "Mycoplasma pneumoniae",
+        "D": "Legionella pneumophila",
+        "E": "Staphylococcus aureus"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Le pneumocoque reste le premier agent bactérien des PAC à tout âge et dans toutes les catégories de gravité ; d'où la place centrale de l'amoxicilline.",
+      "explications_par_proposition": {
+        "A": "Faux : fréquent chez le BPCO, mais moins que le pneumocoque.",
+        "B": "Vrai.",
+        "C": "Faux : surtout chez le sujet jeune, globalement moins fréquent.",
+        "D": "Faux : important dans les formes graves, mais moins fréquent.",
+        "E": "Faux : surtout post-grippal et dans les formes graves."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Épidémiologie microbienne",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels critères font partie du score CURB-65 ?",
+      "propositions": {
+        "A": "Confusion d'apparition récente",
+        "B": "Urée sanguine > 7 mmol/L",
+        "C": "Fréquence respiratoire ≥ 30/min",
+        "D": "SpO2 < 90 % en air ambiant",
+        "E": "Fréquence cardiaque ≥ 125/min"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "CURB-65 : Confusion, Urée > 7 mmol/L, fréquence Respiratoire ≥ 30/min, pression artérielle (Blood pressure) systolique < 90 ou diastolique ≤ 60 mmHg, âge ≥ 65 ans. La SpO2 et la fréquence cardiaque n'en font pas partie (mais doivent être prises en compte cliniquement).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (critère absent du CRB-65).",
+        "C": "Vrai.",
+        "D": "Faux : l'hypoxémie n'est pas dans le score, mais justifie à elle seule une évaluation hospitalière.",
+        "E": "Faux : la fréquence cardiaque figure dans le PSI, pas dans le CURB-65."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Score CURB-65",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire qu'un CURB-65 bas autorise un retour à domicile malgré une hypoxémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lim WS et al. CURB-65. Thorax 2003;58:377-82",
+          "date": "2003"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 32 ans sans antécédent présente une PAC non grave (CRB-65 = 0) avec une opacité alvéolaire lobaire. Selon l'actualisation SPILF/SPLF 2025, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'amoxicilline 1 g × 3/j per os est le traitement de première intention.",
+        "B": "En cas d'allergie, la pristinamycine est une alternative.",
+        "C": "La lévofloxacine est le traitement de première intention.",
+        "D": "Une réévaluation clinique à 48–72 h est nécessaire.",
+        "E": "Des hémocultures et une antigénurie Legionella sont systématiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Chez l'adulte sans comorbidité, l'amoxicilline cible le pneumocoque ; pristinamycine en cas d'allergie ; fluoroquinolones réservées. Pas de bilan microbiologique systématique en ambulatoire ; réévaluation à 48–72 h.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : les fluoroquinolones sont réservées (allergie grave aux bêta-lactamines, contre-indication aux macrolides en cas d'atypique).",
+        "D": "Vrai.",
+        "E": "Faux : pas de microbiologie systématique en ambulatoire non grave."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Antibiothérapie ambulatoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la durée de l'antibiothérapie d'une PAC non compliquée selon SPILF/SPLF 2025, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle peut être limitée à 3 jours si le patient est stable à J3.",
+        "B": "Elle est de 5 jours si la stabilité est atteinte entre J3 et J5.",
+        "C": "Elle est de 14 jours chez tout patient hospitalisé.",
+        "D": "L'essai PTC a montré la non-infériorité de l'arrêt à J3 chez les patients stables hospitalisés hors réanimation.",
+        "E": "L'ATS/IDSA 2019 retient une durée minimale de 5 jours."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "SPILF/SPLF 2025 : 3, 5 ou 7 jours selon le délai d'obtention de la stabilité. Fondement : essai PTC (Lancet 2021). L'ATS/IDSA retient ≥ 5 jours et jusqu'à stabilité.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : les durées longues sont réservées aux complications ou germes particuliers.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Durée de l'antibiothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prolonger systématiquement à 10–14 jours.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Dinh A et al. PTC trial. Lancet 2021;397:1195-203",
+          "date": "2021"
+        },
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la légionellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une hyponatrémie et des signes digestifs sont évocateurs.",
+        "B": "L'antigénurie détecte toutes les espèces et tous les sérogroupes de Legionella.",
+        "C": "L'amoxicilline est inactive.",
+        "D": "La transmission se fait par inhalation d'eau contaminée en aérosol, sans transmission interhumaine habituelle.",
+        "E": "Les macrolides ou les fluoroquinolones sont les antibiotiques de référence."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Légionellose : contexte d'exposition à l'eau aérosolisée, signes extra-respiratoires (digestifs, neurologiques), hyponatrémie, cytolyse. L'antigénurie ne détecte que L. pneumophila sérogroupe 1. Bactérie intracellulaire : bêta-lactamines inactives.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : seulement L. pneumophila sérogroupe 1 ; une antigénurie négative n'élimine pas le diagnostic.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Légionellose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer une légionellose sur une antigénurie négative.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments constituent des critères MAJEURS de PAC grave selon l'ATS/IDSA ?",
+      "propositions": {
+        "A": "Choc septique nécessitant des vasopresseurs",
+        "B": "Insuffisance respiratoire nécessitant une ventilation mécanique",
+        "C": "Fréquence respiratoire ≥ 30/min",
+        "D": "Atteinte multilobaire",
+        "E": "Rapport PaO2/FiO2 ≤ 250"
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "Deux critères majeurs (choc sous vasopresseurs, ventilation mécanique) ; neuf mineurs (FR ≥ 30, PaO2/FiO2 ≤ 250, multilobaire, confusion, urée élevée, leucopénie, thrombopénie, hypothermie, hypotension nécessitant un remplissage). PAC grave = 1 majeur ou ≥ 3 mineurs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : critère mineur.",
+        "D": "Faux : critère mineur.",
+        "E": "Faux : critère mineur."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Critères de gravité ATS/IDSA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la corticothérapie au cours des PAC, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Dans l'essai CAPE COD, l'hydrocortisone a réduit la mortalité à J28 des PAC graves admises en réanimation.",
+        "B": "La dose d'hydrocortisone utilisée dans CAPE COD était de 200 mg/j IV.",
+        "C": "Une corticothérapie est recommandée dans toute PAC hospitalisée.",
+        "D": "L'actualisation SPILF/SPLF 2025 recommande l'hémisuccinate d'hydrocortisone dans la PAC grave.",
+        "E": "L'ATS/IDSA 2019 recommandait déjà la corticothérapie systématique dans la PAC grave."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "CAPE COD (NEJM 2023) : hydrocortisone 200 mg/j IV (4 ou 8 jours puis décroissance) ; mortalité à J28 6,2 % contre 11,9 %. SPILF/SPLF 2025 l'intègre pour la PAC grave. L'ATS/IDSA 2019 (antérieure) ne recommandait pas de corticothérapie systématique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pas d'indication dans la PAC non grave.",
+        "D": "Vrai.",
+        "E": "Faux : elle ne la recommandait pas en routine."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Corticothérapie dans la PAC",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Étendre la corticothérapie à la PAC non grave.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dequin PF et al. Hydrocortisone in severe CAP (CAPE COD). N Engl J Med 2023;388:1931-41",
+          "date": "2023"
+        },
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient traité par amoxicilline pour une PAC reste fébrile et dyspnéique à 72 heures. Quelles hypothèses doivent être envisagées ?",
+      "propositions": {
+        "A": "Une légionellose ou une infection à bactérie intracellulaire.",
+        "B": "Un empyème pleural.",
+        "C": "Une tuberculose pulmonaire.",
+        "D": "Une embolie pulmonaire.",
+        "E": "Une réponse normale ne justifiant aucune réévaluation avant J7."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'échec à 72 h impose de rechercher : germe non couvert, complication locale, erreur diagnostique (tuberculose, embolie, cancer…), problème de traitement ou de terrain.",
+      "explications_par_proposition": {
+        "A": "Vrai : non couverte par l'amoxicilline.",
+        "B": "Vrai : complication à rechercher (échographie, ponction).",
+        "C": "Vrai : surtout en pays d'endémie.",
+        "D": "Vrai : erreur diagnostique classique.",
+        "E": "Faux : l'absence d'amélioration à 72 h impose une réévaluation."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Échec à 72 heures",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Changer d'antibiotique « à l'aveugle » sans réévaluation diagnostique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les pneumonies d'inhalation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles siègent préférentiellement dans les segments déclives, notamment le lobe inférieur droit.",
+        "B": "Les troubles de la conscience et de la déglutition sont les principaux facteurs de risque.",
+        "C": "L'amoxicilline-acide clavulanique est un choix probabiliste habituel.",
+        "D": "L'ATS/IDSA recommande d'ajouter systématiquement une couverture anaérobie spécifique, même en l'absence d'abcès ou d'empyème.",
+        "E": "Un mauvais état bucco-dentaire est un facteur favorisant."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La bronche souche droite, plus verticale, explique la prédilection droite. L'ATS/IDSA déconseille l'ajout systématique d'une couverture anaérobie spécifique sauf abcès ou empyème.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : uniquement en cas d'abcès pulmonaire ou d'empyème.",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Pneumonie d'inhalation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        },
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un patient hospitalisé en médecine pour une PAC non grave, quels examens microbiologiques sont pertinents selon les recommandations françaises ?",
+      "propositions": {
+        "A": "Hémocultures",
+        "B": "Examen cytobactériologique d'une expectoration de bonne qualité",
+        "C": "PCR multiplex respiratoire systématique",
+        "D": "PCR grippe en période épidémique",
+        "E": "Lavage bronchoalvéolaire systématique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Chez l'hospitalisé non grave : hémocultures, ECBC, antigénuries selon le contexte, PCR virales en saison. Les PCR multiplex sont réservées à des situations ciblées ; le LBA n'est pas systématique.",
+      "explications_par_proposition": {
+        "A": "Vrai (en France ; l'ATS/IDSA les cible davantage).",
+        "B": "Vrai.",
+        "C": "Faux : à réserver à des situations précises.",
+        "D": "Vrai.",
+        "E": "Faux : réservé aux formes graves, à l'immunodéprimé ou à l'échec."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Bilan microbiologique selon la gravité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions décrivent correctement des différences entre les recommandations SPILF/SPLF 2025 et ATS/IDSA 2019 ?",
+      "propositions": {
+        "A": "L'ATS/IDSA propose la doxycycline comme option chez l'adulte ambulatoire sans comorbidité.",
+        "B": "L'ATS/IDSA déconseille la radiographie de contrôle systématique en cas de résolution clinique.",
+        "C": "La SPILF/SPLF 2025 autorise 3 jours de traitement chez le patient stable à J3.",
+        "D": "L'ATS/IDSA préfère le PSI au CURB-65 pour décider du lieu de prise en charge.",
+        "E": "Les deux recommandations placent les fluoroquinolones en première intention chez l'adulte sans comorbidité."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les divergences portent sur la couverture des atypiques, la place des fluoroquinolones, la durée, les corticoïdes, les examens microbiologiques et le suivi radiologique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : aucune des deux ne les place en première intention chez l'adulte sans comorbidité."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Divergences SPILF/SPLF 2025 — ATS/IDSA 2019",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0025",
+      "format": "QCS (réponse unique)",
+      "enonce": "Selon les critères de l'OMS (PCIME), à partir de quelle fréquence respiratoire parle-t-on de respiration rapide chez un enfant de 8 mois ?",
+      "propositions": {
+        "A": "≥ 30/min",
+        "B": "≥ 40/min",
+        "C": "≥ 50/min",
+        "D": "≥ 60/min",
+        "E": "≥ 70/min"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Seuils OMS : ≥ 60/min avant 2 mois ; ≥ 50/min de 2 à 11 mois ; ≥ 40/min de 1 à 5 ans (référence à vérifier dans le document OMS en vigueur).",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux : seuil de 1 à 5 ans.",
+        "C": "Vrai : seuil de 2 à 11 mois.",
+        "D": "Faux : seuil avant 2 mois.",
+        "E": "Faux."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "theme": "Pneumonie de l'enfant — critères OMS",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. PCIME — pneumonie de l'enfant [référence à vérifier]",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0026",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un adulte présentant des symptômes évocateurs d'asthme, quels résultats confirment une limitation variable du débit expiratoire selon GINA ?",
+      "propositions": {
+        "A": "Augmentation du VEMS de 15 % et de 300 mL après bronchodilatateur.",
+        "B": "Variabilité diurne moyenne du DEP de 14 % sur deux semaines.",
+        "C": "Chute du VEMS de 25 % lors d'un test à la méthacholine à faible dose.",
+        "D": "Rapport VEMS/CVF normal avec VEMS normal en dehors des symptômes.",
+        "E": "Augmentation du VEMS de 14 % et de 250 mL après 4 semaines de traitement anti-inflammatoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "GINA retient : réversibilité > 12 % et > 200 mL, variabilité du DEP > 10 % chez l'adulte, test de provocation positif, amélioration après 4 semaines de traitement, test d'effort positif, variation entre consultations. Une spirométrie normale n'élimine pas l'asthme mais ne confirme rien.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (seuil GINA adulte > 10 % ; NICE retient ≥ 20 %).",
+        "C": "Vrai : hyperréactivité bronchique.",
+        "D": "Faux : ne confirme pas (mais n'élimine pas) l'asthme.",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Diagnostic — limitation variable du débit expiratoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'une spirométrie normale élimine l'asthme.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "NICE/BTS/SIGN. Asthma: diagnosis, monitoring and chronic asthma management (NG245)",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0027",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez l'adulte, quel critère définit classiquement une réversibilité significative de l'obstruction après bronchodilatateur (GINA, NICE) ?",
+      "propositions": {
+        "A": "Augmentation du VEMS > 5 %",
+        "B": "Augmentation du VEMS > 12 % et > 200 mL",
+        "C": "Augmentation de la CVF > 20 % isolée",
+        "D": "Normalisation obligatoire du rapport VEMS/CVF",
+        "E": "Augmentation du DEP > 5 %"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Critère classique : VEMS + 12 % et + 200 mL par rapport à la valeur de base. La normalisation du rapport VEMS/CVF n'est pas exigée (elle évoque l'asthme, son absence n'exclut rien). La norme ERS/ATS 2022 propose un critère en pourcentage de la valeur prédite.",
+      "explications_par_proposition": {
+        "A": "Faux : seuil insuffisant.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux : non exigée.",
+        "E": "Faux."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Réversibilité bronchique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "NICE/BTS/SIGN. Asthma: diagnosis, monitoring and chronic asthma management (NG245)",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0028",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels items font partie de l'évaluation du contrôle des symptômes de l'asthme selon GINA (4 dernières semaines) ?",
+      "propositions": {
+        "A": "Symptômes diurnes plus de 2 fois par semaine",
+        "B": "Réveil nocturne dû à l'asthme",
+        "C": "Besoin d'un traitement de secours plus de 2 fois par semaine",
+        "D": "Limitation des activités due à l'asthme",
+        "E": "Valeur du VEMS inférieure à 80 % de la théorique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Quatre questions : 0 = bien contrôlé, 1–2 = partiellement contrôlé, 3–4 = non contrôlé. La fonction respiratoire est évaluée séparément dans le risque futur selon GINA, alors que la SPLF l'intègre dans le contrôle.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux pour GINA (la SPLF intègre la fonction respiratoire dans le contrôle)."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Évaluation du contrôle (GINA)",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Raherison-Semjen C et al. Recommandations SPLF 2021 asthme adulte/adolescent. Rev Mal Respir 2021;38:1048-83",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0029",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la stratégie GINA 2025 chez l'adulte et l'adolescent, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Aux paliers 1–2 de la voie 1, le traitement repose sur un CSI-formotérol faible dose à la demande.",
+        "B": "Le traitement par BDCA seul reste recommandé chez les patients ayant des symptômes moins de deux fois par mois.",
+        "C": "Au palier 3 de la voie 1, le patient reçoit un CSI-formotérol faible dose en traitement de fond et à la demande (MART).",
+        "D": "Le schéma MART peut être réalisé avec une association fluticasone-salmétérol.",
+        "E": "L'utilisation d'un CSI-formotérol comme traitement de secours réduit le risque d'exacerbation par rapport à un BDCA."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "GINA a abandonné le BDCA seul ; voie 1 : CSI-formotérol à la demande (paliers 1–2), MART faible dose (palier 3), MART dose moyenne (palier 4). Le MART exige le formotérol (début d'action rapide).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : le BDCA seul est déconseillé quel que soit le niveau de symptômes.",
+        "C": "Vrai.",
+        "D": "Faux : le salmétérol n'a pas le délai d'action requis.",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Stratégie GINA — voie 1",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Proposer un MART avec du salmétérol.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0030",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un adulte traité par MART avec budésonide-formotérol 200/6 µg (dose mesurée), quel est le nombre maximal habituel d'inhalations par jour (traitement de fond + à la demande) selon GINA ?",
+      "propositions": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12",
+        "E": "20"
+      },
+      "reponses_correctes": [
+        "D"
+      ],
+      "explication_generale": "GINA indique une limite de 12 inhalations par jour pour le budésonide-formotérol 200/6 µg chez l'adulte (dose à confronter au RCP). Le recours fréquent aux inhalations à la demande doit faire réévaluer le contrôle.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux.",
+        "C": "Faux : limite de la béclométasone-formotérol 100/6 selon GINA (à vérifier).",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "MART — dose maximale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0031",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels signes définissent une exacerbation sévère chez l'adulte selon GINA ?",
+      "propositions": {
+        "A": "Parole limitée à des mots",
+        "B": "Fréquence respiratoire > 30/min",
+        "C": "Fréquence cardiaque > 120/min",
+        "D": "SpO2 en air ambiant entre 93 et 95 %",
+        "E": "DEP ≤ 50 % de la valeur théorique ou du meilleur"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Exacerbation sévère : parle par mots, assis penché en avant, agité, FR > 30, muscles accessoires, FC > 120, SpO2 < 90 %, DEP ≤ 50 %. Somnolence, confusion et silence auscultatoire signent la menace vitale.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : correspond à une forme légère à modérée (90–95 %).",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Gravité de l'exacerbation",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0032",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement d'une exacerbation d'asthme chez l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le salbutamol peut être administré à raison de 4 à 10 bouffées par chambre d'inhalation toutes les 20 minutes pendant la première heure.",
+        "B": "L'objectif de SpO2 est de 93 à 95 %.",
+        "C": "La prednisolone est prescrite à 40–50 mg/j pendant 5 à 7 jours.",
+        "D": "Un sédatif est utile pour calmer l'agitation.",
+        "E": "Le sulfate de magnésium IV (2 g en 20 min) peut être utilisé dans une exacerbation sévère ne répondant pas au traitement initial."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "BDCA répétés, oxygène contrôlé, corticoïde oral précoce, ipratropium et magnésium IV dans les formes sévères. Les sédatifs sont contre-indiqués (dépression respiratoire).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (94–98 % chez l'enfant).",
+        "C": "Vrai.",
+        "D": "Faux : contre-indiqué.",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Traitement de l'exacerbation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Sédater un asthmatique agité (l'agitation peut traduire l'hypoxie).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0033",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments sont des facteurs de risque de décès par asthme selon GINA ?",
+      "propositions": {
+        "A": "Antécédent d'intubation pour asthme",
+        "B": "Absence de traitement par CSI",
+        "C": "Surconsommation de BDCA (plus d'un flacon par mois)",
+        "D": "Recours aux urgences ou hospitalisation pour asthme dans l'année",
+        "E": "Asthme d'effort isolé bien contrôlé par un CSI"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Antécédent d'asthme quasi fatal, hospitalisation/urgences récentes, corticothérapie orale en cours ou récente, absence de CSI, surconsommation de BDCA, troubles psychiatriques ou psychosociaux, mauvaise observance, allergie alimentaire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : un asthme contrôlé sous CSI n'est pas un facteur de risque de décès."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Facteurs de risque de décès par asthme",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0034",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'asthme de l'enfant de 5 ans et moins, quelles propositions sont exactes selon GINA ?",
+      "propositions": {
+        "A": "Le diagnostic repose sur une approche de probabilité (symptômes, terrain, réponse au traitement).",
+        "B": "Une spirométrie avec réversibilité est indispensable avant tout traitement.",
+        "C": "Un essai de CSI faible dose quotidien pendant 2 à 3 mois aide au diagnostic.",
+        "D": "Le traitement inhalé utilise un aérosol doseur avec chambre d'inhalation (masque chez le petit).",
+        "E": "Le CSI-formotérol à la demande est le traitement de secours de référence à cet âge."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Avant 5 ans : diagnostic de probabilité, essai de CSI faible dose, BDCA à la demande comme secours, chambre d'inhalation. La spirométrie est rarement réalisable ; le CSI-formotérol à la demande n'est pas la stratégie de cette tranche d'âge.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : rarement réalisable.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : le secours repose sur le BDCA."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Asthme de l'enfant ≤ 5 ans",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0035",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les médicaments de l'asthme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La candidose oropharyngée sous CSI est prévenue par le rinçage de la bouche et l'utilisation d'une chambre d'inhalation.",
+        "B": "Un BDLA ne doit jamais être prescrit sans CSI dans l'asthme.",
+        "C": "Le montélukast expose à des effets indésirables neuropsychiques.",
+        "D": "Les bêtabloquants non cardiosélectifs, y compris en collyre, peuvent déclencher un bronchospasme.",
+        "E": "Le CSI doit être arrêté dès que l'asthme est contrôlé depuis 1 mois chez l'adulte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "CSI : effets locaux évitables ; BDLA en monothérapie : risque accru de décès ; montélukast : alerte neuropsychique ; bêtabloquants : bronchospasme. La décroissance se discute après 3 mois de contrôle, sans arrêt complet du CSI chez l'adulte.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : décroissance après 3 mois de contrôle, sans arrêt complet du CSI."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Médicaments de l'asthme — tolérance",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Arrêter complètement le CSI dès l'amélioration.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0036",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les formes particulières d'asthme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La maladie respiratoire exacerbée par l'aspirine associe asthme, polypose nasosinusienne et intolérance à l'aspirine et aux AINS.",
+        "B": "L'aspergillose bronchopulmonaire allergique s'accompagne d'IgE totales très élevées et de bronchectasies proximales.",
+        "C": "Pendant la grossesse, le traitement de fond doit être interrompu pour protéger le fœtus.",
+        "D": "Une amélioration des symptômes pendant les congés évoque un asthme professionnel.",
+        "E": "La granulomatose éosinophilique avec polyangéite peut se révéler par un asthme tardif sévère avec hyperéosinophilie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Pendant la grossesse, un asthme non contrôlé est plus dangereux que les médicaments : le traitement de fond est poursuivi.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : le traitement de fond est poursuivi.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Formes cliniques particulières",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interrompre le CSI pendant la grossesse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PNEU-0037",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions sont exactes concernant les recommandations sur l'asthme et les données maghrébines ?",
+      "propositions": {
+        "A": "La SPLF (2021) intègre la fonction respiratoire dans l'évaluation du contrôle, contrairement à GINA.",
+        "B": "NICE (2024) retient une variabilité du DEP ≥ 20 % comme critère diagnostique.",
+        "C": "NICE (2024) déconseille de prescrire un BDCA sans CSI associé.",
+        "D": "Dans l'étude AIRMAG, environ trois quarts des asthmatiques maghrébins avaient un contrôle insuffisant.",
+        "E": "Dans l'étude AIRMAG, plus de 80 % des adultes asthmatiques recevaient un CSI."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les divergences portent surtout sur les outils diagnostiques et la place du BDCA. AIRMAG (2009) : prévalence 3,4–3,9 %, contrôle insuffisant chez environ trois quarts des patients, CSI chez 26,1 % des adultes et 29,1 % des enfants.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 26,1 % des adultes seulement."
+      },
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "theme": "Divergences entre recommandations et données maghrébines",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Raherison-Semjen C et al. Recommandations SPLF 2021 asthme adulte/adolescent. Rev Mal Respir 2021;38:1048-83",
+          "date": "2021"
+        },
+        {
+          "reference": "NICE/BTS/SIGN. Asthma: diagnosis, monitoring and chronic asthma management (NG245)",
+          "date": "2024"
+        },
+        {
+          "reference": "Nafti S et al. AIRMAG. Respir Med 2009;103 Suppl 2:S2-11 ; El Hasnaoui A et al. Respir Med 2009;103 Suppl 2:S12-20",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les bactéries responsables de méningites purulentes, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "Nouveau-né — Streptococcus agalactiae, Escherichia coli, Listeria monocytogenes",
+        "B": "Adulte jeune — méningocoque et pneumocoque",
+        "C": "Femme enceinte — Listeria monocytogenes à évoquer",
+        "D": "Sujet de plus de 50 ans — Listeria à couvrir en probabiliste si l'examen direct est négatif et le contexte évocateur",
+        "E": "Enfant correctement vacciné — Haemophilus influenzae b au premier rang"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les germes dépendent de l'âge et du terrain : streptocoque B, E. coli, Listeria chez le nouveau-né ; méningocoque et pneumocoque chez l'enfant et l'adulte ; Listeria chez le sujet âgé, la femme enceinte, l'immunodéprimé. Hib est devenu rare chez l'enfant vacciné.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la vaccination a rendu Hib rare."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Étiologies selon l'âge et le terrain",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient fébrile présente un purpura comportant un élément ecchymotique de 5 mm. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une céphalosporine de 3e génération doit être injectée immédiatement, avant tout transfert.",
+        "B": "Il faut attendre le résultat de la ponction lombaire pour débuter l'antibiothérapie.",
+        "C": "La voie intramusculaire est acceptable si aucun accès veineux n'est disponible.",
+        "D": "L'agent le plus probable est Neisseria meningitidis.",
+        "E": "Une déclaration obligatoire et une chimioprophylaxie des contacts sont à prévoir si le méningocoque est confirmé."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Purpura fulminans = urgence absolue : C3G immédiate (IV, ou IM à défaut), transfert médicalisé. Le méningocoque est l'agent le plus fréquent ; la déclaration et la prophylaxie des contacts s'imposent.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : aucun examen ne doit retarder l'antibiothérapie.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Purpura fulminans",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Attendre un examen pour traiter un purpura fulminans.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations françaises (SPILF 2018), quelles situations justifient une imagerie cérébrale avant la ponction lombaire chez un patient suspect de méningite bactérienne ?",
+      "propositions": {
+        "A": "Signes de localisation neurologique",
+        "B": "Score de Glasgow ≤ 11",
+        "C": "Crises convulsives récentes ou persistantes",
+        "D": "Fièvre à 40 °C avec raideur de nuque isolée",
+        "E": "Âge supérieur à 60 ans sans autre signe"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La SPILF restreint l'imagerie préalable aux signes focaux, aux troubles de vigilance profonds (Glasgow ≤ 11) et aux convulsions. Dans ces cas, antibiotique et dexaméthasone sont administrés AVANT l'imagerie. Les listes de l'ESCMID et de l'IDSA diffèrent (à vérifier).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : c'est le tableau typique, qui impose une PL immédiate.",
+        "E": "Faux : l'âge seul n'est pas une indication."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Imagerie avant ponction lombaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retarder l'antibiothérapie pour obtenir un scanner.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        },
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "Tunkel AR et al. IDSA bacterial meningitis guidelines. Clin Infect Dis 2004;39:1267-84 [référence à vérifier]",
+          "date": "2004"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0004",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel profil de LCR est le plus évocateur d'une méningite bactérienne ?",
+      "propositions": {
+        "A": "LCR clair, 40 lymphocytes/mm3, protéinorachie 0,6 g/L, glycorachie/glycémie 0,65",
+        "B": "LCR trouble, 2 500 éléments/mm3 à 90 % de PNN, protéinorachie 2 g/L, glycorachie/glycémie 0,2",
+        "C": "LCR clair, 300 lymphocytes/mm3, protéinorachie 2,5 g/L, glycorachie/glycémie 0,3",
+        "D": "LCR hémorragique uniformément sur les 3 tubes, xanthochromie",
+        "E": "LCR normal"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "LCR bactérien : trouble, PNN, protéines > 1 g/L, rapport glycorachie/glycémie ≤ 0,4, lactates élevés. Le profil C (lymphocytaire hypoglycorachique) évoque une tuberculose, une listériose, une brucellose ou une cryptococcose.",
+      "explications_par_proposition": {
+        "A": "Faux : profil viral.",
+        "B": "Vrai.",
+        "C": "Faux : méningite lymphocytaire hypoglycorachique (tuberculose, brucellose, Listeria…).",
+        "D": "Faux : hémorragie méningée.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Interprétation du LCR",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Classer en « virale » toute méningite lymphocytaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 45 ans sans antécédent présente une méningite purulente ; l'examen direct du LCR est négatif ; aucun argument pour une listériose. Quelles propositions sont exactes selon les recommandations françaises ?",
+      "propositions": {
+        "A": "Une C3G à forte dose (céfotaxime ou ceftriaxone) est indiquée.",
+        "B": "La dexaméthasone est débutée avant ou avec la première injection d'antibiotique.",
+        "C": "L'ajout systématique de vancomycine est recommandé en France.",
+        "D": "L'amoxicilline serait ajoutée en cas d'arguments pour Listeria (terrain, rhombencéphalite).",
+        "E": "L'antibiothérapie est adaptée au résultat de la culture et de l'antibiogramme."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Probabiliste : C3G forte dose + dexaméthasone ; amoxicilline si Listeria possible. En France, pas de vancomycine systématique (pneumocoques résistants aux C3G rares) ; ESCMID et IDSA l'ajoutent dans les zones de résistance. En Algérie, décision selon les données locales.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux en France (position différente de l'ESCMID/IDSA dans les zones de résistance).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Antibiothérapie probabiliste",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        },
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la dexaméthasone au cours des méningites bactériennes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez l'adulte, la posologie usuelle est de 10 mg IV toutes les 6 heures pendant 4 jours.",
+        "B": "Elle doit être administrée juste avant ou en même temps que la première dose d'antibiotique.",
+        "C": "L'essai de de Gans et van de Beek a montré un bénéfice, surtout dans la méningite à pneumocoque.",
+        "D": "Elle doit être poursuivie même si le diagnostic de méningite bactérienne est écarté.",
+        "E": "Chez l'enfant, la posologie est de 0,15 mg/kg toutes les 6 heures."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La dexaméthasone atténue la réponse inflammatoire à la lyse bactérienne ; elle est d'autant plus utile qu'elle précède l'antibiotique. Elle est arrêtée si le diagnostic est écarté.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : arrêt si méningite bactérienne écartée.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Dexaméthasone",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Administrer la dexaméthasone plusieurs heures après l'antibiotique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "de Gans J, van de Beek D. Dexamethasone in adults with bacterial meningitis. N Engl J Med 2002;347:1549-56 [référence à vérifier]",
+          "date": "2002"
+        },
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la listériose neuroméningée, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Listeria monocytogenes est naturellement résistante aux céphalosporines.",
+        "B": "Le traitement repose sur l'amoxicilline à forte dose, associée à la gentamicine les premiers jours.",
+        "C": "Une rhombencéphalite avec paralysie de nerfs crâniens est évocatrice.",
+        "D": "Le LCR est souvent panaché.",
+        "E": "La durée habituelle du traitement est de 4 à 7 jours."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Listeria : bacille à Gram positif intracellulaire, terrain à risque, rhombencéphalite, LCR panaché, C3G inactives ; amoxicilline (± gentamicine) pendant au moins 21 jours.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : au moins 21 jours."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Listériose neuroméningée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter une suspicion de listériose par C3G seule.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prophylaxie autour d'un cas d'infection invasive à méningocoque, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La rifampicine est prescrite à 600 mg deux fois par jour pendant 2 jours chez l'adulte.",
+        "B": "La ciprofloxacine en dose unique est une alternative.",
+        "C": "Tous les soignants ayant pris en charge le patient doivent recevoir une prophylaxie.",
+        "D": "Les contacts d'une méningite à pneumocoque doivent recevoir la même prophylaxie.",
+        "E": "Une vaccination des contacts est proposée si le sérogroupe est couvert par un vaccin."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Prophylaxie des contacts proches dans les 10 jours précédents (rifampicine 2 jours, ciprofloxacine ou ceftriaxone dose unique), vaccination selon le sérogroupe. Soignants : seulement en cas d'exposition non protégée aux sécrétions. Pas de prophylaxie autour d'un pneumocoque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : seulement en cas d'exposition directe sans protection (bouche-à-bouche, intubation).",
+        "D": "Faux : aucune prophylaxie des contacts pour le pneumocoque.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Chimioprophylaxie autour d'un cas de méningococcie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prophylaxie autour d'une méningite à pneumocoque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels facteurs favorisent une méningite à pneumocoque ?",
+      "propositions": {
+        "A": "Brèche ostéoméningée après traumatisme crânien",
+        "B": "Asplénie",
+        "C": "Éthylisme chronique",
+        "D": "Implant cochléaire",
+        "E": "Déficit en fractions terminales du complément (C5–C9) comme facteur principal"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pneumocoque : brèche, infection ORL, asplénie, alcoolisme, implant cochléaire, immunodépression. Le déficit en complément terminal favorise surtout les infections à Neisseria (méningocoque).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : il favorise surtout les méningococcies récidivantes."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Méningite à pneumocoque — terrain et récidive",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les complications et le suivi des méningites bactériennes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La surdité de perception est une séquelle fréquente après méningite à pneumocoque.",
+        "B": "Une audiométrie précoce est indiquée, car l'ossification cochléaire peut compromettre un implant.",
+        "C": "Une hyponatrémie par sécrétion inappropriée d'ADH peut compliquer l'évolution.",
+        "D": "Une ponction lombaire de contrôle est systématique à 48 heures dans tous les cas.",
+        "E": "Une méningite à pneumocoque récidivante doit faire rechercher une brèche ostéoméningée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Séquelles : surdité, troubles cognitifs, épilepsie ; dépistage audiométrique précoce. La PL de contrôle n'est pas systématique (évolution défavorable, pneumocoque de sensibilité diminuée).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : non systématique.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Complications et suivi",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant une méningite à liquide clair, lymphocytaire, avec hyperprotéinorachie et hypoglycorachie, quels diagnostics faut-il évoquer en priorité en Algérie ?",
+      "propositions": {
+        "A": "Méningite tuberculeuse",
+        "B": "Neurobrucellose",
+        "C": "Listériose neuroméningée",
+        "D": "Méningite à entérovirus typique",
+        "E": "Cryptococcose neuroméningée chez un immunodéprimé"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le profil lymphocytaire hypoglycorachique évoque tuberculose, listériose, brucellose (zoonose endémique en Algérie) et cryptococcose. Les méningites virales ont une glycorachie normale.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : glycorachie normale.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Diagnostics différentiels en contexte algérien",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Conclure à une méningite virale sur la seule formule lymphocytaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la présentation clinique des méningites bactériennes de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La triade fièvre–raideur de nuque–troubles de conscience est présente chez moins de la moitié des patients dans une grande cohorte.",
+        "B": "L'absence de raideur de nuque élimine le diagnostic.",
+        "C": "Au moins deux des quatre signes (céphalées, fièvre, raideur de nuque, troubles de conscience) sont présents chez la quasi-totalité des patients.",
+        "D": "Chez le nourrisson, une hypotonie et un bombement de la fontanelle sont évocateurs.",
+        "E": "Les signes de Kernig et de Brudzinski sont très sensibles."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La cohorte néerlandaise de van de Beek (2004) montre la faible sensibilité de la triade (chiffres à vérifier). Kernig et Brudzinski sont spécifiques mais peu sensibles. Chez le nourrisson, les signes sont trompeurs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : peu sensibles."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Clinique — sensibilité des signes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer une méningite sur l'absence de raideur de nuque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. Clinical features and prognostic factors in adults with bacterial meningitis. N Engl J Med 2004;351:1849-59 [référence à vérifier]",
+          "date": "2004"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles durées d'antibiothérapie correspondent aux repères habituels des recommandations françaises et européennes ?",
+      "propositions": {
+        "A": "Méningocoque : 4 à 7 jours",
+        "B": "Pneumocoque : 10 à 14 jours",
+        "C": "Listeria : au moins 21 jours",
+        "D": "Haemophilus influenzae b : 21 jours",
+        "E": "Entérobactéries : au moins 21 jours"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Repères : méningocoque 4–7 jours (France) ou 7 jours (ESCMID) ; pneumocoque 10–14 jours ; Hib 7 jours (France) ou 7–10 jours ; Listeria ≥ 21 jours ; streptocoque B 14–21 jours ; entérobactéries ≥ 21 jours (à vérifier dans les textes).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : 7 à 10 jours.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Durées de traitement selon le germe",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'agent et la transmission de la brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Brucella melitensis, dont le réservoir est ovin et caprin, est l'espèce la plus fréquente et la plus virulente chez l'homme.",
+        "B": "La consommation de lait cru et de produits laitiers non pasteurisés est un mode majeur de contamination.",
+        "C": "La transmission interhumaine est le mode de contamination habituel.",
+        "D": "La brucellose est une cause classique d'infection acquise au laboratoire.",
+        "E": "Brucella est un coccobacille à Gram négatif à développement intracellulaire facultatif."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Zoonose transmise par voie digestive (lait cru), cutanéo-muqueuse ou respiratoire (contact avec les animaux, laboratoire). La transmission interhumaine est exceptionnelle.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : exceptionnelle (materno-fœtale, greffe, transfusion…).",
+        "D": "Vrai : prévenir le laboratoire, niveau de sécurité 3.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Agent et transmission",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments sont évocateurs d'une brucellose aiguë ?",
+      "propositions": {
+        "A": "Fièvre ondulante",
+        "B": "Sueurs nocturnes profuses",
+        "C": "Arthromyalgies mobiles",
+        "D": "Hyperleucocytose majeure à polynucléaires",
+        "E": "Orchi-épididymite"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Fièvre sudoro-algique, hépatosplénomégalie, adénopathies, orchi-épididymite ; la NFS montre plutôt une leucopénie avec lymphocytose relative.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : leucocytes normaux ou bas, lymphocytose relative.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Forme aiguë septicémique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        },
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic sérologique de la brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'épreuve à l'antigène tamponné (rose Bengale) est un test de dépistage rapide.",
+        "B": "Une réaction croisée avec Yersinia enterocolitica O:9 est possible.",
+        "C": "Le test de Coombs anti-Brucella détecte les anticorps incomplets non agglutinants.",
+        "D": "La négativation de la sérologie de Wright est le critère de guérison.",
+        "E": "Brucella canis est détectée par les antigènes usuels."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Rose Bengale (dépistage), Wright (titre ou ascension), Coombs (anticorps incomplets), ELISA. Pièges : réactions croisées, phénomène de zone, B. canis non détecté ; la sérologie ne juge pas la guérison.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : les anticorps persistent longtemps après guérison.",
+        "E": "Faux : LPS rugueux, non détecté par les tests usuels."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Sérodiagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Juger la guérison sur la sérologie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic bactériologique de la brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hémocultures doivent être prélevées avant toute antibiothérapie.",
+        "B": "Le laboratoire doit être prévenu de la suspicion clinique.",
+        "C": "La myéloculture est plus sensible que les hémocultures.",
+        "D": "Les hémocultures sont plus souvent positives dans les formes chroniques que dans la forme aiguë.",
+        "E": "L'isolement de Brucella constitue un diagnostic de certitude."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Hémocultures et myéloculture apportent la certitude ; leur rendement est maximal en phase aiguë. Le risque de contamination impose d'informer le laboratoire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : moins souvent positives dans les formes focalisées ou chroniques.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Diagnostic bactériologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement d'une brucellose aiguë non compliquée de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'association doxycycline (6 semaines) + streptomycine (2–3 semaines) est un schéma de référence du consensus d'Ioannina.",
+        "B": "L'association doxycycline (6 semaines) + gentamicine (7 jours) est une alternative.",
+        "C": "L'association doxycycline + rifampicine pendant 6 semaines est un schéma oral recommandé par l'OMS.",
+        "D": "Une monothérapie par doxycycline de 3 semaines suffit.",
+        "E": "Les fluoroquinolones sont le traitement de première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Toujours une association prolongée (au moins 6 semaines). Les schémas avec aminoside exposent à moins de rechutes que doxycycline-rifampicine. Pas de monothérapie, pas de fluoroquinolone en première intention.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai (schéma OMS 1986, rechutes un peu plus fréquentes).",
+        "D": "Faux : monothérapie et durée courte → rechutes.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Traitement de la forme non compliquée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Monothérapie ou durée de traitement trop courte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Yousefi-Nooraie R et al. Antibiotics for treating human brucellosis. Cochrane 2012;CD007179 [référence à vérifier]",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments orientent vers une spondylodiscite brucellienne plutôt que tuberculeuse ?",
+      "propositions": {
+        "A": "Atteinte lombaire L4–L5",
+        "B": "Érosion du coin antéro-supérieur du corps vertébral (signe de Pedro Pons)",
+        "C": "Volumineux abcès froids paravertébraux",
+        "D": "Gibbosité par tassement cunéiforme",
+        "E": "Ostéophytes réactionnels avec destruction modérée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Brucellose : lombaire, peu destructrice, reconstruction ostéophytique, abcès rares. Tuberculose : dorsale, destructrice, abcès froids, gibbosité. En cas de doute : biopsie disco-vertébrale.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : évocateur de tuberculose.",
+        "D": "Faux : évocateur de tuberculose.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Spondylodiscite brucellienne versus tuberculeuse",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Traiter une spondylodiscite sans avoir éliminé une tuberculose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        },
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de la brucellose chez la femme enceinte et l'enfant de moins de 8 ans, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les tétracyclines sont contre-indiquées pendant la grossesse.",
+        "B": "La rifampicine, seule ou associée au cotrimoxazole, est utilisée pendant la grossesse.",
+        "C": "La streptomycine est le traitement de choix de la femme enceinte.",
+        "D": "Chez l'enfant de moins de 8 ans, l'association cotrimoxazole + rifampicine est classique.",
+        "E": "Le cotrimoxazole doit être évité en fin de grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Grossesse : rifampicine ± cotrimoxazole (pas en fin de grossesse), ni tétracycline ni aminoside. Enfant < 8 ans : cotrimoxazole + rifampicine (ou + gentamicine).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : ototoxicité fœtale.",
+        "D": "Vrai.",
+        "E": "Vrai : risque d'ictère nucléaire."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Grossesse et enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les formes graves de brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'endocardite est la principale cause de décès de la brucellose.",
+        "B": "L'endocardite brucellienne nécessite souvent un remplacement valvulaire.",
+        "C": "La neurobrucellose réalise typiquement une méningite lymphocytaire avec hyperprotéinorachie et hypoglycorachie.",
+        "D": "La surdité par atteinte du nerf VIII est une manifestation possible de la neurobrucellose.",
+        "E": "Le traitement de la neurobrucellose dure 6 semaines au maximum."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Endocardite (souvent aortique) et neurobrucellose imposent des associations prolongées (plusieurs mois), la ceftriaxone faisant partie des associations de la neurobrucellose.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : plusieurs mois, jusqu'à normalisation du LCR."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Neurobrucellose et endocardite",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les rechutes de brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles surviennent surtout dans les 6 mois suivant l'arrêt du traitement.",
+        "B": "Elles sont le plus souvent dues à une résistance acquise aux antibiotiques.",
+        "C": "Une mauvaise observance et un traitement trop court les favorisent.",
+        "D": "Un foyer profond méconnu doit être recherché.",
+        "E": "Elles sont en général traitées par la reprise d'un schéma de référence."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La persistance intracellulaire explique les rechutes ; les souches restent habituellement sensibles.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la résistance est rare.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Rechutes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer une rechute à une résistance.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles mesures contribuent à la prévention de la brucellose humaine ?",
+      "propositions": {
+        "A": "Faire bouillir le lait cru ou consommer du lait pasteurisé",
+        "B": "Vacciner les petits ruminants et dépister les troupeaux",
+        "C": "Porter des gants lors des mises bas et de la manipulation des avortons",
+        "D": "Vacciner systématiquement les éleveurs par un vaccin humain",
+        "E": "Déclarer les cas humains et informer les services vétérinaires"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La prévention repose sur le contrôle de la brucellose animale, l'hygiène alimentaire, la protection des professionnels et la déclaration. Il n'existe pas de vaccin humain.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : pas de vaccin humain disponible.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Prévention — Une seule santé",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la brucellose chronique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est définie par une évolution de plus d'un an.",
+        "B": "Elle peut correspondre à un foyer persistant qu'il faut rechercher.",
+        "C": "Le syndrome post-brucellien justifie des cures répétées d'antibiotiques.",
+        "D": "Asthénie et troubles neuropsychiques sont fréquents.",
+        "E": "Le test de Coombs et l'ELISA IgG sont utiles pour documenter les anticorps incomplets."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Distinguer foyer persistant (à traiter), rechute (à retraiter) et syndrome post-brucellien (sans infection active, ne relève pas d'antibiotiques itératifs).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Brucellose chronique",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Retraiter un syndrome post-brucellien.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0025",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un homme de 50 ans présente une spondylodiscite dorsale avec abcès paravertébral, sérologie de Wright à 1/80 et toux depuis 6 semaines. Quelle est la conduite la plus appropriée avant de débuter un traitement ?",
+      "propositions": {
+        "A": "Débuter doxycycline + rifampicine pendant 6 semaines",
+        "B": "Rechercher une tuberculose (imagerie thoracique, expectorations, ponction-biopsie disco-vertébrale) avant tout traitement",
+        "C": "Débuter une monothérapie par doxycycline en attendant",
+        "D": "Conclure à une brucellose sur la sérologie",
+        "E": "Prescrire une fluoroquinolone"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Spondylodiscite dorsale avec abcès, toux prolongée et sérologie faiblement positive : la tuberculose est probable. Une rifampicine ou une fluoroquinolone prescrite à l'aveugle exposerait à une monothérapie de fait sur M. tuberculosis.",
+      "explications_par_proposition": {
+        "A": "Faux : risque de sélectionner une résistance de M. tuberculosis.",
+        "B": "Vrai.",
+        "C": "Faux : monothérapie et retard diagnostique.",
+        "D": "Faux : un titre de 1/80 en zone d'endémie n'est pas significatif.",
+        "E": "Faux : masque une tuberculose et sélectionne des résistances."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Rifampicine en pays d'endémie tuberculeuse",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Prescrire de la rifampicine sans avoir éliminé une tuberculose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

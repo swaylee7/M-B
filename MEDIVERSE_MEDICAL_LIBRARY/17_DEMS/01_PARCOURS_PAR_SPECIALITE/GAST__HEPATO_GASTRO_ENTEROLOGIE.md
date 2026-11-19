@@ -57,7 +57,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Raisonnement clinique et observation structurée ; prescription sécurisée ; communication avec le patient et sa famille ; hygiène et sécurité des soins ; **tenue du carnet du résident**.
 
 **Gestes et savoir-faire**
-- Observer / aider : Coloscopie diagnostique ; Hémostase endoscopique d'un ulcère ; Ligature élastique de varices œsophagiennes ; Ponction-biopsie hépatique (aide puis réalisation) ; Échographie abdominale de débrouillage
+- Observer / aider : Coloscopie diagnostique ; Hémostase endoscopique d'un ulcère ; Ligature élastique de varices œsophagiennes ; Ponction-biopsie hépatique ; Échographie abdominale de débrouillage
 - Réaliser sous supervision : Gastroscopie diagnostique
 - Autonomie (contrôle a posteriori) : Ponction d'ascite exploratrice et évacuatrice ; Pose de sonde nasogastrique et lavage
 
@@ -92,7 +92,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Gestes et savoir-faire**
 - Observer / aider : Polypectomie
-- Réaliser sous supervision : Coloscopie diagnostique ; Hémostase endoscopique d'un ulcère ; Ligature élastique de varices œsophagiennes ; Ponction-biopsie hépatique (aide puis réalisation) ; Échographie abdominale de débrouillage
+- Réaliser sous supervision : Coloscopie diagnostique ; Hémostase endoscopique d'un ulcère ; Ligature élastique de varices œsophagiennes ; Ponction-biopsie hépatique ; Échographie abdominale de débrouillage
 - Autonomie (contrôle a posteriori) : Gastroscopie diagnostique
 
 **Urgences et conduites à tenir prioritaires**
@@ -101,7 +101,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - ESGE — hémorragie digestive, surveillance endoscopique, polypectomie
@@ -135,7 +134,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - SNFGE / TNCD (France) — oncologie digestive
 
@@ -154,14 +152,13 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Autonomie décisionnelle encadrée ; consultation spécialisée ; annonce d'une mauvaise nouvelle ; gestion des risques et des événements indésirables.
 
 **Gestes et savoir-faire**
-- Autonomie (contrôle a posteriori) : Polypectomie ; Ponction-biopsie hépatique (aide puis réalisation) ; Échographie abdominale de débrouillage
+- Autonomie (contrôle a posteriori) : Polypectomie ; Ponction-biopsie hépatique ; Échographie abdominale de débrouillage
 
 **Urgences et conduites à tenir prioritaires**
 - Réviser les urgences des années précédentes sous forme de cas cliniques chronométrés ; **toutes** les urgences de la liste en vue de l'examen final.
 
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
@@ -176,7 +173,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 | Situation | Palier | Dossier existant dans la bibliothèque |
 |---|---|---|
-| Hémorragie digestive haute (ulcère, varices) | A | — (à rédiger) |
+| Hémorragie digestive haute (ulcère, varices) | A | [DOS-GAST-0001](../../07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0001__HEMORRAGIES_DIGESTIVES.md) |
 | Rupture de varices œsophagiennes | A | [DOS-HEPA-0002](../../07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0002__CIRRHOSES.md) |
 | Encéphalopathie hépatique | A | [DOS-HEPA-0002](../../07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0002__CIRRHOSES.md) |
 | Infection du liquide d'ascite | A | [DOS-HEPA-0002](../../07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0002__CIRRHOSES.md) |
@@ -184,7 +181,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 | Angiocholite | A | — (à rédiger) |
 | Hépatite aiguë grave / insuffisance hépatique aiguë | B | [DOS-HEPA-0001](../../07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0001__HEPATITES_VIRALES_A_B_C.md) |
 | Colite aiguë grave (MICI) | B | — (à rédiger) |
-| Hémorragie digestive basse abondante | B | — (à rédiger) |
+| Hémorragie digestive basse abondante | B | [DOS-GAST-0001](../../07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0001__HEMORRAGIES_DIGESTIVES.md) |
 | Ingestion de caustiques et corps étrangers | B | — (à rédiger) |
 | Syndrome hépatorénal | C | — (à rédiger) |
 | Perforation endoscopique | C | — (à rédiger) |
@@ -201,7 +198,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 36 (codes GAST, HEPA) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 6 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (35)
+**Recommandations cataloguées** : 32 en vigueur (+ 3 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0272 — 2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea (IDSA, 2017-11 ; statut : actuelle)
 - REC-0275 — European Society of Clinical Microbiology and Infectious Diseases: 2021 update on the treatment guidance document for Clostridioides difficile infection in adults (ESCMID, 2021-10 ; statut : actuelle)
 - REC-0343 — Baveno VII - Renewing consensus in portal hypertension (Baveno VII (consensus international), 2021-12 ; statut : actuelle)
@@ -209,7 +206,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0348 — ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding (ACG (American College of Gastroenterology), 2021-05 ; statut : actuelle)
 - REC-0349 — Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report (European Helicobacter and Microbiota Study Group, 2022-08 ; statut : actuelle)
 - REC-0350 — ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (ACG, 2024-09 ; statut : actuelle)
-- REC-0351 — ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment (ECCO, 2022-01 ; statut : remplacee)
 - REC-0352 — ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment (2026) (ECCO, 2026-07 ; statut : actuelle)
 - REC-0353 — ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment (ECCO, 2024-10 ; statut : actuelle)
 - REC-0354 — ACG Clinical Guideline Update: Ulcerative Colitis in Adults (ACG, 2025-06 ; statut : actuelle)
@@ -226,14 +222,12 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0282 — Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection (OMS, 2024-03 ; statut : actuelle)
 - REC-0283 — Guidelines for the care and treatment of persons diagnosed with chronic hepatitis C virus infection (OMS, 2018-07 ; statut : partiellement_mise_a_jour)
 - REC-0284 — Updated recommendations on treatment of adolescents and children with chronic HCV infection, and HCV simplified service delivery and diagnostics (OMS, 2022-10 ; statut : actuelle)
-- REC-0340 — EASL 2017 Clinical Practice Guidelines on the management of hepatitis B virus infection (EASL, 2017-04 ; statut : remplacee)
 - REC-0341 — EASL Clinical Practice Guidelines on the management of hepatitis B virus infection (2025) (EASL, 2025-05 ; statut : actuelle)
 - REC-0342 — EASL recommendations on treatment of hepatitis C: Final update of the series (EASL, 2020-09 ; statut : actuelle)
 - REC-0344 — EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis (EASL, 2018-04 ; statut : actuelle)
 - REC-0345 — Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases (AASLD, 2021-08 ; statut : actuelle)
 - REC-0346 — EASL-EASD-EASO Clinical Practice Guidelines on the Management of Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) (EASL / EASD / EASO, 2024-06 ; statut : actuelle)
 - REC-0363 — EASL Clinical Practice Guidelines on the prevention, diagnosis and treatment of gallstones (EASL, 2016-04 ; statut : actuelle)
-- REC-0367 — EASL Clinical Practice Guidelines: Management of hepatocellular carcinoma (EASL, 2018-04 ; statut : remplacee)
 - REC-0368 — EASL Clinical Practice Guidelines on the management of hepatocellular carcinoma (EASL, 2024-12 ; statut : actuelle)
 - REC-0506 — Hépatite C : prise en charge simplifiée chez l'adulte (HAS (Haute Autorité de santé), 2019-10 ; statut : actuelle)
 - REC-0519 — Critères diagnostiques et bilan initial de la cirrhose non compliquée (HAS (Haute Autorité de santé), 2009-05 ; statut : actuelle)

@@ -6,11 +6,17 @@ sous_specialite: "Infections respiratoires basses"
 items_residanat: [RES-MED-040]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 / AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-PNEU-0002.md
 sources:
   - id: S1
     reference: "Dinh A, Barbier F, Bedos JP, et al. Actualisation des recommandations de prise en charge des pneumonies aiguës communautaires chez l'adulte par la SPILF et la SPLF (avec SRLF, SFM, SFR, SFMU). Médecine et Maladies Infectieuses Formation. 2025 [volume/pages à vérifier ; version anglaise : Infect Dis Now 2025;55:105034]."
@@ -37,6 +43,7 @@ sources:
     doi: "10.1007/s00134-023-07033-8"
     url: ""
     verifiee: true
+    remarque: "Audit AUD-04 (2026-11-19) : position sur les corticoïdes relevée (suggérés dans la PAC grave non virale en présence d'un choc, recommandation conditionnelle, faible niveau de preuve) via un résumé secondaire ; formulation exacte à confirmer dans le texte."
   - id: S4
     reference: "Dequin PF, Meziani F, Quenot JP, et al. Hydrocortisone in severe community-acquired pneumonia (CAPE COD). N Engl J Med. 2023;388(21):1931-1941."
     organisme: "CRICS-TriGGERSep"
@@ -115,7 +122,7 @@ mots_cles: [pneumonie aiguë communautaire, pneumocoque, Legionella, CRB-65, CUR
 # Pneumonies : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Posologies à confronter au RCP, aux recommandations en vigueur et aux protocoles locaux. **Aucun référentiel national algérien spécifique des pneumonies n'a été identifié pendant la rédaction** (recherches limitées) : la stratégie présentée s'appuie sur les recommandations françaises (SPILF/SPLF 2025) et internationales, en signalant les adaptations à vérifier localement.
+> Statut : audité (AUD-01/02/04, 2026-11-19) — corrections requises (voir le rapport d'audit). Posologies à confronter au RCP, aux recommandations en vigueur et aux protocoles locaux. **Aucun référentiel national algérien spécifique des pneumonies n'a été identifié pendant la rédaction** (recherches limitées) : la stratégie présentée s'appuie sur les recommandations françaises (SPILF/SPLF 2025) et internationales, en signalant les adaptations à vérifier localement.
 
 **Items du programme couverts** : RES-MED-040 — « Pneumonie : Diagnostic - traitement ».
 
@@ -366,6 +373,8 @@ Guérir l'infection, prévenir les complications et le décès, **traiter préco
 **Traitements associés** : oxygénothérapie (cible de SpO₂ adaptée au terrain), hydratation, prévention thrombo-embolique chez l'hospitalisé, kinésithérapie respiratoire, prise en charge des comorbidités ; ventilation non invasive/oxygénothérapie à haut débit ou ventilation mécanique selon la gravité [S3].
 
 ### 13.3 Stratégie probabiliste (adulte immunocompétent) — selon SPILF/SPLF 2025 [S1, S9]
+
+*L'actualisation SPILF/SPLF 2025 remplace, pour la PAC de l'adulte, les recommandations françaises de 2010 (Afssaps, avec la SPILF et la SPLF) encore citées dans de nombreux supports.*
 
 | Situation | 1ʳᵉ intention | Allergie / alternative |
 |---|---|---|
@@ -753,8 +762,9 @@ Chez un patient hospitalisé en médecine pour une PAC non grave, quels examens 
 |---|---|---|---|
 | **Ambulatoire sans comorbidité** | Amoxicilline 1 g × 3/j ; macrolide si suspicion d'atypique | Amoxicilline 1 g × 3/j **ou** doxycycline **ou** macrolide (si résistance locale du pneumocoque aux macrolides < 25 %) | La couverture systématique des atypiques n'est pas retenue en France |
 | **Ambulatoire avec comorbidité** | Amoxicilline-acide clavulanique ; C3G injectable si allergie non grave | Amoxicilline-acide clavulanique ou céphalosporine **+ macrolide ou doxycycline**, ou fluoroquinolone en monothérapie | Place plus large des fluoroquinolones aux États-Unis |
+| **Hospitalisé non grave / PAC grave** | Bêta-lactamine seule selon les comorbidités (amoxicilline ± acide clavulanique, C3G) ; PAC grave : **C3G + macrolide** | Hospitalisé non grave : **bêta-lactamine + macrolide**, ou fluoroquinolone en monothérapie ; PAC grave : bêta-lactamine + macrolide ou + fluoroquinolone ; couverture du SARM ou de *P. aeruginosa* seulement si isolement antérieur ou hospitalisation/antibiothérapie parentérale récente avec facteurs de risque locaux | Couverture systématique des atypiques chez l'hospitalisé aux États-Unis, non en France |
 | **Durée** | **3 jours** si stable à J3 ; 5 jours si stable entre J3 et J5 ; 7 jours sinon | **≥ 5 jours** et jusqu'à stabilité | Fondement de la position française : essai PTC [S5] |
-| **Corticoïdes** | Hydrocortisone dans la **PAC grave**, débutée rapidement | Pas de corticothérapie systématique (sauf choc réfractaire selon les recommandations du sepsis) | Position ATS/IDSA antérieure à CAPE COD (2023) [S4] ; la SCCM a actualisé sa position en 2024 en faveur des corticoïdes dans la PAC grave [S12] `[À VÉRIFIER]` ; ERS/ESICM 2023 [S3] : position exacte `[À VÉRIFIER]` |
+| **Corticoïdes** | Hydrocortisone dans la **PAC grave**, débutée rapidement | Pas de corticothérapie systématique (sauf choc réfractaire selon les recommandations du sepsis) | Position ATS/IDSA antérieure à CAPE COD (2023) [S4] ; la SCCM a actualisé sa position en 2024 en faveur des corticoïdes dans la PAC grave [S12] `[À VÉRIFIER]` ; ERS/ESICM/ESCMID/ALAT 2023 [S3] : corticoïdes **suggérés dans la PAC grave non virale en présence d'un choc** (recommandation conditionnelle, faible niveau de preuve), position antérieure à CAPE COD |
 | **Hémocultures / ECBC** | Recommandés chez l'hospitalisé | Réservés aux PAC graves ou aux patients avec facteurs de risque de SARM/*Pseudomonas* | Différence d'usage plus que de fond |
 | **Score de gravité** | CRB-65 en ville, jugement clinique | **PSI** préféré, CURB-65 acceptable | Le PSI est plus discriminant pour les faibles risques, mais plus lourd |
 | **Radiographie de contrôle** | À distance chez le sujet à risque de cancer (usage français) `[À VÉRIFIER]` | **Pas de contrôle systématique** si résolution clinique | Discuter selon le tabagisme et l'âge |
@@ -780,4 +790,4 @@ Détail complet (organisme, URL/DOI, statut de vérification) dans l'en-tête YA
 11. [S11] OMS. PCIME, pneumonie de l'enfant — **non vérifiée**.
 12. [S12] Chaudhuri D, et al. SCCM corticosteroids focused update 2024 — **non vérifiée**.
 
-> **Points à auditer en priorité** : (1) confronter les tableaux de §13.3–13.4 au texte intégral SPILF/SPLF 2025 (molécules, doses, critères de stabilité, légionellose) ; (2) vérifier les positions ERS/ESICM 2023 et SCCM 2024 sur les corticoïdes ; (3) rechercher un référentiel algérien d'antibiothérapie et les données de résistance du pneumocoque (AARN/IPA) ; (4) vérifier le calendrier vaccinal algérien.
+> **Reste à faire après l'audit du 2026-11-19** : (1) confronter les tableaux de §13.3–13.4 au texte intégral SPILF/SPLF 2025 (molécules, doses, critères de stabilité, légionellose) ; (2) vérifier les positions ERS/ESICM 2023 et SCCM 2024 sur les corticoïdes ; (3) rechercher un référentiel algérien d'antibiothérapie et les données de résistance du pneumocoque (AARN/IPA) ; (4) vérifier le calendrier vaccinal algérien.

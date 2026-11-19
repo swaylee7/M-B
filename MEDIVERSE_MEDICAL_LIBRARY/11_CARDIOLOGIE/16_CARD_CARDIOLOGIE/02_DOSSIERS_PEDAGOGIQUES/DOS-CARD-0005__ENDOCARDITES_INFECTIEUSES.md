@@ -6,11 +6,23 @@ sous_specialite: "Valvulopathies et infections cardiaques"
 items_residanat: [RES-MED-053]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0005.md
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0005.md
+    remarque: "Antibiothérapies curatives (ESC 2015/2023) et antibioprophylaxie (ESC 2023 / AHA 2021) vérifiées ; rifampicine corrigée ; schémas des EI à Coxiella, Bartonella, Brucella complétés. Restent à confirmer : antibiothérapie probabiliste ESC 2023, prophylaxie secondaire du RAA du programme national."
 sources:
   - id: S1
     reference: "Delgado V, Ajmone Marsan N, de Waha S, et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042."
@@ -87,7 +99,7 @@ mots_cles: [endocardite infectieuse, critères de Duke, Duke-ISCVID 2023, hémoc
 # Endocardites infectieuses
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP, aux recommandations originales et aux protocoles locaux (avis infectiologique) avant tout usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (antibiothérapie probabiliste ESC 2023 et prophylaxie du RAA à confirmer ; voir le rapport d'audit). Les posologies doivent être confrontées au RCP, aux recommandations originales et aux protocoles locaux (avis infectiologique) avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-053 — *Endocardites infectieuses : physiopathologie, diagnostic, évolution, traitement.*
 
@@ -160,7 +172,7 @@ L'ESC recommande que les EI compliquées soient prises en charge dans un **centr
 ### 3.3 Données algériennes
 
 - **Alger, 2000–2003** (sept services de cardiologie et de chirurgie cardiaque) : **110 cas d'EI chez 108 patients** en 42 mois ; les auteurs rapportent un **taux d'EI à hémocultures négatives pouvant atteindre 76 %** en Algérie ; **18 cas** étaient dus à des bactéries **zoonotiques ou transmises par des arthropodes**, surtout ***Bartonella quintana*** (14 cas), mais aussi ***Brucella melitensis*** (2 cas) et ***Coxiella burnetii*** (2 cas) [S6].
-- **Hôpital de Béni Messous (Alger), 1996–2010** : série rétrospective rapportant une EI sur **valve native dans 83 %** des cas, avec la **valvulopathie rhumatismale** comme substrat le plus fréquent, une mortalité hospitalière de **36,8 %** et un vieillissement progressif des patients [S8 — référence incomplète, à vérifier].
+- **Hôpital de Béni Messous (Alger), 1996–2010** : selon un résumé dont la référence complète n'a pas pu être vérifiée, cette série rétrospective rapporterait une EI sur **valve native dans 83 %** des cas, avec la **valvulopathie rhumatismale** comme substrat le plus fréquent, une mortalité hospitalière de **36,8 %** et un vieillissement progressif des patients [S8 — référence incomplète, non vérifiée : chiffres à confirmer avant usage] `[À VÉRIFIER]`.
 - Ces données, anciennes, justifient : (1) de **réaliser les hémocultures avant toute antibiothérapie** ; (2) de rechercher systématiquement ***Bartonella*, *Brucella* et *Coxiella*** en cas d'hémocultures négatives ; (3) de poursuivre la **prévention du RAA** [S7]. Des données nationales plus récentes n'ont pas été identifiées `[À VÉRIFIER]`.
 
 ---
@@ -248,7 +260,7 @@ Taille de la végétation (**> 10 mm**), **mobilité**, localisation **mitrale**
 | **Prothèse valvulaire chirurgicale**, matériel de réparation valvulaire chirurgicale | Valvulopathie dégénérative non rhumatismale |
 | **Prothèse valvulaire implantée par voie percutanée** (aortique, pulmonaire) | Anomalies valvulaires congénitales, dont **bicuspidie aortique** |
 | **Cardiopathie congénitale cyanogène non opérée** ; cardiopathies congénitales opérées avec shunt palliatif, conduit ou prothèse | Dispositifs électroniques implantables (stimulateurs, défibrillateurs) |
-| Assistance ventriculaire gauche `[À VÉRIFIER — ESC 2023]` | Cardiomyopathie hypertrophique |
+| Assistance ventriculaire (prophylaxie seulement « à envisager », classe IIa, ESC 2023 [S1]) | Cardiomyopathie hypertrophique |
 
 Autres facteurs non cardiaques : âge, **mauvais état bucco-dentaire**, hémodialyse, diabète, immunodépression, cathéters veineux, usage de drogues IV.
 
@@ -386,7 +398,7 @@ L'échographie a des limites : faux négatifs (petites végétations, prothèses
 | **EI possible** | **1 majeur + 1 mineur**, ou **3 mineurs** |
 | **EI exclue** | Autre diagnostic ferme, résolution des symptômes sous antibiothérapie ≤ 4 jours, absence de preuve à la chirurgie ou à l'autopsie après ≤ 4 jours d'antibiotiques, critères non remplis |
 
-`[Formulation exacte des critères ESC 2023 : À VÉRIFIER sur le texte original]`
+(Contenu confronté par l'audit AUD-01 aux critères ESC 2023 : conforme sur le fond ; l'ESC formule l'« EI possible » comme 1 majeur + 1 ou 2 mineurs, ou 3 à 4 mineurs, ce qui est équivalent. Les hémocultures « persistantes » correspondent à ≥ 2 hémocultures positives prélevées à plus de 12 h d'intervalle, ou à 3/3 ou la majorité de ≥ 4 hémocultures séparées, la première et la dernière à au moins 1 h d'intervalle.)
 
 #### Critères de Duke-ISCVID 2023 [S2] — principales nouveautés
 
@@ -395,7 +407,8 @@ L'échographie a des limites : faux négatifs (petites végétations, prothèses
 - **Critère chirurgical majeur** : constatation peropératoire d'une EI (en l'absence de confirmation histologique ou microbiologique).
 - **Prédispositions** élargies (critère mineur) : prothèse ou réparation valvulaire, antécédent d'EI, cardiopathie congénitale, régurgitation ou sténose plus que minime, dispositif endovasculaire, cardiomyopathie hypertrophique, usage de drogues IV.
 - Proposition d'en faire un **« document évolutif »** mis à jour régulièrement en ligne.
-- Une validation externe présentée en congrès suggère une **sensibilité supérieure** à celle des critères de Duke modifiés, sans perte significative de spécificité (données préliminaires, résumé de congrès) [S2].
+- Fièvre : seuil ≥ 38,0 °C (critère mineur maintenu).
+- Des études de validation publiées depuis 2023 rapportent une **sensibilité supérieure** à celle des critères de Duke modifiés, avec une spécificité comparable ou légèrement moindre selon les cohortes `[À VÉRIFIER — références primaires non citées ici]`.
 
 ---
 
@@ -452,7 +465,7 @@ L'échographie a des limites : faux négatifs (petites végétations, prothèses
 
 ### 12.2 Pronostic
 
-La mortalité hospitalière reste élevée (de l'ordre de 15 à 30 % selon les séries `[À VÉRIFIER]` ; 36,8 % dans une série algéroise ancienne [S8]). Facteurs de mauvais pronostic [S1] :
+La mortalité hospitalière reste élevée (de l'ordre de 15 à 30 % selon les séries `[À VÉRIFIER]` ; 36,8 % rapportés dans une série algéroise ancienne dont la référence n'est pas vérifiée [S8]). Facteurs de mauvais pronostic [S1] :
 - **terrain** : âge, EI sur prothèse, diabète, comorbidités, insuffisance rénale ;
 - **germe** : *S. aureus*, champignons, Gram négatifs non HACEK ;
 - **complications** : **insuffisance cardiaque**, choc septique, AVC, complications périannulaires, insuffisance rénale ;
@@ -483,28 +496,28 @@ La mortalité hospitalière reste élevée (de l'ordre de 15 à 30 % selon les s
 
 #### 13.2.2 Schémas selon le germe (d'après ESC 2023 [S1], posologies adultes à fonction rénale normale)
 
-> Posologies restituées d'après les tableaux des recommandations ESC (2015, reprises en 2023) **sans consultation du texte intégral pendant la session** : `[POSOLOGIES À VÉRIFIER — ESC 2023 / RCP / avis infectiologique]` pour l'ensemble de ce tableau.
+> Posologies restituées d'après les tableaux des recommandations ESC 2015 [S3], reprises et complétées en 2023 (céfazoline, daptomycine) [S1]. **Audit AUD-02 (2026-11-19)** : schémas confrontés aux tableaux ESC — conformes, sauf la rifampicine (corrigée : 900–1 200 mg/j) ; schémas des EI à hémocultures négatives complétés d'après le tableau ESC 2015. Texte intégral 2023 non consulté : avis infectiologique et RCP indispensables, adaptation à la fonction rénale et dosages plasmatiques (vancomycine, gentamicine).
 
 | Germe | Valve native | Prothèse |
 |---|---|---|
 | **Streptocoques oraux et groupe *gallolyticus*, sensibles à la pénicilline** (CMI ≤ 0,125 mg/L) | **Pénicilline G** 12–18 MU/j IV en 4–6 injections ou en continu, **ou amoxicilline** 100–200 mg/kg/j IV en 4–6 injections, **ou ceftriaxone** 2 g/j IV ou IM en 1 injection — **4 semaines** ; **schéma court de 2 semaines** possible (EI non compliquée, fonction rénale normale) en ajoutant la **gentamicine 3 mg/kg/j** en 1 injection pendant 2 semaines | Mêmes molécules — **6 semaines** (pas de schéma court) |
 | — allergie aux bêtalactamines | **Vancomycine** 30 mg/kg/j IV en 2 injections — 4 semaines | 6 semaines |
 | **Streptocoques de sensibilité diminuée à la pénicilline** (CMI > 0,125 et ≤ 2 mg/L) | Pénicilline G 24 MU/j, ou amoxicilline 200 mg/kg/j, ou ceftriaxone 2 g/j — 4 semaines, **+ gentamicine** 3 mg/kg/j pendant 2 semaines | 6 semaines (+ gentamicine 2 semaines) |
-| ***S. aureus* sensible à la méticilline** | **(Flu)cloxacilline** 12 g/j IV en 4–6 injections, **ou céfazoline** 6 g/j IV en 3 injections — **4 à 6 semaines** ; **pas d'aminoside** | (Flu)cloxacilline 12 g/j ou céfazoline 6 g/j **≥ 6 semaines** **+ rifampicine** 900 mg/j IV ou per os en 3 prises ≥ 6 semaines **+ gentamicine** 3 mg/kg/j pendant 2 semaines |
+| ***S. aureus* sensible à la méticilline** | **(Flu)cloxacilline** 12 g/j IV en 4–6 injections, **ou céfazoline** 6 g/j IV en 3 injections — **4 à 6 semaines** ; **pas d'aminoside** | (Flu)cloxacilline 12 g/j ou céfazoline 6 g/j **≥ 6 semaines** **+ rifampicine** 900–1 200 mg/j IV ou per os en 2 ou 3 prises ≥ 6 semaines (débutée après 3 à 5 jours de traitement efficace) **+ gentamicine** 3 mg/kg/j en 1 (ou 2) injection(s) pendant 2 semaines |
 | ***S. aureus* résistant à la méticilline** ou allergie | **Vancomycine** 30–60 mg/kg/j IV en 2–3 injections (objectif de concentration selon le protocole local) **ou daptomycine** 10 mg/kg/j IV — 4 à 6 semaines | Vancomycine ≥ 6 semaines + rifampicine ≥ 6 semaines + gentamicine 2 semaines |
 | ***Enterococcus faecalis*** | **Amoxicilline** 200 mg/kg/j IV en 4–6 injections **+ ceftriaxone** 4 g/j IV en 2 injections — **6 semaines** (schéma de choix, en particulier en cas de résistance de haut niveau aux aminosides) ; ou amoxicilline + gentamicine (2 semaines d'aminoside) | 6 semaines |
 | **Groupe HACEK** | **Ceftriaxone** 2 g/j — 4 semaines | 6 semaines |
-| ***Coxiella burnetii*** | **Doxycycline + hydroxychloroquine**, traitement **prolongé** (≥ 18 mois) avec surveillance sérologique `[POSOLOGIE À VÉRIFIER]` | Idem, durée plus longue |
-| ***Bartonella*** spp. | Bêtalactamine ou doxycycline associée à un aminoside pendant les premières semaines `[schéma À VÉRIFIER]` | — |
-| ***Brucella*** spp. | Association doxycycline + rifampicine (± cotrimoxazole, ± aminoside), traitement prolongé, chirurgie fréquente `[schéma À VÉRIFIER]` | — |
+| ***Coxiella burnetii*** | **Doxycycline 200 mg/j + hydroxychloroquine 200–600 mg/j** per os, **plus de 18 mois**, avec surveillance sérologique et des concentrations plasmatiques (tableau ESC 2015 des EI à hémocultures négatives [S3]) | Idem, durée souvent plus longue (avis spécialisé) |
+| ***Bartonella*** spp. | **Doxycycline 100 mg × 2/j per os pendant 4 semaines + gentamicine 3 mg/kg/j IV pendant 2 semaines** [S3] | Idem (avis spécialisé) |
+| ***Brucella*** spp. | **Doxycycline 200 mg/j + cotrimoxazole 960 mg × 2/j + rifampicine 300–600 mg/j** per os, **au moins 3 à 6 mois** [S3] ; chirurgie fréquente | Idem |
 
 #### 13.2.3 Antibiothérapie probabiliste (avant identification du germe)
 
-À débuter **après les hémocultures** lorsque l'état du patient l'impose (sepsis, complication) ; elle doit couvrir les staphylocoques, les streptocoques et les entérocoques. Les schémas diffèrent selon qu'il s'agit d'une **EI communautaire sur valve native ou sur prothèse tardive** ou d'une **EI sur prothèse précoce / associée aux soins** (couverture des staphylocoques résistants à la méticilline par la vancomycine). Le schéma de l'ESC 2015 associait, pour l'EI communautaire, ampicilline + (flu)cloxacilline + gentamicine ; l'ESC 2023 a modifié ces associations, notamment pour **limiter les aminosides** `[schémas exacts ESC 2023 : À VÉRIFIER avant toute utilisation]` [S1, S3].
+À débuter **après les hémocultures** lorsque l'état du patient l'impose (sepsis, complication) ; elle doit couvrir les staphylocoques, les streptocoques et les entérocoques. Les schémas diffèrent selon qu'il s'agit d'une **EI communautaire sur valve native ou sur prothèse tardive** ou d'une **EI sur prothèse précoce / associée aux soins** (couverture des staphylocoques résistants à la méticilline par la vancomycine). Le schéma de l'ESC 2015 associait, pour l'EI communautaire sur valve native ou sur prothèse tardive, ampicilline 12 g/j + (flu)cloxacilline 12 g/j + gentamicine 3 mg/kg/j (vancomycine + gentamicine en cas d'allergie), et pour l'EI sur prothèse précoce ou associée aux soins, vancomycine 30 mg/kg/j + gentamicine 3 mg/kg/j + rifampicine 900–1 200 mg/j [S3] ; l'ESC 2023 a modifié ces associations, notamment pour **limiter les aminosides** [S1]. **Les schémas probabilistes exacts de l'ESC 2023 n'ont pas pu être confirmés pendant l'audit** (deux recherches web infructueuses) : `[POSOLOGIE À VÉRIFIER — ESC 2023, tableau des traitements probabilistes / avis infectiologique]`.
 
 #### 13.2.4 Relais oral et traitement ambulatoire
 
-L'essai **POET** (400 patients stables avec EI du cœur gauche à streptocoques, *E. faecalis*, *S. aureus* ou staphylocoques à coagulase négative) a montré qu'un **relais par voie orale** après une phase IV initiale était **non inférieur** à la poursuite de la voie IV sur un critère composite (mortalité, chirurgie non programmée, embolies, rechute bactériémique) [S5]. L'ESC 2023 en a tiré une recommandation de **relais oral** chez des patients **sélectionnés** : EI gauche à ces germes, **stabilité clinique**, au moins **10 jours** d'antibiothérapie IV (dont au moins 7 jours après une éventuelle chirurgie), **absence d'abcès** à l'ETO, hémocultures négativées [S1] `[critères exacts À VÉRIFIER]`. L'**antibiothérapie parentérale ambulatoire** est une autre option chez les patients stabilisés.
+L'essai **POET** (400 patients stables avec EI du cœur gauche à streptocoques, *E. faecalis*, *S. aureus* ou staphylocoques à coagulase négative) a montré qu'un **relais par voie orale** après une phase IV initiale était **non inférieur** à la poursuite de la voie IV sur un critère composite (mortalité, chirurgie non programmée, embolies, rechute bactériémique) [S5]. L'ESC 2023 en a tiré une recommandation de **relais oral** chez des patients **sélectionnés** : EI gauche à ces germes, **stabilité clinique**, au moins **10 jours** d'antibiothérapie IV (dont au moins 7 jours après une éventuelle chirurgie), **absence d'abcès** ou d'anomalie valvulaire imposant une chirurgie à l'ETO, hémocultures négativées (classe IIa, ESC 2023 [S1]). L'**antibiothérapie parentérale ambulatoire** est une autre option chez les patients stabilisés.
 
 #### 13.2.5 Chirurgie cardiaque
 
@@ -534,7 +547,7 @@ Réalisée chez environ la moitié des patients dans les séries européennes `[
 | | **Végétation ≥ 10 mm** avec **dysfonction valvulaire sévère** (sténose ou régurgitation) et faible risque opératoire | Urgente |
 | | Végétation ≥ 10 mm **sans** dysfonction sévère ni embolie, à faible risque opératoire | Urgente (indication plus faible) |
 
-`[Classes de recommandation et libellés exacts : À VÉRIFIER sur ESC 2023]`
+Classes ESC 2023 [S1] (confrontées par l'audit) : **classe I** pour l'insuffisance cardiaque (extrême urgence et urgente), l'infection localement non contrôlée, les infections fongiques ou à germes multirésistants et la végétation ≥ 10 mm persistante après embolie ; **classe IIa** pour les hémocultures persistantes, l'EI sur prothèse à *S. aureus* ou à Gram négatif non HACEK et la végétation ≥ 10 mm avec dysfonction valvulaire sévère ; **classe IIb** pour la végétation ≥ 10 mm isolée à faible risque opératoire.
 
 #### 13.3.2 Chirurgie et complications neurologiques
 
@@ -575,7 +588,7 @@ Suspicion d'EI (fièvre + souffle, embolie fébrile, bactériémie à germe typi
 
 - **Hémocultures avant antibiotiques** : l'antibiothérapie « à l'aveugle » d'une fièvre chez un valvulopathe est probablement la principale cause des **EI à hémocultures négatives**, très fréquentes dans la série algéroise [S6]. Message clé pour le médecin généraliste : **jamais d'antibiotique avant 3 hémocultures chez un patient porteur de valvulopathie ou de prothèse**.
 - **Zoonoses** : *Bartonella* (*B. quintana*), *Brucella* (consommation de lait cru, contact avec le bétail) et *Coxiella burnetii* sont documentées comme agents d'EI en Algérie [S6] → **sérologies systématiques** en cas d'hémocultures négatives.
-- **Cardiopathie rhumatismale** : premier substrat dans les séries algériennes [S8, à vérifier] ; la **prévention du RAA** (traitement des angines streptococciques, prophylaxie secondaire par benzathine-pénicilline) relève du **programme national** [S7]. Des supports d'enseignement universitaires algériens mentionnent une injection de **benzathine-benzylpénicilline toutes les 21 jours** (600 000 UI si < 30 kg, 1,2 MUI au-delà), poursuivie plusieurs années (davantage, voire à vie, en cas de cardite) `[POSOLOGIE ET DURÉE À VÉRIFIER sur le document officiel du programme national S7]`.
+- **Cardiopathie rhumatismale** : premier substrat dans les séries algériennes [S8, à vérifier] ; la **prévention du RAA** (traitement des angines streptococciques, prophylaxie secondaire par benzathine-pénicilline) relève du **programme national** [S7]. Des supports d'enseignement universitaires algériens mentionnent une injection IM de **benzathine-benzylpénicilline tous les 21 jours** (600 000 UI si < 30 kg, 1,2 MUI au-delà), poursuivie plusieurs années (davantage, voire à vie, en cas de cardite) `[POSOLOGIE ET DURÉE À VÉRIFIER sur le document officiel du programme national S7]`.
 - **Accès à la chirurgie cardiaque** urgente : inégal selon les régions `[À VÉRIFIER — nombre de centres de chirurgie cardiaque]` ; le transfert précoce des EI compliquées vers un centre médico-chirurgical est essentiel.
 - **Molécules** : disponibilité de la daptomycine, de la céfazoline injectable, de la cloxacilline IV à forte dose `[À VÉRIFIER — nomenclature nationale]`.
 
@@ -611,17 +624,17 @@ Suspicion d'EI (fièvre + souffle, embolie fébrile, bactériémie à germe typi
 
 ### 15.1 Antibioprophylaxie
 
-**Indications (ESC 2023 [S1])** : patients à **risque élevé** (§ 6.3) devant subir un **geste dentaire** comportant une **manipulation de la gencive ou de la région périapicale** des dents, ou une **effraction de la muqueuse buccale** (extractions, détartrage, soins endodontiques…). Chez les patients à **risque intermédiaire**, la prophylaxie n'est pas systématique : décision au cas par cas `[libellé et classe ESC 2023 À VÉRIFIER]`. Pour les gestes **non dentaires** (digestifs, urologiques, respiratoires, cutanés), la prophylaxie systématique n'est pas recommandée ; l'antibioprophylaxie chirurgicale habituelle s'applique (et, chez les patients à haut risque, on peut envisager une couverture adaptée lors de certains gestes invasifs) `[À VÉRIFIER]`.
+**Indications (ESC 2023 [S1])** : patients à **risque élevé** (§ 6.3) devant subir un **geste dentaire** comportant une **manipulation de la gencive ou de la région périapicale** des dents, ou une **effraction de la muqueuse buccale** (extractions, détartrage, soins endodontiques…). Chez les patients à **risque intermédiaire**, la prophylaxie n'est pas recommandée en routine : mesures générales de prévention, décision individuelle [S1]. Pour les gestes **non dentaires** (digestifs, urologiques, respiratoires, cutanés, ostéo-articulaires), la prophylaxie systématique n'est pas recommandée ; l'antibioprophylaxie chirurgicale habituelle s'applique, et, chez les patients à **haut risque**, une prophylaxie **peut être envisagée** lors des gestes diagnostiques ou thérapeutiques invasifs (classe IIb, ESC 2023 [S1]).
 
 **Schémas (dose unique 30 à 60 minutes avant le geste)** :
 
 | Situation | Adulte | Enfant |
 |---|---|---|
-| Pas d'allergie aux bêtalactamines | **Amoxicilline 2 g** per os ou IV | 50 mg/kg |
-| Allergie à la pénicilline | **Céfalexine 2 g** per os (si pas d'antécédent d'anaphylaxie ou d'urticaire à la pénicilline) ; **azithromycine ou clarithromycine 500 mg** per os ; **doxycycline 100 mg** per os | Céfalexine 50 mg/kg ; azithro-/clarithromycine 15 mg/kg ; doxycycline selon l'âge |
-| | **La clindamycine n'est plus recommandée** (AHA 2021 [S4] ; position ESC 2023 `[À VÉRIFIER]`) en raison de ses effets indésirables (*Clostridioides difficile*) | — |
+| Pas d'allergie aux bêtalactamines | **Amoxicilline 2 g** per os ou IV (ampicilline 2 g IM/IV ; céfazoline ou ceftriaxone 1 g IM/IV si voie orale impossible) | 50 mg/kg (céfazoline/ceftriaxone : 50 mg/kg) |
+| Allergie à la pénicilline | **Céfalexine 2 g** per os (si pas d'antécédent d'anaphylaxie, d'angio-œdème ou d'urticaire à la pénicilline) ; **azithromycine ou clarithromycine 500 mg** per os ; **doxycycline 100 mg** per os | Céfalexine 50 mg/kg ; azithro-/clarithromycine 15 mg/kg ; doxycycline 2,2 mg/kg si < 45 kg, 100 mg au-delà |
+| | **La clindamycine n'est plus recommandée** (AHA 2021 [S4] ; position ESC 2023 [S1] a priori concordante `[À VÉRIFIER sur le texte]`) en raison de ses effets indésirables (*Clostridioides difficile*) | — |
 
-`[POSOLOGIES À VÉRIFIER — ESC 2023 / AHA 2021 / RCP]`
+Posologies confrontées par l'audit AUD-02 (2026-11-19) au tableau de l'AHA 2021 [S4], concordant avec l'ESC 2023 [S1] : conformes.
 
 ### 15.2 Mesures non spécifiques (pour tous les patients à risque élevé ou intermédiaire) [S1, S4]
 
@@ -973,5 +986,7 @@ Concernant l'antibioprophylaxie de l'endocardite infectieuse, quelles propositio
 6. **[S6]** Benslimani A, Fenollar F, Lepidi H, Raoult D. Bacterial zoonoses and infective endocarditis, Algeria. *Emerg Infect Dis.* 2005;11(2):216-224. — *Vérifiée.*
 7. **[S7]** Ministère de la Santé et de la Population (Algérie). Programme national de lutte contre le rhumatisme articulaire aigu (révisé en 2000). — *Existence vérifiée.*
 8. **[S8]** Benamara S, et al. Série rétrospective d'EI, hôpital de Béni Messous (Alger), 1996–2010. — *Non vérifiée (métadonnées incomplètes).*
+
+> **Note d'audit (AUD-01/AUD-02, 2026-11-19)** : antibiothérapies curatives et antibioprophylaxie vérifiées ; restent à confirmer l'antibiothérapie probabiliste ESC 2023 et la prophylaxie secondaire du RAA selon le programme national ; détails dans `00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0005.md`.
 
 > **Note de l'agent** : l'ensemble des schémas d'antibiothérapie (curative, probabiliste, prophylactique) et les indications chirurgicales détaillées ont été restitués **sans lecture du texte intégral** des recommandations ESC 2023 : **audit prioritaire** par un cardiologue et un infectiologue sur les documents originaux.

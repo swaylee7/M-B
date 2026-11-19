@@ -55,7 +55,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Raisonnement clinique et observation structurée ; prescription sécurisée ; communication avec le patient et sa famille ; hygiène et sécurité des soins ; **tenue du carnet du résident**.
 
 **Gestes et savoir-faire**
-- Observer / aider : Échocardiographie transthoracique standard ; Ponction péricardique (aide puis réalisation) ; Épreuve d'effort : conduite et interprétation ; Lecture Holter ECG et MAPA
+- Observer / aider : Échocardiographie transthoracique standard ; Ponction péricardique ; Épreuve d'effort : conduite et interprétation ; Lecture Holter ECG et MAPA
 - Réaliser sous supervision : Cardioversion électrique externe
 - Autonomie (contrôle a posteriori) : ECG 12 dérivations : réalisation et interprétation autonome ; Choc électrique et réanimation cardio-pulmonaire avancée
 
@@ -89,8 +89,8 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Hiérarchisation et décision dans les situations courantes ; présentation en staff ; information et consentement éclairé ; certificats et responsabilité médico-légale de base.
 
 **Gestes et savoir-faire**
-- Observer / aider : Pose d'une sonde d'entraînement électrosystolique temporaire ; Échocardiographie transœsophagienne (aide puis réalisation) ; Coronarographie diagnostique (assistance)
-- Réaliser sous supervision : Échocardiographie transthoracique standard ; Ponction péricardique (aide puis réalisation) ; Épreuve d'effort : conduite et interprétation ; Lecture Holter ECG et MAPA
+- Observer / aider : Pose d'une sonde d'entraînement électrosystolique temporaire ; Échocardiographie transœsophagienne ; Coronarographie diagnostique
+- Réaliser sous supervision : Échocardiographie transthoracique standard ; Ponction péricardique ; Épreuve d'effort : conduite et interprétation ; Lecture Holter ECG et MAPA
 - Autonomie (contrôle a posteriori) : Cardioversion électrique externe
 
 **Urgences et conduites à tenir prioritaires**
@@ -99,7 +99,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - ESC — fibrillation atriale, arythmies ventriculaires, stimulation cardiaque
@@ -124,7 +123,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Participation aux réunions de concertation pluridisciplinaire et de morbi-mortalité ; encadrement des externes et internes ; lecture critique d'article ; travail de recherche selon les exigences de la faculté.
 
 **Gestes et savoir-faire**
-- Réaliser sous supervision : Pose d'une sonde d'entraînement électrosystolique temporaire ; Échocardiographie transœsophagienne (aide puis réalisation) ; Coronarographie diagnostique (assistance)
+- Réaliser sous supervision : Pose d'une sonde d'entraînement électrosystolique temporaire ; Échocardiographie transœsophagienne ; Coronarographie diagnostique
 - Autonomie (contrôle a posteriori) : Échocardiographie transthoracique standard ; Épreuve d'effort : conduite et interprétation ; Lecture Holter ECG et MAPA
 
 **Urgences et conduites à tenir prioritaires**
@@ -133,7 +132,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - AHA/ACC — mêmes thèmes (comparer les divergences avec l'ESC)
@@ -156,14 +154,14 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Autonomie décisionnelle encadrée ; consultation spécialisée ; annonce d'une mauvaise nouvelle ; gestion des risques et des événements indésirables.
 
 **Gestes et savoir-faire**
-- Autonomie (contrôle a posteriori) : Ponction péricardique (aide puis réalisation) ; Pose d'une sonde d'entraînement électrosystolique temporaire ; Échocardiographie transœsophagienne (aide puis réalisation) ; Coronarographie diagnostique (assistance)
+- Autonomie (contrôle a posteriori) : Ponction péricardique ; Pose d'une sonde d'entraînement électrosystolique temporaire ; Échocardiographie transœsophagienne
+- Poursuivre sous supervision (autonomie non attendue en fin de DEMS) : Coronarographie diagnostique
 
 **Urgences et conduites à tenir prioritaires**
 - Réviser les urgences des années précédentes sous forme de cas cliniques chronométrés ; **toutes** les urgences de la liste en vue de l'examen final.
 
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
@@ -181,7 +179,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 | Syndrome coronarien aigu avec sus-décalage du ST | A | [DOS-CARD-0003](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0003__INFARCTUS_DU_MYOCARDE_SCA_ST_PLUS.md) |
 | Syndrome coronarien aigu sans sus-décalage du ST | A | [DOS-CARD-0004](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0004__SYNDROMES_CORONARIENS_SANS_SUS_DECALAGE_ST.md) |
 | Œdème aigu du poumon / insuffisance cardiaque aiguë | A | [DOS-CARD-0001](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0001__INSUFFISANCE_CARDIAQUE_AIGUE_ET_CHRONIQUE.md) |
-| Choc cardiogénique | A | — (à rédiger) |
+| Choc cardiogénique | A | [DOS-MINT_REA-0001](../../13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md) |
 | Arrêt cardio-respiratoire | A | — (à rédiger) |
 | Tachycardie ventriculaire et fibrillation ventriculaire | A | — (à rédiger) |
 | Bradycardie et bloc auriculo-ventriculaire de haut degré | A | — (à rédiger) |
@@ -199,39 +197,30 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - Dossier de la spécialité `CARD` (Cardiologie) : [`11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/`](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/)
 
 **Dossiers pédagogiques** (5)
-- [DOS-CARD-0001 — Insuffisance cardiaque aiguë et chronique](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0001__INSUFFISANCE_CARDIAQUE_AIGUE_ET_CHRONIQUE.md) — statut : brouillon_a_auditer
-- [DOS-CARD-0002 — Hypertension artérielle](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0002__HYPERTENSION_ARTERIELLE.md) — statut : brouillon_a_auditer
-- [DOS-CARD-0003 — Infarctus du myocarde — syndrome coronarien aigu avec sus-décalage du segment ST](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0003__INFARCTUS_DU_MYOCARDE_SCA_ST_PLUS.md) — statut : brouillon_a_auditer
-- [DOS-CARD-0004 — Syndromes coronariens aigus sans sus-décalage du segment ST](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0004__SYNDROMES_CORONARIENS_SANS_SUS_DECALAGE_ST.md) — statut : brouillon_a_auditer
-- [DOS-CARD-0005 — Endocardites infectieuses](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0005__ENDOCARDITES_INFECTIEUSES.md) — statut : brouillon_a_auditer
+- [DOS-CARD-0001 — Insuffisance cardiaque aiguë et chronique](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0001__INSUFFISANCE_CARDIAQUE_AIGUE_ET_CHRONIQUE.md) — statut : audite_corrections_requises
+- [DOS-CARD-0002 — Hypertension artérielle](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0002__HYPERTENSION_ARTERIELLE.md) — statut : audite_valide
+- [DOS-CARD-0003 — Infarctus du myocarde — syndrome coronarien aigu avec sus-décalage du segment ST](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0003__INFARCTUS_DU_MYOCARDE_SCA_ST_PLUS.md) — statut : audite_valide
+- [DOS-CARD-0004 — Syndromes coronariens aigus sans sus-décalage du segment ST](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0004__SYNDROMES_CORONARIENS_SANS_SUS_DECALAGE_ST.md) — statut : audite_corrections_requises
+- [DOS-CARD-0005 — Endocardites infectieuses](../../11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0005__ENDOCARDITES_INFECTIEUSES.md) — statut : audite_corrections_requises
 
 **QCM originaux** : 60 (codes CARD) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 10 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (53)
-- REC-0200 — 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (ESC (avec la Heart Failure Association), 2021-09 ; statut : remplacee)
-- REC-0201 — 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (ESC (avec la Heart Failure Association), 2023-10 ; statut : remplacee)
+**Recommandations cataloguées** : 43 en vigueur (+ 10 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0202 — 2026 ESC Guidelines for the management of heart failure (ESC, 2026-10 ; statut : actuelle)
 - REC-0203 — 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (AHA / ACC / HFSA, 2022-04 ; statut : actuelle)
 - REC-0204 — 2023 ESC Guidelines for the management of acute coronary syndromes (ESC, 2023-10 ; statut : actuelle)
-- REC-0205 — 2020 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation (ESC, 2021-04 ; statut : remplacee)
-- REC-0206 — 2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation (ESC, 2018-01 ; statut : remplacee)
 - REC-0207 — 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes (ACC / AHA / ACEP / NAEMSP / SCAI, 2025-02 ; statut : actuelle)
 - REC-0208 — 2024 ESC Guidelines for the management of chronic coronary syndromes (ESC, 2024-09 ; statut : actuelle)
 - REC-0209 — 2024 ESC Guidelines for the management of elevated blood pressure and hypertension (ESC, 2024-10 ; statut : actuelle)
-- REC-0210 — 2018 ESC/ESH Guidelines for the management of arterial hypertension (ESC / ESH, 2018-09 ; statut : remplacee)
 - REC-0211 — 2023 ESH Guidelines for the management of arterial hypertension (ESH (European Society of Hypertension), 2023-09 ; statut : actuelle)
 - REC-0212 — 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults (AHA / ACC et 11 sociétés, 2025-08 ; statut : actuelle)
 - REC-0213 — 2020 International Society of Hypertension Global Hypertension Practice Guidelines (ISH (International Society of Hypertension), 2020-05 ; statut : actuelle)
 - REC-0214 — 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS) (ESC (avec EACTS), 2024-09 ; statut : actuelle)
-- REC-0215 — 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS) (ESC (avec EACTS), 2021-02 ; statut : remplacee)
 - REC-0216 — 2023 ESC Guidelines for the management of endocarditis (ESC, 2023-10 ; statut : actuelle)
-- REC-0217 — 2015 ESC Guidelines for the management of infective endocarditis (ESC, 2015-08 ; statut : remplacee)
-- REC-0218 — 2021 ESC/EACTS Guidelines for the management of valvular heart disease (ESC / EACTS, 2022-02 ; statut : remplacee)
 - REC-0219 — 2025 ESC/EACTS Guidelines for the management of valvular heart disease (ESC / EACTS, 2025-11 ; statut : actuelle)
 - REC-0220 — 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS) (ESC (avec ERS), 2020-01 ; statut : actuelle)
 - REC-0221 — 2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults (AHA / ACC / ACCP / ACEP / CHEST / SCAI / SHM / SIR / SVM / SVN, 2026-02 ; statut : actuelle)
 - REC-0222 — 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension (ESC / ERS, 2022-10 ; statut : actuelle)
-- REC-0223 — 2015 ESC Guidelines for the diagnosis and management of pericardial diseases (ESC, 2015-08 ; statut : remplacee)
 - REC-0224 — 2025 ESC Guidelines for the management of myocarditis and pericarditis (ESC, 2025-10 ; statut : actuelle)
 - REC-0225 — 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death (ESC, 2022-10 ; statut : actuelle)
 - REC-0226 — 2019 ESC Guidelines for the management of patients with supraventricular tachycardia (ESC, 2020-02 ; statut : actuelle)
@@ -240,7 +229,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0229 — 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias (ESC / EAS, 2025-11 ; statut : actuelle)
 - REC-0230 — 2021 ESC Guidelines on cardiovascular disease prevention in clinical practice (ESC, 2021-09 ; statut : actuelle)
 - REC-0231 — 2024 ESC Guidelines for the management of peripheral arterial and aortic diseases (ESC, 2024-09 ; statut : actuelle)
-- REC-0232 — 2014 ESC Guidelines on the diagnosis and treatment of aortic diseases (ESC, 2014-08 ; statut : remplacee)
 - REC-0233 — 2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes (ESC, 2023-10 ; statut : actuelle)
 - REC-0234 — 2020 ESC Guidelines for the management of adult congenital heart disease (ESC, 2021-02 ; statut : actuelle)
 - REC-0235 — 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy (ESC, 2025-11 ; statut : actuelle)

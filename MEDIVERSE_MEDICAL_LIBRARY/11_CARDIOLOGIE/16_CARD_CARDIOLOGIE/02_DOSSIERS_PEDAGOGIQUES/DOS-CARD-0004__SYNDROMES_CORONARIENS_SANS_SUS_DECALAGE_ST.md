@@ -6,11 +6,23 @@ sous_specialite: "Cardiopathie ischémique — SCA"
 items_residanat: [RES-MED-057]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_valide
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0004.md
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0004.md
+    remarque: "Marqueurs levés : fondaparinux (seuil rénal), délais d'arrêt des P2Y12 avant pontage, ticagrélor 60 mg / rivaroxaban 2,5 mg ; aspirine, P2Y12, énoxaparine, bivalirudine conformes. Marqueur maintenu : schéma d'HNF IV en attente de coronarographie (bolus et débit de perfusion non confirmés)."
 sources:
   - id: S1
     reference: "Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-3826."
@@ -37,14 +49,14 @@ sources:
     url: ""
     verifiee: true
   - id: S4
-    reference: "Collet JP, Thiele H, Barbato E, et al. 2020 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation. Eur Heart J. 2021;42(14):1289-1367. [À VÉRIFIER]"
+    reference: "Collet JP, Thiele H, Barbato E, et al. 2020 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation. Eur Heart J. 2021;42(14):1289-1367."
     organisme: ESC
     annee: 2020
     type: recommandation
-    doi: ""
+    doi: "10.1093/eurheartj/ehaa575"
     url: ""
-    verifiee: false
-    remarque: "Remplacée par S1. Référence non vérifiée pendant la session (quota de recherche épuisé) ; DOI volontairement non renseigné."
+    verifiee: true
+    remarque: "Remplacée par S1. Volume, numéro, pages et DOI confirmés par recherche web (audit AUD-01, 2026-11-19) ; publication en ligne en août 2020, version imprimée 2021 ; corrigenda publiés (contenu non vérifié)."
   - id: S5
     reference: "Moussouni A, Sidi-Yakhlef A, Hamdaoui H, Aouar A, Belkhatir D. Prevalence and risk factors of prehypertension and hypertension in Algeria. BMC Public Health. 2022;22(1):1571."
     organisme: ""
@@ -68,7 +80,7 @@ mots_cles: [SCA ST-, NSTEMI, angor instable, troponine ultrasensible, algorithme
 # Syndromes coronariens aigus sans sus-décalage du segment ST
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (une posologie d'héparine reste à confirmer ; voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-057 — *Les syndromes coronariens sans sus-décalage de ST.* Ce dossier est complémentaire de DOS-CARD-0003 (infarctus du myocarde / SCA ST+), auquel il renvoie pour l'anatomie coronaire, la définition universelle et la prévention secondaire.
 
@@ -256,7 +268,14 @@ Douleur thoracique — ECG sans sus-décalage — prélèvement H0 (± H1)
         éventuellement coroscanner ; décision individualisée
 ```
 
-**Exemple de seuils** (hs-cTnT Elecsys, algorithme 0 h/1 h, valeurs habituellement citées dans les recommandations ESC) : exclusion si H0 < 5 ng/L (douleur > 3 h) ou H0 < 12 ng/L avec Δ1h < 3 ng/L ; inclusion si H0 ≥ 52 ng/L ou Δ1h ≥ 5 ng/L `[valeurs À VÉRIFIER sur le tableau ESC 2023 et adapter au dosage utilisé localement]`.
+**Exemples de seuils** (algorithme 0 h/1 h, tableaux ESC 2020/2023 [S1, S4]) — **ils ne sont valables que pour le dosage cité** :
+
+| Dosage | Très bas (H0, douleur > 3 h) | Bas (H0) + Δ1h non significatif | Élevé (H0) | Δ1h significatif |
+|---|---|---|---|---|
+| hs-cTnT Elecsys (Roche) | < 5 ng/L | < 12 ng/L et Δ1h < 3 ng/L | ≥ 52 ng/L | ≥ 5 ng/L |
+| hs-cTnI Architect (Abbott) | < 4 ng/L | < 5 ng/L et Δ1h < 2 ng/L | ≥ 64 ng/L | ≥ 6 ng/L |
+
+Chaque autre dosage (Centaur, Access, Atellica, Vitros, Pathfast…) a ses propres seuils : se reporter au tableau ESC et au laboratoire local ; **ne jamais transposer les seuils d'un dosage à un autre**.
 
 **Pièges** : une douleur très récente (< 1 h) impose un prélèvement supplémentaire ; l'algorithme ne s'applique pas au patient instable (qui relève d'une stratégie immédiate) ; une troponine élevée **sans cinétique** évoque une lésion chronique.
 
@@ -379,7 +398,7 @@ Justification : un patient sur dix environ nécessite un **pontage** (risque hé
 |---|---|---|
 | **Héparine non fractionnée** | Bolus IV 70–100 UI/kg pendant l'angioplastie (50–70 UI/kg avec anti-GP IIb/IIIa) ; en attente de coronarographie : bolus puis perfusion adaptée au TCA `[POSOLOGIE À VÉRIFIER — protocole local]` | Référence en salle de cathétérisme |
 | **Énoxaparine** | 1 mg/kg SC/12 h (1 mg/kg/24 h si clairance < 30 mL/min) | Alternative à l'HNF |
-| **Fondaparinux** | **2,5 mg SC/24 h** | **Préféré à l'énoxaparine si la coronarographie n'est pas prévue dans les 24 h** ; **bolus d'HNF obligatoire lors de l'angioplastie** (risque de thrombose de cathéter) ; contre-indiqué si clairance < 20 mL/min `[seuil À VÉRIFIER — RCP]` |
+| **Fondaparinux** | **2,5 mg SC/24 h** | **Préféré à l'énoxaparine si la coronarographie n'est pas prévue dans les 24 h** ; **bolus d'HNF obligatoire lors de l'angioplastie** (risque de thrombose de cathéter) ; contre-indiqué si clairance de la créatinine < 20 mL/min (RCP ; vérification AUD-02) |
 | Bivalirudine | 0,75 mg/kg IV puis 1,75 mg/kg/h | Alternative pendant l'angioplastie |
 
 Règles : **ne pas changer d'anticoagulant** en cours de prise en charge (sauf ajout d'HNF au fondaparinux en salle) ; **arrêter l'anticoagulation parentérale après l'angioplastie** (sauf autre indication) ; **pas de fibrinolyse** dans le SCA ST−.
@@ -387,7 +406,7 @@ Règles : **ne pas changer d'anticoagulant** en cours de prise en charge (sauf a
 #### 13.2.4 Revascularisation
 
 - **Angioplastie** par **voie radiale**, **stent actif** [S1].
-- **Pontage coronaire** : atteinte du tronc commun ou pluritronculaire complexe, en particulier chez le **diabétique**, après discussion en **équipe cardiologique** (« Heart Team ») ; anticiper l'arrêt du P2Y12 avant chirurgie (ticagrélor ≥ 3 jours, clopidogrel ≥ 5 jours, prasugrel ≥ 7 jours `[délais À VÉRIFIER — ESC 2023]`).
+- **Pontage coronaire** : atteinte du tronc commun ou pluritronculaire complexe, en particulier chez le **diabétique**, après discussion en **équipe cardiologique** (« Heart Team ») ; anticiper l'arrêt du P2Y12 avant chirurgie programmée : **ticagrélor au moins 3 jours, clopidogrel au moins 5 jours, prasugrel au moins 7 jours** avant le pontage (ESC 2023, classe IIa [S1]), l'aspirine étant poursuivie ; en cas d'urgence, le pontage n'est pas retardé.
 - **Revascularisation complète** recommandée chez les pluritronculaires (stratégie selon la physiologie pour les lésions intermédiaires non coupables) [S1].
 
 ### 13.3 Stratégies
@@ -426,7 +445,7 @@ Douleur thoracique suspecte — ECG ≤ 10 min
 | Défaut | **DAPT 12 mois** (aspirine + prasugrel ou ticagrélor, ou clopidogrel) |
 | **Haut risque hémorragique** | DAPT raccourcie (1 mois, puis monothérapie) ; ou désescalade vers le clopidogrel |
 | Patients sans haut risque hémorragique, après 3–6 mois sans événement | Monothérapie par inhibiteur du P2Y12 envisageable |
-| **Haut risque ischémique sans haut risque hémorragique**, au-delà de 12 mois | Traitement antithrombotique prolongé : ajout à l'aspirine du **ticagrélor 60 mg × 2/j** ou du **rivaroxaban 2,5 mg × 2/j** `[POSOLOGIES À VÉRIFIER — RCP]` |
+| **Haut risque ischémique sans haut risque hémorragique**, au-delà de 12 mois | Traitement antithrombotique prolongé (ESC 2023, classe IIa [S1]) : ajout à l'aspirine du **ticagrélor 60 mg × 2/j** (essai PEGASUS) ou du **rivaroxaban 2,5 mg × 2/j** (essai COMPASS) — posologies conformes aux RCP (vérification AUD-02) ; autres options : clopidogrel 75 mg/j, prasugrel 10 mg/j |
 | Au long cours | Monothérapie antiplaquettaire (aspirine ou clopidogrel) |
 
 Associer un **inhibiteur de la pompe à protons** chez les patients à risque de saignement digestif.
@@ -543,7 +562,7 @@ Mme S., 71 ans, diabétique de type 2 sous metformine, hypertendue, en **fibrill
 ECG : FA à 90/min, **sous-décalage de ST de 1,5 mm de V4 à V6, DI et aVL**, sans sus-décalage ; V7–V9 sans sus-décalage. hs-cTnT H0 : **68 ng/L**.
 
 **Question 1 — Quel diagnostic ?**
-Douleur évocatrice (présentation atypique chez une femme âgée diabétique), sous-décalage de ST latéral, troponine H0 au-dessus du seuil d'inclusion de l'algorithme (exemple Elecsys : ≥ 52 ng/L) → **NSTEMI** (SCA ST−) `[seuil à vérifier selon le dosage local]`.
+Douleur évocatrice (présentation atypique chez une femme âgée diabétique), sous-décalage de ST latéral, troponine H0 au-dessus du seuil d'inclusion de l'algorithme (seuil propre au dosage hs-cTnT Elecsys : ≥ 52 ng/L ; un autre dosage aurait un autre seuil) → **NSTEMI** (SCA ST−).
 
 **Question 2 — Quel niveau de risque et quel délai de coronarographie ?**
 Pas de critère de très haut risque (hémodynamique stable, douleur calmée sous trinitrine, pas d'arythmie ventriculaire ni d'IC). **Haut risque** : NSTEMI confirmé, modifications de ST, score GRACE probablement > 140 (âge, troponine, ST) → **coronarographie précoce (< 24 h)** à envisager [S1].
@@ -553,7 +572,7 @@ Pas de critère de très haut risque (hémodynamique stable, douleur calmée sou
 **Question 3 — Quel traitement antithrombotique initial chez cette patiente sous apixaban ?**
 - **Aspirine** (dose de charge) ;
 - **pas de prétraitement systématique par inhibiteur du P2Y12** (coronarographie < 24 h prévue) ;
-- l'**apixaban** est **suspendu** en vue de la coronarographie ; une anticoagulation parentérale est discutée en fonction de l'heure de la dernière prise (en règle, pas d'anticoagulant parentéral supplémentaire tant que l'effet de l'AOD persiste ; HNF en salle selon le protocole) `[conduite précise À VÉRIFIER — ESC 2023 / protocole local]` ;
+- l'**apixaban** est **suspendu** en vue de la coronarographie ; en dehors de la salle, éviter de superposer un anticoagulant parentéral tant que l'effet de l'AOD persiste ; **pendant l'angioplastie, une anticoagulation parentérale complémentaire (HNF à dose réduite, par exemple) est recommandée quel que soit le délai depuis la dernière prise d'AOD** (ESC 2020 [S4]) ; voie radiale privilégiée `[modalités précises — protocole local]` ;
 - dérivés nitrés si douleur, bêtabloquant pour la fréquence de la FA et l'ischémie (absence d'IC) ;
 - poursuite des traitements de fond ; arrêt de la metformine autour de l'injection de produit de contraste selon la fonction rénale `[À VÉRIFIER — RCP]`.
 
@@ -817,7 +836,7 @@ Concernant les divergences et l'évolution des recommandations sur le SCA ST−,
 | **Choix de l'inhibiteur du P2Y12** | Prasugrel à envisager de préférence au ticagrélor si angioplastie | Prasugrel préféré au ticagrélor si angioplastie (IIa) | Prasugrel ou ticagrélor préférés au clopidogrel `[hiérarchie À VÉRIFIER]` |
 | **Durée de DAPT** | 12 mois par défaut, options de raccourcissement | 12 mois par défaut ; monothérapie P2Y12 après 3–6 mois envisageable ; stratégies HBR | **12 mois par défaut** chez les patients sans haut risque hémorragique (vérifié) ; options de raccourcissement |
 | **Lipides** | Cible LDL < 1,4 mmol/L | Cible LDL < 1,4 mmol/L et baisse ≥ 50 % | Statine de forte intensité, **ézétimibe possible d'emblée** (vérifié) ; seuils d'intensification |
-| **Catégories de risque** | Très haut / haut / intermédiaire / faible | Très haut / haut / absence de critère de haut risque | Intégration de parcours décisionnels avec troponine ultrasensible |
+| **Catégories de risque** | Très haut / haut / faible (la catégorie « intermédiaire », avec coronarographie < 72 h, appartenait à l'ESC 2015 et a été supprimée en 2020) | Très haut / haut / absence de critère de haut risque | Intégration de parcours décisionnels avec troponine ultrasensible |
 
 **À retenir pour l'examen** : citer l'**ESC 2023** comme référence européenne actuelle ; signaler que l'invasif précoce (< 24 h) chez le haut risque est passé de « recommandé » (2020) à « à envisager » (2023) ; les **délais** (< 2 h très haut risque, < 24 h haut risque) restent les repères à connaître.
 
@@ -828,8 +847,10 @@ Concernant les divergences et l'évolution des recommandations sur le SCA ST−,
 1. **[S1]** Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. *Eur Heart J.* 2023;44(38):3720-3826. doi:10.1093/eurheartj/ehad191. — *Vérifiée (recherche web, 2026-11-19).*
 2. **[S2]** Thygesen K, Alpert JS, Jaffe AS, et al. Fourth universal definition of myocardial infarction (2018). *Eur Heart J.* 2019;40(3):237-269. doi:10.1093/eurheartj/ehy462. — *Vérifiée.*
 3. **[S3]** Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. *Circulation.* 2025. doi:10.1161/CIR.0000000000001309 ; *J Am Coll Cardiol.* 2025;85(22):2135-2237. — *Vérifiée (contenu via résumés).*
-4. **[S4]** Collet JP, Thiele H, Barbato E, et al. 2020 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation. *Eur Heart J.* 2021;42(14):1289-1367. — *Non vérifiée pendant la session ; remplacée par [S1].*
+4. **[S4]** Collet JP, Thiele H, Barbato E, et al. 2020 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation. *Eur Heart J.* 2021;42(14):1289-1367. doi:10.1093/eurheartj/ehaa575. — *Vérifiée (audit AUD-01, recherche web, 2026-11-19) ; remplacée par [S1].*
 5. **[S5]** Moussouni A, et al. *BMC Public Health.* 2022;22(1):1571. doi:10.1186/s12889-022-13942-y. — *Vérifiée.*
 6. **[S6]** McDonagh TA, et al. 2021 ESC Guidelines for heart failure. *Eur Heart J.* 2021;42(36):3599-3726. doi:10.1093/eurheartj/ehab368. — *Vérifiée ; remplacée par ESC 2026.*
+
+> **Note d'audit (AUD-01/AUD-02, 2026-11-19)** : seuils de troponine, délais d'arrêt des P2Y12 et posologies vérifiés, sauf le schéma d'HNF en attente de coronarographie (marqueur maintenu) ; détails dans `00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0004.md`.
 
 > **Note de l'agent** : les seuils de l'algorithme de troponine, les délais d'arrêt des inhibiteurs du P2Y12 avant pontage et les posologies d'anticoagulants doivent être **audités en priorité** sur le texte ESC 2023 et les RCP (texte intégral non consulté pendant la session).

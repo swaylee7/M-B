@@ -6,68 +6,78 @@ sous_specialite: "Zoonoses"
 items_residanat: [RES-MED-008]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 / AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-INFE-0002.md
 sources:
   - id: S1
-    reference: "Corbel MJ (coord.). Brucellosis in humans and animals. Geneva: World Health Organization, FAO, OIE; 2006 [référence à vérifier]."
+    reference: "Corbel MJ (coord.). Brucellosis in humans and animals. Geneva: World Health Organization, FAO, OIE; 2006. WHO/CDS/EPR/2006.7. ISBN 92 4 154713 8."
     organisme: "OMS / FAO / OIE"
     annee: 2006
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.who.int/publications/i/item/9789241547130"
+    verifiee: true
+    remarque: "Audit AUD-04 (2026-11-19) : existence, cote et ISBN confirmés ; chapitres 5.5 (grossesse) et 5.6 (enfant < 8 ans) repérés ; texte non consulté."
   - id: S2
-    reference: "Ariza J, Bosilkovski M, Cascio A, et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med. 2007;4(12):e317 [référence à vérifier]."
+    reference: "Ariza J, Bosilkovski M, Cascio A, et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med. 2007;4(12):e317."
     organisme: "Consensus d'Ioannina"
     annee: 2007
     type: recommandation
-    doi: ""
+    doi: "10.1371/journal.pmed.0040317"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Audit AUD-04 : référence et DOI confirmés ; message principal confirmé (forme non compliquée : doxycycline 6 semaines + streptomycine 2–3 semaines ou + rifampicine 6 semaines ; gentamicine alternative acceptable à la streptomycine ; risque de résistance mycobactérienne lié à la rifampicine là où brucellose et tuberculose coexistent). Durées des formes focalisées non confirmées."
   - id: S3
-    reference: "Pappas G, Akritidis N, Bosilkovski M, Tsianos E. Brucellosis. N Engl J Med. 2005;352(22):2325-2336 [référence à vérifier]."
+    reference: "Pappas G, Akritidis N, Bosilkovski M, Tsianos E. Brucellosis. N Engl J Med. 2005;352(22):2325-2336."
     organisme: "Revue"
     annee: 2005
     type: article
-    doi: ""
+    doi: "10.1056/NEJMra050570"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S4
-    reference: "Pappas G, Papadimitriou P, Akritidis N, Christou L, Tsianos EV. The new global map of human brucellosis. Lancet Infect Dis. 2006;6(2):91-99 [référence à vérifier]."
+    reference: "Pappas G, Papadimitriou P, Akritidis N, Christou L, Tsianos EV. The new global map of human brucellosis. Lancet Infect Dis. 2006;6(2):91-99."
     organisme: "Revue"
     annee: 2006
     type: article
-    doi: ""
+    doi: "10.1016/S1473-3099(06)70382-6"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S5
-    reference: "Yousefi-Nooraie R, Mortaz-Hejri S, Mehrani M, Sadeghipour P. Antibiotics for treating human brucellosis. Cochrane Database Syst Rev. 2012;(10):CD007179 [référence à vérifier]."
+    reference: "Yousefi-Nooraie R, Mortaz-Hejri S, Mehrani M, Sadeghipour P. Antibiotics for treating human brucellosis. Cochrane Database Syst Rev. 2012;(10):CD007179."
     organisme: Cochrane
     annee: 2012
     type: article
-    doi: ""
+    doi: "10.1002/14651858.CD007179.pub2"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Audit AUD-04 : conclusions confirmées (doxycycline + rifampicine moins efficace que doxycycline + streptomycine sur l'échec thérapeutique, RR 1,91 ; doxycycline + gentamicine possiblement moins d'échecs que doxycycline + streptomycine)."
   - id: S6
-    reference: "Solís García del Pozo J, Solera J. Systematic review and meta-analysis of randomized clinical trials in the treatment of human brucellosis. PLoS One. 2012;7(2):e32090 [référence à vérifier]."
+    reference: "Solís García del Pozo J, Solera J. Systematic review and meta-analysis of randomized clinical trials in the treatment of human brucellosis. PLoS One. 2012;7(2):e32090."
     organisme: "Méta-analyse"
     annee: 2012
     type: article
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3290537/"
+    verifiee: true
+    remarque: "Audit AUD-04 : référence confirmée ; doxycycline + streptomycine supérieure à doxycycline + rifampicine (OR 3,17) ; pas de différence significative entre doxycycline + streptomycine et doxycycline + gentamicine."
   - id: S7
-    reference: "Dean AS, Crump L, Greter H, et al. Clinical manifestations of human brucellosis: a systematic review and meta-analysis. PLoS Negl Trop Dis. 2012;6(12):e1929 [référence à vérifier]."
+    reference: "Dean AS, Crump L, Greter H, Hattendorf J, Schelling E, Zinsstag J. Clinical manifestations of human brucellosis: a systematic review and meta-analysis. PLoS Negl Trop Dis. 2012;6(12):e1929."
     organisme: "Méta-analyse"
     annee: 2012
     type: article
-    doi: ""
+    doi: "10.1371/journal.pntd.0001929"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S8
     reference: "Ministère de la Santé (Algérie) / INSP. Liste des maladies à déclaration obligatoire et relevés épidémiologiques de la brucellose humaine ; Ministère de l'Agriculture (services vétérinaires) — programme de lutte contre la brucellose animale [références exactes à vérifier]."
     organisme: "MSPRH / INSP / MADR"
@@ -76,13 +86,22 @@ sources:
     doi: ""
     url: ""
     verifiee: false
+  - id: S9
+    reference: "Organisation mondiale de la Santé. Brucellose — aide-mémoire (fact sheet), page consultée le 19 novembre 2026."
+    organisme: OMS
+    annee: null
+    type: site_institutionnel
+    doi: ""
+    url: "https://www.who.int/news-room/fact-sheets/detail/brucellosis"
+    verifiee: true
+    remarque: "Ajoutée par l'audit : schéma principal doxycycline + streptomycine (durée de l'aminoside non relevée lors de l'audit) ; alternative principale doxycycline 100 mg × 2/j 45 jours + rifampicine 15 mg/kg/j (600–900 mg) 45 jours ; traitement optimal de la femme enceinte et de l'enfant < 8 ans non établi (enfant : cotrimoxazole + aminoside ou rifampicine)."
 mots_cles: [brucellose, fièvre de Malte, Brucella melitensis, zoonose, lait cru, sérodiagnostic de Wright, rose Bengale, spondylodiscite, doxycycline, streptomycine, gentamicine, rifampicine, One Health, Algérie]
 ---
 
 # Brucellose : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. **Avertissement de traçabilité** : en raison d'une limite technique de la session, **aucune référence de ce dossier n'a pu être vérifiée en ligne** (`verifiee: false`). Les schémas thérapeutiques présentés correspondent aux recommandations internationales classiques (OMS 2006, consensus d'Ioannina 2007) telles qu'elles sont habituellement enseignées ; **chaque posologie et chaque durée doit être confrontée aux textes, au RCP et au protocole national avant usage**. Les données algériennes sont signalées `[À VÉRIFIER]`.
+> Statut : audité (AUD-01/02/04, 2026-11-19) — corrections requises (voir le rapport d'audit). **Traçabilité** : l'existence des références internationales [S1–S7] a été confirmée lors de l'audit et un aide-mémoire OMS [S9] a été ajouté ; les schémas de la forme non compliquée (doxycycline, streptomycine, rifampicine) ont été confrontés au consensus d'Ioannina, aux méta-analyses et à l'aide-mémoire OMS. Les durées des formes focalisées, les schémas de l'enfant et de la femme enceinte et les données algériennes restent signalés `[À VÉRIFIER]` : **confronter aux textes, au RCP et au protocole national avant usage**.
 
 **Items du programme couverts** : RES-MED-008 — « Brucellose : Diagnostic - traitement ».
 
@@ -200,7 +219,7 @@ Les éléments suivants sont classiquement rapportés mais n'ont pas pu être v�
 - **Signes physiques** : **hépatomégalie**, **splénomégalie**, **adénopathies**, parfois **orchi-épididymite**.
 - La **dissociation** entre l'importance de la fièvre et la conservation relative de l'état général est classique.
 
-Dans la méta-analyse de Dean et al., la fièvre, les arthralgies, les sueurs et l'asthénie étaient les manifestations les plus fréquentes [S7] `[À VÉRIFIER : fréquences]`.
+Dans la méta-analyse de Dean et al. (57 études, 1990–2010), la **fièvre** était présente chez **78 %** des patients ; arthralgies, myalgies et rachialgies étaient fréquentes ; les complications graves étaient rares (de l'ordre de **1 endocardite** et **4 atteintes neurologiques pour 100 patients**) [S7].
 
 ### 8.2 Biologie non spécifique
 
@@ -336,7 +355,7 @@ Contrôler les symptômes, **prévenir les complications et les focalisations**,
 
 ### 13.2 Moyens : antibiotiques utilisés
 
-`[POSOLOGIE À VÉRIFIER — références non vérifiées dans la session ; confronter à OMS 2006, Ioannina 2007, RCP et protocole national]`
+Les doses adultes de **doxycycline** (100 mg × 2/j), de **streptomycine** (≈ 1 g/j IM) et de **rifampicine** (15 mg/kg/j, soit 600–900 mg/j) correspondent au consensus d'Ioannina et à l'aide-mémoire de l'OMS [S2, S9] ; la gentamicine est reconnue comme alternative acceptable à la streptomycine [S2] (durée de 7 jours, parfois 7 à 10 jours selon les sources). Le **cotrimoxazole** et la **ceftriaxone** restent `[POSOLOGIE À VÉRIFIER — RCP / protocole national]`.
 
 | Molécule | Posologie adulte usuelle | Remarques |
 |---|---|---|
@@ -356,12 +375,12 @@ Contrôler les symptômes, **prévenir les complications et les focalisations**,
 
 | Schéma | Composition | Durée | Commentaire |
 |---|---|---|---|
-| **Doxycycline + streptomycine** | Doxycycline 100 mg × 2/j **6 semaines** + streptomycine 1 g/j IM **2–3 semaines** | 6 semaines | **Schéma de référence** du consensus d'Ioannina ; rechutes moins fréquentes qu'avec doxycycline-rifampicine |
-| **Doxycycline + gentamicine** | Doxycycline 6 semaines + gentamicine 5 mg/kg/j **7 jours** | 6 semaines | **Alternative acceptable** (Ioannina), plus pratique que la streptomycine |
-| **Doxycycline + rifampicine** | Doxycycline 100 mg × 2/j + rifampicine 600–900 mg/j, **6 semaines** | 6 semaines | Schéma **OMS (1986)**, entièrement oral, très utilisé ; **taux de rechute un peu plus élevé** (interaction pharmacocinétique) ; alternative lorsque les aminosides ne sont pas possibles |
+| **Doxycycline + streptomycine** | Doxycycline 100 mg × 2/j **6 semaines** + streptomycine 1 g/j IM **2–3 semaines** | 6 semaines | L'un des deux **schémas optimaux** du consensus d'Ioannina ; **moins d'échecs et de rechutes** que doxycycline-rifampicine dans les méta-analyses [S5, S6] |
+| **Doxycycline + gentamicine** | Doxycycline 6 semaines + gentamicine 5 mg/kg/j **7 jours** | 6 semaines | **Alternative acceptable** à la streptomycine (Ioannina) ; efficacité au moins comparable à doxycycline-streptomycine [S5, S6] |
+| **Doxycycline + rifampicine** | Doxycycline 100 mg × 2/j + rifampicine 600–900 mg/j, **6 semaines** | 6 semaines | Schéma **OMS (1986)**, entièrement oral ; retenu aussi comme **schéma optimal** par le consensus d'Ioannina [S2] ; **taux d'échec/rechute plus élevé** que les schémas avec aminoside (interaction pharmacocinétique) [S5, S6] ; à éviter si une tuberculose n'est pas éliminée |
 | **Trithérapie** doxycycline + rifampicine + aminoside | — | 6 semaines | Discutée pour réduire les rechutes ; formes sévères/focalisées |
 
-La revue Cochrane de 2012 conclut que la **bithérapie doxycycline + aminoside** est associée à **moins de rechutes** que doxycycline + rifampicine [S5] `[À VÉRIFIER : formulation des conclusions]`.
+La revue Cochrane de 2012 conclut que **doxycycline + rifampicine est moins efficace** (échec thérapeutique, RR 1,91) que **doxycycline + streptomycine**, et que doxycycline + gentamicine pourrait réduire les échecs par rapport à doxycycline + streptomycine (faible niveau de certitude) [S5] ; la méta-analyse de Solís García del Pozo et Solera va dans le même sens (doxycycline + streptomycine supérieure à doxycycline + rifampicine ; pas de différence significative avec doxycycline + gentamicine) [S6].
 
 **b) Spondylite / spondylodiscite brucellienne** : traitement **prolongé d'au moins 12 semaines (3 mois)** ; schéma préféré : **doxycycline + streptomycine** (2–3 semaines d'aminoside), ou trithérapie avec rifampicine ; la durée est souvent prolongée selon l'évolution clinique et IRM [S2] `[À VÉRIFIER]`. Repos et immobilisation antalgique initiale ; **chirurgie** rarement nécessaire (abcès volumineux, instabilité, compression neurologique).
 
@@ -373,9 +392,9 @@ La revue Cochrane de 2012 conclut que la **bithérapie doxycycline + aminoside**
 
 **f) Orchi-épididymite, formes viscérales** : bithérapie de 6 semaines ; drainage des abcès volumineux.
 
-**g) Femme enceinte** : **tétracyclines et aminosides (streptomycine) contre-indiqués** ; **rifampicine** (600–900 mg/j pendant 6 semaines) **seule ou associée au cotrimoxazole** (en évitant le cotrimoxazole en fin de grossesse : risque d'ictère nucléaire ; supplémentation en acide folique) [S1] `[À VÉRIFIER]`.
+**g) Femme enceinte** : le traitement optimal **n'est pas établi** selon l'OMS [S9] ; **tétracyclines et aminosides (streptomycine) contre-indiqués** ; **rifampicine** (600–900 mg/j pendant 6 semaines) **seule ou associée au cotrimoxazole** (en évitant le cotrimoxazole en fin de grossesse : risque d'ictère nucléaire ; supplémentation en acide folique) [S1] `[À VÉRIFIER : chapitre 5.5 de S1]`.
 
-**h) Enfant de moins de 8 ans** : **cotrimoxazole** (triméthoprime 8–10 mg/kg/j + sulfaméthoxazole 40–50 mg/kg/j en 2 prises) **+ rifampicine** (15–20 mg/kg/j) pendant 6 semaines, ou cotrimoxazole + gentamicine (5 mg/kg/j, 5 à 7 jours) [S1, S2] `[POSOLOGIE À VÉRIFIER]`. Au-delà de 8 ans : schémas de l'adulte avec doses adaptées au poids.
+**h) Enfant de moins de 8 ans** (traitement optimal non établi selon l'OMS, options : cotrimoxazole + aminoside ou rifampicine [S9]) : **cotrimoxazole** (triméthoprime 8–10 mg/kg/j + sulfaméthoxazole 40–50 mg/kg/j en 2 prises) **+ rifampicine** (15–20 mg/kg/j) pendant 6 semaines, ou cotrimoxazole + gentamicine (5 mg/kg/j, 5 à 7 jours) [S1, S2] `[POSOLOGIE À VÉRIFIER]`. Au-delà de 8 ans : schémas de l'adulte avec doses adaptées au poids.
 
 **i) Rechute** : en règle générale, **reprise d'un schéma de référence** (les souches restent sensibles), en vérifiant l'observance et en recherchant un **foyer** (ostéo-articulaire, abcès, endocardite) [S2].
 
@@ -386,7 +405,7 @@ La revue Cochrane de 2012 conclut que la **bithérapie doxycycline + aminoside**
 - **Déclaration obligatoire** de tout cas confirmé [S8] `[À VÉRIFIER]`, déclenchant une **enquête épidémiologique** conjointe avec les **services vétérinaires** (origine du lait, troupeau, autres cas familiaux).
 - **Dépistage de l'entourage** exposé à la même source alimentaire (sérologie chez les sujets symptomatiques ou selon le protocole local) `[À VÉRIFIER]`.
 - **Disponibilité** de la streptomycine (également utilisée historiquement dans le programme antituberculeux) et des formes injectables à vérifier localement ; en pratique, les schémas **doxycycline-gentamicine** ou **doxycycline-rifampicine** sont souvent les plus accessibles `[À VÉRIFIER : protocole national ou recommandations de la Société algérienne d'infectiologie]`.
-- **Attention à la rifampicine** : son usage large hors tuberculose expose, en pays d'endémie tuberculeuse, à la sélection de **résistances de *M. tuberculosis*** si une tuberculose méconnue coexiste ; **éliminer une tuberculose** (notamment devant une spondylodiscite ou une fièvre prolongée avec signes respiratoires) avant de prescrire un schéma comportant de la rifampicine (raison supplémentaire de privilégier les schémas avec aminoside lorsqu'ils sont possibles) `[À VÉRIFIER : position des recommandations nationales]`.
+- **Attention à la rifampicine** : son usage large hors tuberculose expose, en pays d'endémie tuberculeuse, à la sélection de **résistances de *M. tuberculosis*** si une tuberculose méconnue coexiste ; **éliminer une tuberculose** (notamment devant une spondylodiscite ou une fièvre prolongée avec signes respiratoires) avant de prescrire un schéma comportant de la rifampicine (raison supplémentaire de privilégier les schémas avec aminoside lorsqu'ils sont possibles) ; le consensus d'Ioannina souligne ce risque de résistance mycobactérienne là où les deux maladies coexistent [S2] `[À VÉRIFIER : position des recommandations nationales]`.
 
 ---
 
@@ -497,7 +516,7 @@ Brucellose confirmée
 4. **Hémocultures** (prévenir le laboratoire : risque de contamination) et **myéloculture** = certitude ; **rose Bengale** (dépistage), **Wright** (titre significatif ou ascension), **Coombs** (anticorps incomplets).
 5. Sérologie : **réactions croisées** (*Yersinia* O:9), **phénomène de zone**, *B. canis* non détecté, **inutile pour juger la guérison**.
 6. Formes focalisées : **sacro-iliite**, **spondylodiscite lombaire** (Pedro Pons), **neurobrucellose**, **endocardite** (première cause de décès).
-7. Traitement : **jamais de monothérapie** ; **doxycycline 6 semaines + aminoside** (streptomycine 2–3 sem ou gentamicine 7 j) en référence ; doxycycline + rifampicine 6 semaines en alternative.
+7. Traitement : **jamais de monothérapie** ; **doxycycline 6 semaines + aminoside** (streptomycine 2–3 sem ou gentamicine 7 j), schéma le plus efficace dans les méta-analyses ; **doxycycline + rifampicine 6 semaines** (schéma oral OMS, également retenu par Ioannina) un peu moins efficace.
 8. **Spondylite ≥ 12 semaines** ; neurobrucellose et endocardite : plusieurs mois.
 9. **Grossesse** : rifampicine ± cotrimoxazole ; **enfant < 8 ans** : cotrimoxazole + rifampicine ; pas de tétracyclines.
 10. Rechutes surtout dans les **6 mois**, rarement par résistance → même schéma, chercher un foyer.
@@ -625,11 +644,11 @@ Concernant le traitement d'une brucellose aiguë non compliquée de l'adulte, qu
 
 **Réponse(s) exacte(s) : A, B, C**
 
-*Corrigé commenté.* Toujours une association prolongée (au moins 6 semaines). Les schémas avec aminoside exposent à moins de rechutes que doxycycline-rifampicine. Pas de monothérapie, pas de fluoroquinolone en première intention.
+*Corrigé commenté.* Toujours une association prolongée (au moins 6 semaines). Le consensus d'Ioannina retient doxycycline + streptomycine (2–3 semaines) ou doxycycline + rifampicine (6 semaines), la gentamicine pouvant remplacer la streptomycine ; les méta-analyses montrent moins d'échecs avec l'aminoside qu'avec doxycycline-rifampicine. Pas de monothérapie, pas de fluoroquinolone en première intention.
 
 - A — Vrai.
 - B — Vrai.
-- C — Vrai (schéma OMS 1986, rechutes un peu plus fréquentes).
+- C — Vrai (schéma OMS 1986, également retenu comme schéma optimal par le consensus d'Ioannina ; échecs et rechutes un peu plus fréquents qu'avec l'aminoside).
 - D — Faux : monothérapie et durée courte → rechutes.
 - E — Faux.
 
@@ -750,11 +769,11 @@ Quelles mesures contribuent à la prévention de la brucellose humaine ?
 
 ## 21. Divergences entre recommandations
 
-> Positions rapportées de mémoire documentaire, **à confronter aux textes** (références non vérifiées dans la session).
+> Positions confrontées lors de l'audit aux résumés du consensus d'Ioannina, des méta-analyses et de l'aide-mémoire OMS ; les éléments marqués `[À VÉRIFIER]` restent **à confronter aux textes intégraux**.
 
 | Thème | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
 |---|---|---|---|
-| **Schéma de première intention de la forme non compliquée** | **Doxycycline + rifampicine 6 semaines** (OMS/FAO, 1986), schéma oral très utilisé | **Doxycycline 6 semaines + streptomycine 2–3 semaines** préféré ; doxycycline + gentamicine 7 jours acceptable (consensus d'**Ioannina, 2007**) [S2] | Méta-analyses (Cochrane 2012 [S5], Solís García del Pozo 2012 [S6]) : moins de rechutes avec l'aminoside ; le schéma oral reste une alternative légitime (accessibilité, observance) |
+| **Schéma de première intention de la forme non compliquée** | **Doxycycline + rifampicine 6 semaines** (OMS/FAO, 1986 ; alternative principale de l'aide-mémoire OMS [S9]), schéma oral très utilisé | Consensus d'**Ioannina (2007)** [S2] : doxycycline 6 semaines + **streptomycine 2–3 semaines** **ou** + **rifampicine 6 semaines** = schémas optimaux ; gentamicine acceptable à la place de la streptomycine ; tout autre schéma = seconde ligne | Méta-analyses (Cochrane 2012 [S5], Solís García del Pozo 2012 [S6]) : moins d'échecs avec l'aminoside ; le schéma oral reste une alternative légitime (accessibilité, observance) |
 | **Document OMS 2006** [S1] | Reprend doxycycline-rifampicine et doxycycline-streptomycine comme options | — | Les deux schémas coexistent dans les pratiques |
 | **Durée de traitement des spondylites** | Au moins **12 semaines** (Ioannina) [S2] | Certains auteurs prolongent jusqu'à **6 mois** selon l'évolution | Adapter à la clinique et à l'IRM |
 | **Trithérapie d'emblée** | Réservée aux formes compliquées (endocardite, neurobrucellose, spondylite) | Proposée par certaines équipes dans toutes les formes pour réduire les rechutes | Données limitées |
@@ -766,7 +785,7 @@ Quelles mesures contribuent à la prévention de la brucellose humaine ?
 
 ## 22. Références
 
-Détail complet dans l'en-tête YAML. **Aucune de ces références n'a pu être vérifiée en ligne pendant la session** (`verifiee: false`).
+Détail complet dans l'en-tête YAML. **Audit AUD-04 (2026-11-19)** : existence de [S1–S7] confirmée par recherche web (DOI relevés) ; [S9] ajoutée ; [S8] non vérifiée.
 
 1. [S1] Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE; 2006.
 2. [S2] Ariza J, et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med 2007;4(12):e317.
@@ -776,5 +795,6 @@ Détail complet dans l'en-tête YAML. **Aucune de ces références n'a pu être 
 6. [S6] Solís García del Pozo J, Solera J. Meta-analysis of RCTs in human brucellosis. PLoS One 2012;7(2):e32090.
 7. [S7] Dean AS, et al. Clinical manifestations of human brucellosis. PLoS Negl Trop Dis 2012;6(12):e1929.
 8. [S8] Ministère de la Santé / INSP / services vétérinaires (Algérie) — textes et relevés à préciser.
+9. [S9] OMS. Brucellose — aide-mémoire (consulté le 19/11/2026).
 
-> **Points à auditer en priorité** : (1) **vérifier toutes les références** et confronter les schémas (doses, durées) au document OMS 2006 et au consensus d'Ioannina ; (2) rechercher un **protocole national algérien** de prise en charge de la brucellose et les **relevés épidémiologiques de l'INSP** (incidence, wilayas, saisonnalité) ; (3) vérifier le statut de maladie à déclaration obligatoire et de maladie professionnelle ; (4) préciser le programme vétérinaire national (vaccins, dépistage-abattage).
+> **Reste à faire après l'audit du 2026-11-19** : (1) confronter au texte intégral d'Ioannina et de l'OMS 2006 les durées des formes focalisées (spondylite, neurobrucellose, endocardite) et les schémas de l'enfant et de la femme enceinte ; (2) rechercher un **protocole national algérien** de prise en charge de la brucellose et les **relevés épidémiologiques de l'INSP** (incidence, wilayas, saisonnalité) ; (3) vérifier le statut de maladie à déclaration obligatoire et de maladie professionnelle ; (4) préciser le programme vétérinaire national (vaccins, dépistage-abattage).

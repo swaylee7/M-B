@@ -1,9 +1,35 @@
 {
   "id": "DEMS-03",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "missions_1_a_4_terminees_brouillon_a_auditer",
+  "derniere_execution": "2026-11-19T01:56:18+00:00",
+  "taches_terminees": [
+    "17_DEMS/00_TEXTES_OFFICIELS/nomenclature_dems.json + NOMENCLATURE_DEMS.md (75 entrées)",
+    "17_DEMS/03_EVALUATIONS/ORGANISATION_EVALUATION_DEMS.md",
+    "17_DEMS/01_PARCOURS_PAR_SPECIALITE/ (61 parcours)",
+    "17_DEMS/04_URGENCES_ET_CAT/LISTE_URGENCES_PAR_SPECIALITE.md (493 situations)",
+    "Addendum ETAT_DES_SOURCES_DEMS.md (corrections)"
+  ],
+  "taches_suivantes": [
+    "Obtenir l'arrêté 173/2012 consolidé, l'annexe de l'arrêté 1276/2024 et la note 802/2021 (hôte services.mesrs.dz à autoriser), puis mettre à jour la nomenclature",
+    "Obtenir les annexes-programmes et carnets du résident (DGEF / facultés) et remplacer la partie B des parcours",
+    "Faire relire les traductions arabes (arrêté 1137/2015) par un arabophone ; OCR arabe à installer",
+    "Régénérer les parcours après chaque lot de dossiers (python3 00_SYSTEME/scripts/dems/generer_parcours.py)",
+    "Audit (AUD-xx) des parcours et de la liste d'urgences ; rédiger les dossiers d'urgence manquants (389 situations sans dossier)"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "specialites_nomenclature": 75,
+    "par_filiere": {
+      "medicale": 32,
+      "fondamentale": 13,
+      "chirurgicale": 11,
+      "pharmaceutique": 14,
+      "medecine_dentaire": 5
+    },
+    "parcours_crees": 61,
+    "programmes_officiels_detailles_acquis": 0,
+    "arretes_de_programme_avec_duree": 16,
+    "urgences_listees": 493,
+    "urgences_reliees_a_un_dossier": 104
+  }
 }

@@ -1,0 +1,3425 @@
+{
+  "agent": "TRA-02",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-03000",
+      "fr": "pharmacologie",
+      "en": "pharmacology",
+      "ar": "علم الأدوية",
+      "ar_variantes": [],
+      "definition_fr": "Science des médicaments : origine, propriétés, mécanismes d'action, devenir dans l'organisme et usages.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03001",
+      "fr": "médicament",
+      "en": "medicinal product",
+      "ar": "الدواء",
+      "ar_variantes": [],
+      "definition_fr": "Substance ou composition présentée comme ayant des propriétés curatives ou préventives à l'égard des maladies.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03002",
+      "fr": "principe actif",
+      "en": "active ingredient",
+      "ar": "المادة الفعّالة",
+      "ar_variantes": [],
+      "definition_fr": "Substance d'un médicament responsable de son effet pharmacologique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03003",
+      "fr": "forme galénique",
+      "en": "dosage form",
+      "ar": "الشكل الصيدلاني",
+      "ar_variantes": [],
+      "definition_fr": "Présentation physique d'un médicament (comprimé, solution injectable, suppositoire…).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03004",
+      "fr": "dose",
+      "en": "dose",
+      "ar": "الجرعة",
+      "ar_variantes": [],
+      "definition_fr": "Quantité de médicament administrée en une prise.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03005",
+      "fr": "posologie",
+      "en": "dosage regimen",
+      "ar": "نظام الجرعات",
+      "ar_variantes": [],
+      "definition_fr": "Quantité de médicament par prise, nombre de prises et durée du traitement.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03006",
+      "fr": "pharmacocinétique",
+      "en": "pharmacokinetics",
+      "ar": "الحرائك الدوائية",
+      "ar_variantes": [],
+      "definition_fr": "Étude du devenir du médicament dans l'organisme : absorption, distribution, métabolisme, élimination.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03007",
+      "fr": "pharmacodynamie",
+      "en": "pharmacodynamics",
+      "ar": "الديناميكا الدوائية",
+      "ar_variantes": [],
+      "definition_fr": "Étude des effets du médicament sur l'organisme et de leurs mécanismes.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03008",
+      "fr": "biodisponibilité",
+      "en": "bioavailability",
+      "ar": "التوافر الحيوي",
+      "ar_variantes": [],
+      "definition_fr": "Fraction de la dose administrée atteignant la circulation générale sous forme inchangée, et vitesse de ce passage.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03009",
+      "fr": "volume de distribution",
+      "en": "volume of distribution",
+      "ar": "حجم التوزّع",
+      "ar_variantes": [],
+      "definition_fr": "Volume théorique dans lequel se répartirait le médicament à la concentration plasmatique mesurée.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03010",
+      "fr": "biotransformation",
+      "en": "biotransformation",
+      "ar": "التحوّل الحيوي",
+      "ar_variantes": [],
+      "definition_fr": "Modification enzymatique d'un médicament, principalement hépatique, facilitant son élimination.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03011",
+      "fr": "effet de premier passage hépatique",
+      "en": "first-pass effect",
+      "ar": "تأثير المرور الأول",
+      "ar_variantes": [],
+      "definition_fr": "Métabolisme hépatique d'un médicament absorbé par voie orale avant son arrivée dans la circulation générale.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03012",
+      "fr": "cytochrome P450",
+      "en": "cytochrome P450",
+      "ar": "السيتوكروم ب450",
+      "ar_variantes": [],
+      "definition_fr": "Famille d'enzymes hépatiques de biotransformation, siège de nombreuses interactions médicamenteuses.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03013",
+      "fr": "induction enzymatique",
+      "en": "enzyme induction",
+      "ar": "التحريض الإنزيمي",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de l'activité d'enzymes de biotransformation par un médicament, diminuant l'effet d'autres médicaments.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03014",
+      "fr": "inhibition enzymatique",
+      "en": "enzyme inhibition",
+      "ar": "التثبيط الإنزيمي",
+      "ar_variantes": [],
+      "definition_fr": "Diminution de l'activité d'enzymes de biotransformation, exposant au surdosage des médicaments associés.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03015",
+      "fr": "demi-vie d'élimination",
+      "en": "elimination half-life",
+      "ar": "عمر النصف للإطراح",
+      "ar_variantes": [],
+      "definition_fr": "Temps nécessaire pour que la concentration plasmatique d'un médicament diminue de moitié.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03016",
+      "fr": "élimination rénale",
+      "en": "renal excretion",
+      "ar": "الإطراح الكلوي",
+      "ar_variantes": [],
+      "definition_fr": "Excrétion d'un médicament ou de ses métabolites dans les urines.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03017",
+      "fr": "marge thérapeutique",
+      "en": "therapeutic window",
+      "ar": "النافذة العلاجية",
+      "ar_variantes": [
+        "الهامش العلاجي"
+      ],
+      "definition_fr": "Intervalle de concentrations entre l'effet thérapeutique et la toxicité.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03018",
+      "fr": "index thérapeutique",
+      "en": "therapeutic index",
+      "ar": "المنسب العلاجي",
+      "ar_variantes": [
+        "المؤشر العلاجي"
+      ],
+      "definition_fr": "Rapport entre dose toxique et dose efficace d'un médicament.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03019",
+      "fr": "agoniste",
+      "en": "agonist",
+      "ar": "الناهض",
+      "ar_variantes": [],
+      "definition_fr": "Ligand qui se fixe sur un récepteur et l'active.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03020",
+      "fr": "antagoniste",
+      "en": "antagonist",
+      "ar": "الضادّ",
+      "ar_variantes": [
+        "المناهض"
+      ],
+      "definition_fr": "Ligand qui se fixe sur un récepteur sans l'activer et bloque l'action de l'agoniste.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03021",
+      "fr": "agoniste partiel",
+      "en": "partial agonist",
+      "ar": "الناهض الجزئي",
+      "ar_variantes": [],
+      "definition_fr": "Ligand activant un récepteur avec une efficacité inférieure à celle d'un agoniste entier.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03022",
+      "fr": "affinité",
+      "en": "affinity",
+      "ar": "الأُلفة",
+      "ar_variantes": [],
+      "definition_fr": "Aptitude d'un ligand à se fixer sur son récepteur.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03023",
+      "fr": "relation dose-effet",
+      "en": "dose-response relationship",
+      "ar": "العلاقة بين الجرعة والاستجابة",
+      "ar_variantes": [],
+      "definition_fr": "Variation de l'intensité de l'effet pharmacologique en fonction de la dose.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03024",
+      "fr": "tolérance pharmacologique",
+      "en": "drug tolerance",
+      "ar": "التحمّل الدوائي",
+      "ar_variantes": [],
+      "definition_fr": "Diminution de l'effet d'un médicament lors d'administrations répétées.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03025",
+      "fr": "pharmacodépendance",
+      "en": "drug dependence",
+      "ar": "الاعتماد الدوائي",
+      "ar_variantes": [
+        "الإدمان"
+      ],
+      "definition_fr": "État psychique et parfois physique conduisant à la prise compulsive d'une substance.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03026",
+      "fr": "effet indésirable",
+      "en": "adverse drug reaction",
+      "ar": "التأثير الضائر",
+      "ar_variantes": [
+        "الأثر الجانبي"
+      ],
+      "definition_fr": "Réaction nocive et non voulue survenant aux doses habituelles d'un médicament.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03027",
+      "fr": "interaction médicamenteuse",
+      "en": "drug interaction",
+      "ar": "التآثر الدوائي",
+      "ar_variantes": [
+        "التداخل الدوائي"
+      ],
+      "definition_fr": "Modification de l'effet d'un médicament par l'administration d'un autre.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03028",
+      "fr": "contre-indication",
+      "en": "contraindication",
+      "ar": "مضادّ الاستطباب",
+      "ar_variantes": [
+        "موانع الاستعمال"
+      ],
+      "definition_fr": "Situation dans laquelle un traitement ne doit pas être utilisé.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03029",
+      "fr": "indication thérapeutique",
+      "en": "therapeutic indication",
+      "ar": "الاستطباب",
+      "ar_variantes": [
+        "دواعي الاستعمال"
+      ],
+      "definition_fr": "Situation clinique dans laquelle l'usage d'un médicament est justifié.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03030",
+      "fr": "pharmacovigilance",
+      "en": "pharmacovigilance",
+      "ar": "اليقظة الدوائية",
+      "ar_variantes": [
+        "التيقّظ الدوائي"
+      ],
+      "definition_fr": "Surveillance, évaluation et prévention des effets indésirables des médicaments.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR",
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03031",
+      "fr": "iatrogénie",
+      "en": "iatrogenesis",
+      "ar": "الاعتلال علاجي المنشأ",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des effets néfastes provoqués par un acte médical ou un médicament.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03032",
+      "fr": "placebo",
+      "en": "placebo",
+      "ar": "الغُفْل",
+      "ar_variantes": [
+        "الدواء الوهمي"
+      ],
+      "definition_fr": "Préparation dépourvue de principe actif utilisée comme comparateur.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03033",
+      "fr": "médicament générique",
+      "en": "generic drug",
+      "ar": "الدواء الجنيس",
+      "ar_variantes": [
+        "الدواء الجنيسي"
+      ],
+      "definition_fr": "Copie d'un médicament de référence ayant la même composition en principe actif et la même bioéquivalence.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03034",
+      "fr": "automédication",
+      "en": "self-medication",
+      "ar": "المداواة الذاتية",
+      "ar_variantes": [
+        "التطبيب الذاتي"
+      ],
+      "definition_fr": "Utilisation de médicaments sans prescription médicale.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03035",
+      "fr": "observance thérapeutique",
+      "en": "treatment adherence",
+      "ar": "الالتزام بالعلاج",
+      "ar_variantes": [
+        "الامتثال"
+      ],
+      "definition_fr": "Degré de concordance entre le comportement du patient et la prescription.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03036",
+      "fr": "voie orale",
+      "en": "oral route",
+      "ar": "الطريق الفموي",
+      "ar_variantes": [
+        "عن طريق الفم"
+      ],
+      "definition_fr": "Administration d'un médicament par la bouche.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03037",
+      "fr": "voie intraveineuse",
+      "en": "intravenous route",
+      "ar": "الطريق الوريدي",
+      "ar_variantes": [],
+      "definition_fr": "Administration d'un médicament directement dans une veine.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03038",
+      "fr": "voie intramusculaire",
+      "en": "intramuscular route",
+      "ar": "الطريق العضلي",
+      "ar_variantes": [],
+      "definition_fr": "Administration d'un médicament par injection dans un muscle.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03039",
+      "fr": "voie sous-cutanée",
+      "en": "subcutaneous route",
+      "ar": "الطريق تحت الجلد",
+      "ar_variantes": [],
+      "definition_fr": "Administration d'un médicament par injection dans l'hypoderme.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03040",
+      "fr": "voie sublinguale",
+      "en": "sublingual route",
+      "ar": "الطريق تحت اللسان",
+      "ar_variantes": [],
+      "definition_fr": "Administration d'un médicament absorbé par la muqueuse sous la langue, évitant le premier passage hépatique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03041",
+      "fr": "voie inhalée",
+      "en": "inhaled route",
+      "ar": "طريق الاستنشاق",
+      "ar_variantes": [],
+      "definition_fr": "Administration d'un médicament par les voies respiratoires.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03042",
+      "fr": "voie rectale",
+      "en": "rectal route",
+      "ar": "الطريق الشرجي",
+      "ar_variantes": [
+        "الطريق المستقيمي"
+      ],
+      "definition_fr": "Administration d'un médicament par le rectum.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03043",
+      "fr": "ordonnance",
+      "en": "prescription",
+      "ar": "الوصفة الطبية",
+      "ar_variantes": [],
+      "definition_fr": "Document écrit par le prescripteur détaillant les médicaments, posologies et durée.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03044",
+      "fr": "dénomination commune internationale",
+      "en": "international nonproprietary name",
+      "ar": "الاسم الدولي غير المسجَّل الملكية",
+      "ar_variantes": [
+        "الاسم العلمي للدواء"
+      ],
+      "definition_fr": "Nom générique d'une substance active attribué par l'OMS.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03045",
+      "fr": "autorisation de mise sur le marché",
+      "en": "marketing authorization",
+      "ar": "ترخيص التسويق",
+      "ar_variantes": [],
+      "definition_fr": "Autorisation administrative préalable à la commercialisation d'un médicament.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03046",
+      "fr": "essai clinique",
+      "en": "clinical trial",
+      "ar": "التجربة السريرية",
+      "ar_variantes": [],
+      "definition_fr": "Étude chez l'homme évaluant l'efficacité et la tolérance d'une intervention.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03047",
+      "fr": "médicaments essentiels",
+      "en": "essential medicines",
+      "ar": "الأدوية الأساسية",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments répondant aux besoins de santé prioritaires d'une population.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR",
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03048",
+      "fr": "antibiotique",
+      "en": "antibiotic",
+      "ar": "المضادّ الحيوي",
+      "ar_variantes": [],
+      "definition_fr": "Substance détruisant les bactéries ou inhibant leur croissance.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03049",
+      "fr": "bêta-lactamines",
+      "en": "beta-lactam antibiotics",
+      "ar": "البيتالاكتامات",
+      "ar_variantes": [
+        "مضادات بيتا لاكتام"
+      ],
+      "definition_fr": "Famille d'antibiotiques bactéricides inhibant la synthèse de la paroi bactérienne.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03050",
+      "fr": "pénicillines",
+      "en": "penicillins",
+      "ar": "البنسلينات",
+      "ar_variantes": [],
+      "definition_fr": "Bêta-lactamines dérivées de l'acide 6-aminopénicillanique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03051",
+      "fr": "céphalosporines",
+      "en": "cephalosporins",
+      "ar": "السيفالوسبورينات",
+      "ar_variantes": [],
+      "definition_fr": "Bêta-lactamines classées en générations selon leur spectre.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03052",
+      "fr": "carbapénèmes",
+      "en": "carbapenems",
+      "ar": "الكاربابينيمات",
+      "ar_variantes": [],
+      "definition_fr": "Bêta-lactamines à très large spectre réservées aux infections à bactéries multirésistantes.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03053",
+      "fr": "aminosides",
+      "en": "aminoglycosides",
+      "ar": "الأمينوغليكوزيدات",
+      "ar_variantes": [],
+      "definition_fr": "Antibiotiques bactéricides inhibant la synthèse protéique, néphro- et ototoxiques.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03054",
+      "fr": "macrolides",
+      "en": "macrolides",
+      "ar": "الماكروليدات",
+      "ar_variantes": [],
+      "definition_fr": "Antibiotiques inhibant la sous-unité 50S du ribosome bactérien.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03055",
+      "fr": "fluoroquinolones",
+      "en": "fluoroquinolones",
+      "ar": "الفلوروكينولونات",
+      "ar_variantes": [],
+      "definition_fr": "Antibiotiques bactéricides inhibant l'ADN gyrase bactérienne.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03056",
+      "fr": "glycopeptides",
+      "en": "glycopeptides",
+      "ar": "الغليكوببتيدات",
+      "ar_variantes": [],
+      "definition_fr": "Antibiotiques actifs sur les cocci à Gram positif, dont les staphylocoques résistants à la méticilline.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03057",
+      "fr": "tétracyclines",
+      "en": "tetracyclines",
+      "ar": "التتراسيكلينات",
+      "ar_variantes": [],
+      "definition_fr": "Antibiotiques bactériostatiques à large spectre, actifs sur les bactéries intracellulaires.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03058",
+      "fr": "sulfamides antibactériens",
+      "en": "sulfonamides",
+      "ar": "السلفوناميدات",
+      "ar_variantes": [
+        "السلفاميدات"
+      ],
+      "definition_fr": "Antibiotiques inhibant la synthèse de l'acide folique bactérien.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03059",
+      "fr": "nitro-imidazolés",
+      "en": "nitroimidazoles",
+      "ar": "النيتروإيميدازولات",
+      "ar_variantes": [],
+      "definition_fr": "Anti-infectieux actifs sur les bactéries anaérobies et certains protozoaires.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03060",
+      "fr": "antituberculeux",
+      "en": "antituberculosis drugs",
+      "ar": "الأدوية المضادة للسل",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments actifs sur Mycobacterium tuberculosis, utilisés en associations.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03061",
+      "fr": "résistance bactérienne",
+      "en": "antimicrobial resistance",
+      "ar": "مقاومة الجراثيم للمضادات الحيوية",
+      "ar_variantes": [],
+      "definition_fr": "Capacité d'une bactérie à survivre à un antibiotique normalement actif.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHAR",
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03062",
+      "fr": "bêta-lactamase",
+      "en": "beta-lactamase",
+      "ar": "البيتالاكتاماز",
+      "ar_variantes": [],
+      "definition_fr": "Enzyme bactérienne hydrolysant les bêta-lactamines.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHAR",
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03063",
+      "fr": "spectre antibactérien",
+      "en": "antibacterial spectrum",
+      "ar": "الطيف المضاد للجراثيم",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des espèces bactériennes sensibles à un antibiotique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03064",
+      "fr": "antiviral",
+      "en": "antiviral drug",
+      "ar": "المضادّ للفيروسات",
+      "ar_variantes": [],
+      "definition_fr": "Médicament inhibant la réplication d'un virus.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03065",
+      "fr": "antirétroviraux",
+      "en": "antiretroviral drugs",
+      "ar": "مضادات الفيروسات القهقرية",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments inhibant la réplication du VIH.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03066",
+      "fr": "antifongique",
+      "en": "antifungal drug",
+      "ar": "المضادّ للفطريات",
+      "ar_variantes": [],
+      "definition_fr": "Médicament actif contre les champignons.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03067",
+      "fr": "antiparasitaire",
+      "en": "antiparasitic drug",
+      "ar": "المضادّ للطفيليات",
+      "ar_variantes": [],
+      "definition_fr": "Médicament actif contre les parasites.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03068",
+      "fr": "antipaludique",
+      "en": "antimalarial drug",
+      "ar": "المضادّ للملاريا",
+      "ar_variantes": [],
+      "definition_fr": "Médicament actif contre les plasmodiums.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03069",
+      "fr": "anthelminthique",
+      "en": "anthelmintic",
+      "ar": "طارد الديدان",
+      "ar_variantes": [
+        "مضاد الديدان"
+      ],
+      "definition_fr": "Médicament actif contre les vers parasites.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03070",
+      "fr": "antiseptique",
+      "en": "antiseptic",
+      "ar": "المطهِّر",
+      "ar_variantes": [],
+      "definition_fr": "Substance détruisant ou inhibant les micro-organismes sur les tissus vivants.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03071",
+      "fr": "glucocorticoïdes",
+      "en": "glucocorticoids",
+      "ar": "القِشرانيات السكرية",
+      "ar_variantes": [
+        "الكورتيكوستيرويدات"
+      ],
+      "definition_fr": "Hormones stéroïdes et dérivés de synthèse à effets anti-inflammatoires et immunosuppresseurs.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03072",
+      "fr": "corticothérapie",
+      "en": "corticosteroid therapy",
+      "ar": "المعالجة بالقشرانيات",
+      "ar_variantes": [],
+      "definition_fr": "Traitement par glucocorticoïdes, nécessitant des mesures adjuvantes au long cours.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03073",
+      "fr": "anti-inflammatoires non stéroïdiens",
+      "en": "nonsteroidal anti-inflammatory drugs",
+      "ar": "مضادات الالتهاب غير الستيرويدية",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments inhibant les cyclo-oxygénases, antalgiques, antipyrétiques et anti-inflammatoires.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03074",
+      "fr": "antalgiques",
+      "en": "analgesics",
+      "ar": "المسكِّنات",
+      "ar_variantes": [
+        "مسكنات الألم"
+      ],
+      "definition_fr": "Médicaments diminuant ou supprimant la douleur, classés en paliers.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03075",
+      "fr": "antipyrétiques",
+      "en": "antipyretics",
+      "ar": "خافضات الحرارة",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments abaissant la fièvre.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03076",
+      "fr": "paracétamol",
+      "en": "paracetamol",
+      "ar": "الباراسيتامول",
+      "ar_variantes": [],
+      "definition_fr": "Antalgique et antipyrétique de palier 1, hépatotoxique en surdosage.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03077",
+      "fr": "aspirine",
+      "en": "aspirin",
+      "ar": "الأسبرين",
+      "ar_variantes": [],
+      "definition_fr": "Acide acétylsalicylique, antiagrégant plaquettaire à faible dose et anti-inflammatoire à forte dose.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03078",
+      "fr": "opioïdes",
+      "en": "opioids",
+      "ar": "الأفيونيات",
+      "ar_variantes": [],
+      "definition_fr": "Agonistes des récepteurs opioïdes, antalgiques puissants.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03079",
+      "fr": "morphine",
+      "en": "morphine",
+      "ar": "المورفين",
+      "ar_variantes": [],
+      "definition_fr": "Opioïde de référence de palier 3.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03080",
+      "fr": "naloxone",
+      "en": "naloxone",
+      "ar": "النالوكسون",
+      "ar_variantes": [],
+      "definition_fr": "Antagoniste des récepteurs opioïdes, antidote des surdosages en opioïdes.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03081",
+      "fr": "anesthésiques locaux",
+      "en": "local anesthetics",
+      "ar": "المخدِّرات الموضعية",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments bloquant réversiblement la conduction nerveuse au site d'application.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03082",
+      "fr": "anesthésiques généraux",
+      "en": "general anesthetics",
+      "ar": "المخدِّرات العامة",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments induisant une perte de conscience réversible.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03083",
+      "fr": "curares",
+      "en": "neuromuscular blocking agents",
+      "ar": "حاصرات الوصل العصبي العضلي",
+      "ar_variantes": [
+        "الكورارات"
+      ],
+      "definition_fr": "Médicaments bloquant la transmission neuromusculaire, utilisés pour la myorelaxation anesthésique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03084",
+      "fr": "benzodiazépines",
+      "en": "benzodiazepines",
+      "ar": "البنزوديازيبينات",
+      "ar_variantes": [],
+      "definition_fr": "Psychotropes anxiolytiques, hypnotiques, myorelaxants et anticonvulsivants agissant sur le récepteur GABA-A.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03085",
+      "fr": "hypnotiques",
+      "en": "hypnotics",
+      "ar": "المنوِّمات",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments induisant ou maintenant le sommeil.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03086",
+      "fr": "anxiolytiques",
+      "en": "anxiolytics",
+      "ar": "مزيلات القلق",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments diminuant l'anxiété.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03087",
+      "fr": "antidépresseurs",
+      "en": "antidepressants",
+      "ar": "مضادات الاكتئاب",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments traitant les épisodes dépressifs.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03088",
+      "fr": "inhibiteurs sélectifs de la recapture de la sérotonine",
+      "en": "selective serotonin reuptake inhibitors",
+      "ar": "مثبّطات استرداد السيروتونين الانتقائية",
+      "ar_variantes": [],
+      "definition_fr": "Antidépresseurs bloquant sélectivement la recapture présynaptique de la sérotonine.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03089",
+      "fr": "antipsychotiques",
+      "en": "antipsychotics",
+      "ar": "مضادات الذُّهان",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments des troubles psychotiques, appelés aussi neuroleptiques.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03090",
+      "fr": "thymorégulateurs",
+      "en": "mood stabilizers",
+      "ar": "مثبِّتات المزاج",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments prévenant les rechutes des troubles bipolaires.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03091",
+      "fr": "psychotropes",
+      "en": "psychotropic drugs",
+      "ar": "الأدوية النفسانية التأثير",
+      "ar_variantes": [
+        "المؤثرات العقلية"
+      ],
+      "definition_fr": "Substances agissant sur le psychisme.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03092",
+      "fr": "antiépileptiques",
+      "en": "antiepileptic drugs",
+      "ar": "مضادات الصرع",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments prévenant la survenue des crises épileptiques.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03093",
+      "fr": "antiparkinsoniens",
+      "en": "antiparkinsonian drugs",
+      "ar": "مضادات الباركنسونية",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments corrigeant le déficit dopaminergique de la maladie de Parkinson.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03094",
+      "fr": "lévodopa",
+      "en": "levodopa",
+      "ar": "الليفودوبا",
+      "ar_variantes": [],
+      "definition_fr": "Précurseur de la dopamine, traitement de référence de la maladie de Parkinson.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03095",
+      "fr": "anticholinestérasiques",
+      "en": "cholinesterase inhibitors",
+      "ar": "مثبّطات الكولينستيراز",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments augmentant l'acétylcholine synaptique (myasthénie, démences).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03096",
+      "fr": "sympathomimétiques",
+      "en": "sympathomimetics",
+      "ar": "محاكيات الودّي",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments reproduisant les effets de la stimulation sympathique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03097",
+      "fr": "parasympatholytiques",
+      "en": "anticholinergics",
+      "ar": "مضادات الفعل الكوليني",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments bloquant les récepteurs muscariniques, appelés aussi atropiniques.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03098",
+      "fr": "atropine",
+      "en": "atropine",
+      "ar": "الأتروبين",
+      "ar_variantes": [],
+      "definition_fr": "Antagoniste muscarinique utilisé dans les bradycardies et les intoxications aux organophosphorés.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03099",
+      "fr": "bêtabloquants",
+      "en": "beta blockers",
+      "ar": "حاصرات بيتا",
+      "ar_variantes": [],
+      "definition_fr": "Antagonistes des récepteurs bêta-adrénergiques (HTA, angor, insuffisance cardiaque, arythmies).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03100",
+      "fr": "inhibiteurs de l'enzyme de conversion",
+      "en": "angiotensin-converting enzyme inhibitors",
+      "ar": "مثبّطات الإنزيم المحوِّل للأنجيوتنسين",
+      "ar_variantes": [],
+      "definition_fr": "Antihypertenseurs bloquant la conversion de l'angiotensine I en angiotensine II.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03101",
+      "fr": "antagonistes des récepteurs de l'angiotensine II",
+      "en": "angiotensin II receptor blockers",
+      "ar": "حاصرات مستقبلات الأنجيوتنسين الثاني",
+      "ar_variantes": [],
+      "definition_fr": "Antihypertenseurs bloquant le récepteur AT1, appelés sartans.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03102",
+      "fr": "inhibiteurs calciques",
+      "en": "calcium channel blockers",
+      "ar": "حاصرات قنوات الكالسيوم",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments bloquant l'entrée de calcium dans les cellules musculaires lisses et cardiaques.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03103",
+      "fr": "diurétiques",
+      "en": "diuretics",
+      "ar": "المدِرّات",
+      "ar_variantes": [
+        "مدرات البول"
+      ],
+      "definition_fr": "Médicaments augmentant l'excrétion urinaire d'eau et de sodium.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03104",
+      "fr": "diurétiques de l'anse",
+      "en": "loop diuretics",
+      "ar": "مدرّات العروة",
+      "ar_variantes": [],
+      "definition_fr": "Diurétiques puissants agissant sur la branche ascendante de l'anse de Henlé.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03105",
+      "fr": "diurétiques thiazidiques",
+      "en": "thiazide diuretics",
+      "ar": "المدرّات الثيازيدية",
+      "ar_variantes": [],
+      "definition_fr": "Diurétiques agissant sur le tube contourné distal, utilisés dans l'hypertension.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03106",
+      "fr": "diurétiques épargneurs de potassium",
+      "en": "potassium-sparing diuretics",
+      "ar": "المدرّات الحافظة للبوتاسيوم",
+      "ar_variantes": [],
+      "definition_fr": "Diurétiques limitant la perte de potassium, exposant à l'hyperkaliémie.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03107",
+      "fr": "dérivés nitrés",
+      "en": "nitrates",
+      "ar": "النترات",
+      "ar_variantes": [],
+      "definition_fr": "Vasodilatateurs veineux et coronaires utilisés dans l'angor.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03108",
+      "fr": "digitaliques",
+      "en": "digitalis glycosides",
+      "ar": "الغليكوزيدات القلبية",
+      "ar_variantes": [
+        "الديجيتال"
+      ],
+      "definition_fr": "Médicaments inotropes positifs et ralentisseurs de la conduction auriculo-ventriculaire.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03109",
+      "fr": "antiarythmiques",
+      "en": "antiarrhythmic drugs",
+      "ar": "مضادات اضطراب النَّظْم",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments prévenant ou traitant les troubles du rythme cardiaque.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03110",
+      "fr": "anticoagulants",
+      "en": "anticoagulants",
+      "ar": "مضادات التخثّر",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments s'opposant à la coagulation sanguine.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03111",
+      "fr": "héparine",
+      "en": "heparin",
+      "ar": "الهيبارين",
+      "ar_variantes": [],
+      "definition_fr": "Anticoagulant injectable potentialisant l'antithrombine.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03112",
+      "fr": "héparines de bas poids moléculaire",
+      "en": "low-molecular-weight heparins",
+      "ar": "الهيبارينات منخفضة الوزن الجزيئي",
+      "ar_variantes": [],
+      "definition_fr": "Héparines fractionnées à action anti-Xa prédominante, administrées par voie sous-cutanée.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03113",
+      "fr": "antivitamines K",
+      "en": "vitamin K antagonists",
+      "ar": "مضادات فيتامين ك",
+      "ar_variantes": [],
+      "definition_fr": "Anticoagulants oraux inhibant la synthèse des facteurs vitamine K-dépendants, surveillés par l'INR.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03114",
+      "fr": "anticoagulants oraux directs",
+      "en": "direct oral anticoagulants",
+      "ar": "مضادات التخثّر الفموية المباشرة",
+      "ar_variantes": [],
+      "definition_fr": "Anticoagulants inhibant directement la thrombine ou le facteur Xa.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03115",
+      "fr": "antiagrégants plaquettaires",
+      "en": "antiplatelet agents",
+      "ar": "مضادات تكدّس الصفيحات",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments inhibant l'agrégation des plaquettes.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03116",
+      "fr": "thrombolytiques",
+      "en": "thrombolytics",
+      "ar": "حالّات الخثرة",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments activant la fibrinolyse pour dissoudre un thrombus.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03117",
+      "fr": "statines",
+      "en": "statins",
+      "ar": "الستاتينات",
+      "ar_variantes": [],
+      "definition_fr": "Hypolipémiants inhibant l'HMG-CoA réductase.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03118",
+      "fr": "hypolipémiants",
+      "en": "lipid-lowering drugs",
+      "ar": "خافضات الشحميات",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments abaissant les lipides sanguins.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03119",
+      "fr": "antidiabétiques oraux",
+      "en": "oral antidiabetic drugs",
+      "ar": "مضادات السكري الفموية",
+      "ar_variantes": [
+        "خافضات السكر الفموية"
+      ],
+      "definition_fr": "Médicaments du diabète de type 2 administrés par voie orale.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03120",
+      "fr": "metformine",
+      "en": "metformin",
+      "ar": "الميتفورمين",
+      "ar_variantes": [],
+      "definition_fr": "Biguanide, traitement de première intention du diabète de type 2.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03121",
+      "fr": "sulfamides hypoglycémiants",
+      "en": "sulfonylureas",
+      "ar": "السلفونيل يوريا",
+      "ar_variantes": [],
+      "definition_fr": "Antidiabétiques stimulant la sécrétion d'insuline, exposant à l'hypoglycémie.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03122",
+      "fr": "insulinothérapie",
+      "en": "insulin therapy",
+      "ar": "المعالجة بالإنسولين",
+      "ar_variantes": [],
+      "definition_fr": "Traitement par injections d'insuline.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03123",
+      "fr": "agonistes du récepteur du GLP-1",
+      "en": "GLP-1 receptor agonists",
+      "ar": "ناهضات مستقبلات الببتيد الشبيه بالغلوكاغون-1",
+      "ar_variantes": [],
+      "definition_fr": "Antidiabétiques injectables incrétinomimétiques favorisant la perte de poids.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03124",
+      "fr": "inhibiteurs du SGLT2",
+      "en": "SGLT2 inhibitors",
+      "ar": "مثبّطات ناقل الصوديوم والغلوكوز-2",
+      "ar_variantes": [],
+      "definition_fr": "Antidiabétiques glycosuriques à bénéfice cardio-rénal.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "DIAB",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03125",
+      "fr": "antithyroïdiens de synthèse",
+      "en": "antithyroid drugs",
+      "ar": "مضادات الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments inhibant la synthèse des hormones thyroïdiennes.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03126",
+      "fr": "lévothyroxine",
+      "en": "levothyroxine",
+      "ar": "الليفوثيروكسين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone thyroïdienne de synthèse, traitement substitutif de l'hypothyroïdie.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03127",
+      "fr": "inhibiteurs de la pompe à protons",
+      "en": "proton pump inhibitors",
+      "ar": "مثبّطات مضخة البروتون",
+      "ar_variantes": [],
+      "definition_fr": "Antisécrétoires gastriques inhibant l'H+/K+-ATPase des cellules pariétales.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03128",
+      "fr": "antihistaminiques H2",
+      "en": "H2-receptor antagonists",
+      "ar": "حاصرات مستقبلات الهيستامين من النمط الثاني",
+      "ar_variantes": [],
+      "definition_fr": "Antisécrétoires gastriques bloquant les récepteurs H2 de l'histamine.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03129",
+      "fr": "antiacides",
+      "en": "antacids",
+      "ar": "مضادّات الحموضة",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments neutralisant l'acidité gastrique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03130",
+      "fr": "laxatifs",
+      "en": "laxatives",
+      "ar": "المليِّنات",
+      "ar_variantes": [
+        "المسهلات"
+      ],
+      "definition_fr": "Médicaments facilitant l'exonération des selles.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03131",
+      "fr": "antidiarrhéiques",
+      "en": "antidiarrheal agents",
+      "ar": "مضادّات الإسهال",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments réduisant la fréquence et l'abondance des selles.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03132",
+      "fr": "antiémétiques",
+      "en": "antiemetics",
+      "ar": "مضادّات القيء",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments prévenant ou traitant les nausées et vomissements.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03133",
+      "fr": "antispasmodiques",
+      "en": "antispasmodics",
+      "ar": "مضادّات التشنّج",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments relâchant les muscles lisses viscéraux.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03134",
+      "fr": "antihistaminiques H1",
+      "en": "H1 antihistamines",
+      "ar": "مضادّات الهيستامين",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments bloquant les récepteurs H1, utilisés dans les allergies.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "IMPA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03135",
+      "fr": "bronchodilatateurs",
+      "en": "bronchodilators",
+      "ar": "موسِّعات القصبات",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments relâchant le muscle lisse bronchique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03136",
+      "fr": "bêta-2 mimétiques",
+      "en": "beta-2 agonists",
+      "ar": "ناهضات بيتا-2",
+      "ar_variantes": [],
+      "definition_fr": "Bronchodilatateurs stimulant les récepteurs bêta-2 adrénergiques, de courte ou longue durée d'action.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03137",
+      "fr": "corticoïdes inhalés",
+      "en": "inhaled corticosteroids",
+      "ar": "القشرانيات المستنشَقة",
+      "ar_variantes": [],
+      "definition_fr": "Anti-inflammatoires de fond de l'asthme administrés par inhalation.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03138",
+      "fr": "antitussifs",
+      "en": "antitussives",
+      "ar": "مضادّات السعال",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments diminuant la toux.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03139",
+      "fr": "mucolytiques",
+      "en": "mucolytics",
+      "ar": "حالّات المخاط",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments fluidifiant les sécrétions bronchiques.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03140",
+      "fr": "contraceptifs oraux",
+      "en": "oral contraceptives",
+      "ar": "موانع الحمل الفموية",
+      "ar_variantes": [
+        "حبوب منع الحمل"
+      ],
+      "definition_fr": "Médicaments hormonaux pris par voie orale pour prévenir la grossesse.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03141",
+      "fr": "dispositif intra-utérin",
+      "en": "intrauterine device",
+      "ar": "اللولب الرحمي",
+      "ar_variantes": [
+        "جهاز داخل الرحم"
+      ],
+      "definition_fr": "Contraceptif placé dans la cavité utérine, au cuivre ou au lévonorgestrel.",
+      "categorie": "traitement",
+      "specialites": [
+        "GYNE",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03142",
+      "fr": "progestatifs",
+      "en": "progestins",
+      "ar": "البروجستينات",
+      "ar_variantes": [],
+      "definition_fr": "Molécules de synthèse à activité progestéronique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03143",
+      "fr": "immunosuppresseurs",
+      "en": "immunosuppressants",
+      "ar": "مثبِّطات المناعة",
+      "ar_variantes": [
+        "الكابتات المناعية"
+      ],
+      "definition_fr": "Médicaments diminuant la réponse immunitaire (greffes, maladies auto-immunes).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "IMMU",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03144",
+      "fr": "biothérapies",
+      "en": "biological therapies",
+      "ar": "العلاجات البيولوجية",
+      "ar_variantes": [
+        "العلاجات الحيوية"
+      ],
+      "definition_fr": "Médicaments issus des biotechnologies ciblant une molécule de l'inflammation ou de l'immunité.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "RHUM",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03145",
+      "fr": "méthotrexate",
+      "en": "methotrexate",
+      "ar": "الميثوتريكسات",
+      "ar_variantes": [],
+      "definition_fr": "Antifolique utilisé comme anticancéreux et immunosuppresseur de fond.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "RHUM",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03146",
+      "fr": "chimiothérapie",
+      "en": "chemotherapy",
+      "ar": "المعالجة الكيميائية",
+      "ar_variantes": [
+        "العلاج الكيميائي"
+      ],
+      "definition_fr": "Traitement des cancers par des médicaments cytotoxiques.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03147",
+      "fr": "agents alkylants",
+      "en": "alkylating agents",
+      "ar": "العوامل المؤلكِلة",
+      "ar_variantes": [],
+      "definition_fr": "Cytotoxiques formant des liaisons covalentes avec l'ADN.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03148",
+      "fr": "antimétabolites",
+      "en": "antimetabolites",
+      "ar": "مضادّات الاستقلاب",
+      "ar_variantes": [],
+      "definition_fr": "Cytotoxiques analogues de métabolites inhibant la synthèse des acides nucléiques.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03149",
+      "fr": "hormonothérapie",
+      "en": "hormone therapy",
+      "ar": "المعالجة الهرمونية",
+      "ar_variantes": [],
+      "definition_fr": "Traitement modifiant l'environnement hormonal, notamment dans les cancers hormonodépendants.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "ONCO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03150",
+      "fr": "thérapie ciblée",
+      "en": "targeted therapy",
+      "ar": "العلاج المُوجَّه",
+      "ar_variantes": [
+        "العلاج المستهدف"
+      ],
+      "definition_fr": "Traitement anticancéreux dirigé contre une anomalie moléculaire spécifique de la tumeur.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03151",
+      "fr": "immunothérapie",
+      "en": "immunotherapy",
+      "ar": "المعالجة المناعية",
+      "ar_variantes": [
+        "العلاج المناعي"
+      ],
+      "definition_fr": "Traitement stimulant ou modulant le système immunitaire.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "ONCO",
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03152",
+      "fr": "antigoutteux",
+      "en": "antigout agents",
+      "ar": "مضادات النقرس",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments traitant l'accès de goutte ou abaissant l'uricémie.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03153",
+      "fr": "allopurinol",
+      "en": "allopurinol",
+      "ar": "الألوبيورينول",
+      "ar_variantes": [],
+      "definition_fr": "Inhibiteur de la xanthine oxydase, hypo-uricémiant de fond.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03154",
+      "fr": "colchicine",
+      "en": "colchicine",
+      "ar": "الكولشيسين",
+      "ar_variantes": [],
+      "definition_fr": "Anti-inflammatoire de l'accès goutteux et de la maladie périodique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "RHUM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03155",
+      "fr": "bisphosphonates",
+      "en": "bisphosphonates",
+      "ar": "ثنائيات الفوسفونات",
+      "ar_variantes": [
+        "البيسفوسفونات"
+      ],
+      "definition_fr": "Inhibiteurs de la résorption osseuse utilisés dans l'ostéoporose et les hypercalcémies.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "RHUM",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03156",
+      "fr": "supplémentation martiale",
+      "en": "iron supplementation",
+      "ar": "مكمّلات الحديد",
+      "ar_variantes": [],
+      "definition_fr": "Apport de fer pour corriger une carence martiale.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03157",
+      "fr": "cristalloïdes",
+      "en": "crystalloids",
+      "ar": "المحاليل البلّورانية",
+      "ar_variantes": [
+        "المحاليل البلورية"
+      ],
+      "definition_fr": "Solutés de remplissage contenant des électrolytes et/ou du glucose.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03158",
+      "fr": "colloïdes",
+      "en": "colloids",
+      "ar": "الغرويّات",
+      "ar_variantes": [],
+      "definition_fr": "Solutés de remplissage contenant des macromolécules.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03159",
+      "fr": "sérum salé isotonique",
+      "en": "normal saline",
+      "ar": "المحلول الملحي متساوي التوتر",
+      "ar_variantes": [
+        "المصل الفيزيولوجي"
+      ],
+      "definition_fr": "Solution de chlorure de sodium à 9 g/L.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03160",
+      "fr": "soluté glucosé",
+      "en": "dextrose solution",
+      "ar": "محلول الغلوكوز",
+      "ar_variantes": [
+        "المصل السكري"
+      ],
+      "definition_fr": "Solution de glucose administrée par voie veineuse.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03161",
+      "fr": "vasopresseurs",
+      "en": "vasopressors",
+      "ar": "رافعات الضغط",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments augmentant la pression artérielle par vasoconstriction (noradrénaline, adrénaline).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03162",
+      "fr": "dobutamine",
+      "en": "dobutamine",
+      "ar": "الدوبوتامين",
+      "ar_variantes": [],
+      "definition_fr": "Catécholamine inotrope positive utilisée dans le choc cardiogénique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "MINT_REA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03163",
+      "fr": "antidote",
+      "en": "antidote",
+      "ar": "التِّرياق",
+      "ar_variantes": [
+        "الدواء المضاد للسم"
+      ],
+      "definition_fr": "Substance neutralisant ou s'opposant aux effets d'un toxique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03164",
+      "fr": "N-acétylcystéine",
+      "en": "N-acetylcysteine",
+      "ar": "الأسيتيل سيستئين",
+      "ar_variantes": [],
+      "definition_fr": "Antidote de l'intoxication au paracétamol et mucolytique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03165",
+      "fr": "charbon activé",
+      "en": "activated charcoal",
+      "ar": "الفحم المنشَّط",
+      "ar_variantes": [],
+      "definition_fr": "Adsorbant digestif utilisé dans certaines intoxications aiguës.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03166",
+      "fr": "flumazénil",
+      "en": "flumazenil",
+      "ar": "الفلومازينيل",
+      "ar_variantes": [],
+      "definition_fr": "Antagoniste des benzodiazépines.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03167",
+      "fr": "sérum antivenimeux",
+      "en": "antivenom",
+      "ar": "المصل المضاد للسم",
+      "ar_variantes": [],
+      "definition_fr": "Immunoglobulines neutralisant les venins de serpent ou de scorpion.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03168",
+      "fr": "antibioprophylaxie",
+      "en": "antibiotic prophylaxis",
+      "ar": "الوقاية بالمضادات الحيوية",
+      "ar_variantes": [],
+      "definition_fr": "Administration d'antibiotiques pour prévenir une infection (chirurgie, contage).",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03169",
+      "fr": "antibiothérapie probabiliste",
+      "en": "empirical antibiotic therapy",
+      "ar": "المعالجة التجريبية بالمضادات الحيوية",
+      "ar_variantes": [],
+      "definition_fr": "Antibiothérapie débutée avant identification du germe, guidée par le contexte clinique.",
+      "categorie": "traitement",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03170",
+      "fr": "utérotoniques",
+      "en": "uterotonics",
+      "ar": "مقلِّصات الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments renforçant la contraction utérine (ocytocine, misoprostol).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03171",
+      "fr": "tocolytiques",
+      "en": "tocolytics",
+      "ar": "الأدوية الموقِفة للمخاض",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments inhibant les contractions utérines dans la menace d'accouchement prématuré.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03172",
+      "fr": "sulfate de magnésium",
+      "en": "magnesium sulfate",
+      "ar": "كبريتات المغنيزيوم",
+      "ar_variantes": [],
+      "definition_fr": "Traitement préventif et curatif de l'éclampsie et neuroprotecteur fœtal.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03173",
+      "fr": "antihypertenseurs",
+      "en": "antihypertensive drugs",
+      "ar": "خافضات ضغط الدم",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments abaissant la pression artérielle.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03174",
+      "fr": "vasodilatateurs",
+      "en": "vasodilators",
+      "ar": "موسِّعات الأوعية",
+      "ar_variantes": [],
+      "definition_fr": "Médicaments dilatant les vaisseaux sanguins.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03175",
+      "fr": "spironolactone",
+      "en": "spironolactone",
+      "ar": "السبيرونولاكتون",
+      "ar_variantes": [],
+      "definition_fr": "Antagoniste de l'aldostérone, diurétique épargneur de potassium.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03176",
+      "fr": "furosémide",
+      "en": "furosemide",
+      "ar": "الفوروسيميد",
+      "ar_variantes": [],
+      "definition_fr": "Diurétique de l'anse d'action rapide.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03177",
+      "fr": "isoniazide",
+      "en": "isoniazid",
+      "ar": "الإيزونيازيد",
+      "ar_variantes": [],
+      "definition_fr": "Antituberculeux majeur, hépatotoxique et neurotoxique (prévention par vitamine B6).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03178",
+      "fr": "rifampicine",
+      "en": "rifampicin",
+      "ar": "الريفامبيسين",
+      "ar_variantes": [],
+      "definition_fr": "Antituberculeux majeur, inducteur enzymatique colorant les urines en orange.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03179",
+      "fr": "pyrazinamide",
+      "en": "pyrazinamide",
+      "ar": "البيرازيناميد",
+      "ar_variantes": [],
+      "definition_fr": "Antituberculeux de la phase intensive, hépatotoxique et hyperuricémiant.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03180",
+      "fr": "éthambutol",
+      "en": "ethambutol",
+      "ar": "الإيثامبوتول",
+      "ar_variantes": [],
+      "definition_fr": "Antituberculeux exposant à la névrite optique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03181",
+      "fr": "amoxicilline",
+      "en": "amoxicillin",
+      "ar": "الأموكسيسيلين",
+      "ar_variantes": [],
+      "definition_fr": "Aminopénicilline orale d'usage courant.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03182",
+      "fr": "ceftriaxone",
+      "en": "ceftriaxone",
+      "ar": "السيفترياكسون",
+      "ar_variantes": [],
+      "definition_fr": "Céphalosporine de troisième génération injectable, de longue demi-vie.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03183",
+      "fr": "gentamicine",
+      "en": "gentamicin",
+      "ar": "الجنتاميسين",
+      "ar_variantes": [],
+      "definition_fr": "Aminoside nécessitant une surveillance rénale et auditive.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03184",
+      "fr": "vancomycine",
+      "en": "vancomycin",
+      "ar": "الفانكومايسين",
+      "ar_variantes": [],
+      "definition_fr": "Glycopeptide actif sur les staphylocoques résistants à la méticilline.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03185",
+      "fr": "métronidazole",
+      "en": "metronidazole",
+      "ar": "الميترونيدازول",
+      "ar_variantes": [],
+      "definition_fr": "Nitro-imidazolé actif sur les anaérobies, les amibes, les giardias et les trichomonas.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03186",
+      "fr": "cotrimoxazole",
+      "en": "co-trimoxazole",
+      "ar": "الكوتريموكسازول",
+      "ar_variantes": [],
+      "definition_fr": "Association sulfaméthoxazole-triméthoprime.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03187",
+      "fr": "ciprofloxacine",
+      "en": "ciprofloxacin",
+      "ar": "السيبروفلوكساسين",
+      "ar_variantes": [],
+      "definition_fr": "Fluoroquinolone de deuxième génération.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03188",
+      "fr": "doxycycline",
+      "en": "doxycycline",
+      "ar": "الدوكسيسيكلين",
+      "ar_variantes": [],
+      "definition_fr": "Tétracycline utilisée notamment dans la brucellose et les rickettsioses.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03189",
+      "fr": "dérivés de l'artémisinine",
+      "en": "artemisinin derivatives",
+      "ar": "مشتقات الأرتيميسينين",
+      "ar_variantes": [],
+      "definition_fr": "Antipaludiques d'action rapide utilisés en combinaisons thérapeutiques.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03190",
+      "fr": "chloroquine",
+      "en": "chloroquine",
+      "ar": "الكلوروكين",
+      "ar_variantes": [],
+      "definition_fr": "Amino-4-quinoléine antipaludique et antirhumatismal.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03191",
+      "fr": "quinine",
+      "en": "quinine",
+      "ar": "الكينين",
+      "ar_variantes": [],
+      "definition_fr": "Antipaludique alcaloïde du quinquina, utilisable dans le paludisme grave.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03192",
+      "fr": "albendazole",
+      "en": "albendazole",
+      "ar": "الألبيندازول",
+      "ar_variantes": [],
+      "definition_fr": "Anthelminthique benzimidazolé, utilisé aussi dans l'hydatidose.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03193",
+      "fr": "aciclovir",
+      "en": "aciclovir",
+      "ar": "الأسيكلوفير",
+      "ar_variantes": [],
+      "definition_fr": "Antiviral actif sur les virus herpès simplex et varicelle-zona.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03194",
+      "fr": "fluconazole",
+      "en": "fluconazole",
+      "ar": "الفلوكونازول",
+      "ar_variantes": [],
+      "definition_fr": "Antifongique azolé actif sur les candidoses et la cryptococcose.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03195",
+      "fr": "griséofulvine",
+      "en": "griseofulvin",
+      "ar": "الغريزيوفولفين",
+      "ar_variantes": [],
+      "definition_fr": "Antifongique oral utilisé dans les teignes.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03196",
+      "fr": "amphotéricine B",
+      "en": "amphotericin B",
+      "ar": "الأمفوتيريسين ب",
+      "ar_variantes": [],
+      "definition_fr": "Antifongique polyénique des mycoses profondes, néphrotoxique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03197",
+      "fr": "antimoniate de méglumine",
+      "en": "meglumine antimoniate",
+      "ar": "أنتيموانات الميغلومين",
+      "ar_variantes": [],
+      "definition_fr": "Dérivé stibié utilisé dans le traitement des leishmanioses.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03198",
+      "fr": "benzathine benzylpénicilline",
+      "en": "benzathine benzylpenicillin",
+      "ar": "البنزاثين بنزيل بنسلين",
+      "ar_variantes": [],
+      "definition_fr": "Pénicilline retard injectable (syphilis, prévention du rhumatisme articulaire aigu).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03199",
+      "fr": "prednisone",
+      "en": "prednisone",
+      "ar": "البريدنيزون",
+      "ar_variantes": [],
+      "definition_fr": "Glucocorticoïde oral de référence.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03200",
+      "fr": "hydrocortisone",
+      "en": "hydrocortisone",
+      "ar": "الهيدروكورتيزون",
+      "ar_variantes": [],
+      "definition_fr": "Glucocorticoïde utilisé en substitution surrénalienne et dans les urgences.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03201",
+      "fr": "salbutamol",
+      "en": "salbutamol",
+      "ar": "السالبوتامول",
+      "ar_variantes": [],
+      "definition_fr": "Bêta-2 mimétique de courte durée d'action.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03202",
+      "fr": "oméprazole",
+      "en": "omeprazole",
+      "ar": "الأوميبرازول",
+      "ar_variantes": [],
+      "definition_fr": "Inhibiteur de la pompe à protons.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03203",
+      "fr": "clopidogrel",
+      "en": "clopidogrel",
+      "ar": "الكلوبيدوغريل",
+      "ar_variantes": [],
+      "definition_fr": "Antiagrégant inhibiteur du récepteur P2Y12.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03204",
+      "fr": "énoxaparine",
+      "en": "enoxaparin",
+      "ar": "الإينوكسابارين",
+      "ar_variantes": [],
+      "definition_fr": "Héparine de bas poids moléculaire.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03205",
+      "fr": "acénocoumarol",
+      "en": "acenocoumarol",
+      "ar": "الأسينوكومارول",
+      "ar_variantes": [],
+      "definition_fr": "Antivitamine K à demi-vie courte.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03206",
+      "fr": "amlodipine",
+      "en": "amlodipine",
+      "ar": "الأملوديبين",
+      "ar_variantes": [],
+      "definition_fr": "Inhibiteur calcique dihydropyridinique antihypertenseur.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03207",
+      "fr": "énalapril",
+      "en": "enalapril",
+      "ar": "الإينالابريل",
+      "ar_variantes": [],
+      "definition_fr": "Inhibiteur de l'enzyme de conversion.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03208",
+      "fr": "propranolol",
+      "en": "propranolol",
+      "ar": "البروبرانولول",
+      "ar_variantes": [],
+      "definition_fr": "Bêtabloquant non cardiosélectif (HTA portale, migraine, hyperthyroïdie).",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03209",
+      "fr": "digoxine",
+      "en": "digoxin",
+      "ar": "الديجوكسين",
+      "ar_variantes": [],
+      "definition_fr": "Digitalique à marge thérapeutique étroite.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03210",
+      "fr": "amiodarone",
+      "en": "amiodarone",
+      "ar": "الأميودارون",
+      "ar_variantes": [],
+      "definition_fr": "Antiarythmique de classe III riche en iode.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03211",
+      "fr": "carbamazépine",
+      "en": "carbamazepine",
+      "ar": "الكاربامازيبين",
+      "ar_variantes": [],
+      "definition_fr": "Antiépileptique inducteur enzymatique, utilisé aussi dans la névralgie du trijumeau.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03212",
+      "fr": "valproate de sodium",
+      "en": "sodium valproate",
+      "ar": "فالبروات الصوديوم",
+      "ar_variantes": [],
+      "definition_fr": "Antiépileptique à large spectre, tératogène.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEUR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03213",
+      "fr": "phénobarbital",
+      "en": "phenobarbital",
+      "ar": "الفينوباربيتال",
+      "ar_variantes": [],
+      "definition_fr": "Barbiturique antiépileptique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEUR",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03214",
+      "fr": "diazépam",
+      "en": "diazepam",
+      "ar": "الديازيبام",
+      "ar_variantes": [],
+      "definition_fr": "Benzodiazépine à longue demi-vie utilisée dans les crises convulsives.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "NEUR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03215",
+      "fr": "halopéridol",
+      "en": "haloperidol",
+      "ar": "الهالوبيريدول",
+      "ar_variantes": [],
+      "definition_fr": "Antipsychotique de première génération.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03216",
+      "fr": "lithium",
+      "en": "lithium",
+      "ar": "الليثيوم",
+      "ar_variantes": [],
+      "definition_fr": "Thymorégulateur à marge thérapeutique étroite.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03217",
+      "fr": "tramadol",
+      "en": "tramadol",
+      "ar": "الترامادول",
+      "ar_variantes": [],
+      "definition_fr": "Antalgique de palier 2 agoniste opioïde faible.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03218",
+      "fr": "propofol",
+      "en": "propofol",
+      "ar": "البروبوفول",
+      "ar_variantes": [],
+      "definition_fr": "Hypnotique intraveineux d'induction et d'entretien anesthésique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03219",
+      "fr": "lidocaïne",
+      "en": "lidocaine",
+      "ar": "الليدوكائين",
+      "ar_variantes": [],
+      "definition_fr": "Anesthésique local et antiarythmique de classe Ib.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03220",
+      "fr": "sulfate ferreux",
+      "en": "ferrous sulfate",
+      "ar": "كبريتات الحديدوز",
+      "ar_variantes": [],
+      "definition_fr": "Sel de fer oral utilisé dans les carences martiales.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-03221",
+      "fr": "acide tranexamique",
+      "en": "tranexamic acid",
+      "ar": "حمض الترانيكساميك",
+      "ar_variantes": [],
+      "definition_fr": "Antifibrinolytique réduisant les saignements.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-03222",
+      "fr": "suivi thérapeutique pharmacologique",
+      "en": "therapeutic drug monitoring",
+      "ar": "رصد التركيز الدوائي العلاجي",
+      "ar_variantes": [],
+      "definition_fr": "Dosage sanguin d'un médicament pour adapter sa posologie.",
+      "categorie": "examen",
+      "specialites": [
+        "PHAR",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    }
+  ]
+}

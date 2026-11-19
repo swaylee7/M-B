@@ -6,11 +6,17 @@ sous_specialite: "Vaccinologie — santé publique de l'enfant"
 items_residanat: [RES-MED-070]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 6
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0002.md
 sources:
   - id: S1
     reference: "Ministère de la Santé, de la Population et de la Réforme hospitalière (Algérie). Arrêté du 19 Chaoual 1439 correspondant au 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018, p. 29-30. Document acquis DOC-00070 (texte lu)."
@@ -133,13 +139,13 @@ sources:
     url: ""
     verifiee: false
   - id: S16
-    reference: "Organisation mondiale de la Santé. BCG vaccines: WHO position paper — February 2018. Relevé épidémiologique hebdomadaire 2018;93(8):73-96."
+    reference: "Organisation mondiale de la Santé. BCG vaccines: WHO position paper — February 2018. Relevé épidémiologique hebdomadaire 2018;93(8):73-96. Remplace la note de synthèse de 2004 et les lignes directrices de 2007 (nourrissons exposés au VIH). Existence et position sur le VIH confirmées par recherche web (audit AUD-01, 19/11/2026)."
     organisme: OMS
     annee: 2018
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.who.int/publications/i/item/who-wer9308-73-96"
+    verifiee: true
   - id: S17
     reference: "Organisation mondiale de la Santé. Immunization in practice: a practical guide for health staff (mise à jour 2015) ; et WHO policy statement: multi-dose vial policy (2014)."
     organisme: OMS
@@ -172,6 +178,14 @@ sources:
     doi: ""
     url: "https://www.algerie360.com/revision-du-calendrier-vaccinal-au-journal-officiel-ces-vaccins-deviennent-obligatoires-en-algerie/"
     verifiee: true
+  - id: S21
+    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses. 2e éd. Genève : OMS ; 2013 (section 4.6.4 Anaphylaxie). ISBN 978 92 4 154837 3. Document acquis DOC-00063 (stockage local) — texte lu par l'audit."
+    organisme: OMS
+    annee: 2013
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [vaccination, immunologie vaccinale, PEV, programme élargi de vaccination, calendrier vaccinal Algérie, hexavalent, BCG, ROR, VPO, VPI, pneumocoque, HPV, contre-indications, MAPI, chaîne du froid]
 ---
 
@@ -180,6 +194,7 @@ mots_cles: [vaccination, immunologie vaccinale, PEV, programme élargi de vaccin
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies et schémas doivent être confrontés au **texte officiel du JORADP**, au RCP des vaccins et aux instructions du MSPRH avant toute application.
 > **Avertissement de vérification (19/11/2026, mise à jour)** : le calendrier vaccinal algérien présenté au §13.4 est désormais établi à partir des **textes officiels du JORADP acquis et lus** (DOC-00070 : arrêté du 3 juillet 2018 ; DOC-00071 : arrêté du 28 avril 2026 ; DOC-00076 : arrêté du 24 novembre 2014, remplacé ; DOC-00074 : loi n° 18-11 ; DOC-00072 : décret exécutif n° 22-250). Les informations de mise en œuvre (date d'application, forme hexavalente) proviennent de sources institutionnelles et de presse identifiées par recherche web. Les références internationales (OMS, CDC, Plotkin) n'ont pas pu être vérifiées (budget de recherche épuisé) : `verifiee: false`.
+> **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : les tableaux du §13.4 ont été **relus contre les trois arrêtés** (DOC-00070, DOC-00071, DOC-00076, extraction `pdftotext -layout`) et sont **conformes**. Position OMS 2018 sur le BCG vérifiée et intégrée (§10.3). Points restant ouverts : VPO de naissance (guide 2023 vs arrêtés), arrêté modificatif intermédiaire de 2018 (non retrouvé), modalités HPV. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0002.md`.
 
 **Items du programme couverts** : RES-MED-070 — « Vaccinations : Bases immunologiques - contre indications - programme élargi des vaccinations ».
 
@@ -411,7 +426,7 @@ Voir §5.1. Retenir la dichotomie opérationnelle : **vaccins vivants** (BCG, VP
 |---|---|
 | **Tous les vaccins** | **Réaction anaphylactique** à une dose antérieure du même vaccin ou à l'un de ses composants (y compris certains antibiotiques ou excipients) |
 | **Tous les vaccins vivants** (BCG, VPO, ROR, varicelle, rotavirus, fièvre jaune) | **Déficit immunitaire sévère** (congénital : déficit immunitaire combiné sévère, etc. ; acquis : chimiothérapie, corticothérapie à forte dose, biothérapies immunosuppressives, infection VIH avec immunodépression sévère) ; **grossesse** |
-| **BCG** | Déficit immunitaire congénital ou acquis, **infection par le VIH connue chez le nourrisson** (position OMS 2018 [S16]), antécédent familial de déficit immunitaire primitif non exploré (en particulier dans un contexte de **consanguinité**), dermatose étendue évolutive au site d'injection, traitement immunosuppresseur ; nouveau-né de mère traitée par certains immunosuppresseurs pendant la grossesse (biothérapies) **[À VÉRIFIER — RCP]** |
+| **BCG** | Déficit immunitaire congénital ou acquis, **infection par le VIH connue chez le nourrisson** (position OMS 2018 [S16] ; exception : enfant sous traitement antirétroviral, cliniquement bien et immunologiquement stable), antécédent familial de déficit immunitaire primitif non exploré (en particulier dans un contexte de **consanguinité**), dermatose étendue évolutive au site d'injection, traitement immunosuppresseur ; nouveau-né de mère traitée par certains immunosuppresseurs pendant la grossesse (biothérapies) **[À VÉRIFIER — RCP]** |
 | **Coqueluche (composante)** | **Encéphalopathie** d'étiologie inconnue survenue dans les 7 jours suivant une dose précédente ; trouble neurologique **évolutif non stabilisé** (épilepsie non contrôlée, encéphalopathie évolutive) — jusqu'à stabilisation |
 | **Rotavirus** (hors calendrier algérien, d'après les sources consultées) | Antécédent d'**invagination intestinale**, malformation digestive prédisposante, déficit immunitaire combiné sévère |
 | **VPO** | Déficit immunitaire de l'enfant **ou d'un membre de l'entourage** (risque de transmission du virus vaccinal) — utiliser le VPI seul |
@@ -481,7 +496,7 @@ La vaccination de l'enfant sain ne nécessite **aucun bilan préalable**. Les ex
 ### 10.3 Enfant né de mère infectée par le VIH / enfant infecté
 
 - Vaccins inactivés selon le calendrier.
-- **BCG** : la position OMS 2018 recommande de **ne pas administrer le BCG à un nourrisson dont l'infection par le VIH est connue** ; pour un nourrisson exposé non infecté (ou de statut inconnu, asymptomatique), la décision dépend de la prévalence de la tuberculose, de l'accès au diagnostic précoce et du traitement antirétroviral [S16] **[À VÉRIFIER]**.
+- **BCG** : la position OMS 2018 recommande de **ne pas administrer le BCG à un enfant dont l'infection par le VIH est connue** ; il peut toutefois être vacciné s'il reçoit un traitement antirétroviral et est cliniquement bien et immunologiquement stable (le nouveau-né infecté diffère le BCG jusqu'à l'instauration du traitement antirétroviral et la stabilité immunologique). Le nourrisson de **statut inconnu né de mère infectée** est **vacciné** s'il ne présente aucun signe clinique évocateur d'infection par le VIH, que la mère reçoive ou non un traitement antirétroviral [S16]. *(Seuils de CD4 de « stabilité » à confirmer sur le texte intégral de la note OMS.)*
 - **ROR** : autorisé si l'immunodépression n'est pas sévère (taux de CD4 selon l'âge).
 
 ### 10.4 Asplénie, drépanocytose
@@ -566,8 +581,10 @@ Une **MAPI** (*AEFI — adverse event following immunization*) est tout événem
    et/ou digestive.
 2. Appeler à l'aide ; position allongée (jambes surélevées), ou assise si détresse respiratoire.
 3. ADRÉNALINE INTRAMUSCULAIRE (face antérolatérale de la cuisse) : 0,01 mg/kg de la solution
-   à 1 mg/mL (soit 0,01 mL/kg), maximum 0,5 mg ; renouvelable toutes les 5 à 15 minutes
-   [POSOLOGIE À VÉRIFIER — protocole national / RCP].
+   à 1 mg/mL (soit 0,01 mL/kg), maximum 0,5 mg ; renouvelable toutes les 5 à 15 minutes.
+   L'OMS (Pocket book 2013) propose une dose fixe de 0,15 mL de solution à 1 mg/mL
+   (1:1000) IM chez le jeune enfant (0,3 mL chez l'enfant plus grand), renouvelable
+   toutes les 5 à 15 min [S21] ; se conformer au protocole national.
 4. Oxygène, voie veineuse, remplissage (NaCl 0,9 % 20 mL/kg) si hypotension.
 5. Traitements adjuvants (antihistaminique, corticoïde, bronchodilatateur) — jamais à la place
    de l'adrénaline.
@@ -635,7 +652,7 @@ Inscription sur le **carnet de santé** et le registre (vaccin, numéro de lot, 
 
 - La vaccination des nouveau-nés et des enfants selon le calendrier est **obligatoire** (décret n° 69-88 du 17 juin 1969, modifié, rendant obligatoires certaines vaccinations [S4]) et **gratuite** : la loi n° 18-11 du 2 juillet 2018 relative à la santé (JORADP n° 46 du 29 juillet 2018, DOC-00074) charge les services de santé habilités d'assurer gratuitement les vaccinations obligatoires (art. 40), renvoie le calendrier à la voie réglementaire, prévoit des campagnes en cas de risque épidémique (art. 41) et dispose que les nouveau-nés, dès leur naissance, et les enfants bénéficient gratuitement de ces vaccinations (art. 80) [S4].
 - Le calendrier **en vigueur** est fixé par l'**arrêté du 19 Chaoual 1439 correspondant au 3 juillet 2018** (JORADP n° 49 du **8 août 2018**, DOC-00070) [S1], qui abroge l'arrêté du 24 novembre 2014.
-- Il a été **complété** par l'**arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026** (JORADP n° 36 du **17 mai 2026**, DOC-00071) [S2]. Les visas de cet arrêté mentionnent l'arrêté de 2018 « modifié » : une modification intermédiaire (entre 2018 et 2026) n'a pas été identifiée dans cette session **[À VÉRIFIER — ACQ-01]**.
+- Il a été **complété** par l'**arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026** (JORADP n° 36 du **17 mai 2026**, DOC-00071) [S2]. Les visas de cet arrêté mentionnent l'arrêté de 2018 « modifié » : une modification intermédiaire (entre 2018 et 2026) n'a pas été identifiée dans cette session **[À VÉRIFIER — ACQ-01]** (une recherche ciblée de l'audit, le 19/11/2026, n'a retrouvé que l'arrêté complémentaire de 2026).
 - **Mise en œuvre** : bien que publié en 2018 (application annoncée pour la rentrée 2019 [S9]), le calendrier de 2018 n'est entré **effectivement** en application que le **15 octobre 2023**, sous la forme d'un **vaccin combiné hexavalent** administré à 2, 4 et 12 mois (communication de la direction de la prévention du ministère [S7]).
 
 #### Calendrier en vigueur — arrêté du 3 juillet 2018 complété par l'arrêté du 28 avril 2026 (tableau reformulé)
@@ -673,7 +690,7 @@ Pour interpréter les **carnets anciens** (enfants nés avant octobre 2023, date
 | Âge | Vaccins (arrêté de 2014) |
 |---|---|
 | Naissance | BCG, **VPO**, hépatite B |
-| 2 mois | Diphtérie-tétanos-coqueluche (**à germes entiers**, sans mention « acellulaire »), Hib, hépatite B (forme combinée **pentavalente**), VPO, pneumocoque |
+| 2 mois | Diphtérie, tétanos, coqueluche (sans la mention « acellulaire » ; vaccin à germes entiers en pratique d'après [S9]), Hib, hépatite B (administrés en pratique sous forme combinée **pentavalente**), VPO, pneumocoque |
 | **3 mois** | **VPI** (dose isolée) |
 | 4 mois | Comme à 2 mois |
 | 11 mois | ROR |
@@ -890,8 +907,9 @@ A. Antihistaminique IV — B. Adrénaline IM 0,15 mg (0,01 mg/kg) — C. Cortico
 13. [S13] OMS. WHO recommendations for routine immunization — summary tables ; notes de synthèse — non vérifiée en session.
 14. [S14] CDC/ACIP. General Best Practice Guidelines for Immunization — non vérifiée en session.
 15. [S15] Plotkin SA. *Clin Vaccine Immunol* 2010;17(7):1055-1065 — non vérifiée en session.
-16. [S16] OMS. BCG vaccines: WHO position paper, février 2018 — non vérifiée en session.
+16. [S16] OMS. BCG vaccines: WHO position paper, février 2018 (REH 2018;93(8):73-96) — **vérifiée** (recherche web, audit 19/11/2026).
 17. [S17] OMS. Immunization in practice (2015) ; multi-dose vial policy (2014) — non vérifiée en session.
 18. [S18] Tdmsanteinov. Vaccination en milieu scolaire 2023-2024 (DTCa-VPI) — **vérifiée** (existence de l'article).
 19. [S19] Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles à déclaration obligatoire, JORADP n° 47 du 11 juillet 2022 — **DOC-00072, texte lu**.
 20. [S20] Algérie360, article sur la révision 2026 du calendrier vaccinal — **vérifiée** (existence de l'article ; modalités de presse non officielles).
+21. [S21] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 (anaphylaxie) — **vérifiée** (DOC-00063, texte lu par l'audit).

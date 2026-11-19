@@ -6,11 +6,23 @@ sous_specialite: "Insuffisance cardiaque"
 items_residanat: [RES-MED-059]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 6
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0001.md
+    remarque: "Audit des posologies et contre-indications : contre-indication de l'ivabradine corrigée (FC < 70/min, erreur majeure) ; marqueurs levés (sacubitril/valsartan 24/26 mg, inotropes, fer IV, seuils de tolérance de la titration) ; 1 marqueur maintenu (bromocriptine)."
 sources:
   - id: S1
     reference: "McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2021;42(36):3599-3726."
@@ -38,7 +50,7 @@ sources:
     doi: "10.1093/eurheartj/ehag100"
     url: ""
     verifiee: true
-    remarque: "Existence, date et DOI confirmés par recherche web (session du 2026-11-19). Texte intégral NON consulté : les changements rapportés ici proviennent de communiqués ESC et de la presse médicale ; classes et niveaux de preuve à vérifier sur le texte original."
+    remarque: "Existence, date et DOI confirmés par recherche web (session du 2026-11-19). Texte intégral NON consulté : les changements rapportés ici proviennent de communiqués ESC et de la presse médicale ; classes et niveaux de preuve à vérifier sur le texte original. Audit AUD-01 (2026-11-19) : contenu recoupé par une seconde recherche web (communiqué ESC, TCTMD, HCPLive, AJMC, Cardiovascular Business, Epocrates) — deux phénotypes (< 50 % / ≥ 50 %), stades A–D, « IC décompensée », traitement fondamental, ARM en classe I quelle que soit la FEVG, agonistes GLP-1 en classe IIa (ICFEp + obésité) rapportés de façon concordante ; nouvelle gradation des niveaux de preuve (B1/B2) ; texte intégral toujours non consulté."
   - id: S4
     reference: "Bozkurt B, Coats AJS, Tsutsui H, et al. Universal definition and classification of heart failure: a report of the HFSA, HFA of the ESC and JHFS. Eur J Heart Fail. 2021;23(3):352-380."
     organisme: HFSA/HFA-ESC/JHFS
@@ -82,20 +94,30 @@ sources:
     url: ""
     verifiee: true
   - id: S9
-    reference: "Mebazaa A, et al. Safety, tolerability and efficacy of up-titration of guideline-directed medical therapies for acute heart failure (STRONG-HF). Lancet. 2022. [Volume, pages, DOI : À VÉRIFIER]"
+    reference: "Mebazaa A, Davison B, Chioncel O, et al. Safety, tolerability and efficacy of up-titration of guideline-directed medical therapies for acute heart failure (STRONG-HF): a multinational, open-label, randomised, trial. Lancet. 2022;400(10367):1938-1952."
     organisme: ""
     annee: 2022
     type: article
+    doi: "10.1016/S0140-6736(22)02076-1"
+    url: "https://pubmed.ncbi.nlm.nih.gov/36356631/"
+    verifiee: true
+    remarque: "Volume, pages, DOI et PMID confirmés par recherche web (audit AUD-01, 2026-11-19)."
+  - id: S10
+    reference: "Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS. Eur Heart J. 2024;45(36):3314-3414."
+    organisme: ESC
+    annee: 2024
+    type: recommandation
     doi: ""
     url: ""
     verifiee: false
+    remarque: "Ajoutée par l'audit AUD-01 pour le score CHA2DS2-VA ; métadonnées connues de l'auditeur mais non vérifiées par recherche web pendant la session (quota) — DOI présumé 10.1093/eurheartj/ehae176 à confirmer."
 mots_cles: [insuffisance cardiaque, FEVG, ICFEr, ICFEp, peptides natriurétiques, BNP, NT-proBNP, oedème aigu du poumon, choc cardiogénique, diurétiques, ARNI, iSGLT2, ARM, bêtabloquants, resynchronisation, défibrillateur]
 ---
 
 # Insuffisance cardiaque aiguë et chronique
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-059 — *Insuffisance cardiaque aiguë et chronique : physiopathologie, diagnostic, évolution, traitement.*
 
@@ -111,7 +133,7 @@ mots_cles: [insuffisance cardiaque, FEVG, ICFEr, ICFEp, peptides natriurétiques
 8. **Situer** les divergences entre recommandations européennes (2021, 2023, 2026) et nord-américaines (2022).
 9. **Adapter** la démarche au contexte algérien (place des valvulopathies rhumatismales, accès aux médicaments, organisation des soins).
 
-> **Encadré « actualité » — à lire en premier.** Les recommandations européennes de référence pour ce dossier sont celles de l'ESC 2021 [S1] et leur mise à jour ciblée de 2023 [S2]. Fin août 2026, l'ESC a publié de **nouvelles recommandations sur l'insuffisance cardiaque** [S3], qui remplacent ces deux textes. D'après les communiqués de l'ESC et la presse médicale (texte intégral non consulté pendant la rédaction), les principaux changements seraient : (1) **suppression de la catégorie « FEVG modérément réduite »** — deux phénotypes seulement, IC à FEVG réduite si FEVG < 50 % et IC à FEVG préservée si FEVG ≥ 50 % ; (2) adoption d'une **stadification A à D** ; (3) remplacement du terme « IC aiguë » par **« IC décompensée »** ; (4) remplacement de la notion de « traitement médical recommandé » par celle de **traitement médical fondamental** (« foundational ») et de traitement additionnel ; (5) **antagonistes des récepteurs minéralocorticoïdes (ARM) en classe I quelle que soit la FEVG** dans l'IC chronique symptomatique ; (6) première recommandation d'un **traitement à base d'agoniste du GLP-1** (sémaglutide ou tirzépatide) chez le patient obèse avec IC à FEVG préservée (classe et seuils exacts à vérifier). Ce dossier présente d'abord le cadre 2021/2023, encore largement enseigné et repris dans les sujets d'examen, puis signale systématiquement les modifications de 2026 (§ 21). **Pour l'examen, préciser toujours l'organisme et l'année de la recommandation invoquée.**
+> **Encadré « actualité » — à lire en premier.** Les recommandations européennes de référence pour ce dossier sont celles de l'ESC 2021 [S1] et leur mise à jour ciblée de 2023 [S2]. Fin août 2026, l'ESC a publié de **nouvelles recommandations sur l'insuffisance cardiaque** [S3], qui remplacent ces deux textes. D'après les communiqués de l'ESC et la presse médicale (texte intégral non consulté pendant la rédaction), les principaux changements seraient : (1) **suppression de la catégorie « FEVG modérément réduite »** — deux phénotypes seulement, IC à FEVG réduite si FEVG < 50 % et IC à FEVG préservée si FEVG ≥ 50 % ; (2) adoption d'une **stadification A à D** ; (3) remplacement du terme « IC aiguë » par **« IC décompensée »** ; (4) remplacement de la notion de « traitement médical recommandé » par celle de **traitement médical fondamental** (« foundational ») et de traitement additionnel ; (5) **antagonistes des récepteurs minéralocorticoïdes (ARM) en classe I quelle que soit la FEVG** dans l'IC chronique symptomatique ; (6) première recommandation d'un **traitement à base d'agoniste du GLP-1** (sémaglutide ou tirzépatide) chez le patient obèse avec IC à FEVG préservée (classe IIa rapportée, IMC ≥ 30 kg/m² ; seuil de FEVG rapporté différemment selon les sources : ≥ 45 % comme dans les essais, ou ≥ 50 %) ; (7) **nouvelle gradation des niveaux de preuve** (B1/B2), qui rend les niveaux 2021 et 2026 non directement comparables. Ces points sont rapportés de façon concordante par plusieurs sources secondaires (recoupement par recherche web lors de l'audit du 2026-11-19), mais **le texte intégral reste à consulter** pour les libellés, classes et niveaux exacts. Ce dossier présente d'abord le cadre 2021/2023, encore largement enseigné et repris dans les sujets d'examen, puis signale systématiquement les modifications de 2026 (§ 21). **Pour l'examen, préciser toujours l'organisme et l'année de la recommandation invoquée.**
 
 ---
 
@@ -555,7 +577,7 @@ L'IC évolue classiquement **par poussées** entrecoupées de périodes de stabi
 
 | Complication | Commentaire |
 |---|---|
-| Fibrillation atriale | Cause et conséquence ; aggrave les symptômes ; impose une anticoagulation selon le score CHA2DS2-VASc (ou nouvelles grilles) |
+| Fibrillation atriale | Cause et conséquence ; aggrave les symptômes ; anticoagulation selon le score **CHA2DS2-VA** (ESC 2024 sur la FA : le sexe féminin n'est plus compté ; l'IC compte 1 point ; anticoagulation recommandée si score ≥ 2, à envisager si score = 1) [S10] |
 | Arythmies ventriculaires, mort subite | Justifient le DAI dans certaines indications |
 | Thrombose intracardiaque, embolies | Thrombus apical (anévrisme post-infarctus), OG en FA |
 | Syndrome cardio-rénal | Aggravation de la fonction rénale en cours de décongestion : une hausse modérée de créatinine pendant une décongestion efficace n'est pas forcément délétère |
@@ -624,7 +646,7 @@ L'IC évolue classiquement **par poussées** entrecoupées de périodes de stabi
 | | Digoxine | 62,5–250 µg × 1/j | Selon digoxinémie et fonction rénale |
 | | Hydralazine / dinitrate d'isosorbide | 37,5 mg / 20 mg × 3/j | 75 mg / 40 mg × 3/j |
 
-Pour le sacubitril/valsartan, une dose initiale plus faible (24/26 mg × 2/j) est utilisée chez les patients fragiles, hypotendus, insuffisants rénaux sévères ou naïfs d'IEC/ARA II `[POSOLOGIE À VÉRIFIER — RCP]`. Un **délai de 36 heures** est obligatoire entre la dernière prise d'IEC et la première prise de sacubitril/valsartan (risque d'angio-œdème).
+Pour le sacubitril/valsartan, une dose initiale plus faible (**24/26 mg × 2/j**, titration plus lente) est prévue par le RCP européen (Entresto) chez les patients avec PAS 100–110 mmHg, naïfs d'IEC/ARA II ou sous faibles doses, en insuffisance rénale (à envisager si DFGe 30–60, recommandée si DFGe < 30 mL/min/1,73 m²), en insuffisance hépatique modérée et chez le sujet ≥ 75 ans ; ne pas l'initier si PAS < 100 mmHg (vérification de l'audit AUD-02, RCP). Un **délai de 36 heures** est obligatoire entre la dernière prise d'IEC et la première prise de sacubitril/valsartan (risque d'angio-œdème).
 
 **Diurétiques (ESC 2021 [S1])** — à la **dose minimale efficace** pour maintenir l'euvolémie :
 
@@ -646,7 +668,7 @@ Pour le sacubitril/valsartan, une dose initiale plus faible (24/26 mg × 2/j) es
 | ARM | Blocage de l'aldostérone (anti-fibrosant, épargne potassique) | Kaliémie > 5,0 mmol/L, DFGe < 30 mL/min/1,73 m² (selon RCP) | Hyperkaliémie, insuffisance rénale ; **gynécomastie** sous spironolactone (préférer l'éplérénone) |
 | iSGLT2 | Natriurèse/glycosurie, effets métaboliques et rénaux protecteurs | Diabète de type 1 (risque d'acidocétose), DFGe très bas (seuils selon RCP) | Infections génitales mycotiques, déplétion volémique, acidocétose euglycémique (jeûne, chirurgie : suspendre) |
 | Diurétiques de l'anse | Natriurèse puissante → décongestion | Hypovolémie, anurie | Hypokaliémie, hyponatrémie, hypomagnésémie, insuffisance rénale, hyperuricémie, ototoxicité à fortes doses IV |
-| Ivabradine | Inhibition du courant If sinusal → ↓ FC | Rythme non sinusal, FC < 60/min avant traitement, hypotension | Bradycardie, phosphènes |
+| Ivabradine | Inhibition du courant If sinusal → ↓ FC | Rythme non sinusal, **FC de repos < 70/min avant traitement** (RCP), IC aiguë/instable, hypotension sévère, association au vérapamil/diltiazem ou aux inhibiteurs puissants du CYP3A4 | Bradycardie, phosphènes, fibrillation atriale |
 | Digoxine | Inotrope positif modeste, ralentit la conduction AV | BAV, hypokaliémie (toxicité), insuffisance rénale sévère sans surveillance | Intoxication digitalique (troubles digestifs, visuels, arythmies) |
 
 #### 13.2.4 Dispositifs et interventions (ESC 2021 [S1])
@@ -667,7 +689,7 @@ Pour le sacubitril/valsartan, une dose initiale plus faible (24/26 mg × 2/j) es
 | **Ventilation non invasive** (CPAP ou VNI à deux niveaux de pression) | Détresse respiratoire (FR > 25/min, SpO2 < 90 %) | À débuter précocement ; prudence si hypotension ; intubation si échec, épuisement, troubles de conscience |
 | **Diurétiques de l'anse IV** | Toute congestion | Furosémide : **20–40 mg IV** chez le patient naïf ; chez le patient déjà traité, **1 à 2 fois la dose orale quotidienne**, en bolus ou perfusion [S1] |
 | **Vasodilatateurs (dérivés nitrés)** | PAS > 110 mmHg, surtout OAP hypertensif | Trinitrine IV : début **10–20 µg/min**, augmentation jusqu'à **200 µg/min** ; dinitrate d'isosorbide IV : début 1 mg/h, jusqu'à 10 mg/h [S1] ; contre-indiqués si hypotension, rétrécissement aortique serré (prudence), infarctus du VD |
-| **Inotropes** | Hypotension (PAS < 90 mmHg) **avec** hypoperfusion | Dobutamine 2–20 µg/kg/min ; lévosimendan (débit 0,1 µg/kg/min, ajustable 0,05–0,2) ; milrinone 0,375–0,75 µg/kg/min [S1] `[POSOLOGIES À VÉRIFIER — RCP / protocole local]` |
+| **Inotropes** | Hypotension (PAS < 90 mmHg) **avec** hypoperfusion | Dobutamine 2–20 µg/kg/min ; lévosimendan 0,1 µg/kg/min, ajustable 0,05–0,2 (bolus de 12 µg/kg en 10 min facultatif, non recommandé si hypotension) ; milrinone 0,375–0,75 µg/kg/min (bolus de 25–75 µg/kg en 10–20 min facultatif) — conformes au tableau des inotropes de l'ESC 2021 [S1] (vérification AUD-02) ; adapter au protocole local, milrinone réduite en insuffisance rénale |
 | **Vasopresseurs** | Hypotension persistante, choc | **Noradrénaline 0,2–1 µg/kg/min** [S1] — préférée à la dopamine |
 | **Assistance circulatoire mécanique de courte durée** | Choc réfractaire, en centre expert | ECMO veino-artérielle, Impella ; ballon de contre-pulsion intra-aortique **non recommandé en routine** dans le choc post-infarctus |
 | **Prophylaxie thrombo-embolique** | Tout patient hospitalisé non anticoagulé | HBPM à dose préventive (en l'absence de contre-indication) |
@@ -691,7 +713,7 @@ Les **diurétiques** sont ajoutés en cas de congestion pour soulager les sympt�
 - démarrer les quatre classes **rapidement**, souvent simultanément ou en quelques semaines, à faible dose, plutôt que d'attendre la dose maximale d'une classe avant d'introduire la suivante ;
 - **titrer toutes les 1 à 2 semaines** en fonction de la tolérance (PA, FC, kaliémie, créatinine) ;
 - contrôler **kaliémie et créatinine 1 à 2 semaines après l'introduction ou l'augmentation** d'un IEC/ARA II/ARNI ou d'un ARM ;
-- repères habituels de tolérance [S1] : une **augmentation de la créatinine jusqu'à 50 %** au-dessus de la valeur de base (ou jusqu'à 266 µmol/L) et une **kaliémie jusqu'à 5,5 mmol/L** sont acceptables ; au-delà, réduire les doses ; arrêter si kaliémie > 6,0 mmol/L ou dégradation rénale importante `[seuils à confronter au document ESC/HFA de pratique clinique]` ;
+- repères habituels de tolérance [S1] : une **augmentation de la créatinine jusqu'à 50 %** au-dessus de la valeur de base (ou jusqu'à 266 µmol/L) et une **kaliémie jusqu'à 5,5 mmol/L** sont acceptables ; au-delà, réduire les doses ; arrêter si kaliémie > 6,0 mmol/L ou dégradation rénale importante (créatinine > 310 µmol/L ou doublement) — repères du guide pratique de titration de l'ESC [S1] ;
 - une hypotension asymptomatique n'est pas une raison d'arrêter ; en cas d'hypotension symptomatique, commencer par réduire les diurétiques (si pas de congestion) et les médicaments sans bénéfice pronostique (dérivés nitrés, inhibiteurs calciques) ;
 - **ne pas arrêter** le traitement en cas d'amélioration de la FEVG (rechute fréquente).
 
@@ -703,7 +725,7 @@ Les **diurétiques** sont ajoutés en cas de congestion pour soulager les sympt�
 | Aggravation récente malgré traitement optimal | **Vériciguat** (stimulateur de la guanylate cyclase soluble) |
 | Patients d'ascendance africaine sub-saharienne (selon les essais) en NYHA III–IV, ou intolérance aux IEC/ARA II | **Hydralazine + dinitrate d'isosorbide** |
 | Fibrillation atriale rapide ou symptômes persistants | **Digoxine** (fréquence) |
-| Carence martiale symptomatique (FEVG < 45 % en 2021, élargi en 2023) | **Fer IV** : carboxymaltose ferrique ou dérisomaltose ferrique `[dose selon poids et hémoglobine — POSOLOGIE À VÉRIFIER — RCP]` |
+| Carence martiale symptomatique (ESC 2021 : FEVG < 45 %, classe IIa ; ESC 2023 : **classe I** dans l'ICFEr/ICFEmr pour les symptômes et la qualité de vie, IIa pour réduire les hospitalisations [S1, S2]) | **Fer IV** : **carboxymaltose ferrique** — dose cumulée selon le RCP (Hb < 10 g/dL : 1 500 mg si 35–< 70 kg, 2 000 mg si ≥ 70 kg ; Hb 10–< 14 g/dL : 1 000 mg / 1 500 mg ; Hb ≥ 14 g/dL : 500 mg), au maximum 1 000 mg (20 mg/kg) par administration et par semaine, surveiller la phosphatémie ; ou **dérisomaltose ferrique** jusqu'à 20 mg/kg par perfusion (RCP) — vérification AUD-02 |
 | FEVG ≤ 35 % malgré ≥ 3 mois de traitement | **DAI** ± **CRT** selon le QRS |
 | Insuffisance mitrale secondaire sévère | Réparation bord-à-bord sélectionnée |
 | Stade avancé | Assistance, greffe, soins palliatifs |
@@ -720,7 +742,7 @@ Les **diurétiques** sont ajoutés en cas de congestion pour soulager les sympt�
 - **Dépistage et traitement des étiologies et comorbidités** (HTA, FA, coronaropathie, valvulopathie, amylose, obésité, apnées du sommeil, diabète, carence martiale) — classe I [S1].
 - **Diurétiques** pour la congestion — classe I [S1].
 - **iSGLT2** (dapagliflozine ou empagliflozine) — **classe I** depuis 2023 pour réduire les hospitalisations pour IC et la mortalité cardiovasculaire [S2].
-- **Évolution 2026** [S3] : d'après les communiqués, ARM et iSGLT2 constituent le **traitement fondamental de l'ICFEp** ; un agoniste du GLP-1 (sémaglutide) ou un double agoniste GIP/GLP-1 (tirzépatide) est recommandé pour la première fois chez le patient obèse `[classe, IMC et seuil de FEVG exacts : À VÉRIFIER]`.
+- **Évolution 2026** [S3] : d'après les communiqués et la presse médicale (sources concordantes), ARM et iSGLT2 constituent le **traitement fondamental de l'ICFEp** ; un agoniste du GLP-1 (sémaglutide) ou un double agoniste GIP/GLP-1 (tirzépatide) est recommandé pour la première fois chez le patient obèse (classe IIa rapportée ; IMC ≥ 30 kg/m² ; seuil de FEVG rapporté à ≥ 45 % ou ≥ 50 % selon les sources). La molécule d'ARM privilégiée (stéroïdien ou finérénone) n'est pas précisée de façon concordante `[À VÉRIFIER sur le texte intégral]`.
 
 #### 13.3.4 Stratégie dans l'IC aiguë
 
@@ -1177,8 +1199,8 @@ Concernant la surveillance d'un traitement par antagoniste des récepteurs miné
 | **Vocabulaire de l'aigu** | ESC 2021 : « IC aiguë » | ESC 2026 : « IC décompensée » | Pour l'examen, les deux termes doivent être connus |
 | **iSGLT2 dans l'ICFEp/ICFEmr** | ESC 2023 [S2] : **classe I** | AHA/ACC/HFSA 2022 [S5] : **classe 2a** | Différence liée au calendrier de publication des essais (2022 vs 2023) |
 | **ARNI en première intention** | ESC 2021 [S1] : ARNI recommandé en **remplacement** d'un IEC (classe I) et pouvant être envisagé d'emblée | AHA/ACC/HFSA 2022 [S5] : ARNI **privilégié en première intention** chez les patients NYHA II–III | En pratique, l'accès et le coût influencent le choix (contexte algérien `[À VÉRIFIER]`) |
-| **ARM dans l'ICFEp** | ESC 2021 [S1] : pas de recommandation pronostique spécifique ; AHA 2022 [S5] : classe 2b (spironolactone, patients sélectionnés) | **ESC 2026** [S3] : ARM en **classe I quelle que soit la FEVG** (selon les communiqués) | Changement majeur, à vérifier sur le texte intégral (molécule, critères de sélection) |
-| **Agonistes GLP-1 dans l'ICFEp de l'obèse** | Non recommandés spécifiquement en 2021/2023 | ESC 2026 [S3] : première recommandation (classe rapportée IIa ; seuils de FEVG et d'IMC divergents selon les sources secondaires) | **[À VÉRIFIER]** — ne pas citer de classe sans vérification |
+| **ARM dans l'ICFEp** | ESC 2021 [S1] : pas de recommandation pronostique spécifique ; AHA 2022 [S5] : classe 2b (spironolactone, patients sélectionnés) | **ESC 2026** [S3] : ARM en **classe I quelle que soit la FEVG** dans l'IC chronique symptomatique (rapporté de façon concordante par plusieurs sources secondaires) | Changement majeur ; molécule (spironolactone, éplérénone, finérénone) et critères de sélection à vérifier sur le texte intégral |
+| **Agonistes GLP-1 dans l'ICFEp de l'obèse** | Non recommandés spécifiquement en 2021/2023 | ESC 2026 [S3] : première recommandation (classe IIa rapportée de façon concordante ; IMC ≥ 30 kg/m² ; seuil de FEVG ≥ 45 % ou ≥ 50 % selon les sources) | Citer « classe IIa selon les sources secondaires » tant que le texte intégral n'a pas été consulté `[À VÉRIFIER]` |
 | **Nomenclature du traitement** | « Traitement médical recommandé par les guidelines » (GDMT) | ESC 2026 : « traitement médical fondamental » + « traitement additionnel » + « traitement interventionnel » | Changement de taxonomie, pas forcément de fond |
 
 **Règle d'examen** : en l'absence de précision dans l'énoncé, répondre selon le référentiel le plus récent **et** le mentionner (« selon l'ESC 2026… ; dans le cadre ESC 2021… »). Dans un cas de résidanat, signaler la divergence apporte souvent des points.
@@ -1195,6 +1217,9 @@ Concernant la surveillance d'un traitement par antagoniste des récepteurs miné
 6. **[S6]** Ministère de la Santé et de la Population (Algérie). Programme national de lutte contre le rhumatisme articulaire aigu (révisé en 2000). — *Existence vérifiée (document hébergé par l'OMS).*
 7. **[S7]** Moussouni A, Sidi-Yakhlef A, Hamdaoui H, Aouar A, Belkhatir D. Prevalence and risk factors of prehypertension and hypertension in Algeria. *BMC Public Health.* 2022;22(1):1571. doi:10.1186/s12889-022-13942-y. — *Vérifiée.*
 8. **[S8]** Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. *Eur Heart J.* 2023;44(38):3720-3826. doi:10.1093/eurheartj/ehad191. — *Vérifiée.*
-9. **[S9]** Mebazaa A, et al. Essai STRONG-HF. *Lancet.* 2022. — *Non vérifiée pendant la session (volume, pages, DOI à compléter).*
+9. **[S9]** Mebazaa A, Davison B, Chioncel O, et al. Safety, tolerability and efficacy of up-titration of guideline-directed medical therapies for acute heart failure (STRONG-HF). *Lancet.* 2022;400(10367):1938-1952. doi:10.1016/S0140-6736(22)02076-1. — *Vérifiée (audit AUD-01, recherche web, 2026-11-19).*
+10. **[S10]** Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation. *Eur Heart J.* 2024;45(36):3314-3414. — *Ajoutée par l'audit (score CHA2DS2-VA) ; non vérifiée par recherche web pendant la session.*
+
+> **Note d'audit (AUD-01/AUD-02, 2026-11-19)** : corrections et éléments restant à vérifier détaillés dans `00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0001.md`. Le contenu ESC 2026 a été recoupé par plusieurs sources secondaires concordantes, mais le texte intégral n'a pas été consulté.
 
 > **Note de l'agent** : WebFetch était indisponible dans l'environnement ; les vérifications ont été faites par recherche web (métadonnées bibliographiques). Aucune recommandation n'a été lue en texte intégral : les classes de recommandation citées de mémoire pour 2021/2023 et toutes les informations 2026 doivent être auditées sur les textes originaux.

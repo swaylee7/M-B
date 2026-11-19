@@ -57,7 +57,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Raisonnement clinique et observation structurée ; prescription sécurisée ; communication avec le patient et sa famille ; hygiène et sécurité des soins ; **tenue du carnet du résident**.
 
 **Gestes et savoir-faire**
-- Observer / aider : Épreuves dynamiques hormonales (stimulation, freinage) : prescription et interprétation ; Échographie thyroïdienne et cytoponction (aide puis réalisation) ; Lecture d'une mesure continue du glucose ; Interprétation d'un fond d'œil / rétinographie (orientation)
+- Observer / aider : Épreuves dynamiques hormonales (stimulation, freinage) : prescription et interprétation ; Échographie thyroïdienne et cytoponction ; Lecture d'une mesure continue du glucose ; Interprétation d'un fond d'œil / rétinographie (orientation)
 - Réaliser sous supervision : Séance d'éducation thérapeutique
 - Autonomie (contrôle a posteriori) : Mise en route et adaptation d'une insulinothérapie ; Examen du pied diabétique (monofilament, IPS)
 
@@ -89,7 +89,7 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Hiérarchisation et décision dans les situations courantes ; présentation en staff ; information et consentement éclairé ; certificats et responsabilité médico-légale de base.
 
 **Gestes et savoir-faire**
-- Réaliser sous supervision : Épreuves dynamiques hormonales (stimulation, freinage) : prescription et interprétation ; Échographie thyroïdienne et cytoponction (aide puis réalisation) ; Lecture d'une mesure continue du glucose ; Interprétation d'un fond d'œil / rétinographie (orientation)
+- Réaliser sous supervision : Épreuves dynamiques hormonales (stimulation, freinage) : prescription et interprétation ; Échographie thyroïdienne et cytoponction ; Lecture d'une mesure continue du glucose ; Interprétation d'un fond d'œil / rétinographie (orientation)
 - Autonomie (contrôle a posteriori) : Séance d'éducation thérapeutique
 
 **Urgences et conduites à tenir prioritaires**
@@ -98,7 +98,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - IWGDF — pied diabétique
@@ -130,7 +129,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Endocrine Society — insuffisance surrénale, Cushing, hypophyse, hyperaldostéronisme
 - ESC/EAS — dyslipidémies ; SFD (France) — thèmes de diabétologie
@@ -151,14 +149,13 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 - Autonomie décisionnelle encadrée ; consultation spécialisée ; annonce d'une mauvaise nouvelle ; gestion des risques et des événements indésirables.
 
 **Gestes et savoir-faire**
-- Autonomie (contrôle a posteriori) : Échographie thyroïdienne et cytoponction (aide puis réalisation)
+- Autonomie (contrôle a posteriori) : Échographie thyroïdienne et cytoponction
 
 **Urgences et conduites à tenir prioritaires**
 - Réviser les urgences des années précédentes sous forme de cas cliniques chronométrés ; **toutes** les urgences de la liste en vue de l'examen final.
 
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
@@ -197,7 +194,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 36 (codes ENDO, DIAB) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 6 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (34)
+**Recommandations cataloguées** : 33 en vigueur (+ 1 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0228 — 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk (ESC / EAS, 2020-01 ; statut : partiellement_mise_a_jour)
 - REC-0229 — 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias (ESC / EAS, 2025-11 ; statut : actuelle)
 - REC-0313 — KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease-Mineral and Bone Disorder (CKD-MBD) (KDIGO, 2017-06 ; statut : actuelle)
@@ -206,7 +203,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0320 — 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis (ATA (American Thyroid Association), 2016-10 ; statut : actuelle)
 - REC-0321 — 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism (ETA (European Thyroid Association), 2018-07 ; statut : actuelle)
 - REC-0322 — Guidelines for the treatment of hypothyroidism: prepared by the american thyroid association task force on thyroid hormone replacement (ATA, 2014-12 ; statut : actuelle)
-- REC-0323 — 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer (ATA, 2016-01 ; statut : remplacee)
 - REC-0324 — 2025 American Thyroid Association Management Guidelines for Adult Patients with Differentiated Thyroid Cancer (ATA, 2025-08 ; statut : actuelle)
 - REC-0325 — European Thyroid Association Guidelines for Ultrasound Malignancy Risk Stratification of Thyroid Nodules in Adults: The EU-TIRADS (ETA, 2017-08 ; statut : actuelle)
 - REC-0326 — Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline (Endocrine Society, 2016-01 ; statut : actuelle)

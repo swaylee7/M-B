@@ -1,9 +1,24 @@
 {
   "id": "AUD-01",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "actif",
+  "derniere_execution": "2026-11-19T01:56:59+00:00",
+  "taches_terminees": [
+    "audit DOS-INFE-0001 (lot DOS-02)",
+    "audit DOS-INFE-0002 (lot DOS-02)",
+    "audit DOS-PNEU-0001 (lot DOS-02)",
+    "audit DOS-PNEU-0002 (lot DOS-02)",
+    "audit DOS-PNEU-0003 (lot DOS-02)"
+  ],
+  "taches_suivantes": [
+    "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
+    "DOS-INFE-0002 : Durées formes focalisées, schémas enfant/grossesse (Ioannina, OMS 2006) ; doses cotrimoxazole/ceftriaxone ; textes algériens",
+    "DOS-PNEU-0001 : Lire l'instruction n°07/2024 et l'instruction ITL (sapp.dz) ; tranches de poids nationales et pédiatriques ; S14",
+    "DOS-PNEU-0002 : Doses céfotaxime/spiramycine/lévofloxacine, amoxicilline pédiatrique ; S10–S12",
+    "DOS-PNEU-0003 : MART 6–11 ans, doses d'exacerbation pédiatriques (GINA 2025) ; S6, S7"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "dossiers_audites": 5,
+    "rapports": "00_SYSTEME/agents/AUD-02/rapports/"
+  }
 }

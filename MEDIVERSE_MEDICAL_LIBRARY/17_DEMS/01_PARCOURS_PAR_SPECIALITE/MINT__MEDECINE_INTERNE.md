@@ -99,7 +99,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - PNDS (HAS / filières maladies rares, France) des maladies auto-immunes et auto-inflammatoires
 - Surviving Sepsis Campaign — prise en charge du sepsis
@@ -132,7 +131,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - ESC — embolie pulmonaire et maladie thromboembolique veineuse
 - Recommandations sur la prévention des infections sous immunosuppresseurs et biothérapies (vaccinations, prophylaxie de la pneumocystose)
@@ -162,7 +160,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Approfondir les recommandations des années précédentes et leurs mises à jour.
 
@@ -190,7 +187,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en **autonomie** (contrôle a posteriori) et organisation de la continuité des soins.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
 
@@ -204,7 +200,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 | Situation | Palier | Dossier existant dans la bibliothèque |
 |---|---|---|
-| Sepsis et choc septique | A | — (à rédiger) |
+| Sepsis et choc septique | A | [DOS-MINT_REA-0001](../../13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md) |
 | Hyperkaliémie menaçante | A | [DOS-NEPH-0002](../../07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0002__DYSKALIEMIES.md) |
 | Hyponatrémie sévère symptomatique | A | — (à rédiger) |
 | Hypercalcémie maligne | A | — (à rédiger) |
@@ -229,7 +225,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 0 (codes MINT) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 0 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (10)
+**Recommandations cataloguées** : 10 en vigueur — références datées des thèmes cités en partie C
 - REC-0255 — Diagnosis and Detection of Sarcoidosis. An Official American Thoracic Society Clinical Practice Guideline (ATS, 2020-04 ; statut : actuelle)
 - REC-0256 — ERS clinical practice guidelines on treatment of sarcoidosis (ERS, 2021-12 ; statut : actuelle)
 - REC-0461 — EULAR recommendations for the management of systemic lupus erythematosus: 2023 update (EULAR, 2024-01 ; statut : actuelle)

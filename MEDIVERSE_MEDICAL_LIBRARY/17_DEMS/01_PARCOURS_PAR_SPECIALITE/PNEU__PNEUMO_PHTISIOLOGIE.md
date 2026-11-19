@@ -100,7 +100,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - GOLD — BPCO (mise à jour annuelle)
 - ERS/ATS — pneumopathies interstitielles, hypertension pulmonaire (avec l'ESC)
@@ -133,7 +132,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - ESMO / NCCN — cancer bronchique
 
@@ -161,7 +159,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
 
@@ -185,7 +182,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 | Tuberculose grave (miliaire, méningite tuberculeuse) | B | [DOS-PNEU-0001](../../07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0001__TUBERCULOSE_PULMONAIRE_PROGRAMME_NATIONAL.md) |
 | Épanchement pleural massif ou empyème | B | — (à rédiger) |
 | Compression médiastinale / syndrome cave supérieur | C | — (à rédiger) |
-| Rupture de kyste hydatique pulmonaire | C | [DOS-CDIG-0001](../../08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0001__KYSTE_HYDATIQUE_DU_FOIE.md) |
+| Rupture de kyste hydatique pulmonaire | C | — (à rédiger) |
 | Toxidermie grave aux antituberculeux | C | — (à rédiger) |
 
 ## D. Ressources de la bibliothèque (état au 2026-11-19)
@@ -193,22 +190,19 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - Dossier de la spécialité `PNEU` (Pneumologie) : [`07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/`](../../07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/)
 
 **Dossiers pédagogiques** (3)
-- [DOS-PNEU-0001 — Tuberculose pulmonaire : bacille de la tuberculose, critères diagnostiques, programme national algérien de lutte contre la tuberculose](../../07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0001__TUBERCULOSE_PULMONAIRE_PROGRAMME_NATIONAL.md) — statut : brouillon_a_auditer
-- [DOS-PNEU-0002 — Pneumonies : diagnostic et traitement](../../07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0002__PNEUMONIES_DIAGNOSTIC_TRAITEMENT.md) — statut : brouillon_a_auditer
-- [DOS-PNEU-0003 — Asthme de l'adulte et de l'enfant : diagnostic et principes de traitement](../../07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0003__ASTHME_ADULTE_ENFANT.md) — statut : brouillon_a_auditer
+- [DOS-PNEU-0001 — Tuberculose pulmonaire : bacille de la tuberculose, critères diagnostiques, programme national algérien de lutte contre la tuberculose](../../07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0001__TUBERCULOSE_PULMONAIRE_PROGRAMME_NATIONAL.md) — statut : audite_corrections_requises
+- [DOS-PNEU-0002 — Pneumonies : diagnostic et traitement](../../07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0002__PNEUMONIES_DIAGNOSTIC_TRAITEMENT.md) — statut : audite_corrections_requises
+- [DOS-PNEU-0003 — Asthme de l'adulte et de l'enfant : diagnostic et principes de traitement](../../07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0003__ASTHME_ADULTE_ENFANT.md) — statut : audite_corrections_requises
 
 **QCM originaux** : 37 (codes PNEU) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 6 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (34)
+**Recommandations cataloguées** : 31 en vigueur (+ 3 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0220 — 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS) (ESC (avec ERS), 2020-01 ; statut : actuelle)
 - REC-0221 — 2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults (AHA / ACC / ACCP / ACEP / CHEST / SCAI / SHM / SIR / SVM / SVN, 2026-02 ; statut : actuelle)
 - REC-0222 — 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension (ESC / ERS, 2022-10 ; statut : actuelle)
 - REC-0240 — 2026 Global Initiative for Asthma (GINA) strategy report: executive summary and key changes (GINA (Global Initiative for Asthma), 2026-11 ; statut : actuelle)
-- REC-0241 — Global Initiative for Asthma Strategy 2021: executive summary and rationale for key changes (GINA, 2021-12 ; statut : remplacee)
-- REC-0242 — Global Initiative for Chronic Obstructive Lung Disease 2023 Report: GOLD Executive Summary (GOLD (Global Initiative for Chronic Obstructive Lung Disease), 2023-04 ; statut : remplacee)
 - REC-0243 — Management of severe asthma: a European Respiratory Society/American Thoracic Society guideline (ERS / ATS, 2020-01 ; statut : actuelle)
 - REC-0244 — International ERS/ATS guidelines on definition, evaluation and treatment of severe asthma (ERS / ATS, 2013-12 ; statut : partiellement_mise_a_jour)
-- REC-0245 — Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America (ATS / IDSA, 2019-10 ; statut : remplacee)
 - REC-0246 — Diagnosis and Management of Community-acquired Pneumonia: An Official American Thoracic Society Clinical Practice Guideline (ATS (American Thoracic Society), 2026-01 ; statut : actuelle)
 - REC-0247 — ERS/ESICM/ESCMID/ALAT guidelines for the management of severe community-acquired pneumonia (ERS / ESICM / ESCMID / ALAT, 2023-04 ; statut : actuelle)
 - REC-0248 — International ERS/ESICM/ESCMID/ALAT guidelines for the management of hospital-acquired pneumonia and ventilator-associated pneumonia: Guidelines for the management of hospital-acquired pneumonia (HAP)/ventilator-associated pneumonia (VAP) of the European Respiratory Society (ERS), European Society of Intensive Care Medicine (ESICM), European Society of Clinical Microbiology and Infectious Diseases (ESCMID) and Asociación Latinoamericana del Tórax (ALAT) (ERS / ESICM / ESCMID / ALAT, 2017-09 ; statut : actuelle)

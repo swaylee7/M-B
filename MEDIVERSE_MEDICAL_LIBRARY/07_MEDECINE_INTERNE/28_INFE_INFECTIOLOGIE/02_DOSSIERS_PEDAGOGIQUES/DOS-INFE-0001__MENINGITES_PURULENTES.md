@@ -6,68 +6,81 @@ sous_specialite: "Infections du système nerveux central"
 items_residanat: [RES-MED-005]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 / AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 14
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-INFE-0001.md
 sources:
   - id: S1
-    reference: "van de Beek D, Cabellos C, Dzupova O, et al. ESCMID guideline: diagnosis and treatment of acute bacterial meningitis. Clin Microbiol Infect. 2016;22 Suppl 3:S37-S62 [référence à vérifier]."
+    reference: "van de Beek D, Cabellos C, Dzupova O, et al.; ESCMID Study Group for Infections of the Brain (ESGIB). ESCMID guideline: diagnosis and treatment of acute bacterial meningitis. Clin Microbiol Infect. 2016;22 Suppl 3:S37-S62."
     organisme: ESCMID
     annee: 2016
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.cmi.2016.01.007"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Audit AUD-04 (2026-11-19) : existence, revue, volume, pages et DOI confirmés par recherche web ; texte intégral non consulté (doses fixes et critères d'imagerie non confrontés au texte)."
   - id: S2
-    reference: "Société de pathologie infectieuse de langue française (SPILF). Prise en charge des méningites bactériennes aiguës communautaires (à l'exclusion du nouveau-né) — actualisation 2018 de la conférence de consensus de 2008 (Hoen B, et al. Med Mal Infect. 2019;49(6):367-398) [référence à vérifier]."
+    reference: "Société de pathologie infectieuse de langue française (SPILF). Prise en charge des méningites bactériennes aiguës communautaires (à l'exclusion du nouveau-né) — actualisation 2018 de la conférence de consensus de 2008. Publication : Hoen B, et al. Med Mal Infect. 2019;49(6):367-398 [pagination à confirmer]."
     organisme: SPILF
     annee: 2018
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Audit AUD-04 (2026-11-19) : existence de l'actualisation 2018 et de ses messages clés (doses de C3G, dexaméthasone, imagerie, durées) confirmée par des documents SPILF/SFMU (Info-antibio SPILF août 2019, diaporama SFMU « CC méningites 2018 ») ; la citation bibliographique exacte (auteurs, pages) n'a pas pu être confirmée."
   - id: S3
-    reference: "World Health Organization. WHO guidelines on meningitis diagnosis, treatment and care. Geneva: WHO; 2025 [référence à vérifier]."
+    reference: "World Health Organization. WHO guidelines on meningitis diagnosis, treatment and care. Geneva: WHO; 2025 (publié le 10 avril 2025). ISBN 978-92-4-010804-2 (version électronique)."
     organisme: OMS
     annee: 2025
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.who.int/publications/i/item/9789240108042"
+    verifiee: true
+    remarque: "Audit AUD-04 : existence, date, ISBN et champ (méningites aiguës communautaires de l'enfant > 1 mois, de l'adolescent et de l'adulte ; remplace les lignes directrices OMS de 2014 en contexte épidémique) confirmés ; contenu des recommandations (doses, dexaméthasone) non consulté."
   - id: S4
-    reference: "National Institute for Health and Care Excellence. Meningitis (bacterial) and meningococcal disease: recognition, diagnosis and management (NG240). 2024 [référence à vérifier]."
+    reference: "National Institute for Health and Care Excellence. Meningitis (bacterial) and meningococcal disease: recognition, diagnosis and management. NICE guideline NG240. Publié le 19 mars 2024 (remplace CG102)."
     organisme: NICE
     annee: 2024
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.nice.org.uk/guidance/ng240"
+    verifiee: true
+    remarque: "Audit AUD-04 : existence, date et URL confirmées ; contenu non consulté."
   - id: S5
-    reference: "de Gans J, van de Beek D; European Dexamethasone in Adulthood Bacterial Meningitis Study Investigators. Dexamethasone in adults with bacterial meningitis. N Engl J Med. 2002;347(20):1549-1556 [référence à vérifier]."
+    reference: "de Gans J, van de Beek D; European Dexamethasone in Adulthood Bacterial Meningitis Study Investigators. Dexamethasone in adults with bacterial meningitis. N Engl J Med. 2002;347(20):1549-1556."
     organisme: "Essai européen"
     annee: 2002
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa021334"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Audit AUD-04 : référence, DOI et résultats principaux (RR d'évolution défavorable 0,59 ; pneumocoque 26 % contre 52 %) confirmés (PubMed 12432041)."
   - id: S6
-    reference: "van de Beek D, de Gans J, Spanjaard L, et al. Clinical features and prognostic factors in adults with bacterial meningitis. N Engl J Med. 2004;351(18):1849-1859 [référence à vérifier]."
+    reference: "van de Beek D, de Gans J, Spanjaard L, et al. Clinical features and prognostic factors in adults with bacterial meningitis. N Engl J Med. 2004;351(18):1849-1859."
     organisme: "Cohorte néerlandaise"
     annee: 2004
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Audit AUD-04 : référence confirmée (PubMed 15509818) ; 696 épisodes ; triade 44 %, au moins 2 des 4 signes 95 %."
   - id: S7
-    reference: "Tunkel AR, Hartman BJ, Kaplan SL, et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-1284 [référence à vérifier]."
+    reference: "Tunkel AR, Hartman BJ, Kaplan SL, et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-1284."
     organisme: IDSA
     annee: 2004
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Audit AUD-04 : revue, année et pages confirmées ; texte non consulté."
   - id: S8
     reference: "Ministère de la Santé (Algérie). Liste des maladies à déclaration obligatoire et calendrier national de vaccination (textes en vigueur) [références exactes à vérifier]."
     organisme: MSPRH
@@ -82,7 +95,7 @@ mots_cles: [méningite bactérienne, méningite purulente, pneumocoque, méningo
 # Méningites purulentes : diagnostic, pronostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. **Avertissement de traçabilité** : en raison d'une limite technique de la session de rédaction, **aucune des références de ce dossier n'a pu être vérifiée en ligne** (`verifiee: false`). Les données présentées sont des connaissances médicales établies, mais **chaque posologie, seuil et durée doit être confronté au texte des recommandations citées (ESCMID 2016, SPILF 2018, OMS 2025) et au RCP avant tout usage clinique**. Les éléments algériens (déclaration, vaccination) sont signalés `[À VÉRIFIER]`.
+> Statut : audité (AUD-01/02/04, 2026-11-19) — corrections requises (voir le rapport d'audit). **Traçabilité** : l'existence des références internationales [S1–S7] a été confirmée lors de l'audit, mais leur texte intégral n'a pas pu être consulté (hôtes bloqués) ; les doses françaises de C3G, la dexaméthasone et les durées ont été confrontées à des documents de la SPILF et de la SFMU résumant l'actualisation 2018. Les doses fixes de l'ESCMID, la chimioprophylaxie et les éléments algériens (déclaration, vaccination) restent signalés `[À VÉRIFIER]` : **confronter au texte des recommandations et au RCP avant tout usage clinique**.
 
 **Items du programme couverts** : RES-MED-005 — « Méningites purulentes : Diagnostic - pronostic - traitement ».
 
@@ -109,7 +122,7 @@ mots_cles: [méningite bactérienne, méningite purulente, pneumocoque, méningo
 
 ## 2. Repères historiques
 
-Avant les antibiotiques, la méningite bactérienne était presque toujours mortelle. Les sulfamides puis la pénicilline ont transformé le pronostic. Les **vaccins conjugués** contre *Haemophilus influenzae* b (Hib), le pneumocoque et le méningocoque ont profondément modifié l'épidémiologie, faisant presque disparaître Hib dans les pays vaccinés. L'essai européen de **de Gans et van de Beek (2002)** a établi la place de la **dexaméthasone** chez l'adulte [S5]. L'OMS a lancé une feuille de route mondiale pour « vaincre la méningite d'ici 2030 » et publié en 2025 ses premières lignes directrices sur le diagnostic, le traitement et la prise en charge des méningites [S3] `[À VÉRIFIER]`.
+Avant les antibiotiques, la méningite bactérienne était presque toujours mortelle. Les sulfamides puis la pénicilline ont transformé le pronostic. Les **vaccins conjugués** contre *Haemophilus influenzae* b (Hib), le pneumocoque et le méningocoque ont profondément modifié l'épidémiologie, faisant presque disparaître Hib dans les pays vaccinés. L'essai européen de **de Gans et van de Beek (2002)** a établi la place de la **dexaméthasone** chez l'adulte [S5]. L'OMS a lancé une feuille de route mondiale pour « vaincre la méningite d'ici 2030 » et publié le **10 avril 2025** ses premières lignes directrices mondiales sur le diagnostic, le traitement et la prise en charge des méningites aiguës communautaires de l'enfant de plus d'un mois, de l'adolescent et de l'adulte [S3].
 
 ---
 
@@ -190,7 +203,7 @@ Avant les antibiotiques, la méningite bactérienne était presque toujours mort
 - **fièvre** élevée, frissons ;
 - **troubles de la conscience** (de l'obnubilation au coma).
 
-Dans une grande cohorte néerlandaise d'adultes, la **triade classique** (fièvre, raideur de nuque, troubles de conscience) n'était présente que chez **moins de la moitié** des patients, mais **au moins deux des quatre signes** (céphalées, fièvre, raideur de nuque, troubles de conscience) l'étaient chez la **quasi-totalité** [S6] `[À VÉRIFIER : pourcentages exacts]`. **L'absence de la triade n'élimine donc pas le diagnostic.**
+Dans une grande cohorte néerlandaise d'adultes (696 épisodes communautaires), la **triade classique** (fièvre, raideur de nuque, troubles de conscience) n'était présente que dans **44 %** des épisodes, mais **au moins deux des quatre signes** (céphalées, fièvre, raideur de nuque, troubles de conscience) l'étaient dans **95 %** [S6]. **L'absence de la triade n'élimine donc pas le diagnostic.**
 
 ### 8.2 Particularités selon l'âge
 
@@ -266,7 +279,7 @@ Chez l'enfant, le *Bacterial Meningitis Score* (examen direct positif, PNN du LC
 
 - **Méningite à pneumocoque** : la plus grave chez l'adulte ; début brutal, **coma**, **convulsions**, signes focaux ; porte d'entrée ORL ou brèche ; **mortalité et séquelles (surdité, déficits cognitifs) élevées** ; récidive → rechercher une **brèche ostéoméningée**.
 - **Méningite à méningocoque** : sujet jeune, contexte épidémique ; souvent moins de signes neurologiques ; gravité liée au **sepsis fulminant** (purpura fulminans, choc, CIVD, nécroses distales) ; **maladie contagieuse** (chimioprophylaxie des contacts).
-- **Listériose neuroméningée** : terrain à risque ; début progressif ; **rhombencéphalite** ; LCR souvent panaché ; **résistance naturelle aux céphalosporines** → **amoxicilline** obligatoire.
+- **Listériose neuroméningée** : terrain à risque ; début progressif ; **rhombencéphalite** ; LCR souvent panaché ; **résistance naturelle aux céphalosporines** → **amoxicilline** obligatoire ; **dexaméthasone non recommandée** [S2].
 - **Méningite à Hib** : enfant non vacciné ; complications (épanchements sous-duraux, surdité).
 - **Méningite néonatale** (streptocoque B, *E. coli*) : signes non spécifiques ; prise en charge en néonatologie.
 - **Méningites associées aux soins** : après neurochirurgie ou sur dérivation (staphylocoques, bacilles à Gram négatif) ; antibiothérapie probabiliste différente (couverture du SARM et des Gram négatifs, dont *P. aeruginosa*) `[À VÉRIFIER : recommandations spécifiques]`.
@@ -317,20 +330,25 @@ Nourrisson (signes trompeurs), sujet âgé (confusion fébrile), immunodéprimé
 
 ### 13.2 Moyens
 
-**a) Antibiotiques — posologies des recommandations européennes et françaises (adulte à fonction rénale normale ; enfant en mg/kg)** `[POSOLOGIE À VÉRIFIER — références non vérifiées dans la session ; confronter à SPILF 2018, ESCMID 2016 et au RCP]` :
+**a) Antibiotiques — posologies des recommandations européennes et françaises (adulte à fonction rénale normale ; enfant en mg/kg)**. Les doses françaises en mg/kg/j de céfotaxime, de ceftriaxone, d'amoxicilline et de gentamicine ont été confrontées, lors de l'audit, aux documents de la SPILF résumant l'actualisation 2018 [S2] ; les **doses fixes de l'ESCMID** et les **molécules d'alternative** (vancomycine, rifampicine, méropénem, cotrimoxazole) restent `[POSOLOGIE À VÉRIFIER — texte ESCMID 2016 / RCP]` :
 
 | Molécule | Adulte | Enfant | Remarques |
 |---|---|---|---|
 | **Céfotaxime** IV | 300 mg/kg/j (pneumocoque ou absence d'orientation) ; 200 mg/kg/j (méningocoque) en 4 perfusions ou en continu — France [S2] ; 8–12 g/j en 4–6 injections — ESCMID [S1] | 225–300 mg/kg/j | C3G de référence |
 | **Ceftriaxone** IV | 100 mg/kg/j (pneumocoque ou absence d'orientation) ; 75 mg/kg/j (méningocoque) en 1 ou 2 injections — France [S2] ; 4 g/j en 2 injections — ESCMID [S1] | 80–100 mg/kg/j | Utilisable en IM en urgence (purpura) |
 | **Amoxicilline** IV | 200 mg/kg/j en 4–6 injections ou en continu (*Listeria*, pneumocoque sensible) [S2] ; 12 g/j — ESCMID [S1] | 200–300 mg/kg/j | **Seule bêta-lactamine active sur *Listeria*** |
-| **Gentamicine** IV | 3–5 mg/kg/j, en association pour *Listeria*, durée limitée (quelques jours) [S2] | idem | Néphro- et ototoxicité |
-| **Vancomycine** IV | Selon dosages (ajout discuté si pneumocoque de sensibilité diminuée aux C3G) [S1] | — | Ne diffuse bien qu'en association, dosages sériques |
+| **Gentamicine** IV | **5 mg/kg/j en une perfusion**, en association à l'amoxicilline pour *Listeria*, durée limitée aux premiers jours [S2] `[POSOLOGIE À VÉRIFIER — durée exacte de l'aminoside]` | idem | Néphro- et ototoxicité |
+| **Vancomycine** IV | Selon dosages (ajout discuté si pneumocoque de sensibilité diminuée aux C3G) [S1] | — | Diffusion méningée médiocre (encore réduite par la dexaméthasone) : jamais seule, toujours associée à la C3G ; dosages sériques |
 | **Rifampicine** | 600 mg × 2/j (alternative/association) [S1] | — | — |
 | **Méropénem** | 2 g × 3/j (alternative, Gram négatifs résistants) [S1] | — | — |
 | **Cotrimoxazole** | Alternative pour *Listeria* en cas d'allergie [S1] | — | — |
 
-**b) Dexaméthasone** : **10 mg IV toutes les 6 heures pendant 4 jours** chez l'adulte, **0,15 mg/kg toutes les 6 heures pendant 4 jours** chez l'enfant, **à débuter juste avant ou en même temps que la première dose d'antibiotique** [S1, S2, S5]. Indications principales : méningite à pneumocoque (adulte et enfant), à Hib (enfant), et méningite bactérienne présumée sans orientation ; elle est **arrêtée** si le diagnostic de méningite bactérienne est écarté ; son intérêt est discuté dans d'autres situations (méningocoque, *Listeria* — à ne pas poursuivre selon certaines données) `[À VÉRIFIER : positions exactes de S1 et S2]`. L'essai de de Gans et van de Beek a montré une **réduction de la mortalité et des séquelles** chez l'adulte, surtout dans la méningite à pneumocoque [S5]. L'administration **après** le début de l'antibiothérapie a un intérêt incertain (fenêtre courte admise par certaines recommandations `[À VÉRIFIER]`).
+**b) Dexaméthasone** : **10 mg IV toutes les 6 heures pendant 4 jours** chez l'adulte, **0,15 mg/kg toutes les 6 heures pendant 4 jours** chez l'enfant, **à débuter juste avant ou en même temps que la première dose d'antibiotique** [S1, S2, S5].
+- **Indications selon la SPILF (actualisation 2018)** [S2] : examen direct évocateur de **pneumocoque (à tout âge)**, de **méningocoque chez l'adulte**, d'***H. influenzae* chez le nourrisson et l'enfant**, et méningite bactérienne présumée traitée en probabiliste lorsque la PL est différée (imagerie préalable, contre-indication) ; conduite en cas d'examen direct négatif `[À VÉRIFIER dans S2]`.
+- **Non recommandée** chez l'**immunodéprimé** et en cas de **listériose neuroméningée** (l'arrêter si elle avait été débutée en probabiliste) [S2] ; elle est **arrêtée** si le diagnostic de méningite bactérienne est écarté.
+- **Délai** : idéalement avant ou avec la première dose ; en cas d'oubli, la SPILF admet son administration **jusqu'à 12 heures** après la première dose d'antibiotique [S2].
+- L'ESCMID la recommande chez l'adulte et l'enfant avec suspicion de méningite bactérienne et discute son arrêt lorsque le germe n'est ni le pneumocoque ni *H. influenzae* `[À VÉRIFIER : formulation exacte de S1]`.
+- L'essai de de Gans et van de Beek a montré une **réduction des évolutions défavorables** à 8 semaines (risque relatif 0,59) chez l'adulte, surtout dans la méningite à pneumocoque (26 % contre 52 % d'évolutions défavorables) [S5].
 
 **c) Mesures générales** : hospitalisation en **soins intensifs/réanimation** si signes de gravité ; position tête surélevée à 30° ; **traitement des convulsions** (pas de prophylaxie systématique) ; **osmothérapie** si hypertension intracrânienne ; prévention et correction de l'**hyponatrémie** et de l'**hypoglycémie** ; apports hydriques normaux (la restriction hydrique systématique n'est plus recommandée) ; antipyrétiques ; prise en charge du **choc** (remplissage, vasopresseurs) ; isolement de type **gouttelettes** pendant les **24 premières heures** d'antibiothérapie en cas de suspicion de méningocoque.
 
@@ -351,8 +369,10 @@ SUSPICION DE MÉNINGITE BACTÉRIENNE
  ├─ Examen direct du LCR (Gram)
  │   ├─ Cocci Gram+ en diplocoques (pneumocoque) → C3G forte dose + dexaméthasone
  │   ├─ Diplocoques Gram− (méningocoque) → C3G (dose « méningocoque »)
- │   ├─ Bacilles Gram+ (Listeria) → AMOXICILLINE + gentamicine
+ │   │                                     + dexaméthasone chez l'adulte (SPILF)
+ │   ├─ Bacilles Gram+ (Listeria) → AMOXICILLINE + gentamicine (sans dexaméthasone)
  │   ├─ Bacilles Gram− (Hib, entérobactéries) → C3G (± adaptation)
+ │   │                                     + dexaméthasone si Hib chez l'enfant
  │   └─ Examen direct négatif :
  │        ├─ sans argument pour Listeria → C3G forte dose + dexaméthasone
  │        └─ arguments pour Listeria (terrain, rhombencéphalite, LCR panaché)
@@ -373,7 +393,7 @@ SUSPICION DE MÉNINGITE BACTÉRIENNE
 | **Streptocoque B** | Amoxicilline | 14–21 jours |
 | **Entérobactéries** | C3G (selon antibiogramme) | ≥ 21 jours |
 
-`[À VÉRIFIER : durées exactes, critères de raccourcissement et doses d'adaptation dans S1 et S2]`
+Les repères pneumocoque (10–14 jours), méningocoque (4–7 jours) et les doses réduites de C3G après documentation (céfotaxime 200 mg/kg/j, ceftriaxone 75 mg/kg/j) concordent avec les documents SPILF consultés lors de l'audit [S2] ; `[À VÉRIFIER : autres durées, critères de raccourcissement et seuils de CMI exacts dans S1 et S2]`
 
 **PL de contrôle** : **non systématique** ; indiquée en cas d'évolution clinique défavorable à 48–72 h, de pneumocoque de sensibilité diminuée aux C3G, ou de germe inhabituel [S2] `[À VÉRIFIER]`.
 
@@ -462,7 +482,7 @@ Conseils alimentaires aux femmes enceintes et aux immunodéprimés (éviter from
 **Résultats.** LCR **trouble** : 2 800 éléments/mm³ (**90 % de PNN**), protéinorachie 2,1 g/L, glycorachie 0,9 mmol/L pour une glycémie de 5,8 mmol/L (rapport 0,16), lactates 9 mmol/L ; **examen direct : diplocoques à Gram négatif** ; PCR : ***N. meningitidis* sérogroupe W** (scénario fictif). Plaquettes 98 000/mm³, TP 62 %, CRP 180 mg/L, PCT 18 ng/mL.
 
 **Question 3 — Diagnostic et traitement ?**
-> **Méningite à méningocoque avec purpura** (sans choc à ce stade). **C3G** poursuivie (par exemple ceftriaxone à la dose « méningocoque ») pour une durée de **4 à 7 jours** selon la recommandation suivie [S1, S2] `[POSOLOGIE À VÉRIFIER]`. La dexaméthasone, débutée avant la documentation, peut être arrêtée ou poursuivie selon le protocole retenu `[À VÉRIFIER]`. Surveillance en soins intensifs (risque d'évolution vers le choc), **isolement gouttelettes 24 h**.
+> **Méningite à méningocoque avec purpura** (sans choc à ce stade). **C3G** poursuivie (ceftriaxone **75 mg/kg/j** ou céfotaxime **200 mg/kg/j**, doses « méningocoque » de la SPILF) pour une durée de **4 à 7 jours** (France) ou 7 jours (ESCMID) [S1, S2]. La **dexaméthasone**, débutée avec la première dose d'antibiotique, est **poursuivie 4 jours** selon la SPILF (méningocoque chez l'adulte) [S2] ; l'ESCMID discute son arrêt lorsque le germe n'est ni le pneumocoque ni *H. influenzae* `[À VÉRIFIER : formulation de S1]`. Surveillance en soins intensifs (risque d'évolution vers le choc), **isolement gouttelettes 24 h**.
 
 **Question 4 — Quelles mesures de santé publique ?**
 > **Déclaration obligatoire immédiate** ; identification des **contacts proches** (famille, colocataires, partenaire) → **rifampicine 600 mg × 2/j pendant 2 jours** (ou ciprofloxacine 500 mg dose unique, ou ceftriaxone 250 mg IM) le plus tôt possible ; **vaccination** des contacts par un vaccin conjugué couvrant le sérogroupe **W** (ACWY) [S2] `[À VÉRIFIER : protocole national]`. La patiente, traitée par C3G, n'a pas besoin de prophylaxie supplémentaire. Information de la colocataire sous contraception orale de l'interaction avec la rifampicine.
@@ -493,7 +513,7 @@ Conseils alimentaires aux femmes enceintes et aux immunodéprimés (éviter from
 - **Retarder l'antibiothérapie** pour réaliser un scanner ou attendre la PL.
 - Oublier d'**examiner la peau** du patient entièrement déshabillé.
 - Traiter une suspicion de **listériose** par une **C3G seule**.
-- Débuter la **dexaméthasone** plusieurs heures **après** l'antibiotique, ou la poursuivre alors que le diagnostic de méningite bactérienne est écarté.
+- Débuter la **dexaméthasone** plusieurs heures **après** l'antibiotique sans raison (la SPILF n'admet qu'un rattrapage jusqu'à 12 h), la poursuivre alors que le diagnostic de méningite bactérienne est écarté, ou la maintenir dans une **listériose** ou chez un **immunodéprimé** (non recommandée par la SPILF).
 - Considérer qu'un **examen direct négatif** élimine une méningite bactérienne.
 - Conclure à une méningite virale devant un LCR **lymphocytaire hypoglycorachique** (penser **tuberculose, listériose, brucellose**).
 - Prescrire une chimioprophylaxie **autour d'une méningite à pneumocoque** (inutile) ou l'oublier **autour d'un méningocoque**.
@@ -732,14 +752,14 @@ Concernant les complications et le suivi des méningites bactériennes, quelles 
 
 ## 21. Divergences entre recommandations
 
-> Toutes les positions ci-dessous sont rapportées de mémoire documentaire et **doivent être confrontées aux textes** (références non vérifiées dans la session).
+> Positions SPILF 2018 (doses de C3G, imagerie, dexaméthasone, durées) confrontées lors de l'audit à des documents SPILF/SFMU ; positions ESCMID, IDSA et OMS rapportées sans consultation du texte intégral : **à confronter aux textes**.
 
 | Thème | SPILF 2018 (France) [S2] | ESCMID 2016 (Europe) [S1] | IDSA 2004 (États-Unis) [S7] / OMS 2025 [S3] | Commentaire |
 |---|---|---|---|---|
 | **Imagerie avant PL** | Indications restreintes : signes focaux, Glasgow ≤ 11, convulsions | Signes focaux (hors nerfs crâniens), crise récente, Glasgow < 10, immunodépression sévère | IDSA : liste plus large (immunodépression, antécédent neurologique, crise, œdème papillaire, troubles de conscience, déficit focal) | Tendance européenne à restreindre l'imagerie pour ne pas retarder la PL et le traitement |
 | **Vancomycine probabiliste** | **Non** (pneumocoques résistants aux C3G rares en France) | **Oui** dans les régions où circulent des pneumocoques résistants aux C3G | IDSA : vancomycine + C3G en probabiliste | **Décision algérienne à fonder sur les données locales de résistance** |
 | **Dose de C3G** | Adaptée au germe suspecté (céfotaxime 300 ou 200 mg/kg/j ; ceftriaxone 100 ou 75 mg/kg/j) | Dose fixe adulte (ceftriaxone 4 g/j ; céfotaxime 8–12 g/j) | — | Approches différentes, objectifs identiques (concentrations élevées dans le LCR) |
-| **Dexaméthasone** | Adulte et enfant selon le germe suspecté | Recommandée chez l'adulte avec suspicion de méningite bactérienne ; poursuite selon le germe | OMS 2025 : position adaptée aux contextes à ressources limitées `[À VÉRIFIER]` | Les essais en Afrique subsaharienne (forte prévalence du VIH, présentation tardive) n'ont pas montré de bénéfice `[À VÉRIFIER]` |
+| **Dexaméthasone** | Pneumocoque (tout âge), méningocoque (adulte), Hib (enfant) et probabiliste si PL différée ; non recommandée chez l'immunodéprimé et dans la listériose ; rattrapage possible jusqu'à 12 h | Recommandée chez l'adulte et l'enfant avec suspicion de méningite bactérienne ; arrêt discuté si germe autre que pneumocoque ou Hib `[À VÉRIFIER]` | OMS 2025 : position à consulter dans le texte `[À VÉRIFIER]` | Les essais en Afrique subsaharienne (forte prévalence du VIH, présentation tardive) n'ont pas montré de bénéfice `[À VÉRIFIER]` ; la position française diffère surtout pour le méningocoque de l'adulte (poursuite 4 jours) |
 | **Durée méningocoque** | 4–7 jours | 7 jours | — | — |
 | **Chimioprophylaxie** | Rifampicine 2 jours ; alternatives ciprofloxacine ou ceftriaxone dose unique | Similaire | — | Définition des contacts propre à chaque pays |
 
@@ -747,15 +767,15 @@ Concernant les complications et le suivi des méningites bactériennes, quelles 
 
 ## 22. Références
 
-Détail complet dans l'en-tête YAML. **Aucune de ces références n'a pu être vérifiée en ligne pendant la session** (`verifiee: false`).
+Détail complet dans l'en-tête YAML. **Audit AUD-04 (2026-11-19)** : existence de [S1–S7] confirmée par recherche web (texte intégral non consulté) ; [S8] non vérifiée.
 
-1. [S1] van de Beek D, et al. ESCMID guideline: diagnosis and treatment of acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-S62.
-2. [S2] SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 de la conférence de consensus de 2008 (Hoen B, et al. Med Mal Infect 2019;49:367-398).
-3. [S3] WHO. Guidelines on meningitis diagnosis, treatment and care. 2025.
-4. [S4] NICE. Meningitis (bacterial) and meningococcal disease (NG240). 2024.
-5. [S5] de Gans J, van de Beek D. Dexamethasone in adults with bacterial meningitis. N Engl J Med 2002;347:1549-56.
+1. [S1] van de Beek D, et al. ESCMID guideline: diagnosis and treatment of acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-S62. doi:10.1016/j.cmi.2016.01.007.
+2. [S2] SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 de la conférence de consensus de 2008 (Hoen B, et al. Med Mal Infect 2019;49:367-398 — pagination à confirmer).
+3. [S3] WHO. Guidelines on meningitis diagnosis, treatment and care. 10 avril 2025. ISBN 978-92-4-010804-2.
+4. [S4] NICE. Meningitis (bacterial) and meningococcal disease (NG240). 19 mars 2024.
+5. [S5] de Gans J, van de Beek D. Dexamethasone in adults with bacterial meningitis. N Engl J Med 2002;347:1549-56. doi:10.1056/NEJMoa021334.
 6. [S6] van de Beek D, et al. Clinical features and prognostic factors in adults with bacterial meningitis. N Engl J Med 2004;351:1849-59.
 7. [S7] Tunkel AR, et al. IDSA practice guidelines for the management of bacterial meningitis. Clin Infect Dis 2004;39:1267-84.
 8. [S8] Ministère de la Santé (Algérie). Liste des MDO et calendrier national de vaccination (références à préciser).
 
-> **Points à auditer en priorité** : (1) **vérifier toutes les références** et confronter posologies, durées et indications de l'imagerie aux textes SPILF 2018 et ESCMID 2016 ; (2) vérifier la position de l'OMS 2025 (dexaméthasone, schémas en contexte de ressources limitées) ; (3) préciser les textes algériens (MDO, calendrier vaccinal, conduite autour d'un cas de méningococcie) ; (4) obtenir les données algériennes de résistance du pneumocoque aux C3G.
+> **Reste à faire après l'audit du 2026-11-19** : (1) lire le texte intégral ESCMID 2016 (doses fixes, critères d'imagerie, durées) et SPILF 2018 (pagination, examen direct négatif, durée de la gentamicine) ; (2) consulter les recommandations OMS 2025 (antibiothérapie, dexaméthasone) ; (3) préciser les textes algériens (MDO, calendrier vaccinal, conduite autour d'un cas de méningococcie, schéma national de chimioprophylaxie) ; (4) obtenir les données algériennes de résistance du pneumocoque aux C3G.

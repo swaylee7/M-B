@@ -98,7 +98,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - DSM-5-TR (APA) — critères diagnostiques
 - NICE (Royaume-Uni) — schizophrénie, dépression, trouble bipolaire, troubles anxieux
@@ -130,7 +129,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - WFSBP / CANMAT — pharmacothérapie des troubles de l'humeur et des psychoses
 - HAS (France) — crise suicidaire, addictions
@@ -157,7 +155,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
@@ -193,7 +190,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 0 (codes PSYC) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 0 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (16)
+**Recommandations cataloguées** : 16 en vigueur — références datées des thèmes cités en partie C
 - REC-0472 — The American Psychiatric Association Practice Guideline for the Treatment of Patients With Schizophrenia (APA (American Psychiatric Association), 2020-09 ; statut : actuelle)
 - REC-0473 — Psychosis and schizophrenia in adults: prevention and management (CG178) (NICE (National Institute for Health and Care Excellence), 2014-02 ; statut : actuelle)
 - REC-0474 — Depression in adults: treatment and management (NG222) (NICE (National Institute for Health and Care Excellence), 2022-06 ; statut : actuelle)

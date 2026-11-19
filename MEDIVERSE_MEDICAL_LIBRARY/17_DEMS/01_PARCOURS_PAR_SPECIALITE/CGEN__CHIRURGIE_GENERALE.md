@@ -101,7 +101,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes avec réalisation des interventions d'urgence de base **en premier opérateur sous supervision**.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - WSES (World Society of Emergency Surgery) — péritonites, appendicite, occlusions, traumatismes
 - SFAR / SFCD (France) — antibioprophylaxie, réhabilitation améliorée après chirurgie
@@ -133,7 +132,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en premier opérateur pour les urgences courantes ; senior présent pour les cas complexes.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - ATLS (American College of Surgeons) — prise en charge initiale du traumatisé
 - Recommandations de RCP en cancérologie digestive (TNCD, NCCN, ESMO)
@@ -162,7 +160,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - **Gestion de la garde** : tri des urgences, décisions opératoires, coordination avec l'anesthésie-réanimation.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Approfondir les recommandations des années précédentes et leurs mises à jour.
 
@@ -190,7 +187,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Autonomie de garde sous contrôle a posteriori ; encadrement des juniors.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
 
@@ -209,7 +205,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 | Appendicite aiguë et ses formes compliquées | A | — (à rédiger) |
 | Hernie étranglée | A | — (à rédiger) |
 | Traumatisme abdominal avec instabilité hémodynamique | A | — (à rédiger) |
-| Hémorragie digestive (avis chirurgical) | A | — (à rédiger) |
+| Hémorragie digestive (avis chirurgical) | A | [DOS-GAST-0001](../../07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0001__HEMORRAGIES_DIGESTIVES.md) |
 | Cholécystite aiguë et angiocholite | B | — (à rédiger) |
 | Pancréatite aiguë grave | B | [DOS-CDIG-0002](../../08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0002__PANCREATITE_AIGUE.md) |
 | Ischémie mésentérique aiguë | B | — (à rédiger) |
@@ -230,7 +226,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 24 (codes CGEN, CDIG) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 4 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (19)
+**Recommandations cataloguées** : 16 en vigueur (+ 3 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0290 — The management of intra-abdominal infections from a global perspective: 2017 WSES guidelines for management of intra-abdominal infections (WSES (World Society of Emergency Surgery), 2017-07 ; statut : actuelle)
 - REC-0365 — Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines (WSES, 2020-04 ; statut : actuelle)
 - REC-0366 — Bologna guidelines for diagnosis and management of adhesive small bowel obstruction (ASBO): 2017 update of the evidence-based guidelines from the world society of emergency surgery ASBO working group (WSES, 2018-06 ; statut : actuelle)
@@ -241,11 +237,8 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0362 — Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis (with videos) (Tokyo Guidelines (TG18), 2018-01 ; statut : actuelle)
 - REC-0363 — EASL Clinical Practice Guidelines on the prevention, diagnosis and treatment of gallstones (EASL, 2016-04 ; statut : actuelle)
 - REC-0364 — Endoscopic management of common bile duct stones: European Society of Gastrointestinal Endoscopy (ESGE) guideline (ESGE, 2019-04 ; statut : actuelle)
-- REC-0369 — Gastric cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up (ESMO, 2022-07 ; statut : remplacee)
-- REC-0370 — Oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up (ESMO, 2022-07 ; statut : remplacee)
 - REC-0371 — Gastric and oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up (ESMO, 2026-10 ; statut : actuelle)
 - REC-0372 — Localised colon cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up (ESMO, 2020-07 ; statut : actuelle)
-- REC-0373 — Metastatic colorectal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up (2023) (ESMO, 2022-10 ; statut : remplacee)
 - REC-0374 — Metastatic colorectal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up (2026) (ESMO, 2026-04 ; statut : actuelle)
 - REC-0375 — Localised rectal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up (ESMO, 2025-05 ; statut : actuelle)
 - REC-0376 — Pancreatic cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up (ESMO, 2023-09 ; statut : actuelle)

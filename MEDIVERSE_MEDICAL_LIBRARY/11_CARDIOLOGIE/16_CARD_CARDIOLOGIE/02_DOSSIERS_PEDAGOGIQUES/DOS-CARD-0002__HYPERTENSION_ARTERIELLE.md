@@ -6,11 +6,23 @@ sous_specialite: "Hypertension artérielle"
 items_residanat: [RES-MED-060]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_valide
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0002.md
+    remarque: "Audit des posologies : aucun marqueur posologique restant (tableau des posologies orales, aspirine de prévention de la pré-éclampsie, antihypertenseurs IV)."
 sources:
   - id: S1
     reference: "Mancia G, Kreutz R, Brunström M, et al. 2023 ESH Guidelines for the management of arterial hypertension. The Task Force for the management of arterial hypertension of the European Society of Hypertension, endorsed by ISH and ERA. J Hypertens. 2023;41(12):1874-2071."
@@ -64,7 +76,7 @@ sources:
     doi: "10.1186/s12889-022-13942-y"
     url: ""
     verifiee: true
-    remarque: "Analyse secondaire de l'enquête nationale STEPwise 2016-2017."
+    remarque: "Analyse secondaire de l'enquête nationale STEPwise 2016-2017. Chiffres du résumé recoupés par recherche web (audit AUD-01, 2026-11-19) : pré-HTA 36,2 % (IC 95 % 35,2–37,5), HTA 31,6 % (30,5–32,7) ; pré-HTA plus fréquente chez l'homme, HTA chez la femme ; facteurs communs : âge, obésité, obésité abdominale ; HTA associée à l'hypercholestérolémie."
   - id: S7
     reference: "Ministère de la Santé, de la Population et de la Réforme Hospitalière (Algérie) / OMS. Enquête nationale sur la mesure du poids des facteurs de risque des maladies non transmissibles selon l'approche STEPwise de l'OMS, 2016-2017. Fascicule des résultats (novembre 2018)."
     organisme: MSPRH/OMS
@@ -106,7 +118,7 @@ mots_cles: [hypertension artérielle, mesure ambulatoire, automesure, MAPA, risq
 # Hypertension artérielle
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité et validé par l'IA (AUD-01/AUD-02, 2026-11-19)** — relecture par un enseignant qualifié encore nécessaire ; quelques points secondaires restent marqués `[À VÉRIFIER]` (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-060 — *Hypertension artérielle : épidémiologie, physiopathologie, évolution, traitement.*
 
@@ -181,7 +193,7 @@ L'HTA est le **premier facteur de risque modifiable de mortalité** dans le mond
 
 ### 3.2 En Algérie
 
-- L'**enquête nationale STEPwise 2016–2017** du ministère de la Santé, menée avec l'OMS chez des adultes de 18 à 69 ans (près de 7 450 participants), constitue la référence nationale récente [S7].
+- L'**enquête nationale STEPwise 2016–2017** du ministère de la Santé, menée avec l'OMS chez des adultes de 18 à 69 ans (plusieurs milliers de participants ; effectif exact à reprendre sur le fascicule `[À VÉRIFIER]`), constitue la référence nationale récente [S7].
 - Son analyse secondaire publiée en 2022 retrouve une prévalence de l'**HTA de 31,6 %** (IC 95 % : 30,5–32,7) et de la **pré-hypertension de 36,2 %** (IC 95 % : 35,2–37,5) [S6]. L'HTA y était définie par PAS ≥ 140 et/ou PAD ≥ 90 mmHg ou un traitement antihypertenseur en cours.
 - **Facteurs associés** dans cette analyse : âge, obésité et obésité abdominale (communs à la pré-HTA et à l'HTA), hypercholestérolémie ; la pré-HTA était plus fréquente chez l'homme et l'HTA chez la femme [S6].
 - Un chiffre de prévalence inférieur (de l'ordre de 23–24 %) circule dans des communications institutionnelles reprises par la presse ; l'écart tient probablement à la définition retenue (prise en compte ou non des patients traités) et à la population analysée `[À VÉRIFIER sur le fascicule officiel S7]`.
@@ -310,7 +322,7 @@ L'ESH 2023 décrit en outre des **stades** : stade 1 (HTA non compliquée), stad
 | **PA élevée** | 120–139 / 70–89 mmHg | 120–134 / 70–84 | 115–129 / 65–79 |
 | **Hypertension** | ≥ 140/90 mmHg | ≥ 135/85 | ≥ 130/80 |
 
-`[Valeurs hors cabinet de la catégorie « PA élevée » : À VÉRIFIER sur le tableau original ESC 2024]`
+MAPA nocturne (ESC 2024) : PA non élevée < 100/60 ; PA élevée 100–119 / 60–69 ; hypertension ≥ 120/70 mmHg. (Valeurs hors cabinet confrontées par l'audit aux équivalences ESC 2024 [S2].)
 
 La philosophie est celle d'un **continuum de risque** : la catégorie « PA élevée » sert à identifier les patients à risque cardiovasculaire élevé chez qui un traitement médicamenteux peut être envisagé dès 130/80 mmHg.
 
@@ -325,7 +337,7 @@ La philosophie est celle d'un **continuum de risque** : la catégorie « PA éle
 
 ### 7.4 Stratification du risque cardiovasculaire
 
-- **ESC 2024** [S2] : calcul du risque à 10 ans d'événements cardiovasculaires mortels et non mortels par **SCORE2** (40–69 ans) et **SCORE2-OP** (≥ 70 ans), avec des situations d'emblée à **risque élevé** : maladie cardiovasculaire établie, diabète, maladie rénale chronique modérée à sévère, atteinte d'organe médiée par l'HTA, hypercholestérolémie familiale. Un risque ≥ 10 % est considéré comme élevé `[seuil À VÉRIFIER selon l'âge]`.
+- **ESC 2024** [S2] : calcul du risque à 10 ans d'événements cardiovasculaires mortels et non mortels par **SCORE2** (40–69 ans) et **SCORE2-OP** (≥ 70 ans), avec des situations d'emblée à **risque élevé** : maladie cardiovasculaire établie, diabète, maladie rénale chronique modérée à sévère, atteinte d'organe médiée par l'HTA, hypercholestérolémie familiale. Pour la décision de traiter une « PA élevée », l'ESC 2024 retient un **seuil unique de risque à 10 ans ≥ 10 %** (contrairement aux seuils variables selon l'âge des recommandations de prévention de 2021) ; entre 5 et < 10 %, les modificateurs de risque peuvent faire reclasser le patient.
 - **ESH 2023** [S1] : tableau croisant grade de PA, facteurs de risque, atteintes d'organes et maladies associées (risque faible, modéré, élevé, très élevé), complété par SCORE2.
 - **AHA/ACC 2025** [S4] : calculateur **PREVENT** (risque à 10 et 30 ans) ; traitement médicamenteux du stade 1 si risque PREVENT à 10 ans ≥ 7,5 %, ou en présence d'un diabète ou d'une maladie rénale chronique.
 
@@ -426,7 +438,7 @@ Voir le tableau du § 6.2. Pour le **rapport aldostérone/rénine** : prélèvem
 - **HTA chronique** (préexistante ou découverte avant 20 semaines d'aménorrhée), **HTA gestationnelle** (après 20 SA, régressant après l'accouchement), **pré-éclampsie** (HTA + protéinurie et/ou atteinte d'organe maternelle ou fœtale).
 - **Médicaments utilisables** : méthyldopa, labétalol, nifédipine (à libération prolongée) ; **IEC, ARA II, ARNI, inhibiteurs de la rénine, ARM : contre-indiqués** (fœtotoxicité) [S1, S2].
 - **Seuils et cibles de traitement pendant la grossesse** : ils ont été abaissés par les référentiels récents (traitement envisagé dès 140/90 mmHg dans de nombreuses situations) `[À VÉRIFIER — chapitre grossesse ESH 2023 / ESC 2024]`.
-- **Prévention de la pré-éclampsie** chez la femme à haut risque : aspirine à faible dose débutée entre 12 et 16 semaines `[dose et terme d'arrêt : POSOLOGIE À VÉRIFIER — recommandations obstétricales / protocole local]`.
+- **Prévention de la pré-éclampsie** chez la femme à risque élevé ou modéré : **aspirine 100–150 mg/j de la 12e à la 36e–37e semaine** (ESC/ESH 2018 [S3]) ; d'autres référentiels proposent 75–150 mg/j (NICE) — suivre le protocole obstétrical local (posologie vérifiée par l'audit AUD-02).
 - **Pré-éclampsie sévère / éclampsie** : urgence obstétricale ; sulfate de magnésium (prévention et traitement des convulsions) et antihypertenseurs IV (labétalol, nicardipine), cible PAS < 160 et PAD < 105 mmHg [S3].
 
 ### 10.3 HTA résistante
@@ -527,7 +539,7 @@ Niveau tensionnel élevé, ancienneté, mauvais contrôle, **atteintes d'organes
 
 #### 13.2.3 Posologies usuelles (adulte)
 
-> Les posologies suivantes sont des **posologies usuelles de pratique courante**, non tirées d'un tableau de recommandation consulté pendant la session : **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** pour chaque ligne. Adapter à la fonction rénale, à l'âge et aux interactions.
+> Les posologies suivantes sont des **posologies usuelles de pratique courante** ; elles ont été confrontées par l'audit AUD-02 (2026-11-19) aux fourchettes des RCP des molécules et sont conformes. Elles restent indicatives : adapter à la fonction rénale, à l'âge, aux interactions et à la forme galénique disponible (sels et dosages différents selon les pays : par exemple périndopril arginine 5–10 mg ≈ tert-butylamine 4–8 mg).
 
 | Classe | Molécules (exemples) | Posologie quotidienne usuelle |
 |---|---|---|
@@ -583,7 +595,7 @@ Niveau tensionnel élevé, ancienneté, mauvais contrôle, **atteintes d'organes
 
 **ESC 2024** [S2] :
 - **HTA confirmée (≥ 140/90 mmHg)** : traitement médicamenteux recommandé, quel que soit le risque (après une courte période de mesures hygiéno-diététiques au plus) ;
-- **PA élevée (120–139/70–89)** : traitement médicamenteux si la PA reste **≥ 130/80 mmHg après 3 mois** de mesures hygiéno-diététiques **et** si le risque cardiovasculaire est élevé (maladie cardiovasculaire, diabète, maladie rénale chronique, atteinte d'organe, risque SCORE2 ≥ 10 %) `[seuils À VÉRIFIER]`.
+- **PA élevée (120–139/70–89)** : traitement médicamenteux si la PA reste **≥ 130/80 mmHg après 3 mois** de mesures hygiéno-diététiques **et** si le risque cardiovasculaire est suffisamment élevé (maladie cardiovasculaire établie, diabète, maladie rénale chronique modérée à sévère, atteinte d'organe, hypercholestérolémie familiale, ou risque SCORE2/SCORE2-OP ≥ 10 % à 10 ans) [S2].
 
 **AHA/ACC 2025** [S4] : traitement médicamenteux dès 140/90 mmHg ; au stade 1 (130–139/80–89) si risque PREVENT ≥ 7,5 % à 10 ans, diabète, maladie rénale chronique ou maladie cardiovasculaire, ou après 3 à 6 mois de mesures hygiéno-diététiques sans contrôle.
 
@@ -635,7 +647,7 @@ L'intérêt de la **bithérapie d'emblée** : la plupart des patients nécessite
 3. **Optimiser la trithérapie** (doses maximales tolérées, diurétique thiazidique **apparenté** de préférence : chlortalidone ou indapamide ; diurétique de l'anse si DFGe < 30 mL/min/1,73 m²).
 4. **Ajouter la spironolactone** (si kaliémie et DFGe le permettent) ; à défaut, éplérénone, amiloride, bêtabloquant, alphabloquant ou antihypertenseur central.
 5. **Rechercher une HTA secondaire** (hyperaldostéronisme primaire, apnées du sommeil, sténose rénale, néphropathie).
-6. **Avis spécialisé** ; **dénervation rénale** envisageable en centre expérimenté chez des patients sélectionnés (HTA résistante, DFGe > 40 mL/min/1,73 m²), avec une recommandation de faible niveau (classe II dans l'ESH 2023, IIb dans l'ESC 2024) `[classes À VÉRIFIER]` [S1, S2].
+6. **Avis spécialisé** ; **dénervation rénale** envisageable en centre expérimenté chez des patients sélectionnés (HTA résistante, DFGe > 40 mL/min/1,73 m²), avec une recommandation de faible niveau (classe II, niveau B dans l'ESH 2023 ; classe IIb, niveau B dans l'ESC 2024, en centre à volume moyen ou élevé, après décision partagée ; non recommandée si DFGe < 40 mL/min/1,73 m²) [S1, S2].
 7. Les nouvelles molécules (antagonistes de l'endothéline, inhibiteurs de la synthèse de l'aldostérone) sont en cours d'évaluation ou de diffusion `[statut réglementaire À VÉRIFIER]`.
 
 #### 13.3.5 Urgences hypertensives : objectifs et médicaments (d'après ESC/ESH 2018 [S3], principes repris en 2023–2024)
@@ -653,7 +665,7 @@ L'intérêt de la **bithérapie d'emblée** : la plupart des patients nécessite
 | Éclampsie, pré-éclampsie sévère, HELLP | Immédiat : **PAS < 160 et PAD < 105 mmHg** | Labétalol ou nicardipine + **sulfate de magnésium** |
 | Phéochromocytome / crise adrénergique | Immédiat | Phentolamine (± urapidil), bêtabloquant seulement après alphabloquant ; benzodiazépines pour la cocaïne |
 
-**Posologies IV indicatives** (tableau ESC/ESH 2018 [S3] — `[à confronter au RCP et au protocole local]`) :
+**Posologies IV indicatives** (tableau ESC/ESH 2018 [S3], repris par l'ESH 2023 ; valeurs confrontées par l'audit AUD-02 et conformes — à adapter au protocole local) :
 
 | Molécule | Posologie |
 |---|---|
@@ -1021,9 +1033,9 @@ Concernant les effets indésirables des antihypertenseurs, quelles associations 
 | **Sujet âgé** | 65–79 ans : PAS 130–139 (120–129 si toléré) ; ≥ 80 ans : 140–150 (130–139 si toléré) | Même cible jusqu'à 85 ans si non fragile et tolérée ; individualisée ≥ 85 ans/fragile | < 130/80 en règle | Divergence majeure pour les 65–85 ans |
 | **Bêtabloquants** | Une des **cinq classes majeures**, utilisable à toute étape | Réservés aux **indications spécifiques** | Pas en première intention sans indication | Question fréquente en QCM |
 | **Initiation du traitement** | Grade 1 à faible risque : après 3–6 mois de mesures hygiéno-diététiques | Toute HTA ≥ 140/90 : traitement ; « PA élevée » ≥ 130/80 à haut risque : traitement après 3 mois | Stade 1 : selon PREVENT ≥ 7,5 %, diabète, MRC | Outils de risque différents (SCORE2 vs PREVENT) |
-| **Dénervation rénale** | Option (classe II) en centre expérimenté | Classe IIb en centre à volume moyen-élevé | Peut être envisagée chez des patients sélectionnés | Classes `[À VÉRIFIER]` |
+| **Dénervation rénale** | Option (classe II, niveau B) en centre expérimenté, DFGe > 40 | Classe IIb (niveau B) en centre à volume moyen-élevé | Peut être envisagée chez des patients sélectionnés | Recommandation de faible niveau des deux côtés de l'Atlantique |
 | **Dépistage de l'hyperaldostéronisme** | Ciblé (résistance, hypokaliémie, incidentalome, FA…) | Élargi à une large population d'hypertendus `[classe À VÉRIFIER]` | Élargi (notamment HTA résistante, apnées du sommeil) | Tendance commune à l'élargissement |
-| **Seuils hors cabinet** | AMT ≥ 135/85 ; MAPA 24 h ≥ 130/80 | Identiques pour l'HTA + seuils de « PA élevée » | Équivalences propres (AMT ≥ 130/80 pour le stade 1 `[À VÉRIFIER]`) | — |
+| **Seuils hors cabinet** | AMT ≥ 135/85 ; MAPA 24 h ≥ 130/80 | Identiques pour l'HTA + seuils de « PA élevée » | Équivalences propres (tableau ACC/AHA 2017 [S8] : 130/80 au cabinet ≈ AMT et MAPA diurne 130/80, MAPA nocturne 110/65, MAPA 24 h 125/75) | — |
 | **Référentiel français** | — | — | — | HAS/SFHTA 2016 [S5] : cible < 140/90 (cabinet), < 135/85 (AMT) ; antérieure aux essais récents, à interpréter avec sa date |
 
 **Divergence ESH 2023 vs ESC 2024 — comment répondre ?** Les deux sociétés européennes ont publié à un an d'intervalle des textes non fusionnés. Pour un énoncé « selon les recommandations européennes », préciser l'organisme : ESH 2023 (classification en grades, bêtabloquants de première ligne possibles, cibles selon l'âge) ou ESC 2024 (catégorie « PA élevée », cible 120–129 mmHg, bêtabloquants sur indication). En pratique algérienne, les deux référentiels sont utilisés ; la position nationale de la SAHA n'a pas pu être consultée `[À VÉRIFIER]`.
@@ -1042,5 +1054,7 @@ Concernant les effets indésirables des antihypertenseurs, quelles associations 
 8. **[S8]** Whelton PK, et al. 2017 ACC/AHA High Blood Pressure Guideline. *Hypertension.* 2018;71(6):e13-e115. — *Non vérifiée pendant la session.*
 9. **[S9]** SPRINT Research Group. *N Engl J Med.* 2015;373(22):2103-2116. — *Non vérifiée pendant la session.*
 10. **[S10]** Radio Algérie (presse), janvier 2025 — déclarations de la SAHA. — *Existence vérifiée ; source non scientifique.*
+
+> **Note d'audit (AUD-01/AUD-02, 2026-11-19)** : corrections et éléments restant à vérifier détaillés dans `00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0002.md`. Chiffres STEPS de [S6] recoupés par recherche web ; posologies vérifiées.
 
 > **Note de l'agent** : aucune recommandation n'a été lue en texte intégral (WebFetch indisponible). Les valeurs de classification et de cibles ESH 2023 / ESC 2024 proviennent de la connaissance de ces textes et de résumés secondaires ; les classes de recommandation et les posologies doivent être auditées.

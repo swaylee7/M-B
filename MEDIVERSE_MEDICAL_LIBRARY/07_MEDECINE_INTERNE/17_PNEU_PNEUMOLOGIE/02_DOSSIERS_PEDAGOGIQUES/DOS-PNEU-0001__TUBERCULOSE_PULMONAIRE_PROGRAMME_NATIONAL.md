@@ -6,11 +6,17 @@ sous_specialite: "Infections respiratoires et tuberculose"
 items_residanat: [RES-MED-042]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 / AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-PNEU-0001.md
 sources:
   - id: S1
     reference: "Ministère de la Santé, de la Population et de la Réforme Hospitalière (Direction de la prévention) / Institut National de Santé Publique. Programme national de lutte contre la tuberculose — Manuel de la lutte antituberculeuse à l'usage des personnels médicaux. Alger, édition 2011."
@@ -29,7 +35,7 @@ sources:
     doi: ""
     url: "https://www.sapp.dz/wp-content/uploads/2024/03/Instruction-n7-du-21-mars-24-relative-aux-directives-nationales-du-traitement-de-la-tuberculose.pdf"
     verifiee: true
-    remarque: "Existence confirmée (diffusé par la SAPP) ; contenu connu par extraits seulement."
+    remarque: "Existence confirmée (diffusé par la SAPP) ; contenu connu par extraits seulement. Audit AUD-04 (2026-11-19) : texte intégral toujours inaccessible (hôte sapp.dz non résolu) et contenu non retrouvé par recherche web ; toutes les affirmations sur son contenu restent « selon les extraits disponibles, à confirmer »."
   - id: S3
     reference: "Ministère de la Santé. Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier)."
     organisme: MSPRH
@@ -134,21 +140,23 @@ sources:
     url: ""
     verifiee: false
   - id: S15
-    reference: "Nahid P, Dorman SE, Alipanah N, et al. Official ATS/CDC/IDSA clinical practice guidelines: treatment of drug-susceptible tuberculosis. Clin Infect Dis. 2016;63(7):e147-e195 [référence à vérifier]."
+    reference: "Nahid P, Dorman SE, Alipanah N, et al. Official American Thoracic Society/Centers for Disease Control and Prevention/Infectious Diseases Society of America clinical practice guidelines: treatment of drug-susceptible tuberculosis. Clin Infect Dis. 2016;63(7):e147-e195."
     organisme: "ATS/CDC/IDSA"
     annee: 2016
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Audit AUD-04 (2026-11-19) : référence confirmée (PubMed 27516382) ; texte non consulté."
   - id: S16
-    reference: "Saukkonen JJ, Cohn DL, Jasmer RM, et al. An official ATS statement: hepatotoxicity of antituberculosis therapy. Am J Respir Crit Care Med. 2006;174(8):935-952 [référence à vérifier]."
+    reference: "Saukkonen JJ, Cohn DL, Jasmer RM, et al. An official ATS statement: hepatotoxicity of antituberculosis therapy. Am J Respir Crit Care Med. 2006;174(8):935-952."
     organisme: ATS
     annee: 2006
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.thoracic.org/statements/resources/mtpi/hepatotoxicity-of-antituberculosis-therapy.pdf"
+    verifiee: true
+    remarque: "Audit AUD-04 : référence et URL du texte ATS confirmées ; texte non consulté."
 mots_cles: [tuberculose, Mycobacterium tuberculosis, BAAR, Ziehl-Neelsen, GeneXpert, PNLAT, SCTMR, 2HRZE/4HR, TDO, BCG, infection tuberculeuse latente, Algérie]
 ---
 
@@ -156,7 +164,7 @@ mots_cles: [tuberculose, Mycobacterium tuberculosis, BAAR, Ziehl-Neelsen, GeneXp
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, aux directives nationales en vigueur (Instruction MS n°07 du 21 mars 2024) et aux protocoles locaux avant tout usage clinique.
-> **Avertissement de traçabilité** : le manuel national 2011 [S1] et l'instruction 2024 [S2] ont été identifiés et leur existence confirmée, mais leur texte intégral n'a pas pu être lu pendant la session de rédaction. Toute affirmation sur le programme algérien marquée `[À VÉRIFIER]` doit être confrontée au texte officiel.
+> **Audit (AUD-01/02/04, 2026-11-19)** : corrections requises (voir le rapport). **Avertissement de traçabilité** : le manuel national 2011 [S1] et l'instruction 2024 [S2] ont été identifiés et leur existence confirmée, mais leur texte intégral n'a pu être lu ni pendant la rédaction ni pendant l'audit (hôte inaccessible) : leur contenu est rapporté **selon les extraits disponibles, à confirmer** (état au 19/11/2026). Toute affirmation sur le programme algérien marquée `[À VÉRIFIER]` doit être confrontée au texte officiel.
 
 **Items du programme couverts** : RES-MED-042 — « Tuberculose pulmonaire : Bacille de la tuberculose - critères diagnostiques - programme national de lutte contre la tuberculose ».
 
@@ -506,8 +514,8 @@ Formes extrapulmonaires : pleurale, ganglionnaire (la plus fréquente en Algéri
 |---|---|---|---|---|
 | **Isoniazide (H)** | 5 (4–6) | 300 mg | 10 (7–15) | Hépatite ; **neuropathie périphérique** (prévention : pyridoxine) ; troubles neuropsychiques ; réactions cutanées |
 | **Rifampicine (R)** | 10 (8–12) | 600 mg | 15 (10–20) | Coloration **orange** des urines, larmes (lentilles souples) ; hépatite ; troubles digestifs ; réactions immuno-allergiques (thrombopénie, anémie hémolytique, insuffisance rénale aiguë, syndrome pseudo-grippal — surtout prise intermittente) ; **inducteur enzymatique puissant** |
-| **Pyrazinamide (Z)** | 25 (20–30) | — `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` | 35 (30–40) | **Hépatite** (dose-dépendante) ; hyperuricémie, arthralgies ; photosensibilisation |
-| **Éthambutol (E)** | 15 (15–20) | — `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` | 20 (15–25) | **Névrite optique rétrobulbaire** (baisse d'acuité, dyschromatopsie rouge-vert), dose-dépendante, majorée par l'insuffisance rénale |
+| **Pyrazinamide (Z)** | 25 (20–30) | Pas de plafond dans le dosage OMS par tranches de poids ; 2 g/j dans le tableau ATS/CDC/IDSA [S15] | 35 (30–40) | **Hépatite** (dose-dépendante) ; hyperuricémie, arthralgies ; photosensibilisation |
+| **Éthambutol (E)** | 15 (15–20) | Pas de plafond dans le dosage OMS par tranches de poids ; 1,6 g/j dans le tableau ATS/CDC/IDSA [S15] | 20 (15–25) | **Névrite optique rétrobulbaire** (baisse d'acuité, dyschromatopsie rouge-vert), dose-dépendante, majorée par l'insuffisance rénale |
 | Streptomycine (S) — *n'est plus utilisée dans les schémas de première ligne* | 15 (12–18) IM | 1 g | — | Ototoxicité (cochléo-vestibulaire), néphrotoxicité ; **contre-indiquée pendant la grossesse** |
 
 **Formes combinées à doses fixes (FDC).** Elles sont le standard des programmes : elles simplifient la prise et **empêchent la monothérapie sélective**. Formes adultes usuelles : **RHZE 150/75/400/275 mg** (phase intensive) et **RH 150/75 mg** (phase de continuation). Nombre de comprimés par jour selon le poids (tranches de poids de l'OMS) [S6, S10] :
@@ -535,7 +543,7 @@ Chez l'**enfant**, l'OMS recommande des formes **dispersibles** pédiatriques (R
 
 La notation se lit ainsi : le chiffre initial indique la durée en mois ; les lettres, les médicaments. **2HRZE** = 2 mois d'isoniazide + rifampicine + pyrazinamide + éthambutol (**phase intensive**) ; **4HR** = 4 mois d'isoniazide + rifampicine (**phase de continuation**). Les prises sont **quotidiennes**.
 
-L'**Instruction n°07 du 21 mars 2024** précise que ce schéma standard **doit être appliqué à tous les nouveaux cas, quelle que soit la localisation**, la **durée de la phase d'entretien dépendant de la localisation** [S2]. Les durées prolongées classiquement retenues par l'OMS concernent la **méningite tuberculeuse** (traitement total de l'ordre de 12 mois, avec possibilité d'un schéma intensif court de 6 mois dans certaines conditions selon l'OMS) et les **atteintes ostéo-articulaires** (9 à 12 mois) [S6] `[À VÉRIFIER : durées exactes fixées par l'instruction nationale pour chaque localisation]`.
+Selon les extraits disponibles de l'**Instruction n°07 du 21 mars 2024** (texte intégral non consulté, à confirmer), ce schéma standard **doit être appliqué à tous les nouveaux cas, quelle que soit la localisation**, la **durée de la phase d'entretien dépendant de la localisation** [S2]. Les durées prolongées classiquement retenues par l'OMS concernent la **méningite tuberculeuse** (traitement total de l'ordre de 12 mois, avec possibilité d'un schéma intensif court de 6 mois dans certaines conditions selon l'OMS) et les **atteintes ostéo-articulaires** (9 à 12 mois) [S6] `[À VÉRIFIER : durées exactes fixées par l'instruction nationale pour chaque localisation]`.
 
 **b) Cas déjà traités (rechute, échec, reprise après interruption).**
 
@@ -597,8 +605,9 @@ La surveillance de l'efficacité repose sur la **microscopie de l'expectoration*
  │    ou ALAT ≥ 5 × LSN même sans symptôme
  │      → ARRÊT de tous les médicaments hépatotoxiques (H, R, Z)
  │      → éliminer une autre cause (hépatites virales, alcool, autres médicaments)
- │      → si la maladie est grave/contagieuse : schéma provisoire non hépatotoxique
- │         (ex. éthambutol + streptomycine ou fluoroquinolone — avis spécialisé)
+ │      → si la maladie est grave/contagieuse : schéma provisoire d'au moins
+ │         3 médicaments non hépatotoxiques (ex. éthambutol + fluoroquinolone
+ │         + aminoside injectable) — avis spécialisé
  │      → quand ALAT < 2 × LSN : réintroduction SÉQUENTIELLE
  │         (rifampicine, puis isoniazide, puis discuter le pyrazinamide)
  │         avec contrôle des transaminases à chaque étape
@@ -736,7 +745,7 @@ Voir §13.3 : nouveau cas → 2HRZE/4HR ; déjà traité → recherche de résis
 3. **Tousseur > 2 semaines** = suspect : bactériologie avant toute antibiothérapie, **pas de fluoroquinolone** à l'aveugle.
 4. Certitude **bactériologique** (culture, test moléculaire, microscopie) ; l'**IDR/IGRA** ne diagnostique pas la maladie.
 5. Le **test moléculaire** détecte en 2 heures le BK **et la résistance à la rifampicine** ; indispensable chez le **déjà traité**.
-6. **2HRZE/4HR** quotidien en formes combinées pour **tous les nouveaux cas**, continuation prolongée selon la localisation ; **2SHRZE/1HRZE/5HRE abandonné** [S2].
+6. **2HRZE/4HR** quotidien en formes combinées pour **tous les nouveaux cas**, continuation prolongée selon la localisation ; **2SHRZE/1HRZE/5HRE abandonné** (instruction n°07/2024 selon les extraits disponibles, à confirmer [S2] ; abandon également par l'OMS).
 7. Surveillance : microscopie **M2, M5, M6** (OMS) ; **positivité à M5 = échec**.
 8. **Rifampicine** = inducteur enzymatique (contraception hormonale, AVK, ARV…).
 9. Programme national : SCTMR, TDO, gratuité, enregistrement, **déclaration obligatoire**, cohortes, enquête autour des cas ; IPA (référence) et INSP (surveillance).
@@ -864,7 +873,7 @@ Un homme de 48 ans, traité en 2019 pour une tuberculose pulmonaire et déclaré
 
 **Réponse(s) exacte(s) : A, C, E**
 
-*Corrigé commenté.* Tout nouvel épisode après un traitement déclaré guéri ou achevé est une rechute (cas déjà traité), quel que soit le délai. Le risque de résistance impose un bilan de sensibilité avant le choix du schéma. L'instruction n°07/2024 a abandonné le schéma 2SHRZE/1HRZE/5HRE.
+*Corrigé commenté.* Tout nouvel épisode après un traitement déclaré guéri ou achevé est une rechute (cas déjà traité), quel que soit le délai. Le risque de résistance impose un bilan de sensibilité avant le choix du schéma. Le schéma 2SHRZE/1HRZE/5HRE est abandonné par l'OMS et, selon les extraits disponibles (à confirmer), par l'instruction n°07/2024.
 
 - A — Vrai : définition de la rechute.
 - B — Faux : un patient déjà traité n'est jamais un nouveau cas.
@@ -947,9 +956,9 @@ Concernant les effets indésirables des antituberculeux, quelles associations so
 
 | Thème | Position A (organisme, date) | Position B (organisme, date) | Commentaire pratique |
 |---|---|---|---|
-| **Durée du traitement de la TP pharmacosensible** | **6 mois : 2HRZE/4HR** pour tous les nouveaux cas — Algérie, Instruction n°07 du 21/03/2024 [S2] ; reste l'option standard de l'OMS [S6] | **4 mois : 2HPZM/2HPM** (rifapentine + moxifloxacine) possible dès 12 ans — OMS, recommandations 2022 reprises dans le module 4 consolidé de 2025 [S6], fondées sur Study 31/A5349 [S8] | Le schéma de 4 mois exige la rifapentine (disponibilité non documentée en Algérie), utilise une fluoroquinolone (molécule clé des schémas TB-MR) et exclut certains terrains (grossesse, poids < 40 kg, certaines formes extrapulmonaires selon l'OMS) `[À VÉRIFIER]`. En Algérie, appliquer le schéma national |
+| **Durée du traitement de la TP pharmacosensible** | **6 mois : 2HRZE/4HR** pour tous les nouveaux cas — Algérie, Instruction n°07 du 21/03/2024 (selon les extraits disponibles, à confirmer) [S2] ; reste l'option standard de l'OMS [S6] | **4 mois : 2HPZM/2HPM** (rifapentine + moxifloxacine) possible dès 12 ans — OMS, recommandations 2022 reprises dans le module 4 consolidé de 2025 [S6], fondées sur Study 31/A5349 [S8] | Le schéma de 4 mois exige la rifapentine (disponibilité non documentée en Algérie), utilise une fluoroquinolone (molécule clé des schémas TB-MR) et exclut certains terrains (grossesse, poids < 40 kg, certaines formes extrapulmonaires selon l'OMS) `[À VÉRIFIER]`. En Algérie, appliquer le schéma national |
 | **Durée chez l'enfant (forme non grave)** | 6 mois (2HRZE/4HR) — directive nationale 2024 [S2] | **4 mois : 2HRZ(E)/2HR** chez l'enfant de 3 mois à 16 ans avec tuberculose non grave — OMS 2022/2025 [S6], essai SHINE [S9] | La définition de « non grave » (forme paucibacillaire, non cavitaire, limitée à un lobe, adénopathies intrathoraciques sans obstruction…) doit être appliquée strictement |
-| **Retraitement des cas déjà traités** | **2SHRZE/1HRZE/5HRE (8 mois)** — manuel national, édition 2011 [S1] | **Abandon** de ce schéma ; choix guidé par la recherche de résistance — Algérie, instruction 2024 [S2] ; OMS depuis 2017 environ [S6] | Le schéma de 2011 est **remplacé** : ne plus le proposer, sauf à le citer comme schéma historique |
+| **Retraitement des cas déjà traités** | **2SHRZE/1HRZE/5HRE (8 mois)** — manuel national, édition 2011 [S1] | **Abandon** de ce schéma ; choix guidé par la recherche de résistance — Algérie, instruction 2024 (selon les extraits disponibles, à confirmer) [S2] ; OMS depuis 2017 environ [S6] | Le schéma de 2011 est **remplacé** : ne plus le proposer, sauf à le citer comme schéma historique |
 | **Test diagnostique initial** | Microscopie de l'expectoration comme examen de base du programme (manuel 2011) [S1] | **Test moléculaire rapide** recommandé comme test initial chez tout suspect (OMS, module 3) [S14] | En Algérie, le GeneXpert est disponible mais son accès systématique à tous les suspects n'est pas documenté [S12] ; priorité aux déjà traités et aux suspects de résistance |
 | **Calendrier des contrôles bactériologiques** | M2, M5, M6 (OMS, Union) [S6, S10] | M2, M4, M6 dans certains supports nationaux `[À VÉRIFIER dans S1/S2]` | Se conformer au texte national en vigueur ; l'échec reste défini par une positivité à **M5 ou au-delà** (OMS) |
 | **Traitement préventif** | Isoniazide 6 mois (6H) — pratique historique des programmes, dont l'algérien `[À VÉRIFIER]` | Schémas courts à base de rifamycines (**3HR, 3HP, 1HP, 4R**) — OMS [S11] ; instruction algérienne ITL 2024 (contenu non consulté) [S3] | Les schémas courts améliorent l'achèvement du traitement ; la rifapentine n'est pas documentée en Algérie |
@@ -974,7 +983,7 @@ Détail complet (organisme, URL/DOI, statut de vérification) dans l'en-tête YA
 12. [S12] Yamouni F, et al. GeneXpert MTB/RIF en Algérie. Med Trop Sante Int 2024.
 13. [S13] Maghreb Info, 24/03/2021 (presse ; plan stratégique 2020–2024).
 14. [S14] WHO. Module 3: diagnosis — **non vérifiée**.
-15. [S15] Nahid P, et al. Clin Infect Dis 2016;63:e147-95 — **non vérifiée**.
-16. [S16] Saukkonen JJ, et al. Am J Respir Crit Care Med 2006;174:935-52 — **non vérifiée**.
+15. [S15] Nahid P, et al. Clin Infect Dis 2016;63:e147-95 (existence vérifiée à l'audit).
+16. [S16] Saukkonen JJ, et al. Am J Respir Crit Care Med 2006;174:935-52 (existence vérifiée à l'audit).
 
-> **Points à auditer en priorité** : (1) lire intégralement l'Instruction n°07/2024 [S2] pour confirmer les durées par localisation, le schéma de retraitement et l'algorithme de résistance ; (2) lire l'instruction ITL [S3] (schémas préventifs, cibles) ; (3) confirmer le calendrier des contrôles bactériologiques et les tranches de poids nationales ; (4) remplacer les sources de presse [S5, S13] par les publications INSP/MSPRH correspondantes ; (5) vérifier les références [S14–S16].
+> **Reste à faire après l'audit du 2026-11-19** : (1) lire intégralement l'Instruction n°07/2024 [S2] (hôte sapp.dz à autoriser) pour confirmer les durées par localisation, le schéma de retraitement et l'algorithme de résistance ; (2) lire l'instruction ITL [S3] (schémas préventifs, cibles) ; (3) confirmer le calendrier des contrôles bactériologiques et les tranches de poids nationales ; (4) remplacer les sources de presse [S5, S13] par les publications INSP/MSPRH correspondantes ; (5) vérifier les références [S14–S16].

@@ -101,7 +101,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - OMS — malnutrition aiguë / émaciation, alimentation complémentaire
 - OMS — soins du prématuré et du nouveau-né de faible poids
@@ -134,7 +133,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Société française de pédiatrie / Groupe francophone de réanimation et d'urgences pédiatriques — thèmes d'urgence
 - GINA — asthme de l'enfant ; ISPAD — diabète de l'enfant
@@ -164,7 +162,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Lignes directrices de réanimation néonatale (ILCOR / ERC / AAP-NRP)
 
@@ -191,7 +188,6 @@ Durée prise en compte : **5 ans** (durée officielle). Les gardes, la répartit
 
 **Gardes**
 - Gardes en **autonomie** (contrôle a posteriori) et organisation de la continuité des soins.
-
 
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
@@ -229,7 +225,7 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - Dossier de la spécialité `NEON` (Néonatologie) : [`09_PEDIATRIE/30_NEON_NEONATOLOGIE/`](../../09_PEDIATRIE/30_NEON_NEONATOLOGIE/)
 
 **Dossiers pédagogiques** (5)
-- [DOS-PEDI-0001 — Déshydratations aiguës du nourrisson : diagnostic, évolution, traitement](../../09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0001__DESHYDRATATIONS_AIGUES_DU_NOURRISSON.md) — statut : brouillon_a_auditer
+- [DOS-PEDI-0001 — Déshydratations aiguës du nourrisson : diagnostic, évolution, traitement](../../09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0001__DESHYDRATATIONS_AIGUES_DU_NOURRISSON.md) — statut : audite_corrections_requises
 - [DOS-PEDI-0002 — Vaccinations : bases immunologiques, contre-indications, programme élargi de vaccination (calendrier vaccinal national algérien)](../../09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0002__VACCINATIONS_BASES_IMMUNOLOGIQUES_CONTRE_INDICATIONS_PEV.md) — statut : brouillon_a_auditer
 - [DOS-PEDI-0003 — Malnutrition protéino-calorique de l'enfant : diagnostic, évolution, traitement](../../09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0003__MALNUTRITION_PROTEINO_CALORIQUE.md) — statut : brouillon_a_auditer
 - [DOS-NEON-0001 — Ictère néonatal : diagnostic, prévention, traitement](../../09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0001__ICTERE_NEONATAL.md) — statut : brouillon_a_auditer
@@ -237,12 +233,10 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 **QCM originaux** : 60 (codes PEDI, NEON) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 10 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (50)
+**Recommandations cataloguées** : 47 en vigueur (+ 3 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0001 — Arrêté du 19 Chaoual 1439 correspondant au 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (Ministère de la santé, de la population et de la réforme hospitalière (MSPRH) — Algérie, 2018-08 (JORADP n°49 du 8 août 2018 ; arrêté signé le 3 juillet 2018) ; statut : partiellement_mise_a_jour)
 - REC-0002 — Arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026 complétant l'arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (Ministère de la santé — Algérie, 2026-05 (JORADP n°36 du 17 mai 2026 ; arrêté signé le 28 avril 2026) ; statut : actuelle)
-- REC-0003 — Arrêté du Aouel Safar 1436 correspondant au 24 novembre 2014 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (Ministère de la santé, de la population et de la réforme hospitalière (MSPRH) — Algérie, 2014-12 (JORADP n°75 du 28 décembre 2014) ; statut : remplacee)
 - REC-0240 — 2026 Global Initiative for Asthma (GINA) strategy report: executive summary and key changes (GINA (Global Initiative for Asthma), 2026-11 ; statut : actuelle)
-- REC-0241 — Global Initiative for Asthma Strategy 2021: executive summary and rationale for key changes (GINA, 2021-12 ; statut : remplacee)
 - REC-0261 — WHO consolidated guidelines on tuberculosis: module 4: treatment and care (2nd edition, 2026) (OMS, 2026-09 ; statut : actuelle)
 - REC-0264 — WHO consolidated guidelines on tuberculosis: module 5: management of tuberculosis in children and adolescents (2022) (OMS, 2022-03 ; statut : partiellement_mise_a_jour)
 - REC-0267 — Surviving Sepsis Campaign International Guidelines for the Management of Septic Shock and Sepsis-Associated Organ Dysfunction in Children (Surviving Sepsis Campaign (SCCM / ESICM), 2020-02 ; statut : actuelle)
@@ -268,7 +262,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0431 — Guideline on haemoglobin cutoffs to define anaemia in individuals and populations (OMS, 2024-03 ; statut : actuelle)
 - REC-0432 — Urinary tract infection: clinical practice guideline for the diagnosis and management of the initial UTI in febrile infants and children 2 to 24 months (AAP, 2011-08 ; statut : actuelle)
 - REC-0433 — Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation (AAP, 2022-09 ; statut : actuelle)
-- REC-0434 — Management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation (AAP, 2004-07 ; statut : remplacee)
 - REC-0435 — Neurodiagnostic evaluation of the child with a simple febrile seizure (AAP, 2011-02 ; statut : actuelle)
 - REC-0436 — The diagnosis and management of acute otitis media (AAP, 2013-02 ; statut : actuelle)
 - REC-0437 — Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old (AAP, 2021-07 ; statut : actuelle)

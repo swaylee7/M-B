@@ -23,7 +23,7 @@ statut: brouillon_a_auditer
 |---|---|---|
 | Intitulé | Infectiologie (maladies infectieuses) | intitulé français de l'annexe de l'arrêté 1001/2024 (DOC-00020) |
 | Intitulé arabe | الأمراض المعدية | annexe de l'arrêté 1137/2015 (DOC-00066) |
-| Filière | spécialités médicales | Arrêté 1137 du 04/11/2015, annexe, tableau « médecine », n°11 (5 ans)  |
+| Filière | spécialités médicales | Arrêté 1137 du 04/11/2015, annexe, tableau « médecine », n°11 (5 ans) |
 | Durée de formation | **4 ans** (5 ans dans l'annexe 2015, durée modifiée) | Arrêté 1137 du 04/11/2015, annexe, tableau « médecine », n°11 (5 ans) ; Arrêté 1503 du 09/12/2024, art. 2 (4 ans) (DOC-00066, DOC-00020, DOC-00013) |
 | Texte de programme | Arrêté 1503 du 09/12/2024 (durée fixée ; programme en annexe **non publiée au BO**) | DOC-00013 |
 | Jury national 2024-2025 | oui | arrêté 1001 du 29/07/2024 (DOC-00020) |
@@ -102,7 +102,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en **premier appel**, senior joignable ; débriefing systématique des situations graves le lendemain.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - SPILF (France) — antibiothérapie des infections courantes et graves
 - IDSA / ESCMID — infections spécifiques et bactéries multirésistantes
@@ -135,7 +134,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes de spécialité avec **autonomie décisionnelle encadrée** ; supervision des internes et des résidents de 1re année.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - OMS — prévention et contrôle des infections (composantes essentielles, catalogue)
 
@@ -162,7 +160,6 @@ Durée prise en compte : **4 ans** (durée officielle). Les gardes, la répartit
 **Gardes**
 - Gardes en position de **senior junior** : hiérarchisation des urgences du service, recours aux autres spécialités au bon moment.
 
-
 **Lectures de recommandations** (organisme — thème ; **version en vigueur à vérifier** au moment de la lecture)
 - Relire la **version en vigueur** de toutes les recommandations lues pendant le cursus et noter les changements récents (sujets d'examen fréquents).
 
@@ -176,14 +173,14 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 
 | Situation | Palier | Dossier existant dans la bibliothèque |
 |---|---|---|
-| Sepsis et choc septique | A | — (à rédiger) |
+| Sepsis et choc septique | A | [DOS-MINT_REA-0001](../../13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md) |
 | Méningite bactérienne (dont purpura fulminans) | A | [DOS-INFE-0001](../../07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0001__MENINGITES_PURULENTES.md) |
 | Paludisme grave | A | — (à rédiger) |
 | Accident d'exposition au sang et sexuelle | A | — (à rédiger) |
 | Méningo-encéphalite herpétique | A | — (à rédiger) |
 | Fièvre chez le neutropénique | B | — (à rédiger) |
 | Tétanos | B | — (à rédiger) |
-| Rage : exposition et prophylaxie post-exposition | B | — (à rédiger) |
+| Rage : exposition et prophylaxie post-exposition | B | [DOS-URGE-0002](../../13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0002__MORSURES_ET_ENVENIMATIONS.md) |
 | Fasciite nécrosante | B | — (à rédiger) |
 | Fièvre hémorragique virale suspecte (isolement, alerte) | C | — (à rédiger) |
 | Botulisme | C | — (à rédiger) |
@@ -194,21 +191,18 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - Dossier de la spécialité `INFE` (Infectiologie) : [`07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/`](../../07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/)
 
 **Dossiers pédagogiques** (2)
-- [DOS-INFE-0001 — Méningites purulentes : diagnostic, pronostic, traitement](../../07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0001__MENINGITES_PURULENTES.md) — statut : brouillon_a_auditer
-- [DOS-INFE-0002 — Brucellose : diagnostic et traitement](../../07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0002__BRUCELLOSE.md) — statut : brouillon_a_auditer
+- [DOS-INFE-0001 — Méningites purulentes : diagnostic, pronostic, traitement](../../07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0001__MENINGITES_PURULENTES.md) — statut : audite_corrections_requises
+- [DOS-INFE-0002 — Brucellose : diagnostic et traitement](../../07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0002__BRUCELLOSE.md) — statut : audite_corrections_requises
 
 **QCM originaux** : 25 (codes INFE) — banque : [`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/`](../../21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/) ; **cas cliniques** : 4 — [`20_CAS_CLINIQUES/`](../../20_CAS_CLINIQUES/). Aucune annale officielle du DEMS n'a été acquise.
 
-**Recommandations cataloguées** (60)
+**Recommandations cataloguées** : 55 en vigueur (+ 5 remplacée(s) ou archivée(s), voir le catalogue) — références datées des thèmes cités en partie C
 - REC-0001 — Arrêté du 19 Chaoual 1439 correspondant au 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (Ministère de la santé, de la population et de la réforme hospitalière (MSPRH) — Algérie, 2018-08 (JORADP n°49 du 8 août 2018 ; arrêté signé le 3 juillet 2018) ; statut : partiellement_mise_a_jour)
 - REC-0002 — Arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026 complétant l'arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (Ministère de la santé — Algérie, 2026-05 (JORADP n°36 du 17 mai 2026 ; arrêté signé le 28 avril 2026) ; statut : actuelle)
-- REC-0003 — Arrêté du Aouel Safar 1436 correspondant au 24 novembre 2014 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (Ministère de la santé, de la population et de la réforme hospitalière (MSPRH) — Algérie, 2014-12 (JORADP n°75 du 28 décembre 2014) ; statut : remplacee)
 - REC-0004 — Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire (Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé), 2022-07 (JORADP n°47 du 11 juillet 2022) ; statut : actuelle)
 - REC-0005 — Décret exécutif n°22-211 du 5 juin 2022 fixant la liste des maladies transmissibles concernées par le dépistage anonyme et gratuit (Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé), 2022-06 (JORADP n°40 du 15 juin 2022) ; statut : actuelle)
 - REC-0006 — Décret exécutif n°24-366 du 7 novembre 2024 relatif au certificat médical et aux examens et analyses prénuptiaux (Gouvernement algérien (rapport conjoint du ministre de la justice et du ministre de la santé), 2024-11 (JORADP n°76 du 13 novembre 2024) ; statut : actuelle)
 - REC-0216 — 2023 ESC Guidelines for the management of endocarditis (ESC, 2023-10 ; statut : actuelle)
-- REC-0217 — 2015 ESC Guidelines for the management of infective endocarditis (ESC, 2015-08 ; statut : remplacee)
-- REC-0245 — Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America (ATS / IDSA, 2019-10 ; statut : remplacee)
 - REC-0246 — Diagnosis and Management of Community-acquired Pneumonia: An Official American Thoracic Society Clinical Practice Guideline (ATS (American Thoracic Society), 2026-01 ; statut : actuelle)
 - REC-0247 — ERS/ESICM/ESCMID/ALAT guidelines for the management of severe community-acquired pneumonia (ERS / ESICM / ESCMID / ALAT, 2023-04 ; statut : actuelle)
 - REC-0248 — International ERS/ESICM/ESCMID/ALAT guidelines for the management of hospital-acquired pneumonia and ventilator-associated pneumonia: Guidelines for the management of hospital-acquired pneumonia (HAP)/ventilator-associated pneumonia (VAP) of the European Respiratory Society (ERS), European Society of Intensive Care Medicine (ESICM), European Society of Clinical Microbiology and Infectious Diseases (ESCMID) and Asociación Latinoamericana del Tórax (ALAT) (ERS / ESICM / ESCMID / ALAT, 2017-09 ; statut : actuelle)
@@ -218,7 +212,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0262 — WHO consolidated guidelines on tuberculosis: module 3: diagnosis (2026) (OMS, 2026-11 ; statut : actuelle)
 - REC-0263 — WHO consolidated guidelines on tuberculosis: module 1: prevention: tuberculosis preventive treatment (2024) (OMS, 2024-08 ; statut : actuelle)
 - REC-0264 — WHO consolidated guidelines on tuberculosis: module 5: management of tuberculosis in children and adolescents (2022) (OMS, 2022-03 ; statut : partiellement_mise_a_jour)
-- REC-0265 — Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021 (Surviving Sepsis Campaign (SCCM / ESICM), 2021-10 ; statut : remplacee)
 - REC-0266 — Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock 2026 (Surviving Sepsis Campaign (SCCM / ESICM), 2026-05 ; statut : actuelle)
 - REC-0267 — Surviving Sepsis Campaign International Guidelines for the Management of Septic Shock and Sepsis-Associated Organ Dysfunction in Children (Surviving Sepsis Campaign (SCCM / ESICM), 2020-02 ; statut : actuelle)
 - REC-0268 — The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) (SCCM / ESICM (Sepsis-3 Task Force), 2016-02 ; statut : actuelle)
@@ -244,7 +237,6 @@ Liste originale Mediverse (palier A = dès la 1re année ; B = 2e année ; C = 3
 - REC-0288 — Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans (WHO-IWGE (groupe de travail informel OMS sur l'échinococcose), 2009-11 ; statut : actuelle)
 - REC-0289 — Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations (Groupe d'experts (recommandations d'Ioannina), 2007-12 ; statut : actuelle)
 - REC-0290 — The management of intra-abdominal infections from a global perspective: 2017 WSES guidelines for management of intra-abdominal infections (WSES (World Society of Emergency Surgery), 2017-07 ; statut : actuelle)
-- REC-0340 — EASL 2017 Clinical Practice Guidelines on the management of hepatitis B virus infection (EASL, 2017-04 ; statut : remplacee)
 - REC-0341 — EASL Clinical Practice Guidelines on the management of hepatitis B virus infection (2025) (EASL, 2025-05 ; statut : actuelle)
 - REC-0342 — EASL recommendations on treatment of hepatitis C: Final update of the series (EASL, 2020-09 ; statut : actuelle)
 - REC-0349 — Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report (European Helicobacter and Microbiota Study Group, 2022-08 ; statut : actuelle)
