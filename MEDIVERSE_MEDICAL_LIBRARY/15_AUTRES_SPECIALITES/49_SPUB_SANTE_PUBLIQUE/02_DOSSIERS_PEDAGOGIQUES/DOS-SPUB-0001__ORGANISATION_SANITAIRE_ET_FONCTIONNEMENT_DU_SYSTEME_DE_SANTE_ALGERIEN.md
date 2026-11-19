@@ -420,3 +420,114 @@ Au sein des EPSP et EPH fonctionnent classiquement des **services d'épidémiolo
 
 - **Centres de cure** (moyens thérapeutiques naturels : sources thermales, boues, climat) et **centres de réadaptation** (rééducation fonctionnelle, physique ou mentale), agréés par le ministre (art. 274-275).
 - Structures relevant d'autres ministères (défense nationale, solidarité, éducation, travail…) : soumises à l'autorisation et au contrôle technique du ministre de la santé (art. 276), à l'exception des structures du ministère de la défense nationale pour ce qui concerne les art. 276 et 318 (art. 442).
+
+---
+
+## 6. Le secteur privé de santé (art. 305-315) [S1]
+
+- **Définition** : structures d'exploration et/ou de soins et d'hospitalisation en relation avec la santé humaine (art. 305).
+- **Création** conforme aux normes de la carte sanitaire et aux priorités du schéma d'organisation sanitaire ; conditions techniques fixées par le ministre (art. 306).
+- **Autorisation du ministre** pour la réalisation, l'ouverture, l'exploitation, l'extension, le transfert, la fermeture, la conversion, le regroupement, ainsi que pour l'acquisition de certains équipements soumis à normes (art. 307).
+- **Formes d'exercice** : établissements hospitaliers privés, établissements de soins et/ou de diagnostic, structures d'exercice de groupe ou individuel, laboratoires d'analyses, officines et établissements pharmaceutiques, transport sanitaire agréé (art. 308) ; création possible par toute personne physique ou morale, notamment les **mutuelles sociales** (art. 309).
+- **Contrôle et évaluation** par les services du ministère (art. 310) ; **retrait** de l'autorisation en cas de non-respect des conditions, d'infraction ou d'insécurité des malades (art. 314) ; **fermeture** par le ministre, ou par le wali pour 3 mois au plus (art. 315).
+- **Mission de service public** : un établissement privé peut en être investi selon un **cahier des charges** (prestations, durée, modalités), notamment pour couvrir les **zones à couverture sanitaire insuffisante** dans le cadre de programmes nationaux ou régionaux ; les dépenses correspondantes sont régies par des **conventions** avec le ministère (art. 311-312).
+- Respect des règles d'**information du public** et de **tarification** (art. 313).
+
+La loi organise donc une **complémentarité** encadrée (art. 16, 265) plutôt qu'une concurrence : le secteur public reste le pilier (art. 5), le privé est autorisé, contrôlé et peut être associé au service public.
+
+---
+
+## 7. Organismes nationaux d'appui (sélection)
+
+| Organisme | Rôle (synthèse) | Base / statut de la vérification |
+|---|---|---|
+| Observatoire national de la santé | Analyse de l'état de santé, priorités, rapport annuel | Loi 18-11, art. 11 [S1] ; texte d'organisation `[À VÉRIFIER]` |
+| Agence nationale des produits pharmaceutiques | Enregistrement, homologation et contrôle des produits pharmaceutiques et dispositifs médicaux | Prévue par la loi (art. 448 : continuité des missions jusqu'à sa mise en place) [S1] ; organisation `[À VÉRIFIER]` |
+| Agence nationale de numérisation en santé | Numérisation du secteur (réorganisation de l'agence nationale de documentation de la santé créée en 1995) | Décret 22-251 [S5] ; missions détaillées non consultées |
+| Comité national multisectoriel de prévention et de lutte contre les maladies non transmissibles | Coordination intersectorielle MNT | Loi 18-11, art. 48 [S1] |
+| Service de contrôle sanitaire aux frontières | Postes sanitaires aux points d'entrée ; application du Règlement sanitaire international | Loi 18-11, art. 42-44 [S1] |
+| Conseils nationaux et régionaux de déontologie médicale | Inscription au tableau, discipline, déontologie | Loi 18-11, art. 166, 447 [S1] |
+| Institut national de santé publique (INSP) | Surveillance épidémiologique, études, rapports (ex. tuberculose, MDO) | Existence avérée (publications en ligne) ; texte de création et missions `[À VÉRIFIER]` |
+| Institut Pasteur d'Algérie | Laboratoires de référence, vaccins et sérums | Existence avérée ; texte de base `[À VÉRIFIER]` |
+| Pharmacie centrale des hôpitaux, Agence nationale du sang, centre national de pharmacovigilance et de matériovigilance, laboratoire national de contrôle des produits pharmaceutiques | Approvisionnement hospitalier, transfusion, vigilances, contrôle qualité | `[À VÉRIFIER — textes de création et rattachements actuels]` |
+
+---
+
+## 8. Les professionnels de santé
+
+### 8.1 Conditions d'exercice (titre IV) [S1]
+
+- Est professionnel de santé toute personne exerçant dans une structure de santé et concourant à la prestation de soins ; les personnels des services extérieurs chargés de missions techniques, d'enquêtes épidémiologiques, de contrôle et d'inspection le sont aussi (art. 165).
+- Conditions : nationalité algérienne, diplôme algérien ou équivalent reconnu, droits civiques, aptitude, **inscription au tableau de l'ordre** de la profession (art. 166) `[conditions complètes et exceptions : voir le texte]`.
+- **Formation continue** : un droit et une obligation (art. 170).
+- **Praticiens inspecteurs** assermentés, rattachés aux services extérieurs, chargés de rechercher et constater les infractions (art. 189-195).
+- **Service civil** : les praticiens spécialistes y sont assujettis (loi 84-10) et doivent l'accomplir dans les structures **publiques**, selon les besoins de la carte sanitaire, **avant** d'exercer dans le privé ; des mesures incitatives sont prévues, notamment pour les wilayas du **Sud** et des **Hauts-Plateaux** (art. 196-197) [S1, S12].
+- **Obligations médico-légales** : signaler les violences subies par les personnes vulnérables (femmes, enfants, personnes âgées, incapables, personnes privées de liberté) (art. 198) ; établir le certificat médical constatant le décès (art. 204).
+
+### 8.2 Formation médicale spécialisée
+
+La formation des spécialistes passe par le **résidanat** (concours national d'accès), le statut de **résident** étant fixé par le décret n° 11-236 (accès par concours national, modalités par arrêté conjoint des ministres de l'enseignement supérieur et de la santé) [S15], et par le cycle du **DEMS** organisé par l'arrêté n° 1137 du 4 novembre 2015 (durée de 4 ou 5 ans selon la spécialité, examens nationaux, examen final théorique et pratique) [S16]. Les CHU, en convention avec les facultés (art. 278), sont les lieux principaux de cette formation.
+
+---
+
+## 9. Le financement du système national de santé
+
+### 9.1 Les financeurs (art. 329-338) [S1]
+
+| Financeur | Rôle prévu par la loi |
+|---|---|
+| **État** | Finance le secteur public au titre de la **prévention**, de la **formation**, de la **recherche** et de la prise en charge des **démunis** et personnes en difficulté (art. 329) ; inscrit au budget les crédits des établissements publics (art. 300) ; veille à l'équilibre financier du secteur public (art. 337) |
+| **Organismes de sécurité sociale** | Contribuent à la couverture des frais des soins dispensés par les établissements publics aux **assurés sociaux et ayants droit**, **sur une base contractuelle** avec le ministère (art. 330) |
+| **Collectivités locales** | Programmes d'investissement, de prévention, d'hygiène et d'éducation pour la santé (art. 331) |
+| **Entreprises économiques** | Médecine du travail et promotion de la santé (art. 332) |
+| **Assurances économiques** | Remboursement des frais liés notamment aux dommages corporels (art. 333) |
+| **Bénéficiaires des soins** | Peuvent être appelés à contribuer, dans le respect de la loi (art. 334) |
+
+S'y ajoutent : la **nomenclature des actes professionnels** (art. 335), la fixation par le ministre des tarifs des prestations autres que les actes médicaux (art. 336), et la publication annuelle des **comptes nationaux de la santé** (art. 338).
+
+### 9.2 La sécurité sociale
+
+La loi n° 83-11 relative aux assurances sociales (modifiée) fonde la couverture maladie des assurés [S11]. Deux caisses nationales sont classiquement décrites : la **CNAS** (travailleurs salariés) et la **CASNOS** (non-salariés) ; le remboursement des médicaments en officine s'appuie sur la carte électronique **Chifa** et sur le tiers payant pour certaines catégories (malades chroniques, retraités…) — détails, taux et catégories `[À VÉRIFIER — textes de la sécurité sociale]`. Historiquement, la contribution de la sécurité sociale aux hôpitaux publics a pris la forme d'une dotation globale (« forfait hospitalier ») ; la loi de 2018 prévoit une contribution **contractualisée** (art. 330) et un financement des établissements par **contrats d'objectifs et de performance** (art. 301) — état de mise en œuvre `[À VÉRIFIER]`.
+
+### 9.3 Gratuité des soins : principe et limites
+
+La gratuité des soins dans le secteur public, instituée en 1974 [S9], est réaffirmée par la loi (art. 13). Elle coexiste avec : la participation possible des bénéficiaires (art. 334), les dépenses des ménages dans le secteur privé (consultations, examens, cliniques) et l'achat de médicaments en officine (en partie remboursés). La **part des paiements directs des ménages** dans la dépense de santé est un indicateur clé d'équité ; sa valeur pour l'Algérie doit être recherchée dans les comptes nationaux de la santé ou les bases de l'OMS `[À VÉRIFIER — aucune valeur citée ici]`.
+
+---
+
+## 10. Programmes nationaux et santé publique
+
+La loi définit les **programmes de santé** comme l'ensemble des actions et des moyens mobilisés pour assurer des prestations préventives et curatives contre une pathologie ou un groupe de pathologies (art. 8) ; l'État met en place des programmes de protection et en assure la mise en œuvre (art. 31) [S1].
+
+| Domaine | Base légale / réglementaire | Contenu (synthèse) |
+|---|---|---|
+| Maladies transmissibles | Art. 38-41 ; décret 22-250 [S2] | Liste des **MDO** en deux catégories (surveillance nationale / internationale) ; **déclaration sans délai** de tout cas suspect ou confirmé par tout praticien ; modalités de déclaration par arrêté |
+| Dépistage anonyme et gratuit | Art. 37 ; décret 22-211 [S3] | Hépatites B et C, chlamydiose, VIH/sida, urétrite gonococcique, syphilis |
+| Vaccinations | Art. 40-41 ; arrêtés du 3 juillet 2018 et du 28 avril 2026 [S17] | Vaccinations obligatoires **gratuites** ; calendrier fixé par arrêté ; campagnes en cas de risque épidémique |
+| Maladies à propagation internationale | Art. 42-44 | Règlement sanitaire international ; contrôle sanitaire aux frontières |
+| Maladies non transmissibles | Art. 45-48 | Plans nationaux multisectoriels ; dépistage gratuit de certaines MNT (liste ministérielle) ; **registres** ; comité national multisectoriel |
+| Facteurs de risque | Art. 49 et suivants | Lutte contre le tabagisme (interdiction de la publicité, avertissements sanitaires), promotion des modes de vie sains |
+| Santé de la mère et de l'enfant | Art. 69 et suivants | Protection maternelle et infantile, périnatalité |
+| Adolescents, personnes âgées, personnes en difficulté | Art. 84-91 ; loi 10-12 [S13] | Programmes spécifiques ; soins et hospitalisation à domicile des personnes âgées (art. 86-87) ; gratuité pour les personnes en difficulté (art. 89-90) |
+| Santé au travail, milieu pénitentiaire, santé mentale | Art. 92 et suivants, 101, 103 | Programmes dédiés |
+| Environnement, éducation pour la santé | Art. 106 et suivants, 120 et suivants | Hygiène du milieu ; éducation sanitaire |
+
+Les programmes verticaux historiques (lutte antituberculeuse, programme élargi de vaccination, lutte contre le paludisme…) sont traités dans les dossiers spécialisés (ex. DOS-PNEU-0001 pour la tuberculose).
+
+---
+
+## 11. Système d'information sanitaire et obligations déclaratives du médecin
+
+- **Système national d'information sanitaire** : intègre toutes les données sanitaires, interopérable avec les autres secteurs ; adhésion **obligatoire** des structures publiques et privées ; confidentialité ; gestion sous la responsabilité des chefs d'établissement (art. 319-323) [S1]. L'**agence nationale de numérisation en santé** (2022) en est un outil institutionnel [S5].
+- **Déclaration obligatoire** des maladies de la liste du décret 22-250 : tout praticien, sans délai, cas suspects et confirmés (art. 39) [S1, S2].
+- **Certificat médical de décès** : établi par tout médecin (fonctionnaire, contractuel, militaire ou libéral) sur le modèle réglementaire ; partie supérieure nominative pour l'état civil, partie inférieure **anonyme** portant les causes médicales, close par le médecin et transmise par la commune à la direction de wilaya chargée de la santé ; en cas de mort violente ou suspecte, seule la partie supérieure est remplie et l'autorité compétente est avisée ; certificat numérique possible, interconnecté au registre national électronique de l'état civil (décret 22-178, art. 2-9) [S4].
+- **Registres** de certaines maladies non transmissibles (art. 47) ; **dossier médical unique** (art. 26, 292).
+- **Comptes nationaux de la santé** (art. 338) et **rapport annuel** de l'observatoire national de la santé (art. 11).
+
+---
+
+## 12. Qualité, évaluation et audit
+
+- Chaque établissement assurant un service public élabore un **projet d'établissement** et un **plan de démarche qualité** (art. 290), décliné en contrats et projets de service (art. 301).
+- **Évaluation interne** obligatoire de la gestion, des activités et des pratiques professionnelles, avec rapport transmis aux services du ministère (art. 325-326) ; **audit** à la demande de l'établissement, réalisé par les services du ministère, sur la base de normes, d'indicateurs et de référentiels (art. 327) ; démarches diagnostiques et thérapeutiques fondées sur des **consensus factuels** régulièrement mis à jour (art. 265) [S1].
+- Indicateurs de qualité devenus réglementaires : les **infections du site opératoire**, les **pneumopathies acquises sous ventilation mécanique** et les **infections à bactéries multirésistantes** figurent parmi les MDO (décret 22-250) [S2].
