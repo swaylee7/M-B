@@ -591,3 +591,191 @@ Patient de 66 ans sans comorbidité majeure : éligibilité à l'autogreffe à d
 - Oublier que les **anti-CD38** perturbent les **tests de compatibilité transfusionnelle** (prévenir l'établissement de transfusion, phénotype avant traitement).
 - Classer un **pic IgM** comme myélome sans éliminer une maladie de Waldenström.
 - Interpréter une **β2-microglobuline** élevée sans tenir compte de l'insuffisance rénale (elle s'élève aussi par défaut d'élimination).
+
+---
+
+## 20. QCM d'auto-évaluation
+
+> 10 QCM originaux Mediverse (réponses multiples possibles) ; la banque structurée en contient 12 pour cet item (`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-08.json`).
+
+**QCM 1** (`QCM-HEMA-0837`) — Selon les critères de l'IMWG (2014), quels éléments constituent des événements définissant le myélome ?
+
+- A. Calcémie > 2,75 mmol/L attribuable à la prolifération plasmocytaire.
+- B. Clairance de la créatinine < 40 mL/min attribuable au myélome.
+- C. Plasmocytose médullaire clonale ≥ 60 %.
+- D. Rapport chaînes légères libres impliquée/non impliquée ≥ 100.
+- E. Pic monoclonal sérique ≥ 30 g/L isolé.
+
+**QCM 2** (`QCM-HEMA-0838`) — Un homme de 63 ans a un pic IgG κ à 18 g/L découvert fortuitement ; plasmocytose médullaire 6 % ; hémogramme, calcémie, créatinine et scanner corps entier normaux. Quelles propositions sont exactes ?
+
+- A. Il s'agit d'une MGUS.
+- B. Un traitement par lénalidomide est indiqué.
+- C. Une surveillance clinique et biologique est recommandée.
+- D. Le risque de progression vers un myélome est d'environ 1 % par an.
+- E. La normalité du rapport des chaînes légères libres est un élément pronostique favorable.
+
+**QCM 3** (`QCM-HEMA-0839`) — Concernant le bilan protéique d'un myélome à chaînes légères, quelles propositions sont exactes ?
+
+- A. L'électrophorèse des protéines sériques peut ne pas montrer de pic.
+- B. Une hypogammaglobulinémie est évocatrice.
+- C. La bandelette urinaire détecte de façon fiable la protéinurie de Bence Jones.
+- D. Le dosage des chaînes légères libres sériques est indispensable.
+- E. L'immunofixation urinaire permet de typer la protéinurie.
+
+**QCM 4** (`QCM-HEMA-0840`) — Concernant l'imagerie du myélome multiple selon les recommandations européennes, quelles propositions sont exactes ?
+
+- A. Le scanner corps entier faible dose est plus sensible que les radiographies standard pour détecter les lésions lytiques.
+- B. La scintigraphie osseuse est l'examen de référence.
+- C. L'IRM est l'examen de choix devant une suspicion de compression médullaire.
+- D. Plus d'une lésion focale en IRM constitue un événement définissant le myélome.
+- E. L'injection de produit de contraste iodé est sans risque rénal dans le myélome.
+
+**QCM 5** (`QCM-HEMA-0841`) — Concernant les systèmes pronostiques du myélome, quelles propositions sont exactes ?
+
+- A. L'ISS repose sur la β2-microglobuline et l'albumine.
+- B. Le R-ISS intègre la cytogénétique de haut risque et les LDH.
+- C. Dans le R-ISS, del(17p), t(4;14) et t(14;16) sont des anomalies de haut risque.
+- D. Le R2-ISS attribue des points au gain/amplification 1q.
+- E. Le R2-ISS a été construit à partir de moins de 500 patients.
+
+**QCM 6** (`QCM-HEMA-0842`) — Un myélomateux de 70 ans présente une créatinine passée de 110 à 410 µmol/L en 10 jours après la prise d'ibuprofène ; chaînes légères λ libres à 6 200 mg/L. Quelles mesures sont adaptées ?
+
+- A. Arrêt de l'ibuprofène.
+- B. Hydratation abondante si l'état cardiaque le permet.
+- C. Traitement antimyélomateux immédiat à base de bortezomib et de dexaméthasone.
+- D. Scanner abdominal avec injection de produit de contraste iodé pour explorer les reins.
+- E. Différer le traitement du myélome jusqu'à la récupération rénale.
+
+**QCM 7** (`QCM-HEMA-0843`) — Un myélomateux présente des rachialgies dorsales intenses depuis 48 heures, une faiblesse des membres inférieurs et une rétention urinaire. Quelles propositions sont exactes ?
+
+- A. Une compression médullaire doit être suspectée.
+- B. Une IRM médullaire en urgence est indiquée.
+- C. Une dexaméthasone à forte dose doit être débutée sans attendre.
+- D. La radiothérapie et/ou la chirurgie décompressive sont des options thérapeutiques.
+- E. Une scintigraphie osseuse est l'examen à demander en premier.
+
+**QCM 8** (`QCM-HEMA-0844`) — Concernant le traitement de première ligne d'un myélome chez un patient de 58 ans éligible à l'autogreffe, quelles propositions sont exactes ?
+
+- A. L'essai PERSEUS a montré un bénéfice en survie sans progression de l'ajout du daratumumab au VRd.
+- B. L'intensification repose sur le melphalan à haute dose suivi d'une autogreffe.
+- C. Un entretien par lénalidomide est recommandé après l'autogreffe.
+- D. L'objectif d'une réponse profonde (MRD négative) est associé à un meilleur pronostic.
+- E. Le traitement de première ligne repose sur le melphalan–prednisone.
+
+**QCM 9** (`QCM-HEMA-0845`) — Concernant le traitement d'un myélome chez un patient de 78 ans non éligible à l'autogreffe, quelles propositions sont exactes ?
+
+- A. L'association daratumumab–lénalidomide–dexaméthasone (Dara-Rd) est une option de première ligne.
+- B. L'essai IMROZ a montré un bénéfice de l'ajout de l'isatuximab au VRd.
+- C. L'intensité du traitement doit être adaptée à la fragilité.
+- D. Une autogreffe est systématique après 75 ans.
+- E. Une thromboprophylaxie est nécessaire sous lénalidomide.
+
+**QCM 10** (`QCM-HEMA-0846`) — Concernant les traitements de support du myélome, quelles propositions sont exactes ?
+
+- A. Un bisphosphonate ou le dénosumab est indiqué chez les patients traités pour un myélome symptomatique.
+- B. Un bilan dentaire est recommandé avant leur instauration.
+- C. Le dénosumab est utilisable en cas d'insuffisance rénale.
+- D. Une prophylaxie antivirale contre le zona est recommandée sous bortezomib.
+- E. Les AINS sont les antalgiques de choix des douleurs osseuses.
+
+### Corrigé commenté
+
+**QCM 1** — Réponses : **A, B, C, D**. Les événements définissant le myélome comprennent les critères CRAB (hypercalcémie, insuffisance rénale, anémie, lésions osseuses) et trois biomarqueurs SLiM (plasmocytes ≥ 60 %, rapport des chaînes libres ≥ 100, > 1 lésion focale en IRM). Un pic ≥ 30 g/L isolé définit un myélome indolent, pas un myélome symptomatique.
+  - A : Vrai : critère C.
+  - B : Vrai : critère R (ou créatinine > 177 µmol/L).
+  - C : Vrai : biomarqueur S.
+  - D : Vrai : biomarqueur Li (chaîne impliquée ≥ 100 mg/L).
+  - E : Faux : critère de myélome indolent en l'absence d'événement.
+
+**QCM 2** — Réponses : **A, C, D, E**. Pic < 30 g/L, plasmocytes < 10 %, aucun événement : MGUS non-IgM. Pas de traitement ; surveillance adaptée au risque (isotype, taille du pic, rapport des chaînes libres). Le risque moyen de progression est d'environ 1 % par an.
+  - A : Vrai : critères IMWG.
+  - B : Faux : la MGUS ne se traite pas.
+  - C : Vrai.
+  - D : Vrai : ordre de grandeur classique.
+  - E : Vrai : un rapport anormal augmente le risque de progression.
+
+**QCM 3** — Réponses : **A, B, D, E**. Dans le myélome à chaînes légères, l'EPP peut être normale ou montrer une hypogammaglobulinémie ; la protéinurie de Bence Jones est mal détectée par la bandelette (sensible à l'albumine). Le diagnostic repose sur les chaînes légères libres sériques et l'immunofixation.
+  - A : Vrai : les chaînes libres sont filtrées par le rein.
+  - B : Vrai : effondrement des Ig polyclonales.
+  - C : Faux : la bandelette détecte mal les chaînes légères.
+  - D : Vrai : diagnostic et suivi.
+  - E : Vrai : identification κ ou λ.
+
+**QCM 4** — Réponses : **A, C, D**. Les lésions du myélome sont purement lytiques (activité ostéoblastique inhibée) : la scintigraphie est souvent négative. Scanner faible dose en première intention, IRM pour la moelle épinière et le myélome indolent, TEP pour l'activité et la maladie extramédullaire. Les produits de contraste iodés favorisent l'insuffisance rénale aiguë.
+  - A : Vrai : recommandation EHA-ESMO.
+  - B : Faux : faux négatifs fréquents.
+  - C : Vrai : urgence diagnostique.
+  - D : Vrai : critère M (SLiM).
+  - E : Faux : risque de néphropathie, surtout si déshydratation.
+
+**QCM 5** — Réponses : **A, B, C, D**. ISS (β2m, albumine) → R-ISS (+ cytogénétique haut risque, LDH ; survie à 5 ans 82/62/40 %) → R2-ISS (score additif : ISS II 1, ISS III 1,5, del17p 1, LDH 1, t(4;14) 1, 1q+ 0,5), construit sur 10 843 patients de 16 essais.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai.
+  - D : Vrai : 0,5 point.
+  - E : Faux : 10 843 patients (EMN/HARMONY).
+
+**QCM 6** — Réponses : **A, B, C**. Insuffisance rénale aiguë probablement par néphropathie à cylindres myélomateux : urgence. Arrêt des néphrotoxiques, hydratation, correction d'une hypercalcémie, et réduction rapide des chaînes légères par un traitement à base de bortezomib et de dexaméthasone à forte dose.
+  - A : Vrai : AINS néphrotoxique.
+  - B : Vrai : réduit la précipitation des cylindres.
+  - C : Vrai : rapidité d'action, pas d'adaptation rénale du bortezomib.
+  - D : Faux : produit de contraste iodé à éviter.
+  - E : Faux : la récupération rénale dépend de la baisse rapide des chaînes légères.
+
+**QCM 7** — Réponses : **A, B, C, D**. Déficit moteur et troubles sphinctériens chez un myélomateux : compression médullaire jusqu'à preuve du contraire. Corticothérapie à forte dose immédiate, IRM en urgence, radiothérapie et/ou chirurgie (instabilité, compression osseuse), puis traitement systémique.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai : effet anti-œdémateux et antimyélomateux.
+  - D : Vrai : selon le mécanisme et la stabilité.
+  - E : Faux : scintigraphie inadaptée et non urgente.
+
+**QCM 8** — Réponses : **A, B, C, D**. Chez le patient éligible : induction par quadruplet à base d'anti-CD38 (Dara-VRd, PERSEUS), MEL200 + autogreffe, consolidation, entretien lénalidomide (± daratumumab). La profondeur de la réponse et la négativité de la MRD sont pronostiques.
+  - A : Vrai : Sonneveld NEJM 2024.
+  - B : Vrai.
+  - C : Vrai : jusqu'à progression ou durée définie.
+  - D : Vrai : critères IMWG 2016.
+  - E : Faux : schéma historique, abandonné chez le patient éligible.
+
+**QCM 9** — Réponses : **A, B, C, E**. Chez le patient non éligible : Dara-Rd (MAIA), Isa-VRd (IMROZ) ou VRd, en adaptant les doses à la fragilité. Thromboprophylaxie sous immunomodulateurs.
+  - A : Vrai : MAIA.
+  - B : Vrai : réduction d'environ 40 % du risque de progression ou de décès.
+  - C : Vrai : évaluation gériatrique.
+  - D : Faux : non éligible par définition.
+  - E : Vrai : risque thromboembolique des IMiD.
+
+**QCM 10** — Réponses : **A, B, C, D**. Les antirésorptifs osseux réduisent les événements osseux ; leur principal risque est l'ostéonécrose de la mâchoire (bilan dentaire). Le dénosumab n'est pas éliminé par le rein. Prophylaxie antivirale sous inhibiteurs du protéasome et anti-CD38. Les AINS sont à proscrire (néphrotoxicité).
+  - A : Vrai : EHA-ESMO 2021.
+  - B : Vrai : prévention de l'ostéonécrose.
+  - C : Vrai : surveillance de l'hypocalcémie.
+  - D : Vrai : risque de réactivation du VZV.
+  - E : Faux : néphrotoxiques.
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 | Position 2 | Commentaire |
+|---|---|---|---|
+| Induction du patient éligible | EHA-ESMO 2021 : triplets (VRd, VTd) ou quadruplet Dara-VTd selon l'accès [S4] | EHA–EMN 2025 : **quadruplets à base d'anti-CD38** comme standard (dont Dara-VRd après PERSEUS) [S5, S7] | Évolution rapide des standards ; en contexte de ressources limitées, les triplets restent acceptables |
+| Patient non éligible | Dara-Rd (MAIA) [S9] | Isa-VRd (IMROZ) [S8] ; quadruplets chez le sujet apte | Choix selon la fragilité, la tolérance du bortezomib, l'accès |
+| Stratification pronostique | R-ISS (IMWG 2015) [S2] | R2-ISS (EMN 2022), intégré par l'EHA–EMN 2025 [S3, S5] ; définitions consensuelles du haut risque plus récentes `[À VÉRIFIER : consensus IMWG/IMS 2025]` | Le R2-ISS discrimine mieux le risque intermédiaire |
+| Imagerie initiale | Scanner corps entier faible dose (EHA-ESMO 2021, EHA–EMN 2025) [S4, S5] | Radiographies standard du squelette (pratique encore répandue là où le scanner manque) | Les radiographies sous-estiment les lésions (sensibilité moindre) |
+| Myélome indolent à haut risque | Surveillance rapprochée (attitude historique) | Traitement précoce des formes à haut risque discuté (EHA–EMN 2025) [S5] `[À VÉRIFIER : niveau de recommandation]` | Décision en RCP, information du patient |
+| Durée de l'entretien | Lénalidomide jusqu'à progression [S4] | Arrêt guidé par la MRD (essais en cours) [S5, S6] | Données encore en évolution |
+
+---
+
+## 22. Références
+
+1. **[S1]** Rajkumar SV, Dimopoulos MA, Palumbo A, et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. *Lancet Oncol*. 2014;15(12):e538-e548. doi:10.1016/S1470-2045(14)70442-5 — vérifiée.
+2. **[S2]** Palumbo A, Avet-Loiseau H, Oliva S, et al. Revised International Staging System for multiple myeloma. *J Clin Oncol*. 2015;33(26):2863-2869. doi:10.1200/JCO.2015.61.2267 — vérifiée.
+3. **[S3]** D'Agostino M, Cairns DA, Lahuerta JJ, et al. Second Revision of the International Staging System (R2-ISS). *J Clin Oncol*. 2022;40(29):3406-3418. doi:10.1200/JCO.21.02614 — vérifiée.
+4. **[S4]** Dimopoulos MA, Moreau P, Terpos E, et al. Multiple myeloma: EHA-ESMO Clinical Practice Guidelines. *Ann Oncol*. 2021;32(3):309-322. doi:10.1016/j.annonc.2020.11.014 — vérifiée.
+5. **[S5]** Dimopoulos MA, Terpos E, Boccadoro M, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. *Nat Rev Clin Oncol*. 2025;22(9):680-700. doi:10.1038/s41571-025-01041-x — vérifiée.
+6. **[S6]** Kumar S, Paiva B, Anderson KC, et al. IMWG consensus criteria for response and minimal residual disease assessment in multiple myeloma. *Lancet Oncol*. 2016;17(8):e328-e346. doi:10.1016/S1470-2045(16)30206-6 — vérifiée.
+7. **[S7]** Sonneveld P, Dimopoulos MA, Boccadoro M, et al. Daratumumab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (PERSEUS). *N Engl J Med*. 2024;390(4):301-313. doi:10.1056/NEJMoa2312054 — vérifiée.
+8. **[S8]** Facon T, Dimopoulos MA, Leleu XP, et al. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (IMROZ). *N Engl J Med*. 2024;391(17):1597-1609. doi:10.1056/NEJMoa2400712 — vérifiée.
+9. **[S9]** Facon T, Kumar S, Plesner T, et al. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma (MAIA). *N Engl J Med*. 2019;380(22):2104-2115. — **non vérifiée**.
+10. **[S10]** Belouni R, et al. Epidemiological and immunochemical parameters of monoclonal plasma cell dyscrasias of 2121 cases in Algeria. *Curr Res Transl Med*. 2020;68(2):67-70. doi:10.1016/j.retram.2019.11.003 — vérifiée.
+11. **[S11]** SAHTS. Registre algérien du myélome multiple (AMMR), résumé de congrès (Blood, 2017) ; séries algériennes d'autogreffe. — **non vérifiée** (références complètes à établir).
+12. **[S12]** Greipp PR, San Miguel J, Durie BG, et al. International staging system for multiple myeloma. *J Clin Oncol*. 2005;23(15):3412-3420. — **non vérifiée**.

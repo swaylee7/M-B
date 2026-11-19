@@ -1,0 +1,716 @@
+{
+  "agent": "DOS-09",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-RHUM-0901",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 45 ans consulte pour des douleurs articulaires évoluant depuis 2 mois. Quels éléments orientent vers une polyarthrite rhumatoïde débutante ?",
+      "propositions": {
+        "A": "Atteinte bilatérale et symétrique des MCP et des IPP",
+        "B": "Raideur matinale de plus de 30 minutes avec réveils nocturnes",
+        "C": "Atteinte prédominante des interphalangiennes distales",
+        "D": "Douleur à la compression latérale des métatarso-phalangiennes",
+        "E": "Lombalgie inflammatoire avec talalgies"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La PR débute typiquement par une polyarthrite bilatérale, symétrique et distale (poignets, MCP, IPP, MTP) d'horaire inflammatoire. L'atteinte des IPD et l'association lombalgie inflammatoire + enthésites orientent vers d'autres rhumatismes.",
+      "explications_par_proposition": {
+        "A": "Vrai : topographie et symétrie caractéristiques.",
+        "B": "Vrai : horaire inflammatoire avec dérouillage prolongé.",
+        "C": "Faux : les IPD sont habituellement respectées ; leur atteinte évoque l'arthrose ou le rhumatisme psoriasique.",
+        "D": "Vrai : squeeze test positif aux MTP, atteinte précoce et fréquente des pieds.",
+        "E": "Faux : ce tableau évoque une spondyloarthrite."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — clinique de début",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Oublier d'examiner les pieds, souvent atteints précocement.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Aletaha D et al. 2010 ACR/EULAR rheumatoid arthritis classification criteria. Ann Rheum Dis 2010;69(9):1580-1588",
+          "date": "2010"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0902",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le facteur rhumatoïde (FR) et les anticorps anti-peptides citrullinés (ACPA), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les ACPA sont plus spécifiques de la PR que le FR",
+        "B": "Le FR peut être positif au cours de l'hépatite C chronique",
+        "C": "Les ACPA peuvent apparaître plusieurs années avant la première arthrite",
+        "D": "Une PR est exclue si FR et ACPA sont négatifs",
+        "E": "Des ACPA à titre élevé sont un facteur de bon pronostic"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les ACPA sont le marqueur le plus spécifique de la PR, présents parfois des années avant les signes articulaires et associés aux formes érosives. Le FR est moins spécifique. Les PR séronégatives existent.",
+      "explications_par_proposition": {
+        "A": "Vrai : spécificité élevée (> 90 %) contre une spécificité modérée du FR.",
+        "B": "Vrai : comme dans le Gougerot-Sjögren, l'endocardite, la cryoglobulinémie et chez le sujet âgé.",
+        "C": "Vrai : phase pré-clinique d'auto-immunité.",
+        "D": "Faux : une PR peut être séronégative.",
+        "E": "Faux : c'est un facteur de mauvais pronostic structural (EULAR 2022)."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — immunologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Retenir une PR sur un FR isolé, ou l'exclure sur une sérologie négative.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Aletaha D et al. 2010 ACR/EULAR rheumatoid arthritis classification criteria. Ann Rheum Dis 2010;69(9):1580-1588",
+          "date": "2010"
+        },
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0903",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos des critères de classification ACR/EULAR 2010 de la polyarthrite rhumatoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils s'appliquent à un patient ayant au moins une synovite clinique non expliquée par une autre maladie",
+        "B": "Un score supérieur ou égal à 6 sur 10 permet de classer le patient comme atteint de PR",
+        "C": "Les interphalangiennes distales comptent parmi les petites articulations",
+        "D": "Un FR ou des ACPA supérieurs à 3 fois la normale rapportent 3 points",
+        "E": "Une durée des symptômes de 6 semaines ou plus rapporte 2 points"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Score sur 10 en 4 domaines : atteinte articulaire (0–5), sérologie (0–3), réactifs de phase aiguë (0–1), durée (0–1). Seuil ≥ 6. Les IPD, la 1re carpo-métacarpienne et la 1re MTP sont exclues.",
+      "explications_par_proposition": {
+        "A": "Vrai : critère d'entrée.",
+        "B": "Vrai : seuil de classification.",
+        "C": "Faux : les IPD sont exclues (sites d'arthrose).",
+        "D": "Vrai : sérologie fortement positive = 3 points.",
+        "E": "Faux : la durée ≥ 6 semaines rapporte 1 point."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — critères ACR/EULAR 2010",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre critères de classification et critères de diagnostic.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Aletaha D et al. 2010 ACR/EULAR rheumatoid arthritis classification criteria. Ann Rheum Dis 2010;69(9):1580-1588",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0904",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels signes radiographiques sont évocateurs d'une PR débutante ou établie ?",
+      "propositions": {
+        "A": "Déminéralisation en bande épiphysaire",
+        "B": "Érosion de la tête du 5e métatarsien",
+        "C": "Pincement localisé de l'interligne avec ostéophytes",
+        "D": "Condensation sous-chondrale prédominante",
+        "E": "Pincement global et symétrique de l'interligne"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Les signes radiographiques de la PR sont la déminéralisation juxta-articulaire, les érosions marginales (précoces aux MTP, notamment la 5e) et le pincement global. Ostéophytes, condensation et pincement localisé caractérisent l'arthrose.",
+      "explications_par_proposition": {
+        "A": "Vrai : signe précoce.",
+        "B": "Vrai : localisation fréquente des premières érosions, d'où les radiographies systématiques des pieds.",
+        "C": "Faux : sémiologie arthrosique.",
+        "D": "Faux : sémiologie arthrosique.",
+        "E": "Vrai : l'atteinte synoviale diffuse détruit tout le cartilage."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — imagerie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Ne radiographier que les mains.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Aletaha D et al. 2010 ACR/EULAR rheumatoid arthritis classification criteria. Ann Rheum Dis 2010;69(9):1580-1588",
+          "date": "2010"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0905",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prescription du méthotrexate dans la PR, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il se prend en une prise par semaine",
+        "B": "La dose initiale recommandée par l'initiative 3E est de 10 à 15 mg par semaine",
+        "C": "Une supplémentation d'au moins 5 mg d'acide folique par semaine est recommandée",
+        "D": "L'association au triméthoprime-sulfaméthoxazole est sans danger",
+        "E": "La surveillance biologique est semestrielle dès l'instauration"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Recommandations 3E : MTX hebdomadaire, 10–15 mg/semaine au départ, augmenté de 5 mg toutes les 2 à 4 semaines jusqu'à 20–30 mg/semaine, acide folique ≥ 5 mg/semaine, surveillance NFS-ALAT-créatinine toutes les 1 à 1,5 mois jusqu'à dose stable puis tous les 1 à 3 mois.",
+      "explications_par_proposition": {
+        "A": "Vrai : une prise quotidienne est une erreur potentiellement mortelle.",
+        "B": "Vrai : selon 3E.",
+        "C": "Vrai : réduit les effets indésirables digestifs et hépatiques.",
+        "D": "Faux : risque de toxicité hématologique grave (antifolate).",
+        "E": "Faux : toutes les 1 à 1,5 mois jusqu'à dose stable, puis tous les 1 à 3 mois."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — méthotrexate",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescription quotidienne du méthotrexate.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Visser K et al. 3E Initiative — recommandations méthotrexate. Ann Rheum Dis 2009;68(7):1086-1093",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0906",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les effets indésirables suivants, lesquels sont attribuables au méthotrexate ?",
+      "propositions": {
+        "A": "Pneumopathie d'hypersensibilité",
+        "B": "Rétinopathie maculaire en « œil de bœuf »",
+        "C": "Cytopénies, favorisées par l'insuffisance rénale",
+        "D": "Tératogénicité",
+        "E": "Ototoxicité"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le MTX expose à des troubles digestifs, une hépatotoxicité, des cytopénies (surtout en cas d'insuffisance rénale), une pneumopathie d'hypersensibilité et une tératogénicité. La rétinopathie est le risque de l'hydroxychloroquine.",
+      "explications_par_proposition": {
+        "A": "Vrai : toux, dyspnée, fièvre → arrêt et bilan.",
+        "B": "Faux : toxicité de l'hydroxychloroquine.",
+        "C": "Vrai : élimination rénale.",
+        "D": "Vrai : contraception obligatoire.",
+        "E": "Faux : non décrite comme effet du MTX (évoque plutôt les aminosides)."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — tolérance du méthotrexate",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Visser K et al. 3E Initiative — recommandations méthotrexate. Ann Rheum Dis 2009;68(7):1086-1093",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0907",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la stratégie « treat-to-target » des recommandations EULAR 2022, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La cible est la rémission ou, à défaut, une faible activité",
+        "B": "L'activité doit être évaluée tous les 1 à 3 mois en phase active",
+        "C": "Une amélioration est attendue à 3 mois et la cible doit être atteinte à 6 mois",
+        "D": "Il faut attendre 12 mois avant de modifier un traitement de fond inefficace",
+        "E": "En rémission prolongée, tous les traitements de fond doivent être arrêtés"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le T2T repose sur une cible, une mesure régulière par score composite et l'ajustement du traitement. En rémission prolongée, la décroissance est possible mais l'arrêt total n'est pas recommandé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : sinon, le traitement doit être adapté.",
+        "D": "Faux : délai beaucoup trop long, source de destruction articulaire.",
+        "E": "Faux : on décroît d'abord les GC, puis éventuellement les b/tsDMARD, sans arrêter tous les traitements de fond."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — stratégie thérapeutique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre trop longtemps avant d'adapter le traitement.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0908",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les éléments suivants, lesquels sont des facteurs de mauvais pronostic retenus par l'EULAR (2022) pour orienter l'escalade thérapeutique après échec du premier traitement de fond ?",
+      "propositions": {
+        "A": "Présence d'auto-anticorps (FR, ACPA)",
+        "B": "Activité élevée de la maladie",
+        "C": "Érosions précoces",
+        "D": "Échec de deux csDMARD",
+        "E": "Sexe féminin"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "En présence de ces facteurs, l'EULAR recommande d'ajouter un bDMARD (ou un tsDMARD après évaluation des risques) ; en leur absence, un autre csDMARD est envisagé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : non retenu comme facteur de stratification."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — pronostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0909",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient algérien atteint de PR doit débuter un anti-TNF. Quelles mesures font partie du bilan préalable ?",
+      "propositions": {
+        "A": "Radiographie thoracique",
+        "B": "Test de dépistage de l'infection tuberculeuse latente (IGRA de préférence, ou IDR)",
+        "C": "Sérologies VHB comprenant l'anticorps anti-HBc",
+        "D": "Administration d'un vaccin vivant atténué le jour de la première injection",
+        "E": "Traitement d'une infection tuberculeuse latente, si elle est dépistée, débuté avant la biothérapie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Dans un pays d'endémie tuberculeuse, la recherche d'une tuberculose active puis latente est indispensable avant toute biothérapie ; le statut VHB guide la prophylaxie ; les vaccins vivants sont à éviter sous biothérapie et doivent être administrés à distance, avant le début.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : l'EULAR préfère l'IGRA là où il est disponible.",
+        "C": "Vrai : les anti-HBc isolés exposent à une réactivation.",
+        "D": "Faux : vaccins vivants contre-indiqués sous biothérapie ; à réaliser suffisamment avant si nécessaire.",
+        "E": "Vrai : selon les directives nationales (instruction ITL 2024)."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — bilan pré-biothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Débuter un anti-TNF sans dépistage tuberculeux.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        },
+        {
+          "reference": "Furer V et al. 2019 update of EULAR recommendations for vaccination in AIIRD. Ann Rheum Dis 2020;79(1):39-52",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0910",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les inhibiteurs de JAK dans la PR, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils s'administrent par voie orale",
+        "B": "L'EULAR 2022 recommande de les envisager après évaluation du risque cardiovasculaire, néoplasique et thromboembolique",
+        "C": "Ils augmentent le risque de zona",
+        "D": "Ils sont recommandés en première ligne avant le méthotrexate",
+        "E": "Ils ne nécessitent aucun dépistage de la tuberculose latente"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Tofacitinib, baricitinib, upadacitinib et filgotinib sont des tsDMARD oraux, d'efficacité comparable aux biothérapies, dont l'usage est encadré par l'évaluation des risques. Le dépistage infectieux est le même que pour les biothérapies.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : effet de classe.",
+        "D": "Faux : le MTX reste le traitement d'ancrage.",
+        "E": "Faux : dépistage de l'ITL requis avant tout b/tsDMARD."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — inhibiteurs de JAK",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0911",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les manifestations suivantes, lesquelles sont des manifestations extra-articulaires de la PR ?",
+      "propositions": {
+        "A": "Nodules rhumatoïdes",
+        "B": "Pneumopathie interstitielle diffuse",
+        "C": "Syndrome de Felty",
+        "D": "Sclérite",
+        "E": "Uvéite antérieure aiguë unilatérale à bascule, associée à HLA-B27"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les manifestations extra-articulaires surviennent surtout dans les PR séropositives, anciennes, chez les fumeurs. L'uvéite antérieure aiguë HLA-B27 est une manifestation des spondyloarthrites.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : la SFR 2024 recommande un scanner haute résolution devant des symptômes respiratoires.",
+        "C": "Vrai : PR + splénomégalie + neutropénie.",
+        "D": "Vrai : urgence ophtalmologique.",
+        "E": "Faux : manifestation des spondyloarthrites."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — manifestations extra-articulaires",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0912",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans l'étude multicentrique algérienne publiée en 2014 (249 patients), quelle proposition est exacte ?",
+      "propositions": {
+        "A": "La majorité des patients étaient des hommes",
+        "B": "Plus de 90 % des patients recevaient des glucocorticoïdes",
+        "C": "Les ACPA étaient positifs chez tous les patients testés",
+        "D": "Le DAS28 moyen traduisait une forte activité (> 6)",
+        "E": "La moitié des patients étaient en rémission"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Slimani et al. (2014) : 213 femmes et 36 hommes, DAS28 moyen 4,3, rémission 14 %, FR positif 78,5 %, ACPA positifs 69 %, csDMARD 89,7 %, biothérapie 4 %, glucocorticoïdes 90,8 %.",
+      "explications_par_proposition": {
+        "A": "Faux : forte prédominance féminine.",
+        "B": "Vrai : 90,8 %.",
+        "C": "Faux : 69 %.",
+        "D": "Faux : 4,3 (activité modérée).",
+        "E": "Faux : 14 % (DAS28 ≤ 2,6)."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — épidémiologie algérienne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Slimani S et al. Characteristics of rheumatoid arthritis in Algeria: a multicenter study. Rheumatol Int 2014;34(9):1235-1239",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0913",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'atteinte du rachis cervical au cours de la PR, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La luxation atloïdo-axoïdienne antérieure s'observe surtout dans les PR anciennes et érosives",
+        "B": "Des radiographies du rachis cervical de profil en flexion sont recommandées avant une intubation chez ces patients",
+        "C": "Elle peut rester longtemps asymptomatique",
+        "D": "La PR atteint préférentiellement le rachis lombaire",
+        "E": "La sacro-iliite radiographique bilatérale est caractéristique de la PR"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Seule la charnière cervicale haute est fréquemment touchée (synovite autour de l'odontoïde, rupture du ligament transverse), avec un risque de compression médullaire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : recherche d'un écart atloïdo-odontoïdien anormal.",
+        "C": "Vrai.",
+        "D": "Faux : le rachis lombaire est épargné.",
+        "E": "Faux : signe de spondyloarthrite."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — rachis cervical",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier le rachis cervical avant une anesthésie générale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0914",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une patiente de 30 ans, atteinte de PR traitée par méthotrexate, a un projet de grossesse. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le méthotrexate est tératogène et doit être arrêté avant la conception",
+        "B": "Le léflunomide impose une procédure d'élimination accélérée avant une grossesse",
+        "C": "La sulfasalazine est une option compatible avec la grossesse",
+        "D": "L'hydroxychloroquine est formellement contre-indiquée pendant la grossesse",
+        "E": "Une amélioration de la PR pendant la grossesse, suivie d'une poussée du post-partum, est fréquente"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La grossesse doit être programmée : remplacement du MTX/léflunomide par une option compatible (sulfasalazine, HCQ, certains anti-TNF), en concertation avec le rhumatologue et l'obstétricien.",
+      "explications_par_proposition": {
+        "A": "Vrai : délai d'arrêt de 3 mois selon 3E (révisé dans des textes plus récents — à vérifier).",
+        "B": "Vrai : demi-vie très longue du métabolite actif (cholestyramine).",
+        "C": "Vrai.",
+        "D": "Faux : l'HCQ est utilisable pendant la grossesse.",
+        "E": "Vrai."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "theme": "PR — grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Visser K et al. 3E Initiative — recommandations méthotrexate. Ann Rheum Dis 2009;68(7):1086-1093",
+          "date": "2009"
+        },
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

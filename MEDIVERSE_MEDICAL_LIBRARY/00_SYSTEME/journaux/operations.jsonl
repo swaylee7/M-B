@@ -603,3 +603,9 @@
 {"date": "2026-11-19T02:06:26+00:00", "agent": "AUD-02", "action": "rapport_audit", "cible": "00_SYSTEME/agents/AUD-02/rapports/DOS-MINT_REA-0002.md"}
 {"date": "2026-11-19T02:06:26+00:00", "agent": "AUD-02", "action": "rapport_audit", "cible": "00_SYSTEME/agents/AUD-02/rapports/DOS-URGE-0001.md"}
 {"date": "2026-11-19T02:06:26+00:00", "agent": "AUD-02", "action": "rapport_audit", "cible": "00_SYSTEME/agents/AUD-02/rapports/DOS-URGE-0002.md"}
+{"date": "2026-11-19T02:07:41+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "00_SYSTEME/agents/AUD-01/etat.json"}
+{"date": "2026-11-19T02:07:41+00:00", "agent": "AUD-02", "action": "ecriture_json", "cible": "00_SYSTEME/agents/AUD-02/etat.json"}
+{"date": "2026-11-19T02:07:50+00:00", "agent": "AUD-01", "action": "rectificatif_etat", "cible": "00_SYSTEME/agents/AUD-01/etat.json", "details": {"motif": "écrasement accidentel des états des sessions DOS-01 et DOS-05 ; fusion et reconstitution depuis la sauvegarde et les journaux"}}
+{"date": "2026-11-19T02:07:50+00:00", "agent": "AUD-02", "action": "rectificatif_etat", "cible": "00_SYSTEME/agents/AUD-02/etat.json", "details": {"motif": "écrasement accidentel des états des sessions DOS-01 et DOS-05 ; fusion et reconstitution depuis la sauvegarde et les journaux"}}
+{"date": "2026-11-19T02:08:00+00:00", "agent": "RES-02", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-02-b.json"}
+{"date": "2026-11-19T02:08:00+00:00", "agent": "RES-02", "action": "ajout_qcm", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-02-*.json", "details": {"ajoutes_a": 0, "ajoutes_b": 14, "sources_dsl": ["c12.txt"]}}

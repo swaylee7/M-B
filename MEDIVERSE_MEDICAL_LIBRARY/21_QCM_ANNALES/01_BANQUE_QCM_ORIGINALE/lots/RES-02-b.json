@@ -3092,6 +3092,57 @@
       "date_creation": "2026-11-19"
     },
     {
+      "id": "QCM-BIOP-5014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les phénomènes bioélectriques cellulaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le potentiel transmembranaire de repos est négatif à l'intérieur de la cellule par rapport à l'extérieur.",
+        "B": "Une cellule lésée perd son potentiel de repos et devient électriquement différente des cellules saines voisines.",
+        "C": "Le potentiel de repos résulte uniquement de la diffusion passive du sodium vers l'intérieur.",
+        "D": "La bicouche lipidique de la membrane est très perméable aux ions.",
+        "E": "Les gradients ioniques se maintiennent sans dépense d'énergie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "Les phénomènes bioélectriques reposent sur le potentiel transmembranaire, négatif à l'intérieur au repos, créé par la répartition inégale des ions (perméabilité dominante au K+) et entretenu par des transports actifs consommant de l'ATP. La bicouche lipidique isolante oblige les ions à transiter par des protéines membranaires. Une cellule lésée perd son potentiel de repos et crée une différence de potentiel avec les cellules saines (courant de lésion), à l'origine de signaux cliniques comme le sus-décalage du segment ST dans l'infarctus du myocarde. Ces notions biophysiques fondent la compréhension de l'excitabilité et l'interprétation des enregistrements électrophysiologiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : Par convention, le potentiel extracellulaire est pris comme référence (zéro).",
+        "B": "Vrai : Ce « courant de lésion » peut être enregistré (par exemple le sus-décalage du segment ST dans l'infarctus).",
+        "C": "Faux : Le potentiel de repos résulte surtout de la perméabilité au potassium ; l'entrée de sodium, faible au repos, le dépolariserait s'il dominait.",
+        "D": "Faux : La bicouche lipidique est un bon isolant, peu perméable aux ions, qui passent par des canaux et transporteurs protéiques.",
+        "E": "Faux : Leur maintien nécessite un transport actif consommant de l'ATP (pompe Na+/K+-ATPase)."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-051"
+      ],
+      "theme": "Électrogenèse et potentiel de lésion",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer le potentiel de repos à une entrée passive de sodium.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
       "id": "QCM-HIST-5012",
       "format": "QCM (réponses multiples)",
       "enonce": "Concernant l'histologie de la glande thyroïde, quelles propositions sont exactes ?",
@@ -3136,6 +3187,56 @@
         },
         {
           "reference": "Ross MH, Pawlina W. Histology: A Text and Atlas, with Correlated Cell and Molecular Biology. 8e éd. Wolters Kluwer Health ; 2020 [catalogue OUV-0163].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5014",
+      "format": "QCS (réponse unique)",
+      "enonce": "Sous quelle forme les hormones thyroïdiennes sont-elles stockées dans le follicule thyroïdien ?",
+      "propositions": {
+        "A": "Liées à la thyroglobuline dans la colloïde.",
+        "B": "Dans des granules de sécrétion des cellules C.",
+        "C": "Libres dans le plasma sans protéine de transport.",
+        "D": "Stockées dans la médullosurrénale.",
+        "E": "Non stockées, synthétisées à la demande sans réserve."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La thyroïde a la particularité de stocker ses hormones à l'extérieur des cellules, dans la colloïde du follicule, sous forme de thyroglobuline iodée. Cette réserve, correspondant à plusieurs semaines de besoins, est libérée après endocytose de la colloïde et protéolyse, sous contrôle de la TSH. Dans la circulation, la T4 et la T3 sont transportées essentiellement liées à des protéines (TBG, transthyrétine, albumine) ; seule la faible fraction libre est active et soumise au rétrocontrôle. Cette organisation explique l'inertie relative des traitements thyroïdiens et l'intérêt du dosage des hormones libres. Elle est un trait histophysiologique majeur de la glande.",
+      "explications_par_proposition": {
+        "A": "Vrai : La thyroïde possède une réserve hormonale importante, stockée sous forme de thyroglobuline iodée dans la colloïde.",
+        "B": "Faux : Les cellules C sécrètent la calcitonine, non les hormones thyroïdiennes.",
+        "C": "Faux : Dans le plasma, les hormones thyroïdiennes circulent surtout liées à des protéines de transport (TBG, albumine) ; la fraction libre est faible.",
+        "D": "Faux : La médullosurrénale stocke les catécholamines, non les hormones thyroïdiennes.",
+        "E": "Faux : À la différence de la plupart des glandes endocrines, la thyroïde dispose d'une réserve hormonale notable (colloïde)."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-052"
+      ],
+      "theme": "Forme de stockage des hormones thyroïdiennes",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la thyroïde ne stocke pas ses hormones.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
           "date": "2020"
         }
       ],
@@ -3451,6 +3552,629 @@
         },
         {
           "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5068",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les hormones hypothalamo-hypophysaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'hormone de croissance (GH) agit en grande partie par l'intermédiaire de l'IGF-1 produit par le foie.",
+        "B": "La prolactine est sous contrôle inhibiteur dominant exercé par la dopamine.",
+        "C": "La TSH est sécrétée par la posthypophyse.",
+        "D": "La GH diminue la glycémie.",
+        "E": "La FSH et la LH régulent la fonction gonadique dans les deux sexes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "L'antéhypophyse sécrète six hormones principales sous contrôle hypothalamique : GH (croissance, via l'IGF-1 hépatique, effet hyperglycémiant), prolactine (lactation, sous frein dopaminergique), TSH (thyroïde), ACTH (surrénale), FSH et LH (gonades). La posthypophyse libère l'ADH et l'ocytocine, synthétisées par l'hypothalamus. Ces hormones agissent sur des glandes périphériques dont les produits exercent un rétrocontrôle. La compréhension de cet axe est essentielle au diagnostic des insuffisances (hypopituitarisme) et des hypersécrétions (adénomes hypophysaires : prolactinome, acromégalie, maladie de Cushing). L'exploration repose sur les dosages hormonaux et les tests dynamiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'IGF-1 médie ses effets sur la croissance.",
+        "B": "Vrai : D'où l'hyperprolactinémie sous antidopaminergiques ou lors d'une section de la tige pituitaire.",
+        "C": "Faux : La TSH est sécrétée par l'antéhypophyse (cellules thyréotropes), non par la posthypophyse.",
+        "D": "Faux : La GH est hyperglycémiante (effet diabétogène, insulinorésistance), même si l'IGF-1 a des effets insulinomimétiques.",
+        "E": "Vrai : La LH stimule les cellules de Leydig et l'ovulation ; la FSH stimule la spermatogenèse et la croissance folliculaire."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-054"
+      ],
+      "theme": "Hormones de l'antéhypophyse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Situer la TSH dans la posthypophyse ou croire que la GH abaisse la glycémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5069",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les hormones de la posthypophyse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'ADH et l'ocytocine sont synthétisées par des neurones hypothalamiques et stockées dans la posthypophyse.",
+        "B": "L'ADH augmente la réabsorption d'eau au niveau du tubule collecteur rénal.",
+        "C": "La posthypophyse synthétise elle-même l'ADH et l'ocytocine.",
+        "D": "L'ocytocine est responsable de la synthèse du lait.",
+        "E": "Un déficit en ADH provoque un diabète insipide central avec polyurie hypotonique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "La posthypophyse (neurohypophyse) est un tissu nerveux qui stocke et libère deux hormones synthétisées par les neurones magnocellulaires de l'hypothalamus : l'ADH (vasopressine) et l'ocytocine. L'ADH règle la réabsorption rénale d'eau (récepteurs V2, aquaporines 2) et l'osmolalité ; son déficit cause le diabète insipide central (polyurie hypotonique), sa sécrétion inappropriée le SIADH. L'ocytocine agit sur le myomètre (contractions utérines) et les cellules myoépithéliales mammaires (éjection du lait). Il faut distinguer synthèse (hypothalamus) et libération (posthypophyse), ainsi que synthèse du lait (prolactine) et éjection (ocytocine). Cette physiologie fonde l'exploration des troubles de l'eau.",
+      "explications_par_proposition": {
+        "A": "Vrai : Noyaux supraoptiques et paraventriculaires.",
+        "B": "Vrai : Via les récepteurs V2 et les aquaporines 2.",
+        "C": "Faux : Elle ne les synthétise pas : elle stocke et libère des hormones produites par les neurones hypothalamiques (neurosécrétion).",
+        "D": "Faux : L'ocytocine provoque l'éjection du lait (contraction des cellules myoépithéliales) ; la synthèse du lait relève de la prolactine.",
+        "E": "Vrai : Avec soif intense et risque de déshydratation."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-054"
+      ],
+      "theme": "Hormones de la posthypophyse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la posthypophyse synthétise l'ADH et l'ocytocine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5070",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la régulation des axes hypothalamo-hypophysaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hormones des glandes périphériques exercent un rétrocontrôle négatif sur l'hypophyse et l'hypothalamus.",
+        "B": "Une insuffisance de la glande périphérique entraîne une élévation de l'hormone hypophysaire correspondante (atteinte primaire).",
+        "C": "Une atteinte hypophysaire peut entraîner une insuffisance de plusieurs axes (hypopituitarisme).",
+        "D": "Les tests dynamiques (stimulation, freinage) explorent la réserve et la régulation des axes.",
+        "E": "Dans une insuffisance surrénale primaire, l'ACTH est basse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les axes hypothalamo-hypophyso-périphériques sont réglés par des boucles de rétrocontrôle, surtout négatif : les hormones périphériques freinent la sécrétion hypothalamique et hypophysaire. Ce principe permet de localiser les atteintes : dans une atteinte primaire (glande périphérique), l'hormone hypophysaire s'élève (TSH élevée dans l'hypothyroïdie primaire, ACTH élevée dans l'insuffisance surrénale primaire) ; dans une atteinte centrale, elle est basse ou inadaptée. Les tests dynamiques (stimulation, freinage) explorent la réserve et l'intégrité des axes. La compréhension de ces régulations est indispensable à l'interprétation des bilans endocriniens et au diagnostic des pathologies hypophysaires.",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemple : le cortisol freine l'ACTH et la CRH.",
+        "B": "Vrai : Exemple : TSH élevée dans l'hypothyroïdie primaire.",
+        "C": "Vrai : Avec hormones périphériques et hormones hypophysaires basses.",
+        "D": "Vrai : Exemples : test au Synacthène, test de freinage à la dexaméthasone.",
+        "E": "Faux : Dans l'insuffisance surrénale primaire (maladie d'Addison), l'ACTH est élevée (levée du rétrocontrôle) ; une ACTH basse évoque une atteinte centrale (insuffisance corticotrope)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-054"
+      ],
+      "theme": "Régulation de l'axe hypothalamo-hypophysaire",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attendre une ACTH basse dans une insuffisance surrénale primaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5071",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle substance exerce le contrôle inhibiteur dominant sur la sécrétion de prolactine ?",
+      "propositions": {
+        "A": "La dopamine.",
+        "B": "La somatostatine.",
+        "C": "La TRH (effet inhibiteur).",
+        "D": "Le cortisol.",
+        "E": "L'ocytocine."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La prolactine est la seule hormone antéhypophysaire principalement soumise à un contrôle inhibiteur : la dopamine, libérée par les neurones tubéro-infundibulaires de l'hypothalamus, freine en permanence les cellules lactotropes via les récepteurs D2. Toute interruption de ce frein (section de la tige pituitaire, compression, antidopaminergiques comme les neuroleptiques et le métoclopramide) entraîne une hyperprolactinémie. À l'inverse, les agonistes dopaminergiques (bromocriptine, cabergoline) traitent les hyperprolactinémies et les prolactinomes. La TRH et la succion stimulent la prolactine. Cette particularité régulatrice explique la sémiologie et la pharmacologie des hyperprolactinémies.",
+      "explications_par_proposition": {
+        "A": "Vrai : La dopamine hypothalamique inhibe en permanence les cellules lactotropes ; sa diminution lève le frein.",
+        "B": "Faux : Elle inhibe surtout la GH et la TSH, non la prolactine de façon dominante.",
+        "C": "Faux : La TRH stimule la prolactine, elle ne l'inhibe pas.",
+        "D": "Faux : Il n'est pas le régulateur principal de la prolactine.",
+        "E": "Faux : Elle n'exerce pas le contrôle inhibiteur de la prolactine."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-054"
+      ],
+      "theme": "Médiateur du frein de la prolactine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier que la prolactine est sous frein dopaminergique dominant.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5026",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les hormones stéroïdes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles dérivent toutes du cholestérol.",
+        "B": "L'étape initiale et limitante est la conversion du cholestérol en prégnénolone dans la mitochondrie.",
+        "C": "Les œstrogènes sont synthétisés à partir des androgènes par l'aromatase.",
+        "D": "Les hormones stéroïdes sont hydrosolubles et stockées dans des vésicules de sécrétion.",
+        "E": "Les hormones stéroïdes agissent sur des récepteurs membranaires couplés aux protéines G."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les hormones stéroïdes (cortisol, aldostérone, androgènes, œstrogènes, progestérone) dérivent toutes du cholestérol. La première étape, limitante, est sa conversion en prégnénolone dans la mitochondrie (enzyme CYP11A1), stimulée par les hormones trophiques (ACTH, LH). Une série d'enzymes (cytochromes P450, hydroxystéroïde déshydrogénases) oriente ensuite la synthèse selon les tissus ; l'aromatase convertit les androgènes en œstrogènes. Liposolubles, les stéroïdes ne sont pas stockés, diffusent hors de la cellule, circulent liés à des protéines et agissent sur des récepteurs intracellulaires/nucléaires. Les blocs enzymatiques (hyperplasie congénitale des surrénales, déficit en 21-hydroxylase) illustrent l'importance de ces voies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le cholestérol est le précurseur commun des stéroïdes (gluco- et minéralocorticoïdes, androgènes, œstrogènes, progestérone).",
+        "B": "Vrai : Catalysée par l'enzyme de clivage de la chaîne latérale (CYP11A1), stimulée par l'ACTH ou la LH.",
+        "C": "Vrai : L'aromatase est la cible de certains traitements (inhibiteurs de l'aromatase).",
+        "D": "Faux : Les stéroïdes sont liposolubles, non stockés, synthétisés à la demande et libérés par diffusion ; ils circulent liés à des protéines de transport.",
+        "E": "Faux : Les stéroïdes, liposolubles, agissent principalement sur des récepteurs intracellulaires/nucléaires modulant la transcription (des effets membranaires rapides existent accessoirement)."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-055"
+      ],
+      "theme": "Biosynthèse des hormones stéroïdes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Classer les stéroïdes parmi les hormones hydrosolubles à action membranaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5027",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le transport et le devenir des hormones stéroïdes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les stéroïdes circulent en grande partie liés à des protéines de transport plasmatiques.",
+        "B": "Seule la fraction libre des hormones stéroïdes est biologiquement active.",
+        "C": "Le foie joue un rôle majeur dans le catabolisme et la conjugaison des stéroïdes.",
+        "D": "Les stéroïdes ont une demi-vie très brève, de l'ordre de quelques secondes.",
+        "E": "Les variations de la protéine de transport n'ont aucun effet sur le dosage hormonal total."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les hormones stéroïdes, liposolubles, circulent majoritairement liées à des protéines de transport spécifiques (transcortine pour le cortisol, SHBG pour les stéroïdes sexuels) et à l'albumine ; seule la fraction libre est active, la fraction liée servant de réservoir. Leur catabolisme, surtout hépatique, comprend des réductions et des conjugaisons (glycuro- et sulfoconjugaison) rendant les métabolites hydrosolubles, éliminés dans l'urine et la bile. Les variations des protéines de transport (grossesse, prise d'œstrogènes, hépatopathies) modifient les concentrations totales sans nécessairement changer la fraction libre : d'où l'intérêt, parfois, du dosage des fractions libres. Cette pharmacocinétique éclaire l'interprétation des bilans hormonaux.",
+      "explications_par_proposition": {
+        "A": "Vrai : Comme la CBG (transcortine) pour le cortisol et la SHBG pour les stéroïdes sexuels.",
+        "B": "Vrai : La fraction liée constitue un réservoir circulant.",
+        "C": "Vrai : Les métabolites conjugués sont éliminés dans l'urine et la bile.",
+        "D": "Faux : Leur liaison aux protéines de transport leur confère une demi-vie plus longue que celle des catécholamines ; elle varie selon l'hormone.",
+        "E": "Faux : Les variations des protéines de transport (grossesse, œstrogènes, maladies hépatiques) modifient la concentration totale de l'hormone, sans toujours modifier la fraction libre active : il faut en tenir compte dans l'interprétation."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-055"
+      ],
+      "theme": "Transport et catabolisme des stéroïdes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Négliger l'influence des protéines de transport sur l'interprétation des dosages hormonaux.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5028",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la stéroïdogenèse surrénalienne, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le déficit en 21-hydroxylase est la cause la plus fréquente d'hyperplasie congénitale des surrénales.",
+        "B": "Dans ce déficit, la baisse du cortisol lève le rétrocontrôle et augmente l'ACTH, stimulant la surrénale.",
+        "C": "L'excès d'androgènes surrénaliens peut entraîner une virilisation.",
+        "D": "La zonation surrénalienne oriente la synthèse : aldostérone (glomérulée), cortisol (fasciculée), androgènes (réticulée).",
+        "E": "Un bloc enzymatique de la stéroïdogenèse entraîne toujours un excès de toutes les hormones en aval du bloc."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La stéroïdogenèse surrénalienne, à partir du cholestérol, suit des voies enzymatiques spécifiques de chaque zone corticale. Un bloc enzymatique diminue les hormones situées en aval et fait s'accumuler les précurseurs en amont, parfois déviés vers d'autres voies. Le déficit en 21-hydroxylase, cause la plus fréquente d'hyperplasie congénitale des surrénales, réduit cortisol et aldostérone et dévie la synthèse vers les androgènes : d'où insuffisance surrénale (parfois avec perte de sel), élévation de l'ACTH (hyperplasie) et virilisation. Le dosage des précurseurs (17-hydroxyprogestérone) permet le diagnostic. Ces notions illustrent l'importance des voies de la stéroïdogenèse en pathologie endocrinienne et en dépistage néonatal.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il entraîne un défaut de synthèse du cortisol et de l'aldostérone avec déviation vers les androgènes.",
+        "B": "Vrai : D'où l'hyperplasie surrénalienne et l'accumulation des précurseurs en amont du bloc.",
+        "C": "Vrai : Par exemple une ambiguïté sexuelle chez la fille nouveau-née.",
+        "D": "Vrai : Du fait de l'expression différentielle des enzymes.",
+        "E": "Faux : Un bloc diminue les hormones en aval et fait s'accumuler les précurseurs en amont, parfois déviés vers d'autres voies (par exemple les androgènes)."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-055"
+      ],
+      "theme": "Stéroïdogenèse surrénalienne et blocs enzymatiques",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un bloc enzymatique augmente les hormones en aval.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5029",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel est le précurseur commun de toutes les hormones stéroïdes ?",
+      "propositions": {
+        "A": "Le cholestérol.",
+        "B": "Le glycérol.",
+        "C": "La tyrosine.",
+        "D": "Le tryptophane.",
+        "E": "L'acide arachidonique."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Toutes les hormones stéroïdes (glucocorticoïdes, minéralocorticoïdes, androgènes, œstrogènes, progestatifs, mais aussi la vitamine D et les acides biliaires dans une acception large) dérivent du cholestérol, d'origine alimentaire ou synthétisé localement. La première étape, commune et limitante, est sa conversion en prégnénolone par l'enzyme de clivage de la chaîne latérale (CYP11A1) dans la mitochondrie, sous l'effet des hormones trophiques (ACTH, LH). Les voies ultérieures, propres à chaque tissu, aboutissent aux différentes hormones. Ce précurseur unique explique la parenté structurale des stéroïdes et les conséquences des anomalies de la synthèse. Il distingue nettement les stéroïdes des hormones dérivées d'acides aminés (catécholamines, hormones thyroïdiennes).",
+      "explications_par_proposition": {
+        "A": "Vrai : Toutes les hormones stéroïdes dérivent du cholestérol via la prégnénolone.",
+        "B": "Faux : Il entre dans la composition des triglycérides et phospholipides, non des stéroïdes.",
+        "C": "Faux : Elle est le précurseur des catécholamines et des hormones thyroïdiennes, non des stéroïdes.",
+        "D": "Faux : Il est le précurseur de la sérotonine et de la mélatonine.",
+        "E": "Faux : Il est le précurseur des prostaglandines et leucotriènes, non des hormones stéroïdes."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-055"
+      ],
+      "theme": "Précurseur commun des hormones stéroïdes",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre le précurseur des stéroïdes (cholestérol) et celui des catécholamines (tyrosine).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les bases moléculaires de l'oncogenèse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les oncogènes résultent de l'activation de proto-oncogènes et favorisent la prolifération cellulaire.",
+        "B": "Les gènes suppresseurs de tumeur freinent la prolifération ; leur inactivation favorise la cancérogenèse.",
+        "C": "Le gène TP53 code une protéine suppresseur de tumeur impliquée dans l'arrêt du cycle et l'apoptose.",
+        "D": "La cancérogenèse est un processus multi-étapes impliquant l'accumulation d'altérations génétiques.",
+        "E": "L'inactivation d'un seul allèle d'un gène suppresseur de tumeur suffit toujours à induire le cancer."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La transformation cancéreuse résulte de l'accumulation d'altérations génétiques et épigénétiques affectant deux grandes catégories de gènes : les proto-oncogènes, dont l'activation (mutation, amplification, translocation) stimule la prolifération (effet dominant, une copie suffit), et les gènes suppresseurs de tumeur (TP53, RB), dont l'inactivation (en général des deux allèles, hypothèse de Knudson) lève les freins à la prolifération et à l'apoptose. S'y ajoutent les gènes de réparation de l'ADN, dont les déficits augmentent l'instabilité génétique. Ce processus multi-étapes confère les caractéristiques des cellules cancéreuses. Sa compréhension fonde les thérapies ciblées et l'oncogénétique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une seule copie activée peut suffire (effet dominant).",
+        "B": "Vrai : Elle nécessite en général l'inactivation des deux allèles (hypothèse de Knudson).",
+        "C": "Vrai : Il est fréquemment muté dans les cancers.",
+        "D": "Vrai : Combinant activation d'oncogènes et inactivation de gènes suppresseurs.",
+        "E": "Faux : En règle, l'inactivation des deux allèles est nécessaire (récessivité au niveau cellulaire, hypothèse des deux événements de Knudson), même si des mécanismes d'haplo-insuffisance existent."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-056"
+      ],
+      "theme": "Oncogenèse : oncogènes et gènes suppresseurs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un seul allèle inactivé d'un gène suppresseur suffit en règle à la cancérogenèse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les facteurs de cancérogenèse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le tabac est un cancérogène chimique majeur, impliqué notamment dans le cancer bronchique.",
+        "B": "Les rayonnements ionisants et les ultraviolets sont des cancérogènes physiques.",
+        "C": "Certains virus sont impliqués dans la cancérogenèse (virus oncogènes).",
+        "D": "L'inflammation chronique peut favoriser la cancérogenèse.",
+        "E": "La cancérogenèse est toujours due à un facteur unique bien identifié."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La cancérogenèse est multifactorielle. Les agents cancérogènes sont chimiques (tabac, amiante, certains toxiques et médicaments), physiques (rayonnements ionisants, ultraviolets) ou biologiques (virus oncogènes comme les papillomavirus, les virus des hépatites B et C, le virus d'Epstein-Barr, le virus de l'immunodéficience humaine de façon indirecte ; certaines bactéries et parasites). S'y ajoutent les facteurs favorisants (inflammation chronique, immunodépression, hormones, prédisposition génétique). Ces agents agissent souvent de façon combinée et séquentielle (initiation, promotion, progression). Cette connaissance fonde la prévention (sevrage tabagique, vaccination contre les papillomavirus et le virus de l'hépatite B, radioprotection) et le dépistage des cancers.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il contient de nombreux agents mutagènes.",
+        "B": "Vrai : Ils induisent des lésions de l'ADN.",
+        "C": "Vrai : Exemples : papillomavirus humains (col utérin), virus de l'hépatite B et C (carcinome hépatocellulaire), virus d'Epstein-Barr.",
+        "D": "Vrai : Exemple : carcinome sur maladie inflammatoire chronique de l'intestin, cancer gastrique et Helicobacter pylori.",
+        "E": "Faux : La cancérogenèse est multifactorielle (facteurs génétiques, environnementaux, infectieux, hormonaux) et multi-étapes ; un facteur unique est rarement en cause isolément."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-056"
+      ],
+      "theme": "Facteurs de cancérogenèse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réduire la cancérogenèse à un facteur unique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les relations entre virus et cancers, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les papillomavirus humains à haut risque sont impliqués dans le cancer du col de l'utérus.",
+        "B": "Les virus des hépatites B et C sont associés au carcinome hépatocellulaire.",
+        "C": "Le virus d'Epstein-Barr est associé à certains lymphomes et au carcinome du nasopharynx.",
+        "D": "La prévention de certains cancers viro-induits passe par la vaccination.",
+        "E": "Les virus oncogènes provoquent le cancer immédiatement après l'infection, sans latence."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Plusieurs virus sont impliqués dans la cancérogenèse humaine, selon un processus de longue latence nécessitant une infection persistante et la coopération d'autres facteurs. Les papillomavirus à haut risque (cancer du col, cancers ORL et anogénitaux) agissent via les oncoprotéines E6 et E7, qui inactivent p53 et pRb. Les virus des hépatites B et C favorisent le carcinome hépatocellulaire, souvent sur cirrhose. Le virus d'Epstein-Barr est associé au lymphome de Burkitt et au carcinome du nasopharynx ; le virus herpès humain 8 au sarcome de Kaposi. La prévention repose sur la vaccination (papillomavirus, hépatite B) et le dépistage. Ces liens illustrent l'intérêt de la prévention primaire en cancérologie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les oncoprotéines virales E6 et E7 inactivent respectivement p53 et pRb.",
+        "B": "Vrai : Souvent au stade de cirrhose ; la vaccination contre l'hépatite B est un moyen de prévention.",
+        "C": "Vrai : Comme le lymphome de Burkitt endémique.",
+        "D": "Vrai : Vaccins contre les papillomavirus et contre le virus de l'hépatite B.",
+        "E": "Faux : La cancérogenèse virale implique en général une infection persistante et une longue latence, avec coopération d'autres facteurs."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-056"
+      ],
+      "theme": "Virus et cancers",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'infection virale induit immédiatement le cancer, sans latence ni cofacteurs.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5020",
+      "format": "QCS (réponse unique)",
+      "enonce": "Le gène TP53 (p53) appartient à quelle catégorie de gènes impliqués dans la cancérogenèse ?",
+      "propositions": {
+        "A": "Un gène suppresseur de tumeur.",
+        "B": "Un proto-oncogène.",
+        "C": "Un gène de la coagulation.",
+        "D": "Un gène de structure du collagène.",
+        "E": "Un oncogène viral."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le gène TP53, surnommé « gardien du génome », est un gène suppresseur de tumeur majeur. La protéine p53 est activée par les lésions de l'ADN : elle arrête le cycle cellulaire (permettant la réparation) ou, si les dommages sont trop importants, déclenche l'apoptose. Son inactivation (mutation, le plus souvent) favorise l'accumulation d'altérations et la prolifération des cellules endommagées. TP53 est le gène le plus fréquemment muté dans les cancers humains ; sa mutation germinale cause le syndrome de Li-Fraumeni. Cette fonction illustre le rôle des gènes suppresseurs de tumeur, dont l'inactivation (des deux allèles) participe à la cancérogenèse, par opposition aux oncogènes activés.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il code un facteur de transcription qui arrête le cycle cellulaire et déclenche l'apoptose en cas de lésion de l'ADN ; il est fréquemment inactivé dans les cancers.",
+        "B": "Faux : Les proto-oncogènes stimulent la prolifération ; TP53 au contraire la freine.",
+        "C": "Faux : TP53 n'a pas de rôle dans l'hémostase.",
+        "D": "Faux : TP53 ne code pas une protéine de structure.",
+        "E": "Faux : TP53 est un gène cellulaire humain, non un oncogène d'origine virale."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-056"
+      ],
+      "theme": "Nature d'un gène suppresseur de tumeur",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Classer TP53 parmi les oncogènes alors qu'il est un gène suppresseur de tumeur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
           "date": "2020"
         }
       ],

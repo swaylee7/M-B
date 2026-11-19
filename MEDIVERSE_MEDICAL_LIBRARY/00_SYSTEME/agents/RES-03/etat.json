@@ -1,9 +1,18 @@
 {
   "id": "RES-03",
-  "statut": "en_attente",
-  "derniere_execution": null,
+  "statut": "en_cours",
+  "derniere_execution": "2026-11-19",
   "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "taches_suivantes": [
+    "QCM MED-001…052 (lot a : RES-03-a.json)",
+    "QCM MED-054…098 (lot b : RES-03-b.json)"
+  ],
+  "objectifs": {
+    "items": 75,
+    "qcm_par_item": 3,
+    "qcm_total": 225
+  },
+  "compteurs": {
+    "qcm": 0
+  }
 }

@@ -1,46 +1,172 @@
 {
   "id": "AUD-02",
-  "statut": "session_terminee",
-  "derniere_execution": "2026-11-19T02:05:12+00:00",
+  "statut": "actif",
+  "derniere_execution": "2026-11-19T02:06:26+00:00",
   "taches_terminees": [
-    "Audit des posologies et contre-indications DOS-CARD-0001 à 0005 et des lots QCM/cas DOS-01 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/)",
-    "Audit des posologies DOS-PEDI-0001 à 0003, DOS-NEON-0001 à 0002 et des lots QCM/cas DOS-05 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/) — 1 erreur critique corrigée (amoxicilline de relais dans la MAS)"
+    "audit DOS-INFE-0001 (lot DOS-02)",
+    "audit DOS-INFE-0002 (lot DOS-02)",
+    "audit DOS-PNEU-0001 (lot DOS-02)",
+    "audit DOS-PNEU-0002 (lot DOS-02)",
+    "audit DOS-PNEU-0003 (lot DOS-02)",
+    "audit DOS-CARD-0001 (lot DOS-01)",
+    "audit DOS-CARD-0002 (lot DOS-01)",
+    "audit DOS-CARD-0003 (lot DOS-01)",
+    "audit DOS-CARD-0004 (lot DOS-01)",
+    "audit DOS-CARD-0005 (lot DOS-01)",
+    "audit DOS-PEDI-0001 (lot DOS-05)",
+    "audit DOS-PEDI-0002 (lot DOS-05)",
+    "audit DOS-PEDI-0003 (lot DOS-05)",
+    "audit DOS-NEON-0001 (lot DOS-05)",
+    "audit DOS-NEON-0002 (lot DOS-05)",
+    "audit DOS-NEUR-0001 (lot DOS-06)",
+    "audit DOS-MINT_REA-0001 (lot DOS-06)",
+    "audit DOS-MINT_REA-0002 (lot DOS-06)",
+    "audit DOS-URGE-0001 (lot DOS-06)",
+    "audit DOS-URGE-0002 (lot DOS-06)"
   ],
   "taches_suivantes": [
-    "DOS-CARD-0001 : bromocriptine (cardiomyopathie du péripartum) — schéma ESC Grossesse à confirmer",
-    "DOS-CARD-0004 : HNF IV en attente de coronarographie (bolus et débit) — tableau ESC 2023 à confirmer",
-    "DOS-CARD-0005 : antibiothérapie probabiliste ESC 2023 ; prophylaxie secondaire du RAA (programme national algérien)",
-    "CAS-CARD-0009 : adaptation de la céfazoline/cloxacilline à l'hémodialyse",
-    "DOS-PEDI-0001 : NaCl 3 % (hyponatrémie convulsive), ondansétron (AMM Algérie), racécadotril (RCP)",
-    "DOS-PEDI-0003 : thiamine (renutrition), albendazole selon l'âge",
-    "DOS-NEON-0001 : prophylaxie anti-D à 28 SA (dose et politique nationale)",
-    "DOS-NEON-0002 : doses méningées d'amoxicilline et de céfotaxime, vancomycine, méropénem, antifongiques, amines, antibioprophylaxie per partum (CDC 2010/ACOG 2020)"
+    "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
+    "DOS-INFE-0002 : Durées formes focalisées, schémas enfant/grossesse (Ioannina, OMS 2006) ; doses cotrimoxazole/ceftriaxone ; textes algériens",
+    "DOS-PNEU-0001 : Lire l'instruction n°07/2024 et l'instruction ITL (sapp.dz) ; tranches de poids nationales et pédiatriques ; S14",
+    "DOS-PNEU-0002 : Doses céfotaxime/spiramycine/lévofloxacine, amoxicilline pédiatrique ; S10–S12",
+    "DOS-PNEU-0003 : MART 6–11 ans, doses d'exacerbation pédiatriques (GINA 2025) ; S6, S7",
+    "DOS-CARD-0001 : bromocriptine [POSOLOGIE À VÉRIFIER]",
+    "DOS-CARD-0004 : HNF IV en attente de coronarographie",
+    "DOS-CARD-0005 : antibiothérapie probabiliste ESC 2023 et prophylaxie secondaire du RAA",
+    "CAS-CARD-0009 : adaptation à l'hémodialyse",
+    "DOS-PEDI-0001 : NaCl 3 %, ondansétron, racécadotril",
+    "DOS-PEDI-0003 : thiamine, albendazole",
+    "DOS-NEON-0001 : anti-D à 28 SA",
+    "DOS-NEON-0002 : doses méningées amoxicilline/céfotaxime, vancomycine, méropénem, antifongiques, remplissage et amines, antibioprophylaxie per partum",
+    "Relire les textes intégraux AHA/ASA 2026, SSC 2026, HAS 2025 et ERC-ESICM 2025 pour lever les [À VÉRIFIER] restants",
+    "Obtenir le guide national algérien de l'envenimation scorpionique en vigueur (SAS : indication, posologie)",
+    "Confronter les antidotes marqués aux RCP et protocoles (naloxone, flumazénil, bicarbonate, glucagon, Fab antidigoxine, pralidoxime)",
+    "Obtenir les coordonnées officielles du Centre National de Toxicologie (Alger) avant toute publication d'un numéro",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
   ],
-  "objectifs": {
-    "dossiers": 5
-  },
+  "objectifs": {},
   "compteurs": {
-    "marqueurs_posologie_initiaux_dossiers": 15,
-    "marqueurs_posologie_initiaux_cas": 4,
-    "marqueurs_posologie_leves_dossiers": 12,
-    "marqueurs_posologie_leves_cas": 3,
-    "marqueurs_posologie_restants_dossiers": 4,
-    "dont_marqueur_cree_par_precision": "DOS-CARD-0005 antibiothérapie probabiliste ESC 2023 (marqueur générique converti)",
-    "marqueurs_posologie_restants_cas": 1,
-    "erreurs_critiques": 0,
-    "erreurs_majeures": 1,
-    "corrections": 19
+    "dossiers_audites": 20,
+    "sessions": 4
   },
-  "sessions": {
-    "DOS-05": {
-      "date": "2026-11-19",
-      "marqueurs_posologie_initiaux_dossiers": 22,
-      "marqueurs_posologie_leves_dossiers": 8,
-      "marqueurs_posologie_restants_dossiers": 15,
-      "note_comptage": "anti-D normalisé (non compté auparavant) ; la mention du marqueur dans l'avertissement de NEON-0002 a été reformulée",
-      "posologies_precisees_cas": 3,
-      "erreurs_critiques": 1,
-      "erreurs_majeures_posologie": 0
+  "sessions": [
+    {
+      "redacteur": "DOS-02",
+      "date": "2026-11-19T01:56:59+00:00",
+      "dossiers": [
+        "DOS-INFE-0001",
+        "DOS-INFE-0002",
+        "DOS-PNEU-0001",
+        "DOS-PNEU-0002",
+        "DOS-PNEU-0003"
+      ],
+      "rapports": "00_SYSTEME/agents/AUD-02/rapports/",
+      "compteurs": {
+        "dossiers_audites": 5,
+        "qcm_audites": 62,
+        "cas_audites": 10,
+        "erreurs_critiques": 0,
+        "corrections": 44,
+        "marqueurs_posologie_leves": 7,
+        "recherches_web": 18
+      },
+      "taches_suivantes": [
+        "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
+        "DOS-INFE-0002 : Durées formes focalisées, schémas enfant/grossesse (Ioannina, OMS 2006) ; doses cotrimoxazole/ceftriaxone ; textes algériens",
+        "DOS-PNEU-0001 : Lire l'instruction n°07/2024 et l'instruction ITL (sapp.dz) ; tranches de poids nationales et pédiatriques ; S14",
+        "DOS-PNEU-0002 : Doses céfotaxime/spiramycine/lévofloxacine, amoxicilline pédiatrique ; S10–S12",
+        "DOS-PNEU-0003 : MART 6–11 ans, doses d'exacerbation pédiatriques (GINA 2025) ; S6, S7"
+      ],
+      "origine": "restauré depuis 00_SYSTEME/sauvegardes/20261119 (état écrit par la session DOS-02)"
+    },
+    {
+      "redacteur": "DOS-01",
+      "date": "2026-11-19T01:59:21+00:00",
+      "dossiers": [
+        "DOS-CARD-0001",
+        "DOS-CARD-0002",
+        "DOS-CARD-0003",
+        "DOS-CARD-0004",
+        "DOS-CARD-0005"
+      ],
+      "rapports": "00_SYSTEME/agents/AUD-01/rapports/",
+      "compteurs": {
+        "dossiers_audites": 5,
+        "qcm_audites": 60,
+        "qcm_corriges": 1,
+        "cas_audites": 10,
+        "cas_corriges": 6,
+        "corrections_dossiers": 49,
+        "erreurs_critiques": 0,
+        "erreurs_majeures": 1,
+        "marqueurs_posologie": "15 -> 4 (dossiers) ; 4 -> 1 (cas)"
+      },
+      "taches_suivantes": [
+        "DOS-CARD-0001 : bromocriptine [POSOLOGIE À VÉRIFIER]",
+        "DOS-CARD-0004 : HNF IV en attente de coronarographie",
+        "DOS-CARD-0005 : antibiothérapie probabiliste ESC 2023 et prophylaxie secondaire du RAA",
+        "CAS-CARD-0009 : adaptation à l'hémodialyse"
+      ],
+      "origine": "reconstruit à partir des journaux AUD-01/AUD-02 et de operations.jsonl (etat.json de cette session écrasé par erreur, voir journal)"
+    },
+    {
+      "redacteur": "DOS-05",
+      "date": "2026-11-19T02:05:12+00:00",
+      "dossiers": [
+        "DOS-PEDI-0001",
+        "DOS-PEDI-0002",
+        "DOS-PEDI-0003",
+        "DOS-NEON-0001",
+        "DOS-NEON-0002"
+      ],
+      "rapports": "00_SYSTEME/agents/AUD-01/rapports/",
+      "compteurs": {
+        "dossiers_audites": 5,
+        "qcm_corriges": 7,
+        "cas_corriges": 3,
+        "corrections_dossiers": 49,
+        "erreurs_critiques": 1,
+        "marqueurs_posologie_leves": 8,
+        "marqueurs_posologie_restants": 15
+      },
+      "taches_suivantes": [
+        "DOS-PEDI-0001 : NaCl 3 %, ondansétron, racécadotril",
+        "DOS-PEDI-0003 : thiamine, albendazole",
+        "DOS-NEON-0001 : anti-D à 28 SA",
+        "DOS-NEON-0002 : doses méningées amoxicilline/céfotaxime, vancomycine, méropénem, antifongiques, remplissage et amines, antibioprophylaxie per partum"
+      ],
+      "origine": "reconstruit à partir des journaux AUD-01/AUD-02 et de operations.jsonl (etat.json de cette session écrasé par erreur, voir journal)"
+    },
+    {
+      "redacteur": "DOS-06",
+      "date": "2026-11-19T02:06:26+00:00",
+      "dossiers": [
+        "DOS-NEUR-0001",
+        "DOS-MINT_REA-0001",
+        "DOS-MINT_REA-0002",
+        "DOS-URGE-0001",
+        "DOS-URGE-0002"
+      ],
+      "rapports": "00_SYSTEME/agents/AUD-02/rapports/",
+      "compteurs": {
+        "dossiers_audites": 5,
+        "qcm_audites": 60,
+        "qcm_corriges": 4,
+        "cas_audites": 10,
+        "cas_corriges": 4,
+        "corrections_dossiers": 47,
+        "erreurs_critiques": 0,
+        "erreurs_majeures": 5,
+        "websearch": 13
+      },
+      "taches_suivantes": [
+        "Relire les textes intégraux AHA/ASA 2026, SSC 2026, HAS 2025 et ERC-ESICM 2025 pour lever les [À VÉRIFIER] restants",
+        "Obtenir le guide national algérien de l'envenimation scorpionique en vigueur (SAS : indication, posologie)",
+        "Confronter les antidotes marqués aux RCP et protocoles (naloxone, flumazénil, bicarbonate, glucagon, Fab antidigoxine, pralidoxime)",
+        "Obtenir les coordonnées officielles du Centre National de Toxicologie (Alger) avant toute publication d'un numéro"
+      ],
+      "origine": "session courante"
     }
-  }
+  ],
+  "note": "Fichier fusionné le 2026-11-19 par la session DOS-06 après un écrasement accidentel des états des sessions DOS-01 et DOS-05 ; leurs entrées ont été reconstituées d'après les journaux. Postes partagés : relire ce fichier et le compléter (lecture-modification-écriture), ne pas le réécrire en entier."
 }

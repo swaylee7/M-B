@@ -1,0 +1,173 @@
+{
+  "agent": "DOS-09",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-RHUM-0901",
+      "titre": "Polyarthrite des mains depuis 8 semaines chez une enseignante de 38 ans",
+      "niveau": "generaliste",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 38 ans, enseignante à Oran, mariée, deux enfants, non fumeuse.",
+      "motif_consultation": "Douleurs et gonflement des doigts depuis 8 semaines, difficulté à écrire au tableau le matin.",
+      "antecedents": "Aucun antécédent notable. Pas de psoriasis personnel ou familial. Mère suivie pour « rhumatisme » non précisé. Contraception orale.",
+      "symptomes": "Douleurs des poignets, des MCP et des IPP des deux mains, réveils nocturnes vers 5 h, raideur matinale de 1 h 30, asthénie. Pas de fièvre, pas d'éruption, pas de photosensibilité, pas d'aphtose, pas de syndrome sec, pas de diarrhée.",
+      "examen_clinique": "Synovites des 2e, 3e et 4e MCP droites, 2e et 3e MCP gauches, IPP 2 et 3 bilatérales ; poignets gonflés ; squeeze test des MTP positif. 12 articulations gonflées et 14 douloureuses sur 28. Pas de nodule. Examen cutané et unguéal normal. Auscultation normale.",
+      "biologie": "VS 38 mm (N < 20), CRP 18 mg/L (N < 5), Hb 11,8 g/dL, GB 7,6 G/L, plaquettes 390 G/L ; FR 28 UI/mL (N < 14) ; anti-CCP 95 U/mL (N < 17) ; AAN négatifs ; ALAT 18 UI/L, créatinine 6,5 mg/L ; bandelette urinaire négative ; sérologies VHB, VHC, VIH négatives ; IgM anti-parvovirus B19 négatives.",
+      "imagerie": "Radiographies mains et pieds : déminéralisation en bande des MCP, pas d'érosion. Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Polyarthrite rhumatoïde débutante séropositive",
+        "Polyarthrite virale",
+        "Lupus systémique débutant"
+      ],
+      "diagnostics_differentiels": [
+        "Polyarthrite virale (parvovirus B19, VHB, VHC)",
+        "Lupus systémique",
+        "Rhumatisme psoriasique sans psoriasis visible",
+        "Syndrome de Gougerot-Sjögren"
+      ],
+      "examens_a_demander": [
+        "VS, CRP, NFS",
+        "FR et ACPA",
+        "AAN (± anti-ADN natif si positifs)",
+        "Sérologies virales (VHB, VHC, VIH, parvovirus B19)",
+        "Bilan hépatique et rénal, bandelette urinaire",
+        "Radiographies des mains, des pieds et du thorax",
+        "Échographie articulaire en cas de doute"
+      ],
+      "diagnostic_final": "Polyarthrite rhumatoïde débutante séropositive (ACR/EULAR 2010 : 5 + 3 + 1 + 1 = 10/10), forte activité.",
+      "traitement": "Information et décision partagée ; méthotrexate hebdomadaire 10 à 15 mg/semaine augmenté de 5 mg toutes les 2 à 4 semaines selon tolérance, acide folique ≥ 5 mg/semaine (3E) ; corticothérapie orale de courte durée à faible dose avec décroissance rapide [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; contraception poursuivie (MTX tératogène) ; vaccinations antigrippale, antipneumococcique et anti-VHB ; calcium et vitamine D ; activité physique et orthèses de repos.",
+      "surveillance": "NFS, ALAT, créatinine toutes les 4 à 6 semaines jusqu'à dose stable, puis tous les 1 à 3 mois ; DAS28 ou CDAI tous les 1 à 3 mois ; radiographies des mains et des pieds à distance.",
+      "evolution": "À 3 mois, DAS28 à 3,0 sous MTX 20 mg/semaine ; corticoïdes arrêtés au 3e mois. À 6 mois : rémission clinique (DAS28 2,2, 0 articulation gonflée). Pas de progression radiographique à 1 an.",
+      "explication_pedagogique": "Cas typique de PR débutante : tableau clinique, sérologie fortement positive, élimination des polyarthrites virales et des connectivites, traitement de fond précoce par MTX optimisé dans une stratégie T2T.",
+      "questions": [
+        {
+          "question": "Calculez le score ACR/EULAR 2010.",
+          "reponse": "Plus de 10 articulations dont des petites (5) + ACPA > 3 × N (3) + CRP/VS élevées (1) + durée ≥ 6 semaines (1) = 10/10."
+        },
+        {
+          "question": "Pourquoi rechercher une infection par le parvovirus B19 ?",
+          "reponse": "Il peut donner une polyarthrite aiguë symétrique des mains, parfois avec FR positif, d'évolution spontanément favorable ; ici, la durée > 6 semaines et les ACPA élevés rendent ce diagnostic improbable."
+        },
+        {
+          "question": "Quels signes d'alerte expliquer à la patiente sous MTX ?",
+          "reponse": "Fièvre, toux ou dyspnée (pneumopathie d'hypersensibilité, infection), ulcérations buccales, saignements ou ecchymoses (cytopénies) : consulter et faire une NFS."
+        },
+        {
+          "question": "Quel est l'objectif à 6 mois ?",
+          "reponse": "Rémission (ou au minimum faible activité) selon la stratégie treat-to-target."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Aletaha D et al. 2010 ACR/EULAR rheumatoid arthritis classification criteria. Ann Rheum Dis 2010;69(9):1580-1588",
+          "date": "2010"
+        },
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        },
+        {
+          "reference": "Visser K et al. 3E Initiative — recommandations méthotrexate. Ann Rheum Dis 2009;68(7):1086-1093",
+          "date": "2009"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-RHUM-0902",
+      "titre": "PR ancienne en échec du méthotrexate : bilan pré-biothérapie et découverte d'une pneumopathie interstitielle",
+      "niveau": "dems",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 58 ans, ancien ouvrier d'une carrière de pierre, fumeur actif (30 paquets-années), Constantine.",
+      "motif_consultation": "Polyarthrite active malgré le traitement, adressé pour discussion d'une biothérapie.",
+      "antecedents": "PR séropositive (FR et ACPA à titre élevé) depuis 9 ans, érosive. Méthotrexate 20 mg/semaine par voie sous-cutanée depuis 2 ans + acide folique, prednisone 10 mg/j depuis plus d'un an. Antécédent de pleurésie « traitée » à l'âge de 25 ans (dossier indisponible). Père décédé de tuberculose.",
+      "symptomes": "Douleurs des mains, des poignets et des pieds, raideur matinale de 2 h, toux sèche et dyspnée d'effort (stade 2 mMRC) depuis 6 mois.",
+      "examen_clinique": "10 articulations gonflées, 14 douloureuses ; DAS28-CRP 5,6. Nodules rhumatoïdes aux coudes. Râles crépitants « velcro » aux deux bases. SpO2 95 % au repos. Pas d'hippocratisme digital.",
+      "biologie": "CRP 34 mg/L (N < 5), Hb 11 g/dL, GB 8,2 G/L ; ALAT 30 UI/L ; créatinine 9 mg/L ; IGRA positif ; AgHBs négatif, anti-HBc positifs, anti-HBs négatifs, ADN VHB indétectable ; VHC et VIH négatifs ; glycémie à jeun 1,18 g/L (N 0,70–1,10).",
+      "imagerie": "Radiographie thoracique : opacités réticulaires des bases, pas de caverne, séquelle pleurale gauche. Scanner thoracique haute résolution : pneumopathie interstitielle des bases d'aspect de pneumopathie interstitielle commune (réticulations sous-pleurales, bronchectasies de traction), pas de lésion évocatrice de tuberculose active. EFR : CVF 72 % de la théorique, DLCO 55 %.",
+      "hypotheses_diagnostiques": [
+        "PR active en échec du MTX avec facteurs de mauvais pronostic",
+        "Pneumopathie interstitielle associée à la PR",
+        "Pneumopathie d'hypersensibilité au méthotrexate",
+        "Tuberculose (latente ou active)"
+      ],
+      "diagnostics_differentiels": [
+        "Pneumopathie d'hypersensibilité au MTX (aiguë/subaiguë, fébrile)",
+        "Silicose (exposition professionnelle)",
+        "Tuberculose pulmonaire active",
+        "Insuffisance cardiaque"
+      ],
+      "examens_a_demander": [
+        "Scanner thoracique haute résolution et EFR avec DLCO",
+        "Avis pneumologique (discussion multidisciplinaire)",
+        "Recherche de tuberculose active (expectorations/test moléculaire si toux productive ou image suspecte)",
+        "IGRA (ou IDR)",
+        "Sérologies VHB complètes avec ADN viral, VHC, VIH",
+        "Bilan cardiovasculaire et glycémique",
+        "Ostéodensitométrie (corticothérapie > 3 mois)"
+      ],
+      "diagnostic_final": "PR séropositive érosive active en échec du MTX, compliquée d'une pneumopathie interstitielle diffuse ; infection tuberculeuse latente ; hépatite B résolue (anti-HBc isolés) ; corticodépendance.",
+      "traitement": "Décision en réunion multidisciplinaire rhumatologue-pneumologue. Sevrage tabagique impératif. Traitement de l'infection tuberculeuse latente selon l'instruction nationale ITL 2024 [schéma et durée À VÉRIFIER — protocole national], tuberculose active préalablement exclue. Choix d'une biothérapie à profil pulmonaire jugé favorable (abatacept ou rituximab, options privilégiées par la SFR 2024 en cas de PID) ; avec le rituximab, risque de réactivation du VHB chez un patient anti-HBc positif : prophylaxie antivirale ou surveillance de l'ADN viral selon avis hépatologique. Discussion d'un antifibrosant avec le pneumologue expert. Décroissance progressive de la prednisone, prévention de l'ostéoporose cortisonique. Vaccinations (grippe, pneumocoque, VHB). [Doses : POSOLOGIE À VÉRIFIER — RCP / protocole local]",
+      "surveillance": "Activité de la PR (DAS28/CDAI) tous les 1 à 3 mois ; EFR et DLCO tous les 3 à 6 mois puis selon évolution ; surveillance clinique de la tuberculose sous biothérapie ; ADN VHB et transaminases selon l'avis hépatologique ; glycémie, tension, lipides ; dépistage du cancer bronchique selon le contexte.",
+      "evolution": "À 6 mois : DAS28 à 3,1, prednisone réduite à 5 mg/j, arrêt du tabac obtenu, fonction respiratoire stable (CVF 70 %). Pas de réactivation tuberculeuse ni virale.",
+      "explication_pedagogique": "Ce cas illustre la stratification EULAR (facteurs de mauvais pronostic → bDMARD), l'importance du bilan pré-biothérapie en pays d'endémie tuberculeuse, la gestion du statut VHB, et l'intégration de la PID dans le choix du traitement (SFR 2024).",
+      "questions": [
+        {
+          "question": "Quels sont les facteurs de mauvais pronostic de cette PR ?",
+          "reponse": "Auto-anticorps à titre élevé, érosions, activité élevée, échec du MTX, manifestations extra-articulaires (nodules, PID), tabagisme, sexe masculin."
+        },
+        {
+          "question": "Pourquoi l'IGRA positif ne contre-indique-t-il pas définitivement la biothérapie ?",
+          "reponse": "Il traduit une infection tuberculeuse latente : après exclusion d'une tuberculose active, son traitement selon le protocole national permet ensuite de débuter la biothérapie avec une surveillance."
+        },
+        {
+          "question": "Quel risque fait courir le rituximab chez un patient anti-HBc positif ?",
+          "reponse": "Une réactivation du VHB, potentiellement grave : prophylaxie antivirale ou surveillance de l'ADN viral selon le statut et l'avis spécialisé (EULAR 2022 infections)."
+        },
+        {
+          "question": "Le méthotrexate est-il responsable de la PID ?",
+          "reponse": "Une PID de type pneumopathie interstitielle commune d'installation lente chez un fumeur séropositif évoque d'abord une PID associée à la PR ; la pneumopathie d'hypersensibilité au MTX est plutôt aiguë ou subaiguë, fébrile ; la décision de poursuivre ou non le MTX est prise avec le pneumologue."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie)/INSP. Manuel de la lutte antituberculeuse à l'usage des personnels médicaux, 2011",
+          "date": "2011"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}
