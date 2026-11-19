@@ -220,7 +220,7 @@ Gluconate de calcium : jamais avec des bicarbonates ; nécrose en cas d'extravas
 |---|---|---|---|---|---|
 | 0–12 mois | **400 UI/j pour tous** | **400–800 UI/j** (0–2 ans) | 400 UI/j (allaité ou < 1 L/j de lait infantile) | Prématuré au lait humain : 400–800 UI/j (2022, conditionnelle) [S5] ; faible poids : 400 UI/j + calcium 120–140 mg/kg/j + phosphore 60–90 mg/kg/j (2015) [S6] | **200 000 UI à 1 mois et à 6 mois** `[À VÉRIFIER — MSPRH/INSP]` |
 | > 12 mois | **≥ 600 UI/j** | 400–800 UI/j jusqu'à 18 ans ; **800–1 600 UI/j** si facteurs de risque | ≥ 400 UI/j | — | Non précisé |
-| Grossesse | **600 UI/j** | — | — | — | — |
+| Grossesse | **600 UI/j** | Autres textes français `[À VÉRIFIER]` | — | — | `[À VÉRIFIER]` |
 
 - **Divergence principale : le rythme** — dose **quotidienne** modérée (recommandations internationales) contre **doses intermittentes élevées** (schéma algérien rapporté, base probable : instruction n° 84/MSP/DP du 21 décembre 1988, dispositif non lu) ; l'étude algéroise de 2021 plaide pour une **actualisation** [S8].
 - France : schémas intermittents si observance douteuse (50 000 UI par trimestre, 80 000–100 000 UI en début et fin d'hiver…) `[POSOLOGIE À VÉRIFIER — texte intégral du consensus français non relu]`.
@@ -232,7 +232,7 @@ Gluconate de calcium : jamais avec des bicarbonates ; nécrose en cas d'extravas
 |---|---|
 | Phase aiguë | Calcémie ionisée, phosphatémie, magnésémie, scope, glycémie |
 | **1 mois** (repère) | Ca, P, PAL ; calciurie si forte dose `[rythme À VÉRIFIER — protocole local]` |
-| **3 mois** | Ca, P, **PAL**, **PTH**, **25-OHD**, **radiographie** ; réévaluation de la réponse [S1, S15] |
+| **3 mois** | Ca, P, **PAL**, **PTH**, **25-OHD**, **radiographie** ; réévaluation de la réponse [S1, S15] ; liste exacte des examens `[À VÉRIFIER — texte intégral]` |
 | Long terme | Croissance, déformations, observance de l'entretien |
 
 - **Évolution** : calcémie normale en quelques jours ; PAL ↓ en quelques mois ; déformations du jeune enfant largement corrigées par la croissance.

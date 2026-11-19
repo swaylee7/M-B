@@ -1,0 +1,188 @@
+{
+  "id": "RES-06",
+  "lot": 7,
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T05:18:24+00:00",
+  "perimetre": "Fiches de révision dérivées des dossiers v1.1 audités — cardiologie (embolie pulmonaire et thromboses veineuses, troubles du rythme, péricardites aiguës, angor/syndrome coronarien chronique, rétrécissement aortique), pédiatrie (diarrhées aiguës, convulsions du nourrisson, rachitisme carentiel, infections urinaires) et néonatologie (détresses respiratoires du nouveau-né)",
+  "taches_terminees": [
+    "FIC-CARD-0006",
+    "FIC-CARD-0007",
+    "FIC-CARD-0008",
+    "FIC-CARD-0009",
+    "FIC-CARD-0010",
+    "FIC-PEDI-0004",
+    "FIC-PEDI-0005",
+    "FIC-PEDI-0006",
+    "FIC-PEDI-0007",
+    "FIC-NEON-0003",
+    "PIEGES_CLASSIQUES_LOT7"
+  ],
+  "taches_suivantes": [
+    "Audit des 10 fiches FIC lot 7 et de PIEGES_CLASSIQUES_LOT7 par AUD (statut brouillon_a_auditer)",
+    "Transmission des 5 incohérences repérées (en-tête DOS-NEON-0003 ; corticoïdes du Mémento dans DOS-PEDI-0005 ; mise en forme § 12.3 de DOS-CARD-0006 ; notation < / ≤ 1 cm² de DOS-CARD-0010 ; champ fiches vide dans programme_residanat.json) à l'agent d'audit / à l'orchestrateur",
+    "Mise à jour des fiches si les dossiers CARD-0006, 0007, 0008, PEDI-0005, 0006, 0007 et NEON-0003 passent en v1.2 (levée des marqueurs restants) ou si l'AAP 2026 (IU) et l'ESC 2025 (péricardites, valvulopathies) sont relues en texte intégral",
+    "Indexation (indexer.py) et exports (exporter.py) par l'orchestrateur"
+  ],
+  "fiches": [
+    {
+      "id": "FIC-CARD-0006",
+      "fichier": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0006__EMBOLIE_PULMONAIRE_ET_THROMBOSES_VEINEUSES.md",
+      "dossier_source": "DOS-CARD-0006",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-058",
+      "mots": 1997,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-CARD-0007",
+      "fichier": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0007__TROUBLES_DU_RYTHME.md",
+      "dossier_source": "DOS-CARD-0007",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-063",
+      "mots": 1901,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-CARD-0008",
+      "fichier": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0008__PERICARDITES_AIGUES.md",
+      "dossier_source": "DOS-CARD-0008",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-054",
+      "mots": 1746,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-CARD-0009",
+      "fichier": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0009__ANGINE_DE_POITRINE_SYNDROME_CORONARIEN_CHRONIQUE.md",
+      "dossier_source": "DOS-CARD-0009",
+      "statut_dossier_source": "audite_valide",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-055",
+      "mots": 1622,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-CARD-0010",
+      "fichier": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0010__RETRECISSEMENT_AORTIQUE.md",
+      "dossier_source": "DOS-CARD-0010",
+      "statut_dossier_source": "audite_valide",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-052",
+      "mots": 1674,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PEDI-0004",
+      "fichier": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0004__DIARRHEES_AIGUES_DE_L_ENFANT.md",
+      "dossier_source": "DOS-PEDI-0004",
+      "statut_dossier_source": "audite_valide",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-072",
+      "mots": 1805,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PEDI-0005",
+      "fichier": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0005__CONVULSIONS_DU_NOURRISSON.md",
+      "dossier_source": "DOS-PEDI-0005",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-071",
+      "mots": 1874,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PEDI-0006",
+      "fichier": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0006__RACHITISME_CARENTIEL.md",
+      "dossier_source": "DOS-PEDI-0006",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-068",
+      "mots": 1585,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PEDI-0007",
+      "fichier": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0007__INFECTIONS_URINAIRES_DE_L_ENFANT.md",
+      "dossier_source": "DOS-PEDI-0007",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-065",
+      "mots": 1662,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-NEON-0003",
+      "fichier": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/03_FICHES_REVISION/FIC-NEON-0003__DETRESSES_RESPIRATOIRES_DU_NOUVEAU_NE.md",
+      "dossier_source": "DOS-NEON-0003",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-075",
+      "mots": 1845,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    }
+  ],
+  "compilation": {
+    "fichier": "16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT7.md",
+    "nombre_pieges": 100,
+    "modules": {
+      "CARDIOLOGIE": 50,
+      "PEDIATRIE": 50
+    },
+    "identiques_aux_fiches": "100/100",
+    "liens_resolus": "10/10",
+    "statut": "brouillon_a_auditer"
+  },
+  "incoherences_reperees": [
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-NEON-0003 : l'avertissement de statut (en-tête) annonce des « posologies … des inotropes non sourcées », mais le corps du dossier ne donne aucune posologie d'inotrope et ne porte que 3 marqueurs [POSOLOGIE À VÉRIFIER] (prostaglandine E1 ×2, fermeture du canal artériel) ; selon le rapport AUD-01, le marqueur « inotropes » se trouve dans CAS-NEON-0502. Formulation de l'en-tête à corriger."
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-PEDI-0005 : § 13.2.5 attribue au Mémento OMS 2015 une posologie de dexaméthasone dans la méningite (0,15 mg/kg toutes les 6 h, 2 à 4 jours), alors que le § 21 indique que le Mémento 2015 juge les données insuffisantes pour un usage systématique dans les pays en développement (sauf tuberculose) ; préciser s'il s'agit d'une indication conditionnelle. La fiche ne reprend que la position OMS 2025 et la divergence."
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure (forme)",
+      "objet": "DOS-CARD-0006 § 12.3 : l'item 3 « Syndrome post-EP … il faut y rechercher : » se termine par deux-points et l'HTP-TEC apparaît comme item 4 distinct de la liste numérotée des complications tardives ; mise en forme à revoir (sous-item)."
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure (notation)",
+      "objet": "DOS-CARD-0010 : RA serré défini par une surface < 1,0 cm² (§ 1, § 7.1) mais ≤ 1 cm² dans les catégories bas débit/bas gradient (§ 7.2, § 16.1) ; la fiche reprend chaque formulation à sa place."
+    },
+    {
+      "type": "index",
+      "gravite": "mineure",
+      "objet": "programme_residanat.json : champ fiches vide pour les 10 items du lot 7 (RES-MED-052, 054, 055, 058, 063, 065, 068, 071, 072, 075) — réindexation (indexer.py) nécessaire"
+    }
+  ],
+  "outils": "scratchpad de session (non versionnés) : res06_lot7_outils/ (l7_inject_sources.py, l7_reinject.py, l7_check_numbers.py, l7_contexte_doses.py, l7_wc.py, l7_valider.py, l7_build_pieges.py)",
+  "git": "aucune opération (consigne)"
+}

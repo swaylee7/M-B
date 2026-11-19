@@ -272,7 +272,7 @@ Prolongation par AOD : apixaban 2,5 mg × 2/j ou rivaroxaban 10 mg/j **après 6 
 - **TIH** : chute des plaquettes > 50 % ou thrombose, typiquement entre le 5e et le 10e jour → arrêt de toute héparine, anticoagulant non héparinique, pas d'AVK en phase aiguë `[À VÉRIFIER — protocole local et recommandations spécifiques de la TIH]`.
 - **Consultation à 3–6 mois** (I) ; dyspnée persistante au-delà de 3 mois → ETT puis **scintigraphie V/Q** (HTP-TEC → centre expert).
 - AVK : INR au moins mensuel ; AOD : fonction rénale au moins annuelle. Œstroprogestatifs contre-indiqués après une MTEV.
-- **Prévention** : score de Padoue (risque élevé ≥ 4), Caprini ; énoxaparine **4 000 UI (40 mg) SC une fois par jour**, fondaparinux 2,5 mg/j, HNF 5 000 UI SC deux à trois fois par jour ; compression pneumatique si anticoagulation contre-indiquée.
+- **Prévention** : score de Padoue (risque élevé ≥ 4) `[À VÉRIFIER — recommandations de référence pour la prophylaxie médicale]`, Caprini ; énoxaparine **4 000 UI (40 mg) SC une fois par jour**, fondaparinux 2,5 mg/j, HNF 5 000 UI SC deux à trois fois par jour ; compression pneumatique si anticoagulation contre-indiquée.
 
 ## 6. Pièges classiques
 

@@ -56,3 +56,9 @@ Détail dans `00_SYSTEME/agents/RES-06/journal_lot4.md` et `etat_lot4.json`.
    → (AUD-05, 2026-11-19, rapport `00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md`) : **dossier résolu** — « ≥ 4 mmol/L » = seuil du paquet de la première heure de la SSC (Levy, Evans, Rhodes, *Intensive Care Med* 2018;44:925-928, ajoutée en [S11]) déclenchant le remplissage de 30 mL/kg ; Sepsis-3 ne retient que > 2 mmol/L (choc). DOS-INFE-0006 v1.2. QCM-MINT_REA-0001 et QCM-INFE-3010 : « > 4 » n'y figure que dans des distracteurs faux, non modifiés. **Reste ouvert** : FIC-INFE-0006 (« > 4 mmol/L = gravité marquée [À VÉRIFIER] ») non modifiée — refus du contrôle des permissions ; à aligner après autorisation.
 - [x] DOS-GERI-0001 : « plus de 65 ans » contre « ≥ 65 ans » : aligner sur la source.
    → (AUD-05, 2026-11-19, rapport `00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md`) : résolu — la HAS 2009 vise les personnes « > 65 ans » (libellé vérifié par recherche) : « ≥ 65 ans selon HAS » (§ 21) corrigé en « plus de 65 ans » ; « ≥ 65 ans » conservé pour l'USPSTF 2024, dont c'est le libellé, et pour les données épidémiologiques. DOS-GERI-0001 v1.2 ; FIC-GERI-0001 déjà conforme (« plus de 65 ans »).
+
+## Signalées par RES-06 (lot 7), le 2026-11-19
+- [ ] DOS-NEON-0003 : l'en-tête annonce des doses d'inotropes absentes du corps du texte. Ajouter les doses sourcées, ou corriger l'annonce.
+- [ ] DOS-PEDI-0005 : les §13 et §21 se contredisent sur les corticoïdes en cas de méningite (Mémento OMS 2015).
+- [ ] DOS-CARD-0006 §12.3 : mise en forme à corriger.
+- [ ] DOS-CARD-0010 : surface du RA serré notée tantôt « < 1 cm² », tantôt « ≤ 1 cm² ». Aligner sur l'ESC/EACTS 2025.

@@ -261,7 +261,7 @@ EN PARALLÈLE : la CAUSE (méningite → antibiotiques, glycémie, calcémie, na
 
 | Situation | Traitement |
 |---|---|
-| **Méningite suspectée** (> 2 mois) | **Ceftriaxone 50 mg/kg toutes les 12 h ou 100 mg/kg une fois par jour** (ou céfotaxime 50 mg/kg toutes les 6 h) ; corticoïdes IV **avec la première dose** (OMS 2025) |
+| **Méningite suspectée** (> 2 mois) | **Ceftriaxone 50 mg/kg toutes les 12 h ou 100 mg/kg une fois par jour** (ou céfotaxime 50 mg/kg toutes les 6 h) ; corticoïdes IV **avec la première dose** (OMS 2025 : contexte non épidémique, PL réalisable) |
 | Encéphalite herpétique | Aciclovir : nouveau-né 20 mg/kg toutes les 8 h ; nourrisson `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` |
 | **Hypocalcémie** | **Gluconate de calcium 10 % 0,5 mL/kg (0,11 mmol/kg), maximum 20 mL, en 5 à 10 minutes**, IV lente sous scope ; nouveau-né 2 mL/kg ; puis calcium oral et vitamine D [S10, S21] |
 | Hypoglycémie | Glucosé 10 % 5 mL/kg, contrôle à 30 min |
