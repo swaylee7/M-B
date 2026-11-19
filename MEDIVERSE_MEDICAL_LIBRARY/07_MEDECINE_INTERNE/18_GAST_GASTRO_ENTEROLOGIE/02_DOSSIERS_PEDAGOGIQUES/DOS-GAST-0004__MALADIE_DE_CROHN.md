@@ -612,3 +612,250 @@ Fistule complexe → drainage + SÉTON → infliximab (1re ligne) ± thiopurine
 - **Prévention de la dénutrition** et de l'ostéoporose.
 - **Prévention de la récidive postopératoire** (§ 13.3.6).
 - **Thromboprophylaxie** lors des hospitalisations pour poussée [S5].
+
+---
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Suspicion de maladie de Crohn
+```text
+1. Diarrhée chronique ± douleurs FID ± amaigrissement ± lésions anales ± sujet jeune
+2. Calprotectine, CRP, NFS, albumine, ferritine, B12 ; coprocultures (Yersinia), C. difficile, parasitologie
+3. Iléocoloscopie + biopsies étagées (iléon + chaque segment)
+   + entéro-IRM ou échographie intestinale (grêle, complications)
+   + IRM pelvienne / examen sous anesthésie si lésions anopérinéales
+4. Exclusion des diagnostics différentiels :
+   ├── tuberculose intestinale (biopsies culture/PCR, imagerie thoracique) — PRIORITAIRE en Algérie
+   ├── yersiniose, lymphome, AINS, Behçet, ischémie
+   └── RCH (atteinte continue rectale)
+5. Maladie de Crohn retenue → Montréal (A, L, B, p) ; activité (HBI/CDAI, CRP, calprotectine, SES-CD)
+   → facteurs de mauvais pronostic ? → stratégie § 16.2
+6. Bilan pré-immunosuppression d'emblée (TB, VHB, VHC, VIH, VZV, vaccins, TPMT)
+```
+
+### 16.2 Traitement de la maladie luminale
+```text
+Légère/modérée iléo-cæcale ─→ budésonide 9 mg/j 8 semaines (ou nutrition entérale exclusive)
+     └─ échec/rechute → corticoïdes systémiques, immunosuppresseur, biothérapie,
+                        ou résection iléo-cæcale cœlioscopique (atteinte localisée)
+
+Modérée/sévère ─→ corticoïdes systémiques → entretien précoce (thiopurine / MTX)
+     ├─ corticodépendance, corticorésistance, échec → biothérapie
+     │     (infliximab + azathioprine ; adalimumab ; ustékinumab ; védolizumab ;
+     │      autres molécules selon ECCO 2024 / disponibilité)
+     └─ facteurs de mauvais pronostic d'emblée → biothérapie précoce
+
+Abcès ─→ antibiotiques IV + drainage → PAS d'anti-TNF avant contrôle du sepsis
+Sténose fibreuse symptomatique ─→ dilatation (< 4 cm) ou chirurgie (résection / stricturoplastie)
+```
+
+### 16.3 Après résection iléo-cæcale
+```text
+Arrêt du tabac + pas de 5-ASA
+Risque élevé (tabac, forme pénétrante, résection antérieure) → thiopurine (± biothérapie : À VÉRIFIER)
+Iléocoloscopie à 6 mois :
+   ├── Rutgeerts i0–i1 → poursuite, surveillance
+   └── Rutgeerts ≥ i2  → escalade thérapeutique [S5]
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** M. B., 23 ans, étudiant à Oran, **fumeur** (12 cigarettes/j), consulte pour une **diarrhée** non sanglante (4 selles/j) évoluant depuis 5 mois, des **douleurs de la fosse iliaque droite** post-prandiales cédant après des gargouillements, et un **amaigrissement de 7 kg**. Il signale un **abcès de la marge anale** drainé il y a un an. Pas de contage tuberculeux connu ; vacciné par le BCG. Examen : IMC 18,2 kg/m², empâtement de la FID, orifice fistuleux à 5 h de la marge anale. Hb 10,9 g/dL, VGM 76 fL, CRP 42 mg/L, albumine 31 g/L, ferritine 9 µg/L, B12 basse. Calprotectine 820 µg/g. Coprocultures et parasitologie négatives.
+
+**Question 1 — Hypothèses et explorations ?**
+MC iléale ou iléo-cæcale probable (diarrhée, douleurs de la FID, **syndrome de Koenig** évocateur d'une sténose, dénutrition, LAP). Diagnostics différentiels : **tuberculose iléo-cæcale** (Algérie), lymphome, yersiniose. Explorations : **iléocoloscopie** avec biopsies (histologie, **culture et PCR mycobactériennes**), **entéro-IRM**, **IRM pelvienne** et examen proctologique sous anesthésie, **radiographie thoracique** ± scanner thoracique, **IGRA**.
+
+**Résultats.** Iléon terminal : ulcérations longitudinales, aspect pavimenteux sur 15 cm, intervalles sains ; côlon normal. Histologie : inflammation discontinue, **granulome épithélioïde sans nécrose caséeuse** ; culture et PCR mycobactériennes négatives. Entéro-IRM : épaississement iléal sur 18 cm, **sténose** avec discrète dilatation d'amont, pas d'abcès. IRM pelvienne : **fistule trans-sphinctérienne** basse, sans collection. Radiographie thoracique normale ; **IGRA positif**.
+
+**Question 2 — Diagnostic et classification de Montréal ?**
+Maladie de Crohn **A2** (17–40 ans), **L1** (iléale), **B2p** (sténosante avec atteinte périanale). L'IGRA positif avec radiographie normale et biopsies négatives oriente vers une **infection tuberculeuse latente**, pas vers une tuberculose intestinale (mais la vigilance reste de mise).
+
+**Question 3 — Facteurs de mauvais pronostic ?**
+Sujet jeune, **lésions anopérinéales**, phénotype **sténosant**, tabagisme, dénutrition → justifie une stratégie **précoce et intensive** [S5].
+
+**Question 4 — Stratégie thérapeutique ?**
+- **Arrêt du tabac** (aide au sevrage), **renutrition** (supplémentation orale, voire nutrition entérale), fer IV, vitamine B12.
+- Fistule : **séton** de drainage par le chirurgien proctologue.
+- Traitement de l'**ITL** avant l'anti-TNF, selon l'OMS et le protocole national (schéma, durée et délai à confirmer auprès du service de pneumo-phtisiologie) [S20, S21 — À VÉRIFIER].
+- **Infliximab 5 mg/kg (S0, S2, S6 puis toutes les 8 semaines) + azathioprine 2–2,5 mg/kg/j** après dosage de la TPMT [S5, S13] ; sérologies VHB, VHC, VIH, VZV et vaccinations préalables [S5].
+- Une **résection iléo-cæcale cœlioscopique** est une alternative à discuter en réunion pluridisciplinaire si la sténose est **fibreuse** et symptomatique (atteinte localisée < 40 cm) [S5, S18].
+
+**Évolution.** À 6 mois : rémission clinique, CRP 3 mg/L, calprotectine 90 µg/g, fistule tarie. Deux ans plus tard, syndrome occlusif récidivant ; entéro-IRM : sténose fibreuse de 8 cm sans inflammation active → **résection iléo-cæcale cœlioscopique**. À 6 mois de l'intervention, l'**iléocoloscopie** montre un score de **Rutgeerts i3**.
+
+**Question 5 — Conduite ?**
+Récidive endoscopique sévère (i3) : **escalade** (optimisation de l'anti-TNF guidée par les dosages, ou changement de classe) [S5] ; vérifier l'arrêt du tabac (principal facteur de récidive).
+
+**Commentaire pédagogique** : (1) en Algérie, la **tuberculose intestinale** est le diagnostic différentiel à éliminer ; (2) le **granulome non caséeux** oriente mais ne prouve pas ; (3) l'**ITL** doit être traitée avant l'anti-TNF ; (4) la stratégie dépend des **facteurs de mauvais pronostic** ; (5) la chirurgie **ne guérit pas** : la récidive postopératoire se dépiste à 6 mois.
+
+---
+
+## 18. Points clés à retenir
+
+1. MC = atteinte **transmurale**, **discontinue**, possible **de la bouche à l'anus** ; iléon terminal et côlon les plus fréquents.
+2. **Tabac** = facteur de risque, de poussée, de chirurgie et de récidive : l'arrêt est un traitement.
+3. Diagnostic = faisceau clinique + iléocoloscopie avec biopsies + entéro-IRM/échographie ; le granulome n'est ni nécessaire ni suffisant.
+4. **Tuberculose intestinale** = premier diagnostic différentiel en Algérie, à éliminer avant corticoïdes ou anti-TNF.
+5. **Montréal** : A1–A3, L1–L4, B1–B3 + p ; le comportement évolue vers B2/B3 avec le temps.
+6. **CDAI** < 150 = rémission, > 450 = sévère ; **HBI** < 5 = rémission ; **Rutgeerts** ≥ i2 → escalade après chirurgie.
+7. **Budésonide 9 mg/j** pour l'iléo-cæcale légère à modérée ; corticoïdes systémiques pour les formes modérées à sévères ; jamais d'entretien corticoïde.
+8. **5-ASA inutile** dans la MC.
+9. Thiopurines (2–2,5 mg/kg/j) et méthotrexate (25 mg/sem en induction, ≥ 15 mg/sem en entretien) en entretien ; **association infliximab + azathioprine** supérieure (SONIC).
+10. **Pas d'anti-TNF sur un abcès non drainé** ; infliximab = 1ʳᵉ ligne des fistules anales complexes après drainage et séton.
+11. Bilan pré-biothérapie : **radiographie thoracique + IGRA**, VHB, VHC, VIH, VZV, vaccinations.
+12. Chirurgie **économe** (résection iléo-cæcale cœlioscopique, stricturoplastie < 10 cm, dilatation < 4 cm) ; iléocoloscopie à 6 mois après résection.
+
+---
+
+## 19. Pièges classiques à l'examen
+
+- Traiter par corticoïdes ou anti-TNF une **tuberculose iléo-cæcale** prise pour une MC.
+- Débuter un anti-TNF en présence d'un **abcès** non drainé.
+- Prescrire de la **mésalazine** dans la MC (induction, entretien ou post-opératoire).
+- Oublier l'**examen de la marge anale** ; drainer une fistule complexe sans **IRM pelvienne**.
+- Considérer le tabac comme « protecteur » (confusion avec la RCH).
+- Interpréter un **IGRA positif** comme une tuberculose active (ou un IGRA négatif comme l'exclusion d'une tuberculose intestinale).
+- Faire une **vidéocapsule** sans capsule de perméabilité chez un patient sténosé.
+- Proposer des **résections étendues** (risque de grêle court).
+- Oublier la **vitamine B12** et la **diarrhée cholérétique** après résection iléale.
+- Prescrire le **méthotrexate** à une femme ayant un projet de grossesse (arrêt 6 mois avant).
+- Croire que la chirurgie **guérit** la MC.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+**QCM 1.** Caractéristiques de la maladie de Crohn :
+A. Atteinte transmurale
+B. Atteinte continue depuis le rectum
+C. Lésions anopérinéales fréquentes
+D. Granulome épithélioïde sans nécrose caséeuse inconstant
+E. Guérison par coloproctectomie
+
+> **Réponses : A, C, D.** B et E concernent la RCH.
+
+**QCM 2.** Classification de Montréal de la MC :
+A. A2 = diagnostic entre 17 et 40 ans
+B. L3 = atteinte iléocolique
+C. L4 = atteinte digestive haute, modificateur
+D. B3 = phénotype sténosant
+E. « p » = atteinte périanale
+
+> **Réponses : A, B, C, E** [S7]. D faux : B3 = pénétrant ; B2 = sténosant.
+
+**QCM 3.** Indice CDAI :
+A. Calculé sur 7 jours
+B. Inclut le nombre de selles liquides
+C. Inclut l'hématocrite
+D. Rémission si < 150
+E. Inclut le sous-score endoscopique
+
+> **Réponses : A, B, C, D** [S9]. E faux.
+
+**QCM 4.** Score de Rutgeerts :
+A. Évalue l'iléon néoterminal après résection iléo-cæcale
+B. i0 = pas de lésion
+C. i4 = inflammation diffuse avec larges ulcérations, nodules ou sténose
+D. Iléocoloscopie classiquement réalisée 6 mois après la résection
+E. Un score ≥ i2 justifie d'envisager une escalade thérapeutique
+
+> **Réponses : A, B, C, D, E** [S5, S11].
+
+**QCM 5.** Traitements de la MC :
+A. Budésonide 9 mg/j pour une atteinte iléo-cæcale légère à modérée
+B. Mésalazine en entretien de la rémission
+C. Méthotrexate 25 mg/semaine IM en induction de la forme corticodépendante
+D. Association infliximab + azathioprine plus efficace que les monothérapies (SONIC)
+E. Corticoïdes au long cours en entretien
+
+> **Réponses : A, C, D** [S5, S13, S14]. B et E faux.
+
+**QCM 6.** Devant un abcès intra-abdominal compliquant une MC :
+A. Antibiothérapie IV
+B. Drainage radiologique si possible
+C. Résection immédiate systématique
+D. Anti-TNF immédiat pour contrôler l'inflammation
+E. Traitement de fond après contrôle du sepsis
+
+> **Réponses : A, B, E** [S5].
+
+**QCM 7.** Lésions anopérinéales de la MC :
+A. IRM pelvienne recommandée
+B. Examen sous anesthésie par un chirurgien expérimenté
+C. Séton pour prévenir la récidive des abcès
+D. Infliximab en première ligne des fistules complexes après drainage
+E. Une rectite associée améliore le pronostic de cicatrisation
+
+> **Réponses : A, B, C, D** [S5, S17]. E faux.
+
+**QCM 8.** Distinguer MC et tuberculose iléo-cæcale :
+A. Les ulcérations transversales orientent vers la tuberculose
+B. Les granulomes caséeux orientent vers la tuberculose
+C. Un IGRA positif affirme la tuberculose intestinale
+D. La culture et la PCR des biopsies sont utiles
+E. Un traitement d'épreuve antituberculeux peut se discuter en cas de doute persistant
+
+> **Réponses : A, B, D, E.** C faux : l'IGRA ne distingue pas infection latente et maladie active.
+
+**QCM 9.** Chirurgie de la MC :
+A. Stricturoplastie possible pour des sténoses du grêle < 10 cm
+B. Dilatation endoscopique des sténoses anastomotiques courtes (< 4 cm)
+C. La résection iléo-cæcale est une alternative au traitement médical dans l'atteinte localisée
+D. La chirurgie guérit la maladie
+E. Les résections doivent être économes
+
+> **Réponses : A, B, C, E** [S5, S18]. D faux.
+
+**QCM 10.** Conséquences d'une résection iléale :
+A. Carence en vitamine B12
+B. Diarrhée cholérétique (essai de colestyramine)
+C. Lithiase urinaire oxalique
+D. Lithiase biliaire
+E. Hypersécrétion de bicarbonates protectrice
+
+> **Réponses : A, B, C, D** [S5]. E faux.
+
+---
+
+## 21. Divergences entre recommandations
+
+| Question | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
+|---|---|---|---|
+| **Référentiel** | ECCO 2024 (médical [S1] et chirurgical [S2]) | ACG 2025 [S3] ; BSG 2025 [S6] | Textes 2025 non relus : divergences fines [À VÉRIFIER] |
+| **Place de la chirurgie précoce** | Résection iléo-cæcale cœlioscopique comme alternative en atteinte localisée (BSG 2019 [S5] ; LIR!C [S18]) | Approche plus médicale d'emblée dans d'autres pratiques [À VÉRIFIER] | Décision partagée, réunion pluridisciplinaire |
+| **Méthotrexate** | Entretien ≥ 15 mg/semaine, voie SC préférée (BSG 2019) [S5] | Induction 25 mg/semaine IM (Feagan 1995) [S14] | Complémentaires (induction vs entretien) |
+| **Thiopurines en monothérapie d'induction** | Non efficaces pour l'induction (délai d'action) [S1, S5] | — | Concordance |
+| **Choix de la première biothérapie** | Individualisé (BSG 2019) [S5] | Liste des molécules recommandées (ECCO 2024 : anti-TNF, ustékinumab, védolizumab, risankizumab, upadacitinib) [S1] | Accès et coût déterminants en Algérie |
+| **Prévention de la récidive postopératoire** | Thiopurine chez les patients à risque ; iléocoloscopie à 6 mois (BSG 2019) [S5] | Biothérapie précoce chez les patients à haut risque (pratiques et recommandations plus récentes [À VÉRIFIER]) | — |
+| **Infections** | ECCO 2021 → **ECCO 2026** [S25] | — | Texte 2026 non relu [À VÉRIFIER] |
+
+---
+
+## 22. Références
+
+1. **[S1]** Gordon H, et al. ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment. *J Crohns Colitis*. 2024;18(10):1531-1555. doi:10.1093/ecco-jcc/jjae091 (PMID 38877997). — *vérifiée (métadonnées ; synthèse du catalogue REC-0353) ; texte intégral non relu.*
+2. **[S2]** Adamina M, et al. ECCO Guidelines on Therapeutics in Crohn's Disease: Surgical Treatment. *J Crohns Colitis*. 2024;18(10):1556-1582. doi:10.1093/ecco-jcc/jjae089 (PMID 38878002). — *vérifiée (métadonnées).*
+3. **[S3]** Lichtenstein GR, et al. ACG Clinical Guideline: Management of Crohn's Disease in Adults. *Am J Gastroenterol*. 2025;120(6):1225-1264. doi:10.14309/ajg.0000000000003465 (PMID 40701562). — *existence vérifiée ; contenu non lu.*
+4. **[S4]** Gomollón F, et al. 3rd European Evidence-based Consensus on Crohn's Disease 2016, Part 1. *J Crohns Colitis*. 2017;11(1):3-25. doi:10.1093/ecco-jcc/jjw168 (PMID 27660341). — *vérifiée (métadonnées).*
+5. **[S5]** Lamb CA, et al. BSG consensus guidelines on IBD in adults. *Gut*. 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484 (PMID 31562236, PMC6872448). — *vérifiée (texte intégral lu).*
+6. **[S6]** Moran GW, et al. BSG guidelines on IBD in adults: 2025. *Gut*. 2025;74(Suppl 2):s1-s101. doi:10.1136/gutjnl-2024-334395 (PMID 40550582). — *existence vérifiée ; contenu non lu.*
+7. **[S7]** Silverberg MS, et al. *Can J Gastroenterol*. 2005;19 Suppl A:5A-36A (PMID 16151544). — *vérifiée (métadonnées).*
+8. **[S8]** Satsangi J, et al. *Gut*. 2006;55(6):749-753. doi:10.1136/gut.2005.082909 (PMID 16698746). — *vérifiée (métadonnées).*
+9. **[S9]** Best WR, et al. *Gastroenterology*. 1976;70(3):439-444 (PMID 1248701). — *vérifiée (métadonnées).*
+10. **[S10]** Harvey RF, Bradshaw JM. *Lancet*. 1980;1(8167):514 (PMID 6102236). — *vérifiée (métadonnées).*
+11. **[S11]** Rutgeerts P, et al. *Gastroenterology*. 1990;99(4):956-963 (PMID 2394349). — *vérifiée (métadonnées).*
+12. **[S12]** Daperno M, et al. SES-CD. *Gastrointest Endosc*. 2004;60(4):505-512 (PMID 15472670). — *vérifiée (métadonnées).*
+13. **[S13]** Colombel JF, et al. SONIC. *N Engl J Med*. 2010;362(15):1383-1395. doi:10.1056/NEJMoa0904492 (PMID 20393175). — *vérifiée (résumé lu).*
+14. **[S14]** Feagan BG, et al. *N Engl J Med*. 1995;332(5):292-297 (PMID 7816064). — *vérifiée (métadonnées).*
+15. **[S15]** Torres J, et al. Crohn's disease. *Lancet*. 2017;389(10080):1741-1755 (PMID 27914655). — *vérifiée (métadonnées).*
+16. **[S16]** Cosnes J, et al. *Inflamm Bowel Dis*. 2002;8(4):244-250 (PMID 12131607). — *vérifiée (métadonnées) ; chiffres non relus.*
+17. **[S17]** Gecse KB, et al. *Gut*. 2014;63(9):1381-1392 (PMID 24951257). — *vérifiée (métadonnées).*
+18. **[S18]** Ponsioen CY, et al. LIR!C. *Lancet Gastroenterol Hepatol*. 2017;2(11):785-792 (PMID 28838644). — *vérifiée (métadonnées).*
+19. **[S19]** Maaser C, et al. ECCO-ESGAR Part 1. *J Crohns Colitis*. 2019;13(2):144-164 (PMID 30137275). — *vérifiée (métadonnées).*
+20. **[S20]** OMS. Module 1 TPT, 2024 (REC-0263, DOC-00027). — *vérifiée.*
+21. **[S21]** Ministère de la Santé (Algérie). Instruction ITL 2024. — *non vérifiée.*
+22. **[S22]** Boukercha A, et al. *World J Gastroenterol*. 2015;21(25):7786-7794 (PMID 26167078). — *vérifiée (résumé lu).*
+23. **[S23]** Ng SC, et al. *Lancet*. 2017;390(10114):2769-2778 (PMID 29050646). — *vérifiée (résumé lu).*
+24. **[S24]** Turner D, et al. STRIDE-II. *Gastroenterology*. 2021;160(5):1570-1583 (PMID 33359090). — *vérifiée (métadonnées).*
+25. **[S25]** Yanai H, et al. ECCO Guidelines on Infections in IBD. *J Crohns Colitis*. 2026;20(7):jjag071 (PMID 42417116). — *existence vérifiée ; contenu non lu.*
