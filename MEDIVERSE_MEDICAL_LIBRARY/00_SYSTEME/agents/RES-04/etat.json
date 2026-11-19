@@ -1,12 +1,14 @@
 {
   "id": "RES-04",
-  "statut": "en_cours",
+  "statut": "termine_a_auditer",
   "derniere_execution": "2026-11-19",
   "taches_terminees": [
-    "lot a CHI-001→032 (90 QCM)"
+    "lot a CHI-001→032 (90 QCM, ids 4001-4090)",
+    "lot b CHI-033→067 (90 QCM, ids 4091-4180)",
+    "rééquilibrage : mélange des propositions, nombre de bonnes réponses varié (2 à 5)"
   ],
   "taches_suivantes": [
-    "lot b CHI-033→067 (90 QCM, ids 4091→4180)"
+    "audit (AUD) des 180 QCM ; points incertains listés dans journal.md"
   ],
   "objectifs": {
     "items": 60,
@@ -14,6 +16,27 @@
     "qcm_total": 180
   },
   "compteurs": {
-    "qcm": 90
+    "qcm": 180,
+    "qcs": 28,
+    "difficulte": {
+      "1": 33,
+      "2": 95,
+      "3": 52
+    },
+    "par_specialite": {
+      "UROL": 30,
+      "CDIG": 27,
+      "ORL": 21,
+      "CGEN": 15,
+      "NCHI": 15,
+      "ORTH": 12,
+      "TRAU": 12,
+      "OPHT": 12,
+      "GYNE": 12,
+      "CPED": 9,
+      "OBST": 9,
+      "CPLA": 3,
+      "CCVA": 3
+    }
   }
 }

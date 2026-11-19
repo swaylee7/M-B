@@ -99,13 +99,13 @@ sources:
     url: ""
     verifiee: true
   - id: S11
-    reference: "Société algérienne d'hématologie et de transfusion sanguine (SAHTS). Registre algérien du myélome multiple (AMMR), rapport juin 2014 – juin 2016, résumé de congrès publié dans Blood (2017) ; séries algériennes d'autogreffe (Oran) [auteurs, pagination et références exactes à vérifier]."
-    organisme: SAHTS
+    reference: "Groupe d'étude et de traitement du myélome en Algérie (GETMA) / SAHTS. Epidemiological Data from the Algerian Multiple Myeloma Registry (AMMR) over 2 Years (June 2014-June 2016). Blood. 2017;130(Suppl 1):5385 (résumé de congrès ; existence et taux d'incidence vérifiés par l'audit). Les séries algériennes d'autogreffe (Oran) n'ont pas été retrouvées [À VÉRIFIER]."
+    organisme: "GETMA / SAHTS"
     annee: 2017
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
     reference: "Greipp PR, San Miguel J, Durie BG, Crowley JJ, Barlogie B, Bladé J, et al. International staging system for multiple myeloma. J Clin Oncol. 2005;23(15):3412-3420. PMID 15809451."
     organisme: IMWG
@@ -202,7 +202,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 
 ### 3.2 Algérie
 - Une série de **2 121 gammapathies monoclonales** diagnostiquées au CHU de Beni Messous (Alger) entre 1998 et 2016 retrouve le **myélome multiple** dans **55,2 %** des cas et la **MGUS** dans **34,1 %**, sans prédominance masculine ; isotypes : **IgG 60,9 %**, **IgA 17,9 %**, **chaînes légères 10,5 %**, IgM 6,6 %, IgD 1,0 %, IgE 0,1 % ; les auteurs soulignent une fréquence plus élevée du **myélome à chaînes légères** et plus faible de l'isotype IgM que dans les séries occidentales [S10].
-- Le **registre algérien du myélome multiple (AMMR)**, créé en **2014** par la Société algérienne d'hématologie et de transfusion sanguine avec l'accord du ministère de la Santé, prospectif et multicentrique (17 services), rapporte selon son résumé de congrès une incidence standardisée de l'ordre de **1,7 pour 100 000** en 2015 (contre environ 1,0–1,1 pour 100 000 dans des études antérieures 1995–2012) et un **diagnostic tardif** (majorité des patients à un stade avancé), ainsi qu'un accès limité aux analyses cytogénétiques [S11] — données à confirmer par la publication complète `[À VÉRIFIER]`.
+- Le **registre algérien du myélome multiple (AMMR)**, créé en **2014** par la Société algérienne d'hématologie et de transfusion sanguine avec l'accord du ministère de la Santé, prospectif, observationnel et multicentrique, rapporte dans un résumé de congrès une incidence standardisée de **1,71 pour 100 000** en 2015 (1,75 chez l'homme, 1,68 chez la femme), contre environ 1,1 et 1,0 pour 100 000 dans deux études antérieures (1995–2005 et 2006–2012) ; les auteurs attribuent cet écart à la rigueur méthodologique du registre plutôt qu'à une hausse réelle de la fréquence [S11]. Le nombre de services participants, la proportion de diagnostics tardifs et l'accès à la cytogénétique n'ont pas pu être vérifiés `[À VÉRIFIER : publication complète]`.
 - La sous-estimation probable de l'incidence en Algérie tient au diagnostic tardif, à l'accès inégal à l'électrophorèse/immunofixation et au vieillissement en cours de la population.
 
 ---
@@ -503,7 +503,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 
 ### 13.6 Particularités algériennes
 
-- Le registre AMMR montre un **diagnostic tardif** et un accès limité à la cytogénétique [S11] : l'**électrophorèse des protéines** devant une VS élevée inexpliquée, une anémie normocytaire, une insuffisance rénale ou des douleurs osseuses du sujet de plus de 50 ans est un réflexe à diffuser en médecine générale.
+- Le diagnostic est souvent tardif selon les équipes algériennes `[À VÉRIFIER : données publiées du registre AMMR]` : l'**électrophorèse des protéines** devant une VS élevée inexpliquée, une anémie normocytaire, une insuffisance rénale ou des douleurs osseuses du sujet de plus de 50 ans est un réflexe à diffuser en médecine générale.
 - Des séries algériennes d'**autogreffe** (notamment à Oran) ont été rapportées [S11] `[À VÉRIFIER : références complètes]`.
 - Disponibilité des anti-CD38, du lénalidomide, du carfilzomib et des immunothérapies ; organisation des centres de greffe : `[À VÉRIFIER : nomenclature nationale, programme de greffe, Plan national cancer]`. En l'absence de quadruplet disponible, les triplets (VRd, VCd, VTd) restent des standards validés.
 
@@ -817,7 +817,7 @@ Patient de 66 ans sans comorbidité majeure : éligibilité à l'autogreffe à d
 8. **[S8]** Facon T, Dimopoulos MA, Leleu XP, et al. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (IMROZ). *N Engl J Med*. 2024;391(17):1597-1609. doi:10.1056/NEJMoa2400712 — vérifiée (résumé lu : SSP à 60 mois 63,2 % vs 45,2 %, HR 0,60).
 9. **[S9]** Facon T, Kumar S, Plesner T, et al. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma (MAIA). *N Engl J Med*. 2019;380(22):2104-2115. doi:10.1056/NEJMoa1817249 ; survie globale : *Lancet Oncol*. 2021;22(11):1582-1596. — vérifiée (PubMed).
 10. **[S10]** Belouni R, et al. Epidemiological and immunochemical parameters of monoclonal plasma cell dyscrasias of 2121 cases in Algeria. *Curr Res Transl Med*. 2020;68(2):67-70. doi:10.1016/j.retram.2019.11.003 — vérifiée.
-11. **[S11]** SAHTS. Registre algérien du myélome multiple (AMMR), résumé de congrès (Blood, 2017) ; séries algériennes d'autogreffe. — **non vérifiée** (références complètes à établir).
+11. **[S11]** GETMA / SAHTS. Epidemiological Data from the Algerian Multiple Myeloma Registry (AMMR) over 2 Years (June 2014-June 2016). *Blood*. 2017;130(Suppl 1):5385. — vérifiée (résumé de congrès) ; séries d'autogreffe d'Oran non retrouvées.
 12. **[S12]** Greipp PR, San Miguel J, Durie BG, et al. International staging system for multiple myeloma. *J Clin Oncol*. 2005;23(15):3412-3420. — vérifiée (PubMed).
 13. **[S13]** Perrot A, Manier S, Hulin C, et al. IFM 2026 Recommendations for First-line Treatment of Newly Diagnosed Multiple Myeloma. *Clin Lymphoma Myeloma Leuk*. 2026. doi:10.1016/j.clml.2026.09.002 — vérifiée (résumé lu par l'audit).
 14. **[S14]** Fernández de Larrea C, Kyle R, Rosiñol L, et al. Primary plasma cell leukemia: consensus definition by the IMWG. *Blood Cancer J*. 2021;11(12):192. — vérifiée (PubMed).

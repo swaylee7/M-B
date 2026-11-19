@@ -459,7 +459,7 @@ ALGORITHME 1 — EDC de l'adulte
 - **OMS (PSY9)** : fluoxétine, olanzapine, quétiapine, valproate ou venlafaxine ; fluoxétine et venlafaxine doivent être co-prescrites avec un thymorégulateur [S9].
 
 **C. Traitement d'entretien** [S5, S6, S9]
-- **Lithium : traitement de référence** (prévention des épisodes maniaques et dépressifs, effet anti-suicide reconnu) [S5, S6].
+- **Lithium : traitement de référence** (prévention des épisodes maniaques et dépressifs) ; selon la revue de l'ISBD citée par CANMAT-ISBD, le lithium et, dans une moindre mesure, les anticonvulsivants pourraient contribuer à prévenir les tentatives et décès par suicide — en gardant à l'esprit que l'auto-intoxication est le mode de suicide le plus fréquent chez ces patients, d'où la prudence sur les quantités délivrées [S5, S6].
 - Autres premières lignes CANMAT-ISBD : quétiapine, divalproex, lamotrigine (surtout prévention dépressive), asénapine, aripiprazole (oral ou mensuel, surtout prévention maniaque) ; associations quétiapine ou aripiprazole + lithium/divalproex [S5]. L'olanzapine est classée en deuxième ligne en raison du risque métabolique [S5].
 - **OMS (PSY3, PSY8)** : thymorégulateur (carbamazépine, lithium, valproate) ou antipsychotique (aripiprazole, olanzapine, quétiapine) pendant **au moins six mois** après la rémission ; le mhGAP-IG précise qu'il faut environ 6 mois de traitement pour juger de l'efficacité préventive du lithium [S9, S10].
 - Psychoéducation, régularité des rythmes, repérage des prodromes, abstinence de toxiques.

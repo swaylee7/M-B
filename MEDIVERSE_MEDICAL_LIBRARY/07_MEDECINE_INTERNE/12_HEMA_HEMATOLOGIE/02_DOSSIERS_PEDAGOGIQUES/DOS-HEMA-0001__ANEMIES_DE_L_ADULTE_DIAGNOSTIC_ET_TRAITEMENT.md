@@ -210,7 +210,7 @@ Le **taux absolu de réticulocytes** est l'examen-clé qui sépare les anémies 
 ### 3.2 Algérie et Maghreb
 
 - Le Maghreb appartient à la zone méditerranéenne où les **hémoglobinopathies** (β-thalassémies, drépanocytose) et le **déficit en G6PD** sont fréquents ; les **mariages consanguins** favorisent l'expression des formes homozygotes.
-- Les données algériennes publiées sont essentiellement **hospitalières** (centres de référence d'Alger, de Blida, de Constantine) : elles montrent que la β-thalassémie (surtout hétérozygote) et la drépanocytose représentent une part importante des électrophorèses de l'hémoglobine réalisées en milieu hospitalier [S10]. Ces chiffres **ne mesurent pas la prévalence en population générale** et ne doivent pas être extrapolés.
+- Les données algériennes disponibles sont essentiellement **hospitalières** (travaux d'Alger, de Blida, de Constantine, dont les références exactes n'ont pas pu être vérifiées par l'audit) : elles suggèrent que la β-thalassémie (surtout hétérozygote) et la drépanocytose représentent une part importante des électrophorèses de l'hémoglobine réalisées en milieu hospitalier [S10] `[À VÉRIFIER : références publiées]`. Ces chiffres **ne mesurent pas la prévalence en population générale** et ne doivent pas être extrapolés.
 - La prévalence nationale de l'anémie chez la femme en âge de procréer et chez l'enfant n'a pas été vérifiée pendant la rédaction de ce dossier `[À VÉRIFIER : données MSPRH/INSP, enquêtes MICS, Observatoire mondial de la santé de l'OMS]`.
 
 ---
