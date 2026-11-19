@@ -729,3 +729,36 @@ Après récupération : réévaluation à 3 mois (MRC ?)
 > **Réponse(s) : A, C, D.** Les grands essais n'ont pas montré de bénéfice à l'initiation précoce systématique ; STARRT-AKI : plus d'effets indésirables et de dépendance à l'EER avec la stratégie accélérée ; AKIKI 2 : retarder davantage n'est pas bénéfique.
 >
 > *Propositions fausses* : **B** — Faux : pas de différence de mortalité. **E** — Faux.
+---
+
+## 21. Divergences entre recommandations
+
+| Sujet | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
+|---|---|---|---|
+| Définition de l'IRA | **KDIGO 2012** : critères fonctionnels seuls (créatinine, diurèse) [S1, S2] | **KDIGO 2026 (AKI/AKD)** : critères fonctionnels **et** marqueurs d'atteinte structurelle, cadre AKI/AKD élargi [S4, S5] | Texte final à vérifier ; les biomarqueurs restent peu accessibles dans de nombreux contextes. |
+| Prévention de l'IRA aux produits de contraste par N-acétylcystéine | **KDIGO 2012** : acétylcystéine orale + cristalloïdes IV suggérée chez les patients à risque (grade 2D) [S3] | **PRESERVE 2018** : pas de bénéfice de l'acétylcystéine ni du bicarbonate vs NaCl 0,9 % [S13] ; revue de 2019 : expansion isotonique comme pierre angulaire [S14] | La pratique actuelle a abandonné l'acétylcystéine ; KDIGO 2026 à consulter. |
+| Choix du cristalloïde | **KDIGO 2012** : cristalloïdes isotoniques plutôt que colloïdes, sans préférence entre cristalloïdes [S2] | **SMART 2018** : solutés balancés associés à moins d'événements rénaux majeurs que le NaCl 0,9 % en réanimation [S11] | Préférence croissante pour les solutés balancés en réanimation, sous réserve de disponibilité. |
+| Cible glycémique en réanimation | **KDIGO 2012** : 110–149 mg/dL (6,1–8,3 mmol/L) (grade 2C) [S2] | **ADA 2026** : 140–180 mg/dL (7,8–10,0 mmol/L) pour la plupart des patients de réanimation [S15] | Les données postérieures à 2012 ont conduit à des cibles moins strictes (risque d'hypoglycémie). |
+| Moment de l'EER | Pratiques antérieures d'**initiation précoce** (seuils d'urée/créatinine) | **AKIKI 2016, STARRT-AKI 2020** : pas de bénéfice de l'initiation précoce/accélérée ; **AKIKI 2 2021** : retarder davantage n'est pas bénéfique [S8, S9, S10] ; KDIGO 2012 : décision sur le contexte global [S3] | Convergence actuelle vers une stratégie « attentive » sur critères cliniques. |
+| Bicarbonate dans l'acidose métabolique avec IRA | **KDIGO 2012** : pas de recommandation spécifique | **BICAR-ICU 2018** : bénéfice dans le sous-groupe IRA AKIN 2–3 (critère secondaire/sous-groupe prédéfini) [S12] | Données de sous-groupe : à confirmer ; usage au cas par cas. |
+
+---
+
+## 22. Références
+
+1. **[S1]** KDIGO AKI Work Group. KDIGO Clinical Practice Guideline for Acute Kidney Injury. *Kidney Int Suppl*. 2012;2(1):1-138. — vérifiée (existence et pagination 1-138 confirmées par les synthèses KDIGO 2013 ; volume selon la citation usuelle).
+2. **[S2]** Kellum JA, Lameire N; KDIGO AKI Guideline Work Group. Diagnosis, evaluation, and management of acute kidney injury: a KDIGO summary (Part 1). *Crit Care*. 2013;17(1):204. doi:10.1186/cc11454. — vérifiée (texte intégral consulté).
+3. **[S3]** Lameire N, Kellum JA; KDIGO AKI Guideline Work Group. Contrast-induced acute kidney injury and renal support for acute kidney injury: a KDIGO summary (Part 2). *Crit Care*. 2013;17(1):205. doi:10.1186/cc11455. — vérifiée (texte intégral consulté).
+4. **[S4]** KDIGO. Clinical Practice Guideline for AKI and AKD — projet 2026 soumis à relecture publique (clôture prolongée au 11 mai 2026). — existence vérifiée (annonces KDIGO, recherche web) ; **référence bibliographique définitive À VÉRIFIER**.
+5. **[S5]** Zhou FL, Wei W, Zhao YL, Fu P. [Highlights of the KDIGO 2026 clinical practice guideline for AKI/AKD]. *Zhonghua Nei Ke Za Zhi*. 2026;65(8):784-790. doi:10.3760/cma.j.cn112138-20260623-00385. — vérifiée (résumé PubMed).
+6. **[S6]** KDIGO CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. *Kidney Int*. 2024;105(4S):S117-S314. doi:10.1016/j.kint.2023.10.018. — vérifiée.
+7. **[S7]** Lameire NH, Levin A, Kellum JA, et al. Harmonizing acute and chronic kidney disease definition and classification: report of a KDIGO Consensus Conference. *Kidney Int*. 2021;100(3):516-526. doi:10.1016/j.kint.2021.06.028. — vérifiée (existence).
+8. **[S8]** Gaudry S, et al. Initiation Strategies for Renal-Replacement Therapy in the Intensive Care Unit. *N Engl J Med*. 2016;375(2):122-133. doi:10.1056/NEJMoa1603017. — vérifiée.
+9. **[S9]** STARRT-AKI Investigators. Timing of Initiation of Renal-Replacement Therapy in Acute Kidney Injury. *N Engl J Med*. 2020;383(3):240-251. doi:10.1056/NEJMoa2000741. — vérifiée.
+10. **[S10]** Gaudry S, et al. Comparison of two delayed strategies for renal replacement therapy initiation for severe acute kidney injury (AKIKI 2). *Lancet*. 2021;397(10281):1293-1300. doi:10.1016/S0140-6736(21)00350-0. — vérifiée.
+11. **[S11]** Semler MW, et al. Balanced Crystalloids versus Saline in Critically Ill Adults. *N Engl J Med*. 2018;378(9):829-839. doi:10.1056/NEJMoa1711584. — vérifiée.
+12. **[S12]** Jaber S, et al. Sodium bicarbonate therapy for patients with severe metabolic acidaemia in the intensive care unit (BICAR-ICU). *Lancet*. 2018;392(10141):31-40. doi:10.1016/S0140-6736(18)31080-8. — vérifiée.
+13. **[S13]** Weisbord SD, et al. Outcomes after Angiography with Sodium Bicarbonate and Acetylcysteine. *N Engl J Med*. 2018;378(7):603-614. doi:10.1056/NEJMoa1710933. — vérifiée.
+14. **[S14]** Mehran R, Dangas GD, Weisbord SD. Contrast-Associated Acute Kidney Injury. *N Engl J Med*. 2019;380(22):2146-2155. doi:10.1056/NEJMra1805256. — vérifiée.
+15. **[S15]** ADA Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S339-S355. doi:10.2337/dc26-S016. — vérifiée.
+16. **[S16]** ADA Professional Practice Committee. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S183-S215. doi:10.2337/dc26-S009. — vérifiée.

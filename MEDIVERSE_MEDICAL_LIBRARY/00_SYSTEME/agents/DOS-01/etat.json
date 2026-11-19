@@ -1,9 +1,51 @@
 {
   "id": "DOS-01",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "session_terminee_audit_requis",
+  "derniere_execution": "2026-11-19T01:35:25+00:00",
+  "taches_terminees": [
+    "DOS-CARD-0001 Insuffisance cardiaque aiguë et chronique (RES-MED-059)",
+    "DOS-CARD-0002 Hypertension artérielle (RES-MED-060)",
+    "DOS-CARD-0003 Infarctus du myocarde — SCA ST+ (RES-MED-056)",
+    "DOS-CARD-0004 SCA sans sus-décalage de ST (RES-MED-057)",
+    "DOS-CARD-0005 Endocardites infectieuses (RES-MED-053)",
+    "Lot QCM 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-01.json (60 QCM, QCM-CARD-0001..0060)",
+    "Lot cas cliniques 20_CAS_CLINIQUES/lots/DOS-01.json (10 cas, CAS-CARD-0001..0010)"
+  ],
+  "taches_suivantes": [
+    "Audit médical des 5 dossiers (statut brouillon_a_auditer), en priorité les posologies : antithrombotiques/fibrinolytiques (DOS-CARD-0003/0004), antibiothérapies curatives, probabilistes et prophylactiques (DOS-CARD-0005), antihypertenseurs IV et oraux (DOS-CARD-0002), inotropes/fer IV (DOS-CARD-0001)",
+    "Lire le texte intégral des recommandations ESC 2026 sur l'insuffisance cardiaque (doi 10.1093/eurheartj/ehag100) et mettre à jour DOS-CARD-0001 (classes, critères, auteurs, pagination)",
+    "Vérifier les références non vérifiées : STRONG-HF (Lancet 2022), Whelton ACC/AHA 2017, SPRINT 2015, Collet ESC 2020 SCA ST-, étude Blida (SCA tardifs), série Benamara Béni Messous",
+    "Vérifier les seuils de l'algorithme hs-cTn 0h/1h (ESC 2023) et les délais d'arrêt des P2Y12 avant pontage",
+    "Rechercher des données algériennes récentes : registres SCA/IC, fascicule STEPS 2016-2017 (chiffres officiels), recommandations SAHA, disponibilité/remboursement des molécules (nomenclature nationale, CNAS)",
+    "Autoriser WebFetch (escardio.org, academic.oup.com, pubmed) pour permettre la lecture des textes originaux"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm_min": 60,
+    "cas": 10
+  },
+  "compteurs": {
+    "dossiers_crees": 5,
+    "mots_par_dossier_wc": {
+      "DOS-CARD-0001": 13384,
+      "DOS-CARD-0002": 11409,
+      "DOS-CARD-0003": 9626,
+      "DOS-CARD-0004": 7986,
+      "DOS-CARD-0005": 10055
+    },
+    "mots_total_wc": 52460,
+    "qcm": 60,
+    "qcm_par_item": {
+      "RES-MED-059": 12,
+      "RES-MED-060": 12,
+      "RES-MED-056": 12,
+      "RES-MED-057": 12,
+      "RES-MED-053": 12
+    },
+    "cas_cliniques": 10,
+    "references_entrees_verifiees": 34,
+    "references_entrees_non_verifiees": 6,
+    "references_distinctes_verifiees": 24,
+    "references_distinctes_non_verifiees": 6
+  }
 }
