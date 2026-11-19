@@ -88,7 +88,7 @@ sources:
 
 | Hypoglycémie (ADA 2026) | Définition |
 |---|---|
-| Niveau 1 | < 70 et ≥ 54 mg/dL (3,9–3,0 mmol/L) |
+| Niveau 1 | < 70 et ≥ 54 mg/dL (< 3,9 et ≥ 3,0 mmol/L) |
 | Niveau 2 | **< 54 mg/dL** (3,0 mmol/L) |
 | Niveau 3 | Altération nécessitant **l'aide d'un tiers** (« coma hypoglycémique ») |
 
