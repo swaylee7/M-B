@@ -313,3 +313,235 @@ Primo-infection → phase chronique de plusieurs années → baisse des CD4 → 
 
 ### 12.4 Pronostic
 Déterminé par le **stade au diagnostic** (diagnostic tardif = maladie avancée), l'**accès rapide au TAR**, l'**observance**, la **suppression virale** et la prise en charge de la **tuberculose** et des comorbidités [S1, S2].
+
+## 13. Traitement
+
+### 13.1 Objectifs
+1. Obtenir et maintenir une **charge virale indétectable (< 50 copies/mL)** [S1].
+2. **Restaurer** l'immunité (CD4), **prévenir** les infections opportunistes, la morbidité et la mortalité.
+3. **Supprimer la transmission** (sexuelle, mère-enfant) [S1, S9].
+4. Améliorer la **qualité de vie**, limiter la toxicité, préserver les options futures (prévention des résistances).
+
+### 13.2 Moyens — antirétroviraux (posologies adultes et adolescents de l'OMS, annexe 1 de [S1])
+
+| Classe | Molécule | Posologie (OMS) | Effets indésirables / points d'attention |
+|---|---|---|---|
+| **INTI** | **Ténofovir disoproxil fumarate (TDF)** | **300 mg 1×/j** | Néphrotoxicité (tubulopathie), baisse de la densité osseuse ; actif sur le **VHB** |
+| | **Ténofovir alafénamide (TAF)** | 10 ou 25 mg 1×/j | Alternative au TDF (meilleure tolérance rénale et osseuse) ; prise de poids `[À VÉRIFIER]` [S2] |
+| | **Lamivudine (3TC)** | 150 mg × 2/j ou **300 mg 1×/j** | Bien tolérée ; active sur le VHB |
+| | **Emtricitabine (FTC)** | 200 mg 1×/j | Interchangeable avec la 3TC |
+| | **Abacavir (ABC)** | 300 mg × 2/j ou 600 mg 1×/j | **Hypersensibilité** (HLA-B*57:01) |
+| | **Zidovudine (AZT)** | 300 mg × 2/j | **Anémie**, neutropénie, lipoatrophie |
+| **INI** | **Dolutégravir (DTG)** | **50 mg 1×/j** ; **50 mg × 2/j avec la rifampicine** (et 2 semaines après son arrêt) | Insomnie, céphalées, prise de poids ; interactions (cations polyvalents) `[À VÉRIFIER]` |
+| | Raltégravir (RAL) | 400 mg × 2/j (800 mg × 2/j sous rifampicine) | Option néonatale [S1] |
+| **INNTI** | **Éfavirenz (EFV)** | **400 mg** ou 600 mg 1×/j | Troubles neuropsychiques ; à éviter si résistance prétraitement aux INNTI ≥ 10 % [S1] |
+| | Névirapine (NVP) | 200 mg/j 14 jours puis 200 mg × 2/j | Hépatotoxicité, toxidermie ; usage surtout en prophylaxie du nourrisson |
+| **IP boostés** | **Darunavir/ritonavir (DRV/r)** | **800/100 mg 1×/j** ou 600/100 mg × 2/j | **IP préféré** (2025) [S2] ; troubles digestifs, interactions (ritonavir) |
+| | Atazanavir/ritonavir | 300/100 mg 1×/j | Hyperbilirubinémie non conjuguée |
+| | Lopinavir/ritonavir | 400/100 mg × 2/j | Troubles digestifs, dyslipidémie |
+| **Injectables à longue durée d'action** | **Cabotégravir + rilpivirine (CAB + RPV)** | `[POSOLOGIE À VÉRIFIER — RCP]` | Option de **relais** chez l'adulte et l'adolescent stables sous TAR oral, **sans hépatite B active** [S2] |
+
+**Combinaison à dose fixe TLD** : **ténofovir 300 mg + lamivudine 300 mg + dolutégravir 50 mg**, **un comprimé par jour** (adulte et adolescent ≥ 30 kg) [S1].
+
+### 13.3 Stratégie (OMS 2021 actualisée en 2025)
+
+**a) Quand débuter ?** **Toutes** les personnes vivant avec le VIH, **quel que soit** le stade clinique et le taux de CD4 ; **TAR rapide** (≤ 7 jours), **le jour même** si la personne est prête, après confirmation du diagnostic et évaluation clinique ; priorité aux personnes en **maladie avancée** ; la personne est encouragée mais **jamais contrainte** [S1].
+
+**Exceptions de calendrier** [S1] :
+- **Tuberculose** : TAR **dans les 2 semaines** après le début du traitement antituberculeux, sauf **méningite tuberculeuse** ;
+- **Méningite cryptococcique** : TAR **différé de 4 à 6 semaines** après le début du traitement antifongique (surmortalité en cas d'initiation immédiate) ;
+- **Histoplasmose disséminée** sans atteinte neurologique : TAR dès que possible.
+
+**b) Première ligne** [S1, S2]
+- **Préférée** : **DTG + 2 INTI** — en pratique **TDF (ou TAF) + 3TC (ou FTC) + DTG** ; le choix TDF/TAF repose sur des critères cliniques et programmatiques [S2].
+- **Alternative** (adulte, adolescent) : **EFV 400 mg + 2 INTI**, à éviter si la résistance prétraitement aux INNTI atteint 10 % et chez les personnes déjà exposées aux ARV [S1].
+- **Nouveau-né** : schéma à base de **raltégravir** [S1] ; **enfant** : DTG avec dosages approuvés ; squelette ABC (ou TAF) + 3TC si < 30 kg [S2].
+- Si DTG inaccessible ou inadapté et résistance prétraitement ≥ 10 % : IP boosté [S1].
+
+**c) Lignes ultérieures** [S1, S2]
+- Échec d'un schéma **sans DTG** (INNTI) : **DTG + 2 INTI optimisés** [S1].
+- Échec d'un schéma **à base de DTG** : **IP boosté**, de préférence **DRV/r** [S2], + 2 INTI ; **le TDF/TAF peut être recyclé** (même s'il faisait partie du schéma en échec) plutôt que de passer à l'AZT [S2].
+- **Troisième ligne** : nouvelles molécules à faible risque de résistance croisée (INI, INNTI et IP de 2ᵉ génération) ; politique nationale à définir [S1].
+
+**d) Simplification** chez les personnes stables : **DTG + 3TC** (bithérapie orale) en l'absence d'**hépatite B active** ; **CAB + RPV injectables** en relais, notamment en cas de difficultés d'observance d'un traitement oral quotidien [S2].
+
+```text
+NOUVEAU DIAGNOSTIC VIH (confirmé + retest)
+│
+├─ Évaluation clinique : signes de TB ? de méningite ? maladie avancée ?
+│     CD4, charge virale, CrAg si CD4 < 100 (< 200), LF-LAM si indiqué,
+│     AgHBs, créatinine, test de grossesse
+│
+├─ Méningite cryptococcique ? → antifongiques ; TAR différé 4–6 semaines
+├─ Tuberculose active ? → antituberculeux ; TAR dans les 2 semaines
+│      (sauf méningite tuberculeuse) ; DTG 50 mg × 2/j sous rifampicine
+├─ Sinon → TAR RAPIDE (le jour même si prêt, ≤ 7 jours)
+│      TDF (ou TAF) + 3TC (ou FTC) + DTG  (TLD : 1 cp/j)
+│      + cotrimoxazole si CD4 ≤ 350 ou stade 3–4
+│      + TPT (3HP) si TB active exclue
+│
+├─ Charge virale à 6 mois, 12 mois puis tous les 12 mois
+│      ├─ < 50 copies/mL : succès → poursuivre (simplification possible)
+│      ├─ 50–1 000 : renforcer l'observance, contrôler à 3 mois
+│      └─ > 1 000 : renforcer l'observance → CV à 3 mois
+│              └─ toujours > 1 000 = ÉCHEC VIROLOGIQUE
+│                    sous DTG → DRV/r + 2 INTI (TDF/TAF recyclable)
+│                    sous INNTI → DTG + 2 INTI optimisés
+```
+Sources : [S1] (initiation, première ligne, suivi, définitions) ; [S2] (DRV/r, recyclage du ténofovir, simplification).
+
+### 13.4 Prophylaxies et traitements préventifs associés
+- **Cotrimoxazole** : adultes (y compris femmes enceintes) au **stade 3 ou 4** et/ou **CD4 ≤ 350/mm³** ; arrêt possible si stabilité clinique, restauration immunitaire et suppression virale dans les contextes de faible prévalence du paludisme et des infections bactériennes graves ; **tous les patients atteints de tuberculose active** ; **nourrissons exposés** dès 4–6 semaines jusqu'à exclusion de l'infection après l'arrêt de l'allaitement [S1] `[POSOLOGIE À VÉRIFIER — RCP]`.
+- **Dépistage de l'antigène cryptococcique** (CD4 < 100, à envisager < 200) suivi d'un **traitement préemptif** ; à défaut, **fluconazole** en prophylaxie primaire [S1].
+- **Traitement préventif de la tuberculose** : **3HP** (isoniazide + rifapentine hebdomadaires pendant 3 mois) **préféré** chez l'adulte et l'adolescent ; 6H ou 9H en alternatives ; 1HP, 4R, 3HR, 6Lfx dans des circonstances particulières [S2].
+- **Vaccinations** (VHB, pneumocoque, grippe, HPV…) selon le statut immunitaire `[À VÉRIFIER — recommandations nationales]`.
+
+### 13.5 Particularités algériennes
+- **Gratuité** du dépistage (anonyme) dans les structures publiques [S5] ; annonce du résultat **par un médecin** en entretien individuel [S5].
+- **Déclaration obligatoire** (catégorie 1) [S6], dans le respect de la confidentialité.
+- Disponibilité nationale du **TLD**, du **DRV/r**, de la charge virale et du génotypage, et protocole national de TAR : `[À VÉRIFIER — programme national de lutte contre les IST/VIH/sida]`.
+- **Co-infections à prendre en compte** : tuberculose (pays à incidence intermédiaire), hépatites B et C, **leishmaniose viscérale** (endémique) `[À VÉRIFIER]`.
+
+## 14. Surveillance
+
+| Paramètre | Rythme (OMS) |
+|---|---|
+| **Charge virale** (méthode de suivi **préférée**) | **À 6 mois, à 12 mois, puis tous les 12 mois** chez la personne stable [S1] ; prélèvement plasmatique de préférence (gouttes de sang séché si contraintes, seuil de 1 000 copies/mL) [S1] |
+| **CD4** | Au diagnostic ; leur suivi peut être **arrêté** chez les patients stables lorsque la charge virale est disponible [S1] ; utiles en cas d'échec ou de maladie avancée |
+| **Tolérance** | Créatinine/DFG (ténofovir), glycémie et poids (DTG, TAF), bilan lipidique, bilan hépatique (VHB, INNTI), NFS (AZT, cotrimoxazole) |
+| **Tuberculose** | Dépistage clinique **à chaque visite** [S1] |
+| **Observance** | À chaque visite : entretien, soutien psychosocial, éducation thérapeutique |
+| **Femme** | Dépistage du cancer du col (calendrier renforcé) `[À VÉRIFIER]` ; contraception, projet de grossesse |
+
+## 15. Prévention
+
+### 15.1 Prévention combinée
+- **Préservatifs** masculins et féminins, lubrifiants ; **dépistage** et traitement des **IST** ; information.
+- **TAR des personnes vivant avec le VIH** : la suppression virale empêche la transmission sexuelle [S9] `[À VÉRIFIER]`.
+- **Réduction des risques** chez les usagers de drogues : matériel d'injection stérile, traitements de substitution aux opiacés, **naloxone** [S1].
+- **Sécurité transfusionnelle** et **précautions standard** en milieu de soins.
+- **Circoncision masculine médicale volontaire** : uniquement dans les **épidémies généralisées** (non pertinente pour l'Algérie) [S1].
+
+### 15.2 Prophylaxie pré-exposition (PrEP)
+
+| Option | Population | Modalités |
+|---|---|---|
+| **PrEP orale contenant du TDF** (TDF/FTC ou TDF/3TC) | Personnes à **risque substantiel** d'infection [S1] | **Quotidienne** (1 comprimé/j) ; chez les autres populations, **7 jours** de prise consécutive avant d'atteindre une protection [S1] |
+| **PrEP « à la demande » (2+1+1)** | **Hommes cisgenres** ayant des rapports avec des hommes uniquement | **2 comprimés 2 à 24 h avant** le rapport, puis **1 comprimé 24 h** et **1 comprimé 48 h** après la première prise ; poursuite quotidienne si les rapports se répètent, jusqu'à 2 jours après le dernier rapport [S1] |
+| **Anneau vaginal à la dapivirine** | Femmes cisgenres à risque substantiel | Option additionnelle [S1] |
+| **Cabotégravir injectable** | — | Option de PrEP reconnue par l'OMS [S4] `[POSOLOGIE À VÉRIFIER]` |
+| **Lénacapavir injectable** | — | **Deux injections par an**, option additionnelle recommandée par l'OMS (**14 juillet 2025**) avec un dépistage simplifié par tests rapides [S4] `[POSOLOGIE À VÉRIFIER]` |
+
+Avant la PrEP : **test VIH négatif** (éliminer une infection, y compris aiguë), fonction rénale (TDF), statut VHB `[À VÉRIFIER]` ; suivi régulier (VIH, IST). Une exposition à risque dans les **72 h** précédentes relève d'abord de la **PPE** [S1].
+
+### 15.3 Prophylaxie post-exposition (PPE) [S1]
+- **Délai** : le plus tôt possible, **idéalement dans les heures**, au plus tard **72 h** après l'exposition ; **durée 28 jours**.
+- **Adulte et adolescent** : **TDF + 3TC (ou FTC)** en squelette **+ DTG** en troisième agent (préféré) ; alternatives : ATV/r, DRV/r, LPV/r, RAL [S1].
+- **Enfant ≤ 10 ans** : AZT + 3TC préféré (ABC + 3TC ou TDF + 3TC en alternative) + DTG si dosage approuvé [S1].
+- Trithérapie préférée à la bithérapie ; évaluation de la source (statut, charge virale) ; dépistage initial et de contrôle ; prise en charge des autres risques (VHB, VHC, grossesse, IST) ; relais possible par une PrEP si le risque persiste [S1].
+
+### 15.4 Prévention de la transmission mère-enfant (PTME)
+1. **Dépistage** de toutes les femmes enceintes (VIH, syphilis, AgHBs) le plus tôt possible [S1].
+2. **TAR urgent** pour toute femme enceinte ou allaitante vivant avec le VIH, même diagnostiquée tard ou en post-partum [S1].
+3. **Prophylaxie du nourrisson** (OMS 2025) [S2] :
+   - mère sous TAR, nourrisson **non à haut risque** : **6 semaines** de prophylaxie par **une seule molécule**, la **névirapine** de préférence (DTG ou 3TC en alternatives) ;
+   - nourrisson **à haut risque** (mère avec < 4 semaines de TAR à l'accouchement, charge virale > 1 000 copies/mL dans les 4 semaines précédant l'accouchement, infection maternelle récente pendant la grossesse ou l'allaitement, mère diagnostiquée en post-partum [S1]) : **trithérapie adaptée à l'âge pendant 6 semaines**, avec passage à **ABC/3TC + DTG** dès que possible, puis, s'il est allaité, **prophylaxie par une molécule** (névirapine de préférence) jusqu'à la **suppression virale maternelle** ou l'arrêt de l'allaitement [S2].
+4. **Allaitement** : l'OMS recommande l'allaitement **exclusif 6 mois** puis poursuivi jusqu'à 12 mois, voire 24 mois ou plus, avec soutien à l'observance ; même là où la politique nationale prône l'alimentation de substitution, une mère **sous TAR et en suppression virale** doit se voir **proposer** l'option d'allaiter et être soutenue dans son choix [S2].
+5. **Diagnostic précoce** du nourrisson exposé (TAN, éventuellement à la naissance) ; **cotrimoxazole** dès 4–6 semaines jusqu'au diagnostic final [S1].
+6. Mode d'accouchement : voie basse si charge virale indétectable `[À VÉRIFIER — recommandations obstétricales]`.
+
+## 16. Algorithme : conduite devant un accident d'exposition (sexuelle ou au sang)
+
+```text
+EXPOSITION À RISQUE (rapport non protégé, piqûre, partage de seringue)
+│
+├─ Soins immédiats (piqûre : laver à l'eau et au savon, ne pas faire saigner
+│   [À VÉRIFIER — protocole AES] ; projection oculaire : rinçage abondant)
+│
+├─ Délai < 72 h ?
+│     ├─ NON → pas de PPE ; dépistage (VIH, VHB, VHC, IST) et suivi ;
+│     │         discuter la PrEP si risque répété
+│     └─ OUI → évaluer : nature de l'exposition, statut de la source
+│               (VIH connu ? sous TAR ? charge virale indétectable ?)
+│               ├─ Risque significatif → PPE 28 jours :
+│               │     TDF + 3TC (FTC) + DTG ; test VIH initial ;
+│               │     contraception d'urgence / IST / VHB selon le cas
+│               └─ Risque négligeable → pas de PPE, conseil
+│
+└─ Suivi : tests VIH de contrôle, tolérance, observance ;
+   relais PPE → PrEP si le risque persiste après 28 jours
+```
+Source : [S1].
+
+---
+
+## 17. Cas clinique commenté
+
+<!--CAS17-->
+
+---
+
+## 18. Points clés à retenir
+
+1. VIH = rétrovirus ciblant les **CD4** ; l'**intégration** du provirus crée des **réservoirs** : le TAR contrôle, **ne guérit pas**.
+2. **Primo-infection** = syndrome pseudo-grippal ou mononucléosique, très contagieuse : y penser devant tout syndrome mononucléosique ou toute IST.
+3. **Maladie VIH avancée** : CD4 < 200 ou stade OMS 3–4 ; tout enfant < 5 ans [S1].
+4. Dépistage : algorithme OMS à **plusieurs tests** (3 tests réactifs si positivité < 5 %), **retest avant TAR**, pas de Western blot selon l'OMS [S1] ; **anonyme et gratuit** en Algérie [S5] ; **MDO** [S6].
+5. **Traiter tout le monde, vite** : TAR **≤ 7 jours**, **le jour même** si prêt [S1].
+6. **Première ligne : TDF (ou TAF) + 3TC (ou FTC) + DTG** — TLD, 1 comprimé/j ; DTG 50 mg × 2/j sous rifampicine [S1, S2].
+7. Suivi par la **charge virale** (6 mois, 12 mois, puis annuelle) ; **échec** = > 1 000 copies/mL à deux reprises à 3 mois d'intervalle malgré un soutien à l'observance ; après échec du DTG : **DRV/r** [S1, S2].
+8. Délais : TAR **dans les 2 semaines** en cas de tuberculose (sauf méningite) ; **4 à 6 semaines** après le début du traitement d'une **cryptococcose** [S1].
+9. Prévention des IO : **cotrimoxazole** (CD4 ≤ 350 ou stade 3–4), **CrAg** (CD4 < 100), **TPT 3HP** [S1, S2].
+10. Prévention : préservatif, **PrEP** (orale quotidienne ou 2+1+1 chez les HSH cisgenres ; injectables dont **lénacapavir** semestriel), **PPE dans les 72 h pendant 28 jours**, **PTME** (TAR maternel + prophylaxie du nourrisson par névirapine 6 semaines) [S1, S2, S4].
+
+## 19. Pièges classiques à l'examen
+
+- Attendre que les **CD4 baissent** pour traiter : le TAR est indiqué **quel que soit** le taux de CD4 [S1].
+- Débuter le TAR **immédiatement** chez un patient atteint de **méningite cryptococcique** (surmortalité) ou le différer de plusieurs mois en cas de **tuberculose** pulmonaire [S1].
+- Oublier de **doubler le DTG** (50 mg × 2/j) sous **rifampicine** [S1].
+- Proposer **DTG + 3TC** ou **CAB + RPV** à un patient porteur d'une **hépatite B active** (le ténofovir est indispensable) [S2].
+- Conclure à un échec sur **une seule** charge virale élevée sans renforcer l'observance et contrôler à 3 mois [S1].
+- Croire qu'un test négatif **pendant la fenêtre** élimine une infection récente ; oublier le **retest** avant TAR [S1].
+- Utiliser la PrEP **à la demande** chez une **femme** (non validée : prise quotidienne, 7 jours d'amorce) [S1].
+- Prescrire une PPE **au-delà de 72 h** ou pour moins de **28 jours** [S1].
+- Ignorer la **confidentialité** et le caractère **volontaire** du dépistage [S1, S5].
+- Oublier l'**IRIS** comme cause d'aggravation après l'introduction du TAR.
+
+---
+
+## 20. QCM d'auto-évaluation (corrigés commentés)
+
+<!--QCM20-->
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | OMS 2021/2025 [S1, S2] | Pratique française (groupe d'experts) [S10] | Commentaire |
+|---|---|---|---|
+| **Confirmation du diagnostic** | **Pas de Western blot / immunoblot** ; algorithmes à 2–3 tests rapides ou immunoenzymatiques | Confirmation par **immunoblot** après un test combiné positif `[À VÉRIFIER]` | Approche de santé publique (OMS) contre approche de laboratoire spécialisé |
+| **Suivi des CD4** | Arrêt possible chez les patients stables si charge virale disponible | Suivi plus régulier `[À VÉRIFIER]` | Contrainte de ressources |
+| **Allaitement** | **Recommandé** et proposé aux mères en suppression virale, même là où la politique nationale prône l'alimentation de substitution (2025) | Historiquement **déconseillé**, avec ouverture récente à un allaitement encadré `[À VÉRIFIER]` | En Algérie : position nationale à préciser `[À VÉRIFIER]` |
+| **Prophylaxie du nourrisson** | Névirapine 6 semaines (non à haut risque) ; trithérapie si haut risque | Schémas proches, molécules et durées spécifiques `[À VÉRIFIER]` | — |
+| **Cryptococcose (induction)** | AmB liposomale 10 mg/kg **dose unique** + 5FC + fluconazole 14 j (2022) [S3] | AmB liposomale quotidienne + 5FC (2 semaines) `[À VÉRIFIER]` | Le schéma OMS vise la simplicité et la tolérance |
+| **TPT** | **3HP préféré** (2025) | Schémas comparables `[À VÉRIFIER]` | — |
+| **PrEP** | TDF oral, 2+1+1 (HSH), anneau dapivirine, cabotégravir, **lénacapavir** | TDF/FTC quotidien ou à la demande `[À VÉRIFIER]` | En Algérie : pas d'information vérifiée sur la PrEP `[À VÉRIFIER]` |
+
+---
+
+## 22. Références
+
+Détail complet (statut de vérification) dans l'en-tête YAML.
+
+1. [S1] World Health Organization. *Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring*. Geneva: WHO; 2021. (DOC-00029, lu.)
+2. [S2] World Health Organization. *WHO updated recommendations on HIV clinical management*. Geneva: WHO; 2025. ISBN 978-92-4-011946-8. (DOC-00057, lu.)
+3. [S3] World Health Organization. *Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV*. Geneva: WHO; 2022.
+4. [S4] OMS. *WHO recommends injectable lenacapavir for HIV prevention*. Communiqué du 14 juillet 2025.
+5. [S5] Décret exécutif n°22-211 du 5 juin 2022 (dépistage anonyme et gratuit). JORADP n°40/2022. (DOC-00073, lu.)
+6. [S6] Décret exécutif n°22-250 du 30 juin 2022 (MDO). JORADP n°47/2022. (DOC-00072, lu.)
+7. [S7] Décret exécutif n°24-366 du 7 novembre 2024 (examens prénuptiaux). JORADP n°76/2024.
+8. [S8] Statistiques nationales citées par la presse (2024). **[non vérifiée]**
+9. [S9] Rodger AJ, et al. PARTNER — final results. *Lancet*. 2019;393:2428-2438. **[non vérifiée]**
+10. [S10] Groupe d'experts CNS/ANRS-MIE. *Prise en charge médicale des personnes vivant avec le VIH* (France). **[non vérifiée]**
+
+> **Points à auditer en priorité** : (1) posologies du traitement de la pneumocystose, de la toxoplasmose, du fluconazole préemptif, du cotrimoxazole prophylactique, des injectables CAB + RPV, du cabotégravir et du lénacapavir en PrEP (marqueurs) ; (2) protocole national algérien de TAR et de PTME (position sur l'allaitement) ; (3) données épidémiologiques officielles (ministère, ONUSIDA) ; (4) délais des marqueurs virologiques (fenêtre) ; (5) liste complète des stades cliniques OMS.
