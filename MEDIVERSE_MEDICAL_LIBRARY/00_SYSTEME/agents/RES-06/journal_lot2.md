@@ -13,3 +13,4 @@ Le lot 1 (cardio, pneumo-infectio, gastro, endocrino-néphro) est traité par un
 - 2026-11-19 — FIC-MINT_REA-0001 (états de choc) créée depuis DOS-MINT_REA-0001 v1.1.
 - 2026-11-19 — FIC-MINT_REA-0002 (comas) créée depuis DOS-MINT_REA-0002 v1.1.
 - 2026-11-19 — FIC-URGE-0001 (intoxications aiguës) créée depuis DOS-URGE-0001 v1.1.
+- 2026-11-19 — FIC-URGE-0002 (morsures et envenimations) créée depuis DOS-URGE-0002 v1.1.

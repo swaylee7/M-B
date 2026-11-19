@@ -1,6 +1,6 @@
 {
   "id": "RES-06",
-  "statut": "en_cours",
+  "statut": "lot1_termine",
   "derniere_execution": "2026-11-19",
   "taches_terminees": [
     "FIC-CARD-0001",
@@ -12,9 +12,7 @@
     "FIC-PNEU-0002",
     "FIC-PNEU-0003",
     "FIC-INFE-0001",
-    "FIC-INFE-0002"
-  ],
-  "taches_suivantes": [
+    "FIC-INFE-0002",
     "FIC-GAST-0001",
     "FIC-HEPA-0001",
     "FIC-HEPA-0002",
@@ -27,10 +25,18 @@
     "FIC-NEPH-0002",
     "PIEGES_CLASSIQUES_LOT1"
   ],
+  "taches_suivantes": [
+    "Audit des 20 fiches du lot 1 (statut brouillon_a_auditer)",
+    "Régénérer fiches et PIEGES_CLASSIQUES_LOT1 si un dossier source passe en v1.2",
+    "Indexation (indexer.py) pour renseigner le champ fiches de programme_residanat.json"
+  ],
   "objectifs": {
-    "fiches": 20
+    "fiches_lot1": 20
   },
   "compteurs": {
-    "fiches_creees": 10
-  }
+    "fiches_creees_lot1": 20,
+    "pieges_lot1": 199,
+    "incoherences_signalees": 7
+  },
+  "remarque": "Le lot 2 (PEDI, NEON, NEUR, MINT_REA…) est suivi par un autre agent RES-06 dans journal_lot2.md."
 }

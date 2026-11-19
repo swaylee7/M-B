@@ -1,9 +1,58 @@
 {
   "id": "DOS-11",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "lecture_contexte",
+    "verification_references",
+    "DOS-UROL-0001",
+    "DOS-UROL-0002",
+    "DOS-TRAU-0001",
+    "DOS-TRAU-0002",
+    "DOS-ORTH-0001",
+    "lot_QCM",
+    "lot_CAS",
+    "validation_json"
+  ],
+  "taches_suivantes": [
+    "audit_par_AUD (priorités : posologies de l'antibiothérapie de l'ostéomyélite de l'enfant, kétoprofène IV, thromboprophylaxie, desmopressine ; formulations AAOS 2020 radius et AAOS 2021 hanche ; références Garden, Pauwels, Castaing, Frykman)",
+    "RES-CHI-030 Colique néphrétique (dossier dédié pouvant renvoyer aux § 13 et 16 de DOS-UROL-0001)",
+    "RES-CHI-034 Luxation traumatique de la hanche",
+    "RES-CHI-036 Fracture ouverte des os de la jambe",
+    "RES-CHI-037 Coxarthroses et gonarthroses"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas": 10
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas": 10,
+    "sources_verifiees": 69,
+    "sources_totales": 73,
+    "mots_wc": {
+      "DOS-UROL-0001": 10765,
+      "DOS-UROL-0002": 8405,
+      "DOS-TRAU-0001": 8405,
+      "DOS-TRAU-0002": 7967,
+      "DOS-ORTH-0001": 7934
+    }
+  },
+  "plages_identifiants": {
+    "qcm": "QCM-UROL/TRAU/ORTH-1101..1199",
+    "cas": "CAS-UROL/TRAU/ORTH-1101..1199"
+  },
+  "livrables": {
+    "dossiers": [
+      "08_CHIRURGIE/35_UROL_UROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-UROL-0001__LITHIASE_URINAIRE_DIAGNOSTIC_TRAITEMENT.md",
+      "08_CHIRURGIE/35_UROL_UROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-UROL-0002__ADENOME_DE_LA_PROSTATE_HYPERTROPHIE_BENIGNE.md",
+      "08_CHIRURGIE/37_TRAU_TRAUMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-TRAU-0001__FRACTURES_DU_COL_DU_FEMUR.md",
+      "08_CHIRURGIE/37_TRAU_TRAUMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-TRAU-0002__FRACTURE_DE_L_EXTREMITE_INFERIEURE_DU_RADIUS.md",
+      "08_CHIRURGIE/36_ORTH_ORTHOPEDIE/02_DOSSIERS_PEDAGOGIQUES/DOS-ORTH-0001__OSTEOMYELITE_AIGUE.md"
+    ],
+    "qcm": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-11.json",
+    "cas": "20_CAS_CLINIQUES/lots/DOS-11.json"
+  }
 }

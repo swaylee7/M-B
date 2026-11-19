@@ -221,3 +221,147 @@ La confusion est une **urgence médicale** : elle est le mode d'expression non s
 ## 4. Rappels physiologiques : attention et conscience
 
 L'**éveil** (vigilance) dépend du système réticulé activateur ascendant (tronc cérébral, thalamus) ; l'**attention** sélective et soutenue mobilise des réseaux fronto-pariétaux et thalamo-corticaux, modulés par de nombreux neurotransmetteurs (**acétylcholine**, dopamine, noradrénaline, sérotonine, GABA, glutamate). Le cerveau âgé dispose d'une **réserve** cognitive et neuronale diminuée (perte neuronale et synaptique, pathologie neurodégénérative infraclinique, lésions vasculaires), ce qui explique qu'une agression modeste (infection urinaire, médicament anticholinergique, déshydratation) suffise à provoquer une défaillance cérébrale aiguë.
+
+---
+
+## 5. Physiopathologie
+
+### 5.1 Modèle multifactoriel : vulnérabilité × facteurs précipitants [S9]
+
+```text
+VULNÉRABILITÉ (terrain)                       FACTEURS PRÉCIPITANTS (agression)
+grand âge, démence/troubles cognitifs,   ×    médicaments, infection, chirurgie,
+déficits sensoriels, dénutrition,             déshydratation, troubles métaboliques,
+polypathologie, dépendance, alcool,           douleur, rétention urinaire, fécalome,
+antécédent de confusion                       contention, sonde, privation de sommeil
+        │                                                   │
+        └───────────────► DÉFAILLANCE CÉRÉBRALE AIGUË ◄─────┘
+```
+
+Un sujet très vulnérable (démence évoluée) peut devenir confus pour une cause minime (constipation, changement de chambre) ; un sujet robuste ne le devient que lors d'une agression majeure (sepsis grave, chirurgie lourde). Les causes sont souvent **multiples** et **cumulatives** : la recherche ne doit pas s'arrêter à la première cause trouvée.
+
+### 5.2 Mécanismes (hypothèses non exclusives) [S7, S14]
+
+- **Déficit cholinergique** et excès relatif de **dopamine** : explique la toxicité des médicaments **anticholinergiques** et l'effet confusiogène des agonistes dopaminergiques.
+- **Neuro-inflammation** : les cytokines produites lors d'une infection ou d'une chirurgie activent la microglie, surtout sur un cerveau « amorcé » par une neurodégénérescence.
+- **Réponse au stress** : hypercortisolémie, activation sympathique.
+- **Troubles métaboliques et énergétiques** : hypoxie, hypoglycémie, troubles hydro-électrolytiques, insuffisance d'organe (urémie, encéphalopathie hépatique, hypercapnie).
+- **Désorganisation des réseaux** cérébraux (perte de connectivité fonctionnelle) et perturbation du **rythme veille-sommeil** (mélatonine).
+
+### 5.3 Liens avec la démence
+
+La démence est le principal facteur de risque de confusion ; inversement, un épisode confusionnel est associé à un **déclin cognitif accéléré** et peut révéler une démence jusque-là méconnue [S7]. D'où l'intérêt d'une **réévaluation cognitive à distance** de l'épisode.
+
+---
+
+## 6. Facteurs de risque et causes
+
+### 6.1 Facteurs de vulnérabilité (prédisposants)
+
+Les recommandations NICE retiennent quatre facteurs de risque principaux justifiant une vigilance particulière dès l'admission : **âge ≥ 65 ans**, **troubles cognitifs** passés ou actuels et/ou démence, **fracture actuelle de l'extrémité supérieure du fémur**, **affection sévère** (état clinique qui se dégrade ou risque de se dégrader) [S1]. S'y ajoutent : déficits visuels et auditifs, dépendance fonctionnelle, dénutrition, déshydratation, polymédication, consommation d'alcool, dépression, antécédent de confusion, AVC, maladie de Parkinson.
+
+### 6.2 Facteurs précipitants et causes : la grille à parcourir systématiquement
+
+| Catégorie | Causes fréquentes chez le sujet âgé |
+|---|---|
+| **Médicaments** (à évoquer **en premier**) | **Anticholinergiques** (antispasmodiques urinaires, antihistaminiques de 1re génération, antidépresseurs tricycliques, certains antiparkinsoniens et neuroleptiques), **benzodiazépines** et hypnotiques, **opioïdes** (tramadol inclus), corticoïdes, antiépileptiques, antiparkinsoniens dopaminergiques, digoxine (surdosage), lithium, fluoroquinolones, antihistaminiques H2 ; **sevrage** en benzodiazépines ou en alcool ; introduction, augmentation ou arrêt récent d'un traitement [S1, S6, S10, S11] |
+| **Infections** | Pneumopathie, infection urinaire (attention : bactériurie asymptomatique fréquente, ne pas conclure trop vite), infection cutanée, intra-abdominale, sepsis, méningite et encéphalite (plus rares) |
+| **Métaboliques** | Déshydratation, hyponatrémie, hypernatrémie, hypercalcémie, hypoglycémie, hyperglycémie, insuffisance rénale, encéphalopathie hépatique, hypothyroïdie ou hyperthyroïdie, carence en thiamine (encéphalopathie de Gayet-Wernicke) |
+| **Respiratoires / circulatoires** | Hypoxémie, **hypercapnie**, insuffisance cardiaque, infarctus du myocarde (parfois indolore), troubles du rythme, état de choc, anémie sévère |
+| **Neurologiques** | AVC (notamment thalamique, pariétal droit), **hématome sous-dural** (chute, anticoagulant), état de mal épileptique **non convulsif**, état post-critique, tumeur, méningo-encéphalite |
+| **« Mécaniques » et douleur** | **Rétention aiguë d'urine** (globe vésical), **fécalome**, **douleur** non traitée (fracture, rétention, ischémie), sondes et cathéters |
+| **Environnement** | Hospitalisation, changements de chambre, privation sensorielle (lunettes et appareils auditifs absents), privation de sommeil, **contention physique**, isolement, environnement bruyant |
+| **Chirurgie et anesthésie** | Confusion postopératoire (fracture du col, chirurgie cardiaque), douleur, hypoxie, anémie |
+| **Toxiques / sevrage** | Alcool (sevrage : *delirium tremens*), intoxications |
+
+L'étude princeps des facteurs précipitants à l'hôpital a mis en avant, chez le sujet âgé hospitalisé, la **contention physique**, la **dénutrition**, l'**ajout de plus de trois médicaments**, la **sonde urinaire** et tout **événement iatrogène** [S9].
+
+---
+
+## 7. Diagnostic positif
+
+### 7.1 Clinique
+
+| Domaine | Manifestations |
+|---|---|
+| **Début** | Brutal ou rapidement progressif (heures, jours) ; changement par rapport à l'état antérieur rapporté par l'entourage |
+| **Fluctuations** | Intervalles de lucidité, aggravation vespérale et nocturne |
+| **Attention** (signe central) | Distractibilité, incapacité à suivre une conversation, à maintenir le regard, persévérations |
+| **Vigilance** | Hypervigilance (agitation) ou somnolence, obnubilation |
+| **Désorganisation de la pensée** | Discours incohérent, coq-à-l'âne, réponses à côté |
+| **Désorientation** | Temporelle surtout, puis spatiale |
+| **Mémoire** | Troubles de la fixation, amnésie de l'épisode |
+| **Perceptions** | Illusions, **hallucinations visuelles** (zoopsies), interprétations délirantes souvent à thème de persécution, peu structurées |
+| **Psychomotricité** | Agitation, déambulation, gestes d'arrachement (perfusion, sonde) **ou** ralentissement, apathie, mutisme (forme hypoactive) |
+| **Veille-sommeil** | Inversion du rythme (somnolence diurne, agitation nocturne) |
+| **Émotions** | Anxiété, peur, irritabilité, labilité |
+| **Signes associés** | Ceux de la cause (fièvre, déshydratation, globe vésical, signes de localisation) ; tremblement, astérixis (encéphalopathies métaboliques) |
+
+### 7.2 Formes selon l'activité psychomotrice
+
+- **Hyperactive** : agitation, hallucinations, agressivité ; la plus visible, la moins fréquente chez le sujet âgé.
+- **Hypoactive** : somnolence, apathie, ralentissement, retrait ; la plus fréquente chez le sujet âgé, **la plus méconnue** (prise pour une dépression ou de la « fatigue ») et de **pronostic plus sombre** [S7].
+- **Mixte** : alternance des deux.
+
+### 7.3 Tester l'attention au lit du malade
+
+- Réciter les **mois de l'année à l'envers** (de décembre à janvier) ; les jours de la semaine à l'envers ; épeler un mot à l'envers.
+- **Empan** de chiffres (répéter une série de chiffres) ; test de la lettre (serrer la main à chaque fois qu'une lettre donnée est prononcée dans une série).
+
+### 7.4 Outils de repérage et de diagnostic
+
+**4AT** — outil court (< 2 minutes), sans formation spécifique, utilisable même chez un patient non testable ; recommandé par défaut par le NICE depuis 2023 [S1, S4, S5] :
+
+| Item | Cotation (résumé) |
+|---|---|
+| 1. **Vigilance** | Normale (y compris brièvement somnolent puis normal au réveil) = 0 ; clairement anormale = 4 |
+| 2. **AMT4** (âge, date de naissance, lieu, année en cours) | Aucune erreur = 0 ; 1 erreur = 1 ; ≥ 2 erreurs ou non testable = 2 |
+| 3. **Attention** : mois de l'année à l'envers | ≥ 7 mois correctement = 0 ; débute mais < 7 mois, ou refuse = 1 ; non testable (trop somnolent, inattentif) = 2 |
+| 4. **Changement aigu ou évolution fluctuante** (vigilance, cognition, autre fonction mentale) dans les 2 dernières semaines, encore présent dans les 24 dernières heures | Non = 0 ; oui = 4 |
+
+Interprétation : **≥ 4** = confusion possible (± troubles cognitifs) ; **1 à 3** = troubles cognitifs possibles ; **0** = confusion ou troubles cognitifs sévères peu probables (sauf si l'item 4 n'a pu être renseigné). Méta-analyse : sensibilité et spécificité poolées d'environ **0,88** [S4].
+
+**CAM (Confusion Assessment Method)** — algorithme diagnostique à 4 critères [S3] :
+1. Début **aigu** et évolution **fluctuante** ;
+2. **Inattention** ;
+3. **Pensée désorganisée** ;
+4. **Altération du niveau de conscience**.
+→ Diagnostic de confusion si **1 et 2** sont présents, **et** **3 ou 4**. Dans l'étude princeps, sensibilité de 94 à 100 % et spécificité de 90 à 95 % par rapport au diagnostic psychiatrique, chez des évaluateurs formés [S3].
+
+**Réanimation et salle de réveil** : **CAM-ICU** ou **ICDSC** (patients non communicants, ventilés) [S1, S13, S16] ; la sédation est évaluée par l'échelle **RASS**.
+
+> Le repérage **systématique** (à l'admission puis quotidien chez les patients à risque) est nécessaire, car la confusion — surtout hypoactive — passe inaperçue chez une grande partie des patients si on ne la cherche pas [S1, S7].
+
+---
+
+## 8. Examens complémentaires et bilan étiologique
+
+### 8.1 Principe
+
+**Toute confusion est organique jusqu'à preuve du contraire.** Le bilan est **guidé par la clinique**, mais comporte un socle systématique. Il commence par une **revue exhaustive des médicaments** et par un **examen clinique complet** (vessie, rectum, peau, poumons, abdomen, signes neurologiques, douleur) [S1, S6].
+
+### 8.2 Bilan initial (socle)
+
+| Examen | Ce que l'on recherche |
+|---|---|
+| Revue des **médicaments** (ordonnance, automédication, changements récents) | Iatrogénie, sevrage |
+| **Glycémie capillaire** | Hypoglycémie (immédiatement) |
+| Température, SpO₂, PA, FC, FR, diurèse ; **recherche de globe vésical** (palpation, échographie vésicale) ; **toucher rectal** si suspicion de fécalome | Infection, hypoxie, état de choc, rétention, fécalome |
+| NFS, CRP | Infection, anémie |
+| **Ionogramme sanguin** (Na, K), **calcémie** (corrigée), urée, **créatinine** | Hyponatrémie, hypercalcémie, déshydratation, insuffisance rénale |
+| Bilan hépatique | Encéphalopathie, cholestase infectieuse |
+| **ECG** | Ischémie, troubles du rythme ou de la conduction, intoxication (digoxine) |
+| Bandelette urinaire (± ECBU si signes urinaires ou fièvre sans autre cause) | Infection urinaire — **ne pas traiter une bactériurie asymptomatique** comme cause unique sans argument |
+
+### 8.3 Examens orientés
+
+| Examen | Indication |
+|---|---|
+| Gaz du sang | Hypoxémie, **hypercapnie** (BPCO, sédatifs), acidose |
+| Hémocultures, radiographie thoracique | Fièvre, signes respiratoires |
+| Troponine | Suspicion de syndrome coronarien (souvent atypique) |
+| Dosages médicamenteux | Digoxine, lithium, antiépileptiques |
+| TSH, vitamine B12, folates, ammoniémie | Selon le contexte |
+| **Scanner cérébral** | **Pas systématique** ; indiqué en cas de **signe de localisation**, de **traumatisme crânien** ou de chute (surtout sous anticoagulant), de troubles de la vigilance inexpliqués, ou d'absence de cause retrouvée après le bilan initial [S6] |
+| **Ponction lombaire** | Fièvre sans point d'appel, syndrome méningé, suspicion de méningo-encéphalite (après imagerie si indiquée) |
+| **EEG** | Suspicion d'**état de mal non convulsif** (fluctuations, myoclonies discrètes, antécédent d'épilepsie) ; ralentissement diffus non spécifique dans la plupart des confusions |

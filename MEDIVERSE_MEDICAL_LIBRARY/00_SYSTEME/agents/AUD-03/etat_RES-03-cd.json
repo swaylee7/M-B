@@ -1,0 +1,59 @@
+{
+  "id": "AUD-03",
+  "mission": "Audit des 180 QCM des lots RES-03-c et RES-03-d",
+  "statut": "termine",
+  "date": "2026-11-19",
+  "lots": [
+    "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-03-c.json",
+    "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-03-d.json"
+  ],
+  "sauvegardes": [
+    "00_SYSTEME/sauvegardes/20261119/21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-03-c.avant_audit_AUD-03.json",
+    "00_SYSTEME/sauvegardes/20261119/21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-03-d.avant_audit_AUD-03.json"
+  ],
+  "rapport": "00_SYSTEME/agents/AUD-03/rapports/RES-03-cd.md",
+  "compteurs": {
+    "qcm_audites": 180,
+    "lot_c": 75,
+    "lot_d": 105,
+    "qcm_corriges": 19,
+    "qcm_valides_sans_modification": 161,
+    "qcm_a_revoir": 0,
+    "erreurs_critiques": 0,
+    "erreurs_de_cle": 0,
+    "corrections_majeures": 3,
+    "corrections_mineures": 16,
+    "calculs_refaits": 17,
+    "identifiants_sources_controles": 124,
+    "recherches_web": 5
+  },
+  "corrections_majeures": [
+    "QCM-MLEG-6083",
+    "QCM-PSYC-6117",
+    "QCM-MINT-6129"
+  ],
+  "corrections_mineures": [
+    "QCM-MINT_REA-6014",
+    "QCM-URGE-6018",
+    "QCM-NEPH-6030",
+    "QCM-NEPH-6035",
+    "QCM-NEPH-6038",
+    "QCM-EPID-6056",
+    "QCM-EPID-6057",
+    "QCM-SPUB-6065",
+    "QCM-MLEG-6077",
+    "QCM-MLEG-6078",
+    "QCM-MLEG-6082",
+    "QCM-MLEG-6084",
+    "QCM-MLEG-6086",
+    "QCM-MTRA-6088",
+    "QCM-MTRA-6090",
+    "QCM-GYNE-6180"
+  ],
+  "taches_suivantes": [
+    "QCM-URGE-6018 : vérifier dans l'ERC 2025 (Special circumstances) les seuils d'hypothermie 30/35 °C, actuellement datés ERC 2021 (la clé n'en dépend pas)",
+    "Télécharger la fiche outil HAS 2021 sur la dénutrition (70 ans et plus) quand has-sante.fr sera autorisé ; vérifier la borne de l'albuminémie de la dénutrition modérée",
+    "Acquérir la loi 83-13 et le code de déontologie (décret 92-276) pour remplacer les formulations prudentes (QCM-MTRA-6088, 6090, QCM-MLEG-6082, 6084)",
+    "Banque RES-03-c/d : relecture humaine qualifiée (statut valide_enseignant)"
+  ]
+}
