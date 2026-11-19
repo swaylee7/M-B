@@ -9,3 +9,5 @@ Mission : Dossiers pédagogiques originaux approfondis — Psychiatrie-médecine
 - 2026-11-19T02:50:00+00:00 — WebSearch (7 requêtes) : code pénal art. 264/442 (non concluant → version 1966 lue sur JORADP), arrêté du 5 mai 1996, WFSBP 2012, HAS 2011 certificat violences, Gurrera 2011 SMN, DSM-5-TR, codes CIM-11.
 - 2026-11-19T03:40:00+00:00 — DOS-PSYC-0001 (schizophrénies) rédigé en 3 passes ; placeholders cas/QCM à remplir par le script de construction (scratchpad dos10/build.py) à partir des données d_psyc1.py (12 QCM, 2 cas).
 - 2026-11-19T04:30:00+00:00 — DOS-PSYC-0002 (troubles de l'humeur) rédigé en 3 passes ; données d_psyc2.py (12 QCM, 2 cas). Correction : formulation de l'effet anti-suicide du lithium alignée sur le texte de CANMAT-ISBD.
+- 2026-11-19T05:20:00+00:00 — DOS-MLEG-0001 (le médecin et les blessures) rédigé en 3 passes ; données d_mleg1.py (12 QCM, 2 cas).
+- 2026-11-19T06:00:00+00:00 — DOS-MLEG-0002 (responsabilité médicale) rédigé en 2 passes ; correction des peines des art. 429-436 (relecture du texte) ; données d_mleg2.py (12 QCM, 2 cas).

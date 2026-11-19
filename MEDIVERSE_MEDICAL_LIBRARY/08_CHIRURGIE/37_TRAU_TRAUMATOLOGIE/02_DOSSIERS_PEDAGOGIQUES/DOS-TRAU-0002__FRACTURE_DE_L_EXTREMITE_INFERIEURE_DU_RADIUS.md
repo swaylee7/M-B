@@ -432,3 +432,304 @@ La consolidation est habituellement obtenue en **6 semaines environ** chez l'adu
 
 ### 12.4 Facteurs pronostiques
 - Âge et demande fonctionnelle ; qualité de la réduction articulaire (sujet jeune) ; comminution ; lésions associées (RUD, carpe) ; survenue d'un SDRC ; observance de la rééducation.
+
+---
+
+## 13. Traitement
+
+### 13.1 Objectifs
+1. **Soulager** la douleur et **prévenir** les complications immédiates (nerf médian, peau, compression sous plâtre).
+2. Obtenir une **consolidation** dans une position **compatible avec une bonne fonction** — anatomique pour la surface articulaire chez le sujet actif, « acceptable » chez le sujet âgé à faible demande.
+3. **Préserver la mobilité** des doigts, du coude et de l'épaule ; récupérer force et prono-supination.
+4. **Prévenir la fracture suivante** (ostéoporose, chutes) chez le sujet ≥ 50 ans.
+
+### 13.2 Moyens
+
+#### 13.2.1 Analgésie et mesures immédiates
+- **Immobilisation provisoire** (attelle), surélévation, glace ; retrait des bagues.
+- **Analgésie multimodale** avec **épargne opioïde** : l'AAOS 2020 retient, par consensus, l'intérêt des stratégies multimodales limitant les opioïdes [S2] ; paracétamol, AINS de courte durée en l'absence de contre-indication [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+- **Anesthésie pour la réduction** : bloc du foyer (« hematoma block »), anesthésie locorégionale intraveineuse, bloc plexique, anesthésie générale [posologies des anesthésiques locaux : POSOLOGIE À VÉRIFIER — protocole local].
+
+#### 13.2.2 Traitement orthopédique
+- **Réduction** (fracture à bascule postérieure) : traction dans l'axe (désimpaction), puis correction de la bascule et de la translation par pression sur le fragment distal, en flexion et inclinaison ulnaire **modérées**.
+- **Contention** : manchette ou plâtre (selon les écoles, brachio-antébrachio-palmaire les premières semaines pour contrôler la prono-supination, puis antébrachio-palmaire), poignet en position **neutre ou légère flexion**, **jamais en flexion-inclinaison ulnaire forcée** ; plâtre fendu ou attelle en phase œdémateuse ; durée totale de l'ordre de **6 semaines** pour une fracture déplacée [À VÉRIFIER — durée selon les protocoles].
+- **Surveillance radiologique** à J7–J10 puis vers J15–J21 pour dépister un **déplacement secondaire** (fractures instables).
+- **Fractures non déplacées et stables** : immobilisation simple (plâtre ou attelle) de courte durée.
+- **Consignes** : mobiliser les doigts, l'épaule et le coude dès le premier jour ; surélévation ; reconsulter en urgence si douleur croissante, doigts froids ou bleus, paresthésies, œdème important.
+
+#### 13.2.3 Traitement chirurgical
+| Technique | Principe | Indications typiques | Avantages | Inconvénients |
+|---|---|---|---|---|
+| **Embrochage percutané** (intrafocal de **Kapandji**, extrafocal, styloïdien) + plâtre | Broches de Kirschner servant de butée ou de fixation | Fractures extra-articulaires ou articulaires simples, réductibles, sans comminution majeure | Peu invasif, rapide, **moins coûteux** ; résultats fonctionnels équivalents à la plaque dans DRAFFT [S3, S4] | Infection des orifices, déplacement secondaire en cas de comminution, lésion de la branche sensitive du nerf radial, immobilisation complémentaire |
+| **Plaque palmaire verrouillée** | Vis à angle stable soutenant le fragment distal par voie antérieure | Fractures instables, articulaires, **Goyrand-Smith**, **Barton antérieur**, os ostéoporotique comminutif chez le patient actif | Stabilité, **mobilisation précoce**, **récupération fonctionnelle plus rapide à court terme** [S2, S6] | Coût, abord chirurgical, irritation des fléchisseurs (plaque distale), vis trop longues dorsalement (lésion du LEP) |
+| **Plaque dorsale / fixation par fragments** | Ostéosynthèse ciblée | Fractures articulaires complexes, Barton postérieur | Réduction articulaire précise | Irritation des extenseurs |
+| **Fixateur externe** (pontant ou non pontant) ± broches | Ligamentotaxis | Fractures **ouvertes**, **comminutives** articulaires, polytraumatisés, contrôle des parties molles | Rapide, respect des parties molles | Infection des fiches, raideur, SDRC, réduction articulaire imparfaite |
+| **Assistance arthroscopique** | Contrôle de la réduction articulaire, bilan des lésions associées | Fractures articulaires | Diagnostic des lésions ligamentaires | **Pas de différence de résultats** démontrée [S2] |
+
+#### 13.2.4 Données des essais randomisés
+| Essai | Population | Comparaison | Résultat principal |
+|---|---|---|---|
+| **DRAFFT** (BMJ 2014 ; suivi 5 ans 2019) [S3, S4] | 461 adultes (âge moyen ≈ 59 ans) avec fracture à déplacement dorsal nécessitant une fixation (hors fractures articulaires nécessitant une réduction à ciel ouvert) | **Broches** vs **plaque palmaire verrouillée** | **Pas de différence cliniquement pertinente** du score PRWE à 3, 6, 12 mois ni à 5 ans ; broches moins coûteuses et plus rapides |
+| **CROSSFIRE** (JAMA Surg 2021) [S5] | 166 patients randomisés ≥ 60 ans (âge moyen 71 ans, 90 % de femmes), fracture déplacée | **Plaque palmaire** vs **réduction fermée + plâtre** | **Pas de différence cliniquement importante** du PRWE à 12 mois ; complications totales non significativement différentes ; succès perçu par le patient en faveur de la plaque |
+| **WRIST** (JAMA Netw Open 2021, résultats à 24 mois) [S6] | Adultes ≥ 60 ans avec fracture instable ; 187 randomisés (plaque, fixateur externe ± broches, broches) + 117 ayant choisi le plâtre | Plaque vs fixateur vs broches vs plâtre | **Pas de différence cliniquement significative** du score MHQ à 24 mois ; **cal vicieux beaucoup plus fréquent dans le groupe plâtre** (59 %) que dans les groupes chirurgicaux |
+
+**Interprétation** : chez le **sujet âgé**, un cal vicieux radiologique est souvent **bien toléré** et la chirurgie n'apporte pas de bénéfice fonctionnel durable démontré ; chez l'adulte actif, la fixation chirurgicale des fractures instables reste justifiée, sans supériorité démontrée de la plaque sur les broches pour les fractures extra-articulaires ou articulaires simples à déplacement dorsal [S1–S6].
+
+#### 13.2.5 Recommandations AAOS/ASSH 2020 — messages vérifiés [S1, S2]
+- Recommandations fondées sur une revue systématique, **limitées au traitement des fractures aiguës de l'adulte** (> 18 ans), sans traiter les cals vicieux [S1].
+- Pas de différence significative des résultats radiologiques ou rapportés par les patients entre les techniques de fixation pour les fractures **articulaires complètes ou instables**, mais **récupération fonctionnelle plus précoce** avec la plaque palmaire verrouillée [S2].
+- **Pas de différence** avec ou sans **assistance arthroscopique** [S2].
+- **Analgésie multimodale avec épargne opioïde** (recommandation de consensus) [S2].
+- Chez les patients âgés, le traitement opératoire n'améliorerait pas les résultats à long terme rapportés par les patients par rapport au traitement non opératoire [À VÉRIFIER — formulation, seuil d'âge (65 ans ?) et force de la recommandation dans le texte intégral].
+
+#### 13.2.6 Rééducation
+- **Mobilisation active des doigts dès J1** et des articulations sus-jacentes.
+- Après ablation du plâtre ou dès la stabilité obtenue par la chirurgie : récupération des amplitudes (flexion-extension, prono-supination), puis de la force ; programme à domicile ou supervisé selon le patient [À VÉRIFIER — position AAOS sur la rééducation supervisée].
+
+### 13.3 Stratégie / indications
+```text
+FRACTURE DE L'EXTRÉMITÉ INFÉRIEURE DU RADIUS
+│
+├── Fracture ouverte, compression du médian, fracture-luxation, syndrome des loges
+│      → URGENCE CHIRURGICALE (parage, décompression, stabilisation)
+│
+├── Non déplacée / stable → traitement orthopédique (immobilisation courte)
+│
+├── Déplacée extra-articulaire (Pouteau-Colles)
+│     → Réduction + contention ; évaluer l'instabilité (Lafontaine) et la réduction obtenue
+│        ├── Stable, réduction acceptable → orthopédique + contrôles radiographiques J7–J21
+│        └── Instable ou réduction insuffisante
+│              ├── Sujet âgé, faible demande → orthopédique accepté (résultat fonctionnel
+│              │      comparable à 1–2 ans : CROSSFIRE, WRIST)
+│              └── Sujet actif → fixation : broches (Kapandji) ou plaque palmaire
+│                     (pas de différence fonctionnelle à 1 et 5 ans : DRAFFT)
+│
+├── Bascule antérieure (Goyrand-Smith), Barton antérieur → plaque palmaire (le plus souvent)
+│
+├── Articulaire déplacée (marche > 2 mm), sujet actif → scanner + réduction anatomique
+│     et fixation (plaque, fixation par fragments, fixateur ± broches)
+│
+└── Dans tous les cas (≥ 50 ans, faible énergie) → bilan et traitement de l'ostéoporose,
+      prévention des chutes
+```
+Sources : [S1–S7, S12, S13].
+
+### 13.4 Particularités algériennes
+- Aucune recommandation algérienne ni donnée épidémiologique spécifique n'a été identifiée pendant la session.
+- Les données randomisées (DRAFFT) montrant l'**équivalence fonctionnelle des broches** par rapport aux plaques verrouillées, à moindre coût, sont pertinentes dans les contextes où l'accès aux implants est limité [S3, S4] ; le choix reste fondé sur le type de fracture et l'expertise de l'équipe.
+- La **prévention secondaire de l'ostéoporose** après une fracture du poignet du sujet de plus de 50 ans doit être intégrée au parcours (médecin traitant, rhumatologue) [S12].
+
+---
+
+## 14. Surveillance
+
+| Moment | Éléments |
+|---|---|
+| **24–48 premières heures** | Douleur, **œdème**, coloration et chaleur des doigts, **sensibilité du médian**, mobilité des doigts ; plâtre trop serré → fendre |
+| **J7–J10 et J15–J21** (traitement orthopédique) | Radiographies : déplacement secondaire ? Changement de plâtre si détendu |
+| **Après chirurgie** | Cicatrice, orifices de broches, mobilité, radiographies de contrôle ; ablation des broches vers 6 semaines |
+| **6 semaines** | Consolidation clinique et radiologique ; ablation de l'immobilisation ; rééducation |
+| **3 mois et au-delà** | Amplitudes, force, douleur ; **SDRC** ; **LEP** (extension du pouce) ; prono-supination ; cal vicieux symptomatique |
+| **Prévention secondaire** | Ostéodensitométrie, traitement anti-ostéoporotique, chutes [S12, S13] |
+
+---
+
+## 15. Prévention
+- **Primaire** : prévention des chutes du sujet âgé (équilibre, environnement, médicaments) [S13] ; port de protège-poignets dans certains sports (rollers, snowboard) ; traitement de l'ostéoporose.
+- **Secondaire** : la fracture du poignet de faible énergie après 50 ans est une **fracture de fragilité** → bilan et traitement anti-ostéoporotique, vitamine D, prévention des chutes [S12].
+- **Prévention des complications** : immobilisation en position neutre, surveillance du plâtre, mobilisation précoce des doigts, analgésie efficace (prévention du SDRC), contrôle radiographique des fractures instables.
+
+---
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Accueil d'un traumatisme du poignet
+```text
+1. Chute sur la main / traumatisme du poignet
+   │
+2. Examen : déformation, PEAU (ouverture ?), NERF MÉDIAN, pouls radial, LEP,
+   tabatière anatomique (scaphoïde), coude, épaule ; cause de la chute (sujet âgé)
+   │
+3. Radiographies poignet face + profil strict (± scaphoïde, avant-bras, coude)
+   ├── Pas de fracture, tabatière douloureuse → immobiliser + imagerie du scaphoïde (IRM/scanner)
+   ├── Fracture extra-articulaire → mesurer bascule, raccourcissement, inclinaison ;
+   │     critères de Lafontaine
+   ├── Fracture articulaire → scanner (planification)
+   └── Lésion du carpe (arcs de Gilula rompus, diastasis SL) → avis spécialisé urgent
+   │
+4. Urgences chirurgicales : ouverture, médian déficitaire non amélioré par la réduction,
+   fracture-luxation, syndrome des loges
+```
+
+### 16.2 Après réduction orthopédique
+```text
+Réduction + contention en position neutre
+│
+├── Contrôle immédiat : paramètres acceptables ?
+│     ├── Non → chirurgie (patient actif) / acceptation (patient âgé peu demandeur)
+│     └── Oui → contrôles radiographiques J7–J10, J15–J21
+│                ├── Déplacement secondaire → chirurgie (actif) ou acceptation (âgé)
+│                └── Stable → consolidation ≈ 6 semaines → rééducation
+│
+└── À chaque étape : œdème, médian, SDRC, mobilisation des doigts
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Énoncé (scénario fictif).** Mme S., 64 ans, enseignante retraitée, droitière, glisse sur le carrelage mouillé de sa cuisine et tombe sur la main gauche en extension. Elle présente une douleur et une déformation du poignet gauche. Antécédents : ménopause à 46 ans, corticothérapie orale pendant 2 ans pour une pathologie respiratoire, pas d'autre fracture. Examen : poignet en « dos de fourchette » de profil et en « baïonnette » de face ; styloïdes radiale et ulnaire au même niveau ; peau intacte ; sensibilité de la pulpe de l'index normale ; pouls radial présent ; extension active du pouce possible. Radiographies : fracture sus-articulaire du radius distal avec **bascule dorsale de 30°**, **comminution dorsale**, fracture de la pointe de la styloïde ulnaire, pas de trait articulaire ; raccourcissement de 4 mm.
+
+**Questions et réponses commentées**
+1. *Quel est le diagnostic ? Classez la fracture.*
+   → Fracture de **Pouteau-Colles** (sus-articulaire à bascule postérieure) ; Castaing : fracture extra-articulaire à déplacement postérieur [S11] ; AO/OTA **2R3 A** (A3 si comminution métaphysaire) [S9] ; Frykman **II** (extra-articulaire + styloïde ulnaire) [S10].
+2. *Est-elle stable ?*
+   → Critères de Lafontaine présents : **bascule dorsale > 20°**, **comminution dorsale**, **fracture associée de l'ulna**, **âge > 60 ans** = **4 critères** → fracture **instable**, à risque élevé de déplacement secondaire [S7].
+3. *Quelle prise en charge proposez-vous ?*
+   → Réduction sous anesthésie (bloc du foyer ou locorégionale) et contention en position neutre. Patiente de 64 ans **active** : en cas de réduction insuffisante ou de déplacement secondaire, une **fixation chirurgicale** se discute — **embrochage percutané** (intrafocal de Kapandji) ou **plaque palmaire verrouillée**, sans différence fonctionnelle démontrée à 1 et 5 ans entre les deux dans DRAFFT [S3, S4] ; la plaque permet une mobilisation plus précoce [S2]. Chez une patiente plus âgée et moins active, le traitement orthopédique serait défendable (CROSSFIRE, WRIST) [S5, S6]. Décision partagée.
+4. *Quelles complications surveillez-vous ?*
+   → Œdème sous plâtre et compression, **nerf médian**, **déplacement secondaire** (radiographies à J7–J10 et J15–J21), **SDRC** (mobiliser les doigts, analgésie efficace), **rupture du LEP** (vérifier l'extension du pouce à chaque consultation), cal vicieux.
+5. *Quelle prise en charge globale à la sortie ?*
+   → Fracture de **fragilité** chez une femme ménopausée précocement avec antécédent de corticothérapie : **ostéodensitométrie**, bilan phosphocalcique et vitamine D, **traitement anti-ostéoporotique** si indiqué, évaluation du **risque de chute** (sol glissant, chaussage, vision) [S12, S13].
+
+**Commentaire** : la décision thérapeutique dépend moins de la radiographie seule que de la combinaison **instabilité + âge + demande fonctionnelle**. Les essais récents ont tempéré l'usage systématique des plaques chez le sujet âgé. La prévention de la **fracture suivante** (souvent la hanche) fait partie intégrante du traitement.
+
+---
+
+## 18. Points clés à retenir
+1. Fracture très fréquente, **bimodale** : sujet jeune à haute énergie (fractures articulaires) et femme ménopausée à faible énergie (Pouteau-Colles) — **fracture sentinelle de l'ostéoporose** [S12].
+2. **Pouteau-Colles** = sus-articulaire à **bascule postérieure** (« dos de fourchette », « baïonnette ») ; **Goyrand-Smith** = bascule **antérieure** (instable) ; **Barton** = marginale avec subluxation du carpe.
+3. Paramètres normaux : inclinaison radiale ≈ 20–25°, inclinaison palmaire ≈ 10–12°, hauteur radiale ≈ 10–13 mm, variance ulnaire ≈ 0.
+4. Classifications : **Castaing** (sens du déplacement, articulaire ou non) [S11], **AO/OTA 2R3 A/B/C** [S9], **Frykman** I–VIII (types pairs = styloïde ulnaire) [S10], **Older** (pronostique) [S8].
+5. **Lafontaine** : bascule dorsale > 20°, comminution dorsale, trait articulaire, fracture de l'ulna, âge > 60 ans ; ≥ 3 = instable [S7].
+6. Examiner systématiquement **peau, nerf médian, pouls, LEP, scaphoïde**.
+7. Traitement orthopédique : réduction, contention en **position neutre** (jamais flexion-inclinaison ulnaire forcée), **contrôles radiographiques** à J7–J21.
+8. **DRAFFT** : broches = plaque palmaire (fonction à 1 et 5 ans) ; **CROSSFIRE** et **WRIST** : chez les ≥ 60 ans, pas de bénéfice fonctionnel durable de la chirurgie malgré plus de cals vicieux sous plâtre [S3–S6].
+9. Complications : déplacement secondaire, **SDRC**, **rupture du LEP**, compression du médian, cal vicieux, arthrose.
+10. Après 50 ans et faible énergie : **ostéoporose** et **chutes** à prendre en charge [S12, S13].
+
+## 19. Pièges classiques à l'examen
+- Immobiliser en **flexion palmaire et inclinaison ulnaire forcées** (compression du médian, SDRC).
+- Ne pas **contrôler radiologiquement** une fracture instable traitée orthopédiquement.
+- Méconnaître une **fracture du scaphoïde** ou une **lésion scapho-lunaire** associée.
+- Oublier de tester le **nerf médian** et l'**extension du pouce** (LEP) — avant et après réduction.
+- Confondre Pouteau-Colles (bascule postérieure) et Goyrand-Smith (bascule antérieure), et traiter un Goyrand-Smith comme un Colles par plâtre seul.
+- Croire que la plaque palmaire est **supérieure** aux broches à long terme (DRAFFT) ou que la chirurgie est **toujours** préférable chez le sujet âgé (CROSSFIRE, WRIST).
+- Oublier la **prévention secondaire de l'ostéoporose**.
+- Considérer les types **impairs** de Frykman comme comportant une fracture de la styloïde ulnaire (ce sont les **pairs**).
+- Ignorer une **rupture tardive du LEP** survenant après une fracture peu déplacée.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+**QCM 1.** La fracture de Pouteau-Colles :
+A. Est une fracture sus-articulaire du radius distal.
+B. Comporte une bascule antérieure du fragment distal.
+C. Donne une déformation en « dos de fourchette ».
+D. Survient typiquement après une chute sur la main en extension.
+E. Est plus fréquente chez la femme ménopausée.
+> **Réponses : A, C, D, E.**
+
+**QCM 2.** Paramètres radiologiques normaux du radius distal :
+A. Inclinaison radiale de l'ordre de 20–25°.
+B. Inclinaison palmaire de l'ordre de 10–12°.
+C. Hauteur radiale de l'ordre de 10–13 mm.
+D. Bascule dorsale normale de 20°.
+E. Variance ulnaire proche de 0.
+> **Réponses : A, B, C, E.**
+
+**QCM 3.** Critères d'instabilité de Lafontaine :
+A. Bascule dorsale > 20°.
+B. Comminution dorsale.
+C. Âge > 60 ans.
+D. Sexe féminin.
+E. Fracture associée de l'ulna.
+> **Réponses : A, B, C, E.** Le cinquième critère est le trait articulaire [S7].
+
+**QCM 4.** Classification de Frykman :
+A. Elle comporte huit types.
+B. Les types pairs comportent une fracture de la styloïde ulnaire.
+C. Le type I est extra-articulaire sans fracture ulnaire.
+D. Le type VII concerne la radio-carpienne et la radio-ulnaire distale.
+E. Elle intègre le degré de comminution.
+> **Réponses : A, B, C, D.** [S10]
+
+**QCM 5.** Dans la classification AO/OTA du radius distal (2R3) :
+A. Le type A est extra-articulaire.
+B. Le type B est articulaire partiel.
+C. B3 correspond à une fracture de la marge palmaire (Barton antérieur).
+D. Le type C est articulaire complet.
+E. B1 correspond à une fracture de la marge dorsale.
+> **Réponses : A, B, C, D.** B1 = sagittale (styloïde radiale) ; B2 = marge dorsale [S9].
+
+**QCM 6.** Examen initial d'une fracture du poignet — éléments à rechercher systématiquement :
+A. Ouverture cutanée.
+B. Sensibilité de la pulpe de l'index.
+C. Pouls radial.
+D. Réflexe ostéotendineux bicipital.
+E. Douleur de la tabatière anatomique.
+> **Réponses : A, B, C, E.**
+
+**QCM 7.** Essai DRAFFT :
+A. Il comparait broches de Kirschner et plaque palmaire verrouillée.
+B. La plaque donnait un meilleur score PRWE à 12 mois.
+C. Aucune différence cliniquement pertinente n'a été retrouvée à 5 ans.
+D. Les broches étaient moins coûteuses.
+E. Il incluait des fractures à déplacement dorsal.
+> **Réponses : A, C, D, E.** [S3, S4]
+
+**QCM 8.** Chez le sujet de 60 ans et plus avec fracture déplacée du radius distal :
+A. CROSSFIRE n'a pas montré de différence cliniquement importante du PRWE à 12 mois entre plaque et plâtre.
+B. Dans WRIST, le cal vicieux était plus fréquent dans le groupe plâtre.
+C. Dans WRIST, le score MHQ à 24 mois était nettement meilleur après plaque.
+D. Un traitement orthopédique peut être proposé chez un patient peu demandeur.
+E. La prévention secondaire de l'ostéoporose est indiquée après une chute de sa hauteur.
+> **Réponses : A, B, D, E.** [S5, S6, S12]
+
+**QCM 9.** Complications de la fracture du radius distal :
+A. Rupture secondaire du long extenseur du pouce.
+B. Syndrome douloureux régional complexe.
+C. Compression du nerf médian.
+D. Ostéonécrose du semi-lunaire systématique.
+E. Cal vicieux avec limitation de la prono-supination.
+> **Réponses : A, B, C, E.**
+
+**QCM 10.** Position d'immobilisation après réduction d'un Pouteau-Colles :
+A. Flexion palmaire forcée et inclinaison ulnaire maximale.
+B. Position neutre ou légère flexion.
+C. Mobilisation des doigts autorisée dès le premier jour.
+D. Plâtre fendu ou attelle en phase œdémateuse.
+E. Immobilisation de l'épaule associée.
+> **Réponses : B, C, D.**
+
+---
+
+## 21. Divergences entre recommandations et controverses
+
+| Sujet | Position A | Position B | Commentaire |
+|---|---|---|---|
+| **Chirurgie chez le sujet âgé** | Pratique répandue des plaques palmaires dans les années 2000–2010 | AAOS 2020 et essais CROSSFIRE/WRIST : pas de bénéfice fonctionnel durable démontré de la chirurgie chez les patients âgés [S1, S2, S5, S6] [À VÉRIFIER — formulation et seuil d'âge AAOS] | La chirurgie reste discutée chez les âgés actifs ; décision partagée |
+| **Broches vs plaque** | Plaque : stabilité, mobilisation précoce, récupération plus rapide à court terme [S2] | DRAFFT : équivalence fonctionnelle à 1 et 5 ans, broches moins coûteuses [S3, S4] | Choix selon le type de fracture, l'expertise et les ressources |
+| **Vitamine C et SDRC** | Recommandation AAOS 2009 (vitamine C quotidienne pendant ~50 jours) — selon la littérature secondaire, non vérifiée | Littérature ultérieure : preuves jugées insuffisantes ; position AAOS 2020 non confirmée pendant la session [À VÉRIFIER] | Ne pas présenter la vitamine C comme une recommandation établie sans vérification |
+| **Critères radiologiques de réduction acceptable** | Seuils classiques (raccourcissement ≤ 3 mm, bascule dorsale ≤ 10°, marche ≤ 2 mm) issus des recommandations antérieures [À VÉRIFIER] | Recommandations 2020 centrées sur l'âge et les résultats rapportés par les patients [S1, S2] | Seuils utiles chez le sujet actif ; plus tolérants chez le sujet âgé |
+| **Classifications** | Castaing (enseignement francophone) [S11] | AO/OTA (recherche, internationale) [S9] ; Frykman (anglo-saxonne) [S10] | Connaître les trois pour l'examen ; l'AO/OTA est la plus reproductible pour la communication scientifique [À VÉRIFIER] |
+| **Assistance arthroscopique** | Utile pour contrôler la réduction articulaire et dépister les lésions ligamentaires | AAOS 2020 : pas de différence de résultats [S2] | Indication au cas par cas |
+
+---
+
+## 22. Références
+
+1. **[S1]** Kamal RN, Shapiro LM. AAOS/ASSH Clinical Practice Guideline Summary: Management of Distal Radius Fractures. *J Am Acad Orthop Surg*. 2022;30(4):e480-e486. doi:10.5435/JAAOS-D-21-00719. — *vérifiée (PMID 35143462)*.
+2. **[S2]** AAOS. Management of Distal Radius Fractures — Evidence-Based Clinical Practice Guideline, adoptée le 5 décembre 2020 (aaos.org/drfcpg). — *existence, date et messages principaux vérifiés par recherche web ; texte intégral non consulté*.
+3. **[S3]** Costa ML, et al.; DRAFFT Study Group. *BMJ*. 2014;349:g4807. doi:10.1136/bmj.g4807. — *vérifiée (PMID 25096595)*.
+4. **[S4]** Costa ML, et al. DRAFFT, suivi à 5 ans. *Bone Joint J*. 2019;101-B(8):978-983. doi:10.1302/0301-620X.101B8.BJJ-2018-1285.R1. — *vérifiée (PMID 31362548)*.
+5. **[S5]** CROSSFIRE Study Group. Surgical Plating vs Closed Reduction for Fractures in the Distal Radius in Older Patients. *JAMA Surg*. 2021;156(3):229-237. doi:10.1001/jamasurg.2020.5672. — *vérifiée (PMID 33439250)*.
+6. **[S6]** Chung KC, et al.; WRIST Group. Comparison of 24-Month Outcomes After Treatment for Distal Radius Fracture. *JAMA Netw Open*. 2021;4(6):e2112710. doi:10.1001/jamanetworkopen.2021.12710. — *vérifiée (PMID 34137830)*.
+7. **[S7]** Lafontaine M, Hardy D, Delince P. Stability assessment of distal radius fractures. *Injury*. 1989;20(4):208-210. doi:10.1016/0020-1383(89)90113-7. — *vérifiée (PMID 2592094)*.
+8. **[S8]** Older TM, Stabler EV, Cassebaum WH. Colles fracture: evaluation and selection of therapy. *J Trauma*. 1965;5:469-476. doi:10.1097/00005373-196507000-00004. — *vérifiée (PMID 14308382)*.
+9. **[S9]** Meinberg EG, et al. Fracture and Dislocation Classification Compendium-2018. *J Orthop Trauma*. 2018;32 Suppl 1:S1-S170. doi:10.1097/BOT.0000000000001063. — *vérifiée (PMID 29256945)*.
+10. **[S10]** Frykman G. Fracture of the distal radius including sequelae. *Acta Orthop Scand*. 1967;Suppl 108:1-153. — *non vérifiée pendant la session*.
+11. **[S11]** Castaing J. Les fractures récentes de l'extrémité inférieure du radius chez l'adulte. *Rev Chir Orthop*. 1964;50:581-696. — *non vérifiée pendant la session*.
+12. **[S12]** Conley RB, et al. Secondary Fracture Prevention: Consensus Clinical Recommendations From a Multistakeholder Coalition. *J Bone Miner Res*. 2020;35(1):36-52. doi:10.1002/jbmr.3877. — *vérifiée (PMID 31538675)*.
+13. **[S13]** HAS. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. 2009 (catalogue REC-0524). — *vérifiée (catalogue)*.

@@ -1,0 +1,33 @@
+{
+  "id": "AUD-03",
+  "mission": "audit QCM lots RES-04-a et RES-04-b",
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T03:05:00+00:00",
+  "taches_terminees": [
+    "audit QCM lots RES-04-a (90) et RES-04-b (90) — rapport rapports/RES-04.md"
+  ],
+  "taches_suivantes": [
+    "QCM-UROL-4081 : lire le livret AFU 2023 « Urgences en urologie » et le chapitre « Bacterial prostatitis » des recommandations EAU sur les infections urologiques (uroweb.org à autoriser) pour confirmer la position sur le mode de drainage",
+    "QCM-CDIG-4001 à 4006 : lire la recommandation ESMO 2026 estomac-œsophage (REC-0371) et vérifier l'intégration d'ESOPEC et de l'immunothérapie périopératoire",
+    "Banque RES-04 : relecture humaine qualifiée (statut valide_enseignant)"
+  ],
+  "compteurs": {
+    "RES-04": {
+      "qcm_audites": 180,
+      "qcm_corriges": 25,
+      "qcm_valides_sans_modification": 155,
+      "qcm_a_revoir": 0,
+      "erreurs_critiques": 0,
+      "erreurs_de_cle": 0,
+      "corrections_majeures": 1,
+      "corrections_mineures": 24,
+      "cles_modifiees": 0,
+      "recherches_web": 7,
+      "rapport": "00_SYSTEME/agents/AUD-03/rapports/RES-04.md",
+      "sauvegardes": [
+        "00_SYSTEME/sauvegardes/20261119/21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-04-a.avant_audit_AUD-03.json",
+        "00_SYSTEME/sauvegardes/20261119/21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-04-b.avant_audit_AUD-03.json"
+      ]
+    }
+  }
+}

@@ -6,11 +6,24 @@ sous_specialite: "Spondyloarthrites"
 items_residanat: [RES-MED-100]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-09 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 8
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-RHUM-0002.md
+    remarque: "Critères de New York modifiés, ASAS 2009 (lombalgie inflammatoire et SpA axiale), seuils ASDAS et indications ASAS-EULAR 2022 conformes. Interprétation du HLA-B27 au Maghreb nuancée (sensibilité moindre mais OR élevés) ; position ACR 2019 sur la décroissance précisée ; grossesse (EULAR 2016) ; traitement de l'ITL documenté (OMS 2024, délai S3 2026) ; instruction algérienne ITL 2024 non relue ; chiffres PROSPA non lus."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-RHUM-0002.md
+    remarque: "Marqueurs levés (RCP) : AINS (doses maximales), sulfasalazine, biothérapies et inhibiteurs de JAK (avec restrictions EMA 2023). Aucun marqueur posologique restant ; RCP non consultables depuis la session (S13 non vérifiée)."
 sources:
   - id: S1
     reference: "Ramiro S, Nikiphorou E, Sepriano A, et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34."
@@ -108,13 +121,53 @@ sources:
     doi: "10.1136/annrheumdis-2019-215882"
     url: ""
     verifiee: true
+  - id: S13
+    reference: "Résumés des caractéristiques du produit (RCP) des spécialités citées (AMM européennes, EPAR de l'EMA, ou AMM nationales), versions en vigueur."
+    organisme: "EMA / autorités nationales"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/medicines"
+    verifiee: false
+  - id: S14
+    reference: "European Medicines Agency. EMA confirms measures to minimise risk of serious side effects with Janus kinase inhibitors for chronic inflammatory disorders (procédure de l'article 20 ; recommandations du PRAC confirmées par le CHMP, texte amendé en janvier 2023)."
+    organisme: "EMA (PRAC / CHMP)"
+    annee: 2023
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/news/ema-confirms-measures-minimise-risk-serious-side-effects-janus-kinase-inhibitors-chronic-inflammatory-disorders"
+    verifiee: true
+  - id: S15
+    reference: "World Health Organization. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment. 2nd ed. Geneva: WHO; 2024. ISBN 9789240096196."
+    organisme: "OMS"
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/378536"
+    verifiee: true
+  - id: S16
+    reference: "Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm - part 2: Specific clinical and comorbid situations. J Dtsch Dermatol Ges. 2026;24(2):270-282."
+    organisme: "DDG / BVDD (avec la DGP pour le chapitre tuberculose)"
+    annee: 2026
+    type: recommandation
+    doi: "10.1111/ddg.16001"
+    url: ""
+    verifiee: true
+  - id: S17
+    reference: "Götestam Skorpen C, Hoeltzenbein M, Tincani A, et al. The EULAR points to consider for use of antirheumatic drugs before pregnancy, and during pregnancy and lactation. Ann Rheum Dis. 2016;75(5):795-810."
+    organisme: "EULAR"
+    annee: 2016
+    type: recommandation
+    doi: "10.1136/annrheumdis-2015-208840"
+    url: ""
+    verifiee: true
 mots_cles: [pelvispondylite rhumatismale, spondylarthrite ankylosante, spondyloarthrite axiale, HLA-B27, sacro-iliite, lombalgie inflammatoire, critères ASAS, critères de New York modifiés, BASDAI, ASDAS, AINS, anti-TNF, anti-IL-17, uvéite, Algérie]
 ---
 
 # Pelvispondylite rhumatismale (spondyloarthrite axiale) : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-100 — « Pelvispondylite rhumatismale : Diagnostic - traitement ».
 
@@ -166,7 +219,7 @@ La lésion élémentaire est l'**enthésite** : inflammation de la zone d'insert
 
 **Au Maghreb et dans les pays arabes.**
 - Une revue systématique de 27 études a montré que la prévalence du HLA-B27 dans la population générale des pays du Moyen-Orient et des pays arabes est **plus basse** que dans les pays occidentaux (de 0,3 % à Oman à 6,8 % en Turquie) ; parmi les patients atteints de SpA axiale, la fréquence du HLA-B27 variait de 26,2 % (Liban) à 91 % (Turquie), et l'odds ratio d'association allait de 21,6 (Maroc) à 105,6 (Syrie) [S7].
-- Conséquence pratique : **un HLA-B27 négatif est fréquent chez les patients maghrébins atteints de SpA axiale** ; le « bras HLA-B27 » des critères ASAS y est moins contributif et l'imagerie prend une place plus importante [S7].
+- Conséquence pratique : **un HLA-B27 négatif est fréquent chez les patients maghrébins atteints de SpA axiale** ; le « bras HLA-B27 » des critères ASAS y est moins sensible et l'imagerie prend une place plus importante ; en revanche, un HLA-B27 positif garde une forte valeur d'orientation, l'association avec la maladie restant étroite (odds ratios élevés) [S7].
 - L'étude **PROSPA** (1 112 patients, 15 pays arabes, publiée en 2026) a décrit le phénotype et le retentissement de la SpA axiale et l'hétérogénéité entre régions [S8] ; ses résultats détaillés n'ont pas été relus pour ce dossier **[À VÉRIFIER — chiffres non cités]**.
 - Données algériennes spécifiques (prévalence, registres) : non retrouvées lors de la préparation de ce dossier **[À VÉRIFIER — sociétés savantes algériennes de rhumatologie]**.
 
@@ -313,7 +366,7 @@ Asthénie fréquente, parfois amaigrissement et fébricule dans les formes très
 
 ### 9.1 Biologie
 - **CRP et VS** : élevées chez une partie seulement des patients ; une CRP normale **n'exclut pas** une SpA axiale active. Une CRP élevée est un signe de SpA dans les critères ASAS [S2] et un argument pour l'indication des biothérapies [S1].
-- **HLA-B27** : à demander devant une suspicion clinique ; utile au diagnostic, mais **ni nécessaire ni suffisant**. Sa valeur est moindre chez les patients maghrébins, du fait de sa faible prévalence dans la SpA axiale de ces populations [S7].
+- **HLA-B27** : à demander devant une suspicion clinique ; utile au diagnostic, mais **ni nécessaire ni suffisant**. Chez les patients maghrébins, sa sensibilité est moindre (il manque chez une proportion notable de patients), mais sa positivité garde une forte valeur d'orientation (odds ratios de 21,6 à 105,6 selon les pays) [S7].
 - **Facteur rhumatoïde, ACPA** : négatifs (orientation différentielle).
 - **Bilan infectieux** devant une sacro-iliite unilatérale, fébrile ou d'installation aiguë : sérologie de **Wright** et test au **rose Bengale** (brucellose), hémocultures, recherche de tuberculose, ± ponction-biopsie guidée.
 - **Bilan pré-thérapeutique** : NFS, créatinine, transaminases (AINS, biothérapies) ; sérologies VHB, VHC, VIH, dépistage tuberculeux avant biothérapie [S9].
@@ -340,7 +393,7 @@ ECG (troubles de conduction), échocardiographie (insuffisance aortique), EFR, e
 | Forme | Particularités |
 |---|---|
 | **SpA axiale non radiographique** | Sacro-iliite seulement en IRM ou bras HLA-B27 ; plus de femmes ; activité et retentissement comparables ; toutes ne progressent pas vers la forme radiographique |
-| **Forme de la femme** | Atteinte plus souvent cervicale et périphérique, progression radiographique moindre, retard diagnostique fréquent ; grossesse : AINS à éviter au 3e trimestre ; certains anti-TNF utilisables **[À VÉRIFIER — RCP]** |
+| **Forme de la femme** | Atteinte plus souvent cervicale et périphérique, progression radiographique moindre, retard diagnostique fréquent ; grossesse : AINS à éviter au 3e trimestre ; les anti-TNF, les mieux étudiés des biothérapies, paraissent raisonnablement sûrs aux 1er et 2e trimestres (EULAR 2016) [S17] ; poursuite au-delà selon la molécule et le RCP |
 | **Forme juvénile** | Début avant 16 ans, enthésites et arthrites des membres inférieurs (hanches, tarses) au premier plan ; atteinte axiale plus tardive |
 | **Forme à début tardif** | Rare ; diagnostic différentiel avec la maladie hyperostosique et les causes infectieuses ou tumorales |
 | **Forme avec coxite** | Pronostic fonctionnel réservé, prothèse de hanche parfois nécessaire chez le sujet jeune [S1] |
@@ -408,8 +461,8 @@ Selon les principes généraux ASAS-EULAR 2022 [S1] :
 
 #### 13.2.2 AINS — traitement médicamenteux de première ligne
 - Recommandés en **première intention** chez les patients ayant des douleurs et une raideur, **jusqu'à la dose maximale tolérée**, en tenant compte des risques et bénéfices [S1]. En cas de bonne réponse, une prise **continue** est privilégiée si les symptômes le justifient ; sinon, prise à la demande.
-- Évaluation de la réponse : une amélioration nette en 2 à 4 semaines est attendue ; l'échec est défini par une réponse insuffisante à **au moins deux AINS** différents pris à dose optimale sur une durée totale d'au moins 4 semaines **[formulation exacte À VÉRIFIER dans ASAS-EULAR 2022]**.
-- Molécules et doses : selon le RCP de chaque AINS **[POSOLOGIE À VÉRIFIER — RCP]**.
+- Évaluation de la réponse : une amélioration nette en 2 à 4 semaines est attendue ; l'échec est défini par une réponse insuffisante à **au moins deux AINS** différents pris à dose optimale sur une durée totale d'au moins 4 semaines (critère d'échec du traitement conventionnel de l'algorithme ASAS-EULAR) [S1].
+- Molécules et doses : jusqu'à la dose maximale autorisée par le RCP de chaque AINS, par exemple naproxène 500 mg × 2/j, diclofénac jusqu'à 150 mg/j, célécoxib 200 à 400 mg/j, étoricoxib 60 à 90 mg/j [S13].
 - **Précautions** : risque digestif (associer un inhibiteur de la pompe à protons si facteurs de risque), rénal (créatinine, HTA), cardiovasculaire ; prudence en cas de MICI ; à éviter au 3e trimestre de la grossesse.
 
 #### 13.2.3 Antalgiques
@@ -421,7 +474,7 @@ Paracétamol et opioïdes faibles peuvent être utilisés pour la douleur résid
 
 #### 13.2.5 Traitements de fond conventionnels (csDMARD)
 - **Inefficaces sur l'atteinte axiale pure** : sulfasalazine, méthotrexate et léflunomide ne sont **pas recommandés** dans cette indication [S1, S6].
-- La **sulfasalazine** peut être envisagée en cas d'**arthrite périphérique** [S1] **[POSOLOGIE À VÉRIFIER — RCP]**.
+- La **sulfasalazine** peut être envisagée en cas d'**arthrite périphérique** [S1] : 500 mg/j, augmentés de 500 mg par semaine jusqu'à 2 g/j (3 g/j au maximum) [S13].
 
 #### 13.2.6 Biothérapies et inhibiteurs de JAK
 **Indication (ASAS-EULAR 2022, recommandation 9)** [S1] — conditions cumulatives :
@@ -436,7 +489,7 @@ La présence d'un avis rhumatologique, de facteurs de mauvais pronostic (syndesm
 |---|---|---|
 | **Anti-TNF** | Adalimumab, certolizumab pegol, étanercept, golimumab, infliximab (et biosimilaires) | « Pratique habituelle » : débuter par un anti-TNF ou un anti-IL-17 [S1]. Les **anticorps monoclonaux** anti-TNF sont **préférés** en cas d'**uvéite récidivante** ou de **MICI** (l'étanercept, récepteur soluble, n'est pas efficace dans les MICI) [S1] |
 | **Anti-IL-17A (± IL-17F)** | Sécukinumab, ixékizumab, bimékizumab | À **préférer** en cas de **psoriasis important** [S1] ; à **éviter** en cas de MICI (risque d'aggravation ou de révélation) |
-| **Inhibiteurs de JAK (tsDMARD)** | Tofacitinib, upadacitinib | Option après évaluation des risques cardiovasculaires, thromboemboliques et néoplasiques, comme dans la PR **[RCP en vigueur À VÉRIFIER]** |
+| **Inhibiteurs de JAK (tsDMARD)** | Tofacitinib, upadacitinib | Option après évaluation des risques cardiovasculaires, thromboemboliques et néoplasiques ; selon l'EMA (2023), chez les patients de 65 ans ou plus, fumeurs ou anciens fumeurs de longue durée, à risque cardiovasculaire ou néoplasique, seulement en l'absence d'alternative appropriée [S14] ; tofacitinib 5 mg × 2/j, upadacitinib 15 mg/j [S13] |
 
 Les anti-IL-12/23 et anti-IL-23, actifs dans le psoriasis, **ne sont pas efficaces** sur l'atteinte axiale.
 
@@ -444,10 +497,26 @@ Les anti-IL-12/23 et anti-IL-23, actifs dans le psoriasis, **ne sont pas efficac
 
 **Rémission prolongée** : une **décroissance** (espacement) du bDMARD peut être envisagée, plutôt qu'un arrêt brutal, souvent suivi de rechute [S1, recommandation 13].
 
-Doses et rythmes : **[POSOLOGIE À VÉRIFIER — RCP]**.
+Posologies usuelles de l'adulte dans la SpA axiale (RCP [S13]) :
+
+| Molécule | Posologie |
+|---|---|
+| Adalimumab | 40 mg SC toutes les 2 semaines |
+| Certolizumab pegol | 400 mg SC à S0, S2 et S4, puis 200 mg toutes les 2 semaines (ou 400 mg toutes les 4 semaines) |
+| Étanercept | 50 mg SC par semaine |
+| Golimumab | 50 mg SC une fois par mois |
+| Infliximab | 5 mg/kg IV à S0, S2 et S6, puis toutes les 6 à 8 semaines |
+| Sécukinumab | 150 mg SC à S0, S1, S2, S3 et S4, puis tous les mois |
+| Ixékizumab | 160 mg SC à S0, puis 80 mg toutes les 4 semaines |
+| Bimékizumab | 160 mg SC toutes les 4 semaines |
 
 #### 13.2.7 Bilan pré-biothérapie (contexte algérien)
-1. Recherche d'une **tuberculose active** puis **latente** : interrogatoire (contage, antécédents), examen, radiographie thoracique, **IGRA** (préféré lorsqu'il est disponible) ou IDR [S9] ; traitement de l'ITL selon l'instruction nationale de 2024 avant d'introduire l'anti-TNF **[schéma et délai À VÉRIFIER — protocole national]** [S10].
+1. Recherche d'une **tuberculose active** puis **latente** : interrogatoire (contage, antécédents), examen, radiographie thoracique, **IGRA** (préféré lorsqu'il est disponible) ou IDR [S9].
+   **Traiter l'ITL** (après exclusion d'une tuberculose active) :
+   - **schémas OMS 2024** [S15] : 6 ou 9 mois d'isoniazide quotidien (6H, 9H), 3 mois de rifapentine + isoniazide hebdomadaires (3HP) ou 3 mois d'isoniazide + rifampicine quotidiens (3HR) ; alternatives : 1 mois de rifapentine + isoniazide quotidiens (1HP) ou 4 mois de rifampicine quotidienne (4R). Chez un candidat à un anti-TNF, l'OMS souligne l'intérêt de terminer vite le traitement préventif (schémas courts) [S15]. Posologies de l'adulte données par l'OMS : 4R, rifampicine 10 mg/kg/j ; 1HP, isoniazide 300 mg/j + rifapentine 600 mg/j (≥ 13 ans) ; pour les autres schémas, manuel opérationnel de l'OMS et protocole national ;
+   - les rifamycines sont des **inducteurs enzymatiques** (corticoïdes, inhibiteurs de la calcineurine, certains inhibiteurs de JAK, contraception hormonale) : revoir les interactions ;
+   - **délai avant la biothérapie** : ni l'OMS ni l'EULAR 2022 n'en fixent ; la recommandation S3 allemande 2026 suggère en général **4 semaines** entre le début du traitement préventif et l'immunosuppression (accord d'experts, sans données d'essai) [S16] ;
+   - **Algérie** : l'instruction ministérielle de 2024 relative à l'ITL [S10] (schémas retenus, délai, disponibilité de la rifapentine) n'a pas pu être relue : contenu **à confirmer** avant usage.
 2. Sérologies **VHB** (AgHBs, anti-HBc, anti-HBs), **VHC**, **VIH** [S9].
 3. **Vaccinations** à jour avant immunosuppression (grippe, pneumocoque, VHB si non immunisé) ; vaccins vivants à éviter sous biothérapie [S12].
 4. Recherche de contre-indications : infection évolutive, insuffisance cardiaque sévère et sclérose en plaques (anti-TNF), MICI (anti-IL-17), cancer récent.
@@ -557,7 +626,7 @@ LOMBALGIE CHRONIQUE (> 3 MOIS) CHEZ UN ADULTE DE MOINS DE 45 ANS
 2. *Le HLA-B27 négatif élimine-t-il une SpA ?* — Non. Le HLA-B27 est moins fréquent chez les patients maghrébins atteints de SpA axiale que dans les séries occidentales [S7].
 3. *Classification ?* — Lombalgie ≥ 3 mois, début < 45 ans, **sacro-iliite en IRM** + signes de SpA (lombalgie inflammatoire, uvéite probable, enthésite, bonne réponse aux AINS, antécédent familial possible, CRP élevée) : critères ASAS de SpA axiale remplis par le **bras imagerie** [S2]. Les critères de New York modifiés ne sont pas remplis (grade 1) : il s'agit d'une **SpA axiale non radiographique** à ce stade.
 4. *Diagnostics à éliminer ?* — Brucellose (sérologies négatives, pas d'exposition), tuberculose, sacro-iliite à pyogènes : peu probables ici (bilatéralité, absence de fièvre, évolution de 14 mois).
-5. *Traitement initial ?* — Éducation, auto-exercices quotidiens et kinésithérapie, **arrêt du tabac** ; AINS à dose optimale en continu tant que les symptômes le justifient **[POSOLOGIE À VÉRIFIER — RCP]**, avec surveillance tensionnelle et rénale [S1]. Information sur l'uvéite : tout œil rouge douloureux impose une consultation ophtalmologique en urgence.
+5. *Traitement initial ?* — Éducation, auto-exercices quotidiens et kinésithérapie, **arrêt du tabac** ; AINS à dose optimale (dose maximale du RCP, § 13.2.2 [S13]) en continu tant que les symptômes le justifient, avec surveillance tensionnelle et rénale [S1]. Information sur l'uvéite : tout œil rouge douloureux impose une consultation ophtalmologique en urgence.
 
 **Évolution.** Après deux AINS successifs à dose optimale pendant 6 semaines au total, l'ASDAS-CRP reste à 3,2 (activité élevée) et la CRP à 18 mg/L. Les conditions de la recommandation 9 de l'ASAS-EULAR sont réunies [S1]. Bilan pré-biothérapie : radiographie thoracique normale, **IGRA négatif**, AgHBs et anti-HBc négatifs (vaccination VHB proposée), VHC et VIH négatifs. En raison de l'antécédent d'uvéite, un **anticorps monoclonal anti-TNF** est choisi [S1]. À 12 semaines : ASDAS 1,4 (amélioration ≥ 1,1 : réponse cliniquement importante). Pas de récidive d'uvéite à 1 an.
 
@@ -794,10 +863,10 @@ LOMBALGIE CHRONIQUE (> 3 MOIS) CHEZ UN ADULTE DE MOINS DE 45 ANS
 | Question | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
 | Choix du premier bDMARD | **ASAS-EULAR 2022** : la pratique habituelle est de débuter par un anti-TNF **ou** un anti-IL-17, le choix étant guidé par les manifestations extra-squelettiques [S1] ; **SFR 2022** dans le même sens [S5] | **ACR/SAA/SPARTAN 2019** : préférence conditionnelle pour un **anti-TNF** plutôt qu'un anti-IL-17 (sécukinumab, ixékizumab) en première biothérapie, et pour un anti-TNF plutôt que le tofacitinib [S6] | La position ACR reflète l'expérience plus ancienne des anti-TNF ; l'accès local et le coût pèsent aussi en Algérie |
-| Décroissance d'un bDMARD en rémission | **ASAS-EULAR 2022** : décroissance (espacement) envisageable chez les patients en rémission prolongée [S1] | **ACR 2019** : recommandation conditionnelle **contre** la décroissance de dose comme approche standard **[formulation À VÉRIFIER]** [S6] | Dans tous les cas, l'arrêt brutal expose à la rechute |
+| Décroissance d'un bDMARD en rémission | **ASAS-EULAR 2022** : décroissance (espacement) envisageable chez les patients en rémission prolongée [S1] | **ACR 2019** : déconseille la décroissance de dose et l'arrêt des biothérapies chez les patients stables (résumé de la recommandation) [S6] | Dans tous les cas, l'arrêt brutal expose à la rechute |
 | Classification des formes axiales | **ASAS 2009** : concept de SpA axiale englobant formes radiographiques et non radiographiques ; IRM intégrée [S2] | **New York modifiés 1984** : exigent une sacro-iliite radiographique ; restent la référence pour la « spondylarthrite ankylosante » au sens strict [S4] | Les deux coexistent ; les indications réglementaires des biothérapies distinguent parfois r-axSpA et nr-axSpA |
 | Valeur du HLA-B27 | **Critères ASAS** : bras clinique fondé sur le HLA-B27 [S2] | **Données Maghreb/Moyen-Orient** : faible prévalence du HLA-B27 chez les patients, moindre performance du bras clinique [S7] | Adapter l'interprétation à la population ; l'imagerie prend plus de poids |
-| Dépistage de la tuberculose latente | **EULAR 2022** : IGRA préféré à l'IDR là où il est disponible [S9] | **Algérie** : directives nationales (instruction ITL 2024) [S10] | Contenu de l'instruction à relire avant usage **[À VÉRIFIER]** |
+| Dépistage et traitement de la tuberculose latente | **EULAR 2022** : IGRA préféré à l'IDR là où il est disponible [S9] ; **OMS 2024** : 6H/9H, 3HP, 3HR, alternatives 1HP et 4R [S15] ; **S3 allemande 2026** : 4 semaines de traitement préventif avant l'immunosuppression [S16] | **Algérie** : directives nationales (instruction ITL 2024) [S10] | Contenu de l'instruction à relire avant usage **[À VÉRIFIER]** |
 | Spondyloarthrite du psoriasis | **ASAS-EULAR 2022** : anti-IL-17 à privilégier si psoriasis important [S1] | **EULAR 2023 (rhumatisme psoriasique)** : en cas d'atteinte axiale, anti-TNF, anti-IL-17A ou IL-17A/F, ou inhibiteur de JAK ; les anti-IL-23 ne sont pas recommandés pour l'atteinte axiale **[À VÉRIFIER dans le texte]** [S11] | Concordance globale ; nuance sur la place des différentes classes |
 
 ## 22. Références
@@ -807,10 +876,15 @@ LOMBALGIE CHRONIQUE (> 3 MOIS) CHEZ UN ADULTE DE MOINS DE 45 ANS
 3. **[S3]** Sieper J, van der Heijde D, Landewé R, et al. New criteria for inflammatory back pain in patients with chronic back pain: a real patient exercise by experts from ASAS. *Ann Rheum Dis.* 2009;68(6):784-788. doi:10.1136/ard.2008.101501 — vérifiée (PMID 19147614).
 4. **[S4]** van der Linden S, Valkenburg HA, Cats A. Evaluation of diagnostic criteria for ankylosing spondylitis. A proposal for modification of the New York criteria. *Arthritis Rheum.* 1984;27(4):361-368. doi:10.1002/art.1780270401 — vérifiée (PMID 6231933).
 5. **[S5]** Wendling D, Hecquet S, Fogel O, et al. 2022 French Society for Rheumatology (SFR) recommendations on the everyday management of patients with spondyloarthritis, including psoriatic arthritis. *Joint Bone Spine.* 2022;89(3):105344. doi:10.1016/j.jbspin.2022.105344 — vérifiée (PMID 35038574).
-6. **[S6]** Ward MM, Deodhar A, Gensler LS, et al. 2019 Update of the ACR/SAA/SPARTAN Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. *Arthritis Rheumatol.* 2019;71(10):1599-1613. doi:10.1002/art.41042 — vérifiée (PMID 31436036).
+6. **[S6]** Ward MM, Deodhar A, Gensler LS, et al. 2019 Update of the ACR/SAA/SPARTAN Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. *Arthritis Rheumatol.* 2019;71(10):1599-1613. doi:10.1002/art.41042 — vérifiée (PMID 31436036 ; résumé relu par AUD-01 : décroissance et arrêt des biothérapies déconseillés chez les patients stables).
 7. **[S7]** Ziade NR. HLA B27 antigen in Middle Eastern and Arab countries: systematic review of the strength of association with axial spondyloarthritis and methodological gaps. *BMC Musculoskelet Disord.* 2017;18(1):280. doi:10.1186/s12891-017-1639-5 — vérifiée (PMID 28662723 ; résumé relu).
 8. **[S8]** Ziade N, Abou Abdallah F, Kfoury R, Tekaya R, et al. Clinical phenotype, disease burden and inter-regional heterogeneity of axial spondyloarthritis in 1112 patients across 15 Arab countries: the PROSPA study. *RMD Open.* 2026;12(4):e007136. doi:10.1136/rmdopen-2026-007136 — existence vérifiée (PMID 42982516) ; contenu non relu.
 9. **[S9]** Fragoulis GE, Nikiphorou E, Dey M, et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with AIIRD. *Ann Rheum Dis.* 2023;82(6):742-753. doi:10.1136/ard-2022-223335 — vérifiée (PMID 36328476).
 10. **[S10]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date exacts à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.
 11. **[S11]** Gossec L, Kerschbaumer A, Ferreira RJO, et al. EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update. *Ann Rheum Dis.* 2024;83(6):706-719. doi:10.1136/ard-2024-225531 — vérifiée (PMID 38499325).
 12. **[S12]** Furer V, Rondaan C, Heijstek MW, et al. 2019 update of EULAR recommendations for vaccination in adult patients with AIIRD. *Ann Rheum Dis.* 2020;79(1):39-52. doi:10.1136/annrheumdis-2019-215882 — vérifiée (PMID 31413005).
+13. **[S13]** Résumés des caractéristiques du produit (RCP) des spécialités citées (EPAR de l'EMA ou AMM nationales), versions en vigueur — non consultés pendant l'audit (site de l'EMA inaccessible depuis la session) ; posologies d'AMM standard, à recouper sur le RCP en vigueur **[À VÉRIFIER]**.
+14. **[S14]** European Medicines Agency. EMA confirms measures to minimise risk of serious side effects with Janus kinase inhibitors for chronic inflammatory disorders (article 20, PRAC/CHMP, 2022–2023). https://www.ema.europa.eu/en/news/ema-confirms-measures-minimise-risk-serious-side-effects-janus-kinase-inhibitors-chronic-inflammatory-disorders — existence et contenu principal vérifiés (recherche web, AUD-01, 2026-11-19).
+15. **[S15]** OMS. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment, 2e éd. Genève : OMS ; 2024 — vérifiée (catalogue REC-0263, document DOC-00027 relu par AUD-01).
+16. **[S16]** Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm – part 2: Specific clinical and comorbid situations. *J Dtsch Dermatol Ges.* 2026;24(2):270-282. doi:10.1111/ddg.16001 — vérifiée (PMID 41641952 ; texte intégral en accès libre relu, chapitre tuberculose).
+17. **[S17]** Götestam Skorpen C, Hoeltzenbein M, Tincani A, et al. The EULAR points to consider for use of antirheumatic drugs before pregnancy, and during pregnancy and lactation. *Ann Rheum Dis.* 2016;75(5):795-810. doi:10.1136/annrheumdis-2015-208840 — vérifiée (PMID 26888948 ; résumé relu).

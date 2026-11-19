@@ -662,3 +662,218 @@ Quand l'exposition est **protectrice** (vaccin, programme), on utilise :
 | Bénéfice d'un traitement | RRR, RAR, NNT | Essai randomisé |
 | Fardeau global | DALY, APVP | Synthèses (GBD) |
 | Efficience | Coût par QALY (ICER) | Évaluation économique |
+
+---
+
+## 11. Biais et limites des indicateurs
+
+- **Qualité du numérateur** : sous-déclaration des MDO, causes de décès mal définies (« arrêt cardio-respiratoire » n'est pas une cause), certificat incomplet ; le décret 22-178 impose au médecin de renseigner la cause directe **et** tous les états morbides antérieurs (art. 6) [S2].
+- **Qualité du dénominateur** : projections de population entre deux recensements, populations mobiles (nomades, migrants), naissances non enregistrées.
+- **Artefacts** : une hausse de l'incidence peut traduire une amélioration du dépistage ou un changement de définition de cas (ex. abaissement d'un seuil diagnostique) ; une hausse de prévalence peut traduire un allongement de la survie.
+- **Erreur écologique** : une corrélation entre indicateurs agrégés (wilayas) ne prouve pas l'association au niveau individuel.
+- **Petits effectifs** : un taux calculé sur quelques événements fluctue fortement ; on regroupe plusieurs années ou on calcule un intervalle de confiance.
+- **Effet de structure** : toujours se demander si l'âge (ou une autre variable) explique la différence observée → standardiser.
+
+---
+
+## 12. Algorithmes décisionnels
+
+### 12.1 Choisir l'indicateur de fréquence
+
+```text
+1. L'événement est-il un état durable (maladie chronique, caractéristique) ou un événement ponctuel (survenue, décès) ?
+   1a. État durable, question = « combien de personnes sont concernées maintenant ? » → PRÉVALENCE (enquête transversale)
+   1b. Survenue, question = « à quelle vitesse apparaissent les nouveaux cas ? » → aller en 2
+2. Le suivi est-il identique pour tous et la population fermée ?
+   2a. Oui → INCIDENCE CUMULÉE (préciser la durée : risque à n ans)
+   2b. Non (entrées/sorties, durées inégales) → DENSITÉ D'INCIDENCE (personnes-temps)
+3. Contexte épidémique, période courte → TAUX D'ATTAQUE (± taux d'attaque secondaire chez les contacts)
+4. L'événement est un décès :
+   4a. Gravité de la maladie → LÉTALITÉ
+   4b. Impact sur la population → MORTALITÉ SPÉCIFIQUE (pour 100 000)
+   4c. Comparaison de populations d'âges différents → TAUX STANDARDISÉS (directe) ou RSM (indirecte)
+   4d. Décès prématurés → APVP ; fardeau global → DALY
+```
+
+### 12.2 Choisir la mesure d'association ou d'impact
+
+```text
+1. Type d'étude ?
+   1a. Cohorte / essai → RR (ou rapport de taux) ; impact individuel → RA ; part des cas des exposés → FEE
+   1b. Cas-témoins → OR (≈ RR si maladie rare) ; impact population → FAP de Miettinen (pc × (OR−1)/OR)
+   1c. Transversale → rapport de prévalences (ou OR de prévalence)
+2. Question de santé publique « combien de cas éviterait-on dans la population ? »
+   → RAP (absolu) ou FAP (relatif) ; nécessite la prévalence de l'exposition (Levin) ou la proportion d'exposés parmi les cas (Miettinen)
+3. Question thérapeutique « combien de patients traiter pour éviter un événement ? »
+   → RAR puis NNT = 1/RAR (arrondi à l'entier supérieur, durée et événement précisés) ; balance avec NNH
+4. Exposition protectrice (vaccin) → EV = 1 − RR ; fraction prévenue dans la population = couverture × EV
+```
+
+---
+
+## 13. Situation de santé publique commentée (cas fictif)
+
+**Contexte** : vous êtes médecin au service d'épidémiologie d'un établissement public de santé de proximité couvrant une daïra fictive de 150 000 habitants. La direction de wilaya chargée de la santé vous demande un état de santé de la population pour préparer le projet d'établissement (art. 290 de la loi 18-11) [S1].
+
+**Données disponibles (année N, fictives)** : 3 000 naissances vivantes ; 54 décès d'enfants de moins d'un an, dont 36 dans les 28 premiers jours ; 760 décès toutes causes, alors que l'application des taux nationaux par âge à la structure de la daïra prévoit 800 décès ; prévalence du diabète connu passée de 8 % à 10 % en 5 ans ; enquête locale : 25 % d'adultes obèses ; on admet un RR de diabète de 3 chez les obèses.
+
+**Questions et réponses commentées**
+1. *Calculez la mortalité infantile et sa composante néonatale.* — TMI = 54 / 3 000 = **18 ‰** ; mortalité néonatale = 36 / 3 000 = **12 ‰** ; post-néonatale = 18 / 3 000 = **6 ‰**. Deux tiers des décès infantiles sont néonatals : la priorité est la qualité de la prise en charge périnatale (surveillance de la grossesse, accouchement, réanimation néonatale), plus que les seuls facteurs exogènes.
+2. *La mortalité générale de la daïra est-elle anormale ?* — RSM = 760 / 800 = **0,95** : la mortalité est 5 % inférieure à ce que prédisent les taux nationaux, compte tenu de la structure d'âge. Il ne faut **pas** comparer le taux brut de la daïra au taux brut national (structures d'âge différentes). Avec de petits effectifs, l'écart de 5 % n'est probablement pas significatif (calculer un intervalle de confiance).
+3. *Interprétez la hausse de la prévalence du diabète connu.* — Trois explications non exclusives : hausse de l'**incidence** (obésité, sédentarité), **meilleur dépistage** (diabète connu ≠ diabète réel), **survie prolongée** des diabétiques (P ≈ I × D). Il faut des données d'incidence ou une enquête avec mesure de la glycémie (type STEPS [S5]) pour trancher.
+4. *Quelle part des diabètes est attribuable à l'obésité ?* — FAP (Levin) = 0,25 × (3 − 1) / [1 + 0,25 × (3 − 1)] = 0,5 / 1,5 = **33 %** (si la relation est causale et non confondue).
+5. *Un programme réduit la prévalence de l'obésité de 25 % à 20 %. Quelle baisse de l'incidence du diabète attendre ?* — L'incidence totale est proportionnelle à 1 + Pe (RR − 1) : elle passe de 1,5 à 1,4 (× I₀), soit une baisse de **6,7 %** — bien moins que ce qu'imaginent souvent les décideurs, et différée dans le temps.
+6. *Quels indicateurs retenir pour évaluer le programme ?* — Indicateurs de **processus** (nombre de séances d'éducation, de personnes dépistées), de **résultat intermédiaire** (prévalence de l'obésité, de la sédentarité), d'**impact** (incidence du diabète, complications, DALY) ; préciser pour chacun numérateur, dénominateur, source et périodicité.
+
+**Message pédagogique** : un état de santé de la population se construit avec des indicateurs **définis, sourcés, comparés avec prudence** (standardisation), complétés par des mesures d'impact qui orientent les priorités.
+
+---
+
+## 14. Points clés à retenir
+
+1. Tout indicateur se définit par un **numérateur**, un **dénominateur**, une **période** et un **lieu** ; la prévalence et la létalité sont des proportions, la densité d'incidence est un vrai taux (personnes-temps).
+2. **Prévalence ≈ incidence × durée** (situation stable, prévalence faible) : un meilleur traitement non curatif augmente la prévalence.
+3. Mortalité infantile = néonatale (0-27 j) + post-néonatale (28 j - 1 an), rapportées aux **naissances vivantes** ; mortinatalité et mortalité périnatale sont rapportées aux **naissances totales**.
+4. Le **ratio de mortalité maternelle** se calcule pour 100 000 **naissances vivantes** ; le décès maternel survient pendant la grossesse ou dans les **42 jours**, de cause ni accidentelle ni fortuite.
+5. Un taux **brut** n'est pas comparable entre populations de structures différentes : standardisation **directe** (population type, ICM) ou **indirecte** (RSM = observés / attendus).
+6. L'**espérance de vie** est indépendante de la structure d'âge ; elle décrit une génération fictive.
+7. **DALY = YLL + YLD** (fardeau à réduire) ; **QALY** = années gagnées × utilité (gain à maximiser, évaluation économique).
+8. RR = force de l'association ; **RA = Ie − I₀** = impact absolu chez les exposés ; **FEE = (RR − 1)/RR** ; **FAP** dépend du RR **et** de la fréquence de l'exposition.
+9. **NNT = 1/RAR**, dépend du risque de base ; toujours préciser durée et critère.
+10. **EV = 1 − RR** ; fraction prévenue dans la population = couverture × EV.
+11. En Algérie, les données proviennent notamment de l'état civil, du certificat de décès (décret 22-178), des MDO (décret 22-250), des registres (art. 47), du système national d'information sanitaire (art. 319-323) et des enquêtes nationales (ONS, STEPS, MICS).
+
+---
+
+## 15. Pièges classiques à l'examen
+
+- Confondre **létalité** (proportion de malades qui décèdent) et **mortalité spécifique** (décès rapportés à la population).
+- Mettre au dénominateur de l'incidence cumulée la **population totale** au lieu de la population **à risque** (exclure les malades prévalents et les non-susceptibles).
+- Rapporter la mortinatalité aux **naissances vivantes** au lieu des naissances totales.
+- Croire que la **mortalité proportionnelle** mesure un risque.
+- Comparer deux **taux bruts** de mortalité entre populations d'âges différents.
+- Interpréter une hausse de **prévalence** comme une hausse d'incidence sans considérer la durée et le dépistage.
+- Calculer un **NNT** sans durée, ou l'arrondir à l'entier inférieur.
+- Additionner des **FAP** de plusieurs facteurs.
+- Confondre **RRR** et **RAR** : « réduit le risque de 25 % » peut correspondre à 1 point absolu.
+- Confondre **DALY** (perdues) et **QALY** (gagnées), ou YLL et APVP (les APVP utilisent un âge limite arbitraire, les YLL une table de vie de référence).
+- Oublier qu'un RSM se compare à 1 (ou 100) **par rapport à sa référence**, pas à un autre RSM calculé sur une autre population.
+
+---
+
+## 16. QCM d'auto-évaluation (corrigé en fin de section)
+
+**QCM 1.** Concernant la prévalence :
+A. C'est une proportion sans unité
+B. Elle augmente si un traitement prolonge la survie sans guérir
+C. Elle se mesure idéalement par une enquête transversale
+D. Elle est le meilleur indicateur du risque individuel de tomber malade
+E. En situation stable et pour une maladie rare, elle est approximativement égale à l'incidence multipliée par la durée moyenne de la maladie
+
+**QCM 2.** Une population de 8 000 personnes indemnes est suivie 2 ans ; 160 nouveaux cas apparaissent. L'incidence cumulée à 2 ans est :
+A. 2 % B. 1 % par an exactement C. 20 pour 1 000 D. 160 pour 100 000 E. 4 %
+
+**QCM 3.** Une wilaya enregistre 30 000 naissances vivantes, 450 mort-nés, 540 décès avant 1 an dont 330 avant 28 jours et 240 avant 7 jours. Indiquez les propositions exactes :
+A. Mortalité infantile = 18 ‰
+B. Mortalité néonatale = 11 ‰
+C. Mortalité post-néonatale = 7 ‰
+D. Mortinatalité = 15 ‰
+E. Mortalité périnatale ≈ 22,7 ‰
+
+**QCM 4.** À propos de la standardisation :
+A. La méthode directe applique les taux spécifiques de chaque population à une population type
+B. La méthode indirecte nécessite les taux spécifiques par âge de la population étudiée
+C. Le RSM est le rapport des décès observés aux décès attendus
+D. Un taux standardisé a une valeur absolue indépendante de la population type choisie
+E. La méthode indirecte est préférée pour les petites populations
+
+**QCM 5.** Dans une cohorte, Ie = 4 % chez les exposés et I₀ = 1 % chez les non-exposés ; 25 % de la population est exposée. Indiquez les propositions exactes :
+A. RR = 4
+B. Différence de risque = 3 %
+C. Fraction étiologique chez les exposés = 75 %
+D. FAP ≈ 43 %
+E. Risque attribuable dans la population = 3 %
+
+**QCM 6.** Dans un essai, l'événement survient chez 10 % des témoins et 8 % des traités en 3 ans. Indiquez les propositions exactes :
+A. RRR = 20 %
+B. RAR = 2 %
+C. NNT = 50 sur 3 ans
+D. RR = 1,25
+E. Le NNT serait identique chez des patients à risque de base deux fois plus élevé
+
+**QCM 7.** Concernant les DALY :
+A. Ils additionnent les années de vie perdues par décès prématuré et les années vécues avec incapacité
+B. Un DALY correspond à une année de vie en bonne santé gagnée
+C. Le poids d'incapacité vaut 0 pour une santé parfaite
+D. Les éditions récentes du GBD appliquent une pondération par l'âge
+E. Ils servent à hiérarchiser les problèmes de santé publique
+
+**QCM 8.** Concernant la mortalité maternelle :
+A. Le décès maternel inclut les décès accidentels survenant pendant la grossesse
+B. Le délai retenu est de 42 jours après la fin de la grossesse
+C. Le ratio de mortalité maternelle est exprimé pour 100 000 naissances vivantes
+D. La cible ODD mondiale pour 2030 est un ratio inférieur à 70 pour 100 000 naissances vivantes
+E. Une hémorragie de la délivrance est une cause obstétricale directe
+
+**QCM 9.** Un vaccin a une efficacité de 80 % ; la couverture est de 90 %. Indiquez les propositions exactes :
+A. Le RR vaccinés/non-vaccinés est 0,2
+B. La fraction prévenue dans la population est 72 %
+C. Si le taux d'attaque chez les non-vaccinés est 5 %, il est de 1 % chez les vaccinés
+D. L'efficacité vaccinale se calcule (TA vaccinés − TA non-vaccinés)/TA vaccinés
+E. Le taux d'attaque global attendu (TA non-vaccinés = 5 %) est 1,4 %
+
+**QCM 10.** Selon la loi algérienne n° 18-11 relative à la santé :
+A. Tout praticien médical doit déclarer sans délai tout cas suspect ou confirmé de MDO
+B. La liste des MDO est fixée par voie réglementaire
+C. Les structures privées sont dispensées d'intégrer le système national d'information sanitaire
+D. Un observatoire national de la santé élabore un rapport annuel sur l'état de santé de la population
+E. Les comptes nationaux de la santé sont publiés annuellement
+
+### Corrigé commenté
+
+- **QCM 1 : A, B, C, E.** D est faux : le risque individuel est mesuré par l'incidence cumulée.
+- **QCM 2 : A, C.** 160/8 000 = 2 % = 20 pour 1 000 sur 2 ans. B est faux : diviser par 2 donne une approximation (≈ 1 % par an), pas une valeur exacte ; E est faux.
+- **QCM 3 : A, B, C, E.** TMI = 540/30 000 = 18 ‰ ; néonatale = 330/30 000 = 11 ‰ ; post-néonatale = 210/30 000 = 7 ‰ ; mortinatalité = 450/30 450 = 14,8 ‰ (D faux : 15 ‰ correspondrait au dénominateur erroné des naissances vivantes) ; périnatale = (450 + 240)/30 450 = 690/30 450 = 22,66 ‰.
+- **QCM 4 : A, C, E.** B est faux (c'est la méthode directe qui exige les taux spécifiques de la population étudiée) ; D est faux (la valeur dépend de la population type).
+- **QCM 5 : A, B, C, D.** RR = 4 ; RA = 3 % ; FEE = 3/4 = 75 % ; FAP (Levin) = 0,25 × 3 / (1 + 0,75) = 0,75/1,75 = 42,9 % ; RAP = It − I₀ avec It = 0,25 × 4 % + 0,75 × 1 % = 1,75 % → RAP = 0,75 % (E faux).
+- **QCM 6 : A, B, C.** RR = 0,8 (D faux) ; RRR = 20 % ; RAR = 2 % ; NNT = 50. E faux : à risque de base double (20 %), la RAR serait 4 % et le NNT 25.
+- **QCM 7 : A, C, E.** B décrit le QALY (gagné) ; D est faux depuis GBD 2010.
+- **QCM 8 : B, C, D, E.** A est faux : les causes accidentelles ou fortuites sont exclues.
+- **QCM 9 : A, B, C, E.** RR = 1 − 0,8 = 0,2 ; fraction prévenue = 0,9 × 0,8 = 72 % ; TA vaccinés = 0,2 × 5 % = 1 % ; TA global = 0,9 × 1 % + 0,1 × 5 % = 0,9 + 0,5 = 1,4 %. D est faux (le dénominateur est le TA des non-vaccinés).
+- **QCM 10 : A, B, D, E.** C est faux : l'article 321 oblige les structures publiques **et privées** à intégrer le système national d'information sanitaire [S1].
+
+---
+
+## 17. Divergences entre sources et recommandations
+
+| Sujet | Position 1 | Position 2 | Conséquence pratique |
+|---|---|---|---|
+| Méthode DALY | GBD initial (Murray, 1994) : YLD fondés sur l'incidence, pondération par l'âge et actualisation à 3 % [S15] | GBD depuis 2010 (GBD 2021, 2024) : YLD fondés sur la prévalence, sans pondération par l'âge ni actualisation [S8] | Les DALY de différentes éditions ne sont pas directement comparables : comparer des séries recalculées dans une même édition |
+| Seuil de la période périnatale / mortinatalité | CIM-10 : dès 22 semaines révolues (500 g) [S16] | OMS, comparaisons internationales : ≥ 28 semaines (≥ 1 000 g) | Préciser le seuil avant toute comparaison ; seuil réglementaire algérien `[À VÉRIFIER]` |
+| Indice de vieillissement | ≥ 65 ans / < 15 ans | ≥ 60 ans / < 20 ans | Valeurs très différentes ; toujours citer les bornes |
+| TBN algérien 2023 | 19,32 ‰ (reprise de presse de l'ONS) [S4] | 19,63 ‰ (base de données secondaire) | Se référer à la publication ONS n° 1030 ; cohérence interne favorisant ≈ 19,3 ‰ (voir § 7.4) |
+| Terminologie « risque attribuable » | Usage anglo-saxon : *attributable risk* = différence de risque (Ie − I₀) | Nombreux textes francophones : « risque attribuable » = fraction attribuable (%) | Toujours écrire la formule utilisée |
+| Mortalité maternelle | Ratio (pour 100 000 NV, ODD) [S17] | Taux (pour 100 000 femmes de 15-49 ans) | Le ratio mesure le risque obstétrical par naissance, le taux intègre aussi la fécondité |
+
+---
+
+## 18. Références
+
+1. [S1] Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46, 29 juillet 2018 (DOC-00074).
+2. [S2] Décret exécutif n° 22-178 du 28 avril 2022 relatif au certificat médical de décès. JORADP n° 32, 14 mai 2022 (DOC-00077).
+3. [S3] Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des MDO. JORADP n° 47, 11 juillet 2022 (DOC-00072).
+4. [S4] ONS. Démographie algérienne 2020-2023 (n° 1030). Alger, 2024 — chiffres via reprises de presse, à confronter à l'original.
+5. [S5] MSPRH / OMS. Enquête STEPwise Algérie 2016-2017 — principaux résultats (2018).
+6. [S6] Moussouni A et al. Prevalence and risk factors of prehypertension and hypertension in Algeria. BMC Public Health 2022. doi:10.1186/s12889-022-13942-y.
+7. [S7] MSPRH / UNICEF. MICS6 Algérie 2019 — rapport final (décembre 2020).
+8. [S8] GBD 2021 Diseases and Injuries Collaborators. Lancet 2024;403(10440):2133-2161. doi:10.1016/S0140-6736(24)00757-8.
+9. [S9] Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021.
+10. [S10] Celentano DD, Szklo M. Gordis Epidemiology. 6th ed. Elsevier; 2019 `[À VÉRIFIER]`.
+11. [S11] Porta M. A Dictionary of Epidemiology. 6th ed. Oxford University Press; 2014.
+12. [S12] WHO. 2018 Global Reference List of 100 Core Health Indicators (plus health-related SDGs).
+13. [S13] Laupacis A, Sackett DL, Roberts RS. N Engl J Med 1988;318:1728-1733.
+14. [S14] Levin ML. Acta Unio Int Contra Cancrum 1953;9:531-541.
+15. [S15] Murray CJL. Bull World Health Organ 1994;72(3):429-445.
+16. [S16] OMS. CIM-10, volume 2 ; CIM-11 (en vigueur au 1er janvier 2022).
+17. [S17] Nations unies. Résolution A/RES/70/1 (2015), objectif de développement durable n° 3.
+18. [S18] Arrêtés du 3 juillet 2018 et du 28 avril 2026 fixant le calendrier de vaccination obligatoire (DOC-00070, DOC-00071).

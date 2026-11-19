@@ -45,13 +45,23 @@
           "date": "2022"
         },
         {
+          "reference": "Al-Batran SE, Bencivenga M, Crosby T et al. Gastric and oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. Ann Oncol. 2026. doi:10.1016/j.annonc.2026.09.015 [catalogue REC-0371 ; recommandation en vigueur (remplace ESMO 2022) ; contenu détaillé non lu pendant l'audit].",
+          "date": "2026"
+        },
+        {
           "reference": "O'Connell PR, McCaskie AW, Sayers RD (dir.). Bailey & Love's Short Practice of Surgery. 28e éd. CRC Press ; 2022 [catalogue OUV-0502].",
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (A, C). Actualité : la seule recommandation citée (ESMO œsophage 2022) est remplacée ; ajout de la recommandation ESMO 2026 estomac-œsophage en vigueur (REC-0371). Contenu épidémiologique et histologique exact, non concerné par la mise à jour."
+      }
     },
     {
       "id": "QCM-CDIG-4002",
@@ -75,7 +85,7 @@
         "A": "Vrai : L'endoscopie haute avec biopsies est l'examen diagnostique indispensable (preuve histologique, siège par rapport aux arcades dentaires, extension en hauteur).",
         "B": "Vrai : La dénutrition est fréquente et conditionne l'opérabilité et la tolérance des traitements ; une prise en charge nutritionnelle est intégrée d'emblée.",
         "C": "Faux : Aucun marqueur tumoral n'a de valeur diagnostique ; le diagnostic repose sur l'histologie.",
-        "D": "Vrai : Le terrain alcoolo-tabagique expose aux cancers synchrones des VADS ; la fibroscopie bronchique recherche une envahissement trachéobronchique pour les tumeurs des tiers supérieur et moyen.",
+        "D": "Vrai : Le terrain alcoolo-tabagique expose aux cancers synchrones des VADS ; la fibroscopie bronchique recherche un envahissement trachéobronchique pour les tumeurs des tiers supérieur et moyen.",
         "E": "Vrai : La TDM TAP recherche des métastases à distance (foie, poumon, ganglions) et évalue l'extension locorégionale."
       },
       "specialite": "CDIG",
@@ -98,13 +108,23 @@
           "date": "2022"
         },
         {
+          "reference": "Al-Batran SE, Bencivenga M, Crosby T et al. Gastric and oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. Ann Oncol. 2026. doi:10.1016/j.annonc.2026.09.015 [catalogue REC-0371 ; recommandation en vigueur (remplace ESMO 2022) ; contenu détaillé non lu pendant l'audit].",
+          "date": "2026"
+        },
+        {
           "reference": "O'Connell PR, McCaskie AW, Sayers RD (dir.). Bailey & Love's Short Practice of Surgery. 28e éd. CRC Press ; 2022 [catalogue OUV-0502].",
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (A, B, D, E). Coquille corrigée (explication D : « une envahissement »). Actualité : ajout de la recommandation ESMO 2026 en vigueur (REC-0371) à côté d'ESMO 2022 remplacée."
+      }
     },
     {
       "id": "QCM-CDIG-4003",
@@ -112,7 +132,7 @@
       "enonce": "Un patient de 62 ans, en bon état général, présente un adénocarcinome du tiers inférieur de l'œsophage classé cT3N1M0 après bilan complet. Quelle est la stratégie de référence ?",
       "propositions": {
         "A": "Pose d'une endoprothèse œsophagienne exclusive.",
-        "B": "Traitement néoadjuvant (radiochimiothérapie ou chimiothérapie périopératoire) suivi d'une œsophagectomie avec curage ganglionnaire.",
+        "B": "Traitement néoadjuvant (chimiothérapie périopératoire de type FLOT, désormais privilégiée pour l'adénocarcinome, ou radiochimiothérapie préopératoire) suivi d'une œsophagectomie avec curage ganglionnaire.",
         "C": "Radiothérapie exclusive sans chimiothérapie.",
         "D": "Résection endoscopique (mucosectomie ou dissection sous-muqueuse).",
         "E": "Œsophagectomie d'emblée sans traitement préopératoire."
@@ -120,10 +140,10 @@
       "reponses_correctes": [
         "B"
       ],
-      "explication_generale": "Pour les cancers de l'œsophage localement avancés (cT2-T4a et/ou N+, M0) chez un patient opérable, le traitement de référence est multimodal : radiochimiothérapie néoadjuvante puis chirurgie, ou chimiothérapie périopératoire pour l'adénocarcinome. Pour le carcinome épidermoïde, la radiochimiothérapie exclusive est une alternative (notamment pour l'œsophage cervical). Les stratégies (choix du schéma, immunothérapie adjuvante) évoluent : se référer à la recommandation ESMO en vigueur.",
+      "explication_generale": "Pour les cancers de l'œsophage localement avancés (cT2-T4a et/ou N+, M0) chez un patient opérable, le traitement de référence est multimodal : chimiothérapie périopératoire (FLOT), privilégiée pour l'adénocarcinome depuis l'essai ESOPEC (2025), ou radiochimiothérapie néoadjuvante puis chirurgie (standard du carcinome épidermoïde). Pour le carcinome épidermoïde, la radiochimiothérapie exclusive est une alternative (notamment pour l'œsophage cervical). Les stratégies évoluent (choix du schéma ; nivolumab adjuvant en cas de maladie résiduelle après radiochimiothérapie néoadjuvante et chirurgie, essai CheckMate 577) : se référer à la recommandation ESMO en vigueur (ESMO 2026, REC-0371).",
       "explications_par_proposition": {
         "A": "Faux : La prothèse est un traitement palliatif de la dysphagie, non une stratégie curative chez un patient opérable.",
-        "B": "Vrai : Pour un adénocarcinome localement avancé résécable chez un patient opérable, la stratégie multimodale (radiochimiothérapie préopératoire ou chimiothérapie périopératoire de type FLOT) suivie de l'œsophagectomie est le standard.",
+        "B": "Vrai : Pour un adénocarcinome localement avancé résécable chez un patient opérable, la stratégie multimodale suivie de l'œsophagectomie est le standard. L'essai ESOPEC (Hoeppner et al., N Engl J Med 2025) a montré une survie globale supérieure de la chimiothérapie périopératoire FLOT par rapport à la radiochimiothérapie préopératoire de type CROSS dans l'adénocarcinome : la chimiothérapie périopératoire y est désormais privilégiée chez les patients aptes ; la radiochimiothérapie préopératoire reste une option (et le standard du carcinome épidermoïde).",
         "C": "Faux : La radiothérapie seule est un traitement palliatif ; la radiochimiothérapie exclusive est une option surtout pour le carcinome épidermoïde ou les patients inopérables.",
         "D": "Faux : La résection endoscopique est réservée aux cancers superficiels (T1a, certains T1b) sans atteinte ganglionnaire.",
         "E": "Faux : La chirurgie seule donne des résultats inférieurs pour les tumeurs localement avancées (≥ T2 ou N+) ; un traitement néoadjuvant est recommandé."
@@ -150,11 +170,21 @@
         {
           "reference": "Al-Batran SE, Bencivenga M, Crosby T et al. Gastric and oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. Ann Oncol. 2026 [catalogue REC-0371 ; vérification partielle].",
           "date": "2026"
+        },
+        {
+          "reference": "Hoeppner J, Brunner T, Schmoor C et al. Perioperative Chemotherapy or Preoperative Chemoradiotherapy in Esophageal Cancer (essai ESOPEC). N Engl J Med. 2025;392(4):323-335. doi:10.1056/NEJMoa2409408 [référence confirmée par recherche web, AUD-03, 2026-11-19].",
+          "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (B, réponse unique sans ambiguïté). Actualité : la proposition B et les explications présentaient radiochimiothérapie et chimiothérapie périopératoire comme équivalentes pour l'adénocarcinome ; mise à jour selon l'essai ESOPEC (NEJM 2025 : FLOT périopératoire > CROSS en survie globale) ; mention de l'immunothérapie adjuvante (CheckMate 577) ; source ESOPEC ajoutée (confirmée par recherche web)."
+      }
     },
     {
       "id": "QCM-CDIG-4004",
@@ -201,13 +231,23 @@
           "date": "2022"
         },
         {
+          "reference": "Al-Batran SE, Bencivenga M, Crosby T et al. Gastric and oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. Ann Oncol. 2026. doi:10.1016/j.annonc.2026.09.015 [catalogue REC-0371 ; recommandation en vigueur (remplace ESMO 2022) ; contenu détaillé non lu pendant l'audit].",
+          "date": "2026"
+        },
+        {
           "reference": "O'Connell PR, McCaskie AW, Sayers RD (dir.). Bailey & Love's Short Practice of Surgery. 28e éd. CRC Press ; 2022 [catalogue OUV-0502].",
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (A, B, D, E). Actualité : ESMO estomac 2022 remplacée ; ajout de la recommandation ESMO 2026 en vigueur (REC-0371). Contenu (facteurs de risque, Lauren, signes de dissémination, bilan) exact."
+      }
     },
     {
       "id": "QCM-CDIG-4005",
@@ -253,13 +293,23 @@
           "date": "2022"
         },
         {
+          "reference": "Al-Batran SE, Bencivenga M, Crosby T et al. Gastric and oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. Ann Oncol. 2026. doi:10.1016/j.annonc.2026.09.015 [catalogue REC-0371 ; recommandation en vigueur (remplace ESMO 2022) ; contenu détaillé non lu pendant l'audit].",
+          "date": "2026"
+        },
+        {
           "reference": "O'Connell PR, McCaskie AW, Sayers RD (dir.). Bailey & Love's Short Practice of Surgery. 28e éd. CRC Press ; 2022 [catalogue OUV-0502].",
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (B, D, E). Actualité : ESMO estomac 2022 remplacée ; ajout de la recommandation ESMO 2026 en vigueur (REC-0371). Contenu (facteurs de risque, Lauren, signes de dissémination, bilan) exact."
+      }
     },
     {
       "id": "QCM-CDIG-4006",
@@ -276,12 +326,12 @@
         "C",
         "D"
       ],
-      "explication_generale": "Le traitement curatif du cancer gastrique localement avancé associe chimiothérapie périopératoire et gastrectomie (totale ou subtotale selon le siège) avec curage D2. Les cancers superficiels peuvent relever d'une résection endoscopique. Les séquelles de gastrectomie comprennent le dumping syndrome, la carence en B12 (gastrectomie totale), en fer et la dénutrition.",
+      "explication_generale": "Le traitement curatif du cancer gastrique localement avancé associe chimiothérapie périopératoire (FLOT, éventuellement associée à une immunothérapie selon la recommandation en vigueur) et gastrectomie (totale ou subtotale selon le siège) avec curage D2. Les cancers superficiels peuvent relever d'une résection endoscopique. Les séquelles de gastrectomie comprennent le dumping syndrome, la carence en B12 (gastrectomie totale), en fer et la dénutrition.",
       "explications_par_proposition": {
         "A": "Faux : La perte du facteur intrinsèque impose une supplémentation à vie en vitamine B12 par voie parentérale après gastrectomie totale.",
         "B": "Faux : La résection endoscopique est réservée aux cancers superficiels à faible risque ganglionnaire.",
         "C": "Vrai : La gastrectomie partielle distale est adaptée aux tumeurs distales ; la gastrectomie totale est requise pour les tumeurs proximales ou diffuses (linite).",
-        "D": "Vrai : Pour les tumeurs ≥ cT2 et/ou N+, la chimiothérapie périopératoire (schéma de type FLOT chez les patients aptes) améliore la survie par rapport à la chirurgie seule.",
+        "D": "Vrai : Pour les tumeurs ≥ cT2 et/ou N+, la chimiothérapie périopératoire (schéma de type FLOT chez les patients aptes) améliore la survie par rapport à la chirurgie seule. L'adjonction d'une immunothérapie périopératoire (durvalumab, essai MATTERHORN, N Engl J Med 2025) a amélioré la survie sans événement : se référer à la recommandation ESMO en vigueur (2026).",
         "E": "Faux : Le curage D2 est le standard dans les centres expérimentés ; un nombre suffisant de ganglions examinés est nécessaire à une stadification ganglionnaire fiable."
       },
       "specialite": "CDIG",
@@ -312,9 +362,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (C, D). Actualité : explication D et explication générale complétées (immunothérapie périopératoire, essai MATTERHORN 2025 ; renvoi à ESMO 2026, REC-0371, déjà cité). Curage D2, B12 après gastrectomie totale : exacts."
+      }
     },
     {
       "id": "QCM-CDIG-4007",
@@ -363,9 +419,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4008",
@@ -416,9 +478,15 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4009",
@@ -468,9 +536,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4010",
@@ -520,9 +594,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4011",
@@ -573,9 +653,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4012",
@@ -619,9 +705,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4013",
@@ -670,9 +762,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4014",
@@ -682,7 +780,7 @@
         "A": "Le drainage biliaire préopératoire est systématique avant toute duodénopancréatectomie.",
         "B": "La TDM thoraco-abdomino-pelvienne avec protocole pancréatique est l'examen central pour évaluer la résécabilité.",
         "C": "Un envahissement circonférentiel de l'artère mésentérique supérieure sur plus de 180° définit une tumeur d'emblée résécable.",
-        "D": "Une preuve histologique est nécessaire avant toute chimiothérapie néoadjuvante ou palliative.",
+        "D": "Une preuve histologique (ou cytologique) est nécessaire avant toute chimiothérapie néoadjuvante ou palliative.",
         "E": "Le CA 19-9 peut être faussement élevé en cas de cholestase."
       },
       "reponses_correctes": [
@@ -695,7 +793,7 @@
         "A": "Faux : Le drainage préopératoire n'est pas systématique ; il est réservé à l'angiocholite, à une chirurgie différée (traitement néoadjuvant) ou à une hyperbilirubinémie sévère.",
         "B": "Vrai : Elle analyse les rapports de la tumeur avec l'artère mésentérique supérieure, le tronc cœliaque, l'artère hépatique et l'axe veineux mésentérico-porte, et recherche des métastases.",
         "C": "Faux : Un contact artériel de plus de 180° définit une tumeur localement avancée, non résécable d'emblée.",
-        "D": "Vrai : La biopsie, idéalement sous écho-endoscopie, est indispensable avant de débuter une chimiothérapie.",
+        "D": "Vrai : La biopsie ou la ponction (cytologie), idéalement sous écho-endoscopie, est indispensable avant de débuter une chimiothérapie.",
         "E": "Vrai : La cholestase élève le CA 19-9 indépendamment du cancer ; son interprétation se fait après drainage biliaire."
       },
       "specialite": "CDIG",
@@ -718,9 +816,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (B, D, E). D précisée : la preuve requise avant chimiothérapie peut être histologique ou cytologique (ponction sous écho-endoscopie), formulation trop restrictive sinon. Critère > 180° (localement avancé) exact."
+      }
     },
     {
       "id": "QCM-CDIG-4015",
@@ -770,9 +874,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4016",
@@ -824,9 +934,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4017",
@@ -874,9 +990,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Classification de Bismuth-Corlette exacte (IIIa = extension aux canaux de second ordre droits)."
+      }
     },
     {
       "id": "QCM-CDIG-4018",
@@ -922,9 +1044,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4019",
@@ -973,9 +1101,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4020",
@@ -1025,9 +1159,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4021",
@@ -1078,9 +1218,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4022",
@@ -1131,13 +1277,23 @@
           "date": "2018"
         },
         {
+          "reference": "Kiriyama S, Kozaka K, Takada T et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). J Hepatobiliary Pancreat Sci. 2018;25(1):17-30. doi:10.1002/jhbp.512 [PMID 29032610 ; référence confirmée par recherche web, AUD-03, 2026-11-19].",
+          "date": "2018"
+        },
+        {
           "reference": "O'Connell PR, McCaskie AW, Sayers RD (dir.). Bailey & Love's Short Practice of Surgery. 28e éd. CRC Press ; 2022 [catalogue OUV-0502].",
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (A, C, D, E) : triade de Charcot, pentade de Reynolds, hémocultures. Source : le texte TG18 cité concernait la cholécystite ; ajout du texte TG18 spécifique de l'angiocholite (Kiriyama et al. 2018, confirmé par recherche web)."
+      }
     },
     {
       "id": "QCM-CDIG-4023",
@@ -1187,9 +1343,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4024",
@@ -1205,7 +1367,7 @@
       "reponses_correctes": [
         "C"
       ],
-      "explication_generale": "L'angiocholite grave (défaillance d'organe) impose réanimation, antibiothérapie et drainage biliaire urgent, habituellement par CPRE. La cholécystectomie est réalisée à distance, une fois le patient stabilisé, si son état le permet.",
+      "explication_generale": "L'angiocholite grave (grade III des critères de Tokyo 2018 : défaillance d'organe) impose réanimation, antibiothérapie et drainage biliaire urgent, habituellement par CPRE. La cholécystectomie est réalisée à distance, une fois le patient stabilisé, si son état le permet.",
       "explications_par_proposition": {
         "A": "Faux : Une chirurgie lourde en urgence chez une patiente en choc septique est grevée d'une forte mortalité ; le drainage endoscopique est préféré.",
         "B": "Faux : Dans une forme grave, l'antibiothérapie seule est insuffisante : l'obstacle doit être levé.",
@@ -1235,11 +1397,21 @@
         {
           "reference": "Yokoe M, Hata J, Takada T et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018;25(1):41-54 [catalogue REC-0362].",
           "date": "2018"
+        },
+        {
+          "reference": "Kiriyama S, Kozaka K, Takada T et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). J Hepatobiliary Pancreat Sci. 2018;25(1):17-30. doi:10.1002/jhbp.512 [PMID 29032610 ; référence confirmée par recherche web, AUD-03, 2026-11-19].",
+          "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (C, réponse unique). Source TG18 « angiocholite » (Kiriyama et al. 2018) ajoutée, celle citée portant sur la cholécystite ; explication générale rattachée au grade III TG18."
+      }
     },
     {
       "id": "QCM-CDIG-4025",
@@ -1284,9 +1456,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Critères TG18 de la cholécystite (A locaux, B systémiques, C imagerie) exacts."
+      }
     },
     {
       "id": "QCM-CDIG-4026",
@@ -1336,9 +1514,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CDIG-4027",
@@ -1385,9 +1569,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Critères de gravité TG18 (grade II : GB > 18 000/mm³, masse, > 72 h, inflammation locale marquée ; grade III : défaillance d'organe) exacts."
+      }
     },
     {
       "id": "QCM-CGEN-4028",
@@ -1436,9 +1626,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4029",
@@ -1486,9 +1682,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4030",
@@ -1539,9 +1741,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4031",
@@ -1583,7 +1791,7 @@
       },
       "sources": [
         {
-          "reference": "Haugen BR, Alexander EK, Bible KC et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133 [catalogue REC-0323 ; statut catalogue : remplacée].",
+          "reference": "Haugen BR, Alexander EK, Bible KC et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133 [catalogue REC-0323 ; volet « cancer différencié » remplacé par ATA 2025 (REC-0324, Ringel et al., Thyroid 2025) ; volet « nodules » non couvert par la version 2025, donc toujours de référence].",
           "date": "2016"
         },
         {
@@ -1591,9 +1799,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (A, C, D). Source ATA 2015 : statut précisé (le volet cancer est remplacé par ATA 2025, le volet nodules reste la référence) pour éviter de faire croire que la démarche nodulaire citée est obsolète."
+      }
     },
     {
       "id": "QCM-CGEN-4032",
@@ -1641,9 +1855,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Seuils de cytoponction EU-TIRADS (3 > 20 mm, 4 > 15 mm, 5 > 10 mm) exacts."
+      }
     },
     {
       "id": "QCM-CGEN-4033",
@@ -1667,7 +1887,7 @@
         "A": "Vrai : Le risque de malignité est faible ; la chirurgie n'est indiquée qu'en cas de compression ou de gêne.",
         "B": "Vrai : Un prélèvement insuffisant ne permet aucune conclusion ; la ponction est répétée sous échographie.",
         "C": "Vrai : Les parathyroïdes peuvent être lésées ou dévascularisées ; on surveille la calcémie (paresthésies, signe de Chvostek).",
-        "D": "Vrai : Le carcinome papillaire est le plus fréquent ; l'étendue de la chirurgie (lobectomie ou thyroïdectomie totale ± curage) dépend du bilan.",
+        "D": "Vrai : Le carcinome papillaire est le plus fréquent ; l'étendue de la chirurgie (lobectomie ou thyroïdectomie totale ± curage) dépend du bilan. Pour un microcarcinome papillaire (< 1 cm) à très faible risque, une surveillance active peut être discutée en centre expert (ATA).",
         "E": "Faux : C'est une urgence vitale (asphyxie) imposant l'évacuation immédiate de l'hématome, au besoin au lit du patient."
       },
       "specialite": "CGEN",
@@ -1690,7 +1910,7 @@
           "date": "2023"
         },
         {
-          "reference": "Haugen BR, Alexander EK, Bible KC et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133 [catalogue REC-0323 ; statut catalogue : remplacée].",
+          "reference": "Haugen BR, Alexander EK, Bible KC et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133 [catalogue REC-0323 ; volet « cancer différencié » remplacé par ATA 2025 (REC-0324, Ringel et al., Thyroid 2025) ; volet « nodules » non couvert par la version 2025, donc toujours de référence].",
           "date": "2016"
         },
         {
@@ -1698,9 +1918,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (A, B, C, D) ; catégories Bethesda 2023 exactes. Explication D nuancée (surveillance active possible des microcarcinomes papillaires à très faible risque) ; statut de la source ATA 2015 précisé."
+      }
     },
     {
       "id": "QCM-CGEN-4034",
@@ -1749,9 +1975,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Score d'Alvarado (pondérations 1-2) exact."
+      }
     },
     {
       "id": "QCM-CGEN-4035",
@@ -1801,9 +2033,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4036",
@@ -1853,9 +2091,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4037",
@@ -1904,9 +2148,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4038",
@@ -1956,9 +2206,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4039",
@@ -2006,9 +2262,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Classification de Hinchey (III purulente, IV stercorale) exacte."
+      }
     },
     {
       "id": "QCM-CGEN-4040",
@@ -2059,9 +2321,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4041",
@@ -2111,9 +2379,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CGEN-4042",
@@ -2159,9 +2433,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Recommandations de Bologne (test au contraste hydrosoluble, chirurgie si échec vers 72 h) exactes."
+      }
     },
     {
       "id": "QCM-CPLA-4043",
@@ -2210,9 +2490,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Profondeur des brûlures exacte."
+      }
     },
     {
       "id": "QCM-CPLA-4044",
@@ -2260,9 +2546,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Règle des neuf de Wallace : 9 + 18 + 9 = 36 % ; distracteurs correctement expliqués."
+      }
     },
     {
       "id": "QCM-CPLA-4045",
@@ -2316,9 +2608,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Formule de Parkland (4 mL/kg/% SCB sur 24 h, moitié dans les 8 premières heures depuis la brûlure) et Baux révisé (+17 si inhalation) exacts."
+      }
     },
     {
       "id": "QCM-CCVA-4046",
@@ -2371,9 +2669,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CCVA-4047",
@@ -2421,9 +2725,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Classification de Rutherford de l'ischémie aiguë (IIb : déficit sensitif au-delà des orteils + déficit moteur léger à modéré, Doppler artériel inaudible, veineux audible) exacte."
+      }
     },
     {
       "id": "QCM-CCVA-4048",
@@ -2474,9 +2784,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CPED-4049",
@@ -2526,9 +2842,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CPED-4050",
@@ -2576,9 +2898,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CPED-4051",
@@ -2629,9 +2957,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CPED-4052",
@@ -2681,9 +3015,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CPED-4053",
@@ -2731,9 +3071,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Classification de Ladd (III : fistule inférieure, ≈ 85 %, abdomen aéré) exacte."
+      }
     },
     {
       "id": "QCM-CPED-4054",
@@ -2784,9 +3130,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-ORTH-4055",
@@ -2836,9 +3188,15 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-ORTH-4056",
@@ -2887,9 +3245,15 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-ORTH-4057",
@@ -2939,9 +3303,15 @@
           "date": "2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CPED-4058",
@@ -2992,9 +3362,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CPED-4059",
@@ -3042,9 +3418,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-CPED-4060",
@@ -3098,9 +3480,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4061",
@@ -3149,9 +3537,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4062",
@@ -3201,9 +3595,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4063",
@@ -3254,9 +3654,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4064",
@@ -3305,9 +3711,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4065",
@@ -3355,9 +3767,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Groupes ISUP 2014 exacts (4 + 3 = groupe 3)."
+      }
     },
     {
       "id": "QCM-UROL-4066",
@@ -3407,9 +3825,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4067",
@@ -3459,9 +3883,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4068",
@@ -3506,9 +3936,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4069",
@@ -3560,9 +3996,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4070",
@@ -3612,9 +4054,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4071",
@@ -3623,7 +4071,7 @@
       "propositions": {
         "A": "La cystoscopie permet de visualiser la tumeur (nombre, taille, siège, aspect).",
         "B": "La résection transurétrale de vessie est à la fois diagnostique et thérapeutique et doit comporter du muscle détrusor.",
-        "C": "Un uroscanner est indiqué pour explorer le haut appareil urinaire.",
+        "C": "Un uroscanner permet d'explorer le haut appareil urinaire à la recherche d'une tumeur urothéliale associée.",
         "D": "Une tumeur T1 est une tumeur infiltrant le muscle vésical.",
         "E": "La cytologie urinaire est particulièrement utile pour les tumeurs de haut grade et le carcinome in situ."
       },
@@ -3637,7 +4085,7 @@
       "explications_par_proposition": {
         "A": "Vrai : C'est l'examen clé, avec la résection.",
         "B": "Vrai : La présence du détrusor dans le prélèvement est indispensable pour juger l'infiltration musculaire.",
-        "C": "Vrai : Les tumeurs urothéliales peuvent être multifocales (voies excrétrices supérieures).",
+        "C": "Vrai : Les tumeurs urothéliales peuvent être multifocales (voies excrétrices supérieures). L'uroscanner fait partie du bilan d'une hématurie et des tumeurs infiltrant le muscle ; pour les TVNIM, l'EAU le réserve aux cas sélectionnés (tumeur trigonale, multiple ou à haut risque).",
         "D": "Faux : T1 envahit le chorion (lamina propria) sans atteindre le muscle ; l'infiltration du muscle définit le T2.",
         "E": "Vrai : Sa sensibilité est faible pour les tumeurs de bas grade."
       },
@@ -3665,9 +4113,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[majeure] Clé vérifiée (A, B, C, E). Ambiguïté corrigée : C affirmait sans nuance que l'uroscanner « est indiqué » devant toute tumeur de vessie, alors que l'EAU (TVNIM) le réserve aux tumeurs trigonales, multiples ou à haut risque ; un candidat appliquant l'EAU pouvait juger C fausse. C reformulée (intérêt de l'uroscanner) ; explication complétée. Clé inchangée."
+      }
     },
     {
       "id": "QCM-UROL-4072",
@@ -3685,7 +4139,7 @@
         "D",
         "E"
       ],
-      "explication_generale": "TVNIM : résection complète + instillations adaptées au risque, surveillance cystoscopique prolongée. TVIM : cystectomie (cystoprostatectomie chez l'homme) avec curage, après chimiothérapie néoadjuvante, ou protocole de préservation vésicale (résection + radiochimiothérapie) chez des patients sélectionnés. Les formes métastatiques relèvent d'un traitement systémique.",
+      "explication_generale": "TVNIM : résection complète + instillations adaptées au risque, surveillance cystoscopique prolongée. TVIM : cystectomie (cystoprostatectomie chez l'homme) avec curage, après chimiothérapie néoadjuvante à base de cisplatine (l'adjonction d'une immunothérapie périopératoire — durvalumab, essai NIAGARA, N Engl J Med 2024 — fait évoluer ce standard : se référer à la version en vigueur des recommandations EAU), ou protocole de préservation vésicale (résection + radiochimiothérapie) chez des patients sélectionnés. Les formes métastatiques relèvent d'un traitement systémique.",
       "explications_par_proposition": {
         "A": "Vrai : Elle détecte une tumeur résiduelle ou une infiltration méconnue.",
         "B": "Faux : Plusieurs dérivations sont possibles : conduit iléal (Bricker), néovessie orthotopique, urétérostomie cutanée.",
@@ -3721,9 +4175,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Clé vérifiée (A, D, E). Actualité : explication générale complétée (immunothérapie périopératoire, essai NIAGARA 2024) ; D reste exacte (chimiothérapie néoadjuvante à base de cisplatine avant cystectomie)."
+      }
     },
     {
       "id": "QCM-UROL-4073",
@@ -3773,9 +4233,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4074",
@@ -3824,9 +4290,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4075",
@@ -3872,9 +4344,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4076",
@@ -3923,9 +4401,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4077",
@@ -3973,9 +4457,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4078",
@@ -4025,9 +4515,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4079",
@@ -4077,9 +4573,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4080",
@@ -4130,9 +4632,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4081",
@@ -4141,18 +4649,18 @@
       "propositions": {
         "A": "Antibiothérapie seule, sans drainage, en attendant la reprise spontanée des mictions.",
         "B": "Pose d'une sonde JJ urétérale.",
-        "C": "Drainage vésical (le cathéter sus-pubien étant classiquement préféré) associé à une antibiothérapie probabiliste débutée après ECBU et hémocultures.",
+        "C": "Drainage vésical en urgence (cathéter sus-pubien privilégié dans l'usage français ; sondage urétral prudent et de courte durée admis par d'autres référentiels) associé à une antibiothérapie probabiliste débutée après ECBU et hémocultures.",
         "D": "Massage prostatique pour recueillir les sécrétions avant l'antibiothérapie.",
         "E": "Alpha-bloquant seul et réévaluation à 48 heures."
       },
       "reponses_correctes": [
         "C"
       ],
-      "explication_generale": "La prostatite aiguë compliquée de rétention impose un drainage vésical et une antibiothérapie adaptée (diffusion prostatique) après prélèvements. Le cathéter sus-pubien est classiquement préféré au sondage urétral (douleur, risque de diffusion infectieuse) ; certaines recommandations récentes considèrent les deux modes de drainage comme acceptables — point à vérifier selon la recommandation en vigueur lors de l'audit.",
+      "explication_generale": "La prostatite aiguë compliquée de rétention impose un drainage vésical et une antibiothérapie adaptée (diffusion prostatique) après prélèvements. Le cathéter sus-pubien est privilégié dans l'usage français (AFU), le sondage urétral étant considéré comme une contre-indication relative en phase aiguë ; d'autres référentiels admettent un sondage urétral de courte durée. Quel que soit le mode retenu, le drainage ne doit pas être différé, et le massage prostatique est proscrit.",
       "explications_par_proposition": {
         "A": "Faux : Une rétention aiguë d'urine doit toujours être drainée.",
         "B": "Faux : La sonde JJ draine le haut appareil urinaire, pas la vessie.",
-        "C": "Vrai : La rétention doit être drainée et la prostatite aiguë traitée par une antibiothérapie à bonne diffusion prostatique ; le sondage urétral, classiquement déconseillé dans la prostatite aiguë, est jugé acceptable par certaines recommandations récentes.",
+        "C": "Vrai : Toute rétention doit être drainée et la prostatite aiguë traitée par une antibiothérapie à bonne diffusion prostatique, débutée après prélèvements. Le cathéter sus-pubien reste privilégié dans l'usage français (le sondage urétral y est une contre-indication relative en phase aiguë : douleur, risque de bactériémie) ; plusieurs référentiels anglo-saxons admettent un sondage urétral de courte durée. Le choix tient compte des contre-indications propres au cathéter sus-pubien (troubles de l'hémostase, absence de globe, suspicion de tumeur vésicale).",
         "D": "Faux : Le massage prostatique est contre-indiqué dans la prostatite aiguë (douleur, risque de bactériémie).",
         "E": "Faux : La rétention et l'infection imposent un drainage et une antibiothérapie immédiats."
       },
@@ -4178,11 +4686,21 @@
         {
           "reference": "McAninch JW, Lue TF (dir.). Smith & Tanagho's General Urology. 19e éd. McGraw-Hill Education ; 2020 [catalogue OUV-0511].",
           "date": "2020"
+        },
+        {
+          "reference": "Association française d'urologie (AFU). Livret de l'interne — Urgences en urologie. AFU ; 2023. URL : https://www.urofrance.org/wp-content/uploads/2023/01/Livret-de-linterne-Urgences-en-urologie.pdf [document repéré par recherche web le 2026-11-19, non téléchargé : position sur le drainage de la prostatite aiguë (cathéter sus-pubien privilégié, sondage urétral = contre-indication relative) rapportée par la synthèse de recherche — à confirmer sur le texte].",
+          "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Point d'actualité signalé (drainage dans la prostatite aiguë) résolu : la clé C est exacte quel que soit le mode de drainage (tous les distracteurs sont faux sans ambiguïté). La mention « point à vérifier » a été supprimée ; proposition C, explication C et explication générale réécrites : cathéter sus-pubien privilégié en France (AFU : sondage urétral = contre-indication relative), sondage urétral de courte durée admis par d'autres référentiels. Source AFU ajoutée (document repéré par recherche web, non téléchargé). Texte EAU non consulté (domaine uroweb.org inaccessible depuis la session)."
+      }
     },
     {
       "id": "QCM-UROL-4082",
@@ -4232,9 +4750,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4083",
@@ -4284,9 +4808,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, C, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4084",
@@ -4335,9 +4865,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (B, C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4085",
@@ -4387,9 +4923,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, D) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Seuil d'hématurie microscopique (> 10 hématies/mm³ = 10 000/mL) exact."
+      }
     },
     {
       "id": "QCM-UROL-4086",
@@ -4439,9 +4981,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, B, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4087",
@@ -4491,9 +5039,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (C, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4088",
@@ -4543,9 +5097,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (A, D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4089",
@@ -4593,9 +5153,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     },
     {
       "id": "QCM-UROL-4090",
@@ -4644,9 +5210,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (D, E) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées."
+      }
     }
   ]
 }
