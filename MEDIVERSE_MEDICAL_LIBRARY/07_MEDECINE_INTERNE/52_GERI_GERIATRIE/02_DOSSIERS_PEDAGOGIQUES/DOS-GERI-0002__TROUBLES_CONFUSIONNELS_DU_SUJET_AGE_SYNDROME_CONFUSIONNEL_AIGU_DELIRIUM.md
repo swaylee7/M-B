@@ -365,3 +365,128 @@ Interprétation : **≥ 4** = confusion possible (± troubles cognitifs) ; **1 �
 | **Scanner cérébral** | **Pas systématique** ; indiqué en cas de **signe de localisation**, de **traumatisme crânien** ou de chute (surtout sous anticoagulant), de troubles de la vigilance inexpliqués, ou d'absence de cause retrouvée après le bilan initial [S6] |
 | **Ponction lombaire** | Fièvre sans point d'appel, syndrome méningé, suspicion de méningo-encéphalite (après imagerie si indiquée) |
 | **EEG** | Suspicion d'**état de mal non convulsif** (fluctuations, myoclonies discrètes, antécédent d'épilepsie) ; ralentissement diffus non spécifique dans la plupart des confusions |
+
+---
+
+## 9. Formes cliniques particulières
+
+- **Confusion postopératoire** : fréquente après fracture du col du fémur et chirurgie cardiaque ; facteurs : douleur, anémie, hypoxie, opioïdes, anticholinergiques, sonde, privation de sommeil ; prévention par une prise en charge **orthogériatrique** (exclue du champ de la recommandation HAS 2009) [S6].
+- **Confusion superposée à une démence** : changement **par rapport à l'état habituel** décrit par l'aidant (le 4AT intègre cet item) ; ne pas attribuer l'aggravation à « l'évolution de la démence » sans bilan.
+- **Delirium tremens** (sevrage alcoolique, 48-72 h après l'arrêt) : confusion, agitation, hallucinations, tremblements, sueurs, fièvre, tachycardie ; urgence ; traitement par **benzodiazépines** et **thiamine** (avant tout apport glucosé) `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` ; c'est la principale situation où les benzodiazépines sont le traitement de choix [S1, S12].
+- **Encéphalopathie de Gayet-Wernicke** : confusion, troubles oculomoteurs, ataxie (triade souvent incomplète) chez un patient dénutri ou alcoolique ; thiamine en urgence.
+- **Syndrome anticholinergique** : confusion, mydriase, sécheresse cutanéo-muqueuse, tachycardie, rétention urinaire, constipation, hyperthermie.
+- **Syndrome sérotoninergique** (association d'antidépresseurs, tramadol, linézolide…) et **syndrome malin des neuroleptiques** (rigidité, hyperthermie, CPK élevées) : urgences.
+- **État de mal épileptique non convulsif** : confusion fluctuante inexpliquée, parfois myoclonies discrètes ; diagnostic par EEG.
+- **Confusion en réanimation** : très fréquente, souvent hypoactive, associée à la sédation ; dépistage par CAM-ICU ou ICDSC [S13, S16].
+- **Confusion en fin de vie** : fréquente ; objectifs centrés sur le confort ; recherche des causes réversibles proportionnée à la situation.
+- **Confusion et maladie de Parkinson / démence à corps de Lewy** : grande sensibilité aux neuroleptiques (risque d'aggravation sévère) ; avis spécialisé avant tout antipsychotique [S1].
+
+---
+
+## 10. Diagnostics différentiels
+
+| Caractéristique | **Confusion (delirium)** | **Démence** | **Dépression** | **Psychose aiguë / manie** |
+|---|---|---|---|---|
+| Début | Brutal (heures, jours) | Insidieux (mois, années) | Subaigu (semaines) | Variable, souvent brutal |
+| Évolution | **Fluctuante**, aggravation nocturne | Lentement progressive, relativement stable sur 24 h | Variation matinale possible | Variable |
+| **Attention** | **Très altérée** | Préservée aux stades débutants | Peu altérée (effort réduit) | Souvent préservée |
+| Vigilance | Altérée (hyper ou hypo) | Normale (sauf stade évolué) | Normale | Normale ou augmentée |
+| Pensée | Désorganisée | Appauvrie | Ralentie, idées négatives | Délire structuré, logorrhée |
+| Hallucinations | Fréquentes, **visuelles** | Rares (sauf démence à corps de Lewy) | Rares | Fréquentes, **auditives** |
+| Cause organique | **Oui (recherche impérative)** | Neurodégénérative/vasculaire | Non (en général) | Non (sauf psychose secondaire) |
+| Réversibilité | Souvent, avec traitement de la cause | Non | Oui, avec traitement | Oui |
+
+Autres diagnostics à évoquer : **aphasie de Wernicke** (discours fluent incohérent, mais vigilance normale et pas d'inattention globale : AVC), **ictus amnésique** (amnésie antérograde isolée, durée < 24 h, sans autre trouble), **démence à corps de Lewy** (fluctuations cognitives, hallucinations visuelles, parkinsonisme : peut mimer une confusion persistante), troubles du comportement de la démence sans cause aiguë, surdité ou troubles visuels sévères (pseudo-confusion).
+
+> Règle pratique : **devant une modification aiguë du comportement ou de la cognition d'une personne âgée, penser d'abord confusion (et rechercher sa cause), avant de conclure à une démence ou à un trouble psychiatrique.**
+
+---
+
+## 11. Évolution, complications et pronostic
+
+- Durée habituelle de quelques jours à quelques semaines si la cause est traitée ; une **récupération incomplète** et des formes **persistantes** sont fréquentes chez les sujets les plus vulnérables [S7].
+- **Complications de l'épisode** : chutes et fractures, déshydratation et dénutrition, escarres, pneumopathie d'inhalation, arrachement de dispositifs, iatrogénie (psychotropes), contention et ses complications, allongement de l'hospitalisation.
+- **Pronostic à moyen et long terme** : la confusion est associée à une **surmortalité**, à un **déclin fonctionnel**, à un risque accru d'**institutionnalisation** et de **déclin cognitif durable** ou de démence [S7, S14]. Elle constitue un **marqueur de vulnérabilité** cérébrale.
+- La forme **hypoactive** est associée à un pronostic plus défavorable (diagnostic tardif, gravité des causes).
+- Retentissement sur les **aidants** et le personnel (détresse, souvenirs pénibles de l'épisode chez le patient lui-même).
+
+---
+
+## 12. Prise en charge
+
+### 12.1 Objectifs
+
+1. **Identifier et traiter** la (les) cause(s).
+2. **Assurer la sécurité** du patient et de l'entourage, sans recourir à la contention.
+3. **Réduire la souffrance** (anxiété, hallucinations) et prévenir les complications.
+4. **Préserver l'autonomie** et préparer le suivi.
+
+### 12.2 Lieu de prise en charge
+
+La confusion est une urgence : l'**hospitalisation** est habituellement nécessaire pour le bilan étiologique, sauf cause évidente et rapidement réversible (ex. médicament identifié et arrêté) avec un entourage capable d'assurer la surveillance et un suivi médical rapproché à domicile. Les soins et l'hospitalisation à domicile prévus par la loi pour les personnes âgées (art. 87 de la loi 18-11) peuvent être une option selon les ressources locales [S15].
+
+### 12.3 Traitement étiologique (priorité)
+
+- **Arrêter ou réduire** les médicaments suspects (anticholinergiques, sédatifs, opioïdes mal adaptés…) ; **ne pas sevrer brutalement** une benzodiazépine prise au long cours (risque de sevrage confusiogène) : diminution progressive.
+- Traiter l'infection, corriger l'hydratation et les troubles hydro-électrolytiques (correction **prudente** d'une hyponatrémie chronique), l'hypoxie, l'hypoglycémie.
+- **Sonder** une rétention aiguë d'urine (puis retirer la sonde dès que possible), évacuer un **fécalome**, traiter la constipation.
+- **Traiter la douleur** (paracétamol en première intention, réévaluation régulière ; la douleur non traitée est confusiogène, mais les opioïdes doivent être titrés prudemment).
+- Thiamine en cas de suspicion de carence ; prise en charge spécifique des causes neurologiques, cardiaques, métaboliques.
+
+### 12.4 Mesures non médicamenteuses (pour tous les patients) [S1, S6, S8]
+
+| Domaine | Mesures |
+|---|---|
+| Communication | Parler calmement, phrases simples, se présenter, expliquer les soins, éviter la confrontation (ne pas contredire de front les idées délirantes) |
+| Orientation | Horloge, calendrier, lumière du jour, rappels réguliers de la date, du lieu et de la raison de l'hospitalisation |
+| Présence | Favoriser la **présence de proches**, mêmes soignants autant que possible ; éviter les changements de chambre |
+| Sensoriel | Remettre **lunettes** et **appareils auditifs** |
+| Sommeil | Respect du sommeil nocturne (regrouper les soins, réduire bruit et lumière la nuit), activité le jour |
+| Mobilisation | Lever précoce, marche accompagnée, éviter l'alitement |
+| Hydratation / nutrition | Aide aux repas et à la boisson, dentiers en place |
+| Élimination | Surveillance de la diurèse et du transit, éviter la sonde urinaire |
+| Sécurité | Lit bas, environnement dégagé, surveillance rapprochée ; **éviter la contention physique**, qui aggrave l'agitation et expose à des complications graves |
+
+### 12.5 Traitement médicamenteux symptomatique : place limitée
+
+- Il n'est **pas** un traitement de la confusion : il ne se discute que si le patient présente une **détresse importante** (hallucinations terrifiantes, angoisse majeure) ou un **danger** pour lui-même ou autrui, **après échec ou impossibilité** des mesures non médicamenteuses et de désescalade verbale [S1, S6].
+- **NICE (CG103)** : envisager un **halopéridol à court terme** (habituellement une semaine ou moins), à la **dose la plus faible** cliniquement appropriée, titrée prudemment ; **prudence ou abstention** en cas de maladie de Parkinson ou de démence à corps de Lewy [S1] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **HAS (2009)** : si un traitement sédatif est nécessaire, choisir une molécule à **demi-vie courte**, à **faible dose**, pour une **durée brève**, avec réévaluation quotidienne ; selon la symptomatologie prédominante (anxiété versus symptômes psychotiques), la recommandation envisage une benzodiazépine à demi-vie courte ou un neuroleptique `[À VÉRIFIER — molécules et posologies exactes dans le texte HAS]` [S6].
+- **Benzodiazépines** : à éviter dans la confusion en général (elles peuvent l'aggraver), **sauf** sevrage alcoolique ou en benzodiazépines, où elles sont le traitement de choix [S1, S10, S12].
+- Surveillance de tout antipsychotique : sédation excessive, chutes, fausses routes, syndrome extrapyramidal, allongement du QT (ECG), hypotension.
+- **Prévention médicamenteuse** (antipsychotiques, mélatonine, etc.) : non recommandée de façon systématique en l'état des données ; en réanimation, les recommandations PADIS suggèrent de ne pas utiliser d'halopéridol ni d'antipsychotique atypique pour prévenir le delirium chez tous les patients [S16] `[À VÉRIFIER — formulation]`.
+
+### 12.6 Aspects éthiques et légaux (Algérie)
+
+- Le patient confus a souvent une **capacité de consentement altérée** : l'information est adaptée et répétée ; l'entourage est associé. La loi 18-11 pose le principe du **consentement libre et éclairé** (art. 343) et prévoit que les droits des personnes **incapables** sont exercés par les parents ou le représentant légal (art. 23) ; l'accès aux soins ne peut être refusé, notamment en urgence (art. 21) [S15].
+- Le delirium est une **urgence somatique** : sa prise en charge relève d'abord d'un service de médecine ou de gériatrie, avec avis psychiatrique si besoin ; une réflexion collégiale et une traçabilité sont nécessaires pour toute mesure restrictive. Le cadre légal précis de la **contention physique** en milieu somatique n'a pas été retrouvé dans les textes consultés `[À VÉRIFIER]`.
+- Signalement de **maltraitance** éventuelle d'une personne âgée vulnérable (art. 198) [S15].
+
+---
+
+## 13. Surveillance
+
+- Repérage quotidien (4AT, CAM) et suivi des fluctuations ; vigilance, hydratation, alimentation, diurèse, transit, douleur, sommeil, chutes, état cutané.
+- Efficacité et tolérance des traitements (sédation, ECG si antipsychotique).
+- Contrôle de la résolution des causes (biologie, infection).
+- À la sortie : **information** du patient et de la famille sur l'épisode (et le risque de récidive), liste des médicaments à éviter, transmission au médecin référent ; **réévaluation cognitive à distance** (classiquement quelques semaines à 3 mois après l'épisode) pour dépister un trouble neurocognitif sous-jacent [S1, S7].
+
+---
+
+## 14. Prévention
+
+La confusion est **évitable** dans une proportion importante des cas à l'hôpital grâce à des **interventions multicomposantes non médicamenteuses**. Dans l'essai HELP, une telle intervention a réduit l'incidence de la confusion chez des patients hospitalisés de 70 ans et plus (9,9 % contre 15,0 % dans le groupe soins usuels) [S8] `[chiffres à confronter à la publication]`.
+
+Le NICE recommande, chez les patients à risque, une **évaluation dans les 24 heures** suivant l'admission et une **intervention multicomposante** adaptée, délivrée par une équipe formée, ciblant notamment [S1] :
+- désorientation et troubles cognitifs (orientation, activités stimulantes, visites) ;
+- déshydratation et constipation ;
+- hypoxie ;
+- infections (et éviter les sondages urinaires inutiles) ;
+- immobilité (lever et mobilisation précoces) ;
+- douleur (évaluation, y compris chez les patients non communicants) ;
+- polymédication (révision) ;
+- nutrition ;
+- déficits sensoriels (lunettes, appareils auditifs, bouchons de cérumen) ;
+- sommeil (éviter les soins nocturnes, réduire le bruit).
+
+Autres mesures : évaluation gériatrique et prise en charge **orthogériatrique** des fractures du col, anesthésie et analgésie adaptées, révision des prescriptions à l'aide des critères **Beers 2023** et **STOPP/START v3** (anticholinergiques, benzodiazépines) [S10, S11], formation des équipes, implication des familles.

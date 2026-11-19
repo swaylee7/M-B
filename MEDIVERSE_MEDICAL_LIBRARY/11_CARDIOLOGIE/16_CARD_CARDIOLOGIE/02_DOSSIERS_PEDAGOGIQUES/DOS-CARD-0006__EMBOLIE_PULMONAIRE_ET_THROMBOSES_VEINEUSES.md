@@ -477,3 +477,188 @@ Trois items : **signes cliniques de TVP**, **hémoptysie**, **EP diagnostic le p
 
 L'avantage est de réduire le nombre d'angioscanners. L'ESC 2019 décrit cette stratégie et les autres approches où le seuil des D-dimères est **adapté à la probabilité clinique** [S1]. Une version **adaptée à la grossesse** a été validée (§ 10.3) [S9].
 
+---
+
+## 9. Examens complémentaires et interprétation
+
+### 9.1 Examens d'orientation (non diagnostiques)
+
+| Examen | Ce qu'il montre | Intérêt |
+|---|---|---|
+| **Gaz du sang** | Hypoxémie-hypocapnie (effet shunt) ; parfois normaux | Gravité ; un gaz du sang normal **n'exclut pas** l'EP |
+| **ECG** | Tachycardie sinusale (la plus fréquente) ; signes de surcharge droite : aspect **S1Q3T3**, bloc de branche droit, **ondes T négatives de V1 à V4**, déviation axiale droite ; fibrillation atriale | Peu sensible et peu spécifique ; utile pour les diagnostics différentiels (SCA, péricardite) ; les signes droits sont associés à la gravité [S1] |
+| **Radiographie thoracique** | Souvent normale ; ascension d'une coupole, atélectasies en bande, petit épanchement pleural, opacité triangulaire (infarctus), hyperclarté d'un champ (signe de Westermark), dilatation d'une artère pulmonaire | Surtout pour éliminer d'autres causes (pneumothorax, pneumonie, OAP) |
+| **Troponine** | Élevée chez une partie des patients (ischémie VD) | **Pronostique**, pas diagnostique |
+| **BNP / NT-proBNP** | Élevé en cas de dilatation du VD | Pronostique ; une valeur basse identifie un faible risque [S1] |
+| **Lactates** | Élevés en cas d'hypoperfusion | Gravité |
+| **Bilan pré-thérapeutique** | NFS-plaquettes, TP/TCA, créatinine (clairance selon Cockcroft-Gault), bilan hépatique, groupe sanguin si thrombolyse envisagée | Choix et dose de l'anticoagulant ; numération plaquettaire de référence avant héparine |
+
+### 9.2 Les D-dimères
+
+- Produits de dégradation de la fibrine : **très sensibles** mais **peu spécifiques**. Leur intérêt est **d'exclure** la MTEV, pas de la confirmer.
+- On ne les dose **que si la probabilité clinique n'est pas élevée** (ou si l'EP est « peu probable » en deux niveaux) [S1]. En cas de forte probabilité, un résultat négatif ne permet pas d'exclure l'EP : on passe directement à l'imagerie.
+- Utiliser une **technique quantitative de haute sensibilité** (ELISA ou immunoturbidimétrique).
+- Seuil usuel : **500 µg/L** (équivalent fibrinogène ; exprimé aussi en ng/mL FEU).
+- **Seuil ajusté à l'âge** : chez les patients **de plus de 50 ans**, seuil = **âge × 10 µg/L** (exemple : 750 µg/L à 75 ans). Validé prospectivement par l'étude **ADJUST-PE** (3 346 patients) ; il augmente la proportion de patients chez qui l'EP peut être exclue sans imagerie, surtout après 75 ans, avec un taux d'échec très faible [S8]. L'ESC 2019 recommande d'envisager ce seuil (classe IIa) [S1].
+- **Seuil adapté à la probabilité clinique** (YEARS, ou seuil de 1 000 µg/L chez les patients de faible probabilité clinique) : alternative également envisagée par l'ESC 2019 [S1, S10].
+- Situations où les D-dimères sont **souvent élevés sans MTEV** (donc peu rentables) : âge avancé, cancer, grossesse, infection, inflammation, chirurgie récente, patients hospitalisés, insuffisance rénale.
+
+> **Erreur classique** : appliquer le seuil ajusté à l'âge à la TVP ou à la grossesse comme s'il y était validé de la même façon. Le seuil ajusté à l'âge a été validé principalement dans la suspicion d'EP ; son usage dans la suspicion de TVP est accepté par certaines équipes mais repose sur moins de données [À VÉRIFIER — position ESVS 2021].
+
+### 9.3 L'angioscanner thoracique (angio-TDM des artères pulmonaires)
+
+- **Examen de première intention** pour confirmer l'EP chez le patient stable avec D-dimères positifs ou probabilité élevée [S1].
+- **Signe direct** : lacune endoluminale (défaut de remplissage) dans une artère pulmonaire, centrale ou partiellement occlusive, ou absence d'opacification d'un segment artériel.
+- **Valeur** : un angioscanner **normal exclut l'EP** chez un patient de probabilité faible ou intermédiaire ; chez un patient de **forte probabilité** avec un angioscanner normal, la discordance doit faire discuter d'autres examens [S1].
+- **Informations pronostiques** : rapport **VD/VG > 1,0** sur une coupe 4 cavités (dilatation du VD), reflux de produit de contraste dans la veine cave inférieure.
+- **Limites** : irradiation (préoccupante chez la femme jeune : dose au sein), **insuffisance rénale**, allergie aux produits de contraste iodés. Une **EP sous-segmentaire isolée** est de signification incertaine (faux positifs, surdiagnostic).
+
+### 9.4 La scintigraphie pulmonaire de ventilation-perfusion
+
+- Alternative à l'angioscanner, en particulier en cas d'**insuffisance rénale**, d'**allergie à l'iode**, de **grossesse** (perfusion seule possible) ou chez la femme jeune [S1].
+- Interprétation : **normale** (exclut l'EP) ; **haute probabilité** (défauts de perfusion segmentaires avec ventilation conservée : confirme l'EP) ; **non diagnostique** (nécessite d'autres examens).
+- Moins disponible que le scanner (médecine nucléaire) ; c'est aussi l'**examen de dépistage de l'HTP-TEC** (§ 14).
+
+### 9.5 L'échographie veineuse de compression des membres inférieurs
+
+- Critère diagnostique principal de la TVP : **incompressibilité** de la veine sous la sonde.
+- **Échographie proximale « 2 points »** (veine fémorale commune et veine poplitée) ou **échographie complète du membre** (y compris les veines distales) : les deux stratégies sont validées dans des algorithmes diagnostiques [S3].
+- **Dans la suspicion d'EP** : la découverte d'une **TVP proximale** suffit à confirmer la MTEV et à débuter le traitement (classe I selon l'ESC 2019) [S1]. Une TVP **distale** isolée n'a pas la même valeur : il faut alors poursuivre les examens [S1].
+- Très utile **quand l'angioscanner est contre-indiqué** (insuffisance rénale, grossesse) ou indisponible.
+
+### 9.6 L'échocardiographie transthoracique (ETT)
+
+- **Pas un examen d'exclusion** chez le patient stable : une ETT normale ne permet pas d'exclure l'EP [S1].
+- **Chez le patient instable**, elle est **essentielle** : l'absence de dysfonction VD rend l'EP très peu probable comme cause du choc ; à l'inverse, une dysfonction VD franche chez un patient en choc, si l'angioscanner n'est pas réalisable immédiatement, **suffit pour décider d'une reperfusion** [S1].
+- **Signes de surcharge VD** : dilatation du VD (rapport VD/VG > 1,0), septum paradoxal, hypokinésie de la paroi libre du VD avec apex préservé (**signe de McConnell**), **TAPSE** abaissée (< 16 mm), temps d'accélération pulmonaire court avec encoche mésosystolique, **signe 60/60**, veine cave inférieure dilatée et peu compliante, thrombus mobile dans les cavités droites (« thrombus en transit »).
+- Diagnostics différentiels : tamponnade, dissection aortique, dysfonction VG, valvulopathie aiguë, infarctus du VD.
+
+### 9.7 Autres examens
+
+- **Angiographie pulmonaire invasive** : ancienne référence ; réservée aujourd'hui aux procédures de traitement percutané.
+- **Angio-IRM** : non recommandée pour exclure l'EP (taux élevé d'examens non concluants) [S1].
+- **Bilan étiologique** après un épisode **sans facteur déclenchant** : interrogatoire et examen clinique complets, bilan biologique de base, radiographie thoracique et **dépistages adaptés à l'âge et au sexe** ; un dépistage extensif systématique du cancer (scanner thoraco-abdomino-pelvien, TEP) n'a pas démontré de bénéfice [S1].
+
+---
+
+## 10. Formes cliniques
+
+### 10.1 EP à haut risque
+
+Choc obstructif ou arrêt cardiaque : diagnostic sur l'ETT au lit si le patient n'est pas transportable, puis **reperfusion** (thrombolyse en première intention). Mortalité précoce élevée : c'est une urgence absolue [S1].
+
+### 10.2 EP et cancer
+
+- Le cancer est à la fois un **facteur de risque** de MTEV et un facteur de **récidive** et de **saignement** sous anticoagulant.
+- L'EP **découverte fortuitement** sur un scanner de bilan carcinologique est fréquente ; l'ESC 2019 recommande de la **traiter comme une EP symptomatique** si elle touche des artères segmentaires ou plus proximales, plusieurs artères sous-segmentaires, ou une seule artère sous-segmentaire associée à une TVP prouvée [S1].
+- Choix de l'anticoagulant : voir § 13.3.6.
+
+### 10.3 EP et grossesse
+
+- La grossesse et surtout le **post-partum** multiplient le risque de MTEV ; l'EP est une cause importante de mortalité maternelle dans les pays à haut revenu [S7].
+- **Démarche diagnostique** : ne pas renoncer au diagnostic par crainte de l'irradiation ; les doses délivrées par l'angioscanner et la scintigraphie de perfusion au fœtus sont faibles [S1, S7].
+- Les **D-dimères** augmentent physiologiquement pendant la grossesse ; leur valeur d'exclusion est moindre mais non nulle.
+- **Algorithme YEARS adapté à la grossesse (étude Artemis)** [S9] :
+  1. si signes de TVP → **échographie veineuse** ; une TVP confirmée suffit au diagnostic ;
+  2. sinon, trois items YEARS (signes de TVP, hémoptysie, EP diagnostic le plus probable) + D-dimères ;
+  3. **0 item et D-dimères < 1 000 ng/mL**, ou **≥ 1 item et D-dimères < 500 ng/mL** : EP exclue ;
+  4. sinon : angioscanner.
+  Dans l'étude Artemis, cette stratégie a permis d'éviter l'angioscanner chez **32 à 65 %** des femmes selon le trimestre (plus souvent au 1er trimestre), avec un faible taux d'événements à 3 mois [S9].
+- Une approche fondée sur le **score de Genève révisé** associée aux D-dimères, à l'échographie veineuse et à l'angioscanner (étude CT-PE-Pregnancy) a également été validée **[référence non vérifiée — À VÉRIFIER]**.
+- **Imagerie** : angioscanner ou scintigraphie de perfusion, selon la disponibilité et la radiographie thoracique (une radiographie normale favorise la scintigraphie de perfusion).
+- **Traitement** : **HBPM à dose curative** ajustée sur le poids du début de grossesse ; **AVK** à éviter (embryopathie au 1er trimestre, hémorragie fœtale en fin de grossesse) ; **AOD contre-indiqués** pendant la grossesse et l'allaitement [S1, S7]. Détails au § 13.3.7.
+
+### 10.4 Sujet âgé
+
+Présentation atypique (confusion, chute, syncope), D-dimères souvent élevés (d'où le seuil ajusté à l'âge), risque hémorragique et insuffisance rénale plus fréquents : adapter le choix et la dose de l'anticoagulant (clairance de la créatinine selon Cockcroft-Gault, poids, interactions).
+
+### 10.5 EP sous-segmentaire isolée
+
+Diagnostic en augmentation avec les scanners modernes ; une partie correspond à des faux positifs. La décision de traiter se discute selon la présence d'une TVP, du cancer, de la réserve cardiorespiratoire et du risque hémorragique. Le CHEST 2021 propose, en l'absence de TVP proximale et chez un patient à faible risque de récidive, une **surveillance clinique** plutôt qu'une anticoagulation, et une anticoagulation dans les autres cas [S4].
+
+### 10.6 TVP distale (surale) isolée
+
+- Risque d'extension proximale et d'EP plus faible que la TVP proximale.
+- Deux stratégies acceptées : **anticoagulation pendant 3 mois** ou **surveillance échographique** répétée (à 1 et 2 semaines) chez les patients sans symptômes sévères ni facteur de risque d'extension (D-dimères élevés, thrombose étendue proche des veines proximales, cancer actif, antécédent de MTEV, patient hospitalisé) [S3, S4].
+- La position exacte de l'ESVS 2021 est détaillée au § 21.
+
+### 10.7 TVP ilio-fémorale et phlegmatia caerulea dolens
+
+- Œdème de tout le membre, douleur de la fesse ou de l'aine, risque élevé de syndrome post-thrombotique.
+- **Phlegmatia caerulea dolens** : membre cyanique, très douloureux, pouls diminués (ischémie par hyperpression veineuse) → **urgence** ; désobstruction (thrombolyse in situ, thrombectomie) à discuter en centre spécialisé [S3].
+- Les traitements de désobstruction précoce sont réservés à des patients sélectionnés (TVP ilio-fémorale récente, symptomatique, faible risque hémorragique) [S3] ; ils ne sont pas indiqués dans les TVP fémoro-poplitées courantes.
+
+### 10.8 TVP des membres supérieurs
+
+Le plus souvent **liées à un cathéter** (chambre implantable, PICC-line) ou à un effort répété du bras (syndrome de Paget-Schroetter, compression dans le défilé thoracique). Traitement anticoagulant d'au moins 3 mois ; le cathéter fonctionnel et nécessaire peut être **laissé en place** [S3, S4].
+
+### 10.9 Thrombose veineuse superficielle (TVS)
+
+- Cordon induré, rouge et douloureux sur un trajet veineux superficiel ; doit faire réaliser une **échographie** (extension au réseau profond, distance à la jonction saphéno-fémorale).
+- **TVS ≥ 5 cm** de la grande saphène, à plus de 3 cm de la jonction : **fondaparinux 2,5 mg/j SC pendant 45 jours** (schéma de l'essai CALISTO, repris par l'ESVS 2021) [S3].
+- **TVS à moins de 3 cm de la jonction saphéno-fémorale** : prise en charge comme une TVP (anticoagulation curative) [S3].
+- Une TVS sur veine **non variqueuse** ou récidivante doit faire rechercher un cancer ou une thrombophilie selon le contexte.
+
+### 10.10 Thromboses de sites inhabituels
+
+Thromboses veineuses cérébrales, splanchniques (porte, mésentérique, sus-hépatiques), rénales : elles relèvent de bilans étiologiques spécifiques (néoplasies myéloprolifératives, hémoglobinurie paroxystique nocturne, SAPL, cirrhose) et ne sont pas détaillées ici.
+
+---
+
+## 11. Diagnostics différentiels
+
+### 11.1 Devant une suspicion d'EP
+
+| Diagnostic | Éléments d'orientation | Examen discriminant |
+|---|---|---|
+| **SCA** | Douleur constrictive, facteurs de risque, sus- ou sous-décalage de ST systématisé | ECG, troponine (cinétique), coronarographie ; attention : la troponine est aussi élevée dans l'EP grave |
+| **Dissection aortique** | Douleur migratrice, asymétrie tensionnelle, souffle d'IA | Angioscanner aortique, ETT/ETO ; **contre-indication absolue à la thrombolyse** |
+| **Péricardite, tamponnade** | Douleur positionnelle, frottement, sus-décalage diffus ; turgescence jugulaire et pouls paradoxal | ETT |
+| **Pneumothorax** | Douleur brutale, abolition du murmure vésiculaire | Radiographie, échographie pleurale |
+| **Pneumonie** | Fièvre, expectoration, foyer | Radiographie, CRP ; une pneumonie peut aussi « masquer » un infarctus pulmonaire |
+| **OAP cardiogénique** | Crépitants bilatéraux, orthopnée | Radiographie, BNP, ETT (fonction VG) |
+| **Exacerbation de BPCO, asthme** | Sibilants, terrain | L'EP est une cause d'exacerbation : y penser si l'évolution est atypique |
+| **Douleur pariétale** | Reproduite à la palpation | Diagnostic d'élimination |
+| **Anxiété, hyperventilation** | Paresthésies, normoxie | **Diagnostic d'élimination**, jamais de principe |
+
+### 11.2 Devant une suspicion de TVP
+
+| Diagnostic | Indices |
+|---|---|
+| **Kyste poplité (de Baker) rompu** | Antécédent d'arthrose ou d'arthrite du genou, ecchymose malléolaire ; échographie |
+| **Hématome, déchirure musculaire** | Traumatisme ou effort, ecchymose ; échographie |
+| **Érysipèle, dermohypodermite** | Fièvre, placard inflammatoire bien limité, porte d'entrée |
+| **Lymphœdème** | Œdème chronique, non prenant le godet, peau épaissie |
+| **Insuffisance veineuse chronique** | Varices, troubles trophiques, bilatéralité fréquente |
+| **Œdème médicamenteux ou général** | Inhibiteurs calciques dihydropyridiniques, insuffisance cardiaque, syndrome néphrotique : souvent bilatéral |
+| **Compression extrinsèque** | Tumeur pelvienne, adénopathies, anévrisme poplité |
+
+---
+
+## 12. Évolution, complications, pronostic
+
+### 12.1 Évolution sous traitement
+
+- Sous anticoagulation bien conduite, la majorité des patients s'améliorent en quelques jours ; la dyspnée peut persister plusieurs semaines.
+- **Mortalité précoce** très variable selon la classe de risque : faible dans l'EP de faible risque, élevée dans l'EP à haut risque [S1].
+- Les **récidives précoces** sous traitement doivent faire vérifier l'observance, la dose, les interactions, et rechercher un cancer ou un SAPL.
+
+### 12.2 Complications précoces
+
+- **Choc et arrêt cardiaque** (EP à haut risque).
+- **Récidive embolique**.
+- **Hémorragies liées au traitement** (surtout sous thrombolyse : hémorragies majeures et intracrâniennes).
+- **Infarctus pulmonaire** surinfecté, épanchement pleural.
+- **Embolie paradoxale** (foramen ovale perméable).
+- **Thrombopénie induite par l'héparine (TIH)** : chute des plaquettes de plus de 50 % ou thrombose nouvelle, typiquement entre le 5e et le 10e jour de traitement par héparine (plus tôt en cas d'exposition récente) ; risque plus élevé avec l'HNF qu'avec les HBPM, et en contexte chirurgical. Conduite : arrêt de **toute héparine**, relais par un anticoagulant non héparinique (argatroban, danaparoïde, fondaparinux selon le contexte et les protocoles), sans AVK en phase aiguë [À VÉRIFIER — protocole local et recommandations spécifiques de la TIH].
+
+### 12.3 Complications tardives
+
+1. **Récidive de MTEV** après l'arrêt du traitement : risque faible après un épisode lié à un facteur transitoire majeur, plus élevé après un épisode sans facteur identifiable ou lié à un facteur persistant [S1].
+2. **Syndrome post-thrombotique** (après TVP) : lourdeur, œdème, douleurs, varices secondaires, dermite ocre, ulcère veineux ; quantifié par le **score de Villalta** [S3].
+3. **Syndrome post-EP** : dyspnée et limitation fonctionnelle persistantes ; il faut y rechercher :
+4. **Hypertension pulmonaire thromboembolique chronique (HTP-TEC)** : complication **rare mais grave** (quelques pour cent des patients après une EP aiguë selon les séries **[À VÉRIFIER — fréquence exacte]**). À suspecter devant une dyspnée persistante ou progressive **au-delà de 3 mois d'anticoagulation efficace**. Dépistage par ETT puis **scintigraphie de ventilation-perfusion** (examen de dépistage de choix) ; confirmation par cathétérisme cardiaque droit en centre expert [S1]. Traitements : **endartériectomie pulmonaire** (référence chez les patients opérables), **angioplastie pulmonaire par ballonnet**, traitement médical (riociguat), anticoagulation à vie.
+
+### 12.4 Scores de risque hémorragique
+
+Aucun score n'est suffisamment discriminant pour contre-indiquer à lui seul l'anticoagulation. Le **score de risque hémorragique** sert à identifier et corriger les facteurs modifiables (HTA non contrôlée, association avec antiagrégants ou AINS, alcool, anémie, insuffisance rénale) et à intensifier la surveillance [S1]. Facteurs majeurs : âge > 75 ans, antécédent d'hémorragie, cancer actif (surtout digestif ou urogénital), insuffisance rénale ou hépatique, thrombopénie, antiagrégants associés, chute fréquente.

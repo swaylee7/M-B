@@ -1,16 +1,38 @@
 {
   "id": "DOS-14",
-  "statut": "en_cours",
+  "statut": "termine_a_auditer",
   "derniere_execution": "2026-11-19",
-  "taches_terminees": [],
-  "taches_suivantes": [
-    "DOS-PHAR-0001 antibiotiques",
-    "DOS-PHAR-0002 anticoagulants",
-    "DOS-PHAR-0003 corticoïdes",
-    "DOS-PHAR-0004 antalgiques",
-    "DOS-HEMA-0006 transfusion",
-    "lots QCM/cas DOS-14.json"
+  "taches_terminees": [
+    "DOS-PHAR-0001 antibiotiques (RES-MED-166)",
+    "DOS-PHAR-0002 anticoagulants (RES-MED-173)",
+    "DOS-PHAR-0003 corticoïdes (RES-MED-167)",
+    "DOS-PHAR-0004 antalgiques (RES-MED-168)",
+    "DOS-HEMA-0006 transfusion (RES-MED-171)",
+    "lot QCM 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-14.json (60 QCM : QCM-PHAR-1401→1448, QCM-HEMA-1401→1412)",
+    "lot cas 20_CAS_CLINIQUES/lots/DOS-14.json (10 cas : CAS-PHAR-1401→1408, CAS-HEMA-1401→1402)"
   ],
-  "objectifs": {},
-  "compteurs": {}
+  "taches_suivantes": [
+    "Audit (AUD-xx) des 5 dossiers, en priorité posologies : doses HBPM/fondaparinux (texte ESC 2019), schémas de protamine, CCP anti-Xa, cibles INR des valves (ESC/EACTS 2025), équivalence dexaméthasone, seuils HAS transfusion",
+    "Compléter les données algériennes : dernier rapport AARN, plan national RAM 2024-2028 (contenu), décret de l'Agence nationale du sang, hémovigilance nationale, disponibilité des molécules Reserve et des antidotes AOD",
+    "Plage d'identifiants restante : DOS-PHAR-0005+, QCM-PHAR-1449+, QCM-HEMA-1413+, CAS-PHAR-1409+, CAS-HEMA-1403+"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm_par_item": 12,
+    "cas_par_item": 2
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas": 10,
+    "sources_dossiers": 81,
+    "sources_verifiees": 81,
+    "mots_wc": {
+      "DOS-PHAR-0001": 12140,
+      "DOS-PHAR-0002": 11601,
+      "DOS-PHAR-0003": 9282,
+      "DOS-PHAR-0004": 9684,
+      "DOS-HEMA-0006": 10328
+    }
+  }
 }
