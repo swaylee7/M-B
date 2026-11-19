@@ -68,35 +68,35 @@ sources:
     organisme: EACVI/ASE
     annee: 2017
     type: recommandation
-    doi: ""
+    doi: "10.1093/ehjci/jew335"
     url: ""
-    verifiee: false
-    remarque: "Citée de mémoire ; référence non confirmée pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 28363204)."
   - id: S7
     reference: "Ross J Jr, Braunwald E. Aortic stenosis. Circulation. 1968;38(1 Suppl):61-67."
     organisme: ""
     annee: 1968
     type: article
-    doi: ""
+    doi: "10.1161/01.cir.38.1s5.v-61"
     url: ""
-    verifiee: false
-    remarque: "Article historique cité de mémoire ; non confirmé pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Article historique vérifié par l'audit (PubMed, PMID 4894151)."
   - id: S8
     reference: "Généreux P, Pibarot P, Redfors B, et al. Staging classification of aortic stenosis based on the extent of cardiac damage. Eur Heart J. 2017;38(45):3351-3358."
     organisme: ""
     annee: 2017
     type: article
-    doi: ""
+    doi: "10.1093/eurheartj/ehx381"
     url: ""
-    verifiee: false
-    remarque: "Cité de mémoire ; non confirmé pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifié par l'audit (PubMed, PMID 29020232)."
 mots_cles: [rétrécissement aortique, sténose aortique, bicuspidie, calcification valvulaire, vitesse maximale, gradient moyen, surface valvulaire, équation de continuité, bas débit bas gradient, échocardiographie de stress à la dobutamine, score calcique, remplacement valvulaire aortique, TAVI, Heart Team, bioprothèse, valve mécanique, AVK, syndrome de Heyde]
 ---
 
 # Rétrécissement aortique
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité et validé par l'IA (AUD-01/AUD-02, 2026-11-19)** ; relecture par un enseignant requise. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-052 — *Rétrécissement aortique : physiopathologie, diagnostic, évolution, traitement.*
 
@@ -499,9 +499,9 @@ Effet **transitoire** (resténose rapide) : **pont** vers un RVA ou un TAVI chez
 **ESC/EACTS 2025** [S1] :
 
 - La décision est prise par une **équipe multidisciplinaire (« Heart Team »)** dans un **centre valvulaire** (« Heart Valve Centre »), en tenant compte de l'**âge et de l'espérance de vie**, des **comorbidités**, de la **préférence du patient** informé, de l'**accès vasculaire** et de l'**anatomie** valvulaire, et des **procédures futures** possibles (prise en charge sur toute la vie).
-- **Seuil d'âge abaissé à 70 ans** : chez un patient **de 70 ans ou plus**, porteur d'une valve **tricuspide** et d'une anatomie favorable (notamment pour la voie transfémorale), le **TAVI** peut être choisi **quel que soit le risque chirurgical estimé** [S1].
+- **Seuil d'âge abaissé à 70 ans** : chez un patient **de 70 ans ou plus**, porteur d'une valve **tricuspide** et d'une anatomie favorable (notamment pour la voie transfémorale), le **TAVI** peut être choisi **quel que soit le risque chirurgical estimé** (classe I, niveau A selon une revue de la recommandation) [S1].
 - **Avant 70 ans** et à faible risque chirurgical : le **RVA chirurgical** reste en règle le traitement de référence (durabilité, bicuspidie fréquente, gestes associés) [S1] **[À VÉRIFIER — formulation et classe exactes]**.
-- **Bicuspidie** : le TAVI peut être **envisagé** chez des patients à risque chirurgical accru si l'anatomie s'y prête [S1].
+- **Bicuspidie** : le TAVI « peut être envisagé » (formulation de classe IIb) chez des patients à risque chirurgical accru si l'anatomie s'y prête [S1].
 - **ESC 2021 (pour mémoire)** : seuil d'âge de **75 ans** ; TAVI recommandé si âge ≥ 75 ans, risque chirurgical élevé (STS-PROM ou EuroSCORE II > 8 %) ou contre-indication chirurgicale ; RVA si âge < 75 ans et faible risque [S2].
 
 | En faveur du **RVA chirurgical** | En faveur du **TAVI** |
@@ -815,11 +815,11 @@ Patiente de **plus de 70 ans**, valve **tricuspide** : selon l'ESC/EACTS 2025, l
 
 | Thème | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
-| **Âge seuil pour le TAVI** | **ESC/EACTS 2025** : **70 ans** (valve tricuspide, anatomie favorable), quel que soit le risque chirurgical [S1] | **ESC/EACTS 2021** : **75 ans** (ou risque chirurgical élevé) [S2] ; **ACC/AHA 2020** : décision fondée sur l'âge (seuils de 65 et 80 ans) et l'espérance de vie **[À VÉRIFIER]** [S3] | Évolution liée aux essais chez les patients à faible risque ; la durabilité à long terme des bioprothèses percutanées reste la principale inconnue chez les plus jeunes |
+| **Âge seuil pour le TAVI** | **ESC/EACTS 2025** : **70 ans** (valve tricuspide, anatomie favorable), quel que soit le risque chirurgical [S1] | **ESC/EACTS 2021** : **75 ans** (ou risque chirurgical élevé) [S2] ; **ACC/AHA 2020** : décision fondée sur l'âge et l'espérance de vie — RVA avant 65 ans, RVA ou TAVI transfémoral entre 65 et 80 ans après décision partagée, TAVI transfémoral après 80 ans [S3] | Évolution liée aux essais chez les patients à faible risque ; la durabilité à long terme des bioprothèses percutanées reste la principale inconnue chez les plus jeunes |
 | **RA serré asymptomatique à FEVG conservée** | ESC/EACTS 2025 : intervention précoce à envisager (IIa, niveau A) si faible risque procédural [S1] | ESC/EACTS 2021 : intervention à envisager seulement en présence de marqueurs de risque (Vmax ≥ 5 m/s, progression rapide, BNP élevé, calcifications sévères, FEVG < 55 %, chute tensionnelle à l'effort) [S2] | Changement majeur fondé sur des essais randomisés (dont EARLY TAVR) et une méta-analyse |
 | **Seuil de FEVG chez l'asymptomatique** | ESC 2025 : FEVG < 50 % = indication de classe I [S1] | Données récentes suggérant un risque accru dès une FEVG < 55–60 % ; ESC 2021 : < 55 % en IIa [S2] | Place exacte du seuil de 55 % dans la version 2025 **[À VÉRIFIER]** |
 | **Stadification** | ESC 2025 : stadification de l'atteinte cardiaque fondée sur l'imagerie [S1] | ACC/AHA 2020 : stades A–D de la valvulopathie [S3] ; classification de Généreux (stades 0–4) [S8] | Approches complémentaires (valve vs retentissement) |
-| **Choix de la prothèse chirurgicale** | ESC 2021 : mécanique < 60 ans, biologique > 65 ans en position aortique [S2] | ACC/AHA 2020 : mécanique < 50 ans, biologique > 65 ans, zone d'individualisation 50–65 ans **[À VÉRIFIER]** [S3] | Seuils de l'ESC 2025 à confirmer |
+| **Choix de la prothèse chirurgicale** | ESC 2021 : mécanique < 60 ans, biologique > 65 ans en position aortique [S2] | ACC/AHA 2020 : mécanique raisonnable < 50 ans, biologique raisonnable > 65 ans, choix individualisé entre 50 et 65 ans (classe 2a) [S3] | Seuils de l'ESC 2025 à confirmer |
 
 ---
 
@@ -827,11 +827,11 @@ Patiente de **plus de 70 ans**, valve **tricuspide** : selon l'ESC/EACTS 2025, l
 
 1. **[S1]** Praz F, Borger MA, Lanz J, et al. 2025 ESC/EACTS Guidelines for the management of valvular heart disease. *Eur Heart J.* 2025;46(44):4635-4736. doi:10.1093/eurheartj/ehaf194. — **vérifiée** (texte intégral non lu ; changements majeurs confirmés par des sources secondaires concordantes).
 2. **[S2]** Vahanian A, Beyersdorf F, Praz F, et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. *Eur Heart J.* 2022;43(7):561-632. doi:10.1093/eurheartj/ehab395. — vérifiée (remplacée par S1).
-3. **[S3]** Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease. *Circulation.* 2021;143(5):e72-e227. — **non vérifiée**.
+3. **[S3]** Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease. *Circulation.* 2021;143(5):e72-e227. doi:10.1161/CIR.0000000000000923. — vérifiée (audit ; texte intégral non lu).
 4. **[S4]** Delgado V, Ajmone Marsan N, de Waha S, et al. 2023 ESC Guidelines for the management of endocarditis. *Eur Heart J.* 2023;44(39):3948-4042. doi:10.1093/eurheartj/ehad193. — vérifiée.
 5. **[S5]** Ministère de la Santé et de la Population (Algérie). Programme national de lutte contre le rhumatisme articulaire aigu (révisé en 2000). — existence vérifiée.
-6. **[S6]** Baumgartner H, Hung J, Bermejo J, et al. Recommendations on the echocardiographic assessment of aortic valve stenosis: a focused update from the EACVI and the ASE. *Eur Heart J Cardiovasc Imaging.* 2017;18(3):254-275. — **non vérifiée**.
-7. **[S7]** Ross J Jr, Braunwald E. Aortic stenosis. *Circulation.* 1968;38(1 Suppl):61-67. — **non vérifiée** (référence historique).
-8. **[S8]** Généreux P, Pibarot P, Redfors B, et al. Staging classification of aortic stenosis based on the extent of cardiac damage. *Eur Heart J.* 2017;38(45):3351-3358. — **non vérifiée**.
+6. **[S6]** Baumgartner H, Hung J, Bermejo J, et al. Recommendations on the echocardiographic assessment of aortic valve stenosis: a focused update from the EACVI and the ASE. *Eur Heart J Cardiovasc Imaging.* 2017;18(3):254-275. doi:10.1093/ehjci/jew335. — vérifiée (audit).
+7. **[S7]** Ross J Jr, Braunwald E. Aortic stenosis. *Circulation.* 1968;38(1 Suppl):61-67. — vérifiée (audit ; référence historique).
+8. **[S8]** Généreux P, Pibarot P, Redfors B, et al. Staging classification of aortic stenosis based on the extent of cardiac damage. *Eur Heart J.* 2017;38(45):3351-3358. doi:10.1093/eurheartj/ehx381. — vérifiée (audit).
 
-*Posologies et cibles : aspirine 75–100 mg/j et INR cibles des valves mécaniques d'après l'ESC/EACTS 2021 [S2] (reprise dans la version 2025 à confirmer) ; aucune autre posologie spécifique n'est proposée dans ce dossier.*
+*Posologies et cibles : aspirine 75–100 mg/j et INR cibles des valves mécaniques d'après l'ESC/EACTS 2021 [S2] (reprise dans la version 2025 à confirmer), cohérents avec DOS-PHAR-0002 (audité) ; aucune autre posologie spécifique n'est proposée dans ce dossier. Audit AUD-01/AUD-02 du 2026-11-19 : aucun marqueur de posologie.*

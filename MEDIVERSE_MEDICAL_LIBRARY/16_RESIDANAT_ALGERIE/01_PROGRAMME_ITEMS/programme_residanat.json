@@ -109,13 +109,15 @@
       "dossiers": [
         {
           "id": "DOS-PHYS-0002",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "02_PHYSIOLOGIE/04_PHYS_PHYSIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHYS-0002__ELECTROPHYSIOLOGIE_DU_COEUR_ACTIVITE_ELECTRIQUE_CARDIAQUE.md"
         }
       ],
       "qcm": 13,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-PHYS-0002"
+      ]
     },
     {
       "partie": "SF",
@@ -222,13 +224,15 @@
       "dossiers": [
         {
           "id": "DOS-PHYS-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "02_PHYSIOLOGIE/04_PHYS_PHYSIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHYS-0001__EQUILIBRE_ACIDO_BASIQUE.md"
         }
       ],
       "qcm": 13,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-PHYS-0001"
+      ]
     },
     {
       "partie": "SF",
@@ -500,13 +504,15 @@
       "dossiers": [
         {
           "id": "DOS-HEMA-0007",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0007__HEMOSTASE_PHYSIOLOGIE_EXPLORATIONS_INTERPRETATION.md"
         }
       ],
       "qcm": 13,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-HEMA-0007"
+      ]
     },
     {
       "partie": "SF",
@@ -534,13 +540,15 @@
       "dossiers": [
         {
           "id": "DOS-IMMU-0002",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "05_MICROBIOLOGIE/07_IMMU_IMMUNOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-IMMU-0002__ETATS_D_HYPERSENSIBILITE_TYPES_I_A_IV_CHOC_ANAPHYLACTIQUE.md"
         }
       ],
       "qcm": 13,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-IMMU-0002"
+      ]
     },
     {
       "partie": "SF",
@@ -554,13 +562,15 @@
       "dossiers": [
         {
           "id": "DOS-IMMU-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "05_MICROBIOLOGIE/07_IMMU_IMMUNOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-IMMU-0001__SYSTEME_MAJEUR_D_HISTOCOMPATIBILITE_COMPLEXE_HLA.md"
         }
       ],
       "qcm": 13,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-IMMU-0001"
+      ]
     },
     {
       "partie": "SF",
@@ -1102,7 +1112,7 @@
       "dossiers": [
         {
           "id": "DOS-INFE-0003",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0003__FIEVRES_TYPHOIDE_ET_PARATYPHOIDES.md"
         }
       ],
@@ -1122,7 +1132,7 @@
       "dossiers": [
         {
           "id": "DOS-INFE-0004",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0004__PALUDISME.md"
         }
       ],
@@ -1142,12 +1152,12 @@
       "dossiers": [
         {
           "id": "DOS-INFE-0007",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0007__RAGE.md"
         }
       ],
-      "qcm": 3,
-      "cas_cliniques": 0,
+      "qcm": 16,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1162,7 +1172,7 @@
       "dossiers": [
         {
           "id": "DOS-INFE-0006",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0006__ETATS_SEPTICEMIQUES_SEPSIS.md"
         }
       ],
@@ -1204,7 +1214,7 @@
       "dossiers": [
         {
           "id": "DOS-INFE-0005",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0005__INFECTION_A_VIH.md"
         }
       ],
@@ -1294,7 +1304,9 @@
       ],
       "qcm": 14,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-DERM-0001"
+      ]
     },
     {
       "partie": "MED",
@@ -1397,7 +1409,13 @@
       "specialites": [
         "GAST"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-GAST-0002",
+          "statut": "brouillon_a_auditer",
+          "chemin": "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0002__MALADIE_ULCEREUSE_GASTRODUODENALE.md"
+        }
+      ],
       "qcm": 3,
       "cas_cliniques": 0,
       "fiches": []
@@ -1501,7 +1519,13 @@
       "specialites": [
         "GAST"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-GAST-0003",
+          "statut": "brouillon_a_auditer",
+          "chemin": "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0003__RECTOCOLITE_HEMORRAGIQUE.md"
+        }
+      ],
       "qcm": 3,
       "cas_cliniques": 0,
       "fiches": []
@@ -1930,12 +1954,12 @@
       "dossiers": [
         {
           "id": "DOS-CARD-0010",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0010__RETRECISSEMENT_AORTIQUE.md"
         }
       ],
-      "qcm": 3,
-      "cas_cliniques": 0,
+      "qcm": 15,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1972,12 +1996,12 @@
       "dossiers": [
         {
           "id": "DOS-CARD-0008",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0008__PERICARDITES_AIGUES.md"
         }
       ],
-      "qcm": 3,
-      "cas_cliniques": 0,
+      "qcm": 15,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1992,12 +2016,12 @@
       "dossiers": [
         {
           "id": "DOS-CARD-0009",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0009__ANGINE_DE_POITRINE_SYNDROME_CORONARIEN_CHRONIQUE.md"
         }
       ],
-      "qcm": 3,
-      "cas_cliniques": 0,
+      "qcm": 15,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -2056,12 +2080,12 @@
       "dossiers": [
         {
           "id": "DOS-CARD-0006",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0006__EMBOLIE_PULMONAIRE_ET_THROMBOSES_VEINEUSES.md"
         }
       ],
-      "qcm": 3,
-      "cas_cliniques": 0,
+      "qcm": 15,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -2148,12 +2172,12 @@
       "dossiers": [
         {
           "id": "DOS-CARD-0007",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0007__TROUBLES_DU_RYTHME.md"
         }
       ],
-      "qcm": 3,
-      "cas_cliniques": 0,
+      "qcm": 15,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -2179,7 +2203,13 @@
       "specialites": [
         "PEDI"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-PEDI-0007",
+          "statut": "brouillon_a_auditer",
+          "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0007__INFECTIONS_URINAIRES_DE_L_ENFANT.md"
+        }
+      ],
       "qcm": 3,
       "cas_cliniques": 0,
       "fiches": []
@@ -2229,7 +2259,13 @@
       "specialites": [
         "PEDI"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-PEDI-0006",
+          "statut": "brouillon_a_auditer",
+          "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0006__RACHITISME_CARENTIEL.md"
+        }
+      ],
       "qcm": 3,
       "cas_cliniques": 0,
       "fiches": []
@@ -2288,7 +2324,13 @@
       "specialites": [
         "PEDI"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-PEDI-0005",
+          "statut": "brouillon_a_auditer",
+          "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0005__CONVULSIONS_DU_NOURRISSON.md"
+        }
+      ],
       "qcm": 3,
       "cas_cliniques": 0,
       "fiches": []
@@ -2302,7 +2344,13 @@
       "specialites": [
         "PEDI"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-PEDI-0004",
+          "statut": "brouillon_a_auditer",
+          "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0004__DIARRHEES_AIGUES_DE_L_ENFANT.md"
+        }
+      ],
       "qcm": 3,
       "cas_cliniques": 0,
       "fiches": []
@@ -2352,7 +2400,13 @@
       "specialites": [
         "NEON"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-NEON-0003",
+          "statut": "brouillon_a_auditer",
+          "chemin": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0003__DETRESSES_RESPIRATOIRES_DU_NOUVEAU_NE.md"
+        }
+      ],
       "qcm": 3,
       "cas_cliniques": 0,
       "fiches": []
@@ -2735,7 +2789,9 @@
       ],
       "qcm": 14,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-RHUM-0001"
+      ]
     },
     {
       "partie": "MED",
@@ -2755,7 +2811,9 @@
       ],
       "qcm": 13,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-RHUM-0002"
+      ]
     },
     {
       "partie": "MED",
@@ -2775,7 +2833,9 @@
       ],
       "qcm": 16,
       "cas_cliniques": 3,
-      "fiches": []
+      "fiches": [
+        "FIC-MINT-0001"
+      ]
     },
     {
       "partie": "MED",
@@ -3248,7 +3308,7 @@
       "dossiers": [
         {
           "id": "DOS-EPID-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "15_AUTRES_SPECIALITES/50_EPID_EPIDEMIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-EPID-0001__MESURE_DE_L_ETAT_DE_SANTE_INDICATEURS_MESURES_D_IMPACT.md"
         }
       ],
@@ -3310,7 +3370,7 @@
       "dossiers": [
         {
           "id": "DOS-EPID-0002",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "15_AUTRES_SPECIALITES/50_EPID_EPIDEMIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-EPID-0002__ENQUETES_EPIDEMIOLOGIQUES_CAS_TEMOINS_COHORTES_TRANSVERSALES.md"
         }
       ],
@@ -3359,7 +3419,7 @@
       "dossiers": [
         {
           "id": "DOS-SPUB-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "15_AUTRES_SPECIALITES/49_SPUB_SANTE_PUBLIQUE/02_DOSSIERS_PEDAGOGIQUES/DOS-SPUB-0001__ORGANISATION_SANITAIRE_ET_FONCTIONNEMENT_DU_SYSTEME_DE_SANTE_ALGERIEN.md"
         }
       ],
@@ -3427,7 +3487,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-MLEG-0001"
+      ]
     },
     {
       "partie": "MED",
@@ -3447,7 +3509,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-MLEG-0002"
+      ]
     },
     {
       "partie": "MED",
@@ -3481,7 +3545,9 @@
       ],
       "qcm": 16,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-MTRA-0001"
+      ]
     },
     {
       "partie": "MED",
@@ -3585,7 +3651,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-PSYC-0001"
+      ]
     },
     {
       "partie": "MED",
@@ -3647,7 +3715,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-PSYC-0002"
+      ]
     },
     {
       "partie": "MED",
@@ -3668,7 +3738,9 @@
       ],
       "qcm": 16,
       "cas_cliniques": 3,
-      "fiches": []
+      "fiches": [
+        "FIC-MINT-0001"
+      ]
     },
     {
       "partie": "MED",
@@ -3730,7 +3802,9 @@
       ],
       "qcm": 13,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-MINT-0002"
+      ]
     },
     {
       "partie": "MED",
@@ -3744,7 +3818,7 @@
       "dossiers": [
         {
           "id": "DOS-GERI-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_valide",
           "chemin": "07_MEDECINE_INTERNE/52_GERI_GERIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GERI-0001__CHUTES_ET_TROUBLES_DE_L_EQUILIBRE_DU_SUJET_AGE.md"
         }
       ],
@@ -3834,7 +3908,7 @@
       "dossiers": [
         {
           "id": "DOS-GERI-0002",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "07_MEDECINE_INTERNE/52_GERI_GERIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GERI-0002__TROUBLES_CONFUSIONNELS_DU_SUJET_AGE_SYNDROME_CONFUSIONNEL_AIGU_DELIRIUM.md"
         }
       ],
@@ -3860,7 +3934,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-PHAR-0001"
+      ]
     },
     {
       "partie": "MED",
@@ -3880,7 +3956,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-PHAR-0003"
+      ]
     },
     {
       "partie": "MED",
@@ -3894,13 +3972,15 @@
       "dossiers": [
         {
           "id": "DOS-PHAR-0004",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHAR-0004__ANTALGIQUES_PRINCIPES_ET_REGLES_D_UTILISATION.md"
         }
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-PHAR-0004"
+      ]
     },
     {
       "partie": "MED",
@@ -3943,13 +4023,15 @@
       "dossiers": [
         {
           "id": "DOS-HEMA-0006",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0006__TRANSFUSION_SANGUINE_INDICATIONS_ET_ACCIDENTS.md"
         }
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-HEMA-0006"
+      ]
     },
     {
       "partie": "MED",
@@ -3983,7 +4065,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-PHAR-0002"
+      ]
     },
     {
       "partie": "MED",
@@ -4348,13 +4432,15 @@
       "dossiers": [
         {
           "id": "DOS-UROL-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "08_CHIRURGIE/35_UROL_UROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-UROL-0001__LITHIASE_URINAIRE_DIAGNOSTIC_TRAITEMENT.md"
         }
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-UROL-0001"
+      ]
     },
     {
       "partie": "CHI",
@@ -4383,13 +4469,15 @@
       "dossiers": [
         {
           "id": "DOS-UROL-0002",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "08_CHIRURGIE/35_UROL_UROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-UROL-0002__ADENOME_DE_LA_PROSTATE_HYPERTROPHIE_BENIGNE.md"
         }
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-UROL-0002"
+      ]
     },
     {
       "partie": "CHI",
@@ -4462,13 +4550,15 @@
       "dossiers": [
         {
           "id": "DOS-UROL-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "08_CHIRURGIE/35_UROL_UROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-UROL-0001__LITHIASE_URINAIRE_DIAGNOSTIC_TRAITEMENT.md"
         }
       ],
       "qcm": 7,
       "cas_cliniques": 1,
-      "fiches": []
+      "fiches": [
+        "FIC-UROL-0001"
+      ]
     },
     {
       "partie": "CHI",
@@ -4510,13 +4600,15 @@
       "dossiers": [
         {
           "id": "DOS-TRAU-0002",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "08_CHIRURGIE/37_TRAU_TRAUMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-TRAU-0002__FRACTURE_DE_L_EXTREMITE_INFERIEURE_DU_RADIUS.md"
         }
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-TRAU-0002"
+      ]
     },
     {
       "partie": "CHI",
@@ -4544,13 +4636,15 @@
       "dossiers": [
         {
           "id": "DOS-TRAU-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "08_CHIRURGIE/37_TRAU_TRAUMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-TRAU-0001__FRACTURES_DU_COL_DU_FEMUR.md"
         }
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-TRAU-0001"
+      ]
     },
     {
       "partie": "CHI",
@@ -4594,13 +4688,15 @@
       "dossiers": [
         {
           "id": "DOS-ORTH-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "08_CHIRURGIE/36_ORTH_ORTHOPEDIE/02_DOSSIERS_PEDAGOGIQUES/DOS-ORTH-0001__OSTEOMYELITE_AIGUE.md"
         }
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-ORTH-0001"
+      ]
     },
     {
       "partie": "CHI",
@@ -4629,13 +4725,15 @@
       "dossiers": [
         {
           "id": "DOS-OPHT-0001",
-          "statut": "brouillon_a_auditer",
+          "statut": "audite_corrections_requises",
           "chemin": "15_AUTRES_SPECIALITES/40_OPHT_OPHTALMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-OPHT-0001__GLAUCOME_PAR_FERMETURE_DE_L_ANGLE.md"
         }
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-OPHT-0001"
+      ]
     },
     {
       "partie": "CHI",
@@ -4699,7 +4797,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-ORL-0001"
+      ]
     },
     {
       "partie": "CHI",
@@ -4734,7 +4834,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-ORL-0002"
+      ]
     },
     {
       "partie": "CHI",
@@ -4785,7 +4887,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-ORL-0003"
+      ]
     },
     {
       "partie": "CHI",
@@ -4821,7 +4925,9 @@
       ],
       "qcm": 15,
       "cas_cliniques": 2,
-      "fiches": []
+      "fiches": [
+        "FIC-NCHI-0001"
+      ]
     },
     {
       "partie": "CHI",
@@ -5097,5 +5203,5 @@
       "fiches": []
     }
   ],
-  "indexe_le": "2026-11-19T03:47:02+00:00"
+  "indexe_le": "2026-11-19T04:19:00+00:00"
 }
