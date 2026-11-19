@@ -6,11 +6,17 @@ sous_specialite: "Nutrition pédiatrique"
 items_residanat: [RES-MED-067]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 16
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0003.md
 sources:
   - id: S1
     reference: "Organisation mondiale de la Santé. Management of severe malnutrition: a manual for physicians and other senior health workers. Genève : OMS ; 1999."
@@ -21,21 +27,21 @@ sources:
     url: ""
     verifiee: false
   - id: S2
-    reference: "Organisation mondiale de la Santé. Guideline: updates on the management of severe acute malnutrition in infants and children. Genève : OMS ; 2013."
+    reference: "Organisation mondiale de la Santé. Guideline: updates on the management of severe acute malnutrition in infants and children. Genève : OMS ; 2013. (Existence confirmée par la bibliographie de DOC-00033, réf. 10 ; partiellement actualisée par [S3].)"
     organisme: OMS
     annee: 2013
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S3
-    reference: "Organisation mondiale de la Santé. WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years. Genève : OMS ; 2023 (publication annoncée fin 2023 — à vérifier)."
+    reference: "Organisation mondiale de la Santé. WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years. Genève : OMS ; 2023. ISBN 978-92-4-008283-0 (version française 2024 : ISBN 978-92-4-010463-1). Documents acquis DOC-00033 et DOC-00061 — texte lu par l'audit."
     organisme: OMS
     annee: 2023
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S4
     reference: "WHO Multicentre Growth Reference Study Group. WHO Child Growth Standards: length/height-for-age, weight-for-age, weight-for-length, weight-for-height and body mass index-for-age. Genève : OMS ; 2006."
     organisme: OMS
@@ -45,21 +51,21 @@ sources:
     url: ""
     verifiee: false
   - id: S5
-    reference: "OMS, UNICEF. WHO child growth standards and the identification of severe acute malnutrition in infants and children: a joint statement. Genève : OMS ; 2009."
+    reference: "OMS, UNICEF. WHO child growth standards and the identification of severe acute malnutrition in infants and children: a joint statement. Genève : OMS ; 2009. (Existence confirmée par la bibliographie du Pocket book 2013, DOC-00063.)"
     organisme: OMS/UNICEF
     annee: 2009
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S6
-    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses. 2e éd. Genève : OMS ; 2013 (chapitre 7 : malnutrition sévère)."
+    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses. 2e éd. Genève : OMS ; 2013 (chapitre 7 : malnutrition sévère ; tableau 8). ISBN 978 92 4 154837 3. Document acquis DOC-00063 (stockage local) — texte lu par l'audit."
     organisme: OMS
     annee: 2013
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S7
     reference: "Waterlow JC. Classification and definition of protein-calorie malnutrition. Br Med J. 1972;3(5826):566-569."
     organisme: ""
@@ -132,6 +138,7 @@ mots_cles: [malnutrition protéino-calorique, malnutrition aiguë sévère, éma
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > **Avertissement de vérification (19/11/2026)** : le budget de recherche web de la session était épuisé avant la vérification des références de ce dossier. Toutes les sources internationales sont marquées `verifiee: false` ; les repères chiffrés (seuils, volumes, compositions) correspondent aux protocoles OMS classiques et doivent être contrôlés lors de l'audit (AUD-02, AUD-04), en particulier pour les mises à jour de la ligne directrice OMS de 2023 [S3].
+> **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : posologies et volumes confrontés au Pocket book OMS 2013 (DOC-00063) ; critères d'orientation, de sortie, ration d'ATPE, MAM et nourrisson < 6 mois mis à jour selon la ligne directrice OMS 2023 (DOC-00033). Correction critique : dose d'amoxicilline orale en relais de la MAS compliquée. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0003.md`.
 
 **Items du programme couverts** : RES-MED-067 — « Malnutrition protéino-calorique : Diagnostic - évolution - traitement ».
 
@@ -191,7 +198,7 @@ Un z-score de −2 correspond approximativement au 2,3ᵉ percentile ; −3 au 0
 | **2006** | **Normes de croissance de l'enfant de l'OMS** (étude multicentrique sur des enfants allaités en bonne santé) [S4] |
 | **2009** | Déclaration conjointe OMS/UNICEF : seuils P/T < −3 z selon les normes 2006 et **PB < 115 mm** [S5] |
 | **2013** | Mise à jour OMS (antibiotiques systématiques, vitamine A, critères de sortie, nourrissons < 6 mois, VIH) [S2] |
-| **2023** | Ligne directrice OMS sur la **prévention et la prise en charge de l'émaciation et de l'œdème nutritionnel** chez l'enfant de moins de 5 ans [S3] **[contenu À VÉRIFIER]** |
+| **2023** | Ligne directrice OMS sur la **prévention et la prise en charge de l'émaciation et de l'œdème nutritionnel** chez l'enfant de moins de 5 ans : nourrisson < 6 mois « à risque de mauvaise croissance et de mauvais développement », critères d'orientation et de sortie révisés, ration d'ATPE, approche graduée de la MAM [S3] |
 
 ## 3. Épidémiologie
 
@@ -342,7 +349,7 @@ La **rougeole** est particulièrement grave chez l'enfant dénutri (pneumonie, d
 | **Poids/taille normal** | Normal | Malnutrition chronique « compensée » (*stunting*) |
 | **Poids/taille bas (émaciation)** | Malnutrition aiguë | Malnutrition aiguë sur chronique |
 
-*(Seuils de Waterlow : P/T < 80 % = émaciation, < 70 % = sévère ; T/A < 95 % = retard, < 85 % = sévère — repères à confronter à la source [S7].)*
+*(Seuils de Waterlow : P/T 80–90 % = émaciation légère, 70–80 % = modérée, < 70 % = sévère ; T/A 90–95 % = retard léger, 85–90 % = modéré, < 85 % = sévère — repères à confronter à la source [S7].)*
 
 ### 7.2 Classification actuelle de l'OMS (enfants de 6 à 59 mois)
 
@@ -370,15 +377,15 @@ La **rougeole** est particulièrement grave chez l'enfant dénutri (pneumonie, d
 |---|---|---|
 | Appétit (test à l'ATPE) | **Conservé** | **Absent** (échec du test) |
 | Complications médicales | Absentes | **Présentes** : vomissements incoercibles, convulsions, léthargie, hypoglycémie, hypothermie, déshydratation sévère, pneumonie, fièvre élevée, anémie sévère, lésions cutanées étendues, signes oculaires sévères |
-| Œdèmes | Absents ou + / ++ (selon les protocoles) | **+++** (ou œdèmes + émaciation sévère) |
-| Âge | ≥ 6 mois | < 6 mois (ou < 4 kg) → hospitalisation |
+| Œdèmes | Absents ou + / ++ | **+++** (œdèmes + émaciation sévère selon certains protocoles nationaux) |
+| Signes de danger PCIME | Absents | **Présents** |
 | Prise en charge | **Ambulatoire** (ATPE à domicile) | **Hospitalière** (10 étapes OMS) |
 
-[S2, S6] **[critères exacts selon la ligne directrice OMS 2023 À VÉRIFIER — S3]**
+[S2, S6] — **OMS 2023 (recommandation B2)** [S3] : hospitaliser l'enfant de 6–59 mois atteint d'émaciation sévère et/ou d'œdème nutritionnel s'il présente **un signe de danger PCIME**, un **problème médical aigu**, des **œdèmes +++** ou un **échec du test d'appétit** ; une **évaluation approfondie** est requise en cas de problème médical à explorer (ex. diarrhée sanglante, hypoglycémie), de maladie chronique associée, d'absence de progression en ambulatoire ou d'épisode antérieur ; sinon prise en charge **ambulatoire**. Le transfert vers l'ambulatoire repose sur des critères cliniques (absence de signe de danger depuis 24–48 h, problème médical résolu, œdèmes < +++ et en régression, bon appétit), **pas sur l'anthropométrie** (B3).
 
 ### 7.4 Nourrisson de moins de 6 mois
 
-Les critères anthropométriques sont moins validés à cet âge ; la MAS est retenue sur le P/T < −3 z ou la présence d'œdèmes, et surtout sur des critères **cliniques et fonctionnels** (succion inefficace, perte de poids, absence de prise pondérale) ; la ligne directrice de 2023 introduit la notion de nourrisson « **à risque de mauvaise croissance et de mauvais développement** » [S3] **[À VÉRIFIER]**.
+Les critères anthropométriques sont moins validés à cet âge ; la ligne directrice de 2023 remplace l'approche centrée sur la MAS par la notion de nourrisson « **à risque de mauvaise croissance et de mauvais développement** » [S3] : croissance insuffisante sur mesures successives (absence de prise ou perte de poids, croisement descendant des couloirs), ou, sur une mesure isolée, **P/A < −2 z**, **P/T < −2 z**, **œdème nutritionnel**, **PB < 110 mm (de 6 semaines à 6 mois)**, ou facteurs de risque (inquiétude neurodéveloppementale, difficultés d'alimentation, problème de santé maternel, antécédent d'hospitalisation, prématurité/petit poids de naissance). Hospitalisation si **signe de danger PCIME**, problème médical aigu grave, **œdème** ou **perte de poids récente** ; sinon évaluation approfondie ou suivi **ambulatoire** (recommandation A2).
 
 ## 8. Diagnostic positif — clinique
 
@@ -449,12 +456,12 @@ Le diagnostic de MAS est **clinique et anthropométrique** ; aucun examen ne doi
 ### 10.1 Formes selon le type
 
 - **Marasme**, **kwashiorkor**, **kwashiorkor marasmique** (§8.2).
-- **Malnutrition aiguë modérée** : enfant maigre, actif, sans complication ; prise en charge par conseils nutritionnels, aliments de supplémentation et traitement des causes [S3] **[modalités 2023 À VÉRIFIER]**.
+- **Malnutrition aiguë modérée** : enfant maigre, actif, sans complication ; OMS 2023 [S3] : alimentation dense en nutriments et conseils pour tous, évaluation et traitement des causes ; **aliments spécialement formulés** (de préférence suppléments nutritionnels à base de lipides) **ciblés** sur les enfants à risque (PB 115–119 mm, P/A < −3 z, âge < 24 mois, échec ou rechute, antécédent de MAS, comorbidité, circonstances sociales graves) ou sur tous en contexte de crise humanitaire, apportant 40–60 % de besoins estimés à 100–130 kcal/kg/j (recommandations B11–B16).
 - **Malnutrition chronique (retard de croissance)** : petite taille pour l'âge, poids proportionné ; séquelle de carences prolongées, souvent dès la vie fœtale ; impact cognitif et économique à long terme ; prévention dans la « **fenêtre des 1 000 jours** » (de la conception à 2 ans).
 
 ### 10.2 Formes selon l'âge
 
-- **Nourrisson de moins de 6 mois** : souvent lié à un échec de l'allaitement, à une maladie maternelle, à un décès maternel ou à une pathologie de l'enfant ; priorité au **rétablissement de l'allaitement** (technique de **supplémentation par succion** : tube fin collé au mamelon apportant du lait thérapeutique pendant la tétée) ; lait thérapeutique adapté (F-75 ou **F-100 dilué**, jamais le F-100 non dilué, trop riche en solutés pour le rein immature) [S2, S6].
+- **Nourrisson de moins de 6 mois** : souvent lié à un échec de l'allaitement, à une maladie maternelle, à un décès maternel ou à une pathologie de l'enfant ; priorité au **rétablissement de l'allaitement** (technique de **supplémentation par succion** : tube fin collé au mamelon apportant du lait thérapeutique pendant la tétée) ; supplément adapté : lait maternel exprimé, à défaut lait infantile, F-75 ou **F-100 dilué** (en cas d'œdème : lait infantile ou F-75) ; **pas de F-100 non dilué** chez le nourrisson instable, diarrhéique, déshydraté ou œdémateux (charge osmotique rénale, risque de déshydratation hypernatrémique) [S2, S3 (A7)].
 - **Adolescent** : penser aux troubles des conduites alimentaires (anorexie mentale), aux maladies chroniques.
 
 ### 10.3 Formes selon le terrain
@@ -558,16 +565,16 @@ Distinguer : **petite taille constitutionnelle ou familiale** (poids proportionn
 |---|---|---|
 | **Hypoglycémie** — enfant conscient | **50 mL de glucose (ou saccharose) à 10 %** par voie orale ou par sonde nasogastrique, puis repas de F-75 dans les 30 minutes, puis repas toutes les 2 h | [S1, S6] |
 | **Hypoglycémie** — enfant inconscient ou convulsant | **Glucosé à 10 % IV, 5 mL/kg**, puis 50 mL de glucose à 10 % par sonde, et repas fréquents | [S6] |
-| **Antibiothérapie — MAS non compliquée** (ambulatoire) | **Amoxicilline orale** pendant **5 à 7 jours** **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | [S2] |
-| **Antibiothérapie — MAS compliquée** (hospitalisée) | **Ampicilline 50 mg/kg IM/IV toutes les 6 h pendant 2 jours**, puis **amoxicilline orale 15 mg/kg toutes les 8 h pendant 5 jours** **+ gentamicine 7,5 mg/kg IM/IV une fois par jour pendant 7 jours** ; si pas d'amélioration en 48 h ou infection grave : **ceftriaxone** (posologie selon le protocole) **[À VÉRIFIER — S6 ; posologie de l'amoxicilline orale actualisée dans d'autres documents OMS]** | [S6] |
-| **Vitamine A** | Pas de forte dose systématique si l'enfant reçoit F-75/F-100/ATPE enrichis (mise à jour 2013) ; **en cas de signes oculaires ou de rougeole** : forte dose à **J1, J2 et J14** — **50 000 UI** (< 6 mois), **100 000 UI** (6–12 mois), **200 000 UI** (> 12 mois) | [S2, S6] |
-| **Acide folique** | **5 mg à J1**, puis 1 mg/j (si non inclus dans les produits) | [S1, S6] |
-| **Fer** | **3 mg/kg/j** de fer élément, **seulement en phase de réhabilitation** (quand l'enfant prend du poids) et **pas en plus de l'ATPE** qui en contient | [S1, S6] |
+| **Antibiothérapie — MAS non compliquée** (ambulatoire) | **Amoxicilline orale 25 mg/kg deux fois par jour pendant 5 jours** (posologie générale de l'annexe 2 du Pocket book, à laquelle renvoie le chapitre 7) ; recommandation maintenue par l'OMS en 2023 (recommandation 3.1) | [S2, S3, S6] |
+| **Antibiothérapie — MAS compliquée** (hospitalisée) | **Ampicilline 50 mg/kg IM/IV toutes les 6 h** (ou benzylpénicilline 50 000 UI/kg toutes les 6 h) **pendant 2 jours**, puis **amoxicilline orale 25–40 mg/kg toutes les 8 h pendant 5 jours**, **+ gentamicine 7,5 mg/kg IM/IV une fois par jour pendant 7 jours** ; schéma à adapter aux résistances locales ; traitement spécifique des infections identifiées (méningite, pneumonie, dysenterie, infection cutanée) ; si l'anorexie persiste après 7 jours, compléter 10 jours | [S6] |
+| **Vitamine A** | Pas de forte dose systématique si l'enfant reçoit F-75/F-100/ATPE enrichis (mise à jour 2013) ; **en cas de signes oculaires de carence ou de rougeole récente** : forte dose à **J1, J2 et J14** — **50 000 UI** (< 6 mois), **100 000 UI** (6–12 mois), **200 000 UI** (> 12 mois) | [S2, S6] |
+| **Acide folique** | **5 mg à J1**, puis 1 mg/j pendant au moins 2 semaines (seulement si l'enfant ne reçoit pas de produits thérapeutiques prémélangés) | [S1, S6] |
+| **Fer** | **3 mg/kg/j**, débuté **après 2 jours de F-100** (phase de réhabilitation), **jamais en stabilisation** et **pas en plus de l'ATPE** qui en contient | [S1, S6] |
 | **Potassium, magnésium** | Inclus dans F-75/ReSoMal/CMV (repères : K ≈ 3–4 mmol/kg/j, Mg ≈ 0,4–0,6 mmol/kg/j) | [S1] |
 | **Zinc, cuivre** | Inclus dans les produits (repères : zinc ≈ 2 mg/kg/j, cuivre ≈ 0,3 mg/kg/j) | [S1] |
-| **Vaccination antirougeoleuse** | Enfant **≥ 6 mois non vacciné** : vacciner à l'admission (dose supplémentaire, ne remplace pas les doses du calendrier) | [S6] |
-| **Déparasitage** | Albendazole ou mébendazole **en phase de réhabilitation** chez l'enfant de plus de 1 an (posologie selon l'âge) **[POSOLOGIE À VÉRIFIER]** | [S6] |
-| **Transfusion** | Hb < 4 g/dL, ou < 6 g/dL avec détresse respiratoire : **culot globulaire 10 mL/kg en 3 heures** (sang total 10 mL/kg si culot indisponible), surveillance des signes de surcharge | [S6] |
+| **Vaccination antirougeoleuse** | Enfant **≥ 6 mois non vacciné**, ou vacciné avant 9 mois : vacciner à l'admission (dose supplémentaire, ne remplace pas les doses du calendrier) ; **différer en cas de choc** | [S6] |
+| **Déparasitage** | En cas d'helminthiase, **en phase de réhabilitation** : **mébendazole 100 mg deux fois par jour pendant 3 jours** ou albendazole en dose unique (dose d'albendazole selon l'âge **[POSOLOGIE À VÉRIFIER — RCP]**) | [S6] |
+| **Transfusion** (dans les 24 premières heures seulement) | Hb < 4 g/dL, ou 4–6 g/dL avec détresse respiratoire : **sang total 10 mL/kg lentement en 3 heures** + **furosémide 1 mg/kg IV** au début de la transfusion ; **culot globulaire 10 mL/kg** si insuffisance cardiaque ; surveillance toutes les 15 min (ralentir si FR + 5/min ou FC + 25/min) ; ne pas répéter dans les 4 jours | [S6] |
 
 ### 13.3 Stratégie : les 10 étapes de l'OMS (prise en charge hospitalière de la MAS compliquée)
 
@@ -596,7 +603,7 @@ Distinguer : **petite taille constitutionnelle ou familiale** (poids proportionn
 
 **Étape 2 — Hypothermie.** Température rectale < 35,5 °C (axillaire < 35 °C) : nourrir immédiatement, réchauffer (méthode « **kangourou** » peau à peau avec la mère, couvertures, bonnet, pièce chauffée, lampe à distance), traiter l'hypoglycémie et l'infection associées. Éviter les bouillottes (brûlures).
 
-**Étape 3 — Déshydratation.** Diagnostic difficile (§8.3 et DOS-PEDI-0001 §10.6). Réhydratation **orale ou par sonde** au **ReSoMal** : **5 mL/kg toutes les 30 minutes pendant 2 heures**, puis **5 à 10 mL/kg/h** pendant 4 à 10 heures, en alternant avec F-75 ; arrêter dès que l'enfant est réhydraté (ou si signes de surcharge). **Choc** (léthargie + extrémités froides + TRC allongé + pouls faible) : soluté IV (Ringer lactate glucosé à 5 % ou équivalent recommandé) **15 mL/kg en 1 heure**, réévaluation ; si amélioration, répéter 15 mL/kg en 1 heure puis relais par ReSoMal ; si absence d'amélioration : choc septique probable → **transfusion** 10 mL/kg en 3 heures, antibiothérapie [S6].
+**Étape 3 — Déshydratation.** Diagnostic difficile (§8.3 et DOS-PEDI-0001 §10.6). Réhydratation **orale ou par sonde** au **ReSoMal** : **5 mL/kg toutes les 30 minutes pendant 2 heures**, puis **5 à 10 mL/kg/h** pendant 4 à 10 heures, en alternant avec F-75 ; arrêter dès que l'enfant est réhydraté (ou si signes de surcharge). Si le ReSoMal n'est pas disponible, l'OMS 2023 admet le **SRO à osmolarité réduite** (recommandation B7) [S3]. **Choc** (léthargie + extrémités froides + TRC allongé + pouls faible) : **15 mL/kg en 1 heure** de Ringer lactate glucosé à 5 %, de Darrow demi-concentré glucosé ou de NaCl 0,45 % glucosé à 5 % ; si amélioration, répéter 15 mL/kg en 1 heure puis relais par ReSoMal 10 mL/kg/h (jusqu'à 10 h) ; en l'absence d'amélioration après deux bolus : choc septique probable → soluté d'entretien 4 mL/kg/h en attendant le sang, **transfusion de sang total frais 10 mL/kg en 3 heures** (culot si insuffisance cardiaque), antibiothérapie IV ; arrêter la perfusion si la FR augmente de 5/min et la FC de 15/min, si le foie augmente ou si des crépitants apparaissent [S6, tableau 8].
 
 **Étape 4 — Électrolytes.** Apport de **potassium** et de **magnésium** (inclus dans F-75 et ReSoMal) ; **ne pas traiter les œdèmes par des diurétiques** ; **ne pas apporter de sodium** en excès (le sodium total est en excès malgré une natrémie basse).
 
@@ -625,11 +632,11 @@ Interprétation (phase de réhabilitation, repères OMS [S1]) :
 
 #### Prise en charge ambulatoire (MAS non compliquée)
 
-Approche communautaire validée par l'OMS et l'UNICEF : l'enfant de 6 à 59 mois atteint de MAS **sans complication** et ayant **réussi le test d'appétit** reçoit de l'**ATPE à domicile** (ration adaptée au poids, de l'ordre de **150 à 200 kcal/kg/j**), une antibiothérapie orale, et est revu en consultation **chaque semaine ou toutes les deux semaines** (poids, PB, œdèmes, appétit, complications) [S2] **[ration et périodicité exactes À VÉRIFIER — S3]**. Tout enfant qui développe une complication, perd l'appétit ou ne progresse pas est **hospitalisé**.
+Approche communautaire validée par l'OMS et l'UNICEF : l'enfant de 6 à 59 mois atteint de MAS **sans complication** et ayant **réussi le test d'appétit** reçoit de l'**ATPE à domicile** — **150 à 185 kcal/kg/j** jusqu'à la récupération anthropométrique et la disparition des œdèmes, ou 150–185 kcal/kg/j jusqu'à la sortie de l'émaciation sévère puis **100 à 130 kcal/kg/j** jusqu'à la récupération (OMS 2023, recommandation B10) [S3] —, une antibiothérapie orale, et est revu en consultation **chaque semaine ou toutes les deux semaines** (poids, PB, œdèmes, appétit, complications) [S2] **[périodicité selon le protocole national À VÉRIFIER]**. Tout enfant qui développe une complication, perd l'appétit ou ne progresse pas est **hospitalisé**.
 
 #### Nourrisson de moins de 6 mois
 
-Hospitalisation, rétablissement de la lactation (soutien de la mère, alimentation et repos de la mère, technique de supplémentation par succion), F-75 puis **F-100 dilué** ou lait infantile si l'allaitement est impossible, antibiothérapie, traitement de la mère [S2, S6].
+Hospitalisation si signe de danger, problème médical aigu, œdème ou perte de poids récente ; sinon prise en charge **ambulatoire** possible après évaluation (OMS 2023, A2) [S3]. Rétablissement de la lactation (soutien de la mère, alimentation et repos de la mère, technique de supplémentation par succion), supplément adapté (lait maternel exprimé, lait infantile, F-75 ou **F-100 dilué**), antibiothérapie (parentérale si hospitalisé, amoxicilline orale sinon), soutien de la santé physique et mentale de la mère [S2, S3, S6].
 
 #### Prévention et traitement du syndrome de renutrition
 
@@ -661,12 +668,15 @@ Hospitalisation, rétablissement de la lactation (soutien de la mère, alimentat
 | **Biologie** | Selon gravité (ionogramme, phosphore, magnésium, NFS) | Syndrome de renutrition, anémie |
 | **Développement, comportement** | Continu | Éveil, sourire, jeu |
 
-**Critères de sortie (OMS 2013)** [S2] :
+**Critères de sortie du traitement nutritionnel (OMS 2023, recommandation B5)** [S3] :
 
-- **P/T ≥ −2 z** ou **PB ≥ 125 mm** — en utilisant **le même critère que celui de l'admission** ;
-- **absence d'œdèmes depuis au moins 2 semaines** ;
-- (la sortie de l'hôpital vers le programme ambulatoire peut intervenir **dès que les complications sont résolues, l'appétit revenu et les œdèmes en régression**, l'enfant poursuivant l'ATPE à domicile) ;
-- le **pourcentage de gain de poids** (ex. 15 %) **n'est plus recommandé** comme critère de sortie.
+- **P/T ≥ −2 z ET PB ≥ 125 mm**, constatés lors d'**au moins 2 visites ou mesures consécutives** ;
+- **absence d'œdème nutritionnel** lors d'**au moins 2 visites consécutives** ;
+- le **pourcentage de gain** et le **gain absolu de poids** ne doivent **pas** être utilisés ;
+- orientation préalable des enfants atteints d'une maladie chronique associée ou en situation sociale vulnérable vers les services adaptés.
+- (Le **transfert** de l'hôpital vers l'ambulatoire intervient **dès que les complications sont résolues, l'appétit revenu et les œdèmes < +++ et en régression**, sans critère anthropométrique, l'enfant poursuivant l'ATPE à domicile — B3.)
+
+*Critères antérieurs (OMS 2013, remplacés) : P/T ≥ −2 z **ou** PB ≥ 125 mm selon l'indicateur d'admission, et absence d'œdèmes depuis au moins 2 semaines [S2].*
 
 Après la sortie : suivi régulier (poids, taille, PB), surveillance du développement, vaccinations, soutien social.
 
@@ -695,15 +705,18 @@ ENFANT DE 6 À 59 MOIS — DÉPISTAGE (P/T, PB, ŒDÈMES)
 │
 └─ P/T < −3 z ou PB < 115 mm ou œdèmes bilatéraux → MAS
       │
-      ├─ Complications médicales ? (léthargie, convulsions, hypothermie, hypoglycémie,
-      │  déshydratation sévère, choc, pneumonie, vomissements incoercibles, anémie sévère,
-      │  œdèmes +++, lésions cutanées étendues, signes oculaires graves) ou âge < 6 mois ?
+      ├─ Signe de danger PCIME ou problème médical aigu ? (léthargie, convulsions, hypothermie,
+      │  hypoglycémie, déshydratation sévère, choc, pneumonie avec détresse respiratoire,
+      │  vomissements incoercibles, anémie sévère, lésions cutanées étendues, signes oculaires
+      │  graves) ou œdèmes +++ ?
       │     └─ OUI → HOSPITALISATION : 10 étapes OMS (F-75 → F-100/ATPE)
+      │  (nourrisson < 6 mois : approche spécifique « à risque de mauvaise croissance », §7.4)
       │
       └─ NON → TEST D'APPÉTIT (ATPE)
             ├─ Échec → HOSPITALISATION
-            └─ Réussite → PRISE EN CHARGE AMBULATOIRE : ATPE à domicile, amoxicilline,
-                           suivi hebdomadaire ; retour à l'hôpital si complication
+            └─ Réussite → PRISE EN CHARGE AMBULATOIRE : ATPE à domicile (150–185 kcal/kg/j),
+                           amoxicilline, suivi hebdomadaire ; retour à l'hôpital si complication
+                           SORTIE : P/T ≥ −2 z ET PB ≥ 125 mm et pas d'œdème (2 visites consécutives)
 
 Dans tous les cas : rechercher une cause secondaire (cœliaquie, mucoviscidose, cardiopathie,
 tuberculose, VIH, néphropathie), vérifier les vaccinations, évaluer le contexte social.
@@ -725,7 +738,7 @@ tuberculose, VIH, néphropathie), vérifier les vaccinations, évaluer le contex
 50 mL de glucose à 10 % per os ou par sonde, puis F-75 toutes les 2 heures jour et nuit ; réchauffement (peau à peau avec la mère, couverture, bonnet) ; **F-75 à 100 mL/kg/j** si les œdèmes progressent vers le stade +++ (130 mL/kg/j sinon), par sonde si la prise est insuffisante ; **antibiothérapie** (ampicilline + gentamicine selon le schéma OMS [S6]) ; **pas de diurétique**, **pas de perfusion** (pas de choc), **pas de fer** ; acide folique, micronutriments via le F-75 ; **vaccination antirougeoleuse** (ROR) puisque la 2ᵉ dose manque. Bilan : NFS, ionogramme, phosphore, magnésium, albumine, CRP, hémoculture, ECBU, radiographie thoracique, recherche de tuberculose, examen parasitologique des selles.
 
 **Question 4 — Évolution.**
-À J4, l'appétit revient, les œdèmes régressent ; le poids diminue à 8,3 kg (fonte des œdèmes : ce n'est pas un échec). Transition vers le F-100 puis l'ATPE. À J9, la phosphorémie est contrôlée normale. En réhabilitation, gain moyen de 12 g/kg/j. Sortie vers le suivi ambulatoire lorsque l'appétit est bon et les complications résolues, la guérison nutritionnelle étant affirmée sur le PB ≥ 125 mm et l'absence d'œdèmes depuis 2 semaines.
+À J4, l'appétit revient, les œdèmes régressent ; le poids diminue à 8,3 kg (fonte des œdèmes : ce n'est pas un échec). Transition vers le F-100 puis l'ATPE. À J9, la phosphorémie est contrôlée normale. En réhabilitation, gain moyen de 12 g/kg/j. Transfert vers le suivi ambulatoire lorsque l'appétit est bon, les complications résolues et les œdèmes en régression ; la sortie du traitement nutritionnel (OMS 2023) exige P/T ≥ −2 z **et** PB ≥ 125 mm ainsi que l'absence d'œdème, constatés à deux visites consécutives.
 
 **Question 5 — Prévention de la rechute ?**
 Éducation nutritionnelle (aliments locaux riches en protéines : lait, œufs, légumineuses, viande ou poisson ; huile ajoutée aux bouillies ; repas fréquents), hygiène, vaccinations, suivi de la courbe, évaluation du contexte social.
@@ -737,13 +750,13 @@ tuberculose, VIH, néphropathie), vérifier les vaccinations, évaluer le contex
 1. MAS (6–59 mois) = **P/T < −3 z** ou **PB < 115 mm** ou **œdèmes bilatéraux prenant le godet** (normes OMS 2006).
 2. **Marasme** : émaciation extrême sans œdème, enfant éveillé et affamé ; **kwashiorkor** : œdèmes, dermatose, cheveux décolorés, hépatomégalie, apathie, anorexie.
 3. L'**adaptation réductive** explique la fragilité : hypoglycémie, hypothermie, infections sans fièvre, intolérance à la surcharge hydrosodée, Na intracellulaire élevé et K bas.
-4. MAS **compliquée** ou échec du **test d'appétit** ou âge < 6 mois → **hospitalisation** ; MAS non compliquée → **ATPE en ambulatoire**.
+4. MAS **compliquée** (signe de danger, problème médical aigu), **œdèmes +++** ou échec du **test d'appétit** → **hospitalisation** ; MAS non compliquée → **ATPE en ambulatoire** (150–185 kcal/kg/j) ; nourrisson < 6 mois : approche « à risque de mauvaise croissance » (OMS 2023).
 5. Les **10 étapes de l'OMS** : hypoglycémie, hypothermie, déshydratation, électrolytes, infections, micronutriments, alimentation prudente, croissance de rattrapage, stimulation, suivi.
 6. **F-75** (75 kcal/100 mL) à **130 mL/kg/j** (100 si œdèmes sévères) en stabilisation ; **F-100** ou **ATPE** en réhabilitation (150–220 kcal/kg/j).
-7. **ReSoMal** et non le SRO standard ; perfusion **uniquement en cas de choc** (15 mL/kg en 1 h).
+7. **ReSoMal** (à défaut SRO à osmolarité réduite, OMS 2023), jamais l'ancien SRO standard ; perfusion **uniquement en cas de choc** (15 mL/kg en 1 h).
 8. **Antibiothérapie systématique** ; **pas de fer** en stabilisation ; **pas de diurétique** pour les œdèmes.
 9. Risque de **syndrome de renutrition** (hypophosphatémie) : progression lente, surveillance.
-10. Critères de sortie : **P/T ≥ −2 z ou PB ≥ 125 mm** (même indicateur qu'à l'admission) **et absence d'œdèmes ≥ 2 semaines**.
+10. Critères de sortie (OMS 2023) : **P/T ≥ −2 z ET PB ≥ 125 mm** et **absence d'œdème**, à **deux visites consécutives** (les critères de 2013 — un seul indicateur, celui de l'admission — sont remplacés).
 11. Toujours rechercher une **cause secondaire** (cœliaquie, mucoviscidose, cardiopathie, tuberculose, VIH).
 
 ## 19. Pièges classiques à l'examen
@@ -751,7 +764,7 @@ tuberculose, VIH, néphropathie), vérifier les vaccinations, évaluer le contex
 - Se fier au **poids** chez un enfant œdémateux.
 - Traiter les œdèmes du kwashiorkor par **diurétiques** ou par **albumine**.
 - Perfuser un malnutri « parce qu'il a le pli cutané » (surestimation de la déshydratation).
-- Utiliser le **SRO standard** au lieu du ReSoMal chez le malnutri sévère (hors choléra).
+- Utiliser l'**ancien SRO standard** (Na 90 mmol/L) chez le malnutri sévère : ReSoMal en première intention, SRO à osmolarité réduite seulement si le ReSoMal manque (OMS 2023).
 - Donner du **fer dès l'admission**.
 - Attendre la **fièvre** pour débuter une antibiothérapie.
 - Corriger l'**hyponatrémie** par des apports sodés.
@@ -793,30 +806,30 @@ A. Ampicilline + gentamicine pour la MAS compliquée — B. Gentamicine en une p
 A. Une hypophosphatémie — B. Une hypokaliémie — C. Une hypomagnésémie — D. Un risque de carence aiguë en thiamine — E. Une hypercalcémie
 > **Réponses : A, B, C, D.**
 
-**QCM 8 (QCM-PEDI-0033).** Critères de sortie de la MAS selon l'OMS (2013) :
-A. Poids/taille ≥ −2 z — B. Périmètre brachial ≥ 125 mm — C. Absence d'œdèmes depuis au moins 2 semaines — D. Gain de 15 % du poids d'admission — E. Albuminémie normalisée
-> **Réponses : A, B, C** (en utilisant le même indicateur qu'à l'admission). Le pourcentage de gain n'est plus un critère.
+**QCM 8 (QCM-PEDI-0033).** Critères de sortie du traitement nutritionnel de la MAS selon la ligne directrice OMS 2023 :
+A. Poids/taille ≥ −2 z et périmètre brachial ≥ 125 mm, tous deux atteints — B. Absence d'œdème nutritionnel à deux visites consécutives — C. Un seul indicateur suffit, celui utilisé à l'admission — D. Gain de 15 % du poids d'admission — E. Albuminémie normalisée
+> **Réponses : A, B** (critères anthropométriques constatés à deux visites consécutives). C correspond à la règle de 2013, remplacée ; le gain de poids n'est plus un critère [S3].
 
 ## 21. Divergences entre recommandations
 
 | Question | Position ancienne | Position plus récente | Commentaire |
 |---|---|---|---|
 | **Indicateurs et références** | Classifications en % de la médiane (Gómez 1956, Wellcome 1970, Waterlow 1972) ; référence NCHS/OMS 1977 | z-scores selon les **normes OMS 2006** ; seuil de PB relevé de 110 à **115 mm** (déclaration conjointe 2009) [S5] | Les normes 2006 identifient davantage d'enfants comme émaciés sévères que l'ancienne référence |
-| **Antibiotiques dans la MAS non compliquée** | Manuel OMS 1999 : antibiothérapie large en milieu hospitalier [S1] | OMS 2013 : **amoxicilline orale systématique** même en ambulatoire [S2] ; certains essais ont discuté son intérêt dans des contextes à faible risque **[À VÉRIFIER — S3]** | Débat ouvert selon le contexte épidémiologique |
+| **Antibiotiques dans la MAS non compliquée** | Manuel OMS 1999 : antibiothérapie large en milieu hospitalier [S1] | OMS 2013 : **amoxicilline orale systématique** même en ambulatoire [S2] — **maintenue en 2023** (recommandation 3.1) ; l'OMS 2023 déconseille en revanche la **prophylaxie quotidienne par cotrimoxazole** après la sortie chez l'enfant VIH-négatif (C4) [S3] | Le débat sur l'intérêt de l'amoxicilline dans les contextes à faible risque n'a pas modifié la recommandation |
 | **Vitamine A** | Forte dose **systématique** à l'admission (1999) [S1] | Pas de forte dose systématique si produits enrichis ; forte dose si signes oculaires ou rougeole (2013) [S2] | Évite le surdosage |
-| **Critères de sortie** | Gain de **15–20 %** du poids, P/T ≥ −1 z ou 85 % de la médiane | **Même indicateur qu'à l'admission** (P/T ≥ −2 z ou PB ≥ 125 mm) + absence d'œdèmes ≥ 2 semaines (2013) [S2] | Le % de gain est biaisé par les œdèmes |
-| **Nourrisson < 6 mois** | Approche hospitalière proche de celle de l'enfant plus grand | OMS 2013 puis 2023 : priorité au **soutien de l'allaitement**, notion de nourrisson à risque de mauvaise croissance ; prise en charge ambulatoire possible dans certains cas [S2, S3] **[À VÉRIFIER]** | — |
-| **MAM** | Aliments de supplémentation pour tous | OMS 2023 : approche graduée selon le risque **[À VÉRIFIER]** [S3] | — |
-| **Liquides IV dans le choc du malnutri** | 15 mL/kg/h de solutés hypotoniques glucosés (Darrow demi-concentré glucosé) [S1] | Ringer lactate glucosé à 5 % ou équivalent isotonique, volumes réduits [S6] | Le principe de prudence volumique persiste |
+| **Critères de sortie** | Gain de **15–20 %** du poids, P/T ≥ −1 z ou 85 % de la médiane ; puis (2013) **même indicateur qu'à l'admission** (P/T ≥ −2 z ou PB ≥ 125 mm) + absence d'œdèmes ≥ 2 semaines [S2] | OMS 2023 : **P/T ≥ −2 z ET PB ≥ 125 mm** + absence d'œdème, **à deux visites consécutives** ; gain de poids non utilisé [S3] | Le % de gain est biaisé par les œdèmes ; le double critère limite les sorties prématurées |
+| **Nourrisson < 6 mois** | Approche hospitalière proche de celle de l'enfant plus grand | OMS 2013 puis 2023 : priorité au **soutien de l'allaitement**, notion de nourrisson **à risque de mauvaise croissance et de mauvais développement** ; hospitalisation seulement si signe de danger, problème aigu, œdème ou perte de poids récente, sinon suivi ambulatoire (A2) [S2, S3] | — |
+| **MAM** | Aliments de supplémentation pour tous | OMS 2023 : alimentation dense en nutriments pour tous ; aliments spécialement formulés **ciblés** sur les enfants à risque ou en crise humanitaire (B11–B16) [S3] | — |
+| **Réhydratation sans choc du malnutri** | OMS 1999 et 2013 : **ReSoMal** exclusivement [S1, S6] | OMS 2023 : ReSoMal préféré ; **SRO à osmolarité réduite** si ReSoMal indisponible (B7) [S3] | Le choc garde le même schéma (15 mL/kg en 1 h de Ringer lactate glucosé, Darrow demi-concentré glucosé ou NaCl 0,45 % glucosé) dans les documents de 1999 et 2013 [S1, S6] |
 
 ## 22. Références
 
 1. [S1] OMS. *Management of severe malnutrition: a manual for physicians and other senior health workers*, 1999 — non vérifiée en session.
-2. [S2] OMS. *Guideline: updates on the management of severe acute malnutrition in infants and children*, 2013 — non vérifiée en session.
-3. [S3] OMS. *WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years*, 2023 — non vérifiée en session (existence et contenu à confirmer).
+2. [S2] OMS. *Guideline: updates on the management of severe acute malnutrition in infants and children*, 2013 — **vérifiée** (existence : bibliographie de DOC-00033) ; partiellement remplacée par [S3].
+3. [S3] OMS. *WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years*, 2023 — **vérifiée** (DOC-00033 / DOC-00061, texte lu par l'audit).
 4. [S4] WHO Multicentre Growth Reference Study Group. *WHO Child Growth Standards*, 2006 — non vérifiée en session.
-5. [S5] OMS/UNICEF. Déclaration conjointe sur les normes de croissance et l'identification de la MAS, 2009 — non vérifiée en session.
-6. [S6] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 — non vérifiée en session.
+5. [S5] OMS/UNICEF. Déclaration conjointe sur les normes de croissance et l'identification de la MAS, 2009 — **vérifiée** (existence : bibliographie de DOC-00063).
+6. [S6] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 — **vérifiée** (DOC-00063, texte lu par l'audit).
 7. [S7] Waterlow JC. *Br Med J* 1972;3(5826):566-569 — non vérifiée en session.
 8. [S8] Wellcome Trust Working Party. *Lancet* 1970;2(7667):302-303 — non vérifiée en session.
 9. [S9] Gómez F, et al. *J Trop Pediatr* 1956;2(2):77-83 — non vérifiée en session.

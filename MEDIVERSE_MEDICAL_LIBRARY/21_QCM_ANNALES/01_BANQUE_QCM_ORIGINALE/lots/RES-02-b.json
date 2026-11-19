@@ -1,0 +1,950 @@
+{
+  "agent": "RES-02",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-IMMU-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la structure des immunoglobulines, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une immunoglobuline monomérique est formée de deux chaînes lourdes et de deux chaînes légères reliées par des ponts disulfure.",
+        "B": "Le fragment Fab porte le site de liaison à l'antigène.",
+        "C": "Le fragment Fc détermine les fonctions effectrices et la fixation au complément ou aux récepteurs cellulaires.",
+        "D": "La diversité des sites de reconnaissance repose sur les régions variables, notamment les régions hypervariables (CDR).",
+        "E": "Toutes les classes d'immunoglobulines partagent le même type de chaîne lourde."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les immunoglobulines sont des glycoprotéines en forme de Y, formées de deux chaînes lourdes et de deux chaînes légères (kappa ou lambda) reliées par des ponts disulfure. Chaque chaîne comporte une région variable (reconnaissance de l'antigène, régions hypervariables ou CDR) et une région constante. Le fragment Fab lie l'antigène ; le fragment Fc porte les fonctions effectrices (complément, récepteurs Fc). La classe (isotype) dépend du type de chaîne lourde (gamma, mu, alpha, epsilon, delta). Cette structure explique la double fonction de reconnaissance et d'effecteur et sous-tend les techniques immunologiques et les anticorps thérapeutiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les chaînes légères sont de type kappa ou lambda.",
+        "B": "Vrai : Il comprend les domaines variables et les premiers domaines constants des chaînes lourde et légère.",
+        "C": "Vrai : Il est responsable de l'opsonisation et de l'activation du complément (voie classique).",
+        "D": "Vrai : Ces régions déterminent la spécificité de l'anticorps.",
+        "E": "Faux : La classe (isotype) est définie par le type de chaîne lourde : gamma (IgG), mu (IgM), alpha (IgA), epsilon (IgE), delta (IgD)."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-037"
+      ],
+      "theme": "Structure des immunoglobulines",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que toutes les immunoglobulines ont la même chaîne lourde.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology. 9e éd. Garland Science ; 2017 [catalogue OUV-0188].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les classes d'immunoglobulines et leurs propriétés, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'IgG est l'immunoglobuline majoritaire du sérum et la seule à traverser le placenta.",
+        "B": "L'IgM est la première immunoglobuline produite lors d'une primo-infection.",
+        "C": "L'IgA sécrétoire protège les muqueuses.",
+        "D": "L'IgE est impliquée dans les réactions d'hypersensibilité immédiate et la défense antiparasitaire.",
+        "E": "L'IgM traverse le placenta plus facilement que l'IgG."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les cinq classes d'immunoglobulines ont des rôles distincts : l'IgG (majoritaire, transplacentaire, opsonisation, neutralisation, réponse secondaire), l'IgM (première produite, pentamérique, puissant activateur du complément, marqueur d'infection récente), l'IgA (défense des muqueuses sous forme sécrétoire), l'IgE (hypersensibilité immédiate, défense antiparasitaire) et l'IgD (rôle de récepteur sur les lymphocytes B). Le passage transplacentaire des IgG protège le nouveau-né ; la détection d'IgM spécifiques signe une production par le sujet lui-même. Ces propriétés fondent l'interprétation des sérologies et le diagnostic des déficits immunitaires.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle assure une protection du nouveau-né durant les premiers mois de vie.",
+        "B": "Vrai : Sa présence oriente vers une infection récente ; elle est pentamérique et active fortement le complément.",
+        "C": "Vrai : Elle est présente dans les sécrétions (salive, lait, sécrétions digestives et respiratoires) sous forme dimérique associée à une pièce sécrétoire.",
+        "D": "Vrai : Elle se fixe sur les mastocytes et les basophiles par son fragment Fc.",
+        "E": "Faux : L'IgM, pentamérique et de grande taille, ne traverse pas le placenta ; la présence d'IgM spécifiques chez le nouveau-né évoque une infection congénitale."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-037"
+      ],
+      "theme": "Classes d'immunoglobulines et fonctions",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'IgM traverse le placenta.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology. 9e éd. Garland Science ; 2017 [catalogue OUV-0188].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exploration et les variations des immunoglobulines, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un pic monoclonal étroit dans la zone des gammaglobulines évoque une immunoglobuline monoclonale.",
+        "B": "Une hypogammaglobulinémie profonde expose à des infections récidivantes.",
+        "C": "Une hypergammaglobulinémie polyclonale évoque une stimulation immunitaire chronique (infection, maladie auto-immune, hépatopathie).",
+        "D": "Le dosage pondéral des immunoglobulines (IgG, IgA, IgM) complète l'électrophorèse.",
+        "E": "Un pic monoclonal est toujours synonyme de myélome multiple."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'exploration des immunoglobulines repose sur l'électrophorèse des protéines sériques (profil de la fraction gamma), l'immunofixation (caractérisation d'un composant monoclonal) et le dosage pondéral des classes. Les variations comprennent les hypogammaglobulinémies (déficits humoraux, pertes, myélome), les hypergammaglobulinémies polyclonales (stimulation immunitaire chronique) et les composants monoclonaux (gammapathie monoclonale de signification indéterminée, myélome, maladie de Waldenström). Un pic monoclonal impose un bilan étiologique, car toutes les gammapathies ne sont pas malignes. Ces explorations orientent le diagnostic des déficits immunitaires et des dysglobulinémies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il faut en préciser l'isotype par immunofixation (myélome, Waldenström, gammapathie de signification indéterminée).",
+        "B": "Vrai : Elle peut être primitive (déficit immunitaire) ou secondaire (myélome, syndrome néphrotique, traitements).",
+        "C": "Vrai : Elle apparaît comme une augmentation diffuse de la fraction gamma à l'électrophorèse.",
+        "D": "Vrai : Il aide au diagnostic des déficits immunitaires humoraux et au suivi des gammapathies.",
+        "E": "Faux : Un pic monoclonal peut correspondre à une gammapathie monoclonale de signification indéterminée, bien plus fréquente, ou à d'autres hémopathies ; le myélome n'est qu'une des causes."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-037"
+      ],
+      "theme": "Variations physiopathologiques et exploration des immunoglobulines",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Assimiler systématiquement un pic monoclonal à un myélome.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Rifai N, Horvath AR, Wittwer CT (éd.). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. 8e éd. Elsevier ; 2019 [catalogue OUV-0226].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5008",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle classe d'immunoglobulines traverse la barrière placentaire et protège le nouveau-né durant les premiers mois ?",
+      "propositions": {
+        "A": "L'IgG.",
+        "B": "L'IgM.",
+        "C": "L'IgA.",
+        "D": "L'IgE.",
+        "E": "L'IgD."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "L'IgG est la seule immunoglobuline à traverser le placenta, par un transport actif médié par le récepteur Fc néonatal. Ce transfert, surtout au troisième trimestre, confère au nouveau-né une immunité passive durant les premiers mois, le temps que son propre système immunitaire mûrisse. Cela explique la vulnérabilité des grands prématurés et l'intérêt de la vaccination maternelle. La présence d'IgM spécifiques chez le nouveau-né, qui ne traversent pas le placenta, témoigne d'une production par le fœtus lui-même et oriente vers une infection congénitale. L'IgA du lait maternel protège, elle, les muqueuses digestives.",
+      "explications_par_proposition": {
+        "A": "Vrai : Seule l'IgG franchit le placenta, par transport actif via les récepteurs Fc néonataux, assurant une immunité passive transitoire.",
+        "B": "Faux : Pentamérique et de grande taille, elle ne traverse pas le placenta.",
+        "C": "Faux : Elle protège les muqueuses et est apportée au nouveau-né par le lait maternel, mais ne traverse pas le placenta.",
+        "D": "Faux : Impliquée dans l'allergie, elle ne traverse pas le placenta.",
+        "E": "Faux : Rôle de récepteur lymphocytaire B, sans passage transplacentaire."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-037"
+      ],
+      "theme": "Immunoglobuline transmise au fœtus",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer le passage transplacentaire à l'IgM ou à l'IgA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology. 9e éd. Garland Science ; 2017 [catalogue OUV-0188].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les mécanismes des maladies auto-immunes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les maladies auto-immunes résultent d'une rupture de la tolérance au soi.",
+        "B": "Elles peuvent être spécifiques d'organe ou systémiques.",
+        "C": "Une prédisposition génétique, notamment liée à certains allèles HLA, intervient dans de nombreuses maladies auto-immunes.",
+        "D": "Le sexe féminin est un facteur de risque de nombreuses maladies auto-immunes systémiques.",
+        "E": "Les maladies auto-immunes sont toujours dues à un déficit complet de l'immunité."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les maladies auto-immunes résultent d'une rupture de la tolérance immunitaire, d'origine multifactorielle : prédisposition génétique (allèles HLA notamment), facteurs environnementaux (infections, médicaments, UV), facteurs hormonaux (prédominance féminine). Les mécanismes lésionnels associent auto-anticorps et lymphocytes T auto-réactifs (hypersensibilités de types II, III ou IV). On distingue les atteintes spécifiques d'organe (thyroïde, pancréas, estomac) des maladies systémiques (lupus, polyarthrite rhumatoïde). La compréhension de ces mécanismes guide le diagnostic immunologique et les traitements immunomodulateurs.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les mécanismes de tolérance centrale (thymus, moelle) et périphérique sont alors défaillants.",
+        "B": "Vrai : Exemples : thyroïdite de Hashimoto (spécifique d'organe), lupus érythémateux systémique (systémique).",
+        "C": "Vrai : Associée à des facteurs environnementaux déclenchants (infections, médicaments).",
+        "D": "Vrai : Comme le lupus, nettement plus fréquent chez la femme.",
+        "E": "Faux : Elles traduisent une réponse immunitaire dirigée à tort contre le soi, non un déficit immunitaire global (bien que certains déficits puissent favoriser l'auto-immunité)."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-038"
+      ],
+      "theme": "Mécanismes de l'auto-immunité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre auto-immunité (réponse contre le soi) et déficit immunitaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-5010",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel auto-anticorps est considéré comme très spécifique du lupus érythémateux systémique ?",
+      "propositions": {
+        "A": "Le facteur rhumatoïde.",
+        "B": "Les anticorps anti-ADN natif (double brin).",
+        "C": "Les anticorps anti-thyroperoxydase.",
+        "D": "Les anticorps anti-mitochondries.",
+        "E": "Les anticorps anti-peptides citrullinés (anti-CCP)."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Dans le lupus érythémateux systémique, les anticorps antinucléaires sont presque constants mais peu spécifiques. Les anticorps anti-ADN natif (double brin) et anti-Sm sont, eux, très spécifiques et font partie des critères de classification ; le taux d'anti-ADN natif est souvent corrélé à l'activité de la maladie et à l'atteinte rénale. D'autres auto-anticorps orientent vers d'autres maladies : anti-CCP et facteur rhumatoïde (polyarthrite rhumatoïde), anti-thyroperoxydase (thyroïdites), anti-mitochondries (cholangite biliaire primitive), anticorps anti-cytoplasme des polynucléaires neutrophiles (vascularites). La spécificité de ces marqueurs guide le diagnostic.",
+      "explications_par_proposition": {
+        "A": "Faux : Il est surtout associé à la polyarthrite rhumatoïde et peut être présent dans d'autres situations ; il n'est pas spécifique du lupus.",
+        "B": "Vrai : Très spécifiques du lupus systémique, ils sont corrélés à l'activité, notamment rénale ; les anticorps anti-Sm sont également spécifiques.",
+        "C": "Faux : Ils sont associés aux thyroïdites auto-immunes.",
+        "D": "Faux : Ils sont caractéristiques de la cirrhose biliaire primitive (cholangite biliaire primitive).",
+        "E": "Faux : Ils sont spécifiques de la polyarthrite rhumatoïde."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-038"
+      ],
+      "theme": "Auto-anticorps spécifique du lupus",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer au facteur rhumatoïde une spécificité pour le lupus.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMPA-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exploration immunologique des maladies auto-immunes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les anticorps antinucléaires sont un test de dépistage de première intention dans le lupus systémique.",
+        "B": "Les anticorps anti-ADN natif (double brin) sont spécifiques du lupus érythémateux systémique.",
+        "C": "Les anticorps anti-peptides citrullinés (anti-CCP) ont un intérêt diagnostique et pronostique dans la polyarthrite rhumatoïde.",
+        "D": "La recherche d'auto-anticorps doit toujours être interprétée en fonction du contexte clinique.",
+        "E": "La présence d'anticorps antinucléaires affirme à elle seule le diagnostic de lupus."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'exploration des maladies auto-immunes repose sur la détection d'auto-anticorps, interprétée selon le contexte. Les anticorps antinucléaires sont un test de dépistage sensible mais peu spécifique ; leur positivité conduit à rechercher des anticorps spécifiques (anti-ADN natif et anti-Sm pour le lupus, anti-CCP et facteur rhumatoïde pour la polyarthrite rhumatoïde, anticorps anti-thyroperoxydase pour les thyroïdites, etc.). Certains anticorps sont corrélés à l'activité de la maladie. Aucun test n'est à lui seul diagnostique : l'interprétation intègre la clinique, la biologie et parfois l'histologie. Ces examens guident le diagnostic, le pronostic et le suivi.",
+      "explications_par_proposition": {
+        "A": "Vrai : Leur positivité impose la recherche d'anticorps plus spécifiques.",
+        "B": "Vrai : Leur taux peut être corrélé à l'activité de la maladie, notamment rénale.",
+        "C": "Vrai : Ils sont plus spécifiques que le facteur rhumatoïde.",
+        "D": "Vrai : Certains auto-anticorps peuvent être présents chez des sujets sains, surtout à faible titre.",
+        "E": "Faux : Les anticorps antinucléaires sont sensibles mais peu spécifiques (présents dans d'autres maladies et chez des sujets sains) ; le diagnostic repose sur un faisceau d'arguments cliniques et biologiques."
+      },
+      "specialite": "IMPA",
+      "items_residanat": [
+        "RES-SF-038"
+      ],
+      "theme": "Exploration des maladies auto-immunes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Poser le diagnostic de lupus sur la seule positivité des anticorps antinucléaires.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMPA-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les mécanismes effecteurs des maladies auto-immunes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Dans certaines maladies auto-immunes, des auto-anticorps se lient à des antigènes cellulaires et entraînent une cytotoxicité (hypersensibilité de type II).",
+        "B": "Des complexes immuns peuvent se déposer dans les tissus et activer le complément (hypersensibilité de type III).",
+        "C": "Des lymphocytes T auto-réactifs peuvent provoquer des lésions tissulaires (hypersensibilité de type IV).",
+        "D": "Certains auto-anticorps peuvent être stimulants en se fixant sur un récepteur.",
+        "E": "Les maladies auto-immunes relèvent exclusivement de l'hypersensibilité de type I (IgE)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les lésions des maladies auto-immunes s'expliquent par les mécanismes d'hypersensibilité de Gell et Coombs, hormis le type I (IgE, allergie). Le type II met en jeu des auto-anticorps cytotoxiques ou fonctionnels (bloquants comme dans la myasthénie, ou stimulants comme dans la maladie de Basedow). Le type III repose sur le dépôt de complexes immuns et l'activation du complément (atteinte rénale lupique). Le type IV est médié par les lymphocytes T (diabète de type 1, certaines thyroïdites). Un même agent peut associer plusieurs mécanismes. Cette classification éclaire la physiopathologie et oriente les thérapeutiques ciblées.",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemples : anémies hémolytiques auto-immunes, syndrome de Goodpasture.",
+        "B": "Vrai : Comme dans l'atteinte rénale du lupus.",
+        "C": "Vrai : Exemple : destruction des cellules bêta pancréatiques dans le diabète de type 1.",
+        "D": "Vrai : Exemple : les anticorps anti-récepteur de la TSH dans la maladie de Basedow (hyperthyroïdie).",
+        "E": "Faux : L'hypersensibilité de type I (IgE) caractérise l'allergie immédiate ; les maladies auto-immunes relèvent surtout des types II, III et IV."
+      },
+      "specialite": "IMPA",
+      "items_residanat": [
+        "RES-SF-038"
+      ],
+      "theme": "Hypersensibilités impliquées dans l'auto-immunité",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Rattacher les maladies auto-immunes à l'hypersensibilité de type I.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 [catalogue OUV-0189].",
+          "date": "2018"
+        },
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les lésions élémentaires de la cellule, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dégénérescence vacuolaire (œdème cellulaire) est une lésion potentiellement réversible.",
+        "B": "La stéatose correspond à l'accumulation anormale de lipides dans le cytoplasme.",
+        "C": "La nécrose est une forme de mort cellulaire accidentelle accompagnée d'une réaction inflammatoire.",
+        "D": "L'apoptose est une mort cellulaire programmée sans réaction inflammatoire notable.",
+        "E": "Toute lésion cellulaire aboutit nécessairement et immédiatement à la mort de la cellule."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les agressions cellulaires (ischémie, toxiques, agents physiques, infections) entraînent d'abord des lésions réversibles (œdème cellulaire, stéatose, accumulations) puis, au-delà d'un seuil, des lésions irréversibles conduisant à la mort cellulaire. On distingue la nécrose (mort accidentelle, gonflement, rupture membranaire, inflammation) de l'apoptose (mort programmée, condensation, corps apoptotiques, sans inflammation). D'autres surcharges (pigments, calcium) peuvent survenir. La connaissance de ces lésions élémentaires est à la base de l'anatomie pathologique et de la compréhension des mécanismes lésionnels.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle résulte d'un dysfonctionnement des pompes ioniques membranaires avec entrée d'eau.",
+        "B": "Vrai : Fréquente dans le foie (alcool, obésité, toxiques).",
+        "C": "Vrai : Elle fait suite à une agression intense (ischémie, toxique, infection).",
+        "D": "Vrai : Elle joue un rôle physiologique (embryogenèse, renouvellement tissulaire) et pathologique.",
+        "E": "Faux : De nombreuses lésions sont réversibles si l'agression cesse à temps ; la mort survient quand un seuil d'irréversibilité est franchi."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-039"
+      ],
+      "theme": "Lésions cellulaires réversibles et irréversibles",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que toute lésion cellulaire est d'emblée irréversible.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les différents types de nécrose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La nécrose de coagulation est caractéristique de l'ischémie des organes solides (sauf le cerveau).",
+        "B": "La nécrose de liquéfaction s'observe typiquement dans le système nerveux central et dans les infections à pyogènes.",
+        "C": "La nécrose caséeuse est évocatrice de la tuberculose.",
+        "D": "La stéatonécrose (cytostéatonécrose) s'observe au cours de la pancréatite aiguë.",
+        "E": "La nécrose fibrinoïde correspond à une mort cellulaire sans aucune atteinte vasculaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La nécrose, mort cellulaire accidentelle, prend des aspects morphologiques variés selon le tissu et la cause : nécrose de coagulation (ischémie des organes solides, architecture conservée), de liquéfaction (cerveau, abcès à pyogènes), caséeuse (tuberculose), gangreneuse (ischémie des membres, parfois surinfectée), stéatonécrose (pancréatite aiguë) et fibrinoïde (paroi vasculaire, vascularites, hypertension maligne). La reconnaissance de ces types oriente le diagnostic étiologique en anatomie pathologique. La nécrose s'accompagne d'une réaction inflammatoire, à la différence de l'apoptose.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'architecture tissulaire est initialement conservée ; exemple : infarctus du myocarde.",
+        "B": "Vrai : Le tissu est transformé en une masse liquide (ramollissement cérébral, abcès).",
+        "C": "Vrai : Aspect macroscopique de « fromage blanc », au centre des granulomes épithélioïdes et gigantocellulaires.",
+        "D": "Vrai : Les lipases libérées hydrolysent les graisses, formant des savons calciques.",
+        "E": "Faux : La nécrose fibrinoïde touche la paroi des vaisseaux (dépôt de matériel fibrinoïde) et s'observe dans les vascularites et l'hypertension artérielle maligne."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-039"
+      ],
+      "theme": "Types de nécrose",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Rattacher la nécrose caséeuse à l'ischémie plutôt qu'à la tuberculose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'apoptose et les adaptations cellulaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'apoptose fait intervenir des caspases et aboutit à la formation de corps apoptotiques phagocytés sans inflammation.",
+        "B": "L'hypertrophie est une augmentation du volume cellulaire aboutissant à l'augmentation du volume de l'organe.",
+        "C": "L'hyperplasie est une augmentation du nombre de cellules.",
+        "D": "La métaplasie est le remplacement d'un tissu différencié par un autre tissu différencié de même type.",
+        "E": "L'atrophie correspond à une augmentation de la taille et de la fonction d'un organe."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Face à un stress, les cellules s'adaptent : hypertrophie (augmentation de taille), hyperplasie (augmentation du nombre), atrophie (diminution), métaplasie (remplacement par un autre tissu différencié, souvent réaction d'adaptation mais pouvant précéder une dysplasie). Lorsque les capacités d'adaptation sont dépassées surviennent les lésions, réversibles puis irréversibles. L'apoptose, mort programmée médiée par les caspases (voies intrinsèque mitochondriale et extrinsèque des récepteurs de mort), élimine les cellules de façon ordonnée et sans inflammation ; son dérèglement intervient dans le cancer et les maladies dégénératives. Ces notions sont fondamentales en pathologie générale.",
+      "explications_par_proposition": {
+        "A": "Vrai : Deux voies principales : intrinsèque (mitochondriale) et extrinsèque (récepteurs de mort).",
+        "B": "Vrai : Exemple : hypertrophie myocardique en réponse à une surcharge de pression.",
+        "C": "Vrai : Exemple : hyperplasie de l'endomètre sous stimulation œstrogénique.",
+        "D": "Vrai : Exemple : métaplasie malpighienne de l'épithélium bronchique chez le fumeur.",
+        "E": "Faux : L'atrophie est une diminution de la taille et de la fonction (par réduction du volume ou du nombre de cellules)."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-039"
+      ],
+      "theme": "Apoptose et adaptations cellulaires",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre hypertrophie (taille) et hyperplasie (nombre), ou définir l'atrophie comme une augmentation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5004",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle affirmation caractérise l'apoptose par rapport à la nécrose ?",
+      "propositions": {
+        "A": "Elle est programmée et ne s'accompagne habituellement pas de réaction inflammatoire.",
+        "B": "Elle s'accompagne toujours d'une intense réaction inflammatoire.",
+        "C": "Elle résulte exclusivement d'une agression toxique externe.",
+        "D": "Elle touche toujours de larges plages de tissu simultanément.",
+        "E": "Elle se caractérise par un gonflement cellulaire et une rupture précoce de la membrane."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "L'apoptose et la nécrose sont deux modes de mort cellulaire aux caractéristiques opposées. L'apoptose est une mort programmée, active, touchant des cellules isolées, avec condensation de la chromatine, rétraction cellulaire, formation de corps apoptotiques phagocytés, sans réaction inflammatoire ; elle est médiée par les caspases. La nécrose est une mort accidentelle, passive, avec gonflement cellulaire, rupture membranaire, libération du contenu et réaction inflammatoire, touchant souvent des plages tissulaires. Le dérèglement de l'apoptose intervient dans de nombreuses pathologies (cancers, maladies dégénératives, auto-immunité). Cette distinction est centrale en pathologie générale.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les cellules se fragmentent en corps apoptotiques phagocytés, sans libération massive du contenu cellulaire.",
+        "B": "Faux : C'est la nécrose qui s'accompagne d'inflammation ; l'apoptose en est habituellement dépourvue.",
+        "C": "Faux : L'apoptose peut être physiologique (développement, renouvellement) ou pathologique, et fait intervenir des voies régulées.",
+        "D": "Faux : L'apoptose touche typiquement des cellules isolées, alors que la nécrose touche souvent des plages tissulaires.",
+        "E": "Faux : Le gonflement et la rupture membranaire caractérisent la nécrose ; l'apoptose s'accompagne d'une rétraction cellulaire et d'une condensation."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-039"
+      ],
+      "theme": "Mort cellulaire programmée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à l'apoptose le gonflement et l'inflammation propres à la nécrose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la fibrose et la pathologie du tissu intercellulaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La fibrose est une augmentation du tissu conjonctif, en particulier des fibres de collagène, dans un organe.",
+        "B": "Les myofibroblastes jouent un rôle central dans la production de matrice au cours de la fibrose.",
+        "C": "La cirrhose est l'aboutissement d'une fibrose hépatique mutilante avec désorganisation de l'architecture et nodules de régénération.",
+        "D": "La fibrose peut altérer la fonction de l'organe atteint.",
+        "E": "La fibrose est toujours un processus réversible et sans conséquence fonctionnelle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le tissu intercellulaire (matrice extracellulaire et substance fondamentale) peut être le siège de surcharges et de remaniements. La fibrose, accumulation de tissu conjonctif (surtout collagène) produit par les myofibroblastes, fait suite à une inflammation chronique ou à la réparation d'une nécrose. Elle peut être localisée ou diffuse et retentir sur la fonction de l'organe (cirrhose hépatique, fibrose pulmonaire, fibrose rénale). Les surcharges de la substance fondamentale incluent aussi les hyalinoses et les mucopolysaccharidoses. La compréhension de ces processus éclaire l'évolution des maladies chroniques vers l'insuffisance d'organe.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle résulte souvent de l'évolution d'une inflammation chronique ou de la cicatrisation d'une nécrose.",
+        "B": "Vrai : Ils synthétisent le collagène et assurent une rétraction du tissu.",
+        "C": "Vrai : Elle fait suite à des agressions chroniques (alcool, hépatites virales, stéatohépatite).",
+        "D": "Vrai : Par exemple, la fibrose pulmonaire réduit la compliance et les échanges gazeux.",
+        "E": "Faux : La fibrose constituée est souvent peu ou pas réversible et peut gravement altérer la fonction de l'organe."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-040"
+      ],
+      "theme": "Pathologie du tissu intercellulaire : fibrose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la fibrose constituée est toujours réversible et sans conséquence.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les surcharges du tissu intercellulaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le terme d'hyalin désigne un aspect microscopique homogène, éosinophile et vitreux.",
+        "B": "La hyalinose peut toucher la paroi des vaisseaux, notamment au cours de l'hypertension artérielle et du diabète.",
+        "C": "Les mucopolysaccharidoses sont des maladies de surcharge liée à un déficit enzymatique entraînant l'accumulation de glycosaminoglycanes.",
+        "D": "L'aspect hyalin correspond toujours à un dépôt d'amylose.",
+        "E": "Les dépôts de la matrice extracellulaire n'ont jamais de traduction pathologique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La pathologie du tissu intercellulaire comprend les fibroses et diverses surcharges de la matrice et de la substance fondamentale. L'aspect « hyalin » (homogène, éosinophile, vitreux) est non spécifique et recouvre des substances diverses (protéines plasmatiques, collagène condensé). La hyalinose artériolaire s'observe dans l'hypertension et le diabète. Les mucopolysaccharidoses, maladies lysosomales héréditaires, accumulent des glycosaminoglycanes. L'amylose, dépôt protéique organisé en feuillets bêta plissés, est identifiée par le rouge Congo. La reconnaissance de ces surcharges, par l'histologie et des colorations spéciales, oriente le diagnostic étiologique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il correspond à des matériaux de nature variée (protéines, collagène condensé).",
+        "B": "Vrai : L'artériolosclérose hyaline en est un exemple.",
+        "C": "Vrai : Ce sont des maladies lysosomales héréditaires.",
+        "D": "Faux : L'aspect hyalin est non spécifique ; l'amylose est un type particulier de dépôt, identifié par la coloration au rouge Congo (biréfringence vert-jaune en lumière polarisée).",
+        "E": "Faux : Ces dépôts (hyalin, amylose, surcharges) peuvent gravement altérer la structure et la fonction des organes."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-040"
+      ],
+      "theme": "Hyalinose et dépôts de la matrice",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Assimiler tout aspect hyalin à de l'amylose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la cicatrisation et la réparation tissulaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La réparation peut se faire par régénération (restitution du tissu d'origine) ou par cicatrisation fibreuse.",
+        "B": "Le tissu de granulation est un tissu conjonctif jeune, richement vascularisé, qui comble la perte de substance.",
+        "C": "Les cellules labiles (épithéliums, moelle osseuse) ont une forte capacité de régénération.",
+        "D": "Une cicatrisation excessive peut aboutir à une cicatrice hypertrophique ou à une chéloïde.",
+        "E": "Les neurones centraux et les cardiomyocytes se régénèrent facilement après une lésion."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La réparation d'une lésion associe, selon le tissu, régénération (restitution à l'identique, possible pour les cellules labiles comme les épithéliums, ou stables comme les hépatocytes) et cicatrisation fibreuse (remplacement par du tissu conjonctif). La cicatrisation passe par l'inflammation, la formation d'un tissu de granulation vascularisé, puis la maturation collagène et la rétraction. Les cellules permanentes (neurones, cardiomyocytes) ne se régénèrent pas et sont remplacées par une cicatrice. Des anomalies de la cicatrisation (chéloïdes, cicatrices hypertrophiques, retards de cicatrisation) peuvent survenir. Ces mécanismes expliquent les séquelles fonctionnelles de nombreuses lésions.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle dépend de la capacité proliférative des cellules et de l'intégrité de la trame.",
+        "B": "Vrai : Il comprend néovaisseaux, fibroblastes et cellules inflammatoires.",
+        "C": "Vrai : À l'inverse, les cellules permanentes (neurones, cardiomyocytes) ont une capacité de régénération très limitée.",
+        "D": "Vrai : Par production exagérée de matrice collagène.",
+        "E": "Faux : Ce sont des cellules permanentes à capacité de régénération très limitée : la réparation se fait surtout par cicatrice (gliose, cicatrice fibreuse myocardique)."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-040"
+      ],
+      "theme": "Cicatrisation et réparation tissulaire",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les neurones et les cardiomyocytes se régénèrent aisément.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'œdème et la congestion, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'œdème est une accumulation anormale de liquide dans les espaces interstitiels ou les cavités.",
+        "B": "Une diminution de la pression oncotique (hypoalbuminémie) favorise la formation d'œdèmes.",
+        "C": "Une augmentation de la pression hydrostatique capillaire favorise l'œdème.",
+        "D": "La congestion est une augmentation du volume sanguin dans un tissu.",
+        "E": "L'œdème inflammatoire est un transsudat pauvre en protéines."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'œdème traduit un déséquilibre des échanges capillaires (loi de Starling) ou une rétention hydrosodée. Ses mécanismes incluent l'augmentation de la pression hydrostatique (insuffisance cardiaque, obstacle veineux), la diminution de la pression oncotique (hypoalbuminémie), l'augmentation de la perméabilité capillaire (inflammation) et l'obstruction lymphatique (lymphœdème). On distingue le transsudat (pauvre en protéines, mécanismes mécaniques) de l'exsudat (riche en protéines, inflammation). La congestion, augmentation du contenu sanguin, est active (hyperhémie) ou passive (stase, par exemple le foie cardiaque). Ces notions sont fondamentales en pathologie hémodynamique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il résulte d'un déséquilibre des forces de Starling ou d'une rétention hydrosodée.",
+        "B": "Vrai : Comme dans le syndrome néphrotique ou l'insuffisance hépatique.",
+        "C": "Vrai : Comme dans l'insuffisance cardiaque ou l'obstruction veineuse.",
+        "D": "Vrai : Elle peut être active (hyperhémie, vasodilatation artériolaire) ou passive (stase veineuse).",
+        "E": "Faux : L'œdème inflammatoire est un exsudat riche en protéines (augmentation de la perméabilité capillaire) ; le transsudat pauvre en protéines correspond aux œdèmes mécaniques (insuffisance cardiaque, hypoalbuminémie)."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-041"
+      ],
+      "theme": "Œdème et congestion",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre transsudat (mécanique, pauvre en protéines) et exsudat (inflammatoire, riche en protéines).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la thrombose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La triade de Virchow associe lésion endothéliale, stase ou turbulence du flux sanguin et hypercoagulabilité.",
+        "B": "Un thrombus se distingue d'un caillot post-mortem par son adhérence à la paroi et sa structure (stries de Zahn).",
+        "C": "L'évolution d'un thrombus peut se faire vers l'organisation, la recanalisation, l'embolisation ou la lyse.",
+        "D": "La stase veineuse favorise la thrombose veineuse profonde, par exemple lors d'une immobilisation prolongée.",
+        "E": "Un thrombus artériel est généralement rouge et riche en fibrine et hématies."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La thrombose est la formation d'un caillot (thrombus) dans un vaisseau ou une cavité cardiaque chez le vivant. Elle résulte de la triade de Virchow : lésion endothéliale, anomalie du flux (stase, turbulence) et hypercoagulabilité. Les thrombus artériels, formés dans un flux rapide, sont surtout plaquettaires (blancs) ; les thrombus veineux, dans un flux lent, sont riches en hématies (rouges). Le thrombus peut évoluer vers la lyse, l'organisation, la recanalisation ou l'embolisation. Ses conséquences (ischémie d'aval, embolie) dépendent du siège. La connaissance de ces mécanismes fonde la prévention et le traitement antithrombotiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces trois facteurs favorisent la formation du thrombus.",
+        "B": "Vrai : Les stries de Zahn témoignent d'une formation dans un sang circulant.",
+        "C": "Vrai : L'organisation l'incorpore à la paroi ; l'embolisation le détache dans la circulation.",
+        "D": "Vrai : D'où la prévention par mobilisation et anticoagulation en situation à risque.",
+        "E": "Faux : Le thrombus artériel, formé dans un flux rapide, est plutôt blanc (riche en plaquettes et fibrine) ; le thrombus veineux, formé dans un flux lent, est rouge (riche en hématies)."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-041"
+      ],
+      "theme": "Thrombose",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Inverser les caractéristiques des thrombus artériels (blancs) et veineux (rouges).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'ischémie, l'infarctus et l'embolie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'infarctus est une nécrose tissulaire ischémique secondaire à l'oblitération d'une artère (ou plus rarement d'une veine).",
+        "B": "Les infarctus des organes à vascularisation terminale (cœur, rein, rate) sont typiquement blancs (anémiques).",
+        "C": "Une embolie correspond à la migration d'un corps étranger (le plus souvent un fragment de thrombus) dans la circulation.",
+        "D": "L'existence d'une circulation collatérale peut limiter les conséquences d'une occlusion artérielle.",
+        "E": "Une embolie ne peut être constituée que d'un thrombus."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'ischémie (diminution ou arrêt de l'apport sanguin) peut aboutir à l'infarctus (nécrose ischémique). L'aspect de l'infarctus dépend de la vascularisation : blanc (anémique) dans les organes à circulation terminale et à tissu dense (cœur, rein, rate), rouge (hémorragique) dans les organes à double circulation ou à tissu lâche (poumon, intestin). L'embolie, migration d'un corps circulant, est le plus souvent cruorique (thrombus) mais peut être gazeuse, graisseuse, amniotique, septique ou tumorale ; l'embolie pulmonaire complique surtout la thrombose veineuse profonde. La circulation collatérale et la rapidité de l'occlusion modulent les conséquences. Ces notions sont centrales en pathologie vasculaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Sa constitution dépend du type de vascularisation et de la rapidité de l'occlusion.",
+        "B": "Vrai : Dans les organes à double circulation ou à tissu lâche (poumon, intestin), ils sont souvent rouges (hémorragiques).",
+        "C": "Vrai : L'embolie pulmonaire provient le plus souvent d'une thrombose veineuse profonde des membres inférieurs.",
+        "D": "Vrai : Elle explique la variabilité de la tolérance à l'ischémie selon les organes.",
+        "E": "Faux : La plupart des embolies sont cruoriques (thrombus), mais il existe des embolies gazeuses, graisseuses, amniotiques, tumorales ou septiques."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-041"
+      ],
+      "theme": "Ischémie, infarctus et embolie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réduire toutes les embolies aux embolies cruoriques.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

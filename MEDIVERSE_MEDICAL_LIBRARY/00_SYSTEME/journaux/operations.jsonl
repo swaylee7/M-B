@@ -544,3 +544,7 @@
 {"date": "2026-11-19T01:57:09+00:00", "agent": "ENC-1", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-1-GAST-HEPA-NEPH.json"}
 {"date": "2026-11-19T01:57:09+00:00", "agent": "ENC-1", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-1-NEUR-PSYC-GERI.json"}
 {"date": "2026-11-19T01:57:13+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T01:57:33+00:00", "agent": "RES-02", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-02-b.json"}
+{"date": "2026-11-19T01:57:33+00:00", "agent": "RES-02", "action": "ajout_qcm", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-02-*.json", "details": {"ajoutes_a": 0, "ajoutes_b": 18, "sources_dsl": ["c08.txt"]}}
+{"date": "2026-11-19T01:57:34+00:00", "agent": "TRA-02", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/lots/TRA-microbiologie-parasitologie.json"}
+{"date": "2026-11-19T01:57:34+00:00", "agent": "TRA-02", "action": "glossaire_lot", "cible": "23_GLOSSAIRES/FR_EN_AR/lots/TRA-microbiologie-parasitologie.json", "details": {"termes": 146, "premier_id": "GLO-04000", "dernier_id": "GLO-04145"}}

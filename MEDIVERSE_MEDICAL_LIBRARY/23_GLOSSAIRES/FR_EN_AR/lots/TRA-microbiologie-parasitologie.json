@@ -1,0 +1,2269 @@
+{
+  "agent": "TRA-02",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-04000",
+      "fr": "microbiologie",
+      "en": "microbiology",
+      "ar": "علم الأحياء الدقيقة",
+      "ar_variantes": [],
+      "definition_fr": "Science des micro-organismes : bactéries, virus, champignons et parasites.",
+      "categorie": "general",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04001",
+      "fr": "bactériologie",
+      "en": "bacteriology",
+      "ar": "علم الجراثيم",
+      "ar_variantes": [],
+      "definition_fr": "Branche de la microbiologie consacrée aux bactéries.",
+      "categorie": "general",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04002",
+      "fr": "virologie",
+      "en": "virology",
+      "ar": "علم الفيروسات",
+      "ar_variantes": [],
+      "definition_fr": "Branche de la microbiologie consacrée aux virus.",
+      "categorie": "general",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04003",
+      "fr": "mycologie",
+      "en": "mycology",
+      "ar": "علم الفطريات",
+      "ar_variantes": [],
+      "definition_fr": "Étude des champignons, notamment pathogènes.",
+      "categorie": "general",
+      "specialites": [
+        "MICR",
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04004",
+      "fr": "parasitologie",
+      "en": "parasitology",
+      "ar": "علم الطفيليات",
+      "ar_variantes": [],
+      "definition_fr": "Étude des parasites et des maladies qu'ils provoquent.",
+      "categorie": "general",
+      "specialites": [
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04005",
+      "fr": "bactérie",
+      "en": "bacterium",
+      "ar": "الجرثومة",
+      "ar_variantes": [
+        "البكتيريا"
+      ],
+      "definition_fr": "Micro-organisme unicellulaire procaryote.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04006",
+      "fr": "virus",
+      "en": "virus",
+      "ar": "الفيروس",
+      "ar_variantes": [
+        "الحُمَة"
+      ],
+      "definition_fr": "Agent infectieux acellulaire formé d'un acide nucléique et d'une capside, parasite intracellulaire obligatoire.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04007",
+      "fr": "champignon microscopique",
+      "en": "fungus",
+      "ar": "الفُطر",
+      "ar_variantes": [],
+      "definition_fr": "Micro-organisme eucaryote levuriforme ou filamenteux.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04008",
+      "fr": "parasite",
+      "en": "parasite",
+      "ar": "الطُّفَيلي",
+      "ar_variantes": [],
+      "definition_fr": "Organisme vivant aux dépens d'un hôte.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04009",
+      "fr": "protozoaire",
+      "en": "protozoan",
+      "ar": "الأوَّلي",
+      "ar_variantes": [
+        "الحيوان الأولي"
+      ],
+      "definition_fr": "Parasite eucaryote unicellulaire.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04010",
+      "fr": "helminthe",
+      "en": "helminth",
+      "ar": "الدودة الطفيلية",
+      "ar_variantes": [],
+      "definition_fr": "Ver parasite pluricellulaire (nématode, cestode, trématode).",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04011",
+      "fr": "prion",
+      "en": "prion",
+      "ar": "البريون",
+      "ar_variantes": [],
+      "definition_fr": "Protéine infectieuse de conformation anormale responsable d'encéphalopathies spongiformes.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04012",
+      "fr": "coloration de Gram",
+      "en": "Gram stain",
+      "ar": "تلوين غرام",
+      "ar_variantes": [],
+      "definition_fr": "Coloration différentielle classant les bactéries en Gram positif et Gram négatif selon leur paroi.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04013",
+      "fr": "bactérie à Gram positif",
+      "en": "Gram-positive bacterium",
+      "ar": "الجرثومة إيجابية الغرام",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie retenant le violet de gentiane grâce à une paroi épaisse de peptidoglycane.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04014",
+      "fr": "bactérie à Gram négatif",
+      "en": "Gram-negative bacterium",
+      "ar": "الجرثومة سلبية الغرام",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie à paroi fine et membrane externe, décolorée par l'alcool.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04015",
+      "fr": "cocci",
+      "en": "cocci",
+      "ar": "المكوَّرات",
+      "ar_variantes": [],
+      "definition_fr": "Bactéries de forme sphérique.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04016",
+      "fr": "bacille",
+      "en": "bacillus",
+      "ar": "العُصَيّة",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie en forme de bâtonnet.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04017",
+      "fr": "spore bactérienne",
+      "en": "bacterial spore",
+      "ar": "البَوغ الجرثومي",
+      "ar_variantes": [],
+      "definition_fr": "Forme de résistance de certaines bactéries aux conditions défavorables.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04018",
+      "fr": "capsule bactérienne",
+      "en": "bacterial capsule",
+      "ar": "المحفظة الجرثومية",
+      "ar_variantes": [],
+      "definition_fr": "Enveloppe polysaccharidique externe protégeant certaines bactéries de la phagocytose.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04019",
+      "fr": "paroi bactérienne",
+      "en": "bacterial cell wall",
+      "ar": "الجدار الجرثومي",
+      "ar_variantes": [],
+      "definition_fr": "Enveloppe rigide de peptidoglycane, cible des bêta-lactamines.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04020",
+      "fr": "plasmide",
+      "en": "plasmid",
+      "ar": "البلازميد",
+      "ar_variantes": [],
+      "definition_fr": "Molécule d'ADN extrachromosomique pouvant porter des gènes de résistance.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04021",
+      "fr": "toxine",
+      "en": "toxin",
+      "ar": "الذِّيفان",
+      "ar_variantes": [],
+      "definition_fr": "Substance toxique produite par un organisme vivant.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04022",
+      "fr": "endotoxine",
+      "en": "endotoxin",
+      "ar": "الذيفان الداخلي",
+      "ar_variantes": [],
+      "definition_fr": "Lipopolysaccharide de la membrane externe des bactéries à Gram négatif.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04023",
+      "fr": "exotoxine",
+      "en": "exotoxin",
+      "ar": "الذيفان الخارجي",
+      "ar_variantes": [],
+      "definition_fr": "Toxine protéique sécrétée par une bactérie.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04024",
+      "fr": "virulence",
+      "en": "virulence",
+      "ar": "الفَوْعة",
+      "ar_variantes": [],
+      "definition_fr": "Degré de pouvoir pathogène d'un micro-organisme.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04025",
+      "fr": "pouvoir pathogène",
+      "en": "pathogenicity",
+      "ar": "الإمراضية",
+      "ar_variantes": [],
+      "definition_fr": "Capacité d'un micro-organisme à provoquer une maladie.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04026",
+      "fr": "bactérie anaérobie",
+      "en": "anaerobic bacterium",
+      "ar": "الجرثومة اللاهوائية",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie se développant en absence d'oxygène.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04027",
+      "fr": "bactérie aérobie",
+      "en": "aerobic bacterium",
+      "ar": "الجرثومة الهوائية",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie nécessitant de l'oxygène pour se développer.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04028",
+      "fr": "microbiote",
+      "en": "microbiota",
+      "ar": "النَّبيت الجرثومي",
+      "ar_variantes": [
+        "الجراثيم المتعايشة"
+      ],
+      "definition_fr": "Ensemble des micro-organismes vivant normalement sur ou dans un organisme.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04029",
+      "fr": "bactérie multirésistante",
+      "en": "multidrug-resistant bacterium",
+      "ar": "الجرثومة متعددة المقاومة",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie résistante à plusieurs familles d'antibiotiques.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04030",
+      "fr": "Staphylococcus aureus",
+      "en": "Staphylococcus aureus",
+      "ar": "العنقودية الذهبية",
+      "ar_variantes": [
+        "المكورات العنقودية الذهبية"
+      ],
+      "definition_fr": "Cocci à Gram positif en amas, responsable de suppurations, toxi-infections et bactériémies.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04031",
+      "fr": "Staphylococcus aureus résistant à la méticilline",
+      "en": "methicillin-resistant Staphylococcus aureus",
+      "ar": "العنقودية الذهبية المقاومة للميثيسيلين",
+      "ar_variantes": [],
+      "definition_fr": "Souche de staphylocoque doré résistante à toutes les bêta-lactamines usuelles (SARM).",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04032",
+      "fr": "Streptococcus pyogenes",
+      "en": "Streptococcus pyogenes",
+      "ar": "العُقَدية المقيِّحة",
+      "ar_variantes": [],
+      "definition_fr": "Streptocoque bêta-hémolytique du groupe A, agent d'angines, d'érysipèle et de complications post-streptococciques.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04033",
+      "fr": "Streptococcus pneumoniae",
+      "en": "Streptococcus pneumoniae",
+      "ar": "العقدية الرئوية",
+      "ar_variantes": [
+        "المكورات الرئوية"
+      ],
+      "definition_fr": "Pneumocoque, diplocoque à Gram positif capsulé, agent de pneumonies, méningites et otites.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04034",
+      "fr": "Enterococcus",
+      "en": "Enterococcus",
+      "ar": "المكورة المعوية",
+      "ar_variantes": [],
+      "definition_fr": "Genre de cocci à Gram positif commensaux du tube digestif, naturellement peu sensibles aux céphalosporines.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04035",
+      "fr": "Escherichia coli",
+      "en": "Escherichia coli",
+      "ar": "الإشريكية القولونية",
+      "ar_variantes": [],
+      "definition_fr": "Entérobactérie commensale du côlon, premier agent des infections urinaires.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04036",
+      "fr": "Klebsiella pneumoniae",
+      "en": "Klebsiella pneumoniae",
+      "ar": "الكلبسيلة الرئوية",
+      "ar_variantes": [],
+      "definition_fr": "Entérobactérie capsulée, fréquente en infections nosocomiales et souvent multirésistante.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04037",
+      "fr": "Proteus mirabilis",
+      "en": "Proteus mirabilis",
+      "ar": "المتقلِّبة الرائعة",
+      "ar_variantes": [],
+      "definition_fr": "Entérobactérie uréasique favorisant les lithiases urinaires infectieuses.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04038",
+      "fr": "Pseudomonas aeruginosa",
+      "en": "Pseudomonas aeruginosa",
+      "ar": "الزائفة الزِّنجارية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille à Gram négatif non fermentant, opportuniste et nosocomial.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04039",
+      "fr": "Acinetobacter baumannii",
+      "en": "Acinetobacter baumannii",
+      "ar": "الراكدة البومانية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille à Gram négatif opportuniste des services de réanimation, souvent multirésistant.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04040",
+      "fr": "Salmonella Typhi",
+      "en": "Salmonella Typhi",
+      "ar": "السلمونيلة التيفية",
+      "ar_variantes": [],
+      "definition_fr": "Sérovar de Salmonella enterica responsable de la fièvre typhoïde.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04041",
+      "fr": "Shigella",
+      "en": "Shigella",
+      "ar": "الشيغيلة",
+      "ar_variantes": [],
+      "definition_fr": "Genre d'entérobactéries invasives responsables de dysenteries bacillaires.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04042",
+      "fr": "Vibrio cholerae",
+      "en": "Vibrio cholerae",
+      "ar": "الضَّمّة الكوليرية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille à Gram négatif incurvé dont la toxine provoque le choléra.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04043",
+      "fr": "Campylobacter",
+      "en": "Campylobacter",
+      "ar": "العَطيفة",
+      "ar_variantes": [],
+      "definition_fr": "Genre de bacilles incurvés responsables de diarrhées infectieuses d'origine alimentaire.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04044",
+      "fr": "Helicobacter pylori",
+      "en": "Helicobacter pylori",
+      "ar": "الملويّة البوابية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille spiralé de l'estomac impliqué dans l'ulcère, la gastrite et le cancer gastrique.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04045",
+      "fr": "Yersinia pestis",
+      "en": "Yersinia pestis",
+      "ar": "اليرسينية الطاعونية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille à Gram négatif agent de la peste.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04046",
+      "fr": "Neisseria meningitidis",
+      "en": "Neisseria meningitidis",
+      "ar": "النيسرية السحائية",
+      "ar_variantes": [
+        "المكورات السحائية"
+      ],
+      "definition_fr": "Méningocoque, diplocoque à Gram négatif responsable de méningites et de purpura fulminans.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04047",
+      "fr": "Neisseria gonorrhoeae",
+      "en": "Neisseria gonorrhoeae",
+      "ar": "النيسرية البُنِّية",
+      "ar_variantes": [
+        "المكورات البنية"
+      ],
+      "definition_fr": "Gonocoque, agent de l'urétrite gonococcique.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04048",
+      "fr": "Haemophilus influenzae",
+      "en": "Haemophilus influenzae",
+      "ar": "المستدمية النزلية",
+      "ar_variantes": [],
+      "definition_fr": "Coccobacille à Gram négatif responsable d'infections ORL, respiratoires et de méningites de l'enfant.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04049",
+      "fr": "Bordetella pertussis",
+      "en": "Bordetella pertussis",
+      "ar": "البورديتيلة الشاهوقية",
+      "ar_variantes": [],
+      "definition_fr": "Coccobacille à Gram négatif agent de la coqueluche.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04050",
+      "fr": "Legionella pneumophila",
+      "en": "Legionella pneumophila",
+      "ar": "الفيلقية المستروِحة",
+      "ar_variantes": [],
+      "definition_fr": "Bacille à Gram négatif d'origine hydrique responsable de la légionellose.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04051",
+      "fr": "Brucella",
+      "en": "Brucella",
+      "ar": "البروسيلة",
+      "ar_variantes": [],
+      "definition_fr": "Genre de coccobacilles intracellulaires agents de la brucellose, zoonose transmise par le lait cru.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04052",
+      "fr": "Mycobacterium tuberculosis",
+      "en": "Mycobacterium tuberculosis",
+      "ar": "المتفطِّرة السلّية",
+      "ar_variantes": [
+        "عُصَيّة كوخ"
+      ],
+      "definition_fr": "Bacille acido-alcoolo-résistant agent de la tuberculose (bacille de Koch).",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04053",
+      "fr": "Mycobacterium leprae",
+      "en": "Mycobacterium leprae",
+      "ar": "المتفطرة الجذامية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille agent de la lèpre.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04054",
+      "fr": "Clostridium tetani",
+      "en": "Clostridium tetani",
+      "ar": "المِطَثِّية الكزازية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille anaérobie sporulé tellurique dont la toxine provoque le tétanos.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04055",
+      "fr": "Clostridioides difficile",
+      "en": "Clostridioides difficile",
+      "ar": "المطثية العسيرة",
+      "ar_variantes": [],
+      "definition_fr": "Bacille anaérobie responsable de colites post-antibiotiques.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04056",
+      "fr": "Clostridium botulinum",
+      "en": "Clostridium botulinum",
+      "ar": "المطثية الوشيقية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille anaérobie dont la toxine provoque le botulisme.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04057",
+      "fr": "Corynebacterium diphtheriae",
+      "en": "Corynebacterium diphtheriae",
+      "ar": "الوتدية الخُناقية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille à Gram positif toxinogène agent de la diphtérie.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04058",
+      "fr": "Listeria monocytogenes",
+      "en": "Listeria monocytogenes",
+      "ar": "الليسترية المستوحِدة",
+      "ar_variantes": [],
+      "definition_fr": "Bacille à Gram positif responsable de listérioses materno-fœtales et méningées.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04059",
+      "fr": "Bacillus anthracis",
+      "en": "Bacillus anthracis",
+      "ar": "العصوية الجمرية",
+      "ar_variantes": [],
+      "definition_fr": "Bacille à Gram positif sporulé agent du charbon.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04060",
+      "fr": "Treponema pallidum",
+      "en": "Treponema pallidum",
+      "ar": "اللولبية الشاحبة",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie spiralée agent de la syphilis.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04061",
+      "fr": "Leptospira",
+      "en": "Leptospira",
+      "ar": "البَرِيمية",
+      "ar_variantes": [],
+      "definition_fr": "Genre de spirochètes agents de la leptospirose, transmis par l'urine des rongeurs.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04062",
+      "fr": "Borrelia",
+      "en": "Borrelia",
+      "ar": "البورلية",
+      "ar_variantes": [],
+      "definition_fr": "Genre de spirochètes agents de la maladie de Lyme et des fièvres récurrentes.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04063",
+      "fr": "Chlamydia trachomatis",
+      "en": "Chlamydia trachomatis",
+      "ar": "المتدثِّرة الحثرية",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie intracellulaire obligatoire agent d'IST et du trachome.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04064",
+      "fr": "Mycoplasma pneumoniae",
+      "en": "Mycoplasma pneumoniae",
+      "ar": "المفطورة الرئوية",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie sans paroi agent de pneumopathies atypiques.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04065",
+      "fr": "Rickettsia conorii",
+      "en": "Rickettsia conorii",
+      "ar": "الريكتسية الكونورية",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie intracellulaire transmise par la tique du chien, agent de la fièvre boutonneuse méditerranéenne.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04066",
+      "fr": "Actinomyces",
+      "en": "Actinomyces",
+      "ar": "الشُّعَيّة",
+      "ar_variantes": [],
+      "definition_fr": "Genre de bactéries anaérobies filamenteuses responsables d'actinomycoses.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04067",
+      "fr": "virus de l'immunodéficience humaine",
+      "en": "human immunodeficiency virus",
+      "ar": "فيروس العَوَز المناعي البشري",
+      "ar_variantes": [],
+      "definition_fr": "Rétrovirus infectant les lymphocytes T CD4 et responsable du sida (VIH).",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04068",
+      "fr": "virus de l'hépatite A",
+      "en": "hepatitis A virus",
+      "ar": "فيروس التهاب الكبد أ",
+      "ar_variantes": [],
+      "definition_fr": "Virus à ARN à transmission féco-orale responsable d'hépatites aiguës.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04069",
+      "fr": "virus de l'hépatite B",
+      "en": "hepatitis B virus",
+      "ar": "فيروس التهاب الكبد ب",
+      "ar_variantes": [],
+      "definition_fr": "Virus à ADN à transmission sanguine, sexuelle et materno-fœtale, exposant à l'hépatite chronique.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04070",
+      "fr": "virus de l'hépatite C",
+      "en": "hepatitis C virus",
+      "ar": "فيروس التهاب الكبد ج",
+      "ar_variantes": [
+        "فيروس التهاب الكبد سي"
+      ],
+      "definition_fr": "Virus à ARN à transmission sanguine, évoluant fréquemment vers la chronicité.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04071",
+      "fr": "virus de l'hépatite D",
+      "en": "hepatitis D virus",
+      "ar": "فيروس التهاب الكبد د",
+      "ar_variantes": [
+        "فيروس الدلتا"
+      ],
+      "definition_fr": "Virus défectif nécessitant le virus de l'hépatite B pour se répliquer.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04072",
+      "fr": "virus de l'hépatite E",
+      "en": "hepatitis E virus",
+      "ar": "فيروس التهاب الكبد هـ",
+      "ar_variantes": [],
+      "definition_fr": "Virus à transmission féco-orale, grave chez la femme enceinte.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04073",
+      "fr": "virus de la rage",
+      "en": "rabies virus",
+      "ar": "فيروس داء الكَلَب",
+      "ar_variantes": [],
+      "definition_fr": "Lyssavirus neurotrope transmis par morsure d'animal, agent de la rage.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04074",
+      "fr": "virus de la rougeole",
+      "en": "measles virus",
+      "ar": "فيروس الحصبة",
+      "ar_variantes": [],
+      "definition_fr": "Morbillivirus très contagieux agent de la rougeole.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04075",
+      "fr": "virus de la rubéole",
+      "en": "rubella virus",
+      "ar": "فيروس الحصبة الألمانية",
+      "ar_variantes": [],
+      "definition_fr": "Virus responsable de la rubéole, tératogène en début de grossesse.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04076",
+      "fr": "virus des oreillons",
+      "en": "mumps virus",
+      "ar": "فيروس النُّكاف",
+      "ar_variantes": [],
+      "definition_fr": "Paramyxovirus agent des oreillons.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04077",
+      "fr": "virus varicelle-zona",
+      "en": "varicella-zoster virus",
+      "ar": "الفيروس الحُماقي النُّطاقي",
+      "ar_variantes": [
+        "فيروس جدري الماء"
+      ],
+      "definition_fr": "Herpèsvirus responsable de la varicelle puis, par réactivation, du zona.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04078",
+      "fr": "virus herpès simplex",
+      "en": "herpes simplex virus",
+      "ar": "فيروس الحلأ البسيط",
+      "ar_variantes": [
+        "فيروس الهربس البسيط"
+      ],
+      "definition_fr": "Herpèsvirus responsable d'infections cutanéomuqueuses récurrentes et d'encéphalites.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04079",
+      "fr": "virus d'Epstein-Barr",
+      "en": "Epstein-Barr virus",
+      "ar": "فيروس إبشتاين بار",
+      "ar_variantes": [],
+      "definition_fr": "Herpèsvirus agent de la mononucléose infectieuse, associé à certains cancers (cavum, lymphomes).",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04080",
+      "fr": "cytomégalovirus",
+      "en": "cytomegalovirus",
+      "ar": "الفيروس المضخِّم للخلايا",
+      "ar_variantes": [],
+      "definition_fr": "Herpèsvirus responsable d'infections congénitales et opportunistes.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04081",
+      "fr": "virus de la grippe",
+      "en": "influenza virus",
+      "ar": "فيروس النَّزْلة الوافدة",
+      "ar_variantes": [
+        "فيروس الإنفلونزا"
+      ],
+      "definition_fr": "Orthomyxovirus responsable d'épidémies saisonnières de grippe.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04082",
+      "fr": "papillomavirus humains",
+      "en": "human papillomavirus",
+      "ar": "فيروس الورم الحُلَيمي البشري",
+      "ar_variantes": [],
+      "definition_fr": "Virus responsables de verrues, de condylomes et de cancers du col utérin.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04083",
+      "fr": "poliovirus",
+      "en": "poliovirus",
+      "ar": "فيروس شلل الأطفال",
+      "ar_variantes": [],
+      "definition_fr": "Entérovirus agent de la poliomyélite antérieure aiguë.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04084",
+      "fr": "rotavirus",
+      "en": "rotavirus",
+      "ar": "الفيروس العَجَلي",
+      "ar_variantes": [],
+      "definition_fr": "Virus responsable de diarrhées aiguës sévères du nourrisson.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04085",
+      "fr": "virus respiratoire syncytial",
+      "en": "respiratory syncytial virus",
+      "ar": "الفيروس المخلوي التنفسي",
+      "ar_variantes": [],
+      "definition_fr": "Virus principal agent de la bronchiolite du nourrisson.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04086",
+      "fr": "SARS-CoV-2",
+      "en": "SARS-CoV-2",
+      "ar": "فيروس كورونا المسبب لكوفيد-19",
+      "ar_variantes": [],
+      "definition_fr": "Coronavirus responsable de la COVID-19.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04087",
+      "fr": "Candida albicans",
+      "en": "Candida albicans",
+      "ar": "المبيَضّة البيضاء",
+      "ar_variantes": [],
+      "definition_fr": "Levure commensale responsable de candidoses cutanéo-muqueuses et systémiques.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04088",
+      "fr": "Aspergillus fumigatus",
+      "en": "Aspergillus fumigatus",
+      "ar": "الرشّاشية الدخناء",
+      "ar_variantes": [],
+      "definition_fr": "Champignon filamenteux responsable d'aspergilloses pulmonaires.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "PARA",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04089",
+      "fr": "Cryptococcus neoformans",
+      "en": "Cryptococcus neoformans",
+      "ar": "المستخفية المُورِّمة",
+      "ar_variantes": [],
+      "definition_fr": "Levure capsulée responsable de méningo-encéphalites chez l'immunodéprimé.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04090",
+      "fr": "Pneumocystis jirovecii",
+      "en": "Pneumocystis jirovecii",
+      "ar": "المتكيِّسة الجيروفيسية",
+      "ar_variantes": [],
+      "definition_fr": "Champignon atypique responsable de pneumocystose chez l'immunodéprimé.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04091",
+      "fr": "dermatophytes",
+      "en": "dermatophytes",
+      "ar": "الفطريات الجلدية",
+      "ar_variantes": [],
+      "definition_fr": "Champignons filamenteux kératinophiles agents des teignes et épidermophyties.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04092",
+      "fr": "Trichophyton",
+      "en": "Trichophyton",
+      "ar": "الشَّعْروية",
+      "ar_variantes": [],
+      "definition_fr": "Genre de dermatophytes responsables de teignes et d'onychomycoses.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04093",
+      "fr": "Microsporum",
+      "en": "Microsporum",
+      "ar": "البُوَيغاء",
+      "ar_variantes": [],
+      "definition_fr": "Genre de dermatophytes agents de teignes tondantes.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04094",
+      "fr": "Plasmodium falciparum",
+      "en": "Plasmodium falciparum",
+      "ar": "المتصوِّرة المنجلية",
+      "ar_variantes": [],
+      "definition_fr": "Espèce plasmodiale responsable des formes graves de paludisme.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04095",
+      "fr": "Plasmodium vivax",
+      "en": "Plasmodium vivax",
+      "ar": "المتصورة النشيطة",
+      "ar_variantes": [],
+      "definition_fr": "Espèce plasmodiale capable de rechutes par hypnozoïtes hépatiques.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04096",
+      "fr": "Anopheles",
+      "en": "Anopheles",
+      "ar": "الأنوفيلة",
+      "ar_variantes": [
+        "البعوضة الأنوفيلية"
+      ],
+      "definition_fr": "Genre de moustiques vecteurs du paludisme.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04097",
+      "fr": "Entamoeba histolytica",
+      "en": "Entamoeba histolytica",
+      "ar": "المتحوِّلة الحالّة للنُّسُج",
+      "ar_variantes": [],
+      "definition_fr": "Amibe pathogène responsable de l'amibiase intestinale et hépatique.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04098",
+      "fr": "Giardia intestinalis",
+      "en": "Giardia intestinalis",
+      "ar": "الجيارديّة المعوية",
+      "ar_variantes": [],
+      "definition_fr": "Flagellé de l'intestin grêle responsable de diarrhées et de malabsorption.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04099",
+      "fr": "Leishmania infantum",
+      "en": "Leishmania infantum",
+      "ar": "الليشمانية الطفلية",
+      "ar_variantes": [],
+      "definition_fr": "Protozoaire agent de la leishmaniose viscérale méditerranéenne.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04100",
+      "fr": "Leishmania major",
+      "en": "Leishmania major",
+      "ar": "الليشمانية الكبيرة",
+      "ar_variantes": [],
+      "definition_fr": "Protozoaire agent de la leishmaniose cutanée zoonotique.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04101",
+      "fr": "phlébotome",
+      "en": "sandfly",
+      "ar": "ذبابة الرمل",
+      "ar_variantes": [
+        "الفاصدة"
+      ],
+      "definition_fr": "Petit diptère vecteur des leishmanioses.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04102",
+      "fr": "Toxoplasma gondii",
+      "en": "Toxoplasma gondii",
+      "ar": "المقوَّسة الغوندية",
+      "ar_variantes": [],
+      "definition_fr": "Protozoaire intracellulaire responsable de la toxoplasmose, grave chez le fœtus et l'immunodéprimé.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04103",
+      "fr": "Trichomonas vaginalis",
+      "en": "Trichomonas vaginalis",
+      "ar": "المُشَعَّرة المهبلية",
+      "ar_variantes": [],
+      "definition_fr": "Protozoaire flagellé responsable d'une infection sexuellement transmissible.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04104",
+      "fr": "Echinococcus granulosus",
+      "en": "Echinococcus granulosus",
+      "ar": "المشوَّكة الحُبَيبية",
+      "ar_variantes": [],
+      "definition_fr": "Ténia du chien dont la larve provoque l'hydatidose (kyste hydatique).",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04105",
+      "fr": "Taenia saginata",
+      "en": "Taenia saginata",
+      "ar": "الشريطية العَزْلاء",
+      "ar_variantes": [
+        "دودة البقر الشريطية"
+      ],
+      "definition_fr": "Ténia transmis par la viande de bœuf peu cuite.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04106",
+      "fr": "Taenia solium",
+      "en": "Taenia solium",
+      "ar": "الشريطية الوحيدة",
+      "ar_variantes": [
+        "دودة الخنزير الشريطية"
+      ],
+      "definition_fr": "Ténia du porc dont la larve provoque la cysticercose.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04107",
+      "fr": "Ascaris lumbricoides",
+      "en": "Ascaris lumbricoides",
+      "ar": "الصَّفَر الخراطيني",
+      "ar_variantes": [],
+      "definition_fr": "Nématode intestinal transmis par voie féco-orale.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04108",
+      "fr": "Enterobius vermicularis",
+      "en": "Enterobius vermicularis",
+      "ar": "السرمية الدودية",
+      "ar_variantes": [
+        "الحرقص"
+      ],
+      "definition_fr": "Nématode responsable de l'oxyurose, fréquente chez l'enfant.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04109",
+      "fr": "Schistosoma haematobium",
+      "en": "Schistosoma haematobium",
+      "ar": "البلهارسية الدموية",
+      "ar_variantes": [
+        "المنشقة الدموية"
+      ],
+      "definition_fr": "Trématode responsable de la bilharziose urogénitale.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04110",
+      "fr": "Ancylostoma duodenale",
+      "en": "Ancylostoma duodenale",
+      "ar": "الملقوَّة العفجية",
+      "ar_variantes": [],
+      "definition_fr": "Nématode hématophage responsable d'anémie ferriprive.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04111",
+      "fr": "Strongyloides stercoralis",
+      "en": "Strongyloides stercoralis",
+      "ar": "الأسطوانية البرازية",
+      "ar_variantes": [],
+      "definition_fr": "Nématode capable d'auto-infestation et d'anguillulose maligne chez l'immunodéprimé.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04112",
+      "fr": "Trichinella spiralis",
+      "en": "Trichinella spiralis",
+      "ar": "الشُّعَرينة الحلزونية",
+      "ar_variantes": [],
+      "definition_fr": "Nématode transmis par la viande crue de porc ou de sanglier, agent de la trichinellose.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04113",
+      "fr": "Fasciola hepatica",
+      "en": "Fasciola hepatica",
+      "ar": "المتورِّقة الكبدية",
+      "ar_variantes": [],
+      "definition_fr": "Douve du foie transmise par le cresson sauvage.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04114",
+      "fr": "Sarcoptes scabiei",
+      "en": "Sarcoptes scabiei",
+      "ar": "القارمة الجَرَبية",
+      "ar_variantes": [],
+      "definition_fr": "Acarien agent de la gale.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04115",
+      "fr": "Pediculus humanus capitis",
+      "en": "Pediculus humanus capitis",
+      "ar": "قمل الرأس",
+      "ar_variantes": [],
+      "definition_fr": "Insecte ectoparasite responsable de la pédiculose du cuir chevelu.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04116",
+      "fr": "tique",
+      "en": "tick",
+      "ar": "القُرادة",
+      "ar_variantes": [],
+      "definition_fr": "Acarien hématophage vecteur de rickettsioses, borrélioses et arboviroses.",
+      "categorie": "biologie",
+      "specialites": [
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04117",
+      "fr": "hôte intermédiaire",
+      "en": "intermediate host",
+      "ar": "الثَّوي الوسيط",
+      "ar_variantes": [
+        "المضيف الوسيط"
+      ],
+      "definition_fr": "Hôte hébergeant les formes larvaires ou asexuées d'un parasite.",
+      "categorie": "general",
+      "specialites": [
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04118",
+      "fr": "hôte définitif",
+      "en": "definitive host",
+      "ar": "الثوي النهائي",
+      "ar_variantes": [
+        "المضيف النهائي"
+      ],
+      "definition_fr": "Hôte hébergeant la forme adulte ou sexuée d'un parasite.",
+      "categorie": "general",
+      "specialites": [
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04119",
+      "fr": "cycle parasitaire",
+      "en": "parasite life cycle",
+      "ar": "دورة حياة الطفيلي",
+      "ar_variantes": [],
+      "definition_fr": "Succession des stades de développement d'un parasite chez ses hôtes.",
+      "categorie": "general",
+      "specialites": [
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04120",
+      "fr": "prélèvement microbiologique",
+      "en": "microbiological specimen",
+      "ar": "العيّنة الميكروبيولوجية",
+      "ar_variantes": [],
+      "definition_fr": "Échantillon recueilli de façon appropriée pour la recherche d'un agent infectieux.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04121",
+      "fr": "examen direct",
+      "en": "direct examination",
+      "ar": "الفحص المباشر",
+      "ar_variantes": [],
+      "definition_fr": "Observation microscopique immédiate d'un prélèvement, avec ou sans coloration.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04122",
+      "fr": "culture bactérienne",
+      "en": "bacterial culture",
+      "ar": "الزرع الجرثومي",
+      "ar_variantes": [],
+      "definition_fr": "Mise en culture d'un prélèvement pour isoler et identifier une bactérie.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04123",
+      "fr": "milieu de culture",
+      "en": "culture medium",
+      "ar": "وسط الزرع",
+      "ar_variantes": [
+        "المستنبَت"
+      ],
+      "definition_fr": "Substrat nutritif permettant la croissance des micro-organismes au laboratoire.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04124",
+      "fr": "antibiogramme",
+      "en": "antibiotic susceptibility test",
+      "ar": "اختبار الحساسية للمضادات الحيوية",
+      "ar_variantes": [
+        "مخطط التحسّس"
+      ],
+      "definition_fr": "Détermination in vitro de la sensibilité d'une bactérie aux antibiotiques.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "BIOM",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04125",
+      "fr": "concentration minimale inhibitrice",
+      "en": "minimum inhibitory concentration",
+      "ar": "التركيز المثبِّط الأدنى",
+      "ar_variantes": [],
+      "definition_fr": "Plus faible concentration d'antibiotique inhibant la croissance visible d'une bactérie.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04126",
+      "fr": "hémoculture",
+      "en": "blood culture",
+      "ar": "زرع الدم",
+      "ar_variantes": [],
+      "definition_fr": "Mise en culture du sang pour rechercher une bactériémie ou une fongémie.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "INFE",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04127",
+      "fr": "examen cytobactériologique des urines",
+      "en": "urine culture and microscopy",
+      "ar": "الفحص الخلوي الجرثومي للبول",
+      "ar_variantes": [],
+      "definition_fr": "Analyse cytologique et culture des urines pour le diagnostic des infections urinaires (ECBU).",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "NEPH",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04128",
+      "fr": "coproculture",
+      "en": "stool culture",
+      "ar": "زرع البراز",
+      "ar_variantes": [],
+      "definition_fr": "Culture des selles à la recherche de bactéries entéropathogènes.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "GAST",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04129",
+      "fr": "examen parasitologique des selles",
+      "en": "stool examination for ova and parasites",
+      "ar": "الفحص الطفيلي للبراز",
+      "ar_variantes": [],
+      "definition_fr": "Recherche microscopique de parasites, kystes et œufs dans les selles.",
+      "categorie": "examen",
+      "specialites": [
+        "PARA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04130",
+      "fr": "goutte épaisse",
+      "en": "thick blood smear",
+      "ar": "اللطاخة الدموية الثخينة",
+      "ar_variantes": [
+        "القطرة الثخينة"
+      ],
+      "definition_fr": "Examen microscopique d'une goutte de sang concentrée pour dépister les plasmodiums.",
+      "categorie": "examen",
+      "specialites": [
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04131",
+      "fr": "frottis sanguin",
+      "en": "blood smear",
+      "ar": "اللطاخة الدموية",
+      "ar_variantes": [],
+      "definition_fr": "Étalement mince de sang coloré permettant l'étude morphologique des cellules et l'identification des parasites.",
+      "categorie": "examen",
+      "specialites": [
+        "PARA",
+        "HEMA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04132",
+      "fr": "test de diagnostic rapide",
+      "en": "rapid diagnostic test",
+      "ar": "الاختبار التشخيصي السريع",
+      "ar_variantes": [],
+      "definition_fr": "Test immunochromatographique donnant un résultat en quelques minutes au lit du patient.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "PARA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04133",
+      "fr": "sérologie",
+      "en": "serology",
+      "ar": "علم الأمصال",
+      "ar_variantes": [
+        "الفحص المصلي"
+      ],
+      "definition_fr": "Recherche et titrage d'anticorps ou d'antigènes dans le sérum.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "IMMU",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04134",
+      "fr": "recherche de bacilles acido-alcoolo-résistants",
+      "en": "acid-fast bacilli smear",
+      "ar": "البحث عن العصيات الصامدة للحمض والكحول",
+      "ar_variantes": [],
+      "definition_fr": "Examen des crachats après coloration de Ziehl-Neelsen pour le diagnostic de tuberculose.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "PNEU",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04135",
+      "fr": "intradermoréaction à la tuberculine",
+      "en": "tuberculin skin test",
+      "ar": "اختبار التوبركولين داخل الأدمة",
+      "ar_variantes": [],
+      "definition_fr": "Test cutané explorant l'hypersensibilité retardée aux antigènes mycobactériens.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "PNEU",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04136",
+      "fr": "test de libération d'interféron gamma",
+      "en": "interferon-gamma release assay",
+      "ar": "اختبار إطلاق الإنترفيرون غاما",
+      "ar_variantes": [],
+      "definition_fr": "Test sanguin du diagnostic de l'infection tuberculeuse latente.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04137",
+      "fr": "prélèvement mycologique",
+      "en": "mycological sampling",
+      "ar": "العيّنة الفطرية",
+      "ar_variantes": [],
+      "definition_fr": "Prélèvement de squames, cheveux ou ongles pour examen direct et culture mycologique.",
+      "categorie": "examen",
+      "specialites": [
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04138",
+      "fr": "stérilisation",
+      "en": "sterilization",
+      "ar": "التعقيم",
+      "ar_variantes": [],
+      "definition_fr": "Procédé détruisant tous les micro-organismes, y compris les spores, sur un objet inerte.",
+      "categorie": "general",
+      "specialites": [
+        "MICR",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04139",
+      "fr": "désinfection",
+      "en": "disinfection",
+      "ar": "التطهير",
+      "ar_variantes": [],
+      "definition_fr": "Élimination ou inactivation des micro-organismes sur une surface ou un objet inerte.",
+      "categorie": "general",
+      "specialites": [
+        "MICR",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04140",
+      "fr": "asepsie",
+      "en": "asepsis",
+      "ar": "العُقامة",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des mesures empêchant l'apport de micro-organismes dans un milieu stérile.",
+      "categorie": "general",
+      "specialites": [
+        "MICR",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04141",
+      "fr": "autoclave",
+      "en": "autoclave",
+      "ar": "المُوصَدة",
+      "ar_variantes": [
+        "جهاز التعقيم بالبخار"
+      ],
+      "definition_fr": "Appareil de stérilisation par la vapeur d'eau sous pression.",
+      "categorie": "general",
+      "specialites": [
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04142",
+      "fr": "hygiène des mains",
+      "en": "hand hygiene",
+      "ar": "نظافة اليدين",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des pratiques (lavage, friction hydro-alcoolique) réduisant la transmission manuportée des germes.",
+      "categorie": "general",
+      "specialites": [
+        "MICR",
+        "EPID",
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-04143",
+      "fr": "friction hydro-alcoolique",
+      "en": "alcohol-based hand rub",
+      "ar": "الدلك بالمحلول الكحولي",
+      "ar_variantes": [],
+      "definition_fr": "Technique d'hygiène des mains par application d'un produit hydro-alcoolique.",
+      "categorie": "general",
+      "specialites": [
+        "MICR",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04144",
+      "fr": "précautions standard",
+      "en": "standard precautions",
+      "ar": "الاحتياطات القياسية",
+      "ar_variantes": [],
+      "definition_fr": "Mesures d'hygiène appliquées à tout patient pour prévenir la transmission croisée.",
+      "categorie": "general",
+      "specialites": [
+        "MICR",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-04145",
+      "fr": "isolement septique",
+      "en": "contact isolation",
+      "ar": "العزل",
+      "ar_variantes": [],
+      "definition_fr": "Mesures complémentaires limitant la transmission d'un agent infectieux à partir d'un patient porteur.",
+      "categorie": "general",
+      "specialites": [
+        "MICR",
+        "EPID",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    }
+  ]
+}
