@@ -13,7 +13,7 @@ auteur: "Agent DOS-10 (IA) — dossier pédagogique original"
 statut: brouillon_a_auditer
 sources:
   - id: S1
-    reference: "Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles, JORADP n° 28 du 5 juillet 1983, p. 1210-1217 (rédaction d'origine consultée sur joradp.dz : titres I à VI ; loi modifiée et complétée depuis ; non inscrite au registre des acquisitions)."
+    reference: "Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles, JORADP n° 28 du 5 juillet 1983, p. 1210-1217 (DOC-00103 ; rédaction d'origine, titres I à VIII relus par l'auditeur), modifiée par l'ordonnance n° 96-19 du 6 juillet 1996, JORADP n° 42 du 7 juillet 1996, p. 13-14 (DOC-00104 : articles 7, 8, 36, 37, 39, 42 al. 4, 53 et 83 réécrits)."
     organisme: "République algérienne"
     annee: 1983
     type: texte_officiel
@@ -21,7 +21,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1983/F1983028.pdf"
     verifiee: true
   - id: S2
-    reference: "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle ainsi que ses annexes 1 et 2, JORADP n° 16 du 23 mars 1997, p. 6-59 (articles 1 à 12 et annexe 2 consultés sur joradp.dz)."
+    reference: "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle ainsi que ses annexes 1 et 2, JORADP n° 16 du 23 mars 1997, p. 6-59 (DOC-00106 ; articles 1 à 12, annexe 2 et tableau n° 25 relus par l'auditeur)."
     organisme: "Ministère de la santé et de la population ; ministère du travail, de la protection sociale et de la formation professionnelle"
     annee: 1996
     type: texte_officiel
@@ -29,7 +29,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1997/F1997016.pdf"
     verifiee: true
   - id: S3
-    reference: "Loi n° 88-07 du 26 janvier 1988 relative à l'hygiène, à la sécurité et à la médecine du travail, JORADP n° 4 du 27 janvier 1988, p. 84-90 (articles 9-26 consultés sur joradp.dz)."
+    reference: "Loi n° 88-07 du 26 janvier 1988 relative à l'hygiène, à la sécurité et à la médecine du travail, JORADP n° 4 du 27 janvier 1988, p. 84-90 (DOC-00105 ; articles 9-27 relus par l'auditeur)."
     organisme: "République algérienne"
     annee: 1988
     type: texte_officiel
@@ -45,7 +45,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018046.pdf"
     verifiee: true
   - id: S5
-    reference: "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52 du 8 juillet 1992 (articles 56-58 et 85-99 consultés)."
+    reference: "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52 du 8 juillet 1992 (DOC-00107 ; articles 56-58 et 85-99 relus par l'auditeur)."
     organisme: "Gouvernement algérien"
     annee: 1992
     type: texte_officiel
@@ -53,7 +53,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1992/F1992052.pdf"
     verifiee: true
   - id: S6
-    reference: "Lois n° 83-11 (assurances sociales), 83-14 (obligations des assujettis en matière de sécurité sociale) et 83-15 (contentieux en matière de sécurité sociale) du 2 juillet 1983, JORADP n° 28 du 5 juillet 1983 (intitulés relevés au sommaire ; contenus non consultés) ; décret n° 84-28 du 11 février 1984 fixant les modalités d'application des titres III, IV et VIII de la loi 83-13 (cité dans les visas de l'arrêté du 5 mai 1996)."
+    reference: "Lois n° 83-11 (assurances sociales), 83-14 (obligations des assujettis en matière de sécurité sociale) et 83-15 (contentieux en matière de sécurité sociale) du 2 juillet 1983, JORADP n° 28 du 5 juillet 1983 (même numéro que DOC-00103 ; intitulés relevés au sommaire ; contenus non consultés) ; décret n° 84-28 du 11 février 1984 fixant les modalités d'application des titres III, IV et VIII de la loi 83-13 (cité dans les visas de l'arrêté du 5 mai 1996)."
     organisme: "République algérienne"
     annee: 1983
     type: texte_officiel
@@ -106,7 +106,7 @@ mots_cles: [accident du travail, accident de trajet, maladie professionnelle, ta
 # Accidents du travail et maladies professionnelles : définitions, rôle du praticien
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage. Les textes algériens sont **reformulés**.
-> Statut : brouillon à auditer. La loi 83-13 a été consultée dans sa **rédaction d'origine (1983)** ; elle a été modifiée et complétée depuis : les délais, montants et taux doivent être vérifiés dans la **version consolidée en vigueur** et auprès de la CNAS.
+> Statut : audité (AUD-01, 2026-11-19). La loi 83-13 a été vérifiée dans sa **rédaction d'origine (1983, DOC-00103)** et dans l'**ordonnance 96-19 (1996, DOC-00104)** qui en réécrit les articles 7, 8, 36, 37, 39, 42 (al. 4), 53 et 83 ; une modification postérieure non repérée reste possible. Les montants, plafonds, formulaires et barèmes actuels doivent être vérifiés auprès de la CNAS.
 
 **Items du programme couverts** : RES-MED-142 — « Accident du travail et maladies professionnelles : Définition - rôle du praticien ».
 
@@ -132,11 +132,13 @@ Est considéré comme accident du travail **tout accident ayant entraîné une l
 2. une **cause soudaine et extérieure** (fait accidentel daté) ;
 3. un **lien avec la relation de travail**.
 
-**Sont également considérés comme accidents du travail** (art. 7-8) [S1] :
-- l'accident survenu au cours d'une **mission** exceptionnelle ou permanente accomplie hors de l'établissement conformément aux instructions de l'employeur ;
-- au cours de l'exercice d'un **mandat** politique électoral ou au titre d'une organisation de masse ;
+**Sont également considérés comme accidents du travail** (art. 7-8, rédaction de l'ordonnance 96-19) [S1] :
+- l'accident survenu au cours d'une **mission** à caractère exceptionnel ou permanent accomplie hors de l'établissement conformément aux instructions de l'employeur ;
+- au cours de l'exercice ou à l'occasion de l'exercice d'un **mandat électoral** ;
 - au cours d'**études** suivies régulièrement en dehors des heures de travail ;
-- même si l'intéressé n'est pas assuré social : au cours d'activités commandées par des organisations (dans les termes du texte de 1983), d'**activités sportives organisées** dans le cadre d'associations, ou de l'accomplissement d'un **acte de dévouement** dans l'intérêt public ou de **sauvetage** d'une personne en danger.
+- même si l'intéressé n'a pas la qualité d'assuré social : au cours d'**activités sportives organisées par l'organisme employeur**, ou de l'accomplissement d'un **acte de dévouement** dans l'intérêt public ou de **sauvetage** d'une personne en danger.
+
+La rédaction de 1983 visait aussi le mandat « politique » électoral, les mandats exercés au titre d'une organisation de masse, les actions commandées par le Parti et les organisations de masse, et les activités sportives organisées « dans le cadre d'associations » : ces mentions ont été **supprimées ou remplacées** par l'ordonnance 96-19 [S1].
 
 ### 1.2 Accident de trajet
 Est assimilé à un accident du travail l'accident survenu pendant le **trajet** effectué par l'assuré pour se rendre à son travail ou en revenir, **quel que soit le mode de transport**, à condition que le parcours n'ait pas été **interrompu ou détourné**, sauf urgence, nécessité, cas fortuit ou force majeure. Le parcours protégé est compris entre le lieu de travail et, d'autre part, la **résidence** ou un lieu assimilé, ou le lieu où le travailleur prend habituellement ses **repas**, ou un lieu où il se rend pour des **motifs d'ordre familial** (art. 12) [S1].
@@ -150,7 +152,7 @@ Tout travailleur assujetti aux assurances sociales (art. 3) ; sont également co
 ### 1.5 Notions médico-administratives
 | Notion | Définition |
 |---|---|
-| **Incapacité temporaire (IT)** | Période d'arrêt de travail consécutive à l'accident jusqu'à la guérison ou la consolidation ; ouvre droit aux indemnités journalières (art. 36) [S1] |
+| **Incapacité temporaire (IT)** | Période d'arrêt de travail consécutive à l'accident jusqu'à la guérison ou la consolidation ; ouvre droit aux indemnités journalières (art. 36, rédaction de 1996) [S1] |
 | **Guérison** | Disparition des lésions sans séquelle |
 | **Consolidation** | Fixation des lésions, permettant d'évaluer les conséquences définitives (le second certificat en fixe la date) (art. 24) [S1] |
 | **Incapacité permanente (IP)** | Réduction définitive de la capacité de travail ; son **taux** est fixé par le **médecin-conseil** de l'organisme de sécurité sociale selon un **barème** réglementaire (art. 42) [S1] |
@@ -180,7 +182,7 @@ Tout travailleur assujetti aux assurances sociales (art. 3) ; sont également co
 
 ### 4.2 Information, formation et instances (loi 88-07) [S3]
 - Instruction, information et formation aux risques professionnels : obligation de l'employeur, avec association des représentants des travailleurs (art. 19) ; formation des nouveaux recrutés et des travailleurs changeant de poste (art. 21).
-- **Commissions paritaires d'hygiène et de sécurité** obligatoires dans les organismes employant plus de neuf travailleurs en relation de travail à durée indéterminée ; préposé à l'hygiène et à la sécurité dans les autres cas (art. 23) ; comités inter-entreprises (art. 24) ; **service d'hygiène et de sécurité** lorsque l'importance ou la nature de l'activité l'exige (art. 26).
+- **Commissions paritaires d'hygiène et de sécurité** obligatoires dans les organismes employant plus de neuf travailleurs en relation de travail à durée indéterminée ; **préposé permanent** à l'hygiène et à la sécurité, assisté de deux travailleurs qualifiés, dans les organismes employant plus de neuf travailleurs en relation de travail à durée déterminée (art. 23) ; comités inter-entreprises (art. 24) ; **service d'hygiène et de sécurité** lorsque l'importance ou la nature de l'activité l'exige (art. 26).
 
 ### 4.3 Organismes de sécurité sociale
 - La gestion des risques AT/MP incombe aux **organismes de sécurité sociale** (loi 83-13, art. 81) ; pour les salariés, il s'agit de la **Caisse nationale des assurances sociales (CNAS)** [S1, S2].
@@ -209,7 +211,7 @@ La loi 88-07 impose que les travaux confiés aux femmes, aux mineurs et aux trav
 | Catégorie | Critères | Texte |
 |---|---|---|
 | Accident du travail « au sens strict » | Lésion corporelle, cause soudaine et extérieure, dans le cadre de la relation de travail | Loi 83-13, art. 6 |
-| Accidents assimilés | Mission, mandat, études, activités sportives organisées, acte de dévouement ou de sauvetage | Art. 7-8 |
+| Accidents assimilés | Mission, mandat électoral, études, activités sportives organisées par l'organisme employeur, acte de dévouement ou de sauvetage | Art. 7-8 (rédaction de 1996) |
 | Accident de trajet | Parcours protégé, non interrompu ni détourné sauf exceptions | Art. 12 |
 | Rechute | Aggravation ou réapparition après guérison ou consolidation | Art. 62 |
 
@@ -283,11 +285,11 @@ Chaque tableau comporte classiquement : la **désignation des maladies** (avec, 
 
 ## 12. Évolution, réparation, pronostic
 
-### 12.1 Prestations (rédaction de 1983 — à vérifier dans la version en vigueur) [S1]
+### 12.1 Prestations (rédaction de 1983 mise à jour par l'ordonnance 96-19) [S1]
 - **Soins** : les prestations relatives aux soins sont dues, avec ou sans interruption de travail et **sans limitation de durée** (art. 29) ; fourniture et renouvellement des appareils de prothèse et d'orthopédie (art. 30) ; rééducation fonctionnelle et réadaptation professionnelle (art. 31-32) ; prise en charge sur la base de 100 % des tarifs réglementaires (art. 33).
 - **Journée de l'accident** : intégralement à la charge de l'employeur (art. 35).
-- **Indemnités journalières** : à partir du **premier jour suivant l'arrêt de travail** consécutif à l'accident, pendant toute la période d'incapacité temporaire jusqu'à guérison, consolidation ou décès (art. 36) ; possibilité de maintien en cas de **reprise d'un travail léger** autorisée par le médecin traitant et reconnue par le médecin-conseil (art. 36) ; montant égal au salaire de poste journalier, dans une limite fixée par le texte (art. 37).
-- **Incapacité permanente** : **rente** calculée sur le salaire de poste moyen des 12 derniers mois et le **taux d'incapacité** (art. 38-45) ; le taux est fixé par le **médecin-conseil** selon un **barème** réglementaire, et peut être augmenté d'un **taux social** compris entre 1 et 10 % tenant compte de l'âge, des aptitudes, de la qualification professionnelle et de la situation familiale et sociale (art. 42) ; **aucune rente** si le taux est inférieur à 10 %, la victime pouvant percevoir un **capital** (art. 44) ; majoration de 40 % en cas de recours nécessaire à une **tierce personne** (art. 46).
+- **Indemnités journalières** : à partir du **premier jour suivant l'arrêt de travail** consécutif à l'accident, pendant toute la période d'incapacité de travail précédant la guérison complète, la consolidation ou le décès ; en cas de rechute ou d'aggravation, servies dès le premier jour d'arrêt, sous réserve de justifier la perte de salaire (art. 36, rédaction de 1996). Dues pour chaque jour, ouvrable ou non ; montant au moins égal au **1/30 du salaire mensuel**, déduction faite des cotisations de sécurité sociale et de l'impôt, et au moins au 1/30 du salaire national minimum garanti mensuel (art. 37, rédaction de 1996). La disposition de 1983 sur le maintien des indemnités en cas de **reprise d'un travail léger** ne figure plus dans l'article 36 réécrit par l'ordonnance 96-19.
+- **Incapacité permanente** : **rente** calculée sur le salaire moyen soumis à cotisation perçu au cours des 12 mois précédant l'arrêt de travail (art. 39, rédaction de 1996) et sur le **taux d'incapacité** (art. 38-45) ; le taux est fixé par le **médecin-conseil** selon un **barème** réglementaire et peut être augmenté d'un **taux social** compris entre 1 et 10 % tenant compte notamment de l'âge, des aptitudes, de la qualification professionnelle et de la situation familiale et sociale ; depuis 1996, ce taux social n'est accordé que si le taux d'incapacité est **égal ou supérieur à 10 %** (art. 42) ; **aucune rente** si le taux est inférieur à 10 %, la victime pouvant percevoir un **capital** (art. 44) ; majoration de 40 % en cas de recours nécessaire à une **tierce personne** (art. 46).
 - **Décès** : allocation-décès et **rentes d'ayants droit** (art. 52-57).
 - **Révision** : en cas d'aggravation ou d'atténuation, au plus tous les trois mois pendant les deux premières années suivant la guérison ou la consolidation, puis à intervalles d'au moins un an (art. 58-59).
 - **Rechute** : l'organisme statue sur la prise en charge, qu'il y ait ou non nouvelle incapacité temporaire (art. 62).
@@ -344,9 +346,9 @@ ORGANISME : se prononce sur le caractère professionnel dans les 20 jours ;
 
 | Médecin | Rôle principal | Références |
 |---|---|---|
-| **Médecin traitant** (choisi par la victime) | Soins ; certificat initial ; prolongations ; certificat de guérison ou de consolidation ; autorisation d'un travail léger ; information du patient ; déclaration à visée épidémiologique des maladies à caractère professionnel | Loi 83-13, art. 22-25, 36, 68 [S1] |
+| **Médecin traitant** (choisi par la victime) | Soins ; certificat initial ; prolongations ; certificat de guérison ou de consolidation ; information du patient ; déclaration à visée épidémiologique des maladies à caractère professionnel | Loi 83-13, art. 22-25, 68 [S1] |
 | **Médecin du travail** | Prévention ; visites d'embauche, périodiques, spéciales, de reprise ; avis d'aptitude et d'aménagement de poste ; identification des expositions ; aide au diagnostic et à la déclaration des MP ; participation aux commissions d'hygiène et de sécurité | Loi 88-07, art. 12-18 ; loi 18-11, art. 97-100 [S3, S4] |
-| **Médecin-conseil** (organisme de sécurité sociale) | Avis du contrôle médical (obligatoire en cas de décès ou d'incapacité permanente) ; reconnaissance de la reprise de travail léger ; fixation du **taux d'incapacité** selon le barème | Loi 83-13, art. 26, 36, 42 [S1] |
+| **Médecin-conseil** (organisme de sécurité sociale) | Avis du contrôle médical (obligatoire en cas de décès ou d'incapacité permanente) ; fixation du **taux d'incapacité** selon le barème | Loi 83-13, art. 26, 42 [S1] |
 | **Médecin expert** | Expertise en cas de contestation d'ordre médical (procédure du contentieux de la sécurité sociale) | Loi 83-15 et textes ultérieurs `[À VÉRIFIER]` [S6] ; code de déontologie, art. 95-99 [S5] |
 
 **Indépendance et secret** : le médecin salarié (médecin du travail) conserve ses devoirs professionnels, notamment le **secret** et l'**indépendance** de ses décisions, et agit en priorité dans l'intérêt de la santé et de la sécurité des personnes (code de déontologie, art. 85-86) ; le médecin contrôleur est tenu au secret vis-à-vis de l'organisme qui l'emploie et ne communique pas les renseignements médicaux à des personnes étrangères au service médical (art. 91) ; nul ne peut être, pour un même malade, médecin contrôleur et médecin traitant (art. 93), ni expert et médecin traitant (art. 97) [S5]. Le médecin du travail communique à l'employeur un **avis d'aptitude**, jamais un diagnostic (secret : loi 18-11, art. 24 et 169) [S4].
@@ -378,15 +380,16 @@ ALGORITHME 1 — Un patient consulte après un accident survenu « au travail »
 1. Soins + évaluation de la gravité.
 2. Qualification probable :
    ├─ Au temps et au lieu du travail → AT présumé (art. 6 et 9).
-   ├─ En mission, mandat, études, sport organisé, sauvetage → AT assimilé (art. 7-8).
+   ├─ En mission, mandat électoral, études, sport organisé par l'employeur, sauvetage
+   │      → AT assimilé (art. 7-8, rédaction de 1996).
    ├─ Sur le trajet domicile/repas/motif familial ↔ travail, sans détour personnel
    │      → accident de trajet (art. 12).
    └─ Autre → droit commun (assurances sociales).
 3. Rédiger le CERTIFICAT INITIAL (description, durée probable de l'IT, constatations utiles
    à l'origine traumatique ou morbide) en 2 exemplaires : organisme + victime (art. 23, 25).
 4. Rappeler au patient : prévenir l'employeur dans les 24 h (art. 13).
-5. Suivi : prolongations, travail léger éventuel (art. 36), puis certificat de guérison
-   ou de consolidation (date, état, taux indicatif) (art. 24).
+5. Suivi : prolongations, reprise éventuellement aménagée avec le médecin du travail,
+   puis certificat de guérison ou de consolidation (date, état, taux indicatif) (art. 24).
 6. Avis du médecin-conseil ; taux d'IP fixé selon le barème (art. 26, 42).
 ```
 
@@ -472,7 +475,7 @@ Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS
 6. **Présomption de MP** si maladie du tableau + travaux de la liste + délai de prise en charge respecté ; examens exigés obligatoires (arrêté, art. 8-9) [S2].
 7. **Déclaration de MP par la victime** : 15 jours au minimum, 3 mois au maximum après la première constatation médicale (art. 71) ; **tout médecin** déclare toute maladie à caractère professionnel (art. 68) [S1].
 8. **Hors tableau, pas de réparation au titre des MP** (arrêté, art. 4) [S2].
-9. Le **taux d'IP** est fixé par le **médecin-conseil** selon un barème, + taux social de 1 à 10 % ; pas de rente en dessous de 10 % (art. 42-44) [S1].
+9. Le **taux d'IP** est fixé par le **médecin-conseil** selon un barème, + taux social de 1 à 10 % (accordé si le taux d'IP atteint 10 %) ; pas de rente en dessous de 10 %, mais un capital (art. 42-44) [S1].
 10. **Médecine du travail** : obligation de l'employeur, mission essentiellement préventive ; examens d'embauche, périodiques, spéciaux, de reprise ; secret médical vis-à-vis de l'employeur (loi 88-07 ; loi 18-11 ; code de déontologie, art. 85-93) [S3, S4, S5].
 
 ## 19. Pièges classiques à l'examen
