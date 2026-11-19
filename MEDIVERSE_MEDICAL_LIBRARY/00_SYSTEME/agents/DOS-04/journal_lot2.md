@@ -1,0 +1,19 @@
+# Journal — DOS-04, lot 2
+
+Mission : 5 dossiers pédagogiques (RES-MED-018, RES-MED-024, RES-MED-025, RES-CHI-003, RES-CHI-014) + 60 QCM + 10 cas cliniques.
+
+- 2026-11-19 — Lecture du brief commun, de CONVENTIONS.md, de MODELE_DOSSIER.md, des schémas QCM/cas, du programme (intitulés officiels des 5 items), des rapports d'audit AUD-04 du lot 1 (GAST-0001, CDIG-0001/0002) et de l'audit de DOS-RHUM-0001 (bilan pré-biothérapie, ITL, OMS 2024). Vérification des dossiers cibles par `ls`.
+- 2026-11-19 — Plages d'identifiants : QCM-GAST-0451…0486, QCM-CDIG-0451…0474, CAS-GAST-0451…0456, CAS-CDIG-0451…0454 (aucune collision avec les lots existants, vérifiée par script).
+- 2026-11-19 — Vérification des références : API Europe PMC (métadonnées et résumés ; ≈ 120 requêtes), PMC OAI (texte intégral IDEA et SCOT), Europe PMC fullTextXML (BSG 2019 IBD, WSES 2020 ulcère perforé/hémorragique, Herrag 2024), PDF local DOC-00082 (WSES 2020 appendicite, lu avec pdftotext), fiches HAS 2021 H. pylori téléchargées sur has-sante.fr. WebSearch : 3 requêtes (HAS H. pylori, Maastricht VI durée de la quadrithérapie bismuthée, Plan cancer algérien). Hôtes inaccessibles : extranet.who.int (Plan national cancer 2015-2019), gut.bmj.com, academic.oup.com, annalsofoncology.org, e-cancer.fr.
+- 2026-11-19 — Constats d'actualité : ECCO RCH 2022 remplacée par ECCO 2026 (jjag066) ; ECCO chirurgie RCH 2026 et ECCO infections 2026 publiées ; BSG IBD 2019 remplacée par BSG 2025 ; ESMO métastatique 2023 remplacée par ESMO 2026 ; ACG RCH 2025 et ACG Crohn 2025 existantes. Textes 2025-2026 non lus : signalés [À VÉRIFIER] dans les dossiers.
+- 2026-11-19 — DOS-GAST-0002 (maladie ulcéreuse) rédigé en 4 passes ; renvoi explicite à DOS-GAST-0001 pour l'hémorragie ulcéreuse. Données algériennes de résistance de H. pylori sourcées (Djennane-Hadibi 2016, Raaf 2017, Bachir 2018 ×2, Kasmi 2020, Moubri 2019).
+- 2026-11-19 — DOS-GAST-0003 (RCH) rédigé en 3 passes + corrections (formulation ITL du cas clinique, notation des semaines pour éviter la confusion avec les étiquettes de sources).
+- 2026-11-19 — DOS-GAST-0004 (maladie de Crohn) rédigé en 3 passes + ajouts (tolérance des traitements, préparation chirurgicale, tableau tuberculose intestinale/Crohn, sévérité, grossesse).
+- 2026-11-19 — DOS-CDIG-0003 (cancer du côlon) rédigé en 3 passes + ajouts ; posologies FOLFOX/CAPOX relevées dans le protocole de SCOT (texte intégral) ; contexte algérien (Plan cancer 2015-2019, pilotes de dépistage) sourcé via Herrag 2024 (texte intégral lu).
+- 2026-11-19 — DOS-CDIG-0004 (appendicites aiguës) rédigé en 3 passes + ajouts ; recommandations WSES 2020 citées avec leur numéro et leur grade à partir du texte intégral.
+- 2026-11-19 — Lot QCM `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-04-lot2.json` : 60 QCM (12 par item ; 54 multiples, 6 QCS) ; comparaison des énoncés avec tous les lots existants (difflib) : un énoncé proche de QCM-GAST-3053 (RES-03-a) réécrit avec d'autres propositions.
+- 2026-11-19 — Lot cas `20_CAS_CLINIQUES/lots/DOS-04-lot2.json` : 10 cas fictifs (2 par item), niveaux etudiant, generaliste, resident (3), residanat (2), dems (2) ; valeurs biologiques avec normes.
+- 2026-11-19 — Validation : YAML des 5 dossiers lisible ; toutes les sources déclarées citées, aucune étiquette non déclarée ; JSON validés (json.load) ; clés identiques au lot 1.
+- 2026-11-19 — Mots (wc -w, fichier entier / corps hors YAML et ponctuation isolée) : GAST-0002 10194/8280 ; GAST-0003 10186/7843 ; GAST-0004 9570/7235 ; CDIG-0003 9412/7152 ; CDIG-0004 8945/7101.
+- 2026-11-19 — Références : 102 vérifiées sur 107 (non vérifiées : instruction algérienne ITL 2024 ×2, TNM 8 UICC (ouvrage), Plan national cancer 2015-2019, résumé ASCO Kamel & Chahira 2018).
+- 2026-11-19 — Fichiers partagés non modifiés (programme_residanat.json, files d'attente, catalogue) ; aucune commande git. Statut de tous les livrables : brouillon_a_auditer.

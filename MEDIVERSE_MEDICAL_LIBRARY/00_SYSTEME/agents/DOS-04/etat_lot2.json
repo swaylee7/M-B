@@ -1,0 +1,57 @@
+{
+  "id": "DOS-04",
+  "lot": 2,
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "lecture_contexte",
+    "verification_references",
+    "DOS-GAST-0002",
+    "DOS-GAST-0003",
+    "DOS-GAST-0004",
+    "DOS-CDIG-0003",
+    "DOS-CDIG-0004",
+    "lot_QCM",
+    "lot_CAS",
+    "validation_json_yaml"
+  ],
+  "taches_suivantes": [
+    "audit AUD (priorités : posologies sous marqueur, textes 2025-2026 non lus — ECCO RCH 2026, ECCO infections 2026, BSG 2025, ACG RCH/Crohn 2025, ESMO métastatique 2026)",
+    "lire l'instruction ministérielle algérienne ITL 2024 et le Plan national cancer 2015-2019",
+    "barèmes détaillés AIR, AAS, PAS, SES-CD (publications princeps)",
+    "RES-MED-021 Amibiase",
+    "RES-MED-022 Ictère",
+    "RES-MED-023 Ascite"
+  ],
+  "objectifs": {"dossiers": 5, "qcm": 60, "cas": 10},
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas": 10,
+    "sources_verifiees": 102,
+    "sources_totales": 107,
+    "marqueurs_posologie_a_verifier": 19
+  },
+  "mots": {
+    "DOS-GAST-0002": {"wc": 10194, "corps": 8280},
+    "DOS-GAST-0003": {"wc": 10186, "corps": 7843},
+    "DOS-GAST-0004": {"wc": 9570, "corps": 7235},
+    "DOS-CDIG-0003": {"wc": 9412, "corps": 7152},
+    "DOS-CDIG-0004": {"wc": 8945, "corps": 7101}
+  },
+  "plages_identifiants": {
+    "qcm": "QCM-GAST-0451..0486, QCM-CDIG-0451..0474",
+    "cas": "CAS-GAST-0451..0456, CAS-CDIG-0451..0454"
+  },
+  "livrables": {
+    "dossiers": [
+      "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0002__MALADIE_ULCEREUSE_GASTRODUODENALE.md",
+      "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0003__RECTOCOLITE_HEMORRAGIQUE.md",
+      "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0004__MALADIE_DE_CROHN.md",
+      "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0003__CANCER_DU_COLON.md",
+      "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0004__APPENDICITES_AIGUES.md"
+    ],
+    "qcm": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-04-lot2.json",
+    "cas": "20_CAS_CLINIQUES/lots/DOS-04-lot2.json"
+  }
+}

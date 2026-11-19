@@ -6,11 +6,17 @@ sous_specialite: "Neurologie pédiatrique — urgences pédiatriques"
 items_residanat: [RES-MED-071]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original (lot 2)"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0005.md
 sources:
   - id: S1
     reference: "Subcommittee on Febrile Seizures, American Academy of Pediatrics. Neurodiagnostic evaluation of the child with a simple febrile seizure. Pediatrics. 2011;127(2):389-394. PMID 21285335 (référence confirmée par PubMed ; contenu des recommandations confirmé par recherche web — texte intégral non relu)."
@@ -164,13 +170,29 @@ sources:
     doi: ""
     url: "https://iris.who.int/handle/10665/81170"
     verifiee: true
+  - id: S20
+    reference: "Haute Autorité de santé, Commission de la transparence. Avis BUCCOLAM (midazolam) 2,5 mg, 5 mg, 7,5 mg, 10 mg, solution buccale, 18 juillet 2012 (CT-12074) — reproduit la posologie du RCP de Buccolam et le RCP du diazépam intrarectal (0,5 mg/kg sans dépasser 10 mg). Texte lu par l'audit (has-sante.fr, pdftotext)."
+    organisme: HAS
+    annee: 2012
+    type: texte_officiel
+    doi: ""
+    url: "https://www.has-sante.fr/upload/docs/application/pdf/2012-08/buccolam_18072012_avis_ct12074.pdf"
+    verifiee: true
+  - id: S21
+    reference: "BNF for Children — gluconate de calcium, hypocalcémie aiguë de l'enfant : 0,11 mmol/kg (0,5 mL/kg de gluconate de calcium à 10 %, maximum 4,5 mmol = 20 mL) en injection IV lente (5–10 min), sous surveillance ECG ; nouveau-né : 0,46 mmol/kg (2 mL/kg). Texte primaire non consulté (hôte inaccessible) ; posologie confirmée par recherche web (protocole pédiatrique NHS Tayside reproduisant le BNFc ; monographie du Perth Children's Hospital, 0,5 mL/kg, max. 20 mL)."
+    organisme: "BNFc (Royaume-Uni)"
+    annee: 2026
+    type: ouvrage
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [convulsion, nourrisson, convulsion fébrile simple, convulsion fébrile complexe, état de mal épileptique, benzodiazépine, midazolam, diazépam, lévétiracétam, fosphénytoïne, valproate, phénobarbital, méningite, ponction lombaire, hypocalcémie, hypoglycémie, ESETT]
 ---
 
 # Convulsions du nourrisson : diagnostic, traitement, prévention
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 19/11/2026, v1.1) — corrections requises : marqueurs de posologie restants (clonazépam, aciclovir, 3ᵉ ligne). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > **Vérification des sources (19/11/2026)** : fiches et sections pertinentes du Mémento OMS 2015 (DOC-00062), recommandation EPI2 du mhGAP 2023 (DOC-00049), résumé d'orientation des lignes directrices OMS sur les méningites 2025 (DOC-00040) et liste OMS des médicaments essentiels de l'enfant 2025 (DOC-00037) lus avec `pdftotext` ; essai ESETT lu dans sa version PubMed Central (doses, critères) ; autres références confirmées par PubMed. Les recommandations de l'AAP (2008, 2011) n'ont pas été relues en texte intégral : leur contenu est restitué à partir de résumés et de synthèses concordantes.
 > **Champ** : nourrisson (1 à 24 mois) et jeune enfant ; les convulsions néonatales sont seulement évoquées (DOS-NEON-0002 pour l'infection néonatale). Les épilepsies de l'enfant relèvent d'un autre item.
 
@@ -507,12 +529,12 @@ Morbidité et mortalité liées à la **durée** de la crise, à la **cause** (i
 
 | Molécule et voie | Posologie de référence | Maximum / remarques | Source |
 |---|---|---|---|
-| **Diazépam intrarectal** (solution 10 mg/2 mL) | **0,5 mg/kg** (0,1 mL/kg) ; repères OMS : 0,3 mL (< 4 kg, 2 sem.–2 mois) ; 0,5 mL (4–< 6 kg) ; 1,0 mL (6–< 10 kg) ; 1,25 mL (10–< 14 kg) ; 1,5 mL (14–19 kg) | 2ᵉ dose possible à 10 min ; **pas plus de deux doses** de diazépam [S10] | [S10] |
+| **Diazépam intrarectal** (solution 10 mg/2 mL) | **0,5 mg/kg** (0,1 mL/kg), **sans dépasser 10 mg** (RCP cité par la HAS [S20]) ; repères OMS : 0,3 mL (< 4 kg, 2 sem.–2 mois) ; 0,5 mL (4–< 6 kg) ; 1,0 mL (6–< 10 kg) ; 1,25 mL (10–< 14 kg) ; 1,5 mL (14–19 kg) | 2ᵉ dose possible à 10 min ; **pas plus de deux doses** de diazépam [S10] | [S10, S20] |
 | **Diazépam IV** | **0,25 mg/kg** (0,05 mL/kg de la solution à 5 mg/mL) | Dose cumulée « adéquate » de 0,3 mg/kg chez l'enfant < 32 kg et de 10 mg au-delà dans l'essai ESETT [S5] | [S5, S10] |
-| **Midazolam buccal** (solution oromuqueuse 5 ou 10 mg/mL ; à défaut, forme injectable par voie buccale) | Posologie par tranches d'âge selon le RCP **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | Alternative de choix sans accès veineux [S12, S14] | [S4, S12, S14] |
+| **Midazolam buccal** (solution oromuqueuse 5 ou 10 mg/mL ; à défaut, forme injectable par voie buccale) | RCP de Buccolam (dose unique par tranche d'âge) : **3 à 6 mois, en milieu hospitalier seulement : 2,5 mg** ; **> 6 mois à < 1 an : 2,5 mg** ; **1 à < 5 ans : 5 mg** ; **5 à < 10 ans : 7,5 mg** ; **10 à < 18 ans : 10 mg** [S20] | Sécurité non établie avant 3 mois ; à domicile, **une seule dose** par les soignants, appel des secours si la crise persiste 10 min après, pas de 2ᵉ dose sans avis médical [S20] ; alternative de choix sans accès veineux [S12, S14]. Les doses au poids (forme injectable par voie buccale ou intranasale) varient selon les protocoles : la valeur de 0,3 mg/kg (max. 10 mg) parfois citée n'a pas été rattachée à une recommandation relue **[À VÉRIFIER — protocole local]** | [S4, S12, S14, S20] |
 | **Midazolam IM / IV** | **0,3 mg/kg IM** ou **0,2 mg/kg IV** (doses cumulées jugées adéquates chez l'enfant < 32 kg dans ESETT) | 10 mg au-delà de 32 kg [S5] | [S4, S5] |
 | **Lorazépam IV** | **0,1 mg/kg** | 4 mg au-delà de 32 kg [S5] | [S4, S5] |
-| **Clonazépam IV** (usage répandu en France et au Maghreb) | **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | Non évalué dans les essais cités | — |
+| **Clonazépam IV** (usage répandu en France et au Maghreb) | **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | AMM française : état de mal de l'adulte et de l'enfant **de plus de 12 mois** (d'après la HAS [S20]) ; non évalué dans les essais cités | [S20] |
 
 Points d'évidence :
 
@@ -528,7 +550,7 @@ Le mhGAP 2023 recommande, chez l'enfant en état de mal persistant après **deux
 | Molécule | Posologie (référence) | Durée de perfusion | Précautions | Source |
 |---|---|---|---|---|
 | **Lévétiracétam** | **60 mg/kg** (max **4 500 mg**) dans ESETT ; **40 mg/kg** dans EcLiPSE et ConSEPT | **10 min** (ESETT) ; **5 min** (EcLiPSE) | Bonne tolérance (moins d'intubations et d'effets indésirables selon la synthèse du mhGAP) ; peu d'interactions | [S5, S7, S8, S9] |
-| **Fosphénytoïne** | **20 mg d'équivalent phénytoïne (EP)/kg** (max **1 500 mg EP**) | 10 min dans ESETT | Hypotension, troubles du rythme ; non inscrite sur la liste OMS des médicaments essentiels de l'enfant [S9] | [S5, S9] |
+| **Fosphénytoïne** | **20 mg d'équivalent phénytoïne (EP)/kg** (max **1 500 mg EP**) | 10 min dans ESETT | Hypotension, troubles du rythme ; non inscrite sur la liste OMS des médicaments essentiels de l'enfant [S14] | [S5, S9, S14] |
 | **Phénytoïne** | **20 mg/kg** (EcLiPSE, ConSEPT) ; **15–18 mg/kg** selon le Mémento OMS | **≥ 20 min** (EcLiPSE) ; **60 min** (OMS) | Voie veineuse dédiée, caustique (lésions en cas d'extravasation) ; arythmies, hypotension ; monitorage ECG | [S7, S8, S10] |
 | **Valproate de sodium** | **40 mg/kg** (max **3 000 mg**) | 10 min (ESETT) | **Contre-indiqué** en cas de maladie hépatique et de **maladie métabolique héréditaire, notamment mitochondriale** — que l'on ne peut pas toujours exclure chez un nourrisson qui convulse [S9] ; hépatotoxicité, pancréatite | [S5, S9] |
 | **Phénobarbital** | **15 mg/kg** IV ou IM en 15 min (OMS, enfant) ; **20 mg/kg** IV chez le nouveau-né, puis 10 mg/kg si persistance jusqu'à 40 mg/kg, entretien 5 mg/kg/j | 15–20 min | Sédation, **dépression respiratoire** majorée après benzodiazépines ; peut être plus efficace que la phénytoïne ou le valproate selon des données de faible qualité [S9] | [S9, S10] |
@@ -551,7 +573,7 @@ Transfert en **réanimation pédiatrique**, intubation, ventilation, perfusion c
 | Corticothérapie adjuvante | OMS 2025 : corticoïdes IV (dexaméthasone, hydrocortisone ou méthylprednisolone) **avec la première dose d'antibiotique** en contexte non épidémique lorsque la PL est réalisable, arrêtés si le LCR n'est pas en faveur d'une méningite bactérienne [S11] ; Mémento OMS : dexaméthasone **0,15 mg/kg toutes les 6 h pendant 2 à 4 jours**, à éviter chez le nouveau-né, en cas de neuropaludisme ou d'encéphalite virale suspectés [S10] | [S10, S11] |
 | **Encéphalite herpétique** suspectée | Aciclovir IV **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | — |
 | **Hypoglycémie** | Glucosé 10 % 5 mL/kg IV, contrôle à 30 min [S10] | [S10] |
-| **Hypocalcémie** | Gluconate de calcium 10 % IV lente sous scope (chez le nouveau-né : 2 mL/kg selon l'OMS [S10]) ; chez le nourrisson **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** ; puis calcium oral et vitamine D (DOS-PEDI-0006) | [S10] |
+| **Hypocalcémie** | Gluconate de calcium 10 % IV lente sous scope ECG : nourrisson et enfant **0,5 mL/kg (0,11 mmol/kg), maximum 20 mL, en 5 à 10 minutes** (BNFc [S21]) ; nouveau-né **2 mL/kg** (OMS [S10] ; BNFc [S21]) ; voie veineuse sûre (nécrose en cas d'extravasation) ; relais continu ou oral selon la calcémie et le protocole local ; puis calcium oral et vitamine D (DOS-PEDI-0006) | [S10, S21] |
 | **Hyponatrémie symptomatique** | NaCl hypertonique selon protocole (DOS-PEDI-0001 — marqueur maintenu) | — |
 | **Neuropaludisme** | Antipaludique parentéral (item paludisme) | [S10] |
 
@@ -564,7 +586,8 @@ T0  Début de la crise (noter l'heure)
 │   Position latérale, voies aériennes, O2, SpO2, glycémie capillaire.
 │
 T5  Crise persistante (≥ 5 min) = ÉTAT DE MAL → 1re dose de BENZODIAZÉPINE
-│   • sans voie veineuse : midazolam buccal [poso RCP] ou diazépam rectal 0,5 mg/kg
+│   • sans voie veineuse : midazolam buccal (2,5 mg < 1 an ; 5 mg de 1 à < 5 ans [S20])
+│     ou diazépam rectal 0,5 mg/kg (max 10 mg)
 │   • avec voie veineuse : diazépam IV 0,25 mg/kg ou lorazépam IV 0,1 mg/kg (max 4 mg)
 │   Hypoglycémie → glucosé 10 % 5 mL/kg IV.
 │
@@ -608,7 +631,7 @@ EN PARALLÈLE : cause ! (méningite → antibiotiques sans attendre, glycémie, 
 
 - **Pas de traitement antiépileptique continu ni intermittent systématique** après une ou plusieurs CF simples : malgré une efficacité réelle de certains traitements sur la récidive, leurs **effets indésirables** l'emportent sur les bénéfices compte tenu de la bénignité des CF [S2].
 - La revue Cochrane 2021 retrouve une réduction des récidives avec le **diazépam intermittent** et le **phénobarbital continu**, au prix d'**effets indésirables chez jusqu'à 30 %** des enfants, et **aucun bénéfice** des **antipyrétiques** (paracétamol, ibuprofène, diclofénac) ; elle conclut qu'il faut surtout **informer et soutenir les familles** [S13].
-- Un **traitement de secours** (midazolam buccal ou diazépam rectal) peut être confié aux parents dans des situations sélectionnées (antécédent de crise prolongée, éloignement des soins) **[À VÉRIFIER — indications selon les protocoles nationaux]**.
+- Un **traitement de secours** (midazolam buccal ou diazépam rectal) peut être confié aux parents dans des situations sélectionnées (antécédent de crise prolongée, éloignement des soins) **[À VÉRIFIER — indications selon les protocoles nationaux]** ; le RCP de Buccolam réserve son utilisation par les parents ou soignants aux enfants chez qui un **diagnostic d'épilepsie** a été posé : après des convulsions fébriles, la prescription est donc hors RCP et relève d'un avis neuropédiatrique [S20].
 
 ### 13.4 Particularités algériennes
 
@@ -682,7 +705,7 @@ CONVULSION AVEC FIÈVRE ≥ 38 °C — crise terminée
 CRISE AFÉBRILE
 ├─ Glycémie capillaire immédiate → < 2,5 mmol/L : glucosé 10 % 5 mL/kg
 ├─ Ionogramme, calcémie, magnésémie, gaz du sang
-│    ├─ Hypocalcémie → gluconate de calcium IV lente sous scope ; chercher un rachitisme
+│    ├─ Hypocalcémie → gluconate de calcium 10 % 0,5 mL/kg IV lente sous scope ; chercher un rachitisme
 │    └─ Dysnatrémie → correction prudente (DOS-PEDI-0001)
 ├─ Traumatisme ? histoire incohérente ? < 1 an ? → scanner, fond d'œil, protection de l'enfant
 ├─ Toxique accessible ? → centre antipoison
@@ -697,7 +720,7 @@ CRISE AFÉBRILE
 À l'arrivée (crise estimée à **8 minutes**) : clonies des quatre membres, révulsion oculaire, SpO₂ 90 % à l'air, FC 170/min, TRC 2 s, température 39,8 °C, **glycémie capillaire 5,2 mmol/L**. Pas de purpura visible. La voie veineuse est obtenue en 2 minutes.
 
 **Question 1 — Quelle est la conduite immédiate ?**
-*Réponse* : il s'agit d'un **état de mal épileptique** (crise ≥ 5 minutes) [S3]. Position latérale, oxygène au masque, aspiration douce, monitorage ; glycémie normale. **Benzodiazépine IV** : diazépam **0,25 mg/kg = 2 mg** IV [S10] (ou lorazépam 0,1 mg/kg = 0,8 mg) ; en l'absence de voie veineuse, diazépam rectal 0,5 mg/kg (≈ 0,8 mL de la solution à 10 mg/2 mL) ou midazolam buccal. Si la crise persiste 5 à 10 minutes plus tard : **2ᵉ et dernière dose** de benzodiazépine, puis 2ᵉ ligne IV (par exemple lévétiracétam 40–60 mg/kg, soit 320–480 mg, en 5–10 minutes) [S5, S7, S9].
+*Réponse* : il s'agit d'un **état de mal épileptique** (crise ≥ 5 minutes) [S3]. Position latérale, oxygène au masque, aspiration douce, monitorage ; glycémie normale. **Benzodiazépine IV** : diazépam **0,25 mg/kg = 2 mg** IV [S10] (ou lorazépam 0,1 mg/kg = 0,8 mg) ; en l'absence de voie veineuse, diazépam rectal 0,5 mg/kg (≈ 0,8 mL de la solution à 10 mg/2 mL) ou midazolam buccal (2,5 mg à 9 mois selon le RCP [S20]). Si la crise persiste 5 à 10 minutes plus tard : **2ᵉ et dernière dose** de benzodiazépine, puis 2ᵉ ligne IV (par exemple lévétiracétam 40–60 mg/kg, soit 320–480 mg, en 5–10 minutes) [S5, S7, S9].
 
 **Évolution** : la crise cède 4 minutes après le diazépam IV. Une heure plus tard, Lina reste **somnolente et geignarde** ; la **fontanelle est bombante** ; il n'y a pas de déficit focal, les pupilles sont symétriques et réactives.
 
@@ -719,7 +742,7 @@ CRISE AFÉBRILE
 1. **Convulsion fébrile** : crise au cours d'une fièvre (≥ 38 °C) chez un enfant de 6 à 60 mois (AAP), sans infection du SNC ni trouble métabolique ; **2 à 5 %** des enfants [S1].
 2. **CF simple** : généralisée, **< 15 min**, unique sur 24 h ; **CF complexe** : focale, ≥ 15 min ou répétée [S1].
 3. **État de mal** : crise ≥ **5 minutes** (t1) ; risque de séquelles au-delà de **30 minutes** (t2) [S3, S9].
-4. **Toute crise de plus de 5 minutes se traite** : benzodiazépine (diazépam rectal 0,5 mg/kg ou IV 0,25 mg/kg ; midazolam buccal ; lorazépam IV 0,1 mg/kg), **au maximum deux doses** [S4, S10, S12].
+4. **Toute crise de plus de 5 minutes se traite** : benzodiazépine (diazépam rectal 0,5 mg/kg, max 10 mg, ou IV 0,25 mg/kg ; midazolam buccal 2,5 mg avant 1 an, 5 mg de 1 à < 5 ans ; lorazépam IV 0,1 mg/kg), **au maximum deux doses** [S4, S10, S12, S20].
 5. **2ᵉ ligne** : lévétiracétam (40–60 mg/kg, max 4 500 mg), (fos)phénytoïne (20 mg EP/kg), valproate (40 mg/kg, max 3 000 mg) ou phénobarbital (15–20 mg/kg) — efficacité comparable, **environ un patient sur deux** contrôlé [S5–S9].
 6. **Glycémie capillaire** devant toute crise ; hypoglycémie → glucosé 10 % 5 mL/kg [S10].
 7. Après une **CF simple** : **pas d'EEG, pas d'imagerie, pas de bilan sanguin systématique** ; **PL** si signes méningés, option si 6–12 mois mal vacciné (Hib/pneumocoque) ou prétraité par antibiotiques [S1].
@@ -871,5 +894,7 @@ CRISE AFÉBRILE
 17. **[S17]** Berg AT, Shinnar S, Darefsky AS, et al. Predictors of recurrent febrile seizures. A prospective cohort study. *Arch Pediatr Adolesc Med*. 1997;151(4):371-378. doi:10.1001/archpedi.1997.02170410045006. PMID 9111436.
 18. **[S18]** Chentouf A, Talhi R, Dahdouh A, et al. Consanguinity and epilepsy in Oran, Algeria: a case-control study. *Epilepsy Res*. 2015;111:10-17. doi:10.1016/j.eplepsyres.2014.12.014. PMID 25769368.
 19. **[S19]** World Health Organization. *Pocket book of hospital care for children*. 2nd ed. Geneva: WHO; 2013 (DOC-00063).
+20. **[S20]** Haute Autorité de santé, Commission de la transparence. Avis BUCCOLAM (midazolam, solution buccale), 18 juillet 2012 (CT-12074) — posologie du RCP (lu par l'audit).
+21. **[S21]** *BNF for Children* — gluconate de calcium (hypocalcémie aiguë) ; posologie confirmée par recherche web (texte primaire non consulté).
 
 *Dossiers Mediverse liés : DOS-PEDI-0001 (déshydratations, dysnatrémies), DOS-PEDI-0002 (vaccinations), DOS-PEDI-0004 (diarrhées, shigellose), DOS-PEDI-0006 (rachitisme, hypocalcémie), DOS-NEON-0002 (infections néonatales).*

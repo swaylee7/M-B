@@ -326,7 +326,7 @@ L'EOGD affirme l'ulcère, précise son siège, sa taille, son aspect et ses comp
 - **Signes évocateurs de malignité (ulcère gastrique)** : bords surélevés, irréguliers, nodulaires ; plis convergents interrompus, en massue ou fusionnés ; fond irrégulier ou bourgeonnant ; ulcère de grande taille. Aucun aspect ne dispense des **biopsies**.
 - **Ulcère gastrique** : **biopsies multiples des bords et du fond** (au moins 6–8 classiquement [chiffre d'usage, À VÉRIFIER]), complétées par des biopsies de la muqueuse antrale et fundique pour *H. pylori* et la gastrite. **Contrôle endoscopique** de la cicatrisation après traitement, avec nouvelles biopsies si l'ulcère persiste ou si la cicatrice est suspecte.
 - **Ulcère duodénal** : pas de biopsie de l'ulcère (cancer duodénal exceptionnel), mais **biopsies gastriques** pour *H. pylori*.
-- **Biopsies gastriques pour *H. pylori*** : antre et corps (protocole de Sydney actualisé : 2 antrales, 1 angulaire, 2 fundiques), pour l'histologie, et si possible pour la **culture avec antibiogramme** ou un **test moléculaire de résistance** à la clarithromycine (± lévofloxacine) [S1, S4].
+- **Biopsies gastriques pour *H. pylori*** : antre et corps (protocole de Sydney actualisé : 2 antrales, 1 angulaire, 2 fundiques [protocole classique ; reprise exacte par Maastricht VI À VÉRIFIER]), pour l'histologie, et si possible pour la **culture avec antibiogramme** (HAS 2021 : gastroscopie + biopsies + examen bactériologique avant traitement guidé [S4]) ou un **test moléculaire de résistance** à la clarithromycine (± lévofloxacine) [S1].
 
 ### 9.2 Tests de détection de *H. pylori*
 
