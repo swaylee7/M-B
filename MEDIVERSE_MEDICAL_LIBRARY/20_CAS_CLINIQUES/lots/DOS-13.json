@@ -162,6 +162,157 @@
       "date_creation": "2026-11-19"
     },
     {
+      "id": "CAS-PHYS-1303",
+      "titre": "Syncope sous traitement associant antibiotique et antiémétique chez une femme de 67 ans — QT long acquis",
+      "niveau": "residanat",
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 67 ans, retraitée, hospitalisée en médecine interne pour une pneumopathie communautaire.",
+      "motif_consultation": "Deux épisodes de perte de connaissance brève au 3e jour d'hospitalisation, dont un observé par l'infirmière avec mouvements cloniques des membres.",
+      "antecedents": "Hypertension traitée par indapamide ; dépression traitée par un antidépresseur ; pas d'antécédent familial de mort subite. Traitement hospitalier : macrolide intraveineux, antiémétique de la classe des antagonistes dopaminergiques pour des nausées.",
+      "symptomes": "Palpitations brèves avant les malaises ; diarrhée depuis 2 jours.",
+      "examen_clinique": "Patiente consciente entre les épisodes, FC 52/min, PA 128/70 mmHg, auscultation pulmonaire : crépitants de la base droite.",
+      "biologie": "K+ 2,9 mmol/L (N 3,5-5,0) ; Mg2+ 0,55 mmol/L (N 0,70-1,05) ; Ca2+ total 2,25 mmol/L ; créatinine 98 µmol/L ; TSH normale ; troponine normale.",
+      "imagerie": "Radiographie thoracique : opacité alvéolaire basale droite. ECG : rythme sinusal 52/min, QT 600 ms, QTc (Bazett) ≈ 560 ms, ondes T aplaties suivies d'ondes U amples ; au monitorage, salves de tachycardie ventriculaire polymorphe à QRS « tournant autour de la ligne de base », déclenchées après une pause.",
+      "hypotheses_diagnostiques": [
+        "Torsades de pointes sur QT long acquis multifactoriel",
+        "Syndrome du QT long congénital révélé",
+        "Crise convulsive"
+      ],
+      "diagnostics_differentiels": [
+        "Épilepsie (les mouvements cloniques sont secondaires à l'hypoperfusion cérébrale)",
+        "Bloc auriculo-ventriculaire paroxystique",
+        "TV monomorphe sur cardiopathie ischémique"
+      ],
+      "examens_a_demander": [
+        "Monitorage ECG continu",
+        "Kaliémie, magnésémie, calcémie répétées",
+        "Revue exhaustive des médicaments (bases de données de médicaments allongeant le QT)",
+        "Échocardiographie",
+        "ECG de contrôle après correction ; ECG des apparentés si le QT reste long"
+      ],
+      "diagnostic_final": "Torsades de pointes sur allongement acquis du QT, multifactoriel : association de médicaments bloquant IKr (macrolide, antiémétique, antidépresseur), hypokaliémie et hypomagnésémie (diurétique, diarrhée), bradycardie, sexe féminin et âge.",
+      "traitement": "Arrêt de tous les médicaments allongeant le QT ; correction de la kaliémie (objectif dans la moitié supérieure de la normale) et de la magnésémie ; sulfate de magnésium intraveineux en cas de torsades selon le protocole ; accélération de la fréquence (isoprénaline ou stimulation temporaire) en cas de récidives favorisées par les pauses ; choc électrique en cas de dégénérescence en fibrillation ventriculaire [POSOLOGIE À VÉRIFIER — protocole local].",
+      "surveillance": "Monitorage continu jusqu'à normalisation du QTc ; ionogramme quotidien ; choix d'un antibiotique sans effet sur le QT.",
+      "evolution": "Disparition des torsades après correction électrolytique et arrêt des médicaments ; QTc à 450 ms à J5. ECG des enfants normaux.",
+      "explication_pedagogique": "La repolarisation ventriculaire dépend d'une « réserve » de courants potassiques (IKr, IKs). Les médicaments allongeant le QT bloquent pour la plupart le canal hERG (IKr) ; l'hypokaliémie diminue paradoxalement la conductance de IKr ; l'hypomagnésémie et la bradycardie accentuent l'allongement du potentiel d'action. Le potentiel d'action prolongé permet la réactivation des canaux calciques L : ce sont les post-dépolarisations précoces, qui déclenchent les torsades de pointes, typiquement après une séquence « cycle court – cycle long – cycle court » (pause). Le magnésium supprime les post-dépolarisations précoces même si la magnésémie est normale ; l'accélération de la fréquence raccourcit le potentiel d'action. Les mouvements cloniques au cours d'une syncope d'origine rythmique ne doivent pas faire conclure à une épilepsie.",
+      "questions": [
+        {
+          "question": "Calculez le QTc par la formule de Bazett.",
+          "reponse": "RR = 60/52 ≈ 1,15 s ; √1,15 ≈ 1,07 ; QTc ≈ 600/1,07 ≈ 560 ms."
+        },
+        {
+          "question": "Quel est le canal ionique principalement en cause ?",
+          "reponse": "hERG (KCNH2), qui porte IKr, cible de la plupart des médicaments allongeant le QT."
+        },
+        {
+          "question": "Pourquoi les torsades surviennent-elles après une pause ?",
+          "reponse": "La bradycardie et les pauses allongent encore le potentiel d'action et favorisent les post-dépolarisations précoces."
+        },
+        {
+          "question": "Quels sont les facteurs de risque présents ?",
+          "reponse": "Sexe féminin, âge, bradycardie, hypokaliémie, hypomagnésémie, diurétique, association de plusieurs médicaments bloquant IKr."
+        },
+        {
+          "question": "Faut-il rechercher un QT long congénital ?",
+          "reponse": "Oui si le QTc reste allongé après correction des causes ; un QT long acquis peut révéler une forme congénitale fruste (ECG des apparentés, avis spécialisé)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Rautaharju PM et al. AHA/ACCF/HRS recommendations, part IV: ST segment, T and U waves, and QT interval. J Am Coll Cardiol 2009;53:982-91",
+          "date": "2009"
+        },
+        {
+          "reference": "Zeppenfeld K et al. 2022 ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac death. Eur Heart J 2022;43:3997-4126",
+          "date": "2022"
+        },
+        {
+          "reference": "Nerbonne JM, Kass RS. Molecular physiology of cardiac repolarization. Physiol Rev 2005;85:1205-53",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-PHYS-1304",
+      "titre": "Malaises et bradycardie chez un homme de 78 ans — lecture d'un bloc auriculo-ventriculaire",
+      "niveau": "generaliste",
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 78 ans, agriculteur retraité, vivant à domicile, autonome.",
+      "motif_consultation": "Trois malaises avec brève perte de connaissance en 10 jours, sans prodrome, dont un ayant entraîné une plaie du cuir chevelu.",
+      "antecedents": "Hypertension artérielle traitée par amlodipine ; pas de traitement bradycardisant ; pas de cardiopathie connue.",
+      "symptomes": "Asthénie d'effort, dyspnée à la montée d'un étage depuis un mois.",
+      "examen_clinique": "FC 38/min régulière, PA 165/60 mmHg (pression différentielle élargie), souffle systolique éjectionnel 2/6, pas de signe d'insuffisance cardiaque, examen neurologique normal en dehors de la plaie.",
+      "biologie": "K+ 4,3 mmol/L ; Ca2+ 2,35 mmol/L ; créatinine 92 µmol/L ; TSH normale ; troponine normale ; sérologie de Lyme non demandée initialement (pas d'exposition évocatrice).",
+      "imagerie": "ECG : ondes P régulières à 80/min, QRS réguliers à 38/min, larges (0,14 s) avec aspect de bloc de branche droit et hémibloc antérieur gauche, sans relation fixe entre P et QRS (intervalles PR variables). Échocardiographie : fonction ventriculaire gauche conservée, sclérose aortique sans sténose significative.",
+      "hypotheses_diagnostiques": [
+        "Bloc auriculo-ventriculaire complet (3e degré) avec échappement ventriculaire",
+        "Maladie dégénérative du tissu de conduction (maladie de Lenègre)",
+        "Cause iatrogène ou ischémique"
+      ],
+      "diagnostics_differentiels": [
+        "Bloc sino-atrial ou dysfonction sinusale (les P sont ici régulières et rapides)",
+        "BAV 2:1 (les P bloquées alterneraient avec des P conduites à PR fixe)",
+        "Dissociation isorythmique sans bloc"
+      ],
+      "examens_a_demander": [
+        "Monitorage ECG continu",
+        "Revue des médicaments",
+        "Ionogramme, troponine",
+        "Avis cardiologique pour stimulation cardiaque"
+      ],
+      "diagnostic_final": "Bloc auriculo-ventriculaire complet infranodal (échappement à QRS larges à 38/min) par dégénérescence du tissu de conduction, responsable de syncopes (syndrome d'Adams-Stokes).",
+      "traitement": "Hospitalisation sous monitorage ; si mauvaise tolérance, accélération temporaire de la fréquence (isoprénaline ou stimulation externe ou endocavitaire) en attendant l'implantation d'un stimulateur cardiaque définitif, indiqué dans le bloc AV complet symptomatique selon les recommandations de cardiologie ; l'atropine est peu efficace dans un bloc infranodal [POSOLOGIE À VÉRIFIER — protocole local].",
+      "surveillance": "Monitorage jusqu'à l'implantation ; contrôles du stimulateur.",
+      "evolution": "Implantation d'un stimulateur double chambre ; disparition des malaises.",
+      "explication_pedagogique": "Les P sont régulières à 80/min (automatisme sinusal préservé) et les QRS réguliers à 38/min, sans relation entre eux : c'est une dissociation auriculo-ventriculaire par bloc complet. Le niveau du bloc se déduit de l'échappement : un échappement jonctionnel (au-dessus de la bifurcation du His) donne des QRS fins à 40-60/min, sensible à l'atropine ; un échappement ventriculaire (bloc infra-hisien) donne des QRS larges à 20-40/min, instable et insensible à l'atropine, puisque le tissu sous-jacent est peu innervé par le vague. La préexistence d'un bloc de branche droit et d'un hémibloc antérieur gauche (bloc bifasciculaire) oriente vers une atteinte diffuse du tissu de conduction. La pression différentielle élargie traduit l'augmentation du volume d'éjection systolique lié à la bradycardie.",
+      "questions": [
+        {
+          "question": "Comment affirmer le bloc AV complet ?",
+          "reponse": "Ondes P et QRS ont chacun leur propre rythme régulier, la fréquence atriale est supérieure à la fréquence ventriculaire et le PR varie sans relation fixe."
+        },
+        {
+          "question": "Le bloc est-il nodal ou infranodal ?",
+          "reponse": "Infranodal : échappement à QRS larges et lent (38/min), bloc bifasciculaire préexistant."
+        },
+        {
+          "question": "Pourquoi l'atropine est-elle peu efficace ?",
+          "reponse": "Elle agit sur le nœud sinusal et le nœud AV (riches en innervation vagale) mais pas sur un bloc situé dans le système His-Purkinje."
+        },
+        {
+          "question": "Quel mécanisme explique les syncopes ?",
+          "reponse": "Pauses ou ralentissement extrême de l'échappement ventriculaire (crises d'Adams-Stokes), éventuellement torsades de pointes favorisées par la bradycardie."
+        },
+        {
+          "question": "Quelle est la hiérarchie normale des pacemakers ?",
+          "reponse": "Nœud sinusal 60-100/min, jonction AV 40-60/min, ventricules 20-40/min."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Surawicz B et al. AHA/ACCF/HRS recommendations, part III: intraventricular conduction disturbances. Circulation 2009;119:e235-40",
+          "date": "2009"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology, 14e éd. Elsevier 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
       "id": "CAS-HEMA-1301",
       "titre": "TCA allongé découvert avant une cholécystectomie chez une femme de 34 ans",
       "niveau": "generaliste",
