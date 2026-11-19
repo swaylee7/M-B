@@ -6,11 +6,18 @@ sous_specialite: "Immunopathologie — hypersensibilités et allergie"
 items_residanat: [RES-SF-035]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-13 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-IMMU-0002.md
+    remarque: "Posologie de l'adrénaline IM vérifiée sur le texte intégral de la WAO 2020 (PMC7607509 ; document acquis DOC-00086, tableau 6) : 0,01 mg/kg de la solution à 1 mg/mL, maximum 0,5 mg, répétée toutes les 5 à 15 min ; barème < 10 kg 0,01 mg/kg, 1-5 ans 0,15 mg, 6-12 ans 0,3 mg, adolescent et adulte 0,5 mg — identique à DOS-MINT_REA-0001 et DOS-PEDI-0002 (aucune divergence créée) ; marqueur levé. Remplissage : bolus de cristalloïdes de 20 mL/kg (WAO 2020) ; marqueur levé. Critères WAO, tryptase (15 min-3 h, pic 1-2 h, 36-40 % < 11,4 µg/L, basale ≥ 24 h, formule 20 % + 2), IgE spécifiques, tests cutanés, patch-tests et Gell-Coombs/Pichler conformes ; nomenclature EAACI 2023 corrigée (neuf types). Aucune erreur critique ni majeure."
 sources:
   - id: S1
     reference: "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 (catalogue Mediverse OUV-0189)."
@@ -178,7 +185,7 @@ mots_cles: [hypersensibilité, allergie, Gell et Coombs, IgE, FcεRI, mastocyte,
 # États d'hypersensibilité de types I, II, III et IV : bases cellulaires et moléculaires, choc anaphylactique, exploration
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucune figure.
-> Statut : brouillon à auditer. La seule posologie citée (adrénaline intramusculaire de l'anaphylaxie) est celle de la guidance de la World Allergy Organization 2020, lue pendant la rédaction ; elle doit être confrontée au RCP et aux protocoles locaux. Les autres traitements sont décrits sans posologie.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1) ; relecture enseignante requise. Les seules posologies citées (adrénaline intramusculaire et remplissage de l'anaphylaxie) sont celles de la guidance de la World Allergy Organization 2020, vérifiées sur son texte intégral pendant l'audit ; les protocoles locaux et le RCP restent la référence d'application. Les autres traitements sont décrits sans posologie.
 
 **Items du programme couverts** : RES-SF-035 — « États d'hypersensibilité I, II, III et IV : bases cellulaires et moléculaires du choc anaphylactique — exploration — bases cellulaires et moléculaires de l'allergie de types III et IV — exploration ». Dossier lié : DOS-IMMU-0001 (système HLA, pharmacogénétique).
 
