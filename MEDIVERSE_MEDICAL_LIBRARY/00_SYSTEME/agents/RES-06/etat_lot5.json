@@ -1,0 +1,171 @@
+{
+  "id": "RES-06",
+  "lot": 5,
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T04:25:00+00:00",
+  "perimetre": "Fiches de révision dérivées des dossiers v1.1 audités — sciences fondamentales (physiologie, hémostase, immunologie) et thérapeutique (transfusion, antibiotiques, anticoagulants, corticoïdes, antalgiques)",
+  "taches_terminees": [
+    "FIC-PHYS-0001",
+    "FIC-PHYS-0002",
+    "FIC-HEMA-0006",
+    "FIC-HEMA-0007",
+    "FIC-IMMU-0001",
+    "FIC-IMMU-0002",
+    "FIC-PHAR-0001",
+    "FIC-PHAR-0002",
+    "FIC-PHAR-0003",
+    "FIC-PHAR-0004",
+    "PIEGES_CLASSIQUES_LOT5"
+  ],
+  "taches_suivantes": [
+    "Audit des 10 fiches FIC lot 5 et de PIEGES_CLASSIQUES_LOT5 par AUD (statut brouillon_a_auditer)",
+    "Transmission des 4 incohérences repérées (demi-vies HEMA-0007/PHAR-0002 ; delta ratio PHYS-0001 ; seuil INR AVK→AOD PHAR-0002 ; statuts obsolètes dans programme_residanat.json) à l'agent d'audit / à l'orchestrateur",
+    "Mise à jour des fiches si les dossiers PHAR-0001 à 0004 et HEMA-0006 passent en v1.2 (levée des marqueurs restants)",
+    "Indexation (indexer.py) et exports (exporter.py) par l'orchestrateur"
+  ],
+  "fiches": [
+    {
+      "id": "FIC-PHYS-0001",
+      "fichier": "02_PHYSIOLOGIE/04_PHYS_PHYSIOLOGIE/03_FICHES_REVISION/FIC-PHYS-0001__EQUILIBRE_ACIDO_BASIQUE.md",
+      "dossier_source": "DOS-PHYS-0001",
+      "version_dossier_source": "1.1",
+      "item": "RES-SF-014",
+      "mots": 1779,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PHYS-0002",
+      "fichier": "02_PHYSIOLOGIE/04_PHYS_PHYSIOLOGIE/03_FICHES_REVISION/FIC-PHYS-0002__ELECTROPHYSIOLOGIE_DU_COEUR_ACTIVITE_ELECTRIQUE_CARDIAQUE.md",
+      "dossier_source": "DOS-PHYS-0002",
+      "version_dossier_source": "1.1",
+      "item": "RES-SF-007",
+      "mots": 1717,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-HEMA-0006",
+      "fichier": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0006__TRANSFUSION_SANGUINE_INDICATIONS_ET_ACCIDENTS.md",
+      "dossier_source": "DOS-HEMA-0006",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-171",
+      "mots": 1568,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-HEMA-0007",
+      "fichier": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0007__HEMOSTASE_PHYSIOLOGIE_EXPLORATIONS_INTERPRETATION.md",
+      "dossier_source": "DOS-HEMA-0007",
+      "version_dossier_source": "1.1",
+      "item": "RES-SF-033",
+      "mots": 1623,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-IMMU-0001",
+      "fichier": "05_MICROBIOLOGIE/07_IMMU_IMMUNOLOGIE/03_FICHES_REVISION/FIC-IMMU-0001__SYSTEME_MAJEUR_D_HISTOCOMPATIBILITE_COMPLEXE_HLA.md",
+      "dossier_source": "DOS-IMMU-0001",
+      "version_dossier_source": "1.1",
+      "item": "RES-SF-036",
+      "mots": 1588,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-IMMU-0002",
+      "fichier": "05_MICROBIOLOGIE/07_IMMU_IMMUNOLOGIE/03_FICHES_REVISION/FIC-IMMU-0002__ETATS_D_HYPERSENSIBILITE_TYPES_I_A_IV_CHOC_ANAPHYLACTIQUE.md",
+      "dossier_source": "DOS-IMMU-0002",
+      "version_dossier_source": "1.1",
+      "item": "RES-SF-035",
+      "mots": 1741,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PHAR-0001",
+      "fichier": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/03_FICHES_REVISION/FIC-PHAR-0001__ANTIBIOTIQUES_CLASSIFICATION_REGLES_D_UTILISATION_RESISTANCES.md",
+      "dossier_source": "DOS-PHAR-0001",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-166",
+      "mots": 1735,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PHAR-0002",
+      "fichier": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/03_FICHES_REVISION/FIC-PHAR-0002__ANTICOAGULANTS_PRINCIPES_SURVEILLANCE_REGLES_D_UTILISATION.md",
+      "dossier_source": "DOS-PHAR-0002",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-173",
+      "mots": 1999,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PHAR-0003",
+      "fichier": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/03_FICHES_REVISION/FIC-PHAR-0003__CORTICOIDES_PRINCIPES_ET_REGLES_D_UTILISATION.md",
+      "dossier_source": "DOS-PHAR-0003",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-167",
+      "mots": 1682,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PHAR-0004",
+      "fichier": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/03_FICHES_REVISION/FIC-PHAR-0004__ANTALGIQUES_PRINCIPES_ET_REGLES_D_UTILISATION.md",
+      "dossier_source": "DOS-PHAR-0004",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-168",
+      "mots": 1850,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    }
+  ],
+  "compilation": {
+    "fichier": "16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT5.md",
+    "nombre_pieges": 100,
+    "modules": {
+      "SCIENCES FONDAMENTALES": 50,
+      "THERAPEUTIQUE": 50
+    },
+    "statut": "brouillon_a_auditer"
+  },
+  "incoherences_reperees": [
+    {
+      "type": "inter-dossiers",
+      "gravite": "mineure",
+      "objet": "Demi-vies des facteurs vitamine K-dépendants : DOS-HEMA-0007 § 4.4 (VII 4–6 h, PC 6–8 h, IX 18–24 h, II 60–70 h) vs DOS-PHAR-0002 § 4.3 (VII 6 h, PC 8 h, IX 24 h, II 60–72 h)"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-PHYS-0001 : delta ratio 1–2 = acidose à TA augmenté pure (§ 9.5) vs cas clinique § 17 Q5 (ratio 1,5 en acidocétose → rechercher une alcalose associée)"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-PHAR-0002 § 13.3.3 : relais AVK → AOD « INR ≤ 2 » (EHRA) juxtaposé aux seuils RCP « INR < 2 » (dabigatran, apixaban)"
+    },
+    {
+      "type": "index",
+      "gravite": "mineure",
+      "objet": "programme_residanat.json : 7 dossiers encore en brouillon_a_auditer (PHYS-0001/0002, HEMA-0006/0007, IMMU-0001/0002, PHAR-0004) ; champ fiches vide pour les 10 items — réindexation nécessaire"
+    }
+  ],
+  "outils": "scratchpad de session (non versionnés) : inject_sources.py, check_numbers.py, wc.py",
+  "git": "aucune opération (consigne)"
+}

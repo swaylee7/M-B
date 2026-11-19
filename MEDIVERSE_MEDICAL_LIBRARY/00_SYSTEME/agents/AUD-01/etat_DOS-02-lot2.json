@@ -1,0 +1,150 @@
+{
+  "id": "AUD-01",
+  "postes": [
+    "AUD-01",
+    "AUD-02"
+  ],
+  "lot": "DOS-02-lot2",
+  "statut": "lot_audite",
+  "derniere_execution": "2026-11-19T04:21:02+00:00",
+  "dossiers": {
+    "DOS-INFE-0003": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 18
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0003.md"
+    },
+    "DOS-INFE-0004": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 16
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0004.md"
+    },
+    "DOS-INFE-0005": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 18
+      },
+      "marqueurs_posologie_restants": 3,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0005.md"
+    },
+    "DOS-INFE-0006": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 13
+      },
+      "marqueurs_posologie_restants": 1,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0006.md"
+    },
+    "DOS-INFE-0007": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 9
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0007.md"
+    }
+  },
+  "lots": {
+    "qcm": {
+      "fichier": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-02-lot2.json",
+      "total": 65,
+      "corriges": [
+        "QCM-INFE-0207",
+        "QCM-INFE-0211",
+        "QCM-INFE-0225",
+        "QCM-INFE-0236",
+        "QCM-INFE-0242",
+        "QCM-INFE-0252"
+      ],
+      "audite_valide": 65
+    },
+    "cas": {
+      "fichier": "20_CAS_CLINIQUES/lots/DOS-02-lot2.json",
+      "total": 10,
+      "corriges": [
+        "CAS-INFE-0201",
+        "CAS-INFE-0202",
+        "CAS-INFE-0203",
+        "CAS-INFE-0204",
+        "CAS-INFE-0205",
+        "CAS-INFE-0206",
+        "CAS-INFE-0207",
+        "CAS-INFE-0208",
+        "CAS-INFE-0209"
+      ],
+      "audite_valide": 8,
+      "audite_corrections_requises": [
+        "CAS-INFE-0205",
+        "CAS-INFE-0208"
+      ]
+    }
+  },
+  "erreurs_majeures": [
+    "DOS-INFE-0003 : note OMS 2018 sur les vaccins antityphoïdiques présentée comme actuelle (remplacée par la note du 14 août 2026 : 1re dose de TCV entre 9 et 24 mois)",
+    "DOS-INFE-0004 : chimioprophylaxie par méfloquine poursuivie 3 semaines (contraire au principe des 4 semaines énoncé et à l'OMS 2024)",
+    "DOS-INFE-0005 : consolidation de la cryptococcose à 400–800 mg/j (OMS 2022 : 800 mg/j)",
+    "CAS-INFE-0208 : sepsis affirmé avec un ΔSOFA de 1"
+  ],
+  "marqueurs": {
+    "leves": 21,
+    "restants": [
+      "DOS-INFE-0005 § 12.3 : toxoplasmose cérébrale (pyriméthamine, sulfadiazine, acide folinique)",
+      "DOS-INFE-0005 § 12.3 et CAS-INFE-0205 : fluconazole de la candidose oro-œsophagienne",
+      "DOS-INFE-0006 § 13.2 d : noradrénaline (dose initiale, base/tartrate) — comme DOS-MINT_REA-0001",
+      "CAS-INFE-0208 : dose maximale et durée de l'antistaphylococcique"
+    ],
+    "methode": "occurrences de « POSOLOGIE … À VÉRIFIER » : 27 avant l'audit (20 dans les dossiers, 7 dans les lots), 6 après (4 dans les dossiers, 2 dans les lots)"
+  },
+  "documents_lus_hors_registre": [
+    "OMS. International travel and health, Module 3: Malaria, 2024 (IRIS 10665/379612)",
+    "OMS. Position paper on typhoid vaccines, 2026 (WER 2026;101(32):166-180 ; IRIS 10665/386927)",
+    "OMS. Typhoid vaccines position paper 2018 (IRIS 10665/272273)",
+    "OMS. Background document: diagnosis, treatment and prevention of typhoid fever, 2003 (IRIS 10665/370492)",
+    "OMS. Cryptococcal disease guidelines, 2022 (IRIS 10665/357088)",
+    "OMS. Long-acting injectable cabotegravir for HIV prevention, 2022 (IRIS 10665/360869)",
+    "OMS. Lenacapavir for HIV prevention, 2025 (IRIS 10665/381892)",
+    "Evans L, et al. Surviving Sepsis Campaign 2021 (texte intégral, Europe PMC PMC8486643)"
+  ],
+  "hotes_inaccessibles": [
+    "link.springer.com",
+    "infectiologie.com",
+    "clinicalinfo.hiv.gov",
+    "ema.europa.eu",
+    "sante.gouv.fr",
+    "unaids.org",
+    "rr-africa.woah.org",
+    "vidal.fr",
+    "base-donnees-publique.medicaments.gouv.fr"
+  ],
+  "signalements_coherence": [
+    "DOS-URGE-0002 § 13.4 : le marqueur de posologie de l'antibioprophylaxie des morsures peut être levé avec le livre AWaRe (tableau 18.4 : amoxicilline-acide clavulanique 500/125 mg/8 h, 3 jours) — dossier non modifié"
+  ],
+  "taches_suivantes": [
+    "Acquérir au registre (acquerir.py) les documents OMS lus pendant l'audit, en particulier la note de synthèse 2026 sur les vaccins antityphoïdiques et le module paludisme 2024 du guide des voyages internationaux",
+    "Lire les recommandations NIH ou EACS (toxoplasmose, candidose) et l'IDSA 2016 (candidose) pour lever les marqueurs de DOS-INFE-0005",
+    "Lire le texte intégral de la SSC 2026 adulte et enfant (Springer inaccessible) ; protocole local de la noradrénaline",
+    "Lire la SPILF 2017 (paludisme) et le HCSP 2026 (voyageurs) pour les positions françaises",
+    "Rechercher les protocoles nationaux algériens (paludisme, typhoïde, TAR/PTME, PPE antirabique) et les données INSP : non retrouvés pendant la session",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
+  ]
+}

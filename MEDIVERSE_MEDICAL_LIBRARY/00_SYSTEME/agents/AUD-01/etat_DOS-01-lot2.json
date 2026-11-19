@@ -1,0 +1,129 @@
+{
+  "id": "AUD-01",
+  "perimetre": "Audit scientifique et posologique (AUD-01/AUD-02) du lot 2 de cardiologie du rédacteur DOS-01 (DOS-CARD-0006 à 0010, QCM-CARD-0101 à 0160, CAS-CARD-0101 à 0110)",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "audit DOS-CARD-0006 EP et thromboses veineuses",
+    "audit DOS-CARD-0007 troubles du rythme",
+    "audit DOS-CARD-0008 péricardites aiguës",
+    "audit DOS-CARD-0009 angor / SCC",
+    "audit DOS-CARD-0010 rétrécissement aortique",
+    "audit lot QCM DOS-01-lot2 (60 QCM)",
+    "audit lot cas DOS-01-lot2 (10 cas)"
+  ],
+  "resultats": {
+    "DOS-CARD-0006": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 13
+      },
+      "marqueurs_posologie_restants": 1
+    },
+    "DOS-CARD-0007": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 9
+      },
+      "marqueurs_posologie_restants": 1
+    },
+    "DOS-CARD-0008": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 10
+      },
+      "marqueurs_posologie_restants": 2
+    },
+    "DOS-CARD-0009": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 10
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-CARD-0010": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 7
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "marqueurs_posologie": {
+      "initial": 17,
+      "leves": 12,
+      "restants": 5,
+      "detail_leves": [
+        "HNF (Raschke/ACCP 2012)",
+        "ténectéplase (PEITHO, hors AMM)",
+        "CCP pour les AVK (HAS 2008)",
+        "TV : amiodarone (ERC 2021) et procaïnamide (PROCAMIO)",
+        "rilonacept (FDA)",
+        "prednisolone adjuvante (IMPI)",
+        "hydroxychloroquine (EULAR 2023, CAS-CARD-0106)",
+        "trinitrine sublinguale",
+        "diltiazem",
+        "vérapamil",
+        "mononitrate d'isosorbide",
+        "diltiazem LP (CAS-CARD-0108)"
+      ],
+      "detail_restants": [
+        "doses initiales d'AVK (pratique française et algérienne)",
+        "glucagon",
+        "aminophylline",
+        "azathioprine",
+        "immunoglobulines IV"
+      ]
+    },
+    "qcm": {
+      "total": 60,
+      "reponses_erronees": 0,
+      "modifies": [
+        "QCM-CARD-0133 (explication IMPI)",
+        "QCM-CARD-0135 (ESC 2025)"
+      ],
+      "audite_valide": 60
+    },
+    "cas": {
+      "total": 10,
+      "modifies": [
+        "CAS-CARD-0102",
+        "CAS-CARD-0106",
+        "CAS-CARD-0108",
+        "CAS-CARD-0110"
+      ],
+      "audite_valide": 10
+    },
+    "erreurs_critiques": 0,
+    "erreurs_majeures": [
+      "DOS-CARD-0006 : énoxaparine en insuffisance rénale sévère (contradiction avec DOS-PHAR-0002)",
+      "DOS-CARD-0008 : essai IMPI présenté sans son critère principal négatif",
+      "DOS-CARD-0009 : ivabradine proposée en association sans la restriction de classe III de l'ESC 2024 (incohérence interne)"
+    ],
+    "references_verifiees_pendant_audit": 25,
+    "recherches_web": 12
+  },
+  "taches_suivantes": [
+    "DOS-CARD-0006 : doses initiales d'AVK (pratique française et algérienne) ; RCP harmonisé de l'énoxaparine et AMM algérienne ; sous-catégories AHA/ACC 2026 ; nouvelle recommandation ESC sur l'EP",
+    "DOS-CARD-0007 : doses du glucagon et de l'aminophylline ; textes intégraux ESC 2024 FA et ESC 2022 (classes recoupées par sources secondaires) ; ERC 2025",
+    "DOS-CARD-0008 : posologies de l'azathioprine et des IgIV ; texte intégral ESC 2025 myocardite-péricardite (classes des anti-IL-1, colchicine pendant la grossesse) ; OMS 2026 module 4 ; instruction algérienne n° 07 de 2024",
+    "DOS-CARD-0009 : classes ESC 2024 de la revascularisation pronostique ; AHA/ACC 2023 (DAPT)",
+    "DOS-CARD-0010 : texte intégral ESC/EACTS 2025 (prothèse selon l'âge, antithrombotiques après TAVI, marqueurs de risque chez l'asymptomatique, stadification)",
+    "Données algériennes encore marquées [À VÉRIFIER] dans les cinq dossiers",
+    "Hôtes à autoriser : academic.oup.com, escardio.org, sicardiologia.it, textbookofcardiology.org (WebFetch bloqué)",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
+  ]
+}

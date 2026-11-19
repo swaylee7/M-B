@@ -499,8 +499,8 @@ NAISSANCE (anticiper : équipe formée, table chauffante, mélangeur O2, PPC/T-p
 ├─ Liquide méconial chez un nouveau-né non vigoureux : ventiler SANS DÉLAI ;
 │   pas d'aspiration trachéale systématique ; aspiration sous vision seulement
 │   si obstruction suspectée [S8]
-└─ Hernie diaphragmatique connue : intubation, sonde gastrique, éviter le ballon-masque,
-    pas de curare initial, SpO2 pré-ductale 80–95 % [S9]
+└─ Hernie diaphragmatique connue : pas de curare initial, SpO2 pré-ductale 80–95 % [S9] ;
+    intubation, sonde gastrique, éviter le ballon-masque (pratique usuelle) [À VÉRIFIER]
 ```
 
 #### 13.3.2 En unité de néonatologie : démarche devant une DRN
@@ -639,7 +639,7 @@ En salle de naissance, il est placé dans un **sac en plastique** sous table rad
 8. **Surfactant d'origine animale**, **poractant 200 mg/kg**, **LISA**, si **FiO₂ > 0,30 sous PPC ≥ 6 cmH₂O** [S1].
 9. **Caféine** : charge 20 mg/kg, entretien 5–10 mg/kg/j ; recommandée par l'OMS pour les apnées et l'extubation [S1, S2].
 10. **SpO₂ cible 90–94 %** chez le prématuré sous oxygène ; FiO₂ initiale selon l'âge gestationnel en salle de naissance [S1, S8].
-11. **Hernie diaphragmatique** : pas de ventilation au masque prolongée, sonde gastrique, SpO₂ pré-ductale 80–95 %, PaCO₂ 50–70 mmHg, pas de surfactant de routine [S1, S9].
+11. **Hernie diaphragmatique** : SpO₂ pré-ductale 80–95 % et post-ductale > 70 %, PaCO₂ 50–70 mmHg, ventilation conventionnelle initiale, pas de curare initial [S9] ; pas de surfactant de routine [S1] ; éviter la ventilation prolongée au masque (§10.5).
 12. **Prévention** : transfert in utero, **corticothérapie anténatale** (une cure jusqu'à 34 SA, ≥ 24 h avant la naissance), sulfate de magnésium < 32 SA, clampage retardé ≥ 60 s [S1].
 
 ## 19. Pièges classiques à l'examen
@@ -647,7 +647,7 @@ En salle de naissance, il est placé dans un **sac en plastique** sous table rad
 - **Inverser la lecture** du score de Silverman (0 = normal, contrairement à l'Apgar) [S6].
 - Se rassurer devant un **score qui baisse** chez un nouveau-né qui s'**épuise** (apnées, hypercapnie).
 - **Oublier l'infection** devant une détresse « typique » de MMH ou de tachypnée transitoire — ou, à l'inverse, **prolonger** des antibiotiques inutiles au-delà de 36 h [S1].
-- **Ventiler au masque** un nouveau-né porteur d'une **hernie diaphragmatique** [S9].
+- **Ventiler longuement au masque** un nouveau-né porteur d'une **hernie diaphragmatique** (§10.5).
 - **Aspirer systématiquement la trachée** d'un nouveau-né non vigoureux né dans un liquide méconial au lieu de ventiler [S8].
 - **Hyperoxygéner** le prématuré (rétinopathie) — ou viser des saturations trop basses (mortalité) [S1].
 - **Négliger la thermorégulation** (l'hypothermie aggrave la détresse) [S1].
@@ -660,3 +660,119 @@ En salle de naissance, il est placé dans un **sac en plastique** sous table rad
 
 *Questions originales Mediverse (propositions A–E, réponses multiples possibles sauf QCS). Identifiants identiques à ceux du lot JSON.*
 
+**QCM 1 (QCM-NEON-0501) — QCS.** Un nouveau-né présente un balancement thoraco-abdominal discret (thorax immobile, seul l'abdomen se soulève), un tirage intercostal marqué, un entonnoir xiphoïdien absent, un battement des ailes du nez discret et un geignement audible seulement au stéthoscope. Quel est son score de Silverman ?
+
+- A. 3
+- B. 4
+- C. 5
+- D. 6
+- E. 7
+
+**QCM 2 (QCM-NEON-0502) — QCM.** Concernant le score de Silverman, quelles propositions sont exactes ?
+
+- A. Il comporte cinq items cotés de 0 à 2
+- B. Un score de 0 correspond à l'absence de signe de lutte
+- C. Il intègre la fréquence respiratoire et la saturation
+- D. Il peut diminuer chez un nouveau-né qui s'épuise, sans que la situation s'améliore
+- E. Comme pour le score d'Apgar, un score élevé est rassurant
+
+**QCM 3 (QCM-NEON-0503) — QCM.** Concernant la maladie des membranes hyalines (syndrome de détresse respiratoire du prématuré), quelles propositions sont exactes ?
+
+- A. Elle est due à une immaturité pulmonaire avec déficit en surfactant
+- B. Les signes cliniques apparaissent généralement dans les 4 heures suivant la naissance
+- C. L'évolution naturelle comporte une aggravation sur 48 à 72 heures puis une récupération
+- D. Le diabète maternel diminue le risque
+- E. La radiographie montre typiquement des poumons distendus avec scissurite
+
+**QCM 4 (QCM-NEON-0504) — QCS.** Un nouveau-né de 38 SA, né par césarienne programmée avant travail d'une mère diabétique, présente dès la première heure une polypnée à 85/min avec un tirage modéré ; la SpO2 est à 94 % sous 25 % d'oxygène ; il n'y a pas de facteur de risque infectieux ; la radiographie montre une distension thoracique, des opacités hilifuges et une scissurite. Quel est le diagnostic le plus probable ?
+
+- A. Maladie des membranes hyalines
+- B. Tachypnée transitoire (retard de résorption du liquide pulmonaire)
+- C. Inhalation méconiale
+- D. Hernie diaphragmatique
+- E. Hypertension artérielle pulmonaire persistante
+
+**QCM 5 (QCM-NEON-0505) — QCM.** Un nouveau-né à terme naît dans un liquide méconial épais ; il est hypotonique et ne respire pas. Selon les recommandations de l'ERC (2021), quelles propositions sont exactes ?
+
+- A. Il faut débuter la ventilation en pression positive sans délai
+- B. Une laryngoscopie avec aspiration trachéale systématique doit précéder toute ventilation
+- C. Une aspiration sous contrôle de la vue se discute si le thorax ne se soulève pas malgré la ventilation (obstruction suspectée)
+- D. L'aspiration oropharyngée intrapartum avant le dégagement des épaules prévient l'inhalation méconiale
+- E. L'oxygène est débuté à 21 % chez le nouveau-né à terme
+
+**QCM 6 (QCM-NEON-0506) — QCM.** Selon les recommandations européennes de 2022 sur le syndrome de détresse respiratoire du prématuré, quelles propositions concernant le surfactant sont exactes ?
+
+- A. Un surfactant d'origine animale doit être utilisé
+- B. La technique LISA est préférée chez l'enfant qui respire spontanément sous PPC
+- C. Une dose initiale de 200 mg/kg de poractant alfa est préférable à 100 mg/kg en traitement curatif
+- D. Le seuil proposé pour traiter est une FiO2 > 0,30 sous PPC d'au moins 6 cmH2O
+- E. Le surfactant est recommandé de façon systématique dans la hernie diaphragmatique
+
+**QCM 7 (QCM-NEON-0507) — QCM.** Concernant la pression positive continue (PPC) dans les recommandations de l'OMS de 2022 sur le prématuré, quelles propositions sont exactes ?
+
+- A. La PPC est recommandée (recommandation forte) chez le prématuré présentant des signes cliniques de syndrome de détresse respiratoire
+- B. La PPC peut être envisagée dès la naissance chez le grand prématuré de moins de 32 SA, avec ou sans détresse
+- C. La PPC à bulles peut être préférée aux autres sources de pression
+- D. La PPC peut être mise en place sans formation particulière du personnel
+- E. La caféine est recommandée pour le traitement des apnées du prématuré
+
+**QCM 8 (QCM-NEON-0508) — QCM.** Concernant la caféine chez le prématuré, quelles propositions sont exactes ?
+
+- A. Le consensus européen 2022 propose une dose de charge de 20 mg/kg puis 5 à 10 mg/kg/j
+- B. Elle facilite le sevrage de la ventilation mécanique
+- C. L'OMS la recommande pour l'extubation des prématurés nés avant 34 SA
+- D. Le Mémento OMS propose, en l'absence de caféine, l'aminophylline
+- E. Elle est contre-indiquée en cas d'apnées du prématuré
+
+### Corrigé commenté
+
+**QCM 1 (QCM-NEON-0501) — Réponse(s) : C.** Balancement thoraco-abdominal 1 + tirage intercostal 2 + entonnoir xiphoïdien 0 + battement des ailes du nez 1 + geignement audible au stéthoscope 1 = 5. Chaque item est coté de 0 à 2 ; plus le score est élevé, plus la détresse est sévère.
+*Piège* : Coter le geignement audible au stéthoscope à 2 (il vaut 1 ; 2 s'il est audible à l'oreille).
+
+**QCM 2 (QCM-NEON-0502) — Réponse(s) : A, B, D.** Le score de Silverman cote balancement thoraco-abdominal, tirage intercostal, entonnoir xiphoïdien, battement des ailes du nez et geignement (0 à 2 chacun). Il n'intègre ni la fréquence respiratoire, ni la cyanose, ni les apnées ; un score qui baisse peut traduire l'épuisement. Il se lit à l'inverse de l'Apgar.
+*Piège* : Lire le Silverman comme l'Apgar.
+
+**QCM 3 (QCM-NEON-0503) — Réponse(s) : A, B, C.** La MMH résulte d'un déficit en surfactant ; selon l'OMS, tachypnée, geignement, tirage et cyanose apparaissent dans les 4 premières heures ; elle s'aggrave puis récupère après 48–72 h avec la production endogène de surfactant. Le diabète maternel retarde la maturation (risque accru). La radiographie montre des poumons de petit volume, granités, avec bronchogramme ; la distension avec scissurite évoque la tachypnée transitoire.
+*Piège* : Confondre aspect radiologique de MMH et de tachypnée transitoire.
+
+**QCM 4 (QCM-NEON-0504) — Réponse(s) : B.** Terme, césarienne avant travail, diabète maternel, polypnée avec besoin en oxygène modéré et radiographie de surcharge liquidienne (distension, opacités hilifuges, scissurite) : tableau typique de tachypnée transitoire, première cause de détresse respiratoire du nouveau-né à terme.
+
+**QCM 5 (QCM-NEON-0505) — Réponse(s) : A, C, E.** ERC 2021 : chez le nouveau-né non vigoureux né dans un liquide méconial, ni laryngoscopie ni aspiration trachéale systématiques (retard à la ventilation) ; ventiler sans délai ; aspiration sous vision seulement si obstruction suspectée. L'essai de Vain (2004) a montré que l'aspiration intrapartum ne prévient pas l'inhalation méconiale. Oxygène à 21 % au terme.
+*Piège* : Retarder la ventilation pour aspirer la trachée.
+
+**QCM 6 (QCM-NEON-0506) — Réponse(s) : A, B, C, D.** Consensus européen 2022 : surfactant animal (A1), LISA préférée (A1), poractant 200 mg/kg (A1), traitement précoce si FiO2 > 0,30 sous PPC ≥ 6 cmH2O ou échographie en faveur (B2), doses répétées si besoin (A1) ; pas d'usage de routine dans la hernie diaphragmatique.
+
+**QCM 7 (QCM-NEON-0507) — Réponse(s) : A, B, C, E.** OMS 2022 : B.1 PPC pour le SDR (forte) ; B.2 PPC immédiate < 32 SA (conditionnelle) ; B.3 PPC à bulles (conditionnelle) ; mise en œuvre par un personnel qualifié avec un matériel de qualité ; B.4 caféine pour les apnées (forte), B.5 pour l'extubation avant 34 SA (forte), B.6 en prévention (conditionnelle).
+
+**QCM 8 (QCM-NEON-0508) — Réponse(s) : A, B, C, D.** Caféine : charge 20 mg/kg, entretien 5–10 mg/kg/j (consensus européen, A1) ; recommandée par l'OMS pour les apnées et l'extubation avant 34 SA ; le Mémento OMS propose l'aminophylline à défaut (charge 6 mg/kg IV, puis 2,5 mg/kg toutes les 12 h). Les apnées du prématuré en sont l'indication principale.
+
+*Les QCM 9 à 12 de la série (QCM-NEON-0509 à QCM-NEON-0512) figurent uniquement dans le lot JSON `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json`.*
+## 21. Divergences entre recommandations
+
+| Question | Position A | Position B | Commentaire |
+|---|---|---|---|
+| **Cible de saturation du prématuré** | Consensus européen 2022 : **90–94 %**, alarmes 89–95 % [S1] | Mémento OMS 2015 : **> 90 % et < 95 %** chez le prématuré en détresse ; seuil de traitement ≤ 90 % [S3] | Positions proches ; le consensus européen précise les alarmes |
+| **PPC immédiate** | Consensus européen 2022 : PPC ou NIPPV dès la naissance chez les enfants à risque, par exemple < 30 SA (A1) [S1] | OMS 2022 : PPC immédiate **envisageable** < 32 SA (conditionnelle, faible certitude) ; PPC à bulles possible [S2] | Différence de force de recommandation et de seuil d'âge gestationnel |
+| **Antibiotiques et détresse du prématuré** | OMS 2015 : antibiotiques car une pneumonie est difficile à exclure [S3] | Consensus européen 2022 : usage **raisonné**, abstention possible si bas risque, **arrêt à 36 h** si infection écartée [S1] | Le contexte (accès aux hémocultures et à la CRP) explique la divergence ; voir DOS-NEON-0002 |
+| **Technique d'administration du surfactant** | Consensus européen 2022 : **LISA** préférée (A1) [S1] | Synthèses plus anciennes : **INSURE** (intubation, surfactant, extubation rapide vers la PPC) [S12] | La LISA suppose une formation ; l'INSURE reste une alternative |
+| **Liquide méconial chez le non-vigoureux** | ERC 2021 : **ni laryngoscopie ni aspiration trachéale systématiques** ; ventiler sans délai [S8] | Mémento OMS 2015 : aspirer bouche, nez et oropharynx sous vision directe si l'enfant ne pleure pas et ne bouge pas [S3] | Les deux s'accordent pour ne pas aspirer en routine l'enfant vigoureux ; l'aspiration ne doit pas retarder la ventilation |
+| **Corticothérapie anténatale** | Consensus européen 2022 : cure unique jusqu'à 34 SA ; rattrapage avant 32 SA ; déconseillée après 34 SA en travail spontané [S1] | Mémento OMS 2015 : dexaméthasone 2 × 12 mg à 24 h d'intervalle chez la femme à risque d'accouchement prématuré [S3] | Les schémas (bétaméthasone/dexaméthasone) relèvent des protocoles obstétricaux nationaux **[À VÉRIFIER]** |
+| **Score de gravité** | Score de Silverman (enseignement francophone) [S6] ; score de Downes [S7] | Consensus européen 2022 : gravité appréciée par le **travail respiratoire et la FiO₂** ; définitions radiologiques et gazométriques jugées dépassées [S1] | Les scores restent utiles pour décrire et surveiller, pas pour décider seuls du surfactant |
+
+## 22. Références
+
+1. **[S1]** Sweet DG, Carnielli VP, Greisen G, et al. European consensus guidelines on the management of respiratory distress syndrome: 2022 update. *Neonatology*. 2023;120(1):3-23. doi:10.1159/000528914. PMID 36863329.
+2. **[S2]** World Health Organization. *WHO recommendations for care of the preterm or low-birth-weight infant*. Geneva: WHO; 2022 (DOC-00051, lu).
+3. **[S3]** Organisation mondiale de la Santé. *Mémento de soins hospitaliers pédiatriques*. 2e éd. Genève : OMS ; 2015 (DOC-00062, lu).
+4. **[S4]** Organisation mondiale de la Santé. *PCIME — prise en charge du nourrisson malade âgé de 0 à 2 mois : recueil des tableaux*. Genève : OMS ; 2019 (DOC-00060, lu).
+5. **[S5]** World Health Organization. *WHO recommendations for management of serious bacterial infections in infants aged 0-59 days*. Geneva: WHO; 2024 (DOC-00052).
+6. **[S6]** Silverman WA, Andersen DH. A controlled clinical trial of effects of water mist on obstructive respiratory signs, death rate and necropsy findings among premature infants. *Pediatrics*. 1956;17(1):1-10. PMID 13353856.
+7. **[S7]** Downes JJ, Vidyasagar D, Boggs TR Jr, Morrow GM 3rd. Respiratory distress syndrome of newborn infants. I. New clinical scoring system (RDS score) with acid-base and blood-gas correlations. *Clin Pediatr (Phila)*. 1970;9(6):325-331. doi:10.1177/000992287000900607. PMID 5419441.
+8. **[S8]** Madar J, Roehr CC, Ainsworth S, et al. European Resuscitation Council Guidelines 2021: newborn resuscitation and support of transition of infants at birth. *Resuscitation*. 2021;161:291-326. doi:10.1016/j.resuscitation.2021.02.014. PMID 33773829.
+9. **[S9]** Snoek KG, Reiss IK, Greenough A, et al. Standardized postnatal management of infants with congenital diaphragmatic hernia in Europe: the CDH EURO Consortium consensus — 2015 update. *Neonatology*. 2016;110(1):66-74. doi:10.1159/000444210. PMID 27077664.
+10. **[S10]** Alhassen Z, Vali P, Guglani L, Lakshminrusimha S, Ryan RM. Recent advances in pathophysiology and management of transient tachypnea of newborn. *J Perinatol*. 2021;41(1):6-16. doi:10.1038/s41372-020-0757-3. PMID 32753712.
+11. **[S11]** Vain NE, Szyld EG, Prudent LM, et al. Oropharyngeal and nasopharyngeal suctioning of meconium-stained neonates before delivery of their shoulders: multicentre, randomised controlled trial. *Lancet*. 2004;364(9434):597-602. doi:10.1016/S0140-6736(04)16852-9. PMID 15313360.
+12. **[S12]** Hermansen CL, Mahajan A. Newborn respiratory distress. *Am Fam Physician*. 2015;92(11):994-1002. PMID 26760414.
+13. **[S13]** Bezzaoucha A, El Kebboub A, Aliche A. Évolution de la mortalité néonatale au CHU de Blida (Algérie) entre 1999 et 2006. *Bull Soc Pathol Exot*. 2010;103(1):29-36. doi:10.1007/s13149-009-0001-z. PMID 20084486.
+
+*Dossiers Mediverse liés : DOS-NEON-0001 (ictère néonatal), DOS-NEON-0002 (infections néonatales), DOS-PEDI-0006 (vitamine D du prématuré).*

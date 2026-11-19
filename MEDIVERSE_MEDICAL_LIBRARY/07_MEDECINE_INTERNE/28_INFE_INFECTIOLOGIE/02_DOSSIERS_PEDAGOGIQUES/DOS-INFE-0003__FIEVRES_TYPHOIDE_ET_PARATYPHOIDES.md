@@ -724,7 +724,7 @@ Un patient revient de Karachi (Pakistan) avec une fièvre typhoïde. Concernant 
 - B — Vrai : données de Klemm et al. (mBio 2018).
 - C — Faux : résistance aux C3G par définition.
 - D — Vrai : souvent la seule option orale restante.
-- E — Vrai : méropénem aux doses usuelles des infections graves (adulte 1 g toutes les 8 h IV selon l'OMS, AWaRe), réservé à cette situation.
+- E — Vrai : méropénem aux doses usuelles des infections graves (adulte 1 g toutes les 8 h IV, enfant 20 mg/kg toutes les 8 h selon l'OMS, livre AWaRe), réservé à cette situation.
 
 > Piège : Appliquer le schéma « ceftriaxone » standard à un cas importé du Pakistan.
 

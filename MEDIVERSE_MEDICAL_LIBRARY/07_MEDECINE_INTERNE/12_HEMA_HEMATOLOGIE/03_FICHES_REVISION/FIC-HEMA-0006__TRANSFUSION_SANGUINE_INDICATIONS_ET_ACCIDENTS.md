@@ -169,9 +169,9 @@ Administration de **produits sanguins labiles** (PSL : CGR, plaquettes, plasma, 
 | Acide tranexamique (trauma) | **dans les 3 heures** : 1 g en 10 minutes puis 1 g en 8 heures (CRASH-2) [S14, S13] |
 | Fibrinogène (trauma) | < 1,5 g/L selon le guide européen `[À VÉRIFIER]` ; posologie `[POSOLOGIE À VÉRIFIER]` [S13] |
 | RAI (France) | **72 h** si transfusion, grossesse ou greffe dans les 6 mois ; sinon **21 jours** [S3] ; règle algérienne `[À VÉRIFIER]` |
-| CGR (France) | +2 à +6 °C, **42 jours** max (SAG-mannitol) [S3] ; 1 CGR ≈ +1 g/dL chez 70 kg `[À VÉRIFIER]` |
+| CGR (France) | +2 à +6 °C, **42 jours** max (SAG-mannitol) [S3] ; 1 CGR ≈ +1 g/dL chez 70 kg `[À VÉRIFIER]` ; durée algérienne `[À VÉRIFIER]` |
 | Plaquettes | **20–24 °C sous agitation** (d'où le risque bactérien) |
-| Délais d'administration | BSH : CGR terminé dans les **4 heures** [S6] ; France : début dans les **6 heures** après arrivée [S3] |
+| Délais d'administration | BSH : CGR terminé dans les **4 heures** [S6] ; France : début dans les **6 heures** après arrivée [S3] ; délai algérien `[À VÉRIFIER]` |
 | Surveillance | constantes **dans les 15 premières minutes** ; respiratoire jusqu'à **6 h (TRALI)** et **12 h (TACO)** |
 | Algérie (loi 18-11) [S11] | collecte par **structures publiques** ; activité **lucrative interdite** ; **Agence nationale du sang** (art. 264) ; donneurs **18 à 65 ans**, entretien médical (art. 368-369) |
 
@@ -219,7 +219,7 @@ Indication posée (Hb + tolérance + terrain + alternatives) → prescription é
 - **CGR** : **une unité à la fois** chez le patient stable puis réévaluation [S9] ; seuils non applicables à l'hémorragie active ; anémie ferriprive bien tolérée → **fer**, pas de CGR. Infarctus avec anémie : MINT (< 10 vs 7–8 g/dL) — pas de différence significative, **effet délétère du restrictif non exclu** [S10].
 - **Plaquettes** : contre-indication relative dans le **PTT** et la **TIH** (sauf hémorragie grave) ; **PTI** : hémorragies graves seulement [S5]. Rendement à 1 h et 24 h (état réfractaire → anti-HLA, plaquettes HLA-compatibles).
 - **Plasma** : hémorragie avec coagulopathie, CIVD hémorragique, PTT, déficits sans concentré ; **pas** pour un TP modérément bas sans saignement, **pas** de remplissage ; **pas** en première intention pour reverser un AVK (**CCP + vitamine K** — DOS-PHAR-0002).
-- **Transfusion massive** : contrôle du saignement, prévention de la triade létale (hypothermie, acidose, coagulopathie), acide tranexamique précoce, plasma (rapport ≥ 1:2) ou fibrinogène guidés par la biologie, correction du **calcium ionisé** (citrate) et du K+ [S13].
+- **Transfusion massive** : contrôle du saignement, prévention de la triade létale (hypothermie, acidose, coagulopathie), acide tranexamique précoce, plasma (rapport plasma/CGR au moins 1:2) ou fibrinogène guidés par la biologie `[À VÉRIFIER — valeurs cibles exactes]`, correction du **calcium ionisé** (citrate) et du K+ [S13].
 - **PBM** (Francfort 2018) [S9] : 1) optimiser la masse sanguine (fer, IV si délai court) ; 2) réduire les pertes (acide tranexamique, récupération peropératoire) ; 3) **tolérer l'anémie** (seuils restrictifs).
 
 ### 4.3 Conduite devant un accident (synthèse)

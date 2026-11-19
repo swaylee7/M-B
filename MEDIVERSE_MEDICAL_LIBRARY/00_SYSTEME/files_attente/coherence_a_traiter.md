@@ -22,3 +22,8 @@ Détail dans `00_SYSTEME/agents/RES-06/journal_lot4.md` et `etat_lot4.json`.
 - [ ] DOS-UROL-0002 : renvoi interne erroné.
 - [ ] DOS-ORL-0001 : plafond pédiatrique du cotrimoxazole douteux.
 - [ ] Les 5 autres points sont listés dans le journal du lot 4.
+
+## Signalées par RES-06 (lot 5), le 2026-11-19
+- [ ] Demi-vies des facteurs vitamine K-dépendants : valeurs différentes entre DOS-HEMA-0007 et DOS-PHAR-0002.
+- [ ] DOS-PHYS-0001 : le delta ratio du tableau ne concorde pas avec celui du cas clinique.
+- [ ] DOS-PHAR-0002 : seuil d'INR pour le relais AVK→AOD, « ≤ 2 » (EHRA) et « < 2 » (RCP) côte à côte : présenter explicitement la divergence.

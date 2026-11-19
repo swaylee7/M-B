@@ -156,3 +156,4 @@ Mission : Audit des posologies et contre-indications
     - halopéridol chez le sujet âgé confus : NICE CG103 et HAS 2009 ne donnent que des règles relatives (dose la plus faible ; 1/4-1/2 de la dose adulte ; 24-48 h) ; RCP inaccessible ;
     - dose de la benzodiazépine du delirium tremens : lorazépam oral en 1re intention (NICE CG100), dose non fixée.
   - Aucune erreur de dose (aucune erreur critique). Aucune commande git.
+- 2026-11-19T04:22:18+00:00 — Poste AUD-02 tenu conjointement par la session AUD-01 pour le lot 2 de DOS-02 (DOS-INFE-0003 à 0007) : 21 marqueurs de posologie levés sur 27, 0 erreur de dose critique ; détails dans `00_SYSTEME/agents/AUD-01/journal.md` et `00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0003.md` à `DOS-INFE-0007.md`.

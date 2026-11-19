@@ -200,7 +200,7 @@ sources:
 ### 4.3 Stratégies
 
 - **Aiguë** : paracétamol ± AINS ; HAS 2022 : opioïdes **pas en première intention** dans la douleur aiguë non sévère [S4] ; CDC 2022 : LI, dose la plus faible, durée courte [S3] ; titration de morphine IV aux urgences `[POSOLOGIE À VÉRIFIER — protocole local]`.
-- **Postopératoire** (SFAR 2019) : **multimodale** (paracétamol + AINS + opioïde si besoin), locorégionale ; kétamine et gabapentinoïdes non systématiques [S5].
+- **Postopératoire** (SFAR 2019) : **multimodale** (paracétamol + AINS + opioïde si besoin), locorégionale ; kétamine et gabapentinoïdes non systématiques [S5] `[À VÉRIFIER — détail des 17 recommandations]`.
 - **Cancéreuse** (titration) :
 
 ```text

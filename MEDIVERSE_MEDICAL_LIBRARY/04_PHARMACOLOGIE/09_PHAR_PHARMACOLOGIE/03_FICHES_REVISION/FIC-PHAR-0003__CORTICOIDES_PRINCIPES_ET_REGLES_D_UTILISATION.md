@@ -232,7 +232,7 @@ Seuils de dépistage de la tuberculose latente, de l'anguillulose, de prophylaxi
 - **Grossesse** : prednisolone/hydrocortisone (exposition fœtale faible, 11β-HSD2) ; dexaméthasone/bétaméthasone traversent le placenta (**maturation pulmonaire**).
 - **Contre-indications/pièges** : infection évolutive non contrôlée (sauf méningite, pneumocystose hypoxémiante, choc septique, tuberculose méningée/péricardique, COVID-19 oxygéno-requérante) ; **kératite herpétique** (corticoïdes locaux) ; **dexaméthasone non indiquée dans l'œdème de l'AVC ou du traumatisme crânien**.
 - **Interactions** : AINS/anticoagulants (hémorragie digestive), hypokaliémiants (torsades), **fluoroquinolones (tendon d'Achille)**, CYP3A4, **vaccins vivants** (contre-indiqués sous doses immunosuppressives).
-- **Algérie** : disponibilité de l'hydrocortisone orale, de la fludrocortisone et des kits injectables `[À VÉRIFIER]` ; **Ramadan** : prise matinale déplacée au **sahour**, avis individualisé `[À VÉRIFIER]` ; vigilance **tuberculose** (DOS-PNEU-0001).
+- **Algérie** : disponibilité de l'hydrocortisone orale, de la fludrocortisone et des kits injectables `[À VÉRIFIER]` ; **Ramadan** : prise matinale déplacée au **sahour**, avis individualisé `[À VÉRIFIER]` ; vigilance **tuberculose** (DOS-PNEU-0001) `[À VÉRIFIER — protocole national de dépistage de l'infection latente]`.
 
 ## 6. Pièges classiques
 
