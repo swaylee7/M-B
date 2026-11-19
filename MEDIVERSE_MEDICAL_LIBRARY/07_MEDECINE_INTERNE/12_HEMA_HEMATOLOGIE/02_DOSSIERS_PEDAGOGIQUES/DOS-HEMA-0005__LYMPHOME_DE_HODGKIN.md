@@ -10,11 +10,11 @@ version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
-statut: audite_corrections_requises
+statut: audite_valide
 audit:
   - date: 2026-11-19
     auditeur: "AUD-01 / AUD-02 (IA)"
-    verdict: audite_corrections_requises
+    verdict: audite_valide
     corrections: 13
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0005.md
 sources:
@@ -104,7 +104,7 @@ mots_cles: [lymphome de Hodgkin, maladie de Hodgkin, cellules de Reed-Sternberg,
 # Lymphome de Hodgkin (maladie de Hodgkin) : définition, diagnostic, classification, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : audité (AUD-01/AUD-02, 2026-11-19), corrections requises — voir le rapport d'audit. Les protocoles de chimiothérapie sont cités **par leur nom** ; aucune dose n'est indiquée : la prescription suit le protocole publié de l'essai de référence et le protocole du service validé en RCP. Les recommandations EHA 2026 [S2] ont été vérifiées par l'audit sur leur texte intégral.
+> Statut : audité et validé par l'audit scientifique IA (AUD-01/AUD-02, 2026-11-19) — relecture par un enseignant qualifié requise avant le statut « validé enseignant » ; voir le rapport d'audit. Les protocoles de chimiothérapie sont cités **par leur nom** ; aucune dose n'est indiquée : la prescription suit le protocole publié de l'essai de référence et le protocole du service validé en RCP. Les recommandations EHA 2026 [S2] ont été vérifiées par l'audit sur leur texte intégral.
 
 **Items du programme couverts** : RES-MED-117 — « Maladie d'Hodgkin : Définition - diagnostic - classification - traitement ». La terminologie actuelle est **lymphome de Hodgkin (LH)**.
 

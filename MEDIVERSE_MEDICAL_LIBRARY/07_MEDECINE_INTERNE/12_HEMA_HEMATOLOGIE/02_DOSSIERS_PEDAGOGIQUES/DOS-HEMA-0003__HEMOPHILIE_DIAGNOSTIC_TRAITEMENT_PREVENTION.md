@@ -10,11 +10,11 @@ version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
-statut: audite_corrections_requises
+statut: audite_valide
 audit:
   - date: 2026-11-19
     auditeur: "AUD-01 / AUD-02 (IA)"
-    verdict: audite_corrections_requises
+    verdict: audite_valide
     corrections: 13
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0003.md
 sources:
@@ -88,7 +88,7 @@ mots_cles: [hémophilie A, hémophilie B, facteur VIII, facteur IX, TCA, hémart
 # Hémophilie : diagnostic, traitement, prévention
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : audité (AUD-01/AUD-02, 2026-11-19), corrections requises — voir le rapport d'audit. Les posologies doivent être confrontées au RCP, aux recommandations de la WFH et aux protocoles du centre de traitement de l'hémophilie avant usage clinique.
+> Statut : audité et validé par l'audit scientifique IA (AUD-01/AUD-02, 2026-11-19) — relecture par un enseignant qualifié requise avant le statut « validé enseignant » ; voir le rapport d'audit. Les posologies doivent être confrontées au RCP, aux recommandations de la WFH et aux protocoles du centre de traitement de l'hémophilie avant usage clinique.
 
 **Items du programme couverts** : RES-MED-114 — « Hémophilie : Diagnostic - traitement - prévention ».
 

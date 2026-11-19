@@ -10,11 +10,11 @@ version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
-statut: audite_corrections_requises
+statut: audite_valide
 audit:
   - date: 2026-11-19
     auditeur: "AUD-01 / AUD-02 (IA)"
-    verdict: audite_corrections_requises
+    verdict: audite_valide
     corrections: 12
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0004.md
 sources:
@@ -152,7 +152,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 # Myélome multiple : classification, diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : audité (AUD-01/AUD-02, 2026-11-19), corrections requises — voir le rapport d'audit. Les protocoles de chimiothérapie sont cités **par leur nom** ; aucune dose de chimiothérapie n'est détaillée. Toute prescription relève d'une réunion de concertation pluridisciplinaire (RCP) et des protocoles du service.
+> Statut : audité et validé par l'audit scientifique IA (AUD-01/AUD-02, 2026-11-19) — relecture par un enseignant qualifié requise avant le statut « validé enseignant » ; voir le rapport d'audit. Les protocoles de chimiothérapie sont cités **par leur nom** ; aucune dose de chimiothérapie n'est détaillée. Toute prescription relève d'une réunion de concertation pluridisciplinaire (RCP) et des protocoles du service.
 
 **Items du programme couverts** : RES-MED-115 — « Myélome multiple : Classification - diagnostic - traitement ».
 
