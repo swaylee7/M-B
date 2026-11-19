@@ -1,0 +1,3001 @@
+{
+  "agent": "DOS-06",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-NEUR-0001",
+      "format": "QCS",
+      "enonce": "Un homme de 61 ans, sans traitement anticoagulant, est admis 70 minutes après l'installation brutale d'une hémiplégie gauche. Le scanner cérébral ne montre pas d'hémorragie. Quel est le seul examen biologique dont le résultat doit être connu AVANT de débuter la thrombolyse intraveineuse ?",
+      "propositions": {
+        "A": "Le taux de prothrombine et l'INR",
+        "B": "La numération plaquettaire",
+        "C": "La glycémie capillaire",
+        "D": "La troponine",
+        "E": "La créatininémie"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Chez un patient sans anticoagulant ni suspicion de trouble de l'hémostase, seule la glycémie capillaire est indispensable avant la thrombolyse : l'hypoglycémie est le principal simulateur d'AVC et une glycémie très basse doit être corrigée avant toute décision. Les autres examens sont prélevés mais ne doivent pas retarder le traitement.",
+      "explications_par_proposition": {
+        "A": "Faux : l'INR n'est attendu que si le patient prend un AVK, a une hépatopathie ou une coagulopathie suspectée.",
+        "B": "Faux : la numération plaquettaire n'est attendue qu'en cas de suspicion de thrombopénie (hémopathie, chimiothérapie, cirrhose).",
+        "C": "Vrai : la glycémie capillaire élimine une hypoglycémie, simulateur d'AVC, et corrige une valeur extrême.",
+        "D": "Faux : la troponine est recommandée dans le bilan initial (AHA/ASA 2026) mais ne doit pas retarder la reperfusion.",
+        "E": "Faux : la créatininémie n'est pas nécessaire avant la thrombolyse ni avant l'angioscanner en urgence."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "AVC ischémique — prérequis de la thrombolyse",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attendre le bilan d'hémostase complet chez un patient sans anticoagulant fait perdre des minutes de cerveau.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AHA/ASA 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke (Prabhakaran et al., Stroke 2026)",
+          "date": "2026"
+        },
+        {
+          "reference": "ESO guidelines on intravenous thrombolysis (Berge et al., Eur Stroke J 2021)",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0002",
+      "format": "QCM",
+      "enonce": "Concernant les agents de thrombolyse intraveineuse de l'infarctus cérébral, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le ténectéplase s'administre à la dose de 0,25 mg/kg en bolus intraveineux unique.",
+        "B": "La dose de 0,40 mg/kg de ténectéplase est recommandée en cas d'occlusion d'un gros tronc.",
+        "C": "L'altéplase s'administre à 0,9 mg/kg (maximum 90 mg), dont 10 % en bolus et le reste en perfusion de 60 minutes.",
+        "D": "Le ténectéplase nécessite une perfusion continue d'une heure.",
+        "E": "L'ESO (2023) préfère le ténectéplase à l'altéplase chez les patients ayant une occlusion d'un gros tronc."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le ténectéplase, plus fibrino-spécifique et à demi-vie plus longue, s'administre en un seul bolus de 0,25 mg/kg, ce qui simplifie le transfert vers un centre de thrombectomie. L'ESO le considère comme une alternative sûre et efficace à l'altéplase et le préfère en cas d'occlusion d'un gros tronc ; l'AHA/ASA 2026 présente les deux agents comme des options équivalentes dans les 4,5 heures.",
+      "explications_par_proposition": {
+        "A": "Vrai : 0,25 mg/kg en bolus unique (dose maximale usuelle 25 mg).",
+        "B": "Faux : l'ESO recommande de ne pas utiliser la dose de 0,40 mg/kg.",
+        "C": "Vrai : c'est le schéma classique de l'altéplase.",
+        "D": "Faux : c'est précisément l'avantage du ténectéplase d'être administré en bolus.",
+        "E": "Vrai : recommandation forte sur des preuves modérées (Alamowitch et al., 2023)."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "AVC ischémique — thrombolytiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre la dose neurovasculaire du ténectéplase (0,25 mg/kg) avec les doses utilisées en cardiologie, qui sont plus élevées.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESO expedited recommendation on tenecteplase (Alamowitch et al., Eur Stroke J 2023;8:8-54)",
+          "date": "2023"
+        },
+        {
+          "reference": "AHA/ASA 2026 acute ischemic stroke guideline",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0003",
+      "format": "QCM",
+      "enonce": "Un patient de 55 ans présente brutalement un grand vertige, des troubles de la déglutition et une dysphonie. Le diagnostic retenu est un syndrome de Wallenberg droit. Quels signes sont attendus ?",
+      "propositions": {
+        "A": "Une hypoesthésie thermo-algique de l'hémiface droite",
+        "B": "Une hémiplégie gauche",
+        "C": "Un syndrome de Claude Bernard-Horner droit",
+        "D": "Une hypoesthésie thermo-algique de l'hémicorps gauche épargnant la face",
+        "E": "Une aphasie de Broca"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le syndrome de Wallenberg correspond à un infarctus de la partie latérale du bulbe, par occlusion de l'artère vertébrale ou de la PICA. Il associe, du côté de la lésion, une atteinte du V (face), des nerfs mixtes, un Claude Bernard-Horner, un syndrome vestibulaire et cérébelleux, et du côté opposé une hypoesthésie thermo-algique de l'hémicorps épargnant la face. La voie pyramidale, ventrale, est épargnée.",
+      "explications_par_proposition": {
+        "A": "Vrai : atteinte du noyau et du faisceau spinal du trijumeau, homolatérale.",
+        "B": "Faux : la voie pyramidale (bulbe antérieur) est épargnée ; il n'y a pas de déficit moteur.",
+        "C": "Vrai : atteinte des voies sympathiques descendantes, homolatérale.",
+        "D": "Vrai : atteinte du faisceau spinothalamique, déjà croisé, d'où une atteinte controlatérale.",
+        "E": "Faux : l'aphasie est un signe hémisphérique cortical, absent dans un infarctus bulbaire."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "AVC ischémique — syndromes topographiques vertébro-basilaires",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre un déficit moteur dans un Wallenberg : son absence est la règle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sémiologie neurovasculaire classique — synthèse originale Mediverse (pas de recommandation spécifique)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0004",
+      "format": "QCM",
+      "enonce": "Concernant la pression artérielle à la phase aiguë des AVC chez l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Avant une thrombolyse, la pression artérielle doit être abaissée sous 185/110 mmHg.",
+        "B": "Après une thrombolyse, elle doit être maintenue sous 180/105 mmHg pendant 24 heures.",
+        "C": "Un infarctus non thrombolysé avec une PA à 190/100 mmHg doit être traité pour atteindre 140/90 mmHg dans l'heure.",
+        "D": "Après une thrombectomie réussie, l'AHA/ASA 2026 recommande une PAS inférieure à 120 mmHg.",
+        "E": "Dans l'hémorragie intracérébrale, une cible de PAS proche de 140 mmHg (zone 130–150) est recommandée précocement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Dans la zone ischémique, l'autorégulation est abolie et le débit dépend passivement de la pression artérielle : une baisse intempestive peut étendre l'infarctus. On ne traite la PA d'un infarctus non thrombolysé qu'au-delà de 220/120 mmHg (ou en cas de comorbidité l'imposant). Les seuils 185/110 et 180/105 encadrent la thrombolyse. Après thrombectomie, les cibles basses n'ont pas montré de bénéfice. L'HIC justifie une baisse précoce vers 140 mmHg pour limiter l'expansion de l'hématome.",
+      "explications_par_proposition": {
+        "A": "Vrai : seuil prérequis à la thrombolyse.",
+        "B": "Vrai : objectif de surveillance pendant 24 h après thrombolyse.",
+        "C": "Faux : abstention sous 220/120 mmHg en l'absence de thrombolyse ou de comorbidité spécifique.",
+        "D": "Faux : l'AHA/ASA 2026 ne recommande pas de viser une PAS < 140 mmHg après thrombectomie (absence de bénéfice, signal de nocivité).",
+        "E": "Vrai : cible recommandée par l'AHA/ASA 2022 en évitant les valeurs < 130 mmHg."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "AVC — gestion tensionnelle",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Normaliser la pression artérielle d'un infarctus non thrombolysé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AHA/ASA 2026 acute ischemic stroke guideline",
+          "date": "2026"
+        },
+        {
+          "reference": "AHA/ASA 2022 spontaneous ICH guideline (Greenberg et al., Stroke 2022;53:e282-e361)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0005",
+      "format": "QCM",
+      "enonce": "Concernant l'accident ischémique transitoire (AIT), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Sa définition actuelle repose sur l'absence d'infarctus constitué à l'imagerie.",
+        "B": "Un déficit régressif en 2 heures avec une lésion en diffusion à l'IRM correspond à un infarctus cérébral.",
+        "C": "Un score ABCD2 inférieur à 4 permet de différer le bilan étiologique d'un mois.",
+        "D": "Une cécité monoculaire transitoire évoque une origine carotidienne.",
+        "E": "Un vertige isolé est la présentation typique d'un AIT vertébro-basilaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'AIT est défini de façon tissulaire : dysfonction neurologique transitoire d'origine ischémique sans infarctus à l'imagerie. C'est une urgence car le risque d'infarctus est maximal dans les premiers jours ; tout AIT relève d'une évaluation spécialisée rapide. Les symptômes isolés non focaux (vertige, lipothymie, confusion) ne permettent pas de retenir un AIT.",
+      "explications_par_proposition": {
+        "A": "Vrai : définition tissulaire.",
+        "B": "Vrai : la lésion en diffusion signe un infarctus, quelle que soit la durée des symptômes.",
+        "C": "Faux : le score ABCD2 ne doit pas servir à exclure un patient d'une prise en charge urgente.",
+        "D": "Vrai : l'amaurose fugace traduit une ischémie rétinienne dans le territoire de l'artère ophtalmique, branche de la carotide interne.",
+        "E": "Faux : un vertige isolé n'est pas retenu comme AIT ; c'est l'association à d'autres signes du tronc qui est évocatrice."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "AIT — définition et prise en charge",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Conserver la définition temporelle (< 24 h) de l'AIT.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AHA/ASA 2021 secondary prevention guideline (Kleindorfer et al.) — non vérifiée pendant la session",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0006",
+      "format": "QCM",
+      "enonce": "Une femme de 72 ans, autonome (mRS 0), présente une aphasie et une hémiplégie droite depuis 3 heures. NIHSS 16. Scanner : pas d'hémorragie, ASPECTS 8. Angioscanner : occlusion de l'artère cérébrale moyenne gauche (segment M1). Pas de contre-indication. Le centre de thrombectomie est à 90 minutes de route. Quelles conduites sont adaptées ?",
+      "propositions": {
+        "A": "Thrombolyse intraveineuse sur place puis transfert pour thrombectomie",
+        "B": "Transfert direct pour thrombectomie sans thrombolyse afin de gagner du temps",
+        "C": "Attendre 1 heure l'effet de la thrombolyse avant de décider du transfert",
+        "D": "Récuser la thrombectomie en raison de l'âge supérieur à 70 ans",
+        "E": "Le ténectéplase en bolus facilite cette stratégie de transfert"
+      },
+      "reponses_correctes": [
+        "A",
+        "E"
+      ],
+      "explication_generale": "Cette patiente relève des deux traitements : thrombolyse (moins de 4,5 heures, déficit invalidant) et thrombectomie (occlusion M1, moins de 6 heures, ASPECTS ≥ 6, autonomie préalable). La stratégie « drip and ship » consiste à thrombolyser sur place puis transférer sans attendre. L'ESO-ESMINT recommande de ne pas omettre la thrombolyse chez les patients éligibles.",
+      "explications_par_proposition": {
+        "A": "Vrai : thrombolyse puis transfert immédiat.",
+        "B": "Faux : omettre la thrombolyse chez une patiente éligible n'est pas recommandé, surtout avec un long transfert.",
+        "C": "Faux : le transfert ne doit jamais être retardé pour évaluer l'effet de la thrombolyse.",
+        "D": "Faux : il n'existe pas de limite d'âge supérieure justifiée en soi ; l'autonomie préalable compte.",
+        "E": "Vrai : le bolus unique évite la gestion d'une perfusion pendant le transport."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "AVC ischémique — thrombolyse et thrombectomie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'une thrombectomie prévue dispense de la thrombolyse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESO-ESMINT expedited recommendation IVT before MT (J NeuroInterv Surg 2022)",
+          "date": "2022"
+        },
+        {
+          "reference": "ESO-ESMINT guidelines on mechanical thrombectomy (Turc et al., Eur Stroke J 2019)",
+          "date": "2019"
+        },
+        {
+          "reference": "ESO tenecteplase recommendation 2023",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0007",
+      "format": "QCM",
+      "enonce": "Un homme de 78 ans traité par apixaban pour une fibrillation atriale présente une hémorragie intracérébrale lobaire de 35 mL. Dernière prise d'apixaban 5 heures auparavant. Quelles mesures d'antagonisation ou de correction de l'hémostase sont appropriées ?",
+      "propositions": {
+        "A": "Andexanet alfa si disponible",
+        "B": "Concentré de complexe prothrombinique si l'andexanet n'est pas disponible",
+        "C": "Idarucizumab 5 g IV",
+        "D": "Transfusion de plaquettes",
+        "E": "Vitamine K IV seule"
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "Les anti-Xa directs sont antagonisés spécifiquement par l'andexanet alfa ; à défaut, le concentré de complexe prothrombinique est utilisé. L'idarucizumab est l'antidote spécifique du dabigatran. La vitamine K n'agit que sur les AVK. La transfusion de plaquettes n'a pas d'intérêt en l'absence d'antiagrégant et de thrombopénie.",
+      "explications_par_proposition": {
+        "A": "Vrai : antidote spécifique des anti-Xa, selon disponibilité (posologie selon le RCP).",
+        "B": "Vrai : alternative non spécifique recommandée en l'absence d'andexanet.",
+        "C": "Faux : réservé au dabigatran.",
+        "D": "Faux : pas d'indication, et non recommandé même sous antiplaquettaire en dehors d'un geste chirurgical.",
+        "E": "Faux : la vitamine K est sans effet sur un anti-Xa direct."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "Hémorragie intracérébrale — antagonisation des anticoagulants",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les antidotes du dabigatran (idarucizumab) et des anti-Xa (andexanet alfa).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AHA/ASA 2022 spontaneous ICH guideline (Greenberg et al.)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0008",
+      "format": "QCM",
+      "enonce": "Concernant l'hémorragie sous-arachnoïdienne anévrismale, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une céphalée en coup de tonnerre impose un scanner cérébral sans injection en urgence.",
+        "B": "Si le scanner est normal et la suspicion persiste, une ponction lombaire est indiquée.",
+        "C": "La nimodipine par voie entérale prévient l'ischémie cérébrale retardée.",
+        "D": "Une hyponatrémie doit être traitée par restriction hydrique.",
+        "E": "L'exclusion de l'anévrisme est idéalement différée au 10e jour pour limiter le vasospasme."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le diagnostic repose sur le scanner, complété par la ponction lombaire s'il est normal. L'anévrisme doit être exclu précocement, idéalement dans les 24 heures, car le risque de resaignement est maximal au début. La nimodipine entérale améliore le pronostic fonctionnel. L'hyponatrémie de l'HSA est souvent liée à une perte de sel : la restriction hydrique expose à l'hypovolémie et à l'ischémie retardée.",
+      "explications_par_proposition": {
+        "A": "Vrai : examen de première intention.",
+        "B": "Vrai : recherche d'hématies et de xanthochromie.",
+        "C": "Vrai : recommandation de l'AHA/ASA 2023.",
+        "D": "Faux : maintenir l'euvolémie ; la restriction hydrique est délétère.",
+        "E": "Faux : exclusion précoce, de préférence dans les 24 heures."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "Hémorragie sous-arachnoïdienne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter l'hyponatrémie de l'HSA comme une sécrétion inappropriée d'ADH par restriction hydrique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AHA/ASA 2023 aSAH guideline (Hoh et al., Stroke 2023;54:e314-e370)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0009",
+      "format": "QCS",
+      "enonce": "Un homme de 58 ans se réveille à 7 h avec une aphasie et une hémiparésie droite invalidante ; il s'était couché à 23 h sans symptôme. L'IRM à 7 h 50 montre un hypersignal en diffusion de l'insula gauche sans hypersignal FLAIR correspondant, sans hémorragie ; pas d'occlusion d'un gros tronc. Quelle est la conduite la plus appropriée ?",
+      "propositions": {
+        "A": "Pas de thrombolyse, car le délai depuis la dernière heure vue normale dépasse 4,5 heures",
+        "B": "Thrombolyse intraveineuse, l'inadéquation diffusion/FLAIR suggérant une lésion récente",
+        "C": "Thrombectomie mécanique",
+        "D": "Héparine non fractionnée à dose curative",
+        "E": "Bithérapie antiplaquettaire seule"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Dans l'AVC du réveil, la dernière heure vue normale dépasse souvent 4,5 heures ; l'inadéquation diffusion positive / FLAIR négatif identifie une lésion probablement âgée de moins de 4,5 heures et permet une thrombolyse (essai WAKE-UP, recommandations ESO 2021 et AHA/ASA 2026). L'absence d'occlusion d'un gros tronc récuse la thrombectomie.",
+      "explications_par_proposition": {
+        "A": "Faux : l'imagerie permet de « dater » la lésion et d'ouvrir la thrombolyse.",
+        "B": "Vrai : thrombolyse sur critère IRM chez un patient au déficit invalidant.",
+        "C": "Faux : pas d'occlusion d'un gros tronc.",
+        "D": "Faux : non recommandée à la phase aiguë de l'infarctus.",
+        "E": "Faux : la bithérapie concerne l'infarctus mineur ou l'AIT à haut risque, pas un déficit invalidant thrombolysable."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "AVC du réveil — sélection par imagerie",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Dater l'AVC du réveil à l'heure du réveil, ou au contraire exclure d'emblée toute thrombolyse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESO guidelines on intravenous thrombolysis 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "AHA/ASA 2026 acute ischemic stroke guideline",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0010",
+      "format": "QCM",
+      "enonce": "Concernant l'infarctus sylvien malin, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'œdème cérébral est habituellement maximal entre le 2e et le 5e jour.",
+        "B": "L'hémicraniectomie décompressive précoce réduit la mortalité.",
+        "C": "Après 60 ans, l'hémicraniectomie réduit la mortalité mais augmente la proportion de survivants avec un handicap sévère.",
+        "D": "Les corticoïdes à forte dose sont recommandés pour réduire l'œdème.",
+        "E": "L'hyperventilation prolongée est le traitement de référence."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'infarctus sylvien étendu évolue vers un œdème massif avec engagement. La craniectomie décompressive précoce, idéalement dans les 48 heures, réduit la mortalité ; chez le sujet plus âgé, elle sauve des vies au prix d'un handicap souvent sévère : la décision est partagée avec la famille. Les corticoïdes sont inefficaces sur l'œdème cytotoxique ; l'hyperventilation n'est qu'une mesure d'attente très brève.",
+      "explications_par_proposition": {
+        "A": "Vrai : chronologie classique de l'œdème.",
+        "B": "Vrai : bénéfice démontré par les essais randomisés poolés.",
+        "C": "Vrai : d'où une décision individualisée.",
+        "D": "Faux : les corticoïdes ne sont pas recommandés dans l'œdème ischémique.",
+        "E": "Faux : l'hyperventilation n'est qu'un geste transitoire avant un traitement définitif."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "Infarctus sylvien malin",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des corticoïdes pour un œdème d'origine ischémique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AHA/ASA 2026 acute ischemic stroke guideline",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0011",
+      "format": "QCM",
+      "enonce": "Un homme de 64 ans consulte 6 heures après un trouble sensitif isolé de la main droite, persistant, coté NIHSS 2 et jugé non invalidant. IRM : petit infarctus cortical pariétal gauche ; pas d'occlusion artérielle ; ECG en rythme sinusal. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une thrombolyse intraveineuse est recommandée.",
+        "B": "Une bithérapie aspirine + clopidogrel pendant 21 jours est indiquée.",
+        "C": "Le clopidogrel est débuté avec une dose de charge.",
+        "D": "La bithérapie antiplaquettaire doit être poursuivie un an.",
+        "E": "Une anticoagulation curative est indiquée en attendant le Holter."
+      },
+      "reponses_correctes": [
+        "B",
+        "C"
+      ],
+      "explication_generale": "Un infarctus mineur non invalidant ne bénéficie pas de la thrombolyse. En l'absence de cause cardio-embolique, une bithérapie aspirine + clopidogrel débutée dans les 24 heures et poursuivie 21 jours réduit le risque de récidive précoce (essais CHANCE et POINT), au prix d'un léger surcroît hémorragique, d'où sa durée courte.",
+      "explications_par_proposition": {
+        "A": "Faux : déficit non invalidant, absence de bénéfice démontré.",
+        "B": "Vrai : schéma de 21 jours puis monothérapie.",
+        "C": "Vrai : dose de charge suivie de 75 mg/j.",
+        "D": "Faux : la prolongation augmente le risque hémorragique sans bénéfice supplémentaire.",
+        "E": "Faux : pas d'indication d'anticoagulation sans fibrillation atriale documentée."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "Infarctus mineur — bithérapie antiplaquettaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prolonger la bithérapie antiplaquettaire au-delà de la phase précoce.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Essais CHANCE (2013) et POINT (2018) — non vérifiés pendant la session",
+          "date": "2018"
+        },
+        {
+          "reference": "ESO 2021 IVT guideline — infarctus mineurs non invalidants",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-0012",
+      "format": "QCM",
+      "enonce": "Concernant les AVC dans le contexte algérien et chez le sujet jeune, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La valvulopathie mitrale rhumatismale est une source cardio-embolique à rechercher.",
+        "B": "La maladie de Behçet est une cause classique de thrombose veineuse cérébrale.",
+        "C": "Un foramen ovale perméable doit être retenu comme cause avant toute autre exploration.",
+        "D": "La dissection des artères cervicales est une cause fréquente d'infarctus du sujet jeune.",
+        "E": "L'INSP a lancé un Registre national de l'AVC en décembre 2024."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le bilan étiologique de l'AVC du sujet jeune doit être exhaustif. Au Maghreb, la cardiopathie rhumatismale et la maladie de Behçet restent des causes à évoquer. Le foramen ovale perméable n'est retenu qu'après exclusion des autres causes. Le registre national lancé par l'INSP vise à disposer de données d'incidence nationales.",
+      "explications_par_proposition": {
+        "A": "Vrai : rétrécissement mitral, fibrillation atriale, prothèses mécaniques.",
+        "B": "Vrai : atteinte veineuse classique du neuro-Behçet.",
+        "C": "Faux : diagnostic d'élimination après un bilan complet.",
+        "D": "Vrai : cause majeure chez le sujet jeune, parfois après un traumatisme mineur.",
+        "E": "Vrai : annonce de l'INSP relayée par la presse nationale."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "theme": "AVC — étiologies du sujet jeune et contexte algérien",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Conclure trop vite à un foramen ovale perméable.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "INSP — Registre national de l'AVC (décembre 2024)",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0001",
+      "format": "QCS",
+      "enonce": "Selon la définition Sepsis-3, quelle association définit le choc septique chez un patient atteint de sepsis ?",
+      "propositions": {
+        "A": "PAS < 90 mmHg et fièvre > 38,5 °C",
+        "B": "Besoin de vasopresseurs pour maintenir une PAM ≥ 65 mmHg et lactate > 2 mmol/L malgré un remplissage adéquat",
+        "C": "Score qSOFA ≥ 2 et lactate > 4 mmol/L",
+        "D": "Deux critères de SIRS et hypotension",
+        "E": "Augmentation du score SOFA ≥ 2 points"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Sepsis-3 définit le choc septique comme un sous-groupe du sepsis avec anomalies circulatoires, cellulaires et métaboliques profondes, identifié par le besoin de vasopresseurs pour une PAM ≥ 65 mmHg et un lactate > 2 mmol/L malgré un remplissage adéquat. L'augmentation du SOFA ≥ 2 points définit le sepsis lui-même.",
+      "explications_par_proposition": {
+        "A": "Faux : ni la fièvre ni une PAS isolée ne définissent le choc septique.",
+        "B": "Vrai : critères opérationnels de Sepsis-3.",
+        "C": "Faux : le qSOFA est un outil de repérage, non une définition, et il est déconseillé comme outil de dépistage unique.",
+        "D": "Faux : les critères de SIRS ont été abandonnés dans les définitions de 2016.",
+        "E": "Faux : c'est la définition opérationnelle du sepsis, pas du choc septique."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Choc septique — définitions",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les critères du sepsis (SOFA) et ceux du choc septique (vasopresseurs + lactate).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Singer M et al. Sepsis-3. JAMA 2016;315:801-810",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0002",
+      "format": "QCM",
+      "enonce": "Parmi les éléments suivants, lesquels témoignent d'une hypoperfusion tissulaire au cours d'un état de choc ?",
+      "propositions": {
+        "A": "Des marbrures des genoux",
+        "B": "Un temps de recoloration capillaire de 5 secondes",
+        "C": "Une diurèse de 0,3 mL/kg/h pendant 2 heures",
+        "D": "Un lactate artériel à 3,8 mmol/L",
+        "E": "Une hypotension artérielle, indispensable au diagnostic de choc"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le choc se définit par une dysoxie tissulaire. Les « fenêtres » de l'hypoperfusion sont la peau (marbrures, temps de recoloration > 3 s), le rein (oligurie < 0,5 mL/kg/h) et le cerveau (confusion), auxquels s'ajoute l'hyperlactatémie > 2 mmol/L. L'hypotension est fréquente mais non obligatoire.",
+      "explications_par_proposition": {
+        "A": "Vrai : signe cutané d'hypoperfusion, corrélé au pronostic.",
+        "B": "Vrai : un temps de recoloration > 3 s est anormal.",
+        "C": "Vrai : oligurie inférieure à 0,5 mL/kg/h.",
+        "D": "Vrai : hyperlactatémie > 2 mmol/L.",
+        "E": "Faux : un choc peut exister avec une pression conservée (choc compensé)."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "États de choc — diagnostic positif",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Exiger une hypotension pour parler de choc.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESICM consensus on circulatory shock (Cecconi et al., Intensive Care Med 2014)",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0003",
+      "format": "QCM",
+      "enonce": "Concernant l'adrénaline dans l'anaphylaxie de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La voie intramusculaire est la voie de première intention.",
+        "B": "La dose est de 0,01 mg/kg de la solution à 1 mg/mL, sans dépasser 0,5 mg.",
+        "C": "L'injection se fait à la face antérolatérale de la cuisse.",
+        "D": "L'injection peut être renouvelée après 5 minutes en l'absence d'amélioration.",
+        "E": "Un bolus intraveineux de 1 mg est la règle en cas d'hypotension."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'adrénaline intramusculaire est le traitement de première ligne de l'anaphylaxie (EAACI 2021, WAO 2020). La voie IM à la cuisse assure une absorption rapide et un bon profil de sécurité. La voie IV est réservée à l'anaphylaxie réfractaire, en perfusion titrée par une équipe entraînée sous monitorage ; le bolus de 1 mg est la dose de l'arrêt cardiaque, dangereuse chez un patient ayant une activité circulatoire.",
+      "explications_par_proposition": {
+        "A": "Vrai : voie de première intention.",
+        "B": "Vrai : 0,01 mg/kg, maximum 0,5 mg chez l'adulte (0,3 mg chez l'enfant).",
+        "C": "Vrai : site d'absorption optimal.",
+        "D": "Vrai : répétition toutes les 5 minutes si nécessaire.",
+        "E": "Faux : 1 mg IV correspond à l'arrêt cardiaque ; hors arrêt, risque d'hypertension majeure, d'arythmie et d'ischémie myocardique."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Anaphylaxie — adrénaline",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Administrer l'adrénaline en bolus IV non dilué hors arrêt cardiaque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EAACI guidelines: Anaphylaxis 2021 update (Muraro et al., Allergy 2022)",
+          "date": "2021"
+        },
+        {
+          "reference": "WAO Anaphylaxis Guidance 2020 (Cardona et al.)",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0004",
+      "format": "QCM",
+      "enonce": "Concernant le diagnostic et l'évolution de l'anaphylaxie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'absence de signes cutanés n'élimine pas le diagnostic.",
+        "B": "La tryptase sérique est idéalement prélevée 1 à 2 heures après le début des symptômes, avec une valeur de base à distance.",
+        "C": "Les corticoïdes ont démontré qu'ils préviennent les réactions biphasiques.",
+        "D": "Un traitement par bêtabloquant peut rendre l'anaphylaxie plus sévère et moins sensible à l'adrénaline.",
+        "E": "Le patient hypotendu doit être installé en position assise pour faciliter la respiration."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les formes graves peuvent être purement cardiovasculaires ou respiratoires. La tryptase confirme a posteriori le diagnostic par comparaison avec la valeur de base. Les corticoïdes n'ont pas d'efficacité démontrée sur les réactions biphasiques et ne sont pas un traitement de première ligne. Les bêtabloquants aggravent et rendent réfractaire l'anaphylaxie (place du glucagon). Le patient hypotendu doit rester allongé, jambes surélevées.",
+      "explications_par_proposition": {
+        "A": "Vrai : les signes cutanés peuvent manquer, notamment dans les formes peropératoires.",
+        "B": "Vrai : cinétique recommandée par l'EAACI.",
+        "C": "Faux : pas de preuve d'efficacité préventive.",
+        "D": "Vrai : facteur de gravité et de résistance au traitement.",
+        "E": "Faux : la position assise expose au désamorçage cardiaque ; décubitus jambes surélevées (assis seulement si détresse respiratoire sans collapsus)."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Anaphylaxie — diagnostic et pièges",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Exclure une anaphylaxie en l'absence d'urticaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EAACI anaphylaxis guideline 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "WAO Anaphylaxis Guidance 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0005",
+      "format": "QCM",
+      "enonce": "Un patient de 70 ans présente un choc septique d'origine pulmonaire. Quelles mesures font partie de la prise en charge de la première heure ?",
+      "propositions": {
+        "A": "Antibiothérapie IV probabiliste dans l'heure",
+        "B": "Hémocultures avant les antibiotiques si elles ne les retardent pas significativement",
+        "C": "Remplissage par hydroxyéthylamidon",
+        "D": "Noradrénaline si la PAM reste < 65 mmHg pendant ou après le remplissage",
+        "E": "Dopamine en vasopresseur de première intention"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les recommandations Surviving Sepsis Campaign 2021 et 2026 insistent sur l'antibiothérapie immédiate, idéalement dans l'heure, précédée si possible des hémocultures, sur le remplissage par cristalloïdes (de préférence équilibrés) et sur la noradrénaline en première intention pour une PAM initiale de 65 mmHg. Les hydroxyéthylamidons et la dopamine ne sont pas recommandés.",
+      "explications_par_proposition": {
+        "A": "Vrai : chaque heure de retard aggrave le pronostic du choc septique.",
+        "B": "Vrai : au moins deux paires, sans retarder l'antibiothérapie.",
+        "C": "Faux : toxicité rénale et surmortalité ; non recommandés.",
+        "D": "Vrai : vasopresseur de première intention, débutable sur voie périphérique.",
+        "E": "Faux : davantage d'arythmies ; non recommandée en première intention."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Choc septique — première heure",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Retarder l'antibiothérapie pour obtenir des examens.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Surviving Sepsis Campaign 2021 (Evans et al.)",
+          "date": "2021"
+        },
+        {
+          "reference": "Surviving Sepsis Campaign 2026 (Crit Care Med 2026)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0006",
+      "format": "QCM",
+      "enonce": "Un patient en choc septique reçoit de la noradrénaline à 0,35 µg/kg/min depuis 5 heures, avec une PAM à 62 mmHg malgré un remplissage adapté. Quelles propositions sont conformes aux recommandations Surviving Sepsis Campaign ?",
+      "propositions": {
+        "A": "Ajouter de la vasopressine",
+        "B": "Introduire l'hydrocortisone à 200 mg/j",
+        "C": "Si la PAM reste insuffisante malgré noradrénaline et vasopressine, ajouter de l'adrénaline",
+        "D": "Prescrire du lévosimendan pour augmenter la pression artérielle",
+        "E": "Administrer du bicarbonate de sodium pour un pH à 7,28 avec lactate à 4 mmol/L"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Devant des doses croissantes de noradrénaline, la SSC suggère d'ajouter la vasopressine, puis l'adrénaline si la PAM reste insuffisante. L'hydrocortisone (200 mg/j) est suggérée lorsque la noradrénaline atteint au moins 0,25 µg/kg/min depuis au moins 4 heures. Le lévosimendan n'est pas suggéré ; le bicarbonate n'est pas indiqué pour une acidose lactique avec pH ≥ 7,20.",
+      "explications_par_proposition": {
+        "A": "Vrai : suggestion de la SSC (0,03 U/min dans les essais de référence).",
+        "B": "Vrai : critères de dose et de durée remplis ; certitude jugée faible en 2026.",
+        "C": "Vrai : suggestion de la SSC 2026.",
+        "D": "Faux : non suggéré dans le choc septique ; ce n'est pas un vasopresseur.",
+        "E": "Faux : bicarbonate réservé à l'acidose métabolique sévère (pH ≤ 7,20) avec insuffisance rénale aiguë."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Choc septique — choc réfractaire",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Corriger une hyperlactatémie par du bicarbonate.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Surviving Sepsis Campaign 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Surviving Sepsis Campaign 2026",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0007",
+      "format": "QCM",
+      "enonce": "Un homme de 28 ans, victime d'un accident de moto sans traumatisme crânien, présente une fracture instable du bassin, une PA à 75/40 mmHg et une FC à 135/min, 40 minutes après l'accident. Quelles mesures sont recommandées ?",
+      "propositions": {
+        "A": "Hypotension permissive avec une PAS cible de 80 à 90 mmHg jusqu'au contrôle du saignement",
+        "B": "Acide tranexamique 1 g IV en 10 minutes puis 1 g sur 8 heures",
+        "C": "Fibrinogène si la fibrinogénémie est inférieure à 1,5 g/L",
+        "D": "Perfusion de 3 litres de cristalloïdes avant toute transfusion",
+        "E": "Exclure un choc hémorragique si l'hémoglobine initiale est de 13 g/dL"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le guide européen 2023 recommande, en l'absence de traumatisme crânien, une hypotension permissive (PAS 80–90 mmHg) jusqu'au contrôle du saignement, l'acide tranexamique précoce (dans les 3 heures), un remplissage restrictif avec recours précoce aux produits sanguins, la correction du fibrinogène et de la calcémie et la lutte contre l'hypothermie. Le contrôle mécanique (ceinture pelvienne, embolisation, chirurgie) est prioritaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : cible adaptée en l'absence de traumatisme crânien.",
+        "B": "Vrai : schéma recommandé, le plus tôt possible.",
+        "C": "Vrai : seuil de 1,5 g/L ou déficit fonctionnel en viscoélastométrie.",
+        "D": "Faux : remplissage restrictif ; l'excès de cristalloïdes aggrave la coagulopathie par dilution.",
+        "E": "Faux : l'hémoglobine initiale peut être normale avant l'hémodilution."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Choc hémorragique traumatique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer l'hypotension permissive en cas de traumatisme crânien grave.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "European guideline on management of major bleeding and coagulopathy following trauma, 6th ed. (Rossaint et al., Crit Care 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0008",
+      "format": "QCM",
+      "enonce": "Concernant le choc cardiogénique compliquant un infarctus du myocarde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le stade C de la classification SCAI correspond à une hypoperfusion nécessitant une intervention thérapeutique.",
+        "B": "Le ballon de contre-pulsion intra-aortique est recommandé de façon systématique.",
+        "C": "Une coronarographie en urgence est indiquée.",
+        "D": "Dans l'essai DanGer Shock, la pompe microaxiale a réduit la mortalité à 180 jours dans l'infarctus avec sus-décalage de ST.",
+        "E": "La dopamine est le vasopresseur de choix."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La classification SCAI (A à E) stratifie la gravité. La revascularisation urgente de la lésion coupable est le traitement étiologique majeur. Le ballon de contre-pulsion systématique n'est plus recommandé. DanGer Shock (2024) a montré une baisse de mortalité (45,8 % contre 58,5 %) avec la pompe microaxiale, au prix de davantage de complications, chez des patients sélectionnés. La noradrénaline est préférée à la dopamine.",
+      "explications_par_proposition": {
+        "A": "Vrai : stade « classique » du choc cardiogénique.",
+        "B": "Faux : non recommandé en l'absence de complication mécanique (ESC 2021, ESC 2023).",
+        "C": "Vrai : recherche et traitement d'une cause coronaire.",
+        "D": "Vrai : HR 0,74 ; plus de complications dans le bras pompe.",
+        "E": "Faux : davantage d'arythmies ; noradrénaline préférée."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Choc cardiogénique",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Proposer un ballon de contre-pulsion systématique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SCAI SHOCK 2022 (Naidu et al.)",
+          "date": "2022"
+        },
+        {
+          "reference": "DanGer Shock (Møller et al., NEJM 2024)",
+          "date": "2024"
+        },
+        {
+          "reference": "ESC 2023 ACS guidelines (Byrne et al.)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0009",
+      "format": "QCM",
+      "enonce": "Concernant la prédiction de la réponse au remplissage vasculaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le lever de jambes passif est positif si le débit cardiaque augmente d'au moins 10 % environ.",
+        "B": "La variation respiratoire de la pression pulsée est interprétable chez un patient en ventilation spontanée en arythmie complète.",
+        "C": "Une pression veineuse centrale basse prédit de façon fiable la réponse au remplissage.",
+        "D": "Environ la moitié seulement des patients en état de choc sont répondeurs au remplissage.",
+        "E": "Le remplissage doit être administré par bolus réévalués."
+      },
+      "reponses_correctes": [
+        "A",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les tests dynamiques (lever de jambes passif avec mesure du débit en temps réel, variations respiratoires en ventilation contrôlée, mini-épreuve de remplissage) prédisent mieux la réponse au remplissage que les indices statiques comme la PVC. Le remplissage se fait par bolus réévalués pour éviter la surcharge.",
+      "explications_par_proposition": {
+        "A": "Vrai : seuil usuel d'environ 10 % d'augmentation du débit.",
+        "B": "Faux : la variation de pression pulsée exige une ventilation contrôlée, un volume courant suffisant et un rythme sinusal.",
+        "C": "Faux : la PVC isolée ne prédit pas la réponse au remplissage.",
+        "D": "Vrai : d'où l'intérêt de tester avant de remplir.",
+        "E": "Vrai : principe de base de la réanimation hémodynamique."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Remplissage vasculaire — réponse au remplissage",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Utiliser la PVC comme cible de remplissage.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESICM consensus on circulatory shock 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0010",
+      "format": "QCS",
+      "enonce": "Quel profil hémodynamique correspond le mieux à un choc septique après remplissage, sans dysfonction myocardique sévère ?",
+      "propositions": {
+        "A": "Débit cardiaque bas, résistances systémiques élevées, SvO₂ basse, pressions de remplissage élevées",
+        "B": "Débit cardiaque élevé ou normal, résistances systémiques basses, SvO₂ normale ou élevée",
+        "C": "Débit cardiaque bas, résistances élevées, SvO₂ basse, pressions de remplissage basses",
+        "D": "Débit cardiaque bas, pression auriculaire droite élevée, poumons clairs",
+        "E": "Débit cardiaque élevé, résistances élevées, SvO₂ basse"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Le choc septique est un choc distributif : vasoplégie (résistances basses), débit souvent conservé ou élevé après remplissage, et SvO₂ normale ou élevée du fait d'un défaut d'extraction tissulaire de l'oxygène. Une dysfonction myocardique septique peut toutefois réduire le débit.",
+      "explications_par_proposition": {
+        "A": "Faux : profil cardiogénique.",
+        "B": "Vrai : profil distributif hyperkinétique.",
+        "C": "Faux : profil hypovolémique.",
+        "D": "Faux : profil obstructif (tamponnade, embolie pulmonaire).",
+        "E": "Faux : combinaison incohérente."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "États de choc — profils hémodynamiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'une SvO₂ normale élimine une hypoperfusion dans le choc septique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESICM consensus on circulatory shock 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0011",
+      "format": "QCM",
+      "enonce": "Un patient hypotendu (70/40 mmHg) a des veines jugulaires turgescentes et des champs pulmonaires clairs à l'auscultation. Quels diagnostics faut-il évoquer en priorité ?",
+      "propositions": {
+        "A": "Tamponnade péricardique",
+        "B": "Embolie pulmonaire massive",
+        "C": "Choc hypovolémique hémorragique",
+        "D": "Pneumothorax suffocant",
+        "E": "Infarctus du ventricule droit"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'association hypotension, turgescence jugulaire et poumons clairs oriente vers un obstacle au remplissage ou à l'éjection du cœur droit : tamponnade, embolie pulmonaire massive, pneumothorax suffocant (le murmure est alors aboli d'un côté), ou défaillance ventriculaire droite (infarctus du VD). L'échographie au lit tranche rapidement. Le choc hypovolémique s'accompagne de jugulaires plates.",
+      "explications_par_proposition": {
+        "A": "Vrai : épanchement compressif, pouls paradoxal.",
+        "B": "Vrai : cœur pulmonaire aigu, dilatation du VD.",
+        "C": "Faux : jugulaires plates dans l'hypovolémie.",
+        "D": "Vrai : turgescence jugulaire, abolition unilatérale du murmure, distension thoracique.",
+        "E": "Vrai : défaillance du VD avec poumons clairs ; éviter les dérivés nitrés."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "États de choc — diagnostic différentiel (choc obstructif)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Remplir massivement sans échographie un choc avec turgescence jugulaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESICM consensus on circulatory shock 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0012",
+      "format": "QCM",
+      "enonce": "Concernant le suivi de la réanimation d'un choc septique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le lactate doit être re-dosé régulièrement tant qu'il est élevé.",
+        "B": "Le temps de recoloration capillaire peut guider la réanimation.",
+        "C": "La ScvO₂ est typiquement basse dans le choc septique après remplissage.",
+        "D": "Le seuil transfusionnel usuel est une hémoglobine < 7 g/dL en l'absence d'ischémie myocardique ou d'hémorragie.",
+        "E": "La PAM initiale cible est de 65 mmHg."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La SSC suggère de guider la réanimation par la décroissance du lactate et par le temps de recoloration capillaire, de viser une PAM initiale de 65 mmHg et de transfuser sous 7 g/dL dans la plupart des cas. La ScvO₂ est souvent normale ou élevée dans le choc septique (défaut d'extraction), ce qui limite son intérêt.",
+      "explications_par_proposition": {
+        "A": "Vrai : re-dosage toutes les 2 à 4 h jusqu'à normalisation.",
+        "B": "Vrai : cible simple et reproductible.",
+        "C": "Faux : souvent normale ou élevée par défaut d'extraction.",
+        "D": "Vrai : stratégie restrictive recommandée.",
+        "E": "Vrai : cible initiale recommandée."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "theme": "Choc septique — monitorage",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter une ScvO₂ normale comme une perfusion tissulaire suffisante.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Surviving Sepsis Campaign 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Surviving Sepsis Campaign 2026",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0013",
+      "format": "QCS",
+      "enonce": "Un patient ouvre les yeux uniquement à la stimulation douloureuse, émet des sons incompréhensibles et retire le membre stimulé sans localiser la douleur. Quel est son score de Glasgow ?",
+      "propositions": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9",
+        "E": "10"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Ouverture des yeux à la douleur : Y2 ; sons incompréhensibles : V2 ; retrait (évitement) sans localisation : M4. Total : 8. Il faut toujours détailler les composantes, la réponse motrice étant la plus informative.",
+      "explications_par_proposition": {
+        "A": "Faux : correspondrait par exemple à M2 au lieu de M4.",
+        "B": "Faux : correspondrait à une flexion anormale (M3).",
+        "C": "Vrai : Y2 + V2 + M4 = 8.",
+        "D": "Faux : correspondrait à une localisation (M5).",
+        "E": "Faux : surestimation."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma — échelle de Glasgow",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre retrait (M4) et localisation (M5) ou flexion anormale (M3).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Teasdale G, Jennett B. Lancet 1974 — non vérifiée pendant la session",
+          "date": "1974"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0014",
+      "format": "QCM",
+      "enonce": "Quelles lésions ou dysfonctions peuvent entraîner un coma ?",
+      "propositions": {
+        "A": "Une atteinte diffuse et bilatérale des deux hémisphères",
+        "B": "Une lésion du tegmentum de la partie haute du tronc cérébral (protubérance haute, mésencéphale)",
+        "C": "Un petit infarctus cortical hémisphérique unilatéral sans effet de masse",
+        "D": "Une lésion thalamique bilatérale",
+        "E": "Un volumineux hématome hémisphérique avec engagement"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'éveil dépend du système réticulé activateur ascendant (tronc haut, thalamus) et de ses projections corticales diffuses. Un coma survient en cas d'atteinte bihémisphérique diffuse, de lésion du SRAA, de lésion thalamique bilatérale ou de lésion unilatérale avec effet de masse comprimant le diencéphale et le tronc. Une lésion hémisphérique unilatérale limitée ne donne pas de coma.",
+      "explications_par_proposition": {
+        "A": "Vrai : mécanisme des comas toxiques, métaboliques, anoxiques.",
+        "B": "Vrai : siège du SRAA.",
+        "C": "Faux : pas de coma sans effet de masse.",
+        "D": "Vrai : ex. infarctus de l'artère de Percheron.",
+        "E": "Vrai : coma par engagement."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma — bases neuro-anatomiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer un coma à une petite lésion hémisphérique unilatérale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Edlow JA et al. Diagnosis of reversible causes of coma. Lancet 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0015",
+      "format": "QCM",
+      "enonce": "Concernant l'examen des pupilles chez un patient comateux, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une mydriase unilatérale aréactive doit faire suspecter un engagement temporal.",
+        "B": "Un myosis serré bilatéral peut être lié aux opioïdes, aux organophosphorés ou à une lésion protubérantielle.",
+        "C": "Dans les comas toxiques et métaboliques, le réflexe photomoteur est habituellement conservé.",
+        "D": "Une mydriase bilatérale avec peau sèche, tachycardie et rétention urinaire évoque un syndrome anticholinergique.",
+        "E": "Un myosis bilatéral est pathognomonique d'une intoxication aux opioïdes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les pupilles sont un élément d'orientation majeur. L'atteinte du III par engagement temporal donne une mydriase aréactive homolatérale. Le myosis serré a plusieurs causes (opioïdes, cholinergiques, lésion protubérantielle). La conservation du photomoteur oriente vers une cause toxique ou métabolique. La mydriase anticholinergique s'accompagne d'une peau sèche et chaude, d'une tachycardie et d'une rétention urinaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : urgence neurochirurgicale jusqu'à preuve du contraire.",
+        "B": "Vrai : diagnostic différentiel du myosis serré.",
+        "C": "Vrai : argument classique en faveur d'une cause non structurelle.",
+        "D": "Vrai : toxidrome anticholinergique (antidépresseurs tricycliques, antihistaminiques, datura).",
+        "E": "Faux : il n'est pas pathognomonique (organophosphorés, lésion pontique)."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma — examen pupillaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à une intoxication opioïde sur le seul myosis.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Edlow JA et al. Lancet 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0016",
+      "format": "QCM",
+      "enonce": "Un homme de 50 ans, connu pour un alcoolisme chronique et une dénutrition, est retrouvé comateux à domicile. Glycémie capillaire 0,32 g/L. Pupilles en myosis serré, fréquence respiratoire 6/min. Quelles mesures sont adaptées en urgence ?",
+      "propositions": {
+        "A": "Thiamine IV avant ou en même temps que le glucose",
+        "B": "Glucosé hypertonique IV",
+        "C": "Naloxone IV titrée sur la fréquence respiratoire",
+        "D": "Flumazénil IV systématique à visée diagnostique",
+        "E": "Glucagon comme traitement de choix de l'hypoglycémie chez ce patient"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'hypoglycémie doit être corrigée immédiatement par du glucose IV, précédé ou accompagné de thiamine chez un patient alcoolique et dénutri (risque d'encéphalopathie de Gayet-Wernicke). Le myosis avec bradypnée justifie une naloxone titrée. Le flumazénil n'est pas un test diagnostique systématique. Le glucagon est peu efficace en cas de déplétion glycogénique (jeûne, alcoolisme).",
+      "explications_par_proposition": {
+        "A": "Vrai : prévention de l'encéphalopathie de Gayet-Wernicke.",
+        "B": "Vrai : correction immédiate de l'hypoglycémie.",
+        "C": "Vrai : toxidrome opioïde possible ; titration sur la ventilation.",
+        "D": "Faux : risque de convulsions ; non recommandé en routine (SRLF-SFMU 2020).",
+        "E": "Faux : stocks de glycogène effondrés chez l'alcoolique dénutri."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma — traitements correctifs immédiats",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Donner du glucose seul à un alcoolique dénutri.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SRLF-SFMU 2020 (Mégarbane et al., Ann Intensive Care 2020;10:157)",
+          "date": "2020"
+        },
+        {
+          "reference": "EFNS Wernicke 2010 — non vérifiée",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0017",
+      "format": "QCM",
+      "enonce": "En janvier, une mère et ses deux enfants sont retrouvés somnolents dans un appartement chauffé par un poêle à gaz ; la mère est comateuse. Concernant l'intoxication au monoxyde de carbone, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La SpO₂ mesurée par un saturomètre standard peut être faussement normale.",
+        "B": "La carboxyhémoglobine est mesurée par CO-oxymétrie.",
+        "C": "L'oxygénothérapie à haut débit doit être débutée dès la suspicion, sans attendre la confirmation.",
+        "D": "La présence de plusieurs victimes dans le même lieu est un argument diagnostique majeur.",
+        "E": "Le taux de carboxyhémoglobine est parfaitement corrélé à la gravité clinique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le CO se fixe sur l'hémoglobine avec une affinité très supérieure à celle de l'oxygène ; le saturomètre standard ne distingue pas la carboxyhémoglobine de l'oxyhémoglobine. Le diagnostic repose sur le contexte (hiver, chauffage, victimes multiples) et la CO-oxymétrie. L'oxygène est le traitement, à débuter immédiatement. La COHb dépend du délai et de l'oxygène reçu : elle est mal corrélée à la gravité.",
+      "explications_par_proposition": {
+        "A": "Vrai : piège majeur.",
+        "B": "Vrai : gaz du sang avec co-oxymétrie (ou CO-oxymétrie de pouls).",
+        "C": "Vrai : masque à haute concentration.",
+        "D": "Vrai : contexte typique, notamment en Algérie en hiver.",
+        "E": "Faux : corrélation médiocre, dépend du délai et de l'oxygénothérapie préalable."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma toxique — monoxyde de carbone",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Se rassurer devant une SpO₂ normale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Protection civile (Algérie) via Radio Algérie — bilan 2023",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0018",
+      "format": "QCM",
+      "enonce": "Concernant le locked-in syndrome, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est souvent dû à une lésion de la partie ventrale de la protubérance par occlusion du tronc basilaire.",
+        "B": "Les mouvements oculaires verticaux et le clignement sont préservés.",
+        "C": "La conscience est normale.",
+        "D": "Le score de Glasgow permet de le distinguer de façon fiable d'un coma.",
+        "E": "Le score FOUR peut le repérer grâce à la consigne de clignement ou de poursuite visuelle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le locked-in syndrome associe tétraplégie, diplégie faciale et mutisme avec conscience normale ; la communication passe par les mouvements oculaires verticaux et le clignement. Le Glasgow peut être très bas (pas de réponse motrice ni verbale) et faire conclure à tort à un coma ; le score FOUR intègre la réponse oculaire sur ordre.",
+      "explications_par_proposition": {
+        "A": "Vrai : lésion pontique ventrale, épargnant le tegmentum (SRAA).",
+        "B": "Vrai : voies de la verticalité épargnées.",
+        "C": "Vrai : c'est ce qui le distingue d'un coma.",
+        "D": "Faux : le Glasgow peut être faussement très bas.",
+        "E": "Vrai : l'item « yeux » du FOUR teste le clignement et la poursuite sur ordre."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma — diagnostic différentiel",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prendre un locked-in syndrome pour un coma et méconnaître une occlusion basilaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Wijdicks EF et al. FOUR score. Ann Neurol 2005;58:585-593",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0019",
+      "format": "QCM",
+      "enonce": "Concernant les anomalies respiratoires et neurovégétatives du coma, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "Respiration de Cheyne-Stokes : atteinte hémisphérique bilatérale ou diencéphalique, ou cause métabolique",
+        "B": "Hyperventilation neurogène centrale : atteinte mésencéphalo-protubérantielle haute",
+        "C": "Respiration ataxique de Biot : atteinte bulbaire, imminence d'un arrêt respiratoire",
+        "D": "Respiration de Kussmaul : signe de lésion protubérantielle",
+        "E": "Triade de Cushing : hypertension artérielle, bradycardie, troubles respiratoires"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le rythme respiratoire aide à localiser le niveau de souffrance dans la détérioration rostro-caudale. La respiration de Kussmaul (ample et profonde) est une compensation d'acidose métabolique, non un signe lésionnel. La triade de Cushing traduit une hypertension intracrânienne majeure avec souffrance bulbaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : signe de souffrance diencéphalique ou métabolique (aussi insuffisance cardiaque).",
+        "B": "Vrai : à distinguer d'une hyperventilation compensatrice d'acidose.",
+        "C": "Vrai : signe pré-terminal.",
+        "D": "Faux : compensation respiratoire d'une acidose métabolique (acidocétose, urémie, toxiques).",
+        "E": "Vrai : réflexe de Cushing de l'hypertension intracrânienne."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma — localisation lésionnelle",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter une respiration de Kussmaul comme un signe neurologique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Plum and Posner's Diagnosis and Treatment of Stupor and Coma — ouvrage non consulté",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0020",
+      "format": "QCM",
+      "enonce": "Une femme de 24 ans est admise pour coma fébrile (39,8 °C) avec purpura extensif des membres inférieurs. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une céphalosporine de 3e génération doit être administrée immédiatement, avant toute imagerie.",
+        "B": "La ponction lombaire doit précéder l'antibiothérapie pour ne pas décapiter la méningite.",
+        "C": "La dexaméthasone fait partie de la prise en charge initiale de la méningite bactérienne selon les protocoles.",
+        "D": "L'aciclovir est ajouté si une méningo-encéphalite herpétique ne peut être écartée.",
+        "E": "Il faut attendre le résultat de la culture du LCS pour débuter le traitement."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Un purpura fébrile extensif évoque un purpura fulminans méningococcique : l'antibiothérapie par céphalosporine de 3e génération doit être immédiate, sans attendre imagerie ni ponction. La dexaméthasone est associée selon les protocoles de la méningite bactérienne. L'aciclovir est ajouté devant toute suspicion d'encéphalite. Les prélèvements (hémocultures) sont faits si possible sans retarder le traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai : urgence absolue.",
+        "B": "Faux : la PL ne doit pas retarder l'antibiothérapie ; elle est de surcroît souvent contre-indiquée dans ce contexte (troubles de l'hémostase, coma).",
+        "C": "Vrai : selon les recommandations et protocoles, idéalement avant ou avec la première dose d'antibiotique.",
+        "D": "Vrai : tout coma fébrile sans diagnostic doit couvrir l'herpès.",
+        "E": "Faux : délai inacceptable."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma fébrile — urgences infectieuses",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Retarder l'antibiothérapie pour une PL ou un scanner.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Edlow JA et al. Lancet 2014",
+          "date": "2014"
+        },
+        {
+          "reference": "Recommandations françaises méningites (SPILF 2018) — non vérifiées",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0021",
+      "format": "QCM",
+      "enonce": "Concernant l'état de mal épileptique non convulsif chez un patient comateux, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Son diagnostic repose sur l'EEG.",
+        "B": "Il peut se manifester par des clonies discrètes des paupières ou de la commissure labiale.",
+        "C": "Un coma « post-critique » qui se prolonge au-delà de quelques heures doit faire réaliser un EEG.",
+        "D": "Les benzodiazépines sont le traitement de première ligne.",
+        "E": "L'absence de mouvements convulsifs visibles permet de l'éliminer."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'état de mal non convulsif est une cause traitable de coma, à rechercher systématiquement devant un coma inexpliqué (Edlow et al.). Les signes moteurs peuvent être absents ou très discrets ; l'EEG est indispensable. Le traitement suit l'algorithme de l'état de mal (benzodiazépine, puis antiépileptique de deuxième ligne).",
+      "explications_par_proposition": {
+        "A": "Vrai : examen indispensable.",
+        "B": "Vrai : signes subtils à rechercher.",
+        "C": "Vrai : le coma post-critique d'une crise unique régresse habituellement en moins de quelques heures.",
+        "D": "Vrai : première ligne, puis lévétiracétam, valproate ou fosphénytoïne.",
+        "E": "Faux : c'est précisément sa définition d'être non convulsif."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma épileptique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer un état de mal en l'absence de convulsions.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Edlow JA et al. Lancet 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0022",
+      "format": "QCM",
+      "enonce": "Concernant l'évaluation pronostique d'un coma post-anoxique après arrêt cardiaque, selon l'approche ERC-ESICM, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'évaluation n'est pas réalisée avant 72 heures après le retour à une circulation spontanée.",
+        "B": "Elle repose sur une approche multimodale.",
+        "C": "L'absence bilatérale des ondes N20 aux potentiels évoqués somesthésiques est un élément de mauvais pronostic.",
+        "D": "Un critère isolé à H24 suffit à décider d'une limitation thérapeutique.",
+        "E": "Les sédatifs résiduels sont un facteur confondant à éliminer."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le pronostic post-anoxique est évalué au plus tôt 72 heures après le retour à une circulation spontanée, après élimination des facteurs confondants (sédation, hypothermie, troubles métaboliques), en combinant plusieurs éléments : examen clinique (réflexes photomoteurs et cornéens, myoclonies), électrophysiologie (EEG, potentiels évoqués), biomarqueurs (énolase neuronale spécifique) et imagerie.",
+      "explications_par_proposition": {
+        "A": "Vrai : délai minimal recommandé.",
+        "B": "Vrai : jamais sur un critère isolé.",
+        "C": "Vrai : l'un des prédicteurs les plus robustes.",
+        "D": "Faux : risque de prophétie autoréalisatrice.",
+        "E": "Vrai : les sédatifs faussent l'examen clinique et l'EEG."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma post-anoxique — pronostic",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Décider précocement d'un pronostic défavorable sur un seul critère.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ERC-ESICM Guidelines 2025: post-resuscitation care (Resuscitation 2025;215:110809)",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0023",
+      "format": "QCM",
+      "enonce": "Un patient paraît aréactif aux urgences après une dispute familiale. Quels éléments orientent vers une aréactivité psychogène plutôt que vers un coma organique ?",
+      "propositions": {
+        "A": "Résistance active à l'ouverture des paupières",
+        "B": "Bras lâché au-dessus du visage qui évite de tomber sur la face",
+        "C": "Nystagmus conservé à l'épreuve calorique",
+        "D": "Mydriase unilatérale aréactive",
+        "E": "Respiration de Cheyne-Stokes"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'aréactivité psychogène s'accompagne d'un examen neurologique incohérent et de réflexes du tronc normaux ; à l'épreuve calorique, la présence d'un nystagmus (phase rapide) traduit un cortex fonctionnel, alors que le comateux présente une simple déviation tonique. Une mydriase aréactive ou un rythme respiratoire pathologique sont des signes organiques. Ce diagnostic reste un diagnostic d'élimination.",
+      "explications_par_proposition": {
+        "A": "Vrai : signe d'activité volontaire.",
+        "B": "Vrai : évitement de la chute sur le visage.",
+        "C": "Vrai : le nystagmus suppose un cortex actif.",
+        "D": "Faux : signe organique grave (engagement).",
+        "E": "Faux : signe de souffrance hémisphérique bilatérale, diencéphalique ou métabolique."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Coma — diagnostic différentiel psychogène",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retenir une cause psychogène sans avoir éliminé les causes organiques.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Edlow JA et al. Lancet 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT_REA-0024",
+      "format": "QCM",
+      "enonce": "Concernant le diagnostic de mort encéphalique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il exige l'abolition de tous les réflexes du tronc cérébral.",
+        "B": "Il comporte une épreuve d'apnée.",
+        "C": "Il suppose l'élimination préalable de facteurs confondants (hypothermie, sédatifs, troubles métaboliques majeurs).",
+        "D": "La persistance de réflexes médullaires élimine le diagnostic.",
+        "E": "Certaines législations nationales exigent un examen paraclinique de confirmation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La mort encéphalique est la destruction irréversible de l'ensemble de l'encéphale, y compris du tronc. Le diagnostic clinique associe coma aréactif, abolition de tous les réflexes du tronc et épreuve d'apnée positive, en l'absence de facteur confondant. Des réflexes d'origine médullaire peuvent persister et ne l'excluent pas. Le cadre réglementaire (examens paracliniques, nombre de médecins) dépend de chaque pays.",
+      "explications_par_proposition": {
+        "A": "Vrai : photomoteur, cornéen, oculocéphalique, oculovestibulaire, toux, oculocardiaque.",
+        "B": "Vrai : absence de ventilation spontanée malgré une hypercapnie suffisante.",
+        "C": "Vrai : condition préalable indispensable.",
+        "D": "Faux : les réflexes médullaires peuvent persister.",
+        "E": "Vrai : EEG, angiographie ou angioscanner selon les pays."
+      },
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "theme": "Mort encéphalique",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Croire que des mouvements d'origine médullaire excluent la mort encéphalique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "World Brain Death Project 2020 — non vérifié pendant la session",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0001",
+      "format": "QCM",
+      "enonce": "Concernant le charbon activé en dose unique dans les intoxications aiguës par ingestion, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dose usuelle est de 50 g chez l'adulte et de 1 g/kg chez l'enfant.",
+        "B": "Son bénéfice est plus probable lorsqu'il est administré dans l'heure suivant l'ingestion.",
+        "C": "Il est indiqué dans les ingestions de caustiques.",
+        "D": "Il est efficace dans l'intoxication au lithium.",
+        "E": "Il nécessite un patient conscient ou des voies aériennes protégées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Le charbon activé adsorbe de nombreux toxiques dans la lumière digestive. Les positions AACT/EAPCCT et SRLF-SFMU le réservent aux ingestions récentes d'une quantité potentiellement toxique d'un toxique adsorbable, sans usage systématique. Il n'adsorbe pas les alcools, les métaux (fer, lithium), les caustiques ni les hydrocarbures. Le risque principal est l'inhalation chez un patient aux voies aériennes non protégées.",
+      "explications_par_proposition": {
+        "A": "Vrai : posologie usuelle.",
+        "B": "Vrai : l'efficacité décroît avec le délai.",
+        "C": "Faux : contre-indiqué (gêne l'endoscopie, aucun bénéfice).",
+        "D": "Faux : le lithium n'est pas adsorbé.",
+        "E": "Vrai : risque de pneumopathie d'inhalation."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxications — décontamination digestive",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire du charbon pour un caustique, un alcool ou un métal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Chyka PA et al. Position paper: single-dose activated charcoal. Clin Toxicol 2005;43:61-87",
+          "date": "2005"
+        },
+        {
+          "reference": "SRLF-SFMU 2020 (Mégarbane et al.)",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0002",
+      "format": "QCM",
+      "enonce": "Concernant la prise en charge d'une intoxication aiguë au paracétamol (ingestion unique, forme à libération immédiate), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La paracétamolémie n'est interprétable sur le nomogramme qu'à partir de la 4e heure après l'ingestion.",
+        "B": "Au-delà de la 8e heure, la N-acétylcystéine est débutée sans attendre le résultat de la paracétamolémie.",
+        "C": "Le schéma en deux poches comporte 200 mg/kg sur 4 h puis 100 mg/kg sur 16 h.",
+        "D": "Une réaction anaphylactoïde à la NAC impose son arrêt définitif.",
+        "E": "Le nomogramme est utilisable en cas d'ingestions répétées sur plusieurs jours."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La NAC est d'autant plus efficace qu'elle est précoce (idéalement avant la 8e heure). Le nomogramme n'est valable que pour une ingestion unique d'heure connue, à partir de la 4e heure. Le schéma en deux poches recommandé en Australie/Nouvelle-Zélande réduit les réactions indésirables. Les réactions anaphylactoïdes sont gérées par ralentissement de la perfusion et antihistaminique, sans contre-indiquer la poursuite.",
+      "explications_par_proposition": {
+        "A": "Vrai : avant 4 h, l'absorption n'est pas terminée.",
+        "B": "Vrai : tout retard au-delà de 8 h augmente le risque d'hépatotoxicité.",
+        "C": "Vrai : schéma ANZ 2019.",
+        "D": "Faux : ralentir, traiter, puis reprendre.",
+        "E": "Faux : non validé pour les ingestions répétées, d'heure inconnue ou à libération prolongée."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxication au paracétamol",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre la paracétamolémie chez un patient vu tardivement.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Chiew AL et al. Med J Aust 2020;212:175-183 (ANZ guidelines)",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0003",
+      "format": "QCS",
+      "enonce": "Un homme de 22 ans est amené pour agitation et propos incohérents après avoir consommé une infusion de plante. Il présente une mydriase bilatérale, une tachycardie à 135/min, une peau sèche, rouge et chaude, une température à 38,6 °C et un globe vésical. Quel toxidrome évoquez-vous ?",
+      "propositions": {
+        "A": "Cholinergique",
+        "B": "Opioïde",
+        "C": "Anticholinergique",
+        "D": "Sympathomimétique",
+        "E": "Sédatif-hypnotique"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Le syndrome anticholinergique associe mydriase, tachycardie, peau sèche, rouge et chaude, hyperthermie, rétention urinaire, iléus et confusion agitée avec hallucinations. Le datura est un pourvoyeur classique. Le syndrome sympathomimétique s'en distingue par des sueurs profuses.",
+      "explications_par_proposition": {
+        "A": "Faux : myosis, sueurs, hypersécrétions, bradycardie.",
+        "B": "Faux : myosis, bradypnée, coma.",
+        "C": "Vrai : tableau typique (ex. datura, antihistaminiques, tricycliques).",
+        "D": "Faux : peau moite et sueurs, hypertension.",
+        "E": "Faux : coma calme hypotonique."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxications — toxidromes",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre anticholinergique (peau sèche) et sympathomimétique (sueurs).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SRLF-SFMU 2020 (Mégarbane et al.)",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0004",
+      "format": "QCM",
+      "enonce": "Une femme de 35 ans a ingéré une quantité importante d'amitriptyline. Elle est somnolente, en tachycardie, et l'ECG montre un QRS à 140 ms avec une onde R ample en aVR. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le bicarbonate de sodium hypertonique IV est indiqué.",
+        "B": "Le flumazénil peut être utilisé si une co-ingestion de benzodiazépines est suspectée.",
+        "C": "Les convulsions sont traitées par benzodiazépines.",
+        "D": "Un antiarythmique de classe Ic est indiqué en cas de tachycardie ventriculaire.",
+        "E": "L'onde R terminale ample en aVR est un signe de cardiotoxicité des tricycliques."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les tricycliques bloquent les canaux sodiques rapides (effet stabilisant de membrane) : QRS large, onde R en aVR, hypotension, arythmies ventriculaires, convulsions. Le bicarbonate de sodium hypertonique corrige ces effets par l'apport de sodium et l'alcalinisation. Le flumazénil est contre-indiqué (convulsions) et les antiarythmiques de classe Ia et Ic aggravent le bloc sodique.",
+      "explications_par_proposition": {
+        "A": "Vrai : traitement de référence du QRS large d'origine toxique.",
+        "B": "Faux : contre-indiqué en cas de toxique proconvulsivant ou de QRS large.",
+        "C": "Vrai : traitement des convulsions toxiques.",
+        "D": "Faux : aggravation du bloc sodique.",
+        "E": "Vrai : signe électrocardiographique classique."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxication aux antidépresseurs tricycliques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser le flumazénil dans une intoxication mixte avec un tricyclique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SRLF-SFMU 2020 (Mégarbane et al.)",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0005",
+      "format": "QCM",
+      "enonce": "Un patient de 28 ans est retrouvé inconscient avec un myosis serré et une fréquence respiratoire de 5/min ; une seringue est trouvée près de lui. Concernant la naloxone, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle s'administre de préférence par titration IV par petits bolus.",
+        "B": "L'objectif est une ventilation efficace (fréquence respiratoire d'environ 12/min ou plus).",
+        "C": "Sa durée d'action, plus courte que celle de nombreux opioïdes, expose à une re-sédation.",
+        "D": "L'objectif est un réveil complet et rapide.",
+        "E": "Les voies IM ou intranasale sont possibles en l'absence d'accès veineux."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La naloxone est un antagoniste compétitif des récepteurs opioïdes. La titration sur la ventilation évite un syndrome de sevrage aigu brutal (agitation, vomissements, œdème pulmonaire). Sa durée d'action courte impose une surveillance prolongée et parfois une perfusion continue, notamment avec la méthadone. La SRLF-SFMU a émis une recommandation forte sur ses conditions d'utilisation.",
+      "explications_par_proposition": {
+        "A": "Vrai : titration.",
+        "B": "Vrai : objectif ventilatoire.",
+        "C": "Vrai : surveillance prolongée.",
+        "D": "Faux : risque de sevrage aigu et d'agitation.",
+        "E": "Vrai : alternatives utiles en préhospitalier."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxication aux opioïdes — naloxone",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Viser le réveil complet au lieu de la restauration de la ventilation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SRLF-SFMU 2020 (Mégarbane et al., Ann Intensive Care 2020;10:157)",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0006",
+      "format": "QCM",
+      "enonce": "Concernant le flumazénil, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est contre-indiqué en cas de co-ingestion d'un antidépresseur tricyclique.",
+        "B": "Il doit être utilisé comme test diagnostique devant tout coma inexpliqué.",
+        "C": "Sa durée d'action courte expose à une re-sédation.",
+        "D": "Il peut déclencher un sevrage et des convulsions chez un patient dépendant aux benzodiazépines.",
+        "E": "La dose totale usuelle ne dépasse pas environ 1 mg."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le flumazénil, antagoniste compétitif des benzodiazépines, a des indications restreintes (intoxication pure aux benzodiazépines sans contre-indication). Il est dangereux en cas de toxique proconvulsivant associé, de QRS large, d'épilepsie ou de dépendance chronique. Il n'est pas un test diagnostique systématique.",
+      "explications_par_proposition": {
+        "A": "Vrai : risque de convulsions et de troubles du rythme.",
+        "B": "Faux : non recommandé (SRLF-SFMU 2020).",
+        "C": "Vrai : surveillance prolongée.",
+        "D": "Vrai : sevrage aigu, convulsions.",
+        "E": "Vrai : titration jusqu'à 1 mg selon le RCP (à vérifier)."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Antidotes — flumazénil",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Le « test au flumazénil » devant tout coma.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SRLF-SFMU 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0007",
+      "format": "QCM",
+      "enonce": "Un agriculteur de 45 ans a ingéré un insecticide organophosphoré. Il présente un myosis serré, une bronchorrhée abondante, une bradycardie à 42/min et des fasciculations. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'atropine est titrée jusqu'à l'assèchement des sécrétions bronchiques (auscultation « sèche »).",
+        "B": "La succinylcholine est le curare de choix pour l'intubation.",
+        "C": "Un syndrome intermédiaire avec insuffisance respiratoire peut survenir entre 24 et 96 heures.",
+        "D": "La décontamination cutanée doit être réalisée avec protection du personnel.",
+        "E": "L'apparition d'une tachycardie impose l'arrêt de l'atropine même si la bronchorrhée persiste."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'inhibition de l'acétylcholinestérase provoque un syndrome cholinergique muscarinique, nicotinique et central. La bronchorrhée et le bronchospasme sont la principale cause de décès : l'atropine est titrée à doses croissantes sur l'assèchement pulmonaire. La succinylcholine, métabolisée par les cholinestérases, entraîne une paralysie prolongée. Le syndrome intermédiaire impose une surveillance de plusieurs jours.",
+      "explications_par_proposition": {
+        "A": "Vrai : critère principal d'atropinisation.",
+        "B": "Faux : paralysie prolongée ; utiliser un curare non dépolarisant.",
+        "C": "Vrai : faiblesse des muscles cervicaux, proximaux et respiratoires.",
+        "D": "Vrai : contamination possible des soignants.",
+        "E": "Faux : la tachycardie peut être due à l'hypoxie ou à l'effet nicotinique ; la persistance de la bronchorrhée justifie la poursuite."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxication aux organophosphorés",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Sous-doser l'atropine par crainte de la tachycardie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Eddleston M et al. Lancet 2008 — non vérifiée pendant la session",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0008",
+      "format": "QCM",
+      "enonce": "Concernant l'intoxication au monoxyde de carbone, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'oxygénothérapie hyperbare se discute notamment en cas de perte de connaissance, de signes neurologiques ou de grossesse.",
+        "B": "Un syndrome post-intervallaire peut apparaître après quelques jours à semaines.",
+        "C": "Le taux de carboxyhémoglobine est un excellent marqueur de gravité.",
+        "D": "Dans les fumées d'incendie, une intoxication associée aux cyanures doit être évoquée.",
+        "E": "La SpO₂ mesurée par un saturomètre standard est fiable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le CO provoque une hypoxie tissulaire par fixation sur l'hémoglobine et inhibition de la respiration cellulaire. Le traitement repose sur l'oxygène immédiat, normobare ou hyperbare selon la gravité et la disponibilité. La COHb dépend du délai et de l'oxygène reçu, d'où une mauvaise corrélation avec la gravité. Les incendies associent CO et cyanures (hydroxocobalamine).",
+      "explications_par_proposition": {
+        "A": "Vrai : indications usuelles (consensus européen 2016, à vérifier).",
+        "B": "Vrai : troubles neuropsychologiques retardés.",
+        "C": "Faux : corrélation médiocre.",
+        "D": "Vrai : coma avec acidose lactique majeure → hydroxocobalamine.",
+        "E": "Faux : la carboxyhémoglobine est comptée comme oxyhémoglobine."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxication au monoxyde de carbone",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se fier à la SpO₂ ou au seul taux de COHb.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ECHM 2016 — non vérifiée pendant la session",
+          "date": "2016"
+        },
+        {
+          "reference": "Protection civile (Algérie) — bilans CO 2023",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0009",
+      "format": "QCM",
+      "enonce": "Un enfant de 3 ans a bu un déboucheur à base de soude caustique. Quelles mesures sont adaptées ?",
+      "propositions": {
+        "A": "Ne pas faire vomir",
+        "B": "Ne pas administrer de charbon activé",
+        "C": "Bilan lésionnel par endoscopie (ou scanner selon l'équipe) dans les 24 premières heures",
+        "D": "Neutraliser par une boisson acide ou du lait",
+        "E": "Poser une sonde gastrique à l'aveugle pour vider l'estomac"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les caustiques lèsent la muqueuse au contact : les vomissements, le lavage, la neutralisation (réaction exothermique) et les sondes à l'aveugle aggravent les lésions et exposent à la perforation. Le patient est mis à jeun ; le bilan lésionnel précoce guide la conduite (surveillance, chirurgie). Le charbon est inefficace et gêne l'endoscopie.",
+      "explications_par_proposition": {
+        "A": "Vrai : seconde exposition de l'œsophage et risque d'inhalation.",
+        "B": "Vrai : inefficace et gênant.",
+        "C": "Vrai : évaluation précoce des lésions.",
+        "D": "Faux : réaction exothermique, aucune preuve de bénéfice.",
+        "E": "Faux : risque de perforation."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Ingestion de caustiques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Faire boire du lait « pour neutraliser ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Benson BE et al. Gastric lavage position paper update. Clin Toxicol 2013",
+          "date": "2013"
+        },
+        {
+          "reference": "Chyka PA et al. Single-dose activated charcoal. Clin Toxicol 2005",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0010",
+      "format": "QCM",
+      "enonce": "Concernant les intoxications par le méthanol et l'éthylène glycol, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles provoquent une acidose métabolique à trou anionique élevé.",
+        "B": "Le trou osmolaire est élevé précocement, avant la métabolisation de l'alcool.",
+        "C": "Le fomépizole inhibe l'alcool déshydrogénase et bloque la formation des métabolites toxiques.",
+        "D": "Le méthanol expose à des troubles visuels pouvant aller jusqu'à la cécité.",
+        "E": "Le charbon activé est le traitement de référence."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Ces alcools sont peu toxiques eux-mêmes ; leurs métabolites (acide formique pour le méthanol, acides glycolique et oxalique pour l'éthylène glycol) provoquent acidose, atteinte visuelle ou rénale. Le traitement associe fomépizole (ou éthanol), correction de l'acidose et hémodialyse dans les formes graves. Le charbon ne les adsorbe pas.",
+      "explications_par_proposition": {
+        "A": "Vrai : accumulation d'acides organiques.",
+        "B": "Vrai : le trou osmolaire diminue à mesure que l'alcool est métabolisé.",
+        "C": "Vrai : antidote de référence.",
+        "D": "Vrai : toxicité rétinienne de l'acide formique.",
+        "E": "Faux : alcools non adsorbés."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Alcools toxiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se rassurer devant un trou osmolaire normal tardif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EXTRIP — non vérifié pendant la session",
+          "date": "2015"
+        },
+        {
+          "reference": "RCP fomépizole — non consulté",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0011",
+      "format": "QCM",
+      "enonce": "Parmi les situations suivantes, lesquelles doivent être considérées comme potentiellement graves malgré un patient asymptomatique à l'arrivée ?",
+      "propositions": {
+        "A": "Ingestion de 20 g de paracétamol il y a 2 heures par un adulte de 60 kg",
+        "B": "Ingestion d'une forme à libération prolongée de vérapamil il y a 1 heure",
+        "C": "Ingestion d'un comprimé de méthadone par un enfant de 2 ans",
+        "D": "Ingestion de 3 comprimés d'un ISRS par un adulte",
+        "E": "Ingestion de colchicine en quantité importante il y a 3 heures"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La gravité se juge sur le toxique, la dose maximale possible, le délai et le terrain, pas sur l'état clinique initial. Les toxiques lésionnels (paracétamol, colchicine) sont asymptomatiques au début ; les formes à libération prolongée de cardiotropes ont des effets retardés ; certains médicaments sont dangereux pour un jeune enfant à la dose d'un seul comprimé (méthadone).",
+      "explications_par_proposition": {
+        "A": "Vrai : 333 mg/kg, dose potentiellement toxique ; phase initiale asymptomatique.",
+        "B": "Vrai : toxicité retardée et potentiellement létale.",
+        "C": "Vrai : dépression respiratoire retardée et prolongée.",
+        "D": "Faux : quelques comprimés d'ISRS chez l'adulte sont habituellement peu toxiques.",
+        "E": "Vrai : toxique lésionnel avec défaillance multiviscérale retardée."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxications — évaluation de la gravité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Être rassuré par un patient asymptomatique après un toxique lésionnel ou à libération prolongée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SRLF-SFMU 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "Chiew AL et al. MJA 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0012",
+      "format": "QCM",
+      "enonce": "Concernant les suites et la prévention des intoxications aiguës, notamment en Algérie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une évaluation psychiatrique est nécessaire avant la sortie après toute intoxication volontaire.",
+        "B": "Le mélange d'eau de Javel et d'un acide dégage du chlore toxique pour les voies respiratoires.",
+        "C": "Les intoxications au monoxyde de carbone en Algérie surviennent surtout en hiver et ont causé 156 décès en 2023 selon la Protection civile.",
+        "D": "Un patient asymptomatique 2 heures après l'ingestion d'un inhibiteur calcique à libération prolongée peut sortir.",
+        "E": "La pyridoxine est l'antidote des convulsions de l'intoxication à l'isoniazide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les suites d'une intoxication comprennent l'évaluation psychiatrique, la toxicovigilance et la prévention de la récidive. En Algérie, le CO est un problème hivernal majeur (appareils de chauffage et chauffe-eau). L'isoniazide, très prescrit dans le traitement de la tuberculose, provoque des convulsions par déficit en GABA corrigé par la pyridoxine. Les formes à libération prolongée imposent une surveillance d'au moins 24 h.",
+      "explications_par_proposition": {
+        "A": "Vrai : le risque de récidive suicidaire est élevé.",
+        "B": "Vrai : accident domestique fréquent.",
+        "C": "Vrai : bilan de la Protection civile.",
+        "D": "Faux : toxicité retardée ; surveillance prolongée.",
+        "E": "Vrai : antidote spécifique."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "theme": "Intoxications — suites, prévention, contexte algérien",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Laisser sortir trop tôt un patient après un cardiotrope à libération prolongée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Protection civile (Algérie) via Radio Algérie — bilan CO 2023",
+          "date": "2023"
+        },
+        {
+          "reference": "SRLF-SFMU 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0013",
+      "format": "QCM",
+      "enonce": "Concernant l'épidémiologie de l'envenimation scorpionique en Algérie (données nationales publiées), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le risque de piqûre est le plus élevé dans le Sud et les Hauts-Plateaux centraux.",
+        "B": "Les piqûres surviennent surtout la nuit, à l'intérieur des habitations, en été.",
+        "C": "La mortalité est la plus élevée chez les enfants, en particulier entre 1 et 4 ans.",
+        "D": "Les piqûres surviennent surtout en hiver.",
+        "E": "Une baisse de la mortalité d'environ moitié a été observée après 2001 et attribuée au programme national."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'étude nationale portant sur 2001–2010 (Laïd et al., 2012) rapporte environ 152 piqûres et 0,24 décès pour 100 000 habitants par an, avec un risque maximal dans le Sud et les Hauts-Plateaux, des piqûres nocturnes, domestiques et estivales, une incidence de l'envenimation plus élevée chez l'adulte jeune masculin mais une mortalité concentrée chez l'enfant de 1 à 4 ans, et une baisse de la mortalité de près de 50 % attribuée au programme national.",
+      "explications_par_proposition": {
+        "A": "Vrai : gradient géographique marqué.",
+        "B": "Vrai : profil typique des piqûres.",
+        "C": "Vrai : vulnérabilité liée au rapport venin/poids.",
+        "D": "Faux : les scorpions sont actifs en saison chaude.",
+        "E": "Vrai : résultat rapporté par les auteurs."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimation scorpionique — épidémiologie algérienne",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre le groupe le plus piqué (adultes jeunes) et le groupe qui meurt (jeunes enfants).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Laïd Y et al. Incidence and severity of scorpion stings in Algeria. J Venom Anim Toxins incl Trop Dis 2012;18:399-410",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0014",
+      "format": "QCM",
+      "enonce": "Concernant le programme national algérien de lutte contre l'envenimation scorpionique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un comité national intersectoriel a été créé par arrêté ministériel en janvier 1997.",
+        "B": "Un guide national de prise en charge de l'envenimation scorpionique a été élaboré en 2003.",
+        "C": "La stratégie repose notamment sur la formation des soignants, l'information de la population, la prise en charge standardisée et la surveillance épidémiologique.",
+        "D": "Des campagnes de collecte des scorpions font partie des actions de prévention.",
+        "E": "Le programme a été supprimé en 2010 faute de résultats."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le programme national s'appuie sur un comité intersectoriel (1997), un guide de prise en charge (2003, mise à jour annoncée en 2022), une stratégie associant formation, information-éducation-communication, prise en charge standardisée et surveillance par l'INSP et la Direction de la prévention, ainsi que des campagnes de collecte et de prévention auxquelles est attribuée la baisse récente des cas.",
+      "explications_par_proposition": {
+        "A": "Vrai : point de départ institutionnel du programme.",
+        "B": "Vrai : guide cité par le rapport épidémiologique de l'INSP.",
+        "C": "Vrai : axes décrits dans la littérature nationale.",
+        "D": "Vrai : campagnes de ramassage et de prévention.",
+        "E": "Faux : le programme se poursuit ; une mise à jour du guide était annoncée en 2022."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimation scorpionique — programme national",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "INSP — rapport envenimation scorpionique (données 2009)",
+          "date": "2009"
+        },
+        {
+          "reference": "Données épidémiologiques sur l'envenimation scorpionique en Algérie (doi 10.1007/s13149-012-0234-4)",
+          "date": "2012"
+        },
+        {
+          "reference": "allAfrica, 27/05/2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0015",
+      "format": "QCM",
+      "enonce": "Concernant la physiopathologie de l'envenimation scorpionique par les Buthidae, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les neurotoxines agissent principalement sur les canaux sodiques voltage-dépendants.",
+        "B": "Le venin provoque une libération massive d'acétylcholine et de catécholamines.",
+        "C": "Une nécrose locale extensive est habituelle.",
+        "D": "La gravité est surtout liée à la dysfonction myocardique et à l'œdème pulmonaire.",
+        "E": "L'enfant développe des formes plus graves que l'adulte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les neurotoxines des Buthidae prolongent la dépolarisation des terminaisons nerveuses, d'où une libération massive de neurotransmetteurs (« orage neurovégétatif »). Les signes cholinergiques et adrénergiques s'associent ; la mort survient par défaillance cardiovasculaire (dysfonction ventriculaire gauche, œdème pulmonaire, choc). La douleur locale est intense mais la nécrose locale n'est pas habituelle.",
+      "explications_par_proposition": {
+        "A": "Vrai : cible principale du venin.",
+        "B": "Vrai : mécanisme de l'orage neurovégétatif.",
+        "C": "Faux : la nécrose est caractéristique des vipères, pas des scorpions Buthidae.",
+        "D": "Vrai : cause principale de décès.",
+        "E": "Vrai : rapport quantité de venin/poids défavorable."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimation scorpionique — physiopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre des signes locaux importants pour évoquer une envenimation grave.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Laïd Y et al. 2012",
+          "date": "2012"
+        },
+        {
+          "reference": "Chippaux JP, Goyffon M. Acta Trop 2008 — non vérifiée",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0016",
+      "format": "QCS",
+      "enonce": "Un garçon de 7 ans a été piqué au pied par un scorpion il y a 90 minutes, dans une wilaya du Sud. Il est conscient, présente des sueurs profuses, une hypersialorrhée, trois vomissements, un priapisme, une FC à 138/min, une PA à 150/95 mmHg, une FR à 26/min, une SpO₂ à 98 % et une auscultation pulmonaire normale. Dans quelle classe de gravité classez-vous cette envenimation ?",
+      "propositions": {
+        "A": "Piqûre sans envenimation",
+        "B": "Classe I",
+        "C": "Classe II",
+        "D": "Classe III",
+        "E": "Impossible à classer sans dosage du venin"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "L'enfant présente des signes généraux (sueurs, hypersialorrhée, vomissements, priapisme, tachycardie, hypertension) sans défaillance vitale (pas de choc, pas d'œdème pulmonaire, pas de détresse respiratoire, pas de coma ni de convulsions) : c'est une classe II. Il doit être hospitalisé et surveillé de près, car l'évolution vers la classe III est possible.",
+      "explications_par_proposition": {
+        "A": "Faux : il existe des signes généraux d'envenimation.",
+        "B": "Faux : la classe I comporte des signes locaux isolés.",
+        "C": "Vrai : signes généraux sans défaillance vitale.",
+        "D": "Faux : pas de défaillance cardiovasculaire, respiratoire ou neurologique à ce stade.",
+        "E": "Faux : la classification est clinique."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimation scorpionique — classification",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Classer en III une hypertension isolée ou en I un enfant avec sueurs et vomissements.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Guide national « Prise en charge de l'envenimation scorpionique » (2003) — classification à vérifier dans l'édition en vigueur",
+          "date": "2003"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0017",
+      "format": "QCM",
+      "enonce": "Quels gestes sont recommandés sur les lieux après une piqûre de scorpion ?",
+      "propositions": {
+        "A": "Désinfecter le point de piqûre",
+        "B": "Poser un garrot en amont de la piqûre",
+        "C": "Transporter rapidement la victime, surtout s'il s'agit d'un enfant, vers la structure de santé la plus proche",
+        "D": "Inciser et sucer le point de piqûre",
+        "E": "Mettre la victime au repos et immobiliser le membre"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les premiers gestes visent à calmer, immobiliser, désinfecter et transporter rapidement la victime. Les gestes traditionnels (garrot, incision, succion, scarification, application de produits) sont inefficaces et dangereux, et retardent la prise en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai : antisepsie locale.",
+        "B": "Faux : inefficace et source de lésions ischémiques.",
+        "C": "Vrai : le délai de prise en charge conditionne le pronostic.",
+        "D": "Faux : inefficace, risque infectieux.",
+        "E": "Vrai : limiter l'agitation et la diffusion."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimation scorpionique — premiers secours",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Accepter le garrot « pour ralentir la diffusion du venin ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Messages du programme national (libellés à vérifier dans le guide)",
+          "date": "2003"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0018",
+      "format": "QCM",
+      "enonce": "Un enfant de 4 ans piqué par un scorpion présente 3 heures plus tard une détresse respiratoire avec râles crépitants bilatéraux, une PA à 70/40 mmHg, des extrémités froides et, à l'échocardiographie, une hypokinésie globale du ventricule gauche. Quelles mesures sont adaptées ?",
+      "propositions": {
+        "A": "Hospitalisation en réanimation avec oxygénothérapie et ventilation si nécessaire",
+        "B": "Dobutamine pour la dysfonction myocardique",
+        "C": "Remplissage vasculaire massif pour corriger l'hypotension",
+        "D": "Benzodiazépine en cas de convulsions",
+        "E": "Le sérum antiscorpionique dispense de la réanimation cardiorespiratoire"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Il s'agit d'une classe III avec choc cardiogénique et œdème pulmonaire par dysfonction ventriculaire gauche. Le traitement repose sur la réanimation : oxygénation et ventilation, inotrope (dobutamine), remplissage prudent, vasopresseur si composante vasoplégique, traitement des convulsions. La place du SAS relève du protocole national et ne remplace en aucun cas la réanimation.",
+      "explications_par_proposition": {
+        "A": "Vrai : défaillance vitale.",
+        "B": "Vrai : inotrope adapté à la dysfonction systolique.",
+        "C": "Faux : aggravation de l'œdème pulmonaire.",
+        "D": "Vrai : traitement des convulsions.",
+        "E": "Faux : la réanimation est prioritaire."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimation scorpionique — classe III",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Remplir massivement un choc cardiogénique avec œdème pulmonaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Guide national 2003 — à vérifier",
+          "date": "2003"
+        },
+        {
+          "reference": "Abroug F et al. Lancet 1999 — non vérifiée",
+          "date": "1999"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0019",
+      "format": "QCM",
+      "enonce": "Un homme de 50 ans a été mordu à la cheville par une vipère il y a 3 heures. L'œdème remonte jusqu'au genou, il a vomi deux fois et le fibrinogène est à 0,6 g/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit au moins d'une envenimation de grade 2.",
+        "B": "L'immunothérapie antivenimeuse est indiquée.",
+        "C": "L'aspirine est un antalgique adapté.",
+        "D": "Il faut marquer les limites de l'œdème et répéter le bilan d'hémostase.",
+        "E": "Une antibiothérapie systématique est indiquée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Un œdème régional associé à des signes généraux modérés définit un grade 2 ; la coagulopathie (fibrinogène effondré) est un critère supplémentaire de gravité. L'antivenin IV précoce est indiqué. L'aspirine et les AINS sont proscrits (risque hémorragique). L'antibiothérapie n'est pas systématique.",
+      "explications_par_proposition": {
+        "A": "Vrai : œdème régional et signes généraux.",
+        "B": "Vrai : grade ≥ 2 et coagulopathie.",
+        "C": "Faux : risque hémorragique ; préférer paracétamol, morphiniques.",
+        "D": "Vrai : suivi de l'extension et de la coagulopathie.",
+        "E": "Faux : réservée aux plaies souillées, nécrotiques ou manipulées."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimation vipérine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter la douleur d'une morsure de vipère par aspirine ou AINS.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS AFRO 2010 / SEARO 2016 — non vérifiées",
+          "date": "2016"
+        },
+        {
+          "reference": "Classification d'Audebert — non vérifiée",
+          "date": "1992"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0020",
+      "format": "QCM",
+      "enonce": "Concernant les morsures de serpent, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'envenimation par un cobra se manifeste surtout par des signes neurologiques (ptosis, ophtalmoplégie, paralysie).",
+        "B": "Une paralysie respiratoire peut imposer une ventilation mécanique.",
+        "C": "Le bandage compressif d'immobilisation est recommandé pour les morsures de vipère.",
+        "D": "Il vaut mieux photographier le serpent que chercher à le capturer.",
+        "E": "Les signes locaux sont au premier plan dans l'envenimation cobraïque."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les élapidés ont un venin neurotoxique de type curarisant ; les signes locaux sont discrets et le danger est la paralysie respiratoire. Le bandage compressif d'immobilisation est utilisé pour certains élapidés (Australie) mais déconseillé pour les vipères. L'identification de l'espèce aide au choix de l'antivenin, sans exposer à une nouvelle morsure.",
+      "explications_par_proposition": {
+        "A": "Vrai : syndrome myasthénique d'aggravation rapide.",
+        "B": "Vrai : support ventilatoire en attendant l'effet de l'antivenin.",
+        "C": "Faux : aggravation de la nécrose locale.",
+        "D": "Vrai : sécurité.",
+        "E": "Faux : signes locaux discrets."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimations ophidiennes — élapidés et premiers secours",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer aux vipères les techniques de premiers secours conçues pour les élapidés australiens.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS SEARO 2016 — non vérifiée",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0021",
+      "format": "QCM",
+      "enonce": "Concernant les catégories d'exposition au risque rabique définies par l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Catégorie I (léchage sur peau intacte) : pas de prophylaxie post-exposition.",
+        "B": "Catégorie II (mordillage, griffure superficielle sans saignement) : vaccination immédiate.",
+        "C": "Catégorie III (morsure transdermique, léchage d'une muqueuse ou d'une peau lésée) : vaccination et immunoglobulines antirabiques.",
+        "D": "La grossesse contre-indique la vaccination antirabique.",
+        "E": "Il faut attendre la fin de l'observation de l'animal pour décider de vacciner."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La prophylaxie post-exposition est graduée selon la catégorie d'exposition (OMS). La rage étant mortelle une fois déclarée, la PPE n'a aucune contre-indication et ne doit jamais être retardée par l'observation de l'animal, qui permet seulement d'interrompre la vaccination si l'animal reste en bonne santé.",
+      "explications_par_proposition": {
+        "A": "Vrai : simple lavage.",
+        "B": "Vrai : vaccin sans immunoglobulines.",
+        "C": "Vrai : association vaccin + immunoglobulines chez le sujet non vacciné.",
+        "D": "Faux : aucune contre-indication.",
+        "E": "Faux : la PPE débute sans attendre."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Rage — catégories d'exposition",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Différer la vaccination dans l'attente de l'observation de l'animal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Rabies vaccines: WHO position paper, April 2018 — non vérifiée pendant la session",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0022",
+      "format": "QCM",
+      "enonce": "Concernant les immunoglobulines et les schémas de vaccination antirabique (position OMS 2018), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les immunoglobulines sont infiltrées dans et autour de la plaie, autant que l'anatomie le permet.",
+        "B": "La dose d'immunoglobulines humaines est de 20 UI/kg.",
+        "C": "Les immunoglobulines peuvent être administrées jusqu'au 7e jour après la première dose de vaccin.",
+        "D": "Un patient ayant déjà reçu une vaccination antirabique complète doit recevoir des immunoglobulines en cas de nouvelle exposition de catégorie III.",
+        "E": "Le schéma de Zagreb comporte deux doses IM à J0."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les immunoglobulines neutralisent localement le virus avant que l'immunité vaccinale ne s'installe ; l'OMS privilégie l'infiltration locale maximale (20 UI/kg pour les immunoglobulines humaines, 40 UI/kg pour les équines). Au-delà du 7e jour, la réponse vaccinale est en cours et elles ne sont plus utiles. Les sujets antérieurement vaccinés reçoivent un rappel abrégé sans immunoglobulines. Le schéma de Zagreb (2-1-1) comporte deux doses à J0, une à J7 et une à J21.",
+      "explications_par_proposition": {
+        "A": "Vrai : infiltration locale.",
+        "B": "Vrai : 20 UI/kg (40 UI/kg pour les équines).",
+        "C": "Vrai : fenêtre de 7 jours.",
+        "D": "Faux : rappel vaccinal seul.",
+        "E": "Vrai : schéma 2-1-1."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Rage — prophylaxie post-exposition",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Injecter les immunoglobulines en IM fessier loin de la plaie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Rabies vaccines: WHO position paper, April 2018 — non vérifiée pendant la session",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0023",
+      "format": "QCM",
+      "enonce": "Une femme de 60 ans a été mordue à la main par son chat il y a 4 heures ; elle présente deux plaies punctiformes profondes en regard de l'articulation métacarpo-phalangienne de l'index. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une antibioprophylaxie par amoxicilline–acide clavulanique est indiquée.",
+        "B": "Une infection à Pasteurella multocida peut se manifester par une inflammation douloureuse dans les 24 premières heures.",
+        "C": "Les plaies doivent être suturées d'emblée pour limiter l'infection.",
+        "D": "Un avis chirurgical est souhaitable en raison du siège articulaire.",
+        "E": "La plaie doit être lavée abondamment à l'eau et au savon."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les morsures de chat de la main sont à haut risque infectieux (plaies punctiformes profondes, proximité des gaines et articulations). L'antibioprophylaxie par amoxicilline–acide clavulanique couvre Pasteurella, les streptocoques, les staphylocoques sensibles et les anaérobies. Les plaies punctiformes de la main ne se suturent pas. Le lavage prolongé est le premier geste, y compris pour la prévention de la rage, dont le risque est à évaluer selon l'animal.",
+      "explications_par_proposition": {
+        "A": "Vrai : plaie à haut risque.",
+        "B": "Vrai : inflammation précoce caractéristique.",
+        "C": "Faux : la suture enferme les germes.",
+        "D": "Vrai : risque d'arthrite septique et de ténosynovite.",
+        "E": "Vrai : premier geste."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Morsures animales — morsure de chat",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Suturer une plaie punctiforme de la main.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IDSA SSTI 2014 (Stevens et al.) — non vérifiée pendant la session",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-URGE-0024",
+      "format": "QCM",
+      "enonce": "Concernant les autres piqûres et morsures, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une anaphylaxie après piqûre d'abeille se traite en première intention par adrénaline intramusculaire.",
+        "B": "L'immunothérapie au venin d'hyménoptère est une mesure de prévention des récidives d'anaphylaxie.",
+        "C": "Des piqûres multiples d'hyménoptères peuvent entraîner une rhabdomyolyse et une insuffisance rénale.",
+        "D": "Les antihistaminiques sont le traitement de première ligne de l'anaphylaxie.",
+        "E": "La prévention du tétanos doit être évaluée après toute morsure animale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les piqûres d'hyménoptères posent deux problèmes distincts : l'anaphylaxie (dose-indépendante, traitée par adrénaline IM ; prévention par immunothérapie au venin) et la toxicité directe en cas de piqûres multiples. Toute plaie par morsure expose au tétanos et impose de vérifier le statut vaccinal.",
+      "explications_par_proposition": {
+        "A": "Vrai : traitement de première ligne (EAACI 2021).",
+        "B": "Vrai : chez les patients éligibles.",
+        "C": "Vrai : envenimation massive.",
+        "D": "Faux : traitement des signes cutanés uniquement, jamais en première ligne.",
+        "E": "Vrai : selon statut vaccinal et type de plaie."
+      },
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "theme": "Envenimations — hyménoptères et tétanos",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter une anaphylaxie aux hyménoptères par antihistaminique seul.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EAACI guidelines: Anaphylaxis 2021 update (Muraro et al., Allergy 2022)",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

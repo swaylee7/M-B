@@ -319,3 +319,199 @@ HYPOKALIÉMIE
 4. **Magnésémie** (systématique) ; **calciurie** (basse dans le Gitelman, normale ou élevée dans le Bartter) [S8].
 5. **Hyperaldostéronisme primaire** : à rechercher devant toute **HTA avec hypokaliémie** (spontanée ou sous diurétique) par le rapport aldostérone/rénine, selon la recommandation de l'Endocrine Society actualisée en 2025 [S12] (qui élargit le dépistage à l'ensemble des hypertendus par rapport à la version 2016 [S13]).
 6. **ECG** dans tous les cas [S5] ; TSH si paralysie périodique ; recherche de diurétiques ou de laxatifs (dosages urinaires) si suspicion de prise cachée.
+
+---
+
+## 10. Formes cliniques
+
+### 10.1 Hyperkaliémies
+- **Hyperkaliémie de l'IRA** : souvent associée à une acidose et à une oligurie ; indication fréquente d'épuration si réfractaire (DOS-NEPH-0001).
+- **Hyperkaliémie chronique de la MRC sous bloqueurs du SRAA** : modérée, bien tolérée, aggravée par les épisodes intercurrents (déshydratation, AINS, triméthoprime) ; enjeu = **maintenir les traitements protecteurs** [S4, S10, S11].
+- **Hyperkaliémie de l'acidocétose** : kaliémie initiale normale ou élevée malgré un **déficit total de 3 à 6 mmol/kg** ; chute rapide sous insuline → supplémentation dès que K < 5,0 mmol/L et insuline différée si K < 3,5 [S9].
+- **Hyperkaliémie de l'insuffisance surrénale aiguë** : avec hyponatrémie, hypotension, hypoglycémie → hydrocortisone en urgence.
+- **Rhabdomyolyse, lyse tumorale, hémolyse massive** : hyperkaliémie rapidement évolutive, souvent avec IRA.
+- **Intoxication digitalique** : hyperkaliémie par inhibition de la Na⁺/K⁺-ATPase ; les sels de calcium sont classiquement évités ou utilisés avec prudence dans ce contexte **[À VÉRIFIER — données discutées]** ; antidote : fragments Fab anti-digoxine.
+- **Hyperkaliémie et arrêt cardiaque** : cause réversible à rechercher systématiquement (« 4 H – 4 T ») [S2, S3].
+
+### 10.2 Hypokaliémies
+- **Hypokaliémie sous diurétiques** : la plus fréquente ; prévenir par association à un épargneur potassique ou par supplémentation, surveiller la kaliémie.
+- **Hypokaliémie des vomissements** : alcalose métabolique, chlorurie basse ; correction par **NaCl et KCl** (l'apport de chlore corrige l'alcalose).
+- **Hyperaldostéronisme primaire** : HTA souvent résistante, hypokaliémie (inconstante), alcalose, rénine basse, aldostérone élevée [S12].
+- **Syndrome de Gitelman** : adulte jeune, asthénie, crampes, tétanie, chondrocalcinose ; hypokaliémie, **hypomagnésémie**, **hypocalciurie**, alcalose, PA basse ou normale [S8].
+- **Syndrome de Bartter** : révélation plus précoce (période néonatale ou enfance), polyurie, retard de croissance, calciurie normale ou élevée.
+- **Paralysie périodique thyrotoxique** : accès de paralysie avec hypokaliémie de transfert chez un patient thyrotoxique (homme jeune d'origine asiatique le plus souvent) ; **risque d'hyperkaliémie de rebond** si supplémentation excessive ; traitement de la thyrotoxicose et bêtabloquant non sélectif (cf. DOS-ENDO-0001).
+- **Syndrome de renutrition inappropriée** : hypophosphatémie, hypokaliémie, hypomagnésémie à la reprise alimentaire du dénutri.
+- **Hypokaliémie du traitement de l'acidocétose** : ≈ 55 % des ACD ; < 2,5 mmol/L dans 16 % des cas, associée à une surmortalité [S9].
+
+---
+
+## 11. Diagnostics différentiels
+
+| Situation | Piège | Comment le déjouer |
+|---|---|---|
+| Hyperkaliémie sur tube hémolysé | Traitement inutile (hypoglycémie iatrogène) | Index d'hémolyse, nouveau prélèvement ; **mais** traiter sans attendre si ECG anormal |
+| Thrombocytose > 500 000/mm³ ou hyperleucocytose majeure | Pseudohyperkaliémie | Kaliémie **plasmatique** (tube hépariné) |
+| Hyperkaliémie + hypocalcémie extrême isolées | Contamination EDTA | Refaire le prélèvement dans le bon ordre de remplissage |
+| Ondes T amples sans hyperkaliémie | Repolarisation précoce, ischémie hyperaiguë | Kaliémie, contexte, cinétique ECG |
+| Faiblesse musculaire aiguë | Syndrome de Guillain-Barré, myasthénie | Kaliémie, ECG |
+| Ondes U, QT long | Médicaments allongeant le QT, hypocalcémie | Ionogramme, calcémie, magnésémie |
+| Hypokaliémie chez une patiente jeune « inexpliquée » | Prise cachée de diurétiques/laxatifs, vomissements provoqués | Chlorurie, kaliurèse, dosage urinaire de diurétiques, contexte (troubles des conduites alimentaires) |
+
+---
+
+## 12. Évolution, complications, pronostic
+
+- **Hyperkaliémie** : risque d'**arrêt cardiaque** (fibrillation ventriculaire, asystolie, activité électrique sans pouls), d'autant plus que l'installation est rapide ; récidives fréquentes chez les patients atteints de MRC, avec un cercle vicieux d'**arrêt des bloqueurs du SRAA** qui prive le patient de leur bénéfice cardio-rénal [S4].
+- **Complications iatrogènes du traitement** : **hypoglycémie après insuline-glucose** (fréquente, surtout en cas d'insuffisance rénale, de glycémie initiale basse, de faible poids), tachycardie sous salbutamol, surcharge sodée sous bicarbonate, nécrose colique sous résines de polystyrène (surtout avec sorbitol), **hypokaliémie de rebond**.
+- **Hypokaliémie** : arythmies et mort subite (cardiopathie, digoxine, QT long), paralysies, rhabdomyolyse, iléus ; néphropathie hypokaliémique en cas de chronicité ; **hyperkaliémie de rebond** en cas de supplémentation intensive d'une hypokaliémie de transfert.
+- Le pronostic dépend de la cause (IRA, MRC, cardiopathie) et de la rapidité de la prise en charge.
+
+---
+
+## 13. Traitement
+
+### 13.1 Objectifs
+**Hyperkaliémie** : prévenir l'arrêt cardiaque (protéger le myocarde), abaisser rapidement la kaliémie (transfert), éliminer l'excès de potassium, traiter la cause, prévenir la récidive tout en préservant les traitements utiles.
+**Hypokaliémie** : corriger le déficit en sécurité, traiter la cause et l'hypomagnésémie, prévenir la récidive.
+
+### 13.2 Hyperkaliémie aiguë — moyens et posologies (adulte)
+
+| Étape | Traitement | Modalités | Délai / durée d'action | Précautions |
+|---|---|---|---|---|
+| **1. Protéger le myocarde** (si anomalies ECG) | **Gluconate de calcium 10 %** | **30 mL IV en 10 minutes** (UKKA 2023 : passage de 15 à 10 minutes) [S1] ; répéter si l'ECG reste anormal après 5–10 min **[nombre maximal de doses : protocole local]** | Quelques minutes ; 30–60 min | Ne baisse pas la kaliémie ; voie veineuse sûre ; incompatible avec le bicarbonate (précipitation) |
+| | ou **chlorure de calcium 10 %** | **10 mL IV** (préféré en arrêt cardiaque, idéalement voie centrale) [S2] | Idem | Veinotoxique |
+| **2. Transférer** | **Insuline rapide + glucose** | **10 UI d'insuline rapide (soluble) + 25 g de glucose IV en 15 min** [S1, S2] — présentation du glucose (G10 % ou G50 %) **[POSOLOGIE À VÉRIFIER — protocole local]** | 15–30 min ; 4–6 h ; baisse ≈ 0,6–1,0 mmol/L (ordre de grandeur) | **Hypoglycémie** : surveillance glycémique rapprochée pendant au moins 6 h ; glucose 10 % en relais si glycémie initiale basse (seuil < 7 mmol/L dans la recommandation UKKA) [S1 — modalités à vérifier sur la version 2026] |
+| | **Salbutamol nébulisé** | **10–20 mg** en nébulisation (adjuvant, hyperkaliémie sévère) [S1, S2] | 15–30 min ; 2–4 h | Tachycardie, tremblements ; prudence en cas de coronaropathie ou de tachyarythmie |
+| | Bicarbonate de sodium | **Pas en routine** ; à discuter en cas d'acidose métabolique sévère ; en arrêt cardiaque hyperkaliémique selon l'ERC [S1, S2] | Variable | Surcharge sodée ; jamais dans la même voie que le calcium |
+| **3. Éliminer** | **Cyclosilicate de zirconium sodique (SZC)** | **10 g × 3/j** jusqu'à 72 h en correction, puis entretien (RCP) [S6] | Effet dès 1 h, significatif à 4 h (ordre de grandeur) | Œdèmes (charge sodée) ; disponibilité locale **[À VÉRIFIER]** |
+| | Patiromer | Entretien plutôt qu'urgence (délai d'action plus long) [S7] | Heures | Hypomagnésémie, troubles digestifs, interactions (espacer les prises) |
+| | Résines de polystyrène sulfonate (sodium ou calcium) | **UKKA 2023 : plus de place pour la résine calcique en aigu** ; **UKKA 2026 : plus recommandée non plus en chronique** [S1] | Lent, imprévisible | Nécrose colique (avec sorbitol), constipation ; encore utilisées là où les nouveaux chélateurs sont indisponibles **[POSOLOGIE À VÉRIFIER — RCP]** |
+| | Diurétique de l'anse | Si volémie conservée et diurèse résiduelle | Heures | Inefficace en anurie |
+| | **Épuration extrarénale (hémodialyse)** | Hyperkaliémie sévère réfractaire, IRA oligo-anurique, MRC terminale, lyse cellulaire massive | Immédiat (le plus efficace) | Rebond post-dialyse possible (transferts) |
+| **4. Surveiller** | Kaliémie, glycémie, ECG/scope | Kaliémie à **1–2 h**, puis selon l'évolution (jusqu'à 24 h) ; glycémie horaire pendant ≥ 6 h après insuline-glucose **[séquence exacte : protocole local / UKKA]** | — | Rechercher et traiter la cause |
+
+### 13.3 Hyperkaliémie en arrêt cardiaque [S2, S3]
+- Réanimation cardio-pulmonaire selon l'algorithme standard, recherche des causes réversibles.
+- **Chlorure de calcium 10 %, 10 mL IV en bolus rapide**, **insuline rapide 10 UI + 25 g de glucose IV**, bicarbonate de sodium 50 mmol IV en cas d'acidose sévère ou d'insuffisance rénale, **épuration extrarénale** à envisager en cas d'arrêt hyperkaliémique réfractaire (y compris sous réanimation mécanique) — schéma de l'ERC 2021 [S2] ; **confronter à l'algorithme ERC 2025** [S3], non consulté en texte intégral dans cette session **[À VÉRIFIER]**.
+
+### 13.4 Hyperkaliémie chronique (MRC, insuffisance cardiaque, diabète) [S4, S10, S11]
+1. **Revoir les médicaments** : supprimer AINS, triméthoprime, suppléments, sels de régime ; préférer des alternatives.
+2. **Ne pas arrêter d'emblée les IEC/ARA2/antagonistes minéralocorticoïdes** : l'hyperkaliémie associée peut souvent être gérée par des mesures abaissant le potassium plutôt que par la réduction ou l'arrêt de ces traitements [S4, S11] ; surveillance de la kaliémie à l'initiation et après titration (finérénone : contrôle à 1 mois) [S10].
+3. **Diurétiques** kaliurétiques (anse, thiazidiques) si indication volémique ou tensionnelle.
+4. **Correction de l'acidose métabolique** de la MRC (bicarbonate de sodium oral).
+5. **Chélateurs du potassium** (SZC, patiromer) pour **permettre la poursuite** des bloqueurs du SRAA [S4, S6, S7] ; la mise à jour UKKA de juillet 2026 suit l'évaluation NICE (avril 2026) du SZC dans l'hyperkaliémie chronique [S1].
+6. **Conseils alimentaires individualisés** (diététicien) : éviter les restrictions excessives qui privent des bénéfices d'une alimentation riche en végétaux ; viser surtout les apports très riches (sels de régime à base de KCl, jus concentrés, fruits secs et dattes en grande quantité) [S4].
+7. **iSGLT2** : ils réduisent le risque d'hyperkaliémie chez les patients atteints de MRC ou d'insuffisance cardiaque traités par bloqueurs du SRAA **[À VÉRIFIER — données d'essais ; non tiré des sources consultées]**.
+
+### 13.5 Hypokaliémie — moyens et posologies [S5]
+| Gravité | Traitement (repères de la revue Kardalas 2018) | Commentaires |
+|---|---|---|
+| **Légère (3,0–3,4)** | KCl **oral** (≈ 72 mmol/j dans la revue), ou IV si voie orale impossible | Souvent asymptomatique ; kaliémie quotidienne et adaptation |
+| **Modérée (2,5–2,9)** | KCl **oral** (≈ 96 mmol/j dans la revue) ou IV si intolérance | Peu ou pas de symptômes |
+| **Sévère (< 2,5 ou symptomatique)** | **KCl IV : 40 mmol dans 1 L de NaCl 0,9 %** ; **débit standard 10 mmol/h, maximum 20 mmol/h** | **Scope ECG**, kaliémies répétées ; **magnésémie** ; si hypomagnésémie : **sulfate de magnésium 50 %, 4 mL (8 mmol) dilués dans 10 mL de NaCl 0,9 % en 20 min**, puis KCl et poursuite de la recharge magnésienne |
+Règles de sécurité [S5] :
+- **Jamais de KCl en bolus IV direct** (arrêt cardiaque) ; utiliser de préférence des **poches prémélangées** ; les ampoules concentrées doivent être diluées et stockées de façon sécurisée (pour mémoire : 1 g de KCl ≈ 13,4 mmol de K⁺ ; ampoule de 10 mL à 10 % ≈ 13,4 mmol ; à 15 % ≈ 20 mmol).
+- Préférer le **NaCl 0,9 %** comme soluté de dilution : le **glucose 5 %** stimule l'insuline et peut aggraver transitoirement l'hypokaliémie [S5].
+- Débits élevés et concentrations > 40 mmol/L : réservés à une **voie centrale** et à un environnement monitoré **[POSOLOGIE À VÉRIFIER — protocole local]**.
+- Estimation grossière du déficit : chaque baisse de 1 mmol/L de la kaliémie représente ≈ **200–400 mmol** de déficit (estimation imprécise) [S5].
+- **Insuffisance rénale** : supplémentation très prudente, avis néphrologique [S5].
+- **Voie orale** : prise pendant ou après le repas avec un grand verre d'eau (irritation digestive) ; sels de KCl (le chlorure corrige aussi l'alcalose) ; citrate ou bicarbonate de potassium en cas d'acidose (acidose tubulaire).
+
+### 13.6 Traitements étiologiques de l'hypokaliémie
+- **Diurétiques** : réduire la dose, associer un épargneur potassique (amiloride, spironolactone) si l'indication persiste.
+- **Hyperaldostéronisme primaire** : antagoniste minéralocorticoïde ou surrénalectomie unilatérale selon la latéralisation [S12].
+- **Gitelman** : supplémentation orale **en potassium et en magnésium** à vie, régime libéral en sel ; épargneurs potassiques ou autres traitements en milieu spécialisé [S8].
+- **Vomissements** : NaCl + KCl.
+- **Paralysie périodique thyrotoxique** : **doses modérées** de KCl (risque de rebond), bêtabloquant non sélectif, traitement de la thyrotoxicose **[POSOLOGIE À VÉRIFIER]**.
+- **Acidocétose** : protocole potassique du consensus 2024 (K < 3,5 : 10 mmol/h et insuline différée ; 3,5–5,0 : 20–30 mmol/L de soluté) [S9] — DOS-DIAB-0002.
+
+### 13.7 Particularités algériennes
+- **Disponibilité** des nouveaux chélateurs (SZC, patiromer), du gluconate et du chlorure de calcium, des poches de KCl prémélangées : **[À VÉRIFIER — nomenclature et pharmacies hospitalières]**. Là où seules les résines de polystyrène sont disponibles, leur usage en aigu doit rester un appoint (après protection myocardique et transfert) et ne jamais retarder l'épuration lorsque celle-ci est indiquée.
+- **Alimentation** : certains aliments très riches en potassium sont consommés en grande quantité lors de périodes festives ou du Ramadan (dattes, fruits secs, jus) — conseil diététique individualisé chez les patients en MRC sous bloqueurs du SRAA ; données de consommation locales **[À VÉRIFIER]**.
+
+---
+
+## 14. Surveillance
+
+| Situation | Surveillance |
+|---|---|
+| Hyperkaliémie sévère traitée | **Scope continu**, ECG répétés, kaliémie à 1–2 h puis selon le protocole (jusqu'à 24 h), **glycémie capillaire rapprochée ≥ 6 h** après insuline-glucose [S1] |
+| Hyperkaliémie chronique sous SRAA | Kaliémie et créatinine 1–2 semaines après initiation/titration d'un IEC/ARA2, **1 mois après la finérénone**, puis périodiquement ; magnésémie sous patiromer [S10] |
+| Hypokaliémie sévère sous KCl IV | Scope, kaliémie toutes les 2–6 h selon le débit, magnésémie, diurèse, site de perfusion (veinite) |
+| Hypokaliémie légère/modérée orale | Kaliémie à 24–72 h puis selon l'évolution |
+| Diurétiques au long cours | Kaliémie et magnésémie après initiation (7–14 jours) et lors des changements de dose [S10] |
+
+---
+
+## 15. Prévention
+
+- **Prescriptions** : éviter les associations hyperkaliémiantes (IEC/ARA2 + antagoniste minéralocorticoïde + AINS + triméthoprime) chez l'insuffisant rénal ou le sujet âgé ; adapter les doses ; contrôle biologique après chaque introduction ; **règles des « jours de maladie »** (suspension temporaire des IEC/ARA2, ARM, diurétiques en cas de déshydratation).
+- **Éducation** : sels de régime à base de KCl déconseillés en MRC ; vigilance sur l'automédication (AINS).
+- **Prévention de l'hypokaliémie** : surveillance sous diurétiques, corticoïdes, β2-agonistes à forte dose ; supplémentation ou épargneur adapté ; correction du magnésium.
+- **Prévention des erreurs** liées au KCl concentré : stockage sécurisé, double contrôle, poches prémélangées.
+- **Prévention de la renutrition inappropriée** : supplémentation phosphate-potassium-magnésium et progressivité de la renutrition chez le dénutri.
+
+---
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Hyperkaliémie aiguë de l'adulte (synthèse UKKA/ERC [S1, S2])
+```text
+K+ ≥ 5,5 mmol/L
+│
+├─ Fausse hyperkaliémie possible (hémolyse, thrombocytose…) et ECG normal ?
+│     → recontrôler rapidement (plasma hépariné) — sans retarder si ECG anormal / K ≥ 6,5
+│
+├─ ÉVALUER : ECG + scope, contexte (IRA, MRC, médicaments, acidose, lyse), glycémie
+│
+├─ ECG anormal → GLUCONATE DE CALCIUM 10 % 30 mL IV en 10 min (ou CaCl2 10 % 10 mL)
+│                 répéter si ECG toujours anormal (protocole local)
+│
+├─ K ≥ 6,0 (modérée) ou ≥ 6,5 (sévère) → INSULINE 10 UI + GLUCOSE 25 g IV en 15 min
+│     + glycémie rapprochée ≥ 6 h ; relais glucosé si glycémie initiale basse
+│     ± SALBUTAMOL 10–20 mg nébulisé si sévère
+│
+├─ ÉLIMINER : chélateur (SZC 10 g × 3/j), diurétique de l'anse si diurèse,
+│     ÉPURATION si réfractaire, IRA oligo-anurique, MRC terminale, lyse massive
+│
+├─ CAUSE : arrêter médicaments hyperkaliémiants, corriger hypovolémie/acidose,
+│     traiter l'IRA, l'acidocétose (insuline), l'insuffisance surrénale (hydrocortisone)
+│
+└─ SURVEILLER : K à 1–2 h puis selon protocole ; glycémie ; ECG
+```
+
+### 16.2 Démarche étiologique d'une hypokaliémie (d'après [S5])
+```text
+K+ < 3,5 mmol/L → ECG + magnésémie + gaz du sang + kaliurèse (24 h ou K/créat urinaire)
+│
+├─ Contexte de TRANSFERT ? (insuline, β2, alcalose aiguë, paralysie périodique → TSH)
+│
+├─ Kaliurèse BASSE (< 15 mmol/j ; K/créat < 13 mmol/g)
+│     ├─ Acidose → diarrhées, laxatifs, fistules
+│     └─ Sans acidose → carence d'apport, pertes digestives anciennes, diurétique arrêté
+│
+└─ Kaliurèse ÉLEVÉE (pertes rénales)
+      ├─ Acidose → acidocétose, acidose tubulaire 1 ou 2
+      └─ Alcalose
+           ├─ HTA → rénine/aldostérone :
+           │     rénine ↓ aldostérone ↑ → hyperaldostéronisme primaire
+           │     rénine ↑ aldostérone ↑ → hyperaldostéronisme secondaire (sténose artère rénale)
+           │     rénine ↓ aldostérone ↓ → réglisse, Liddle, Cushing, excès apparent en minéralocorticoïdes
+           └─ PA normale/basse → chlorurie :
+                 basse → vomissements
+                 élevée → diurétiques (en cours) ; Bartter (calciurie N/↑) ; Gitelman (calciurie ↓, Mg ↓)
+```
+
+### 16.3 Démarche étiologique d'une hyperkaliémie
+```text
+Hyperkaliémie confirmée (prélèvement non hémolysé)
+├─ DFG très bas (IRA, MRC G4–G5) → cause principale (± facteurs aggravants)
+├─ DFG peu altéré :
+│     ├─ Transfert : acidose, hyperglycémie, lyse (CPK, LDH, urate, phosphore), β-bloquants, digoxine
+│     ├─ Médicaments : IEC, ARA2, ARM, AINS, triméthoprime, héparine, anticalcineurines
+│     └─ Hypoaldostéronisme : rénine/aldostérone/cortisol
+│           rénine ↓ aldostérone ↓ → hyporéninisme (diabète, ATR type 4)
+│           rénine ↑ aldostérone ↓ → insuffisance surrénale primaire
+│           rénine ↑ aldostérone ↑ → résistance tubulaire (pseudo-hypoaldostéronisme, amiloride, triméthoprime)
+└─ Toujours : apports (sels de régime, suppléments), hypovolémie associée
+```

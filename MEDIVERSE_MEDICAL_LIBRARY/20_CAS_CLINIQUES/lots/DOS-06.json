@@ -1,0 +1,699 @@
+{
+  "agent": "DOS-06",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-NEUR-0001",
+      "titre": "Aphasie et hémiplégie droite brutales chez un homme de 66 ans",
+      "niveau": "residanat",
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme de 66 ans, retraité, droitier, 80 kg, vivant avec son épouse, autonome (mRS 0).",
+      "motif_consultation": "Installation brutale à 9 h 40, devant son épouse, d'un trouble de la parole et d'une faiblesse du côté droit. Appel immédiat des secours ; arrivée aux urgences d'un centre disposant d'une unité neurovasculaire à 10 h 35.",
+      "antecedents": "Hypertension artérielle traitée par amlodipine ; diabète de type 2 sous metformine ; tabagisme sevré depuis 10 ans. Palpitations épisodiques non explorées. Aucun anticoagulant ni antiagrégant.",
+      "symptomes": "Aphasie globale, impossibilité de lever le bras droit, chute à la marche ; pas de céphalée ni de vomissement ; pas de mouvement anormal.",
+      "examen_clinique": "Vigilant (GCS 13 : Y4 V3 M6 du fait de l'aphasie). PA 192/104 mmHg, FC 112/min irrégulière, SpO2 96 % en air ambiant, température 36,8 °C. Déviation conjuguée du regard vers la gauche, hémianopsie latérale homonyme droite, paralysie faciale centrale droite, hémiplégie droite à prédominance brachio-faciale, aphasie globale. NIHSS 17.",
+      "biologie": "Glycémie capillaire 1,32 g/L (7,3 mmol/L). Plaquettes 245 000/mm³ (150 000–400 000) ; INR 1,0 ; TCA ratio 1,05 ; créatininémie 9 mg/L (88 µmol/L) ; troponine dans les normes. Ces résultats (hors glycémie) sont rendus après le début du traitement.",
+      "imagerie": "Scanner sans injection à 10 h 44 : pas d'hémorragie, perte de différenciation du ruban insulaire gauche, ASPECTS 8, artère sylvienne gauche hyperdense. Angioscanner : occlusion du segment M1 de l'artère cérébrale moyenne gauche, collatéralité correcte. ECG : fibrillation atriale à 110/min.",
+      "hypotheses_diagnostiques": [
+        "Infarctus cérébral sylvien gauche par occlusion M1",
+        "Mécanisme cardio-embolique sur fibrillation atriale méconnue"
+      ],
+      "diagnostics_differentiels": [
+        "Hémorragie intracérébrale (éliminée par le scanner)",
+        "Hypoglycémie (éliminée par la glycémie capillaire)",
+        "Crise d'épilepsie avec déficit post-critique (pas d'argument)"
+      ],
+      "examens_a_demander": [
+        "Scanner sans injection et angioscanner en urgence",
+        "Glycémie capillaire",
+        "ECG",
+        "Bilan d'hémostase, NFS, ionogramme, troponine (sans retarder)",
+        "Scanner de contrôle à 24 h",
+        "Échocardiographie transthoracique",
+        "Monitorage ECG continu"
+      ],
+      "diagnostic_final": "Infarctus cérébral sylvien gauche par occlusion du segment M1, d'origine cardio-embolique sur fibrillation atriale non connue.",
+      "traitement": "Abaissement de la PA sous 185/110 mmHg par un antihypertenseur IV titrable (urapidil ou nicardipine selon protocole). Thrombolyse par ténectéplase 0,25 mg/kg soit 20 mg en bolus unique à 10 h 58 (délai porte-aiguille 23 min). Transfert immédiat vers la neuroradiologie interventionnelle : thrombectomie avec recanalisation complète à 12 h 05. Admission en unité neurovasculaire : PA < 180/105 mmHg pendant 24 h, à jeun jusqu'au test de déglutition, glycémie et température surveillées, compression pneumatique intermittente. Scanner à 24 h : infarctus limité, pas d'hémorragie. Anticoagulant oral direct introduit précocement (délai modulé par la taille de l'infarctus), statine de haute intensité, rééducation.",
+      "surveillance": "NIHSS et PA toutes les 15 minutes pendant 2 h, toutes les 30 minutes pendant 6 h puis toutes les heures jusqu'à 24 h ; arrêt et scanner devant toute aggravation ; monitorage ECG ; glycémie, température, déglutition ; point de ponction fémorale.",
+      "evolution": "NIHSS 6 à 24 h, 3 à la sortie ; aphasie résiduelle légère. mRS 2 à 3 mois sous anticoagulant oral direct.",
+      "explication_pedagogique": "Ce cas illustre la chaîne de survie de l'AVC : reconnaissance par l'entourage, appel des secours, orientation directe vers un centre capable de thrombolyser, imagerie immédiate, thrombolyse rapide puis thrombectomie sans attendre. Seule la glycémie capillaire était indispensable avant la thrombolyse. La fibrillation atriale découverte oriente vers une anticoagulation précoce, préférée aux antiplaquettaires en prévention secondaire. Le ténectéplase en bolus simplifie le transfert.",
+      "questions": [
+        {
+          "question": "Quels éléments rendent ce patient éligible à la thrombolyse ?",
+          "reponse": "Infarctus avec déficit invalidant, délai inférieur à 4,5 heures, absence d'hémorragie, pas d'anticoagulant, glycémie normale, PA ramenée sous 185/110 mmHg."
+        },
+        {
+          "question": "Pourquoi ne pas attendre l'effet de la thrombolyse avant la thrombectomie ?",
+          "reponse": "La recanalisation par la seule thrombolyse est peu fréquente dans les occlusions M1 ; tout délai réduit le bénéfice de la thrombectomie. Les deux traitements sont complémentaires."
+        },
+        {
+          "question": "Quel traitement antithrombotique en prévention secondaire ?",
+          "reponse": "Un anticoagulant oral direct pour la fibrillation atriale, introduit précocement après contrôle de l'imagerie, plutôt qu'un antiplaquettaire."
+        },
+        {
+          "question": "Quel est l'objectif tensionnel après la thrombectomie réussie ?",
+          "reponse": "Maintenir la PA sous 180/105 mmHg (thrombolyse) sans viser une PAS inférieure à 140 mmHg, cible basse non recommandée par l'AHA/ASA 2026."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "AHA/ASA 2026 acute ischemic stroke guideline (Prabhakaran et al.)",
+          "date": "2026"
+        },
+        {
+          "reference": "ESO tenecteplase recommendation (Alamowitch et al.)",
+          "date": "2023"
+        },
+        {
+          "reference": "ESO-ESMINT IVT before MT recommendation",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEUR-0002",
+      "titre": "Hémiparésie gauche et céphalées sous antivitamine K chez une femme de 74 ans",
+      "niveau": "residanat",
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme de 74 ans, 62 kg, porteuse d'une prothèse valvulaire mitrale mécanique pour une valvulopathie rhumatismale opérée à 45 ans.",
+      "motif_consultation": "Céphalée brutale suivie en 30 minutes d'une faiblesse du côté gauche et de deux vomissements.",
+      "antecedents": "Cardiopathie rhumatismale, remplacement valvulaire mitral mécanique, fibrillation atriale permanente ; traitement par acénocoumarol (INR cible selon prothèse) ; hypertension artérielle mal contrôlée.",
+      "symptomes": "Céphalées intenses, vomissements, faiblesse de l'hémicorps gauche, somnolence progressive.",
+      "examen_clinique": "GCS 13 (Y3 V4 M6), PA 210/115 mmHg, FC 88/min irrégulière, clic de prothèse audible. Hémiparésie gauche proportionnelle, déviation du regard vers la droite, héminégligence gauche. NIHSS 12.",
+      "biologie": "INR 3,8 (cible thérapeutique selon la prothèse) ; plaquettes 210 000/mm³ ; hémoglobine 12,8 g/dL ; créatininémie 10 mg/L ; glycémie 1,18 g/L.",
+      "imagerie": "Scanner sans injection : hématome putaminal droit de 25 mL (méthode ABC/2), sans inondation ventriculaire ni hydrocéphalie, effet de masse modéré.",
+      "hypotheses_diagnostiques": [
+        "Hémorragie intracérébrale profonde hypertensive aggravée par le traitement anticoagulant"
+      ],
+      "diagnostics_differentiels": [
+        "Infarctus avec transformation hémorragique",
+        "Malformation vasculaire sous-jacente",
+        "Tumeur hémorragique"
+      ],
+      "examens_a_demander": [
+        "Angioscanner (spot sign, malformation)",
+        "Bilan d'hémostase répété après antagonisation",
+        "Scanner de contrôle à 6–24 h ou en cas d'aggravation",
+        "ECG, échocardiographie (fonction de prothèse)"
+      ],
+      "diagnostic_final": "Hémorragie intracérébrale putaminale droite sous AVK chez une patiente porteuse d'une prothèse mitrale mécanique ; score ICH 0.",
+      "traitement": "Antagonisation immédiate : concentré de complexe prothrombinique (dose selon poids et INR, protocole local) + vitamine K 10 mg IV ; contrôle de l'INR après administration. Abaissement précoce de la PAS vers 140 mmHg (zone 130–150) par antihypertenseur IV titrable. Hospitalisation en unité neurovasculaire ou soins intensifs ; tête à 30° ; pas de prophylaxie antiépileptique ; compression pneumatique intermittente. Avis neurochirurgical (hématome supratentoriel sans indication chirurgicale d'emblée). Concertation cardio-neurologique sur le moment de reprise de l'anticoagulation (prothèse mécanique mitrale à haut risque thrombotique) [À VÉRIFIER — délai selon recommandations et avis spécialisé].",
+      "surveillance": "GCS et pupilles horaires, PA continue, INR, natrémie, glycémie, température ; scanner en cas d'aggravation (expansion, hydrocéphalie).",
+      "evolution": "Hématome stable au scanner de contrôle ; reprise de l'anticoagulation décidée en concertation ; hémiparésie en régression lente sous rééducation.",
+      "explication_pedagogique": "L'HIC sous anticoagulant est une urgence hémostatique : l'antagonisation doit être immédiate, car l'expansion de l'hématome survient dans les premières heures. Le CCP associé à la vitamine K est préféré au plasma. La baisse tensionnelle précoce vers 140 mmHg limite l'expansion. Le score ICH (ici 0) aide à estimer le pronostic mais ne doit pas conduire à une limitation thérapeutique précoce. La reprise de l'anticoagulation chez un porteur de valve mécanique est un arbitrage délicat entre risque thrombotique et risque de récidive hémorragique.",
+      "questions": [
+        {
+          "question": "Calculez le score ICH de cette patiente.",
+          "reponse": "GCS 13 : 0 ; volume 25 mL (< 30) : 0 ; pas d'inondation ventriculaire : 0 ; supratentoriel : 0 ; âge 74 ans (< 80) : 0. Score ICH = 0."
+        },
+        {
+          "question": "Quelle antagonisation proposer ?",
+          "reponse": "Concentré de complexe prothrombinique adapté au poids et à l'INR, associé à la vitamine K IV ; contrôle de l'INR."
+        },
+        {
+          "question": "Quel objectif tensionnel ?",
+          "reponse": "PAS proche de 140 mmHg, dans une zone d'environ 130–150 mmHg, atteinte précocement et sans baisse brutale."
+        },
+        {
+          "question": "Faut-il prescrire un antiépileptique préventif ?",
+          "reponse": "Non, la prophylaxie systématique n'est pas recommandée ; on traite les crises si elles surviennent."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "AHA/ASA 2022 spontaneous ICH guideline (Greenberg et al., Stroke 2022;53:e282-e361)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT_REA-0001",
+      "titre": "Fièvre, douleur lombaire et marbrures chez une diabétique de 67 ans",
+      "niveau": "residanat",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme de 67 ans, 70 kg, diabétique de type 2, retraitée.",
+      "motif_consultation": "Fièvre à 39,6 °C avec frissons depuis 24 h, douleur lombaire droite, puis confusion et malaise ; amenée aux urgences par sa famille.",
+      "antecedents": "Diabète de type 2 sous metformine et insuline basale ; lithiase urinaire droite connue ; hypertension sous périndopril. Pas d'hospitalisation ni d'antibiothérapie dans les 3 derniers mois.",
+      "symptomes": "Fièvre, frissons, douleur lombaire droite, vomissements, confusion depuis quelques heures, urines rares.",
+      "examen_clinique": "PA 78/42 mmHg (PAM 54 mmHg), FC 128/min, FR 28/min, SpO2 94 % en air, température 39,4 °C. Confusion (GCS 14). Marbrures dépassant les genoux, temps de recoloration capillaire 5 s, extrémités froides. Fosse lombaire droite très douloureuse. Pas de purpura. Échographie au lit : VG hyperkinétique, VCI fine et collabable, poumons sans lignes B.",
+      "biologie": "Lactate 5,2 mmol/L (< 2) ; leucocytes 21 000/mm³ ; plaquettes 92 000/mm³ ; créatinine 24 mg/L (212 µmol/L) ; glycémie 3,1 g/L ; CRP 310 mg/L ; bilirubine 18 mg/L ; bandelette urinaire : leucocytes +++, nitrites +.",
+      "imagerie": "Échographie rénale au lit puis scanner sans injection : dilatation pyélocalicielle droite en amont d'un calcul urétéral de 9 mm.",
+      "hypotheses_diagnostiques": [
+        "Choc septique compliquant une pyélonéphrite aiguë obstructive droite"
+      ],
+      "diagnostics_differentiels": [
+        "Choc cardiogénique (éliminé par l'échographie)",
+        "Acidocétose ou syndrome hyperosmolaire associé (à rechercher)",
+        "Acidose lactique liée à la metformine (contributive possible)"
+      ],
+      "examens_a_demander": [
+        "Hémocultures (2 paires) et ECBU avant antibiotiques",
+        "Lactate re-dosé à 2–4 h",
+        "Gaz du sang, ionogramme, cétonémie",
+        "Imagerie urinaire en urgence (échographie, scanner)",
+        "Bilan d'hémostase"
+      ],
+      "diagnostic_final": "Choc septique (noradrénaline nécessaire, lactate > 2 mmol/L) sur pyélonéphrite aiguë obstructive droite par calcul urétéral.",
+      "traitement": "Oxygène, deux voies veineuses, hémocultures puis antibiothérapie IV dans l'heure associant une céphalosporine de 3e génération et un aminoside selon les protocoles locaux et l'écologie (élargissement si facteurs de risque de bactérie multirésistante). Cristalloïdes équilibrés par bolus de 500 mL réévalués : 2 100 mL (30 mL/kg) dans les 3 premières heures. Noradrénaline débutée sur voie périphérique dès la 30e minute (PAM 56 mmHg malgré le premier litre), relayée par un cathéter central ; cible PAM 65 mmHg. Drainage urinaire en urgence (sonde endo-urétérale ou néphrostomie) pour contrôle de la source. Arrêt de la metformine et du périndopril ; insuline IV. Noradrénaline montée à 0,28 µg/kg/min à H5 : hydrocortisone 200 mg/j. Désescalade selon l'antibiogramme.",
+      "surveillance": "PA invasive, diurèse horaire, temps de recoloration, marbrures, lactate toutes les 2–4 h, glycémie horaire, créatinine, SOFA quotidien, tolérance du remplissage (échographie, oxygénation).",
+      "evolution": "Lactate 2,4 mmol/L à H6 puis normalisé à H18 ; sevrage de la noradrénaline à J3 ; récupération rénale progressive. Escherichia coli sensible aux C3G ; relais oral et traitement total de 7 à 10 jours après drainage [durée selon protocole local].",
+      "explication_pedagogique": "Ce cas réunit les éléments de la première heure du choc septique : reconnaissance (hypotension, marbrures, lactate), hémocultures sans retard, antibiothérapie dans l'heure, remplissage par cristalloïdes équilibrés, noradrénaline précoce (y compris sur voie périphérique) et surtout contrôle de la source : un obstacle urinaire infecté doit être drainé en urgence, aucun antibiotique ne le remplace. L'hydrocortisone est suggérée lorsque les besoins en noradrénaline dépassent 0,25 µg/kg/min depuis au moins 4 heures.",
+      "questions": [
+        {
+          "question": "Sur quels critères retenez-vous un choc septique ?",
+          "reponse": "Infection avec dysfonctions d'organes, nécessité de noradrénaline pour une PAM ≥ 65 mmHg et lactate > 2 mmol/L malgré un remplissage adéquat (Sepsis-3)."
+        },
+        {
+          "question": "Quel est le geste étiologique prioritaire en dehors des antibiotiques ?",
+          "reponse": "Le drainage en urgence des urines infectées en amont de l'obstacle (contrôle de la source)."
+        },
+        {
+          "question": "Pourquoi débuter la noradrénaline avant la fin du remplissage ?",
+          "reponse": "Une PAM très basse prolongée aggrave l'hypoperfusion ; la noradrénaline peut être débutée tôt, sur voie périphérique, pendant que le remplissage se poursuit et en attendant la voie centrale."
+        },
+        {
+          "question": "Quand introduire l'hydrocortisone ?",
+          "reponse": "Quand la noradrénaline atteint au moins 0,25 µg/kg/min depuis au moins 4 heures (SSC 2021 ; certitude jugée faible en 2026)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Surviving Sepsis Campaign 2021 (Evans et al.)",
+          "date": "2021"
+        },
+        {
+          "reference": "Surviving Sepsis Campaign 2026",
+          "date": "2026"
+        },
+        {
+          "reference": "Sepsis-3 (Singer et al., JAMA 2016)",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT_REA-0002",
+      "titre": "Malaise brutal pendant une perfusion d'antibiotique aux urgences",
+      "niveau": "residanat",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme de 52 ans, 85 kg, enseignant.",
+      "motif_consultation": "Hospitalisé aux urgences pour une pneumonie ; cinq minutes après le début d'une perfusion d'amoxicilline-acide clavulanique, il signale un prurit, une gêne respiratoire puis un malaise.",
+      "antecedents": "Hypertension artérielle traitée par bisoprolol ; asthme dans l'enfance ; aucune allergie connue ; éruption cutanée « sous antibiotique » dans l'enfance non explorée.",
+      "symptomes": "Prurit généralisé, urticaire, sensation de gorge serrée, dyspnée sifflante, nausées, sensation de malaise intense.",
+      "examen_clinique": "PA 68/35 mmHg, FC 84/min (sous bêtabloquant), FR 30/min, SpO2 88 %. Urticaire généralisée, œdème des lèvres, sibilants diffus, voix normale. Conscient mais angoissé.",
+      "biologie": "Tryptase prélevée à 30 minutes : 38 µg/L ; à 2 h : 24 µg/L ; valeur de base à 48 h : 4,5 µg/L.",
+      "imagerie": "Aucun examen ne doit retarder le traitement. ECG : rythme sinusal, pas de trouble de repolarisation.",
+      "hypotheses_diagnostiques": [
+        "Choc anaphylactique (grade III) à l'amoxicilline-acide clavulanique chez un patient sous bêtabloquant"
+      ],
+      "diagnostics_differentiels": [
+        "Aggravation septique de la pneumonie (cinétique incompatible)",
+        "Malaise vagal (pas d'urticaire, bradycardie, récupération rapide)",
+        "Angio-œdème bradykinique (pas d'urticaire)"
+      ],
+      "examens_a_demander": [
+        "Tryptase sérique (dès que possible, à 1–2 h, et valeur de base ≥ 24 h)",
+        "Monitorage continu",
+        "Bilan allergologique à distance (4–6 semaines)"
+      ],
+      "diagnostic_final": "Choc anaphylactique à une bêtalactamine, rendu partiellement réfractaire par le traitement bêtabloquant.",
+      "traitement": "Arrêt immédiat de la perfusion, appel à l'aide. Adrénaline IM 0,5 mg à la face antérolatérale de la cuisse, décubitus jambes surélevées, oxygène à haut débit, remplissage par 1 000 mL de cristalloïde en débit libre. À 5 minutes : PA 74/40 mmHg, seconde injection IM de 0,5 mg. Toujours hypotendu : perfusion IV continue d'adrénaline titrée par l'équipe de réanimation sous monitorage, et glucagon IV en raison du bêtabloquant [POSOLOGIE À VÉRIFIER — protocole local]. Salbutamol nébulisé pour le bronchospasme. Antihistaminique H1 pour l'urticaire une fois l'état hémodynamique stabilisé ; pas de corticoïde en première ligne. Remplacement de l'antibiotique par une molécule d'une autre classe selon le protocole local.",
+      "surveillance": "Monitorage continu en unité de surveillance pendant au moins 24 h (forme sévère, plusieurs doses d'adrénaline) : PA, FC, SpO2, signes respiratoires, récidive biphasique.",
+      "evolution": "Sevrage de l'adrénaline en 4 heures, pas de réaction biphasique. Allergie inscrite dans le dossier, carte remise ; consultation d'allergologie programmée pour explorer l'allergie aux bêtalactamines ; réévaluation du bêtabloquant avec le médecin traitant.",
+      "explication_pedagogique": "L'anaphylaxie est un diagnostic clinique ; l'adrénaline IM est le traitement de première ligne et doit être répétée sans hésiter. Le bêtabloquant atténue la tachycardie (piège diagnostique) et l'efficacité de l'adrénaline : le glucagon est alors une option. La cinétique de la tryptase (pic puis retour à la valeur de base) confirme a posteriori le mécanisme mastocytaire. Antihistaminiques et corticoïdes ne sont jamais prioritaires.",
+      "questions": [
+        {
+          "question": "Pourquoi la fréquence cardiaque n'est-elle que de 84/min malgré le choc ?",
+          "reponse": "Le traitement par bêtabloquant limite la tachycardie réflexe ; c'est un piège diagnostique et un facteur de gravité."
+        },
+        {
+          "question": "Quel est le traitement de première ligne et sa posologie ?",
+          "reponse": "Adrénaline IM 0,01 mg/kg (maximum 0,5 mg chez l'adulte), à la cuisse, renouvelable après 5 minutes."
+        },
+        {
+          "question": "Que faire si l'hypotension persiste après deux injections IM ?",
+          "reponse": "Perfusion IV d'adrénaline titrée par une équipe entraînée sous monitorage, remplissage, glucagon chez le patient sous bêtabloquant, vasopresseur additionnel si nécessaire."
+        },
+        {
+          "question": "Comment interpréter les tryptases ?",
+          "reponse": "Élévation nette à 30 minutes et 2 heures avec retour à une valeur de base basse à 48 heures : argument fort pour une dégranulation mastocytaire (anaphylaxie)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "EAACI anaphylaxis guideline 2021 (Muraro et al.)",
+          "date": "2021"
+        },
+        {
+          "reference": "WAO Anaphylaxis Guidance 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "Resuscitation Council UK 2021 — non vérifiée",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT_REA-0003",
+      "titre": "Une famille retrouvée somnolente un matin d'hiver",
+      "niveau": "residanat",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme de 38 ans (la mère), 60 kg, et ses deux enfants de 6 et 9 ans, vivant dans un appartement chauffé par un poêle à gaz et équipé d'un chauffe-eau à gaz dans la salle de bain.",
+      "motif_consultation": "Le père, rentré d'un poste de nuit à 7 h, trouve son épouse inconsciente et les enfants somnolents et vomissants ; appel à la Protection civile.",
+      "antecedents": "Aucun antécédent notable chez la mère ; pas de traitement. Les enfants se plaignaient de céphalées depuis plusieurs soirs.",
+      "symptomes": "Mère : coma. Enfants : céphalées, nausées, vomissements, somnolence. Le père, qui a passé la nuit dehors, est asymptomatique.",
+      "examen_clinique": "Mère : GCS 7 (Y1 V2 M4), pupilles intermédiaires réactives, pas de signe de localisation, hypertonie diffuse, PA 105/60 mmHg, FC 118/min, FR 26/min, SpO2 affichée 98 % sous oxygène au masque, température 36,9 °C. Enfants : GCS 14 et 15, examen neurologique normal.",
+      "biologie": "Mère, gaz du sang avec CO-oxymétrie à l'arrivée après 40 minutes d'oxygène : HbCO 24 % (< 3 % chez le non-fumeur), pH 7,29, lactate 4,8 mmol/L, PaO2 410 mmHg sous oxygène ; troponine 0,09 ng/mL (< 0,04) ; CPK 1 250 UI/L ; glycémie 1,25 g/L. Enfants : HbCO 12 % et 14 %.",
+      "imagerie": "ECG de la mère : tachycardie sinusale, sous-décalage diffus du ST. Scanner cérébral : normal.",
+      "hypotheses_diagnostiques": [
+        "Intoxication collective au monoxyde de carbone par appareil de chauffage ou chauffe-eau défectueux"
+      ],
+      "diagnostics_differentiels": [
+        "Intoxication médicamenteuse",
+        "Autre gaz (fumées d'incendie avec cyanures — pas d'incendie)",
+        "Méningo-encéphalite (pas de fièvre, victimes multiples)"
+      ],
+      "examens_a_demander": [
+        "CO-oxymétrie (HbCO) pour toutes les victimes",
+        "Gaz du sang, lactate",
+        "ECG, troponine",
+        "CPK, créatinine",
+        "β-hCG chez toute femme en âge de procréer",
+        "Scanner cérébral chez la patiente comateuse"
+      ],
+      "diagnostic_final": "Intoxication oxycarbonée collective ; forme grave chez la mère (coma, acidose lactique, atteinte myocardique) ; formes modérées chez les enfants.",
+      "traitement": "Soustraction immédiate de l'atmosphère toxique par les secours, oxygène à haut débit au masque à haute concentration pour toutes les victimes. Mère : intubation pour coma avec FiO2 1, puis discussion avec un centre d'oxygénothérapie hyperbare en raison du coma et de l'atteinte myocardique (indications et disponibilité selon le protocole régional). Enfants : oxygène normobare au masque à haute concentration pendant plusieurs heures, surveillance. Signalement aux autorités et recherche de la source (poêle, chauffe-eau, ventilation obstruée) avant tout retour au domicile ; information de la famille sur les mesures de prévention.",
+      "surveillance": "État neurologique, ECG et troponine, lactate, CPK et fonction rénale ; consultation à distance pour dépister un syndrome post-intervallaire (troubles cognitifs, mnésiques ou du comportement survenant après un intervalle libre de quelques jours à semaines).",
+      "evolution": "Réveil de la mère en 24 h, extubation à J2, normalisation de la troponine. Enfants sortis après 12 h d'observation. Consultation neurologique à 1 mois : pas de syndrome post-intervallaire.",
+      "explication_pedagogique": "L'intoxication au CO est une cause majeure de coma en Algérie l'hiver. Les indices sont contextuels : saison froide, appareil à combustion, victimes multiples, céphalées des jours précédents, asymptomatique hors du domicile. La SpO2 du saturomètre standard est faussement rassurante : seule la CO-oxymétrie mesure la carboxyhémoglobine, dont le taux dépend du délai et de l'oxygène reçu. L'oxygène est le traitement immédiat ; l'oxygénothérapie hyperbare se discute dans les formes graves (coma, signes neurologiques, atteinte cardiaque, grossesse). La prévention de la récidive (source, ventilation) fait partie du traitement.",
+      "questions": [
+        {
+          "question": "Quels éléments du contexte orientent vers le CO ?",
+          "reponse": "Saison froide, poêle et chauffe-eau à gaz, plusieurs victimes du même foyer, céphalées vespérales répétées, père asymptomatique car absent la nuit."
+        },
+        {
+          "question": "Pourquoi la SpO2 à 98 % est-elle trompeuse ?",
+          "reponse": "Le saturomètre standard ne distingue pas la carboxyhémoglobine de l'oxyhémoglobine ; la CO-oxymétrie est indispensable."
+        },
+        {
+          "question": "Quel est le traitement de première intention ?",
+          "reponse": "Oxygène à haut débit au masque à haute concentration (FiO2 1 si intubé), immédiatement ; discussion d'oxygénothérapie hyperbare dans les formes graves."
+        },
+        {
+          "question": "Quelle complication différée faut-il dépister ?",
+          "reponse": "Le syndrome post-intervallaire (troubles neuropsychologiques retardés), par un suivi neurologique à distance."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Protection civile (Algérie) — bilans CO relayés par Radio Algérie",
+          "date": "2023"
+        },
+        {
+          "reference": "Edlow JA et al. Lancet 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT_REA-0004",
+      "titre": "Coma hypoglycémique chez un homme alcoolo-dépendant de 47 ans",
+      "niveau": "residanat",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme de 47 ans, 55 kg, sans domicile stable, alcoolo-dépendant.",
+      "motif_consultation": "Retrouvé inconscient sur la voie publique par la Protection civile, au petit matin, en hiver.",
+      "antecedents": "Alcoolo-dépendance ancienne, dénutrition, crises convulsives de sevrage rapportées ; pas de diabète connu.",
+      "symptomes": "Coma de profondeur variable ; pas de témoin.",
+      "examen_clinique": "GCS 7 (Y1 V2 M4), pupilles symétriques et réactives, pas de signe de localisation, pas de raideur de nuque, hématome frontal superficiel. Température 34,8 °C, PA 100/60 mmHg, FC 104/min, FR 14/min, SpO2 95 %. Haleine œnolique.",
+      "biologie": "Glycémie capillaire 0,30 g/L (1,7 mmol/L). Alcoolémie 1,9 g/L. Natrémie 131 mmol/L ; kaliémie 3,1 mmol/L ; phosphorémie basse ; lactate 3,5 mmol/L ; CPK 2 900 UI/L ; ASAT 140 UI/L, ALAT 60 UI/L ; TP 72 %.",
+      "imagerie": "Scanner cérébral (après correction de la glycémie, en raison de l'hématome frontal et du terrain) : pas d'hématome intracrânien, atrophie cortico-sous-corticale.",
+      "hypotheses_diagnostiques": [
+        "Coma hypoglycémique chez un alcoolique dénutri (inhibition de la néoglucogenèse par l'alcool, stocks de glycogène épuisés)",
+        "Intoxication alcoolique aiguë associée",
+        "Hypothermie accidentelle"
+      ],
+      "diagnostics_differentiels": [
+        "Hématome sous-dural traumatique",
+        "Coma post-critique (crise de sevrage)",
+        "Encéphalopathie de Gayet-Wernicke",
+        "Encéphalopathie hépatique"
+      ],
+      "examens_a_demander": [
+        "Glycémie capillaire immédiate puis répétée",
+        "Scanner cérébral (traumatisme, terrain)",
+        "Ionogramme, phosphorémie, magnésémie",
+        "Bilan hépatique, TP, ammoniémie",
+        "CPK, créatinine",
+        "EEG si réveil incomplet"
+      ],
+      "diagnostic_final": "Coma hypoglycémique d'origine alcoolique avec hypothermie modérée et rhabdomyolyse, compliqué d'une encéphalopathie de Gayet-Wernicke démasquée au réveil.",
+      "traitement": "Liberté des voies aériennes, oxygène, position latérale de sécurité (rachis protégé jusqu'à l'imagerie en raison de l'hématome frontal). Thiamine IV à forte dose administrée avant le glucose, puis glucosé à 30 % IV et perfusion de glucosé à 10 % ; réchauffement externe ; correction de la kaliémie, de la phosphorémie et de la magnésémie ; hydratation pour la rhabdomyolyse. Réveil partiel en 20 minutes (GCS 13) puis persistance d'une confusion avec nystagmus, paralysie bilatérale de l'abduction et ataxie : poursuite de la thiamine IV à forte dose pluriquotidienne [POSOLOGIE À VÉRIFIER — protocole local]. Prévention du syndrome de sevrage par benzodiazépine selon un score clinique.",
+      "surveillance": "Glycémie horaire au début, température, état neurologique, ionogramme, phosphorémie (syndrome de renutrition inappropriée), CPK et créatinine, signes de sevrage.",
+      "evolution": "Normalisation de l'oculomotricité en quelques jours ; troubles mnésiques persistants imposant un suivi ; orientation vers une prise en charge addictologique et sociale.",
+      "explication_pedagogique": "Chez tout comateux, la glycémie capillaire est le premier examen. L'alcool inhibe la néoglucogenèse et le jeûne épuise le glycogène : l'hypoglycémie est fréquente et le glucagon inefficace. La thiamine doit précéder ou accompagner le glucose chez un patient à risque, car l'apport de glucose consomme la thiamine résiduelle et peut précipiter une encéphalopathie de Gayet-Wernicke, dont la triade (confusion, ophtalmoplégie, ataxie) est souvent incomplète. Le terrain impose aussi d'éliminer un hématome sous-dural.",
+      "questions": [
+        {
+          "question": "Pourquoi le glucagon n'est-il pas adapté ici ?",
+          "reponse": "Il agit en mobilisant le glycogène hépatique, épuisé chez l'alcoolique dénutri à jeun ; la néoglucogenèse est en outre inhibée par l'alcool."
+        },
+        {
+          "question": "Dans quel ordre administrer thiamine et glucose ?",
+          "reponse": "Thiamine avant ou en même temps que le glucose, sans jamais retarder la correction d'une hypoglycémie grave."
+        },
+        {
+          "question": "Quels signes au réveil évoquent une encéphalopathie de Gayet-Wernicke ?",
+          "reponse": "Confusion, troubles oculomoteurs (nystagmus, paralysie de l'abduction), ataxie — triade souvent incomplète."
+        },
+        {
+          "question": "Pourquoi réaliser un scanner cérébral malgré la cause métabolique évidente ?",
+          "reponse": "Terrain alcoolique, traumatisme crânien (hématome frontal) et risque d'hématome sous-dural ; une cause peut en cacher une autre."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Edlow JA et al. Lancet 2014",
+          "date": "2014"
+        },
+        {
+          "reference": "EFNS Wernicke encephalopathy guidelines 2010 — non vérifiée",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-URGE-0001",
+      "titre": "Intoxication volontaire au paracétamol vue à la 10e heure",
+      "niveau": "residanat",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : étudiante de 19 ans, 55 kg.",
+      "motif_consultation": "Amenée par sa sœur pour nausées et vomissements ; elle avoue avoir avalé la veille au soir, vers 22 h, « une trentaine » de comprimés de paracétamol à 500 mg et quelques comprimés de bromazépam après une dispute familiale. Arrivée aux urgences à 8 h.",
+      "antecedents": "Aucun antécédent somatique ; pas de consommation d'alcool ; pas de traitement au long cours ; un épisode dépressif non suivi.",
+      "symptomes": "Nausées, deux vomissements, douleur épigastrique modérée ; somnolence légère.",
+      "examen_clinique": "Consciente (GCS 15), légèrement ralentie. PA 112/70 mmHg, FC 96/min, FR 16/min, SpO2 99 %, température 37 °C. Abdomen souple, sensibilité de l'hypochondre droit. Pas d'ictère, pas d'astérixis.",
+      "biologie": "À 10 h de l'ingestion : paracétamolémie 85 mg/L ; ALAT 140 UI/L (< 40) ; ASAT 120 UI/L ; TP 82 % ; INR 1,1 ; créatinine 7 mg/L ; glycémie 0,92 g/L ; pH 7,40 ; lactate 1,4 mmol/L ; alcoolémie nulle. ECG normal.",
+      "imagerie": "Aucune imagerie nécessaire.",
+      "hypotheses_diagnostiques": [
+        "Intoxication volontaire au paracétamol à dose potentiellement toxique (environ 15 g, soit environ 270 mg/kg), vue tardivement, avec début de cytolyse"
+      ],
+      "diagnostics_differentiels": [
+        "Hépatite virale aiguë (contexte peu évocateur)",
+        "Co-ingestion d'autres toxiques (benzodiazépines déclarées)"
+      ],
+      "examens_a_demander": [
+        "Paracétamolémie immédiate (patiente vue après la 4e heure)",
+        "Transaminases, TP/INR, créatinine, glycémie, gaz du sang, lactate",
+        "β-hCG",
+        "ECG",
+        "Contrôle biologique à la fin du protocole de NAC"
+      ],
+      "diagnostic_final": "Intoxication volontaire au paracétamol à risque d'hépatotoxicité (paracétamolémie au-dessus de la droite de traitement), associée à une prise de bromazépam.",
+      "traitement": "N-acétylcystéine IV débutée immédiatement à l'arrivée, sans attendre le résultat (délai > 8 h) : schéma en deux poches, 200 mg/kg sur 4 h puis 100 mg/kg sur 16 h, ou schéma local en trois poches. Pas de charbon activé (délai dépassé). Antiémétique, hydratation. Pas de flumazénil (somnolence légère, ventilation efficace). Surveillance en unité d'hospitalisation de courte durée. À la fin du protocole : ALAT 980 UI/L, INR 1,4 → poursuite de la NAC jusqu'à l'amélioration biologique, avec avis d'un centre hépatologique. Évaluation psychiatrique dès que l'état le permet ; information de la famille.",
+      "surveillance": "Transaminases, TP/INR, créatinine, glycémie, lactate et pH toutes les 12 h ; vigilance (encéphalopathie) ; critères de transfert vers un centre de transplantation (acidose, INR très élevé, insuffisance rénale, encéphalopathie).",
+      "evolution": "Pic d'ALAT à 2 800 UI/L à 48 h, INR maximal 1,8, sans encéphalopathie ; normalisation progressive. Sortie à J5 avec un suivi psychiatrique organisé.",
+      "explication_pedagogique": "Le paracétamol est un toxique lésionnel : la phase initiale est pauvre et faussement rassurante. Le pronostic dépend du délai d'administration de la NAC, idéalement avant la 8e heure ; au-delà, on la débute sans attendre la paracétamolémie. Ici, la droite de traitement (150 mg/L à 4 h, demi-vie de 4 h) correspond à environ 53 mg/L à 10 h : la valeur de 85 mg/L est au-dessus. Une cytolyse en fin de protocole impose la poursuite de la NAC. L'évaluation psychiatrique fait partie du traitement.",
+      "questions": [
+        {
+          "question": "Pourquoi débuter la NAC avant le résultat de la paracétamolémie ?",
+          "reponse": "Parce que l'ingestion date de plus de 8 heures : chaque heure de retard augmente le risque d'hépatotoxicité, et la NAC est bien tolérée."
+        },
+        {
+          "question": "Comment interpréter la paracétamolémie de 85 mg/L à la 10e heure ?",
+          "reponse": "La droite de traitement passe par 150 mg/L à 4 h et diminue de moitié toutes les 4 heures (environ 53 mg/L à 10 h) : la valeur est au-dessus, la NAC est indiquée."
+        },
+        {
+          "question": "Faut-il donner du charbon activé ?",
+          "reponse": "Non : le délai (10 h) rend le bénéfice nul ; il est réservé aux patients vus précocement."
+        },
+        {
+          "question": "Que faire si les transaminases sont élevées à la fin du protocole ?",
+          "reponse": "Poursuivre la NAC, surveiller INR, créatinine, pH et lactate, et prendre l'avis d'un centre hépatologique en cas d'aggravation."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Chiew AL et al. Med J Aust 2020;212:175-183",
+          "date": "2020"
+        },
+        {
+          "reference": "SRLF-SFMU 2020 (Mégarbane et al.)",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-URGE-0002",
+      "titre": "Sueurs, hypersalivation et détresse respiratoire après ingestion d'un pesticide",
+      "niveau": "residanat",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : agriculteur de 42 ans, 70 kg, vivant en zone rurale.",
+      "motif_consultation": "Transporté par la Protection civile 90 minutes après l'ingestion volontaire d'environ 100 mL d'un insecticide agricole organophosphoré, à la suite de difficultés financières.",
+      "antecedents": "Aucun antécédent médical ; tabagisme ; aucun traitement.",
+      "symptomes": "Vomissements, diarrhée, sueurs profuses, hypersalivation, gêne respiratoire croissante, fasciculations des mollets.",
+      "examen_clinique": "GCS 12, myosis serré bilatéral, sueurs profuses, hypersalivation, bronchorrhée avec râles diffus, SpO2 84 % sous oxygène, FR 32/min, FC 46/min, PA 90/55 mmHg, fasciculations diffuses, odeur alliacée. Vêtements souillés de vomissements.",
+      "biologie": "Activité cholinestérasique plasmatique effondrée (< 10 % de la normale) ; lactate 3,2 mmol/L ; glycémie 1,6 g/L ; amylase élevée ; kaliémie 3,4 mmol/L.",
+      "imagerie": "Radiographie thoracique : opacités alvéolaires bilatérales (bronchorrhée, possible inhalation). ECG : bradycardie sinusale, QTc 480 ms.",
+      "hypotheses_diagnostiques": [
+        "Intoxication volontaire grave aux organophosphorés : syndrome cholinergique muscarinique, nicotinique et central"
+      ],
+      "diagnostics_differentiels": [
+        "Intoxication aux carbamates (prise en charge proche)",
+        "Pneumopathie d'inhalation associée",
+        "Co-ingestion d'autres toxiques"
+      ],
+      "examens_a_demander": [
+        "Activité cholinestérasique plasmatique et érythrocytaire",
+        "Gaz du sang, lactate, ionogramme, glycémie, lipase",
+        "ECG répétés (QT)",
+        "Radiographie thoracique",
+        "Paracétamolémie (intoxication volontaire)"
+      ],
+      "diagnostic_final": "Crise cholinergique grave par ingestion volontaire d'un organophosphoré, compliquée d'une détresse respiratoire.",
+      "traitement": "Protection des soignants (gants, blouse), déshabillage et lavage cutané à l'eau et au savon. Oxygène, aspiration. Atropine IV à doses croissantes (doublement toutes les 5 minutes) jusqu'à l'atropinisation : auscultation sèche, FC > 80/min, PAS > 80 mmHg, aisselles sèches, pupilles non punctiformes, obtenue après une dose cumulée importante, puis perfusion d'entretien [POSOLOGIE À VÉRIFIER — protocole local]. Intubation avec un curare non dépolarisant (pas de succinylcholine) en raison de la détresse respiratoire et de la baisse de vigilance. Pralidoxime selon le schéma OMS si disponible [POSOLOGIE À VÉRIFIER]. Benzodiazépine pour la sédation et la prévention des convulsions. Pas de charbon activé avant la protection des voies aériennes ; décision après intubation selon le délai. Évaluation psychiatrique après réveil.",
+      "surveillance": "Signes d'atropinisation et d'intoxication atropinique (agitation, hyperthermie, iléus) ; sécrétions bronchiques ; force des muscles cervicaux et capacité vitale pendant au moins 4–5 jours ; ECG (QT) ; glycémie ; lipase.",
+      "evolution": "Amélioration initiale puis, à J3, faiblesse de la flexion du cou et des muscles proximaux avec échec d'un premier sevrage ventilatoire : syndrome intermédiaire. Extubation à J9. Prise en charge psychiatrique et sociale ; pas de neuropathie retardée à 1 mois.",
+      "explication_pedagogique": "L'intoxication aux organophosphorés est une cause majeure de décès toxique dans les zones agricoles. Le décès précoce est respiratoire (bronchorrhée, bronchospasme, paralysie) ; l'atropine est titrée rapidement et largement sur l'assèchement pulmonaire, sans craindre la tachycardie. La succinylcholine est proscrite. Le syndrome intermédiaire impose une surveillance prolongée de la force musculaire. La protection des soignants est indispensable.",
+      "questions": [
+        {
+          "question": "Quels sont les critères d'atropinisation ?",
+          "reponse": "Auscultation pulmonaire sèche (critère principal), FC > 80/min, PAS > 80 mmHg, aisselles sèches, pupilles non punctiformes."
+        },
+        {
+          "question": "Pourquoi éviter la succinylcholine ?",
+          "reponse": "Elle est hydrolysée par les cholinestérases plasmatiques, inhibées par l'organophosphoré : paralysie prolongée."
+        },
+        {
+          "question": "Qu'est-ce que le syndrome intermédiaire ?",
+          "reponse": "Une faiblesse des muscles cervicaux, proximaux, des nerfs crâniens et respiratoires survenant entre 24 et 96 heures, pouvant imposer une ventilation prolongée."
+        },
+        {
+          "question": "Quelle précaution pour l'équipe soignante ?",
+          "reponse": "Protection individuelle et décontamination cutanée du patient (déshabillage, lavage) pour éviter une contamination secondaire."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Eddleston M et al. Lancet 2008 — non vérifiée pendant la session",
+          "date": "2008"
+        },
+        {
+          "reference": "SRLF-SFMU 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-URGE-0003",
+      "titre": "Piqûre de scorpion chez une fillette de 4 ans une nuit d'août",
+      "niveau": "residanat",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fillette de 4 ans, 16 kg, vivant dans une habitation rurale d'une wilaya des Hauts-Plateaux.",
+      "motif_consultation": "Piquée à la main vers 23 h en dormant à même le sol ; la mère a vu un scorpion jaune qu'elle a tué. Un voisin a posé un garrot au bras ; arrivée à la polyclinique à 23 h 50.",
+      "antecedents": "Aucun antécédent ; vaccinations à jour selon le carnet.",
+      "symptomes": "Pleurs, douleur intense de la main ; puis sueurs, vomissements répétés et agitation.",
+      "examen_clinique": "À l'arrivée : garrot en place (retiré immédiatement), main douloureuse sans nécrose. Sueurs profuses, hypersialorrhée, trois vomissements, FC 160/min, PA 125/80 mmHg, FR 34/min, SpO2 95 %, température 38,3 °C. Classée en classe II, transférée à l'hôpital. À 1 h 30 : polypnée à 50/min, crépitants bilatéraux, SpO2 86 %, PA 75/45 mmHg, extrémités froides, temps de recoloration 4 s, somnolence.",
+      "biologie": "Glycémie 2,8 g/L ; leucocytes 24 000/mm³ ; troponine élevée ; lactate 4,1 mmol/L ; gaz du sang : hypoxémie et acidose métabolique ; lipase modérément élevée.",
+      "imagerie": "Radiographie thoracique : œdème pulmonaire alvéolaire bilatéral. Échocardiographie : hypokinésie globale du ventricule gauche, fraction d'éjection estimée à 30 %. ECG : tachycardie sinusale, troubles diffus de la repolarisation.",
+      "hypotheses_diagnostiques": [
+        "Envenimation scorpionique de classe III : choc cardiogénique avec œdème pulmonaire par dysfonction myocardique aiguë"
+      ],
+      "diagnostics_differentiels": [
+        "Anaphylaxie (pas d'urticaire ni de bronchospasme, cinétique et signes neurovégétatifs typiques de l'envenimation)",
+        "Sepsis (contexte non évocateur)",
+        "Intoxication aux organophosphorés (pas de myosis, contexte de piqûre)"
+      ],
+      "examens_a_demander": [
+        "Glycémie, gaz du sang, lactate",
+        "ECG, troponine",
+        "Échocardiographie",
+        "Radiographie thoracique",
+        "NFS, ionogramme, créatinine, lipase"
+      ],
+      "diagnostic_final": "Envenimation scorpionique de classe III chez une enfant de 4 ans : œdème pulmonaire et choc cardiogénique par dysfonction ventriculaire gauche aiguë.",
+      "traitement": "Ablation immédiate du garrot ; antisepsie ; antalgiques. Transfert en réanimation pédiatrique : oxygène puis ventilation (non invasive puis intubation devant l'épuisement), dobutamine titrée pour la dysfonction ventriculaire gauche, remplissage prudent limité, noradrénaline ajoutée transitoirement devant une hypotension persistante, diurétique après restauration de la pression ; benzodiazépine prête en cas de convulsions ; contrôle de la glycémie. Sérum antiscorpionique administré selon le protocole du guide national en vigueur, adrénaline à portée de main [POSOLOGIE ET INDICATION À VÉRIFIER — guide national]. Déclaration du cas dans le cadre de la surveillance épidémiologique.",
+      "surveillance": "Monitorage continu, diurèse horaire, lactate, glycémie, échocardiographie quotidienne, radiographie thoracique, troponine ; tolérance du sérum (anaphylaxie, maladie sérique à J5–J15).",
+      "evolution": "Extubation à J3, sevrage de la dobutamine à J3, fraction d'éjection normalisée à J6. Sortie à J7 ; éducation de la famille aux mesures de prévention (habitat, lit surélevé, moustiquaire, secouer vêtements et chaussures).",
+      "explication_pedagogique": "Ce cas illustre la gravité de l'envenimation scorpionique chez le jeune enfant, groupe qui concentre les décès en Algérie. La classe peut évoluer en quelques heures de II à III, d'où la surveillance hospitalière systématique de l'enfant. La défaillance est d'abord cardiaque (cardiomyopathie catécholaminergique) : le remplissage massif aggrave l'œdème pulmonaire, l'inotrope et la ventilation sont la clé, et la dysfonction est réversible. Le garrot est un geste interdit. La place du SAS se lit dans le guide national ; il ne remplace pas la réanimation.",
+      "questions": [
+        {
+          "question": "Quelle était la classe à l'arrivée à la polyclinique et pourquoi ?",
+          "reponse": "Classe II : signes généraux (sueurs, hypersialorrhée, vomissements, tachycardie, agitation) sans défaillance vitale."
+        },
+        {
+          "question": "Quel est le mécanisme de l'œdème pulmonaire ?",
+          "reponse": "Principalement une dysfonction ventriculaire gauche aiguë d'origine catécholaminergique, avec une composante lésionnelle."
+        },
+        {
+          "question": "Pourquoi éviter le remplissage massif ?",
+          "reponse": "Le choc est cardiogénique avec œdème pulmonaire : le remplissage aggraverait l'hypoxémie ; le traitement repose sur l'inotrope et la ventilation."
+        },
+        {
+          "question": "Quels conseils de prévention donner à la famille ?",
+          "reponse": "Ne pas dormir à même le sol, surélever et éloigner les lits des murs, moustiquaire bordée, secouer vêtements, draps et chaussures, colmater les murs, éliminer les gravats, participer aux campagnes de collecte, consulter immédiatement en cas de piqûre, sans garrot ni incision."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Laïd Y et al. J Venom Anim Toxins incl Trop Dis 2012;18:399-410",
+          "date": "2012"
+        },
+        {
+          "reference": "INSP — rapport envenimation scorpionique (données 2009)",
+          "date": "2009"
+        },
+        {
+          "reference": "Guide national 2003 — non consulté",
+          "date": "2003"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-URGE-0004",
+      "titre": "Morsures de la joue et de la main par un chien errant chez un enfant de 9 ans",
+      "niveau": "residanat",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon de 9 ans, 28 kg.",
+      "motif_consultation": "Mordu il y a 2 heures par un chien errant inconnu, au comportement agressif, qui s'est enfui ; amené par son père aux urgences.",
+      "antecedents": "Aucun ; vaccinations du calendrier national à jour selon le carnet (dernière dose antitétanique à 6 ans) ; jamais vacciné contre la rage.",
+      "symptomes": "Douleur de la joue gauche et de la main droite, saignement arrêté.",
+      "examen_clinique": "Plaie transfixiante de 3 cm de la joue gauche ; deux plaies punctiformes profondes du dos de la main droite ; pas d'atteinte tendineuse, nerveuse ou vasculaire ; mobilité des doigts normale. Constantes normales, apyrétique.",
+      "biologie": "Aucun examen biologique nécessaire.",
+      "imagerie": "Radiographie de la main : pas de fracture ni de corps étranger.",
+      "hypotheses_diagnostiques": [
+        "Morsures de chien à risque rabique de catégorie III (morsures transdermiques par un animal suspect non observable)",
+        "Plaies à risque infectieux (main, plaies punctiformes)"
+      ],
+      "diagnostics_differentiels": [
+        "Sans objet (diagnostic évident) ; évaluer les lésions associées"
+      ],
+      "examens_a_demander": [
+        "Radiographie de la main",
+        "Vérification du carnet de vaccination (tétanos)",
+        "Bilan infectieux uniquement si infection secondaire"
+      ],
+      "diagnostic_final": "Morsures de chien errant (visage et main) : exposition rabique de catégorie III chez un enfant non vacciné ; plaies à risque infectieux.",
+      "traitement": "Lavage immédiat et prolongé (environ 15 minutes) de toutes les plaies à l'eau et au savon, puis antiseptique. Prophylaxie antirabique de catégorie III : vaccination débutée le jour même selon le schéma du protocole national (par exemple schéma OMS) et immunoglobulines antirabiques infiltrées dans et autour de chaque plaie, autant que l'anatomie le permet (20 UI/kg pour les immunoglobulines humaines, 40 UI/kg pour les équines) [POSOLOGIE ET SCHÉMA À VÉRIFIER — protocole national]. Parage et suture de la plaie de la joue après lavage et infiltration, par un opérateur expérimenté (enjeu esthétique) ; plaies punctiformes de la main laissées ouvertes. Antibioprophylaxie par amoxicilline–acide clavulanique adaptée au poids pendant quelques jours [POSOLOGIE À VÉRIFIER]. Tétanos : statut à jour pour l'âge, pas de rappel nécessaire selon le calendrier (à vérifier). Signalement du cas aux services de santé et vétérinaires.",
+      "surveillance": "Contrôle des plaies à 48 h ; respect strict des dates des injections vaccinales ; information des parents sur les signes d'infection.",
+      "evolution": "Cicatrisation sans infection ; schéma vaccinal complété.",
+      "explication_pedagogique": "La rage est mortelle une fois déclarée mais évitable par une prophylaxie précoce et complète. Une morsure transdermique par un chien errant non observable en zone d'endémie est une exposition de catégorie III : lavage prolongé, vaccination et immunoglobulines infiltrées localement, sans aucun délai. Les morsures du visage ont une incubation potentiellement plus courte. Les plaies du visage peuvent être suturées après un nettoyage soigneux ; les plaies punctiformes de la main ne le sont pas, et justifient une antibioprophylaxie.",
+      "questions": [
+        {
+          "question": "Quelle est la catégorie d'exposition OMS et pourquoi ?",
+          "reponse": "Catégorie III : morsures transdermiques par un animal suspect (errant, agressif, non observable)."
+        },
+        {
+          "question": "Comment administrer les immunoglobulines antirabiques ?",
+          "reponse": "Infiltration dans et autour de chaque plaie, autant que possible anatomiquement, au plus tard dans les 7 jours suivant la première dose de vaccin."
+        },
+        {
+          "question": "Peut-on suturer la plaie de la joue ?",
+          "reponse": "Oui, après lavage, parage et infiltration des immunoglobulines, compte tenu de l'enjeu esthétique ; les plaies punctiformes de la main restent ouvertes."
+        },
+        {
+          "question": "Faut-il attendre de retrouver le chien ?",
+          "reponse": "Non : la prophylaxie est débutée immédiatement ; l'animal n'est de toute façon pas observable."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Rabies vaccines position paper 2018 — non vérifiée pendant la session",
+          "date": "2018"
+        },
+        {
+          "reference": "IDSA SSTI 2014 — non vérifiée pendant la session",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}
