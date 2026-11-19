@@ -50,9 +50,15 @@
           "date": "2018-07-29"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée ; références aux textes algériens acquis contrôlées article par article dans le texte intégral (DOC-00074, DOC-00077, lus avec pdftotext). Explications exactes. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MLEG-6077",
@@ -75,7 +81,7 @@
       "explications_par_proposition": {
         "A": "Vrai : La mort est violente et survenue sur la voie publique.",
         "B": "Faux : L'obstacle médico-légal suspend l'inhumation jusqu'à décision de l'autorité judiciaire.",
-        "C": "Vrai : Article 200 de la loi 18-11 et article 6 du décret 22-178 : en cas de mort violente, suspecte, indéterminée ou sur la voie publique, le médecin délivre uniquement un certificat de constat de décès.",
+        "C": "Vrai : Article 200 de la loi 18-11 (mort suspecte, mort violente, décès sur la voie publique, mort par maladie transmissible présentant un risque grave) : le médecin délivre uniquement un certificat de constat de décès et avise les autorités compétentes ; article 6 du décret 22-178 (mort violente ou indéterminée constituant un obstacle médico-légal) : il ne remplit que la partie supérieure du certificat.",
         "D": "Vrai : Article 6 (dernier alinéa) du décret 22-178.",
         "E": "Vrai : Article 201 de la loi 18-11."
       },
@@ -107,9 +113,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Explication C : la mention « indéterminée » est attribuée à l'article 200 de la loi 18-11, qui vise la mort suspecte, violente, sur la voie publique ou par maladie transmissible grave ; la mort indéterminée relève de l'article 6 du décret 22-178. → Explication C réécrite en distinguant exactement les deux textes. Clé inchangée."
+      }
     },
     {
       "id": "QCM-MLEG-6078",
@@ -128,7 +140,7 @@
       ],
       "explication_generale": "Le constat de décès comporte le diagnostic de mort (signes négatifs de vie et signes positifs de mort), l'identification du défunt, la recherche d'un obstacle médico-légal et d'un risque de contagion, puis la rédaction du certificat. L'inhumation n'est possible qu'au vu de ce certificat (art. 204).",
       "explications_par_proposition": {
-        "A": "Faux : L'absence de ventilation spontanée (épreuve d'hypercapnie) est indispensable au diagnostic, avec le coma aréactif et l'abolition des réflexes du tronc ; les critères sont définis par le ministre chargé de la santé (art. 362 de la loi 18-11).",
+        "A": "Faux : L'absence de ventilation spontanée (épreuve d'hypercapnie) est indispensable au diagnostic, avec le coma aréactif et l'abolition des réflexes du tronc. En vue d'un prélèvement d'organes, la constatation du décès se fait selon des critères scientifiques définis par le ministre chargé de la santé (art. 362 de la loi 18-11).",
         "B": "Vrai : Avec le refroidissement et, plus tard, la putréfaction ; ils aident aussi à l'estimation du délai post-mortem.",
         "C": "Faux : Article 363 : il ne doit pas faire partie de l'équipe qui effectue la transplantation.",
         "D": "Vrai : Article 203 de la loi 18-11.",
@@ -162,9 +174,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Explication A : renvoi à l'article 362 sans préciser qu'il vise la constatation du décès en vue d'un prélèvement d'organes. → Explication A précisée. Clé inchangée."
+      }
     },
     {
       "id": "QCM-MLEG-6079",
@@ -215,9 +233,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MLEG-6080",
@@ -268,9 +292,15 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée ; références aux textes algériens acquis contrôlées article par article dans le texte intégral (DOC-00074, lus avec pdftotext). Explications exactes. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MLEG-6081",
@@ -314,18 +344,24 @@
           "date": "2018-07-29"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée ; références aux textes algériens acquis contrôlées article par article dans le texte intégral (DOC-00074, lus avec pdftotext). Explications exactes. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MLEG-6082",
       "format": "QCM (réponses multiples)",
       "enonce": "Concernant les différentes formes de responsabilité médicale, quelles propositions sont exactes ?",
       "propositions": {
-        "A": "Le médecin est en règle générale tenu à une obligation de moyens et non de résultat.",
+        "A": "Selon les principes généraux de la responsabilité médicale, le médecin est en règle générale tenu à une obligation de moyens et non de résultat.",
         "B": "Les poursuites disciplinaires devant les conseils de déontologie médicale excluent toute poursuite civile ou pénale pour les mêmes faits.",
-        "C": "La responsabilité civile vise la réparation d'un dommage et suppose une faute, un préjudice et un lien de causalité.",
+        "C": "Selon les principes généraux du droit de la responsabilité, la responsabilité civile vise la réparation d'un dommage et suppose une faute, un préjudice et un lien de causalité.",
         "D": "La responsabilité pénale est personnelle et vise à sanctionner une infraction.",
         "E": "Les décisions des conseils régionaux de déontologie médicale sont susceptibles de recours devant les conseils nationaux dans un délai de deux mois."
       },
@@ -335,12 +371,12 @@
         "D",
         "E"
       ],
-      "explication_generale": "Un même fait peut engager plusieurs responsabilités : pénale (sanction), civile ou administrative (réparation ; la responsabilité de l'établissement public est en principe engagée pour une faute de service), disciplinaire (conseils de déontologie, art. 346–350 de la loi 18-11). Elles sont indépendantes et peuvent se cumuler.",
+      "explication_generale": "Un même fait peut engager plusieurs responsabilités, indépendantes et cumulables : pénale (sanction ; art. 413 de la loi 18-11, qui renvoie au code pénal), civile ou administrative (réparation ; selon les principes généraux de la responsabilité médicale, la responsabilité de l'établissement public de santé est en principe engagée pour une faute commise dans le service — la loi 18-11 vise la responsabilité « de l'établissement et/ou du praticien », art. 353) et disciplinaire (conseils de déontologie médicale, art. 346–350 ; sanctions « sans préjudice des poursuites civiles et pénales », art. 347).",
       "explications_par_proposition": {
-        "A": "Vrai : Il doit des soins consciencieux et conformes aux données acquises de la science, sans pouvoir garantir la guérison.",
+        "A": "Vrai : Principe doctrinal et jurisprudentiel (textes correspondants non acquis dans la bibliothèque) : le médecin doit des soins consciencieux et conformes aux données acquises de la science, sans pouvoir garantir la guérison.",
         "B": "Faux : Article 347 de la loi 18-11 : les sanctions disciplinaires s'appliquent « sans préjudice des poursuites civiles et pénales ».",
-        "C": "Vrai : Elle aboutit à une indemnisation de la victime.",
-        "D": "Vrai : Elle conduit à des peines (amende, emprisonnement) prononcées par une juridiction pénale.",
+        "C": "Vrai : Principe général (code civil, non acquis dans la bibliothèque) ; elle aboutit à l'indemnisation de la victime. La loi 18-11 impose aux professionnels libéraux et aux établissements une assurance couvrant leur responsabilité civile et professionnelle (art. 296).",
+        "D": "Vrai : Principe général du droit pénal : elle conduit à des peines (amende, emprisonnement) prononcées par une juridiction pénale. La loi 18-11 renvoie au code pénal pour les atteintes involontaires par négligence ou faute professionnelle avérée (art. 413).",
         "E": "Vrai : Article 350 ; les décisions des conseils nationaux sont susceptibles de recours devant le Conseil d'État dans un délai de quatre mois."
       },
       "specialite": "MLEG",
@@ -367,9 +403,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Droit : obligation de moyens, conditions de la responsabilité civile, caractère personnel de la responsabilité pénale et « faute de service » présentés comme des règles de droit positif alors qu'ils relèvent de la doctrine ou de textes non acquis (code civil, code pénal). → Proposition A formulée « selon les principes généraux de la responsabilité médicale » ; explications A, C, D et explication générale reformulées prudemment et rattachées aux articles vérifiés de la loi 18-11 (296, 347, 350, 353, 413). Clé inchangée."
+      }
     },
     {
       "id": "QCM-MLEG-6083",
@@ -380,7 +422,7 @@
         "B": "En cas de refus de soins, une déclaration écrite peut être exigée du patient ou de son représentant légal.",
         "C": "En cas d'urgence, de maladie grave ou contagieuse, ou si la vie du patient est gravement menacée, le professionnel de santé doit prodiguer les soins et peut passer outre le consentement.",
         "D": "L'information porte notamment sur les risques fréquents ou graves normalement prévisibles, les autres solutions possibles et les conséquences prévisibles en cas de refus.",
-        "E": "Aucun acte médical ni traitement ne peut être pratiqué sans le consentement libre et éclairé du patient."
+        "E": "En principe, aucun acte médical ni traitement ne peut être pratiqué sans le consentement libre et éclairé du patient."
       },
       "reponses_correctes": [
         "B",
@@ -394,7 +436,7 @@
         "B": "Vrai : Article 344, alinéa 1.",
         "C": "Vrai : Article 344, alinéa 2.",
         "D": "Vrai : Article 343, alinéa 3.",
-        "E": "Vrai : Article 343, alinéa 1."
+        "E": "Vrai : Article 343, alinéa 1 (principe) ; les exceptions (urgence, maladie grave ou contagieuse, menace vitale) sont prévues par l'article 344 (proposition C)."
       },
       "specialite": "MLEG",
       "items_residanat": [
@@ -416,9 +458,15 @@
           "date": "2018-07-29"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[majeure] Contradiction interne : E (« Aucun acte médical ni traitement ne peut être pratiqué sans le consentement… ») et C (le professionnel « peut passer outre le consentement » en cas d'urgence) sont toutes deux marquées vraies ; E, formulée de façon absolue, pouvait être jugée fausse au vu de C. → E reformulée comme principe de l'article 343, les exceptions relevant de l'article 344 ; explication E précisée. Clé inchangée (B, C, D, E)."
+      }
     },
     {
       "id": "QCM-MLEG-6084",
@@ -438,8 +486,8 @@
       ],
       "explication_generale": "La loi 18-11 rend obligatoire l'assurance en responsabilité civile et professionnelle (art. 296), subordonne les sanctions à une faute avérée après expertise (art. 353) et renvoie au code pénal pour les atteintes involontaires (art. 413).",
       "explications_par_proposition": {
-        "A": "Faux : Les peines sont personnelles et ne sont pas assurables ; l'assurance couvre la réparation civile du dommage.",
-        "B": "Faux : La responsabilité pénale suppose une infraction (faute, négligence) ; un accident médical sans faute ne constitue pas une infraction.",
+        "A": "Faux : Selon les principes généraux du droit pénal, les peines sont personnelles et ne sont pas assurables ; l'assurance obligatoire prévue par l'article 296 couvre la responsabilité civile et professionnelle « vis-à-vis de leurs malades et des tiers », c'est-à-dire la réparation du dommage.",
+        "B": "Faux : La loi 18-11 subordonne les sanctions à une erreur ou faute médicale « avérée, après expertise » (art. 353) et la répression pénale à une « négligence ou faute professionnelle avérée » (art. 413) ; un accident médical sans faute (aléa thérapeutique) n'est pas une infraction.",
         "C": "Vrai : Article 353.",
         "D": "Vrai : Article 296 (obligation qui s'applique aussi aux structures et établissements publics et privés).",
         "E": "Vrai : Article 413, qui renvoie aux articles 288, 289 et 442 du code pénal."
@@ -468,9 +516,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Droit : explications A (inassurabilité des peines) et B (aléa thérapeutique) fondées sur des principes non rattachés aux textes acquis. → Explication A rattachée à l'article 296 (assurance de responsabilité civile et professionnelle) et formulée comme principe général ; explication B rattachée aux articles 353 et 413 (faute « avérée »). Clé inchangée."
+      }
     },
     {
       "id": "QCM-MLEG-6085",
@@ -517,9 +571,15 @@
           "date": "2018-07-29"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée ; références aux textes algériens acquis contrôlées article par article dans le texte intégral (DOC-00074, lus avec pdftotext). Explications exactes. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MLEG-6086",
@@ -541,7 +601,7 @@
         "A": "Faux : Article 25 : la famille peut recevoir les informations nécessaires au soutien du malade, « sauf opposition de sa part ».",
         "B": "Vrai : Articles 198 et 199.",
         "C": "Vrai : Article 39 de la loi 18-11 (liste fixée par le décret 22-250).",
-        "D": "Faux : Aucune disposition ne l'autorise : l'employeur n'est destinataire que de l'aptitude, sans diagnostic.",
+        "D": "Faux : Le secret couvre l'ensemble des informations médicales, sauf exceptions « prévues expressément par la loi » (art. 24) ; aucune disposition n'autorise la communication d'un diagnostic à l'employeur, qui n'est destinataire que des conclusions d'aptitude établies par le médecin du travail.",
         "E": "Faux : Article 6 du décret 22-178 : la partie inférieure, anonyme, est close par le médecin et ne peut être ouverte que par l'autorité sanitaire habilitée."
       },
       "specialite": "MLEG",
@@ -572,9 +632,15 @@
           "date": "2022-07-11"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Explication D non rattachée au texte (exceptions au secret « prévues expressément par la loi », art. 24). → Explication D rattachée à l'article 24 de la loi 18-11. Clé inchangée."
+      }
     },
     {
       "id": "QCM-MLEG-6087",
@@ -618,16 +684,22 @@
           "date": "2018-07-29"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée ; références aux textes algériens acquis contrôlées article par article dans le texte intégral (DOC-00074, lus avec pdftotext). Explications exactes. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6088",
       "format": "QCM (réponses multiples)",
       "enonce": "Un ouvrier du bâtiment chute d'un échafaudage sur son lieu de travail et se fracture le poignet. Concernant les principes de la réparation des accidents du travail, quelles propositions sont exactes ?",
       "propositions": {
-        "A": "Un accident survenu par le fait ou à l'occasion du travail est qualifié d'accident du travail.",
+        "A": "Selon les principes généraux de la réparation des risques professionnels, un accident soudain ayant entraîné une lésion corporelle et survenu en lien avec le travail est qualifié d'accident du travail.",
         "B": "Le médecin qui examine la victime rédige un certificat médical initial décrivant précisément les lésions et leurs conséquences prévisibles.",
         "C": "L'évolution aboutit soit à une guérison sans séquelle, soit à une consolidation avec séquelles.",
         "D": "Un accident survenu sur le trajet habituel entre le domicile et le lieu de travail n'est jamais pris en charge au titre de la législation professionnelle.",
@@ -639,9 +711,9 @@
         "C",
         "E"
       ],
-      "explication_generale": "La réparation des accidents du travail repose sur des certificats successifs (initial, de prolongation, final de guérison ou de consolidation). Le rôle du praticien est de constater et décrire avec précision les lésions. La loi 18-11 rappelle que la santé en milieu de travail vise notamment la prévention des accidents du travail et des maladies professionnelles (art. 98) ; les délais et formulaires relèvent de la législation spécifique [À VÉRIFIER : texte non acquis dans la bibliothèque].",
+      "explication_generale": "La réparation des accidents du travail repose sur des certificats successifs (initial, de prolongation, final de guérison ou de consolidation). Le rôle du praticien est de constater et décrire avec précision les lésions. La loi 18-11 rappelle que la santé en milieu de travail vise notamment la prévention des accidents du travail et des maladies professionnelles (art. 98) ; les délais, formulaires et conditions de prise en charge relèvent de la législation spécifique (loi n°83-13 relative aux accidents du travail et aux maladies professionnelles, non acquise dans la bibliothèque : non détaillés ici).",
       "explications_par_proposition": {
-        "A": "Vrai : Critères classiques : soudaineté, lésion corporelle, lien avec le travail.",
+        "A": "Vrai : Critères classiques : soudaineté, lésion corporelle, lien avec le travail. La définition légale précise relève de la législation algérienne relative aux accidents du travail et aux maladies professionnelles (loi n°83-13), non acquise dans la bibliothèque.",
         "B": "Vrai : Ce certificat descriptif conditionne la prise en charge et doit être objectif et complet.",
         "C": "Vrai : Ces deux issues donnent lieu à un certificat final.",
         "D": "Faux : L'accident de trajet est, dans son principe, assimilé à l'accident du travail ; les conditions précises relèvent de la législation sur les accidents du travail et maladies professionnelles (non acquise dans la bibliothèque).",
@@ -675,9 +747,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Droit : définition de l'accident du travail présentée comme une règle légale (formule « par le fait ou à l'occasion du travail », issue du droit français) alors que la loi algérienne n°83-13 n'est pas acquise ; marqueur « À VÉRIFIER » dans l'explication générale. → Proposition A reformulée « selon les principes généraux de la réparation des risques professionnels » (critères soudaineté, lésion corporelle, lien avec le travail) ; explication A et explication générale précisent que la loi n°83-13 n'est pas acquise ; marqueur « À VÉRIFIER » remplacé par cette mention. Clé inchangée."
+      }
     },
     {
       "id": "QCM-MTRA-6089",
@@ -728,9 +806,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée ; références aux textes algériens acquis contrôlées article par article dans le texte intégral (DOC-00074, lus avec pdftotext). Explications exactes. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6090",
@@ -750,7 +834,7 @@
       ],
       "explication_generale": "Le repérage d'une maladie d'origine professionnelle repose sur l'interrogatoire professionnel ; le médecin traitant rédige le certificat, informe le patient et collabore avec le médecin du travail, dans le respect du secret médical.",
       "explications_par_proposition": {
-        "A": "Vrai : La déclaration est une démarche de la victime, que le médecin doit faciliter.",
+        "A": "Vrai : Selon les principes généraux de la réparation des maladies professionnelles, la démarche de reconnaissance appartient à la victime (modalités précises : législation sur les accidents du travail et les maladies professionnelles, non acquise dans la bibliothèque) ; le médecin l'informe et lui remet un certificat descriptif.",
         "B": "Vrai : Il peut proposer un aménagement, une mutation et des mesures de prévention collective.",
         "C": "Faux : Le secret médical s'y oppose (art. 24 de la loi 18-11).",
         "D": "Faux : Le recueil du parcours professionnel (curriculum laboris) fait partie de l'anamnèse et est indispensable au diagnostic étiologique.",
@@ -780,9 +864,15 @@
           "date": "2018-07-29"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Droit : explication A affirmant que la déclaration de maladie professionnelle est une démarche de la victime, sans texte acquis. → Explication A formulée selon les principes généraux, avec mention de la législation spécifique non acquise. Clé inchangée."
+      }
     },
     {
       "id": "QCM-MTRA-6091",
@@ -835,9 +925,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6092",
@@ -887,9 +983,15 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6093",
@@ -940,9 +1042,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6094",
@@ -997,9 +1105,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6095",
@@ -1049,9 +1163,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6096",
@@ -1099,9 +1219,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6097",
@@ -1152,9 +1278,15 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6098",
@@ -1204,9 +1336,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6099",
@@ -1257,9 +1395,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6100",
@@ -1310,9 +1454,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6101",
@@ -1363,9 +1513,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6102",
@@ -1413,9 +1569,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6103",
@@ -1469,9 +1631,15 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6104",
@@ -1521,9 +1689,15 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6105",
@@ -1578,9 +1752,15 @@
           "date": "1988"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6106",
@@ -1631,9 +1811,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6107",
@@ -1683,9 +1869,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MTRA-6108",
@@ -1733,9 +1925,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Calcul refait : loi de l'inverse du carré, (2/1)² = 4. Clé exacte."
+      }
     },
     {
       "id": "QCM-PSYC-6109",
@@ -1790,9 +1988,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6110",
@@ -1841,9 +2045,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6111",
@@ -1897,9 +2107,15 @@
           "date": "2023-11"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6112",
@@ -1953,9 +2169,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6113",
@@ -2006,9 +2228,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6114",
@@ -2056,9 +2284,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6115",
@@ -2109,9 +2343,15 @@
           "date": "2012-02"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6116",
@@ -2161,9 +2401,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6117",
@@ -2172,7 +2418,7 @@
       "propositions": {
         "A": "L'hospitalisation sans consentement d'un malade atteint de troubles mentaux peut se faire dans une clinique privée.",
         "B": "La contention physique n'est envisagée qu'en dernier recours, sur prescription médicale, pour une durée limitée et sous surveillance rapprochée.",
-        "C": "La mise en observation du fait d'un tiers ne peut excéder quinze jours.",
+        "C": "La mise en observation du fait d'un tiers est prononcée pour une période initiale ne pouvant excéder quinze jours, prolongeable de quinze jours au plus.",
         "D": "Les restrictions aux libertés individuelles des personnes hospitalisées sans consentement sont limitées à celles nécessaires à leur état de santé et à leur traitement.",
         "E": "Après l'administration parentérale d'un sédatif, une surveillance de la vigilance et de la respiration est nécessaire."
       },
@@ -2182,11 +2428,11 @@
         "D",
         "E"
       ],
-      "explication_generale": "La loi 18-11 (titre III, art. 126 à 164) encadre la prise en charge des malades atteints de troubles mentaux : hospitalisation libre, mise en observation et hospitalisation du fait d'un tiers, examen et hospitalisation d'office, rôle de la commission de santé mentale de wilaya.",
+      "explication_generale": "La loi 18-11 (titre III, art. 125 à 164) encadre la prise en charge des malades atteints de troubles mentaux : hospitalisation libre, mise en observation et hospitalisation du fait d'un tiers, examen et hospitalisation d'office, mesures de contrôle pendant l'hospitalisation.",
       "explications_par_proposition": {
         "A": "Faux : Article 128 : l'hospitalisation sans consentement ne peut se faire que dans les structures de santé publique.",
         "B": "Vrai : Elle expose à des complications (thromboses, lésions, décès).",
-        "C": "Vrai : Article 139 : elle est décidée par le psychiatre de l'établissement, qui délivre préalablement un bulletin d'admission.",
+        "C": "Vrai : Article 139 : période initiale de 15 jours au plus, décidée par le psychiatre de l'établissement, qui délivre préalablement un bulletin d'admission ; article 140 : à l'expiration de ce délai, sortie ou prolongation pour une durée maximale de 15 jours.",
         "D": "Vrai : Article 129 de la loi 18-11.",
         "E": "Vrai : Le risque de dépression respiratoire est majoré par l'association avec l'alcool ou d'autres dépresseurs."
       },
@@ -2206,7 +2452,7 @@
       },
       "sources": [
         {
-          "reference": "Loi n°18-11 du 2 juillet 2018 relative à la santé (JORADP n°46 du 29 juillet 2018), art. 128, 129, 137–139 [registre DOC-00074]",
+          "reference": "Loi n°18-11 du 2 juillet 2018 relative à la santé (JORADP n°46 du 29 juillet 2018), art. 125–129, 137–140 [registre DOC-00074]",
           "date": "2018-07-29"
         },
         {
@@ -2214,9 +2460,15 @@
           "date": "2015-05"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[majeure] C « La mise en observation du fait d'un tiers ne peut excéder quinze jours » marquée vraie mais incomplète : l'article 140 de la loi 18-11 permet une prolongation de 15 jours au plus (vérifié dans DOC-00074) ; un candidat connaissant l'article 140 pouvait la juger fausse. Explication générale : titre III = art. 125 à 164 (et non 126). → C reformulée (période initiale ≤ 15 jours, prolongeable une fois de 15 jours au plus, art. 139–140) ; explication C et explication générale corrigées ; source complétée (art. 140). Clé inchangée."
+      }
     },
     {
       "id": "QCM-PSYC-6118",
@@ -2267,9 +2519,15 @@
           "date": "2021-02"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6119",
@@ -2318,9 +2576,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6120",
@@ -2368,9 +2632,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6121",
@@ -2425,9 +2695,15 @@
           "date": "2024-05"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6122",
@@ -2482,9 +2758,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PSYC-6123",
@@ -2538,9 +2820,15 @@
           "date": "2015-06"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MINT-6124",
@@ -2591,9 +2879,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MINT-6125",
@@ -2643,9 +2937,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MINT-6126",
@@ -2693,9 +2993,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MINT-6127",
@@ -2746,9 +3052,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Score ACR/EULAR 2016 recalculé : anti-SSA 3 + Schirmer ≤ 5 mm/5 min 1 = 4. Clé exacte."
+      }
     },
     {
       "id": "QCM-MINT-6128",
@@ -2800,9 +3112,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-MINT-6129",
@@ -2813,7 +3131,7 @@
         "B": "Un agoniste muscarinique (pilocarpine) peut être proposé en cas de fonction glandulaire résiduelle.",
         "C": "Le rituximab est le traitement de première intention de la sécheresse isolée.",
         "D": "Une corticothérapie au long cours à forte dose est indiquée pour toute sécheresse.",
-        "E": "Les traitements systémiques sont réservés aux atteintes extraglandulaires actives."
+        "E": "Les traitements immunomodulateurs ou immunosuppresseurs systémiques (glucocorticoïdes, immunosuppresseurs, rituximab) sont réservés aux atteintes extraglandulaires actives."
       },
       "reponses_correctes": [
         "A",
@@ -2826,7 +3144,7 @@
         "B": "Vrai : Il stimule la sécrétion salivaire et lacrymale.",
         "C": "Faux : Il est réservé à certaines atteintes systémiques sévères ou réfractaires.",
         "D": "Faux : Les corticoïdes n'ont pas d'effet sur la sécheresse et sont réservés à certaines atteintes systémiques, à la dose et pour la durée minimales.",
-        "E": "Vrai : Leur choix dépend de l'organe atteint et de la sévérité (ESSDAI)."
+        "E": "Vrai : Leur choix dépend de l'organe atteint et de la sévérité (ESSDAI). La pilocarpine orale, bien qu'administrée par voie générale, est un traitement symptomatique de la sécheresse (proposition B)."
       },
       "specialite": "MINT",
       "items_residanat": [
@@ -2848,9 +3166,15 @@
           "date": "2019-10"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[majeure] E « Les traitements systémiques sont réservés aux atteintes extraglandulaires actives » marquée vraie mais ambiguë : la pilocarpine orale (proposition B, vraie) est un traitement systémique de la sécheresse glandulaire, et l'EULAR 2019 la classe parmi les « systemic therapies ». → E reformulée (traitements immunomodulateurs ou immunosuppresseurs systémiques) ; explication E précisée. Clé inchangée."
+      }
     },
     {
       "id": "QCM-MINT-6130",
@@ -2901,9 +3225,15 @@
           "date": "2021-12"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Recommandation ATS 2020 vérifiée dans DOC-00102 (« we suggest NOT sampling lymph nodes », conditionnelle). Clé exacte."
+      }
     },
     {
       "id": "QCM-MINT-6131",
@@ -2949,9 +3279,15 @@
           "date": "2020-04"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Recommandations ATS 2020 vérifiées dans DOC-00102 (calcémie : recommandation forte ; examen ophtalmologique, ECG : suggérés ; ETT/Holter : non systématiques). Clé exacte."
+      }
     },
     {
       "id": "QCM-MINT-6132",
@@ -3002,9 +3338,15 @@
           "date": "2021-12"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Recommandation ATS 2020 vérifiée dans DOC-00102 (dosage 25-OH et 1,25-(OH)2 vitamine D avant supplémentation). Clé exacte."
+      }
     },
     {
       "id": "QCM-GERI-6133",
@@ -3053,9 +3395,15 @@
           "date": "2025-04"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6134",
@@ -3110,9 +3458,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6135",
@@ -3160,9 +3514,15 @@
           "date": "2020-11"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6136",
@@ -3212,9 +3572,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6137",
@@ -3265,9 +3631,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6138",
@@ -3315,9 +3687,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6139",
@@ -3365,9 +3743,15 @@
           "date": "2020-11"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6140",
@@ -3418,9 +3802,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6141",
@@ -3464,9 +3854,15 @@
           "date": "2020-11"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6142",
@@ -3515,9 +3911,15 @@
           "date": "2009-06"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6143",
@@ -3568,9 +3970,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6144",
@@ -3620,9 +4028,15 @@
           "date": "2009-06"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6145",
@@ -3673,9 +4087,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6146",
@@ -3726,9 +4146,15 @@
           "date": "2014-02"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6147",
@@ -3772,9 +4198,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6148",
@@ -3824,9 +4256,15 @@
           "date": "2019-11"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Point signalé (seuils HAS 2021, ≥ 70 ans) vérifié (pages HAS et Ordre des pharmaciens) : critères phénotypiques perte ≥ 5 %/1 mois ou ≥ 10 %/6 mois ou ≥ 10 % du poids habituel, IMC < 22, sarcopénie ; sévérité IMC < 20, perte ≥ 10 %/1 mois ou ≥ 15 %/6 mois, albuminémie < 30 g/L. Calcul : 7/60 = 11,7 % en 5 mois → dénutrition modérée. Clé exacte."
+      }
     },
     {
       "id": "QCM-GERI-6149",
@@ -3877,9 +4315,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Prise en charge conforme ; aucun seuil discutable. Clé exacte. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6150",
@@ -3923,9 +4367,15 @@
           "date": "2021-11"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Seuils HAS 2021 vérifiés : perte ≥ 5 % en 1 mois = critère phénotypique ; ≥ 10 % en 1 mois = sévérité. Clé exacte."
+      }
     },
     {
       "id": "QCM-GERI-6151",
@@ -3975,9 +4425,15 @@
           "date": "2009-07"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6152",
@@ -4028,9 +4484,15 @@
           "date": "2009-07"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GERI-6153",
@@ -4084,9 +4546,15 @@
           "date": "2011-12"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6154",
@@ -4137,9 +4605,15 @@
           "date": "2022-12"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6155",
@@ -4190,9 +4664,15 @@
           "date": "2024-08"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6156",
@@ -4242,9 +4722,15 @@
           "date": "2021-08"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6157",
@@ -4295,9 +4781,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6158",
@@ -4348,9 +4840,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6159",
@@ -4398,9 +4896,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6160",
@@ -4451,9 +4955,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6161",
@@ -4502,9 +5012,15 @@
           "date": "2018-12"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6162",
@@ -4554,9 +5070,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6163",
@@ -4607,9 +5129,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6164",
@@ -4660,9 +5188,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6165",
@@ -4710,9 +5244,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6166",
@@ -4763,9 +5303,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6167",
@@ -4815,9 +5361,15 @@
           "date": "2020-09"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6168",
@@ -4872,9 +5424,15 @@
           "date": "2024-05"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-HEMA-6169",
@@ -4924,9 +5482,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-HEMA-6170",
@@ -4977,9 +5541,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-HEMA-6171",
@@ -5034,9 +5604,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée ; références aux textes algériens acquis contrôlées article par article dans le texte intégral (DOC-00074, lus avec pdftotext). Explications exactes. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-NEPH-6172",
@@ -5087,9 +5663,15 @@
           "date": "2023-11"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-NEPH-6173",
@@ -5138,9 +5720,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-NEPH-6174",
@@ -5195,9 +5783,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6175",
@@ -5249,9 +5843,15 @@
           "date": "2020-10"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6176",
@@ -5302,9 +5902,15 @@
           "date": "2024-09"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-PHAR-6177",
@@ -5358,9 +5964,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GYNE-6178",
@@ -5413,9 +6025,15 @@
           "date": "2018-07-29"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Catégories OMS (MEC 6e éd. 2025, DOC-00043) vérifiées : ≥ 35 ans et ≥ 15 cigarettes/j = catégorie 4 pour les COC. Clé exacte."
+      }
     },
     {
       "id": "QCM-GYNE-6179",
@@ -5466,9 +6084,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "audite_valide",
+        "note": "Clé vérifiée (chaque proposition vraie/fausse sans ambiguïté), explications et valeurs exactes, cohérence avec l'intitulé de l'item du programme. Aucune correction nécessaire."
+      }
     },
     {
       "id": "QCM-GYNE-6180",
@@ -5484,10 +6108,10 @@
       "reponses_correctes": [
         "D"
       ],
-      "explication_generale": "Les méthodes de contraception d'urgence sont le DIU au cuivre (jusqu'à 5 jours), l'ulipristal acétate (jusqu'à 120 heures) et le lévonorgestrel (jusqu'à 72 heures) ; leur efficacité est d'autant meilleure que la prise est précoce.",
+      "explication_generale": "Les méthodes de contraception d'urgence sont le DIU au cuivre (jusqu'à 5 jours), l'ulipristal acétate (jusqu'à 120 heures) et le lévonorgestrel (dans les 72 heures selon l'AMM française ; l'OMS admet les pilules d'urgence jusqu'à 5 jours, avec une efficacité décroissante) ; leur efficacité est d'autant meilleure que la prise est précoce.",
       "explications_par_proposition": {
         "A": "Faux : Elle expose à une grossesse non désirée alors qu'une méthode efficace est disponible.",
-        "B": "Faux : Son efficacité diminue avec le délai et il n'est utilisable que dans les 72 heures suivant le rapport.",
+        "B": "Faux : Son efficacité diminue avec le délai : l'AMM française le limite aux 72 heures suivant le rapport (l'OMS admet les pilules de contraception d'urgence jusqu'à 5 jours) ; à 96 heures, il est nettement moins efficace que le DIU au cuivre.",
         "C": "Faux : Il n'a aucune efficacité après le rapport.",
         "D": "Vrai : C'est la méthode de contraception d'urgence la plus efficace, qui assure ensuite une contraception au long cours.",
         "E": "Faux : Elle ne protège pas du rapport déjà survenu."
@@ -5516,9 +6140,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "RES-03",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-03 (IA)",
+        "verdict": "corrige",
+        "note": "[mineure] Explication B et explication générale : le lévonorgestrel présenté comme utilisable seulement dans les 72 heures, alors que l'OMS (MEC 2025, DOC-00043 : pilules d'urgence « up to five days ») l'admet jusqu'à 5 jours avec une efficacité décroissante (72 h = AMM française). → Explication B et explication générale nuancées (AMM française 72 h ; OMS jusqu'à 5 jours, efficacité décroissante). Clé inchangée (D)."
+      }
     }
   ]
 }

@@ -245,7 +245,7 @@ Notions essentielles :
 | ACSOS | Mécanisme délétère | Objectif usuel |
 |---|---|---|
 | **Hypotension artérielle** | Baisse de la PPC, ischémie | PAS ≥ 100-110 mmHg selon l'âge (BTF) [S1] ; PAS > 110 mmHg (SFAR) [S2] [seuil SFAR à vérifier dans le texte intégral] |
-| **Hypoxémie** | Ischémie | SpO2 ≥ 90 % au minimum (éviter toute désaturation) ; PaO2 > 60 mmHg [S1] |
+| **Hypoxémie** | Ischémie | Éviter toute désaturation : SpO2 < 90 % et PaO2 < 60 mmHg étaient les seuils d'alerte de la 3e édition BTF (2007) ; la 4e édition ne formule pas de seuil d'oxygénation [À VÉRIFIER — seuils retenus par la SFAR] |
 | **Hypocapnie** | Vasoconstriction, ischémie | Éviter l'hyperventilation prophylactique (PaCO2 ≤ 25 mmHg déconseillée) [S1] ; normocapnie 35-40 mmHg [S2] |
 | **Hypercapnie** | Vasodilatation, HTIC | Normocapnie |
 | **Anémie** | Baisse du transport d'O2 | Seuil transfusionnel selon protocole (souvent Hb ≥ 7 g/dL) [À VÉRIFIER — SFAR 2016] |
@@ -715,7 +715,7 @@ Mydriase aréactive unilatérale + troubles de conscience
 4. **HSDA** : veines ponts, croissant ; **> 10 mm ou déviation > 5 mm = chirurgie** ; pronostic plus sombre [S8].
 5. **TDM sans injection** = examen de référence ; pas de radiographie du crâne ; indications du TC léger : **NICE NG232**, **règle canadienne** (adulte), **PECARN** (enfant) [S3, S4, S5].
 6. Patient sous **anticoagulant ou antiagrégant (hors aspirine seule)** : envisager une TDM dans les 8 h même sans autre critère (NICE) [S3].
-7. TC grave : intubation, **SpO2 ≥ 90 %**, **normocapnie** (pas d'hyperventilation prophylactique), **PAS ≥ 100-110 mmHg selon l'âge**, PIC traitée au-delà de **22 mmHg**, **PPC 60-70 mmHg** [S1].
+7. TC grave : intubation, **pas de désaturation** (SpO2 ≥ 90 % au minimum), **normocapnie** (pas d'hyperventilation prophylactique), **PAS ≥ 100-110 mmHg selon l'âge**, PIC traitée au-delà de **22 mmHg**, **PPC 60-70 mmHg** [S1, S2].
 8. **Osmothérapie** (mannitol ou SSH) devant des signes d'engagement ou une HTIC ; **pas de corticoïdes** (CRASH) ; **pas d'hypothermie prophylactique** [S1, S10].
 9. **Acide tranexamique** précoce (≤ 3 h) : bénéfice dans les TC légers à modérés (CRASH-3) ; **prophylaxie anticomitiale** limitée aux crises précoces (7 jours) [S1, S9].
 10. **Craniectomie décompressive** : HTIC réfractaire ; moins de décès mais plus de handicaps sévères (RESCUEicp) → décision collégiale [S11].

@@ -156,7 +156,7 @@ Autres définitions utiles :
 - **Pic d'incidence entre 6 mois et 2 ans** ; la fréquence diminue nettement après 6-7 ans, en lien avec la maturation de la trompe auditive et du système immunitaire. L'OMA de l'adulte est beaucoup plus rare [S6].
 - **Saisonnalité hivernale**, parallèle à la circulation des virus respiratoires (VRS, rhinovirus, grippe, adénovirus), qui précèdent et favorisent la surinfection bactérienne.
 - **Facteurs de risque** reconnus : garde en collectivité (crèche), fratrie nombreuse, **tabagisme passif**, absence d'allaitement maternel, usage prolongé de la tétine, antécédents familiaux, fente palatine, trisomie 21, déficits immunitaires [S6].
-- **Algérie / Maghreb** : nous n'avons pas identifié, pendant la session, de données nationales publiées et vérifiables sur l'incidence de l'OMA ou sur les résistances du pneumocoque isolé d'otites en Algérie. **[À VÉRIFIER — données INSP / réseau algérien de surveillance de la résistance aux antibiotiques]**. En pratique, l'OMA est un motif très fréquent de consultation en pédiatrie et en médecine générale, et le calendrier vaccinal algérien inclut le vaccin pneumococcique conjugué depuis 2016-2018 (voir § 15) [S11].
+- **Algérie / Maghreb** : nous n'avons pas identifié, pendant la session, de données nationales publiées et vérifiables sur l'incidence de l'OMA ou sur les résistances du pneumocoque isolé d'otites en Algérie. **[À VÉRIFIER — données INSP / réseau algérien de surveillance de la résistance aux antibiotiques]**. En pratique, l'OMA est un motif très fréquent de consultation en pédiatrie et en médecine générale, et le calendrier vaccinal algérien de 2018 inclut le vaccin pneumococcique conjugué 13-valent (voir § 15) [S11].
 
 ## 4. Rappels anatomiques et physiologiques
 

@@ -1,19 +1,53 @@
 {
   "id": "DOS-12",
-  "statut": "en_cours",
-  "derniere_execution": "2026-11-19T02:40:00+00:00",
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19T03:16:00+00:00",
   "taches_terminees": [
     "lecture brief et conventions",
-    "vérification des références principales"
+    "vérification des références (Europe PMC, HAS, NICE)",
+    "DOS-ORL-0001 OMA (RES-CHI-044)",
+    "DOS-ORL-0002 épistaxis (RES-CHI-046)",
+    "DOS-ORL-0003 cancer du cavum (RES-CHI-049)",
+    "DOS-NCHI-0001 TCE (RES-CHI-051)",
+    "DOS-OPHT-0001 glaucome par fermeture de l'angle (RES-CHI-040)",
+    "lot QCM DOS-12.json (60)",
+    "lot cas DOS-12.json (10)"
   ],
   "taches_suivantes": [
-    "DOS-ORL-0001 OMA",
-    "DOS-ORL-0002 épistaxis",
-    "DOS-ORL-0003 cavum",
-    "DOS-NCHI-0001 TCE",
-    "DOS-OPHT-0001 GFA",
-    "lots QCM/cas DOS-12"
+    "audit AUD-xx des 5 dossiers (posologies en priorité)",
+    "lever les [À VÉRIFIER] : données algériennes (épidémiologie, disponibilité IMRT/anti-PD-1/laser YAG, résistances du pneumocoque)",
+    "lire les textes intégraux EGS 6e éd. (2025), AAO PPP 2026, SFAR 2016, SFMU 2012/2022, NCCN",
+    "vérifier AJCC 8e éd. (Amin 2017) et Marshall 1991"
   ],
-  "objectifs": {},
-  "compteurs": {}
+  "objectifs": {
+    "dossiers": 5,
+    "qcm_par_item": 12,
+    "cas_par_item": 2
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "mots_wc": {
+      "DOS-ORL-0001": 9797,
+      "DOS-ORL-0002": 8871,
+      "DOS-ORL-0003": 9038,
+      "DOS-NCHI-0001": 10999,
+      "DOS-OPHT-0001": 8785
+    },
+    "qcm": 60,
+    "cas": 10,
+    "sources_total": 57,
+    "sources_verifiees": 55,
+    "sources_non_verifiees": [
+      "AJCC 8e éd. (DOS-ORL-0003 S5)",
+      "Marshall 1991 (DOS-NCHI-0001 S17)"
+    ],
+    "marqueurs_posologie_a_verifier": {
+      "DOS-ORL-0001": 2,
+      "DOS-ORL-0002": 6,
+      "DOS-ORL-0003": 3,
+      "DOS-NCHI-0001": 6,
+      "DOS-OPHT-0001": 10
+    },
+    "websearch_utilises": 2
+  }
 }

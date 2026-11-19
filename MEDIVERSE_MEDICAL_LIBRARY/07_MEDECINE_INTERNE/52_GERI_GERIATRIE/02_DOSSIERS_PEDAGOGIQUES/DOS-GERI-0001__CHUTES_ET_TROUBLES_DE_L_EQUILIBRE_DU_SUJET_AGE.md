@@ -273,3 +273,500 @@ cognition, vision, pieds, polymédication   infection, nouveau médicament,
 ```
 
 Plus la vulnérabilité (facteurs prédisposants) est grande, plus un facteur précipitant **minime** suffit à provoquer la chute ; l'inverse est vrai chez un sujet robuste (il faut une perturbation importante). La chute d'un sujet âgé robuste lors d'une activité à risque (escabeau) n'a pas la même signification que la chute d'un sujet fragile en se levant de son lit.
+
+---
+
+## 6. Facteurs de risque
+
+### 6.1 Facteurs liés à la personne (intrinsèques)
+
+| Domaine | Facteurs | Commentaire |
+|---|---|---|
+| Antécédents | **Chute(s) antérieure(s)** dans l'année | Meilleur prédicteur d'une nouvelle chute [S1] |
+| Âge, sexe | Grand âge ; sexe féminin (fractures plus fréquentes) | Non modifiables |
+| Marche et équilibre | Vitesse de marche lente, TUG allongé, appui unipodal impossible, double tâche altérée | Cibles de l'exercice |
+| Force musculaire | Sarcopénie, faiblesse des membres inférieurs (lever de chaise difficile) | Modifiable |
+| Neurologie | Maladie de Parkinson, séquelles d'AVC, neuropathie périphérique, myélopathie cervicale, hydrocéphalie à pression normale, troubles cognitifs et démence | Évaluation neurologique systématique |
+| Cardiovasculaire | **Hypotension orthostatique**, hypotension post-prandiale, troubles du rythme ou de la conduction, rétrécissement aortique, hypersensibilité sino-carotidienne | Chutes « inexpliquées » ou avec malaise |
+| Sensoriel | Baisse visuelle (cataracte, DMLA, glaucome), verres progressifs, troubles vestibulaires | Correction possible |
+| Locomoteur et pieds | Arthrose, déformations, douleurs podales, chaussures inadaptées | Podologie, chaussage |
+| Psychique | Dépression, peur de tomber, anxiété | Réduction d'activité |
+| Métabolique / nutrition | Dénutrition, déshydratation, hypoglycémie (sulfamides, insuline), hyponatrémie, carence en vitamine D | Biologie orientée |
+| Urinaire | Incontinence par urgenturie, nycturie (levers nocturnes) | Chutes nocturnes |
+| Fragilité | Syndrome de fragilité, polypathologie | Repérer et évaluer globalement |
+
+### 6.2 Facteurs médicamenteux (FRID : *fall-risk-increasing drugs*)
+
+La **polymédication** et certaines classes augmentent le risque de chute ; leur révision est une intervention prioritaire [S1, S8, S9].
+
+| Classe | Mécanisme principal | Commentaire |
+|---|---|---|
+| Benzodiazépines et hypnotiques apparentés (« Z-drugs ») | Sédation, troubles de l'équilibre, ralentissement psychomoteur | À éviter chez le sujet âgé ayant des antécédents de chute (Beers 2023) [S8] |
+| Antipsychotiques | Sédation, syndrome parkinsonien, hypotension orthostatique | Idem |
+| Antidépresseurs (tricycliques, ISRS, IRSN) | Hypotension, hyponatrémie (ISRS), sédation | Idem ; ne pas arrêter une dépression non traitée sans alternative |
+| Antiépileptiques | Sédation, ataxie | Idem |
+| Opioïdes | Sédation, vertiges | Idem |
+| Antihypertenseurs, diurétiques, alpha-bloquants, dérivés nitrés | Hypotension orthostatique, déshydratation, hyponatrémie | Adapter les cibles tensionnelles chez le sujet fragile |
+| Hypoglycémiants (sulfamides, insuline) | Hypoglycémie | Objectifs glycémiques moins stricts chez le sujet fragile |
+| Anticholinergiques (antihistaminiques de 1re génération, antispasmodiques urinaires, etc.) | Confusion, troubles visuels, sédation | Charge anticholinergique cumulée |
+| Anticoagulants | N'augmentent pas le risque de chute mais la **gravité** (hémorragie intracrânienne) | La chute isolée n'est pas en soi une contre-indication : évaluer le bénéfice-risque [S1, S3] |
+
+Les critères de **Beers 2023** recommandent d'éviter, chez le sujet âgé ayant des antécédents de chutes ou de fractures, les antiépileptiques, antipsychotiques, benzodiazépines, hypnotiques apparentés, antidépresseurs (tricycliques, ISRS, IRSN) et opioïdes, sauf si des alternatives plus sûres ne sont pas disponibles [S8] `[liste exacte à confronter au tableau des critères]`. Les critères **STOPP/START version 3** (2023, 190 critères) comportent une section consacrée aux médicaments qui augmentent de façon prévisible le risque de chute [S9].
+
+### 6.3 Facteurs environnementaux et comportementaux
+
+Sols glissants, tapis, seuils, éclairage insuffisant (notamment nocturne), escaliers sans rampe, toilettes basses, absence de barres d'appui, animaux domestiques, mobilier instable ; chaussures inadaptées (talons, semelles lisses, chaussons ouverts) ; activités à risque (escabeau) ; isolement social ; consommation d'alcool. En milieu hospitalier ou en institution : barrières de lit (risque de chute de plus haut), contention, sondes et perfusions, changements d'environnement.
+
+---
+
+## 7. Stratification du risque (repérage et classification)
+
+### 7.1 Repérage opportuniste
+
+Les recommandations mondiales 2022 proposent que **toutes** les personnes âgées reçoivent des conseils de prévention des chutes et d'activité physique, et qu'un **repérage opportuniste** soit fait lors de tout contact avec le système de soins, notamment par trois questions : *Êtes-vous tombé au cours de l'année écoulée ? Vous sentez-vous instable debout ou en marchant ? Avez-vous peur de tomber ?* [S1] `[formulation exacte à confronter au texte]`. Une chute ayant motivé une consultation (urgences, fracture) constitue en soi une indication d'évaluation.
+
+### 7.2 Algorithme de stratification (inspiré des recommandations mondiales 2022)
+
+```text
+1. Personne âgée vue en consultation ou à l'occasion d'une chute
+2. A-t-elle chuté dans les 12 derniers mois (ou se présente-t-elle pour une chute) ?
+   2a. NON → si instabilité ou peur de tomber : évaluer marche/équilibre ; sinon RISQUE FAIBLE
+             → conseils, activité physique, réévaluation périodique
+   2b. OUI → rechercher des critères de SÉVÉRITÉ :
+             - chute avec traumatisme (blessure) ;
+             - ≥ 2 chutes dans l'année ;
+             - fragilité ;
+             - impossibilité de se relever seul / station prolongée au sol ;
+             - perte de connaissance ou syncope suspectée
+       → au moins un critère : RISQUE ÉLEVÉ → évaluation MULTIFACTORIELLE complète
+                                              + interventions personnalisées multidomaines
+       → aucun critère : évaluer la marche et l'équilibre
+             (ex. vitesse de marche < 0,8 m/s ou TUG > 15 s)
+             - anormal → RISQUE INTERMÉDIAIRE → programme d'exercices (équilibre + renforcement)
+                                                  + révision de facteurs ciblés
+             - normal  → RISQUE FAIBLE → éducation, activité physique
+```
+
+Seuils et formulations d'après [S1] `[à confronter au texte intégral]`. Le NICE (NG249, 2025) recommande une **évaluation complète du risque de chute** pour les personnes repérées à risque et précise que les personnes hospitalisées ou vivant en établissement d'hébergement n'ont pas à remplir d'autre critère pour en bénéficier [S2]. La HAS (2009) structure la démarche en trois temps : signes de **gravité**, puis **facteurs de risque**, puis **interventions** [S3].
+
+---
+
+## 8. Diagnostic : évaluation clinique d'un sujet âgé qui a chuté
+
+### 8.1 Temps 1 — rechercher les signes de gravité (urgence)
+
+| Gravité liée… | Éléments à rechercher |
+|---|---|
+| … aux **conséquences** de la chute | Fracture (impotence, raccourcissement et rotation externe du membre inférieur), traumatisme crânien (sous anticoagulant ou antiagrégant : risque d'hématome sous-dural), plaies, **station au sol prolongée** (≥ 1 heure : rhabdomyolyse, déshydratation, hypothermie, escarres, pneumopathie d'inhalation), impossibilité de se relever, **syndrome post-chute** |
+| … à la **cause** de la chute | Malaise, perte de connaissance, syncope (cardiopathie, troubles du rythme), signes neurologiques focaux (AVC), fièvre (sepsis), hypoglycémie, déshydratation, hémorragie digestive |
+| … au **terrain** | Ostéoporose avérée, anticoagulation, isolement social ou familial (personne vivant seule), chutes à répétition rapprochées |
+
+La HAS met en avant trois situations à haut risque de complications : **ostéoporose avérée**, **traitement anticoagulant** et **isolement** social ou familial [S3].
+
+### 8.2 Temps 2 — interrogatoire (patient, entourage, témoins)
+
+- **Circonstances** : lieu, heure, activité (lever, demi-tour, marche, toilettes, nuit), mécanisme (glissade, trébuchement, dérobement des jambes, perte d'équilibre en arrière), facteur environnemental.
+- **Prodromes** : sensation vertigineuse, flou visuel, palpitations, douleur thoracique, sueurs (hypoglycémie), malaise au lever (hypotension orthostatique) ou après le repas (post-prandiale), mouvement de la tête (hypersensibilité sino-carotidienne).
+- **Perte de connaissance** ? Souvent méconnue (amnésie) : interroger les témoins ; une chute « inexpliquée » doit faire évoquer une **syncope**.
+- **Temps passé au sol**, capacité à se relever, moyen d'alerte.
+- **Nombre** de chutes dans l'année, chutes antérieures non déclarées, « presque chutes ».
+- **Médicaments** : liste exhaustive (y compris automédication, collyres, phytothérapie), modifications récentes.
+- Consommation d'alcool ; autonomie (activités de la vie quotidienne), aides techniques, habitat, entourage.
+- Peur de tomber, restriction d'activité ; humeur ; plaintes cognitives.
+
+### 8.3 Temps 3 — examen clinique ciblé
+
+| Système | Éléments clés |
+|---|---|
+| Cardiovasculaire | **Pression artérielle couché puis debout** (1 et 3 minutes) ; fréquence et rythme ; souffle aortique ; signes d'insuffisance cardiaque |
+| Neurologique | Déficit moteur, syndrome extrapyramidal (rigidité, akinésie, tremblement), syndrome cérébelleux, sensibilité profonde (pallesthésie), réflexes, signe de Romberg, examen de la marche, nystagmus |
+| Locomoteur | Douleurs articulaires, limitation des amplitudes (hanches, genoux), rachis, force musculaire (lever de chaise) |
+| Pieds et chaussage | Déformations, troubles trophiques, ongles, douleurs, chaussures |
+| Sensoriel | Acuité visuelle (de près et de loin), champ visuel, audition |
+| Cognition et humeur | Repérage des troubles cognitifs (ex. Mini-Cog, MMSE selon le contexte), dépression |
+| Nutrition | Poids, IMC, perte de poids récente |
+| Peau | Ecchymoses d'âges différents (chutes répétées, **maltraitance** à évoquer), escarres |
+
+**Hypotension orthostatique** : baisse de la PA systolique d'au moins **20 mmHg** et/ou diastolique d'au moins **10 mmHg** dans les **3 minutes** suivant le passage en position debout (définition consensuelle) [S12, S13] ; une hypotension orthostatique retardée peut apparaître au-delà de 3 minutes.
+
+### 8.4 Tests de marche et d'équilibre (simples, standardisés)
+
+| Test | Réalisation | Interprétation |
+|---|---|---|
+| **Timed Up and Go (TUG)** | Se lever d'un fauteuil, marcher 3 m, faire demi-tour, revenir s'asseoir ; chronométré [S11] | Allongé = risque accru ; seuils variables selon les sources (de 12 à 20 s) ; > 15 s dans l'algorithme mondial 2022 [S1] |
+| **Vitesse de marche** (sur 4 m, par exemple) | Marche à allure habituelle chronométrée | < 0,8 m/s : risque élevé de chute et de déclin fonctionnel [S1] |
+| **Appui unipodal** | Tenir sur un pied | Impossibilité de tenir **5 secondes** : risque de chute traumatisante (repère classique) |
+| **Lever de chaise** (5 levers, ou 30 secondes) | Se lever de la chaise bras croisés | Mesure de la force des membres inférieurs |
+| **Double tâche** (« s'arrête de marcher quand il parle ») | Observer la marche pendant une conversation | Arrêt de la marche : risque accru [S18] |
+| **Poussée sternale** / test de rétropulsion | Légère poussée vers l'arrière | Rétropulsion : syndrome post-chute, atteinte sous-corticale |
+| Échelles composites (Tinetti/POMA, Berg, SPPB) | Évaluation plus complète en consultation spécialisée | Suivi de l'évolution |
+
+### 8.5 Sémiologie des troubles de la marche et de l'équilibre
+
+Observer la marche (sur une dizaine de mètres, avec demi-tour, puis en double tâche) oriente vers la cause principale du trouble de l'équilibre :
+
+| Type de marche | Caractéristiques | Orientation étiologique |
+|---|---|---|
+| **Précautionneuse** | Marche lente, élargie, pas raccourcis, bras écartés, comme « sur la glace » ; sans signe neurologique focal | Peur de tomber, adaptation non spécifique ; à distinguer d'une atteinte neurologique |
+| **À petits pas (frontale, « lacunaire »)** | Pas courts, traînants, élargissement du polygone, difficulté à l'initiation et aux demi-tours, rétropulsion | Lésions vasculaires de la substance blanche, hydrocéphalie à pression normale, syndrome post-chute |
+| **Parkinsonienne** | Marche festinante, pas courts, perte du ballant des bras, demi-tour en plusieurs temps, enrayage cinétique (*freezing*), antéflexion | Maladie de Parkinson, syndromes parkinsoniens (y compris médicamenteux : neuroleptiques) |
+| **Ataxique cérébelleuse** | Élargissement du polygone, embardées, ébriété, pas irréguliers ; Romberg non aggravé par la fermeture des yeux | Atteinte cérébelleuse (vasculaire, alcoolique, médicamenteuse) |
+| **Ataxique proprioceptive (talonnante)** | Regard au sol, lancer du pied, talonnement ; **Romberg positif** (aggravé yeux fermés) ; aggravée dans l'obscurité | Neuropathie (diabète, carence en vitamine B12), atteinte cordonale postérieure |
+| **Hémiparétique (fauchage)** | Circumduction du membre inférieur, appui asymétrique | Séquelle d'AVC |
+| **Dandinante (myopathique)** | Bascule du bassin, difficulté au lever de chaise et à la montée des marches | Myopathie (corticoïdes, dysthyroïdie, carence en vitamine D sévère), sarcopénie |
+| **Antalgique (boiterie d'esquive)** | Raccourcissement du temps d'appui du côté douloureux | Arthrose, fracture méconnue, lésion du pied |
+| **Vestibulaire** | Déviation latérale, instabilité aux mouvements de tête, vertige | Déficit vestibulaire, vertige positionnel paroxystique bénin |
+
+**Vertiges et instabilité du sujet âgé** : le vertige positionnel paroxystique bénin (VPPB) est fréquent et souvent méconnu chez le sujet âgé ; il se manifeste par des vertiges rotatoires brefs déclenchés par les changements de position (se coucher, se retourner dans le lit, lever la tête) et se diagnostique par la manœuvre de Dix-Hallpike ; il se traite par des manœuvres libératoires (Epley, Sémont), sans médicament anti-vertigineux au long cours (sédatifs, majorant le risque de chute). Une instabilité chronique non vertigineuse est le plus souvent **multifactorielle** (presbyvestibulie, neuropathie, baisse visuelle, sarcopénie), ce qui justifie une rééducation vestibulaire et de l'équilibre plutôt que des traitements médicamenteux.
+
+**Sémiologie de la fragilité** : perte de poids involontaire, épuisement, faiblesse (force de préhension), lenteur de marche et faible activité physique (phénotype de fragilité) ; la fragilité est un **état réversible** de vulnérabilité, dont la chute est souvent la première manifestation, et justifie une évaluation gériatrique globale.
+
+### 8.6 Évaluation gériatrique globale
+
+Chez le chuteur à risque élevé, l'évaluation des chutes s'intègre dans une **évaluation gériatrique standardisée** : autonomie pour les activités de base (toilette, habillage, transferts, continence, alimentation) et instrumentales (téléphone, transports, médicaments, finances), cognition, humeur, nutrition, audition et vision, comorbidités, polymédication, environnement social et aidants. Elle permet de hiérarchiser les interventions et de construire un **plan personnalisé** partagé avec le patient, l'aidant et le médecin référent [S1, S3].
+
+---
+
+## 9. Examens complémentaires
+
+L'évaluation est **avant tout clinique** ; les examens sont **orientés** et peu nombreux [S3].
+
+| Examen | Indication |
+|---|---|
+| **Glycémie capillaire** | Systématique en urgence (diabétique traité, malaise) |
+| **ECG** | Chute inexpliquée, malaise, syncope, cardiopathie, médicaments bradycardisants |
+| Ionogramme (natrémie), créatinine, NFS | Déshydratation, hyponatrémie (diurétiques, ISRS), anémie |
+| **CPK**, créatinine, kaliémie | Station prolongée au sol (rhabdomyolyse) |
+| 25-OH vitamine D, calcémie | Selon contexte (ostéoporose, dénutrition) ; place discutée |
+| Radiographies ciblées | Douleur, impotence (bassin, hanche, poignet, épaule, rachis) ; scanner si radiographie normale et forte suspicion de fracture du col |
+| **Scanner cérébral** | Traumatisme crânien sous anticoagulant ou avec signe neurologique, troubles de conscience ; **pas systématique** en l'absence de signe d'orientation (HAS 2009) [S3] |
+| Holter ECG, échocardiographie, massage sino-carotidien, tilt-test | Chute inexpliquée ou syncope suspectée (avis cardiologique) [S12] |
+| Ostéodensitométrie | Après une fracture de fragilité ou chez le chuteur à risque d'ostéoporose, si elle modifie la décision |
+| Bilan ophtalmologique, ORL/vestibulaire | Selon l'examen clinique |
+
+---
+
+## 10. Formes cliniques
+
+- **Chute mécanique** (trébuchement, glissade) chez un sujet robuste : rechercher néanmoins un trouble visuel ou un facteur environnemental ; ne pas conclure trop vite à une chute « accidentelle » chez un sujet fragile.
+- **Chute avec malaise ou perte de connaissance** : syncope réflexe, hypotension orthostatique, cause cardiaque (troubles conductifs, tachycardies, rétrécissement aortique) ; la chute « inexpliquée » du sujet âgé doit être explorée comme une syncope [S12].
+- **Chutes répétées** : évaluation multifactorielle obligatoire ; rechercher un syndrome de fragilité, des troubles cognitifs, une iatrogénie [S3].
+- **Chute du patient atteint de troubles cognitifs** : risque élevé, adhésion difficile aux programmes ; adapter (supervision, aménagement, aidants).
+- **Chute du parkinsonien** : freezing, festination, instabilité posturale tardive, hypotension orthostatique (maladie et traitements) ; fluctuations motrices.
+- **Chute au décours d'un AVC** : hémiparésie, négligence, troubles de l'équilibre.
+- **Chute à l'hôpital** : désorientation, **confusion aiguë** (voir DOS-GERI-0002), médicaments sédatifs, sondes, levers nocturnes ; prévention par évaluation à l'admission [S2].
+- **Chute en établissement d'hébergement** : fréquence élevée ; programmes multifactoriels institutionnels [S1].
+- **« Drop attack »** : dérobement brutal des jambes sans perte de connaissance ; diagnostic d'élimination.
+- **Syndrome post-chute** : voir § 12.
+
+---
+
+## 11. Diagnostics différentiels et causes à ne pas méconnaître
+
+| Situation | Arguments | Démarche |
+|---|---|---|
+| Syncope (cardiaque, réflexe, orthostatique) | Perte de connaissance brève, prodromes, témoins, ECG anormal | ECG, PA couché-debout, avis cardiologique [S12] |
+| Crise d'épilepsie | Morsure latérale de langue, confusion post-critique prolongée, mouvements | EEG, imagerie |
+| AIT / AVC | Déficit focal | Imagerie cérébrale en urgence |
+| Hypoglycémie | Diabétique sous sulfamide ou insuline, sueurs, confusion | Glycémie capillaire |
+| Vertige positionnel paroxystique bénin | Vertige rotatoire bref lors des changements de position | Manœuvres diagnostiques et libératoires |
+| Hématome sous-dural chronique | Chutes répétées, céphalées, troubles cognitifs ou de la marche d'aggravation progressive, anticoagulant | Scanner cérébral |
+| Hydrocéphalie à pression normale | Marche à petits pas, troubles cognitifs, troubles urinaires | Imagerie, avis neurologique |
+| Confusion aiguë révélant une pathologie (infection, rétention urinaire, fécalome…) | Début brutal, fluctuations | Bilan étiologique (DOS-GERI-0002) |
+| Maltraitance | Ecchymoses d'âges différents, explications incohérentes, retard de recours | Signalement aux services concernés (obligation de l'art. 198 de la loi 18-11) [S14] |
+
+---
+
+## 12. Évolution, complications et pronostic
+
+### 12.1 Complications immédiates et précoces
+
+- **Traumatiques** : fractures (extrémité supérieure du fémur, poignet, humérus, bassin, vertèbres, côtes), traumatismes crâniens (hématome sous-dural, surtout sous anticoagulant), plaies et hématomes.
+- **Station prolongée au sol** : rhabdomyolyse (CPK, risque d'insuffisance rénale aiguë), déshydratation, hypothermie, escarres, pneumopathie d'inhalation, décès.
+- **Syndrome post-chute** (urgence) : au plan **moteur**, rétropulsion en position assise et debout, marche à petits pas, élargissement du polygone, appréhension, agrippement ; au plan **psychologique**, peur intense de tomber, anxiété, repli. Sans prise en charge rapide (verticalisation précoce, kinésithérapie, réassurance), il évolue vers la **grabatisation**.
+
+### 12.2 Complications à moyen et long terme
+
+Perte d'autonomie, restriction d'activité et déconditionnement (cercle vicieux chute → peur → inactivité → sarcopénie → chute), dépression, isolement, entrée en institution, **récidive** de chute, surmortalité, en particulier après fracture de l'extrémité supérieure du fémur [S1].
+
+### 12.3 Facteurs pronostiques péjoratifs
+
+Station au sol prolongée, incapacité à se relever, chutes répétées, fracture, troubles cognitifs, dénutrition, isolement, polymédication non révisée.
+
+---
+
+## 13. Prise en charge
+
+### 13.1 Objectifs
+
+1. Traiter les **conséquences** de la chute (traumatisme, station au sol, syndrome post-chute).
+2. Traiter la **cause** précipitante (malaise, infection, médicament…).
+3. Réduire le **risque de récidive** par une intervention **multifactorielle personnalisée**.
+4. Prévenir les **fractures** (ostéoporose) et préserver l'**autonomie** et la qualité de vie.
+
+### 13.2 En urgence
+
+- Examen traumatologique complet ; imagerie orientée ; antalgie adaptée ; traitement des fractures (chirurgie précoce de la fracture du col).
+- Recherche et correction des complications de la station au sol (hydratation, surveillance de la fonction rénale si CPK élevées, réchauffement, prévention des escarres).
+- Recherche de la cause aiguë (glycémie, ECG, bilan biologique, examen neurologique).
+- **Verticalisation et remise à la marche précoces** ; kinésithérapie dès que possible pour prévenir ou traiter le syndrome post-chute.
+
+### 13.3 Interventions de prévention de la récidive (multidomaines)
+
+| Domaine | Intervention | Niveau de preuve / source |
+|---|---|---|
+| **Exercice physique** | Programme **progressif** associant **équilibre** et exercices **fonctionnels**, idéalement avec **renforcement musculaire**, au moins 3 fois par semaine, sur une durée prolongée (≥ 12 semaines puis poursuite) ; tai-chi comme alternative ; supervisé au début | Réduction d'environ **23 %** du taux de chutes (RaR 0,77) ; programmes multicomposantes RaR 0,66 [S7] ; recommandation forte [S1] ; grade B USPSTF chez les ≥ 65 ans à risque [S5] |
+| **Révision médicamenteuse** | Réduction ou arrêt progressif des FRID (psychotropes en priorité), adaptation des antihypertenseurs, des hypoglycémiants ; outils Beers 2023, STOPP/START v3 | [S1, S8, S9] |
+| **Hypotension orthostatique** | Révision des médicaments responsables, hydratation, lever en plusieurs temps, bas de contention, traitement spécifique en cas d'échec (avis spécialisé) | [S12] |
+| **Vision** | Correction optique, chirurgie de la cataracte (1er œil), prudence avec les verres progressifs à l'extérieur | [S1] |
+| **Pieds et chaussage** | Soins podologiques, chaussures fermées, stables, à talon bas et semelle fine antidérapante | [S1, S3] |
+| **Domicile** | Évaluation et aménagement par un professionnel (ergothérapeute) chez les sujets à haut risque : éclairage, suppression des tapis, barres d'appui, rehausseur de toilettes, rampe | [S1, S3] |
+| **Aides techniques** | Canne, déambulateur adaptés et appris (kinésithérapeute) | [S3] |
+| **Apprendre à se relever du sol** et disposer d'un **moyen d'alerte** (téléassistance, téléphone portable) | Réduit la durée au sol | [S1, S3] |
+| **Troubles cardiaques** | Stimulateur cardiaque en cas d'hypersensibilité sino-carotidienne cardio-inhibitrice ou de trouble conductif symptomatique (indication spécialisée) | [S12] |
+| **Ostéoporose** | Évaluation du risque fracturaire, traitement anti-ostéoporotique après fracture de fragilité ou selon les recommandations ; apports calciques et vitaminiques adaptés `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` | [S3] |
+| **Nutrition** | Dépistage et traitement de la dénutrition, apports protéiques suffisants | [S1] |
+| **Incontinence, nycturie** | Traitement étiologique, chaise percée ou urinal la nuit, éclairage | [S1] |
+| **Cognition et humeur** | Prise en charge des troubles cognitifs et de la dépression ; prudence avec les psychotropes | [S1] |
+| **Peur de tomber** | Exercice, approche cognitivo-comportementale, réassurance | [S1] |
+
+**Interventions multifactorielles** : efficaces lorsque l'évaluation débouche sur des **interventions réellement mises en œuvre** et adaptées ; l'USPSTF (2024) leur attribue un grade C (bénéfice net faible, décision individualisée) chez les personnes vivant à domicile [S5], alors que les recommandations mondiales et le NICE les recommandent chez les sujets à risque élevé [S1, S2].
+
+### 13.4 Particularités algériennes
+
+- Cadre légal : programmes de protection de la santé des personnes âgées et prise en charge à domicile (loi 18-11, art. 86-87) ; gratuité de la couverture sanitaire pour les personnes en difficulté, dont certaines personnes âgées (art. 88-90) ; soins palliatifs, soins et hospitalisation à domicile (art. 281, 286-287) ; obligation de **signaler les violences** subies notamment par les personnes âgées (art. 198) [S14] ; loi 10-12 relative à la protection des personnes âgées [S15].
+- Aucune recommandation nationale algérienne spécifique aux chutes du sujet âgé, ni programme national dédié, n'a été identifié pendant la rédaction `[À VÉRIFIER]` ; en pratique, la prise en charge mobilise le médecin généraliste (médecin référent), les services de médecine interne ou de gériatrie lorsqu'ils existent, la rééducation fonctionnelle et la kinésithérapie, et l'entourage familial, souvent central dans l'aide aux personnes âgées.
+- La disponibilité des aides techniques, de la téléassistance, de l'ergothérapie et des programmes d'exercices supervisés varie selon les wilayas `[À VÉRIFIER]` ; des programmes d'exercices à domicile simples, enseignés au patient et à l'aidant, sont une option réaliste.
+
+---
+
+## 14. Surveillance
+
+- Après une chute grave : surveillance clinique (douleur, mobilité, état cutané, hydratation), fonction rénale si rhabdomyolyse, surveillance neurologique après traumatisme crânien sous anticoagulant.
+- À moyen terme : recensement des chutes (calendrier ou carnet de chutes), réévaluation du TUG et de la vitesse de marche, observance du programme d'exercices, tolérance des modifications médicamenteuses (PA couché-debout), état nutritionnel, humeur, peur de tomber.
+- Réévaluation de la stratégie à chaque nouvelle chute ou changement d'état de santé.
+
+---
+
+## 15. Prévention (synthèse par niveau)
+
+| Niveau | Cible | Actions |
+|---|---|---|
+| Primaire | Toutes les personnes âgées | Activité physique régulière (équilibre, renforcement), prescription prudente, correction visuelle, chaussage, aménagement du domicile, éducation (se relever du sol) |
+| Secondaire | Sujets ayant chuté ou à risque intermédiaire/élevé | Repérage opportuniste, stratification, évaluation multifactorielle, programme d'exercices, révision médicamenteuse |
+| Tertiaire | Sujets ayant des chutes graves, des fractures, un syndrome post-chute | Rééducation, traitement de l'ostéoporose, aides techniques, téléassistance, soutien des aidants, prévention de la perte d'autonomie |
+
+---
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Conduite à tenir devant une personne âgée qui vient de chuter
+
+```text
+1. Signes de gravité immédiate ?
+   - traumatisme sévère (fracture, TC sous anticoagulant, troubles de conscience)
+   - station au sol ≥ 1 h / impossibilité de se relever
+   - pathologie aiguë sous-jacente (syncope, déficit neurologique, fièvre, hypoglycémie)
+   → OUI : prise en charge en urgence (imagerie, glycémie, ECG, CPK, ionogramme, créatinine) ; traiter la cause et les complications
+   → NON : aller en 2
+2. Recherche d'une cause précipitante : malaise ? perte de connaissance ? nouveau médicament ? infection ? environnement ?
+   - chute inexpliquée ou syncope suspectée → bilan de syncope (ECG, PA couché-debout, avis cardiologique)
+3. Syndrome post-chute ? (rétropulsion, peur intense, marche impossible) → verticalisation et kinésithérapie URGENTES
+4. Stratifier le risque de récidive (algorithme § 7.2)
+   - risque élevé → évaluation multifactorielle complète
+   - risque intermédiaire → exercice + facteurs ciblés
+   - risque faible → éducation + activité physique
+5. Plan d'intervention écrit, partagé avec le patient, l'aidant et le médecin référent ; réévaluation programmée
+```
+
+### 16.2 Évaluation multifactorielle : liste de contrôle
+
+```text
+□ Histoire des chutes (nombre, circonstances, temps au sol, conséquences)
+□ Marche et équilibre (TUG, vitesse de marche, appui unipodal, lever de chaise, double tâche)
+□ Force musculaire, sarcopénie
+□ Médicaments (FRID, polymédication) → plan de déprescription
+□ PA couché-debout (hypotension orthostatique), ECG si indiqué
+□ Vision, audition
+□ Pieds et chaussures
+□ Cognition, humeur, peur de tomber
+□ Nutrition (poids, IMC), vitamine D selon contexte
+□ Incontinence, nycturie
+□ Ostéoporose et risque fracturaire
+□ Domicile et environnement ; aides techniques ; moyen d'alerte
+□ Autonomie (AVQ/AIVQ), entourage, aidants
+```
+
+---
+
+## 17. Cas clinique commenté (fictif)
+
+**Présentation.** Mme K., 82 ans, veuve, vit seule au 2e étage sans ascenseur ; sa fille passe chaque soir. Elle est retrouvée un matin au pied de son lit, consciente, incapable de se relever ; elle dit être tombée vers 4 heures en allant aux toilettes. C'est sa troisième chute en 8 mois (les deux premières sans blessure, non signalées au médecin).
+
+**Antécédents et traitements.** HTA traitée par amlodipine 10 mg et indapamide ; diabète de type 2 sous glibenclamide ; insomnie traitée depuis 10 ans par bromazépam le soir ; arthrose des genoux ; cataracte bilatérale non opérée. Pas d'anticoagulant.
+
+**Examen.** PA couchée 148/80 mmHg, debout à 1 min 122/70 mmHg et à 3 min 118/68 mmHg (FC 78/min, régulière) ; glycémie capillaire 0,62 g/L à l'arrivée ; ecchymose de la hanche droite, mobilisation de la hanche douloureuse mais possible, pas de raccourcissement ; examen neurologique sans déficit ; pallesthésie diminuée aux chevilles ; acuité visuelle 3/10 aux deux yeux. Après réchauffement et resucrage : TUG à 24 s, appui unipodal impossible, rétropulsion au lever.
+
+**Biologie.** CPK 2 800 UI/L (N < 170), créatinine 14 mg/L (DFG estimé abaissé), natrémie 131 mmol/L, NFS normale, CRP < 5 mg/L, HbA1c 6,4 %. ECG : rythme sinusal, pas de trouble conductif. Radiographies du bassin et de la hanche : pas de fracture.
+
+**Analyse commentée.**
+1. *Gravité* : chute **grave** (station au sol estimée à 4 heures, impossibilité de se relever, rhabdomyolyse, femme vivant seule, chutes répétées) → hospitalisation courte justifiée.
+2. *Facteurs précipitants probables* : **hypoglycémie** nocturne sous sulfamide chez une patiente à HbA1c basse ; **hypotension orthostatique** (baisse de 30 mmHg de systolique à 3 min) favorisée par l'indapamide et l'amlodipine ; **benzodiazépine** au long cours ; lever nocturne (nycturie) dans l'obscurité.
+3. *Facteurs prédisposants* : âge, cataracte, neuropathie probable (diabète), arthrose, sarcopénie, isolement.
+4. *Syndrome post-chute* débutant (rétropulsion) → kinésithérapie et verticalisation **dès le premier jour**.
+5. *Plan multifactoriel* : arrêt du glibenclamide et objectifs glycémiques adaptés au sujet âgé (avis diabétologique ; alternative non hypoglycémiante) ; arrêt de l'indapamide (hyponatrémie, orthostatisme), réévaluation de l'amlodipine et cible tensionnelle moins stricte ; **sevrage progressif** du bromazépam sur plusieurs semaines (pas d'arrêt brutal) avec mesures d'hygiène du sommeil ; hydratation et surveillance des CPK et de la créatinine ; programme d'exercices d'équilibre et de renforcement, puis à domicile ; chirurgie de la cataracte programmée ; éclairage nocturne, chaise percée ou urinal, suppression des tapis ; téléassistance ou téléphone portable ; apprentissage du relever du sol ; évaluation de l'ostéoporose (ostéodensitométrie) ; recherche de troubles cognitifs et de dépression ; information de la fille et du médecin référent.
+6. *Suivi* à 1 mois puis tous les 3 mois : carnet de chutes, TUG, PA couché-debout, glycémies, tolérance du sevrage.
+
+**Message pédagogique** : une chute n'est jamais « banale » chez le sujet âgé ; derrière la chute se cachent souvent plusieurs facteurs **modifiables**, au premier rang desquels les **médicaments**.
+
+---
+
+## 18. Points clés à retenir
+
+1. **Chute** = se retrouver involontairement au sol ou à un niveau inférieur ; **chutes répétées** = au moins 2 en 12 mois [S1, S3].
+2. Environ un tiers des personnes de 65 ans et plus à domicile chutent chaque année ; les chutes causent environ 684 000 décès par an dans le monde [S6].
+3. Le meilleur prédicteur d'une chute est une **chute antérieure** ; le risque augmente avec le **nombre de facteurs** cumulés.
+4. Toujours rechercher : **signes de gravité** (traumatisme, station au sol ≥ 1 h, impossibilité de se relever, cause grave), **terrain à risque** (ostéoporose, anticoagulant, isolement) et **syndrome post-chute** (urgence).
+5. Examen clé : **PA couché-debout** (hypotension orthostatique : baisse ≥ 20/10 mmHg dans les 3 min), **TUG**, vitesse de marche, appui unipodal, lever de chaise, examen neurologique, vision, pieds, cognition.
+6. Examens complémentaires **orientés** : glycémie, ECG, ionogramme, créatinine, CPK si station au sol ; scanner cérébral non systématique.
+7. Stratification (2022) : risque élevé → évaluation **multifactorielle** et interventions personnalisées ; intermédiaire → **exercice** ; faible → éducation.
+8. L'**exercice** (équilibre + fonctionnel ± renforcement, progressif, ≥ 3 fois/semaine) réduit d'environ 23 % le taux de chutes [S7].
+9. **Révision médicamenteuse** : psychotropes (benzodiazépines, hypnotiques, antipsychotiques, antidépresseurs), antihypertenseurs, hypoglycémiants, anticholinergiques — outils Beers 2023 et STOPP/START v3 [S8, S9].
+10. Apprendre à **se relever** et disposer d'un **moyen d'alerte** limite la durée au sol.
+
+---
+
+## 19. Pièges classiques à l'examen
+
+- Considérer une chute sans traumatisme comme « banale » et ne pas l'explorer.
+- Oublier de mesurer la **PA couché-debout** (ou ne mesurer qu'à 1 minute).
+- Prescrire un **scanner cérébral systématique** sans signe d'orientation (ou, à l'inverse, l'oublier chez un patient sous anticoagulant avec traumatisme crânien).
+- Méconnaître une **syncope** derrière une chute « inexpliquée » (amnésie de la perte de connaissance).
+- Arrêter **brutalement** une benzodiazépine prise depuis des années (syndrome de sevrage, confusion, convulsions).
+- Contre-indiquer d'emblée les anticoagulants au seul motif de chutes, sans évaluation bénéfice-risque.
+- Immobiliser au lit un patient après une chute sans fracture : risque de syndrome post-chute et de grabatisation.
+- Oublier la **rhabdomyolyse** après une station prolongée au sol.
+- Confondre facteur de risque de **chute** et facteur de **gravité** de la chute (ostéoporose, anticoagulant).
+- Négliger les ecchymoses multiples d'âges différents (penser à la **maltraitance**).
+
+---
+
+## 20. QCM d'auto-évaluation
+
+**QCM 1.** Concernant la définition des chutes chez le sujet âgé :
+A. Une chute suppose une perte de connaissance
+B. Se retrouver involontairement assis au sol après avoir glissé d'une chaise est une chute
+C. Les chutes répétées sont définies par au moins deux chutes en 12 mois
+D. Une station au sol prolongée est un critère de gravité
+E. Une chute sans traumatisme ne nécessite aucune évaluation
+
+**QCM 2.** Parmi les facteurs suivants, lesquels augmentent le risque de chute ?
+A. Antécédent de chute dans l'année
+B. Hypotension orthostatique
+C. Benzodiazépine au long cours
+D. Cataracte non opérée
+E. Anticoagulant oral (sur le risque de survenue de la chute elle-même)
+
+**QCM 3.** L'hypotension orthostatique est définie par :
+A. Une baisse de la PA systolique ≥ 20 mmHg dans les 3 minutes suivant le lever
+B. Et/ou une baisse de la PA diastolique ≥ 10 mmHg dans les 3 minutes
+C. Une accélération de la fréquence cardiaque de plus de 30/min sans baisse tensionnelle
+D. Une mesure réalisée après au moins 5 minutes de décubitus de préférence
+E. Elle peut être retardée au-delà de 3 minutes
+
+**QCM 4.** Concernant le Timed Up and Go :
+A. Le patient se lève d'un fauteuil, marche 3 mètres, fait demi-tour et se rassoit
+B. Le test est chronométré
+C. Un temps allongé est associé à un risque de chute accru
+D. Le seuil de 15 secondes est utilisé dans l'algorithme des recommandations mondiales de 2022
+E. Il remplace l'interrogatoire sur les circonstances de la chute
+
+**QCM 5.** Le syndrome post-chute :
+A. Associe rétropulsion et peur intense de tomber
+B. Est une urgence gériatrique
+C. Justifie un alitement strict de plusieurs semaines
+D. Peut évoluer vers la grabatisation
+E. Se prend en charge par une verticalisation et une kinésithérapie précoces
+
+**QCM 6.** Examens à réaliser chez une femme de 84 ans retrouvée au sol depuis 6 heures, sans traumatisme crânien ni déficit neurologique :
+A. Glycémie capillaire
+B. CPK et créatinine
+C. ECG
+D. Scanner cérébral systématique
+E. Ionogramme sanguin
+
+**QCM 7.** Concernant l'exercice physique dans la prévention des chutes :
+A. Il réduit le taux de chutes chez les personnes âgées vivant à domicile
+B. Les exercices d'équilibre et fonctionnels sont la composante essentielle
+C. La marche seule est la stratégie la mieux démontrée
+D. Le tai-chi peut être une alternative
+E. Un programme court de 2 semaines suffit
+
+**QCM 8.** Selon les critères de Beers 2023, chez un sujet âgé ayant des antécédents de chutes, il est recommandé d'éviter (sauf absence d'alternative plus sûre) :
+A. Les benzodiazépines
+B. Les antipsychotiques
+C. Les antidépresseurs tricycliques et les ISRS
+D. Les opioïdes
+E. Le paracétamol
+
+**QCM 9.** Situations à haut risque de complications graves d'une chute selon la HAS (2009) :
+A. Ostéoporose avérée
+B. Traitement anticoagulant
+C. Isolement social ou familial
+D. Port de lunettes
+E. Hypertension artérielle traitée
+
+**QCM 10.** Concernant les divergences entre recommandations :
+A. L'USPSTF 2024 attribue un grade B à l'exercice chez les ≥ 65 ans à risque accru
+B. L'USPSTF 2024 attribue un grade C aux interventions multifactorielles
+C. L'USPSTF 2024 recommande la vitamine D pour prévenir les chutes
+D. La NICE NG249 (2025) a remplacé la recommandation CG161
+E. La HAS (2009) recommande une imagerie cérébrale systématique après toute chute
+
+### Corrigé commenté
+
+- **QCM 1 : B, C, D.** A faux (la définition n'exige pas de perte de connaissance) ; E faux (toute chute est un signal d'alerte).
+- **QCM 2 : A, B, C, D.** E faux : l'anticoagulant aggrave les **conséquences** (hémorragie) mais n'augmente pas en lui-même le risque de chuter.
+- **QCM 3 : A, B, D, E.** C décrit une tachycardie posturale, pas une hypotension orthostatique.
+- **QCM 4 : A, B, C, D.** E faux : les tests complètent l'interrogatoire et l'examen.
+- **QCM 5 : A, B, D, E.** C faux : l'alitement aggrave le syndrome.
+- **QCM 6 : A, B, C, E.** D faux : en l'absence de traumatisme crânien, de trouble de conscience ou de signe neurologique, le scanner n'est pas systématique [S3].
+- **QCM 7 : A, B, D.** C faux (la marche seule n'a pas fait la preuve de son efficacité sur les chutes) [S7] ; E faux (programmes prolongés et progressifs).
+- **QCM 8 : A, B, C, D** [S8]. E faux.
+- **QCM 9 : A, B, C** [S3].
+- **QCM 10 : A, B, D.** C faux : la recommandation 2024 ne traite plus la vitamine D (la version 2018 la déconseillait) [S5] ; E faux [S3].
+
+---
+
+## 21. Divergences entre recommandations
+
+| Sujet | Position 1 (organisme, date) | Position 2 (organisme, date) | Commentaire |
+|---|---|---|---|
+| Vitamine D | HAS 2009 : supplémentation en vitamine D (± calcium) dans la prise en charge des chuteurs, en particulier en cas de carence [S3] | USPSTF 2018 : recommandation **contre** la vitamine D pour prévenir les chutes chez les sujets autonomes à domicile ; USPSTF 2024 : sujet retiré de la recommandation et renvoyé à une revue séparée [S5] ; recommandations mondiales 2022 : pas de vitamine D comme intervention isolée de prévention des chutes à domicile `[À VÉRIFIER — formulation exacte]` [S1] | Corriger une carence et traiter l'ostéoporose restent légitimes ; la vitamine D n'est pas un substitut à l'exercice |
+| Interventions multifactorielles | Recommandations mondiales 2022 et NICE 2025 : recommandées chez les sujets à risque élevé [S1, S2] | USPSTF 2024 : grade C (bénéfice net faible, décision individualisée) [S5] | L'efficacité dépend de la mise en œuvre effective des interventions |
+| Population cible | Recommandations mondiales 2022, HAS 2009 : personnes âgées (≥ 65 ans selon HAS) [S1, S3] | NICE NG249 (2025) : étend la démarche aux personnes de **50 ans et plus** à risque plus élevé [S2] | Approche fondée sur le risque plutôt que sur l'âge seul |
+| Seuil du TUG | Algorithme mondial 2022 : > 15 s [S1] | Autres sources : seuils de 12 à 20 s | Toujours préciser le seuil et la source |
+| Hospitalisés et résidents d'établissements | NICE 2025 : évaluation complète sans autre critère d'entrée [S2] | Recommandations plus anciennes centrées sur le domicile | Prévention institutionnelle à organiser |
+
+---
+
+## 22. Références
+
+1. [S1] Montero-Odasso M, van der Velde N, Martin FC, et al. World guidelines for falls prevention and management for older adults: a global initiative. Age Ageing 2022;51(9):afac205. doi:10.1093/ageing/afac205.
+2. [S2] NICE. Falls: assessment and prevention in older people and in people 50 and over at higher risk (NG249). April 2025.
+3. [S3] HAS / SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009.
+4. [S4] SFDRMG / HAS. Prévention des chutes accidentelles chez la personne âgée. 2005.
+5. [S5] USPSTF. Interventions to prevent falls in community-dwelling older adults. JAMA 2024;332(1):51-57.
+6. [S6] OMS. Chutes — aide-mémoire (2021) ; Step safely (2021).
+7. [S7] Sherrington C et al. Exercise for preventing falls in older people living in the community. Cochrane Database Syst Rev 2019;1:CD012424.
+8. [S8] American Geriatrics Society. 2023 updated AGS Beers Criteria. J Am Geriatr Soc 2023;71(7):2052-2081. doi:10.1111/jgs.18372.
+9. [S9] O'Mahony D et al. STOPP/START criteria version 3. Eur Geriatr Med 2023;14(4):625-632. doi:10.1007/s41999-023-00777-y.
+10. [S10] Tinetti ME, Speechley M, Ginter SF. N Engl J Med 1988;319:1701-1707.
+11. [S11] Podsiadlo D, Richardson S. J Am Geriatr Soc 1991;39:142-148.
+12. [S12] Brignole M et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J 2018;39:1883-1948.
+13. [S13] Freeman R et al. Clin Auton Res 2011;21:69-72.
+14. [S14] Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074).
+15. [S15] Loi n° 10-12 du 29 décembre 2010 relative à la protection des personnes âgées.
+16. [S16] ONS. Démographie algérienne 2020-2023 (n° 1030), 2024.
+17. [S17] Lamb SE et al. (ProFaNE). J Am Geriatr Soc 2005;53(9):1618-1622.
+18. [S18] Lundin-Olsson L, Nyberg L, Gustafson Y. Lancet 1997;349:617.

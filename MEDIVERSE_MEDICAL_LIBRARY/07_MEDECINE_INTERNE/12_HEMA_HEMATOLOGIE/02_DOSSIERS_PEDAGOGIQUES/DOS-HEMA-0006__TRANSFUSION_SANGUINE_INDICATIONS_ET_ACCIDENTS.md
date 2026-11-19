@@ -731,3 +731,201 @@ Arrêt de la transfusion, position assise, oxygène (ventilation non invasive si
 - Déterminer le groupe sanguin sur une seule détermination ou sur une carte de groupe présentée par le patient.
 - Oublier de **conserver la poche** et de **déclarer** l'incident.
 
+---
+
+## 20. QCM d'auto-évaluation
+
+*QCM originaux Mediverse (5 propositions, une ou plusieurs réponses exactes). Ils figurent aussi, avec d'autres, dans la banque structurée (lot DOS-14).*
+
+**QCM 1** (`QCM-HEMA-1401`) — Concernant la compatibilité ABO pour la transfusion de concentrés de globules rouges (CGR), quelles propositions sont exactes ?
+
+- A. Un receveur de groupe A peut recevoir des CGR de groupe O
+- B. Un receveur de groupe AB peut recevoir des CGR de groupe A, B, AB ou O
+- C. Un receveur de groupe O peut recevoir des CGR de groupe A
+- D. Un receveur de groupe B peut recevoir des CGR de groupe AB
+- E. Les CGR de groupe O sont dits « donneurs universels »
+
+**QCM 2** (`QCM-HEMA-1402`) — Concernant la compatibilité ABO pour la transfusion de plasma, quelles propositions sont exactes ?
+
+- A. Le plasma de groupe AB est « donneur universel »
+- B. Un receveur de groupe O peut recevoir du plasma de groupe A
+- C. Un receveur de groupe A peut recevoir du plasma de groupe O
+- D. Un receveur de groupe AB ne peut recevoir que du plasma AB
+- E. Le plasma de groupe O peut être transfusé à tous les receveurs
+
+**QCM 3** (`QCM-HEMA-1403`) — Concernant le bilan immuno-hématologique avant une transfusion de CGR programmée, quelles propositions sont exactes ?
+
+- A. Le groupe ABO-RhD repose sur deux déterminations
+- B. Une recherche d'agglutinines irrégulières (RAI) récente est nécessaire
+- C. Une RAI positive impose l'identification de l'anticorps et des CGR compatibilisés
+- D. Une carte de groupe présentée par le patient dispense du groupage
+- E. La RAI a une validité illimitée chez un patient récemment transfusé
+
+**QCM 4** (`QCM-HEMA-1404`) — Selon les recommandations internationales de l'AABB (2023) sur la transfusion de globules rouges, quelles propositions sont exactes ?
+
+- A. Chez l'adulte hospitalisé hémodynamiquement stable, une transfusion est envisagée si l'hémoglobine est inférieure à 7 g/dL
+- B. Un seuil de 8 g/dL peut être retenu en chirurgie orthopédique ou en cas de maladie cardiovasculaire préexistante
+- C. Un seuil de 7,5 g/dL peut être retenu en chirurgie cardiaque
+- D. Un seuil de 10 g/dL est recommandé chez tout patient de plus de 65 ans
+- E. Ces seuils s'appliquent aussi à l'hémorragie active non contrôlée
+
+**QCM 5** (`QCM-HEMA-1405`) — Selon les recommandations AABB/ICTMG 2025, quelles propositions concernant la transfusion de plaquettes sont exactes ?
+
+- A. Chez un patient non hémorragique sous chimiothérapie, transfusion prophylactique si plaquettes < 10 G/L
+- B. Avant une ponction lombaire, transfusion si plaquettes < 20 G/L
+- C. Dans la thrombopénie de la dengue sans hémorragie majeure, la transfusion n'est pas recommandée
+- D. Avant une chirurgie majeure non neuraxiale, transfusion si plaquettes < 50 G/L
+- E. Dans un hématome intracérébral non opéré, il faut transfuser des plaquettes même si elles sont > 100 G/L chez un patient sous antiagrégant
+
+**QCM 6** (`QCM-HEMA-1406`) — Concernant l'accident hémolytique aigu par incompatibilité ABO, quelles propositions sont exactes ?
+
+- A. Il est dû aux anticorps naturels du système ABO, principalement de type IgM
+- B. L'hémolyse est intravasculaire avec activation du complément
+- C. Sa cause principale est une erreur d'identification
+- D. Il survient typiquement 7 à 10 jours après la transfusion
+- E. La transfusion doit être arrêtée immédiatement en conservant la voie veineuse
+
+**QCM 7** (`QCM-HEMA-1407`) — Concernant le TRALI et le TACO, quelles propositions sont exactes ?
+
+- A. Le TRALI survient pendant ou dans les 6 heures suivant la transfusion
+- B. Un BNP élevé oriente vers un TACO
+- C. Le TRALI s'améliore nettement sous diurétiques
+- D. Une hypertension artérielle est plus évocatrice de TACO
+- E. Des anticorps anti-HLA ou anti-HNA du donneur sont souvent impliqués dans le TRALI
+
+**QCM 8** (`QCM-HEMA-1408`) — Un patient présente des frissons intenses, une fièvre à 40 °C et une hypotension 20 minutes après le début d'une transfusion de plaquettes. Quelles propositions sont exactes ?
+
+- A. Les plaquettes, conservées à température ambiante, sont les produits les plus exposés au risque de contamination bactérienne
+- B. Des hémocultures du patient et une culture de la poche doivent être réalisées
+- C. La poche doit être jetée immédiatement pour éviter toute contamination de l'environnement
+- D. Ce tableau évoque un choc septique transfusionnel
+- E. Il suffit de ralentir le débit de la transfusion
+
+**QCM 9** (`QCM-HEMA-1409`) — Concernant la réaction du greffon contre l'hôte post-transfusionnelle (GVH-T), quelles propositions sont exactes ?
+
+- A. Elle est due à des lymphocytes T viables du donneur
+- B. Elle associe fièvre, éruption, diarrhée, hépatite et pancytopénie
+- C. Elle est prévenue par l'irradiation des produits sanguins dans des indications ciblées
+- D. Elle est prévenue par une antibioprophylaxie
+- E. Les dons intrafamiliaux font partie des situations à risque
+
+**QCM 10** (`QCM-HEMA-1410`) — Selon la loi algérienne n° 18-11 du 2 juillet 2018 relative à la santé, quelles propositions sont exactes ?
+
+- A. La collecte du sang est assurée par des structures sanitaires publiques
+- B. Toute activité dans un but lucratif portant sur le sang humain, le plasma et leurs dérivés est interdite
+- C. Une Agence nationale du sang est créée pour suivre la politique nationale du sang et promouvoir le don
+- D. Le donneur de sang doit être âgé de 16 à 70 ans
+- E. Le don de sang doit être précédé d'un entretien médical
+
+### Corrigé commenté
+
+**QCM 1** — Réponses : **A, B, E**. On n'apporte jamais d'antigène contre lequel le receveur a un anticorps naturel : O ne reçoit que O ; AB reçoit tout.
+  - A : Vrai : les hématies O ne portent ni A ni B.
+  - B : Vrai : le receveur AB n'a pas d'anti-A ni d'anti-B.
+  - C : Faux : le sujet O possède des anti-A.
+  - D : Faux : le sujet B possède des anti-A.
+  - E : Vrai (pour les hématies).
+
+**QCM 2** — Réponses : **A, B, D**. Règle inversée : on n'apporte pas d'anticorps dirigés contre les antigènes du receveur. Le plasma AB ne contient ni anti-A ni anti-B.
+  - A : Vrai.
+  - B : Vrai : le plasma A contient des anti-B, sans cible chez un receveur O.
+  - C : Faux : le plasma O contient des anti-A.
+  - D : Vrai.
+  - E : Faux : il contient des anti-A et anti-B.
+  - *Piège* : Appliquer au plasma la règle des globules rouges.
+
+**QCM 3** — Réponses : **A, B, C**. Groupage sur deux déterminations, RAI de validité courte chez les patients transfusés ou enceintes, compatibilisation si anticorps.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai.
+  - D : Faux : le groupe doit être déterminé par le laboratoire selon les règles.
+  - E : Faux : validité courte (une allo-immunisation peut apparaître rapidement).
+
+**QCM 4** — Réponses : **A, B, C**. Stratégie restrictive (recommandation forte) ; seuils de 7,5 et 8 g/dL dans certaines populations ; l'hémorragie active relève d'une logique différente.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai.
+  - D : Faux.
+  - E : Faux : on transfuse selon la perte et l'hémodynamique.
+
+**QCM 5** — Réponses : **A, B, C, D**. Stratégies restrictives avec seuils selon le contexte ; pas de transfusion dans la dengue non hémorragique ni dans l'hématome intracérébral sous antiagrégant avec plaquettes > 100 G/L.
+  - A : Vrai (recommandation forte).
+  - B : Vrai (recommandation forte).
+  - C : Vrai.
+  - D : Vrai (conditionnelle).
+  - E : Faux : non recommandée.
+
+**QCM 6** — Réponses : **A, B, C, E**. Accident immédiat, grave (choc, CIVD, insuffisance rénale), presque toujours lié à une erreur d'identification ; arrêt, voie veineuse maintenue, réanimation, déclaration.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai.
+  - D : Faux : immédiat, dès les premiers millilitres ; c'est l'hémolyse retardée qui survient en 5–15 jours.
+  - E : Vrai.
+
+**QCM 7** — Réponses : **A, B, D, E**. TRALI : œdème lésionnel ≤ 6 h, hypotension, pas de surcharge, anticorps du donneur. TACO : œdème hydrostatique ≤ 12 h, HTA, BNP élevé, réponse aux diurétiques.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Faux : le diurétique est inefficace, voire délétère.
+  - D : Vrai.
+  - E : Vrai.
+  - *Piège* : Prescrire un diurétique dans un TRALI.
+
+**QCM 8** — Réponses : **A, B, D**. Arrêt de la transfusion, réanimation, antibiothérapie à large spectre, hémocultures et culture de la poche conservée, alerte de la structure de transfusion et déclaration.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Faux : la poche doit être conservée et renvoyée pour analyse.
+  - D : Vrai.
+  - E : Faux : arrêt immédiat.
+  - *Piège* : Jeter la poche.
+
+**QCM 9** — Réponses : **A, B, C, E**. GVH-T : complication rare mais presque toujours mortelle, prévenue par l'irradiation (indications revues depuis la déleucocytation).
+  - A : Vrai.
+  - B : Vrai : l'atteinte médullaire fait la gravité.
+  - C : Vrai.
+  - D : Faux.
+  - E : Vrai : partage d'haplotypes HLA.
+
+**QCM 10** — Réponses : **A, B, C, E**. Articles 258 à 264 (structures du sang, Agence nationale du sang, interdiction du lucre) et 368-369 (entretien médical, âge de 18 à 65 ans).
+  - A : Vrai (art. 258).
+  - B : Vrai (art. 263).
+  - C : Vrai (art. 264).
+  - D : Faux : 18 à 65 ans (art. 369).
+  - E : Vrai (art. 368).
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 (organisme, date) | Position 2 (organisme, date) | Commentaire |
+|---|---|---|---|
+| Seuil transfusionnel dans l'infarctus du myocarde | AABB 2023 : seuil de 8 g/dL possible en cas de maladie cardiovasculaire préexistante ; données insuffisantes dans le SCA [S1] | Essai MINT (publié après la recommandation) : pas de différence significative, mais tendance défavorable à la stratégie restrictive ; effet délétère non exclu [S10] | Beaucoup d'équipes visent un seuil plus élevé (≈ 8–10 g/dL) dans l'infarctus aigu `[À VÉRIFIER — recommandations cardiologiques]` |
+| Seuils plaquettaires prophylactiques | AABB/ICTMG 2025 : < 10 G/L (chimiothérapie, allogreffe) ; pas de prophylaxie dans l'autogreffe et l'aplasie médullaire stables [S2] | BSH 2017 : seuil de 10 G/L ; nuances selon les populations et les gestes [S5] ; HAS 2015 : seuils et doses propres au contexte français [S4] | Convergence sur 10 G/L ; différences pour les gestes invasifs |
+| Contrôle ultime au lit du patient | France : contrôle ultime de compatibilité ABO obligatoire au lit (test sur carte) `[À VÉRIFIER — texte réglementaire]` | BSH 2018 : vérifications d'identité et de concordance au lit, sans test ABO systématique au lit [S6] | En Algérie, appliquer la procédure nationale `[À VÉRIFIER]` |
+| Irradiation des PSL | Indications historiquement larges | Révision restrictive après déleucocytation (ex. recommandation néerlandaise) [S17] | Liste à vérifier dans les standards nationaux |
+| Plasma vs fibrinogène dans l'hémorragie traumatique | Guide européen 2023 : stratégie fondée soit sur le plasma (rapport élevé), soit sur les concentrés de fibrinogène guidés par la biologie [S13] | Pratiques nationales variables selon la disponibilité des concentrés | Disponibilité des concentrés à vérifier en Algérie `[À VÉRIFIER]` |
+
+---
+
+## 22. Références
+
+1. **[S1]** Carson JL, Stanworth SJ, Guyatt G, et al. Red Blood Cell Transfusion: 2023 AABB International Guidelines. *JAMA*. 2023;330(19):1892-1902. doi:10.1001/jama.2023.12914 — vérifiée (Europe PMC, PMID 37824153 ; résumé lu ; catalogue REC-0301).
+2. **[S2]** Metcalf RA, Nahirniak S, Guyatt G, et al. Platelet Transfusion: 2025 AABB and ICTMG International Clinical Practice Guidelines. *JAMA*. 2025;334(7):606-617. doi:10.1001/jama.2025.7529 — vérifiée (Europe PMC, PMID 40440268 ; résumé lu).
+3. **[S3]** HAS, ANSM. *Transfusions de globules rouges homologues : produits, indications, alternatives*. Novembre 2014 (mise en ligne février 2015). — vérifiée (recherche web : existence, date, domaines couverts ; seuils détaillés non lus).
+4. **[S4]** HAS. *Transfusions de plaquettes : produits, indications*. Argumentaire, 2015. — vérifiée (existence du document ; contenu non lu).
+5. **[S5]** Estcourt LJ, Birchall J, Allard S, et al. Guidelines for the use of platelet transfusions. *Br J Haematol*. 2017;176(3):365-394. doi:10.1111/bjh.14423 — vérifiée (Europe PMC, PMID 28009056).
+6. **[S6]** Robinson S, Harris A, Atkinson S, et al. The administration of blood components: a British Society for Haematology Guideline. *Transfus Med*. 2018;28(1):3-21. doi:10.1111/tme.12481 — vérifiée (Europe PMC, PMID 29110357).
+7. **[S7]** Vlaar APJ, Toy P, Fung M, et al. A consensus redefinition of transfusion-related acute lung injury. *Transfusion*. 2019;59(7):2465-2476. doi:10.1111/trf.15311 — vérifiée (Europe PMC, PMID 30993745).
+8. **[S8]** Wiersum-Osselton JC, Whitaker B, Grey S, et al. Revised international surveillance case definition of transfusion-associated circulatory overload. *Lancet Haematol*. 2019;6(7):e350-e358. doi:10.1016/s2352-3026(19)30080-8 — vérifiée (Europe PMC, PMID 31080132).
+9. **[S9]** Mueller MM, Van Remoortel H, Meybohm P, et al. Patient Blood Management: Recommendations From the 2018 Frankfurt Consensus Conference. *JAMA*. 2019;321(10):983-997. doi:10.1001/jama.2019.0554 — vérifiée (Europe PMC, PMID 30860564).
+10. **[S10]** Carson JL, Brooks MM, Hébert PC, et al. Restrictive or Liberal Transfusion Strategy in Myocardial Infarction and Anemia. *N Engl J Med*. 2023;389(26):2446-2456. doi:10.1056/nejmoa2307983 — vérifiée (Europe PMC, PMID 37952133 ; résumé lu).
+11. **[S11]** République algérienne. Loi n° 18-11 du 2 juillet 2018 relative à la santé. *JORADP* n° 46 du 29 juillet 2018. — vérifiée (document acquis, lu : art. 258 à 264, 368-369, 428).
+12. **[S12]** World Health Organization. WHO Model List of Essential Medicines, 24th list (2025), section 11. — vérifiée (document acquis, lu).
+13. **[S13]** Rossaint R, Afshari A, Bouillon B, et al. The European guideline on management of major bleeding and coagulopathy following trauma: sixth edition. *Crit Care*. 2023;27(1):80. doi:10.1186/s13054-023-04327-7 — vérifiée (Europe PMC, PMID 36859355 ; cibles chiffrées à confirmer dans le texte).
+14. **[S14]** CRASH-2 trial collaborators, Shakur H, Roberts I, et al. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage (CRASH-2). *Lancet*. 2010;376(9734):23-32. doi:10.1016/s0140-6736(10)60835-5 — vérifiée (Europe PMC, PMID 20554319).
+15. **[S15]** BCSH, Milkins C, Berryman J, et al. Guidelines for pre-transfusion compatibility procedures in blood transfusion laboratories. *Transfus Med*. 2013;23(1):3-35. doi:10.1111/j.1365-3148.2012.01199.x — vérifiée (Europe PMC, PMID 23216974).
+16. **[S16]** Radio Algérie. « Don du sang : vers la création de 36 nouveaux centres de transfusion sanguine à l'échelle nationale » (2023). https://news.radioalgerie.dz/fr/node/27880 — vérifiée (recherche web ; source journalistique publique, chiffre à confirmer par l'Agence nationale du sang).
+17. **[S17]** Wiersum-Osselton JC, Slomp J, Falkenburg JHF, et al. Guideline development for prevention of transfusion-associated graft-versus-host disease. *Br J Haematol*. 2021;195(5):681-688. doi:10.1111/bjh.17822 — vérifiée (Europe PMC, PMID 34490619).
+
+**Référence non vérifiée** : le décret de création ou d'organisation de l'Agence nationale du sang (souvent cité comme décret exécutif de 1995, réorganisation en 2009) n'a pas pu être confirmé pendant la session `[À VÉRIFIER — JORADP]`.
+
+*Points à auditer en priorité* : seuils HAS 2014/2015 détaillés ; durées de conservation et délais réglementaires (RAI, durée de passage) ; dose de plasma et de plaquettes ; tests obligatoires de qualification des dons en Algérie ; organisation nationale de l'hémovigilance ; recommandations cardiologiques sur le seuil dans le SCA.
