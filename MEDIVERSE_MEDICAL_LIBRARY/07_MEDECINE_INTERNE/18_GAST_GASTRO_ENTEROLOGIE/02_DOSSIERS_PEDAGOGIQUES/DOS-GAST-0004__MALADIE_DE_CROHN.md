@@ -553,6 +553,26 @@ Abcès (IV, puis relais), complications périanales (métronidazole, ciprofloxac
 - **Lésions anopérinéales** : drainage des abcès en urgence, **sétons** (drainage prolongé) puis infliximab ; dérivation fécale dans les formes réfractaires (faible taux de rétablissement, proctectomie parfois nécessaire) [S5, S17].
 - **Colectomie** (segmentaire, totale avec anastomose iléo-rectale, ou coloproctectomie avec iléostomie) selon l'extension colique et rectale.
 
+#### 13.2.10 Tolérance des traitements : contre-indications et effets indésirables principaux
+
+| Classe | Effets indésirables principaux | Contre-indications et précautions | Surveillance |
+|---|---|---|---|
+| **Corticoïdes systémiques** | Infections, diabète, HTA, ostéoporose, troubles de l'humeur, cataracte, retard de croissance | Infection non contrôlée (abcès), tuberculose non traitée | Glycémie, PA, calcium-vitamine D, ostéodensitométrie [S5] |
+| **Budésonide** | Effets systémiques moindres (premier passage hépatique) | Cirrhose (passage systémique accru) [À VÉRIFIER — RCP] | Clinique |
+| **Thiopurines** | Myélotoxicité, hépatotoxicité, pancréatite, infections, cancers cutanés, lymphomes | TPMT nulle ; allopurinol/fébuxostat (interaction) sauf schéma spécialisé à dose réduite [S5] | NFS, bilan hépatique S2, S4, S8, S12 puis tous les 3 mois [S5] |
+| **Méthotrexate** | Nausées, cytopénies, hépatotoxicité, pneumopathie | **Grossesse** (arrêt 6 mois avant la conception), alcool, insuffisance rénale [S5] | NFS, bilan hépatique, fonction rénale [S5] |
+| **Anti-TNF** | Infections (tuberculose, infections opportunistes), réactions aux perfusions ou aux points d'injection, lésions psoriasiformes, auto-immunité induite, lymphomes (surtout en association aux thiopurines) | Tuberculose active ou ITL non traitée, sepsis, **abcès non drainé**, insuffisance cardiaque sévère, maladie démyélinisante [S5] | Infections, tuberculose, dosages si perte de réponse [S5] |
+| **Védolizumab** | Infections surtout digestives ; action « intestino-sélective » | Bilan pré-thérapeutique identique aux anti-TNF faute de données à long terme suffisantes [S5] | Idem |
+| **Ustékinumab** | Infections, réactions locales | Idem [S5] | Idem |
+| **Inhibiteurs de JAK** | Infections (zona), dyslipidémie, thromboses, événements cardiovasculaires, cancers | Restrictions de l'EMA (≥ 65 ans, risque cardiovasculaire, tabac, cancer, thrombose) : voir DOS-RHUM-0001 | Lipides, NFS, peau |
+
+#### 13.2.11 Préparation à la chirurgie programmée
+D'après la BSG 2019 [S5] :
+- **Optimiser l'état du patient** : imagerie précisant l'extension et les complications, **drainage radiologique des abcès** et traitement du sepsis, correction de l'**anémie**, renutrition, mobilisation.
+- **Évaluer l'état nutritionnel** de tous les patients ; supplémentation orale, entérale ou parentérale si risque de dénutrition ; **nutrition entérale exclusive ou partielle d'au moins 6 semaines** avant une chirurgie pour forme pénétrante ou sténosante ou chez le patient dénutri.
+- **Arrêter ou réduire** les corticoïdes autant que possible (complications postopératoires) ; **hydrocortisone IV péri-opératoire** à dose équivalente chez les patients sous corticoïdes oraux depuis plus de 4 semaines.
+- Choisir avec le patient le type d'intervention (risque de stomie) ; prévoir le plan de prévention de la récidive postopératoire avant même l'intervention.
+
 ### 13.3 Indications et stratégie
 
 #### 13.3.1 Poussée légère à modérée iléo-cæcale
