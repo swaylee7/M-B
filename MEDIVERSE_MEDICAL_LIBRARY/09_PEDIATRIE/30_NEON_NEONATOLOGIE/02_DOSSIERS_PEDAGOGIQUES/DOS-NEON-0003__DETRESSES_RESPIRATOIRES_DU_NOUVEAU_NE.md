@@ -415,3 +415,248 @@ Cyanose peu améliorée par l'oxygène, souffle, pouls fémoraux faibles, hépat
 
 Âge gestationnel, poids de naissance, corticothérapie anténatale, qualité de la stabilisation initiale (hypothermie, hypoxie), nécessité de ventilation invasive, infection associée, HTAPP.
 
+## 13. Traitement
+
+### 13.1 Objectifs
+
+1. **Assurer une oxygénation et une ventilation suffisantes** en limitant les lésions pulmonaires (barotraumatisme, volotraumatisme, toxicité de l'oxygène).
+2. **Maintenir l'homéostasie** : température, glycémie, hémodynamique, hydratation, nutrition.
+3. **Traiter la cause** : surfactant (MMH), antibiotiques (infection), chirurgie (hernie, atrésie), drainage (pneumothorax), traitement de l'HTAPP.
+4. **Prévenir les complications** à long terme : dysplasie bronchopulmonaire, rétinopathie, lésions cérébrales.
+5. **Associer la famille** aux soins [S2].
+
+### 13.2 Moyens
+
+#### 13.2.1 Mesures générales
+
+- **Thermorégulation** : maintenir la **température centrale entre 36,5 et 37,5 °C** en permanence [S1] ; chez le grand prématuré (< 32 SA), **sac ou enveloppe en plastique** sous table radiante et gaz humidifiés pendant la stabilisation [S1].
+- **Manipulations minimales** ; position adaptée.
+- **Apports hydriques** : la plupart des prématurés débutent à **70–80 mL/kg/j** en incubateur humidifié, à adapter à la natrémie, à la diurèse et à la perte de poids [S1] ; perfusion de glucosé chez le nouveau-né qui ne peut être alimenté (pas d'alimentation orale lors de la prise en charge initiale d'une MMH selon l'OMS [S3]).
+- **Nutrition** : nutrition parentérale dès le premier jour chez le grand prématuré (acides aminés et lipides) ; **lait maternel** par voie entérale dès le premier jour si l'état hémodynamique est stable [S1].
+- **Surveillance de la glycémie**, de la pression artérielle et de la perfusion ; traitement d'une hypotension s'il existe des signes de mauvaise perfusion [S1].
+
+#### 13.2.2 Oxygène
+
+- **Toujours titré** par l'oxymétrie, délivré par un **mélangeur** (blender) [S1].
+- **Salle de naissance** (ERC 2021, recommandations européennes 2022) : FiO₂ initiale de **0,21** à partir de 32 SA, **0,21–0,30** entre 28 et 31 SA, **0,30** avant 28 SA ; obtenir une **SpO₂ ≥ 80 %** (et une FC > 100/min) en 5 minutes [S1, S8].
+- **Cibles chez le prématuré sous oxygène** : **SpO₂ 90–94 %**, alarmes à **89 et 95 %** [S1] ; des cibles plus basses réduisent la rétinopathie mais augmentent la mortalité [S1].
+- **OMS (structures à ressources limitées)** : oxygène si **SpO₂ ≤ 90 %**, pour maintenir la SpO₂ **> 90 %** — chez le prématuré atteint de détresse respiratoire, **> 90 % mais < 95 %** pour éviter les lésions oculaires ; **lunettes nasales** à **0,5–1 L/min**, jusqu'à **2 L/min** en cas de détresse sévère [S3]. Indications cliniques de l'OMS : cyanose centrale ou respiration spasmodique, geignement à chaque expiration, difficultés d'alimentation liées à la détresse, tirage sous-costal marqué, hochement de tête [S3].
+
+#### 13.2.3 Pression positive continue (PPC) et ventilation non invasive
+
+- **OMS 2022** : la **PPC est recommandée** chez le prématuré présentant des signes cliniques de syndrome de détresse respiratoire (recommandation **forte**) ; elle **peut être envisagée dès la naissance** chez le grand prématuré (< 32 SA), avec ou sans détresse (conditionnelle) ; la **PPC à bulles** peut être préférée aux autres sources de pression (conditionnelle) — elle doit être mise en œuvre par un personnel formé avec un matériel de qualité [S2].
+- **Consensus européen 2022** : stabiliser par **PPC** le prématuré qui respire spontanément (A1) ; débuter la PPC ou la ventilation nasale (s)NIPPV **dès la naissance** chez tous les nouveau-nés à risque de MMH, par exemple < 30 SA, qui n'ont pas besoin d'être intubés (A1) ; interface : **canules binasales courtes ou masque**, pression de départ d'environ **6–8 cmH₂O** (A2) ; la possibilité d'escalader vers la NIPPV réduit le recours à la ventilation invasive (A1) ; les **lunettes à haut débit** (HFNC) sont une alternative à la PPC pour certains nourrissons, à condition de pouvoir recourir à la PPC ou à la NIPPV en cas d'échec (B2) [S1].
+- **Ventilation non invasive associée au surfactant par technique LISA** = prise en charge considérée comme **optimale** du syndrome de détresse respiratoire (A1) [S1].
+
+#### 13.2.4 Surfactant exogène
+
+| Point | Recommandation européenne 2022 [S1] |
+|---|---|
+| Prématuré **< 30 SA intubé** pour la stabilisation | Lui donner du surfactant (A2) |
+| Type de surfactant | **D'origine animale** (A1) |
+| Technique | **LISA** (administration moins invasive par fin cathéter) préférée chez l'enfant respirant spontanément sous PPC (A1) ; **masque laryngé** possible chez les plus matures > 1 kg (B2) ; l'INSURE (intubation–surfactant–extubation) reste une alternative [S12] |
+| Dose initiale | **Poractant alfa 200 mg/kg**, meilleure que 100 mg/kg de poractant ou de béractant en traitement curatif (A1) |
+| Moment | **Précoce** dans l'évolution (A1) ; seuil proposé : aggravation avec **FiO₂ > 0,30 sous PPC ≥ 6 cmH₂O**, ou échographie pulmonaire en faveur (B2) |
+| Doses répétées | Deuxième, parfois troisième dose si la MMH persiste (besoin en oxygène élevé) après exclusion d'autres causes (A1) |
+| Autres indications | Pneumonie congénitale compliquant une MMH (C2), hémorragie pulmonaire (C1), inhalation méconiale sévère (B2) ; **pas d'usage de routine dans la hernie diaphragmatique** |
+
+#### 13.2.5 Caféine
+
+- **OMS 2022** : la caféine est **recommandée** pour le traitement des **apnées** du prématuré (forte) et pour faciliter l'**extubation** des prématurés nés avant 34 SA (forte) ; elle **peut être envisagée** pour la prévention des apnées avant 34 SA (conditionnelle) [S2].
+- **Consensus européen 2022** : caféine **20 mg/kg en dose de charge, puis 5–10 mg/kg/j** pour faciliter le sevrage de la ventilation (A1) ; caféine précoce envisageable chez les prématurés à haut risque de ventilation, par exemple sous ventilation non invasive (C1) [S1].
+- **Mémento OMS 2015** : citrate de caféine **20 mg/kg** (PO ou IV lente en 30 min), puis **5 mg/kg/j** 24 h plus tard, augmentable de 5 mg/kg/j jusqu'à 20 mg/kg/j ; poursuivre 4 à 5 jours après l'arrêt des apnées ; à défaut, aminophylline (charge 6 mg/kg IV en 20 min, puis 2,5 mg/kg toutes les 12 h) [S3].
+
+#### 13.2.6 Ventilation mécanique
+
+- Réservée à l'**échec** des autres méthodes ; durée à **minimiser** (A1, B2) ; modes **protecteurs** (ventilation à volume cible ou oscillation à haute fréquence) en première intention (A1) ; **hypercapnie modérée tolérée** au sevrage si le **pH reste > 7,22** (B2) ; éviter une PaCO₂ < 35 mmHg (C1) [S1].
+- **Dexaméthasone à faible dose** en cure courte dégressive pour faciliter l'extubation après 1–2 semaines de ventilation (A2) ; pas de perfusion systématique de morphine ou de midazolam (A1) [S1].
+- **NO inhalé** chez le prématuré seulement en essai thérapeutique en cas d'HTAP documentée (D2) [S1].
+
+#### 13.2.7 Autres traitements
+
+- **Antibiotiques** : selon les facteurs de risque et la clinique (DOS-NEON-0002) ; arrêt précoce si l'infection est écartée (36 h) [S1] ; position plus large de l'OMS dans les structures sans diagnostic fiable [S3].
+- **Exsufflation / drainage** d'un pneumothorax compressif.
+- **Sonde gastrique en aspiration** (hernie diaphragmatique, atrésie de l'œsophage).
+- **Prostaglandine E1** pour une cardiopathie ducto-dépendante (avis spécialisé) **[POSOLOGIE À VÉRIFIER — protocole local]**.
+- **Fermeture pharmacologique du canal artériel** hémodynamiquement significatif : indométacine, ibuprofène ou paracétamol, d'efficacité similaire (A2) [S1] **[POSOLOGIE À VÉRIFIER — protocole local]**.
+- **Transfusion** selon des seuils d'hémoglobine adaptés à l'état respiratoire (12 g/dL en cas d'atteinte cardiorespiratoire sévère, 11 g/dL sous oxygène, 7 g/dL chez l'enfant stable après 2 semaines) (A2) [S1].
+
+### 13.3 Stratégie
+
+#### 13.3.1 En salle de naissance
+
+```text
+NAISSANCE (anticiper : équipe formée, table chauffante, mélangeur O2, PPC/T-piece)
+│
+├─ Clampage retardé du cordon ≥ 60 s si l'état le permet (prématuré) [S1]
+├─ Sécher / envelopper (sac plastique < 32 SA), maintenir 36,5–37,5 °C [S1]
+├─ Respire spontanément ? → PPC (T-piece, ≥ 6 cmH2O) [S1]
+│   └─ Apnée ou bradycardie → insufflations / ventilation en pression positive
+│       (pressions de crête 20–25 cmH2O selon les experts) ; intubation seulement
+│       si échec de la ventilation au masque ou aux canules [S1, S8]
+├─ Oxygène : FiO2 initiale 0,21 (≥ 32 SA), 0,21–0,30 (28–31 SA), 0,30 (< 28 SA),
+│   ajustée sur la SpO2 ; objectif ≥ 80 % à 5 min [S1, S8]
+├─ Liquide méconial chez un nouveau-né non vigoureux : ventiler SANS DÉLAI ;
+│   pas d'aspiration trachéale systématique ; aspiration sous vision seulement
+│   si obstruction suspectée [S8]
+└─ Hernie diaphragmatique connue : intubation, sonde gastrique, éviter le ballon-masque,
+    pas de curare initial, SpO2 pré-ductale 80–95 % [S9]
+```
+
+#### 13.3.2 En unité de néonatologie : démarche devant une DRN
+
+```text
+1. Stabiliser : température, voie veineuse, glycémie, SpO2 pré/post-ductale, scope.
+2. Coter : FR, Silverman, cyanose, apnées, gaz du sang.
+3. Support respiratoire gradué : O2 titré → PPC (6–8 cmH2O) / NIPPV → ventilation.
+4. Radiographie thoracique (± échographie pulmonaire et cardiaque).
+5. Bilan infectieux si facteurs de risque ou signes : hémoculture, CRP
+   → antibiotiques probabilistes (DOS-NEON-0002) ; arrêt à 36 h si négatif [S1].
+6. Traitement selon la cause :
+   ├─ MMH : PPC + surfactant (LISA) si FiO2 > 0,30 sous PPC ≥ 6 cmH2O ; caféine
+   ├─ Tachypnée transitoire : soutien, O2/PPC si besoin, alimentation dès que possible
+   ├─ Inhalation méconiale : O2, ventilation, surfactant si sévère, recherche d'HTAPP
+   ├─ Pneumothorax compressif : exsufflation puis drainage
+   ├─ Hernie diaphragmatique, atrésie de l'œsophage : chirurgie (transfert)
+   └─ HTAPP / cardiopathie : échocardiographie, réanimation, NO inhalé, PGE1 selon la cause
+7. Réévaluer : épuisement, aggravation brutale (pneumothorax), complications.
+```
+
+### 13.4 Particularités algériennes
+
+- **Organisation des soins** : l'OMS recommande que la PPC soit délivrée par du personnel qualifié dans des structures de **niveau 2 et 3** [S2] ; le consensus européen recommande le **transfert in utero** des grossesses à haut risque de naissance avant 28–30 SA vers des centres périnatals expérimentés (B1) [S1]. La cartographie des unités de néonatologie algériennes disposant de PPC, de surfactant et de ventilation n'a pas été consultée **[À VÉRIFIER — programme national de périnatalité]**.
+- **PPC à bulles** : solution recommandée par l'OMS là où les ventilateurs manquent [S2].
+- **Surfactant** : disponibilité, préparations et coût dans les établissements publics **[À VÉRIFIER]** ; la technique LISA suppose une formation spécifique.
+- **Mortalité** : la part de la prématurité et de la détresse respiratoire dans les décès néonatals précoces observée à Blida [S13] plaide pour la **corticothérapie anténatale**, la **régionalisation** des naissances à risque et la diffusion de la PPC.
+
+## 14. Surveillance
+
+| Paramètre | Rythme | Objectif / alerte |
+|---|---|---|
+| **SpO₂** continue (pré-ductale) | Continue | 90–94 % chez le prématuré sous O₂ (alarmes 89–95 %) [S1] ; > 90 % selon l'OMS [S3] |
+| FR, score de Silverman, apnées, FC | Horaire puis selon l'évolution | Aggravation, épuisement, apnées (caféine) |
+| **FiO₂** et pression de PPC | Continue | FiO₂ > 0,30 sous PPC ≥ 6 cmH₂O → discuter le surfactant [S1] |
+| Gaz du sang | Selon la gravité | pH > 7,22, PaCO₂ non excessivement basse [S1] |
+| Température | Régulière | 36,5–37,5 °C [S1] |
+| Glycémie, apports, diurèse, poids, natrémie | Quotidien ou plus | Adaptation des apports [S1] |
+| Peau du nez et de la cloison (PPC) | Pluriquotidien | Lésions de pression |
+| **Aggravation brutale** | — | Pneumothorax, obstruction de la sonde, déplacement de la canule, hémorragie pulmonaire |
+| Échographie transfontanellaire (grand prématuré) | Selon le protocole | Hémorragie intraventriculaire |
+| **Dépistage de la rétinopathie** | Protocole établi | Exigé par le consensus européen (A1) [S1] |
+| Oxymétrie avant la sortie (nouveau-né à terme) | Après 24 h | Dépistage des cardiopathies critiques [S12] |
+
+## 15. Prévention
+
+### 15.1 Prévention de la prématurité et préparation de la naissance [S1]
+
+- Prévention générale : espacement des grossesses, prévention des césariennes non nécessaires, dépistage de la prééclampsie (aspirine à faible dose chez les femmes à risque), transfert d'un seul embryon en FIV.
+- **Progestérone vaginale** chez la femme enceinte d'un singleton avec col court ou antécédent d'accouchement prématuré (A1).
+- **Transfert in utero** vers un centre périnatal expérimenté en cas de risque de naissance avant 28–30 SA (B1).
+- **Tocolyse** de courte durée pour permettre une cure de corticoïdes et/ou le transfert (B1).
+
+### 15.2 Corticothérapie anténatale
+
+- **Consensus européen 2022** : **une cure unique** de corticoïdes anténatals à toutes les femmes à haut risque d'accouchement prématuré, **dès la viabilité et jusqu'à 34 SA révolues**, idéalement **au moins 24 h avant la naissance** (A1) ; **une seule cure de rattrapage** possible avant 32 SA si la première remonte à au moins 1–2 semaines (A2) ; entre 34 et 37 SA, bénéfice respiratoire à court terme mais pas sur la mortalité, avec risque d'hypoglycémie néonatale ; corticothérapie déconseillée en cas de travail spontané après 34 SA [S1].
+- **Posologie** : le Mémento OMS cite **deux doses de 12 mg de dexaméthasone à 24 heures d'intervalle** chez la femme à risque d'accouchement prématuré [S3] ; les schémas par bétaméthasone relèvent des protocoles obstétricaux **[POSOLOGIE À VÉRIFIER — protocole obstétrical / RCP]**.
+
+### 15.3 Autres mesures
+
+- **Sulfate de magnésium** avant 32 SA en cas d'accouchement imminent (neuroprotection, A1) [S1].
+- **Clampage retardé du cordon** d'au moins **60 secondes** si l'état le permet (A1) ; traite du cordon seulement si le clampage retardé est impossible et après 28 SA (B2) [S1].
+- **Antibioprophylaxie per partum** du streptocoque B et antibiothérapie en cas de rupture prématurée des membranes (en évitant l'amoxicilline-acide clavulanique, associée à l'entérocolite) [S1] (DOS-NEON-0002).
+- **Éviter les césariennes programmées avant terme** sans indication (tachypnée transitoire, MMH du « late preterm ») [S10].
+- **Liquide méconial** : pas d'aspiration intrapartum systématique [S11] ; surveillance du travail et prise en charge du post-terme.
+- **Diagnostic anténatal** des malformations (hernie diaphragmatique, atrésie de l'œsophage) et **naissance programmée** dans un centre adapté [S9].
+- **Formation** des équipes à la réanimation néonatale (ERC, programmes nationaux) [S8].
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Orientation étiologique
+
+```text
+NOUVEAU-NÉ EN DÉTRESSE RESPIRATOIRE
+│
+├─ Hypersialorrhée, sonde gastrique bloquée ................ ATRÉSIE DE L'ŒSOPHAGE
+├─ Cyanose au repos qui cède aux cris ...................... ATRÉSIE DES CHOANES
+├─ Abdomen plat, bruits du cœur déviés, diagnostic anténatal  HERNIE DIAPHRAGMATIQUE
+├─ Aggravation brutale, asymétrie, collapsus ............... PNEUMOTHORAX
+├─ Cyanose peu sensible à l'O2, différence SpO2 pré/post,
+│  souffle, pouls fémoraux faibles .......................... CARDIOPATHIE / HTAPP
+└─ Sinon, selon le terrain :
+    ├─ Prématuré, sans corticoïdes, détresse < 4 h, granité + bronchogramme → MMH
+    ├─ Terme/proche du terme, césarienne avant travail, distension, scissurite → TACHYPNÉE TRANSITOIRE
+    ├─ Liquide méconial épais, mottes asymétriques ........ → INHALATION MÉCONIALE
+    └─ Facteurs de risque infectieux, CRP ↑, instabilité .. → PNEUMOPATHIE / SEPSIS
+        (et toujours : y penser en association avec chacune des causes ci-dessus)
+```
+
+### 16.2 Escalade du support respiratoire chez le prématuré à risque de MMH
+
+```text
+Naissance < 30–32 SA, respire spontanément
+→ PPC/NIPPV dès la salle de naissance (6–8 cmH2O) [S1, S2]
+→ FiO2 > 0,30 sous PPC ≥ 6 cmH2O (ou échographie pulmonaire en faveur)
+   → SURFACTANT d'origine animale, poractant 200 mg/kg, de préférence par LISA [S1]
+→ Persistance → 2e (± 3e) dose de surfactant après exclusion d'une autre cause [S1]
+→ Échec de la ventilation non invasive (acidose respiratoire, apnées, FiO2 élevée)
+   → intubation, ventilation protectrice (volume cible / HFO), caféine pour le sevrage [S1]
+```
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** Adam naît à **31 SA** par voie basse, 1 450 g, après une menace d'accouchement prématuré. Sa mère, 29 ans, n'a reçu **qu'une injection de corticoïde 6 heures** avant la naissance. Pas de fièvre maternelle, membranes rompues depuis 3 heures, liquide clair, prélèvement vaginal inconnu. Apgar 6 puis 8 ; il respire spontanément.
+
+En salle de naissance, il est placé dans un **sac en plastique** sous table radiante et stabilisé sous **PPC à 6 cmH₂O** avec une FiO₂ initiale de 0,21–0,30. À **H2**, il présente une **polypnée à 80/min**, un **geignement audible à l'oreille**, un **tirage intercostal marqué**, un **entonnoir xiphoïdien discret** et un **battement des ailes du nez** discret, sans balancement thoraco-abdominal ; la SpO₂ est à 89 % sous **FiO₂ 0,40** et PPC à 7 cmH₂O. Température 36,7 °C, glycémie 2,9 mmol/L, TRC 3 s.
+
+**Question 1 — Calculez le score de Silverman et interprétez la situation.**
+*Réponse* : balancement 0 + tirage intercostal 2 + entonnoir xiphoïdien 1 + battement des ailes du nez 1 + geignement audible à l'oreille 2 = **6/10** : détresse respiratoire **sévère** [S6] chez un grand prématuré, d'apparition précoce, avec un **besoin en FiO₂ > 0,30 sous PPC ≥ 6 cmH₂O** : tableau évocateur de **maladie des membranes hyalines** (déficit en surfactant, corticothérapie anténatale incomplète) [S1, S3].
+
+**Question 2 — Quels examens demandez-vous ?**
+*Réponse* : **radiographie thoracique** (poumons de petit volume, granité diffus, bronchogramme aérique attendus) ± **échographie pulmonaire** ; **gaz du sang** ; **hémoculture** et **CRP** (prématurité, statut SGB inconnu) ; contrôle de la **glycémie** ; surveillance de la PA.
+
+**Question 3 — Quel traitement ?**
+*Réponse* :
+1. **Surfactant d'origine animale**, **poractant alfa 200 mg/kg** soit **290 mg**, de préférence par **LISA** sous PPC [S1].
+2. **Poursuite de la PPC** (6–8 cmH₂O) avec possibilité d'escalade en NIPPV [S1].
+3. **Caféine** : charge **20 mg/kg** (29 mg de citrate de caféine), puis 5–10 mg/kg/j [S1, S3].
+4. **Cibles de SpO₂ 90–94 %** [S1].
+5. **Antibiothérapie probabiliste** (amoxicilline + gentamicine selon DOS-NEON-0002), **à arrêter à 36 h** si l'hémoculture est négative et la clinique rassurante [S1].
+6. **Perfusion** de glucosé (70–80 mL/kg/j), nutrition parentérale débutée, **lait maternel** dès le premier jour si stable [S1] ; correction de la glycémie limite.
+
+**Évolution** : après le surfactant, la FiO₂ descend à 0,25 ; à H48, l'hémoculture est négative et la CRP normale : arrêt des antibiotiques ; sevrage de la PPC à J5. Les parents sont associés aux soins (peau à peau dès la stabilité) [S2].
+
+**Message** : le **seuil de FiO₂ > 0,30 sous PPC** déclenche un surfactant **précoce** ; la **corticothérapie anténatale complète** (≥ 24 h avant la naissance) aurait réduit le risque de MMH [S1].
+
+## 18. Points clés à retenir
+
+1. **DRN = polypnée > 60/min + signes de lutte + cyanose/désaturation** ; la PCIME retient une respiration ≥ 60/min et un tirage sous-costal marqué comme signes de gravité [S4, S12].
+2. **Score de Silverman** : 5 items cotés 0–2 ; **plus il est élevé, plus la détresse est grave** ; il peut baisser à tort en cas d'épuisement [S6].
+3. **MMH** = déficit en surfactant du **prématuré** : détresse dans les 4 premières heures, aggravation sur 48–72 h, radiographie granitée avec bronchogramme [S1, S3].
+4. **Tachypnée transitoire** = première cause chez le **nouveau-né à terme** ; césarienne avant travail ; évolution favorable [S10].
+5. **Inhalation méconiale** : pas d'aspiration intrapartum ni d'aspiration trachéale systématique chez le non-vigoureux ; **ventiler sans délai** [S8, S11].
+6. **Toute DRN peut être infectieuse** : bilan et antibiotiques selon les facteurs de risque ; **arrêt à 36 h** si l'infection est écartée [S1] (DOS-NEON-0002).
+7. **PPC dès la naissance** chez le prématuré à risque ; **PPC à bulles** recommandée par l'OMS dans les contextes à ressources limitées [S1, S2].
+8. **Surfactant d'origine animale**, **poractant 200 mg/kg**, **LISA**, si **FiO₂ > 0,30 sous PPC ≥ 6 cmH₂O** [S1].
+9. **Caféine** : charge 20 mg/kg, entretien 5–10 mg/kg/j ; recommandée par l'OMS pour les apnées et l'extubation [S1, S2].
+10. **SpO₂ cible 90–94 %** chez le prématuré sous oxygène ; FiO₂ initiale selon l'âge gestationnel en salle de naissance [S1, S8].
+11. **Hernie diaphragmatique** : pas de ventilation au masque prolongée, sonde gastrique, SpO₂ pré-ductale 80–95 %, PaCO₂ 50–70 mmHg, pas de surfactant de routine [S1, S9].
+12. **Prévention** : transfert in utero, **corticothérapie anténatale** (une cure jusqu'à 34 SA, ≥ 24 h avant la naissance), sulfate de magnésium < 32 SA, clampage retardé ≥ 60 s [S1].
+
+## 19. Pièges classiques à l'examen
+
+- **Inverser la lecture** du score de Silverman (0 = normal, contrairement à l'Apgar) [S6].
+- Se rassurer devant un **score qui baisse** chez un nouveau-né qui s'**épuise** (apnées, hypercapnie).
+- **Oublier l'infection** devant une détresse « typique » de MMH ou de tachypnée transitoire — ou, à l'inverse, **prolonger** des antibiotiques inutiles au-delà de 36 h [S1].
+- **Ventiler au masque** un nouveau-né porteur d'une **hernie diaphragmatique** [S9].
+- **Aspirer systématiquement la trachée** d'un nouveau-né non vigoureux né dans un liquide méconial au lieu de ventiler [S8].
+- **Hyperoxygéner** le prématuré (rétinopathie) — ou viser des saturations trop basses (mortalité) [S1].
+- **Négliger la thermorégulation** (l'hypothermie aggrave la détresse) [S1].
+- Ne pas tester la **perméabilité de l'œsophage** devant une hypersialorrhée avec hydramnios.
+- Méconnaître une **cardiopathie** devant une cyanose peu sensible à l'oxygène (oxymétrie pré/post-ductale) [S12].
+- Donner du **surfactant de routine** dans une hernie diaphragmatique [S1].
+- Croire que la **corticothérapie anténatale** est utile après 34 SA en cas de travail spontané [S1].
+
+## 20. QCM d'auto-évaluation
+
+*Questions originales Mediverse (propositions A–E, réponses multiples possibles sauf QCS). Identifiants identiques à ceux du lot JSON.*
+
