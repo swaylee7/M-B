@@ -443,3 +443,139 @@ SAIGNEMENT CHEZ UN HÉMOPHILE CONNU
 - Le registre national « Baromètre » témoigne d'une structuration récente du recueil de données au niveau du ministère de la Santé ; la majorité des patients inclus avaient une forme sévère [S6].
 - Les concentrés de facteurs relèvent de la **pharmacie hospitalière** (médicaments dérivés du sang ou recombinants) ; la disponibilité de la prophylaxie, des facteurs à demi-vie prolongée, de l'émicizumab et des agents by-passants dans les différentes wilayas n'a pas pu être vérifiée `[À VÉRIFIER : nomenclature nationale, programme national hémophilie, Association algérienne des hémophiles]`.
 - La pratique de la **circoncision** impose une **enquête familiale** et, en cas de doute, un **bilan d'hémostase préalable** chez les garçons dont un apparenté maternel est hémophile ; chez un hémophile connu, la circoncision se fait en milieu hospitalier sous couverture de facteur.
+
+---
+
+## 14. Surveillance
+
+| Domaine | Modalités | Rythme indicatif |
+|---|---|---|
+| Suivi global en CTH | Consultation multidisciplinaire (hématologue, kinésithérapeute, orthopédiste, dentiste, psychologue, assistante sociale) | Au moins annuelle (semestrielle chez l'enfant sévère) [S1, S2] |
+| Saignements | **Carnet de traitement** (papier ou électronique) : saignements, injections, doses | Revue à chaque consultation |
+| Articulations | Examen clinique standardisé (score HJHS), échographie, imagerie selon l'évolution | Annuelle |
+| Inhibiteur | Dépistage fréquent pendant les 20 premiers jours d'exposition puis jusqu'à 50, puis annuel ; avant chirurgie ; si réponse insuffisante [S1] | Selon le protocole du CTH |
+| Pharmacocinétique | Récupération, demi-vie (adaptation de la prophylaxie) | Au changement de produit ou de schéma |
+| Infections virales | Sérologies VIH, VHB, VHC ; vaccination VHA/VHB | Selon l'exposition |
+| Sous émicizumab | Tests chromogéniques bovins pour le FVIII/inhibiteur ; recherche d'anticorps anti-émicizumab si perte d'efficacité | Selon le contexte [S1] |
+| Vieillissement | Facteurs de risque cardiovasculaire, ostéoporose, cancers, fonction rénale | Annuel |
+
+---
+
+## 15. Prévention
+
+### 15.1 Prévention de la maladie (génétique)
+- **Arbre généalogique** et identification des **conductrices** (obligatoires et potentielles) ; **conseil génétique** avant toute grossesse [S1, S2].
+- **Diagnostic prénatal** : biopsie de trophoblaste (vers 11–14 SA) ou amniocentèse, après détermination du sexe fœtal (ADN fœtal libre circulant dans le sang maternel) et identification préalable de la mutation familiale ; **diagnostic préimplantatoire** dans certains pays [S1]. Le cadre légal et éthique de l'interruption de grossesse varie selon les pays `[À VÉRIFIER : cadre réglementaire algérien]`.
+- Information sur les risques liés aux **unions consanguines** dans les familles touchées.
+
+### 15.2 Prévention des saignements et des complications
+- **Prophylaxie** régulière dans les formes sévères [S1].
+- **Éducation thérapeutique** : reconnaissance précoce des saignements, **auto-injection** à domicile, carte d'hémophile mentionnant le type, la sévérité, l'inhibiteur et le CTH de référence.
+- **Contre-indications** : injections IM, aspirine et AINS classiques ; prudence avec les antithrombotiques.
+- **Activité physique** encouragée (natation, vélo, marche) pour la protection musculaire et articulaire ; sports de contact violents déconseillés [S1].
+- **Hygiène bucco-dentaire** et suivi dentaire régulier (prévenir les extractions).
+- **Vaccinations** par voie sous-cutanée, incluant l'**hépatite B** (et A) [S1].
+- **Accouchement d'une conductrice** dans une maternité en lien avec un CTH : dosage du facteur au 3e trimestre, couverture si nécessaire pour l'anesthésie périmédullaire, **éviter ventouse, forceps, électrodes de scalp** chez un garçon potentiellement atteint, dosage au sang du cordon [S1, S2].
+
+### 15.3 Prévention des inhibiteurs
+- Facteurs de risque non modifiables (mutation, antécédents familiaux) ; la nature du produit (plasmatique ou recombinant) chez les patients non préalablement traités fait l'objet de débats ; la surveillance rapprochée permet un dépistage précoce [S1].
+
+---
+
+## 16. Algorithmes décisionnels et arbres diagnostiques
+
+### 16.1 Arbre diagnostique devant un TCA isolément allongé
+
+```text
+1. TCA allongé, TP normal, plaquettes normales
+2. Héparine ? (contexte, temps de thrombine) → OUI : contrôle hors héparine
+3. Mélange 50/50 avec plasma témoin
+   3.1 Correction (immédiate et après incubation 2 h à 37 °C)
+       → dosages FVIII, FIX, FXI, FXII + VWF
+          - FVIII bas, VWF normal → HÉMOPHILIE A (sévérité selon le taux)
+             (si FVIII bas et VWF bas → maladie de Willebrand ; type 2N si liaison VWF–FVIII ↓)
+          - FIX bas → HÉMOPHILIE B (vérifier l'absence de carence en vitamine K : TP normal)
+          - FXI bas → déficit en FXI
+          - FXII bas → déficit en FXII (pas de risque hémorragique)
+   3.2 Absence de correction
+       - Immédiate → anticoagulant de type lupique (tests spécifiques, risque thrombotique)
+       - Après incubation (temps-dépendant) + FVIII bas → anti-FVIII
+            - hémophile connu traité → INHIBITEUR (titrage Bethesda)
+            - sujet sans antécédent (âgé, post-partum) → HÉMOPHILIE A ACQUISE
+```
+
+### 16.2 Arbre décisionnel devant un traumatisme crânien chez un hémophile
+
+```text
+1. Tout traumatisme crânien significatif (ou céphalées inhabituelles) = urgence
+2. Injection immédiate de facteur à dose « hémorragie intracrânienne » (ou rFVIIa si inhibiteur)
+   AVANT toute imagerie
+3. Scanner cérébral sans injection
+   3.1 Hémorragie → hospitalisation, neurochirurgie, maintien de niveaux élevés 1–3 semaines
+   3.2 Scanner normal → surveillance (hémorragie retardée possible), discuter une 2e injection
+4. Rechercher un inhibiteur si l'évolution est défavorable
+```
+
+### 16.3 Choix du traitement de fond (hémophilie A sévère)
+
+```text
+Hémophilie A sévère
+├─ Sans inhibiteur → prophylaxie par FVIII (demi-vie standard ou prolongée) ou émicizumab
+├─ Inhibiteur faible répondeur → FVIII à doses majorées possible ± ITI
+└─ Inhibiteur fort répondeur → prophylaxie par émicizumab (ou by-passants) ;
+                               ITI à discuter ; saignements traités par rFVIIa
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** Yacine, 16 ans, lycéen à Biskra, suivi pour une hémophilie A sévère (FVIII < 1 UI/dL), sans inhibiteur connu, traité « à la demande » faute de prophylaxie régulière. Il consulte 3 heures après une chute en football avec un genou droit douloureux, gonflé, chaud, bloqué en flexion à 30°. Poids 60 kg. C'est la 4e hémarthrose de ce genou en un an.
+
+**Question 1 — Quelle est la conduite immédiate ?**
+Injection **immédiate** de FVIII (sans attendre une radiographie) pour viser un pic d'environ 40–60 UI/dL [S1] ; immobilisation antalgique, glace de courte durée, surélévation, paracétamol ± opioïde ; **aucun AINS ni aspirine**, aucune injection IM.
+
+**Question 2 — Calculez la dose.**
+Dose (UI) = poids × élévation souhaitée × 0,5 = 60 × 50 × 0,5 = **1 500 UI** de FVIII (arrondie à la présentation disponible) [S1] `[POSOLOGIE À VÉRIFIER — protocole du CTH]`. Réinjection selon la demi-vie (8–12 h) et l'évolution, sur 1 à 2 jours ou plus.
+
+**Question 3 — Que signifient 4 hémarthroses du même genou en un an ?**
+Il s'agit d'une **articulation cible** avec **synovite** probable (échographie) : risque d'arthropathie rapide. L'indication d'une **prophylaxie régulière** (FVIII ou émicizumab) est formelle selon la WFH [S1] ; une synoviorthèse peut se discuter si la synovite persiste.
+
+**Question 4 — L'hémarthrose ne régresse pas après trois injections bien conduites. Que suspecter ?**
+Un **inhibiteur** : titrage Bethesda. S'il est fort répondeur, les saignements seront traités par agents by-passants (rFVIIa) et la prophylaxie par émicizumab sera discutée [S1].
+
+**Évolution.** Le titrage de l'inhibiteur est négatif ; l'échographie montre une synovite hypertrophique. Une prophylaxie est organisée avec le CTH, associée à une rééducation (renforcement du quadriceps) et à une éducation à l'auto-injection.
+
+**Commentaire pédagogique.**
+- La **précocité** de l'injection conditionne le pronostic articulaire.
+- Le passage du traitement « à la demande » à la **prophylaxie** est la mesure la plus efficace pour prévenir l'arthropathie [S1].
+- Toute inefficacité inattendue du traitement fait rechercher un inhibiteur.
+
+---
+
+## 18. Points clés à retenir
+
+1. Hémophilie = déficit **récessif lié à l'X** en **FVIII (A)** ou **FIX (B)** ; un tiers de mutations de novo.
+2. Sévérité : **sévère < 1 UI/dL**, **modérée 1–5**, **mineure > 5 à < 40** [S1, S4].
+3. Biologie : **TCA allongé isolé**, corrigé par le plasma témoin, TP et plaquettes normaux ; un TCA normal n'exclut pas une forme mineure.
+4. Manifestations typiques : **hémarthroses** et **hématomes musculaires** ; hématome du psoas = urgence (nerf fémoral, choc).
+5. **Facteur d'abord, imagerie ensuite** devant un traumatisme crânien.
+6. Dose de FVIII = poids × élévation × 0,5 ; FIX = poids × élévation × 1 [S1].
+7. **Prophylaxie** recommandée pour toute forme sévère (WFH 2020) ; l'émicizumab est une option sous-cutanée dans l'hémophilie A, avec ou sans inhibiteur.
+8. **Inhibiteur** : suspecté devant toute inefficacité ; Bethesda ; fort répondeur ≥ 5 UB/mL → by-passants, émicizumab, ITI.
+9. **Contre-indications** : injections IM, aspirine, AINS ; antifibrinolytiques contre-indiqués dans l'hématurie.
+10. Prévention : conseil génétique, conductrices, diagnostic prénatal, accouchement sans instruments, prise en charge en **CTH**.
+
+---
+
+## 19. Pièges classiques à l'examen
+
+- Retenir une transmission « autosomique » ou affirmer qu'un fils d'hémophile peut hériter de la maladie de son père (il ne reçoit pas son X).
+- Éliminer une hémophilie mineure sur un **TCA normal**.
+- Attendre le **scanner** avant d'injecter le facteur après un traumatisme crânien.
+- Prescrire de l'**acide tranexamique** devant une **hématurie**.
+- Prescrire de la **desmopressine** dans une hémophilie **B** ou une hémophilie A **sévère**.
+- Utiliser l'**émicizumab** pour traiter un saignement aigu, ou ignorer la normalisation **artificielle du TCA** sous émicizumab.
+- Associer **CCPa à fortes doses** et émicizumab (microangiopathie thrombotique).
+- Confondre **inhibiteur** (allo-anticorps chez un hémophile traité) et **hémophilie acquise** (auto-anticorps chez un sujet sans antécédent).
+- Oublier qu'une **conductrice** peut saigner et doit être explorée avant une chirurgie ou un accouchement.
