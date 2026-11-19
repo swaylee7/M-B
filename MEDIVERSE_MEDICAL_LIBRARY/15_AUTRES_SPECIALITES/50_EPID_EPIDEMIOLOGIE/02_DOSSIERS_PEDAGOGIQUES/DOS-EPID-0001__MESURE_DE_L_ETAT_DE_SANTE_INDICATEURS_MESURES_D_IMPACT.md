@@ -6,11 +6,24 @@ sous_specialite: "Épidémiologie descriptive — indicateurs de santé, mesures
 items_residanat: [RES-MED-128]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-EPID-0001.md
+    remarque: "Tous les calculs refaits par script (exacts) ; définitions conformes. Restent : chiffres ONS 2023 et STEPS 2016-2017 non confrontés aux publications primaires (hôtes ons.dz, ambassade-algerie.ch, cdn.who.int et afro.who.int inaccessibles)."
+  - date: 2026-11-19
+    auditeur: "AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 8
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-EPID-0001.md
+    remarque: "Références vérifiées par PubMed (eutils) : S6, S8, S13, S14, S15 ; Gordis 6e éd. confirmée (WorldCat). S11, S12, S16, S17 non revérifiées."
 sources:
   - id: S1
     reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (art. 11, 36, 38-39, 47, 204, 293-294, 319-323, 338)."
@@ -47,25 +60,25 @@ sources:
     doi: ""
     url: ""
     verifiee: true
-    remarque: "Existence confirmée par recherche web (2026-11-19). Le document n'a pas pu être téléchargé (hôtes bloqués) : les chiffres cités proviennent de reprises de presse (TSA, Algérie-Eco, Radio Algérie, juillet 2024) et doivent être confrontés à la publication originale."
+    remarque: "Existence confirmée par recherche web (2026-11-19). Publication primaire non consultée, ni par DOS-15 ni par l'audit AUD-01 (ons.dz et le miroir ambassade-algerie.ch inaccessibles) : les chiffres cités proviennent de reprises de presse (TSA, Algérie-Eco, Radio Algérie, juillet 2024) [À VÉRIFIER — source primaire non consultée]."
   - id: S5
     reference: "Ministère de la Santé, de la Population et de la Réforme Hospitalière / OMS. Enquête nationale sur la mesure du poids des facteurs de risque des maladies non transmissibles selon l'approche STEPwise de l'OMS — Algérie 2016-2017 (fascicule des principaux résultats, 2018)."
     organisme: "MSPRH / OMS"
     annee: 2018
     type: site_institutionnel
     doi: ""
-    url: ""
+    url: "https://www.who.int/publications/m/item/2016-2017-steps-fact-sheet-algeria"
     verifiee: true
-    remarque: "Existence et chiffres clés (diabète 14,4 %, hyperglycémie modérée 8,2 %, tabac fumé 16,5 %, échantillon 7 450 personnes de 18-69 ans) confirmés par le communiqué OMS Afrique trouvé par recherche web ; fascicule non consulté directement."
+    remarque: "Existence confirmée : fiche OMS « 2016-2017 STEPS Fact Sheet Algeria » (page who.int consultée par AUD-01) ; le PDF (cdn.who.int) et le fascicule national (afro.who.int) n'ont pas pu être ouverts. Les chiffres (diabète 14,4 %, hyperglycémie modérée 8,2 %, tabac fumé 16,5 %, 7 450 personnes de 18-69 ans) proviennent d'un communiqué OMS Afrique repris par recherche web [À VÉRIFIER — source primaire non consultée]."
   - id: S6
-    reference: "Moussouni A et al. Prevalence and risk factors of prehypertension and hypertension in Algeria. BMC Public Health. 2022;22 (article en ligne)."
+    reference: "Moussouni A, Sidi-Yakhlef A, Hamdaoui H, Aouar A, Belkhatir D. Prevalence and risk factors of prehypertension and hypertension in Algeria. BMC Public Health. 2022;22(1):1571."
     organisme: "BMC Public Health"
     annee: 2022
     type: article
     doi: "10.1186/s12889-022-13942-y"
     url: ""
     verifiee: true
-    remarque: "Analyse secondaire des données STEPS 2016-2017 (n = 6 989) ; prévalences HTA 31,6 % et pré-HTA 36,2 % confirmées par recherche web. Liste complète des auteurs, volume et numéro d'article [À VÉRIFIER]."
+    remarque: "PMID 35982441 ; résumé relu (PubMed, audit AUD-04) : analyse secondaire de la base STEPS 2016-2017 ; pré-HTA 36,2 % (IC 95 % 35,2-37,5), HTA 31,6 % (30,5-32,7). Effectif de 6 989 non relu dans le résumé [À VÉRIFIER — texte intégral]."
   - id: S7
     reference: "Ministère de la Santé, de la Population et de la Réforme Hospitalière / UNICEF. Enquête par grappes à indicateurs multiples (MICS6) 2019 — Rapport final des résultats. Alger, décembre 2020."
     organisme: "MSPRH / UNICEF"
@@ -83,6 +96,7 @@ sources:
     doi: "10.1016/S0140-6736(24)00757-8"
     url: ""
     verifiee: true
+    remarque: "PMID 38642570 ; résumé relu (audit) : DALY 2,63 → 2,88 milliards (2010-2021) ; COVID-19 1re cause de DALY en 2021 ; HALE 61,3 → 62,2 ans, baisse de 2,2 % entre 2019 et 2021."
   - id: S9
     reference: "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Philadelphia: Wolters Kluwer; 2021."
     organisme: "Wolters Kluwer"
@@ -99,8 +113,8 @@ sources:
     type: ouvrage
     doi: ""
     url: ""
-    verifiee: false
-    remarque: "Édition et année non confirmées pendant la session [À VÉRIFIER]. Aucun extrait reproduit."
+    verifiee: true
+    remarque: "6e édition confirmée (WorldCat OCLC 1079273274, Elsevier 2019 ; mise en vente fin 2018). Aucun extrait reproduit."
   - id: S11
     reference: "Porta M (ed.). A Dictionary of Epidemiology. 6th ed. Oxford: Oxford University Press; 2014."
     organisme: "IEA / Oxford University Press"
@@ -122,10 +136,10 @@ sources:
     organisme: NEJM
     annee: 1988
     type: article
-    doi: ""
+    doi: "10.1056/NEJM198806303182605"
     url: ""
-    verifiee: false
-    remarque: "Article princeps du NNT ; référence classique non revérifiée pendant la session."
+    verifiee: true
+    remarque: "Article princeps du NNT ; PMID 3374545 (vérifié, audit AUD-04)."
   - id: S14
     reference: "Levin ML. The occurrence of lung cancer in man. Acta Unio Int Contra Cancrum. 1953;9(3):531-541."
     organisme: "UICC"
@@ -133,8 +147,8 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
-    remarque: "Origine de la formule de la fraction attribuable dans la population ; non revérifiée."
+    verifiee: true
+    remarque: "Origine de la formule de la fraction attribuable dans la population ; PMID 13124110 (vérifié, audit AUD-04)."
   - id: S15
     reference: "Murray CJL. Quantifying the burden of disease: the technical basis for disability-adjusted life years. Bull World Health Organ. 1994;72(3):429-445."
     organisme: OMS
@@ -142,7 +156,8 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 8062401 (vérifié, audit AUD-04)."
   - id: S16
     reference: "Organisation mondiale de la santé. Classification statistique internationale des maladies et des problèmes de santé connexes, 10e révision (CIM-10), volume 2 (définitions de la mortalité maternelle et périnatale) ; CIM-11 en vigueur depuis le 1er janvier 2022."
     organisme: OMS
@@ -174,7 +189,7 @@ mots_cles: [indicateurs de santé, prévalence, incidence, densité d'incidence,
 # Mesure de l'état de santé de la population : indicateurs de santé et mesures d'impact
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Tous les exemples numériques sont **fictifs** (sauf mention explicite d'une source) et ont été recalculés deux fois ; les données algériennes sont citées avec leur source et leurs limites.
+> Statut : **audité par l'IA (AUD-01/AUD-04, 2026-11-19), corrections requises** — calculs et définitions vérifiés ; chiffres algériens de source secondaire à confronter aux publications ONS et STEPS ; relecture par un enseignant qualifié nécessaire. Tous les exemples numériques sont **fictifs** (sauf mention explicite d'une source) et ont été recalculés deux fois ; les données algériennes sont citées avec leur source et leurs limites.
 
 **Item du programme couvert** : RES-MED-128 — « Mesure de l'état de santé de la population : indicateurs de santé - mesures d'impact » (module Épidémiologie et médecine préventive, programme du concours de résidanat, DOC-00001).
 
@@ -490,9 +505,9 @@ L'**espérance de vie à la naissance** (e₀) est la durée moyenne de vie d'un
 
 ### 7.4 Données algériennes récentes (ONS) et lecture critique
 
-Les chiffres suivants sont ceux de la publication ONS « Démographie algérienne 2020-2023 » tels que **relayés par la presse en juillet 2024** ; ils doivent être confrontés au document original [S4] :
+Les chiffres suivants sont ceux de la publication ONS « Démographie algérienne 2020-2023 » tels que **relayés par la presse en juillet 2024** ; ce ne sont pas des chiffres officiels vérifiés : ils doivent être confrontés au document original [S4] `[À VÉRIFIER — source primaire non consultée]` :
 
-| Indicateur (Algérie) | Valeur publiée | Année |
+| Indicateur (Algérie) | Valeur relayée par la presse (source secondaire) | Année |
 |---|---|---|
 | Population au 1er janvier | ≈ 46,7 millions | 2024 |
 | Naissances vivantes | ≈ 895 000 (première fois sous 900 000 depuis 2010) | 2023 |
@@ -511,7 +526,8 @@ Les chiffres suivants sont ceux de la publication ONS « Démographie algérienn
 **Facteurs de risque des maladies non transmissibles** — enquête STEPS Algérie 2016-2017, échantillon représentatif de 7 450 personnes de 18 à 69 ans [S5, S6] :
 - diabète : **14,4 %** ; hyperglycémie modérée à jeun : **8,2 %** ;
 - tabac fumé (consommation actuelle) : **16,5 %** ;
-- hypertension artérielle : **31,6 %** (IC 95 % : 30,5-32,7) et pré-hypertension : **36,2 %**, selon une analyse secondaire publiée portant sur 6 989 participants.
+- ces trois chiffres proviennent d'un communiqué de l'OMS Afrique et non du fascicule officiel, qui n'a pas pu être consulté `[À VÉRIFIER — source primaire non consultée]` ;
+- hypertension artérielle : **31,6 %** (IC 95 % : 30,5-32,7) et pré-hypertension : **36,2 %** (IC 95 % : 35,2-37,5), selon une analyse secondaire publiée et vérifiée de la base STEPS [S6] ; ses définitions et son effectif analysé peuvent différer de ceux du fascicule officiel.
 
 Ces prévalences sont des **indicateurs de déterminants** ; leur niveau, associé au vieillissement mesuré par l'ONS, documente la **transition épidémiologique** de l'Algérie et justifie les plans nationaux multisectoriels de lutte contre les maladies non transmissibles prévus par la loi (art. 45-48) [S1]. L'enquête MICS6 (2019) fournit de son côté les indicateurs de santé de l'enfant et de la femme (couvertures, nutrition, mortalité estimée) [S7] — aucun de ses chiffres n'est repris ici faute de consultation directe du rapport.
 
@@ -862,13 +878,13 @@ E. Les comptes nationaux de la santé sont publiés annuellement
 1. [S1] Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46, 29 juillet 2018 (DOC-00074).
 2. [S2] Décret exécutif n° 22-178 du 28 avril 2022 relatif au certificat médical de décès. JORADP n° 32, 14 mai 2022 (DOC-00077).
 3. [S3] Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des MDO. JORADP n° 47, 11 juillet 2022 (DOC-00072).
-4. [S4] ONS. Démographie algérienne 2020-2023 (n° 1030). Alger, 2024 — chiffres via reprises de presse, à confronter à l'original.
+4. [S4] ONS. Démographie algérienne 2020-2023 (n° 1030). Alger, 2024 — chiffres via reprises de presse, à confronter à l'original `[À VÉRIFIER — source primaire non consultée]`.
 5. [S5] MSPRH / OMS. Enquête STEPwise Algérie 2016-2017 — principaux résultats (2018).
-6. [S6] Moussouni A et al. Prevalence and risk factors of prehypertension and hypertension in Algeria. BMC Public Health 2022. doi:10.1186/s12889-022-13942-y.
+6. [S6] Moussouni A, Sidi-Yakhlef A, Hamdaoui H, Aouar A, Belkhatir D. Prevalence and risk factors of prehypertension and hypertension in Algeria. BMC Public Health 2022;22(1):1571. doi:10.1186/s12889-022-13942-y.
 7. [S7] MSPRH / UNICEF. MICS6 Algérie 2019 — rapport final (décembre 2020).
 8. [S8] GBD 2021 Diseases and Injuries Collaborators. Lancet 2024;403(10440):2133-2161. doi:10.1016/S0140-6736(24)00757-8.
 9. [S9] Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021.
-10. [S10] Celentano DD, Szklo M. Gordis Epidemiology. 6th ed. Elsevier; 2019 `[À VÉRIFIER]`.
+10. [S10] Celentano DD, Szklo M. Gordis Epidemiology. 6th ed. Elsevier; 2019.
 11. [S11] Porta M. A Dictionary of Epidemiology. 6th ed. Oxford University Press; 2014.
 12. [S12] WHO. 2018 Global Reference List of 100 Core Health Indicators (plus health-related SDGs).
 13. [S13] Laupacis A, Sackett DL, Roberts RS. N Engl J Med 1988;318:1728-1733.

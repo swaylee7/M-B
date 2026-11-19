@@ -1,0 +1,46 @@
+{
+  "id": "DOS-01",
+  "lot": "lot2",
+  "statut": "lot2_termine_audit_requis",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "DOS-CARD-0006 Embolie pulmonaire et thromboses veineuses (RES-MED-058)",
+    "DOS-CARD-0007 Les troubles du rythme (RES-MED-063)",
+    "DOS-CARD-0008 Péricardites aiguës (RES-MED-054)",
+    "DOS-CARD-0009 Angine de poitrine / syndrome coronarien chronique (RES-MED-055)",
+    "DOS-CARD-0010 Rétrécissement aortique (RES-MED-052)",
+    "Lot QCM 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-01-lot2.json (60 QCM, QCM-CARD-0101..0160)",
+    "Lot cas cliniques 20_CAS_CLINIQUES/lots/DOS-01-lot2.json (10 cas, CAS-CARD-0101..0110)"
+  ],
+  "taches_suivantes": [
+    "Audit médical des 5 dossiers (statut brouillon_a_auditer), priorité aux posologies : HNF (bolus/débit, cible anti-Xa), thrombolytiques et ténectéplase dans l'EP, AOD (phases initiales et réductions), antiarythmiques IV (amiodarone, flécaïnide, vernakalant, procaïnamide), colchicine/AINS/prednisone et anti-IL-1 (péricardite), anti-angineux (diltiazem, vérapamil, mononitrate, trinitrine)",
+    "Lire le texte intégral de l'ESC 2025 myocardite-péricardite (classes et posologies, colchicine pendant la grossesse, anti-IL-1, restriction sportive)",
+    "Lire le texte intégral de l'ESC/EACTS 2025 valvulopathies (critères d'intervention chez l'asymptomatique, seuils de FEVG, choix de prothèse selon l'âge, antithrombotiques après TAVI, stadification)",
+    "Vérifier l'ESC 2024 SCC : bornes exactes pour l'imagerie fonctionnelle et la coronarographie directe, critères de haut risque, place des agonistes du GLP-1",
+    "Vérifier l'AHA/ACC 2026 EP : définitions des sous-catégories D1-D2, E1-E2 ; surveiller la parution de la nouvelle recommandation ESC sur l'EP",
+    "Vérifier les références non vérifiées : YEARS (Lancet 2017), PROPER (JAMA 2018), SPLF 2019, ACC/AHA FA 2023, INVICTUS, IMPI, ICAP, RHAPSODY, AHA/ACC 2023 SCC, ISCHEMIA, ESC 2019 SCC, ACC/AHA 2020 valvulopathies, EACVI/ASE 2017, Ross-Braunwald 1968, Généreux 2017 ; DOI de l'ESVS 2021",
+    "Données algériennes : épidémiologie de la MTEV, de la FA, du SCC, du RA ; séries de péricardites tuberculeuses ; disponibilité et remboursement (AOD, anti-IL-1, ivabradine, ranolazine, PCSK9, TAVI, ablation, DAI) ; position du programme national sur la corticothérapie adjuvante de la péricardite tuberculeuse"
+  ],
+  "objectifs": {"dossiers": 5, "qcm_min": 60, "cas": 10},
+  "compteurs": {
+    "dossiers_crees": 5,
+    "mots_par_dossier_wc": {
+      "DOS-CARD-0006": 14333,
+      "DOS-CARD-0007": 12210,
+      "DOS-CARD-0008": 9469,
+      "DOS-CARD-0009": 9630,
+      "DOS-CARD-0010": 8931
+    },
+    "mots_total_wc": 54573,
+    "qcm": 60,
+    "qcm_par_item": {"RES-MED-058": 12, "RES-MED-063": 12, "RES-MED-054": 12, "RES-MED-055": 12, "RES-MED-052": 12},
+    "qcm_integres_aux_dossiers": 40,
+    "cas_cliniques": 10,
+    "references_entrees_verifiees": 36,
+    "references_entrees_non_verifiees": 15,
+    "references_distinctes_verifiees": 36,
+    "references_distinctes_non_verifiees": 15,
+    "marqueurs_posologie_a_verifier": {"DOS-CARD-0006": 5, "DOS-CARD-0007": 3, "DOS-CARD-0008": 5, "DOS-CARD-0009": 4, "DOS-CARD-0010": 0},
+    "recherches_web_utilisees": 13
+  }
+}

@@ -225,7 +225,7 @@ Les réactions d'hypersensibilité ne sont pas des réponses immunes « anormale
 - **1963** : P. Gell et R. Coombs proposent la classification en quatre types.
 - **1966 – 1967** : découverte de l'**IgE** (K. et T. Ishizaka ; S. G. O. Johansson et H. Bennich).
 - **2003** : W. J. Pichler subdivise le type IV en sous-types IVa à IVd [S6].
-- **2023** : l'EAACI propose une nomenclature élargie à sept types (dont trois sous-types de type IV) [S5].
+- **2023** : l'EAACI propose une nomenclature élargie à neuf types (I à III, IVa à IVc, V, VI et VII) [S5].
 
 ---
 
@@ -260,7 +260,7 @@ Les réactions d'hypersensibilité ne sont pas des réponses immunes « anormale
 | Type | Nom | Effecteurs | Antigène | Délai | Exemples |
 |---|---|---|---|---|---|
 | **I** | immédiate, anaphylactique | **IgE**, mastocytes, basophiles | soluble (allergène) | minutes (phase tardive 4-8 h) | anaphylaxie, rhinite, asthme allergique, urticaire aiguë allergique, allergie alimentaire |
-| **II** | cytotoxique | **IgG/IgM** contre antigènes cellulaires ou matriciels ; complément, phagocytes, NK | membranaire / matriciel | heures à jours | accident transfusionnel ABO, maladie hémolytique du nouveau-né, anémie hémolytique auto-immune, Goodpasture, pemphigus, Basedow, myasthénie |
+| **II** | cytotoxique | **IgG/IgM** contre antigènes cellulaires ou matriciels ; complément, phagocytes, NK | membranaire / matriciel | minutes (accident ABO) à jours (cytopénies médicamenteuses) | accident transfusionnel ABO, maladie hémolytique du nouveau-né, anémie hémolytique auto-immune, Goodpasture, pemphigus, Basedow, myasthénie |
 | **III** | à complexes immuns | complexes antigène-**IgG/IgM**, complément, polynucléaires | soluble, en excès d'antigène | 4-8 h (Arthus) ; 7-14 jours (maladie sérique) | maladie sérique, Arthus, lupus, glomérulonéphrite post-streptococcique, cryoglobulinémie, alvéolite allergique extrinsèque (en partie) |
 | **IV** | retardée, à médiation cellulaire | **lymphocytes T**, macrophages, éosinophiles, polynucléaires | soluble ou lié aux cellules (haptènes) | 24-72 h (et plus) | IDR à la tuberculine, eczéma de contact, toxidermies retardées, granulomes, rejet cellulaire |
 
@@ -381,7 +381,7 @@ L'anaphylaxie peut être **uniphasique**, **biphasique** (récidive des symptôm
 
 ### 8.1 En phase aiguë : la tryptase sérique
 
-- Au cours d'une anaphylaxie, la tryptase sérique s'élève **à partir de 15 minutes**, atteint son **pic entre 1 et 2 heures** et peut rester élevée 3 heures ou plus ; une partie des patients garde des valeurs dans les limites usuelles (seuil couramment cité de 11,4 µg/L), notamment dans l'anaphylaxie alimentaire de l'enfant : **une tryptase normale n'exclut pas une anaphylaxie** [S7].
+- Au cours d'une anaphylaxie, la tryptase sérique est élevée **de 15 minutes à 3 heures (ou plus) après le début**, avec un **pic entre 1 et 2 heures** ; 36 à 40 % des patients gardent toutefois une valeur inférieure au seuil usuel de 11,4 µg/L, notamment dans l'anaphylaxie alimentaire de l'enfant : **une tryptase normale n'exclut pas une anaphylaxie** [S7].
 - Le dosage de la **tryptase basale** doit être réalisé **au moins 24 heures** après la résolution des symptômes [S7].
 - Critère consensuel d'activation mastocytaire : **pic de tryptase > 1,2 × tryptase basale + 2 µg/L** (formule « 20 % + 2 ») [S14].
 - Une tryptase basale élevée doit faire rechercher une **mastocytose** ou une **α-tryptasémie héréditaire**.
@@ -559,16 +559,16 @@ Le **délai** est le premier indice : minutes (type I), heures (Arthus, type III
 Selon la guidance WAO 2020 [S7], confortée par les recommandations EAACI 2021 [S8] et AAAAI/ACAAI [S9, S10] :
 
 1. **Arrêter l'exposition** si possible (perfusion en cours), **appeler à l'aide**.
-2. **Adrénaline par voie intramusculaire**, dans la face antérolatérale de la cuisse (muscle vaste latéral), **sans délai** : **0,01 mg/kg** de la solution à **1 mg/mL** (1/1 000), **sans dépasser 0,5 mg** au total par injection ; **à répéter toutes les 5 à 15 minutes** si les symptômes persistent. Repères simplifiés de la WAO : nourrisson < 10 kg : 0,01 mg/kg ; enfant de 1 à 5 ans : 0,15 mg ; enfant de 6 à 12 ans : 0,3 mg ; adolescent et adulte : 0,5 mg [S7]. La voie intramusculaire est bien tolérée, contrairement au bolus intraveineux, source d'arythmies potentiellement mortelles. *Toute adaptation doit être confrontée au RCP et au protocole local [POSOLOGIE À VÉRIFIER — RCP / protocole local].*
+2. **Adrénaline par voie intramusculaire**, dans la face antérolatérale de la cuisse (muscle vaste latéral), **sans délai** : **0,01 mg/kg** de la solution à **1 mg/mL** (1/1 000), **sans dépasser 0,5 mg** au total par injection (dose de l'adolescent et de l'adulte) ; **à renouveler si les symptômes persistent, toutes les 5 à 15 minutes** (donc dès 5 minutes). Repères simplifiés de la WAO (tableau 6) : nourrisson < 10 kg : 0,01 mg/kg (0,01 mL/kg) ; enfant de 1 à 5 ans : 0,15 mg (0,15 mL) ; enfant de 6 à 12 ans : 0,3 mg (0,3 mL) ; adolescent et adulte : 0,5 mg (0,5 mL) [S7]. La voie intramusculaire est bien tolérée, contrairement au bolus intraveineux, source d'arythmies potentiellement mortelles ; la voie IV est réservée aux patients monitorés, en perfusion, par une équipe entraînée [S7]. L'EAACI 2021 recommande elle aussi l'adrénaline intramusculaire précoce en première intention [S8]. Les modalités d'application restent celles du RCP et du protocole local.
 3. **Position** adaptée : décubitus dorsal le plus souvent ; position assise en cas de détresse respiratoire ; décubitus latéral gauche semi-assis chez la femme enceinte ; position latérale de sécurité si le patient est inconscient [S7].
-4. **Oxygène**, voie veineuse, **remplissage vasculaire** par cristalloïdes en cas d'hypotension, monitorage [POSOLOGIE À VÉRIFIER — protocole local].
+4. **Oxygène** à haut débit en cas de détresse respiratoire ou de doses répétées d'adrénaline, voie veineuse de gros calibre, **remplissage vasculaire** par cristalloïdes en cas d'instabilité cardiovasculaire (**bolus de 20 mL/kg** selon la WAO), monitorage [S7].
 5. **Anaphylaxie réfractaire** : adrénaline en perfusion intraveineuse titrée en milieu spécialisé (réanimation) ; **glucagon** envisageable chez le patient sous β-bloquant ne répondant pas à l'adrénaline, malgré un niveau de preuve limité [S7].
 6. **Traitements de deuxième ligne** : β2-mimétiques inhalés (bronchospasme), adrénaline nébulisée en cas d'obstruction des voies aériennes supérieures, antihistaminiques H1 (signes cutanés seulement), glucocorticoïdes. La WAO souligne que l'usage systématique des glucocorticoïdes est devenu controversé (bénéfice non démontré, voire délétère) [S7], et la mise à jour AAAAI/ACAAI 2020 indique que les antihistaminiques et/ou glucocorticoïdes ne sont pas des moyens fiables de prévention de l'anaphylaxie biphasique [S9].
 7. **Prélèvement pour la tryptase** (pic et basale) sans retarder le traitement [S7, S8].
 8. **Surveillance** jusqu'à résolution complète, prolongée si la réaction était sévère ou a nécessité plusieurs doses d'adrénaline [S9].
-9. **À la sortie** : prescription d'**auto-injecteurs d'adrénaline** et éducation, plan d'action écrit, éviction du déclencheur, **consultation d'allergologie** pour l'exploration [S8, S9]. La guidance WAO souligne la disponibilité et le coût encore limitants des auto-injecteurs dans de nombreux pays [S7] ; leur disponibilité en Algérie n'a pas été vérifiée pendant la rédaction [À VÉRIFIER].
+9. **À la sortie** : prescription d'**auto-injecteurs d'adrénaline** et éducation, plan d'action écrit, éviction du déclencheur, **consultation d'allergologie** pour l'exploration [S8, S9]. La guidance WAO souligne que les auto-injecteurs ne sont disponibles que dans environ un tiers des pays (32 % selon son enquête), parfois seulement par importation et à un coût élevé ; à défaut, elle propose des seringues pré-remplies ou des ampoules d'adrénaline, avec une éducation adaptée du patient [S7]. Leur disponibilité en Algérie n'a pu être vérifiée ni pendant la rédaction ni pendant l'audit.
 
-Les recommandations françaises de la SFMU (2016), élaborées avec la SFA, le GFRUP et la SP2A, placent elles aussi l'adrénaline intramusculaire au centre du traitement et insistent sur l'orientation vers une consultation d'allergologie [S12] ; un erratum a corrigé un passage relatif aux posologies : se référer à la version corrigée.
+Les recommandations françaises de la SFMU (2016), élaborées avec la SFA, le GFRUP et la SP2A, placent elles aussi l'adrénaline intramusculaire au centre du traitement et insistent sur l'orientation vers une consultation d'allergologie [S12] ; un erratum (Ann Fr Med Urgence 2016;6:445) a corrigé un passage relatif à la posologie de l'adrénaline. Ni le texte ni l'erratum n'ont pu être relus pendant l'audit (hôtes inaccessibles) : les doses présentées ici sont celles de la WAO 2020.
 
 ### 14.2 Autres hypersensibilités (principes)
 
@@ -620,7 +620,7 @@ Symptômes aigus après exposition possible (minutes à heures)
 Réaction d'hypersensibilité suspectée
 ├─ Minutes à < 1 h, urticaire, angio-œdème, bronchospasme, hypotension
 │     → TYPE I (IgE) ou activation mastocytaire directe → tryptase, puis bilan IgE à 4-6 semaines
-├─ Heures à jours, hémolyse ou cytopénie après médicament ou transfusion
+├─ Minutes (transfusion ABO-incompatible) à jours, hémolyse ou cytopénie après médicament ou transfusion
 │     → TYPE II → Coombs direct, bilan d'hémolyse, anticorps spécifiques
 ├─ 4 à 8 h, réaction locale nécrotique après injection (rappel) → ARTHUS (TYPE III local)
 ├─ 7 à 14 jours : fièvre, éruption, arthralgies, protéinurie, C3/C4 bas
@@ -882,13 +882,13 @@ Selon la classification de Pichler des hypersensibilités retardées, quelles as
 
 | Sujet | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
-| **Classification des hypersensibilités** | Gell et Coombs (1963), complétée par Pichler pour le type IV (IVa-d, 2003) [S6] | EAACI 2023 : sept types (I-III, IVa-c, V, VI, VII), incluant les défauts de barrière épithéliale, la dysrégulation métabolique et les réponses directes aux substances chimiques [S5] | La nomenclature EAACI est récente et encore peu utilisée en clinique et aux examens. |
+| **Classification des hypersensibilités** | Gell et Coombs (1963), complétée par Pichler pour le type IV (IVa-d, 2003) [S6] | EAACI 2023 : neuf types (I-III, IVa-c, V, VI, VII), incluant les défauts de barrière épithéliale, la dysrégulation métabolique et les réponses directes aux substances chimiques [S5] | La nomenclature EAACI est récente et encore peu utilisée en clinique et aux examens. |
 | **Critères diagnostiques de l'anaphylaxie** | NIAID/FAAN 2006 : trois critères [S11] | WAO 2020 : deux critères amendés (inclusion des signes digestifs sévères, atteinte laryngée isolée) [S7] | Les deux restent enseignés ; la WAO simplifie la reconnaissance. |
 | **Grades de sévérité** | Ring et Messmer (1977), utilisés en France, notamment en anesthésie [S13] | Autres échelles (systèmes de gradation proposés par l'EAACI ou la WAO) | Absence de consensus universel ; préciser l'échelle utilisée. |
 | **Glucocorticoïdes** | Usage traditionnel pour prévenir les réactions prolongées ou biphasiques | AAAAI/ACAAI 2020 : antihistaminiques et/ou glucocorticoïdes non fiables pour prévenir l'anaphylaxie biphasique [S9] ; WAO 2020 : usage systématique controversé [S7] | Tous s'accordent sur la primauté de l'adrénaline IM. |
 | **Durée de surveillance après anaphylaxie** | Surveillance jusqu'à résolution complète des symptômes [S9] | Surveillance prolongée (plusieurs heures) après réaction sévère ou doses multiples d'adrénaline [S7, S9] | Adapter au terrain (asthme, β-bloquants, isolement géographique). |
-| **Posologie de l'adrénaline chez l'enfant** | WAO 2020 : 0,01 mg/kg, repères 0,15 mg (1-5 ans), 0,3 mg (6-12 ans) [S7] | Autres référentiels nationaux (SFMU 2016 [S12], recommandations britanniques) avec des tranches d'âge ou de poids légèrement différentes | Se conformer au référentiel local et au RCP [À VÉRIFIER — tranches exactes de la SFMU 2016 après erratum]. |
-| **Lectures des patch-tests** | ESCD 2015 : lectures J2 et J3/J4 ± J7 [S17] | ESCD 2026 : mise à jour des bonnes pratiques [S18] | Vérifier les modalités détaillées de la mise à jour 2026 [À VÉRIFIER]. |
+| **Posologie de l'adrénaline chez l'enfant** | WAO 2020 (tableau 6) : 0,01 mg/kg, maximum 0,5 mg ; repères < 10 kg 0,01 mg/kg, 0,15 mg (1-5 ans), 0,3 mg (6-12 ans), 0,5 mg (adolescent) [S7] — barème repris à l'identique par DOS-MINT_REA-0001 et DOS-PEDI-0002 | Autres référentiels nationaux (SFMU 2016 [S12], recommandations britanniques), dont les tranches d'âge ou de poids (notamment pour les auto-injecteurs) peuvent différer ; texte de la SFMU 2016 et de son erratum non relu pendant l'audit | La règle du calcul au poids (0,01 mg/kg, maximum 0,5 mg) est commune ; appliquer le protocole local et le RCP des présentations disponibles. |
+| **Lectures des patch-tests** | ESCD 2015 : application 2 jours, lectures J2 et J3/J4 ± J7 [S17] | ESCD 2026 : mise à jour des bonnes pratiques, recommandations pratiques consensualisées par méthode Delphi [S18] | Les modalités détaillées de la mise à jour 2026 n'ont pas été relues pendant l'audit (résumé seul) ; les principes de lecture exposés au § 11.3 restent ceux de 2015. |
 
 Aucune recommandation algérienne spécifique sur la prise en charge de l'anaphylaxie n'a été identifiée pendant la rédaction ; les protocoles des services d'urgence et de réanimation des CHU s'appuient sur les recommandations internationales et françaises.
 
@@ -917,4 +917,4 @@ Aucune recommandation algérienne spécifique sur la prise en charge de l'anaphy
 19. [S19] Fennouh C, Yousfi S, Saadet S, et al. Echinococcosis in Humans and Animals in Algeria: A Systematic Review and Meta-analysis. *Acta Parasitol*. 2026;71(2):55. doi:10.1007/s11686-026-01245-w.
 20. [S20] Belkaid M. *Diagnostic immunologique de l'hydatidose*. Alger : Office des Publications Universitaires ; 1989 (OUV-0019).
 
-*Références vérifiées pendant la session : articles via l'API Europe PMC (texte intégral de [S7] consulté pour les critères, la tryptase et la posologie de l'adrénaline ; résumés de [S5], [S8], [S9], [S19]) ; [S12] confirmée par recherche web (DOI non retrouvé, texte intégral non consulté) ; ouvrages via le catalogue Mediverse. Aucun texte ni aucune figure n'est reproduit.*
+*Références vérifiées pendant la session : articles via l'API Europe PMC (texte intégral de [S7] consulté pour les critères, la tryptase et la posologie de l'adrénaline ; résumés de [S5], [S8], [S9], [S19]) ; [S12] confirmée par recherche web (DOI non retrouvé, texte intégral non consulté) ; ouvrages via le catalogue Mediverse. Audit du 2026-11-19 : texte intégral de [S7] relu (PMC7607509 ; document acquis DOC-00086) pour la posologie de l'adrénaline (tableau 6), le remplissage, la tryptase, la réaction biphasique et l'épidémiologie ; résumés PubMed de [S5], [S8], [S18] et [S19] relus. Aucun texte ni aucune figure n'est reproduit.*

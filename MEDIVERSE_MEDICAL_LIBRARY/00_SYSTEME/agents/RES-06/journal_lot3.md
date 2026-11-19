@@ -12,3 +12,4 @@ PIEGES_CLASSIQUES_LOT1/LOT2) ne sont pas modifiés. Pas d'opération Git (consig
 - 2026-11-19 — FIC-RHUM-0002 (pelvispondylite rhumatismale / SpA axiale) créée depuis DOS-RHUM-0002 v1.1 ; contrôle chiffres/doses : 0 écart ; 1 647 mots.
 - 2026-11-19 — FIC-MINT-0001 (lupus érythémateux systémique ; items RES-MED-101 et RES-MED-154) créée depuis DOS-MINT-0001 v1.1 ; contrôle chiffres/doses : 0 écart ; 1 729 mots.
 - 2026-11-19 — FIC-MINT-0002 (maladie de Behçet) créée depuis DOS-MINT-0002 v1.1 ; contrôle chiffres/doses : 0 écart ; 1 429 mots.
+- 2026-11-19 — FIC-DERM-0001 (psoriasis) créée depuis DOS-DERM-0001 v1.1 ; contrôle chiffres/doses : 0 écart ; 1 680 mots.
