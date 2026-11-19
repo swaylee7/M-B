@@ -2594,6 +2594,1292 @@
       "statut": "brouillon_a_auditer",
       "auteur": "RES-03",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-3049",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic étiologique d'une ascite, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une ponction exploratrice est indiquée devant toute ascite récente, toute aggravation chez un cirrhotique et lors de toute hospitalisation d'un cirrhotique ascitique.",
+        "B": "Un gradient d'albumine sérum-ascite inférieur à 11 g/L oriente vers une hypertension portale.",
+        "C": "Une ascite exsudative à prédominance lymphocytaire doit faire évoquer, en zone d'endémie, une tuberculose péritonéale.",
+        "D": "Le dosage de l'adénosine désaminase dans le liquide d'ascite est utile en cas de suspicion de tuberculose péritonéale.",
+        "E": "L'échographie abdominale ne permet pas de détecter une ascite de faible abondance."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le diagnostic positif d'ascite est clinique (matité déclive des flancs, signe du flot) et échographique. L'enquête étiologique repose sur la ponction exploratrice : le gradient d'albumine sérum-ascite distingue les ascites d'hypertension portale (≥ 11 g/L) des ascites d'origine péritonéale ; la cytologie et la cellularité orientent vers une carcinose ou une infection. La cirrhose est la première cause d'ascite. Devant une ascite exsudative lymphocytaire, la tuberculose péritonéale et la carcinose péritonéale sont les deux principaux diagnostics.",
+      "explications_par_proposition": {
+        "A": "Vrai : La ponction exploratrice (aspect, protides, albumine, cellularité, culture en flacons d'hémoculture, cytologie selon le contexte) est systématique dans ces situations, notamment pour dépister une infection du liquide.",
+        "B": "Faux : C'est un gradient ≥ 11 g/L qui oriente vers une hypertension portale (cirrhose, insuffisance cardiaque droite, syndrome de Budd-Chiari) ; un gradient < 11 g/L oriente vers une cause péritonéale (carcinose, tuberculose) ou un syndrome néphrotique.",
+        "C": "Vrai : La tuberculose péritonéale, encore observée en Algérie, donne une ascite exsudative lymphocytaire ; le diagnostic peut nécessiter une laparoscopie avec biopsies péritonéales.",
+        "D": "Vrai : Une ADA élevée dans le liquide a une bonne valeur d'orientation vers la tuberculose péritonéale ; la culture du liquide est peu sensible.",
+        "E": "Faux : L'échographie est l'examen le plus sensible pour détecter une ascite, même de quelques centaines de millilitres, non décelable à l'examen clinique."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-023"
+      ],
+      "theme": "Ascite — ponction exploratrice et orientation étiologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser l'interprétation du gradient d'albumine (≥ 11 g/L = hypertension portale).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AASLD — Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases (2021) [catalogue REC-0345]",
+          "date": "2021-08"
+        },
+        {
+          "reference": "EASL — EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis (2018) [catalogue REC-0344]",
+          "date": "2018-04"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-3050",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un patient cirrhotique ascitique, quel critère permet de retenir le diagnostic d'infection spontanée du liquide d'ascite ?",
+      "propositions": {
+        "A": "Un nombre de polynucléaires neutrophiles ≥ 250/mm³ dans le liquide d'ascite.",
+        "B": "Un nombre total de leucocytes ≥ 100/mm³ dans le liquide d'ascite.",
+        "C": "Une culture du liquide positive, quelle que soit la cellularité, est indispensable au diagnostic.",
+        "D": "Une concentration de protides > 25 g/L dans le liquide d'ascite.",
+        "E": "Une fièvre supérieure à 38,5 °C associée à une douleur abdominale."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "L'infection spontanée du liquide d'ascite est une complication fréquente et grave de la cirrhose, souvent peu symptomatique (encéphalopathie, insuffisance rénale, simple aggravation). Son diagnostic repose sur la numération des polynucléaires neutrophiles du liquide (≥ 250/mm³), d'où l'intérêt d'une ponction systématique. Le traitement associe une céphalosporine de 3e génération (selon l'écologie) et une perfusion d'albumine pour prévenir le syndrome hépatorénal. Une antibioprophylaxie secondaire est ensuite indiquée.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le seuil de 250 polynucléaires neutrophiles/mm³ définit l'infection du liquide d'ascite et impose une antibiothérapie immédiate, sans attendre la culture.",
+        "B": "Faux : Le nombre total de leucocytes est insuffisant ; c'est la numération des polynucléaires neutrophiles qui fait le diagnostic.",
+        "C": "Faux : La culture est souvent négative ; une culture positive avec moins de 250 PNN/mm³ correspond à une bactériascite.",
+        "D": "Faux : Une ascite pauvre en protides (< 15 g/L) est au contraire un facteur de risque d'infection ; la concentration en protides ne fait pas le diagnostic.",
+        "E": "Faux : L'infection du liquide d'ascite est souvent pauci- ou asymptomatique ; les signes cliniques ne suffisent pas au diagnostic."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-023"
+      ],
+      "theme": "Infection du liquide d'ascite — critère diagnostique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attendre la culture pour traiter : la numération des PNN suffit à poser l'indication.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL — EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis (2018) [catalogue REC-0344]",
+          "date": "2018-04"
+        },
+        {
+          "reference": "AASLD — Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases (2021) [catalogue REC-0345]",
+          "date": "2021-08"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-3051",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de l'ascite du cirrhotique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une restriction sodée modérée est recommandée.",
+        "B": "La spironolactone est le diurétique de première intention, éventuellement associée au furosémide.",
+        "C": "Une ponction évacuatrice de plus de 5 litres doit être compensée par une perfusion d'albumine.",
+        "D": "Une restriction hydrique est systématique, quelle que soit la natrémie.",
+        "E": "Le TIPS (shunt portosystémique intrahépatique transjugulaire) est contre-indiqué de principe dans l'ascite réfractaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le traitement de l'ascite cirrhotique repose sur la restriction sodée modérée et les diurétiques (spironolactone ± furosémide), avec surveillance biologique. Les ascites tendues ou réfractaires relèvent de ponctions évacuatrices compensées par l'albumine, du TIPS chez des patients sélectionnés et de l'évaluation pour transplantation hépatique. Les AINS, néphrotoxiques et favorisant la rétention sodée, sont contre-indiqués. Le traitement de la cause (sevrage alcoolique, traitement antiviral) peut permettre une recompensation.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une restriction sodée modérée est recommandée ; un régime trop strict dégrade l'état nutritionnel sans bénéfice supplémentaire.",
+        "B": "Vrai : L'antialdostérone est la base du traitement diurétique, en raison de l'hyperaldostéronisme secondaire ; le furosémide est ajouté si nécessaire, avec surveillance du poids, de la natrémie, de la kaliémie et de la créatinine.",
+        "C": "Vrai : L'albumine prévient la dysfonction circulatoire post-paracentèse (aggravation de l'insuffisance rénale, hyponatrémie) après évacuation de grand volume.",
+        "D": "Faux : La restriction hydrique n'est indiquée qu'en cas d'hyponatrémie sévère (< 125 mmol/L dans les recommandations EASL).",
+        "E": "Faux : Le TIPS est une option du traitement de l'ascite réfractaire chez des patients sélectionnés, alternative aux ponctions itératives ; la transplantation hépatique doit aussi être discutée."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-023"
+      ],
+      "theme": "Ascite cirrhotique — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Imposer une restriction hydrique systématique : elle n'est justifiée qu'en cas d'hyponatrémie sévère.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL — EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis (2018) [catalogue REC-0344]",
+          "date": "2018-04"
+        },
+        {
+          "reference": "AASLD — Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases (2021) [catalogue REC-0345]",
+          "date": "2021-08"
+        },
+        {
+          "reference": "Baveno VII (consensus international) — Baveno VII - Renewing consensus in portal hypertension (2021) [catalogue REC-0343]",
+          "date": "2021-12"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3052",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la rectocolite hémorragique (RCH), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'atteinte débute au rectum et s'étend de façon continue et ascendante sur le côlon.",
+        "B": "L'inflammation est limitée à la muqueuse.",
+        "C": "Le tabagisme actif est associé à un risque moindre de RCH.",
+        "D": "Les fistules anopérinéales sont fréquentes et caractéristiques.",
+        "E": "Les dérivés du 5-aminosalicylate (mésalazine) sont le traitement de première intention des poussées légères à modérées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La RCH est une maladie inflammatoire chronique de l'intestin touchant exclusivement le rectum et le côlon de manière continue, et limitée à la muqueuse. Elle se révèle par des rectorragies, une diarrhée glairo-sanglante et un syndrome rectal. Le diagnostic repose sur l'iléocoloscopie avec biopsies, après élimination d'une cause infectieuse. Le traitement de première ligne des formes légères à modérées repose sur les 5-ASA ; les formes plus sévères relèvent des corticoïdes puis des immunosuppresseurs, biothérapies et petites molécules.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'atteinte rectale est quasi constante, avec une extension proximale continue sans intervalle de muqueuse saine (proctite, colite gauche, pancolite).",
+        "B": "Vrai : Contrairement à la maladie de Crohn, transmurale, la RCH est une maladie muqueuse (abcès cryptiques, distorsion glandulaire).",
+        "C": "Vrai : Le tabac est un facteur protecteur de la RCH, à l'inverse de la maladie de Crohn ; l'arrêt du tabac peut révéler ou aggraver une RCH (il reste néanmoins recommandé pour des raisons de santé générale).",
+        "D": "Faux : Les lésions anopérinéales (fistules, abcès) orientent vers une maladie de Crohn.",
+        "E": "Vrai : Les 5-ASA, par voie orale et/ou rectale selon l'extension, sont utilisés en induction et en entretien des formes légères à modérées."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "Rectocolite hémorragique — diagnostic et traitement de première ligne",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à la RCH des lésions anopérinéales ou des granulomes, qui orientent vers la maladie de Crohn.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ACG — ACG Clinical Guideline Update: Ulcerative Colitis in Adults (2025) [catalogue REC-0354]",
+          "date": "2025-06"
+        },
+        {
+          "reference": "ECCO — ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment (2026) (2026) [catalogue REC-0352]",
+          "date": "2026-07"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3053",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 30 ans suivie pour une RCH présente 9 selles sanglantes par jour, une fièvre à 38,3 °C et une fréquence cardiaque à 110/min. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ce tableau répond aux critères de colite aiguë grave de Truelove et Witts.",
+        "B": "Une corticothérapie par voie intraveineuse est le traitement de première intention.",
+        "C": "Les ralentisseurs du transit et les opiacés sont recommandés pour réduire le nombre de selles.",
+        "D": "Une infection à Clostridioides difficile et une réactivation à cytomégalovirus doivent être recherchées.",
+        "E": "Une coloscopie totale avec iléoscopie doit être réalisée en urgence pour apprécier l'extension."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La colite aiguë grave est une urgence médico-chirurgicale, prise en charge conjointement par gastro-entérologues et chirurgiens. Le bilan comprend la recherche d'une infection (C. difficile, CMV), l'évaluation biologique et une imagerie à la recherche d'une colectasie ou d'une perforation. Le traitement associe corticothérapie IV, prévention thromboembolique par héparine de bas poids moléculaire, correction hydro-électrolytique et nutritionnelle. L'absence de réponse précoce conduit au traitement de recours médical ou à la colectomie subtotale.",
+      "explications_par_proposition": {
+        "A": "Vrai : Au moins 6 selles sanglantes par jour associées à un signe systémique (fièvre > 37,8 °C, tachycardie > 90/min, hémoglobine < 10,5 g/dL ou VS > 30 mm) définissent la colite aiguë grave.",
+        "B": "Vrai : La corticothérapie IV est le traitement initial ; la réponse est évaluée vers le 3e jour, et un échec impose un traitement de recours (infliximab ou ciclosporine) ou une colectomie.",
+        "C": "Faux : Les opiacés et anticholinergiques sont contre-indiqués : ils favorisent la colectasie (mégacôlon toxique).",
+        "D": "Vrai : Une infection surajoutée (C. difficile, CMV) peut mimer ou aggraver une poussée et modifie le traitement.",
+        "E": "Faux : La coloscopie totale expose au risque de perforation ; une rectosigmoïdoscopie prudente avec peu d'insufflation suffit pour évaluer la gravité et réaliser des biopsies."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "Colite aiguë grave — reconnaissance et prise en charge",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des antidiarrhéiques opiacés dans une colite grave : risque de mégacôlon toxique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ECCO — ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment (2026) (2026) [catalogue REC-0352]",
+          "date": "2026-07"
+        },
+        {
+          "reference": "ACG — ACG Clinical Guideline Update: Ulcerative Colitis in Adults (2025) [catalogue REC-0354]",
+          "date": "2025-06"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3054",
+      "format": "QCS (réponse unique)",
+      "enonce": "Au cours d'une rectocolite hémorragique, laquelle de ces manifestations associées évolue de façon indépendante de l'activité de la maladie colique ?",
+      "propositions": {
+        "A": "La cholangite sclérosante primitive.",
+        "B": "L'érythème noueux.",
+        "C": "Les arthrites périphériques pauci-articulaires des grosses articulations.",
+        "D": "L'aphtose buccale.",
+        "E": "L'épisclérite."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Les manifestations extra-intestinales des MICI se répartissent en manifestations liées à l'activité (érythème noueux, arthrites périphériques type 1, aphtose, épisclérite) et manifestations indépendantes (cholangite sclérosante primitive, spondylarthrite axiale, uvéite). La cholangite sclérosante primitive, plus fréquente au cours de la RCH, justifie une surveillance hépatique et, avec la colite étendue ancienne, une surveillance coloscopique renforcée du risque de cancer colorectal. La spondylarthrite axiale et l'uvéite appartiennent aussi au groupe des manifestations indépendantes de l'activité colique.",
+      "explications_par_proposition": {
+        "A": "Vrai : La cholangite sclérosante primitive évolue indépendamment de la colite et peut survenir, voire progresser, après colectomie ; elle majore le risque de cholangiocarcinome et de cancer colorectal.",
+        "B": "Faux : L'érythème noueux évolue habituellement parallèlement aux poussées.",
+        "C": "Faux : Les arthrites périphériques pauci-articulaires (type 1) suivent l'activité intestinale.",
+        "D": "Faux : L'aphtose buccale accompagne généralement les poussées.",
+        "E": "Faux : L'épisclérite est corrélée à l'activité de la maladie, contrairement à l'uvéite."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — manifestations extra-intestinales",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la colectomie guérit la cholangite sclérosante primitive associée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ACG — ACG Clinical Guideline Update: Ulcerative Colitis in Adults (2025) [catalogue REC-0354]",
+          "date": "2025-06"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3055",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la maladie de Crohn, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle peut atteindre tout le tube digestif, de la bouche à l'anus, de façon discontinue.",
+        "B": "L'inflammation est transmurale, avec parfois des granulomes épithélioïdes sans nécrose caséeuse.",
+        "C": "Le tabagisme est un facteur protecteur.",
+        "D": "Les anticorps anticytoplasme des polynucléaires de type périnucléaire (pANCA) y sont plus fréquents que dans la RCH.",
+        "E": "La localisation iléo-cæcale est la plus fréquente."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "La maladie de Crohn est une MICI pouvant toucher tout le tube digestif, de façon discontinue et transmurale. Son diagnostic repose sur un faisceau d'arguments cliniques, endoscopiques (ulcérations aphtoïdes, ulcères profonds, aspect pavimenteux), histologiques (granulome) et radiologiques (entéro-IRM, entéroscanner). En zone d'endémie tuberculeuse comme l'Algérie, la tuberculose iléo-cæcale est le principal diagnostic différentiel à éliminer avant toute immunosuppression.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les lésions sont segmentaires, séparées par des intervalles de muqueuse saine ; l'atteinte anopérinéale est fréquente.",
+        "B": "Vrai : L'atteinte de toute la paroi explique les fistules et les sténoses ; le granulome épithélioïde et gigantocellulaire sans nécrose caséeuse est évocateur mais inconstant.",
+        "C": "Faux : Le tabac augmente le risque et la sévérité de la maladie de Crohn ; son arrêt est un objectif thérapeutique majeur.",
+        "D": "Faux : Les pANCA sont plus fréquents dans la RCH ; les anticorps anti-Saccharomyces cerevisiae (ASCA) sont plus fréquents dans la maladie de Crohn.",
+        "E": "Vrai : L'iléon terminal et le cæcum sont la localisation la plus fréquente, parfois révélée par un tableau pseudo-appendiculaire."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Maladie de Crohn — diagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Méconnaître une tuberculose iléo-cæcale, qui peut simuler une maladie de Crohn (granulomes, ulcérations, sténose).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ACG — ACG Clinical Guideline: Management of Crohn's Disease in Adults (2025) [catalogue REC-0355]",
+          "date": "2025-06"
+        },
+        {
+          "reference": "ECCO — ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment (2024) [catalogue REC-0353]",
+          "date": "2024-10"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3056",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les complications de la maladie de Crohn, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une sténose iléale peut se traduire par un syndrome de Koenig (douleurs post-prandiales cédant avec un bruit hydroaérique).",
+        "B": "Les fistules et les abcès intra-abdominaux sont des complications de l'atteinte transmurale.",
+        "C": "Les lésions anopérinéales complexes sont explorées par IRM pelvienne.",
+        "D": "Une atteinte ou une résection étendue de l'iléon terminal expose à une carence en vitamine B12.",
+        "E": "Le risque de cancer colorectal n'est pas augmenté dans les formes coliques étendues."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'évolution de la maladie de Crohn est marquée par des poussées et par l'accumulation de lésions de l'intestin : sténoses, fistules, abcès, lésions anopérinéales. Les conséquences nutritionnelles (dénutrition, carences en fer, B12, folates, vitamine D) et le retard de croissance chez l'enfant sont fréquents. Le risque de cancer colorectal (formes coliques) et d'adénocarcinome du grêle est augmenté. La chirurgie, souvent nécessaire au cours de l'évolution, n'est pas curative et doit être économe.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le syndrome de Koenig traduit une sténose du grêle avec distension d'amont ; il peut évoluer vers l'occlusion.",
+        "B": "Vrai : Fistules (entéro-entérales, entéro-vésicales, entéro-cutanées) et abcès (notamment du psoas) sont liés au caractère transmural de l'inflammation.",
+        "C": "Vrai : L'IRM pelvienne est l'examen de référence pour cartographier fistules et abcès anopérinéaux, complétée par un examen sous anesthésie.",
+        "D": "Vrai : L'iléon terminal est le site d'absorption de la vitamine B12 et des sels biliaires ; leur malabsorption favorise aussi la lithiase biliaire et la lithiase rénale oxalique.",
+        "E": "Faux : Les formes coliques étendues et anciennes exposent à un risque accru de cancer colorectal et justifient une surveillance endoscopique."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Maladie de Crohn — complications évolutives",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Penser que la résection chirurgicale guérit la maladie de Crohn : la récidive post-opératoire est la règle sans traitement préventif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ACG — ACG Clinical Guideline: Management of Crohn's Disease in Adults (2025) [catalogue REC-0355]",
+          "date": "2025-06"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3057",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de la maladie de Crohn, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'arrêt du tabac est une mesure thérapeutique à part entière.",
+        "B": "Le budésonide est utilisé dans les poussées légères à modérées iléo-cæcales.",
+        "C": "Avant un traitement par anti-TNF, une tuberculose latente doit être recherchée.",
+        "D": "Les dérivés 5-aminosalicylés sont le traitement d'entretien de référence.",
+        "E": "Une corticothérapie au long cours est recommandée pour prévenir les rechutes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le traitement de la maladie de Crohn vise la rémission clinique et la cicatrisation muqueuse. Les poussées sont traitées par corticoïdes (budésonide pour les formes iléo-cæcales peu sévères, corticoïdes systémiques sinon). L'entretien repose sur les immunosuppresseurs et les biothérapies (anti-TNF, anti-IL-12/23 ou anti-IL-23, anti-intégrine) selon la sévérité et les facteurs de mauvais pronostic. La chirurgie traite les complications. Les bilans pré-thérapeutiques (tuberculose, hépatite B, vaccinations) sont indispensables.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'arrêt du tabac réduit le risque de poussées, de chirurgie et de récidive post-opératoire.",
+        "B": "Vrai : Le budésonide, corticoïde à fort effet de premier passage hépatique, agit localement sur l'iléon et le côlon droit avec moins d'effets systémiques.",
+        "C": "Vrai : Les anti-TNF exposent à la réactivation tuberculeuse ; le dépistage (interrogatoire, radiographie thoracique, IDR ou test IGRA) et le traitement d'une infection latente sont obligatoires, a fortiori en zone d'endémie.",
+        "D": "Faux : Les 5-ASA ont une efficacité faible ou nulle dans le maintien de la rémission de la maladie de Crohn.",
+        "E": "Faux : Les corticoïdes induisent la rémission mais n'ont pas d'efficacité en entretien ; la corticodépendance impose un traitement d'épargne (thiopurines, méthotrexate, biothérapies)."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Maladie de Crohn — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire de la mésalazine en entretien d'une maladie de Crohn par analogie avec la RCH.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ECCO — ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment (2024) [catalogue REC-0353]",
+          "date": "2024-10"
+        },
+        {
+          "reference": "ACG — ACG Clinical Guideline: Management of Crohn's Disease in Adults (2025) [catalogue REC-0355]",
+          "date": "2025-06"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3058",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les diarrhées chroniques de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une diarrhée est dite chronique lorsqu'elle évolue depuis plus de 4 semaines.",
+        "B": "La diarrhée osmotique cesse lors du jeûne et s'accompagne d'un trou osmotique fécal élevé.",
+        "C": "La diarrhée sécrétoire persiste malgré le jeûne.",
+        "D": "L'hyperthyroïdie et le syndrome carcinoïde sont des causes typiques de diarrhée osmotique.",
+        "E": "La diarrhée osmotique est typiquement nocturne et persiste à jeun."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les diarrhées chroniques sont classées selon leur mécanisme : osmotique, sécrétoire, motrice, malabsorptive (maldigestion ou malabsorption) et lésionnelle (inflammatoire). L'épreuve de jeûne et le calcul du trou osmotique fécal orientent entre diarrhée osmotique et sécrétoire. Le caractère nocturne, l'amaigrissement, les rectorragies ou les anomalies biologiques témoignent d'une cause organique. L'enquête comprend l'interrogatoire médicamenteux et alimentaire, la biologie, les examens des selles et les explorations endoscopiques avec biopsies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le seuil de 4 semaines est la définition habituelle de la diarrhée chronique.",
+        "B": "Vrai : Les substances osmotiquement actives non absorbées (laxatifs osmotiques, magnésium, déficit en lactase) appellent l'eau dans la lumière ; l'arrêt de l'ingestion fait cesser la diarrhée.",
+        "C": "Vrai : La sécrétion active d'eau et d'électrolytes (toxines, tumeurs endocrines, acides biliaires) se poursuit à jeun, avec un trou osmotique faible.",
+        "D": "Faux : L'hyperthyroïdie et le syndrome carcinoïde entraînent une diarrhée motrice (accélération du transit), le syndrome carcinoïde pouvant aussi avoir une composante sécrétoire.",
+        "E": "Faux : La persistance à jeun et le caractère nocturne évoquent une diarrhée sécrétoire ou organique, pas une diarrhée osmotique."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-026"
+      ],
+      "theme": "Diarrhée chronique — mécanismes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Classer la diarrhée de l'hyperthyroïdie parmi les diarrhées osmotiques : il s'agit d'une diarrhée motrice.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        },
+        {
+          "reference": "Loscalzo J, Fauci AS, Kasper DL et al. Harrison's Principles of Internal Medicine. 22e éd. McGraw Hill ; 2025 [catalogue OUV-0300].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3059",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 30 ans présente depuis un an une diarrhée chronique, un amaigrissement et une anémie ferriprive résistante à la supplémentation orale. Une maladie cœliaque est suspectée. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le dépistage repose sur les IgA anti-transglutaminase tissulaire, associées au dosage des IgA totales.",
+        "B": "Les biopsies duodénales multiples recherchent une atrophie villositaire, une hyperplasie des cryptes et une lymphocytose intraépithéliale.",
+        "C": "Le régime sans gluten doit être débuté avant les biopsies afin d'en évaluer l'effet.",
+        "D": "La maladie est fortement associée aux haplotypes HLA-DQ2 et HLA-DQ8.",
+        "E": "Le riz et le maïs doivent être exclus du régime."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La maladie cœliaque est une entéropathie auto-immune induite par le gluten chez des sujets génétiquement prédisposés. Elle peut se révéler par une malabsorption franche ou par des formes pauci-symptomatiques (anémie ferriprive, ostéoporose, cytolyse). Le diagnostic chez l'adulte associe sérologie (IgA anti-transglutaminase) et biopsies duodénales sous régime normal. Le traitement est un régime sans gluten strict et à vie, dont l'observance est suivie par la décroissance des anticorps.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les anticorps IgA anti-transglutaminase sont le test de première intention ; un déficit en IgA (plus fréquent chez les cœliaques) rendrait le test faussement négatif, d'où le dosage des IgA totales.",
+        "B": "Vrai : L'atrophie villositaire avec hyperplasie des cryptes et lymphocytose intraépithéliale (classification de Marsh) confirme le diagnostic chez l'adulte.",
+        "C": "Faux : Les sérologies et les biopsies doivent être réalisées sous régime contenant du gluten ; un régime préalable peut négativer les examens.",
+        "D": "Vrai : L'absence de HLA-DQ2/DQ8 a une forte valeur prédictive négative ; leur présence, fréquente dans la population générale, n'affirme pas le diagnostic.",
+        "E": "Faux : Le riz et le maïs ne contiennent pas de gluten ; le régime exclut le blé, le seigle et l'orge (l'avoine pure est souvent tolérée)."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-026"
+      ],
+      "theme": "Malabsorption — maladie cœliaque",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Débuter le régime sans gluten avant les examens : sérologie et histologie peuvent alors être faussement normales.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESsCD — European Society for the Study of Coeliac Disease (ESsCD) guideline for coeliac disease and other gluten-related disorders (2019) [catalogue REC-0361]",
+          "date": "2019-04"
+        },
+        {
+          "reference": "ESPGHAN — European Society Paediatric Gastroenterology, Hepatology and Nutrition Guidelines for Diagnosing Coeliac Disease 2020 (2020) [catalogue REC-0360]",
+          "date": "2020-01"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3060",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un patient présentant une diarrhée chronique avec stéatorrhée, lequel des résultats suivants oriente vers une malabsorption d'origine entérocytaire plutôt que vers une maldigestion d'origine pancréatique ?",
+      "propositions": {
+        "A": "Une élastase fécale effondrée.",
+        "B": "Un test au D-xylose abaissé.",
+        "C": "Des calcifications pancréatiques au scanner.",
+        "D": "La présence d'une stéatorrhée.",
+        "E": "Un amaigrissement important."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Le syndrome de malabsorption regroupe la maldigestion (défaut de digestion intraluminale : insuffisance pancréatique exocrine, déficit en sels biliaires) et la malabsorption proprement dite (atteinte de la muqueuse : maladie cœliaque, maladie de Whipple, lymphome, parasitoses comme la giardiose). Le test au D-xylose, sucre absorbé sans digestion préalable, permet classiquement de les distinguer. Les examens actuels (élastase fécale, biopsies duodénales, imagerie pancréatique) précisent la cause.",
+      "explications_par_proposition": {
+        "A": "Faux : L'élastase fécale effondrée témoigne d'une insuffisance pancréatique exocrine, donc d'une maldigestion.",
+        "B": "Vrai : Le D-xylose est absorbé par la muqueuse du grêle proximal sans nécessiter de digestion enzymatique : un test abaissé oriente vers une atteinte entérocytaire (ou une pullulation bactérienne), alors qu'il est normal dans la maldigestion pancréatique.",
+        "C": "Faux : Les calcifications pancréatiques orientent vers une pancréatite chronique, donc vers une maldigestion.",
+        "D": "Faux : La stéatorrhée est commune aux deux mécanismes et ne permet pas de les distinguer.",
+        "E": "Faux : L'amaigrissement est commun aux deux mécanismes."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-026"
+      ],
+      "theme": "Malabsorption — maldigestion pancréatique versus entéropathie",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser la stéatorrhée pour distinguer maldigestion et malabsorption : elle est présente dans les deux.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        },
+        {
+          "reference": "Loscalzo J, Fauci AS, Kasper DL et al. Harrison's Principles of Internal Medicine. 22e éd. McGraw Hill ; 2025 [catalogue OUV-0300].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3061",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiopathologie et les étiologies de la pancréatite chronique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'alcool est la cause la plus fréquente dans la plupart des séries d'adultes, le tabac étant un facteur de risque indépendant et aggravant.",
+        "B": "La maladie se caractérise par une destruction progressive et irréversible du parenchyme, remplacé par une fibrose, avec calcifications.",
+        "C": "Des mutations des gènes PRSS1, SPINK1 ou CFTR peuvent être en cause.",
+        "D": "La pancréatite auto-immune de type 1 s'intègre dans la maladie associée aux IgG4 et est corticosensible.",
+        "E": "La pancréatite chronique calcifiante alcoolique survient habituellement après quelques mois de consommation excessive."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La pancréatite chronique est une inflammation chronique du pancréas aboutissant à une fibrose irréversible et, à terme, à une insuffisance exocrine (stéatorrhée) et endocrine (diabète). Les causes sont toxiques (alcool, tabac), génétiques, obstructives, auto-immunes, métaboliques (hypercalcémie de l'hyperparathyroïdie) ou idiopathiques. La classification TIGAR-O regroupe ces facteurs de risque. La pancréatite auto-immune est importante à reconnaître car corticosensible.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'alcool est en cause dans la majorité des cas ; le tabac majore le risque et accélère la progression (calcifications, insuffisance pancréatique).",
+        "B": "Vrai : L'inflammation chronique aboutit à une fibrose, à des calcifications intracanalaires et à la perte progressive des fonctions exocrine puis endocrine.",
+        "C": "Vrai : Les formes génétiques (pancréatite héréditaire liée à PRSS1, mutations SPINK1 ou CFTR) sont à rechercher chez le sujet jeune sans facteur de risque.",
+        "D": "Vrai : La pancréatite auto-immune de type 1 (IgG4) répond aux corticoïdes et peut mimer un cancer du pancréas.",
+        "E": "Faux : La pancréatite chronique alcoolique survient après une consommation prolongée, généralement de plus de 10 ans."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-027"
+      ],
+      "theme": "Pancréatite chronique — physiopathologie et étiologies",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Méconnaître une pancréatite auto-immune, corticosensible, en la prenant pour un cancer.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "UEG (HaPanEU) — United European Gastroenterology evidence-based guidelines for the diagnosis and therapy of chronic pancreatitis (HaPanEU) (2017) [catalogue REC-0358]",
+          "date": "2017-01"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3062",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 45 ans, consommateur d'alcool depuis 20 ans, présente des douleurs épigastriques récurrentes, une stéatorrhée et un diabète récemment découvert. Le scanner montre des calcifications pancréatiques. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les calcifications pancréatiques sont un argument diagnostique majeur de pancréatite chronique.",
+        "B": "Les pseudokystes sont une complication fréquente de la pancréatite chronique.",
+        "C": "Une élastase fécale abaissée témoigne d'une insuffisance pancréatique exocrine.",
+        "D": "La pancréatite chronique augmente le risque d'adénocarcinome pancréatique.",
+        "E": "Le diabète de la pancréatite chronique expose à des hypoglycémies sévères, du fait notamment de la carence associée en glucagon."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le diagnostic de pancréatite chronique repose sur l'imagerie (calcifications au scanner, anomalies canalaires en cholangio-pancréato-IRM, écho-endoscopie) dans un contexte évocateur. Les complications comprennent les poussées aiguës, les pseudokystes, la sténose de la voie biliaire principale ou du duodénum, l'hypertension portale segmentaire (thrombose splénique), l'insuffisance exocrine et endocrine, et l'adénocarcinome. La douleur tend à diminuer avec l'évolution vers l'insuffisance pancréatique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les calcifications, visibles au scanner, sont pathognomoniques dans ce contexte ; l'IRM et l'écho-endoscopie détectent les formes plus précoces.",
+        "B": "Vrai : Les pseudokystes (rétentionnels ou nécrotiques) sont fréquents et peuvent se compliquer (compression, infection, hémorragie, rupture).",
+        "C": "Vrai : L'élastase fécale est un test simple de l'insuffisance exocrine, qui se traduit par une stéatorrhée tardive (destruction de plus de 90 % du parenchyme).",
+        "D": "Vrai : Le risque d'adénocarcinome est accru, surtout dans les formes héréditaires et chez le fumeur.",
+        "E": "Vrai : Le diabète pancréatoprive (type 3c) associe carence en insuline et en glucagon, d'où un équilibre instable et un risque d'hypoglycémies sévères sous insuline, majoré par l'alcool."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-027"
+      ],
+      "theme": "Pancréatite chronique — diagnostic et complications",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Traiter le diabète pancréatoprive comme un diabète de type 2 sans tenir compte du risque d'hypoglycémie lié à la carence en glucagon.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "UEG (HaPanEU) — United European Gastroenterology evidence-based guidelines for the diagnosis and therapy of chronic pancreatitis (HaPanEU) (2017) [catalogue REC-0358]",
+          "date": "2017-01"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3063",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de la pancréatite chronique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le sevrage de l'alcool et du tabac est indispensable.",
+        "B": "L'insuffisance pancréatique exocrine est traitée par des extraits pancréatiques gastro-protégés pris au cours des repas.",
+        "C": "Un régime très pauvre en graisses est recommandé chez tous les patients.",
+        "D": "Un traitement endoscopique ou chirurgical peut être proposé pour des douleurs liées à un obstacle canalaire.",
+        "E": "Les morphiniques sont le traitement antalgique de première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La prise en charge de la pancréatite chronique repose sur le sevrage alcoolo-tabagique, le traitement de la douleur par paliers et, si besoin, endoscopique ou chirurgical, le traitement de l'insuffisance exocrine (extraits pancréatiques, correction des carences vitaminiques liposolubles) et du diabète (souvent insulinorequérant). Les complications (pseudokystes, sténoses) relèvent de traitements endoscopiques ou chirurgicaux spécifiques. Une surveillance du risque de cancer est nécessaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le sevrage alcoolique diminue les douleurs et ralentit l'évolution ; l'arrêt du tabac réduit la progression et le risque de cancer.",
+        "B": "Vrai : Les extraits pancréatiques sont pris au cours des repas ; leur efficacité s'apprécie sur la stéatorrhée et l'état nutritionnel.",
+        "C": "Faux : Un régime restrictif en graisses aggrave la dénutrition ; on préconise une alimentation normale, fractionnée, avec extraits pancréatiques.",
+        "D": "Vrai : Les traitements endoscopiques (extraction de calculs, lithotritie extracorporelle, prothèses) ou chirurgicaux (dérivation, résection) sont discutés pour les douleurs liées à une hypertension canalaire.",
+        "E": "Faux : Les antalgiques sont prescrits par paliers ; les opioïdes forts exposent à la dépendance chez des patients souvent addictifs et ne sont pas de première intention."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-027"
+      ],
+      "theme": "Pancréatite chronique — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Imposer un régime sans graisses : il aggrave la dénutrition, alors que les extraits pancréatiques corrigent la stéatorrhée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "UEG (HaPanEU) — United European Gastroenterology evidence-based guidelines for the diagnosis and therapy of chronic pancreatitis (HaPanEU) (2017) [catalogue REC-0358]",
+          "date": "2017-01"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3064",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic de la sclérose en plaques (SEP), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le diagnostic repose classiquement sur la démonstration d'une dissémination des lésions dans l'espace et dans le temps, après exclusion des diagnostics alternatifs.",
+        "B": "Selon les critères de McDonald 2017, la présence de bandes oligoclonales spécifiques du LCR peut se substituer à la démonstration de la dissémination temporelle.",
+        "C": "Les lésions IRM évocatrices siègent notamment en périventriculaire, en juxtacortical ou cortical, en sous-tentoriel et dans la moelle.",
+        "D": "La névrite optique de la SEP est typiquement bilatérale d'emblée et indolore.",
+        "E": "La coexistence, sur une même IRM, de lésions rehaussées et non rehaussées par le gadolinium peut établir la dissémination temporelle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La SEP est une maladie inflammatoire démyélinisante et neurodégénérative du système nerveux central de l'adulte jeune, à prédominance féminine. Son diagnostic repose sur l'association de données cliniques, de l'IRM cérébrale et médullaire et, si besoin, de l'analyse du LCR (synthèse intrathécale d'IgG, bandes oligoclonales), selon les critères de McDonald (révision 2017, actualisée en 2024). Les diagnostics alternatifs doivent être systématiquement éliminés.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le principe des critères de McDonald est la dissémination spatiale et temporelle ; l'exclusion d'un diagnostic alternatif (NMOSD, MOGAD, maladies systémiques, infections) est indispensable.",
+        "B": "Vrai : La révision 2017 a introduit les bandes oligoclonales du LCR comme substitut de la dissémination temporelle chez un patient ayant un syndrome cliniquement isolé et une dissémination spatiale.",
+        "C": "Vrai : Ces quatre topographies définissaient la dissémination spatiale en 2017 ; la révision 2024 des critères ajoute le nerf optique et de nouveaux marqueurs IRM (à vérifier dans le texte).",
+        "D": "Faux : La névrite optique de la SEP est le plus souvent unilatérale et douloureuse (douleur aux mouvements oculaires) ; une atteinte bilatérale sévère doit faire évoquer une NMOSD ou une MOGAD.",
+        "E": "Vrai : Des lésions d'âges différents (rehaussées = récentes ; non rehaussées) sur une seule IRM démontrent la dissémination temporelle."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-028"
+      ],
+      "theme": "Sclérose en plaques — diagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retenir une SEP devant une névrite optique bilatérale sévère sans rechercher une NMOSD (anticorps anti-aquaporine 4) ou une MOGAD.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "International Panel on Diagnosis of MS — Diagnosis of multiple sclerosis: 2017 revisions of the McDonald criteria (2017) [catalogue REC-0414]",
+          "date": "2017-12"
+        },
+        {
+          "reference": "International Panel on Diagnosis of MS — Diagnosis of multiple sclerosis: 2024 revisions of the McDonald criteria (2025) [catalogue REC-0415]",
+          "date": "2025-10"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3065",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'évolution et le pronostic de la sclérose en plaques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La forme rémittente-récurrente est la forme de début la plus fréquente.",
+        "B": "Environ 10 à 15 % des patients présentent une forme progressive d'emblée (primaire progressive).",
+        "C": "Le sexe féminin, un début jeune et des premières poussées sensitives ou optiques bien récupérées sont des facteurs de meilleur pronostic.",
+        "D": "La grossesse augmente le risque de poussée, surtout au 3e trimestre.",
+        "E": "Une aggravation transitoire des symptômes lors d'un bain chaud (phénomène d'Uhthoff) correspond à une nouvelle poussée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'évolution de la SEP est hétérogène : forme rémittente-récurrente, forme secondairement progressive, forme progressive primaire. Le handicap est évalué par l'échelle EDSS. Le pronostic dépend de facteurs cliniques et IRM, et a été transformé par les traitements de fond. Une poussée se définit par l'apparition ou l'aggravation de symptômes neurologiques durant plus de 24 heures, à distance d'un épisode fébrile ; les pseudo-poussées (fièvre, chaleur, infection) doivent en être distinguées.",
+      "explications_par_proposition": {
+        "A": "Vrai : La SEP débute par poussées dans environ 85 % des cas ; une partie évolue ensuite vers une forme secondairement progressive.",
+        "B": "Vrai : La forme primaire progressive, plus fréquente après 40 ans et à sex-ratio plus équilibré, évolue d'emblée vers une aggravation progressive, souvent médullaire.",
+        "C": "Vrai : À l'inverse, le sexe masculin, un début tardif, une atteinte motrice, cérébelleuse ou sphinctérienne précoce, des poussées fréquentes mal récupérées et une forte charge lésionnelle IRM sont de mauvais pronostic.",
+        "D": "Faux : Le taux de poussées diminue pendant la grossesse, surtout au 3e trimestre, et augmente transitoirement dans les mois suivant l'accouchement.",
+        "E": "Faux : Le phénomène d'Uhthoff est une pseudo-poussée : les symptômes régressent avec le retour à une température normale (une poussée doit durer plus de 24 heures en l'absence de fièvre)."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-028"
+      ],
+      "theme": "Sclérose en plaques — évolution et pronostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre une pseudo-poussée (fièvre, chaleur, infection urinaire) avec une vraie poussée et la traiter par corticoïdes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ECTRIMS / EAN — ECTRIMS/EAN Guideline on the pharmacological treatment of people with multiple sclerosis (2018) [catalogue REC-0416]",
+          "date": "2018-01"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        },
+        {
+          "reference": "Louis Elan D, Mayer Stephan A, Noble James M. Merritt's Neurology. 14e éd. Wolters Kluwer ; 2022 [catalogue OUV-0345].",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3066",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une femme de 28 ans atteinte de SEP rémittente présente une poussée motrice invalidante évoluant depuis 4 jours, sans fièvre ni infection. Quel est le traitement de première intention de cette poussée ?",
+      "propositions": {
+        "A": "Une corticothérapie intraveineuse à forte dose (méthylprednisolone) pendant 3 à 5 jours.",
+        "B": "Un interféron bêta administré par voie intraveineuse.",
+        "C": "Des immunoglobulines polyvalentes intraveineuses.",
+        "D": "Une anticoagulation curative.",
+        "E": "Une antibiothérapie probabiliste."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La poussée invalidante de SEP se traite par méthylprednisolone intraveineuse à forte dose sur quelques jours, après élimination d'une infection. Ce traitement accélère la récupération sans effet sur le handicap à long terme. La poussée doit aussi faire réévaluer le traitement de fond (immunomodulateurs, immunosuppresseurs ou anticorps monoclonaux selon l'activité de la maladie). La rééducation et le traitement des symptômes (spasticité, fatigue, troubles urinaires) complètent la prise en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les bolus de méthylprednisolone accélèrent la récupération de la poussée sans modifier le pronostic à long terme ; les échanges plasmatiques sont réservés aux poussées sévères corticorésistantes.",
+        "B": "Faux : L'interféron bêta est un traitement de fond (voie sous-cutanée ou intramusculaire), sans effet sur la poussée en cours.",
+        "C": "Faux : Les immunoglobulines IV n'ont pas d'indication dans le traitement des poussées de SEP.",
+        "D": "Faux : L'anticoagulation n'a pas de place dans la SEP.",
+        "E": "Faux : En l'absence d'infection, l'antibiothérapie n'est pas indiquée ; une infection doit toutefois être éliminée avant les corticoïdes (pseudo-poussée)."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-028"
+      ],
+      "theme": "Sclérose en plaques — traitement de la poussée",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Traiter par corticoïdes une pseudo-poussée fébrile sans rechercher l'infection déclenchante.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ECTRIMS / EAN — ECTRIMS/EAN Guideline on the pharmacological treatment of people with multiple sclerosis (2018) [catalogue REC-0416]",
+          "date": "2018-01"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3067",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la myasthénie auto-immune, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est due, dans la majorité des formes généralisées, à des anticorps dirigés contre le récepteur de l'acétylcholine de la plaque motrice.",
+        "B": "Elle se caractérise par une fatigabilité musculaire à l'effort, améliorée par le repos, fluctuante dans la journée.",
+        "C": "Le ptosis et la diplopie sont fréquents et souvent révélateurs.",
+        "D": "Les réflexes ostéotendineux sont abolis et il existe des troubles sensitifs distaux.",
+        "E": "Des anticorps anti-MuSK sont retrouvés dans une partie des formes sans anticorps anti-récepteur de l'acétylcholine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La myasthénie est une maladie auto-immune de la jonction neuromusculaire post-synaptique. Elle se traduit par une faiblesse musculaire fluctuante à l'effort, touchant les muscles oculaires, bulbaires, axiaux, des membres et respiratoires. Elle est associée à une pathologie thymique (hyperplasie chez la femme jeune, thymome surtout après 40 ans) et à d'autres maladies auto-immunes, notamment thyroïdiennes. L'examen neurologique est par ailleurs normal (réflexes, sensibilité).",
+      "explications_par_proposition": {
+        "A": "Vrai : Les anticorps anti-RACh réduisent le nombre de récepteurs fonctionnels (blocage, internalisation, lyse dépendante du complément).",
+        "B": "Vrai : La fatigabilité, majorée en fin de journée et à l'effort répété, est le maître symptôme.",
+        "C": "Vrai : L'atteinte oculaire (ptosis asymétrique, diplopie) est inaugurale dans plus de la moitié des cas.",
+        "D": "Faux : La myasthénie est une atteinte purement motrice de la jonction neuromusculaire : réflexes et sensibilité sont normaux.",
+        "E": "Vrai : Les anticorps anti-MuSK définissent une forme souvent bulbaire, peu sensible aux anticholinestérasiques ; d'autres anticorps (anti-LRP4) sont décrits."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-029"
+      ],
+      "theme": "Myasthénie — physiopathologie et clinique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Rechercher une aréflexie ou des troubles sensitifs : leur présence doit faire remettre en cause le diagnostic.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "MGFA (consensus international) — International Consensus Guidance for Management of Myasthenia Gravis: 2020 Update (2020) [catalogue REC-0417]",
+          "date": "2020-11"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3068",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 32 ans présente un ptosis fluctuant et une diplopie en fin de journée, avec une fatigabilité à la mastication. Une myasthénie est suspectée. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'électroneuromyogramme recherche un décrément de l'amplitude du potentiel moteur lors de la stimulation nerveuse répétitive à basse fréquence (3 Hz).",
+        "B": "Un scanner thoracique est indiqué à la recherche d'une anomalie thymique.",
+        "C": "Le test au glaçon aggrave le ptosis myasthénique.",
+        "D": "Un bilan thyroïdien est recommandé.",
+        "E": "Une biopsie musculaire est indispensable au diagnostic."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le diagnostic de myasthénie repose sur la clinique, la sérologie (anticorps anti-RACh, puis anti-MuSK et anti-LRP4 si négatifs), l'électroneuromyogramme (décrément à la stimulation répétitive, jitter en fibre unique) et le test pharmacologique aux anticholinestérasiques selon les pratiques. Le bilan comprend une imagerie thymique, un bilan auto-immun et thyroïdien, ainsi que l'évaluation de la fonction respiratoire et de la déglutition. L'examen neurologique objective une faiblesse fatigable sans aréflexie ni trouble sensitif.",
+      "explications_par_proposition": {
+        "A": "Vrai : Un décrément supérieur à 10 % entre la 1re et la 4e ou 5e réponse est évocateur ; l'étude en fibre unique est plus sensible.",
+        "B": "Vrai : Le scanner (ou l'IRM) thoracique recherche une hyperplasie thymique ou un thymome, qui conditionne la thymectomie.",
+        "C": "Faux : Le froid améliore la transmission neuromusculaire : l'application de glace sur la paupière améliore le ptosis, ce qui est un argument diagnostique.",
+        "D": "Vrai : Les dysthyroïdies auto-immunes sont associées à la myasthénie et peuvent en modifier l'expression clinique.",
+        "E": "Faux : La biopsie musculaire n'a pas d'intérêt dans le diagnostic de myasthénie."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-029"
+      ],
+      "theme": "Myasthénie — examens diagnostiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le froid aggrave la myasthénie : il améliore le ptosis (test au glaçon).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "MGFA (consensus international) — International Consensus Guidance for Management of Myasthenia Gravis: 2020 Update (2020) [catalogue REC-0417]",
+          "date": "2020-11"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3069",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de la myasthénie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les anticholinestérasiques (pyridostigmine) constituent le traitement symptomatique de première intention.",
+        "B": "La thymectomie est indiquée en cas de thymome et peut être proposée dans les formes généralisées avec anticorps anti-RACh, même sans thymome.",
+        "C": "Les aminosides sont les antibiotiques de choix chez le myasthénique en raison de leur bonne tolérance neuromusculaire.",
+        "D": "La crise myasthénique se traite par immunoglobulines intraveineuses ou échanges plasmatiques, en milieu de réanimation.",
+        "E": "La corticothérapie doit être débutée d'emblée à pleine dose, sans surveillance particulière."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le traitement de la myasthénie associe un traitement symptomatique (anticholinestérasiques), un traitement de fond immunosuppresseur (corticoïdes, azathioprine, mycophénolate, rituximab ou thérapies ciblées anti-complément ou anti-FcRn dans les formes réfractaires) et la thymectomie selon les indications. La crise myasthénique, déclenchée par une infection ou un médicament, est une urgence vitale. Chaque patient doit disposer de la liste des médicaments contre-indiqués ou à utiliser avec prudence.",
+      "explications_par_proposition": {
+        "A": "Vrai : La pyridostigmine améliore la transmission neuromusculaire ; un surdosage expose à une crise cholinergique.",
+        "B": "Vrai : La thymectomie est formelle en cas de thymome ; dans la myasthénie généralisée avec anti-RACh de l'adulte jeune, elle améliore l'évolution même en l'absence de thymome.",
+        "C": "Faux : Les aminosides (comme les fluoroquinolones, les macrolides, la colistine, le magnésium IV ou les curares) peuvent aggraver la myasthénie et sont à éviter.",
+        "D": "Vrai : La crise myasthénique (atteinte respiratoire ou bulbaire menaçante) impose une surveillance en réanimation, une éventuelle ventilation et un traitement par Ig IV ou échanges plasmatiques.",
+        "E": "Faux : La corticothérapie peut entraîner une aggravation transitoire en début de traitement : elle est débutée progressivement, sous surveillance, parfois en hospitalisation."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-029"
+      ],
+      "theme": "Myasthénie — traitement et crise myasthénique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire un aminoside ou une fluoroquinolone à un myasthénique sans précaution.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "MGFA (consensus international) — International Consensus Guidance for Management of Myasthenia Gravis: 2020 Update (2020) [catalogue REC-0417]",
+          "date": "2020-11"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3070",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic de la migraine selon la classification internationale des céphalées (ICHD-3), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La migraine sans aura exige au moins 5 crises de 4 à 72 heures (non traitées ou traitées sans succès).",
+        "B": "La céphalée possède au moins 2 des caractéristiques suivantes : unilatérale, pulsatile, d'intensité modérée à sévère, aggravée par l'activité physique de routine.",
+        "C": "Elle s'accompagne de nausées et/ou vomissements, ou d'une photophobie et d'une phonophobie.",
+        "D": "L'aura migraineuse typique s'installe brutalement, en quelques secondes.",
+        "E": "Une imagerie cérébrale est systématique devant une migraine typique avec examen neurologique normal."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le diagnostic de migraine est clinique et repose sur les critères de l'ICHD-3. La migraine sans aura se définit par des crises récurrentes de 4 à 72 heures, avec des caractéristiques de la douleur et des signes d'accompagnement précis. L'aura (visuelle le plus souvent, sensitive, aphasique) s'installe progressivement (« marche migraineuse »). L'examen neurologique intercritique est normal. Le traitement de crise repose sur les AINS et les triptans, et le traitement de fond est indiqué selon la fréquence et le retentissement des crises.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le critère de nombre (≥ 5 crises) et de durée (4 à 72 heures) est exigé pour la migraine sans aura.",
+        "B": "Vrai : Deux de ces quatre caractéristiques suffisent ; la céphalée peut donc être bilatérale.",
+        "C": "Vrai : Au moins un de ces signes d'accompagnement est requis.",
+        "D": "Faux : L'aura typique se développe progressivement sur au moins 5 minutes, ses symptômes successifs durant chacun 5 à 60 minutes ; une installation brutale doit faire évoquer un accident ischémique transitoire.",
+        "E": "Faux : Le diagnostic de migraine est clinique ; l'imagerie est réservée aux céphalées atypiques ou s'accompagnant de signes d'alerte."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-031"
+      ],
+      "theme": "Migraine — critères diagnostiques",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Accepter comme aura migraineuse un déficit d'installation brutale : il faut évoquer un AIT.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IHS (International Headache Society) — Headache Classification Committee of the International Headache Society (IHS) The International Classification of Headache Disorders, 3rd edition (2018) [catalogue REC-0421]",
+          "date": "2018-01"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3071",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une femme de 45 ans présente, lors d'un effort, une céphalée brutale, d'intensité maximale en moins d'une minute, la plus intense de sa vie. L'examen neurologique est normal. Quel examen faut-il réaliser en premier ?",
+      "propositions": {
+        "A": "Un scanner cérébral sans injection en urgence.",
+        "B": "Un électroencéphalogramme.",
+        "C": "Des radiographies des sinus.",
+        "D": "Un examen du fond d'œil en consultation programmée.",
+        "E": "Une ponction lombaire d'emblée, avant toute imagerie."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Toute céphalée brutale (« coup de tonnerre ») est une hémorragie sous-arachnoïdienne jusqu'à preuve du contraire. La démarche associe scanner cérébral sans injection en urgence puis, s'il est normal, ponction lombaire. Les autres causes à rechercher sont la dissection artérielle cervicale, le syndrome de vasoconstriction cérébrale réversible, la thrombose veineuse cérébrale et l'apoplexie hypophysaire, d'où des explorations vasculaires complémentaires. Les signes d'alerte d'une céphalée secondaire (début brutal, fièvre, déficit, aggravation progressive, âge > 50 ans) doivent être systématiquement recherchés.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une céphalée « en coup de tonnerre » impose d'éliminer en urgence une hémorragie méningée : le scanner sans injection est l'examen de première intention ; s'il est normal, une ponction lombaire est réalisée.",
+        "B": "Faux : L'EEG n'a pas de place dans l'exploration d'une céphalée brutale.",
+        "C": "Faux : Une sinusite ne donne pas de céphalée d'installation brutale maximale en quelques secondes.",
+        "D": "Faux : La situation est une urgence diagnostique qui ne peut être différée.",
+        "E": "Faux : La ponction lombaire est réalisée après une imagerie normale (recherche de sang ou de xanthochromie), pour ne pas méconnaître un processus expansif ou un hématome."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-031"
+      ],
+      "theme": "Céphalée en coup de tonnerre — conduite à tenir",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Se rassurer sur un examen neurologique normal devant une céphalée brutale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AHA / ASA — 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage: A Guideline From the American Heart Association/American Stroke Association (2023) [catalogue REC-0411]",
+          "date": "2023-05"
+        },
+        {
+          "reference": "IHS (International Headache Society) — Headache Classification Committee of the International Headache Society (IHS) The International Classification of Headache Disorders, 3rd edition (2018) [catalogue REC-0421]",
+          "date": "2018-01"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEUR-3072",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les algies faciales, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'algie vasculaire de la face se manifeste par des crises de douleur orbitaire unilatérale très intense, de 15 à 180 minutes, avec signes dysautonomiques homolatéraux.",
+        "B": "L'algie vasculaire de la face touche majoritairement l'homme jeune.",
+        "C": "Le traitement de la crise d'algie vasculaire repose sur l'oxygénothérapie à haut débit et le sumatriptan sous-cutané.",
+        "D": "La névralgie essentielle du trijumeau se traduit par des douleurs fulgurantes brèves, déclenchées par la stimulation de zones gâchettes, et répond à la carbamazépine.",
+        "E": "Une hypoesthésie dans le territoire du trijumeau est typique de la névralgie essentielle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Parmi les algies faciales, l'algie vasculaire de la face (céphalée trigémino-autonomique) et la névralgie du trijumeau sont les plus caractéristiques. La première associe des crises orbitaires très intenses avec signes dysautonomiques ; la seconde des décharges fulgurantes déclenchées par des zones gâchettes. Toute névralgie trigéminale avec examen anormal, ou survenant chez un sujet jeune, doit faire rechercher une cause symptomatique par IRM. Les autres algies faciales (sinusiennes, dentaires, articulaires temporo-mandibulaires, artérite temporale) sont à évoquer selon le contexte.",
+      "explications_par_proposition": {
+        "A": "Vrai : La douleur est atroce, orbitaire ou périorbitaire, avec larmoiement, rhinorrhée, injection conjonctivale, ptosis ou myosis homolatéraux et agitation ; les crises surviennent souvent à heure fixe, par périodes.",
+        "B": "Vrai : L'algie vasculaire de la face est nettement plus fréquente chez l'homme, avec un début vers 20 à 40 ans.",
+        "C": "Vrai : L'oxygène au masque à haut débit et le sumatriptan sous-cutané sont les traitements de crise de référence ; le vérapamil est le traitement de fond de première intention.",
+        "D": "Vrai : La névralgie classique donne des décharges électriques de quelques secondes, dans le territoire V2 ou V3, avec intervalle libre, sans déficit ; la carbamazépine est le traitement de première intention.",
+        "E": "Faux : Un déficit sensitif, une abolition du réflexe cornéen ou une douleur de fond permanente évoquent une névralgie symptomatique (SEP, tumeur de l'angle ponto-cérébelleux) et imposent une IRM."
+      },
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-031"
+      ],
+      "theme": "Algies faciales — algie vasculaire de la face et névralgie du trijumeau",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Considérer une névralgie trigéminale avec hypoesthésie comme essentielle et omettre l'IRM.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IHS (International Headache Society) — Headache Classification Committee of the International Headache Society (IHS) The International Classification of Headache Disorders, 3rd edition (2018) [catalogue REC-0421]",
+          "date": "2018-01"
+        },
+        {
+          "reference": "Ropper Allan H, Samuels Martin A, Klein Joshua et al. Adams and Victor's Principles of Neurology. 12e éd. McGraw Hill ; 2023 [catalogue OUV-0343].",
+          "date": "2023"
+        },
+        {
+          "reference": "Louis Elan D, Mayer Stephan A, Noble James M. Merritt's Neurology. 14e éd. Wolters Kluwer ; 2022 [catalogue OUV-0345].",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
     }
   ]
 }

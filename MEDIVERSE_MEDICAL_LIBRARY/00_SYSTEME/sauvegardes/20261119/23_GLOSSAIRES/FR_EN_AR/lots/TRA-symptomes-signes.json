@@ -1,0 +1,2965 @@
+{
+  "agent": "TRA-01",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-05000",
+      "fr": "symptôme",
+      "en": "symptom",
+      "ar": "العَرَض",
+      "ar_variantes": [],
+      "definition_fr": "Manifestation subjective d'une maladie, ressentie et rapportée par le patient.",
+      "categorie": "general",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05001",
+      "fr": "signe clinique",
+      "en": "clinical sign",
+      "ar": "العلامة السريرية",
+      "ar_variantes": [],
+      "definition_fr": "Manifestation objective d'une maladie constatée par l'examinateur.",
+      "categorie": "general",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05002",
+      "fr": "syndrome",
+      "en": "syndrome",
+      "ar": "المتلازمة",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble de symptômes et de signes regroupés de façon cohérente, pouvant relever de plusieurs causes.",
+      "categorie": "general",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05003",
+      "fr": "sémiologie",
+      "en": "semiology",
+      "ar": "علم الأعراض",
+      "ar_variantes": [],
+      "definition_fr": "Étude des symptômes et des signes des maladies et de leur interprétation.",
+      "categorie": "general",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05004",
+      "fr": "anamnèse",
+      "en": "medical history",
+      "ar": "القصة المرضية",
+      "ar_variantes": [
+        "الاستجواب"
+      ],
+      "definition_fr": "Recueil auprès du patient de l'histoire de la maladie, des antécédents et du mode de vie.",
+      "categorie": "general",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05005",
+      "fr": "examen clinique",
+      "en": "physical examination",
+      "ar": "الفحص السريري",
+      "ar_variantes": [],
+      "definition_fr": "Examen du patient par inspection, palpation, percussion et auscultation.",
+      "categorie": "examen",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05006",
+      "fr": "inspection",
+      "en": "inspection",
+      "ar": "المعاينة",
+      "ar_variantes": [
+        "الفحص بالنظر"
+      ],
+      "definition_fr": "Temps de l'examen clinique consistant à observer le patient.",
+      "categorie": "examen",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05007",
+      "fr": "palpation",
+      "en": "palpation",
+      "ar": "الجسّ",
+      "ar_variantes": [],
+      "definition_fr": "Temps de l'examen clinique explorant les organes par le toucher.",
+      "categorie": "examen",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05008",
+      "fr": "percussion",
+      "en": "percussion",
+      "ar": "القَرْع",
+      "ar_variantes": [],
+      "definition_fr": "Temps de l'examen clinique analysant le son produit par la frappe des parois.",
+      "categorie": "examen",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05009",
+      "fr": "auscultation",
+      "en": "auscultation",
+      "ar": "الإصغاء",
+      "ar_variantes": [
+        "التسمّع"
+      ],
+      "definition_fr": "Écoute des bruits produits par les organes, généralement au stéthoscope.",
+      "categorie": "examen",
+      "specialites": [
+        "MFAM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05010",
+      "fr": "fièvre",
+      "en": "fever",
+      "ar": "الحُمّى",
+      "ar_variantes": [
+        "ارتفاع درجة الحرارة"
+      ],
+      "definition_fr": "Élévation de la température centrale au-dessus de 38 °C au repos.",
+      "categorie": "symptome",
+      "specialites": [
+        "MINT",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05011",
+      "fr": "hypothermie",
+      "en": "hypothermia",
+      "ar": "انخفاض الحرارة",
+      "ar_variantes": [],
+      "definition_fr": "Température centrale inférieure à 35 °C.",
+      "categorie": "signe",
+      "specialites": [
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05012",
+      "fr": "frissons",
+      "en": "chills",
+      "ar": "القُشَعريرة",
+      "ar_variantes": [],
+      "definition_fr": "Tremblements involontaires accompagnant l'ascension thermique.",
+      "categorie": "symptome",
+      "specialites": [
+        "MINT",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05013",
+      "fr": "sueurs nocturnes",
+      "en": "night sweats",
+      "ar": "التعرّق الليلي",
+      "ar_variantes": [],
+      "definition_fr": "Transpiration abondante survenant la nuit, évocatrice de tuberculose ou de lymphome.",
+      "categorie": "symptome",
+      "specialites": [
+        "MINT",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05014",
+      "fr": "asthénie",
+      "en": "asthenia",
+      "ar": "الوَهَن",
+      "ar_variantes": [
+        "التعب"
+      ],
+      "definition_fr": "Sensation de fatigue généralisée non améliorée par le repos.",
+      "categorie": "symptome",
+      "specialites": [
+        "MINT",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05015",
+      "fr": "anorexie",
+      "en": "anorexia",
+      "ar": "القَهَم",
+      "ar_variantes": [
+        "فقدان الشهية"
+      ],
+      "definition_fr": "Diminution ou perte de l'appétit.",
+      "categorie": "symptome",
+      "specialites": [
+        "MINT",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05016",
+      "fr": "amaigrissement",
+      "en": "weight loss",
+      "ar": "نقص الوزن",
+      "ar_variantes": [
+        "فقدان الوزن"
+      ],
+      "definition_fr": "Perte de poids involontaire, significative au-delà de 5 % en un mois ou 10 % en six mois.",
+      "categorie": "symptome",
+      "specialites": [
+        "MINT",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05017",
+      "fr": "altération de l'état général",
+      "en": "deterioration of general condition",
+      "ar": "تدهور الحالة العامة",
+      "ar_variantes": [],
+      "definition_fr": "Association d'asthénie, d'anorexie et d'amaigrissement.",
+      "categorie": "symptome",
+      "specialites": [
+        "MINT",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05018",
+      "fr": "douleur",
+      "en": "pain",
+      "ar": "الألم",
+      "ar_variantes": [],
+      "definition_fr": "Expérience sensorielle et émotionnelle désagréable associée à une lésion réelle ou potentielle.",
+      "categorie": "symptome",
+      "specialites": [
+        "MINT",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05019",
+      "fr": "douleur thoracique",
+      "en": "chest pain",
+      "ar": "ألم الصدر",
+      "ar_variantes": [
+        "الألم الصدري"
+      ],
+      "definition_fr": "Douleur siégeant dans le thorax, d'origine cardiaque, pleuropulmonaire, digestive ou pariétale.",
+      "categorie": "symptome",
+      "specialites": [
+        "CARD",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05020",
+      "fr": "douleur abdominale",
+      "en": "abdominal pain",
+      "ar": "ألم البطن",
+      "ar_variantes": [],
+      "definition_fr": "Douleur ressentie dans l'abdomen, dont la topographie oriente l'étiologie.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05021",
+      "fr": "céphalée",
+      "en": "headache",
+      "ar": "الصُّداع",
+      "ar_variantes": [],
+      "definition_fr": "Douleur de l'extrémité céphalique.",
+      "categorie": "symptome",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05022",
+      "fr": "dyspnée",
+      "en": "dyspnea",
+      "ar": "الزُّلّة",
+      "ar_variantes": [
+        "ضيق التنفس",
+        "عسر التنفس"
+      ],
+      "definition_fr": "Sensation de gêne ou de difficulté respiratoire.",
+      "categorie": "symptome",
+      "specialites": [
+        "PNEU",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05023",
+      "fr": "orthopnée",
+      "en": "orthopnea",
+      "ar": "ضيق التنفس الاضطجاعي",
+      "ar_variantes": [],
+      "definition_fr": "Dyspnée survenant en décubitus, soulagée par la position assise, évocatrice d'insuffisance cardiaque gauche.",
+      "categorie": "symptome",
+      "specialites": [
+        "CARD",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05024",
+      "fr": "toux",
+      "en": "cough",
+      "ar": "السُّعال",
+      "ar_variantes": [],
+      "definition_fr": "Expulsion brusque et bruyante d'air des voies respiratoires.",
+      "categorie": "symptome",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05025",
+      "fr": "expectoration",
+      "en": "sputum",
+      "ar": "القَشْع",
+      "ar_variantes": [
+        "البلغم"
+      ],
+      "definition_fr": "Rejet par la toux de sécrétions bronchiques.",
+      "categorie": "symptome",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05026",
+      "fr": "hémoptysie",
+      "en": "hemoptysis",
+      "ar": "نَفْث الدم",
+      "ar_variantes": [],
+      "definition_fr": "Rejet de sang par la bouche lors d'un effort de toux, provenant des voies respiratoires sous-glottiques.",
+      "categorie": "symptome",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05027",
+      "fr": "palpitations",
+      "en": "palpitations",
+      "ar": "الخَفَقان",
+      "ar_variantes": [],
+      "definition_fr": "Perception anormale des battements cardiaques.",
+      "categorie": "symptome",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05028",
+      "fr": "syncope",
+      "en": "syncope",
+      "ar": "الغَشْي",
+      "ar_variantes": [
+        "الإغماء"
+      ],
+      "definition_fr": "Perte de connaissance brève à début rapide et récupération spontanée, due à une hypoperfusion cérébrale globale.",
+      "categorie": "symptome",
+      "specialites": [
+        "CARD",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05029",
+      "fr": "lipothymie",
+      "en": "presyncope",
+      "ar": "شبه الغَشْي",
+      "ar_variantes": [],
+      "definition_fr": "Malaise avec sensation imminente de perte de connaissance sans perte complète.",
+      "categorie": "symptome",
+      "specialites": [
+        "CARD",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05030",
+      "fr": "vertige",
+      "en": "vertigo",
+      "ar": "الدُّوار",
+      "ar_variantes": [],
+      "definition_fr": "Illusion de mouvement de l'environnement ou de soi-même, d'origine vestibulaire.",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05031",
+      "fr": "nausées",
+      "en": "nausea",
+      "ar": "الغثيان",
+      "ar_variantes": [],
+      "definition_fr": "Sensation désagréable précédant l'envie de vomir.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05032",
+      "fr": "vomissements",
+      "en": "vomiting",
+      "ar": "القيء",
+      "ar_variantes": [
+        "التقيّؤ"
+      ],
+      "definition_fr": "Rejet actif par la bouche du contenu gastrique.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05033",
+      "fr": "hématémèse",
+      "en": "hematemesis",
+      "ar": "قيء الدم",
+      "ar_variantes": [
+        "التقيؤ الدموي"
+      ],
+      "definition_fr": "Vomissement de sang d'origine digestive haute.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05034",
+      "fr": "méléna",
+      "en": "melena",
+      "ar": "التغوّط الأسود",
+      "ar_variantes": [
+        "البراز الأسود"
+      ],
+      "definition_fr": "Émission par l'anus de sang digéré noir et poisseux, témoin d'une hémorragie digestive habituellement haute.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05035",
+      "fr": "rectorragie",
+      "en": "rectal bleeding",
+      "ar": "نزف المستقيم",
+      "ar_variantes": [
+        "النزف الشرجي"
+      ],
+      "definition_fr": "Émission par l'anus de sang rouge, habituellement d'origine colique ou anorectale.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05036",
+      "fr": "diarrhée",
+      "en": "diarrhea",
+      "ar": "الإسهال",
+      "ar_variantes": [],
+      "definition_fr": "Émission de selles trop fréquentes, trop abondantes ou trop liquides (plus de trois par jour).",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05037",
+      "fr": "constipation",
+      "en": "constipation",
+      "ar": "الإمساك",
+      "ar_variantes": [],
+      "definition_fr": "Difficulté ou rareté de l'exonération des selles.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05038",
+      "fr": "dysphagie",
+      "en": "dysphagia",
+      "ar": "عسر البلع",
+      "ar_variantes": [],
+      "definition_fr": "Sensation de gêne ou de blocage au passage des aliments.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05039",
+      "fr": "odynophagie",
+      "en": "odynophagia",
+      "ar": "البلع المؤلم",
+      "ar_variantes": [],
+      "definition_fr": "Douleur provoquée par la déglutition.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05040",
+      "fr": "pyrosis",
+      "en": "heartburn",
+      "ar": "حُرقة الفؤاد",
+      "ar_variantes": [
+        "الحموضة"
+      ],
+      "definition_fr": "Brûlure rétrosternale ascendante, évocatrice de reflux gastro-œsophagien.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05041",
+      "fr": "ballonnement",
+      "en": "bloating",
+      "ar": "النفخة",
+      "ar_variantes": [
+        "الانتفاخ"
+      ],
+      "definition_fr": "Sensation de distension abdominale.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05042",
+      "fr": "ténesme",
+      "en": "tenesmus",
+      "ar": "الزَّحير",
+      "ar_variantes": [],
+      "definition_fr": "Sensation de besoin impérieux et douloureux d'exonérer sans émission de selles.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05043",
+      "fr": "prurit",
+      "en": "pruritus",
+      "ar": "الحِكّة",
+      "ar_variantes": [],
+      "definition_fr": "Sensation cutanée provoquant le besoin de se gratter.",
+      "categorie": "symptome",
+      "specialites": [
+        "DERM",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05044",
+      "fr": "polydipsie",
+      "en": "polydipsia",
+      "ar": "العُطاش",
+      "ar_variantes": [
+        "كثرة العطش"
+      ],
+      "definition_fr": "Soif excessive avec augmentation des boissons.",
+      "categorie": "symptome",
+      "specialites": [
+        "DIAB",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05045",
+      "fr": "polyphagie",
+      "en": "polyphagia",
+      "ar": "النَّهَم",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation excessive de la prise alimentaire.",
+      "categorie": "symptome",
+      "specialites": [
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05046",
+      "fr": "pollakiurie",
+      "en": "urinary frequency",
+      "ar": "تكرّر التبوّل",
+      "ar_variantes": [
+        "كثرة التبول"
+      ],
+      "definition_fr": "Mictions anormalement fréquentes et peu abondantes.",
+      "categorie": "symptome",
+      "specialites": [
+        "UROL",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05047",
+      "fr": "dysurie",
+      "en": "dysuria",
+      "ar": "عسر التبوّل",
+      "ar_variantes": [],
+      "definition_fr": "Difficulté à uriner.",
+      "categorie": "symptome",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05048",
+      "fr": "brûlures mictionnelles",
+      "en": "burning on urination",
+      "ar": "حُرقة البول",
+      "ar_variantes": [],
+      "definition_fr": "Sensation de brûlure lors de la miction, évocatrice d'infection urinaire.",
+      "categorie": "symptome",
+      "specialites": [
+        "UROL",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05049",
+      "fr": "incontinence urinaire",
+      "en": "urinary incontinence",
+      "ar": "سلس البول",
+      "ar_variantes": [],
+      "definition_fr": "Perte involontaire d'urine.",
+      "categorie": "symptome",
+      "specialites": [
+        "UROL",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05050",
+      "fr": "incontinence fécale",
+      "en": "fecal incontinence",
+      "ar": "سلس البراز",
+      "ar_variantes": [],
+      "definition_fr": "Perte involontaire de selles.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05051",
+      "fr": "leucorrhées",
+      "en": "vaginal discharge",
+      "ar": "الإفرازات المهبلية",
+      "ar_variantes": [],
+      "definition_fr": "Écoulement vulvaire non sanglant, physiologique ou pathologique.",
+      "categorie": "symptome",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05052",
+      "fr": "métrorragie",
+      "en": "metrorrhagia",
+      "ar": "النزف الرحمي",
+      "ar_variantes": [],
+      "definition_fr": "Saignement d'origine utérine survenant en dehors des règles.",
+      "categorie": "symptome",
+      "specialites": [
+        "GYNE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05053",
+      "fr": "ménorragie",
+      "en": "menorrhagia",
+      "ar": "غزارة الطمث",
+      "ar_variantes": [
+        "الحيض الغزير"
+      ],
+      "definition_fr": "Règles anormalement abondantes ou prolongées.",
+      "categorie": "symptome",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05054",
+      "fr": "aménorrhée",
+      "en": "amenorrhea",
+      "ar": "انقطاع الطمث",
+      "ar_variantes": [],
+      "definition_fr": "Absence de règles chez une femme en âge de procréer.",
+      "categorie": "symptome",
+      "specialites": [
+        "GYNE",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05055",
+      "fr": "dysménorrhée",
+      "en": "dysmenorrhea",
+      "ar": "عسر الطمث",
+      "ar_variantes": [],
+      "definition_fr": "Douleurs pelviennes accompagnant les règles.",
+      "categorie": "symptome",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05056",
+      "fr": "dyspareunie",
+      "en": "dyspareunia",
+      "ar": "عسر الجماع",
+      "ar_variantes": [],
+      "definition_fr": "Douleur lors des rapports sexuels.",
+      "categorie": "symptome",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05057",
+      "fr": "galactorrhée",
+      "en": "galactorrhea",
+      "ar": "ثَرّ اللبن",
+      "ar_variantes": [
+        "سيلان الحليب"
+      ],
+      "definition_fr": "Écoulement mammaire de lait en dehors de l'allaitement.",
+      "categorie": "signe",
+      "specialites": [
+        "ENDO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05058",
+      "fr": "gynécomastie",
+      "en": "gynecomastia",
+      "ar": "التَّثَدّي",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de volume de la glande mammaire chez l'homme.",
+      "categorie": "signe",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05059",
+      "fr": "hirsutisme",
+      "en": "hirsutism",
+      "ar": "الشَّعْرانية",
+      "ar_variantes": [],
+      "definition_fr": "Pilosité excessive de type masculin chez la femme.",
+      "categorie": "signe",
+      "specialites": [
+        "ENDO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05060",
+      "fr": "convulsions",
+      "en": "convulsions",
+      "ar": "الاختلاجات",
+      "ar_variantes": [
+        "التشنجات"
+      ],
+      "definition_fr": "Contractions musculaires involontaires et brutales d'origine cérébrale.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05061",
+      "fr": "crise épileptique",
+      "en": "epileptic seizure",
+      "ar": "النوبة الصرعية",
+      "ar_variantes": [],
+      "definition_fr": "Manifestation clinique transitoire due à une activité neuronale cérébrale anormale et excessive.",
+      "categorie": "symptome",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05062",
+      "fr": "confusion mentale",
+      "en": "confusion",
+      "ar": "التخليط الذهني",
+      "ar_variantes": [
+        "الارتباك"
+      ],
+      "definition_fr": "Altération globale et fluctuante de la vigilance et des fonctions cognitives.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "GERI",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05063",
+      "fr": "agitation",
+      "en": "agitation",
+      "ar": "الهِياج",
+      "ar_variantes": [
+        "التهيّج"
+      ],
+      "definition_fr": "Activité motrice excessive et désordonnée accompagnée de tension psychique.",
+      "categorie": "signe",
+      "specialites": [
+        "PSYC",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05064",
+      "fr": "troubles de la conscience",
+      "en": "impaired consciousness",
+      "ar": "اضطراب الوعي",
+      "ar_variantes": [],
+      "definition_fr": "Altération de la vigilance allant de l'obnubilation au coma.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05065",
+      "fr": "paresthésies",
+      "en": "paresthesia",
+      "ar": "المَذَل",
+      "ar_variantes": [
+        "النمل"
+      ],
+      "definition_fr": "Sensations anormales non douloureuses (fourmillements, picotements).",
+      "categorie": "symptome",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05066",
+      "fr": "aphasie",
+      "en": "aphasia",
+      "ar": "الحُبْسة",
+      "ar_variantes": [],
+      "definition_fr": "Trouble acquis du langage lié à une lésion cérébrale.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05067",
+      "fr": "dysarthrie",
+      "en": "dysarthria",
+      "ar": "عسر التلفّظ",
+      "ar_variantes": [],
+      "definition_fr": "Trouble de l'articulation de la parole d'origine neurologique.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05068",
+      "fr": "diplopie",
+      "en": "diplopia",
+      "ar": "الشُّفوع",
+      "ar_variantes": [
+        "ازدواج الرؤية"
+      ],
+      "definition_fr": "Vision double d'un objet unique.",
+      "categorie": "symptome",
+      "specialites": [
+        "OPHT",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05069",
+      "fr": "baisse de l'acuité visuelle",
+      "en": "decreased visual acuity",
+      "ar": "نقص حدة البصر",
+      "ar_variantes": [
+        "ضعف البصر"
+      ],
+      "definition_fr": "Diminution de la capacité à voir nettement.",
+      "categorie": "symptome",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05070",
+      "fr": "photophobie",
+      "en": "photophobia",
+      "ar": "رُهاب الضوء",
+      "ar_variantes": [],
+      "definition_fr": "Intolérance douloureuse à la lumière.",
+      "categorie": "symptome",
+      "specialites": [
+        "OPHT",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05071",
+      "fr": "œil rouge",
+      "en": "red eye",
+      "ar": "العين الحمراء",
+      "ar_variantes": [],
+      "definition_fr": "Rougeur oculaire relevant d'étiologies bénignes ou graves (glaucome aigu, uvéite, kératite).",
+      "categorie": "signe",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05072",
+      "fr": "larmoiement",
+      "en": "epiphora",
+      "ar": "الدُّماع",
+      "ar_variantes": [],
+      "definition_fr": "Écoulement de larmes sur la joue.",
+      "categorie": "symptome",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05073",
+      "fr": "otalgie",
+      "en": "otalgia",
+      "ar": "ألم الأذن",
+      "ar_variantes": [],
+      "definition_fr": "Douleur de l'oreille.",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05074",
+      "fr": "otorrhée",
+      "en": "otorrhea",
+      "ar": "ثَرّ الأذن",
+      "ar_variantes": [
+        "سيلان الأذن"
+      ],
+      "definition_fr": "Écoulement par le conduit auditif externe.",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05075",
+      "fr": "hypoacousie",
+      "en": "hearing loss",
+      "ar": "نقص السمع",
+      "ar_variantes": [
+        "ضعف السمع"
+      ],
+      "definition_fr": "Diminution de l'acuité auditive.",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05076",
+      "fr": "acouphènes",
+      "en": "tinnitus",
+      "ar": "الطنين",
+      "ar_variantes": [],
+      "definition_fr": "Perception de bruits en l'absence de source sonore extérieure.",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05077",
+      "fr": "épistaxis",
+      "en": "epistaxis",
+      "ar": "الرُّعاف",
+      "ar_variantes": [],
+      "definition_fr": "Saignement d'origine nasale ou des fosses nasales.",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05078",
+      "fr": "obstruction nasale",
+      "en": "nasal obstruction",
+      "ar": "انسداد الأنف",
+      "ar_variantes": [],
+      "definition_fr": "Gêne au passage de l'air dans les fosses nasales.",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05079",
+      "fr": "rhinorrhée",
+      "en": "rhinorrhea",
+      "ar": "ثَرّ الأنف",
+      "ar_variantes": [
+        "سيلان الأنف"
+      ],
+      "definition_fr": "Écoulement nasal.",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05080",
+      "fr": "dysphonie",
+      "en": "dysphonia",
+      "ar": "خلل التصويت",
+      "ar_variantes": [
+        "بُحّة الصوت"
+      ],
+      "definition_fr": "Altération de la voix (timbre, intensité, hauteur).",
+      "categorie": "symptome",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05081",
+      "fr": "trismus",
+      "en": "trismus",
+      "ar": "الضَّزَز",
+      "ar_variantes": [],
+      "definition_fr": "Limitation de l'ouverture de la bouche par contracture des muscles masticateurs.",
+      "categorie": "signe",
+      "specialites": [
+        "ORL",
+        "DENT",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05082",
+      "fr": "arthralgie",
+      "en": "arthralgia",
+      "ar": "ألم المفاصل",
+      "ar_variantes": [],
+      "definition_fr": "Douleur articulaire sans signe inflammatoire objectif obligatoire.",
+      "categorie": "symptome",
+      "specialites": [
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05083",
+      "fr": "myalgie",
+      "en": "myalgia",
+      "ar": "ألم العضلات",
+      "ar_variantes": [],
+      "definition_fr": "Douleur musculaire.",
+      "categorie": "symptome",
+      "specialites": [
+        "RHUM",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05084",
+      "fr": "lombalgie",
+      "en": "low back pain",
+      "ar": "ألم أسفل الظهر",
+      "ar_variantes": [
+        "ألم قطني"
+      ],
+      "definition_fr": "Douleur de la région lombaire.",
+      "categorie": "symptome",
+      "specialites": [
+        "RHUM",
+        "MPR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05085",
+      "fr": "radiculalgie",
+      "en": "radicular pain",
+      "ar": "الألم الجذري",
+      "ar_variantes": [],
+      "definition_fr": "Douleur suivant le trajet d'une racine nerveuse.",
+      "categorie": "symptome",
+      "specialites": [
+        "RHUM",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05086",
+      "fr": "raideur articulaire",
+      "en": "joint stiffness",
+      "ar": "تيبّس المفاصل",
+      "ar_variantes": [],
+      "definition_fr": "Limitation de la mobilité d'une articulation.",
+      "categorie": "signe",
+      "specialites": [
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05087",
+      "fr": "dérouillage matinal",
+      "en": "morning stiffness",
+      "ar": "التيبّس الصباحي",
+      "ar_variantes": [],
+      "definition_fr": "Raideur articulaire au réveil, prolongée dans les rhumatismes inflammatoires.",
+      "categorie": "symptome",
+      "specialites": [
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05088",
+      "fr": "boiterie",
+      "en": "limp",
+      "ar": "العَرَج",
+      "ar_variantes": [],
+      "definition_fr": "Anomalie de la marche due à une douleur, une inégalité ou un déficit d'un membre inférieur.",
+      "categorie": "signe",
+      "specialites": [
+        "ORTH",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05089",
+      "fr": "claudication intermittente",
+      "en": "intermittent claudication",
+      "ar": "العرج المتقطّع",
+      "ar_variantes": [],
+      "definition_fr": "Douleur musculaire à la marche cédant à l'arrêt, révélatrice d'artériopathie.",
+      "categorie": "symptome",
+      "specialites": [
+        "CARD",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05090",
+      "fr": "crampes",
+      "en": "cramps",
+      "ar": "المَعَص",
+      "ar_variantes": [],
+      "definition_fr": "Contractions musculaires involontaires, douloureuses et transitoires.",
+      "categorie": "symptome",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05091",
+      "fr": "insomnie",
+      "en": "insomnia",
+      "ar": "الأرق",
+      "ar_variantes": [],
+      "definition_fr": "Difficulté d'endormissement ou de maintien du sommeil retentissant sur la journée.",
+      "categorie": "symptome",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05092",
+      "fr": "anxiété",
+      "en": "anxiety",
+      "ar": "القلق",
+      "ar_variantes": [],
+      "definition_fr": "Sentiment d'appréhension et de danger imminent accompagné de manifestations somatiques.",
+      "categorie": "symptome",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05093",
+      "fr": "hallucinations",
+      "en": "hallucinations",
+      "ar": "الهَلْوَسات",
+      "ar_variantes": [],
+      "definition_fr": "Perceptions sans objet à percevoir.",
+      "categorie": "signe",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05094",
+      "fr": "délire",
+      "en": "delusion",
+      "ar": "الضَّلال",
+      "ar_variantes": [
+        "التوهّم",
+        "الهذيان"
+      ],
+      "definition_fr": "Conviction inébranlable non partagée et sans fondement dans la réalité.",
+      "categorie": "signe",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05095",
+      "fr": "idées suicidaires",
+      "en": "suicidal ideation",
+      "ar": "الأفكار الانتحارية",
+      "ar_variantes": [],
+      "definition_fr": "Pensées relatives au fait de mettre fin à ses jours.",
+      "categorie": "symptome",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05096",
+      "fr": "amnésie",
+      "en": "amnesia",
+      "ar": "النَّساوة",
+      "ar_variantes": [
+        "فقدان الذاكرة"
+      ],
+      "definition_fr": "Perte partielle ou totale de la mémoire.",
+      "categorie": "symptome",
+      "specialites": [
+        "NEUR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05097",
+      "fr": "chute",
+      "en": "fall",
+      "ar": "السقوط",
+      "ar_variantes": [],
+      "definition_fr": "Fait de se retrouver involontairement au sol, syndrome gériatrique majeur.",
+      "categorie": "general",
+      "specialites": [
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05098",
+      "fr": "trouble de la marche",
+      "en": "gait disturbance",
+      "ar": "اضطراب المشي",
+      "ar_variantes": [],
+      "definition_fr": "Anomalie de la marche d'origine neurologique, ostéo-articulaire ou multifactorielle.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05099",
+      "fr": "hoquet",
+      "en": "hiccup",
+      "ar": "الفُواق",
+      "ar_variantes": [
+        "الحازوقة"
+      ],
+      "definition_fr": "Contraction spasmodique involontaire du diaphragme suivie d'une fermeture glottique.",
+      "categorie": "symptome",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05100",
+      "fr": "soif",
+      "en": "thirst",
+      "ar": "العطش",
+      "ar_variantes": [],
+      "definition_fr": "Besoin de boire, augmenté dans la déshydratation intracellulaire.",
+      "categorie": "symptome",
+      "specialites": [
+        "NEPH",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05101",
+      "fr": "pâleur",
+      "en": "pallor",
+      "ar": "الشُّحوب",
+      "ar_variantes": [],
+      "definition_fr": "Décoloration de la peau et des muqueuses, évocatrice d'anémie.",
+      "categorie": "signe",
+      "specialites": [
+        "HEMA",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05102",
+      "fr": "ictère",
+      "en": "jaundice",
+      "ar": "اليَرَقان",
+      "ar_variantes": [
+        "الصُّفار"
+      ],
+      "definition_fr": "Coloration jaune des téguments et des muqueuses due à l'accumulation de bilirubine.",
+      "categorie": "signe",
+      "specialites": [
+        "HEPA",
+        "GAST",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05103",
+      "fr": "cyanose",
+      "en": "cyanosis",
+      "ar": "الزُّراق",
+      "ar_variantes": [],
+      "definition_fr": "Coloration bleutée des téguments due à une désaturation de l'hémoglobine.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05104",
+      "fr": "œdème",
+      "en": "edema",
+      "ar": "الوَذَمة",
+      "ar_variantes": [
+        "التورّم"
+      ],
+      "definition_fr": "Accumulation de liquide dans l'espace interstitiel.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD",
+        "NEPH",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05105",
+      "fr": "œdème prenant le godet",
+      "en": "pitting edema",
+      "ar": "الوذمة الانطباعية",
+      "ar_variantes": [],
+      "definition_fr": "Œdème gardant l'empreinte d'une pression du doigt.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05106",
+      "fr": "ascite",
+      "en": "ascites",
+      "ar": "الحَبَن",
+      "ar_variantes": [
+        "الاستسقاء"
+      ],
+      "definition_fr": "Épanchement liquidien dans la cavité péritonéale.",
+      "categorie": "signe",
+      "specialites": [
+        "HEPA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05107",
+      "fr": "hépatomégalie",
+      "en": "hepatomegaly",
+      "ar": "ضخامة الكبد",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation du volume du foie.",
+      "categorie": "signe",
+      "specialites": [
+        "HEPA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05108",
+      "fr": "splénomégalie",
+      "en": "splenomegaly",
+      "ar": "ضخامة الطحال",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation du volume de la rate.",
+      "categorie": "signe",
+      "specialites": [
+        "HEMA",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05109",
+      "fr": "adénopathie",
+      "en": "lymphadenopathy",
+      "ar": "اعتلال العقد اللمفية",
+      "ar_variantes": [
+        "تضخم العقد اللمفاوية"
+      ],
+      "definition_fr": "Augmentation de volume d'un ganglion lymphatique.",
+      "categorie": "signe",
+      "specialites": [
+        "HEMA",
+        "INFE",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05110",
+      "fr": "hématurie",
+      "en": "hematuria",
+      "ar": "البيلة الدموية",
+      "ar_variantes": [
+        "الدم في البول"
+      ],
+      "definition_fr": "Présence de sang dans les urines, macroscopique ou microscopique.",
+      "categorie": "signe",
+      "specialites": [
+        "NEPH",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05111",
+      "fr": "protéinurie",
+      "en": "proteinuria",
+      "ar": "البيلة البروتينية",
+      "ar_variantes": [],
+      "definition_fr": "Présence de protéines en quantité anormale dans les urines.",
+      "categorie": "signe",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05112",
+      "fr": "oligurie",
+      "en": "oliguria",
+      "ar": "قلّة البول",
+      "ar_variantes": [],
+      "definition_fr": "Diurèse inférieure à 500 mL par 24 heures chez l'adulte.",
+      "categorie": "signe",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05113",
+      "fr": "anurie",
+      "en": "anuria",
+      "ar": "انقطاع البول",
+      "ar_variantes": [
+        "الزَّرَم"
+      ],
+      "definition_fr": "Diurèse inférieure à 100 mL par 24 heures.",
+      "categorie": "signe",
+      "specialites": [
+        "NEPH",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05114",
+      "fr": "polyurie",
+      "en": "polyuria",
+      "ar": "البُوال",
+      "ar_variantes": [
+        "كثرة البول"
+      ],
+      "definition_fr": "Diurèse supérieure à 3 litres par 24 heures chez l'adulte.",
+      "categorie": "signe",
+      "specialites": [
+        "NEPH",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05115",
+      "fr": "exophtalmie",
+      "en": "exophthalmos",
+      "ar": "جُحوظ العين",
+      "ar_variantes": [],
+      "definition_fr": "Protrusion du globe oculaire hors de l'orbite.",
+      "categorie": "signe",
+      "specialites": [
+        "ENDO",
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05116",
+      "fr": "ptosis",
+      "en": "ptosis",
+      "ar": "تدلّي الجفن",
+      "ar_variantes": [
+        "إطراق الجفن"
+      ],
+      "definition_fr": "Chute de la paupière supérieure.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05117",
+      "fr": "mélanodermie",
+      "en": "melanoderma",
+      "ar": "فرط تصبغ الجلد",
+      "ar_variantes": [
+        "اسوداد الجلد"
+      ],
+      "definition_fr": "Pigmentation brune excessive de la peau, évocatrice d'insuffisance surrénale primaire.",
+      "categorie": "signe",
+      "specialites": [
+        "ENDO",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05118",
+      "fr": "vergetures",
+      "en": "striae",
+      "ar": "الخطوط الجلدية",
+      "ar_variantes": [],
+      "definition_fr": "Lésions cutanées linéaires atrophiques, pourpres dans l'hypercorticisme.",
+      "categorie": "signe",
+      "specialites": [
+        "ENDO",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05119",
+      "fr": "signe de Chvostek",
+      "en": "Chvostek's sign",
+      "ar": "علامة شفوستيك",
+      "ar_variantes": [],
+      "definition_fr": "Contraction de la commissure labiale à la percussion du nerf facial, évocatrice d'hypocalcémie.",
+      "categorie": "signe",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05120",
+      "fr": "signe de Trousseau",
+      "en": "Trousseau's sign",
+      "ar": "علامة تروسو",
+      "ar_variantes": [],
+      "definition_fr": "Contracture de la main à la compression du bras par un brassard, évocatrice d'hypocalcémie.",
+      "categorie": "signe",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05121",
+      "fr": "déficit moteur",
+      "en": "motor deficit",
+      "ar": "العجز الحركي",
+      "ar_variantes": [],
+      "definition_fr": "Diminution ou perte de la force musculaire.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05122",
+      "fr": "paralysie",
+      "en": "paralysis",
+      "ar": "الشَّلَل",
+      "ar_variantes": [],
+      "definition_fr": "Perte complète de la motricité d'un ou plusieurs muscles.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05123",
+      "fr": "hémiplégie",
+      "en": "hemiplegia",
+      "ar": "الفالِج",
+      "ar_variantes": [
+        "الشلل النصفي"
+      ],
+      "definition_fr": "Paralysie d'une moitié du corps.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05124",
+      "fr": "hypoesthésie",
+      "en": "hypoesthesia",
+      "ar": "نقص الحسّ",
+      "ar_variantes": [],
+      "definition_fr": "Diminution de la sensibilité.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05125",
+      "fr": "raideur de nuque",
+      "en": "nuchal rigidity",
+      "ar": "صَمَل النُّقرة",
+      "ar_variantes": [
+        "تيبّس الرقبة"
+      ],
+      "definition_fr": "Résistance douloureuse à la flexion de la nuque, signe méningé.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05126",
+      "fr": "signe de Kernig",
+      "en": "Kernig's sign",
+      "ar": "علامة كيرنيغ",
+      "ar_variantes": [],
+      "definition_fr": "Impossibilité d'étendre la jambe sur la cuisse fléchie sans douleur, signe méningé.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05127",
+      "fr": "signe de Brudzinski",
+      "en": "Brudzinski's sign",
+      "ar": "علامة برودزينسكي",
+      "ar_variantes": [],
+      "definition_fr": "Flexion involontaire des membres inférieurs lors de la flexion de la nuque, signe méningé.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05128",
+      "fr": "syndrome méningé",
+      "en": "meningeal syndrome",
+      "ar": "المتلازمة السحائية",
+      "ar_variantes": [],
+      "definition_fr": "Association de céphalées, vomissements et raideur de nuque traduisant une irritation méningée.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05129",
+      "fr": "signe de Babinski",
+      "en": "Babinski sign",
+      "ar": "علامة بابنسكي",
+      "ar_variantes": [],
+      "definition_fr": "Extension lente du gros orteil à la stimulation plantaire, signe d'atteinte pyramidale.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05130",
+      "fr": "réflexes ostéotendineux",
+      "en": "deep tendon reflexes",
+      "ar": "المنعكسات الوترية العميقة",
+      "ar_variantes": [],
+      "definition_fr": "Contractions musculaires réflexes déclenchées par la percussion d'un tendon.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05131",
+      "fr": "tremblement",
+      "en": "tremor",
+      "ar": "الرُّعاش",
+      "ar_variantes": [
+        "الارتعاش"
+      ],
+      "definition_fr": "Mouvement involontaire oscillatoire et rythmique d'un segment de membre.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05132",
+      "fr": "rigidité extrapyramidale",
+      "en": "rigidity",
+      "ar": "الصَّمَل",
+      "ar_variantes": [
+        "التيبّس"
+      ],
+      "definition_fr": "Hypertonie plastique en tuyau de plomb ou en roue dentée.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05133",
+      "fr": "ataxie",
+      "en": "ataxia",
+      "ar": "الرَّنَح",
+      "ar_variantes": [],
+      "definition_fr": "Trouble de la coordination des mouvements.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05134",
+      "fr": "syndrome cérébelleux",
+      "en": "cerebellar syndrome",
+      "ar": "المتلازمة المخيخية",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble de troubles de la coordination, de l'équilibre et du tonus par atteinte du cervelet.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05135",
+      "fr": "syndrome pyramidal",
+      "en": "pyramidal syndrome",
+      "ar": "المتلازمة الهرمية",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble de signes traduisant une atteinte de la voie motrice principale.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05136",
+      "fr": "syndrome extrapyramidal",
+      "en": "extrapyramidal syndrome",
+      "ar": "المتلازمة خارج الهرمية",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble de signes traduisant une atteinte des noyaux gris centraux (akinésie, rigidité, tremblement).",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05137",
+      "fr": "fasciculations",
+      "en": "fasciculations",
+      "ar": "التحزُّمات",
+      "ar_variantes": [],
+      "definition_fr": "Contractions spontanées et visibles de faisceaux musculaires.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05138",
+      "fr": "amyotrophie",
+      "en": "muscle wasting",
+      "ar": "ضمور العضلات",
+      "ar_variantes": [],
+      "definition_fr": "Diminution du volume musculaire.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05139",
+      "fr": "hypotonie",
+      "en": "hypotonia",
+      "ar": "نقص المقوية",
+      "ar_variantes": [
+        "الرخاوة"
+      ],
+      "definition_fr": "Diminution du tonus musculaire.",
+      "categorie": "signe",
+      "specialites": [
+        "NEUR",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05140",
+      "fr": "éruption cutanée",
+      "en": "rash",
+      "ar": "الطفح الجلدي",
+      "ar_variantes": [],
+      "definition_fr": "Apparition de lésions cutanées diffuses.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05141",
+      "fr": "érythème",
+      "en": "erythema",
+      "ar": "الحُمامى",
+      "ar_variantes": [],
+      "definition_fr": "Rougeur cutanée s'effaçant à la vitropression.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05142",
+      "fr": "macule",
+      "en": "macule",
+      "ar": "اللُّطخة",
+      "ar_variantes": [
+        "البقعة"
+      ],
+      "definition_fr": "Lésion cutanée plane, non palpable, de couleur différente.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05143",
+      "fr": "papule",
+      "en": "papule",
+      "ar": "الحَطاطة",
+      "ar_variantes": [],
+      "definition_fr": "Lésion cutanée surélevée, solide, de moins d'un centimètre.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05144",
+      "fr": "vésicule cutanée",
+      "en": "vesicle",
+      "ar": "الحُوَيصلة",
+      "ar_variantes": [],
+      "definition_fr": "Petite élevure cutanée à contenu liquide clair.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05145",
+      "fr": "bulle cutanée",
+      "en": "bulla",
+      "ar": "الفُقاعة",
+      "ar_variantes": [],
+      "definition_fr": "Élevure cutanée à contenu liquide de plus de cinq millimètres.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05146",
+      "fr": "pustule",
+      "en": "pustule",
+      "ar": "البَثْرة",
+      "ar_variantes": [],
+      "definition_fr": "Élevure cutanée à contenu purulent.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05147",
+      "fr": "nodule cutané",
+      "en": "nodule",
+      "ar": "العُقَيدة",
+      "ar_variantes": [],
+      "definition_fr": "Lésion cutanée ferme, profonde, palpable.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05148",
+      "fr": "ulcération cutanée",
+      "en": "ulceration",
+      "ar": "التقرّح",
+      "ar_variantes": [],
+      "definition_fr": "Perte de substance cutanée ou muqueuse intéressant le derme.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05149",
+      "fr": "squame",
+      "en": "scale",
+      "ar": "الوَسَف",
+      "ar_variantes": [
+        "القشرة"
+      ],
+      "definition_fr": "Lamelle de couche cornée qui se détache de la peau.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05150",
+      "fr": "croûte",
+      "en": "crust",
+      "ar": "القِشْرة",
+      "ar_variantes": [
+        "الجُلبة"
+      ],
+      "definition_fr": "Dessiccation d'un exsudat à la surface de la peau.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05151",
+      "fr": "purpura",
+      "en": "purpura",
+      "ar": "الفُرْفُرية",
+      "ar_variantes": [],
+      "definition_fr": "Tache rouge-violacée ne s'effaçant pas à la vitropression, due à une extravasation de sang.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05152",
+      "fr": "pétéchies",
+      "en": "petechiae",
+      "ar": "الحَبَرات",
+      "ar_variantes": [],
+      "definition_fr": "Purpura en petits points de un à deux millimètres.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05153",
+      "fr": "ecchymose",
+      "en": "ecchymosis",
+      "ar": "الكَدْمة",
+      "ar_variantes": [],
+      "definition_fr": "Purpura en nappe d'étendue variable.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05154",
+      "fr": "hématome",
+      "en": "hematoma",
+      "ar": "الورم الدموي",
+      "ar_variantes": [],
+      "definition_fr": "Collection de sang dans un tissu.",
+      "categorie": "signe",
+      "specialites": [
+        "HEMA",
+        "TRAU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05155",
+      "fr": "alopécie",
+      "en": "alopecia",
+      "ar": "الحاصّة",
+      "ar_variantes": [
+        "تساقط الشعر"
+      ],
+      "definition_fr": "Chute des cheveux ou des poils.",
+      "categorie": "signe",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05156",
+      "fr": "souffle cardiaque",
+      "en": "heart murmur",
+      "ar": "النفخة القلبية",
+      "ar_variantes": [],
+      "definition_fr": "Bruit anormal perçu à l'auscultation cardiaque dû à un écoulement turbulent.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05157",
+      "fr": "frottement péricardique",
+      "en": "pericardial friction rub",
+      "ar": "الاحتكاك التأموري",
+      "ar_variantes": [],
+      "definition_fr": "Bruit superficiel râpeux synchrone des battements cardiaques, signe de péricardite.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05158",
+      "fr": "bruit de galop",
+      "en": "gallop rhythm",
+      "ar": "نظم الخَبَب",
+      "ar_variantes": [],
+      "definition_fr": "Bruit surajouté réalisant un rythme à trois temps, signe d'insuffisance ventriculaire.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05159",
+      "fr": "choc de pointe",
+      "en": "apex beat",
+      "ar": "ضربة القمّة",
+      "ar_variantes": [],
+      "definition_fr": "Battement perçu à la palpation de la pointe du cœur.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05160",
+      "fr": "tachycardie",
+      "en": "tachycardia",
+      "ar": "تسرّع القلب",
+      "ar_variantes": [],
+      "definition_fr": "Fréquence cardiaque supérieure à 100 battements par minute chez l'adulte.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05161",
+      "fr": "bradycardie",
+      "en": "bradycardia",
+      "ar": "بطء القلب",
+      "ar_variantes": [],
+      "definition_fr": "Fréquence cardiaque inférieure à 60 battements par minute chez l'adulte.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05162",
+      "fr": "hypotension artérielle",
+      "en": "hypotension",
+      "ar": "انخفاض ضغط الدم",
+      "ar_variantes": [
+        "هبوط الضغط"
+      ],
+      "definition_fr": "Pression artérielle systolique inférieure à 90 mmHg.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05163",
+      "fr": "hypotension orthostatique",
+      "en": "orthostatic hypotension",
+      "ar": "انخفاض ضغط الدم الانتصابي",
+      "ar_variantes": [],
+      "definition_fr": "Chute tensionnelle au passage en position debout (systolique d'au moins 20 mmHg ou diastolique d'au moins 10 mmHg).",
+      "categorie": "signe",
+      "specialites": [
+        "CARD",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05164",
+      "fr": "pouls",
+      "en": "pulse",
+      "ar": "النَّبْض",
+      "ar_variantes": [],
+      "definition_fr": "Soulèvement périodique d'une artère perçu à la palpation, synchrone de la systole.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05165",
+      "fr": "turgescence jugulaire",
+      "en": "jugular venous distension",
+      "ar": "امتلاء الأوردة الوداجية",
+      "ar_variantes": [],
+      "definition_fr": "Distension des veines jugulaires en position demi-assise, signe d'insuffisance cardiaque droite.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05166",
+      "fr": "reflux hépato-jugulaire",
+      "en": "hepatojugular reflux",
+      "ar": "الجَزْر الكبدي الوداجي",
+      "ar_variantes": [],
+      "definition_fr": "Turgescence jugulaire provoquée par la compression de l'hypochondre droit.",
+      "categorie": "signe",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05167",
+      "fr": "polypnée",
+      "en": "tachypnea",
+      "ar": "تسرّع التنفس",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de la fréquence respiratoire.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05168",
+      "fr": "bradypnée",
+      "en": "bradypnea",
+      "ar": "بطء التنفّس",
+      "ar_variantes": [],
+      "definition_fr": "Diminution de la fréquence respiratoire.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05169",
+      "fr": "tirage",
+      "en": "chest retractions",
+      "ar": "السحب الوربي",
+      "ar_variantes": [],
+      "definition_fr": "Dépression inspiratoire des espaces intercostaux et du creux sus-sternal, signe de lutte respiratoire.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05170",
+      "fr": "stridor",
+      "en": "stridor",
+      "ar": "الصرير",
+      "ar_variantes": [],
+      "definition_fr": "Bruit inspiratoire aigu traduisant une obstruction des voies aériennes supérieures.",
+      "categorie": "signe",
+      "specialites": [
+        "ORL",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05171",
+      "fr": "sibilants",
+      "en": "wheezes",
+      "ar": "الأزيز",
+      "ar_variantes": [],
+      "definition_fr": "Bruits respiratoires continus aigus traduisant une obstruction bronchique.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05172",
+      "fr": "crépitants",
+      "en": "crackles",
+      "ar": "الخَراخِر",
+      "ar_variantes": [
+        "الفرقعة"
+      ],
+      "definition_fr": "Bruits respiratoires discontinus fins, inspiratoires, d'origine alvéolaire.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05173",
+      "fr": "ronchi",
+      "en": "rhonchi",
+      "ar": "الخراخر القصبية",
+      "ar_variantes": [],
+      "definition_fr": "Bruits respiratoires continus graves liés à des sécrétions bronchiques.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05174",
+      "fr": "matité",
+      "en": "dullness",
+      "ar": "الأصمّية",
+      "ar_variantes": [],
+      "definition_fr": "Son sourd à la percussion, traduisant une condensation ou un épanchement liquidien.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05175",
+      "fr": "tympanisme",
+      "en": "tympany",
+      "ar": "الطَّبْلية",
+      "ar_variantes": [],
+      "definition_fr": "Son creux à la percussion traduisant une distension gazeuse.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05176",
+      "fr": "souffle tubaire",
+      "en": "bronchial breathing",
+      "ar": "التنفس القصبي",
+      "ar_variantes": [],
+      "definition_fr": "Souffle rude perçu en regard d'une condensation pulmonaire.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05177",
+      "fr": "abolition du murmure vésiculaire",
+      "en": "absent breath sounds",
+      "ar": "غياب النَّفَس الحويصلي",
+      "ar_variantes": [],
+      "definition_fr": "Disparition du bruit respiratoire normal en regard d'un épanchement ou d'une atélectasie.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05178",
+      "fr": "vibrations vocales",
+      "en": "tactile vocal fremitus",
+      "ar": "الاهتزازات الصوتية اللمسية",
+      "ar_variantes": [],
+      "definition_fr": "Vibrations thoraciques perçues à la palpation lors de la parole, abolies en cas d'épanchement.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05179",
+      "fr": "hippocratisme digital",
+      "en": "digital clubbing",
+      "ar": "تعجُّر الأصابع",
+      "ar_variantes": [
+        "تبقرط الأصابع"
+      ],
+      "definition_fr": "Hypertrophie des extrémités digitales avec bombement des ongles.",
+      "categorie": "signe",
+      "specialites": [
+        "PNEU",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05180",
+      "fr": "défense abdominale",
+      "en": "abdominal guarding",
+      "ar": "الدفاع البطني",
+      "ar_variantes": [],
+      "definition_fr": "Contraction musculaire pariétale réflexe et douloureuse à la palpation, signe d'irritation péritonéale.",
+      "categorie": "signe",
+      "specialites": [
+        "CGEN",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05181",
+      "fr": "contracture abdominale",
+      "en": "abdominal rigidity",
+      "ar": "الصلابة البطنية",
+      "ar_variantes": [],
+      "definition_fr": "Rigidité permanente, douloureuse et invincible de la paroi abdominale, signe de péritonite.",
+      "categorie": "signe",
+      "specialites": [
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05182",
+      "fr": "signe de Murphy",
+      "en": "Murphy's sign",
+      "ar": "علامة مورفي",
+      "ar_variantes": [],
+      "definition_fr": "Arrêt de l'inspiration par la douleur à la palpation de l'hypochondre droit, évocateur de cholécystite.",
+      "categorie": "signe",
+      "specialites": [
+        "CGEN",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05183",
+      "fr": "douleur à la décompression",
+      "en": "rebound tenderness",
+      "ar": "إيلام الارتداد",
+      "ar_variantes": [],
+      "definition_fr": "Douleur provoquée par le relâchement brusque de la pression abdominale, signe d'irritation péritonéale.",
+      "categorie": "signe",
+      "specialites": [
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05184",
+      "fr": "point de McBurney",
+      "en": "McBurney's point",
+      "ar": "نقطة ماك بيرني",
+      "ar_variantes": [],
+      "definition_fr": "Point douloureux de la fosse iliaque droite évocateur d'appendicite.",
+      "categorie": "signe",
+      "specialites": [
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05185",
+      "fr": "masse abdominale",
+      "en": "abdominal mass",
+      "ar": "الكتلة البطنية",
+      "ar_variantes": [],
+      "definition_fr": "Tuméfaction palpable dans l'abdomen.",
+      "categorie": "signe",
+      "specialites": [
+        "GAST",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05186",
+      "fr": "douleur provoquée",
+      "en": "tenderness",
+      "ar": "الإيلام",
+      "ar_variantes": [],
+      "definition_fr": "Douleur déclenchée par la palpation d'une région.",
+      "categorie": "signe",
+      "specialites": [
+        "MINT",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05187",
+      "fr": "signe de Lasègue",
+      "en": "Lasègue's sign",
+      "ar": "علامة لازيغ",
+      "ar_variantes": [],
+      "definition_fr": "Douleur radiculaire déclenchée par l'élévation de la jambe tendue, évocatrice de sciatique.",
+      "categorie": "signe",
+      "specialites": [
+        "RHUM",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05188",
+      "fr": "pli cutané persistant",
+      "en": "skin tenting",
+      "ar": "الطيّة الجلدية الثابتة",
+      "ar_variantes": [],
+      "definition_fr": "Persistance d'un pli de peau pincée, signe de déshydratation extracellulaire.",
+      "categorie": "signe",
+      "specialites": [
+        "PEDI",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05189",
+      "fr": "fontanelle bombée",
+      "en": "bulging fontanelle",
+      "ar": "اليافوخ المنتفخ",
+      "ar_variantes": [],
+      "definition_fr": "Tension de la fontanelle antérieure du nourrisson, évocatrice d'hypertension intracrânienne.",
+      "categorie": "signe",
+      "specialites": [
+        "PEDI",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05190",
+      "fr": "retard staturo-pondéral",
+      "en": "failure to thrive",
+      "ar": "فشل النموّ",
+      "ar_variantes": [
+        "تأخر النمو"
+      ],
+      "definition_fr": "Croissance en poids et en taille inférieure aux normes pour l'âge.",
+      "categorie": "signe",
+      "specialites": [
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-05191",
+      "fr": "leucocorie",
+      "en": "leukocoria",
+      "ar": "ابيضاض الحدقة",
+      "ar_variantes": [],
+      "definition_fr": "Reflet pupillaire blanc, évocateur de rétinoblastome ou de cataracte congénitale.",
+      "categorie": "signe",
+      "specialites": [
+        "OPHT",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05192",
+      "fr": "marbrures",
+      "en": "mottling",
+      "ar": "تبقّع الجلد",
+      "ar_variantes": [],
+      "definition_fr": "Taches violacées cutanées, prédominant aux genoux, signe d'hypoperfusion périphérique.",
+      "categorie": "signe",
+      "specialites": [
+        "MINT_REA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05193",
+      "fr": "temps de recoloration cutanée allongé",
+      "en": "prolonged capillary refill time",
+      "ar": "إطالة زمن إعادة الامتلاء الشعري",
+      "ar_variantes": [],
+      "definition_fr": "Recoloration du lit unguéal en plus de trois secondes après pression, signe d'hypoperfusion.",
+      "categorie": "signe",
+      "specialites": [
+        "MINT_REA",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-05194",
+      "fr": "dysmorphie",
+      "en": "dysmorphism",
+      "ar": "سوء التشكّل",
+      "ar_variantes": [],
+      "definition_fr": "Anomalie morphologique, souvent faciale, évocatrice d'une cause génétique.",
+      "categorie": "signe",
+      "specialites": [
+        "GENE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    }
+  ]
+}

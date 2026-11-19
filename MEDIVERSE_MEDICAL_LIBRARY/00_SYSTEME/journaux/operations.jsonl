@@ -691,3 +691,30 @@
 {"date": "2026-11-19T02:20:27+00:00", "agent": "AUD-01", "action": "audit_lot", "cible": "20_CAS_CLINIQUES/lots/DOS-03.json", "details": {"cas": 10, "corriges": 3, "audite_valide": 10}}
 {"date": "2026-11-19T02:21:39+00:00", "agent": "TRA-01", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/lots/TRA-complements-residanat.json"}
 {"date": "2026-11-19T02:21:39+00:00", "agent": "TRA-01", "action": "glossaire_lot", "cible": "23_GLOSSAIRES/FR_EN_AR/lots/TRA-complements-residanat.json", "details": {"termes": 81, "premier_id": "GLO-11000", "dernier_id": "GLO-11080"}}
+{"date": "2026-11-19T02:22:19+00:00", "agent": "TRA-01", "action": "ecriture_json", "cible": "00_SYSTEME/agents/TRA-01/etat.json"}
+{"date": "2026-11-19T02:22:19+00:00", "agent": "TRA-02", "action": "ecriture_json", "cible": "00_SYSTEME/agents/TRA-02/etat.json"}
+{"date": "2026-11-19T02:22:19+00:00", "agent": "TRA-01", "action": "correctif_script", "cible": "00_SYSTEME/scripts/indexer.py", "details": {"motif": "le schéma du glossaire autorise ar=null ; la concaténation de l'index échouait (TypeError)", "changement": "g.get('ar') or '' + indexation des variantes arabes et des développements d'abréviations"}}
+{"date": "2026-11-19T02:22:19+00:00", "agent": "TRA-01", "action": "glossaire_bilan", "cible": "23_GLOSSAIRES/FR_EN_AR/lots", "details": {"termes": 2655, "lots": 12, "sans_ar": 3, "source_umd": 2347}}
+{"date": "2026-11-19T02:22:59+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/catalogue_ouvrages.json"}
+{"date": "2026-11-19T02:22:59+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "18_RECOMMANDATIONS/00_CATALOGUE/catalogue_recommandations.json"}
+{"date": "2026-11-19T02:22:59+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"}
+{"date": "2026-11-19T02:22:59+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/banque_cas_cliniques.json"}
+{"date": "2026-11-19T02:23:00+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/referentiel_pathologies.json"}
+{"date": "2026-11-19T02:23:00+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/glossaire_fr_en_ar.json"}
+{"date": "2026-11-19T02:23:00+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T02:23:00+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T02:23:00+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T02:23:00+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T02:23:00+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 5434, "dossiers": 53}}
+{"date": "2026-11-19T02:23:13+00:00", "agent": "orchestrateur", "action": "requalification_source_glossaire", "cible": "23_GLOSSAIRES/FR_EN_AR/lots", "details": {"termes": 2347}}
+{"date": "2026-11-19T02:23:13+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/catalogue_ouvrages.json"}
+{"date": "2026-11-19T02:23:13+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "18_RECOMMANDATIONS/00_CATALOGUE/catalogue_recommandations.json"}
+{"date": "2026-11-19T02:23:13+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"}
+{"date": "2026-11-19T02:23:13+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/banque_cas_cliniques.json"}
+{"date": "2026-11-19T02:23:13+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/referentiel_pathologies.json"}
+{"date": "2026-11-19T02:23:13+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/glossaire_fr_en_ar.json"}
+{"date": "2026-11-19T02:23:13+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T02:23:14+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T02:23:14+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T02:23:14+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T02:23:14+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 5434, "dossiers": 53}}

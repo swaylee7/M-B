@@ -1,9 +1,46 @@
 {
   "id": "TRA-01",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "lots_livres_relecture_arabophone_requise",
+  "derniere_execution": "2026-11-19T02:22:19+00:00",
+  "taches_terminees": [
+    "TRA-abreviations.json (194 termes, GLO-10000–GLO-10193)",
+    "TRA-complements-residanat.json (81 termes, GLO-11000–GLO-11080)",
+    "TRA-examens.json (127 termes, GLO-06000–GLO-06126)",
+    "TRA-gestes-actes.json (91 termes, GLO-09000–GLO-09090)",
+    "TRA-pathologies-chirurgicales.json (186 termes, GLO-08000–GLO-08185)",
+    "TRA-pathologies-medicales.json (358 termes, GLO-07000–GLO-07357)",
+    "TRA-sante-publique.json (110 termes, GLO-09500–GLO-09609)",
+    "TRA-symptomes-signes.json (195 termes, GLO-05000–GLO-05194)",
+    "validation globale des lots TRA-* : JSON UTF-8, ids uniques, couples (fr, spécialité) uniques, codes de spécialité conformes, 0 erreur",
+    "correctif indexer.py : tolérance de \"ar\": null dans l'index de recherche"
+  ],
+  "taches_suivantes": [
+    "relecture arabophone humaine de tous les termes (statut_ar a_relire_arabophone)",
+    "vérifier sur le Dictionnaire médical unifié (OMS/EMRO) les termes marqués source_terminologique (attribution faite de mémoire, non vérifiée en session)",
+    "établir l'équivalent arabe des 3 termes à ar null",
+    "étendre : spécialités peu couvertes (DENT, CTHO, CPLA, MNUC, MPR), noms de médicaments supplémentaires, éponymes"
+  ],
+  "objectifs": {
+    "termes_minimum": 1500
+  },
+  "compteurs": {
+    "termes_total_glossaire_TRA": 2655,
+    "termes_poste": 1342,
+    "sans_equivalent_arabe": 3,
+    "source_UMD_declaree": 2347
+  },
+  "plages_id_reservees": {
+    "anatomie/histologie/embryologie": "GLO-00001–01999",
+    "sciences fondamentales": "GLO-02000–02999",
+    "pharmacologie": "GLO-03000–03999",
+    "microbiologie-parasitologie": "GLO-04000–04999",
+    "symptômes-signes": "GLO-05000–05999",
+    "examens": "GLO-06000–06999",
+    "pathologies médicales": "GLO-07000–07999",
+    "pathologies chirurgicales": "GLO-08000–08999",
+    "gestes-actes": "GLO-09000–09499",
+    "santé publique": "GLO-09500–09999",
+    "abréviations": "GLO-10000–10999",
+    "compléments résidanat": "GLO-11000–11199"
+  }
 }

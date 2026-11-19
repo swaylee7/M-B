@@ -1,9 +1,42 @@
 {
   "id": "TRA-02",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "lots_livres_relecture_arabophone_requise",
+  "derniere_execution": "2026-11-19T02:22:19+00:00",
+  "taches_terminees": [
+    "TRA-anatomie.json (583 termes, GLO-00001–GLO-00583)",
+    "TRA-microbiologie-parasitologie.json (146 termes, GLO-04000–GLO-04145)",
+    "TRA-pharmacologie.json (223 termes, GLO-03000–GLO-03222)",
+    "TRA-sciences-fondamentales.json (361 termes, GLO-02000–GLO-02360)",
+    "validation globale des lots TRA-* : JSON UTF-8, ids uniques, couples (fr, spécialité) uniques, codes de spécialité conformes, 0 erreur",
+    "correctif indexer.py : tolérance de \"ar\": null dans l'index de recherche"
+  ],
+  "taches_suivantes": [
+    "relecture arabophone humaine de tous les termes (statut_ar a_relire_arabophone)",
+    "vérifier sur le Dictionnaire médical unifié (OMS/EMRO) les termes marqués source_terminologique (attribution faite de mémoire, non vérifiée en session)",
+    "établir l'équivalent arabe des 3 termes à ar null",
+    "étendre : spécialités peu couvertes (DENT, CTHO, CPLA, MNUC, MPR), noms de médicaments supplémentaires, éponymes"
+  ],
+  "objectifs": {
+    "termes_minimum": 1500
+  },
+  "compteurs": {
+    "termes_total_glossaire_TRA": 2655,
+    "termes_poste": 1313,
+    "sans_equivalent_arabe": 3,
+    "source_UMD_declaree": 2347
+  },
+  "plages_id_reservees": {
+    "anatomie/histologie/embryologie": "GLO-00001–01999",
+    "sciences fondamentales": "GLO-02000–02999",
+    "pharmacologie": "GLO-03000–03999",
+    "microbiologie-parasitologie": "GLO-04000–04999",
+    "symptômes-signes": "GLO-05000–05999",
+    "examens": "GLO-06000–06999",
+    "pathologies médicales": "GLO-07000–07999",
+    "pathologies chirurgicales": "GLO-08000–08999",
+    "gestes-actes": "GLO-09000–09499",
+    "santé publique": "GLO-09500–09999",
+    "abréviations": "GLO-10000–10999",
+    "compléments résidanat": "GLO-11000–11199"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "genere_le": "2026-11-19T02:05:45+00:00",
-  "total": 70,
+  "genere_le": "2026-11-19T02:23:13+00:00",
+  "total": 87,
   "cas": [
     {
       "id": "CAS-CARD-0001",
@@ -1582,9 +1582,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Cas vérifié (diagnostic, calculs, conduite et posologies) ; aucune correction."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -1642,9 +1648,15 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Cas vérifié (diagnostic, calculs, conduite et posologies) ; aucune correction."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -1711,9 +1723,15 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Protocole conforme au consensus 2024 (insuline 0,1 puis 0,05 U/kg/h, K⁺, glucose sous 250 mg/dL, résolution)."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -1780,9 +1798,15 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Conforme (critères EHH 2024 dont HCO₃ ≥ 15 ; prise en charge JBDS 2023)."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -1798,7 +1822,7 @@
       "motif_consultation": "Palpitations, perte de 6 kg en 3 mois, nervosité, irritation oculaire.",
       "antecedents": "Aucun ; projet de grossesse dans un an.",
       "symptomes": "Thermophobie, sueurs, tremblement, insomnie, larmoiement et douleur à la mobilisation oculaire.",
-      "examen_clinique": "FC 118/min, PA 135/60 mmHg, tremblement fin, goitre diffus homogène avec souffle ; rétraction palpébrale, rougeur conjonctivale et palpébrale, œdème palpébral, douleur aux mouvements oculaires (CAS 3/7), exophtalmie modérée sans diplopie ; acuité visuelle et vision des couleurs normales.",
+      "examen_clinique": "FC 118/min, PA 135/60 mmHg, tremblement fin, goitre diffus homogène avec souffle ; rétraction palpébrale discrète (< 2 mm), rougeur conjonctivale et palpébrale, œdème palpébral discret, douleur aux mouvements oculaires (CAS 4/7), exophtalmie discrète (< 3 mm au-dessus de la normale) sans diplopie ; acuité visuelle et vision des couleurs normales.",
       "biologie": "TSH < 0,01 mUI/L (N 0,4–4,0) ; T4L 48 pmol/L (N 12–22) ; T3L 15 pmol/L (N 3,1–6,8) ; TRAb 9,8 UI/L (seuil 1,75) ; PNN 2 300/mm³ ; transaminases 1,5 × N.",
       "imagerie": "Échographie : goitre diffus hypoéchogène, hypervascularisation diffuse au Doppler, pas de nodule.",
       "hypotheses_diagnostiques": [
@@ -1815,7 +1839,7 @@
         "β-hCG",
         "Pas de scintigraphie nécessaire"
       ],
-      "diagnostic_final": "Maladie de Basedow (thyrotoxicose franche, TRAb positifs) avec orbitopathie légère et active.",
+      "diagnostic_final": "Maladie de Basedow (thyrotoxicose franche, TRAb positifs) avec orbitopathie légère (aucun critère de forme modérée à sévère) et active (CAS 4/7).",
       "traitement": "Propranolol 20–40 mg toutes les 6 h ; thiamazole/MMI dans la fourchette ETA 10–30 mg/j (ou carbimazole 15–40 mg/j) puis titration ; information écrite sur l'agranulocytose ; arrêt du tabac ; sélénium 6 mois ; contraception ; discussion du traitement radical (thyroïdectomie totale privilégiée en cas d'orbitopathie active et de projet de grossesse) ; si grossesse sous ATS : passage au PTU au 1er trimestre.",
       "surveillance": "T4L/T3L à 3–4 semaines (TSH en retard) ; NFS en urgence si fièvre/angine ; CAS et acuité visuelle ; TRAb avant l'arrêt du traitement et en début de grossesse puis à 18–22 SA s'ils sont élevés.",
       "evolution": "Euthyroïdie à 3 mois sous 7,5 mg/j de MMI ; épisode d'angine virale à 7 semaines (PNN 1 900/mm³, reprise du MMI) ; thyroïdectomie totale à 8 mois ; grossesse 5 mois plus tard sous lévothyroxine.",
@@ -1852,9 +1876,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Incohérence corrigée : l'examen décrivait une exophtalmie et un œdème « modérés » (critères de forme modérée à sévère) pour une orbitopathie classée légère ; signes rendus discrets et CAS recalculé (4/7 et non 3/7)."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -1889,7 +1919,7 @@
         "Ionogramme, kaliémie, lactates"
       ],
       "diagnostic_final": "Crise aiguë thyrotoxique (score de Burch-Wartofsky ≥ 45 : hyperthermie, tachycardie > 140 avec FA, insuffisance cardiaque, troubles neurologiques, troubles digestifs et ictère, facteur déclenchant) sur maladie de Basedow.",
-      "traitement": "Réanimation ; ATS à forte dose (PTU, ou MMI) par voie orale ou sonde ; iode stable au moins 1 h après la première dose d'ATS ; glucocorticoïdes IV ; bêtabloquant prudent (molécule IV de courte durée d'action sous monitorage, compte tenu de l'insuffisance cardiaque) ; anticoagulation de la FA à discuter ; refroidissement, paracétamol (pas d'aspirine), réhydratation, nutrition ; antibiothérapie de la pneumopathie ; plasmaphérèse ou thyroïdectomie en cas d'échec. Posologies : protocole local / ATA 2016 / JTA 2016 [POSOLOGIE À VÉRIFIER].",
+      "traitement": "Réanimation ; ATS à forte dose (PTU, ou MMI) par voie orale ou sonde ; iode stable au moins 1 h après la première dose d'ATS ; glucocorticoïdes IV ; bêtabloquant prudent (molécule IV de courte durée d'action sous monitorage, compte tenu de l'insuffisance cardiaque) ; anticoagulation de la FA à discuter ; refroidissement, paracétamol (pas d'aspirine), réhydratation, nutrition ; antibiothérapie de la pneumopathie ; plasmaphérèse ou thyroïdectomie en cas d'échec. Posologies ATA 2016 : PTU 500–1 000 mg puis 250 mg toutes les 4 h (ou MMI 60–80 mg/j) ; iodure (SSKI) 5 gouttes (250 mg) toutes les 6 h, au moins 1 h après l'ATS ; hydrocortisone 300 mg IV puis 100 mg toutes les 8 h ; propranolol 60–80 mg toutes les 4 h si l'état hémodynamique le permet (ici, insuffisance cardiaque : bêtabloquant IV de courte durée d'action titré sous monitorage) ; confronter au protocole local.",
       "surveillance": "Scope, température, conscience, fonction cardiaque, bilan hépatique (PTU), T4L/T3L tous les 2–3 jours, glycémie (corticoïdes).",
       "evolution": "Amélioration en 72 h ; relais par MMI oral après stabilisation ; thyroïdectomie totale programmée à distance après euthyroïdie (non-observance, crise grave).",
       "explication_pedagogique": "Diagnostic clinique sans attendre la biologie ; ordre ATS → iode ; traitement multimodal ; mortalité ~10 % ; l'arrêt brutal des ATS et l'infection sont des déclencheurs classiques.",
@@ -1925,9 +1955,15 @@
           "date": "1993"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Marqueur posologique levé : posologies de l'ATA 2016 (crise thyrotoxique) ajoutées, recoupées par recherche web."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -1995,9 +2031,15 @@
           "date": "2023/2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Cas vérifié (diagnostic, calculs, conduite et posologies) ; aucune correction."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -2054,9 +2096,15 @@
           "date": "2012-2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Cas vérifié (diagnostic, calculs, conduite et posologies) ; aucune correction."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -2090,7 +2138,7 @@
         "Gaz du sang"
       ],
       "diagnostic_final": "Hyperkaliémie sévère (7,2 mmol/L) avec signes ECG menaçants, d'origine médicamenteuse sur MRC G3b et IRA fonctionnelle.",
-      "traitement": "Gluconate de calcium 10 % 30 mL IV en 10 min (répété si l'ECG reste anormal) ; insuline rapide 10 UI + glucose 25 g IV en 15 min avec relais glucosé (glycémie initiale < 7 mmol/L) ; salbutamol 10–20 mg nébulisé ; arrêt du ramipril, de la spironolactone, du cotrimoxazole et de l'ibuprofène ; SZC 10 g × 3/j si disponible ; furosémide IV ; avis néphrologique pour hémodialyse si échec.",
+      "traitement": "Gluconate de calcium 10 % 30 mL IV en 10 min (répété si l'ECG reste anormal) ; insuline rapide 10 UI + glucose 25 g IV en 15 min avec relais par glucose 10 % à 50 mL/h pendant 5 h (glycémie initiale < 7 mmol/L) ; salbutamol 10–20 mg nébulisé ; arrêt du ramipril, de la spironolactone, du cotrimoxazole et de l'ibuprofène ; SZC 10 g × 3/j si disponible ; furosémide IV ; avis néphrologique pour hémodialyse si échec.",
       "surveillance": "Scope, ECG, kaliémie à 1–2 h puis régulièrement jusqu'à 24 h, glycémie capillaire rapprochée ≥ 6 h, créatinine.",
       "evolution": "QRS 100 ms après la 2e dose de calcium ; K 6,1 à H1, 5,6 à H4, 5,0 à J1 ; créatinine 19 mg/L à J3 ; reprise prudente du ramipril à dose réduite, discussion d'un chélateur pour maintenir la spironolactone, éviction des AINS et du triméthoprime.",
       "explication_pedagogique": "Séquence protéger–transférer–éliminer–surveiller ; l'hypoglycémie est la complication majeure de l'insuline-glucose ; à distance, préserver si possible les bloqueurs du SRAA grâce aux mesures hypokaliémiantes.",
@@ -2122,9 +2170,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Relais glucosé précisé (G10 % 50 mL/h × 5 h ; UKKA 2023/ERC 2021) ; séquence thérapeutique conforme."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -2187,9 +2241,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-03",
       "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Cas vérifié (diagnostic, calculs, conduite et posologies) ; aucune correction."
+      },
       "_lot": "DOS-03.json"
     },
     {
@@ -4543,7 +4603,7 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -4621,7 +4681,7 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -4663,7 +4723,7 @@
       "traitement": "Alerte et heure notée ; 2 VVP 14-16 G ; O2, réchauffement, sonde urinaire ; massage utérin et compression bimanuelle ; ocytocine 5-10 UI IV lente puis perfusion d'entretien ; acide tranexamique 1 g IV en 10 min (< 3 h), 2e dose à 30 min devant la persistance ; révision utérine sous anesthésie avec antibioprophylaxie ; examen sous valves (éraillure vaginale non hémorragique) ; 2e ligne : sulprostone IV si disponible (sinon misoprostol 800 µg sublingual ou ergométrine en l'absence d'HTA) ; transfusion 4 CGR et 2 PFC, concentré de fibrinogène ; ballonnet de tamponnement intra-utérin (test positif) ; bloc opératoire prévenu pour ligatures/capitonnage/hystérectomie en cas d'échec.",
       "surveillance": "Pouls, PA, saignement, tonus utérin, diurèse toutes les 15 min puis horaire ; Hb et hémostase répétées ; retrait progressif du ballonnet à H+20 ; HBPM dès H+24 en l'absence de saignement ; fer IV ; recherche d'un syndrome de Sheehan (montée laiteuse) ; revue de morbidité.",
       "evolution": "Arrêt du saignement après ballonnet ; Hb 8,1 g/dL à J1 ; montée laiteuse normale à J3 ; sortie à J4 avec fer et information sur le risque de récidive.",
-      "explication_pedagogique": "La gravité d'une HPP dépend surtout du délai de prise en charge. Mesurer les pertes (sac, champ calibré) permet un diagnostic à 500 mL au lieu de 1 100 mL. Le bundle de première intention (massage, ocytocine, acide tranexamique, remplissage, examen et escalade) doit être appliqué simultanément. L'escalade est guidée par le temps (15-30 min). En l'absence d'embolisation, la laparotomie (ligatures, capitonnage, hystérectomie) se fait sur place chez une patiente instable.",
+      "explication_pedagogique": "La gravité d'une HPP dépend surtout du délai de prise en charge. Mesurer les pertes (sac, champ calibré) permet un diagnostic précoce : selon les critères OMS 2025, l'HPP aurait été retenue dès 300 mL mesurés avec une tachycardie > 100/min ou un index de choc > 1, ou dès 500 mL, au lieu de 1 100 mL. Le bundle de première intention (massage, ocytocine, acide tranexamique, remplissage, examen et escalade) doit être appliqué simultanément. L'escalade est guidée par le temps (15-30 min). En l'absence d'embolisation, la laparotomie (ligatures, capitonnage, hystérectomie) se fait sur place chez une patiente instable.",
       "questions": [
         {
           "question": "Citez les facteurs de risque d'atonie présents.",
@@ -4671,7 +4731,7 @@
         },
         {
           "question": "Quelles sont les modalités de l'acide tranexamique ?",
-          "reponse": "1 g IV en 10 min dans les 3 h suivant la naissance, 2e dose de 1 g si le saignement persiste à 30 min ou reprend dans les 24 h (OMS 2017, essai WOMAN)."
+          "reponse": "1 g IV en 10 min dans les 3 h suivant la naissance, 2e dose de 1 g si le saignement persiste à 30 min ou reprend dans les 24 h (OMS 2017, reprise en 2025 ; essai WOMAN)."
         },
         {
           "question": "Pourquoi l'ergométrine est-elle utilisable ici ?",
@@ -4698,9 +4758,13 @@
         {
           "reference": "Gallos I et al. E-MOTIVE. N Engl J Med 2023",
           "date": "2023"
+        },
+        {
+          "reference": "OMS. Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage, 2025 (DOC-00035)",
+          "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -4737,7 +4801,7 @@
         "Consultation d'anesthésie"
       ],
       "diagnostic_final": "Placenta praevia recouvrant avec suspicion forte de placenta accreta spectrum (percreta focal vésical) sur utérus bicicatriciel.",
-      "traitement": "Correction de l'anémie (fer IV) ; corticothérapie anténatale si menace ; planification multidisciplinaire (obstétricien expérimenté, anesthésiste, urologue, radiologue interventionnel si disponible, banque de sang) ; césarienne programmée vers 34-36 SA (terme selon le protocole du centre) par incision corporéale à distance du placenta, sans tenter de délivrance ; hystérectomie avec placenta en place ; acide tranexamique ; récupération de sang peropératoire si disponible ; protocole de transfusion massive prêt (CGR, PFC, fibrinogène, plaquettes) ; alternative conservatrice (placenta laissé en place) discutée selon le désir de grossesse et le plateau technique.",
+      "traitement": "Correction de l'anémie (fer IV) ; corticothérapie anténatale si menace ; planification multidisciplinaire (obstétricien expérimenté, anesthésiste, urologue, radiologue interventionnel si disponible, banque de sang) ; césarienne programmée vers 34-36 SA (terme selon le protocole du centre) par incision corporéale à distance du placenta, sans tenter de délivrance ; hystérectomie avec placenta en place ; acide tranexamique en cas d'hémorragie (pas de TXA prophylactique systématique à la césarienne selon l'OMS 2025) ; récupération de sang peropératoire si disponible ; protocole de transfusion massive prêt (CGR, PFC, fibrinogène, plaquettes) ; alternative conservatrice (placenta laissé en place) discutée selon le désir de grossesse et le plateau technique.",
       "surveillance": "Avant l'accouchement : consignes de reconsultation immédiate en cas de saignement, résidence proche du CHU. Après : soins intensifs, Hb, hémostase, diurèse (lésion vésicale), thromboprophylaxie, fer IV, soutien psychologique.",
       "evolution": "Césarienne-hystérectomie programmée à 35 SA ; brèche vésicale réparée ; pertes 2 300 mL ; transfusion de 4 CGR, 3 PFC et 3 g de fibrinogène ; nouveau-né de 2 600 g en bonne santé ; suites favorables.",
       "explication_pedagogique": "L'association placenta praevia + cicatrice(s) de césarienne est le principal facteur de risque du placenta accreta spectrum, cause majeure d'hémorragie de la délivrance massive. Le diagnostic anténatal et l'accouchement programmé dans un centre de niveau III avec banque de sang réduisent la morbidité. Il ne faut jamais forcer la délivrance d'un placenta accreta. Cette situation illustre la prévention de l'HPP par l'identification anténatale des femmes à risque (CNGOF 2014).",
@@ -4763,9 +4827,13 @@
         {
           "reference": "OMS. Recommendation on tranexamic acid for PPH, 2017",
           "date": "2017"
+        },
+        {
+          "reference": "OMS. Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage, 2025 (DOC-00035)",
+          "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -4805,7 +4873,7 @@
         "Groupe sanguin, Rhésus, RAI"
       ],
       "diagnostic_final": "Grossesse extra-utérine tubaire gauche non rompue, peu active (hCG 2 400-2 650 UI/L en plateau, masse de 22 mm sans activité cardiaque), chez une patiente stable.",
-      "traitement": "Après information et choix éclairé (hCG entre 1 500 et 5 000 UI/L : méthotrexate ou chirurgie selon le NICE) : méthotrexate IM en dose unique (1 mg/kg selon la RTU française ou 50 mg/m² selon l'ACOG) ; prophylaxie anti-D selon le protocole local (ACOG : recommandée ; NICE : non requise en cas de traitement exclusivement médical) ; consignes : pas d'AINS, d'alcool, d'acide folique ni d'exposition solaire, abstinence pendant la surveillance, contraception efficace et délai avant conception d'au moins 3 mois (NICE) ; arrêt du tabac.",
+      "traitement": "Après information et choix éclairé (hCG entre 1 500 et 5 000 UI/L : méthotrexate ou chirurgie selon le NICE) : méthotrexate IM en dose unique (1 mg/kg selon le protocole français — RTU puis cadre de prescription compassionnelle de l'ANSM — ou 50 mg/m² selon l'ACOG) ; prophylaxie anti-D selon le protocole national ou local (ACOG : recommandée ; NICE, mise à jour de 2026 : non proposée avant 12 SA) ; consignes : pas d'AINS, d'alcool, d'acide folique ni d'exposition solaire, abstinence pendant la surveillance, contraception efficace et délai avant conception d'au moins 3 mois (recommandation britannique RCOG) ; arrêt du tabac.",
       "surveillance": "hCG à J4 et J7 puis hebdomadaire jusqu'à négativation ; consultation en urgence si douleur intense, malaise, saignement abondant ; échographie en cas de douleur (douleur de séparation vs rupture).",
       "evolution": "Douleur modérée à J5 sans épanchement significatif (douleur de séparation). hCG : J4 2 900 UI/L, J7 2 300 UI/L (baisse de 21 % entre J4 et J7) ; négativation à 6 semaines.",
       "explication_pedagogique": "Le diagnostic de GEU repose sur l'association hCG quantitative + échographie endovaginale. Chez une femme qui désire sa grossesse, un second dosage à 48 h évite d'administrer du méthotrexate sur une grossesse intra-utérine débutante (zone de discrimination pouvant atteindre 3 500 UI/L selon l'ACOG). Le méthotrexate exige une patiente stable, une GEU non rompue de petite taille sans activité cardiaque, un bilan préthérapeutique normal et une surveillance fiable. L'ascension de l'hCG à J4 est fréquente ; le critère de succès est une baisse ≥ 15 % entre J4 et J7.",
@@ -4829,11 +4897,11 @@
           "date": "2018"
         },
         {
-          "reference": "NICE NG126",
-          "date": "2019"
+          "reference": "NICE NG126 (2019, mise à jour de juin 2026 : anti-D)",
+          "date": "2026"
         },
         {
-          "reference": "HAS. RTU méthotrexate GEU, 2016",
+          "reference": "ANSM. RTU du méthotrexate dans la GEU (2016), puis cadre de prescription compassionnelle (2022)",
           "date": "2016"
         },
         {
@@ -4841,7 +4909,7 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -4877,10 +4945,10 @@
         "Les examens ne doivent pas retarder la chirurgie"
       ],
       "diagnostic_final": "GEU tubaire droite rompue avec hémopéritoine massif et choc hémorragique, sur grossesse survenue sous DIU.",
-      "traitement": "Réanimation : 2 VVP de gros calibre, remplissage, transfusion de CGR (O négatif si nécessaire) ; chirurgie immédiate : laparotomie (ou cœlioscopie si équipe entraînée et état le permettant après réanimation) avec aspiration de l'hémopéritoine et salpingectomie droite ; examen de la trompe gauche ; immunoglobuline anti-D (Rhésus négatif, traitement chirurgical) ; examen anatomopathologique de la pièce ; retrait du DIU discuté.",
+      "traitement": "Réanimation : 2 VVP de gros calibre, remplissage, transfusion de CGR (O négatif si nécessaire) ; chirurgie immédiate : laparotomie (ou cœlioscopie si équipe entraînée et état le permettant après réanimation) avec aspiration de l'hémopéritoine et salpingectomie droite ; examen de la trompe gauche ; immunoglobuline anti-D selon le protocole en vigueur (Rhésus négatif ; recommandée par l'ACOG, non proposée avant 12 SA par le NICE depuis 2026) ; examen anatomopathologique de la pièce ; retrait du DIU discuté.",
       "surveillance": "Hémodynamique, Hb postopératoire, diurèse ; contrôle de la négativation de l'hCG selon la pratique du service ; information sur la fertilité et la contraception ; échographie précoce lors d'une grossesse ultérieure.",
       "evolution": "Hémopéritoine de 1 800 mL ; salpingectomie droite ; trompe gauche saine ; transfusion de 3 CGR ; histologie : villosités choriales dans la trompe avec lésions de salpingite chronique ; sortie à J3.",
-      "explication_pedagogique": "Le DIU diminue le risque absolu de grossesse mais toute grossesse sous DIU doit faire évoquer une GEU. Le choc hémorragique avec test de grossesse positif impose une chirurgie immédiate sans attendre d'autres examens. La prophylaxie anti-D est indiquée chez la femme Rhésus négatif opérée. L'examen anatomopathologique confirme le diagnostic (villosités choriales) et documente les lésions tubaires.",
+      "explication_pedagogique": "Le DIU diminue le risque absolu de grossesse mais toute grossesse sous DIU doit faire évoquer une GEU. Le choc hémorragique avec test de grossesse positif impose une chirurgie immédiate sans attendre d'autres examens. La prophylaxie anti-D chez la femme Rhésus négatif suit le protocole en vigueur : les recommandations divergent au premier trimestre (ACOG : recommandée ; NICE 2026 : non proposée avant 12 SA). L'examen anatomopathologique confirme le diagnostic (villosités choriales) et documente les lésions tubaires.",
       "questions": [
         {
           "question": "Quelle est la signification de la scapulalgie ?",
@@ -4909,7 +4977,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -4947,8 +5015,8 @@
         "Cystoscopie/rectoscopie si suspicion clinique ou radiologique"
       ],
       "diagnostic_final": "Carcinome épidermoïde non kératinisant du col de l'utérus, stade FIGO 2018 IIIC1r (tumeur de 5,5 cm avec envahissement paramétrial et adénopathies pelviennes à l'imagerie).",
-      "traitement": "RCP ; radiochimiothérapie concomitante : radiothérapie externe pelvienne (≈ 45-50 Gy) avec surimpression ganglionnaire et cisplatine hebdomadaire (40 mg/m²), suivie d'une curiethérapie utéro-vaginale guidée par l'IRM ; durée totale idéalement ≤ 7-8 semaines ; correction de l'anémie ; options discutées selon l'accès : chimiothérapie d'induction (INTERLACE) ou pembrolizumab (KEYNOTE-A18) ; soins de support (nutrition, douleur, psychologie, hébergement près du centre).",
-      "surveillance": "IRM pelvienne à 3 mois ; examen clinique tous les 3-4 mois pendant 2 ans puis tous les 6 mois jusqu'à 5 ans ; SCC-Ag ; prise en charge des séquelles (dilatateurs vaginaux, rectite, cystite, ménopause radio-induite).",
+      "traitement": "RCP ; radiochimiothérapie concomitante : radiothérapie externe pelvienne (45 Gy en 25 fractions) avec complément de dose sur les ganglions envahis et cisplatine hebdomadaire (40 mg/m²), suivie d'une curiethérapie utéro-vaginale guidée par l'IRM ; durée totale ≤ 7 semaines (ESGO 2023) ; correction de l'anémie ; options discutées selon l'accès : chimiothérapie d'induction (INTERLACE) ou pembrolizumab (KEYNOTE-A18) ; soins de support (nutrition, douleur, psychologie, hébergement près du centre).",
+      "surveillance": "IRM pelvienne pas avant 3 mois (même technique qu'au diagnostic) ; pas de cytologie de surveillance après irradiation ; examen clinique tous les 3-4 mois pendant 2 ans puis tous les 6 mois jusqu'à 5 ans ; SCC-Ag ; prise en charge des séquelles (dilatateurs vaginaux, rectite, cystite, ménopause radio-induite).",
       "evolution": "Réponse complète à l'IRM de 3 mois ; sténose vaginale modérée prévenue par dilatateurs ; suivi en cours.",
       "explication_pedagogique": "Les métrorragies post-coïtales imposent un examen au spéculum et la biopsie de toute lésion. La FIGO 2018 intègre l'imagerie et les ganglions (stade IIIC, notation r/p). Les stades localement avancés relèvent de la radiochimiothérapie suivie de curiethérapie, et non de la chirurgie. Le retard au dépistage explique la fréquence des formes avancées ; la vaccination des filles et le dépistage des femmes de la famille sont des messages de prévention.",
       "questions": [
@@ -4975,11 +5043,19 @@
           "date": "2021"
         },
         {
-          "reference": "Cibula D et al. ESGO/ESTRO/ESP 2023 [À VÉRIFIER]",
+          "reference": "Cibula D et al. ESGO/ESTRO/ESP guidelines for cervical cancer — update 2023. Int J Gynecol Cancer 2023;33(5):649-666 (DOC-00094)",
           "date": "2023"
+        },
+        {
+          "reference": "McCormack M et al. INTERLACE. Lancet 2024;404(10462):1525-1535",
+          "date": "2024"
+        },
+        {
+          "reference": "Lorusso D et al. KEYNOTE-A18 (survie globale). Lancet 2024;404(10460):1321-1332",
+          "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -5043,7 +5119,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -5115,7 +5191,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
@@ -5187,10 +5263,1290 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19",
       "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-HEMA-0801",
+      "titre": "Fourmillements des pieds et fatigue chez une femme de 62 ans",
+      "niveau": "residanat",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 62 ans, couturière retraitée, vit à Béjaïa, mariée, 3 enfants.",
+      "motif_consultation": "Asthénie progressive depuis 6 mois et sensations de fourmillements des pieds remontant aux mollets depuis 3 mois.",
+      "antecedents": "Hypothyroïdie auto-immune (thyroïdite de Hashimoto) sous lévothyroxine 75 µg/j ; vitiligo des mains. Pas d'alcool. Pas de traitement par IPP ni metformine. Alimentation variée. Ménopause à 51 ans.",
+      "symptomes": "Asthénie, dyspnée à la montée de deux étages, langue douloureuse au contact des aliments épicés, paresthésies distales des membres inférieurs, instabilité à la marche dans l'obscurité, perte d'appétit sans amaigrissement notable.",
+      "examen_clinique": "Pâleur cutanéo-muqueuse avec subictère conjonctival discret, langue lisse et rouge (glossite de Hunter). FC 98/min, PA 126/70 mmHg, souffle systolique 2/6 anorganique. Hypoesthésie vibratoire des membres inférieurs, réflexes achilléens abolis, signe de Romberg positif. Pas d'hépatosplénomégalie ni d'adénopathie.",
+      "biologie": "Hb 78 g/L (VN 120–160), VGM 121 fL (80–100), réticulocytes 22 G/L (25–100), leucocytes 3,4 G/L (PNN 1,6 G/L), plaquettes 112 G/L (150–400) ; frottis : macro-ovalocytes, polynucléaires hypersegmentés ; LDH 1 850 UI/L (< 250), haptoglobine < 0,1 g/L (0,3–2), bilirubine libre 32 µmol/L (< 17) ; vitamine B12 sérique 68 pmol/L (seuil local de carence < 150) ; folates sériques 14 nmol/L (normaux) ; ferritine 210 µg/L ; anticorps anti-facteur intrinsèque positifs ; anticorps anti-cellules pariétales positifs ; gastrine élevée ; TSH 2,1 mUI/L ; kaliémie 4,1 mmol/L.",
+      "imagerie": "Fibroscopie œso-gastro-duodénale : atrophie fundique ; biopsies : gastrite atrophique auto-immune du corps, hyperplasie endocrine, absence de dysplasie et de tumeur neuroendocrine. IRM médullaire non réalisée (examen neurologique compatible avec une atteinte cordonale postérieure).",
+      "hypotheses_diagnostiques": [
+        "Anémie mégaloblastique par carence en vitamine B12 (maladie de Biermer)",
+        "Atteinte neurologique de la carence en B12 (sclérose combinée de la moelle, neuropathie)",
+        "Terrain auto-immun associé (thyroïdite, vitiligo)"
+      ],
+      "diagnostics_differentiels": [
+        "Hémolyse périphérique (éliminée : réticulocytes bas)",
+        "Myélodysplasie (macrocytose arégénérative avec bicytopénie, à évoquer si absence de réponse à la B12)",
+        "Carence en folates (folates normaux)",
+        "Neuropathie diabétique ou alcoolique (absence de terrain)"
+      ],
+      "examens_a_demander": [
+        "Hémogramme avec réticulocytes et frottis",
+        "Vitamine B12, folates (± acide méthylmalonique si doute)",
+        "Bilan d'hémolyse (LDH, haptoglobine, bilirubine libre)",
+        "Anticorps anti-facteur intrinsèque et anti-cellules pariétales",
+        "Fibroscopie œso-gastro-duodénale avec biopsies",
+        "TSH, glycémie, bilan martial",
+        "Kaliémie avant et pendant les premiers jours de traitement"
+      ],
+      "diagnostic_final": "Maladie de Biermer (anémie pernicieuse) révélée par une anémie macrocytaire arégénérative avec bicytopénie et un syndrome neuro-anémique (sclérose combinée de la moelle débutante), sur terrain auto-immun.",
+      "traitement": "Vitamine B12 par voie parentérale à vie : par exemple hydroxocobalamine 1 mg IM tous les deux jours tant que les signes neurologiques s'améliorent, puis 1 mg tous les 2 mois selon le schéma britannique cité par la BSH ; en France, cyanocobalamine 1 000 µg IM selon un schéma d'attaque puis d'entretien mensuel [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Pas de folates seuls. Pas de transfusion (tolérance acceptable). Surveillance de la kaliémie les premiers jours. Kinésithérapie de rééducation de l'équilibre.",
+      "surveillance": "Réticulocytes à J5–J8 (crise réticulocytaire attendue), kaliémie à J2–J3, hémogramme à 1 et 2 mois, examen neurologique ; surveillance endoscopique gastrique selon les recommandations de gastro-entérologie (tumeurs neuroendocrines, adénocarcinome) ; dépistage d'une carence martiale secondaire lors de la régénération ; suivi thyroïdien.",
+      "evolution": "Réticulocytes à 310 G/L à J7, Hb 104 g/L à 4 semaines puis 128 g/L à 8 semaines ; normalisation des leucocytes et des plaquettes ; régression partielle des paresthésies à 3 mois, persistance d'une discrète hypopallesthésie.",
+      "explication_pedagogique": "La carence en B12 donne une anémie macrocytaire arégénérative, souvent avec atteinte des autres lignées et des signes d'hémolyse intramédullaire (LDH élevées, haptoglobine basse) liés à l'érythropoïèse inefficace : les réticulocytes bas la distinguent d'une hémolyse périphérique. L'atteinte neurologique peut être au premier plan et ne régresse complètement que si le traitement est précoce. La maladie de Biermer s'associe à d'autres maladies auto-immunes et impose un traitement à vie et une surveillance gastrique.",
+      "questions": [
+        {
+          "question": "Pourquoi les LDH sont-elles élevées et l'haptoglobine effondrée alors qu'il ne s'agit pas d'une hémolyse périphérique ?",
+          "reponse": "Par avortement intramédullaire des érythroblastes mégaloblastiques (érythropoïèse inefficace) : destruction des précurseurs dans la moelle, d'où la réticulocytopénie."
+        },
+        {
+          "question": "Quel risque comporte l'administration d'acide folique seul ?",
+          "reponse": "Une correction partielle de l'anémie avec aggravation possible de l'atteinte neurologique : la B12 doit être corrigée en premier."
+        },
+        {
+          "question": "Quel examen biologique surveiller dans les premiers jours du traitement d'une anémie mégaloblastique sévère ?",
+          "reponse": "La kaliémie (hypokaliémie liée à la reprise intense de l'érythropoïèse)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Devalia V, Hamilton MS, Molloy AM. Guidelines for the diagnosis and treatment of cobalamin and folate disorders. Br J Haematol 2014;166:496-513",
+          "date": "2014"
+        },
+        {
+          "reference": "WHO. Guideline on haemoglobin cutoffs to define anaemia. 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0802",
+      "titre": "Douleur thoracique fébrile chez un jeune drépanocytaire hospitalisé pour une crise douloureuse",
+      "niveau": "resident",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 21 ans, étudiant, originaire d'Adrar, drépanocytose SS connue.",
+      "motif_consultation": "Hospitalisé depuis 24 heures pour une crise vaso-occlusive des membres inférieurs et du rachis lombaire ; apparition d'une douleur thoracique droite et d'une fièvre.",
+      "antecedents": "Drépanocytose SS diagnostiquée à 2 ans ; 4 hospitalisations pour crise vaso-occlusive l'an dernier ; un syndrome thoracique aigu à 17 ans ; cholécystectomie pour lithiase pigmentaire à 16 ans ; pas de traitement de fond ; Hb de base 78 g/L ; vaccinations de l'enfance à jour, pas de rappel antipneumococcique récent.",
+      "symptomes": "Douleurs osseuses intenses (EVA 8/10) partiellement soulagées par la morphine titrée ; depuis 6 heures, douleur basithoracique droite augmentée par l'inspiration, toux sèche, fièvre à 38,7 °C, essoufflement.",
+      "examen_clinique": "FR 28/min, SpO2 89 % en air ambiant, FC 118/min, PA 118/66 mmHg, T 38,7 °C. Matité et crépitants de la base droite. Subictère conjonctival. Pas de signe neurologique. Pas de priapisme. Hypoventilation liée à la douleur.",
+      "biologie": "Hb 62 g/L (Hb de base 78 g/L), réticulocytes 280 G/L, leucocytes 21 G/L, plaquettes 210 G/L ; LDH 920 UI/L ; bilirubine libre 58 µmol/L ; CRP 145 mg/L ; créatinine 62 µmol/L ; gaz du sang en air ambiant : PaO2 56 mmHg, PaCO2 34 mmHg ; groupe sanguin O RhD+, phénotype RH-KEL et étendu connus ; RAI négative.",
+      "imagerie": "Radiographie thoracique : opacité alvéolaire nouvelle de la base droite avec petit épanchement pleural ; pas d'opacité à l'admission.",
+      "hypotheses_diagnostiques": [
+        "Syndrome thoracique aigu compliquant une crise vaso-occlusive",
+        "Pneumopathie infectieuse (pneumocoque, germes atypiques) déclenchante ou associée",
+        "Embolie pulmonaire / thrombose in situ (à discuter)"
+      ],
+      "diagnostics_differentiels": [
+        "Embolie pulmonaire",
+        "Pneumopathie bactérienne isolée",
+        "Infarctus costal avec hypoventilation",
+        "Insuffisance cardiaque à haut débit / surcharge hydrique"
+      ],
+      "examens_a_demander": [
+        "Gaz du sang artériel",
+        "Radiographie thoracique (à répéter)",
+        "Hémogramme, réticulocytes, bilan d'hémolyse",
+        "Hémocultures, antigénuries, PCR respiratoires selon disponibilité",
+        "Groupage, phénotype étendu, RAI (préparation transfusionnelle)",
+        "Angioscanner thoracique si suspicion d'embolie pulmonaire"
+      ],
+      "diagnostic_final": "Syndrome thoracique aigu sévère (hypoxémie < 60 mmHg, chute de l'Hb de 16 g/L) compliquant une crise vaso-occlusive chez un drépanocytaire SS.",
+      "traitement": "Oxygénothérapie pour SpO2 ≥ 95 % ; antibiothérapie couvrant le pneumocoque et les germes intracellulaires (céphalosporine de 3e génération + macrolide) ; analgésie par morphine titrée avec surveillance de la vigilance et de la fréquence respiratoire ; spirométrie incitative et kinésithérapie respiratoire ; hydratation sans excès ; anticoagulation préventive ; transfusion de concentrés de globules rouges phénotypés compatibles (ou échange transfusionnel si aggravation, en visant à réduire l'HbS) sans dépasser une Hb d'environ 100–110 g/L (hyperviscosité) [POSOLOGIE À VÉRIFIER — protocole local]. Pas de corticothérapie. Avis de réanimation si aggravation respiratoire.",
+      "surveillance": "SpO2 continue, FR, signes de détresse, vigilance (opioïdes), Hb et réticulocytes quotidiens, radiographie thoracique, recherche d'une hémolyse post-transfusionnelle retardée (J5–J15) et d'une allo-immunisation (RAI).",
+      "evolution": "Amélioration en 72 heures après transfusion de 2 CGR phénotypés (Hb 88 g/L), apyrexie à J3, sevrage en oxygène à J5. Sortie à J8. Proposition d'hydroxycarbamide (antécédent de STA, CVO fréquentes), mise à jour vaccinale (pneumocoque, grippe), éducation thérapeutique.",
+      "explication_pedagogique": "Le syndrome thoracique aigu, défini par des signes respiratoires, une fièvre et un infiltrat radiologique nouveau, complique souvent une CVO (hypoventilation douloureuse, morphiniques, embolies graisseuses, infection) et constitue une cause majeure de décès de l'adulte drépanocytaire. Sa prévention en cours de CVO repose sur la spirométrie incitative et une analgésie efficace sans dépression respiratoire. Les antécédents de STA et les CVO répétées sont des indications de l'hydroxycarbamide selon le panel NHLBI 2014.",
+      "questions": [
+        {
+          "question": "Quels critères définissent le syndrome thoracique aigu ?",
+          "reponse": "Un infiltrat pulmonaire radiologique nouveau associé à des signes respiratoires (douleur thoracique, toux, polypnée, hypoxémie) et/ou de la fièvre."
+        },
+        {
+          "question": "Pourquoi utiliser des concentrés phénotypés et éviter une Hb post-transfusionnelle trop élevée ?",
+          "reponse": "Pour prévenir l'allo-immunisation (et l'hémolyse post-transfusionnelle retardée) et éviter l'hyperviscosité liée à l'HbS restante."
+        },
+        {
+          "question": "Quel traitement de fond proposer à la sortie et pourquoi ?",
+          "reponse": "L'hydroxycarbamide, qui augmente l'HbF et réduit la fréquence des CVO et des STA ; indications : ≥ 3 CVO/an, STA sévère ou récidivant (NHLBI 2014)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Yawn BP et al. Management of sickle cell disease. JAMA 2014;312:1033-1048",
+          "date": "2014"
+        },
+        {
+          "reference": "HAS. PNDS Syndromes drépanocytaires majeurs de l'adulte, 2010 (actualisation 2013)",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0803",
+      "titre": "Taches rouges sur la peau d'un garçon de 5 ans après une gastro-entérite",
+      "niveau": "generaliste",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 5 ans, scolarisé en grande section, vit à Blida avec ses parents.",
+      "motif_consultation": "Apparition depuis la veille de petites taches rouges sur les jambes et le tronc, et de quelques « bleus » sans traumatisme notable.",
+      "antecedents": "Aucun antécédent personnel ou familial hémorragique. Vaccinations à jour selon le calendrier national. Gastro-entérite virale il y a 3 semaines. Aucun médicament en cours.",
+      "symptomes": "Purpura pétéchial et ecchymoses ; pas de saignement des gencives ni du nez, pas de sang dans les urines ni les selles ; enfant en bon état général, joue normalement, pas de fièvre, pas de douleurs osseuses.",
+      "examen_clinique": "Poids 19 kg, T 36,9 °C. Purpura pétéchial diffus non infiltré, 4 ecchymoses des membres inférieurs. Pas de bulle hémorragique buccale. Pas d'adénopathie, pas d'hépatosplénomégalie, pas de pâleur. Examen neurologique normal.",
+      "biologie": "Hb 124 g/L (VN 110–140), VGM 80 fL, leucocytes 7,8 G/L avec formule normale, plaquettes 9 G/L (150–400) confirmées sur tube citraté ; frottis : pas d'agrégat, pas de blaste, pas de schizocyte, plaquettes de grande taille ; TP et TCA normaux ; fibrinogène normal ; créatinine normale ; test direct à l'antiglobuline négatif.",
+      "imagerie": "Aucune imagerie nécessaire en l'absence de signe neurologique.",
+      "hypotheses_diagnostiques": [
+        "Purpura thrombopénique immunologique aigu post-infectieux de l'enfant",
+        "Leucémie aiguë (peu probable : hémogramme sinon normal, pas de syndrome tumoral)",
+        "Fausse thrombopénie (éliminée par le tube citraté et le frottis)"
+      ],
+      "diagnostics_differentiels": [
+        "Leucémie aiguë lymphoblastique",
+        "Aplasie médullaire",
+        "Syndrome hémolytique et urémique (pas d'anémie ni de schizocytes, fonction rénale normale)",
+        "Purpura rhumatoïde (vascularite à IgA : plaquettes normales, purpura infiltré)",
+        "Thrombopénie constitutionnelle (pas d'antécédent)",
+        "Maltraitance (bilan d'hémostase anormal ici)"
+      ],
+      "examens_a_demander": [
+        "Hémogramme complet avec frottis, contrôle sur citrate",
+        "Réticulocytes, bilan d'hémolyse si anémie",
+        "TP, TCA, fibrinogène",
+        "Groupe sanguin (si traitement par IgIV envisagé)",
+        "Dosage pondéral des immunoglobulines selon le PNDS pédiatrique",
+        "Myélogramme non systématique ; à discuter en cas d'atypie ou avant corticothérapie selon les pratiques"
+      ],
+      "diagnostic_final": "Purpura thrombopénique immunologique nouvellement diagnostiqué de l'enfant, probablement post-viral, sans saignement muqueux (forme non sévère).",
+      "traitement": "Abstention thérapeutique et surveillance (recommandation ASH 2019 chez l'enfant sans saignement ou avec saignement cutané seul ; PNDS PTI de l'enfant 2025 : traitement guidé par le score hémorragique). Mesures de prévention : éviter aspirine, AINS et injections intramusculaires, éviter les activités à risque de traumatisme crânien, paracétamol si besoin. Information des parents sur les signes d'alerte (saignement muqueux, céphalées, vomissements, somnolence) imposant une consultation urgente. Traitement par IgIV ou corticoïdes courts réservé à l'apparition d'un saignement significatif [POSOLOGIE À VÉRIFIER — PNDS pédiatrique].",
+      "surveillance": "Hémogramme à J7 puis selon l'évolution ; examen clinique ; réévaluation à 3 mois (PTI persistant) et 12 mois (chronique) ; si chronicité, bilan à la recherche d'une cause secondaire (lupus, déficit immunitaire).",
+      "evolution": "Plaquettes à 35 G/L à J10, 120 G/L à 6 semaines, sans aucun saignement muqueux. Guérison spontanée.",
+      "explication_pedagogique": "Le PTI de l'enfant survient typiquement quelques semaines après une infection virale ; le purpura peut être spectaculaire mais les hémorragies graves sont rares et la guérison spontanée est la règle dans la majorité des cas. Le diagnostic repose sur une thrombopénie isolée avec hémogramme, frottis et examen normaux. La décision thérapeutique dépend du saignement, non du chiffre de plaquettes.",
+      "questions": [
+        {
+          "question": "Quels éléments rendent une leucémie aiguë peu probable ?",
+          "reponse": "Hémoglobine et leucocytes normaux, formule normale, absence de blastes, absence d'adénopathie, d'hépatosplénomégalie et de douleurs osseuses."
+        },
+        {
+          "question": "Quels médicaments sont à éviter ?",
+          "reponse": "Aspirine, AINS, injections intramusculaires."
+        },
+        {
+          "question": "Quand parle-t-on de PTI chronique ?",
+          "reponse": "Lorsque la thrombopénie persiste au-delà de 12 mois après le diagnostic."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Neunert C et al. ASH 2019 guidelines for immune thrombocytopenia. Blood Adv 2019;3:3829-3866",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. PNDS PTI de l'enfant et de l'adolescent, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Rodeghiero F et al. Blood 2009;113:2386-2393",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0804",
+      "titre": "Thrombopénie récidivante sous corticoïdes chez une femme de 45 ans",
+      "niveau": "dems",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 45 ans, comptable, vit à Sétif, deux enfants.",
+      "motif_consultation": "Avis spécialisé pour un PTI évoluant depuis 14 mois, rechutant à chaque tentative de diminution de la prednisone.",
+      "antecedents": "PTI diagnostiqué il y a 14 mois (plaquettes 11 G/L avec gingivorragies) ; réponse aux corticoïdes (prednisone 1 mg/kg/j) mais rechute sous 15 mg/j à deux reprises ; une cure d'IgIV pour une épistaxis sévère ; prise de 8 kg, diabète cortico-induit récent (HbA1c 7,4 %), ostéopénie. Pas de thrombose. Pas de grossesse en projet.",
+      "symptomes": "Ecchymoses spontanées, ménorragies abondantes, fatigue marquée ; pas de saignement viscéral.",
+      "examen_clinique": "Faciès cushingoïde, PA 142/88 mmHg, quelques pétéchies des membres inférieurs, pas de splénomégalie ni d'adénopathie, pas de signe articulaire ni cutané de lupus.",
+      "biologie": "Plaquettes 18 G/L sous prednisone 10 mg/j ; Hb 112 g/L, ferritine 9 µg/L ; leucocytes normaux ; frottis sans anomalie ; sérologies VIH, VHB (Ag HBs négatif, anti-HBc négatif), VHC négatives ; AAN 1/80 non spécifiques, anticorps antiphospholipides négatifs ; TSH normale ; immunoglobulines normales ; test respiratoire à l'urée : infection à Helicobacter pylori ; myélogramme (fait à la 2e rechute) : moelle riche, mégacaryocytes nombreux, pas de dysplasie.",
+      "imagerie": "Échographie abdominale : rate de taille normale. Ostéodensitométrie : ostéopénie lombaire.",
+      "hypotheses_diagnostiques": [
+        "PTI chronique (> 12 mois) corticodépendant",
+        "PTI associé à Helicobacter pylori",
+        "Carence martiale secondaire aux ménorragies"
+      ],
+      "diagnostics_differentiels": [
+        "Myélodysplasie (myélogramme normal)",
+        "Lupus systémique débutant (AAN faibles, à surveiller)",
+        "Thrombopénie constitutionnelle (non : numération antérieure normale)",
+        "Hypersplénisme (rate normale)"
+      ],
+      "examens_a_demander": [
+        "Recherche d'Helicobacter pylori (test respiratoire, antigène fécal)",
+        "Bilan martial",
+        "Sérologie VHB complète avant rituximab",
+        "Statut vaccinal (pneumocoque, méningocoques, Haemophilus) avant splénectomie éventuelle",
+        "Bilan hépatique avant eltrombopag",
+        "Évaluation des complications cortisoniques (glycémie, densitométrie)"
+      ],
+      "diagnostic_final": "PTI primaire chronique corticodépendant de l'adulte, avec infection à Helicobacter pylori associée, carence martiale par ménorragies et complications de la corticothérapie (diabète, prise de poids, ostéopénie).",
+      "traitement": "Éradication d'H. pylori selon le protocole local (une réponse plaquettaire est possible). Décroissance puis arrêt de la prednisone (corticothérapie prolongée non recommandée). Deuxième ligne par décision partagée : agoniste du récepteur de la TPO (eltrombopag oral à distance des produits laitiers, avec surveillance hépatique, ou romiplostim SC hebdomadaire) [POSOLOGIE À VÉRIFIER — RCP] ; alternatives : rituximab (après sérologie VHB et vaccinations) ou splénectomie (PTI > 12 mois, après vaccinations). Traitement des ménorragies (progestatifs, acide tranexamique) et fer oral ou intraveineux. Prise en charge du diabète et de l'ostéopénie.",
+      "surveillance": "Plaquettes hebdomadaires jusqu'à stabilisation de la dose d'AR-TPO, puis mensuelles ; transaminases ; signes de thrombose ; ferritine ; glycémie ; réévaluation des besoins thérapeutiques et possibilité de diminution progressive de l'AR-TPO en cas de réponse prolongée.",
+      "evolution": "Après éradication d'H. pylori, plaquettes 32 G/L ; introduction d'eltrombopag : plaquettes stabilisées entre 70 et 130 G/L ; arrêt de la prednisone en 6 semaines, normalisation de la glycémie ; correction de la carence martiale.",
+      "explication_pedagogique": "Le PTI chronique corticodépendant est une situation fréquente chez l'adulte. La corticothérapie prolongée est délétère et doit être évitée (ASH : ≤ 6 semaines). La deuxième ligne (AR-TPO, rituximab, splénectomie après 12 mois) relève d'une décision partagée. Dans les régions de forte prévalence, la recherche et l'éradication d'H. pylori sont recommandées par le consensus international.",
+      "questions": [
+        {
+          "question": "Citez les trois grandes options de deuxième ligne du PTI de l'adulte.",
+          "reponse": "Agonistes du récepteur de la thrombopoïétine, rituximab, splénectomie (après 12 mois d'évolution)."
+        },
+        {
+          "question": "Quelles précautions avant rituximab ?",
+          "reponse": "Sérologie VHB (risque de réactivation), dosage des immunoglobulines, mise à jour des vaccinations."
+        },
+        {
+          "question": "Quelle surveillance biologique spécifique sous eltrombopag ?",
+          "reponse": "Le bilan hépatique (hépatotoxicité), en plus de la numération plaquettaire."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Provan D et al. Updated international consensus report on ITP. Blood Adv 2019;3:3780-3817",
+          "date": "2019"
+        },
+        {
+          "reference": "Neunert C et al. ASH 2019 ITP guidelines. Blood Adv 2019;3:3829-3866",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. Synthèse médecin traitant PTI de l'adulte, 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0805",
+      "titre": "Volumineux hématome de la cuisse après une vaccination chez un nourrisson de 11 mois",
+      "niveau": "etudiant",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 11 mois, vit à M'Sila avec ses parents (cousins germains).",
+      "motif_consultation": "Tuméfaction douloureuse de la cuisse gauche apparue 24 heures après un vaccin injecté par voie intramusculaire.",
+      "antecedents": "Grossesse et accouchement sans particularité. Saignement prolongé (2 jours) après la circoncision réalisée à 3 mois, ayant nécessité une compression. Oncle maternel décédé jeune « d'une hémorragie après un accident ». Pas de traitement.",
+      "symptomes": "Pleurs à la mobilisation du membre inférieur gauche, refus d'appui, ecchymoses multiples du tronc et des genoux depuis qu'il se déplace à quatre pattes.",
+      "examen_clinique": "Poids 9,5 kg, apyrétique, FC 140/min. Volumineux hématome tendu de la face antérolatérale de la cuisse gauche (périmètre augmenté de 3 cm), pouls distaux perçus. Ecchymoses d'âges différents aux genoux et au tronc. Pas de pétéchie. Pas d'hépatosplénomégalie. Fontanelle normotendue, examen neurologique normal.",
+      "biologie": "Hb 92 g/L (VN 105–135), plaquettes 345 G/L ; TP 95 % ; TCA 84 s (témoin 31 s), corrigé par le mélange avec un plasma témoin ; fibrinogène 2,8 g/L ; FVIII < 1 UI/dL ; FIX 72 UI/dL ; FXI normal ; facteur Willebrand antigène et activité normaux ; recherche d'inhibiteur (Bethesda) négative.",
+      "imagerie": "Échographie de la cuisse : hématome intramusculaire du vaste latéral de 6 cm, sans atteinte articulaire.",
+      "hypotheses_diagnostiques": [
+        "Hémophilie A sévère",
+        "Maladie de Willebrand de type 3 ou 2N (éliminée par les dosages)",
+        "Déficit en FIX ou FXI (éliminé)"
+      ],
+      "diagnostics_differentiels": [
+        "Maladie de Willebrand (type 3, type 2N)",
+        "Déficits rares en facteurs (fréquence accrue en cas de consanguinité)",
+        "Maltraitance (à évoquer devant des ecchymoses multiples, mais le bilan d'hémostase est anormal)",
+        "Thrombopénie (plaquettes normales)"
+      ],
+      "examens_a_demander": [
+        "NFS, plaquettes",
+        "TP, TCA, fibrinogène",
+        "Test de correction du TCA par plasma témoin",
+        "Dosages FVIII, FIX, FXI et facteur Willebrand",
+        "Recherche d'inhibiteur",
+        "Génotypage (inversion de l'intron 22 du gène F8)",
+        "Enquête familiale : statut de conductrice de la mère et des tantes maternelles"
+      ],
+      "diagnostic_final": "Hémophilie A sévère (FVIII < 1 UI/dL), révélée par un hématome musculaire après injection IM et un saignement prolongé post-circoncision, dans une famille avec antécédent évocateur en lignée maternelle.",
+      "traitement": "Injection IV de concentré de FVIII sans délai, à dose calculée selon la formule de la WFH (poids × élévation souhaitée × 0,5) pour un hématome musculaire, répétée selon l'évolution [POSOLOGIE À VÉRIFIER — protocole du CTH] ; repos, antalgiques (paracétamol), pas d'AINS ni d'aspirine ; aucune nouvelle injection IM (vaccins par voie sous-cutanée). Orientation vers un centre de traitement de l'hémophilie ; mise en place d'une prophylaxie primaire (FVIII ou émicizumab selon disponibilité) ; éducation des parents ; carte d'hémophile.",
+      "surveillance": "Évolution de l'hématome (périmètre, compression), Hb ; dépistage régulier des inhibiteurs pendant les premiers jours d'exposition au FVIII ; suivi au CTH ; examen articulaire.",
+      "evolution": "Régression de l'hématome en 10 jours. Prophylaxie débutée à 13 mois. Mère identifiée conductrice par analyse génétique (inversion de l'intron 22) ; conseil génétique proposé à la famille élargie.",
+      "explication_pedagogique": "Un hématome après injection IM, un saignement prolongé après circoncision et des ecchymoses à l'âge de la marche à quatre pattes chez un garçon doivent faire évoquer une hémophilie. Le TCA isolément allongé et corrigé par un plasma témoin oriente vers un déficit en facteur, confirmé par les dosages. Les antécédents en lignée maternelle sont typiques d'une transmission récessive liée à l'X ; la consanguinité doit aussi faire penser aux déficits rares autosomiques.",
+      "questions": [
+        {
+          "question": "Quelle est la sévérité de cette hémophilie et pourquoi ?",
+          "reponse": "Sévère, car le taux de FVIII est inférieur à 1 UI/dL."
+        },
+        {
+          "question": "Pourquoi doser le facteur Willebrand ?",
+          "reponse": "Pour éliminer une maladie de Willebrand de type 3 ou 2N, qui abaisse aussi le FVIII."
+        },
+        {
+          "question": "Quelle mesure préventive pour les prochaines vaccinations ?",
+          "reponse": "Les administrer par voie sous-cutanée (pas d'injection intramusculaire)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Srivastava A et al. WFH Guidelines for the Management of Hemophilia, 3rd ed. Haemophilia 2020;26(Suppl 6):1-158",
+          "date": "2020"
+        },
+        {
+          "reference": "HAS. PNDS Hémophilie (2019, mis en ligne 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0806",
+      "titre": "Ecchymoses géantes chez un homme de 76 ans sans antécédent hémorragique",
+      "niveau": "dems",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 76 ans, agriculteur retraité, vit à Mascara.",
+      "motif_consultation": "Apparition depuis 10 jours de vastes ecchymoses des bras et du flanc, puis d'un hématome douloureux de l'avant-bras droit après une prise de sang.",
+      "antecedents": "HTA traitée par amlodipine ; adénocarcinome de la prostate diagnostiqué il y a 4 mois, sous surveillance. Aucun antécédent hémorragique personnel ou familial (extraction dentaire et appendicectomie sans incident). Pas d'anticoagulant ni d'antiagrégant.",
+      "symptomes": "Ecchymoses spontanées étendues, hématome de l'avant-bras douloureux avec fourmillements des doigts, asthénie.",
+      "examen_clinique": "PA 136/78 mmHg, FC 104/min. Ecchymoses de 10 à 20 cm sur les bras et le flanc gauche. Avant-bras droit tendu, douloureux à l'extension passive des doigts, pouls radial présent. Pas d'hémarthrose. Pas de purpura pétéchial.",
+      "biologie": "Hb 86 g/L (VN 130–170), plaquettes 265 G/L ; TP 92 % ; TCA 72 s (témoin 30 s) ; mélange avec plasma témoin : correction partielle immédiate, allongement après incubation de 2 heures à 37 °C ; FVIII 2 UI/dL ; FIX et FXI normaux ; anticoagulant de type lupique négatif ; titre d'anti-FVIII 18 UB/mL (Bethesda) ; créatinine 98 µmol/L.",
+      "imagerie": "Échographie de l'avant-bras : volumineux hématome intramusculaire des loges antérieures. Scanner abdominal non injecté : pas d'hématome rétropéritonéal.",
+      "hypotheses_diagnostiques": [
+        "Hémophilie A acquise (auto-anticorps anti-FVIII)",
+        "Association possible à la néoplasie prostatique"
+      ],
+      "diagnostics_differentiels": [
+        "Hémophilie A constitutionnelle mineure méconnue (improbable : aucun antécédent, chirurgies sans incident)",
+        "Anticoagulant de type lupique (non hémorragique, négatif)",
+        "Maladie de Willebrand acquise",
+        "Surdosage en anticoagulant (non exposé)"
+      ],
+      "examens_a_demander": [
+        "TP, TCA, test de correction immédiat et après incubation",
+        "Dosages FVIII, FIX, FXI, facteur Willebrand",
+        "Titrage de l'inhibiteur en unités Bethesda",
+        "Recherche d'anticoagulant de type lupique",
+        "Bilan étiologique : cancer (bilan de la néoplasie connue), maladies auto-immunes, médicaments",
+        "Imagerie des hématomes profonds (échographie, scanner)"
+      ],
+      "diagnostic_final": "Hémophilie A acquise avec inhibiteur à titre élevé (18 UB/mL), compliquée d'un hématome de l'avant-bras avec menace de syndrome des loges, chez un patient porteur d'un adénocarcinome prostatique.",
+      "traitement": "Hospitalisation en lien avec un centre de traitement de l'hémophilie. Traitement hémostatique par agent by-passant (facteur VII activé recombinant ou concentré de complexe prothrombinique activé) ou FVIII porcin recombinant selon disponibilité [POSOLOGIE À VÉRIFIER — RCP / protocole du CTH] ; surveillance de la loge et avis orthopédique (éviter une aponévrotomie sans couverture hémostatique). Éradication de l'auto-anticorps : corticoïdes ± cyclophosphamide ou rituximab selon le protocole. Pas d'injection IM, limitation des ponctions veineuses. Prise en charge oncologique de la néoplasie prostatique. Prophylaxie thromboembolique et anti-infectieuse à discuter sous immunosuppresseurs.",
+      "surveillance": "Hb, état de la loge, FVIII et titre de l'inhibiteur hebdomadaires jusqu'à rémission (FVIII normalisé, inhibiteur indétectable) ; effets indésirables de l'immunosuppression (infections, glycémie, cytopénies) ; risque de rechute après l'arrêt.",
+      "evolution": "Contrôle du saignement sous rFVIIa ; FVIII à 48 UI/dL et inhibiteur indétectable à 7 semaines sous corticoïdes et cyclophosphamide ; décroissance des corticoïdes ; surveillance prolongée.",
+      "explication_pedagogique": "L'hémophilie A acquise touche surtout le sujet âgé ou la femme en post-partum, sans antécédent hémorragique ; elle se manifeste par des hématomes sous-cutanés et musculaires étendus, rarement par des hémarthroses. Le TCA allongé non corrigé après incubation (inhibiteur temps-dépendant) et le FVIII bas orientent ; le titrage Bethesda confirme. Le FVIII humain standard est neutralisé : les saignements se traitent par agents by-passants. Il faut toujours rechercher une cause (cancer, maladie auto-immune, médicaments).",
+      "questions": [
+        {
+          "question": "Qu'est-ce qui distingue une hémophilie acquise d'une hémophilie constitutionnelle ?",
+          "reponse": "Un auto-anticorps anti-FVIII apparu chez un sujet sans antécédent hémorragique personnel ni familial, souvent âgé ou en post-partum, avec hémorragies sous-cutanées et musculaires plutôt qu'articulaires."
+        },
+        {
+          "question": "Pourquoi le mélange avec un plasma témoin est-il incubé deux heures ?",
+          "reponse": "Parce que l'inhibiteur anti-FVIII est temps- et température-dépendant : l'absence de correction n'apparaît parfois qu'après incubation."
+        },
+        {
+          "question": "Quels traitements hémostatiques sont utilisables ?",
+          "reponse": "Agents by-passants (rFVIIa, CCPa) ou FVIII porcin recombinant."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "HAS. PNDS Hémophilie A acquise [date à préciser]",
+          "date": ""
+        },
+        {
+          "reference": "Srivastava A et al. WFH Guidelines 3rd ed. Haemophilia 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0807",
+      "titre": "Pic à l'électrophorèse des protéines chez un patient de 61 ans asymptomatique",
+      "niveau": "generaliste",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 61 ans, fonctionnaire, vit à Alger.",
+      "motif_consultation": "Découverte d'une VS à 48 mm et d'un pic monoclonal à l'électrophorèse demandée lors d'un bilan de santé.",
+      "antecedents": "Diabète de type 2 sous metformine, dyslipidémie. Tabagisme sevré. Pas d'infection récidivante.",
+      "symptomes": "Aucun symptôme : pas de douleur osseuse, pas d'asthénie inhabituelle, pas de perte de poids, pas de soif ni de constipation.",
+      "examen_clinique": "Examen normal : pas d'adénopathie, pas d'hépatosplénomégalie, pas de douleur à la palpation osseuse, pas de neuropathie, pas de macroglossie ni d'œdème.",
+      "biologie": "Protides 78 g/L ; EPP : pic en zone gamma à 12 g/L ; immunofixation : IgG κ ; chaînes légères libres κ 24 mg/L, λ 16 mg/L, rapport 1,5 (normal) ; Hb 141 g/L ; calcémie 2,38 mmol/L ; créatinine 84 µmol/L (DFG > 60) ; protéinurie des 24 h 0,1 g sans protéine de Bence Jones ; albumine 41 g/L ; β2-microglobuline 2,1 mg/L.",
+      "imagerie": "Scanner corps entier faible dose : pas de lésion lytique.",
+      "hypotheses_diagnostiques": [
+        "Gammapathie monoclonale de signification indéterminée (MGUS) IgG κ",
+        "Myélome indolent (à éliminer : pic < 30 g/L)",
+        "Myélome multiple (pas d'événement définissant le myélome)"
+      ],
+      "diagnostics_differentiels": [
+        "Myélome indolent",
+        "Myélome multiple",
+        "Hypergammaglobulinémie polyclonale (exclue : pic étroit, immunofixation monoclonale)",
+        "Lymphoprolifération B avec composant monoclonal",
+        "Amylose AL (pas d'albuminurie ni de signe d'organe)"
+      ],
+      "examens_a_demander": [
+        "Immunofixation sérique",
+        "Dosage des chaînes légères libres sériques",
+        "Protéinurie des 24 h avec immunofixation urinaire",
+        "Hémogramme, calcémie, créatinine, albumine, β2-microglobuline",
+        "Imagerie corps entier (scanner faible dose) selon le profil de risque",
+        "Myélogramme si pic ≥ 15 g/L, isotype non-IgG, rapport des chaînes libres anormal ou anomalie clinique ou biologique"
+      ],
+      "diagnostic_final": "MGUS IgG κ à faible risque de progression (pic < 15 g/L, isotype IgG, rapport des chaînes légères libres normal), sans événement définissant le myélome.",
+      "traitement": "Aucun traitement. Information du patient sur la nature non maligne de l'anomalie mais sur la nécessité d'une surveillance ; signes devant faire consulter (douleurs osseuses, asthénie, infections répétées, soif, œdèmes).",
+      "surveillance": "EPP, chaînes légères libres, hémogramme, calcémie, créatinine à 6 mois puis annuellement (ou de façon plus espacée selon le risque), et à tout symptôme nouveau.",
+      "evolution": "Stabilité du pic à 12–13 g/L sur 4 ans de suivi.",
+      "explication_pedagogique": "Selon l'IMWG (2014), la MGUS non-IgM associe un pic < 30 g/L, une plasmocytose médullaire < 10 % et l'absence d'événement définissant le myélome et d'amylose. Le risque de progression vers un myélome ou une hémopathie apparentée est d'environ 1 % par an, modulé par l'isotype, la taille du pic et le rapport des chaînes libres. Un myélogramme n'est pas systématique dans les MGUS à faible risque.",
+      "questions": [
+        {
+          "question": "Quels critères différencient MGUS et myélome indolent ?",
+          "reponse": "Le myélome indolent a un pic ≥ 30 g/L (ou une protéinurie monoclonale ≥ 500 mg/24 h) et/ou une plasmocytose médullaire de 10 à 60 %, sans événement définissant le myélome."
+        },
+        {
+          "question": "Quels sont les facteurs de risque de progression d'une MGUS ?",
+          "reponse": "Isotype non-IgG, pic ≥ 15 g/L, rapport des chaînes légères libres anormal."
+        },
+        {
+          "question": "Faut-il traiter une MGUS ?",
+          "reponse": "Non, sauf gammapathie de signification clinique (rénale, neurologique…) ; surveillance seule."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Rajkumar SV et al. IMWG updated criteria. Lancet Oncol 2014;15:e538-e548",
+          "date": "2014"
+        },
+        {
+          "reference": "Dimopoulos MA et al. EHA-ESMO myeloma guidelines. Ann Oncol 2021;32:309-322",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0808",
+      "titre": "Dorsalgie brutale et faiblesse des jambes chez une femme de 68 ans",
+      "niveau": "resident",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 68 ans, ancienne institutrice, vit à Oran.",
+      "motif_consultation": "Douleur dorsale intense depuis 5 jours, puis faiblesse des deux jambes et difficultés à uriner depuis 24 heures.",
+      "antecedents": "Ostéoporose supposée traitée par calcium-vitamine D depuis un an pour un tassement vertébral T12 « spontané » ; anémie modérée attribuée à l'âge ; deux pneumopathies dans l'année.",
+      "symptomes": "Dorsalgie en ceinture aggravée en position couchée, paresthésies des membres inférieurs, faiblesse progressive, rétention urinaire.",
+      "examen_clinique": "Paraparésie à 3/5, niveau sensitif T8, réflexes ostéotendineux vifs aux membres inférieurs, signe de Babinski bilatéral, globe vésical. Douleur à la percussion de T7–T8. Pâleur.",
+      "biologie": "Hb 92 g/L, VGM 94 fL, rouleaux au frottis ; plaquettes 182 G/L ; VS 110 mm ; protides 102 g/L ; EPP : pic de 52 g/L en zone bêta ; immunofixation IgA λ ; chaînes légères λ 980 mg/L, κ 9 mg/L (rapport λ/κ 109) ; calcémie 2,62 mmol/L ; créatinine 96 µmol/L ; albumine 33 g/L ; β2-microglobuline 4,2 mg/L ; LDH normales ; myélogramme : 34 % de plasmocytes dystrophiques ; FISH : gain 1q, pas de del(17p) ni de t(4;14).",
+      "imagerie": "IRM médullaire en urgence : tassement de T8 avec épidurite tumorale comprimant la moelle ; lésions focales multiples du rachis et du bassin. Scanner corps entier faible dose : lésions lytiques multiples (rachis, bassin, côtes, crâne).",
+      "hypotheses_diagnostiques": [
+        "Myélome multiple IgA λ révélé par une compression médullaire",
+        "Tassement vertébral pathologique méconnu (étiqueté ostéoporose)"
+      ],
+      "diagnostics_differentiels": [
+        "Métastase vertébrale d'un carcinome",
+        "Spondylodiscite (tuberculeuse ou brucellienne) avec épidurite",
+        "Lymphome",
+        "Tassement ostéoporotique bénin (non : épidurite et lésions lytiques multiples)"
+      ],
+      "examens_a_demander": [
+        "IRM médullaire en urgence",
+        "EPP, immunofixation, chaînes légères libres, protéinurie et immunofixation urinaires",
+        "Hémogramme, calcémie, créatinine, albumine, β2-microglobuline, LDH",
+        "Myélogramme avec FISH",
+        "Scanner corps entier faible dose",
+        "Bilan préthérapeutique (sérologies, dosage des immunoglobulines, bilan dentaire)"
+      ],
+      "diagnostic_final": "Myélome multiple IgA λ (plasmocytose 34 %, anémie, lésions lytiques, rapport des chaînes libres ≥ 100) révélé par une compression médullaire T8 ; ISS II (β2m 4,2 mg/L), gain 1q.",
+      "traitement": "Urgence : dexaméthasone à forte dose immédiate [POSOLOGIE À VÉRIFIER — protocole local], avis neurochirurgical et radiothérapeutique (radiothérapie décompressive ± chirurgie si instabilité), sondage vésical, prévention thromboembolique, nursing. Traitement antimyélomateux secondairement selon l'éligibilité (patiente de 68 ans à évaluer : quadruplet à base d'anti-CD38 si éligible à l'autogreffe ; Isa-VRd, Dara-Rd ou VRd sinon). Acide zolédronique ou dénosumab après bilan dentaire ; prophylaxie antivirale sous bortezomib ; vaccinations ; rééducation.",
+      "surveillance": "Examen neurologique pluriquotidien initialement, réponse biologique (EPP, chaînes libres) à chaque cycle, calcémie, créatinine, hémogramme, tolérance (neuropathie, infections, thromboses).",
+      "evolution": "Récupération partielle de la marche (aide technique) après radiothérapie ; très bonne réponse partielle après 4 cycles de traitement.",
+      "explication_pedagogique": "Un tassement vertébral « ostéoporotique » chez un sujet âgé anémique avec VS élevée doit faire rechercher un myélome (électrophorèse). La compression médullaire est une urgence : corticoïdes à forte dose, IRM, radiothérapie et/ou chirurgie, sans attendre la confirmation histologique. Le calcul R2-ISS intègre ici ISS II (1 point) et gain 1q (0,5 point) : 1,5 point, soit le groupe III (intermédiaire-élevé).",
+      "questions": [
+        {
+          "question": "Quels événements définissant le myélome sont présents ?",
+          "reponse": "Anémie (Hb < 100 g/L), lésions osseuses lytiques et rapport des chaînes légères libres ≥ 100 (biomarqueur), avec plasmocytose ≥ 10 %."
+        },
+        {
+          "question": "Quelle est la première mesure thérapeutique devant la compression médullaire ?",
+          "reponse": "Une corticothérapie à forte dose (dexaméthasone) immédiate, puis IRM et radiothérapie/chirurgie."
+        },
+        {
+          "question": "Quel est le groupe R2-ISS ?",
+          "reponse": "ISS II = 1 + gain 1q = 0,5 → 1,5 point : groupe III."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Rajkumar SV et al. Lancet Oncol 2014",
+          "date": "2014"
+        },
+        {
+          "reference": "D'Agostino M et al. R2-ISS. J Clin Oncol 2022;40:3406-3418",
+          "date": "2022"
+        },
+        {
+          "reference": "Dimopoulos MA et al. Ann Oncol 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0809",
+      "titre": "Adénopathie cervicale traitée comme une tuberculose chez un homme de 27 ans",
+      "niveau": "residanat",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 27 ans, technicien en informatique, vit à Annaba.",
+      "motif_consultation": "Persistance d'une adénopathie cervicale droite malgré 6 semaines de traitement antituberculeux débuté sans preuve histologique.",
+      "antecedents": "Aucun. Pas de contage tuberculeux connu. Non fumeur. Pas d'immunodépression connue.",
+      "symptomes": "Adénopathie cervicale droite indolore apparue il y a 3 mois, augmentant lentement ; prurit des membres depuis 2 mois ; pas de fièvre, pas de sueurs, pas d'amaigrissement.",
+      "examen_clinique": "Adénopathie jugulo-carotidienne moyenne droite de 3 cm, ferme, mobile, indolore, sans fistule ; petite adénopathie sous-mandibulaire homolatérale ; examen ORL et cavum normaux ; pas d'autre adénopathie ; pas d'hépatosplénomégalie.",
+      "biologie": "Hb 138 g/L ; leucocytes 9,1 G/L (éosinophiles 0,6 G/L, lymphocytes 1,6 G/L) ; plaquettes 330 G/L ; VS 28 mm ; CRP 12 mg/L ; LDH, albumine et bilan hépatique normaux ; sérologies VIH, VHB, VHC négatives ; IGRA négatif.",
+      "imagerie": "Biopsie-exérèse ganglionnaire : LH classique scléronodulaire (cellules de Reed-Sternberg CD30+, CD15+, CD20−, CD45−), pas de granulome. TEP-scanner : fixations cervicales droites (une aire ganglionnaire), pas d'atteinte médiastinale, pas d'atteinte sous-diaphragmatique ni extranodale ; scanner : pas de masse médiastinale.",
+      "hypotheses_diagnostiques": [
+        "Lymphome de Hodgkin classique de stade localisé",
+        "Tuberculose ganglionnaire (non confirmée : IGRA négatif, absence de granulome)"
+      ],
+      "diagnostics_differentiels": [
+        "Tuberculose ganglionnaire",
+        "Carcinome du nasopharynx (examen du cavum normal)",
+        "Lymphome non hodgkinien",
+        "Toxoplasmose, mononucléose infectieuse"
+      ],
+      "examens_a_demander": [
+        "Biopsie-exérèse ganglionnaire avec immunohistochimie (et cultures/PCR mycobactériennes)",
+        "Examen ORL avec nasofibroscopie",
+        "TEP-scanner et scanner",
+        "Hémogramme, VS, CRP, LDH, albumine, bilan hépatique et rénal",
+        "Sérologies VIH, VHB, VHC",
+        "Échocardiographie, EFR avec DLCO",
+        "Autoconservation de sperme"
+      ],
+      "diagnostic_final": "Lymphome de Hodgkin classique scléronodulaire, stade IA (une aire ganglionnaire cervicale), sans facteur de risque (VS < 50 mm, pas de masse médiastinale, pas d'atteinte extranodale, moins de 3 aires) : stade localisé favorable.",
+      "traitement": "Arrêt du traitement antituberculeux (pas de preuve de tuberculose). Autoconservation de sperme. ABVD × 2 puis radiothérapie des sites atteints à 20 Gy selon l'ESMO 2018, standard confirmé par l'EHA 2026 d'après les comptes rendus disponibles [POSOLOGIE À VÉRIFIER — protocole local / RCP].",
+      "surveillance": "Tolérance de la chimiothérapie (hémogramme, toxicité pulmonaire de la bléomycine, neuropathie) ; TEP de fin de traitement (score de Deauville) ; surveillance clinique prolongée ; TSH annuelle après irradiation cervicale ; dépistage des effets tardifs.",
+      "evolution": "TEP de fin de traitement : Deauville 1 (réponse métabolique complète). Rémission complète maintenue à 2 ans.",
+      "explication_pedagogique": "Au Maghreb, la tuberculose ganglionnaire est fréquente, mais un traitement d'épreuve sans preuve histologique retarde le diagnostic d'un lymphome ou d'un carcinome du nasopharynx. Toute adénopathie persistante doit être biopsiée (exérèse de préférence), avec analyse histologique et microbiologique. Le LH de stade localisé favorable est guéri chez la grande majorité des patients par une chimiothérapie courte suivie d'une radiothérapie à faible dose.",
+      "questions": [
+        {
+          "question": "Quelle erreur de prise en charge initiale ce cas illustre-t-il ?",
+          "reponse": "Un traitement antituberculeux d'épreuve sans preuve histologique ou microbiologique, retardant le diagnostic de lymphome."
+        },
+        {
+          "question": "Pourquoi s'agit-il d'un stade localisé favorable ?",
+          "reponse": "Stade IA sans facteur de risque : pas de masse médiastinale, pas d'atteinte extranodale, VS < 50 mm sans signes B, moins de 3 aires ganglionnaires."
+        },
+        {
+          "question": "Quel examen de l'extension rend la biopsie ostéomédullaire inutile ?",
+          "reponse": "La TEP-scanner au FDG."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Eichenauer DA et al. ESMO Hodgkin lymphoma guidelines. Ann Oncol 2018;29(Suppl 4):iv19-iv29",
+          "date": "2018"
+        },
+        {
+          "reference": "Cheson BD et al. Lugano classification. J Clin Oncol 2014;32:3059-3068",
+          "date": "2014"
+        },
+        {
+          "reference": "EHA Clinical Practice Guidelines Hodgkin lymphoma. HemaSphere 2026 (contenu via sources secondaires)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-HEMA-0810",
+      "titre": "Fièvre prolongée, sueurs et amaigrissement chez un homme de 41 ans",
+      "niveau": "dems",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 41 ans, commerçant, vit à Ghardaïa.",
+      "motif_consultation": "Fièvre vespérale depuis 2 mois, sueurs nocturnes profuses et perte de 9 kg (11 % du poids corporel) en 4 mois.",
+      "antecedents": "Aucun antécédent notable. Tabagisme actif à 15 paquets-années. Pas de voyage récent hors d'Algérie.",
+      "symptomes": "Fièvre à 38,5–39 °C le soir, sueurs nocturnes imposant de changer de linge, amaigrissement, prurit, douleurs lombaires sourdes.",
+      "examen_clinique": "Adénopathies sus-claviculaires gauches et axillaires gauches (2–3 cm), splénomégalie à 3 cm sous le rebord costal, pas d'hépatomégalie ; état général OMS 1.",
+      "biologie": "Hb 98 g/L ; leucocytes 16,4 G/L (PNN 13,8 G/L, lymphocytes 0,5 G/L) ; plaquettes 520 G/L ; VS 95 mm ; CRP 120 mg/L ; albumine 31 g/L ; LDH 1,2 × normale ; phosphatases alcalines 2 × normale ; sérologies VIH, VHB, VHC négatives ; IGRA négatif ; hémocultures et sérologie de brucellose négatives.",
+      "imagerie": "Biopsie-exérèse d'une adénopathie sus-claviculaire : LH classique à cellularité mixte, EBER positif. TEP-scanner : fixations sus-claviculaires, axillaires, médiastinales, lombo-aortiques, spléniques (nodules) et osseuses multifocales (rachis, bassin) : stade IV.",
+      "hypotheses_diagnostiques": [
+        "Lymphome de Hodgkin classique de stade avancé avec signes B",
+        "Infection chronique (tuberculose, brucellose — fréquentes en Algérie) éliminée par les examens"
+      ],
+      "diagnostics_differentiels": [
+        "Tuberculose disséminée",
+        "Brucellose",
+        "Lymphome non hodgkinien",
+        "Leishmaniose viscérale (splénomégalie, fièvre)"
+      ],
+      "examens_a_demander": [
+        "Biopsie-exérèse ganglionnaire avec immunohistochimie et EBER",
+        "TEP-scanner",
+        "Hémogramme, VS, CRP, albumine, LDH, bilan hépatique et rénal",
+        "Sérologies VIH, VHB, VHC ; IGRA ; hémocultures ; sérologie de brucellose",
+        "Échocardiographie, EFR avec DLCO",
+        "Autoconservation de sperme",
+        "Calcul de l'IPS"
+      ],
+      "diagnostic_final": "Lymphome de Hodgkin classique à cellularité mixte (EBV+), stade IVB (atteintes osseuses et spléniques, signes B), IPS 6 (albumine < 40 g/L, Hb < 105 g/L, sexe masculin, stade IV, leucocytes ≥ 15 G/L, lymphocytes < 0,6 G/L).",
+      "traitement": "Patient de 41 ans en bon état général : chimiothérapie de stade avancé selon les ressources et la RCP — BrECADD guidé par la TEP intermédiaire (HD21), ou nivolumab-AVD × 6 (S1826), ou BV-AVD × 6 (ECHELON-1) ; à défaut, ABVD avec adaptation à la TEP intermédiaire [POSOLOGIE À VÉRIFIER — protocole local / RCP]. G-CSF avec BrECADD ; prophylaxies anti-infectieuses selon le protocole ; autoconservation de sperme ; arrêt du tabac ; radiothérapie des masses résiduelles TEP-positives en fin de traitement.",
+      "surveillance": "Hémogramme avant chaque cycle, neutropénie fébrile, neuropathie (brentuximab vedotin), toxicités immunologiques (nivolumab : TSH, transaminases), TEP intermédiaire (Deauville) puis de fin de traitement ; suivi prolongé des effets tardifs (cardiovasculaires, seconds cancers, fertilité).",
+      "evolution": "TEP après 2 cycles : Deauville 2 ; poursuite du protocole ; rémission métabolique complète en fin de traitement.",
+      "explication_pedagogique": "Les stades avancés avec signes B et IPS élevé gardent un excellent pronostic avec les traitements modernes : BrECADD (SSP à 4 ans 94,3 %), nivolumab-AVD (SSP à 2 ans 92 %) et BV-AVD (gain de survie globale sur l'ABVD). En Algérie, la tuberculose, la brucellose et la leishmaniose viscérale doivent être éliminées devant une fièvre prolongée avec adénopathies et splénomégalie, mais seule l'histologie permet le diagnostic. La TEP intermédiaire, plus que l'IPS, guide désormais l'adaptation du traitement.",
+      "questions": [
+        {
+          "question": "Calculez l'IPS de ce patient.",
+          "reponse": "6 points : albumine < 40 g/L, Hb < 105 g/L, sexe masculin, stade IV, leucocytes ≥ 15 G/L, lymphocytes < 0,6 G/L (âge < 45 ans : 0 point)."
+        },
+        {
+          "question": "Pourquoi ce patient est-il classé stade IV ?",
+          "reponse": "En raison d'atteintes extralymphatiques non contiguës (osseuses multifocales) ; la rate, elle, est une structure lymphatique."
+        },
+        {
+          "question": "Quelles options de première ligne sont validées par des essais de phase 3 récents ?",
+          "reponse": "BrECADD guidé par la TEP (HD21), nivolumab-AVD (S1826), BV-AVD (ECHELON-1)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Borchmann P et al. HD21. Lancet 2024;404:341-352",
+          "date": "2024"
+        },
+        {
+          "reference": "Herrera AF et al. S1826. N Engl J Med 2024;391:1379-1389",
+          "date": "2024"
+        },
+        {
+          "reference": "Ansell SM et al. ECHELON-1. N Engl J Med 2022;387:310-320",
+          "date": "2022"
+        },
+        {
+          "reference": "Hasenclever D, Diehl V. IPS. N Engl J Med 1998 [à vérifier]",
+          "date": "1998"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-08.json"
+    },
+    {
+      "id": "CAS-RHUM-0901",
+      "titre": "Polyarthrite des mains depuis 8 semaines chez une enseignante de 38 ans",
+      "niveau": "generaliste",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 38 ans, enseignante à Oran, mariée, deux enfants, non fumeuse.",
+      "motif_consultation": "Douleurs et gonflement des doigts depuis 8 semaines, difficulté à écrire au tableau le matin.",
+      "antecedents": "Aucun antécédent notable. Pas de psoriasis personnel ou familial. Mère suivie pour « rhumatisme » non précisé. Contraception orale.",
+      "symptomes": "Douleurs des poignets, des MCP et des IPP des deux mains, réveils nocturnes vers 5 h, raideur matinale de 1 h 30, asthénie. Pas de fièvre, pas d'éruption, pas de photosensibilité, pas d'aphtose, pas de syndrome sec, pas de diarrhée.",
+      "examen_clinique": "Synovites des 2e, 3e et 4e MCP droites, 2e et 3e MCP gauches, IPP 2 et 3 bilatérales ; poignets gonflés ; squeeze test des MTP positif. 12 articulations gonflées et 14 douloureuses sur 28. Pas de nodule. Examen cutané et unguéal normal. Auscultation normale.",
+      "biologie": "VS 38 mm (N < 20), CRP 18 mg/L (N < 5), Hb 11,8 g/dL, GB 7,6 G/L, plaquettes 390 G/L ; FR 28 UI/mL (N < 14) ; anti-CCP 95 U/mL (N < 17) ; AAN négatifs ; ALAT 18 UI/L, créatinine 6,5 mg/L ; bandelette urinaire négative ; sérologies VHB, VHC, VIH négatives ; IgM anti-parvovirus B19 négatives.",
+      "imagerie": "Radiographies mains et pieds : déminéralisation en bande des MCP, pas d'érosion. Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Polyarthrite rhumatoïde débutante séropositive",
+        "Polyarthrite virale",
+        "Lupus systémique débutant"
+      ],
+      "diagnostics_differentiels": [
+        "Polyarthrite virale (parvovirus B19, VHB, VHC)",
+        "Lupus systémique",
+        "Rhumatisme psoriasique sans psoriasis visible",
+        "Syndrome de Gougerot-Sjögren"
+      ],
+      "examens_a_demander": [
+        "VS, CRP, NFS",
+        "FR et ACPA",
+        "AAN (± anti-ADN natif si positifs)",
+        "Sérologies virales (VHB, VHC, VIH, parvovirus B19)",
+        "Bilan hépatique et rénal, bandelette urinaire",
+        "Radiographies des mains, des pieds et du thorax",
+        "Échographie articulaire en cas de doute"
+      ],
+      "diagnostic_final": "Polyarthrite rhumatoïde débutante séropositive (ACR/EULAR 2010 : 5 + 3 + 1 + 1 = 10/10), forte activité.",
+      "traitement": "Information et décision partagée ; méthotrexate hebdomadaire 10 à 15 mg/semaine augmenté de 5 mg toutes les 2 à 4 semaines selon tolérance, acide folique ≥ 5 mg/semaine (3E) ; corticothérapie orale de courte durée à faible dose avec décroissance rapide [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; contraception poursuivie (MTX tératogène) ; vaccinations antigrippale, antipneumococcique et anti-VHB ; calcium et vitamine D ; activité physique et orthèses de repos.",
+      "surveillance": "NFS, ALAT, créatinine toutes les 4 à 6 semaines jusqu'à dose stable, puis tous les 1 à 3 mois ; DAS28 ou CDAI tous les 1 à 3 mois ; radiographies des mains et des pieds à distance.",
+      "evolution": "À 3 mois, DAS28 à 3,0 sous MTX 20 mg/semaine ; corticoïdes arrêtés au 3e mois. À 6 mois : rémission clinique (DAS28 2,2, 0 articulation gonflée). Pas de progression radiographique à 1 an.",
+      "explication_pedagogique": "Cas typique de PR débutante : tableau clinique, sérologie fortement positive, élimination des polyarthrites virales et des connectivites, traitement de fond précoce par MTX optimisé dans une stratégie T2T.",
+      "questions": [
+        {
+          "question": "Calculez le score ACR/EULAR 2010.",
+          "reponse": "Plus de 10 articulations dont des petites (5) + ACPA > 3 × N (3) + CRP/VS élevées (1) + durée ≥ 6 semaines (1) = 10/10."
+        },
+        {
+          "question": "Pourquoi rechercher une infection par le parvovirus B19 ?",
+          "reponse": "Il peut donner une polyarthrite aiguë symétrique des mains, parfois avec FR positif, d'évolution spontanément favorable ; ici, la durée > 6 semaines et les ACPA élevés rendent ce diagnostic improbable."
+        },
+        {
+          "question": "Quels signes d'alerte expliquer à la patiente sous MTX ?",
+          "reponse": "Fièvre, toux ou dyspnée (pneumopathie d'hypersensibilité, infection), ulcérations buccales, saignements ou ecchymoses (cytopénies) : consulter et faire une NFS."
+        },
+        {
+          "question": "Quel est l'objectif à 6 mois ?",
+          "reponse": "Rémission (ou au minimum faible activité) selon la stratégie treat-to-target."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Aletaha D et al. 2010 ACR/EULAR rheumatoid arthritis classification criteria. Ann Rheum Dis 2010;69(9):1580-1588",
+          "date": "2010"
+        },
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        },
+        {
+          "reference": "Visser K et al. 3E Initiative — recommandations méthotrexate. Ann Rheum Dis 2009;68(7):1086-1093",
+          "date": "2009"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-09.json"
+    },
+    {
+      "id": "CAS-RHUM-0902",
+      "titre": "PR ancienne en échec du méthotrexate : bilan pré-biothérapie et découverte d'une pneumopathie interstitielle",
+      "niveau": "dems",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 58 ans, ancien ouvrier d'une carrière de pierre, fumeur actif (30 paquets-années), Constantine.",
+      "motif_consultation": "Polyarthrite active malgré le traitement, adressé pour discussion d'une biothérapie.",
+      "antecedents": "PR séropositive (FR et ACPA à titre élevé) depuis 9 ans, érosive. Méthotrexate 20 mg/semaine par voie sous-cutanée depuis 2 ans + acide folique, prednisone 10 mg/j depuis plus d'un an. Antécédent de pleurésie « traitée » à l'âge de 25 ans (dossier indisponible). Père décédé de tuberculose.",
+      "symptomes": "Douleurs des mains, des poignets et des pieds, raideur matinale de 2 h, toux sèche et dyspnée d'effort (stade 2 mMRC) depuis 6 mois.",
+      "examen_clinique": "10 articulations gonflées, 14 douloureuses ; DAS28-CRP 5,6. Nodules rhumatoïdes aux coudes. Râles crépitants « velcro » aux deux bases. SpO2 95 % au repos. Pas d'hippocratisme digital.",
+      "biologie": "CRP 34 mg/L (N < 5), Hb 11 g/dL, GB 8,2 G/L ; ALAT 30 UI/L ; créatinine 9 mg/L ; IGRA positif ; AgHBs négatif, anti-HBc positifs, anti-HBs négatifs, ADN VHB indétectable ; VHC et VIH négatifs ; glycémie à jeun 1,18 g/L (N 0,70–1,10).",
+      "imagerie": "Radiographie thoracique : opacités réticulaires des bases, pas de caverne, séquelle pleurale gauche. Scanner thoracique haute résolution : pneumopathie interstitielle des bases d'aspect de pneumopathie interstitielle commune (réticulations sous-pleurales, bronchectasies de traction), pas de lésion évocatrice de tuberculose active. EFR : CVF 72 % de la théorique, DLCO 55 %.",
+      "hypotheses_diagnostiques": [
+        "PR active en échec du MTX avec facteurs de mauvais pronostic",
+        "Pneumopathie interstitielle associée à la PR",
+        "Pneumopathie d'hypersensibilité au méthotrexate",
+        "Tuberculose (latente ou active)"
+      ],
+      "diagnostics_differentiels": [
+        "Pneumopathie d'hypersensibilité au MTX (aiguë/subaiguë, fébrile)",
+        "Silicose (exposition professionnelle)",
+        "Tuberculose pulmonaire active",
+        "Insuffisance cardiaque"
+      ],
+      "examens_a_demander": [
+        "Scanner thoracique haute résolution et EFR avec DLCO",
+        "Avis pneumologique (discussion multidisciplinaire)",
+        "Recherche de tuberculose active (expectorations/test moléculaire si toux productive ou image suspecte)",
+        "IGRA (ou IDR)",
+        "Sérologies VHB complètes avec ADN viral, VHC, VIH",
+        "Bilan cardiovasculaire et glycémique",
+        "Ostéodensitométrie (corticothérapie > 3 mois)"
+      ],
+      "diagnostic_final": "PR séropositive érosive active en échec du MTX, compliquée d'une pneumopathie interstitielle diffuse ; infection tuberculeuse latente ; hépatite B résolue (anti-HBc isolés) ; corticodépendance.",
+      "traitement": "Décision en réunion multidisciplinaire rhumatologue-pneumologue. Sevrage tabagique impératif. Traitement de l'infection tuberculeuse latente selon l'instruction nationale ITL 2024 [schéma et durée À VÉRIFIER — protocole national], tuberculose active préalablement exclue. Choix d'une biothérapie à profil pulmonaire jugé favorable (abatacept ou rituximab, options privilégiées par la SFR 2024 en cas de PID) ; avec le rituximab, risque de réactivation du VHB chez un patient anti-HBc positif : prophylaxie antivirale ou surveillance de l'ADN viral selon avis hépatologique. Discussion d'un antifibrosant avec le pneumologue expert. Décroissance progressive de la prednisone, prévention de l'ostéoporose cortisonique. Vaccinations (grippe, pneumocoque, VHB). [Doses : POSOLOGIE À VÉRIFIER — RCP / protocole local]",
+      "surveillance": "Activité de la PR (DAS28/CDAI) tous les 1 à 3 mois ; EFR et DLCO tous les 3 à 6 mois puis selon évolution ; surveillance clinique de la tuberculose sous biothérapie ; ADN VHB et transaminases selon l'avis hépatologique ; glycémie, tension, lipides ; dépistage du cancer bronchique selon le contexte.",
+      "evolution": "À 6 mois : DAS28 à 3,1, prednisone réduite à 5 mg/j, arrêt du tabac obtenu, fonction respiratoire stable (CVF 70 %). Pas de réactivation tuberculeuse ni virale.",
+      "explication_pedagogique": "Ce cas illustre la stratification EULAR (facteurs de mauvais pronostic → bDMARD), l'importance du bilan pré-biothérapie en pays d'endémie tuberculeuse, la gestion du statut VHB, et l'intégration de la PID dans le choix du traitement (SFR 2024).",
+      "questions": [
+        {
+          "question": "Quels sont les facteurs de mauvais pronostic de cette PR ?",
+          "reponse": "Auto-anticorps à titre élevé, érosions, activité élevée, échec du MTX, manifestations extra-articulaires (nodules, PID), tabagisme, sexe masculin."
+        },
+        {
+          "question": "Pourquoi l'IGRA positif ne contre-indique-t-il pas définitivement la biothérapie ?",
+          "reponse": "Il traduit une infection tuberculeuse latente : après exclusion d'une tuberculose active, son traitement selon le protocole national permet ensuite de débuter la biothérapie avec une surveillance."
+        },
+        {
+          "question": "Quel risque fait courir le rituximab chez un patient anti-HBc positif ?",
+          "reponse": "Une réactivation du VHB, potentiellement grave : prophylaxie antivirale ou surveillance de l'ADN viral selon le statut et l'avis spécialisé (EULAR 2022 infections)."
+        },
+        {
+          "question": "Le méthotrexate est-il responsable de la PID ?",
+          "reponse": "Une PID de type pneumopathie interstitielle commune d'installation lente chez un fumeur séropositif évoque d'abord une PID associée à la PR ; la pneumopathie d'hypersensibilité au MTX est plutôt aiguë ou subaiguë, fébrile ; la décision de poursuivre ou non le MTX est prise avec le pneumologue."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie)/INSP. Manuel de la lutte antituberculeuse à l'usage des personnels médicaux, 2011",
+          "date": "2011"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-09.json"
+    },
+    {
+      "id": "CAS-RHUM-0903",
+      "titre": "Lombalgies nocturnes et œil rouge chez un étudiant de 23 ans",
+      "niveau": "etudiant",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 23 ans, étudiant en sciences à Tizi Ouzou, non fumeur.",
+      "motif_consultation": "Adressé par l'ophtalmologiste après un second épisode d'uvéite antérieure aiguë, pour des lombalgies chroniques.",
+      "antecedents": "Uvéite antérieure aiguë gauche il y a 1 an, droite il y a 3 semaines (traitées par collyres corticoïdes et mydriatiques). Pas de psoriasis, pas de diarrhée chronique. Père : « rhumatisme du dos ».",
+      "symptomes": "Lombalgies et fessalgies à bascule depuis 3 ans, réveils nocturnes en fin de nuit, raideur matinale de 1 heure, amélioration au sport, talalgie postérieure droite matinale. Ibuprofène très efficace en 2 jours.",
+      "examen_clinique": "Schober 10 → 13 cm ; distance occiput-mur 0 ; ampliation thoracique 3 cm ; douleur à la pression du tendon d'Achille droit ; pas d'arthrite périphérique ; examen cardiaque normal.",
+      "biologie": "CRP 16 mg/L (N < 5) ; VS 24 mm ; NFS normale ; créatinine 9 mg/L ; HLA-B27 positif ; FR et ACPA négatifs.",
+      "imagerie": "Radiographie du bassin : sacro-iliite bilatérale de grade 3 (érosions, condensation, pseudo-élargissement). Rachis lombaire de profil : mise au carré de L1-L2, pas de syndesmophyte.",
+      "hypotheses_diagnostiques": [
+        "Spondylarthrite ankylosante (SpA axiale radiographique)",
+        "SpA associée à une MICI",
+        "Rhumatisme psoriasique axial"
+      ],
+      "diagnostics_differentiels": [
+        "Lombalgie commune",
+        "Sacro-iliite infectieuse (brucellose, tuberculose)",
+        "Ostéite condensante iliaque (non applicable chez l'homme)",
+        "Maladie hyperostosique"
+      ],
+      "examens_a_demander": [
+        "CRP, VS, NFS",
+        "HLA-B27",
+        "Radiographie du bassin de face",
+        "Radiographies du rachis lombaire et dorso-lombaire de profil",
+        "IRM des sacro-iliaques si radiographie douteuse",
+        "ECG",
+        "Sérologies brucelliennes si contexte d'exposition"
+      ],
+      "diagnostic_final": "Spondylarthrite ankylosante (pelvispondylite rhumatismale) : critères de New York modifiés remplis (sacro-iliite bilatérale de grade 3 + lombalgie inflammatoire + limitation lombaire), avec uvéites antérieures aiguës récidivantes et enthésite achilléenne.",
+      "traitement": "Éducation, auto-exercices quotidiens, kinésithérapie ; AINS à dose optimale en continu tant que symptomatique [POSOLOGIE À VÉRIFIER — RCP], surveillance tensionnelle et rénale. Consignes : consultation ophtalmologique en urgence devant tout œil rouge douloureux. Si échec de 2 AINS avec ASDAS ≥ 2,1 : biothérapie, en privilégiant un anticorps monoclonal anti-TNF du fait des uvéites récidivantes (après bilan pré-thérapeutique incluant tuberculose et VHB).",
+      "surveillance": "ASDAS-CRP et BASDAI à chaque consultation ; BASMI, Schober, ampliation thoracique ; radiographies à distance ; surveillance des AINS ; uvéites.",
+      "evolution": "Sous AINS en continu et exercices, ASDAS à 1,8 à 3 mois. Nouvelle uvéite 8 mois plus tard malgré l'AINS ; discussion d'un anti-TNF monoclonal en raison du caractère récidivant.",
+      "explication_pedagogique": "Cas typique de SpA axiale radiographique révélée par des uvéites ; l'ophtalmologiste est un acteur du diagnostic précoce. Le choix d'une éventuelle biothérapie tient compte des manifestations extra-squelettiques.",
+      "questions": [
+        {
+          "question": "Quels critères de lombalgie inflammatoire sont présents ?",
+          "reponse": "Début < 40 ans, insidieux, amélioration par l'exercice, pas par le repos, douleurs nocturnes : 5/5."
+        },
+        {
+          "question": "Les critères de New York modifiés sont-ils remplis ?",
+          "reponse": "Oui : sacro-iliite bilatérale de grade 3 et au moins un critère clinique."
+        },
+        {
+          "question": "Pourquoi éviter l'étanercept si une biothérapie devient nécessaire ?",
+          "reponse": "Les anticorps monoclonaux anti-TNF sont préférés en cas d'uvéite récidivante (ASAS-EULAR 2022)."
+        },
+        {
+          "question": "Que faire devant un nouvel œil rouge douloureux ?",
+          "reponse": "Consultation ophtalmologique en urgence (lampe à fente), traitement local rapide."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        },
+        {
+          "reference": "Sieper J et al. ASAS criteria for inflammatory back pain. Ann Rheum Dis 2009;68(6):784-788",
+          "date": "2009"
+        },
+        {
+          "reference": "van der Linden S et al. Modified New York criteria for ankylosing spondylitis. Arthritis Rheum 1984;27(4):361-368",
+          "date": "1984"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-09.json"
+    },
+    {
+      "id": "CAS-RHUM-0904",
+      "titre": "Sacro-iliite unilatérale fébrile chez un éleveur : SpA ou infection ?",
+      "niveau": "residanat",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 34 ans, éleveur d'ovins dans la région de Djelfa.",
+      "motif_consultation": "Fessalgie droite intense et fièvre depuis 3 semaines.",
+      "antecedents": "Aucun antécédent. Consommation régulière de lait cru et de fromage frais artisanal.",
+      "symptomes": "Douleur fessière droite irradiant à la face postérieure de la cuisse, d'aggravation progressive, réveils nocturnes, boiterie ; fièvre vespérale à 39 °C avec sueurs abondantes ; arthralgies diffuses ; perte de 4 kg.",
+      "examen_clinique": "T 38,6 °C ; douleur exquise à la pression de la sacro-iliaque droite ; manœuvres sacro-iliaques douloureuses à droite ; hépatosplénomégalie discrète ; testicules normaux ; pas d'arthrite périphérique, pas d'uvéite.",
+      "biologie": "GB 5,1 G/L (N 4–10) avec lymphocytose relative ; CRP 64 mg/L ; VS 55 mm ; ALAT 62 UI/L (N < 40) ; test au rose Bengale positif ; sérologie de Wright 1/320 ; hémocultures (2 flacons sur 3) positives à Brucella spp. (culture prolongée) ; HLA-B27 négatif.",
+      "imagerie": "Radiographie du bassin : flou de l'interligne sacro-iliaque droit. IRM : sacro-iliite droite avec œdème osseux étendu des deux berges, épanchement articulaire et infiltration des parties molles adjacentes ; pas d'abcès.",
+      "hypotheses_diagnostiques": [
+        "Sacro-iliite brucellienne",
+        "Sacro-iliite à pyogènes",
+        "Sacro-iliite tuberculeuse",
+        "SpA axiale débutante"
+      ],
+      "diagnostics_differentiels": [
+        "SpA axiale (bilatérale le plus souvent, non fébrile)",
+        "Sacro-iliite à staphylocoque",
+        "Tuberculose ostéo-articulaire",
+        "Ostéite pubienne ou pyomyosite du psoas"
+      ],
+      "examens_a_demander": [
+        "Hémocultures prolongées (avant antibiotiques)",
+        "Test au rose Bengale et sérologie de Wright",
+        "NFS, CRP, bilan hépatique",
+        "IRM du bassin",
+        "Radiographie thoracique",
+        "Ponction-biopsie guidée si diagnostic incertain",
+        "Déclaration obligatoire et enquête autour du cas"
+      ],
+      "diagnostic_final": "Brucellose aiguë localisée : sacro-iliite brucellienne droite (Brucella spp., hémocultures positives).",
+      "traitement": "Antibiothérapie prolongée associant deux antibiotiques actifs selon les recommandations en vigueur (par exemple doxycycline associée à un aminoside ou à la rifampicine, durée prolongée pour une forme ostéo-articulaire) [POSOLOGIE À VÉRIFIER — RCP / protocole national] ; antalgiques ; repos relatif puis rééducation ; déclaration obligatoire ; conseils d'hygiène (pasteurisation ou ébullition du lait) ; information des services vétérinaires.",
+      "surveillance": "Courbe thermique, douleurs, CRP, bilan hépatique (tolérance), IRM de contrôle en cas d'évolution défavorable ; surveillance des rechutes pendant plusieurs mois.",
+      "evolution": "Apyrexie en 10 jours, régression progressive des douleurs ; CRP normalisée à 6 semaines ; pas de rechute à 6 mois.",
+      "explication_pedagogique": "Ce cas rappelle qu'en Algérie, une sacro-iliite unilatérale fébrile est une brucellose (ou une infection) jusqu'à preuve du contraire. Un traitement de SpA (a fortiori un anti-TNF) serait délétère. Le HLA-B27 n'a ici aucun intérêt diagnostique.",
+      "questions": [
+        {
+          "question": "Quels éléments s'opposent à une SpA axiale ?",
+          "reponse": "Caractère unilatéral et aigu, fièvre élevée, sueurs, hépatosplénomégalie, exposition au lait cru, syndrome inflammatoire important."
+        },
+        {
+          "question": "Quel est l'examen de certitude ?",
+          "reponse": "L'isolement de Brucella en hémoculture (ou dans un prélèvement ostéo-articulaire) ; les sérologies sont des arguments forts."
+        },
+        {
+          "question": "Pourquoi une biothérapie anti-TNF serait-elle dangereuse ?",
+          "reponse": "Elle aggraverait une infection granulomateuse non contrôlée (brucellose, tuberculose)."
+        },
+        {
+          "question": "Quelle mesure de santé publique est obligatoire ?",
+          "reponse": "La déclaration de la brucellose, maladie à déclaration obligatoire, et l'enquête sur l'origine (cheptel, produits laitiers)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        },
+        {
+          "reference": "Ariza J et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med 2007 [référence à vérifier]",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-09.json"
+    },
+    {
+      "id": "CAS-MINT-0901",
+      "titre": "Arthralgies, éruption du visage et leucopénie chez une jeune femme",
+      "niveau": "generaliste",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 26 ans, employée de banque à Béjaïa, non fumeuse.",
+      "motif_consultation": "Douleurs articulaires et rougeur du visage depuis 3 mois.",
+      "antecedents": "Pas d'antécédent ; pas de prise médicamenteuse hormis une contraception œstroprogestative ; pas de fausse couche ni de thrombose.",
+      "symptomes": "Arthralgies inflammatoires des mains et des genoux, asthénie, rougeur du visage apparue après l'été et aggravée par le soleil, chute de cheveux diffuse, aphtes indolores du palais.",
+      "examen_clinique": "Érythème des pommettes et du nez respectant les sillons naso-géniens ; synovites de 2 IPP ; alopécie diffuse non cicatricielle ; ulcération palatine ; auscultation cardio-pulmonaire normale ; TA 118/72 mmHg ; pas d'œdème.",
+      "biologie": "Leucocytes 3,2 G/L (N 4–10), lymphocytes 0,9 G/L, Hb 12,1 g/dL, plaquettes 180 G/L ; VS 40 mm, CRP 4 mg/L ; créatinine 6 mg/L ; bandelette urinaire négative, protéinurie/créatininurie 0,1 g/g ; AAN 1/640 homogènes ; anti-ADN natif 85 UI/mL (N < 30) ; anti-Sm négatifs ; anti-SSA négatifs ; C3 0,82 g/L (N 0,9–1,8), C4 0,12 g/L (N 0,1–0,4) ; antiphospholipides négatifs.",
+      "imagerie": "Radiographies des mains normales ; radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Lupus systémique cutanéo-articulaire",
+        "Polyarthrite rhumatoïde débutante",
+        "Polyarthrite virale"
+      ],
+      "diagnostics_differentiels": [
+        "Polyarthrite rhumatoïde",
+        "Parvovirus B19",
+        "Lupus induit",
+        "Rosacée et arthralgies non spécifiques"
+      ],
+      "examens_a_demander": [
+        "NFS, VS, CRP",
+        "AAN puis anti-ADN natif, anti-Sm, anti-SSA/SSB, anti-RNP",
+        "C3, C4",
+        "Antiphospholipides",
+        "Bandelette urinaire, protéinurie/créatininurie, créatinine",
+        "Examen ophtalmologique de référence avant HCQ",
+        "Sérologies VHB, VHC, VIH"
+      ],
+      "diagnostic_final": "Lupus érythémateux systémique cutanéo-articulaire (score EULAR/ACR 2019 : lupus cutané aigu 6 + articulaire 6 + leucopénie 3 + anti-ADN 6 + C3 bas 3 = 24 ≥ 10), sans atteinte rénale.",
+      "traitement": "Hydroxychloroquine 5 mg/kg de poids réel/j (EULAR 2023) [arrondi selon formes disponibles — POSOLOGIE À VÉRIFIER — RCP] ; photoprotection stricte ; corticothérapie orale à faible dose de courte durée si arthrite gênante [POSOLOGIE À VÉRIFIER] ; arrêt de la contraception œstroprogestative au profit d'une méthode adaptée (dispositif intra-utérin ou progestatif) après évaluation ; vaccinations à jour ; éducation thérapeutique.",
+      "surveillance": "Consultation à 1 mois puis tous les 3 mois : clinique, TA, bandelette urinaire et protéinurie à chaque visite, NFS, C3/C4, anti-ADN ; examen ophtalmologique de référence puis annuel après 5 ans d'HCQ.",
+      "evolution": "Amélioration cutanée et articulaire en 3 mois ; leucocytes 4,1 G/L ; pas de protéinurie à 1 an.",
+      "explication_pedagogique": "Forme typique de lupus cutanéo-articulaire de la femme jeune ; l'HCQ et la photoprotection en sont le socle ; la surveillance urinaire systématique dépiste une néphropathie silencieuse.",
+      "questions": [
+        {
+          "question": "Quel critère est indispensable pour appliquer les critères EULAR/ACR 2019 ?",
+          "reponse": "Des AAN ≥ 1/80 sur cellules HEp-2 (critère d'entrée)."
+        },
+        {
+          "question": "Pourquoi la CRP est-elle normale ?",
+          "reponse": "La CRP est souvent peu élevée au cours des poussées lupiques ; son élévation doit faire rechercher une infection ou une sérite."
+        },
+        {
+          "question": "Pourquoi changer de contraception ?",
+          "reponse": "Les œstrogènes peuvent favoriser les poussées et sont contre-indiqués en cas d'antiphospholipides ; une méthode sans œstrogène est préférable chez la patiente lupique (EULAR 2017)."
+        },
+        {
+          "question": "Quel examen urinaire répéter à chaque consultation ?",
+          "reponse": "La bandelette et le rapport protéinurie/créatininurie, pour dépister une néphropathie lupique."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Aringer M et al. 2019 EULAR/ACR classification criteria for SLE. Ann Rheum Dis 2019;78(9):1151-1159",
+          "date": "2019"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Marmor MF et al. Recommendations on screening for hydroxychloroquine retinopathy (2016 revision). Ophthalmology 2016;123(6):1386-1394",
+          "date": "2016"
+        },
+        {
+          "reference": "Andreoli L et al. EULAR recommendations for women's health and pregnancy in SLE and/or APS. Ann Rheum Dis 2017;76(3):476-485",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-09.json"
+    },
+    {
+      "id": "CAS-MINT-0902",
+      "titre": "Fièvre et toux chez une patiente lupique sous immunosuppresseurs : poussée ou infection ?",
+      "niveau": "residanat",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 31 ans, mère au foyer à Batna.",
+      "motif_consultation": "Fièvre à 39 °C et toux depuis 3 semaines.",
+      "antecedents": "LES avec néphropathie de classe IV diagnostiqué il y a 8 mois ; traitement : HCQ, mycophénolate, prednisone 15 mg/j (décroissance en cours). Dépistage de la tuberculose latente non réalisé avant le traitement. Frère traité pour tuberculose pulmonaire l'an dernier.",
+      "symptomes": "Fièvre vespérale, sueurs nocturnes, toux productive, amaigrissement de 4 kg ; pas d'éruption, pas d'arthralgies, pas d'œdème.",
+      "examen_clinique": "T 38,8 °C, FR 22/min, SpO2 95 % ; râles crépitants apicaux droits ; pas d'érythème, pas de synovite, pas de frottement ; TA 124/78 mmHg.",
+      "biologie": "Leucocytes 9,8 G/L (neutrophiles 8,1), lymphocytes 0,6 G/L ; Hb 11,2 g/dL ; CRP 96 mg/L ; créatinine 7 mg/L ; protéinurie/créatininurie 0,3 g/g (stable) ; C3 et C4 normaux ; anti-ADN natif 35 UI/mL (stables) ; procalcitonine 0,2 ng/mL. Expectorations : BAAR positifs à l'examen direct ; test moléculaire : M. tuberculosis détecté, résistance à la rifampicine non détectée. Sérologie VIH négative.",
+      "imagerie": "Radiographie thoracique : infiltrat excavé du lobe supérieur droit.",
+      "hypotheses_diagnostiques": [
+        "Tuberculose pulmonaire",
+        "Pneumonie bactérienne",
+        "Pneumopathie lupique",
+        "Pneumocystose"
+      ],
+      "diagnostics_differentiels": [
+        "Poussée lupique (sérite, pneumopathie lupique)",
+        "Pneumonie à pneumocoque",
+        "Pneumocystose",
+        "Pneumopathie médicamenteuse"
+      ],
+      "examens_a_demander": [
+        "Hémocultures",
+        "Expectorations : microscopie, test moléculaire, culture",
+        "Radiographie ± scanner thoracique",
+        "CRP, procalcitonine",
+        "C3, C4, anti-ADN, protéinurie (activité lupique)",
+        "Sérologie VIH"
+      ],
+      "diagnostic_final": "Tuberculose pulmonaire bactériologiquement confirmée, rifampicine sensible, chez une patiente lupique immunodéprimée ; pas de poussée lupique (complément normal, anti-ADN stables, protéinurie stable).",
+      "traitement": "Traitement antituberculeux selon le schéma national (directives 2024) [POSOLOGIE À VÉRIFIER — protocole national] ; déclaration et enquête autour du cas ; isolement respiratoire initial. Ajustement de l'immunosuppression en concertation (réduction du mycophénolate pendant la phase initiale selon la gravité), maintien de l'HCQ et d'une corticothérapie à la dose minimale ; attention aux interactions de la rifampicine (inducteur enzymatique : baisse de l'efficacité des corticoïdes, nécessitant souvent une adaptation de dose) [À VÉRIFIER — RCP].",
+      "surveillance": "Tolérance hépatique des antituberculeux ; contrôle bactériologique selon le programme national ; activité lupique (protéinurie, complément, anti-ADN) mensuelle pendant l'ajustement de l'immunosuppression.",
+      "evolution": "Apyrexie en 2 semaines ; examen microscopique négatif à 2 mois ; pas de poussée rénale ; reprise de la dose pleine de mycophénolate après la phase initiale selon l'avis spécialisé.",
+      "explication_pedagogique": "Chez une patiente lupique sous immunosuppresseurs en Algérie, toute fièvre impose de rechercher une infection, et notamment une tuberculose. Une CRP élevée avec complément normal et anti-ADN stables oriente vers l'infection plutôt que vers la poussée. Le dépistage de l'ITL aurait dû précéder l'immunosuppression (EULAR 2022, instruction nationale 2024).",
+      "questions": [
+        {
+          "question": "Quels arguments s'opposent à une poussée lupique ?",
+          "reponse": "Complément normal, anti-ADN stables, protéinurie stable, absence de signes cutanés ou articulaires, CRP très élevée, contage tuberculeux."
+        },
+        {
+          "question": "Quelle erreur de prévention a été commise ?",
+          "reponse": "L'absence de dépistage de la tuberculose latente avant l'immunosuppression, alors que la patiente avait un contage familial."
+        },
+        {
+          "question": "Quelle interaction médicamenteuse surveiller ?",
+          "reponse": "La rifampicine, inducteur enzymatique, diminue l'exposition aux corticoïdes et à d'autres médicaments ; adaptation selon l'avis spécialisé et le RCP."
+        },
+        {
+          "question": "Pourquoi ne pas arrêter l'hydroxychloroquine ?",
+          "reponse": "Elle n'est pas immunosuppressive, réduit le risque de poussée et améliore la survie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Alharbi S, Aljohani R. Mortality and survival in SLE in the MENA region: meta-analysis. Rheumatol Int 2026;46(7):161",
+          "date": "2026"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-09.json"
+    },
+    {
+      "id": "CAS-MINT-0903",
+      "titre": "Projet de grossesse chez une patiente lupique avec syndrome des antiphospholipides",
+      "niveau": "dems",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 33 ans, enseignante à Tlemcen, mariée.",
+      "motif_consultation": "Consultation pré-conceptionnelle.",
+      "antecedents": "LES diagnostiqué à 25 ans (atteinte cutanéo-articulaire et péricardite), SAPL thrombotique (thrombose veineuse profonde fémorale il y a 4 ans) avec triple positivité (anticoagulant lupique, anticardiolipine et anti-β2GP1 à titres élevés) ; anti-SSA positifs. Traitement : HCQ 300 mg/j, warfarine (INR cible 2–3), prednisone 5 mg/j, méthotrexate 15 mg/semaine. Une fausse couche à 9 SA il y a 6 ans.",
+      "symptomes": "Aucun symptôme depuis 18 mois.",
+      "examen_clinique": "Poids 60 kg ; TA 120/75 mmHg ; pas de lésion cutanée, pas de synovite.",
+      "biologie": "NFS normale ; créatinine 6 mg/L ; protéinurie/créatininurie 0,08 g/g ; C3 et C4 normaux ; anti-ADN natif négatifs ; anti-SSA positifs.",
+      "imagerie": "Échocardiographie : pas de valvulopathie, pression artérielle pulmonaire normale.",
+      "hypotheses_diagnostiques": [
+        "Lupus quiescent depuis plus de 6 mois",
+        "SAPL thrombotique triple positif",
+        "Grossesse à haut risque"
+      ],
+      "diagnostics_differentiels": [
+        "Sans objet (consultation préconceptionnelle)"
+      ],
+      "examens_a_demander": [
+        "Évaluation de l'activité lupique (clinique, urines, complément, anti-ADN)",
+        "Fonction rénale et protéinurie de référence",
+        "Profil antiphospholipide",
+        "Anti-SSA/SSB",
+        "Tension artérielle",
+        "Avis conjoint rhumatologue/interniste, obstétricien et hématologue"
+      ],
+      "diagnostic_final": "Projet de grossesse chez une patiente lupique en rémission prolongée, avec SAPL thrombotique triple positif et anti-SSA positifs.",
+      "traitement": "Grossesse autorisée car maladie inactive depuis plus de 6 mois (EULAR 2017). Arrêt du méthotrexate avant la conception (tératogène) et relais si besoin par azathioprine ; poursuite de l'HCQ ; corticothérapie à dose minimale. Anticoagulation : remplacement de la warfarine (tératogène) par une héparine de bas poids moléculaire à dose curative, idéalement dès le test de grossesse positif et avant la 6e semaine d'aménorrhée, en association à l'aspirine à faible dose selon l'avis spécialisé (EULAR SAPL 2019) [POSOLOGIES À VÉRIFIER — RCP / protocole local]. Pas d'anticoagulant oral direct (triple positivité). Contraception sans œstrogène en attendant.",
+      "surveillance": "Suivi mensuel conjoint : TA, protéinurie, NFS, complément, anti-ADN ; dépistage de la pré-éclampsie ; échocardiographie fœtale et surveillance du rythme cardiaque fœtal entre environ 16 et 26 SA du fait des anti-SSA [calendrier À VÉRIFIER — protocole local] ; échographies de croissance ; reprise des AVK en post-partum.",
+      "evolution": "Grossesse menée à 37 SA, enfant sans bloc auriculo-ventriculaire ; poussée cutanée modérée du post-partum contrôlée par l'HCQ et une courte corticothérapie ; reprise de la warfarine en post-partum.",
+      "explication_pedagogique": "Ce cas synthétise la préparation d'une grossesse lupique : planification en rémission, poursuite de l'HCQ, relais des médicaments tératogènes (méthotrexate, AVK), gestion du SAPL triple positif (pas d'AOD) et surveillance spécifique liée aux anti-SSA.",
+      "questions": [
+        {
+          "question": "Quels médicaments sont tératogènes chez cette patiente ?",
+          "reponse": "Le méthotrexate et la warfarine (embryopathie aux AVK)."
+        },
+        {
+          "question": "Pourquoi éviter un anticoagulant oral direct ?",
+          "reponse": "Le SAPL est triple positif : les AOD (rivaroxaban) y sont associés à plus de récidives thrombotiques artérielles (EULAR 2019)."
+        },
+        {
+          "question": "Quel risque fœtal est lié aux anti-SSA ?",
+          "reponse": "Le lupus néonatal et le bloc auriculo-ventriculaire congénital, d'où la surveillance cardiaque fœtale."
+        },
+        {
+          "question": "Quelle condition préalable à la conception ?",
+          "reponse": "Une maladie inactive depuis au moins 6 mois, sous traitement compatible avec la grossesse."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Andreoli L et al. EULAR recommendations for women's health and pregnancy in SLE and/or APS. Ann Rheum Dis 2017;76(3):476-485",
+          "date": "2017"
+        },
+        {
+          "reference": "Tektonidou MG et al. EULAR recommendations for the management of APS in adults. Ann Rheum Dis 2019;78(10):1296-1304",
+          "date": "2019"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-09.json"
     }
   ]
 }

@@ -6,11 +6,17 @@ sous_specialite: "Hépatites virales"
 items_residanat: [RES-MED-019]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 24
+    rapport: 00_SYSTEME/agents/AUD-04/rapports/DOS-HEPA-0001.md
 sources:
   - id: S1
     reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of hepatitis B virus infection. J Hepatol. 2025;83(2):502-583."
@@ -21,11 +27,11 @@ sources:
     url: ""
     verifiee: true
   - id: S2
-    reference: "European Association for the Study of the Liver. EASL 2017 Clinical Practice Guidelines on the management of hepatitis B virus infection. J Hepatol. 2017;67(2):370-398 [pagination À VÉRIFIER]."
+    reference: "European Association for the Study of the Liver. EASL 2017 Clinical Practice Guidelines on the management of hepatitis B virus infection. J Hepatol. 2017;67(2):370-398."
     organisme: EASL
     annee: 2017
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.jhep.2017.03.021"
     url: ""
     verifiee: true
   - id: S3
@@ -45,12 +51,12 @@ sources:
     url: ""
     verifiee: true
   - id: S5
-    reference: "World Health Organization. Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection. Geneva: WHO; March 2024."
+    reference: "World Health Organization. Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection. Geneva: WHO; March 2024 (corrigenda du 21/02/2025). ISBN 978-92-4-009090-3. Document acquis : 18_RECOMMANDATIONS/04_OMS/Hepatite_B_chronique_2024.pdf (DOC-00030)."
     organisme: OMS
     annee: 2024
     type: recommandation
     doi: ""
-    url: "https://www.who.int/publications/i/item/9789240091368"
+    url: "https://iris.who.int/handle/10665/376353"
     verifiee: true
   - id: S6
     reference: "World Health Organization. Global hepatitis report 2024: action for access in low- and middle-income countries. Geneva: WHO; April 2024."
@@ -69,29 +75,29 @@ sources:
     url: ""
     verifiee: true
   - id: S8
-    reference: "Khelifa R, et al. Hepatitis B virus and hepatitis delta virus subtypes circulating in Algeria and seroprevalence of HDV infection. J Med Virol. 2019;91:72-80 [année 2018/2019 et pagination À VÉRIFIER]."
+    reference: "Khelifa R, et al. Hepatitis B virus and hepatitis delta virus subtypes circulating in Algeria and seroprevalence of HDV infection. J Med Virol. 2019;91(1):72-80."
     organisme: "J Med Virol"
     annee: 2019
     type: article
-    doi: ""
+    doi: "10.1002/jmv.25301"
     url: ""
     verifiee: true
   - id: S9
-    reference: "Algérie Presse Service / Radio Algérie. World Hepatitis Day: Algeria pursues efforts to eliminate the disease by 2030 (adoption du plan stratégique national 2024-2027 d'élimination des hépatites virales ; vaccination anti-VHB obligatoire chez l'enfant depuis 2003). Juillet 2026."
+    reference: "Algérie Presse Service (APS). Journée mondiale contre l'hépatite : l'Algérie poursuit ses efforts pour éliminer la maladie d'ici 2030 (adoption du plan stratégique national 2024-2027 d'élimination des hépatites virales ; vaccination anti-VHB obligatoire chez l'enfant depuis 2003). 28 juillet 2026 ; repris par Radio Algérie (news.radioalgerie.dz/en/node/91369) et AllAfrica."
     organisme: "APS / Radio Algérie (communication du ministère de la Santé)"
     annee: 2026
     type: site_institutionnel
     doi: ""
-    url: "https://news.radioalgerie.dz/en/node/91369"
+    url: "https://www.aps.dz/fr/algerie/sante-et-environnement/ms4ynvmy-l-algerie-poursuit-ses-efforts-pour-eliminer-la-maladie-d-ici-2030"
     verifiee: true
   - id: S10
-    reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on hepatitis delta virus. J Hepatol. 2023;79:433-460."
+    reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on hepatitis delta virus. J Hepatol. 2023;79(2):433-460."
     organisme: EASL
     annee: 2023
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.jhep.2023.05.001"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
     reference: "World Health Organization. WHO position paper on hepatitis A vaccines – October 2022. Weekly Epidemiological Record. 2022;97(40):493-512."
     organisme: OMS
@@ -101,20 +107,28 @@ sources:
     url: ""
     verifiee: false
   - id: S12
-    reference: "World Health Organization. Guidelines for the care and treatment of persons diagnosed with chronic hepatitis C virus infection. Geneva: WHO; 2018 ; et Updated recommendations on simplified service delivery and diagnostics of hepatitis C infection. WHO; 2022."
+    reference: "World Health Organization. Guidelines for the care and treatment of persons diagnosed with chronic hepatitis C virus infection. Geneva: WHO; 2018 (ISBN 978-92-4-155034-5 ; DOC-00031) ; et Updated recommendations on treatment of adolescents and children with chronic HCV infection, and HCV simplified service delivery and diagnostics. Geneva: WHO; 2022 (ISBN 978-92-4-005273-4 ; DOC-00032)."
     organisme: OMS
     annee: 2018
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://iris.who.int/handle/10665/273174"
+    verifiee: true
   - id: S13
     reference: "Haute Autorité de Santé. Hépatite C : prise en charge simplifiée chez l'adulte. Fiche mémo. HAS ; 2019."
     organisme: HAS
     annee: 2019
     type: recommandation
     doi: ""
-    url: ""
+    url: "https://www.has-sante.fr/jcms/c_2911891/fr/hepatite-c-prise-en-charge-simplifiee-chez-l-adulte"
+    verifiee: true
+  - id: S14
+    reference: "Université de Batna 2. « Programme élargi de vaccination » (support de cours) : chronologie du PEV algérien mentionnant l'introduction du vaccin contre l'hépatite B en 2000. Document pédagogique, non officiel."
+    organisme: "Université de Batna 2 (support pédagogique)"
+    annee: null
+    type: site_institutionnel
+    doi: ""
+    url: "https://staff.univ-batna2.dz/sites/default/files/hanane-benaldjia/files/programme_elargi_de_vaccination.pdf"
     verifiee: false
 mots_cles: [hépatite A, hépatite B, hépatite C, hépatite delta, AgHBs, ADN VHB, ARN VHC, antiviraux à action directe, entécavir, ténofovir, sofosbuvir, vaccination, transmission mère-enfant, Algérie, élimination 2030]
 ---
@@ -122,8 +136,8 @@ mots_cles: [hépatite A, hépatite B, hépatite C, hépatite delta, AgHBs, ADN V
 # Hépatites virales A, B, C : épidémiologie, diagnostic, évolution, traitement, prévention
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Note de rédaction : les recommandations EASL sur le VHB ont été **mises à jour en mai 2025** [S1] ; ce dossier présente la version 2025 et signale les différences avec la version 2017 [S2], encore largement enseignée. Aucune mise à jour EASL du traitement du VHC postérieure à 2020 n'a été identifiée (seul un corrigendum a paru en 2023) [S3].
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1) — corrections requises (critères EASL 2025 à confirmer sur le texte intégral). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Note de rédaction : les recommandations EASL sur le VHB ont été **mises à jour en mai 2025** [S1] ; ce dossier présente la version 2025 et signale les différences avec la version 2017 [S2], encore largement enseignée. Aucune mise à jour EASL du traitement du VHC postérieure à 2020 n'a été identifiée (seul un corrigendum a paru en 2023) [S3]. Les lignes directrices OMS 2024 sur le VHB ont fait l'objet de **corrigenda le 21/02/2025** (prophylaxie de la transmission mère-enfant élargie à toutes les femmes enceintes AgHBs+) [S5].
 
 **Items du programme couverts** : RES-MED-019 — « Hépatites virales (A, B, C) : Epidémiologie - diagnostic - évolution - traitement - prévention. »
 
@@ -186,8 +200,8 @@ Les hépatites B et C sont les deux premières causes mondiales de **cirrhose** 
 | Répartition géographique | **Forte hétérogénéité** ; neuf régions présentent un excès significatif de cas d'infection chronique ; prélèvements reçus de 41 des 48 wilayas | [S7] |
 | Gravité à la découverte | **15,2 %** des patients atteints d'hépatite B chronique étaient déjà **cirrhotiques** au diagnostic | [S7] |
 | Virus delta | Infection delta jugée **peu fréquente** chez les porteurs de l'AgHBs (étude de séroprévalence et de sous-types VHB/VHD) | [S8] [chiffre exact À VÉRIFIER] |
-| Vaccination anti-VHB de l'enfant | Obligatoire dans le calendrier vaccinal **depuis 2003** selon le ministre de la Santé ; certains supports universitaires mentionnent une introduction en 2000 (voir § 21) | [S9] |
-| Politique nationale | **Plan stratégique national 2024-2027** d'élimination des hépatites virales, avec une importance particulière accordée à l'**élimination de la transmission mère-enfant du VHB**, en cohérence avec l'objectif OMS 2030 | [S9] |
+| Vaccination anti-VHB de l'enfant | Obligatoire dans le calendrier vaccinal **depuis 2003** selon le ministère de la Santé (APS, 28/07/2026) ; un support de cours universitaire (non officiel) date l'**introduction** du vaccin de **2000** ; l'arrêté d'introduction n'a pas été consulté (voir § 21) [À VÉRIFIER — JORADP] | [S9, S14] |
+| Politique nationale | **Plan stratégique national 2024-2027** d'élimination des hépatites virales, dont l'adoption a été annoncée par le ministère (APS, 28/07/2026), avec une importance particulière accordée à l'**élimination de la transmission mère-enfant du VHB**, en cohérence avec l'objectif OMS 2030 ; le texte du plan n'a pas été consulté | [S9] |
 | Hépatite C | Aucune donnée nationale récente en population générale n'a pu être vérifiée pendant la rédaction | [À VÉRIFIER — INSP / ministère] |
 | Hépatite A | Transition épidémiologique probable (déplacement de l'âge de l'infection vers l'adolescence et l'âge adulte avec l'amélioration de l'hygiène), à documenter | [À VÉRIFIER] |
 
@@ -206,7 +220,7 @@ Les hépatites B et C sont les deux premières causes mondiales de **cirrhose** 
 | Enveloppe | Non (résistant dans le milieu extérieur) | Oui (AgHBs) | Oui |
 | Transmission | **Féco-orale** (eau, aliments, mains sales, coquillages), contacts intrafamiliaux, rapports oro-anaux | **Sanguine, sexuelle, périnatale** (mère-enfant), intrafamiliale horizontale | **Sanguine** essentiellement (transfusion avant dépistage, matériel non stérile, usage de drogues injectables, soins invasifs) ; sexuelle et périnatale faibles |
 | Incubation | 2–6 semaines | 6 semaines à 6 mois | 2 semaines à 6 mois |
-| Chronicité | **Jamais** | Dépend de l'âge : ≈ 90 % chez le nouveau-né, 20–50 % entre 1 et 5 ans, < 5 % chez l'adulte immunocompétent [ordres de grandeur OMS, À VÉRIFIER] | Fréquente : environ 70 % (≈ 30 % de guérison spontanée dans les 6 mois) [ordre de grandeur OMS, À VÉRIFIER] |
+| Chronicité | **Jamais** | Dépend de l'âge : ≈ 90 % après une infection néonatale, ≈ 30 % entre 1 et 4 ans, < 5 % chez l'adulte (OMS 2024) [S5] | Fréquente : environ 70 % (≈ 30 % de guérison spontanée dans les 6 mois) [ordre de grandeur OMS, À VÉRIFIER] |
 | Formes fulminantes | Rares, plus fréquentes avec l'âge et sur hépatopathie préexistante | Rares (≈ 1 % des hépatites aiguës symptomatiques, ordre de grandeur) ; risque majoré par le VHD | Exceptionnelles |
 | Oncogénicité | Non | **Oui** — CHC même sans cirrhose (intégration de l'ADN viral, protéine HBx) | Oui — CHC quasi exclusivement sur fibrose avancée/cirrhose |
 | Génotypes | Un sérotype | A à J ; **génotype D** décrit comme prédominant au Maghreb [S8, À VÉRIFIER] | 1 à 8 ; génotype 1 (1b) fréquent au Maghreb [À VÉRIFIER] |
@@ -298,9 +312,9 @@ Antécédent de transfusion ou de chirurgie lourde avant la généralisation du 
 
 | Outil | Calcul / principe | Seuils d'usage (ordre de grandeur) |
 |---|---|---|
-| **APRI** | (ASAT/LSN) × 100 / plaquettes (G/L) | > 0,5 : fibrose significative possible ; > 1–2 : cirrhose probable (seuils utilisés par l'OMS) [S5, À VÉRIFIER] |
-| **FIB-4** | âge × ASAT / (plaquettes × √ALAT) | < 1,3 : fibrose avancée peu probable ; > 3,25 : fibrose avancée probable |
-| **Élastométrie impulsionnelle (FibroScan®)** | Mesure de l'élasticité hépatique (kPa) | Dans le VHB, > 7 kPa (fibrose significative) ; > 12–14 kPa (cirrhose) selon les études ; à interpréter en dehors des poussées de cytolyse [À VÉRIFIER] |
+| **APRI** | (ASAT/LSN) × 100 / plaquettes (G/L) | OMS 2024 : > 0,5 = fibrose significative (≥ F2) ; > 1 = cirrhose (critère de traitement ; le seuil de 2 était celui de l'OMS 2015) [S5] |
+| **FIB-4** | âge × ASAT / (plaquettes × √ALAT) | Seuils de dérivation (VHC/VIH) : < 1,45 = fibrose avancée peu probable ; > 3,25 = fibrose avancée probable (dans la MASLD : < 1,30 et ≥ 2,67) |
+| **Élastométrie impulsionnelle (FibroScan®)** | Mesure de l'élasticité hépatique (kPa) | OMS 2024 (VHB) : > 7 kPa = fibrose significative ; > 12,5 kPa = cirrhose [S5] ; Baveno VII (toutes causes) : < 10 kPa exclut une cACLD, > 15 kPa la rend très probable ; à interpréter en dehors des poussées de cytolyse |
 | **Tests sanguins composites** (FibroTest®…) | Algorithmes brevetés | Selon validation |
 | **Biopsie hépatique** | Score METAVIR (activité A0–A3, fibrose F0–F4) | Réservée aux cas discordants ou aux doutes diagnostiques |
 
@@ -372,7 +386,7 @@ Le plus souvent **asymptomatique** ; asthénie ; découverte lors d'un dépistag
 ### 9.4 Diagnostic de l'hépatite C
 
 - **Test de dépistage** : anticorps anti-VHC (ELISA ou test rapide d'orientation diagnostique — TROD).
-- **Confirmation** : **ARN VHC** (PCR qualitative ou quantitative) ou **antigène de capside** (core) du VHC ; l'OMS encourage le test réflexe (ARN réalisé sur le même prélèvement que l'anti-VHC positif) et les tests de charge virale au point de soins pour raccourcir la cascade de soins [S12] [À VÉRIFIER].
+- **Confirmation** : **ARN VHC** (PCR qualitative ou quantitative) ou **antigène de capside** (core) du VHC ; l'OMS (2022) recommande le test réflexe de l'ARN (réalisé au laboratoire sur le même prélèvement que l'anti-VHC positif, ou déclenché en consultation) et les tests de charge virale au point de soins pour raccourcir la cascade de soins [S12].
 - Anti-VHC positif + ARN négatif : **infection guérie** (spontanément ou après traitement) ou faux positif — l'anti-VHC persiste après guérison et **ne protège pas** contre une réinfection.
 - **Génotypage** : n'est plus indispensable avec les schémas pangénotypiques [S3] (il reste utile en cas d'échec ou dans certaines situations, et dans les pays où des schémas non pangénotypiques sont utilisés).
 - **Évaluation de la fibrose** : identifier une **fibrose avancée (F3) ou une cirrhose (F4)**, qui conditionne la durée de certains schémas et la **surveillance post-RVS** (dépistage du CHC et de l'hypertension portale) [S3, S4].
@@ -401,7 +415,7 @@ Le plus souvent **asymptomatique** ; asthénie ; découverte lors d'un dépistag
 
 ### 10.3 Femme enceinte
 
-- **VHB** : dépistage systématique ; transmission périnatale (risque majeur si ADN élevé ou AgHBe+) ; sérovaccination du nouveau-né ; **ténofovir disoproxil** au 3ᵉ trimestre en cas de charge virale élevée [S1, S2, S5] (voir § 13.3.4). L'allaitement n'est pas contre-indiqué chez un enfant sérovacciné.
+- **VHB** : dépistage systématique ; transmission périnatale (risque majeur si ADN élevé ou AgHBe+) ; sérovaccination du nouveau-né ; **ténofovir disoproxil** en cas de charge virale élevée (EASL 2017 : à partir de 24–28 SA si ADN > 200 000 UI/mL) [S2], ou chez **toute** femme enceinte AgHBs+ selon l'OMS 2024 (corrigenda 2025) [S5] (voir § 13.3.4). L'entécavir n'est pas utilisé pendant la grossesse (données humaines insuffisantes, RCP) ; le TAF peut être envisagé en cas d'atteinte rénale ou osseuse mais n'était pas approuvé pour la grossesse selon l'OMS 2024 [S5]. L'allaitement n'est pas contre-indiqué (y compris sous TDF) chez un enfant sérovacciné [S5].
 - **VHA** : évolution habituellement bénigne.
 - **VHC** : transmission verticale ≈ 5 % (ordre de grandeur, majorée par la co-infection VIH) ; les AAD ne sont pas recommandés pendant la grossesse dans les recommandations EASL 2020 (données insuffisantes) [S3] [À VÉRIFIER : données récentes].
 - **VHE** : gravité particulière au 3ᵉ trimestre (génotypes 1 et 2), diagnostic différentiel important.
@@ -489,12 +503,12 @@ Guérison constante en dehors des formes fulminantes (rares) ; immunité défini
 
 | Molécule | Posologie adulte (fonction rénale normale) | Points clés | Source |
 |---|---|---|---|
-| **Entécavir (ETV)** | 0,5 mg/j per os, à jeun ; **1 mg/j** en cas de résistance antérieure à la lamivudine ou de cirrhose décompensée (selon RCP) | Barrière génétique élevée chez le naïf ; **non recommandé après échec de la lamivudine** ; adaptation rénale | [S1, S2] |
+| **Entécavir (ETV)** | 0,5 mg/j per os (avec ou sans repas) chez le naïf ; **1 mg/j à jeun** en cas de cirrhose décompensée (et, selon le RCP, de réfractarité à la lamivudine — situation où l'ETV n'est pas recommandé) | Barrière génétique élevée chez le naïf ; **non recommandé après échec de la lamivudine** ; adaptation rénale | [S1, S2, S5] |
 | **Ténofovir disoproxil (TDF)** | 245 mg/j de ténofovir disoproxil (= 300 mg de fumarate) per os | Pas de résistance décrite ; toxicité **rénale** (tubulopathie) et **osseuse** ; utilisable pendant la **grossesse** | [S1, S2] |
 | **Ténofovir alafénamide (TAF)** | 25 mg/j per os | Meilleure tolérance rénale et osseuse ; alternative chez le sujet à risque rénal/osseux | [S1, S2] |
 | **Interféron pégylé alfa-2a** | 180 µg/semaine en sous-cutané pendant **48 semaines** | Durée finie ; chance de perte de l'AgHBs plus élevée chez certains patients (AgHBe+, génotypes A/B, ALAT élevées, ADN modéré) ; nombreux effets indésirables ; **contre-indiqué** en cas de cirrhose décompensée, de grossesse, de maladie psychiatrique ou auto-immune sévère | [S2] |
 
-[POSOLOGIE À VÉRIFIER — RCP / protocole local : adaptation à la clairance de la créatinine, formes disponibles en Algérie.]
+Adaptation à la clairance de la créatinine (OMS 2024, tableau 17.1 [S5] ; RCP) : **TDF** 1 cp/48 h si ClCr 30–49 mL/min, 1 cp/72–96 h si 10–29 mL/min ; **ETV** 0,25 mg/j (ou 0,5 mg/48 h) si 30–49 mL/min, 0,15 mg/j (ou 0,5 mg/72 h) si 10–29 mL/min (doses doublées en cirrhose décompensée) ; **TAF** sans adaptation si ClCr ≥ 15 mL/min, non recommandé en dessous sans hémodialyse. L'OMS 2024 recommande le **TDF ou l'ETV** en première intention, l'ETV ou le TAF en cas d'ostéoporose ou d'atteinte rénale [S5]. Formes disponibles en Algérie : à vérifier [À VÉRIFIER].
 
 Molécules **déconseillées en première ligne** : lamivudine, adéfovir, telbivudine (barrière génétique faible ou efficacité moindre) [S2].
 
@@ -503,20 +517,22 @@ Molécules **déconseillées en première ligne** : lamivudine, adéfovir, telbi
 | Schéma | Posologie | Durée (patient naïf, sans cirrhose ou cirrhose compensée) | Remarques | Source |
 |---|---|---|---|---|
 | **Sofosbuvir/velpatasvir (SOF/VEL)** | 400/100 mg, 1 cp/j | **12 semaines** | Cirrhose **décompensée** : SOF/VEL + ribavirine 12 semaines ; génotype 3 avec cirrhose compensée : modalités particulières (ribavirine ou SOF/VEL/VOX selon la recherche de la mutation Y93H) | [S3] |
-| **Glécaprévir/pibrentasvir (G/P)** | 300/120 mg (3 cp de 100/40 mg) en une prise avec un repas | **8 semaines** (naïf, sans cirrhose ou cirrhose compensée) | Inhibiteur de protéase : **contre-indiqué** en cirrhose décompensée (Child-Pugh B/C) ; utilisable en insuffisance rénale sévère | [S3] |
+| **Glécaprévir/pibrentasvir (G/P)** | 300/120 mg (3 cp de 100/40 mg) en une prise avec un repas | **8 semaines** (naïf, sans cirrhose ou cirrhose compensée ; OMS 2022 et EASL 2020) ; 12 semaines (cirrhose après échec d'un traitement antérieur, génotypes 1, 2, 4–6) ; 16 semaines (génotype 3 prétraité) | Inhibiteur de protéase : **contre-indiqué** en cirrhose décompensée (Child-Pugh B/C) ; utilisable en insuffisance rénale sévère | [S3, S12] |
 | **Sofosbuvir/velpatasvir/voxilaprévir (SOF/VEL/VOX)** | 400/100/100 mg, 1 cp/j | 12 semaines | **Retraitement après échec d'AAD** ; contre-indiqué en cirrhose décompensée | [S3] |
-| **Sofosbuvir + daclatasvir (SOF + DCV)** | 400 mg + 60 mg/j | 12 semaines (24 semaines en cas de cirrhose compensée selon l'OMS 2018) | Schéma pangénotypique recommandé par l'OMS et largement utilisé dans les pays à revenu intermédiaire (génériques) | [S12] [À VÉRIFIER] |
+| **Sofosbuvir + daclatasvir (SOF + DCV)** | 400 mg + 60 mg/j (adaptation de la dose de daclatasvir en cas d'interaction, selon le RCP) | 12 semaines sans cirrhose ; 24 semaines en cas de cirrhose compensée (12 semaines envisageables là où la prévalence du génotype 3 est < 5 %) (OMS 2018, repris en 2022) | Schéma pangénotypique recommandé par l'OMS et largement utilisé dans les pays à revenu intermédiaire (génériques) | [S12] |
 
 Points pratiques :
 - **Interactions médicamenteuses** (inducteurs enzymatiques — rifampicine, carbamazépine, phénytoïne, millepertuis — contre-indiqués ; **amiodarone** contre-indiquée avec le sofosbuvir : bradycardie grave ; IPP diminuant l'absorption du velpatasvir ; statines ; contraceptifs à l'éthinylestradiol avec G/P) [S3]. Toujours vérifier sur une base d'interactions (par exemple celle de l'université de Liverpool).
 - **Réactivation du VHB** sous AAD chez les porteurs de l'AgHBs : prophylaxie ou surveillance de l'ADN VHB [S3].
-- Ribavirine (si associée) : 1 000 mg/j (< 75 kg) ou 1 200 mg/j (≥ 75 kg) ; anémie hémolytique, **tératogénicité** (contraception efficace) [S3] [POSOLOGIE À VÉRIFIER — RCP].
+- Ribavirine (si associée) : dose adaptée au poids, 1 000 mg/j (< 75 kg) ou 1 200 mg/j (≥ 75 kg) (EASL 2020 ; RCP de la ribavirine), à adapter à la fonction rénale et à l'hémoglobine ; anémie hémolytique, **tératogénicité** (contraception efficace) [S3].
 
 ### 13.3 Indications et stratégie
 
 #### 13.3.1 Hépatite B chronique — indications selon l'EASL 2025 [S1]
 
-Points confirmés pendant la rédaction :
+Principe confirmé (résumé et synthèses secondaires consultés à l'audit) : l'EASL 2025 abandonne une décision rigide fondée sur les phases au profit d'une **évaluation individuelle du risque** intégrant ADN VHB, ALAT, fibrose, âge, antécédent familial de CHC et comorbidités ; tout patient avec **fibrose avancée ou cirrhose et ADN VHB détectable** relève d'un traitement quel que soit le niveau des ALAT, et la **cirrhose décompensée** est traitée quel que soit le niveau d'ADN [S1].
+
+Critères détaillés rapportés par le rédacteur — **texte intégral EASL 2025 non consulté à l'audit** [À VÉRIFIER] :
 1. **ADN VHB ≥ 2 000 UI/mL et ALAT > LSN et/ou fibrose significative** (AgHBe positif ou négatif) → **traitement antiviral recommandé**.
 2. **Cirrhose avec ADN VHB détectable**, quels que soient le niveau d'ADN et les ALAT → **traitement**.
 3. **ADN VHB bas (< 2 000 UI/mL) avec ALAT persistamment élevées** → le traitement **peut** être proposé (après exclusion d'autres causes de cytolyse).
@@ -526,7 +542,12 @@ Autres indications classiquement retenues (EASL 2017 [S2], reprises ou élargies
 
 #### 13.3.2 Hépatite B chronique — indications selon l'OMS 2024 [S5]
 
-Les lignes directrices de l'OMS de mars 2024 **simplifient et élargissent nettement** les critères de traitement, incluent les **adolescents**, et visent à lever les obstacles au dépistage et au traitement dans les pays à ressources limitées [S5]. Les critères retenus comprennent notamment (détail à confirmer dans le texte intégral [À VÉRIFIER]) : fibrose significative ou cirrhose (APRI > 0,5 ou élastométrie > 7 kPa) quels que soient l'ADN et les ALAT ; ADN > 2 000 UI/mL avec ALAT > LSN ; présence de co-infections (VIH, VHD, VHC), d'antécédents familiaux de CHC ou de cirrhose, d'une immunosuppression, de comorbidités ou de manifestations extrahépatiques ; et, en l'absence d'accès à la mesure de l'ADN, des ALAT persistamment anormales.
+Les lignes directrices de l'OMS de mars 2024 **simplifient et élargissent nettement** les critères de traitement, incluent les **adolescents (≥ 12 ans)**, et visent à lever les obstacles au dépistage et au traitement dans les pays à ressources limitées [S5]. Texte vérifié dans le document acquis — traiter tout adulte ou adolescent porteur d'une hépatite B chronique (y compris la femme enceinte) présentant :
+1. une **fibrose significative (≥ F2)** — APRI > 0,5 ou élastométrie > 7 kPa — ou une **cirrhose** (critères cliniques, APRI > 1 ou élastométrie > 12,5 kPa), quels que soient l'ADN et les ALAT ;
+2. ou un **ADN VHB > 2 000 UI/mL avec ALAT > LSN** (LSN fixée à **30 U/L chez l'homme, 19 U/L chez la femme** ; chez l'adolescent, ALAT > LSN à deux reprises sur 6–12 mois) ;
+3. ou une **co-infection** (VIH, VHD, VHC), un **antécédent familial** de CHC ou de cirrhose, une **immunosuppression**, une **comorbidité** (diabète, MASLD) ou des **manifestations extrahépatiques**, quels que soient l'APRI, l'ADN et les ALAT ;
+4. ou, **en l'absence d'accès à la mesure de l'ADN**, des **ALAT persistamment anormales** (deux valeurs > LSN sur 6–12 mois).
+Traitements préférés : **TDF ou ETV** ; ETV ou TAF en cas d'ostéoporose ou d'atteinte rénale [S5].
 
 #### 13.3.3 Choix et durée du traitement de l'hépatite B
 
@@ -538,7 +559,7 @@ Les lignes directrices de l'OMS de mars 2024 **simplifient et élargissent nette
 #### 13.3.4 Prévention de la transmission mère-enfant du VHB
 
 1. Dépistage de l'AgHBs chez **toute femme enceinte** [S1, S5, S9].
-2. Si AgHBs+ : ADN VHB (et AgHBe) ; **ténofovir disoproxil** à partir de 24–28 semaines d'aménorrhée si l'ADN est élevé (seuil classique **> 200 000 UI/mL** dans l'EASL 2017), poursuivi jusqu'à 12 semaines après l'accouchement si la mère n'a pas d'indication propre [S2] ; l'OMS 2024 élargit l'éligibilité à la prophylaxie antivirale chez la femme enceinte, y compris lorsque la charge virale n'est pas mesurable [S5] [critères exacts À VÉRIFIER].
+2. Si AgHBs+ : évaluer d'abord l'indication d'un traitement pour la mère elle-même, sans retarder la prophylaxie ; ADN VHB (et AgHBe) ; **ténofovir disoproxil** à partir de 24–28 semaines d'aménorrhée si l'ADN est élevé (seuil classique **> 200 000 UI/mL** dans l'EASL 2017), poursuivi jusqu'à 12 semaines après l'accouchement si la mère n'a pas d'indication propre [S2]. L'**OMS 2024, après les corrigenda du 21/02/2025**, recommande la prophylaxie par **TDF chez toute femme enceinte AgHBs+**, que l'ADN ou l'AgHBe soient mesurables ou non, **de préférence dès le 2ᵉ trimestre** et au moins jusqu'à l'accouchement ou la fin du schéma vaccinal de l'enfant (le texte initial de mars 2024 réservait cette indication, là où l'ADN est accessible, aux femmes à ADN ≥ 200 000 UI/mL ou AgHBe+) [S5].
 3. Nouveau-né : **vaccin contre le VHB à la naissance (idéalement < 24 h)** + **immunoglobulines anti-HBs** (dans les 12 heures) en cas de mère AgHBs+, puis poursuite du schéma vaccinal ; **sérologie de contrôle** (AgHBs, anti-HBs) de l'enfant après la fin du schéma [À VÉRIFIER — calendrier national].
 4. **Allaitement autorisé**.
 
@@ -688,7 +709,7 @@ Infection chronique **AgHBe positive** (ancienne « immunotolérance ») : AgHBe
 Selon l'EASL 2025, l'indication repose sur l'ADN, les ALAT, la fibrose et le risque individuel [S1] : ALAT normales et absence de fibrose → pas d'indication formelle « hépatique » à ce stade ; mais l'**antécédent familial de CHC** et la charge virale très élevée sont des éléments de **décision partagée** ; l'EASL 2017 proposait déjà de traiter les infections AgHBe+ après 30 ans et en cas d'antécédent familial de CHC [S2]. Une indication de prévention de la transmission mère-enfant existe de toute façon.
 
 **Question 3 — Comment prévenir la transmission à l'enfant ?**
-- **Ténofovir disoproxil 245 mg/j** débuté à 24–28 SA (charge virale > 200 000 UI/mL) [S2, S5], poursuivi jusqu'à au moins 12 semaines après l'accouchement (ou au long cours si une indication maternelle est retenue).
+- **Ténofovir disoproxil 245 mg/j** débuté à 24–28 SA (charge virale > 200 000 UI/mL : EASL 2017 [S2] ; l'OMS 2024 le recommande chez toute femme enceinte AgHBs+, de préférence dès le 2ᵉ trimestre [S5]), poursuivi jusqu'à au moins 12 semaines après l'accouchement (ou au long cours si une indication maternelle est retenue).
 - À la naissance : **vaccin contre le VHB dans les 24 premières heures + immunoglobulines anti-HBs** dans les 12 heures, puis poursuite du calendrier vaccinal ; contrôle AgHBs/anti-HBs de l'enfant après la dernière dose.
 - **Allaitement autorisé**.
 
@@ -709,7 +730,7 @@ Dépistage du **premier enfant** (AgHBs, anti-HBs, anti-HBc), du **conjoint** (e
 4. Diagnostic de l'hépatite B aiguë : **AgHBs + IgM anti-HBc** ; chronique : AgHBs > 6 mois.
 5. **Anti-VHD chez tout porteur de l'AgHBs** [S1, S10].
 6. Gravité de l'hépatite aiguë : **TP/facteur V et encéphalopathie**, pas les transaminases.
-7. EASL 2025 : traiter si **ADN ≥ 2 000 UI/mL + ALAT > LSN et/ou fibrose significative**, et tout **cirrhotique avec ADN détectable** [S1].
+7. Indications : tout **cirrhotique avec ADN détectable** (EASL 2025) [S1] ; **ADN ≥ 2 000 UI/mL + ALAT > LSN et/ou fibrose significative** (EASL 2017, critère repris par l'OMS 2024 [S2, S5] ; formulation EASL 2025 à confirmer sur le texte intégral) ; l'OMS 2024 ajoute co-infections, antécédent familial, immunosuppression, comorbidités, manifestations extrahépatiques [S5].
 8. Première ligne VHB : **entécavir, TDF ou TAF** ; durée souvent indéfinie [S1, S2].
 9. VHC : **traiter tout patient virémique** ; SOF/VEL 12 semaines ou G/P 8 semaines ; vérifier les **interactions** et l'AgHBs [S3].
 10. Après RVS : la **fibrose avancée/cirrhose** impose la poursuite du dépistage du CHC [S4].
@@ -825,27 +846,28 @@ E. Neuf régions présentaient un excès significatif de cas.
 | Sujet | Position A | Position B | Commentaire |
 |---|---|---|---|
 | **Logique d'indication du traitement VHB** | EASL 2017 : indications largement structurées par les **phases** de l'infection [S2] | EASL 2025 : décision fondée surtout sur **ADN, ALAT, fibrose et risque** ; place de la décision partagée [S1] | Évolution vers un traitement plus large et plus simple |
-| **Limite supérieure normale des ALAT** | EASL 2025 : ne fixe pas de LSN universelle (utiliser les normes du laboratoire) [S1 — selon une analyse comparative] | AASLD : seuils plus bas spécifiques au sexe (≈ 35 UI/L chez l'homme, 25 UI/L chez la femme) [À VÉRIFIER] | Influence directe sur le nombre de patients éligibles |
+| **Limite supérieure normale des ALAT** | OMS 2024 : **30 U/L (homme) et 19 U/L (femme)** [S5] ; EASL 2025 : position rapportée « LSN du laboratoire » (selon une analyse comparative ; texte intégral non consulté) [S1] [À VÉRIFIER] | AASLD 2018 : 35 U/L (homme) et 25 U/L (femme) (source non incluse dans ce dossier) [À VÉRIFIER] | Influence directe sur le nombre de patients éligibles |
 | **Seuils et critères de traitement VHB en contexte de ressources limitées** | OMS 2024 : critères simplifiés et élargis (APRI, ALAT seules si pas d'ADN, comorbidités) [S5] | EASL 2025 : critères fondés sur l'ADN quantitatif et l'élastométrie [S1] | Adaptés à des systèmes de santé différents ; en Algérie, choisir selon l'accès à la charge virale et à l'élastométrie |
-| **Prophylaxie de la transmission mère-enfant** | EASL 2017 : TDF si ADN > 200 000 UI/mL (ou AgHBs quantitatif élevé) [S2] | OMS 2024 : éligibilité élargie, y compris sans accès à la charge virale [S5] [À VÉRIFIER] | |
+| **Prophylaxie de la transmission mère-enfant** | EASL 2017 : TDF si ADN > 200 000 UI/mL (ou AgHBs quantitatif élevé), de 24–28 SA à 12 semaines post-partum [S2] | OMS 2024 (corrigenda 21/02/2025) : TDF chez **toute** femme enceinte AgHBs+, de préférence dès le 2ᵉ trimestre [S5] | Stratégie OMS adaptée aux contextes où la charge virale est peu accessible |
 | **Hépatite C aiguë** | EASL 2020 : traiter sans attendre une guérison spontanée [S3] [À VÉRIFIER] | Pratiques plus anciennes : attendre 12 semaines | Bénéfice de santé publique du traitement précoce |
-| **Durée de SOF + DCV** | OMS 2018 : 12 semaines, 24 en cas de cirrhose compensée [S12] [À VÉRIFIER] | EASL 2020 : ce schéma n'est pas mis en avant parmi les schémas préférentiels [S3] [À VÉRIFIER] | Choix lié à la disponibilité et au coût des génériques |
-| **Date d'introduction du vaccin VHB en Algérie** | Ministre de la Santé (2026) : obligatoire depuis **2003** [S9] | Supports universitaires : introduction en **2000** [non vérifié] | Différence possible entre introduction et obligation ; à confirmer par le texte officiel |
+| **Durée de SOF + DCV** | OMS 2018 et 2022 : 12 semaines, 24 en cas de cirrhose compensée [S12] | EASL 2020 : ce schéma n'est pas mis en avant parmi les schémas préférentiels [S3] [À VÉRIFIER] | Choix lié à la disponibilité et au coût des génériques |
+| **Date d'introduction du vaccin VHB en Algérie** | Ministère de la Santé (APS, 28/07/2026) : obligatoire depuis **2003** [S9] | Support de cours universitaire (Université de Batna 2, non officiel) : introduction en **2000** [S14] | Différence possible entre introduction et obligation ; l'arrêté correspondant (JORADP) n'a pas été consulté [À VÉRIFIER] |
 
 ---
 
 ## 22. Références
 
 1. **[S1]** EASL. EASL Clinical Practice Guidelines on the management of hepatitis B virus infection. *J Hepatol*. 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018. — *vérifiée*.
-2. **[S2]** EASL. EASL 2017 Clinical Practice Guidelines on the management of hepatitis B virus infection. *J Hepatol*. 2017;67(2):370-398 [pagination À VÉRIFIER]. — *existence vérifiée*.
+2. **[S2]** EASL. EASL 2017 Clinical Practice Guidelines on the management of hepatitis B virus infection. *J Hepatol*. 2017;67(2):370-398. doi:10.1016/j.jhep.2017.03.021 (PMID 28427875). — *vérifiée (audit)* ; version remplacée par [S1].
 3. **[S3]** EASL. EASL recommendations on treatment of hepatitis C: Final update of the series. *J Hepatol*. 2020;73(5):1170-1218. doi:10.1016/j.jhep.2020.08.018 ; corrigendum *J Hepatol*. 2023;78(2):452. — *vérifiée*.
 4. **[S4]** Reiberger T, Lens S, et al. EASL position paper on clinical follow-up after HCV cure. *J Hepatol*. 2024;81(2):326-344. doi:10.1016/j.jhep.2024.04.007. — *vérifiée*.
-5. **[S5]** OMS. Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection. Genève ; mars 2024. https://www.who.int/publications/i/item/9789240091368 — *vérifiée*.
+5. **[S5]** OMS. Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection. Genève ; mars 2024 (corrigenda du 21/02/2025). ISBN 978-92-4-009090-3. https://iris.who.int/handle/10665/376353 — *vérifiée (document acquis DOC-00030, lu à l'audit)*.
 6. **[S6]** OMS. Global hepatitis report 2024: action for access in low- and middle-income countries. Genève ; avril 2024. https://www.who.int/publications/i/item/9789240091672 — *vérifiée*.
 7. **[S7]** Bensalem A, et al. Widespread geographical disparities in chronic hepatitis B virus infection in Algeria. *Arch Virol*. 2017;162:1641-1648. doi:10.1007/s00705-017-3284-6. — *vérifiée*.
-8. **[S8]** Khelifa R, et al. Hepatitis B virus and hepatitis delta virus subtypes circulating in Algeria and seroprevalence of HDV infection. *J Med Virol*. 2019;91:72-80 [À VÉRIFIER]. — *existence vérifiée*.
-9. **[S9]** APS / Radio Algérie. Journée mondiale contre l'hépatite : plan stratégique national 2024-2027. Juillet 2026. https://news.radioalgerie.dz/en/node/91369 — *vérifiée (source de presse institutionnelle)*.
-10. **[S10]** EASL. Clinical Practice Guidelines on hepatitis delta virus. *J Hepatol*. 2023 — *non revérifiée*.
+8. **[S8]** Khelifa R, et al. Hepatitis B virus and hepatitis delta virus subtypes circulating in Algeria and seroprevalence of HDV infection. *J Med Virol*. 2019;91(1):72-80. doi:10.1002/jmv.25301 (PMID 30168584). — *vérifiée (audit)*.
+9. **[S9]** APS. Journée mondiale contre l'hépatite : l'Algérie poursuit ses efforts pour éliminer la maladie d'ici 2030. 28 juillet 2026 (repris par Radio Algérie, news.radioalgerie.dz/en/node/91369). — *vérifiée (source de presse institutionnelle ; texte du plan non consulté)*.
+10. **[S10]** EASL. Clinical Practice Guidelines on hepatitis delta virus. *J Hepatol*. 2023;79(2):433-460. doi:10.1016/j.jhep.2023.05.001 (PMID 37364791). — *vérifiée (audit)*.
 11. **[S11]** OMS. Position paper on hepatitis A vaccines. *Wkly Epidemiol Rec*. 2022 — *non revérifiée*.
-12. **[S12]** OMS. Guidelines for the care and treatment of persons diagnosed with chronic hepatitis C virus infection (2018) ; Updated recommendations on simplified service delivery and diagnostics of hepatitis C infection (2022) — *non revérifiées*.
-13. **[S13]** HAS. Hépatite C : prise en charge simplifiée chez l'adulte. 2019 — *non revérifiée*.
+12. **[S12]** OMS. Guidelines for the care and treatment of persons diagnosed with chronic hepatitis C virus infection (2018 ; DOC-00031) ; Updated recommendations on treatment of adolescents and children with chronic HCV infection, and HCV simplified service delivery and diagnostics (2022 ; DOC-00032). — *vérifiées (documents acquis, lus à l'audit)*.
+13. **[S13]** HAS. Hépatite C : prise en charge simplifiée chez l'adulte. 2019. https://www.has-sante.fr/jcms/c_2911891/fr/hepatite-c-prise-en-charge-simplifiee-chez-l-adulte — *vérifiée (catalogue REC-0506)*.
+14. **[S14]** Université de Batna 2. « Programme élargi de vaccination », support de cours (non officiel). — *non vérifiée (contenu vu uniquement en extrait de recherche)*.
