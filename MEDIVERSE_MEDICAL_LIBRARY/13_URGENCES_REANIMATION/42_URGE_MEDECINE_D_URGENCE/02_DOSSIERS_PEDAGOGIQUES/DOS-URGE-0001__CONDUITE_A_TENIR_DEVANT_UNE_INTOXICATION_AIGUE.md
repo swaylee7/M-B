@@ -122,7 +122,7 @@ mots_cles: [intoxication aiguë, toxidrome, antidote, paracétamol, N-acétylcys
 # Conduite à tenir devant une intoxication aiguë
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 — corrections requises (voir le bloc `audit` et le rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-109 — « Conduite à tenir devant une intoxication aiguë ».
 

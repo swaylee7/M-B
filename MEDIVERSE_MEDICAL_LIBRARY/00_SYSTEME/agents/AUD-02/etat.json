@@ -1,29 +1,29 @@
 {
   "id": "AUD-02",
-  "statut": "actif",
-  "derniere_execution": "2026-11-19T01:56:59+00:00",
+  "statut": "session_terminee",
+  "derniere_execution": "2026-11-19T01:59:21+00:00",
   "taches_terminees": [
-    "audit DOS-INFE-0001 (lot DOS-02)",
-    "audit DOS-INFE-0002 (lot DOS-02)",
-    "audit DOS-PNEU-0001 (lot DOS-02)",
-    "audit DOS-PNEU-0002 (lot DOS-02)",
-    "audit DOS-PNEU-0003 (lot DOS-02)"
+    "Audit des posologies et contre-indications DOS-CARD-0001 à 0005 et des lots QCM/cas DOS-01 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/)"
   ],
   "taches_suivantes": [
-    "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
-    "DOS-INFE-0002 : Durées formes focalisées, schémas enfant/grossesse (Ioannina, OMS 2006) ; doses cotrimoxazole/ceftriaxone ; textes algériens",
-    "DOS-PNEU-0001 : Lire l'instruction n°07/2024 et l'instruction ITL (sapp.dz) ; tranches de poids nationales et pédiatriques ; S14",
-    "DOS-PNEU-0002 : Doses céfotaxime/spiramycine/lévofloxacine, amoxicilline pédiatrique ; S10–S12",
-    "DOS-PNEU-0003 : MART 6–11 ans, doses d'exacerbation pédiatriques (GINA 2025) ; S6, S7"
+    "DOS-CARD-0001 : bromocriptine (cardiomyopathie du péripartum) — schéma ESC Grossesse à confirmer",
+    "DOS-CARD-0004 : HNF IV en attente de coronarographie (bolus et débit) — tableau ESC 2023 à confirmer",
+    "DOS-CARD-0005 : antibiothérapie probabiliste ESC 2023 ; prophylaxie secondaire du RAA (programme national algérien)",
+    "CAS-CARD-0009 : adaptation de la céfazoline/cloxacilline à l'hémodialyse"
   ],
-  "objectifs": {},
+  "objectifs": {
+    "dossiers": 5
+  },
   "compteurs": {
-    "dossiers_audites": 5,
-    "qcm_audites": 62,
-    "cas_audites": 10,
+    "marqueurs_posologie_initiaux_dossiers": 15,
+    "marqueurs_posologie_initiaux_cas": 4,
+    "marqueurs_posologie_leves_dossiers": 12,
+    "marqueurs_posologie_leves_cas": 3,
+    "marqueurs_posologie_restants_dossiers": 4,
+    "dont_marqueur_cree_par_precision": "DOS-CARD-0005 antibiothérapie probabiliste ESC 2023 (marqueur générique converti)",
+    "marqueurs_posologie_restants_cas": 1,
     "erreurs_critiques": 0,
-    "corrections": 44,
-    "marqueurs_posologie_leves": 7,
-    "recherches_web": 18
+    "erreurs_majeures": 1,
+    "corrections": 19
   }
 }

@@ -1,24 +1,47 @@
 {
   "id": "AUD-01",
-  "statut": "actif",
-  "derniere_execution": "2026-11-19T01:56:59+00:00",
+  "statut": "session_terminee",
+  "derniere_execution": "2026-11-19T01:59:21+00:00",
   "taches_terminees": [
-    "audit DOS-INFE-0001 (lot DOS-02)",
-    "audit DOS-INFE-0002 (lot DOS-02)",
-    "audit DOS-PNEU-0001 (lot DOS-02)",
-    "audit DOS-PNEU-0002 (lot DOS-02)",
-    "audit DOS-PNEU-0003 (lot DOS-02)"
+    "Audit scientifique DOS-CARD-0001 — audite_corrections_requises, 11 corrections (critiques/majeures/mineures 0/1/10)",
+    "Audit scientifique DOS-CARD-0002 — audite_valide, 10 corrections (critiques/majeures/mineures 0/0/10)",
+    "Audit scientifique DOS-CARD-0003 — audite_valide, 8 corrections (critiques/majeures/mineures 0/0/8)",
+    "Audit scientifique DOS-CARD-0004 — audite_corrections_requises, 8 corrections (critiques/majeures/mineures 0/0/8)",
+    "Audit scientifique DOS-CARD-0005 — audite_corrections_requises, 12 corrections (critiques/majeures/mineures 0/0/12)",
+    "Audit du lot QCM 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-01.json (60 QCM : 59 audite_valide, 1 audite_corrections_requises — QCM-CARD-0012)",
+    "Audit du lot cas 20_CAS_CLINIQUES/lots/DOS-01.json (10 cas : 6 corrigés ; 9 audite_valide, 1 audite_corrections_requises — CAS-CARD-0009)"
   ],
   "taches_suivantes": [
-    "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
-    "DOS-INFE-0002 : Durées formes focalisées, schémas enfant/grossesse (Ioannina, OMS 2006) ; doses cotrimoxazole/ceftriaxone ; textes algériens",
-    "DOS-PNEU-0001 : Lire l'instruction n°07/2024 et l'instruction ITL (sapp.dz) ; tranches de poids nationales et pédiatriques ; S14",
-    "DOS-PNEU-0002 : Doses céfotaxime/spiramycine/lévofloxacine, amoxicilline pédiatrique ; S10–S12",
-    "DOS-PNEU-0003 : MART 6–11 ans, doses d'exacerbation pédiatriques (GINA 2025) ; S6, S7"
+    "DOS-CARD-0001 : lire le texte intégral ESC 2026 IC (doi 10.1093/eurheartj/ehag100) — classes, ARM, GLP-1, HFimpEF, acétazolamide ; vérifier S10 (ESC 2024 FA)",
+    "DOS-CARD-0004/0005/0001 : lever les marqueurs posologiques restants (voir journal AUD-02)",
+    "DOS-CARD-0003/0005 : remplacer ou compléter les références régionales non vérifiées (Blida S7, Béni Messous S8)",
+    "Autoriser escardio.org, academic.oup.com, tctmd.com dans le réseau de la session pour permettre la lecture des textes originaux (WebFetch bloqué)",
+    "Relecture enseignant (valide_enseignant) des 5 dossiers"
   ],
-  "objectifs": {},
+  "objectifs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas": 10
+  },
   "compteurs": {
     "dossiers_audites": 5,
-    "rapports": "00_SYSTEME/agents/AUD-02/rapports/"
+    "audite_valide": 2,
+    "audite_corrections_requises": 3,
+    "corrections_total": 49,
+    "critiques": 0,
+    "majeures": 1,
+    "mineures": 48,
+    "qcm_audites": 60,
+    "qcm_corriges": 1,
+    "cas_audites": 10,
+    "cas_corriges": 6,
+    "recherches_web": 9,
+    "references_verifiees_pendant_audit": [
+      "STRONG-HF (S9 DOS-CARD-0001)",
+      "Collet ESC 2020 (S4 DOS-CARD-0004)",
+      "Moussouni 2022 (chiffres)",
+      "ESC 2026 IC (contenu, sources secondaires)",
+      "ESC/ESH 2018 aspirine pré-éclampsie"
+    ]
   }
 }

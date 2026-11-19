@@ -154,7 +154,7 @@ mots_cles: [envenimation scorpionique, scorpion, Androctonus, sérum antiscorpio
 # Morsures et envenimations
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, au guide national et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 — corrections requises (voir le bloc `audit` et le rapport). Les posologies doivent être confrontées au RCP, au guide national et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-111 — « Morsures et envenimations : diagnostic – traitement – prévention ».
 

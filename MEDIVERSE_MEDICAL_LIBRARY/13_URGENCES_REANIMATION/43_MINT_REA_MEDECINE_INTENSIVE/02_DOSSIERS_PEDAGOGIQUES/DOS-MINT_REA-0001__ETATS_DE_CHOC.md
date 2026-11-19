@@ -6,14 +6,20 @@ sous_specialite: "Défaillances circulatoires aiguës"
 items_residanat: [RES-MED-106]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-06 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-MINT_REA-0001.md
 sources:
   - id: S1
-    reference: "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026 (publication le 23 mars 2026)."
+    reference: "Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026;54(4):725-812 (publication le 23 mars 2026) ; publication simultanée : Intensive Care Med. 2026;52(5):863-936, doi:10.1007/s00134-026-08361-1 (catalogue REC-0266)."
     organisme: SCCM/ESICM (Surviving Sepsis Campaign)
     annee: 2026
     type: recommandation
@@ -138,7 +144,7 @@ mots_cles: [choc, état de choc, sepsis, choc septique, choc cardiogénique, cho
 # États de choc : hypovolémique, cardiogénique, septique et anaphylactique
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 — corrections requises (voir le bloc `audit` et le rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-106 — « États de chocs : hypovolémique, cardiogénique, septique et anaphylactique : définitions – classification – diagnostic – évolution – traitement ».
 
@@ -308,7 +314,7 @@ La classification en **grades I à IV** (Ring et Messmer), très utilisée en Fr
 
 ### 8.3 Particularités diagnostiques
 
-- **Sepsis** : le **qSOFA** (fréquence respiratoire ≥ 22/min, altération de la conscience, PAS ≤ 100 mmHg) ne doit pas être utilisé **seul** comme outil de dépistage ; la SSC 2021 le déconseillait déjà comme outil unique, et la SSC 2026 préfère des scores d'alerte (NEWS, MEWS) ou les critères de SIRS pour le dépistage des patients hospitalisés [S1, S2].
+- **Sepsis** : le **qSOFA** (fréquence respiratoire ≥ 22/min, altération de la conscience, PAS ≤ 100 mmHg) ne doit pas être utilisé **seul** comme outil de dépistage ; la SSC 2021 le déconseillait déjà comme outil unique, et la SSC 2026 recommande (recommandation forte, certitude modérée) d'utiliser plutôt NEWS/NEWS2, MEWS ou les critères de SIRS pour le dépistage des adultes hospitalisés [S1, S2].
 - **Anaphylaxie** : diagnostic **clinique**, très probable devant (1) une atteinte cutanéo-muqueuse aiguë associée à une atteinte respiratoire, une hypotension ou des signes digestifs sévères, ou (2) une hypotension, un bronchospasme ou une atteinte laryngée aiguë après exposition à un allergène connu ou très probable — **même sans signe cutané**, absents dans une proportion non négligeable des formes graves [S6].
 - **Choc cardiogénique** : l'ECG doit être réalisé dans les 10 minutes ; tout choc cardiogénique impose de rechercher une cause coronaire [S9, S11].
 - **Choc hémorragique** : penser aux saignements « cachés » (rétropéritoine, bassin, cuisses, thorax, abdomen) ; l'hémoglobine initiale peut être faussement rassurante avant hémodilution.
@@ -411,22 +417,22 @@ La **pression veineuse centrale isolée** ne prédit pas la réponse au rempliss
 | Gélatines | Non suggérées dans le sepsis [S2] | Anaphylaxie possible |
 | **Produits sanguins** | Choc hémorragique (concentrés érythrocytaires, plasma, plaquettes, fibrinogène) [S12] | Protocoles de transfusion massive |
 
-**Principe** : remplissage **par bolus** (par exemple 250–500 mL de cristalloïde chez l'adulte), **réévalué après chaque bolus** (clinique, échographie, tests dynamiques), arrêté dès que le patient n'est plus répondeur ou que des signes de surcharge apparaissent. Dans le choc septique avec hypoperfusion, la SSC suggère **au moins 30 mL/kg de cristalloïdes dans les 3 premières heures** [S1, S2].
+**Principe** : remplissage **par bolus** (par exemple 250–500 mL de cristalloïde chez l'adulte), **réévalué après chaque bolus** (clinique, échographie, tests dynamiques), arrêté dès que le patient n'est plus répondeur ou que des signes de surcharge apparaissent. Dans le choc septique avec hypoperfusion, la SSC suggère **au moins 30 mL/kg de cristalloïdes dans les 3 premières heures** (suggestion maintenue en 2026, certitude faible ; poids ajusté ou idéal si IMC > 30) [S1, S2].
 
 #### c) Catécholamines et vasopresseurs
 
 | Molécule | Récepteurs / effets | Indications principales | Posologie indicative (adulte) |
 |---|---|---|---|
-| **Noradrénaline** | α1 +++ (vasoconstriction artérielle et veineuse), β1 + | **Vasopresseur de première intention** du choc septique [S1, S2] ; vasopresseur préféré dans le choc cardiogénique hypotensif [S9, S10] | Débutée à faible dose puis titrée sur la PAM (ordre de grandeur 0,05–0,1 µg/kg/min au départ) — [POSOLOGIE À VÉRIFIER — protocole local] ; débutable sur voie veineuse périphérique de bon calibre en attendant la voie centrale [S2] |
+| **Noradrénaline** | α1 +++ (vasoconstriction artérielle et veineuse), β1 + | **Vasopresseur de première intention** du choc septique [S1, S2] ; vasopresseur préféré dans le choc cardiogénique hypotensif [S9, S10] | Débutée à faible dose puis titrée sur la PAM (ordre de grandeur 0,05–0,1 µg/kg/min au départ) — [POSOLOGIE À VÉRIFIER — protocole local] ; attention : les doses s'expriment selon les pays en noradrénaline **base** ou en **tartrate** (facteur d'environ 2), source d'erreurs entre protocoles ; débutable sur voie veineuse périphérique de bon calibre en attendant la voie centrale [S2] |
 | **Adrénaline** | α1, β1, β2 | **Anaphylaxie** (IM en première intention) [S5, S6] ; choc septique en complément quand la PAM reste insuffisante malgré noradrénaline et vasopressine [S1] ; arrêt cardiaque | IM : **0,01 mg/kg** de la solution à 1 mg/mL, **maximum 0,5 mg chez l'adulte** (0,3 mg chez l'enfant), face antérolatérale de la cuisse, renouvelable après 5 min [S5, S6] ; perfusion IV titrée en milieu surveillé [POSOLOGIE À VÉRIFIER — protocole local] |
-| **Dobutamine** | β1 (inotrope), β2 | Bas débit avec hypoperfusion persistante (choc cardiogénique, dysfonction myocardique septique) [S2, S9, S10] | 2,5 à 20 µg/kg/min — [POSOLOGIE À VÉRIFIER — RCP] |
+| **Dobutamine** | β1 (inotrope), β2 | Bas débit avec hypoperfusion persistante (choc cardiogénique, dysfonction myocardique septique) [S2, S9, S10] | 2 à 20 µg/kg/min en perfusion continue, sans bolus (tableau des inotropes de l'ESC 2021 [S10]), titrée sur la perfusion tissulaire |
 | **Vasopressine** | Récepteurs V1 | Ajout dans le choc septique quand les doses de noradrénaline augmentent [S1, S2] | 0,03 U/min dans les essais de référence [S2] ; disponibilité variable selon les pays [À VÉRIFIER — Algérie] |
 | Dopamine | Effets dose-dépendants | **Non recommandée** en première intention (arythmies) [S1, S2, S10] | — |
 | Lévosimendan, inhibiteurs de phosphodiestérase | Inotropes non adrénergiques | Choc cardiogénique sélectionné (patient sous bêtabloquant) ; **non suggérés** dans le choc septique [S2, S10] | Selon RCP |
 
 #### d) Corticoïdes
 
-Dans le choc septique nécessitant des doses croissantes de vasopresseurs, la SSC 2021 suggère l'**hydrocortisone 200 mg/j** (50 mg IV toutes les 6 heures ou en perfusion continue) lorsque la noradrénaline (ou l'adrénaline) atteint au moins 0,25 µg/kg/min depuis au moins 4 heures [S2] ; la SSC 2026 maintient une suggestion en faveur des corticoïdes IV, avec un niveau de certitude abaissé à « faible » [S1]. Dans l'anaphylaxie, les corticoïdes **ne sont pas un traitement de première ligne** et ne doivent jamais retarder l'adrénaline [S5].
+Dans le choc septique nécessitant des doses croissantes de vasopresseurs, la SSC 2021 suggère l'**hydrocortisone 200 mg/j** (50 mg IV toutes les 6 heures ou en perfusion continue), débutée lorsque la dose de noradrénaline (ou d'adrénaline) est ≥ 0,25 µg/kg/min au moins 4 heures après le début du vasopresseur [S2] ; la SSC 2026 maintient une suggestion en faveur des corticoïdes IV, avec un niveau de certitude abaissé à « faible » [S1]. Dans l'anaphylaxie, les corticoïdes **ne sont pas un traitement de première ligne** et ne doivent jamais retarder l'adrénaline [S5].
 
 #### e) Traitement étiologique par type de choc
 
@@ -613,9 +619,9 @@ Hypoperfusion + dysfonction cardiaque (ECG, écho, troponine)
 1. *Sur quels critères retenez-vous un choc septique ?* — Infection avec dysfonctions d'organes, nécessité de noradrénaline pour une PAM ≥ 65 mmHg et lactate > 2 mmol/L malgré un remplissage adéquat (Sepsis-3).
 2. *Quel est le geste étiologique prioritaire en dehors des antibiotiques ?* — Le drainage en urgence des urines infectées en amont de l'obstacle (contrôle de la source).
 3. *Pourquoi débuter la noradrénaline avant la fin du remplissage ?* — Une PAM très basse prolongée aggrave l'hypoperfusion ; la noradrénaline peut être débutée tôt, sur voie périphérique, pendant que le remplissage se poursuit et en attendant la voie centrale.
-4. *Quand introduire l'hydrocortisone ?* — Quand la noradrénaline atteint au moins 0,25 µg/kg/min depuis au moins 4 heures (SSC 2021 ; certitude jugée faible en 2026).
+4. *Quand introduire l'hydrocortisone ?* — Quand la dose de noradrénaline est ≥ 0,25 µg/kg/min au moins 4 heures après le début du vasopresseur (SSC 2021 ; suggestion maintenue en 2026 avec une certitude jugée faible).
 
-**Commentaire pédagogique.** Ce cas réunit les éléments de la première heure du choc septique : reconnaissance (hypotension, marbrures, lactate), hémocultures sans retard, antibiothérapie dans l'heure, remplissage par cristalloïdes équilibrés, noradrénaline précoce (y compris sur voie périphérique) et surtout contrôle de la source : un obstacle urinaire infecté doit être drainé en urgence, aucun antibiotique ne le remplace. L'hydrocortisone est suggérée lorsque les besoins en noradrénaline dépassent 0,25 µg/kg/min depuis au moins 4 heures.
+**Commentaire pédagogique.** Ce cas réunit les éléments de la première heure du choc septique : reconnaissance (hypotension, marbrures, lactate), hémocultures sans retard, antibiothérapie dans l'heure, remplissage par cristalloïdes équilibrés, noradrénaline précoce (y compris sur voie périphérique) et surtout contrôle de la source : un obstacle urinaire infecté doit être drainé en urgence, aucun antibiotique ne le remplace. L'hydrocortisone est suggérée lorsque les besoins en noradrénaline atteignent 0,25 µg/kg/min ou plus, au moins 4 heures après le début du vasopresseur.
 
 > Un second cas clinique de l'item (CAS-MINT_REA-0002) figure dans le lot structuré `20_CAS_CLINIQUES/lots/DOS-06.json`.
 
@@ -781,11 +787,11 @@ Hypoperfusion + dysfonction cardiaque (ECG, écho, troponine)
 - E : Faux : davantage d'arythmies ; non recommandée en première intention.
 - *Piège* : Retarder l'antibiothérapie pour obtenir des examens.
 
-**QCM 6 — réponse(s) : A, B, C.** Devant des doses croissantes de noradrénaline, la SSC suggère d'ajouter la vasopressine, puis l'adrénaline si la PAM reste insuffisante. L'hydrocortisone (200 mg/j) est suggérée lorsque la noradrénaline atteint au moins 0,25 µg/kg/min depuis au moins 4 heures. Le lévosimendan n'est pas suggéré ; le bicarbonate n'est pas indiqué pour une acidose lactique avec pH ≥ 7,20.
+**QCM 6 — réponse(s) : A, B, C.** Devant des doses croissantes de noradrénaline, la SSC suggère d'ajouter la vasopressine, puis l'adrénaline si la PAM reste insuffisante. L'hydrocortisone (200 mg/j) est suggérée lorsque la noradrénaline atteint au moins 0,25 µg/kg/min, au moins 4 heures après le début du vasopresseur. Le lévosimendan n'est pas suggéré ; le bicarbonate n'est pas indiqué pour une acidose lactique avec pH ≥ 7,20.
 
 - A : Vrai : suggestion de la SSC (0,03 U/min dans les essais de référence).
 - B : Vrai : critères de dose et de durée remplis ; certitude jugée faible en 2026.
-- C : Vrai : suggestion de la SSC 2026.
+- C : Vrai : suggestion de la SSC 2021, maintenue en 2026 (niveau de recommandation abaissé).
 - D : Faux : non suggéré dans le choc septique ; ce n'est pas un vasopresseur.
 - E : Faux : bicarbonate réservé à l'acidose métabolique sévère (pH ≤ 7,20) avec insuffisance rénale aiguë.
 - *Piège* : Corriger une hyperlactatémie par du bicarbonate.
@@ -830,10 +836,10 @@ Hypoperfusion + dysfonction cardiaque (ECG, écho, troponine)
 
 | Question | Position A | Position B | Commentaire |
 |---|---|---|---|
-| Dépistage du sepsis | **SSC 2021** : contre l'usage du qSOFA comme outil de dépistage **unique** [S2] | **SSC 2026** : préfère NEWS, MEWS ou SIRS au qSOFA pour le dépistage des patients hospitalisés [S1] | Continuité, avec une orientation plus explicite vers les scores d'alerte en 2026 |
-| Corticoïdes dans le choc septique | **SSC 2021** : hydrocortisone suggérée si noradrénaline ≥ 0,25 µg/kg/min ≥ 4 h, certitude modérée [S2] | **SSC 2026** : suggestion maintenue, **certitude abaissée à faible** [S1] | Bénéfice surtout sur la durée du choc ; effet sur la mortalité incertain |
-| Volume initial du remplissage | **SSC 2021** : au moins 30 mL/kg dans les 3 h (suggestion, faible niveau de preuve) [S2] | **SSC 2026** : formulation similaire (suggestion) ; plusieurs équipes privilégient une approche plus individualisée guidée par les tests de réponse au remplissage [S1, S4] | Ne pas appliquer mécaniquement chez l'insuffisant cardiaque ou rénal |
-| Vasopresseur en cas de dysfonction cardiaque septique | **SSC 2021** : ajouter la dobutamine ou passer à l'adrénaline si hypoperfusion persistante [S2] | **SSC 2026** : noradrénaline **ou** adrénaline en première intention ; noradrénaline préférée en cas de tachyarythmie [S1] | Évolution 2026 |
+| Dépistage du sepsis | **SSC 2021** : contre l'usage du qSOFA comme outil de dépistage **unique** [S2] | **SSC 2026** : recommande NEWS/NEWS2, MEWS ou SIRS plutôt que le qSOFA comme outil unique de dépistage des adultes hospitalisés (recommandation forte, certitude modérée) [S1] | Continuité, avec une orientation plus explicite vers les scores d'alerte en 2026 |
+| Corticoïdes dans le choc septique | **SSC 2021** : hydrocortisone suggérée si noradrénaline ≥ 0,25 µg/kg/min au moins 4 h après le début du vasopresseur, certitude modérée [S2] | **SSC 2026** : suggestion maintenue, **certitude abaissée à faible** [S1] | Bénéfice surtout sur la durée du choc ; effet sur la mortalité incertain |
+| Volume initial du remplissage | **SSC 2021** : au moins 30 mL/kg dans les 3 h (suggestion, faible niveau de preuve) [S2] | **SSC 2026** : suggestion maintenue (au moins 30 mL/kg dans les 3 h, certitude faible ; poids ajusté ou idéal si IMC > 30) ; plusieurs équipes privilégient une approche plus individualisée guidée par les tests de réponse au remplissage [S1, S4] | Ne pas appliquer mécaniquement chez l'insuffisant cardiaque ou rénal |
+| Vasoactifs en cas de dysfonction cardiaque septique | **SSC 2021** : ajouter la dobutamine à la noradrénaline ou passer à l'adrénaline seule si hypoperfusion persistante malgré volémie et PA adéquates [S2] | **SSC 2026** : même suggestion (dobutamine ajoutée à la noradrénaline ou adrénaline seule), certitude très faible ; la noradrénaline reste le vasopresseur de première intention (suggestion, désormais de force abaissée) [S1] | Continuité ; correction d'audit : la SSC 2026 ne place pas l'adrénaline au même rang que la noradrénaline en première intention chez l'adulte |
 | Choix du vasopresseur dans le choc cardiogénique | **ESC 2021** : vasopresseur, de préférence noradrénaline, si hypotension ; inotropes réservés au bas débit avec hypoperfusion [S10] | **Experts francophones 2015** : noradrénaline et dobutamine en première intention, prise en charge en centre expert [S9] | Convergence sur la noradrénaline et la dobutamine ; place de l'adrénaline discutée |
 | Assistance circulatoire | **DanGer Shock 2024** : bénéfice de survie de la pompe microaxiale dans le choc de l'infarctus avec sus-décalage de ST [S8] | Recommandations antérieures (ESC 2021) sans recommandation forte en faveur d'une assistance systématique ; ECLS-SHOCK négatif pour l'ECMO [S10, S15] | Niveau de preuve en évolution : seule une population sélectionnée bénéficie |
 | Corticoïdes et antihistaminiques dans l'anaphylaxie | **EAACI 2021** : pas en première ligne, les corticoïdes ne préviennent pas de façon démontrée les réactions biphasiques [S5] | Pratiques françaises plus anciennes associant systématiquement corticoïdes et antihistaminiques [S14 — non vérifiée] | L'adrénaline IM reste le seul traitement de première ligne |
@@ -842,7 +848,7 @@ Hypoperfusion + dysfonction cardiaque (ECG, écho, troponine)
 
 ## 22. Références
 
-1. [S1] Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026. doi:10.1097/CCM.0000000000007075. — *vérifiée (publication le 23/03/2026 ; texte intégral non consulté, recommandations citées d'après les extraits officiels SCCM)*.
+1. [S1] Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026;54(4):725-812. doi:10.1097/CCM.0000000000007075 ; Intensive Care Med. 2026;52(5):863-936. — *vérifiée (publication le 23/03/2026 ; texte intégral non consulté, recommandations citées d'après les résumés officiels SCCM/ESICM et des synthèses secondaires)*.
 2. [S2] Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign 2021. Intensive Care Med. 2021;47(11):1181-1247 ; Crit Care Med. 2021;49(11):e1063-e1143. — *vérifiée*.
 3. [S3] Singer M, Deutschman CS, Seymour CW, et al. Sepsis-3. JAMA. 2016;315(8):801-810. doi:10.1001/jama.2016.0287. — *vérifiée*.
 4. [S4] Cecconi M, De Backer D, Antonelli M, et al. Consensus on circulatory shock and hemodynamic monitoring (ESICM). Intensive Care Med. 2014;40(12):1795-1815. doi:10.1007/s00134-014-3525-z. — *vérifiée*.

@@ -6,28 +6,34 @@ sous_specialite: "Infectiologie néonatale"
 items_residanat: [RES-MED-081]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0002.md
 sources:
   - id: S1
-    reference: "Haute Autorité de santé. Prise en charge du risque infectieux néonatal bactérien précoce (≥ 34 SA). Recommandation de bonne pratique. Saint-Denis : HAS ; septembre 2017."
-    organisme: HAS
+    reference: "Société française de néonatologie, Société française de pédiatrie. Prise en charge du nouveau-né à risque d'infection néonatale bactérienne précoce (≥ 34 SA). Recommandation de bonne pratique, septembre 2017, ayant reçu le label méthodologique de la HAS (décision n° 2017.0098/DC/SBPP du 12 juillet 2017) ; actualise les recommandations ANAES 2002. Existence confirmée par recherche web (audit AUD-01) ; désignée « HAS 2017 » dans le texte."
+    organisme: SFN/SFP (label HAS)
     annee: 2017
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.has-sante.fr/jcms/c_2803349/"
+    verifiee: true
   - id: S2
-    reference: "National Institute for Health and Care Excellence. Neonatal infection: antibiotics for prevention and treatment. NICE guideline NG195. Londres : NICE ; avril 2021 (remplace CG149, 2012 ; mises à jour ultérieures possibles)."
+    reference: "National Institute for Health and Care Excellence. Neonatal infection: antibiotics for prevention and treatment. NICE guideline NG195. Londres : NICE ; avril 2021 (remplace CG149, 2012 ; mises à jour ultérieures). Existence, posologies de benzylpénicilline et de gentamicine et liste des drapeaux rouges confirmées par recherche web (audit AUD-01)."
     organisme: NICE
     annee: 2021
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.nice.org.uk/guidance/ng195"
+    verifiee: true
   - id: S3
     reference: "Puopolo KM, Benitz WE, Zaoutis TE; Committee on Fetus and Newborn; Committee on Infectious Diseases. Management of neonates born at ≥35 0/7 weeks' gestation with suspected or proven early-onset bacterial sepsis. Pediatrics. 2018;142(6):e20182894."
     organisme: AAP
@@ -69,21 +75,21 @@ sources:
     url: ""
     verifiee: false
   - id: S8
-    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children. 2e éd. Genève : OMS ; 2013 (chapitre 3 : problèmes du nouveau-né et du jeune nourrisson)."
+    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children. 2e éd. Genève : OMS ; 2013 (chapitre 3 : problèmes du nouveau-né et du jeune nourrisson ; section 3.14, doses des médicaments usuels du nouveau-né). ISBN 978 92 4 154837 3. Document acquis DOC-00063 (stockage local) — texte lu par l'audit."
     organisme: OMS
     annee: 2013
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S9
-    reference: "Organisation mondiale de la Santé. Guideline: managing possible serious bacterial infection in young infants when referral is not feasible. Genève : OMS ; 2015."
+    reference: "Organisation mondiale de la Santé. Guideline: managing possible serious bacterial infection in young infants when referral is not feasible. Genève : OMS ; 2015. (Existence confirmée par DOC-00052 ; recommandations ACTUALISÉES par [S15] en 2024.)"
     organisme: OMS
     annee: 2015
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S10
     reference: "Shane AL, Sánchez PJ, Stoll BJ. Neonatal sepsis. Lancet. 2017;390(10104):1770-1780."
     organisme: ""
@@ -93,13 +99,13 @@ sources:
     url: ""
     verifiee: false
   - id: S11
-    reference: "Kimberlin DW, Lin CY, Jacobs RF, et al. Safety and efficacy of high-dose intravenous acyclovir in the management of neonatal herpes simplex virus infections. Pediatrics. 2001;108(2):230-238."
+    reference: "Kimberlin DW, Lin CY, Jacobs RF, et al. Safety and efficacy of high-dose intravenous acyclovir in the management of neonatal herpes simplex virus infections. Pediatrics. 2001;108(2):230-238. PMID 11483782 (existence et schéma 60 mg/kg/j en 3 doses confirmés par recherche web, audit AUD-01)."
     organisme: ""
     annee: 2001
     type: article
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://pubmed.ncbi.nlm.nih.gov/11483782/"
+    verifiee: true
   - id: S12
     reference: "Ministère de la Santé, de la Population et de la Réforme hospitalière (Algérie). Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018 (BCG et hépatite B à la naissance ; rotavirus absent du calendrier). Document acquis DOC-00070 (texte lu) ; complété par l'arrêté du 28 avril 2026, JORADP n° 36 du 17 mai 2026 (DOC-00071)."
     organisme: MSPRH
@@ -124,6 +130,22 @@ sources:
     doi: ""
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2022/F2022047.pdf"
     verifiee: true
+  - id: S15
+    reference: "Organisation mondiale de la Santé. WHO recommendations for management of serious bacterial infections in infants aged 0–59 days. Genève : OMS ; 2024. ISBN 978-92-4-010290-3. Document acquis DOC-00052 (texte lu par l'audit)."
+    organisme: OMS
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: true
+  - id: S16
+    reference: "Organisation mondiale de la Santé, UNICEF. Integrated management of childhood illness: management of the sick young infant aged up to 2 months — IMCI chart booklet. Genève : OMS ; 2019. Documents acquis DOC-00034 (anglais) et DOC-00060 (français) — texte lu par l'audit."
+    organisme: OMS/UNICEF
+    annee: 2019
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [infection néonatale, sepsis néonatal, infection néonatale précoce, infection tardive, streptocoque du groupe B, Escherichia coli K1, Listeria, méningite néonatale, CRP, procalcitonine, amoxicilline, gentamicine, céfotaxime, antibioprophylaxie per partum, calculateur de Kaiser, herpès néonatal]
 ---
 
@@ -132,6 +154,7 @@ mots_cles: [infection néonatale, sepsis néonatal, infection néonatale précoc
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, aux protocoles du service et à l'écologie bactérienne locale avant usage clinique.
 > **Avertissement de vérification (19/11/2026)** : le budget de recherche web de la session était épuisé avant la vérification des références de ce dossier ; toutes les sources internationales sont `verifiee: false`. Les posologies néonatales dépendent de l'âge gestationnel, de l'âge postnatal et du poids : toutes les doses citées sont accompagnées de la mention **[POSOLOGIE À VÉRIFIER]** et doivent être contrôlées par l'agent d'audit des posologies (AUD-02).
+> **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : posologies d'ampicilline/amoxicilline, gentamicine, céfotaxime et glucosé confrontées au Pocket book OMS 2013 (DOC-00063) et aux recommandations OMS 2024 (DOC-00052) ; benzylpénicilline, gentamicine et drapeaux rouges NICE NG195, aciclovir (Kimberlin 2001) et RBP SFN/SFP 2017 vérifiés par recherche web. Les marqueurs levés le sont avec leur source ; ceux qui restent concernent des doses non vérifiées (doses méningées, vancomycine, carbapénèmes, antifongiques, amines, antibioprophylaxie obstétricale). Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0002.md`.
 
 **Items du programme couverts** : RES-MED-081 — « Infections néonatales : Diagnostic - prévention - traitement ».
 
@@ -268,7 +291,7 @@ D'après la HAS (2017) [S1], NICE (2021) [S2] et l'AAP (2018) [S3] — les formu
 | **Fièvre maternelle** ≥ 38 °C pendant le travail ou dans les 2 heures suivant l'accouchement, **chorioamniotite** (« triple I ») | Facteur le plus fortement associé |
 | **Rupture prolongée des membranes** (≥ 12 h selon la HAS [S1] ; ≥ 18 h selon le CDC et l'AAP [S3, S6]) | **[seuils À VÉRIFIER]** |
 | **Prématurité spontanée** (< 37 SA), surtout avec rupture prématurée des membranes | Risque majeur chez le grand prématuré |
-| **Infection bactérienne invasive maternelle** (septicémie) dans les 24 heures avant ou après la naissance | « Drapeau rouge » NICE [S2] |
+| **Infection bactérienne invasive maternelle** (septicémie) traitée par antibiotiques parentéraux pendant le travail ou dans les 24 heures avant ou après la naissance | Facteur de risque fort ; classé parmi les « autres » facteurs (et non parmi les drapeaux rouges) dans NICE NG195 [S2] |
 | **Infection confirmée ou suspectée chez un jumeau** | « Drapeau rouge » NICE [S2] |
 | Anomalies du rythme cardiaque fœtal, liquide méconial, Apgar bas sans cause évidente | Facteurs mineurs ou discutés |
 
@@ -307,7 +330,7 @@ Voir §1 (précoce < 72 h / tardive ≥ 72 h ; materno-fœtale, nosocomiale, com
 | **Surveillance clinique renforcée / standardisée** | Examen clinique répété et standardisé du nouveau-né asymptomatique à risque pendant les 48 premières heures ; antibiothérapie si signes | [S1, S3] |
 | **NICE : « drapeaux rouges » et autres indicateurs** | 1 drapeau rouge ou ≥ 2 autres facteurs → hémoculture et antibiotiques ; 1 autre facteur → surveillance clinique 12 heures | [S2] |
 
-**Drapeaux rouges NICE** (à titre indicatif, formulation à vérifier [S2]) : chez la mère, infection bactérienne invasive suspectée ou confirmée (septicémie) traitée par antibiotiques parentéraux dans les 24 heures avant ou après la naissance ; infection chez un autre bébé (grossesse multiple) ; chez le bébé, **convulsions**, **signes de choc**, **besoin de ventilation mécanique chez un nouveau-né à terme**, **détresse respiratoire débutant plus de 4 heures après la naissance**.
+**Drapeaux rouges NICE NG195** [S2] : facteur de risque « drapeau rouge » — **infection suspectée ou confirmée chez un autre bébé** (grossesse multiple) ; indicateurs cliniques « drapeaux rouges » chez le bébé — **apnée**, **convulsions**, **besoin de réanimation cardiopulmonaire**, **besoin de ventilation mécanique**, **signes de choc**. *(La liste antérieure de CG149, 2012 — détresse respiratoire débutant plus de 4 heures après la naissance, ventilation mécanique chez un nouveau-né à terme, infection invasive maternelle — est remplacée ; l'infection invasive maternelle figure désormais parmi les « autres » facteurs.)*
 
 ## 8. Diagnostic positif — clinique
 
@@ -330,7 +353,7 @@ Troubles hémodynamiques persistants (TRC > 3 s, hypotension, tachycardie > 180/
 
 ### 8.3 Signes de « maladie grave » chez le jeune nourrisson selon l'OMS (PCIME)
 
-Dans les contextes de soins primaires, l'OMS considère comme signes d'**infection bactérienne grave possible** (PSBI) chez le nourrisson de 0 à 59 jours : **ne s'alimente pas bien**, **convulsions**, **respiration rapide** (≥ 60/min), **tirage sous-costal marqué**, **température ≥ 37,5 °C ou < 35,5 °C**, **ne bouge que lorsqu'on le stimule** (ou ne bouge pas du tout) [S8, S9] **[formulation exacte À VÉRIFIER]** → référence en urgence et antibiothérapie parentérale.
+Dans les contextes de soins primaires, l'OMS (algorithme PCIME « à 7 signes ») considère comme signes d'**infection bactérienne grave possible** (PSBI) chez le nourrisson de 0 à 59 jours : **ne s'alimente pas bien** (ou pas du tout), **convulsions**, **respiration rapide (≥ 60/min) chez le nourrisson de 0 à 6 jours**, **tirage sous-costal marqué**, **température ≥ 38 °C** ou **< 35,5 °C**, **ne bouge que lorsqu'on le stimule** (ou ne bouge pas du tout) [S15, S16] → référence en urgence et antibiothérapie parentérale. Les signes de **maladie critique** (incapacité totale à s'alimenter, absence totale de mouvement, convulsions) imposent la référence ; si elle est impossible : ampicilline + gentamicine pendant au moins 10 jours [S15]. *(Les versions antérieures de la PCIME retenaient un seuil de 37,5 °C.)*
 
 ### 8.4 Formes localisées : orientation clinique
 
@@ -444,7 +467,7 @@ La **syphilis** (maladie à déclaration obligatoire [S14]) se dépiste chez la 
 
 - **Voies aériennes et ventilation** : oxygénothérapie ciblée, ventilation non invasive ou invasive selon la détresse.
 - **Hémodynamique** : remplissage par **NaCl 0,9 % 10 à 20 mL/kg** en 10–20 minutes, renouvelable avec prudence (risque de surcharge), puis **amines** (adrénaline, dopamine, noradrénaline selon le tableau et le protocole) **[POSOLOGIE À VÉRIFIER — protocole de réanimation néonatale]**.
-- **Glycémie** : correction de l'hypoglycémie (glucosé 10 %, 2 mL/kg en bolus puis perfusion **[POSOLOGIE À VÉRIFIER]**) ; apports glucidiques continus.
+- **Glycémie** : correction de l'hypoglycémie (< 2,2 mmol/L selon l'OMS) par **glucosé 10 %, 2 mL/kg IV**, puis perfusion continue de glucosé 10 % (de l'ordre de 5 mL/kg/h selon l'OMS) [S8] ; apports glucidiques continus ; contrôles glycémiques réguliers.
 - **Thermorégulation** : incubateur, normothermie.
 - **Hémostase** : plasma, plaquettes, vitamine K selon le bilan.
 - **Nutrition** : maintien du lait maternel dès que possible (colostrum, alimentation trophique).
@@ -453,13 +476,13 @@ La **syphilis** (maladie à déclaration obligatoire [S14]) se dépiste chez la 
 
 | Molécule | Spectre utile | Posologie indicative (nouveau-né à terme, 1ʳᵉ semaine) | Remarques |
 |---|---|---|---|
-| **Amoxicilline / ampicilline** | SGB, *Listeria*, entérocoques, *E. coli* sensibles | **50 mg/kg/dose** toutes les 12 h la 1ʳᵉ semaine (rythme raccourci ensuite) ; **doses plus élevées en cas de méningite** (de l'ordre de 100 mg/kg/dose) [S1, S8] **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | Base de l'antibiothérapie probabiliste de l'infection précoce en France et selon l'OMS |
-| **Benzylpénicilline** (pénicilline G) | SGB, streptocoques | **25 mg/kg/dose** toutes les 12 h, rapprochée à toutes les 8 h si l'enfant est très malade (NICE) [S2] **[POSOLOGIE À VÉRIFIER]** | Choix de première ligne de NICE (avec la gentamicine) |
-| **Gentamicine** (aminoside) | Bacilles à Gram négatif, synergie sur SGB et *Listeria* | NICE : **5 mg/kg toutes les 36 h** [S2] ; OMS : **5 mg/kg toutes les 24 h** chez le nouveau-né à terme la 1ʳᵉ semaine (3 mg/kg chez le petit poids de naissance) [S8] ; HAS : schéma à vérifier [S1] **[POSOLOGIE À VÉRIFIER]** | Surveillance des **concentrations résiduelles** (néphro- et ototoxicité) ; durée courte (souvent 48 h à 5 jours selon le contexte) |
-| **Céfotaxime** (C3G) | Entérobactéries (non BLSE), SGB ; **inactif sur *Listeria* et entérocoques** | **50 mg/kg/dose** toutes les 12 h la 1ʳᵉ semaine (toutes les 8 h ensuite) ; **posologies majorées en cas de méningite** **[POSOLOGIE À VÉRIFIER]** | Indiqué si méningite suspectée/prouvée, sepsis grave, bacilles à Gram négatif ; la **ceftriaxone** est **évitée** chez le nouveau-né ictérique (déplacement de la bilirubine) et **contre-indiquée** avec les perfusions calciques |
+| **Amoxicilline / ampicilline** | SGB, *Listeria*, entérocoques, *E. coli* sensibles | **50 mg/kg/dose IV/IM toutes les 12 h la 1ʳᵉ semaine, toutes les 8 h ensuite** (OMS 2013 et 2024) [S8, S15] ; **méningite** : l'OMS 2024 garde 50 mg/kg/dose (même rythme) pendant ≥ 3 semaines [S15], alors que de nombreux protocoles utilisent des doses méningées plus élevées (de l'ordre de 100 mg/kg/dose) **[POSOLOGIE À VÉRIFIER — dose méningée ; RCP / protocole local]** | Base de l'antibiothérapie probabiliste de l'infection précoce en France et selon l'OMS |
+| **Benzylpénicilline** (pénicilline G) | SGB, streptocoques | NICE : **25 mg/kg/dose toutes les 12 h**, rapprochée à toutes les 8 h sur jugement clinique (enfant très malade) [S2] ; OMS : **50 000 UI/kg/dose** toutes les 12 h la 1ʳᵉ semaine, toutes les 6 h ensuite [S8] | Choix de première ligne de NICE (avec la gentamicine) |
+| **Gentamicine** (aminoside) | Bacilles à Gram négatif, synergie sur SGB et *Listeria* | NICE : **5 mg/kg**, 2ᵉ dose **36 h** après la première (rythme hors AMM signalé par NICE), adaptée à la concentration résiduelle [S2] ; OMS : **5 mg/kg toutes les 24 h** la 1ʳᵉ semaine chez le nouveau-né de poids normal (**3 mg/kg/24 h** chez le petit poids de naissance), **7,5 mg/kg/24 h** après la 1ʳᵉ semaine [S8, S15] ; schéma de la RBP française à confronter au texte [S1] | Surveillance des **concentrations résiduelles** (néphro- et ototoxicité) ; durée courte (souvent 48 h à 5 jours selon le contexte) |
+| **Céfotaxime** (C3G) | Entérobactéries (non BLSE), SGB ; **inactif sur *Listeria* et entérocoques** | **50 mg/kg/dose** ; rythme selon l'âge et le terme : toutes les 12 h la 1ʳᵉ semaine puis toutes les 6 h (OMS 2024, méningite) [S15] — le tableau du Pocket book 2013 indique toutes les 12 h chez le prématuré, toutes les 8 h la 1ʳᵉ semaine chez le nouveau-né à terme, toutes les 6 h de 2 à 4 semaines [S8] ; **posologies majorées en cas de méningite** dans de nombreux protocoles **[POSOLOGIE À VÉRIFIER — dose méningée]** | Indiqué si méningite suspectée/prouvée, sepsis grave, bacilles à Gram négatif ; la **ceftriaxone** est **évitée** chez le nouveau-né ictérique (déplacement de la bilirubine) et **contre-indiquée** avec les perfusions calciques |
 | **Vancomycine** | Staphylocoques résistants à la méticilline (SCN, SARM) | Selon l'âge postnatal et le poids, avec dosages **[POSOLOGIE À VÉRIFIER]** | Infections tardives sur cathéter |
 | **Carbapénèmes** (méropénem) | Entérobactéries BLSE | Selon protocole **[POSOLOGIE À VÉRIFIER]** | Réservés aux germes multirésistants documentés ou à l'écologie locale |
-| **Aciclovir** | HSV | **20 mg/kg toutes les 8 h IV**, **14 jours** (forme cutanéo-oculo-buccale) ou **21 jours** (formes neurologique et disséminée) [S11] **[POSOLOGIE À VÉRIFIER]** | Adapter à la fonction rénale ; hydratation |
+| **Aciclovir** | HSV | **20 mg/kg toutes les 8 h IV** (60 mg/kg/j), **21 jours** dans les formes neurologique et disséminée (schéma de l'essai [S11]) ; **14 jours** dans la forme cutanéo-oculo-buccale (recommandations ultérieures fondées sur cet essai) | Adapter à la fonction rénale ; hydratation ; **surveillance des neutrophiles** (neutropénie chez environ un cinquième des enfants traités dans l'essai) |
 | **Fluconazole / amphotéricine B** | *Candida* | Selon protocole **[POSOLOGIE À VÉRIFIER]** | Retirer le cathéter infecté |
 
 ### 13.3 Stratégie
@@ -468,10 +491,10 @@ La **syphilis** (maladie à déclaration obligatoire [S14]) se dépiste chez la 
 
 | Situation | HAS 2017 (France) [S1] | NICE NG195 (2021) [S2] | OMS [S8, S9] |
 |---|---|---|---|
-| **Infection précoce suspectée, sans signe de méningite** | **Amoxicilline + gentamicine** | **Benzylpénicilline + gentamicine** | **Ampicilline (ou pénicilline) + gentamicine** |
-| **Méningite suspectée ou sepsis grave / Gram négatif** | **Amoxicilline + céfotaxime** (± gentamicine) | Antibiothérapie selon la suspicion (céfotaxime + amoxicilline) **[À VÉRIFIER]** | Selon protocole (céphalosporine de 3ᵉ génération ± ampicilline) |
+| **Infection précoce suspectée, sans signe de méningite** | **Amoxicilline + gentamicine** | **Benzylpénicilline + gentamicine** | **Ampicilline (ou pénicilline) + gentamicine**, au moins 10 jours si sepsis chez le nourrisson hospitalisé (OMS 2024, B.2) [S15] |
+| **Méningite suspectée ou sepsis grave / Gram négatif** | **Amoxicilline + céfotaxime** (± gentamicine) | Antibiothérapie selon la suspicion (céfotaxime + amoxicilline) **[À VÉRIFIER]** | **Ampicilline, céfotaxime ou ceftriaxone + gentamicine**, au moins 3 semaines (OMS 2024, B.4) [S15] |
 
-*(Synthèse pédagogique ; formulations à confronter aux textes [S1, S2, S8].)*
+*(Synthèse pédagogique ; formulations à confronter aux textes [S1, S2, S8, S15].)*
 
 **Principes** : prélever l'**hémoculture avant** la première dose ; ne **pas retarder** l'antibiothérapie pour la PL chez un enfant instable ; **réévaluer à 36–48 heures** (cultures, CRP, clinique).
 
@@ -491,7 +514,7 @@ La **syphilis** (maladie à déclaration obligatoire [S14]) se dépiste chez la 
 | **Méningite à SGB** | **≥ 14 jours** |
 | **Méningite à bacille à Gram négatif** | **≥ 21 jours** (PL de contrôle, imagerie) |
 | **Méningite à *Listeria*** | 14 à 21 jours **[À VÉRIFIER]** |
-| **Herpès néonatal** | 14 j (cutanéo-oculo-buccal), 21 j (neurologique, disséminé), puis aciclovir oral suppressif selon les protocoles **[À VÉRIFIER]** |
+| **Herpès néonatal** | 14 j (cutanéo-oculo-buccal), 21 j (neurologique, disséminé) [S11] ; puis aciclovir oral suppressif selon les protocoles **[À VÉRIFIER]** |
 
 #### Le nouveau-né asymptomatique à risque (≥ 34–35 SA)
 
@@ -680,21 +703,23 @@ A. Les staphylocoques à coagulase négative sont fréquents — B. Le cathéter
 | **Seuil de rupture prolongée** | HAS : **≥ 12 h** [S1] | CDC/AAP : **≥ 18 h** [S3, S6] | **[À VÉRIFIER]** |
 | **Dépistage du SGB** | États-Unis (ACOG 2020) : universel à **36⁰–37⁶ SA** [S7] ; CDC 2010 : 35–37 SA [S6] | Royaume-Uni : stratégie fondée sur les **facteurs de risque** **[À VÉRIFIER]** | Politique algérienne non identifiée |
 | **Durée minimale avant arrêt** | NICE : **36 h** [S2] | HAS : réévaluation à **48 h** [S1] | Les deux reposent sur cultures + CRP + clinique |
-| **Pays à ressources limitées** | Hospitalisation et antibiothérapie parentérale | OMS 2015 : schémas simplifiés ambulatoires (gentamicine IM + amoxicilline orale) quand la référence est impossible [S9] | Contexte d'accès aux soins |
+| **Pays à ressources limitées** | Hospitalisation et antibiothérapie parentérale | OMS 2024 (actualisant 2015 [S9]) : si la référence est impossible — maladie critique : ampicilline + gentamicine ≥ 10 jours ; infection sévère clinique : amoxicilline orale ≥ 7 jours + gentamicine IM/IV 7 jours (ou 2 jours si 7 jours irréalisables) ; respiration rapide isolée : amoxicilline orale ≥ 7 jours [S15] | Contexte d'accès aux soins |
 
 ## 22. Références
 
-1. [S1] HAS. *Prise en charge du risque infectieux néonatal bactérien précoce (≥ 34 SA)*, recommandation de bonne pratique, septembre 2017 — non vérifiée en session.
-2. [S2] NICE. NG195 — *Neonatal infection: antibiotics for prevention and treatment*, avril 2021 — non vérifiée en session.
+1. [S1] SFN/SFP, label HAS. *Prise en charge du nouveau-né à risque d'infection néonatale bactérienne précoce (≥ 34 SA)*, recommandation de bonne pratique, septembre 2017 — **vérifiée** (existence, recherche web, audit 19/11/2026).
+2. [S2] NICE. NG195 — *Neonatal infection: antibiotics for prevention and treatment*, avril 2021 (mises à jour ultérieures) — **vérifiée** (recherche web, audit 19/11/2026).
 3. [S3] Puopolo KM, et al. AAP. ≥ 35 0/7 SA. *Pediatrics* 2018;142(6):e20182894 — non vérifiée en session.
 4. [S4] Puopolo KM, et al. AAP. ≤ 34 6/7 SA. *Pediatrics* 2018;142(6):e20182896 — non vérifiée en session.
 5. [S5] Kuzniewicz MW, et al. *JAMA Pediatr* 2017;171(4):365-371 — non vérifiée en session.
 6. [S6] Verani JR, et al. CDC. *MMWR Recomm Rep* 2010;59(RR-10):1-36 — non vérifiée en session.
 7. [S7] ACOG Committee Opinion No. 797. *Obstet Gynecol* 2020;135(2):e51-e72 — non vérifiée en session.
-8. [S8] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 — non vérifiée en session.
-9. [S9] OMS. *Managing possible serious bacterial infection in young infants when referral is not feasible*, 2015 — non vérifiée en session.
+8. [S8] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 — **vérifiée** (DOC-00063, texte lu par l'audit).
+9. [S9] OMS. *Managing possible serious bacterial infection in young infants when referral is not feasible*, 2015 — **vérifiée** (existence, DOC-00052) ; **actualisée par [S15]**.
 10. [S10] Shane AL, Sánchez PJ, Stoll BJ. Neonatal sepsis. *Lancet* 2017;390(10104):1770-1780 — non vérifiée en session.
-11. [S11] Kimberlin DW, et al. *Pediatrics* 2001;108(2):230-238 — non vérifiée en session.
+11. [S11] Kimberlin DW, et al. *Pediatrics* 2001;108(2):230-238 — **vérifiée** (PMID 11483782, audit 19/11/2026).
 12. [S12] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (complété par l'arrêté du 28 avril 2026, JORADP n° 36 du 17 mai 2026) — **DOC-00070 / DOC-00071, textes lus**.
 13. [S13] MSPRH/CNPM. Guide pratique de mise en œuvre du nouveau calendrier national de vaccination, 2ᵉ éd., 2023 — **vérifiée** (existence ; extraits).
 14. [S14] Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles à déclaration obligatoire, JORADP n° 47 du 11 juillet 2022 — **DOC-00072, texte lu**.
+15. [S15] OMS. *WHO recommendations for management of serious bacterial infections in infants aged 0–59 days*, 2024 — **vérifiée** (DOC-00052, texte lu par l'audit).
+16. [S16] OMS/UNICEF. *IMCI chart booklet — sick young infant up to 2 months*, 2019 — **vérifiée** (DOC-00034/DOC-00060, texte lu par l'audit).

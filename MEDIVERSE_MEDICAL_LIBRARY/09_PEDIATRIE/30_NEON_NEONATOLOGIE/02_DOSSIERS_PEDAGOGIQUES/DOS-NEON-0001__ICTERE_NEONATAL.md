@@ -6,11 +6,17 @@ sous_specialite: "Hyperbilirubinémies néonatales"
 items_residanat: [RES-MED-069]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0001.md
 sources:
   - id: S1
     reference: "American Academy of Pediatrics, Subcommittee on Hyperbilirubinemia. Management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. Pediatrics. 2004;114(1):297-316."
@@ -21,21 +27,21 @@ sources:
     url: ""
     verifiee: false
   - id: S2
-    reference: "Kemper AR, Newman TB, Slaughter JL, et al. Clinical practice guideline revision: management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. Pediatrics. 2022;150(3):e2022058859."
+    reference: "Kemper AR, Newman TB, Slaughter JL, et al. Clinical practice guideline revision: management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. Pediatrics. 2022;150(3):e2022058859. Remplace la recommandation AAP de 2004 ; validité annoncée par l'AAP jusqu'en août 2027 (existence confirmée par recherche web, audit AUD-01)."
     organisme: AAP
     annee: 2022
     type: recommandation
-    doi: ""
+    doi: "10.1542/peds.2022-058859"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S3
-    reference: "National Institute for Health and Care Excellence. Jaundice in newborn babies under 28 days. Clinical guideline CG98. Londres : NICE ; 2010 (mises à jour ultérieures)."
+    reference: "National Institute for Health and Care Excellence. Jaundice in newborn babies under 28 days. Clinical guideline CG98. Londres : NICE ; 2010 (mises à jour ultérieures ; surveillance exceptionnelle 2023 annonçant une actualisation ciblée des seuils chez le nouveau-né à terme). Existence et principaux repères (plateau 350/450 µmol/L à ≥ 96 h pour ≥ 38 SA, contrôle du rebond 12–18 h après l'arrêt) confirmés par recherche web, audit AUD-01."
     organisme: NICE
     annee: 2010
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.nice.org.uk/guidance/cg98"
+    verifiee: true
   - id: S4
     reference: "Bhutani VK, Johnson L, Sivieri EM. Predictive ability of a predischarge hour-specific serum bilirubin for subsequent significant hyperbilirubinemia in healthy term and near-term newborns. Pediatrics. 1999;103(1):6-14."
     organisme: ""
@@ -85,13 +91,13 @@ sources:
     url: ""
     verifiee: false
   - id: S10
-    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children. 2e éd. Genève : OMS ; 2013 (chapitre 3 : problèmes du nouveau-né — ictère)."
+    reference: "Organisation mondiale de la Santé. Pocket book of hospital care for children. 2e éd. Genève : OMS ; 2013 (chapitre 3 : problèmes du nouveau-né — ictère, section 3.12.1). ISBN 978 92 4 154837 3. Document acquis DOC-00063 (stockage local) — texte lu par l'audit."
     organisme: OMS
     annee: 2013
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
     reference: "Johnson L, Brown AK, Bhutani VK. BIND — a clinical score for bilirubin induced neurologic dysfunction in newborns. Pediatrics. 1999;104(suppl 3):746-747."
     organisme: ""
@@ -108,6 +114,14 @@ sources:
     doi: ""
     url: ""
     verifiee: true
+  - id: S13
+    reference: "American Academy of Pediatrics. Technical report: diagnosis and management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. Pediatrics. 2022 (PMID 35927519) — rapport technique accompagnant [S2]."
+    organisme: AAP
+    annee: 2022
+    type: article
+    doi: ""
+    url: "https://pubmed.ncbi.nlm.nih.gov/35927519/"
+    verifiee: true
 mots_cles: [ictère néonatal, hyperbilirubinémie, bilirubine libre, ictère nucléaire, encéphalopathie bilirubinique, photothérapie, exsanguinotransfusion, immunoglobulines IV, incompatibilité ABO, allo-immunisation rhésus, déficit en G6PD, atrésie des voies biliaires, cholestase néonatale]
 ---
 
@@ -116,6 +130,7 @@ mots_cles: [ictère néonatal, hyperbilirubinémie, bilirubine libre, ictère nu
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies et les seuils doivent être confrontés aux courbes officielles (AAP 2022, NICE, SFN) et aux protocoles locaux avant usage clinique.
 > **Avertissement de vérification (19/11/2026)** : le budget de recherche web de la session était épuisé avant la vérification des références de ce dossier ; toutes les sources internationales sont `verifiee: false`. **Les seuils chiffrés de photothérapie et d'exsanguinotransfusion présentés ici sont des repères pédagogiques approximatifs** ; la décision clinique doit s'appuyer sur les **courbes ou calculateurs officiels** de la recommandation retenue par le service.
+> **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : AAP 2022 (citation, posologie des IgIV), NICE CG98 et Pocket book OMS 2013 (seuils OMS, DOC-00063) vérifiés ; repères AAP 2004 jugés cohérents (écart photothérapie/exsanguinotransfusion précisé). Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0001.md`.
 
 **Items du programme couverts** : RES-MED-069 — « Ictère néonatal : Diagnostic - prévention - traitement ».
 
@@ -160,7 +175,7 @@ mots_cles: [ictère néonatal, hyperbilirubinémie, bilirubine libre, ictère nu
 
 ## 3. Épidémiologie
 
-- L'ictère est **le signe clinique le plus fréquent de la période néonatale** : on estime classiquement qu'il touche environ **60 % des nouveau-nés à terme** et **80 % des prématurés** au cours de la première semaine [S5] **[À VÉRIFIER]**.
+- L'ictère est **le signe clinique le plus fréquent de la période néonatale** : il touche **plus de 50 % des nouveau-nés à terme** (environ 60 % selon les séries) et **80 % des prématurés** au cours de la première semaine [S5, S10].
 - Environ 5 à 10 % des nouveau-nés reçoivent une **photothérapie** dans les pays à haut revenu (proportion variable selon les populations et les seuils) **[À VÉRIFIER]**.
 - L'**ictère nucléaire** est devenu rare dans les pays à haut revenu, mais il persiste, notamment après des **sorties précoces de maternité** sans suivi, en cas de **déficit en G6PD** non reconnu, et reste un problème majeur dans les pays à revenu faible et intermédiaire où l'hyperbilirubinémie sévère contribue à la mortalité et au handicap néonatals [S8] **[données chiffrées À VÉRIFIER]**.
 - **Algérie et Maghreb** : plusieurs facteurs locaux justifient une vigilance particulière, mais leurs prévalences n'ont pas pu être vérifiées au cours de cette session : fréquence du **déficit en G6PD** dans le bassin méditerranéen, **consanguinité** (maladies hémolytiques constitutionnelles, syndrome de Crigler-Najjar, maladies métaboliques), **allo-immunisation rhésus** encore observée lorsque la prophylaxie anti-D est incomplète, **sorties précoces** de maternité **[À VÉRIFIER — données nationales]**.
@@ -470,7 +485,7 @@ Plus fréquent, plus intense, plus prolongé ; la barrière hémato-encéphaliqu
 
 **Effets indésirables et précautions** : déshydratation, hyperthermie, selles liquides (augmentation du transit), éruption cutanée, séparation mère-enfant, **syndrome du bébé bronzé** (en cas de cholestase), lésions rétiniennes potentielles (d'où la protection oculaire) ; **contre-indication** : porphyrie congénitale (rare). La recommandation de 2022 évoque une association épidémiologique discutée avec certains cancers de l'enfant, justifiant d'éviter les photothérapies **non indiquées** [S2] **[À VÉRIFIER]**.
 
-**Arrêt** : selon l'AAP 2022, la photothérapie peut être arrêtée lorsque la bilirubine est descendue d'au moins **2 mg/dL (≈ 34 µmol/L) sous le seuil** qui l'avait déclenchée, avec un contrôle de **rebond** (6–12 h après en cas d'hémolyse ou de prématurité, sinon dans les 24–48 h selon le risque) [S2] **[À VÉRIFIER]** ; NICE propose l'arrêt lorsque la bilirubine est inférieure d'au moins 50 µmol/L au seuil de photothérapie, avec un contrôle 12 à 18 heures après [S3] **[À VÉRIFIER]**.
+**Arrêt** : selon l'AAP 2022, la photothérapie peut être arrêtée lorsque la bilirubine est descendue d'au moins **2 mg/dL (≈ 34 µmol/L) sous le seuil** qui l'avait déclenchée, avec un contrôle de **rebond** (6–12 h après en cas d'hémolyse ou de prématurité, sinon dans les 24–48 h selon le risque) [S2] **[À VÉRIFIER]** ; NICE propose l'arrêt lorsque la bilirubine est inférieure d'au moins 50 µmol/L au seuil de photothérapie **[À VÉRIFIER]**, avec un contrôle du rebond **12 à 18 heures** après l'arrêt (vérifié) [S3].
 
 #### Exsanguinotransfusion
 
@@ -482,8 +497,8 @@ Plus fréquent, plus intense, plus prolongé ; la barrière hémato-encéphaliqu
 #### Immunoglobulines intraveineuses (IgIV)
 
 - Dans la **maladie hémolytique iso-immune** (Rh, ABO), les IgIV bloquent les récepteurs Fc des macrophages et réduisent l'hémolyse.
-- Indication (AAP) : bilirubine qui **continue d'augmenter** malgré la photothérapie intensive ou qui atteint le **seuil d'escalade des soins** (2 mg/dL sous le seuil d'exsanguinotransfusion) ; posologie : **0,5 à 1 g/kg en 2 heures**, renouvelable après 12 heures si nécessaire [S1, S2] **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
-- Le niveau de preuve est jugé limité par certaines revues ; leur utilisation varie selon les pays (voir §21).
+- Indication et posologie (AAP 2022) : nouveau-né atteint de **maladie hémolytique iso-immune (Coombs direct positif)** dont la BST **atteint ou dépasse le seuil d'escalade des soins** (2 mg/dL sous le seuil d'exsanguinotransfusion) : **IgIV 0,5 à 1 g/kg en 2 heures**, **renouvelable à 12 heures** [S2] ; l'AAP 2004 retenait une BST qui augmente malgré la photothérapie intensive ou se situe à 2–3 mg/dL du seuil d'exsanguinotransfusion [S1].
+- Le rapport technique accompagnant la recommandation de 2022 juge le bénéfice **incertain** (risque possible d'entérocolite ulcéro-nécrosante) et invite à en limiter l'usage [S13] ; leur utilisation varie selon les pays (voir §21).
 
 #### Hydratation et alimentation
 
@@ -515,7 +530,7 @@ Plus fréquent, plus intense, plus prolongé ; la barrière hémato-encéphaliqu
 | 72 h | ≈ 18 | ≈ 15 | ≈ 13,5 |
 | ≥ 96 h | ≈ 21 | ≈ 18 | ≈ 15 |
 
-*(1 mg/dL = 17,1 µmol/L : 15 mg/dL ≈ 257 µmol/L ; 20 mg/dL ≈ 342 µmol/L ; 25 mg/dL ≈ 428 µmol/L. Les seuils d'exsanguinotransfusion de 2004 se situaient environ 5 à 7 mg/dL au-dessus des seuils de photothérapie correspondants, avec un plateau de l'ordre de 25 mg/dL chez le nouveau-né à faible risque — **À VÉRIFIER**.)*
+*(1 mg/dL = 17,1 µmol/L : 15 mg/dL ≈ 257 µmol/L ; 20 mg/dL ≈ 342 µmol/L ; 25 mg/dL ≈ 428 µmol/L. Les seuils d'exsanguinotransfusion de 2004 se situaient environ 4 à 7 mg/dL au-dessus des seuils de photothérapie correspondants (écart plus grand à 24 h qu'au plateau), avec un plateau de l'ordre de 25 mg/dL chez le nouveau-né à faible risque — **À VÉRIFIER** sur les courbes originales.)*
 
 **AAP 2022 — nouveautés essentielles** [S2] **[À VÉRIFIER]** :
 
@@ -524,11 +539,11 @@ Plus fréquent, plus intense, plus prolongé ; la barrière hémato-encéphaliqu
 - possibilité d'**instaurer une photothérapie à domicile** dans des conditions précises ;
 - **suivi après la sortie** fondé sur l'écart entre la bilirubine mesurée et le seuil de photothérapie.
 
-**NICE CG98** [S3] : courbes en µmol/L selon l'âge gestationnel (de 23 à ≥ 38 SA) ; pour le nouveau-né **≥ 38 SA**, le seuil de photothérapie atteint un plateau d'environ **350 µmol/L** et celui d'exsanguinotransfusion d'environ **450 µmol/L** **[À VÉRIFIER]** ; NICE recommande de ne pas utiliser l'albumine, le phénobarbital ou d'autres agents pour traiter l'hyperbilirubinémie.
+**NICE CG98** [S3] : courbes en µmol/L selon l'âge gestationnel (de 23 à ≥ 38 SA) ; pour le nouveau-né **≥ 38 SA**, le seuil de photothérapie atteint un plateau de **350 µmol/L** et celui d'exsanguinotransfusion de **450 µmol/L** (à partir de 96 h de vie) ; NICE recommande de ne pas utiliser l'albumine, le phénobarbital ou d'autres agents pour traiter l'hyperbilirubinémie.
 
 **SFN 2017 (France)** [S6] : recommandations pour le nouveau-né ≥ 35 SA, du dépistage au suivi après la sortie, avec des courbes de traitement en µmol/L **[valeurs À VÉRIFIER]**.
 
-**OMS (contextes à ressources limitées)** [S10] : photothérapie si ictère visible au **J1**, ictère des **paumes et plantes** à n'importe quel âge, chez le prématuré, ou si la bilirubine dépasse des seuils tabulés selon l'âge et le terme ; référence pour exsanguinotransfusion selon les seuils **[À VÉRIFIER]**.
+**OMS (contextes à ressources limitées)** [S10] : photothérapie si ictère visible au **J1**, ictère profond des **paumes et plantes**, ictère du prématuré ou ictère hémolytique ; seuils tabulés (nouveau-né sain ≥ 35 SA / prématuré < 35 SA ou facteur de risque — petit poids < 2,5 kg ou < 37 SA, hémolyse, sepsis) : photothérapie à **J1 tout ictère visible**, à **J2 260 / 170 µmol/L** (15 / 10 mg/dL), à **≥ J3 310 / 250 µmol/L** (18 / 15 mg/dL) ; exsanguinotransfusion à **J1 260 / 220 µmol/L**, **J2 425 / 260 µmol/L**, **≥ J3 425 / 340 µmol/L** (25 / 20 mg/dL), si elle peut être réalisée sans risque ou le transfert assuré.
 
 ### 13.4 Particularités algériennes
 
@@ -640,7 +655,7 @@ Non : tout ictère **avant 24 heures** est **pathologique** et impose une **mesu
 **Maladie hémolytique par incompatibilité ABO** (mère O, enfant A, Coombs faiblement positif, microsphérocytes, réticulocytose).
 
 **Question 3 — Conduite à tenir ?**
-L'iso-immunisation est un **facteur de risque de neurotoxicité** : on utilise les courbes « avec facteur de risque ». Une BST de 10,5 mg/dL à 20 h se situe **au niveau ou au-dessus** du seuil de photothérapie pour un nouveau-né à terme avec facteur de risque (repères §13.3 : ≈ 10 mg/dL à 24 h dans les courbes 2004 de risque moyen) → **photothérapie intensive** immédiate, maintien de l'allaitement, contrôle de la BST à 4–6 heures pour évaluer la cinétique. Si la BST continue d'augmenter malgré la photothérapie intensive et atteint le **seuil d'escalade**, discuter les **IgIV (0,5–1 g/kg en 2 h)** et préparer l'exsanguinotransfusion [S1, S2].
+L'iso-immunisation est un **facteur de risque de neurotoxicité** : on utilise les courbes « avec facteur de risque ». Une BST de 10,5 mg/dL à 20 h se situe **au niveau ou au-dessus** du seuil de photothérapie pour un nouveau-né à terme avec facteur de risque (repères §13.3 : ≈ 10 mg/dL à 24 h dans les courbes 2004 de risque moyen) → **photothérapie intensive** immédiate, maintien de l'allaitement, contrôle de la BST à 4–6 heures pour évaluer la cinétique. En pratique actuelle, la valeur doit être reportée sur la courbe **AAP 2022** « 39 SA avec facteur de neurotoxicité » (ou sur la courbe du protocole du service) ; l'élévation rapide (10,5 mg/dL dès 20 h) et l'hémolyse confirmée justifient la photothérapie. Si la BST atteint le **seuil d'escalade** malgré la photothérapie intensive, discuter les **IgIV (0,5–1 g/kg en 2 h, renouvelables à 12 h)** et préparer l'exsanguinotransfusion [S1, S2].
 
 **Question 4 — Évolution.**
 À 26 h : BST 11,2 mg/dL (augmentation ralentie) ; à 40 h : 10,1 mg/dL ; arrêt de la photothérapie à 60 h (8,6 mg/dL), contrôle du **rebond** à 12 h : 9,4 mg/dL (sous le seuil). Sortie à J4 avec consultation à J5–J6 et **NFS à 2–3 semaines** (anémie tardive possible).
@@ -720,9 +735,9 @@ A. Transmission liée à l'X — B. Fréquent dans le bassin méditerranéen —
 | Question | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
 | **Seuils de photothérapie (≥ 35 SA)** | AAP 2004 : 3 courbes selon le risque (faible, moyen, élevé) [S1] | AAP 2022 : courbes par **semaine d'AG** avec/sans facteurs de neurotoxicité, seuils **modestement relevés** [S2] | Objectif 2022 : réduire les photothérapies inutiles sans augmenter le risque |
-| **Unités et courbes** | AAP (mg/dL) | NICE CG98 (µmol/L), courbes par AG de 23 à ≥ 38 SA ; plateau ≈ 350/450 µmol/L à ≥ 38 SA **[À VÉRIFIER]** [S3] | Utiliser une seule référence dans un service |
+| **Unités et courbes** | AAP (mg/dL) | NICE CG98 (µmol/L), courbes par AG de 23 à ≥ 38 SA ; plateau 350/450 µmol/L à ≥ 38 SA [S3] ; OMS : seuils simplifiés par jour de vie [S10] | Utiliser une seule référence dans un service |
 | **Facteurs de neurotoxicité** | AAP 2004 : hémolyse iso-immune, G6PD, asphyxie, léthargie, instabilité thermique, sepsis, acidose, albumine < 3 g/dL [S1] | AAP 2022 : AG < 38 SA, albumine < 3 g/dL, iso-immunisation, G6PD/autre hémolyse, sepsis, instabilité clinique dans les 24 h [S2] | Liste resserrée |
-| **IgIV** | AAP 2004/2022 : 0,5–1 g/kg si iso-immunisation et bilirubine proche du seuil [S1, S2] | NICE : IgIV en complément de la photothérapie intensive dans l'iso-immunisation Rh ou ABO lorsque la bilirubine continue d'augmenter **[À VÉRIFIER]** ; revues systématiques : niveau de preuve limité | Pratiques hétérogènes |
+| **IgIV** | AAP 2022 : 0,5–1 g/kg en 2 h (renouvelable à 12 h) si iso-immunisation et BST ≥ seuil d'escalade ; AAP 2004 : BST croissante malgré photothérapie ou à 2–3 mg/dL du seuil d'exsanguinotransfusion [S1, S2] | NICE : IgIV en complément de la photothérapie intensive dans l'iso-immunisation Rh ou ABO lorsque la bilirubine continue d'augmenter **[À VÉRIFIER]** ; revues systématiques : niveau de preuve limité | Pratiques hétérogènes |
 | **Albumine, phénobarbital** | Certaines pratiques locales | NICE : ne pas utiliser [S3] | — |
 | **Dépistage universel avant la sortie** | AAP 2004 et 2022 : mesure (BTc/BST) chez tous les nouveau-nés avant la sortie [S1, S2] | NICE : mesure chez les nouveau-nés **visiblement ictériques** ; pas de dépistage universel par mesure **[À VÉRIFIER]** [S3] | Contexte d'organisation (sorties précoces) |
 | **Seuil de cholestase** | Ancien critère : bilirubine conjuguée > 20 % de la totale | NASPGHAN/ESPGHAN 2017 : bilirubine conjuguée/directe > 1 mg/dL (17 µmol/L) [S9] | Simplification |
@@ -730,14 +745,15 @@ A. Transmission liée à l'X — B. Fréquent dans le bassin méditerranéen —
 ## 22. Références
 
 1. [S1] AAP Subcommittee on Hyperbilirubinemia. *Pediatrics* 2004;114(1):297-316 — non vérifiée en session.
-2. [S2] Kemper AR, et al. AAP clinical practice guideline revision. *Pediatrics* 2022;150(3):e2022058859 — non vérifiée en session.
-3. [S3] NICE. CG98 — *Jaundice in newborn babies under 28 days*, 2010 (mises à jour ultérieures) — non vérifiée en session.
+2. [S2] Kemper AR, et al. AAP clinical practice guideline revision. *Pediatrics* 2022;150(3):e2022058859, doi:10.1542/peds.2022-058859 — **vérifiée** (recherche web, audit 19/11/2026).
+3. [S3] NICE. CG98 — *Jaundice in newborn babies under 28 days*, 2010 (mises à jour ultérieures) — **vérifiée** (recherche web, audit 19/11/2026).
 4. [S4] Bhutani VK, Johnson L, Sivieri EM. *Pediatrics* 1999;103(1):6-14 — non vérifiée en session.
 5. [S5] Maisels MJ, McDonagh AF. Phototherapy for neonatal jaundice. *N Engl J Med* 2008;358(9):920-928 — non vérifiée en session.
 6. [S6] Cortey A, et al. Recommandations SFN — ictère du nouveau-né ≥ 35 SA. *Arch Pédiatr* 2017;24(2):192-203 — non vérifiée en session.
 7. [S7] Kramer LI. *Am J Dis Child* 1969;118(3):454-458 — non vérifiée en session.
 8. [S8] Watchko JF, Tiribelli C. *N Engl J Med* 2013;369(21):2021-2030 — non vérifiée en session.
 9. [S9] Fawaz R, et al. NASPGHAN/ESPGHAN guideline on cholestatic jaundice in infants. *J Pediatr Gastroenterol Nutr* 2017;64(1):154-168 — non vérifiée en session.
-10. [S10] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 — non vérifiée en session.
+10. [S10] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 — **vérifiée** (DOC-00063, texte lu par l'audit).
 11. [S11] Johnson L, Brown AK, Bhutani VK. BIND score. *Pediatrics* 1999;104(suppl 3):746-747 — non vérifiée en session.
 12. [S12] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **DOC-00070, texte lu** (complété par l'arrêté du 28 avril 2026, DOC-00071).
+13. [S13] AAP. Technical report — hyperbilirubinemia ≥ 35 SA, *Pediatrics* 2022 (PMID 35927519) — **vérifiée** (existence, recherche web, audit 19/11/2026).

@@ -1,0 +1,445 @@
+---
+id: DOS-HEMA-0003
+titre: "Hémophilie : diagnostic, traitement, prévention"
+specialite: HEMA
+sous_specialite: "Hémostase — déficits constitutionnels de la coagulation"
+items_residanat: [RES-MED-114]
+niveaux: [etudiant, generaliste, resident, residanat, dems]
+langue: fr
+version: "1.0"
+date_creation: 2026-11-19
+date_revision: 2026-11-19
+auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
+statut: brouillon_a_auditer
+sources:
+  - id: S1
+    reference: "Srivastava A, Santagostino E, Dougall A, et al.; WFH Guidelines for the Management of Hemophilia panelists and co-authors. WFH Guidelines for the Management of Hemophilia, 3rd edition. Haemophilia. 2020;26(Suppl 6):1-158."
+    organisme: "World Federation of Hemophilia (WFH)"
+    annee: 2020
+    type: recommandation
+    doi: "10.1111/hae.14046"
+    url: "https://www1.wfh.org/publications/files/pdf-1863.pdf"
+    verifiee: true
+  - id: S2
+    reference: "Haute Autorité de santé / Centre de référence hémophilie et autres déficits constitutionnels en protéines de la coagulation (CRH-MHEMO). Protocole national de diagnostic et de soins — Hémophilie. HAS ; 2019, document mis en ligne en juin 2023."
+    organisme: HAS
+    annee: 2023
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/upload/docs/application/pdf/2023-06/pnds_hemophilie_2023.pdf"
+    verifiee: true
+  - id: S3
+    reference: "Haute Autorité de santé. Synthèse à destination du médecin traitant — Hémophilie (extraite du PNDS). HAS ; juin 2023."
+    organisme: HAS
+    annee: 2023
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/upload/docs/application/pdf/2023-06/synthese_mg_hemophilie.pdf"
+    verifiee: true
+  - id: S4
+    reference: "Blanchette VS, Key NS, Ljung LR, et al.; Subcommittee on Factor VIII, Factor IX and Rare Coagulation Disorders of the SSC of the ISTH. Definitions in hemophilia: communication from the SSC of the ISTH. J Thromb Haemost. 2014;12(11):1935-1939 [référence à vérifier]."
+    organisme: ISTH
+    annee: 2014
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: false
+  - id: S5
+    reference: "Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors (HAVEN 3). N Engl J Med. 2018;379(9):811-822 [pagination à vérifier]."
+    organisme: "Essai HAVEN 3"
+    annee: 2018
+    type: article
+    doi: ""
+    url: ""
+    verifiee: false
+  - id: S6
+    reference: "First real-world evidence study of patients with hemophilia in Algeria (registre « Baromètre » du ministère de la Santé). Résumé ISPOR Europe 2022 [auteurs à compléter]."
+    organisme: "ISPOR (résumé de congrès) / Ministère de la Santé (Algérie)"
+    annee: 2022
+    type: article
+    doi: ""
+    url: "https://www.ispor.org/heor-resources/presentations-database/presentation/euro2022-3566/120562"
+    verifiee: true
+  - id: S7
+    reference: "Haute Autorité de santé. PNDS — Hémophilie A acquise [date de publication à préciser]."
+    organisme: HAS
+    annee: null
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/jcms/p_3594164/fr/hemophilie-a-acquise"
+    verifiee: true
+mots_cles: [hémophilie A, hémophilie B, facteur VIII, facteur IX, TCA, hémarthrose, arthropathie hémophilique, inhibiteur, unités Bethesda, émicizumab, prophylaxie, agents by-passants, desmopressine, induction de tolérance immune, conductrice, diagnostic prénatal, hémophilie acquise, Algérie]
+---
+
+# Hémophilie : diagnostic, traitement, prévention
+
+> **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
+> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, aux recommandations de la WFH et aux protocoles du centre de traitement de l'hémophilie avant usage clinique.
+
+**Items du programme couverts** : RES-MED-114 — « Hémophilie : Diagnostic - traitement - prévention ».
+
+**Objectifs pédagogiques** — être capable de :
+1. **Expliquer** la transmission génétique de l'hémophilie et identifier les conductrices obligatoires.
+2. **Classer** une hémophilie selon sa sévérité (taux de facteur) et relier sévérité et phénotype hémorragique.
+3. **Interpréter** un TCA isolément allongé et conduire le diagnostic biologique (correction par plasma témoin, dosages des facteurs, facteur Willebrand).
+4. **Reconnaître** et traiter en urgence une hémarthrose, un hématome du psoas et un traumatisme crânien chez un hémophile.
+5. **Calculer** une dose de facteur VIII ou IX et connaître les principes de la prophylaxie.
+6. **Prendre en charge** un patient avec inhibiteur (agents by-passants, émicizumab, induction de tolérance immune).
+7. **Énumérer** les contre-indications et précautions (injections IM, aspirine, AINS, gestes invasifs).
+8. **Organiser** la prévention : conseil génétique, dépistage des conductrices, diagnostic prénatal, éducation, centres spécialisés.
+9. **Évoquer** une hémophilie acquise devant un syndrome hémorragique récent avec TCA allongé non corrigé.
+
+---
+
+## 1. Définitions et généralités
+
+- L'**hémophilie** est une maladie hémorragique **constitutionnelle**, **récessive liée à l'X**, due à un déficit quantitatif (ou qualitatif) en :
+  - **facteur VIII (FVIII)** : **hémophilie A** (environ 80–85 % des cas) ;
+  - **facteur IX (FIX)** : **hémophilie B** (15–20 %).
+- Elle touche presque exclusivement les **garçons** ; les femmes sont **conductrices** (hétérozygotes), parfois symptomatiques.
+- La **sévérité** dépend du **taux résiduel de facteur** et conditionne le phénotype hémorragique [S1, S4] :
+
+**Tableau 1 — Classification de sévérité (ISTH 2014, reprise par la WFH 2020 [S1, S4])**
+
+| Sévérité | Taux de FVIII ou FIX | Phénotype hémorragique habituel |
+|---|---|---|
+| **Sévère** | < 1 UI/dL (< 1 % de la normale) | Saignements **spontanés**, surtout articulaires et musculaires, dès l'âge de la marche |
+| **Modérée** | 1–5 UI/dL | Saignements spontanés occasionnels ; saignements prolongés après traumatisme mineur ou chirurgie |
+| **Mineure** | > 5 et < 40 UI/dL | Saignements après traumatisme majeur, chirurgie ou extraction dentaire ; pas de saignement spontané |
+
+- **Inhibiteur** : allo-anticorps neutralisant dirigé contre le FVIII (ou FIX) perfusé ; titré en **unités Bethesda (UB)** : **faible répondeur < 5 UB/mL**, **fort répondeur ≥ 5 UB/mL** [S1].
+- **Hémophilie acquise** : maladie **auto-immune** (auto-anticorps anti-FVIII), sans rapport avec l'hémophilie constitutionnelle, touchant le sujet âgé ou la femme en post-partum [S7].
+- Les conductrices dont le taux de facteur est < 40 UI/dL sont considérées comme ayant une **hémophilie mineure** ; celles ≥ 40 UI/dL avec symptômes hémorragiques sont des **conductrices symptomatiques** [S1].
+
+---
+
+## 2. Repères historiques
+
+- Le Talmud (IIe siècle) dispensait de circoncision les garçons dont les frères aînés étaient morts d'hémorragie après l'acte : première trace d'une transmission familiale.
+- **XIXe siècle** : l'hémophilie de la **reine Victoria** se transmet aux familles royales d'Europe (dont le tsarévitch Alexis) ; l'analyse génétique des restes de la famille Romanov a montré qu'il s'agissait d'une **hémophilie B**.
+- **1952** : distinction de l'hémophilie A et de l'hémophilie B (« maladie de Christmas »).
+- **1964** : découverte du **cryoprécipité** (Judith Pool) ; années 1970 : concentrés plasmatiques lyophilisés et autotraitement à domicile.
+- **Années 1980** : contamination massive des hémophiles par le **VIH** et le **VHC** via les concentrés plasmatiques (drame transfusionnel) ; inactivation virale puis **facteurs recombinants** (années 1990).
+- **2010–2020** : facteurs à **demi-vie prolongée**, **émicizumab** (anticorps bispécifique, 2017–2018), premières **thérapies géniques** autorisées en 2022–2023 [S1] `[À VÉRIFIER : dates d'autorisation selon les agences]`.
+
+---
+
+## 3. Épidémiologie
+
+- Incidence classique : environ **1 naissance masculine sur 5 000** pour l'hémophilie A et **1 sur 25 000 à 30 000** pour l'hémophilie B `[À VÉRIFIER : estimations récentes de la WFH]`.
+- Environ **un tiers des cas** surviennent sans antécédent familial (**mutations de novo**).
+- Répartition par sévérité : environ la moitié des hémophilies A sont sévères `[À VÉRIFIER]`.
+- **Algérie** : le registre national « Baromètre » mis en place par le ministère de la Santé avait inclus **1 134 patients** (soit environ **40 % des patients connus en 2020**), dont **82 % d'hémophilie A** et **18 % d'hémophilie B** ; **68 %** des patients inclus avaient une forme **sévère** [S6]. Ces données, issues d'un résumé de congrès, sont à confirmer par la publication complète et les rapports nationaux `[À VÉRIFIER]`.
+- La fréquence des unions **consanguines** au Maghreb augmente la fréquence relative des **déficits rares autosomiques récessifs** (afibrinogénémie, déficits en FVII, FX, FXIII) et la possibilité exceptionnelle d'**hémophilie féminine** (fille d'un père hémophile et d'une mère conductrice).
+
+---
+
+## 4. Rappels physiologiques
+
+### 4.1 Coagulation (modèle cellulaire)
+
+1. **Initiation** : le facteur tissulaire exposé lors d'une brèche vasculaire active le FVII → petites quantités de FXa et de thrombine.
+2. **Amplification** : la thrombine active les plaquettes, le FV, le FVIII (libéré du facteur Willebrand) et le FXI.
+3. **Propagation** : à la surface des plaquettes activées, le complexe **ténase intrinsèque (FIXa–FVIIIa, Ca²⁺, phospholipides)** active massivement le FX ; le complexe prothrombinase (FXa–FVa) produit le « burst » de thrombine qui transforme le fibrinogène en fibrine stable (FXIII).
+- Dans l'hémophilie, l'**initiation est normale** (le TP est normal) mais la **propagation est défaillante** : le caillot formé est fragile, d'où des saignements **prolongés**, **retardés** et **récidivants** plutôt qu'un saignement immédiat.
+
+### 4.2 Les facteurs VIII et IX
+
+| | FVIII | FIX |
+|---|---|---|
+| Gène | *F8*, Xq28 | *F9*, Xq27 |
+| Synthèse | Endothélium sinusoïdal hépatique et autres endothéliums | Hépatocyte (vitamine K-dépendant) |
+| Transport | Lié au **facteur Willebrand** (qui le protège) | Libre ; diffusion extravasculaire importante |
+| Demi-vie approximative | 8–12 heures | 18–24 heures |
+| Récupération après injection (règle pratique) | 1 UI/kg → ≈ + 2 UI/dL | 1 UI/kg → ≈ + 1 UI/dL [S1] |
+
+---
+
+## 5. Physiopathologie
+
+- **Génétique** :
+  - hémophilie A sévère : **inversion de l'intron 22** du gène *F8* dans près de la moitié des cas, inversion de l'intron 1 plus rarement ; mutations faux-sens dans les formes mineures et modérées ;
+  - hémophilie B : mutations ponctuelles très diverses du gène *F9* ;
+  - les mutations « nulles » (grandes délétions, non-sens, inversions) exposent davantage au développement d'**inhibiteurs**.
+- **Hémarthrose et arthropathie** : le sang intra-articulaire (fer, hémosidérine) entraîne une **synovite** hypertrophique et hypervascularisée, source de récidives (**articulation cible**), puis une destruction cartilagineuse et osseuse : **arthropathie hémophilique** (genoux, coudes, chevilles) avec douleur chronique, raideur et handicap.
+- **Hématomes musculaires** : risque de **compression nerveuse** (nerf fémoral dans l'hématome du psoas) et de **syndrome des loges** (avant-bras, mollet).
+- **Pseudotumeurs** hémophiliques : collections hémorragiques encapsulées, extensives, érodant l'os (rares, formes sévères non traitées).
+- **Inhibiteurs** : réponse immune allogénique contre une protéine « étrangère » ; surtout chez l'hémophile A sévère au cours des **50 premiers jours d'exposition** au facteur ; facteurs de risque : mutation nulle, antécédents familiaux d'inhibiteur, origine ethnique, exposition intensive précoce (chirurgie) [S1].
+
+---
+
+## 6. Étiologies et facteurs de risque — transmission génétique
+
+**Règles de transmission (récessive liée à l'X)** :
+
+| Couple | Fils | Filles |
+|---|---|---|
+| Père hémophile × mère non conductrice | Tous **sains** | Toutes **conductrices obligatoires** |
+| Père sain × mère conductrice | **1/2 hémophile** | **1/2 conductrice** |
+| Père hémophile × mère conductrice (consanguinité) | 1/2 hémophile | 1/2 conductrice, **1/2 hémophile** |
+
+- **Conductrices obligatoires** : fille d'hémophile ; mère d'au moins deux garçons hémophiles ; mère d'un hémophile ayant un autre apparenté hémophile en lignée maternelle.
+- **Conductrice symptomatique** : inactivation préférentielle de l'X normal (lyonisation déséquilibrée), syndrome de Turner (45,X), hémizygotie.
+- **Hémophilie acquise** (auto-immune) [S7] : idiopathique (~ la moitié des cas), **post-partum**, maladies auto-immunes, cancers solides et hémopathies, médicaments.
+
+**Facteurs aggravant le risque hémorragique chez un hémophile** : injections intramusculaires, prise d'**aspirine** ou d'**AINS**, sports de contact, chirurgie et soins dentaires non préparés, **inhibiteur**, comorbidités (HTA, hépatopathie virale), traitement antithrombotique chez l'hémophile âgé.
+
+---
+
+## 7. Classifications
+
+**Tableau 2 — Classifications utiles**
+
+| Axe | Catégories |
+|---|---|
+| Facteur déficitaire | Hémophilie A (FVIII) ; hémophilie B (FIX) |
+| Sévérité (taux de facteur) | Sévère < 1 ; modérée 1–5 ; mineure > 5 à < 40 UI/dL [S1, S4] |
+| Inhibiteur | Absent ; faible répondeur < 5 UB/mL ; fort répondeur ≥ 5 UB/mL [S1] |
+| Mode de traitement | À la demande (épisodique) ; prophylaxie primaire (avant atteinte articulaire), secondaire, tertiaire (arthropathie installée) [S1] |
+| Gravité d'un saignement | Mineur (cutané, muqueux superficiel) ; **sévère / menaçant** : système nerveux central, gorge et cou, gastro-intestinal, psoas, syndrome des loges, traumatisme majeur [S1] |
+
+**Définitions de la prophylaxie** (WFH [S1]) :
+- **Primaire** : régulière, débutée avant l'âge de 3 ans et en l'absence de maladie articulaire, avant la 2e hémarthrose cliniquement évidente.
+- **Secondaire** : débutée après ≥ 2 hémarthroses mais avant l'apparition d'une arthropathie.
+- **Tertiaire** : débutée après l'installation d'une arthropathie documentée.
+
+---
+
+## 8. Diagnostic positif — clinique
+
+### 8.1 Circonstances de découverte
+
+- **Enquête familiale** (garçon né d'une mère conductrice connue) — la situation idéale, permettant un diagnostic néonatal programmé.
+- **Période néonatale** : céphalhématome, hémorragie intracrânienne (accouchement instrumental), saignement prolongé au point de prélèvement (talon) ou à la chute du cordon, **saignement après circoncision** (circonstance classique au Maghreb).
+- **Nourrisson** : **hématome après injection intramusculaire de vaccin**, ecchymoses multiples à l'âge de la marche à quatre pattes, saignement buccal (frein de la lèvre).
+- **Enfant plus âgé** : **hémarthroses** spontanées ou après traumatisme minime.
+- **Formes mineures** : saignement anormal après extraction dentaire, amygdalectomie ou chirurgie, parfois à l'âge adulte ; découverte d'un **TCA allongé** sur un bilan préopératoire.
+
+### 8.2 Manifestations hémorragiques
+
+- **Hémarthrose** (70–80 % des saignements des formes sévères) : genou, coude, cheville surtout ; sensation prodromique de « picotement », puis douleur, gonflement, chaleur, **attitude antalgique en flexion**, limitation de la mobilité.
+- **Hématome musculaire** :
+  - **psoas-iliaque** : douleur de la fosse iliaque ou de l'aine, **flexion irréductible de la hanche** (psoïtis), **déficit du nerf fémoral** (hypoesthésie de la face antérieure de la cuisse, abolition du réflexe rotulien) ; à droite, peut simuler une appendicite ; risque de choc hémorragique ;
+  - **avant-bras, mollet** : **syndrome des loges** (douleur à l'étirement passif, troubles sensitifs) → urgence.
+- **Hémorragies menaçant le pronostic vital** [S1] : **intracrânienne** (céphalées, vomissements, somnolence, convulsions — parfois plusieurs jours après un traumatisme), **plancher buccal / cou / gorge** (obstruction des voies aériennes), digestives, rétropéritonéales.
+- **Hématurie** (souvent bénigne mais **contre-indication des antifibrinolytiques** : risque de caillotage urétéral).
+- Saignements cutanéo-muqueux (épistaxis, gingivorragies) : moins caractéristiques (évocateurs plutôt d'un trouble de l'hémostase primaire).
+
+### 8.3 Signes de gravité à rechercher systématiquement
+
+Pâleur, tachycardie, hypotension (hémorragie abondante), signes neurologiques, dyspnée ou dysphagie (hématome cervical), déficit nerveux (psoas), douleur disproportionnée d'un membre (loges), et **présence connue d'un inhibiteur** (inefficacité du traitement habituel).
+
+### 8.4 Examen d'un hémophile adulte (consultation de suivi)
+
+Examen articulaire (amplitude, épanchement, amyotrophie, déformations ; score articulaire HJHS en centre spécialisé), état bucco-dentaire, complications virales historiques (hépatopathie, VIH), facteurs de risque cardiovasculaire chez le patient vieillissant.
+
+---
+
+## 9. Examens complémentaires et interprétation
+
+### 9.1 Bilan d'hémostase de première intention
+
+| Examen | Résultat dans l'hémophilie |
+|---|---|
+| Numération plaquettaire | Normale |
+| TP (taux de prothrombine) | **Normal** |
+| **TCA** (temps de céphaline avec activateur) | **Allongé** (ratio patient/témoin > 1,2) — peut être **normal** dans les formes mineures (sensibilité variable des réactifs) |
+| Fibrinogène | Normal |
+| Temps d'occlusion plaquettaire (PFA), temps de saignement | Normaux |
+
+> Un **TCA normal n'élimine pas une hémophilie mineure** : devant une histoire hémorragique évocatrice, doser directement les facteurs [S1].
+
+### 9.2 Démarche devant un TCA isolément allongé
+
+1. **Vérifier l'absence d'héparine** (prélèvement sur cathéter, traitement) — temps de thrombine allongé si héparine.
+2. **Test de correction par plasma témoin** (mélange 50/50) :
+   - TCA **corrigé** → **déficit en facteur** (VIII, IX, XI, XII, prékallicréine, kininogène) ;
+   - TCA **non corrigé** → **anticoagulant circulant** : anticoagulant de type lupique (sans risque hémorragique, risque thrombotique) ou **anti-FVIII** (hémophilie acquise ou inhibiteur) ; l'inhibiteur anti-FVIII est **temps- et température-dépendant** (allongement après incubation de 2 heures à 37 °C).
+3. **Dosage des facteurs VIII, IX, XI (et XII)** ; dosage du **facteur Willebrand** (antigène et activité) pour éliminer une **maladie de Willebrand** de type 3 ou de type 2N (affinité réduite pour le FVIII), qui peut mimer une hémophilie A mineure.
+4. Le dosage du FVIII se fait par méthode **chronométrique en un temps** et/ou **chromogénique** ; des discordances existent pour certaines mutations et pour certains facteurs recombinants modifiés — d'où l'importance d'un laboratoire spécialisé [S1].
+
+### 9.3 Recherche et titrage d'un inhibiteur
+
+- **Méthode Bethesda** (modification de Nijmegen recommandée) : titrage en UB/mL [S1].
+- Indications : dépistage régulier pendant les **premiers jours d'exposition** (au moins jusqu'à 50 jours d'exposition), avant toute chirurgie, et **à chaque réponse insuffisante** au traitement (saignement non contrôlé, récupération ou demi-vie réduite) [S1].
+- Sous **émicizumab**, les tests fondés sur le TCA (dont le TCA lui-même et les dosages chronométriques en un temps du FVIII) sont **faussés** (TCA normalisé) : il faut utiliser des méthodes **chromogéniques** avec réactifs bovins pour doser le FVIII ou titrer l'inhibiteur [S1].
+
+### 9.4 Biologie moléculaire et diagnostic des conductrices
+
+- **Génotypage** du propositus (inversion intron 22, séquençage *F8*/*F9*) : prédit le risque d'inhibiteur et permet le **diagnostic des conductrices** et le **diagnostic prénatal**.
+- Chez une femme apparentée : dosage du facteur (un taux normal **n'élimine pas** le statut de conductrice) et **analyse génétique** ciblée.
+
+### 9.5 Imagerie
+
+- **Échographie articulaire et musculaire** : confirme une hémarthrose, suit la synovite, diagnostique un hématome du psoas.
+- **Scanner cérébral sans injection** en urgence devant tout traumatisme crânien significatif ou signe neurologique — **après** l'injection de facteur, qui ne doit jamais être retardée par l'imagerie [S1].
+- **IRM** articulaire : synovite, lésions cartilagineuses précoces ; radiographies : arthropathie évoluée.
+
+### 9.6 Bilan initial et de suivi d'un hémophile connu
+
+Groupe sanguin, sérologies VIH, VHB, VHC (et statut vaccinal VHA/VHB), bilan hépatique, recherche d'inhibiteur, **pharmacocinétique** individuelle (récupération, demi-vie) pour personnaliser la prophylaxie, évaluation articulaire, état dentaire.
+
+---
+
+## 10. Formes cliniques
+
+### 10.1 Selon la sévérité
+- **Sévère** : saignements spontanés multiples ; arthropathie précoce en l'absence de prophylaxie.
+- **Modérée** : hétérogène ; certains patients ont un phénotype « sévère » justifiant une prophylaxie [S1].
+- **Mineure** : diagnostic souvent tardif, à l'occasion d'une chirurgie ou d'un traumatisme ; répond à la **desmopressine** pour l'hémophilie A.
+
+### 10.2 Hémophilie avec inhibiteur
+- Inefficacité des concentrés de FVIII/FIX ; saignements plus difficiles à contrôler, arthropathie plus sévère.
+- Hémophilie B avec inhibiteur : rare mais exposée à des **réactions allergiques/anaphylactiques** au FIX et à un **syndrome néphrotique** lors de l'induction de tolérance [S1].
+
+### 10.3 Conductrices symptomatiques et hémophilie féminine
+- Ménorragies, hémorragies du post-partum, saignements après chirurgie ou extraction dentaire ; à rechercher chez toute conductrice (dosage du facteur avant geste et avant l'accouchement) [S1, S2].
+
+### 10.4 Nouveau-né hémophile
+- Risque d'hémorragie intracrânienne lors d'un accouchement instrumental ; éviter ventouse, forceps, électrodes de scalp et prélèvements de scalp chez un fœtus potentiellement atteint ; dosage du facteur au sang du cordon (le FIX est physiologiquement bas chez le nouveau-né : contrôle ultérieur nécessaire pour l'hémophilie B mineure) [S1].
+
+### 10.5 Hémophile âgé
+- Comorbidités cardiovasculaires (le déficit ne protège pas totalement de l'athérosclérose), cancers, hépatopathies post-virales, arthropathie invalidante, chutes ; gestion complexe des **antithrombotiques** en centre spécialisé [S1].
+
+### 10.6 Hémophilie A acquise [S7]
+- Sujet **âgé** (> 65 ans) ou **femme en post-partum**, **sans antécédent hémorragique** personnel ni familial.
+- Hémorragies **sous-cutanées étendues** (larges ecchymoses), musculaires, digestives, post-opératoires ; les **hémarthroses sont rares** (contrairement à l'hémophilie constitutionnelle).
+- TCA allongé **non corrigé** par le plasma témoin (après incubation), FVIII bas, anticorps anti-FVIII titré en UB.
+- Traitement : **agents by-passants** (facteur VIIa recombinant, CCPa) ou FVIII porcin recombinant pour les saignements, **éradication de l'auto-anticorps** par immunosuppression (corticoïdes ± cyclophosphamide ou rituximab) ; recherche d'une cause (cancer, maladie auto-immune) ; l'émicizumab est utilisé dans certains pays `[À VÉRIFIER : statut d'autorisation]`. Mortalité non négligeable (hémorragies, infections sous immunosuppresseurs).
+
+---
+
+## 11. Diagnostics différentiels
+
+**Tableau 3 — Diagnostic différentiel d'un TCA isolément allongé et d'un syndrome hémorragique**
+
+| Diagnostic | Clinique | Biologie discriminante |
+|---|---|---|
+| Hémophilie A / B | Garçon, hémarthroses, hématomes, antécédents familiaux maternels | FVIII ou FIX bas, correction du TCA par plasma témoin |
+| Maladie de Willebrand type 3 | Deux sexes, saignements muqueux **et** hémarthroses | VWF effondré, FVIII bas, PFA allongé |
+| Maladie de Willebrand type 2N | Deux sexes, phénotype d'hémophilie A mineure | Liaison VWF–FVIII diminuée (test spécifique), transmission autosomique récessive |
+| Déficit en FXI | Deux sexes, saignements surtout post-opératoires (zones fibrinolytiques : bouche, nez, voies urinaires) | FXI bas |
+| Déficit en FXII, prékallicréine, kininogène | **Aucun saignement** | TCA très allongé corrigé, facteur bas |
+| Anticoagulant de type lupique | Aucun saignement ; thromboses, fausses couches | TCA non corrigé, tests spécifiques (dRVVT), anticorps antiphospholipides |
+| Hémophilie A acquise | Sujet âgé ou post-partum, ecchymoses extensives | TCA non corrigé après incubation, FVIII bas, anti-FVIII en UB |
+| Héparine | Contexte de traitement | Temps de thrombine allongé, anti-Xa |
+| Maltraitance (enfant) | Ecchymoses d'âges différents, lésions inexpliquées | Bilan d'hémostase **normal** (à faire avant de conclure) |
+
+---
+
+## 12. Évolution, complications, pronostic
+
+- **Sans traitement adéquat** (situation encore fréquente dans les pays à ressources limitées) : arthropathie invalidante dès l'adolescence, handicap moteur, décès prématuré par hémorragie intracrânienne ou post-traumatique.
+- **Avec prophylaxie précoce** : prévention de l'arthropathie, scolarité et vie professionnelle normales, espérance de vie proche de celle de la population générale dans les pays à ressources élevées [S1].
+- **Complications** :
+  - **musculo-squelettiques** : synovite chronique, arthropathie, ostéoporose, pseudotumeurs, fractures ;
+  - **inhibiteurs** : complication la plus redoutée du traitement substitutif (fréquence plus élevée dans l'hémophilie A sévère que dans l'hémophilie B) [S1] ;
+  - **infectieuses** : séquelles des contaminations historiques (VIH, VHC), infections de cathéters veineux centraux chez l'enfant ;
+  - **psychosociales** : douleur chronique, absentéisme, coût du traitement.
+- **Pronostic des épisodes aigus** : l'hémorragie intracrânienne reste la principale cause de mortalité hémorragique ; elle peut survenir **à distance** du traumatisme.
+
+---
+
+## 13. Traitement
+
+### 13.1 Objectifs
+
+1. **Arrêter rapidement tout saignement** (traitement « le plus tôt possible », idéalement dans les 2 heures, à domicile si le patient est formé) [S1].
+2. **Prévenir les saignements** et l'arthropathie par la **prophylaxie**, qui est le standard recommandé par la WFH pour les formes sévères (et les formes modérées à phénotype sévère) [S1].
+3. Prévenir et traiter les **inhibiteurs**.
+4. Assurer une **prise en charge globale** (orthopédie, rééducation, soins dentaires, psychosocial) au sein d'un **centre de traitement de l'hémophilie (CTH)** multidisciplinaire [S1, S2].
+
+### 13.2 Moyens
+
+#### 13.2.1 Concentrés de facteurs de coagulation (traitement substitutif)
+- **Plasmatiques** (avec étapes d'inactivation/élimination virale) ou **recombinants** ; facteurs à **demi-vie standard** ou **prolongée** (pégylation, fusion Fc ou albumine…), permettant d'espacer les injections.
+- Voie **intraveineuse** exclusive ; auto-injection à domicile après éducation.
+- **Calcul de dose** (règle pratique de la WFH [S1]) :
+  - **FVIII** : dose (UI) = poids (kg) × élévation souhaitée (UI/dL) × **0,5** ;
+  - **FIX** : dose (UI) = poids (kg) × élévation souhaitée (UI/dL) × **1** (récupération plus faible de certains FIX recombinants : se référer au RCP du produit) ;
+  - arrondir à la taille des flacons ; adapter selon la **pharmacocinétique** individuelle et l'évolution clinique.
+- **Niveaux cibles indicatifs** (WFH 2020, tableaux « niveaux de facteur et durée » [S1]) `[POSOLOGIE À VÉRIFIER — tableau WFH 2020 / protocole du CTH]` :
+
+| Saignement | Hémophilie A : pic visé (UI/dL) | Hémophilie B : pic visé (UI/dL) | Durée indicative |
+|---|---|---|---|
+| Hémarthrose | 40–60 | 40–60 | 1–2 jours, ou plus si réponse insuffisante |
+| Hématome musculaire superficiel | 40–60 | 40–60 | 2–3 jours |
+| Hématome du psoas / musculaire profond avec atteinte neurovasculaire | 80–100 (initial), puis 30–60 | 60–80 (initial), puis 30–60 | Plusieurs jours (phase d'entretien prolongée) |
+| Hémorragie intracrânienne / cervicale | 80–100 (initial), puis 50 | 60–80 (initial), puis 30 | 7 à 21 jours selon l'évolution |
+| Hémorragie digestive | 80–100 puis 50 | 60–80 puis 30 | Jusqu'à guérison |
+| Chirurgie majeure | 80–100 (préopératoire) puis décroissant | 60–80 (préopératoire) puis décroissant | Selon le geste |
+
+> La WFH décrit aussi des schémas à **doses plus faibles** utilisés là où les produits sont limités ; le niveau et la durée doivent être adaptés aux ressources disponibles et à la réponse clinique [S1].
+
+#### 13.2.2 Émicizumab
+- **Anticorps monoclonal bispécifique** humanisé qui rapproche le **FIXa** et le **FX**, **mimant la fonction cofacteur du FVIIIa** ; il n'est **pas reconnu par les inhibiteurs anti-FVIII**.
+- Indication : **prophylaxie de l'hémophilie A sévère**, avec ou sans inhibiteur ; **pas d'indication dans l'hémophilie B** ni pour traiter un saignement aigu.
+- Administration **sous-cutanée** : dose de charge **3 mg/kg/semaine pendant 4 semaines**, puis entretien **1,5 mg/kg/semaine**, **3 mg/kg toutes les 2 semaines** ou **6 mg/kg toutes les 4 semaines** [S5] `[POSOLOGIE À VÉRIFIER — RCP]`.
+- Dans l'essai HAVEN 3 (hémophilie A sans inhibiteur), la prophylaxie hebdomadaire ou bimensuelle a réduit très fortement le taux de saignements traités par rapport à l'absence de prophylaxie, et davantage que la prophylaxie antérieure par FVIII dans la comparaison intra-individuelle [S5].
+- Précautions :
+  - **microangiopathie thrombotique et thromboses** décrites lors de l'association avec des **CCPa à doses cumulées élevées** : privilégier le rFVIIa pour traiter les saignements intercurrents sous émicizumab [S1] ;
+  - **interférence biologique** : TCA normalisé, dosages chronométriques faussés (méthodes chromogéniques bovines requises) [S1] ;
+  - le patient reste exposé aux saignements traumatiques : les saignements intercurrents se traitent par FVIII (sans inhibiteur) ou rFVIIa (avec inhibiteur).
+
+#### 13.2.3 Agents « by-passants » (patients avec inhibiteur fort répondeur)
+- **Facteur VII activé recombinant (rFVIIa)** et **concentré de complexe prothrombinique activé (CCPa)** : ils contournent l'étape FVIII/FIX ; efficacité moins prévisible que le facteur ; risque thrombotique [S1] `[POSOLOGIE À VÉRIFIER — RCP / protocole du CTH]`.
+- Pas de test biologique simple pour monitorer leur efficacité : surveillance clinique.
+
+#### 13.2.4 Induction de tolérance immune (ITI)
+- Administration **régulière et prolongée** de FVIII (plusieurs mois à années) pour éradiquer l'inhibiteur ; meilleure réussite si titre bas au début, chez l'enfant, et si débutée tôt ; possible en association avec l'émicizumab selon des protocoles récents [S1].
+
+#### 13.2.5 Desmopressine (DDAVP)
+- Analogue de la vasopressine qui **libère le FVIII et le facteur Willebrand** endothéliaux (élévation de 3 à 5 fois du taux de base) : utile dans l'**hémophilie A mineure** (et chez certaines conductrices), **inefficace dans l'hémophilie B et l'hémophilie A sévère** [S1].
+- **Test thérapeutique préalable** pour vérifier la réponse ; **tachyphylaxie** après plusieurs administrations rapprochées.
+- Voie IV ou SC (de l'ordre de **0,3 µg/kg**) ou intranasale [S1] `[POSOLOGIE À VÉRIFIER — RCP]`.
+- Effets indésirables : flush, céphalées, tachycardie, **rétention hydrique et hyponatrémie** (restriction hydrique de 24 h, prudence chez le jeune enfant), précaution chez le coronarien.
+
+#### 13.2.6 Antifibrinolytiques
+- **Acide tranexamique** (ou acide aminocaproïque) : saignements **muqueux** (épistaxis, gingivorragies, extraction dentaire en bains de bouche ou per os, ménorragies) en complément du facteur [S1] `[POSOLOGIE À VÉRIFIER — RCP]`.
+- **Contre-indiqué** dans l'**hématurie** (caillots obstructifs) ; prudence avec les CCPa.
+
+#### 13.2.7 Traitements adjuvants et prise en charge globale
+- **Hémarthrose** : facteur sans délai, **repos et immobilisation courte** en position antalgique, **glace** (de courte durée), surélévation, puis **rééducation précoce** dès la régression de la douleur ; ponction articulaire seulement exceptionnelle (épanchement tendu), sous couverture de facteur [S1].
+- **Antalgiques** : paracétamol, opioïdes si besoin ; les **inhibiteurs sélectifs de la COX-2** peuvent être utilisés avec prudence dans l'arthropathie chronique ; **aspirine et AINS classiques contre-indiqués** [S1].
+- **Synovite chronique** : synoviorthèse isotopique ou chimique, synovectomie arthroscopique.
+- **Chirurgie orthopédique** (prothèses) et soins dentaires dans un cadre programmé avec le CTH.
+- **Abord veineux** : préserver le capital veineux ; chambre implantable chez le jeune enfant si nécessaire (risque infectieux et thrombotique).
+
+#### 13.2.8 Nouvelles approches
+- Agents dits de « rééquilibrage » (anticorps anti-TFPI comme le concizumab ou le marstacimab ; ARN interférent anti-antithrombine comme le fitusiran) et **thérapie génique** (vecteurs AAV pour l'hémophilie A et B) : autorisés dans certains pays ou en évaluation ; accès limité et suivi à long terme nécessaire `[À VÉRIFIER : statut réglementaire en 2026 et disponibilité en Algérie]`.
+
+### 13.3 Stratégie
+
+#### 13.3.1 Prophylaxie au long cours
+- **Recommandée par la WFH** pour les hémophiles sévères (A et B), et pour les formes modérées avec phénotype sévère, idéalement **primaire** (avant 3 ans et avant la 2e hémarthrose) [S1].
+- Modalités : FVIII ou FIX à demi-vie standard ou prolongée, **ou émicizumab** (hémophilie A) ; les schémas sont **individualisés** (pharmacocinétique, activité physique, état articulaire) ; la WFH reconnaît l'intérêt de la prophylaxie même à **faible dose** dans les pays à ressources limitées, qui reste supérieure au traitement à la demande [S1].
+- Objectif : **aucun saignement spontané** (« zéro saignement ») ; le maintien d'un taux résiduel au-dessus de 1 UI/dL est un minimum historique ; des cibles plus élevées (≥ 3–5 UI/dL) sont discutées selon le mode de vie [S1].
+
+#### 13.3.2 Conduite à tenir devant un saignement aigu (synthèse)
+
+```text
+SAIGNEMENT CHEZ UN HÉMOPHILE CONNU
+│
+1. Injecter le facteur IMMÉDIATEMENT (ne pas attendre l'imagerie)
+   - Hémophilie A sans inhibiteur → FVIII (ou desmopressine si mineure et répondeur)
+   - Hémophilie B sans inhibiteur → FIX
+   - Inhibiteur fort répondeur → rFVIIa (préféré sous émicizumab) ou CCPa
+2. Évaluer la gravité
+   - Menace vitale (SNC, cou, digestif, psoas, loges, traumatisme majeur)
+     → hospitalisation, niveaux élevés, imagerie, avis du CTH
+   - Hémarthrose / hématome superficiel → domicile possible, contrôle à 24–48 h
+3. Mesures associées : immobilisation, glace, antalgiques (pas d'AINS ni d'aspirine),
+   acide tranexamique si saignement muqueux (pas d'hématurie)
+4. Si saignement non contrôlé malgré un traitement adapté → rechercher un INHIBITEUR
+5. Rééducation après la phase aiguë ; réévaluer l'indication de prophylaxie
+```
+
+#### 13.3.3 Gestes invasifs
+- **Tout geste invasif** (chirurgie, extraction dentaire, endoscopie avec biopsie, ponction) se prépare avec le CTH : dosage préopératoire de l'inhibiteur, plan de substitution écrit, disponibilité des produits [S1, S2].
+- **Injections intramusculaires contre-indiquées** ; vaccinations par voie **sous-cutanée** (ou IM avec aiguille fine et compression prolongée si la voie SC n'est pas possible, après avis) [S1].
+
+### 13.4 Particularités algériennes
+
+- Le registre national « Baromètre » témoigne d'une structuration récente du recueil de données au niveau du ministère de la Santé ; la majorité des patients inclus avaient une forme sévère [S6].
+- Les concentrés de facteurs relèvent de la **pharmacie hospitalière** (médicaments dérivés du sang ou recombinants) ; la disponibilité de la prophylaxie, des facteurs à demi-vie prolongée, de l'émicizumab et des agents by-passants dans les différentes wilayas n'a pas pu être vérifiée `[À VÉRIFIER : nomenclature nationale, programme national hémophilie, Association algérienne des hémophiles]`.
+- La pratique de la **circoncision** impose une **enquête familiale** et, en cas de doute, un **bilan d'hémostase préalable** chez les garçons dont un apparenté maternel est hémophile ; chez un hémophile connu, la circoncision se fait en milieu hospitalier sous couverture de facteur.

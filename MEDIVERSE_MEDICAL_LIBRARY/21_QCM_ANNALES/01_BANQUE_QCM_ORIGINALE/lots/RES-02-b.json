@@ -788,6 +788,56 @@
       "date_creation": "2026-11-19"
     },
     {
+      "id": "QCM-ANAP-5011",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle coloration met en évidence les dépôts amyloïdes, avec une biréfringence vert-jaune en lumière polarisée ?",
+      "propositions": {
+        "A": "Le rouge Congo.",
+        "B": "L'hématéine-éosine seule.",
+        "C": "Le bleu de Prusse (Perls).",
+        "D": "Le PAS (acide périodique-Schiff).",
+        "E": "Le trichrome de Masson."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "L'amylose correspond à des dépôts extracellulaires de protéines fibrillaires organisées en feuillets bêta plissés. Macroscopiquement, l'organe est ferme et cireux ; microscopiquement, le dépôt apparaît hyalin et éosinophile à l'hématéine-éosine, aspect non spécifique. La coloration de référence est le rouge Congo, qui confère aux dépôts une biréfringence (dichroïsme) vert-jaune en lumière polarisée. L'immunohistochimie précise le type de protéine amyloïde (AL, AA, transthyrétine, etc.). Le diagnostic d'amylose, souvent porté sur une biopsie (glandes salivaires, graisse, rectum, organe atteint), a des implications pronostiques et thérapeutiques majeures.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les dépôts amyloïdes fixent le rouge Congo et présentent un dichroïsme vert-jaune caractéristique en lumière polarisée.",
+        "B": "Faux : Elle montre un matériel hyalin éosinophile non spécifique, sans permettre d'affirmer l'amylose.",
+        "C": "Faux : Il met en évidence les dépôts de fer (hémosidérine).",
+        "D": "Faux : Il colore les polysaccharides, glycoprotéines et membranes basales, sans spécificité pour l'amylose.",
+        "E": "Faux : Il différencie collagène et muscle, utile pour la fibrose, mais n'est pas spécifique de l'amylose."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-040"
+      ],
+      "theme": "Coloration de l'amylose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les colorations : le rouge Congo pour l'amylose, le Perls pour le fer.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
       "id": "QCM-ANAP-5008",
       "format": "QCM (réponses multiples)",
       "enonce": "Concernant l'œdème et la congestion, quelles propositions sont exactes ?",
@@ -940,6 +990,683 @@
         {
           "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
           "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5012",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle est l'origine la plus fréquente d'une embolie pulmonaire cruorique ?",
+      "propositions": {
+        "A": "Une thrombose veineuse profonde des membres inférieurs.",
+        "B": "Un thrombus de l'oreillette gauche.",
+        "C": "Une plaque d'athérome de l'aorte abdominale.",
+        "D": "Une thrombose d'une artère coronaire.",
+        "E": "Une thrombose de l'artère centrale de la rétine."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "L'embolie pulmonaire cruorique provient, dans la grande majorité des cas, d'une thrombose veineuse profonde des membres inférieurs ou du pelvis. Le thrombus, détaché, chemine par le système veineux et le cœur droit jusqu'aux artères pulmonaires, où il provoque une obstruction aux conséquences hémodynamiques et gazeuses. La maladie thromboembolique veineuse regroupe ces deux entités. Les thrombus des cavités gauches et les plaques aortiques donnent au contraire des embolies de la circulation systémique (cerveau, membres, viscères). Cette distinction entre circulation veineuse (vers le poumon) et artérielle systémique est essentielle à la compréhension des embolies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le thrombus migre par le cœur droit vers les artères pulmonaires.",
+        "B": "Faux : Les thrombus des cavités gauches donnent surtout des embolies systémiques (cérébrales, des membres).",
+        "C": "Faux : Elle est source d'embolies systémiques, non pulmonaires.",
+        "D": "Faux : Elle provoque un infarctus du myocarde, non une embolie pulmonaire.",
+        "E": "Faux : Elle entraîne une ischémie rétinienne localisée."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-041"
+      ],
+      "theme": "Origine la plus fréquente d'une embolie pulmonaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer une embolie pulmonaire à un thrombus des cavités cardiaques gauches.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'inflammation aiguë, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle associe une phase vasculo-exsudative et une phase cellulaire.",
+        "B": "L'augmentation de la perméabilité vasculaire entraîne la formation d'un exsudat riche en protéines.",
+        "C": "Les polynucléaires neutrophiles sont les premières cellules recrutées dans l'inflammation aiguë.",
+        "D": "L'histamine, libérée notamment par les mastocytes, est un médiateur précoce de la vasodilatation et de la perméabilité.",
+        "E": "L'inflammation aiguë se caractérise par une infiltration prédominante de plasmocytes et de lymphocytes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'inflammation est la réponse locale des tissus vascularisés à une agression. Sa forme aiguë associe une phase vasculo-exsudative (vasodilatation, augmentation de la perméabilité, exsudat protéique, œdème) et une phase cellulaire (margination, adhérence, diapédèse et chimiotactisme des leucocytes, surtout polynucléaires neutrophiles). De nombreux médiateurs (histamine, kinines, dérivés de l'acide arachidonique, complément, cytokines) orchestrent ces phénomènes. L'inflammation vise à éliminer l'agent causal et à préparer la réparation. Sa persistance conduit à l'inflammation chronique, à infiltrat lymphoplasmocytaire et macrophagique.",
+      "explications_par_proposition": {
+        "A": "Vrai : La phase vasculaire comprend vasodilatation et augmentation de la perméabilité ; la phase cellulaire, le recrutement des leucocytes.",
+        "B": "Vrai : Elle est due à des médiateurs (histamine, bradykinine, leucotriènes).",
+        "C": "Vrai : Ils migrent par diapédèse après margination et adhérence à l'endothélium.",
+        "D": "Vrai : Elle agit de façon immédiate et transitoire.",
+        "E": "Faux : L'infiltrat lymphoplasmocytaire caractérise l'inflammation chronique ; l'inflammation aiguë est dominée par les polynucléaires neutrophiles."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-042"
+      ],
+      "theme": "Dynamique de l'inflammation aiguë",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à l'inflammation aiguë l'infiltrat lymphoplasmocytaire propre à l'inflammation chronique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les médiateurs de l'inflammation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les prostaglandines et les leucotriènes dérivent de l'acide arachidonique.",
+        "B": "Les anti-inflammatoires non stéroïdiens inhibent les cyclo-oxygénases.",
+        "C": "Le TNF-alpha et l'IL-1 sont des cytokines pro-inflammatoires majeures.",
+        "D": "Les corticoïdes exercent un effet anti-inflammatoire puissant.",
+        "E": "L'histamine est un médiateur tardif de l'inflammation, agissant plusieurs jours après l'agression."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les médiateurs de l'inflammation, d'origine plasmatique (complément, système des kinines, coagulation) ou cellulaire (amines vasoactives comme l'histamine, dérivés de l'acide arachidonique, cytokines, chimiokines, dérivés réactifs de l'oxygène, monoxyde d'azote), orchestrent les phénomènes vasculaires et cellulaires. Les dérivés de l'acide arachidonique (prostaglandines via la cyclo-oxygénase, leucotriènes via la lipoxygénase) sont les cibles des anti-inflammatoires non stéroïdiens et, en amont, des corticoïdes (inhibition de la phospholipase A2). Les cytokines (TNF-alpha, IL-1, IL-6) médient les effets systémiques. Cette cascade, finement régulée, explique les symptômes et les cibles thérapeutiques de l'inflammation.",
+      "explications_par_proposition": {
+        "A": "Vrai : La voie de la cyclo-oxygénase produit les prostaglandines, celle de la lipoxygénase les leucotriènes.",
+        "B": "Vrai : Ils réduisent la synthèse des prostaglandines, d'où leurs effets antalgique, antipyrétique et anti-inflammatoire.",
+        "C": "Vrai : Elles induisent la fièvre, l'activation endothéliale et la synthèse des protéines de la phase aiguë.",
+        "D": "Vrai : Ils inhibent notamment la phospholipase A2 et la production de nombreux médiateurs et cytokines.",
+        "E": "Faux : L'histamine est un médiateur précoce, à action immédiate et brève, libéré notamment par les mastocytes."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-042"
+      ],
+      "theme": "Médiateurs de l'inflammation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Considérer l'histamine comme un médiateur tardif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Rang HP, Dale MM, Flower RJ, Henderson G. Rang & Dale's Pharmacology. 8e éd. Elsevier / Churchill Livingstone ; 2016 [catalogue OUV-0201].",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'inflammation chronique granulomateuse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le granulome épithélioïde et gigantocellulaire est une forme particulière d'inflammation chronique.",
+        "B": "La tuberculose est une cause classique de granulome avec nécrose caséeuse.",
+        "C": "La sarcoïdose donne des granulomes sans nécrose caséeuse (tuberculoïdes).",
+        "D": "Les cellules géantes multinucléées résultent de la fusion de macrophages.",
+        "E": "Un granulome épithélioïde est pathognomonique de la tuberculose."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'inflammation chronique, à infiltrat lymphoplasmocytaire et macrophagique, peut prendre une forme granulomateuse. Le granulome épithélioïde et gigantocellulaire est une organisation nodulaire de macrophages transformés en cellules épithélioïdes et géantes multinucléées, parfois entourées de lymphocytes. La présence et le type de nécrose orientent : nécrose caséeuse (tuberculose), absence de nécrose (sarcoïdose, granulomes tuberculoïdes). Mais aucun granulome n'est à lui seul pathognomonique : les causes sont nombreuses (infections, sarcoïdose, corps étrangers, maladies inflammatoires). L'identification de l'agent (colorations spéciales, cultures, biologie moléculaire) est essentielle au diagnostic étiologique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il est constitué de cellules épithélioïdes et de cellules géantes multinucléées dérivées des macrophages.",
+        "B": "Vrai : La nécrose caséeuse centrale est évocatrice, mais non pathognomonique.",
+        "C": "Vrai : Le diagnostic repose sur un faisceau d'arguments et l'élimination des autres causes.",
+        "D": "Vrai : Elles peuvent prendre différents aspects (Langhans, de type corps étranger).",
+        "E": "Faux : De nombreuses causes donnent des granulomes (tuberculose, sarcoïdose, certaines mycoses, corps étrangers, maladie de Crohn) ; la présence d'un granulome impose une enquête étiologique."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-042"
+      ],
+      "theme": "Inflammation granulomateuse",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un granulome épithélioïde affirme la tuberculose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5016",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle cellule est recrutée en premier sur le site d'une inflammation aiguë ?",
+      "propositions": {
+        "A": "Le polynucléaire neutrophile.",
+        "B": "Le plasmocyte.",
+        "C": "Le lymphocyte.",
+        "D": "Le fibroblaste.",
+        "E": "Le mastocyte."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "L'inflammation aiguë se caractérise par le recrutement rapide des polynucléaires neutrophiles, premières cellules à migrer du sang vers le foyer dans les premières heures, selon les étapes de margination, roulement, adhérence (sélectines puis intégrines et molécules d'adhésion) et diapédèse, guidées par le chimiotactisme. Les neutrophiles assurent la phagocytose et la destruction des pathogènes. Si l'agression persiste, l'infiltrat évolue vers une composante macrophagique et lymphoplasmocytaire, caractéristique de l'inflammation chronique. La nature des cellules présentes dans un infiltrat inflammatoire a donc une valeur d'orientation sur l'ancienneté et le type de réaction.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il est la première cellule recrutée, par margination, adhérence puis diapédèse, dans les premières heures.",
+        "B": "Faux : Il caractérise l'inflammation chronique et produit les anticorps.",
+        "C": "Faux : Les lymphocytes prédominent dans l'inflammation chronique et les réponses spécifiques.",
+        "D": "Faux : Il intervient plus tardivement, lors de la réparation et de la fibrose.",
+        "E": "Faux : Il libère des médiateurs précoces (histamine) mais n'est pas la cellule recrutée en premier depuis le sang."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-042"
+      ],
+      "theme": "Première cellule de l'inflammation aiguë",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Désigner le lymphocyte ou le plasmocyte comme première cellule de l'inflammation aiguë.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'histologie du muscle strié squelettique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La cellule musculaire striée (fibre musculaire) est plurinucléée, les noyaux étant périphériques.",
+        "B": "Le sarcomère, unité contractile, est délimité par deux stries Z.",
+        "C": "Les myofilaments épais sont constitués de myosine, les myofilaments fins d'actine.",
+        "D": "Le réticulum sarcoplasmique stocke le calcium et l'ion est libéré lors du couplage excitation-contraction.",
+        "E": "La bande A (sombre) correspond uniquement aux filaments fins d'actine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le muscle strié squelettique est formé de fibres plurinucléées (noyaux périphériques) issues de la fusion de myoblastes, contenant des myofibrilles striées. L'unité contractile, le sarcomère, est délimité par les stries Z et comporte des filaments épais (myosine, bande A) et fins (actine, bande I), dont le chevauchement produit la striation. Le réticulum sarcoplasmique stocke le calcium ; les tubules T, invaginations de la membrane, propagent la dépolarisation en profondeur et assurent le couplage excitation-contraction. Les cellules satellites permettent la régénération. Cette organisation sous-tend la physiologie de la contraction.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle résulte de la fusion de myoblastes.",
+        "B": "Vrai : Il comprend les bandes claires (I) et sombres (A).",
+        "C": "Vrai : Leur arrangement régulier donne l'aspect strié.",
+        "D": "Vrai : Les tubules T propagent la dépolarisation vers la profondeur de la fibre.",
+        "E": "Faux : La bande A correspond à la longueur des filaments épais de myosine (zone de chevauchement actine-myosine) ; la bande I ne contient que des filaments fins."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-043"
+      ],
+      "theme": "Ultrastructure du muscle strié squelettique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre bande A (myosine, chevauchement) et bande I (actine seule).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Ross MH, Pawlina W. Histology: A Text and Atlas, with Correlated Cell and Molecular Biology. 8e éd. Wolters Kluwer Health ; 2020 [catalogue OUV-0163].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5011",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans la fibre musculaire striée squelettique, où sont situés les noyaux ?",
+      "propositions": {
+        "A": "En périphérie, juste sous le sarcolemme.",
+        "B": "Au centre de la fibre.",
+        "C": "Dans un noyau unique central.",
+        "D": "Regroupés à une seule extrémité de la fibre.",
+        "E": "Dans le réticulum sarcoplasmique."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La fibre musculaire striée squelettique est une grande cellule cylindrique plurinucléée, issue de la fusion de nombreux myoblastes au cours du développement. Ses noyaux, allongés, sont caractéristiquement situés à la périphérie, juste sous le sarcolemme, ce qui laisse le centre occupé par les myofibrilles contractiles. Cette disposition distingue le muscle squelettique du muscle cardiaque (noyau central, cellules mononucléées ou binucléées) et du muscle lisse (noyau central unique). La présence de noyaux centraux dans un muscle squelettique adulte est pathologique (myopathies centronucléaires) ou témoigne d'une régénération. Les cellules satellites, situées en périphérie, assurent cette régénération.",
+      "explications_par_proposition": {
+        "A": "Vrai : La fibre est plurinucléée, avec des noyaux allongés disposés à la périphérie.",
+        "B": "Faux : La position centrale des noyaux est anormale dans le muscle adulte et s'observe dans certaines myopathies (myopathies centronucléaires) ou lors de la régénération.",
+        "C": "Faux : La fibre musculaire squelettique est plurinucléée, non mononucléée.",
+        "D": "Faux : Les noyaux sont répartis sur toute la longueur de la fibre, en périphérie.",
+        "E": "Faux : Le réticulum sarcoplasmique est un système de citernes stockant le calcium, dépourvu de noyaux."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-043"
+      ],
+      "theme": "Localisation des noyaux de la fibre musculaire squelettique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer au muscle squelettique un noyau central, propre au muscle cardiaque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Ross MH, Pawlina W. Histology: A Text and Atlas, with Correlated Cell and Molecular Biology. 8e éd. Wolters Kluwer Health ; 2020 [catalogue OUV-0163].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5040",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le couplage excitation-contraction du muscle strié squelettique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le potentiel d'action se propage le long de la membrane puis des tubules T.",
+        "B": "La dépolarisation des tubules T entraîne la libération de calcium par le réticulum sarcoplasmique.",
+        "C": "Le calcium se lie à la troponine C, ce qui démasque les sites de liaison de l'actine à la myosine.",
+        "D": "Le cycle des ponts d'union consomme de l'ATP, nécessaire au détachement des têtes de myosine.",
+        "E": "La contraction se fait par raccourcissement de la longueur des filaments d'actine et de myosine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le couplage excitation-contraction convertit le signal électrique en force mécanique. Le potentiel d'action se propage le long du sarcolemme et des tubules T jusqu'aux triades, où le couplage entre récepteurs des dihydropyridines et récepteurs de la ryanodine libère le calcium du réticulum sarcoplasmique. Le calcium se fixe sur la troponine C, déplaçant la tropomyosine et démasquant les sites de l'actine. Les têtes de myosine, par un cycle consommant de l'ATP, tirent les filaments fins (théorie du glissement), raccourcissant le sarcomère. La recapture du calcium et la présence d'ATP permettent la relaxation. Ce mécanisme éclaire la rigidité cadavérique et certaines myopathies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il atteint ainsi les triades au contact du réticulum sarcoplasmique.",
+        "B": "Vrai : Via le couplage entre les récepteurs des dihydropyridines (tubule T) et les récepteurs de la ryanodine (réticulum).",
+        "C": "Vrai : La tropomyosine se déplace et permet la formation des ponts actine-myosine.",
+        "D": "Vrai : En l'absence d'ATP, les ponts restent liés, ce qui explique la rigidité cadavérique.",
+        "E": "Faux : Selon la théorie du glissement, les filaments ne se raccourcissent pas : ils glissent les uns sur les autres, rapprochant les stries Z (raccourcissement du sarcomère)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-043"
+      ],
+      "theme": "Couplage excitation-contraction du muscle squelettique",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les filaments se raccourcissent : ils glissent les uns sur les autres.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5041",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les propriétés de la contraction du muscle squelettique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les fibres de type I (lentes) sont riches en mitochondries et en myoglobine et résistantes à la fatigue.",
+        "B": "Les fibres de type II (rapides) sont adaptées aux efforts brefs et intenses.",
+        "C": "La sommation des secousses et le recrutement d'unités motrices permettent de graduer la force.",
+        "D": "Une unité motrice comprend un motoneurone alpha et l'ensemble des fibres musculaires qu'il innerve.",
+        "E": "La force développée par un muscle est indépendante de sa longueur initiale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le muscle squelettique gradue sa force par deux mécanismes : le recrutement d'un nombre croissant d'unités motrices et l'augmentation de la fréquence de stimulation (sommation temporelle jusqu'au tétanos). Les fibres se répartissent en types I (lentes, oxydatives, résistantes à la fatigue) et II (rapides, glycolytiques ou oxydo-glycolytiques, plus puissantes mais fatigables), selon les besoins. La relation tension-longueur montre une force maximale pour une longueur optimale de chevauchement des filaments. L'unité motrice (un motoneurone et ses fibres) est l'unité fonctionnelle de la commande. Ces propriétés expliquent l'adaptation du muscle à l'effort et à l'entraînement.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elles ont un métabolisme oxydatif, adaptées à l'endurance.",
+        "B": "Vrai : Les fibres de type IIx (glycolytiques) sont puissantes mais fatigables.",
+        "C": "Vrai : La fusion des secousses aboutit au tétanos, qui développe une force supérieure à la secousse isolée.",
+        "D": "Vrai : Plus les unités motrices sont petites, plus le contrôle du mouvement est fin.",
+        "E": "Faux : La force dépend de la longueur initiale (relation tension-longueur) : elle est maximale pour une longueur optimale de chevauchement actine-myosine."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-043"
+      ],
+      "theme": "Types de fibres musculaires et mécanique de la contraction",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la relation tension-longueur dans la production de force.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5042",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les fonctions de conduction de la moelle épinière, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le faisceau cortico-spinal (pyramidal) est une voie motrice descendante.",
+        "B": "Le cordon postérieur conduit la sensibilité tactile épicritique et la proprioception consciente.",
+        "C": "Le faisceau spino-thalamique conduit la sensibilité thermo-algique et tactile protopathique.",
+        "D": "Une hémisection de la moelle entraîne un syndrome de Brown-Séquard.",
+        "E": "Toutes les voies sensitives croisent la ligne médiane au même niveau."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La moelle épinière assure la conduction entre l'encéphale et la périphérie. Les voies descendantes motrices (faisceau cortico-spinal, décussé au bulbe) commandent la motricité volontaire. Les voies ascendantes sensitives empruntent deux systèmes : le cordon postérieur (tact épicritique, proprioception consciente, croisement bulbaire dans le lemnisque médial) et le faisceau spino-thalamique (sensibilité thermo-algique et tactile protopathique, croisement médullaire précoce). La différence de niveau de décussation explique les tableaux cliniques, notamment le syndrome de Brown-Séquard après hémisection médullaire. La connaissance de ces voies est indispensable à la localisation des lésions.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il croise majoritairement la ligne médiane au niveau du bulbe (décussation des pyramides).",
+        "B": "Vrai : Ses fibres croisent au niveau du bulbe (lemnisque médial).",
+        "C": "Vrai : Ses fibres croisent la ligne médiane dès leur entrée dans la moelle (quelques métamères au-dessus).",
+        "D": "Vrai : Avec déficit moteur et tactile épicritique homolatéral sous-lésionnel et déficit thermo-algique controlatéral.",
+        "E": "Faux : Les voies croisent à des niveaux différents : le faisceau spino-thalamique dans la moelle, le cordon postérieur dans le bulbe, ce qui explique la dissociation du syndrome de Brown-Séquard."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-044"
+      ],
+      "theme": "Voies de conduction de la moelle épinière",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que toutes les voies sensitives croisent au même niveau.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Splittgerber R, Snell RS. Snell's Clinical Neuroanatomy. 8e éd. Wolters Kluwer ; 2019 [catalogue OUV-0161].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5043",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les syndromes liés aux voies de conduction médullaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un syndrome cordonal postérieur entraîne une ataxie proprioceptive et une perte du sens de position.",
+        "B": "Une atteinte du faisceau cortico-spinal entraîne un syndrome pyramidal.",
+        "C": "Une section médullaire complète entraîne une paraplégie ou tétraplégie avec anesthésie sous-lésionnelle.",
+        "D": "Le syndrome syringomyélique réalise une dissociation thermo-algique suspendue avec conservation du tact épicritique.",
+        "E": "Une atteinte isolée du cordon postérieur abolit la sensibilité thermo-algique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les atteintes des voies de conduction médullaires se traduisent par des syndromes caractéristiques dont la connaissance permet la localisation. Le syndrome cordonal postérieur donne une ataxie proprioceptive (Romberg positif) ; le syndrome pyramidal, un déficit moteur spastique avec signe de Babinski ; le syndrome spino-thalamique, une atteinte thermo-algique. Le syndrome de Brown-Séquard (hémisection) associe signes pyramidaux et cordonaux postérieurs homolatéraux et atteinte thermo-algique controlatérale. Le syndrome syringomyélique réalise une dissociation thermo-algique suspendue. Ces tableaux reposent sur l'organisation anatomique et les niveaux de décussation des voies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Avec un signe de Romberg positif (aggravation à la fermeture des yeux).",
+        "B": "Vrai : Déficit moteur, hypertonie spastique, réflexes vifs, signe de Babinski.",
+        "C": "Vrai : Selon le niveau de la lésion, avec troubles sphinctériens.",
+        "D": "Vrai : Par atteinte des fibres spino-thalamiques croisant au centre de la moelle, respectant les cordons postérieurs.",
+        "E": "Faux : Le cordon postérieur conduit le tact épicritique et la proprioception, non la sensibilité thermo-algique (véhiculée par le faisceau spino-thalamique)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-044"
+      ],
+      "theme": "Syndromes médullaires de conduction",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer au cordon postérieur la sensibilité thermo-algique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Splittgerber R, Snell RS. Snell's Clinical Neuroanatomy. 8e éd. Wolters Kluwer ; 2019 [catalogue OUV-0161].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5044",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'organisation de la moelle épinière, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La substance grise, centrale, est organisée en cornes antérieures (motrices) et postérieures (sensitives).",
+        "B": "Les racines antérieures sont motrices et les racines postérieures sensitives (loi de Bell-Magendie).",
+        "C": "La substance blanche périphérique contient les faisceaux ascendants et descendants.",
+        "D": "Les motoneurones alpha de la corne antérieure constituent la voie finale commune de la motricité.",
+        "E": "Les racines postérieures sont motrices et les racines antérieures sensitives."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La moelle épinière comprend une substance grise centrale en forme de papillon (cornes antérieures motrices, postérieures sensitives, latérales végétatives dans la région thoracolombaire) et une substance blanche périphérique faite de cordons contenant les voies de conduction. La loi de Bell-Magendie établit que les racines antérieures sont motrices et les racines postérieures sensitives (avec le ganglion spinal). Les motoneurones alpha de la corne antérieure forment la voie finale commune de la motricité ; leur atteinte donne un syndrome neurogène périphérique, distinct du syndrome pyramidal (atteinte centrale). Cette organisation fonde la sémiologie médullaire et radiculaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les corps des motoneurones alpha sont dans la corne antérieure.",
+        "B": "Vrai : Le ganglion spinal, sur la racine postérieure, contient les corps des neurones sensitifs.",
+        "C": "Vrai : Organisée en cordons antérieur, latéral et postérieur.",
+        "D": "Vrai : Leur atteinte réalise un syndrome neurogène périphérique (amyotrophie, fasciculations, aréflexie).",
+        "E": "Faux : C'est l'inverse : les racines antérieures sont motrices, les racines postérieures sensitives (loi de Bell-Magendie)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-044"
+      ],
+      "theme": "Organisation sensitive et motrice de la moelle",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser la loi de Bell-Magendie (racines antérieures motrices, postérieures sensitives).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Splittgerber R, Snell RS. Snell's Clinical Neuroanatomy. 8e éd. Wolters Kluwer ; 2019 [catalogue OUV-0161].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5045",
+      "format": "QCS (réponse unique)",
+      "enonce": "À quel niveau le faisceau cortico-spinal (pyramidal) croise-t-il majoritairement la ligne médiane ?",
+      "propositions": {
+        "A": "Au niveau du bulbe rachidien (décussation des pyramides).",
+        "B": "Au niveau du chiasma optique.",
+        "C": "À l'entrée de chaque racine dans la moelle.",
+        "D": "Au niveau du thalamus.",
+        "E": "Il ne croise jamais la ligne médiane."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le faisceau cortico-spinal (pyramidal), principale voie motrice volontaire, naît du cortex moteur, descend par la capsule interne et le tronc cérébral, et croise majoritairement la ligne médiane au niveau du bulbe (décussation des pyramides), formant le faisceau cortico-spinal latéral ; une minorité de fibres reste homolatérale (faisceau cortico-spinal antérieur, croisant à l'étage médullaire). Cette décussation bulbaire explique qu'une lésion hémisphérique entraîne un déficit moteur controlatéral. Elle diffère du niveau de croisement des voies sensitives (bulbe pour le cordon postérieur, moelle pour le spino-thalamique), ce qui sous-tend les syndromes de localisation.",
+      "explications_par_proposition": {
+        "A": "Vrai : Environ 80 à 90 % des fibres y croisent pour former le faisceau cortico-spinal latéral.",
+        "B": "Faux : C'est le lieu de décussation partielle des voies visuelles, non des voies motrices.",
+        "C": "Faux : C'est le niveau de croisement du faisceau spino-thalamique, non du faisceau pyramidal.",
+        "D": "Faux : Le thalamus est un relais sensitif ; le faisceau pyramidal ne s'y croise pas.",
+        "E": "Faux : La majorité des fibres croisent au bulbe ; une minorité reste homolatérale (faisceau cortico-spinal antérieur)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-044"
+      ],
+      "theme": "Décussation du faisceau cortico-spinal",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Situer la décussation pyramidale au niveau médullaire, où croise en fait le faisceau spino-thalamique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Splittgerber R, Snell RS. Snell's Clinical Neuroanatomy. 8e éd. Wolters Kluwer ; 2019 [catalogue OUV-0161].",
+          "date": "2019"
         }
       ],
       "statut": "brouillon_a_auditer",

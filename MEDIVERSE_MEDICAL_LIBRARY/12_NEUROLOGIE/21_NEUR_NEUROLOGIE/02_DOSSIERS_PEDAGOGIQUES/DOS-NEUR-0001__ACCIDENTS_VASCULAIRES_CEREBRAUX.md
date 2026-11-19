@@ -6,11 +6,17 @@ sous_specialite: "Pathologie neurovasculaire"
 items_residanat: [RES-MED-030]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-06 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 10
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-NEUR-0001.md
 sources:
   - id: S1
     reference: "Prabhakaran S, et al. 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: a guideline from the American Heart Association/American Stroke Association. Stroke. 2026 (publication en ligne le 26 janvier 2026)."
@@ -37,11 +43,11 @@ sources:
     url: ""
     verifiee: true
   - id: S4
-    reference: "Turc G, et al. European Stroke Organisation (ESO) - European Society for Minimally Invasive Neurological Therapy (ESMINT) guidelines on mechanical thrombectomy in acute ischaemic stroke. Eur Stroke J. 2019."
+    reference: "Turc G, Bhogal P, Fischer U, et al. European Stroke Organisation (ESO) - European Society for Minimally Invasive Neurological Therapy (ESMINT) guidelines on mechanical thrombectomy in acute ischaemic stroke. Eur Stroke J. 2019;4(1):6-12."
     organisme: ESO/ESMINT
     annee: 2019
     type: recommandation
-    doi: ""
+    doi: "10.1177/2396987319832140"
     url: ""
     verifiee: true
   - id: S5
@@ -65,7 +71,7 @@ sources:
     organisme: AHA/ASA
     annee: 2022
     type: recommandation
-    doi: ""
+    doi: "10.1161/STR.0000000000000407"
     url: ""
     verifiee: true
   - id: S8
@@ -93,13 +99,13 @@ sources:
     url: "https://univ-constantine3.dz/wp-content/uploads/2026/07/Rapport-Annuel-2025_Registre-des-AVC-Constantine.pdf"
     verifiee: true
   - id: S11
-    reference: "Kleindorfer DO, et al. 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack (AHA/ASA). Stroke. 2021. [À VÉRIFIER — non confirmée pendant la session]"
+    reference: "Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack (AHA/ASA). Stroke. 2021;52(7):e364-e467. [Vérifiée à l'audit via le catalogue REC-0408 (Europe PMC)]"
     organisme: AHA/ASA
     annee: 2021
     type: recommandation
-    doi: ""
+    doi: "10.1161/STR.0000000000000375"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
     reference: "Essais pivots des fenêtres étendues : WAKE-UP (Thomalla, N Engl J Med 2018), EXTEND (Ma, N Engl J Med 2019), DAWN (Nogueira, N Engl J Med 2018), DEFUSE 3 (Albers, N Engl J Med 2018). [Citations non vérifiées pendant la session ; résultats repris via S1/S2]"
     organisme: divers
@@ -125,20 +131,20 @@ sources:
     url: ""
     verifiee: false
   - id: S15
-    reference: "Haute Autorité de Santé. Accident vasculaire cérébral : prise en charge précoce (alerte, phase préhospitalière, phase hospitalière initiale, indications de la thrombolyse). Recommandation de bonne pratique, 2009. [À VÉRIFIER — non confirmée pendant la session ; antérieure aux preuves sur la thrombectomie]"
+    reference: "Haute Autorité de santé. Accident vasculaire cérébral : prise en charge précoce (alerte, phase préhospitalière, phase hospitalière initiale, indications de la thrombolyse intraveineuse et de la thrombectomie mécanique). Recommandation de bonne pratique, mise à jour 2025 (validation du 23 octobre 2025), remplaçant la version de 2009. [Existence et date vérifiées à l'audit via le catalogue REC-0510 ; contenu détaillé non consulté]"
     organisme: HAS
-    annee: 2009
+    annee: 2025
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.has-sante.fr/jcms/c_830203/fr/accident-vasculaire-cerebral-prise-en-charge-precoce-alerte-phase-prehospitaliere-phase-hospitaliere-initiale-indications-de-la-thrombolyse"
+    verifiee: true
 mots_cles: [AVC, infarctus cérébral, accident ischémique transitoire, hémorragie intracérébrale, hémorragie sous-arachnoïdienne, thrombolyse, ténectéplase, thrombectomie, NIHSS, unité neurovasculaire, Algérie]
 ---
 
 # Accidents vasculaires cérébraux
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 — corrections requises (voir le bloc `audit` et le rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-030 — « Accidents vasculaires cérébraux : épidémiologie – physiopathologie – diagnostic – pronostic – traitement ».
 
@@ -280,7 +286,7 @@ Chez le **sujet jeune** (< 45–50 ans), les causes dominantes sont la dissectio
 
 | Échelle | Usage | Points clés |
 |---|---|---|
-| **NIHSS** (0–42) | Gravité initiale, indications, suivi | 11 items : vigilance, regard, champ visuel, paralysie faciale, motricité des 4 membres, ataxie, sensibilité, langage, dysarthrie, extinction/négligence. Sous-estime les AVC postérieurs |
+| **NIHSS** (0–42) | Gravité initiale, indications, suivi | 11 rubriques (15 items cotés) : vigilance, regard, champ visuel, paralysie faciale, motricité des 4 membres, ataxie, sensibilité, langage, dysarthrie, extinction/négligence. Sous-estime les AVC postérieurs |
 | **ASPECTS** (0–10) | Étendue de l'ischémie précoce au scanner dans le territoire sylvien | 10 régions (noyau caudé, lenticulaire, capsule interne, insula, M1 à M6) ; 1 point retiré par région atteinte ; ≥ 6 = infarctus limité |
 | **Score ICH** (0–6) | Pronostic vital de l'HIC | GCS 3–4 (2 points) ou 5–12 (1) ; volume ≥ 30 mL (1) ; inondation ventriculaire (1) ; origine infratentorielle (1) ; âge ≥ 80 ans (1) |
 | **WFNS** (I–V) | Gravité de l'HSA | I : GCS 15 sans déficit ; II : GCS 13–14 sans déficit ; III : GCS 13–14 avec déficit ; IV : GCS 7–12 ; V : GCS 3–6 |
@@ -420,7 +426,7 @@ Scanner sans injection (diagnostic, volume par la méthode ABC/2, inondation ven
 - **Hospitalisation en unité neurovasculaire** ou, à défaut, dans une unité avec protocoles écrits et équipe formée [S1].
 - Position : tête à plat ou proclive modéré selon la tolérance ; surveillance de la déglutition (à jeun jusqu'au test de déglutition).
 - **Oxygène** seulement en cas d'hypoxémie (objectif de saturation > 94 %), l'oxygénothérapie systématique n'apportant pas de bénéfice [S1].
-- **Glycémie** : corriger l'hypoglycémie ; traiter l'hyperglycémie, mais le **contrôle glycémique intensif (cible 80–130 mg/dL) n'est plus recommandé** dans la recommandation 2026 [S1].
+- **Glycémie** : corriger l'hypoglycémie ; traiter l'hyperglycémie, mais le **contrôle glycémique intensif (cible 80–130 mg/dL) n'est pas recommandé** (absence de bénéfice, risque d'hypoglycémie), position réaffirmée dans la recommandation 2026 [S1].
 - **Température** : rechercher et traiter une cause de fièvre ; antipyrétiques.
 - **Prévention thromboembolique** : compression pneumatique intermittente chez le patient immobilisé ; HBPM préventive selon le type d'AVC et le délai [S1, S7].
 - Nutrition (sonde si troubles de déglutition persistants), prévention d'escarres, mobilisation précoce prudente, kinésithérapie et orthophonie dès les premiers jours.
@@ -446,7 +452,7 @@ Molécules intraveineuses titrables usuelles : **nicardipine**, **urapidil**, **
 
 **Indications** (synthèse ESO 2021/2023 et AHA/ASA 2026) [S1–S3] :
 - infarctus cérébral avec **déficit invalidant**, traité **dans les 4,5 heures** suivant le début (ou la dernière heure vue normale), après élimination d'une hémorragie ;
-- **AVC du réveil ou d'heure inconnue** : thrombolyse possible si l'IRM montre une inadéquation diffusion/FLAIR, ou si l'imagerie de perfusion automatisée montre une pénombre récupérable — fenêtre de 4,5 à 9 heures jugée « raisonnable » par l'AHA/ASA 2026 chez des patients sélectionnés [S1, S12] ;
+- **AVC du réveil ou d'heure inconnue** : thrombolyse possible si l'IRM montre une inadéquation diffusion/FLAIR, ou si l'imagerie de perfusion automatisée montre une pénombre récupérable — fenêtre de 4,5 à 9 heures pour laquelle l'AHA/ASA 2026 juge que la thrombolyse « peut être raisonnable » (recommandation de faible force) chez des patients sélectionnés par imagerie de perfusion automatisée [S1, S12] ;
 - **occlusion d'un gros tronc** : la thrombolyse **ne doit pas être omise** chez le patient éligible avant thrombectomie, y compris en cas de transfert (« drip and ship ») [S5] ; l'ESO 2023 préfère le ténectéplase 0,25 mg/kg à l'altéplase dans ce contexte [S3].
 
 **Absence de bénéfice** : déficit mineur **non invalidant** (ex. trouble sensitif isolé) — la thrombolyse n'est pas recommandée ; un traitement antiplaquettaire est préféré [S1, S2].
@@ -467,7 +473,7 @@ Molécules intraveineuses titrables usuelles : **nicardipine**, **urapidil**, **
 |---|---|
 | Occlusion carotide interne / M1, **0–6 h**, NIHSS ≥ 6, ASPECTS ≥ 6, autonomie préalable (mRS 0–1) | Recommandée, en association avec la thrombolyse si le patient est éligible [S4, S5, S1] |
 | **6–24 h**, inadéquation clinico-radiologique ou cœur/pénombre (critères DAWN/DEFUSE 3) | Recommandée [S4, S1, S12] |
-| **Infarctus étendu** (« large core », ASPECTS bas) | Les essais 2022–2023 montrent un bénéfice ; l'AHA/ASA 2026 étend l'éligibilité à des patients sélectionnés — seuils exacts d'ASPECTS et fenêtres à vérifier dans le texte intégral [S1, S13 — À VÉRIFIER] |
+| **Infarctus étendu** (« large core », ASPECTS bas) | Les essais 2022–2023 (ASPECTS 3–5, jusqu'à 24 h) montrent un bénéfice ; l'AHA/ASA 2026 étend l'éligibilité aux infarctus étendus chez des patients sélectionnés (sans effet de masse significatif), jusqu'à 24 h selon l'imagerie ; la place des ASPECTS 0–2 et les classes de recommandation exactes sont à vérifier dans le texte intégral [S1, S13 — À VÉRIFIER] |
 | **Occlusion basilaire** | Thrombectomie recommandée chez les patients sélectionnés jusqu'à 24 h ; l'ESO-ESMINT 2024 suggère d'associer la thrombolyse quand elle est possible et suggère l'aspiration directe en première intention, sur des preuves de faible niveau [S6] |
 | **Occlusions de moyen calibre** (M2 distal, M3, ACA) | Pas de bénéfice démontré de la thrombectomie systématique (essais 2025) ; discussion au cas par cas [S13, S1] |
 | Absence d'éligibilité à la thrombolyse | La thrombectomie seule reste indiquée [S4] |
@@ -500,7 +506,7 @@ Délais à viser dans les filières : imagerie dans les minutes suivant l'arriv�
 
 - Prise en charge en centre neurochirurgical et neuroradiologique à fort volume.
 - **Exclusion de l'anévrisme le plus tôt possible**, de préférence dans les 24 h, par voie endovasculaire (embolisation) ou chirurgicale (clip), choix décidé en concertation.
-- **Nimodipine par voie entérale** débutée précocement (schéma classique : 60 mg toutes les 4 h pendant 21 jours ; [POSOLOGIE À VÉRIFIER — RCP]) : prévient l'ischémie cérébrale retardée et améliore le pronostic fonctionnel.
+- **Nimodipine par voie entérale** débutée précocement (60 mg toutes les 4 h pendant 21 jours, schéma du RCP de la nimodipine orale ; recommandation de la nimodipine orale par l'AHA/ASA 2023 [S8] ; réduire les prises unitaires en cas d'hypotension selon le RCP) : prévient l'ischémie cérébrale retardée et améliore le pronostic fonctionnel.
 - Maintien de l'**euvolémie** (l'hypervolémie prophylactique n'est pas recommandée) ; traitement de l'hydrocéphalie par dérivation ; pas de statine ni de magnésium IV systématiques ; antiépileptiques prophylactiques non systématiques.
 - Hyponatrémie : ne pas restreindre les apports hydriques (risque d'hypovolémie et d'ischémie).
 
@@ -861,22 +867,22 @@ Céphalée brutale maximale < 1 min
 | Occlusion basilaire | **ESO-ESMINT 2024** : thrombectomie suggérée, thrombolyse associée quand possible, aspiration directe en première intention, preuves faibles [S6] | Recommandations antérieures plus prudentes (avant ATTENTION/BAOCHE) | Évolution des preuves |
 | PA après thrombectomie | **AHA/ASA 2026** : ne pas viser PAS < 140 mmHg [S1] | Pratiques locales antérieures : cibles strictes < 140 ou < 120 après recanalisation | Les essais récents ont montré une absence de bénéfice, voire une nocivité, des cibles basses |
 | Glycémie | **AHA/ASA 2026** : contrôle intensif (80–130 mg/dL) non recommandé [S1] | Protocoles hospitaliers anciens à cibles strictes | Cible usuelle modérée, éviter l'hypoglycémie |
-| Recommandations françaises | **HAS 2009** : texte antérieur aux preuves sur la thrombectomie et le ténectéplase [S15 — non vérifiée] | Recommandations ESO/AHA récentes | Utiliser les textes européens et nord-américains récents ; signaler le décalage chronologique |
+| Recommandations françaises | **HAS, mise à jour 2025** (validée le 23 octobre 2025) : remplace la version de 2009 et intègre les indications de la thrombolyse IV et de la thrombectomie mécanique [S15 — contenu détaillé non consulté pendant l'audit] | Recommandations ESO/AHA récentes | Confronter les seuils détaillés de la HAS 2025 aux textes ESO et AHA/ASA 2026 avant enseignement [À VÉRIFIER] |
 
 ## 22. Références
 
 1. [S1] Prabhakaran S, et al. 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke (AHA/ASA). Stroke. 2026. doi:10.1161/STR.0000000000000513. — *vérifiée (publication en ligne 26/01/2026)*.
 2. [S2] Berge E, Whiteley W, et al. ESO guidelines on intravenous thrombolysis for acute ischaemic stroke. Eur Stroke J. 2021;6(1):I-LXII. doi:10.1177/2396987321989865. — *vérifiée*.
 3. [S3] Alamowitch S, Turc G, Palaiodimou L, et al. ESO expedited recommendation on tenecteplase for acute ischaemic stroke. Eur Stroke J. 2023;8(1):8-54. doi:10.1177/23969873221150022. — *vérifiée*.
-4. [S4] Turc G, et al. ESO-ESMINT guidelines on mechanical thrombectomy in acute ischaemic stroke. Eur Stroke J. 2019. — *vérifiée (existence ; pagination non contrôlée)*.
+4. [S4] Turc G, Bhogal P, Fischer U, et al. ESO-ESMINT guidelines on mechanical thrombectomy in acute ischaemic stroke. Eur Stroke J. 2019;4(1):6-12. doi:10.1177/2396987319832140. — *vérifiée*.
 5. [S5] ESO-ESMINT expedited recommendation on IVT before mechanical thrombectomy. J NeuroInterv Surg. 2022. doi:10.1136/neurintsurg-2021-018589. — *vérifiée*.
 6. [S6] ESO-ESMINT guideline on acute management of basilar artery occlusion. 2024. — *vérifiée (existence ; référence bibliographique complète à compléter)*.
-7. [S7] Greenberg SM, et al. 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (AHA/ASA). Stroke. 2022;53:e282-e361. — *vérifiée*.
+7. [S7] Greenberg SM, et al. 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (AHA/ASA). Stroke. 2022;53:e282-e361. doi:10.1161/STR.0000000000000407. — *vérifiée*.
 8. [S8] Hoh BL, et al. 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (AHA/ASA). Stroke. 2023;54:e314-e370. doi:10.1161/STR.0000000000000436. — *vérifiée*.
 9. [S9] INSP (Algérie). Lancement du Registre national de l'AVC, décembre 2024 (Radio Algérie ; Horizons). — *vérifiée*.
 10. [S10] Registre des AVC de Constantine. Rapport annuel 2025 (Université Constantine 3, 2026). — *document repéré, contenu chiffré non consulté*.
-11. [S11] Kleindorfer DO, et al. 2021 AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA. Stroke. 2021. — *non vérifiée pendant la session*.
+11. [S11] Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 2021 AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA. Stroke. 2021;52(7):e364-e467. doi:10.1161/STR.0000000000000375. — *vérifiée à l'audit (catalogue REC-0408)*.
 12. [S12] Essais WAKE-UP, EXTEND, DAWN, DEFUSE 3. — *non vérifiés pendant la session*.
 13. [S13] Essais RESCUE-Japan LIMIT, SELECT2, ANGEL-ASPECT, ESCAPE-MeVO, DISTAL. — *non vérifiés pendant la session*.
 14. [S14] Essais CHANCE, POINT, INSPIRES. — *non vérifiés pendant la session*.
-15. [S15] HAS. Accident vasculaire cérébral : prise en charge précoce. 2009. — *non vérifiée pendant la session*.
+15. [S15] HAS. Accident vasculaire cérébral : prise en charge précoce (alerte, phase préhospitalière, phase hospitalière initiale, indications de la thrombolyse intraveineuse et de la thrombectomie mécanique). Mise à jour 2025 (validation du 23/10/2025), remplaçant la version de 2009. — *vérifiée à l'audit (catalogue REC-0510) ; contenu détaillé non consulté*.

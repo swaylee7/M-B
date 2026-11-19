@@ -6,11 +6,17 @@ sous_specialite: "Neuro-réanimation et urgences neurologiques"
 items_residanat: [RES-MED-107]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-06 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-MINT_REA-0002.md
 sources:
   - id: S1
     reference: "Edlow JA, Rabinstein A, Traub SJ, Wijdicks EF. Diagnosis of reversible causes of coma. Lancet. 2014;384(9959):2064-2076."
@@ -29,13 +35,13 @@ sources:
     url: ""
     verifiee: true
   - id: S3
-    reference: "Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet. 1974. [À VÉRIFIER — non confirmée pendant la session]"
+    reference: "Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet. 1974;2(7872):81-84 (PMID 4136544). [Vérifiée à l'audit]"
     organisme: ""
     annee: 1974
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(74)91639-0"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S4
     reference: "European Resuscitation Council and European Society of Intensive Care Medicine Guidelines 2025: post-resuscitation care. Resuscitation. 2025;215:110809 ; Intensive Care Med. 2025;51(12):2213-2288."
     organisme: ERC/ESICM
@@ -101,13 +107,13 @@ sources:
     url: ""
     verifiee: false
   - id: S12
-    reference: "EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy (Galvin R, et al. Eur J Neurol. 2010). [Non vérifiée pendant la session]"
+    reference: "Galvin R, Bråthen G, Ivashynka A, et al. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol. 2010;17(12):1408-1418. [Vérifiée à l'audit]"
     organisme: EFNS
     annee: 2010
     type: recommandation
-    doi: ""
+    doi: "10.1111/j.1468-1331.2010.03153.x"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
     reference: "Consensus international sur la détermination de la mort encéphalique (World Brain Death Project, 2020) ; cadre légal algérien du prélèvement d'organes sur donneur décédé (loi sanitaire n° 18-11 de 2018). [Non vérifiés pendant la session]"
     organisme: divers
@@ -116,13 +122,21 @@ sources:
     doi: ""
     url: ""
     verifiee: false
+  - id: S14
+    reference: "Spasovski G, Vanholder R, Allolio B, et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia (ESE/ESICM/ERA-EDTA). Eur J Endocrinol. 2014;170(3):G1-G47. [Ajoutée à l'audit ; vérifiée via le catalogue REC-0314]"
+    organisme: ESE/ESICM/ERA-EDTA
+    annee: 2014
+    type: recommandation
+    doi: "10.1530/EJE-13-1020"
+    url: ""
+    verifiee: true
 mots_cles: [coma, troubles de conscience, score de Glasgow, score FOUR, engagement cérébral, coma toxique, coma métabolique, hypoglycémie, état de mal non convulsif, coma post-anoxique, mort encéphalique]
 ---
 
 # Comas : étiologies, physiopathologie, conduite à tenir
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 — corrections requises (voir le bloc `audit` et le rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-107 — « Comas : étiologie – physiopathologie – conduite à tenir ».
 
@@ -267,6 +281,19 @@ Quel que soit le mécanisme initial, le cerveau lésé est vulnérable à des ag
 
 Score de 3 à 15. Règles : coter la **meilleure** réponse, préciser les composantes (ex. « Y2 V2 M4 = 8 »), noter « V non évaluable » chez le patient intubé (ex. « Y1 VT M5 »). La **réponse motrice** est la composante la plus pronostique. Le Glasgow ne renseigne ni sur les pupilles ni sur le tronc cérébral.
 
+**Glasgow pédiatrique (enfant préverbal, en pratique avant 2 ans)** — l'ouverture des yeux se cote comme chez l'adulte ; les réponses verbale et motrice sont adaptées à l'âge (version usuelle ; plusieurs variantes publiées coexistent [À VÉRIFIER — confronter à la grille du protocole pédiatrique local]) :
+
+| Score | Réponse verbale (V) | Réponse motrice (M) |
+|---|---|---|
+| 6 | — | Mouvements spontanés normaux (ou obéit chez l'enfant plus grand) |
+| 5 | Babille, gazouille, sourit, suit du regard | Retrait au toucher (ou localise la douleur) |
+| 4 | Pleurs consolables, irritabilité | Retrait à la douleur |
+| 3 | Pleurs ou cris inconsolables à la douleur | Flexion anormale (décortication) |
+| 2 | Gémissements à la douleur, agitation | Extension (décérébration) |
+| 1 | Aucune | Aucune |
+
+Au-delà de l'âge verbal, l'échelle adulte s'applique, la réponse verbale étant jugée selon le développement de l'enfant.
+
 ### 7.2 Score FOUR (*Full Outline of UnResponsiveness*) [S2]
 
 Quatre composantes cotées de 0 à 4 (total 0–16) :
@@ -388,7 +415,7 @@ Un traumatisme crânien avec un Glasgow ≤ 8 est un **traumatisme crânien grav
 - **Acidocétose et syndrome hyperosmolaire** : déshydratation, polypnée de Kussmaul, haleine cétonique (acidocétose) ; hyperosmolarité majeure et troubles de conscience proportionnels (hyperosmolaire).
 - **Hyponatrémie** sévère symptomatique : risque d'œdème cérébral ; correction initiale rapide mais **limitée** (risque de myélinolyse osmotique en cas de correction trop rapide d'une hyponatrémie chronique).
 - **Encéphalopathie hépatique** : astérixis, *fetor*, facteur déclenchant (hémorragie digestive, infection, sédatifs, constipation, hypokaliémie).
-- **Encéphalopathie de Gayet-Wernicke** : alcoolisme, dénutrition, vomissements prolongés, chirurgie bariatrique ; triade (confusion, ophtalmoplégie, ataxie) souvent incomplète ; **thiamine IV à forte dose avant ou avec le glucose** [S12].
+- **Encéphalopathie de Gayet-Wernicke** : alcoolisme, dénutrition, vomissements prolongés, chirurgie bariatrique ; triade (confusion, ophtalmoplégie, ataxie) souvent incomplète ; **thiamine IV à forte dose (200 mg trois fois par jour) avant ou avec le glucose**, sans retarder la correction d'une hypoglycémie [S12].
 - **Hypercapnique** : insuffisant respiratoire chronique, oxygénothérapie excessive, sédatifs ; astérixis, sueurs, HTA ; ventilation non invasive ou intubation.
 - **Coma myxœdémateux** et **insuffisance surrénale aiguë** : hypothermie, bradycardie, hyponatrémie ; hydrocortisone IV sans attendre.
 
@@ -460,12 +487,12 @@ Maintien d'une pression de perfusion cérébrale suffisante : correction de l'hy
 | Situation | Traitement | Précautions |
 |---|---|---|
 | **Hypoglycémie** | Glucosé à 30 % IV (30 à 50 mL chez l'adulte), relayé par une perfusion de glucosé ; glucagon IM ou SC (1 mg) en l'absence de voie veineuse | Glucagon peu efficace en cas de jeûne prolongé, d'alcoolisme ou d'hypoglycémie aux sulfamides ; surveillance prolongée avec les sulfamides et les insulines lentes [POSOLOGIE À VÉRIFIER — protocole local] |
-| **Risque de carence en thiamine** (alcool, dénutrition, vomissements, chirurgie bariatrique) | **Thiamine IV** à forte dose avant ou en même temps que le glucose | Le glucose seul peut précipiter une encéphalopathie de Gayet-Wernicke [S12 — POSOLOGIE À VÉRIFIER] |
+| **Risque de carence en thiamine** (alcool, dénutrition, vomissements, chirurgie bariatrique) | **Thiamine IV** avant ou en même temps que le glucose, **sans jamais retarder la correction d'une hypoglycémie** ; encéphalopathie de Gayet-Wernicke suspectée ou avérée : **200 mg IV trois fois par jour**, débutée avant tout apport glucidique (EFNS 2010 [S12]) | Le glucose seul peut précipiter une encéphalopathie de Gayet-Wernicke ; durée du traitement IV selon l'évolution et le protocole local [S12] |
 | **Toxidrome opioïde** (myosis, bradypnée) | **Naloxone IV titrée** par petits bolus (ex. 0,04 mg) jusqu'à une fréquence respiratoire satisfaisante, et non jusqu'au réveil complet | Risque de sevrage aigu ; durée d'action courte : surveillance et perfusion si opioïde de longue durée d'action [S5 — POSOLOGIE À VÉRIFIER] |
 | **Intoxication isolée aux benzodiazépines** | Flumazénil **non recommandé** comme test diagnostique systématique | Risque de convulsions (intoxications mixtes, antidépresseurs tricycliques, dépendance chronique) ; indications restreintes [S5] |
 | **Intoxication au CO** | Oxygène à haut débit au masque à haute concentration dès la suspicion ; oxygénothérapie hyperbare selon les indications locales | Victimes multiples, prévention de la récidive [S9] |
 | **Méningite suspectée** | Céphalosporine de 3e génération à dose méningée + dexaméthasone, **avant** l'imagerie si celle-ci retarde | [POSOLOGIES À VÉRIFIER — protocole local] |
-| **Encéphalite suspectée** | **Aciclovir IV** (10 mg/kg toutes les 8 h chez l'adulte à fonction rénale normale) | Adapter à la fonction rénale [POSOLOGIE À VÉRIFIER — RCP] |
+| **Encéphalite suspectée** | **Aciclovir IV** (10 mg/kg toutes les 8 h chez l'adulte à fonction rénale normale, posologie de l'encéphalite herpétique du RCP de l'aciclovir IV) | Adapter à la fonction rénale (RCP) ; hydratation pour limiter la néphrotoxicité |
 | **Insuffisance surrénale aiguë suspectée** | Hydrocortisone IV (100 mg puis relais) | Ne pas attendre le dosage du cortisol [POSOLOGIE À VÉRIFIER] |
 
 #### d) État de mal épileptique
@@ -481,7 +508,7 @@ Benzodiazépine en première ligne (clonazépam ou diazépam IV, midazolam IM ou
 
 #### f) Corrections métaboliques
 
-- **Hyponatrémie** sévère symptomatique : sérum salé hypertonique en bolus, objectif d'une remontée initiale modeste (quelques mmol/L) suffisante pour arrêter les symptômes, puis **limitation de la correction** sur 24 h pour éviter la myélinolyse osmotique [POSOLOGIES ET SEUILS À VÉRIFIER — recommandations non vérifiées pendant la session].
+- **Hyponatrémie** sévère symptomatique (coma, convulsions) : **150 mL de NaCl à 3 % IV en 20 minutes**, renouvelables (contrôle de la natrémie entre les bolus) jusqu'à une hausse d'environ **5 mmol/L** ; puis **limitation de la correction à 10 mmol/L les 24 premières heures et 8 mmol/L par 24 h ensuite** pour éviter la myélinolyse osmotique (recommandation européenne 2014 [S14]).
 - Acidocétose : réhydratation, insuline IV, potassium (protocole).
 - Encéphalopathie hépatique : traitement du facteur déclenchant, lactulose, rifaximine selon les protocoles.
 - Hypothermie : réchauffement ; coup de chaleur : refroidissement rapide.
@@ -610,7 +637,7 @@ Mydriase aréactive unilatérale + coma
 
 1. Le coma est une **abolition de l'éveil et du contenu de conscience**, non réversible par la stimulation ; il résulte d'une atteinte **bihémisphérique diffuse**, d'une lésion du **SRAA** (tronc haut, thalamus) ou d'un **effet de masse** avec engagement.
 2. **Premières minutes** : ABC, **glycémie capillaire**, Glasgow et pupilles avant toute sédation, température, purpura, protection du rachis si traumatisme.
-3. **Thiamine avant ou avec le glucose** chez le patient à risque ; **naloxone titrée** devant myosis + bradypnée ; **flumazénil non systématique** [S5, S12].
+3. **Thiamine avant ou avec le glucose** chez le patient à risque, **sans jamais retarder le glucose** en cas d'hypoglycémie ; **naloxone titrée** devant myosis + bradypnée ; **flumazénil non systématique** [S5, S12].
 4. **Mydriase unilatérale aréactive** = engagement temporal jusqu'à preuve du contraire : osmothérapie, scanner, neurochirurgie.
 5. Un coma **sans signe de localisation avec pupilles réactives** oriente vers une cause toxique ou métabolique ; un coma **avec asymétrie** vers une cause structurelle.
 6. Fièvre, purpura ou syndrome méningé : **antibiotiques ± aciclovir sans attendre** l'imagerie ni la PL.
@@ -822,14 +849,14 @@ Mydriase aréactive unilatérale + coma
 | Flumazénil | **SRLF-SFMU 2020** : non recommandé en routine ; réservé à des situations sélectionnées (intoxication pure aux benzodiazépines, absence de contre-indication) [S5] | Pratiques anciennes de « test au flumazénil » devant tout coma | Le risque convulsif l'emporte sur l'intérêt diagnostique |
 | Température après arrêt cardiaque | **ERC-ESICM 2021** puis **2025** : prévention active de la fièvre plutôt qu'hypothermie systématique à 33 °C [S4] | Recommandations antérieures (2015) : contrôle ciblé de la température à 32–36 °C | Évolution après l'essai TTM2 (2021) [À VÉRIFIER — essai non vérifié pendant la session] |
 | Délai du pronostic post-anoxique | **ERC-ESICM** : pas avant 72 h, multimodal [S4] | Pratiques locales hétérogènes, décisions parfois plus précoces | Le risque de « prophétie autoréalisatrice » impose prudence et multimodalité |
-| Dose de thiamine | Schémas à forte dose IV (plusieurs centaines de mg par jour) dans l'encéphalopathie de Gayet-Wernicke avérée [S12 — non vérifiée] | Doses plus faibles en prévention | Doses à fixer par protocole local ; ne jamais retarder le glucose chez un hypoglycémique |
+| Dose de thiamine | **EFNS 2010** : 200 mg IV trois fois par jour dans l'encéphalopathie de Gayet-Wernicke suspectée ou avérée, avant tout apport glucidique (niveau de preuve faible) [S12] | Doses plus faibles en prévention ; durées et voies variables selon les pays (aucun consensus international ferme) | Doses de prévention à fixer par protocole local ; ne jamais retarder le glucose chez un hypoglycémique |
 | Mort encéphalique | Consensus international 2020 : diagnostic clinique, examens complémentaires si l'examen est incomplet [S13 — non vérifié] | Législations nationales (dont française et algérienne) exigeant souvent un examen paraclinique de confirmation | Toujours appliquer le cadre réglementaire national |
 
 ## 22. Références
 
 1. [S1] Edlow JA, Rabinstein A, Traub SJ, Wijdicks EF. Diagnosis of reversible causes of coma. Lancet. 2014;384(9959):2064-2076. — *vérifiée*.
 2. [S2] Wijdicks EF, et al. Validation of a new coma scale: the FOUR score. Ann Neurol. 2005;58(4):585-593. doi:10.1002/ana.20611. — *vérifiée*.
-3. [S3] Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet. 1974. — *non vérifiée pendant la session*.
+3. [S3] Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet. 1974;2(7872):81-84. doi:10.1016/S0140-6736(74)91639-0. — *vérifiée à l'audit*.
 4. [S4] ERC-ESICM Guidelines 2025: post-resuscitation care. Resuscitation. 2025;215:110809 ; Intensive Care Med. 2025;51(12):2213-2288. — *vérifiée (texte intégral non consulté ; points cités d'après les résumés officiels)*.
 5. [S5] Mégarbane B, et al. Management of pharmaceutical and recreational drug poisoning (SRLF-SFMU). Ann Intensive Care. 2020;10:157. doi:10.1186/s13613-020-00762-9. — *vérifiée*.
 6. [S6] Prabhakaran S, et al. 2026 AHA/ASA acute ischemic stroke guideline. Stroke. 2026. — *vérifiée*.
@@ -838,5 +865,6 @@ Mydriase aréactive unilatérale + coma
 9. [S9] Protection civile (Algérie) via Radio Algérie (bilan CO 2023) ; étude Université de Sétif sur les intoxications au CO. — *vérifiées (sources secondaires)*.
 10. [S10] Posner JB, Saper CB, Schiff ND, Claassen J. Plum and Posner's Diagnosis and Treatment of Stupor and Coma. OUP. — *ouvrage non consulté ; édition à vérifier*.
 11. [S11] Recommandations état de mal épileptique (SRLF/SFMU 2018) ; essai ESETT (2019). — *non vérifiés pendant la session*.
-12. [S12] EFNS guidelines on Wernicke encephalopathy (2010). — *non vérifiée pendant la session*.
+12. [S12] Galvin R, Bråthen G, Ivashynka A, et al. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol. 2010;17(12):1408-1418. doi:10.1111/j.1468-1331.2010.03153.x. — *vérifiée à l'audit*.
 13. [S13] World Brain Death Project (2020) ; loi sanitaire algérienne n° 18-11 (2018). — *non vérifiés pendant la session*.
+14. [S14] Spasovski G, Vanholder R, Allolio B, et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-G47. doi:10.1530/EJE-13-1020. — *ajoutée et vérifiée à l'audit (catalogue REC-0314)*.
