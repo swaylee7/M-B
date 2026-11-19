@@ -165,7 +165,7 @@ La DRN est l'**une des premières causes d'hospitalisation en néonatologie**. S
 ## 3. Épidémiologie
 
 - La **tachypnée transitoire** (retard de résorption du liquide pulmonaire) est la **cause la plus fréquente** de détresse respiratoire du nouveau-né **à terme** [S10].
-- La **maladie des membranes hyalines (MMH)** est d'autant plus fréquente que l'âge gestationnel est bas : selon des données européennes de 2014–2016 citées par le consensus européen, environ **la moitié** des nouveau-nés nés entre 22 et 32 SA reçoivent du **surfactant** [S1].
+- La **maladie des membranes hyalines (MMH)** est d'autant plus fréquente que l'âge gestationnel est bas : selon des données européennes de 2014–2016 citées par le consensus européen, environ **la moitié** des nouveau-nés nés entre 22 SA et 32 SA + 6 jours reçoivent du **surfactant** [S1].
 - L'**inhalation méconiale** concerne surtout le nouveau-né **à terme ou post-terme** né dans un liquide méconial épais ; dans le grand essai de Vain et al. (nouveau-nés ≥ 37 SA nés dans un liquide méconial), l'incidence du syndrome d'inhalation méconiale était d'environ **4 %** [S11].
 - **Algérie** : au CHU de Blida (1999–2006), parmi les décès néonatals **précoces** (0–6 jours), la **prématurité** représentait **42,1 %** des causes, le **syndrome de détresse respiratoire 17,0 %** et l'**infection 14,4 %** ; la mortalité néonatale globale était estimée à 22,3 ‰ naissances vivantes dans cette structure [S13]. Ces chiffres, anciens et hospitaliers, soulignent le poids des détresses respiratoires et de la prématurité ; des données nationales récentes n'ont pas été consultées **[À VÉRIFIER — données du programme national de périnatalité]**.
 

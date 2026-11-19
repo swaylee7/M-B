@@ -243,7 +243,7 @@ La convulsion fébrile est connue depuis l'Antiquité ; son caractère général
 
 - La CF est la **plus fréquente** des crises de l'enfant : elle concerne **2 à 5 %** des enfants entre 6 et 60 mois selon l'AAP [S1] (chiffre repris des synthèses de la recommandation).
 - **Pic d'incidence** au cours de la deuxième année de vie.
-- **Récidive** : environ **un tiers** des enfants ayant fait une CF en referont au moins une [S2] ; les facteurs prédictifs identifiés dans la cohorte prospective de Berg et al. sont le **jeune âge** lors de la première crise, les **antécédents familiaux de CF**, une **température peu élevée** au moment de la crise et un **délai court** entre le début de la fièvre et la crise [S17].
+- **Récidive** : environ **un tiers** des enfants ayant fait une CF en referont au moins une (30 % selon la revue Cochrane 2021) [S2, S13] ; les facteurs prédictifs identifiés dans la cohorte prospective de Berg et al. sont le **jeune âge** lors de la première crise, les **antécédents familiaux de CF**, une **température peu élevée** au moment de la crise et un **délai court** entre le début de la fièvre et la crise [S17].
 - **Épilepsie ultérieure** : après une CF simple, le risque d'épilepsie est faible, proche de celui de la population générale (de l'ordre de 1 %) [S2] ; il est plus élevé après une CF complexe, en cas d'anomalie neurologique ou d'antécédent familial d'épilepsie.
 
 ### 3.2 Algérie

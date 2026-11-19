@@ -1,0 +1,65 @@
+{
+  "id": "DOS-05",
+  "lot": "lot2",
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "lecture_brief_conventions_modele_schemas",
+    "lecture_lot1_et_rapports_audit",
+    "lecture_sources_OMS_acquises",
+    "verification_references_pubmed_nice",
+    "DOS-PEDI-0004",
+    "DOS-PEDI-0005",
+    "DOS-PEDI-0006",
+    "DOS-PEDI-0007",
+    "DOS-NEON-0003",
+    "lot_QCM_DOS-05-lot2",
+    "lot_CAS_DOS-05-lot2",
+    "journal_lot2",
+    "journal_global"
+  ],
+  "taches_suivantes": [
+    "audit AUD-01/AUD-02 des 5 dossiers et des lots du lot 2",
+    "lever les marqueurs [POSOLOGIE À VÉRIFIER] avec RCP ou protocoles nationaux",
+    "lire le texte intégral du consensus mondial rachitisme 2016 (tableau des doses uniques, seuils calciques)",
+    "retrouver le texte officiel du schéma national algérien de supplémentation en vitamine D",
+    "lire le texte intégral du guide GPIP-SFP 2023 (infections urinaires)",
+    "documenter les données algériennes récentes (résistances, PCIME, périnatalité)"
+  ],
+  "objectifs": {"dossiers": 5, "qcm": 60, "cas_cliniques": 10},
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas_cliniques": 10,
+    "mots_corps_hors_yaml": {
+      "DOS-PEDI-0004": 10990,
+      "DOS-PEDI-0005": 10450,
+      "DOS-PEDI-0006": 8404,
+      "DOS-PEDI-0007": 8810,
+      "DOS-NEON-0003": 9686
+    },
+    "mots_wc_fichier": {
+      "DOS-PEDI-0004": 11471,
+      "DOS-PEDI-0005": 11141,
+      "DOS-PEDI-0006": 8913,
+      "DOS-PEDI-0007": 9236,
+      "DOS-NEON-0003": 10133
+    },
+    "sources": {"declarees": 72, "verifiees": 70, "non_verifiees": 2},
+    "marqueurs": {"posologie_a_verifier": 18, "a_verifier": 49},
+    "plages_ids": {
+      "DOS": ["DOS-PEDI-0004..0007", "DOS-NEON-0003"],
+      "QCM": ["QCM-PEDI-0501..0548", "QCM-NEON-0501..0512"],
+      "CAS": ["CAS-PEDI-0501..0508", "CAS-NEON-0501..0502"]
+    }
+  },
+  "fichiers": [
+    "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0004__DIARRHEES_AIGUES_DE_L_ENFANT.md",
+    "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0005__CONVULSIONS_DU_NOURRISSON.md",
+    "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0006__RACHITISME_CARENTIEL.md",
+    "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0007__INFECTIONS_URINAIRES_DE_L_ENFANT.md",
+    "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0003__DETRESSES_RESPIRATOIRES_DU_NOUVEAU_NE.md",
+    "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json",
+    "20_CAS_CLINIQUES/lots/DOS-05-lot2.json"
+  ]
+}
