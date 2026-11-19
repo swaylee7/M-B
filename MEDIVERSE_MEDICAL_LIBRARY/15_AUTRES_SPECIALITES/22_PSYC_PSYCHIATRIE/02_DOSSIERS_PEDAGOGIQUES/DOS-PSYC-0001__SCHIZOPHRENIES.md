@@ -108,6 +108,14 @@ sources:
     doi: ""
     url: ""
     verifiee: true
+  - id: S13
+    reference: "Résumés des caractéristiques du produit (RCP) européens / britanniques : Zyprexa (olanzapine), Abilify (aripiprazole), Seroquel (quétiapine), amisulpride (Solian et génériques), Invega (palipéridone), Clopixol (zuclopenthixol), clozapine (Clozaril / Clozapine Viatris), rubrique 4.2 — consultés par extraits (EMA, medicines.org.uk, HPRA) via moteur de recherche le 2026-11-19, non acquis ; à confronter au RCP des spécialités enregistrées en Algérie."
+    organisme: "EMA ; MHRA ; HPRA"
+    annee: 2025
+    type: recommandation
+    doi: ""
+    url: "https://www.medicines.org.uk/emc"
+    verifiee: true
 mots_cles: [schizophrénie, psychose, antipsychotiques, clozapine, syndrome malin des neuroleptiques, syndrome métabolique, hospitalisation sans consentement, loi 18-11]
 ---
 
@@ -115,7 +123,7 @@ mots_cles: [schizophrénie, psychose, antipsychotiques, clozapine, syndrome mali
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Les posologies chiffrées proviennent exclusivement de trois documents lus pendant la session : le guide d'intervention mhGAP 2.0 de l'OMS [S7], le consensus Project BETA [S8] et, pour la lithiémie et la surveillance métabolique, CANMAT-ISBD 2018 [S10]. Toute autre posologie porte la mention `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+> Les posologies chiffrées proviennent du guide d'intervention mhGAP 2.0 de l'OMS [S7], du consensus Project BETA [S8], de CANMAT-ISBD 2018 pour la surveillance métabolique [S10] et, depuis l'audit du 2026-11-19, des résumés des caractéristiques du produit (RCP) européens ou britanniques [S13] pour l'olanzapine, l'aripiprazole, la quétiapine, l'amisulpride, la palipéridone, le zuclopenthixol et la clozapine. Elles doivent être confrontées au RCP des spécialités enregistrées en Algérie et aux protocoles locaux.
 
 **Items du programme couverts** : RES-MED-149 — « Schizophrénies : Définition - étiopathogénie - diagnostic - évolution - traitement ».
 
@@ -399,10 +407,10 @@ L'évolution est hétérogène. Schématiquement :
 | **Chlorpromazine** (1re génération, phénothiazine) | Début 25–50 mg/j, puis 75–300 mg/j (jusqu'à 1 000 mg/j dans les formes sévères) [S7] | Sédation, hypotension orthostatique, effets anticholinergiques, photosensibilité, agranulocytose rare |
 | **Fluphénazine décanoate** (forme retard) | Début 12,5 mg IM, puis 12,5–50 mg toutes les 2 à 4 semaines [S7] | Extrapyramidaux ; déconseillée pendant la grossesse, l'allaitement et chez l'enfant [S7] |
 | **Rispéridone** (2e génération) | Début 1 mg/j, puis 2–6 mg/j (maximum 10 mg/j) [S7] | Hyperprolactinémie, extrapyramidaux dose-dépendants, prise de poids modérée, hypotension orthostatique |
-| **Olanzapine** (2e génération) | Agitation : 5–10 mg per os, maximum 20 mg/24 h ; 10 mg IM, maximum 30 mg/24 h [S8]. Entretien : `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` | **Prise de poids et syndrome métabolique marqués**, sédation |
-| **Aripiprazole** (2e génération, agoniste partiel D2) | Agitation IM : 9,75 mg, maximum 30 mg/24 h [S8]. Voie orale : `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` | Akathisie, nausées ; faible risque métabolique et prolactinique |
-| **Quétiapine**, **amisulpride**, **palipéridone**, **zuclopenthixol** | `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` | Quétiapine : sédation, hypotension, métabolique ; amisulpride : hyperprolactinémie, QT ; palipéridone : proche de la rispéridone |
-| **Clozapine** (2e génération, réservée à la résistance) | Titration progressive sous surveillance spécialisée : `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` | **Agranulocytose** (surveillance de l'hémogramme obligatoire), myocardite, convulsions, constipation sévère (risque d'iléus), hypersialorrhée, prise de poids |
+| **Olanzapine** (2e génération) | Schizophrénie : début 10 mg/j en une prise, puis ajustement entre 5 et 20 mg/j ; début à 5 mg/j à envisager chez le sujet âgé, l'insuffisant rénal ou hépatique [S13]. Agitation : 5–10 mg per os, maximum 20 mg/24 h ; 10 mg IM, maximum 30 mg/24 h [S8] | **Prise de poids et syndrome métabolique marqués**, sédation |
+| **Aripiprazole** (2e génération, agoniste partiel D2) | Voie orale : début 10 ou 15 mg/j, entretien 15 mg/j en une prise, **maximum 30 mg/j** [S13]. Agitation IM : 9,75 mg, maximum 30 mg/24 h [S8] | Akathisie, nausées ; faible risque métabolique et prolactinique |
+| **Quétiapine**, **amisulpride**, **palipéridone**, **zuclopenthixol** | Quétiapine (libération immédiate, deux prises) : 50, 100, 200 puis 300 mg/j de J1 à J4, dose usuelle 300–450 mg/j, ajustable entre 150 et 750 mg/j. Amisulpride : 400–800 mg/j dans les épisodes aigus (jusqu'à 1 200 mg/j au maximum) ; 50–300 mg/j si les symptômes négatifs prédominent. Palipéridone (libération prolongée) : 6 mg/j le matin, sans titration, entre 3 et 12 mg/j. Zuclopenthixol per os : début 20–30 mg/j en prises fractionnées, maximum 150 mg/j, entretien 20–50 mg/j [S13] | Quétiapine : sédation, hypotension, métabolique ; amisulpride : hyperprolactinémie, QT ; palipéridone : proche de la rispéridone |
+| **Clozapine** (2e génération, réservée à la résistance) | Titration lente : 12,5 mg une ou deux fois à J1, 25 mg une ou deux fois à J2, puis paliers de 25–50 mg/j pour atteindre jusqu'à 300 mg/j en 2 à 3 semaines ; ensuite, si besoin, paliers de 50–100 mg tous les 3 à 4 jours ou, de préférence, chaque semaine ; efficacité habituelle entre 200 et 450 mg/j en prises fractionnées ; maximum 900 mg/j (paliers ≤ 100 mg) [S13] | **Agranulocytose** (surveillance de l'hémogramme obligatoire), myocardite, convulsions, constipation sévère (risque d'iléus), hypersialorrhée, prise de poids |
 
 Les formes injectables à action prolongée (fluphénazine, halopéridol, palipéridone, rispéridone, zuclopenthixol) sont citées par l'OMS comme alternative à la voie orale chez les patients nécessitant un traitement au long cours [S6].
 
@@ -474,7 +482,7 @@ ALGORITHME 1 — Premier épisode psychotique (adulte)
 #### 13.3.3 Schizophrénie résistante
 - **Définition opérationnelle** : persistance de symptômes significatifs malgré au moins deux antipsychotiques différents, à posologie et durée adéquates, avec observance vérifiée (dosages plasmatiques si possible) [S3, S5].
 - **Pseudo-résistances** à éliminer : diagnostic erroné, non-observance, dose ou durée insuffisantes, interactions (inducteurs enzymatiques, tabac), addictions, comorbidités.
-- **Clozapine** : traitement de référence (supérieure aux autres molécules dans cette indication) ; également indiquée en cas de **risque suicidaire persistant** ou de **comportements agressifs persistants** selon l'APA [S4]. Elle exige une surveillance hématologique stricte (rythme selon RCP et protocole local `[À VÉRIFIER]`), une surveillance cardiaque (myocardite dans les premières semaines) et la prévention de la constipation.
+- **Clozapine** : traitement de référence (supérieure aux autres molécules dans cette indication) ; également indiquée en cas de **risque suicidaire persistant** ou de **comportements agressifs persistants** selon l'APA [S4]. Elle exige une surveillance hématologique stricte : n'instaurer qu'avec un hémogramme normal (**leucocytes ≥ 3 500/mm³ et polynucléaires neutrophiles ≥ 2 000/mm³**), puis numération **chaque semaine pendant les 18 premières semaines**, puis **au moins toutes les 4 semaines** pendant toute la durée du traitement et 4 semaines après son arrêt ; seuils d'arrêt et conduite selon le RCP et le protocole national [S13]. S'y ajoutent une surveillance cardiaque (myocardite dans les premières semaines) et la prévention de la constipation.
 - En cas d'échec de la clozapine : potentialisation (avis spécialisé), ECT [S5].
 
 ### 13.4 Particularités algériennes : cadre légal des soins psychiatriques (loi n° 18-11) [S11]
@@ -526,14 +534,14 @@ Le calendrier suivant est celui proposé par CANMAT-ISBD 2018 pour les patients 
 | Surveillance renforcée | — | Enfants, sujets âgés, patients ayant des comorbidités somatiques, associations médicamenteuses [S10] |
 | ECG (QTc) | Avant traitement (surtout halopéridol, amisulpride, voie parentérale) | Après titration et en cas de facteur de risque [S7] |
 | Prolactine | Selon contexte | Si symptômes évocateurs |
-| Hémogramme (clozapine) | Avant traitement | Selon le protocole obligatoire de la molécule `[À VÉRIFIER — RCP]` |
+| Hémogramme (clozapine) | Avant traitement (leucocytes ≥ 3 500/mm³, PNN ≥ 2 000/mm³) | Hebdomadaire pendant 18 semaines, puis au moins toutes les 4 semaines pendant tout le traitement et 4 semaines après l'arrêt [S13] |
 
 Toute dérive (prise de poids rapide, intolérance au glucose, dyslipidémie) impose des mesures hygiéno-diététiques, un traitement spécifique et la discussion d'un changement de molécule.
 
 ### 14.3 Syndrome malin des neuroleptiques (SMN)
 Complication **rare mais potentiellement mortelle**, survenant surtout en début de traitement, après une augmentation rapide de dose, avec les molécules puissantes, la voie parentérale, la déshydratation ou l'association au lithium.
 
-**Éléments diagnostiques retenus par le consensus international Delphi (Gurrera, 2011)** [S9] : exposition récente à un antagoniste dopaminergique (ou sevrage d'un agoniste dopaminergique) ; **hyperthermie** (supérieure à 38,0 °C à au moins deux reprises) ; **rigidité** ; **altération de l'état mental** ; **élévation des CPK** (seuil chiffré fixé par le consensus `[À VÉRIFIER]`) ; **labilité sympathique** (pression artérielle élevée ou fluctuante, sueurs, incontinence) ; tachycardie associée à une tachypnée ; **bilan négatif** pour les autres causes. Les auteurs précisent que ces critères doivent encore être validés en clinique [S9].
+**Éléments diagnostiques retenus par le consensus international Delphi (Gurrera, 2011)** [S9] : exposition récente à un antagoniste dopaminergique (ou sevrage d'un agoniste dopaminergique) ; **hyperthermie** (supérieure à 38,0 °C à au moins deux reprises) ; **rigidité** ; **altération de l'état mental** ; **élévation des CPK** (au moins 4 fois la limite supérieure de la normale) ; **labilité sympathique** (pression artérielle élevée ou fluctuante, sueurs, incontinence) ; tachycardie associée à une tachypnée ; **bilan négatif** pour les autres causes. Les auteurs précisent que ces critères doivent encore être validés en clinique [S9].
 
 ```text
 ALGORITHME 2 — Fièvre et rigidité chez un patient sous antipsychotique
@@ -547,8 +555,9 @@ ALGORITHME 2 — Fièvre et rigidité chez un patient sous antipsychotique
    de l'insuffisance rénale (rhabdomyolyse), de la maladie thromboembolique et
    des fausses routes.
 5. Traitements spécifiques à discuter par l'équipe de réanimation (benzodiazépines,
-   agonistes dopaminergiques, dantrolène, ECT dans les formes réfractaires)
-   [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+   agonistes dopaminergiques, dantrolène, ECT dans les formes réfractaires) : usages
+   hors AMM, niveau de preuve faible, doses divergentes selon les revues consultées
+   [POSOLOGIE À VÉRIFIER — protocole de réanimation].
 6. Diagnostics différentiels : syndrome sérotoninergique, hyperthermie maligne
    per-anesthésique, catatonie maligne, intoxication anticholinergique, coup de chaleur,
    infection du système nerveux central, sevrage alcoolique compliqué.
@@ -842,3 +851,4 @@ Selon la loi algérienne n° 18-11 relative à la santé, quelles propositions s
 10. [S10] Yatham LN, et al. CANMAT and ISBD 2018 guidelines for the management of patients with bipolar disorder. *Bipolar Disord*. 2018;20(2):97-170. doi:10.1111/bdi.12609 (DOC-00100)
 11. [S11] Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (DOC-00074).
 12. [S12] *Kaplan & Sadock's Concise Textbook of Clinical Psychiatry*, 5e éd., 2023 (OUV-0348) — ouvrage général de référence, non reproduit.
+13. [S13] RCP européens / britanniques (rubrique 4.2) de l'olanzapine, de l'aripiprazole, de la quétiapine, de l'amisulpride, de la palipéridone, du zuclopenthixol et de la clozapine — consultés par extraits le 2026-11-19 (EMA, medicines.org.uk, HPRA).

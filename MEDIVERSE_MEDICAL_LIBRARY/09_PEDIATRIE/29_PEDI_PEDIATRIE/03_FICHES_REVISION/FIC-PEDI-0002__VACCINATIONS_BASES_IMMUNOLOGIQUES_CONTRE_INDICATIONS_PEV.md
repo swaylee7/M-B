@@ -4,7 +4,12 @@ titre: "Fiche — Vaccinations : bases immunologiques, contre-indications, PEV a
 specialite: PEDI
 items_residanat: [RES-MED-070]
 dossier_source: DOS-PEDI-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-PEDI-0002 v1.2 : VPO à la naissance absent des arrêtés en vigueur (textes relus) ; adrénaline IM — barème par âge WAO 2020 ajouté."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Vaccinations et PEV (RES-MED-070)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PEDI-0002 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau. **Le calendrier national fixé par arrêté fait foi** : arrêté du 3 juillet 2018 (JORADP n° 49 du 8/08/2018) [S1], complété par l'arrêté du 28 avril 2026 (JORADP n° 36 du 17/05/2026) [S2]. Références OMS/CDC non vérifiées en session (`verifiee: false` dans le dossier).
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PEDI-0002 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau. **Le calendrier national fixé par arrêté fait foi** : arrêté du 3 juillet 2018 (JORADP n° 49 du 8/08/2018) [S1], complété par l'arrêté du 28 avril 2026 (JORADP n° 36 du 17/05/2026) [S2]. Références OMS/CDC non vérifiées en session (`verifiee: false` dans le dossier).
 
 ## 1. Définition (2 lignes)
 
@@ -157,6 +162,7 @@ Allonger (assis si détresse respiratoire) + appel à l'aide
 ADRÉNALINE IM cuisse : 0,01 mg/kg de la solution à 1 mg/mL (0,01 mL/kg), max 0,5 mg,
   renouvelable toutes les 5–15 min
   (OMS Pocket book 2013 : 0,15 mL de 1:1000 chez le jeune enfant, 0,3 mL chez le plus grand [S21] ;
+   WAO 2020 : < 10 kg 0,01 mg/kg, 1–5 ans 0,15 mg, 6–12 ans 0,3 mg, adolescent 0,5 mg [S22 du dossier] ;
    se conformer au protocole national)
 O₂, voie veineuse, NaCl 0,9 % 20 mL/kg si hypotension
 Antihistaminique, corticoïde, bronchodilatateur = adjuvants, JAMAIS à la place de l'adrénaline
@@ -184,7 +190,7 @@ Surveillance prolongée (biphasique), déclaration MAPI au CNPM, contre-indicati
 7. Utiliser un vaccin adsorbé **congelé** (test d'agitation).
 8. Citer l'**allergie à l'œuf** comme contre-indication du ROR.
 9. Croire que le **tétanos** bénéficie de l'immunité de groupe.
-10. Mettre au calendrier algérien **rotavirus, méningocoques, varicelle**, placer un **VPO à la naissance** (supprimé en 2018), ignorer l'application effective le **15/10/2023** ; arrêter le schéma pour une fièvre/éruption à J7–J10 post-ROR (attendue).
+10. Mettre au calendrier algérien **rotavirus, méningocoques, varicelle**, placer un **VPO à la naissance** (absent des arrêtés de 2018 et 2026 ; seul un guide de 2023 l'évoquerait, à confirmer), ignorer l'application effective le **15/10/2023** ; arrêter le schéma pour une fièvre/éruption à J7–J10 post-ROR (attendue).
 
 ## 7. Moyens mnémotechniques (originaux)
 

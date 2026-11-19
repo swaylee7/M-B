@@ -280,3 +280,484 @@ Choc obstructif → activité électrique sans pouls → décès
 - **non infectieuses** (auto-immunes, néoplasiques, métaboliques, post-lésionnelles, médicamenteuses, traumatiques) ;
 - **idiopathiques** (après enquête ciblée négative ; le plus souvent présumées virales).
 
+---
+
+## 8. Diagnostic positif — clinique
+
+### 8.1 Signes fonctionnels
+
+- **Douleur thoracique** : le maître symptôme (plus de 85–90 % des cas selon l'ESC 2015 [S2]).
+  - Rétrosternale ou précordiale, **aiguë, « en coup de poignard »** ou brûlure ;
+  - **majorée à l'inspiration profonde, à la toux et en décubitus dorsal** ;
+  - **soulagée en position assise penchée en avant** (antéflexion) ;
+  - irradiation possible vers le **bord du trapèze** (innervation phrénique), le cou, les épaules ;
+  - **non calmée par la trinitrine**, durée prolongée (heures à jours).
+- **Dyspnée** (polypnée superficielle limitée par la douleur), toux sèche, hoquet (irritation phrénique), dysphagie (compression œsophagienne par un gros épanchement).
+- **Contexte** : syndrome pseudo-grippal ou infection respiratoire dans les jours ou semaines précédents (forme virale), fièvre modérée.
+
+### 8.2 Signes physiques
+
+- **Frottement péricardique** : bruit superficiel, **rugueux** (« crissement de cuir neuf »), systolo-diastolique (souvent à trois temps), mieux entendu au bord gauche du sternum en position penchée en avant, **persistant en apnée** (contrairement au frottement pleural) ; **très spécifique** mais **inconstant et fugace** (environ un tiers des patients selon l'ESC 2015) : il faut le rechercher à plusieurs reprises [S2].
+- **Fièvre** modérée (une fièvre > 38 °C est un critère de mauvais pronostic, § 12.2).
+- **Signes d'épanchement abondant** : assourdissement des bruits du cœur, matité étendue.
+- **Signes de tamponnade** (à rechercher systématiquement) : tachycardie, **hypotension**, **turgescence jugulaire**, **pouls paradoxal** (baisse de la PAS de plus de 10 mmHg à l'inspiration), assourdissement des bruits du cœur (triade de Beck dans les formes aiguës), polypnée, signes de choc.
+
+### 8.3 Critères diagnostiques (ESC 2015 [S2])
+
+Diagnostic de péricardite aiguë si **au moins 2 des 4 critères** :
+
+1. **Douleur thoracique** de type péricardique ;
+2. **Frottement** péricardique ;
+3. **Modifications ECG** : sus-décalage de ST diffus récent ou sous-décalage de PR ;
+4. **Épanchement péricardique** (nouveau ou majoré).
+
+**Éléments d'appui** : élévation des marqueurs de l'inflammation (CRP, VS, leucocytes) ; mise en évidence d'une inflammation péricardique en imagerie (scanner, **IRM**) [S2].
+
+L'ESC 2025 conserve une approche fondée sur des critères cliniques, ECG, biologiques et d'imagerie, et accorde une place importante à l'**IRM cardiaque** pour caractériser l'atteinte myocardique et péricardique [S1] **[À VÉRIFIER — formulation exacte des critères 2025]**.
+
+---
+
+## 9. Examens complémentaires et interprétation
+
+### 9.1 ECG : évolution en quatre stades (classiquement)
+
+| Stade | Délai | Aspect |
+|---|---|---|
+| **I** | Premiers jours | **Sus-décalage de ST diffus**, **concave vers le haut**, dans la plupart des dérivations (sauf aVR et souvent V1) ; **sous-décalage de PR** (et sus-décalage de PR en aVR) |
+| **II** | Fin de la 1re semaine | Retour de ST à la ligne de base, aplatissement des ondes T |
+| **III** | 2e–3e semaine | **Ondes T négatives** diffuses |
+| **IV** | Semaines | Normalisation (ou persistance des T négatives) |
+
+**Caractères qui distinguent la péricardite de l'infarctus** :
+
+- sus-décalage **diffus**, ne correspondant pas à un territoire coronaire ;
+- **concave** ;
+- **pas d'image en miroir** (sauf en aVR et V1) ;
+- **pas d'onde Q** de nécrose ;
+- sous-décalage de **PR** ;
+- les ondes T ne s'inversent qu'**après** le retour de ST à la ligne de base.
+
+**ECG d'un épanchement abondant** : **microvoltage** (QRS de faible amplitude) et **alternance électrique** (variation de l'amplitude des QRS d'un battement à l'autre, liée au balancement du cœur dans l'épanchement), évocatrice de tamponnade.
+
+L'ECG est **typique chez environ 60 % des patients** seulement : un ECG peu modifié n'exclut pas le diagnostic [S2].
+
+### 9.2 Biologie
+
+| Examen | Intérêt |
+|---|---|
+| **CRP** (et VS, leucocytes) | Diagnostic d'appui ; **suivi de l'activité** et guide de la durée du traitement (décroissance des anti-inflammatoires après normalisation de la CRP) [S2] |
+| **Troponine** | Élevée en cas d'atteinte myocardique (**myopéricardite**) |
+| **Créatinine, urée** | Péricardite urémique ; choix et tolérance des AINS et de la colchicine |
+| **Bilan hépatique, NFS** | Tolérance du traitement |
+| **TSH** | Épanchement de l'hypothyroïdie (orientation) |
+| **Hémocultures** | Fièvre élevée, suspicion de péricardite purulente |
+| **Recherche de tuberculose** | Contexte évocateur : radiographie thoracique, examens des expectorations, test immunologique (IGRA) ou intradermoréaction (valeur limitée en zone d'endémie), analyse du liquide péricardique (§ 9.4) |
+| **Sérologie VIH** | Péricardite tuberculeuse ou purulente, terrain à risque |
+| **Anticorps antinucléaires, facteur rhumatoïde** | Selon le contexte (signes extracardiaques, femme jeune, récidives) |
+| **Sérologies virales** | **Non recommandées en routine** (pas de conséquence thérapeutique) [S2] |
+
+### 9.3 Imagerie
+
+- **Radiographie thoracique** : souvent normale ; **cardiomégalie** à bords symétriques (« en carafe ») si l'épanchement dépasse quelques centaines de mL ; recherche d'une pathologie pulmonaire (tuberculose, cancer), d'un épanchement pleural.
+- **Échocardiographie transthoracique** : **examen clé**, à réaliser **chez tous les patients** [S2] :
+  - présence, abondance (< 10 / 10–20 / > 20 mm) et répartition de l'épanchement ;
+  - **signes de tamponnade** : **collapsus diastolique de l'oreillette droite** (prolongé) et du **ventricule droit**, **veine cave inférieure dilatée** (> 20 mm) **sans variation respiratoire**, **variations respiratoires exagérées** des flux transvalvulaires (mitral et tricuspide), cœur « dansant » dans l'épanchement ;
+  - fonction ventriculaire (atteinte myocardique) ;
+  - signes de **constriction** (§ 10.10) ;
+  - **guidage** de la péricardiocentèse.
+  - Une ETT **normale n'exclut pas** une péricardite (forme « sèche »).
+- **Scanner thoracique** : épaississement et rehaussement péricardique, calcifications (constriction), épanchement cloisonné, **adénopathies médiastinales** (tuberculose, lymphome), pathologie pulmonaire associée.
+- **IRM cardiaque** : rehaussement tardif du péricarde (inflammation active), œdème, **atteinte myocardique** (myopéricardite), suivi des formes récidivantes et guide de la décroissance du traitement ; place renforcée dans l'ESC 2025 [S1, S2].
+- **TEP au FDG** : cas sélectionnés (néoplasie, tuberculose, maladies inflammatoires).
+
+### 9.4 Ponction et biopsie péricardiques
+
+**Indications de la péricardiocentèse (ou du drainage chirurgical)** [S2] :
+
+1. **Tamponnade** (urgence) ;
+2. **épanchement modéré à abondant symptomatique** ne répondant pas au traitement médical ;
+3. **suspicion de péricardite bactérienne (purulente ou tuberculeuse) ou néoplasique**.
+
+**Analyse du liquide** : aspect (séro-fibrineux, hémorragique, purulent, chyleux), cellularité et formule, protéines, LDH, glucose, **cytologie**, **examen direct et culture** (y compris recherche de **bacilles acido-alcoolo-résistants** et culture sur milieu spécifique), **PCR** (dont tests moléculaires rapides de type Xpert MTB/RIF), **adénosine désaminase (ADA)** et **interféron gamma non stimulé** (tuberculose), marqueurs tumoraux selon le contexte.
+
+- Une **ADA élevée** (seuil souvent retenu ≥ 40 U/L) dans un **exsudat lymphocytaire** oriente fortement vers la tuberculose [S2].
+- La **biopsie péricardique** (chirurgicale ou percutanée) est utile en cas de suspicion de tuberculose ou de néoplasie non confirmée par le liquide (granulome épithélioïde et gigantocellulaire avec nécrose caséeuse, cellules tumorales).
+
+---
+
+## 10. Formes cliniques
+
+### 10.1 Péricardite aiguë « virale ou idiopathique »
+
+La forme commune : adulte jeune, contexte viral, douleur typique, évolution favorable sous traitement en 1 à 2 semaines ; risque principal = **récidive**.
+
+### 10.2 Myopéricardite
+
+- Péricardite + **élévation de la troponine**, sans dysfonction ventriculaire significative.
+- **Coronarographie** (ou coroscanner) si le doute avec un SCA persiste (facteurs de risque, anomalies ECG systématisées, troubles de la cinétique segmentaire).
+- **IRM cardiaque** recommandée pour confirmer l'atteinte myocardique [S1, S2].
+- **Restriction de l'activité physique** plus longue que dans la péricardite isolée (voir § 13.2.5) ; pronostic généralement bon.
+- **Pas de colchicine en première intention dans l'ESC 2015** pour la myopéricardite à prédominance myocardique ; l'ESC 2025 propose, dans les formes non fulminantes sans cause spécifique, un traitement symptomatique (paracétamol, aspirine ou AINS) auquel la colchicine peut être ajoutée [S1] **[À VÉRIFIER — classe et doses exactes]**.
+
+### 10.3 Péricardite tuberculeuse
+
+- **Terrain** : patient originaire d'une zone d'endémie (dont l'Algérie, à incidence intermédiaire), contage, immunodépression (VIH, diabète, corticothérapie, anti-TNF), dénutrition.
+- **Clinique** : début **subaigu** ou insidieux, **fièvre prolongée**, sueurs nocturnes, amaigrissement, **épanchement abondant**, parfois tamponnade d'emblée ; tuberculose pulmonaire ou ganglionnaire associée possible.
+- **Diagnostic** [S2] :
+  - **certain** : bacilles tuberculeux dans le liquide péricardique (examen direct, culture, test moléculaire) ou **granulome caséeux** à la biopsie ;
+  - **probable** : tuberculose prouvée ailleurs avec péricardite inexpliquée, ou **exsudat lymphocytaire avec ADA élevée**, ou **réponse au traitement antituberculeux** en zone d'endémie.
+- **Complication majeure** : évolution vers la **péricardite constrictive** (fréquente sans traitement adapté) [S2].
+- **Traitement** : voir § 13.3.4.
+
+### 10.4 Péricardite purulente
+
+- Bactériémie, pneumonie de voisinage, chirurgie thoracique, immunodépression ; fièvre élevée, sepsis, tamponnade fréquente.
+- **Urgence** : **drainage** péricardique (de préférence chirurgical, avec possibilité de lavage et de fibrinolyse intrapéricardique), **antibiothérapie IV** adaptée ; mortalité élevée en l'absence de traitement [S2].
+
+### 10.5 Syndromes post-lésionnels cardiaques
+
+- **Péricardite post-infarctus précoce** (épisténocardique) : dans les jours suivant un infarctus étendu, souvent transmural ; moins fréquente depuis la reperfusion précoce.
+- **Syndrome de Dressler** : quelques semaines après l'infarctus ; fièvre, péricardite, pleurésie.
+- **Syndrome post-péricardiotomie** : après chirurgie cardiaque.
+- **Traitement** : l'**aspirine** est le traitement de première intention de la péricardite **post-infarctus** (les autres AINS et les corticoïdes sont évités à la phase précoce de l'infarctus, car ils pourraient gêner la cicatrisation) ; colchicine associée [S2].
+- **Diagnostic différentiel à ne pas manquer** : **rupture de la paroi libre** (hémopéricarde) après un infarctus.
+
+### 10.6 Péricardite urémique et de dialyse
+
+Insuffisance rénale terminale non dialysée (péricardite urémique) ou dialyse insuffisante. Traitement : **intensification de la dialyse** ; les AINS et la colchicine sont limités par l'insuffisance rénale ; drainage en cas de tamponnade [S2].
+
+### 10.7 Péricardite néoplasique
+
+Épanchement souvent **hémorragique**, abondant, récidivant ; cytologie positive. Drainage, prévention des récidives (drainage prolongé, fenêtre péricardique, instillations intrapéricardiques selon le cancer), traitement du cancer [S2].
+
+### 10.8 Péricardite récidivante
+
+- Après une première récidive, le risque de nouvelles récidives augmente.
+- Causes favorisantes : **traitement initial insuffisant** (doses, durée), **absence de colchicine**, **corticothérapie** initiale, maladie auto-immune ou auto-inflammatoire méconnue.
+- Traitement : § 13.3.3.
+
+### 10.9 Populations particulières
+
+- **Grossesse** (ESC 2015 [S2]) : l'aspirine et les AINS peuvent être utilisés au 1er et au 2e trimestre mais doivent être **arrêtés à partir de 20 semaines d'aménorrhée** (risque fœtal : fermeture du canal artériel, atteinte rénale) ; la prednisone à faible dose est utilisable ; la **colchicine était contre-indiquée pendant la grossesse** selon l'ESC 2015 — position susceptible d'avoir évolué dans les textes récents **[À VÉRIFIER — ESC 2025 myocardite-péricardite et ESC 2025 grossesse]**.
+- **Enfant** : AINS (ibuprofène) ; **aspirine évitée** (syndrome de Reye) ; colchicine à dose adaptée à l'âge ou au poids [S2].
+- **Sujet âgé** : prudence avec les AINS (insuffisance rénale, saignement digestif, HTA) ; colchicine à dose réduite selon la fonction rénale.
+
+### 10.10 Péricardite constrictive (évolution possible)
+
+- **Clinique** : insuffisance cardiaque **droite** prédominante (hépatomégalie, **ascite** souvent importante et précoce, œdèmes, turgescence jugulaire), **signe de Kussmaul** (augmentation paradoxale de la turgescence jugulaire à l'inspiration), **vibrance péricardique** protodiastolique (« knock »).
+- **Imagerie** : calcifications péricardiques (radiographie, scanner), épaississement péricardique (scanner, IRM) ; à l'**ETT** : ressaut septal protodiastolique (« septal bounce »), variations respiratoires des flux, veine cave dilatée ; **cathétérisme** : égalisation des pressions diastoliques et aspect **« dip-plateau »** [S2].
+- **Diagnostic différentiel** : cardiomyopathie restrictive (amylose).
+- **Formes transitoires** : constriction inflammatoire (rehaussement à l'IRM) régressive sous anti-inflammatoires en 2 à 3 mois ; **forme chronique** : **péricardectomie** [S2].
+
+---
+
+## 11. Diagnostics différentiels
+
+| Diagnostic | Éléments distinctifs | Examen clé |
+|---|---|---|
+| **SCA avec sus-décalage de ST** | Douleur constrictive, facteurs de risque, sus-décalage **systématisé convexe** avec **miroir**, ondes Q, troponine avec cinétique franche, troubles segmentaires | ECG répétés, coronarographie en urgence si doute |
+| **Dissection aortique** (pouvant se compliquer d'hémopéricarde) | Douleur intense, migratrice, dorsale ; asymétrie tensionnelle ; souffle d'IA | Angioscanner aortique, ETT/ETO |
+| **Embolie pulmonaire** | Dyspnée, tachycardie, facteurs de risque, hypoxémie | Angioscanner pulmonaire |
+| **Pneumopathie, pleurésie** | Fièvre, toux, foyer, frottement pleural disparaissant en apnée | Radiographie |
+| **Pneumothorax** | Douleur brutale, tympanisme | Radiographie |
+| **Repolarisation précoce** | Sujet jeune asymptomatique, sus-décalage stable dans le temps, pas de sous-décalage de PR ; un rapport ST/T > 0,25 en V6 oriente vers la péricardite | ECG comparatifs |
+| **Myocardite** | Dysfonction ventriculaire, troponine élevée, arythmies | ETT, IRM |
+| **Syndrome de Tako-tsubo** | Femme âgée, stress, ballonisation apicale | ETT, coronarographie |
+| **Douleurs digestives** (RGO, spasme œsophagien) | Lien avec les repas, réponse aux IPP | Diagnostic d'élimination |
+
+---
+
+## 12. Évolution, complications, pronostic
+
+### 12.1 Évolution et complications
+
+- **Évolution favorable** dans la majorité des péricardites virales ou idiopathiques traitées : disparition des symptômes et normalisation de la CRP en 1 à 2 semaines.
+- **Récidives** : complication la plus fréquente ; réduites par la colchicine [S2, S9].
+- **Tamponnade** : rare dans la forme virale commune, plus fréquente dans les formes **néoplasiques, tuberculeuses et purulentes** [S2].
+- **Constriction** : risque faible après une péricardite virale ou idiopathique (< 1 %), intermédiaire dans les formes auto-immunes et néoplasiques (2–5 %), **élevé dans les formes bactériennes, notamment tuberculeuses et purulentes (20–30 %)**, selon les estimations de l'ESC 2015 [S2].
+- **Myocardite associée** : insuffisance cardiaque, troubles du rythme (rares dans la myopéricardite).
+
+### 12.2 Critères de mauvais pronostic : qui hospitaliser ? (ESC 2015 [S2])
+
+**Critères majeurs** :
+
+1. **Fièvre > 38 °C** ;
+2. **début subaigu** (installation sur plusieurs jours ou semaines) ;
+3. **épanchement abondant** (> 20 mm) ;
+4. **tamponnade** ;
+5. **absence de réponse** à l'aspirine ou aux AINS après **au moins une semaine** de traitement.
+
+**Critères mineurs** :
+
+1. **Myopéricardite** ;
+2. **immunodépression** ;
+3. **traumatisme** ;
+4. **traitement anticoagulant oral**.
+
+**Conduite** :
+
+- **Au moins un critère** (majeur ou mineur) → **hospitalisation** et **enquête étiologique** ;
+- **aucun critère** → **traitement ambulatoire** par anti-inflammatoire et colchicine, avec **réévaluation à une semaine** [S2].
+
+---
+
+## 13. Traitement
+
+### 13.1 Objectifs
+
+1. **Soulager** la douleur et **éteindre l'inflammation** (normalisation de la CRP).
+2. **Prévenir les récidives** (colchicine, traitement suffisamment dosé et prolongé, décroissance progressive).
+3. **Traiter en urgence** une **tamponnade** (drainage).
+4. **Traiter la cause** quand elle est identifiée (tuberculose, bactérie, néoplasie, urémie, maladie systémique).
+5. **Dépister et traiter** l'évolution constrictive.
+
+### 13.2 Moyens
+
+#### 13.2.1 Aspirine et AINS (traitement de première intention)
+
+| Molécule | Posologie (ESC 2015 [S2]) | Durée | Décroissance |
+|---|---|---|---|
+| **Aspirine** | **750–1 000 mg toutes les 8 heures** | 1 à 2 semaines (premier épisode) ; plusieurs semaines à mois dans les récidives | Diminuer de **250–500 mg toutes les 1 à 2 semaines** |
+| **Ibuprofène** | **600 mg toutes les 8 heures** | 1 à 2 semaines | Diminuer de **200–400 mg toutes les 1 à 2 semaines** |
+| **Indométacine** (récidives) | **25–50 mg toutes les 8 heures** (débuter à la dose basse pour la tolérance) | Semaines à mois | Diminuer de 25 mg toutes les 1 à 2 semaines |
+
+- La **décroissance** ne commence qu'**après disparition des symptômes et normalisation de la CRP** [S2].
+- **Protection gastrique** (inhibiteur de la pompe à protons) associée [S2].
+- **Choix** : selon les antécédents, les contre-indications et l'expérience ; l'**aspirine est préférée** quand un traitement antiagrégant est déjà indiqué ou après un **infarctus** [S2].
+- **Contre-indications et précautions des AINS** : ulcère évolutif, insuffisance rénale, insuffisance cardiaque décompensée, allergie, grossesse à partir de 20 SA, anticoagulants (risque hémorragique).
+
+#### 13.2.2 Colchicine (adjuvant systématique)
+
+- **Posologie (ESC 2015 [S2])** : **0,5 mg une fois par jour si le poids est < 70 kg**, **0,5 mg deux fois par jour si le poids est ≥ 70 kg** ; **sans dose de charge**.
+- **Durée** : **3 mois** pour un premier épisode ; **6 mois** pour une récidive [S2].
+- **Effet** : réduit d'environ moitié le risque de récidive et le taux de symptômes persistants à 72 heures (essais COPE, CORP, ICAP) [S2, S9].
+- **Effets indésirables** : principalement **digestifs** (diarrhée, nausées) ; rarement toxicité hématologique, hépatique ou musculaire.
+- **Précautions** : **insuffisance rénale** (adapter ou éviter selon le RCP), insuffisance hépatique, **interactions** avec les inhibiteurs puissants du CYP3A4 et de la P-gp (**clarithromycine**, érythromycine, ciclosporine, vérapamil, certains antifongiques azolés) — risque de toxicité grave [RCP]. La décroissance en fin de traitement n'est pas obligatoire mais peut être envisagée [S2].
+- **ESC 2025** : l'association **AINS (ou aspirine) + colchicine** reste le traitement de référence de la péricardite aiguë [S1].
+
+#### 13.2.3 Corticoïdes (deuxième intention)
+
+- **Indications** (ESC 2015, classe IIa) : contre-indication ou échec de l'aspirine/des AINS et de la colchicine, **après exclusion d'une cause infectieuse** (tuberculose, bactérie), ou indication spécifique (maladie auto-immune, grossesse sous certaines conditions) [S2].
+- **Posologie** : **faible à moyenne dose**, **prednisone 0,2 à 0,5 mg/kg/j**, en association avec la colchicine ; les fortes doses favorisent les récidives et la corticodépendance [S2].
+- **Décroissance lente** (proposée par l'ESC 2015 [S2]), seulement après disparition des symptômes et normalisation de la CRP :
+
+| Dose quotidienne de prednisone | Palier de décroissance |
+|---|---|
+| > 50 mg | 10 mg/j toutes les 1 à 2 semaines |
+| 25–50 mg | 5–10 mg/j toutes les 1 à 2 semaines |
+| 15–25 mg | 2,5 mg/j toutes les 2 à 4 semaines |
+| < 15 mg | 1,25–2,5 mg/j toutes les 2 à 6 semaines |
+
+- Mesures associées : prévention de l'ostéoporose (calcium, vitamine D), surveillance glycémique et tensionnelle.
+
+#### 13.2.4 Traitements des formes récidivantes réfractaires
+
+| Traitement | Place et posologie | Source |
+|---|---|---|
+| **Anti-IL-1 : anakinra** | Péricardite récidivante **cortico-dépendante et résistante à la colchicine** ; **1–2 mg/kg/j SC, jusqu'à 100 mg/j** | ESC 2015 (classe IIb) [S2] ; place renforcée dans l'ESC 2025 [S1] |
+| **Anti-IL-1 : rilonacept** | Mêmes indications ; essai **RHAPSODY** : réduction marquée du risque de récidive [S10] ; posologie selon le RCP **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** ; disponibilité en Algérie **[À VÉRIFIER]** | [S1, S10] |
+| **Azathioprine** | Épargne cortisonique, effet retardé **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | ESC 2015 (classe IIb) [S2] |
+| **Immunoglobulines IV** | Cas sélectionnés **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | ESC 2015 (classe IIb) [S2] |
+| **Péricardectomie** | Dernier recours, en centre expérimenté, après échec des traitements médicaux | [S2] |
+
+Selon des revues de synthèse de l'ESC 2025, les **anti-IL-1** passent à une recommandation de **classe I** dans les récidives avec CRP élevée, résistantes à la colchicine et cortico-dépendantes [S1] **[À VÉRIFIER — classe exacte dans le texte de 2025]**.
+
+#### 13.2.5 Restriction de l'activité physique
+
+- **Non-sportifs** : limiter l'activité physique au-delà des activités sédentaires **jusqu'à disparition des symptômes et normalisation de la CRP** [S2].
+- **Sportifs de compétition** : reprise après **au moins 3 mois** et normalisation des examens [S2].
+- **Myopéricardite** : restriction plus longue (**6 mois** dans l'ESC 2015) [S2] **[À VÉRIFIER — durée retenue par l'ESC 2025]**.
+
+#### 13.2.6 Drainage péricardique
+
+- **Péricardiocentèse percutanée** : sous **guidage échographique** (ou radioscopique), voie sous-xiphoïdienne ou apicale selon la localisation de l'épanchement ; drainage laissé en place quelques jours si l'épanchement est abondant ; complications : perforation cardiaque, lésion coronaire, pneumothorax, arythmies [S2].
+- **Drainage chirurgical** (péricardotomie sous-xiphoïdienne, fenêtre péricardique) : **péricardite purulente**, épanchement cloisonné, récidivant, néoplasique, **hémopéricarde** traumatique ou post-chirurgical, biopsie nécessaire [S2].
+- **Contre-indication** : **dissection aortique** avec hémopéricarde → **chirurgie aortique en urgence** (la ponction peut aggraver le saignement) ; une ponction limitée et contrôlée n'est discutée que dans des situations désespérées [S2].
+- **Contre-indications relatives** : coagulopathie non corrigée, anticoagulation, thrombopénie, épanchement minime, postérieur ou cloisonné.
+
+### 13.3 Indications et stratégies
+
+#### 13.3.1 Premier épisode de péricardite aiguë sans critère de gravité
+
+```text
+Péricardite aiguë (≥ 2 critères sur 4), ETT sans tamponnade, aucun critère de mauvais pronostic
+ │
+ ├─ Traitement ambulatoire
+ │     • aspirine 750–1 000 mg × 3/j OU ibuprofène 600 mg × 3/j, 1 à 2 semaines
+ │     • + COLCHICINE 0,5 mg × 1/j (< 70 kg) ou × 2/j (≥ 70 kg), 3 mois
+ │     • + IPP ; repos relatif
+ ├─ Réévaluation à 1 semaine (clinique, CRP)
+ │     ├─ Amélioration, CRP normalisée → décroissance progressive des anti-inflammatoires
+ │     └─ Absence de réponse → critère majeur → hospitalisation, enquête étiologique
+ └─ Ne PAS prescrire de corticoïdes en première intention
+```
+
+#### 13.3.2 Tamponnade
+
+```text
+Suspicion de tamponnade (hypotension, turgescence jugulaire, pouls paradoxal, tachycardie)
+ │
+ ├─ ETT immédiate (épanchement + collapsus des cavités droites, VCI dilatée)
+ ├─ Mesures d'attente :
+ │     • remplissage prudent si hypovolémie
+ │     • ÉVITER diurétiques, vasodilatateurs, ventilation en pression positive si possible
+ │       (ils réduisent la précharge et aggravent la compression)
+ ├─ DRAINAGE EN URGENCE :
+ │     • péricardiocentèse échoguidée (cas général)
+ │     • drainage chirurgical : purulent, cloisonné, hémopéricarde traumatique/post-chirurgical
+ │     • dissection aortique : chirurgie aortique (pas de ponction)
+ └─ Analyse du liquide + traitement étiologique
+```
+
+#### 13.3.3 Péricardite récidivante
+
+1. Reprendre **aspirine ou AINS à dose pleine** jusqu'à rémission, puis décroissance lente (semaines à mois) guidée par la CRP ;
+2. **colchicine pendant 6 mois** (voire plus selon l'évolution) [S2] ;
+3. en cas d'échec ou de contre-indication : **corticoïdes à faible dose** + colchicine, décroissance très progressive ;
+4. formes **cortico-dépendantes et résistantes à la colchicine** : **anti-IL-1** (anakinra, rilonacept), azathioprine, immunoglobulines IV [S1, S2] ;
+5. rechercher une **cause sous-jacente** (maladie auto-immune, fièvre méditerranéenne familiale, tuberculose méconnue, néoplasie) ; **IRM** pour juger de l'inflammation persistante ;
+6. péricardectomie en dernier recours.
+
+#### 13.3.4 Péricardite tuberculeuse
+
+- **Traitement antituberculeux standard** : schéma national **2HRZE/4HR** (2 mois d'isoniazide, rifampicine, pyrazinamide et éthambutol, puis 4 mois d'isoniazide et rifampicine), soit **6 mois au total**, selon le programme national et l'OMS ; le schéma doit être confirmé sur l'instruction nationale de 2024 pour la localisation péricardique [S3, S4, S7] **[À VÉRIFIER — durée retenue pour la forme péricardique par l'instruction n°07 de 2024]**. Doses selon le poids et les directives nationales (voir DOS-PNEU-0001).
+- **Traitement empirique** : dans les zones d'endémie, l'ESC 2015 recommande un traitement antituberculeux empirique devant un **épanchement péricardique exsudatif** après exclusion des autres causes [S2]. Son application en Algérie (incidence intermédiaire) relève du jugement clinique et de l'avis spécialisé, après recherche microbiologique la plus complète possible (liquide, biopsie, autres sites).
+- **Corticothérapie adjuvante** : l'ESC 2015 indique qu'elle **peut être envisagée** chez les patients **non infectés par le VIH** (classe IIb) et qu'elle doit être évitée chez les patients infectés par le VIH (essai IMPI : moins de constrictions mais excès de cancers associés au VIH sous prednisolone) [S2, S8] ; l'OMS formule une recommandation conditionnelle en faveur d'une corticothérapie adjuvante initiale dans la péricardite tuberculeuse **[À VÉRIFIER — formulation de la 2e édition 2026 du module 4]** [S7]. Le schéma de prednisolone des essais (doses dégressives sur environ 6 semaines) est à confirmer **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
+- **Drainage** : péricardiocentèse en cas de tamponnade ou d'épanchement abondant ; un drainage complet précoce pourrait réduire l'évolution constrictive.
+- **Péricardectomie** : si l'état du patient **ne s'améliore pas ou s'aggrave après 4 à 8 semaines** de traitement antituberculeux, ou en cas de constriction installée [S2].
+- **Déclaration obligatoire** et **enquête autour du cas** selon le programme national [S3].
+- **Interactions** : la rifampicine diminue l'efficacité de nombreux médicaments (AVK, AOD, corticoïdes — dont il faut augmenter la dose —, contraceptifs) [S3].
+
+#### 13.3.5 Péricardite post-infarctus et syndromes post-lésionnels
+
+- **Aspirine** en première intention (plutôt que les autres AINS ou les corticoïdes à la phase précoce de l'infarctus) ; **colchicine** associée [S2].
+- Toujours éliminer une **complication mécanique** (rupture) devant un épanchement post-infarctus important.
+
+#### 13.3.6 Péricardite purulente
+
+Drainage chirurgical en urgence, antibiothérapie IV probabiliste puis adaptée, fibrinolyse intrapéricardique possible, péricardectomie en cas de constriction [S2].
+
+### 13.4 Particularités algériennes
+
+- **Tuberculose** : recherche systématique devant un épanchement abondant, une évolution subaiguë ou une non-réponse au traitement ; articulation avec le **programme national** (diagnostic bactériologique et moléculaire, déclaration, traitement gratuit dans les structures du programme, suivi) [S3, S4, S5].
+- **Fièvre méditerranéenne familiale** : à évoquer devant des sérites récidivantes avec antécédents familiaux ; la colchicine y est le traitement de fond **[À VÉRIFIER — données algériennes]**.
+- **Disponibilité** : la colchicine, l'aspirine et les AINS sont des médicaments courants ; la disponibilité des **anti-IL-1** (anakinra, rilonacept), de l'**IRM cardiaque** et des tests moléculaires sur le liquide péricardique varie selon les structures **[À VÉRIFIER]**.
+
+---
+
+## 14. Surveillance
+
+- **Clinique** : douleur, fièvre, signes de tamponnade ou de constriction, tolérance digestive.
+- **CRP** : à la phase aiguë puis pour guider la décroissance ; une CRP qui remonte annonce souvent une récidive [S2].
+- **ETT** : en cas d'épanchement (abondance, évolution), à distance si épanchement initial important, et devant des signes droits (constriction).
+- **Tolérance des traitements** : fonction rénale et hépatique, NFS (colchicine), glycémie et PA (corticoïdes), observance et tolérance hépatique des antituberculeux.
+- **Suivi au long cours** des formes tuberculeuses et purulentes : recherche d'une **constriction** (clinique, ETT, scanner).
+
+---
+
+## 15. Prévention
+
+- **Prévention des récidives** : colchicine, doses suffisantes et décroissance lente des anti-inflammatoires, éviter les corticoïdes en première intention [S2].
+- **Prévention de la tuberculose** : vaccination BCG à la naissance (calendrier national), dépistage et traitement de l'infection tuberculeuse latente selon les indications, enquête autour des cas [S3].
+- **Prévention de la péricardite urémique** : dialyse adéquate.
+- **Prévention des syndromes post-péricardiotomie** : la colchicine périopératoire a été étudiée ; sa place reste discutée **[À VÉRIFIER — ESC 2025]**.
+
+---
+
+## 16. Algorithmes décisionnels et arbres diagnostiques
+
+### 16.1 Douleur thoracique évoquant une péricardite
+
+```text
+Douleur thoracique pleurale/positionnelle
+ │
+ 1. ECG immédiat
+ │    ├─ Sus-décalage systématisé convexe avec miroir → SCA ST+ (filière de reperfusion)
+ │    └─ Sus-décalage diffus concave, sous-décalage de PR, pas de miroir → péricardite probable
+ │
+ 2. Troponine, CRP, NFS, créatinine ; radiographie thoracique ; ETT
+ │
+ 3. Critères (≥ 2 sur 4) → PÉRICARDITE AIGUË
+ │
+ 4. Tamponnade ? → drainage en urgence (§ 13.3.2)
+ │
+ 5. Critères de mauvais pronostic ?
+ │    ├─ Aucun → ambulatoire : aspirine/AINS + colchicine, réévaluation à J7
+ │    └─ ≥ 1 → hospitalisation + enquête étiologique ciblée
+ │          (tuberculose, bactérie, néoplasie, maladie systémique, urémie, hypothyroïdie)
+ │
+ 6. Troponine élevée → myopéricardite → IRM, restriction d'activité prolongée,
+                       coronarographie si doute avec un SCA
+```
+
+### 16.2 Épanchement péricardique isolé (sans tableau inflammatoire)
+
+```text
+Épanchement péricardique découvert
+ ├─ Tamponnade ou suspicion de cause bactérienne/néoplasique → péricardiocentèse (diagnostique ± thérapeutique)
+ ├─ CRP élevée → traiter comme une péricardite
+ ├─ Maladie connue associée (IC, insuffisance rénale, hypothyroïdie, cancer) → traiter la cause
+ └─ Épanchement chronique idiopathique abondant → surveillance rapprochée ; drainage si symptomatique
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** M. S., 34 ans, chauffeur à Oran, consulte pour une **douleur thoracique** et une **fièvre à 38,5 °C** évoluant depuis **trois semaines**, avec **sueurs nocturnes** et un **amaigrissement de 5 kg**. Il a été traité par ibuprofène depuis 10 jours, sans amélioration. Son frère a été traité pour une tuberculose pulmonaire il y a un an.
+
+**Examen** : PA 102/78 mmHg avec **pouls paradoxal à 18 mmHg**, FC 118/min, **turgescence jugulaire**, bruits du cœur assourdis, hépatomégalie douloureuse. SaO2 95 %.
+
+**ECG** : tachycardie sinusale, **microvoltage**, **alternance électrique**. **Radiographie** : cardiomégalie globuleuse, petit épanchement pleural droit. **ETT** : **épanchement circonférentiel de 28 mm**, **collapsus diastolique de l'OD et du VD**, VCI dilatée non compliante.
+
+**Question 1 — Quel diagnostic d'urgence ?**
+**Tamponnade** sur épanchement péricardique abondant : signes cliniques (hypotension relative, pouls paradoxal, turgescence jugulaire), électriques (alternance) et échographiques (collapsus des cavités droites).
+
+**Question 2 — Quelle conduite immédiate ?**
+**Péricardiocentèse échoguidée en urgence** avec mise en place d'un drain ; éviter diurétiques et vasodilatateurs ; remplissage prudent si nécessaire [S2].
+
+**Question 3 — Quels examens sur le liquide ?**
+Aspect, cellularité (lymphocytose ?), protéines et LDH (exsudat), glucose, **examen direct et culture** pour les bacilles tuberculeux, **test moléculaire** (Xpert MTB/RIF), **ADA**, cytologie, culture bactérienne standard. **Sérologie VIH**, recherche de tuberculose pulmonaire (expectorations), scanner thoracique (adénopathies) [S2].
+
+**Question 4 — Le liquide est un exsudat lymphocytaire, ADA à 85 U/L ; le test moléculaire est négatif ; la culture est en cours. Que faire ?**
+La **tuberculose est probable** (exsudat lymphocytaire, ADA très élevée, contage familial, signes généraux). Un **traitement antituberculeux** selon le schéma national (2HRZE/4HR) est débuté sans attendre la culture, avec déclaration et enquête autour du cas [S2, S3, S4]. Une **corticothérapie adjuvante** peut être discutée si la sérologie VIH est négative [S2, S8]. La biopsie péricardique est utile si le diagnostic reste incertain.
+
+**Question 5 — Quel risque évolutif surveiller ?**
+La **constriction** (risque de l'ordre de 20 à 30 % dans les formes bactériennes selon l'ESC 2015) [S2] : surveillance clinique et échographique ; **péricardectomie** si absence d'amélioration ou aggravation après 4 à 8 semaines de traitement, ou constriction installée [S2].
+
+**Commentaire pédagogique.** Ce cas réunit plusieurs **critères majeurs de mauvais pronostic** (fièvre > 38 °C, début subaigu, épanchement abondant, tamponnade, échec des AINS) qui imposent l'hospitalisation et l'enquête étiologique. En Algérie, la tuberculose doit être évoquée en premier dans ce tableau. Les **corticoïdes ne doivent pas être prescrits à l'aveugle** devant une péricardite fébrile non étiquetée.
+
+---
+
+## 18. Points clés à retenir
+
+1. Diagnostic : **≥ 2 critères sur 4** (douleur typique, frottement, ECG, épanchement) [S2].
+2. ECG : sus-décalage **diffus, concave, sans miroir**, **sous-décalage de PR** ; évolution en quatre stades.
+3. L'**ETT** est indispensable ; une ETT normale n'exclut pas la péricardite.
+4. **Troponine élevée = myopéricardite** : IRM, restriction d'activité plus longue.
+5. Critères **majeurs** de mauvais pronostic : fièvre > 38 °C, début subaigu, épanchement > 20 mm, tamponnade, échec des AINS après 1 semaine ; **mineurs** : myopéricardite, immunodépression, traumatisme, anticoagulants.
+6. Traitement de la forme commune : **aspirine ou AINS à forte dose + colchicine** (3 mois ; 6 mois si récidive) + IPP ; décroissance après normalisation de la CRP.
+7. **Pas de corticoïdes en première intention** (récidives, corticodépendance) ; après exclusion d'une infection, à faible dose.
+8. Récidives cortico-dépendantes et résistantes à la colchicine : **anti-IL-1**.
+9. **Tamponnade** : drainage en urgence ; pas de diurétiques ni de vasodilatateurs ; pas de ponction dans la dissection aortique.
+10. **Tuberculose** : y penser devant toute péricardite subaiguë, fébrile, avec épanchement abondant ; risque de **constriction** ; traitement antituberculeux du programme national ; péricardectomie si échec à 4–8 semaines.
+11. Post-infarctus : **aspirine** préférée.
+12. ESC 2025 : concept de **syndrome inflammatoire myopéricardique** ; AINS + colchicine maintenus ; anti-IL-1 renforcés.
+
+---
+
+## 19. Pièges classiques à l'examen
+
+1. **Fibrinolyser** une péricardite prise pour un SCA ST+ (risque d'hémopéricarde) — d'où l'importance de l'analyse de l'ECG et, en cas de doute, de la coronarographie.
+2. Conclure à une absence de péricardite parce que l'**ETT est normale** ou le **frottement absent**.
+3. Prescrire des **corticoïdes en première intention** ou à forte dose.
+4. **Arrêter brutalement** les anti-inflammatoires sans attendre la normalisation de la CRP.
+5. Oublier la **colchicine** (ou ne pas adapter sa dose au poids et à la fonction rénale ; associer la clarithromycine).
+6. Prescrire des **diurétiques** à un patient en tamponnade.
+7. **Ponctionner** un hémopéricarde de dissection aortique.
+8. Méconnaître une **tuberculose** devant une péricardite fébrile subaiguë dans un pays d'endémie.
+9. Confondre le **signe de Kussmaul** (constriction) et le **pouls paradoxal** (tamponnade).
+10. Prescrire un AINS autre que l'aspirine dans une péricardite **post-infarctus précoce**.
+11. Prescrire de l'**aspirine** à un enfant (syndrome de Reye) ou des AINS après 20 SA.
+12. Demander des **sérologies virales** systématiques.
+

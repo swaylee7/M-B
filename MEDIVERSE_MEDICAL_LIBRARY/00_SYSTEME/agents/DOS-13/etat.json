@@ -1,18 +1,54 @@
 {
   "id": "DOS-13",
-  "statut": "en_cours",
-  "derniere_execution": "2026-11-19",
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19T03:35:09+00:00",
   "taches_terminees": [
-    "lecture brief et vérification des références"
+    "DOS-PHYS-0001 — Équilibre acido-basique (RES-SF-014)",
+    "DOS-HEMA-0007 — Hémostase : physiologie, explorations, interprétation (RES-SF-033)",
+    "DOS-PHYS-0002 — Électrophysiologie du cœur (RES-SF-007)",
+    "DOS-IMMU-0001 — Système HLA (RES-SF-036)",
+    "DOS-IMMU-0002 — États d'hypersensibilité I-IV, choc anaphylactique (RES-SF-035)",
+    "Lot QCM DOS-13 (65 QCM)",
+    "Lot cas cliniques DOS-13 (10 cas)"
   ],
   "taches_suivantes": [
-    "DOS-PHYS-0001",
-    "DOS-HEMA-0007",
-    "DOS-PHYS-0002",
-    "DOS-IMMU-0001",
-    "DOS-IMMU-0002",
-    "lots QCM/cas DOS-13"
+    "Audit (AUD) des 5 dossiers — priorité : posologie de l'adrénaline IM (WAO 2020) et tranches SFMU 2016 après erratum ; seuils QTc/score ESC 2022 (texte intégral non consulté) ; seuils ISTH-BAT ; critères DKA ADA 2024",
+    "Vérifier la disponibilité des auto-injecteurs d'adrénaline en Algérie et l'existence de référentiels nationaux (greffe, anaphylaxie)",
+    "Indexation (indexer.py) des lots DOS-13"
   ],
-  "objectifs": {},
-  "compteurs": {}
+  "objectifs": {
+    "dossiers": 5,
+    "qcm_min_par_item": 12,
+    "cas_par_item": 2
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "mots": {
+      "DOS-PHYS-0001": 11670,
+      "DOS-PHYS-0002": 9104,
+      "DOS-HEMA-0007": 10026,
+      "DOS-IMMU-0001": 9188,
+      "DOS-IMMU-0002": 9953
+    },
+    "qcm": 65,
+    "qcm_par_item": {
+      "RES-SF-014": 13,
+      "RES-SF-007": 13,
+      "RES-SF-033": 13,
+      "RES-SF-036": 13,
+      "RES-SF-035": 13
+    },
+    "cas": 10,
+    "cas_par_item": {
+      "RES-SF-014": 2,
+      "RES-SF-007": 2,
+      "RES-SF-033": 2,
+      "RES-SF-036": 2,
+      "RES-SF-035": 2
+    },
+    "references_verifiees": 92,
+    "references_non_verifiees": 0,
+    "websearch": 2,
+    "mots_methode": "wc -w (locale UTF-8)"
+  }
 }

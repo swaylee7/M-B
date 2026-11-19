@@ -6,7 +6,7 @@ sous_specialite: "Défaillances circulatoires aiguës"
 items_residanat: [RES-MED-106]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-06 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 9
     rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-MINT_REA-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale (avec DOS-PEDI-0002) : adrénaline IM de l'anaphylaxie — « maximum 0,3 mg chez l'enfant » remplacé par la règle 0,01 mg/kg (maximum 0,5 mg) et le barème par âge de la WAO 2020 (tableau 6, vérifié sur le PDF acquis : < 10 kg 0,01 mg/kg ; 1–5 ans 0,15 mg ; 6–12 ans 0,3 mg ; adolescent et adulte 0,5 mg) ; RCUK 2021 : existence confirmée, barème par âge non relu. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026;54(4):725-812 (publication le 23 mars 2026) ; publication simultanée : Intensive Care Med. 2026;52(5):863-936, doi:10.1007/s00134-026-08361-1 (catalogue REC-0266)."
@@ -115,13 +121,14 @@ sources:
     url: ""
     verifiee: true
   - id: S13
-    reference: "Resuscitation Council UK. Emergency treatment of anaphylaxis: guidelines for healthcare providers. 2021. [À VÉRIFIER — non confirmée pendant la session]"
+    reference: "Resuscitation Council UK. Emergency treatment of anaphylaxis: guidelines for healthcare providers. London: RCUK; May 2021."
     organisme: Resuscitation Council UK
     annee: 2021
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.resus.org.uk/media/337/download"
+    verifiee: true
+    remarque: "Existence confirmée par recherche web (AUD-05, 2026-11-19) ; texte non lu : barème de doses par âge et contenu à vérifier sur le document."
   - id: S14
     reference: "Gloaguen A, et al. Prise en charge de l'anaphylaxie en médecine d'urgence. Recommandations de la SFMU en partenariat avec la SFA et le GFRUP. Ann Fr Med Urgence. 2016. [À VÉRIFIER — non confirmée pendant la session]"
     organisme: SFMU/SFA/GFRUP
@@ -424,7 +431,7 @@ La **pression veineuse centrale isolée** ne prédit pas la réponse au rempliss
 | Molécule | Récepteurs / effets | Indications principales | Posologie indicative (adulte) |
 |---|---|---|---|
 | **Noradrénaline** | α1 +++ (vasoconstriction artérielle et veineuse), β1 + | **Vasopresseur de première intention** du choc septique [S1, S2] ; vasopresseur préféré dans le choc cardiogénique hypotensif [S9, S10] | Débutée à faible dose puis titrée sur la PAM (ordre de grandeur 0,05–0,1 µg/kg/min au départ) — [POSOLOGIE À VÉRIFIER — protocole local] ; attention : les doses s'expriment selon les pays en noradrénaline **base** ou en **tartrate** (facteur d'environ 2), source d'erreurs entre protocoles ; débutable sur voie veineuse périphérique de bon calibre en attendant la voie centrale [S2] |
-| **Adrénaline** | α1, β1, β2 | **Anaphylaxie** (IM en première intention) [S5, S6] ; choc septique en complément quand la PAM reste insuffisante malgré noradrénaline et vasopressine [S1] ; arrêt cardiaque | IM : **0,01 mg/kg** de la solution à 1 mg/mL, **maximum 0,5 mg chez l'adulte** (0,3 mg chez l'enfant), face antérolatérale de la cuisse, renouvelable après 5 min [S5, S6] ; perfusion IV titrée en milieu surveillé [POSOLOGIE À VÉRIFIER — protocole local] |
+| **Adrénaline** | α1, β1, β2 | **Anaphylaxie** (IM en première intention) [S5, S6] ; choc septique en complément quand la PAM reste insuffisante malgré noradrénaline et vasopressine [S1] ; arrêt cardiaque | IM : **0,01 mg/kg** de la solution à 1 mg/mL, **dose maximale 0,5 mg** [S5, S6] ; barème simplifié par âge de la WAO 2020 : nourrisson < 10 kg 0,01 mg/kg, **1–5 ans 0,15 mg**, **6–12 ans 0,3 mg**, adolescent et adulte **0,5 mg** [S6] (barème par âge voisin du RCUK 2021 [S13 — À VÉRIFIER]) ; face antérolatérale de la cuisse, renouvelable après 5 min (5 à 15 min selon la WAO) [S5, S6] ; perfusion IV titrée en milieu surveillé [POSOLOGIE À VÉRIFIER — protocole local] |
 | **Dobutamine** | β1 (inotrope), β2 | Bas débit avec hypoperfusion persistante (choc cardiogénique, dysfonction myocardique septique) [S2, S9, S10] | 2 à 20 µg/kg/min en perfusion continue, sans bolus (tableau des inotropes de l'ESC 2021 [S10]), titrée sur la perfusion tissulaire |
 | **Vasopressine** | Récepteurs V1 | Ajout dans le choc septique quand les doses de noradrénaline augmentent [S1, S2] | 0,03 U/min dans les essais de référence [S2] ; disponibilité variable selon les pays [À VÉRIFIER — Algérie] |
 | Dopamine | Effets dose-dépendants | **Non recommandée** en première intention (arythmies) [S1, S2, S10] | — |
@@ -553,7 +560,8 @@ Signes cutanéo-muqueux + atteinte respiratoire/circulatoire/digestive sévère
 OU hypotension/bronchospasme/atteinte laryngée après allergène probable
 │
 ├─ Arrêt de l'exposition, appel à l'aide
-├─ ADRÉNALINE IM 0,01 mg/kg (max 0,5 mg adulte ; 0,3 mg enfant), cuisse
+├─ ADRÉNALINE IM 0,01 mg/kg (max 0,5 mg ; par âge, WAO : 0,15 mg 1–5 ans,
+│  0,3 mg 6–12 ans, 0,5 mg adolescent/adulte), cuisse
 ├─ Décubitus jambes surélevées (assis si dyspnée ; latéral gauche si grossesse), O2
 ├─ Remplissage cristalloïdes si hypotension
 ├─ Pas d'amélioration à 5 min → 2e dose IM
@@ -842,6 +850,7 @@ Hypoperfusion + dysfonction cardiaque (ECG, écho, troponine)
 | Vasoactifs en cas de dysfonction cardiaque septique | **SSC 2021** : ajouter la dobutamine à la noradrénaline ou passer à l'adrénaline seule si hypoperfusion persistante malgré volémie et PA adéquates [S2] | **SSC 2026** : même suggestion (dobutamine ajoutée à la noradrénaline ou adrénaline seule), certitude très faible ; la noradrénaline reste le vasopresseur de première intention (suggestion, désormais de force abaissée) [S1] | Continuité ; correction d'audit : la SSC 2026 ne place pas l'adrénaline au même rang que la noradrénaline en première intention chez l'adulte |
 | Choix du vasopresseur dans le choc cardiogénique | **ESC 2021** : vasopresseur, de préférence noradrénaline, si hypotension ; inotropes réservés au bas débit avec hypoperfusion [S10] | **Experts francophones 2015** : noradrénaline et dobutamine en première intention, prise en charge en centre expert [S9] | Convergence sur la noradrénaline et la dobutamine ; place de l'adrénaline discutée |
 | Assistance circulatoire | **DanGer Shock 2024** : bénéfice de survie de la pompe microaxiale dans le choc de l'infarctus avec sus-décalage de ST [S8] | Recommandations antérieures (ESC 2021) sans recommandation forte en faveur d'une assistance systématique ; ECLS-SHOCK négatif pour l'ECMO [S10, S15] | Niveau de preuve en évolution : seule une population sélectionnée bénéficie |
+| Dose d'adrénaline IM chez l'enfant | **WAO 2020** : 0,01 mg/kg (maximum 0,5 mg), ou barème par âge — 0,15 mg (1–5 ans), 0,3 mg (6–12 ans), 0,5 mg (adolescent) [S6] ; **EAACI 2021** : 0,01 mg/kg, maximum 0,5 mg [S5] | **OMS, Pocket book 2013** : 0,15 mL de solution à 1 mg/mL chez le jeune enfant, 0,3 mL chez l'enfant plus grand (voir DOS-PEDI-0002) ; **RCUK 2021** : barème par âge [S13 — À VÉRIFIER] | Le calcul au poids et les barèmes par âge sont concordants ; 0,3 mg est la dose usuelle de 6–12 ans, **pas un plafond pédiatrique** |
 | Corticoïdes et antihistaminiques dans l'anaphylaxie | **EAACI 2021** : pas en première ligne, les corticoïdes ne préviennent pas de façon démontrée les réactions biphasiques [S5] | Pratiques françaises plus anciennes associant systématiquement corticoïdes et antihistaminiques [S14 — non vérifiée] | L'adrénaline IM reste le seul traitement de première ligne |
 | Doses d'adrénaline IV en anaphylaxie | **Resuscitation Council UK 2021** : perfusion IV titrée pour l'anaphylaxie réfractaire [S13 — non vérifiée] | **Pratique anesthésique française** : bolus IV titrés selon le grade en contexte peropératoire monitoré [À VÉRIFIER — recommandations SFAR non vérifiées] | La voie IV est réservée aux équipes entraînées sous monitorage |
 | Cible de PAM dans le choc septique | **SSC** : PAM initiale 65 mmHg [S1, S2] | **ESICM 2014** : cibles individualisées, plus élevées possibles chez l'hypertendu chronique [S4] | Individualiser selon la perfusion tissulaire |
@@ -860,6 +869,6 @@ Hypoperfusion + dysfonction cardiaque (ECG, écho, troponine)
 10. [S10] McDonagh TA, Metra M, et al. 2021 ESC Guidelines for heart failure. Eur Heart J. 2021;42(36):3599-3726. doi:10.1093/eurheartj/ehab368. — *vérifiée*.
 11. [S11] Byrne RA, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023. doi:10.1093/eurheartj/ehad191. — *vérifiée*.
 12. [S12] Rossaint R, Afshari A, Bouillon B, et al. European guideline on management of major bleeding and coagulopathy following trauma, 6th ed. Crit Care. 2023;27(1):80. doi:10.1186/s13054-023-04327-7. — *vérifiée*.
-13. [S13] Resuscitation Council UK. Emergency treatment of anaphylaxis. 2021. — *non vérifiée pendant la session*.
+13. [S13] Resuscitation Council UK. Emergency treatment of anaphylaxis: guidelines for healthcare providers. 2021. — *existence confirmée par recherche web (AUD-05, 2026-11-19 ; resus.org.uk) ; barème de doses non relu*.
 14. [S14] Gloaguen A, et al. Prise en charge de l'anaphylaxie en médecine d'urgence (SFMU/SFA/GFRUP). 2016. — *non vérifiée pendant la session*.
 15. [S15] Essais IABP-SHOCK II, CULPRIT-SHOCK, ECLS-SHOCK, CRASH-2, ANDROMEDA-SHOCK. — *non vérifiés pendant la session*.

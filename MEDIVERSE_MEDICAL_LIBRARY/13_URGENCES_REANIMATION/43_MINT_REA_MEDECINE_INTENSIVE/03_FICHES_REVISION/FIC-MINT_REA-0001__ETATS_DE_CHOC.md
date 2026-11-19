@@ -4,7 +4,12 @@ titre: "Fiche — États de choc (hypovolémique, cardiogénique, septique, anap
 specialite: MINT_REA
 items_residanat: [RES-MED-106]
 dossier_source: DOS-MINT_REA-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-MINT_REA-0001 v1.2 et DOS-PEDI-0002 : adrénaline IM de l'enfant (0,01 mg/kg, maximum 0,5 mg ; barème par âge WAO 2020) — « maximum 0,3 mg chez l'enfant » supprimé."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — États de choc (RES-MED-106)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MINT_REA-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **Surviving Sepsis Campaign 2026** [S1] et 2021 [S2], **Sepsis-3** [S3], **EAACI 2021** (anaphylaxie) [S5], **ESC 2021** (insuffisance cardiaque) [S10], **guide européen du trauma 2023** [S12]. Aucune recommandation nationale algérienne retrouvée `[À VÉRIFIER]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MINT_REA-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **Surviving Sepsis Campaign 2026** [S1] et 2021 [S2], **Sepsis-3** [S3], **EAACI 2021** (anaphylaxie) [S5], **ESC 2021** (insuffisance cardiaque) [S10], **guide européen du trauma 2023** [S12]. Aucune recommandation nationale algérienne retrouvée `[À VÉRIFIER]`.
 
 ## 1. Définition (2 lignes)
 
@@ -123,7 +128,7 @@ SUSPICION DE CHOC → appel à l'aide, O₂, 2 VVP (ou IO), monitorage, lactate,
 |---|---|
 | Remplissage | **Bolus 250–500 mL réévalués** ; **cristalloïdes équilibrés** (sepsis) ; NaCl 0,9 % si TC grave ; albumine si grands volumes ; **HEA non recommandés**, gélatines non suggérées |
 | **Noradrénaline** | **1re intention** (septique ; cardiogénique hypotensif) ; ≈ 0,05–0,1 µg/kg/min puis titrée `[POSOLOGIE À VÉRIFIER — protocole local]` (piège base/tartrate ≈ × 2) ; VVP de bon calibre possible au début |
-| **Adrénaline IM** (anaphylaxie) | **0,01 mg/kg** (solution 1 mg/mL), **max 0,5 mg adulte (0,3 mg enfant)**, cuisse antérolatérale, **renouvelable à 5 min** ; IV titrée par équipe entraînée `[POSOLOGIE À VÉRIFIER — protocole local]` |
+| **Adrénaline IM** (anaphylaxie) | **0,01 mg/kg** (solution 1 mg/mL), **max 0,5 mg** ; barème WAO par âge : 0,15 mg (1–5 ans), 0,3 mg (6–12 ans), 0,5 mg (adolescent/adulte) ; cuisse antérolatérale, **renouvelable à 5 min** ; IV titrée par équipe entraînée `[POSOLOGIE À VÉRIFIER — protocole local]` |
 | **Dobutamine** | **2–20 µg/kg/min**, sans bolus (bas débit + hypoperfusion) |
 | Vasopressine | **0,03 U/min** si noradrénaline croissante (sepsis) `[À VÉRIFIER — Algérie]` |
 | Dopamine | **Non recommandée** en 1re intention |

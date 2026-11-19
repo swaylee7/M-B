@@ -100,6 +100,14 @@ sources:
     doi: ""
     url: ""
     verifiee: false
+  - id: S12
+    reference: "Prophylaxie antitétanique : CDC, Clinical Guidance for Wound Management to Prevent Tetanus (cdc.gov) ; MSF, Médicaments essentiels — Human tetanus immunoglobulin (medicalguidelines.msf.org) — consultés par extraits via moteur de recherche le 2026-11-19, non acquis ; arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49/2018 (DOC-00070)."
+    organisme: "CDC ; MSF ; Ministère de la santé (Algérie)"
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://www.cdc.gov/tetanus/hcp/clinical-guidance/"
+    verifiee: true
 mots_cles: [accident du travail, accident de trajet, maladie professionnelle, tableaux, présomption d'imputabilité, certificat initial, consolidation, incapacité permanente, CNAS, médecine du travail, loi 83-13, loi 88-07]
 ---
 
@@ -321,7 +329,7 @@ Un praticien **choisi par la victime** établit **deux certificats** :
 ### 13.3 Le circuit de déclaration de l'accident du travail (art. 13-17) [S1]
 
 ```text
-DÉCLARATION DE L'ACCIDENT DU TRAVAIL (loi 83-13, rédaction de 1983)
+DÉCLARATION DE L'ACCIDENT DU TRAVAIL (loi 83-13, art. 13-17, non modifiés par l'ordonnance 96-19)
 Victime (ou ses représentants) ──► EMPLOYEUR : dans les 24 heures
                                      (sauf force majeure ; jours non ouvrables non comptés)
 EMPLOYEUR ──► ORGANISME DE SÉCURITÉ SOCIALE : dans les 48 heures à compter de la connaissance
@@ -456,7 +464,7 @@ Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS
 
 **Diagnostic retenu** — Accident du travail : fracture déplacée de l'extrémité distale du radius droit, contusion de la hanche gauche, plaie contuse du coude gauche.
 
-**Prise en charge** — Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique selon le protocole national [POSOLOGIE À VÉRIFIER — RCP / protocole local], antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.
+**Prise en charge** — Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique : plaie contuse de chantier (plaie à risque) et dernière dose datant de plus de 10 ans → **rappel anti-diphtérique et anti-tétanique (dT)** ; immunoglobulines antitétaniques humaines (250 UI IM, en un site distinct) seulement si la primovaccination est incomplète ou inconnue (CDC ; MSF) [S12] — le protocole national prévaut, antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.
 
 **Surveillance** — Contrôles radiologiques, certificats de prolongation si nécessaire, rééducation. Visite de reprise par le médecin du travail avant la reprise (loi 88-07, art. 17).
 
@@ -502,14 +510,14 @@ Selon la loi algérienne n° 83-13, quelles situations relèvent de la législat
 - **A.** Chute d'un maçon d'un échafaudage sur le chantier pendant ses heures de travail.
 - **B.** Accident de la route d'un commercial au cours d'une mission confiée par son employeur.
 - **C.** Blessure d'un travailleur qui porte secours à une personne en danger (acte de sauvetage).
-- **D.** Blessure lors d'une activité sportive organisée dans le cadre d'une association.
+- **D.** Blessure lors d'une activité sportive organisée par l'organisme employeur.
 - **E.** Entorse survenue en jardinant chez soi un jour de congé.
 
-> **Corrigé : A, B, C, D.** L'AT est l'accident ayant entraîné une lésion corporelle imputable à une cause soudaine et extérieure, survenu dans le cadre de la relation de travail (art. 6) ; les articles 7 et 8 y assimilent notamment les accidents de mission, les activités sportives organisées et les actes de dévouement ou de sauvetage.
+> **Corrigé : A, B, C, D.** L'AT est l'accident ayant entraîné une lésion corporelle imputable à une cause soudaine et extérieure, survenu dans le cadre de la relation de travail (art. 6) ; les articles 7 et 8, réécrits par l'ordonnance 96-19, y assimilent notamment les accidents de mission, les activités sportives organisées par l'organisme employeur et les actes de dévouement ou de sauvetage.
 > - A : Vrai : art. 6.
 > - B : Vrai : art. 7 (mission).
 > - C : Vrai : art. 8.
-> - D : Vrai : art. 8.
+> - D : Vrai : art. 8 (rédaction de 1996 ; la rédaction de 1983 visait les activités sportives organisées « dans le cadre d'associations »).
 > - E : Faux : accident de la vie privée.
 
 **QCM 2 — Accident de trajet** (QCM (réponses multiples), difficulté 2/3)
@@ -533,7 +541,7 @@ Concernant l'accident de trajet selon la loi 83-13, quelles propositions sont ex
 
 **QCM 3 — Déclaration de l'accident du travail** (QCM (réponses multiples), difficulté 2/3)
 
-Selon la loi 83-13 (rédaction de 1983), quelles propositions sont exactes concernant la déclaration de l'accident du travail ?
+Selon la loi 83-13 (articles 13 à 15, inchangés depuis 1983), quelles propositions sont exactes concernant la déclaration de l'accident du travail ?
 
 - **A.** La victime informe l'employeur dans les 24 heures, sauf force majeure.
 - **B.** L'employeur déclare l'accident à l'organisme de sécurité sociale dans les 48 heures après en avoir eu connaissance.
@@ -686,14 +694,15 @@ Concernant les rôles respectifs des médecins dans le domaine des AT/MP, quelle
 
 ## 22. Références
 
-1. [S1] Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles. JORADP n° 28 du 5 juillet 1983, p. 1210-1217 (rédaction d'origine).
-2. [S2] Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle ainsi que ses annexes 1 et 2. JORADP n° 16 du 23 mars 1997.
-3. [S3] Loi n° 88-07 du 26 janvier 1988 relative à l'hygiène, à la sécurité et à la médecine du travail. JORADP n° 4 du 27 janvier 1988.
+1. [S1] Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles. JORADP n° 28 du 5 juillet 1983, p. 1210-1217 (DOC-00103), modifiée par l'ordonnance n° 96-19 du 6 juillet 1996, JORADP n° 42 du 7 juillet 1996 (DOC-00104).
+2. [S2] Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle ainsi que ses annexes 1 et 2. JORADP n° 16 du 23 mars 1997 (DOC-00106).
+3. [S3] Loi n° 88-07 du 26 janvier 1988 relative à l'hygiène, à la sécurité et à la médecine du travail. JORADP n° 4 du 27 janvier 1988 (DOC-00105).
 4. [S4] Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (DOC-00074).
-5. [S5] Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale. JORADP n° 52 du 8 juillet 1992.
+5. [S5] Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale. JORADP n° 52 du 8 juillet 1992 (DOC-00107).
 6. [S6] Lois n° 83-11, 83-14 et 83-15 du 2 juillet 1983 (JORADP n° 28/1983) ; décret n° 84-28 du 11 février 1984.
 7. [S7] Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire. JORADP n° 47/2022 (DOC-00072).
 8. [S8] *Hunter's Diseases of Occupations*, 10e éd., 2010 (OUV-0690) ; *Current Diagnosis & Treatment: Occupational & Environmental Medicine*, 6e éd., 2021 (OUV-0692).
 9. [S9] Arrêté interministériel du 8 mai 2002 (dysphonie professionnelle des enseignants) — non consulté.
 10. [S10] OIT, liste des maladies professionnelles (révisée en 2010) ; conventions n° 155 et 161 — non revérifiées.
 11. [S11] France, Code de la sécurité sociale, art. L.411-1 et L.461-1 — comparaison, non revérifiée.
+12. [S12] CDC. *Clinical Guidance for Wound Management to Prevent Tetanus* ; MSF. *Médicaments essentiels — immunoglobuline antitétanique humaine* (consultés par extraits, 2026-11-19) ; arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49/2018 (DOC-00070).

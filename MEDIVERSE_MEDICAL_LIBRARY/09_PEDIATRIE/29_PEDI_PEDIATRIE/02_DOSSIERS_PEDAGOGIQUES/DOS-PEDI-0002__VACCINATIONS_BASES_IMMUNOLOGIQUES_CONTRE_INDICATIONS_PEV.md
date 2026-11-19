@@ -6,7 +6,7 @@ sous_specialite: "Vaccinologie — santé publique de l'enfant"
 items_residanat: [RES-MED-070]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 6
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : (1) VPO à la naissance tranché sur les textes (DOC-00070 et DOC-00071 relus, pdftotext -raw) — les arrêtés de 2018 et 2026 ne prévoient à la naissance que le BCG et l'hépatite B ; seule la mention d'un guide de 2023 (lu par extraits) reste « à confirmer » ; (2) adrénaline IM de l'anaphylaxie harmonisée avec DOS-MINT_REA-0001 (0,01 mg/kg, maximum 0,5 mg ; barème par âge WAO 2020, source S22 ajoutée). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Ministère de la Santé, de la Population et de la Réforme hospitalière (Algérie). Arrêté du 19 Chaoual 1439 correspondant au 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018, p. 29-30. Document acquis DOC-00070 (texte lu)."
@@ -186,6 +192,15 @@ sources:
     doi: ""
     url: ""
     verifiee: true
+  - id: S22
+    reference: "Cardona V, Ansotegui IJ, Ebisawa M, et al. World Allergy Organization Anaphylaxis Guidance 2020. World Allergy Organ J. 2020;13(10):100472."
+    organisme: WAO
+    annee: 2020
+    type: recommandation
+    doi: "10.1016/j.waojou.2020.100472"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 (2026-11-19) : PDF acquis (18_RECOMMANDATIONS/03_SOCIETES_SAVANTES/WAO_anaphylaxie_2020.pdf), tableau 6 relu."
 mots_cles: [vaccination, immunologie vaccinale, PEV, programme élargi de vaccination, calendrier vaccinal Algérie, hexavalent, BCG, ROR, VPO, VPI, pneumocoque, HPV, contre-indications, MAPI, chaîne du froid]
 ---
 
@@ -194,7 +209,7 @@ mots_cles: [vaccination, immunologie vaccinale, PEV, programme élargi de vaccin
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies et schémas doivent être confrontés au **texte officiel du JORADP**, au RCP des vaccins et aux instructions du MSPRH avant toute application.
 > **Avertissement de vérification (19/11/2026, mise à jour)** : le calendrier vaccinal algérien présenté au §13.4 est désormais établi à partir des **textes officiels du JORADP acquis et lus** (DOC-00070 : arrêté du 3 juillet 2018 ; DOC-00071 : arrêté du 28 avril 2026 ; DOC-00076 : arrêté du 24 novembre 2014, remplacé ; DOC-00074 : loi n° 18-11 ; DOC-00072 : décret exécutif n° 22-250). Les informations de mise en œuvre (date d'application, forme hexavalente) proviennent de sources institutionnelles et de presse identifiées par recherche web. Les références internationales (OMS, CDC, Plotkin) n'ont pas pu être vérifiées (budget de recherche épuisé) : `verifiee: false`.
-> **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : les tableaux du §13.4 ont été **relus contre les trois arrêtés** (DOC-00070, DOC-00071, DOC-00076, extraction `pdftotext -layout`) et sont **conformes**. Position OMS 2018 sur le BCG vérifiée et intégrée (§10.3). Points restant ouverts : VPO de naissance (guide 2023 vs arrêtés), arrêté modificatif intermédiaire de 2018 (non retrouvé), modalités HPV. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0002.md`.
+> **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : les tableaux du §13.4 ont été **relus contre les trois arrêtés** (DOC-00070, DOC-00071, DOC-00076, extraction `pdftotext -layout`) et sont **conformes**. Position OMS 2018 sur le BCG vérifiée et intégrée (§10.3). Points restant ouverts : VPO de naissance (tranché par l'audit AUD-05 sur les arrêtés : absent du calendrier réglementaire ; mention du guide 2023 à confirmer), arrêté modificatif intermédiaire de 2018 (non retrouvé), modalités HPV. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0002.md`.
 
 **Items du programme couverts** : RES-MED-070 — « Vaccinations : Bases immunologiques - contre indications - programme élargi des vaccinations ».
 
@@ -582,6 +597,8 @@ Une **MAPI** (*AEFI — adverse event following immunization*) est tout événem
 2. Appeler à l'aide ; position allongée (jambes surélevées), ou assise si détresse respiratoire.
 3. ADRÉNALINE INTRAMUSCULAIRE (face antérolatérale de la cuisse) : 0,01 mg/kg de la solution
    à 1 mg/mL (soit 0,01 mL/kg), maximum 0,5 mg ; renouvelable toutes les 5 à 15 minutes.
+   Barème simplifié par âge de la WAO 2020 [S22] : nourrisson < 10 kg 0,01 mg/kg ;
+   1–5 ans 0,15 mg ; 6–12 ans 0,3 mg ; adolescent 0,5 mg (même règle dans DOS-MINT_REA-0001).
    L'OMS (Pocket book 2013) propose une dose fixe de 0,15 mL de solution à 1 mg/mL
    (1:1000) IM chez le jeune enfant (0,3 mL chez l'enfant plus grand), renouvelable
    toutes les 5 à 15 min [S21] ; se conformer au protocole national.
@@ -675,7 +692,7 @@ Inscription sur le **carnet de santé** et le registre (vaccin, numéro de lot, 
 **Lecture et comptage des doses (calendrier 2018 complété en 2026)** :
 
 - **Hépatite B** : **4 doses** (naissance, 2, 4 et 12 mois).
-- **Poliomyélite** : **VPI** à 2, 4, 12 mois et 6 ans (4 doses) ; **VPO** à 4 et 12 mois dans le texte de 2018, **à 2, 4 et 12 mois** depuis l'arrêté de 2026 ; **pas de VPO à la naissance** dans les arrêtés de 2018 et 2026 (le guide pratique de mise en œuvre de 2023 [S5] mentionne une dose de VPO à la naissance d'après les extraits consultés : discordance à éclaircir avec les instructions ministérielles **[À VÉRIFIER]**).
+- **Poliomyélite** : **VPI** à 2, 4, 12 mois et 6 ans (4 doses) ; **VPO** à 4 et 12 mois dans le texte de 2018, **à 2, 4 et 12 mois** depuis l'arrêté de 2026. **Il n'y a pas de VPO à la naissance dans le calendrier réglementaire en vigueur** : à la naissance, l'arrêté de 2018 ne prévoit que le **BCG** et l'**hépatite B**, et l'arrêté de 2026 laisse cette ligne « sans changement » (textes DOC-00070 et DOC-00071 relus par l'audit de cohérence AUD-05, 19/11/2026) [S1, S2]. Seul le guide pratique de mise en œuvre de 2023 [S5], lu uniquement par extraits, évoquerait une dose de VPO à la naissance : information **à confirmer** auprès des instructions ministérielles, qui ne modifie pas le calendrier fixé par arrêté.
 - **Coqueluche acellulaire** : 4 doses (2, 4, 12 mois, 6 ans) ; **Hib** : 3 doses (2, 4, 12 mois).
 - **Pneumocoque conjugué** : schéma **2 + 1** (2, 4, 12 mois) ; vaccin **13-valent** dans l'arrêté de 2018 ; l'arrêté de 2026 ne précise plus la valence (le remplacement par un vaccin de valence plus élevée est rapporté par la presse [S20] **[spécialité utilisée À VÉRIFIER]**).
 - **ROR** : 2 doses (11 et 18 mois).
@@ -886,7 +903,7 @@ A. Antihistaminique IV — B. Adrénaline IM 0,15 mg (0,01 mg/kg) — C. Cortico
 | **HPV** | 11–13 ans (arrêté 2026 ; sexe et nombre de doses non précisés dans le texte) [S2] | 11–14 ans, filles **et garçons** **[À VÉRIFIER]** | Filles de 9–14 ans en priorité ; schéma à **une ou deux doses** possible (position 2022) **[À VÉRIFIER]** |
 | **Rotavirus** | **Absent** du calendrier obligatoire (arrêtés 2018 et 2026) [S1, S2] | Recommandé **[À VÉRIFIER]** | Recommandé dans tous les pays **[À VÉRIFIER]** |
 | **Méningocoques** | **Absents** du calendrier obligatoire de l'enfant [S1, S2] | Obligatoires chez le nourrisson (B et ACWY) selon les évolutions récentes **[À VÉRIFIER]** | Selon l'épidémiologie (ceinture africaine de la méningite) |
-| **VPO à la naissance (Algérie)** | Arrêté de 2014 : oui [S3] ; arrêtés de 2018 et 2026 : **non** (VPO à 4 et 12 mois, puis 2, 4 et 12 mois) [S1, S2] ; guide pratique 2023 : dose de naissance mentionnée d'après les extraits consultés [S5] **[À VÉRIFIER]** | — | Dose de naissance de VPO recommandée dans les pays d'endémie ou à haut risque d'importation **[À VÉRIFIER]** |
+| **VPO à la naissance (Algérie)** | Arrêté de 2014 : oui [S3] ; arrêtés de 2018 et 2026 : **non** (textes relus : naissance = BCG + hépatite B ; VPO à 4 et 12 mois, puis 2, 4 et 12 mois) [S1, S2] ; guide pratique 2023 : dose de naissance évoquée d'après les extraits consultés [S5] — **à confirmer**, sans valeur réglementaire | — | Dose de naissance de VPO recommandée dans les pays d'endémie ou à haut risque d'importation **[À VÉRIFIER]** |
 
 **Lecture critique** : les différences entre calendriers ne sont pas des « erreurs » mais des adaptations à l'**épidémiologie** (tuberculose, VHB, risque d'importation de poliovirus), aux **ressources** et à l'**organisation** des soins. Pour l'examen et la pratique en Algérie, **le calendrier national fixé par arrêté fait foi** ; le texte exact du JORADP doit être consulté.
 
@@ -913,3 +930,4 @@ A. Antihistaminique IV — B. Adrénaline IM 0,15 mg (0,01 mg/kg) — C. Cortico
 19. [S19] Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles à déclaration obligatoire, JORADP n° 47 du 11 juillet 2022 — **DOC-00072, texte lu**.
 20. [S20] Algérie360, article sur la révision 2026 du calendrier vaccinal — **vérifiée** (existence de l'article ; modalités de presse non officielles).
 21. [S21] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 (anaphylaxie) — **vérifiée** (DOC-00063, texte lu par l'audit).
+22. [S22] Cardona V, et al. World Allergy Organization Anaphylaxis Guidance 2020. *World Allergy Organ J*. 2020;13(10):100472. doi:10.1016/j.waojou.2020.100472 — **vérifiée** (PDF acquis, tableau 6 relu ; ajoutée par AUD-05).

@@ -604,6 +604,158 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-13",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-IMMU-1303",
+      "titre": "Collapsus peropératoire au cours de l'exérèse d'un kyste hydatique du foie",
+      "niveau": "resident",
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 38 ans, éleveur ovin dans une wilaya des Hauts-Plateaux, opéré dans un service de chirurgie générale.",
+      "motif_consultation": "Intervention programmée pour un kyste hydatique hépatique du segment VII de 9 cm, découvert devant des douleurs de l'hypocondre droit.",
+      "antecedents": "Pas d'antécédent allergique connu ; épisodes d'urticaire transitoire inexpliqués dans l'année précédente. Sérologie hydatique positive. Pas de traitement en cours.",
+      "symptomes": "Au cours de la libération du kyste, issue de liquide hydatique dans la cavité péritonéale ; 2 minutes plus tard, érythème diffus du thorax et du visage.",
+      "examen_clinique": "Sous anesthésie générale : PA passant de 125/75 à 60/30 mmHg, FC 140/min, augmentation des pressions d'insufflation, sibilants, désaturation à 88 % ; érythème généralisé et œdème des paupières.",
+      "biologie": "Tryptase sérique prélevée à 1 heure : 46 µg/L ; tryptase basale à 48 heures : 6 µg/L (seuil d'activation : 1,2 × 6 + 2 = 9,2 µg/L). Hyperéosinophilie modérée sur le bilan préopératoire (0,9 G/L).",
+      "imagerie": "Échographie et scanner préopératoires : kyste hydatique hépatique uniloculaire à paroi décollée (stade évolutif intermédiaire).",
+      "hypotheses_diagnostiques": [
+        "Anaphylaxie peropératoire par libération d'antigènes hydatiques (rupture du kyste)",
+        "Anaphylaxie médicamenteuse peropératoire (curares, antibiotiques, latex, chlorhexidine)",
+        "Choc hémorragique"
+      ],
+      "diagnostics_differentiels": [
+        "Choc hémorragique (pas de saignement significatif)",
+        "Embolie gazeuse",
+        "Surdosage en agents anesthésiques"
+      ],
+      "examens_a_demander": [
+        "Tryptase sérique (pic et basale)",
+        "Consultation d'allergo-anesthésie à 4-6 semaines : tests cutanés aux médicaments administrés (curare, antibiotique, chlorhexidine, latex)",
+        "Sérologie et suivi de l'hydatidose (risque d'échinococcose secondaire)"
+      ],
+      "diagnostic_final": "Anaphylaxie de grade III de Ring et Messmer, avec activation mastocytaire confirmée, secondaire à la dissémination peropératoire de liquide hydatique chez un patient sensibilisé (IgE anti-Echinococcus) ; une cause médicamenteuse peropératoire reste à éliminer par le bilan allergo-anesthésique.",
+      "traitement": "Arrêt de la manipulation du kyste et protection du champ opératoire ; adrénaline titrée par voie intraveineuse par l'anesthésiste-réanimateur sous monitorage (contexte peropératoire), remplissage vasculaire, oxygène pur, bronchodilatateurs ; poursuite de l'intervention après stabilisation avec lavage par solution scolicide selon le protocole chirurgical ; traitement antiparasitaire complémentaire selon les recommandations [POSOLOGIE À VÉRIFIER — protocole local].",
+      "surveillance": "Réanimation post-opératoire 24 heures ; hémodynamique ; réaction biphasique ; suivi échographique et sérologique de l'hydatidose.",
+      "evolution": "Stabilisation en 20 minutes ; extubation le lendemain ; tests cutanés aux médicaments anesthésiques négatifs à 6 semaines, confortant l'origine hydatique.",
+      "explication_pedagogique": "Le liquide hydatique contient des antigènes parasitaires très immunogènes. Une fissuration du kyste (urticaires antérieures inexpliquées) a pu sensibiliser le patient et induire des IgE spécifiques ; l'issue massive de liquide en peropératoire provoque le pontage des IgE fixées sur les mastocytes : c'est une hypersensibilité de type I. Le diagnostic d'anaphylaxie est conforté par la tryptase (46 µg/L > 1,2 × 6 + 2). En anesthésie, l'adrénaline est titrée par voie intraveineuse par une équipe entraînée et sous monitorage, alors que la voie intramusculaire est la règle hors de ce contexte. L'échinococcose kystique est endémique en Algérie, où les chiens et les ovins entretiennent le cycle : la prévention de la rupture du kyste fait partie des principes chirurgicaux. Le bilan allergo-anesthésique reste indispensable pour ne pas méconnaître une allergie à un curare ou à un antiseptique.",
+      "questions": [
+        {
+          "question": "Quel mécanisme immunologique explique le collapsus ?",
+          "reponse": "Hypersensibilité de type I : pontage par les antigènes hydatiques des IgE spécifiques fixées sur les mastocytes, libération massive de médiateurs (histamine, leucotriènes, PAF) → vasodilatation, fuite capillaire, bronchospasme."
+        },
+        {
+          "question": "Comment interpréter la tryptase ?",
+          "reponse": "Seuil = 1,2 × 6 + 2 = 9,2 µg/L ; le pic à 46 µg/L confirme une activation mastocytaire."
+        },
+        {
+          "question": "Quel est le grade de Ring et Messmer ?",
+          "reponse": "Grade III : collapsus, bronchospasme, signes cutanés."
+        },
+        {
+          "question": "Pourquoi un bilan allergo-anesthésique est-il nécessaire ?",
+          "reponse": "Les curares, les antibiotiques, la chlorhexidine et le latex sont des causes fréquentes d'anaphylaxie peropératoire ; il faut les éliminer avant une prochaine anesthésie."
+        },
+        {
+          "question": "Quelles mesures de prévention de l'hydatidose ?",
+          "reponse": "Interruption du cycle chien-mouton (contrôle de l'abattage, destruction des viscères parasités, vermifugation des chiens), hygiène des mains, et en chirurgie protection du champ opératoire pour éviter la rupture et la dissémination."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Cardona V et al. World Allergy Organization anaphylaxis guidance 2020. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        },
+        {
+          "reference": "Ring J, Messmer K. Lancet 1977;1:466-9",
+          "date": "1977"
+        },
+        {
+          "reference": "Fennouh C et al. Echinococcosis in Humans and Animals in Algeria: A Systematic Review and Meta-analysis. Acta Parasitol 2026;71:55",
+          "date": "2026"
+        },
+        {
+          "reference": "Valent P et al. Int Arch Allergy Immunol 2012;157:215-25",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-IMMU-1304",
+      "titre": "Eczéma vésiculeux du dos de la main après un tatouage au « henné noir » — hypersensibilité retardée",
+      "niveau": "generaliste",
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : jeune femme, 23 ans, étudiante, consultant chez un médecin généraliste en été.",
+      "motif_consultation": "Lésions prurigineuses suintantes du dos de la main et du poignet gauches, exactement sur le motif d'un tatouage temporaire au « henné noir » réalisé 9 jours plus tôt lors d'une fête.",
+      "antecedents": "Dermatite atopique dans l'enfance. Aucun tatouage antérieur. Teintures capillaires occasionnelles.",
+      "symptomes": "Prurit intense apparu au 7e jour, puis rougeur, vésicules et suintement reproduisant le dessin ; aucun signe général.",
+      "examen_clinique": "Plaques érythémato-vésiculeuses à bords nets, épousant le motif du tatouage, avec quelques lésions eczémateuses à distance sur l'avant-bras ; pas d'atteinte muqueuse ; pas d'adénopathie ; température normale.",
+      "biologie": "Aucune nécessaire en phase aiguë.",
+      "imagerie": "Sans objet.",
+      "hypotheses_diagnostiques": [
+        "Eczéma allergique de contact à la paraphénylènediamine (PPD) ajoutée au henné",
+        "Dermite d'irritation",
+        "Réaction au henné naturel (rare)"
+      ],
+      "diagnostics_differentiels": [
+        "Dermite d'irritation (pas de diffusion au-delà de la zone de contact, délai plus court)",
+        "Impétigo",
+        "Photodermatose",
+        "Urticaire de contact (immédiate, en minutes)"
+      ],
+      "examens_a_demander": [
+        "Patch-tests à distance de la poussée (batterie standard européenne incluant la PPD, batterie coiffure)",
+        "Lectures à J2 et J3-J4, et vers J7 si nécessaire"
+      ],
+      "diagnostic_final": "Eczéma allergique de contact (hypersensibilité retardée de type IV) à la paraphénylènediamine, sensibilisation primaire par le tatouage au « henné noir ».",
+      "traitement": "Dermocorticoïde d'activité forte sur une durée courte selon les recommandations de dermatologie, émollients ; éviction de la PPD et des molécules apparentées (teintures capillaires d'oxydation, certains colorants textiles) ; information écrite remise à la patiente [POSOLOGIE À VÉRIFIER — RCP / protocole local].",
+      "surveillance": "Cicatrisation, hypopigmentation ou hyperpigmentation résiduelle, risque de réaction sévère lors d'une future teinture capillaire.",
+      "evolution": "Guérison en 2 semaines avec hypopigmentation transitoire ; patch-test à la PPD positif (++) à J3, pertinence clinique établie.",
+      "explication_pedagogique": "Le henné naturel est rarement allergisant ; le « henné noir » contient souvent de la paraphénylènediamine ajoutée à forte concentration pour foncer et accélérer la coloration. La PPD est un haptène (prohaptène oxydé en dérivés réactifs) qui se lie aux protéines cutanées ; les cellules de Langerhans et les cellules dendritiques dermiques migrent vers les ganglions et sensibilisent des lymphocytes T. Lors d'une première exposition, la sensibilisation et le déclenchement peuvent se succéder sur la même exposition, d'où un délai d'environ une semaine ; lors des réexpositions, l'eczéma apparaît en 24 à 72 heures. Les patch-tests, réalisés à distance de la poussée selon les recommandations de l'ESCD, confirment le diagnostic ; le risque majeur est une réaction sévère lors d'une future teinture capillaire et des réactions croisées avec d'autres amines aromatiques.",
+      "questions": [
+        {
+          "question": "Quel type d'hypersensibilité est en cause ?",
+          "reponse": "Type IV (retardée, médiée par les lymphocytes T ; sous-types IVa et IVc)."
+        },
+        {
+          "question": "Pourquoi le délai est-il de 7 jours ?",
+          "reponse": "Il s'agit d'une première exposition : la phase de sensibilisation (plusieurs jours) précède le déclenchement ; lors des réexpositions, le délai est de 24 à 72 heures."
+        },
+        {
+          "question": "Quel examen confirme le diagnostic et quand ?",
+          "reponse": "Les patch-tests, à distance de la poussée, avec lectures à J2 et J3-J4 (± J7)."
+        },
+        {
+          "question": "Quel conseil d'éviction donner ?",
+          "reponse": "Éviter les tatouages au « henné noir », les teintures capillaires d'oxydation contenant de la PPD et les molécules apparentées ; signaler l'allergie aux coiffeurs."
+        },
+        {
+          "question": "Comment distinguer une urticaire de contact ?",
+          "reponse": "L'urticaire de contact (type I) survient en quelques minutes et régresse en quelques heures, sans vésicules ni suintement."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Johansen JD et al. European Society of Contact Dermatitis guideline for diagnostic patch testing. Contact Dermatitis 2015;73:195-221",
+          "date": "2015"
+        },
+        {
+          "reference": "Pichler WJ. Delayed drug hypersensitivity reactions. Ann Intern Med 2003;139:683-93",
+          "date": "2003"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
     }
   ]
 }

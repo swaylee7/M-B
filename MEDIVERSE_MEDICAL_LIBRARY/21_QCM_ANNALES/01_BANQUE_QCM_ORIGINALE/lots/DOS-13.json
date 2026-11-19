@@ -2628,6 +2628,656 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-13",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1314",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles associations entre type d'hypersensibilité et exemple sont exactes ?",
+      "propositions": {
+        "A": "Type I – anaphylaxie à l'arachide.",
+        "B": "Type II – accident transfusionnel ABO.",
+        "C": "Type III – maladie sérique.",
+        "D": "Type IV – eczéma de contact au nickel.",
+        "E": "Type III – syndrome de Goodpasture."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "I : IgE ; II : anticorps contre antigènes cellulaires ou matriciels ; III : complexes immuns ; IV : lymphocytes T. Le syndrome de Goodpasture (anti-membrane basale, dépôts linéaires) relève du type II.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : IgM anti-A/anti-B, complément.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : type II."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilités — classification de Gell et Coombs",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Classer le Goodpasture dans le type III.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1315",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hypersensibilité de type I, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La commutation isotypique vers l'IgE dépend principalement de l'IL-4 et de l'IL-13.",
+        "B": "Le déclenchement nécessite le pontage d'au moins deux IgE fixées sur le FcεRI.",
+        "C": "La tryptase est un médiateur néoformé synthétisé en plusieurs heures.",
+        "D": "Les leucotriènes cystéinés sont des bronchoconstricteurs puissants.",
+        "E": "La phase tardive, 4 à 8 heures après l'exposition, est dominée par l'afflux d'éosinophiles."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Sensibilisation : Th2/Tfh, IL-4/IL-13, IgE fixées sur FcεRI. Déclenchement : pontage par un allergène multivalent → dégranulation (histamine, tryptase préformées), médiateurs lipidiques (PGD2, leucotriènes, PAF), cytokines → phase tardive à éosinophiles.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : préformée dans les granules.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilité immédiate — sensibilisation et déclenchement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology, 9e éd. 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1316",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la guidance WAO 2020, quelles propositions concernant le diagnostic d'anaphylaxie sont exactes ?",
+      "propositions": {
+        "A": "Une atteinte cutanéo-muqueuse aiguë associée à une atteinte respiratoire suffit à la rendre hautement probable.",
+        "B": "Une hypotension aiguë après exposition à un allergène connu du patient suffit, même sans signe cutané.",
+        "C": "Des signes digestifs sévères associés à une atteinte cutanée peuvent constituer un critère.",
+        "D": "L'anaphylaxie sévère peut survenir sans choc ni signes cutanés typiques.",
+        "E": "La présence d'une urticaire isolée suffit à porter le diagnostic."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Critère 1 : peau/muqueuses + respiratoire, hypotension/défaillance d'organe ou digestif sévère. Critère 2 : hypotension, bronchospasme ou atteinte laryngée après allergène connu, même sans signe cutané.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : surtout après un allergène non alimentaire.",
+        "D": "Vrai.",
+        "E": "Faux : il faut une atteinte d'un autre organe."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — critères diagnostiques WAO 2020",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Exiger des signes cutanés pour retenir l'anaphylaxie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1317",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'adrénaline dans le traitement de l'anaphylaxie (guidance WAO 2020), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est le traitement de première ligne.",
+        "B": "La dose recommandée est de 0,01 mg/kg de la solution à 1 mg/mL, sans dépasser 0,5 mg.",
+        "C": "L'injection se fait par voie intramusculaire dans la face antérolatérale de la cuisse.",
+        "D": "La dose peut être répétée toutes les 5 à 15 minutes en cas de symptômes persistants.",
+        "E": "Le bolus intraveineux non dilué est la voie à privilégier en première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Adrénaline IM 0,01 mg/kg (1 mg/mL), maximum 0,5 mg, répétable toutes les 5 à 15 min. La voie IV est réservée aux formes réfractaires, en perfusion titrée et en milieu spécialisé, en raison du risque d'arythmies graves.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — adrénaline",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": "Retarder l'adrénaline au profit des antihistaminiques.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        },
+        {
+          "reference": "Muraro A et al. Allergy 2022;77:357-77",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1318",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le dosage de la tryptase sérique après une anaphylaxie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le pic survient habituellement 1 à 2 heures après le début des symptômes.",
+        "B": "Une tryptase basale doit être dosée au moins 24 heures après la résolution des symptômes.",
+        "C": "Une élévation supérieure à 1,2 × tryptase basale + 2 µg/L confirme une activation mastocytaire.",
+        "D": "Une tryptase normale exclut une anaphylaxie.",
+        "E": "Une tryptase basale élevée doit faire rechercher une mastocytose."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La tryptase s'élève dès 15 min, culmine à 1-2 h ; la tryptase basale (≥ 24 h) permet d'appliquer la formule « 20 % + 2 ». Une tryptase normale n'exclut pas l'anaphylaxie, notamment alimentaire chez l'enfant.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai (ou une α-tryptasémie héréditaire)."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — tryptase",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à l'absence d'anaphylaxie sur une tryptase normale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        },
+        {
+          "reference": "Valent P et al. Int Arch Allergy Immunol 2012;157:215-25",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1319",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiopathologie du choc anaphylactique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il associe un choc distributif (vasodilatation) et une hypovolémie par fuite capillaire.",
+        "B": "Le PAF est associé à la sévérité de l'anaphylaxie.",
+        "C": "Une faible activité de la PAF-acétylhydrolase a été rapportée chez des patients ayant fait une anaphylaxie mortelle.",
+        "D": "L'adrénaline agit uniquement par son effet α-adrénergique.",
+        "E": "Certains médicaments peuvent activer directement les mastocytes par le récepteur MRGPRX2."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Vasodilatation, perméabilité, atteinte myocardique et bronchospasme. Le PAF et la PAF-acétylhydrolase sont liés à la sévérité (Vadas 2008). L'adrénaline agit par α1, β1, β2 et inhibe la libération des médiateurs. MRGPRX2 explique des réactions non IgE-dépendantes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : effets α1, β1 et β2.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — physiopathologie du choc",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Vadas P et al. N Engl J Med 2008;358:28-35",
+          "date": "2008"
+        },
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1320",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le bilan allergologique d'une réaction immédiate, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est habituellement réalisé 4 à 6 semaines après la réaction.",
+        "B": "Les antihistaminiques doivent être arrêtés avant les prick-tests.",
+        "C": "Des IgE spécifiques positives témoignent d'une sensibilisation qui n'équivaut pas forcément à une allergie clinique.",
+        "D": "Le test de provocation est l'examen de référence, réalisé sous surveillance.",
+        "E": "Le dosage des IgE totales permet d'identifier l'allergène responsable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Tests cutanés et IgE spécifiques établissent une sensibilisation ; la pertinence clinique repose sur l'histoire et, si besoin, sur le test de provocation. Les IgE totales ne sont pas diagnostiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : trop tôt, risque de faux négatifs.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Exploration allergologique à distance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre sensibilisation et allergie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ansotegui IJ et al. World Allergy Organ J 2020;13:100080",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1321",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hypersensibilité de type II, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'accident transfusionnel ABO est dû à des IgM naturelles activant le complément.",
+        "B": "La maladie hémolytique du nouveau-né implique des IgG maternelles traversant le placenta.",
+        "C": "Le test direct à l'antiglobuline recherche des immunoglobulines ou du complément fixés sur les hématies du patient.",
+        "D": "Dans la maladie de Basedow, des anticorps stimulent le récepteur de la TSH.",
+        "E": "Les dépôts du syndrome de Goodpasture sont granuleux en immunofluorescence."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Mécanismes : lyse par le complément, opsonisation, ADCC, inflammation, dysfonction de récepteur. Le Goodpasture donne des dépôts linéaires d'IgG le long des membranes basales.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : transport par le FcRn.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : linéaires."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilité de type II — mécanismes et explorations",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre dépôts linéaires (type II) et granuleux (type III).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Robbins & Cotran Pathologic Basis of Disease, 10e éd. 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1322",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hypersensibilité de type III, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les complexes les plus pathogènes sont de petite ou moyenne taille, formés en léger excès d'antigène.",
+        "B": "La maladie sérique survient habituellement 7 à 14 jours après l'injection de protéines hétérologues.",
+        "C": "La réaction d'Arthus est une réaction locale survenant 4 à 8 heures après l'injection.",
+        "D": "Le complément (C3, C4) est souvent abaissé par consommation.",
+        "E": "Le prélèvement pour la recherche de cryoglobulines doit être transporté à 4 °C."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Dépôts dans les glomérules, vaisseaux, synoviales ; activation du complément (C3a, C5a), polynucléaires, vascularite. Cryoglobulines : prélèvement et transport à 37 °C, puis précipitation à 4 °C au laboratoire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 37 °C."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilité de type III — complexes immuns",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réfrigérer un prélèvement de cryoglobulines.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1323",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la classification de Pichler des hypersensibilités retardées, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "IVa – lymphocytes Th1, IFN-γ, monocytes/macrophages.",
+        "B": "IVb – lymphocytes Th2, éosinophiles (DRESS).",
+        "C": "IVc – lymphocytes T cytotoxiques (syndrome de Stevens-Johnson / nécrolyse épidermique toxique).",
+        "D": "IVd – lymphocytes T produisant CXCL8, polynucléaires neutrophiles (PEAG).",
+        "E": "IVb – polynucléaires neutrophiles (PEAG)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pichler (2003) : IVa (Th1/macrophages), IVb (Th2/éosinophiles), IVc (T cytotoxiques), IVd (T CXCL8/neutrophiles).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la PEAG relève du IVd."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilité retardée — sous-types de Pichler",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pichler WJ. Ann Intern Med 2003;139:683-93",
+          "date": "2003"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1324",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'eczéma allergique de contact et son exploration, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les allergènes sont le plus souvent des haptènes qui se lient à des protéines du soi.",
+        "B": "Les cellules de Langerhans participent à la phase de sensibilisation.",
+        "C": "Les patch-tests sont appliqués pendant 2 jours, avec des lectures à J2 et J3 ou J4, et une lecture tardive vers J7 utile pour certains allergènes.",
+        "D": "Une réaction irritative doit être distinguée d'une réaction allergique.",
+        "E": "Le délai d'apparition de l'eczéma après réexposition est de quelques minutes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Hypersensibilité de type IV : haptènisation, sensibilisation par les cellules dendritiques cutanées, puis déclenchement 24 à 72 heures après le contact. Les patch-tests suivent les recommandations de l'ESCD.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 24 à 72 heures."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Eczéma de contact et patch-tests",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Lire les patch-tests trop tôt (faux négatifs).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Johansen JD et al. Contact Dermatitis 2015;73:195-221",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1325",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations récentes sur l'anaphylaxie (WAO 2020, AAAAI/ACAAI 2020, EAACI 2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les antihistaminiques H1 soulagent surtout les signes cutanés.",
+        "B": "Les glucocorticoïdes sont un moyen fiable de prévenir l'anaphylaxie biphasique.",
+        "C": "Le glucagon peut être envisagé chez un patient sous β-bloquant ne répondant pas à l'adrénaline.",
+        "D": "Une réaction sévère ou ayant nécessité plusieurs doses d'adrénaline est un facteur de risque de réaction biphasique.",
+        "E": "Tout patient ayant fait une anaphylaxie devrait être orienté vers un allergologue et formé à l'auto-injection d'adrénaline."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Adrénaline IM en première ligne ; antihistaminiques et glucocorticoïdes en deuxième ligne, non fiables pour prévenir la forme biphasique ; glucagon sous β-bloquant ; éducation, auto-injecteurs et avis allergologique pour tous.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : non fiables (AAAAI/ACAAI 2020).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — traitements de deuxième ligne et suivi",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Compter sur les corticoïdes pour prévenir la récidive biphasique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Shaker MS et al. J Allergy Clin Immunol 2020;145:1082-1123",
+          "date": "2020"
+        },
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1326",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient traité par un inhibiteur de l'enzyme de conversion présente un œdème de la langue, ferme, non prurigineux, sans urticaire, ne répondant ni aux antihistaminiques ni aux corticoïdes. Quel est le mécanisme le plus probable ?",
+      "propositions": {
+        "A": "Hypersensibilité IgE-dépendante à l'IEC.",
+        "B": "Angio-œdème bradykinique.",
+        "C": "Maladie sérique.",
+        "D": "Hypersensibilité retardée de type IV.",
+        "E": "Réaction d'Arthus."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Les IEC diminuent la dégradation de la bradykinine : l'angio-œdème est blanc, sans urticaire ni prurit, et ne répond pas de façon fiable aux traitements de l'anaphylaxie histaminique. Le déficit en C1-inhibiteur donne un tableau similaire.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Diagnostic différentiel de l'anaphylaxie — angio-œdème bradykinique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter un angio-œdème bradykinique comme une anaphylaxie histaminique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease, 10e éd. Elsevier 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
     }
   ]
 }
