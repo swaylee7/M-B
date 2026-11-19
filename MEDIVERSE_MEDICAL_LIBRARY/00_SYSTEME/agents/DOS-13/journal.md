@@ -1,0 +1,5 @@
+# Journal — DOS-13
+
+Mission : Dossiers pédagogiques originaux approfondis — Sciences fondamentales
+
+- 2026-11-19T00:49:09+00:00 — poste créé (aucune exécution encore).

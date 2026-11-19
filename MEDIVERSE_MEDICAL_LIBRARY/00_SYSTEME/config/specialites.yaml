@@ -1,0 +1,163 @@
+# Cartographie des spécialités — source unique de vérité de l'architecture.
+# Toute modification ici se répercute via : python3 00_SYSTEME/scripts/construire_architecture.py
+# code      : identifiant stable (ne jamais renommer : il est référencé par les catalogues)
+# dossier   : dossier racine (section 14 du cahier des charges)
+# sous      : sous-spécialités (créées sous SOUS_SPECIALITES/)
+version: 1
+date: 2026-11-19
+sous_dossiers_standard:
+  - 00_PROGRAMME_OBJECTIFS
+  - 01_OUVRAGES_REFERENCE
+  - 02_DOSSIERS_PEDAGOGIQUES
+  - 03_FICHES_REVISION
+  - 04_RECOMMANDATIONS
+  - 05_CAS_CLINIQUES
+  - 06_QCM
+  - 07_ICONOGRAPHIE
+  - 08_SOURCES_METADONNEES
+specialites:
+  - {n: 1, code: ANAT, nom: Anatomie, dossier: 01_ANATOMIE, type: fondamentale,
+     sous: [Anatomie générale, Ostéologie et arthrologie, Membre supérieur, Membre inférieur, Tête et cou, Thorax, Abdomen, Pelvis et périnée, Neuroanatomie, Anatomie radiologique]}
+  - {n: 2, code: HIST, nom: Histologie, dossier: 01_ANATOMIE, type: fondamentale,
+     sous: [Cytologie, Tissu épithélial, Tissu conjonctif, Tissu musculaire, Tissu nerveux, Histologie des appareils]}
+  - {n: 3, code: EMBR, nom: Embryologie, dossier: 01_ANATOMIE, type: fondamentale,
+     sous: [Embryologie générale, Organogenèse, Tératologie]}
+  - {n: 4, code: PHYS, nom: Physiologie, dossier: 02_PHYSIOLOGIE, type: fondamentale,
+     sous: [Physiologie cellulaire, Neurophysiologie, Physiologie cardiovasculaire, Physiologie respiratoire, Physiologie rénale, Physiologie digestive, Physiologie endocrinienne, Physiologie de la reproduction, Physiologie de l'exercice]}
+  - {n: 5, code: BIOC, nom: Biochimie, dossier: 03_BIOCHIMIE, type: fondamentale,
+     sous: [Biochimie structurale, Enzymologie, Métabolisme, Nutrition, Biochimie clinique]}
+  - {n: 6, code: BIOP, nom: Biophysique, dossier: 02_PHYSIOLOGIE, type: fondamentale,
+     sous: [Solutions et compartiments liquidiens, Bioélectricité, Optique et vision, Acoustique et audition, Rayonnements et radioprotection, Physique de l'imagerie]}
+  - {n: 7, code: IMMU, nom: Immunologie, dossier: 05_MICROBIOLOGIE, type: fondamentale,
+     sous: [Immunité innée, Immunité adaptative, Complexe HLA, Immunoglobulines, Hypersensibilités, Auto-immunité, Déficits immunitaires, Immunologie de transplantation, Vaccinologie]}
+  - {n: 8, code: GENE, nom: Génétique, dossier: 03_BIOCHIMIE, type: fondamentale,
+     sous: [Génétique moléculaire, Cytogénétique, Génétique formelle, Génétique des populations, Génétique clinique et conseil génétique, Oncogénétique, Pharmacogénétique]}
+  - {n: 9, code: PHAR, nom: Pharmacologie, dossier: 04_PHARMACOLOGIE, type: fondamentale,
+     sous: [Pharmacocinétique, Pharmacodynamie, Pharmacologie du système nerveux autonome, Pharmacologie cardiovasculaire, Psychopharmacologie, Anti-infectieux, Anticancéreux, Pharmacovigilance, Thérapeutique générale]}
+  - {n: 10, code: MICR, nom: Microbiologie, dossier: 05_MICROBIOLOGIE, type: fondamentale,
+     sous: [Bactériologie, Virologie, Mycologie, Hygiène hospitalière]}
+  - {n: 11, code: PARA, nom: Parasitologie, dossier: 05_MICROBIOLOGIE, type: fondamentale,
+     sous: [Protozoologie, Helminthologie, Mycologie médicale, Entomologie médicale]}
+  - {n: 12, code: HEMA, nom: Hématologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Cytologie hématologique, Hémostase et thrombose, Érythropathies, Hémopathies malignes, Transfusion et hémobiologie, Hématologie pédiatrique]}
+  - {n: 13, code: IMPA, nom: Immunopathologie, dossier: 06_PATHOLOGIE, type: fondamentale,
+     sous: [Maladies auto-immunes, Déficits immunitaires, Allergologie, Immunopathologie de transplantation]}
+  - {n: 14, code: ANAP, nom: Anatomopathologie, dossier: 06_PATHOLOGIE, type: fondamentale,
+     sous: [Pathologie générale, Pathologie spéciale, Cytopathologie, Pathologie moléculaire, Autopsie]}
+  - {n: 15, code: MINT, nom: Médecine interne, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Maladies systémiques, Vascularites, Maladies auto-inflammatoires, Sarcoïdose et granulomatoses, Maladies rares]}
+  - {n: 16, code: CARD, nom: Cardiologie, dossier: 11_CARDIOLOGIE, type: clinique,
+     sous: [Cardiopathie ischémique, Insuffisance cardiaque, Valvulopathies, Rythmologie, Cardiopathies congénitales, Hypertension artérielle, Péricarde et myocarde, Maladies vasculaires et angiologie, Cardiologie interventionnelle, Imagerie cardiaque]}
+  - {n: 17, code: PNEU, nom: Pneumologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Asthme et BPCO, Infections respiratoires et tuberculose, Oncologie thoracique, Pneumopathies interstitielles, Pathologie pleurale, Pathologie du sommeil, Explorations fonctionnelles respiratoires]}
+  - {n: 18, code: GAST, nom: Gastro-entérologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Œsophage et estomac, Intestin grêle, Côlon et rectum, MICI, Pancréas, Proctologie, Endoscopie digestive, Oncologie digestive, Nutrition clinique]}
+  - {n: 19, code: HEPA, nom: Hépatologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Hépatites virales, Cirrhose et complications, Maladies métaboliques du foie, Voies biliaires, Tumeurs hépatiques, Transplantation hépatique]}
+  - {n: 20, code: NEPH, nom: Néphrologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Néphropathies glomérulaires, Néphropathies tubulo-interstitielles, Néphropathies vasculaires, Insuffisance rénale aiguë, Maladie rénale chronique, Dialyse, Transplantation rénale, Troubles hydro-électrolytiques et acido-basiques]}
+  - {n: 21, code: NEUR, nom: Neurologie, dossier: 12_NEUROLOGIE, type: clinique,
+     sous: [Pathologie neurovasculaire, Épilepsies, Mouvements anormaux, Sclérose en plaques et neuro-inflammation, Pathologie neuromusculaire, Démences et troubles cognitifs, Céphalées, Neuro-oncologie, Neuropédiatrie]}
+  - {n: 22, code: PSYC, nom: Psychiatrie, dossier: 15_AUTRES_SPECIALITES, type: clinique,
+     sous: [Psychiatrie de l'adulte, Pédopsychiatrie, Addictologie, Psychiatrie de liaison, Gérontopsychiatrie, Psychiatrie médico-légale, Psychopharmacologie clinique]}
+  - {n: 23, code: DERM, nom: Dermatologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Dermatoses inflammatoires, Dermatologie infectieuse, Infections sexuellement transmissibles, Oncodermatologie, Dermatologie pédiatrique, Allergologie cutanée, Phanères]}
+  - {n: 24, code: RHUM, nom: Rhumatologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Rhumatismes inflammatoires, Arthrose, Arthropathies microcristallines, Pathologie osseuse, Pathologie rachidienne, Connectivites, Rhumatologie pédiatrique]}
+  - {n: 25, code: ENDO, nom: Endocrinologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Hypophyse, Thyroïde, Surrénales, Gonades, Parathyroïdes et métabolisme phosphocalcique, Tumeurs neuroendocrines, Obésité et nutrition, Dyslipidémies]}
+  - {n: 26, code: DIAB, nom: Diabétologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Diabète de type 1, Diabète de type 2, Complications aiguës, Complications chroniques, Diabète et grossesse, Pied diabétique, Technologies du diabète]}
+  - {n: 27, code: ONCO, nom: Oncologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Oncologie médicale, Radiothérapie, Oncologie thoracique, Oncologie digestive, Sénologie, Soins de support et palliatifs, Oncogénétique clinique]}
+  - {n: 28, code: INFE, nom: Infectiologie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Infections bactériennes, Infection à VIH, Hépatites virales, Parasitoses tropicales, Zoonoses, Infections associées aux soins, Antibiothérapie, Vaccinologie clinique, Médecine des voyages]}
+  - {n: 29, code: PEDI, nom: Pédiatrie, dossier: 09_PEDIATRIE, type: clinique,
+     sous: [Nutrition et croissance, Infectiologie pédiatrique, Cardiologie pédiatrique, Néphrologie pédiatrique, Neuropédiatrie, Endocrinologie pédiatrique, Pneumo-allergologie pédiatrique, Gastro-entérologie pédiatrique, Hémato-oncologie pédiatrique, Urgences pédiatriques]}
+  - {n: 30, code: NEON, nom: Néonatologie, dossier: 09_PEDIATRIE, type: clinique,
+     sous: [Réanimation néonatale, Prématurité, Infections néonatales, Ictère néonatal, Détresses respiratoires néonatales, Nutrition néonatale]}
+  - {n: 31, code: GYNE, nom: Gynécologie, dossier: 10_GYNECOLOGIE_OBSTETRIQUE, type: clinique,
+     sous: [Gynécologie médicale, Endocrinologie gynécologique, Oncologie gynécologique, Sénologie, Infertilité et AMP, Contraception, Urogynécologie]}
+  - {n: 32, code: OBST, nom: Obstétrique, dossier: 10_GYNECOLOGIE_OBSTETRIQUE, type: clinique,
+     sous: [Grossesse normale, Pathologie de la grossesse, Accouchement, Post-partum, Médecine fœtale, Urgences obstétricales]}
+  - {n: 33, code: CGEN, nom: Chirurgie générale, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Paroi abdominale, Urgences chirurgicales, Chirurgie endocrinienne, Chirurgie du sein, Traumatologie viscérale, Techniques chirurgicales de base]}
+  - {n: 34, code: CDIG, nom: Chirurgie digestive, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Chirurgie œso-gastrique, Chirurgie hépato-bilio-pancréatique, Chirurgie colorectale, Proctologie chirurgicale, Chirurgie bariatrique, Transplantation]}
+  - {n: 35, code: UROL, nom: Urologie, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Lithiase urinaire, Oncologie urologique, Andrologie, Urologie fonctionnelle, Transplantation rénale chirurgicale, Urologie pédiatrique, Traumatismes urologiques]}
+  - {n: 36, code: ORTH, nom: Orthopédie, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Membre supérieur, Membre inférieur, Rachis, Orthopédie pédiatrique, Tumeurs osseuses, Arthroplasties, Infections ostéo-articulaires]}
+  - {n: 37, code: TRAU, nom: Traumatologie, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Fractures des membres, Bassin et cotyle, Traumatismes du rachis, Polytraumatisé, Lésions capsulo-ligamentaires et tendineuses, Traumatologie du sport]}
+  - {n: 38, code: NCHI, nom: Neurochirurgie, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Traumatologie crânio-rachidienne, Neuro-oncologie chirurgicale, Neurochirurgie vasculaire, Rachis dégénératif, Neurochirurgie pédiatrique, Hydrocéphalie]}
+  - {n: 39, code: ORL, nom: ORL, dossier: 15_AUTRES_SPECIALITES, type: chirurgicale,
+     sous: [Otologie, Rhinologie, Laryngologie, Cancérologie cervico-faciale, ORL pédiatrique, Audiologie et vestibulologie, Chirurgie cervicale]}
+  - {n: 40, code: OPHT, nom: Ophtalmologie, dossier: 15_AUTRES_SPECIALITES, type: chirurgicale,
+     sous: [Segment antérieur, Glaucome, Rétine, Neuro-ophtalmologie, Ophtalmopédiatrie et strabisme, Oculoplastie, Urgences ophtalmologiques]}
+  - {n: 41, code: ANES, nom: Anesthésie-réanimation, dossier: 13_URGENCES_REANIMATION, type: clinique,
+     sous: [Anesthésie générale, Anesthésie locorégionale, Douleur, Réanimation chirurgicale, Anesthésie pédiatrique, Anesthésie obstétricale, Transfusion périopératoire]}
+  - {n: 42, code: URGE, nom: Médecine d'urgence, dossier: 13_URGENCES_REANIMATION, type: clinique,
+     sous: [Urgences vitales, Traumatologie d'urgence, Toxicologie d'urgence, Urgences pédiatriques, Préhospitalier et SAMU, Médecine de catastrophe]}
+  - {n: 43, code: MINT_REA, nom: Médecine intensive, dossier: 13_URGENCES_REANIMATION, type: clinique,
+     sous: [États de choc, SDRA et ventilation mécanique, Sepsis, Neuro-réanimation, Épuration extrarénale, Nutrition en réanimation]}
+  - {n: 44, code: RADI, nom: Radiologie, dossier: 14_RADIOLOGIE, type: clinique,
+     sous: [Radiologie conventionnelle, Imagerie thoracique, Imagerie abdominale, Imagerie ostéo-articulaire, Neuroradiologie, Radiopédiatrie, Radiologie interventionnelle, Imagerie du sein]}
+  - {n: 45, code: IMAG, nom: Imagerie médicale, dossier: 14_RADIOLOGIE, type: clinique,
+     sous: [Échographie, Tomodensitométrie, IRM, Produits de contraste, Radioprotection]}
+  - {n: 46, code: MNUC, nom: Médecine nucléaire, dossier: 14_RADIOLOGIE, type: clinique,
+     sous: [Scintigraphie, TEP, Radiothérapie interne vectorisée, Radiopharmacie]}
+  - {n: 47, code: MLEG, nom: Médecine légale, dossier: 15_AUTRES_SPECIALITES, type: clinique,
+     sous: [Thanatologie, Traumatologie médico-légale, Droit médical, Éthique et déontologie, Toxicologie médico-légale, Victimologie]}
+  - {n: 48, code: MTRA, nom: Médecine du travail, dossier: 15_AUTRES_SPECIALITES, type: clinique,
+     sous: [Toxicologie professionnelle, Maladies professionnelles, Ergonomie, Risques physiques, Risques biologiques, Législation du travail]}
+  - {n: 49, code: SPUB, nom: Santé publique, dossier: 15_AUTRES_SPECIALITES, type: clinique,
+     sous: [Organisation du système de santé, Économie de la santé, Programmes nationaux de santé, Promotion de la santé, Santé maternelle et infantile, Hygiène et environnement]}
+  - {n: 50, code: EPID, nom: Épidémiologie, dossier: 15_AUTRES_SPECIALITES, type: clinique,
+     sous: [Épidémiologie descriptive, Épidémiologie analytique, Biostatistique, Surveillance épidémiologique, Investigation d'épidémie, Lecture critique d'article]}
+  - {n: 51, code: MPR, nom: Médecine physique et réadaptation, dossier: 15_AUTRES_SPECIALITES, type: clinique,
+     sous: [Rééducation neurologique, Rééducation locomotrice, Réadaptation cardio-respiratoire, Appareillage, Handicap]}
+  - {n: 52, code: GERI, nom: Gériatrie, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Syndromes gériatriques, Évaluation gériatrique standardisée, Troubles cognitifs du sujet âgé, Chutes, Nutrition du sujet âgé, Polymédication]}
+  - {n: 53, code: MFAM, nom: Médecine de famille, dossier: 07_MEDECINE_INTERNE, type: clinique,
+     sous: [Soins primaires, Prévention et dépistage, Maladies chroniques, Santé de l'enfant, Santé de la femme, Urgences en soins primaires]}
+  - {n: 54, code: CCVA, nom: Chirurgie cardiovasculaire, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Chirurgie coronaire, Chirurgie valvulaire, Chirurgie de l'aorte, Chirurgie vasculaire périphérique, Chirurgie des cardiopathies congénitales, Assistance circulatoire]}
+  - {n: 55, code: CTHO, nom: Chirurgie thoracique, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Cancers thoraciques, Chirurgie pleurale, Médiastin, Traumatismes thoraciques, Chirurgie trachéale, Transplantation pulmonaire]}
+  - {n: 56, code: CPED, nom: Chirurgie pédiatrique, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Chirurgie viscérale néonatale, Urologie pédiatrique, Orthopédie pédiatrique, Traumatologie de l'enfant, Oncologie chirurgicale pédiatrique]}
+  - {n: 57, code: CPLA, nom: Chirurgie plastique, dossier: 08_CHIRURGIE, type: chirurgicale,
+     sous: [Brûlures, Chirurgie reconstructrice, Chirurgie de la main, Chirurgie esthétique, Lambeaux]}
+  - {n: 58, code: BIOM, nom: Biologie médicale, dossier: 03_BIOCHIMIE, type: fondamentale,
+     sous: [Biochimie clinique, Hématologie biologique, Microbiologie clinique, Immunologie biologique, Toxicologie biologique, Assurance qualité]}
+  - {n: 59, code: DENT, nom: Médecine dentaire, dossier: 15_AUTRES_SPECIALITES, type: clinique,
+     sous: [Odontologie conservatrice, Parodontologie, Prothèse, Orthodontie, Chirurgie buccale, Pathologie buccale, Odontologie pédiatrique]}
+dossiers_racine:
+  - 00_SYSTEME
+  - 01_ANATOMIE
+  - 02_PHYSIOLOGIE
+  - 03_BIOCHIMIE
+  - 04_PHARMACOLOGIE
+  - 05_MICROBIOLOGIE
+  - 06_PATHOLOGIE
+  - 07_MEDECINE_INTERNE
+  - 08_CHIRURGIE
+  - 09_PEDIATRIE
+  - 10_GYNECOLOGIE_OBSTETRIQUE
+  - 11_CARDIOLOGIE
+  - 12_NEUROLOGIE
+  - 13_URGENCES_REANIMATION
+  - 14_RADIOLOGIE
+  - 15_AUTRES_SPECIALITES
+  - 16_RESIDANAT_ALGERIE
+  - 17_DEMS
+  - 18_RECOMMANDATIONS
+  - 19_PROTOCOLES
+  - 20_CAS_CLINIQUES
+  - 21_QCM_ANNALES
+  - 22_ENCYCLOPEDIE_PATHOLOGIES
+  - 23_GLOSSAIRES
+  - 24_BIBLIOGRAPHIE
+  - 25_INDEX_GENERAL

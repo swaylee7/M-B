@@ -1,0 +1,908 @@
+{
+  "version": 1,
+  "date": "2026-11-19T00:49:09+00:00",
+  "total": 100,
+  "mode_execution": "Postes exécutés par lots par des sessions Claude Code (1 orchestrateur + ~10 sous-agents simultanés au maximum). Pas de processus permanents. Reprise via etat.json + files d'attente.",
+  "postes": [
+    {
+      "id": "ACQ-01",
+      "groupe": "recherche_acquisition",
+      "mission": "Algérie — textes officiels (MESRS, MSPRH, JORADP), programmes du résidanat et du DEMS",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/ACQ-01",
+      "journal": "00_SYSTEME/agents/ACQ-01/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-01/etat.json"
+    },
+    {
+      "id": "ACQ-02",
+      "groupe": "recherche_acquisition",
+      "mission": "Algérie — polycopiés et cours publiés par les facultés de médecine (accès public)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/ACQ-02",
+      "journal": "00_SYSTEME/agents/ACQ-02/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-02/etat.json"
+    },
+    {
+      "id": "ACQ-03",
+      "groupe": "recherche_acquisition",
+      "mission": "Algérie — guides et programmes nationaux de santé (tuberculose, PEV, paludisme, MTH, santé maternelle)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/ACQ-03",
+      "journal": "00_SYSTEME/agents/ACQ-03/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-03/etat.json"
+    },
+    {
+      "id": "ACQ-04",
+      "groupe": "recherche_acquisition",
+      "mission": "OMS — guides et manuels sous licence ouverte (IRIS)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/ACQ-04",
+      "journal": "00_SYSTEME/agents/ACQ-04/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-04/etat.json"
+    },
+    {
+      "id": "ACQ-05",
+      "groupe": "recherche_acquisition",
+      "mission": "NCBI Bookshelf / PubMed Central — ouvrages et revues en accès ouvert (licences vérifiées)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/ACQ-05",
+      "journal": "00_SYSTEME/agents/ACQ-05/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-05/etat.json"
+    },
+    {
+      "id": "ACQ-06",
+      "groupe": "recherche_acquisition",
+      "mission": "France — HAS, ANSM, Santé publique France (stockage local si non redistribuable)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/ACQ-06",
+      "journal": "00_SYSTEME/agents/ACQ-06/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-06/etat.json"
+    },
+    {
+      "id": "ACQ-07",
+      "groupe": "recherche_acquisition",
+      "mission": "France — référentiels des collèges des enseignants (catalogage ; stockage local uniquement si autorisé)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/ACQ-07",
+      "journal": "00_SYSTEME/agents/ACQ-07/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-07/etat.json"
+    },
+    {
+      "id": "ACQ-08",
+      "groupe": "recherche_acquisition",
+      "mission": "Sociétés savantes internationales (ESC, ERS, KDIGO, GINA, GOLD…) — catalogage et acquisition si licence",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/ACQ-08",
+      "journal": "00_SYSTEME/agents/ACQ-08/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-08/etat.json"
+    },
+    {
+      "id": "ACQ-09",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Sciences fondamentales I",
+      "specialites": "ANAT,HIST,EMBR",
+      "repertoire": "00_SYSTEME/agents/ACQ-09",
+      "journal": "00_SYSTEME/agents/ACQ-09/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-09/etat.json"
+    },
+    {
+      "id": "ACQ-10",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Sciences fondamentales II",
+      "specialites": "PHYS,BIOP",
+      "repertoire": "00_SYSTEME/agents/ACQ-10",
+      "journal": "00_SYSTEME/agents/ACQ-10/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-10/etat.json"
+    },
+    {
+      "id": "ACQ-11",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Biochimie-génétique",
+      "specialites": "BIOC,GENE,BIOM",
+      "repertoire": "00_SYSTEME/agents/ACQ-11",
+      "journal": "00_SYSTEME/agents/ACQ-11/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-11/etat.json"
+    },
+    {
+      "id": "ACQ-12",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Pharmacologie",
+      "specialites": "PHAR",
+      "repertoire": "00_SYSTEME/agents/ACQ-12",
+      "journal": "00_SYSTEME/agents/ACQ-12/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-12/etat.json"
+    },
+    {
+      "id": "ACQ-13",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Microbiologie-parasitologie-immunologie",
+      "specialites": "MICR,PARA,IMMU",
+      "repertoire": "00_SYSTEME/agents/ACQ-13",
+      "journal": "00_SYSTEME/agents/ACQ-13/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-13/etat.json"
+    },
+    {
+      "id": "ACQ-14",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Pathologie",
+      "specialites": "ANAP,IMPA",
+      "repertoire": "00_SYSTEME/agents/ACQ-14",
+      "journal": "00_SYSTEME/agents/ACQ-14/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-14/etat.json"
+    },
+    {
+      "id": "ACQ-15",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Médecine interne-gériatrie",
+      "specialites": "MINT,GERI,MFAM",
+      "repertoire": "00_SYSTEME/agents/ACQ-15",
+      "journal": "00_SYSTEME/agents/ACQ-15/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-15/etat.json"
+    },
+    {
+      "id": "ACQ-16",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Cardiologie",
+      "specialites": "CARD",
+      "repertoire": "00_SYSTEME/agents/ACQ-16",
+      "journal": "00_SYSTEME/agents/ACQ-16/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-16/etat.json"
+    },
+    {
+      "id": "ACQ-17",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Pneumologie",
+      "specialites": "PNEU",
+      "repertoire": "00_SYSTEME/agents/ACQ-17",
+      "journal": "00_SYSTEME/agents/ACQ-17/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-17/etat.json"
+    },
+    {
+      "id": "ACQ-18",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Gastro-hépatologie",
+      "specialites": "GAST,HEPA",
+      "repertoire": "00_SYSTEME/agents/ACQ-18",
+      "journal": "00_SYSTEME/agents/ACQ-18/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-18/etat.json"
+    },
+    {
+      "id": "ACQ-19",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Néphrologie",
+      "specialites": "NEPH",
+      "repertoire": "00_SYSTEME/agents/ACQ-19",
+      "journal": "00_SYSTEME/agents/ACQ-19/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-19/etat.json"
+    },
+    {
+      "id": "ACQ-20",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Neurologie",
+      "specialites": "NEUR",
+      "repertoire": "00_SYSTEME/agents/ACQ-20",
+      "journal": "00_SYSTEME/agents/ACQ-20/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-20/etat.json"
+    },
+    {
+      "id": "ACQ-21",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Psychiatrie",
+      "specialites": "PSYC",
+      "repertoire": "00_SYSTEME/agents/ACQ-21",
+      "journal": "00_SYSTEME/agents/ACQ-21/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-21/etat.json"
+    },
+    {
+      "id": "ACQ-22",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Dermatologie",
+      "specialites": "DERM",
+      "repertoire": "00_SYSTEME/agents/ACQ-22",
+      "journal": "00_SYSTEME/agents/ACQ-22/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-22/etat.json"
+    },
+    {
+      "id": "ACQ-23",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Rhumatologie-MPR",
+      "specialites": "RHUM,MPR",
+      "repertoire": "00_SYSTEME/agents/ACQ-23",
+      "journal": "00_SYSTEME/agents/ACQ-23/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-23/etat.json"
+    },
+    {
+      "id": "ACQ-24",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Endocrinologie-diabétologie",
+      "specialites": "ENDO,DIAB",
+      "repertoire": "00_SYSTEME/agents/ACQ-24",
+      "journal": "00_SYSTEME/agents/ACQ-24/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-24/etat.json"
+    },
+    {
+      "id": "ACQ-25",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Hématologie-oncologie",
+      "specialites": "HEMA,ONCO",
+      "repertoire": "00_SYSTEME/agents/ACQ-25",
+      "journal": "00_SYSTEME/agents/ACQ-25/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-25/etat.json"
+    },
+    {
+      "id": "ACQ-26",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Infectiologie",
+      "specialites": "INFE",
+      "repertoire": "00_SYSTEME/agents/ACQ-26",
+      "journal": "00_SYSTEME/agents/ACQ-26/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-26/etat.json"
+    },
+    {
+      "id": "ACQ-27",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Pédiatrie-néonatologie",
+      "specialites": "PEDI,NEON",
+      "repertoire": "00_SYSTEME/agents/ACQ-27",
+      "journal": "00_SYSTEME/agents/ACQ-27/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-27/etat.json"
+    },
+    {
+      "id": "ACQ-28",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Gynéco-obstétrique",
+      "specialites": "GYNE,OBST",
+      "repertoire": "00_SYSTEME/agents/ACQ-28",
+      "journal": "00_SYSTEME/agents/ACQ-28/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-28/etat.json"
+    },
+    {
+      "id": "ACQ-29",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Chirurgie générale et digestive",
+      "specialites": "CGEN,CDIG",
+      "repertoire": "00_SYSTEME/agents/ACQ-29",
+      "journal": "00_SYSTEME/agents/ACQ-29/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-29/etat.json"
+    },
+    {
+      "id": "ACQ-30",
+      "groupe": "recherche_acquisition",
+      "mission": "Veille et acquisition de ressources libres — Urologie",
+      "specialites": "UROL",
+      "repertoire": "00_SYSTEME/agents/ACQ-30",
+      "journal": "00_SYSTEME/agents/ACQ-30/journal.md",
+      "etat": "00_SYSTEME/agents/ACQ-30/etat.json"
+    },
+    {
+      "id": "ANA-01",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Sciences fondamentales I",
+      "specialites": "ANAT,HIST,EMBR",
+      "repertoire": "00_SYSTEME/agents/ANA-01",
+      "journal": "00_SYSTEME/agents/ANA-01/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-01/etat.json"
+    },
+    {
+      "id": "ANA-02",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Sciences fondamentales II",
+      "specialites": "PHYS,BIOP",
+      "repertoire": "00_SYSTEME/agents/ANA-02",
+      "journal": "00_SYSTEME/agents/ANA-02/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-02/etat.json"
+    },
+    {
+      "id": "ANA-03",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Biochimie-génétique",
+      "specialites": "BIOC,GENE,BIOM",
+      "repertoire": "00_SYSTEME/agents/ANA-03",
+      "journal": "00_SYSTEME/agents/ANA-03/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-03/etat.json"
+    },
+    {
+      "id": "ANA-04",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Pharmacologie",
+      "specialites": "PHAR",
+      "repertoire": "00_SYSTEME/agents/ANA-04",
+      "journal": "00_SYSTEME/agents/ANA-04/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-04/etat.json"
+    },
+    {
+      "id": "ANA-05",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Microbiologie-parasitologie-immunologie",
+      "specialites": "MICR,PARA,IMMU",
+      "repertoire": "00_SYSTEME/agents/ANA-05",
+      "journal": "00_SYSTEME/agents/ANA-05/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-05/etat.json"
+    },
+    {
+      "id": "ANA-06",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Pathologie",
+      "specialites": "ANAP,IMPA",
+      "repertoire": "00_SYSTEME/agents/ANA-06",
+      "journal": "00_SYSTEME/agents/ANA-06/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-06/etat.json"
+    },
+    {
+      "id": "ANA-07",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Médecine interne-gériatrie",
+      "specialites": "MINT,GERI,MFAM",
+      "repertoire": "00_SYSTEME/agents/ANA-07",
+      "journal": "00_SYSTEME/agents/ANA-07/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-07/etat.json"
+    },
+    {
+      "id": "ANA-08",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Cardiologie",
+      "specialites": "CARD",
+      "repertoire": "00_SYSTEME/agents/ANA-08",
+      "journal": "00_SYSTEME/agents/ANA-08/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-08/etat.json"
+    },
+    {
+      "id": "ANA-09",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Pneumologie",
+      "specialites": "PNEU",
+      "repertoire": "00_SYSTEME/agents/ANA-09",
+      "journal": "00_SYSTEME/agents/ANA-09/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-09/etat.json"
+    },
+    {
+      "id": "ANA-10",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Gastro-hépatologie",
+      "specialites": "GAST,HEPA",
+      "repertoire": "00_SYSTEME/agents/ANA-10",
+      "journal": "00_SYSTEME/agents/ANA-10/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-10/etat.json"
+    },
+    {
+      "id": "ANA-11",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Néphrologie",
+      "specialites": "NEPH",
+      "repertoire": "00_SYSTEME/agents/ANA-11",
+      "journal": "00_SYSTEME/agents/ANA-11/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-11/etat.json"
+    },
+    {
+      "id": "ANA-12",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Neurologie",
+      "specialites": "NEUR",
+      "repertoire": "00_SYSTEME/agents/ANA-12",
+      "journal": "00_SYSTEME/agents/ANA-12/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-12/etat.json"
+    },
+    {
+      "id": "ANA-13",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Psychiatrie",
+      "specialites": "PSYC",
+      "repertoire": "00_SYSTEME/agents/ANA-13",
+      "journal": "00_SYSTEME/agents/ANA-13/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-13/etat.json"
+    },
+    {
+      "id": "ANA-14",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Dermatologie",
+      "specialites": "DERM",
+      "repertoire": "00_SYSTEME/agents/ANA-14",
+      "journal": "00_SYSTEME/agents/ANA-14/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-14/etat.json"
+    },
+    {
+      "id": "ANA-15",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Rhumatologie-MPR",
+      "specialites": "RHUM,MPR",
+      "repertoire": "00_SYSTEME/agents/ANA-15",
+      "journal": "00_SYSTEME/agents/ANA-15/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-15/etat.json"
+    },
+    {
+      "id": "ANA-16",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Endocrinologie-diabétologie",
+      "specialites": "ENDO,DIAB",
+      "repertoire": "00_SYSTEME/agents/ANA-16",
+      "journal": "00_SYSTEME/agents/ANA-16/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-16/etat.json"
+    },
+    {
+      "id": "ANA-17",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Hématologie-oncologie",
+      "specialites": "HEMA,ONCO",
+      "repertoire": "00_SYSTEME/agents/ANA-17",
+      "journal": "00_SYSTEME/agents/ANA-17/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-17/etat.json"
+    },
+    {
+      "id": "ANA-18",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Infectiologie",
+      "specialites": "INFE",
+      "repertoire": "00_SYSTEME/agents/ANA-18",
+      "journal": "00_SYSTEME/agents/ANA-18/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-18/etat.json"
+    },
+    {
+      "id": "ANA-19",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Pédiatrie-néonatologie",
+      "specialites": "PEDI,NEON",
+      "repertoire": "00_SYSTEME/agents/ANA-19",
+      "journal": "00_SYSTEME/agents/ANA-19/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-19/etat.json"
+    },
+    {
+      "id": "ANA-20",
+      "groupe": "analyse_structuration",
+      "mission": "Catalogue vérifié des ouvrages de référence et structuration des contenus — Gynéco-obstétrique",
+      "specialites": "GYNE,OBST",
+      "repertoire": "00_SYSTEME/agents/ANA-20",
+      "journal": "00_SYSTEME/agents/ANA-20/journal.md",
+      "etat": "00_SYSTEME/agents/ANA-20/etat.json"
+    },
+    {
+      "id": "DOS-01",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Cardiologie-angiologie",
+      "specialites": "CARD",
+      "repertoire": "00_SYSTEME/agents/DOS-01",
+      "journal": "00_SYSTEME/agents/DOS-01/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-01/etat.json"
+    },
+    {
+      "id": "DOS-02",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Pneumologie-infectiologie",
+      "specialites": "PNEU,INFE",
+      "repertoire": "00_SYSTEME/agents/DOS-02",
+      "journal": "00_SYSTEME/agents/DOS-02/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-02/etat.json"
+    },
+    {
+      "id": "DOS-03",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Endocrinologie-diabétologie-néphrologie",
+      "specialites": "ENDO,DIAB,NEPH",
+      "repertoire": "00_SYSTEME/agents/DOS-03",
+      "journal": "00_SYSTEME/agents/DOS-03/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-03/etat.json"
+    },
+    {
+      "id": "DOS-04",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Gastro-hépatologie-chirurgie digestive",
+      "specialites": "GAST,HEPA,CDIG,CGEN",
+      "repertoire": "00_SYSTEME/agents/DOS-04",
+      "journal": "00_SYSTEME/agents/DOS-04/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-04/etat.json"
+    },
+    {
+      "id": "DOS-05",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Pédiatrie-néonatologie",
+      "specialites": "PEDI,NEON",
+      "repertoire": "00_SYSTEME/agents/DOS-05",
+      "journal": "00_SYSTEME/agents/DOS-05/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-05/etat.json"
+    },
+    {
+      "id": "DOS-06",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Neurologie-réanimation-urgences",
+      "specialites": "NEUR,MINT_REA,URGE",
+      "repertoire": "00_SYSTEME/agents/DOS-06",
+      "journal": "00_SYSTEME/agents/DOS-06/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-06/etat.json"
+    },
+    {
+      "id": "DOS-07",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Gynécologie-obstétrique",
+      "specialites": "GYNE,OBST",
+      "repertoire": "00_SYSTEME/agents/DOS-07",
+      "journal": "00_SYSTEME/agents/DOS-07/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-07/etat.json"
+    },
+    {
+      "id": "DOS-08",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Hématologie-oncologie",
+      "specialites": "HEMA,ONCO",
+      "repertoire": "00_SYSTEME/agents/DOS-08",
+      "journal": "00_SYSTEME/agents/DOS-08/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-08/etat.json"
+    },
+    {
+      "id": "DOS-09",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Rhumatologie-médecine interne-dermatologie",
+      "specialites": "RHUM,MINT,DERM",
+      "repertoire": "00_SYSTEME/agents/DOS-09",
+      "journal": "00_SYSTEME/agents/DOS-09/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-09/etat.json"
+    },
+    {
+      "id": "DOS-10",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Psychiatrie-médecine légale-travail",
+      "specialites": "PSYC,MLEG,MTRA",
+      "repertoire": "00_SYSTEME/agents/DOS-10",
+      "journal": "00_SYSTEME/agents/DOS-10/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-10/etat.json"
+    },
+    {
+      "id": "DOS-11",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Urologie-orthopédie-traumatologie",
+      "specialites": "UROL,ORTH,TRAU",
+      "repertoire": "00_SYSTEME/agents/DOS-11",
+      "journal": "00_SYSTEME/agents/DOS-11/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-11/etat.json"
+    },
+    {
+      "id": "DOS-12",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — ORL-ophtalmologie-neurochirurgie",
+      "specialites": "ORL,OPHT,NCHI",
+      "repertoire": "00_SYSTEME/agents/DOS-12",
+      "journal": "00_SYSTEME/agents/DOS-12/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-12/etat.json"
+    },
+    {
+      "id": "DOS-13",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Sciences fondamentales",
+      "specialites": "ANAT,HIST,EMBR,PHYS,BIOP,BIOC,GENE",
+      "repertoire": "00_SYSTEME/agents/DOS-13",
+      "journal": "00_SYSTEME/agents/DOS-13/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-13/etat.json"
+    },
+    {
+      "id": "DOS-14",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Microbiologie-immunologie-pathologie-pharmacologie",
+      "specialites": "MICR,PARA,IMMU,ANAP,PHAR",
+      "repertoire": "00_SYSTEME/agents/DOS-14",
+      "journal": "00_SYSTEME/agents/DOS-14/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-14/etat.json"
+    },
+    {
+      "id": "DOS-15",
+      "groupe": "dossiers_pedagogiques",
+      "mission": "Dossiers pédagogiques originaux approfondis — Santé publique-épidémiologie-gériatrie",
+      "specialites": "SPUB,EPID,GERI",
+      "repertoire": "00_SYSTEME/agents/DOS-15",
+      "journal": "00_SYSTEME/agents/DOS-15/journal.md",
+      "etat": "00_SYSTEME/agents/DOS-15/etat.json"
+    },
+    {
+      "id": "REC-01",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — Algérie (MSPRH, INSP, programmes nationaux)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/REC-01",
+      "journal": "00_SYSTEME/agents/REC-01/journal.md",
+      "etat": "00_SYSTEME/agents/REC-01/etat.json"
+    },
+    {
+      "id": "REC-02",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — HAS et sociétés savantes françaises",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/REC-02",
+      "journal": "00_SYSTEME/agents/REC-02/journal.md",
+      "etat": "00_SYSTEME/agents/REC-02/etat.json"
+    },
+    {
+      "id": "REC-03",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — OMS",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/REC-03",
+      "journal": "00_SYSTEME/agents/REC-03/journal.md",
+      "etat": "00_SYSTEME/agents/REC-03/etat.json"
+    },
+    {
+      "id": "REC-04",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — Cardiologie-vasculaire (ESC, ESH, AHA/ACC)",
+      "specialites": "CARD",
+      "repertoire": "00_SYSTEME/agents/REC-04",
+      "journal": "00_SYSTEME/agents/REC-04/journal.md",
+      "etat": "00_SYSTEME/agents/REC-04/etat.json"
+    },
+    {
+      "id": "REC-05",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — Pneumologie (GINA, GOLD, ERS/ATS)",
+      "specialites": "PNEU",
+      "repertoire": "00_SYSTEME/agents/REC-05",
+      "journal": "00_SYSTEME/agents/REC-05/journal.md",
+      "etat": "00_SYSTEME/agents/REC-05/etat.json"
+    },
+    {
+      "id": "REC-06",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — Infectiologie et antibiothérapie (SPILF, IDSA, OMS)",
+      "specialites": "INFE",
+      "repertoire": "00_SYSTEME/agents/REC-06",
+      "journal": "00_SYSTEME/agents/REC-06/journal.md",
+      "etat": "00_SYSTEME/agents/REC-06/etat.json"
+    },
+    {
+      "id": "REC-07",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — Néphro-endocrino-diabéto (KDIGO, ADA, EASD, ETA)",
+      "specialites": "NEPH,ENDO,DIAB",
+      "repertoire": "00_SYSTEME/agents/REC-07",
+      "journal": "00_SYSTEME/agents/REC-07/journal.md",
+      "etat": "00_SYSTEME/agents/REC-07/etat.json"
+    },
+    {
+      "id": "REC-08",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — Gastro-hépatologie (EASL, AASLD, ESGE)",
+      "specialites": "GAST,HEPA",
+      "repertoire": "00_SYSTEME/agents/REC-08",
+      "journal": "00_SYSTEME/agents/REC-08/journal.md",
+      "etat": "00_SYSTEME/agents/REC-08/etat.json"
+    },
+    {
+      "id": "REC-09",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — Oncologie (ESMO, NCCN-accès libre)",
+      "specialites": "ONCO",
+      "repertoire": "00_SYSTEME/agents/REC-09",
+      "journal": "00_SYSTEME/agents/REC-09/journal.md",
+      "etat": "00_SYSTEME/agents/REC-09/etat.json"
+    },
+    {
+      "id": "REC-10",
+      "groupe": "recommandations_protocoles",
+      "mission": "Catalogue daté des recommandations et protocoles — Protocoles d'urgence et de réanimation",
+      "specialites": "URGE,MINT_REA,ANES",
+      "repertoire": "00_SYSTEME/agents/REC-10",
+      "journal": "00_SYSTEME/agents/REC-10/journal.md",
+      "etat": "00_SYSTEME/agents/REC-10/etat.json"
+    },
+    {
+      "id": "RES-01",
+      "groupe": "residanat_dems",
+      "mission": "Programme du résidanat : import, items, rattachements, couverture",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/RES-01",
+      "journal": "00_SYSTEME/agents/RES-01/journal.md",
+      "etat": "00_SYSTEME/agents/RES-01/etat.json"
+    },
+    {
+      "id": "RES-02",
+      "groupe": "residanat_dems",
+      "mission": "Banque QCM — sciences fondamentales",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/RES-02",
+      "journal": "00_SYSTEME/agents/RES-02/journal.md",
+      "etat": "00_SYSTEME/agents/RES-02/etat.json"
+    },
+    {
+      "id": "RES-03",
+      "groupe": "residanat_dems",
+      "mission": "Banque QCM — médecine",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/RES-03",
+      "journal": "00_SYSTEME/agents/RES-03/journal.md",
+      "etat": "00_SYSTEME/agents/RES-03/etat.json"
+    },
+    {
+      "id": "RES-04",
+      "groupe": "residanat_dems",
+      "mission": "Banque QCM — chirurgie",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/RES-04",
+      "journal": "00_SYSTEME/agents/RES-04/journal.md",
+      "etat": "00_SYSTEME/agents/RES-04/etat.json"
+    },
+    {
+      "id": "RES-05",
+      "groupe": "residanat_dems",
+      "mission": "Cas cliniques progressifs résidanat",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/RES-05",
+      "journal": "00_SYSTEME/agents/RES-05/journal.md",
+      "etat": "00_SYSTEME/agents/RES-05/etat.json"
+    },
+    {
+      "id": "RES-06",
+      "groupe": "residanat_dems",
+      "mission": "Fiches mémo, tableaux de révision et pièges classiques",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/RES-06",
+      "journal": "00_SYSTEME/agents/RES-06/journal.md",
+      "etat": "00_SYSTEME/agents/RES-06/etat.json"
+    },
+    {
+      "id": "RES-07",
+      "groupe": "residanat_dems",
+      "mission": "Annales : recherche de sujets authentiques sourcés (jamais inventés)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/RES-07",
+      "journal": "00_SYSTEME/agents/RES-07/journal.md",
+      "etat": "00_SYSTEME/agents/RES-07/etat.json"
+    },
+    {
+      "id": "DEMS-01",
+      "groupe": "residanat_dems",
+      "mission": "DEMS : programmes officiels et objectifs par spécialité médicale",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/DEMS-01",
+      "journal": "00_SYSTEME/agents/DEMS-01/journal.md",
+      "etat": "00_SYSTEME/agents/DEMS-01/etat.json"
+    },
+    {
+      "id": "DEMS-02",
+      "groupe": "residanat_dems",
+      "mission": "DEMS : programmes officiels et objectifs par spécialité chirurgicale",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/DEMS-02",
+      "journal": "00_SYSTEME/agents/DEMS-02/journal.md",
+      "etat": "00_SYSTEME/agents/DEMS-02/etat.json"
+    },
+    {
+      "id": "DEMS-03",
+      "groupe": "residanat_dems",
+      "mission": "DEMS : parcours progressifs, urgences et conduites à tenir",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/DEMS-03",
+      "journal": "00_SYSTEME/agents/DEMS-03/journal.md",
+      "etat": "00_SYSTEME/agents/DEMS-03/etat.json"
+    },
+    {
+      "id": "TRA-01",
+      "groupe": "traduction",
+      "mission": "Glossaire médical FR–EN–AR (termes cliniques)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/TRA-01",
+      "journal": "00_SYSTEME/agents/TRA-01/journal.md",
+      "etat": "00_SYSTEME/agents/TRA-01/etat.json"
+    },
+    {
+      "id": "TRA-02",
+      "groupe": "traduction",
+      "mission": "Glossaire FR–EN–AR (sciences fondamentales, pharmacologie)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/TRA-02",
+      "journal": "00_SYSTEME/agents/TRA-02/journal.md",
+      "etat": "00_SYSTEME/agents/TRA-02/etat.json"
+    },
+    {
+      "id": "TRA-03",
+      "groupe": "traduction",
+      "mission": "Traduction FR de documents sous licence autorisant l'adaptation (ex. CC BY, CC BY-NC-SA OMS)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/TRA-03",
+      "journal": "00_SYSTEME/agents/TRA-03/journal.md",
+      "etat": "00_SYSTEME/agents/TRA-03/etat.json"
+    },
+    {
+      "id": "TRA-04",
+      "groupe": "traduction",
+      "mission": "Fiches bilingues de termes et abréviations",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/TRA-04",
+      "journal": "00_SYSTEME/agents/TRA-04/journal.md",
+      "etat": "00_SYSTEME/agents/TRA-04/etat.json"
+    },
+    {
+      "id": "TRA-05",
+      "groupe": "traduction",
+      "mission": "Contrôle qualité des traductions",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/TRA-05",
+      "journal": "00_SYSTEME/agents/TRA-05/journal.md",
+      "etat": "00_SYSTEME/agents/TRA-05/etat.json"
+    },
+    {
+      "id": "OCR-01",
+      "groupe": "ocr_pdf",
+      "mission": "Détection des PDF scannés (sans texte) dans le registre",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/OCR-01",
+      "journal": "00_SYSTEME/agents/OCR-01/journal.md",
+      "etat": "00_SYSTEME/agents/OCR-01/etat.json"
+    },
+    {
+      "id": "OCR-02",
+      "groupe": "ocr_pdf",
+      "mission": "OCR des documents autorisés (nécessite tesseract/ocrmypdf)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/OCR-02",
+      "journal": "00_SYSTEME/agents/OCR-02/journal.md",
+      "etat": "00_SYSTEME/agents/OCR-02/etat.json"
+    },
+    {
+      "id": "OCR-03",
+      "groupe": "ocr_pdf",
+      "mission": "Correction post-OCR et contrôle qualité du texte",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/OCR-03",
+      "journal": "00_SYSTEME/agents/OCR-03/journal.md",
+      "etat": "00_SYSTEME/agents/OCR-03/etat.json"
+    },
+    {
+      "id": "OCR-04",
+      "groupe": "ocr_pdf",
+      "mission": "Exports ODT/PDF/ODS et tables des matières",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/OCR-04",
+      "journal": "00_SYSTEME/agents/OCR-04/journal.md",
+      "etat": "00_SYSTEME/agents/OCR-04/etat.json"
+    },
+    {
+      "id": "OCR-05",
+      "groupe": "ocr_pdf",
+      "mission": "Intégrité des fichiers : pages, empreintes, doublons",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/OCR-05",
+      "journal": "00_SYSTEME/agents/OCR-05/journal.md",
+      "etat": "00_SYSTEME/agents/OCR-05/etat.json"
+    },
+    {
+      "id": "AUD-01",
+      "groupe": "audit_qualite",
+      "mission": "Audit scientifique des dossiers (exactitude, cohérence, actualité)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/AUD-01",
+      "journal": "00_SYSTEME/agents/AUD-01/journal.md",
+      "etat": "00_SYSTEME/agents/AUD-01/etat.json"
+    },
+    {
+      "id": "AUD-02",
+      "groupe": "audit_qualite",
+      "mission": "Audit des posologies et contre-indications",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/AUD-02",
+      "journal": "00_SYSTEME/agents/AUD-02/journal.md",
+      "etat": "00_SYSTEME/agents/AUD-02/etat.json"
+    },
+    {
+      "id": "AUD-03",
+      "groupe": "audit_qualite",
+      "mission": "Audit des QCM et cas cliniques",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/AUD-03",
+      "journal": "00_SYSTEME/agents/AUD-03/journal.md",
+      "etat": "00_SYSTEME/agents/AUD-03/etat.json"
+    },
+    {
+      "id": "AUD-04",
+      "groupe": "audit_qualite",
+      "mission": "Audit des références (existence, date, statut actuel/remplacé)",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/AUD-04",
+      "journal": "00_SYSTEME/agents/AUD-04/journal.md",
+      "etat": "00_SYSTEME/agents/AUD-04/etat.json"
+    },
+    {
+      "id": "AUD-05",
+      "groupe": "audit_qualite",
+      "mission": "Audit des lacunes de couverture et relance des recherches",
+      "specialites": "ALL",
+      "repertoire": "00_SYSTEME/agents/AUD-05",
+      "journal": "00_SYSTEME/agents/AUD-05/journal.md",
+      "etat": "00_SYSTEME/agents/AUD-05/etat.json"
+    }
+  ]
+}
