@@ -6,7 +6,7 @@
 
 ## État
 
-- Items du résidanat rattachés : **5** — couverture brute 20 %, auditée 0 %
+- Items du résidanat rattachés : **5** — couverture brute 20 %, auditée 20 %
 - Dossiers pédagogiques : 0 (audités : 0)
 - QCM : 15 — cas cliniques : 0 — pathologies référencées : 21
 - Ouvrages catalogués : 9 — recommandations : 4

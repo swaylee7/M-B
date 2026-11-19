@@ -1,6 +1,6 @@
 # Planning de révision du résidanat — 24 semaines
 
-_Généré le 2026-11-19T04:54:41+00:00 à partir du programme (DOC-00001). Proposition pédagogique Mediverse, à adapter à la date du concours._
+_Généré le 2026-11-19T05:30:55+00:00 à partir du programme (DOC-00001). Proposition pédagogique Mediverse, à adapter à la date du concours._
 
 **Méthode** : 5 jours d'apprentissage par semaine (≈ 3 items/jour), 1 jour de QCM et cas cliniques, 1 jour de repos ou de rattrapage.
 Relire les items de la semaine S−1 (rappel à J+7) et ceux de la semaine S−4 (rappel à J+30) — répétition espacée.

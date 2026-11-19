@@ -1,0 +1,126 @@
+{
+  "id": "RES-06",
+  "lot": 8,
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T05:29:59+00:00",
+  "perimetre": "Fiches de révision dérivées des dossiers v1.1 audités — gastroentérologie (maladie ulcéreuse gastroduodénale, rectocolite hémorragique, maladie de Crohn) et chirurgie digestive (cancer du côlon, appendicites aiguës)",
+  "taches_terminees": [
+    "FIC-GAST-0002",
+    "FIC-GAST-0003",
+    "FIC-GAST-0004",
+    "FIC-CDIG-0003",
+    "FIC-CDIG-0004",
+    "PIEGES_CLASSIQUES_LOT8"
+  ],
+  "taches_suivantes": [
+    "Audit des 5 fiches FIC lot 8 et de PIEGES_CLASSIQUES_LOT8 par AUD (statut brouillon_a_auditer)",
+    "Transmission des 6 incohérences repérées (seuils Montréal/Truelove-Witts GAST-0003 ; piège J7 GAST-0003 ; SES-CD 0–56 GAST-0004 ; seuil < 40 cm GAST-0004 ; délai de coloscopie CDIG-0003 ; programme_residanat.json) à l'agent d'audit / à l'orchestrateur",
+    "Mise à jour des fiches FIC-GAST-0003, FIC-GAST-0004 et FIC-CDIG-0003 si leurs dossiers passent en v1.2 (lecture des ECCO 2026, BSG 2025, ACG 2025, ESMO 2020/2026 ; levée des marqueurs restants, dont la posologie des antibiotiques des LAP)",
+    "Indexation (indexer.py) et exports ODT/PDF (exporter.py) par l'orchestrateur"
+  ],
+  "fiches": [
+    {
+      "id": "FIC-GAST-0002",
+      "fichier": "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/03_FICHES_REVISION/FIC-GAST-0002__MALADIE_ULCEREUSE_GASTRODUODENALE.md",
+      "dossier_source": "DOS-GAST-0002",
+      "version_dossier_source": "1.1",
+      "statut_dossier_source": "audite_valide",
+      "item": "RES-MED-018",
+      "mots": 1811,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-GAST-0003",
+      "fichier": "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/03_FICHES_REVISION/FIC-GAST-0003__RECTOCOLITE_HEMORRAGIQUE.md",
+      "dossier_source": "DOS-GAST-0003",
+      "version_dossier_source": "1.1",
+      "statut_dossier_source": "audite_corrections_requises",
+      "item": "RES-MED-024",
+      "mots": 1792,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-GAST-0004",
+      "fichier": "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/03_FICHES_REVISION/FIC-GAST-0004__MALADIE_DE_CROHN.md",
+      "dossier_source": "DOS-GAST-0004",
+      "version_dossier_source": "1.1",
+      "statut_dossier_source": "audite_corrections_requises",
+      "item": "RES-MED-025",
+      "mots": 1763,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-CDIG-0003",
+      "fichier": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/03_FICHES_REVISION/FIC-CDIG-0003__CANCER_DU_COLON.md",
+      "dossier_source": "DOS-CDIG-0003",
+      "version_dossier_source": "1.1",
+      "statut_dossier_source": "audite_corrections_requises",
+      "item": "RES-CHI-003",
+      "mots": 1746,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-CDIG-0004",
+      "fichier": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/03_FICHES_REVISION/FIC-CDIG-0004__APPENDICITES_AIGUES.md",
+      "dossier_source": "DOS-CDIG-0004",
+      "version_dossier_source": "1.1",
+      "statut_dossier_source": "audite_valide",
+      "item": "RES-CHI-014",
+      "mots": 1636,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    }
+  ],
+  "compilation": {
+    "fichier": "16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT8.md",
+    "nombre_pieges": 50,
+    "modules": {
+      "GASTROENTEROLOGIE": 30,
+      "CHIRURGIE": 20
+    },
+    "statut": "brouillon_a_auditer"
+  },
+  "incoherences_reperees": [
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-GAST-0003 : Montréal S1 « ≤ 4 selles/jour » / S2 « > 4 » (§ 7.1) vs poussée légère Truelove-Witts « < 4 selles/jour » (§ 7.3) ; pouls « ≥ 90/min » (Montréal S3) vs « > 90/min » (Truelove-Witts) — non signalés au § 21 (seuls selles ≥ 6 / > 6 et température le sont)"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-GAST-0003 : piège § 19 « corticoïdes IV au-delà de J7 sans décision de secours ou de chirurgie » vs protocole (§ 13.3.3, § 16.3) : décision de secours à J3 (Oxford), colectomie à J7 du traitement de secours"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-GAST-0004 § 7.4 : SES-CD « 5 segments × 4 items cotés 0–3 » (maximum arithmétique 60) mais « score total de 0 à 56 », sans explication"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-GAST-0004 § 17 : seuil « atteinte localisée < 40 cm » pour la résection iléo-cæcale, absent du § 13.2.9 et non sourcé spécifiquement (non repris dans la fiche)"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-CDIG-0003 : coloscopie complète après coloscopie incomplète « dans les 3 à 6 mois postopératoires [À VÉRIFIER] » (§ 9.1) vs « dans les 6 mois » (§ 14)"
+    },
+    {
+      "type": "index",
+      "gravite": "mineure",
+      "objet": "programme_residanat.json : statuts obsolètes des 5 dossiers (brouillon_a_auditer), champ fiches vide pour RES-MED-018, 024, 025, RES-CHI-003, 014, et RES-CHI-014 rattaché à CGEN alors que dossier et fiche sont en CDIG — réindexation et arbitrage nécessaires"
+    }
+  ],
+  "outils": "scratchpad de session (non versionnés) : res06_lot8_outils/ (l8_commun.py, l8_inject_sources.py, l8_check_numbers.py, l8_contexte_doses.py, l8_wc.py, l8_valider.py, l8_build_pieges.py)",
+  "git": "aucune opération (consigne)"
+}

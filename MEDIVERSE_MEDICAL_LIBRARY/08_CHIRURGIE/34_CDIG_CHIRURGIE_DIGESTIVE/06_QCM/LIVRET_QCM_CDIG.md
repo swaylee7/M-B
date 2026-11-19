@@ -1213,7 +1213,7 @@ _Sources : Argilés G et al. Localised colon cancer: ESMO Clinical Practice Guid
 
 ### 35. `QCM-CDIG-0461` — réponse(s) : **A, B, C, D**
 
-BRAF V600E est un facteur de mauvais pronostic des tumeurs MSS métastatiques ; il existe des options ciblées (encorafénib + cétuximab).
+BRAF V600E est un facteur de mauvais pronostic des tumeurs MSS métastatiques ; il existe des options ciblées (encorafénib + cétuximab). L'ESMO 2023 a été remplacée par l'ESMO 2026 (avril 2026), qui fait de l'association encorafénib + cétuximab + mFOLFOX6 une option de première ligne des tumeurs BRAF V600E ; les propositions A à D restent exactes.
 
 - **A** : Vrai.
 - **B** : Vrai.
@@ -1221,7 +1221,7 @@ BRAF V600E est un facteur de mauvais pronostic des tumeurs MSS métastatiques ; 
 - **D** : Vrai.
 - **E** : Faux.
 
-_Sources : Cervantes A et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. Ann Oncol 2023;34(1):10-32. doi:10.1016/j.annonc.2022.10.003 (remplacée en 2026 : doi:10.1016/j.annonc.2026.03.005); André T et al. Pembrolizumab in MSI-H advanced colorectal cancer (KEYNOTE-177). N Engl J Med 2020;383(23):2207-2218_
+_Sources : Cervantes A et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. Ann Oncol 2023;34(1):10-32. doi:10.1016/j.annonc.2022.10.003 (remplacée en 2026 : doi:10.1016/j.annonc.2026.03.005); André T et al. Pembrolizumab in MSI-H advanced colorectal cancer (KEYNOTE-177). N Engl J Med 2020;383(23):2207-2218; Cremolini C, et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. Ann Oncol. 2026;37(6):759-776. doi:10.1016/j.annonc.2026.03.005_
 
 ### 36. `QCM-CDIG-0462` — réponse(s) : **A, B, C, E**
 

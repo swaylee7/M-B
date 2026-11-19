@@ -236,7 +236,7 @@ Ulcère gastrique de l'antre de 12 mm, bénin à l'histologie (biopsies multiple
 
 ### Traitement
 
-Arrêt du diclofénac (paracétamol ; avis rhumatologique) ; maintien de l'aspirine de prévention secondaire sous IPP (avis neurologique) ; IPP à dose standard jusqu'à cicatrisation [durée selon RCP] ; éradication par quadrithérapie bismuthée (oméprazole 20 mg × 2/j + gélules bismuth-métronidazole-tétracycline 3 × 4/j, 10 jours selon la HAS 2021 ; 14 jours selon Maastricht VI) — la prise antérieure de clarithromycine et la résistance documentée excluent les schémas à la clarithromycine ; fer oral.
+Arrêt du diclofénac (paracétamol ; avis rhumatologique) ; maintien de l'aspirine de prévention secondaire sous IPP (avis neurologique) ; IPP à pleine dose pendant 4 à 8 semaines (ulcère gastrique ; durées de l'AMM rappelées par la HAS en 2020), puis à demi-dose tant que l'aspirine est associée ; éradication par quadrithérapie bismuthée (oméprazole 20 mg × 2/j + gélules bismuth-métronidazole-tétracycline 3 × 4/j, 10 jours selon la HAS 2021 ; 14 jours selon Maastricht VI) — la prise antérieure de clarithromycine et la résistance documentée excluent les schémas à la clarithromycine ; fer oral.
 
 ### Surveillance
 
@@ -263,7 +263,7 @@ Ce cas illustre le cumul des facteurs ulcérogènes (AINS + aspirine + H. pylori
 - **Q.** Pourquoi une EOGD de contrôle ?
   - **R.** Tout ulcère gastrique doit être contrôlé jusqu'à cicatrisation avec biopsies (cancer méconnu).
 
-_Sources : HAS. Choix et durées d'antibiothérapies : traitement probabiliste de l'infection par Helicobacter pylori chez l'adulte. Fiche mémo, juillet 2021 (page mise à jour le 13/05/2025); HAS. Choix et durées d'antibiothérapies : traitement guidé de l'infection par Helicobacter pylori chez l'adulte. Fiche mémo, juillet 2021; Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745; Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-624. doi:10.1016/S0140-6736(16)32404-7; Djennane-Hadibi F et al. High-Level Primary Clarithromycin Resistance of Helicobacter pylori in Algiers, Algeria. Microb Drug Resist 2016;22(3):223-226. doi:10.1089/mdr.2015.0209_
+_Sources : HAS. Choix et durées d'antibiothérapies : traitement probabiliste de l'infection par Helicobacter pylori chez l'adulte. Fiche mémo, juillet 2021 (page mise à jour le 13/05/2025); HAS. Choix et durées d'antibiothérapies : traitement guidé de l'infection par Helicobacter pylori chez l'adulte. Fiche mémo, juillet 2021; Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745; Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-624. doi:10.1016/S0140-6736(16)32404-7; Djennane-Hadibi F et al. High-Level Primary Clarithromycin Resistance of Helicobacter pylori in Algiers, Algeria. Microb Drug Resist 2016;22(3):223-226. doi:10.1089/mdr.2015.0209; HAS, Commission de la transparence. Rapport d'évaluation des inhibiteurs de la pompe à protons (réévaluation), avis définitif, 2020_
 
 ## Vomissements alimentaires et alcalose chez un ancien ulcéreux `CAS-GAST-0452`
 
@@ -508,11 +508,11 @@ La corticodépendance impose une escalade ; en Algérie, le dépistage de l'ITL 
 - **Q.** Quelle conduite devant l'IGRA positif ?
   - **R.** Éliminer une tuberculose active puis traiter l'ITL avant l'anti-TNF (schémas OMS 2024, instruction nationale).
 - **Q.** Quelles vaccinations ?
-  - **R.** Grippe annuelle, pneumocoque ; vaccins vivants au moins 4 semaines avant, jamais pendant l'immunosuppression.
+  - **R.** Grippe chaque automne, pneumocoque (avec rappel après 5 ans selon la BSG 2025) ; vaccins vivants au moins 4 semaines avant, jamais pendant l'immunosuppression.
 - **Q.** Quand faire la coloscopie de dépistage du cancer ?
   - **R.** 8 ans après le début des symptômes (BSG 2019), plus tôt si CSP.
 
-_Sources : Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484; OMS. WHO consolidated guidelines on tuberculosis, Module 1: prevention — tuberculosis preventive treatment, 2nd ed. 2024 (ISBN 9789240096196); Raine T et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. J Crohns Colitis 2022;16(1):2-17. doi:10.1093/ecco-jcc/jjab178 (remplacée en 2026 : doi:10.1093/ecco-jcc/jjag066)_
+_Sources : Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484; OMS. WHO consolidated guidelines on tuberculosis, Module 1: prevention — tuberculosis preventive treatment, 2nd ed. 2024 (ISBN 9789240096196); Raine T et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. J Crohns Colitis 2022;16(1):2-17. doi:10.1093/ecco-jcc/jjab178 (remplacée en 2026 : doi:10.1093/ecco-jcc/jjag066); Moran GW, et al. British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025. Gut. 2025;74(Suppl 2):s1-s101_
 
 ## Iléite terminale chez un jeune homme : Crohn ou tuberculose ? `CAS-GAST-0455`
 
@@ -532,7 +532,7 @@ Pas de contage tuberculeux connu ; vacciné par le BCG ; appendicectomie à 12 a
 
 ### Symptômes
 
-3 à 4 selles non sanglantes par jour, douleurs post-prandiales de la FID cédant après des gargouillements, amaigrissement de 4 kg ; pas de sueurs nocturnes ; pas de toux.
+3 à 4 selles non sanglantes par jour, douleurs de la FID, amaigrissement de 4 kg ; pas de syndrome de Koenig ni de vomissements ; pas de sueurs nocturnes ; pas de toux.
 
 ### Examen clinique
 
@@ -544,7 +544,7 @@ Hb 12,3 g/dL (N 13–17) ; CRP 31 mg/L (N < 5) ; albumine 34 g/L (N 35–50) ; v
 
 ### Imagerie
 
-Entéro-IRM : épaississement iléal terminal de 12 cm, ulcérations, discrète sténose sans dilatation majeure, pas d'abcès ni de fistule ; pas d'adénopathie nécrotique ; radiographie thoracique normale.
+Entéro-IRM : épaississement iléal terminal de 12 cm, ulcérations, sans rétrécissement luminal ni dilatation d'amont, pas d'abcès ni de fistule ; pas d'adénopathie nécrotique ; radiographie thoracique normale.
 
 ### Hypothèses diagnostiques
 
@@ -566,7 +566,7 @@ Entéro-IRM : épaississement iléal terminal de 12 cm, ulcérations, discrète 
 
 ### Diagnostic final
 
-Maladie de Crohn iléale (Montréal A2 L1 B1 — sténose inflammatoire sans dilatation), forme légère à modérée : ulcérations longitudinales, granulome non caséeux, culture et PCR mycobactériennes négatives.
+Maladie de Crohn iléale (Montréal A2 L1 B1 — ni sténose ni pénétration), forme légère à modérée : ulcérations longitudinales, granulome non caséeux, culture et PCR mycobactériennes négatives.
 
 ### Traitement
 
@@ -587,7 +587,7 @@ En Algérie, l'iléite terminale impose d'éliminer la tuberculose (biopsies ave
 ### Questions
 
 - **Q.** Classification de Montréal ?
-  - **R.** A2 (27 ans), L1 (iléale), B1 (pas de sténose fibreuse ni de fistule).
+  - **R.** A2 (27 ans), L1 (iléale), B1 (comportement inflammatoire : ni sténose ni fistule).
 - **Q.** Comment éliminer une tuberculose ?
   - **R.** Biopsies avec culture et PCR, histologie (granulomes caséeux), imagerie thoracique, contexte ; IGRA non discriminant.
 - **Q.** Quel traitement d'induction ?

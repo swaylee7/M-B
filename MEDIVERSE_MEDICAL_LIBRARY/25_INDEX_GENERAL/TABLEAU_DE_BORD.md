@@ -1,6 +1,6 @@
 # Tableau de bord — Bibliothèque médicale Mediverse
 
-_Généré le 2026-11-19T04:56:34+00:00 par `00_SYSTEME/scripts/tableau_de_bord.py`. Chiffres calculés à partir des fichiers réellement présents._
+_Généré le 2026-11-19T05:31:13+00:00 par `00_SYSTEME/scripts/tableau_de_bord.py`. Chiffres calculés à partir des fichiers réellement présents._
 
 ## Indicateurs globaux
 
@@ -14,12 +14,12 @@ _Généré le 2026-11-19T04:56:34+00:00 par `00_SYSTEME/scripts/tableau_de_bord.
 | Traductions | 0 |
 | Recommandations cataloguées | 340 (actuelles : 312, remplacées : 28) |
 | Pathologies référencées | 1569 (avec dossier : 363) |
-| Dossiers pédagogiques | 95 (audit effectué : 90 ; validés : 26) — 926 930 mots |
-| Fiches de révision | 80 |
+| Dossiers pédagogiques | 95 (audit effectué : 95 ; validés : 28) — 929 476 mots |
+| Fiches de révision | 95 |
 | Cas cliniques | 191 |
 | QCM | 2025 |
 | Termes du glossaire FR–EN–AR | 2655 |
-| Items du résidanat couverts | 97 / 314 (brut) — 26 audités |
+| Items du résidanat couverts | 97 / 314 (brut) — 28 audités |
 | Ressources manquantes | ouvrages non acquis : 442 ; items sans dossier : 217 ; items sans QCM : 0 ; acquisitions échouées : 66 |
 
 ## Couverture par spécialité
@@ -45,7 +45,7 @@ Couverture = part des items du résidanat rattachés à la spécialité disposan
 | 15 | Médecine interne | 6 | 50 % | 0 % | 2 (0) | 38 | 5 | 34 | 18 | 10 |
 | 16 | Cardiologie | 17 | 59 % | 24 % | 10 (4) | 153 | 20 | 68 | 13 | 53 |
 | 17 | Pneumologie | 8 | 38 % | 0 % | 3 (0) | 52 | 6 | 50 | 13 | 34 |
-| 18 | Gastro-entérologie | 9 | 56 % | 22 % | 4 (1) | 66 | 8 | 49 | 9 | 21 |
+| 18 | Gastro-entérologie | 9 | 56 % | 33 % | 4 (2) | 66 | 8 | 49 | 9 | 21 |
 | 19 | Hépatologie | 4 | 50 % | 0 % | 2 (0) | 30 | 4 | 48 | 8 | 15 |
 | 20 | Néphrologie | 10 | 20 % | 0 % | 2 (0) | 48 | 4 | 52 | 10 | 19 |
 | 21 | Neurologie | 16 | 6 % | 0 % | 1 (0) | 45 | 2 | 72 | 13 | 35 |
@@ -60,8 +60,8 @@ Couverture = part des items du résidanat rattachés à la spécialité disposan
 | 30 | Néonatologie | 4 | 75 % | 0 % | 3 (0) | 42 | 6 | 41 | 8 | 9 |
 | 31 | Gynécologie | 8 | 38 % | 12 % | 3 (1) | 51 | 6 | 35 | 12 | 17 |
 | 32 | Obstétrique | 5 | 40 % | 0 % | 2 (0) | 33 | 4 | 45 | 12 | 16 |
-| 33 | Chirurgie générale | 5 | 20 % | 0 % | 0 (0) | 15 | 0 | 21 | 9 | 4 |
-| 34 | Chirurgie digestive | 12 | 25 % | 8 % | 4 (1) | 75 | 8 | 36 | 9 | 16 |
+| 33 | Chirurgie générale | 5 | 20 % | 20 % | 0 (0) | 15 | 0 | 21 | 9 | 4 |
+| 34 | Chirurgie digestive | 13 | 31 % | 15 % | 4 (2) | 75 | 8 | 36 | 9 | 16 |
 | 35 | Urologie | 10 | 30 % | 0 % | 2 (0) | 54 | 4 | 33 | 6 | 6 |
 | 36 | Orthopédie | 5 | 20 % | 0 % | 1 (0) | 24 | 2 | 36 | 12 | 4 |
 | 37 | Traumatologie | 5 | 40 % | 0 % | 2 (0) | 36 | 4 | 43 | 9 | 0 |

@@ -531,7 +531,7 @@ Douleur péri-ombilicale ayant migré vers la FID, anorexie, un vomissement ; pa
 
 ### Examen clinique
 
-T 38,0 °C ; FC 104/min ; douleur provoquée de la FID avec défense ; douleur au sautillement et à la toux ; examen des bourses normal ; auscultation pulmonaire normale.
+T 38,4 °C ; FC 104/min ; douleur provoquée de la FID avec défense ; douleur au sautillement et à la toux ; examen des bourses normal ; auscultation pulmonaire normale.
 
 ### Résultats biologiques
 
@@ -561,7 +561,7 @@ Leucocytes 15,1 G/L (N 4,5–13,5) dont 81 % de polynucléaires ; CRP 42 mg/L (N
 
 ### Diagnostic final
 
-Appendicite aiguë non compliquée (PAS : toux/sautillement 2 + anorexie 1 + fièvre 1 + vomissement 1 + douleur FID 2 + leucocytose 1 + polynucléose 1 + migration 1 = 10/10 [barème PAS à vérifier]).
+Appendicite aiguë non compliquée (PAS : toux/sautillement 2 + anorexie 1 + fièvre 1 + vomissement 1 + douleur FID 2 + leucocytose 1 + polynucléose 1 + migration 1 = 10/10 ; probabilité élevée au-delà de 5).
 
 ### Traitement
 
@@ -590,7 +590,7 @@ Chez l'enfant, la biologie et l'échographie sont systématiques ; aucun score n
 - **Q.** Quelle alternative à la chirurgie peut être discutée ?
   - **R.** Le traitement antibiotique seul en l'absence d'appendicolithe, avec information sur le risque d'échec (WSES 2.2 ; Minneci 2020 : 67 % de succès à 1 an).
 
-_Sources : Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3; Minneci PC et al. Nonoperative management vs laparoscopic appendectomy in children with uncomplicated appendicitis. JAMA 2020;324(6):581-593. doi:10.1001/jama.2020.10888_
+_Sources : Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3; Minneci PC et al. Nonoperative management vs laparoscopic appendectomy in children with uncomplicated appendicitis. JAMA 2020;324(6):581-593. doi:10.1001/jama.2020.10888; Goulder F, Simpson T. Pediatric appendicitis score: a retrospective analysis. J Indian Assoc Pediatr Surg. 2008;13(4):125-127 (tableau du PAS de Samuel)_
 
 ## Douleur abdominale droite au 2ᵉ trimestre de grossesse `CAS-CDIG-0454`
 

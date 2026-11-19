@@ -244,7 +244,7 @@ Selon la méta-analyse de Savoldi (2018) et Maastricht VI (2022), concernant l'a
 - **A.** La résistance à la clarithromycine multiplie le risque d'échec des schémas qui la contiennent
 - **B.** Le seuil de 15 % de résistance à la clarithromycine sert à décider de l'usage empirique de la trithérapie
 - **C.** Les résistances primaires étaient ≥ 15 % dans la plupart des régions de l'OMS
-- **D.** L'OMS a classé H. pylori résistant à la clarithromycine parmi les pathogènes prioritaires
+- **D.** En 2017, l'OMS a classé H. pylori résistant à la clarithromycine parmi les pathogènes prioritaires
 - **E.** La surveillance locale de la résistance est inutile
 
 ### 25. RCH — classification de Montréal `QCM-GAST-0463`
@@ -945,17 +945,17 @@ _Sources : Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-6
 
 ### 21. `QCM-GAST-0459` — réponse(s) : **A, B, C, E**
 
-Tout ulcère gastrique est un cancer jusqu'à preuve du contraire : biopsies multiples, contrôle de cicatrisation avec nouvelles biopsies ; IPP prolongé jusqu'à cicatrisation (durées selon RCP).
+Tout ulcère gastrique est un cancer jusqu'à preuve du contraire : biopsies multiples, contrôle de cicatrisation avec nouvelles biopsies ; IPP à pleine dose 4 à 8 semaines, prolongé jusqu'à cicatrisation (HAS, Commission de la transparence, 2020).
 
 - **A** : Vrai.
 - **B** : Vrai.
 - **C** : Vrai.
 - **D** : Faux.
-- **E** : Vrai (durées selon RCP, 4 semaines pour l'UD, jusqu'à 8 semaines pour l'UG).
+- **E** : Vrai : IPP à pleine dose 4 semaines pour l'UD, 4 à 8 semaines pour l'UG, prolongeables selon la taille (durées de l'AMM rappelées par la HAS en 2020).
 
 > Piège classique : Ne pas contrôler la cicatrisation d'un ulcère gastrique.
 
-_Sources : Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-624. doi:10.1016/S0140-6736(16)32404-7; Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745_
+_Sources : Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-624. doi:10.1016/S0140-6736(16)32404-7; Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745; HAS, Commission de la transparence. Rapport d'évaluation des inhibiteurs de la pompe à protons (réévaluation), avis définitif, 2020_
 
 ### 22. `QCM-GAST-0460` — réponse(s) : **A, C, D**
 
@@ -985,15 +985,15 @@ _Sources : Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-6
 
 ### 24. `QCM-GAST-0462` — réponse(s) : **A, B, C, D**
 
-Savoldi : OR d'échec ≈ 7 en cas de résistance à la clarithromycine ; résistances ≥ 15 % dans la plupart des régions ; l'OMS a fait de H. pylori résistant à la clarithromycine une priorité en 2017 ; les auteurs appellent à des réseaux de surveillance locaux.
+Savoldi : OR d'échec ≈ 7 en cas de résistance à la clarithromycine ; résistances ≥ 15 % dans la plupart des régions ; l'OMS a fait de H. pylori résistant à la clarithromycine une priorité en 2017 (retiré de la liste actualisée de 2024, retrait contesté) ; les auteurs appellent à des réseaux de surveillance locaux.
 
 - **A** : Vrai (OR 6,97).
 - **B** : Vrai.
 - **C** : Vrai, à quelques exceptions.
-- **D** : Vrai (2017).
+- **D** : Vrai pour la liste de 2017 ; H. pylori n'a pas été repris dans la liste actualisée de 2024.
 - **E** : Faux.
 
-_Sources : Savoldi A et al. Prevalence of Antibiotic Resistance in Helicobacter pylori. Gastroenterology 2018;155(5):1372-1382.e17. doi:10.1053/j.gastro.2018.07.007; Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745_
+_Sources : Savoldi A et al. Prevalence of Antibiotic Resistance in Helicobacter pylori. Gastroenterology 2018;155(5):1372-1382.e17. doi:10.1053/j.gastro.2018.07.007; Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745; OMS. WHO bacterial priority pathogens list, 2024 (ISBN 9789240093461) ; retrait de H. pylori : Microbial Genomics 2025;11:001475 (PMC12452171)_
 
 ### 25. `QCM-GAST-0463` — réponse(s) : **A, C, D**
 
@@ -1021,7 +1021,7 @@ _Sources : Schroeder KW, Tremaine WJ, Ilstrup DM. Coated oral 5-ASA therapy for 
 
 ### 27. `QCM-GAST-0465` — réponse(s) : **A, B, C, D**
 
-Il s'agit d'une colite aiguë grave (> 6 selles sanglantes + signes systémiques). Mesures associées à la corticothérapie IV : correction du potassium et du magnésium, HBPM, imagerie de la colectasie, surveillance médico-chirurgicale. Le score de Lichtiger (0–21) est utilisé dans les essais de traitement de secours.
+Il s'agit d'une colite aiguë grave (au moins 6 selles sanglantes — « plus de 6 » dans le libellé de la BSG 2019 — + signes systémiques). Mesures associées à la corticothérapie IV : correction du potassium et du magnésium, HBPM, imagerie de la colectasie, surveillance médico-chirurgicale. Le score de Lichtiger (0–21) est utilisé dans les essais de traitement de secours.
 
 - **A** : Vrai : facteurs favorisants de la colectasie.
 - **B** : Vrai (BSG 2019, recommandation forte).
@@ -1232,7 +1232,7 @@ Le méthotrexate est hebdomadaire ; une prise quotidienne par erreur est un acci
 - **A** : Vrai.
 - **B** : Vrai.
 - **C** : Vrai.
-- **D** : Vrai.
+- **D** : Vrai : chez la femme (BSG 2019, recommandation forte) ; chez l'homme, l'arrêt n'est probablement pas nécessaire (recommandation faible).
 - **E** : Faux : hebdomadaire.
 
 > Piège classique : Erreur de prescription quotidienne du méthotrexate.

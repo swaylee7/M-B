@@ -6,8 +6,8 @@
 
 ## État
 
-- Items du résidanat rattachés : **9** — couverture brute 56 %, auditée 22 %
-- Dossiers pédagogiques : 4 (audités : 1)
+- Items du résidanat rattachés : **9** — couverture brute 56 %, auditée 33 %
+- Dossiers pédagogiques : 4 (audités : 2)
 - QCM : 66 — cas cliniques : 8 — pathologies référencées : 49
 - Ouvrages catalogués : 9 — recommandations : 21
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
@@ -17,9 +17,9 @@
 | ID | Titre | Statut | Mots |
 |---|---|---|---|
 | DOS-GAST-0001 | [Hémorragies digestives : mécanismes physiopathologiques, étiologies, diagnostic, traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0001__HEMORRAGIES_DIGESTIVES.md) | audite_valide | 11572 |
-| DOS-GAST-0002 | [Maladie ulcéreuse gastroduodénale : diagnostic, complications et traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0002__MALADIE_ULCEREUSE_GASTRODUODENALE.md) | brouillon_a_auditer | 9402 |
-| DOS-GAST-0003 | [Rectocolite hémorragique : étiologies, diagnostic, formes cliniques, évolution, traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0003__RECTOCOLITE_HEMORRAGIQUE.md) | brouillon_a_auditer | 9043 |
-| DOS-GAST-0004 | [Maladie de Crohn : diagnostic, évolution, traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0004__MALADIE_DE_CROHN.md) | brouillon_a_auditer | 8411 |
+| DOS-GAST-0002 | [Maladie ulcéreuse gastroduodénale : diagnostic, complications et traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0002__MALADIE_ULCEREUSE_GASTRODUODENALE.md) | audite_valide | 9608 |
+| DOS-GAST-0003 | [Rectocolite hémorragique : étiologies, diagnostic, formes cliniques, évolution, traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0003__RECTOCOLITE_HEMORRAGIQUE.md) | audite_corrections_requises | 9800 |
+| DOS-GAST-0004 | [Maladie de Crohn : diagnostic, évolution, traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0004__MALADIE_DE_CROHN.md) | audite_corrections_requises | 8930 |
 
 ## Items du programme du résidanat
 

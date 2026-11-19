@@ -5,6 +5,24 @@ Bibliothèque médicale numérique francophone, avec une priorité donnée à l'
 > **État réel** : la bibliothèque est en construction. Les chiffres à jour se trouvent dans [`25_INDEX_GENERAL/TABLEAU_DE_BORD.md`](25_INDEX_GENERAL/TABLEAU_DE_BORD.md), calculés à partir des fichiers effectivement présents.
 > Les contenus rédigés par des agents IA portent le statut `brouillon_a_auditer` tant qu'ils n'ont pas été audités. **Ils ne doivent pas servir à une décision clinique sans vérification** (RCP, protocoles locaux, enseignant).
 
+## État au 19/11/2026 (fin de la session 1)
+| Contenu | Volume |
+|---|---|
+| Dossiers pédagogiques | **95** originaux (≈ 929 000 mots), tous audités au moins une fois, dont 28 au statut « audité validé » |
+| Fiches de révision | **95** |
+| Pièges classiques | ≈ 950 |
+| QCM | **2 025** originaux et audités ; les 314 items du résidanat en ont tous au moins 3 |
+| Cas cliniques | **191** |
+| Recommandations datées | **340** |
+| Ouvrages catalogués | **442** (éditions vérifiées à 88 %) |
+| Pathologies | **1 569** |
+| Termes FR–EN–AR | **2 655** |
+| PDF vérifiés acquis | **118** (textes officiels algériens, guides OMS…) |
+| DEMS | Nomenclature de 75 spécialités et 61 parcours |
+
+Bilan détaillé, limites et points ouverts : [`00_SYSTEME/RAPPORT_SESSION_2026-11-19.md`](00_SYSTEME/RAPPORT_SESSION_2026-11-19.md).
+Suite du travail : [`00_SYSTEME/REPRISE.md`](00_SYSTEME/REPRISE.md).
+
 ## Ce que contient la bibliothèque
 
 | Section | Contenu |

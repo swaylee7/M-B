@@ -45,7 +45,7 @@ SURCHARGE_MED = {19: "HEPA,INFE", 20: "HEPA", 21: "GAST,PARA,INFE", 22: "HEPA,GA
                  115: "HEMA,ONCO", 116: "HEMA,ONCO", 117: "HEMA,ONCO", 134: "SPUB,EPID", 135: "SPUB",
                  136: "SPUB", 137: "SPUB", 154: "MINT,RHUM", 171: "HEMA,ANES", 172: "NEPH", 174: "GYNE,PHAR"}
 CHI = {**{i: "CDIG,ONCO" for i in range(1, 7)}, 7: "CDIG", 8: "CDIG", 9: "CDIG", 10: "CDIG,GAST", 11: "CGEN",
-       12: "CDIG,PARA", 13: "CGEN,ENDO", 14: "CGEN", 15: "CGEN", 16: "CGEN,CDIG", 17: "CPLA,MINT_REA",
+       12: "CDIG,PARA", 13: "CGEN,ENDO", 14: "CDIG,CGEN", 15: "CGEN", 16: "CGEN,CDIG", 17: "CPLA,MINT_REA",
        18: "CCVA", 19: "CPED", 20: "CPED", 21: "ORTH,CPED", 22: "CPED", 23: "UROL", 24: "UROL,ONCO",
        25: "UROL", 26: "UROL,ONCO", 27: "UROL,ONCO", 28: "UROL,CPED", 29: "UROL", 30: "UROL", 31: "UROL",
        32: "UROL", 33: "TRAU", 34: "TRAU", 35: "TRAU", 36: "TRAU", 37: "ORTH,RHUM", 38: "ORTH,INFE",
