@@ -718,3 +718,14 @@
 {"date": "2026-11-19T02:23:14+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
 {"date": "2026-11-19T02:23:14+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
 {"date": "2026-11-19T02:23:14+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 5434, "dossiers": 53}}
+{"date": "2026-11-19T02:23:16+00:00", "agent": "RES-04", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-04-a.json"}
+{"date": "2026-11-19T02:23:16+00:00", "agent": "RES-04", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-04-b.json"}
+{"date": "2026-11-19T02:23:23+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "00_SYSTEME/agents/AUD-01/etat.json"}
+{"date": "2026-11-19T02:23:23+00:00", "agent": "AUD-02", "action": "ecriture_json", "cible": "00_SYSTEME/agents/AUD-02/etat.json"}
+{"date": "2026-11-19T02:23:23+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-OBST-0001", "details": {"verdict": "audite_corrections_requises", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-OBST-0001.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:23:23+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-OBST-0002", "details": {"verdict": "audite_corrections_requises", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-OBST-0002.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:23:23+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-GYNE-0001", "details": {"verdict": "audite_corrections_requises", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0001.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:23:23+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-GYNE-0002", "details": {"verdict": "audite_valide", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0002.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:23:23+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-GYNE-0003", "details": {"verdict": "audite_corrections_requises", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0003.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:23:23+00:00", "agent": "AUD-02", "action": "audit_lots", "cible": "lots DOS-07 (QCM 60, cas 10)", "details": {"qcm_modifies": 10, "cas_modifies": 5, "statut": "audite_valide"}}
+{"date": "2026-11-19T02:23:30+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}

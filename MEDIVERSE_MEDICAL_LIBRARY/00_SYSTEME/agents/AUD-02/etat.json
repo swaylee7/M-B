@@ -1,7 +1,7 @@
 {
   "id": "AUD-02",
   "statut": "actif",
-  "derniere_execution": "2026-11-19T02:19:58+00:00",
+  "derniere_execution": "2026-11-19T02:23:23+00:00",
   "taches_terminees": [
     "audit DOS-INFE-0001 (lot DOS-02)",
     "audit DOS-INFE-0002 (lot DOS-02)",
@@ -23,7 +23,12 @@
     "audit DOS-MINT_REA-0002 (lot DOS-06)",
     "audit DOS-URGE-0001 (lot DOS-06)",
     "audit DOS-URGE-0002 (lot DOS-06)",
-    "Audit des posologies DOS-DIAB-0001/0002, DOS-ENDO-0001, DOS-NEPH-0001/0002 et des lots QCM/cas DOS-03 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/)"
+    "Audit des posologies DOS-DIAB-0001/0002, DOS-ENDO-0001, DOS-NEPH-0001/0002 et des lots QCM/cas DOS-03 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/)",
+    "audit DOS-OBST-0001 (lot DOS-07)",
+    "audit DOS-OBST-0002 (lot DOS-07)",
+    "audit DOS-GYNE-0001 (lot DOS-07)",
+    "audit DOS-GYNE-0002 (lot DOS-07)",
+    "audit DOS-GYNE-0003 (lot DOS-07)"
   ],
   "taches_suivantes": [
     "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
@@ -48,12 +53,22 @@
     "DOS-DIAB-0001 : posologies des autres classes d'antidiabétiques (RCP), douleur neuropathique, Ramadan (IDF-DAR 2021) ; lire la prise de position SFD de novembre 2025",
     "DOS-ENDO-0001 : doses JTA/JES 2016 (crise thyrotoxique), AIT (ETA 2018 amiodarone), De Quervain (ATA 2016), corticoprophylaxie de l'iode 131 (EUGOGO 2021) ; ATA 2026 grossesse en texte intégral",
     "DOS-NEPH-0001 : mettre à jour à la publication définitive de la KDIGO 2026 AKI/AKD ; posologies (syndrome hépato-rénal, NTIA, bicarbonate, adaptation des médicaments)",
-    "DOS-NEPH-0002 : texte intégral UKKA juillet 2026 (ukkidney.org à autoriser) et ERC 2025 ; polystyrène sulfonate (RCP) ; KCl par voie centrale ; paralysie périodique thyrotoxique"
+    "DOS-NEPH-0002 : texte intégral UKKA juillet 2026 (ukkidney.org à autoriser) et ERC 2025 ; polystyrène sulfonate (RCP) ; KCl par voie centrale ; paralysie périodique thyrotoxique",
+    "DOS-OBST-0001 : nicardipine (SFAR-CNGOF 2020), hydralazine (texte ACOG PB 222), urapidil, méthyldopa, nifédipine LP, MgSO4 neuroprotection ; HYPITAT (S13), SFHTA (S14) ; protocoles algériens 2025",
+    "DOS-OBST-0002 : texte intégral CNGOF 2014 (ocytocine d'entretien, cumul 40 UI, sulprostone, cibles Hb/plaquettes, thromboprophylaxie) ; RCP Nalador ; protocoles algériens 2025",
+    "DOS-GYNE-0001 : texte final NICE NG126 2026 (anti-D) ; recommandation CNGOF anti-D premier trimestre ; protocole CPC MTX de l'ANSM ; S8-S10",
+    "DOS-GYNE-0002 (non bloquant) : modalités d'application de l'arrêté HPV du 28/04/2026 ; corrigendum FIGO ; S14 Bethesda",
+    "DOS-GYNE-0003 : texte intégral ESMO 2024 (bilan, désescalade axillaire, hypofractionnement, CDK4/6, surveillance) ; ASCO/CAP 2020 récepteurs hormonaux"
   ],
   "objectifs": {},
   "compteurs": {
-    "dossiers_audites": 20,
-    "sessions": 5
+    "dossiers_audites": 25,
+    "sessions": 5,
+    "qcm_audites": 60,
+    "cas_audites": 10,
+    "corrections": 74,
+    "marqueurs_posologie_leves": 9,
+    "recherches_web": 19
   },
   "sessions": [
     {
