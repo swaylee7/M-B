@@ -90,3 +90,12 @@ def dossier_specialite(sp: dict) -> Path:
 
 def specialite_par_code() -> dict[str, dict]:
     return {s["code"]: s for s in specialites()}
+
+
+EXCLUS = ("00_SYSTEME/sauvegardes", "_ACQUIS_LOCAL")
+
+
+def lister(motif: str) -> list[Path]:
+    """Glob relatif à RACINE, en excluant les sauvegardes et les acquisitions locales (jamais indexées ni exportées)."""
+    return sorted(p for p in RACINE.glob(motif)
+                  if not any(str(p.relative_to(RACINE)).startswith(e) for e in EXCLUS))

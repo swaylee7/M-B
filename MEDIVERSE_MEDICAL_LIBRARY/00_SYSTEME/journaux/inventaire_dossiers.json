@@ -1,194 +1,156 @@
 {
-  "genere_le": "2026-11-19T02:23:14+00:00",
+  "genere_le": "2026-11-19T03:47:03+00:00",
   "dossiers": [
     {
-      "id": "DOS-NEPH-0001",
-      "titre": "Insuffisance rénale aiguë (atteinte rénale aiguë) : diagnostic et traitement",
-      "specialite": "NEPH",
+      "id": "DOS-PHYS-0001",
+      "titre": "Équilibre acido-basique : équation d'Henderson-Hasselbalch, systèmes tampons, régulation pulmonaire et rénale — interprétation des gaz du sang",
+      "specialite": "PHYS",
       "items_residanat": [
-        "RES-MED-122"
+        "RES-SF-014"
       ],
       "statut": "brouillon_a_auditer",
       "version": "1.0",
       "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0001__INSUFFISANCE_RENALE_AIGUE.md",
-      "mots": 8695,
-      "nb_sources": 16,
-      "nb_sources_verifiees": 16,
-      "nb_citations_distinctes": 16,
+      "chemin": "02_PHYSIOLOGIE/04_PHYS_PHYSIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHYS-0001__EQUILIBRE_ACIDO_BASIQUE.md",
+      "mots": 11405,
+      "nb_sources": 20,
+      "nb_sources_verifiees": 20,
+      "nb_citations_distinctes": 20,
+      "a_verifier": 1,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-PHYS-0002",
+      "titre": "Électrophysiologie du cœur : activité électrique cardiaque (potentiels d'action, canaux ioniques, automatisme, conduction, bases de l'ECG)",
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "02_PHYSIOLOGIE/04_PHYS_PHYSIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHYS-0002__ELECTROPHYSIOLOGIE_DU_COEUR_ACTIVITE_ELECTRIQUE_CARDIAQUE.md",
+      "mots": 8848,
+      "nb_sources": 14,
+      "nb_sources_verifiees": 14,
+      "nb_citations_distinctes": 14,
       "a_verifier": 3,
-      "posologie_a_verifier": 3,
+      "posologie_a_verifier": 2,
       "erreur_yaml": null
     },
     {
-      "id": "DOS-NEPH-0002",
-      "titre": "Dyskaliémies (hyperkaliémies et hypokaliémies) : physiopathologie, diagnostic et traitement",
-      "specialite": "NEPH",
+      "id": "DOS-PHAR-0001",
+      "titre": "Antibiotiques : classification, principes et règles d'utilisation, résistances bactériennes",
+      "specialite": "PHAR",
       "items_residanat": [
-        "RES-MED-125"
+        "RES-MED-166"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHAR-0001__ANTIBIOTIQUES_CLASSIFICATION_REGLES_D_UTILISATION_RESISTANCES.md",
+      "mots": 11958,
+      "nb_sources": 20,
+      "nb_sources_verifiees": 20,
+      "nb_citations_distinctes": 20,
+      "a_verifier": 12,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-PHAR-0002",
+      "titre": "Anticoagulants : principes, modalités de surveillance, règles d'utilisation",
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHAR-0002__ANTICOAGULANTS_PRINCIPES_SURVEILLANCE_REGLES_D_UTILISATION.md",
+      "mots": 11965,
+      "nb_sources": 26,
+      "nb_sources_verifiees": 25,
+      "nb_citations_distinctes": 26,
+      "a_verifier": 21,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-PHAR-0003",
+      "titre": "Corticoïdes : principes et règles d'utilisation",
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHAR-0003__CORTICOIDES_PRINCIPES_ET_REGLES_D_UTILISATION.md",
+      "mots": 9225,
+      "nb_sources": 14,
+      "nb_sources_verifiees": 14,
+      "nb_citations_distinctes": 14,
+      "a_verifier": 26,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-PHAR-0004",
+      "titre": "Antalgiques : principes et règles d'utilisation",
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
       ],
       "statut": "brouillon_a_auditer",
       "version": "1.0",
       "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0002__DYSKALIEMIES.md",
-      "mots": 8467,
-      "nb_sources": 13,
-      "nb_sources_verifiees": 13,
-      "nb_citations_distinctes": 13,
-      "a_verifier": 7,
-      "posologie_a_verifier": 4,
-      "erreur_yaml": null
-    },
-    {
-      "id": "DOS-ENDO-0001",
-      "titre": "Hyperthyroïdies : diagnostic et traitement",
-      "specialite": "ENDO",
-      "items_residanat": [
-        "RES-MED-084"
-      ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
-      "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/07_MEDECINE_INTERNE/25_ENDO_ENDOCRINOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-ENDO-0001__HYPERTHYROIDIES.md",
-      "mots": 9692,
+      "chemin": "04_PHARMACOLOGIE/09_PHAR_PHARMACOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PHAR-0004__ANTALGIQUES_PRINCIPES_ET_REGLES_D_UTILISATION.md",
+      "mots": 9417,
       "nb_sources": 12,
       "nb_sources_verifiees": 12,
       "nb_citations_distinctes": 12,
-      "a_verifier": 6,
-      "posologie_a_verifier": 5,
-      "erreur_yaml": null
-    },
-    {
-      "id": "DOS-DIAB-0001",
-      "titre": "Diabète sucré : définition, épidémiologie, classification (types 1 et 2), insuline et insulinothérapie, complications dégénératives et traitement du diabète de type 2",
-      "specialite": "DIAB",
-      "items_residanat": [
-        "RES-MED-091"
-      ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
-      "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/07_MEDECINE_INTERNE/26_DIAB_DIABETOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-DIAB-0001__DIABETE_SUCRE_CLASSIFICATION_INSULINOTHERAPIE_COMPLICATIONS_DT2.md",
-      "mots": 10989,
-      "nb_sources": 19,
-      "nb_sources_verifiees": 17,
-      "nb_citations_distinctes": 19,
-      "a_verifier": 3,
+      "a_verifier": 14,
       "posologie_a_verifier": 4,
       "erreur_yaml": null
     },
     {
-      "id": "DOS-DIAB-0002",
-      "titre": "Complications aiguës du diabète sucré : acidocétose diabétique, coma hypoglycémique, état (coma) hyperosmolaire — diagnostic et traitement",
-      "specialite": "DIAB",
+      "id": "DOS-IMMU-0001",
+      "titre": "Système majeur d'histocompatibilité, complexe HLA : bases structurales des classes I et II, propriétés fonctionnelles, applications cliniques",
+      "specialite": "IMMU",
       "items_residanat": [
-        "RES-MED-092"
+        "RES-SF-036"
       ],
       "statut": "brouillon_a_auditer",
       "version": "1.0",
       "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/07_MEDECINE_INTERNE/26_DIAB_DIABETOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-DIAB-0002__COMPLICATIONS_AIGUES_DU_DIABETE_ACIDOCETOSE_HYPOGLYCEMIE_ETAT_HYPEROSMOLAIRE.md",
-      "mots": 9896,
-      "nb_sources": 11,
-      "nb_sources_verifiees": 11,
-      "nb_citations_distinctes": 11,
+      "chemin": "05_MICROBIOLOGIE/07_IMMU_IMMUNOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-IMMU-0001__SYSTEME_MAJEUR_D_HISTOCOMPATIBILITE_COMPLEXE_HLA.md",
+      "mots": 8611,
+      "nb_sources": 20,
+      "nb_sources_verifiees": 20,
+      "nb_citations_distinctes": 20,
       "a_verifier": 1,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-IMMU-0002",
+      "titre": "États d'hypersensibilité de types I, II, III et IV : bases cellulaires et moléculaires, choc anaphylactique, exploration",
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "05_MICROBIOLOGIE/07_IMMU_IMMUNOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-IMMU-0002__ETATS_D_HYPERSENSIBILITE_TYPES_I_A_IV_CHOC_ANAPHYLACTIQUE.md",
+      "mots": 9362,
+      "nb_sources": 20,
+      "nb_sources_verifiees": 20,
+      "nb_citations_distinctes": 20,
+      "a_verifier": 3,
       "posologie_a_verifier": 2,
-      "erreur_yaml": null
-    },
-    {
-      "id": "DOS-CARD-0001",
-      "titre": "Insuffisance cardiaque aiguë et chronique",
-      "specialite": "CARD",
-      "items_residanat": [
-        "RES-MED-059"
-      ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
-      "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0001__INSUFFISANCE_CARDIAQUE_AIGUE_ET_CHRONIQUE.md",
-      "mots": 13469,
-      "nb_sources": 9,
-      "nb_sources_verifiees": 8,
-      "nb_citations_distinctes": 9,
-      "a_verifier": 10,
-      "posologie_a_verifier": 2,
-      "erreur_yaml": null
-    },
-    {
-      "id": "DOS-CARD-0002",
-      "titre": "Hypertension artérielle",
-      "specialite": "CARD",
-      "items_residanat": [
-        "RES-MED-060"
-      ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
-      "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0002__HYPERTENSION_ARTERIELLE.md",
-      "mots": 11205,
-      "nb_sources": 10,
-      "nb_sources_verifiees": 8,
-      "nb_citations_distinctes": 10,
-      "a_verifier": 12,
-      "posologie_a_verifier": 1,
-      "erreur_yaml": null
-    },
-    {
-      "id": "DOS-CARD-0003",
-      "titre": "Infarctus du myocarde — syndrome coronarien aigu avec sus-décalage du segment ST",
-      "specialite": "CARD",
-      "items_residanat": [
-        "RES-MED-056"
-      ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
-      "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0003__INFARCTUS_DU_MYOCARDE_SCA_ST_PLUS.md",
-      "mots": 9558,
-      "nb_sources": 7,
-      "nb_sources_verifiees": 6,
-      "nb_citations_distinctes": 7,
-      "a_verifier": 12,
-      "posologie_a_verifier": 3,
-      "erreur_yaml": null
-    },
-    {
-      "id": "DOS-CARD-0004",
-      "titre": "Syndromes coronariens aigus sans sus-décalage du segment ST",
-      "specialite": "CARD",
-      "items_residanat": [
-        "RES-MED-057"
-      ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
-      "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0004__SYNDROMES_CORONARIENS_SANS_SUS_DECALAGE_ST.md",
-      "mots": 7917,
-      "nb_sources": 6,
-      "nb_sources_verifiees": 5,
-      "nb_citations_distinctes": 6,
-      "a_verifier": 8,
-      "posologie_a_verifier": 1,
-      "erreur_yaml": null
-    },
-    {
-      "id": "DOS-CARD-0005",
-      "titre": "Endocardites infectieuses",
-      "specialite": "CARD",
-      "items_residanat": [
-        "RES-MED-053"
-      ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
-      "date_revision": "2026-11-19",
-      "chemin": "00_SYSTEME/sauvegardes/20261119/11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0005__ENDOCARDITES_INFECTIEUSES.md",
-      "mots": 10014,
-      "nb_sources": 8,
-      "nb_sources_verifiees": 7,
-      "nb_citations_distinctes": 8,
-      "a_verifier": 11,
-      "posologie_a_verifier": 1,
       "erreur_yaml": null
     },
     {
@@ -198,16 +160,16 @@
       "items_residanat": [
         "RES-MED-112"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0001__ANEMIES_DE_L_ADULTE_DIAGNOSTIC_ET_TRAITEMENT.md",
-      "mots": 10759,
-      "nb_sources": 11,
-      "nb_sources_verifiees": 9,
-      "nb_citations_distinctes": 11,
-      "a_verifier": 13,
-      "posologie_a_verifier": 6,
+      "mots": 11320,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 12,
+      "nb_citations_distinctes": 13,
+      "a_verifier": 12,
+      "posologie_a_verifier": 2,
       "erreur_yaml": null
     },
     {
@@ -217,16 +179,16 @@
       "items_residanat": [
         "RES-MED-113"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0002__PURPURA_THROMBOPENIQUE_IMMUNOLOGIQUE.md",
-      "mots": 7909,
-      "nb_sources": 7,
-      "nb_sources_verifiees": 6,
-      "nb_citations_distinctes": 7,
-      "a_verifier": 17,
-      "posologie_a_verifier": 6,
+      "mots": 8774,
+      "nb_sources": 9,
+      "nb_sources_verifiees": 9,
+      "nb_citations_distinctes": 9,
+      "a_verifier": 15,
+      "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
     {
@@ -236,16 +198,16 @@
       "items_residanat": [
         "RES-MED-114"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_valide",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0003__HEMOPHILIE_DIAGNOSTIC_TRAITEMENT_PREVENTION.md",
-      "mots": 8253,
-      "nb_sources": 7,
-      "nb_sources_verifiees": 5,
-      "nb_citations_distinctes": 7,
+      "mots": 8755,
+      "nb_sources": 8,
+      "nb_sources_verifiees": 8,
+      "nb_citations_distinctes": 8,
       "a_verifier": 10,
-      "posologie_a_verifier": 6,
+      "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
     {
@@ -255,16 +217,16 @@
       "items_residanat": [
         "RES-MED-115"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_valide",
+      "version": "1.1",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0004__MYELOME_MULTIPLE.md",
-      "mots": 8289,
-      "nb_sources": 12,
-      "nb_sources_verifiees": 9,
-      "nb_citations_distinctes": 12,
-      "a_verifier": 17,
-      "posologie_a_verifier": 3,
+      "mots": 8725,
+      "nb_sources": 16,
+      "nb_sources_verifiees": 16,
+      "nb_citations_distinctes": 16,
+      "a_verifier": 16,
+      "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
     {
@@ -274,16 +236,54 @@
       "items_residanat": [
         "RES-MED-117"
       ],
+      "statut": "audite_valide",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0005__LYMPHOME_DE_HODGKIN.md",
+      "mots": 7957,
+      "nb_sources": 10,
+      "nb_sources_verifiees": 10,
+      "nb_citations_distinctes": 10,
+      "a_verifier": 7,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-HEMA-0006",
+      "titre": "Transfusion de sang et dérivés : indications et accidents",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
       "statut": "brouillon_a_auditer",
       "version": "1.0",
       "date_revision": "2026-11-19",
-      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0005__LYMPHOME_DE_HODGKIN.md",
-      "mots": 7563,
-      "nb_sources": 10,
-      "nb_sources_verifiees": 9,
-      "nb_citations_distinctes": 10,
-      "a_verifier": 13,
+      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0006__TRANSFUSION_SANGUINE_INDICATIONS_ET_ACCIDENTS.md",
+      "mots": 9797,
+      "nb_sources": 17,
+      "nb_sources_verifiees": 17,
+      "nb_citations_distinctes": 17,
+      "a_verifier": 29,
       "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-HEMA-0007",
+      "titre": "Hémostase : physiologie, explorations et interprétation clinique",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEMA-0007__HEMOSTASE_PHYSIOLOGIE_EXPLORATIONS_INTERPRETATION.md",
+      "mots": 9607,
+      "nb_sources": 18,
+      "nb_sources_verifiees": 18,
+      "nb_citations_distinctes": 18,
+      "a_verifier": 1,
+      "posologie_a_verifier": 2,
       "erreur_yaml": null
     },
     {
@@ -294,16 +294,35 @@
         "RES-MED-101",
         "RES-MED-154"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/15_MINT_MEDECINE_INTERNE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT-0001__LUPUS_ERYTHEMATEUX_SYSTEMIQUE.md",
-      "mots": 9312,
-      "nb_sources": 17,
-      "nb_sources_verifiees": 17,
-      "nb_citations_distinctes": 17,
-      "a_verifier": 3,
-      "posologie_a_verifier": 4,
+      "mots": 10112,
+      "nb_sources": 22,
+      "nb_sources_verifiees": 21,
+      "nb_citations_distinctes": 22,
+      "a_verifier": 4,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-MINT-0002",
+      "titre": "Maladie de Behçet : diagnostic, formes cliniques et traitement",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-158"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/15_MINT_MEDECINE_INTERNE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT-0002__MALADIE_DE_BEHCET.md",
+      "mots": 8156,
+      "nb_sources": 16,
+      "nb_sources_verifiees": 14,
+      "nb_citations_distinctes": 16,
+      "a_verifier": 8,
+      "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
     {
@@ -390,10 +409,10 @@
         "RES-MED-019"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0001__HEPATITES_VIRALES_A_B_C.md",
-      "mots": 10399,
+      "mots": 10496,
       "nb_sources": 14,
       "nb_sources_verifiees": 12,
       "nb_citations_distinctes": 14,
@@ -408,16 +427,16 @@
       "items_residanat": [
         "RES-MED-020"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0002__CIRRHOSES.md",
-      "mots": 9464,
-      "nb_sources": 18,
-      "nb_sources_verifiees": 9,
-      "nb_citations_distinctes": 18,
-      "a_verifier": 15,
-      "posologie_a_verifier": 6,
+      "mots": 9916,
+      "nb_sources": 20,
+      "nb_sources_verifiees": 20,
+      "nb_citations_distinctes": 20,
+      "a_verifier": 16,
+      "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
     {
@@ -459,22 +478,41 @@
       "erreur_yaml": null
     },
     {
+      "id": "DOS-DERM-0001",
+      "titre": "Psoriasis : aspect typique, formes cliniques et traitement",
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-011"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/23_DERM_DERMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-DERM-0001__PSORIASIS.md",
+      "mots": 9013,
+      "nb_sources": 17,
+      "nb_sources_verifiees": 15,
+      "nb_citations_distinctes": 17,
+      "a_verifier": 7,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
       "id": "DOS-RHUM-0001",
       "titre": "Polyarthrite rhumatoïde de l'adulte : diagnostic et principes de traitement",
       "specialite": "RHUM",
       "items_residanat": [
         "RES-MED-099"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/24_RHUM_RHUMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-RHUM-0001__POLYARTHRITE_RHUMATOIDE_DE_L_ADULTE.md",
-      "mots": 10559,
-      "nb_sources": 13,
-      "nb_sources_verifiees": 13,
-      "nb_citations_distinctes": 13,
-      "a_verifier": 8,
-      "posologie_a_verifier": 5,
+      "mots": 11369,
+      "nb_sources": 17,
+      "nb_sources_verifiees": 14,
+      "nb_citations_distinctes": 17,
+      "a_verifier": 9,
+      "posologie_a_verifier": 2,
       "erreur_yaml": null
     },
     {
@@ -484,16 +522,16 @@
       "items_residanat": [
         "RES-MED-100"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/24_RHUM_RHUMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-RHUM-0002__PELVISPONDYLITE_RHUMATISMALE_SPONDYLOARTHRITE_AXIALE.md",
-      "mots": 8417,
-      "nb_sources": 12,
-      "nb_sources_verifiees": 12,
-      "nb_citations_distinctes": 12,
-      "a_verifier": 6,
-      "posologie_a_verifier": 4,
+      "mots": 9107,
+      "nb_sources": 17,
+      "nb_sources_verifiees": 15,
+      "nb_citations_distinctes": 17,
+      "a_verifier": 7,
+      "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
     {
@@ -504,13 +542,13 @@
         "RES-MED-084"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/25_ENDO_ENDOCRINOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-ENDO-0001__HYPERTHYROIDIES.md",
-      "mots": 10016,
-      "nb_sources": 12,
-      "nb_sources_verifiees": 12,
-      "nb_citations_distinctes": 12,
+      "mots": 10078,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 13,
+      "nb_citations_distinctes": 13,
       "a_verifier": 6,
       "posologie_a_verifier": 5,
       "erreur_yaml": null
@@ -542,10 +580,10 @@
         "RES-MED-092"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/26_DIAB_DIABETOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-DIAB-0002__COMPLICATIONS_AIGUES_DU_DIABETE_ACIDOCETOSE_HYPOGLYCEMIE_ETAT_HYPEROSMOLAIRE.md",
-      "mots": 10175,
+      "mots": 10389,
       "nb_sources": 11,
       "nb_sources_verifiees": 11,
       "nb_citations_distinctes": 11,
@@ -580,15 +618,148 @@
         "RES-MED-008"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0002__BRUCELLOSE.md",
-      "mots": 7414,
+      "mots": 7847,
+      "nb_sources": 12,
+      "nb_sources_verifiees": 11,
+      "nb_citations_distinctes": 12,
+      "a_verifier": 25,
+      "posologie_a_verifier": 4,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-INFE-0003",
+      "titre": "Fièvres typhoïde et paratyphoïdes : signes, diagnostic, traitement",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0003__FIEVRES_TYPHOIDE_ET_PARATYPHOIDES.md",
+      "mots": 8256,
+      "nb_sources": 10,
+      "nb_sources_verifiees": 7,
+      "nb_citations_distinctes": 10,
+      "a_verifier": 31,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-INFE-0004",
+      "titre": "Paludisme : parasitologie, étiologie, diagnostic, prévention, traitement",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0004__PALUDISME.md",
+      "mots": 9268,
+      "nb_sources": 8,
+      "nb_sources_verifiees": 5,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 30,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-INFE-0005",
+      "titre": "Infection à VIH : immunopathologie, diagnostic, évolution, complications, prévention, traitement",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0005__INFECTION_A_VIH.md",
+      "mots": 8801,
+      "nb_sources": 10,
+      "nb_sources_verifiees": 7,
+      "nb_citations_distinctes": 10,
+      "a_verifier": 41,
+      "posologie_a_verifier": 10,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-INFE-0006",
+      "titre": "États septicémiques (sepsis) : diagnostic, pronostic, traitement",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0006__ETATS_SEPTICEMIQUES_SEPSIS.md",
+      "mots": 7943,
       "nb_sources": 9,
       "nb_sources_verifiees": 8,
       "nb_citations_distinctes": 9,
-      "a_verifier": 26,
-      "posologie_a_verifier": 3,
+      "a_verifier": 28,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-INFE-0007",
+      "titre": "Rage : aspects cliniques, prévention, principes de traitement",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0007__RAGE.md",
+      "mots": 5955,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 5,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 16,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-GERI-0001",
+      "titre": "Les chutes et les troubles de l'équilibre du sujet âgé",
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/52_GERI_GERIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GERI-0001__CHUTES_ET_TROUBLES_DE_L_EQUILIBRE_DU_SUJET_AGE.md",
+      "mots": 7621,
+      "nb_sources": 18,
+      "nb_sources_verifiees": 12,
+      "nb_citations_distinctes": 18,
+      "a_verifier": 5,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-GERI-0002",
+      "titre": "Troubles confusionnels du sujet âgé : syndrome confusionnel aigu (delirium)",
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/52_GERI_GERIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GERI-0002__TROUBLES_CONFUSIONNELS_DU_SUJET_AGE_SYNDROME_CONFUSIONNEL_AIGU_DELIRIUM.md",
+      "mots": 7368,
+      "nb_sources": 16,
+      "nb_sources_verifiees": 7,
+      "nb_citations_distinctes": 16,
+      "a_verifier": 9,
+      "posologie_a_verifier": 4,
       "erreur_yaml": null
     },
     {
@@ -598,16 +769,16 @@
       "items_residanat": [
         "RES-CHI-012"
       ],
-      "statut": "brouillon_a_auditer",
-      "version": "1.0",
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
       "date_revision": "2026-11-19",
       "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0001__KYSTE_HYDATIQUE_DU_FOIE.md",
-      "mots": 8494,
-      "nb_sources": 11,
-      "nb_sources_verifiees": 5,
-      "nb_citations_distinctes": 11,
-      "a_verifier": 29,
-      "posologie_a_verifier": 1,
+      "mots": 9505,
+      "nb_sources": 12,
+      "nb_sources_verifiees": 10,
+      "nb_citations_distinctes": 12,
+      "a_verifier": 22,
+      "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
     {
@@ -617,16 +788,131 @@
       "items_residanat": [
         "RES-CHI-010"
       ],
+      "statut": "audite_valide",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0002__PANCREATITE_AIGUE.md",
+      "mots": 9129,
+      "nb_sources": 16,
+      "nb_sources_verifiees": 16,
+      "nb_citations_distinctes": 16,
+      "a_verifier": 15,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-UROL-0001",
+      "titre": "Lithiase urinaire : diagnostic et traitement (incluant la colique néphrétique compliquée)",
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023",
+        "RES-CHI-030"
+      ],
       "statut": "brouillon_a_auditer",
       "version": "1.0",
       "date_revision": "2026-11-19",
-      "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0002__PANCREATITE_AIGUE.md",
-      "mots": 8638,
+      "chemin": "08_CHIRURGIE/35_UROL_UROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-UROL-0001__LITHIASE_URINAIRE_DIAGNOSTIC_TRAITEMENT.md",
+      "mots": 10206,
+      "nb_sources": 21,
+      "nb_sources_verifiees": 21,
+      "nb_citations_distinctes": 21,
+      "a_verifier": 12,
+      "posologie_a_verifier": 4,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-UROL-0002",
+      "titre": "Adénome de la prostate (hypertrophie bénigne de la prostate) et symptômes du bas appareil urinaire de l'homme",
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "08_CHIRURGIE/35_UROL_UROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-UROL-0002__ADENOME_DE_LA_PROSTATE_HYPERTROPHIE_BENIGNE.md",
+      "mots": 8089,
       "nb_sources": 14,
-      "nb_sources_verifiees": 4,
+      "nb_sources_verifiees": 14,
       "nb_citations_distinctes": 14,
       "a_verifier": 16,
       "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-ORTH-0001",
+      "titre": "Ostéomyélite aiguë (hématogène de l'enfant surtout) : diagnostic et traitement",
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "08_CHIRURGIE/36_ORTH_ORTHOPEDIE/02_DOSSIERS_PEDAGOGIQUES/DOS-ORTH-0001__OSTEOMYELITE_AIGUE.md",
+      "mots": 8014,
+      "nb_sources": 11,
+      "nb_sources_verifiees": 11,
+      "nb_citations_distinctes": 11,
+      "a_verifier": 19,
+      "posologie_a_verifier": 7,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-TRAU-0001",
+      "titre": "Fractures du col du fémur : classification, diagnostic, traitement",
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "08_CHIRURGIE/37_TRAU_TRAUMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-TRAU-0001__FRACTURES_DU_COL_DU_FEMUR.md",
+      "mots": 8789,
+      "nb_sources": 19,
+      "nb_sources_verifiees": 17,
+      "nb_citations_distinctes": 19,
+      "a_verifier": 18,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-TRAU-0002",
+      "titre": "Fracture de l'extrémité inférieure du radius : anatomie pathologique, diagnostic, traitement",
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "08_CHIRURGIE/37_TRAU_TRAUMATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-TRAU-0002__FRACTURE_DE_L_EXTREMITE_INFERIEURE_DU_RADIUS.md",
+      "mots": 7554,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 11,
+      "nb_citations_distinctes": 13,
+      "a_verifier": 19,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-NCHI-0001",
+      "titre": "Traumatisme crânio-encéphalique : diagnostic, traitement",
+      "specialite": "NCHI",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "08_CHIRURGIE/38_NCHI_NEUROCHIRURGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NCHI-0001__TRAUMATISME_CRANIO_ENCEPHALIQUE.md",
+      "mots": 10809,
+      "nb_sources": 20,
+      "nb_sources_verifiees": 20,
+      "nb_citations_distinctes": 20,
+      "a_verifier": 11,
+      "posologie_a_verifier": 4,
       "erreur_yaml": null
     },
     {
@@ -637,10 +923,10 @@
         "RES-MED-074"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0001__DESHYDRATATIONS_AIGUES_DU_NOURRISSON.md",
-      "mots": 11625,
+      "mots": 11677,
       "nb_sources": 14,
       "nb_sources_verifiees": 6,
       "nb_citations_distinctes": 14,
@@ -656,14 +942,14 @@
         "RES-MED-070"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0002__VACCINATIONS_BASES_IMMUNOLOGIQUES_CONTRE_INDICATIONS_PEV.md",
-      "mots": 10961,
-      "nb_sources": 21,
-      "nb_sources_verifiees": 17,
-      "nb_citations_distinctes": 21,
-      "a_verifier": 30,
+      "mots": 11101,
+      "nb_sources": 22,
+      "nb_sources_verifiees": 18,
+      "nb_citations_distinctes": 22,
+      "a_verifier": 28,
       "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
@@ -675,10 +961,10 @@
         "RES-MED-067"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0003__MALNUTRITION_PROTEINO_CALORIQUE.md",
-      "mots": 10142,
+      "mots": 10272,
       "nb_sources": 14,
       "nb_sources_verifiees": 5,
       "nb_citations_distinctes": 14,
@@ -694,10 +980,10 @@
         "RES-MED-069"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0001__ICTERE_NEONATAL.md",
-      "mots": 8680,
+      "mots": 8710,
       "nb_sources": 13,
       "nb_sources_verifiees": 5,
       "nb_citations_distinctes": 13,
@@ -713,10 +999,10 @@
         "RES-MED-081"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0002__INFECTIONS_NEONATALES.md",
-      "mots": 8744,
+      "mots": 8826,
       "nb_sources": 16,
       "nb_sources_verifiees": 10,
       "nb_citations_distinctes": 16,
@@ -789,10 +1075,10 @@
         "RES-CHI-066"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/02_DOSSIERS_PEDAGOGIQUES/DOS-OBST-0001__PRE_ECLAMPSIE.md",
-      "mots": 10430,
+      "mots": 10463,
       "nb_sources": 14,
       "nb_sources_verifiees": 12,
       "nb_citations_distinctes": 14,
@@ -808,10 +1094,10 @@
         "RES-CHI-056"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/02_DOSSIERS_PEDAGOGIQUES/DOS-OBST-0002__HEMORRAGIE_DE_LA_DELIVRANCE.md",
-      "mots": 10972,
+      "mots": 11021,
       "nb_sources": 15,
       "nb_sources_verifiees": 15,
       "nb_citations_distinctes": 15,
@@ -903,15 +1189,110 @@
         "RES-MED-053"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0005__ENDOCARDITES_INFECTIEUSES.md",
-      "mots": 10449,
-      "nb_sources": 8,
-      "nb_sources_verifiees": 7,
-      "nb_citations_distinctes": 8,
+      "mots": 11018,
+      "nb_sources": 12,
+      "nb_sources_verifiees": 11,
+      "nb_citations_distinctes": 12,
       "a_verifier": 11,
-      "posologie_a_verifier": 1,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-CARD-0006",
+      "titre": "Embolie pulmonaire et thromboses veineuses",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-058"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0006__EMBOLIE_PULMONAIRE_ET_THROMBOSES_VEINEUSES.md",
+      "mots": 14012,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 10,
+      "nb_citations_distinctes": 13,
+      "a_verifier": 16,
+      "posologie_a_verifier": 5,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-CARD-0007",
+      "titre": "Les troubles du rythme cardiaque : fibrillation et flutter atriaux, tachycardies jonctionnelles, tachycardies ventriculaires, bradycardies et blocs",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-063"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0007__TROUBLES_DU_RYTHME.md",
+      "mots": 12007,
+      "nb_sources": 10,
+      "nb_sources_verifiees": 8,
+      "nb_citations_distinctes": 10,
+      "a_verifier": 8,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-CARD-0008",
+      "titre": "Péricardites aiguës : diagnostic, évolution, traitement (tamponnade, péricardite tuberculeuse, récidives)",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-054"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0008__PERICARDITES_AIGUES.md",
+      "mots": 9149,
+      "nb_sources": 10,
+      "nb_sources_verifiees": 7,
+      "nb_citations_distinctes": 10,
+      "a_verifier": 17,
+      "posologie_a_verifier": 5,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-CARD-0009",
+      "titre": "Angine de poitrine et syndrome coronarien chronique : épidémiologie, physiopathologie, diagnostic, évolution, traitement",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-055"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0009__ANGINE_DE_POITRINE_SYNDROME_CORONARIEN_CHRONIQUE.md",
+      "mots": 9318,
+      "nb_sources": 10,
+      "nb_sources_verifiees": 7,
+      "nb_citations_distinctes": 10,
+      "a_verifier": 16,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-CARD-0010",
+      "titre": "Rétrécissement aortique : physiopathologie, diagnostic, évolution, traitement (remplacement valvulaire chirurgical et TAVI)",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-052"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0010__RETRECISSEMENT_AORTIQUE.md",
+      "mots": 3550,
+      "nb_sources": 8,
+      "nb_sources_verifiees": 4,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 6,
+      "posologie_a_verifier": 0,
       "erreur_yaml": null
     },
     {
@@ -979,12 +1360,12 @@
         "RES-MED-106"
       ],
       "statut": "audite_corrections_requises",
-      "version": "1.1",
+      "version": "1.2",
       "date_revision": "2026-11-19",
       "chemin": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md",
-      "mots": 11007,
+      "mots": 11184,
       "nb_sources": 15,
-      "nb_sources_verifiees": 12,
+      "nb_sources_verifiees": 13,
       "nb_citations_distinctes": 15,
       "a_verifier": 11,
       "posologie_a_verifier": 2,
@@ -1008,7 +1389,996 @@
       "a_verifier": 7,
       "posologie_a_verifier": 2,
       "erreur_yaml": null
+    },
+    {
+      "id": "DOS-PSYC-0001",
+      "titre": "Schizophrénies : définition, étiopathogénie, diagnostic, évolution, traitement",
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/22_PSYC_PSYCHIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PSYC-0001__SCHIZOPHRENIES.md",
+      "mots": 11356,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 13,
+      "nb_citations_distinctes": 13,
+      "a_verifier": 2,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-PSYC-0002",
+      "titre": "Troubles de l'humeur : épisode dépressif caractérisé et trouble bipolaire — définition, étiologies, diagnostic, traitement",
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "statut": "audite_valide",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/22_PSYC_PSYCHIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PSYC-0002__TROUBLES_DE_L_HUMEUR.md",
+      "mots": 10820,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 13,
+      "nb_citations_distinctes": 13,
+      "a_verifier": 4,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-ORL-0001",
+      "titre": "Otite moyenne aiguë : définition, diagnostic, évolution, traitement",
+      "specialite": "ORL",
+      "items_residanat": [
+        "RES-CHI-044"
+      ],
+      "statut": "audite_valide",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/39_ORL_ORL/02_DOSSIERS_PEDAGOGIQUES/DOS-ORL-0001__OTITE_MOYENNE_AIGUE.md",
+      "mots": 9796,
+      "nb_sources": 12,
+      "nb_sources_verifiees": 12,
+      "nb_citations_distinctes": 12,
+      "a_verifier": 6,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-ORL-0002",
+      "titre": "Conduite à tenir devant une épistaxis",
+      "specialite": "ORL",
+      "items_residanat": [
+        "RES-CHI-046"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/39_ORL_ORL/02_DOSSIERS_PEDAGOGIQUES/DOS-ORL-0002__CONDUITE_A_TENIR_DEVANT_UNE_EPISTAXIS.md",
+      "mots": 9134,
+      "nb_sources": 9,
+      "nb_sources_verifiees": 9,
+      "nb_citations_distinctes": 9,
+      "a_verifier": 6,
+      "posologie_a_verifier": 4,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-ORL-0003",
+      "titre": "Cancer du cavum (carcinome du nasopharynx) : diagnostic, traitement",
+      "specialite": "ORL",
+      "items_residanat": [
+        "RES-CHI-049"
+      ],
+      "statut": "audite_corrections_requises",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/39_ORL_ORL/02_DOSSIERS_PEDAGOGIQUES/DOS-ORL-0003__CANCER_DU_CAVUM.md",
+      "mots": 8882,
+      "nb_sources": 16,
+      "nb_sources_verifiees": 16,
+      "nb_citations_distinctes": 16,
+      "a_verifier": 14,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-OPHT-0001",
+      "titre": "Glaucome par fermeture de l'angle : diagnostic, traitement",
+      "specialite": "OPHT",
+      "items_residanat": [
+        "RES-CHI-040"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/40_OPHT_OPHTALMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-OPHT-0001__GLAUCOME_PAR_FERMETURE_DE_L_ANGLE.md",
+      "mots": 8617,
+      "nb_sources": 8,
+      "nb_sources_verifiees": 8,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 7,
+      "posologie_a_verifier": 10,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-MLEG-0001",
+      "titre": "Le médecin et les blessures : classification, approche médico-légale, réflexes médico-légaux, certificat médical descriptif selon la loi relative à la santé, situations à déclaration obligatoire",
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "statut": "audite_valide",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/47_MLEG_MEDECINE_LEGALE/02_DOSSIERS_PEDAGOGIQUES/DOS-MLEG-0001__LE_MEDECIN_ET_LES_BLESSURES.md",
+      "mots": 10451,
+      "nb_sources": 18,
+      "nb_sources_verifiees": 17,
+      "nb_citations_distinctes": 18,
+      "a_verifier": 11,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-MLEG-0002",
+      "titre": "Responsabilité médicale : principes, responsabilités civile, administrative, pénale et disciplinaire",
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "statut": "audite_valide",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/47_MLEG_MEDECINE_LEGALE/02_DOSSIERS_PEDAGOGIQUES/DOS-MLEG-0002__RESPONSABILITE_MEDICALE.md",
+      "mots": 9328,
+      "nb_sources": 7,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 7,
+      "a_verifier": 9,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-MTRA-0001",
+      "titre": "Accidents du travail et maladies professionnelles : définitions, rôle du praticien",
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "statut": "audite_valide",
+      "version": "1.1",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/48_MTRA_MEDECINE_DU_TRAVAIL/02_DOSSIERS_PEDAGOGIQUES/DOS-MTRA-0001__ACCIDENTS_DU_TRAVAIL_ET_MALADIES_PROFESSIONNELLES.md",
+      "mots": 9473,
+      "nb_sources": 12,
+      "nb_sources_verifiees": 9,
+      "nb_citations_distinctes": 12,
+      "a_verifier": 9,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-SPUB-0001",
+      "titre": "Organisation sanitaire et fonctionnement du système de santé algérien",
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/49_SPUB_SANTE_PUBLIQUE/02_DOSSIERS_PEDAGOGIQUES/DOS-SPUB-0001__ORGANISATION_SANITAIRE_ET_FONCTIONNEMENT_DU_SYSTEME_DE_SANTE_ALGERIEN.md",
+      "mots": 8344,
+      "nb_sources": 23,
+      "nb_sources_verifiees": 21,
+      "nb_citations_distinctes": 23,
+      "a_verifier": 28,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-EPID-0001",
+      "titre": "Mesure de l'état de santé de la population : indicateurs de santé et mesures d'impact",
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/50_EPID_EPIDEMIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-EPID-0001__MESURE_DE_L_ETAT_DE_SANTE_INDICATEURS_MESURES_D_IMPACT.md",
+      "mots": 10636,
+      "nb_sources": 18,
+      "nb_sources_verifiees": 10,
+      "nb_citations_distinctes": 18,
+      "a_verifier": 5,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-EPID-0002",
+      "titre": "Les enquêtes épidémiologiques : cas-témoins, cohortes exposés/non-exposés, transversales",
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "15_AUTRES_SPECIALITES/50_EPID_EPIDEMIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-EPID-0002__ENQUETES_EPIDEMIOLOGIQUES_CAS_TEMOINS_COHORTES_TRANSVERSALES.md",
+      "mots": 8329,
+      "nb_sources": 17,
+      "nb_sources_verifiees": 5,
+      "nb_citations_distinctes": 17,
+      "a_verifier": 3,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
     }
   ],
-  "fiches": []
+  "fiches": [
+    {
+      "id": "FIC-HEMA-0001",
+      "titre": "Fiche — Anémies de l'adulte : diagnostic et traitement",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0001__ANEMIES_DE_L_ADULTE_DIAGNOSTIC_ET_TRAITEMENT.md",
+      "mots": 2035,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 11,
+      "a_verifier": 3,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-HEMA-0002",
+      "titre": "Fiche — Purpura thrombopénique immunologique",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0002__PURPURA_THROMBOPENIQUE_IMMUNOLOGIQUE.md",
+      "mots": 1818,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 9,
+      "a_verifier": 6,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-HEMA-0003",
+      "titre": "Fiche — Hémophilie : diagnostic, traitement, prévention",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0003__HEMOPHILIE_DIAGNOSTIC_TRAITEMENT_PREVENTION.md",
+      "mots": 2050,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 5,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-HEMA-0004",
+      "titre": "Fiche — Myélome multiple",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0004__MYELOME_MULTIPLE.md",
+      "mots": 2020,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 12,
+      "a_verifier": 5,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-HEMA-0005",
+      "titre": "Fiche — Lymphome de Hodgkin",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0005__LYMPHOME_DE_HODGKIN.md",
+      "mots": 1989,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 9,
+      "a_verifier": 3,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-PNEU-0001",
+      "titre": "Fiche — Tuberculose pulmonaire et programme national algérien",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/03_FICHES_REVISION/FIC-PNEU-0001__TUBERCULOSE_PULMONAIRE_PROGRAMME_NATIONAL.md",
+      "mots": 1585,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 3,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-PNEU-0002",
+      "titre": "Fiche — Pneumonies : diagnostic et traitement",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/03_FICHES_REVISION/FIC-PNEU-0002__PNEUMONIES_DIAGNOSTIC_TRAITEMENT.md",
+      "mots": 1464,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 4,
+      "posologie_a_verifier": 5,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-PNEU-0003",
+      "titre": "Fiche — Asthme de l'adulte et de l'enfant",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/03_FICHES_REVISION/FIC-PNEU-0003__ASTHME_ADULTE_ENFANT.md",
+      "mots": 1518,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 5,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 0,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-GAST-0001",
+      "titre": "Fiche — Hémorragies digestives",
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/03_FICHES_REVISION/FIC-GAST-0001__HEMORRAGIES_DIGESTIVES.md",
+      "mots": 1465,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 2,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-HEPA-0001",
+      "titre": "Fiche — Hépatites virales A, B, C",
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/03_FICHES_REVISION/FIC-HEPA-0001__HEPATITES_VIRALES_A_B_C.md",
+      "mots": 1621,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 3,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-HEPA-0002",
+      "titre": "Fiche — Cirrhoses",
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/03_FICHES_REVISION/FIC-HEPA-0002__CIRRHOSES.md",
+      "mots": 1554,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 4,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-NEPH-0001",
+      "titre": "Fiche — Insuffisance rénale aiguë",
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/03_FICHES_REVISION/FIC-NEPH-0001__INSUFFISANCE_RENALE_AIGUE.md",
+      "mots": 1569,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 1,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-NEPH-0002",
+      "titre": "Fiche — Dyskaliémies (hyperkaliémies et hypokaliémies)",
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/03_FICHES_REVISION/FIC-NEPH-0002__DYSKALIEMIES.md",
+      "mots": 1511,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 2,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-ENDO-0001",
+      "titre": "Fiche — Hyperthyroïdies",
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/25_ENDO_ENDOCRINOLOGIE/03_FICHES_REVISION/FIC-ENDO-0001__HYPERTHYROIDIES.md",
+      "mots": 1644,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 1,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-DIAB-0001",
+      "titre": "Fiche — Diabète sucré : classification, insulinothérapie, complications dégénératives, traitement du DT2",
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/26_DIAB_DIABETOLOGIE/03_FICHES_REVISION/FIC-DIAB-0001__DIABETE_SUCRE_INSULINOTHERAPIE_DT2.md",
+      "mots": 1701,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 0,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-DIAB-0002",
+      "titre": "Fiche — Complications aiguës du diabète : acidocétose, hypoglycémie, état hyperosmolaire",
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/26_DIAB_DIABETOLOGIE/03_FICHES_REVISION/FIC-DIAB-0002__COMPLICATIONS_AIGUES_DU_DIABETE.md",
+      "mots": 1726,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 0,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-INFE-0001",
+      "titre": "Fiche — Méningites purulentes",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/03_FICHES_REVISION/FIC-INFE-0001__MENINGITES_PURULENTES.md",
+      "mots": 1542,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 5,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-INFE-0002",
+      "titre": "Fiche — Brucellose",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/03_FICHES_REVISION/FIC-INFE-0002__BRUCELLOSE.md",
+      "mots": 1411,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 6,
+      "posologie_a_verifier": 5,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-CDIG-0001",
+      "titre": "Fiche — Kyste hydatique du foie",
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/03_FICHES_REVISION/FIC-CDIG-0001__KYSTE_HYDATIQUE_DU_FOIE.md",
+      "mots": 1439,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 5,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 0,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-CDIG-0002",
+      "titre": "Fiche — Pancréatite aiguë",
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/03_FICHES_REVISION/FIC-CDIG-0002__PANCREATITE_AIGUE.md",
+      "mots": 1370,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 2,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-PEDI-0001",
+      "titre": "Fiche — Déshydratations aiguës du nourrisson",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0001__DESHYDRATATIONS_AIGUES_DU_NOURRISSON.md",
+      "mots": 1872,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 5,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 5,
+      "posologie_a_verifier": 5,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-PEDI-0002",
+      "titre": "Fiche — Vaccinations : bases immunologiques, contre-indications, PEV algérien",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0002__VACCINATIONS_BASES_IMMUNOLOGIQUES_CONTRE_INDICATIONS_PEV.md",
+      "mots": 2042,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 7,
+      "a_verifier": 4,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-PEDI-0003",
+      "titre": "Fiche — Malnutrition protéino-calorique de l'enfant",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0003__MALNUTRITION_PROTEINO_CALORIQUE.md",
+      "mots": 1999,
+      "nb_sources": 5,
+      "nb_sources_verifiees": 4,
+      "nb_citations_distinctes": 5,
+      "a_verifier": 1,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-NEON-0001",
+      "titre": "Fiche — Ictère néonatal",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/03_FICHES_REVISION/FIC-NEON-0001__ICTERE_NEONATAL.md",
+      "mots": 1731,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 3,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 4,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-NEON-0002",
+      "titre": "Fiche — Infections néonatales",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/03_FICHES_REVISION/FIC-NEON-0002__INFECTIONS_NEONATALES.md",
+      "mots": 1845,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 5,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 8,
+      "posologie_a_verifier": 5,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-GYNE-0001",
+      "titre": "Fiche — Grossesse extra-utérine",
+      "specialite": "GYNE",
+      "items_residanat": [
+        "RES-CHI-057"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/03_FICHES_REVISION/FIC-GYNE-0001__GROSSESSE_EXTRA_UTERINE.md",
+      "mots": 1866,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 7,
+      "a_verifier": 6,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-GYNE-0002",
+      "titre": "Fiche — Cancer du col de l'utérus",
+      "specialite": "GYNE",
+      "items_residanat": [
+        "RES-CHI-058"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/03_FICHES_REVISION/FIC-GYNE-0002__CANCER_DU_COL_DE_L_UTERUS.md",
+      "mots": 1954,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 5,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-GYNE-0003",
+      "titre": "Fiche — Tumeurs du sein",
+      "specialite": "GYNE",
+      "items_residanat": [
+        "RES-CHI-062"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/03_FICHES_REVISION/FIC-GYNE-0003__TUMEURS_DU_SEIN.md",
+      "mots": 1859,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 6,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-OBST-0001",
+      "titre": "Fiche — Pré-éclampsie : diagnostic et prise en charge",
+      "specialite": "OBST",
+      "items_residanat": [
+        "RES-CHI-066"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/03_FICHES_REVISION/FIC-OBST-0001__PRE_ECLAMPSIE.md",
+      "mots": 2107,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 10,
+      "a_verifier": 5,
+      "posologie_a_verifier": 4,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-OBST-0002",
+      "titre": "Fiche — Hémorragie de la délivrance (hémorragie du post-partum)",
+      "specialite": "OBST",
+      "items_residanat": [
+        "RES-CHI-056"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/03_FICHES_REVISION/FIC-OBST-0002__HEMORRAGIE_DE_LA_DELIVRANCE.md",
+      "mots": 1832,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 4,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-CARD-0001",
+      "titre": "Fiche — Insuffisance cardiaque aiguë et chronique",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0001__INSUFFISANCE_CARDIAQUE.md",
+      "mots": 1763,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 1,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-CARD-0002",
+      "titre": "Fiche — Hypertension artérielle",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0002__HYPERTENSION_ARTERIELLE.md",
+      "mots": 1569,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 0,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-CARD-0003",
+      "titre": "Fiche — Infarctus du myocarde (SCA avec sus-décalage du ST)",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0003__INFARCTUS_DU_MYOCARDE_SCA_ST_PLUS.md",
+      "mots": 1515,
+      "nb_sources": 5,
+      "nb_sources_verifiees": 5,
+      "nb_citations_distinctes": 5,
+      "a_verifier": 0,
+      "posologie_a_verifier": 0,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-CARD-0004",
+      "titre": "Fiche — Syndromes coronariens aigus sans sus-décalage du ST",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0004__SYNDROMES_CORONARIENS_SANS_SUS_DECALAGE_ST.md",
+      "mots": 1431,
+      "nb_sources": 4,
+      "nb_sources_verifiees": 4,
+      "nb_citations_distinctes": 4,
+      "a_verifier": 0,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-CARD-0005",
+      "titre": "Fiche — Endocardites infectieuses",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/03_FICHES_REVISION/FIC-CARD-0005__ENDOCARDITES_INFECTIEUSES.md",
+      "mots": 1634,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 6,
+      "a_verifier": 0,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-NEUR-0001",
+      "titre": "Fiche — Accidents vasculaires cérébraux",
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "12_NEUROLOGIE/21_NEUR_NEUROLOGIE/03_FICHES_REVISION/FIC-NEUR-0001__ACCIDENTS_VASCULAIRES_CEREBRAUX.md",
+      "mots": 1856,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 7,
+      "a_verifier": 5,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-URGE-0001",
+      "titre": "Fiche — Conduite à tenir devant une intoxication aiguë",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/03_FICHES_REVISION/FIC-URGE-0001__CONDUITE_A_TENIR_DEVANT_UNE_INTOXICATION_AIGUE.md",
+      "mots": 1872,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 10,
+      "a_verifier": 7,
+      "posologie_a_verifier": 9,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-URGE-0002",
+      "titre": "Fiche — Morsures et envenimations",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/03_FICHES_REVISION/FIC-URGE-0002__MORSURES_ET_ENVENIMATIONS.md",
+      "mots": 1894,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 9,
+      "a_verifier": 10,
+      "posologie_a_verifier": 4,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-MINT_REA-0001",
+      "titre": "Fiche — États de choc (hypovolémique, cardiogénique, septique, anaphylactique)",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/03_FICHES_REVISION/FIC-MINT_REA-0001__ETATS_DE_CHOC.md",
+      "mots": 1793,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 7,
+      "a_verifier": 5,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "FIC-MINT_REA-0002",
+      "titre": "Fiche — Comas : étiologies, physiopathologie, conduite à tenir",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "",
+      "date_revision": "2026-11-19",
+      "chemin": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/03_FICHES_REVISION/FIC-MINT_REA-0002__COMAS.md",
+      "mots": 1877,
+      "nb_sources": 6,
+      "nb_sources_verifiees": 6,
+      "nb_citations_distinctes": 9,
+      "a_verifier": 3,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    }
+  ]
 }

@@ -6,14 +6,20 @@ sous_specialite: "Glaucome — urgences ophtalmologiques"
 items_residanat: [RES-CHI-040]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 10
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-OPHT-0001.md
 sources:
   - id: S1
-    reference: "European Glaucoma Society. Terminology and Guidelines for Glaucoma, 6th Edition (Pazos M, Traverso CE, Viswanathan A, et al.). Br J Ophthalmol. 2025;109(Suppl 1):1-212 (existence et métadonnées vérifiées ; texte intégral non consulté pendant la session)."
+    reference: "European Glaucoma Society. Terminology and Guidelines for Glaucoma, 6th Edition (Pazos M, Traverso CE, Viswanathan A, et al.). Br J Ophthalmol. 2025;109(Suppl 1):1-212 (PMID 41026937 ; existence et métadonnées vérifiées ; texte intégral non consulté)."
     organisme: EGS
     annee: 2025
     type: recommandation
@@ -76,13 +82,21 @@ sources:
     doi: "10.1136/bjo.86.2.238"
     url: ""
     verifiee: true
+  - id: S9
+    reference: "European Glaucoma Society. Terminology and Guidelines for Glaucoma, 4th Edition — Chapter 2: Classification and terminology (Br J Ophthalmol. 2017;101(5):73-127, PMC5583685) et Chapter 3: Treatment principles and options (Br J Ophthalmol. 2017;101(6):130-195, PMC5583689). Édition remplacée par les 5e et 6e éditions ; textes intégraux lus par l'audit (accès libre)."
+    organisme: EGS
+    annee: 2017
+    type: recommandation
+    doi: "10.1136/bjophthalmol-2016-EGSguideline.002"
+    url: ""
+    verifiee: true
 mots_cles: [glaucome par fermeture de l'angle, crise aiguë de fermeture de l'angle, bloc pupillaire, iris plateau, gonioscopie, pression intraoculaire, iridotomie périphérique au laser, extraction du cristallin, acétazolamide, mannitol, pilocarpine, topiramate, œil rouge douloureux]
 ---
 
 # Glaucome par fermeture de l'angle : diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-040 — « Glaucome par fermeture de l'angle : Diagnostic - traitement » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -106,7 +120,7 @@ Le **glaucome** est une **neuropathie optique progressive** caractérisée par u
 
 | Stade | Contact iridotrabéculaire (CIT) | PIO / synéchies antérieures périphériques (SAP) | Neuropathie optique glaucomateuse |
 |---|---|---|---|
-| **Suspect de fermeture primitive de l'angle (SFPA, *PACS*)** | Présent sur **≥ 180°** à la gonioscopie | PIO normale, **pas** de SAP | Non |
+| **Suspect de fermeture primitive de l'angle (SFPA, *PACS*)** | Présent sur **≥ 180°** (au moins deux quadrants) à la gonioscopie [S9] | PIO normale, **pas** de SAP | Non |
 | **Fermeture primitive de l'angle (FPA, *PAC*)** | Présent | **PIO élevée et/ou SAP** | Non |
 | **Glaucome primitif par fermeture de l'angle (GPFA, *PACG*)** | Présent | PIO élevée et/ou SAP (habituels) | **Oui** (papille et/ou champ visuel) |
 | **Crise aiguë de fermeture de l'angle (CAFA, *acute angle closure*)** | Fermeture brutale, circonférentielle | **PIO très élevée** brutale | Possible, d'emblée ou secondairement |
@@ -319,14 +333,14 @@ Le diagnostic de crise aiguë est **clinique** et **tonométrique** ; il ne doit
 
 | Classe | Molécule (exemples) | Mode d'action | Posologie indicative | Principales contre-indications / précautions |
 |---|---|---|---|---|
-| **Inhibiteur de l'anhydrase carbonique (IAC) systémique** | **Acétazolamide** | Diminue la sécrétion d'humeur aqueuse | Adulte : 500 mg IV (ou per os), puis relais per os selon la PIO [POSOLOGIE À VÉRIFIER — RCP / protocole local] | **Allergie aux sulfamides**, insuffisance rénale ou hépatique sévère, **hypokaliémie**, acidose ; supplémentation potassique ; paresthésies, lithiase, rares toxicités hématologiques et cutanées graves ; prudence chez le drépanocytaire |
-| **Agent hyperosmotique** | **Mannitol 20 %** IV ; glycérol per os | Déshydrate le vitré, diminue le volume intraoculaire | Mannitol : 1 à 2 g/kg en perfusion de 30 à 45 min selon les protocoles [POSOLOGIE À VÉRIFIER — RCP / protocole local] | **Insuffisance cardiaque**, œdème pulmonaire, insuffisance rénale ; surveillance de la diurèse, de la volémie et de l'état de conscience chez le sujet âgé ; glycérol déconseillé chez le diabétique |
-| **Bêtabloquant topique** | Timolol 0,25-0,5 % | Diminue la sécrétion | 1 goutte [POSOLOGIE À VÉRIFIER — RCP] | **Asthme, BPCO sévère**, bradycardie, blocs auriculo-ventriculaires, insuffisance cardiaque décompensée |
-| **Agoniste α2-adrénergique topique** | Apraclonidine, brimonidine | Diminue la sécrétion (± augmente l'évacuation uvéosclérale) | 1 goutte [POSOLOGIE À VÉRIFIER — RCP] | Brimonidine contre-indiquée chez le **jeune enfant** ; IMAO |
-| **IAC topique** | Dorzolamide, brinzolamide | Diminue la sécrétion | [POSOLOGIE À VÉRIFIER — RCP] | Allergie aux sulfamides |
-| **Myotique** | **Pilocarpine 1-2 %** | Contraction du sphincter irien → **ouvre l'angle** (bloc pupillaire primitif) | Après une première baisse de la PIO [POSOLOGIE À VÉRIFIER — RCP / protocole local] | **Inefficace quand la PIO est très élevée** (sphincter ischémique) ; **contre-indiquée** dans le glaucome malin, les fermetures par effusion (topiramate) et à manier avec prudence dans les formes cristalliniennes ; uvéite |
-| **Analogue des prostaglandines** | Latanoprost… | Augmente l'évacuation uvéosclérale | [POSOLOGIE À VÉRIFIER — RCP] | Utilisable en complément selon les protocoles |
-| **Corticoïde topique** | Dexaméthasone collyre | Anti-inflammatoire | [POSOLOGIE À VÉRIFIER — RCP] | Réduit l'inflammation après la crise et après laser |
+| **Inhibiteur de l'anhydrase carbonique (IAC) systémique** | **Acétazolamide** | Diminue la sécrétion d'humeur aqueuse | **10 mg/kg IV ou per os** (EGS) [S9] ; relais per os et durée selon la PIO et le RCP | **Allergie aux sulfamides**, insuffisance rénale ou hépatique sévère, **hypokaliémie**, acidose ; supplémentation potassique ; paresthésies, lithiase, rares toxicités hématologiques et cutanées graves ; prudence chez le drépanocytaire |
+| **Agent hyperosmotique** | **Mannitol 20 %** IV ; glycérol per os | Déshydrate le vitré, diminue le volume intraoculaire | **Mannitol 1,0 à 1,5 g/kg IV** (soit 5 à 7,5 mL/kg de mannitol 20 %) ; **glycérol 1,0 à 1,5 g/kg per os** [S9] ; durée de perfusion selon le RCP ; à réserver à une PIO restant très élevée malgré le traitement initial | **Insuffisance cardiaque**, œdème pulmonaire, insuffisance rénale ; surveillance de la diurèse, de la volémie et de l'état de conscience chez le sujet âgé ; glycérol déconseillé chez le diabétique |
+| **Bêtabloquant topique** | Timolol 0,25-0,5 % | Diminue la sécrétion | 1 goutte dans l'œil atteint (les traitements médicaux sont instaurés simultanément [S9]) ; rythme d'entretien selon le RCP | **Asthme, antécédent de BPCO**, bradycardie sinusale (< 60/min), bloc cardiaque, insuffisance cardiaque [S9] |
+| **Agoniste α2-adrénergique topique** | Apraclonidine 0,5-1 %, brimonidine 0,2 % | Diminue la sécrétion (± augmente l'évacuation uvéosclérale) | 1 goutte dans l'œil atteint [S9] ; rythme d'entretien selon le RCP | **Âge pédiatrique**, adulte de très faible poids, traitement par **IMAO** [S9] |
+| **IAC topique** | Dorzolamide, brinzolamide | Diminue la sécrétion | Appoint seulement : l'EGS souligne que les IAC topiques ne sont **pas assez puissants pour lever le bloc pupillaire** [S9] ; rythme selon le RCP | Allergie aux sulfamides |
+| **Myotique** | **Pilocarpine 1-2 %** | Contraction du sphincter irien → **ouvre l'angle** (bloc pupillaire primitif) | **1 goutte 2 ou 3 fois en 1 heure** (EGS) ; les instillations répétées sont inutiles tant que le sphincter est ischémique (risque d'effets systémiques et d'aggravation du bloc) : la myose n'est obtenue qu'après une première baisse de la PIO [S9] | **Inefficace quand la PIO est très élevée** (sphincter ischémique) ; **contre-indiquée** dans le glaucome malin, les fermetures par effusion (topiramate) et à manier avec prudence dans les formes cristalliniennes ; uvéite |
+| **Analogue des prostaglandines** | Latanoprost… | Augmente l'évacuation uvéosclérale | Non retenu dans le schéma EGS de la crise aiguë [S9] ; 1 goutte le soir selon le RCP en traitement de fond | Utilisable en complément selon les protocoles |
+| **Corticoïde topique** | Dexaméthasone collyre | Anti-inflammatoire | **1 goutte toutes les 5 minutes, 3 fois, puis 4 à 6 fois par jour** selon la durée de l'hypertonie et l'inflammation [S9] | Réduit l'inflammation après la crise et après laser |
 | **Traitements associés** | Antalgiques, antiémétiques ; position allongée sur le dos | Confort ; baisse de la PIO | — | — |
 
 **Médicaments à proscrire** pendant la crise : **mydriatiques** (sauf cycloplégie dans les formes secondaires spécifiques : topiramate, glaucome malin), anticholinergiques et sympathomimétiques à visée générale si une alternative existe.
@@ -358,7 +372,7 @@ Le diagnostic de crise aiguë est **clinique** et **tonométrique** ; il ne doit
 ├─ 1. BAISSER LA PIO (première heure)
 │     ├─ Acétazolamide IV (ou per os) — vérifier kaliémie, fonction rénale, allergie
 │     ├─ Collyres : bêtabloquant (si pas de CI respiratoire/cardiaque), α2-agoniste,
-│     │   ± IAC topique ; corticoïde topique
+│     │   corticoïde topique (± IAC topique, insuffisant seul pour lever le bloc)
 │     ├─ Si PIO toujours très élevée : MANNITOL IV (si pas d'insuffisance cardiaque/rénale)
 │     └─ Antalgiques, antiémétiques
 │
@@ -504,7 +518,7 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 
 **Diagnostic final.** Crise aiguë de fermeture primitive de l'angle de l'œil gauche, déclenchée par des nébulisations d'anticholinergique et de β2-mimétique chez un hypermétrope ; angle étroit controlatéral (suspect de fermeture).
 
-**Traitement.** Arrêt de l'ipratropium nébulisé (avis du pneumologue ; adaptation du traitement bronchodilatateur, embout buccal plutôt que masque facial). Acétazolamide IV puis per os avec supplémentation potassique [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Collyres hypotonisants en évitant les bêtabloquants (BPCO sévère) : α2-agoniste et inhibiteur topique de l'anhydrase carbonique ; corticoïde topique. Pilocarpine 1-2 % une fois la PIO en baisse. Mannitol réservé à une PIO restant très élevée, en l'absence de contre-indication. Iridotomie au laser Nd:YAG de l'œil gauche à 48 heures (cornée éclaircie) et de l'œil droit préventivement le même jour. Antalgiques et antiémétiques.
+**Traitement.** Arrêt de l'ipratropium nébulisé (avis du pneumologue ; adaptation du traitement bronchodilatateur, embout buccal plutôt que masque facial). Acétazolamide 10 mg/kg IV puis relais per os, avec supplémentation potassique [S9]. Collyres hypotonisants en évitant les bêtabloquants (BPCO sévère) : α2-agoniste et inhibiteur topique de l'anhydrase carbonique ; corticoïde topique. Pilocarpine 1-2 % une fois la PIO en baisse. Mannitol réservé à une PIO restant très élevée, en l'absence de contre-indication. Iridotomie au laser Nd:YAG de l'œil gauche à 48 heures (cornée éclaircie) et de l'œil droit préventivement le même jour. Antalgiques et antiémétiques.
 
 **Surveillance.** PIO horaire initialement, kaliémie, tolérance respiratoire ; après laser : PIO à 1 heure, inflammation, perméabilité des iridotomies, gonioscopie ; fond d'œil, OCT et champ visuel à 1 mois ; suivi au long cours (épaississement du cristallin).
 
@@ -720,7 +734,7 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 | Crise aiguë | Traitement médical puis iridotomie bilatérale | Idem ; extraction du cristallin envisageable | Convergence |
 | Imagerie de l'angle | Complète la gonioscopie, ne la remplace pas | Idem | Convergence |
 
-**Divergences d'usage sur les posologies** : les doses d'acétazolamide et de mannitol varient selon les protocoles et les RCP nationaux ; aucune posologie n'a été tirée d'un texte de recommandation lu pendant la session, d'où les mentions `[POSOLOGIE À VÉRIFIER]`.
+**Divergences d'usage sur les posologies** : les doses d'urgence retenues dans ce dossier sont celles de l'EGS 4e édition (2017), lue en texte intégral par l'audit : acétazolamide 10 mg/kg IV ou per os, mannitol 1,0-1,5 g/kg IV, glycérol 1,0-1,5 g/kg per os, pilocarpine 1-2 % 2 à 3 fois en 1 heure [S9]. Certains manuels citent des doses de mannitol plus élevées (jusqu'à 2 g/kg) ; elles n'ont pas été retenues faute de source vérifiée. Les 5e et 6e éditions [S1, S2] n'ont pas été relues sur ce point **[À VÉRIFIER]**.
 
 **Contexte algérien** : en l'absence de recommandation nationale identifiée, les recommandations européennes (EGS) sont la référence la plus proche des pratiques locales ; l'accès au laser YAG et à la chirurgie du cristallin conditionne le choix entre iridotomie et extraction du cristallin. **[À VÉRIFIER — recommandations de la Société algérienne d'ophtalmologie]**.
 
@@ -734,5 +748,6 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 6. **[S6]** He M, Jiang Y, Huang S, et al. Laser peripheral iridotomy for the prevention of angle closure: a single-centre, randomised controlled trial. Lancet. 2019;393(10181):1609-1618. doi:10.1016/S0140-6736(18)32607-2.
 7. **[S7]** Tham YC, Li X, Wong TY, Quigley HA, Aung T, Cheng CY. Global prevalence of glaucoma and projections of glaucoma burden through 2040. Ophthalmology. 2014;121(11):2081-2090. doi:10.1016/j.ophtha.2014.05.013.
 8. **[S8]** Foster PJ, Buhrmann R, Quigley HA, Johnson GJ. The definition and classification of glaucoma in prevalence surveys. Br J Ophthalmol. 2002;86(2):238-242. doi:10.1136/bjo.86.2.238.
+9. **[S9]** European Glaucoma Society. Terminology and Guidelines for Glaucoma, 4th Edition — Chapter 2: Classification and terminology. Br J Ophthalmol. 2017;101(5):73-127 ; Chapter 3: Treatment principles and options. Br J Ophthalmol. 2017;101(6):130-195 (édition remplacée ; doses d'urgence de la crise aiguë et tableaux des contre-indications).
 
-*Vérification : toutes les références ont été contrôlées dans Europe PMC (titre, revue, année, DOI) le 2026-11-19 ; les résumés de S5, S6 et S7 ont été lus ; les textes intégraux des recommandations EGS et AAO n'ont pas été consultés (accès bloqué).*
+*Vérification : toutes les références ont été contrôlées dans Europe PMC (titre, revue, année, DOI) le 2026-11-19 ; les résumés de S5, S6 et S7 ont été lus ; les textes intégraux des recommandations EGS 5e/6e éditions et AAO n'ont pas été consultés (accès bloqué) ; l'EGS 4e édition [S9] a été lue en texte intégral par l'audit.*

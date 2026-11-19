@@ -6,11 +6,17 @@ sous_specialite: "Antalgiques non opioïdes, opioïdes et co-antalgiques"
 items_residanat: [RES-MED-168]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-14 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auteur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0004.md
 sources:
   - id: S1
     reference: "World Health Organization. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents. Geneva: WHO; 2018 (dont annexe 6 : profils pharmacologiques et tables de conversion des opioïdes)."
@@ -107,6 +113,14 @@ sources:
     type: recommandation
     doi: ""
     url: ""
+    verifiee: true
+  - id: S13
+    reference: "Haute Autorité de santé (HAS). Prise en charge médicamenteuse de la douleur chez l'enfant : alternatives à la codéine. Fiche mémo, janvier 2016 (validée le 13 janvier 2016)."
+    organisme: HAS
+    annee: 2016
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/jcms/c_2010340/fr/prise-en-charge-medicamenteuse-de-la-douleur-chez-l-enfant-alternatives-a-la-codeine"
     verifiee: true
 mots_cles: [antalgiques, paliers OMS, paracétamol, AINS, opioïdes, morphine, codéine, tramadol, équianalgésie, rotation des opioïdes, douleur neuropathique, naloxone]
 ---
@@ -294,8 +308,13 @@ mots_cles: [antalgiques, paliers OMS, paracétamol, AINS, opioïdes, morphine, c
 
 ### 10.1 Enfant
 
-- **Paracétamol** et **ibuprofène** (pas avant 3 mois selon la liste OMS) sont les antalgiques de base [S2].
-- **Codéine** : toxicité grave et décès décrits chez des enfants métaboliseurs ultrarapides, en particulier après amygdalectomie ; son usage est restreint ou contre-indiqué chez le jeune enfant dans de nombreux pays `[À VÉRIFIER — décision des autorités nationales]` ; le CPIC recommande de l'éviter chez les métaboliseurs ultrarapides et lents [S7]. Compte tenu de la fréquence élevée des métaboliseurs ultrarapides en Afrique du Nord (16–28 %) [S1], la prudence s'impose particulièrement en Algérie.
+- **Paracétamol** et **ibuprofène** (pas avant 3 mois selon la liste OMS) sont les antalgiques de base [S2] ; en cas d'efficacité insuffisante de l'un d'eux, leur **association** (et non leur alternance) est recommandée [S13].
+- **Posologies pédiatriques usuelles (HAS 2016)** [S13] :
+  - paracétamol : **60 mg/kg/j en 4 prises** (soit 15 mg/kg toutes les 6 h ; maximum 80 mg/kg/j), dès la naissance ;
+  - ibuprofène : **20 à 30 mg/kg/j en 3 ou 4 prises** (maximum 400 mg par prise), à partir de 3 mois, durée courte (48–72 h) ; à éviter en cas de varicelle, de déshydratation (corriger d'abord) ou d'infection bactérienne sévère ;
+  - tramadol (à partir de 3 ans, en alternative à la codéine) : 1 (à 2) mg/kg/prise toutes les 6 à 8 h, maximum 100 mg par prise et 400 mg/j ;
+  - morphine orale (enfant naïf) : **0,2 mg/kg/prise, 6 fois par jour** (maximum 20 mg par prise), **0,1 mg/kg/prise avant 1 an** ; dose de charge de 0,4 à 0,5 mg/kg (maximum 20 mg) si douleur très intense ; surveillance par un soignant pendant 1 heure après la première prise.
+- **Codéine** : toxicité grave et décès décrits chez des enfants métaboliseurs ultrarapides, en particulier après amygdalectomie ; en France, l'ANSM a recommandé en avril 2013 de **ne plus l'utiliser avant 12 ans**, ni **après amygdalectomie ou adénoïdectomie**, ni chez la **femme qui allaite**, et de ne l'utiliser après 12 ans qu'après échec du paracétamol et/ou d'un AINS [S13] ; statut réglementaire en Algérie non vérifié `[À VÉRIFIER — décision de l'autorité algérienne]` ; le CPIC recommande de l'éviter chez les métaboliseurs ultrarapides et lents [S7]. Compte tenu de la fréquence élevée des métaboliseurs ultrarapides en Afrique du Nord (16–28 %) [S1], la prudence s'impose particulièrement en Algérie.
 - **Morphine** utilisable chez l'enfant avec des formes et des doses adaptées (liste OMS, formes pédiatriques) [S2].
 
 ### 10.2 Sujet âgé

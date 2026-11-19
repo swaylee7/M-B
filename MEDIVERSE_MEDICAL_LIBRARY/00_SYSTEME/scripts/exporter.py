@@ -19,7 +19,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from commun import RACINE, charger_json, dossier_specialite, ecrire_json, journaliser, maintenant, specialite_par_code  # noqa: E402
+from commun import RACINE, charger_json, dossier_specialite, ecrire_json, journaliser, lister, maintenant, specialite_par_code  # noqa: E402
 
 MANIFESTE = RACINE / "00_SYSTEME/journaux/manifeste_exports.json"
 RE_FM = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.S)
@@ -218,7 +218,7 @@ def main() -> int:
             p.write_text(livret_cas(sp["nom"], cs), encoding="utf-8"); generes.append(p)
 
     # 2) Markdown -> ODT (+ PDF)
-    sources = sorted(RACINE.glob("**/02_DOSSIERS_PEDAGOGIQUES/*.md")) + sorted(RACINE.glob("**/03_FICHES_REVISION/*.md")) + generes
+    sources = lister("**/02_DOSSIERS_PEDAGOGIQUES/*.md") + lister("**/03_FICHES_REVISION/*.md") + generes
     for md in sources:
         cle = str(md.relative_to(RACINE))
         emp = h(md.read_text(encoding="utf-8"))

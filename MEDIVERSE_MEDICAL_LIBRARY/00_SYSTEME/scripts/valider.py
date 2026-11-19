@@ -20,7 +20,7 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from commun import RACINE, charger_json, ecrire_json, maintenant, specialite_par_code  # noqa: E402
+from commun import RACINE, charger_json, ecrire_json, lister, maintenant, specialite_par_code  # noqa: E402
 
 STATUTS = {"brouillon_a_auditer", "audite_corrections_requises", "audite_valide", "valide_enseignant"}
 RE_FM = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.S)
@@ -35,7 +35,7 @@ def main() -> int:
     reg_ids = {d["id"] for d in charger_json(RACINE / "00_SYSTEME/registre_acquisitions.json", {"documents": []})["documents"]}
 
     stats = Counter()
-    for md in sorted(RACINE.glob("**/02_DOSSIERS_PEDAGOGIQUES/*.md")):
+    for md in lister("**/02_DOSSIERS_PEDAGOGIQUES/*.md"):
         rel = str(md.relative_to(RACINE)); stats["dossiers"] += 1
         t = md.read_text(encoding="utf-8")
         m = RE_FM.match(t)

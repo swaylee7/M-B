@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from commun import RACINE, charger_json, ecrire_json, journaliser, maintenant, specialite_par_code  # noqa: E402
+from commun import RACINE, charger_json, ecrire_json, journaliser, lister, maintenant, specialite_par_code  # noqa: E402
 
 CATALOGUES = {
     # type: (dossier des lots, clé de liste, fichier consolidé)
@@ -98,11 +98,11 @@ def main() -> int:
             ecrire_json(RACINE / sortie, {"genere_le": maintenant(), "total": len(el), cle: el}, agent="indexeur")
 
     dossiers = []
-    for md in sorted(RACINE.glob("**/02_DOSSIERS_PEDAGOGIQUES/*.md")):
+    for md in lister("**/02_DOSSIERS_PEDAGOGIQUES/*.md"):
         d = lire_dossier(md)
         if d:
             dossiers.append(d)
-    fiches = [d for md in sorted(RACINE.glob("**/03_FICHES_REVISION/*.md")) if (d := lire_dossier(md))]
+    fiches = [d for md in lister("**/03_FICHES_REVISION/*.md") if (d := lire_dossier(md))]
 
     # liens items du résidanat
     prog_path = RACINE / "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"

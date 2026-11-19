@@ -132,6 +132,38 @@ sources:
     doi: ""
     url: "https://www.has-sante.fr/jcms/c_793371/fr/prevention-des-chutes-accidentelles-chez-la-personne-agee"
     verifiee: true
+  - id: S16
+    reference: "National Institute for Health and Care Excellence (NICE). Venous thromboembolism in over 16s: reducing the risk of hospital-acquired deep vein thrombosis or pulmonary embolism. NICE guideline NG89. Publiée en mars 2018, mise à jour en août 2019. Ajoutée à l'audit ; recommandations sur les fractures de fragilité relues dans des synthèses secondaires (recherche web), page NICE non consultée."
+    organisme: NICE
+    annee: 2019
+    type: recommandation
+    doi: ""
+    url: "https://www.nice.org.uk/guidance/ng89"
+    verifiee: true
+  - id: S17
+    reference: "Bartoníček J. Pauwels' classification of femoral neck fractures: correct interpretation of the original. J Orthop Trauma. 2001;15(5):358-360."
+    organisme: "J Orthop Trauma"
+    annee: 2001
+    type: article
+    doi: "10.1097/00005131-200106000-00009"
+    url: ""
+    verifiee: true
+  - id: S18
+    reference: "Nandi S. Revisiting Pauwels' classification of femoral neck fractures. World J Orthop. 2021;12(11):811-815."
+    organisme: "World J Orthop"
+    annee: 2021
+    type: article
+    doi: "10.5312/wjo.v12.i11.811"
+    url: ""
+    verifiee: true
+  - id: S19
+    reference: "Moon ES, Mehlman CT. Risk factors for avascular necrosis after femoral neck fractures in children: 25 Cincinnati cases and meta-analysis of 360 cases. J Orthop Trauma. 2006;20(5):323-329."
+    organisme: "J Orthop Trauma"
+    annee: 2006
+    type: article
+    doi: "10.1097/00005131-200605000-00005"
+    url: ""
+    verifiee: true
 mots_cles: [fracture du col du fémur, fracture de l'extrémité supérieure du fémur, Garden, Pauwels, Delbet, AO/OTA 31B, ostéonécrose de la tête fémorale, pseudarthrose, vissage, prothèse intermédiaire, hémiarthroplastie, prothèse totale de hanche, orthogériatrie, bloc iliofascial, thromboprophylaxie, ostéoporose, chute]
 ---
 
@@ -139,7 +171,7 @@ mots_cles: [fracture du col du fémur, fracture de l'extrémité supérieure du 
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Les publications princeps de Garden (1961) et Pauwels (1935) n'ont pas pu être vérifiées dans une base bibliographique pendant la session (`verifiee: false`) : les classifications sont décrites selon leur usage classique et doivent être relues à l'audit.
+> Les publications princeps de Garden (1961) et Pauwels (1935) n'ont pas pu être vérifiées dans une base bibliographique (`verifiee: false`). À l'audit (2026-11-19), les seuils de Pauwels ont été confrontés à l'analyse de la publication originale [S17] et ses limites documentées [S18] ; la description de Garden suit l'usage classique.
 
 **Items du programme couverts** : RES-CHI-035 — « Fractures du col du fémur : Classification - diagnostic - traitement. »
 
@@ -771,6 +803,10 @@ E. Programme de prévention des chutes.
 10. **[S10]** Conley RB, et al. Secondary Fracture Prevention: Consensus Clinical Recommendations From a Multistakeholder Coalition. *J Bone Miner Res*. 2020;35(1):36-52. doi:10.1002/jbmr.3877. — *vérifiée (PMID 31538675)*.
 11. **[S11]** Boardman MJ, et al. Hip fractures in children. *J Am Acad Orthop Surg*. 2009;17(3):162-173. doi:10.5435/00124635-200903000-00005. — *vérifiée (PMID 19264709)*.
 12. **[S12]** Meinberg EG, et al. Fracture and Dislocation Classification Compendium-2018. *J Orthop Trauma*. 2018;32 Suppl 1:S1-S170. doi:10.1097/BOT.0000000000001063. — *vérifiée (PMID 29256945)*.
-13. **[S13]** Garden RS. Low-angle fixation in fractures of the femoral neck. *J Bone Joint Surg Br*. 1961;43-B:647-663. — *non vérifiée pendant la session*.
-14. **[S14]** Pauwels F. *Der Schenkelhalsbruch: ein mechanisches Problem*. Stuttgart : Enke ; 1935. — *non vérifiée pendant la session*.
+13. **[S13]** Garden RS. Low-angle fixation in fractures of the femoral neck. *J Bone Joint Surg Br*. 1961;43-B:647-663. — *non vérifiée (absente d'Europe PMC lors de l'audit)*.
+14. **[S14]** Pauwels F. *Der Schenkelhalsbruch: ein mechanisches Problem*. Stuttgart : Enke ; 1935. — *non vérifiée (ouvrage non indexé) ; l'année 1935 est corroborée par [S17]*.
 15. **[S15]** HAS. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. 2009 (catalogue REC-0524). — *vérifiée (catalogue)*.
+16. **[S16]** NICE. Venous thromboembolism in over 16s (NG89). 2018, mise à jour en août 2019. https://www.nice.org.uk/guidance/ng89 — *ajoutée à l'audit ; vérifiée par recherche web (synthèses secondaires)*.
+17. **[S17]** Bartoníček J. Pauwels' classification of femoral neck fractures: correct interpretation of the original. *J Orthop Trauma*. 2001;15(5):358-360. doi:10.1097/00005131-200106000-00009. — *ajoutée à l'audit ; vérifiée (PMID 11433141, résumé lu)*.
+18. **[S18]** Nandi S. Revisiting Pauwels' classification of femoral neck fractures. *World J Orthop*. 2021;12(11):811-815. doi:10.5312/wjo.v12.i11.811. — *ajoutée à l'audit ; vérifiée (PMID 34888141, résumé lu)*.
+19. **[S19]** Moon ES, Mehlman CT. Risk factors for avascular necrosis after femoral neck fractures in children. *J Orthop Trauma*. 2006;20(5):323-329. doi:10.1097/00005131-200605000-00005. — *ajoutée à l'audit ; vérifiée (PMID 16766935, résumé lu)*.
