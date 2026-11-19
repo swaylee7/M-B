@@ -39,7 +39,7 @@ def charger_litarch(chemin: Path | None) -> list[dict]:
         subprocess.run(["curl", "-sSL", "--fail", "-m", "300", "-o", str(tmp), LITARCH + "file_list.csv"], check=True)
         chemin = tmp
     lignes = []
-    with open(chemin, encoding="utf-8", newline="") as f:
+    with open(chemin, encoding="latin-1", newline="") as f:   # le fichier du NCBI n'est pas en UTF-8 pur
         for r in csv.DictReader(f):
             nbk = r["Accession ID"].strip()
             lignes.append({
@@ -110,7 +110,7 @@ def main() -> int:
         f"3. NCBI Bookshelf, sous-ensemble en accès ouvert (liste complète) : {len(livres)} ouvrages",
         "",
         "Fichiers tableur (filtrables) : `liens_directs_ncbi_bookshelf_acces_ouvert.csv` / `.ods`, `liens_directs_documents_acquis.csv` / `.ods`.",
-        "Téléchargement automatique : `bash telecharger.sh NBK608238 NBK585706 …`. Le script extrait les PDF dans `_ACQUIS_LOCAL/NCBI_BOOKSHELF/`.",
+        "Téléchargement automatique de toute la liste : agent `telecharger` (`.claude/agents/telecharger.md`).",
         "",
         "**Format des archives NCBI** : `.tar.gz` contenant le livre complet (un PDF par chapitre, le texte XML et les figures).",
         "La licence de chaque livre (CC BY, CC BY-NC-ND…) figure dans l'archive et sur sa page. Il faut la respecter avant toute rediffusion.",
@@ -133,30 +133,6 @@ def main() -> int:
     for l in livres:
         md.append(f"- [{l['titre']}]({l['lien_direct']}) — {l['editeur']}, {l['annee']} ({l['nbk']})")
     (SORTIE / "LIENS_TELECHARGEMENT_DIRECT.md").write_text("\n".join(md) + "\n", encoding="utf-8")
-
-    script = """#!/usr/bin/env bash
-# Télécharge des ouvrages en accès ouvert du NCBI Bookshelf (liens directs légaux) et extrait leurs PDF.
-# Usage : bash telecharger.sh NBK608238 NBK585706 ...      (identifiants : colonne « nbk » du CSV)
-#         bash telecharger.sh --tous-du-catalogue           (tous les ouvrages du catalogue disponibles)
-set -euo pipefail
-ICI="$(cd "$(dirname "$0")" && pwd)"
-CSV="$ICI/liens_directs_ncbi_bookshelf_acces_ouvert.csv"
-DEST="$ICI/../../_ACQUIS_LOCAL/NCBI_BOOKSHELF"
-mkdir -p "$DEST"
-if [ "${1:-}" = "--tous-du-catalogue" ]; then
-  set -- $(grep -oE 'NBK[0-9]+' "$ICI/LIENS_TELECHARGEMENT_DIRECT.md" | head -n %d | sort -u)
-fi
-for NBK in "$@"; do
-  URL=$(awk -F, -v n="$NBK" '$1==n {print $5}' <(python3 -c "import csv,sys;[print(','.join([r['nbk'],'','','',r['lien_direct']])) for r in csv.DictReader(open('$CSV',encoding='utf-8'))]"))
-  [ -z "$URL" ] && { echo "Introuvable : $NBK"; continue; }
-  echo "Téléchargement $NBK : $URL"
-  curl -fL --retry 3 -o "$DEST/$NBK.tar.gz" "$URL"
-  mkdir -p "$DEST/$NBK" && tar xzf "$DEST/$NBK.tar.gz" -C "$DEST/$NBK" --wildcards '*.pdf' '*.nxml' 2>/dev/null || tar xzf "$DEST/$NBK.tar.gz" -C "$DEST/$NBK"
-  echo "  -> $(find "$DEST/$NBK" -name '*.pdf' | wc -l) PDF extraits dans $DEST/$NBK"
-done
-""" % (len(dans_cat) * 3 + 50)
-    (SORTIE / "telecharger.sh").write_text(script, encoding="utf-8")
-    (SORTIE / "telecharger.sh").chmod(0o755)
 
     journaliser("ACQ-05", "liste_liens_telechargement", str(SORTIE.relative_to(RACINE)),
                 {"bookshelf_acces_ouvert": len(livres), "documents_acquis": len(docs), "catalogue_correspondants": len(dans_cat)})

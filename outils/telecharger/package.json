@@ -1,0 +1,9 @@
+{
+  "name": "agent-telecharger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent telecharger : téléchargement en masse depuis des liens directs légaux, et clics automatiques sur les liens/boutons d'une page",
+  "type": "module",
+  "scripts": { "postinstall": "npx playwright install chromium" },
+  "dependencies": { "playwright": "1.48.2" }
+}
