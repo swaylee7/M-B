@@ -1,0 +1,162 @@
+{
+  "id": "RES-06",
+  "lot": 4,
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T04:20:00+00:00",
+  "perimetre": "Fiches de révision dérivées des dossiers v1.1 audités — urologie, traumatologie, orthopédie, ORL, neurochirurgie, ophtalmologie (module CHIRURGIE du programme)",
+  "taches_terminees": [
+    "FIC-UROL-0001",
+    "FIC-UROL-0002",
+    "FIC-TRAU-0001",
+    "FIC-TRAU-0002",
+    "FIC-ORTH-0001",
+    "FIC-ORL-0001",
+    "FIC-ORL-0002",
+    "FIC-ORL-0003",
+    "FIC-NCHI-0001",
+    "FIC-OPHT-0001",
+    "PIEGES_CLASSIQUES_LOT4"
+  ],
+  "taches_suivantes": [
+    "Audit des 10 fiches FIC lot 4 par AUD (statut brouillon_a_auditer)",
+    "Transmission des 8 incohérences des dossiers sources à l'agent d'audit (correction des dossiers hors périmètre RES-06)",
+    "Régénérer les fiches et PIEGES_CLASSIQUES_LOT4 si un dossier source passe en v1.2",
+    "Indexation (indexer.py) et exports (exporter.py) par l'orchestrateur"
+  ],
+  "fiches": [
+    {
+      "id": "FIC-UROL-0001",
+      "fichier": "08_CHIRURGIE/35_UROL_UROLOGIE/03_FICHES_REVISION/FIC-UROL-0001__LITHIASE_URINAIRE_DIAGNOSTIC_TRAITEMENT.md",
+      "dossier_source": "DOS-UROL-0001",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-023, RES-CHI-030",
+      "mots": 1996,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-UROL-0002",
+      "fichier": "08_CHIRURGIE/35_UROL_UROLOGIE/03_FICHES_REVISION/FIC-UROL-0002__ADENOME_DE_LA_PROSTATE_HYPERTROPHIE_BENIGNE.md",
+      "dossier_source": "DOS-UROL-0002",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-025",
+      "mots": 1883,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-TRAU-0001",
+      "fichier": "08_CHIRURGIE/37_TRAU_TRAUMATOLOGIE/03_FICHES_REVISION/FIC-TRAU-0001__FRACTURES_DU_COL_DU_FEMUR.md",
+      "dossier_source": "DOS-TRAU-0001",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-035",
+      "mots": 1933,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-TRAU-0002",
+      "fichier": "08_CHIRURGIE/37_TRAU_TRAUMATOLOGIE/03_FICHES_REVISION/FIC-TRAU-0002__FRACTURE_DE_L_EXTREMITE_INFERIEURE_DU_RADIUS.md",
+      "dossier_source": "DOS-TRAU-0002",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-033",
+      "mots": 1641,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-ORTH-0001",
+      "fichier": "08_CHIRURGIE/36_ORTH_ORTHOPEDIE/03_FICHES_REVISION/FIC-ORTH-0001__OSTEOMYELITE_AIGUE.md",
+      "dossier_source": "DOS-ORTH-0001",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-038",
+      "mots": 1851,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-ORL-0001",
+      "fichier": "15_AUTRES_SPECIALITES/39_ORL_ORL/03_FICHES_REVISION/FIC-ORL-0001__OTITE_MOYENNE_AIGUE.md",
+      "dossier_source": "DOS-ORL-0001",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-044",
+      "mots": 1752,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-ORL-0002",
+      "fichier": "15_AUTRES_SPECIALITES/39_ORL_ORL/03_FICHES_REVISION/FIC-ORL-0002__CONDUITE_A_TENIR_DEVANT_UNE_EPISTAXIS.md",
+      "dossier_source": "DOS-ORL-0002",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-046",
+      "mots": 1707,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-ORL-0003",
+      "fichier": "15_AUTRES_SPECIALITES/39_ORL_ORL/03_FICHES_REVISION/FIC-ORL-0003__CANCER_DU_CAVUM.md",
+      "dossier_source": "DOS-ORL-0003",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-049",
+      "mots": 1810,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-NCHI-0001",
+      "fichier": "08_CHIRURGIE/38_NCHI_NEUROCHIRURGIE/03_FICHES_REVISION/FIC-NCHI-0001__TRAUMATISME_CRANIO_ENCEPHALIQUE.md",
+      "dossier_source": "DOS-NCHI-0001",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-051",
+      "mots": 1998,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    },
+    {
+      "id": "FIC-OPHT-0001",
+      "fichier": "15_AUTRES_SPECIALITES/40_OPHT_OPHTALMOLOGIE/03_FICHES_REVISION/FIC-OPHT-0001__GLAUCOME_PAR_FERMETURE_DE_L_ANGLE.md",
+      "dossier_source": "DOS-OPHT-0001",
+      "version_dossier_source": "1.1",
+      "items": "RES-CHI-040",
+      "mots": 1841,
+      "statut": "brouillon_a_auditer",
+      "controle_chiffres_doses": "0 écart"
+    }
+  ],
+  "compilation_pieges": {
+    "fichier": "16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT4.md",
+    "nombre_pieges": 100,
+    "par_module": {
+      "Chirurgie (urologie)": 20,
+      "Chirurgie (traumatologie-orthopédie)": 30,
+      "Chirurgie (ophtalmologie)": 10,
+      "Chirurgie (ORL)": 30,
+      "Chirurgie (neurochirurgie)": 10
+    }
+  },
+  "controles": {
+    "nombres_et_doses": "chaque nombre du corps de chaque fiche retrouvé dans le dossier ; chaque couple nombre + unité retrouvé tel quel ; contexte molécule–dose vérifié (0 attribution croisée)",
+    "sources_yaml": "blocs [Sx] copiés à l'identique du dossier (champ remarque omis) ; toutes les sources de l'en-tête sont citées dans le corps et réciproquement",
+    "marqueurs": "marqueurs [À VÉRIFIER] / [POSOLOGIE À VÉRIFIER …] repris au mot près du dossier",
+    "structure": "9 sections, 10 pièges et 10 lignes « 5 minutes » par fiche ; 1 641 à 1 998 mots hors balises"
+  },
+  "incoherences_dossiers_signalees": [
+    "1. DOS-UROL-0001 — délai d'imagerie de la colique néphrétique simple : « 24–48 heures » (§9.3, §13.3.1, §16.1) vs « 12–48 h » attribué à la SFMU 2008 dans le tableau des divergences (§21).",
+    "2. DOS-UROL-0002 §13.2.2 — renvoi interne erroné : l'alpha-bloquant avant épreuve de retrait de sonde après RAU renvoie au « § 13.3.3 » (rétention chronique) au lieu du § 13.3.2 (RAU).",
+    "3. DOS-TRAU-0001 — §7.3 Pauwels : tableau « I < 30°, III > 50° » vs texte « I ≤ 30°, III ≥ 50° » (bornes) ; recommandation AAOS citée « AAOS 2021 » (§13.2.2, §21) alors que S2/S3 sont datées 2022 dans l'en-tête.",
+    "4. DOS-TRAU-0001 vs DOS-TRAU-0002 — paracétamol chez l'adulte de moins de 50 kg : « 15 mg/kg par prise, 60 mg/kg/j, sans dépasser 3 g/j » (TRAU-0001 §13.2.1) vs « 3 g/j si le poids est inférieur à 50 kg » (TRAU-0002 §13.2.1) — à harmoniser.",
+    "5. DOS-ORL-0001 §13.2.2 — plafond pédiatrique du cotrimoxazole « 800/160 mg/j », soit la moitié de la dose adulte du même tableau (1 600/320 mg/j) : libellé à confronter à la fiche HAS (plafond par prise ?).",
+    "6. DOS-ORL-0003 — association au tabac « limitée aux formes kératinisantes » (§1) vs « formes différenciées, pas l'UCNT » (§3.2, §6) : terminologie OMS à harmoniser (le carcinome non kératinisant différencié est aussi « différencié »).",
+    "7. DOS-NCHI-0001 — cible « SpO2 ≥ 90 % » présentée comme sourcée [S1, S2] dans les points clés (§18, point 7) et l'algorithme §16.2, alors que §5.2 précise que la BTF 4e édition ne formule pas de seuil d'oxygénation (seuil de la 3e édition 2007, SFAR à vérifier).",
+    "8. DOS-OPHT-0001 — contre-indication des bêtabloquants topiques : « asthme, antécédent de BPCO » (§13.2.1, d'après l'EGS) vs « BPCO sévère » (§18 point 6, §19, cas clinique) ; §2 « 2021-2026 : 5e puis 6e édition » alors que la 6e édition EGS est datée 2025."
+  ],
+  "compteurs": {
+    "fiches_creees": 10,
+    "pieges": 100,
+    "incoherences_signalees": 8
+  },
+  "outils": "scratchpad de session, sous-dossier res06_lot4_outils (non versionné) : l4_inject_sources.py, l4_check_numbers.py, l4_contexte_doses.py, l4_valider.py, l4_wc.py",
+  "remarque": "Fichiers des lots 1 à 3 (journal.md, etat.json, journal_lot2.md, etat_lot2.json, journal_lot3.md, etat_lot3.json, fiches existantes, PIEGES_CLASSIQUES_LOT1/LOT2/LOT3) non modifiés. Aucun dossier source modifié. Pas d'opération Git."
+}

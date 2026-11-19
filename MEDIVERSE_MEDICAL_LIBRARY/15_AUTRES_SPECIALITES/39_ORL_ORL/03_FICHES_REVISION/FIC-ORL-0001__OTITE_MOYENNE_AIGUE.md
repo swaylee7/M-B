@@ -133,7 +133,7 @@ Inflammation aiguë, le plus souvent infectieuse, de l'oreille moyenne avec **é
 | Récidive vs rechute | Récidive = symptômes **plus de 4 jours après l'arrêt** ; rechute (≤ 4 jours) = échec [S1] |
 | OMA récidivantes (AAP) | **3 épisodes en 6 mois** ou **4 en 12 mois dont 1 dans les 6 derniers mois** [S6] |
 | Sévérité AAP | Otalgie modérée à sévère, ou otalgie ≥ 48 h, ou température **≥ 39 °C** [S6] |
-| Résistance (Algérie, 2005-2012, avant VPC) [S12] | 270 souches pédiatriques : pénicilline de sensibilité diminuée **48 %** (I 20,6 %, R 27,5 %) ; amoxicilline ≈ 3 % (I 2,6 %, R 0,4 %) ; 47 souches d'otites : pénicilline I 25,5 %, R 10,6 %, **aucune** sensibilité diminuée à l'amoxicilline ni au céfotaxime `[À VÉRIFIER — données de surveillance postérieures à la vaccination]` |
+| Résistance (Algérie, 2005-2012, avant VPC) [S12] | 270 souches pédiatriques : pénicilline de sensibilité diminuée **48 %** (I 20,6 %, R 27,5 %) ; amoxicilline ≈ 3 % (I 2,6 %, R 0,4 %) ; 47 souches d'otites : pénicilline I 25,5 %, R 10,6 %, **aucune** sensibilité diminuée à l'amoxicilline ni au céfotaxime `[À VÉRIFIER — données de surveillance postérieures à la vaccination (réseau algérien de surveillance de la résistance)]` |
 | VPC13 (calendrier algérien) | **2, 4 et 12 mois** [S11] |
 
 | Germe | À retenir |

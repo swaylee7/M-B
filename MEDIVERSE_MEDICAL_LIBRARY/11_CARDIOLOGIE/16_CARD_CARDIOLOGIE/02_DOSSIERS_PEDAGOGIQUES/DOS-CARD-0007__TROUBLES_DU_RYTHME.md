@@ -6,11 +6,17 @@ sous_specialite: "Rythmologie"
 items_residanat: [RES-MED-063]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0007.md
 sources:
   - id: S1
     reference: "Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J. 2024;45(36):3314-3414."
@@ -89,26 +95,35 @@ sources:
     organisme: ACC/AHA/ACCP/HRS
     annee: 2023
     type: recommandation
-    doi: ""
+    doi: "10.1161/CIR.0000000000001193"
     url: ""
-    verifiee: false
-    remarque: "Citée de mémoire pour les divergences ; référence non confirmée pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 38033089). Texte intégral non lu."
   - id: S10
     reference: "Connolly SJ, Karthikeyan G, Ntsekhe M, et al. Rivaroxaban in Rheumatic Heart Disease-Associated Atrial Fibrillation (INVICTUS). N Engl J Med. 2022;387(11):978-988."
     organisme: ""
     annee: 2022
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa2209051"
     url: ""
-    verifiee: false
-    remarque: "Essai cité de mémoire ; métadonnées non confirmées pendant la session [À VÉRIFIER]. La conclusion pratique (AVK et non AOD dans le rétrécissement mitral rhumatismal modéré à serré) est reprise par l'ESC 2024 [S1]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 36036525 ; résumé lu : 4 531 patients, plus d'événements et de décès sous rivaroxaban que sous AVK). La conclusion pratique (AVK et non AOD dans le rétrécissement mitral rhumatismal modéré à serré) est reprise par l'ESC 2024 [S1]."
+  - id: S11
+    reference: "Ortiz M, Martín A, Arribas F, et al. Randomized comparison of intravenous procainamide vs. intravenous amiodarone for the acute treatment of tolerated wide QRS tachycardia: the PROCAMIO study. Eur Heart J. 2017;38(17):1329-1335."
+    organisme: ""
+    annee: 2017
+    type: article
+    doi: "10.1093/eurheartj/ehw230"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par l'audit (PubMed, PMID 27354046 ; résumé lu : procaïnamide 10 mg/kg en 20 min contre amiodarone 5 mg/kg en 20 min ; moins d'événements graves et davantage de réductions sous procaïnamide)."
 mots_cles: [fibrillation atriale, CHA2DS2-VA, AF-CARE, anticoagulants oraux directs, flutter atrial, tachycardie jonctionnelle, réentrée intranodale, Wolff-Parkinson-White, tachycardie ventriculaire, torsades de pointes, QT long, Brugada, mort subite, défibrillateur implantable, bloc atrioventriculaire, dysfonction sinusale, stimulateur cardiaque, adénosine, amiodarone, cardioversion]
 ---
 
 # Les troubles du rythme cardiaque
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19), corrections requises** — voir le rapport d'audit. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-063 — *Les troubles du rythme.* L'intitulé est large : ce dossier couvre les **tachycardies supraventriculaires** (fibrillation atriale, flutter, tachycardies atriales et jonctionnelles), les **arythmies ventriculaires** (extrasystoles, tachycardie ventriculaire, torsades de pointes, fibrillation ventriculaire, canalopathies) et les **bradycardies** (dysfonction sinusale, blocs atrioventriculaires et intraventriculaires). Il renvoie à DOS-CARD-0001 (insuffisance cardiaque) et DOS-CARD-0003 (infarctus) pour les arythmies de ces contextes.
 
@@ -599,7 +614,7 @@ Contrôle de la fréquence dans la FA (d'après les tableaux de l'ESC 2020 [S6],
 | **Digoxine** | 0,5 mg IV en bolus (0,75–1,5 mg en 24 h en doses fractionnées) | 0,0625–0,25 mg/j (adapter à la fonction rénale et au dosage plasmatique) |
 | **Amiodarone** | 300 mg IV (dilués dans 250 mL de glucosé 5 %) en 30–60 min, de préférence sur voie veineuse centrale, puis 900–1 200 mg/24 h | 200 mg/j après la dose de charge |
 
-Cardioversion pharmacologique de la FA (tableau de l'ESC 2020 [S6]) :
+Cardioversion pharmacologique de la FA (doses du tableau de l'ESC 2020 [S6]). **Classes ESC 2024** [S1] : flécaïnide ou propafénone IV **recommandées (I)** pour la FA récente, en excluant l'hypertrophie VG sévère, l'ICFEr et la coronaropathie ; vernakalant IV **recommandé (I)**, en excluant un SCA récent, une ICFEr et un rétrécissement aortique serré ; amiodarone IV **recommandée (I)** en cas d'hypertrophie VG sévère, d'ICFEr ou de coronaropathie, en acceptant un délai de conversion plus long ; « pilule de poche » à envisager (IIa) :
 
 | Molécule | Posologie | Remarques |
 |---|---|---|
@@ -625,7 +640,7 @@ Arythmies ventriculaires et arrêt cardiaque :
 |---|---|---|
 | **Arrêt cardiaque en rythme choquable (FV/TV sans pouls)** | Après le **3e choc** : **adrénaline 1 mg IV** (puis toutes les 3–5 min) et **amiodarone 300 mg IV** ; **150 mg** supplémentaires après le 5e choc (lidocaïne 100 mg puis 50 mg si l'amiodarone n'est pas disponible) | ERC 2021 [S7] |
 | **Torsades de pointes** | **Sulfate de magnésium 2 g IV** (en environ 10 min), correction de la kaliémie (objectif haut de la normale), arrêt des médicaments allongeant le QT ; accélération de la fréquence (isoprénaline ou stimulation temporaire) | ERC 2021 [S7] ; ESC 2022 [S3] |
-| **TV monomorphe bien tolérée** | Cardioversion électrique sous sédation en première intention si le risque anesthésique est faible ; procaïnamide IV (si disponible) ou amiodarone IV (300 mg en 10–60 min puis perfusion) en alternative **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | ESC 2022 [S3] |
+| **TV monomorphe bien tolérée** | **Cardioversion électrique** sous sédation en première intention si le risque anesthésique est faible (classe I) ; **procaïnamide IV** à envisager en cas de cardiopathie structurelle connue ou suspectée (IIa ; schéma de l'essai PROCAMIO : **10 mg/kg en 20 min** ; molécule non disponible dans de nombreux pays, dont la France **[À VÉRIFIER — Algérie]**) ; **amiodarone IV** envisageable en l'absence de diagnostic établi (IIb) : **300 mg IV en 10–20 min puis 900 mg sur 24 h** (ERC 2021) | ESC 2022 [S3] ; PROCAMIO [S11] ; ERC 2021 [S7] |
 
 Bradycardie symptomatique (ERC 2021 [S7]) :
 
@@ -656,7 +671,7 @@ Bradycardie symptomatique (ERC 2021 [S7]) :
 #### 13.2.4 La cardioversion électrique
 
 - **Choc électrique externe synchronisé** sur le QRS, sous **anesthésie générale brève ou sédation profonde**, à jeun si possible, avec kaliémie normale.
-- **Énergie** : pour la FA, l'ERC 2021 propose un premier choc synchronisé à l'énergie maximale de l'appareil ; pour le flutter et les TSV, des énergies plus faibles (70–120 J en biphasique) sont souvent suffisantes [S7] **[À VÉRIFIER — énergies selon l'appareil et le protocole local]**.
+- **Énergie** : pour la FA, l'ERC 2021 propose un premier choc synchronisé à l'énergie maximale de l'appareil plutôt qu'une escalade ; pour le flutter et les TSV paroxystiques, un premier choc de 70–120 J (biphasique) est souvent suffisant [S7] ; se conformer aux indications du fabricant de l'appareil.
 - **En urgence** (instabilité) : aucun délai d'anticoagulation n'est exigé, mais l'anticoagulation est débutée dès que possible [S1].
 - **Défibrillation** (non synchronisée) : FV et TV sans pouls.
 
@@ -727,7 +742,7 @@ FA (ou flutter) documentée
 
 **R — Réduire les symptômes (contrôle de la fréquence et du rythme)** :
 
-- **Contrôle de la fréquence** pour tous les patients symptomatiques : **bêtabloquant** (toute FEVG), **digoxine** (toute FEVG), **diltiazem ou vérapamil** (FEVG > 40 %) ; cible initiale « souple » de **FC de repos < 110/min**, plus stricte si les symptômes persistent [S1].
+- **Contrôle de la fréquence** pour tous les patients symptomatiques : **bêtabloquant** (toute FEVG), **digoxine** (toute FEVG), **diltiazem ou vérapamil** (FEVG > 40 %) ; en aigu, en cas d'instabilité hémodynamique ou de FEVG très altérée, **amiodarone IV**, digoxine ou esmolol/landiolol à envisager (IIa) ; cible initiale « souple » de **FC de repos < 110/min**, plus stricte si les symptômes persistent [S1].
 - **Contrôle du rythme** (cardioversion, antiarythmiques, ablation) : pour améliorer les symptômes et la qualité de vie ; un contrôle **précoce** du rythme (dans l'année du diagnostic) est à envisager chez certains patients à risque thromboembolique (essai EAST-AFNET 4) [S1].
 - **Choix de l'antiarythmique** selon la cardiopathie : cœur sain → flécaïnide, propafénone, dronédarone, sotalol ; cardiopathie ischémique ou valvulaire significative → dronédarone (si pas d'IC sévère), sotalol, amiodarone ; **insuffisance cardiaque à FEVG altérée → amiodarone** (ou ablation) [S1, S6].
 
@@ -1062,11 +1077,11 @@ ETT (cardiopathie, OG), **TSH**, kaliémie, fonction rénale, NFS, bilan hépati
 
 | Thème | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
-| **Score de risque thromboembolique de la FA** | **ESC 2024** : **CHA2DS2-VA** (sexe exclu) ; anticoagulation recommandée si ≥ 2, à envisager si 1 [S1] | **ESC 2020** et **HAS 2014** : CHA2DS2-VASc (sexe féminin = 1 point ; seuils différents selon le sexe) [S6, S8] ; **ACC/AHA 2023** : maintien du CHA2DS2-VASc (ou autre score validé), seuil de risque annuel d'AVC **[À VÉRIFIER]** [S9] | Le sexe féminin est un modificateur de risque plutôt qu'un facteur indépendant ; la suppression simplifie et évite les seuils différenciés |
+| **Score de risque thromboembolique de la FA** | **ESC 2024** : **CHA2DS2-VA** (sexe exclu) ; anticoagulation recommandée si ≥ 2, à envisager si 1 [S1] | **ESC 2020** et **HAS 2014** : CHA2DS2-VASc (sexe féminin = 1 point ; seuils différents selon le sexe) [S6, S8] ; **ACC/AHA 2023** : maintien du CHA2DS2-VASc (ou autre score validé) ; anticoagulation recommandée si le risque annuel estimé d'AVC est ≥ 2 % (CHA2DS2-VASc ≥ 2 chez l'homme, ≥ 3 chez la femme), raisonnable entre 1 et 2 % [S9] | Le sexe féminin est un modificateur de risque plutôt qu'un facteur indépendant ; la suppression simplifie et évite les seuils différenciés |
 | **Délai de cardioversion sans anticoagulation préalable** | ESC 2024 : **24 heures** [S1] | ESC 2020 et recommandations antérieures : **48 heures** [S6] | Abaissement du seuil par prudence (données observationnelles d'embolies entre 24 et 48 h) |
-| **Classification de la FA** | ESC 2024 : FA paroxystique / persistante / permanente, avec un parcours AF-CARE [S1] | ACC/AHA 2023 : **stades** de la FA (de 1 « à risque » à 4 « permanente ») **[À VÉRIFIER]** [S9] | Approches complémentaires : la classification américaine intègre la prévention |
+| **Classification de la FA** | ESC 2024 : FA paroxystique / persistante / permanente, avec un parcours AF-CARE [S1] | ACC/AHA 2023 : **stades** de la FA : 1 « à risque », 2 « pré-FA », 3 « FA » (3A paroxystique, 3B persistante, 3C persistante de longue durée, 3D ablation réussie), 4 « permanente » [S9] | Approches complémentaires : la classification américaine intègre la prévention |
 | **Ablation de première intention** | ESC 2024 : option de première intention dans la FA paroxystique (classe I) [S1] | ESC 2020 : classe IIa en première intention [S6] | Montée en puissance après les essais d'ablation précoce |
-| **Fermeture de l'auricule gauche** | ESC 2024 : percutanée IIb si contre-indication à l'anticoagulation ; chirurgicale recommandée en complément lors d'une chirurgie cardiaque [S1] | ACC/AHA 2023 : percutanée de niveau supérieur chez certains patients à haut risque hémorragique **[À VÉRIFIER]** [S9] | Données randomisées encore limitées pour la fermeture percutanée |
+| **Fermeture de l'auricule gauche** | ESC 2024 : percutanée IIb si contre-indication à l'anticoagulation ; chirurgicale recommandée en complément lors d'une chirurgie cardiaque [S1] | ACC/AHA 2023 : fermeture percutanée jugée raisonnable (classe 2a) en cas de contre-indication non réversible à l'anticoagulation au long cours, soit un niveau supérieur à celui de l'ESC [S9] | Données randomisées encore limitées pour la fermeture percutanée |
 | **Définition de la bradycardie** | Recommandations récentes de stimulation : FC < 50/min [S4] **[À VÉRIFIER]** | Seuil classique de l'enseignement : < 60/min | Seuil pratique ; c'est la corrélation symptômes-bradycardie qui guide la stimulation |
 | **Anticoagulation dans la FA rhumatismale** | ESC 2024 : AVK dans le rétrécissement mitral modéré à serré [S1] | Avant INVICTUS, certains proposaient les AOD par extrapolation | INVICTUS a montré la supériorité de l'AVK sur le rivaroxaban dans cette population [S10] |
 
@@ -1082,7 +1097,8 @@ ETT (cardiopathie, OG), **TSH**, kaliémie, fonction rénale, NFS, bilan hépati
 6. **[S6]** Hindricks G, Potpara T, Dagres N, et al. 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation. *Eur Heart J.* 2021;42(5):373-498. doi:10.1093/eurheartj/ehaa612. — vérifiée (remplacée par S1).
 7. **[S7]** Perkins GD, Graesner JT, Semeraro F, et al. European Resuscitation Council Guidelines 2021: Executive summary. *Resuscitation.* 2021;161:1-60. doi:10.1016/j.resuscitation.2021.02.003. — vérifiée.
 8. **[S8]** Haute Autorité de santé. Guide du parcours de soins — Fibrillation atriale. HAS ; 2014. — vérifiée (document ancien).
-9. **[S9]** Joglar JA, Chung MK, Armbruster AL, et al. 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. *Circulation.* 2024;149(1):e1-e156. — **non vérifiée**.
-10. **[S10]** Connolly SJ, Karthikeyan G, Ntsekhe M, et al. Rivaroxaban in Rheumatic Heart Disease-Associated Atrial Fibrillation. *N Engl J Med.* 2022;387(11):978-988. — **non vérifiée**.
+9. **[S9]** Joglar JA, Chung MK, Armbruster AL, et al. 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. *Circulation.* 2024;149(1):e1-e156. doi:10.1161/CIR.0000000000001193. — vérifiée (audit ; texte intégral non lu).
+10. **[S10]** Connolly SJ, Karthikeyan G, Ntsekhe M, et al. Rivaroxaban in Rheumatic Heart Disease-Associated Atrial Fibrillation. *N Engl J Med.* 2022;387(11):978-988. doi:10.1056/NEJMoa2209051. — vérifiée (audit).
+11. **[S11]** Ortiz M, Martín A, Arribas F, et al. Randomized comparison of intravenous procainamide vs. intravenous amiodarone for the acute treatment of tolerated wide QRS tachycardia: the PROCAMIO study. *Eur Heart J.* 2017;38(17):1329-1335. doi:10.1093/eurheartj/ehw230. — vérifiée (audit).
 
-*Posologies : tableaux de l'ESC 2019 (TSV) [S2], de l'ESC 2020 (FA) [S6] repris par l'ESC 2024 [S1], de l'ERC 2021 [S7] et RCP ; les marqueurs `[POSOLOGIE À VÉRIFIER]` signalent les schémas non confirmés (procaïnamide/amiodarone dans la TV, glucagon, aminophylline).*
+*Posologies : tableaux de l'ESC 2019 (TSV) [S2], de l'ESC 2020 (FA) [S6] repris par l'ESC 2024 [S1], de l'ERC 2021 [S7], de l'essai PROCAMIO [S11] et RCP. Audit AUD-01/AUD-02 du 2026-11-19 : marqueur de la TV levé (amiodarone ERC 2021, procaïnamide PROCAMIO) ; marqueur maintenu pour le glucagon et l'aminophylline (doses non confirmées).*

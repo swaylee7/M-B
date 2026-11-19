@@ -6,11 +6,17 @@ sous_specialite: "Maladies du péricarde"
 items_residanat: [RES-MED-054]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0008.md
 sources:
   - id: S1
     reference: "Schulz-Menger J, Collini V, Gröschel J, et al. 2025 ESC Guidelines for the management of myocarditis and pericarditis. Eur Heart J. 2025;46(40):3952-4041."
@@ -80,35 +86,53 @@ sources:
     organisme: ""
     annee: 2014
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa1407380"
     url: ""
-    verifiee: false
-    remarque: "Essai cité de mémoire ; métadonnées non confirmées pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 25178809 ; résumé lu) : 1 400 patients (deux tiers infectés par le VIH) ; prednisolone 6 semaines sans effet sur le critère principal (décès, tamponnade nécessitant une ponction, constriction : 23,8 % contre 24,5 %) ; moins de constrictions (4,4 % contre 7,8 %) et d'hospitalisations ; plus de cancers (1,8 % contre 0,6 %), surtout associés au VIH."
   - id: S9
     reference: "Imazio M, Brucato A, Cemin R, et al. A randomized trial of colchicine for acute pericarditis (ICAP). N Engl J Med. 2013;369(16):1522-1528."
     organisme: ""
     annee: 2013
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa1208536"
     url: ""
-    verifiee: false
-    remarque: "Essai cité de mémoire ; métadonnées non confirmées pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 23992557 ; résumé lu) : 240 patients ; péricardite incessante ou récidivante 16,7 % sous colchicine contre 37,5 % (réduction relative 0,56 ; NNT 4)."
   - id: S10
     reference: "Klein AL, Imazio M, Cremer P, et al. Phase 3 Trial of Interleukin-1 Trap Rilonacept in Recurrent Pericarditis (RHAPSODY). N Engl J Med. 2021;384(1):31-41."
     organisme: ""
     annee: 2021
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa2027892"
     url: ""
-    verifiee: false
-    remarque: "Essai cité de mémoire ; métadonnées non confirmées pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 33200890 ; résumé lu) : essai de retrait randomisé, récidive chez 7 % des patients sous rilonacept contre 74 % sous placebo."
+  - id: S11
+    reference: "Ehsan M, Ikram J, El Roumi J, et al. Evolving Guidelines in Pericarditis: Aligning Practice With Pathophysiology. JACC Adv. 2026;5(1):102509."
+    organisme: ""
+    annee: 2026
+    type: article
+    doi: "10.1016/j.jacadv.2025.102509"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par l'audit (PMC12869867, texte intégral lu) : commentaire comparant l'ESC 2025 et la synthèse ACC 2025 ; posologie du rilonacept approuvée par la FDA (320 mg puis 160 mg par semaine) ; l'ESC 2025 conserve l'algorithme par étapes (corticoïdes en deuxième ligne)."
+  - id: S12
+    reference: "Fanouriakis A, Kostopoulou M, Andersen J, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29."
+    organisme: EULAR
+    annee: 2023
+    type: recommandation
+    doi: "10.1136/ard-2023-224762"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par l'audit (PubMed, PMID 37827694) pour la posologie de l'hydroxychloroquine (cas CAS-CARD-0106)."
 mots_cles: [péricardite aiguë, myopéricardite, syndrome inflammatoire myopéricardique, épanchement péricardique, tamponnade, pouls paradoxal, péricardiocentèse, colchicine, aspirine, AINS, corticoïdes, anakinra, rilonacept, péricardite récidivante, péricardite tuberculeuse, péricardite constrictive, syndrome post-péricardiotomie, Dressler]
 ---
 
 # Péricardites aiguës
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19), corrections requises** — voir le rapport d'audit. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-054 — *Péricardites aiguës : diagnostic, évolution, traitement.*
 
@@ -438,7 +462,7 @@ Insuffisance rénale terminale non dialysée (péricardite urémique) ou dialyse
 
 ### 10.9 Populations particulières
 
-- **Grossesse** (ESC 2015 [S2]) : l'aspirine et les AINS peuvent être utilisés au 1er et au 2e trimestre mais doivent être **arrêtés à partir de 20 semaines d'aménorrhée** (risque fœtal : fermeture du canal artériel, atteinte rénale) ; la prednisone à faible dose est utilisable ; la **colchicine était contre-indiquée pendant la grossesse** selon l'ESC 2015 — position susceptible d'avoir évolué dans les textes récents **[À VÉRIFIER — ESC 2025 myocardite-péricardite et ESC 2025 grossesse]**.
+- **Grossesse** (ESC 2015 [S2]) : l'aspirine et les AINS peuvent être utilisés au 1er et au 2e trimestre mais doivent être **arrêtés à partir de 20 semaines d'aménorrhée** (risque fœtal : fermeture du canal artériel, atteinte rénale) ; la prednisone à faible dose est utilisable ; la **colchicine était contre-indiquée pendant la grossesse et l'allaitement** selon l'ESC 2015 ; l'**ESC 2025** la considère compatible avec la grossesse et l'allaitement et propose qu'elle **puisse être envisagée** (classe IIb, niveau C) pour prévenir les récidives pendant la grossesse, notamment chez les patientes déjà traitées (sources secondaires concordantes ; texte intégral non lu) [S1].
 - **Enfant** : AINS (ibuprofène) ; **aspirine évitée** (syndrome de Reye) ; colchicine à dose adaptée à l'âge ou au poids [S2].
 - **Sujet âgé** : prudence avec les AINS (insuffisance rénale, saignement digestif, HTA) ; colchicine à dose réduite selon la fonction rénale.
 
@@ -555,18 +579,18 @@ Insuffisance rénale terminale non dialysée (péricardite urémique) ou dialyse
 | Traitement | Place et posologie | Source |
 |---|---|---|
 | **Anti-IL-1 : anakinra** | Péricardite récidivante **cortico-dépendante et résistante à la colchicine** ; **1–2 mg/kg/j SC, jusqu'à 100 mg/j** | ESC 2015 (classe IIb) [S2] ; place renforcée dans l'ESC 2025 [S1] |
-| **Anti-IL-1 : rilonacept** | Mêmes indications ; essai **RHAPSODY** : réduction marquée du risque de récidive [S10] ; posologie selon le RCP **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** ; disponibilité en Algérie **[À VÉRIFIER]** | [S1, S10] |
+| **Anti-IL-1 : rilonacept** | Mêmes indications ; essai **RHAPSODY** : récidive chez 7 % des patients sous rilonacept contre 74 % sous placebo après retrait randomisé [S10] ; posologie de l'AMM américaine (FDA, 2021) chez l'adulte : **320 mg SC le premier jour, puis 160 mg SC une fois par semaine**, durée individualisée [S11] ; **pas d'AMM européenne** ; disponibilité en Algérie **[À VÉRIFIER]** | [S1, S10, S11] |
 | **Azathioprine** | Épargne cortisonique, effet retardé **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | ESC 2015 (classe IIb) [S2] |
 | **Immunoglobulines IV** | Cas sélectionnés **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | ESC 2015 (classe IIb) [S2] |
 | **Péricardectomie** | Dernier recours, en centre expérimenté, après échec des traitements médicaux | [S2] |
 
-Selon des revues de synthèse de l'ESC 2025, les **anti-IL-1** passent à une recommandation de **classe I** dans les récidives avec CRP élevée, résistantes à la colchicine et cortico-dépendantes [S1] **[À VÉRIFIER — classe exacte dans le texte de 2025]**.
+**ESC 2025 (sources secondaires, texte intégral non lu)** : l'algorithme reste **par étapes** (AINS ou aspirine + colchicine, puis corticoïdes à faible dose en deuxième ligne) [S1, S11]. Les **anti-IL-1** (anakinra, rilonacept) sont recommandés dans les **péricardites récidivantes avec CRP élevée après échec du traitement de première ligne et des corticoïdes** (classe I, niveau A selon une synthèse ; un commentaire publié en 2026 parle d'une recommandation de classe 2 [S11]) et peuvent être envisagés en cas d'inflammation péricardique à l'IRM quelle que soit la CRP (IIa) ; l'**hydroxychloroquine** est une option de classe IIb après échec des corticoïdes et des anti-IL-1 **[À VÉRIFIER — classes exactes sur le texte de 2025]**.
 
 #### 13.2.5 Restriction de l'activité physique
 
 - **Non-sportifs** : limiter l'activité physique au-delà des activités sédentaires **jusqu'à disparition des symptômes et normalisation de la CRP** [S2].
 - **Sportifs de compétition** : reprise après **au moins 3 mois** et normalisation des examens [S2].
-- **Myopéricardite** : restriction plus longue (**6 mois** dans l'ESC 2015) [S2] **[À VÉRIFIER — durée retenue par l'ESC 2025]**.
+- **Myopéricardite** : restriction plus longue (**6 mois** dans l'ESC 2015) [S2]. L'**ESC 2025** ne fixe plus de durée uniforme et privilégie une **décision individualisée** de reprise après la rémission (clinique, CRP, ECG, imagerie) selon les sources secondaires [S1] **[À VÉRIFIER — formulation exacte]**.
 
 #### 13.2.6 Drainage péricardique
 
@@ -622,7 +646,7 @@ Suspicion de tamponnade (hypotension, turgescence jugulaire, pouls paradoxal, ta
 
 - **Traitement antituberculeux standard** : schéma national **2HRZE/4HR** (2 mois d'isoniazide, rifampicine, pyrazinamide et éthambutol, puis 4 mois d'isoniazide et rifampicine), soit **6 mois au total**, selon le programme national et l'OMS ; le schéma doit être confirmé sur l'instruction nationale de 2024 pour la localisation péricardique [S3, S4, S7] **[À VÉRIFIER — durée retenue pour la forme péricardique par l'instruction n°07 de 2024]**. Doses selon le poids et les directives nationales (voir DOS-PNEU-0001).
 - **Traitement empirique** : dans les zones d'endémie, l'ESC 2015 recommande un traitement antituberculeux empirique devant un **épanchement péricardique exsudatif** après exclusion des autres causes [S2]. Son application en Algérie (incidence intermédiaire) relève du jugement clinique et de l'avis spécialisé, après recherche microbiologique la plus complète possible (liquide, biopsie, autres sites).
-- **Corticothérapie adjuvante** : l'ESC 2015 indique qu'elle **peut être envisagée** chez les patients **non infectés par le VIH** (classe IIb) et qu'elle doit être évitée chez les patients infectés par le VIH (essai IMPI : moins de constrictions mais excès de cancers associés au VIH sous prednisolone) [S2, S8] ; l'OMS formule une recommandation conditionnelle en faveur d'une corticothérapie adjuvante initiale dans la péricardite tuberculeuse **[À VÉRIFIER — formulation de la 2e édition 2026 du module 4]** [S7]. Le schéma de prednisolone des essais (doses dégressives sur environ 6 semaines) est à confirmer **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
+- **Corticothérapie adjuvante (débat IMPI)** : l'ESC 2015 indique qu'elle **peut être envisagée** chez les patients **non infectés par le VIH** (classe IIb) et qu'elle doit être évitée chez les patients infectés par le VIH [S2]. Dans l'essai **IMPI** (1 400 patients, deux tiers infectés par le VIH), la prednisolone pendant 6 semaines **n'a pas réduit le critère principal** (décès, tamponnade nécessitant une ponction, constriction : 23,8 % contre 24,5 %) ; elle a réduit les **constrictions** (4,4 % contre 7,8 %) et les hospitalisations, au prix d'un **excès de cancers** (1,8 % contre 0,6 %), surtout associés au VIH [S8]. L'OMS formule une recommandation conditionnelle en faveur d'une corticothérapie adjuvante initiale dans la péricardite tuberculeuse **[À VÉRIFIER — formulation de la 2e édition 2026 du module 4]** [S7]. Schéma de l'essai IMPI : **prednisolone 120 mg/j la 1re semaine, puis 90, 60, 30, 15 et 5 mg/j** (une semaine par palier, 6 semaines au total) [S8] ; la rifampicine accélère le métabolisme des corticoïdes.
 - **Drainage** : péricardiocentèse en cas de tamponnade ou d'épanchement abondant ; un drainage complet précoce pourrait réduire l'évolution constrictive.
 - **Péricardectomie** : si l'état du patient **ne s'améliore pas ou s'aggrave après 4 à 8 semaines** de traitement antituberculeux, ou en cas de constriction installée [S2].
 - **Déclaration obligatoire** et **enquête autour du cas** selon le programme national [S3].
@@ -742,7 +766,7 @@ La **constriction** (risque de l'ordre de 20 à 30 % dans les formes bactérienn
 9. **Tamponnade** : drainage en urgence ; pas de diurétiques ni de vasodilatateurs ; pas de ponction dans la dissection aortique.
 10. **Tuberculose** : y penser devant toute péricardite subaiguë, fébrile, avec épanchement abondant ; risque de **constriction** ; traitement antituberculeux du programme national ; péricardectomie si échec à 4–8 semaines.
 11. Post-infarctus : **aspirine** préférée.
-12. ESC 2025 : concept de **syndrome inflammatoire myopéricardique** ; AINS + colchicine maintenus ; anti-IL-1 renforcés.
+12. ESC 2025 : concept de **syndrome inflammatoire myopéricardique** ; AINS + colchicine maintenus, corticoïdes en deuxième ligne ; anti-IL-1 renforcés dans les récidives à CRP élevée ; colchicine envisageable pendant la grossesse (IIb).
 
 ---
 
@@ -882,7 +906,7 @@ La **constriction** (risque de l'ordre de 20 à 30 % dans les formes bactérienn
 - D : Vrai.
 - E : Vrai : baisse du retour veineux.
 
-**QCM 8 — réponse(s) : A, B, D, E.** La tuberculose est une cause majeure de péricardite dans les régions d'endémie. ESC 2015 : corticothérapie adjuvante envisageable chez le patient VIH négatif (IIb) ; l'essai IMPI a montré moins de constrictions mais plus de cancers associés au VIH sous prednisolone. Constriction : risque de l'ordre de 20–30 % dans les formes bactériennes.
+**QCM 8 — réponse(s) : A, B, D, E.** La tuberculose est une cause majeure de péricardite dans les régions d'endémie. ESC 2015 : corticothérapie adjuvante envisageable chez le patient VIH négatif (IIb) ; dans l'essai IMPI, la prednisolone n'a pas réduit le critère principal (décès, tamponnade, constriction) mais a réduit les constrictions, au prix d'un excès de cancers associés au VIH. Constriction : risque de l'ordre de 20–30 % dans les formes bactériennes.
 - A : Vrai : seuil souvent retenu ≥ 40 U/L.
 - B : Vrai.
 - C : Faux : à éviter chez le patient VIH positif.
@@ -896,10 +920,10 @@ La **constriction** (risque de l'ordre de 20 à 30 % dans les formes bactérienn
 | Thème | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
 | **Cadre nosologique** | **ESC 2015** : maladies du péricarde ; distinction myopéricardite / périmyocardite [S2] | **ESC 2025** : recommandation commune myocardite-péricardite ; concept de **syndrome inflammatoire myopéricardique** (IMPS) englobant formes isolées et mixtes [S1] | Rapprochement fondé sur la continuité physiopathologique et l'apport de l'IRM |
-| **Anti-IL-1 dans les récidives** | ESC 2015 : anakinra en classe IIb (avec azathioprine et immunoglobulines) [S2] | ESC 2025 : place renforcée, classe I selon des revues de synthèse, dans les récidives à CRP élevée résistantes à la colchicine et cortico-dépendantes [S1] **[À VÉRIFIER — texte intégral]** | Évolution fondée sur les essais AIRTRIP (anakinra) et RHAPSODY (rilonacept) [S10] |
+| **Anti-IL-1 dans les récidives** | ESC 2015 : anakinra en classe IIb (avec azathioprine et immunoglobulines) [S2] | ESC 2025 : place renforcée dans les récidives à CRP élevée après échec du traitement de première ligne et des corticoïdes (classe I selon une synthèse, « classe 2 » selon un commentaire de 2026), algorithme par étapes conservé [S1, S11] **[À VÉRIFIER — texte intégral]** ; ACC 2025 (consensus d'experts) : anti-IL-1 dès la deuxième ligne dans le phénotype inflammatoire [S11] | Évolution fondée sur les essais AIRTRIP (anakinra) et RHAPSODY (rilonacept) [S10] |
 | **Colchicine dans la myopéricardite / myocardite** | ESC 2015 : prudence ; données insuffisantes pour l'atteinte myocardique prédominante [S2] | ESC 2025 : colchicine ajoutée au traitement symptomatique dans les formes non fulminantes sans cause spécifique (IIa selon une source secondaire) [S1] **[À VÉRIFIER]** | À confirmer sur le texte original |
-| **Colchicine pendant la grossesse** | ESC 2015 : contre-indiquée [S2] | Données plus récentes rassurantes ; position actuelle de l'ESC 2025 **[À VÉRIFIER]** | Ne pas appliquer sans vérification |
-| **Corticothérapie adjuvante de la péricardite tuberculeuse** | ESC 2015 : à envisager chez le patient VIH négatif (IIb), à éviter chez le patient VIH positif [S2, S8] | OMS : recommandation conditionnelle en faveur d'une corticothérapie adjuvante initiale [S7] **[À VÉRIFIER — 2e édition 2026]** ; position du programme national algérien sur la forme péricardique non vérifiée **[À VÉRIFIER — manuel 2011 et instruction de 2024]** [S3, S4] | Convergence sur le principe, nuances sur le VIH et le niveau de preuve |
+| **Colchicine pendant la grossesse** | ESC 2015 : contre-indiquée pendant la grossesse et l'allaitement [S2] | ESC 2025 : compatible avec la grossesse et l'allaitement ; à envisager (IIb, niveau C) pour prévenir les récidives pendant la grossesse [S1] (sources secondaires concordantes) | Changement de position ; confirmer la classe sur le texte original |
+| **Corticothérapie adjuvante de la péricardite tuberculeuse** | ESC 2015 : à envisager chez le patient VIH négatif (IIb), à éviter chez le patient VIH positif [S2] ; IMPI : pas d'effet sur le critère principal, moins de constrictions, plus de cancers associés au VIH [S8] | OMS : recommandation conditionnelle en faveur d'une corticothérapie adjuvante initiale [S7] **[À VÉRIFIER — 2e édition 2026]** ; position du programme national algérien sur la forme péricardique non vérifiée **[À VÉRIFIER — manuel 2011 et instruction de 2024]** [S3, S4] | Convergence sur le principe, nuances sur le VIH et le niveau de preuve |
 | **Traitement antituberculeux empirique** | ESC 2015 : recommandé dans les zones d'endémie devant un épanchement exsudatif après exclusion des autres causes [S2] | En zone de faible incidence : traitement seulement après preuve ou forte présomption | L'Algérie (incidence intermédiaire) impose une décision au cas par cas, après prélèvements |
 
 ---
@@ -913,8 +937,10 @@ La **constriction** (risque de l'ordre de 20 à 30 % dans les formes bactérienn
 5. **[S5]** INSP. Situation épidémiologique de la tuberculose en Algérie — Année 2023. — existence vérifiée (poste DOS-02).
 6. **[S6]** Horizons (Alger). Baisse de l'incidence de la tuberculose et des maladies respiratoires en Algérie. Août 2025. — source de presse.
 7. **[S7]** World Health Organization. WHO consolidated guidelines on tuberculosis: module 4: treatment and care. 2nd ed. Geneva: WHO; 2026. — vérifiée (chapitre non lu).
-8. **[S8]** Mayosi BM, Ntsekhe M, Bosch J, et al. Prednisolone and *Mycobacterium indicus pranii* in tuberculous pericarditis. *N Engl J Med.* 2014;371(12):1121-1130. — **non vérifiée**.
-9. **[S9]** Imazio M, Brucato A, Cemin R, et al. A randomized trial of colchicine for acute pericarditis. *N Engl J Med.* 2013;369(16):1522-1528. — **non vérifiée**.
-10. **[S10]** Klein AL, Imazio M, Cremer P, et al. Phase 3 Trial of Interleukin-1 Trap Rilonacept in Recurrent Pericarditis. *N Engl J Med.* 2021;384(1):31-41. — **non vérifiée**.
+8. **[S8]** Mayosi BM, Ntsekhe M, Bosch J, et al. Prednisolone and *Mycobacterium indicus pranii* in tuberculous pericarditis. *N Engl J Med.* 2014;371(12):1121-1130. doi:10.1056/NEJMoa1407380. — vérifiée (audit).
+9. **[S9]** Imazio M, Brucato A, Cemin R, et al. A randomized trial of colchicine for acute pericarditis. *N Engl J Med.* 2013;369(16):1522-1528. doi:10.1056/NEJMoa1208536. — vérifiée (audit).
+10. **[S10]** Klein AL, Imazio M, Cremer P, et al. Phase 3 Trial of Interleukin-1 Trap Rilonacept in Recurrent Pericarditis. *N Engl J Med.* 2021;384(1):31-41. doi:10.1056/NEJMoa2027892. — vérifiée (audit).
+11. **[S11]** Ehsan M, Ikram J, El Roumi J, et al. Evolving Guidelines in Pericarditis: Aligning Practice With Pathophysiology. *JACC Adv.* 2026;5(1):102509. doi:10.1016/j.jacadv.2025.102509. — vérifiée (audit, texte intégral).
+12. **[S12]** Fanouriakis A, Kostopoulou M, Andersen J, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. *Ann Rheum Dis.* 2024;83(1):15-29. doi:10.1136/ard-2023-224762. — vérifiée (audit).
 
-*Posologies : tableaux de l'ESC 2015 [S2] (aspirine, ibuprofène, indométacine, colchicine, prednisone, anakinra) ; les marqueurs `[POSOLOGIE À VÉRIFIER]` concernent le rilonacept, l'azathioprine, les immunoglobulines et la prednisolone adjuvante de la péricardite tuberculeuse.*
+*Posologies : tableaux de l'ESC 2015 [S2] (aspirine, ibuprofène, indométacine, colchicine, prednisone, anakinra) ; rilonacept selon l'AMM américaine [S11] ; prednisolone adjuvante selon l'essai IMPI [S8]. Audit AUD-01/AUD-02 du 2026-11-19 : marqueurs levés pour le rilonacept et la prednisolone ; marqueurs maintenus pour l'azathioprine et les immunoglobulines IV.*

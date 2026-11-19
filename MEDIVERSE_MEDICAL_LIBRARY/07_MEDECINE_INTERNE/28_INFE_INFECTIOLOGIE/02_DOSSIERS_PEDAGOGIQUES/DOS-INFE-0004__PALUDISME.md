@@ -6,11 +6,17 @@ sous_specialite: "Parasitoses systémiques — paludisme d'importation et post-�
 items_residanat: [RES-MED-002]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 17
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0004.md
 sources:
   - id: S1
     reference: "World Health Organization. WHO guidelines for malaria, 10 September 2026. Geneva: WHO; 2026. Licence CC BY-NC-SA 3.0 IGO."
@@ -67,14 +73,14 @@ sources:
     verifiee: false
     remarque: "Chiffres (1 110 cas dans cinq wilayas du Sud dont 918 à Tamanrasset en septembre 2020 ; 2 726 cas importés et 3 décès sur l'année 2020) lus dans des résumés de presse ; communiqué officiel et données INSP non consultés [À VÉRIFIER]."
   - id: S7
-    reference: "World Health Organization. International travel and health — chapitre paludisme (chimioprophylaxie des voyageurs)."
+    reference: "World Health Organization. International travel and health. Module 3: Malaria. Geneva: WHO; 2024. ISBN 978-92-4-010228-6. Licence CC BY-NC-SA 3.0 IGO."
     organisme: OMS
-    annee: null
+    annee: 2024
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
-    remarque: "Cité par [S1] pour la prévention médicamenteuse chez les voyageurs ; non consulté [À VÉRIFIER]."
+    url: "https://iris.who.int/handle/10665/379612"
+    verifiee: true
+    remarque: "Audit AUD-01/AUD-02 (2026-11-19) : PDF téléchargé depuis IRIS (OMS) et lu (pdftotext) — incubation ≥ 7 jours, perte de la semi-immunité après ≥ 6 mois hors zone d'endémie, répulsifs (DEET, IR3535, icaridine), tableau 1 (chimioprophylaxie : atovaquone-proguanil, doxycycline, méfloquine, chloroquine), tableau 3 (traitement : atovaquone-proguanil, quinine orale). Document cité par [S1] ; non inscrit au registre des acquisitions."
   - id: S8
     reference: "Haut Conseil de la santé publique (France). Recommandations sanitaires aux voyageurs (édition annuelle, Bulletin épidémiologique hebdomadaire)."
     organisme: HCSP
@@ -83,14 +89,23 @@ sources:
     doi: ""
     url: ""
     verifiee: false
-    remarque: "Source française usuelle des schémas de chimioprophylaxie ; édition et contenu non vérifiés [À VÉRIFIER]."
+    remarque: "Source française usuelle des schémas de chimioprophylaxie ; édition et contenu non vérifiés [À VÉRIFIER]. Audit 2026-11-19 : non consultée (sante.gouv.fr inaccessible) ; les schémas du dossier suivent désormais l'OMS [S7]."
+  - id: S9
+    reference: "World Health Organization. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses. 2nd ed. Geneva: WHO; 2013 (version française : Mémento de soins hospitaliers pédiatriques, 2e éd., 2015)."
+    organisme: OMS
+    annee: 2013
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: true
+    remarque: "Documents acquis (DOC-00063 et DOC-00062, diffusion locale uniquement) et lus par l'audit (2026-11-19) : artésunate IV ou IM 2,4 mg/kg à l'admission, puis à 12 h et à 24 h, puis une fois par jour jusqu'à la prise orale, au moins 24 h. La dose de 3 mg/kg chez l'enfant de moins de 20 kg est postérieure (OMS 2015, reprise en 2026 [S1])."
 mots_cles: [paludisme, Plasmodium falciparum, Plasmodium vivax, Anopheles, paludisme grave, artésunate, CTA, artéméther-luméfantrine, primaquine, G6PD, chimioprophylaxie, paludisme d'importation, élimination, Algérie, Tamanrasset]
 ---
 
 # Paludisme : parasitologie, étiologie, diagnostic, prévention, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique. **Traçabilité** : les lignes directrices de l'OMS sur le paludisme (version du 10 septembre 2026) [S1] et le décret algérien 22-250 [S5] ont été **lus** ; la certification de l'Algérie [S3] et l'existence des recommandations françaises [S4] ont été confirmées par recherche web ; les données algériennes de 2020 proviennent de la presse [S6] et les recommandations aux voyageurs [S7, S8] n'ont pas été consultées.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (bloc `audit` et rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique. **Traçabilité** : les lignes directrices de l'OMS sur le paludisme (version du 10 septembre 2026) [S1] et le décret algérien 22-250 [S5] ont été **lus** ; la certification de l'Algérie [S3] a été relue sur le communiqué de l'OMS et l'existence des recommandations françaises [S4] confirmée par recherche web ; le module paludisme du guide OMS des voyages internationaux (2024) [S7] et le *Pocket book* hospitalier de l'OMS [S9] ont été lus lors de l'audit ; les données algériennes de 2020 proviennent de la presse [S6] et les recommandations françaises aux voyageurs [S8] n'ont pas été consultées.
 
 **Items du programme couverts** : RES-MED-002 — « Paludisme : Parasitologie - étiologie - diagnostic - prévention - traitement ».
 
@@ -118,7 +133,7 @@ Le paludisme est une **maladie à déclaration obligatoire** en Algérie (catég
 
 ## 2. Repères historiques
 
-- 1880 : Alphonse **Laveran**, médecin militaire, observe le parasite dans le sang de patients à **Constantine** (Algérie) — découverte qui lui vaudra le prix Nobel en 1907 `[À VÉRIFIER : lieu et date précis]`.
+- 1880 : le médecin militaire français Alphonse **Laveran** découvre le parasite du paludisme **en Algérie** [S3] (à Constantine selon les biographies usuelles `[À VÉRIFIER : ville]`) — découverte qui lui vaudra le prix Nobel en 1907 `[À VÉRIFIER]`.
 - 1897 : Ronald Ross démontre le rôle du moustique dans la transmission (paludisme aviaire) `[À VÉRIFIER]`.
 - Quinine (XIXᵉ siècle), chloroquine (milieu du XXᵉ siècle), puis émergence de la **chloroquinorésistance** de *P. falciparum* ; ère des **dérivés de l'artémisinine** et des **combinaisons thérapeutiques à base d'artémisinine (CTA)** recommandées par l'OMS [S1].
 - Essais comparant l'**artésunate** parentéral à la **quinine** : réduction de la mortalité du paludisme grave d'environ **40 %** chez l'adulte (RR 0,61) et d'environ **25 %** chez l'enfant (RR 0,76) [S1].
@@ -136,7 +151,7 @@ Le paludisme est une **maladie à déclaration obligatoire** en Algérie (catég
 ### 3.2 En Algérie
 - **Certification de l'élimination le 22 mai 2019** ; derniers cas autochtones en **2013** [S3].
 - Le pays reste exposé au **paludisme d'importation**, principalement depuis les **pays sahéliens frontaliers** (Mali, Niger), par les déplacements de populations (travailleurs, transporteurs, migrants, étudiants, voyageurs) [S6].
-- **Recrudescence saisonnière** dans les wilayas du **Sud** (Tamanrasset, Bordj Badji Mokhtar, In Guezzam, Adrar, Illizi…) **après les pluies de la fin de l'été** : en septembre 2020, le ministère de la Santé a fait état de **1 110 cas dans cinq wilayas du Sud, dont 918 à Tamanrasset**, et la presse a rapporté **2 726 cas importés et 3 décès** pour l'année 2020 [S6] `[À VÉRIFIER — données officielles INSP]`.
+- **Recrudescence saisonnière** dans les wilayas du **Sud** (Tamanrasset, Bordj Badji Mokhtar, In Guezzam, Adrar, Illizi…) **après les pluies de la fin de l'été** : en septembre 2020, le ministère de la Santé a fait état de **1 110 cas dans cinq wilayas du Sud, dont 918 à Tamanrasset**, et la presse a rapporté **2 726 cas importés et 3 décès** pour l'année 2020 [S6] — chiffres de presse, **non confirmés** par une publication officielle (INSP, OMS) retrouvée pendant l'audit `[À VÉRIFIER — données officielles INSP]`.
 - La présence d'**anophèles vecteurs** dans le pays (notamment dans les oasis sahariennes) fait craindre des **cas introduits** (transmission locale à partir d'un cas importé) : la **prévention du rétablissement de la transmission** est une priorité de santé publique [S1] `[À VÉRIFIER : espèces vectrices et cartographie entomologique nationale]`.
 
 ## 4. Parasitologie
@@ -170,7 +185,7 @@ HOMME (hôte intermédiaire)
 ```
 
 Conséquences pratiques :
-- **Incubation minimale d'environ 7 jours** pour *P. falciparum* : une fièvre survenant **moins de 7 jours** après la première exposition n'est pas due à un paludisme contracté lors de ce séjour `[À VÉRIFIER — SPILF]`. La plupart des accès à *P. falciparum* surviennent dans les **2 mois** suivant le retour ; *P. vivax* et *P. ovale* peuvent se révéler **des mois** (voire plus d'un an) après.
+- **Incubation de 7 jours ou plus** : le paludisme doit être évoqué devant toute fièvre survenant **1 semaine ou plus** après la première exposition possible ; une fièvre survenant moins de 7 jours après la première exposition n'est pas due à un paludisme contracté lors de ce séjour [S7]. La plupart des accès à *P. falciparum* surviennent dans les **2 mois** suivant le retour ; *P. vivax* et *P. ovale* peuvent se révéler **des mois** (voire plus d'un an) après.
 - La **chimioprophylaxie « suppressive »** (active sur les formes érythrocytaires) doit être poursuivie **au moins 4 semaines** après le retour, pour couvrir l'émergence hépatique ; la prophylaxie **« causale »** (active sur les formes hépatiques, comme l'atovaquone-proguanil) peut être arrêtée peu après le retour [S1].
 - Les **gamétocytes** expliquent l'intérêt de la **primaquine à faible dose unique** pour réduire la transmissibilité en zone de faible transmission [S1].
 - **Transmission non vectorielle** : transfusion, greffe, toxicomanie IV, **transmission congénitale** ; « paludisme d'aéroport » (moustique transporté).
@@ -187,7 +202,7 @@ Conséquences pratiques :
   - **obstruction microcirculatoire**, hypoxie tissulaire, **acidose lactique**, dysfonction endothéliale, hyperperméabilité ;
   - **hypoglycémie** (consommation parasitaire, néoglucogenèse altérée, hyperinsulinisme induit par la **quinine**, grossesse) ;
   - anémie profonde (hémolyse, dysérythropoïèse), **thrombopénie**, troubles de l'hémostase.
-- **Immunité de prémunition** : chez les personnes vivant en zone de forte transmission, l'exposition répétée induit une immunité partielle, non stérilisante, qui protège des formes graves ; elle est **perdue** en quelques mois à années hors zone d'endémie (expatriés, étudiants, migrants) : ces personnes doivent être considérées comme **non immunes** `[À VÉRIFIER : délai]`.
+- **Immunité de prémunition** : chez les personnes vivant en zone de forte transmission, l'exposition répétée induit une immunité partielle, non stérilisante, qui protège des formes graves ; elle est **perdue** en quelques mois à années hors zone d'endémie (expatriés, étudiants, migrants) : ces personnes doivent être considérées comme **non immunes** ; l'OMS considère comme exposés les sujets semi-immuns ayant séjourné **6 mois ou plus** hors zone d'endémie [S7].
 - **Paludisme et grossesse** : séquestration placentaire → avortement, prématurité, petit poids de naissance, anémie maternelle ; formes graves plus fréquentes chez la femme non immune.
 
 ## 6. Étiologies et facteurs de risque
@@ -276,7 +291,7 @@ NFS-plaquettes, **glycémie capillaire immédiate**, **parasitémie**, ionogramm
 | **Enfant** | Formes graves rapides (anémie, hypoglycémie, acidose, convulsions) ; troubles digestifs trompeurs ; posologies adaptées (artésunate 3 mg/kg si < 20 kg) [S1] |
 | **Femme enceinte** | Risque maternel (formes graves, hypoglycémie, anémie) et fœtal ; **artésunate injectable à tous les trimestres** dans les formes graves ; **artéméther-luméfantrine au 1er trimestre** dans les formes non compliquées [S1] |
 | **Sujet non immun / voyageur** | Évolution rapide vers la gravité ; **CTA** recommandée pour l'accès simple [S1] |
-| **Hyperparasitémie sans critère de gravité** | Risque accru d'échec, de forme grave et de décès : **surveillance étroite** en plus de la CTA [S1] |
+| **Hyperparasitémie sans critère de gravité** | Parasitémie de 4 à 10 % sans signe de gravité (et, chez le non-immun, dès > 2 %) : risque accru d'échec, de forme grave et de décès → **surveillance étroite**, hospitalisation si possible, en plus de la CTA ; au-delà de 10 %, le paludisme est grave dans tous les contextes [S1] |
 | **Paludisme viscéral évolutif** | Enfant ou adulte soumis à des infestations répétées (souvent sous chimioprophylaxie inadaptée) : fièvre modérée, anémie, **splénomégalie** importante, cachexie |
 | **Splénomégalie palustre hyperréactive** | Sujet de zone d'endémie : splénomégalie volumineuse, IgM élevées `[À VÉRIFIER]` |
 | **Fièvre bilieuse hémoglobinurique** | Hémolyse intravasculaire aiguë (urines « porto ») chez un sujet ayant pris de la quinine (ou d'autres amino-alcools) de façon répétée |
@@ -321,7 +336,7 @@ NFS-plaquettes, **glycémie capillaire immédiate**, **parasitémie**, ionogramm
 
 | CTA | Remarques (OMS) |
 |---|---|
-| **Artéméther-luméfantrine (AL)** | Comprimés 20/120 mg (dispersibles ou standard) ou 40/240 mg ; **deux prises par jour pendant 3 jours (6 prises)** ; les deux premières prises idéalement **à 8 h d'intervalle** ; posologie par tranche de poids (dose par prise) : **< 5 kg** 5/60 mg (nouvelle formulation 1:12) ; **5–< 15 kg** 20/120 mg ; **15–< 25 kg** 40/240 mg ; **25–< 35 kg** 60/360 mg ; **≥ 35 kg 80/480 mg** (soit 4 comprimés à 20/120 mg) [S1]. Exposition diminuée chez le jeune enfant, la femme enceinte, le grand adulte, le fumeur, et avec la rifampicine, la méfloquine ou l'éfavirenz [S1]. Prise avec un aliment gras recommandée `[À VÉRIFIER — RCP]` |
+| **Artéméther-luméfantrine (AL)** | Comprimés 20/120 mg (dispersibles ou standard) ou 40/240 mg ; **deux prises par jour pendant 3 jours (6 prises)** ; les deux premières prises idéalement **à 8 h d'intervalle** ; posologie par tranche de poids (dose par prise) : **< 5 kg** 5/60 mg (nouvelle formulation 1:12) ; **5–< 15 kg** 20/120 mg ; **15–< 25 kg** 40/240 mg ; **25–< 35 kg** 60/360 mg ; **≥ 35 kg 80/480 mg** (soit 4 comprimés à 20/120 mg) [S1]. Exposition diminuée chez le jeune enfant, la femme enceinte, le grand adulte, le fumeur, et avec la rifampicine, la méfloquine ou l'éfavirenz [S1]. À prendre immédiatement après un repas ou une boisson contenant des graisses (lait), en particulier les 2ᵉ et 3ᵉ jours : l'absorption de la luméfantrine en dépend [S1] |
 | **Dihydroartémisinine-pipéraquine (DHA-PPQ)** | Enfant < 25 kg : au minimum 2,5 mg/kg/j de DHA et 20 mg/kg/j de pipéraquine pendant 3 jours [S1] ; allongement du QT à surveiller |
 | **Artésunate-amodiaquine (AS+AQ)** | Dose cible 4 mg/kg/j d'artésunate et 10 mg/kg/j d'amodiaquine, 1 fois/j pendant 3 jours [S1] ; neutropénie et hépatotoxicité (éviter avec zidovudine, éfavirenz) [S1] |
 | **Artésunate-méfloquine (ASMQ)** | À éviter en relais d'un paludisme grave avec troubles de conscience (neuropsychiatrique) [S1] |
@@ -329,17 +344,17 @@ NFS-plaquettes, **glycémie capillaire immédiate**, **parasitémie**, ionogramm
 | **Artésunate-pyronaridine (ASPY)** | Option depuis 2022 ; éviter en cas d'hépatopathie ; pas au 1er trimestre [S1] |
 
 **b) Autres antipaludiques oraux**
-- **Atovaquone-proguanil** : alternative utilisée en France pour l'accès simple d'importation (SPILF) [S4] — adulte : 4 comprimés à 250/100 mg en une prise par jour pendant 3 jours, au cours d'un repas `[POSOLOGIE À VÉRIFIER — RCP / SPILF 2017]`.
+- **Atovaquone-proguanil** : alternative utilisée en France pour l'accès simple d'importation (SPILF) [S4] — adulte et enfant de plus de 40 kg : **4 comprimés à 250/100 mg en une prise par jour pendant 3 jours**, avec un repas ou une boisson lactée ; contre-indiqué si la clairance de la créatinine est < 30 mL/min (OMS, guide des voyages internationaux 2024, tableau 3) [S7]. Ne contient pas de dérivé de l'artémisinine : ne pas l'utiliser seul chez un voyageur hyperparasitémique sans critère de gravité [S1].
 - **Chloroquine** (*P. vivax, ovale, malariae, knowlesi* dans les zones de chloroquinosensibilité) : **25 mg base/kg au total** sur 3 jours (**10 mg/kg J1, 10 mg/kg J2, 5 mg/kg J3**) [S1].
 - **Primaquine** (anti-hypnozoïte et gamétocytocide) : voir § 13.3 d ; **contre-indiquée** chez la femme enceinte, le nourrisson de moins d'un mois, la femme allaitant un nourrisson de moins d'un mois et en cas de **déficit en G6PD** (sauf schéma hebdomadaire adapté) [S1].
 - **Tafénoquine** : alternative à la primaquine (dose unique) **uniquement en Amérique du Sud**, si activité G6PD ≥ 70 %, à partir de 2 ans, avec la chloroquine ; non recommandée pendant la grossesse et l'allaitement [S1].
-- **Quinine orale** : option de recours (CTA indisponible) ; schéma de 7 jours, observance difficile `[POSOLOGIE À VÉRIFIER — RCP]` [S1].
+- **Quinine orale** : option de recours (CTA indisponible) : **8 mg base/kg (environ 10 mg de sel/kg) trois fois par jour pendant 7 jours**, associée à la doxycycline ou à la clindamycine là où la résistance à la quinine émerge [S7] ; observance difficile, risque d'hypoglycémie [S1].
 
 **c) Antipaludiques parentéraux (paludisme grave)** [S1]
 
 | Molécule | Posologie (OMS) | Points clés |
 |---|---|---|
-| **Artésunate IV ou IM** (1ʳᵉ intention) | **2,4 mg/kg par dose** ; **3 mg/kg par dose chez l'enfant de moins de 20 kg** | Au moins **24 h** de traitement parentéral **et** jusqu'à tolérance de la voie orale, puis **CTA complète de 3 jours** ; administrations à H0, H12, H24 puis toutes les 24 h `[À VÉRIFIER — schéma horaire du RCP / guide OMS de prise en charge du paludisme grave]` ; poudre d'acide artésunique dissoute dans du bicarbonate de sodium à 5 %, diluée (≈ 5 mL de glucosé à 5 %), préparée **extemporanément**, IV ou IM (face antérieure de la cuisse) ; **pas d'adaptation** en cas d'insuffisance rénale ou hépatique ; recommandée chez l'enfant, le nourrisson, la **femme enceinte à tous les trimestres** et allaitante |
+| **Artésunate IV ou IM** (1ʳᵉ intention) | **2,4 mg/kg par dose** ; **3 mg/kg par dose chez l'enfant de moins de 20 kg** | Au moins **24 h** de traitement parentéral **et** jusqu'à tolérance de la voie orale, puis **CTA complète de 3 jours** ; administrations **à l'admission (H0), puis à H12 et à H24, puis une fois par jour** jusqu'à la reprise de la voie orale [S9] ; poudre d'acide artésunique dissoute dans du bicarbonate de sodium à 5 %, diluée (≈ 5 mL de glucosé à 5 %), préparée **extemporanément**, IV ou IM (face antérieure de la cuisse) ; **pas d'adaptation** en cas d'insuffisance rénale ou hépatique ; recommandée chez l'enfant, le nourrisson, la **femme enceinte à tous les trimestres** et allaitante |
 | **Artéméther IM** (si artésunate indisponible, préféré à la quinine) | **3,2 mg/kg** IM (cuisse) en dose initiale, puis **1,6 mg/kg/j** | Absorption plus lente et plus irrégulière que l'artésunate |
 | **Quinine IV** (dernier recours) | **Dose de charge 20 mg de sel/kg** (le double de la dose d'entretien), puis **10 mg de sel/kg toutes les 8 h**, à partir de la 8ᵉ heure | **Perfusion lente** (souvent sur 4 h, dans du glucosé à 5 %), débit ≤ 5 mg de sel/kg/h ; **jamais en bolus IV** (hypotension mortelle) ; réduire d'**un tiers** (10 mg/kg toutes les 12 h) si pas d'amélioration à 48 h ou insuffisance rénale persistante ; risque d'**hypoglycémie** ; doses exprimées en **sel** |
 | **Artésunate rectal** (pré-transfert) | **10 mg/kg** en dose unique chez l'enfant **de moins de 6 ans** | Uniquement si l'artésunate IM est impossible, avant transfert ; **pas chez l'enfant plus âgé ni l'adulte** |
@@ -376,7 +391,7 @@ NFS-plaquettes, **glycémie capillaire immédiate**, **parasitémie**, ionogramm
 ### 13.4 Particularités algériennes
 - **Déclaration obligatoire** de tout cas (catégorie 1) [S5] et **investigation de chaque cas** (origine du séjour, cas introduit ?), conformément à l'approche de **surveillance basée sur les cas** des pays en phase de prévention de la réintroduction ; l'OMS prévoit une **détection réactive** autour des cas (membres du foyer, voisinage, compagnons de voyage et de travail partageant le même risque d'exposition) [S1].
 - **Saisonnalité** : vigilance accrue dans le Sud **de septembre à novembre** (après les pluies), notamment dans les wilayas frontalières [S6].
-- **Disponibilité** des CTA et de l'artésunate injectable dans les structures publiques, en particulier dans le Sud `[À VÉRIFIER — liste nationale et protocole national de traitement]`.
+- **Disponibilité** des CTA et de l'artésunate injectable dans les structures publiques, en particulier dans le Sud : **protocole national de traitement du paludisme non retrouvé** pendant l'audit (recherche web, textes acquis) `[À VÉRIFIER — liste nationale et protocole national de traitement]`.
 - **Lutte antivectorielle** ciblée autour des cas et dans les foyers à risque (pulvérisations, gestion des gîtes larvaires) [S1] `[À VÉRIFIER — organisation nationale]`.
 - **Dépistage** des personnes en provenance de zones d'endémie présentant de la fièvre (structures de santé du Sud) `[À VÉRIFIER — instructions ministérielles]`.
 
@@ -395,21 +410,21 @@ NFS-plaquettes, **glycémie capillaire immédiate**, **parasitémie**, ionogramm
 
 ### 15.1 Prévention individuelle du voyageur (Algériens se rendant au Sahel ou en Afrique subsaharienne, étudiants, transporteurs, militaires…)
 1. **Information** : risque, symptômes, **consulter en urgence en cas de fièvre** pendant le séjour et **dans les mois suivant le retour**, en signalant le voyage.
-2. **Protection antivectorielle** (du crépuscule à l'aube) : **moustiquaire imprégnée d'insecticide**, **répulsifs cutanés**, vêtements couvrants (éventuellement imprégnés), climatisation [S1] `[À VÉRIFIER — molécules et concentrations des répulsifs selon les recommandations aux voyageurs]`.
-3. **Chimioprophylaxie** adaptée à la destination, à la durée, au terrain : l'OMS renvoie à son guide *International travel and health* [S1, S7] ; principes : débuter **avant** l'arrivée (tolérance, concentrations), poursuivre **au moins 4 semaines** après le retour pour les molécules suppressives, peu après le retour pour l'atovaquone-proguanil (causale) [S1].
+2. **Protection antivectorielle** (du crépuscule à l'aube) : **moustiquaire imprégnée d'insecticide**, **répulsifs cutanés**, vêtements couvrants (éventuellement imprégnés), climatisation [S1, S7] ; répulsifs à base de **DEET, IR3535 ou icaridine**, à renouveler toutes les 3 à 4 heures selon la notice [S7] (concentrations : `[À VÉRIFIER — notice / recommandations aux voyageurs]`).
+3. **Chimioprophylaxie** adaptée à la destination, à la durée, au terrain : l'OMS renvoie à son guide *International travel and health* (module paludisme, 2024) [S1, S7] ; principes : débuter **avant** l'arrivée (tolérance, concentrations), poursuivre **4 semaines** après le retour pour les molécules suppressives, **7 jours** pour l'atovaquone-proguanil (causale) [S1, S7].
 
 | Molécule | Schéma usuel (adulte) | Remarques |
 |---|---|---|
-| **Atovaquone-proguanil** (250/100 mg) | 1 cp/j au cours d'un repas, à débuter la veille ou le jour de l'arrivée, à poursuivre **7 jours** après le départ de la zone | Bonne tolérance ; coût ; formes pédiatriques |
-| **Doxycycline** | 100 mg/j, à débuter la veille de l'arrivée, à poursuivre **4 semaines** après le retour | Photosensibilisation, œsophagite ; contre-indiquée chez la femme enceinte et l'enfant < 8 ans |
-| **Méfloquine** | 250 mg une fois par semaine, à débuter **10 jours** avant, à poursuivre **3 semaines** après le retour | Effets neuropsychiques ; contre-indications (antécédents psychiatriques, épilepsie) |
+| **Atovaquone-proguanil** (250/100 mg) | 1 cp/j avec un repas ou une boisson lactée, à débuter **1 jour avant le départ** (1 à 2 jours avant l'arrivée), à poursuivre **7 jours** après avoir quitté la zone [S7] | Bonne tolérance ; coût ; formes pédiatriques (à partir de 11 kg) ; contre-indiquée si clairance < 30 mL/min ; à poursuivre 4 semaines si des prises ont été oubliées pendant le séjour [S7] |
+| **Doxycycline** | 100 mg/j (enfant ≥ 8 ans : 1,5 mg de sel/kg/j), à débuter **1 jour avant le départ**, à poursuivre **4 semaines** après le retour [S7] | Photosensibilisation, œsophagite (prise avec beaucoup d'eau) ; contre-indiquée chez la femme enceinte ou allaitante et l'enfant < 8 ans [S7] |
+| **Méfloquine** | 250 mg une fois par semaine (5 mg/kg/semaine), à débuter **au moins 1 semaine (de préférence 2 à 3 semaines)** avant le départ, à poursuivre **4 semaines** après le retour [S7] | Effets neuropsychiques ; contre-indications : antécédents psychiatriques (dépression comprise), convulsions ; allongement du QT [S7] |
 
-`[POSOLOGIE À VÉRIFIER — schémas issus des recommandations aux voyageurs (HCSP [S8], OMS [S7]) et des RCP, non consultés pendant la session]`
+Schémas de l'OMS (2024) [S7]. Les recommandations françaises (HCSP [S8], non consultées) retiennent des délais en partie différents (méfloquine classiquement débutée 10 jours avant le départ et poursuivie 3 semaines après le retour) `[À VÉRIFIER — édition HCSP en vigueur]`. Aucun schéma national algérien de chimioprophylaxie n'a été retrouvé pendant l'audit.
 
 ### 15.2 Prévention collective en zone d'endémie (OMS) [S1]
 - **Lutte antivectorielle** : moustiquaires imprégnées d'insecticide à longue durée d'action, pulvérisations intradomiciliaires d'insecticides à effet rémanent, gestion des gîtes larvaires ; gestion de la résistance aux insecticides.
 - **Chimioprévention** : traitement préventif intermittent chez la **femme enceinte** (TPIp), chez le nourrisson (chimioprévention pérenne), chimioprévention du paludisme saisonnier, administration de masse dans certaines situations [S1].
-- **Vaccins antipaludiques** (**RTS,S/AS01** et **R21/Matrix-M**) chez l'enfant dans les zones de transmission **modérée à forte**, à partir de **5 mois** (série de doses espacées d'au moins 4 semaines, puis rappel ; approches selon l'âge, saisonnière ou hybride) [S1] ; **sans indication pour le voyageur** à ce jour `[À VÉRIFIER]`.
+- **Vaccins antipaludiques** (**RTS,S/AS01** et **R21/Matrix-M**) chez l'enfant dans les zones de transmission **modérée à forte**, à partir de **5 mois** (série de doses espacées d'au moins 4 semaines, puis rappel ; approches selon l'âge, saisonnière ou hybride) [S1] ; la recommandation de l'OMS vise les **enfants vivant en zone d'endémie** : elle ne concerne pas le voyageur [S1].
 
 ### 15.3 Prévention de la réintroduction en Algérie
 - **Surveillance** : notification immédiate, **investigation de chaque cas** (classement importé / introduit / autochtone), **détection réactive**, surveillance entomologique [S1, S5].
@@ -483,7 +498,7 @@ Sources : [S1] (définitions, molécules, doses, conduite) ; [S5] (déclaration)
 
 **Diagnostic retenu.** Paludisme grave d'importation à P. falciparum : troubles de conscience (Glasgow 9), convulsion, hypoglycémie, acidose (bicarbonates 14 mmol/L, lactate 5,6 mmol/L).
 
-**Traitement.** Réanimation : position latérale, voie veineuse, correction immédiate de l'hypoglycémie (glucosé hypertonique IV) puis glucosé en entretien ; artésunate IV 2,4 mg/kg (≈ 170 mg) sans délai, renouvelé selon le schéma du RCP (H12, H24 puis /24 h) [À VÉRIFIER — schéma horaire], au moins 24 h et jusqu'à reprise de la voie orale, puis CTA complète de 3 jours (artéméther-luméfantrine 4 comprimés × 2/j ; éviter les CTA contenant de la méfloquine après troubles de conscience) ; antibiothérapie empirique jusqu'aux hémocultures (sepsis non éliminé) ; gestion prudente des apports hydriques ; benzodiazépine en cas de convulsion ; déclaration obligatoire et investigation du cas.
+**Traitement.** Réanimation : position latérale, voie veineuse, correction immédiate de l'hypoglycémie (glucosé hypertonique IV) puis glucosé en entretien ; artésunate IV 2,4 mg/kg (≈ 170 mg) sans délai, renouvelé à H12 et à H24 puis toutes les 24 h (OMS), au moins 24 h et jusqu'à reprise de la voie orale, puis CTA complète de 3 jours (artéméther-luméfantrine 4 comprimés × 2/j ; éviter les CTA contenant de la méfloquine après troubles de conscience) ; antibiothérapie empirique jusqu'aux hémocultures (sepsis non éliminé) ; gestion prudente des apports hydriques ; benzodiazépine en cas de convulsion ; déclaration obligatoire et investigation du cas.
 
 **Surveillance.** Glasgow et signes vitaux rapprochés ; glycémie toutes les 4 h au minimum ; diurèse, créatinine, lactate ; parasitémie toutes les 12 h pendant 2 à 3 jours ; Hb après la sortie (hémolyse retardée post-artésunate).
 
@@ -766,7 +781,7 @@ Concernant le traitement d'un accès à P. vivax et la prévention des rechutes 
 | **Accès simple** | CTA (6 options) ; atovaquone-proguanil non citée parmi les traitements de 1re ligne | CTA en 1re intention (AL, DHA-PPQ) ; atovaquone-proguanil en alternative `[À VÉRIFIER]` | Choix guidé par la disponibilité nationale |
 | **Primaquine dose unique (anti-transmission)** | Recommandée en zone de **faible transmission** (2026) | Non pertinente en France (pas de transmission) | En Algérie (post-élimination, vecteurs présents dans le Sud) : position nationale à définir `[À VÉRIFIER]` |
 | **Diagnostic** | Microscopie ou TDR avec assurance qualité | PCR = technique la plus sensible ; frottis + goutte épaisse ou TDR en urgence | Complémentarité ; la PCR n'est pas une technique d'urgence partout |
-| **Chimioprophylaxie du voyageur** | Pas de recommandation formelle dans le guide (renvoi à *International travel and health*) | Recommandations annuelles du HCSP pour les voyageurs français [S8] | En Algérie : schéma national à préciser `[À VÉRIFIER]` |
+| **Chimioprophylaxie du voyageur** | Le guide de 2026 renvoie au guide des voyages internationaux (module paludisme, 2024) [S7] : méfloquine poursuivie 4 semaines, atovaquone-proguanil 7 jours après le retour | Recommandations annuelles du HCSP pour les voyageurs français [S8] (méfloquine poursuivie 3 semaines) `[À VÉRIFIER]` | En Algérie : aucun schéma national retrouvé pendant l'audit |
 | **Chloroquine (vivax)** | Option en zone de chloroquinosensibilité | Chloroquine non commercialisée en France ; CTA privilégiées [S4] | Disponibilité locale déterminante |
 
 ---
@@ -781,7 +796,8 @@ Détail complet (statut de vérification) dans l'en-tête YAML.
 4. [S4] SPILF. *Prise en charge et prévention du paludisme d'importation — mise à jour 2017 des RPC 2007*. (Texte intégral non lu.)
 5. [S5] Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO). JORADP n°47/2022. (DOC-00072, lu.)
 6. [S6] Ministère de la Santé (Algérie), communiqués de septembre 2020 relayés par la presse. **[non vérifiée — chiffres de presse]**
-7. [S7] OMS. *International travel and health* — paludisme. **[non consultée]**
+7. [S7] World Health Organization. *International travel and health. Module 3: Malaria*. Geneva: WHO; 2024. (Lu lors de l'audit.)
 8. [S8] HCSP. *Recommandations sanitaires aux voyageurs* (édition annuelle). **[non vérifiée]**
+9. [S9] World Health Organization. *Pocket book of hospital care for children*, 2nd ed. Geneva: WHO; 2013 (Mémento, version française, 2015). (DOC-00063, DOC-00062, lus lors de l'audit.)
 
-> **Points à auditer en priorité** : (1) schéma horaire de l'artésunate (H0, H12, H24 puis /24 h) et posologie de l'atovaquone-proguanil curative (marqueurs) ; (2) schémas de chimioprophylaxie (HCSP / OMS) ; (3) critères de gravité et d'hospitalisation de la SPILF 2017 ; (4) données algériennes officielles (INSP, programme national de prévention de la réintroduction, vecteurs) ; (5) disponibilité nationale de l'artésunate injectable et des CTA.
+> **Points à auditer en priorité** (audit du 2026-11-19 : points 1 et 2 traités, voir le rapport) : (1) schéma horaire de l'artésunate (H0, H12, H24 puis /24 h) et posologie de l'atovaquone-proguanil curative (marqueurs) ; (2) schémas de chimioprophylaxie (HCSP / OMS) ; (3) critères de gravité et d'hospitalisation de la SPILF 2017 ; (4) données algériennes officielles (INSP, programme national de prévention de la réintroduction, vecteurs) ; (5) disponibilité nationale de l'artésunate injectable et des CTA.

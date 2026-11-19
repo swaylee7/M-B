@@ -46,8 +46,7 @@
         "sources": [
           "https://shop.elsevier.com/books/sabiston-textbook-of-surgery/scott-tyler/978-0-443-12434-1",
           "https://www.inspectioncopy.elsevier.com/book/details/9780443124341",
-          "https://www.us.elsevierhealth.com/sabiston-textbook-of-surgery-9780443124365.html",
-          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101667903"
+          "https://www.us.elsevierhealth.com/sabiston-textbook-of-surgery-9780443124365.html"
         ],
         "date": "2026-11-19",
         "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
@@ -157,12 +156,15 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://www.routledge.com/Bailey--Loves-Short-Practice-of-Surgery---28th-Edition/OConnell-McCaskie-Sayers/p/book/9780367548117",
+          "https://www.taylorfrancis.com/books/9780367548117",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/127974"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible. | Audit AUD-04 (2026-11-19) : 28e édition (CRC Press/Routledge ; éd. P. R. O'Connell, A. W. McCaskie, R. D. Sayers ; ISBN 9780367548117, eBook 9781000842692 ; broché daté du 30/03/2023 sur le site éditeur) toujours la plus récente ; aucune 29e édition repérée."
     },
     {
       "id": "OUV-0503",
@@ -215,14 +217,15 @@
       "titre": "The Washington Manual of Surgery",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Klingensmith Mary E",
-        "Washington University (Saint Louis, Mo.). Department of Surgery."
+        "Wise PE",
+        "Blatnik JA"
       ],
-      "edition": "7e",
-      "annee": 2016,
+      "edition": "9e",
+      "annee": 2023,
       "editeur_commercial": "Wolters Kluwer",
       "isbn": [
-        "9781496310781"
+        "9781975201258",
+        "9781975201272"
       ],
       "langue": "en",
       "specialites": [
@@ -230,7 +233,12 @@
       ],
       "niveau": "revision",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "8e",
+        "annee": null,
+        "remarque": "8e édition entre la 7e (cataloguée avant audit) et la 9e ; non vérifiée en session",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -242,14 +250,32 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.lww.com/The-Washington-Manual-of-Surgery/p/9781975201258",
+          "https://www.wolterskluwer.com/en/solutions/ovid/washington-manual-of-surgery-the-854",
+          "https://readings.com.au/product/9781975201258/the-washington-manual-of-surgery--paul-wise--2023--9781975201258"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 7e (2016) → 9e (2023) (trace complète dans edition_cataloguee_avant_audit). 9e édition confirmée (Wolters Kluwer/LWW, 05/12/2023, 976 p.), ISBN 9781975201258 (ISBN-10 1975201256), eBook 9781975201272 ; éditeurs P. E. Wise, J. A. Blatnik. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Wolters Kluwer, 2020/2021) est possiblement parue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "7e",
+        "annee": 2016,
+        "isbn": [
+          "9781496310781"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101664278"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Wolters Kluwer, 2020/2021) est possiblement parue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Klingensmith Mary E",
+          "Washington University (Saint Louis, Mo.). Department of Surgery."
+        ]
+      }
     },
     {
       "id": "OUV-0505",
@@ -403,13 +429,14 @@
       "titre": "Blumgart's Surgery of the Liver, Biliary Tract, and Pancreas",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Jarnagin William R"
+        "Jarnagin WR"
       ],
-      "edition": "6e",
-      "annee": 2017,
+      "edition": "7e",
+      "annee": 2022,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323340625"
+        "9780323697842",
+        "9780323697859"
       ],
       "langue": "en",
       "specialites": [
@@ -419,9 +446,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "5e",
-        "annee": 2012,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101583871"
+        "edition": "6e",
+        "annee": 2017,
+        "isbn": "9780323340625",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -434,14 +462,36 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/blumgarts-surgery-of-the-liver-biliary-tract-and-pancreas-2-volume-set/jarnagin/978-0-323-69784-2",
+          "https://evolve.elsevier.com/cs/product/9780323697842",
+          "https://inspectioncopy.elsevier.com/book/details/9780323697842"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 6e (2017) → 7e (2022) (trace complète dans edition_cataloguee_avant_audit). 7e édition confirmée (Elsevier, coffret 2 volumes, 13/10/2022, © 2023, 2162 p. ; présentée comme dernière édition), ISBN 9780323697842, eBook 9780323697859 ; éditeur W. R. Jarnagin. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 7e édition (Elsevier, 2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "6e",
+        "annee": 2017,
+        "isbn": [
+          "9780323340625"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101679703"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 7e édition (Elsevier, 2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Jarnagin William R"
+        ],
+        "edition_precedente": {
+          "edition": "5e",
+          "annee": 2012,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101583871"
+        }
+      }
     },
     {
       "id": "OUV-0509",
@@ -526,8 +576,7 @@
         "sources": [
           "https://shop.elsevier.com/books/campbell-walsh-wein-urology/dmochowski/978-0-323-88405-1",
           "https://evolve.elsevier.com/cs/product/9780323884051?role=student",
-          "https://inspectioncopy.elsevier.com/book/details/9780323884051",
-          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101768282"
+          "https://inspectioncopy.elsevier.com/book/details/9780323884051"
         ],
         "date": "2026-11-19",
         "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
@@ -595,12 +644,15 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://www.porchlightbooks.com/products/smith-and-tanaghos-general-urology-19th-edition-jack-w-mcaninch-9781259834332",
+          "https://theportobellobookshop.com/9781259834332",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101778180"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible. | Audit AUD-04 (2026-11-19) : 19e édition (McGraw Hill, 13/04/2020) toujours la plus récente repérée ; ISBN broché 9781259834332, édition internationale 9781260460698 (le catalogue indiquait l'ISBN-10 1259834336, même édition). Aucune 20e édition trouvée."
     },
     {
       "id": "OUV-0512",
@@ -696,15 +748,16 @@
       "titre": "Campbell's Operative Orthopaedics",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Azar Frederick M",
-        "Beaty James H",
-        "Canale S T"
+        "Azar FM",
+        "Sawyer JR",
+        "Throckmorton TW"
       ],
-      "edition": "13e",
-      "annee": 2017,
+      "edition": "15e",
+      "annee": 2026,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323374620"
+        "9780443117633",
+        "9780443119033"
       ],
       "langue": "en",
       "specialites": [
@@ -713,9 +766,11 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "12e",
-        "annee": 2013,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101599731"
+        "edition": "14e",
+        "annee": null,
+        "isbn": "9780323672177",
+        "remarque": "14e édition (ISBN d'après l'URL shop.elsevier.com) entre la 13e (cataloguée avant audit) et la 15e ; année non vérifiée",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -728,14 +783,38 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/campbells-operative-orthopaedics-4-volume-set/azar/978-0-443-11763-3",
+          "https://evolve.elsevier.com/cs/product/9780443117633?role=student",
+          "https://campbell-foundation.org/publications/campbells-operative-orthopaedics/"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 13e (2017) → 15e (2026) (trace complète dans edition_cataloguee_avant_audit). 15e édition confirmée (Elsevier, coffret 4 volumes, 05/03/2026), ISBN 9780443117633, eBook 9780443119033, édition internationale 9780443119026 (07/05/2026) ; éditeurs F. M. Azar, J. R. Sawyer, T. W. Throckmorton. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 14e édition (Elsevier, 2020/2021) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "13e",
+        "annee": 2017,
+        "isbn": [
+          "9780323374620"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101708313"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 14e édition (Elsevier, 2020/2021) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Azar Frederick M",
+          "Beaty James H",
+          "Canale S T"
+        ],
+        "edition_precedente": {
+          "edition": "12e",
+          "annee": 2013,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101599731"
+        }
+      }
     },
     {
       "id": "OUV-0515",
@@ -832,14 +911,13 @@
       "titre": "Tachdjian's Pediatric Orthopaedics: From the Texas Scottish Rite Hospital for Children",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Herring John A",
-        "Texas Scottish Rite Hospital for Children,"
+        "Herring JA"
       ],
-      "edition": "5e",
-      "annee": 2014,
+      "edition": "6e",
+      "annee": 2021,
       "editeur_commercial": "Elsevier Saunders",
       "isbn": [
-        "9781437715491"
+        "9780323567695"
       ],
       "langue": "en",
       "specialites": [
@@ -849,9 +927,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "4e",
-        "annee": 2008,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101292055"
+        "edition": "5e",
+        "annee": 2014,
+        "isbn": "9781437715491",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -864,14 +943,37 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/tachdjians-pediatric-orthopaedics-from-the-texas-scottish-rite-hospital-for-children-6th-edition/herring/978-0-323-56769-5",
+          "https://inspectioncopy.elsevier.com/book/details/9780323567695",
+          "https://eld.bl.uk/catalog/020288754"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 5e (2014) → 6e (2021) (trace complète dans edition_cataloguee_avant_audit). 6e édition confirmée (Elsevier, coffret 2 volumes, 14/01/2021), ISBN 9780323567695 (ISBN-10 032356769X) ; éditeur J. A. Herring. Aucune 7e édition repérée au 2026-11-19. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 6e édition (Elsevier, 2021) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "5e",
+        "annee": 2014,
+        "isbn": [
+          "9781437715491"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101613428"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 6e édition (Elsevier, 2021) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Herring John A",
+          "Texas Scottish Rite Hospital for Children,"
+        ],
+        "edition_precedente": {
+          "edition": "4e",
+          "annee": 2008,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101292055"
+        }
+      }
     },
     {
       "id": "OUV-0518",
@@ -1104,14 +1206,16 @@
       "titre": "AO Principles of Fracture Management",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Rüedi Thomas P",
-        "Murphy W M"
+        "Buckley RE",
+        "Moran CG",
+        "Apivatthakakul T"
       ],
-      "edition": null,
-      "annee": 2000,
-      "editeur_commercial": "Thieme ; AO Pub",
+      "edition": "3e",
+      "annee": 2017,
+      "editeur_commercial": "Thieme",
       "isbn": [
-        "9783131174413"
+        "9783132423091",
+        "9783132423107"
       ],
       "langue": "en",
       "specialites": [
@@ -1120,7 +1224,12 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "2e",
+        "annee": null,
+        "remarque": "2e édition entre la 1re (cataloguée avant audit, 2000) et la 3e ; non vérifiée en session",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -1132,28 +1241,45 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://www.aofoundation.org/what-we-do/education/topic-areas/publishing-and-faculty-support-media/ao-principles-of-fracture-management",
+          "https://www.schweitzer-online.de/en/buch/Buckley/AO-Principles-Fracture-Management/9783132423091/A43596037/",
+          "https://search.ub.tum.de/vufind/Record/DE-604.BV047601404"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : Édition identifiée : 3e (2017) (aucune édition renseignée avant audit). 3e édition confirmée (AO Foundation / Thieme, décembre 2017, 2 volumes, 1120 p.), ISBN relié 9783132423091, eBook 9783132423107 (DOI 10.1055/b-006-149767) ; éditeurs R. E. Buckley, C. G. Moran, T. Apivatthakakul. Aucune 4e édition repérée au 2026-11-19. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 3e édition (AO Foundation / Thieme, 2018) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": null,
+        "annee": 2000,
+        "isbn": [
+          "9783131174413"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/100954683"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 3e édition (AO Foundation / Thieme, 2018) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "editeur_commercial": "Thieme ; AO Pub",
+        "auteurs_editeurs": [
+          "Rüedi Thomas P",
+          "Murphy W M"
+        ]
+      }
     },
     {
       "id": "OUV-0524",
       "titre": "Advanced Trauma Life Support (ATLS): Student Course Manual",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "American College of Surgeons. Committee on Trauma,"
+        "American College of Surgeons, Committee on Trauma"
       ],
-      "edition": "8e",
-      "annee": 2008,
+      "edition": "11e (ATLS 11)",
+      "annee": 2025,
       "editeur_commercial": "American College of Surgeons",
-      "isbn": [
-        "9781880696316"
-      ],
+      "isbn": [],
       "langue": "en",
       "specialites": [
         "TRAU",
@@ -1162,7 +1288,12 @@
       ],
       "niveau": "revision",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "10e",
+        "annee": 2018,
+        "isbn": "9780996826235",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -1173,27 +1304,44 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://store.facs.org/atls-11th-edition-printed-manual-english",
+          "https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/acs-brief/september-16-2025-issue/trauma-care-gets-major-upgrade-with-launch-of-atls-11/",
+          "https://facs.org/quality-programs/trauma/education/advanced-trauma-life-support/atls-11"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 8e (2008) → 11e (ATLS 11) (2025) (trace complète dans edition_cataloguee_avant_audit). 11e édition (ATLS 11) confirmée sur le site de l'American College of Surgeons : lancement annoncé en septembre 2025, manuel imprimé en vente sur store.facs.org, accès au manuel inclus pour les participants aux cours ATLS. ISBN non affiché [À VÉRIFIER]. 10e édition (2018) : ISBN 9780996826235. La 9e édition (2012) s'intercale aussi entre la 8e (cataloguée avant audit, 2008) et les suivantes [non vérifiée en session]. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Des éditions ultérieures (9e 2012, 10e 2018 ; une 11e plus récente est possible ; American College of Surgeons) sont connues. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "8e",
+        "annee": 2008,
+        "isbn": [
+          "9781880696316"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101761638"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Des éditions ultérieures (9e 2012, 10e 2018 ; une 11e plus récente est possible ; American College of Surgeons) sont connues. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "American College of Surgeons. Committee on Trauma,"
+        ]
+      }
     },
     {
       "id": "OUV-0525",
       "titre": "Youmans and Winn Neurological Surgery",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Winn H Richard"
+        "Winn HR"
       ],
-      "edition": "7e",
-      "annee": 2017,
+      "edition": "8e",
+      "annee": 2022,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323287821"
+        "9780323661928"
       ],
       "langue": "en",
       "specialites": [
@@ -1202,9 +1350,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "6e",
-        "annee": 2011,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101513549"
+        "edition": "7e",
+        "annee": 2017,
+        "isbn": "9780323287821",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -1217,14 +1366,42 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/youmans-and-winn-neurological-surgery/winn/978-0-323-66192-8",
+          "https://search.worldcat.org/oclc/1300711519",
+          "https://shop.elsevier.com/books/youmans-and-winn-neurological-surgery/winn/978-0-443-39932-9"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 7e (2017) → 8e (2022) (trace complète dans edition_cataloguee_avant_audit). 8e édition confirmée (Elsevier, coffret 4 volumes, 21/01/2022), ISBN 9780323661928 ; éditeur H. R. Winn. Une 9e édition apparaît sur shop.elsevier.com (ISBN 9780443399329) sans date relevée en session — non retenue. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "7e",
+        "annee": 2017,
+        "isbn": [
+          "9780323287821"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101690041"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "auteurs_editeurs": [
+          "Winn H Richard"
+        ],
+        "edition_precedente": {
+          "edition": "6e",
+          "annee": 2011,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101513549"
+        }
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "edition_annoncee": {
+        "edition": "9e",
+        "annee": null,
+        "isbn": "9780443399329",
+        "statut": "fiche Elsevier (relié 9780443399329, eBook 9780443399336) sans date relevée — parution non confirmée"
+      }
     },
     {
       "id": "OUV-0526",
@@ -1450,8 +1627,7 @@
         "sources": [
           "https://shop.elsevier.com/books/cummings-otolaryngology/francis/978-0-443-11984-2",
           "https://www.inspectioncopy.elsevier.com/book/details/9780443119842",
-          "https://www.elsevierhealth.com.au/cummings-otolaryngology-head-and-neck-surgery-9780443119842.html",
-          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101768357"
+          "https://www.elsevierhealth.com.au/cummings-otolaryngology-head-and-neck-surgery-9780443119842.html"
         ],
         "date": "2026-11-19",
         "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
@@ -1641,8 +1817,7 @@
         "sources": [
           "https://shop.elsevier.com/books/kanskis-clinical-ophthalmology/salmon/978-0-443-11099-3",
           "https://evolve.elsevier.com/cs/product/9780443110993?role=faculty",
-          "https://inspectioncopy.elsevier.com/book/details/9780443110993",
-          "https://www.ncbi.nlm.nih.gov/nlmcatalog/490356"
+          "https://inspectioncopy.elsevier.com/book/details/9780443110993"
         ],
         "date": "2026-11-19",
         "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
@@ -1670,14 +1845,15 @@
       "titre": "Ophthalmology (Yanoff & Duker)",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Yanoff Myron",
-        "Duker Jay S"
+        "Yanoff M",
+        "Duker JS"
       ],
-      "edition": "5e",
-      "annee": 2019,
+      "edition": "6e",
+      "annee": 2023,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323528191"
+        "9780323795159",
+        "9780323795173"
       ],
       "langue": "en",
       "specialites": [
@@ -1686,9 +1862,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "4e",
-        "annee": 2014,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101628010"
+        "edition": "5e",
+        "annee": 2019,
+        "isbn": "9780323528191",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -1701,14 +1878,37 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/ophthalmology/yanoff/978-0-323-79515-9",
+          "https://evolve.elsevier.com/cs/product/9780323795159?role=student",
+          "https://inspectioncopy.elsevier.com/book/details/9780323795159"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 5e (2019) → 6e (2023) (trace complète dans edition_cataloguee_avant_audit). 6e édition confirmée (Elsevier ; evolve : 04/01/2023, © 2023, 1360 p. ; certains libraires : décembre 2022), ISBN 9780323795159 (ISBN-10 0323795153), eBook 9780323795173, édition internationale 9780323795166 ; auteurs M. Yanoff, J. S. Duker. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 6e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "5e",
+        "annee": 2019,
+        "isbn": [
+          "9780323528191"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101738258"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 6e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Yanoff Myron",
+          "Duker Jay S"
+        ],
+        "edition_precedente": {
+          "edition": "4e",
+          "annee": 2014,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101628010"
+        }
+      }
     },
     {
       "id": "OUV-0536",
@@ -1948,14 +2148,16 @@
       "titre": "Rutherford's Vascular Surgery and Endovascular Therapy",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Sidawy Anton N",
-        "Perler Bruce A"
+        "Sidawy AN",
+        "Perler BA",
+        "Harris LM"
       ],
-      "edition": "9e",
-      "annee": 2019,
+      "edition": "11e",
+      "annee": 2026,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323427913"
+        "9780443286179",
+        "9780443286186"
       ],
       "langue": "en",
       "specialites": [
@@ -1964,9 +2166,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "8e",
-        "annee": 2014,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101617633"
+        "edition": "10e",
+        "annee": 2022,
+        "isbn": "9780323775571",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -1979,14 +2182,37 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/rutherfords-vascular-surgery-and-endovascular-therapy-2-volume-set/sidawy/978-0-443-28617-9",
+          "https://www.us.elsevierhealth.com/rutherfords-vascular-surgery-and-endovascular-therapy-e-book-9780443286186.html",
+          "https://shop.elsevier.com/books/rutherfords-vascular-surgery-and-endovascular-therapy-2-volume-set/sidawy/978-0-323-77557-1"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 9e (2019) → 11e (2026) (trace complète dans edition_cataloguee_avant_audit). 11e édition confirmée (Elsevier, coffret 2 volumes, 01/05/2026), ISBN 9780443286179, eBook 9780443286186 ; éditeurs A. N. Sidawy, B. A. Perler, L. M. Harris. La 10e édition (2022, ISBN 9780323775571) s'intercale entre la 9e (cataloguée avant audit) et la 11e. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 10e édition (Elsevier, 2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "9e",
+        "annee": 2019,
+        "isbn": [
+          "9780323427913"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101720246"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 10e édition (Elsevier, 2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Sidawy Anton N",
+          "Perler Bruce A"
+        ],
+        "edition_precedente": {
+          "edition": "8e",
+          "annee": 2014,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101617633"
+        }
+      }
     },
     {
       "id": "OUV-0542",
@@ -2348,16 +2574,16 @@
       "titre": "Holcomb and Ashcraft's Pediatric Surgery",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Holcomb George W",
-        "Murphy J Patrick",
-        "St. Peter Shawn D",
-        "Gatti John M"
+        "St Peter SD",
+        "Snyder CL"
       ],
-      "edition": "7e",
-      "annee": 2020,
+      "edition": "8e",
+      "annee": 2026,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323549400"
+        "9780443124310",
+        "9780443124334",
+        "9780443124327"
       ],
       "langue": "en",
       "specialites": [
@@ -2366,9 +2592,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "6e",
-        "annee": 2014,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101629589"
+        "edition": "7e",
+        "annee": 2020,
+        "isbn": "9780323549400",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -2383,12 +2610,37 @@
       "verification": {
         "statut": "verifie",
         "sources": [
-          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101762981"
+          "https://shop.elsevier.com/books/holcomb-and-ashcrafts-pediatric-surgery/st-peter/978-0-443-12431-0",
+          "https://inspectioncopy.elsevier.com/book/details/9780443124310",
+          "https://transformpeds.childrensmercy.org/holcomb--ashcrafts-pediatric-surgery-8th-edition-coedited-by-shawn-d-st-peter-md/"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 7e (2020) → 8e (2026) (trace complète dans edition_cataloguee_avant_audit). 8e édition confirmée (Elsevier ; shop.elsevier.com : 11/01/2026 ; eBook 06/02/2026 ; copyright 2027), ISBN relié 9780443124310 (ISBN-10 0443124310), eBook 9780443124334, EPUB 9780443124327 ; éditeurs S. D. St Peter, C. L. Snyder. Remplace la 7e édition (2020) vérifiée par le premier catalogueur. | Notes antérieures (avant audit) : Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "7e",
+        "annee": 2020,
+        "isbn": [
+          "9780323549400"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101762981"
+        ],
+        "auteurs_editeurs": [
+          "Holcomb George W",
+          "Murphy J Patrick",
+          "St. Peter Shawn D",
+          "Gatti John M"
+        ],
+        "edition_precedente": {
+          "edition": "6e",
+          "annee": 2014,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101629589"
+        }
+      }
     },
     {
       "id": "OUV-0551",
@@ -2422,14 +2674,17 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/pediatric-surgery-2-volume-set/coran/978-0-323-07255-7",
+          "https://www.barnesandnoble.com/w/pediatric-surgery-2-volume-set-arnold-g-coran-md/1110855461",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101572375"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2022/2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2022/2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]. | Audit AUD-04 (2026-11-19) : 7e édition (Elsevier, 2 volumes, 30/01–14/02/2012, ISBN 9780323072557) confirmée et présentée par Elsevier comme « latest edition » ; aucune 8e édition du Coran repérée (ne pas confondre avec Holcomb and Ashcraft's Pediatric Surgery 8e, 2026 — voir OUV-0550)."
     },
     {
       "id": "OUV-0552",
@@ -2566,13 +2821,14 @@
       "titre": "Plastic Surgery (Neligan)",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Neligan Peter"
+        "Neligan PC"
       ],
-      "edition": "4e",
-      "annee": 2018,
+      "edition": "5e",
+      "annee": 2023,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323356305"
+        "9780323810371",
+        "9780323830287"
       ],
       "langue": "en",
       "specialites": [
@@ -2580,7 +2836,12 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "4e",
+        "annee": 2018,
+        "isbn": "9780323356305",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -2592,31 +2853,48 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/plastic-surgery-6-volume-set/neligan/978-0-323-81037-1",
+          "https://evolve.elsevier.com/cs/product/9780323810371",
+          "https://www.elsevierhealth.com.au/plastic-surgery-6-volume-set-9780323810371.html"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 4e (2018) → 5e (2023) (trace complète dans edition_cataloguee_avant_audit). 5e édition confirmée (Elsevier, coffret 6 volumes, 08/11/2023, 4680 p.), ISBN 9780323810371 (ISBN-10 0323810373), eText 9780323830287 ; éditeur général P. C. Neligan (volumes vendus séparément sous ISBN propres). | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 5e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "4e",
+        "annee": 2018,
+        "isbn": [
+          "9780323356305"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101714126"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 5e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Neligan Peter"
+        ]
+      }
     },
     {
       "id": "OUV-0556",
       "titre": "Green's Operative Hand Surgery",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Wolfe Scott W",
-        "Hotchkiss Robert N",
-        "Pederson William C",
-        "Kozin Scott H",
-        "Cohen Mark S"
+        "Wolfe SW",
+        "Pederson WC",
+        "Kozin SH",
+        "Cohen MS"
       ],
-      "edition": "7e",
-      "annee": 2017,
+      "edition": "8e",
+      "annee": 2021,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9781455774272"
+        "9780323697934",
+        "9780323697941"
       ],
       "langue": "en",
       "specialites": [
@@ -2626,9 +2904,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "6e",
-        "annee": 2011,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101529031"
+        "edition": "7e",
+        "annee": 2017,
+        "isbn": "9781455774272",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -2641,14 +2920,40 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/greens-operative-hand-surgery/wolfe/978-0-323-69793-4",
+          "https://inspectioncopy.elsevier.com/book/details/9780323697934",
+          "https://mirai.kinokuniya.co.jp/catalog/green-operative-hand-surgery-8th"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 7e (2017) → 8e (2021) (trace complète dans edition_cataloguee_avant_audit). 8e édition confirmée (Elsevier, coffret 2 volumes, 03/12/2021, ~2400 p.), ISBN 9780323697934 (ISBN-10 0323697933), eBook 9780323697941 ; éditeurs S. W. Wolfe, W. C. Pederson, S. H. Kozin, M. S. Cohen. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "7e",
+        "annee": 2017,
+        "isbn": [
+          "9781455774272"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101673850"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Wolfe Scott W",
+          "Hotchkiss Robert N",
+          "Pederson William C",
+          "Kozin Scott H",
+          "Cohen Mark S"
+        ],
+        "edition_precedente": {
+          "edition": "6e",
+          "annee": 2011,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101529031"
+        }
+      }
     },
     {
       "id": "OUV-0557",
@@ -2791,19 +3096,18 @@
     },
     {
       "id": "OUV-0560",
-      "titre": "Newman and Carranza's Clinical Periodontology",
+      "titre": "Newman and Carranza's Clinical Periodontology and Implantology",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Newman Michael G",
-        "Takei Henry H",
-        "Klokkevold Perry R",
-        "Carranza Fermin A"
+        "Newman MG",
+        "et al. [À VÉRIFIER]"
       ],
-      "edition": "13e",
-      "annee": 2019,
+      "edition": "14e",
+      "annee": 2023,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323523004"
+        "9780323878876",
+        "9780323878883"
       ],
       "langue": "en",
       "specialites": [
@@ -2812,9 +3116,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "12e",
-        "annee": 2015,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101638698"
+        "edition": "13e",
+        "annee": 2019,
+        "isbn": "9780323523004",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -2827,14 +3132,40 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/newman-and-carranzas-clinical-periodontology-and-implantology/newman/978-0-323-87887-6",
+          "https://evolve.elsevier.com/cs/product/9780323878876?role=student",
+          "https://inspectioncopy.elsevier.com/book/details/9780323878876"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 13e (2019) → 14e (2023) (trace complète dans edition_cataloguee_avant_audit). 14e édition confirmée (Elsevier, 24/04/2023, relié), titre devenu « Newman and Carranza's Clinical Periodontology and Implantology », ISBN 9780323878876, eBook 9780323878883. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 14e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "13e",
+        "annee": 2019,
+        "isbn": [
+          "9780323523004"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101736476"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 14e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "titre": "Newman and Carranza's Clinical Periodontology",
+        "auteurs_editeurs": [
+          "Newman Michael G",
+          "Takei Henry H",
+          "Klokkevold Perry R",
+          "Carranza Fermin A"
+        ],
+        "edition_precedente": {
+          "edition": "12e",
+          "annee": 2015,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101638698"
+        }
+      }
     },
     {
       "id": "OUV-0561",
@@ -3029,14 +3360,15 @@
       "titre": "Cohen's Pathways of the Pulp",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Hargreaves Kenneth M",
-        "Berman Louis H"
+        "Berman LH",
+        "Hargreaves KM"
       ],
-      "edition": "11e",
-      "annee": 2016,
+      "edition": "12e",
+      "annee": 2020,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323096355"
+        "9780323673037",
+        "9780323673044"
       ],
       "langue": "en",
       "specialites": [
@@ -3045,9 +3377,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "10e",
-        "annee": 2011,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101535923"
+        "edition": "11e",
+        "annee": 2016,
+        "isbn": "9780323096355",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -3060,14 +3393,43 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/cohens-pathways-of-the-pulp/berman/978-0-323-67303-7",
+          "https://evolve.elsevier.com/cs/product/9780323673037?role=faculty",
+          "https://lib.ecu.edu/catalog-preview/catalog/6635586"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 11e (2016) → 12e (2020) (trace complète dans edition_cataloguee_avant_audit). 12e édition confirmée (Elsevier, octobre 2020, © 2021, 992 p.), ISBN 9780323673037, eBook 9780323673044 ; éditeurs L. H. Berman, K. M. Hargreaves. 13e édition pré-annoncée (ISBN 9780443112850, 19/03/2027). | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 12e édition (Elsevier, 2020/2021) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "11e",
+        "annee": 2016,
+        "isbn": [
+          "9780323096355"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101672609"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "auteurs_editeurs": [
+          "Hargreaves Kenneth M",
+          "Berman Louis H"
+        ],
+        "edition_precedente": {
+          "edition": "10e",
+          "annee": 2011,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101535923"
+        }
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 12e édition (Elsevier, 2020/2021) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "edition_annoncee": {
+        "edition": "13e",
+        "annee": 2027,
+        "isbn": "9780443112850",
+        "statut": "pré-annonce Elsevier (disponibilité prévue 19/03/2027)"
+      }
     },
     {
       "id": "OUV-0566",
@@ -3254,7 +3616,7 @@
       "agent": "AUD-04",
       "date": "2026-11-19",
       "objet": "audit des éditions (dernière édition, année, ISBN) et fusion des doublons",
-      "entrees_auditees": 7,
+      "entrees_auditees": 24,
       "entrees_retirees_doublons": 0,
       "sauvegarde": "00_SYSTEME/sauvegardes/20261119/24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-chirurgicales.avant_audit_AUD-04.json"
     }

@@ -741,3 +741,33 @@ Biologie : **calcémie 1,55 mmol/L** (N 2,2–2,6), phosphatémie 1,4 mmol/L (no
 *Piège* : Ne pas regarder la valeur des PAL.
 
 *Les QCM 9 à 12 de la série (QCM-PEDI-0533 à QCM-PEDI-0536) figurent uniquement dans le lot JSON `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json`.*
+## 21. Divergences entre recommandations
+
+| Question | Consensus mondial 2016 [S1] | France 2022 [S3] | AAP 2008 [S4] | OMS [S5, S6] | Algérie (schéma rapporté) [S11] |
+|---|---|---|---|---|---|
+| **Prévention 0–12 mois** | **400 UI/j** pour tous, quel que soit l'allaitement | **400–800 UI/j** (0–2 ans) | 400 UI/j (allaité ou < 1 L/j de lait infantile) | Prématuré nourri au lait humain : 400–800 UI/j (conditionnelle, 2022) ; faible poids : 400 UI/j + Ca + P (2015) | **200 000 UI à 1 mois et à 6 mois** (doses intermittentes) **[À VÉRIFIER]** |
+| **Prévention après 12 mois** | **≥ 600 UI/j** (alimentation et/ou supplément) | **400–800 UI/j** jusqu'à 18 ans ; **800–1 600 UI/j** si facteurs de risque | **[non relu — À VÉRIFIER]** | — | Non précisé dans les sources retrouvées |
+| **Mode d'administration** | Quotidien privilégié ; doses uniques réservées au traitement | Quotidien ; intermittent si observance douteuse **[schémas À VÉRIFIER]** | Quotidien | Quotidien | Intermittent à forte dose |
+| **Traitement curatif** | ≥ 2 000 UI/j ≥ 3 mois (ou dose unique selon l'âge) **+ calcium 500 mg/j** | Hors champ du consensus de prévention | — | — | Schéma curatif national **[À VÉRIFIER]** |
+| **Grossesse** | 600 UI/j | Supplémentation recommandée par d'autres textes français **[À VÉRIFIER]** | — | — | **[À VÉRIFIER]** |
+
+**Commentaire** : le principal point de divergence concerne le **rythme** de la supplémentation. Les recommandations internationales récentes privilégient une **dose quotidienne** modérée, alors que le schéma algérien rapporté repose sur des **doses intermittentes élevées** (plus faciles à administrer lors des consultations de vaccination, mais exposant à des concentrations fluctuantes et à un risque d'hypercalcémie en cas de cumul). L'étude algéroise de 2021 plaide pour une **actualisation** du schéma national [S8]. Toute modification relève des autorités sanitaires.
+
+## 22. Références
+
+1. **[S1]** Munns CF, Shaw N, Kiely M, et al. Global consensus recommendations on prevention and management of nutritional rickets. *J Clin Endocrinol Metab*. 2016;101(2):394-415. doi:10.1210/jc.2015-2175. PMID 26745253.
+2. **[S2]** Munns CF, Shaw N, Kiely M, et al. Global consensus recommendations on prevention and management of nutritional rickets. *Horm Res Paediatr*. 2016;85(2):83-106. doi:10.1159/000443136. PMID 26741135.
+3. **[S3]** Bacchetta J, Edouard T, Laverny G, et al. Vitamin D and calcium intakes in general pediatric populations: a French expert consensus paper. *Arch Pediatr*. 2022;29(4):312-325. doi:10.1016/j.arcped.2022.02.008. PMID 35305879.
+4. **[S4]** Wagner CL, Greer FR; AAP Section on Breastfeeding; Committee on Nutrition. Prevention of rickets and vitamin D deficiency in infants, children, and adolescents. *Pediatrics*. 2008;122(5):1142-1152. doi:10.1542/peds.2008-1862. PMID 18977996.
+5. **[S5]** World Health Organization. *WHO recommendations for care of the preterm or low-birth-weight infant*. Geneva: WHO; 2022 (DOC-00051, lu).
+6. **[S6]** Organisation mondiale de la Santé. *Mémento de soins hospitaliers pédiatriques*. 2e éd. Genève : OMS ; 2015 (DOC-00062, lu).
+7. **[S7]** World Health Organization. *WHO Model List of Essential Medicines for Children, 10th list (2025)* (DOC-00037, lu).
+8. **[S8]** Drali O, Arab M, Lamdjadani N, Guechi Z, Berrah H. Vitamin D status in preschool children in Algeria. *Arch Pediatr*. 2021;28(3):215-221. doi:10.1016/j.arcped.2020.12.013. PMID 33707102.
+9. **[S9]** Djennane M, Lebbah S, Roux C, et al. Vitamin D status of schoolchildren in Northern Algeria, seasonal variations and determinants of vitamin D deficiency. *Osteoporos Int*. 2014;25(5):1493-1502. doi:10.1007/s00198-014-2623-7. PMID 24566583.
+10. **[S10]** Garabedian M, Ben-Mekhbi H. Le rachitisme carentiel : situation actuelle en France et en Algérie. *Pediatrie*. 1989;44(4):259-264. PMID 2677969.
+11. **[S11]** Schéma national algérien de prévention du rachitisme carentiel (200 000 UI de vitamine D à 1 et 6 mois) — **texte officiel non retrouvé ; information issue de sources secondaires** **[référence non vérifiée]**.
+12. **[S12]** Haffner D, Emma F, Eastwood DM, et al. Clinical practice recommendations for the diagnosis and management of X-linked hypophosphataemia. *Nat Rev Nephrol*. 2019;15(7):435-455. doi:10.1038/s41581-019-0152-5. PMID 31068690.
+13. **[S13]** Uday S, Fratzl-Zelman N, Roschger P, et al. Cardiac, bone and growth plate manifestations in hypocalcemic infants: revealing the hidden body of the vitamin D deficiency iceberg. *BMC Pediatr*. 2018;18(1):183. doi:10.1186/s12887-018-1159-y. PMID 29940979.
+14. **[S14]** Thacher TD, Pettifor JM, Tebben PJ, et al. Rickets severity predicts clinical outcomes in children with X-linked hypophosphatemia: utility of the radiographic Rickets Severity Score. *Bone*. 2019;122:76-81. doi:10.1016/j.bone.2019.02.010. PMID 30772600.
+
+*Dossiers Mediverse liés : DOS-PEDI-0002 (calendrier vaccinal), DOS-PEDI-0003 (malnutrition), DOS-PEDI-0005 (convulsions du nourrisson), DOS-NEON-0003 (prématuré).*

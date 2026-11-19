@@ -6,11 +6,17 @@ sous_specialite: "Cardiopathie ischémique — syndrome coronarien chronique"
 items_residanat: [RES-MED-055]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0009.md
 sources:
   - id: S1
     reference: "Vrints C, Andreotti F, Koskinas KC, et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-3537."
@@ -35,10 +41,10 @@ sources:
     organisme: AHA/ACC et sociétés associées
     annee: 2023
     type: recommandation
-    doi: ""
+    doi: "10.1161/CIR.0000000000001168"
     url: ""
-    verifiee: false
-    remarque: "Citée de mémoire pour les divergences ; référence non confirmée pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 37471501). Texte intégral non lu."
   - id: S4
     reference: "Mach F, Baigent C, Catapano AL, et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J. 2020;41(1):111-188."
     organisme: ESC/EAS
@@ -80,10 +86,10 @@ sources:
     organisme: ""
     annee: 2020
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa1915922"
     url: ""
-    verifiee: false
-    remarque: "Essai cité de mémoire ; métadonnées non confirmées pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 32227755)."
   - id: S9
     reference: "Moussouni A, Sidi-Yakhlef A, Hamdaoui H, Aouar A, Belkhatir D. Prevalence and risk factors of prehypertension and hypertension in Algeria. BMC Public Health. 2022;22(1):1571."
     organisme: ""
@@ -98,17 +104,26 @@ sources:
     organisme: ESC
     annee: 2019
     type: recommandation
-    doi: ""
+    doi: "10.1093/eurheartj/ehz425"
     url: ""
-    verifiee: false
-    remarque: "Remplacée par S1 ; citée pour l'historique de la notion de SCC ; métadonnées non confirmées pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Remplacée par S1 ; citée pour l'historique de la notion de SCC ; vérifiée par l'audit (PubMed, PMID 31504439)."
+  - id: S11
+    reference: "Hochman JS, Anthopolos R, Reynolds HR, et al. Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND. JAMA. 2026 (publication en ligne le 7 novembre 2026)."
+    organisme: ""
+    annee: 2026
+    type: article
+    doi: "10.1001/jama.2026.20375"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par l'audit (PubMed, PMID 42998244 ; résumé lu) : 5 179 patients, suivi médian de 9 ans ; mortalité toutes causes à 11 ans 25,8 % (invasive) contre 26,9 % (conservatrice), différence non significative."
 mots_cles: [angine de poitrine, angor stable, syndrome coronarien chronique, probabilité pré-test, modèle RF-CL, coroscanner, imagerie de stress, FFR, ANOCA, INOCA, angor vasospastique, Prinzmetal, angor microvasculaire, bêtabloquants, inhibiteurs calciques, dérivés nitrés, ivabradine, ranolazine, statines, LDL-cholestérol, colchicine, revascularisation, ISCHEMIA]
 ---
 
 # Angine de poitrine et syndrome coronarien chronique
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité et validé par l'IA (AUD-01/AUD-02, 2026-11-19)** ; relecture par un enseignant requise. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-055 — *Angine de poitrine : épidémiologie, physiopathologie, diagnostic, évolution, traitement.* L'intitulé du programme parle d'« angine de poitrine » ; les recommandations européennes utilisent depuis 2019 le terme de **syndrome coronarien chronique (SCC)** [S10, S1]. Ce dossier traite l'angor **stable** ; l'angor **instable** relève des syndromes coronariens aigus (DOS-CARD-0004), l'infarctus de DOS-CARD-0003.
 
@@ -304,7 +319,7 @@ L'ESC 2024 recommande d'estimer la **vraisemblance pré-test** par le **modèle 
 | **Élevée** | **> 50–85 %** | Imagerie fonctionnelle de stress de préférence |
 | **Très élevée** | **> 85 %** | Coronarographie directe envisageable, surtout si symptômes sévères ou critères de haut risque |
 
-Les seuils > 5–50 % pour le **coroscanner** sont confirmés par les documents de l'ESC [S1] ; les bornes exactes retenues pour l'**imagerie fonctionnelle** (> 15–85 %) et pour la **coronarographie directe** (> 85 %) sont à confirmer sur le texte intégral **[À VÉRIFIER]**. La vraisemblance peut être **ajustée** par d'autres éléments (anomalies de l'ECG de repos, dysfonction VG, artériopathie, **score calcique coronaire**) [S1].
+Les seuils sont confirmés par les documents de l'ESC (communiqué, messages essentiels) et des commentaires publiés [S1] : **coroscanner** recommandé pour une vraisemblance faible à modérée (> 5–50 %, classe I) ; **imagerie fonctionnelle de stress** (échographie, TEMP, TEP, IRM de perfusion) recommandée pour une vraisemblance modérée à élevée (> 15–85 %, classe I) ; **coronarographie invasive** d'emblée pour une vraisemblance très élevée (> 85 %). Les deux premières fourchettes se chevauchent entre 15 et 50 % : le choix dépend alors du patient et de l'expertise locale. La vraisemblance peut être **ajustée** par d'autres éléments (anomalies de l'ECG de repos, dysfonction VG, artériopathie, **score calcique coronaire**) [S1].
 
 ---
 
@@ -481,14 +496,14 @@ Le traitement du SCC poursuit **deux objectifs distincts**, qu'il faut toujours 
 
 | Classe / molécule | Posologie usuelle chez l'adulte (RCP) | Contre-indications et précautions principales |
 |---|---|---|
-| **Trinitrine sublinguale** (comprimé, capsule ou pulvérisation) | Une prise (dose unitaire selon la spécialité, de l'ordre de 0,15 à 0,6 mg) en position assise ; **répéter après 5 min** si besoin **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | **Hypotension**, **association aux inhibiteurs de la PDE5** (sildénafil, tadalafil…) et au riociguat, **rétrécissement aortique serré**, CMH obstructive ; céphalées. Si la douleur persiste malgré la prise (au-delà de 15–20 min ou après 2 à 3 prises), **appeler les secours** (SCA possible) |
+| **Trinitrine sublinguale** (comprimé, capsule ou pulvérisation) | Une prise de **0,3 à 0,6 mg** selon la spécialité (pulvérisation : 1 à 2 bouffées de 0,15 ou 0,30 mg), en position assise ; **répéter après 5 min** si besoin, **sans dépasser 3 prises en 15 min** (RCP) | **Hypotension**, **association aux inhibiteurs de la PDE5** (sildénafil, tadalafil…) et au riociguat, **rétrécissement aortique serré**, CMH obstructive ; céphalées. Si la douleur persiste malgré la prise (au-delà de 15–20 min ou après 2 à 3 prises), **appeler les secours** (SCA possible) |
 | **Bêtabloquants** — bisoprolol | 2,5 à 10 mg/j en une prise (titration selon la FC et la tolérance) | Asthme sévère, BAV de haut degré non appareillé, bradycardie sinusale symptomatique, IC aiguë décompensée, artériopathie sévère avec ischémie critique ; **angor vasospastique** ; prudence chez le diabétique (masquage des hypoglycémies) |
 | — métoprolol (succinate, LP) | 50 à 200 mg/j | Idem |
 | — aténolol | 50 à 100 mg/j (adapter à la fonction rénale) | Idem |
 | **Inhibiteurs calciques dihydropyridiniques** — amlodipine | 5 à 10 mg/j | Œdèmes des membres inférieurs, hypotension ; utilisables avec un bêtabloquant |
-| **Inhibiteurs calciques bradycardisants** — diltiazem, vérapamil | Formes à libération prolongée, doses selon le RCP **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | **FEVG réduite**, bradycardie, BAV ; **éviter l'association avec un bêtabloquant** (bradycardie, BAV) ; interactions (CYP3A4 : statines, colchicine, AOD) |
-| **Dérivés nitrés d'action prolongée** — mononitrate d'isosorbide | Selon le RCP (formes à libération immédiate en prises asymétriques ou formes LP en une prise) **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | **Tolérance** (respecter un **intervalle libre de nitrés** de 10–14 h) ; mêmes contre-indications que la trinitrine |
-| **Ivabradine** | 5 mg × 2/j, puis 7,5 mg × 2/j selon la FC ; 2,5 mg × 2/j chez le sujet âgé (≥ 75 ans) à l'initiation | **Indication** : rythme sinusal avec **FC de repos ≥ 70/min**, en cas d'intolérance ou de contre-indication aux bêtabloquants, ou en association à un bêtabloquant insuffisant. **Contre-indications (RCP)** : **FC de repos < 70/min avant le traitement**, choc cardiogénique, infarctus aigu, angor instable, hypotension sévère, maladie du sinus, bloc sino-auriculaire, BAV du 3e degré, dépendance à un stimulateur, insuffisance hépatique sévère, **association au vérapamil ou au diltiazem**, **inhibiteurs puissants du CYP3A4**, grossesse et allaitement. Effets : phosphènes, bradycardie, FA |
+| **Inhibiteurs calciques bradycardisants** — diltiazem, vérapamil | **Diltiazem** : 60 mg × 3/j (forme à libération immédiate), jusqu'à 360 mg/j, ou forme LP en une ou deux prises (dose quotidienne usuelle 200–300 mg) ; **vérapamil** : 240–360 mg/j (par exemple 120 mg × 3/j ou LP 240 mg × 1 à 2/j), sans dépasser 480 mg/j ; doses plus faibles chez le sujet âgé (RCP ; fourchettes concordantes avec le tableau ESC de DOS-CARD-0007) | **FEVG réduite**, bradycardie, BAV ; **éviter l'association avec un bêtabloquant** (bradycardie, BAV) ; interactions (CYP3A4 : statines, colchicine, AOD) |
+| **Dérivés nitrés d'action prolongée** — mononitrate d'isosorbide | Forme à libération immédiate : **20 mg × 2/j en prises asymétriques** (matin et 7 h plus tard ; jusqu'à 40 mg × 2/j) ; forme LP : **30 à 60 mg × 1/j le matin** (jusqu'à 120 mg/j) (RCP) | **Tolérance** (respecter un **intervalle libre de nitrés** de 10–14 h) ; mêmes contre-indications que la trinitrine |
+| **Ivabradine** | 5 mg × 2/j, puis 7,5 mg × 2/j selon la FC ; 2,5 mg × 2/j chez le sujet âgé (≥ 75 ans) à l'initiation | **Indication (RCP)** : rythme sinusal avec **FC de repos ≥ 70/min**, en cas d'intolérance ou de contre-indication aux bêtabloquants, ou en association à un bêtabloquant insuffisant. **Mais l'ESC 2024 ne recommande pas son ajout** à un autre anti-angineux chez un patient **sans IC clinique et à FEVG > 40 %** (classe III, essai SIGNIFY) : en pratique, place limitée à l'intolérance ou à la contre-indication aux bêtabloquants, ou à la dysfonction VG (FEVG ≤ 40 %). **Contre-indications (RCP)** : **FC de repos < 70/min avant le traitement**, choc cardiogénique, infarctus aigu, angor instable, hypotension sévère, maladie du sinus, bloc sino-auriculaire, BAV du 3e degré, dépendance à un stimulateur, insuffisance hépatique sévère, **association au vérapamil ou au diltiazem**, **inhibiteurs puissants du CYP3A4**, grossesse et allaitement. Effets : phosphènes, bradycardie, FA |
 | **Ranolazine** | 375 mg × 2/j, puis 500 mg puis 750 mg × 2/j selon la tolérance (RCP) | **Allongement du QT**, interactions (inhibiteurs puissants du CYP3A4 contre-indiqués), insuffisance rénale sévère, insuffisance hépatique ; vertiges, constipation |
 | **Nicorandil** | 10 à 20 mg × 2/j (débuter à 5 mg × 2/j en cas de céphalées) (RCP) | **Ulcérations** cutanéo-muqueuses et digestives (arrêt), hypotension, association aux inhibiteurs de la PDE5 |
 | **Trimétazidine** | 35 mg (LP) × 2/j ; 35 mg/j si insuffisance rénale modérée (RCP) | **Maladie de Parkinson et troubles du mouvement** (contre-indication), insuffisance rénale sévère ; syndromes parkinsoniens induits |
@@ -502,7 +517,7 @@ Le traitement du SCC poursuit **deux objectifs distincts**, qu'il faut toujours 
 | FC élevée, post-infarctus, FEVG altérée | Bêtabloquant |
 | Angor vasospastique | Inhibiteur calcique (± nitré) ; éviter le bêtabloquant |
 | FC basse, BAV | Dihydropyridine (amlodipine), nitré, ranolazine, nicorandil |
-| PA basse | Faibles doses ; ivabradine (si FC ≥ 70/min et rythme sinusal), ranolazine, trimétazidine |
+| PA basse | Faibles doses ; ranolazine, trimétazidine ; ivabradine seulement si FC ≥ 70/min en rythme sinusal **et** intolérance aux bêtabloquants ou FEVG ≤ 40 % (pas en association si FEVG > 40 % sans IC : classe III) |
 | Asthme sévère | Inhibiteur calcique |
 | HTA associée | Bêtabloquant et/ou inhibiteur calcique (double bénéfice) |
 | FEVG ≤ 40 % | Bêtabloquant de l'IC ; éviter diltiazem et vérapamil |
@@ -522,7 +537,7 @@ Le traitement du SCC poursuit **deux objectifs distincts**, qu'il faut toujours 
 
 - **Statine de forte intensité** (atorvastatine 40–80 mg/j ou rosuvastatine 20–40 mg/j) pour tous les patients atteints de SCC.
 - **Objectif** : **LDL-c < 1,4 mmol/L (< 0,55 g/L)** **et** réduction **≥ 50 %** par rapport à la valeur initiale ; < 1,0 mmol/L (< 0,40 g/L) peut être envisagé après un second événement dans les 2 ans [S4].
-- **Ézétimibe** ajouté si l'objectif n'est pas atteint ; **inhibiteur de PCSK9** en troisième étape (ou d'emblée selon la situation) ; **acide bempédoïque** en cas d'intolérance aux statines selon la mise à jour 2025 [S5] **[À VÉRIFIER — classe exacte]**.
+- **Ézétimibe** ajouté si l'objectif n'est pas atteint ; **inhibiteur de PCSK9** en troisième étape (ou d'emblée selon la situation) ; **acide bempédoïque** : recommandé chez le patient intolérant aux statines qui n'atteint pas l'objectif sous ézétimibe (ESC 2024 SCC, classe I, niveau B), à envisager en ajout à la statine à dose maximale tolérée et à l'ézétimibe (IIa) [S1] ; position reprise par la mise à jour ESC/EAS 2025 [S5].
 - **Contrôle** du bilan lipidique 4 à 8 semaines après toute modification, puis annuellement.
 
 #### 13.4.3 Autres traitements de prévention [S1, S7]
@@ -531,7 +546,7 @@ Le traitement du SCC poursuit **deux objectifs distincts**, qu'il faut toujours 
 - **IEC (ou ARA II)** : en cas d'HTA, de diabète, de FEVG ≤ 40 % ou de maladie rénale chronique [S1].
 - **Bêtabloquant au long cours** après infarctus : indiqué en cas de FEVG ≤ 40 % ; son intérêt chez les patients à FEVG conservée à distance de l'infarctus est discuté (essais récents) [S1, S6].
 - **Diabète** : **iSGLT2** et/ou **agonistes du récepteur du GLP-1** à bénéfice cardiovasculaire démontré, indépendamment de l'HbA1c [S7].
-- **Obésité sans diabète** : place des agonistes du GLP-1 (sémaglutide) chez les patients en surpoids ou obèses atteints de maladie cardiovasculaire **[À VÉRIFIER — classe ESC 2024]** [S1].
+- **Obésité sans diabète** : le **sémaglutide** est à envisager chez les patients atteints de SCC, non diabétiques, en surpoids ou obèses (**IMC > 27 kg/m²**), pour réduire la mortalité cardiovasculaire, l'infarctus et l'AVC (ESC 2024, classe IIa, niveau B ; essai SELECT) [S1].
 - **Contrôle tensionnel** (cible systolique 120–129 mmHg si tolérée, voir DOS-CARD-0002).
 
 ### 13.5 Revascularisation myocardique
@@ -546,6 +561,7 @@ Le traitement du SCC poursuit **deux objectifs distincts**, qu'il faut toujours 
 **Messages des grands essais** :
 
 - **ISCHEMIA (2020)** : chez des patients stables avec ischémie modérée à sévère (hors tronc commun, FEVG < 35 %, symptômes réfractaires), une stratégie invasive initiale ne réduit pas le critère principal d'événements, mais améliore l'angor et la qualité de vie chez les patients symptomatiques [S8].
+- **ISCHEMIA-EXTEND (2026)** : après un suivi médian de 9 ans, la mortalité toutes causes à 11 ans ne diffère pas entre les deux stratégies (25,8 % contre 26,9 %) [S11].
 - Conséquence : chez un patient stable **peu symptomatique sans anatomie à haut risque**, le **traitement médical optimal** est la base ; la revascularisation se discute pour les symptômes.
 
 #### 13.5.2 Angioplastie ou pontage ?
@@ -577,8 +593,10 @@ SCC confirmé
  ├─ Anti-angineux de fond :
  │     1re étape : bêtabloquant OU inhibiteur calcique (selon FC, PA, FEVG, comorbidités)
  │     2e étape  : association BB + dihydropyridine
- │     3e étape  : + nitré LP, ranolazine, nicorandil, ivabradine (FC ≥ 70/min, rythme sinusal,
- │                 pas en association avec diltiazem/vérapamil), trimétazidine
+ │     3e étape  : + nitré LP, ranolazine, nicorandil, trimétazidine ;
+ │                 ivabradine seulement si FC ≥ 70/min en rythme sinusal ET (intolérance aux BB
+ │                 ou FEVG ≤ 40 %) ; jamais avec diltiazem/vérapamil ; pas en association
+ │                 si FEVG > 40 % sans IC clinique (ESC 2024, classe III)
  │
  ├─ Anatomie à haut risque (tronc commun, pluritronculaire avec FEVG ≤ 35 %, …)
  │     → revascularisation à visée pronostique (Heart Team)
@@ -693,7 +711,7 @@ Pas d'anatomie à haut risque. Le **traitement médical optimal** est la base [S
 5. L'**ECG d'effort** est moins sensible ; alternative si l'imagerie n'est pas disponible ; ininterprétable si BBG, stimulation, digitaliques, sous-décalage de repos.
 6. **Haut risque** : tronc commun ≥ 50 %, tritronculaire proximal, IVA proximale, ischémie ≥ 10 %, FEVG altérée.
 7. Anti-angineux : **trinitrine** pour tous ; **bêtabloquant et/ou inhibiteur calcique** en première intention ; nitrés LP, ranolazine, nicorandil, ivabradine, trimétazidine ensuite.
-8. **Ivabradine** : rythme sinusal, **FC ≥ 70/min** ; contre-indiquée si FC < 70/min, avec diltiazem/vérapamil, inhibiteurs puissants du CYP3A4.
+8. **Ivabradine** : rythme sinusal, **FC ≥ 70/min** ; contre-indiquée si FC < 70/min, avec diltiazem/vérapamil, inhibiteurs puissants du CYP3A4 ; **pas en association** si FEVG > 40 % sans IC clinique (ESC 2024, classe III).
 9. **Nitrés** contre-indiqués avec les **inhibiteurs de la PDE5** et dangereux dans le **rétrécissement aortique serré**.
 10. Prévention : **aspirine 75–100 mg/j** (ou clopidogrel), **statine forte intensité** (LDL < 1,4 mmol/L et −50 %), **colchicine** (IIa), arrêt du tabac, réadaptation.
 11. DAPT de **6 mois** après angioplastie pour SCC (1–3 mois si haut risque hémorragique).
@@ -865,13 +883,14 @@ Pas d'anatomie à haut risque. Le **traitement médical optimal** est la base [S
 
 1. **[S1]** Vrints C, Andreotti F, Koskinas KC, et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. *Eur Heart J.* 2024;45(36):3415-3537. doi:10.1093/eurheartj/ehae177. — vérifiée.
 2. **[S2]** Haute Autorité de santé. Guide du parcours de soins — Syndrome coronarien chronique. HAS ; 2021. — vérifiée.
-3. **[S3]** Virani SS, Newby LK, Arnold SV, et al. 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease. *Circulation.* 2023;148(9):e9-e119. — **non vérifiée**.
+3. **[S3]** Virani SS, Newby LK, Arnold SV, et al. 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease. *Circulation.* 2023;148(9):e9-e119. doi:10.1161/CIR.0000000000001168. — vérifiée (audit ; texte intégral non lu).
 4. **[S4]** Mach F, Baigent C, Catapano AL, et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J.* 2020;41(1):111-188. doi:10.1093/eurheartj/ehz455. — vérifiée.
 5. **[S5]** Mach F, Koskinas KC, Roeters van Lennep JE, et al. 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J.* 2025;46(42):4359-4378. doi:10.1093/eurheartj/ehaf190. — vérifiée (contenu non lu).
 6. **[S6]** Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. *Eur Heart J.* 2023;44(38):3720-3826. doi:10.1093/eurheartj/ehad191. — vérifiée.
 7. **[S7]** Marx N, Federici M, Schütt K, et al. 2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes. *Eur Heart J.* 2023;44(39):4043-4140. doi:10.1093/eurheartj/ehad192. — vérifiée.
-8. **[S8]** Maron DJ, Hochman JS, Reynolds HR, et al. Initial Invasive or Conservative Strategy for Stable Coronary Disease. *N Engl J Med.* 2020;382(15):1395-1407. — **non vérifiée**.
+8. **[S8]** Maron DJ, Hochman JS, Reynolds HR, et al. Initial Invasive or Conservative Strategy for Stable Coronary Disease. *N Engl J Med.* 2020;382(15):1395-1407. doi:10.1056/NEJMoa1915922. — vérifiée (audit).
 9. **[S9]** Moussouni A, Sidi-Yakhlef A, Hamdaoui H, Aouar A, Belkhatir D. Prevalence and risk factors of prehypertension and hypertension in Algeria. *BMC Public Health.* 2022;22(1):1571. doi:10.1186/s12889-022-13942-y. — vérifiée.
-10. **[S10]** Knuuti J, Wijns W, Saraste A, et al. 2019 ESC Guidelines for the diagnosis and management of chronic coronary syndromes. *Eur Heart J.* 2020;41(3):407-477. — **non vérifiée** (remplacée par S1).
+10. **[S10]** Knuuti J, Wijns W, Saraste A, et al. 2019 ESC Guidelines for the diagnosis and management of chronic coronary syndromes. *Eur Heart J.* 2020;41(3):407-477. doi:10.1093/eurheartj/ehz425. — vérifiée (audit ; remplacée par S1).
+11. **[S11]** Hochman JS, Anthopolos R, Reynolds HR, et al. Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND. *JAMA.* 2026. doi:10.1001/jama.2026.20375. — vérifiée (audit, résumé).
 
-*Posologies : RCP des spécialités (bêtabloquants, amlodipine, ivabradine, ranolazine, nicorandil, trimétazidine, trinitrine) et définitions standard (statines de forte intensité) ; marqueurs `[POSOLOGIE À VÉRIFIER]` sur le diltiazem, le vérapamil et le mononitrate d'isosorbide.*
+*Posologies : RCP des spécialités (bêtabloquants, amlodipine, diltiazem, vérapamil, mononitrate d'isosorbide, ivabradine, ranolazine, nicorandil, trimétazidine, trinitrine) et définitions standard (statines de forte intensité). Audit AUD-01/AUD-02 du 2026-11-19 : 4 marqueurs levés (trinitrine, diltiazem, vérapamil, mononitrate) ; aucun marqueur restant.*

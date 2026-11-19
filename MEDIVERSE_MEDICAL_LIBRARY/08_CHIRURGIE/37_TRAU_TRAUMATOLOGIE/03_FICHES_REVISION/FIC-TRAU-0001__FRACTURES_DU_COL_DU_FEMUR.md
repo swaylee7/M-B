@@ -183,7 +183,7 @@ Fracture **intracapsulaire** (sous-capitale, transcervicale, basicervicale) de l
 | Mortalité à un an (sujet âgé) | Entre 20 et 30 % `[À VÉRIFIER — chiffres classiques, non revérifiés dans une source de la session]` |
 | Clinique | Raccourcissement, **rotation externe** (modérée, ≈ 45–60°, pour le col ; plus marquée pour le trochanter), adduction |
 | Fracture occulte | Radiographies normales → **IRM** ; scanner si IRM indisponible dans les **24 heures** [S1] |
-| Délai opératoire | NICE : **jour de l'admission ou lendemain** [S1] ; AAOS : 24 à 48 heures [S2] ; « 36 heures » = indicateur d'audit britannique `[À VÉRIFIER — indicateur en vigueur]` |
+| Délai opératoire | NICE : **jour de l'admission ou lendemain** [S1] ; AAOS : 24 à 48 heures [S2] `[À VÉRIFIER — force exacte de la recommandation]` ; « 36 heures » = indicateur d'audit britannique `[À VÉRIFIER — indicateur en vigueur]` |
 | Transfusion | Restrictive : pas au-dessus de **8 g/dL** si asymptomatique [S2] |
 | Delbet (enfant) — nécrose | **38 %** (I), **28 %** (II), **18 %** (III), **5 %** (IV) (méta-analyse de 360 cas [S19]) |
 
@@ -213,7 +213,7 @@ Chute + douleur de hanche / impotence (sujet âgé)
 - **Forme typique** : femme âgée, chute de sa hauteur ; douleur inguinale (parfois projetée au **genou**), impossibilité de **décoller le talon** du lit.
 - **Forme piège** : **Garden I engrenée en valgus** → la patiente **marche** ; radiographier toute douleur de hanche après une chute.
 - **Bilan global** : cause de la chute (syncope, rétrécissement aortique, hypotension orthostatique, AVC, hypoglycémie, médicaments) ; **séjour au sol** (rhabdomyolyse — **CPK**, hypothermie, déshydratation, IRA, escarres) ; lésions associées (poignet, humérus, **traumatisme crânien sous anticoagulant**) ; autonomie antérieure ; nutrition ; pouls distaux, nerf sciatique.
-- **Bilan préopératoire** (sans retard injustifié) : NFS, groupe, RAI ; iono, créatinine, glycémie ; CPK si séjour au sol ; hémostase ± anti-Xa/AOD ; ECG ; échocardiographie **seulement si elle modifie la prise en charge** ; albumine, 25-OH-D, calcémie ; dépistage du délire.
+- **Bilan préopératoire** (sans retard injustifié) : NFS, groupe, RAI ; iono, créatinine, glycémie ; CPK si séjour au sol ; hémostase ± anti-Xa/AOD ; ECG ; échocardiographie **seulement si elle modifie la prise en charge** `[À VÉRIFIER — formulation]` ; albumine, 25-OH-D, calcémie ; dépistage du délire.
 - **Différentiels** : fracture trochantérienne, fracture du cadre obturateur (marche souvent possible), du cotyle, luxation de hanche, contusion, coxarthrose, fracture pathologique, cruralgie.
 - **Sujet jeune** : haute énergie, Pauwels III, fracture diaphysaire homolatérale associée (col **méconnu** → radiographier la hanche). **Fracture de fatigue** (sportif, militaire) : IRM ; trait du **bord supérieur** (tension) → vissage préventif. **Fracture pathologique** : traumatisme minime, ostéolyse.
 
@@ -252,7 +252,7 @@ ENFANT (Delbet) → URGENCE : réduction + fixation (± décompression capsulair
 MORIBOND / GRABATAIRE NON DOULOUREUX → traitement fonctionnel discuté
 ```
 
-- **NICE 2023** : **envisager** (« consider ») une PTH plutôt qu'une prothèse intermédiaire chez le patient qui marchait seul à l'extérieur avec au plus une canne ; la version antérieure disait **proposer** (« offer ») chez le patient autonome, **sans trouble cognitif**, apte `[À VÉRIFIER — autres conditions de la version 2023]`.
+- **NICE 2023** : **envisager** (« consider ») une PTH plutôt qu'une prothèse intermédiaire chez le patient qui marchait seul à l'extérieur avec au plus une canne ; la version antérieure disait **proposer** (« offer ») chez le patient autonome, **sans trouble cognitif**, apte ; autres conditions de la version 2023 à relire dans le texte en vigueur `[À VÉRIFIER]`.
 - **HEALTH** (NEJM 2019) : PTH vs prothèse intermédiaire → **pas moins de réinterventions** à 24 mois, gain fonctionnel modeste, **plus de luxations** [S4].
 - **FAITH** (Lancet 2017, 1 108 patients ≥ 50 ans) : vis canulées vs vis-plaque → réintervention à 24 mois 22 % contre 20 % (pas de différence globale) ; ostéonécrose 9 % contre 5 % (plus fréquente avec la vis-plaque) ; sous-groupes exploratoires (fumeurs, déplacées, basicervicales) [S5].
 - **Tige fémorale cimentée** recommandée pour les arthroplasties [S1, S2] ; unipolaire et bipolaire équivalentes [S2].

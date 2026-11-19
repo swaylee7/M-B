@@ -6,11 +6,17 @@ sous_specialite: "Zoonoses virales — encéphalites"
 items_residanat: [RES-MED-003]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0007.md
 sources:
   - id: S1
     reference: "World Health Organization. WHO expert consultation on rabies: third report. Geneva: WHO; 2018 (WHO Technical Report Series, No. 1012). ISBN 978-92-4-121021-8. Licence CC BY-NC-SA 3.0 IGO."
@@ -47,7 +53,7 @@ sources:
     doi: ""
     url: "https://rr-africa.woah.org/app/uploads/2025/05/4.1.Mahiout.pdf"
     verifiee: true
-    remarque: "Existence confirmée par recherche web ; chiffres repris d'un résumé de recherche (document non lu intégralement) : 271 cas humains de 2008 à 2024, moyenne de 15 à 20 cas par an (7 à 27 selon les années), baisse sur les 4 dernières années ; morsures passées d'environ 110 000–120 000 par an à 214 551 en 2024 ; préoccupation particulière pour le Sud [À VÉRIFIER sur le document]. Auteur au-delà du nom de fichier non confirmé."
+    remarque: "Existence confirmée par recherche web ; chiffres repris d'un résumé de recherche (document non lu intégralement) : 271 cas humains de 2008 à 2024, moyenne de 15 à 20 cas par an (7 à 27 selon les années), baisse sur les 4 dernières années ; morsures passées d'environ 110 000–120 000 par an à 214 551 en 2024 ; préoccupation particulière pour le Sud [À VÉRIFIER sur le document]. Auteur au-delà du nom de fichier non confirmé. Audit 2026-11-19 : document non relu (hôte rr-africa.woah.org inaccessible depuis la session) ; les chiffres de 271 cas (2008–2024), de 15 à 20 cas par an et de la hausse des morsures dans le Sud sont confirmés par un second résumé de recherche."
   - id: S5
     reference: "Algérie 360. « La rage tue toujours en Algérie » (article de presse citant un expert de l'Institut Pasteur d'Algérie)."
     organisme: "Presse algérienne"
@@ -65,14 +71,23 @@ sources:
     doi: ""
     url: "https://iris.who.int/handle/10665/365237"
     verifiee: true
-    remarque: "Document acquis (DOC-00039) ; chapitre 18 lu : soins de plaie, prophylaxie antibiotique réservée à des cas sélectionnés (3 jours), traitement des morsures infectées par amoxicilline-acide clavulanique 500/125 mg toutes les 8 h pendant 5 jours."
+    remarque: "Document acquis (DOC-00039) ; chapitre 18 lu : soins de plaie, prophylaxie antibiotique réservée à des cas sélectionnés (3 jours), traitement des morsures infectées par amoxicilline-acide clavulanique 500/125 mg toutes les 8 h pendant 5 jours. Audit 2026-11-19 : tableau 18.4 relu — même schéma pendant 3 jours en prévention des plaies à haut risque ; enfant : 80–90 mg/kg/j d'amoxicilline par tranches de poids."
+  - id: S7
+    reference: "Algérie Éco. « Rage en Algérie : 213 000 morsures en 2024 » (propos du Pr S. Hammadi, ministère de la Santé), 29 septembre 2025."
+    organisme: "Presse algérienne (citant le ministère de la Santé)"
+    annee: 2025
+    type: site_institutionnel
+    doi: ""
+    url: "https://algerie-eco.com/2025/09/29/rage-en-algerie-213-000-morsures-en-2024/"
+    verifiee: false
+    remarque: "Repéré par recherche web lors de l'audit (2026-11-19) ; article non lu, chiffre issu du résumé du moteur de recherche (environ 213 000 morsures en 2024, hausse de 17 % sur un an) [À VÉRIFIER]."
 mots_cles: [rage, lyssavirus, morsure de chien, hydrophobie, encéphalite, prophylaxie post-exposition, catégories OMS, immunoglobulines antirabiques, vaccin antirabique, voie intradermique, prophylaxie pré-exposition, Une seule santé, Algérie, Institut Pasteur d'Algérie]
 ---
 
 # Rage : aspects cliniques, prévention, principes de traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP des vaccins et immunoglobulines disponibles et au protocole national avant usage clinique. **Traçabilité** : le rapport technique n°1012 de l'OMS [S1], le chapitre « morsures » du livre AWaRe [S6] et le décret 22-250 [S3] ont été **lus** ; la note de synthèse OMS 2018 [S2] est vérifiée via le catalogue ; les données algériennes proviennent d'un résumé de la communication de l'Institut Pasteur d'Algérie [S4] et d'un article de presse [S5]. La prise en charge des plaies de morsure est détaillée dans `DOS-URGE-0002` (Morsures et envenimations).
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (bloc `audit` et rapport). Les posologies doivent être confrontées au RCP des vaccins et immunoglobulines disponibles et au protocole national (non retrouvé pendant l'audit) avant usage clinique. **Traçabilité** : le rapport technique n°1012 de l'OMS [S1], le chapitre « morsures » du livre AWaRe [S6] et le décret 22-250 [S3] ont été **lus** ; la note de synthèse OMS 2018 [S2] est vérifiée via le catalogue ; les données algériennes proviennent d'un résumé de la communication de l'Institut Pasteur d'Algérie [S4] et d'un article de presse [S5]. La prise en charge des plaies de morsure est détaillée dans `DOS-URGE-0002` (Morsures et envenimations).
 
 **Items du programme couverts** : RES-MED-003 — « Rage : Aspects cliniques - prévention - principes de traitement ».
 
@@ -119,7 +134,7 @@ En Algérie, la rage est une **maladie à déclaration obligatoire** (catégorie
 ### 3.2 En Algérie
 - **Rage canine endémique** (zoonose « urbaine » et rurale).
 - **Cas humains** : selon l'Institut Pasteur d'Algérie, **271 cas de 2008 à 2024**, soit en moyenne **15 à 20 cas par an** (7 à 27 selon les années), avec une **baisse** sur les quatre dernières années [S4] `[À VÉRIFIER — document non lu intégralement]` ; une source de presse évoque environ **20 décès par an** et un chien en cause dans environ **90 %** des cas [S5] `[À VÉRIFIER]`.
-- **Expositions** : les **morsures** déclarées augmentent fortement, d'environ **110 000 à 120 000 par an** à **214 551 en 2024** ; le **Sud** est jugé particulièrement préoccupant [S4] `[À VÉRIFIER]`.
+- **Expositions** : les **morsures** déclarées augmentent fortement, d'environ **110 000 à 120 000 par an** à **214 551 en 2024** ; le **Sud** est jugé particulièrement préoccupant [S4] `[À VÉRIFIER]` ; un responsable du ministère de la Santé a évoqué dans la presse **environ 213 000 morsures en 2024** [S7] (ordre de grandeur concordant ; aucune publication officielle de l'INSP retrouvée pendant l'audit).
 - **MDO** [S3] ; la lutte associe services de santé (PPE, surveillance) et **services vétérinaires** (vaccination canine, gestion des animaux errants) — approche « **Une seule santé** » [S1] `[À VÉRIFIER — organisation nationale et commission de lutte contre la rage]`.
 
 ## 4. Rappels virologiques
@@ -198,7 +213,7 @@ Fièvre, malaise, céphalées, troubles digestifs, anxiété ; signe très évoc
 ### 8.2 Rage furieuse (encéphalitique)
 - **Spasmes** déclenchés par des stimuli **tactiles, auditifs, visuels ou olfactifs** : **hydrophobie** (spasme pharyngé et terreur à la vue ou à la tentative de boire), **aérophobie** (spasme au souffle d'air sur le visage) [S1].
 - **Agitation**, hallucinations, agressivité, **alternant avec des périodes de lucidité** ; confusion [S1].
-- **Dysautonomie** : hypersalivation, sueurs, hyperthermie, piloérection, troubles du rythme, priapisme `[À VÉRIFIER — liste]`.
+- **Dysautonomie** (signes de dysfonction autonome) [S1] : hypersalivation, sueurs, hyperthermie, piloérection, troubles du rythme, priapisme `[À VÉRIFIER — liste détaillée]`.
 - **Spasmes inspiratoires** spontanés pouvant persister jusqu'au décès et faciliter le diagnostic [S1].
 - Évolution vers le **coma** et le **décès** (défaillance cardiaque ou respiratoire), typiquement en 7 à 10 jours sans réanimation [S1].
 
@@ -225,7 +240,7 @@ Le diagnostic présomptif est simple lorsqu'une maladie compatible survient chez
 
 - Un résultat **négatif** intra-vitam **n'exclut pas** la rage ; la **confirmation** de la rage est importante pour la surveillance et la conduite autour du cas [S1].
 - **Le diagnostic chez l'homme n'intervient jamais dans la décision de PPE** chez une personne exposée.
-- Imagerie (IRM) : anomalies non spécifiques du tronc cérébral, de l'hippocampe, de la moelle `[À VÉRIFIER]` ; utile surtout pour le **diagnostic différentiel**.
+- Imagerie (IRM, réalisée avec les précautions adaptées) : hypersignaux T2 mal limités du tronc cérébral, de l'hippocampe, de l'hypothalamus et des substances blanche et grise, quelle que soit la forme clinique ; prise de contraste tardive (au stade du coma) ; utile surtout pour le **diagnostic différentiel** ; le scanner est peu contributif [S1].
 - **Précautions** : prélèvements réalisés avec **précautions standard** (gants, lunettes, masque en cas de projections) [S1].
 
 ### 9.2 Diagnostic chez l'animal
@@ -278,7 +293,7 @@ L'OMS insiste sur l'exclusion des **diagnostics différentiels curables** avant 
 - **Lavage et rinçage abondants** de toutes les morsures et griffures **pendant environ 15 minutes** à l'**eau et au savon** (ou détergent), puis application d'un **antiseptique virucide** (povidone iodée) ; à défaut, lavage prolongé à l'eau seule ; rinçage abondant des **yeux et muqueuses** ; les remèdes traditionnels appliqués sur la plaie sont **fortement déconseillés** [S1].
 - **Pas de suture d'emblée** si possible : pansement quotidien puis suture secondaire ; si une suture est inévitable, elle est réalisée **après infiltration des IGR**, en différant de **quelques heures** et avec des points lâches [S1].
 - Une plaie **infectée** ne contre-indique pas l'infiltration d'IGR ; les extrémités (doigts, orteils, lobes d'oreille, nez, organes génitaux) peuvent être infiltrées **sans pression excessive** (risque de syndrome de compression) [S1].
-- **Prophylaxie antitétanique** selon le statut vaccinal ; **antibiotiques** : seulement en cas de plaie **infectée** — **amoxicilline-acide clavulanique 500/125 mg toutes les 8 h per os pendant 5 jours** (OMS) — ou, à titre **préventif** (3 jours), chez des patients sélectionnés (immunodépression sévère) et pour les plaies à haut risque (face, mains, près des articulations) [S6].
+- **Prophylaxie antitétanique** selon le statut vaccinal ; **antibiotiques** : seulement en cas de plaie **infectée** — **amoxicilline-acide clavulanique 500/125 mg toutes les 8 h per os pendant 5 jours** (OMS) — ou, à titre **préventif**, chez des patients sélectionnés (immunodépression sévère) et pour les plaies à haut risque (face, mains, près des articulations) : **même schéma pendant 3 jours** (enfant : 80–90 mg/kg/j d'amoxicilline, par tranches de poids) [S6].
 
 **b) Vaccins antirabiques (CCEEV)** [S1]
 - Vaccins inactivés produits sur cultures cellulaires ou œufs embryonnés, d'une activité **≥ 2,5 UI par dose** IM.
@@ -366,7 +381,7 @@ EXPOSITION (catégorie II ou III) à un chien, chat ou furet
 
 ### 13.6 Particularités algériennes
 - **Déclaration obligatoire** de tout cas humain [S3] ; signalement de toute exposition aux services compétents et aux **services vétérinaires** (enquête sur l'animal) `[À VÉRIFIER — circuit national]`.
-- PPE dispensée dans les structures publiques (centres de vaccination antirabique) `[À VÉRIFIER — liste, gratuité, vaccins et IGR disponibles, schéma national utilisé (Essen, Zagreb, ID)]`.
+- PPE dispensée dans les structures publiques (centres de vaccination antirabique) ; **protocole national de PPE (schéma, voie ID, produits) non retrouvé** pendant l'audit `[À VÉRIFIER — liste, gratuité, vaccins et IGR disponibles, schéma national utilisé (Essen, Zagreb, ID)]`.
 - Forte augmentation des **morsures déclarées** (214 551 en 2024) : enjeu d'**approvisionnement** en vaccins et IGR et intérêt des schémas **ID** économes en doses [S1, S4].
 - **Lutte à la source** : **vaccination des chiens** (couverture d'au moins **70 %** de la population canine, campagnes en général annuelles), gestion des chiens errants, éducation des enfants, approche « Une seule santé » [S1] `[À VÉRIFIER — programme vétérinaire national]`.
 
@@ -459,7 +474,7 @@ Sources : [S1] (catégories, schémas, IGR, observation) ; [S6] (antibiotiques).
 
 **Diagnostic retenu.** Exposition rabique de catégorie III chez un sujet non vacciné ; animal non disponible pour l'observation, donc considéré comme suspect.
 
-**Traitement.** Lavage immédiat et prolongé (15 min) à l'eau et au savon, povidone iodée ; parage, pas de suture des plaies punctiformes de la main (avis chirurgical) ; IGR infiltrées en totalité dans et autour des 3 plaies — humaines 20 UI/kg (1 500 UI) ou équines 40 UI/kg (3 000 UI) selon le produit disponible, diluées si nécessaire, sans test cutané, dans des conditions permettant de traiter une anaphylaxie ; vaccination antirabique selon un schéma OMS (ID 2 sites J0-J3-J7, ou IM J0-J3-J7-J14/28, ou Zagreb) en respectant le protocole national [À VÉRIFIER — schéma algérien] ; vaccination antitétanique (± immunoglobulines selon le statut) ; antibioprophylaxie de 3 jours envisageable (plaie de la main à haut risque) [POSOLOGIE À VÉRIFIER] ; amoxicilline-acide clavulanique 500/125 mg × 3/j pendant 5 jours si la plaie s'infecte (OMS) ; signalement aux services vétérinaires.
+**Traitement.** Lavage immédiat et prolongé (15 min) à l'eau et au savon, povidone iodée ; parage, pas de suture des plaies punctiformes de la main (avis chirurgical) ; IGR infiltrées en totalité dans et autour des 3 plaies — humaines 20 UI/kg (1 500 UI) ou équines 40 UI/kg (3 000 UI) selon le produit disponible, diluées si nécessaire, sans test cutané, dans des conditions permettant de traiter une anaphylaxie ; vaccination antirabique selon un schéma OMS (ID 2 sites J0-J3-J7, ou IM J0-J3-J7-J14/28, ou Zagreb) en respectant le protocole national (non retrouvé pendant l'audit) [À VÉRIFIER — schéma algérien] ; vaccination antitétanique (± immunoglobulines selon le statut) ; antibioprophylaxie de 3 jours envisageable (plaie de la main à haut risque) : amoxicilline-acide clavulanique 500/125 mg toutes les 8 h (OMS) ; amoxicilline-acide clavulanique 500/125 mg × 3/j pendant 5 jours si la plaie s'infecte (OMS) ; signalement aux services vétérinaires.
 
 **Surveillance.** Calendrier vaccinal (relance), surveillance de 15–20 min après chaque injection, maladie sérique vers J7 si IGR équines, évolution de la plaie (infection, raideur), information sur l'absence de contre-indication et l'importance de terminer la PPE.
 
@@ -482,7 +497,7 @@ Sources : [S1] (catégories, schémas, IGR, observation) ; [S6] (antibiotiques).
 7. **IGR** : humaines **20 UI/kg**, équines **40 UI/kg**, **infiltrées dans et autour des plaies**, **une seule fois**, **jusqu'à J7** ; pas de test cutané préalable [S1].
 8. **Déjà vacciné** : pas d'IGR ; vaccin **J0 et J3** [S1].
 9. **Observation de 10 jours** de l'animal domestique : elle ne retarde **pas** la PPE en l'absence de surveillance vétérinaire fiable ; arrêt possible si l'animal reste sain [S1].
-10. **Algérie** : rage canine **endémique**, **15–20 cas humains/an** en moyenne (2008–2024) et **> 200 000 morsures** déclarées en 2024 ; **MDO** ; vaccination canine ≥ 70 % [S1, S3, S4].
+10. **Algérie** : rage canine **endémique**, **15–20 cas humains/an** en moyenne (2008–2024) et **> 200 000 morsures** déclarées en 2024 (chiffres de l'Institut Pasteur d'Algérie et du ministère, relus par résumés) ; **MDO** ; vaccination canine ≥ 70 % [S1, S3, S4, S7].
 
 ## 19. Pièges classiques à l'examen
 
@@ -753,5 +768,6 @@ Détail complet (statut de vérification) dans l'en-tête YAML.
 4. [S4] Institut Pasteur d'Algérie. Situation de la rage en Algérie — communication OMSA/WOAH Afrique, 2025. (Document repéré ; chiffres issus d'un résumé.)
 5. [S5] Algérie 360. « La rage tue toujours en Algérie ». **[non vérifiée — presse]**
 6. [S6] World Health Organization. *The WHO AWaRe antibiotic book*. 2022 — chapitre 18 « Wound and bite-related infections ». (DOC-00039, lu.)
+7. [S7] Algérie Éco. « Rage en Algérie : 213 000 morsures en 2024 », 29 septembre 2025. **[non vérifiée — presse]**
 
-> **Points à auditer en priorité** : (1) protocole national algérien de PPE (schéma utilisé, voie ID autorisée ou non, vaccins et IGR disponibles, circuit de déclaration) ; (2) lecture intégrale de la communication de l'Institut Pasteur d'Algérie (chiffres 2008–2024) ; (3) conduite pour les morsures de singes et d'autres espèces ; (4) liste des signes dysautonomiques et données IRM ; (5) schémas antérieurs cités en § 21.
+> **Points à auditer en priorité** (audit du 2026-11-19 : protocole national non retrouvé ; points 3–4 partiellement traités, voir le rapport) : (1) protocole national algérien de PPE (schéma utilisé, voie ID autorisée ou non, vaccins et IGR disponibles, circuit de déclaration) ; (2) lecture intégrale de la communication de l'Institut Pasteur d'Algérie (chiffres 2008–2024) ; (3) conduite pour les morsures de singes et d'autres espèces ; (4) liste des signes dysautonomiques et données IRM ; (5) schémas antérieurs cités en § 21.

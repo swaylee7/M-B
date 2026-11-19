@@ -6,11 +6,17 @@ sous_specialite: "Maladie thromboembolique veineuse"
 items_residanat: [RES-MED-058]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 14
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0006.md
 sources:
   - id: S1
     reference: "Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS). Eur Heart J. 2020;41(4):543-603."
@@ -35,10 +41,10 @@ sources:
     organisme: ESVS
     annee: 2021
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.ejvs.2020.09.023"
     url: ""
     verifiee: true
-    remarque: "Titre, revue, volume et pages confirmés par recherche web ; DOI non confirmé (présumé 10.1016/j.ejvs.2020.09.023 [À VÉRIFIER]). Aucune version ESVS 2025 sur la thrombose veineuse n'a été trouvée : le site ESVS indique une mise à jour en préparation."
+    remarque: "Titre, revue, volume et pages confirmés par recherche web ; DOI confirmé par l'audit (PubMed, PMID 33334670). Aucune version ESVS 2025 sur la thrombose veineuse n'a été trouvée : le site ESVS indique une mise à jour en préparation."
   - id: S4
     reference: "Stevens SM, Woller SC, Baumann Kreuziger L, et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline and Expert Panel Report. Chest. 2021;160(6):e545-e608."
     organisme: CHEST (ACCP)
@@ -65,7 +71,7 @@ sources:
     doi: "10.1093/eurheartj/ehac244"
     url: ""
     verifiee: true
-    remarque: "Auteurs et DOI confirmés par recherche web ; volume et pages non confirmés [À VÉRIFIER]."
+    remarque: "Auteurs et DOI confirmés par recherche web ; volume et pages confirmés par l'audit (PubMed, PMID 36017568)."
   - id: S7
     reference: "De Backer J, Haugaa KH, Hasselberg NE, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462-4568."
     organisme: ESC
@@ -80,37 +86,37 @@ sources:
     organisme: ""
     annee: 2014
     type: article
-    doi: ""
+    doi: "10.1001/jama.2014.2135"
     url: ""
     verifiee: true
-    remarque: "Référence et résultats principaux confirmés par recherche web (3 346 patients, 19 centres)."
+    remarque: "Référence et résultats principaux confirmés par recherche web (3 346 patients, 19 centres) ; PMID 24643601 et DOI confirmés par l'audit."
   - id: S9
     reference: "van der Pol LM, Tromeur C, Bistervels IM, et al. Pregnancy-Adapted YEARS Algorithm for Diagnosis of Suspected Pulmonary Embolism. N Engl J Med. 2019;380(12):1139-1149."
     organisme: ""
     annee: 2019
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa1813865"
     url: ""
     verifiee: true
-    remarque: "PMID 30893534 (recherche web)."
+    remarque: "PMID 30893534 (recherche web) ; DOI confirmé par l'audit."
   - id: S10
     reference: "van der Hulle T, Cheung WY, Kooij S, et al. Simplified diagnostic management of suspected pulmonary embolism (the YEARS study): a prospective, multicentre, cohort study. Lancet. 2017;390(10091):289-297."
     organisme: ""
     annee: 2017
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(17)30885-1"
     url: ""
-    verifiee: false
-    remarque: "Métadonnées citées de mémoire, non confirmées pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 28549662). Résultats : 3 465 patients ; 0,61 % d'événements thromboemboliques à 3 mois chez les patients non traités ; angioscanner évité chez 48 % des patients (contre 34 % avec la stratégie classique)."
   - id: S11
     reference: "Freund Y, Cachanado M, Aubry A, et al. Effect of the Pulmonary Embolism Rule-Out Criteria on Subsequent Thromboembolic Events Among Low-Risk Emergency Department Patients: The PROPER Randomized Clinical Trial. JAMA. 2018;319(6):559-566."
     organisme: ""
     annee: 2018
     type: article
-    doi: ""
+    doi: "10.1001/jama.2017.21904"
     url: ""
-    verifiee: false
-    remarque: "Métadonnées citées de mémoire, non confirmées pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 29450523). Essai randomisé en grappes, 1 916 patients à très faible risque : 1 EP (0,1 %) au cours du suivi dans le bras PERC contre 0 ; angioscanners 13 % contre 23 %."
   - id: S12
     reference: "Tektonidou MG, Andreoli L, Limper M, et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. Ann Rheum Dis. 2019;78(10):1296-1304."
     organisme: EULAR
@@ -125,17 +131,80 @@ sources:
     organisme: SPLF et sociétés françaises
     annee: 2019
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.rmr.2019.01.003"
     url: ""
+    verifiee: true
+    remarque: "Référence vérifiée par l'audit (PubMed, PMID 30799126) ; version longue : Rev Mal Respir 2021;38 Suppl 1:e1-e6 (PMID 31280989). Contenu non relu [À VÉRIFIER — formulation sur les D-dimères]."
+  - id: S14
+    reference: "Raschke RA, Reilly BM, Guidry JR, Fontana JR, Srinivas S. The weight-based heparin dosing nomogram compared with a 'standard care' nomogram. A randomized controlled trial. Ann Intern Med. 1993;119(9):874-881."
+    organisme: ""
+    annee: 1993
+    type: article
+    doi: "10.7326/0003-4819-119-9-199311010-00002"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par l'audit ; vérifiée lors de l'audit de DOS-PHAR-0002 (source S12 de ce dossier)."
+  - id: S15
+    reference: "Garcia DA, Baglin TP, Weitz JI, Samama MM. Parenteral anticoagulants: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest. 2012;141(2 Suppl):e24S-e43S."
+    organisme: "ACCP / CHEST"
+    annee: 2012
+    type: recommandation
+    doi: "10.1378/chest.11-2291"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par l'audit ; vérifiée lors de l'audit de DOS-PHAR-0002 (PMID 22315264)."
+  - id: S16
+    reference: "Haute Autorité de santé (HAS), GEHT. Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par antivitamines K en ville et en milieu hospitalier. Recommandations professionnelles. Avril 2008."
+    organisme: "HAS / GEHT"
+    annee: 2008
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/jcms/c_682188/"
+    verifiee: true
+    remarque: "Ajoutée par l'audit ; source S9 de DOS-PHAR-0002 (vérifiée)."
+  - id: S17
+    reference: "Meyer G, Vicaut E, Danays T, et al. Fibrinolysis for patients with intermediate-risk pulmonary embolism (PEITHO). N Engl J Med. 2014;370(15):1402-1411."
+    organisme: ""
+    annee: 2014
+    type: article
+    doi: "10.1056/NEJMoa1302097"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par l'audit (PubMed, PMID 24716681). Ténectéplase en bolus unique adapté au poids (30 à 50 mg), confirmé par recherche web (résumé ACC, synthèses)."
+  - id: S18
+    reference: "Kroupa J, Radvan M, Mrozek J, et al. Catheter-Directed Thrombolysis in Intermediate-High-Risk Pulmonary Embolism (PRAGUE-26). N Engl J Med. 2026 (publication en ligne le 31 août 2026)."
+    organisme: ""
+    annee: 2026
+    type: article
+    doi: "10.1056/NEJMoa2608012"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par l'audit (PubMed, PMID 42678032 ; résumé lu)."
+  - id: S19
+    reference: "AABB. AstraZeneca withdraws factor Xa reversal agent from U.S. market (andexanet alfa), 23 décembre 2025, après la communication de sécurité de la FDA du 18 décembre 2025."
+    organisme: "AABB / FDA"
+    annee: 2025
+    type: site_institutionnel
+    doi: ""
+    url: "https://www.aabb.org/news-resources/news/article/2025/12/23/astrazeneca-withdraws-factor-xa-reversal-agent-from-u.s.-market"
+    verifiee: true
+    remarque: "Ajoutée par l'audit ; source S25 de DOS-PHAR-0002 (vérifiée)."
+  - id: S20
+    reference: "Résumés des caractéristiques du produit (RCP) européens : énoxaparine (Lovenox, RCP harmonisé au niveau européen — unités de dosage et conditions d'utilisation, dont l'insuffisance rénale sévère) ; fondaparinux (Arixtra, EMA)."
+    organisme: "EMA / ANSM (RCP)"
+    annee: "[À VÉRIFIER — version du RCP en vigueur]"
+    type: texte_officiel
+    doi: ""
+    url: "https://www.vidal.fr/actualites/21634-lovenox-enoxaparine-sodique-harmonisation-europeenne-des-unites-de-dosage-et-des-conditions-d-utilisation.html"
     verifiee: false
-    remarque: "Recommandations françaises multisociétés citées de mémoire ; référence exacte non confirmée pendant la session [À VÉRIFIER]."
+    remarque: "Ajoutée par l'audit pour la cohérence avec DOS-PHAR-0002 (source S26, même statut) ; RCP non relu en texte intégral."
 mots_cles: [embolie pulmonaire, thrombose veineuse profonde, maladie thromboembolique veineuse, score de Wells, score de Genève révisé, PERC, YEARS, D-dimères ajustés à l'âge, sPESI, angioscanner, thrombolyse, AOD, HBPM, AVK, cancer, grossesse, HTP thromboembolique chronique]
 ---
 
 # Embolie pulmonaire et thromboses veineuses
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte de recommandation.
-> Statut : **brouillon à auditer**. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19), corrections requises** — voir le rapport d'audit. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant tout usage clinique.
 
 **Item du programme couvert** : RES-MED-058 — *Embolie pulmonaire et thromboses veineuses : physiopathologie, diagnostic, évolution, traitement.*
 
@@ -336,7 +405,7 @@ L'ESC 2019 classe les facteurs de risque selon la force de leur association avec
 Notes :
 
 - Chez le patient instable, la gravité se juge sur la clinique : PESI et troponine ne sont pas nécessaires à la décision.
-- Un patient **sPESI 0** mais avec une dysfonction VD ou une troponine élevée est classé **intermédiaire-faible** [S1].
+- Un patient **PESI I–II ou sPESI 0** mais avec une dysfonction VD ou une troponine élevée est classé, selon la note du tableau de l'ESC 2019, dans la catégorie de risque **intermédiaire** (en pratique intermédiaire-faible quand un seul des deux critères est présent) [S1].
 
 ### 7.2 Les scores pronostiques PESI et sPESI
 
@@ -657,7 +726,7 @@ Thromboses veineuses cérébrales, splanchniques (porte, mésentérique, sus-hé
 1. **Récidive de MTEV** après l'arrêt du traitement : risque faible après un épisode lié à un facteur transitoire majeur, plus élevé après un épisode sans facteur identifiable ou lié à un facteur persistant [S1].
 2. **Syndrome post-thrombotique** (après TVP) : lourdeur, œdème, douleurs, varices secondaires, dermite ocre, ulcère veineux ; quantifié par le **score de Villalta** [S3].
 3. **Syndrome post-EP** : dyspnée et limitation fonctionnelle persistantes ; il faut y rechercher :
-4. **Hypertension pulmonaire thromboembolique chronique (HTP-TEC)** : complication **rare mais grave** (quelques pour cent des patients après une EP aiguë selon les séries **[À VÉRIFIER — fréquence exacte]**). À suspecter devant une dyspnée persistante ou progressive **au-delà de 3 mois d'anticoagulation efficace**. Dépistage par ETT puis **scintigraphie de ventilation-perfusion** (examen de dépistage de choix) ; confirmation par cathétérisme cardiaque droit en centre expert [S1]. Traitements : **endartériectomie pulmonaire** (référence chez les patients opérables), **angioplastie pulmonaire par ballonnet**, traitement médical (riociguat), anticoagulation à vie.
+4. **Hypertension pulmonaire thromboembolique chronique (HTP-TEC)** : complication **rare mais grave** (incidence cumulée de 0,1 à 9,1 % dans les 2 ans suivant une EP symptomatique selon les séries citées par l'ESC 2019 [S1]). À suspecter devant une dyspnée persistante ou progressive **au-delà de 3 mois d'anticoagulation efficace**. Dépistage par ETT puis **scintigraphie de ventilation-perfusion** (examen de dépistage de choix) ; confirmation par cathétérisme cardiaque droit en centre expert [S1]. Traitements : **endartériectomie pulmonaire** (référence chez les patients opérables), **angioplastie pulmonaire par ballonnet**, traitement médical (riociguat), anticoagulation à vie.
 
 ### 12.4 Scores de risque hémorragique
 
@@ -693,12 +762,12 @@ Aucun score n'est suffisamment discriminant pour contre-indiquer à lui seul l'a
 
 | Molécule | Posologie curative (adulte) | Particularités | Source |
 |---|---|---|---|
-| **Énoxaparine** (HBPM) | **100 UI/kg (1 mg/kg) SC toutes les 12 h** | Clairance < 30 mL/min : contre-indiquée à dose curative selon le RCP français (préférer l'HNF) ; certains RCP prévoient 1 mg/kg/24 h | RCP ; [S1] |
+| **Énoxaparine** (HBPM) | **100 UI/kg (1 mg/kg) SC toutes les 12 h** | Clairance **15–30 mL/min** : **100 UI/kg (1 mg/kg) une fois par 24 h** (RCP européen harmonisé) ; **< 15 mL/min** : non recommandée ; l'HNF reste souvent préférée en insuffisance rénale sévère (voir DOS-PHAR-0002) | RCP [S20] ; [S1] |
 | **Tinzaparine** (HBPM) | **175 UI/kg SC une fois par jour** | Utilisée aussi dans le cancer | RCP |
 | **Daltéparine** (HBPM) | **200 UI/kg SC une fois par jour** ; dans le cancer : 200 UI/kg/j le 1er mois puis 150 UI/kg/j du 2e au 6e mois | Schéma de l'essai CLOT | RCP ; [S6] |
 | **Nadroparine** (HBPM) | **85 UI/kg SC toutes les 12 h** (ou 171 UI/kg une fois par jour selon la spécialité) | | RCP |
 | **Fondaparinux** | **5 mg (< 50 kg), 7,5 mg (50–100 kg), 10 mg (> 100 kg) SC une fois par jour** | Contre-indiqué à dose curative si clairance < 30 mL/min ; pas de TIH | RCP ; [S1] |
-| **HNF** | Bolus IV **80 UI/kg** puis **18 UI/kg/h** (nomogramme pondéral), adaptée au TCA (1,5 à 2,5 fois le témoin) ou à l'activité anti-Xa (0,3–0,7 UI/mL) **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | **Préférée** dans l'EP à haut risque (reperfusion possible), en cas d'insuffisance rénale sévère, d'obésité extrême ou de risque hémorragique élevé (réversibilité rapide par la protamine) ; surveillance des plaquettes | [S1] |
+| **HNF** | Bolus IV **80 UI/kg** puis **18 UI/kg/h** (nomogramme pondéral de Raschke), adaptée au TCA (premier contrôle à 6 h ; zone cible du nomogramme : 1,5 à 2,3 fois le témoin, à calibrer localement) ou à l'activité anti-Xa (0,3–0,7 UI/mL) | **Préférée** dans l'EP à haut risque (reperfusion possible), en cas d'insuffisance rénale sévère, d'obésité extrême ou de risque hémorragique élevé (réversibilité rapide par la protamine) ; surveillance des plaquettes | [S1, S14, S15] ; schéma identique à DOS-PHAR-0002 |
 
 **Règle ESC 2019** : chez le patient stable, une **HBPM ou le fondaparinux** sont **préférés à l'HNF** (moins d'hémorragies et de TIH, pas de surveillance du TCA) [S1].
 
@@ -731,7 +800,7 @@ Les AOD sont **recommandés de préférence aux AVK** chez les patients éligibl
 - **Indications privilégiées** : SAPL, insuffisance rénale sévère, valve mécanique, interactions incompatibles avec un AOD, impossibilité d'accès aux AOD.
 - **Relais** : AVK débuté dès le 1er jour, en **chevauchement** avec l'héparine ou le fondaparinux pendant **au moins 5 jours** et jusqu'à obtenir un **INR entre 2 et 3** sur deux contrôles successifs à 24 h d'intervalle [S1].
 - **Cible d'INR** : **2,5 (2 à 3)** [S1].
-- **Doses initiales** : selon le RCP de chaque molécule (warfarine, acénocoumarol, fluindione), plus faibles chez le sujet âgé, dénutri ou insuffisant hépatique **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
+- **Doses initiales** : pas de dose de charge élevée ; l'ACCP 2012 suggère 10 mg de warfarine par jour pendant 2 jours chez le patient ambulatoire en bonne santé, puis une adaptation sur l'INR (voir DOS-PHAR-0002) ; doses plus faibles chez le sujet âgé, dénutri ou insuffisant hépatique ; doses initiales de la pratique française et algérienne (warfarine, acénocoumarol, fluindione) **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
 - **Éducation** : carnet de suivi, interactions médicamenteuses (antibiotiques, antifongiques, amiodarone), alimentation régulière en vitamine K (sans exclusion), signes d'alerte hémorragiques, contraception chez la femme en âge de procréer (tératogénicité).
 
 #### 13.3.4 Thrombolyse systémique
@@ -747,7 +816,7 @@ Les AOD sont **recommandés de préférence aux AVK** chez les patients éligibl
 | **Urokinase** | **4 400 UI/kg en 10 minutes**, puis **4 400 UI/kg/h pendant 12 à 24 h** | **3 millions d'UI en 2 heures** |
 
 - L'**HNF** peut être poursuivie pendant la perfusion d'altéplase ; elle doit être **interrompue** pendant la perfusion de streptokinase ou d'urokinase [S1].
-- La **ténectéplase** a été utilisée dans les essais (dose adaptée au poids, en bolus unique) mais elle n'a pas d'AMM dans l'EP dans de nombreux pays **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
+- La **ténectéplase** n'a pas d'AMM dans l'EP dans de nombreux pays (usage **hors AMM**). Dans l'essai PEITHO, elle était administrée en **bolus IV unique de 30 à 50 mg selon le poids** (paliers de 5 mg de < 60 kg à ≥ 90 kg, comme dans le STEMI : voir DOS-CARD-0003) [S17]. Ce schéma à pleine dose a réduit les décompensations hémodynamiques (2,6 % contre 5,6 %) sans réduire la mortalité, au prix d'hémorragies extracrâniennes (6,3 % contre 1,2 %) et d'AVC (2,4 %, hémorragiques pour la plupart) [S17] ; les schémas à dose réduite sont en cours d'évaluation.
 - Le bénéfice est maximal dans les **48 premières heures** des symptômes, mais une thrombolyse peut rester utile jusqu'à 6–14 jours [S1].
 - En cas d'**arrêt cardiaque** attribué à une EP, la thrombolyse est administrée pendant la réanimation, qui doit alors être prolongée [S1].
 
@@ -767,7 +836,7 @@ Dans l'EP à haut risque menaçant le pronostic vital, les contre-indications **
 #### 13.3.5 Reperfusion non pharmacologique et filtres caves
 
 - **Embolectomie chirurgicale** sous circulation extracorporelle : EP à haut risque avec **contre-indication ou échec de la thrombolyse** (classe I) ; également en cas de thrombus dans les cavités droites ou dans un foramen ovale [S1].
-- **Traitement percutané par cathéter** (fragmentation, aspiration, thrombolyse in situ à faible dose) : alternative à la chirurgie dans les mêmes situations (classe IIa) ; ses indications pourraient évoluer (essais récents dans l'EP de risque intermédiaire-élevé, par exemple PRAGUE-26 présenté en 2026) [S1, S2].
+- **Traitement percutané par cathéter** (fragmentation, aspiration, thrombolyse in situ à faible dose) : alternative à la chirurgie dans les mêmes situations (classe IIa) ; ses indications pourraient évoluer : dans l'essai **PRAGUE-26** (558 patients à risque intermédiaire-élevé, publié en 2026), la thrombolyse in situ par altéplase associée à l'anticoagulation a réduit le critère composite à 7 jours (décès, récidive, décompensation cardiorespiratoire : 0,7 % contre 6,8 %), sans augmentation significative des hémorragies majeures (1,4 % contre 2,2 %) [S18]. Ces résultats ne sont pas encore intégrés dans une recommandation européenne [S1, S2].
 - **Équipes multidisciplinaires « EP »** (PERT) : à envisager dans les centres (classe IIa) [S1].
 - **Filtre cave** : seulement en cas de **contre-indication absolue à l'anticoagulation** ou de **récidive malgré une anticoagulation bien conduite** (classe IIa) ; **pas en routine** (classe III) ; préférer un filtre **retirable**, à enlever dès que l'anticoagulation est possible [S1].
 
@@ -775,7 +844,7 @@ Dans l'EP à haut risque menaçant le pronostic vital, les contre-indications **
 
 - **Phase de traitement (au moins 6 mois)** :
   - l'ESC 2019 propose une **HBPM ajustée au poids** pendant les 6 premiers mois plutôt qu'un AVK (classe IIa), et **l'édoxaban ou le rivaroxaban** comme alternative chez les patients **sans cancer gastro-intestinal** (classe IIa) [S1] ;
-  - la recommandation ESC 2022 de cardio-oncologie place les **AOD (édoxaban, apixaban, rivaroxaban)** en classe I chez les patients sans contre-indication, et les **HBPM** comme traitement de référence alternatif, avec des précautions en cas de thrombopénie (seuil de 50 G/L pour une dose curative) [S6] ;
+  - la recommandation ESC 2022 de cardio-oncologie place **les deux options en classe I** : les **HBPM** (si les plaquettes sont > 50 G/L) et les **AOD (édoxaban, apixaban, rivaroxaban)** chez les patients sans contre-indication [S6] ;
   - **prudence avec les AOD** dans les cancers **digestifs luminaux** et **urogénitaux** non opérés (risque hémorragique), en cas d'**interactions** avec la chimiothérapie, de vomissements ou de troubles de l'absorption [S6].
 - **Après 6 mois** : anticoagulation **prolongée tant que le cancer est actif** (métastases, traitement en cours) [S1, S6].
 - **Prophylaxie primaire** chez certains patients ambulatoires sous traitement systémique à haut risque thrombotique (apixaban, rivaroxaban ou HBPM : classe IIb selon l'ESC 2022) [S6].
@@ -786,17 +855,17 @@ Dans l'EP à haut risque menaçant le pronostic vital, les contre-indications **
 - **AOD contre-indiqués** ; **AVK** évités pendant la grossesse (embryopathie au 1er trimestre, hémorragie fœtale ensuite) [S1, S7].
 - **Accouchement** : programmé ; pas de ponction péridurale ou rachidienne dans les **24 heures** suivant la dernière dose curative d'HBPM (classe III) [S1] ; un relais par HNF autour du terme peut faciliter l'anesthésie locorégionale.
 - **Post-partum** : poursuite de l'anticoagulation **au moins 6 semaines** après l'accouchement, avec une durée **totale minimale de 3 mois** ; HBPM ou AVK (la warfarine est compatible avec l'allaitement) [S1, S7].
-- **EP à haut risque pendant la grossesse** : **thrombolyse** ou **embolectomie chirurgicale** (classe I) [S1].
+- **EP à haut risque pendant la grossesse** : **thrombolyse** ou **embolectomie chirurgicale** à envisager (classe IIa selon l'ESC 2019) [S1].
 
 #### 13.3.8 Antidotes et gestion des hémorragies
 
 | Anticoagulant | Antagonisation | Source |
 |---|---|---|
-| HNF | **Sulfate de protamine** : 1 mg neutralise environ 100 UI d'HNF administrée dans les heures précédentes | RCP |
-| HBPM | Protamine : neutralisation **partielle** (activité anti-Xa) | RCP |
-| AVK | **Vitamine K** + **concentré de complexe prothrombinique (CCP)** dose selon l'INR et le poids **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | RCP |
+| HNF | **Sulfate de protamine** : 1 mg neutralise environ 100 UI d'HNF administrée dans les 2 à 3 heures précédentes ; IV lente, ≤ 50 mg par injection | RCP ; [S15] |
+| HBPM | Protamine : neutralisation **partielle** (≤ 60 % de l'activité anti-Xa) ; 1 mg pour 100 UI anti-Xa si la dernière injection date de moins de 8 h | RCP ; [S15] |
+| AVK (hémorragie grave) | **CCP ≈ 25 UI/kg** (ou dose selon l'INR si connu) **+ vitamine K 10 mg** ; objectif **INR < 1,5**, INR contrôlé 30 min après le CCP | HAS 2008 [S16] ; DOS-PHAR-0002 |
 | Dabigatran | **Idarucizumab 5 g IV** (2 × 2,5 g) | RCP |
-| Anti-Xa directs | **Andexanet alfa** (disponibilité limitée) ou CCP à défaut **[À VÉRIFIER — disponibilité locale]** | RCP |
+| Anti-Xa directs | **Andexanet alfa** (AMM européenne limitée à l'apixaban et au rivaroxaban ; excès d'événements thrombotiques dans ANNEXA-I ; **retiré du marché américain en décembre 2025**) ou, à défaut, **CCP 50 UI/kg** ; disponibilité en Algérie **[À VÉRIFIER]** | [S19] ; DOS-PHAR-0002 |
 
 ### 13.4 Indications et stratégie
 
@@ -1208,8 +1277,8 @@ Rechercher un **syndrome post-EP** et une **HTP-TEC** : ETT (signes d'hypertensi
 | Thème | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
 | **Classification de gravité de l'EP** | **ESC 2019** : risque élevé / intermédiaire-élevé / intermédiaire-faible / faible (instabilité, PESI/sPESI, VD, troponine) [S1] | **AHA/ACC 2026** : catégories cliniques **A à E** avec sous-catégories ; abandon des termes « massive/submassive » [S2] | Les deux systèmes ne se superposent pas exactement ; pour l'examen en Algérie, connaître d'abord l'ESC 2019 |
-| **Traitements avancés hors haut risque** | ESC 2019 : thrombolyse systématique non recommandée (III) en risque intermédiaire ; traitement percutané en alternative à la chirurgie (IIa) dans le haut risque [S1] | AHA/ACC 2026 : traitements avancés « envisageables » en catégorie D1–D2 [S2] | Évolution liée aux essais récents de traitement par cathéter (une nouvelle recommandation ESC est attendue) |
-| **Choix de l'anticoagulant dans le cancer** | ESC 2019 : HBPM pendant 6 mois (IIa) ; édoxaban ou rivaroxaban en alternative, sauf cancer gastro-intestinal (IIa) [S1] | ESC 2022 cardio-oncologie : AOD (édoxaban, apixaban, rivaroxaban) en classe I chez les patients sans contre-indication [S6] | Le texte de 2022 intègre l'essai Caravaggio (apixaban) ; la prudence dans les cancers digestifs et urogénitaux persiste |
+| **Traitements avancés hors haut risque** | ESC 2019 : thrombolyse systématique non recommandée (III) en risque intermédiaire ; traitement percutané en alternative à la chirurgie (IIa) dans le haut risque [S1] | AHA/ACC 2026 : traitements avancés « envisageables » en catégorie D1–D2 [S2] | Évolution liée aux essais récents de traitement par cathéter (PRAGUE-26, 2026 [S18]) ; une nouvelle recommandation ESC est attendue |
+| **Choix de l'anticoagulant dans le cancer** | ESC 2019 : HBPM pendant 6 mois (IIa) ; édoxaban ou rivaroxaban en alternative, sauf cancer gastro-intestinal (IIa) [S1] | ESC 2022 cardio-oncologie : AOD (édoxaban, apixaban, rivaroxaban) en classe I chez les patients sans contre-indication, HBPM également en classe I (plaquettes > 50 G/L) [S6] | Le texte de 2022 intègre l'essai Caravaggio (apixaban) ; la prudence dans les cancers digestifs et urogénitaux persiste |
 | **TVP distale isolée** | CHEST 2021 : surveillance échographique en l'absence de symptômes sévères ou de facteur d'extension, sinon anticoagulation [S4] | ESVS 2021 : anticoagulation généralement proposée pour les TVP distales symptomatiques, durée de 3 mois **[À VÉRIFIER — classe et formulation exactes]** [S3] | Les deux options sont acceptables ; décision partagée selon le risque hémorragique |
 | **EP sous-segmentaire isolée** | CHEST 2021 : surveillance clinique possible sans TVP proximale ni facteur de risque de récidive [S4] | ESC 2019 : pas de recommandation de non-traitement ; prudence, données limitées [S1] | Diagnostic par excès fréquent ; relecture du scanner recommandée |
 | **Seuil des D-dimères** | ESC 2019 : seuil ajusté à l'âge ou adapté à la probabilité clinique (IIa) [S1] | Recommandations françaises 2019 : seuil ajusté à l'âge recommandé **[À VÉRIFIER — formulation]** [S13] | Ne jamais combiner librement deux stratégies non validées ensemble |
@@ -1221,16 +1290,23 @@ Rechercher un **syndrome post-EP** et une **HTP-TEC** : ETT (signes d'hypertensi
 
 1. **[S1]** Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS). *Eur Heart J.* 2020;41(4):543-603. doi:10.1093/eurheartj/ehz405. — vérifiée.
 2. **[S2]** Creager MA, Barnes GD, et al. 2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults. *Circulation.* 2026;153(12):e977-e1051. doi:10.1161/CIR.0000000000001415. — vérifiée (contenu détaillé partiellement).
-3. **[S3]** Kakkos SK, Gohel M, Baekgaard N, et al. European Society for Vascular Surgery (ESVS) 2021 Clinical Practice Guidelines on the Management of Venous Thrombosis. *Eur J Vasc Endovasc Surg.* 2021;61(1):9-82. — vérifiée (DOI non confirmé).
+3. **[S3]** Kakkos SK, Gohel M, Baekgaard N, et al. European Society for Vascular Surgery (ESVS) 2021 Clinical Practice Guidelines on the Management of Venous Thrombosis. *Eur J Vasc Endovasc Surg.* 2021;61(1):9-82. doi:10.1016/j.ejvs.2020.09.023. — vérifiée.
 4. **[S4]** Stevens SM, Woller SC, Baumann Kreuziger L, et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline and Expert Panel Report. *Chest.* 2021;160(6):e545-e608. doi:10.1016/j.chest.2021.07.055. — vérifiée.
 5. **[S5]** Ortel TL, Neumann I, Ageno W, et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism. *Blood Adv.* 2020;4(19):4693-4738. doi:10.1182/bloodadvances.2020001830. — vérifiée.
-6. **[S6]** Lyon AR, López-Fernández T, Couch LS, et al. 2022 ESC Guidelines on cardio-oncology. *Eur Heart J.* 2022;43(41):4229-4361. doi:10.1093/eurheartj/ehac244. — vérifiée (volume et pages à confirmer).
+6. **[S6]** Lyon AR, López-Fernández T, Couch LS, et al. 2022 ESC Guidelines on cardio-oncology. *Eur Heart J.* 2022;43(41):4229-4361. doi:10.1093/eurheartj/ehac244. — vérifiée.
 7. **[S7]** De Backer J, Haugaa KH, Hasselberg NE, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. *Eur Heart J.* 2025;46(43):4462-4568. doi:10.1093/eurheartj/ehaf193. — vérifiée (texte intégral non lu).
 8. **[S8]** Righini M, Van Es J, Den Exter PL, et al. Age-adjusted D-dimer cutoff levels to rule out pulmonary embolism: the ADJUST-PE study. *JAMA.* 2014;311(11):1117-1124. — vérifiée.
 9. **[S9]** van der Pol LM, Tromeur C, Bistervels IM, et al. Pregnancy-Adapted YEARS Algorithm for Diagnosis of Suspected Pulmonary Embolism. *N Engl J Med.* 2019;380(12):1139-1149. — vérifiée.
-10. **[S10]** van der Hulle T, Cheung WY, Kooij S, et al. Simplified diagnostic management of suspected pulmonary embolism (the YEARS study). *Lancet.* 2017;390(10091):289-297. — **non vérifiée**.
-11. **[S11]** Freund Y, Cachanado M, Aubry A, et al. Effect of the Pulmonary Embolism Rule-Out Criteria on Subsequent Thromboembolic Events Among Low-Risk Emergency Department Patients: The PROPER Randomized Clinical Trial. *JAMA.* 2018;319(6):559-566. — **non vérifiée**.
+10. **[S10]** van der Hulle T, Cheung WY, Kooij S, et al. Simplified diagnostic management of suspected pulmonary embolism (the YEARS study). *Lancet.* 2017;390(10091):289-297. doi:10.1016/S0140-6736(17)30885-1. — vérifiée (audit).
+11. **[S11]** Freund Y, Cachanado M, Aubry A, et al. Effect of the Pulmonary Embolism Rule-Out Criteria on Subsequent Thromboembolic Events Among Low-Risk Emergency Department Patients: The PROPER Randomized Clinical Trial. *JAMA.* 2018;319(6):559-566. doi:10.1001/jama.2017.21904. — vérifiée (audit).
 12. **[S12]** Tektonidou MG, Andreoli L, Limper M, et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. *Ann Rheum Dis.* 2019;78(10):1296-1304. doi:10.1136/annrheumdis-2019-215213. — vérifiée.
-13. **[S13]** Sanchez O, Benhamou Y, Bertoletti L, et al. Recommandations de bonne pratique pour la prise en charge de la maladie veineuse thromboembolique chez l'adulte. Version courte. *Rev Mal Respir.* 2019;36(2):249-283. — **non vérifiée**.
+13. **[S13]** Sanchez O, Benhamou Y, Bertoletti L, et al. Recommandations de bonne pratique pour la prise en charge de la maladie veineuse thromboembolique chez l'adulte. Version courte. *Rev Mal Respir.* 2019;36(2):249-283. doi:10.1016/j.rmr.2019.01.003. — vérifiée (audit ; contenu non relu).
+14. **[S14]** Raschke RA, Reilly BM, Guidry JR, et al. The weight-based heparin dosing nomogram compared with a "standard care" nomogram. *Ann Intern Med.* 1993;119(9):874-881. — vérifiée.
+15. **[S15]** Garcia DA, Baglin TP, Weitz JI, Samama MM. Parenteral anticoagulants (ACCP, 9th ed). *Chest.* 2012;141(2 Suppl):e24S-e43S. doi:10.1378/chest.11-2291. — vérifiée.
+16. **[S16]** HAS, GEHT. Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par AVK. 2008. — vérifiée.
+17. **[S17]** Meyer G, Vicaut E, Danays T, et al. Fibrinolysis for patients with intermediate-risk pulmonary embolism. *N Engl J Med.* 2014;370(15):1402-1411. doi:10.1056/NEJMoa1302097. — vérifiée (audit).
+18. **[S18]** Kroupa J, Radvan M, Mrozek J, et al. Catheter-Directed Thrombolysis in Intermediate-High-Risk Pulmonary Embolism. *N Engl J Med.* 2026. doi:10.1056/NEJMoa2608012. — vérifiée (audit, résumé).
+19. **[S19]** AABB. Retrait de l'andexanet alfa du marché américain, 23 décembre 2025 (communication de sécurité de la FDA du 18 décembre 2025). — vérifiée.
+20. **[S20]** RCP européens de l'énoxaparine (RCP harmonisé) et du fondaparinux. — **non vérifiée** (version en vigueur à confirmer).
 
-*Posologies citées d'après les tableaux de l'ESC 2019 [S1] et les RCP des spécialités ; les marqueurs `[POSOLOGIE À VÉRIFIER]` signalent les schémas non confirmés pendant la rédaction (HNF, ténectéplase, AVK, CCP).*
+*Posologies citées d'après les tableaux de l'ESC 2019 [S1], le nomogramme de Raschke [S14, S15], la HAS 2008 [S16] et les RCP des spécialités ; elles sont harmonisées avec DOS-PHAR-0002 (audité). Audit AUD-01/AUD-02 du 2026-11-19 : 3 marqueurs levés (HNF, ténectéplase, CCP) ; 1 marqueur maintenu (doses initiales d'AVK dans la pratique française et algérienne).*

@@ -6,11 +6,17 @@ sous_specialite: "Infections systémiques bactériennes — salmonelloses majeur
 items_residanat: [RES-MED-001]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 19
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0003.md
 sources:
   - id: S1
     reference: "World Health Organization. The WHO AWaRe (Access, Watch, Reserve) antibiotic book. Geneva: WHO; 2022. Chapitre 15 « Enteric fever » (p. 185-192) et chapitre 24 « Sepsis in adults ». Licence CC BY-NC-SA 3.0 IGO."
@@ -29,7 +35,7 @@ sources:
     doi: ""
     url: "https://www.who.int/publications/i/item/typhoid-vaccines-who-position-paper-march-2018"
     verifiee: true
-    remarque: "Existence, numéro, pages et messages principaux (vaccin conjugué préféré à tout âge, dose unique dès 6 mois en pays d'endémie, priorité aux pays à forte charge ou à résistance croissante) confirmés par recherche web le 2026-11-19 ; texte intégral non lu."
+    remarque: "Existence, numéro, pages et messages principaux (vaccin conjugué préféré à tout âge, dose unique dès 6 mois en pays d'endémie, priorité aux pays à forte charge ou à résistance croissante) confirmés par recherche web le 2026-11-19 ; texte intégral non lu. Audit 2026-11-19 : PDF téléchargé depuis IRIS (WER9313-153-172) ; note REMPLACÉE par la note de synthèse OMS du 14 août 2026 [S11]."
   - id: S3
     reference: "Klemm EJ, et al. Emergence of an extensively drug-resistant Salmonella enterica serovar Typhi clone harboring a promiscuous plasmid encoding resistance to fluoroquinolones and third-generation cephalosporins. mBio. 2018;9(1):e00105-18."
     organisme: "Article original (Pakistan / Wellcome Sanger Institute)"
@@ -83,7 +89,7 @@ sources:
     doi: ""
     url: ""
     verifiee: false
-    remarque: "Référence classique citée de mémoire ; non vérifiée pendant la session [À VÉRIFIER]."
+    remarque: "Référence classique citée de mémoire. Audit 2026-11-19 : vérifiée par l'API PubMed (PMID 12456854 ; doi 10.1056/NEJMra020201) ; texte intégral non lu."
   - id: S9
     reference: "Hoffman SL, Punjabi NH, Kumala S, et al. Reduction of mortality in chloramphenicol-treated severe typhoid fever by high-dose dexamethasone. N Engl J Med. 1984;310(2):82-88."
     organisme: "Essai randomisé (Indonésie)"
@@ -92,7 +98,7 @@ sources:
     doi: ""
     url: ""
     verifiee: false
-    remarque: "Citée de mémoire ; non vérifiée [À VÉRIFIER]."
+    remarque: "Audit 2026-11-19 : vérifiée par l'API PubMed (PMID 6361558 ; doi 10.1056/NEJM198401123100203) ; résumé lu : 38 patients sous chloramphénicol, dose initiale de 3 mg/kg, létalité 10 % contre 55,6 % sous placebo ; dexaméthasone recommandée en cas de délire, d'obnubilation, de stupeur, de coma ou de choc."
   - id: S10
     reference: "Collège des universitaires de maladies infectieuses et tropicales (CMIT). E. Pilly / ECN.Pilly — chapitre « Fièvres typhoïde et paratyphoïdes » (édition en vigueur). Paris : Alinéa Plus."
     organisme: CMIT
@@ -102,13 +108,31 @@ sources:
     url: ""
     verifiee: false
     remarque: "Référentiel français cité pour les positions françaises (durées, molécules) ; édition et pages non vérifiées [À VÉRIFIER]."
+  - id: S11
+    reference: "World Health Organization. Position paper on typhoid vaccines, 2026. Weekly Epidemiological Record. 2026;101(32):166-180 (14 August 2026)."
+    organisme: OMS
+    annee: 2026
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/386927"
+    verifiee: true
+    remarque: "Audit AUD-01/AUD-02 (2026-11-19) : PDF téléchargé depuis IRIS (WER101-32-166-180) et lu (pdftotext). Remplace la note de 2018 [S2] : TCV recommandé à tous les âges éligibles ; 1re dose entre 9 et 24 mois là où l'incidence est élevée ou très élevée (ou si létalité ou résistance élevées), à partir de 2 ans (jusqu'à 5 ans) si l'incidence est moyenne ; rappel vers 5 ans si incidence très élevée ; Vi-PS dès 2 ans (dose unique, revaccination tous les 3 ans) ; Ty21a dès 6 ans (3 doses orales un jour sur deux) ; GBD 2023 : 6,2 millions de cas et 72 000 décès de fièvre typhoïde."
+  - id: S12
+    reference: "World Health Organization. Background document: the diagnosis, treatment and prevention of typhoid fever. Geneva: WHO; 2003 (WHO/V&B/03.07)."
+    organisme: OMS
+    annee: 2003
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/370492"
+    verifiee: true
+    remarque: "Audit AUD-01/AUD-02 (2026-11-19) : PDF téléchargé depuis IRIS et lu (pdftotext). Document ancien, utilisé seulement pour des points non repris par le livre AWaRe : incubation (8–14 jours ; 3 à plus de 60 jours), rechutes (5–20 %), portage chronique (1–5 % ; ciprofloxacine 750 mg × 2/j pendant 28 jours), dexaméthasone dans les formes graves (3 mg/kg puis 1 mg/kg toutes les 6 h, 8 doses), reprise des manipulateurs d'aliments après 3 coprocultures négatives à au moins 1 mois d'intervalle."
 mots_cles: [fièvre typhoïde, fièvres paratyphoïdes, Salmonella Typhi, Salmonella Paratyphi, fièvre entérique, tuphos, hémoculture, Widal, multirésistance, XDR, azithromycine, ceftriaxone, ciprofloxacine, vaccin conjugué, Algérie]
 ---
 
 # Fièvres typhoïde et paratyphoïdes : signes, diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique. **Traçabilité** : le chapitre « Enteric fever » du livre AWaRe de l'OMS [S1] et les textes algériens [S6, S7] ont été **lus** (documents acquis) ; les autres références ont été confirmées par recherche web sans lecture du texte intégral, sauf [S8–S10] (non vérifiées).
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (bloc `audit` et rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique. **Traçabilité** : le chapitre « Enteric fever » du livre AWaRe de l'OMS [S1] et les textes algériens [S6, S7] ont été **lus** (documents acquis) ; la note de synthèse OMS de 2026 sur les vaccins antityphoïdiques [S11] et le document technique OMS de 2003 [S12] ont été lus lors de l'audit ; [S8] et [S9] ont été vérifiées sur PubMed ; les autres références ont été confirmées par recherche web sans lecture du texte intégral, sauf [S10] (non vérifiée).
 
 **Items du programme couverts** : RES-MED-001 — « Fièvre typhoïde et paratyphoïde : Signes - diagnostic - traitement ».
 
@@ -143,17 +167,18 @@ Ce sont des **maladies à déclaration obligatoire en Algérie** (catégorie 1, 
 - La fièvre typhoïde a été individualisée au XIXᵉ siècle (description anatomoclinique des lésions des plaques de Peyer par l'école française — Bretonneau, Louis) ; le bacille a été observé par Eberth puis cultivé par Gaffky (années 1880) [S8] `[À VÉRIFIER : dates exactes]`.
 - La **sérologie de Widal** (fin du XIXᵉ siècle) a longtemps été le pilier du diagnostic ; l'OMS considère aujourd'hui qu'elle **n'est pas fiable** pour le diagnostic d'une maladie aiguë [S1].
 - Le **chloramphénicol** fut le premier traitement efficace (fin des années 1940), puis l'ampicilline et le cotrimoxazole. Les souches **MDR** se sont répandues dans les années 1980–1990, ce qui a conduit à l'usage des **fluoroquinolones**, puis, devant la diminution de sensibilité aux fluoroquinolones (surtout en Asie du Sud), à celui des **C3G et de l'azithromycine** [S1, S4].
-- 2016–2018 : émergence d'un clone **XDR** au Pakistan [S3] ; 2018 : l'OMS recommande le **vaccin conjugué** contre la typhoïde [S2].
+- 2016–2018 : émergence d'un clone **XDR** au Pakistan [S3] ; 2018 : l'OMS recommande le **vaccin conjugué** contre la typhoïde [S2] ; **août 2026** : nouvelle note de synthèse de l'OMS, centrée sur le vaccin conjugué, qui remplace celle de 2018 [S11].
 
 ## 3. Épidémiologie
 
 ### 3.1 Dans le monde
 - Environ **14,3 millions de cas de fièvre entérique en 2017** ; le nombre de nouveaux cas a baissé d'environ 45 % et celui des décès d'environ 41 % depuis les années 1990 [S1].
-- *S.* Typhi est responsable de **70 à 80 %** des cas [S1].
+- *S.* Typhi est responsable de **70 à 80 %** des cas [S1]. Pour la seule fièvre typhoïde, l'étude *Global Burden of Disease* estime environ **6,2 millions de cas et 72 000 décès en 2023** [S11].
 - Zones de forte endémie : **Asie du Sud** (Inde, Pakistan, Bangladesh : plus de 500 cas pour 100 000 habitants en 2017) et **Afrique subsaharienne** [S1].
 - Près de **60 % des cas** surviennent chez les **moins de 15 ans** en zone d'endémie [S1].
 - **Létalité** d'environ **1 %** sous traitement adapté ; les **complications** (dont la perforation intestinale) touchent **20 à 30 %** des patients hospitalisés, davantage si les symptômes durent depuis plus de 10 jours à l'admission [S1].
 - Pays industrialisés : cas surtout **importés** (voyageurs, « visite aux amis et à la famille » dans les pays d'endémie).
+- **Résistances** : la souche XDR reste en grande partie limitée au Pakistan ; des résistances indépendantes à l'azithromycine, aux C3G et même aux **carbapénèmes** sont désormais rapportées en Asie du Sud [S11].
 
 ### 3.2 En Algérie
 - Les fièvres typhoïde et paratyphoïdes sont **à déclaration obligatoire** (catégorie 1) [S6].
@@ -224,7 +249,7 @@ Points clés [S1, S4, S8] :
 ## 8. Diagnostic positif — clinique
 
 ### 8.1 Forme typique de l'adulte jeune non traité
-**Incubation** : silencieuse, en général **1 à 2 semaines** (de quelques jours à environ 1 mois) `[À VÉRIFIER : extrêmes]`.
+**Incubation** : silencieuse, en général **8 à 14 jours** ; des incubations de 3 jours à plus de 60 jours ont été rapportées, la durée diminuant quand l'inoculum augmente [S12].
 
 **Phase d'invasion (1ʳᵉ semaine)**
 - **Fièvre d'ascension progressive** (« en échelons »), atteignant 39–40 °C en 5 à 7 jours ; fièvre prolongée (≥ 38 °C plus de 3 jours) = maître symptôme selon l'OMS [S1].
@@ -313,8 +338,8 @@ Points clés [S1, S4, S8] :
 
 ### 12.1 Évolution sous traitement
 - La **fièvre diminue lentement**, en général **après 3 à 5 jours** de traitement efficace : une fièvre persistant au-delà ne signe pas forcément un échec [S1].
-- **Rechute** : réapparition de la fièvre après la guérison apparente (souvent 1 à 3 semaines après), due à la même souche, généralement sensible `[À VÉRIFIER : fréquence]`.
-- **Portage chronique** : favorisé par la **lithiase vésiculaire**, l'âge, le sexe féminin ; source majeure de transmission [S1, S8].
+- **Rechute** : réapparition de la fièvre peu après la fin d'un traitement apparemment efficace, dans **5 à 20 %** des cas ; tableau souvent plus modéré ; nouvelles cultures et traitement standard [S12].
+- **Portage chronique** (**1 à 5 %** des patients ; cultures de selles positives plus d'un an après la guérison) : favorisé par la **lithiase vésiculaire**, l'âge > 50 ans, le sexe féminin (et la schistosomose) ; source majeure de transmission [S1, S12].
 
 ### 12.2 Complications (surtout 3ᵉ semaine, ou chez le patient vu tardivement)
 
@@ -355,11 +380,11 @@ Points clés [S1, S4, S8] :
 
 **b) Anciens antibiotiques** : ampicilline/amoxicilline, chloramphénicol et cotrimoxazole sont redevenus actifs dans certaines régions d'Asie, mais **leur usage probabiliste est déconseillé** (risque de rebond des souches multirésistantes) ; ils peuvent être utilisés **sur antibiogramme** [S1]. Le chloramphénicol expose à une toxicité hématologique (aplasie) et était classiquement débuté prudemment par crainte d'une réaction endotoxinique initiale `[À VÉRIFIER]`.
 
-**c) Souches XDR** (acquisition au Pakistan ou contact avec un cas XDR) : **azithromycine** pour les formes non compliquées ; **carbapénème** (méropénem), éventuellement associé à l'azithromycine, pour les formes compliquées `[POSOLOGIE À VÉRIFIER — protocoles nationaux pakistanais / protocole local]` [S1, S3]. Ces molécules doivent être réservées à cette situation (bon usage des carbapénèmes).
+**c) Souches XDR** (acquisition au Pakistan ou contact avec un cas XDR) : **azithromycine** pour les formes non compliquées (doses ci-dessus) ; **carbapénème** (méropénem), éventuellement associé à l'azithromycine, pour les formes compliquées [S1, S3]. L'OMS ne fixe pas de posologie propre à la typhoïde XDR : on retient les doses usuelles du méropénem dans les infections graves (livre AWaRe, infections intra-abdominales compliquées : **adulte 1 g toutes les 8 h IV ; enfant 20 mg/kg toutes les 8 h IV** ; 2 g toutes les 8 h dans le tableau du sepsis de l'adulte) [S1], à adapter à la fonction rénale et au protocole local. Ces molécules doivent être réservées à cette situation (bon usage des carbapénèmes) ; une résistance aux carbapénèmes est désormais rapportée en Asie du Sud [S11].
 
 **d) Association ceftriaxone + azithromycine** : rapportée comme raccourcissant la durée des symptômes ; suggérée par certaines recommandations pour les formes sévères, alors que l'OMS recommande actuellement une **monothérapie** [S1].
 
-**e) Corticothérapie** : la **dexaméthasone à forte dose** a réduit la mortalité des formes sévères (encéphalopathie, choc) dans un essai ancien en Indonésie (patients traités par chloramphénicol) [S9] `[À VÉRIFIER : indications et doses ; transposabilité aux antibiotiques actuels ; POSOLOGIE À VÉRIFIER — protocole local]`.
+**e) Corticothérapie** : la **dexaméthasone à forte dose** a réduit la mortalité des formes sévères dans un essai randomisé ancien en Indonésie (38 patients traités par chloramphénicol : létalité 10 % contre 55,6 %) [S9]. Indications : **délire, obnubilation, stupeur, coma ou choc**, après avoir éliminé une méningite par la ponction lombaire. Schéma de l'OMS (2003) : **3 mg/kg IV en 30 minutes, puis 1 mg/kg toutes les 6 heures pendant 8 doses** (48 h) ; l'hydrocortisone à faible dose est inefficace [S12]. Données anciennes, de l'ère du chloramphénicol ; la question n'est pas reprise par le livre AWaRe de 2022 [S1].
 
 **f) Traitement chirurgical** : en cas de **perforation** — réanimation préopératoire, **laparotomie** en urgence (suture ou résection iléale selon les lésions), lavage péritonéal, antibiothérapie élargie aux anaérobies (ex. ceftriaxone + métronidazole selon l'OMS pour les infections intra-abdominales) [S1]. **Hémorragie** : transfusion, endoscopie / embolisation / chirurgie selon le cas.
 
@@ -385,7 +410,7 @@ SUSPICION DE FIÈVRE TYPHOÏDE / PARATYPHOÏDE
 │           ├─ forme légère  → azithromycine 1 g J1 puis 500 mg/j (enfant 20 mg/kg/j)
 │           └─ forme sévère  → ceftriaxone 2 g/j IV (enfant 80 mg/kg/j)
 │      └─ Suspicion de souche XDR (Pakistan) → azithromycine (léger) /
-│           carbapénème ± azithromycine (sévère) [POSOLOGIE À VÉRIFIER]
+│           méropénem 1 g/8 h (enfant 20 mg/kg/8 h) ± azithromycine (sévère)
 │
 ├─ 4. ADAPTER à l'antibiogramme dès réception ; relais oral quand apyrexie et
 │      tolérance digestive
@@ -395,25 +420,25 @@ SUSPICION DE FIÈVRE TYPHOÏDE / PARATYPHOÏDE
 └─ 6. Santé publique : déclaration obligatoire, enquête, hygiène,
        coprocultures de contrôle (manipulateurs d'aliments, soignants)
 ```
-Sources : [S1] pour les doses et durées ; [S3] pour les souches XDR.
+Sources : [S1] pour les doses et durées ; [S3] pour les souches XDR ; [S12] pour la dexaméthasone.
 
 ### 13.4 Situations particulières
 - **Femme enceinte** : éviter les fluoroquinolones ; privilégier **C3G** ou **azithromycine** `[À VÉRIFIER — RCP]`.
 - **Enfant** : posologies pondérales de l'OMS ci-dessus [S1] ; la ciprofloxacine est utilisée chez l'enfant dans cette indication par l'OMS malgré la réserve classique concernant le cartilage de croissance.
-- **Porteur chronique** : antibiothérapie prolongée (classiquement fluoroquinolone pendant plusieurs semaines si la souche est sensible) ; **cholécystectomie** discutée en cas de lithiase et d'échec `[À VÉRIFIER — durée et indications ; POSOLOGIE À VÉRIFIER]` [S8].
+- **Porteur chronique** : antibiothérapie prolongée guidée par l'antibiogramme — **ciprofloxacine 750 mg × 2/j pendant 28 jours** (jusqu'à 80 % d'éradication) ; à défaut, amoxicilline à forte dose ou cotrimoxazole pendant 6 semaines (environ 60 %) ; **cholécystectomie** (ou traitement d'une schistosomose) souvent nécessaire en cas de lithiase [S12]. Données anciennes (OMS 2003) ; aucune recommandation plus récente n'a été retrouvée pendant l'audit.
 - **Rechute** : nouveau traitement guidé par l'antibiogramme.
 
 ### 13.5 Particularités algériennes
-- **Déclaration obligatoire** de tout cas (catégorie 1) [S6] ; les modalités pratiques (fiche, circuit, délais) sont fixées par arrêté ministériel `[À VÉRIFIER : arrêté non retrouvé]`.
+- **Déclaration obligatoire** de tout cas (catégorie 1) [S6] ; les modalités pratiques (fiche, circuit, délais) sont renvoyées par le décret à un arrêté ministériel, **non retrouvé** pendant l'audit `[À VÉRIFIER]`.
 - **Enquête épidémiologique** autour du cas (source hydrique ou alimentaire, cas groupés) avec les services d'hygiène et d'épidémiologie (SEMEP) `[À VÉRIFIER : organisation actuelle]`.
-- Ciprofloxacine, ceftriaxone et azithromycine sont des molécules d'usage courant ; le **choix probabiliste** doit tenir compte des **données nationales de résistance** `[À VÉRIFIER]`.
+- Ciprofloxacine, ceftriaxone et azithromycine sont des molécules d'usage courant ; le **choix probabiliste** doit tenir compte des **données nationales de résistance** de *S.* Typhi, **non retrouvées** pendant l'audit ; aucun protocole national de traitement de la typhoïde n'a été retrouvé `[À VÉRIFIER]`.
 - Le vaccin antityphoïdique **ne fait pas partie** du calendrier obligatoire [S7] ; sa disponibilité (vaccin polyosidique Vi, voyageurs, professionnels exposés) est à vérifier auprès de l'Institut Pasteur d'Algérie `[À VÉRIFIER]`.
 
 ## 14. Surveillance
 
 - **Clinique** : courbe thermique (défervescence attendue en 3 à 5 jours [S1]), pouls, pression artérielle, conscience, **examen abdominal biquotidien** (défense, météorisme, disparition de la matité préhépatique), selles (sang), diurèse.
 - **Biologique** : NFS, CRP, fonction rénale et hépatique ; **ECG** si suspicion de myocardite ; **QT** sous azithromycine si facteurs de risque [S1].
-- **Bactériologique** : résultats des hémocultures et de l'**antibiogramme** (adaptation) ; **coprocultures de contrôle** après la fin du traitement chez les personnes à risque de transmission (manipulateurs d'aliments, personnel de santé, collectivités d'enfants) `[À VÉRIFIER : nombre et rythme selon la réglementation nationale]`.
+- **Bactériologique** : résultats des hémocultures et de l'**antibiogramme** (adaptation) ; **coprocultures de contrôle** après la fin du traitement chez les personnes à risque de transmission (manipulateurs d'aliments, personnel de santé, collectivités d'enfants) : l'OMS (2003) ne fait reprendre leur activité aux manipulateurs d'aliments qu'après **3 coprocultures négatives à au moins 1 mois d'intervalle** [S12] ; réglementation algérienne non retrouvée `[À VÉRIFIER]`.
 - **Après la sortie** : information sur les signes de **rechute** ; hygiène des mains ; dépistage du **portage**.
 
 ## 15. Prévention
@@ -426,15 +451,17 @@ Sources : [S1] pour les doses et durées ; [S3] pour les souches XDR.
 ### 15.2 Mesures individuelles
 - Lavage des mains, eau traitée ou bouillie, aliments cuits, fruits pelés (« cuire, bouillir, peler ou s'abstenir »).
 
-### 15.3 Vaccination (position de l'OMS, mars 2018) [S2]
+### 15.3 Vaccination (note de synthèse de l'OMS, août 2026, qui remplace celle de mars 2018) [S11]
 
 | Vaccin | Type | Âge d'utilisation | Schéma | Commentaire |
 |---|---|---|---|---|
-| **Vaccin conjugué (TCV)** | Polyoside Vi conjugué à une protéine porteuse | **Dès 6 mois** | **Dose unique** [S2] | **Vaccin préféré à tous les âges** ; utilisable avant 2 ans ; protection plus durable [S1, S2] ; efficacité de **81,6 %** à 1 an (79,0 % à 2 ans) chez des enfants de 9 mois à < 16 ans au Népal [S5] |
-| **Vi-PS** | Polyoside capsulaire Vi non conjugué | À partir de 2 ans `[À VÉRIFIER]` | Dose unique, rappel tous les 3 ans `[À VÉRIFIER]` | Alternative chez les plus âgés ; pas de mémoire immunitaire |
-| **Ty21a** | Vivant atténué, oral | Enfant plus âgé et adulte `[À VÉRIFIER : âge minimal]` | Plusieurs prises orales `[À VÉRIFIER]` | Alternative ; contre-indiqué chez l'immunodéprimé et la femme enceinte (vaccin vivant) |
+| **Vaccin conjugué (TCV)** | Polyoside Vi conjugué à une protéine porteuse (anatoxine tétanique, CRM197…) | Produits préqualifiés homologués **dès 6 mois** ; en programme : **1re dose entre 9 et 24 mois** là où l'incidence est élevée ou très élevée (ou si la létalité ou la résistance sont élevées) ; dès 2 ans (jusqu'à 5 ans) si l'incidence est moyenne | **Dose unique** IM ; **rappel vers 5 ans** à envisager si l'incidence est très élevée (intervalle d'au moins 1 an) ; rattrapage (souvent < 15 ans) lors de l'introduction | **Recommandé à tous les âges éligibles** (meilleure immunogénicité, utilisable chez le jeune enfant, protection plus durable) [S11] ; efficacité de **81,6 %** à 1 an et **79,0 %** à 2 ans chez des enfants de 9 mois à 15 ans au Népal [S5, S11], 83,7 % à 2 ans au Malawi [S11] |
+| **Vi-PS** | Polyoside capsulaire Vi non conjugué | **À partir de 2 ans** | **Dose unique** IM ou SC ; **revaccination tous les 3 ans** | Non recommandé en routine en pays d'endémie ; surtout voyageurs, si TCV indisponible [S11] |
+| **Ty21a** | Vivant atténué, oral | **À partir de 6 ans** | **3 doses orales, un jour sur deux** ; revaccination tous les 3 à 7 ans (1 à 7 ans chez le voyageur selon les politiques nationales) | Non recommandé en routine en pays d'endémie ; à éviter pendant la grossesse ; contre-indiqué en cas de VIH non contrôlé (possible si CD4 ≥ 200/µL) [S11] |
 
-- L'OMS recommande l'usage **programmatique** des vaccins antityphoïdiques, en **priorisant** les pays à **forte charge** ou à **résistance croissante**, et leur usage en **riposte aux épidémies confirmées** [S1, S2].
+- L'OMS (2026) recommande le **TCV en vaccination de routine dans les pays d'endémie** où l'incidence est élevée ou très élevée, où la létalité est élevée ou où la **résistance aux antibiotiques** pèse lourdement ; son introduction peut être envisagée si l'incidence est moyenne ; elle doit s'intégrer à une stratégie globale (eau, assainissement, hygiène, sécurité alimentaire, prise en charge des porteurs et des infections résistantes) [S11].
+- **Groupes particuliers** : TCV (ou Vi-PS) utilisables pendant la grossesse et l'allaitement ; TCV chez l'immunodéprimé ; vaccination des **personnels de laboratoire** exposés ; en zone d'endémie, vaccination des **manipulateurs professionnels d'aliments** ; chez le **voyageur**, tout vaccin homologué peut être envisagé (TCV, Vi-PS, Ty21a) [S11].
+- **Épidémies** : introduction ou renforcement du TCV en routine ; campagnes de riposte envisageables dans les épidémies importantes ou prolongées [S11].
 - **Aucun vaccin** ne protège contre *S.* Paratyphi A ; la vaccination ne dispense pas des mesures d'hygiène.
 - Une vaccination antérieure **perturbe l'interprétation du Widal** [S1].
 
@@ -478,7 +505,7 @@ FIÈVRE ≥ 38 °C depuis > 3 jours sans foyer évident
 
 **Histoire et symptômes.** Fièvre d'installation progressive, céphalées frontales, insomnie, douleurs abdominales diffuses, constipation puis diarrhée depuis 2 jours, épistaxis à J4 ; depuis 48 heures, somnolence et indifférence.
 
-**Examen clinique.** T 39,8 °C, FC 84/min (pouls dissocié), PA 110/70 mmHg, FR 18/min ; patient prostré, répondant lentement ; langue saburrale ; abdomen souple, sensible, gargouillement de la fosse iliaque droite ; splénomégalie à 2 travers de doigt ; quelques macules rosées sur l'abdomen ; pas de raideur de nuque ; auscultation cardiaque normale.
+**Examen clinique.** T 39,8 °C, FC 84/min (pouls dissocié), PA 110/70 mmHg, FR 18/min ; patient prostré mais éveillé et orienté (Glasgow 15), répondant lentement ; langue saburrale ; abdomen souple, sensible, gargouillement de la fosse iliaque droite ; splénomégalie à 2 travers de doigt ; quelques macules rosées sur l'abdomen ; pas de raideur de nuque ; auscultation cardiaque normale.
 
 **Biologie.** Leucocytes 3 200/mm3 (N 4 000–10 000), PNN 1 900/mm3, éosinophiles 0/mm3, Hb 12,4 g/dL, plaquettes 128 000/mm3 (N 150 000–400 000), CRP 96 mg/L (N < 5), ASAT 2 × N, ALAT 2,5 × N, créatinine 9 mg/L (N 6–12), natrémie 133 mmol/L. TDR paludisme non réalisé (aucune exposition). Hémocultures (2 paires) : bacilles à Gram négatif à J2, identifiés Salmonella Typhi ; antibiogramme : sensible à l'ampicilline, au cotrimoxazole, à la ceftriaxone et à l'azithromycine ; résistant à l'acide nalidixique, ciprofloxacine intermédiaire.
 
@@ -504,7 +531,7 @@ FIÈVRE ≥ 38 °C depuis > 3 jours sans foyer évident
 
 **Évolution.** Apyrexie à J5 du traitement, disparition du tuphos à J3 ; sortie à J7 ; coprocultures de contrôle négatives.
 
-**Commentaire pédagogique.** Le cas illustre la fièvre typhoïde typique (fièvre progressive, pouls dissocié, tuphos, taches rosées, leuconeutropénie avec anéosinophilie), la primauté des hémocultures, le repérage de la sensibilité diminuée aux fluoroquinolones par la résistance à l'acide nalidixique et le choix de l'azithromycine, ainsi que la dimension de santé publique (eau de citerne, cas groupés, déclaration).
+**Commentaire pédagogique.** Le cas illustre la fièvre typhoïde typique (fièvre progressive, pouls dissocié, tuphos, taches rosées, leuconeutropénie avec anéosinophilie), la primauté des hémocultures, le repérage de la sensibilité diminuée aux fluoroquinolones par la résistance à l'acide nalidixique et le choix de l'azithromycine, ainsi que la dimension de santé publique (eau de citerne, cas groupés, déclaration). Un délire, une obnubilation, une stupeur, un coma ou un choc en feraient une forme grave : voie IV (ceftriaxone, 10 jours) et discussion de la dexaméthasone après ponction lombaire (OMS 2003).
 
 <!--CAS17:end-->
 
@@ -521,7 +548,7 @@ FIÈVRE ≥ 38 °C depuis > 3 jours sans foyer évident
 7. Antibiothérapie (OMS) : **ciprofloxacine** si faible risque de résistance aux FQ ; sinon **azithromycine** (léger) ou **ceftriaxone** (sévère) ; **7 jours** (léger) / **10 jours** (sévère) [S1].
 8. **XDR** (Pakistan, depuis 2016) : résistance aux FQ **et** aux C3G → **azithromycine** ou **carbapénème** [S1, S3].
 9. La fièvre baisse **lentement (3–5 jours)** sous traitement efficace : ne pas conclure trop vite à l'échec [S1].
-10. Prévention : **eau, assainissement, hygiène alimentaire**, gestion des **porteurs** ; **vaccin conjugué** préféré dès 6 mois en dose unique (OMS 2018) ; pas de vaccin antityphoïdique dans le calendrier algérien [S2, S7].
+10. Prévention : **eau, assainissement, hygiène alimentaire**, gestion des **porteurs** ; **vaccin conjugué (TCV)** recommandé par l'OMS (2026) : dose unique, 1re dose entre 9 et 24 mois là où l'incidence est élevée, rappel vers 5 ans si incidence très élevée ; pas de vaccin antityphoïdique dans le calendrier algérien [S7, S11].
 
 ## 19. Pièges classiques à l'examen
 
@@ -533,7 +560,8 @@ FIÈVRE ≥ 38 °C depuis > 3 jours sans foyer évident
 - Méconnaître une **perforation** chez un patient **tuphique** (douleur et défense atténuées) : examen abdominal répété, imagerie.
 - Donner de l'**aspirine** (risque hémorragique) ; oublier la **déclaration obligatoire** et l'**enquête**.
 - Confondre **salmonellose non typhique** (gastro-entérite, TIAC) et **salmonellose majeure**.
-- Oublier qu'**aucun vaccin** ne protège contre *S.* Paratyphi A et que le vaccin conjugué peut être utilisé **avant 2 ans** [S2].
+- Oublier qu'**aucun vaccin** ne protège contre *S.* Paratyphi A et que le vaccin conjugué peut être utilisé **avant 2 ans** (contrairement au Vi-PS) [S11].
+- Continuer à citer la note de l'OMS de **2018** : elle est remplacée par celle d'**août 2026** [S11].
 
 ---
 
@@ -696,7 +724,7 @@ Un patient revient de Karachi (Pakistan) avec une fièvre typhoïde. Concernant 
 - B — Vrai : données de Klemm et al. (mBio 2018).
 - C — Faux : résistance aux C3G par définition.
 - D — Vrai : souvent la seule option orale restante.
-- E — Vrai : posologie à confronter au protocole local.
+- E — Vrai : méropénem aux doses usuelles des infections graves (adulte 1 g toutes les 8 h IV selon l'OMS, AWaRe), réservé à cette situation.
 
 > Piège : Appliquer le schéma « ceftriaxone » standard à un cas importé du Pakistan.
 
@@ -776,14 +804,14 @@ Au 18e jour d'une fièvre typhoïde non traitée, un patient tuphique devient ta
 
 ## 21. Divergences entre recommandations
 
-| Thème | OMS — livre AWaRe 2022 [S1] / note de synthèse 2018 [S2] | Référentiel français (CMIT, E.Pilly / ECN.Pilly) [S10] | Commentaire |
+| Thème | OMS — livre AWaRe 2022 [S1] / note de synthèse 2026 [S11] | Référentiel français (CMIT, E.Pilly / ECN.Pilly) [S10] | Commentaire |
 |---|---|---|---|
 | **Choix probabiliste** | Choix fondé sur le **risque local de résistance aux FQ** (seuil non défini par l'OMS) : ciprofloxacine si faible ; azithromycine (léger) ou ceftriaxone (sévère) si élevé | Fluoroquinolone si souche sensible ; C3G (ou azithromycine) en probabiliste chez le voyageur revenant d'Asie `[À VÉRIFIER]` | Convergence sur le principe ; l'OMS insiste sur l'absence de seuil défini |
 | **Durée** | **7 jours** (légère) ; **10 jours** (sévère, si apyrexie ≥ 48 h) | Durées plus courtes pour les formes non compliquées (de l'ordre de 5 à 7 jours selon la molécule) `[À VÉRIFIER]` | Données d'essais hétérogènes ; suivre le protocole local |
 | **Association C3G + azithromycine** | Monothérapie recommandée ; association « suggérée par certaines recommandations » pour les formes sévères | `[À VÉRIFIER]` | Débat ouvert ; argument : souches XDR et formes graves |
 | **Widal** | **Non fiable** pour le diagnostic aigu | Intérêt limité, interprétation prudente `[À VÉRIFIER]` | Encore largement prescrit au Maghreb : le reléguer derrière les hémocultures |
-| **Dexaméthasone** | Non abordée dans le chapitre AWaRe | Discutée dans les formes graves (encéphalopathie, choc) `[À VÉRIFIER]` | Repose surtout sur un essai de 1984 [S9] |
-| **Vaccination** | **Vaccin conjugué préféré** à tout âge, dose unique dès 6 mois, usage programmatique en zone d'endémie [S2] | Vaccin Vi-PS recommandé aux voyageurs exposés (conditions d'hygiène précaires, séjours prolongés) `[À VÉRIFIER]` | En Algérie : pas de vaccin au calendrier [S7] ; place d'un vaccin conjugué non définie |
+| **Dexaméthasone** | Non abordée dans le chapitre AWaRe ; schéma de l'OMS 2003 (3 mg/kg puis 1 mg/kg/6 h, 8 doses) dans les formes avec troubles de conscience ou choc [S12] | Discutée dans les formes graves (encéphalopathie, choc) `[À VÉRIFIER]` | Repose surtout sur un essai de 1984 [S9] |
+| **Vaccination** | **TCV recommandé** à tous les âges éligibles ; 1re dose à 9–24 mois en zone de forte incidence, rappel vers 5 ans si incidence très élevée (note 2026 [S11], qui remplace celle de 2018 [S2]) | Vaccin Vi-PS recommandé aux voyageurs exposés (conditions d'hygiène précaires, séjours prolongés) `[À VÉRIFIER]` | En Algérie : pas de vaccin au calendrier [S7] ; place d'un vaccin conjugué non définie |
 
 ---
 
@@ -792,14 +820,16 @@ Au 18e jour d'une fièvre typhoïde non traitée, un patient tuphique devient ta
 Détail complet (organisme, statut de vérification) dans l'en-tête YAML.
 
 1. [S1] World Health Organization. *The WHO AWaRe (Access, Watch, Reserve) antibiotic book*. Geneva: WHO; 2022 — chapitre 15 « Enteric fever ». (Document acquis DOC-00039, lu.)
-2. [S2] World Health Organization. Typhoid vaccines: WHO position paper – March 2018. *Wkly Epidemiol Rec*. 2018;93(13):153-172.
+2. [S2] World Health Organization. Typhoid vaccines: WHO position paper – March 2018. *Wkly Epidemiol Rec*. 2018;93(13):153-172. **[remplacée par S11]**
 3. [S3] Klemm EJ, et al. Emergence of an extensively drug-resistant *Salmonella enterica* serovar Typhi clone… *mBio*. 2018;9(1):e00105-18.
 4. [S4] Crump JA, Sjölund-Karlsson M, Gordon MA, Parry CM. Epidemiology, clinical presentation, laboratory diagnosis, antimicrobial resistance, and antimicrobial management of invasive *Salmonella* infections. *Clin Microbiol Rev*. 2015;28(4):901-937. doi:10.1128/CMR.00002-15.
 5. [S5] Shakya M, et al. Phase 3 efficacy analysis of a typhoid conjugate vaccine trial in Nepal. *N Engl J Med*. 2019;381:2209-2218. doi:10.1056/NEJMoa1905047.
 6. [S6] Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO). JORADP n°47 du 11/07/2022. (DOC-00072, lu.)
 7. [S7] Arrêté du 3 juillet 2018 (calendrier vaccinal) et arrêté du 28 avril 2026. JORADP n°49/2018 et n°36/2026. (DOC-00070, DOC-00071, lus.)
-8. [S8] Parry CM, et al. Typhoid fever. *N Engl J Med*. 2002;347:1770-1782. **[non vérifiée]**
-9. [S9] Hoffman SL, et al. Reduction of mortality in chloramphenicol-treated severe typhoid fever by high-dose dexamethasone. *N Engl J Med*. 1984;310:82-88. **[non vérifiée]**
+8. [S8] Parry CM, et al. Typhoid fever. *N Engl J Med*. 2002;347:1770-1782. doi:10.1056/NEJMra020201.
+9. [S9] Hoffman SL, et al. Reduction of mortality in chloramphenicol-treated severe typhoid fever by high-dose dexamethasone. *N Engl J Med*. 1984;310:82-88. doi:10.1056/NEJM198401123100203.
 10. [S10] CMIT. E.Pilly / ECN.Pilly — « Fièvres typhoïde et paratyphoïdes » (édition en vigueur). **[non vérifiée]**
+11. [S11] World Health Organization. Position paper on typhoid vaccines, 2026. *Wkly Epidemiol Rec*. 2026;101(32):166-180. (Lu lors de l'audit.)
+12. [S12] World Health Organization. *Background document: the diagnosis, treatment and prevention of typhoid fever*. Geneva: WHO; 2003 (WHO/V&B/03.07). (Lu lors de l'audit.)
 
-> **Points à auditer en priorité** : (1) posologies des carbapénèmes dans les formes XDR et de la dexaméthasone (marqueurs) ; (2) positions françaises (durées, place de l'azithromycine) dans l'E.Pilly en vigueur ; (3) âges et schémas des vaccins Vi-PS et Ty21a dans la note de l'OMS 2018 ; (4) données algériennes d'incidence (INSP) et de résistance de *S.* Typhi ; (5) modalités nationales de déclaration et de contrôle des porteurs.
+> **Points à auditer en priorité** (audit du 2026-11-19 : points 1 et 3 traités, voir le rapport) : (1) posologies des carbapénèmes dans les formes XDR et de la dexaméthasone (marqueurs) ; (2) positions françaises (durées, place de l'azithromycine) dans l'E.Pilly en vigueur ; (3) âges et schémas des vaccins Vi-PS et Ty21a dans la note de l'OMS 2018 ; (4) données algériennes d'incidence (INSP) et de résistance de *S.* Typhi ; (5) modalités nationales de déclaration et de contrôle des porteurs.

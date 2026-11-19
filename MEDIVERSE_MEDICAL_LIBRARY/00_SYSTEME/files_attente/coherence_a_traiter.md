@@ -15,3 +15,10 @@ Signalées par les agents des fiches de révision et par les auditeurs. À tranc
 - [ ] Remplissage dans l'anaphylaxie : 20 mL/kg (WAO 2020, DOS-IMMU-0002) contre 500–1 000 mL chez l'adulte (DOS-MINT_REA-0001, non vérifié). Probablement compatibles (enfant / adulte) : expliciter les deux, chacun avec sa source.
 - [ ] DOS-PHYS-0002 et deux cas renvoient vers DOS-CARD-0007 pour les doses d'antiarythmiques : à vérifier une fois DOS-CARD-0007 audité.
 - [ ] DOS-OBST-0001 : cible de l'HTA sévère gravidique < 160/105 (ESC/ESH) contre < 160/110 : divergence entre recommandations, déjà signalée ; vérifier la cohérence de la fiche.
+
+## Signalées par RES-06 (lot 4), le 2026-11-19
+Détail dans `00_SYSTEME/agents/RES-06/journal_lot4.md` et `etat_lot4.json`.
+- [ ] DOS-UROL-0001 : délai d'imagerie de la colique néphrétique simple, « 24–48 h » contre « 12–48 h ».
+- [ ] DOS-UROL-0002 : renvoi interne erroné.
+- [ ] DOS-ORL-0001 : plafond pédiatrique du cotrimoxazole douteux.
+- [ ] Les 5 autres points sont listés dans le journal du lot 4.

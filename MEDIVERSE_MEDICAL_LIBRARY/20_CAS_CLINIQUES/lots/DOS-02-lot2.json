@@ -15,7 +15,7 @@
       "motif_consultation": "Fièvre persistante depuis 9 jours malgré du paracétamol.",
       "antecedents": "Aucun. Pas de voyage. Deux voisins ont été hospitalisés pour « fièvre » le mois précédent.",
       "symptomes": "Fièvre d'installation progressive, céphalées frontales, insomnie, douleurs abdominales diffuses, constipation puis diarrhée depuis 2 jours, épistaxis à J4 ; depuis 48 heures, somnolence et indifférence.",
-      "examen_clinique": "T 39,8 °C, FC 84/min (pouls dissocié), PA 110/70 mmHg, FR 18/min ; patient prostré, répondant lentement ; langue saburrale ; abdomen souple, sensible, gargouillement de la fosse iliaque droite ; splénomégalie à 2 travers de doigt ; quelques macules rosées sur l'abdomen ; pas de raideur de nuque ; auscultation cardiaque normale.",
+      "examen_clinique": "T 39,8 °C, FC 84/min (pouls dissocié), PA 110/70 mmHg, FR 18/min ; patient prostré mais éveillé et orienté (Glasgow 15), répondant lentement ; langue saburrale ; abdomen souple, sensible, gargouillement de la fosse iliaque droite ; splénomégalie à 2 travers de doigt ; quelques macules rosées sur l'abdomen ; pas de raideur de nuque ; auscultation cardiaque normale.",
       "biologie": "Leucocytes 3 200/mm3 (N 4 000–10 000), PNN 1 900/mm3, éosinophiles 0/mm3, Hb 12,4 g/dL, plaquettes 128 000/mm3 (N 150 000–400 000), CRP 96 mg/L (N < 5), ASAT 2 × N, ALAT 2,5 × N, créatinine 9 mg/L (N 6–12), natrémie 133 mmol/L. TDR paludisme non réalisé (aucune exposition). Hémocultures (2 paires) : bacilles à Gram négatif à J2, identifiés Salmonella Typhi ; antibiogramme : sensible à l'ampicilline, au cotrimoxazole, à la ceftriaxone et à l'azithromycine ; résistant à l'acide nalidixique, ciprofloxacine intermédiaire.",
       "imagerie": "Échographie abdominale : splénomégalie homogène, épaississement de la dernière anse iléale, adénopathies mésentériques ; pas d'épanchement.",
       "hypotheses_diagnostiques": [
@@ -41,7 +41,7 @@
       "traitement": "Hospitalisation (tuphos). Après les hémocultures, traitement probabiliste ; au vu de l'antibiogramme (sensibilité diminuée aux fluoroquinolones), azithromycine 1 g le 1er jour puis 500 mg/j par voie orale (OMS, AWaRe 2022) ; durée 7 jours (forme légère) — à porter à 10 jours si la forme était jugée sévère. Paracétamol, hydratation, alimentation adaptée ; précautions d'hygiène (mains, selles). Déclaration obligatoire ; enquête (citerne, voisins).",
       "surveillance": "Température (défervescence attendue en 3 à 5 jours), conscience, examen abdominal biquotidien, selles, NFS et CRP, ECG (QT sous azithromycine) ; coprocultures de contrôle après traitement si profession à risque.",
       "evolution": "Apyrexie à J5 du traitement, disparition du tuphos à J3 ; sortie à J7 ; coprocultures de contrôle négatives.",
-      "explication_pedagogique": "Le cas illustre la fièvre typhoïde typique (fièvre progressive, pouls dissocié, tuphos, taches rosées, leuconeutropénie avec anéosinophilie), la primauté des hémocultures, le repérage de la sensibilité diminuée aux fluoroquinolones par la résistance à l'acide nalidixique et le choix de l'azithromycine, ainsi que la dimension de santé publique (eau de citerne, cas groupés, déclaration).",
+      "explication_pedagogique": "Le cas illustre la fièvre typhoïde typique (fièvre progressive, pouls dissocié, tuphos, taches rosées, leuconeutropénie avec anéosinophilie), la primauté des hémocultures, le repérage de la sensibilité diminuée aux fluoroquinolones par la résistance à l'acide nalidixique et le choix de l'azithromycine, ainsi que la dimension de santé publique (eau de citerne, cas groupés, déclaration). Un délire, une obnubilation, une stupeur, un coma ou un choc en feraient une forme grave : voie IV (ceftriaxone, 10 jours) et discussion de la dexaméthasone après ponction lombaire (OMS 2003).",
       "questions": [
         {
           "question": "Quels éléments orientent vers une fièvre typhoïde ?",
@@ -74,9 +74,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "précisé : tuphos sans trouble de conscience (cohérence avec la classification de gravité) ; posologies AWaRe vérifiées",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0003.md"
+      }
     },
     {
       "id": "CAS-INFE-0202",
@@ -111,7 +117,7 @@
         "Groupe sanguin, bilan préopératoire"
       ],
       "diagnostic_final": "Fièvre typhoïde XDR compliquée de perforation iléale et de choc septique, chez une enfant revenant du Pakistan.",
-      "traitement": "Réanimation pédiatrique du choc septique (remplissage, vasopresseur si besoin, selon les recommandations pédiatriques) ; antibiothérapie intraveineuse immédiate active sur une souche XDR : carbapénème (méropénem) ± azithromycine [POSOLOGIE À VÉRIFIER — protocole pédiatrique local], la ceftriaxone étant à proscrire devant le risque XDR ; laparotomie en urgence (suture ou résection iléale, lavage péritonéal) ; isolement contact (BMR, BLSE) ; déclaration obligatoire avec mention du profil de résistance.",
+      "traitement": "Réanimation pédiatrique du choc septique (remplissage, vasopresseur si besoin, selon les recommandations pédiatriques) ; antibiothérapie intraveineuse immédiate active sur une souche XDR : méropénem 20 mg/kg toutes les 8 h IV (environ 480 mg pour 24 kg) ± azithromycine 20 mg/kg/j (doses de l'OMS, livre AWaRe : infections intra-abdominales compliquées et fièvre entérique ; l'OMS ne fixe pas de dose propre à la forme XDR ; adapter au protocole pédiatrique local), la ceftriaxone étant à proscrire devant le risque XDR ; laparotomie en urgence (suture ou résection iléale, lavage péritonéal) ; isolement contact (BMR, BLSE) ; déclaration obligatoire avec mention du profil de résistance.",
       "surveillance": "Hémodynamique, lactate, diurèse, examen de la paroi et des drains, NFS, CRP, fonction rénale ; hémocultures de contrôle ; relais oral par azithromycine selon l'évolution ; coprocultures de contrôle et dépistage de l'entourage.",
       "evolution": "Chirurgie à H4 (perforation unique de l'iléon terminal, suture) ; sevrage des vasopresseurs à J2 ; apyrexie à J6 ; relais oral par azithromycine ; sortie à J14.",
       "explication_pedagogique": "Le cas souligne le poids du lieu d'acquisition (Pakistan = risque XDR), l'inefficacité prévisible des céphalosporines (céfixime, ceftriaxone), la gravité de la perforation iléale (3e semaine), la nécessité d'une réanimation, d'une chirurgie urgente et d'une antibiothérapie par carbapénème réservée à cette situation, ainsi que l'intérêt du vaccin conjugué avant un séjour en zone d'endémie.",
@@ -130,7 +136,7 @@
         },
         {
           "question": "Quelle prévention aurait pu être proposée avant le voyage ?",
-          "reponse": "Vaccin conjugué antityphoïdique (dose unique dès 6 mois selon l'OMS), conseils d'hygiène de l'eau et des aliments."
+          "reponse": "Vaccin antityphoïdique avant le voyage (selon l'OMS, 2026, tout vaccin homologué peut être envisagé chez le voyageur : à 8 ans, vaccin conjugué, Vi-PS ou Ty21a), conseils d'hygiène de l'eau et des aliments."
         }
       ],
       "sources": [
@@ -145,11 +151,21 @@
         {
           "reference": "Klemm EJ, et al. Extensively drug-resistant Salmonella Typhi clone (Pakistan). mBio 2018;9(1):e00105-18",
           "date": "2018"
+        },
+        {
+          "reference": "OMS. Position paper on typhoid vaccines, 2026. Wkly Epidemiol Rec 2026;101(32):166-180",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "marqueur levé (doses AWaRe du méropénem et de l'azithromycine) ; réponse sur la vaccination mise à jour (note OMS 2026)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0003.md"
+      }
     },
     {
       "id": "CAS-INFE-0203",
@@ -185,7 +201,7 @@
         "Groupe sanguin"
       ],
       "diagnostic_final": "Paludisme grave d'importation à P. falciparum : troubles de conscience (Glasgow 9), convulsion, hypoglycémie, acidose (bicarbonates 14 mmol/L, lactate 5,6 mmol/L).",
-      "traitement": "Réanimation : position latérale, voie veineuse, correction immédiate de l'hypoglycémie (glucosé hypertonique IV) puis glucosé en entretien ; artésunate IV 2,4 mg/kg (≈ 170 mg) sans délai, renouvelé selon le schéma du RCP (H12, H24 puis /24 h) [À VÉRIFIER — schéma horaire], au moins 24 h et jusqu'à reprise de la voie orale, puis CTA complète de 3 jours (artéméther-luméfantrine 4 comprimés × 2/j ; éviter les CTA contenant de la méfloquine après troubles de conscience) ; antibiothérapie empirique jusqu'aux hémocultures (sepsis non éliminé) ; gestion prudente des apports hydriques ; benzodiazépine en cas de convulsion ; déclaration obligatoire et investigation du cas.",
+      "traitement": "Réanimation : position latérale, voie veineuse, correction immédiate de l'hypoglycémie (glucosé hypertonique IV) puis glucosé en entretien ; artésunate IV 2,4 mg/kg (≈ 170 mg) sans délai, renouvelé à H12 et à H24 puis toutes les 24 h (OMS, Pocket book 2013), au moins 24 h et jusqu'à reprise de la voie orale, puis CTA complète de 3 jours (artéméther-luméfantrine 4 comprimés × 2/j ; éviter les CTA contenant de la méfloquine après troubles de conscience) ; antibiothérapie empirique jusqu'aux hémocultures (sepsis non éliminé) ; gestion prudente des apports hydriques ; benzodiazépine en cas de convulsion ; déclaration obligatoire et investigation du cas.",
       "surveillance": "Glasgow et signes vitaux rapprochés ; glycémie toutes les 4 h au minimum ; diurèse, créatinine, lactate ; parasitémie toutes les 12 h pendant 2 à 3 jours ; Hb après la sortie (hémolyse retardée post-artésunate).",
       "evolution": "Reprise de conscience à H36 ; parasitémie à 0,1 % à H48 ; relais oral par artéméther-luméfantrine à J2 ; créatinine normalisée à J5 ; à J14, Hb 8,1 g/dL avec LDH élevée : hémolyse retardée post-artésunate, résolutive sans transfusion.",
       "explication_pedagogique": "Le cas illustre le paludisme d'importation du Sud algérien (trajets vers le Sahel, saison post-pluies), l'intrication de plusieurs critères de gravité OMS, la priorité de la glycémie et de l'artésunate IV, l'exclusion d'une méningite par la PL, le relais par CTA et la surveillance de l'hémolyse retardée ; il rappelle aussi la déclaration et l'investigation exigées en phase de prévention de la réintroduction.",
@@ -221,9 +237,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "schéma horaire de l'artésunate vérifié (OMS, Pocket book 2013 ; 2,4 mg/kg, OMS 2026) ; critères de gravité conformes",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0004.md"
+      }
     },
     {
       "id": "CAS-INFE-0204",
@@ -258,7 +280,7 @@
         "Dosage de l'activité G6PD"
       ],
       "diagnostic_final": "Paludisme non compliqué à P. ovale, révélé 4 mois après le retour.",
-      "traitement": "Traitement de l'accès : CTA de 3 jours (par exemple artéméther-luméfantrine 4 comprimés × 2/j) ou chloroquine 25 mg base/kg au total sur 3 jours selon la disponibilité (OMS) ; puis prévention des rechutes par primaquine après contrôle du G6PD : activité > 70 % → 0,5 mg/kg/j pendant 14 jours (ou 7 jours), ou 1 mg/kg/j pendant 7 jours (OMS 2024) ; contraception ou absence de grossesse à vérifier ; déclaration obligatoire.",
+      "traitement": "Traitement de l'accès : CTA de 3 jours (par exemple artéméther-luméfantrine 4 comprimés × 2/j) ou chloroquine 25 mg base/kg au total sur 3 jours selon la disponibilité (OMS) ; puis prévention des rechutes par primaquine après contrôle du G6PD : activité > 70 % → 0,5 mg/kg/j pendant 14 jours (ou 7 jours), ou 1 mg/kg/j pendant 7 jours (recommandations OMS de 2024 reprises dans la version de 2026) ; contraception ou absence de grossesse à vérifier ; déclaration obligatoire.",
       "surveillance": "Courbe thermique, tolérance digestive, frottis de contrôle ; signes d'hémolyse sous primaquine (urines foncées, ictère) ; information sur le risque de rechute en cas de traitement incomplet.",
       "evolution": "Apyrexie en 48 h ; frottis négatif à J3 ; primaquine bien tolérée ; pas de rechute à 6 mois.",
       "explication_pedagogique": "Le cas rappelle que la doxycycline (suppressive) ne prévient pas les rechutes à P. ovale/vivax, que la fièvre peut survenir des mois après le retour, que le TDR HRP2 ne détecte pas les espèces non falciparum, et que la primaquine exige un dosage préalable du G6PD et l'exclusion d'une grossesse.",
@@ -286,9 +308,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "posologies de la chloroquine et de la primaquine vérifiées (OMS 2026)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0004.md"
+      }
     },
     {
       "id": "CAS-INFE-0205",
@@ -324,7 +352,7 @@
         "Créatinine, bilan hépatique, NFS"
       ],
       "diagnostic_final": "Infection à VIH-1 au stade de maladie avancée (CD4 85/mm3, stade OMS 3) révélée par une tuberculose pulmonaire sensible à la rifampicine et une candidose buccale.",
-      "traitement": "Traitement antituberculeux standard immédiat ; TAR le plus tôt possible dans les 2 semaines suivantes (pas de méningite) : TDF + 3TC + DTG avec dolutégravir 50 mg deux fois par jour pendant la rifampicine (et 2 semaines après son arrêt) ; cotrimoxazole prophylactique [POSOLOGIE À VÉRIFIER] ; fluconazole pour la candidose [POSOLOGIE À VÉRIFIER] ; CrAg négatif : pas de traitement préemptif ; déclaration obligatoire ; annonce, éducation thérapeutique, proposition de dépistage à l'épouse ; isolement respiratoire tant que la contagiosité persiste.",
+      "traitement": "Traitement antituberculeux standard immédiat ; TAR le plus tôt possible dans les 2 semaines suivantes (pas de méningite) : TDF + 3TC + DTG avec dolutégravir 50 mg deux fois par jour pendant la rifampicine (et 2 semaines après son arrêt) ; cotrimoxazole prophylactique (800/160 mg une fois par jour, OMS) ; fluconazole pour la candidose [POSOLOGIE À VÉRIFIER] ; CrAg négatif : pas de traitement préemptif ; déclaration obligatoire ; annonce, éducation thérapeutique, proposition de dépistage à l'épouse ; isolement respiratoire tant que la contagiosité persiste.",
       "surveillance": "Tolérance hépatique et cutanée (antituberculeux, cotrimoxazole) ; IRIS dans les semaines suivant le TAR ; observance ; charge virale à 6 mois ; CD4 ; examens de crachats selon le programme antituberculeux.",
       "evolution": "Aggravation fébrile transitoire à S3 du TAR avec adénopathies inflammatoires (IRIS tuberculeux paradoxal), résolutive ; charge virale < 50 copies/mL à 6 mois ; CD4 260/mm3 à 12 mois ; épouse dépistée négative, orientée vers la prévention.",
       "explication_pedagogique": "Le cas illustre la tuberculose comme porte d'entrée fréquente du VIH, la définition de la maladie avancée, l'algorithme de confirmation à plusieurs tests, le paquet de soins (LF-LAM, CrAg, cotrimoxazole), le délai d'initiation du TAR (≤ 2 semaines), l'interaction rifampicine–dolutégravir et l'IRIS.",
@@ -360,9 +388,16 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "cotrimoxazole sourcé (OMS 2021, annexe 1) ; DTG 50 mg × 2/j sous rifampicine et 2 semaines après vérifié",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0005.md",
+        "reserve": "marqueurs restants : dose du fluconazole (candidose) et corticoïdes de l'IRIS"
+      }
     },
     {
       "id": "CAS-INFE-0206",
@@ -394,7 +429,7 @@
         "Dépistage du conjoint et de l'enfant aîné"
       ],
       "diagnostic_final": "Infection à VIH-1 chez une femme enceinte à 26 SA, mise sous TAR avec suppression virale avant l'accouchement.",
-      "traitement": "TAR en urgence : TDF + 3TC + DTG (TLD) dès la confirmation (OMS) ; éducation à l'observance ; à l'accouchement (39 SA, plus de 4 semaines de TAR, charge virale < 50 copies/mL) : nourrisson non à haut risque → névirapine pendant 6 semaines (OMS 2025) [POSOLOGIE À VÉRIFIER — dose néonatale] ; mode d'alimentation discuté selon la politique nationale, l'OMS recommandant de proposer l'allaitement aux mères en suppression virale avec soutien à l'observance ; diagnostic précoce du nourrisson par TAN ; cotrimoxazole chez le nourrisson dès 4–6 semaines jusqu'au diagnostic final ; dépistage du conjoint et de l'enfant aîné ; déclaration obligatoire.",
+      "traitement": "TAR en urgence : TDF + 3TC + DTG (TLD) dès la confirmation (OMS) ; éducation à l'observance ; à l'accouchement (39 SA, plus de 4 semaines de TAR, charge virale < 50 copies/mL) : nourrisson non à haut risque → névirapine pendant 6 semaines (OMS 2025) : 15 mg (1,5 mL de la solution à 10 mg/mL) une fois par jour de la naissance à 6 semaines chez le nouveau-né à terme (OMS 2021, annexe 1, tableau A1.7) ; mode d'alimentation discuté selon la politique nationale, l'OMS recommandant de proposer l'allaitement aux mères en suppression virale avec soutien à l'observance ; diagnostic précoce du nourrisson par TAN ; cotrimoxazole chez le nourrisson dès 4–6 semaines jusqu'au diagnostic final ; dépistage du conjoint et de l'enfant aîné ; déclaration obligatoire.",
       "surveillance": "Charge virale maternelle (objectif < 50 copies/mL avant l'accouchement et pendant l'allaitement), tolérance, observance ; tests virologiques du nourrisson selon le calendrier national ; contraception du post-partum.",
       "evolution": "Accouchement par voie basse à 39 SA ; nouveau-né sous névirapine 6 semaines ; tests virologiques négatifs ; conjoint dépisté positif, mis sous TAR ; aîné négatif.",
       "explication_pedagogique": "Le cas montre l'intérêt du dépistage prénatal systématique, l'urgence du TAR maternel (moyen le plus efficace de PTME), les critères de haut risque du nourrisson qui conditionnent sa prophylaxie, l'évolution de la position de l'OMS sur l'allaitement (2025) et le dépistage familial (conjoint, enfants).",
@@ -430,9 +465,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "dose néonatale de névirapine sourcée (OMS 2021, tableau A1.7) ; critères de haut risque conformes (OMS 2025)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0005.md"
+      }
     },
     {
       "id": "CAS-INFE-0207",
@@ -466,7 +507,7 @@
         "Échographie abdominale puis bili-IRM ou scanner selon l'état"
       ],
       "diagnostic_final": "Choc septique (vasopresseur nécessaire pour PAM ≥ 65 mmHg et lactate > 2 mmol/L) compliquant une angiocholite lithiasique à E. coli BLSE ; SOFA augmenté de ≥ 2 points (hémodynamique, rein, plaquettes, foie, conscience).",
-      "traitement": "Dans l'heure : hémocultures puis antibiothérapie IV probabiliste ; compte tenu d'une antibiothérapie récente et d'un risque de BLSE, une option active sur les BLSE est justifiée d'emblée (par exemple méropénem, ou C3G + métronidazole associée à l'amikacine 15 mg/kg selon l'écologie locale) [POSOLOGIE À VÉRIFIER — protocole local] ; cristalloïdes balancés 30 mL/kg dans les 3 premières heures, puis noradrénaline pour PAM ≥ 65 mmHg ; drainage biliaire en urgence (CPRE avec sphinctérotomie et extraction ou prothèse) dès la stabilisation ; arrêt de la metformine et de l'IEC ; insuline si glycémie ≥ 10 mmol/L ; hydrocortisone 200 mg/j si la noradrénaline dépasse 0,25 µg/kg/min au-delà de 4 h ; adaptation à l'antibiogramme (méropénem ou relais selon la sensibilité) ; déclaration de l'infection à BMR.",
+      "traitement": "Dans l'heure : hémocultures puis antibiothérapie IV probabiliste ; compte tenu d'une antibiothérapie récente et d'un risque de BLSE, une option active sur les BLSE est justifiée d'emblée (par exemple méropénem 2 g toutes les 8 h IV, ou C3G + métronidazole 500 mg/8 h associée à l'amikacine 15 mg/kg en une injection, selon l'écologie locale — doses de l'OMS pour l'adulte, première dose pleine puis adaptation à la fonction rénale) ; cristalloïdes balancés 30 mL/kg dans les 3 premières heures, puis noradrénaline pour PAM ≥ 65 mmHg ; drainage biliaire en urgence (CPRE avec sphinctérotomie et extraction ou prothèse) dès la stabilisation ; arrêt de la metformine et de l'IEC ; insuline si glycémie ≥ 10 mmol/L ; hydrocortisone 200 mg/j si la noradrénaline dépasse 0,25 µg/kg/min au-delà de 4 h ; adaptation à l'antibiogramme (méropénem ou relais selon la sensibilité) ; déclaration de l'infection à BMR.",
       "surveillance": "PAM, lactate à 2–4 h, diurèse horaire, Glasgow, SOFA quotidien, bilan hépatique et rénal, hémocultures, tolérance de l'amikacine ou des carbapénèmes ; réévaluation de l'antibiothérapie à 48–72 h.",
       "evolution": "CPRE à H8 : extraction d'un calcul et issue de bile purulente ; sevrage de la noradrénaline à H36 ; lactate normalisé à H24 ; méropénem poursuivi puis durée totale courte (environ 7 jours après le drainage) ; cholécystectomie programmée à distance.",
       "explication_pedagogique": "Le cas illustre les définitions de Sepsis-3 (sepsis et choc septique), la recherche de la porte d'entrée, l'urgence du contrôle de la source (drainage biliaire), la prise en compte du risque de BLSE (antibiothérapie récente) et la séquence de réanimation (cristalloïdes, noradrénaline, hydrocortisone selon la dose), ainsi que la désescalade et la déclaration des BMR en Algérie.",
@@ -506,9 +547,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "posologies sourcées (OMS, livre AWaRe, tableau 24.7) ; SOFA et critères de choc septique vérifiés ; hydrocortisone conforme à la SSC 2021",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0006.md"
+      }
     },
     {
       "id": "CAS-INFE-0208",
@@ -524,7 +571,7 @@
       "antecedents": "Aucun. Pas d'usage de drogues IV. Pas de diabète connu.",
       "symptomes": "Furoncle de la lèvre supérieure « pressé » il y a 4 jours ; depuis, tuméfaction douloureuse, puis fièvre, frissons, céphalées ; depuis ce matin, gêne visuelle et douleur orbitaire droite.",
       "examen_clinique": "T 40,1 °C, FC 118/min, PA 104/62 mmHg, FR 24/min, Glasgow 15 ; placard inflammatoire induré de la lèvre et de la joue droites, cordon veineux angulaire palpable ; œdème palpébral, chémosis et ophtalmoplégie droite débutante ; pas de souffle cardiaque.",
-      "biologie": "Leucocytes 21 000/mm3, plaquettes 112 000/mm3, CRP 310 mg/L, lactate 2,6 mmol/L, créatinine 105 µmol/L ; glycémie 6,1 mmol/L. Hémocultures : S. aureus dans 3 flacons sur 4 à H14, sensible à la méticilline (SASM).",
+      "biologie": "Leucocytes 21 000/mm3, plaquettes 92 000/mm3, CRP 310 mg/L, lactate 2,6 mmol/L, créatinine 105 µmol/L ; glycémie 6,1 mmol/L. Hémocultures : S. aureus dans 3 flacons sur 4 à H14, sensible à la méticilline (SASM).",
       "imagerie": "IRM cérébrale et orbitaire injectée : thrombose du sinus caverneux droit, cellulite orbitaire sans abcès. Échocardiographie transthoracique : pas de végétation (ETO à discuter).",
       "hypotheses_diagnostiques": [
         "Staphylococcie maligne de la face avec thrombophlébite du sinus caverneux et bactériémie à S. aureus"
@@ -541,8 +588,8 @@
         "NFS, hémostase, lactate, créatinine",
         "Glycémie (diabète méconnu)"
       ],
-      "diagnostic_final": "Sepsis (SOFA augmenté : plaquettes) à S. aureus sensible à la méticilline compliquant une staphylococcie maligne de la face, avec thrombose du sinus caverneux.",
-      "traitement": "Antibiothérapie IV immédiate antistaphylococcique à forte dose ; en probabiliste, couverture du SARM si risque élevé (vancomycine 15–20 mg/kg/12 h selon l'OMS) associée à une molécule anti-SASM, puis, après l'antibiogramme (SASM), pénicilline M (cloxacilline) ou céfazoline IV à forte dose pour une durée prolongée [POSOLOGIE ET DURÉE À VÉRIFIER — protocole local] ; ne jamais manipuler le furoncle ; anticoagulation de la thrombose du sinus caverneux discutée avec les spécialistes [À VÉRIFIER] ; avis ophtalmologique et ORL ; hémocultures de contrôle ; échocardiographie.",
+      "diagnostic_final": "Sepsis (ΔSOFA = 2 : plaquettes < 100 000/mm3 ; qSOFA à 1 : FR 24/min) à S. aureus sensible à la méticilline compliquant une staphylococcie maligne de la face, avec thrombose du sinus caverneux.",
+      "traitement": "Antibiothérapie IV immédiate antistaphylococcique à forte dose ; en probabiliste, couverture du SARM si risque élevé (vancomycine 15–20 mg/kg/12 h selon l'OMS) associée à une molécule anti-SASM, puis, après l'antibiogramme (SASM), pénicilline M (cloxacilline 2 g toutes les 6 h IV au moins) ou céfazoline 2 g toutes les 8 h IV (doses de l'OMS, livre AWaRe, infections staphylococciques profondes) pour une durée prolongée [POSOLOGIE À VÉRIFIER — dose maximale et durée dans une bactériémie compliquée de thrombophlébite cérébrale : avis infectiologique] ; ne jamais manipuler le furoncle ; anticoagulation de la thrombose du sinus caverneux discutée avec les spécialistes [À VÉRIFIER] ; avis ophtalmologique et ORL ; hémocultures de contrôle ; échocardiographie.",
       "surveillance": "Hémocultures de contrôle jusqu'à négativation, examen ophtalmologique et neurologique pluriquotidien, signes d'extension (méningite, abcès), localisations secondaires (endocardite, ostéo-articulaires, pulmonaires), fonction rénale.",
       "evolution": "Hémocultures négatives à J3 ; régression progressive de l'ophtalmoplégie ; pas de localisation secondaire ; traitement IV prolongé puis relais selon l'avis infectiologique.",
       "explication_pedagogique": "Le cas illustre une bactériémie à S. aureus avec porte d'entrée cutanée (staphylococcie maligne de la face), la notion de foyer et de localisations secondaires propre aux « états septicémiques », la valeur systématique d'une hémoculture à S. aureus, l'échocardiographie obligatoire, la couverture du SARM selon le risque, puis l'adaptation à une pénicilline M.",
@@ -574,9 +621,16 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "erreur majeure corrigée : avec 112 000 plaquettes, le ΔSOFA n'était que de 1 (critères de sepsis non réunis) → plaquettes 92 000/mm3 ; doses AWaRe de la cloxacilline, de la céfazoline et de la vancomycine ajoutées",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0006.md",
+        "reserve": "durée et dose maximale de l'antibiothérapie ; anticoagulation de la thrombose du sinus caverneux"
+      }
     },
     {
       "id": "CAS-INFE-0209",
@@ -605,7 +659,7 @@
         "Aucun examen biologique préalable à la PPE"
       ],
       "diagnostic_final": "Exposition rabique de catégorie III chez un sujet non vacciné ; animal non disponible pour l'observation, donc considéré comme suspect.",
-      "traitement": "Lavage immédiat et prolongé (15 min) à l'eau et au savon, povidone iodée ; parage, pas de suture des plaies punctiformes de la main (avis chirurgical) ; IGR infiltrées en totalité dans et autour des 3 plaies — humaines 20 UI/kg (1 500 UI) ou équines 40 UI/kg (3 000 UI) selon le produit disponible, diluées si nécessaire, sans test cutané, dans des conditions permettant de traiter une anaphylaxie ; vaccination antirabique selon un schéma OMS (ID 2 sites J0-J3-J7, ou IM J0-J3-J7-J14/28, ou Zagreb) en respectant le protocole national [À VÉRIFIER — schéma algérien] ; vaccination antitétanique (± immunoglobulines selon le statut) ; antibioprophylaxie de 3 jours envisageable (plaie de la main à haut risque) [POSOLOGIE À VÉRIFIER] ; amoxicilline-acide clavulanique 500/125 mg × 3/j pendant 5 jours si la plaie s'infecte (OMS) ; signalement aux services vétérinaires.",
+      "traitement": "Lavage immédiat et prolongé (15 min) à l'eau et au savon, povidone iodée ; parage, pas de suture des plaies punctiformes de la main (avis chirurgical) ; IGR infiltrées en totalité dans et autour des 3 plaies — humaines 20 UI/kg (1 500 UI) ou équines 40 UI/kg (3 000 UI) selon le produit disponible, diluées si nécessaire, sans test cutané, dans des conditions permettant de traiter une anaphylaxie ; vaccination antirabique selon un schéma OMS (ID 2 sites J0-J3-J7, ou IM J0-J3-J7-J14/28, ou Zagreb) en respectant le protocole national (non retrouvé pendant l'audit) [À VÉRIFIER — schéma algérien] ; vaccination antitétanique (± immunoglobulines selon le statut) ; antibioprophylaxie de 3 jours envisageable (plaie de la main à haut risque) : amoxicilline-acide clavulanique 500/125 mg toutes les 8 h (OMS, livre AWaRe, tableau 18.4) ; amoxicilline-acide clavulanique 500/125 mg × 3/j pendant 5 jours si la plaie s'infecte (OMS) ; signalement aux services vétérinaires.",
       "surveillance": "Calendrier vaccinal (relance), surveillance de 15–20 min après chaque injection, maladie sérique vers J7 si IGR équines, évolution de la plaie (infection, raideur), information sur l'absence de contre-indication et l'importance de terminer la PPE.",
       "evolution": "Plaie cicatrisée en 12 jours ; PPE complète ; pas de complication.",
       "explication_pedagogique": "Le cas illustre la classification OMS (catégorie III : plaies transdermiques saignantes), la règle « animal non disponible = suspect », l'importance du lavage, l'infiltration de la totalité des IGR dans les plaies (sans test cutané) et le choix d'un schéma abrégé, ainsi que les volets tétanos et antibiotiques.",
@@ -637,9 +691,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "IGR (20/40 UI/kg), schémas de PPE et catégorie vérifiés (OMS TRS 1012) ; antibioprophylaxie sourcée (AWaRe)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0007.md"
+      }
     },
     {
       "id": "CAS-INFE-0210",
@@ -704,9 +764,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "clinique, prélèvements et soins palliatifs conformes à l'OMS (TRS 1012)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0007.md"
+      }
     }
   ]
 }

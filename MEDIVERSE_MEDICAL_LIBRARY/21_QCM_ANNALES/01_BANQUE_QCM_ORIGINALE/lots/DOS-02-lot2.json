@@ -51,7 +51,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -104,7 +104,7 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -157,7 +157,7 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -210,7 +210,7 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -256,7 +256,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -304,7 +304,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -331,7 +331,7 @@
         "B": "Vrai : données de Klemm et al. (mBio 2018).",
         "C": "Faux : résistance aux C3G par définition.",
         "D": "Vrai : souvent la seule option orale restante.",
-        "E": "Vrai : posologie à confronter au protocole local."
+        "E": "Vrai : méropénem aux doses usuelles des infections graves (adulte 1 g toutes les 8 h IV, enfant 20 mg/kg toutes les 8 h selon l'OMS, livre AWaRe), réservé à cette situation."
       },
       "specialite": "INFE",
       "items_residanat": [
@@ -357,7 +357,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -406,7 +406,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -452,7 +452,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -501,7 +501,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -510,8 +510,8 @@
       "format": "QCM",
       "enonce": "Concernant la vaccination contre la fièvre typhoïde, quelles propositions sont exactes ?",
       "propositions": {
-        "A": "Selon l'OMS (2018), le vaccin conjugué (TCV) est le vaccin préféré à tous les âges.",
-        "B": "Le vaccin conjugué peut être administré en dose unique dès l'âge de 6 mois dans les pays d'endémie.",
+        "A": "Selon l'OMS (note de synthèse d'août 2026), le vaccin conjugué (TCV) est recommandé à tous les âges éligibles.",
+        "B": "Dans les pays de forte incidence, l'OMS (2026) recommande d'administrer la première dose de TCV entre 9 et 24 mois.",
         "C": "Le vaccin antityphoïdique fait partie du calendrier vaccinal obligatoire algérien depuis 2018.",
         "D": "Les vaccins antityphoïdiques protègent aussi contre Salmonella Paratyphi A.",
         "E": "L'efficacité du vaccin conjugué à 1 an a été d'environ 82 % dans un essai randomisé chez l'enfant au Népal."
@@ -521,10 +521,10 @@
         "B",
         "E"
       ],
-      "explication_generale": "L'OMS (note de synthèse 2018) préfère le vaccin conjugué, en dose unique dès 6 mois, et priorise les pays à forte charge ou à résistance croissante. L'essai népalais (NEJM 2019) a montré une efficacité de 81,6 % à 1 an. Le calendrier obligatoire algérien (2018, complété en 2026) ne comporte pas de vaccin antityphoïdique. Aucun vaccin ne protège contre Paratyphi A.",
+      "explication_generale": "L'OMS (note de synthèse du 14 août 2026, qui remplace celle de 2018) recommande le vaccin conjugué (TCV) à tous les âges éligibles, en dose unique, avec une 1re dose entre 9 et 24 mois dans les pays de forte incidence et un rappel vers 5 ans si l'incidence est très élevée. L'essai népalais (NEJM 2019) a montré une efficacité de 81,6 % à 1 an (79,0 % à 2 ans). Le calendrier obligatoire algérien (2018, complété en 2026) ne comporte pas de vaccin antityphoïdique. Aucun vaccin ne protège contre Paratyphi A.",
       "explications_par_proposition": {
-        "A": "Vrai : position OMS 2018.",
-        "B": "Vrai : dose unique dès 6 mois.",
+        "A": "Vrai : note de synthèse de l'OMS de 2026, qui remplace celle de 2018.",
+        "B": "Vrai : 1re dose entre 9 et 24 mois en zone de forte ou très forte incidence (à partir de 2 ans si l'incidence est moyenne) ; les TCV préqualifiés sont homologués dès 6 mois.",
         "C": "Faux : absent du calendrier obligatoire (arrêtés de 2018 et 2026).",
         "D": "Faux : pas de protection démontrée contre Paratyphi A.",
         "E": "Vrai : 81,6 % (IC 95 % 58,8–91,8)."
@@ -555,9 +555,13 @@
         {
           "reference": "Arrêtés du 3 juillet 2018 et du 28 avril 2026 (calendrier vaccinal obligatoire), JORADP — DOC-00070/71",
           "date": "2026"
+        },
+        {
+          "reference": "OMS. Position paper on typhoid vaccines, 2026. Wkly Epidemiol Rec 2026;101(32):166-180",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -610,7 +614,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -658,7 +662,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -707,7 +711,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -756,7 +760,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -813,7 +817,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -866,7 +870,7 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -919,7 +923,7 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -967,7 +971,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1013,7 +1017,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1062,7 +1066,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1111,7 +1115,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1160,7 +1164,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1209,7 +1213,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1232,8 +1236,8 @@
       "explication_generale": "Protection antivectorielle nocturne, chimioprophylaxie adaptée (atovaquone-proguanil poursuivie environ 7 jours après le retour car active sur les formes hépatiques ; doxycycline et méfloquine poursuivies plusieurs semaines) et consultation urgente en cas de fièvre. Les vaccins antipaludiques sont recommandés chez l'enfant en zone de transmission modérée à forte, non chez le voyageur adulte.",
       "explications_par_proposition": {
         "A": "Vrai : activité nocturne des anophèles.",
-        "B": "Vrai : prophylaxie causale (schéma usuel à confronter aux recommandations aux voyageurs).",
-        "C": "Faux : les molécules suppressives se poursuivent au moins 4 semaines après le retour (OMS).",
+        "B": "Vrai : prophylaxie causale ; 1 comprimé par jour de la veille du départ à 7 jours après avoir quitté la zone (OMS, guide des voyages internationaux, module paludisme 2024).",
+        "C": "Faux : la doxycycline se poursuit 4 semaines après le retour (OMS 2024).",
         "D": "Vrai : règle d'or.",
         "E": "Faux : pas d'indication chez le voyageur adulte à ce jour."
       },
@@ -1259,9 +1263,13 @@
         {
           "reference": "HCSP. Recommandations sanitaires aux voyageurs (édition annuelle) [non vérifiée]",
           "date": ""
+        },
+        {
+          "reference": "OMS. International travel and health. Module 3: Malaria (2024)",
+          "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1309,7 +1317,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1362,7 +1370,7 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1411,7 +1419,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1457,7 +1465,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1505,7 +1513,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1558,7 +1566,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1607,7 +1615,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1660,7 +1668,7 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1713,7 +1721,7 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1762,7 +1770,7 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1783,7 +1791,7 @@
         "D",
         "E"
       ],
-      "explication_generale": "CrAg si CD4 < 100 (à envisager < 200) avec traitement préemptif ; induction préférée 2022 : AmB liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j + fluconazole 1 200 mg/j pendant 14 jours ; consolidation fluconazole 400–800 mg/j 8 semaines, entretien 200 mg/j ; pas de corticoïdes ; TAR différé de 4 à 6 semaines.",
+      "explication_generale": "CrAg si CD4 < 100 (à envisager < 200) avec traitement préemptif ; induction préférée 2022 : AmB liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j + fluconazole 1 200 mg/j pendant 14 jours ; consolidation fluconazole 800 mg/j pendant 8 semaines (OMS 2022), entretien 200 mg/j ; pas de corticoïdes ; TAR différé de 4 à 6 semaines.",
       "explications_par_proposition": {
         "A": "Vrai.",
         "B": "Vrai.",
@@ -1815,7 +1823,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1868,7 +1876,7 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1917,7 +1925,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -1970,7 +1978,7 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2019,7 +2027,7 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2072,7 +2080,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2093,7 +2101,7 @@
         "C",
         "E"
       ],
-      "explication_generale": "Le qSOFA est un outil pronostique simple, peu sensible : il ne doit pas être utilisé seul pour dépister (SSC 2021, position renforcée en 2026). Le NICE utilise le NEWS2. Un qSOFA négatif n'exclut pas un sepsis.",
+      "explication_generale": "Le qSOFA est un outil pronostique simple, peu sensible : il ne doit pas être utilisé seul pour dépister (SSC 2021, recommandation forte maintenue en 2026). Le NICE utilise le NEWS2. Un qSOFA négatif n'exclut pas un sepsis.",
       "explications_par_proposition": {
         "A": "Vrai.",
         "B": "Vrai.",
@@ -2129,7 +2137,7 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2178,7 +2186,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2226,7 +2234,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2275,7 +2283,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2328,7 +2336,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2374,7 +2382,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2427,7 +2435,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2480,7 +2488,7 @@
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2526,7 +2534,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2575,7 +2583,7 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2601,7 +2609,7 @@
         "A": "Vrai.",
         "B": "Vrai.",
         "C": "Vrai.",
-        "D": "Faux : arrêt après 1 à quelques jours selon l'antibiogramme [À VÉRIFIER — durée].",
+        "D": "Faux : l'aminoside n'a d'intérêt qu'en probabiliste, sur une durée courte ; il est arrêté dès que l'antibiogramme permet une monothérapie adaptée (néphrotoxicité, ototoxicité).",
         "E": "Vrai."
       },
       "specialite": "INFE",
@@ -2632,7 +2640,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2680,7 +2688,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2729,7 +2737,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2778,7 +2786,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2826,7 +2834,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2878,7 +2886,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2930,7 +2938,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -2978,7 +2986,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -3024,7 +3032,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -3073,7 +3081,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -3121,7 +3129,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -3170,7 +3178,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -3219,7 +3227,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     },
@@ -3276,9 +3284,29 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
     }
-  ]
+  ],
+  "audit": {
+    "date": "2026-11-19",
+    "auditeur": "AUD-01/AUD-02 (IA)",
+    "qcm_corriges": [
+      "QCM-INFE-0207",
+      "QCM-INFE-0211",
+      "QCM-INFE-0225",
+      "QCM-INFE-0236",
+      "QCM-INFE-0242",
+      "QCM-INFE-0252"
+    ],
+    "resultat": "65 QCM relus : réponses marquées exactes ; 6 explications ou énoncés mis à jour (note OMS 2026 sur les vaccins antityphoïdiques, chimioprophylaxie OMS 2024, consolidation de la cryptococcose OMS 2022, qSOFA SSC 2026, méropénem, aminoside).",
+    "rapports": [
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0003.md",
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0004.md",
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0005.md",
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0006.md",
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0007.md"
+    ]
+  }
 }

@@ -170,7 +170,7 @@ Fracture de la **région métaphyso-épiphysaire distale** du radius, classiquem
 | Cunéenne externe | Styloïde radiale (cisaillement) ; lésions scapho-lunaires associées |
 | *Die-punch* | Enfoncement de la fossette lunarienne (compression axiale) |
 
-- **Castaing** [S11] : sens du déplacement (postérieur, majoritaire / antérieur) × atteinte articulaire `[À VÉRIFIER — subdivisions exactes]`.
+- **Castaing** [S11] : sens du déplacement (postérieur, majoritaire / antérieur) × atteinte articulaire `[À VÉRIFIER — subdivisions exactes et libellés de la classification de Castaing dans la publication originale et les référentiels français.]`.
 - **AO/OTA 2R3** [S9] : **A** extra-articulaire ; **B** articulaire partielle (B1 sagittale/styloïde, **B2 marge dorsale**, **B3 marge palmaire**) ; **C** articulaire complète (C1, C2, **C3 multifragmentaire**).
 - **Frykman** [S10] : I à VIII (radio-carpienne, RUD, styloïde ulnaire) ; **types pairs = fracture de la styloïde ulnaire**.
 - **Older** [S8] : pronostique (bascule, raccourcissement, comminution).
@@ -252,7 +252,7 @@ Tous (≥ 50 ans, faible énergie) → ostéoporose + prévention des chutes
 
 - **Précoces** : déplacement secondaire (comminution dorsale, âge), compression sous plâtre (Volkmann), **canal carpien aigu**, infection, syndrome des loges.
 - **Tardives** : **SDRC de type 1** (immobilisation serrée ou extrême, douleur mal contrôlée → position neutre, mobilisation des doigts) ; **rupture du LEP** (tubercule de Lister, **quelques semaines** après une fracture peu déplacée → transfert de l'extenseur propre de l'index) ; irritation des fléchisseurs (plaque distale) ; **cal vicieux** (prono-supination, conflit ulno-carpien → ostéotomie) ; arthrose ; instabilité de la RUD ; raideur (épaule gelée).
-- **Vitamine C** : « suggérée » par l'AAOS 2009 [S14] ; essai d'Ekrol (500 mg/j pendant 50 jours) **sans bénéfice** [S15] → ne pas la présenter comme recommandation établie `[À VÉRIFIER — position exacte de l'AAOS 2020]`.
+- **Vitamine C** : « suggérée » par l'AAOS 2009 [S14] ; essai d'Ekrol (500 mg/j pendant 50 jours) **sans bénéfice** [S15] → ne pas la présenter comme recommandation établie ; position exacte de l'AAOS 2020 non relue `[À VÉRIFIER]`.
 
 ## 6. Pièges classiques
 

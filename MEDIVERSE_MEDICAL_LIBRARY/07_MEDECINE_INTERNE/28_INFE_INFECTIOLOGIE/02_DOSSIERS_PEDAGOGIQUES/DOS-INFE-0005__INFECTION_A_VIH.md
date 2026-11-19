@@ -6,11 +6,17 @@ sous_specialite: "Infections virales chroniques — VIH/sida"
 items_residanat: [RES-MED-006]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 19
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0005.md
 sources:
   - id: S1
     reference: "World Health Organization. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach. Geneva: WHO; 2021. ISBN 978-92-4-003159-3. Licence CC BY-NC-SA 3.0 IGO."
@@ -38,7 +44,7 @@ sources:
     doi: ""
     url: "https://www.who.int/publications/i/item/9789240052178"
     verifiee: true
-    remarque: "Existence et schéma d'induction préféré (amphotéricine B liposomale 10 mg/kg dose unique + 14 jours de flucytosine 100 mg/kg/j et de fluconazole 1 200 mg/j) confirmés par recherche web ; texte intégral non lu."
+    remarque: "Existence et schéma d'induction préféré (amphotéricine B liposomale 10 mg/kg dose unique + 14 jours de flucytosine 100 mg/kg/j et de fluconazole 1 200 mg/j) confirmés par recherche web. Audit 2026-11-19 : PDF téléchargé depuis IRIS (handle 10665/357088) et lu : induction, consolidation (fluconazole 800 mg/j, 8 semaines), entretien (200 mg/j), traitement préemptif de l'antigénémie (fluconazole 800–1 200 mg/j pendant 2 semaines puis consolidation et entretien), ponctions lombaires évacuatrices, TAR différé de 4 à 6 semaines."
   - id: S4
     reference: "World Health Organization. WHO recommends injectable lenacapavir for HIV prevention. Communiqué du 14 juillet 2025 (lignes directrices sur le lénacapavir en PrEP et le dépistage simplifié)."
     organisme: OMS
@@ -47,7 +53,7 @@ sources:
     doi: ""
     url: "https://www.who.int/news/item/14-07-2025-who-recommends-injectable-lenacapavir-for-hiv-prevention"
     verifiee: true
-    remarque: "Confirmé par recherche web : lénacapavir injectable deux fois par an comme option additionnelle de PrEP, aux côtés de la PrEP orale, du cabotégravir injectable et de l'anneau vaginal à la dapivirine ; texte des lignes directrices non lu."
+    remarque: "Confirmé par recherche web : lénacapavir injectable deux fois par an comme option additionnelle de PrEP, aux côtés de la PrEP orale, du cabotégravir injectable et de l'anneau vaginal à la dapivirine. Les lignes directrices correspondantes [S11] ont été lues lors de l'audit."
   - id: S5
     reference: "Décret exécutif n°22-211 du 5 juin 2022 fixant la liste des maladies transmissibles concernées par le dépistage anonyme et gratuit. JORADP n°40 du 15 juin 2022, p. 7-8."
     organisme: "Gouvernement algérien / Ministère de la Santé"
@@ -92,7 +98,7 @@ sources:
     doi: ""
     url: ""
     verifiee: false
-    remarque: "Citée de mémoire pour le concept « indétectable = intransmissible » ; non vérifiée [À VÉRIFIER]."
+    remarque: "Citée de mémoire pour le concept « indétectable = intransmissible ». Audit 2026-11-19 : vérifiée par l'API PubMed (PMID 31056293 ; doi 10.1016/S0140-6736(19)30418-0) ; texte intégral non lu."
   - id: S10
     reference: "Groupe d'experts (CNS / ANRS-MIE). Prise en charge médicale des personnes vivant avec le VIH — recommandations du groupe d'experts (France, édition en vigueur)."
     organisme: "CNS / ANRS-MIE (France)"
@@ -102,13 +108,49 @@ sources:
     url: ""
     verifiee: false
     remarque: "Cité pour les positions françaises (confirmation par immunoblot, allaitement, traitement des infections opportunistes) ; édition et contenu non vérifiés [À VÉRIFIER]."
+  - id: S11
+    reference: "World Health Organization. Guidelines on lenacapavir for HIV prevention and testing strategies for long-acting injectable pre-exposure prophylaxis. Geneva: WHO; 2025. ISBN 978-92-4-011160-8."
+    organisme: OMS
+    annee: 2025
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/381892"
+    verifiee: true
+    remarque: "Audit AUD-01/AUD-02 (2026-11-19) : PDF téléchargé depuis IRIS et lu : lénacapavir 927 mg en sous-cutané (2 injections de 1,5 mL) toutes les 26 semaines, avec une charge orale de 600 mg (2 comprimés de 300 mg) à J1 et à J2 ; dépistage par tests rapides pour la PrEP injectable."
+  - id: S12
+    reference: "World Health Organization. Guidelines on long-acting injectable cabotegravir for HIV prevention. Geneva: WHO; 2022. ISBN 978-92-4-005409-7."
+    organisme: OMS
+    annee: 2022
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/360869"
+    verifiee: true
+    remarque: "Audit AUD-01/AUD-02 (2026-11-19) : PDF téléchargé depuis IRIS et lu : cabotégravir 600 mg IM, deux injections à 4 semaines d'intervalle puis toutes les 8 semaines."
+  - id: S13
+    reference: "Agence européenne des médicaments (EMA). Résumés des caractéristiques du produit Vocabria (cabotégravir) et Rekambys (rilpivirine), injectables à libération prolongée (EPAR, information produit)."
+    organisme: EMA
+    annee: null
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/documents/product-information/vocabria-epar-product-information_en.pdf"
+    verifiee: true
+    remarque: "Audit 2026-11-19 : schéma bimestriel vérifié par extraits (moteur de recherche : EPAR EMA et RCP britanniques) ; site de l'EMA inaccessible depuis la session, texte intégral non lu. Version en vigueur à confronter au RCP enregistré en Algérie [À VÉRIFIER]."
+  - id: S14
+    reference: "Panel on Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV (NIH, CDC, HIVMA/IDSA). Guidelines for the prevention and treatment of opportunistic infections in adults and adolescents with HIV — chapitre Pneumocystis Pneumonia (clinicalinfo.hiv.gov, mise à jour en vigueur)."
+    organisme: "NIH / CDC / HIVMA-IDSA"
+    annee: null
+    type: recommandation
+    doi: ""
+    url: "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis"
+    verifiee: true
+    remarque: "Audit 2026-11-19 : existence confirmée ; posologies du traitement de la pneumocystose (TMP 15–20 mg/kg/j + SMX 75–100 mg/kg/j, 21 jours ; prednisone si PaO2 < 70 mmHg) confirmées par extraits secondaires concordants (guide clinique HRSA, revue) ; clinicalinfo.hiv.gov inaccessible depuis la session : texte en vigueur non lu."
 mots_cles: [VIH, sida, CD4, charge virale, primo-infection, dépistage, dolutégravir, TLD, traitement antirétroviral, PrEP, prophylaxie post-exposition, PTME, infections opportunistes, cryptococcose, pneumocystose, toxoplasmose, tuberculose, Algérie]
 ---
 
 # Infection à VIH : immunopathologie, diagnostic, évolution, complications, prévention, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles nationaux avant usage clinique. **Traçabilité** : les lignes directrices consolidées de l'OMS (2021) [S1], la mise à jour clinique de l'OMS (2025) [S2] et les décrets algériens 22-211 et 22-250 [S5, S6] ont été **lus** ; [S3, S4] ont été confirmées par recherche web ; [S8–S10] n'ont pas été vérifiées.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 — corrections requises (bloc `audit` et rapport). Les posologies doivent être confrontées au RCP et aux protocoles nationaux avant usage clinique. **Traçabilité** : les lignes directrices consolidées de l'OMS (2021) [S1], la mise à jour clinique de l'OMS (2025) [S2] et les décrets algériens 22-211 et 22-250 [S5, S6] ont été **lus** ; lors de l'audit ont été lues les lignes directrices OMS sur la cryptococcose (2022) [S3], le lénacapavir (2025) [S11] et le cabotégravir injectable (2022) [S12] ; [S9] a été vérifiée sur PubMed ; [S13, S14] ont été consultées par extraits ; [S8] et [S10] n'ont pas été vérifiées.
 
 **Items du programme couverts** : RES-MED-006 — « Infection à VIH : Immuno-pathologie - diagnostic - évolution - complication - prévention - traitement ».
 
@@ -151,10 +193,10 @@ En Algérie, l'**infection à VIH/sida** est une **maladie à déclaration oblig
 - Une part croissante des transmissions mère-enfant survient pendant l'**allaitement** [S2].
 
 ### 3.2 En Algérie
-- Épidémie **de faible prévalence**, concentrée dans certaines populations clés `[À VÉRIFIER — estimations ONUSIDA non consultées]`.
+- Épidémie **de faible prévalence**, concentrée dans certaines populations clés `[À VÉRIFIER — estimations ONUSIDA/OMS pour l'Algérie non retrouvées : sites inaccessibles pendant l'audit]`.
 - Chiffres nationaux rapportés par la presse : **15 501 cas cumulés depuis 1985** et **1 315 nouveaux cas au 1ᵉʳ semestre 2024** (contre 1 157 au 1ᵉʳ semestre 2023) [S8] `[À VÉRIFIER]`.
 - Cadre réglementaire : **déclaration obligatoire** [S6] ; **dépistage anonyme et gratuit** dans les structures publiques, résultat remis **par un médecin lors d'un entretien individuel** [S5] ; sérologie VIH **recommandée** (non obligatoire) lors de l'**examen prénuptial** [S7].
-- La prise en charge est assurée par des **centres de référence** (services de maladies infectieuses) `[À VÉRIFIER — organisation et liste nationale des ARV]`.
+- La prise en charge est assurée par des **centres de référence** (services de maladies infectieuses) `[À VÉRIFIER — organisation et liste nationale des ARV]` ; **aucun guide national algérien de TAR ou de PTME n'a été retrouvé** pendant l'audit.
 
 ## 4. Rappels virologiques et cycle de réplication
 
@@ -187,7 +229,7 @@ La grande variabilité génétique (erreurs de la transcriptase inverse, recombi
 | **Sanguin** | Partage de matériel d'injection, transfusion non sécurisée, accidents d'exposition au sang | Piqûre profonde, aiguille creuse, sang visible |
 | **Mère-enfant** | Grossesse (fin), accouchement, **allaitement** | Charge virale maternelle élevée, absence de TAR, infection maternelle récente [S1, S2] |
 
-**Pas de transmission** par la salive, les contacts sociaux, la toux, les piqûres d'insectes ni le partage de couverts. Une personne sous TAR avec une **charge virale durablement indétectable** ne transmet pas le virus par voie sexuelle (« **indétectable = intransmissible** ») [S9] `[À VÉRIFIER — référence]`.
+**Pas de transmission** par la salive, les contacts sociaux, la toux, les piqûres d'insectes ni le partage de couverts. Une personne sous TAR avec une **charge virale durablement indétectable** ne transmet pas le virus par voie sexuelle (« **indétectable = intransmissible** » ; aucune transmission observée dans l'étude PARTNER chez des couples d'hommes sérodifférents dont le partenaire séropositif avait une charge virale supprimée) [S9].
 
 **Populations clés** (OMS) : hommes ayant des rapports sexuels avec des hommes, travailleurs et travailleuses du sexe, usagers de drogues injectables, personnes transgenres, personnes en milieu carcéral [S1].
 
@@ -300,10 +342,10 @@ Primo-infection → phase chronique de plusieurs années → baisse des CD4 → 
 | Pathologie | Diagnostic | Traitement / prévention (repères) |
 |---|---|---|
 | **Tuberculose** (toute valeur de CD4) | Dépistage systématique à chaque visite (4 symptômes) ; test moléculaire rapide ; **LF-LAM** urinaire [S1] | Traitement antituberculeux standard ; TAR dans les 2 semaines (sauf méningite) ; DTG 50 mg × 2/j sous rifampicine [S1] ; **traitement préventif** : **3HP** préféré, 6H/9H en alternatives [S2] |
-| **Cryptococcose neuroméningée** (CD4 < 100) | PL avec **pression d'ouverture**, **antigène cryptococcique** (ou encre de Chine) [S1] | Induction préférée : **amphotéricine B liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j (4 prises) + fluconazole 1 200 mg/j pendant 14 jours** [S3] ; consolidation : fluconazole **400–800 mg/j** 8 semaines ; entretien : fluconazole **200 mg/j** [S1] ; **pas de corticoïdes** ; TAR **différé de 4 à 6 semaines** [S1] ; ponctions évacuatrices si hypertension intracrânienne `[À VÉRIFIER]` |
-| **Antigénémie cryptococcique isolée** | Dépistage si CD4 < 100 (à envisager < 200) | Traitement préemptif par fluconazole après exclusion d'une méningite (PL) [S1] `[POSOLOGIE À VÉRIFIER]` ; fluconazole en prophylaxie primaire si le dépistage est indisponible [S1] |
-| **Pneumocystose** (CD4 < 200) | Pneumopathie interstitielle hypoxémiante subaiguë ; LBA (examen direct, PCR) | **Cotrimoxazole à forte dose 21 jours** + **corticothérapie** si hypoxémie sévère `[POSOLOGIE À VÉRIFIER — RCP / protocole national]` [S10] ; prévention : **cotrimoxazole** |
-| **Toxoplasmose cérébrale** (CD4 < 100) | Déficit focal fébrile, abcès multiples en cocarde (TDM/IRM), sérologie positive | Pyriméthamine + sulfadiazine (+ acide folinique) ou cotrimoxazole `[POSOLOGIE À VÉRIFIER]` [S10] ; prévention : **cotrimoxazole** |
+| **Cryptococcose neuroméningée** (CD4 < 100) | PL avec **pression d'ouverture**, **antigène cryptococcique** (ou encre de Chine) [S1] | Induction préférée : **amphotéricine B liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j (4 prises) + fluconazole 1 200 mg/j pendant 14 jours** [S3] ; consolidation : fluconazole **800 mg/j** pendant 8 semaines (OMS 2022 [S3] ; « 400–800 mg/j » dans la compilation de 2021 [S1]) ; entretien : fluconazole **200 mg/j** jusqu'à CD4 > 200/mm³ avec charge virale supprimée sous TAR [S3] ; **pas de corticoïdes** ; TAR **différé de 4 à 6 semaines** [S1, S3] ; **ponctions lombaires évacuatrices** si la pression d'ouverture est élevée (objectif < 20 cmH₂O ou moitié de la valeur initiale ; répétées chaque jour tant que les symptômes persistent) [S3] |
+| **Antigénémie cryptococcique isolée** | Dépistage si CD4 < 100 (à envisager < 200) | Traitement préemptif par fluconazole après exclusion d'une méningite (PL) : **800 à 1 200 mg/j pendant 2 semaines** (adolescent : 12 mg/kg/j), puis consolidation (800 mg/j, 8 semaines) et entretien (200 mg/j) comme pour le traitement [S3] ; fluconazole en prophylaxie primaire si le dépistage est indisponible [S1] |
+| **Pneumocystose** (CD4 < 200) | Pneumopathie interstitielle hypoxémiante subaiguë ; LBA (examen direct, PCR) | **Cotrimoxazole à forte dose** : triméthoprime **15–20 mg/kg/j** + sulfaméthoxazole **75–100 mg/kg/j** en 3 à 4 prises (IV dans les formes sévères), **21 jours** ; **prednisone** si PaO₂ < 70 mmHg en air ambiant (ou gradient alvéolo-artériel ≥ 35 mmHg) : 40 mg × 2/j de J1 à J5, 40 mg/j de J6 à J10, 20 mg/j de J11 à J21 [S14] ; prévention : **cotrimoxazole** |
+| **Toxoplasmose cérébrale** (CD4 < 100) | Déficit focal fébrile, abcès multiples en cocarde (TDM/IRM), sérologie positive | Pyriméthamine + sulfadiazine (+ acide folinique) ou cotrimoxazole `[POSOLOGIE À VÉRIFIER — sources consultées discordantes sur la dose de charge et la durée ; texte NIH/EACS en vigueur non lu]` [S10] ; prévention : **cotrimoxazole** |
 | **Histoplasmose disséminée** | Antigène *Histoplasma* [S1] | Amphotéricine B liposomale 3 mg/kg 2 semaines (formes graves) ; itraconazole (formes modérées) [S1] |
 | **CMV** (CD4 < 50) | Rétinite (fond d'œil), atteintes digestives | Ganciclovir/valganciclovir `[À VÉRIFIER]` |
 | **Candidose oro-œsophagienne** | Clinique, endoscopie | Fluconazole `[POSOLOGIE À VÉRIFIER]` |
@@ -332,14 +374,14 @@ Déterminé par le **stade au diagnostic** (diagnostic tardif = maladie avancée
 | | **Emtricitabine (FTC)** | 200 mg 1×/j | Interchangeable avec la 3TC |
 | | **Abacavir (ABC)** | 300 mg × 2/j ou 600 mg 1×/j | **Hypersensibilité** (HLA-B*57:01) |
 | | **Zidovudine (AZT)** | 300 mg × 2/j | **Anémie**, neutropénie, lipoatrophie |
-| **INI** | **Dolutégravir (DTG)** | **50 mg 1×/j** ; **50 mg × 2/j avec la rifampicine** (et 2 semaines après son arrêt) | Insomnie, céphalées, prise de poids ; interactions (cations polyvalents) `[À VÉRIFIER]` |
+| **INI** | **Dolutégravir (DTG)** | **50 mg 1×/j** ; **50 mg × 2/j avec la rifampicine** (et 2 semaines après son arrêt) | Insomnie, céphalées, prise de poids ; interactions : prendre le DTG au moins 2 h avant ou 6 h après les produits contenant des cations polyvalents (Mg, Al, Fe, Ca, Zn) ; éviter la carbamazépine, le phénobarbital et la phénytoïne ; metformine à forte dose à éviter [S1] |
 | | Raltégravir (RAL) | 400 mg × 2/j (800 mg × 2/j sous rifampicine) | Option néonatale [S1] |
 | **INNTI** | **Éfavirenz (EFV)** | **400 mg** ou 600 mg 1×/j | Troubles neuropsychiques ; à éviter si résistance prétraitement aux INNTI ≥ 10 % [S1] |
 | | Névirapine (NVP) | 200 mg/j 14 jours puis 200 mg × 2/j | Hépatotoxicité, toxidermie ; usage surtout en prophylaxie du nourrisson |
 | **IP boostés** | **Darunavir/ritonavir (DRV/r)** | **800/100 mg 1×/j** ou 600/100 mg × 2/j | **IP préféré** (2025) [S2] ; troubles digestifs, interactions (ritonavir) |
 | | Atazanavir/ritonavir | 300/100 mg 1×/j | Hyperbilirubinémie non conjuguée |
 | | Lopinavir/ritonavir | 400/100 mg × 2/j | Troubles digestifs, dyslipidémie |
-| **Injectables à longue durée d'action** | **Cabotégravir + rilpivirine (CAB + RPV)** | `[POSOLOGIE À VÉRIFIER — RCP]` | Option de **relais** chez l'adulte et l'adolescent stables sous TAR oral, **sans hépatite B active** [S2] |
+| **Injectables à longue durée d'action** | **Cabotégravir + rilpivirine (CAB + RPV)** | Phase orale facultative (CAB 30 mg + RPV 25 mg/j pendant au moins 28 jours), puis **CAB 600 mg + RPV 900 mg** en IM (fessier, deux sites) à **M1 et M2**, puis **toutes les 2 mois** (schéma mensuel possible : 600/900 mg puis 400/600 mg chaque mois) [S13] | Option de **relais** chez l'adulte et l'adolescent stables sous TAR oral, avec charge virale indétectable, **sans hépatite B active** [S2] ; RPV incompatible avec la rifampicine [S2] |
 
 **Combinaison à dose fixe TLD** : **ténofovir 300 mg + lamivudine 300 mg + dolutégravir 50 mg**, **un comprimé par jour** (adulte et adolescent ≥ 30 kg) [S1].
 
@@ -391,15 +433,15 @@ NOUVEAU DIAGNOSTIC VIH (confirmé + retest)
 Sources : [S1] (initiation, première ligne, suivi, définitions) ; [S2] (DRV/r, recyclage du ténofovir, simplification).
 
 ### 13.4 Prophylaxies et traitements préventifs associés
-- **Cotrimoxazole** : adultes (y compris femmes enceintes) au **stade 3 ou 4** et/ou **CD4 ≤ 350/mm³** ; arrêt possible si stabilité clinique, restauration immunitaire et suppression virale dans les contextes de faible prévalence du paludisme et des infections bactériennes graves ; **tous les patients atteints de tuberculose active** ; **nourrissons exposés** dès 4–6 semaines jusqu'à exclusion de l'infection après l'arrêt de l'allaitement [S1] `[POSOLOGIE À VÉRIFIER — RCP]`.
+- **Cotrimoxazole** : adultes (y compris femmes enceintes) au **stade 3 ou 4** et/ou **CD4 ≤ 350/mm³** ; arrêt possible si stabilité clinique, restauration immunitaire et suppression virale dans les contextes de faible prévalence du paludisme et des infections bactériennes graves ; **tous les patients atteints de tuberculose active** ; **nourrissons exposés** dès 4–6 semaines jusqu'à exclusion de l'infection après l'arrêt de l'allaitement [S1]. Dose : **un comprimé à 800/160 mg une fois par jour** chez l'adulte (et dès 25 kg) ; chez l'enfant, doses par tranches de poids (tableau A1.6 de l'annexe 1 de [S1]).
 - **Dépistage de l'antigène cryptococcique** (CD4 < 100, à envisager < 200) suivi d'un **traitement préemptif** ; à défaut, **fluconazole** en prophylaxie primaire [S1].
-- **Traitement préventif de la tuberculose** : **3HP** (isoniazide + rifapentine hebdomadaires pendant 3 mois) **préféré** chez l'adulte et l'adolescent ; 6H ou 9H en alternatives ; 1HP, 4R, 3HR, 6Lfx dans des circonstances particulières [S2].
+- **Traitement préventif de la tuberculose** : **3HP** (isoniazide + rifapentine hebdomadaires pendant 3 mois) **suggéré comme schéma préféré** chez l'adulte et l'adolescent (recommandation conditionnelle, certitude faible, 2025) ; 6H ou 9H en alternatives ; 1HP, 4R, 3HR, 6Lfx dans des circonstances particulières [S2].
 - **Vaccinations** (VHB, pneumocoque, grippe, HPV…) selon le statut immunitaire `[À VÉRIFIER — recommandations nationales]`.
 
 ### 13.5 Particularités algériennes
 - **Gratuité** du dépistage (anonyme) dans les structures publiques [S5] ; annonce du résultat **par un médecin** en entretien individuel [S5].
 - **Déclaration obligatoire** (catégorie 1) [S6], dans le respect de la confidentialité.
-- Disponibilité nationale du **TLD**, du **DRV/r**, de la charge virale et du génotypage, et protocole national de TAR : `[À VÉRIFIER — programme national de lutte contre les IST/VIH/sida]`.
+- Disponibilité nationale du **TLD**, du **DRV/r**, de la charge virale et du génotypage : `[À VÉRIFIER — programme national de lutte contre les IST/VIH/sida]` ; **protocole national de TAR non retrouvé** pendant l'audit.
 - **Co-infections à prendre en compte** : tuberculose (pays à incidence intermédiaire), hépatites B et C, **leishmaniose viscérale** (endémique) `[À VÉRIFIER]`.
 
 ## 14. Surveillance
@@ -417,7 +459,7 @@ Sources : [S1] (initiation, première ligne, suivi, définitions) ; [S2] (DRV/r,
 
 ### 15.1 Prévention combinée
 - **Préservatifs** masculins et féminins, lubrifiants ; **dépistage** et traitement des **IST** ; information.
-- **TAR des personnes vivant avec le VIH** : la suppression virale empêche la transmission sexuelle [S9] `[À VÉRIFIER]`.
+- **TAR des personnes vivant avec le VIH** : la suppression virale empêche la transmission sexuelle [S9].
 - **Réduction des risques** chez les usagers de drogues : matériel d'injection stérile, traitements de substitution aux opiacés, **naloxone** [S1].
 - **Sécurité transfusionnelle** et **précautions standard** en milieu de soins.
 - **Circoncision masculine médicale volontaire** : uniquement dans les **épidémies généralisées** (non pertinente pour l'Algérie) [S1].
@@ -429,8 +471,8 @@ Sources : [S1] (initiation, première ligne, suivi, définitions) ; [S2] (DRV/r,
 | **PrEP orale contenant du TDF** (TDF/FTC ou TDF/3TC) | Personnes à **risque substantiel** d'infection [S1] | **Quotidienne** (1 comprimé/j) ; chez les autres populations, **7 jours** de prise consécutive avant d'atteindre une protection [S1] |
 | **PrEP « à la demande » (2+1+1)** | **Hommes cisgenres** ayant des rapports avec des hommes uniquement | **2 comprimés 2 à 24 h avant** le rapport, puis **1 comprimé 24 h** et **1 comprimé 48 h** après la première prise ; poursuite quotidienne si les rapports se répètent, jusqu'à 2 jours après le dernier rapport [S1] |
 | **Anneau vaginal à la dapivirine** | Femmes cisgenres à risque substantiel | Option additionnelle [S1] |
-| **Cabotégravir injectable** | — | Option de PrEP reconnue par l'OMS [S4] `[POSOLOGIE À VÉRIFIER]` |
-| **Lénacapavir injectable** | — | **Deux injections par an**, option additionnelle recommandée par l'OMS (**14 juillet 2025**) avec un dépistage simplifié par tests rapides [S4] `[POSOLOGIE À VÉRIFIER]` |
+| **Cabotégravir injectable (CAB-LA)** | Personnes à risque substantiel | **600 mg IM**, deux injections à **4 semaines d'intervalle**, puis **toutes les 8 semaines** [S12] |
+| **Lénacapavir injectable** | Option additionnelle de prévention combinée | **927 mg en sous-cutané** (2 injections de 1,5 mL) **toutes les 26 semaines**, avec une **charge orale de 600 mg (2 comprimés de 300 mg) à J1 et à J2** ; recommandé par l'OMS le **14 juillet 2025**, avec un dépistage simplifié par tests rapides [S4, S11] |
 
 Avant la PrEP : **test VIH négatif** (éliminer une infection, y compris aiguë), fonction rénale (TDF), statut VHB `[À VÉRIFIER]` ; suivi régulier (VIH, IST). Une exposition à risque dans les **72 h** précédentes relève d'abord de la **PPE** [S1].
 
@@ -446,7 +488,7 @@ Avant la PrEP : **test VIH négatif** (éliminer une infection, y compris aiguë
 3. **Prophylaxie du nourrisson** (OMS 2025) [S2] :
    - mère sous TAR, nourrisson **non à haut risque** : **6 semaines** de prophylaxie par **une seule molécule**, la **névirapine** de préférence (DTG ou 3TC en alternatives) ;
    - nourrisson **à haut risque** (mère avec < 4 semaines de TAR à l'accouchement, charge virale > 1 000 copies/mL dans les 4 semaines précédant l'accouchement, infection maternelle récente pendant la grossesse ou l'allaitement, mère diagnostiquée en post-partum [S1]) : **trithérapie adaptée à l'âge pendant 6 semaines**, avec passage à **ABC/3TC + DTG** dès que possible, puis, s'il est allaité, **prophylaxie par une molécule** (névirapine de préférence) jusqu'à la **suppression virale maternelle** ou l'arrêt de l'allaitement [S2].
-4. **Allaitement** : l'OMS recommande l'allaitement **exclusif 6 mois** puis poursuivi jusqu'à 12 mois, voire 24 mois ou plus, avec soutien à l'observance ; même là où la politique nationale prône l'alimentation de substitution, une mère **sous TAR et en suppression virale** doit se voir **proposer** l'option d'allaiter et être soutenue dans son choix [S2].
+4. **Allaitement** : l'OMS recommande l'allaitement **exclusif 6 mois** puis poursuivi jusqu'à 12 mois, voire 24 mois ou plus, avec soutien à l'observance ; même là où la politique nationale prône l'alimentation de substitution, une mère **sous TAR et en suppression virale** doit se voir **proposer** l'option d'allaiter et être soutenue dans son choix [S2]. La position nationale algérienne n'a pas été retrouvée pendant l'audit `[À VÉRIFIER]`.
 5. **Diagnostic précoce** du nourrisson exposé (TAN, éventuellement à la naissance) ; **cotrimoxazole** dès 4–6 semaines jusqu'au diagnostic final [S1].
 6. Mode d'accouchement : voie basse si charge virale indétectable `[À VÉRIFIER — recommandations obstétricales]`.
 
@@ -508,7 +550,7 @@ Source : [S1].
 
 **Diagnostic retenu.** Infection à VIH-1 au stade de maladie avancée (CD4 85/mm3, stade OMS 3) révélée par une tuberculose pulmonaire sensible à la rifampicine et une candidose buccale.
 
-**Traitement.** Traitement antituberculeux standard immédiat ; TAR le plus tôt possible dans les 2 semaines suivantes (pas de méningite) : TDF + 3TC + DTG avec dolutégravir 50 mg deux fois par jour pendant la rifampicine (et 2 semaines après son arrêt) ; cotrimoxazole prophylactique [POSOLOGIE À VÉRIFIER] ; fluconazole pour la candidose [POSOLOGIE À VÉRIFIER] ; CrAg négatif : pas de traitement préemptif ; déclaration obligatoire ; annonce, éducation thérapeutique, proposition de dépistage à l'épouse ; isolement respiratoire tant que la contagiosité persiste.
+**Traitement.** Traitement antituberculeux standard immédiat ; TAR le plus tôt possible dans les 2 semaines suivantes (pas de méningite) : TDF + 3TC + DTG avec dolutégravir 50 mg deux fois par jour pendant la rifampicine (et 2 semaines après son arrêt) ; cotrimoxazole prophylactique (800/160 mg une fois par jour, OMS) ; fluconazole pour la candidose [POSOLOGIE À VÉRIFIER] ; CrAg négatif : pas de traitement préemptif ; déclaration obligatoire ; annonce, éducation thérapeutique, proposition de dépistage à l'épouse ; isolement respiratoire tant que la contagiosité persiste.
 
 **Surveillance.** Tolérance hépatique et cutanée (antituberculeux, cotrimoxazole) ; IRIS dans les semaines suivant le TAR ; observance ; charge virale à 6 mois ; CD4 ; examens de crachats selon le programme antituberculeux.
 
@@ -765,7 +807,7 @@ Concernant la cryptococcose chez une personne vivant avec le VIH, quelles propos
 
 **Réponse(s) exacte(s) : A, B, D, E**
 
-*Corrigé commenté.* CrAg si CD4 < 100 (à envisager < 200) avec traitement préemptif ; induction préférée 2022 : AmB liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j + fluconazole 1 200 mg/j pendant 14 jours ; consolidation fluconazole 400–800 mg/j 8 semaines, entretien 200 mg/j ; pas de corticoïdes ; TAR différé de 4 à 6 semaines.
+*Corrigé commenté.* CrAg si CD4 < 100 (à envisager < 200) avec traitement préemptif ; induction préférée 2022 : AmB liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j + fluconazole 1 200 mg/j pendant 14 jours ; consolidation fluconazole 800 mg/j pendant 8 semaines (OMS 2022), entretien 200 mg/j ; pas de corticoïdes ; TAR différé de 4 à 6 semaines.
 
 - A — Vrai.
 - B — Vrai.
@@ -788,7 +830,7 @@ Concernant la cryptococcose chez une personne vivant avec le VIH, quelles propos
 | **Allaitement** | **Recommandé** et proposé aux mères en suppression virale, même là où la politique nationale prône l'alimentation de substitution (2025) | Historiquement **déconseillé**, avec ouverture récente à un allaitement encadré `[À VÉRIFIER]` | En Algérie : position nationale à préciser `[À VÉRIFIER]` |
 | **Prophylaxie du nourrisson** | Névirapine 6 semaines (non à haut risque) ; trithérapie si haut risque | Schémas proches, molécules et durées spécifiques `[À VÉRIFIER]` | — |
 | **Cryptococcose (induction)** | AmB liposomale 10 mg/kg **dose unique** + 5FC + fluconazole 14 j (2022) [S3] | AmB liposomale quotidienne + 5FC (2 semaines) `[À VÉRIFIER]` | Le schéma OMS vise la simplicité et la tolérance |
-| **TPT** | **3HP préféré** (2025) | Schémas comparables `[À VÉRIFIER]` | — |
+| **TPT** | **3HP suggéré comme préféré** (2025, recommandation conditionnelle) | Schémas comparables `[À VÉRIFIER]` | — |
 | **PrEP** | TDF oral, 2+1+1 (HSH), anneau dapivirine, cabotégravir, **lénacapavir** | TDF/FTC quotidien ou à la demande `[À VÉRIFIER]` | En Algérie : pas d'information vérifiée sur la PrEP `[À VÉRIFIER]` |
 
 ---
@@ -805,7 +847,11 @@ Détail complet (statut de vérification) dans l'en-tête YAML.
 6. [S6] Décret exécutif n°22-250 du 30 juin 2022 (MDO). JORADP n°47/2022. (DOC-00072, lu.)
 7. [S7] Décret exécutif n°24-366 du 7 novembre 2024 (examens prénuptiaux). JORADP n°76/2024.
 8. [S8] Statistiques nationales citées par la presse (2024). **[non vérifiée]**
-9. [S9] Rodger AJ, et al. PARTNER — final results. *Lancet*. 2019;393:2428-2438. **[non vérifiée]**
+9. [S9] Rodger AJ, et al. PARTNER — final results. *Lancet*. 2019;393(10189):2428-2438. doi:10.1016/S0140-6736(19)30418-0.
 10. [S10] Groupe d'experts CNS/ANRS-MIE. *Prise en charge médicale des personnes vivant avec le VIH* (France). **[non vérifiée]**
+11. [S11] World Health Organization. *Guidelines on lenacapavir for HIV prevention and testing strategies for long-acting injectable pre-exposure prophylaxis*. Geneva: WHO; 2025. (Lu lors de l'audit.)
+12. [S12] World Health Organization. *Guidelines on long-acting injectable cabotegravir for HIV prevention*. Geneva: WHO; 2022. (Lu lors de l'audit.)
+13. [S13] EMA. RCP de Vocabria et de Rekambys (EPAR). (Consultés par extraits.)
+14. [S14] NIH/CDC/HIVMA-IDSA. *Guidelines for the prevention and treatment of opportunistic infections in adults and adolescents with HIV* — Pneumocystis. (Consultées par extraits.)
 
-> **Points à auditer en priorité** : (1) posologies du traitement de la pneumocystose, de la toxoplasmose, du fluconazole préemptif, du cotrimoxazole prophylactique, des injectables CAB + RPV, du cabotégravir et du lénacapavir en PrEP (marqueurs) ; (2) protocole national algérien de TAR et de PTME (position sur l'allaitement) ; (3) données épidémiologiques officielles (ministère, ONUSIDA) ; (4) délais des marqueurs virologiques (fenêtre) ; (5) liste complète des stades cliniques OMS.
+> **Points à auditer en priorité** (audit du 2026-11-19 : point 1 traité sauf toxoplasmose et candidose, voir le rapport) : (1) posologies du traitement de la pneumocystose, de la toxoplasmose, du fluconazole préemptif, du cotrimoxazole prophylactique, des injectables CAB + RPV, du cabotégravir et du lénacapavir en PrEP (marqueurs) ; (2) protocole national algérien de TAR et de PTME (position sur l'allaitement) ; (3) données épidémiologiques officielles (ministère, ONUSIDA) ; (4) délais des marqueurs virologiques (fenêtre) ; (5) liste complète des stades cliniques OMS.

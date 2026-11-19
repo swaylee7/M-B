@@ -1,0 +1,3284 @@
+{
+  "agent": "DOS-02",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-INFE-0201",
+      "format": "QCM",
+      "enonce": "Concernant Salmonella enterica sérotype Typhi et la fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le réservoir de Salmonella Typhi est strictement humain.",
+        "B": "La transmission est principalement féco-orale, par l'eau ou les aliments contaminés.",
+        "C": "Salmonella Typhi est responsable de la majorité (70 à 80 %) des fièvres entériques dans le monde.",
+        "D": "Une fièvre typhoïde guérie confère une immunité complète et définitive.",
+        "E": "En Algérie, les fièvres typhoïde et paratyphoïdes figurent parmi les maladies à déclaration obligatoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "S. Typhi est une bactérie à réservoir humain strict, transmise par voie féco-orale ; elle cause 70 à 80 % des fièvres entériques. L'infection naturelle ne protège pas complètement. La maladie est une MDO de catégorie 1 en Algérie (décret 22-250).",
+      "explications_par_proposition": {
+        "A": "Vrai : malades, convalescents et porteurs chroniques constituent le réservoir.",
+        "B": "Vrai : eau et aliments contaminés, mains sales, contact avec un porteur.",
+        "C": "Vrai : selon l'OMS (livre AWaRe 2022).",
+        "D": "Faux : l'infection naturelle ne protège pas complètement ; des réinfections sont possibles.",
+        "E": "Vrai : catégorie 1 (surveillance nationale) du décret exécutif 22-250."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Bactériologie et épidémiologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre la salmonelle typhique (réservoir humain) avec les salmonelles non typhiques (réservoir animal, TIAC).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0202",
+      "format": "QCM",
+      "enonce": "Concernant la physiopathologie de la fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les salmonelles franchissent la muqueuse intestinale surtout au niveau de l'iléon distal.",
+        "B": "Elles se multiplient dans les organes du système réticulo-endothélial pendant l'incubation.",
+        "C": "La perforation intestinale résulte de la nécrose des plaques de Peyer, typiquement au cours de la 3e semaine.",
+        "D": "La vésicule biliaire, surtout lithiasique, est un gîte du portage chronique.",
+        "E": "Les signes généraux sont liés à une exotoxine neurotrope."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Après franchissement de l'iléon distal (cellules M des plaques de Peyer), les bactéries gagnent les ganglions mésentériques et le système réticulo-endothélial, puis provoquent une bactériémie secondaire. L'endotoxine (lipopolysaccharide) et la réponse de l'hôte expliquent les signes généraux ; la nécrose des plaques de Peyer explique hémorragies et perforations ; la vésicule entretient le portage.",
+      "explications_par_proposition": {
+        "A": "Vrai : porte d'entrée iléale (OMS).",
+        "B": "Vrai : foie, rate, moelle, ganglions — d'où l'intérêt de la myéloculture.",
+        "C": "Vrai : complication classique de la 3e semaine non traitée.",
+        "D": "Vrai : la lithiase favorise le portage chronique.",
+        "E": "Faux : c'est l'endotoxine (LPS), non une exotoxine neurotrope."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Physiopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Crump JA, et al. Invasive Salmonella infections. Clin Microbiol Rev 2015;28(4):901-937",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0203",
+      "format": "QCM",
+      "enonce": "Un homme de 30 ans présente depuis 10 jours une fièvre en plateau à 40 °C. Quels signes sont classiquement évocateurs d'une fièvre typhoïde à la phase d'état ?",
+      "propositions": {
+        "A": "Tuphos (prostration, obnubilation).",
+        "B": "Pouls dissocié, relativement lent pour la température.",
+        "C": "Angine de Duguet (ulcérations indolores des piliers antérieurs du voile).",
+        "D": "Taches rosées lenticulaires du tronc.",
+        "E": "Hyperleucocytose franche à polynucléaires neutrophiles."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La phase d'état associe fièvre en plateau, tuphos, troubles digestifs, splénomégalie, taches rosées et angine de Duguet (inconstantes), pouls dissocié. La NFS montre classiquement des leucocytes normaux ou bas (leuconeutropénie).",
+      "explications_par_proposition": {
+        "A": "Vrai : du grec typhos, stupeur.",
+        "B": "Vrai : signe classique mais inconstant.",
+        "C": "Vrai : rare mais évocatrice.",
+        "D": "Vrai : inconstantes et fugaces.",
+        "E": "Faux : la leuconeutropénie est plus évocatrice ; une hyperleucocytose doit faire chercher une complication ou un autre diagnostic."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Signes cliniques de la phase d'état",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Crump JA, et al. Invasive Salmonella infections. Clin Microbiol Rev 2015;28(4):901-937",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0204",
+      "format": "QCM",
+      "enonce": "Concernant le diagnostic bactériologique d'une fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hémocultures doivent être prélevées avant toute antibiothérapie.",
+        "B": "La myéloculture est l'examen le plus sensible, même après le début des antibiotiques.",
+        "C": "La coproculture est l'examen de première intention la plus sensible en 1re semaine.",
+        "D": "Toute souche isolée doit faire l'objet d'un antibiogramme incluant fluoroquinolones, C3G et azithromycine.",
+        "E": "Une hémoculture négative chez un patient ayant déjà reçu des antibiotiques n'élimine pas le diagnostic."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'hémoculture est l'examen clé (positive chez 5 à 7 patients sur 10 sans antibiothérapie préalable) ; la myéloculture est la référence ; les coprocultures sont souvent négatives au début. L'antibiogramme guide le traitement, compte tenu des résistances.",
+      "explications_par_proposition": {
+        "A": "Vrai : la sensibilité chute après antibiotique.",
+        "B": "Vrai : examen de référence, mais invasif et peu pratiqué.",
+        "C": "Faux : la coproculture est souvent négative en 1re semaine.",
+        "D": "Vrai : résistances aux FQ, aux C3G (XDR) ; critères CLSI pour l'azithromycine depuis 2015.",
+        "E": "Vrai : forme décapitée ; discuter la myéloculture."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Diagnostic bactériologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Crump JA, et al. Invasive Salmonella infections. Clin Microbiol Rev 2015;28(4):901-937",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0205",
+      "format": "QCS",
+      "enonce": "Selon le livre AWaRe de l'OMS (2022), quelle est la place de la sérologie de Widal dans le diagnostic d'une fièvre typhoïde aiguë ?",
+      "propositions": {
+        "A": "Examen de référence, suffisant pour poser le diagnostic sur un prélèvement unique.",
+        "B": "Méthode non fiable pour diagnostiquer une maladie aiguë, un résultat positif pouvant traduire une infection antérieure ou une vaccination.",
+        "C": "Examen à réaliser avant les hémocultures pour décider de leur prescription.",
+        "D": "Examen indispensable avant de débuter l'antibiothérapie.",
+        "E": "Examen qui différencie Salmonella Typhi de Salmonella Paratyphi A avec une excellente spécificité."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'OMS considère la sérologie de Widal comme non fiable pour le diagnostic aigu : cicatrice d'une infection ancienne, vaccination, réactions croisées ; il faudrait deux prélèvements à 10 jours d'intervalle montrant une multiplication du titre par quatre.",
+      "explications_par_proposition": {
+        "A": "Faux : la référence est la culture (myéloculture, hémoculture).",
+        "B": "Vrai : position de l'OMS.",
+        "C": "Faux : les hémocultures sont prioritaires.",
+        "D": "Faux : le traitement ne doit pas attendre la sérologie.",
+        "E": "Faux : réactions croisées fréquentes."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Sérologie de Widal",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter ou étiqueter une typhoïde sur un Widal isolé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0206",
+      "format": "QCM",
+      "enonce": "Un adulte présente une fièvre typhoïde non compliquée acquise dans une région où le risque de résistance aux fluoroquinolones est faible. Selon l'OMS (AWaRe 2022), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La ciprofloxacine orale à 500 mg toutes les 12 heures est une option de première intention.",
+        "B": "La durée totale recommandée est de 7 jours.",
+        "C": "Une hospitalisation et une voie intraveineuse sont nécessaires dans tous les cas.",
+        "D": "L'antibiothérapie doit être débutée dès la suspicion, car le retard augmente le risque de complications.",
+        "E": "Le chloramphénicol reste le traitement probabiliste de choix."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "En cas de faible risque de résistance aux FQ, l'OMS propose la ciprofloxacine orale 500 mg × 2/j, 7 jours pour une forme légère (10 jours pour une forme sévère). Les formes légères peuvent être traitées en ambulatoire. Les anciennes molécules ne sont pas recommandées en probabiliste.",
+      "explications_par_proposition": {
+        "A": "Vrai : posologie AWaRe adulte.",
+        "B": "Vrai : 7 jours pour une forme légère.",
+        "C": "Faux : les formes légères relèvent d'un traitement oral, éventuellement ambulatoire.",
+        "D": "Vrai : message clé de l'OMS.",
+        "E": "Faux : usage probabiliste déconseillé (risque de rebond des souches multirésistantes)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Traitement — faible risque de résistance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0207",
+      "format": "QCM",
+      "enonce": "Un patient revient de Karachi (Pakistan) avec une fièvre typhoïde. Concernant le risque de souche XDR, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une souche XDR est résistante à l'ampicilline, au chloramphénicol, au cotrimoxazole, aux fluoroquinolones et aux C3G.",
+        "B": "Le clone XDR décrit au Sindh depuis 2016 porte un plasmide codant une bêta-lactamase à spectre étendu (CTX-M-15) et le gène qnrS.",
+        "C": "La ceftriaxone reste un choix probabiliste fiable dans cette situation.",
+        "D": "L'azithromycine est une option pour une forme non compliquée.",
+        "E": "Un carbapénème est utilisé dans les formes compliquées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les souches XDR (Pakistan, Sindh, depuis novembre 2016 ; lignée H58, plasmide IncY avec blaCTX-M-15 et qnrS) sont MDR et résistantes aux FQ et aux C3G. L'azithromycine (formes légères) et les carbapénèmes (formes graves) restent actifs ; l'OMS recommande de prioriser l'azithromycine là où la résistance à la ceftriaxone progresse.",
+      "explications_par_proposition": {
+        "A": "Vrai : définition de la XDR.",
+        "B": "Vrai : données de Klemm et al. (mBio 2018).",
+        "C": "Faux : résistance aux C3G par définition.",
+        "D": "Vrai : souvent la seule option orale restante.",
+        "E": "Vrai : posologie à confronter au protocole local."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Souche ultrarésistante (XDR)",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Appliquer le schéma « ceftriaxone » standard à un cas importé du Pakistan.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Klemm EJ, et al. Extensively drug-resistant Salmonella Typhi clone (Pakistan). mBio 2018;9(1):e00105-18",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0208",
+      "format": "QCM",
+      "enonce": "Une femme de 25 ans est hospitalisée pour une fièvre typhoïde avec sepsis, dans un contexte de risque élevé de résistance aux fluoroquinolones. Selon l'OMS (AWaRe 2022), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ceftriaxone 2 g une fois par jour par voie intraveineuse.",
+        "B": "Durée totale de 10 jours si l'évolution clinique est favorable et l'apyrexie obtenue depuis 48 heures.",
+        "C": "Relais oral possible, guidé par l'antibiogramme, dès amélioration, apyrexie et tolérance digestive.",
+        "D": "Ciprofloxacine intraveineuse en première intention.",
+        "E": "Avis chirurgical si apparaissent une défense abdominale ou un pneumopéritoine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Pour une forme sévère avec risque élevé de résistance aux FQ, l'OMS propose la ceftriaxone 2 g/j IV (enfant 80 mg/kg/j), 10 jours au total si amélioration et apyrexie de 48 h, avec relais oral dès que possible. Toute suspicion de perforation impose un avis chirurgical urgent.",
+      "explications_par_proposition": {
+        "A": "Vrai : posologie adulte AWaRe.",
+        "B": "Vrai : durée des formes sévères.",
+        "C": "Vrai : principe du relais oral.",
+        "D": "Faux : risque élevé de résistance aux FQ.",
+        "E": "Vrai : la perforation est une urgence chirurgicale."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Forme sévère — risque élevé de résistance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0209",
+      "format": "QCS",
+      "enonce": "Un patient traité depuis 72 heures par azithromycine pour une fièvre typhoïde à souche sensible reste fébrile à 38,8 °C, mais son état général s'améliore et l'examen abdominal est normal. Quelle est la conduite la plus adaptée ?",
+      "propositions": {
+        "A": "Remplacer immédiatement l'azithromycine par un carbapénème.",
+        "B": "Poursuivre le traitement en surveillant, la fièvre baissant habituellement en 3 à 5 jours sous traitement efficace.",
+        "C": "Arrêter tout antibiotique pour refaire des hémocultures.",
+        "D": "Ajouter systématiquement une corticothérapie.",
+        "E": "Demander une sérologie de Widal pour juger de l'efficacité."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La défervescence est lente : la fièvre baisse en général après 3 à 5 jours de traitement efficace (OMS). Une fièvre isolée à 72 h chez un patient qui s'améliore, avec une souche sensible, ne justifie pas de changement ; la surveillance recherche une complication.",
+      "explications_par_proposition": {
+        "A": "Faux : escalade injustifiée.",
+        "B": "Vrai : conduite recommandée.",
+        "C": "Faux : l'arrêt est dangereux.",
+        "D": "Faux : la corticothérapie se discute seulement dans certaines formes graves.",
+        "E": "Faux : le Widal n'a aucune valeur de suivi."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Évolution sous traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre défervescence lente et échec thérapeutique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0210",
+      "format": "QCM",
+      "enonce": "Au 18e jour d'une fièvre typhoïde non traitée, un patient tuphique devient tachycarde avec un abdomen distendu et une douleur diffuse modérée. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une perforation iléale doit être évoquée même si la défense est peu marquée.",
+        "B": "Un cliché d'abdomen sans préparation ou un scanner à la recherche d'un pneumopéritoine est indiqué.",
+        "C": "Le traitement de la perforation est exclusivement médical.",
+        "D": "L'antibiothérapie doit couvrir aussi les anaérobies et les entérobactéries d'origine digestive.",
+        "E": "La myocardite et l'encéphalopathie font partie des autres complications graves."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La perforation survient classiquement à la 3e semaine ; le tuphos peut masquer la douleur et la défense. Imagerie et avis chirurgical urgents ; laparotomie ; antibiothérapie élargie (par exemple ceftriaxone + métronidazole selon l'OMS pour les infections intra-abdominales).",
+      "explications_par_proposition": {
+        "A": "Vrai : tableau parfois trompeur.",
+        "B": "Vrai : recherche d'un pneumopéritoine.",
+        "C": "Faux : traitement chirurgical (laparotomie).",
+        "D": "Vrai : péritonite polymicrobienne.",
+        "E": "Vrai : autres complications graves."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Complications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0211",
+      "format": "QCM",
+      "enonce": "Concernant la vaccination contre la fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Selon l'OMS (2018), le vaccin conjugué (TCV) est le vaccin préféré à tous les âges.",
+        "B": "Le vaccin conjugué peut être administré en dose unique dès l'âge de 6 mois dans les pays d'endémie.",
+        "C": "Le vaccin antityphoïdique fait partie du calendrier vaccinal obligatoire algérien depuis 2018.",
+        "D": "Les vaccins antityphoïdiques protègent aussi contre Salmonella Paratyphi A.",
+        "E": "L'efficacité du vaccin conjugué à 1 an a été d'environ 82 % dans un essai randomisé chez l'enfant au Népal."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "L'OMS (note de synthèse 2018) préfère le vaccin conjugué, en dose unique dès 6 mois, et priorise les pays à forte charge ou à résistance croissante. L'essai népalais (NEJM 2019) a montré une efficacité de 81,6 % à 1 an. Le calendrier obligatoire algérien (2018, complété en 2026) ne comporte pas de vaccin antityphoïdique. Aucun vaccin ne protège contre Paratyphi A.",
+      "explications_par_proposition": {
+        "A": "Vrai : position OMS 2018.",
+        "B": "Vrai : dose unique dès 6 mois.",
+        "C": "Faux : absent du calendrier obligatoire (arrêtés de 2018 et 2026).",
+        "D": "Faux : pas de protection démontrée contre Paratyphi A.",
+        "E": "Vrai : 81,6 % (IC 95 % 58,8–91,8)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Vaccination",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Typhoid vaccines: WHO position paper – March 2018. Wkly Epidemiol Rec 2018;93(13):153-172",
+          "date": "2018"
+        },
+        {
+          "reference": "Shakya M, et al. Typhoid conjugate vaccine trial in Nepal. N Engl J Med 2019;381:2209-2218",
+          "date": "2019"
+        },
+        {
+          "reference": "Arrêtés du 3 juillet 2018 et du 28 avril 2026 (calendrier vaccinal obligatoire), JORADP — DOC-00070/71",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0212",
+      "format": "QCM",
+      "enonce": "Concernant le portage chronique de Salmonella Typhi et les mesures de santé publique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le porteur chronique est asymptomatique mais peut transmettre la maladie.",
+        "B": "La lithiase vésiculaire favorise le portage chronique.",
+        "C": "Les coprocultures de contrôle après traitement sont particulièrement importantes chez les manipulateurs d'aliments.",
+        "D": "La déclaration n'est obligatoire qu'en cas de décès.",
+        "E": "L'enquête autour d'un cas recherche une source hydrique ou alimentaire et des cas groupés."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le porteur chronique excrète la bactérie pendant des mois ou des années ; la lithiase biliaire en est le principal facteur. Contrôle des coprocultures chez les personnes à risque de transmission, déclaration de tout cas (MDO catégorie 1) et enquête épidémiologique sont essentiels.",
+      "explications_par_proposition": {
+        "A": "Vrai : définition (OMS).",
+        "B": "Vrai : gîte vésiculaire.",
+        "C": "Vrai : prévention de la transmission alimentaire (modalités nationales à vérifier).",
+        "D": "Faux : tout cas suspect ou confirmé est déclaré (catégorie 1).",
+        "E": "Vrai : objectif de l'enquête."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Portage chronique et santé publique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0213",
+      "format": "QCM",
+      "enonce": "Selon le livre AWaRe de l'OMS (2022), quelles posologies pédiatriques sont exactes pour la fièvre entérique (fonction rénale normale) ?",
+      "propositions": {
+        "A": "Azithromycine orale : 20 mg/kg/dose une fois par jour (forme légère, risque élevé de résistance aux FQ).",
+        "B": "Ceftriaxone IV : 80 mg/kg/dose une fois par jour (forme sévère, risque élevé de résistance aux FQ).",
+        "C": "Ciprofloxacine orale : 15 mg/kg/dose toutes les 12 heures (risque faible de résistance aux FQ).",
+        "D": "Ciprofloxacine : contre-indication absolue chez l'enfant dans cette indication selon l'OMS.",
+        "E": "Ceftriaxone IV : 20 mg/kg/j en deux injections."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le tableau 15.2 du livre AWaRe donne : azithromycine 20 mg/kg/j, ceftriaxone 80 mg/kg/j, ciprofloxacine 15 mg/kg/dose × 2/j (avec des tranches de poids) ; au-delà de 30 kg, doses adultes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'OMS propose la ciprofloxacine chez l'enfant par tranches de poids.",
+        "E": "Faux : dose inexacte."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Posologies pédiatriques (OMS)",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book, chap. 15 « Enteric fever » (2022) — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0214",
+      "format": "QCM",
+      "enonce": "Concernant le cycle des Plasmodium, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les sporozoïtes sont inoculés par la piqûre d'un anophèle femelle.",
+        "B": "La phase hépatique est asymptomatique et correspond à l'incubation.",
+        "C": "Les hypnozoïtes hépatiques de P. vivax et P. ovale expliquent les rechutes.",
+        "D": "P. falciparum possède des hypnozoïtes responsables de rechutes tardives.",
+        "E": "Les gamétocytes sont les formes ingérées par le moustique, chez qui se déroule le cycle sexué."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Après l'inoculation des sporozoïtes, la phase hépatique (silencieuse) libère des mérozoïtes qui envahissent les hématies (phase symptomatique). P. vivax et P. ovale forment des hypnozoïtes (rechutes). Les gamétocytes, ingérés par l'anophèle, assurent le cycle sexué (sporogonie de 7 à 10 jours environ).",
+      "explications_par_proposition": {
+        "A": "Vrai : seules les femelles d'anophèles transmettent.",
+        "B": "Vrai : la phase hépatique correspond à l'incubation.",
+        "C": "Vrai : d'où le traitement anti-hypnozoïte (primaquine).",
+        "D": "Faux : P. falciparum n'a pas d'hypnozoïtes.",
+        "E": "Vrai : base de la transmission et de l'effet gamétocytocide de la primaquine."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Cycle parasitaire",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0215",
+      "format": "QCM",
+      "enonce": "Concernant les espèces de Plasmodium, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "P. falciparum — séquestration microvasculaire et formes graves.",
+        "B": "P. malariae — fièvre quarte et recrudescences possibles plusieurs années plus tard.",
+        "C": "P. knowlesi — cycle érythrocytaire de 24 heures, Asie du Sud-Est.",
+        "D": "P. vivax — aucune forme grave décrite.",
+        "E": "P. ovale — rechutes par hypnozoïtes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "P. falciparum est responsable de la majorité des formes graves (cytoadhérence, séquestration). P. malariae donne une fièvre quarte et des recrudescences tardives ; P. knowlesi, zoonose d'Asie du Sud-Est, a un cycle de 24 h ; P. vivax peut donner des formes graves (critères OMS sans seuil de parasitémie) ; P. ovale donne des rechutes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'OMS définit un paludisme grave à P. vivax (sans seuil de parasitémie).",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Espèces plasmodiales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0216",
+      "format": "QCM",
+      "enonce": "Concernant le paludisme en Algérie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'Algérie a été certifiée exempte de paludisme par l'OMS en 2019.",
+        "B": "La certification exige l'interruption de la transmission autochtone pendant au moins 3 années consécutives.",
+        "C": "Le paludisme n'est plus une maladie à déclaration obligatoire depuis la certification.",
+        "D": "Une recrudescence de cas importés est observée dans les wilayas du Sud après les pluies de la fin de l'été.",
+        "E": "La présence de vecteurs expose au risque de cas introduits à partir de cas importés."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'OMS a certifié l'Algérie le 22 mai 2019 (derniers cas autochtones en 2013). Le paludisme reste une MDO de catégorie 1 (décret 22-250). Les cas importés du Sahel augmentent dans le Sud en septembre ; la prévention de la réintroduction repose sur la surveillance et l'investigation de chaque cas.",
+      "explications_par_proposition": {
+        "A": "Vrai : 22 mai 2019.",
+        "B": "Vrai : critère de certification.",
+        "C": "Faux : catégorie 1 du décret 22-250 (2022).",
+        "D": "Vrai : par exemple 1 110 cas en septembre 2020 dans cinq wilayas du Sud selon le ministère (chiffres de presse).",
+        "E": "Vrai : d'où la vigilance entomologique et l'investigation des cas."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Situation algérienne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre « exempt de transmission autochtone » et « sans cas de paludisme ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Algeria and Argentina certified malaria-free by WHO (communiqué du 22 mai 2019)",
+          "date": "2019"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie), communiqués de septembre 2020 relayés par la presse [chiffres à vérifier]",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0217",
+      "format": "QCM",
+      "enonce": "Concernant le diagnostic biologique du paludisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le frottis mince permet d'identifier l'espèce et de calculer la parasitémie.",
+        "B": "La goutte épaisse est plus sensible que le frottis mince.",
+        "C": "Un TDR détectant l'antigène HRP2 permet de suivre l'efficacité du traitement à J3.",
+        "D": "Si le premier frottis est négatif chez un patient évocateur, il faut le répéter toutes les 6 à 12 heures ou réaliser un TDR.",
+        "E": "Un frottis peut être faussement négatif chez un patient ayant reçu un dérivé de l'artémisinine, alors que le TDR HRP2 reste positif."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Frottis (espèce, parasitémie) et goutte épaisse (sensibilité) sont complémentaires ; les TDR sont utiles si la microscopie de qualité n'est pas disponible. HRP2 persiste plusieurs semaines après traitement : pas d'usage pour le suivi. L'OMS recommande de répéter les frottis toutes les 6 à 12 h si la suspicion persiste.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : l'antigène HRP2 persiste plusieurs semaines.",
+        "D": "Vrai : recommandation OMS.",
+        "E": "Vrai : intérêt du TDR HRP2 en cas de traitement incomplet."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Diagnostic parasitologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        },
+        {
+          "reference": "SPILF. Prise en charge et prévention du paludisme d'importation — mise à jour 2017 des RPC 2007",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0218",
+      "format": "QCM",
+      "enonce": "Chez un adulte présentant une infection à P. falciparum, quels éléments constituent des critères de paludisme grave selon l'OMS ?",
+      "propositions": {
+        "A": "Score de Glasgow à 10.",
+        "B": "Glycémie à 1,9 mmol/L.",
+        "C": "Hémoglobine à 6,5 g/dL avec une parasitémie de 50 000/µL.",
+        "D": "Parasitémie à 4 % sans autre anomalie.",
+        "E": "Créatinine à 320 µmol/L."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Critères OMS : Glasgow < 11, glycémie < 2,2 mmol/L, Hb < 7 g/dL chez l'adulte avec parasitémie > 10 000/µL, créatinine > 265 µmol/L, hyperparasitémie > 10 %. Une parasitémie de 4 % isolée ne répond pas au seuil OMS (certains référentiels nationaux retiennent des seuils plus bas chez le voyageur).",
+      "explications_par_proposition": {
+        "A": "Vrai : Glasgow < 11.",
+        "B": "Vrai : < 2,2 mmol/L.",
+        "C": "Vrai : anémie sévère de l'adulte.",
+        "D": "Faux selon l'OMS (seuil > 10 %) ; à rapprocher des critères nationaux.",
+        "E": "Vrai : > 265 µmol/L."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Critères de gravité (OMS)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ignorer qu'un seul critère suffit à définir la gravité.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        },
+        {
+          "reference": "SPILF. Prise en charge et prévention du paludisme d'importation — mise à jour 2017 des RPC 2007",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0219",
+      "format": "QCM",
+      "enonce": "Concernant l'artésunate injectable dans le paludisme grave selon l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dose est de 2,4 mg/kg par administration chez l'adulte.",
+        "B": "L'enfant de moins de 20 kg reçoit 3 mg/kg par administration.",
+        "C": "Le traitement parentéral dure au moins 24 heures, puis une CTA orale complète de 3 jours est administrée.",
+        "D": "La dose doit être réduite en cas d'insuffisance rénale aiguë.",
+        "E": "Il est contre-indiqué au premier trimestre de la grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'artésunate IV ou IM (2,4 mg/kg ; 3 mg/kg si < 20 kg) est recommandé chez l'adulte, l'enfant, le nourrisson et la femme enceinte à tous les trimestres, pendant au moins 24 h et jusqu'à tolérance orale, suivi d'une CTA de 3 jours. Les dérivés de l'artémisinine ne nécessitent pas d'adaptation en cas de défaillance rénale ou hépatique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : exposition équivalente chez le petit enfant.",
+        "C": "Vrai.",
+        "D": "Faux : pas d'adaptation (contrairement à la quinine).",
+        "E": "Faux : recommandé à tous les trimestres, le bénéfice maternel l'emportant."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Artésunate injectable",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0220",
+      "format": "QCS",
+      "enonce": "Selon l'OMS, en l'absence d'artésunate pour traiter un paludisme grave chez l'adulte, quel traitement parentéral faut-il préférer ?",
+      "propositions": {
+        "A": "Chloroquine intraveineuse.",
+        "B": "Artéméther intramusculaire, de préférence à la quinine.",
+        "C": "Quinine en bolus intraveineux rapide.",
+        "D": "Artésunate rectal 10 mg/kg.",
+        "E": "Méfloquine par sonde gastrique."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Si l'artésunate est indisponible, l'OMS recommande l'artéméther IM (3,2 mg/kg puis 1,6 mg/kg/j) de préférence à la quinine. La quinine ne doit jamais être injectée en bolus IV. L'artésunate rectal est réservé au pré-transfert de l'enfant de moins de 6 ans.",
+      "explications_par_proposition": {
+        "A": "Faux : pas de place dans le paludisme grave à falciparum.",
+        "B": "Vrai : recommandation conditionnelle de l'OMS.",
+        "C": "Faux : hypotension mortelle ; perfusion lente uniquement.",
+        "D": "Faux : enfant < 6 ans, en pré-transfert.",
+        "E": "Faux : non recommandé."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Alternative à l'artésunate",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0221",
+      "format": "QCM",
+      "enonce": "Lorsqu'il faut recourir à la quinine intraveineuse dans un paludisme grave, quelles propositions sont exactes (OMS) ?",
+      "propositions": {
+        "A": "Une dose de charge de 20 mg de sel/kg est administrée en perfusion lente.",
+        "B": "La dose d'entretien est de 10 mg de sel/kg toutes les 8 heures.",
+        "C": "La dose est réduite d'un tiers en l'absence d'amélioration à 48 heures ou en cas d'insuffisance rénale persistante.",
+        "D": "Le débit ne doit pas dépasser 5 mg de sel/kg/h.",
+        "E": "L'hyperglycémie est la principale complication métabolique à surveiller."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Quinine : charge 20 mg sel/kg (sur environ 4 h), entretien 10 mg sel/kg/8 h à partir de la 8e heure, réduction d'un tiers (10 mg/kg/12 h) si pas d'amélioration à 48 h ou insuffisance rénale ; jamais de bolus IV ; risque d'hypoglycémie (hyperinsulinisme).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : vitesse maximale.",
+        "E": "Faux : c'est l'hypoglycémie."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Quinine intraveineuse",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0222",
+      "format": "QCM",
+      "enonce": "Un homme de 70 kg présente un accès palustre simple à P. falciparum au retour du Niger. Concernant l'artéméther-luméfantrine (OMS), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le traitement comporte 6 prises réparties sur 3 jours.",
+        "B": "Chaque prise correspond à 80 mg d'artéméther et 480 mg de luméfantrine (4 comprimés à 20/120 mg).",
+        "C": "Les deux premières prises sont idéalement espacées de 8 heures.",
+        "D": "La durée de 3 jours de dérivé de l'artémisinine est recommandée pour toutes les CTA.",
+        "E": "L'artéméther-luméfantrine est contre-indiquée au premier trimestre de la grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "AL : 2 prises par jour pendant 3 jours (6 prises), 80/480 mg par prise à partir de 35 kg, les deux premières à 8 h d'intervalle ; toutes les CTA comportent 3 jours de dérivé de l'artémisinine. Depuis 2022, l'OMS recommande l'AL au 1er trimestre de grossesse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : tranche ≥ 35 kg.",
+        "C": "Vrai.",
+        "D": "Vrai : recommandation forte de l'OMS.",
+        "E": "Faux : c'est la CTA recommandée au 1er trimestre (2022)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Accès simple à P. falciparum",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0223",
+      "format": "QCM",
+      "enonce": "Concernant le traitement d'un accès à P. vivax et la prévention des rechutes (OMS), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "En zone de chloroquinosensibilité, la chloroquine est donnée à 25 mg base/kg au total sur 3 jours (10, 10 puis 5 mg/kg).",
+        "B": "Le statut G6PD doit guider l'administration de primaquine ou de tafénoquine.",
+        "C": "Si l'activité G6PD est ≥ 30 %, la primaquine peut être donnée à 0,5 mg/kg/j pendant 14 jours ou pendant 7 jours.",
+        "D": "En cas de déficit en G6PD, la primaquine à 0,75 mg/kg une fois par semaine pendant 8 semaines peut être donnée sous surveillance.",
+        "E": "La primaquine est recommandée pendant la grossesse pour éviter les rechutes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Chloroquine 25 mg base/kg sur 3 jours (ou CTA) ; G6PD avant toute primaquine ; 0,5 mg/kg/j sur 14 ou 7 jours si G6PD ≥ 30 % ; 1 mg/kg/j sur 7 jours si ≥ 70 % ; schéma hebdomadaire de 8 semaines en cas de déficit. Pendant la grossesse : chloroquine hebdomadaire jusqu'à l'accouchement et la fin de l'allaitement, puis primaquine.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : recommandation conditionnelle.",
+        "E": "Faux : contre-indiquée ; chimioprophylaxie par chloroquine à la place."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "P. vivax et P. ovale — prévention des rechutes",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire la primaquine sans dosage du G6PD ou chez une femme enceinte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0224",
+      "format": "QCM",
+      "enonce": "Concernant l'hémolyse retardée après traitement d'un paludisme grave par artésunate, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle survient plus d'une semaine après le traitement.",
+        "B": "Elle concerne surtout les patients hyperparasitémiques, notamment les voyageurs non immuns.",
+        "C": "Elle est liée au retour dans la circulation d'hématies débarrassées de leurs parasites par la rate, à durée de vie raccourcie.",
+        "D": "Elle traduit une résistance du parasite à l'artésunate.",
+        "E": "Elle justifie un contrôle de l'hémoglobine après la sortie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'OMS décrit une hémolyse retardée (au-delà d'une semaine), rapportée chez 19 voyageurs européens (2010–2012) et chez 7 % d'enfants africains hyperparasitémiques. Elle est un effet prévisible de l'action rapide de l'artésunate (élimination splénique des parasites intra-érythrocytaires), et non une résistance.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : mécanisme décrit par l'OMS.",
+        "D": "Faux : sans rapport avec une résistance.",
+        "E": "Vrai : surveillance de l'anémie tardive."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Hémolyse retardée post-artésunate",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0225",
+      "format": "QCM",
+      "enonce": "Un transporteur de Tamanrasset doit se rendre pour 3 semaines au Niger. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les mesures de protection contre les piqûres sont essentielles du crépuscule à l'aube (moustiquaire imprégnée, répulsifs).",
+        "B": "Une chimioprophylaxie par atovaquone-proguanil se poursuit classiquement 7 jours après le retour.",
+        "C": "Une chimioprophylaxie par doxycycline peut être arrêtée le jour du retour.",
+        "D": "Toute fièvre au cours du séjour ou dans les mois suivant le retour impose une consultation urgente avec recherche de paludisme.",
+        "E": "La vaccination antipaludique dispense de toute autre mesure chez l'adulte voyageur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Protection antivectorielle nocturne, chimioprophylaxie adaptée (atovaquone-proguanil poursuivie environ 7 jours après le retour car active sur les formes hépatiques ; doxycycline et méfloquine poursuivies plusieurs semaines) et consultation urgente en cas de fièvre. Les vaccins antipaludiques sont recommandés chez l'enfant en zone de transmission modérée à forte, non chez le voyageur adulte.",
+      "explications_par_proposition": {
+        "A": "Vrai : activité nocturne des anophèles.",
+        "B": "Vrai : prophylaxie causale (schéma usuel à confronter aux recommandations aux voyageurs).",
+        "C": "Faux : les molécules suppressives se poursuivent au moins 4 semaines après le retour (OMS).",
+        "D": "Vrai : règle d'or.",
+        "E": "Faux : pas d'indication chez le voyageur adulte à ce jour."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Conseils au voyageur",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        },
+        {
+          "reference": "HCSP. Recommandations sanitaires aux voyageurs (édition annuelle) [non vérifiée]",
+          "date": ""
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0226",
+      "format": "QCM",
+      "enonce": "Une femme enceinte de 10 semaines d'aménorrhée, revenant du Mali, présente un paludisme à P. falciparum. Quelles propositions sont exactes (OMS) ?",
+      "propositions": {
+        "A": "En l'absence de critère de gravité, l'artéméther-luméfantrine est recommandée.",
+        "B": "En présence d'un critère de gravité, l'artésunate injectable est indiqué malgré le premier trimestre.",
+        "C": "L'artésunate + sulfadoxine-pyriméthamine est une bonne option au premier trimestre.",
+        "D": "La glycémie doit être surveillée de près, la grossesse exposant à l'hypoglycémie.",
+        "E": "La primaquine en dose unique anti-transmission est indiquée chez elle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Au 1er trimestre : AL pour l'accès simple (2022) ; artésunate injectable pour le paludisme grave à tous les trimestres. Les antifolates (SP) sont contre-indiqués au 1er trimestre. La grossesse expose à l'hypoglycémie et aux formes graves. La primaquine est exclue pendant la grossesse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : le bénéfice maternel l'emporte.",
+        "C": "Faux : antifolate contre-indiqué au 1er trimestre.",
+        "D": "Vrai.",
+        "E": "Faux : exclue chez la femme enceinte."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Paludisme et grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0227",
+      "format": "QCM",
+      "enonce": "Concernant le cycle de réplication du VIH et les cibles des antirétroviraux, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "Transcriptase inverse — ténofovir, lamivudine, éfavirenz.",
+        "B": "Intégrase — dolutégravir, raltégravir, cabotégravir.",
+        "C": "Protéase — darunavir boosté par le ritonavir.",
+        "D": "Capside — lénacapavir.",
+        "E": "Corécepteur CCR5 — névirapine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les INTI (ténofovir, lamivudine) et les INNTI (éfavirenz, névirapine, rilpivirine) inhibent la transcriptase inverse ; les INI (dolutégravir, raltégravir, cabotégravir) l'intégrase ; les IP (darunavir/r) la protéase ; le lénacapavir la capside. L'antagoniste de CCR5 est le maraviroc, pas la névirapine (INNTI).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : inhibiteur de capside utilisé notamment en PrEP injectable.",
+        "E": "Faux : la névirapine est un INNTI ; l'anti-CCR5 est le maraviroc."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Cycle viral et cibles thérapeutiques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0228",
+      "format": "QCM",
+      "enonce": "Concernant l'immunopathologie de l'infection par le VIH, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La primo-infection s'accompagne d'une déplétion précoce et massive des lymphocytes CD4 du tissu lymphoïde digestif.",
+        "B": "La charge virale d'équilibre (« set point ») après la primo-infection a une valeur pronostique.",
+        "C": "Les réservoirs de cellules CD4 mémoire porteuses d'un provirus intégré expliquent le rebond viral à l'arrêt du traitement.",
+        "D": "Sous traitement efficace, l'activation immunitaire chronique disparaît complètement.",
+        "E": "Le syndrome inflammatoire de reconstitution immunitaire peut démasquer une tuberculose après le début du traitement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La déplétion des CD4 muqueux est précoce ; le set point est pronostique ; les réservoirs latents ne sont pas accessibles au TAR, qui contrôle sans guérir ; une inflammation résiduelle persiste sous TAR (comorbidités) ; l'IRIS peut révéler ou aggraver une infection opportuniste.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : une activation et une inflammation résiduelles persistent.",
+        "E": "Vrai : d'où les délais d'initiation dans la tuberculose et la cryptococcose."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Immunopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0229",
+      "format": "QCS",
+      "enonce": "Selon l'OMS, quelle définition de la maladie VIH avancée chez l'adulte est exacte ?",
+      "propositions": {
+        "A": "CD4 < 350/mm3 quel que soit le stade clinique.",
+        "B": "CD4 < 200/mm3 ou stade clinique OMS 3 ou 4.",
+        "C": "Charge virale > 100 000 copies/mL.",
+        "D": "Présence d'une infection opportuniste classant sida exclusivement.",
+        "E": "CD4 < 50/mm3 avec une rétinite à CMV."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La maladie VIH avancée correspond, chez l'adulte et l'adolescent, à des CD4 < 200/mm3 ou à un stade clinique 3 ou 4 ; tout enfant de moins de 5 ans vivant avec le VIH est considéré comme ayant une maladie avancée. Elle justifie un paquet de soins (dépistage, prophylaxies, TAR rapide).",
+      "explications_par_proposition": {
+        "A": "Faux : 350 est le seuil du cotrimoxazole.",
+        "B": "Vrai.",
+        "C": "Faux : critère non retenu.",
+        "D": "Faux : définition plus large que le sida.",
+        "E": "Faux : situation de maladie avancée, mais non la définition."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Maladie VIH avancée",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0230",
+      "format": "QCM",
+      "enonce": "Concernant les stratégies de dépistage et de diagnostic de l'infection par le VIH recommandées par l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Lorsque la positivité des tests est inférieure à 5 %, trois tests consécutifs réactifs sont nécessaires pour poser le diagnostic.",
+        "B": "Le premier test de l'algorithme doit être le plus sensible.",
+        "C": "Toute personne nouvellement diagnostiquée doit être re-testée avant de débuter le traitement.",
+        "D": "Le Western blot est recommandé en confirmation dans les stratégies nationales.",
+        "E": "Le re-test d'une personne déjà sous traitement est recommandé pour vérifier le diagnostic."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'OMS recommande des algorithmes combinant des tests de sensibilité ≥ 99 % et de spécificité ≥ 98 %, le premier étant le plus sensible ; trois tests réactifs lorsque la positivité < 5 % ; un retest avant TAR. Le Western blot et l'immunoblot ne doivent pas être utilisés ; le retest sous TAR peut donner des résultats faussement négatifs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : déconseillé par l'OMS (divergence avec la pratique française).",
+        "E": "Faux : risque de résultat faussement négatif sous TAR."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Stratégie de dépistage (OMS)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0231",
+      "format": "QCM",
+      "enonce": "Selon le décret exécutif algérien n°22-211 du 5 juin 2022, quelles infections sont concernées par le dépistage anonyme et gratuit ?",
+      "propositions": {
+        "A": "Infection à VIH/sida.",
+        "B": "Hépatites virales B et C.",
+        "C": "Syphilis.",
+        "D": "Infection à papillomavirus humain.",
+        "E": "Urétrite gonococcique et infection à Chlamydia."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'annexe du décret 22-211 liste : hépatite virale B, hépatite virale C, infection à Chlamydia, infection à VIH/sida, urétrite gonococcique et syphilis. Le dépistage se fait sous la responsabilité des structures publiques, le résultat étant remis par un médecin lors d'un entretien individuel. Le VIH est par ailleurs une MDO (décret 22-250).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : non listée.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Cadre réglementaire algérien",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Décret exécutif n°22-211 du 5 juin 2022 (dépistage anonyme et gratuit), JORADP n°40/2022 — DOC-00073",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0232",
+      "format": "QCM",
+      "enonce": "Concernant le moment d'initiation du traitement antirétroviral selon l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le TAR est proposé à toute personne vivant avec le VIH, quel que soit son taux de CD4.",
+        "B": "L'initiation rapide est définie par un début dans les 7 jours suivant le diagnostic.",
+        "C": "En cas de tuberculose (hors méningite), le TAR débute le plus tôt possible dans les 2 semaines suivant le traitement antituberculeux.",
+        "D": "En cas de méningite cryptococcique, le TAR est débuté immédiatement.",
+        "E": "La personne peut être encouragée mais non contrainte à débuter le traitement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "« Traiter tout le monde » ; initiation rapide (≤ 7 jours), le jour même si la personne est prête ; tuberculose : ≤ 2 semaines (sauf méningite) ; cryptococcose : différer de 4 à 6 semaines (surmortalité en cas d'initiation immédiate) ; soins centrés sur la personne.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : différé de 4 à 6 semaines.",
+        "E": "Vrai : bonne pratique de l'OMS."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Délai d'initiation du TAR",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer le délai de la tuberculose à la cryptococcose (et inversement).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0233",
+      "format": "QCM",
+      "enonce": "Concernant le traitement antirétroviral de première ligne de l'adulte selon l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le schéma préféré associe le dolutégravir à deux INTI, par exemple ténofovir + lamivudine + dolutégravir.",
+        "B": "La combinaison TLD contient ténofovir 300 mg, lamivudine 300 mg et dolutégravir 50 mg, en une prise par jour.",
+        "C": "Sous rifampicine, le dolutégravir est porté à 50 mg deux fois par jour.",
+        "D": "L'éfavirenz à 400 mg est une alternative, à éviter si la résistance prétraitement aux INNTI atteint 10 %.",
+        "E": "Le ténofovir alafénamide est contre-indiqué en première ligne."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Première ligne préférée : DTG + 2 INTI (TLD) ; DTG 50 mg × 2/j sous rifampicine (et 2 semaines après son arrêt) ; EFV 400 mg en alternative en l'absence de résistance élevée aux INNTI. En 2025, l'OMS fait du TAF une alternative au TDF, le choix reposant sur des critères cliniques et programmatiques.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : alternative au TDF (2025)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Schéma de première ligne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0234",
+      "format": "QCM",
+      "enonce": "Un patient sous TLD depuis 8 mois a une charge virale à 4 200 copies/mL. Quelles propositions sont exactes selon l'OMS ?",
+      "propositions": {
+        "A": "Un renforcement de l'observance doit précéder un nouveau contrôle à 3 mois.",
+        "B": "L'échec virologique est défini par une charge virale > 1 000 copies/mL sur deux mesures consécutives à 3 mois d'intervalle.",
+        "C": "En cas d'échec confirmé sous dolutégravir, un IP boosté (darunavir/ritonavir de préférence) est recommandé.",
+        "D": "Le ténofovir doit obligatoirement être remplacé par la zidovudine en deuxième ligne.",
+        "E": "Chez un patient stable, la charge virale est contrôlée à 6 mois, à 12 mois puis tous les 12 mois."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Une première charge virale > 1 000 copies/mL conduit à un soutien renforcé à l'observance puis à un contrôle à 3 mois ; l'échec est confirmé si elle reste > 1 000. Après échec d'un schéma à base de DTG : IP boosté, DRV/r préféré (2025), le TDF/TAF pouvant être recyclé. Rythme de suivi : 6 mois, 12 mois, puis annuel.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : recommandation de 2025.",
+        "D": "Faux : le ténofovir peut être réutilisé (OMS 2025).",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Suivi virologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0235",
+      "format": "QCM",
+      "enonce": "Concernant la co-infection VIH–VHB et les stratégies de simplification (OMS 2025), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le schéma doit comporter du ténofovir (TDF ou TAF) associé à la lamivudine ou à l'emtricitabine.",
+        "B": "La bithérapie dolutégravir + lamivudine est une option de simplification uniquement en l'absence d'hépatite B active.",
+        "C": "L'association injectable cabotégravir + rilpivirine est une option de relais en l'absence d'hépatite B active.",
+        "D": "La bithérapie dolutégravir + lamivudine est recommandée en première intention chez tout patient naïf avec hépatite B.",
+        "E": "L'arrêt du ténofovir chez un co-infecté expose à une réactivation de l'hépatite B."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le ténofovir (TDF ou TAF) et la 3TC/FTC sont actifs sur le VHB et indispensables chez le co-infecté. Les stratégies DTG + 3TC et CAB + RPV sont réservées aux personnes stables sans hépatite B active ; l'arrêt du ténofovir expose à une réactivation (flare) du VHB.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : contre-indiquée dans cette situation.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Co-infection VIH–VHB et simplification",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0236",
+      "format": "QCM",
+      "enonce": "Concernant la cryptococcose chez une personne vivant avec le VIH, quelles propositions sont exactes selon l'OMS ?",
+      "propositions": {
+        "A": "Le dépistage de l'antigène cryptococcique est recommandé avant le TAR si les CD4 sont < 100/mm3.",
+        "B": "Le traitement d'induction préféré (2022) associe une dose unique d'amphotéricine B liposomale à 10 mg/kg, de la flucytosine et du fluconazole pendant 14 jours.",
+        "C": "Une corticothérapie adjuvante systématique est recommandée pendant l'induction.",
+        "D": "La consolidation repose sur le fluconazole pendant 8 semaines.",
+        "E": "La ponction lombaire avec mesure de la pression d'ouverture et antigène cryptococcique dans le LCR est l'approche diagnostique préférée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "CrAg si CD4 < 100 (à envisager < 200) avec traitement préemptif ; induction préférée 2022 : AmB liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j + fluconazole 1 200 mg/j pendant 14 jours ; consolidation fluconazole 400–800 mg/j 8 semaines, entretien 200 mg/j ; pas de corticoïdes ; TAR différé de 4 à 6 semaines.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : non recommandée (recommandation forte).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Cryptococcose neuroméningée",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. Guidelines for diagnosing, preventing and managing cryptococcal disease among people living with HIV (2022)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0237",
+      "format": "QCM",
+      "enonce": "Concernant la prophylaxie pré-exposition (PrEP) du VIH, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La PrEP orale contenant du ténofovir disoproxil est recommandée aux personnes à risque substantiel d'infection.",
+        "B": "Le schéma « 2+1+1 » comporte 2 comprimés 2 à 24 h avant le rapport puis 1 comprimé à 24 h et 1 à 48 h après la première prise.",
+        "C": "Le schéma « 2+1+1 » est validé pour les hommes cisgenres ayant des rapports avec des hommes.",
+        "D": "Chez une femme cisgenre, la PrEP orale à la demande est le schéma recommandé.",
+        "E": "Depuis juillet 2025, l'OMS recommande le lénacapavir injectable deux fois par an comme option additionnelle de PrEP."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "PrEP orale TDF (quotidienne) ; schéma événementiel 2+1+1 réservé aux HSH cisgenres ; les autres populations doivent prendre la PrEP 7 jours consécutifs pour atteindre une protection ; anneau à la dapivirine pour les femmes cisgenres ; cabotégravir et lénacapavir injectables (OMS, 14 juillet 2025).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : prise quotidienne (pas de schéma à la demande validé pour les rapports vaginaux).",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Prophylaxie pré-exposition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO recommends injectable lenacapavir for HIV prevention (communiqué du 14 juillet 2025)",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0238",
+      "format": "QCM",
+      "enonce": "Une infirmière se pique profondément avec une aiguille creuse ayant servi chez un patient vivant avec le VIH non traité. Quelles propositions sont exactes (OMS) ?",
+      "propositions": {
+        "A": "La PPE doit débuter le plus tôt possible, au plus tard 72 heures après l'exposition.",
+        "B": "La durée de la PPE est de 28 jours.",
+        "C": "Le schéma préféré de l'adulte associe ténofovir + lamivudine (ou emtricitabine) + dolutégravir.",
+        "D": "Une bithérapie est préférée à une trithérapie pour limiter les effets indésirables.",
+        "E": "Un test VIH initial de la personne exposée est nécessaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "PPE : le plus tôt possible, ≤ 72 h, 28 jours ; trithérapie préférée (TDF + 3TC/FTC + DTG) ; test VIH initial et suivi ; évaluation des risques VHB et VHC.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : la trithérapie est préférée (la bithérapie est efficace mais non préférée).",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Prophylaxie post-exposition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0239",
+      "format": "QCM",
+      "enonce": "Concernant la prévention de la transmission mère-enfant du VIH selon l'OMS (2021, mise à jour 2025), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le TAR doit être débuté en urgence chez toute femme enceinte ou allaitante vivant avec le VIH, même diagnostiquée tard.",
+        "B": "Un nourrisson dont la mère est sous TAR et qui n'est pas à haut risque reçoit 6 semaines de névirapine.",
+        "C": "Un nourrisson né d'une mère ayant reçu moins de 4 semaines de TAR avant l'accouchement est considéré à haut risque.",
+        "D": "Une mère sous TAR en suppression virale doit se voir proposer l'option d'allaiter, même là où la politique nationale prône l'alimentation de substitution.",
+        "E": "Le cotrimoxazole est contre-indiqué chez le nourrisson exposé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "TAR maternel urgent ; prophylaxie du nourrisson par une molécule (névirapine de préférence) 6 semaines si risque non élevé ; trithérapie de 6 semaines si haut risque (moins de 4 semaines de TAR maternel, charge virale > 1 000 copies/mL dans les 4 semaines avant l'accouchement, infection maternelle récente, diagnostic post-partum) ; allaitement soutenu chez la mère en suppression virale ; cotrimoxazole dès 4–6 semaines chez le nourrisson exposé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : névirapine préférée (DTG ou 3TC en alternatives).",
+        "C": "Vrai.",
+        "D": "Vrai : mise à jour 2025.",
+        "E": "Faux : recommandé dès 4 à 6 semaines jusqu'au diagnostic final."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Prévention de la transmission mère-enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0240",
+      "format": "QCM",
+      "enonce": "Concernant la terminologie des états infectieux graves, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une bactériémie correspond à la présence de bactéries viables dans le sang, attestée par une hémoculture positive.",
+        "B": "Selon Sepsis-3, le sepsis est une dysfonction d'organe menaçant le pronostic vital liée à une réponse dérégulée de l'hôte à une infection.",
+        "C": "Le terme « sepsis sévère » a été conservé par Sepsis-3 pour désigner le sepsis avec hypotension.",
+        "D": "Les critères du SRIS ne définissent plus le sepsis mais peuvent servir au dépistage.",
+        "E": "Une bactériémie transitoire peut être asymptomatique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Sepsis-3 (2016) définit le sepsis par la dysfonction d'organe (ΔSOFA ≥ 2) liée à une réponse dérégulée de l'hôte ; le terme « sepsis sévère » est abandonné ; le SRIS reste un outil de repérage. La bactériémie est un constat microbiologique, parfois transitoire et sans conséquence.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : terme abandonné.",
+        "D": "Vrai.",
+        "E": "Vrai : par exemple après des soins dentaires."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Définitions — bactériémie, septicémie, sepsis",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Singer M, et al. Sepsis-3. JAMA 2016;315(8):801-810",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0241",
+      "format": "QCM",
+      "enonce": "Quels paramètres font partie du score SOFA utilisé pour définir le sepsis ?",
+      "propositions": {
+        "A": "Rapport PaO2/FiO2.",
+        "B": "Numération plaquettaire.",
+        "C": "Bilirubinémie.",
+        "D": "Lactatémie.",
+        "E": "Créatininémie ou diurèse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le SOFA explore six systèmes : respiratoire (PaO2/FiO2), coagulation (plaquettes), foie (bilirubine), cardiovasculaire (PAM, catécholamines), neurologique (Glasgow), rénal (créatinine ou diurèse). Le lactate n'en fait pas partie ; il intervient dans la définition du choc septique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : critère du choc septique, non du SOFA.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Score SOFA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les composantes du SOFA avec les critères du choc septique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Singer M, et al. Sepsis-3. JAMA 2016;315(8):801-810",
+          "date": "2016"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0242",
+      "format": "QCM",
+      "enonce": "Concernant le qSOFA et les outils de repérage du sepsis, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le qSOFA comprend une fréquence respiratoire ≥ 22/min, une altération de la conscience et une PAS ≤ 100 mmHg.",
+        "B": "Un qSOFA ≥ 2 hors réanimation identifie des patients à risque accru de mauvaise évolution.",
+        "C": "La SSC 2021 recommande de ne pas utiliser le qSOFA comme outil de dépistage unique, en comparaison du SIRS, du NEWS ou du MEWS.",
+        "D": "Un qSOFA à 0 permet d'exclure un sepsis.",
+        "E": "Le NICE recommande le score NEWS2 pour stratifier le risque chez l'adulte hospitalisé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le qSOFA est un outil pronostique simple, peu sensible : il ne doit pas être utilisé seul pour dépister (SSC 2021, position renforcée en 2026). Le NICE utilise le NEWS2. Un qSOFA négatif n'exclut pas un sepsis.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : sensibilité insuffisante.",
+        "E": "Vrai : mise à jour 2024 de la NG51."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Outils de dépistage",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Singer M, et al. Sepsis-3. JAMA 2016;315(8):801-810",
+          "date": "2016"
+        },
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "NICE. Suspected sepsis: recognition, diagnosis and early management (NG51), mise à jour 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0243",
+      "format": "QCM",
+      "enonce": "Concernant les prélèvements microbiologiques au cours d'un sepsis, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hémocultures doivent être prélevées avant les antibiotiques si cela ne retarde pas leur administration.",
+        "B": "Une hémoculture positive à Staphylococcus aureus doit toujours être considérée comme significative.",
+        "C": "Une bactériémie à S. aureus, à streptocoque ou à entérocoque doit faire rechercher une endocardite.",
+        "D": "Un staphylocoque à coagulase négative dans une seule paire chez un patient sans matériel est le plus souvent une contamination.",
+        "E": "La sensibilité des hémocultures est indépendante du volume de sang prélevé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Hémocultures (au moins 2 paires) avant les antibiotiques sans les retarder ; S. aureus n'est jamais un contaminant ; streptocoques, entérocoques et S. aureus imposent la recherche d'une endocardite ; les staphylocoques à coagulase négative isolés une seule fois sont souvent des contaminants ; le rendement dépend du volume prélevé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : échocardiographie.",
+        "D": "Vrai.",
+        "E": "Faux : le volume est un déterminant majeur du rendement."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Prélèvements microbiologiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0244",
+      "format": "QCM",
+      "enonce": "Selon la Surviving Sepsis Campaign 2021, quelles propositions concernant le délai d'administration des antibiotiques sont exactes ?",
+      "propositions": {
+        "A": "En cas de choc septique possible ou de sepsis probable, les antibiotiques sont administrés immédiatement, idéalement dans l'heure.",
+        "B": "En cas de sepsis possible sans choc, une évaluation rapide est réalisée et, si la suspicion persiste, les antibiotiques sont donnés dans les 3 heures.",
+        "C": "Chez un patient sans choc avec une faible probabilité d'infection, il est suggéré de différer les antibiotiques en poursuivant la surveillance.",
+        "D": "La procalcitonine est recommandée pour décider du début de l'antibiothérapie.",
+        "E": "Les résultats de l'imagerie doivent être obtenus avant la première dose d'antibiotique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La SSC 2021 propose une approche graduée selon la probabilité d'infection et la présence d'un choc : ≤ 1 h (choc ou sepsis probable), ≤ 3 h (sepsis possible sans choc), report possible si faible probabilité. Elle suggère de ne pas utiliser la PCT pour décider du début des antibiotiques ; l'imagerie ne doit pas retarder le traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : utilisation suggérée pour l'arrêt, non pour le début.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Délai de l'antibiothérapie (SSC 2021)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0245",
+      "format": "QCM",
+      "enonce": "Un patient présente un choc septique sur péritonite communautaire. Parmi les options proposées par l'OMS (livre AWaRe 2022), lesquelles sont exactes ?",
+      "propositions": {
+        "A": "Céfotaxime 2 g toutes les 8 h IV + métronidazole 500 mg toutes les 8 h IV.",
+        "B": "Ceftriaxone 2 g/24 h IV + métronidazole 500 mg toutes les 8 h IV.",
+        "C": "Pipéracilline-tazobactam 4 g/0,5 g toutes les 6 h IV.",
+        "D": "Méropénem en deuxième choix lorsque des entérobactéries productrices de BLSE sont à craindre.",
+        "E": "Amoxicilline orale seule."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pour les infections intra-abdominales graves, l'OMS propose C3G + métronidazole ou pipéracilline-tazobactam en premier choix, et le méropénem en second choix (activité sur les BLSE). Le contrôle chirurgical de la source reste indispensable.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : inadaptée à une péritonite avec choc."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Antibiothérapie probabiliste — foyer intra-abdominal",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0246",
+      "format": "QCM",
+      "enonce": "Selon l'OMS (AWaRe 2022), quelle est l'approche probabiliste d'un sepsis de l'adulte sans foyer identifié (fonction rénale normale) ?",
+      "propositions": {
+        "A": "Céfotaxime 2 g/8 h ou ceftriaxone 2 g/24 h IV.",
+        "B": "Associée à l'amikacine 15 mg/kg/24 h ou à la gentamicine 5 mg/kg/24 h IV.",
+        "C": "L'amikacine conserve une activité sur de nombreuses souches productrices de BLSE et constitue une option d'épargne des carbapénèmes.",
+        "D": "Durée indicative de 7 jours.",
+        "E": "La vancomycine doit être associée systématiquement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pour le sepsis sans foyer, l'OMS propose une C3G associée à un aminoside en dose unique journalière, 7 jours ; la vancomycine n'est ajoutée qu'en cas de suspicion de SARM (par exemple infection cutanée).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : seulement si SARM suspecté."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Sepsis sans foyer identifié",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0247",
+      "format": "QCS",
+      "enonce": "Une femme de 55 ans présente un choc septique sur pyélonéphrite avec une dilatation pyélocalicielle droite due à un calcul urétéral. En plus de l'antibiothérapie et de la réanimation, quelle mesure est prioritaire ?",
+      "propositions": {
+        "A": "Une échographie de contrôle à J7.",
+        "B": "Le drainage urgent des urines en amont de l'obstacle (sonde JJ ou néphrostomie).",
+        "C": "La lithotritie extracorporelle immédiate.",
+        "D": "L'attente des résultats de l'antibiogramme avant tout geste.",
+        "E": "Une corticothérapie à forte dose."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La pyélonéphrite obstructive est une urgence de contrôle de la source : drainage des urines (sonde double J ou néphrostomie percutanée) dès que possible, le traitement du calcul étant différé.",
+      "explications_par_proposition": {
+        "A": "Faux : retard inacceptable.",
+        "B": "Vrai.",
+        "C": "Faux : contre-indiquée en phase infectieuse.",
+        "D": "Faux.",
+        "E": "Faux : hors indication (l'hydrocortisone ne concerne que le choc réfractaire)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Contrôle de la source",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que les antibiotiques suffisent en présence d'un obstacle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0248",
+      "format": "QCM",
+      "enonce": "Concernant le remplissage initial au cours d'un sepsis avec hypoperfusion selon la SSC 2021, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est suggéré d'administrer au moins 30 mL/kg de cristalloïdes dans les 3 premières heures.",
+        "B": "Les solutés balancés sont suggérés de préférence au sérum salé isotonique.",
+        "C": "Les hydroxyéthylamidons sont recommandés en cas de choc.",
+        "D": "L'albumine peut être utilisée chez les patients ayant reçu de grands volumes de cristalloïdes.",
+        "E": "La réévaluation repose sur des indices dynamiques, le temps de recoloration capillaire et l'évolution du lactate."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "SSC 2021 : ≥ 30 mL/kg de cristalloïdes en 3 h (suggestion, certitude faible ; maintenue en 2026 avec un poids ajusté si IMC > 30), solutés balancés, albumine si grands volumes, pas d'hydroxyéthylamidons (recommandation forte), réévaluation dynamique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : proscrits (recommandation forte contre).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Remplissage vasculaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "Prescott HC, et al. Surviving Sepsis Campaign guidelines 2026. Intensive Care Med 2026;52(5):863-936 (texte non lu)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0249",
+      "format": "QCM",
+      "enonce": "Concernant le traitement du choc septique de l'adulte (SSC 2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La cible initiale de PAM est de 65 mmHg.",
+        "B": "La noradrénaline est le vasopresseur de première intention.",
+        "C": "L'ajout de vasopressine est suggéré plutôt que l'escalade de la noradrénaline.",
+        "D": "L'hydrocortisone 200 mg/j est suggérée si la noradrénaline ou l'adrénaline atteint au moins 0,25 µg/kg/min au moins 4 heures après le début du vasopresseur.",
+        "E": "La dopamine est préférée à la noradrénaline chez le sujet âgé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "PAM 65 mmHg ; noradrénaline en première ligne ; vasopressine ajoutée (en pratique vers 0,25–0,5 µg/kg/min de noradrénaline) ; dobutamine ou adrénaline en cas de dysfonction cardiaque ; hydrocortisone 200 mg/j (50 mg/6 h ou continu) si besoin persistant de vasopresseurs. La dopamine n'est pas recommandée en première intention.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : certitude abaissée en 2026 selon les synthèses.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Vasopresseurs et corticoïdes",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "Prescott HC, et al. Surviving Sepsis Campaign guidelines 2026. Intensive Care Med 2026;52(5):863-936 (texte non lu)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0250",
+      "format": "QCS",
+      "enonce": "Selon la SSC 2021, quelle est la place de la procalcitonine au cours du sepsis ?",
+      "propositions": {
+        "A": "Décider seule de débuter ou non l'antibiothérapie.",
+        "B": "Aider, avec l'évaluation clinique, à décider de l'arrêt des antibiotiques.",
+        "C": "Remplacer les hémocultures.",
+        "D": "Définir le choc septique.",
+        "E": "Choisir la molécule antibiotique probabiliste."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La SSC 2021 suggère de ne pas utiliser la PCT avec la clinique pour décider du début des antibiotiques, mais de l'utiliser avec l'évaluation clinique pour décider de leur arrêt lorsque la durée optimale est incertaine.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux : PAM, vasopresseur et lactate.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Procalcitonine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0251",
+      "format": "QCM",
+      "enonce": "Concernant les critères internationaux du sepsis de l'enfant publiés en 2024 (critères de Phoenix), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le sepsis est défini chez un enfant suspect d'infection par un score de Phoenix ≥ 2.",
+        "B": "Le score explore notamment les dysfonctions respiratoire, cardiovasculaire, de la coagulation et neurologique.",
+        "C": "Le choc septique est un sepsis avec au moins un point cardiovasculaire.",
+        "D": "Ces critères reprennent à l'identique les critères pédiatriques de 2005 fondés sur le SRIS.",
+        "E": "Le score a été développé à partir de données de plus de 3 millions de prises en charge pédiatriques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les critères de Phoenix (JAMA 2024) remplacent les critères de 2005 fondés sur le SRIS : sepsis = score ≥ 2 chez l'enfant suspect d'infection ; choc septique = sepsis avec ≥ 1 point cardiovasculaire ; développement sur plus de 3 millions de prises en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : ils les remplacent.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Sepsis de l'enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Schlapbach LJ, et al. International consensus criteria for pediatric sepsis and septic shock. JAMA 2024;331(8):665-674",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0252",
+      "format": "QCM",
+      "enonce": "Au troisième jour d'un sepsis à Escherichia coli sensible à la ceftriaxone, d'origine urinaire, chez un patient amélioré, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'antibiothérapie doit être réévaluée chaque jour en vue d'une désescalade.",
+        "B": "Une durée courte est suggérée plutôt qu'une durée longue lorsque le foyer est contrôlé.",
+        "C": "Un relais oral adapté à l'antibiogramme peut être envisagé si le patient est stable et tolère la voie orale.",
+        "D": "L'aminoside associé doit être poursuivi pendant toute la durée du traitement.",
+        "E": "En Algérie, les infections à bactéries multirésistantes sont à déclaration obligatoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Réévaluation quotidienne et désescalade, durée courte (7 jours pour un sepsis urinaire selon l'OMS), relais oral adapté ; l'aminoside n'a d'intérêt qu'en probabiliste et doit être arrêté dès que possible (néphrotoxicité). Le décret 22-250 a rendu à déclaration obligatoire les infections à BMR.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : arrêt après 1 à quelques jours selon l'antibiogramme [À VÉRIFIER — durée].",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Réévaluation et santé publique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0253",
+      "format": "QCM",
+      "enonce": "Concernant le virus de la rage et sa transmission, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le virus de la rage appartient au genre Lyssavirus de la famille des Rhabdoviridae.",
+        "B": "Le chien est la principale source de rage humaine dans le monde.",
+        "C": "Des cas de rage humaine après morsure de rongeur sont fréquemment rapportés.",
+        "D": "Une transmission interhumaine a été documentée par greffe d'organes.",
+        "E": "La consommation de lait d'une vache enragée est une cause documentée de rage humaine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le RABV est un Lyssavirus (Rhabdoviridae) ; le chien est la source principale des cas humains. Aucun cas humain n'a été rapporté après morsure de rongeur, ni après consommation de lait ou de viande d'animal enragé. La transmission interhumaine n'est confirmée que par greffe (et un cas périnatal probable).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : la rage est très rare chez les rongeurs, aucun cas humain rapporté.",
+        "D": "Vrai : greffes d'organes et de cornée.",
+        "E": "Faux : aucun cas documenté ; le lait pasteurisé est sans risque."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Agent, réservoirs et transmission",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0254",
+      "format": "QCM",
+      "enonce": "Concernant la physiopathologie et l'incubation de la rage, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le virus gagne le système nerveux central par transport axonal rétrograde.",
+        "B": "L'incubation est le plus souvent de 2 à 3 mois.",
+        "C": "Environ 2 à 3 % des cas ont une incubation supérieure à un an.",
+        "D": "Les morsures de la face et du cou exposent à une incubation plus courte.",
+        "E": "Les anticorps vaccinaux neutralisent efficacement le virus déjà présent dans les nerfs."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Après inoculation, le virus chemine le long des nerfs vers le SNC (transport rétrograde), à l'abri du système immunitaire, puis diffuse de façon centrifuge (glandes salivaires, peau). L'incubation est en général de 2–3 mois (5 jours à plusieurs années ; > 1 an dans 2–3 % des cas), plus courte pour la tête et le cou et chez l'enfant. Une fois dans le nerf, le virus échappe aux anticorps : d'où l'urgence de la PPE et l'infiltration locale des IGR.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : d'où l'intérêt de neutraliser le virus dans la plaie avant qu'il n'atteigne les nerfs."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Physiopathologie et incubation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0255",
+      "format": "QCM",
+      "enonce": "Concernant les formes cliniques de la rage humaine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Des paresthésies ou une douleur au site de la morsure cicatrisée sont un signe prodromique évocateur.",
+        "B": "Dans la forme furieuse, des spasmes sont déclenchés par des stimuli tactiles, auditifs, visuels ou olfactifs.",
+        "C": "Dans la forme furieuse, l'agitation alterne avec des périodes de lucidité.",
+        "D": "Dans la forme paralytique, les spasmes phobiques sont présents chez tous les patients.",
+        "E": "Le myœdème à la percussion, la piloérection et les fasciculations sont des signes précoces de la forme paralytique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La forme furieuse associe spasmes réflexes (hydrophobie, aérophobie), agitation alternant avec lucidité et dysautonomie ; la forme paralytique, souvent méconnue, peut simuler un syndrome de Guillain-Barré ; les spasmes phobiques n'y sont présents que chez environ la moitié des patients ; myœdème, piloérection et fasciculations sont évocateurs au début.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : environ 50 % seulement.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Formes cliniques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0256",
+      "format": "QCM",
+      "enonce": "Selon l'OMS, quelles situations correspondent à une exposition de catégorie III ?",
+      "propositions": {
+        "A": "Morsure transdermique unique de la jambe par un chien errant.",
+        "B": "Léchage par un chien suspect sur une peau intacte.",
+        "C": "Léchage de la conjonctive ou de la bouche par un chien suspect.",
+        "D": "Contact direct avec une chauve-souris.",
+        "E": "Griffure superficielle sans saignement par un chat suspect."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Catégorie III : morsures ou griffures transdermiques, contamination des muqueuses par la salive, léchage sur peau lésée, contact direct avec une chauve-souris → vaccin + IGR. Catégorie I : toucher, nourrir, léchage sur peau intacte → pas de PPE. Catégorie II : mordillement, griffure ou érosion sans saignement → vaccin.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : catégorie I.",
+        "C": "Vrai : contamination muqueuse.",
+        "D": "Vrai : toute exposition aux chauves-souris est traitée en catégorie III.",
+        "E": "Faux : catégorie II (vaccination seule)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Catégories d'exposition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Sous-classer une exposition muqueuse ou une plaie qui saigne.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0257",
+      "format": "QCM",
+      "enonce": "Concernant les soins locaux d'une morsure exposant au risque rabique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Laver et rincer abondamment la plaie à l'eau et au savon pendant environ 15 minutes.",
+        "B": "Appliquer ensuite un antiseptique virucide comme la povidone iodée.",
+        "C": "Suturer immédiatement et hermétiquement toutes les plaies avant l'infiltration des immunoglobulines.",
+        "D": "Une plaie infectée contre-indique l'infiltration d'immunoglobulines.",
+        "E": "Évaluer la prophylaxie antitétanique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Le lavage prolongé et l'antiseptique virucide sont essentiels ; la suture est évitée si possible ou réalisée après infiltration des IGR, de façon différée et lâche ; une plaie infectée ne contre-indique pas les IGR ; tétanos et antibiothérapie sont évalués selon la plaie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : suture différée, après les IGR, points lâches.",
+        "D": "Faux : pas de contre-indication.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Soins locaux de la plaie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 18 « Wound and bite-related infections » — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0258",
+      "format": "QCM",
+      "enonce": "Quels schémas de vaccination post-exposition sont recommandés par l'OMS (2018) chez un sujet jamais vacciné ?",
+      "propositions": {
+        "A": "Voie intradermique, 2 sites à J0, J3 et J7.",
+        "B": "Voie intramusculaire, 1 dose à J0, J3, J7 et entre J14 et J28.",
+        "C": "Voie intramusculaire, 2 doses à J0, 1 dose à J7 et 1 dose à J21 (Zagreb).",
+        "D": "Voie intramusculaire, 1 dose unique à J0.",
+        "E": "Injection intramusculaire dans la région fessière chez l'adulte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Schémas OMS : ID « 1 semaine, 2 sites » (2-2-2-0-0) ; IM « 2 semaines » (1-1-1-1-0, 4e dose entre J14 et J28) ; IM « 3 semaines » Zagreb (2-0-1-0-1). Une dose ID = 0,1 mL par site ; une dose IM = un flacon entier ; deltoïde chez l'adulte, cuisse avant 2 ans ; jamais la fesse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : insuffisant chez le sujet non vacciné.",
+        "E": "Faux : réponse moins fiable."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Schémas vaccinaux de PPE",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. Rabies vaccines: WHO position paper – April 2018. Wkly Epidemiol Rec 2018;93(16):201-219",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0259",
+      "format": "QCM",
+      "enonce": "Concernant les immunoglobulines antirabiques (IGR) selon l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dose maximale d'IGR humaines est de 20 UI/kg.",
+        "B": "La dose maximale d'IGR équines est de 40 UI/kg.",
+        "C": "La totalité de la dose doit être infiltrée dans et autour des plaies, autant que l'anatomie le permet.",
+        "D": "Elles peuvent être administrées jusqu'au 21e jour après la première dose de vaccin.",
+        "E": "Un test cutané préalable est recommandé avant les IGR équines."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "IGR humaines 20 UI/kg, équines (ou F(ab')2) 40 UI/kg, infiltrées en totalité dans et autour des plaies (dilution possible si plaies multiples), en une seule fois, au plus tard au 7e jour après la première dose de vaccin. Les tests cutanés ne sont pas recommandés ; l'injection se fait dans des conditions permettant de traiter une anaphylaxie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : inutiles au-delà de J7.",
+        "E": "Faux : mauvaise valeur prédictive, non recommandé."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Immunoglobulines antirabiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0260",
+      "format": "QCS",
+      "enonce": "Une vétérinaire ayant reçu une PrEP complète documentée il y a 6 ans est mordue profondément à la main par un chien suspect. Quelle conduite est conforme à l'OMS ?",
+      "propositions": {
+        "A": "Schéma complet de 4 doses IM associé aux IGR.",
+        "B": "Soins de plaie et vaccination à J0 et J3 (ID 1 site ou IM), sans IGR.",
+        "C": "Aucune vaccination, la PrEP protégeant à vie.",
+        "D": "IGR seules sans vaccin.",
+        "E": "Sérologie préalable et vaccination seulement si le titre est inférieur à 0,5 UI/mL."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Chez un sujet ayant une PrEP ou une PPE complète documentée (ou au moins 2 doses d'une PPE interrompue), l'OMS recommande soins de plaie + vaccination abrégée : ID 1 site J0 et J3, ou ID 4 sites J0, ou IM J0 et J3 ; pas d'IGR. La sérologie ne doit jamais retarder la PPE.",
+      "explications_par_proposition": {
+        "A": "Faux : excessif.",
+        "B": "Vrai.",
+        "C": "Faux : une PPE abrégée reste nécessaire.",
+        "D": "Faux.",
+        "E": "Faux : la sérologie ne doit pas retarder la PPE."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Sujet déjà vacciné",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0261",
+      "format": "QCM",
+      "enonce": "Un patient greffé rénal sous immunosuppresseurs est griffé superficiellement, sans saignement, par un chat errant suspect. Quelles propositions sont exactes (OMS) ?",
+      "propositions": {
+        "A": "Il s'agit d'une exposition de catégorie II.",
+        "B": "Chez un sujet sévèrement immunodéprimé, des IGR sont indiquées même en catégorie II.",
+        "C": "Le schéma vaccinal le plus immunogène disponible doit être utilisé.",
+        "D": "Une sérologie 2 à 4 semaines après la vaccination permet de juger de la nécessité d'une dose supplémentaire.",
+        "E": "L'immunodépression contre-indique la PPE."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Chez l'immunodéprimé sévère, l'OMS recommande vaccin et IGR dès la catégorie II, le schéma le plus immunogène, un lavage méticuleux et une sérologie à 2–4 semaines. Il n'existe aucune contre-indication à la PPE.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : aucune contre-indication."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "PPE chez l'immunodéprimé",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0262",
+      "format": "QCM",
+      "enonce": "Un enfant de 6 ans est mordu au mollet (plaie saignante) par le chien d'un voisin, apparemment sain et vacciné selon le propriétaire, dans une commune sans surveillance vétérinaire organisée. Quelles propositions sont exactes (OMS) ?",
+      "propositions": {
+        "A": "La PPE (vaccin + IGR) doit être débutée immédiatement.",
+        "B": "La PPE peut être arrêtée si un professionnel formé confirme que le chien est en bonne santé au 10e jour.",
+        "C": "Il faut attendre la fin de l'observation de 10 jours avant toute vaccination.",
+        "D": "Si le chien meurt ou présente des signes pendant l'observation, la PPE doit être poursuivie et le chien analysé.",
+        "E": "Le statut vaccinal déclaré du chien suffit à dispenser de toute PPE."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Sans surveillance vétérinaire fiable ni laboratoire, l'OMS recommande de débuter la PPE immédiatement et de ne l'arrêter que si un professionnel formé confirme que l'animal est sain à J10 (ou si le laboratoire est négatif). Les enfants doivent recevoir la PPE immédiatement en raison du risque d'exposition grave.",
+      "explications_par_proposition": {
+        "A": "Vrai : catégorie III (plaie saignante).",
+        "B": "Vrai.",
+        "C": "Faux : la PPE ne doit pas attendre.",
+        "D": "Vrai.",
+        "E": "Faux : élément pris en compte, mais insuffisant en l'absence de surveillance fiable."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Observation de l'animal",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0263",
+      "format": "QCM",
+      "enonce": "Concernant la prophylaxie pré-exposition (PrEP) antirabique selon l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le schéma recommandé comporte deux visites, à J0 et J7 (ID 2 sites ou IM 1 dose).",
+        "B": "Chez l'immunodéprimé, une troisième dose est ajoutée entre J21 et J28.",
+        "C": "Des rappels périodiques sont recommandés tous les 5 ans chez tous les voyageurs.",
+        "D": "Chez les personnels de laboratoire manipulant le virus, une sérologie est recommandée tous les 1 à 2 ans, avec rappel si le titre est inférieur à 0,5 UI/mL.",
+        "E": "Une personne ayant reçu une PrEP n'a pas besoin d'IGR en cas d'exposition ultérieure."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "PrEP OMS 2018 : J0 et J7 (ID 2 sites ou IM) ; 3e dose à J21–28 chez l'immunodéprimé ; pas de rappel systématique sauf exposition professionnelle continue (surveillance sérologique, rappel si < 0,5 UI/mL) ; après exposition, PPE abrégée sans IGR.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pas de rappel systématique.",
+        "D": "Vrai.",
+        "E": "Vrai : PPE abrégée à J0 et J3."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Prophylaxie pré-exposition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0264",
+      "format": "QCM",
+      "enonce": "Concernant le diagnostic biologique de la rage, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez l'homme vivant, plusieurs prélèvements successifs de salive sont recommandés pour la RT-PCR.",
+        "B": "Une biopsie cutanée de la nuque comportant des follicules pileux est un prélèvement de choix.",
+        "C": "La présence d'anticorps dans le LCR a une valeur diagnostique chez un sujet non vacciné.",
+        "D": "Un résultat négatif sur la salive élimine le diagnostic.",
+        "E": "L'immunofluorescence directe sur tissu cérébral est la méthode de référence post mortem et chez l'animal."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le diagnostic intra-vitam repose sur la RT-PCR (salive répétée, biopsie de peau de la nuque, LCR) et la sérologie chez le non-vacciné ; un résultat négatif n'exclut pas la rage (excrétion intermittente). L'immunofluorescence sur cerveau est la référence post mortem et chez l'animal. Le diagnostic chez l'homme n'intervient jamais dans la décision de PPE.",
+      "explications_par_proposition": {
+        "A": "Vrai : au moins trois.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : excrétion intermittente.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Diagnostic biologique",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0265",
+      "format": "QCM",
+      "enonce": "Concernant la prise en charge d'un patient atteint de rage déclarée et le contexte algérien, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les soins sont essentiellement palliatifs (morphine, benzodiazépines, anticholinergiques contre l'hypersalivation).",
+        "B": "Le protocole de Milwaukee assure une survie sans séquelles dans la majorité des cas.",
+        "C": "Les soignants appliquent les précautions standard ; une PPE leur est proposée en cas d'exposition réelle après évaluation.",
+        "D": "La rage est une maladie à déclaration obligatoire en Algérie.",
+        "E": "La lutte à la source repose sur la vaccination d'au moins 70 % de la population canine."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La rage déclarée relève de soins palliatifs hospitaliers ; les protocoles agressifs ne garantissent pas une survie sans séquelles graves et ne sont envisagés qu'exceptionnellement. Précautions standard pour les soignants, PPE après évaluation. MDO de catégorie 1 (décret 22-250). Vaccination canine ≥ 70 % : clé de l'élimination de la rage transmise par le chien.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : résultats non fiables.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Rage déclarée, entourage et situation algérienne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO expert consultation on rabies: third report (TRS 1012), 2018 — DOC-00038",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        },
+        {
+          "reference": "Institut Pasteur d'Algérie. Situation de la rage en Algérie (communication OMSA/WOAH Afrique, 2025) [chiffres à vérifier]",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

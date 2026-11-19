@@ -6,11 +6,17 @@ sous_specialite: "Infections systémiques — sepsis, bactériémies et choc sep
 items_residanat: [RES-MED-004]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 14
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0006.md
 sources:
   - id: S1
     reference: "Singer M, Deutschman CS, Seymour CW, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):801-810."
@@ -29,7 +35,7 @@ sources:
     doi: "10.1007/s00134-021-06506-y"
     url: ""
     verifiee: true
-    remarque: "Référence, pages et DOI confirmés par recherche web (PubMed 34605781) ; statut « remplacée » par la SSC 2026 dans le catalogue (REC-0265) ; texte intégral non relu pendant la session (recommandations citées d'après les connaissances du rédacteur et la fiche du catalogue)."
+    remarque: "Référence, pages et DOI confirmés par recherche web (PubMed 34605781) ; statut « remplacée » par la SSC 2026 dans le catalogue (REC-0265). Audit AUD-01/AUD-02 (2026-11-19) : texte intégral en libre accès lu (Europe PMC, PMC8486643) — formulations vérifiées : qSOFA (rec. 2, forte), lactate (rec. 3), 30 mL/kg en 3 h (rec. 5, faible), délais des antimicrobiens (rec. 12–15), PCT (rec. 16), bithérapie anti-BGN (rec. 19), antifongiques (rec. 22), perfusion prolongée (rec. 25), contrôle de la source (rec. 27–28), désescalade (rec. 29), cristalloïdes balancés, albumine, amidons, gélatines (rec. 32–36), PAM 65 mmHg, vasopressine (0,25–0,5 µg/kg/min), dobutamine/adrénaline (rec. 41), voie périphérique (rec. 44), hydrocortisone 200 mg/j à partir de 0,25 µg/kg/min au moins 4 h après le début (rec. 58), bicarbonate, insuline, vitamine C."
   - id: S3
     reference: "Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock 2026. Intensive Care Med. 2026;52(5):863-936 (copublication : Crit Care Med. 2026;54(4):725-812)."
     organisme: "Surviving Sepsis Campaign (SCCM / ESICM)"
@@ -74,7 +80,7 @@ sources:
     doi: "10.1097/PCC.0000000000002198"
     url: ""
     verifiee: true
-    remarque: "Vérifiée dans le catalogue (REC-0267, Europe PMC PMID 32032273) ; points clés repris de la fiche du catalogue ; texte non lu. Une mise à jour pédiatrique 2026 est signalée par l'audit de DOS-MINT_REA-0001 [À VÉRIFIER]."
+    remarque: "Vérifiée dans le catalogue (REC-0267, Europe PMC PMID 32032273) ; points clés repris de la fiche du catalogue ; texte non lu. REMPLACÉE par la SSC enfant 2026 [S10] (audit 2026-11-19)."
   - id: S8
     reference: "Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire. JORADP n°47 du 11 juillet 2022."
     organisme: "Gouvernement algérien / Ministère de la Santé"
@@ -92,14 +98,23 @@ sources:
     doi: ""
     url: ""
     verifiee: false
-    remarque: "Article de validation du qSOFA cité de mémoire ; non vérifié [À VÉRIFIER]."
+    remarque: "Article de validation du qSOFA cité de mémoire. Audit 2026-11-19 : vérifié par l'API PubMed (PMID 26903335 ; doi 10.1001/jama.2016.0288) ; texte intégral non lu."
+  - id: S10
+    reference: "Weiss SL, Peters MJ, Oczkowski SJW, et al. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026. Pediatr Crit Care Med. 2026;27(4):379-434 (copublication : Intensive Care Med. 2026;52(5):937-983)."
+    organisme: "Surviving Sepsis Campaign (SCCM / ESICM)"
+    annee: 2026
+    type: recommandation
+    doi: "10.1097/PCC.0000000000003927"
+    url: ""
+    verifiee: true
+    remarque: "Audit 2026-11-19 : existence et métadonnées vérifiées par l'API PubMed (PMID 41869844 ; ICM : PMID 41870559, doi 10.1007/s00134-026-08360-2). Remplace la SSC enfant 2020 [S7]. Contenu non lu [À VÉRIFIER]."
 mots_cles: [sepsis, choc septique, Sepsis-3, SOFA, qSOFA, NEWS2, bactériémie, lactate, hémocultures, antibiothérapie probabiliste, contrôle de la source, noradrénaline, hydrocortisone, Surviving Sepsis Campaign, Phoenix, Algérie]
 ---
 
 # États septicémiques (sepsis) : diagnostic, pronostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique. **Traçabilité** : le chapitre « Sepsis in adults » du livre AWaRe de l'OMS [S4] et le décret 22-250 [S8] ont été **lus** ; les recommandations de la *Surviving Sepsis Campaign* 2021 [S2] et 2026 [S3] ont été **vérifiées quant à leur existence** mais leur texte intégral **n'a pas été relu** pendant la session (la SSC 2026 est citée d'après les synthèses rapportées par l'audit de DOS-MINT_REA-0001). La réanimation hémodynamique détaillée est traitée dans le dossier `DOS-MINT_REA-0001` (États de choc).
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 — corrections requises (bloc `audit` et rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique. **Traçabilité** : le chapitre « Sepsis in adults » du livre AWaRe de l'OMS [S4] et le décret 22-250 [S8] ont été **lus** ; le texte intégral de la SSC 2021 [S2] a été lu lors de l'audit (libre accès) ; la SSC 2026 adulte [S3] et la SSC enfant 2026 [S10] ont été **vérifiées quant à leur existence** mais leur texte n'a pas pu être lu (la SSC 2026 est citée d'après les synthèses rapportées par l'audit de DOS-MINT_REA-0001). La réanimation hémodynamique détaillée est traitée dans le dossier `DOS-MINT_REA-0001` (États de choc).
 
 **Items du programme couverts** : RES-MED-004 — « États septicémiques : Diagnostic - pronostic - traitement ».
 
@@ -217,11 +232,11 @@ Points clés [S1, S4] : ce n'est pas la bactérie seule, mais la **réponse dér
 | **Neurologique** Glasgow | 15 | 13–14 | 10–12 | 6–9 | < 6 |
 | **Rénal** créatinine (mg/dL) ou diurèse | < 1,2 | 1,2–1,9 | 2,0–3,4 | 3,5–4,9 ou < 500 mL/j | > 5,0 ou < 200 mL/j |
 
-`[À VÉRIFIER : bornes exactes des catégories cardiovasculaires et rénales dans le tableau source]`
+Bornes conformes au tableau 24.1 du livre AWaRe [S4] (catécholamines administrées depuis au moins 1 h, doses en µg/kg/min ; créatinine 1,2 mg/dL ≈ 110 µmol/L, 2,0 ≈ 171, 3,5 ≈ 300, 5,0 ≈ 440 µmol/L).
 
 ### 7.3 Outils de repérage au lit du patient
 - **qSOFA** (≥ 2 critères = risque élevé de mauvaise évolution hors réanimation) : **FR ≥ 22/min**, **altération de la conscience** (Glasgow < 15), **PAS ≤ 100 mmHg** [S1, S4]. Les scores de ce type n'ont pas été largement validés dans les pays à revenu faible et intermédiaire [S4].
-- La **SSC 2021** recommande de **ne pas utiliser le qSOFA seul** comme outil de dépistage, en comparaison du SRIS, du **NEWS** ou du **MEWS** [S2] ; la **SSC 2026** confirmerait cette position (recommandation forte) [S3] `[À VÉRIFIER — texte 2026]`.
+- La **SSC 2021** recommande de **ne pas utiliser le qSOFA seul** comme outil de dépistage, en comparaison du SRIS, du **NEWS** ou du **MEWS** (recommandation forte, certitude modérée) [S2] ; la **SSC 2026** confirmerait cette position (recommandation forte) [S3] `[À VÉRIFIER — texte 2026]`.
 - **NEWS2** : score d'alerte précoce recommandé par le NICE pour stratifier le risque chez l'adulte hospitalisé (mise à jour 2024) [S5] `[À VÉRIFIER — seuils]`.
 
 ### 7.4 Enfant — critères de Phoenix (2024) [S6]
@@ -248,7 +263,7 @@ Examen complet « de la tête aux pieds » : peau (plaies, escarres, cellulite, 
 ## 9. Examens complémentaires et interprétation
 
 ### 9.1 Microbiologie — **avant** les antibiotiques, **sans les retarder**
-- **Hémocultures** : au moins **2 paires** (flacons aérobie et anaérobie), prélevées **avant** la première dose d'antibiotique **si cela ne retarde pas** son administration (en pratique, pas plus de quelques dizaines de minutes) [S2] `[À VÉRIFIER — formulation exacte]` ; volume suffisant (le rendement dépend du volume) ; prélèvement sur cathéter **et** en périphérie si infection de cathéter suspectée.
+- **Hémocultures** : au moins **2 paires** (flacons aérobie et anaérobie), prélevées **avant** la première dose d'antibiotique **si cela ne retarde pas de façon substantielle** son administration (bonne pratique de la SSC 2016, rappelée dans le texte de 2021) [S2] ; volume suffisant (le rendement dépend du volume) ; prélèvement sur cathéter **et** en périphérie si infection de cathéter suspectée.
 - **Prélèvements du foyer** : ECBU, prélèvements respiratoires (expectoration, aspiration, LBA), liquide pleural ou d'ascite, **LCR**, pus, prélèvements chirurgicaux, **antigénuries** pneumocoque et *Legionella* selon le contexte.
 - **Paludisme** : frottis/TDR systématiques au retour d'une zone d'endémie.
 - Interprétation : **staphylocoque doré** dans une seule hémoculture = toujours significatif ; staphylocoque à coagulase négative dans une seule paire = contamination probable (sauf matériel) ; **streptocoques, entérocoques, *S. aureus*** → rechercher une **endocardite** (échocardiographie).
@@ -280,7 +295,7 @@ Radiographie thoracique ; **échographie** rénale et des voies urinaires (obsta
 - **Neutropénique** : signes inflammatoires frustes ; urgence absolue.
 - **Cirrhotique** : infection du liquide d'ascite, hémorragie digestive.
 - **Femme enceinte / post-partum** : sepsis maternel [S4].
-- **Enfant** : critères de Phoenix [S6] ; remplissage prudent selon l'accès à la réanimation [S7].
+- **Enfant** : critères de Phoenix [S6] ; remplissage prudent selon l'accès à la réanimation [S7] ; la SSC enfant 2026 remplace la version 2020 (contenu non lu) [S10].
 - **Personne vivant avec le VIH** : pneumocoque, salmonelles non typhiques, tuberculose disséminée.
 
 ## 11. Diagnostics différentiels
@@ -303,7 +318,7 @@ Radiographie thoracique ; **échographie** rénale et des voies urinaires (obsta
 **Défaillances multiviscérales** (SDRA, insuffisance rénale aiguë, CIVD, encéphalopathie, cholestase, iléus), **localisations secondaires** (endocardite, abcès, spondylodiscite), **infections nosocomiales** secondaires (immunoparalysie), **complications thromboemboliques**, myopathie et neuropathie de réanimation, **séquelles cognitives et fonctionnelles** au long cours (« syndrome post-sepsis »).
 
 ### 12.2 Pronostic
-- **Mortalité hospitalière** : de l'ordre de **plus de 10 %** pour le sepsis et **plus de 40 %** pour le choc septique dans les cohortes ayant servi à Sepsis-3 [S1] `[À VÉRIFIER — chiffres exacts]`.
+- **Mortalité hospitalière** : **plus de 10 %** pour le sepsis (ΔSOFA ≥ 2) et **plus de 40 %** pour le choc septique dans les cohortes ayant servi à Sepsis-3 [S1].
 - **Facteurs pronostiques** : nombre et sévérité des dysfonctions (**SOFA**, ΔSOFA), **lactate** élevé et sa non-décroissance, **choc**, retard aux antibiotiques ou antibiothérapie **inadaptée** (micro-organisme résistant), absence de **contrôle de la source**, âge, comorbidités, immunodépression [S1, S2].
 - Hors réanimation, un **qSOFA ≥ 2** identifie des patients à plus haut risque de décès ou de séjour prolongé en réanimation [S1, S9] ; un **NEWS2** élevé signale un risque élevé de dégradation [S5].
 
@@ -331,12 +346,12 @@ Radiographie thoracique ; **échographie** rénale et des voies urinaires (obsta
 | **Sepsis sans foyer identifié** | **Céfotaxime 2 g/8 h IV** ou **ceftriaxone 2 g/24 h IV**, **associée à** **amikacine 15 mg/kg/24 h IV** ou **gentamicine 5 mg/kg/24 h IV** (l'amikacine garde une activité sur les souches BLSE : option d'épargne des carbapénèmes) | 7 jours |
 | **Méningite** | 1er choix : **céfotaxime 2 g/6 h** ou **ceftriaxone 2 g/12 h** IV ; 2e choix : amoxicilline ou ampicilline 2 g/4 h, benzylpénicilline 4 MUI/4 h, chloramphénicol 1 g/6 h (en dernier recours) | 10 jours (variable) |
 | **Infection respiratoire basse** | **Céfotaxime 2 g/8 h** ou **ceftriaxone 2 g/24 h** **+ clarithromycine 500 mg/12 h** IV | 5 jours |
-| **Infection intra-abdominale** | **C3G + métronidazole 500 mg/8 h** ou **pipéracilline-tazobactam 4 g/0,5 g toutes les 6 h** ; 2e choix (BLSE) : **méropénem 2 g/8 h** | ≈ 7 jours si contrôle de la source |
+| **Infection intra-abdominale** | **C3G + métronidazole 500 mg/8 h** ou **pipéracilline-tazobactam 4 g/0,5 g toutes les 6 h** ; 2e choix (seulement là où les BLSE sont fréquentes) : **méropénem 2 g/8 h** (dose du tableau du sepsis ; 1 g/8 h dans le chapitre des infections intra-abdominales hors sepsis) | ≈ 7 jours si contrôle de la source |
 | **Peau et tissus mous** | **Ceftriaxone 2 g/24 h + métronidazole 500 mg/8 h** (si *S. pyogenes* exclu en cas de fasciite) ou **pipéracilline-tazobactam + clindamycine 900 mg/8 h** (option préférée si fasciite nécrosante) ; **+ vancomycine 15–20 mg/kg/12 h** si SARM suspecté | ≈ 7 jours |
 | **Infection urinaire** | **Céfotaxime 2 g/8 h** ou **ceftriaxone 2 g/24 h** **+ amikacine 15 mg/kg/24 h** | 7 jours |
 | **Fièvre entérique** | **Ceftriaxone 2 g/24 h** (attention à la résistance croissante) | 10 jours |
 
-> Ces schémas de l'OMS sont des options « de santé publique » ; ils doivent être **adaptés à l'écologie locale** (BLSE, *Pseudomonas*, SARM, carbapénémases), au terrain (neutropénie, soins récents) et aux **protocoles de l'établissement** `[À VÉRIFIER — protocoles algériens]`. Les doses supposent une fonction rénale normale ; les aminosides se donnent en **dose unique journalière**, avec surveillance de la fonction rénale.
+> Ces schémas de l'OMS sont des options « de santé publique » ; ils doivent être **adaptés à l'écologie locale** (BLSE, *Pseudomonas*, SARM, carbapénémases), au terrain (neutropénie, soins récents) et aux **protocoles de l'établissement** ; aucun protocole national algérien d'antibiothérapie probabiliste du sepsis n'a été retrouvé pendant l'audit `[À VÉRIFIER]`. Les doses supposent une fonction rénale normale ; les aminosides se donnent en **dose unique journalière**, avec surveillance de la fonction rénale.
 
 **c) Contrôle de la source** [S2]
 - Identifier ou éliminer **rapidement** un foyer nécessitant un geste (abcès, péritonite, cholangite, obstacle urinaire, fasciite nécrosante, matériel infecté) et réaliser le geste **dès que possible sur le plan médical et logistique** (bonne pratique) ; **retirer les cathéters** suspects une fois un autre accès obtenu (bonne pratique).
@@ -455,7 +470,7 @@ Sources : [S1, S2, S5].
 
 **Diagnostic retenu.** Choc septique (vasopresseur nécessaire pour PAM ≥ 65 mmHg et lactate > 2 mmol/L) compliquant une angiocholite lithiasique à E. coli BLSE ; SOFA augmenté de ≥ 2 points (hémodynamique, rein, plaquettes, foie, conscience).
 
-**Traitement.** Dans l'heure : hémocultures puis antibiothérapie IV probabiliste ; compte tenu d'une antibiothérapie récente et d'un risque de BLSE, une option active sur les BLSE est justifiée d'emblée (par exemple méropénem, ou C3G + métronidazole associée à l'amikacine 15 mg/kg selon l'écologie locale) [POSOLOGIE À VÉRIFIER — protocole local] ; cristalloïdes balancés 30 mL/kg dans les 3 premières heures, puis noradrénaline pour PAM ≥ 65 mmHg ; drainage biliaire en urgence (CPRE avec sphinctérotomie et extraction ou prothèse) dès la stabilisation ; arrêt de la metformine et de l'IEC ; insuline si glycémie ≥ 10 mmol/L ; hydrocortisone 200 mg/j si la noradrénaline dépasse 0,25 µg/kg/min au-delà de 4 h ; adaptation à l'antibiogramme (méropénem ou relais selon la sensibilité) ; déclaration de l'infection à BMR.
+**Traitement.** Dans l'heure : hémocultures puis antibiothérapie IV probabiliste ; compte tenu d'une antibiothérapie récente et d'un risque de BLSE, une option active sur les BLSE est justifiée d'emblée (par exemple méropénem 2 g toutes les 8 h IV, ou C3G + métronidazole 500 mg/8 h associée à l'amikacine 15 mg/kg en une injection, selon l'écologie locale — doses de l'OMS pour l'adulte, première dose pleine puis adaptation à la fonction rénale) ; cristalloïdes balancés 30 mL/kg dans les 3 premières heures, puis noradrénaline pour PAM ≥ 65 mmHg ; drainage biliaire en urgence (CPRE avec sphinctérotomie et extraction ou prothèse) dès la stabilisation ; arrêt de la metformine et de l'IEC ; insuline si glycémie ≥ 10 mmol/L ; hydrocortisone 200 mg/j si la noradrénaline dépasse 0,25 µg/kg/min au-delà de 4 h ; adaptation à l'antibiogramme (méropénem ou relais selon la sensibilité) ; déclaration de l'infection à BMR.
 
 **Surveillance.** PAM, lactate à 2–4 h, diurèse horaire, Glasgow, SOFA quotidien, bilan hépatique et rénal, hémocultures, tolérance de l'amikacine ou des carbapénèmes ; réévaluation de l'antibiothérapie à 48–72 h.
 
@@ -558,7 +573,7 @@ Concernant le qSOFA et les outils de repérage du sepsis, quelles propositions s
 
 **Réponse(s) exacte(s) : A, B, C, E**
 
-*Corrigé commenté.* Le qSOFA est un outil pronostique simple, peu sensible : il ne doit pas être utilisé seul pour dépister (SSC 2021, position renforcée en 2026). Le NICE utilise le NEWS2. Un qSOFA négatif n'exclut pas un sepsis.
+*Corrigé commenté.* Le qSOFA est un outil pronostique simple, peu sensible : il ne doit pas être utilisé seul pour dépister (SSC 2021, recommandation forte maintenue en 2026). Le NICE utilise le NEWS2. Un qSOFA négatif n'exclut pas un sepsis.
 
 - A — Vrai.
 - B — Vrai.
@@ -732,13 +747,13 @@ Concernant le traitement du choc septique de l'adulte (SSC 2021), quelles propos
 
 | Thème | SSC 2021 [S2] | SSC 2026 [S3] (d'après synthèses — texte non lu) | Autres (NICE 2016/2024 [S5] ; OMS AWaRe 2022 [S4]) | Commentaire |
 |---|---|---|---|---|
-| **Dépistage** | Ne pas utiliser le qSOFA seul (vs SIRS, NEWS, MEWS) | Position renforcée (recommandation forte) `[À VÉRIFIER]` | NICE : **NEWS2** pour l'adulte hospitalisé ; OMS : scores peu validés dans les pays à ressources limitées | Choisir un score validé localement |
+| **Dépistage** | Ne pas utiliser le qSOFA seul (vs SIRS, NEWS, MEWS) | Position maintenue (recommandation forte, certitude modérée ; NEWS/NEWS2, MEWS ou SIRS préférés) `[À VÉRIFIER]` | NICE : **NEWS2** pour l'adulte hospitalisé ; OMS : scores peu validés dans les pays à ressources limitées | Choisir un score validé localement |
 | **Remplissage initial** | ≥ 30 mL/kg en 3 h (suggestion, certitude faible) | Maintenu, certitude faible, poids ajusté si IMC > 30 `[À VÉRIFIER]` | — | Débat sur les stratégies restrictives |
 | **Corticoïdes** | Hydrocortisone si choc avec NA/adrénaline ≥ 0,25 µg/kg/min ≥ 4 h | Certitude abaissée à « faible » `[À VÉRIFIER]` | — | Bénéfice surtout sur la résolution du choc |
 | **Délai des antibiotiques** | ≤ 1 h (choc / sepsis probable) ; ≤ 3 h (sepsis possible sans choc) | `[À VÉRIFIER]` | NICE : antibiotiques dans l'heure chez les patients à haut risque [S5] ; OMS : le plus tôt possible [S4] | Approche graduée selon la probabilité d'infection |
 | **Bithérapie anti-BGN** | Si risque élevé de BMR | `[À VÉRIFIER]` | OMS : **C3G + aminoside** en probabiliste sans foyer et pour l'urinaire grave [S4] | L'OMS fait de l'aminoside une option d'épargne des carbapénèmes |
 | **Inotropes** | Dobutamine ajoutée ou adrénaline seule si dysfonction cardiaque | Idem, certitude très faible | — | — |
-| **Enfant** | SSC enfant 2020 [S7] : antibiotiques ≤ 1 h (choc), ≤ 3 h (dysfonction sans choc) ; bolus de 10–20 mL/kg (jusqu'à 40–60 mL/kg en 1 h) si réanimation disponible | Mise à jour pédiatrique 2026 signalée `[À VÉRIFIER]` | Critères de Phoenix 2024 [S6] | Prudence du remplissage sans accès à la réanimation |
+| **Enfant** | SSC enfant 2020 [S7] : antibiotiques ≤ 1 h (choc), ≤ 3 h (dysfonction sans choc) ; bolus de 10–20 mL/kg (jusqu'à 40–60 mL/kg en 1 h) si réanimation disponible | SSC enfant 2026 publiée (Pediatr Crit Care Med 2026;27(4):379-434) [S10] : contenu non lu `[À VÉRIFIER]` | Critères de Phoenix 2024 [S6] | Prudence du remplissage sans accès à la réanimation |
 
 ---
 
@@ -752,8 +767,9 @@ Détail complet (statut de vérification) dans l'en-tête YAML.
 4. [S4] World Health Organization. *The WHO AWaRe antibiotic book*. 2022 — chapitre 24 « Sepsis in adults ». (DOC-00039, lu.)
 5. [S5] NICE. *Suspected sepsis: recognition, diagnosis and early management* (NG51), mise à jour 2024.
 6. [S6] Schlapbach LJ, et al. International consensus criteria for pediatric sepsis and septic shock. *JAMA*. 2024;331(8):665-674.
-7. [S7] Weiss SL, et al. Surviving Sepsis Campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children. *Pediatr Crit Care Med*. 2020;21(2):e52-e106.
+7. [S7] Weiss SL, et al. Surviving Sepsis Campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children. *Pediatr Crit Care Med*. 2020;21(2):e52-e106. **[remplacée par S10]**
 8. [S8] Décret exécutif n°22-250 du 30 juin 2022 (MDO). JORADP n°47/2022. (DOC-00072, lu.)
-9. [S9] Seymour CW, et al. Assessment of clinical criteria for sepsis. *JAMA*. 2016;315(8):762-774. **[non vérifiée]**
+9. [S9] Seymour CW, et al. Assessment of clinical criteria for sepsis. *JAMA*. 2016;315(8):762-774. doi:10.1001/jama.2016.0288.
+10. [S10] Weiss SL, et al. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026. *Pediatr Crit Care Med*. 2026;27(4):379-434. (Texte non lu.)
 
-> **Points à auditer en priorité** : (1) lecture du texte intégral de la SSC 2026 (remplissage, corticoïdes, délais, dépistage, bithérapie) et de la SSC 2021 pour les formulations exactes ; (2) bornes du tableau SOFA ; (3) dose et unité de la noradrénaline selon le protocole local (marqueur) ; (4) méropénem 2 g/8 h proposé par l'OMS pour les infections intra-abdominales à BLSE (dose « méningée » : vérifier la dose usuelle selon le RCP) ; (5) données algériennes de résistance (BLSE, carbapénémases, SARM) et protocoles nationaux d'antibiothérapie.
+> **Points à auditer en priorité** (audit du 2026-11-19 : SSC 2021, tableau SOFA et méropénem traités ; SSC 2026 et noradrénaline en suspens, voir le rapport) : (1) lecture du texte intégral de la SSC 2026 (remplissage, corticoïdes, délais, dépistage, bithérapie) et de la SSC 2021 pour les formulations exactes ; (2) bornes du tableau SOFA ; (3) dose et unité de la noradrénaline selon le protocole local (marqueur) ; (4) méropénem 2 g/8 h proposé par l'OMS pour les infections intra-abdominales à BLSE (dose « méningée » : vérifier la dose usuelle selon le RCP) ; (5) données algériennes de résistance (BLSE, carbapénémases, SARM) et protocoles nationaux d'antibiothérapie.

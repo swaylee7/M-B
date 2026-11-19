@@ -44,8 +44,7 @@
         "sources": [
           "https://shop.elsevier.com/books/millers-anesthesia-2-volume-set/gropper/978-0-323-93592-0",
           "https://inspectioncopy.elsevier.com/book/details/9780323935920",
-          "https://www.us.elsevierhealth.com/millers-anesthesia-2-volume-set-e-book-9780323936521.html",
-          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101762538"
+          "https://www.us.elsevierhealth.com/millers-anesthesia-2-volume-set-e-book-9780323936521.html"
         ],
         "date": "2026-11-19",
         "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
@@ -294,8 +293,7 @@
         "sources": [
           "https://shop.elsevier.com/books/rosens-emergency-medicine-concepts-and-clinical-practice/walls/978-0-323-75789-8",
           "https://evolve.elsevier.com/cs/product/9780323757898",
-          "https://www.us.elsevierhealth.com/rosens-emergency-medicine-concepts-and-clinical-practice-9780323757898.html",
-          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101696768"
+          "https://www.us.elsevierhealth.com/rosens-emergency-medicine-concepts-and-clinical-practice-9780323757898.html"
         ],
         "date": "2026-11-19",
         "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
@@ -362,12 +360,15 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://www.mheducation.com/highered/mhp/product/tintinalli-s-emergency-medicine-comprehensive-study-guide-9th-edition.html",
+          "https://www.ecampus.com/tintinallis-emergency-medicine-9th/bk/9781260019933",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101762756"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible. | Audit AUD-04 (2026-11-19) : 9e édition (McGraw Hill, © 2019/2020, ISBN 9781260019933, eBook 9781260019940) toujours la plus récente repérée sur la page éditeur ; aucune 10e édition trouvée par recherche web."
     },
     {
       "id": "OUV-0657",
@@ -380,7 +381,8 @@
       "annee": 2019,
       "editeur_commercial": "McGraw-Hill Education",
       "isbn": [
-        "9781259859618"
+        "9781259859618",
+        "9781259859595"
       ],
       "langue": "en",
       "specialites": [
@@ -408,12 +410,32 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://www.mhprofessional.com/goldfrank-s-toxicologic-emergencies-eleventh-edition-9781259859618-usa",
+          "https://www.mheducation.com/highered/mhp/product/goldfrank-s-toxicologic-emergencies-twelfth-edition.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101719808"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : 11e édition (McGraw Hill, mars–avril 2019, ISBN 9781259859618, eText 9781259859595 ; L. S. Nelson, M. A. Howland, N. A. Lewin, S. W. Smith, L. R. Goldfrank, R. S. Hoffman) confirmée ; McGraw Hill publie une page produit pour une 12e édition dont la date et l'ISBN n'ont pas pu être relevés — à vérifier (édition plus récente probable). | Notes antérieures (avant audit) : Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "11e",
+        "annee": 2019,
+        "isbn": [
+          "9781259859618"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101719808"
+        ]
+      },
+      "edition_annoncee": {
+        "edition": "12e",
+        "annee": null,
+        "isbn": null,
+        "statut": "page produit McGraw Hill « Goldfrank's Toxicologic Emergencies, Twelfth Edition » existante ; date et ISBN non relevés en session"
+      }
     },
     {
       "id": "OUV-0658",
@@ -552,13 +574,15 @@
       "titre": "Marino's The ICU Book",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Marino Paul L"
+        "Marino PL"
       ],
-      "edition": "4e",
-      "annee": 2014,
-      "editeur_commercial": "Wolters Kluwer Health/Lippincott Williams & Wilkins",
+      "edition": "5e",
+      "annee": 2024,
+      "editeur_commercial": "Wolters Kluwer",
       "isbn": [
-        "9781451121186"
+        "9781975176709",
+        "9781975176402",
+        "9781975286224"
       ],
       "langue": "en",
       "specialites": [
@@ -566,7 +590,12 @@
       ],
       "niveau": "manuel_etudiant",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "4e",
+        "annee": 2014,
+        "isbn": "9781451121186",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -578,31 +607,49 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.lww.com/Marino-s-The-ICU-Book--Print---eBook-with-Updates/p/9781975176709",
+          "https://www.wolterskluwer.com/en/solutions/ovid/icu-book--the-753",
+          "https://www.lehmanns.ch/shop/medizin-pharmazie/62316696-9781975176402-marino-s-the-icu-book"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 4e (2014) → 5e (2024) (trace complète dans edition_cataloguee_avant_audit). 5e édition confirmée (Wolters Kluwer/LWW, 2024 — 14/11/2024 selon un libraire), « Print + eBook with Updates » ISBN 9781975176709, édition internationale 9781975176402, eBook VitalSource 9781975286224 ; auteur P. L. Marino. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 5e édition (Wolters Kluwer) est possiblement parue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "4e",
+        "annee": 2014,
+        "isbn": [
+          "9781451121186"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101617829"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 5e édition (Wolters Kluwer) est possiblement parue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "editeur_commercial": "Wolters Kluwer Health/Lippincott Williams & Wilkins",
+        "auteurs_editeurs": [
+          "Marino Paul L"
+        ]
+      }
     },
     {
       "id": "OUV-0662",
       "titre": "Textbook of Critical Care (Vincent, Abraham, Moore, Kochanek, Fink)",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Fink M P",
-        "Vincent J L",
-        "Abraham Edward",
-        "Moore Frederick A",
-        "Kochanek Patrick"
+        "Vincent JL",
+        "Moore FA",
+        "Bellomo R",
+        "Marini JJ"
       ],
-      "edition": "7e",
-      "annee": 2017,
+      "edition": "8e",
+      "annee": 2023,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323376389"
+        "9780323759298",
+        "9780323759304"
       ],
       "langue": "en",
       "specialites": [
@@ -611,9 +658,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "6e",
-        "annee": 2011,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101556131"
+        "edition": "7e",
+        "annee": 2017,
+        "isbn": "9780323376389",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -626,14 +674,40 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/textbook-of-critical-care/vincent/978-0-323-75929-8",
+          "https://inspectioncopy.elsevier.com/book/details/9780323759298",
+          "https://libcat.library.tamu.edu/Record/in00004535378/Description"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 7e (2017) → 8e (2023) (trace complète dans edition_cataloguee_avant_audit). 8e édition confirmée (Elsevier ; 10/02/2023 selon la plupart des fiches éditeur, shop.elsevier.com indique 01/05/2022 ; 1358 p.), ISBN 9780323759298 (ISBN-10 0323759297), eBook 9780323759304 ; éditeurs J.-L. Vincent, F. A. Moore, R. Bellomo, J. J. Marini (Abraham, Kochanek et Fink étaient éditeurs de la 7e). | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2023/2024) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "7e",
+        "annee": 2017,
+        "isbn": [
+          "9780323376389"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101673501"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2023/2024) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Fink M P",
+          "Vincent J L",
+          "Abraham Edward",
+          "Moore Frederick A",
+          "Kochanek Patrick"
+        ],
+        "edition_precedente": {
+          "edition": "6e",
+          "annee": 2011,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101556131"
+        }
+      }
     },
     {
       "id": "OUV-0663",
@@ -811,12 +885,15 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/grainger-and-allisons-diagnostic-radiology/adam/978-0-7020-7524-7",
+          "https://eld.bl.uk/catalog/020015933",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101772527"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible. | Audit AUD-04 (2026-11-19) : 7e édition (Elsevier, 25/05/2020 selon l'éditeur — tirage 2021 ; éd. A. Adam, A. K. Dixon, J. H. Gillard, C. Schaefer-Prokop ; ISBN 9780702075247) présentée par Elsevier comme dernière édition ; aucune 8e édition repérée."
     },
     {
       "id": "OUV-0667",
@@ -1720,15 +1797,15 @@
       "titre": "Spitz and Fisher's Medicolegal Investigation of Death",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Spitz Werner U",
-        "Spitz Daniel J",
-        "Fisher Russell S"
+        "Spitz WU",
+        "Diaz FJ"
       ],
-      "edition": "4e",
-      "annee": 2006,
-      "editeur_commercial": "Charles C. Thomas Publisher",
+      "edition": "5e",
+      "annee": 2020,
+      "editeur_commercial": "Charles C Thomas",
       "isbn": [
-        "9780398075446"
+        "9780398093129",
+        "9780398093136"
       ],
       "langue": "en",
       "specialites": [
@@ -1737,9 +1814,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "3e",
-        "annee": 1993,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9209995"
+        "edition": "4e",
+        "annee": 2006,
+        "isbn": "9780398075446",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -1751,14 +1829,39 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://test.blackwells.co.uk/bookshop/product/Spitz-and-Fishers-Medicolegal-Investigation-of-Death-by-Werner-U-Spitz-editor-Francisco-J-Diaz-editor-Russell-S-Fisher-past-editor/9780398093129",
+          "https://find.mtsu.edu/vufind/Record/in00006021371",
+          "https://libcat.library.tamu.edu/Record/in00004542602"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 4e (2006) → 5e (2020) (trace complète dans edition_cataloguee_avant_audit). 5e édition confirmée (Charles C Thomas, 2020 — relié 01/07/2020, xxix-727 p.), ISBN 9780398093129, eBook 9780398093136 ; éditeurs W. U. Spitz, F. J. Diaz. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 5e édition (Charles C Thomas, 2020) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "4e",
+        "annee": 2006,
+        "isbn": [
+          "9780398075446"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101230631"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 5e édition (Charles C Thomas, 2020) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "editeur_commercial": "Charles C. Thomas Publisher",
+        "auteurs_editeurs": [
+          "Spitz Werner U",
+          "Spitz Daniel J",
+          "Fisher Russell S"
+        ],
+        "edition_precedente": {
+          "edition": "3e",
+          "annee": 1993,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9209995"
+        }
+      }
     },
     {
       "id": "OUV-0688",
@@ -2067,16 +2170,17 @@
       "titre": "Oxford Textbook of Global Public Health",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Detels Roger",
-        "Gulliford Martin",
+        "Detels R",
         "Abdool Karim Q",
-        "Tan Chorh Chuan"
+        "Baum F",
+        "Li L",
+        "Leyland AH"
       ],
-      "edition": "6e",
-      "annee": 2015,
+      "edition": "7e",
+      "annee": 2021,
       "editeur_commercial": "Oxford University Press",
       "isbn": [
-        "9780199661756"
+        "9780198816805"
       ],
       "langue": "en",
       "specialites": [
@@ -2085,7 +2189,12 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "6e",
+        "annee": 2015,
+        "isbn": "9780199661756",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -2097,14 +2206,34 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://ph.ucla.edu/news-events/magazine/faculty-books/oxford-textbook-global-public-health-seventh-edition",
+          "https://eprints.gla.ac.uk/257050",
+          "https://lehmanns.de/shop/medizin-pharmazie/62399447-9780198816805-oxford-textbook-of-global-public-health"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 6e (2015) → 7e (2021) (trace complète dans edition_cataloguee_avant_audit). 7e édition confirmée (Oxford University Press, 2021 — certaines fiches : février 2022 ; 3 volumes, 1888 p.), ISBN 9780198816805 ; éditeurs R. Detels, Q. Abdool Karim, F. Baum, L. Li, A. H. Leyland. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 7e édition (Oxford University Press, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "6e",
+        "annee": 2015,
+        "isbn": [
+          "9780199661756"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101667854"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 7e édition (Oxford University Press, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Detels Roger",
+          "Gulliford Martin",
+          "Abdool Karim Q",
+          "Tan Chorh Chuan"
+        ]
+      }
     },
     {
       "id": "OUV-0696",
@@ -2659,18 +2788,14 @@
       "titre": "Braddom's Physical Medicine & Rehabilitation",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Cifu David X",
-        "Kaelin Darryl L",
-        "Kowalske Karen J",
-        "Lew Henry L",
-        "Miller Michelle A",
-        "Ragnarsson Kristjan T"
+        "Cifu DX"
       ],
-      "edition": "5e",
-      "annee": 2016,
+      "edition": "7e",
+      "annee": 2025,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323280464"
+        "9780443264382",
+        "9780443287688"
       ],
       "langue": "en",
       "specialites": [
@@ -2678,7 +2803,13 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "6e",
+        "annee": null,
+        "isbn": "9780323625395",
+        "remarque": "6e édition (ISBN d'après l'URL shop.elsevier.com) entre la 5e (cataloguée avant audit) et la 7e ; année non vérifiée",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -2690,14 +2821,36 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/braddoms-physical-medicine-and-rehabilitation/cifu/978-0-443-26438-2",
+          "https://evolve.elsevier.com/cs/product/9780443264382?role=student",
+          "https://www.livres-medicaux.com/medecine-de-reeducation/63511-braddom-s-physical-medicine-and-rehabilitation-7.html"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
+      },
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 5e (2016) → 7e (2025) (trace complète dans edition_cataloguee_avant_audit). 7e édition confirmée (Elsevier, 05/12/2025, copyright 2026, ~1445 p. ; présentée comme dernière édition), ISBN 9780443264382 (ISBN-10 0443264384), eBook 9780443287688 ; éditeur D. X. Cifu. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 6e édition (Elsevier, 2020/2021) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "5e",
+        "annee": 2016,
+        "isbn": [
+          "9780323280464"
+        ],
+        "statut_verification": "partiel",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101661686"
         ],
-        "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
-      },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 6e édition (Elsevier, 2020/2021) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+        "auteurs_editeurs": [
+          "Cifu David X",
+          "Kaelin Darryl L",
+          "Kowalske Karen J",
+          "Lew Henry L",
+          "Miller Michelle A",
+          "Ragnarsson Kristjan T"
+        ]
+      }
     },
     {
       "id": "OUV-0709",
@@ -2834,7 +2987,7 @@
       "agent": "AUD-04",
       "date": "2026-11-19",
       "objet": "audit des éditions (dernière édition, année, ISBN) et fusion des doublons",
-      "entrees_auditees": 2,
+      "entrees_auditees": 10,
       "entrees_retirees_doublons": 0,
       "sauvegarde": "00_SYSTEME/sauvegardes/20261119/24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-transversales.avant_audit_AUD-04.json"
     }
