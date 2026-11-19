@@ -270,7 +270,7 @@ Infection HPV à haut risque des cellules basales de la zone de transformation
 | **Cofacteurs** | Tabac, immunodépression (VIH), contraception orale prolongée, multiparité, co-infections génitales |
 | **Exposition** | Premiers rapports précoces, partenaires multiples, partenaire à risque |
 | **Accès aux soins** | **Absence ou irrégularité du dépistage**, faible niveau socio-économique, résidence rurale éloignée des structures |
-| **Particularités** | Adénocarcinomes : moins liés au tabac, plus souvent liés à HPV 18 ; certains sont **HPV-indépendants** (type gastrique, à cellules claires, mésonéphrique) [S10 — À VÉRIFIER] |
+| **Particularités** | Adénocarcinomes : moins liés au tabac, plus souvent liés à HPV 18 ; certains sont **HPV-indépendants** (type gastrique, à cellules claires, mésonéphrique) [S9, S10] |
 
 ## 7. Classifications et anatomie pathologique
 
@@ -287,7 +287,7 @@ Infection HPV à haut risque des cellules basales de la zone de transformation
 
 - L'**immunohistochimie p16** (marquage diffus « en bloc ») aide à classer les CIN 2 douteuses en HSIL (terminologie LAST) [À VÉRIFIER].
 
-### 7.2 Cancers invasifs (classification OMS, 5e édition 2020) [S10 — À VÉRIFIER]
+### 7.2 Cancers invasifs (classification OMS, 5e édition 2020) [S10]
 
 | Type histologique | Fréquence | Caractéristiques |
 |---|---|---|

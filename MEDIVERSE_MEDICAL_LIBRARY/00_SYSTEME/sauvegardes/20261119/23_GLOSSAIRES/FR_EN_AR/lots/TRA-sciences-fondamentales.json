@@ -1,0 +1,5517 @@
+{
+  "agent": "TRA-02",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-02000",
+      "fr": "physiologie",
+      "en": "physiology",
+      "ar": "علم وظائف الأعضاء",
+      "ar_variantes": [
+        "الفيزيولوجيا"
+      ],
+      "definition_fr": "Science qui étudie le fonctionnement normal des organismes vivants.",
+      "categorie": "general",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02001",
+      "fr": "homéostasie",
+      "en": "homeostasis",
+      "ar": "الاستتباب",
+      "ar_variantes": [
+        "التوازن الداخلي"
+      ],
+      "definition_fr": "Maintien de la constance des paramètres du milieu intérieur.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02002",
+      "fr": "milieu intérieur",
+      "en": "internal environment",
+      "ar": "البيئة الداخلية",
+      "ar_variantes": [
+        "الوسط الداخلي"
+      ],
+      "definition_fr": "Liquide extracellulaire dans lequel baignent les cellules de l'organisme.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02003",
+      "fr": "compartiments liquidiens",
+      "en": "body fluid compartments",
+      "ar": "أحياز سوائل الجسم",
+      "ar_variantes": [],
+      "definition_fr": "Répartition de l'eau corporelle entre secteurs intracellulaire et extracellulaire (interstitiel et plasmatique).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02004",
+      "fr": "liquide extracellulaire",
+      "en": "extracellular fluid",
+      "ar": "السائل خارج الخلوي",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des liquides situés hors des cellules, environ un tiers de l'eau totale.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02005",
+      "fr": "liquide intracellulaire",
+      "en": "intracellular fluid",
+      "ar": "السائل داخل الخلوي",
+      "ar_variantes": [],
+      "definition_fr": "Eau contenue dans les cellules, environ deux tiers de l'eau totale.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02006",
+      "fr": "osmolarité",
+      "en": "osmolarity",
+      "ar": "الأُسمولية",
+      "ar_variantes": [
+        "التناضحية"
+      ],
+      "definition_fr": "Concentration en particules osmotiquement actives par litre de solution.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02007",
+      "fr": "pression osmotique",
+      "en": "osmotic pressure",
+      "ar": "الضغط التناضحي",
+      "ar_variantes": [
+        "الضغط الأسموزي"
+      ],
+      "definition_fr": "Pression nécessaire pour s'opposer au passage d'eau à travers une membrane semi-perméable.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02008",
+      "fr": "pression oncotique",
+      "en": "oncotic pressure",
+      "ar": "الضغط الغرواني",
+      "ar_variantes": [],
+      "definition_fr": "Pression osmotique exercée par les protéines plasmatiques, retenant l'eau dans les vaisseaux.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02009",
+      "fr": "diffusion",
+      "en": "diffusion",
+      "ar": "الانتشار",
+      "ar_variantes": [],
+      "definition_fr": "Déplacement passif de molécules selon leur gradient de concentration.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02010",
+      "fr": "transport actif",
+      "en": "active transport",
+      "ar": "النقل الفاعل",
+      "ar_variantes": [
+        "النقل النشط"
+      ],
+      "definition_fr": "Transport transmembranaire contre un gradient, consommant de l'énergie.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02011",
+      "fr": "pompe sodium-potassium",
+      "en": "sodium-potassium pump",
+      "ar": "مضخة الصوديوم والبوتاسيوم",
+      "ar_variantes": [],
+      "definition_fr": "ATPase membranaire expulsant trois ions sodium et faisant entrer deux ions potassium.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02012",
+      "fr": "potentiel de repos",
+      "en": "resting membrane potential",
+      "ar": "كمون الراحة",
+      "ar_variantes": [
+        "جهد الراحة"
+      ],
+      "definition_fr": "Différence de potentiel transmembranaire d'une cellule excitable au repos.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02013",
+      "fr": "potentiel d'action",
+      "en": "action potential",
+      "ar": "كمون الفعل",
+      "ar_variantes": [
+        "جهد الفعل"
+      ],
+      "definition_fr": "Inversion brève et propagée du potentiel membranaire d'une cellule excitable.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02014",
+      "fr": "dépolarisation",
+      "en": "depolarization",
+      "ar": "إزالة الاستقطاب",
+      "ar_variantes": [],
+      "definition_fr": "Diminution de la différence de potentiel transmembranaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02015",
+      "fr": "repolarisation",
+      "en": "repolarization",
+      "ar": "عودة الاستقطاب",
+      "ar_variantes": [],
+      "definition_fr": "Retour du potentiel membranaire à sa valeur de repos après dépolarisation.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02016",
+      "fr": "période réfractaire",
+      "en": "refractory period",
+      "ar": "فترة الجُموح",
+      "ar_variantes": [
+        "فترة العصيان"
+      ],
+      "definition_fr": "Intervalle suivant un potentiel d'action pendant lequel la cellule est inexcitable ou moins excitable.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02017",
+      "fr": "seuil d'excitation",
+      "en": "excitation threshold",
+      "ar": "العتبة",
+      "ar_variantes": [],
+      "definition_fr": "Valeur de dépolarisation à partir de laquelle un potentiel d'action est déclenché.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02018",
+      "fr": "conduction saltatoire",
+      "en": "saltatory conduction",
+      "ar": "التوصيل القفزي",
+      "ar_variantes": [],
+      "definition_fr": "Propagation de l'influx de nœud de Ranvier en nœud le long d'un axone myélinisé.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02019",
+      "fr": "neurotransmetteur",
+      "en": "neurotransmitter",
+      "ar": "الناقل العصبي",
+      "ar_variantes": [],
+      "definition_fr": "Substance libérée par une terminaison nerveuse et agissant sur une cellule cible.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02020",
+      "fr": "acétylcholine",
+      "en": "acetylcholine",
+      "ar": "الأسيتيل كولين",
+      "ar_variantes": [],
+      "definition_fr": "Neurotransmetteur de la jonction neuromusculaire et du système parasympathique.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02021",
+      "fr": "noradrénaline",
+      "en": "norepinephrine",
+      "ar": "النورأدرينالين",
+      "ar_variantes": [
+        "النورإبينفرين"
+      ],
+      "definition_fr": "Catécholamine neurotransmettrice du système sympathique et hormone médullosurrénalienne.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02022",
+      "fr": "dopamine",
+      "en": "dopamine",
+      "ar": "الدوبامين",
+      "ar_variantes": [],
+      "definition_fr": "Catécholamine neurotransmettrice impliquée dans la motricité, la récompense et la prolactine.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02023",
+      "fr": "sérotonine",
+      "en": "serotonin",
+      "ar": "السيروتونين",
+      "ar_variantes": [],
+      "definition_fr": "Monoamine neurotransmettrice impliquée dans l'humeur, le sommeil et la motricité digestive.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02024",
+      "fr": "acide gamma-aminobutyrique",
+      "en": "gamma-aminobutyric acid",
+      "ar": "حمض غاما أمينوبوتيريك",
+      "ar_variantes": [],
+      "definition_fr": "Principal neurotransmetteur inhibiteur du système nerveux central (GABA).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02025",
+      "fr": "récepteur",
+      "en": "receptor",
+      "ar": "المستقبِل",
+      "ar_variantes": [],
+      "definition_fr": "Structure protéique fixant spécifiquement un ligand et déclenchant une réponse cellulaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02026",
+      "fr": "réflexe",
+      "en": "reflex",
+      "ar": "المنعكس",
+      "ar_variantes": [
+        "الانعكاس"
+      ],
+      "definition_fr": "Réponse motrice ou sécrétoire involontaire et stéréotypée à un stimulus.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02027",
+      "fr": "arc réflexe",
+      "en": "reflex arc",
+      "ar": "القوس الانعكاسية",
+      "ar_variantes": [],
+      "definition_fr": "Circuit nerveux d'un réflexe : récepteur, voie afférente, centre, voie efférente, effecteur.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02028",
+      "fr": "réflexe myotatique",
+      "en": "stretch reflex",
+      "ar": "منعكس التمطط",
+      "ar_variantes": [
+        "المنعكس العضلي"
+      ],
+      "definition_fr": "Contraction réflexe d'un muscle en réponse à son étirement.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02029",
+      "fr": "tonus musculaire",
+      "en": "muscle tone",
+      "ar": "المقوية العضلية",
+      "ar_variantes": [
+        "التوتر العضلي"
+      ],
+      "definition_fr": "État de contraction permanente et involontaire des muscles au repos.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02030",
+      "fr": "contraction musculaire",
+      "en": "muscle contraction",
+      "ar": "التقلص العضلي",
+      "ar_variantes": [],
+      "definition_fr": "Raccourcissement ou mise en tension d'un muscle par glissement des filaments d'actine et de myosine.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02031",
+      "fr": "unité motrice",
+      "en": "motor unit",
+      "ar": "الوحدة الحركية",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble formé par un motoneurone et les fibres musculaires qu'il innerve.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02032",
+      "fr": "couplage excitation-contraction",
+      "en": "excitation-contraction coupling",
+      "ar": "اقتران الإثارة بالتقلص",
+      "ar_variantes": [],
+      "definition_fr": "Mécanisme reliant le potentiel d'action musculaire à la contraction via la libération de calcium.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02033",
+      "fr": "sommeil paradoxal",
+      "en": "REM sleep",
+      "ar": "نوم حركات العين السريعة",
+      "ar_variantes": [
+        "النوم المتناقض"
+      ],
+      "definition_fr": "Stade de sommeil avec activité corticale rapide, atonie musculaire et mouvements oculaires rapides.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02034",
+      "fr": "rythme circadien",
+      "en": "circadian rhythm",
+      "ar": "النَّظْم اليوماوي",
+      "ar_variantes": [
+        "الإيقاع اليومي"
+      ],
+      "definition_fr": "Variation biologique cyclique d'une période voisine de 24 heures.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02035",
+      "fr": "accommodation",
+      "en": "accommodation",
+      "ar": "المطابقة",
+      "ar_variantes": [
+        "التكيف البصري"
+      ],
+      "definition_fr": "Modification de la puissance du cristallin permettant la vision nette de près.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "OPHT",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02036",
+      "fr": "acuité visuelle",
+      "en": "visual acuity",
+      "ar": "حدّة البصر",
+      "ar_variantes": [],
+      "definition_fr": "Capacité de l'œil à discriminer deux points proches.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02037",
+      "fr": "champ visuel",
+      "en": "visual field",
+      "ar": "الساحة البصرية",
+      "ar_variantes": [
+        "المجال البصري"
+      ],
+      "definition_fr": "Portion de l'espace perçue par l'œil immobile.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02038",
+      "fr": "audition",
+      "en": "hearing",
+      "ar": "السمع",
+      "ar_variantes": [],
+      "definition_fr": "Fonction de perception des sons.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02039",
+      "fr": "équilibration",
+      "en": "balance",
+      "ar": "التوازن",
+      "ar_variantes": [],
+      "definition_fr": "Fonction maintenant la posture et l'orientation du corps dans l'espace.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02040",
+      "fr": "olfaction",
+      "en": "olfaction",
+      "ar": "الشمّ",
+      "ar_variantes": [],
+      "definition_fr": "Fonction de perception des odeurs.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02041",
+      "fr": "gustation",
+      "en": "gustation",
+      "ar": "الذوق",
+      "ar_variantes": [],
+      "definition_fr": "Fonction de perception des saveurs.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02042",
+      "fr": "nociception",
+      "en": "nociception",
+      "ar": "استقبال الألم",
+      "ar_variantes": [],
+      "definition_fr": "Détection et transmission des stimulus potentiellement lésionnels.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02043",
+      "fr": "débit cardiaque",
+      "en": "cardiac output",
+      "ar": "النتاج القلبي",
+      "ar_variantes": [
+        "الناتج القلبي"
+      ],
+      "definition_fr": "Volume de sang éjecté par un ventricule par minute (fréquence cardiaque × volume d'éjection systolique).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02044",
+      "fr": "fréquence cardiaque",
+      "en": "heart rate",
+      "ar": "معدّل القلب",
+      "ar_variantes": [
+        "سرعة القلب"
+      ],
+      "definition_fr": "Nombre de contractions cardiaques par minute.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02045",
+      "fr": "volume d'éjection systolique",
+      "en": "stroke volume",
+      "ar": "الحجم الضربي",
+      "ar_variantes": [
+        "حجم الدفقة"
+      ],
+      "definition_fr": "Volume de sang éjecté par un ventricule à chaque systole.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02046",
+      "fr": "fraction d'éjection",
+      "en": "ejection fraction",
+      "ar": "الكسر القذفي",
+      "ar_variantes": [],
+      "definition_fr": "Rapport du volume d'éjection systolique au volume télédiastolique ventriculaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02047",
+      "fr": "précharge",
+      "en": "preload",
+      "ar": "الحمل المسبق",
+      "ar_variantes": [],
+      "definition_fr": "Degré d'étirement des fibres ventriculaires en fin de diastole.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02048",
+      "fr": "postcharge",
+      "en": "afterload",
+      "ar": "الحمل اللاحق",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des forces s'opposant à l'éjection ventriculaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02049",
+      "fr": "loi de Frank-Starling",
+      "en": "Frank-Starling law",
+      "ar": "قانون فرانك ستارلنغ",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de la force de contraction ventriculaire avec l'étirement télédiastolique.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02050",
+      "fr": "systole",
+      "en": "systole",
+      "ar": "الانقباض",
+      "ar_variantes": [],
+      "definition_fr": "Phase de contraction du cycle cardiaque.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02051",
+      "fr": "diastole",
+      "en": "diastole",
+      "ar": "الانبساط",
+      "ar_variantes": [],
+      "definition_fr": "Phase de relaxation et de remplissage du cycle cardiaque.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02052",
+      "fr": "cycle cardiaque",
+      "en": "cardiac cycle",
+      "ar": "الدورة القلبية",
+      "ar_variantes": [],
+      "definition_fr": "Succession des phases mécaniques et électriques d'un battement cardiaque.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02053",
+      "fr": "pression artérielle",
+      "en": "blood pressure",
+      "ar": "ضغط الدم",
+      "ar_variantes": [
+        "الضغط الشرياني"
+      ],
+      "definition_fr": "Pression exercée par le sang sur la paroi des artères.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02054",
+      "fr": "pression artérielle moyenne",
+      "en": "mean arterial pressure",
+      "ar": "متوسط الضغط الشرياني",
+      "ar_variantes": [],
+      "definition_fr": "Pression de perfusion moyenne des organes au cours du cycle cardiaque.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02055",
+      "fr": "résistances vasculaires périphériques",
+      "en": "peripheral vascular resistance",
+      "ar": "المقاومة الوعائية المحيطية",
+      "ar_variantes": [],
+      "definition_fr": "Opposition à l'écoulement sanguin exercée principalement par les artérioles.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02056",
+      "fr": "baroréflexe",
+      "en": "baroreflex",
+      "ar": "منعكس مستقبلات الضغط",
+      "ar_variantes": [],
+      "definition_fr": "Régulation réflexe rapide de la pression artérielle à partir des barorécepteurs carotidiens et aortiques.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02057",
+      "fr": "automatisme cardiaque",
+      "en": "cardiac automaticity",
+      "ar": "التلقائية القلبية",
+      "ar_variantes": [],
+      "definition_fr": "Propriété du tissu nodal de générer spontanément des potentiels d'action.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02058",
+      "fr": "circulation systémique",
+      "en": "systemic circulation",
+      "ar": "الدوران الجهازي",
+      "ar_variantes": [
+        "الدورة الدموية الكبرى"
+      ],
+      "definition_fr": "Circuit sanguin allant du ventricule gauche aux tissus puis à l'oreillette droite.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02059",
+      "fr": "circulation pulmonaire",
+      "en": "pulmonary circulation",
+      "ar": "الدوران الرئوي",
+      "ar_variantes": [
+        "الدورة الدموية الصغرى"
+      ],
+      "definition_fr": "Circuit sanguin allant du ventricule droit aux poumons puis à l'oreillette gauche.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02060",
+      "fr": "microcirculation",
+      "en": "microcirculation",
+      "ar": "الدوران الدقيق",
+      "ar_variantes": [],
+      "definition_fr": "Circulation dans les artérioles, capillaires et veinules.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02061",
+      "fr": "système rénine-angiotensine-aldostérone",
+      "en": "renin-angiotensin-aldosterone system",
+      "ar": "جهاز الرينين والأنجيوتنسين والألدوستيرون",
+      "ar_variantes": [],
+      "definition_fr": "Cascade hormonale régulant la volémie, la natrémie et la pression artérielle.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02062",
+      "fr": "ventilation pulmonaire",
+      "en": "pulmonary ventilation",
+      "ar": "التهوية الرئوية",
+      "ar_variantes": [],
+      "definition_fr": "Renouvellement de l'air alvéolaire par les mouvements respiratoires.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02063",
+      "fr": "hématose",
+      "en": "gas exchange",
+      "ar": "تبادل الغازات",
+      "ar_variantes": [
+        "التبادل الغازي"
+      ],
+      "definition_fr": "Échange d'oxygène et de gaz carbonique entre l'air alvéolaire et le sang capillaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02064",
+      "fr": "inspiration",
+      "en": "inspiration",
+      "ar": "الشهيق",
+      "ar_variantes": [],
+      "definition_fr": "Phase active de la ventilation faisant entrer l'air dans les poumons.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02065",
+      "fr": "expiration",
+      "en": "expiration",
+      "ar": "الزفير",
+      "ar_variantes": [],
+      "definition_fr": "Phase de la ventilation faisant sortir l'air des poumons, passive au repos.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02066",
+      "fr": "volume courant",
+      "en": "tidal volume",
+      "ar": "الحجم المدّي",
+      "ar_variantes": [
+        "حجم الهواء الجاري"
+      ],
+      "definition_fr": "Volume d'air mobilisé à chaque cycle respiratoire de repos.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02067",
+      "fr": "capacité vitale",
+      "en": "vital capacity",
+      "ar": "السعة الحيوية",
+      "ar_variantes": [],
+      "definition_fr": "Volume maximal mobilisable entre une inspiration et une expiration forcées.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02068",
+      "fr": "capacité pulmonaire totale",
+      "en": "total lung capacity",
+      "ar": "السعة الرئوية الكلية",
+      "ar_variantes": [],
+      "definition_fr": "Volume d'air contenu dans les poumons en fin d'inspiration forcée.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02069",
+      "fr": "volume résiduel",
+      "en": "residual volume",
+      "ar": "الحجم المتبقي",
+      "ar_variantes": [
+        "الحجم الثمالي"
+      ],
+      "definition_fr": "Volume d'air restant dans les poumons après une expiration forcée.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02070",
+      "fr": "volume expiratoire maximal par seconde",
+      "en": "forced expiratory volume in one second",
+      "ar": "الحجم الزفيري الأقصى في الثانية الأولى",
+      "ar_variantes": [],
+      "definition_fr": "Volume expiré pendant la première seconde d'une expiration forcée, abaissé dans l'obstruction bronchique.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02071",
+      "fr": "compliance pulmonaire",
+      "en": "lung compliance",
+      "ar": "المطاوعة الرئوية",
+      "ar_variantes": [],
+      "definition_fr": "Variation de volume pulmonaire par unité de variation de pression, reflet de la distensibilité.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02072",
+      "fr": "espace mort",
+      "en": "dead space",
+      "ar": "الحيز الميت",
+      "ar_variantes": [],
+      "definition_fr": "Volume des voies aériennes ventilé mais ne participant pas aux échanges gazeux.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02073",
+      "fr": "rapport ventilation/perfusion",
+      "en": "ventilation-perfusion ratio",
+      "ar": "نسبة التهوية إلى التروية",
+      "ar_variantes": [],
+      "definition_fr": "Rapport entre ventilation alvéolaire et débit sanguin capillaire pulmonaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02074",
+      "fr": "pression partielle",
+      "en": "partial pressure",
+      "ar": "الضغط الجزئي",
+      "ar_variantes": [],
+      "definition_fr": "Pression exercée par un gaz donné dans un mélange gazeux ou dissous dans un liquide.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02075",
+      "fr": "courbe de dissociation de l'hémoglobine",
+      "en": "oxyhemoglobin dissociation curve",
+      "ar": "منحنى تفارق الأكسجين والهيموغلوبين",
+      "ar_variantes": [],
+      "definition_fr": "Relation sigmoïde entre pression partielle en oxygène et saturation de l'hémoglobine.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02076",
+      "fr": "chémorécepteur",
+      "en": "chemoreceptor",
+      "ar": "المستقبِل الكيميائي",
+      "ar_variantes": [],
+      "definition_fr": "Récepteur sensible à la composition chimique du milieu (O2, CO2, pH).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02077",
+      "fr": "filtration glomérulaire",
+      "en": "glomerular filtration",
+      "ar": "الترشيح الكبيبي",
+      "ar_variantes": [],
+      "definition_fr": "Passage d'un ultrafiltrat plasmatique du capillaire glomérulaire vers la chambre urinaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02078",
+      "fr": "débit de filtration glomérulaire",
+      "en": "glomerular filtration rate",
+      "ar": "معدّل الترشيح الكبيبي",
+      "ar_variantes": [],
+      "definition_fr": "Volume de filtrat glomérulaire formé par unité de temps, indicateur de la fonction rénale.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02079",
+      "fr": "clairance",
+      "en": "clearance",
+      "ar": "التصفية",
+      "ar_variantes": [],
+      "definition_fr": "Volume virtuel de plasma totalement épuré d'une substance par unité de temps.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02080",
+      "fr": "réabsorption tubulaire",
+      "en": "tubular reabsorption",
+      "ar": "إعادة الامتصاص النبيبي",
+      "ar_variantes": [],
+      "definition_fr": "Retour vers le sang de substances filtrées par le glomérule.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02081",
+      "fr": "sécrétion tubulaire",
+      "en": "tubular secretion",
+      "ar": "الإفراز النبيبي",
+      "ar_variantes": [],
+      "definition_fr": "Passage actif de substances du sang péritubulaire vers la lumière tubulaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02082",
+      "fr": "diurèse",
+      "en": "diuresis",
+      "ar": "الإدرار",
+      "ar_variantes": [
+        "إدرار البول"
+      ],
+      "definition_fr": "Volume d'urine émis par unité de temps.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02083",
+      "fr": "miction",
+      "en": "micturition",
+      "ar": "التبوّل",
+      "ar_variantes": [],
+      "definition_fr": "Évacuation volontaire de l'urine contenue dans la vessie.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02084",
+      "fr": "hormone antidiurétique",
+      "en": "antidiuretic hormone",
+      "ar": "الهرمون المضاد لإدرار البول",
+      "ar_variantes": [
+        "الفازوبريسين"
+      ],
+      "definition_fr": "Hormone posthypophysaire favorisant la réabsorption d'eau par le tube collecteur.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02085",
+      "fr": "aldostérone",
+      "en": "aldosterone",
+      "ar": "الألدوستيرون",
+      "ar_variantes": [],
+      "definition_fr": "Minéralocorticoïde favorisant la réabsorption du sodium et l'excrétion du potassium.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02086",
+      "fr": "rénine",
+      "en": "renin",
+      "ar": "الرينين",
+      "ar_variantes": [],
+      "definition_fr": "Enzyme sécrétée par l'appareil juxtaglomérulaire, initiant la cascade de l'angiotensine.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02087",
+      "fr": "érythropoïétine",
+      "en": "erythropoietin",
+      "ar": "الإريثروبويتين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone rénale stimulant la production des globules rouges.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "NEPH",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02088",
+      "fr": "équilibre acido-basique",
+      "en": "acid-base balance",
+      "ar": "التوازن الحمضي القاعدي",
+      "ar_variantes": [],
+      "definition_fr": "Maintien du pH du milieu intérieur grâce aux tampons, au poumon et au rein.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOC",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02089",
+      "fr": "pH sanguin",
+      "en": "blood pH",
+      "ar": "الأس الهيدروجيني للدم",
+      "ar_variantes": [],
+      "definition_fr": "Mesure de l'acidité du sang, normalement comprise entre 7,38 et 7,42.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02090",
+      "fr": "système tampon",
+      "en": "buffer system",
+      "ar": "الجملة الدارئة",
+      "ar_variantes": [],
+      "definition_fr": "Couple acide faible/base conjuguée limitant les variations de pH.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02091",
+      "fr": "équation d'Henderson-Hasselbalch",
+      "en": "Henderson-Hasselbalch equation",
+      "ar": "معادلة هندرسون هاسلبالخ",
+      "ar_variantes": [],
+      "definition_fr": "Relation liant le pH au rapport base/acide d'un système tampon.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02092",
+      "fr": "digestion",
+      "en": "digestion",
+      "ar": "الهضم",
+      "ar_variantes": [],
+      "definition_fr": "Transformation mécanique et enzymatique des aliments en nutriments absorbables.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02093",
+      "fr": "absorption intestinale",
+      "en": "intestinal absorption",
+      "ar": "الامتصاص المعوي",
+      "ar_variantes": [],
+      "definition_fr": "Passage des nutriments de la lumière intestinale vers le sang ou la lymphe.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02094",
+      "fr": "péristaltisme",
+      "en": "peristalsis",
+      "ar": "التمعُّج",
+      "ar_variantes": [
+        "الحركة الدودية"
+      ],
+      "definition_fr": "Contractions propulsives coordonnées de la paroi du tube digestif.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02095",
+      "fr": "déglutition",
+      "en": "swallowing",
+      "ar": "البلع",
+      "ar_variantes": [],
+      "definition_fr": "Passage du bol alimentaire de la bouche à l'estomac.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02096",
+      "fr": "sécrétion gastrique",
+      "en": "gastric secretion",
+      "ar": "الإفراز المعدي",
+      "ar_variantes": [],
+      "definition_fr": "Production par l'estomac d'acide chlorhydrique, de pepsine, de mucus et de facteur intrinsèque.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02097",
+      "fr": "facteur intrinsèque",
+      "en": "intrinsic factor",
+      "ar": "العامل الداخلي",
+      "ar_variantes": [],
+      "definition_fr": "Glycoprotéine gastrique indispensable à l'absorption iléale de la vitamine B12.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02098",
+      "fr": "bile",
+      "en": "bile",
+      "ar": "الصفراء",
+      "ar_variantes": [],
+      "definition_fr": "Sécrétion hépatique contenant sels biliaires, bilirubine et cholestérol, nécessaire à la digestion des graisses.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02099",
+      "fr": "sels biliaires",
+      "en": "bile salts",
+      "ar": "الأملاح الصفراوية",
+      "ar_variantes": [],
+      "definition_fr": "Dérivés du cholestérol émulsionnant les graisses alimentaires.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HEPA",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02100",
+      "fr": "suc pancréatique",
+      "en": "pancreatic juice",
+      "ar": "العُصارة المعثكلية",
+      "ar_variantes": [
+        "العصارة البنكرياسية"
+      ],
+      "definition_fr": "Sécrétion exocrine pancréatique riche en enzymes digestives et en bicarbonates.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02101",
+      "fr": "gastrine",
+      "en": "gastrin",
+      "ar": "الغاسترين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone antrale stimulant la sécrétion acide gastrique.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02102",
+      "fr": "sécrétine",
+      "en": "secretin",
+      "ar": "السِّكْرِتين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone duodénale stimulant la sécrétion pancréatique de bicarbonates.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02103",
+      "fr": "cholécystokinine",
+      "en": "cholecystokinin",
+      "ar": "الكوليسيستوكينين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone duodénale stimulant la contraction vésiculaire et la sécrétion enzymatique pancréatique.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02104",
+      "fr": "cycle entéro-hépatique",
+      "en": "enterohepatic circulation",
+      "ar": "الدوران المعوي الكبدي",
+      "ar_variantes": [],
+      "definition_fr": "Réabsorption intestinale et retour au foie de substances excrétées dans la bile.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HEPA",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02105",
+      "fr": "défécation",
+      "en": "defecation",
+      "ar": "التغوّط",
+      "ar_variantes": [],
+      "definition_fr": "Évacuation des matières fécales par l'anus.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02106",
+      "fr": "hormone",
+      "en": "hormone",
+      "ar": "الهرمون",
+      "ar_variantes": [
+        "الحاثّة"
+      ],
+      "definition_fr": "Messager chimique sécrété dans le sang et agissant à distance sur des cellules cibles.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02107",
+      "fr": "rétrocontrôle",
+      "en": "feedback",
+      "ar": "التلقيم الراجع",
+      "ar_variantes": [
+        "التغذية الراجعة"
+      ],
+      "definition_fr": "Régulation d'une sécrétion par l'effet de son produit sur l'organe émetteur.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02108",
+      "fr": "insuline",
+      "en": "insulin",
+      "ar": "الإنسولين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone pancréatique hypoglycémiante favorisant l'entrée et le stockage du glucose.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "DIAB",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02109",
+      "fr": "glucagon",
+      "en": "glucagon",
+      "ar": "الغلوكاغون",
+      "ar_variantes": [],
+      "definition_fr": "Hormone pancréatique hyperglycémiante stimulant la glycogénolyse et la néoglucogenèse.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "DIAB",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02110",
+      "fr": "cortisol",
+      "en": "cortisol",
+      "ar": "الكورتيزول",
+      "ar_variantes": [],
+      "definition_fr": "Glucocorticoïde surrénalien intervenant dans le métabolisme, le stress et l'inflammation.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02111",
+      "fr": "adrénaline",
+      "en": "epinephrine",
+      "ar": "الأدرينالين",
+      "ar_variantes": [
+        "الإبينفرين"
+      ],
+      "definition_fr": "Catécholamine médullosurrénalienne de la réaction d'alarme.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02112",
+      "fr": "hormones thyroïdiennes",
+      "en": "thyroid hormones",
+      "ar": "الهرمونات الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Thyroxine (T4) et triiodothyronine (T3), régulatrices du métabolisme et de la croissance.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02113",
+      "fr": "thyréostimuline",
+      "en": "thyroid-stimulating hormone",
+      "ar": "الهرمون المنبه للدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Hormone antéhypophysaire stimulant la thyroïde (TSH).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02114",
+      "fr": "corticotrophine",
+      "en": "adrenocorticotropic hormone",
+      "ar": "الهرمون الموجه لقشر الكظر",
+      "ar_variantes": [],
+      "definition_fr": "Hormone antéhypophysaire stimulant la sécrétion de cortisol (ACTH).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02115",
+      "fr": "hormone de croissance",
+      "en": "growth hormone",
+      "ar": "هرمون النمو",
+      "ar_variantes": [],
+      "definition_fr": "Hormone antéhypophysaire stimulant la croissance staturale via l'IGF-1 (GH).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02116",
+      "fr": "prolactine",
+      "en": "prolactin",
+      "ar": "البرولاكتين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone antéhypophysaire stimulant la lactation.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02117",
+      "fr": "hormone folliculo-stimulante",
+      "en": "follicle-stimulating hormone",
+      "ar": "الهرمون المنبه للجريب",
+      "ar_variantes": [],
+      "definition_fr": "Gonadotrophine stimulant la croissance folliculaire et la spermatogenèse (FSH).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02118",
+      "fr": "hormone lutéinisante",
+      "en": "luteinizing hormone",
+      "ar": "الهرمون الملوتن",
+      "ar_variantes": [],
+      "definition_fr": "Gonadotrophine déclenchant l'ovulation et stimulant les cellules de Leydig (LH).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02119",
+      "fr": "ocytocine",
+      "en": "oxytocin",
+      "ar": "الأوكسيتوسين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone posthypophysaire provoquant les contractions utérines et l'éjection du lait.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02120",
+      "fr": "parathormone",
+      "en": "parathyroid hormone",
+      "ar": "هرمون جارات الدرقية",
+      "ar_variantes": [
+        "الباراثورمون"
+      ],
+      "definition_fr": "Hormone hypercalcémiante sécrétée par les parathyroïdes (PTH).",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02121",
+      "fr": "calcitonine",
+      "en": "calcitonin",
+      "ar": "الكالسيتونين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone hypocalcémiante sécrétée par les cellules C thyroïdiennes.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02122",
+      "fr": "calcitriol",
+      "en": "calcitriol",
+      "ar": "الكالسيتريول",
+      "ar_variantes": [],
+      "definition_fr": "Forme active de la vitamine D, favorisant l'absorption intestinale du calcium.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02123",
+      "fr": "testostérone",
+      "en": "testosterone",
+      "ar": "التستوستيرون",
+      "ar_variantes": [],
+      "definition_fr": "Principal androgène, sécrété par les cellules de Leydig.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02124",
+      "fr": "œstrogènes",
+      "en": "estrogens",
+      "ar": "الإستروجينات",
+      "ar_variantes": [],
+      "definition_fr": "Hormones stéroïdes féminisantes sécrétées principalement par l'ovaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02125",
+      "fr": "progestérone",
+      "en": "progesterone",
+      "ar": "البروجستيرون",
+      "ar_variantes": [],
+      "definition_fr": "Hormone stéroïde du corps jaune et du placenta préparant et maintenant la grossesse.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02126",
+      "fr": "mélatonine",
+      "en": "melatonin",
+      "ar": "الميلاتونين",
+      "ar_variantes": [],
+      "definition_fr": "Hormone pinéale sécrétée la nuit, synchronisatrice des rythmes circadiens.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02127",
+      "fr": "cycle menstruel",
+      "en": "menstrual cycle",
+      "ar": "الدورة الطمثية",
+      "ar_variantes": [
+        "الدورة الشهرية"
+      ],
+      "definition_fr": "Succession cyclique d'environ 28 jours de modifications ovariennes et utérines.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02128",
+      "fr": "ovulation",
+      "en": "ovulation",
+      "ar": "الإباضة",
+      "ar_variantes": [],
+      "definition_fr": "Libération de l'ovocyte par rupture du follicule ovarien mûr.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02129",
+      "fr": "spermatogenèse",
+      "en": "spermatogenesis",
+      "ar": "تكوّن النِّطاف",
+      "ar_variantes": [],
+      "definition_fr": "Production des spermatozoïdes dans les tubes séminifères.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HIST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02130",
+      "fr": "ovogenèse",
+      "en": "oogenesis",
+      "ar": "تكوّن البيض",
+      "ar_variantes": [],
+      "definition_fr": "Formation et maturation des ovocytes.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HIST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02131",
+      "fr": "ménopause",
+      "en": "menopause",
+      "ar": "سنّ اليأس",
+      "ar_variantes": [
+        "انقطاع الطمث"
+      ],
+      "definition_fr": "Arrêt définitif des règles lié à l'épuisement folliculaire ovarien.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02132",
+      "fr": "puberté",
+      "en": "puberty",
+      "ar": "البلوغ",
+      "ar_variantes": [],
+      "definition_fr": "Période de transition aboutissant à la maturité sexuelle et à la capacité de reproduction.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "PEDI",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02133",
+      "fr": "lactation",
+      "en": "lactation",
+      "ar": "الإرضاع",
+      "ar_variantes": [
+        "إدرار الحليب"
+      ],
+      "definition_fr": "Sécrétion et éjection du lait par la glande mammaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02134",
+      "fr": "thermorégulation",
+      "en": "thermoregulation",
+      "ar": "التنظيم الحراري",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des mécanismes maintenant constante la température centrale.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02135",
+      "fr": "métabolisme de base",
+      "en": "basal metabolic rate",
+      "ar": "الاستقلاب القاعدي",
+      "ar_variantes": [
+        "الأيض الأساسي"
+      ],
+      "definition_fr": "Dépense énergétique minimale de l'organisme au repos, à jeun et à neutralité thermique.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02136",
+      "fr": "vieillissement physiologique",
+      "en": "physiological aging",
+      "ar": "الشيخوخة الفيزيولوجية",
+      "ar_variantes": [],
+      "definition_fr": "Modifications progressives et non pathologiques des fonctions avec l'âge.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02137",
+      "fr": "hémostase",
+      "en": "hemostasis",
+      "ar": "الإرقاء",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des mécanismes arrêtant un saignement et maintenant la fluidité sanguine.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02138",
+      "fr": "hémostase primaire",
+      "en": "primary hemostasis",
+      "ar": "الإرقاء الأولي",
+      "ar_variantes": [],
+      "definition_fr": "Formation du clou plaquettaire par adhésion et agrégation des plaquettes.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02139",
+      "fr": "coagulation",
+      "en": "coagulation",
+      "ar": "التخثّر",
+      "ar_variantes": [],
+      "definition_fr": "Cascade enzymatique aboutissant à la formation d'un caillot de fibrine.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02140",
+      "fr": "fibrinolyse",
+      "en": "fibrinolysis",
+      "ar": "انحلال الفيبرين",
+      "ar_variantes": [],
+      "definition_fr": "Dissolution enzymatique du caillot de fibrine par la plasmine.",
+      "categorie": "physiologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02141",
+      "fr": "fibrinogène",
+      "en": "fibrinogen",
+      "ar": "مولّد الليفين",
+      "ar_variantes": [
+        "الفيبرينوجين"
+      ],
+      "definition_fr": "Protéine plasmatique transformée en fibrine par la thrombine.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02142",
+      "fr": "thrombine",
+      "en": "thrombin",
+      "ar": "الثرومبين",
+      "ar_variantes": [],
+      "definition_fr": "Enzyme clé de la coagulation transformant le fibrinogène en fibrine.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02143",
+      "fr": "facteur de von Willebrand",
+      "en": "von Willebrand factor",
+      "ar": "عامل فون فيلبراند",
+      "ar_variantes": [],
+      "definition_fr": "Glycoprotéine assurant l'adhésion plaquettaire et le transport du facteur VIII.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02144",
+      "fr": "facteur VIII",
+      "en": "factor VIII",
+      "ar": "العامل الثامن",
+      "ar_variantes": [],
+      "definition_fr": "Facteur antihémophilique A de la coagulation.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02145",
+      "fr": "antithrombine",
+      "en": "antithrombin",
+      "ar": "مضاد الثرومبين",
+      "ar_variantes": [],
+      "definition_fr": "Inhibiteur physiologique de la thrombine et du facteur Xa, cible de l'héparine.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02146",
+      "fr": "plasma",
+      "en": "plasma",
+      "ar": "البلازما",
+      "ar_variantes": [
+        "المُصَوَّرة"
+      ],
+      "definition_fr": "Partie liquide du sang contenant les facteurs de coagulation.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02147",
+      "fr": "sérum",
+      "en": "serum",
+      "ar": "المَصْل",
+      "ar_variantes": [],
+      "definition_fr": "Partie liquide du sang après coagulation, dépourvue de fibrinogène.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHYS",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02148",
+      "fr": "hémoglobine",
+      "en": "hemoglobin",
+      "ar": "الهيموغلوبين",
+      "ar_variantes": [
+        "خضاب الدم"
+      ],
+      "definition_fr": "Protéine des hématies transportant l'oxygène grâce à l'hème.",
+      "categorie": "biologie",
+      "specialites": [
+        "PHYS",
+        "HEMA",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02149",
+      "fr": "biophysique",
+      "en": "biophysics",
+      "ar": "الفيزياء الحيوية",
+      "ar_variantes": [],
+      "definition_fr": "Discipline appliquant les lois de la physique aux phénomènes biologiques.",
+      "categorie": "general",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02150",
+      "fr": "osmose",
+      "en": "osmosis",
+      "ar": "التناضح",
+      "ar_variantes": [
+        "الأسموز"
+      ],
+      "definition_fr": "Passage de l'eau à travers une membrane semi-perméable vers le compartiment le plus concentré.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02151",
+      "fr": "tension superficielle",
+      "en": "surface tension",
+      "ar": "التوتر السطحي",
+      "ar_variantes": [],
+      "definition_fr": "Force de cohésion s'exerçant à l'interface d'un liquide et tendant à réduire sa surface.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02152",
+      "fr": "loi de Laplace",
+      "en": "Laplace's law",
+      "ar": "قانون لابلاس",
+      "ar_variantes": [],
+      "definition_fr": "Relation entre la pression intérieure d'une bulle ou d'un vaisseau, la tension de paroi et le rayon.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02153",
+      "fr": "capillarité",
+      "en": "capillarity",
+      "ar": "الخاصّية الشعرية",
+      "ar_variantes": [],
+      "definition_fr": "Ascension ou dépression d'un liquide dans un tube fin due à la tension superficielle.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02154",
+      "fr": "viscosité",
+      "en": "viscosity",
+      "ar": "اللزوجة",
+      "ar_variantes": [],
+      "definition_fr": "Résistance d'un fluide à l'écoulement.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02155",
+      "fr": "loi de Poiseuille",
+      "en": "Poiseuille's law",
+      "ar": "قانون بوازوي",
+      "ar_variantes": [],
+      "definition_fr": "Relation entre le débit d'un fluide visqueux, la pression et le rayon du tube à la puissance quatre.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02156",
+      "fr": "écoulement laminaire",
+      "en": "laminar flow",
+      "ar": "الجريان الصفائحي",
+      "ar_variantes": [],
+      "definition_fr": "Écoulement en couches parallèles sans mélange, silencieux.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02157",
+      "fr": "écoulement turbulent",
+      "en": "turbulent flow",
+      "ar": "الجريان المضطرب",
+      "ar_variantes": [],
+      "definition_fr": "Écoulement désordonné générant des bruits (souffles).",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02158",
+      "fr": "radioactivité",
+      "en": "radioactivity",
+      "ar": "النشاط الإشعاعي",
+      "ar_variantes": [],
+      "definition_fr": "Transformation spontanée de noyaux instables avec émission de rayonnements.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "MNUC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02159",
+      "fr": "rayonnement ionisant",
+      "en": "ionizing radiation",
+      "ar": "الإشعاع المؤيِّن",
+      "ar_variantes": [],
+      "definition_fr": "Rayonnement capable d'arracher des électrons à la matière (X, gamma, alpha, bêta).",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "IMAG",
+        "MTRA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02160",
+      "fr": "période radioactive",
+      "en": "radioactive half-life",
+      "ar": "عمر النصف الإشعاعي",
+      "ar_variantes": [],
+      "definition_fr": "Temps au bout duquel la moitié des noyaux radioactifs d'une source s'est désintégrée.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "MNUC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02161",
+      "fr": "rayons X",
+      "en": "X-rays",
+      "ar": "الأشعة السينية",
+      "ar_variantes": [],
+      "definition_fr": "Rayonnement électromagnétique ionisant utilisé en radiologie.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02162",
+      "fr": "rayonnement gamma",
+      "en": "gamma radiation",
+      "ar": "أشعة غاما",
+      "ar_variantes": [],
+      "definition_fr": "Rayonnement électromagnétique émis par les noyaux radioactifs, utilisé en médecine nucléaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "MNUC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02163",
+      "fr": "dose absorbée",
+      "en": "absorbed dose",
+      "ar": "الجرعة الممتصّة",
+      "ar_variantes": [],
+      "definition_fr": "Énergie déposée par un rayonnement par unité de masse, exprimée en gray.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "MTRA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02164",
+      "fr": "radioprotection",
+      "en": "radiation protection",
+      "ar": "الوقاية من الإشعاع",
+      "ar_variantes": [
+        "الحماية الإشعاعية"
+      ],
+      "definition_fr": "Ensemble des mesures protégeant patients, travailleurs et public des rayonnements ionisants.",
+      "categorie": "general",
+      "specialites": [
+        "BIOP",
+        "IMAG",
+        "MTRA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02165",
+      "fr": "effet Doppler",
+      "en": "Doppler effect",
+      "ar": "مفعول دوبلر",
+      "ar_variantes": [
+        "ظاهرة دوبلر"
+      ],
+      "definition_fr": "Variation de fréquence d'une onde réfléchie par une cible en mouvement, utilisée pour mesurer les flux sanguins.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "IMAG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02166",
+      "fr": "ultrasons",
+      "en": "ultrasound",
+      "ar": "الأمواج فوق الصوتية",
+      "ar_variantes": [],
+      "definition_fr": "Ondes mécaniques de fréquence supérieure à 20 kHz utilisées en échographie.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "IMAG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02167",
+      "fr": "laser",
+      "en": "laser",
+      "ar": "الليزر",
+      "ar_variantes": [],
+      "definition_fr": "Source de lumière cohérente, monochromatique et directionnelle à usages diagnostiques et thérapeutiques.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02168",
+      "fr": "résonance magnétique nucléaire",
+      "en": "nuclear magnetic resonance",
+      "ar": "الرنين المغناطيسي النووي",
+      "ar_variantes": [],
+      "definition_fr": "Phénomène physique d'absorption et de restitution d'énergie par des noyaux placés dans un champ magnétique, base de l'IRM.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "IMAG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02169",
+      "fr": "dioptrie",
+      "en": "diopter",
+      "ar": "الكُسَيرة",
+      "ar_variantes": [
+        "الديوبتر"
+      ],
+      "definition_fr": "Unité de vergence d'un système optique, inverse de la distance focale en mètres.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02170",
+      "fr": "réfraction",
+      "en": "refraction",
+      "ar": "الانكسار",
+      "ar_variantes": [],
+      "definition_fr": "Déviation d'un rayon lumineux au passage d'un milieu transparent à un autre.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02171",
+      "fr": "décibel",
+      "en": "decibel",
+      "ar": "الديسيبل",
+      "ar_variantes": [],
+      "definition_fr": "Unité logarithmique d'intensité sonore relative.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02172",
+      "fr": "fréquence sonore",
+      "en": "sound frequency",
+      "ar": "تردّد الصوت",
+      "ar_variantes": [],
+      "definition_fr": "Nombre de vibrations par seconde d'une onde sonore, exprimé en hertz.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02173",
+      "fr": "équation de Nernst",
+      "en": "Nernst equation",
+      "ar": "معادلة نرنست",
+      "ar_variantes": [],
+      "definition_fr": "Relation donnant le potentiel d'équilibre d'un ion en fonction de ses concentrations de part et d'autre de la membrane.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02174",
+      "fr": "loi de Fick",
+      "en": "Fick's law",
+      "ar": "قانون فيك",
+      "ar_variantes": [],
+      "definition_fr": "Le flux de diffusion est proportionnel à la surface, au gradient de concentration et inversement à l'épaisseur.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02175",
+      "fr": "pression hydrostatique",
+      "en": "hydrostatic pressure",
+      "ar": "الضغط الهيدروستاتيكي",
+      "ar_variantes": [],
+      "definition_fr": "Pression exercée par un liquide du fait de son poids ou du travail cardiaque.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOP",
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02176",
+      "fr": "biochimie",
+      "en": "biochemistry",
+      "ar": "الكيمياء الحيوية",
+      "ar_variantes": [],
+      "definition_fr": "Science des constituants chimiques et des réactions des êtres vivants.",
+      "categorie": "general",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02177",
+      "fr": "métabolisme",
+      "en": "metabolism",
+      "ar": "الاستقلاب",
+      "ar_variantes": [
+        "الأيض"
+      ],
+      "definition_fr": "Ensemble des transformations chimiques assurant la production d'énergie et la synthèse des constituants.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC",
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02178",
+      "fr": "anabolisme",
+      "en": "anabolism",
+      "ar": "الابتناء",
+      "ar_variantes": [
+        "البناء الحيوي"
+      ],
+      "definition_fr": "Versant du métabolisme consacré à la synthèse de molécules complexes.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02179",
+      "fr": "catabolisme",
+      "en": "catabolism",
+      "ar": "التقويض",
+      "ar_variantes": [
+        "الهدم"
+      ],
+      "definition_fr": "Versant du métabolisme consacré à la dégradation des molécules avec libération d'énergie.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02180",
+      "fr": "enzyme",
+      "en": "enzyme",
+      "ar": "الإنزيم",
+      "ar_variantes": [
+        "الخميرة"
+      ],
+      "definition_fr": "Protéine catalysant spécifiquement une réaction biochimique.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02181",
+      "fr": "coenzyme",
+      "en": "coenzyme",
+      "ar": "تميم الإنزيم",
+      "ar_variantes": [
+        "المرافق الإنزيمي"
+      ],
+      "definition_fr": "Molécule organique non protéique nécessaire à l'activité de certaines enzymes.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02182",
+      "fr": "substrat",
+      "en": "substrate",
+      "ar": "الركيزة",
+      "ar_variantes": [],
+      "definition_fr": "Molécule sur laquelle agit une enzyme.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02183",
+      "fr": "constante de Michaelis",
+      "en": "Michaelis constant",
+      "ar": "ثابت ميكايليس",
+      "ar_variantes": [],
+      "definition_fr": "Concentration de substrat donnant la moitié de la vitesse maximale d'une réaction enzymatique.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02184",
+      "fr": "inhibiteur enzymatique",
+      "en": "enzyme inhibitor",
+      "ar": "مثبّط الإنزيم",
+      "ar_variantes": [],
+      "definition_fr": "Molécule réduisant l'activité catalytique d'une enzyme.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02185",
+      "fr": "glucose",
+      "en": "glucose",
+      "ar": "الغلوكوز",
+      "ar_variantes": [
+        "سكر العنب"
+      ],
+      "definition_fr": "Hexose, principal substrat énergétique de l'organisme.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02186",
+      "fr": "glycolyse",
+      "en": "glycolysis",
+      "ar": "تحلّل السكر",
+      "ar_variantes": [
+        "انحلال الغلوكوز"
+      ],
+      "definition_fr": "Dégradation cytosolique du glucose en pyruvate avec production d'ATP.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02187",
+      "fr": "néoglucogenèse",
+      "en": "gluconeogenesis",
+      "ar": "استحداث السكر",
+      "ar_variantes": [],
+      "definition_fr": "Synthèse hépatique et rénale de glucose à partir de précurseurs non glucidiques.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02188",
+      "fr": "glycogène",
+      "en": "glycogen",
+      "ar": "الغليكوجين",
+      "ar_variantes": [
+        "مولّد السكر"
+      ],
+      "definition_fr": "Polymère de glucose, forme de réserve dans le foie et le muscle.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02189",
+      "fr": "glycogénolyse",
+      "en": "glycogenolysis",
+      "ar": "تحلّل الغليكوجين",
+      "ar_variantes": [],
+      "definition_fr": "Dégradation du glycogène libérant du glucose.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02190",
+      "fr": "cycle de Krebs",
+      "en": "citric acid cycle",
+      "ar": "دورة كريبس",
+      "ar_variantes": [
+        "دورة حمض الليمون"
+      ],
+      "definition_fr": "Voie mitochondriale d'oxydation de l'acétyl-CoA produisant des coenzymes réduits.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02191",
+      "fr": "chaîne respiratoire",
+      "en": "respiratory chain",
+      "ar": "السلسلة التنفسية",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble mitochondrial de transporteurs d'électrons couplé à la synthèse d'ATP.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02192",
+      "fr": "phosphorylation oxydative",
+      "en": "oxidative phosphorylation",
+      "ar": "الفَسْفَرة التأكسدية",
+      "ar_variantes": [],
+      "definition_fr": "Synthèse mitochondriale d'ATP couplée à la chaîne respiratoire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02193",
+      "fr": "adénosine triphosphate",
+      "en": "adenosine triphosphate",
+      "ar": "ثلاثي فوسفات الأدينوزين",
+      "ar_variantes": [],
+      "definition_fr": "Molécule énergétique universelle des cellules (ATP).",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02194",
+      "fr": "glycémie",
+      "en": "blood glucose",
+      "ar": "سكر الدم",
+      "ar_variantes": [
+        "نسبة السكر في الدم"
+      ],
+      "definition_fr": "Concentration de glucose dans le sang.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02195",
+      "fr": "lipides",
+      "en": "lipids",
+      "ar": "الشحميات",
+      "ar_variantes": [
+        "الدهون"
+      ],
+      "definition_fr": "Molécules hydrophobes comprenant triglycérides, phospholipides et stérols.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02196",
+      "fr": "acides gras",
+      "en": "fatty acids",
+      "ar": "الحموض الدهنية",
+      "ar_variantes": [
+        "الأحماض الدهنية"
+      ],
+      "definition_fr": "Chaînes hydrocarbonées carboxyliques constitutives des lipides.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02197",
+      "fr": "triglycérides",
+      "en": "triglycerides",
+      "ar": "ثلاثي الغليسريد",
+      "ar_variantes": [
+        "الدهون الثلاثية"
+      ],
+      "definition_fr": "Esters du glycérol et de trois acides gras, forme de réserve des lipides.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02198",
+      "fr": "cholestérol",
+      "en": "cholesterol",
+      "ar": "الكولسترول",
+      "ar_variantes": [],
+      "definition_fr": "Stérol membranaire, précurseur des hormones stéroïdes et des acides biliaires.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02199",
+      "fr": "lipoprotéine",
+      "en": "lipoprotein",
+      "ar": "البروتين الشحمي",
+      "ar_variantes": [],
+      "definition_fr": "Particule assurant le transport plasmatique des lipides.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02200",
+      "fr": "lipoprotéines de basse densité",
+      "en": "low-density lipoprotein",
+      "ar": "البروتين الشحمي منخفض الكثافة",
+      "ar_variantes": [],
+      "definition_fr": "Lipoprotéines transportant le cholestérol vers les tissus, athérogènes (LDL).",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "CARD",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02201",
+      "fr": "lipoprotéines de haute densité",
+      "en": "high-density lipoprotein",
+      "ar": "البروتين الشحمي مرتفع الكثافة",
+      "ar_variantes": [],
+      "definition_fr": "Lipoprotéines assurant le retour du cholestérol vers le foie (HDL).",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "CARD",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02202",
+      "fr": "bêta-oxydation",
+      "en": "beta-oxidation",
+      "ar": "أكسدة بيتا",
+      "ar_variantes": [],
+      "definition_fr": "Dégradation mitochondriale des acides gras en acétyl-CoA.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02203",
+      "fr": "corps cétoniques",
+      "en": "ketone bodies",
+      "ar": "الأجسام الكيتونية",
+      "ar_variantes": [],
+      "definition_fr": "Acétoacétate, bêta-hydroxybutyrate et acétone produits par le foie lors du jeûne ou de la carence en insuline.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02204",
+      "fr": "protéine",
+      "en": "protein",
+      "ar": "البروتين",
+      "ar_variantes": [],
+      "definition_fr": "Macromolécule formée d'une ou plusieurs chaînes d'acides aminés.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02205",
+      "fr": "acide aminé",
+      "en": "amino acid",
+      "ar": "الحمض الأميني",
+      "ar_variantes": [],
+      "definition_fr": "Molécule portant une fonction amine et une fonction acide, unité constitutive des protéines.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02206",
+      "fr": "acides aminés essentiels",
+      "en": "essential amino acids",
+      "ar": "الحموض الأمينية الأساسية",
+      "ar_variantes": [],
+      "definition_fr": "Acides aminés non synthétisés par l'organisme et devant être apportés par l'alimentation.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02207",
+      "fr": "cycle de l'urée",
+      "en": "urea cycle",
+      "ar": "دورة اليوريا",
+      "ar_variantes": [
+        "دورة البولة"
+      ],
+      "definition_fr": "Voie hépatique de détoxication de l'ammoniac en urée.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02208",
+      "fr": "urée",
+      "en": "urea",
+      "ar": "اليوريا",
+      "ar_variantes": [
+        "البولة"
+      ],
+      "definition_fr": "Produit final azoté du catabolisme protéique, éliminé par le rein.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02209",
+      "fr": "créatinine",
+      "en": "creatinine",
+      "ar": "الكرياتينين",
+      "ar_variantes": [],
+      "definition_fr": "Produit de dégradation de la créatine musculaire, marqueur de la filtration glomérulaire.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02210",
+      "fr": "acide urique",
+      "en": "uric acid",
+      "ar": "حمض البوليك",
+      "ar_variantes": [
+        "حمض اليوريك"
+      ],
+      "definition_fr": "Produit final du catabolisme des purines chez l'homme.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02211",
+      "fr": "bilirubine",
+      "en": "bilirubin",
+      "ar": "البيليروبين",
+      "ar_variantes": [],
+      "definition_fr": "Pigment jaune issu de la dégradation de l'hème, conjugué par le foie.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02212",
+      "fr": "albumine",
+      "en": "albumin",
+      "ar": "الألبومين",
+      "ar_variantes": [
+        "الزُّلال"
+      ],
+      "definition_fr": "Principale protéine plasmatique, synthétisée par le foie, responsable de la pression oncotique.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02213",
+      "fr": "transferrine",
+      "en": "transferrin",
+      "ar": "الترانسفيرين",
+      "ar_variantes": [
+        "ناقلة الحديد"
+      ],
+      "definition_fr": "Protéine plasmatique de transport du fer.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02214",
+      "fr": "ferritine",
+      "en": "ferritin",
+      "ar": "الفيريتين",
+      "ar_variantes": [],
+      "definition_fr": "Protéine de stockage du fer dont le taux sérique reflète les réserves.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02215",
+      "fr": "hème",
+      "en": "heme",
+      "ar": "الهيم",
+      "ar_variantes": [],
+      "definition_fr": "Groupement prosthétique ferreux de l'hémoglobine et des cytochromes.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02216",
+      "fr": "porphyrines",
+      "en": "porphyrins",
+      "ar": "البورفيرينات",
+      "ar_variantes": [],
+      "definition_fr": "Composés tétrapyrroliques précurseurs de l'hème.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02217",
+      "fr": "vitamine",
+      "en": "vitamin",
+      "ar": "الفيتامين",
+      "ar_variantes": [],
+      "definition_fr": "Substance organique indispensable en petite quantité, non synthétisée en quantité suffisante par l'organisme.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02218",
+      "fr": "vitamine B12",
+      "en": "vitamin B12",
+      "ar": "فيتامين ب12",
+      "ar_variantes": [
+        "الكوبالامين"
+      ],
+      "definition_fr": "Vitamine nécessaire à la synthèse de l'ADN et à la myélinisation.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02219",
+      "fr": "acide folique",
+      "en": "folic acid",
+      "ar": "حمض الفوليك",
+      "ar_variantes": [],
+      "definition_fr": "Vitamine B9 nécessaire à la synthèse des bases puriques et pyrimidiques.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "HEMA",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02220",
+      "fr": "vitamine K",
+      "en": "vitamin K",
+      "ar": "فيتامين ك",
+      "ar_variantes": [],
+      "definition_fr": "Vitamine liposoluble nécessaire à la synthèse hépatique des facteurs II, VII, IX et X.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02221",
+      "fr": "vitamine C",
+      "en": "vitamin C",
+      "ar": "فيتامين ج",
+      "ar_variantes": [
+        "حمض الأسكوربيك"
+      ],
+      "definition_fr": "Vitamine hydrosoluble antioxydante nécessaire à la synthèse du collagène.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02222",
+      "fr": "vitamine A",
+      "en": "vitamin A",
+      "ar": "فيتامين أ",
+      "ar_variantes": [],
+      "definition_fr": "Vitamine liposoluble nécessaire à la vision et à la différenciation épithéliale.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02223",
+      "fr": "thiamine",
+      "en": "thiamine",
+      "ar": "الثيامين",
+      "ar_variantes": [
+        "فيتامين ب1"
+      ],
+      "definition_fr": "Vitamine B1, coenzyme du métabolisme glucidique.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02224",
+      "fr": "oligo-éléments",
+      "en": "trace elements",
+      "ar": "العناصر النَّزْرة",
+      "ar_variantes": [],
+      "definition_fr": "Éléments minéraux nécessaires en très faible quantité (fer, zinc, iode, sélénium…).",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02225",
+      "fr": "électrolytes",
+      "en": "electrolytes",
+      "ar": "الكهارل",
+      "ar_variantes": [
+        "الشوارد"
+      ],
+      "definition_fr": "Ions dissous dans les liquides de l'organisme (sodium, potassium, chlore…).",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02226",
+      "fr": "calcium",
+      "en": "calcium",
+      "ar": "الكالسيوم",
+      "ar_variantes": [],
+      "definition_fr": "Minéral principal de l'os, essentiel à la contraction musculaire et à la coagulation.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02227",
+      "fr": "phosphore",
+      "en": "phosphorus",
+      "ar": "الفوسفور",
+      "ar_variantes": [],
+      "definition_fr": "Minéral constitutif de l'os, des acides nucléiques et de l'ATP.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02228",
+      "fr": "magnésium",
+      "en": "magnesium",
+      "ar": "المغنيزيوم",
+      "ar_variantes": [],
+      "definition_fr": "Cation intracellulaire cofacteur de nombreuses enzymes.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02229",
+      "fr": "ration alimentaire",
+      "en": "dietary intake",
+      "ar": "الحصّة الغذائية",
+      "ar_variantes": [],
+      "definition_fr": "Quantité et composition des aliments consommés par jour.",
+      "categorie": "general",
+      "specialites": [
+        "BIOC",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02230",
+      "fr": "besoins énergétiques",
+      "en": "energy requirements",
+      "ar": "الاحتياجات من الطاقة",
+      "ar_variantes": [],
+      "definition_fr": "Quantité d'énergie nécessaire pour couvrir dépense de base, activité et croissance.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02231",
+      "fr": "kilocalorie",
+      "en": "kilocalorie",
+      "ar": "الكيلوسُعرة",
+      "ar_variantes": [
+        "السعرة الحرارية"
+      ],
+      "definition_fr": "Unité d'énergie alimentaire valant environ 4,18 kilojoules.",
+      "categorie": "general",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02232",
+      "fr": "fibres alimentaires",
+      "en": "dietary fiber",
+      "ar": "الألياف الغذائية",
+      "ar_variantes": [],
+      "definition_fr": "Glucides végétaux non digestibles favorisant le transit.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02233",
+      "fr": "hormones stéroïdes",
+      "en": "steroid hormones",
+      "ar": "الهرمونات الستيرويدية",
+      "ar_variantes": [],
+      "definition_fr": "Hormones dérivées du cholestérol : glucocorticoïdes, minéralocorticoïdes, hormones sexuelles.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02234",
+      "fr": "second messager",
+      "en": "second messenger",
+      "ar": "الرسول الثاني",
+      "ar_variantes": [],
+      "definition_fr": "Molécule intracellulaire (AMPc, calcium, IP3) relayant le signal d'un récepteur membranaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC",
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02235",
+      "fr": "récepteur nucléaire",
+      "en": "nuclear receptor",
+      "ar": "المستقبِل النووي",
+      "ar_variantes": [],
+      "definition_fr": "Récepteur intracellulaire agissant comme facteur de transcription (hormones stéroïdes, thyroïdiennes).",
+      "categorie": "physiologie",
+      "specialites": [
+        "BIOC",
+        "PHYS"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02236",
+      "fr": "radicaux libres",
+      "en": "free radicals",
+      "ar": "الجذور الحرة",
+      "ar_variantes": [],
+      "definition_fr": "Espèces chimiques très réactives porteuses d'un électron non apparié.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02237",
+      "fr": "stress oxydatif",
+      "en": "oxidative stress",
+      "ar": "الكرب التأكسدي",
+      "ar_variantes": [
+        "الإجهاد التأكسدي"
+      ],
+      "definition_fr": "Déséquilibre entre production d'espèces réactives de l'oxygène et défenses antioxydantes.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02238",
+      "fr": "glycosaminoglycanes",
+      "en": "glycosaminoglycans",
+      "ar": "الغليكوزامينوغليكانات",
+      "ar_variantes": [],
+      "definition_fr": "Polysaccharides de la matrice extracellulaire dont l'accumulation définit les mucopolysaccharidoses.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOC",
+        "HIST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02239",
+      "fr": "génétique",
+      "en": "genetics",
+      "ar": "علم الوراثة",
+      "ar_variantes": [
+        "الوراثيات"
+      ],
+      "definition_fr": "Science de l'hérédité et de la variation des caractères.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02240",
+      "fr": "gène",
+      "en": "gene",
+      "ar": "الجين",
+      "ar_variantes": [
+        "المورِّثة"
+      ],
+      "definition_fr": "Segment d'ADN portant l'information nécessaire à la synthèse d'un produit fonctionnel.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02241",
+      "fr": "allèle",
+      "en": "allele",
+      "ar": "الأليل",
+      "ar_variantes": [],
+      "definition_fr": "Forme alternative d'un gène occupant un même locus.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02242",
+      "fr": "génotype",
+      "en": "genotype",
+      "ar": "النمط الوراثي",
+      "ar_variantes": [
+        "الطراز الجيني"
+      ],
+      "definition_fr": "Constitution allélique d'un individu pour un ou plusieurs gènes.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02243",
+      "fr": "phénotype",
+      "en": "phenotype",
+      "ar": "النمط الظاهري",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des caractères observables d'un individu.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02244",
+      "fr": "chromosome",
+      "en": "chromosome",
+      "ar": "الصِّبغي",
+      "ar_variantes": [
+        "الكروموسوم"
+      ],
+      "definition_fr": "Structure nucléaire formée d'ADN et de protéines portant les gènes.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02245",
+      "fr": "caryotype",
+      "en": "karyotype",
+      "ar": "النمط النووي",
+      "ar_variantes": [],
+      "definition_fr": "Représentation ordonnée de l'ensemble des chromosomes d'une cellule.",
+      "categorie": "examen",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02246",
+      "fr": "acide désoxyribonucléique",
+      "en": "deoxyribonucleic acid",
+      "ar": "الحمض النووي الريبي المنقوص الأكسجين",
+      "ar_variantes": [
+        "الدنا"
+      ],
+      "definition_fr": "Support moléculaire de l'information génétique (ADN).",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02247",
+      "fr": "acide ribonucléique",
+      "en": "ribonucleic acid",
+      "ar": "الحمض النووي الريبي",
+      "ar_variantes": [
+        "الرنا"
+      ],
+      "definition_fr": "Acide nucléique simple brin intervenant dans l'expression des gènes (ARN).",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02248",
+      "fr": "ARN messager",
+      "en": "messenger RNA",
+      "ar": "الرنا المرسال",
+      "ar_variantes": [],
+      "definition_fr": "ARN copie d'un gène servant de matrice à la synthèse protéique.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02249",
+      "fr": "codon",
+      "en": "codon",
+      "ar": "الرامزة",
+      "ar_variantes": [
+        "الكودون"
+      ],
+      "definition_fr": "Triplet de nucléotides codant un acide aminé ou un signal d'arrêt.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02250",
+      "fr": "transcription",
+      "en": "transcription",
+      "ar": "الانتساخ",
+      "ar_variantes": [],
+      "definition_fr": "Synthèse d'un ARN à partir d'une matrice d'ADN.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02251",
+      "fr": "traduction génétique",
+      "en": "translation",
+      "ar": "الترجمة",
+      "ar_variantes": [],
+      "definition_fr": "Synthèse d'une protéine à partir de l'ARN messager sur les ribosomes.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02252",
+      "fr": "réplication",
+      "en": "replication",
+      "ar": "التنسُّخ",
+      "ar_variantes": [
+        "التضاعف"
+      ],
+      "definition_fr": "Copie de l'ADN avant la division cellulaire.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02253",
+      "fr": "mutation",
+      "en": "mutation",
+      "ar": "الطفرة",
+      "ar_variantes": [],
+      "definition_fr": "Modification héréditaire de la séquence de l'ADN.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02254",
+      "fr": "polymorphisme génétique",
+      "en": "genetic polymorphism",
+      "ar": "تعدّد الأشكال الجيني",
+      "ar_variantes": [],
+      "definition_fr": "Existence dans une population de plusieurs allèles fréquents d'un même gène.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02255",
+      "fr": "exon",
+      "en": "exon",
+      "ar": "الإكسون",
+      "ar_variantes": [],
+      "definition_fr": "Séquence d'un gène conservée dans l'ARN messager mature.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02256",
+      "fr": "intron",
+      "en": "intron",
+      "ar": "الإنترون",
+      "ar_variantes": [],
+      "definition_fr": "Séquence d'un gène transcrite puis éliminée par l'épissage.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02257",
+      "fr": "promoteur",
+      "en": "promoter",
+      "ar": "المُحَضِّض",
+      "ar_variantes": [],
+      "definition_fr": "Séquence d'ADN où se fixe l'ARN polymérase pour initier la transcription.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02258",
+      "fr": "mitose",
+      "en": "mitosis",
+      "ar": "الانقسام الفتيلي",
+      "ar_variantes": [
+        "الانقسام الخيطي"
+      ],
+      "definition_fr": "Division cellulaire produisant deux cellules filles génétiquement identiques.",
+      "categorie": "physiologie",
+      "specialites": [
+        "GENE",
+        "HIST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02259",
+      "fr": "méiose",
+      "en": "meiosis",
+      "ar": "الانقسام المنصِّف",
+      "ar_variantes": [
+        "الانقسام الاختزالي"
+      ],
+      "definition_fr": "Double division cellulaire produisant des gamètes haploïdes.",
+      "categorie": "physiologie",
+      "specialites": [
+        "GENE",
+        "HIST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02260",
+      "fr": "hérédité autosomique dominante",
+      "en": "autosomal dominant inheritance",
+      "ar": "الوراثة الجسدية السائدة",
+      "ar_variantes": [],
+      "definition_fr": "Transmission où un seul allèle muté sur un autosome suffit à exprimer le caractère.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02261",
+      "fr": "hérédité autosomique récessive",
+      "en": "autosomal recessive inheritance",
+      "ar": "الوراثة الجسدية المتنحّية",
+      "ar_variantes": [],
+      "definition_fr": "Transmission où deux allèles mutés sont nécessaires à l'expression du caractère.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02262",
+      "fr": "hérédité liée à l'X",
+      "en": "X-linked inheritance",
+      "ar": "الوراثة المرتبطة بالصبغي إكس",
+      "ar_variantes": [],
+      "definition_fr": "Transmission d'un caractère dont le gène est porté par le chromosome X.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02263",
+      "fr": "homozygote",
+      "en": "homozygous",
+      "ar": "متماثل اللواقح",
+      "ar_variantes": [],
+      "definition_fr": "Porteur de deux allèles identiques à un locus donné.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02264",
+      "fr": "hétérozygote",
+      "en": "heterozygous",
+      "ar": "متخالف اللواقح",
+      "ar_variantes": [],
+      "definition_fr": "Porteur de deux allèles différents à un locus donné.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02265",
+      "fr": "consanguinité",
+      "en": "consanguinity",
+      "ar": "قرابة الدم",
+      "ar_variantes": [
+        "زواج الأقارب"
+      ],
+      "definition_fr": "Lien de parenté entre conjoints, augmentant le risque de maladies autosomiques récessives.",
+      "categorie": "general",
+      "specialites": [
+        "GENE",
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02266",
+      "fr": "pénétrance",
+      "en": "penetrance",
+      "ar": "النفاذية",
+      "ar_variantes": [],
+      "definition_fr": "Proportion de porteurs d'un génotype exprimant le phénotype correspondant.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02267",
+      "fr": "expressivité variable",
+      "en": "variable expressivity",
+      "ar": "التعبير المتغيّر",
+      "ar_variantes": [],
+      "definition_fr": "Variation de l'intensité d'expression d'un même génotype selon les individus.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02268",
+      "fr": "aneuploïdie",
+      "en": "aneuploidy",
+      "ar": "اختلال الصيغة الصبغية",
+      "ar_variantes": [],
+      "definition_fr": "Anomalie du nombre de chromosomes ne portant pas sur un lot complet.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02269",
+      "fr": "trisomie",
+      "en": "trisomy",
+      "ar": "التثلّث الصبغي",
+      "ar_variantes": [],
+      "definition_fr": "Présence de trois exemplaires d'un chromosome au lieu de deux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GENE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02270",
+      "fr": "translocation chromosomique",
+      "en": "chromosomal translocation",
+      "ar": "الانتقال الصبغي",
+      "ar_variantes": [],
+      "definition_fr": "Échange de segments entre chromosomes non homologues.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02271",
+      "fr": "conseil génétique",
+      "en": "genetic counseling",
+      "ar": "المشورة الوراثية",
+      "ar_variantes": [],
+      "definition_fr": "Information d'un individu ou d'un couple sur un risque de maladie génétique et ses conséquences.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02272",
+      "fr": "diagnostic prénatal",
+      "en": "prenatal diagnosis",
+      "ar": "التشخيص قبل الولادة",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des examens permettant de détecter une affection grave chez l'embryon ou le fœtus.",
+      "categorie": "examen",
+      "specialites": [
+        "GENE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02273",
+      "fr": "amplification en chaîne par polymérase",
+      "en": "polymerase chain reaction",
+      "ar": "تفاعل البوليميراز المتسلسل",
+      "ar_variantes": [],
+      "definition_fr": "Technique d'amplification in vitro d'une séquence d'ADN cible (PCR).",
+      "categorie": "examen",
+      "specialites": [
+        "GENE",
+        "BIOM",
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02274",
+      "fr": "séquençage de l'ADN",
+      "en": "DNA sequencing",
+      "ar": "تحديد تسلسل الدنا",
+      "ar_variantes": [],
+      "definition_fr": "Détermination de l'ordre des nucléotides d'un fragment d'ADN.",
+      "categorie": "examen",
+      "specialites": [
+        "GENE",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02275",
+      "fr": "oncogène",
+      "en": "oncogene",
+      "ar": "الجين الورمي",
+      "ar_variantes": [
+        "الجين المسرطن"
+      ],
+      "definition_fr": "Gène dont l'activation anormale favorise la prolifération tumorale.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE",
+        "ONCO",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02276",
+      "fr": "gène suppresseur de tumeur",
+      "en": "tumor suppressor gene",
+      "ar": "الجين الكابت للورم",
+      "ar_variantes": [],
+      "definition_fr": "Gène dont l'inactivation favorise le développement tumoral.",
+      "categorie": "biologie",
+      "specialites": [
+        "GENE",
+        "ONCO",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02277",
+      "fr": "épigénétique",
+      "en": "epigenetics",
+      "ar": "علم التخلق المتعاقب",
+      "ar_variantes": [
+        "الوراثة فوق الجينية"
+      ],
+      "definition_fr": "Étude des modifications héritables de l'expression des gènes sans changement de la séquence d'ADN.",
+      "categorie": "general",
+      "specialites": [
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02278",
+      "fr": "pharmacogénétique",
+      "en": "pharmacogenetics",
+      "ar": "علم الوراثة الدوائي",
+      "ar_variantes": [],
+      "definition_fr": "Étude de l'influence des variations génétiques sur la réponse aux médicaments.",
+      "categorie": "general",
+      "specialites": [
+        "GENE",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02279",
+      "fr": "immunologie",
+      "en": "immunology",
+      "ar": "علم المناعة",
+      "ar_variantes": [],
+      "definition_fr": "Science des mécanismes de défense de l'organisme.",
+      "categorie": "general",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02280",
+      "fr": "immunité innée",
+      "en": "innate immunity",
+      "ar": "المناعة الفطرية",
+      "ar_variantes": [
+        "المناعة الطبيعية"
+      ],
+      "definition_fr": "Défense immédiate et non spécifique, sans mémoire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02281",
+      "fr": "immunité adaptative",
+      "en": "adaptive immunity",
+      "ar": "المناعة التكيّفية",
+      "ar_variantes": [
+        "المناعة المكتسبة"
+      ],
+      "definition_fr": "Défense spécifique de l'antigène, dotée de mémoire, assurée par les lymphocytes.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02282",
+      "fr": "immunité humorale",
+      "en": "humoral immunity",
+      "ar": "المناعة الخِلْطية",
+      "ar_variantes": [],
+      "definition_fr": "Immunité adaptative médiée par les anticorps.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02283",
+      "fr": "immunité cellulaire",
+      "en": "cell-mediated immunity",
+      "ar": "المناعة الخلوية",
+      "ar_variantes": [],
+      "definition_fr": "Immunité adaptative médiée par les lymphocytes T.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02284",
+      "fr": "antigène",
+      "en": "antigen",
+      "ar": "المستضِدّ",
+      "ar_variantes": [
+        "الأنتيجين"
+      ],
+      "definition_fr": "Substance reconnue spécifiquement par un anticorps ou un récepteur lymphocytaire.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02285",
+      "fr": "anticorps",
+      "en": "antibody",
+      "ar": "الضِّدّ",
+      "ar_variantes": [
+        "الجسم المضاد"
+      ],
+      "definition_fr": "Immunoglobuline produite par les plasmocytes et reconnaissant spécifiquement un antigène.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02286",
+      "fr": "immunoglobuline",
+      "en": "immunoglobulin",
+      "ar": "الغلوبولين المناعي",
+      "ar_variantes": [],
+      "definition_fr": "Glycoprotéine à fonction anticorps (IgG, IgA, IgM, IgD, IgE).",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02287",
+      "fr": "complément",
+      "en": "complement system",
+      "ar": "المتمِّمة",
+      "ar_variantes": [
+        "جهاز المتممة"
+      ],
+      "definition_fr": "Système de protéines plasmatiques activées en cascade, participant à la lyse et à l'inflammation.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02288",
+      "fr": "phagocytose",
+      "en": "phagocytosis",
+      "ar": "البَلْعَمة",
+      "ar_variantes": [],
+      "definition_fr": "Ingestion et destruction de particules par une cellule phagocytaire.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02289",
+      "fr": "inflammation",
+      "en": "inflammation",
+      "ar": "الالتهاب",
+      "ar_variantes": [],
+      "definition_fr": "Réaction de défense de l'organisme à une agression, associant rougeur, chaleur, tuméfaction et douleur.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02290",
+      "fr": "cytokine",
+      "en": "cytokine",
+      "ar": "السيتوكين",
+      "ar_variantes": [],
+      "definition_fr": "Médiateur protéique soluble de la communication entre cellules immunitaires.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02291",
+      "fr": "interleukine",
+      "en": "interleukin",
+      "ar": "الإنترلوكين",
+      "ar_variantes": [],
+      "definition_fr": "Cytokine produite par les leucocytes et agissant sur d'autres leucocytes.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02292",
+      "fr": "interféron",
+      "en": "interferon",
+      "ar": "الإنترفيرون",
+      "ar_variantes": [],
+      "definition_fr": "Cytokine à activité antivirale et immunomodulatrice.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02293",
+      "fr": "facteur de nécrose tumorale",
+      "en": "tumor necrosis factor",
+      "ar": "عامل نخر الورم",
+      "ar_variantes": [],
+      "definition_fr": "Cytokine pro-inflammatoire majeure (TNF alpha), cible de biothérapies.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02294",
+      "fr": "lymphocyte T auxiliaire",
+      "en": "helper T cell",
+      "ar": "الخلية التائية المساعدة",
+      "ar_variantes": [
+        "اللمفاوية التائية المساعدة"
+      ],
+      "definition_fr": "Lymphocyte T CD4+ orchestrant la réponse immunitaire adaptative.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02295",
+      "fr": "lymphocyte T cytotoxique",
+      "en": "cytotoxic T cell",
+      "ar": "الخلية التائية السامّة للخلايا",
+      "ar_variantes": [],
+      "definition_fr": "Lymphocyte T CD8+ détruisant les cellules infectées ou tumorales.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02296",
+      "fr": "lymphocyte B",
+      "en": "B cell",
+      "ar": "الخلية البائية",
+      "ar_variantes": [
+        "اللمفاوية البائية"
+      ],
+      "definition_fr": "Lymphocyte se différenciant en plasmocyte producteur d'anticorps.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02297",
+      "fr": "cellule NK",
+      "en": "natural killer cell",
+      "ar": "الخلية القاتلة الطبيعية",
+      "ar_variantes": [],
+      "definition_fr": "Lymphocyte de l'immunité innée lysant les cellules infectées ou tumorales.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02298",
+      "fr": "cellule dendritique",
+      "en": "dendritic cell",
+      "ar": "الخلية المتغصّنة",
+      "ar_variantes": [
+        "الخلية الشجيرية"
+      ],
+      "definition_fr": "Cellule présentatrice d'antigène professionnelle initiant la réponse lymphocytaire T.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02299",
+      "fr": "cellule présentatrice d'antigène",
+      "en": "antigen-presenting cell",
+      "ar": "الخلية العارضة للمستضد",
+      "ar_variantes": [],
+      "definition_fr": "Cellule exprimant les molécules du CMH et présentant des peptides antigéniques aux lymphocytes T.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02300",
+      "fr": "complexe majeur d'histocompatibilité",
+      "en": "major histocompatibility complex",
+      "ar": "معقّد التوافق النسيجي الكبير",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble de gènes codant les molécules présentatrices d'antigène, appelé HLA chez l'homme.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02301",
+      "fr": "système HLA",
+      "en": "human leukocyte antigen system",
+      "ar": "نظام مستضدّات الكريات البيض البشرية",
+      "ar_variantes": [],
+      "definition_fr": "Complexe majeur d'histocompatibilité humain, déterminant en transplantation et associé à certaines maladies.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02302",
+      "fr": "tolérance immunitaire",
+      "en": "immune tolerance",
+      "ar": "التحمّل المناعي",
+      "ar_variantes": [],
+      "definition_fr": "Absence de réponse immunitaire pathogène envers un antigène, notamment du soi.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02303",
+      "fr": "auto-immunité",
+      "en": "autoimmunity",
+      "ar": "المناعة الذاتية",
+      "ar_variantes": [],
+      "definition_fr": "Réponse immunitaire dirigée contre des constituants du soi.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02304",
+      "fr": "hypersensibilité",
+      "en": "hypersensitivity",
+      "ar": "فرط الحساسية",
+      "ar_variantes": [],
+      "definition_fr": "Réponse immunitaire excessive ou inappropriée provoquant des lésions (types I à IV).",
+      "categorie": "pathologie",
+      "specialites": [
+        "IMMU",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02305",
+      "fr": "hypersensibilité immédiate",
+      "en": "immediate hypersensitivity",
+      "ar": "فرط الحساسية الفوري",
+      "ar_variantes": [],
+      "definition_fr": "Hypersensibilité de type I médiée par les IgE et les mastocytes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "IMMU",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02306",
+      "fr": "hypersensibilité retardée",
+      "en": "delayed-type hypersensitivity",
+      "ar": "فرط الحساسية الآجل",
+      "ar_variantes": [
+        "فرط الحساسية المتأخر"
+      ],
+      "definition_fr": "Hypersensibilité de type IV médiée par les lymphocytes T.",
+      "categorie": "pathologie",
+      "specialites": [
+        "IMMU",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02307",
+      "fr": "complexes immuns",
+      "en": "immune complexes",
+      "ar": "المعقّدات المناعية",
+      "ar_variantes": [],
+      "definition_fr": "Agrégats antigène-anticorps pouvant se déposer dans les tissus (hypersensibilité de type III).",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02308",
+      "fr": "allergène",
+      "en": "allergen",
+      "ar": "المؤرِّج",
+      "ar_variantes": [
+        "مسبب الحساسية"
+      ],
+      "definition_fr": "Antigène capable de provoquer une réaction allergique.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02309",
+      "fr": "immunodéficience",
+      "en": "immunodeficiency",
+      "ar": "العَوَز المناعي",
+      "ar_variantes": [
+        "نقص المناعة"
+      ],
+      "definition_fr": "Insuffisance congénitale ou acquise des défenses immunitaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "IMMU",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02310",
+      "fr": "immunisation passive",
+      "en": "passive immunization",
+      "ar": "التمنيع المنفعل",
+      "ar_variantes": [
+        "التمنيع السلبي"
+      ],
+      "definition_fr": "Protection transitoire par administration d'anticorps préformés.",
+      "categorie": "traitement",
+      "specialites": [
+        "IMMU",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02311",
+      "fr": "adjuvant vaccinal",
+      "en": "vaccine adjuvant",
+      "ar": "المساعِد",
+      "ar_variantes": [],
+      "definition_fr": "Substance augmentant la réponse immunitaire à un antigène vaccinal.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02312",
+      "fr": "mémoire immunologique",
+      "en": "immunological memory",
+      "ar": "الذاكرة المناعية",
+      "ar_variantes": [],
+      "definition_fr": "Capacité de répondre plus vite et plus fort lors d'un second contact avec un antigène.",
+      "categorie": "physiologie",
+      "specialites": [
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02313",
+      "fr": "anticorps monoclonal",
+      "en": "monoclonal antibody",
+      "ar": "الضدّ وحيد النسيلة",
+      "ar_variantes": [],
+      "definition_fr": "Anticorps issu d'un clone unique de plasmocytes, utilisé en diagnostic et en thérapeutique.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02314",
+      "fr": "autoanticorps",
+      "en": "autoantibody",
+      "ar": "الضدّ الذاتي",
+      "ar_variantes": [],
+      "definition_fr": "Anticorps dirigé contre un constituant du soi.",
+      "categorie": "biologie",
+      "specialites": [
+        "IMMU",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02315",
+      "fr": "rejet de greffe",
+      "en": "graft rejection",
+      "ar": "رفض الطُّعم",
+      "ar_variantes": [
+        "رفض الزرع"
+      ],
+      "definition_fr": "Destruction immunologique d'un greffon reconnu comme étranger.",
+      "categorie": "pathologie",
+      "specialites": [
+        "IMMU",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02316",
+      "fr": "anatomie pathologique",
+      "en": "anatomic pathology",
+      "ar": "علم التشريح المرضي",
+      "ar_variantes": [],
+      "definition_fr": "Discipline étudiant les lésions macroscopiques et microscopiques des tissus malades.",
+      "categorie": "general",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02317",
+      "fr": "nécrose",
+      "en": "necrosis",
+      "ar": "النَّخَر",
+      "ar_variantes": [],
+      "definition_fr": "Mort cellulaire pathologique accidentelle avec réaction inflammatoire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02318",
+      "fr": "apoptose",
+      "en": "apoptosis",
+      "ar": "الاستماتة",
+      "ar_variantes": [
+        "الموت الخلوي المبرمج"
+      ],
+      "definition_fr": "Mort cellulaire programmée, active et sans inflammation.",
+      "categorie": "physiologie",
+      "specialites": [
+        "ANAP",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02319",
+      "fr": "nécrose de coagulation",
+      "en": "coagulative necrosis",
+      "ar": "النخر التخثّري",
+      "ar_variantes": [],
+      "definition_fr": "Nécrose conservant l'architecture tissulaire, typique de l'infarctus.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02320",
+      "fr": "nécrose caséeuse",
+      "en": "caseous necrosis",
+      "ar": "النخر الجُبني",
+      "ar_variantes": [],
+      "definition_fr": "Nécrose d'aspect grumeleux blanc-jaunâtre, caractéristique de la tuberculose.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02321",
+      "fr": "atrophie",
+      "en": "atrophy",
+      "ar": "الضُّمور",
+      "ar_variantes": [],
+      "definition_fr": "Diminution de volume d'un tissu ou d'un organe par réduction de taille ou de nombre de ses cellules.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02322",
+      "fr": "hypertrophie",
+      "en": "hypertrophy",
+      "ar": "الضخامة",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de volume d'un organe par augmentation de la taille de ses cellules.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02323",
+      "fr": "hyperplasie",
+      "en": "hyperplasia",
+      "ar": "فرط التنسّج",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de volume d'un tissu par augmentation du nombre de ses cellules.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02324",
+      "fr": "métaplasie",
+      "en": "metaplasia",
+      "ar": "الحُؤول",
+      "ar_variantes": [],
+      "definition_fr": "Remplacement d'un tissu différencié par un autre tissu différencié de même origine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02325",
+      "fr": "dysplasie",
+      "en": "dysplasia",
+      "ar": "خلل التنسّج",
+      "ar_variantes": [],
+      "definition_fr": "Anomalie de différenciation et d'architecture cellulaire, potentiellement précancéreuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02326",
+      "fr": "fibrose",
+      "en": "fibrosis",
+      "ar": "التليُّف",
+      "ar_variantes": [],
+      "definition_fr": "Accroissement anormal du tissu conjonctif fibreux dans un organe.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02327",
+      "fr": "hyalinose",
+      "en": "hyalinosis",
+      "ar": "التزجُّج",
+      "ar_variantes": [],
+      "definition_fr": "Dépôt de substance homogène et éosinophile dans le tissu conjonctif ou la paroi des vaisseaux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02328",
+      "fr": "amylose",
+      "en": "amyloidosis",
+      "ar": "الداء النشواني",
+      "ar_variantes": [
+        "الداء الأميلويدي"
+      ],
+      "definition_fr": "Maladie due au dépôt extracellulaire de protéines fibrillaires insolubles (substance amyloïde).",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "MINT",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02329",
+      "fr": "congestion",
+      "en": "congestion",
+      "ar": "الاحتقان",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation du volume sanguin dans un territoire vasculaire, active ou passive.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02330",
+      "fr": "ischémie",
+      "en": "ischemia",
+      "ar": "الإقفار",
+      "ar_variantes": [
+        "نقص التروية"
+      ],
+      "definition_fr": "Diminution ou arrêt de l'apport sanguin artériel à un tissu.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02331",
+      "fr": "infarctus",
+      "en": "infarction",
+      "ar": "الاحتشاء",
+      "ar_variantes": [],
+      "definition_fr": "Foyer de nécrose ischémique d'un territoire par occlusion artérielle.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02332",
+      "fr": "thrombose",
+      "en": "thrombosis",
+      "ar": "الخُثار",
+      "ar_variantes": [],
+      "definition_fr": "Formation d'un caillot sanguin dans un vaisseau ou une cavité cardiaque chez le vivant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02333",
+      "fr": "thrombus",
+      "en": "thrombus",
+      "ar": "الخُثْرة",
+      "ar_variantes": [
+        "الجلطة"
+      ],
+      "definition_fr": "Caillot sanguin formé dans le système vasculaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02334",
+      "fr": "embolie",
+      "en": "embolism",
+      "ar": "الانصمام",
+      "ar_variantes": [],
+      "definition_fr": "Migration et arrêt dans un vaisseau d'un corps étranger au sang circulant (caillot, graisse, gaz).",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02335",
+      "fr": "inflammation aiguë",
+      "en": "acute inflammation",
+      "ar": "الالتهاب الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de courte durée à prédominance vasculo-exsudative et polynucléaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02336",
+      "fr": "inflammation chronique",
+      "en": "chronic inflammation",
+      "ar": "الالتهاب المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation persistante associant infiltrat lymphoplasmocytaire, destruction et fibrose.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02337",
+      "fr": "granulome",
+      "en": "granuloma",
+      "ar": "الورم الحُبَيبي",
+      "ar_variantes": [],
+      "definition_fr": "Amas organisé de macrophages et de cellules épithélioïdes au cours de certaines inflammations chroniques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02338",
+      "fr": "abcès",
+      "en": "abscess",
+      "ar": "الخُراج",
+      "ar_variantes": [],
+      "definition_fr": "Collection purulente circonscrite dans une cavité néoformée.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "CGEN",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02339",
+      "fr": "suppuration",
+      "en": "suppuration",
+      "ar": "التقيُّح",
+      "ar_variantes": [],
+      "definition_fr": "Formation de pus.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02340",
+      "fr": "cicatrisation",
+      "en": "wound healing",
+      "ar": "الاندمال",
+      "ar_variantes": [
+        "التندّب"
+      ],
+      "definition_fr": "Processus de réparation tissulaire aboutissant à une cicatrice.",
+      "categorie": "physiologie",
+      "specialites": [
+        "ANAP",
+        "CPLA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02341",
+      "fr": "tumeur",
+      "en": "tumor",
+      "ar": "الورم",
+      "ar_variantes": [],
+      "definition_fr": "Néoformation tissulaire résultant d'une prolifération cellulaire excessive et autonome.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02342",
+      "fr": "tumeur bénigne",
+      "en": "benign tumor",
+      "ar": "الورم الحميد",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur bien limitée, d'évolution locale, sans métastase.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02343",
+      "fr": "tumeur maligne",
+      "en": "malignant tumor",
+      "ar": "الورم الخبيث",
+      "ar_variantes": [
+        "السرطان"
+      ],
+      "definition_fr": "Tumeur infiltrante capable de récidive et de dissémination métastatique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02344",
+      "fr": "carcinome",
+      "en": "carcinoma",
+      "ar": "السَّرَطانة",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur maligne d'origine épithéliale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02345",
+      "fr": "adénocarcinome",
+      "en": "adenocarcinoma",
+      "ar": "السرطانة الغدّية",
+      "ar_variantes": [],
+      "definition_fr": "Carcinome d'origine glandulaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02346",
+      "fr": "carcinome épidermoïde",
+      "en": "squamous cell carcinoma",
+      "ar": "سرطانة الخلايا الحرشفية",
+      "ar_variantes": [],
+      "definition_fr": "Carcinome reproduisant un épithélium malpighien.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02347",
+      "fr": "sarcome",
+      "en": "sarcoma",
+      "ar": "الساركومة",
+      "ar_variantes": [
+        "الغَرَن"
+      ],
+      "definition_fr": "Tumeur maligne d'origine conjonctive.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02348",
+      "fr": "adénome",
+      "en": "adenoma",
+      "ar": "الورم الغدّي",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur bénigne d'origine glandulaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02349",
+      "fr": "carcinome in situ",
+      "en": "carcinoma in situ",
+      "ar": "السرطانة في الموضع",
+      "ar_variantes": [],
+      "definition_fr": "Carcinome n'ayant pas franchi la membrane basale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02350",
+      "fr": "métastase",
+      "en": "metastasis",
+      "ar": "النَّقيلة",
+      "ar_variantes": [
+        "الانبثاث"
+      ],
+      "definition_fr": "Foyer tumoral secondaire à distance de la tumeur primitive.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02351",
+      "fr": "stroma tumoral",
+      "en": "tumor stroma",
+      "ar": "السَّدى الورمي",
+      "ar_variantes": [],
+      "definition_fr": "Tissu conjonctif et vasculaire de soutien d'une tumeur.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02352",
+      "fr": "carcinogenèse",
+      "en": "carcinogenesis",
+      "ar": "التسرطن",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des étapes de transformation d'une cellule normale en cellule cancéreuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02353",
+      "fr": "cancérogène",
+      "en": "carcinogen",
+      "ar": "المسرطِن",
+      "ar_variantes": [],
+      "definition_fr": "Agent capable d'induire ou de favoriser un cancer.",
+      "categorie": "general",
+      "specialites": [
+        "ANAP",
+        "ONCO",
+        "MTRA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02354",
+      "fr": "grade histologique",
+      "en": "histological grade",
+      "ar": "الدرجة النسيجية",
+      "ar_variantes": [],
+      "definition_fr": "Appréciation du degré de différenciation et d'agressivité d'une tumeur.",
+      "categorie": "general",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02355",
+      "fr": "classification TNM",
+      "en": "TNM classification",
+      "ar": "تصنيف الورم والعقد والنقائل",
+      "ar_variantes": [],
+      "definition_fr": "Système de stadification des cancers selon la tumeur, les ganglions et les métastases.",
+      "categorie": "general",
+      "specialites": [
+        "ANAP",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02356",
+      "fr": "plaque d'athérome",
+      "en": "atheromatous plaque",
+      "ar": "اللويحة العصيدية",
+      "ar_variantes": [],
+      "definition_fr": "Lésion intimale artérielle formée d'un cœur lipidique et d'une chape fibreuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ANAP",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02357",
+      "fr": "cytologie",
+      "en": "cytology",
+      "ar": "علم الخلايا",
+      "ar_variantes": [],
+      "definition_fr": "Étude morphologique des cellules isolées, notamment à visée diagnostique.",
+      "categorie": "examen",
+      "specialites": [
+        "ANAP",
+        "HIST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02358",
+      "fr": "examen extemporané",
+      "en": "frozen section examination",
+      "ar": "الفحص النسيجي الفوري",
+      "ar_variantes": [],
+      "definition_fr": "Examen histologique rapide peropératoire sur prélèvement congelé.",
+      "categorie": "examen",
+      "specialites": [
+        "ANAP",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-02359",
+      "fr": "immunohistochimie",
+      "en": "immunohistochemistry",
+      "ar": "الكيمياء النسيجية المناعية",
+      "ar_variantes": [],
+      "definition_fr": "Détection d'antigènes tissulaires par des anticorps marqués sur coupes histologiques.",
+      "categorie": "examen",
+      "specialites": [
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-02360",
+      "fr": "autopsie",
+      "en": "autopsy",
+      "ar": "تشريح الجثة",
+      "ar_variantes": [
+        "الصفة التشريحية"
+      ],
+      "definition_fr": "Examen anatomique d'un corps après la mort afin d'en déterminer les lésions et la cause du décès.",
+      "categorie": "examen",
+      "specialites": [
+        "ANAP",
+        "MLEG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    }
+  ]
+}

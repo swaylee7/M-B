@@ -83,29 +83,29 @@ sources:
     url: ""
     verifiee: true
   - id: S9
-    reference: "Amin MB, Edge SB, Greene FL, et al. (eds). AJCC Cancer Staging Manual, 8th edition. Springer ; 2017. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Amin MB, Edge SB, Greene FL, et al. (eds). AJCC Cancer Staging Manual, 8th edition. Springer ; 2017 (publié fin 2016, appliqué depuis 2018)."
     organisme: AJCC
     annee: 2017
     type: ouvrage
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S10
-    reference: "Elston CW, Ellis IO. Pathological prognostic factors in breast cancer. I. The value of histological grade in breast cancer: experience from a large study with long-term follow-up. Histopathology. 1991;19(5):403-410. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Elston CW, Ellis IO. Pathological prognostic factors in breast cancer. I. The value of histological grade in breast cancer: experience from a large study with long-term follow-up. Histopathology. 1991;19(5):403-410 (PMID 1757079)."
     organisme: ""
     annee: 1991
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
-    reference: "Wolff AC, et al. Human epidermal growth factor receptor 2 testing in breast cancer: ASCO–College of American Pathologists guideline update (2018 ; mise à jour 2023). J Clin Oncol. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Wolff AC, Somerfield MR, Dowsett M, et al. Human epidermal growth factor receptor 2 testing in breast cancer: ASCO-College of American Pathologists guideline update. J Clin Oncol. 2023;41(22):3867-3872 (confirme les recommandations de 2018)."
     organisme: "ASCO / CAP"
     annee: 2023
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
     reference: "Schmid P, Cortes J, Pusztai L, et al. Pembrolizumab for early triple-negative breast cancer (KEYNOTE-522). N Engl J Med. 2020;382(9):810-821 (PMID 32101663). Survie sans événement : Schmid P, et al. N Engl J Med. 2022;386(6):556-567 (PMID 35139274)."
     organisme: "KEYNOTE-522"
@@ -123,21 +123,21 @@ sources:
     url: ""
     verifiee: true
   - id: S14
-    reference: "Modi S, Jacot W, Yamashita T, et al. Trastuzumab deruxtecan in previously treated HER2-low advanced breast cancer (DESTINY-Breast04). N Engl J Med. 2022;387(1):9-20. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Modi S, Jacot W, Yamashita T, et al. Trastuzumab deruxtecan in previously treated HER2-low advanced breast cancer (DESTINY-Breast04). N Engl J Med. 2022;387(1):9-20 (PMID 35665782)."
     organisme: "DESTINY-Breast04"
     annee: 2022
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa2203690"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S15
-    reference: "Gennari A, André F, Barrios CH, et al. ESMO Clinical Practice Guideline for the diagnosis, staging and treatment of patients with metastatic breast cancer. Ann Oncol. 2021;32(12):1475-1495. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Gennari A, André F, Barrios CH, et al. ESMO Clinical Practice Guideline for the diagnosis, staging and treatment of patients with metastatic breast cancer. Ann Oncol. 2021;32(12):1475-1495 (PMID 34678411)."
     organisme: ESMO
     annee: 2021
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.annonc.2021.09.019"
     url: ""
-    verifiee: false
+    verifiee: true
 mots_cles: [cancer du sein, tumeurs bénignes du sein, fibroadénome, tumeur phyllode, BI-RADS, mammographie, microbiopsie, carcinome infiltrant de type non spécifique, carcinome lobulaire, récepteurs hormonaux, HER2, triple négatif, ganglion sentinelle, hormonothérapie, trastuzumab, Algérie]
 ---
 
@@ -281,7 +281,7 @@ mots_cles: [cancer du sein, tumeurs bénignes du sein, fibroadénome, tumeur phy
 
 > Les pourcentages sont des ordres de grandeur classiques [À VÉRIFIER — S2].
 
-### 7.3 Grade histopronostique de Nottingham (Elston-Ellis) [S10 — À VÉRIFIER]
+### 7.3 Grade histopronostique de Nottingham (Elston-Ellis) [S10]
 
 | Critère | Score 1 | Score 2 | Score 3 |
 |---|---|---|---|
@@ -296,7 +296,7 @@ Total **3-5 = grade I** ; **6-7 = grade II** ; **8-9 = grade III**.
 | Marqueur | Méthode | Interprétation |
 |---|---|---|
 | **Récepteurs aux œstrogènes (RE)** et **à la progestérone (RP)** | Immunohistochimie (IHC) | **Positifs si ≥ 1 %** des cellules marquées ; la catégorie « **RE faiblement positif** » (1-10 %) a un comportement proche des triple négatifs [recommandation ASCO/CAP 2020 sur les récepteurs hormonaux — référence À VÉRIFIER] |
-| **HER2** | IHC (score 0, 1+, 2+, 3+) ± hybridation in situ (ISH) | **3+** = positif ; **2+** = équivoque → **ISH** (amplification = positif) ; **0** = négatif ; **1+** ou **2+/ISH négatif** = « **HER2-low** », cible du trastuzumab deruxtécan au stade métastatique [S11, S14 — À VÉRIFIER] |
+| **HER2** | IHC (score 0, 1+, 2+, 3+) ± hybridation in situ (ISH) | **3+** = positif ; **2+** = équivoque → **ISH** (amplification = positif) ; **0** = négatif ; **1+** ou **2+/ISH négatif** = « **HER2-low** », cible du trastuzumab deruxtécan au stade métastatique [S14] ; l'ASCO/CAP (2023) ne fait pas du « HER2-low » une catégorie diagnostique mais demande de bien distinguer IHC 0 et 1+ [S11] |
 | **Ki-67** | IHC | Index de prolifération ; seuils variables selon les laboratoires |
 | **Signatures génomiques** (Oncotype DX, MammaPrint…) | Biologie moléculaire | Aident à décider d'une chimiothérapie adjuvante dans les cancers **RH+/HER2−** de risque intermédiaire [S1] |
 
@@ -310,7 +310,7 @@ Total **3-5 = grade I** ; **6-7 = grade II** ; **8-9 = grade III**.
 | **HER2-enrichi (non luminal)** | RE−, RP−, HER2+ | Chimiothérapie + **anti-HER2** |
 | **Triple négatif** | RE−, RP−, HER2− | **Chimiothérapie** (± immunothérapie, ± inhibiteur de PARP si BRCA muté) |
 
-### 7.5 Classification TNM (AJCC/UICC, 8e édition) — principaux repères [S9 — À VÉRIFIER]
+### 7.5 Classification TNM (AJCC/UICC, 8e édition) — principaux repères [S9]
 
 | Catégorie | Définition simplifiée |
 |---|---|
@@ -324,7 +324,7 @@ Total **3-5 = grade I** ; **6-7 = grade II** ; **8-9 = grade III**.
 | **N3** | Sous-claviculaires (niveau III), mammaires internes + axillaires, ou sus-claviculaires |
 | **M1** | Métastases à distance |
 
-> La 8e édition de l'AJCC associe à ce **stade anatomique** un **stade pronostique** intégrant le grade, les RE, RP et HER2 [S9 — À VÉRIFIER].
+> La 8e édition de l'AJCC associe à ce **stade anatomique** un **stade pronostique** intégrant le grade, les RE, RP et HER2 (et, si disponible, une signature génomique) ; le stade anatomique reste utilisable là où les biomarqueurs ne sont pas disponibles [S9].
 
 ## 8. Diagnostic positif — clinique
 
@@ -490,14 +490,14 @@ Total **3-5 = grade I** ; **6-7 = grade II** ; **8-9 = grade III**.
 | | **Inhibiteurs de l'aromatase** (létrozole, anastrozole, exémestane) | RH+, **ménopausée** (ou non ménopausée sous suppression ovarienne) | **Arthralgies**, **ostéoporose** (ostéodensitométrie, calcium-vitamine D, bisphosphonates selon le risque), dyslipidémie |
 | | **Analogues de la LH-RH** (suppression ovarienne) | Femme non ménopausée à risque élevé | Symptômes de ménopause |
 | | **Durée** : **5 ans**, prolongée jusqu'à 7-10 ans selon le risque [S1] | | |
-| **Inhibiteurs de CDK4/6** | Abémaciclib, ribociclib | **Adjuvant** : RH+/HER2− à **haut risque** de récidive [S1 — À VÉRIFIER] ; **métastatique** : première ligne avec l'hormonothérapie [S15 — À VÉRIFIER] | Neutropénie, diarrhée (abémaciclib), allongement du QT et cytolyse (ribociclib) |
+| **Inhibiteurs de CDK4/6** | Abémaciclib, ribociclib | **Adjuvant** : RH+/HER2− à **haut risque** de récidive [S1 — À VÉRIFIER] ; **métastatique** : première ligne avec l'hormonothérapie [S15] | Neutropénie, diarrhée (abémaciclib), allongement du QT et cytolyse (ribociclib) |
 | **Chimiothérapie** | **Anthracyclines** (épirubicine, doxorubicine) puis **taxanes** (paclitaxel hebdomadaire, docétaxel) ; sels de platine (triple négatif) ; capécitabine | Néo-adjuvante ou adjuvante selon le sous-type et le risque | Alopécie, nausées, **neutropénie fébrile**, **cardiotoxicité** (anthracyclines), neuropathie (taxanes), leucémies secondaires (rares) |
 | **Anti-HER2** | **Trastuzumab** (1 an), **pertuzumab** (si N+ ou néo-adjuvant), **T-DM1** (si maladie résiduelle après néo-adjuvant), **trastuzumab deruxtécan** (métastatique, y compris HER2-low) | Cancers **HER2+** (et HER2-low au stade métastatique) [S1, S14] | **Cardiotoxicité** (surveillance de la FEVG tous les 3 mois), pneumopathie interstitielle (trastuzumab deruxtécan) |
 | **Immunothérapie** | **Pembrolizumab** | Triple négatif **localisé à haut risque** (néo-adjuvant + adjuvant, avec chimiothérapie) ; métastatique PD-L1+ [S1, S12] | Effets immuno-induits (thyroïdite, colite, hépatite, pneumopathie, insuffisance surrénale) |
 | **Inhibiteurs de PARP** | **Olaparib** | Mutation constitutionnelle **BRCA1/2**, HER2−, haut risque (adjuvant, OlympiA) ; métastatique [S13] | Anémie, nausées |
 | **Thérapies osseuses** | Bisphosphonates (acide zolédronique), dénosumab | Adjuvant chez la femme ménopausée (bénéfice sur les rechutes osseuses) ; métastases osseuses | **Ostéonécrose de la mâchoire** (bilan dentaire), hypocalcémie |
 
-> Posologies et schémas : se référer aux protocoles des centres anticancer et aux RCP [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+> Posologies et schémas : volontairement non détaillés dans ce dossier ; se référer aux protocoles des centres anticancer et aux RCP.
 
 ### 13.3 Indications — stratégie (principes ESMO 2024) [S1]
 
@@ -519,7 +519,7 @@ Total **3-5 = grade I** ; **6-7 = grade II** ; **8-9 = grade III**.
 **Cancer localement avancé ou inflammatoire**
 - **Traitement systémique premier** (néo-adjuvant), puis **chirurgie** (mastectomie + curage pour l'inflammatoire), puis **radiothérapie** et traitements adjuvants selon le sous-type.
 
-**Cancer métastatique** (principes) [S15 — À VÉRIFIER]
+**Cancer métastatique** (principes) [S15]
 - **RH+/HER2−** : hormonothérapie **+ inhibiteur de CDK4/6** en première ligne (sauf crise viscérale) ; lignes ultérieures selon les altérations (*PIK3CA*, *ESR1*, BRCA).
 - **HER2+** : double blocage trastuzumab-pertuzumab + taxane, puis trastuzumab deruxtécan.
 - **Triple négatif** : chimiothérapie ± pembrolizumab (PD-L1+), anticorps conjugués, inhibiteurs de PARP (BRCA).
@@ -617,7 +617,7 @@ Cancer infiltrant non métastatique ─► RCP
 ### Questions et commentaires
 
 **1. Quel est votre diagnostic et comment le classez-vous ?**
-Carcinome infiltrant NST du sein gauche, **grade III**, **HER2-enrichi (RE−, RP−, HER2+)**, **cT2 cN1 (M à préciser)** [S2, S9 — À VÉRIFIER]. La patiente a été correctement explorée selon la **triple évaluation** et **avant tout geste chirurgical** [S1].
+Carcinome infiltrant NST du sein gauche, **grade III**, **HER2-enrichi (RE−, RP−, HER2+)**, **cT2 cN1 (M à préciser)** [S2, S9]. La patiente a été correctement explorée selon la **triple évaluation** et **avant tout geste chirurgical** [S1].
 
 **2. Quel bilan d'extension demandez-vous ?**
 Atteinte ganglionnaire clinique et biologie agressive : **bilan systémique** (TDM thoraco-abdomino-pelvienne et scintigraphie osseuse, ou **TEP-TDM**), biologie (NFS, bilan hépatique, calcémie, créatinine) [S1]. Bilan préthérapeutique : **échocardiographie** (FEVG) avant anthracyclines et trastuzumab ; **IRM mammaire** (seins denses, évaluation de la réponse) ; discussion de la **préservation de la fertilité** ; **consultation d'oncogénétique** à discuter (antécédent familial ; critères à vérifier) [S1]. Bilan : pas de métastase.
@@ -783,8 +783,8 @@ Examen clinique tous les 3 à 6 mois pendant les premières années, **mammograp
 |---|---|---|---|
 | **Âge du dépistage organisé** | Europe (classique) : 50-74 ans, tous les 2 ans | Recommandations récentes (ECIBC, USPSTF) : début possible dès 40-45 ans selon les pays [À VÉRIFIER] | En Algérie : zones pilotes, pas de programme national généralisé documenté [S8] |
 | **Bilan d'extension** | ESMO 2024 : réservé aux formes à risque (≥ T3, N+, biologie agressive, symptômes) [S1] | Pratiques extensives encore fréquentes (bilan systématique) | Les bilans inutiles exposent aux faux positifs |
-| **Seuil de positivité des RE** | ASCO/CAP : ≥ 1 % (« RE faiblement positif » 1-10 %) [S11 — À VÉRIFIER] | Certains pays utilisaient historiquement un seuil de 10 % | Les tumeurs RE faibles se comportent souvent comme des triple négatifs |
-| **Classification « HER2-low »** | Concept thérapeutique (trastuzumab deruxtécan au stade métastatique) [S14 — À VÉRIFIER] | Non reconnu comme sous-type biologique distinct par l'OMS 2019 [S2] | |
+| **Seuil de positivité des RE** | ASCO/CAP (recommandation de 2020 sur les récepteurs hormonaux) : ≥ 1 % (« RE faiblement positif » 1-10 %) [référence À VÉRIFIER] | Certains pays utilisaient historiquement un seuil de 10 % | Les tumeurs RE faibles se comportent souvent comme des triple négatifs |
+| **Classification « HER2-low »** | Concept thérapeutique (trastuzumab deruxtécan au stade métastatique) [S14] ; non retenu comme catégorie diagnostique par l'ASCO/CAP 2023 [S11] | Non reconnu comme sous-type biologique distinct par l'OMS 2019 [S2] | |
 | **Curage axillaire si 1-2 ganglions sentinelles envahis** | Désescalade admise (traitement conservateur + radiothérapie) [S1 — À VÉRIFIER] | Curage systématique (pratique ancienne) | Conditions précises d'éligibilité |
 | **Inhibiteurs de CDK4/6 adjuvants** | Indiqués chez les RH+/HER2− à haut risque (critères des essais) [S1 — À VÉRIFIER] | Accès et critères variables selon les agences | Coût élevé |
 | **Fractionnement de la radiothérapie** | Hypofractionnement modéré (15 fractions) ou ultra-hypofractionné (5 fractions) [S1 — À VÉRIFIER] | Schémas classiques en 25 fractions encore utilisés | Avantage logistique majeur pour les patientes éloignées |
@@ -800,14 +800,14 @@ Examen clinique tous les 3 à 6 mois pendant les premières années, **mammograp
 6. **[S6]** Hamdi Cherif M, et al. Time trends of cancer incidence in Setif, Algeria, 1986-2010. *BMC Cancer.* 2014;14:637. — *Vérifiée.*
 7. **[S7]** Hamdi Cherif M, et al. Registre du cancer de Sétif : incidence, tendance et survie, 1986-2005. *J Afr Cancer.* 2010. — *Vérifiée.*
 8. **[S8]** Ministère de la Santé (Algérie). Plan national cancer 2015-2019. — *Existence vérifiée par sources secondaires ; texte non consulté.*
-9. **[S9]** AJCC Cancer Staging Manual, 8th ed. 2017. — *Non revérifiée [À VÉRIFIER].*
-10. **[S10]** Elston CW, Ellis IO. *Histopathology.* 1991;19(5):403-410. — *Non revérifiée [À VÉRIFIER].*
-11. **[S11]** Wolff AC, et al. ASCO/CAP HER2 testing guideline. — *Non revérifiée [À VÉRIFIER].*
+9. **[S9]** AJCC Cancer Staging Manual, 8th ed. 2017. — *Vérifiée (recherche web lors de l'audit).*
+10. **[S10]** Elston CW, Ellis IO. *Histopathology.* 1991;19(5):403-410 (PMID 1757079). — *Vérifiée (audit).*
+11. **[S11]** Wolff AC, et al. HER2 testing in breast cancer: ASCO-CAP guideline update. *J Clin Oncol.* 2023;41(22):3867-3872. — *Vérifiée (audit).*
 12. **[S12]** Schmid P, et al. KEYNOTE-522. *N Engl J Med.* 2020;382(9):810-821 ; survie sans événement : 2022;386(6):556-567. — *Vérifiée (PubMed, recherche web lors de l'audit).*
 13. **[S13]** Tutt ANJ, et al. OlympiA. *N Engl J Med.* 2021;384(25):2394-2405. doi:10.1056/NEJMoa2105215. — *Vérifiée (recherche web lors de l'audit).*
-14. **[S14]** Modi S, et al. DESTINY-Breast04. *N Engl J Med.* 2022. — *Non revérifiée [À VÉRIFIER].*
-15. **[S15]** Gennari A, et al. ESMO metastatic breast cancer guideline. *Ann Oncol.* 2021. — *Non revérifiée [À VÉRIFIER].*
+14. **[S14]** Modi S, et al. DESTINY-Breast04. *N Engl J Med.* 2022;387(1):9-20. doi:10.1056/NEJMoa2203690. — *Vérifiée (audit).*
+15. **[S15]** Gennari A, et al. ESMO metastatic breast cancer guideline. *Ann Oncol.* 2021;32(12):1475-1495. doi:10.1016/j.annonc.2021.09.019. — *Vérifiée (audit).*
 
-> **Audit (AUD-01/AUD-02, 19/11/2026)** : classification OMS 2019, grade de Nottingham, BI-RADS 5e édition, TNM AJCC 8, sous-types de substitution et stratégies ESMO 2024 relus ; aucune erreur critique. KEYNOTE-522 et OlympiA vérifiés ; S9-S11, S14, S15 restent à vérifier. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0003.md`.
+> **Audit (AUD-01/AUD-02, 19/11/2026)** : classification OMS 2019, grade de Nottingham, BI-RADS 5e édition, TNM AJCC 8, sous-types de substitution et stratégies ESMO 2024 relus ; aucune erreur critique. les références S9 à S15 (dont KEYNOTE-522, OlympiA, DESTINY-Breast04, ESMO 2021) ont été vérifiées ; le texte intégral d'ESMO 2024 n'a pas pu être consulté (modalités marquées [À VÉRIFIER]). Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0003.md`.
 
 > **Note de traçabilité** : S1 à S8 confirmées par recherche web le 19/11/2026 ; S9 à S15 n'ont pas pu être revérifiées (budget de recherche de la session épuisé) et doivent être contrôlées lors de l'audit, de même que toutes les mentions [À VÉRIFIER].
