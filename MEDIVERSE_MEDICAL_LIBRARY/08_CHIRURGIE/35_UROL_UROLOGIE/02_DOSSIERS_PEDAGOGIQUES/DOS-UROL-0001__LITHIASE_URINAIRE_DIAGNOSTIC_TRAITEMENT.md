@@ -6,11 +6,17 @@ sous_specialite: "Lithiase urinaire"
 items_residanat: [RES-CHI-023, RES-CHI-030]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-UROL-0001.md
 sources:
   - id: S1
     reference: "Skolarikos A, Geraghty R, Somani B, Tailly T, Jung H, Neisius A, Petřík A, Kamphuis GM, et al. European Association of Urology Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol. 2025;88(1):64-75."
@@ -186,7 +192,7 @@ mots_cles: [lithiase urinaire, colique néphrétique, colique néphrétique comp
 # Lithiase urinaire : diagnostic et traitement (incluant la colique néphrétique compliquée)
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19) — corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Les recommandations EAU sont actualisées chaque année en ligne ; l'article de synthèse 2025 [S1] a été vérifié, l'édition en ligne 2026 [S2] n'a pas été lue en texte intégral. Les seuils chiffrés marqués `[À VÉRIFIER]` doivent être confrontés à la version en vigueur lors de l'audit.
 
 **Items du programme couverts** : RES-CHI-023 — « Lithiase urinaire : Diagnostic - traitement. » ; lien direct avec RES-CHI-030 — « Conduite à tenir devant une colique néphrétique. » (la colique néphrétique simple et compliquée est traitée ici en détail au § 13 et au § 16 ; un dossier dédié à RES-CHI-030 pourra renvoyer à ces sections).

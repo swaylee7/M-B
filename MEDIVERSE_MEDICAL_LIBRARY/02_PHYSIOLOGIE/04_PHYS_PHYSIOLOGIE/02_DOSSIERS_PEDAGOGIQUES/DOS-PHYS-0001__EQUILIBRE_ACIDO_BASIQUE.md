@@ -6,11 +6,18 @@ sous_specialite: "Physiologie rénale et respiratoire — équilibre acido-basiq
 items_residanat: [RES-SF-014]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-13 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHYS-0001.md
+    remarque: "Textes intégraux relus : SRLF/SFMU 2019 (PMC6695455 : R1.3, R3.2, R3.5–R3.14, valeurs du TA, BICAR-ICU) et consensus 2024 sur les crises hyperglycémiques (version Diabetologia, PMC11343900 : critères D-K-A, bicarbonate si pH < 7,0). Formules (Henderson, Winter, 0,7 ; 0,1/0,35 ; 0,2/0,4), TA ± K+, correction par l'albumine, delta ratio, trou osmolaire et valeurs normales conformes. Critères de l'acidocétose alignés sur DOS-DIAB-0002 ; QCM 4 (gaz incohérents) corrigé ; marqueur de posologie levé (aucune dose proposée, renvois sourcés)."
 sources:
   - id: S1
     reference: "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Philadelphia : Elsevier ; 2021 (catalogue Mediverse OUV-0170) — chapitres consacrés à la régulation acido-basique, consultés comme ouvrage de référence, non reproduits."
@@ -178,7 +185,7 @@ mots_cles: [équilibre acido-basique, pH, Henderson-Hasselbalch, bicarbonates, P
 # Équilibre acido-basique : équation d'Henderson-Hasselbalch, systèmes tampons, régulation pulmonaire et rénale — interprétation des gaz du sang
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les seuils, coefficients de compensation et valeurs de référence doivent être confrontés aux valeurs du laboratoire local ; aucune posologie n'est proposée dans ce dossier de sciences fondamentales.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1) ; relecture enseignante requise. Les seuils, coefficients de compensation et valeurs de référence doivent être confrontés aux valeurs du laboratoire local ; aucune posologie n'est proposée dans ce dossier de sciences fondamentales.
 
 **Items du programme couverts** : RES-SF-014 — « Équilibre acido-basique : équation d'Henderson-Hasselbalch, systèmes tampons, régulation pulmonaire et rénale ».
 
@@ -468,7 +475,7 @@ La **chlorurie** distingue les alcaloses « chlorosensibles » (Cl- urinaire bas
 
 ### 8.5 Acidose respiratoire
 
-Toute hypoventilation alvéolaire relative élève la PaCO2. Dans la phase aiguë, seul le tamponnement non bicarbonate (hémoglobine, protéines) intervient, d'où une faible élévation des bicarbonates. Après 3 à 5 jours, le rein augmente l'excrétion acide et la réabsorption de bicarbonates. En air ambiant, l'hypercapnie s'accompagne obligatoirement d'une hypoxémie (équation des gaz alvéolaires) ; l'oxygénothérapie peut masquer celle-ci sans corriger l'hypercapnie [S20].
+Toute hypoventilation alvéolaire relative élève la PaCO2. Dans la phase aiguë, seul le tamponnement non bicarbonate (hémoglobine, protéines) intervient, d'où une faible élévation des bicarbonates. Après 3 à 5 jours, le rein augmente l'excrétion acide et la réabsorption de bicarbonates. En air ambiant, toute élévation de la PaCO2 abaisse la PAO2 (équation des gaz alvéolaires) : une hypercapnie notable s'accompagne donc d'une hypoxémie ; l'oxygénothérapie peut masquer celle-ci sans corriger l'hypercapnie [S20].
 
 ### 8.6 Alcalose respiratoire
 
@@ -584,7 +591,7 @@ Ionogramme sanguin complet (Na+, K+, Cl-, CO2 total), urée, créatinine, glycé
 |---|---|---|
 | **Acidose lactique de type A** (hypoxie tissulaire) | lactate | choc (septique, cardiogénique, hémorragique), arrêt cardiaque, hypoxémie profonde, ischémie mésentérique, convulsions prolongées |
 | **Acidose lactique de type B** (sans hypoperfusion évidente) | lactate | metformine (surtout avec insuffisance rénale), insuffisance hépatique, hémopathies malignes, déficit en thiamine, intoxication au cyanure ou au monoxyde de carbone, stimulation β-adrénergique [S13] |
-| **Acidocétose diabétique** | β-hydroxybutyrate, acétoacétate | hyperglycémie (souvent > 11 mmol/L, parfois normale sous inhibiteurs de SGLT2), cétonémie ≥ 3 mmol/L [S19] |
+| **Acidocétose diabétique** | β-hydroxybutyrate, acétoacétate | critères du consensus ADA/EASD/JBDS/AACE/DTS 2024, tous trois requis : **D** = glycémie ≥ 11,1 mmol/L (200 mg/dL) **ou** diabète connu quelle que soit la glycémie (formes euglycémiques, notamment sous inhibiteurs de SGLT2) ; **K** = β-hydroxybutyrate ≥ 3,0 mmol/L (ou cétonurie ≥ 2+) ; **A** = pH < 7,30 et/ou bicarbonates < 18 mmol/L [S19] (voir DOS-DIAB-0002) |
 | **Acidocétose alcoolique et de jeûne** | corps cétoniques | glycémie normale ou basse, contexte d'éthylisme, vomissements, jeûne |
 | **Insuffisance rénale (avancée)** | sulfates, phosphates, urates | au stade précoce, l'acidose est plutôt hyperchlorémique |
 | **Méthanol** | formiate | trou osmolaire élevé, troubles visuels |
@@ -717,9 +724,9 @@ Le panel d'experts SRLF/SFMU (2019) [S11] :
 - recommande « probablement » de **ne pas** l'administrer dans l'**acidocétose diabétique** (grade 2−) ;
 - suggère son utilisation dans l'**intoxication salicylée** quel que soit le pH (avis d'experts).
 
-L'essai **BICAR-ICU** (389 patients de réanimation avec pH ≤ 7,20, PaCO2 ≤ 45 mmHg et bicarbonates ≤ 20 mmol/L) n'a pas montré d'effet sur le critère principal composite (décès toutes causes à J28 et présence d'au moins une défaillance d'organe à J7), mais une meilleure survie à J28 dans la strate prédéfinie des patients ayant une insuffisance rénale aiguë AKIN 2-3 ; alcalose métabolique, hypernatrémie et hypocalcémie étaient plus fréquentes dans le groupe bicarbonate [S17]. La Surviving Sepsis Campaign 2021 suggère de même de réserver le bicarbonate aux patients en choc septique avec pH ≤ 7,2 et insuffisance rénale aiguë AKIN 2-3, et recommande de ne pas l'utiliser pour améliorer l'hémodynamique dans l'acidose lactique liée à l'hypoperfusion [S18].
+L'essai **BICAR-ICU** (389 patients de réanimation avec pH ≤ 7,20, PaCO2 ≤ 45 mmHg et bicarbonates ≤ 20 mmol/L) n'a pas montré d'effet sur le critère principal composite (décès toutes causes à J28 et présence d'au moins une défaillance d'organe à J7), mais une meilleure survie à J28 dans la strate prédéfinie des patients ayant une insuffisance rénale aiguë AKIN 2-3 ; alcalose métabolique, hypernatrémie et hypocalcémie étaient plus fréquentes dans le groupe bicarbonate [S17]. La Surviving Sepsis Campaign 2021 suggère de même de réserver le bicarbonate aux patients en choc septique avec pH ≤ 7,2 et insuffisance rénale aiguë AKIN 2-3, et suggère (recommandation faible) de ne pas l'utiliser pour améliorer l'hémodynamique dans l'acidose lactique liée à l'hypoperfusion [S18].
 
-Les doses et modalités relèvent des protocoles de réanimation : **[POSOLOGIE À VÉRIFIER — protocole local]**. Effets indésirables à connaître : surcharge sodée et volémique, hypernatrémie, hypokaliémie, baisse du calcium ionisé, production de CO2 (aggravation d'une acidose intracellulaire si la ventilation n'est pas augmentée).
+Les doses et modalités relèvent des protocoles de réanimation et ne sont pas détaillées dans ce dossier de sciences fondamentales : dans BICAR-ICU, le bicarbonate de sodium à 4,2 % était perfusé de façon à obtenir un pH ≥ 7,30 [S11, S17] ; dans l'acidocétose, le consensus de 2024 ne l'envisage que si le pH est < 7,0 (modalités : DOS-DIAB-0002) [S19]. Effets indésirables à connaître : surcharge sodée et volémique, hypernatrémie, hypokaliémie, baisse du calcium ionisé, production de CO2 (aggravation d'une acidose intracellulaire si la ventilation n'est pas augmentée).
 
 ### 14.3 Épuration extrarénale
 
@@ -821,7 +828,7 @@ Biologie : glycémie 28 mmol/L ; Na+ 132 mmol/L ; K+ 5,4 mmol/L ; Cl- 88 mmol/L 
 4. *Trou anionique ?* TA = 132 − (88 + 9) = **35 mmol/L** (albumine normale, pas de correction). Acidose à TA très augmenté, expliquée par la cétonémie à 6,2 mmol/L : **acidocétose diabétique**.
 5. *Delta ratio ?* ΔTA = 35 − 12 = 23 ; ΔHCO3- = 24 − 9 = 15 ; delta ratio ≈ **1,5**. Pour une acidocétose, un rapport voisin de 1 serait attendu ; une valeur > 1 (et, dans d'autres cas, > 2) doit faire rechercher une **alcalose métabolique associée** liée aux vomissements : la chlorémie basse (88 mmol/L) va dans ce sens. Ici, l'argument est modéré ; il faut surtout retenir que les vomissements ont « soutenu » les bicarbonates et que l'acidose réelle est plus sévère que ne le suggèrent les bicarbonates.
 6. *Kaliémie ?* Le K+ à 5,4 mmol/L reflète la carence en insuline et l'hyperosmolarité ; le capital potassique est en réalité effondré (vomissements, diurèse osmotique). L'insulinothérapie fera chuter la kaliémie : la surveillance et la supplémentation sont indispensables [S19].
-7. *Bicarbonate ?* Non indiqué : le panel SRLF/SFMU recommande « probablement » de ne pas administrer de bicarbonate dans l'acidocétose diabétique [S11]. Le traitement repose sur la réhydratation, l'insuline intraveineuse continue sans bolus initial et la supplémentation potassique [S11, S19].
+7. *Bicarbonate ?* Non indiqué : le panel SRLF/SFMU recommande « probablement » de ne pas administrer de bicarbonate dans l'acidocétose diabétique [S11]. Le traitement repose sur la réhydratation, l'insuline intraveineuse continue sans bolus initial (le consensus de 2024 ne prévoit un bolus que si l'accès veineux doit être retardé) et la supplémentation potassique [S11, S19].
 8. *Évolution attendue ?* En phase de récupération, une acidose hyperchlorémique (TA normalisé mais HCO3- encore bas) est fréquente : perte urinaire des cétoanions et apports de NaCl. Elle ne doit pas être confondue avec une persistance de l'acidocétose ; la cétonémie fait la différence.
 
 **Synthèse** : acidose métabolique à TA augmenté par acidocétose diabétique, compensée, avec une probable composante d'alcalose métabolique de vomissements.
@@ -919,7 +926,7 @@ Concernant la régulation rénale de l'équilibre acido-basique, quelles proposi
 
 ### QCM 4 — Gaz du sang — formule de Winter et trouble mixte
 
-Un patient a les gaz du sang artériels suivants : pH 7,25 ; PaCO2 32 mmHg ; HCO3- 12 mmol/L. Quelles propositions sont exactes ?
+Un patient a les gaz du sang artériels suivants : pH 7,20 ; PaCO2 32 mmHg ; HCO3- 12 mmol/L. Quelles propositions sont exactes ?
 
 - **A.** Le trouble primaire est une acidose métabolique.
 - **B.** La PaCO2 attendue selon la formule de Winter est comprise entre 24 et 28 mmHg.
@@ -929,7 +936,7 @@ Un patient a les gaz du sang artériels suivants : pH 7,25 ; PaCO2 32 mmHg ; HCO
 
 **Réponse(s) : A, B, D.** PaCO2 attendue = 1,5 × 12 + 8 ± 2 = 26 ± 2 mmHg. Une PaCO2 mesurée à 32 mmHg est trop haute : la ventilation est insuffisante (épuisement, sédation, BPCO), d'où une acidose mixte métabolique et respiratoire.
 
-- A — Vrai : pH bas et bicarbonates bas.
+- A — Vrai : pH bas et bicarbonates bas (contrôle de cohérence : [H+] = 24 × 32 / 12 = 64 nmol/L, soit un pH voisin de 7,19).
 - B — Vrai : 26 ± 2.
 - C — Faux : PaCO2 > 28.
 - D — Vrai : PaCO2 supérieure à la valeur attendue.
@@ -1019,7 +1026,7 @@ Devant une acidose métabolique à trou anionique normal, quelles propositions s
 | **Coefficients de compensation** | Acidose respiratoire chronique : 0,35 ; alcalose respiratoire chronique : 0,4 (Adrogué et Madias 2010 [S6]) | Autres sources : 0,4 et 0,5 | Ce sont des régressions empiriques ; privilégier l'esprit (sens et ordre de grandeur) plutôt qu'une précision illusoire. |
 | **Valeur normale du TA** | 12 ± 4 mmol/L (sans K+) ; 16 ± 4 (avec K+) [S11] | Valeurs plus basses avec les automates modernes [S8] | Utiliser la norme du laboratoire local. |
 | **Bicarbonate dans le choc septique** | SSC 2021 : pas de bicarbonate pour améliorer l'hémodynamique dans l'acidose lactique d'hypoperfusion ; bicarbonate suggéré si pH ≤ 7,2 avec insuffisance rénale aiguë AKIN 2-3 [S18] | SRLF/SFMU 2019 : position concordante pour l'acidémie sévère avec insuffisance rénale aiguë (grade 2+) [S11] | Convergence fondée sur la même source principale (BICAR-ICU [S17]), dont le bénéfice provient d'une analyse de strate. |
-| **Acidocétose diabétique** | SRLF/SFMU 2019 : probablement pas de bicarbonate (grade 2−) [S11] | Consensus ADA/EASD/JBDS/AACE/DTS 2024 : bicarbonate non recommandé en routine, discuté seulement dans les acidémies extrêmes [S19] [À VÉRIFIER — seuil exact dans le texte intégral] | Les deux textes convergent sur l'absence d'usage systématique. |
+| **Acidocétose diabétique** | SRLF/SFMU 2019 : probablement pas de bicarbonate (grade 2−) [S11] | Consensus ADA/EASD/JBDS/AACE/DTS 2024 : bicarbonate non recommandé en routine, à envisager seulement si l'acidose est sévère (pH < 7,0) [S19] | Les deux textes convergent sur l'absence d'usage systématique. |
 
 Aucune recommandation algérienne spécifique à l'interprétation des gaz du sang n'a été identifiée pendant la rédaction ; les protocoles des services de réanimation et d'urgence des CHU font référence localement.
 
@@ -1048,4 +1055,4 @@ Aucune recommandation algérienne spécifique à l'interprétation des gaz du sa
 19. [S19] Umpierrez GE, Davis GM, ElSayed NA, et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. *Diabetes Care*. 2024;47(8):1257-1275. doi:10.2337/dci24-0032.
 20. [S20] Epstein SK, Singh N. Respiratory acidosis. *Respir Care*. 2001;46(4):366-383.
 
-*Références vérifiées pendant la session via l'API Europe PMC (titre, revue, année, volume, pages, DOI/PMID) ; ouvrages vérifiés via le catalogue Mediverse. Aucun texte ni aucune figure de ces sources n'est reproduit.*
+*Références vérifiées pendant la session via l'API Europe PMC (titre, revue, année, volume, pages, DOI/PMID) ; ouvrages vérifiés via le catalogue Mediverse. Audit du 2026-11-19 : textes intégraux de [S11] (PMC6695455) et de [S19] (version Diabetologia, PMC11343900) relus ; résumé de [S17] relu (PubMed 29910040). Aucun texte ni aucune figure de ces sources n'est reproduit.*

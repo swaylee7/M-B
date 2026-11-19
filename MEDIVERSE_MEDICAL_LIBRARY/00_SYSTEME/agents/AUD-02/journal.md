@@ -90,3 +90,49 @@ Mission : Audit des posologies et contre-indications
   - 10 cas modifiés ; 7 `audite_valide` et 4 `audite_corrections_requises` (CAS-RHUM-0901, CAS-RHUM-0902, CAS-MINT-0902, CAS-DERM-0901).
 - Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-RHUM-0001.md`, `DOS-RHUM-0002.md`, `DOS-MINT-0001.md`, `DOS-MINT-0002.md`, `DOS-DERM-0001.md`.
 - État : `00_SYSTEME/agents/AUD-01/etat_DOS-09.json`. Aucune commande git.
+- 2026-11-19T03:50:00+00:00 — Volet posologique (AUD-02), audit conjoint avec AUD-01, des dossiers DOS-11 (DOS-UROL-0001, DOS-UROL-0002, DOS-TRAU-0001, DOS-TRAU-0002, DOS-ORTH-0001) et des lots DOS-11. Bilan :
+  - 34 marqueurs `[POSOLOGIE À VÉRIFIER]` au départ ; 21 levés ou regroupés, chacun avec une source nommée (RCP, GPIP 2023, PIDS/IDSA 2021, NICE NG89) ; 13 restants ;
+  - aucune erreur de dose (0 critique) ;
+  - corrections majeures : forme 8/1 de l'amoxicilline-acide clavulanique à 80 mg/kg/j ; restriction d'âge de la desmopressine.
+  Détails : `00_SYSTEME/agents/AUD-01/rapports/` et `00_SYSTEME/agents/AUD-01/etat_DOS-11.json`.
+- 2026-11-19T03:54:16+00:00 — **Session d'audit scientifique et posologique (AUD-01, tenue conjointement avec AUD-02)** des dossiers du rédacteur DOS-12 :
+  - dossiers DOS-ORL-0001 (OMA), DOS-ORL-0002 (épistaxis), DOS-ORL-0003 (cancer du cavum), DOS-NCHI-0001 (TCE) et DOS-OPHT-0001 (glaucome par fermeture de l'angle) ;
+  - lots `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-12.json` (60 QCM) et `20_CAS_CLINIQUES/lots/DOS-12.json` (10 cas).
+  J'ai d'abord lu PROTOCOLE_AUDIT.md, CONVENTIONS.md et le catalogue, puis les 5 dossiers et les 2 lots en entier.
+- Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/` (5 dossiers `*.avant_audit_AUD-01`, lots `DOS-12.avant_audit_AUD-01.json`).
+- Textes intégraux relus :
+  - fiches HAS « OMA purulente de l'enfant » (mise à jour du 14/05/2025) et « de l'adulte » (13/05/2025), sur has-sante.fr ;
+  - synthèse HAS 2024 sur les durées d'antibiothérapie (DOC-00079) ;
+  - arrêté du 03/07/2018 sur le calendrier vaccinal (DOC-00070 : « anti-pneumococcique 13 » à 2, 4 et 12 mois) ;
+  - synthèse HAS-GEHT 2008 sur les AVK (téléchargée) ;
+  - guide européen 2026 sur les hémorragies sous anticoagulants (PMC13344178) ;
+  - NICE NG232 (nice.org.uk) ;
+  - Pan 2024, TNM-9 du nasopharynx (PMC11581663) ;
+  - EGS 4e édition, chapitres 2 et 3 (PMC5583685, PMC5583689) ;
+  - Ramdani-Bouguessa 2015 (pneumocoque en Algérie, PMC4475694) ;
+  - Hamdi Cherif 2014 (registre de Sétif, PMC4164767) ;
+  - Feng 2009 (PMC2768108).
+- Résumés PubMed : SFORL 2017 (HTA et antithrombotiques), NoPAC, Laouamri 2001, Intergroup 0099, Sun 2016, Zhang 2019 et 2016, KCSG-HN10-02, CRASH-3, RESCUEicp, CCHR, EAGLE, ZAP, Tham 2014, Cochrane 2023 (×2), BTF 2007 (osmothérapie).
+- 1 recherche web (RFE SFAR 2016, texte non trouvé). Hôtes inaccessibles : sfar.org, HAL / archives-ouvertes, dumas.ccsd.cnrs.fr, api.crossref.org, infectiologie.com, journals.lww.com, base-donnees-publique.medicaments.gouv.fr, dailymed.
+- Résultats (tous les dossiers en version 1.1) :
+  - DOS-ORL-0001 : 6 corrections (0 critique / 0 majeure / 6 mineures) → **audite_valide** ; 2 marqueurs levés, 0 restant.
+  - DOS-ORL-0002 : 9 corrections (0/0/9) → audite_corrections_requises ; 4 marqueurs restants (acide tranexamique oral dans la THH, lidocaïne avec vasoconstricteur, CCP pour un anti-Xa, desmopressine).
+  - DOS-ORL-0003 : 11 corrections (0/0/11) → audite_corrections_requises ; 0 marqueur restant (2 levés : doses des essais Intergroup 0099, GP, TPF et KCSG). ESMO et CSCO-ASCO non relus en texte intégral.
+  - DOS-NCHI-0001 : 9 corrections (0/0/9) → audite_corrections_requises ; 4 marqueurs restants (SSH de l'adulte, phénytoïne, CCP pour un anti-Xa, SSH dans le cas). Texte de la SFAR 2016 inaccessible.
+  - DOS-OPHT-0001 : 11 corrections (0/2/9) → audite_corrections_requises ; 8 marqueurs levés (EGS 2017), 0 restant.
+- **Aucune erreur critique.** Deux erreurs majeures, toutes deux dans DOS-OPHT-0001 :
+  - mannitol à « 1-2 g/kg » non sourcé, ramené à 1,0-1,5 g/kg selon l'EGS ;
+  - QCM-OPHT-1203 : distracteur ambigu (la pilocarpine peut précipiter une fermeture de l'angle), remplacé.
+- Autres apports :
+  - antagonisation des AVK (HAS 2008) et des AOD (idarucizumab 5 g, andexanet alfa selon le RCP) ;
+  - divergence HAS 2008 / NICE pour le TC sous AVK ;
+  - TNM-9 (précisions T3/T4) et TNM-8 contrôlés sur Pan 2024 ;
+  - référence de Marshall 1991 confirmée ;
+  - données algériennes sourcées ajoutées : pneumocoque 2005-2012, registre de Sétif ;
+  - affirmations algériennes non sourcées reformulées avec `[À VÉRIFIER]`.
+- Lots (écrits avec `ecrire_json`, JSON validé avec python3, concordance des 50 QCM reproduites dans les dossiers vérifiée) :
+  - 60 QCM `audite_valide` (QCM-OPHT-1203 corrigée) ;
+  - cas : 5 `audite_valide` (CAS-ORL-1201, 1203, 1205, 1206, CAS-OPHT-1201) et 5 `audite_corrections_requises` (CAS-ORL-1202, 1204, CAS-NCHI-1201, 1202, CAS-OPHT-1202).
+  - `valider.py` : 0 erreur (rapport commun de validation régénéré par le script).
+- Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0001.md`, `DOS-ORL-0002.md`, `DOS-ORL-0003.md`, `DOS-NCHI-0001.md`, `DOS-OPHT-0001.md`. État : `00_SYSTEME/agents/AUD-01/etat_DOS-12.json` (etat.json non réécrit).
+- Traçabilité : une commande `git diff --stat` en lecture seule a été lancée par inadvertance pour vérifier un fichier (aucune modification) ; aucune autre commande git.

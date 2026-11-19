@@ -72,9 +72,15 @@
           "date": "2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Posologies (amoxicilline 80 mg/kg/j en 2 prises 10 jours ; paracétamol 60 mg/kg/j) conformes à la fiche HAS enfant (mise à jour 2025, relue) ; calendrier VPC13 2-4-12 mois confirmé (arrêté 2018 relu)."
+      }
     },
     {
       "id": "CAS-ORL-1202",
@@ -145,9 +151,15 @@
           "date": "2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Tableau et conduite conformes ; posologie de la céphalosporine de 3e génération injectable (mastoïdite) non vérifiée : marqueur maintenu."
+      }
     },
     {
       "id": "CAS-ORL-1203",
@@ -181,7 +193,7 @@
         "Contrôle de l'hémoglobine et de l'INR après correction"
       ],
       "diagnostic_final": "Épistaxis postérieure droite grave par saignement de branches de l'artère sphénopalatine, entretenue par un surdosage en AVK (interaction avec le cotrimoxazole) et une poussée hypertensive.",
-      "traitement": "Voie veineuse, remplissage prudent, transfusion de 2 culots globulaires compte tenu de la cardiopathie et de la mauvaise tolérance. Méchage antérieur résorbable inefficace → tamponnement antéro-postérieur par sonde à double ballonnet, hospitalisation avec surveillance de la SpO2. Épistaxis non contrôlée sous AVK : arrêt de l'acénocoumarol, vitamine K et concentré de complexe prothrombinique selon le protocole local [POSOLOGIE À VÉRIFIER — RCP / protocole local], contrôle de l'INR. Antalgie, anxiolyse, contrôle progressif de la PA. Récidive à l'ablation du tamponnement (H48) → coagulation endoscopique de l'artère sphénopalatine droite sous anesthésie générale.",
+      "traitement": "Voie veineuse, remplissage prudent, transfusion de 2 culots globulaires compte tenu de la cardiopathie et de la mauvaise tolérance. Méchage antérieur résorbable inefficace → tamponnement antéro-postérieur par sonde à double ballonnet, hospitalisation avec surveillance de la SpO2. Épistaxis non contrôlée sous AVK (hémorragie grave au sens de la HAS : échec des moyens usuels, retentissement hémodynamique, transfusion) : arrêt de l'acénocoumarol, CCP à dose adaptée à l'INR selon le RCP (25 UI/kg, soit environ 2 000 UI pour 78 kg, si l'INR n'était pas disponible) et vitamine K 10 mg ; INR à 30 minutes (objectif < 1,5) puis à 6-8 heures (HAS 2008). Antalgie, anxiolyse, contrôle progressif de la PA. Récidive à l'ablation du tamponnement (H48) → coagulation endoscopique de l'artère sphénopalatine droite sous anesthésie générale.",
       "surveillance": "Pouls, PA, SpO2, saignement pharyngé, hémoglobine, INR quotidien ; recherche de signes d'ischémie myocardique ; réintroduction de l'anticoagulation discutée avec le cardiologue dès que l'hémostase est acquise (risque embolique de la fibrillation atriale).",
       "evolution": "Hémostase obtenue après coagulation endoscopique. Reprise de l'anticoagulation à J3 après concertation, cotrimoxazole remplacé. Consultation de cardiologie pour l'équilibre tensionnel. Endoscopie nasale de contrôle sans lésion tumorale.",
       "explication_pedagogique": "Le cas illustre la gradation des gestes (compression, vasoconstriction, méchage, tamponnement antéro-postérieur, coagulation endoscopique de la sphénopalatine ou embolisation) et la gestion des facteurs d'entretien. La SFORL rappelle qu'il faut rechercher un surdosage et évaluer le risque thrombotique avant de modifier un antithrombotique ; l'arrêt de l'AVK et l'antagonisation sont réservés à l'épistaxis non contrôlée. L'interaction AVK–cotrimoxazole est un piège classique. L'HTA, mesurée systématiquement, doit être contrôlée sans baisse brutale chez ce coronarien.",
@@ -196,7 +208,7 @@
         },
         {
           "question": "Comment gérez-vous l'anticoagulant ?",
-          "reponse": "Rechercher la cause du surdosage (interaction avec le cotrimoxazole), évaluer le risque thrombotique ; l'épistaxis n'étant pas contrôlée, arrêt de l'AVK, vitamine K et concentré de complexe prothrombinique selon le protocole, INR répétés ; reprise de l'anticoagulation en concertation avec le cardiologue dès l'hémostase obtenue."
+          "reponse": "Rechercher la cause du surdosage (interaction avec le cotrimoxazole), évaluer le risque thrombotique ; l'épistaxis n'étant pas contrôlée, arrêt de l'AVK, CCP (dose adaptée à l'INR selon le RCP) et vitamine K 10 mg, INR à 30 minutes puis à 6-8 heures (objectif < 1,5) selon la HAS (2008) ; reprise de l'anticoagulation en concertation avec le cardiologue dès l'hémostase obtenue."
         },
         {
           "question": "Que faites-vous de la pression artérielle à 186/98 mmHg ?",
@@ -223,11 +235,21 @@
         {
           "reference": "Escabasse V et al. SFORL guidelines. Managing epistaxis under coagulation disorder due to antithrombotic therapy. Eur Ann Otorhinolaryngol Head Neck Dis. 2017;134(3):195-199",
           "date": "2017"
+        },
+        {
+          "reference": "HAS, GEHT. Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par AVK. Recommandations professionnelles, avril 2008",
+          "date": "2008"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Marqueur levé : antagonisation de l'AVK selon la HAS 2008 (CCP adapté à l'INR ou 25 UI/kg, vitamine K 10 mg, INR à 30 min et 6-8 h)."
+      }
     },
     {
       "id": "CAS-ORL-1204",
@@ -290,9 +312,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Démarche conforme ; posologie de la supplémentation martiale de l'enfant et protocole de desmopressine non vérifiés : marqueurs maintenus."
+      }
     },
     {
       "id": "CAS-ORL-1205",
@@ -328,7 +356,7 @@
         "Présentation en RCP"
       ],
       "diagnostic_final": "Carcinome non kératinisant indifférencié du nasopharynx T4 N2 M0 : stade IVA selon la TNM-8 (stade III selon la TNM-9).",
-      "traitement": "Décision en RCP. Remise en état dentaire et gouttières fluorées avant l'irradiation. Chimiothérapie d'induction par gemcitabine–cisplatine (3 cycles, schéma de l'essai de Zhang et al.) puis radiochimiothérapie concomitante en IMRT (environ 70 Gy sur la tumeur et les adénopathies) avec cisplatine (dose cumulée visée ≥ 200 mg/m²) [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Soins de support : nutrition (gastrostomie discutée), antiémétiques, hydratation, bains de bouche, antalgiques, sevrage tabagique.",
+      "traitement": "Décision en RCP. Remise en état dentaire et gouttières fluorées avant l'irradiation. Chimiothérapie d'induction par gemcitabine–cisplatine (3 cycles, schéma de l'essai de Zhang et al.) puis radiochimiothérapie concomitante en IMRT (environ 70 Gy sur la tumeur et les adénopathies) avec cisplatine 100 mg/m² toutes les 3 semaines (dose cumulée visée ≥ 200 mg/m²) ; doses des essais de référence (gemcitabine 1 000 mg/m² J1 et J8 + cisplatine 80 mg/m² J1 toutes les 3 semaines, 3 cycles), à adapter à la clairance et à l'audition selon le protocole du centre. Soins de support : nutrition (gastrostomie discutée), antiémétiques, hydratation, bains de bouche, antalgiques, sevrage tabagique.",
       "surveillance": "Pendant le traitement : poids, mucite, fonction rénale, magnésémie, NFS, audition. Après : examen clinique et nasofibroscopie tous les 3 mois pendant 2 ans puis tous les 6 mois, IRM à 3 mois, ADN de l'EBV, TSH tous les 6-12 mois, suivi dentaire à vie, audiogramme.",
       "evolution": "Régression de la diplopie à la fin de l'induction. Réponse complète sur l'IRM à 3 mois, ADN de l'EBV indétectable. À 2 ans : xérostomie modérée et hypothyroïdie substituée ; pas de récidive.",
       "explication_pedagogique": "L'association d'une otite séromuqueuse unilatérale de l'adulte, d'adénopathies cervicales hautes et d'une paralysie du VI est très évocatrice d'un cancer du cavum. L'erreur initiale a été de traiter une OSM unilatérale de l'adulte sans examiner le cavum. L'atteinte des nerfs crâniens classe la tumeur T4. Le traitement des formes localement avancées associe induction (gemcitabine–cisplatine) et radiochimiothérapie concomitante en IMRT ; la chirurgie de la tumeur primitive n'a pas de place.",
@@ -370,11 +398,21 @@
         {
           "reference": "Feng BJ et al. Cannabis, tobacco and domestic fumes intake are associated with NPC in North Africa. Br J Cancer. 2009;101(7):1207-1212",
           "date": "2009"
+        },
+        {
+          "reference": "Zhang Y et al. Gemcitabine and cisplatin induction chemotherapy in nasopharyngeal carcinoma. N Engl J Med. 2019;381(12):1124-1135",
+          "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Classement TNM-8/TNM-9 vérifié sur le tableau 2 de Pan 2024 ; marqueur levé (doses de l'essai GP de Zhang 2019 et cisplatine 100 mg/m² toutes les 3 semaines)."
+      }
     },
     {
       "id": "CAS-ORL-1206",
@@ -410,7 +448,7 @@
         "Arrêt du traitement antituberculeux après avis (absence de preuve)"
       ],
       "diagnostic_final": "Carcinome non kératinisant indifférencié du nasopharynx T2 N3 M0 : stade IVA selon la TNM-8 (N3 car > 6 cm), stade III selon la TNM-9.",
-      "traitement": "RCP. Arrêt du traitement antituberculeux non justifié (après avis). Préservation de la fertilité discutée. Soins dentaires et gouttières fluorées. Chimiothérapie d'induction (gemcitabine–cisplatine) puis radiochimiothérapie concomitante en IMRT avec cisplatine [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Soutien psychologique et scolaire.",
+      "traitement": "RCP. Arrêt du traitement antituberculeux non justifié (après avis). Préservation de la fertilité discutée. Soins dentaires et gouttières fluorées. Chimiothérapie d'induction par gemcitabine–cisplatine (gemcitabine 1 000 mg/m² J1 et J8 + cisplatine 80 mg/m² J1, toutes les 3 semaines, 3 cycles) puis radiochimiothérapie concomitante en IMRT avec cisplatine 100 mg/m² toutes les 3 semaines (dose cumulée visée ≥ 200 mg/m²) ; doses des essais de référence, à adapter à la clairance et à l'audition selon le protocole du centre. Soutien psychologique et scolaire.",
       "surveillance": "Réponse clinique et IRM ; ADN de l'EBV ; suivi au long cours des séquelles (croissance terminale, fonction hypophysaire et thyroïdienne, audition, dents, fertilité), dépistage des seconds cancers.",
       "evolution": "Réponse complète à 3 mois. À 3 ans : pas de récidive ; hypothyroïdie substituée, xérostomie légère ; scolarité poursuivie.",
       "explication_pedagogique": "Dans un pays où la tuberculose ganglionnaire est fréquente, le traitement d'épreuve sans preuve et sans examen ORL est une cause classique de retard diagnostique du cancer du cavum. La forme juvénile du Maghreb est souvent révélée par des adénopathies volumineuses. Le N3 est défini dans la TNM-8 par une taille > 6 cm et/ou une extension sous le cricoïde ; la TNM-9 y ajoute l'extension extraganglionnaire radiologique avancée et reclasse T1-T4 N3 M0 en stade III. Le traitement est identique à celui de l'adulte, avec une attention particulière aux séquelles chez un sujet jeune.",
@@ -444,11 +482,21 @@
         {
           "reference": "Chen YP et al. Nasopharyngeal carcinoma. Lancet. 2019;394(10192):64-80",
           "date": "2019"
+        },
+        {
+          "reference": "Zhang Y et al. Gemcitabine and cisplatin induction chemotherapy in nasopharyngeal carcinoma. N Engl J Med. 2019;381(12):1124-1135",
+          "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "T2N3M0 : IVA (TNM-8) et III (TNM-9) vérifiés ; marqueur levé (doses des essais de référence)."
+      }
     },
     {
       "id": "CAS-NCHI-1201",
@@ -481,14 +529,14 @@
         "Bilan préopératoire : NFS, hémostase, groupe-Rhésus-RAI, ionogramme"
       ],
       "diagnostic_final": "Hématome extradural temporo-pariétal droit de 45 cm³ avec engagement temporal débutant (forme typique avec intervalle libre).",
-      "traitement": "Intubation en séquence rapide avec maintien du rachis en ligne, ventilation en normocapnie, tête à 30°, PAS maintenue ≥ 110 mmHg, osmothérapie (mannitol 20 % ou sérum salé hypertonique) en attendant le bloc [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Transfert sans délai au bloc de neurochirurgie : craniotomie temporo-pariétale droite, évacuation de l'hématome, hémostase de l'artère méningée moyenne, suspension durale. Pas de corticoïdes.",
+      "traitement": "Intubation en séquence rapide avec maintien du rachis en ligne, ventilation en normocapnie, tête à 30°, PAS maintenue ≥ 110 mmHg, osmothérapie en attendant le bloc : mannitol 20 % 0,25 à 1 g/kg (soit 18 à 72 g pour 72 kg ; BTF, 3e édition, 2007) ou sérum salé hypertonique [POSOLOGIE À VÉRIFIER — protocole local pour le SSH]. Transfert sans délai au bloc de neurochirurgie : craniotomie temporo-pariétale droite, évacuation de l'hématome, hémostase de l'artère méningée moyenne, suspension durale. Pas de corticoïdes.",
       "surveillance": "Réanimation : réveil précoce et examen neurologique (GCS, pupilles, motricité) horaire, TDM de contrôle à 24 h ou en cas d'aggravation, PA, SpO2, natrémie, glycémie, température ; prophylaxie anticomitiale précoce à discuter.",
       "evolution": "Réveil à H6 postopératoire, mydriase régressive, hémiparésie gauche récupérée en 48 heures. TDM de contrôle sans récidive. Sortie à J6 avec consignes ; consultation à 1 mois.",
       "explication_pedagogique": "Le tableau classique de l'HED associe perte de connaissance initiale, intervalle libre puis aggravation avec mydriase homolatérale et déficit controlatéral. L'intervalle libre est inconstant ; toute aggravation impose une TDM en extrême urgence. Un HED > 30 cm³ doit être évacué quel que soit le GCS ; opéré avant les lésions irréversibles d'engagement, il a un excellent pronostic. L'erreur serait de laisser repartir sans surveillance ni imagerie un patient à GCS 15 après un choc temporal direct avec perte de connaissance.",
       "questions": [
         {
           "question": "Le patient était à GCS 15 à l'arrivée. Une TDM était-elle indiquée et dans quel délai ?",
-          "reponse": "Pris à la lettre, les critères de NICE NG232 (un seul vomissement, âge < 65 ans, mécanisme non listé) et de la règle canadienne n'imposaient pas de TDM dans l'heure ; ce patient relevait au minimum d'une observation neurologique rapprochée (toutes les 30 minutes) et le jugement clinique (choc temporal direct avec plaie, motard sans casque, perte de connaissance) justifiait une TDM précoce. Toute aggravation impose une TDM en extrême urgence : les règles de décision ne remplacent pas la surveillance."
+          "reponse": "Aucun critère de TDM « dans l'heure » de NICE NG232 n'était présent (GCS 15, un seul vomissement, pas de signe de fracture ni de déficit). En revanche, la perte de connaissance associée à un mécanisme assimilable à un mécanisme dangereux (motard projeté de son engin, situation proche de l'« occupant éjecté d'un véhicule à moteur » des listes de NICE et de la règle canadienne) imposait au minimum une TDM dans les 8 heures selon NICE (critère de risque moyen de la règle canadienne, qui fait aussi poser l'indication de TDM), avec une observation neurologique toutes les 30 minutes ; le jugement clinique (choc temporal direct avec plaie, absence de casque) justifiait une TDM sans attendre. Toute aggravation impose une TDM en extrême urgence : les règles de décision ne remplacent pas la surveillance."
         },
         {
           "question": "Interprétez l'aggravation clinique à H+2 h 30.",
@@ -519,11 +567,21 @@
         {
           "reference": "Carney N et al. Guidelines for the Management of Severe Traumatic Brain Injury, 4th ed. (Brain Trauma Foundation). Neurosurgery. 2017;80(1):6-15",
           "date": "2017"
+        },
+        {
+          "reference": "Brain Trauma Foundation. Guidelines for the management of severe traumatic brain injury. II. Hyperosmolar therapy. J Neurotrauma. 2007;24 Suppl 1:S14-S20",
+          "date": "2007"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Réponse à la question 1 nuancée (mécanisme dangereux assimilable : TDM dans les 8 h selon NICE) ; dose du mannitol sourcée (BTF 2007) ; posologie du SSH non standardisée : marqueur maintenu."
+      }
     },
     {
       "id": "CAS-NCHI-1202",
@@ -606,9 +664,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Objectifs BTF et classification de Marshall III vérifiés ; dose d'acide tranexamique = schéma de l'essai CRASH-3 ; correction de la coagulopathie (fibrinogène, plasma) non chiffrée : marqueur maintenu."
+      }
     },
     {
       "id": "CAS-OPHT-1201",
@@ -642,7 +706,7 @@
         "Kaliémie et fonction rénale avant acétazolamide"
       ],
       "diagnostic_final": "Crise aiguë de fermeture primitive de l'angle de l'œil gauche, déclenchée par des nébulisations d'anticholinergique et de β2-mimétique chez un hypermétrope ; angle étroit controlatéral (suspect de fermeture).",
-      "traitement": "Arrêt de l'ipratropium nébulisé (avis du pneumologue ; adaptation du traitement bronchodilatateur, embout buccal plutôt que masque facial). Acétazolamide IV puis per os avec supplémentation potassique [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Collyres hypotonisants en évitant les bêtabloquants (BPCO sévère) : α2-agoniste et inhibiteur topique de l'anhydrase carbonique ; corticoïde topique. Pilocarpine 1-2 % une fois la PIO en baisse. Mannitol réservé à une PIO restant très élevée, en l'absence de contre-indication. Iridotomie au laser Nd:YAG de l'œil gauche à 48 heures (cornée éclaircie) et de l'œil droit préventivement le même jour. Antalgiques et antiémétiques.",
+      "traitement": "Arrêt de l'ipratropium nébulisé (avis du pneumologue ; adaptation du traitement bronchodilatateur, embout buccal plutôt que masque facial). Acétazolamide 10 mg/kg IV puis relais per os, avec supplémentation potassique (EGS 2017). Collyres hypotonisants en évitant les bêtabloquants (BPCO sévère) : α2-agoniste et inhibiteur topique de l'anhydrase carbonique ; corticoïde topique. Pilocarpine 1-2 % une fois la PIO en baisse. Mannitol réservé à une PIO restant très élevée, en l'absence de contre-indication. Iridotomie au laser Nd:YAG de l'œil gauche à 48 heures (cornée éclaircie) et de l'œil droit préventivement le même jour. Antalgiques et antiémétiques.",
       "surveillance": "PIO horaire initialement, kaliémie, tolérance respiratoire ; après laser : PIO à 1 heure, inflammation, perméabilité des iridotomies, gonioscopie ; fond d'œil, OCT et champ visuel à 1 mois ; suivi au long cours (épaississement du cristallin).",
       "evolution": "PIO à 22 mmHg à H6, puis 14 mmHg à J3. Gonioscopie après iridotomie : angles ouverts aux deux tiers, synéchies limitées à gauche. Acuité visuelle OG revenue à 6/10 ; légère atrophie sectorielle de l'iris. Pas de neuropathie optique au bilan à 1 mois. Discussion ultérieure d'une extraction du cristallin.",
       "explication_pedagogique": "Une céphalée avec vomissements chez un patient hospitalisé recevant des nébulisations d'anticholinergique doit faire examiner les yeux. La crise aiguë associe semi-mydriase aréactive, cornée trouble, chambre étroite et PIO très élevée ; l'œil adelphe à angle étroit conforte le diagnostic. Le traitement médical doit respecter le terrain (bêtabloquants topiques contre-indiqués en cas de BPCO sévère ou d'asthme ; mannitol dangereux en cas d'insuffisance cardiaque). L'iridotomie bilatérale traite le mécanisme et protège l'œil adelphe ; l'extraction du cristallin est une option de fond (EAGLE).",
@@ -657,7 +721,7 @@
         },
         {
           "question": "Quels traitements hypotonisants choisissez-vous et lesquels évitez-vous ?",
-          "reponse": "Acétazolamide (kaliémie et fonction rénale correctes, pas d'allergie aux sulfamides), α2-agoniste et IAC topiques, corticoïde topique, puis pilocarpine quand la PIO baisse ; éviter le timolol (BPCO sévère) ; mannitol seulement si nécessaire et sans contre-indication cardiaque ou rénale."
+          "reponse": "Acétazolamide 10 mg/kg IV ou per os (kaliémie et fonction rénale correctes, pas d'allergie aux sulfamides), α2-agoniste et IAC topiques (ces derniers insuffisants seuls), corticoïde topique, puis pilocarpine 1-2 % (2 à 3 fois en 1 heure) quand la PIO baisse ; éviter le timolol (BPCO sévère) ; mannitol seulement si nécessaire et sans contre-indication cardiaque ou rénale."
         },
         {
           "question": "Quel traitement définitif proposez-vous ?",
@@ -680,11 +744,21 @@
         {
           "reference": "Azuara-Blanco A et al. EAGLE. Lancet. 2016;388(10052):1389-1397",
           "date": "2016"
+        },
+        {
+          "reference": "European Glaucoma Society. Terminology and Guidelines for Glaucoma, 4th Edition — Chapter 2 (Br J Ophthalmol. 2017;101(5):73-127) et Chapter 3 (2017;101(6):130-195)",
+          "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Marqueur levé : acétazolamide 10 mg/kg (EGS 4e éd. 2017, texte intégral relu) ; contre-indication du timolol (BPCO) confirmée."
+      }
     },
     {
       "id": "CAS-OPHT-1202",
@@ -749,9 +823,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-12",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Mécanisme et conduite conformes ; posologie de l'atropine collyre non vérifiée et place de l'acétazolamide (sulfamide) à confirmer : marqueurs maintenus."
+      }
     }
   ]
 }

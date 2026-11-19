@@ -1,0 +1,752 @@
+{
+  "agent": "DOS-11",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-UROL-1101",
+      "titre": "Anurie brutale et douleur lombaire droite chez un homme néphrectomisé",
+      "niveau": "resident",
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023",
+        "RES-CHI-030"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 52 ans, commerçant, diabétique de type 2 obèse (IMC 34 kg/m²), résidant à Oran.",
+      "motif_consultation": "Douleur lombaire droite brutale depuis 20 heures et absence d'émission d'urine depuis la veille au soir.",
+      "antecedents": "Néphrectomie gauche à 30 ans après un traumatisme (accident de la route). Diabète de type 2 traité par metformine. Goutte (deux crises du gros orteil). Pas d'antécédent lithiasique connu.",
+      "symptomes": "Douleur lombaire droite paroxystique irradiant vers la fosse iliaque, nausées ; aucune miction depuis environ 14 heures ; pas de fièvre ni de frissons.",
+      "examen_clinique": "T 37,1 °C ; PA 158/92 mmHg ; FC 98/min ; SpO2 97 %. Fosse lombaire droite douloureuse à l'ébranlement. Pas de globe vésical (vessie vide à l'échographie au lit). Cicatrice de lombotomie gauche. Pas d'œdème.",
+      "biologie": "Créatinine 410 µmol/L (N 60–110 ; 92 µmol/L il y a 3 mois) ; urée 21 mmol/L (N 2,5–7,5) ; K+ 6,1 mmol/L (N 3,5–5,0) ; Na+ 137 mmol/L (N 135–145) ; bicarbonates 18 mmol/L (N 22–28) ; uricémie 560 µmol/L (N 210–420) ; glycémie 9,8 mmol/L ; CRP 12 mg/L (N < 5) ; leucocytes 10,2 G/L (N 4–10). ECG : ondes T amples, pas de trouble conductif. pH urinaire (sondage aller-retour, quelques mL) : 5,0.",
+      "imagerie": "Échographie : dilatation pyélo-calicielle droite modérée, rein gauche absent. Scanner abdomino-pelvien non injecté faible dose : calcul de 9 mm de l'uretère lombaire droit (L4), densité 420 UH, dilatation d'amont ; pas d'infiltration péri-rénale ; ASP : calcul non visible.",
+      "hypotheses_diagnostiques": [
+        "Anurie obstructive sur rein unique par calcul urétéral droit",
+        "Lithiase urique (radiotransparente, densité basse, pH urinaire acide, goutte, diabète, obésité)"
+      ],
+      "diagnostics_differentiels": [
+        "Insuffisance rénale aiguë fonctionnelle (déshydratation, metformine)",
+        "Nécrose tubulaire aiguë",
+        "Obstacle sous-vésical (exclu : vessie vide)",
+        "Caillot ou nécrose papillaire (diabétique)"
+      ],
+      "examens_a_demander": [
+        "Ionogramme répété, gaz du sang veineux",
+        "ECG de surveillance",
+        "ECBU",
+        "Analyse infrarouge du calcul après extraction",
+        "Bilan métabolique à distance (urines de 24 h, pH du réveil)"
+      ],
+      "diagnostic_final": "Colique néphrétique compliquée d'anurie obstructive sur rein unique (calcul urétéral lombaire droit de 9 mm, probablement d'acide urique) avec insuffisance rénale aiguë et hyperkaliémie modérée.",
+      "traitement": "Urgence urologique : traitement de l'hyperkaliémie selon le protocole local (surveillance scopée ; mesures hypokaliémiantes) [POSOLOGIE À VÉRIFIER — protocole local] ; arrêt de la metformine ; pas d'AINS (insuffisance rénale). Antalgie par paracétamol et morphine titrée [POSOLOGIE À VÉRIFIER — RCP]. DÉRIVATION URGENTE des urines : montée de sonde JJ droite (ou néphrostomie percutanée), avec prélèvement d'urine. Surveillance de la levée d'obstacle (diurèse horaire, ionogramme, compensation partielle des pertes). À distance : alcalinisation des urines (citrate de potassium ou bicarbonate) pour tenter une dissolution, allopurinol si hyperuricosurie, puis urétéroscopie si persistance du calcul ; mesures diététiques.",
+      "surveillance": "Diurèse horaire (polyurie de levée d'obstacle), créatinine et ionogramme (K+, Na+) toutes les 6–12 h initialement ; glycémie ; tolérance de la JJ ; contrôle d'imagerie de la dissolution ; pH urinaire sous alcalinisation ; programmation de l'ablation de la JJ.",
+      "evolution": "Reprise immédiate de la diurèse (polyurie de 5 L le premier jour, compensée partiellement) ; créatinine 118 µmol/L à J4. Après 6 semaines d'alcalinisation, le scanner de contrôle montre une disparition du calcul ; ablation de la JJ. Analyse d'un fragment récupéré : acide urique.",
+      "explication_pedagogique": "L'anurie sur rein unique est une CN compliquée qui impose une dérivation urgente, sans tentative de traitement définitif dans l'urgence chez un patient en insuffisance rénale. Le calcul radiotransparent à l'ASP mais visible au scanner avec une densité basse, chez un patient diabétique, obèse et goutteux à pH urinaire acide, oriente vers l'acide urique : c'est la seule lithiase accessible à la dissolution par alcalinisation. Les AINS sont contre-indiqués ici.",
+      "questions": [
+        {
+          "question": "Quels éléments définissent ici une colique néphrétique compliquée ?",
+          "reponse": "L'anurie avec insuffisance rénale aiguë et hyperkaliémie, sur rein unique."
+        },
+        {
+          "question": "Quel geste urgent proposez-vous ?",
+          "reponse": "Une dérivation des urines par sonde JJ ou néphrostomie percutanée (efficacité équivalente), après correction de l'hyperkaliémie menaçante."
+        },
+        {
+          "question": "Pourquoi suspecter un calcul d'acide urique ?",
+          "reponse": "Calcul invisible à l'ASP, visible au scanner avec une densité basse (420 UH), pH urinaire à 5,0, goutte, diabète, obésité."
+        },
+        {
+          "question": "Quel traitement spécifique du calcul peut être tenté ?",
+          "reponse": "Une dissolution par alcalinisation des urines (± allopurinol), avec contrôle d'imagerie ; urétéroscopie en cas d'échec."
+        },
+        {
+          "question": "Que surveiller après le drainage ?",
+          "reponse": "La polyurie de levée d'obstacle, la kaliémie, la natrémie et la créatinine."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        },
+        {
+          "reference": "Meria P et al. 2022 Recommendations of the AFU Lithiasis Committee: Management of symptomatic urinary stones. Prog Urol 2023;33(14):791-811",
+          "date": "2023"
+        },
+        {
+          "reference": "Lemoine S et al. 2022 Recommendations of the AFU Lithiasis Committee: Medical management. Prog Urol 2023;33(14):911-953",
+          "date": "2023"
+        },
+        {
+          "reference": "Pearle MS et al. Optimal method of urgent decompression of the collecting system for obstruction and infection due to ureteral calculi. J Urol 1998;160(4):1260-1264",
+          "date": "1998"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-UROL-1102",
+      "titre": "Lithiase bilatérale récidivante chez un adolescent issu d'un mariage consanguin",
+      "niveau": "residanat",
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 15 ans, lycéen, résidant à Tlemcen ; parents cousins germains.",
+      "motif_consultation": "Troisième épisode de colique néphrétique en 2 ans, cette fois à gauche.",
+      "antecedents": "Deux coliques néphrétiques droites (13 et 14 ans), calculs non analysés, une urétéroscopie à 14 ans. Un oncle paternel « opéré des reins » à plusieurs reprises.",
+      "symptomes": "Douleur lombaire gauche typique depuis 6 heures, sans fièvre ; hématurie macroscopique.",
+      "examen_clinique": "T 37,0 °C ; PA 118/70 mmHg ; fosse lombaire gauche douloureuse ; reste normal ; croissance normale.",
+      "biologie": "Créatinine 78 µmol/L (N 45–90 pour l'âge) ; calcémie 2,38 mmol/L (N 2,20–2,60) ; uricémie 260 µmol/L (N 150–400) ; bicarbonates 25 mmol/L (N 22–28). Bandelette : sang +++, pas de leucocytes ni de nitrites. Cristallurie du matin : cristaux hexagonaux plats. pH urinaire 6,0.",
+      "imagerie": "Scanner non injecté faible dose : calcul de 6 mm de l'uretère pelvien gauche avec dilatation modérée ; plusieurs calculs caliciels bilatéraux (3 à 8 mm), densité modérée (≈ 650 UH) ; ASP : calculs faiblement opaques, aspect « en verre dépoli ».",
+      "hypotheses_diagnostiques": [
+        "Cystinurie (lithiase précoce, bilatérale, récidivante, familiale, consanguinité, cristaux hexagonaux)",
+        "Hyperoxalurie primaire",
+        "Autre lithiase génétique"
+      ],
+      "diagnostics_differentiels": [
+        "Lithiase oxalo-calcique par faible diurèse",
+        "Acidose tubulaire distale",
+        "Lithiase urique",
+        "Uropathie malformative avec stase"
+      ],
+      "examens_a_demander": [
+        "Analyse infrarouge du calcul expulsé ou extrait",
+        "Dosage de la cystinurie des 24 heures (et acides aminés dibasiques)",
+        "Bilan métabolique complet (urines de 24 h)",
+        "Avis néphrologique spécialisé ; conseil génétique et dépistage de la fratrie"
+      ],
+      "diagnostic_final": "Cystinurie révélée par une lithiase cystinique bilatérale récidivante ; colique néphrétique gauche simple sur calcul de l'uretère pelvien.",
+      "traitement": "Colique néphrétique simple : AINS (fonction rénale normale), paracétamol [POSOLOGIE À VÉRIFIER — RCP pédiatrique/adolescent] ; surveillance de l'expulsion ; urétéroscopie si non-expulsion ou complication (les calculs de cystine résistent à la LEC). Traitement de fond spécialisé : diurèse très abondante (> 3 L/j, y compris la nuit), alcalinisation des urines (objectif de pH élevé), réduction du sel et des protéines animales ; thiols (tiopronine) en cas d'échec [POSOLOGIE À VÉRIFIER — RCP / protocole spécialisé]. Dépistage familial.",
+      "surveillance": "Diurèse et pH urinaire (auto-surveillance), cystinurie sous traitement, imagerie annuelle (ou plus fréquente) des calculs résiduels, fonction rénale ; tolérance des thiols (protéinurie, éruption).",
+      "evolution": "Expulsion du calcul gauche à J5. Analyse : cystine pure. Sous traitement, stabilité des calculs caliciels à 1 an ; le frère cadet est dépisté porteur d'une cystinurie asymptomatique.",
+      "explication_pedagogique": "Une lithiase précoce, bilatérale, récidivante et familiale, dans un contexte de consanguinité, doit faire évoquer une lithiase génétique, au premier rang desquelles la cystinurie (autosomique récessive). Les cristaux hexagonaux sont pathognomoniques. La consanguinité est fréquente chez les lithiasiques de l'Ouest algérien (25 %) et la cystine représentait 3,6 % des calculs d'une série de l'Est algérien. L'analyse du calcul et un bilan spécialisé sont indispensables.",
+      "questions": [
+        {
+          "question": "Quels arguments orientent vers une lithiase génétique ?",
+          "reponse": "Début avant 16 ans, bilatéralité, récidives, antécédent familial, consanguinité."
+        },
+        {
+          "question": "Quel examen simple est évocateur de cystinurie ?",
+          "reponse": "La cristallurie montrant des cristaux hexagonaux de cystine."
+        },
+        {
+          "question": "Quel traitement interventionnel est le moins adapté aux calculs de cystine ?",
+          "reponse": "La lithotritie extracorporelle (calculs résistants) ; l'urétéroscopie laser est préférée."
+        },
+        {
+          "question": "Quelles sont les bases du traitement médical ?",
+          "reponse": "Diurèse > 3 L/j, alcalinisation, réduction du sel ; thiols en deuxième ligne, suivi spécialisé."
+        },
+        {
+          "question": "Quelle mesure familiale proposer ?",
+          "reponse": "Le dépistage de la fratrie et un conseil génétique."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Lemoine S et al. 2022 Recommendations of the AFU Lithiasis Committee: Medical management. Prog Urol 2023;33(14):911-953",
+          "date": "2023"
+        },
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        },
+        {
+          "reference": "Abbassene F et al. Adult urolithiasis in Western Algeria: a study of 1104 cases. Tunis Med 2020;98(5):396-403",
+          "date": "2020"
+        },
+        {
+          "reference": "Bouslama S et al. Composition de 359 calculs urinaires de la région Est de l'Algérie. Prog Urol 2016;26(1):41-49",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-UROL-1103",
+      "titre": "Nycturie invalidante chez un homme de 69 ans",
+      "niveau": "residanat",
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 69 ans, retraité de la fonction publique, marié, résidant à Blida.",
+      "motif_consultation": "Se lève 4 fois par nuit pour uriner ; un confrère lui a prescrit de la tamsulosine il y a 3 mois, sans amélioration.",
+      "antecedents": "HTA traitée par amlodipine ; surpoids (IMC 31 kg/m²) ; ronflements importants signalés par l'épouse ; somnolence diurne. Pas de diabète connu.",
+      "symptomes": "Nycturie à 4 levers, mictions nocturnes abondantes ; jet correct le jour ; pas d'urgenturie ni de brûlures ; IPSS 15 (dont nycturie 4/5), qualité de vie 4.",
+      "examen_clinique": "PA 152/88 mmHg ; œdèmes malléolaires discrets. Toucher rectal : prostate de volume modérément augmenté, lisse, élastique, non nodulaire. Pas de globe.",
+      "biologie": "Bandelette urinaire : normale. Glycémie à jeun 5,6 mmol/L (N 3,9–6,1) ; créatinine 84 µmol/L (N 60–110) ; Na+ 139 mmol/L (N 135–145). PSA 1,9 ng/mL (après information).",
+      "imagerie": "Échographie : prostate de 35 mL sans lobe médian ; résidu post-mictionnel 30 mL. Débitmétrie : Qmax 14 mL/s pour 260 mL. Calendrier mictionnel sur 3 jours : diurèse des 24 h 2,4 L dont 1,05 L émis la nuit (≈ 44 %), mictions nocturnes de 250 mL.",
+      "hypotheses_diagnostiques": [
+        "Polyurie nocturne (syndrome d'apnées obstructives du sommeil probable, œdèmes déclives, apports vespéraux)",
+        "STBAU liés à une HBP modérée (contribution mineure)"
+      ],
+      "diagnostics_differentiels": [
+        "Hyperactivité vésicale",
+        "Diabète sucré ou insipide",
+        "Insuffisance cardiaque",
+        "Rétention chronique (exclue : résidu faible)"
+      ],
+      "examens_a_demander": [
+        "Polygraphie ventilatoire ou polysomnographie",
+        "Évaluation cardiaque (BNP, échocardiographie selon la clinique)",
+        "Revue des apports hydriques et des horaires des médicaments",
+        "Natrémie si desmopressine envisagée"
+      ],
+      "diagnostic_final": "Nycturie par polyurie nocturne liée à un syndrome d'apnées obstructives du sommeil (confirmé par polygraphie) chez un homme porteur d'une HBP peu symptomatique sur le plan mictionnel.",
+      "traitement": "Traitement de la cause : appareillage par pression positive continue, perte de poids ; réduction des apports hydriques en soirée, surélévation des jambes l'après-midi, réévaluation de l'amlodipine (œdèmes) avec le médecin traitant. Arrêt de la tamsulosine à discuter (peu utile, hypotension orthostatique possible). Desmopressine seulement en cas de polyurie nocturne persistante, avec contrôle de la natrémie (risque d'hyponatrémie après 65 ans) [POSOLOGIE À VÉRIFIER — RCP].",
+      "surveillance": "Nouveau calendrier mictionnel après 2–3 mois, IPSS, tolérance de l'appareillage, natrémie si desmopressine.",
+      "evolution": "Après 3 mois de pression positive continue et de mesures hygiéno-diététiques : 1 lever par nuit, IPSS 6.",
+      "explication_pedagogique": "La nycturie n'est pas synonyme d'HBP. Le calendrier mictionnel recommandé par l'EAU en cas de nycturie permet d'identifier une polyurie nocturne (part nocturne de la diurèse excessive), dont les causes (apnées du sommeil, insuffisance cardiaque, œdèmes, apports vespéraux) relèvent d'un traitement spécifique. Un alpha-bloquant est logiquement inefficace dans ce contexte.",
+      "questions": [
+        {
+          "question": "Quel examen simple a permis de corriger le diagnostic ?",
+          "reponse": "Le calendrier mictionnel sur 3 jours, montrant une polyurie nocturne."
+        },
+        {
+          "question": "Pourquoi la tamsulosine était-elle peu efficace ?",
+          "reponse": "Le mécanisme principal n'était pas une obstruction prostatique mais une production nocturne excessive d'urine."
+        },
+        {
+          "question": "Quelles causes de polyurie nocturne rechercher ?",
+          "reponse": "Apnées du sommeil, insuffisance cardiaque, œdèmes déclives, apports hydriques vespéraux, diabète, insuffisance rénale."
+        },
+        {
+          "question": "Quel risque impose la prudence avec la desmopressine ?",
+          "reponse": "L'hyponatrémie, surtout après 65 ans : contrôle de la natrémie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222",
+          "date": "2023"
+        },
+        {
+          "reference": "Anract J et al. Non-interventional and medical management of LUTS related to BPH: CTMH guidelines. Fr J Urol 2025;35(11):102952",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-UROL-1104",
+      "titre": "Rétentions aiguës récidivantes sur volumineuse prostate chez un patient anticoagulé",
+      "niveau": "dems",
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 74 ans, ancien agriculteur, résidant à Batna.",
+      "motif_consultation": "Deuxième rétention aiguë d'urine en 4 mois ; échec de deux épreuves de retrait de sonde sous alfuzosine.",
+      "antecedents": "Fibrillation atriale permanente sous apixaban ; HTA ; STBAU évoluant depuis 8 ans, traités par alfuzosine puis association alfuzosine + dutastéride depuis 2 ans ; épisodes d'hématurie terminale.",
+      "symptomes": "Avant la rétention : jet très faible, poussée, interruption brutale du jet avec douleur irradiant au gland.",
+      "examen_clinique": "Sonde urétrale en place. Toucher rectal : prostate très volumineuse, lisse, élastique, sans nodule. Pas de fièvre.",
+      "biologie": "Créatinine 96 µmol/L (N 60–110) ; Hb 13,1 g/dL (N 13–17) ; ECBU (sur sonde) : colonisation à E. coli 10^5 UFC/mL sensible ; PSA 6,8 ng/mL sous dutastéride depuis 2 ans (PSA de référence avant traitement 3,6 ng/mL).",
+      "imagerie": "Échographie endorectale : prostate de 110 mL avec lobe médian saillant ; calcul vésical de 2,5 cm ; reins non dilatés. IRM prostatique (compte tenu de la réascension du PSA corrigé) : pas de lésion suspecte (PI-RADS 2).",
+      "hypotheses_diagnostiques": [
+        "HBP volumineuse compliquée de RAU récidivante réfractaire et de lithiase vésicale",
+        "Cancer de la prostate à éliminer (PSA corrigé ≈ 13,6 ng/mL sous I5AR)"
+      ],
+      "diagnostics_differentiels": [
+        "Cancer de la prostate",
+        "Sténose urétrale",
+        "Vessie neurologique / hypoactivité détrusorienne",
+        "Tumeur de vessie (hématurie)"
+      ],
+      "examens_a_demander": [
+        "Cystoscopie (hématurie, lobe médian, calcul)",
+        "IRM prostatique et discussion de biopsies selon le parcours cancer",
+        "Gestion péri-opératoire de l'apixaban avec cardiologue et anesthésiste",
+        "ECBU de contrôle et antibiothérapie préopératoire adaptée"
+      ],
+      "diagnostic_final": "Hypertrophie bénigne de la prostate de 110 mL compliquée de rétentions aiguës récidivantes réfractaires au traitement médical et d'un calcul vésical de stase (indications chirurgicales absolues), chez un patient sous anticoagulant ; IRM non suspecte.",
+      "traitement": "Indication chirurgicale absolue. Volume > 80 mL et risque hémorragique : énucléation endoscopique (laser holmium ou thulium) avec cystolithotritie dans le même temps, selon les recommandations du CTMH ; à défaut d'énucléation disponible, adénomectomie voie haute (permettant l'extraction du calcul) ou adénomectomie mini-invasive. Arrêt programmé de l'apixaban selon la fonction rénale et le risque hémorragique [À VÉRIFIER — protocole GIHP/local], reprise postopératoire ; antibiothérapie adaptée à l'ECBU avant le geste [POSOLOGIE À VÉRIFIER]. Analyse histologique des copeaux d'énucléation.",
+      "surveillance": "Hématurie et caillots (lavage), reprise de l'anticoagulation, ablation de sonde à J1–J3, débitmétrie et résidu à 6 semaines et 3 mois, continence (incontinence transitoire possible), résultat histologique, suivi du PSA (nouvelle valeur de référence).",
+      "evolution": "Énucléation laser de 92 g de tissu et fragmentation du calcul ; ablation de sonde à J2 ; Qmax 22 mL/s à 3 mois ; incontinence d'effort transitoire résolutive en 6 semaines ; histologie : hyperplasie bénigne sans cancer.",
+      "explication_pedagogique": "La RAU récidivante malgré un traitement médical bien conduit et la lithiase vésicale sont des indications chirurgicales absolues. Pour un volume > 80 mL, l'énucléation endoscopique est l'option de référence, l'adénomectomie restant légitime en l'absence d'énucléation. Sous I5AR, le PSA doit être doublé : sa réascension imposait d'éliminer un cancer avant la chirurgie.",
+      "questions": [
+        {
+          "question": "Quelles indications chirurgicales absolues retrouvez-vous ?",
+          "reponse": "RAU récidivante avec échec de l'épreuve de retrait de sonde, lithiase vésicale (et hématuries récidivantes)."
+        },
+        {
+          "question": "Comment interpréter le PSA à 6,8 ng/mL sous dutastéride ?",
+          "reponse": "PSA corrigé ≈ 13,6 ng/mL, en ascension par rapport à la valeur de référence : bilan de cancer (IRM ± biopsies) avant la chirurgie."
+        },
+        {
+          "question": "Quelle technique proposer pour 110 mL chez un patient anticoagulé ?",
+          "reponse": "Énucléation endoscopique laser (± cystolithotritie) ; adénomectomie voie haute si l'énucléation n'est pas disponible."
+        },
+        {
+          "question": "Quelles complications annoncer ?",
+          "reponse": "Saignement, infection, éjaculation rétrograde, incontinence transitoire, sténose urétrale ou sclérose du col."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Klein C et al. Surgical and interventional management of BOO related to BPH: CTMH guidelines. Fr J Urol 2025;35(11):102951",
+          "date": "2025"
+        },
+        {
+          "reference": "Pinar U et al. Management of acute urinary retention in men with BPH: CTMH guidelines. Fr J Urol 2025;35(11):102953",
+          "date": "2025"
+        },
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-TRAU-1101",
+      "titre": "Douleur de l'aine chez une femme de 78 ans qui marche encore après une chute",
+      "niveau": "etudiant",
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 78 ans, veuve, autonome, vit chez sa fille à Annaba.",
+      "motif_consultation": "Douleur de l'aine droite et boiterie depuis une chute dans la cour il y a 2 jours.",
+      "antecedents": "Ostéoporose non traitée (fracture du poignet gauche à 66 ans) ; HTA ; cataracte opérée.",
+      "symptomes": "Douleur inguinale droite à l'appui, marche possible avec boiterie et une canne empruntée ; pas de douleur au repos allongée.",
+      "examen_clinique": "Membre inférieur droit sans raccourcissement ni rotation ; douleur à la rotation passive de la hanche et à la percussion du talon ; marche boiterie d'esquive ; pouls distaux présents.",
+      "biologie": "Hb 12,4 g/dL (N 12–16) ; créatinine 72 µmol/L (N 45–90) ; calcémie 2,30 mmol/L (N 2,20–2,60) ; 25-OH-vitamine D 28 nmol/L (insuffisance, cible > 75 selon les laboratoires).",
+      "imagerie": "Radiographies bassin de face et hanche droite face et profil : fracture sous-capitale droite engrenée en valgus, travées céphaliques verticalisées ; profil sans bascule postérieure significative ; interligne articulaire conservé.",
+      "hypotheses_diagnostiques": [
+        "Fracture du col du fémur droit engrenée en valgus (Garden I)"
+      ],
+      "diagnostics_differentiels": [
+        "Fracture du cadre obturateur",
+        "Contusion de hanche",
+        "Fracture occulte (IRM si radiographies normales)",
+        "Poussée de coxarthrose"
+      ],
+      "examens_a_demander": [
+        "ECG et bilan préopératoire",
+        "Évaluation gériatrique (chutes, cognition, nutrition)",
+        "Ostéodensitométrie et bilan phosphocalcique à distance"
+      ],
+      "diagnostic_final": "Fracture sous-capitale du col du fémur droit, Garden I (engrenée en valgus), non déplacée, chez une patiente ostéoporotique.",
+      "traitement": "Pas de traitement fonctionnel (risque de déplacement secondaire) : ostéosynthèse par vissage (vis canulées) dans les 24–48 h, analgésie (paracétamol, bloc ilio-fascial), pas d'AINS ; mise en charge selon la stabilité du montage ; thromboprophylaxie (HBPM) prolongée [POSOLOGIE À VÉRIFIER — RCP] ; puis prévention secondaire : traitement anti-ostéoporotique, correction de la vitamine D, prévention des chutes.",
+      "surveillance": "Douleur, cicatrice, radiographies à 6 semaines, 3 mois, 6 mois puis à 1 et 2 ans (déplacement secondaire, pseudarthrose, ostéonécrose) ; observance du traitement de l'ostéoporose.",
+      "evolution": "Vissage à J1 ; marche avec déambulateur à J2 ; consolidation à 3 mois ; pas de nécrose à 2 ans.",
+      "explication_pedagogique": "La fracture engrenée en valgus (Garden I) est le piège classique : la patiente marche. Toute douleur de hanche après une chute chez le sujet âgé impose des radiographies de face et de profil (et une IRM si elles sont normales). Le traitement fonctionnel expose au déplacement secondaire ; l'ostéosynthèse est le traitement habituel. Cette deuxième fracture de fragilité impose un traitement de l'ostéoporose.",
+      "questions": [
+        {
+          "question": "Pourquoi la patiente peut-elle marcher ?",
+          "reponse": "La fracture est engrenée en valgus (Garden I), relativement stable."
+        },
+        {
+          "question": "Quel risque fait préférer l'ostéosynthèse au traitement fonctionnel ?",
+          "reponse": "Le déplacement secondaire, qui transformerait la fracture en Garden III–IV."
+        },
+        {
+          "question": "Quelle prévention secondaire ?",
+          "reponse": "Traitement anti-ostéoporotique, vitamine D, prévention des chutes."
+        },
+        {
+          "question": "Que faire si les radiographies avaient été normales ?",
+          "reponse": "Une IRM (ou un scanner si IRM non disponible sous 24 h)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "NICE. Hip fracture: management. CG124 (2011, mise à jour 06/01/2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "O'Connor MI, Switzer JA. AAOS Clinical Practice Guideline Summary: Management of Hip Fractures in Older Adults. J Am Acad Orthop Surg 2022;30(20):e1291-e1296",
+          "date": "2022"
+        },
+        {
+          "reference": "Conley RB et al. Secondary Fracture Prevention: Consensus Clinical Recommendations. J Bone Miner Res 2020;35(1):36-52",
+          "date": "2020"
+        },
+        {
+          "reference": "HAS. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-TRAU-1102",
+      "titre": "Fracture du col du fémur déplacée chez un motard de 41 ans",
+      "niveau": "resident",
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 41 ans, livreur à moto, fumeur (20 paquets-années), résidant à Alger.",
+      "motif_consultation": "Accident de moto à haute énergie ; impotence totale du membre inférieur gauche.",
+      "antecedents": "Aucun antécédent médical ; tabagisme actif.",
+      "symptomes": "Douleur inguinale gauche intense, impossibilité de bouger le membre.",
+      "examen_clinique": "Patient conscient, hémodynamique stable après bilan du traumatisé (examen primaire normal). Membre inférieur gauche raccourci, en rotation externe ; cuisse souple ; pouls distaux présents ; sensibilité et motricité du pied normales (nerf sciatique). Pas de plaie.",
+      "biologie": "Hb 13,9 g/dL (N 13–17) ; créatinine 81 µmol/L ; CPK 640 UI/L (N < 190) ; bilan d'hémostase normal ; alcoolémie nulle.",
+      "imagerie": "Radiographies et scanner : fracture transcervicale gauche déplacée, trait vertical à 65° (Pauwels III), petite comminution postéro-inférieure ; pas de fracture du cotyle ni de fracture diaphysaire fémorale associée (vérifiée sur le fémur entier).",
+      "hypotheses_diagnostiques": [
+        "Fracture transcervicale du col du fémur gauche déplacée, Pauwels III, du sujet jeune à haute énergie"
+      ],
+      "diagnostics_differentiels": [
+        "Fracture trochantérienne",
+        "Luxation postérieure de hanche avec fracture de la tête",
+        "Fracture du cotyle"
+      ],
+      "examens_a_demander": [
+        "Bilan lésionnel complet du traumatisé (body-scanner selon le mécanisme)",
+        "Radiographie du fémur entier (fracture diaphysaire associée)",
+        "Bilan préopératoire"
+      ],
+      "diagnostic_final": "Fracture transcervicale déplacée du col du fémur gauche (AO/OTA 31B2), Pauwels III, chez un adulte jeune.",
+      "traitement": "Urgence chirurgicale visant à conserver la tête : réduction anatomique (fermée, sinon à foyer ouvert) et ostéosynthèse résistant au cisaillement (vis-plaque dynamique avec vis anti-rotatoire, ou autre montage adapté au Pauwels III), dans les meilleurs délais ; pas d'arthroplastie de première intention. Décharge partielle selon le montage ; thromboprophylaxie [POSOLOGIE À VÉRIFIER — RCP] ; aide au sevrage tabagique.",
+      "surveillance": "Radiographies régulières jusqu'à consolidation (déplacement secondaire, pseudarthrose), puis surveillance prolongée (au moins 2 ans) de l'ostéonécrose (IRM si douleur).",
+      "evolution": "Consolidation à 5 mois. À 18 mois, réapparition d'une douleur inguinale : IRM puis radiographies montrant une ostéonécrose de la tête avec effondrement ; prothèse totale de hanche à 2 ans.",
+      "explication_pedagogique": "Chez le sujet jeune, la priorité est la conservation de la tête fémorale : réduction anatomique et ostéosynthèse urgentes. Le trait vertical (Pauwels III) subit un cisaillement maximal et expose à la pseudarthrose ; le déplacement initial expose à l'ostéonécrose, complication tardive justifiant une surveillance prolongée. Le tabac est un facteur de mauvaise consolidation.",
+      "questions": [
+        {
+          "question": "Classez la fracture.",
+          "reponse": "Transcervicale (AO/OTA 31B2), déplacée, Pauwels III (trait > 50°)."
+        },
+        {
+          "question": "Pourquoi ne pas proposer d'emblée une prothèse ?",
+          "reponse": "Chez l'adulte jeune, on conserve la tête par réduction anatomique et ostéosynthèse ; l'arthroplastie est réservée à l'échec."
+        },
+        {
+          "question": "Quelles complications spécifiques surveiller ?",
+          "reponse": "Déplacement secondaire, pseudarthrose, ostéonécrose de la tête (tardive)."
+        },
+        {
+          "question": "Quelle lésion associée rechercher systématiquement dans ce contexte ?",
+          "reponse": "Une fracture diaphysaire fémorale homolatérale (et inversement, une fracture du col devant une fracture diaphysaire)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "NICE. Hip fracture: management. CG124 (2011, mise à jour 06/01/2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "FAITH Investigators. Lancet 2017;389(10078):1519-1527",
+          "date": "2017"
+        },
+        {
+          "reference": "Meinberg EG et al. Fracture and Dislocation Classification Compendium-2018. J Orthop Trauma 2018;32 Suppl 1:S1-S170",
+          "date": "2018"
+        },
+        {
+          "reference": "Samama CM et al. SFAR — Prévention de la MTEV postopératoire, actualisation 2011. Ann Fr Anesth Reanim 2011;30(12):947-951",
+          "date": "2011"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-TRAU-1103",
+      "titre": "Fracture du poignet chez une femme de 81 ans peu active",
+      "niveau": "generaliste",
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 81 ans, vit seule en rez-de-chaussée à Mostaganem, marche à l'intérieur avec une canne.",
+      "motif_consultation": "Chute de sa hauteur sur la main droite (dominante) en se levant la nuit.",
+      "antecedents": "Diabète de type 2 ; insuffisance rénale chronique modérée (DFGe 42 mL/min/1,73 m²) ; prise de zolpidem au coucher ; aucune fracture antérieure connue.",
+      "symptomes": "Douleur et déformation du poignet droit ; pas de paresthésie.",
+      "examen_clinique": "Déformation en « dos de fourchette » et en « baïonnette » ; peau intacte ; sensibilité de la pulpe de l'index normale ; pouls radial présent ; extension du pouce possible ; tabatière anatomique peu douloureuse ; hanches et épaules indolores.",
+      "biologie": "Créatinine 118 µmol/L (N 45–90) ; calcémie 2,28 mmol/L (N 2,20–2,60) ; 25-OH-vitamine D 22 nmol/L (insuffisance) ; HbA1c 7,4 %.",
+      "imagerie": "Radiographies poignet face et profil : fracture extra-articulaire du radius distal à bascule dorsale de 25°, comminution dorsale, raccourcissement de 3 mm, fracture de la pointe de la styloïde ulnaire. Après réduction sous bloc du foyer : bascule dorsale résiduelle de 5°, raccourcissement 2 mm.",
+      "hypotheses_diagnostiques": [
+        "Fracture de Pouteau-Colles droite instable (critères de Lafontaine : bascule > 20°, comminution dorsale, fracture ulnaire, âge > 60 ans)"
+      ],
+      "diagnostics_differentiels": [
+        "Fracture du scaphoïde associée",
+        "Lésion scapho-lunaire",
+        "Fracture de Goyrand-Smith (exclue : bascule dorsale)"
+      ],
+      "examens_a_demander": [
+        "Radiographies de contrôle à J7–J10 et J15–J21",
+        "Évaluation du risque de chute (zolpidem, hypotension orthostatique)",
+        "Bilan d'ostéoporose et traitement adapté à la fonction rénale"
+      ],
+      "diagnostic_final": "Fracture de Pouteau-Colles droite extra-articulaire, instable (4 critères de Lafontaine), chez une patiente âgée à faible demande fonctionnelle ; fracture de fragilité.",
+      "traitement": "Traitement orthopédique après réduction : manchette plâtrée en position neutre (pas de flexion-inclinaison ulnaire forcée), mobilisation immédiate des doigts, surélévation ; analgésie par paracétamol (AINS évités : insuffisance rénale) [POSOLOGIE À VÉRIFIER — RCP]. En cas de déplacement secondaire, l'acceptation d'un cal vicieux est discutée compte tenu de l'âge et de la faible demande (résultats fonctionnels comparables à la chirurgie dans CROSSFIRE et WRIST). Prévention secondaire : correction de la vitamine D, traitement anti-ostéoporotique adapté au DFG, arrêt progressif du zolpidem, aménagement du domicile.",
+      "surveillance": "Œdème et coloration des doigts, nerf médian, plâtre (compression) ; radiographies de contrôle ; ablation de l'immobilisation vers 6 semaines ; rééducation ; recherche d'un SDRC ; extension du pouce (LEP).",
+      "evolution": "Déplacement secondaire modéré à J10 (bascule dorsale 15°) accepté après décision partagée ; consolidation à 6 semaines ; à 6 mois, autonomie complète malgré une déformation résiduelle, douleur minime.",
+      "explication_pedagogique": "Les critères de Lafontaine prédisent l'instabilité mais la décision dépend aussi de l'âge et de la demande fonctionnelle : chez une patiente âgée peu active, un traitement orthopédique est acceptable, la chirurgie n'ayant pas montré de bénéfice fonctionnel durable dans les essais CROSSFIRE et WRIST. La fracture du poignet est une fracture sentinelle : la prévention secondaire est indispensable.",
+      "questions": [
+        {
+          "question": "Combien de critères de Lafontaine sont présents ?",
+          "reponse": "Quatre : bascule dorsale > 20°, comminution dorsale, fracture associée de l'ulna, âge > 60 ans."
+        },
+        {
+          "question": "Pourquoi un traitement orthopédique est-il défendable malgré l'instabilité ?",
+          "reponse": "Âge et faible demande fonctionnelle ; essais CROSSFIRE et WRIST sans bénéfice fonctionnel durable de la chirurgie."
+        },
+        {
+          "question": "Quelle position d'immobilisation éviter ?",
+          "reponse": "La flexion palmaire et l'inclinaison ulnaire forcées (compression du médian, SDRC)."
+        },
+        {
+          "question": "Quelles mesures de prévention secondaire ?",
+          "reponse": "Vitamine D, traitement anti-ostéoporotique adapté à la fonction rénale, prévention des chutes (arrêt des hypnotiques, domicile)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Lafontaine M et al. Stability assessment of distal radius fractures. Injury 1989;20(4):208-210",
+          "date": "1989"
+        },
+        {
+          "reference": "CROSSFIRE Study Group. JAMA Surg 2021;156(3):229-237",
+          "date": "2021"
+        },
+        {
+          "reference": "Chung KC et al. WRIST. JAMA Netw Open 2021;4(6):e2112710",
+          "date": "2021"
+        },
+        {
+          "reference": "Kamal RN, Shapiro LM. AAOS/ASSH CPG Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg 2022;30(4):e480-e486",
+          "date": "2022"
+        },
+        {
+          "reference": "Conley RB et al. Secondary Fracture Prevention: Consensus Clinical Recommendations. J Bone Miner Res 2020;35(1):36-52",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-TRAU-1104",
+      "titre": "Fracture du poignet avec paresthésies chez un ouvrier tombé d'un échafaudage",
+      "niveau": "residanat",
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 28 ans, maçon, droitier, résidant à Sétif.",
+      "motif_consultation": "Chute de 3 mètres d'un échafaudage, réception sur la main gauche en flexion ; douleur et déformation du poignet ; fourmillements des doigts.",
+      "antecedents": "Aucun.",
+      "symptomes": "Douleur intense du poignet gauche, paresthésies du pouce, de l'index et du médius s'aggravant depuis 2 heures.",
+      "examen_clinique": "Saillie palmaire du poignet, œdème important ; peau intacte ; hypoesthésie de la pulpe de l'index et du médius, opposition du pouce difficile à évaluer (douleur) ; pouls radial présent ; examen du coude et de l'épaule normal ; pas d'autre lésion.",
+      "biologie": "NFS et hémostase normales (bilan préopératoire).",
+      "imagerie": "Radiographies : fracture marginale antérieure du radius distal emportant la fossette lunarienne, avec subluxation antérieure du carpe ; styloïde ulnaire intacte. Scanner : fragment palmaire unique, marche articulaire de 3 mm, pas de lésion du carpe.",
+      "hypotheses_diagnostiques": [
+        "Fracture marginale antérieure (Barton antérieur) du radius distal gauche",
+        "Compression aiguë du nerf médian"
+      ],
+      "diagnostics_differentiels": [
+        "Fracture de Goyrand-Smith extra-articulaire",
+        "Luxation péri-lunaire du carpe",
+        "Syndrome des loges de l'avant-bras"
+      ],
+      "examens_a_demander": [
+        "Scanner du poignet (planification)",
+        "Examen neurologique répété et consigné",
+        "Bilan préopératoire"
+      ],
+      "diagnostic_final": "Fracture articulaire partielle marginale antérieure du radius distal gauche (Barton antérieur, AO/OTA 2R3 B3) avec subluxation antérieure du carpe, compliquée d'une compression aiguë du nerf médian.",
+      "traitement": "Urgence chirurgicale : réduction et ostéosynthèse par plaque palmaire de soutien (buttress), avec libération du canal carpien dans le même temps compte tenu de paresthésies croissantes ; analgésie multimodale avec épargne opioïde [POSOLOGIE À VÉRIFIER — protocole local] ; mobilisation précoce des doigts.",
+      "surveillance": "Récupération sensitive du médian, cicatrice, œdème ; radiographies postopératoires et à 6 semaines ; rééducation ; recherche d'un SDRC ; irritation des fléchisseurs (plaque) ; marche articulaire résiduelle.",
+      "evolution": "Disparition des paresthésies à J10 ; consolidation à 8 semaines ; reprise du travail à 3 mois avec une force de préhension à 85 % du côté opposé.",
+      "explication_pedagogique": "La fracture de Barton antérieur est une fracture articulaire partielle très instable, qui relève d'une plaque palmaire de soutien. Des paresthésies croissantes dans le territoire du médian imposent une décompression urgente. Chez le sujet jeune, la réduction articulaire anatomique (marche > 2 mm à corriger) conditionne le risque d'arthrose.",
+      "questions": [
+        {
+          "question": "Classez cette fracture.",
+          "reponse": "Fracture articulaire partielle marginale antérieure (Barton antérieur), AO/OTA 2R3 B3."
+        },
+        {
+          "question": "Quelle complication immédiate doit modifier la prise en charge ?",
+          "reponse": "La compression aiguë du nerf médian (paresthésies croissantes) → libération du canal carpien en urgence."
+        },
+        {
+          "question": "Pourquoi un traitement orthopédique est-il inadapté ?",
+          "reponse": "Fracture articulaire instable avec subluxation du carpe chez un sujet jeune ; risque de déplacement et d'arthrose."
+        },
+        {
+          "question": "Quel implant est utilisé ?",
+          "reponse": "Une plaque palmaire de soutien (buttress), le plus souvent verrouillée."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Kamal RN, Shapiro LM. AAOS/ASSH CPG Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg 2022;30(4):e480-e486",
+          "date": "2022"
+        },
+        {
+          "reference": "Meinberg EG et al. Fracture and Dislocation Classification Compendium-2018. J Orthop Trauma 2018;32 Suppl 1:S1-S170",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-ORTH-1101",
+      "titre": "Boiterie peu fébrile chez une petite fille de 18 mois",
+      "niveau": "residanat",
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille, 18 mois, gardée en crèche, résidant à Constantine.",
+      "motif_consultation": "Refus d'appui sur le membre inférieur droit depuis 3 jours, après une stomatite.",
+      "antecedents": "Grossesse et naissance normales ; vaccinations à jour selon le calendrier national ; stomatite aphteuse la semaine précédente.",
+      "symptomes": "Boiterie puis refus d'appui ; fébricule à 38,2 °C ; enfant de bonne humeur au repos.",
+      "examen_clinique": "État général conservé ; T 38,1 °C ; genou droit légèrement augmenté de volume, chaud, mobilisation douloureuse en fin d'amplitude ; douleur à la palpation de l'extrémité inférieure du fémur ; pas de lésion cutanée ; examen de la hanche normal.",
+      "biologie": "Leucocytes 11,8 G/L (N 6–17 à cet âge) ; CRP 22 mg/L (N < 5) ; VS 38 mm/h ; hémoculture négative. Ponction du genou : liquide trouble, 45 000 éléments/mm³ à prédominance de polynucléaires ; examen direct négatif ; culture standard stérile à 48 h ; culture en flacon d'hémoculture : Kingella kingae à J3 ; PCR spécifique K. kingae positive. PCR K. kingae sur écouvillon oropharyngé positive.",
+      "imagerie": "Radiographies du genou : normales. Échographie : épanchement articulaire. IRM : œdème de l'épiphyse fémorale distale avec petite lésion épiphysaire, épanchement articulaire, pas d'abcès sous-périosté.",
+      "hypotheses_diagnostiques": [
+        "Ostéoarthrite du genou droit (arthrite + atteinte épiphysaire fémorale distale) à Kingella kingae"
+      ],
+      "diagnostics_differentiels": [
+        "Arthrite septique à S. aureus",
+        "Synovite réactionnelle",
+        "Traumatisme méconnu",
+        "Arthrite juvénile idiopathique",
+        "Leucémie (NFS normale)"
+      ],
+      "examens_a_demander": [
+        "Ponction articulaire avec culture en flacon d'hémoculture et PCR",
+        "IRM",
+        "NFS, CRP de contrôle à 48–72 h"
+      ],
+      "diagnostic_final": "Ostéoarthrite du genou droit à Kingella kingae chez une enfant de 18 mois.",
+      "traitement": "Hospitalisation ; ponction-lavage articulaire ; antibiothérapie IV par céfazoline à forte dose (150 mg/kg/j, GPIP 2023) [POSOLOGIE À VÉRIFIER — fractionnement et dose maximale] ; relais oral après environ 3 jours si apyrexie et amélioration, par amoxicilline-acide clavulanique 80 mg/kg/j (dose d'amoxicilline) [POSOLOGIE À VÉRIFIER — fractionnement] ; durée totale adaptée à l'atteinte osseuse associée (au moins 3 semaines) ; antalgie ; pas de vancomycine (K. kingae naturellement résistante aux glycopeptides).",
+      "surveillance": "Température, douleur, mobilité du genou, CRP à 48–72 h ; tolérance digestive du relais oral ; consultation de fin de traitement ; surveillance de la croissance (atteinte épiphysaire) pendant au moins un an.",
+      "evolution": "Apyrexie à H48, CRP 6 mg/L à J5 ; relais oral à J3 ; guérison clinique à 3 semaines ; pas d'inégalité de longueur à 1 an.",
+      "explication_pedagogique": "Entre 6 mois et 4 ans, K. kingae est un agent majeur des IOA ; les formes sont souvent modérées (fièvre et CRP peu élevées) et la culture standard est souvent négative : l'inoculation en flacon d'hémoculture et la PCR spécifique sont essentielles. Chez le jeune enfant, les vaisseaux transphysaires expliquent les ostéoarthrites. Les bêtalactamines (céfazoline, amoxicilline-acide clavulanique) couvrent Kingella et S. aureus sensible ; la vancomycine est inactive sur Kingella.",
+      "questions": [
+        {
+          "question": "Pourquoi la culture standard était-elle négative ?",
+          "reponse": "K. kingae pousse mal en milieu standard ; la culture en flacon d'hémoculture et la PCR améliorent le diagnostic."
+        },
+        {
+          "question": "Quelle est la valeur de la PCR oropharyngée ?",
+          "reponse": "Négative, elle rend une IOA à Kingella peu probable ; positive, elle est compatible (portage fréquent) mais non suffisante seule."
+        },
+        {
+          "question": "Quel antibiotique éviter en monothérapie et pourquoi ?",
+          "reponse": "La vancomycine : Kingella est naturellement résistante aux glycopeptides."
+        },
+        {
+          "question": "Quand proposer le relais oral ?",
+          "reponse": "Après environ 3 jours d'IV, si apyrexie, sédation de la douleur et baisse de la CRP."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the GPIP. Infect Dis Now 2023;53(8S):104789",
+          "date": "2023"
+        },
+        {
+          "reference": "De Marco G et al. Bacteriological diagnosis of osteoarticular infections caused by Kingella kingae. Front Pediatr 2024;12:1520636",
+          "date": "2024"
+        },
+        {
+          "reference": "Saavedra-Lozano J et al. Bone and Joint Infections (ESPID). Pediatr Infect Dis J 2017;36(8):788-799",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-ORTH-1102",
+      "titre": "Sepsis, douleurs osseuses multiples et dyspnée chez un adolescent de 13 ans",
+      "niveau": "dems",
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 13 ans, footballeur en club, résidant à Béjaïa.",
+      "motif_consultation": "Fièvre à 40 °C depuis 3 jours, douleur de la cuisse gauche et de la fesse droite, puis dyspnée.",
+      "antecedents": "Furonculose récidivante chez le patient et son frère depuis 6 mois.",
+      "symptomes": "Douleurs intenses de la cuisse gauche et de la fesse droite, refus de marcher, toux sèche et polypnée depuis 24 heures.",
+      "examen_clinique": "T 40,1 °C ; FC 142/min ; PA 92/50 mmHg ; FR 32/min ; SpO2 91 % à l'air ; TRC 4 s ; marbrures des genoux. Douleur exquise de la métaphyse fémorale distale gauche, cuisse gauche œdématiée et chaude ; douleur sacro-iliaque droite ; furoncle de la nuque.",
+      "biologie": "Leucocytes 3,1 G/L (N 4,5–13) ; plaquettes 98 G/L (N 150–400) ; CRP 312 mg/L (N < 5) ; procalcitonine 18 ng/mL (N < 0,5) ; lactates 4,2 mmol/L (N < 2) ; créatinine 98 µmol/L (N 40–80) ; D-dimères 9 800 ng/mL (N < 500). Hémocultures : Staphylococcus aureus sensible à la méticilline ; PCR : gène de la leucocidine de Panton-Valentine positif.",
+      "imagerie": "Radiographies : normales. IRM corps entier : ostéomyélite métaphysaire fémorale distale gauche avec abcès sous-périosté circonférentiel et pyomyosite ; sacro-iliite droite avec abcès de l'iliaque. Écho-Doppler : thrombose de la veine fémorale gauche. Scanner thoracique : nodules excavés bilatéraux (emboles septiques).",
+      "hypotheses_diagnostiques": [
+        "Infection ostéo-articulaire multifocale à S. aureus producteur de PVL avec choc septique",
+        "Thrombophlébite septique fémorale et emboles pulmonaires septiques"
+      ],
+      "diagnostics_differentiels": [
+        "Leucémie aiguë (cytopénies) — éliminée par le frottis",
+        "Sarcome d'Ewing (forme pseudo-infectieuse)",
+        "Endocardite à S. aureus"
+      ],
+      "examens_a_demander": [
+        "Échocardiographie (endocardite)",
+        "Frottis sanguin",
+        "Prélèvements peropératoires (culture, PCR)",
+        "Bilan d'hémostase (CIVD)",
+        "Dépistage du portage familial de S. aureus PVL"
+      ],
+      "diagnostic_final": "Ostéomyélite aiguë multifocale (fémur distal gauche, iliaque droit) à S. aureus sensible à la méticilline producteur de PVL, compliquée de choc septique, d'abcès sous-périostés, de pyomyosite, de thrombophlébite fémorale et d'emboles pulmonaires septiques.",
+      "traitement": "Réanimation pédiatrique (remplissage, amines si besoin, oxygène). Antibiothérapie IV immédiate associant une bêtalactamine antistaphylococcique à forte dose (céfazoline ou pénicilline M) et un antibiotique anti-toxinique (clindamycine ou linézolide) [POSOLOGIE À VÉRIFIER — protocole GPIP / local]. Drainage chirurgical en urgence des abcès sous-périostés et musculaires. Anticoagulation de la thrombose après avis spécialisé. Durée totale prolongée (4 à 6 semaines au minimum pour une forme sévère), relais oral lorsque l'état le permet. Décolonisation et prise en charge de la furonculose familiale selon les recommandations locales.",
+      "surveillance": "Hémodynamique, hémocultures de contrôle jusqu'à négativation, CRP, IRM de contrôle en cas d'évolution lente, thrombose (Doppler), fonction respiratoire, tolérance des antibiotiques (linézolide : hémogramme) ; suivi orthopédique prolongé (croissance, fracture pathologique, chronicité).",
+      "evolution": "Deux reprises chirurgicales de drainage ; négativation des hémocultures à J4 ; sortie de réanimation à J9 ; relais oral à J21 ; durée totale de 8 semaines ; reprise du sport à 6 mois sans séquelle.",
+      "explication_pedagogique": "Les IOA à S. aureus PVL sont des formes graves : sepsis, multifocalité, abcès, thromboses veineuses et emboles septiques. Elles imposent la réanimation, un drainage chirurgical, une association anti-toxinique et une durée prolongée. La furonculose récidivante familiale est un indice classique de souche PVL. Les radiographies normales n'excluent rien.",
+      "questions": [
+        {
+          "question": "Quels indices orientent vers une souche PVL ?",
+          "reponse": "Furonculose récidivante familiale, sepsis grave, atteinte multifocale, thrombose veineuse, emboles septiques."
+        },
+        {
+          "question": "Quel est le principe de l'antibiothérapie ?",
+          "reponse": "Bêtalactamine antistaphylococcique à forte dose associée à un antibiotique anti-toxinique (clindamycine ou linézolide), adaptée à l'antibiogramme."
+        },
+        {
+          "question": "Quelles sont les indications chirurgicales ici ?",
+          "reponse": "Les abcès sous-périostés et musculaires (drainage), à répéter si nécessaire."
+        },
+        {
+          "question": "Quelle durée de traitement retenir ?",
+          "reponse": "Prolongée (au moins 4 à 6 semaines selon le GPIP pour les formes sévères et du bassin), adaptée à l'évolution."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the GPIP. Infect Dis Now 2023;53(8S):104789",
+          "date": "2023"
+        },
+        {
+          "reference": "Woods CR et al. PIDS/IDSA 2021 Guideline on AHO in Pediatrics. J Pediatric Infect Dis Soc 2021;10(8):801-844",
+          "date": "2021"
+        },
+        {
+          "reference": "Saavedra-Lozano J et al. Bone and Joint Infections (ESPID). Pediatr Infect Dis J 2017;36(8):788-799",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

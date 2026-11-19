@@ -114,3 +114,67 @@ Mission : Audit scientifique des dossiers (exactitude, cohérence, actualité)
 - 2026-11-19T03:45:17+00:00 — Posologies : 11 marqueurs levés (RCP par extraits via moteur de recherche, DOC-00038 pour la rage, CDC/MSF et DOC-00070 pour le tétanos, DOC-00098 pour le lorazépam, CANMAT-ISBD pour la lamotrigine) ; 2 maintenus (traitement spécifique du syndrome malin : DOS-PSYC-0001 § 14.3 et CAS-PSYC-1002). Aucune erreur de dose trouvée.
 - 2026-11-19T03:45:17+00:00 — Verdicts : DOS-PSYC-0001 audite_corrections_requises (9 corrections) ; DOS-PSYC-0002 audite_valide (7) ; DOS-MLEG-0001 audite_valide (12) ; DOS-MLEG-0002 audite_valide (9) ; DOS-MTRA-0001 audite_valide (13). Lots : 6 QCM et 6 cas corrigés ou précisés ; QCM 61/61 audite_valide ; cas 9 audite_valide, 1 audite_corrections_requises (CAS-PSYC-1002). JSON validés.
 - 2026-11-19T03:45:17+00:00 — Sauvegardes des versions 1.0 reconstituées par inversion exacte des remplacements (taille en octets identique à l'original) : 00_SYSTEME/sauvegardes/20261119/15_AUTRES_SPECIALITES/*/02_DOSSIERS_PEDAGOGIQUES/*.avant_audit_AUD-01.md. Rapports : 00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0001.md, DOS-PSYC-0002.md, DOS-MLEG-0001.md, DOS-MLEG-0002.md, DOS-MTRA-0001.md.
+- 2026-11-19T03:50:00+00:00 — **Session d'audit scientifique et posologique (AUD-01, tenue conjointement avec AUD-02)** des dossiers du rédacteur DOS-11 :
+  - dossiers : DOS-UROL-0001 (lithiase), DOS-UROL-0002 (HBP), DOS-TRAU-0001 (col du fémur), DOS-TRAU-0002 (radius distal), DOS-ORTH-0001 (ostéomyélite aiguë) ;
+  - lots : `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-11.json` (60 QCM) et `20_CAS_CLINIQUES/lots/DOS-11.json` (10 cas).
+  Lecture préalable de PROTOCOLE_AUDIT.md, de CONVENTIONS.md et du catalogue.
+- Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/` (fichiers `*.avant_audit_AUD-01.*`).
+- Vérifications :
+  - Europe PMC : résumés GPIP 2023 et 2017, Kocher, Peltola, Mediamolle, EAU 2025 et 2023, HIP ATTACK, HEALTH, FAITH, CROSSFIRE, WRIST, Lafontaine, Lichtman 2010, Ekrol 2014, Bartoníček, Nandi, Moon et Mehlman. Frykman (PMID 4175195) et Castaing (PMID 14198868) retrouvés ; Garden 1961 absente.
+  - 13 recherches web : GPIP (tableau posologique, < 3 mois, actualisation 2026), PIDS/IDSA, NICE CG124 2023, NICE NG89, AAOS 2020 radius (2 recherches), desmopressine, AUA tadalafil, EAU TME.
+  - Hôtes inaccessibles : afpa.org, infectiologie.com, sciencedirect.com, academic.oup.com.
+- Résultats (tous les dossiers en version 1.1, verdict audite_corrections_requises) :
+  - DOS-ORTH-0001 : 12 corrections (0 critique / 1 majeure : forme et fractionnement de l'amoxicilline-acide clavulanique) ; 6 marqueurs restants.
+  - DOS-UROL-0001 : 11 corrections (0/0/11) ; 3 marqueurs restants (titration morphinique, C3G et amikacine, citrate).
+  - DOS-UROL-0002 : 11 corrections (0/1/10 ; majeure : restriction d'âge de la desmopressine) ; 1 marqueur.
+  - DOS-TRAU-0001 : 15 corrections (0/1/14 ; majeure : critère NICE de la PTH présenté dans sa version antérieure) ; 1 marqueur.
+  - DOS-TRAU-0002 : 7 corrections (0/0/7) ; 2 marqueurs.
+  - Marqueurs `[POSOLOGIE À VÉRIFIER]` : 21 levés ou regroupés sur 34 ; 13 restants, dont plusieurs restreints à un point précis.
+  - Aucune erreur critique (aucune dose fausse).
+- Actualité signalée : actualisation GPIP 2026 (non lue) ; NICE CG124 2023 (PTH « à envisager ») ; NICE NG89 (thromboprophylaxie de 1 mois) ; amendement AUA 2023 (tadalafil + alpha-bloquant) ; EAU 2026 (section TME révisée).
+- Lots JSON écrits par `ecrire_json` et validés avec python3 (`valider.py` : 0 erreur) :
+  - 10 QCM modifiés ; 60 QCM `audite_valide` ;
+  - 9 cas modifiés ; 5 `audite_valide` et 5 `audite_corrections_requises` (CAS-UROL-1101 à 1104, CAS-ORTH-1102).
+- Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-UROL-0001.md`, `DOS-UROL-0002.md`, `DOS-TRAU-0001.md`, `DOS-TRAU-0002.md`, `DOS-ORTH-0001.md`.
+- État : `00_SYSTEME/agents/AUD-01/etat_DOS-11.json`. Aucune commande git.
+- 2026-11-19T03:54:16+00:00 — **Session d'audit scientifique et posologique (AUD-01, tenue conjointement avec AUD-02)** des dossiers du rédacteur DOS-12 :
+  - dossiers DOS-ORL-0001 (OMA), DOS-ORL-0002 (épistaxis), DOS-ORL-0003 (cancer du cavum), DOS-NCHI-0001 (TCE) et DOS-OPHT-0001 (glaucome par fermeture de l'angle) ;
+  - lots `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-12.json` (60 QCM) et `20_CAS_CLINIQUES/lots/DOS-12.json` (10 cas).
+  J'ai d'abord lu PROTOCOLE_AUDIT.md, CONVENTIONS.md et le catalogue, puis les 5 dossiers et les 2 lots en entier.
+- Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/` (5 dossiers `*.avant_audit_AUD-01`, lots `DOS-12.avant_audit_AUD-01.json`).
+- Textes intégraux relus :
+  - fiches HAS « OMA purulente de l'enfant » (mise à jour du 14/05/2025) et « de l'adulte » (13/05/2025), sur has-sante.fr ;
+  - synthèse HAS 2024 sur les durées d'antibiothérapie (DOC-00079) ;
+  - arrêté du 03/07/2018 sur le calendrier vaccinal (DOC-00070 : « anti-pneumococcique 13 » à 2, 4 et 12 mois) ;
+  - synthèse HAS-GEHT 2008 sur les AVK (téléchargée) ;
+  - guide européen 2026 sur les hémorragies sous anticoagulants (PMC13344178) ;
+  - NICE NG232 (nice.org.uk) ;
+  - Pan 2024, TNM-9 du nasopharynx (PMC11581663) ;
+  - EGS 4e édition, chapitres 2 et 3 (PMC5583685, PMC5583689) ;
+  - Ramdani-Bouguessa 2015 (pneumocoque en Algérie, PMC4475694) ;
+  - Hamdi Cherif 2014 (registre de Sétif, PMC4164767) ;
+  - Feng 2009 (PMC2768108).
+- Résumés PubMed : SFORL 2017 (HTA et antithrombotiques), NoPAC, Laouamri 2001, Intergroup 0099, Sun 2016, Zhang 2019 et 2016, KCSG-HN10-02, CRASH-3, RESCUEicp, CCHR, EAGLE, ZAP, Tham 2014, Cochrane 2023 (×2), BTF 2007 (osmothérapie).
+- 1 recherche web (RFE SFAR 2016, texte non trouvé). Hôtes inaccessibles : sfar.org, HAL / archives-ouvertes, dumas.ccsd.cnrs.fr, api.crossref.org, infectiologie.com, journals.lww.com, base-donnees-publique.medicaments.gouv.fr, dailymed.
+- Résultats (tous les dossiers en version 1.1) :
+  - DOS-ORL-0001 : 6 corrections (0 critique / 0 majeure / 6 mineures) → **audite_valide** ; 2 marqueurs levés, 0 restant.
+  - DOS-ORL-0002 : 9 corrections (0/0/9) → audite_corrections_requises ; 4 marqueurs restants (acide tranexamique oral dans la THH, lidocaïne avec vasoconstricteur, CCP pour un anti-Xa, desmopressine).
+  - DOS-ORL-0003 : 11 corrections (0/0/11) → audite_corrections_requises ; 0 marqueur restant (2 levés : doses des essais Intergroup 0099, GP, TPF et KCSG). ESMO et CSCO-ASCO non relus en texte intégral.
+  - DOS-NCHI-0001 : 9 corrections (0/0/9) → audite_corrections_requises ; 4 marqueurs restants (SSH de l'adulte, phénytoïne, CCP pour un anti-Xa, SSH dans le cas). Texte de la SFAR 2016 inaccessible.
+  - DOS-OPHT-0001 : 11 corrections (0/2/9) → audite_corrections_requises ; 8 marqueurs levés (EGS 2017), 0 restant.
+- **Aucune erreur critique.** Deux erreurs majeures, toutes deux dans DOS-OPHT-0001 :
+  - mannitol à « 1-2 g/kg » non sourcé, ramené à 1,0-1,5 g/kg selon l'EGS ;
+  - QCM-OPHT-1203 : distracteur ambigu (la pilocarpine peut précipiter une fermeture de l'angle), remplacé.
+- Autres apports :
+  - antagonisation des AVK (HAS 2008) et des AOD (idarucizumab 5 g, andexanet alfa selon le RCP) ;
+  - divergence HAS 2008 / NICE pour le TC sous AVK ;
+  - TNM-9 (précisions T3/T4) et TNM-8 contrôlés sur Pan 2024 ;
+  - référence de Marshall 1991 confirmée ;
+  - données algériennes sourcées ajoutées : pneumocoque 2005-2012, registre de Sétif ;
+  - affirmations algériennes non sourcées reformulées avec `[À VÉRIFIER]`.
+- Lots (écrits avec `ecrire_json`, JSON validé avec python3, concordance des 50 QCM reproduites dans les dossiers vérifiée) :
+  - 60 QCM `audite_valide` (QCM-OPHT-1203 corrigée) ;
+  - cas : 5 `audite_valide` (CAS-ORL-1201, 1203, 1205, 1206, CAS-OPHT-1201) et 5 `audite_corrections_requises` (CAS-ORL-1202, 1204, CAS-NCHI-1201, 1202, CAS-OPHT-1202).
+  - `valider.py` : 0 erreur (rapport commun de validation régénéré par le script).
+- Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0001.md`, `DOS-ORL-0002.md`, `DOS-ORL-0003.md`, `DOS-NCHI-0001.md`, `DOS-OPHT-0001.md`. État : `00_SYSTEME/agents/AUD-01/etat_DOS-12.json` (etat.json non réécrit).
+- Traçabilité : une commande `git diff --stat` en lecture seule a été lancée par inadvertance pour vérifier un fichier (aucune modification) ; aucune autre commande git.

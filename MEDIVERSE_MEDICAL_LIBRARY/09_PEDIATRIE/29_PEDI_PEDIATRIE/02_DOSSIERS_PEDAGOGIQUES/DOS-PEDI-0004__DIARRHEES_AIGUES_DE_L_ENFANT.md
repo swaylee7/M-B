@@ -176,13 +176,13 @@ L'OMS résume la prise en charge de tout enfant diarrhéique en **trois élémen
 
 ## 2. Historique
 
-L'histoire de la diarrhée de l'enfant est indissociable de deux révolutions thérapeutiques et d'une révolution préventive :
+Trois étapes ont transformé le pronostic :
 
 - **La réhydratation orale** (années 1960–1970), rendue possible par la compréhension du **cotransport sodium–glucose** intestinal, a transformé le pronostic du choléra puis des diarrhées infantiles ; l'OMS et l'UNICEF ont ensuite promu un **SRO à osmolarité réduite** (245 mOsm/L) au début des années 2000, associé au **zinc** [S5, S6] (détails historiques dans DOS-PEDI-0001).
 - **La supplémentation en zinc** pendant 10 à 14 jours, généralisée par l'OMS et l'UNICEF après les essais des années 1990–2000, réduit la durée et la gravité de l'épisode et les récidives des mois suivants [S1, S6].
 - **La vaccination antirotavirus**, disponible depuis le milieu des années 2000, dont l'OMS recommande l'introduction dans **tous** les programmes nationaux de vaccination (note de synthèse de juillet 2021) [S7].
 
-En **Algérie**, la lutte contre les maladies diarrhéiques s'est appuyée sur l'amélioration de l'accès à l'eau potable, la diffusion des sachets de SRO et la stratégie PCIME ; les documents nationaux de ce programme n'ont pas été consultés pendant la session **[À VÉRIFIER — documents MSPRH/INSP]**. Le pays a connu en **2018**, après plus de vingt ans sans épidémie, une **flambée de choléra** (291 cas suspects, souche *V. cholerae* O1 El Tor sérotype Ogawa importée d'Asie du Sud) [S11], ce qui rappelle que ce diagnostic reste d'actualité au Maghreb.
+En **Algérie**, les documents nationaux du programme de lutte contre les maladies diarrhéiques n'ont pas été consultés **[À VÉRIFIER — MSPRH/INSP]**. Le pays a connu en **2018**, après plus de vingt ans sans épidémie, une **flambée de choléra** (291 cas suspects, souche *V. cholerae* O1 El Tor sérotype Ogawa importée d'Asie du Sud) [S11], ce qui rappelle que ce diagnostic reste d'actualité au Maghreb.
 
 ## 3. Épidémiologie
 
@@ -202,20 +202,11 @@ En **Algérie**, la lutte contre les maladies diarrhéiques s'est appuyée sur l
 
 ### 3.3 Saisonnalité et terrain
 
-- **Hiver** : rotavirus (pic hivernal au Maghreb [S12]), norovirus.
-- **Été** : bactéries entéro-invasives et toxi-infections alimentaires (chaleur, rupture de la chaîne du froid, eau de puits) — repère classique, non chiffré ici.
-- **Terrains à risque de forme grave** : nourrisson de moins de 6 mois (et surtout de moins de 2 mois), malnutrition, prématurité, déficit immunitaire (dont l'infection par le VIH), drépanocytose et asplénie (risque de bactériémie à salmonelle), maladie chronique.
+Le rotavirus prédomine en **hiver** au Maghreb [S12] ; les bactéries entéro-invasives et les toxi-infections alimentaires sont plus fréquentes en été (repère classique). Les formes graves touchent surtout le nourrisson (avant 6 mois et a fortiori avant 2 mois), l'enfant malnutri, prématuré, immunodéprimé (dont le VIH), drépanocytaire ou asplénique (bactériémie à salmonelle) et l'enfant atteint de maladie chronique.
 
 ## 4. Rappels physiologiques
 
-Chaque jour, l'intestin grêle reçoit et réabsorbe un volume considérable de liquides (apports, salive, sécrétions gastriques, biliaires, pancréatiques et intestinales). L'équilibre résulte de deux flux :
-
-- **l'absorption** par les entérocytes matures du sommet des villosités, qui repose sur des transports actifs du sodium, dont le **cotransport sodium–glucose (SGLT1)** : l'entrée d'une molécule de glucose entraîne celle du sodium, puis l'eau suit passivement. Ce mécanisme est **préservé** dans la plupart des diarrhées infectieuses, y compris le choléra : c'est le fondement du SRO ;
-- **la sécrétion** de chlore (et d'eau) par les cellules des cryptes, régulée par l'AMPc, le GMPc et le calcium intracellulaires.
-
-Le côlon réabsorbe le reste de l'eau et des électrolytes et fermente les sucres non absorbés en acides gras à chaîne courte, qui favorisent eux-mêmes l'absorption de sodium.
-
-Chez le jeune enfant, la **forte proportion d'eau extracellulaire**, le **renouvellement hydrique rapide** et la **dépendance à l'entourage** pour boire expliquent la rapidité d'installation de la déshydratation (voir DOS-PEDI-0001 §4).
+L'intestin grêle réabsorbe chaque jour un volume considérable de liquides grâce aux transports actifs du sodium des entérocytes matures, dont le **cotransport sodium–glucose (SGLT1)**, préservé dans la plupart des diarrhées infectieuses (fondement du SRO) ; les cellules des cryptes sécrètent du chlore et de l'eau sous le contrôle de l'AMPc, du GMPc et du calcium. Le côlon réabsorbe le reste de l'eau. La forte proportion d'eau extracellulaire et le renouvellement hydrique rapide du jeune enfant expliquent la rapidité d'installation de la déshydratation (détails : DOS-PEDI-0001 §4).
 
 ## 5. Physiopathologie
 
@@ -269,10 +260,7 @@ Ces mécanismes s'associent souvent. Le cas particulier des ***E. coli* producte
 
 ### 6.3 Facteurs de risque
 
-- **Environnementaux** : eau non potable, assainissement insuffisant, absence de lavage des mains au savon, mauvaise hygiène alimentaire [S3].
-- **Liés à l'alimentation** : absence d'allaitement maternel exclusif avant 6 mois, biberons mal préparés ou mal nettoyés [S3].
-- **Liés à l'hôte** : malnutrition, carence en zinc et en vitamine A, rougeole récente, déficit immunitaire.
-- **Contextuels** : collectivités (crèches), voyages, épidémies (choléra), saison.
+Eau non potable, assainissement insuffisant, absence de lavage des mains au savon et mauvaise hygiène alimentaire ; absence d'allaitement exclusif avant 6 mois et biberons mal préparés [S3] ; malnutrition, carences en zinc et en vitamine A, rougeole récente, déficit immunitaire ; collectivités, voyages, épidémies.
 
 ## 7. Classifications
 
@@ -371,7 +359,7 @@ Dans la gastro-entérite aqueuse aiguë d'un enfant sans signe de gravité, **au
 | **Diarrhée après antibiotiques** | Recherche de *C. difficile* et de ses toxines | Selon l'âge et le contexte **[À VÉRIFIER — seuil d'âge]** |
 | Voyage, nourrisson < 3 mois fébrile, aspect toxique | Coproculture ± **hémocultures** | Risque de bactériémie (salmonelles) |
 
-Les **tests de détection rapide** des antigènes de rotavirus ou de norovirus ont surtout un intérêt épidémiologique (collectivités, hôpital) et pour éviter des antibiotiques inutiles ; les **panels moléculaires** multiplex détectent de nombreux agents, mais leur positivité ne prouve pas toujours la causalité (portage).
+Les **tests rapides** (rotavirus, norovirus) ont surtout un intérêt épidémiologique ; un **panel moléculaire** positif ne prouve pas toujours la causalité (portage).
 
 ### 9.3 Bilan biologique sanguin
 
@@ -379,7 +367,7 @@ Les **tests de détection rapide** des antigènes de rotavirus ou de norovirus o
 - **Glycémie capillaire** devant toute altération de la conscience ou convulsion [S1].
 - **Hémogramme avec plaquettes, frottis (schizocytes), LDH, haptoglobine, créatinine, bandelette urinaire** devant une suspicion de **SHU**.
 - **Hémocultures** si fièvre élevée avec aspect toxique, nourrisson de moins de 3 mois, déficit immunitaire.
-- **CRP/procalcitonine** : peuvent orienter vers une cause bactérienne invasive mais ne doivent pas, seules, décider d'une antibiothérapie.
+- **CRP/procalcitonine** : orientation seulement ; jamais seules pour décider d'un antibiotique.
 
 ### 9.4 Imagerie
 
@@ -393,7 +381,7 @@ Nourrisson de 6 à 24 mois, saison froide ; **vomissements** souvent inauguraux 
 
 ### 10.2 Gastro-entérite à norovirus
 
-Tous âges ; incubation courte ; vomissements brutaux, diarrhée brève (1–3 jours) ; épidémies en collectivité (crèches, hôpitaux). Hygiène des mains au savon (les solutions hydroalcooliques sont moins efficaces sur ce virus non enveloppé — notion classique **[À VÉRIFIER]**).
+Tous âges ; incubation courte ; vomissements brutaux, diarrhée brève (1–3 jours) ; épidémies en collectivité (crèches, hôpitaux). Hygiène des mains au savon.
 
 ### 10.3 Choléra
 
@@ -479,3 +467,401 @@ La gastro-entérite virale guérit spontanément en **3 à 7 jours** ; la repris
 
 Jeune âge, malnutrition, déshydratation sévère ou choc, dysnatrémie sévère, dysenterie avec complication, retard de prise en charge, éloignement des soins.
 
+## 13. Traitement
+
+### 13.1 Objectifs
+
+1. **Prévenir ou corriger la déshydratation** et les troubles électrolytiques (objectif vital).
+2. **Maintenir l'état nutritionnel** : poursuivre l'allaitement et l'alimentation, réalimenter précocement.
+3. **Réduire la durée et la gravité de l'épisode** et les récidives (zinc).
+4. **Traiter la cause** lorsqu'elle le justifie (dysenterie, choléra grave, parasitose, terrain à risque) sans prescrire d'antibiotiques inutiles.
+5. **Dépister et traiter les complications** (SHU, mégacôlon toxique, bactériémie, convulsions).
+6. **Éduquer** la famille (plan A, signes d'alerte, prévention) et **déclarer** les MDO.
+
+### 13.2 Moyens
+
+#### 13.2.1 Réhydratation (résumé — détails dans DOS-PEDI-0001 §13)
+
+- **SRO à osmolarité réduite** (sodium 75 mmol/L, glucose 75 mmol/L, 245 mOsm/L), recommandé par l'OMS et inscrit sur la liste des médicaments essentiels de l'enfant (2025), qui l'associe au **zinc** [S5, S10].
+- **Plan A** (pas de déshydratation) : 50–100 mL de SRO après chaque selle liquide avant 2 ans, 100–200 mL ensuite, en plus des boissons habituelles ; deux sachets remis à la famille [S1].
+- **Plan B** (déshydratation modérée) : **75 mL/kg de SRO en 4 heures** au centre de santé, puis réévaluation [S1].
+- **Plan C** (déshydratation sévère) : **100 mL/kg** de Ringer lactate (ou sérum physiologique) en 6 heures avant 12 mois (30 mL/kg en 1 h puis 70 mL/kg en 5 h) et en 3 heures après 12 mois (30 mL/kg en 30 min puis 70 mL/kg en 2 h 30) ; sonde nasogastrique (20 mL/kg/h pendant 6 h) si la voie veineuse est impossible [S1].
+- **Malnutrition aiguë sévère** : protocole spécifique (DOS-PEDI-0003) [S13].
+
+#### 13.2.2 Zinc
+
+- **Posologie OMS** : **10 mg/j avant 6 mois**, **20 mg/j à partir de 6 mois**, pendant **10 à 14 jours**, sans interruption, même après l'arrêt de la diarrhée [S1] ; l'AWaRe reprend la fourchette de 10 à 20 mg/j pendant 10 à 14 jours [S3].
+- **Administration** : comprimé dispersible dissous dans un peu d'eau propre, de lait maternel exprimé ou de SRO chez le nourrisson ; croqué ou dissous chez l'enfant plus âgé [S1].
+- **Choléra** : débuter le zinc **dès l'arrêt des vomissements** [S1].
+- **Effet** : diminution de la durée et de la gravité de l'épisode et des diarrhées des 2–3 mois suivants [S1].
+- **Divergence** : l'ESPGHAN ne le recommande pas en Europe, où la carence en zinc est rare [S4] (voir §21).
+- **Algérie** : disponibilité des formes pédiatriques dispersibles dans les structures de soins de base **[À VÉRIFIER]**.
+
+#### 13.2.3 Alimentation
+
+- **Ne jamais interrompre l'allaitement maternel** [S1, S4].
+- **Réalimentation précoce** : en cas de plan B, seul le lait maternel est donné pendant les 4 premières heures ; ensuite l'alimentation habituelle est reprise [S1]. Le lait artificiel est donné **non dilué** ; un lait sans lactose n'est pas nécessaire en routine [S4] et se discute seulement en cas d'intolérance avérée ou de diarrhée persistante.
+- Après 6 mois : aliments habituels adaptés à l'âge, en petites quantités fréquentes ; éviter les boissons très sucrées (jus industriels, sodas) qui aggravent la diarrhée osmotique.
+- **Convalescence** : un repas supplémentaire par jour pendant deux semaines (OMS) pour rattraper le déficit [S5].
+- **Diarrhée persistante grave hospitalisée** : régimes spécifiques de l'OMS apportant au moins **110 kcal/kg/j** en six repas : un premier régime à base de céréales et pauvre en lactose (≤ 3,7 g de lactose/kg/j), puis, en cas d'échec après 7 jours, un second régime sans lait [S1] (§13.3.4).
+
+#### 13.2.4 Anti-infectieux
+
+**Principe** : la plupart des diarrhées aiguës n'en relèvent pas, **y compris lorsqu'elles sont fébriles ou déshydratantes** [S3]. L'OMS limite les antibiotiques à la **diarrhée sanglante** (shigellose probable), au **choléra suspecté avec déshydratation sévère** et aux **infections graves d'autres organes** (pneumonie, infection urinaire…) ; les **antiprotozoaires** sont rarement indiqués [S1].
+
+| Situation | Molécule et posologie | Durée | Source |
+|---|---|---|---|
+| **Dysenterie — 1ʳᵉ intention** | **Ciprofloxacine** PO **15 mg/kg/dose toutes les 12 h** (tranches de poids AWaRe : 3–< 6 kg 50 mg ; 6–< 10 kg 100 mg ; 10–< 15 kg 150 mg ; 15–< 20 kg 200 mg ; 20–< 30 kg 300 mg ; ≥ 30 kg 500 mg, toutes les 12 h) | 3 jours | [S1, S3] |
+| Dysenterie — résistance à la ciprofloxacine suspectée | **Azithromycine** PO **10 mg/kg/dose une fois par jour** | 4 jours | [S3] |
+| Dysenterie — alternative orale | **Céfixime** PO **10 mg/kg/dose une fois par jour** (posologie de l'AWaRe, à confronter au RCP national) | 5 jours | [S3] |
+| Dysenterie — si sensibilité locale documentée | **Cotrimoxazole** PO 20 mg/kg de sulfaméthoxazole + 4 mg/kg de triméthoprime toutes les 12 h | 5 jours | [S3] |
+| **Dysenterie grave** ou 2ᵉ intention | **Ceftriaxone** IV/IM **50 à 80 mg/kg une fois par jour** (OMS 2013/2015) ; **80 mg/kg/j** (AWaRe 2022) | 3 jours | [S1, S3] |
+| Diarrhée sanglante du **jeune nourrisson** avec suspicion de **sepsis** | **Ceftriaxone** IV/IM **100 mg/kg une fois par jour** | 5 jours | [S1] |
+| **Amibiase** (trophozoïtes hématophages) ou **giardiase** ; ou dysenterie résistant à deux antibiotiques actifs sur *Shigella* | **Métronidazole** PO **10 mg/kg trois fois par jour** | 5 jours | [S1] |
+| **Choléra** — 1ʳᵉ intention | **Azithromycine** PO **20 mg/kg en dose unique** (préférée en raison de la baisse de sensibilité aux tétracyclines et aux fluoroquinolones) | Dose unique | [S3] |
+| Choléra — 2ᵉ intention | **Ciprofloxacine** PO **15 mg/kg en dose unique** ; ou **doxycycline** PO **2 à 4 mg/kg en dose unique** (< 45 kg) | Dose unique | [S3] |
+
+Remarques :
+
+- Les ***Shigella*** sont fréquemment **résistantes** à l'ampicilline, au cotrimoxazole, au chloramphénicol, à l'acide nalidixique, aux tétracyclines, à la gentamicine et aux céphalosporines de 1ʳᵉ et 2ᵉ générations ; des résistances à la ciprofloxacine sont signalées dans plusieurs pays [S1] : l'antibiothérapie doit suivre les **données locales de sensibilité** quand elles existent [S1, S3]. Les données algériennes récentes n'ont pas été consultées **[À VÉRIFIER — réseau national de surveillance de la résistance]**.
+- La **ciprofloxacine** est utilisée chez l'enfant dans cette indication par l'OMS malgré les réserves articulaires historiques des fluoroquinolones ; le rapport bénéfice/risque d'un traitement de 3 jours est jugé favorable [S1, S3].
+- Les **salmonelloses** non compliquées de l'enfant sain et les diarrhées à **STEC** ne doivent **pas** recevoir d'antibiotiques (§10.5–10.6) [S4].
+- Si les symptômes d'une diarrhée sanglante ne s'améliorent pas en 24–48 h de traitement adapté, l'AWaRe propose d'envisager le métronidazole (amibiase, giardiase) [S3].
+
+#### 13.2.5 Traitements symptomatiques
+
+| Classe | Position de l'OMS | Position de l'ESPGHAN 2014 | Commentaire |
+|---|---|---|---|
+| **Antidiarrhéiques** (lopéramide…) | **Ne pas utiliser** chez le jeune enfant : n'empêchent pas la déshydratation, n'améliorent pas l'état nutritionnel, effets indésirables graves possibles [S1, S3] | Lopéramide non recommandé chez l'enfant [S4] | Contre-indiqué chez le nourrisson ; dangereux en cas de dysenterie [S1] |
+| **Racécadotril** (antisécrétoire) | Non retenu | Peut être envisagé [S4] | Posologie : voir DOS-PEDI-0001 §13.2.4 (marqueur maintenu) |
+| **Diosmectite** | Non retenue | Peut être envisagée [S4] | Ne remplace jamais le SRO |
+| **Probiotiques** (*L. rhamnosus* GG, *S. boulardii*) | Non retenus | Peuvent être envisagés (effet modeste) [S4] | Positions ultérieures plus nuancées **[À VÉRIFIER]** |
+| **Antiémétiques** | **Ne pas administrer** au jeune enfant [S1] | **Ondansétron** possible pour faciliter la réhydratation orale, sous réserve de sécurité (QT) [S4] | Doses et réserves : DOS-PEDI-0001 §13.2.4 ; métoclopramide et dompéridone déconseillés |
+| **Antipyrétiques** | Paracétamol si fièvre ≥ 39 °C mal tolérée (dysenterie) [S1] | — | Ne jamais traiter la douleur de la dysenterie par des antispasmodiques ou des ralentisseurs du transit [S1] |
+
+### 13.3 Indications et stratégie
+
+#### 13.3.1 Diarrhée aqueuse aiguë
+
+```text
+1. Évaluer l'hydratation (± choc) → plan A, B ou C (DOS-PEDI-0001).
+2. Zinc 10 mg/j (< 6 mois) ou 20 mg/j (≥ 6 mois) pendant 10–14 jours [S1].
+3. Poursuivre l'allaitement ; réalimenter dès la fin de la phase de réhydratation.
+4. Pas d'antibiotique, pas d'antidiarrhéique, pas d'antiémétique selon l'OMS
+   (ondansétron discuté selon l'ESPGHAN) [S1, S4].
+5. Rechercher et traiter une infection extradigestive associée (otite, pneumonie,
+   infection urinaire) [S1].
+6. Éduquer : plan A, préparation du SRO, signes d'alerte, suivi à 5 jours si pas
+   d'amélioration [S1].
+```
+
+#### 13.3.2 Dysenterie [S1, S3]
+
+1. **Évaluer et traiter la déshydratation** (plan A, B ou C) : c'est la complication la plus fréquente.
+2. **Hospitaliser** : nourrisson de **moins de 2 mois** ; enfant **gravement malade** (léthargie, distension et douleur abdominales, convulsions) ; autre affection nécessitant l'hôpital ; malnutrition sévère.
+3. **Antibiotique oral** actif sur les *Shigella* locales : **ciprofloxacine** 15 mg/kg × 2/j pendant 3 jours (alternatives : azithromycine, céfixime, cotrimoxazole si sensibilité documentée) ; **ceftriaxone** si forme grave ou deuxième intention.
+4. **Zinc** comme pour la diarrhée aqueuse.
+5. **Alimentation** : poursuivre l'allaitement (plus souvent), aliments habituels après 6 mois ; le retour de l'appétit est un bon signe.
+6. **Suivi à 2 jours** : disparition de la fièvre, diminution du nombre de selles et du sang, retour de l'appétit. En l'absence d'amélioration après **2 jours complets** : rechercher une autre affection, arrêter le premier antibiotique et passer à un antibiotique de 2ᵉ intention ; si deux antibiotiques habituellement efficaces ont échoué (2 jours chacun) : penser à l'**amibiase** (métronidazole) ou à un autre diagnostic.
+7. **Complications** : hypokaliémie (SRO, aliments riches en potassium), forte fièvre (paracétamol, rechercher une infection bactérienne grave), **prolapsus rectal** (réduction douce avec un gant ou une compresse humide), **convulsions** (souvent uniques ; diazépam si prolongées ou répétées, en évitant la voie rectale ; **toujours rechercher une hypoglycémie**), **SHU**, **mégacôlon toxique** (perfusion, sonde gastrique, antibiotiques, avis chirurgical).
+8. **Jamais** d'antidiarrhéique ni d'antispasmodique.
+9. **Déclaration** : la dysenterie bacillaire et amibienne est une MDO en Algérie [S9].
+
+#### 13.3.3 Choléra suspecté [S1, S3, S9]
+
+1. Réhydratation **rapide et massive** (plan C, puis SRO dès que l'enfant peut boire), surveillance rapprochée des pertes.
+2. Antibiotique oral : **azithromycine 20 mg/kg en dose unique** en première intention (AWaRe), pour les malades hospitalisés pour déshydratation sévère, ceux à fort débit de selles ou en échec des 4 premières heures de réhydratation, ou porteurs de comorbidités.
+3. Zinc dès l'arrêt des vomissements.
+4. **Déclaration immédiate** (MDO de catégorie 2), mesures d'hygiène, recherche de cas, sécurisation de l'eau.
+
+#### 13.3.4 Diarrhée persistante [S1]
+
+**a) Diarrhée persistante grave** (avec déshydratation) → **hospitalisation** :
+
+- réhydratation selon le plan B ou C ; certains enfants ont une **malabsorption du glucose** : l'administration de SRO augmente nettement le volume des selles et la soif, avec réapparition de signes de déshydratation et de grandes quantités de glucose dans les selles → réhydratation **intraveineuse** jusqu'à ce que le SRO soit toléré ;
+- **pas d'antibiothérapie systématique** (inefficace) ; mais rechercher et traiter une **infection extradigestive** (pneumonie, sepsis, infection urinaire, muguet, otite) ; antibiotique actif sur *Shigella* si les selles sont sanglantes ; **métronidazole** seulement si trophozoïtes d'*E. histolytica* ou de *Giardia*, échec de deux antibiotiques anti-*Shigella*, ou diarrhée de plus d'un mois sans examen de selles possible ;
+- **alimentation** : allaitement à la demande ; avant 6 mois chez l'enfant non allaité, substitut pauvre en lactose ou sans lactose (yaourt), à la tasse ou à la cuillère ; après 6 mois, **six repas par jour** apportant **au moins 110 kcal/kg/j** (régime 1 pauvre en lactose, régime 2 sans lait si échec après 7 jours) ; sonde nasogastrique parfois nécessaire au début ;
+- **critères de succès** : prise alimentaire adéquate, **prise de poids** (critère principal, sur au moins 3 jours consécutifs), diminution des selles, apyrexie ; **critères d'échec** : augmentation des selles (> 10 selles aqueuses/j) avec réapparition de la déshydratation, ou absence de prise de poids en 7 jours ;
+- **micronutriments** pendant 2 semaines (au moins deux fois les apports recommandés en acide folique, vitamine A, zinc, magnésium et cuivre) ;
+- surveillance infirmière quotidienne : poids, température, apports, nombre de selles.
+
+**b) Diarrhée persistante sans gravité** → **ambulatoire** : plan A, micronutriments, réduction temporaire du lait animal (yaourt ou lait limité à 50 mL/kg/j mélangé aux céréales, non dilué), au moins six repas par jour, traitement d'une infection associée ; **revoir à 5 jours** (plus tôt si aggravation) ; retour à une alimentation normale quand l'enfant prend du poids et n'a pas plus de trois selles molles par jour.
+
+#### 13.3.5 Terrains particuliers
+
+- **Nourrisson de moins de 2–3 mois** : seuil d'hospitalisation bas ; toute diarrhée sanglante ou fébrile avec aspect toxique impose de rechercher un sepsis (hémocultures, ECBU, PL selon la clinique) et un traitement parentéral (DOS-NEON-0002) [S1].
+- **Déficit immunitaire / VIH** : coproculture et parasitologie (cryptosporidies, isosporose), traitement des salmonelloses [S1, S4].
+- **Malnutrition aiguë sévère** : DOS-PEDI-0003 [S13].
+
+### 13.4 Particularités algériennes
+
+- **Déclaration obligatoire** : dysenterie bacillaire et amibienne, typhoïde et paratyphoïdes, TIAC (catégorie 1) et choléra (catégorie 2) [S9].
+- **Choléra** : l'épidémie de 2018 rappelle la nécessité d'y penser devant une diarrhée aqueuse profuse en contexte de cas groupés, et de disposer de SRO et de solutés en quantité [S11].
+- **Vaccin antirotavirus** : absent du calendrier obligatoire (arrêtés de 2018 et 2026) ; disponibilité éventuelle hors calendrier **[À VÉRIFIER]** [S8].
+- **SRO et zinc** : disponibilité des sachets de SRO à osmolarité réduite et du zinc dispersible dans les structures publiques et en officine **[À VÉRIFIER]** ; stratégie PCIME nationale **[À VÉRIFIER — MSPRH/UNICEF Algérie]**.
+- **Résistances** des entérobactéries et des *Shigella* aux antibiotiques usuels : données locales à rechercher auprès du réseau algérien de surveillance de la résistance bactérienne **[À VÉRIFIER]**.
+
+## 14. Surveillance
+
+| Paramètre | Rythme (enfant hospitalisé) | Signification |
+|---|---|---|
+| Conscience, pouls, TRC, PA | Toutes les 15–30 min pendant le plan C, puis horaire | Efficacité de la réhydratation, choc |
+| **Poids** | À l'admission, à 4–6 h, puis quotidien | Reprise pondérale = succès ; critère principal de la diarrhée persistante [S1] |
+| Nombre et aspect des selles, vomissements | À chaque épisode (bilan entrées/sorties) | Débit des pertes, sang, échec du SRO |
+| Diurèse | Couches pesées | Insuffisance rénale, SHU |
+| Température | Toutes les 4–6 h | Infection invasive, efficacité de l'antibiotique (dysenterie) |
+| Apports alimentaires | Quotidien | Diarrhée persistante, malnutrition |
+| Ionogramme, créatinine, glycémie | Selon la gravité (DOS-PEDI-0001 §14) | Dysnatrémies, hypokaliémie, fonction rénale |
+| Hémogramme, plaquettes, créatinine | Si diarrhée sanglante à risque de STEC ou signes évocateurs | Dépistage du SHU |
+
+**En ambulatoire** : réévaluation à **2 jours** pour une dysenterie, à **5 jours** pour une diarrhée aqueuse qui ne s'améliore pas ou une diarrhée persistante sans gravité ; retour **immédiat** si l'enfant ne peut pas boire ou téter, boit mal, s'aggrave, a de la fièvre ou du sang dans les selles [S1].
+
+## 15. Prévention
+
+### 15.1 Mesures générales
+
+- **Allaitement maternel exclusif jusqu'à 6 mois**, puis poursuivi avec une alimentation de complément adaptée [S3].
+- **Eau potable**, **assainissement**, **lavage des mains au savon** (après les selles, après le change, avant de préparer les repas et de nourrir l'enfant), **hygiène alimentaire** (cuisson, conservation, chaîne du froid) [S3].
+- **Préparation correcte des biberons** (eau sûre, dosage exact, nettoyage), éducation sanitaire sur les modes de transmission [S3].
+- **Lutte contre la malnutrition** et carences en micronutriments (DOS-PEDI-0003) ; le zinc donné pendant un épisode réduit aussi l'incidence des diarrhées des mois suivants [S1].
+
+### 15.2 Vaccinations
+
+- **Rotavirus** : l'OMS recommande l'inclusion des vaccins antirotavirus dans **tous** les programmes nationaux de vaccination (note de synthèse 2021) [S7] ; les modalités (âge de la première dose, intervalle, limites d'âge) doivent être lues dans la note de synthèse et le RCP **[À VÉRIFIER — texte intégral non relu]**. Ce vaccin ne figure pas dans le calendrier obligatoire algérien [S8].
+- **Rougeole** : la rougeole se complique fréquemment de diarrhée ; le ROR figure dans le calendrier algérien (11 et 18 mois) [S8] (DOS-PEDI-0002).
+- **Choléra** : vaccin oral dans les zones d'endémie et lors des épidémies [S3].
+
+### 15.3 Santé publique et collectivités
+
+- **Déclaration** des MDO (dysenterie, typhoïde, TIAC, choléra) et investigation des cas groupés [S9].
+- En **collectivité** (crèche, hôpital) : hygiène des mains et des surfaces, gestion des couches, isolement contact des enfants hospitalisés pour gastro-entérite ; les règles d'éviction de la collectivité relèvent des textes locaux **[À VÉRIFIER]**.
+- **Éducation des familles** : avoir des sachets de SRO à domicile, savoir les préparer, connaître les signes d'alerte, consulter tôt pour le jeune nourrisson.
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Arbre d'orientation devant une diarrhée aiguë de l'enfant
+
+```text
+ENFANT AVEC DIARRHÉE (≥ 3 selles molles/24 h ou changement du transit)
+│
+├─ 1. Signes de choc ou déshydratation sévère ? ── OUI → plan C immédiat (DOS-PEDI-0001)
+│                                                        puis reprendre l'arbre
+├─ 2. Malnutrition aiguë sévère ? ───────────────── OUI → protocole MAS (DOS-PEDI-0003)
+│
+├─ 3. Signes d'urgence chirurgicale ?
+│     (vomissements bilieux, distension, masse, défense,
+│      crises de pleurs avec pâleur + sang) ─────────── OUI → avis chirurgical, échographie
+│
+├─ 4. Sang dans les selles ?
+│     ├─ < 2 mois → hospitalisation, rechercher sepsis / entérocolite / cause chirurgicale
+│     ├─ Pâleur, oligurie, ecchymoses → SUSPECTER UN SHU (hémogramme, plaquettes, créatinine)
+│     └─ Sinon → DYSENTERIE : hydratation + ciprofloxacine 3 j (ou alternative locale)
+│                + zinc + alimentation ; contrôle à J2 ; MDO
+│
+├─ 5. Durée ≥ 14 jours ?
+│     ├─ avec déshydratation → diarrhée persistante grave : hospitalisation
+│     └─ sans déshydratation → ambulatoire : régime, micronutriments, revoir à J5
+│
+├─ 6. Contexte de choléra + diarrhée profuse ? ──── OUI → plan C/B + azithromycine dose unique
+│                                                         + zinc + déclaration
+└─ 7. Diarrhée aqueuse aiguë simple
+      → plan A ou B selon l'hydratation + zinc + alimentation
+      → chercher une infection extradigestive (otite, pneumonie, infection urinaire)
+      → éducation, signes d'alerte, revoir si pas d'amélioration à J5
+```
+
+### 16.2 Arbre « faut-il un antibiotique ? »
+
+```text
+Diarrhée aiguë de l'enfant
+├─ Aqueuse, enfant non immunodéprimé, ≥ 3 mois ............ NON (même si fièvre)
+├─ Sanglante (dysenterie) ................................... OUI : anti-Shigella
+│    └─ sauf suspicion de STEC/SHU (diarrhée sanglante non fébrile,
+│       contexte de viande hachée, cas groupés) ............... NON (risque de SHU)
+├─ Choléra avec déshydratation sévère ou fort débit .......... OUI : azithromycine dose unique
+├─ Salmonellose documentée
+│    ├─ enfant sain ........................................... NON
+│    └─ < 3 mois, immunodéprimé, drépanocytaire, aspect toxique  OUI
+├─ Trophozoïtes d'E. histolytica / Giardia ................... métronidazole 5 j
+└─ Infection extradigestive associée (otite, pneumonie, IU) .. traiter l'infection en cause
+```
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** Yacine, **3 ans**, 13 kg, est amené en été aux urgences d'un hôpital de wilaya pour **fièvre à 39,4 °C**, **douleurs abdominales** et **selles fréquentes** (une dizaine par jour) **glaireuses et striées de sang rouge** depuis 36 heures, avec des efforts d'exonération douloureux. Une heure avant l'arrivée, il a présenté une **crise convulsive généralisée** de 2 minutes, spontanément résolutive. Deux enfants de la même cité ont des symptômes voisins. Il est correctement vacciné selon le calendrier national.
+
+À l'examen : enfant fatigué mais réactif, **yeux légèrement enfoncés**, **boit avidement**, **pli cutané s'effaçant lentement**, pouls 130/min bien frappé, TRC 2 s, PA normale. Abdomen souple, sensible dans la fosse iliaque gauche, sans masse ni défense. Pas de raideur méningée, examen neurologique normal après la crise. Pas de pâleur, pas de purpura, diurèse conservée. Poids/taille et périmètre brachial normaux. **Glycémie capillaire : 4,8 mmol/L**.
+
+**Question 1 — Comment classez-vous cet enfant ?**
+*Réponse* : **dysenterie** (sang visible mélangé aux selles) avec **déshydratation modérée** (deux signes : yeux enfoncés, soif, pli lent), chez un enfant non malnutri. Le contexte (été, cas groupés, fièvre élevée, ténesme, convulsion) oriente vers une **shigellose**.
+
+**Question 2 — La convulsion change-t-elle la conduite ?**
+*Réponse* : dans la shigellose, il s'agit le plus souvent d'une **crise unique** liée à la fièvre ou à la maladie elle-même ; il faut **toujours rechercher une hypoglycémie** (normale ici) et une dysnatrémie, et examiner soigneusement l'enfant pour ne pas méconnaître une méningite (pas de signe méningé, conscience normale). Une crise prolongée ou répétée se traiterait par diazépam en **évitant la voie rectale** dans ce contexte, selon l'OMS [S1]. La surveillance hospitalière initiale se justifie (crise, fièvre élevée).
+
+**Question 3 — Quel traitement prescrivez-vous ?**
+*Réponse* :
+1. **Plan B** : 75 mL/kg × 13 kg ≈ **975 mL de SRO en 4 heures**, puis réévaluation (DOS-PEDI-0001).
+2. **Ciprofloxacine** PO 15 mg/kg toutes les 12 h, soit **195 mg × 2/j** par le calcul au poids (la tranche 10–< 15 kg de l'AWaRe propose 150 mg × 2/j) pendant **3 jours** [S1, S3] — à adapter aux données locales de sensibilité ; ceftriaxone si l'état s'aggrave ou en deuxième intention.
+3. **Zinc 20 mg/j** pendant 10 à 14 jours [S1].
+4. **Paracétamol** pour la fièvre mal tolérée ; **aucun** antidiarrhéique ni antispasmodique.
+5. Coproculture avec antibiogramme (contexte de cas groupés) et **déclaration** de la dysenterie bacillaire (MDO) [S9].
+
+**Question 4 — Quels éléments surveillez-vous et quand revoyez-vous l'enfant ?**
+*Réponse* : hydratation, diurèse, température, nombre de selles et quantité de sang, appétit ; **contrôle à 48 heures** : si pas d'amélioration après deux jours complets, rechercher une autre affection et changer d'antibiotique ; rester attentif aux signes de **SHU** (pâleur, oligurie, ecchymoses), de **mégacôlon toxique** (distension, silence abdominal, tachycardie) et au **prolapsus rectal** [S1].
+
+**Évolution** : réhydraté en 4 heures, Yacine reprend l'alimentation ; la fièvre disparaît à J2, les selles sont moins nombreuses et sans sang à J3. La coproculture isole *Shigella flexneri* sensible à la ciprofloxacine. Le zinc est poursuivi 10 jours ; les parents reçoivent des conseils d'hygiène (lavage des mains au savon, eau) ; l'enquête autour des cas est menée par le service de prévention.
+
+## 18. Points clés à retenir
+
+1. La diarrhée se définit par **≥ 3 selles molles ou liquides par 24 h** ou un changement net du transit ; les selles fréquentes de l'**allaité** sont normales [S1, S14].
+2. **Aiguë < 14 jours ; persistante ≥ 14 jours ; dysenterie = sang visible** dans les selles [S1].
+3. La gravité est d'abord celle de la **déshydratation** : évaluer et traiter selon les **plans A, B, C** (DOS-PEDI-0001).
+4. Trois piliers OMS : **réhydratation (SRO à osmolarité réduite), zinc, alimentation poursuivie** [S1].
+5. **Zinc** : **10 mg/j avant 6 mois, 20 mg/j ensuite, 10 à 14 jours** [S1].
+6. **Pas d'examen complémentaire** dans la diarrhée aqueuse simple ; coproculture si **sang**, épidémie, immunodépression, cas groupés [S1, S3].
+7. **Pas d'antibiotique** dans la diarrhée aqueuse, même fébrile ; **antibiotique** dans la **dysenterie** (ciprofloxacine 15 mg/kg × 2/j, 3 jours) et le **choléra grave** (azithromycine 20 mg/kg en dose unique) [S1, S3].
+8. **Pas d'antidiarrhéique ni d'antiémétique** chez le jeune enfant selon l'OMS ; l'ESPGHAN admet l'ondansétron, le racécadotril, la diosmectite et certains probiotiques [S1, S4].
+9. Une **diarrhée sanglante** chez un nourrisson évoque d'abord l'**invagination** ; chez le nouveau-né, un **sepsis** [S1].
+10. Après une diarrhée sanglante, **pâleur + oligurie + ecchymoses = SHU** jusqu'à preuve du contraire ; pas d'antibiotique ni de ralentisseur du transit en cas de STEC [S1, S4].
+11. La diarrhée persistante se traite surtout par l'**alimentation** (≥ 110 kcal/kg/j), les **micronutriments** et la recherche d'une **infection associée**, non par des antibiotiques systématiques [S1].
+12. En Algérie, dysenterie, typhoïde, TIAC et **choléra** sont des **MDO** ; le vaccin antirotavirus n'est pas au calendrier obligatoire [S8, S9].
+
+## 19. Pièges classiques à l'examen
+
+- **Prescrire un antibiotique** à toute diarrhée fébrile : la fièvre ne suffit pas ; seul le sang (dysenterie), le choléra grave ou un terrain à risque le justifient [S3].
+- **Considérer les selles semi-liquides et fréquentes d'un nourrisson allaité** comme une diarrhée [S14].
+- **Interrompre l'allaitement** ou mettre l'enfant à la « diète hydrique » prolongée [S1].
+- **Diluer le lait** ou prescrire d'emblée un lait sans lactose [S4].
+- **Oublier le zinc**, ou l'arrêter dès la fin de la diarrhée (il se donne 10 à 14 jours) [S1].
+- **Prescrire du lopéramide** ou un antiémétique à un nourrisson [S1].
+- **Traiter par antibiotique une diarrhée sanglante à STEC** ou une salmonellose simple de l'enfant sain [S4].
+- **Méconnaître une invagination** derrière une « dysenterie » du nourrisson [S1].
+- **Confondre** diarrhée persistante (≥ 14 jours, de début aigu) et diarrhée chronique.
+- **Choisir l'ampicilline ou le cotrimoxazole** en première intention dans la shigellose sans données locales de sensibilité [S1].
+- **Oublier la glycémie** devant une convulsion au cours d'une dysenterie [S1].
+- **Oublier la déclaration obligatoire** (dysenterie, choléra, TIAC) [S9].
+
+## 20. QCM d'auto-évaluation
+
+*Questions originales Mediverse (propositions A–E, réponses multiples possibles sauf QCS). Identifiants identiques à ceux du lot JSON.*
+
+**QCM 1 (QCM-PEDI-0501) — QCM.** Concernant les définitions opérationnelles retenues par l'OMS pour les diarrhées de l'enfant, quelles propositions sont exactes ?
+
+- A. La diarrhée est définie par au moins trois selles molles ou liquides par 24 heures, ou des selles plus fréquentes et plus liquides qu'à l'habitude
+- B. Les selles fréquentes et semi-liquides d'un nourrisson exclusivement allaité au sein constituent une diarrhée dès qu'elles dépassent six par jour
+- C. La dysenterie se définit par la présence de sang visible mélangé aux selles
+- D. La diarrhée persistante est une diarrhée de début aigu durant au moins 14 jours
+- E. Une diarrhée persistante est dite grave lorsqu'elle s'accompagne de fièvre
+
+**QCM 2 (QCM-PEDI-0502) — QCS.** Un nourrisson de 4 mois, allaité, présente une diarrhée aqueuse depuis 2 jours sans signe de déshydratation. Quelle supplémentation en zinc recommande l'OMS ?
+
+- A. Aucune, le zinc n'est indiqué qu'après 6 mois
+- B. 10 mg par jour pendant 10 à 14 jours
+- C. 20 mg par jour pendant 10 à 14 jours
+- D. 10 mg par jour jusqu'à l'arrêt de la diarrhée seulement
+- E. 20 mg en dose unique
+
+**QCM 3 (QCM-PEDI-0503) — QCM.** Dans quelles situations une coproculture est-elle justifiée chez un enfant présentant une diarrhée aiguë ?
+
+- A. Diarrhée aqueuse fébrile d'un enfant de 2 ans sans signe de gravité
+- B. Diarrhée sanglante
+- C. Cas groupés évoquant une toxi-infection alimentaire collective
+- D. Diarrhée chez un enfant atteint d'un déficit immunitaire
+- E. Diarrhée aqueuse profuse avec déshydratation sévère dans une zone où sévit une épidémie de choléra
+
+**QCM 4 (QCM-PEDI-0504) — QCM.** Un enfant de 3 ans (14 kg), non malnutri, présente depuis 24 heures une fièvre à 39 °C, des douleurs abdominales et des selles glairo-sanglantes fréquentes ; il n'est pas déshydraté et son état général est conservé. Quelles propositions sont conformes aux recommandations de l'OMS ?
+
+- A. Une prise en charge ambulatoire est possible
+- B. La ciprofloxacine orale à 15 mg/kg deux fois par jour pendant 3 jours est le traitement de première intention, sauf données locales contraires
+- C. L'amoxicilline est un bon choix de première intention
+- D. Le zinc est indiqué comme pour une diarrhée aqueuse
+- E. Un contrôle est prévu après 2 jours de traitement
+
+**QCM 5 (QCM-PEDI-0505) — QCM.** Selon l'OMS, à quels antibiotiques les Shigella sont-elles fréquemment résistantes, ce qui les rend inadaptés au traitement probabiliste de la dysenterie ?
+
+- A. Ampicilline
+- B. Cotrimoxazole
+- C. Acide nalidixique
+- D. Céphalosporines de 1re et 2e générations
+- E. Ceftriaxone
+
+**QCM 6 (QCM-PEDI-0506) — QCM.** Concernant le choléra de l'enfant, quelles propositions sont exactes ?
+
+- A. Il doit être suspecté chez un enfant de plus de 2 ans présentant une diarrhée aqueuse aiguë avec déshydratation sévère dans une région où le choléra est présent
+- B. La réhydratation rapide est le traitement principal
+- C. L'AWaRe propose l'azithromycine orale à 20 mg/kg en dose unique en première intention chez l'enfant
+- D. Le zinc est contre-indiqué au cours du choléra
+- E. En Algérie, le choléra est une maladie à déclaration obligatoire
+
+**QCM 7 (QCM-PEDI-0507) — QCM.** Un enfant de 2 ans a présenté une diarrhée sanglante non fébrile il y a 6 jours. Il est pâle, a des ecchymoses et urine peu. Quelles propositions sont exactes ?
+
+- A. Un syndrome hémolytique et urémique doit être suspecté
+- B. On s'attend à une anémie avec schizocytes, une thrombopénie et une élévation de la créatinine
+- C. Une antibiothérapie anti-Shigella doit être débutée en urgence pour prévenir l'aggravation
+- D. Les ralentisseurs du transit sont à éviter
+- E. Les apports hydriques doivent tenir compte de l'oligurie
+
+**QCM 8 (QCM-PEDI-0508) — QCM.** Un enfant de 15 mois a une diarrhée depuis 18 jours, sans déshydratation ni malnutrition sévère. Selon l'OMS, quelles mesures sont adaptées ?
+
+- A. Prise en charge ambulatoire
+- B. Antibiothérapie systématique par cotrimoxazole
+- C. Supplémentation en multivitamines et sels minéraux pendant 2 semaines
+- D. Réduire temporairement le lait animal (ou le remplacer par du yaourt) sans arrêter l'allaitement
+- E. Revoir l'enfant au bout de 5 jours
+
+### Corrigé commenté
+
+**QCM 1 (QCM-PEDI-0501) — Réponse(s) : A, C, D.** L'OMS définit la diarrhée par ≥ 3 selles molles/liquides par 24 h ou un changement net du transit ; la dysenterie par du sang visible mêlé aux selles ; la diarrhée persistante par une durée ≥ 14 jours, « grave » si elle s'accompagne d'une déshydratation modérée ou sévère. Les selles fréquentes de l'allaité sont physiologiques.
+*Piège* : Considérer les selles de l'allaité comme une diarrhée ; confondre forme grave et fièvre.
+
+**QCM 2 (QCM-PEDI-0502) — Réponse(s) : B.** Selon l'OMS, tout enfant diarrhéique reçoit du zinc : 10 mg/j (un demi-comprimé de 20 mg) avant 6 mois, 20 mg/j à partir de 6 mois, pendant 10 à 14 jours sans interruption, même si la diarrhée s'est arrêtée.
+*Piège* : Arrêter le zinc dès la fin de la diarrhée.
+
+**QCM 3 (QCM-PEDI-0503) — Réponse(s) : B, C, D, E.** L'examen des selles n'est pas utile dans la diarrhée aqueuse simple : le traitement n'en dépend pas. Il se justifie en cas de sang dans les selles, de cas groupés (TIAC, MDO), de déficit immunitaire (germes opportunistes, parasites) et de suspicion de choléra (confirmation, déclaration).
+*Piège* : Demander une coproculture devant toute diarrhée fébrile.
+
+**QCM 4 (QCM-PEDI-0504) — Réponse(s) : A, B, D, E.** Dysenterie probable à Shigella sans critère d'hospitalisation : traitement ambulatoire par ciprofloxacine 15 mg/kg × 2/j pendant 3 jours (adapter à la sensibilité locale), zinc, alimentation, réhydratation selon l'état d'hydratation, et contrôle à 48 heures ; en l'absence d'amélioration, changer d'antibiotique et rechercher une autre cause.
+*Piège* : Prescrire de l'amoxicilline ou du cotrimoxazole sans données de sensibilité.
+
+**QCM 5 (QCM-PEDI-0505) — Réponse(s) : A, B, C, D.** L'OMS signale des résistances fréquentes des Shigella à l'ampicilline, au cotrimoxazole, au chloramphénicol, à l'acide nalidixique, aux tétracyclines, à la gentamicine et aux céphalosporines de 1re et 2e générations. La ceftriaxone reste le traitement des formes graves ou de deuxième intention (50–80 mg/kg/j pendant 3 jours).
+
+**QCM 6 (QCM-PEDI-0506) — Réponse(s) : A, B, C, E.** Le choléra provoque une diarrhée sécrétoire profuse ; la réhydratation (plan C puis SRO) prime. L'antibiotique (azithromycine 20 mg/kg en dose unique ; alternatives : ciprofloxacine 15 mg/kg ou doxycycline en dose unique) est réservé aux formes hospitalisées pour déshydratation sévère, à fort débit, en échec de la réhydratation initiale ou avec comorbidités. Le zinc est donné dès l'arrêt des vomissements. Le choléra est une MDO de catégorie 2 (décret 22-250).
+*Piège* : Croire que l'antibiotique est le traitement principal du choléra.
+
+**QCM 7 (QCM-PEDI-0507) — Réponse(s) : A, B, D, E.** Pâleur, oligurie et ecchymoses au décours d'une diarrhée sanglante évoquent un SHU (souvent lié à un E. coli producteur de shigatoxines) : anémie hémolytique mécanique, thrombopénie, insuffisance rénale aiguë. Les antibiotiques et ralentisseurs du transit ne sont pas recommandés dans les diarrhées à STEC (risque accru de SHU). Hospitalisation en milieu disposant d'une néphrologie pédiatrique, prudence hydrique.
+*Piège* : Traiter une diarrhée sanglante à STEC par antibiotiques.
+
+**QCM 8 (QCM-PEDI-0508) — Réponse(s) : A, C, D, E.** Diarrhée persistante sans gravité : ambulatoire, plan A, micronutriments 2 semaines (dont zinc, vitamine A, folates, magnésium, cuivre), adaptation de l'alimentation (moins de lait animal, yaourt, ≥ 6 repas/j), recherche et traitement d'une infection associée, contrôle à 5 jours. Les antibiotiques systématiques sont inefficaces.
+*Piège* : Traiter une diarrhée persistante par antibiotiques systématiques.
+
+*Les QCM 9 à 12 de la série (QCM-PEDI-0509 à QCM-PEDI-0512) figurent uniquement dans le lot JSON `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json`.*
+## 21. Divergences entre recommandations
+
+| Question | OMS (Mémento 2015 / Pocket book 2013 ; AWaRe 2022 ; manuel 2005) | ESPGHAN/ESPID 2014 (Europe) | Commentaire |
+|---|---|---|---|
+| **SRO** | SRO à osmolarité réduite (Na 75 mmol/L, 245 mOsm/L) pour tous [S5, S10] | SRO hypo-osmolaire à 60 mmol/L de sodium [S4] | Différence liée au profil des pertes (moins de choléra en Europe) ; voir DOS-PEDI-0001 |
+| **Zinc** | **Systématique** : 10–20 mg/j, 10–14 jours [S1, S3] | **Non recommandé** en Europe (carence rare) [S4] | En Algérie, la position OMS paraît la plus pertinente pour les populations à risque de carence **[À VÉRIFIER — politique nationale]** |
+| **Antiémétiques** | **Ne pas administrer** au jeune enfant [S1] | **Ondansétron** possible pour faciliter la réhydratation orale, sous réserve de sécurité (QT) [S4] | Statut d'AMM local à vérifier (DOS-PEDI-0001) |
+| **Racécadotril, diosmectite, probiotiques** | Non retenus | Peuvent être envisagés [S4] | Bénéfices modestes ; jamais à la place du SRO |
+| **Antibiotique de la dysenterie** | **Ciprofloxacine** 15 mg/kg × 2/j, 3 j ; ceftriaxone si grave [S1] ; AWaRe : alternatives azithromycine, céfixime, cotrimoxazole (si sensibilité), ceftriaxone [S3] | Antibiothérapie recommandée pour la shigellose prouvée ou suspectée ; choix selon l'épidémiologie des résistances [S4] **[détail des molécules À VÉRIFIER]** | Les deux s'accordent sur le principe ; le choix dépend de la résistance locale |
+| **Antibiotique du choléra** | Mémento 2015 : érythromycine, ciprofloxacine ou cotrimoxazole selon la sensibilité locale [S1] | Antibiotique recommandé [S4] | **AWaRe 2022** : azithromycine 20 mg/kg en dose unique en 1ʳᵉ intention [S3] — position la plus récente de l'OMS |
+| **Vaccin antirotavirus** | Inclusion dans **tous** les programmes nationaux (OMS 2021) [S7] | Recommandé en Europe (position ESPGHAN/ESPID non relue) **[À VÉRIFIER]** | **Absent** du calendrier obligatoire algérien [S8] |
+
+## 22. Références
+
+1. **[S1]** Organisation mondiale de la Santé. *Mémento de soins hospitaliers pédiatriques : prise en charge des affections courantes de l'enfance*. 2e éd. Genève : OMS ; 2015 — chapitre 5 et annexe 2 (DOC-00062, lu).
+2. **[S2]** World Health Organization. *Pocket book of hospital care for children*. 2nd ed. Geneva: WHO; 2013 (DOC-00063).
+3. **[S3]** World Health Organization. *The WHO AWaRe (Access, Watch, Reserve) antibiotic book*. Geneva: WHO; 2022 — chapitre 14 (DOC-00039, lu).
+4. **[S4]** Guarino A, Ashkenazi S, Gendrel D, et al. ESPGHAN/ESPID evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014. *J Pediatr Gastroenterol Nutr*. 2014;59(1):132-152. doi:10.1097/MPG.0000000000000375. PMID 24739189.
+5. **[S5]** Organisation mondiale de la Santé. *The treatment of diarrhoea: a manual for physicians and other senior health workers*. 4e révision. Genève : OMS ; 2005.
+6. **[S6]** OMS/UNICEF. Déclaration commune sur la prise en charge clinique de la diarrhée aiguë (SRO à osmolarité réduite et zinc). 2004 **[référence non vérifiée]**.
+7. **[S7]** World Health Organization. Rotavirus vaccines: WHO position paper – July 2021. *Wkly Epidemiol Rec*. 2021;96(28):301-319.
+8. **[S8]** Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire (JORADP n° 49 du 8/08/2018, DOC-00070), complété par l'arrêté du 28 avril 2026 (JORADP n° 36 du 17/05/2026, DOC-00071).
+9. **[S9]** Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire. JORADP n° 47 du 11/07/2022 (DOC-00072, lu).
+10. **[S10]** World Health Organization. *WHO Model List of Essential Medicines for Children, 10th list (2025)* (DOC-00037, lu).
+11. **[S11]** Benamrouche N, Belkader C, Njamkepo E, et al. Outbreak of imported seventh pandemic *Vibrio cholerae* O1 El Tor, Algeria, 2018. *Emerg Infect Dis*. 2022;28(6):1241-1245. doi:10.3201/eid2806.212451. PMID 35608654.
+12. **[S12]** Khoury H, Ogilvie I, El Khoury AC, Duan Y, Goetghebeur MM. Burden of rotavirus gastroenteritis in the Middle Eastern and North African pediatric population. *BMC Infect Dis*. 2011;11:9. doi:10.1186/1471-2334-11-9. PMID 21214934.
+13. **[S13]** World Health Organization. *WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years*. Geneva: WHO; 2023 (DOC-00033).
+14. **[S14]** Organisation mondiale de la Santé. *PCIME — prise en charge du nourrisson malade âgé de 0 à 2 mois : recueil des tableaux*. Genève : OMS ; 2019 (DOC-00060, lu).
+
+*Dossiers Mediverse liés : DOS-PEDI-0001 (déshydratations aiguës), DOS-PEDI-0002 (vaccinations, calendrier algérien), DOS-PEDI-0003 (malnutrition), DOS-NEON-0002 (infections néonatales), DOS-PEDI-0005 (convulsions du nourrisson).*

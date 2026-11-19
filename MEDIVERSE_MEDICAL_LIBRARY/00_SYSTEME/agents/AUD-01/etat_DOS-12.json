@@ -1,0 +1,108 @@
+{
+  "id": "AUD-01",
+  "perimetre": "Audit scientifique et posologique (AUD-01/AUD-02) des dossiers du rédacteur DOS-12 (ORL, neurochirurgie, ophtalmologie)",
+  "derniere_execution": "2026-11-19T03:53:52+00:00",
+  "taches_terminees": [
+    "audit DOS-ORL-0001 (lot DOS-12)",
+    "audit DOS-ORL-0002 (lot DOS-12)",
+    "audit DOS-ORL-0003 (lot DOS-12)",
+    "audit DOS-NCHI-0001 (lot DOS-12)",
+    "audit DOS-OPHT-0001 (lot DOS-12)",
+    "audit lot QCM DOS-12 (60 QCM)",
+    "audit lot cas DOS-12 (10 cas)"
+  ],
+  "resultats": {
+    "DOS-ORL-0001": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 6
+      },
+      "marqueurs_posologie_leves": 2,
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-ORL-0002": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 9
+      },
+      "marqueurs_posologie_leves": 4,
+      "marqueurs_posologie_restants": 4
+    },
+    "DOS-ORL-0003": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 11
+      },
+      "marqueurs_posologie_leves": 2,
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-NCHI-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 9
+      },
+      "marqueurs_posologie_leves": 4,
+      "marqueurs_posologie_restants": 4
+    },
+    "DOS-OPHT-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 2,
+        "mineures": 9
+      },
+      "marqueurs_posologie_leves": 8,
+      "marqueurs_posologie_restants": 0
+    }
+  },
+  "lots": {
+    "qcm_DOS-12": {
+      "total": 60,
+      "audite_valide": 60,
+      "corriges": [
+        "QCM-OPHT-1203 (distracteur ambigu)"
+      ]
+    },
+    "cas_DOS-12": {
+      "total": 10,
+      "audite_valide": [
+        "CAS-ORL-1201",
+        "CAS-ORL-1203",
+        "CAS-ORL-1205",
+        "CAS-ORL-1206",
+        "CAS-OPHT-1201"
+      ],
+      "audite_corrections_requises": [
+        "CAS-ORL-1202",
+        "CAS-ORL-1204",
+        "CAS-NCHI-1201",
+        "CAS-NCHI-1202",
+        "CAS-OPHT-1202"
+      ]
+    }
+  },
+  "erreurs_critiques": 0,
+  "taches_suivantes": [
+    "RFE SFAR 2016 (TC grave) en texte intégral : seuils PAS, PIC, PPC, SpO2, Hb, Doppler transcrânien, osmothérapie (hôtes sfar.org et HAL inaccessibles)",
+    "EGS 6e éd. (2025) et AAO PPP 2026 en texte intégral (doses d'urgence de la crise aiguë, seuils)",
+    "ESMO-EURACAN 2021 et CSCO-ASCO 2021 en texte intégral (dose cumulée de cisplatine, IMRT 70 Gy, surveillance) ; NCCN",
+    "Dose du CCP pour la réversion des anti-Xa (EHRA 2021 en texte intégral ou protocole local) ; acide tranexamique oral dans la THH (Faughnan 2020)",
+    "Données algériennes : résistance du pneumocoque après la généralisation du VPC, registres du cancer (hors Sétif), accès à l'IMRT, aux anti-PD-1 et au laser YAG",
+    "Relecture enseignant des 5 dossiers"
+  ],
+  "sauvegardes": "00_SYSTEME/sauvegardes/20261119/ (5 dossiers *.avant_audit_AUD-01 ; lots DOS-12.avant_audit_AUD-01.json)",
+  "remarque": "etat.json non réécrit (fichier partagé). Une commande `git diff --stat` en lecture seule a été lancée par inadvertance (aucune modification)."
+}

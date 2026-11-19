@@ -6,11 +6,18 @@ sous_specialite: "Hémostase et thrombose — physiologie et biologie"
 items_residanat: [RES-SF-033]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-13 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 6
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0007.md
+    remarque: "Correction majeure : corrigé du QCM 9 (score ISTH de CIVD) — la proposition A (« 8 points ») était marquée juste alors que le score vaut 7 ; réponse B, C (aussi corrigée dans le lot, QCM-HEMA-1309). Seuils ISTH-BAT vérifiés (Elbatarny 2014, texte intégral PMC4251588 : ≥ 4 homme adulte, ≥ 6 femme adulte, ≥ 3 enfant ; source S19 ajoutée). Modèle cellulaire, facteurs vitamine K-dépendants, demi-vies, TP/TCA/TT/reptilase, test de correction et indice de Rosner, score ISTH de CIVD, critères Willebrand 2021 conformes. Marqueurs de posologie sans objet (aucune dose) remplacés par des renvois."
 sources:
   - id: S1
     reference: "Hoffbrand AV, Chowdary P, Collins G, Loke J. Hoffbrand's Essential Haematology. 9e éd. Wiley-Blackwell ; 2024 (catalogue Mediverse OUV-0316)."
@@ -156,13 +163,21 @@ sources:
     doi: ""
     url: "https://www.has-sante.fr/upload/docs/application/pdf/2023-06/pnds_hemophilie_2023.pdf"
     verifiee: true
+  - id: S19
+    reference: "Elbatarny M, Mollah S, Grabell J, et al. Normal range of bleeding scores for the ISTH-BAT: adult and pediatric data from the merging project. Haemophilia. 2014;20(6):831-835."
+    organisme: "Haemophilia (revue)"
+    annee: 2014
+    type: article
+    doi: "10.1111/hae.12503"
+    url: ""
+    verifiee: true
 mots_cles: [hémostase primaire, facteur Willebrand, plaquettes, GPIb, GPIIb/IIIa, coagulation, modèle cellulaire, facteur tissulaire, thrombine, fibrinolyse, plasmine, D-dimères, TP, INR, TCA, fibrinogène, temps de thrombine, temps de reptilase, indice de Rosner, anticoagulant lupique, CIVD, score ISTH, hémophilie acquise, anticoagulants oraux directs]
 ---
 
 # Hémostase : physiologie, explorations et interprétation clinique
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les valeurs de référence et seuils (TCA, TP, fibrinogène, D-dimères, indice de Rosner) dépendent des réactifs et doivent être confrontés aux normes du laboratoire local. Les mentions de médicaments décrivent des mécanismes d'action ; aucune posologie n'est proposée.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1) ; relecture enseignante requise. Les valeurs de référence et seuils (TCA, TP, fibrinogène, D-dimères, indice de Rosner) dépendent des réactifs et doivent être confrontés aux normes du laboratoire local. Les mentions de médicaments décrivent des mécanismes d'action ; aucune posologie n'est proposée.
 
 **Items du programme couverts** : RES-SF-033 — « Hémostase : physiologie, explorations et interprétation clinique ». Dossiers liés : DOS-HEMA-0002 (purpura thrombopénique immunologique), DOS-HEMA-0003 (hémophilie).
 
@@ -498,7 +513,7 @@ Score ≥ 5 : compatible avec une CIVD patente (à répéter quotidiennement) ; 
 | **Coagulation** | hémophilies A et B, déficits rares (I, II, V, VII, X, XI, XIII) | AVK, héparines, AOD, carence en vitamine K, insuffisance hépatique, CIVD, inhibiteurs acquis (hémophilie acquise), dilution |
 | **Fibrinolyse** | déficit en α2-antiplasmine, en PAI-1 | fibrinolyse des cirrhoses, chirurgies prostatiques ou cardiaques, traitements fibrinolytiques, leucémie aiguë promyélocytaire |
 
-Le score ISTH-BAT [S8] quantifie la sévérité de l'histoire hémorragique ; les seuils de positivité couramment utilisés dans la littérature (≥ 4 chez l'homme adulte, ≥ 6 chez la femme adulte, ≥ 3 chez l'enfant) sont issus d'études ultérieures de validation [À VÉRIFIER — référence primaire des seuils].
+Le score ISTH-BAT [S8] quantifie la sévérité de l'histoire hémorragique. Ses seuils de positivité proviennent de l'étude des valeurs normales du « merging project » (1 040 adultes et 328 enfants sains) : score normal de 0 à 3 chez l'homme adulte, de 0 à 5 chez la femme adulte et de 0 à 2 chez l'enfant des deux sexes, d'où un score **anormal à partir de 4 chez l'homme adulte, de 6 chez la femme adulte et de 3 chez l'enfant** [S19].
 
 ---
 
@@ -524,7 +539,7 @@ Coagulopathie de dilution, de consommation, d'hypothermie, d'acidose et d'hypoca
 
 | Traitement | Test de surveillance | Commentaire |
 |---|---|---|
-| **AVK** (warfarine, acénocoumarol, fluindione) | **INR** | cible le plus souvent 2 – 3 (3 – 4 pour certaines valves mécaniques selon les recommandations de cardiologie) |
+| **AVK** (warfarine, acénocoumarol, fluindione) | **INR** | cible le plus souvent 2 – 3 ; cible plus élevée pour certaines prothèses valvulaires mécaniques, selon la thrombogénicité de la valve et les facteurs de risque du patient (recommandations de cardiologie ; voir DOS-PHAR-0002) |
 | **Héparine non fractionnée** | anti-Xa ou TCA | le TCA dépend du réactif ; anti-Xa préféré si TCA ininterprétable (anticoagulant lupique, FVIII très élevé) |
 | **HBPM, fondaparinux** | pas de surveillance systématique ; anti-Xa dans des situations ciblées (insuffisance rénale, poids extrêmes, grossesse) | |
 | **Anti-Xa directs** (rivaroxaban, apixaban, édoxaban) | dosage anti-Xa spécifique calibré si nécessaire (urgence, chirurgie, hémorragie) | TP et TCA insuffisamment sensibles : un TP normal n'exclut pas une concentration significative, surtout pour l'apixaban [S12] |
@@ -569,7 +584,7 @@ Critères de gravité : hémorragie extériorisée abondante avec retentissement
 
 ## 14. Applications thérapeutiques : les cibles pharmacologiques de l'hémostase
 
-*Ce chapitre décrit des mécanismes. Les posologies relèvent des RCP et des recommandations de spécialité : [POSOLOGIE À VÉRIFIER — RCP / protocole local].*
+*Ce chapitre décrit des mécanismes ; aucune posologie n'y est proposée. Posologies : RCP, recommandations de spécialité et dossiers Mediverse dédiés (anticoagulants : DOS-PHAR-0002 ; hémophilie et hémophilie acquise : DOS-HEMA-0003).*
 
 | Classe | Cible | Conséquence biologique |
 |---|---|---|
@@ -642,7 +657,7 @@ TP bas
 ### 16.3 Saignement anormal avec bilan standard normal
 
 ```text
-Score hémorragique (ISTH-BAT) élevé, TP/TCA/plaquettes normaux
+Score hémorragique (ISTH-BAT) élevé (≥ 4 homme, ≥ 6 femme, ≥ 3 enfant [S19]), TP/TCA/plaquettes normaux
 ├─ Médicaments (aspirine, P2Y12, AINS, ISRS) ? → arrêt si possible puis réévaluation
 ├─ VWF:Ag, activité VWF (GPIb), FVIII → maladie de Willebrand (seuils 0,30 et 0,50 UI/mL)
 ├─ PFA / agrégométrie / cytométrie → thrombopathie (Glanzmann, Bernard-Soulier, pool vide)
@@ -666,7 +681,7 @@ Biologie : Hb 8,4 g/dL ; plaquettes 265 G/L ; TP 92 % ; TCA ratio 2,3 ; fibrinog
 3. *Diagnostic ?* **Hémophilie A acquise** : saignements récents chez une femme âgée sans antécédent, FVIII effondré, VWF normal (élimine un Willebrand), inhibiteur titré à 18 UB/mL [S10].
 4. *Pourquoi un anticoagulant lupique est-il peu probable ?* Le LA ne donne pas de saignement et son effet est immédiat, non dépendant de l'incubation ; il peut toutefois coexister et faire baisser artificiellement les dosages de plusieurs facteurs de la voie intrinsèque (VIII, IX, XI) dans les tests chronométriques ; ici, seul le FVIII est effondré et le saignement est majeur.
 5. *Quelles causes rechercher ?* Les recommandations internationales citent l'âge avancé, le post-partum, les maladies auto-immunes, les cancers et les hémopathies lymphoïdes, environ la moitié des cas restant sans cause identifiée [S10].
-6. *Principes de prise en charge ?* Hospitalisation en lien avec un centre de traitement de l'hémophilie ; traitement hémostatique par agents « by-passants » ou FVIII porcin recombinant, émicizumab selon les situations ; **éradication de l'inhibiteur** par immunosuppression ; éviter les gestes invasifs (pas d'injection intramusculaire, ponctions veineuses par du personnel expérimenté, pas de fasciotomie pour un hématome musculaire) [S10]. Les recommandations soulignent que la mortalité liée aux infections sous immunosuppression peut dépasser celle des hémorragies, d'où un traitement immunosuppresseur adapté au terrain [S10]. Posologies : [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+6. *Principes de prise en charge ?* Hospitalisation en lien avec un centre de traitement de l'hémophilie ; traitement hémostatique par agents « by-passants » ou FVIII porcin recombinant, émicizumab selon les situations ; **éradication de l'inhibiteur** par immunosuppression ; éviter les gestes invasifs (pas d'injection intramusculaire, ponctions veineuses par du personnel expérimenté, pas de fasciotomie pour un hématome musculaire) [S10]. Les recommandations soulignent que la mortalité liée aux infections sous immunosuppression peut dépasser celle des hémorragies, d'où un traitement immunosuppresseur adapté au terrain [S10]. Les posologies (agents by-passants, FVIII porcin, immunosuppression, d'après [S10]) sont détaillées dans DOS-HEMA-0003 (§ 10.6) et ne sont pas reprises ici.
 
 **Message** : chez un sujet âgé sans antécédent, un TCA isolément allongé **avec** saignement est une hémophilie acquise jusqu'à preuve du contraire ; sans saignement, c'est le plus souvent un anticoagulant lupique ou un déficit en FXII.
 
@@ -865,7 +880,7 @@ Un patient en choc septique a : plaquettes 45 G/L ; D-dimères fortement augment
 - **D.** Un score < 5 élimine définitivement une CIVD.
 - **E.** Le facteur V est inclus dans le score.
 
-**Réponse(s) : A, B, C.** Plaquettes < 50 G/L : 2 points ; marqueur de fibrine fortement augmenté : 3 ; TQ allongé de 3 à 6 s : 1 ; fibrinogène < 1 g/L : 1. Total = 7 points (≥ 5 : compatible avec une CIVD patente).
+**Réponse(s) : B, C.** Plaquettes < 50 G/L : 2 points ; marqueur de fibrine fortement augmenté : 3 ; TQ allongé de 3 à 6 s : 1 ; fibrinogène < 1 g/L : 1. Total = 7 points (≥ 5 : compatible avec une CIVD patente).
 
 - A — Faux : 2 + 3 + 1 + 1 = 7 points.
 - B — Vrai.
@@ -930,5 +945,6 @@ Aucune recommandation algérienne spécifique sur l'exploration de l'hémostase 
 16. [S16] Righini M, Van Es J, Den Exter PL, et al. Age-adjusted D-dimer cutoff levels to rule out pulmonary embolism: the ADJUST-PE study. *JAMA*. 2014;311(11):1117-1124. doi:10.1001/jama.2014.2135.
 17. [S17] Cuker A, Arepally GM, Chong BH, et al. American Society of Hematology 2018 guidelines for management of venous thromboembolism: heparin-induced thrombocytopenia. *Blood Adv*. 2018;2(22):3360-3392. doi:10.1182/bloodadvances.2018024489.
 18. [S18] Haute Autorité de santé, CRH-MHEMO. *Protocole national de diagnostic et de soins — Hémophilie*. HAS ; 2023. https://www.has-sante.fr/upload/docs/application/pdf/2023-06/pnds_hemophilie_2023.pdf
+19. [S19] Elbatarny M, Mollah S, Grabell J, et al. Normal range of bleeding scores for the ISTH-BAT: adult and pediatric data from the merging project. *Haemophilia*. 2014;20(6):831-835. doi:10.1111/hae.12503.
 
-*Références vérifiées pendant la session via l'API Europe PMC (articles) et lecture du texte du PNDS HAS 2023 ; ouvrages vérifiés via le catalogue Mediverse. Aucun texte ni aucune figure n'est reproduit.*
+*Références vérifiées pendant la session via l'API Europe PMC (articles) et lecture du texte du PNDS HAS 2023 ; ouvrages vérifiés via le catalogue Mediverse. Audit du 2026-11-19 : [S19] lue en texte intégral (PMC4251588, PMID 25196510). Aucun texte ni aucune figure n'est reproduit.*

@@ -6,11 +6,17 @@ sous_specialite: "Traumatologie du membre supérieur — poignet"
 items_residanat: [RES-CHI-033]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-TRAU-0002.md
 sources:
   - id: S1
     reference: "Kamal RN, Shapiro LM. American Academy of Orthopaedic Surgeons/American Society for Surgery of the Hand Clinical Practice Guideline Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg. 2022;30(4):e480-e486."
@@ -138,7 +144,7 @@ mots_cles: [fracture de l'extrémité inférieure du radius, fracture du poignet
 # Fracture de l'extrémité inférieure du radius : anatomie pathologique, diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19) — corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Les publications princeps de Castaing (1964) et Frykman (1967) ont été retrouvées dans PubMed (via Europe PMC) lors de l'audit du 2026-11-19 ; leur texte n'a pas été lu. Les recommandations AAOS 2020 n'ont été consultées que par leur résumé et des synthèses : les formulations exactes et les niveaux de preuve restent signalés `[À VÉRIFIER]`.
 
 **Items du programme couverts** : RES-CHI-033 — « Fracture de l'extrémité inférieure du radius : Anatomie pathologique - diagnostic - traitement. »
@@ -464,7 +470,7 @@ La consolidation est habituellement obtenue en **6 semaines environ** chez l'adu
 #### 13.2.1 Analgésie et mesures immédiates
 - **Immobilisation provisoire** (attelle), surélévation, glace ; retrait des bagues.
 - **Analgésie multimodale** avec **épargne opioïde** : l'AAOS 2020 retient, par consensus, l'intérêt des stratégies multimodales limitant les opioïdes [S2] ; paracétamol 1 g toutes les 6 heures (4 g/j au maximum ; 3 g/j si le poids est inférieur à 50 kg ou en cas de facteur de risque hépatique), AINS de courte durée en l'absence de contre-indication, par exemple ibuprofène 400 mg × 3/j (RCP).
-- **Anesthésie pour la réduction** : bloc du foyer (« hematoma block »), anesthésie locorégionale intraveineuse, bloc plexique, anesthésie générale [posologies des anesthésiques locaux : POSOLOGIE À VÉRIFIER — protocole local].
+- **Anesthésie pour la réduction** : bloc du foyer (« hematoma block »), anesthésie locorégionale intraveineuse, bloc plexique, anesthésie générale [POSOLOGIE À VÉRIFIER — anesthésiques locaux : protocole local].
 
 #### 13.2.2 Traitement orthopédique
 - **Réduction** (fracture à bascule postérieure) : traction dans l'axe (désimpaction), puis correction de la bascule et de la translation par pression sur le fragment distal, en flexion et inclinaison ulnaire **modérées**.

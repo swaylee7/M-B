@@ -1,0 +1,103 @@
+{
+  "id": "AUD-01",
+  "perimetre": "Audit scientifique et posologique (AUD-01/AUD-02) des dossiers du rédacteur DOS-11 (urologie, traumatologie, orthopédie)",
+  "derniere_execution": "2026-11-19T03:53:43+00:00",
+  "taches_terminees": [
+    "audit DOS-UROL-0001 (lot DOS-11)",
+    "audit DOS-UROL-0002 (lot DOS-11)",
+    "audit DOS-TRAU-0001 (lot DOS-11)",
+    "audit DOS-TRAU-0002 (lot DOS-11)",
+    "audit DOS-ORTH-0001 (lot DOS-11)",
+    "audit lot QCM DOS-11 (60 QCM)",
+    "audit lot cas DOS-11 (10 cas)"
+  ],
+  "resultats": {
+    "DOS-UROL-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 11
+      },
+      "marqueurs_posologie_restants": 3
+    },
+    "DOS-UROL-0002": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 10
+      },
+      "marqueurs_posologie_restants": 1
+    },
+    "DOS-TRAU-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 14
+      },
+      "marqueurs_posologie_restants": 1
+    },
+    "DOS-TRAU-0002": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 7
+      },
+      "marqueurs_posologie_restants": 2
+    },
+    "DOS-ORTH-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 11
+      },
+      "marqueurs_posologie_restants": 6
+    },
+    "marqueurs_posologie": {
+      "initial": 34,
+      "leves_ou_regroupes": 21,
+      "restants": 13
+    },
+    "qcm": {
+      "total": 60,
+      "modifies": 10,
+      "audite_valide": 60
+    },
+    "cas": {
+      "total": 10,
+      "modifies": 9,
+      "audite_valide": 5,
+      "audite_corrections_requises": [
+        "CAS-UROL-1101",
+        "CAS-UROL-1102",
+        "CAS-UROL-1103",
+        "CAS-UROL-1104",
+        "CAS-ORTH-1102"
+      ]
+    }
+  },
+  "taches_suivantes": [
+    "DOS-ORTH-0001 : lire le GPIP 2023 en texte intégral (J Pédiatr Puéric 2024;37:174-181) et l'actualisation GPIP 2026 — dose maximale de la céfazoline, formes graves/PVL, drépanocytose, SARM, allergie, gentamicine du nourrisson",
+    "DOS-ORTH-0001 : tableau posologique PIDS/IDSA 2021 (texte intégral) ; disponibilité algérienne de la céfazoline et des formes 8/1",
+    "DOS-UROL-0001 : édition EAU 2026 (section 3.4.3 TME, taux d'expulsion, citrates alcalins) ; fiche HAS/SPILF PNA (C3G, amikacine, durée) ; titration morphinique",
+    "DOS-UROL-0002 : RCP de la desmopressine disponible en Algérie ; texte intégral EAU 2026 / CTMH 2025",
+    "DOS-TRAU-0001 : texte NICE CG124 2023 (conditions de la PTH, tige cimentée) ; force AAOS du délai 24–48 h ; durée SFAR 2011 ; Garden 1961 et Pauwels 1935 (verifiee: false)",
+    "DOS-TRAU-0002 : texte intégral AAOS 2020 (drfcpg.pdf) — libellés et forces, vitamine C ; seuil de 3 facteurs de Lafontaine ; antibioprophylaxie des fractures ouvertes",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
+  ],
+  "hotes_inaccessibles": [
+    "afpa.org",
+    "infectiologie.com",
+    "sciencedirect.com",
+    "academic.oup.com"
+  ]
+}

@@ -15,7 +15,7 @@ audit:
   - date: 2026-11-19
     auteur: "AUD-01 (IA)"
     verdict: audite_corrections_requises
-    corrections: 12
+    corrections: 10
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0001.md
 sources:
   - id: S1

@@ -33,10 +33,10 @@
         "ECBU seulement si échec, récidive précoce ou cystite à risque de complication"
       ],
       "diagnostic_final": "Cystite aiguë simple communautaire.",
-      "traitement": "Antibiotique du groupe Access, par voie orale, durée courte : selon la HAS (fiche mémo 2021), fosfomycine-trométamol en dose unique en première intention (pivmécillinam en alternative) ; selon le livre AWaRe de l'OMS (2022), nitrofurantoïne 100 mg toutes les 12 h (forme à libération modifiée) pendant 5 jours. Ces deux référentiels divergent sur la molécule de premier choix ; se conformer au référentiel national en vigueur. Les fluoroquinolones (groupe Watch) ne sont pas recommandées en première intention : spectre large, effets indésirables (tendinopathies), sélection de résistances. Conseils d'hydratation et de mictions régulières.",
+      "traitement": "Antibiotique oral à spectre étroit, durée courte : selon la HAS (fiche mémo 2021), fosfomycine-trométamol en dose unique en première intention (pivmécillinam en alternative ; la forme orale de la fosfomycine n'est pas inscrite sur la liste modèle OMS 2025) ; selon le livre AWaRe de l'OMS (2022), nitrofurantoïne (groupe Access) 100 mg toutes les 12 h (forme à libération modifiée) pendant 5 jours. Ces deux référentiels divergent sur la molécule de premier choix ; se conformer au référentiel national en vigueur. Les fluoroquinolones (groupe Watch) ne sont pas recommandées en première intention : spectre large, effets indésirables (tendinopathies), sélection de résistances. Conseils d'hydratation et de mictions régulières.",
       "surveillance": "Disparition des symptômes en 2 à 3 jours ; reconsulter en cas de fièvre, douleur lombaire ou persistance au-delà de 3 jours (ECBU alors indiqué).",
       "evolution": "Guérison clinique en 48 heures. Pas de contrôle biologique systématique.",
-      "explication_pedagogique": "Ce cas illustre la classification AWaRe appliquée en soins primaires : la nitrofurantoïne et la fosfomycine orale (Access) sont des premiers choix selon les référentiels (OMS et HAS divergent sur l'ordre), alors que la ciprofloxacine (Watch) doit être épargnée. Durée courte et absence d'ECBU dans la forme simple sont des règles de bon usage. La donnée algérienne montrant la diffusion d'E. coli CTX-M-15 et de clones à haut risque dans les infections urinaires plaide pour réserver les molécules à large spectre aux situations qui les justifient.",
+      "explication_pedagogique": "Ce cas illustre la classification AWaRe appliquée en soins primaires : la nitrofurantoïne (Access) et la fosfomycine-trométamol (non inscrite sur la liste modèle OMS 2025, classée Watch dans la base AWaRe [À VÉRIFIER]) sont des premiers choix selon les référentiels (OMS et HAS divergent), alors que la ciprofloxacine (Watch) doit être épargnée. Durée courte et absence d'ECBU dans la forme simple sont des règles de bon usage. La donnée algérienne montrant la diffusion d'E. coli CTX-M-15 et de clones à haut risque dans les infections urinaires plaide pour réserver les molécules à large spectre aux situations qui les justifient.",
       "questions": [
         {
           "question": "Quel est le groupe AWaRe de la nitrofurantoïne et de la ciprofloxacine ?",
@@ -65,9 +65,16 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "majeure : la fosfomycine orale était classée Access ; elle n'est pas inscrite sur la liste modèle 2025 (seule la forme IV, Reserve)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0001.md",
+        "reserve": "classement AWaRe de la fosfomycine orale à confirmer dans la base de classification AWaRe en vigueur ; référentiel algérien de la cystite non identifié"
+      }
     },
     {
       "id": "CAS-PHAR-1402",
@@ -102,7 +109,7 @@
         "Fonction rénale quotidienne"
       ],
       "diagnostic_final": "Pneumonie acquise sous ventilation à entérobactérie productrice de carbapénémase OXA-48 (BHRe).",
-      "traitement": "Selon le mécanisme identifié, la ceftazidime-avibactam (groupe Reserve) est l'option privilégiée pour les entérobactéries OXA-48 sensibles (IDSA 2024, ESCMID 2022), à dose adaptée à la fonction rénale [POSOLOGIE À VÉRIFIER — RCP / protocole local]. La colistine (Reserve, néphrotoxique) reste un recours si la ceftazidime-avibactam est indisponible, de préférence en association selon avis infectiologique. Arrêt de la pipéracilline-tazobactam. Mesures BHRe : précautions complémentaires contact renforcées, personnel dédié si possible, dépistage des patients contacts, signalement interne.",
+      "traitement": "Selon le mécanisme identifié, la ceftazidime-avibactam (groupe Reserve) est l'option privilégiée pour les entérobactéries OXA-48 sensibles (IDSA 2024, ESCMID 2022), à la dose de 2,5 g (2 g + 0,5 g) IV toutes les 8 h en perfusion prolongée (2 h selon le RCP, 3 h proposées par l'IDSA 2024) si la clairance dépasse 50 mL/min, dose réduite en dessous selon le RCP. La colistine (Reserve, néphrotoxique) reste un recours si la ceftazidime-avibactam est indisponible, de préférence en association selon avis infectiologique. Arrêt de la pipéracilline-tazobactam. Mesures BHRe : précautions complémentaires contact renforcées, personnel dédié si possible, dépistage des patients contacts, signalement interne.",
       "surveillance": "Clinique et gazométrie quotidiennes, fonction rénale, contrôle microbiologique en cas d'échec, durée totale courte (de l'ordre de 7 jours si évolution favorable, selon le référentiel).",
       "evolution": "Apyrexie à J3, sevrage de la noradrénaline, extubation à J7.",
       "explication_pedagogique": "OXA-48 est la carbapénémase la plus fréquemment décrite chez les entérobactéries en Algérie et considérée comme endémique en Afrique du Nord. Sa détection est piégeuse (CMI des carbapénèmes parfois peu élevées) : une sensibilité diminuée à l'ertapénème doit déclencher un test spécifique. Le choix de la molécule dépend du mécanisme : la ceftazidime-avibactam est active sur OXA-48 et KPC mais pas sur les métallo-β-lactamases (NDM), pour lesquelles on l'associe à l'aztréonam. La pression de sélection par antibiothérapies successives à large spectre est un facteur de risque majeur.",
@@ -138,9 +145,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "mineure : marqueur levé (ceftazidime-avibactam 2,5 g toutes les 8 h, RCP et IDSA 2024)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0001.md"
+      }
     },
     {
       "id": "CAS-PHAR-1403",
@@ -205,9 +218,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "relu sans correction",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0002.md"
+      }
     },
     {
       "id": "CAS-PHAR-1404",
@@ -269,9 +288,16 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "relu ; marqueur maintenu (posologies de l'argatroban, de la bivalirudine et du danaparoïde selon protocole)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0002.md",
+        "reserve": "marqueur de posologie résiduel (anticoagulants non hépariniques de la TIH)"
+      }
     },
     {
       "id": "CAS-PHAR-1405",
@@ -337,9 +363,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "relu sans correction",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0003.md"
+      }
     },
     {
       "id": "CAS-PHAR-1406",
@@ -391,9 +423,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "relu sans correction",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0003.md"
+      }
     },
     {
       "id": "CAS-PHAR-1407",
@@ -422,7 +460,7 @@
         "Évaluation régulière de la douleur par une échelle adaptée à l'âge"
       ],
       "diagnostic_final": "Douleur postopératoire après amygdalectomie chez un enfant présentant un syndrome d'apnées du sommeil.",
-      "traitement": "Paracétamol à heures fixes et ibuprofène (autorisé après 3 mois selon la liste OMS) selon les posologies pédiatriques du RCP [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; éviter la codéine : prodrogue activée par le CYP2D6, effet imprévisible, dépression respiratoire et décès décrits chez des enfants métaboliseurs ultrarapides après amygdalectomie ; la proportion de métaboliseurs ultrarapides atteint 16–28 % chez les populations arabes et nord-africaines selon l'OMS ; le CPIC recommande d'éviter la codéine (et le tramadol) chez les métaboliseurs ultrarapides. En cas de douleur sévère non contrôlée, réévaluation médicale (morphine titrée sous surveillance si nécessaire).",
+      "traitement": "Paracétamol à heures fixes et ibuprofène (autorisé après 3 mois selon la liste OMS) à 20 kg : paracétamol 60 mg/kg/j en 4 prises (300 mg toutes les 6 h) associé (et non alterné) à l'ibuprofène 20 à 30 mg/kg/j en 3 ou 4 prises (soit 150 à 200 mg par prise, maximum 400 mg par prise), sur une durée courte (HAS 2016) ; éviter la codéine : prodrogue activée par le CYP2D6, effet imprévisible, dépression respiratoire et décès décrits chez des enfants métaboliseurs ultrarapides après amygdalectomie ; la proportion de métaboliseurs ultrarapides atteint 16–28 % chez les populations arabes et nord-africaines selon l'OMS ; le CPIC recommande d'éviter la codéine (et le tramadol) chez les métaboliseurs ultrarapides. En cas de douleur intense chez cet enfant opéré pour SAOS, la HAS (2016) recommande une réévaluation avec hospitalisation éventuelle pour une analgésie morphinique sous surveillance continue ; la codéine est contre-indiquée après amygdalectomie et avant 12 ans (ANSM 2013).",
       "surveillance": "Douleur, alimentation et hydratation, saignement, somnolence et respiration nocturne.",
       "evolution": "Douleur contrôlée par l'association paracétamol-ibuprofène ; reprise alimentaire progressive.",
       "explication_pedagogique": "La codéine n'est pas un antalgique « doux » : son effet dépend du génotype CYP2D6. Après amygdalectomie pour apnées du sommeil, l'enfant cumule une sensibilité accrue à la dépression respiratoire et le risque génétique, particulièrement fréquent en Afrique du Nord. Le paracétamol associé à l'AINS constitue la base de l'antalgie.",
@@ -452,11 +490,21 @@
         {
           "reference": "OMS. WHO Model List of Essential Medicines, 24th list. 2025",
           "date": "2025"
+        },
+        {
+          "reference": "HAS. Prise en charge médicamenteuse de la douleur chez l'enfant : alternatives à la codéine (fiche mémo). Janvier 2016",
+          "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "mineure : posologies pédiatriques sourcées (HAS 2016), conduite en cas de SAOS et restrictions ANSM 2013 de la codéine",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0004.md"
+      }
     },
     {
       "id": "CAS-PHAR-1408",
@@ -487,7 +535,7 @@
         "Avis de radiothérapie"
       ],
       "diagnostic_final": "Douleur cancéreuse sévère justifiant un opioïde fort.",
-      "traitement": "Selon l'OMS 2018 : arrêt du tramadol ; morphine orale à libération immédiate 5 mg toutes les 4 h à heures fixes (patient naïf) + interdoses de 50 à 100 % de la dose des 4 h si accès douloureux ; paracétamol maintenu ; laxatif systématique ; antiémétique si besoin. Titration sur 48 h : besoin total de 90 mg/24 h → morphine LP 45 mg toutes les 12 h avec interdoses de morphine LI. Radiothérapie monofraction de T8 et bisphosphonate (métastase osseuse douloureuse). À J10, aggravation de la dysphagie : passage à la voie sous-cutanée (préférée à l'IM) avec un ratio oral/parentéral de 2:1 : 90 mg/24 h per os → 45 mg/24 h SC en perfusion continue, interdoses SC de 50 à 100 % de la dose correspondant à 4 heures (soit environ 4 à 7,5 mg SC), selon le principe de l'OMS [POSOLOGIE À VÉRIFIER — protocole local].",
+      "traitement": "Selon l'OMS 2018 : arrêt du tramadol ; morphine orale à libération immédiate 5 mg toutes les 4 h à heures fixes (patient naïf) + interdoses de 50 à 100 % de la dose des 4 h si accès douloureux ; paracétamol maintenu ; laxatif systématique ; antiémétique si besoin. Titration sur 48 h : besoin total de 90 mg/24 h → morphine LP 45 mg toutes les 12 h avec interdoses de morphine LI. Radiothérapie monofraction de T8 et bisphosphonate (métastase osseuse douloureuse). À J10, aggravation de la dysphagie : passage à la voie sous-cutanée (préférée à l'IM) avec un ratio oral/parentéral de 2:1 : 90 mg/24 h per os → 45 mg/24 h SC en perfusion continue, interdoses SC de 50 à 100 % de la dose correspondant à 4 heures (soit environ 4 à 7,5 mg SC), selon le principe de l'OMS (ratio de l'annexe 6 des lignes directrices OMS 2018 ; certains référentiels français retiennent un ratio de 3:1 pour la seule voie IV).",
       "surveillance": "EN, sédation, fréquence respiratoire, transit ; fonction rénale ; naloxone disponible.",
       "evolution": "EN à 3/10 au repos ; deux interdoses par jour ; bonne tolérance.",
       "explication_pedagogique": "Devant une douleur cancéreuse sévère, il ne faut pas « monter les paliers » : un opioïde fort à faible dose est indiqué d'emblée. La titration par morphine LI à heures fixes avec interdoses, puis la conversion en LP, sont les étapes clés. Le passage de la voie orale à la voie SC divise la dose par 2. Le laxatif est systématique. Le traitement spécifique des métastases osseuses (radiothérapie monofraction, bisphosphonates) fait partie de la stratégie antalgique.",
@@ -515,9 +563,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "mineure : marqueur levé (conversion orale/SC 2:1 de l'annexe 6 OMS 2018) ; mention de la convention française pour la voie IV",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0004.md"
+      }
     },
     {
       "id": "CAS-HEMA-1401",
@@ -585,9 +639,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "relu sans correction",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0006.md"
+      }
     },
     {
       "id": "CAS-HEMA-1402",
@@ -624,7 +684,7 @@
       "traitement": "Arrêt de toute transfusion en cours ; oxygénothérapie à haut débit puis ventilation (non invasive ou invasive) avec stratégie protectrice ; soutien hémodynamique par remplissage prudent et vasopresseurs ; pas de diurétique ; déclaration d'hémovigilance et retour des poches ; exclusion de la donneuse en cause des dons de plasma selon les procédures.",
       "surveillance": "Gazométrie, hémodynamique, radiographie ; amélioration attendue en 48 à 96 heures.",
       "evolution": "Extubation à J3, guérison sans séquelle.",
-      "explication_pedagogique": "Le TRALI se distingue du TACO par le mécanisme lésionnel (anticorps du donneur activant les polynucléaires du receveur), l'hypotension, l'absence de surcharge et un BNP bas ; le diurétique y est inutile, voire délétère. Il survient dans les 6 heures (définition 2019), alors que le TACO est défini dans les 12 heures (ISBT révisée). La prévention repose sur le choix des donneurs de plasma et la limitation des transfusions de plasma aux indications validées.",
+      "explication_pedagogique": "Le TRALI se distingue du TACO par le mécanisme lésionnel (anticorps du donneur activant les polynucléaires du receveur), l'hypotension, l'absence de surcharge et un BNP bas ; le diurétique y est inutile, voire délétère. Il survient dans les 6 heures (définition 2019), alors que le TACO est défini dans les 12 heures (ISBT révisée). La prévention repose sur le choix des donneurs de plasma et la limitation des transfusions de plasma aux indications validées. Nuance : si un facteur de risque de SDRA était présent avant la transfusion (choc hémorragique, par exemple) avec une fonction respiratoire stable dans les 12 heures précédentes, on parlerait de TRALI de type II (définition 2019).",
       "questions": [
         {
           "question": "Quels éléments orientent vers le TRALI plutôt que le TACO ?",
@@ -653,9 +713,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-14",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "mineure : distinction TRALI de type I et de type II précisée (contexte hémorragique)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0006.md"
+      }
     }
   ]
 }

@@ -1,0 +1,3283 @@
+{
+  "agent": "DOS-13",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-PHYS-1301",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un sujet sain a un pH artériel de 7,40, une PaCO2 de 40 mmHg et des bicarbonates à 24 mmol/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La concentration en ions H+ libres est d'environ 40 nmol/L.",
+        "B": "Le rapport [HCO3-]/(0,03 × PaCO2) est voisin de 20.",
+        "C": "Le pK' du système acide carbonique/bicarbonate utilisé dans l'équation est de 6,8.",
+        "D": "Un pH de 7,10 correspond à une [H+] proche de 80 nmol/L.",
+        "E": "Le bicarbonate affiché par l'analyseur de gaz du sang est mesuré directement par une électrode spécifique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "pH = 6,1 + log([HCO3-]/0,03 × PaCO2) ; forme d'Henderson : [H+] = 24 × PaCO2/[HCO3-] = 24 × 40/24 = 40 nmol/L. Une baisse de 0,3 unité de pH double [H+].",
+      "explications_par_proposition": {
+        "A": "Vrai : 24 × 40 / 24 = 40 nmol/L.",
+        "B": "Vrai : 24/1,2 = 20 ; log 20 ≈ 1,3 ; 6,1 + 1,3 = 7,4.",
+        "C": "Faux : pK' = 6,1 ; 6,8 est le pK du couple phosphate.",
+        "D": "Vrai : −0,3 unité de pH = doublement de [H+] (≈ 79-80 nmol/L).",
+        "E": "Faux : il est calculé à partir du pH et de la PaCO2 mesurés ; le CO2 total de l'ionogramme est, lui, mesuré."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Équilibre acido-basique — équation d'Henderson-Hasselbalch",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que le bicarbonate des gaz du sang est mesuré.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology, 14e éd. Elsevier 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Berend K et al. N Engl J Med 2014;371:1434-45",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1302",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les systèmes tampons de l'organisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le système bicarbonate/CO2 doit son efficacité au fait qu'il s'agit d'un système ouvert dont les deux composants sont régulés par le poumon et le rein.",
+        "B": "Les phosphates constituent le principal tampon de l'acidité titrable urinaire.",
+        "C": "Le couple NH3/NH4+, de pK voisin de 9,2, est le principal tampon plasmatique.",
+        "D": "La désoxyhémoglobine accepte mieux les protons que l'oxyhémoglobine.",
+        "E": "L'os participe au tamponnement des charges acides chroniques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le couple HCO3-/CO2 (pK' 6,1) est efficace car ouvert ; l'hémoglobine est le principal tampon non bicarbonate du sang (effet Haldane) ; les phosphates tamponnent l'urine ; l'os tamponne lentement les acidoses chroniques.",
+      "explications_par_proposition": {
+        "A": "Vrai : élimination du CO2 par la ventilation, régénération de HCO3- par le rein.",
+        "B": "Vrai : HPO4²⁻ + H+ → H2PO4⁻ (pK 6,8).",
+        "C": "Faux : pK trop élevé ; NH3/NH4+ agit comme piège à protons dans l'urine, pas comme tampon plasmatique.",
+        "D": "Vrai : c'est l'effet Haldane, qui facilite le transport veineux du CO2.",
+        "E": "Vrai : au prix d'une déminéralisation (acidose de l'insuffisance rénale chronique)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Équilibre acido-basique — systèmes tampons",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Considérer l'ammonium comme un tampon plasmatique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology, 3e éd. Elsevier 2017",
+          "date": "2017"
+        },
+        {
+          "reference": "Hamm LL et al. Clin J Am Soc Nephrol 2015;10:2232-42",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1303",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la régulation rénale de l'équilibre acido-basique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Environ 80 % des bicarbonates filtrés sont réabsorbés dans le tubule proximal.",
+        "B": "L'échangeur Na+/H+ NHE3 assure l'essentiel de la sécrétion de protons dans le tubule proximal.",
+        "C": "Chaque ion NH4+ excrété dans l'urine correspond à la génération d'un bicarbonate « neuf ».",
+        "D": "L'acidité titrable est le principal mécanisme d'adaptation à une acidose métabolique chronique.",
+        "E": "L'acétazolamide augmente la réabsorption proximale des bicarbonates."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le rein réabsorbe ≈ 4 300 mmol/j de HCO3- (80 % au tubule proximal via NHE3, anhydrases carboniques IV et II, NBCe1) et excrète l'acide fixe sous forme d'acidité titrable et surtout d'ammonium, mécanisme adaptatif majeur.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : complété par une H+-ATPase.",
+        "C": "Vrai : le métabolisme de la glutamine produit NH4+ et HCO3- ; si NH4+ est excrété, le HCO3- est un gain net.",
+        "D": "Faux : l'acidité titrable, limitée par les phosphates filtrés, s'adapte peu ; c'est l'ammoniogenèse qui augmente fortement.",
+        "E": "Faux : en inhibant l'anhydrase carbonique, elle diminue la réabsorption et provoque une acidose hyperchlorémique."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Équilibre acido-basique — régulation rénale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre acidité titrable et ammoniurie comme mécanisme adaptatif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hamm LL et al. Clin J Am Soc Nephrol 2015;10:2232-42",
+          "date": "2015"
+        },
+        {
+          "reference": "Brenner & Rector's The Kidney, 11e éd. Elsevier 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1304",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient a les gaz du sang artériels suivants : pH 7,25 ; PaCO2 32 mmHg ; HCO3- 12 mmol/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le trouble primaire est une acidose métabolique.",
+        "B": "La PaCO2 attendue selon la formule de Winter est comprise entre 24 et 28 mmHg.",
+        "C": "La compensation respiratoire est adaptée.",
+        "D": "Il existe une acidose respiratoire associée.",
+        "E": "Il existe une alcalose respiratoire associée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "PaCO2 attendue = 1,5 × 12 + 8 ± 2 = 26 ± 2 mmHg. Une PaCO2 mesurée à 32 mmHg est trop haute : la ventilation est insuffisante (épuisement, sédation, BPCO), d'où une acidose mixte métabolique et respiratoire.",
+      "explications_par_proposition": {
+        "A": "Vrai : pH bas et bicarbonates bas.",
+        "B": "Vrai : 26 ± 2.",
+        "C": "Faux : PaCO2 > 28.",
+        "D": "Vrai : PaCO2 supérieure à la valeur attendue.",
+        "E": "Faux : il faudrait une PaCO2 < 24 mmHg."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Gaz du sang — formule de Winter et trouble mixte",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à une compensation correcte parce que la PaCO2 est « basse » (< 40).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Albert MS, Dell RB, Winters RW. Ann Intern Med 1967;66:312-22",
+          "date": "1967"
+        },
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92 (SRLF/SFMU)",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1305",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Patient de réanimation : Na+ 138 mmol/L ; Cl- 104 mmol/L ; HCO3- 16 mmol/L ; albuminémie 20 g/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le trou anionique non corrigé (sans K+) est de 18 mmol/L.",
+        "B": "Le trou anionique corrigé par l'albumine est d'environ 23 mmol/L.",
+        "C": "L'hypoalbuminémie augmente le trou anionique.",
+        "D": "L'albumine est le principal anion indosé du plasma.",
+        "E": "Un trou anionique normal permet d'éliminer une acidose lactique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "TA = 138 − (104 + 16) = 18 ; TA corrigé = 18 + 0,25 × (40 − 20) = 23 mmol/L. L'hypoalbuminémie abaisse le TA (≈ 2,5 mmol/L par 10 g/L) et peut masquer une accumulation d'anions indosés.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : elle le diminue.",
+        "D": "Vrai.",
+        "E": "Faux : surtout si le TA n'est pas corrigé ; seul le dosage du lactate élimine une hyperlactatémie."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Trou anionique et correction par l'albumine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la correction par l'albumine chez un patient hypoalbuminémique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Figge J et al. Crit Care Med 1998;26:1807-10",
+          "date": "1998"
+        },
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1306",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une patiente présente une acidose métabolique avec un trou anionique à 30 mmol/L (normal retenu : 12) et des bicarbonates à 18 mmol/L (normal retenu : 24). Quelle est l'interprétation la plus probable ?",
+      "propositions": {
+        "A": "Acidose à trou anionique augmenté isolée.",
+        "B": "Acidose à trou anionique augmenté associée à une acidose hyperchlorémique.",
+        "C": "Acidose à trou anionique augmenté associée à une alcalose métabolique.",
+        "D": "Alcalose respiratoire isolée.",
+        "E": "Erreur de laboratoire certaine."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Delta ratio = (30 − 12)/(24 − 18) = 18/6 = 3. Un rapport > 2 indique que les bicarbonates sont « trop hauts » pour l'anion accumulé : une alcalose métabolique coexiste (vomissements, diurétiques).",
+      "explications_par_proposition": {
+        "A": "Faux : un trouble isolé donnerait un rapport entre 1 et 2.",
+        "B": "Faux : ce serait un rapport < 1.",
+        "C": "Vrai.",
+        "D": "Faux : le TA augmenté signe une acidose métabolique.",
+        "E": "Faux : un trouble mixte explique les valeurs."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Gaz du sang — delta ratio",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "S'arrêter au diagnostic d'acidose à TA augmenté sans calculer le delta ratio.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rastegar A. J Am Soc Nephrol 2007;18:2429-31",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1307",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 35 ans est admis pour troubles visuels et acidose à trou anionique augmenté. Osmolalité mesurée 330 mOsm/kg ; Na+ 140 mmol/L ; glucose 5 mmol/L ; urée 5 mmol/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le trou osmolaire est d'environ 40 mOsm/kg.",
+        "B": "Ce tableau doit faire évoquer une intoxication au méthanol ou à l'éthylène glycol.",
+        "C": "L'éthanol peut aussi augmenter le trou osmolaire.",
+        "D": "Un trou osmolaire normal élimine formellement une intoxication au méthanol.",
+        "E": "Le trou anionique est maximal dès les premières minutes, avant le métabolisme de l'alcool."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Osmolalité calculée = 2 × 140 + 5 + 5 = 290 ; trou = 40. Les alcools toxiques augmentent d'abord le trou osmolaire puis, une fois métabolisés en acides (formiate, glycolate), le trou anionique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : troubles visuels évocateurs du méthanol.",
+        "C": "Vrai : l'éthanol est osmotiquement actif.",
+        "D": "Faux : vu tardivement, l'alcool est déjà métabolisé et le trou osmolaire peut être normal.",
+        "E": "Faux : c'est l'inverse ; le TA augmente avec la formation des acides."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Acidose métabolique — trou osmolaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un trou osmolaire normal élimine une intoxication vue tardivement.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kraut JA, Madias NE. Nat Rev Nephrol 2010;6:274-85",
+          "date": "2010"
+        },
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1308",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant une acidose métabolique à trou anionique normal, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un trou anionique urinaire négatif traduit une ammoniurie élevée, donc une réponse rénale adaptée.",
+        "B": "Dans l'acidose tubulaire distale (type 1), le trou anionique urinaire est positif et le pH urinaire supérieur à 5,5.",
+        "C": "L'acidose tubulaire de type 4 s'accompagne habituellement d'une hypokaliémie.",
+        "D": "Le trou anionique urinaire reste interprétable au cours d'une acidocétose.",
+        "E": "L'acétazolamide peut provoquer une acidose hyperchlorémique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "TAU = Na+u + K+u − Cl-u. NH4+ étant excrété avec Cl-, une ammoniurie élevée rend le TAU négatif (pertes digestives). Un TAU positif signe un défaut d'acidification (type 1, type 4, insuffisance rénale).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : hyperkaliémie (hypoaldostéronisme ou résistance).",
+        "D": "Faux : les cétoanions urinaires faussent le calcul.",
+        "E": "Vrai : inhibition de l'anhydrase carbonique proximale."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Acidose hyperchlorémique — trou anionique urinaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser le TAU dans une acidose à TA augmenté.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kraut JA, Madias NE. Nat Rev Nephrol 2010;6:274-85",
+          "date": "2010"
+        },
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1309",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 45 ans vomit depuis 5 jours (sténose pyloro-duodénale). Gaz du sang : pH 7,52 ; HCO3- 38 mmol/L ; PaCO2 48 mmHg. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La chlorurie est attendue basse (< 20-25 mmol/L).",
+        "B": "L'alcalose est entretenue par la déplétion chlorée et volémique et par l'hypokaliémie.",
+        "C": "L'apport de NaCl et de KCl est le traitement de base.",
+        "D": "L'hyperaldostéronisme primaire est une cause d'alcalose chlorosensible.",
+        "E": "La PaCO2 est compatible avec la compensation attendue (≈ +0,7 mmHg par mmol/L de HCO3-)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "ΔHCO3- = 14 → ΔPaCO2 attendue ≈ 10 mmHg → PaCO2 ≈ 50 : compensation adaptée. Les vomissements génèrent l'alcalose ; la déplétion chlorée, l'hypovolémie et l'hypokaliémie l'entretiennent.",
+      "explications_par_proposition": {
+        "A": "Vrai : alcalose chlorosensible.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : chlororésistante (chlorurie élevée, HTA).",
+        "E": "Vrai."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Alcalose métabolique — génération et entretien",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer la formule de Winter à une alcalose métabolique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Emmett M. Clin J Am Soc Nephrol 2020;15:1848-56",
+          "date": "2020"
+        },
+        {
+          "reference": "Adrogué HJ, Madias NE. J Am Soc Nephrol 2010;21:920-3",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1310",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient BPCO stable a : pH 7,34 ; PaCO2 60 mmHg ; HCO3- 31 mmol/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Si l'hypercapnie était aiguë, les bicarbonates attendus seraient d'environ 26 mmol/L.",
+        "B": "Si l'hypercapnie est chronique, les bicarbonates attendus sont d'environ 31 mmol/L.",
+        "C": "Le profil est compatible avec une acidose respiratoire chronique compensée.",
+        "D": "Il existe obligatoirement une acidose métabolique associée.",
+        "E": "L'oxygénothérapie à haut débit corrige l'hypercapnie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "ΔPaCO2 = 20 mmHg. Aiguë : +0,1 × 20 = +2 → 26 ; chronique : +0,35 × 20 = +7 → 31. Les valeurs correspondent à une acidose respiratoire chronique compensée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : les bicarbonates sont conformes à la compensation chronique.",
+        "E": "Faux : seule la ventilation élimine le CO2 ; un excès d'O2 peut aggraver l'hypercapnie chez le BPCO."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Acidose respiratoire aiguë ou chronique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prendre l'élévation compensatrice des bicarbonates pour une alcalose métabolique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Adrogué HJ, Madias NE. J Am Soc Nephrol 2010;21:920-3",
+          "date": "2010"
+        },
+        {
+          "reference": "Epstein SK, Singh N. Respir Care 2001;46:366-83",
+          "date": "2001"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1311",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'alcalose respiratoire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez la femme enceinte, une PaCO2 autour de 30 mmHg est physiologique.",
+        "B": "L'intoxication salicylée de l'adulte associe fréquemment une alcalose respiratoire et une acidose métabolique à trou anionique augmenté.",
+        "C": "Dans la forme chronique, les bicarbonates diminuent d'environ 4 mmol/L par 10 mmHg de baisse de la PaCO2.",
+        "D": "L'alcalose augmente le calcium ionisé.",
+        "E": "L'anxiété doit être évoquée en premier, avant toute recherche d'hypoxémie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La progestérone stimule la ventilation au cours de la grossesse. Les salicylés stimulent directement les centres respiratoires et provoquent une acidose à TA augmenté. L'alcalose diminue le calcium ionisé (tétanie).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : trouble mixte classique.",
+        "C": "Vrai : coefficient ≈ 0,4 (0,4 à 0,5 selon les sources).",
+        "D": "Faux : il diminue (fixation accrue à l'albumine).",
+        "E": "Faux : l'origine anxieuse est un diagnostic d'élimination (embolie pulmonaire, sepsis, hypoxémie d'abord)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Alcalose respiratoire — causes et conséquences",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retenir une hyperventilation anxieuse sans avoir éliminé une hypoxémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Adrogué HJ, Madias NE. J Am Soc Nephrol 2010;21:920-3",
+          "date": "2010"
+        },
+        {
+          "reference": "Berend K et al. N Engl J Med 2014;371:1434-45",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1312",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations françaises d'experts SRLF/SFMU (2019) sur l'acidose métabolique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le bicarbonate de sodium devrait probablement être administré en réanimation en cas d'acidémie métabolique sévère (pH ≤ 7,20, PaCO2 < 45 mmHg) avec insuffisance rénale aiguë modérée à sévère.",
+        "B": "Le bicarbonate de sodium est recommandé de façon systématique au cours de l'arrêt cardiaque.",
+        "C": "Le bicarbonate de sodium est recommandé dans l'acidocétose diabétique dès que le pH est inférieur à 7,20.",
+        "D": "Les experts suggèrent le bicarbonate de sodium dans l'intoxication salicylée, quel que soit le pH.",
+        "E": "L'essai BICAR-ICU a montré une réduction du critère principal composite dans la population globale."
+      },
+      "reponses_correctes": [
+        "A",
+        "D"
+      ],
+      "explication_generale": "Le panel recommande probablement le bicarbonate dans l'acidémie sévère avec insuffisance rénale aiguë (grade 2+, d'après BICAR-ICU), le suggère pour compenser des pertes de bases mal tolérées et dans l'intoxication salicylée, et le déconseille dans l'acidocétose (grade 2−) et en routine dans l'arrêt cardiaque (grade 1−).",
+      "explications_par_proposition": {
+        "A": "Vrai : R3.6, grade 2+.",
+        "B": "Faux : non systématique, sauf hyperkaliémie préexistante ou intoxication par stabilisants de membrane.",
+        "C": "Faux : probablement pas de bicarbonate dans l'acidocétose diabétique.",
+        "D": "Vrai : avis d'experts.",
+        "E": "Faux : pas de différence sur le critère principal ; bénéfice de survie à J28 dans la strate AKIN 2-3."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Acidose métabolique — bicarbonate de sodium selon SRLF/SFMU 2019",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Prescrire du bicarbonate sur un pH bas sans tenir compte de la cause.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        },
+        {
+          "reference": "Jaber S et al. Lancet 2018;392:31-40 (BICAR-ICU)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1313",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions sont exactes concernant les examens biologiques au cours d'une acidose métabolique ?",
+      "propositions": {
+        "A": "Le lactate capillaire ne doit pas être utilisé pour diagnostiquer une hyperlactatémie.",
+        "B": "Un lactate veineux normal permet d'écarter une hyperlactatémie.",
+        "C": "La PCO2 veineuse périphérique peut remplacer de façon fiable la PaCO2.",
+        "D": "La cétonémie capillaire est préférée à la cétonurie pour le diagnostic d'acidocétose.",
+        "E": "Le déficit de base doit être préféré aux bicarbonates pour identifier les patients à risque d'acidose."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le panel SRLF/SFMU : pas de lactate capillaire (grade 1−) ; un lactate veineux normal écarte l'hyperlactatémie ; cétonémie capillaire plutôt que cétonurie (grade 1+) ; déficit de base probablement pas préférable aux bicarbonates. La méta-analyse de Byrne montre que la PCO2 veineuse n'est pas interchangeable avec la PaCO2.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : mais un lactate veineux élevé doit être confirmé sur sang artériel.",
+        "C": "Faux : intervalle de prédiction trop large.",
+        "D": "Vrai.",
+        "E": "Faux : grade 2−."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Gaz du sang veineux, lactate et cétonémie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        },
+        {
+          "reference": "Byrne AL et al. Respirology 2014;19:168-75",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1314",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le potentiel de repos du myocyte ventriculaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est voisin de −85 à −90 mV.",
+        "B": "Il est proche du potentiel d'équilibre du potassium.",
+        "C": "Il est principalement déterminé par le courant IK1 porté par des canaux à rectification entrante.",
+        "D": "Une hyperkaliémie le rend plus négatif.",
+        "E": "La pompe Na+/K+-ATPase échange 3 Na+ sortants contre 2 K+ entrants."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La membrane au repos est surtout perméable au K+ (IK1, Kir2.x) : le potentiel de repos est proche de EK (≈ −95 mV). L'hyperkaliémie rend EK moins négatif et dépolarise la membrane.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : il devient moins négatif (dépolarisation partielle).",
+        "E": "Vrai : pompe électrogène."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Électrophysiologie — potentiel de repos et équation de Nernst",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que l'hyperkaliémie hyperpolarise la membrane.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Guyton and Hall Textbook of Medical Physiology, 14e éd. 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron & Boulpaep Medical Physiology, 3e éd. 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1315",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le potentiel d'action du myocyte ventriculaire, quelles associations phase/courant sont exactes ?",
+      "propositions": {
+        "A": "Phase 0 : courant sodique rapide INa (Nav1.5).",
+        "B": "Phase 1 : courant potassique transitoire sortant Ito.",
+        "C": "Phase 2 : courant calcique de type L équilibré par des courants potassiques sortants.",
+        "D": "Phase 3 : courant If.",
+        "E": "Phase 4 : courant IK1 et pompe Na+/K+."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "0 INa ; 1 Ito ; 2 ICa,L vs IKr/IKs ; 3 IKr, IKs, IK1 ; 4 IK1 et pompe. If est un courant des cellules pacemaker, activé par l'hyperpolarisation.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : phase 3 = IKr, IKs puis IK1 ; If concerne la phase 4 des cellules nodales.",
+        "E": "Vrai."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Potentiel d'action ventriculaire — phases et courants",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Grant AO. Circ Arrhythm Electrophysiol 2009;2:185-94",
+          "date": "2009"
+        },
+        {
+          "reference": "Nerbonne JM, Kass RS. Physiol Rev 2005;85:1205-53",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1316",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'automatisme du nœud sinusal, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La phase 0 des cellules sinusales est principalement calcique.",
+        "B": "Le courant If, porté par les canaux HCN4, s'active lors de l'hyperpolarisation.",
+        "C": "L'AMPc augmente l'activation de If.",
+        "D": "L'acétylcholine ralentit la fréquence en partie par ouverture des canaux IK,ACh.",
+        "E": "L'ivabradine ralentit la fréquence en bloquant les canaux calciques de type L."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Phase 0 nodale = ICa,L. Dépolarisation diastolique : If (HCN4, activé par l'hyperpolarisation, modulé par l'AMPc), horloge calcique, ICa,T. Le vague hyperpolarise (IK,ACh) et diminue l'AMPc. L'ivabradine bloque sélectivement If.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : base de l'effet chronotrope positif β-adrénergique.",
+        "D": "Vrai.",
+        "E": "Faux : elle bloque If, sans effet inotrope négatif."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Automatisme sinusal — courant If",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que If s'active à la dépolarisation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "DiFrancesco D. Circ Res 2010;106:434-46",
+          "date": "2010"
+        },
+        {
+          "reference": "Lakatta EG et al. Circ Res 2010;106:659-73",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1317",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans quel tissu la vitesse de conduction de l'influx est-elle la plus lente ?",
+      "propositions": {
+        "A": "Myocarde atrial.",
+        "B": "Nœud auriculo-ventriculaire.",
+        "C": "Faisceau de His.",
+        "D": "Réseau de Purkinje.",
+        "E": "Myocarde ventriculaire."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La conduction est la plus lente dans le nœud AV (≈ 0,02 – 0,05 m/s : phase 0 calcique, faible couplage par Cx45), d'où le retard nodal qui permet le remplissage ventriculaire ; la plus rapide est celle du Purkinje (≈ 2 – 4 m/s).",
+      "explications_par_proposition": {
+        "A": "Faux : ≈ 0,3 – 1 m/s.",
+        "B": "Vrai.",
+        "C": "Faux : rapide.",
+        "D": "Faux : la plus rapide.",
+        "E": "Faux : ≈ 0,3 – 1 m/s."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Conduction — vitesses",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Guyton and Hall Textbook of Medical Physiology, 14e éd. 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1318",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions concernant le nœud auriculo-ventriculaire sont exactes ?",
+      "propositions": {
+        "A": "Sa conduction est décrémentielle.",
+        "B": "Il protège les ventricules lors d'une fibrillation atriale.",
+        "C": "Une voie accessoire de type Kent conduit habituellement sans décrément.",
+        "D": "Le PR court du syndrome de Wolff-Parkinson-White s'explique par le court-circuit du retard nodal.",
+        "E": "L'adénosine accélère la conduction nodale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le nœud AV ralentit d'autant plus que la fréquence est élevée (filtre). La voie accessoire, faite de myocarde de travail, conduit vite sans décrément : PR court, onde delta, risque de FA préexcitée rapide. L'adénosine bloque transitoirement la conduction nodale.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : elle la ralentit ou la bloque (IK,ACh via les récepteurs A1)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Nœud auriculo-ventriculaire et voie accessoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier qu'un bloqueur nodal est dangereux dans une FA préexcitée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Boron & Boulpaep Medical Physiology, 3e éd. 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1319",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'excitabilité et les périodes réfractaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La période réfractaire absolue empêche la tétanisation du muscle cardiaque.",
+        "B": "Dans les cellules rapides, la réfractérité est liée à l'inactivation des canaux sodiques.",
+        "C": "La période vulnérable correspond approximativement au sommet de l'onde T.",
+        "D": "La cardioversion électrique d'une tachycardie organisée est synchronisée sur l'onde R pour éviter la période vulnérable.",
+        "E": "Dans les cellules nodales, la réfractérité se termine toujours exactement à la fin de la repolarisation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les canaux Na+ inactivés ne récupèrent qu'après repolarisation : la cellule est réfractaire pendant la contraction. Le sommet de T correspond à une période d'hétérogénéité de réfractérité (période vulnérable). Les cellules nodales présentent une réfractérité post-repolarisation.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : réfractérité post-repolarisation."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Périodes réfractaires",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Guyton and Hall Textbook of Medical Physiology, 14e éd. 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1320",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles correspondances entre ECG et événements électrophysiologiques sont exactes ?",
+      "propositions": {
+        "A": "L'onde P correspond à la dépolarisation des oreillettes.",
+        "B": "L'intervalle PR inclut le retard de conduction dans le nœud auriculo-ventriculaire.",
+        "C": "Le segment ST correspond au plateau du potentiel d'action ventriculaire.",
+        "D": "L'onde T correspond à la phase 0 du potentiel d'action ventriculaire.",
+        "E": "La dépolarisation du nœud sinusal est visible sous forme d'une petite onde précédant P."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "P = dépolarisation atriale ; PR = conduction AV ; QRS = dépolarisation ventriculaire ; ST = plateau (isoélectrique) ; T = repolarisation (phase 3). Le nœud sinusal, de trop petite masse, est invisible.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : phase 3 (repolarisation).",
+        "E": "Faux."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Bases de l'ECG — correspondances",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que le segment ST correspond à la repolarisation rapide.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kligfield P et al. Heart Rhythm 2007;4:394-412",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1321",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions concernant l'onde T et le QT sont exactes ?",
+      "propositions": {
+        "A": "L'onde T normale est concordante avec le QRS car la repolarisation progresse de l'épicarde vers l'endocarde.",
+        "B": "Selon la déclaration AHA/ACCF/HRS de 2009, un QTc ≥ 450 ms chez l'homme est considéré comme allongé.",
+        "C": "La formule de Bazett surcorrige le QT aux fréquences élevées.",
+        "D": "L'hypocalcémie allonge le QT en allongeant principalement le segment ST.",
+        "E": "Le QT s'allonge physiologiquement quand la fréquence cardiaque augmente."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le potentiel d'action épicardique plus court explique la concordance de T. Seuils AHA 2009 : ≥ 450 ms (homme), ≥ 460 ms (femme). Bazett surcorrige en tachycardie. L'hypocalcémie allonge le plateau, donc le ST.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : il raccourcit."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Onde T et intervalle QT",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier de corriger le QT pour la fréquence.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rautaharju PM et al. J Am Coll Cardiol 2009;53:982-91",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1322",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les manifestations électrocardiographiques de l'hyperkaliémie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les ondes T amples et pointues traduisent une accélération de la repolarisation liée à l'augmentation de la conductance IKr.",
+        "B": "L'élargissement du QRS résulte de l'inactivation partielle des canaux sodiques par la dépolarisation du potentiel de repos.",
+        "C": "L'aplatissement des ondes P précède habituellement l'élargissement du QRS.",
+        "D": "La sévérité de l'ECG est strictement proportionnelle à la kaliémie.",
+        "E": "Les sels de calcium agissent en abaissant la kaliémie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Séquence habituelle : T pointues → PR long, P aplaties → QRS large → sinusoïde, FV ou asystolie. La corrélation avec le chiffre de K+ est imparfaite. Le calcium stabilise la membrane sans modifier la kaliémie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Faux : il restaure l'écart entre potentiel de repos et seuil."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Hyperkaliémie — mécanismes ECG",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se rassurer d'un ECG normal devant une hyperkaliémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Boron & Boulpaep Medical Physiology, 3e éd. 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1323",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les post-dépolarisations, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les post-dépolarisations précoces surviennent pendant les phases 2 ou 3 d'un potentiel d'action prolongé.",
+        "B": "Les post-dépolarisations précoces sont à l'origine des torsades de pointes du QT long.",
+        "C": "Les post-dépolarisations tardives sont liées à une surcharge calcique intracellulaire.",
+        "D": "L'intoxication digitalique favorise les post-dépolarisations tardives.",
+        "E": "Les post-dépolarisations tardives sont favorisées par la bradycardie et les pauses."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "EAD : potentiel d'action allongé, réactivation de ICa,L, favorisées par la bradycardie et les pauses (torsades). DAD : surcharge calcique, libération spontanée de Ca2+, courant NCX, favorisées par la tachycardie (digitaliques, catécholamines, CPVT).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : c'est le cas des EAD ; les DAD sont favorisées par la tachycardie."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Mécanismes des arythmies — activité déclenchée",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Inverser les contextes des EAD et des DAD.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bers DM. Nature 2002;415:198-205",
+          "date": "2002"
+        },
+        {
+          "reference": "Lei M et al. Circulation 2018;138:1879-96",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1324",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les syndromes du QT long congénital, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le type 1 est lié à une perte de fonction de KCNQ1 (IKs) et les événements surviennent volontiers à l'effort ou en nageant.",
+        "B": "Le type 2 est lié à KCNH2 (IKr) et les événements peuvent être déclenchés par un stimulus auditif.",
+        "C": "Le type 3 est lié à un gain de fonction du courant sodique tardif (SCN5A) avec événements au repos ou pendant le sommeil.",
+        "D": "La plupart des médicaments allongeant le QT bloquent le canal hERG.",
+        "E": "Le syndrome de Brugada est dû à un gain de fonction de SCN5A."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "LQT1 (IKs ↓, effort), LQT2 (IKr ↓, bruit, post-partum), LQT3 (INa tardif ↑, repos). Le canal hERG (IKr) est la cible de la plupart des médicaments allongeant le QT. Le Brugada est associé à une perte de fonction de SCN5A.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : perte de fonction (le gain de fonction donne le LQT3)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Canalopathies — QT long congénital",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Confondre LQT3 (gain de SCN5A) et Brugada (perte de SCN5A).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Zeppenfeld K et al. 2022 ESC Guidelines VA/SCD. Eur Heart J 2022;43:3997-4126",
+          "date": "2022"
+        },
+        {
+          "reference": "Grant AO. Circ Arrhythm Electrophysiol 2009;2:185-94",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1325",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la classification modernisée des antiarythmiques (Lei et al., 2018), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La classe 0 correspond aux bloqueurs du courant If (ivabradine).",
+        "B": "La classe I correspond aux bloqueurs des canaux sodiques.",
+        "C": "La classe III correspond aux bloqueurs des canaux potassiques, qui allongent la repolarisation.",
+        "D": "La classe IV inclut les inhibiteurs calciques non dihydropyridiniques.",
+        "E": "Les antiarythmiques de classe III n'exposent à aucun risque pro-arythmique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La classification modernisée conserve les classes I à IV et ajoute 0 (If), V (canaux mécanosensibles), VI (jonctions communicantes) et VII (cibles en amont). Les classes III et Ia exposent aux torsades de pointes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : vérapamil, diltiazem.",
+        "E": "Faux : allongement du QT et torsades."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Antiarythmiques — classification modernisée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lei M et al. Circulation 2018;138:1879-96",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1326",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le couplage excitation-contraction du myocyte cardiaque, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'entrée de Ca2+ par les canaux de type L déclenche la libération de Ca2+ par les récepteurs de la ryanodine RyR2.",
+        "B": "La recapture du Ca2+ dans le réticulum est assurée par SERCA2a, freinée par le phospholamban non phosphorylé.",
+        "C": "La digoxine augmente le Ca2+ intracellulaire en inhibant la Na+/K+-ATPase.",
+        "D": "La stimulation β-adrénergique a un effet lusitrope positif.",
+        "E": "Le Ca2+ se fixe sur la troponine I pour démasquer les sites de l'actine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "CICR : ICa,L → RyR2 → Ca2+ → troponine C. Relaxation : SERCA2a (phospholamban) et NCX. Digoxine : ↑ Na+ intracellulaire → ↓ extrusion du Ca2+ par NCX. Phosphorylation du phospholamban par la PKA : relaxation accélérée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : troponine C."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-007"
+      ],
+      "theme": "Couplage excitation-contraction",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre troponine C (liaison du calcium) et troponine I (inhibitrice).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bers DM. Nature 2002;415:198-205",
+          "date": "2002"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1301",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hémostase primaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'adhésion plaquettaire sous fort cisaillement repose sur la liaison du complexe GPIb-IX-V au facteur Willebrand.",
+        "B": "L'agrégation plaquettaire fait intervenir l'intégrine αIIbβ3 et le fibrinogène.",
+        "C": "Le syndrome de Bernard-Soulier correspond à un déficit en αIIbβ3.",
+        "D": "Le facteur Willebrand transporte et protège le facteur VIII.",
+        "E": "L'aspirine inhibe de façon réversible la COX-1 plaquettaire pendant quelques heures."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "GPIb-IX-V/VWF assure l'adhésion, αIIbβ3/fibrinogène l'agrégation. Bernard-Soulier = déficit en GPIb-IX-V (macrothrombopénie) ; Glanzmann = déficit en αIIbβ3. L'aspirine acétyle irréversiblement la COX-1 pour la durée de vie de la plaquette.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est la thrombasthénie de Glanzmann.",
+        "D": "Vrai : un déficit sévère en VWF abaisse le FVIII.",
+        "E": "Faux : inhibition irréversible, effet de 7 à 10 jours."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Hémostase primaire — glycoprotéines plaquettaires et VWF",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inverser Glanzmann et Bernard-Soulier.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hoffbrand's Essential Haematology, 9e éd. Wiley-Blackwell 2024",
+          "date": "2024"
+        },
+        {
+          "reference": "Versteeg HH et al. Physiol Rev 2013;93:327-58",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1302",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le modèle cellulaire de l'hémostase (Hoffman et Monroe), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La phase d'initiation se déroule sur les cellules exprimant le facteur tissulaire.",
+        "B": "La thrombine produite lors de l'initiation active les plaquettes ainsi que les facteurs V, VIII et XI.",
+        "C": "L'explosion de thrombine se produit à la surface des plaquettes activées grâce aux complexes tenase et prothrombinase.",
+        "D": "Le facteur XII est indispensable à l'hémostase physiologique.",
+        "E": "Ce modèle explique pourquoi l'hémophilie est hémorragique malgré une voie du facteur tissulaire intacte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Initiation (FT-VIIa, petite quantité de thrombine), amplification (activation des plaquettes, V, VIII, XI), propagation (IXa-VIIIa et Xa-Va sur la plaquette). Sans FVIII ou FIX, la propagation échoue. Le FXII n'est pas nécessaire à l'hémostase.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : son déficit allonge le TCA sans saigner.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Coagulation — modèle cellulaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le FXII, exploré par le TCA, est nécessaire à l'hémostase.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hoffman M, Monroe DM. Thromb Haemost 2001;85:958-65",
+          "date": "2001"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1303",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les facteurs vitamine K-dépendants, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils comprennent les facteurs II, VII, IX et X.",
+        "B": "Les protéines C et S sont également vitamine K-dépendantes.",
+        "C": "Le facteur V est vitamine K-dépendant.",
+        "D": "Le facteur VII a la demi-vie la plus courte, ce qui explique la baisse précoce du TP sous AVK.",
+        "E": "Les AVK inhibent la vitamine K époxyde réductase (VKORC1)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La γ-carboxylation des facteurs II, VII, IX, X et des protéines C, S, Z nécessite la vitamine K réduite, régénérée par VKORC1 (cible des AVK). Le FV n'est pas vitamine K-dépendant : son dosage distingue carence en vitamine K et insuffisance hépatique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai : demi-vie de quelques heures.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Facteurs vitamine K-dépendants",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inclure le facteur V parmi les facteurs vitamine K-dépendants.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Williams Hematology, 10e éd. McGraw Hill 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1304",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions concernant les tests globaux de la coagulation sont exactes ?",
+      "propositions": {
+        "A": "Le TP explore les facteurs VII, X, V, II et le fibrinogène.",
+        "B": "Le TCA explore le facteur VII.",
+        "C": "Le TCA est sensible aux déficits en facteurs VIII, IX, XI et XII.",
+        "D": "Le temps de thrombine est allongé par l'héparine et par le dabigatran.",
+        "E": "Le temps de reptilase est allongé par l'héparine non fractionnée."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "TP = voie « extrinsèque » + commune ; TCA = voie « intrinsèque » + commune ; TT = conversion du fibrinogène, très sensible aux antithrombines (héparine via l'antithrombine, dabigatran) ; la reptilase est insensible à l'héparine.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : le FVII n'est exploré que par le TP.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : c'est ce qui permet de distinguer une héparine d'une anomalie du fibrinogène."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Tests de coagulation — facteurs explorés",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Attribuer le FVII au TCA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Henry's Clinical Diagnosis and Management by Laboratory Methods, 24e éd. Elsevier 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1305",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles erreurs préanalytiques peuvent fausser un bilan d'hémostase ?",
+      "propositions": {
+        "A": "Un tube citraté insuffisamment rempli.",
+        "B": "Un prélèvement effectué sur un cathéter hépariné.",
+        "C": "Un hématocrite supérieur à 55 % sans adaptation du volume de citrate.",
+        "D": "La numération plaquettaire sur tube EDTA chez un patient présentant une agglutination à l'EDTA.",
+        "E": "L'utilisation d'un tube citraté à 3,2 % avec un rapport sang/citrate de 9/1."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le rapport 9/1 avec citrate 0,109 M (3,2 %) est la norme. Un excès relatif de citrate (tube sous-rempli, hématocrite élevé) allonge les temps ; la contamination héparinique allonge TCA et TT ; l'EDTA peut provoquer une pseudo-thrombopénie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : contrôle sur frottis ou tube citraté.",
+        "E": "Faux : c'est la bonne pratique."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Préanalytique du bilan d'hémostase",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hoffbrand's Essential Haematology, 9e éd. 2024",
+          "date": "2024"
+        },
+        {
+          "reference": "Henry's Clinical Diagnosis, 24e éd. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1306",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient a un TP à 38 %, un TCA ratio à 1,5, un fibrinogène à 2,8 g/L, des plaquettes à 230 G/L. Facteur V 98 % ; facteurs II, VII et X entre 25 et 35 %. Quel est le diagnostic le plus probable ?",
+      "propositions": {
+        "A": "Insuffisance hépatocellulaire.",
+        "B": "Carence en vitamine K ou traitement par AVK.",
+        "C": "CIVD.",
+        "D": "Hémophilie A.",
+        "E": "Anticoagulant lupique isolé."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Baisse des facteurs vitamine K-dépendants avec facteur V normal et fibrinogène normal : carence en vitamine K (cholestase, malabsorption, antibiotiques, dénutrition) ou AVK.",
+      "explications_par_proposition": {
+        "A": "Faux : le FV serait abaissé.",
+        "B": "Vrai.",
+        "C": "Faux : fibrinogène et plaquettes normaux.",
+        "D": "Faux : le TP serait normal.",
+        "E": "Faux : il n'abaisse pas le TP de cette façon."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Interprétation — insuffisance hépatique ou carence en vitamine K",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier de doser le facteur V devant un TP bas.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Williams Hematology, 10e éd. 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1307",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant un allongement isolé du TCA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une correction par le mélange avec un plasma normal oriente vers un déficit en facteur.",
+        "B": "Un inhibiteur anti-FVIII peut n'apparaître qu'après une incubation de 2 heures à 37 °C.",
+        "C": "Un déficit en facteur XII expose à des hémorragies graves.",
+        "D": "Un anticoagulant lupique expose surtout à un risque thrombotique.",
+        "E": "Une contamination par l'héparine doit être éliminée en premier."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Démarche : éliminer l'héparine (TT/reptilase, anti-Xa), puis test de correction immédiat et après incubation. Corrigé = déficit (VIII, IX, XI, XII) ; non corrigé = inhibiteur (anticoagulant lupique thrombogène ou anti-VIII hémorragique).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : inhibiteur temps- et température-dépendant.",
+        "C": "Faux : le déficit en FXII n'est pas hémorragique.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "TCA isolément allongé — test de correction",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Lire le test de correction uniquement en immédiat.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tiede A et al. Haematologica 2020;105:1791-1801",
+          "date": "2020"
+        },
+        {
+          "reference": "Devreese KMJ et al. J Thromb Haemost 2020;18:2828-39",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1308",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations ISTH (2020) sur la recherche d'un anticoagulant lupique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Deux tests de principes différents sont recommandés, dont le dRVVT.",
+        "B": "La démarche comporte un dépistage, un test de mélange et un test de confirmation.",
+        "C": "Le test de confirmation repose sur l'ajout d'un excès de phospholipides.",
+        "D": "Un résultat obtenu en phase inflammatoire aiguë doit être interprété avec prudence.",
+        "E": "La présence d'un anticoagulant lupique contre-indique tout anticoagulant."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'ISTH recommande le dRVVT et un TCA sensible au LA, selon la séquence dépistage-mélange-confirmation ; l'interprétation est délicate sous anticoagulant et en cas de CRP élevée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : l'excès de phospholipides neutralise l'anticorps.",
+        "D": "Vrai.",
+        "E": "Faux : le syndrome des antiphospholipides thrombotique justifie au contraire une anticoagulation."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Anticoagulant lupique — recommandations ISTH 2020",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Confondre « anticoagulant circulant » biologique et risque hémorragique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Devreese KMJ et al. J Thromb Haemost 2020;18:2828-39",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1309",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient en choc septique a : plaquettes 45 G/L ; D-dimères fortement augmentés ; TQ allongé de 4 secondes ; fibrinogène 0,9 g/L. Quelles propositions sont exactes concernant le score ISTH ?",
+      "propositions": {
+        "A": "Le score est de 8 points.",
+        "B": "Un score ≥ 5 est compatible avec une CIVD patente.",
+        "C": "Le score ne s'applique qu'en présence d'une affection connue pour se compliquer de CIVD.",
+        "D": "Un score < 5 élimine définitivement une CIVD.",
+        "E": "Le facteur V est inclus dans le score."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Plaquettes < 50 G/L : 2 points ; marqueur de fibrine fortement augmenté : 3 ; TQ allongé de 3 à 6 s : 1 ; fibrinogène < 1 g/L : 1. Total = 7 points (≥ 5 : compatible avec une CIVD patente).",
+      "explications_par_proposition": {
+        "A": "Faux : 2 + 3 + 1 + 1 = 7 points.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : il faut répéter le score dans les 1 à 2 jours.",
+        "E": "Faux : plaquettes, marqueur de fibrine, TQ, fibrinogène."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "CIVD — score ISTH",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se tromper dans les points attribués au marqueur de fibrine (2 ou 3).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Taylor FB Jr et al. Thromb Haemost 2001;86:1327-30",
+          "date": "2001"
+        },
+        {
+          "reference": "Levi M et al. Br J Haematol 2009;145:24-33",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1310",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations ASH/ISTH/NHF/WFH 2021 sur le diagnostic de la maladie de Willebrand, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un taux de VWF < 0,30 UI/mL permet le diagnostic de déficit de type 1 quel que soit le phénotype hémorragique.",
+        "B": "Un taux de VWF entre 0,30 et 0,50 UI/mL associé à des saignements anormaux permet le diagnostic de type 1.",
+        "C": "Un rapport activité VWF/VWF:Ag < 0,7 doit faire rechercher un type 2.",
+        "D": "Les tests mesurant la liaison du VWF à la GPIb sont préférés au VWF:RCo.",
+        "E": "Un TCA normal élimine la maladie de Willebrand."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les seuils 0,30 et 0,50 UI/mL, le rapport 0,7 et la préférence pour VWF:GPIbM/GPIbR figurent dans les recommandations de 2021 ; le TCA est souvent normal dans les types 1 et 2.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Maladie de Willebrand — critères diagnostiques 2021",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Éliminer un Willebrand sur un TCA normal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "James PD et al. Blood Adv 2021;5:280-300",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1311",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la fibrinolyse et les D-dimères, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les D-dimères proviennent de la dégradation par la plasmine de la fibrine stabilisée par le FXIIIa.",
+        "B": "Le PAI-1 inhibe le t-PA et l'u-PA.",
+        "C": "L'acide tranexamique active le plasminogène.",
+        "D": "Le seuil des D-dimères ajusté à l'âge (âge × 10 µg/L après 50 ans) a été validé pour exclure une embolie pulmonaire à probabilité clinique non forte.",
+        "E": "Des D-dimères élevés sont spécifiques de la maladie thromboembolique veineuse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les D-dimères témoignent d'une coagulation suivie de fibrinolyse ; ils ont une forte valeur prédictive négative mais une faible spécificité (âge, cancer, grossesse, infection, chirurgie, CIVD).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est un antifibrinolytique (analogue de la lysine).",
+        "D": "Vrai : étude ADJUST-PE.",
+        "E": "Faux."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Fibrinolyse et D-dimères",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des D-dimères pour « confirmer » une thrombose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tripodi A. Clin Chem 2011;57:1256-62",
+          "date": "2011"
+        },
+        {
+          "reference": "Righini M et al. JAMA 2014;311:1117-24",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1312",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exploration biologique des anticoagulants oraux directs (AOD), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un temps de thrombine normal rend très improbable une concentration significative de dabigatran.",
+        "B": "Un TP normal exclut une concentration significative d'apixaban.",
+        "C": "Les anti-Xa directs se mesurent par une activité anti-Xa calibrée spécifiquement pour la molécule.",
+        "D": "L'INR est l'outil de surveillance recommandé des anti-Xa directs.",
+        "E": "Le temps de thrombine dilué permet de quantifier le dabigatran."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le TT est extrêmement sensible au dabigatran ; le TP est peu sensible à l'apixaban ; l'activité anti-Xa calibrée et le TT dilué (ou les tests à l'écarine) sont les tests spécifiques.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Faux : l'INR est conçu pour les AVK.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Biologie des anticoagulants oraux directs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se rassurer d'un TP normal chez un patient sous apixaban.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Douxfils J et al. J Thromb Haemost 2018;16:209-19",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1313",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations de la SFAR (2013) sur l'évaluation hémostatique pré-interventionnelle, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'interrogatoire standardisé est l'élément central de l'évaluation.",
+        "B": "Un bilan TP/TCA/plaquettes systématique est recommandé chez tout adulte avant une chirurgie programmée.",
+        "C": "Un bilan est justifié si l'interrogatoire est positif ou impossible.",
+        "D": "Un bilan d'hémostase normal élimine tout risque hémorragique.",
+        "E": "Le temps de saignement est le test de référence pour dépister une anomalie de l'hémostase primaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "C"
+      ],
+      "explication_generale": "La SFAR privilégie un interrogatoire standardisé et ne recommande pas de bilan systématique chez l'adulte sans antécédent ; un bilan normal n'élimine pas un Willebrand ou une thrombopathie ; le temps de saignement est abandonné.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Bilan d'hémostase pré-interventionnel (SFAR 2013)",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": "Prescrire un bilan systématique au lieu d'un interrogatoire structuré.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bonhomme F et al. Eur J Anaesthesiol 2013;30:142-62 (SFAR)",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1301",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'organisation génomique du complexe HLA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est situé sur le bras court du chromosome 6.",
+        "B": "Le gène de la β2-microglobuline appartient à la région de classe I.",
+        "C": "Les gènes TAP1 et TAP2 sont situés dans la région de classe II.",
+        "D": "La région de classe III contient des gènes du complément (C2, C4, facteur B).",
+        "E": "Le gène CYP21A2 de la 21-hydroxylase est situé dans la région HLA."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le complexe HLA (6p21.3) comprend les régions de classe I, II (avec DM, DO, TAP, PSMB) et III (complément, TNF, CYP21A2). La β2-microglobuline est codée sur le chromosome 15.",
+      "explications_par_proposition": {
+        "A": "Vrai : 6p21.3.",
+        "B": "Faux : chromosome 15.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai : d'où le lien entre HLA et hyperplasie congénitale des surrénales."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "HLA — organisation génomique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Placer la β2-microglobuline dans le complexe HLA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Klein J, Sato A. N Engl J Med 2000;343:702-9",
+          "date": "2000"
+        },
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1302",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les molécules HLA de classe I, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le sillon peptidique est formé par les domaines α1 et α2 de la chaîne lourde.",
+        "B": "Le sillon est fermé à ses deux extrémités et loge des peptides de 8 à 10 acides aminés.",
+        "C": "Le domaine α3 fixe le corécepteur CD4.",
+        "D": "Elles sont exprimées par toutes les cellules nucléées.",
+        "E": "Les résidus polymorphes sont concentrés dans le sillon peptidique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Classe I : chaîne α (α1, α2, α3) + β2m ; sillon fermé (α1-α2), peptides courts ; α3 fixe CD8 ; expression ubiquitaire (cellules nucléées) ; polymorphisme concentré dans le sillon.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : CD8.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Structure des molécules HLA de classe I",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inverser CD4 et CD8.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bjorkman PJ et al. Nature 1987;329:506-12",
+          "date": "1987"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1303",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les molécules HLA de classe II, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles sont formées de deux chaînes transmembranaires α et β.",
+        "B": "Le sillon est formé par les domaines α1 et β1 et il est ouvert à ses extrémités.",
+        "C": "Elles présentent des peptides de 12 à 25 acides aminés environ.",
+        "D": "Le domaine β2 fixe le corécepteur CD4.",
+        "E": "Elles sont exprimées constitutivement par toutes les cellules nucléées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Classe II : α + β ; sillon ouvert (α1-β1), peptides longs ; CD4 sur β2 ; expression constitutive limitée aux cellules présentatrices professionnelles et à l'épithélium thymique, inductible par l'IFN-γ.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Structure des molécules HLA de classe II",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brown JH et al. Nature 1993;364:33-9",
+          "date": "1993"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1304",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'apprêtement et la présentation des antigènes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les transporteurs TAP font entrer les peptides cytosoliques dans le réticulum endoplasmique.",
+        "B": "La chaîne invariante empêche le chargement prématuré de peptides sur les molécules de classe II dans le réticulum.",
+        "C": "HLA-DM catalyse l'échange du peptide CLIP contre un peptide antigénique.",
+        "D": "La présentation croisée permet à certaines cellules dendritiques de présenter des antigènes exogènes sur la classe I.",
+        "E": "Les peptides présentés par la classe II proviennent exclusivement de protéines cytosoliques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Voie I : protéasome → TAP → complexe de chargement (tapasine) → surface (T CD8). Voie II : chaîne invariante → CLIP → HLA-DM → surface (T CD4). Présentation croisée par les cDC1 ; l'autophagie permet aussi la présentation de protéines cytosoliques par la classe II.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : surtout des protéines endocytées ou membranaires."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Voies de présentation des antigènes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que HLA-DM présente des peptides.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        },
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology, 9e éd. 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1305",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle est la probabilité qu'un frère ou une sœur soit HLA-identique (mêmes deux haplotypes) à un patient ?",
+      "propositions": {
+        "A": "0 %.",
+        "B": "12,5 %.",
+        "C": "25 %.",
+        "D": "50 %.",
+        "E": "100 %."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Chaque enfant reçoit un des deux haplotypes de chaque parent : 1/2 × 1/2 = 1/4 d'identité, 1/2 d'haplo-identité, 1/4 de différence totale.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Faux : c'est la probabilité d'haplo-identité.",
+        "E": "Faux : seuls les jumeaux monozygotes sont toujours identiques."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Transmission des haplotypes HLA",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre identité et haplo-identité.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Klein J, Sato A. N Engl J Med 2000;343:702-9",
+          "date": "2000"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1306",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos de l'allèle « HLA-B*57:01 », quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "« 57 » désigne le groupe d'allèles, correspondant le plus souvent à la spécificité sérologique.",
+        "B": "« 01 » désigne une protéine HLA spécifique.",
+        "C": "Un typage qui identifie B*57:01 est un typage de haute résolution.",
+        "D": "La lettre N ajoutée en fin de nom signale un allèle sécrété.",
+        "E": "Cet allèle est associé à l'hypersensibilité à l'abacavir."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Nomenclature à champs (2010) : gène*groupe:protéine:synonyme:non codant + suffixe d'expression (N = nul, S = sécrété, L = faible). B*57:01 est dépisté avant toute prescription d'abacavir.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : 2e champ.",
+        "D": "Faux : N = allèle nul (non exprimé) ; S = sécrété.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Nomenclature HLA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Marsh SGE et al. Tissue Antigens 2010;75:291-455",
+          "date": "2010"
+        },
+        {
+          "reference": "Mallal S et al. N Engl J Med 2008;358:568-79",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1307",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Zinkernagel et Doherty ont montré que les lymphocytes T cytotoxiques ne tuent des cellules infectées que si elles partagent avec eux des molécules du CMH.",
+        "B": "Le récepteur T reconnaît un complexe formé par le peptide et la molécule HLA.",
+        "C": "La sélection positive thymique retient les thymocytes reconnaissant faiblement le complexe peptide du soi-HLA du soi.",
+        "D": "La sélection négative élimine les thymocytes qui ne reconnaissent aucune molécule HLA.",
+        "E": "Les thymocytes reconnaissant la classe I s'orientent vers la lignée CD8."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Restriction par le CMH (1974) ; sélection positive (reconnaissance faible → survie, choix CD4/CD8) ; sélection négative (reconnaissance forte → délétion ou orientation régulatrice). Les thymocytes qui ne reconnaissent rien meurent par négligence.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : ce sont ceux qui reconnaissent trop fortement le soi qui sont éliminés ; l'absence de reconnaissance entraîne une mort par négligence.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Restriction par le CMH et sélection thymique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre mort par négligence et sélection négative.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Zinkernagel RM, Doherty PC. Nature 1974;248:701-2",
+          "date": "1974"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1308",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les interactions entre cellules NK et molécules HLA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les récepteurs KIR reconnaissent notamment des groupes d'allèles HLA-C.",
+        "B": "CD94/NKG2A reconnaît HLA-E.",
+        "C": "La perte d'expression de la classe I par une cellule tumorale favorise sa lyse par les NK.",
+        "D": "HLA-G est exprimé par le trophoblaste extravilleux.",
+        "E": "Les cellules NK nécessitent une restriction par le CMH pour reconnaître un peptide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les NK sont inhibées par les molécules de classe I du soi (KIR/HLA-C, Bw4 ; NKG2A/HLA-E) : leur absence lève l'inhibition (« soi manquant »). HLA-G participe à la tolérance fœto-maternelle.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : les NK n'ont pas de récepteur spécifique d'un peptide restreint par le CMH."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Cellules NK et molécules HLA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1309",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le bilan immunologique d'une greffe rénale, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un crossmatch lymphocytaire T positif par lymphocytotoxicité, dû à des IgG anti-HLA, expose à un rejet hyperaigu.",
+        "B": "Le crossmatch consiste à tester le sérum du receveur contre les lymphocytes du donneur.",
+        "C": "Les tests en phase solide sur billes single antigen permettent d'identifier les spécificités des anticorps anti-HLA.",
+        "D": "Les grossesses et les transfusions peuvent induire des anticorps anti-HLA.",
+        "E": "La compatibilité HLA dispense de la compatibilité ABO."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Patel et Terasaki (1969) ont associé le crossmatch positif au rejet hyperaigu. Les tests sur microbilles (Luminex) identifient les DSA (consensus 2013). L'ABO reste la première barrière.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Crossmatch et anticorps anti-HLA en greffe rénale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre crossmatch et typage.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Patel R, Terasaki PI. N Engl J Med 1969;280:735-9",
+          "date": "1969"
+        },
+        {
+          "reference": "Tait BD et al. Transplantation 2013;95:19-47",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1310",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la compatibilité HLA en greffe de cellules souches hématopoïétiques allogénique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un frère ou une sœur HLA-identique est le donneur de référence.",
+        "B": "Pour un donneur adulte non apparenté, une compatibilité haute résolution HLA-A, -B, -C et -DRB1 (8/8) est recherchée.",
+        "C": "La présence de DSA chez le receveur augmente le risque d'échec de prise de greffe.",
+        "D": "La greffe haplo-identique est impossible.",
+        "E": "La compatibilité HLA est moins importante qu'en greffe rénale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La GVH impose une compatibilité stricte. Recommandations NMDP/CIBMTR 2019 : compatibilité haute résolution primordiale pour un donneur non apparenté, rôle des DSA ; greffes haplo-identiques possibles avec cyclophosphamide post-greffe.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : elle est largement pratiquée.",
+        "E": "Faux : elle est plus stricte."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Greffe de cellules souches hématopoïétiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dehn J et al. Blood 2019;134:924-34",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1311",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles associations HLA – maladie sont exactes ?",
+      "propositions": {
+        "A": "HLA-B27 – spondylarthrite ankylosante.",
+        "B": "HLA-B51 – maladie de Behçet.",
+        "C": "HLA-DQ2/DQ8 – maladie cœliaque.",
+        "D": "HLA-DQB1*06:02 – narcolepsie de type 1.",
+        "E": "HLA-A29 – polyarthrite rhumatoïde."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "HLA-A29 est associé à la choriorétinopathie de type birdshot ; la polyarthrite rhumatoïde à ACPA est associée aux allèles DRB1 de l'« épitope partagé ».",
+      "explications_par_proposition": {
+        "A": "Vrai : retrouvé en Algérie (OR ≈ 14,6).",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : birdshot."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Associations HLA – maladies",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brewerton DA et al. Lancet 1973;1:904-7",
+          "date": "1973"
+        },
+        {
+          "reference": "Dahmani CA et al. Int J Immunogenet 2018;45:109-17",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1312",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'utilisation diagnostique du typage HLA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'absence de HLA-DQ2 et de HLA-DQ8 rend une maladie cœliaque très improbable.",
+        "B": "Selon l'ESPGHAN 2020, la détermination de HLA-DQ2/DQ8 n'est pas un critère obligatoire du diagnostic sans biopsie chez l'enfant.",
+        "C": "La présence de HLA-B27 suffit à poser le diagnostic de spondylarthrite.",
+        "D": "La valeur prédictive positive d'un allèle fréquent dans la population générale est faible.",
+        "E": "Le dépistage de HLA-B*57:01 avant abacavir a supprimé les réactions d'hypersensibilité immunologiquement confirmées dans l'essai PREDICT-1."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le typage HLA est surtout utile par sa valeur prédictive négative (DQ2/DQ8) et en pharmacogénétique (B*57:01 : 0 % contre 2,7 % de réactions confirmées). Une association forte n'implique pas une bonne valeur prédictive positive.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Valeur diagnostique du typage HLA",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Utiliser HLA-B27 ou DQ2 comme test de confirmation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Husby S et al. J Pediatr Gastroenterol Nutr 2020;70:141-56",
+          "date": "2020"
+        },
+        {
+          "reference": "Mallal S et al. N Engl J Med 2008;358:568-79",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1313",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le déficit d'expression des molécules HLA de classe II, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est dû à des mutations de facteurs de transcription (CIITA, RFX5, RFXAP, RFXANK).",
+        "B": "Il entraîne une lymphopénie T CD4 et un déficit immunitaire combiné.",
+        "C": "Une mutation fondatrice de RFXANK est partagée par des familles d'Afrique du Nord.",
+        "D": "La greffe de cellules souches hématopoïétiques est le seul traitement curatif.",
+        "E": "Il s'agit d'une maladie liée à l'X."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Maladie autosomique récessive, fréquente au Maghreb du fait d'une mutation fondatrice de RFXANK et de la consanguinité ; la greffe de CSH est curative (série de 35 patients nord-africains).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : autosomique récessive."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-036"
+      ],
+      "theme": "Déficit d'expression des molécules HLA de classe II",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Attribuer le déficit à une mutation des gènes HLA eux-mêmes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ouederni M et al. Blood 2011;118:5108-18",
+          "date": "2011"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1314",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles associations entre type d'hypersensibilité et exemple sont exactes ?",
+      "propositions": {
+        "A": "Type I – anaphylaxie à l'arachide.",
+        "B": "Type II – accident transfusionnel ABO.",
+        "C": "Type III – maladie sérique.",
+        "D": "Type IV – eczéma de contact au nickel.",
+        "E": "Type III – syndrome de Goodpasture."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "I : IgE ; II : anticorps contre antigènes cellulaires ou matriciels ; III : complexes immuns ; IV : lymphocytes T. Le syndrome de Goodpasture (anti-membrane basale, dépôts linéaires) relève du type II.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : IgM anti-A/anti-B, complément.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : type II."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilités — classification de Gell et Coombs",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Classer le Goodpasture dans le type III.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1315",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hypersensibilité de type I, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La commutation isotypique vers l'IgE dépend principalement de l'IL-4 et de l'IL-13.",
+        "B": "Le déclenchement nécessite le pontage d'au moins deux IgE fixées sur le FcεRI.",
+        "C": "La tryptase est un médiateur néoformé synthétisé en plusieurs heures.",
+        "D": "Les leucotriènes cystéinés sont des bronchoconstricteurs puissants.",
+        "E": "La phase tardive, 4 à 8 heures après l'exposition, est dominée par l'afflux d'éosinophiles."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Sensibilisation : Th2/Tfh, IL-4/IL-13, IgE fixées sur FcεRI. Déclenchement : pontage par un allergène multivalent → dégranulation (histamine, tryptase préformées), médiateurs lipidiques (PGD2, leucotriènes, PAF), cytokines → phase tardive à éosinophiles.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : préformée dans les granules.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilité immédiate — sensibilisation et déclenchement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Murphy K, Weaver C. Janeway's Immunobiology, 9e éd. 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1316",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la guidance WAO 2020, quelles propositions concernant le diagnostic d'anaphylaxie sont exactes ?",
+      "propositions": {
+        "A": "Une atteinte cutanéo-muqueuse aiguë associée à une atteinte respiratoire suffit à la rendre hautement probable.",
+        "B": "Une hypotension aiguë après exposition à un allergène connu du patient suffit, même sans signe cutané.",
+        "C": "Des signes digestifs sévères associés à une atteinte cutanée peuvent constituer un critère.",
+        "D": "L'anaphylaxie sévère peut survenir sans choc ni signes cutanés typiques.",
+        "E": "La présence d'une urticaire isolée suffit à porter le diagnostic."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Critère 1 : peau/muqueuses + respiratoire, hypotension/défaillance d'organe ou digestif sévère. Critère 2 : hypotension, bronchospasme ou atteinte laryngée après allergène connu, même sans signe cutané.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : surtout après un allergène non alimentaire.",
+        "D": "Vrai.",
+        "E": "Faux : il faut une atteinte d'un autre organe."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — critères diagnostiques WAO 2020",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Exiger des signes cutanés pour retenir l'anaphylaxie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1317",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'adrénaline dans le traitement de l'anaphylaxie (guidance WAO 2020), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est le traitement de première ligne.",
+        "B": "La dose recommandée est de 0,01 mg/kg de la solution à 1 mg/mL, sans dépasser 0,5 mg.",
+        "C": "L'injection se fait par voie intramusculaire dans la face antérolatérale de la cuisse.",
+        "D": "La dose peut être répétée toutes les 5 à 15 minutes en cas de symptômes persistants.",
+        "E": "Le bolus intraveineux non dilué est la voie à privilégier en première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Adrénaline IM 0,01 mg/kg (1 mg/mL), maximum 0,5 mg, répétable toutes les 5 à 15 min. La voie IV est réservée aux formes réfractaires, en perfusion titrée et en milieu spécialisé, en raison du risque d'arythmies graves.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — adrénaline",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": "Retarder l'adrénaline au profit des antihistaminiques.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        },
+        {
+          "reference": "Muraro A et al. Allergy 2022;77:357-77",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1318",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le dosage de la tryptase sérique après une anaphylaxie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le pic survient habituellement 1 à 2 heures après le début des symptômes.",
+        "B": "Une tryptase basale doit être dosée au moins 24 heures après la résolution des symptômes.",
+        "C": "Une élévation supérieure à 1,2 × tryptase basale + 2 µg/L confirme une activation mastocytaire.",
+        "D": "Une tryptase normale exclut une anaphylaxie.",
+        "E": "Une tryptase basale élevée doit faire rechercher une mastocytose."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La tryptase s'élève dès 15 min, culmine à 1-2 h ; la tryptase basale (≥ 24 h) permet d'appliquer la formule « 20 % + 2 ». Une tryptase normale n'exclut pas l'anaphylaxie, notamment alimentaire chez l'enfant.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai (ou une α-tryptasémie héréditaire)."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — tryptase",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à l'absence d'anaphylaxie sur une tryptase normale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        },
+        {
+          "reference": "Valent P et al. Int Arch Allergy Immunol 2012;157:215-25",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1319",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiopathologie du choc anaphylactique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il associe un choc distributif (vasodilatation) et une hypovolémie par fuite capillaire.",
+        "B": "Le PAF est associé à la sévérité de l'anaphylaxie.",
+        "C": "Une faible activité de la PAF-acétylhydrolase a été rapportée chez des patients ayant fait une anaphylaxie mortelle.",
+        "D": "L'adrénaline agit uniquement par son effet α-adrénergique.",
+        "E": "Certains médicaments peuvent activer directement les mastocytes par le récepteur MRGPRX2."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Vasodilatation, perméabilité, atteinte myocardique et bronchospasme. Le PAF et la PAF-acétylhydrolase sont liés à la sévérité (Vadas 2008). L'adrénaline agit par α1, β1, β2 et inhibe la libération des médiateurs. MRGPRX2 explique des réactions non IgE-dépendantes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : effets α1, β1 et β2.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — physiopathologie du choc",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Vadas P et al. N Engl J Med 2008;358:28-35",
+          "date": "2008"
+        },
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1320",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le bilan allergologique d'une réaction immédiate, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est habituellement réalisé 4 à 6 semaines après la réaction.",
+        "B": "Les antihistaminiques doivent être arrêtés avant les prick-tests.",
+        "C": "Des IgE spécifiques positives témoignent d'une sensibilisation qui n'équivaut pas forcément à une allergie clinique.",
+        "D": "Le test de provocation est l'examen de référence, réalisé sous surveillance.",
+        "E": "Le dosage des IgE totales permet d'identifier l'allergène responsable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Tests cutanés et IgE spécifiques établissent une sensibilisation ; la pertinence clinique repose sur l'histoire et, si besoin, sur le test de provocation. Les IgE totales ne sont pas diagnostiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : trop tôt, risque de faux négatifs.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Exploration allergologique à distance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre sensibilisation et allergie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ansotegui IJ et al. World Allergy Organ J 2020;13:100080",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1321",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hypersensibilité de type II, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'accident transfusionnel ABO est dû à des IgM naturelles activant le complément.",
+        "B": "La maladie hémolytique du nouveau-né implique des IgG maternelles traversant le placenta.",
+        "C": "Le test direct à l'antiglobuline recherche des immunoglobulines ou du complément fixés sur les hématies du patient.",
+        "D": "Dans la maladie de Basedow, des anticorps stimulent le récepteur de la TSH.",
+        "E": "Les dépôts du syndrome de Goodpasture sont granuleux en immunofluorescence."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Mécanismes : lyse par le complément, opsonisation, ADCC, inflammation, dysfonction de récepteur. Le Goodpasture donne des dépôts linéaires d'IgG le long des membranes basales.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : transport par le FcRn.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : linéaires."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilité de type II — mécanismes et explorations",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre dépôts linéaires (type II) et granuleux (type III).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Robbins & Cotran Pathologic Basis of Disease, 10e éd. 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1322",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hypersensibilité de type III, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les complexes les plus pathogènes sont de petite ou moyenne taille, formés en léger excès d'antigène.",
+        "B": "La maladie sérique survient habituellement 7 à 14 jours après l'injection de protéines hétérologues.",
+        "C": "La réaction d'Arthus est une réaction locale survenant 4 à 8 heures après l'injection.",
+        "D": "Le complément (C3, C4) est souvent abaissé par consommation.",
+        "E": "Le prélèvement pour la recherche de cryoglobulines doit être transporté à 4 °C."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Dépôts dans les glomérules, vaisseaux, synoviales ; activation du complément (C3a, C5a), polynucléaires, vascularite. Cryoglobulines : prélèvement et transport à 37 °C, puis précipitation à 4 °C au laboratoire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 37 °C."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilité de type III — complexes immuns",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réfrigérer un prélèvement de cryoglobulines.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbas AK et al. Cellular and Molecular Immunology, 9e éd. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1323",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la classification de Pichler des hypersensibilités retardées, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "IVa – lymphocytes Th1, IFN-γ, monocytes/macrophages.",
+        "B": "IVb – lymphocytes Th2, éosinophiles (DRESS).",
+        "C": "IVc – lymphocytes T cytotoxiques (syndrome de Stevens-Johnson / nécrolyse épidermique toxique).",
+        "D": "IVd – lymphocytes T produisant CXCL8, polynucléaires neutrophiles (PEAG).",
+        "E": "IVb – polynucléaires neutrophiles (PEAG)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pichler (2003) : IVa (Th1/macrophages), IVb (Th2/éosinophiles), IVc (T cytotoxiques), IVd (T CXCL8/neutrophiles).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la PEAG relève du IVd."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Hypersensibilité retardée — sous-types de Pichler",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pichler WJ. Ann Intern Med 2003;139:683-93",
+          "date": "2003"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1324",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'eczéma allergique de contact et son exploration, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les allergènes sont le plus souvent des haptènes qui se lient à des protéines du soi.",
+        "B": "Les cellules de Langerhans participent à la phase de sensibilisation.",
+        "C": "Les patch-tests sont appliqués pendant 2 jours, avec des lectures à J2 et J3 ou J4, et une lecture tardive vers J7 utile pour certains allergènes.",
+        "D": "Une réaction irritative doit être distinguée d'une réaction allergique.",
+        "E": "Le délai d'apparition de l'eczéma après réexposition est de quelques minutes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Hypersensibilité de type IV : haptènisation, sensibilisation par les cellules dendritiques cutanées, puis déclenchement 24 à 72 heures après le contact. Les patch-tests suivent les recommandations de l'ESCD.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 24 à 72 heures."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Eczéma de contact et patch-tests",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Lire les patch-tests trop tôt (faux négatifs).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Johansen JD et al. Contact Dermatitis 2015;73:195-221",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1325",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations récentes sur l'anaphylaxie (WAO 2020, AAAAI/ACAAI 2020, EAACI 2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les antihistaminiques H1 soulagent surtout les signes cutanés.",
+        "B": "Les glucocorticoïdes sont un moyen fiable de prévenir l'anaphylaxie biphasique.",
+        "C": "Le glucagon peut être envisagé chez un patient sous β-bloquant ne répondant pas à l'adrénaline.",
+        "D": "Une réaction sévère ou ayant nécessité plusieurs doses d'adrénaline est un facteur de risque de réaction biphasique.",
+        "E": "Tout patient ayant fait une anaphylaxie devrait être orienté vers un allergologue et formé à l'auto-injection d'adrénaline."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Adrénaline IM en première ligne ; antihistaminiques et glucocorticoïdes en deuxième ligne, non fiables pour prévenir la forme biphasique ; glucagon sous β-bloquant ; éducation, auto-injecteurs et avis allergologique pour tous.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : non fiables (AAAAI/ACAAI 2020).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Anaphylaxie — traitements de deuxième ligne et suivi",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Compter sur les corticoïdes pour prévenir la récidive biphasique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Shaker MS et al. J Allergy Clin Immunol 2020;145:1082-1123",
+          "date": "2020"
+        },
+        {
+          "reference": "Cardona V et al. World Allergy Organ J 2020;13:100472",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMMU-1326",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient traité par un inhibiteur de l'enzyme de conversion présente un œdème de la langue, ferme, non prurigineux, sans urticaire, ne répondant ni aux antihistaminiques ni aux corticoïdes. Quel est le mécanisme le plus probable ?",
+      "propositions": {
+        "A": "Hypersensibilité IgE-dépendante à l'IEC.",
+        "B": "Angio-œdème bradykinique.",
+        "C": "Maladie sérique.",
+        "D": "Hypersensibilité retardée de type IV.",
+        "E": "Réaction d'Arthus."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Les IEC diminuent la dégradation de la bradykinine : l'angio-œdème est blanc, sans urticaire ni prurit, et ne répond pas de façon fiable aux traitements de l'anaphylaxie histaminique. Le déficit en C1-inhibiteur donne un tableau similaire.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "IMMU",
+      "items_residanat": [
+        "RES-SF-035"
+      ],
+      "theme": "Diagnostic différentiel de l'anaphylaxie — angio-œdème bradykinique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter un angio-œdème bradykinique comme une anaphylaxie histaminique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease, 10e éd. Elsevier 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

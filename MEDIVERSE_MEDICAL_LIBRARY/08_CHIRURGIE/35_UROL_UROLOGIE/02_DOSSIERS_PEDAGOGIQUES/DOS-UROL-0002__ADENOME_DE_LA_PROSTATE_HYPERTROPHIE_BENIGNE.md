@@ -6,11 +6,17 @@ sous_specialite: "Urologie fonctionnelle — HBP"
 items_residanat: [RES-CHI-025]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-UROL-0002.md
 sources:
   - id: S1
     reference: "Gravas S, Gacci M, Gratzke C, Herrmann TRW, Karavitakis M, Kyriazis I, Malde S, Mamoulakis C, Rieken M, Sakalis VI, Schouten N, Speakman MJ, Tikkinen KAO, Cornu JN. Summary Paper on the 2023 European Association of Urology Guidelines on the Management of Non-neurogenic Male Lower Urinary Tract Symptoms. Eur Urol. 2023;84(2):207-222."
@@ -130,7 +136,7 @@ mots_cles: [hypertrophie bénigne de la prostate, adénome de la prostate, HBP, 
 # Adénome de la prostate (hypertrophie bénigne de la prostate)
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19) — corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Les recommandations EAU sur les STBAU masculins sont actualisées en ligne (édition 2026 [S2] non lue en texte intégral) ; le résumé 2023 [S1] et les recommandations françaises CTMH 2025 [S3–S5] ont été vérifiés (titres et résumés). Les détails non confirmés sont signalés `[À VÉRIFIER]`.
 
 **Items du programme couverts** : RES-CHI-025 — « Adénome de la prostate. »

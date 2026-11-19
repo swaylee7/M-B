@@ -6,11 +6,17 @@ sous_specialite: "Traumatologie du membre inférieur — extrémité supérieure
 items_residanat: [RES-CHI-035]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 15
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-TRAU-0001.md
 sources:
   - id: S1
     reference: "National Institute for Health and Care Excellence (NICE). Hip fracture: management. Clinical guideline CG124. Publiée le 22 juin 2011, dernière mise à jour le 6 janvier 2023."
@@ -170,7 +176,7 @@ mots_cles: [fracture du col du fémur, fracture de l'extrémité supérieure du 
 # Fractures du col du fémur : classification, diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19) — corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Les publications princeps de Garden (1961) et Pauwels (1935) n'ont pas pu être vérifiées dans une base bibliographique (`verifiee: false`). À l'audit (2026-11-19), les seuils de Pauwels ont été confrontés à l'analyse de la publication originale [S17] et ses limites documentées [S18] ; la description de Garden suit l'usage classique.
 
 **Items du programme couverts** : RES-CHI-035 — « Fractures du col du fémur : Classification - diagnostic - traitement. »
@@ -490,7 +496,7 @@ Le choix du traitement ne dépend pas seulement de la fracture mais aussi du **p
 - **Paracétamol** systématique (toutes les 6 heures sauf contre-indication) [S1] : 1 g toutes les 6 heures chez l'adulte de plus de 50 kg (4 g/j au maximum) ; 15 mg/kg par prise (60 mg/kg/j, sans dépasser 3 g/j) si le poids est inférieur à 50 kg ; 3 g/j au maximum en cas d'insuffisance hépatocellulaire, de dénutrition ou de déshydratation (RCP).
 - **Opioïdes** en complément si nécessaire, avec titration prudente chez le sujet âgé (risque de délire, de dépression respiratoire, de constipation) [S1].
 - **AINS déconseillés** (insuffisance rénale, saignement digestif, rétention hydrosodée) [S1].
-- **Blocs nerveux périphériques** (bloc ilio-fascial, bloc fémoral, bloc péricapsulaire) : recommandés pour l'analgésie préopératoire et l'épargne morphinique [S1, S2] ; ils peuvent être réalisés aux urgences par un opérateur formé [posologie des anesthésiques locaux : POSOLOGIE À VÉRIFIER — protocole local].
+- **Blocs nerveux périphériques** (bloc ilio-fascial, bloc fémoral, bloc péricapsulaire) : recommandés pour l'analgésie préopératoire et l'épargne morphinique [S1, S2] ; ils peuvent être réalisés aux urgences par un opérateur formé [POSOLOGIE À VÉRIFIER — anesthésiques locaux : protocole local].
 - **Pas de traction préopératoire** (collée ou transosseuse) : elle n'améliore ni la douleur ni la qualité de la réduction [S2].
 
 #### 13.2.2 Délai opératoire

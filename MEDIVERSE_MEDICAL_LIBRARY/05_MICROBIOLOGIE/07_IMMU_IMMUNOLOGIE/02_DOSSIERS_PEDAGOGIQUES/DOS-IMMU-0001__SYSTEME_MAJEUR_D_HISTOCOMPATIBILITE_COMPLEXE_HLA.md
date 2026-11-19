@@ -6,11 +6,18 @@ sous_specialite: "Immunologie fondamentale — histocompatibilité et immunogén
 items_residanat: [RES-SF-036]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-13 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-IMMU-0001.md
+    remarque: "Correction majeure : § 11.2, les réactions fébriles non hémolytiques étaient attribuées aux anticorps du donneur (ce sont surtout les anticorps anti-HLA du receveur et les cytokines du produit ; le TRALI relève des anticorps du donneur). Structure des classes I et II, voies de présentation (dont présentation croisée), restriction, polymorphisme, nomenclature, typage, crossmatch, associations HLA-maladies et pharmacogénétiques (B*57:01-abacavir, B*15:02-carbamazépine, B*58:01-allopurinol) conformes. Chiffres vérifiés sur PubMed : IPD-IMGT/HLA (> 25 000 allèles, 45 gènes), PREDICT-1 (1 956 patients ; 5,6 % ; 0 % contre 2,7 %), CHU Mustapha (1 082 sujets ; 20/31/13/5 allèles), Dahmani 2018 (OR 14,62), Aribi 2004, Ouederni 2011 (35 patients ; ≈ 2 250 ans). Aucune posologie."
 sources:
   - id: S1
     reference: "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 (catalogue Mediverse OUV-0189)."
@@ -178,7 +185,7 @@ mots_cles: [complexe majeur d'histocompatibilité, HLA, classe I, classe II, β2
 # Système majeur d'histocompatibilité, complexe HLA : bases structurales des classes I et II, propriétés fonctionnelles, applications cliniques
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucune figure.
-> Statut : brouillon à auditer. Les fréquences alléliques et les risques relatifs varient selon les populations ; les données algériennes citées proviennent d'études publiées et identifiées pendant la rédaction.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1) ; relecture enseignante requise. Les fréquences alléliques et les risques relatifs varient selon les populations ; les données algériennes citées proviennent d'études publiées et identifiées pendant la rédaction.
 
 **Items du programme couverts** : RES-SF-036 — « Système majeur d'histocompatibilité, complexe HLA : bases structurales de classe I et de classe II — propriétés fonctionnelles — applications cliniques ».
 

@@ -6,11 +6,17 @@ sous_specialite: "Infections ostéo-articulaires — orthopédie pédiatrique"
 items_residanat: [RES-CHI-038]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-ORTH-0001.md
 sources:
   - id: S1
     reference: "Lorrot M, Gillet Y, Basmaci R, Bréhin C, Dommergues MA, Favier M, Jeziorski E, Panetta L, et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the Pediatric Infectious Pathology Group (GPIP). Infect Dis Now. 2023;53(8S):104789."
@@ -106,8 +112,8 @@ mots_cles: [ostéomyélite aiguë hématogène, infection ostéo-articulaire, en
 # Ostéomyélite aiguë (hématogène de l'enfant surtout) : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Les posologies d'antibiotiques citées comme « GPIP 2023 » sont issues du **résumé** vérifié de la publication [S1]. À l'audit (2026-11-19), le fractionnement et les schémas du nourrisson ont été complétés à partir de la version française du texte [S11] et de la PIDS/IDSA [S4] ; les points non confirmés (dose maximale de la céfazoline, formes graves, SARM, drépanocytose, allergie) restent signalés par un marqueur de posologie.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19) — corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Les posologies d'antibiotiques citées comme « GPIP 2023 » sont issues du **résumé** vérifié de la publication [S1]. À l'audit (2026-11-19), le fractionnement et les schémas du nourrisson ont été complétés à partir de la version française du texte [S11] et de la PIDS/IDSA [S4] ; les points non confirmés (dose maximale de la céfazoline, dose de la gentamicine du nourrisson, formes graves, SARM, drépanocytose, allergie) restent signalés par un marqueur de posologie.
 > **Actualité** : une actualisation 2026 des propositions du GPIP a été repérée lors de la recherche (*J Pédiatr Puéric*, 2026) ; elle n'a pas pu être lue. Il faut la comparer à ce dossier [À VÉRIFIER].
 
 **Items du programme couverts** : RES-CHI-038 — « Ostéomyélite aiguë : Diagnostic - traitement. » (Item rattaché à l'orthopédie et à l'infectiologie.)

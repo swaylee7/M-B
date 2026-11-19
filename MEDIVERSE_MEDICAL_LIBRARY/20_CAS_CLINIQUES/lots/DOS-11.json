@@ -37,7 +37,7 @@
         "Bilan métabolique à distance (urines de 24 h, pH du réveil)"
       ],
       "diagnostic_final": "Colique néphrétique compliquée d'anurie obstructive sur rein unique (calcul urétéral lombaire droit de 9 mm, probablement d'acide urique) avec insuffisance rénale aiguë et hyperkaliémie modérée.",
-      "traitement": "Urgence urologique : traitement de l'hyperkaliémie selon le protocole local (surveillance scopée ; mesures hypokaliémiantes) [POSOLOGIE À VÉRIFIER — protocole local] ; arrêt de la metformine ; pas d'AINS (insuffisance rénale). Antalgie par paracétamol et morphine titrée [POSOLOGIE À VÉRIFIER — RCP]. DÉRIVATION URGENTE des urines : montée de sonde JJ droite (ou néphrostomie percutanée), avec prélèvement d'urine. Surveillance de la levée d'obstacle (diurèse horaire, ionogramme, compensation partielle des pertes). À distance : alcalinisation des urines (citrate de potassium ou bicarbonate) pour tenter une dissolution, allopurinol si hyperuricosurie, puis urétéroscopie si persistance du calcul ; mesures diététiques.",
+      "traitement": "Urgence urologique : traitement de l'hyperkaliémie selon le protocole local (surveillance scopée ; mesures hypokaliémiantes) [POSOLOGIE À VÉRIFIER — protocole local] ; arrêt de la metformine ; pas d'AINS (insuffisance rénale). Antalgie par paracétamol et morphine titrée à doses réduites, car les métabolites actifs s'accumulent en insuffisance rénale [POSOLOGIE À VÉRIFIER — modalités de titration : protocole local]. DÉRIVATION URGENTE des urines : montée de sonde JJ droite (ou néphrostomie percutanée), avec prélèvement d'urine. Surveillance de la levée d'obstacle (diurèse horaire, ionogramme, compensation partielle des pertes). À distance : alcalinisation des urines (bicarbonate de sodium tant que la fonction rénale et la kaliémie ne sont pas normalisées ; citrate de potassium ensuite, sous contrôle de la kaliémie) pour tenter une dissolution, allopurinol si hyperuricosurie, puis urétéroscopie si persistance du calcul ; mesures diététiques.",
       "surveillance": "Diurèse horaire (polyurie de levée d'obstacle), créatinine et ionogramme (K+, Na+) toutes les 6–12 h initialement ; glycémie ; tolérance de la JJ ; contrôle d'imagerie de la dissolution ; pH urinaire sous alcalinisation ; programmation de l'ablation de la JJ.",
       "evolution": "Reprise immédiate de la diurèse (polyurie de 5 L le premier jour, compensée partiellement) ; créatinine 118 µmol/L à J4. Après 6 semaines d'alcalinisation, le scanner de contrôle montre une disparition du calcul ; ablation de la JJ. Analyse d'un fragment récupéré : acide urique.",
       "explication_pedagogique": "L'anurie sur rein unique est une CN compliquée qui impose une dérivation urgente, sans tentative de traitement définitif dans l'urgence chez un patient en insuffisance rénale. Le calcul radiotransparent à l'ASP mais visible au scanner avec une densité basse, chez un patient diabétique, obèse et goutteux à pH urinaire acide, oriente vers l'acide urique : c'est la seule lithiase accessible à la dissolution par alcalinisation. Les AINS sont contre-indiqués ici.",
@@ -81,9 +81,15 @@
           "date": "1998"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Précautions ajoutées : morphine en insuffisance rénale ; citrate de potassium évité tant que persistent hyperkaliémie et insuffisance rénale. Marqueurs maintenus : traitement de l'hyperkaliémie et titration morphinique (protocole local)."
+      }
     },
     {
       "id": "CAS-UROL-1102",
@@ -119,7 +125,7 @@
         "Avis néphrologique spécialisé ; conseil génétique et dépistage de la fratrie"
       ],
       "diagnostic_final": "Cystinurie révélée par une lithiase cystinique bilatérale récidivante ; colique néphrétique gauche simple sur calcul de l'uretère pelvien.",
-      "traitement": "Colique néphrétique simple : AINS (fonction rénale normale), paracétamol [POSOLOGIE À VÉRIFIER — RCP pédiatrique/adolescent] ; surveillance de l'expulsion ; urétéroscopie si non-expulsion ou complication (les calculs de cystine résistent à la LEC). Traitement de fond spécialisé : diurèse très abondante (> 3 L/j, y compris la nuit), alcalinisation des urines (objectif de pH élevé), réduction du sel et des protéines animales ; thiols (tiopronine) en cas d'échec [POSOLOGIE À VÉRIFIER — RCP / protocole spécialisé]. Dépistage familial.",
+      "traitement": "Colique néphrétique simple : AINS (fonction rénale normale), par exemple ibuprofène 20 à 30 mg/kg/j en 3 prises sans dépasser 1 200 mg/j, et paracétamol 15 mg/kg toutes les 6 heures sans dépasser 1 g par prise (RCP) ; surveillance de l'expulsion ; urétéroscopie si non-expulsion ou complication (les calculs de cystine résistent à la LEC). Traitement de fond spécialisé : diurèse très abondante (> 3 L/j, y compris la nuit), alcalinisation des urines (objectif de pH élevé), réduction du sel et des protéines animales ; thiols (tiopronine) en cas d'échec [POSOLOGIE À VÉRIFIER — RCP / protocole spécialisé]. Dépistage familial.",
       "surveillance": "Diurèse et pH urinaire (auto-surveillance), cystinurie sous traitement, imagerie annuelle (ou plus fréquente) des calculs résiduels, fonction rénale ; tolérance des thiols (protéinurie, éruption).",
       "evolution": "Expulsion du calcul gauche à J5. Analyse : cystine pure. Sous traitement, stabilité des calculs caliciels à 1 an ; le frère cadet est dépisté porteur d'une cystinurie asymptomatique.",
       "explication_pedagogique": "Une lithiase précoce, bilatérale, récidivante et familiale, dans un contexte de consanguinité, doit faire évoquer une lithiase génétique, au premier rang desquelles la cystinurie (autosomique récessive). Les cristaux hexagonaux sont pathognomoniques. La consanguinité est fréquente chez les lithiasiques de l'Ouest algérien (25 %) et la cystine représentait 3,6 % des calculs d'une série de l'Est algérien. L'analyse du calcul et un bilan spécialisé sont indispensables.",
@@ -163,9 +169,15 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Posologies des antalgiques précisées (RCP). Marqueur maintenu : dose des thiols (protocole spécialisé)."
+      }
     },
     {
       "id": "CAS-UROL-1103",
@@ -200,7 +212,7 @@
         "Natrémie si desmopressine envisagée"
       ],
       "diagnostic_final": "Nycturie par polyurie nocturne liée à un syndrome d'apnées obstructives du sommeil (confirmé par polygraphie) chez un homme porteur d'une HBP peu symptomatique sur le plan mictionnel.",
-      "traitement": "Traitement de la cause : appareillage par pression positive continue, perte de poids ; réduction des apports hydriques en soirée, surélévation des jambes l'après-midi, réévaluation de l'amlodipine (œdèmes) avec le médecin traitant. Arrêt de la tamsulosine à discuter (peu utile, hypotension orthostatique possible). Desmopressine seulement en cas de polyurie nocturne persistante, avec contrôle de la natrémie (risque d'hyponatrémie après 65 ans) [POSOLOGIE À VÉRIFIER — RCP].",
+      "traitement": "Traitement de la cause : appareillage par pression positive continue, perte de poids ; réduction des apports hydriques en soirée, surélévation des jambes l'après-midi, réévaluation de l'amlodipine (œdèmes) avec le médecin traitant. Arrêt de la tamsulosine à discuter (peu utile, hypotension orthostatique possible). Desmopressine seulement en cas de polyurie nocturne persistante. À 69 ans, plusieurs spécialités sont contre-indiquées dans la nycturie ; les autres imposent un contrôle rapproché de la natrémie (risque d'hyponatrémie après 65 ans) [POSOLOGIE À VÉRIFIER — RCP de la spécialité disponible].",
       "surveillance": "Nouveau calendrier mictionnel après 2–3 mois, IPSS, tolérance de l'appareillage, natrémie si desmopressine.",
       "evolution": "Après 3 mois de pression positive continue et de mesures hygiéno-diététiques : 1 lever par nuit, IPSS 6.",
       "explication_pedagogique": "La nycturie n'est pas synonyme d'HBP. Le calendrier mictionnel recommandé par l'EAU en cas de nycturie permet d'identifier une polyurie nocturne (part nocturne de la diurèse excessive), dont les causes (apnées du sommeil, insuffisance cardiaque, œdèmes, apports vespéraux) relèvent d'un traitement spécifique. Un alpha-bloquant est logiquement inefficace dans ce contexte.",
@@ -232,9 +244,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Restriction d'âge de la desmopressine précisée. Marqueur maintenu : la posologie dépend de la spécialité disponible."
+      }
     },
     {
       "id": "CAS-UROL-1104",
@@ -305,9 +323,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Indications chirurgicales, choix de l'énucléation et interprétation du PSA sous I5AR exacts. Points maintenus : délai d'arrêt de l'apixaban (protocole GIHP/local) ; antibiothérapie préopératoire selon l'antibiogramme."
+      }
     },
     {
       "id": "CAS-TRAU-1101",
@@ -340,7 +364,7 @@
         "Ostéodensitométrie et bilan phosphocalcique à distance"
       ],
       "diagnostic_final": "Fracture sous-capitale du col du fémur droit, Garden I (engrenée en valgus), non déplacée, chez une patiente ostéoporotique.",
-      "traitement": "Pas de traitement fonctionnel (risque de déplacement secondaire) : ostéosynthèse par vissage (vis canulées) dans les 24–48 h, analgésie (paracétamol, bloc ilio-fascial), pas d'AINS ; mise en charge selon la stabilité du montage ; thromboprophylaxie (HBPM) prolongée [POSOLOGIE À VÉRIFIER — RCP] ; puis prévention secondaire : traitement anti-ostéoporotique, correction de la vitamine D, prévention des chutes.",
+      "traitement": "Pas de traitement fonctionnel (risque de déplacement secondaire) : ostéosynthèse par vissage (vis canulées) dans les 24–48 h, analgésie (paracétamol, bloc ilio-fascial), pas d'AINS ; mise en charge selon la stabilité du montage ; thromboprophylaxie par HBPM pendant 1 mois (NICE NG89), par exemple énoxaparine 4 000 UI SC/j, ou 2 000 UI/j si la ClCr est comprise entre 15 et 30 mL/min (RCP) ; puis prévention secondaire : traitement anti-ostéoporotique, correction de la vitamine D, prévention des chutes.",
       "surveillance": "Douleur, cicatrice, radiographies à 6 semaines, 3 mois, 6 mois puis à 1 et 2 ans (déplacement secondaire, pseudarthrose, ostéonécrose) ; observance du traitement de l'ostéoporose.",
       "evolution": "Vissage à J1 ; marche avec déambulateur à J2 ; consolidation à 3 mois ; pas de nécrose à 2 ans.",
       "explication_pedagogique": "La fracture engrenée en valgus (Garden I) est le piège classique : la patiente marche. Toute douleur de hanche après une chute chez le sujet âgé impose des radiographies de face et de profil (et une IRM si elles sont normales). Le traitement fonctionnel expose au déplacement secondaire ; l'ostéosynthèse est le traitement habituel. Cette deuxième fracture de fragilité impose un traitement de l'ostéoporose.",
@@ -378,11 +402,21 @@
         {
           "reference": "HAS. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. 2009",
           "date": "2009"
+        },
+        {
+          "reference": "NICE. Venous thromboembolism in over 16s (NG89). 2018, mise à jour août 2019",
+          "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Posologie et durée de la thromboprophylaxie précisées (RCP, NICE NG89) ; marqueur levé."
+      }
     },
     {
       "id": "CAS-TRAU-1102",
@@ -414,7 +448,7 @@
         "Bilan préopératoire"
       ],
       "diagnostic_final": "Fracture transcervicale déplacée du col du fémur gauche (AO/OTA 31B2), Pauwels III, chez un adulte jeune.",
-      "traitement": "Urgence chirurgicale visant à conserver la tête : réduction anatomique (fermée, sinon à foyer ouvert) et ostéosynthèse résistant au cisaillement (vis-plaque dynamique avec vis anti-rotatoire, ou autre montage adapté au Pauwels III), dans les meilleurs délais ; pas d'arthroplastie de première intention. Décharge partielle selon le montage ; thromboprophylaxie [POSOLOGIE À VÉRIFIER — RCP] ; aide au sevrage tabagique.",
+      "traitement": "Urgence chirurgicale visant à conserver la tête : réduction anatomique (fermée, sinon à foyer ouvert) et ostéosynthèse résistant au cisaillement (vis-plaque dynamique avec vis anti-rotatoire, ou autre montage adapté au Pauwels III), dans les meilleurs délais ; pas d'arthroplastie de première intention. Décharge partielle selon le montage ; thromboprophylaxie par HBPM, par exemple énoxaparine 4 000 UI SC/j (RCP), dont la durée est adaptée à la reprise de l'appui (NICE NG89 retient 1 mois après une fracture de fragilité de l'extrémité supérieure du fémur) ; aide au sevrage tabagique.",
       "surveillance": "Radiographies régulières jusqu'à consolidation (déplacement secondaire, pseudarthrose), puis surveillance prolongée (au moins 2 ans) de l'ostéonécrose (IRM si douleur).",
       "evolution": "Consolidation à 5 mois. À 18 mois, réapparition d'une douleur inguinale : IRM puis radiographies montrant une ostéonécrose de la tête avec effondrement ; prothèse totale de hanche à 2 ans.",
       "explication_pedagogique": "Chez le sujet jeune, la priorité est la conservation de la tête fémorale : réduction anatomique et ostéosynthèse urgentes. Le trait vertical (Pauwels III) subit un cisaillement maximal et expose à la pseudarthrose ; le déplacement initial expose à l'ostéonécrose, complication tardive justifiant une surveillance prolongée. Le tabac est un facteur de mauvaise consolidation.",
@@ -454,9 +488,15 @@
           "date": "2011"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Posologie de la thromboprophylaxie précisée (RCP) ; marqueur levé. Choix de la vis-plaque cohérent avec les sous-groupes de FAITH (fumeur, fracture déplacée)."
+      }
     },
     {
       "id": "CAS-TRAU-1103",
@@ -488,7 +528,7 @@
         "Bilan d'ostéoporose et traitement adapté à la fonction rénale"
       ],
       "diagnostic_final": "Fracture de Pouteau-Colles droite extra-articulaire, instable (4 critères de Lafontaine), chez une patiente âgée à faible demande fonctionnelle ; fracture de fragilité.",
-      "traitement": "Traitement orthopédique après réduction : manchette plâtrée en position neutre (pas de flexion-inclinaison ulnaire forcée), mobilisation immédiate des doigts, surélévation ; analgésie par paracétamol (AINS évités : insuffisance rénale) [POSOLOGIE À VÉRIFIER — RCP]. En cas de déplacement secondaire, l'acceptation d'un cal vicieux est discutée compte tenu de l'âge et de la faible demande (résultats fonctionnels comparables à la chirurgie dans CROSSFIRE et WRIST). Prévention secondaire : correction de la vitamine D, traitement anti-ostéoporotique adapté au DFG, arrêt progressif du zolpidem, aménagement du domicile.",
+      "traitement": "Traitement orthopédique après réduction : manchette plâtrée en position neutre (pas de flexion-inclinaison ulnaire forcée), mobilisation immédiate des doigts, surélévation ; analgésie par paracétamol, 1 g toutes les 6 heures, sans dépasser 3 g/j si le poids est inférieur à 50 kg (AINS évités : insuffisance rénale ; RCP). En cas de déplacement secondaire, l'acceptation d'un cal vicieux est discutée compte tenu de l'âge et de la faible demande (résultats fonctionnels comparables à la chirurgie dans CROSSFIRE et WRIST). Prévention secondaire : correction de la vitamine D, traitement anti-ostéoporotique adapté au DFG, arrêt progressif du zolpidem, aménagement du domicile.",
       "surveillance": "Œdème et coloration des doigts, nerf médian, plâtre (compression) ; radiographies de contrôle ; ablation de l'immobilisation vers 6 semaines ; rééducation ; recherche d'un SDRC ; extension du pouce (LEP).",
       "evolution": "Déplacement secondaire modéré à J10 (bascule dorsale 15°) accepté après décision partagée ; consolidation à 6 semaines ; à 6 mois, autonomie complète malgré une déformation résiduelle, douleur minime.",
       "explication_pedagogique": "Les critères de Lafontaine prédisent l'instabilité mais la décision dépend aussi de l'âge et de la demande fonctionnelle : chez une patiente âgée peu active, un traitement orthopédique est acceptable, la chirurgie n'ayant pas montré de bénéfice fonctionnel durable dans les essais CROSSFIRE et WRIST. La fracture du poignet est une fracture sentinelle : la prévention secondaire est indispensable.",
@@ -532,9 +572,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Posologie du paracétamol précisée (RCP) ; marqueur levé. Décompte des critères de Lafontaine exact."
+      }
     },
     {
       "id": "CAS-TRAU-1104",
@@ -567,7 +613,7 @@
         "Bilan préopératoire"
       ],
       "diagnostic_final": "Fracture articulaire partielle marginale antérieure du radius distal gauche (Barton antérieur, AO/OTA 2R3 B3) avec subluxation antérieure du carpe, compliquée d'une compression aiguë du nerf médian.",
-      "traitement": "Urgence chirurgicale : réduction et ostéosynthèse par plaque palmaire de soutien (buttress), avec libération du canal carpien dans le même temps compte tenu de paresthésies croissantes ; analgésie multimodale avec épargne opioïde [POSOLOGIE À VÉRIFIER — protocole local] ; mobilisation précoce des doigts.",
+      "traitement": "Urgence chirurgicale : réduction et ostéosynthèse par plaque palmaire de soutien (buttress), avec libération du canal carpien dans le même temps compte tenu de paresthésies croissantes ; analgésie multimodale avec épargne opioïde, par exemple paracétamol 1 g toutes les 6 heures et ibuprofène 400 mg × 3/j sur une courte durée (RCP) ; mobilisation précoce des doigts.",
       "surveillance": "Récupération sensitive du médian, cicatrice, œdème ; radiographies postopératoires et à 6 semaines ; rééducation ; recherche d'un SDRC ; irritation des fléchisseurs (plaque) ; marche articulaire résiduelle.",
       "evolution": "Disparition des paresthésies à J10 ; consolidation à 8 semaines ; reprise du travail à 3 mois avec une force de préhension à 85 % du côté opposé.",
       "explication_pedagogique": "La fracture de Barton antérieur est une fracture articulaire partielle très instable, qui relève d'une plaque palmaire de soutien. Des paresthésies croissantes dans le territoire du médian imposent une décompression urgente. Chez le sujet jeune, la réduction articulaire anatomique (marche > 2 mm à corriger) conditionne le risque d'arthrose.",
@@ -599,9 +645,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Posologies de l'analgésie multimodale précisées (RCP) ; marqueur levé."
+      }
     },
     {
       "id": "CAS-ORTH-1101",
@@ -635,7 +687,7 @@
         "NFS, CRP de contrôle à 48–72 h"
       ],
       "diagnostic_final": "Ostéoarthrite du genou droit à Kingella kingae chez une enfant de 18 mois.",
-      "traitement": "Hospitalisation ; ponction-lavage articulaire ; antibiothérapie IV par céfazoline à forte dose (150 mg/kg/j, GPIP 2023) [POSOLOGIE À VÉRIFIER — fractionnement et dose maximale] ; relais oral après environ 3 jours si apyrexie et amélioration, par amoxicilline-acide clavulanique 80 mg/kg/j (dose d'amoxicilline) [POSOLOGIE À VÉRIFIER — fractionnement] ; durée totale adaptée à l'atteinte osseuse associée (au moins 3 semaines) ; antalgie ; pas de vancomycine (K. kingae naturellement résistante aux glycopeptides).",
+      "traitement": "Hospitalisation ; ponction-lavage articulaire ; antibiothérapie IV par céfazoline à forte dose (150 mg/kg/j en 3 à 4 injections, GPIP 2023) ; relais oral après environ 3 jours si apyrexie et amélioration, par amoxicilline-acide clavulanique 80 mg/kg/j (dose d'amoxicilline) en 3 prises, avec une forme pédiatrique de rapport 8/1 qui limite l'acide clavulanique à 10 mg/kg/j (RCP) ; durée totale adaptée à l'atteinte osseuse associée (au moins 3 semaines) ; antalgie ; pas de vancomycine (K. kingae naturellement résistante aux glycopeptides).",
       "surveillance": "Température, douleur, mobilité du genou, CRP à 48–72 h ; tolérance digestive du relais oral ; consultation de fin de traitement ; surveillance de la croissance (atteinte épiphysaire) pendant au moins un an.",
       "evolution": "Apyrexie à H48, CRP 6 mg/L à J5 ; relais oral à J3 ; guérison clinique à 3 semaines ; pas d'inégalité de longueur à 1 an.",
       "explication_pedagogique": "Entre 6 mois et 4 ans, K. kingae est un agent majeur des IOA ; les formes sont souvent modérées (fièvre et CRP peu élevées) et la culture standard est souvent négative : l'inoculation en flacon d'hémoculture et la PCR spécifique sont essentielles. Chez le jeune enfant, les vaisseaux transphysaires expliquent les ostéoarthrites. Les bêtalactamines (céfazoline, amoxicilline-acide clavulanique) couvrent Kingella et S. aureus sensible ; la vancomycine est inactive sur Kingella.",
@@ -671,9 +723,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Fractionnement et forme galénique précisés (GPIP 2023, version française ; PIDS/IDSA ; RCP) ; marqueurs levés."
+      }
     },
     {
       "id": "CAS-ORTH-1102",
@@ -708,7 +766,7 @@
         "Dépistage du portage familial de S. aureus PVL"
       ],
       "diagnostic_final": "Ostéomyélite aiguë multifocale (fémur distal gauche, iliaque droit) à S. aureus sensible à la méticilline producteur de PVL, compliquée de choc septique, d'abcès sous-périostés, de pyomyosite, de thrombophlébite fémorale et d'emboles pulmonaires septiques.",
-      "traitement": "Réanimation pédiatrique (remplissage, amines si besoin, oxygène). Antibiothérapie IV immédiate associant une bêtalactamine antistaphylococcique à forte dose (céfazoline ou pénicilline M) et un antibiotique anti-toxinique (clindamycine ou linézolide) [POSOLOGIE À VÉRIFIER — protocole GPIP / local]. Drainage chirurgical en urgence des abcès sous-périostés et musculaires. Anticoagulation de la thrombose après avis spécialisé. Durée totale prolongée (4 à 6 semaines au minimum pour une forme sévère), relais oral lorsque l'état le permet. Décolonisation et prise en charge de la furonculose familiale selon les recommandations locales.",
+      "traitement": "Réanimation pédiatrique (remplissage, amines si besoin, oxygène). Antibiothérapie IV immédiate associant une bêtalactamine antistaphylococcique à forte dose (céfazoline ou pénicilline M) et un antibiotique anti-toxinique : clindamycine 30–40 mg/kg/j IV en 3–4 injections (2,7 g/j au maximum selon la PIDS/IDSA) ou linézolide [POSOLOGIE À VÉRIFIER — dose et dose maximale de la bêtalactamine chez cet adolescent, linézolide : protocole GPIP / local]. Drainage chirurgical en urgence des abcès sous-périostés et musculaires. Anticoagulation de la thrombose après avis spécialisé. Durée totale prolongée (4 à 6 semaines au minimum pour une forme sévère), relais oral lorsque l'état le permet. Décolonisation et prise en charge de la furonculose familiale selon les recommandations locales.",
       "surveillance": "Hémodynamique, hémocultures de contrôle jusqu'à négativation, CRP, IRM de contrôle en cas d'évolution lente, thrombose (Doppler), fonction respiratoire, tolérance des antibiotiques (linézolide : hémogramme) ; suivi orthopédique prolongé (croissance, fracture pathologique, chronicité).",
       "evolution": "Deux reprises chirurgicales de drainage ; négativation des hémocultures à J4 ; sortie de réanimation à J9 ; relais oral à J21 ; durée totale de 8 semaines ; reprise du sport à 6 mois sans séquelle.",
       "explication_pedagogique": "Les IOA à S. aureus PVL sont des formes graves : sepsis, multifocalité, abcès, thromboses veineuses et emboles septiques. Elles imposent la réanimation, un drainage chirurgical, une association anti-toxinique et une durée prolongée. La furonculose récidivante familiale est un indice classique de souche PVL. Les radiographies normales n'excluent rien.",
@@ -744,9 +802,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-11",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Dose de clindamycine précisée (PIDS/IDSA 2021). Marqueur maintenu : dose maximale de la bêtalactamine à 150 mg/kg/j chez un adolescent (≈ 6–7 g/j) et linézolide."
+      }
     }
   ]
 }

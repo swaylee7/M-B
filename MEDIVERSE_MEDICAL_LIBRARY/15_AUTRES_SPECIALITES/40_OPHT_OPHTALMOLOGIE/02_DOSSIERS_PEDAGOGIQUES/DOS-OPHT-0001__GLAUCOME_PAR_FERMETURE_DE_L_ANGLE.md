@@ -15,7 +15,7 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-01 / AUD-02 (IA)"
     verdict: audite_corrections_requises
-    corrections: 10
+    corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-OPHT-0001.md
 sources:
   - id: S1
@@ -492,7 +492,7 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 
 **Question 2.** L'ipratropium (anticholinergique) et le salbutamol (sympathomimétique), diffusés vers l'œil par le masque, provoquent une mydriase qui favorise le bloc pupillaire chez un sujet à angle étroit.
 
-**Question 3.** Acétazolamide (kaliémie et fonction rénale correctes, pas d'allergie aux sulfamides), α2-agoniste et IAC topiques, corticoïde topique, puis pilocarpine quand la PIO baisse ; éviter le timolol (BPCO sévère) ; mannitol seulement si nécessaire et sans contre-indication cardiaque ou rénale.
+**Question 3.** Acétazolamide 10 mg/kg IV ou per os (kaliémie et fonction rénale correctes, pas d'allergie aux sulfamides), α2-agoniste et IAC topiques (ces derniers insuffisants seuls), corticoïde topique, puis pilocarpine 1-2 % (2 à 3 fois en 1 heure) quand la PIO baisse [S9] ; éviter le timolol (BPCO sévère) ; mannitol seulement si nécessaire et sans contre-indication cardiaque ou rénale.
 
 **Question 4.** Iridotomie au laser de l'œil gauche dès que la cornée est claire et iridotomie préventive de l'œil droit ; puis surveillance gonioscopique ; extraction du cristallin à discuter (EAGLE), d'autant que l'œil est court et le cristallin épais.
 
@@ -734,7 +734,7 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 | Crise aiguë | Traitement médical puis iridotomie bilatérale | Idem ; extraction du cristallin envisageable | Convergence |
 | Imagerie de l'angle | Complète la gonioscopie, ne la remplace pas | Idem | Convergence |
 
-**Divergences d'usage sur les posologies** : les doses d'urgence retenues dans ce dossier sont celles de l'EGS 4e édition (2017), lue en texte intégral par l'audit : acétazolamide 10 mg/kg IV ou per os, mannitol 1,0-1,5 g/kg IV, glycérol 1,0-1,5 g/kg per os, pilocarpine 1-2 % 2 à 3 fois en 1 heure [S9]. Certains manuels citent des doses de mannitol plus élevées (jusqu'à 2 g/kg) ; elles n'ont pas été retenues faute de source vérifiée. Les 5e et 6e éditions [S1, S2] n'ont pas été relues sur ce point **[À VÉRIFIER]**.
+**Divergences d'usage sur les posologies** : les doses d'urgence retenues dans ce dossier sont celles de l'EGS 4e édition (2017), lue en texte intégral par l'audit : acétazolamide 10 mg/kg IV ou per os, mannitol 1,0-1,5 g/kg IV, glycérol 1,0-1,5 g/kg per os, pilocarpine 1-2 % 2 à 3 fois en 1 heure [S9]. Les 5e et 6e éditions [S1, S2] n'ont pas été relues sur ce point **[À VÉRIFIER]**.
 
 **Contexte algérien** : en l'absence de recommandation nationale identifiée, les recommandations européennes (EGS) sont la référence la plus proche des pratiques locales ; l'accès au laser YAG et à la chirurgie du cristallin conditionne le choix entre iridotomie et extraction du cristallin. **[À VÉRIFIER — recommandations de la Société algérienne d'ophtalmologie]**.
 

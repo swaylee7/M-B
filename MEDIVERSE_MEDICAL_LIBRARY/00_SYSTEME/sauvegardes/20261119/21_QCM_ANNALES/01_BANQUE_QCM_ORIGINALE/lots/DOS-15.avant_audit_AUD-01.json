@@ -1,0 +1,3227 @@
+{
+  "agent": "DOS-15",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-EPID-1501",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une ville de 50 000 habitants compte 400 cas de tuberculose en cours de traitement au 1er janvier ; 100 nouveaux cas sont diagnostiqués dans l'année. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "La prévalence mesure le risque individuel de contracter la maladie",
+        "B": "L'incidence cumulée annuelle est d'environ 0,2 %",
+        "C": "L'incidence cumulée se calcule en rapportant les 100 nouveaux cas aux 50 000 habitants",
+        "D": "La prévalence de période sur l'année est de 1 %",
+        "E": "La prévalence ponctuelle au 1er janvier est de 8 pour 1 000"
+      },
+      "reponses_correctes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Prévalence ponctuelle = 400/50 000 = 0,8 % = 8 ‰ ; prévalence de période = (400 + 100)/50 000 = 1 % ; incidence cumulée = 100/(50 000 − 400) = 100/49 600 = 0,20 %.",
+      "explications_par_proposition": {
+        "A": "Faux : c'est l'incidence cumulée qui estime le risque individuel.",
+        "B": "Vrai : 100/49 600 = 0,2016 %.",
+        "C": "Faux : le dénominateur est la population à risque (indemne) au début, soit 49 600.",
+        "D": "Vrai : cas présents au début + nouveaux cas, rapportés à la population.",
+        "E": "Vrai : 400/50 000 = 0,008."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Mesures de morbidité — prévalence et incidence",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Oublier d'exclure les malades prévalents du dénominateur de l'incidence.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1502",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une cohorte de 1 000 sujets indemnes est suivie de façon inégale (entrées et sorties échelonnées) ; le total du suivi est de 3 600 personnes-années et 18 nouveaux cas surviennent. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "L'incidence cumulée à 3,6 ans est exactement de 1,8 %",
+        "B": "La densité d'incidence est de 5 pour 1 000 personnes-années",
+        "C": "La densité d'incidence vaut 0,5 pour 100 personnes-années",
+        "D": "La densité d'incidence est de 18 pour 1 000 personnes-années",
+        "E": "La densité d'incidence est une proportion sans unité"
+      },
+      "reponses_correctes": [
+        "B",
+        "C"
+      ],
+      "explication_generale": "DI = 18/3 600 = 0,005 cas par personne-année = 5 ‰ PA = 0,5 % PA. Elle a pour dimension l'inverse d'un temps.",
+      "explications_par_proposition": {
+        "A": "Faux : les durées de suivi étant inégales, l'incidence cumulée ne peut être calculée simplement (18/1 000 ignore les sorties).",
+        "B": "Vrai : 18/3 600 = 0,005.",
+        "C": "Vrai : 5 pour 1 000 = 0,5 pour 100.",
+        "D": "Faux : 18 est le numérateur, pas le taux.",
+        "E": "Faux : c'est un taux (unité : temps⁻¹)."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Densité d'incidence — personnes-temps",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre incidence cumulée et densité d'incidence lorsque les suivis sont inégaux.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1503",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Lors d'une épidémie de choléra dans une population de 1 000 000 d'habitants, 2 000 cas et 30 décès sont recensés. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "La létalité est de 3 pour 100 000",
+        "B": "Le taux d'attaque est de 200 pour 100 000 habitants",
+        "C": "La mortalité spécifique est de 3 pour 100 000 habitants",
+        "D": "La létalité est de 1,5 %",
+        "E": "La létalité est un indicateur de gravité de la maladie"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Létalité = 30/2 000 = 1,5 % ; mortalité spécifique = 30/1 000 000 = 3/100 000 ; taux d'attaque = 2 000/1 000 000 = 200/100 000.",
+      "explications_par_proposition": {
+        "A": "Faux : 3/100 000 est la mortalité spécifique ; la létalité se rapporte aux cas.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai : proportion de malades qui décèdent."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Indicateurs de mortalité — létalité",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre létalité et mortalité spécifique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1504",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une wilaya enregistre 25 000 naissances vivantes et 375 décès d'enfants de moins d'un an, dont 250 avant le 28e jour. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le taux de mortalité infantile est de 15 ‰",
+        "B": "La mortalité néonatale est de 10 ‰ naissances vivantes",
+        "C": "La mortalité post-néonatale est de 5 ‰ naissances vivantes",
+        "D": "Environ deux tiers des décès infantiles sont néonatals",
+        "E": "La mortalité post-néonatale reflète surtout les facteurs endogènes (prématurité, malformations)"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "TMI = 375/25 000 = 15 ‰ ; néonatale = 250/25 000 = 10 ‰ ; post-néonatale = 125/25 000 = 5 ‰ ; 250/375 = 66,7 %.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : 66,7 %.",
+        "E": "Faux : les facteurs endogènes pèsent surtout sur la mortalité néonatale (précoce) ; la post-néonatale reflète davantage les facteurs exogènes (infections, nutrition, conditions de vie)."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Mortalité infantile et composantes",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1505",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans une région, on compte 20 000 naissances vivantes, 200 mort-nés et 140 décès néonatals précoces (0-6 jours). Le taux de mortalité périnatale est d'environ :",
+      "propositions": {
+        "A": "9,9 ‰",
+        "B": "10,0 ‰",
+        "C": "17,0 ‰",
+        "D": "16,8 ‰",
+        "E": "7,0 ‰"
+      },
+      "reponses_correctes": [
+        "D"
+      ],
+      "explication_generale": "Mortalité périnatale = (mort-nés + décès 0-6 j)/(naissances vivantes + mort-nés) = 340/20 200 = 16,8 ‰.",
+      "explications_par_proposition": {
+        "A": "Faux : c'est la mortinatalité (200/20 200).",
+        "B": "Faux : correspond à 200/20 000 (mortinatalité avec un dénominateur erroné).",
+        "C": "Faux : dénominateur erroné (naissances vivantes seules : 340/20 000).",
+        "D": "Vrai : 340/20 200 = 16,83 ‰.",
+        "E": "Faux : c'est la mortalité néonatale précoce (140/20 000)."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Mortalité périnatale — calcul",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Rapporter la mortalité périnatale aux seules naissances vivantes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1506",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une wilaya compte 30 000 naissances vivantes et 18 décès maternels dans l'année. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le décès maternel est défini jusqu'à 42 jours après la fin de la grossesse",
+        "B": "Le décès accidentel d'une femme enceinte lors d'un accident de la route est un décès maternel",
+        "C": "La cible mondiale de l'ODD 3.1 pour 2030 est un ratio inférieur à 70 pour 100 000 naissances vivantes",
+        "D": "Le ratio de mortalité maternelle est de 60 pour 100 000 naissances vivantes",
+        "E": "Le dénominateur du ratio est le nombre de naissances vivantes"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "RMM = 18/30 000 × 100 000 = 60. Les causes accidentelles ou fortuites sont exclues de la définition.",
+      "explications_par_proposition": {
+        "A": "Vrai (au-delà : décès maternel tardif jusqu'à 1 an).",
+        "B": "Faux : cause accidentelle exclue.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Mortalité maternelle",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inclure les décès accidentels ou fortuits.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Nations unies. A/RES/70/1 (2015), ODD 3",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1507",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la standardisation des taux de mortalité, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "La standardisation sur l'âge élimine tous les facteurs de confusion",
+        "B": "Un ratio standardisé de mortalité de 1,20 signifie 20 % de décès en excès par rapport à la référence",
+        "C": "Le ratio standardisé de mortalité est le rapport des décès attendus aux décès observés",
+        "D": "La méthode directe nécessite de connaître les taux spécifiques par âge des populations comparées",
+        "E": "Le taux brut est une moyenne des taux spécifiques par âge pondérée par la structure d'âge de la population"
+      },
+      "reponses_correctes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Méthode directe : taux spécifiques observés appliqués à une population type ; méthode indirecte : RSM = observés/attendus.",
+      "explications_par_proposition": {
+        "A": "Faux : seulement le facteur sur lequel on standardise (ici l'âge).",
+        "B": "Vrai.",
+        "C": "Faux : RSM = observés/attendus.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Standardisation directe et indirecte",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser le rapport observés/attendus.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1508",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans une cohorte de travailleurs, on observe 45 décès par cancer alors que l'application des taux nationaux par âge et sexe en prévoyait 30. Le ratio standardisé de mortalité vaut :",
+      "propositions": {
+        "A": "0,67",
+        "B": "4,5",
+        "C": "0,15",
+        "D": "15",
+        "E": "1,5"
+      },
+      "reponses_correctes": [
+        "E"
+      ],
+      "explication_generale": "RSM = O/E = 45/30 = 1,5 (soit 150 %) : excès de 50 % par rapport à la population nationale.",
+      "explications_par_proposition": {
+        "A": "Faux : rapport inversé (E/O).",
+        "B": "Faux.",
+        "C": "Faux.",
+        "D": "Faux : différence O − E, pas un rapport.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Ratio standardisé de mortalité",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Calculer E/O au lieu de O/E ; oublier l'effet du travailleur sain qui tend à sous-estimer le RSM.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1509",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un facteur de risque est présent chez 40 % de la population et multiplie le risque de la maladie par 2 (RR = 2). La fraction attribuable dans la population (formule de Levin) est d'environ :",
+      "propositions": {
+        "A": "28,6 %",
+        "B": "80 %",
+        "C": "66,7 %",
+        "D": "50 %",
+        "E": "40 %"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "FAP = Pe(RR − 1)/[1 + Pe(RR − 1)] = 0,4 × 1/(1 + 0,4) = 0,4/1,4 = 28,6 %.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Faux.",
+        "D": "Faux : c'est la fraction étiologique chez les exposés ((RR − 1)/RR).",
+        "E": "Faux : c'est la prévalence de l'exposition."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Fraction attribuable dans la population",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre fraction attribuable chez les exposés et dans la population.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Levin ML. Acta Unio Int Contra Cancrum 1953;9:531-541",
+          "date": "1953"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1510",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans un essai randomisé de 5 ans, l'événement survient chez 12 % des patients du groupe contrôle et 9 % du groupe traité. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le NNT est de 34 patients traités pendant 5 ans",
+        "B": "La réduction absolue du risque est de 3 %",
+        "C": "Le NNT est de 4",
+        "D": "La réduction relative du risque est de 25 %",
+        "E": "Le risque relatif est de 0,75"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "RR = 9/12 = 0,75 ; RRR = 25 % ; RAR = 3 points ; NNT = 1/0,03 = 33,3 → arrondi à l'entier supérieur : 34 (sur 5 ans).",
+      "explications_par_proposition": {
+        "A": "Vrai : on arrondit à l'entier supérieur.",
+        "B": "Vrai.",
+        "C": "Faux : 1/0,25 n'a pas de sens ; le NNT se calcule sur la réduction absolue.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Mesures d'impact thérapeutique — NNT",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Calculer le NNT à partir de la réduction relative.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Laupacis A, Sackett DL, Roberts RS. N Engl J Med 1988;318:1728-1733",
+          "date": "1988"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1511",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les indicateurs composites de santé, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Un QALY correspond à une année vécue en parfaite santé",
+        "B": "Les DALY représentent un gain de santé à maximiser",
+        "C": "Dans les éditions récentes du GBD, les YLD sont calculés à partir de la prévalence pondérée par un poids d'incapacité",
+        "D": "Le QALY est utilisé dans les analyses coût-utilité",
+        "E": "Un DALY additionne les années de vie perdues par décès prématuré et les années vécues avec une incapacité"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "DALY = fardeau (années en bonne santé perdues, à réduire) ; QALY = années gagnées pondérées par l'utilité (à maximiser).",
+      "explications_par_proposition": {
+        "A": "Vrai : utilité = 1.",
+        "B": "Faux : les DALY sont à réduire.",
+        "C": "Vrai (GBD depuis 2010).",
+        "D": "Vrai : rapport différentiel coût par QALY.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Indicateurs composites — DALY et QALY",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Confondre DALY (perdus) et QALY (gagnés).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "GBD 2021 Diseases and Injuries Collaborators. Lancet 2024;403(10440):2133-2161. doi:10.1016/S0140-6736(24)00757-8",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1512",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'espérance de vie à la naissance, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Selon les chiffres de l'ONS relayés par la presse, elle atteignait environ 79,6 ans en Algérie en 2023",
+        "B": "Elle dépend de la structure par âge de la population",
+        "C": "Elle permet des comparaisons entre pays sans standardisation",
+        "D": "Elle se calcule à partir d'une génération fictive soumise aux quotients de mortalité de l'année",
+        "E": "Elle prédit avec certitude la durée de vie des enfants nés l'année considérée"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'espérance de vie du moment résume la mortalité par âge d'une année, indépendamment de la structure d'âge.",
+      "explications_par_proposition": {
+        "A": "Vrai (hommes 78,2 ; femmes 81,0 ans), sous réserve de confrontation à la publication ONS.",
+        "B": "Faux : elle en est indépendante (contrairement au taux brut de mortalité).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la mortalité future peut évoluer."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Indicateurs démographiques — espérance de vie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "ONS. Démographie algérienne 2020-2023 (n° 1030), 2024 — chiffres via reprises de presse",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1513",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les sources de données sanitaires en Algérie, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Les données d'activité hospitalière mesurent fidèlement l'incidence des maladies dans la population",
+        "B": "La loi 18-11 prévoit des registres pour certaines maladies non transmissibles dont la liste est fixée par le ministre",
+        "C": "L'enquête STEPS 2016-2017 est une enquête transversale en population générale (18-69 ans)",
+        "D": "La liste des maladies à déclaration obligatoire est fixée par le décret exécutif n° 22-250",
+        "E": "La partie inférieure du certificat médical de décès est anonyme et réservée aux autorités sanitaires"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le décret 22-178 sépare une partie nominative (état civil) et une partie anonyme médicale ; l'art. 47 de la loi 18-11 institue des registres de MNT.",
+      "explications_par_proposition": {
+        "A": "Faux : elles reflètent le recours aux soins et l'offre, pas l'incidence réelle.",
+        "B": "Vrai (art. 47).",
+        "C": "Vrai (7 450 personnes de 18 à 69 ans).",
+        "D": "Vrai.",
+        "E": "Vrai (décret 22-178, art. 5)."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-128"
+      ],
+      "theme": "Sources des données sanitaires algériennes",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 22-178 du 28 avril 2022 relatif au certificat médical de décès, JORADP n° 32/2022 (DOC-00077)",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des MDO, JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        },
+        {
+          "reference": "MSPRH/OMS. Enquête STEPwise Algérie 2016-2017 (2018)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1514",
+      "format": "QCS (réponse unique)",
+      "enonce": "Pour rechercher les facteurs de risque d'une maladie rare à longue période de latence (par exemple le mésothéliome), le schéma d'étude le plus efficient est :",
+      "propositions": {
+        "A": "Une étude cas-témoins",
+        "B": "Une enquête transversale",
+        "C": "Une étude écologique",
+        "D": "Un essai randomisé",
+        "E": "Une cohorte prospective en population générale"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Pour une maladie rare et à latence longue, on part des cas : l'étude cas-témoins est rapide, peu coûteuse et nécessite peu de sujets.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : trop peu de cas prévalents, pas de temporalité.",
+        "C": "Faux : risque d'erreur écologique, niveau de preuve faible.",
+        "D": "Faux : on ne peut attribuer une exposition nocive.",
+        "E": "Faux : effectifs et durée prohibitifs pour une maladie rare."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Choix du schéma d'étude",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1515",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans une étude cas-témoins, 80 des 200 cas et 40 des 200 témoins ont été exposés. L'odds ratio vaut :",
+      "propositions": {
+        "A": "3,5",
+        "B": "2,0",
+        "C": "0,375",
+        "D": "1,5",
+        "E": "2,67"
+      },
+      "reponses_correctes": [
+        "E"
+      ],
+      "explication_generale": "OR = (80 × 160)/(120 × 40) = 12 800/4 800 = 2,67.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux : c'est le rapport des proportions d'exposés (40 %/20 %), qui n'est pas un OR.",
+        "C": "Faux : OR inversé.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Odds ratio — calcul",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Calculer le rapport des proportions d'exposition au lieu de l'odds ratio.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1516",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans une cohorte, 50 cas surviennent parmi 1 000 exposés et 40 cas parmi 2 000 non-exposés au cours du suivi. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "L'odds ratio est exactement égal au risque relatif",
+        "B": "Le risque relatif est de 2,5",
+        "C": "La différence de risque est de 3 %",
+        "D": "La fraction étiologique chez les exposés est de 60 %",
+        "E": "Ce schéma permet de calculer l'incidence dans chaque groupe"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Ie = 5 %, I₀ = 2 % → RR = 2,5 ; RA = 3 % ; FEE = (2,5 − 1)/2,5 = 60 % ; OR = (50 × 1 960)/(950 × 40) = 2,58.",
+      "explications_par_proposition": {
+        "A": "Faux : OR = 2,58, proche mais différent du RR (maladie peu fréquente).",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Cohorte — RR, différence de risque, FEE",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1517",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le biais de Berkson, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "C'est un biais de sélection",
+        "B": "C'est une erreur de classement de l'exposition",
+        "C": "Il concerne surtout les études utilisant des témoins hospitaliers",
+        "D": "Il est corrigé par l'augmentation de la taille de l'échantillon",
+        "E": "Le recrutement de témoins en population générale permet de le limiter"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le biais de Berkson naît du fait que la probabilité d'hospitalisation dépend à la fois de l'exposition et de la maladie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : c'est un biais de sélection, pas d'information.",
+        "C": "Vrai.",
+        "D": "Faux : un biais ne diminue pas avec la taille de l'échantillon.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Biais de sélection",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un grand effectif corrige un biais.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Sackett DL. Bias in analytic research. J Chronic Dis 1979;32:51-63",
+          "date": "1979"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1518",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une étude observe que les personnes qui portent un briquet sur elles ont plus souvent un cancer du poumon. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le port d'un briquet est vraisemblablement une cause du cancer",
+        "B": "L'association devrait disparaître ou s'atténuer fortement après stratification sur le tabagisme",
+        "C": "Il est inutile d'ajuster sur le tabac puisque le briquet n'est pas une cause",
+        "D": "Le tabagisme est un facteur de confusion probable",
+        "E": "Une restriction de l'analyse aux non-fumeurs permettrait de contrôler cette confusion"
+      },
+      "reponses_correctes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le tabac est lié au port du briquet et cause le cancer : c'est un facteur de confusion classique.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Faux : c'est précisément l'ajustement qui révèle la confusion.",
+        "D": "Vrai.",
+        "E": "Vrai : restriction à la conception ou à l'analyse."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Confusion — identification",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1519",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans une étude cas-témoins, l'OR brut vaut 2,8 ; après stratification sur un troisième facteur, l'OR vaut 1,0 dans chacune des deux strates. Il s'agit :",
+      "propositions": {
+        "A": "D'une interaction",
+        "B": "D'une fluctuation d'échantillonnage",
+        "C": "D'un effet de plan",
+        "D": "D'une confusion",
+        "E": "D'un biais de mémorisation"
+      },
+      "reponses_correctes": [
+        "D"
+      ],
+      "explication_generale": "Estimations de strate homogènes et différentes de l'estimation brute : le troisième facteur est un facteur de confusion (ici, confusion totale).",
+      "explications_par_proposition": {
+        "A": "Faux : l'interaction se traduit par des OR de strate différents entre eux.",
+        "B": "Faux.",
+        "C": "Faux : notion propre aux sondages en grappes.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Confusion versus interaction",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre confusion et interaction.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Mantel N, Haenszel W. J Natl Cancer Inst 1959;22:719-748",
+          "date": "1959"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1520",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une étude cas-témoins appariée 1:1 porte sur 200 paires ; dans 45 paires seul le cas est exposé, dans 15 paires seul le témoin est exposé. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "On ne peut pas étudier l'effet des variables d'appariement",
+        "B": "Les paires concordantes entrent dans le calcul de l'odds ratio apparié",
+        "C": "L'odds ratio apparié vaut 3",
+        "D": "L'appariement dispense de toute analyse statistique adaptée",
+        "E": "L'analyse doit tenir compte de l'appariement"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "OR apparié = paires discordantes cas+/témoin− divisées par cas−/témoin+ = 45/15 = 3.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : seules les paires discordantes sont informatives.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai (OR apparié, régression logistique conditionnelle)."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Cas-témoins appariée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1521",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'enquête transversale, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Elle permet de calculer un rapport de prévalences",
+        "B": "Elle établit que l'exposition précède la maladie",
+        "C": "Elle mesure une prévalence",
+        "D": "Elle est idéale pour étudier une maladie très rare et de courte durée",
+        "E": "Elle est exposée au biais de prévalence-incidence (Neyman)"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Photographie à un instant : prévalences, rapport de prévalences ou OR de prévalence ; pas de séquence temporelle.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : exposition et maladie sont mesurées simultanément.",
+        "C": "Vrai.",
+        "D": "Faux : très peu de cas prévalents.",
+        "E": "Vrai : les cas observés sont des « survivants »."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Enquête transversale",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "MSPRH/OMS. Enquête STEPwise Algérie 2016-2017 (2018)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1522",
+      "format": "QCS (réponse unique)",
+      "enonce": "On veut estimer une prévalence attendue de 10 % avec une précision absolue de ± 3 % et un niveau de confiance de 95 % (sondage aléatoire simple). La taille d'échantillon nécessaire est d'environ :",
+      "propositions": {
+        "A": "100",
+        "B": "3 458",
+        "C": "42",
+        "D": "385",
+        "E": "1 537"
+      },
+      "reponses_correctes": [
+        "D"
+      ],
+      "explication_generale": "n = 1,96² × 0,10 × 0,90 / 0,03² = 3,8416 × 0,09 / 0,0009 = 384,2 → 385 sujets.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux : correspondrait à une précision de ± 1 %.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Faux : correspondrait à une précision de ± 1,5 %."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Taille d'échantillon — estimation d'une prévalence",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Oublier d'élever la précision au carré.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1523",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le biais de classement non différentiel d'une exposition binaire, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "L'erreur de mesure est de même ampleur chez les cas et chez les témoins",
+        "B": "Il crée habituellement de fortes associations à partir de rien",
+        "C": "Le biais de mémorisation en est un exemple",
+        "D": "L'utilisation d'instruments standardisés et validés permet de le réduire",
+        "E": "Il tend habituellement à rapprocher la mesure d'association de 1"
+      },
+      "reponses_correctes": [
+        "A",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Une erreur identique dans les deux groupes dilue l'association (biais vers l'hypothèse nulle).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Faux : le biais de mémorisation est différentiel (les cas se souviennent mieux).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Biais d'information",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Classer le biais de mémorisation comme non différentiel.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1524",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les éléments suivants, lesquels font partie des « points de vue » de Bradford Hill (1965) pour juger de la causalité ?",
+      "propositions": {
+        "A": "La relation dose-effet",
+        "B": "La temporalité (l'exposition précède la maladie)",
+        "C": "La spécificité, considérée comme indispensable",
+        "D": "La preuve expérimentale (la suppression de l'exposition réduit le risque)",
+        "E": "La significativité statistique au seuil de 5 %"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les neuf points de vue : force, constance, spécificité, temporalité, gradient biologique, plausibilité, cohérence, preuve expérimentale, analogie. Seule la temporalité est indispensable.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : la spécificité fait partie de la liste mais n'est pas indispensable.",
+        "D": "Vrai.",
+        "E": "Faux : ne fait pas partie des critères de Hill."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Causalité — Bradford Hill",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que tous les critères doivent être réunis.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hill AB. The environment and disease: association or causation? Proc R Soc Med 1965;58(5):295-300",
+          "date": "1965"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1525",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans une cohorte, l'incidence est de 30 % chez les exposés et de 10 % chez les non-exposés. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "L'odds ratio approche ici le risque relatif car la maladie est fréquente",
+        "B": "L'odds ratio vaut environ 3,86",
+        "C": "Le risque relatif vaut 3",
+        "D": "Quand la maladie est rare, l'odds ratio approche le risque relatif",
+        "E": "L'odds ratio est toujours inférieur au risque relatif"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "OR = (0,3/0,7)/(0,1/0,9) = 0,4286/0,1111 = 3,86 ; il s'éloigne de 1 plus que le RR quand la maladie est fréquente.",
+      "explications_par_proposition": {
+        "A": "Faux : c'est l'inverse (fréquente → OR ≠ RR).",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai (hypothèse de maladie rare).",
+        "E": "Faux : pour un RR > 1, l'OR est supérieur au RR."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "OR et RR",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Cornfield J. J Natl Cancer Inst 1951;11:1269-1275",
+          "date": "1951"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EPID-1526",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi algérienne n° 18-11, concernant les études cliniques (y compris épidémiologiques), indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le consentement, une fois donné, ne peut plus être retiré",
+        "B": "Le consentement des participants doit être libre, exprès, éclairé et donné par écrit",
+        "C": "Elles sont subordonnées à l'autorisation du ministre chargé de la santé, qui se prononce dans un délai de 3 mois",
+        "D": "Elles sont soumises à l'avis d'un comité d'éthique médicale institué au niveau des services extérieurs de santé",
+        "E": "Elles sont menées obligatoirement par un promoteur"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Art. 377 à 391 de la loi 18-11 (recherche biomédicale).",
+      "explications_par_proposition": {
+        "A": "Faux : il peut être retiré à tout moment sans préjudice (art. 386-387).",
+        "B": "Vrai (art. 386).",
+        "C": "Vrai (art. 381).",
+        "D": "Vrai (art. 382-383).",
+        "E": "Vrai (art. 384)."
+      },
+      "specialite": "EPID",
+      "items_residanat": [
+        "RES-MED-132"
+      ],
+      "theme": "Cadre réglementaire des enquêtes en Algérie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1501",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'article 298 de la loi n° 18-11 relative à la santé, les établissements publics de santé comprennent notamment :",
+      "propositions": {
+        "A": "L'établissement d'aide médicale d'urgence",
+        "B": "La structure d'exercice de groupe",
+        "C": "L'établissement hospitalier spécialisé",
+        "D": "Le centre hospitalo-universitaire",
+        "E": "La circonscription sanitaire"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'art. 298 énumère quatre catégories et renvoie leurs modalités à des textes réglementaires ; les structures d'exercice de groupe relèvent du secteur privé (art. 308).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : forme d'exercice privé (art. 308).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai (catégorie nouvelle, texte d'application à vérifier)."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Typologie des établissements publics de santé",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ignorer les catégories nouvelles introduites par la loi de 2018.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1502",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le décret exécutif n° 07-140 du 19 mai 2007, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Il porte création, organisation et fonctionnement des EPH et des EPSP",
+        "B": "Il a créé les centres hospitalo-universitaires",
+        "C": "Il sépare la gestion hospitalière de celle des soins de proximité",
+        "D": "Il a mis fin à l'organisation en secteurs sanitaires",
+        "E": "L'EPSP regroupe des polycliniques et des salles de soins couvrant un bassin de population"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le décret 07-140 a remplacé les secteurs sanitaires par les EPH (hospitaliers) et les EPSP (proximité) ; les CHU relèvent du décret 97-467.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : décret 97-467 (1997).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai (missions détaillées à vérifier dans le texte)."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Établissements publics — EPH et EPSP",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Décret exécutif n° 07-140 du 19 mai 2007 (EPH et EPSP), modifié et complété",
+          "date": "2007"
+        },
+        {
+          "reference": "Décrets exécutifs n° 97-465 (EHS) et n° 97-467 (CHU) du 2 décembre 1997",
+          "date": "1997"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1503",
+      "format": "QCS (réponse unique)",
+      "enonce": "Selon la loi 18-11, l'ensemble des prestations de diagnostic et de soins hautement spécialisés dispensés dans les structures et établissements de santé correspond aux :",
+      "propositions": {
+        "A": "Soins tertiaires",
+        "B": "Soins de réadaptation",
+        "C": "Soins primaires",
+        "D": "Soins palliatifs",
+        "E": "Soins secondaires"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Art. 283-285 : primaires (premier niveau, proximité), secondaires (spécialisés), tertiaires (hautement spécialisés).",
+      "explications_par_proposition": {
+        "A": "Vrai (art. 285).",
+        "B": "Faux.",
+        "C": "Faux : premier niveau, prévention et soins essentiels.",
+        "D": "Faux : soulagement de la douleur et accompagnement (art. 286).",
+        "E": "Faux : diagnostic et soins spécialisés."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Niveaux de soins",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1504",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'article 300 de la loi 18-11, les ressources financières de l'établissement public de santé proviennent notamment :",
+      "propositions": {
+        "A": "Des cotisations obligatoires versées par les médecins de l'établissement",
+        "B": "De la contribution des organismes de sécurité sociale",
+        "C": "Des dons et legs",
+        "D": "Des subventions inscrites au budget de l'État",
+        "E": "Des recettes des soins prodigués aux étrangers non conventionnés"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'art. 300 énumère aussi les recettes contractuelles, les remboursements des assurances économiques et les recettes des activités accessoires.",
+      "explications_par_proposition": {
+        "A": "Faux : aucune disposition de ce type.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Financement des établissements publics de santé",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1505",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le statut et la gestion de l'établissement public de santé (loi 18-11), indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Ses dépenses de personnel sont soumises au contrôle financier préalable",
+        "B": "Ses comptes sont vérifiés et certifiés par un commissaire aux comptes",
+        "C": "Il est doté de la personnalité morale et de l'autonomie financière",
+        "D": "Sa comptabilité est tenue par un agent comptable désigné par le ministre chargé des finances",
+        "E": "Son financement est sans lien avec des objectifs de performance"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Art. 297, 301-304 : financement sur la base de contrats d'objectifs et de performance.",
+      "explications_par_proposition": {
+        "A": "Vrai (art. 303).",
+        "B": "Vrai (art. 304).",
+        "C": "Vrai (art. 297).",
+        "D": "Vrai (art. 302).",
+        "E": "Faux : contrats d'objectifs et de performance (art. 301)."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Statut de l'établissement public de santé",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1506",
+      "format": "QCS (réponse unique)",
+      "enonce": "L'instrument de planification qui vise à susciter les adaptations et les complémentarités de l'offre de soins, ainsi que les coopérations entre établissements, est :",
+      "propositions": {
+        "A": "Le schéma d'organisation sanitaire",
+        "B": "L'observatoire national de la santé",
+        "C": "Les comptes nationaux de la santé",
+        "D": "Le projet d'établissement",
+        "E": "La carte sanitaire"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Art. 271 ; la carte sanitaire (art. 269-270) fixe les normes de couverture et les moyens à mobiliser.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : organe d'analyse (art. 11).",
+        "C": "Faux : publication annuelle des ressources et dépenses (art. 338).",
+        "D": "Faux : document propre à chaque établissement (art. 290).",
+        "E": "Faux : normes de couverture et moyens."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Planification — carte sanitaire et schéma d'organisation",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre carte sanitaire et schéma d'organisation sanitaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1507",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la hiérarchisation des soins et le médecin référent (art. 22 de la loi 18-11), indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le médecin référent est le médecin généraliste traitant du patient",
+        "B": "Les urgences échappent à l'obligation d'orientation par le médecin référent",
+        "C": "Le médecin référent peut exercer dans une structure de proximité privée",
+        "D": "Toute demande du patient suffit à justifier un accès direct au CHU",
+        "E": "Le ministre définit des cas médicaux d'accès direct aux services spécialisés"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'accès aux services spécialisés se fait sur orientation du médecin référent, sauf urgences et cas d'accès direct définis par le ministre.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : structure de proximité publique ou privée la plus proche du domicile.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Hiérarchisation — médecin référent",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1508",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'article 308 de la loi 18-11, les activités de santé exercées à titre privé sont assurées notamment au sein :",
+      "propositions": {
+        "A": "Des établissements hospitaliers privés",
+        "B": "Des circonscriptions sanitaires",
+        "C": "Des structures agréées pour le transport sanitaire",
+        "D": "Des laboratoires d'analyses médicales",
+        "E": "Des structures d'exercice de groupe"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Liste de l'art. 308 : établissements hospitaliers privés, établissements de soins et/ou de diagnostic, exercice de groupe ou individuel, laboratoires, officines et établissements pharmaceutiques, transport sanitaire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : catégorie d'établissement public (art. 298).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Secteur privé de santé",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1509",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la liste des maladies à déclaration obligatoire fixée par le décret exécutif n° 22-250, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le choléra figure dans la catégorie 2",
+        "B": "La catégorie 1 regroupe les maladies sous surveillance nationale",
+        "C": "La tuberculose pulmonaire figure dans la catégorie 1",
+        "D": "La catégorie 2 regroupe les maladies sous surveillance internationale",
+        "E": "La rougeole figure dans la catégorie 2"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La rougeole, la rubéole, la coqueluche, la diphtérie, la brucellose, la tuberculose… sont en catégorie 1 ; choléra, fièvre jaune, Ebola, poliomyélite, grippe à nouveau sous-type… en catégorie 2.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : catégorie 1."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Maladies à déclaration obligatoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des MDO, JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1510",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le certificat médical de décès (décret exécutif n° 22-178), indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Il abroge le décret exécutif n° 16-80 du 24 février 2016",
+        "B": "Sa partie supérieure est anonyme",
+        "C": "Il est délivré en un seul exemplaire",
+        "D": "Un médecin exerçant à titre libéral peut l'établir",
+        "E": "Le décès peut être constaté sur un modèle numérique téléchargeable sur la plate-forme du ministère"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Partie supérieure nominative (état civil), partie inférieure anonyme (causes médicales) ; plate-forme numérique interconnectée au registre national électronique de l'état civil.",
+      "explications_par_proposition": {
+        "A": "Vrai (art. 10).",
+        "B": "Faux : c'est la partie inférieure qui est anonyme (art. 5).",
+        "C": "Vrai (art. 4).",
+        "D": "Vrai (art. 2).",
+        "E": "Vrai (art. 8)."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Certificat médical de décès",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Décret exécutif n° 22-178 du 28 avril 2022 relatif au certificat médical de décès, JORADP n° 32/2022 (DOC-00077)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1511",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exercice des professions de santé selon la loi 18-11, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le professionnel de santé peut exercer sous une identité d'emprunt",
+        "B": "L'inscription au tableau de l'ordre de la profession est obligatoire",
+        "C": "Les praticiens spécialistes accomplissent le service civil dans les structures publiques avant d'exercer dans le privé",
+        "D": "Des praticiens inspecteurs assermentés recherchent et constatent les infractions en matière de santé",
+        "E": "La formation continue est obligatoire pour les professionnels exerçant dans les structures de santé"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Art. 166, 170, 189-197 ; l'art. 168 impose l'exercice sous l'identité légale.",
+      "explications_par_proposition": {
+        "A": "Faux (art. 168).",
+        "B": "Vrai (art. 166).",
+        "C": "Vrai (art. 196-197).",
+        "D": "Vrai (art. 189-190).",
+        "E": "Vrai (art. 170)."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Professionnels de santé — conditions d'exercice",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1512",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'histoire du système de santé algérien, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "La loi relative à la santé n° 18-11 date du 2 juillet 2018",
+        "B": "La loi n° 85-05 relative à la protection et à la promotion de la santé a été abrogée par la loi 18-11",
+        "C": "Les textes d'application de la loi 85-05 continuent de produire leurs effets jusqu'à l'intervention des textes prévus par la loi 18-11",
+        "D": "Le décret n° 97-467 a créé les EPSP",
+        "E": "La médecine gratuite a été instituée par l'ordonnance n° 73-65 du 28 décembre 1973"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Art. 449 de la loi 18-11 ; le décret 97-467 concerne les CHU, les EPSP datent du décret 07-140.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (art. 449).",
+        "C": "Vrai (art. 449).",
+        "D": "Faux.",
+        "E": "Vrai (application au 1er janvier 1974)."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Historique du système de santé",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 73-65 du 28 décembre 1973 (médecine gratuite)",
+          "date": "1973"
+        },
+        {
+          "reference": "Décrets exécutifs n° 97-465 (EHS) et n° 97-467 (CHU) du 2 décembre 1997",
+          "date": "1997"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-SPUB-1513",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la qualité et l'évaluation des établissements de santé en Algérie, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Les établissements procèdent à une évaluation interne et adressent un rapport aux services du ministère",
+        "B": "Toute structure assurant un service public élabore un projet d'établissement et un plan de démarche qualité",
+        "C": "L'audit est réalisé par les services compétents du ministère chargé de la santé",
+        "D": "Les infections du site opératoire ne figurent pas parmi les maladies à déclaration obligatoire",
+        "E": "L'audit est engagé à la demande de l'établissement"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Art. 290, 324-328 de la loi 18-11 ; le décret 22-250 inclut les infections du site opératoire, les PAVM et les infections à BMR parmi les MDO.",
+      "explications_par_proposition": {
+        "A": "Vrai (art. 325-326).",
+        "B": "Vrai.",
+        "C": "Vrai (art. 327).",
+        "D": "Faux : elles figurent dans la catégorie 1 du décret 22-250.",
+        "E": "Vrai (art. 327)."
+      },
+      "specialite": "SPUB",
+      "items_residanat": [
+        "RES-MED-135"
+      ],
+      "theme": "Qualité, évaluation et audit",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des MDO, JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1501",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la définition de la chute chez la personne âgée, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Se retrouver involontairement assis par terre après avoir glissé d'une chaise est une chute",
+        "B": "Une chute suppose l'existence d'une blessure",
+        "C": "Les chutes répétées correspondent à au moins deux chutes en 12 mois",
+        "D": "Une « presque-chute » rattrapée par un tiers est comptée comme une chute",
+        "E": "Il s'agit de se retrouver involontairement au sol ou à un niveau inférieur"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Définition opérationnelle (consensus ProFaNE, reprise par les recommandations mondiales 2022) ; chutes répétées : ≥ 2 en 12 mois (HAS 2009).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la définition n'exige pas de traumatisme.",
+        "C": "Vrai.",
+        "D": "Faux : la personne n'atteint pas le sol ou un niveau inférieur.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Chutes — définitions",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults. Age Ageing 2022;51(9):afac205. doi:10.1093/ageing/afac205",
+          "date": "2022"
+        },
+        {
+          "reference": "HAS/SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1502",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'algorithme de stratification des recommandations mondiales de 2022, chez une personne ayant chuté dans l'année, quels éléments classent d'emblée à risque élevé ?",
+      "propositions": {
+        "A": "Le port de verres correcteurs",
+        "B": "Un état de fragilité",
+        "C": "L'impossibilité de se relever seul du sol",
+        "D": "Au moins deux chutes dans l'année",
+        "E": "Une chute ayant entraîné une blessure"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Critères de sévérité : blessure, chutes répétées, fragilité, station au sol/incapacité à se relever, perte de connaissance ou syncope suspectée → évaluation multifactorielle.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Stratification du risque de chute",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults. Age Ageing 2022;51(9):afac205. doi:10.1093/ageing/afac205",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1503",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un homme de 80 ans traité par indapamide, la PA est de 150/85 mmHg couché et de 128/78 mmHg après 3 minutes debout. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "La mesure doit aussi être faite à 1 minute de l'orthostatisme",
+        "B": "Le critère diastolique de l'hypotension orthostatique est rempli",
+        "C": "Le diurétique peut favoriser cette hypotension",
+        "D": "La présence d'une hypotension orthostatique dispense de rechercher une cause cardiaque en cas de chute avec perte de connaissance",
+        "E": "Il existe une hypotension orthostatique"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Baisse systolique de 22 mmHg (≥ 20) ; baisse diastolique de 7 mmHg (< 10).",
+      "explications_par_proposition": {
+        "A": "Vrai : mesures répétées (1 et 3 minutes).",
+        "B": "Faux : 7 mmHg < 10 mmHg.",
+        "C": "Vrai.",
+        "D": "Faux : une syncope impose aussi l'ECG et l'évaluation cardiaque.",
+        "E": "Vrai : baisse systolique ≥ 20 mmHg dans les 3 minutes."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Hypotension orthostatique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ne mesurer la PA qu'en position assise.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brignole M et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J 2018;39:1883-1948",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1504",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi ces médicaments, lesquels augmentent le risque de chute chez le sujet âgé ?",
+      "propositions": {
+        "A": "Lévothyroxine à dose substitutive adaptée",
+        "B": "Amitriptyline",
+        "C": "Glibenclamide",
+        "D": "Zolpidem",
+        "E": "Tramadol"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Hypnotiques, antidépresseurs tricycliques, sulfamides hypoglycémiants (hypoglycémie) et opioïdes sont des médicaments à risque de chute.",
+      "explications_par_proposition": {
+        "A": "Faux (en l'absence de surdosage).",
+        "B": "Vrai : sédation, hypotension orthostatique, effet anticholinergique.",
+        "C": "Vrai : hypoglycémies.",
+        "D": "Vrai : hypnotique apparenté aux benzodiazépines.",
+        "E": "Vrai : opioïde (sédation, vertiges, hyponatrémie)."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Médicaments à risque de chute",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AGS 2023 updated Beers Criteria. J Am Geriatr Soc 2023;71(7):2052-2081. doi:10.1111/jgs.18372",
+          "date": "2023"
+        },
+        {
+          "reference": "O'Mahony D et al. STOPP/START version 3. Eur Geriatr Med 2023;14(4):625-632. doi:10.1007/s41999-023-00777-y",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1505",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 85 ans est retrouvée au sol où elle est restée 8 heures. Quelles complications faut-il rechercher ?",
+      "propositions": {
+        "A": "Escarres",
+        "B": "Hypothermie",
+        "C": "Rhabdomyolyse",
+        "D": "Déshydratation",
+        "E": "Polyglobulie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La station prolongée au sol expose à la rhabdomyolyse (CPK, insuffisance rénale), à l'hypothermie, aux escarres, à la déshydratation et à la pneumopathie d'inhalation.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Complications de la station au sol",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS/SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1506",
+      "format": "QCS (réponse unique)",
+      "enonce": "Selon l'algorithme mondial de 2022, une personne âgée ayant fait une seule chute dans l'année, sans blessure ni autre critère de sévérité, mais dont la vitesse de marche est de 0,6 m/s, est classée :",
+      "propositions": {
+        "A": "À risque faible",
+        "B": "Hors algorithme",
+        "C": "À risque élevé",
+        "D": "À risque intermédiaire",
+        "E": "À risque nul"
+      },
+      "reponses_correctes": [
+        "D"
+      ],
+      "explication_generale": "Sans critère de sévérité, une anomalie de la marche ou de l'équilibre (vitesse < 0,8 m/s ou TUG > 15 s) classe à risque intermédiaire : programme d'exercices ciblé.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux.",
+        "C": "Faux : aucun critère de sévérité.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Stratification — risque intermédiaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults. Age Ageing 2022;51(9):afac205. doi:10.1093/ageing/afac205",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1507",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exercice physique dans la prévention des chutes du sujet âgé vivant à domicile (revue Cochrane 2019), indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Les programmes multicomposantes (équilibre, fonctionnel, renforcement) ont un effet probablement plus marqué",
+        "B": "L'exercice réduit le taux de chutes d'environ 23 %",
+        "C": "Le tai-chi réduit probablement le taux de chutes, avec un niveau de certitude plus faible",
+        "D": "La marche seule est la modalité la mieux démontrée",
+        "E": "Les exercices d'équilibre et fonctionnels sont efficaces"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "RaR global 0,77 ; équilibre/fonctionnel 0,76 ; multicomposantes 0,66 ; tai-chi 0,81 (certitude moindre).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'effet de la marche seule est incertain.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Prévention — exercice",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sherrington C et al. Exercise for preventing falls in older people living in the community. Cochrane Database Syst Rev 2019;1:CD012424",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1508",
+      "format": "QCS (réponse unique)",
+      "enonce": "Devant un syndrome post-chute (rétropulsion, peur intense de tomber) sans fracture, la mesure prioritaire est :",
+      "propositions": {
+        "A": "Une verticalisation et une kinésithérapie précoces",
+        "B": "Un alitement strict de 15 jours",
+        "C": "Une contention au fauteuil",
+        "D": "Un neuroleptique",
+        "E": "Une benzodiazépine au long cours"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le syndrome post-chute est une urgence gériatrique : la remise en charge précoce prévient la grabatisation.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : aggrave le syndrome.",
+        "C": "Faux.",
+        "D": "Faux.",
+        "E": "Faux : majore le risque de chute."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Syndrome post-chute",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS/SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1509",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Lors de l'évaluation d'une personne âgée qui a chuté, quels éléments de l'examen sont utiles ?",
+      "propositions": {
+        "A": "Un repérage des troubles cognitifs",
+        "B": "La recherche d'ecchymoses d'âges différents",
+        "C": "L'examen des pieds et des chaussures",
+        "D": "La mesure de la PA couché puis debout",
+        "E": "Une IRM médullaire systématique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Examen ciblé : cardiovasculaire, neurologique, locomoteur, pieds, vision, cognition, humeur, nutrition ; ecchymoses multiples : chutes répétées ou maltraitance.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : penser à la maltraitance (signalement, art. 198 de la loi 18-11).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : examens complémentaires orientés uniquement."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Évaluation clinique du chuteur",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS/SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009",
+          "date": "2009"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1510",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les anticoagulants chez le sujet âgé chuteur, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Ils augmentent la gravité potentielle des chutes (hémorragie intracrânienne)",
+        "B": "La HAS (2009) les classe parmi les situations à haut risque de complications",
+        "C": "Un traumatisme crânien sous anticoagulant justifie un scanner cérébral",
+        "D": "Ils augmentent la fréquence de survenue des chutes",
+        "E": "Des chutes ne constituent pas à elles seules une contre-indication automatique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le traitement anticoagulant aggrave les conséquences, pas la survenue ; la décision repose sur une évaluation bénéfice-risque individuelle.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (avec l'ostéoporose avérée et l'isolement).",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Chutes et anticoagulants",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter systématiquement l'anticoagulant chez tout chuteur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS/SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009",
+          "date": "2009"
+        },
+        {
+          "reference": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults. Age Ageing 2022;51(9):afac205. doi:10.1093/ageing/afac205",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1511",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le vertige positionnel paroxystique bénin (VPPB) chez le sujet âgé, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Il se traite par des manœuvres libératoires",
+        "B": "Les antivertigineux sédatifs au long cours majorent le risque de chute",
+        "C": "Il est fréquent et souvent méconnu chez le sujet âgé",
+        "D": "Il se manifeste par des vertiges rotatoires brefs déclenchés par les changements de position",
+        "E": "Son diagnostic repose sur l'IRM cérébrale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Diagnostic clinique (manœuvre de Dix-Hallpike) ; traitement par manœuvres (Epley, Sémont).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : diagnostic clinique."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Troubles de l'équilibre — VPPB",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults. Age Ageing 2022;51(9):afac205. doi:10.1093/ageing/afac205",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1512",
+      "format": "QCS (réponse unique)",
+      "enonce": "Selon la recommandation de l'USPSTF de 2024, quelle intervention reçoit un grade B pour la prévention des chutes chez les personnes de 65 ans et plus vivant à domicile et à risque accru ?",
+      "propositions": {
+        "A": "Les interventions multifactorielles",
+        "B": "L'exercice physique",
+        "C": "Les protecteurs de hanche",
+        "D": "La supplémentation en vitamine D",
+        "E": "Le dépistage systématique de l'ostéoporose"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Exercice : grade B ; interventions multifactorielles : grade C ; vitamine D non traitée en 2024 (revue séparée), alors que la version 2018 la déconseillait.",
+      "explications_par_proposition": {
+        "A": "Faux : grade C.",
+        "B": "Vrai.",
+        "C": "Faux : non traités dans cette recommandation.",
+        "D": "Faux.",
+        "E": "Faux : hors champ de cette recommandation."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Divergences — USPSTF 2024",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "USPSTF. Interventions to prevent falls in community-dwelling older adults. JAMA 2024;332(1):51-57",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1513",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la sémiologie des troubles de la marche du sujet âgé, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Une marche à petits pas avec troubles urinaires et cognitifs doit faire évoquer une hydrocéphalie à pression normale",
+        "B": "Une marche festinante avec enrayage cinétique évoque un syndrome parkinsonien",
+        "C": "Un fauchage du membre inférieur évoque une hémiparésie",
+        "D": "Une marche talonnante avec signe de Romberg positif évoque une ataxie proprioceptive",
+        "E": "Une marche dandinante évoque une atteinte cérébelleuse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La marche dandinante est myopathique (faiblesse de la ceinture pelvienne).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : marche myopathique ; la marche cérébelleuse est ébrieuse, élargie."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "theme": "Sémiologie de la marche",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults. Age Ageing 2022;51(9):afac205. doi:10.1093/ageing/afac205",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1514",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les critères du delirium (DSM-5-TR), indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le trouble s'installe rapidement et tend à fluctuer",
+        "B": "Ils associent un trouble de l'attention et de la conscience",
+        "C": "Un autre trouble cognitif est associé",
+        "D": "Le trouble survient typiquement au cours d'un coma",
+        "E": "Il existe des arguments en faveur d'une conséquence physiologique d'une affection médicale, d'une substance ou d'un sevrage"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le critère D exclut un contexte de vigilance sévèrement abaissée (coma) et un trouble mieux expliqué par un trouble neurocognitif préexistant.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion — définition",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR, 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1515",
+      "format": "QCS (réponse unique)",
+      "enonce": "Patient de 82 ans, éveillé et normalement vigilant ; AMT4 : une erreur ; mois de l'année à l'envers : s'arrête après 5 mois ; aucune modification aiguë rapportée par l'entourage. Score 4AT et interprétation :",
+      "propositions": {
+        "A": "2 — troubles cognitifs possibles",
+        "B": "6 — confusion probable",
+        "C": "8 — confusion probable",
+        "D": "0 — confusion peu probable",
+        "E": "4 — confusion possible"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Vigilance 0 + AMT4 1 + mois à l'envers (< 7 mois) 1 + changement aigu 0 = 2 → troubles cognitifs possibles (1-3).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Faux.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "4AT — calcul",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tieges Z et al. Diagnostic accuracy of the 4AT for delirium detection in older adults. Age Ageing 2021;50(3):733-743",
+          "date": "2021"
+        },
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management in hospital and long-term care (mise à jour janvier 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1516",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Patiente de 88 ans somnolente (vigilance clairement anormale), incapable de répondre aux questions de l'AMT4 et au test des mois à l'envers ; sa fille décrit un changement brutal depuis 2 jours. Indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Une confusion est possible",
+        "B": "L'impossibilité de réaliser les tests n'empêche pas de coter le 4AT",
+        "C": "Un score ≥ 4 permet d'exclure une démence sous-jacente",
+        "D": "Le score 4AT est de 8",
+        "E": "Le score 4AT est de 12"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "4 (vigilance) + 2 (AMT4 non testable) + 2 (attention non testable) + 4 (changement aigu) = 12.",
+      "explications_par_proposition": {
+        "A": "Vrai (≥ 4).",
+        "B": "Vrai : les items « non testable » sont cotés.",
+        "C": "Faux : la confusion se superpose souvent à une démence.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "4AT — patient non testable",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tieges Z et al. Diagnostic accuracy of the 4AT for delirium detection in older adults. Age Ageing 2021;50(3):733-743",
+          "date": "2021"
+        },
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management in hospital and long-term care (mise à jour janvier 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1517",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient présente un début aigu avec fluctuations, une inattention et une somnolence, mais son discours reste cohérent. Selon l'algorithme de la CAM :",
+      "propositions": {
+        "A": "Le diagnostic exige des hallucinations",
+        "B": "Le diagnostic exige un EEG",
+        "C": "Le diagnostic exige l'avis d'un psychiatre",
+        "D": "La CAM est négative car la pensée n'est pas désorganisée",
+        "E": "La CAM est positive"
+      },
+      "reponses_correctes": [
+        "E"
+      ],
+      "explication_generale": "CAM positive si critères 1 (début aigu/fluctuant) et 2 (inattention) + 3 (pensée désorganisée) OU 4 (altération de la conscience).",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux.",
+        "C": "Faux : outil conçu pour les non-psychiatres.",
+        "D": "Faux : le critère 4 suffit en l'absence du critère 3.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "CAM — algorithme",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Inouye SK et al. Clarifying confusion: the confusion assessment method. Ann Intern Med 1990;113(12):941-948",
+          "date": "1990"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1518",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les médicaments suivants, lesquels sont fréquemment en cause dans une confusion du sujet âgé ?",
+      "propositions": {
+        "A": "Lévothyroxine à dose substitutive adaptée",
+        "B": "Scopolamine",
+        "C": "Oxybutynine",
+        "D": "Tramadol",
+        "E": "Bromazépam"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Anticholinergiques, benzodiazépines et opioïdes sont les classes les plus souvent impliquées ; penser aussi aux sevrages.",
+      "explications_par_proposition": {
+        "A": "Faux (en l'absence de surdosage).",
+        "B": "Vrai : anticholinergique.",
+        "C": "Vrai : anticholinergique.",
+        "D": "Vrai : opioïde, effet sérotoninergique.",
+        "E": "Vrai : benzodiazépine."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion iatrogène",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AGS 2023 updated Beers Criteria. J Am Geriatr Soc 2023;71(7):2052-2081. doi:10.1111/jgs.18372",
+          "date": "2023"
+        },
+        {
+          "reference": "O'Mahony D et al. STOPP/START version 3. Eur Geriatr Med 2023;14(4):625-632. doi:10.1007/s41999-023-00777-y",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1519",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un patient confus sous oxybutynine depuis quelques jours, l'examen prioritaire au lit du malade est :",
+      "propositions": {
+        "A": "Une ponction lombaire",
+        "B": "La recherche d'un globe vésical",
+        "C": "Un EEG",
+        "D": "Une IRM cérébrale",
+        "E": "Une scintigraphie cérébrale"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Les anticholinergiques provoquent rétention urinaire et constipation, deux causes classiques de confusion ; la palpation ou l'échographie vésicale est simple et immédiate.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux : non prioritaire.",
+        "E": "Faux."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion — examen clinique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Oublier le globe vésical et le fécalome.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Confusion aiguë chez la personne âgée : prise en charge initiale de l'agitation. Mai 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1520",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la forme hypoactive de la confusion, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Elle est souvent confondue avec une dépression",
+        "B": "Elle peut être repérée par le 4AT",
+        "C": "Elle a un meilleur pronostic que la forme hyperactive",
+        "D": "C'est la forme la plus fréquente chez le sujet âgé",
+        "E": "Elle peut alterner avec des phases d'agitation (forme mixte)"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Somnolence, apathie, ralentissement : forme fréquente, méconnue, de pronostic plus sombre.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pronostic plus défavorable.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion hypoactive",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management in hospital and long-term care (mise à jour janvier 2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR, 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1521",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un patient âgé confus, dans quelles situations un scanner cérébral est-il indiqué ?",
+      "propositions": {
+        "A": "Signe neurologique de localisation",
+        "B": "Systématiquement chez tout patient confus",
+        "C": "Troubles de la vigilance inexpliqués",
+        "D": "Absence de cause retrouvée après le bilan initial",
+        "E": "Chute avec traumatisme crânien sous anticoagulant"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La HAS (2009) ne recommande pas l'imagerie systématique ; elle est orientée par la clinique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai (hématome sous-dural)."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion — imagerie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Confusion aiguë chez la personne âgée : prise en charge initiale de l'agitation. Mai 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1522",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans quelle situation les benzodiazépines sont-elles le traitement de choix d'un état confusionnel ?",
+      "propositions": {
+        "A": "Confusion hypoactive",
+        "B": "Confusion due à une hyponatrémie",
+        "C": "Confusion postopératoire après fracture du col du fémur",
+        "D": "Confusion chez un patient atteint de démence à corps de Lewy",
+        "E": "Delirium tremens (sevrage alcoolique)"
+      },
+      "reponses_correctes": [
+        "E"
+      ],
+      "explication_generale": "En dehors des sevrages (alcool, benzodiazépines), les benzodiazépines peuvent aggraver la confusion.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux : traitement étiologique (correction prudente).",
+        "C": "Faux.",
+        "D": "Faux.",
+        "E": "Vrai (avec thiamine)."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion — benzodiazépines",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management in hospital and long-term care (mise à jour janvier 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1523",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les mesures suivantes, lesquelles font partie de la prise en charge non médicamenteuse d'un patient confus ?",
+      "propositions": {
+        "A": "Éviter les changements de chambre",
+        "B": "Mettre une contention physique au lit",
+        "C": "Favoriser la présence de la famille",
+        "D": "Remettre les lunettes et les appareils auditifs",
+        "E": "Poser une sonde urinaire à demeure pour surveiller la diurèse"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Orientation, présence des proches, environnement stable, sommeil, mobilisation, hydratation ; éviter contention et sonde.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la contention aggrave l'agitation et expose à des complications.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la sonde est un facteur précipitant."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion — mesures non médicamenteuses",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management in hospital and long-term care (mise à jour janvier 2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "HAS. Confusion aiguë chez la personne âgée : prise en charge initiale de l'agitation. Mai 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1524",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'utilisation d'un antipsychotique en cas de confusion avec agitation dangereuse (recommandation NICE CG103), indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Il faut débuter à la dose la plus faible cliniquement appropriée",
+        "B": "L'halopéridol peut être envisagé à court terme (habituellement une semaine ou moins)",
+        "C": "Il est prescrit avant toute tentative de désescalade verbale",
+        "D": "Une surveillance de l'ECG (QT) est utile",
+        "E": "La prudence est requise en cas de maladie de Parkinson ou de démence à corps de Lewy"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le traitement médicamenteux n'intervient qu'après échec ou impossibilité des mesures de désescalade, en cas de détresse ou de danger.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion — traitement médicamenteux",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management in hospital and long-term care (mise à jour janvier 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1525",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prévention de la confusion chez le sujet âgé hospitalisé, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Le respect du sommeil nocturne en fait partie",
+        "B": "Les patients à risque doivent être évalués dès l'admission (dans les 24 heures selon le NICE)",
+        "C": "Une intervention multicomposante non médicamenteuse est recommandée chez les patients à risque",
+        "D": "Un antipsychotique préventif doit être prescrit systématiquement",
+        "E": "La prévention de la déshydratation et de la constipation en fait partie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Programme de type HELP ; la prévention médicamenteuse systématique n'est pas recommandée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion — prévention",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management in hospital and long-term care (mise à jour janvier 2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "Inouye SK et al. A multicomponent intervention to prevent delirium in hospitalized older patients. N Engl J Med 1999;340:669-676",
+          "date": "1999"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GERI-1526",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic différentiel entre confusion et démence, indiquez les propositions exactes.",
+      "propositions": {
+        "A": "Une confusion peut révéler une démence jusque-là méconnue",
+        "B": "L'attention est relativement préservée aux stades débutants de la maladie d'Alzheimer",
+        "C": "Les hallucinations visuelles orientent vers une confusion mais existent aussi dans la démence à corps de Lewy",
+        "D": "La démence débute habituellement de façon brutale",
+        "E": "Des fluctuations marquées au cours de la journée orientent vers une confusion"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Début insidieux de la démence ; une réévaluation cognitive à distance de l'épisode est recommandée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : début insidieux.",
+        "E": "Vrai."
+      },
+      "specialite": "GERI",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "theme": "Confusion versus démence",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR, 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "NICE CG103. Delirium: prevention, diagnosis and management in hospital and long-term care (mise à jour janvier 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-15",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

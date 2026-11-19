@@ -6,11 +6,18 @@ sous_specialite: "Physiologie cardiovasculaire — électrophysiologie"
 items_residanat: [RES-SF-007]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-13 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHYS-0002.md
+    remarque: "Correction majeure : durée normale du QRS (« < 0,12 s » remplacé par ≤ 0,10–0,11 s ; 110–119 ms = bloc incomplet ou trouble de conduction non spécifique selon [S10]). Seuils ESC 2022 vérifiés sur sources secondaires reproduisant les recommandations (S15, S16) : QT long = QTc ≥ 480 ms sur ECG répétés ou score > 3, ou variant pathogène ; Brugada = type 1 spontané, type 1 induit + élément clinique ; QT court ≤ 360 ms + élément additionnel. Phases du PA, canaux, conduction, intervalles et seuils AHA 2009 du QTc conformes. Marqueurs de posologie sans objet (aucune dose) remplacés par des renvois."
 sources:
   - id: S1
     reference: "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 (catalogue Mediverse OUV-0170)."
@@ -124,13 +131,29 @@ sources:
     doi: "10.1007/s00424-004-1250-0"
     url: ""
     verifiee: true
+  - id: S15
+    reference: "Wang G, Chu H, Zhao N. The Clinical Diagnosis and Management of Long QT Syndrome: Insights from the 2022 ESC Guidelines. Rev Cardiovasc Med. 2023;24(6):170 (reproduit le tableau des recommandations ESC 2022 sur le QT long)."
+    organisme: "IMR Press (revue)"
+    annee: 2023
+    type: article
+    doi: "10.31083/j.rcm2406170"
+    url: ""
+    verifiee: true
+  - id: S16
+    reference: "Könemann H, Dagres N, Merino JL, Sticherling C, Zeppenfeld K, Tfelt-Hansen J, et al. Spotlight on the 2022 ESC guideline management of ventricular arrhythmias and prevention of sudden cardiac death: 10 novel key aspects. Europace. 2023;25(5):euad091."
+    organisme: "EHRA / ESC (revue)"
+    annee: 2023
+    type: article
+    doi: "10.1093/europace/euad091"
+    url: ""
+    verifiee: true
 mots_cles: [électrophysiologie cardiaque, potentiel d'action, potentiel de repos, équation de Nernst, canaux ioniques, INa, ICa-L, IKr, IKs, IK1, courant If, HCN4, automatisme, nœud sinusal, nœud auriculo-ventriculaire, faisceau de His, Purkinje, connexines, période réfractaire, couplage excitation-contraction, ECG, QT, QTc, réentrée, post-dépolarisations, canalopathies, QT long, Brugada, antiarythmiques]
 ---
 
 # Électrophysiologie du cœur : activité électrique cardiaque
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucune figure.
-> Statut : brouillon à auditer. Les valeurs numériques (potentiels, vitesses, durées) sont des ordres de grandeur issus des ouvrages de référence ; elles varient selon l'espèce, la région du cœur et la fréquence cardiaque. Les médicaments cités le sont pour leur mécanisme ; aucune posologie n'est proposée.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1) ; relecture enseignante requise. Les valeurs numériques (potentiels, vitesses, durées) sont des ordres de grandeur issus des ouvrages de référence ; elles varient selon l'espèce, la région du cœur et la fréquence cardiaque. Les médicaments cités le sont pour leur mécanisme ; aucune posologie n'est proposée.
 
 **Items du programme couverts** : RES-SF-007 — « Électrophysiologie du cœur : activité électrique cardiaque ».
 
@@ -170,8 +193,8 @@ Le myocarde fonctionne comme un **syncytium fonctionnel** grâce aux jonctions c
 
 - 1839 : description par J. E. Purkinje des fibres qui portent son nom ; 1893 : W. His Jr décrit le faisceau atrio-ventriculaire.
 - 1887 : A. Waller enregistre le premier électrocardiogramme humain.
-- 1906 – 1907 : description du nœud auriculo-ventriculaire (S. Tawara) et du nœud sinusal (A. Keith et M. Flack).
 - 1901 – 1903 : W. Einthoven met au point le galvanomètre à corde, définit les dérivations des membres et la nomenclature P, Q, R, S, T (prix Nobel 1924).
+- 1906 – 1907 : description du nœud auriculo-ventriculaire (S. Tawara) et du nœud sinusal (A. Keith et M. Flack).
 - 1952 : modèle ionique du potentiel d'action nerveux de Hodgkin et Huxley, transposé ensuite au cœur.
 - 1976 : technique du patch-clamp (Neher et Sakmann, prix Nobel 1991), qui a permis l'étude des canaux unitaires.
 - Fin des années 1970 : description du courant « funny » (If) des cellules pacemaker, dont le rôle a été synthétisé par DiFrancesco [S6].
@@ -310,9 +333,9 @@ Le concept actuel est celui d'un **système d'horloges couplées** (« horloge m
 
 ### 7.3 Hiérarchie des automatismes
 
-| Pacemaker | Fréquence intrinsèque approximative |
+| Pacemaker | Fréquence spontanée approximative |
 |---|---|
-| Nœud sinusal | 60 – 100 /min (au repos, sous tonus vagal dominant) |
+| Nœud sinusal | 60 – 100 /min au repos, sous tonus vagal dominant (la fréquence intrinsèque, mesurée après blocage pharmacologique des deux systèmes autonomes, est plus élevée, de l'ordre de 100 /min chez l'adulte jeune) |
 | Jonction auriculo-ventriculaire | 40 – 60 /min |
 | Réseau de Purkinje / ventricules | 20 – 40 /min |
 
@@ -335,7 +358,7 @@ L'**adénosine** agit sur les récepteurs A1, active IK,ACh et provoque un bloc 
 
 ## 8. Excitabilité et périodes réfractaires
 
-- **Période réfractaire absolue (effective)** : aucune stimulation, quelle que soit son intensité, ne peut déclencher un potentiel d'action propagé ; elle couvre les phases 0, 1, 2 et le début de la phase 3. Elle empêche la **tétanisation** du muscle cardiaque : la contraction est terminée avant qu'un nouveau potentiel d'action soit possible.
+- **Période réfractaire absolue** : aucune stimulation, quelle que soit son intensité, ne peut déclencher de potentiel d'action ; elle couvre les phases 0, 1, 2 et le début de la phase 3. La **période réfractaire effective**, mesurée en électrophysiologie, est un peu plus longue : elle inclut le tout début de la période relative, pendant lequel une réponse locale peut naître sans se propager. Elle empêche la **tétanisation** du muscle cardiaque : la contraction est terminée avant qu'un nouveau potentiel d'action soit possible.
 - **Période réfractaire relative** : fin de phase 3 ; un stimulus plus intense que la normale déclenche un potentiel d'action de faible amplitude, conduit lentement — situation propice aux réentrées.
 - **Période supranormale** : bref intervalle, en toute fin de repolarisation, où un stimulus inférieur au seuil peut suffire.
 - **Période vulnérable** : correspond approximativement au sommet de l'onde T ; une extrasystole (phénomène « R sur T ») ou un choc électrique non synchronisé délivré à ce moment peut déclencher une fibrillation ventriculaire — d'où la **synchronisation** des cardioversions sur l'onde R.
@@ -409,7 +432,7 @@ L'ECG enregistre à la surface du corps les différences de potentiel créées p
 |---|---|---|
 | **Onde P** | dépolarisation des oreillettes (droite puis gauche) | durée < 0,12 s ; amplitude < 2,5 mm en DII ; positive en DI, DII, aVF si rythme sinusal |
 | **Intervalle PR** | conduction atrio-ventriculaire (dont **retard nodal** et His-Purkinje) | 0,12 – 0,20 s |
-| **Complexe QRS** | dépolarisation ventriculaire (phase 0 des myocytes ventriculaires) | durée < 0,12 s (le plus souvent 0,08 – 0,10 s) |
+| **Complexe QRS** | dépolarisation ventriculaire (phase 0 des myocytes ventriculaires) | durée habituelle 0,08 – 0,10 s chez l'adulte ; **0,11 à 0,119 s : anormal** (bloc de branche incomplet ou trouble de conduction intraventriculaire non spécifique) ; **≥ 0,12 s : bloc de branche complet** [S10] |
 | **Segment ST** | plateau (phase 2) : tous les myocytes ventriculaires sont à un potentiel voisin, pas de différence de potentiel → **isoélectrique** | isoélectrique |
 | **Onde T** | repolarisation ventriculaire (phase 3) | même sens que le QRS dans la plupart des dérivations |
 | **Onde U** | inconstante ; origine discutée (repolarisation tardive, phénomènes mécano-électriques) | petite, de même sens que T ; accentuée par l'hypokaliémie |
@@ -486,11 +509,14 @@ La baisse de l'ATP ouvre les canaux IK,ATP, le K+ s'accumule dans l'espace extra
 | **QT long type 1** | KCNQ1 / IKs ↓ | QT long, T à base large | **effort**, natation |
 | **QT long type 2** | KCNH2 / IKr ↓ | QT long, T de faible amplitude, bifides | **stimulus auditif** (réveil), émotion, post-partum |
 | **QT long type 3** | SCN5A / INa tardif ↑ | QT long avec long segment ST isoélectrique | **repos, sommeil**, bradycardie |
-| **Syndrome de Brugada** | SCN5A (perte de fonction) le plus souvent identifiée ; déséquilibre INa/Ito | sus-décalage de ST « en dôme » (type 1) en V1-V2 | fièvre, repos nocturne, médicaments bloquant INa |
+| **Syndrome de Brugada** | SCN5A (perte de fonction) le plus souvent identifiée ; déséquilibre INa/Ito | type 1 : sus-décalage de ST ≥ 2 mm « en dôme » (coved) suivi d'une onde T négative dans au moins une dérivation précordiale droite (V1-V2, enregistrées aux 2e, 3e ou 4e espaces intercostaux) | fièvre, repos nocturne, médicaments bloquant INa |
 | **QT court** | gain de fonction de canaux K+ (KCNH2, KCNQ1, KCNJ2) | QTc court, T pointues | — |
 | **TV polymorphe catécholaminergique** | RYR2 (dominant), CASQ2 (récessif) / fuite diastolique de Ca2+ | ECG de repos normal ; TV bidirectionnelle à l'effort | effort, émotion |
 
-Les recommandations ESC 2022 précisent les critères diagnostiques de ces syndromes (QTc mesuré sur des ECG répétés et score diagnostique pour le QT long ; pattern de type 1 pour le Brugada), recommandent le test génétique et l'enquête familiale, les β-bloquants (de préférence non sélectifs : nadolol, propranolol) dans le QT long, et soulignent qu'un pattern de type 1 seulement **induit** par un test aux bloqueurs sodiques ne suffit pas, en l'absence d'autres éléments, à porter le diagnostic de syndrome de Brugada [S13] [À VÉRIFIER — seuils exacts de QTc et du score dans le texte intégral].
+Les recommandations ESC 2022 [S13] (texte intégral non accessible pendant l'audit ; recommandations reproduites par [S15] et [S16]) retiennent :
+- **QT long** : diagnostic si **QTc ≥ 480 ms sur des ECG 12 dérivations répétés**, avec ou sans symptômes, **ou score diagnostique de QT long > 3** (classe I) ; diagnostic également retenu en présence d'un **variant pathogène**, quelle que soit la durée du QT (classe I) ; test génétique et conseil génétique ; **β-bloquants**, de préférence **non sélectifs (nadolol, propranolol)**, chez les patients au QT allongé (classe I) ; **mexilétine** dans le QT long de type 3 au QT allongé (classe I) [S15, S16] ;
+- **Brugada** : un aspect de type 1 **spontané**, en l'absence d'autre cardiopathie, suffit au diagnostic ; un aspect de type 1 seulement **induit** (bloqueurs sodiques, fièvre) exige en plus des éléments cliniques (arrêt cardiaque récupéré par fibrillation ventriculaire ou TV polymorphe, syncope d'allure rythmique, antécédent familial de syndrome de Brugada ou de mort subite inexpliquée) — alors que la version de 2015 admettait le diagnostic sur un type 1 induit [S16] ;
+- **QT court** : QTc ≤ 360 ms **associé** à un autre élément (variant pathogène, antécédent familial de QT court ou de mort subite, TV ou FV récupérée) [S16].
 
 ### 13.4 Troubles de la conduction
 
@@ -506,7 +532,7 @@ Une voie accessoire auriculo-ventriculaire conduit sans retard : **PR court**, *
 
 ## 14. Modulation thérapeutique de l'activité électrique (principes)
 
-*Ce chapitre présente des mécanismes d'action. Les indications et posologies relèvent des recommandations de cardiologie et des RCP : [POSOLOGIE À VÉRIFIER — RCP / protocole local].*
+*Ce chapitre présente des mécanismes d'action ; aucune posologie n'y est proposée. Indications et posologies : recommandations de cardiologie, RCP et dossier Mediverse des troubles du rythme (DOS-CARD-0007).*
 
 ### 14.1 Classification des antiarythmiques
 
@@ -549,7 +575,7 @@ Point essentiel : de nombreux antiarythmiques ont des effets **pro-arythmiques**
 3. Fréquence : 300 / grands carreaux entre deux R
 4. Onde P : durée, amplitude, morphologie
 5. PR : 0,12 – 0,20 s ? (court → préexcitation ; long → BAV 1)
-6. QRS : durée (< 0,12 s ?), axe (−30° à +90°), amplitude, ondes Q pathologiques, onde delta
+6. QRS : durée (≤ 0,10 s ? 0,11 s = bloc incomplet ; ≥ 0,12 s = bloc complet), axe (−30° à +90°), amplitude, ondes Q pathologiques, onde delta
 7. ST : isoélectrique ? (sus- ou sous-décalage systématisé)
 8. T : concordante avec le QRS ? amplitude (pointue, aplatie, négative)
 9. QT et QTc (Bazett ; Fridericia si fréquence extrême) ; onde U
@@ -601,7 +627,7 @@ Biologie : K+ 7,8 mmol/L (N 3,5 – 5,0) ; Na+ 132 mmol/L ; créatinine 420 µmo
 2. *Pourquoi les ondes P s'effacent-elles et le QRS s'élargit-il ?* L'hyperkaliémie rend le potentiel de repos moins négatif (EK moins négatif). Une partie des canaux Na+ reste inactivée : la phase 0 est moins ample et plus lente, la conduction ralentit dans les oreillettes (P aplaties, puis absentes), dans le système His-Purkinje et dans le myocarde (QRS large). Le myocarde atrial est particulièrement sensible ; le nœud sinusal peut continuer à conduire vers les ventricules par les voies internodales (rythme « sino-ventriculaire »).
 3. *Pourquoi la bradycardie et l'allongement du PR ?* Ralentissement de la conduction nodale et dépression de l'automatisme ; risque d'évolution vers l'asystolie ou, à l'inverse, vers un aspect sinusoïdal et une fibrillation ventriculaire.
 4. *Quels facteurs favorisants ?* Insuffisance rénale aggravée par la déshydratation (insuffisance rénale aiguë fonctionnelle), IEC et antagoniste des minéralocorticoïdes (hypoaldostéronisme iatrogène), acidose métabolique (transfert de K+), diabète (hypoaldostéronisme hyporéninémique).
-5. *Principes du traitement (mécanismes)* : (a) **stabilisation membranaire** par les sels de calcium, qui restaurent la différence entre potentiel de repos et seuil — sans baisser la kaliémie ; (b) **transfert intracellulaire** du K+ (insuline avec glucose, β2-agonistes) ; (c) **élimination** (diurétiques si diurèse, résines, épuration extrarénale) ; arrêt des médicaments hyperkaliémiants ; monitorage continu. Les doses relèvent des protocoles d'urgence [POSOLOGIE À VÉRIFIER — protocole local].
+5. *Principes du traitement (mécanismes)* : (a) **stabilisation membranaire** par les sels de calcium, qui restaurent la différence entre potentiel de repos et seuil — sans baisser la kaliémie ; (b) **transfert intracellulaire** du K+ (insuline avec glucose, β2-agonistes) ; (c) **élimination** (diurétiques si diurèse, résines, épuration extrarénale) ; arrêt des médicaments hyperkaliémiants ; monitorage continu. Les doses ne sont pas reprises dans ce dossier de physiologie : elles sont détaillées, avec leurs sources (UKKA 2023, ERC 2021), dans le dossier des dyskaliémies (DOS-NEPH-0002).
 6. *Piège* : la sévérité ECG n'est pas proportionnelle au chiffre de kaliémie ; un ECG normal n'exclut pas une hyperkaliémie dangereuse, et une pseudo-hyperkaliémie (hémolyse, thrombocytose, garrot prolongé) doit être éliminée lorsque l'ECG est normal.
 
 **Message** : l'ECG de l'hyperkaliémie se lit comme une démonstration de la loi de Nernst et de la physiologie des canaux Na+ et K+.
@@ -632,7 +658,7 @@ Biologie : K+ 7,8 mmol/L (N 3,5 – 5,0) ; Na+ 132 mmol/L ; créatinine 420 µmo
 - Croire que le nœud sinusal est visible à l'ECG.
 - Confondre la vitesse la plus lente (nœud AV) et la plus rapide (Purkinje).
 - Oublier que le courant If s'active à l'**hyperpolarisation**.
-- Croire que l'hypokaliémie dépolarise la membrane (l'effet dominant à l'ECG est le ralentissement de la repolarisation).
+- Attribuer à l'hypokaliémie modérée une dépolarisation de repos : elle hyperpolarise discrètement la membrane (une dépolarisation paradoxale, par effondrement de IK1, n'est décrite qu'en hypokaliémie profonde) ; l'effet dominant à l'ECG est le ralentissement de la repolarisation.
 - Attribuer à l'hypocalcémie un allongement de l'onde T (c'est le segment ST qui s'allonge).
 - Utiliser la formule de Bazett sans esprit critique en tachycardie.
 - Oublier que les médicaments allongeant le QT agissent pour la plupart sur **IKr (hERG)**.
@@ -833,12 +859,12 @@ Concernant les post-dépolarisations, quelles propositions sont exactes ?
 |---|---|---|---|
 | **Mécanisme de l'automatisme sinusal** | Primauté du courant If (« funny »), cible de l'ivabradine (DiFrancesco, Circ Res 2010 [S6]) | Système d'horloges couplées membrane/calcium (Lakatta et al., Circ Res 2010 [S7]) | Les deux auteurs reconnaissent l'interaction des mécanismes ; la part relative de chacun reste débattue. |
 | **Correction du QT** | Bazett, la plus utilisée en clinique | Fridericia, Framingham, Hodges, mieux adaptées aux fréquences extrêmes (AHA/ACCF/HRS 2009 [S11]) | La déclaration AHA de 2009 recommande l'usage d'une formule de régression linéaire plutôt que Bazett ; en pratique, utiliser la même formule pour le suivi d'un patient. |
-| **Seuils du QTc** | AHA/ACCF/HRS 2009 : allongé ≥ 450 ms (homme), ≥ 460 ms (femme) ; court ≤ 390 ms [S11] | ESC 2022 : seuils diagnostiques du QT long congénital plus élevés, intégrés à un score et à des ECG répétés [S13] [À VÉRIFIER — valeurs exactes] | Ne pas confondre « QTc anormal » (épidémiologique) et « diagnostic de syndrome du QT long ». |
+| **Seuils du QTc** | AHA/ACCF/HRS 2009 : allongé ≥ 450 ms (homme), ≥ 460 ms (femme) ; court ≤ 390 ms [S11] | ESC 2022 : syndrome du QT long si QTc ≥ 480 ms sur des ECG répétés ou score > 3 (ou variant pathogène) ; syndrome du QT court si QTc ≤ 360 ms associé à un autre élément [S13, S15, S16] | Ne pas confondre « QTc anormal » (épidémiologique) et « diagnostic de syndrome du QT long ou court ». |
 | **Classification des antiarythmiques** | Vaughan Williams (classes I à IV, 1970) | Classification modernisée de Lei et al. (2018), classes 0 à VII [S12] | La classification modernisée intègre les nouvelles cibles ; la classification historique reste celle des examens. |
 | **Origine de l'onde U** | Repolarisation tardive de certaines cellules (Purkinje, cellules M) | Phénomènes mécano-électriques liés à la relaxation ventriculaire | Question non tranchée [S11]. |
 | **Voies internodales** | Faisceaux internodaux spécialisés | Conduction préférentielle liée à l'orientation des fibres atriales, sans tissu spécialisé isolé | Les ouvrages décrivent des « voies préférentielles » ; l'existence de faisceaux anatomiquement individualisés est discutée [S1, S2]. |
 
-Aucune recommandation algérienne spécifique à ce sujet fondamental n'a été identifiée ; les recommandations ESC sont la référence habituellement utilisée par les cardiologues algériens [À VÉRIFIER — absence de texte national].
+Aucune recommandation algérienne spécifique à ce sujet fondamental n'a été identifiée pendant la rédaction ni pendant l'audit (recherche non exhaustive) ; les recommandations ESC sont citées ici comme référence internationale.
 
 ---
 
@@ -858,5 +884,7 @@ Aucune recommandation algérienne spécifique à ce sujet fondamental n'a été 
 12. [S12] Lei M, Wu L, Terrar DA, Huang CL. Modernized Classification of Cardiac Antiarrhythmic Drugs. *Circulation*. 2018;138(17):1879-1896. doi:10.1161/CIRCULATIONAHA.118.035455.
 13. [S13] Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. *Eur Heart J*. 2022;43(40):3997-4126. doi:10.1093/eurheartj/ehac262.
 14. [S14] Desplantez T, Halliday D, Dupont E, Weingart R. Cardiac connexins Cx43 and Cx45: formation of diverse gap junction channels with diverse electrical properties. *Pflugers Arch*. 2004;448(4):363-375. doi:10.1007/s00424-004-1250-0.
+15. [S15] Wang G, Chu H, Zhao N. The Clinical Diagnosis and Management of Long QT Syndrome: Insights from the 2022 ESC Guidelines. *Rev Cardiovasc Med*. 2023;24(6):170. doi:10.31083/j.rcm2406170.
+16. [S16] Könemann H, Dagres N, Merino JL, et al. Spotlight on the 2022 ESC guideline management of ventricular arrhythmias and prevention of sudden cardiac death: 10 novel key aspects. *Europace*. 2023;25(5):euad091. doi:10.1093/europace/euad091.
 
-*Références vérifiées pendant la session via l'API Europe PMC ; ouvrages vérifiés via le catalogue Mediverse. Le texte intégral de [S11] et [S13] n'a pas été consulté : les seuils cités proviennent de la connaissance établie et sont signalés pour audit. Aucun texte ni aucune figure n'est reproduit.*
+*Références vérifiées pendant la session via l'API Europe PMC ; ouvrages vérifiés via le catalogue Mediverse. Audit du 2026-11-19 : le texte intégral de [S13] n'étant pas accessible (hôte bloqué), les seuils ESC 2022 ont été vérifiés sur les textes intégraux de [S15] (PMC11264164, tableau des recommandations sur le QT long) et de [S16] (PMC10228619) ; les seuils AHA 2009 du QTc [S11] et les durées de QRS [S10] relèvent de déclarations largement reprises. Aucun texte ni aucune figure n'est reproduit.*

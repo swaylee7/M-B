@@ -1,0 +1,68 @@
+{
+  "id": "AUD-01",
+  "perimetre": "Audit scientifique et posologique (AUD-01/AUD-02) des dossiers du rédacteur DOS-14 (pharmacologie et transfusion)",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "audit DOS-PHAR-0001 antibiotiques (lot DOS-14)",
+    "audit DOS-PHAR-0002 anticoagulants (lot DOS-14)",
+    "audit DOS-PHAR-0003 corticoïdes (lot DOS-14)",
+    "audit DOS-PHAR-0004 antalgiques (lot DOS-14)",
+    "audit DOS-HEMA-0006 transfusion (lot DOS-14)",
+    "audit lot QCM DOS-14 (60 QCM)",
+    "audit lot cas DOS-14 (10 cas)"
+  ],
+  "resultats": {
+    "DOS-PHAR-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {"critiques": 2, "majeures": 1, "mineures": 7},
+      "erreur_critique": "méropénème 1 g/8 h présenté comme posologie AWaRe du sepsis/choc septique (le livre AWaRe indique 2 g/8 h) : tableau 13.2 et cas commenté",
+      "marqueurs_posologie_restants": 1
+    },
+    "DOS-PHAR-0002": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {"critiques": 0, "majeures": 4, "mineures": 17},
+      "marqueurs_posologie_restants": 2
+    },
+    "DOS-PHAR-0003": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {"critiques": 0, "majeures": 0, "mineures": 12},
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-PHAR-0004": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {"critiques": 0, "majeures": 1, "mineures": 10},
+      "marqueurs_posologie_restants": 2
+    },
+    "DOS-HEMA-0006": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {"critiques": 0, "majeures": 1, "mineures": 10},
+      "marqueurs_posologie_restants": 1
+    },
+    "marqueurs_posologie": {"initial": 21, "leves": 15, "restants": 6},
+    "qcm": {
+      "total": 60,
+      "modifies": ["QCM-PHAR-1424 (corrigé erroné, majeure)", "QCM-PHAR-1423", "QCM-PHAR-1436"],
+      "audite_valide": 60
+    },
+    "cas": {
+      "total": 10,
+      "modifies": ["CAS-PHAR-1401 (fosfomycine orale classée Access, majeure)", "CAS-PHAR-1402", "CAS-PHAR-1407", "CAS-PHAR-1408", "CAS-HEMA-1402"],
+      "audite_valide": 8,
+      "audite_corrections_requises": ["CAS-PHAR-1401", "CAS-PHAR-1404"]
+    }
+  },
+  "taches_suivantes": [
+    "DOS-PHAR-0002 : lire le tableau des cibles d'INR du texte intégral ESC/EACTS 2025 ; vérifier sur les RCP en vigueur (EMA/ANSM) et l'AMM algérienne l'énoxaparine en une injection et les ajustements rénaux (énoxaparine, fondaparinux) ; posologies de l'argatroban, de la bivalirudine et du danaparoïde ; dose initiale de warfarine (pratique française et algérienne) ; statut européen de l'andexanet ; analyser l'AHA/ACC 2026 sur l'EP (REC-0221)",
+    "DOS-PHAR-0001 : dernier rapport AARN ; SSC 2026 ; classement AWaRe de la fosfomycine orale, de l'aztréonam et de la daptomycine dans la base AWaRe ; disponibilité des molécules Reserve en Algérie",
+    "DOS-PHAR-0003 : texte intégral ESE/ES 2024 (tableaux des équivalences et des doses de stress) ; SSC 2026 (corticoïdes du choc septique) ; GOLD 2026",
+    "DOS-PHAR-0004 : protocole de titration de la morphine IV ; méthylnaltrexone (RCP) ; statut de la codéine et du tramadol en Algérie ; ratio oral/IV français",
+    "DOS-HEMA-0006 : posologie du fibrinogène (guide européen 2023) ; décret exécutif n° 09-258 de 2009 et textes algériens d'hémovigilance ; seuil transfusionnel dans le SCA après MINT",
+    "Hôtes à autoriser pour compléter l'audit : academic.oup.com, pmc.ncbi.nlm.nih.gov, ema.europa.eu, base-donnees-publique.medicaments.gouv.fr, archive.gazettes.africa (Europe PMC instable)",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
+  ]
+}
