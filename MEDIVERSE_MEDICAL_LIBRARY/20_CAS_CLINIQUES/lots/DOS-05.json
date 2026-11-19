@@ -58,17 +58,23 @@
       ],
       "sources": [
         {
-          "reference": "OMS. The treatment of diarrhoea, 4e révision (non vérifiée en session)",
+          "reference": "OMS. The treatment of diarrhoea, 4e révision (vérifiée — bibliographies DOC-00039/DOC-00063)",
           "date": "2005"
         },
         {
-          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (vérifiée — DOC-00063, audit AUD-01)",
           "date": "2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "conforme",
+        "reserve": null
+      }
     },
     {
       "id": "CAS-PEDI-0002",
@@ -123,17 +129,23 @@
       ],
       "sources": [
         {
-          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (vérifiée — DOC-00063, audit AUD-01)",
           "date": "2013"
         },
         {
-          "reference": "ESPGHAN/ESPID — gastro-entérite aiguë de l'enfant, JPGN 2014;59:132-152 (non vérifiée en session)",
+          "reference": "ESPGHAN/ESPID — gastro-entérite aiguë de l'enfant, JPGN 2014;59:132-152 (vérifiée — PMID 24739189)",
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "conforme",
+        "reserve": null
+      }
     },
     {
       "id": "CAS-PEDI-0003",
@@ -194,9 +206,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "conforme",
+        "reserve": null
+      }
     },
     {
       "id": "CAS-PEDI-0004",
@@ -253,7 +271,7 @@
           "date": "2018"
         },
         {
-          "reference": "OMS. BCG vaccines: WHO position paper (non vérifiée en session)",
+          "reference": "OMS. BCG vaccines: WHO position paper, REH 2018;93(8):73-96 (vérifiée — recherche web, audit AUD-01)",
           "date": "2018"
         },
         {
@@ -261,9 +279,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "conforme",
+        "reserve": null
+      }
     },
     {
       "id": "CAS-PEDI-0005",
@@ -298,9 +322,9 @@
         "Surveillance phosphore, potassium, magnésium"
       ],
       "diagnostic_final": "Kwashiorkor (MAS œdémateuse ++) compliqué d'hypoglycémie, d'hypothermie limite et d'échec du test d'appétit.",
-      "traitement": "Protocole OMS en 10 étapes : 50 mL de glucose 10 % per os/sonde puis F-75 toutes les 2 h jour et nuit (130 mL/kg/j ; 100 mL/kg/j si les œdèmes deviennent +++) ; réchauffement (peau à peau) ; antibiothérapie systématique (ampicilline puis amoxicilline + gentamicine, posologies à vérifier) ; pas de diurétique, pas de perfusion, pas de fer en stabilisation ; acide folique, micronutriments ; vaccination ROR ; transition F-100/ATPE au retour de l'appétit.",
+      "traitement": "Protocole OMS en 10 étapes : 50 mL de glucose 10 % per os/sonde puis F-75 toutes les 2 h jour et nuit (130 mL/kg/j ; 100 mL/kg/j si les œdèmes deviennent +++) ; réchauffement (peau à peau) ; antibiothérapie systématique (ampicilline 50 mg/kg IM/IV toutes les 6 h pendant 2 jours puis amoxicilline orale 25–40 mg/kg toutes les 8 h pendant 5 jours, + gentamicine 7,5 mg/kg/j pendant 7 jours — Pocket book OMS 2013) ; pas de diurétique, pas de perfusion, pas de fer en stabilisation ; acide folique, micronutriments ; vaccination ROR ; transition F-100/ATPE au retour de l'appétit.",
       "surveillance": "Poids quotidien, stade des œdèmes, température, FC/FR toutes les 4 h, glycémie, ionogramme, phosphore, apports à chaque repas.",
-      "evolution": "Appétit revenu à J4, fonte des œdèmes (poids 8,3 kg à J5) ; gain de 12 g/kg/j en réhabilitation ; sortie vers le suivi ambulatoire avec ATPE ; guérison (PB ≥ 125 mm, absence d'œdèmes depuis 2 semaines) à S7.",
+      "evolution": "Appétit revenu à J4, fonte des œdèmes (poids 8,3 kg à J5) ; gain de 12 g/kg/j en réhabilitation ; transfert vers le suivi ambulatoire avec ATPE ; sortie du traitement nutritionnel à S7 (P/T ≥ −2 z et PB ≥ 125 mm, sans œdème, à deux visites consécutives — critères OMS 2023).",
       "explication_pedagogique": "Les œdèmes définissent la MAS quel que soit le P/T ; hypoglycémie et hypothermie sont des urgences silencieuses ; la perte de poids initiale par fonte des œdèmes n'est pas un échec ; la bandelette urinaire écarte le syndrome néphrotique.",
       "questions": [
         {
@@ -322,21 +346,31 @@
           "date": "1999"
         },
         {
-          "reference": "OMS. Updates on the management of severe acute malnutrition (non vérifiée en session)",
+          "reference": "OMS. Updates on the management of severe acute malnutrition (vérifiée — citée par DOC-00033 ; en partie remplacée par OMS 2023)",
           "date": "2013"
         },
         {
-          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (vérifiée — DOC-00063, audit AUD-01)",
           "date": "2013"
         },
         {
           "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
           "date": "2018"
+        },
+        {
+          "reference": "OMS. WHO guideline on the prevention and management of wasting and nutritional oedema (vérifiée — DOC-00033)",
+          "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "corrigé : posologies antibiotiques précisées (Pocket book 2013) ; critères de sortie OMS 2023",
+        "reserve": null
+      }
     },
     {
       "id": "CAS-PEDI-0006",
@@ -395,7 +429,7 @@
           "date": "1999"
         },
         {
-          "reference": "OMS. Updates on the management of severe acute malnutrition (non vérifiée en session)",
+          "reference": "OMS. Updates on the management of severe acute malnutrition (vérifiée — citée par DOC-00033 ; en partie remplacée par OMS 2023)",
           "date": "2013"
         },
         {
@@ -403,9 +437,15 @@
           "date": "2008"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "conforme",
+        "reserve": "mention « à vérifier » résiduelle"
+      }
     },
     {
       "id": "CAS-NEON-0001",
@@ -439,7 +479,7 @@
         "G6PD à distance"
       ],
       "diagnostic_final": "Hyperbilirubinémie non conjuguée précoce par incompatibilité ABO (mère O, enfant A), facteur de risque de neurotoxicité.",
-      "traitement": "Photothérapie intensive immédiate (≥ 30 µW/cm²/nm, surface maximale, protection oculaire), allaitement maintenu ; contrôle de la bilirubine à 4–6 h ; IgIV 0,5–1 g/kg en 2 h si la bilirubine continue de monter et atteint le seuil d'escalade (posologie à vérifier) ; préparation d'une exsanguinotransfusion si le seuil est atteint.",
+      "traitement": "Photothérapie intensive immédiate (≥ 30 µW/cm²/nm, surface maximale, protection oculaire), allaitement maintenu ; contrôle de la bilirubine à 4–6 h ; IgIV 0,5–1 g/kg en 2 h (renouvelables à 12 h) si la bilirubine atteint le seuil d'escalade des soins malgré la photothérapie intensive (AAP 2022) ; préparation d'une exsanguinotransfusion si le seuil est atteint.",
       "surveillance": "Bilirubine sérique selon la cinétique, température, hydratation, poids ; contrôle du rebond après arrêt ; NFS à 2–3 semaines (anémie tardive).",
       "evolution": "Bilirubine 11,2 mg/dL à 26 h puis 10,1 à 40 h ; arrêt à 60 h (8,6 mg/dL) ; rebond à 9,4 mg/dL ; sortie à J4 avec consultation à J5–J6.",
       "explication_pedagogique": "Tout ictère avant 24 h est pathologique et impose un bilan d'hémolyse. L'incompatibilité ABO peut survenir dès le premier enfant, avec un Coombs direct faiblement positif. Les seuils dépendent de l'âge en heures, de l'âge gestationnel et des facteurs de neurotoxicité (iso-immunisation).",
@@ -454,7 +494,7 @@
         },
         {
           "question": "Quand discuter les IgIV ?",
-          "reponse": "Si la bilirubine augmente malgré la photothérapie intensive et approche du seuil d'exsanguinotransfusion."
+          "reponse": "Maladie hémolytique iso-immune (Coombs direct positif) dont la bilirubine atteint ou dépasse le seuil d'escalade des soins (2 mg/dL sous le seuil d'exsanguinotransfusion) malgré la photothérapie intensive (AAP 2022)."
         }
       ],
       "sources": [
@@ -463,13 +503,19 @@
           "date": "2004"
         },
         {
-          "reference": "Kemper AR et al. AAP 2022 revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "reference": "Kemper AR et al. AAP 2022 revision, Pediatrics 2022;150(3):e2022058859 (vérifiée — recherche web, audit AUD-01)",
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "corrigé : indication et posologie des IgIV alignées sur AAP 2022 (vérifiée)",
+        "reserve": null
+      }
     },
     {
       "id": "CAS-NEON-0002",
@@ -528,13 +574,19 @@
           "date": "2004"
         },
         {
-          "reference": "Kemper AR et al. AAP 2022 revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "reference": "Kemper AR et al. AAP 2022 revision, Pediatrics 2022;150(3):e2022058859 (vérifiée — recherche web, audit AUD-01)",
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "conforme",
+        "reserve": null
+      }
     },
     {
       "id": "CAS-NEON-0003",
@@ -589,11 +641,11 @@
       ],
       "sources": [
         {
-          "reference": "HAS. Risque infectieux néonatal bactérien précoce ≥ 34 SA (non vérifiée en session)",
+          "reference": "SFN/SFP (label HAS). Risque infectieux néonatal bactérien précoce ≥ 34 SA (vérifiée — recherche web, audit AUD-01)",
           "date": "2017"
         },
         {
-          "reference": "NICE NG195. Neonatal infection (non vérifiée en session)",
+          "reference": "NICE NG195. Neonatal infection (vérifiée — recherche web, audit AUD-01)",
           "date": "2021"
         },
         {
@@ -601,9 +653,15 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "conforme",
+        "reserve": "mention « à vérifier » résiduelle"
+      }
     },
     {
       "id": "CAS-NEON-0004",
@@ -640,7 +698,7 @@
         "Dépistage auditif à distance"
       ],
       "diagnostic_final": "Méningite tardive à streptocoque du groupe B.",
-      "traitement": "Antibiothérapie immédiate après prélèvements : amoxicilline à posologie méningée + céfotaxime à posologie méningée (± aminoside initial), avec aciclovir IV jusqu'au résultat négatif de la PCR HSV (posologies à vérifier) ; adaptation au germe : amoxicilline (ou pénicilline) pour au moins 14 jours ; restriction hydrique prudente si SIADH ; traitement des convulsions si besoin.",
+      "traitement": "Antibiothérapie immédiate après prélèvements : amoxicilline à posologie méningée + céfotaxime à posologie méningée (± aminoside initial), avec aciclovir IV 20 mg/kg toutes les 8 h jusqu'au résultat négatif de la PCR HSV (posologies méningées d'amoxicilline et de céfotaxime à vérifier selon le protocole) ; adaptation au germe : amoxicilline (ou pénicilline) pour au moins 14 jours ; restriction hydrique prudente si SIADH ; traitement des convulsions si besoin.",
       "surveillance": "Clinique neurologique, périmètre crânien quotidien, natrémie, PL de contrôle selon l'évolution, imagerie cérébrale, potentiels évoqués auditifs, suivi neurodéveloppemental.",
       "evolution": "Apyrexie à J3 ; échographie de contrôle normale ; arrêt du traitement à J14 ; dépistage auditif normal ; suivi neurodéveloppemental prévu jusqu'à l'âge scolaire.",
       "explication_pedagogique": "Le SGB tardif (7 jours à 3 mois) se présente fréquemment sous forme de méningite et n'est pas prévenu par l'antibioprophylaxie per partum. L'antibiothérapie probabiliste doit couvrir SGB, E. coli et Listeria, et l'herpès néonatal doit être évoqué tant que la PCR n'est pas revenue.",
@@ -660,11 +718,11 @@
       ],
       "sources": [
         {
-          "reference": "NICE NG195. Neonatal infection (non vérifiée en session)",
+          "reference": "NICE NG195. Neonatal infection (vérifiée — recherche web, audit AUD-01)",
           "date": "2021"
         },
         {
-          "reference": "HAS. Risque infectieux néonatal bactérien précoce ≥ 34 SA (non vérifiée en session)",
+          "reference": "SFN/SFP (label HAS). Risque infectieux néonatal bactérien précoce ≥ 34 SA (vérifiée — recherche web, audit AUD-01)",
           "date": "2017"
         },
         {
@@ -672,9 +730,24 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "corrigé : dose d'aciclovir précisée (Kimberlin 2001) ; doses méningées laissées à vérifier",
+        "reserve": "mention « à vérifier » résiduelle"
+      }
     }
-  ]
+  ],
+  "audit": {
+    "date": "2026-11-19",
+    "auditeur": "AUD-01/AUD-02 (IA)",
+    "cas_corriges": [
+      "CAS-NEON-0001",
+      "CAS-NEON-0004",
+      "CAS-PEDI-0005"
+    ]
+  }
 }

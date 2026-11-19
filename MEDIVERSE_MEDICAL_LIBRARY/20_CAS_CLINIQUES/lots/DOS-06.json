@@ -73,9 +73,18 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_valide",
+          "corrections": 0,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-NEUR-0001.md"
+        }
+      ]
     },
     {
       "id": "CAS-NEUR-0002",
@@ -136,9 +145,19 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_corrections_requises",
+          "corrections": 0,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-NEUR-0001.md",
+          "reste_a_faire": "Délai de reprise de l'anticoagulation (prothèse mécanique) à préciser."
+        }
+      ]
     },
     {
       "id": "CAS-MINT_REA-0001",
@@ -175,7 +194,7 @@
       "traitement": "Oxygène, deux voies veineuses, hémocultures puis antibiothérapie IV dans l'heure associant une céphalosporine de 3e génération et un aminoside selon les protocoles locaux et l'écologie (élargissement si facteurs de risque de bactérie multirésistante). Cristalloïdes équilibrés par bolus de 500 mL réévalués : 2 100 mL (30 mL/kg) dans les 3 premières heures. Noradrénaline débutée sur voie périphérique dès la 30e minute (PAM 56 mmHg malgré le premier litre), relayée par un cathéter central ; cible PAM 65 mmHg. Drainage urinaire en urgence (sonde endo-urétérale ou néphrostomie) pour contrôle de la source. Arrêt de la metformine et du périndopril ; insuline IV. Noradrénaline montée à 0,28 µg/kg/min à H5 : hydrocortisone 200 mg/j. Désescalade selon l'antibiogramme.",
       "surveillance": "PA invasive, diurèse horaire, temps de recoloration, marbrures, lactate toutes les 2–4 h, glycémie horaire, créatinine, SOFA quotidien, tolérance du remplissage (échographie, oxygénation).",
       "evolution": "Lactate 2,4 mmol/L à H6 puis normalisé à H18 ; sevrage de la noradrénaline à J3 ; récupération rénale progressive. Escherichia coli sensible aux C3G ; relais oral et traitement total de 7 à 10 jours après drainage [durée selon protocole local].",
-      "explication_pedagogique": "Ce cas réunit les éléments de la première heure du choc septique : reconnaissance (hypotension, marbrures, lactate), hémocultures sans retard, antibiothérapie dans l'heure, remplissage par cristalloïdes équilibrés, noradrénaline précoce (y compris sur voie périphérique) et surtout contrôle de la source : un obstacle urinaire infecté doit être drainé en urgence, aucun antibiotique ne le remplace. L'hydrocortisone est suggérée lorsque les besoins en noradrénaline dépassent 0,25 µg/kg/min depuis au moins 4 heures.",
+      "explication_pedagogique": "Ce cas réunit les éléments de la première heure du choc septique : reconnaissance (hypotension, marbrures, lactate), hémocultures sans retard, antibiothérapie dans l'heure, remplissage par cristalloïdes équilibrés, noradrénaline précoce (y compris sur voie périphérique) et surtout contrôle de la source : un obstacle urinaire infecté doit être drainé en urgence, aucun antibiotique ne le remplace. L'hydrocortisone est suggérée lorsque les besoins en noradrénaline atteignent 0,25 µg/kg/min ou plus, au moins 4 heures après le début du vasopresseur.",
       "questions": [
         {
           "question": "Sur quels critères retenez-vous un choc septique ?",
@@ -191,7 +210,7 @@
         },
         {
           "question": "Quand introduire l'hydrocortisone ?",
-          "reponse": "Quand la noradrénaline atteint au moins 0,25 µg/kg/min depuis au moins 4 heures (SSC 2021 ; certitude jugée faible en 2026)."
+          "reponse": "Quand la dose de noradrénaline est ≥ 0,25 µg/kg/min au moins 4 heures après le début du vasopresseur (SSC 2021 ; suggestion maintenue en 2026 avec une certitude jugée faible)."
         }
       ],
       "sources": [
@@ -208,9 +227,18 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_valide",
+          "corrections": 1,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-MINT_REA-0001.md"
+        }
+      ]
     },
     {
       "id": "CAS-MINT_REA-0002",
@@ -278,9 +306,19 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_corrections_requises",
+          "corrections": 0,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-MINT_REA-0001.md",
+          "reste_a_faire": "Posologie du glucagon et de l'adrénaline IV à préciser (protocole local)."
+        }
+      ]
     },
     {
       "id": "CAS-MINT_REA-0003",
@@ -347,9 +385,18 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_valide",
+          "corrections": 0,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-MINT_REA-0002.md"
+        }
+      ]
     },
     {
       "id": "CAS-MINT_REA-0004",
@@ -387,7 +434,7 @@
         "EEG si réveil incomplet"
       ],
       "diagnostic_final": "Coma hypoglycémique d'origine alcoolique avec hypothermie modérée et rhabdomyolyse, compliqué d'une encéphalopathie de Gayet-Wernicke démasquée au réveil.",
-      "traitement": "Liberté des voies aériennes, oxygène, position latérale de sécurité (rachis protégé jusqu'à l'imagerie en raison de l'hématome frontal). Thiamine IV à forte dose administrée avant le glucose, puis glucosé à 30 % IV et perfusion de glucosé à 10 % ; réchauffement externe ; correction de la kaliémie, de la phosphorémie et de la magnésémie ; hydratation pour la rhabdomyolyse. Réveil partiel en 20 minutes (GCS 13) puis persistance d'une confusion avec nystagmus, paralysie bilatérale de l'abduction et ataxie : poursuite de la thiamine IV à forte dose pluriquotidienne [POSOLOGIE À VÉRIFIER — protocole local]. Prévention du syndrome de sevrage par benzodiazépine selon un score clinique.",
+      "traitement": "Liberté des voies aériennes, oxygène, position latérale de sécurité (rachis protégé jusqu'à l'imagerie en raison de l'hématome frontal). Thiamine IV administrée juste avant ou en même temps que le glucose, sans retarder la correction de l'hypoglycémie, puis glucosé à 30 % IV et perfusion de glucosé à 10 % ; réchauffement externe ; correction de la kaliémie, de la phosphorémie et de la magnésémie ; hydratation pour la rhabdomyolyse. Réveil partiel en 20 minutes (GCS 13) puis persistance d'une confusion avec nystagmus, paralysie bilatérale de l'abduction et ataxie : poursuite de la thiamine IV à forte dose (200 mg trois fois par jour selon l'EFNS 2010, durée selon l'évolution). Prévention du syndrome de sevrage par benzodiazépine selon un score clinique.",
       "surveillance": "Glycémie horaire au début, température, état neurologique, ionogramme, phosphorémie (syndrome de renutrition inappropriée), CPK et créatinine, signes de sevrage.",
       "evolution": "Normalisation de l'oculomotricité en quelques jours ; troubles mnésiques persistants imposant un suivi ; orientation vers une prise en charge addictologique et sociale.",
       "explication_pedagogique": "Chez tout comateux, la glycémie capillaire est le premier examen. L'alcool inhibe la néoglucogenèse et le jeûne épuise le glycogène : l'hypoglycémie est fréquente et le glucagon inefficace. La thiamine doit précéder ou accompagner le glucose chez un patient à risque, car l'apport de glucose consomme la thiamine résiduelle et peut précipiter une encéphalopathie de Gayet-Wernicke, dont la triade (confusion, ophtalmoplégie, ataxie) est souvent incomplète. Le terrain impose aussi d'éliminer un hématome sous-dural.",
@@ -415,13 +462,22 @@
           "date": "2014"
         },
         {
-          "reference": "EFNS Wernicke encephalopathy guidelines 2010 — non vérifiée",
+          "reference": "Galvin R, et al. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol 2010;17(12):1408-1418 — vérifiée à l'audit",
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_valide",
+          "corrections": 1,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-MINT_REA-0002.md"
+        }
+      ]
     },
     {
       "id": "CAS-URGE-0001",
@@ -486,9 +542,18 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_valide",
+          "corrections": 0,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-URGE-0001.md"
+        }
+      ]
     },
     {
       "id": "CAS-URGE-0002",
@@ -522,7 +587,7 @@
         "Paracétamolémie (intoxication volontaire)"
       ],
       "diagnostic_final": "Crise cholinergique grave par ingestion volontaire d'un organophosphoré, compliquée d'une détresse respiratoire.",
-      "traitement": "Protection des soignants (gants, blouse), déshabillage et lavage cutané à l'eau et au savon. Oxygène, aspiration. Atropine IV à doses croissantes (doublement toutes les 5 minutes) jusqu'à l'atropinisation : auscultation sèche, FC > 80/min, PAS > 80 mmHg, aisselles sèches, pupilles non punctiformes, obtenue après une dose cumulée importante, puis perfusion d'entretien [POSOLOGIE À VÉRIFIER — protocole local]. Intubation avec un curare non dépolarisant (pas de succinylcholine) en raison de la détresse respiratoire et de la baisse de vigilance. Pralidoxime selon le schéma OMS si disponible [POSOLOGIE À VÉRIFIER]. Benzodiazépine pour la sédation et la prévention des convulsions. Pas de charbon activé avant la protection des voies aériennes ; décision après intubation selon le délai. Évaluation psychiatrique après réveil.",
+      "traitement": "Protection des soignants (gants, blouse), déshabillage et lavage cutané à l'eau et au savon. Oxygène, aspiration. Atropine IV à doses croissantes (doublement toutes les 5 minutes) jusqu'à l'atropinisation : auscultation sèche, FC > 80/min, PAS > 80 mmHg, aisselles sèches, pupilles non punctiformes, obtenue après une dose cumulée importante, puis perfusion d'entretien (de l'ordre de 10 à 20 % de la dose de charge par heure, ajustée sur la clinique ; Eddleston et al., Lancet 2008). Intubation avec un curare non dépolarisant (pas de succinylcholine) en raison de la détresse respiratoire et de la baisse de vigilance. Pralidoxime selon le schéma OMS si disponible (chlorure de pralidoxime 30 mg/kg en 20–30 min puis 8 mg/kg/h) [POSOLOGIE À VÉRIFIER — sel disponible et RCP]. Benzodiazépine pour la sédation et la prévention des convulsions. Pas de charbon activé avant la protection des voies aériennes ; décision après intubation selon le délai. Évaluation psychiatrique après réveil.",
       "surveillance": "Signes d'atropinisation et d'intoxication atropinique (agitation, hyperthermie, iléus) ; sécrétions bronchiques ; force des muscles cervicaux et capacité vitale pendant au moins 4–5 jours ; ECG (QT) ; glycémie ; lipase.",
       "evolution": "Amélioration initiale puis, à J3, faiblesse de la flexion du cou et des muscles proximaux avec échec d'un premier sevrage ventilatoire : syndrome intermédiaire. Extubation à J9. Prise en charge psychiatrique et sociale ; pas de neuropathie retardée à 1 mois.",
       "explication_pedagogique": "L'intoxication aux organophosphorés est une cause majeure de décès toxique dans les zones agricoles. Le décès précoce est respiratoire (bronchorrhée, bronchospasme, paralysie) ; l'atropine est titrée rapidement et largement sur l'assèchement pulmonaire, sans craindre la tachycardie. La succinylcholine est proscrite. Le syndrome intermédiaire impose une surveillance prolongée de la force musculaire. La protection des soignants est indispensable.",
@@ -546,7 +611,7 @@
       ],
       "sources": [
         {
-          "reference": "Eddleston M et al. Lancet 2008 — non vérifiée pendant la session",
+          "reference": "Eddleston M, Buckley NA, Eyer P, Dawson AH. Management of acute organophosphorus pesticide poisoning. Lancet 2008;371(9612):597-607 — vérifiée à l'audit",
           "date": "2008"
         },
         {
@@ -554,9 +619,19 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_corrections_requises",
+          "corrections": 1,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-URGE-0001.md",
+          "reste_a_faire": "Posologie de la pralidoxime (sel, RCP) à confirmer."
+        }
+      ]
     },
     {
       "id": "CAS-URGE-0003",
@@ -626,9 +701,19 @@
           "date": "2003"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_corrections_requises",
+          "corrections": 0,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-URGE-0002.md",
+          "reste_a_faire": "Indication et posologie du sérum antiscorpionique à confirmer dans le guide national en vigueur."
+        }
+      ]
     },
     {
       "id": "CAS-URGE-0004",
@@ -659,7 +744,7 @@
         "Bilan infectieux uniquement si infection secondaire"
       ],
       "diagnostic_final": "Morsures de chien errant (visage et main) : exposition rabique de catégorie III chez un enfant non vacciné ; plaies à risque infectieux.",
-      "traitement": "Lavage immédiat et prolongé (environ 15 minutes) de toutes les plaies à l'eau et au savon, puis antiseptique. Prophylaxie antirabique de catégorie III : vaccination débutée le jour même selon le schéma du protocole national (par exemple schéma OMS) et immunoglobulines antirabiques infiltrées dans et autour de chaque plaie, autant que l'anatomie le permet (20 UI/kg pour les immunoglobulines humaines, 40 UI/kg pour les équines) [POSOLOGIE ET SCHÉMA À VÉRIFIER — protocole national]. Parage et suture de la plaie de la joue après lavage et infiltration, par un opérateur expérimenté (enjeu esthétique) ; plaies punctiformes de la main laissées ouvertes. Antibioprophylaxie par amoxicilline–acide clavulanique adaptée au poids pendant quelques jours [POSOLOGIE À VÉRIFIER]. Tétanos : statut à jour pour l'âge, pas de rappel nécessaire selon le calendrier (à vérifier). Signalement du cas aux services de santé et vétérinaires.",
+      "traitement": "Lavage immédiat et prolongé (environ 15 minutes) de toutes les plaies à l'eau et au savon, puis antiseptique. Prophylaxie antirabique de catégorie III : vaccination débutée le jour même selon le schéma du protocole national (par exemple schéma OMS) et immunoglobulines antirabiques infiltrées dans et autour de chaque plaie, autant que l'anatomie le permet (20 UI/kg pour les immunoglobulines humaines, 40 UI/kg pour les équines, position OMS 2018) [SCHÉMA VACCINAL À VÉRIFIER — protocole national algérien]. Parage et suture de la plaie de la joue après lavage et infiltration, par un opérateur expérimenté (enjeu esthétique) ; plaies punctiformes de la main laissées ouvertes. Antibioprophylaxie par amoxicilline–acide clavulanique adaptée au poids pendant quelques jours [POSOLOGIE À VÉRIFIER]. Tétanos : statut à jour pour l'âge, pas de rappel nécessaire selon le calendrier (à vérifier). Signalement du cas aux services de santé et vétérinaires.",
       "surveillance": "Contrôle des plaies à 48 h ; respect strict des dates des injections vaccinales ; information des parents sur les signes d'infection.",
       "evolution": "Cicatrisation sans infection ; schéma vaccinal complété.",
       "explication_pedagogique": "La rage est mortelle une fois déclarée mais évitable par une prophylaxie précoce et complète. Une morsure transdermique par un chien errant non observable en zone d'endémie est une exposition de catégorie III : lavage prolongé, vaccination et immunoglobulines infiltrées localement, sans aucun délai. Les morsures du visage ont une incubation potentiellement plus courte. Les plaies du visage peuvent être suturées après un nettoyage soigneux ; les plaies punctiformes de la main ne le sont pas, et justifient une antibioprophylaxie.",
@@ -683,7 +768,7 @@
       ],
       "sources": [
         {
-          "reference": "OMS. Rabies vaccines position paper 2018 — non vérifiée pendant la session",
+          "reference": "OMS. Rabies vaccines: WHO position paper — April 2018. Wkly Epidemiol Rec 2018;93(16):201-219 — vérifiée à l'audit (catalogue REC-0531)",
           "date": "2018"
         },
         {
@@ -691,9 +776,19 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-06",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-01/AUD-02 (IA)",
+          "verdict": "audite_corrections_requises",
+          "corrections": 1,
+          "rapport": "00_SYSTEME/agents/AUD-02/rapports/DOS-URGE-0002.md",
+          "reste_a_faire": "Schéma vaccinal national et posologie de l'amoxicilline–acide clavulanique à confirmer ; statut antitétanique selon le calendrier national."
+        }
+      ]
     }
   ]
 }

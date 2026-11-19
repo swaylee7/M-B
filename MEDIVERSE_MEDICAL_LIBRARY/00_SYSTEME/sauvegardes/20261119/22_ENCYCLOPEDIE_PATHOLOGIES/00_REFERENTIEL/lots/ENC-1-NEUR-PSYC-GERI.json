@@ -1,0 +1,6657 @@
+{
+  "agent": "ENC-1",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-NEUR-0001",
+      "nom_fr": "Accident vasculaire cérébral ischémique (infarctus cérébral)",
+      "nom_en": "Ischaemic stroke",
+      "synonymes": [
+        "infarctus cérébral",
+        "AVC ischémique"
+      ],
+      "cim10": "I63",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neurovasculaire",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-030",
+        "RES-MED-107"
+      ],
+      "symptomes": [
+        "déficit neurologique focal d'installation brutale (hémiparésie, troubles du langage, troubles visuels, troubles sensitifs)"
+      ],
+      "signes_cliniques": [
+        "hémiplégie",
+        "aphasie",
+        "hémianopsie latérale homonyme",
+        "héminégligence",
+        "score NIHSS"
+      ],
+      "examens_cles": [
+        "IRM cérébrale avec diffusion ou scanner cérébral en urgence (éliminer une hémorragie)",
+        "angio-IRM ou angioscanner",
+        "ECG et Holter",
+        "écho-Doppler des troncs supra-aortiques",
+        "échocardiographie",
+        "bilan biologique"
+      ],
+      "traitements_cles": [
+        "thrombolyse IV dans les délais",
+        "thrombectomie mécanique (occlusion proximale)",
+        "unité neurovasculaire",
+        "antiagrégant plaquettaire ou anticoagulant selon la cause",
+        "statine",
+        "contrôle des facteurs de risque",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0002",
+        "PATH-NEUR-0003",
+        "PATH-CARD-0030",
+        "PATH-CARD-0047",
+        "PATH-NEUR-0006",
+        "PATH-CARD-0040",
+        "PATH-NEUR-0007",
+        "PATH-NEUR-0008",
+        "PATH-CARD-0029",
+        "PATH-MINT-0003",
+        "PATH-GERI-0014",
+        "PATH-GERI-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0002",
+      "nom_fr": "Accident ischémique transitoire",
+      "nom_en": "Transient ischaemic attack",
+      "synonymes": [
+        "AIT"
+      ],
+      "cim10": "G45",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neurovasculaire",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "symptomes": [
+        "déficit neurologique focal brutal régressif en moins d'une heure",
+        "amaurose fugace",
+        "troubles du langage transitoires"
+      ],
+      "signes_cliniques": [
+        "examen neurologique normal au décours"
+      ],
+      "examens_cles": [
+        "IRM cérébrale avec diffusion (absence d'infarctus)",
+        "bilan étiologique en urgence (écho-Doppler cervical, ECG, Holter, échocardiographie)",
+        "score ABCD2"
+      ],
+      "traitements_cles": [
+        "prise en charge urgente en filière neurovasculaire",
+        "antiagrégation (double antiagrégation courte selon le cas)",
+        "anticoagulation si FA",
+        "traitement de la cause (endartériectomie carotidienne)",
+        "facteurs de risque"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0001",
+        "PATH-CARD-0047",
+        "PATH-CARD-0030",
+        "PATH-CARD-0040"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0003",
+      "nom_fr": "Hématome intracérébral spontané",
+      "nom_en": "Spontaneous intracerebral haemorrhage",
+      "synonymes": [
+        "hémorragie cérébrale",
+        "AVC hémorragique"
+      ],
+      "cim10": "I61",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neurovasculaire",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-030",
+        "RES-MED-107"
+      ],
+      "symptomes": [
+        "déficit neurologique brutal",
+        "céphalées",
+        "vomissements",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "déficit focal",
+        "signes d'hypertension intracrânienne",
+        "coma"
+      ],
+      "examens_cles": [
+        "scanner cérébral sans injection en urgence",
+        "angioscanner (recherche de malformation, spot sign)",
+        "IRM",
+        "bilan d'hémostase"
+      ],
+      "traitements_cles": [
+        "contrôle tensionnel",
+        "correction des troubles de l'hémostase et antagonisation des anticoagulants",
+        "unité neurovasculaire",
+        "chirurgie sélectionnée",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0040",
+        "PATH-NEUR-0001",
+        "PATH-NEUR-0004",
+        "PATH-NEUR-0055"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0004",
+      "nom_fr": "Hémorragie sous-arachnoïdienne (hémorragie méningée)",
+      "nom_en": "Subarachnoid haemorrhage",
+      "synonymes": [
+        "hémorragie méningée anévrismale"
+      ],
+      "cim10": "I60",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neurovasculaire",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-055",
+        "RES-MED-030"
+      ],
+      "symptomes": [
+        "céphalée brutale, intense, inhabituelle (en coup de tonnerre)",
+        "vomissements",
+        "photophobie",
+        "perte de connaissance"
+      ],
+      "signes_cliniques": [
+        "syndrome méningé sans fièvre",
+        "troubles de conscience",
+        "signes focaux",
+        "paralysie du III"
+      ],
+      "examens_cles": [
+        "scanner cérébral sans injection en urgence",
+        "ponction lombaire si scanner normal (liquide hémorragique, xanthochromie)",
+        "angioscanner puis artériographie cérébrale (anévrisme)"
+      ],
+      "traitements_cles": [
+        "exclusion de l'anévrisme (embolisation ou clip chirurgical)",
+        "nimodipine (prévention du vasospasme)",
+        "réanimation neurologique",
+        "dérivation ventriculaire si hydrocéphalie"
+      ],
+      "pathologies_liees": [
+        "PATH-NEPH-0026",
+        "PATH-NEUR-0003",
+        "PATH-NEUR-0045"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0005",
+      "nom_fr": "Thrombose veineuse cérébrale",
+      "nom_en": "Cerebral venous thrombosis",
+      "synonymes": [
+        "thrombophlébite cérébrale"
+      ],
+      "cim10": "I67.6",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neurovasculaire",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-030",
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "céphalées",
+        "vomissements",
+        "troubles visuels",
+        "crises épileptiques",
+        "déficit neurologique",
+        "post-partum, contraception, thrombophilie"
+      ],
+      "signes_cliniques": [
+        "œdème papillaire",
+        "signes focaux",
+        "troubles de conscience"
+      ],
+      "examens_cles": [
+        "IRM cérébrale avec angio-IRM veineuse",
+        "angioscanner veineux",
+        "D-dimères",
+        "bilan de thrombophilie"
+      ],
+      "traitements_cles": [
+        "anticoagulation (héparine même en cas d'infarctus hémorragique)",
+        "traitement des crises",
+        "traitement de l'hypertension intracrânienne",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT-0006",
+        "PATH-NEUR-0048",
+        "PATH-NEUR-0008",
+        "PATH-MINT-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0006",
+      "nom_fr": "Dissection des artères cervicales",
+      "nom_en": "Cervical artery dissection",
+      "synonymes": [
+        "dissection carotidienne ou vertébrale"
+      ],
+      "cim10": null,
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neurovasculaire",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "symptomes": [
+        "cervicalgie ou céphalée unilatérale",
+        "acouphènes pulsatiles",
+        "déficit neurologique",
+        "sujet jeune",
+        "traumatisme cervical mineur"
+      ],
+      "signes_cliniques": [
+        "syndrome de Claude Bernard-Horner douloureux",
+        "paralysie des nerfs crâniens bas",
+        "déficit ischémique"
+      ],
+      "examens_cles": [
+        "IRM cervicale avec séquences T1 fat-sat (hématome de paroi)",
+        "angio-IRM ou angioscanner"
+      ],
+      "traitements_cles": [
+        "antiagrégant plaquettaire ou anticoagulant",
+        "traitement de l'infarctus cérébral",
+        "recherche d'une artériopathie sous-jacente"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0001",
+        "PATH-NEUR-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0007",
+      "nom_fr": "Troubles neurocognitifs vasculaires",
+      "nom_en": "Vascular dementia",
+      "synonymes": [
+        "démence vasculaire"
+      ],
+      "cim10": "F01",
+      "specialite": "NEUR",
+      "sous_specialite": "Démences et troubles cognitifs",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire",
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "symptomes": [
+        "troubles cognitifs (fonctions exécutives, ralentissement)",
+        "troubles de la marche",
+        "troubles de l'humeur",
+        "évolution par à-coups"
+      ],
+      "signes_cliniques": [
+        "signes neurologiques focaux",
+        "syndrome pseudobulbaire",
+        "troubles de la marche à petits pas"
+      ],
+      "examens_cles": [
+        "évaluation neuropsychologique",
+        "IRM cérébrale (infarctus multiples, leucoaraïose)",
+        "bilan des facteurs de risque"
+      ],
+      "traitements_cles": [
+        "contrôle des facteurs de risque vasculaires",
+        "prévention secondaire de l'AVC",
+        "prise en charge non médicamenteuse",
+        "aides et soutien des aidants"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0001",
+        "PATH-NEUR-0050",
+        "PATH-CARD-0040",
+        "PATH-GERI-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0008",
+      "nom_fr": "Épilepsie",
+      "nom_en": "Epilepsy",
+      "synonymes": [
+        "maladie épileptique"
+      ],
+      "cim10": "G40",
+      "specialite": "NEUR",
+      "sous_specialite": "Épilepsies",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-036"
+      ],
+      "symptomes": [
+        "crises épileptiques récurrentes non provoquées (tonico-cloniques, focales, absences, myoclonies)",
+        "perte de connaissance",
+        "morsure latérale de langue",
+        "perte d'urines",
+        "confusion post-critique"
+      ],
+      "signes_cliniques": [
+        "examen intercritique souvent normal",
+        "signes de la cause"
+      ],
+      "examens_cles": [
+        "EEG (veille et sommeil)",
+        "IRM cérébrale",
+        "bilan biologique (glycémie, ionogramme, calcémie)",
+        "classification ILAE (type de crise et syndrome)"
+      ],
+      "traitements_cles": [
+        "médicaments antiépileptiques adaptés au type de crise et au terrain",
+        "éducation (hygiène de vie, conduite automobile)",
+        "chirurgie de l'épilepsie pharmacorésistante",
+        "stimulation du nerf vague",
+        "contraception et grossesse planifiées"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0009",
+        "PATH-NEUR-0010",
+        "PATH-NEUR-0011",
+        "PATH-NEUR-0012",
+        "PATH-NEUR-0013",
+        "PATH-NEUR-0001",
+        "PATH-NEUR-0055",
+        "PATH-CARD-0068",
+        "PATH-NEUR-0057"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0009",
+      "nom_fr": "État de mal épileptique",
+      "nom_en": "Status epilepticus",
+      "synonymes": [],
+      "cim10": "G41",
+      "specialite": "NEUR",
+      "sous_specialite": "Épilepsies",
+      "categories": [
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-036",
+        "RES-MED-107"
+      ],
+      "symptomes": [
+        "crise convulsive prolongée au-delà de 5 minutes ou crises successives sans reprise de conscience"
+      ],
+      "signes_cliniques": [
+        "convulsions généralisées",
+        "troubles de conscience persistants",
+        "signes de défaillance systémique"
+      ],
+      "examens_cles": [
+        "glycémie capillaire",
+        "ionogramme et calcémie",
+        "dosage des antiépileptiques",
+        "toxiques",
+        "imagerie cérébrale",
+        "ponction lombaire si fièvre",
+        "EEG"
+      ],
+      "traitements_cles": [
+        "benzodiazépine en première ligne (clonazépam, midazolam, diazépam)",
+        "antiépileptique de deuxième ligne (fosphénytoïne, valproate, lévétiracétam, phénobarbital)",
+        "anesthésie générale en réanimation si réfractaire",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-PSYC-0039",
+        "PATH-NEPH-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0010",
+      "nom_fr": "Épilepsie myoclonique juvénile",
+      "nom_en": "Juvenile myoclonic epilepsy",
+      "synonymes": [
+        "syndrome de Janz"
+      ],
+      "cim10": "G40.3",
+      "specialite": "NEUR",
+      "sous_specialite": "Épilepsies",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-036"
+      ],
+      "symptomes": [
+        "myoclonies matinales des membres supérieurs (lâchage d'objets)",
+        "crises tonico-cloniques généralisées",
+        "adolescent",
+        "facilitation par la privation de sommeil"
+      ],
+      "signes_cliniques": [
+        "examen normal"
+      ],
+      "examens_cles": [
+        "EEG (polypointes-ondes généralisées, photosensibilité)",
+        "IRM normale"
+      ],
+      "traitements_cles": [
+        "valproate (sauf chez la femme en âge de procréer), lévétiracétam ou lamotrigine",
+        "hygiène de sommeil",
+        "traitement souvent prolongé",
+        "éviction des antiépileptiques aggravants (carbamazépine)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-NEUR-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0011",
+      "nom_fr": "Épilepsie-absences de l'enfant",
+      "nom_en": "Childhood absence epilepsy",
+      "synonymes": [
+        "petit mal"
+      ],
+      "cim10": "G40.3",
+      "specialite": "NEUR",
+      "sous_specialite": "Épilepsies",
+      "categories": [
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-036"
+      ],
+      "symptomes": [
+        "absences brèves et pluriquotidiennes",
+        "rupture du contact",
+        "baisse des performances scolaires",
+        "enfant d'âge scolaire"
+      ],
+      "signes_cliniques": [
+        "absence déclenchée par l'hyperpnée"
+      ],
+      "examens_cles": [
+        "EEG (pointes-ondes généralisées à 3 Hz)"
+      ],
+      "traitements_cles": [
+        "éthosuximide",
+        "valproate",
+        "lamotrigine"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-NEUR-0010",
+        "PATH-PSYC-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0012",
+      "nom_fr": "Épilepsie temporale mésiale (sclérose hippocampique)",
+      "nom_en": "Mesial temporal lobe epilepsy",
+      "synonymes": [],
+      "cim10": "G40.2",
+      "specialite": "NEUR",
+      "sous_specialite": "Épilepsies",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-036"
+      ],
+      "symptomes": [
+        "aura épigastrique ascendante",
+        "sensation de déjà-vu",
+        "rupture de contact",
+        "automatismes oro-alimentaires",
+        "antécédent de convulsions fébriles prolongées"
+      ],
+      "signes_cliniques": [
+        "confusion post-critique",
+        "dysphasie post-critique (hémisphère dominant)"
+      ],
+      "examens_cles": [
+        "EEG",
+        "IRM cérébrale (sclérose hippocampique)",
+        "vidéo-EEG",
+        "bilan préchirurgical"
+      ],
+      "traitements_cles": [
+        "antiépileptiques",
+        "chirurgie (lobectomie temporale antérieure) en cas de pharmacorésistance"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-NEUR-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0013",
+      "nom_fr": "Syndrome de West (spasmes infantiles)",
+      "nom_en": "West syndrome (infantile spasms)",
+      "synonymes": [
+        "spasmes infantiles",
+        "encéphalopathie épileptique du nourrisson"
+      ],
+      "cim10": "G40.4",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-036",
+        "RES-MED-071"
+      ],
+      "symptomes": [
+        "spasmes en flexion en salves au réveil chez le nourrisson de 3 à 12 mois",
+        "régression psychomotrice"
+      ],
+      "signes_cliniques": [
+        "arrêt ou régression du développement",
+        "signes d'une cause (taches achromiques de sclérose tubéreuse)"
+      ],
+      "examens_cles": [
+        "EEG (hypsarythmie)",
+        "IRM cérébrale",
+        "bilan étiologique (génétique, métabolique)"
+      ],
+      "traitements_cles": [
+        "vigabatrin (notamment dans la sclérose tubéreuse)",
+        "corticothérapie ou ACTH",
+        "prise en charge du développement"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-NEUR-0070"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0014",
+      "nom_fr": "Convulsions fébriles du nourrisson",
+      "nom_en": "Febrile seizures",
+      "synonymes": [
+        "crises fébriles"
+      ],
+      "cim10": "R56.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-071"
+      ],
+      "symptomes": [
+        "crise convulsive généralisée brève lors d'une fièvre chez un enfant de 6 mois à 5 ans"
+      ],
+      "signes_cliniques": [
+        "examen neurologique normal après la crise",
+        "recherche d'un syndrome méningé"
+      ],
+      "examens_cles": [
+        "recherche du foyer infectieux",
+        "ponction lombaire si suspicion de méningite (âge < 1 an ou signes cliniques)",
+        "glycémie"
+      ],
+      "traitements_cles": [
+        "traitement de la crise si prolongée (benzodiazépine)",
+        "traitement de la fièvre et de sa cause",
+        "information des parents",
+        "pas de traitement de fond dans les formes simples"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-NEUR-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0015",
+      "nom_fr": "Maladie de Parkinson",
+      "nom_en": "Parkinson disease",
+      "synonymes": [],
+      "cim10": "G20",
+      "specialite": "NEUR",
+      "sous_specialite": "Mouvements anormaux",
+      "categories": [
+        "neurologique",
+        "dégénérative",
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-037",
+        "RES-SF-046"
+      ],
+      "symptomes": [
+        "tremblement de repos unilatéral",
+        "lenteur des mouvements",
+        "raideur",
+        "troubles de la marche",
+        "constipation",
+        "troubles de l'odorat",
+        "troubles du sommeil paradoxal"
+      ],
+      "signes_cliniques": [
+        "triade akinésie, hypertonie plastique (roue dentée), tremblement de repos",
+        "asymétrie",
+        "amimie",
+        "micrographie",
+        "marche à petits pas"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (critères MDS)",
+        "IRM cérébrale si atypie",
+        "scintigraphie DaTscan si doute",
+        "test à la L-dopa"
+      ],
+      "traitements_cles": [
+        "L-dopa associée à un inhibiteur de la décarboxylase",
+        "agonistes dopaminergiques",
+        "IMAO-B",
+        "ICOMT",
+        "stimulation cérébrale profonde",
+        "kinésithérapie et orthophonie"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0016",
+        "PATH-NEUR-0017",
+        "PATH-NEUR-0052",
+        "PATH-NEUR-0018",
+        "PATH-CARD-0042",
+        "PATH-GERI-0001",
+        "PATH-GERI-0014",
+        "PATH-GERI-0008",
+        "PATH-HEPA-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0016",
+      "nom_fr": "Paralysie supranucléaire progressive",
+      "nom_en": "Progressive supranuclear palsy",
+      "synonymes": [
+        "syndrome de Steele-Richardson-Olszewski"
+      ],
+      "cim10": "G23.1",
+      "specialite": "NEUR",
+      "sous_specialite": "Mouvements anormaux",
+      "categories": [
+        "neurologique",
+        "dégénérative"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-037"
+      ],
+      "symptomes": [
+        "chutes précoces en arrière",
+        "troubles de la marche",
+        "troubles de la déglutition",
+        "troubles cognitifs frontaux"
+      ],
+      "signes_cliniques": [
+        "paralysie de la verticalité du regard",
+        "syndrome parkinsonien axial symétrique peu dopasensible",
+        "rétrocolis",
+        "syndrome frontal"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (atrophie mésencéphalique, signe du colibri)"
+      ],
+      "traitements_cles": [
+        "L-dopa (réponse faible)",
+        "kinésithérapie",
+        "orthophonie",
+        "prise en charge des troubles de déglutition"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0015",
+        "PATH-NEUR-0017",
+        "PATH-NEUR-0051",
+        "PATH-GERI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0017",
+      "nom_fr": "Atrophie multisystématisée",
+      "nom_en": "Multiple system atrophy",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "NEUR",
+      "sous_specialite": "Mouvements anormaux",
+      "categories": [
+        "neurologique",
+        "dégénérative"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-037",
+        "RES-MED-039"
+      ],
+      "symptomes": [
+        "syndrome parkinsonien peu dopasensible",
+        "troubles de l'équilibre",
+        "dysautonomie (hypotension orthostatique, troubles urinaires, impuissance)",
+        "stridor nocturne"
+      ],
+      "signes_cliniques": [
+        "syndrome parkinsonien et/ou cérébelleux",
+        "hypotension orthostatique",
+        "signes pyramidaux"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (atrophie pontocérébelleuse, signe de la croix)",
+        "bilan dysautonomique"
+      ],
+      "traitements_cles": [
+        "L-dopa (réponse partielle)",
+        "traitement de l'hypotension orthostatique et des troubles urinaires",
+        "kinésithérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0015",
+        "PATH-NEUR-0016",
+        "PATH-CARD-0042"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0018",
+      "nom_fr": "Tremblement essentiel",
+      "nom_en": "Essential tremor",
+      "synonymes": [],
+      "cim10": "G25.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Mouvements anormaux",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "tremblement d'attitude et d'action bilatéral des membres supérieurs",
+        "tremblement de la tête ou de la voix",
+        "antécédents familiaux",
+        "amélioration par l'alcool"
+      ],
+      "signes_cliniques": [
+        "tremblement postural et cinétique",
+        "absence de syndrome parkinsonien"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "TSH",
+        "recherche d'une cause médicamenteuse"
+      ],
+      "traitements_cles": [
+        "propranolol",
+        "primidone",
+        "stimulation cérébrale profonde ou thalamotomie dans les formes invalidantes"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0019",
+      "nom_fr": "Maladie de Huntington",
+      "nom_en": "Huntington disease",
+      "synonymes": [
+        "chorée de Huntington"
+      ],
+      "cim10": "G10",
+      "specialite": "NEUR",
+      "sous_specialite": "Mouvements anormaux",
+      "categories": [
+        "neurologique",
+        "génétique",
+        "dégénérative"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-SF-046"
+      ],
+      "symptomes": [
+        "mouvements choréiques",
+        "troubles psychiatriques (dépression, irritabilité)",
+        "déclin cognitif",
+        "transmission autosomique dominante"
+      ],
+      "signes_cliniques": [
+        "chorée",
+        "troubles de la marche",
+        "dysarthrie",
+        "syndrome dysexécutif"
+      ],
+      "examens_cles": [
+        "génétique (expansion CAG du gène HTT)",
+        "IRM (atrophie des noyaux caudés)",
+        "conseil génétique et diagnostic présymptomatique encadré"
+      ],
+      "traitements_cles": [
+        "tétrabénazine ou neuroleptiques pour la chorée",
+        "antidépresseurs",
+        "prise en charge multidisciplinaire",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0051",
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0046"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0020",
+      "nom_fr": "Dystonies",
+      "nom_en": "Dystonia",
+      "synonymes": [
+        "torticolis spasmodique",
+        "crampe de l'écrivain",
+        "dystonie généralisée"
+      ],
+      "cim10": "G24",
+      "specialite": "NEUR",
+      "sous_specialite": "Mouvements anormaux",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "contractions musculaires involontaires soutenues provoquant des postures anormales ou des mouvements répétitifs",
+        "geste antagoniste"
+      ],
+      "signes_cliniques": [
+        "postures dystoniques focales, segmentaires ou généralisées"
+      ],
+      "examens_cles": [
+        "IRM cérébrale",
+        "bilan étiologique selon l'âge (maladie de Wilson, génétique)",
+        "test à la L-dopa (dystonie dopasensible)"
+      ],
+      "traitements_cles": [
+        "toxine botulique (formes focales)",
+        "anticholinergiques",
+        "L-dopa (dystonie dopasensible)",
+        "stimulation cérébrale profonde"
+      ],
+      "pathologies_liees": [
+        "PATH-HEPA-0027",
+        "PATH-NEUR-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0021",
+      "nom_fr": "Syndrome des jambes sans repos",
+      "nom_en": "Restless legs syndrome",
+      "synonymes": [
+        "maladie de Willis-Ekbom"
+      ],
+      "cim10": "G25.8",
+      "specialite": "NEUR",
+      "sous_specialite": "Mouvements anormaux",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-152"
+      ],
+      "symptomes": [
+        "besoin impérieux de bouger les jambes avec sensations désagréables, au repos et le soir, soulagé par le mouvement",
+        "insomnie"
+      ],
+      "signes_cliniques": [
+        "examen neurologique normal"
+      ],
+      "examens_cles": [
+        "ferritinémie",
+        "fonction rénale",
+        "polysomnographie (mouvements périodiques) si doute"
+      ],
+      "traitements_cles": [
+        "supplémentation martiale si ferritine basse",
+        "hygiène de vie",
+        "agonistes dopaminergiques à faible dose",
+        "gabapentinoïdes"
+      ],
+      "pathologies_liees": [
+        "PATH-NEPH-0023",
+        "PATH-PSYC-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0022",
+      "nom_fr": "Sclérose en plaques",
+      "nom_en": "Multiple sclerosis",
+      "synonymes": [
+        "SEP"
+      ],
+      "cim10": "G35",
+      "specialite": "NEUR",
+      "sous_specialite": "Sclérose en plaques et neuro-inflammation",
+      "categories": [
+        "neurologique",
+        "auto-immune",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-028"
+      ],
+      "symptomes": [
+        "névrite optique (baisse visuelle douloureuse)",
+        "troubles sensitifs",
+        "déficit moteur",
+        "diplopie",
+        "troubles de l'équilibre",
+        "troubles urinaires",
+        "fatigue",
+        "adulte jeune"
+      ],
+      "signes_cliniques": [
+        "syndrome pyramidal",
+        "syndrome cordonal postérieur",
+        "syndrome cérébelleux",
+        "ophtalmoplégie internucléaire",
+        "signe de Lhermitte"
+      ],
+      "examens_cles": [
+        "IRM cérébrale et médullaire (dissémination spatiale et temporelle, critères de McDonald)",
+        "ponction lombaire (bandes oligoclonales)",
+        "potentiels évoqués"
+      ],
+      "traitements_cles": [
+        "bolus de corticoïdes lors des poussées",
+        "traitements de fond immunomodulateurs ou immunosuppresseurs (interférons, tériflunomide, fumarates, anti-CD20, natalizumab, modulateurs de S1P)",
+        "rééducation",
+        "traitements symptomatiques"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0023",
+        "PATH-NEUR-0024",
+        "PATH-NEUR-0025",
+        "PATH-NEUR-0060",
+        "PATH-NEUR-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0023",
+      "nom_fr": "Maladie du spectre de la neuromyélite optique",
+      "nom_en": "Neuromyelitis optica spectrum disorder",
+      "synonymes": [
+        "neuromyélite optique de Devic"
+      ],
+      "cim10": "G36.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Sclérose en plaques et neuro-inflammation",
+      "categories": [
+        "neurologique",
+        "auto-immune"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-028"
+      ],
+      "symptomes": [
+        "névrite optique sévère souvent bilatérale",
+        "myélite aiguë (paraplégie, troubles sensitifs)",
+        "hoquet et vomissements incoercibles (area postrema)"
+      ],
+      "signes_cliniques": [
+        "déficit visuel sévère",
+        "paraparésie ou tétraparésie",
+        "niveau sensitif"
+      ],
+      "examens_cles": [
+        "anticorps anti-aquaporine 4",
+        "IRM médullaire (myélite longitudinalement étendue ≥ 3 segments)",
+        "IRM cérébrale"
+      ],
+      "traitements_cles": [
+        "bolus de corticoïdes et échanges plasmatiques lors des poussées",
+        "traitement de fond (rituximab, inhibiteurs du complément, anti-IL6R, inébilizumab)",
+        "éviction des traitements de la SEP inefficaces ou délétères"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0022",
+        "PATH-NEUR-0024",
+        "PATH-MINT-0001",
+        "PATH-MINT-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0024",
+      "nom_fr": "Maladie associée aux anticorps anti-MOG",
+      "nom_en": "MOG antibody-associated disease",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "NEUR",
+      "sous_specialite": "Sclérose en plaques et neuro-inflammation",
+      "categories": [
+        "neurologique",
+        "auto-immune"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-028"
+      ],
+      "symptomes": [
+        "névrite optique",
+        "myélite",
+        "encéphalite aiguë disséminée chez l'enfant"
+      ],
+      "signes_cliniques": [
+        "œdème papillaire",
+        "déficits moteurs et sensitifs"
+      ],
+      "examens_cles": [
+        "anticorps anti-MOG (test cellulaire)",
+        "IRM cérébrale et médullaire"
+      ],
+      "traitements_cles": [
+        "corticothérapie et échanges plasmatiques en aigu",
+        "traitement de fond en cas de rechutes (immunoglobulines, immunosuppresseurs)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0023",
+        "PATH-NEUR-0022",
+        "PATH-NEUR-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0025",
+      "nom_fr": "Encéphalomyélite aiguë disséminée",
+      "nom_en": "Acute disseminated encephalomyelitis",
+      "synonymes": [
+        "EMAD"
+      ],
+      "cim10": "G04.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Sclérose en plaques et neuro-inflammation",
+      "categories": [
+        "neurologique",
+        "inflammatoire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "encéphalopathie (confusion, troubles de conscience)",
+        "déficits multifocaux",
+        "fièvre",
+        "quelques semaines après une infection ou une vaccination",
+        "enfant"
+      ],
+      "signes_cliniques": [
+        "troubles de conscience",
+        "signes neurologiques multifocaux"
+      ],
+      "examens_cles": [
+        "IRM cérébrale et médullaire (lésions multiples de la substance blanche de même âge)",
+        "ponction lombaire",
+        "anticorps anti-MOG"
+      ],
+      "traitements_cles": [
+        "corticothérapie à forte dose",
+        "immunoglobulines IV ou échanges plasmatiques si échec"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0022",
+        "PATH-NEUR-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0026",
+      "nom_fr": "Myasthénie auto-immune",
+      "nom_en": "Myasthenia gravis",
+      "synonymes": [
+        "myasthénie grave"
+      ],
+      "cim10": "G70.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "auto-immune"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-029",
+        "RES-SF-017"
+      ],
+      "symptomes": [
+        "fatigabilité musculaire à l'effort, améliorée par le repos",
+        "ptosis et diplopie fluctuants",
+        "troubles de la déglutition et de la phonation",
+        "faiblesse des membres"
+      ],
+      "signes_cliniques": [
+        "ptosis variable",
+        "diplopie",
+        "voix nasonnée",
+        "faiblesse proximale fatigable",
+        "crise myasthénique (détresse respiratoire)"
+      ],
+      "examens_cles": [
+        "anticorps anti-récepteurs de l'acétylcholine",
+        "anticorps anti-MuSK",
+        "EMG (décrément à la stimulation répétitive)",
+        "test à la glace ou aux anticholinestérasiques",
+        "scanner thoracique (thymome)"
+      ],
+      "traitements_cles": [
+        "anticholinestérasiques (pyridostigmine)",
+        "corticothérapie",
+        "immunosuppresseurs (azathioprine)",
+        "thymectomie",
+        "immunoglobulines IV ou échanges plasmatiques (crise)",
+        "inhibiteurs du complément et anti-FcRn",
+        "liste des médicaments contre-indiqués"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0028",
+        "PATH-NEUR-0027",
+        "PATH-NEUR-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0027",
+      "nom_fr": "Syndrome myasthénique de Lambert-Eaton",
+      "nom_en": "Lambert-Eaton myasthenic syndrome",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "auto-immune"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-SF-017"
+      ],
+      "symptomes": [
+        "faiblesse proximale des membres inférieurs",
+        "sécheresse buccale",
+        "troubles dysautonomiques",
+        "amélioration transitoire à l'effort"
+      ],
+      "signes_cliniques": [
+        "aréflexie ostéotendineuse",
+        "potentiation des réflexes après effort"
+      ],
+      "examens_cles": [
+        "anticorps anti-canaux calciques voltage-dépendants (VGCC)",
+        "EMG (incrément à haute fréquence)",
+        "recherche d'un cancer bronchique à petites cellules"
+      ],
+      "traitements_cles": [
+        "traitement du cancer associé",
+        "amifampridine (3,4-diaminopyridine)",
+        "immunoglobulines IV",
+        "immunosuppresseurs"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0023",
+        "PATH-NEUR-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0028",
+      "nom_fr": "Syndrome de Guillain-Barré",
+      "nom_en": "Guillain-Barré syndrome",
+      "synonymes": [
+        "polyradiculonévrite aiguë inflammatoire démyélinisante"
+      ],
+      "cim10": "G61.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "auto-immune",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-035"
+      ],
+      "symptomes": [
+        "paresthésies distales puis déficit moteur ascendant symétrique",
+        "douleurs rachidiennes",
+        "antécédent d'infection (Campylobacter, CMV, EBV) dans les semaines précédentes"
+      ],
+      "signes_cliniques": [
+        "déficit moteur flasque",
+        "aréflexie ostéotendineuse",
+        "diplégie faciale",
+        "troubles de déglutition",
+        "dysautonomie",
+        "atteinte respiratoire"
+      ],
+      "examens_cles": [
+        "ponction lombaire (dissociation albumino-cytologique)",
+        "EMG (démyélinisation ou forme axonale)",
+        "surveillance de la capacité vitale"
+      ],
+      "traitements_cles": [
+        "immunoglobulines IV ou échanges plasmatiques",
+        "surveillance en unité spécialisée (respiration, déglutition, dysautonomie)",
+        "prévention thromboembolique",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0029",
+        "PATH-NEUR-0060",
+        "PATH-HEPA-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0029",
+      "nom_fr": "Polyradiculonévrite inflammatoire démyélinisante chronique",
+      "nom_en": "Chronic inflammatory demyelinating polyradiculoneuropathy",
+      "synonymes": [
+        "PIDC"
+      ],
+      "cim10": "G61.8",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "auto-immune"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-034",
+        "RES-MED-035"
+      ],
+      "symptomes": [
+        "déficit moteur et sensitif proximal et distal progressif sur plus de 8 semaines",
+        "paresthésies",
+        "troubles de l'équilibre"
+      ],
+      "signes_cliniques": [
+        "déficit moteur symétrique",
+        "aréflexie généralisée",
+        "ataxie proprioceptive"
+      ],
+      "examens_cles": [
+        "EMG (démyélinisation)",
+        "ponction lombaire (hyperprotéinorachie)",
+        "IRM des racines",
+        "recherche d'une gammapathie monoclonale"
+      ],
+      "traitements_cles": [
+        "corticothérapie",
+        "immunoglobulines IV ou sous-cutanées",
+        "échanges plasmatiques",
+        "immunosuppresseurs"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0028",
+        "PATH-NEUR-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0030",
+      "nom_fr": "Multinévrites (mononeuropathies multiples)",
+      "nom_en": "Mononeuritis multiplex",
+      "synonymes": [
+        "neuropathie vascularitique"
+      ],
+      "cim10": "G58.7",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "vasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-034"
+      ],
+      "symptomes": [
+        "douleurs neuropathiques",
+        "déficits sensitivo-moteurs asymétriques successifs dans des territoires tronculaires (pied tombant, main tombante)"
+      ],
+      "signes_cliniques": [
+        "déficits tronculaires asymétriques",
+        "amyotrophie"
+      ],
+      "examens_cles": [
+        "EMG (atteinte axonale multifocale)",
+        "bilan de vascularite (ANCA, cryoglobuline, sérologies VHB, VHC)",
+        "biopsie neuromusculaire",
+        "recherche de diabète, lèpre, sarcoïdose"
+      ],
+      "traitements_cles": [
+        "traitement de la cause (corticoïdes et immunosuppresseurs si vascularite)",
+        "antalgiques neuropathiques",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT-0013",
+        "PATH-MINT-0014",
+        "PATH-MINT-0015",
+        "PATH-MINT-0016",
+        "PATH-MINT-0017",
+        "PATH-MINT-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0031",
+      "nom_fr": "Polyneuropathie alcoolo-carentielle",
+      "nom_en": "Alcoholic polyneuropathy",
+      "synonymes": [],
+      "cim10": "G62.1",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-034"
+      ],
+      "symptomes": [
+        "paresthésies et douleurs distales des pieds",
+        "crampes",
+        "troubles de la marche",
+        "consommation chronique d'alcool"
+      ],
+      "signes_cliniques": [
+        "déficit sensitif distal en chaussettes",
+        "abolition des réflexes achilléens",
+        "amyotrophie distale",
+        "troubles trophiques"
+      ],
+      "examens_cles": [
+        "EMG (neuropathie axonale sensitivomotrice longueur-dépendante)",
+        "bilan carentiel (vitamines B1, B6, B12, folates)",
+        "bilan hépatique"
+      ],
+      "traitements_cles": [
+        "sevrage alcoolique",
+        "vitaminothérapie B1 et B6",
+        "antalgiques neuropathiques",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0038",
+        "PATH-NEUR-0065"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0032",
+      "nom_fr": "Maladie de Charcot-Marie-Tooth",
+      "nom_en": "Charcot-Marie-Tooth disease",
+      "synonymes": [
+        "neuropathie héréditaire sensitivo-motrice"
+      ],
+      "cim10": "G60.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-034"
+      ],
+      "symptomes": [
+        "troubles de la marche",
+        "entorses répétées",
+        "crampes",
+        "antécédents familiaux"
+      ],
+      "signes_cliniques": [
+        "pieds creux",
+        "amyotrophie distale des jambes (en mollets de coq)",
+        "steppage",
+        "aréflexie"
+      ],
+      "examens_cles": [
+        "EMG (forme démyélinisante ou axonale)",
+        "génétique (duplication PMP22 dans le type 1A)"
+      ],
+      "traitements_cles": [
+        "kinésithérapie",
+        "orthèses",
+        "chirurgie orthopédique des déformations",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0029",
+        "PATH-NEUR-0067"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0033",
+      "nom_fr": "Sclérose latérale amyotrophique",
+      "nom_en": "Amyotrophic lateral sclerosis",
+      "synonymes": [
+        "maladie de Charcot"
+      ],
+      "cim10": "G12.2",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "dégénérative"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "faiblesse et amyotrophie progressive des membres",
+        "crampes",
+        "troubles de la parole et de la déglutition",
+        "absence de troubles sensitifs"
+      ],
+      "signes_cliniques": [
+        "association de signes de neurone moteur périphérique (amyotrophie, fasciculations) et central (réflexes vifs, signe de Babinski)",
+        "atteinte bulbaire"
+      ],
+      "examens_cles": [
+        "EMG (dénervation diffuse)",
+        "IRM cérébrale et médullaire (éliminer une compression)",
+        "critères d'El Escorial ou de Gold Coast",
+        "génétique dans les formes familiales"
+      ],
+      "traitements_cles": [
+        "riluzole",
+        "prise en charge multidisciplinaire en centre SLA",
+        "ventilation non invasive",
+        "gastrostomie",
+        "soins palliatifs"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0064",
+        "PATH-NEUR-0026",
+        "PATH-NEUR-0034",
+        "PATH-NEUR-0051"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0034",
+      "nom_fr": "Amyotrophie spinale proximale",
+      "nom_en": "Spinal muscular atrophy",
+      "synonymes": [
+        "amyotrophie spinale infantile",
+        "maladie de Werdnig-Hoffmann (type 1)"
+      ],
+      "cim10": "G12",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "hypotonie et faiblesse proximale symétrique",
+        "retard ou régression motrice",
+        "troubles respiratoires et de déglutition (formes sévères)"
+      ],
+      "signes_cliniques": [
+        "hypotonie",
+        "aréflexie",
+        "fasciculations de la langue",
+        "respiration paradoxale"
+      ],
+      "examens_cles": [
+        "génétique (délétion homozygote du gène SMN1, nombre de copies SMN2)",
+        "EMG"
+      ],
+      "traitements_cles": [
+        "thérapies modificatrices (nusinersen, risdiplam, thérapie génique onasemnogène)",
+        "prise en charge respiratoire, nutritionnelle et orthopédique",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0035",
+        "PATH-NEUR-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0035",
+      "nom_fr": "Dystrophie musculaire de Duchenne",
+      "nom_en": "Duchenne muscular dystrophy",
+      "synonymes": [],
+      "cim10": "G71.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-032",
+        "RES-SF-043"
+      ],
+      "symptomes": [
+        "retard de la marche",
+        "chutes fréquentes",
+        "difficulté à monter les escaliers et à se relever chez un garçon",
+        "perte de la marche vers 10-12 ans"
+      ],
+      "signes_cliniques": [
+        "signe de Gowers",
+        "hypertrophie des mollets",
+        "démarche dandinante",
+        "scoliose",
+        "cardiomyopathie"
+      ],
+      "examens_cles": [
+        "CPK très élevées",
+        "génétique (délétion ou mutation du gène DMD)",
+        "biopsie musculaire (absence de dystrophine)",
+        "échocardiographie",
+        "EFR"
+      ],
+      "traitements_cles": [
+        "corticothérapie",
+        "kinésithérapie et appareillage",
+        "prise en charge cardiaque et respiratoire (ventilation)",
+        "thérapies ciblées selon la mutation",
+        "conseil génétique (mère conductrice)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0036",
+        "PATH-CARD-0011",
+        "PATH-PNEU-0008",
+        "PATH-NEUR-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0036",
+      "nom_fr": "Dystrophie musculaire de Becker",
+      "nom_en": "Becker muscular dystrophy",
+      "synonymes": [],
+      "cim10": "G71.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-032"
+      ],
+      "symptomes": [
+        "faiblesse musculaire proximale d'évolution lente",
+        "crampes d'effort",
+        "myalgies",
+        "garçon ou homme jeune"
+      ],
+      "signes_cliniques": [
+        "hypertrophie des mollets",
+        "déficit proximal",
+        "cardiomyopathie"
+      ],
+      "examens_cles": [
+        "CPK élevées",
+        "génétique (gène DMD, mutation en phase)",
+        "biopsie musculaire (dystrophine diminuée)",
+        "bilan cardiaque"
+      ],
+      "traitements_cles": [
+        "kinésithérapie",
+        "surveillance et traitement de la cardiomyopathie",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0035",
+        "PATH-CARD-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0037",
+      "nom_fr": "Dystrophie myotonique de type 1 (maladie de Steinert)",
+      "nom_en": "Myotonic dystrophy type 1 (Steinert disease)",
+      "synonymes": [
+        "maladie de Steinert"
+      ],
+      "cim10": "G71.1",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-032"
+      ],
+      "symptomes": [
+        "faiblesse musculaire distale",
+        "difficulté à relâcher les objets (myotonie)",
+        "somnolence",
+        "cataracte précoce",
+        "troubles digestifs"
+      ],
+      "signes_cliniques": [
+        "myotonie de préhension et de percussion",
+        "faciès myopathique",
+        "ptosis",
+        "calvitie frontale",
+        "atrophie des sterno-cléido-mastoïdiens"
+      ],
+      "examens_cles": [
+        "EMG (salves myotoniques)",
+        "génétique (expansion CTG du gène DMPK)",
+        "ECG et Holter (troubles conductifs)",
+        "bilan endocrinien et ophtalmologique"
+      ],
+      "traitements_cles": [
+        "surveillance cardiaque (stimulateur ou défibrillateur)",
+        "mexilétine pour la myotonie",
+        "prise en charge multisystémique",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0036",
+        "PATH-PNEU-0047"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0038",
+      "nom_fr": "Dystrophie facio-scapulo-humérale",
+      "nom_en": "Facioscapulohumeral muscular dystrophy",
+      "synonymes": [],
+      "cim10": "G71.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-032"
+      ],
+      "symptomes": [
+        "faiblesse de la face (difficulté à siffler, à fermer les yeux)",
+        "difficulté à lever les bras",
+        "atteinte asymétrique"
+      ],
+      "signes_cliniques": [
+        "décollement des omoplates",
+        "faiblesse faciale",
+        "atteinte des muscles abdominaux"
+      ],
+      "examens_cles": [
+        "génétique (contraction de la région D4Z4, chromosome 4q35)",
+        "CPK normales ou modérément élevées",
+        "EMG"
+      ],
+      "traitements_cles": [
+        "kinésithérapie",
+        "orthèses",
+        "fixation scapulaire sélectionnée",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0039"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0039",
+      "nom_fr": "Dystrophies musculaires des ceintures",
+      "nom_en": "Limb-girdle muscular dystrophies",
+      "synonymes": [
+        "myopathies des ceintures"
+      ],
+      "cim10": "G71.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-032"
+      ],
+      "symptomes": [
+        "faiblesse proximale des ceintures pelvienne et scapulaire",
+        "difficulté à monter les escaliers",
+        "consanguinité fréquente (formes récessives)"
+      ],
+      "signes_cliniques": [
+        "déficit proximal",
+        "démarche dandinante",
+        "atteinte cardiaque ou respiratoire selon le type"
+      ],
+      "examens_cles": [
+        "CPK",
+        "IRM musculaire",
+        "biopsie musculaire avec immunohistochimie",
+        "génétique (panels)"
+      ],
+      "traitements_cles": [
+        "kinésithérapie",
+        "surveillance cardiaque et respiratoire",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0035",
+        "PATH-MINT-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0040",
+      "nom_fr": "Myosite à inclusions",
+      "nom_en": "Inclusion body myositis",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "inflammatoire",
+        "gériatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-032"
+      ],
+      "symptomes": [
+        "faiblesse lentement progressive des quadriceps et des fléchisseurs des doigts",
+        "chutes",
+        "dysphagie",
+        "sujet de plus de 50 ans"
+      ],
+      "signes_cliniques": [
+        "amyotrophie des quadriceps et des fléchisseurs profonds des doigts, asymétrique"
+      ],
+      "examens_cles": [
+        "CPK normales ou modérément élevées",
+        "anticorps anti-cN1A",
+        "biopsie musculaire (vacuoles bordées, inclusions)",
+        "IRM musculaire"
+      ],
+      "traitements_cles": [
+        "pas de traitement immunosuppresseur efficace",
+        "rééducation",
+        "prise en charge de la dysphagie"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT-0008",
+        "PATH-GERI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0041",
+      "nom_fr": "Cytopathies mitochondriales",
+      "nom_en": "Mitochondrial diseases",
+      "synonymes": [
+        "MELAS",
+        "MERRF",
+        "syndrome de Kearns-Sayre",
+        "neuropathie optique de Leber"
+      ],
+      "cim10": null,
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique",
+        "métabolique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-032"
+      ],
+      "symptomes": [
+        "intolérance à l'effort",
+        "ptosis",
+        "ophtalmoplégie",
+        "épisodes pseudo-vasculaires",
+        "surdité",
+        "diabète",
+        "épilepsie"
+      ],
+      "signes_cliniques": [
+        "ophtalmoplégie externe",
+        "myopathie",
+        "surdité",
+        "petite taille"
+      ],
+      "examens_cles": [
+        "lactates sanguins et dans le LCR",
+        "biopsie musculaire (fibres rouges déchiquetées)",
+        "génétique (ADN mitochondrial et nucléaire)"
+      ],
+      "traitements_cles": [
+        "pas de traitement curatif",
+        "supplémentations (coenzyme Q10, L-arginine dans MELAS)",
+        "prise en charge multidisciplinaire",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-NEUR-0039"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0042",
+      "nom_fr": "Syndrome du canal carpien",
+      "nom_en": "Carpal tunnel syndrome",
+      "synonymes": [],
+      "cim10": "G56.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "paresthésies nocturnes des trois premiers doigts",
+        "douleurs de la main irradiant à l'avant-bras",
+        "maladresse"
+      ],
+      "signes_cliniques": [
+        "signes de Tinel et de Phalen",
+        "hypoesthésie du territoire du nerf médian",
+        "amyotrophie thénarienne (forme évoluée)"
+      ],
+      "examens_cles": [
+        "EMG (ralentissement des conductions du nerf médian au poignet)",
+        "échographie",
+        "recherche d'une cause (hypothyroïdie, diabète, grossesse, amylose, acromégalie)"
+      ],
+      "traitements_cles": [
+        "attelle nocturne",
+        "infiltration de corticoïdes",
+        "libération chirurgicale du nerf médian"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0043",
+      "nom_fr": "Paralysie faciale périphérique",
+      "nom_en": "Peripheral facial palsy",
+      "synonymes": [
+        "paralysie faciale a frigore",
+        "paralysie de Bell"
+      ],
+      "cim10": "G51.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-033"
+      ],
+      "symptomes": [
+        "asymétrie faciale brutale",
+        "impossibilité de fermer l'œil",
+        "troubles du goût",
+        "hyperacousie",
+        "douleur rétro-auriculaire"
+      ],
+      "signes_cliniques": [
+        "paralysie de toute l'hémiface (supérieure et inférieure)",
+        "signe de Charles Bell",
+        "effacement des rides",
+        "abolition du réflexe cornéen"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "recherche d'une cause (otoscopie, zona du ganglion géniculé, Lyme, sarcoïdose, diabète, VIH)",
+        "EMG pronostique",
+        "IRM si atypie"
+      ],
+      "traitements_cles": [
+        "corticothérapie précoce",
+        "protection oculaire (larmes artificielles, occlusion nocturne)",
+        "antiviraux si zona",
+        "kinésithérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT-0005",
+        "PATH-NEUR-0028",
+        "PATH-NEUR-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0044",
+      "nom_fr": "Névralgie du trijumeau",
+      "nom_en": "Trigeminal neuralgia",
+      "synonymes": [],
+      "cim10": "G50.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Céphalées",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-031"
+      ],
+      "symptomes": [
+        "douleurs fulgurantes en décharges électriques, très brèves, dans le territoire du nerf trijumeau (V2, V3)",
+        "zone gâchette déclenchée par la mastication, la parole ou le toucher"
+      ],
+      "signes_cliniques": [
+        "examen neurologique normal (forme essentielle)",
+        "hypoesthésie en cas de forme secondaire"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (conflit neurovasculaire, SEP, tumeur)"
+      ],
+      "traitements_cles": [
+        "carbamazépine",
+        "oxcarbazépine",
+        "décompression vasculaire microchirurgicale",
+        "thermocoagulation",
+        "radiochirurgie"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0022",
+        "PATH-NEUR-0057",
+        "PATH-NEUR-0047"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0045",
+      "nom_fr": "Migraine",
+      "nom_en": "Migraine",
+      "synonymes": [
+        "migraine sans aura",
+        "migraine avec aura"
+      ],
+      "cim10": "G43",
+      "specialite": "NEUR",
+      "sous_specialite": "Céphalées",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-031"
+      ],
+      "symptomes": [
+        "céphalées pulsatiles unilatérales récurrentes de 4 à 72 h",
+        "nausées et vomissements",
+        "photophobie et phonophobie",
+        "aggravation par l'effort",
+        "aura visuelle (migraine avec aura)"
+      ],
+      "signes_cliniques": [
+        "examen neurologique normal entre les crises"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (critères IHS)",
+        "imagerie seulement si atypie ou signes d'alarme"
+      ],
+      "traitements_cles": [
+        "traitement de crise (AINS, triptans, antiémétiques)",
+        "traitement de fond (bêtabloquant, amitriptyline, topiramate, anticorps anti-CGRP)",
+        "agenda des crises",
+        "éviction de l'abus médicamenteux"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0046",
+        "PATH-NEUR-0049",
+        "PATH-NEUR-0001",
+        "PATH-NEUR-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0046",
+      "nom_fr": "Céphalée de tension",
+      "nom_en": "Tension-type headache",
+      "synonymes": [],
+      "cim10": "G44.2",
+      "specialite": "NEUR",
+      "sous_specialite": "Céphalées",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-031"
+      ],
+      "symptomes": [
+        "céphalée bilatérale en étau ou en casque, non pulsatile, d'intensité légère à modérée, non aggravée par l'effort",
+        "contexte de stress"
+      ],
+      "signes_cliniques": [
+        "examen normal",
+        "contracture des muscles péricrâniens"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "antalgiques simples à la demande",
+        "prise en charge du stress",
+        "amitriptyline (formes chroniques)",
+        "relaxation"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0045",
+        "PATH-NEUR-0049",
+        "PATH-PSYC-0013",
+        "PATH-PSYC-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0047",
+      "nom_fr": "Algie vasculaire de la face",
+      "nom_en": "Cluster headache",
+      "synonymes": [
+        "céphalée en grappe"
+      ],
+      "cim10": "G44.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Céphalées",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-031"
+      ],
+      "symptomes": [
+        "douleur unilatérale orbitaire atroce de 15 à 180 min, récurrente à heure fixe",
+        "agitation",
+        "périodes en salves",
+        "homme jeune fumeur"
+      ],
+      "signes_cliniques": [
+        "signes dysautonomiques homolatéraux (larmoiement, rhinorrhée, injection conjonctivale, ptosis, myosis)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "IRM cérébrale lors du premier épisode"
+      ],
+      "traitements_cles": [
+        "oxygénothérapie au masque à haut débit",
+        "sumatriptan sous-cutané",
+        "traitement de fond (vérapamil)",
+        "corticothérapie de transition"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0045",
+        "PATH-NEUR-0044"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0048",
+      "nom_fr": "Hypertension intracrânienne idiopathique",
+      "nom_en": "Idiopathic intracranial hypertension",
+      "synonymes": [
+        "pseudotumor cerebri"
+      ],
+      "cim10": "G93.2",
+      "specialite": "NEUR",
+      "sous_specialite": "Céphalées",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-052",
+        "RES-MED-031"
+      ],
+      "symptomes": [
+        "céphalées",
+        "éclipses visuelles",
+        "acouphènes pulsatiles",
+        "diplopie",
+        "femme jeune obèse"
+      ],
+      "signes_cliniques": [
+        "œdème papillaire bilatéral",
+        "paralysie du VI"
+      ],
+      "examens_cles": [
+        "IRM cérébrale avec veinographie (élimination d'une thrombose veineuse ou d'un processus expansif)",
+        "ponction lombaire (pression d'ouverture élevée, LCR normal)",
+        "champ visuel"
+      ],
+      "traitements_cles": [
+        "perte de poids",
+        "acétazolamide",
+        "ponctions lombaires évacuatrices",
+        "dérivation ou stent veineux si menace visuelle"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0049",
+      "nom_fr": "Céphalée par abus médicamenteux",
+      "nom_en": "Medication-overuse headache",
+      "synonymes": [],
+      "cim10": "G44.4",
+      "specialite": "NEUR",
+      "sous_specialite": "Céphalées",
+      "categories": [
+        "neurologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-031",
+        "RES-MED-168"
+      ],
+      "symptomes": [
+        "céphalée chronique quotidienne chez un migraineux ou un céphalalgique",
+        "prise d'antalgiques ou de triptans plus de 10 à 15 jours par mois"
+      ],
+      "signes_cliniques": [
+        "examen normal"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "agenda des céphalées et des prises médicamenteuses"
+      ],
+      "traitements_cles": [
+        "sevrage des antalgiques",
+        "mise en place d'un traitement de fond",
+        "éducation"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0045",
+        "PATH-NEUR-0046",
+        "PATH-PSYC-0040"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0050",
+      "nom_fr": "Maladie d'Alzheimer",
+      "nom_en": "Alzheimer disease",
+      "synonymes": [
+        "trouble neurocognitif majeur dû à la maladie d'Alzheimer"
+      ],
+      "cim10": "G30",
+      "specialite": "NEUR",
+      "sous_specialite": "Démences et troubles cognitifs",
+      "categories": [
+        "neurologique",
+        "dégénérative",
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "symptomes": [
+        "troubles de la mémoire épisodique d'installation progressive",
+        "désorientation",
+        "troubles du langage",
+        "perte d'autonomie",
+        "troubles du comportement"
+      ],
+      "signes_cliniques": [
+        "syndrome amnésique de type hippocampique",
+        "aphasie, apraxie, agnosie",
+        "anosognosie"
+      ],
+      "examens_cles": [
+        "tests cognitifs (MMSE, test des 5 mots, RL/RI-16)",
+        "IRM cérébrale (atrophie hippocampique)",
+        "biomarqueurs du LCR (Aβ42, tau, phospho-tau)",
+        "TEP",
+        "bilan biologique (TSH, B12, calcémie)"
+      ],
+      "traitements_cles": [
+        "inhibiteurs de l'acétylcholinestérase",
+        "mémantine",
+        "prise en charge non médicamenteuse (orthophonie, stimulation)",
+        "aides et soutien des aidants",
+        "anticorps anti-amyloïdes dans certains pays",
+        "mesures de protection juridique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0007",
+        "PATH-NEUR-0052",
+        "PATH-NEUR-0051",
+        "PATH-GERI-0008",
+        "PATH-GERI-0014",
+        "PATH-GERI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0051",
+      "nom_fr": "Dégénérescence lobaire fronto-temporale",
+      "nom_en": "Frontotemporal dementia",
+      "synonymes": [
+        "démence fronto-temporale",
+        "maladie de Pick"
+      ],
+      "cim10": "G31.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Démences et troubles cognitifs",
+      "categories": [
+        "neurologique",
+        "dégénérative"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "troubles du comportement (désinhibition, apathie, perte d'empathie, hyperoralité)",
+        "troubles du langage",
+        "début avant 65 ans"
+      ],
+      "signes_cliniques": [
+        "syndrome frontal",
+        "aphasie primaire progressive",
+        "signes de SLA associés possibles"
+      ],
+      "examens_cles": [
+        "évaluation neuropsychologique (fonctions exécutives)",
+        "IRM (atrophie frontale et temporale antérieure)",
+        "TEP au FDG",
+        "génétique (C9orf72, GRN, MAPT)"
+      ],
+      "traitements_cles": [
+        "prise en charge non médicamenteuse",
+        "antidépresseurs ISRS pour les troubles comportementaux",
+        "soutien des aidants"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0050",
+        "PATH-NEUR-0033",
+        "PATH-NEUR-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0052",
+      "nom_fr": "Maladie à corps de Lewy",
+      "nom_en": "Dementia with Lewy bodies",
+      "synonymes": [
+        "démence à corps de Lewy"
+      ],
+      "cim10": "G31.8",
+      "specialite": "NEUR",
+      "sous_specialite": "Démences et troubles cognitifs",
+      "categories": [
+        "neurologique",
+        "dégénérative"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "symptomes": [
+        "fluctuations cognitives et de la vigilance",
+        "hallucinations visuelles bien construites",
+        "troubles du comportement en sommeil paradoxal",
+        "chutes"
+      ],
+      "signes_cliniques": [
+        "syndrome parkinsonien",
+        "dysautonomie"
+      ],
+      "examens_cles": [
+        "évaluation neuropsychologique",
+        "scintigraphie DaTscan",
+        "scintigraphie cardiaque à la MIBG",
+        "polysomnographie"
+      ],
+      "traitements_cles": [
+        "inhibiteurs de l'acétylcholinestérase",
+        "prudence extrême avec les neuroleptiques (hypersensibilité)",
+        "L-dopa à faible dose"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0015",
+        "PATH-NEUR-0050",
+        "PATH-GERI-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0053",
+      "nom_fr": "Hydrocéphalie chronique de l'adulte (à pression normale)",
+      "nom_en": "Normal pressure hydrocephalus",
+      "synonymes": [],
+      "cim10": "G91.2",
+      "specialite": "NEUR",
+      "sous_specialite": "Démences et troubles cognitifs",
+      "categories": [
+        "neurologique",
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-039",
+        "RES-MED-159"
+      ],
+      "symptomes": [
+        "troubles de la marche (magnétique, à petits pas)",
+        "troubles cognitifs sous-corticaux",
+        "troubles urinaires (triade d'Adams-Hakim)"
+      ],
+      "signes_cliniques": [
+        "marche à petits pas élargie",
+        "instabilité posturale",
+        "syndrome frontal"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (dilatation ventriculaire disproportionnée)",
+        "test de soustraction de LCR (ponction lombaire évacuatrice) avec évaluation de la marche"
+      ],
+      "traitements_cles": [
+        "dérivation ventriculo-péritonéale",
+        "ponctions lombaires itératives chez les patients non opérables"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0050",
+        "PATH-NEUR-0015",
+        "PATH-GERI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0054",
+      "nom_fr": "Maladie de Creutzfeldt-Jakob",
+      "nom_en": "Creutzfeldt-Jakob disease",
+      "synonymes": [
+        "maladie à prions"
+      ],
+      "cim10": "A81.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Démences et troubles cognitifs",
+      "categories": [
+        "neurologique",
+        "infectieuse"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "démence rapidement progressive",
+        "troubles visuels",
+        "ataxie",
+        "myoclonies"
+      ],
+      "signes_cliniques": [
+        "myoclonies",
+        "syndrome cérébelleux",
+        "mutisme akinétique terminal"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (hypersignaux diffusion du cortex et des noyaux gris)",
+        "EEG (complexes périodiques)",
+        "protéine 14-3-3 et RT-QuIC dans le LCR"
+      ],
+      "traitements_cles": [
+        "aucun traitement curatif",
+        "soins palliatifs",
+        "déclaration obligatoire",
+        "précautions vis-à-vis des actes invasifs"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0050",
+        "PATH-NEUR-0066"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0055",
+      "nom_fr": "Glioblastome",
+      "nom_en": "Glioblastoma",
+      "synonymes": [
+        "gliome de haut grade",
+        "astrocytome de grade 4"
+      ],
+      "cim10": "C71",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuro-oncologie",
+      "categories": [
+        "neurologique",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "céphalées",
+        "crises épileptiques",
+        "déficit neurologique progressif",
+        "troubles cognitifs ou du comportement"
+      ],
+      "signes_cliniques": [
+        "signes d'hypertension intracrânienne",
+        "déficit focal"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (prise de contraste annulaire, nécrose, œdème)",
+        "biopsie ou exérèse avec analyse histomoléculaire (IDH sauvage, MGMT)"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale maximale",
+        "radiothérapie avec témozolomide concomitant puis adjuvant",
+        "corticoïdes pour l'œdème",
+        "antiépileptiques",
+        "soins de support"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0056",
+        "PATH-NEUR-0058",
+        "PATH-NEUR-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0056",
+      "nom_fr": "Gliomes diffus de bas grade",
+      "nom_en": "Diffuse lower-grade gliomas",
+      "synonymes": [
+        "astrocytome IDH muté",
+        "oligodendrogliome"
+      ],
+      "cim10": "C71",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuro-oncologie",
+      "categories": [
+        "neurologique",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "crises épileptiques",
+        "céphalées",
+        "adulte jeune"
+      ],
+      "signes_cliniques": [
+        "examen souvent normal"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (lésion infiltrante peu ou pas rehaussée)",
+        "biopsie ou exérèse avec analyse moléculaire (IDH, codélétion 1p/19q)"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale",
+        "radiothérapie et chimiothérapie (PCV, témozolomide)",
+        "inhibiteur d'IDH",
+        "surveillance IRM"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0055",
+        "PATH-NEUR-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0057",
+      "nom_fr": "Méningiome",
+      "nom_en": "Meningioma",
+      "synonymes": [],
+      "cim10": "D32",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuro-oncologie",
+      "categories": [
+        "neurologique",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "céphalées",
+        "crises épileptiques",
+        "déficit lentement progressif",
+        "souvent asymptomatique",
+        "femme"
+      ],
+      "signes_cliniques": [
+        "signes focaux selon la localisation"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (lésion extra-axiale à base d'implantation durale, queue de comète)"
+      ],
+      "traitements_cles": [
+        "surveillance si asymptomatique",
+        "exérèse chirurgicale",
+        "radiothérapie ou radiochirurgie",
+        "arrêt des progestatifs à risque (acétate de cyprotérone)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0058",
+      "nom_fr": "Métastases cérébrales",
+      "nom_en": "Brain metastases",
+      "synonymes": [],
+      "cim10": "C79.3",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuro-oncologie",
+      "categories": [
+        "neurologique",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "céphalées",
+        "crises épileptiques",
+        "déficit neurologique",
+        "troubles cognitifs"
+      ],
+      "signes_cliniques": [
+        "signes focaux",
+        "hypertension intracrânienne"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (lésions multiples à la jonction cortico-sous-corticale)",
+        "recherche du primitif (scanner TAP, TEP)"
+      ],
+      "traitements_cles": [
+        "corticothérapie",
+        "radiochirurgie stéréotaxique",
+        "chirurgie d'une lésion unique",
+        "radiothérapie pan-encéphalique",
+        "traitements systémiques à passage cérébral"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0022",
+        "PATH-PNEU-0023",
+        "PATH-NEUR-0055"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0059",
+      "nom_fr": "Médulloblastome",
+      "nom_en": "Medulloblastoma",
+      "synonymes": [],
+      "cim10": "C71.6",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "néoplasique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "céphalées matinales",
+        "vomissements",
+        "troubles de l'équilibre chez l'enfant"
+      ],
+      "signes_cliniques": [
+        "syndrome cérébelleux",
+        "hydrocéphalie",
+        "œdème papillaire"
+      ],
+      "examens_cles": [
+        "IRM cérébrale et médullaire (tumeur de la fosse postérieure, dissémination)",
+        "cytologie du LCR",
+        "classification moléculaire"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale",
+        "radiothérapie craniospinale",
+        "chimiothérapie",
+        "suivi des séquelles"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0053"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0060",
+      "nom_fr": "Compression médullaire non traumatique",
+      "nom_en": "Non-traumatic spinal cord compression",
+      "synonymes": [
+        "syndrome médullaire de compression"
+      ],
+      "cim10": "G95.2",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuro-oncologie",
+      "categories": [
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-038",
+        "RES-MED-105",
+        "RES-SF-044"
+      ],
+      "symptomes": [
+        "douleurs rachidiennes et radiculaires",
+        "faiblesse des membres inférieurs",
+        "troubles sensitifs",
+        "troubles sphinctériens"
+      ],
+      "signes_cliniques": [
+        "syndrome lésionnel",
+        "syndrome sous-lésionnel (pyramidal, niveau sensitif)",
+        "syndrome rachidien"
+      ],
+      "examens_cles": [
+        "IRM médullaire en urgence",
+        "bilan étiologique (métastases, myélome, spondylodiscite, hernie discale, méningiome)"
+      ],
+      "traitements_cles": [
+        "corticothérapie en urgence (cause tumorale)",
+        "décompression chirurgicale",
+        "radiothérapie",
+        "traitement de la cause",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0064",
+        "PATH-NEUR-0057",
+        "PATH-NEUR-0061"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0061",
+      "nom_fr": "Syndrome de la queue de cheval",
+      "nom_en": "Cauda equina syndrome",
+      "synonymes": [],
+      "cim10": "G83.4",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuro-oncologie",
+      "categories": [
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-102"
+      ],
+      "symptomes": [
+        "douleurs radiculaires bilatérales",
+        "anesthésie en selle",
+        "troubles sphinctériens (rétention, incontinence)",
+        "troubles sexuels"
+      ],
+      "signes_cliniques": [
+        "hypoesthésie périnéale",
+        "abolition des réflexes achilléens",
+        "déficit moteur des membres inférieurs",
+        "hypotonie du sphincter anal"
+      ],
+      "examens_cles": [
+        "IRM lombaire en urgence"
+      ],
+      "traitements_cles": [
+        "décompression chirurgicale en urgence (hernie discale exclue)",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0060"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0062",
+      "nom_fr": "Syringomyélie",
+      "nom_en": "Syringomyelia",
+      "synonymes": [],
+      "cim10": "G95.0",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-038",
+        "RES-SF-044"
+      ],
+      "symptomes": [
+        "douleurs et paresthésies des membres supérieurs",
+        "brûlures indolores",
+        "faiblesse des mains"
+      ],
+      "signes_cliniques": [
+        "anesthésie thermoalgique suspendue en pèlerine",
+        "amyotrophie des mains",
+        "abolition des réflexes des membres supérieurs",
+        "scoliose"
+      ],
+      "examens_cles": [
+        "IRM médullaire (cavité centromédullaire)",
+        "IRM cérébrale (malformation de Chiari)"
+      ],
+      "traitements_cles": [
+        "décompression de la charnière cervico-occipitale",
+        "dérivation de la cavité",
+        "antalgiques neuropathiques"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0060",
+        "PATH-NEUR-0064"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0063",
+      "nom_fr": "Sclérose combinée de la moelle (carence en vitamine B12)",
+      "nom_en": "Subacute combined degeneration of the spinal cord",
+      "synonymes": [
+        "myélose funiculaire"
+      ],
+      "cim10": null,
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-038",
+        "RES-SF-044"
+      ],
+      "symptomes": [
+        "paresthésies des extrémités",
+        "troubles de l'équilibre aggravés dans l'obscurité",
+        "asthénie"
+      ],
+      "signes_cliniques": [
+        "syndrome cordonal postérieur (ataxie proprioceptive, signe de Romberg)",
+        "syndrome pyramidal avec abolition des réflexes achilléens",
+        "troubles cognitifs"
+      ],
+      "examens_cles": [
+        "vitamine B12 basse",
+        "homocystéine et acide méthylmalonique élevés",
+        "NFS (macrocytose)",
+        "IRM médullaire (hypersignal cordonal postérieur)",
+        "anticorps anti-facteur intrinsèque"
+      ],
+      "traitements_cles": [
+        "vitamine B12 parentérale en urgence",
+        "traitement de la cause (Biermer, malabsorption)"
+      ],
+      "pathologies_liees": [
+        "PATH-GAST-0011",
+        "PATH-NEUR-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0064",
+      "nom_fr": "Myélopathie cervicarthrosique",
+      "nom_en": "Cervical spondylotic myelopathy",
+      "synonymes": [],
+      "cim10": "M47.1",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "dégénérative",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-038"
+      ],
+      "symptomes": [
+        "troubles de la marche progressifs",
+        "maladresse des mains",
+        "cervicalgies",
+        "troubles sphinctériens tardifs"
+      ],
+      "signes_cliniques": [
+        "syndrome pyramidal des membres inférieurs",
+        "signe de Hoffmann",
+        "atteinte radiculaire des membres supérieurs",
+        "signe de Lhermitte"
+      ],
+      "examens_cles": [
+        "IRM médullaire cervicale (canal étroit, hypersignal médullaire)",
+        "EMG"
+      ],
+      "traitements_cles": [
+        "chirurgie de décompression cervicale",
+        "collier en attente",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0060",
+        "PATH-NEUR-0033",
+        "PATH-NEUR-0062"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0065",
+      "nom_fr": "Encéphalopathie de Gayet-Wernicke (et syndrome de Korsakoff)",
+      "nom_en": "Wernicke encephalopathy and Korsakoff syndrome",
+      "synonymes": [],
+      "cim10": "E51.2",
+      "specialite": "NEUR",
+      "sous_specialite": "Démences et troubles cognitifs",
+      "categories": [
+        "neurologique",
+        "nutritionnelle",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-107",
+        "RES-MED-165"
+      ],
+      "symptomes": [
+        "confusion",
+        "troubles de l'équilibre",
+        "troubles oculomoteurs",
+        "amnésie antérograde avec fabulations (Korsakoff)",
+        "terrain alcoolique ou dénutri"
+      ],
+      "signes_cliniques": [
+        "ophtalmoplégie (nystagmus, paralysie du VI)",
+        "ataxie cérébelleuse",
+        "confusion"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (traitement sans attendre)",
+        "IRM cérébrale (hypersignaux des corps mamillaires et des régions périaqueducales)",
+        "thiaminémie"
+      ],
+      "traitements_cles": [
+        "thiamine IV à forte dose avant tout apport glucosé",
+        "sevrage alcoolique",
+        "nutrition"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0039",
+        "PATH-NEUR-0031",
+        "PATH-GAST-0049",
+        "PATH-GERI-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0066",
+      "nom_fr": "Encéphalites auto-immunes",
+      "nom_en": "Autoimmune encephalitis",
+      "synonymes": [
+        "encéphalite à anticorps anti-NMDA",
+        "encéphalite limbique"
+      ],
+      "cim10": null,
+      "specialite": "NEUR",
+      "sous_specialite": "Sclérose en plaques et neuro-inflammation",
+      "categories": [
+        "neurologique",
+        "auto-immune"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "symptomes": [
+        "troubles psychiatriques aigus",
+        "troubles mnésiques",
+        "crises épileptiques",
+        "mouvements anormaux",
+        "troubles de conscience",
+        "dysautonomie"
+      ],
+      "signes_cliniques": [
+        "dyskinésies oro-faciales",
+        "catatonie",
+        "crises épileptiques"
+      ],
+      "examens_cles": [
+        "anticorps anti-neuronaux dans le sang et le LCR (anti-NMDA-R, anti-LGI1, anti-CASPR2)",
+        "IRM cérébrale",
+        "EEG",
+        "ponction lombaire",
+        "recherche de tumeur (tératome ovarien)"
+      ],
+      "traitements_cles": [
+        "immunothérapie de première ligne (corticoïdes, immunoglobulines IV, échanges plasmatiques)",
+        "rituximab ou cyclophosphamide",
+        "exérèse tumorale"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0048",
+        "PATH-PSYC-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0067",
+      "nom_fr": "Ataxie de Friedreich",
+      "nom_en": "Friedreich ataxia",
+      "synonymes": [],
+      "cim10": "G11.1",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-039",
+        "RES-SF-045"
+      ],
+      "symptomes": [
+        "troubles de l'équilibre et de la marche débutant dans l'enfance ou l'adolescence",
+        "maladresse",
+        "dysarthrie",
+        "consanguinité fréquente"
+      ],
+      "signes_cliniques": [
+        "ataxie mixte cérébelleuse et proprioceptive",
+        "aréflexie",
+        "signe de Babinski",
+        "pieds creux",
+        "scoliose"
+      ],
+      "examens_cles": [
+        "génétique (expansion GAA du gène FXN)",
+        "EMG (neuropathie sensitive)",
+        "échocardiographie (cardiomyopathie hypertrophique)",
+        "glycémie"
+      ],
+      "traitements_cles": [
+        "omavéloxolone",
+        "kinésithérapie",
+        "prise en charge cardiaque, orthopédique et du diabète",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0012",
+        "PATH-NEUR-0032",
+        "PATH-IMPA-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0068",
+      "nom_fr": "Paraplégies spastiques héréditaires",
+      "nom_en": "Hereditary spastic paraplegias",
+      "synonymes": [
+        "maladie de Strümpell-Lorrain"
+      ],
+      "cim10": "G11.4",
+      "specialite": "NEUR",
+      "sous_specialite": "Pathologie neuromusculaire",
+      "categories": [
+        "neurologique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-105"
+      ],
+      "symptomes": [
+        "raideur et faiblesse progressive des membres inférieurs",
+        "troubles de la marche",
+        "antécédents familiaux"
+      ],
+      "signes_cliniques": [
+        "paraplégie spastique",
+        "hyperréflexie",
+        "signe de Babinski",
+        "troubles urinaires"
+      ],
+      "examens_cles": [
+        "IRM cérébrale et médullaire (élimination des autres causes)",
+        "génétique (SPAST et autres gènes)"
+      ],
+      "traitements_cles": [
+        "kinésithérapie",
+        "antispastiques (baclofène, toxine botulique)",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0060",
+        "PATH-NEUR-0022",
+        "PATH-NEUR-0064"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0069",
+      "nom_fr": "Narcolepsie",
+      "nom_en": "Narcolepsy",
+      "synonymes": [
+        "maladie de Gélineau"
+      ],
+      "cim10": "G47.4",
+      "specialite": "NEUR",
+      "sous_specialite": "Sclérose en plaques et neuro-inflammation",
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-152",
+        "RES-SF-019"
+      ],
+      "symptomes": [
+        "somnolence diurne excessive avec accès de sommeil irrépressibles",
+        "cataplexie (perte du tonus déclenchée par les émotions)",
+        "hallucinations hypnagogiques",
+        "paralysies du sommeil"
+      ],
+      "signes_cliniques": [
+        "examen normal",
+        "cataplexie"
+      ],
+      "examens_cles": [
+        "polysomnographie suivie de tests itératifs de latence d'endormissement (endormissements en sommeil paradoxal)",
+        "hypocrétine du LCR effondrée",
+        "HLA-DQB1*06:02"
+      ],
+      "traitements_cles": [
+        "hygiène de sommeil et siestes programmées",
+        "psychostimulants (modafinil, pitolisant)",
+        "oxybate de sodium (cataplexie)",
+        "antidépresseurs"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0047",
+        "PATH-PSYC-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0070",
+      "nom_fr": "Paralysie cérébrale (infirmité motrice cérébrale)",
+      "nom_en": "Cerebral palsy",
+      "synonymes": [
+        "IMC",
+        "IMOC"
+      ],
+      "cim10": "G80",
+      "specialite": "NEUR",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-076"
+      ],
+      "symptomes": [
+        "retard des acquisitions motrices",
+        "troubles du tonus",
+        "troubles de la posture et du mouvement",
+        "antécédent de prématurité ou de souffrance périnatale"
+      ],
+      "signes_cliniques": [
+        "spasticité (diplégie, hémiplégie, quadriplégie)",
+        "dystonie",
+        "troubles associés (épilepsie, troubles visuels, déficience intellectuelle)"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (leucomalacie périventriculaire, lésions séquellaires)",
+        "EEG",
+        "bilan des déficiences associées"
+      ],
+      "traitements_cles": [
+        "rééducation pluridisciplinaire (kinésithérapie, ergothérapie, orthophonie)",
+        "antispastiques et toxine botulique",
+        "chirurgie orthopédique",
+        "scolarisation adaptée"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-PSYC-0032",
+        "PATH-NEUR-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0001",
+      "nom_fr": "Schizophrénie",
+      "nom_en": "Schizophrenia",
+      "synonymes": [
+        "psychose schizophrénique"
+      ],
+      "cim10": "F20",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "symptomes": [
+        "idées délirantes (persécution, influence)",
+        "hallucinations auditives",
+        "désorganisation de la pensée et du comportement",
+        "retrait social",
+        "apathie",
+        "début à l'adolescence ou chez l'adulte jeune"
+      ],
+      "signes_cliniques": [
+        "syndrome positif (délire, hallucinations)",
+        "syndrome négatif (émoussement affectif, alogie, apragmatisme)",
+        "syndrome de désorganisation (discordance, ambivalence)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (critères DSM-5 ou CIM)",
+        "bilan somatique et toxicologique",
+        "imagerie cérébrale lors du premier épisode",
+        "bilan préthérapeutique (ECG, bilan métabolique)"
+      ],
+      "traitements_cles": [
+        "antipsychotiques de deuxième génération",
+        "antipsychotiques à action prolongée",
+        "clozapine si résistance",
+        "psychoéducation",
+        "remédiation cognitive",
+        "réhabilitation psychosociale",
+        "prévention des comorbidités addictives et métaboliques"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0002",
+        "PATH-PSYC-0005",
+        "PATH-PSYC-0041",
+        "PATH-PSYC-0046",
+        "PATH-PSYC-0049",
+        "PATH-PSYC-0048"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0002",
+      "nom_fr": "Bouffée délirante aiguë (trouble psychotique bref)",
+      "nom_en": "Brief psychotic disorder",
+      "synonymes": [
+        "trouble psychotique aigu et transitoire"
+      ],
+      "cim10": "F23",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-149",
+        "RES-MED-151"
+      ],
+      "symptomes": [
+        "délire polymorphe d'apparition brutale",
+        "hallucinations",
+        "fluctuations thymiques",
+        "angoisse",
+        "adulte jeune",
+        "facteur déclenchant possible"
+      ],
+      "signes_cliniques": [
+        "délire non systématisé",
+        "troubles du comportement",
+        "agitation",
+        "vécu délirant intense"
+      ],
+      "examens_cles": [
+        "bilan somatique et toxicologique (cannabis, stimulants)",
+        "imagerie cérébrale",
+        "recherche d'une cause organique"
+      ],
+      "traitements_cles": [
+        "hospitalisation souvent nécessaire",
+        "antipsychotique",
+        "anxiolytique",
+        "surveillance de l'évolution (rémission, schizophrénie, trouble bipolaire)"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0001",
+        "PATH-PSYC-0007",
+        "PATH-PSYC-0006",
+        "PATH-PSYC-0012",
+        "PATH-PSYC-0047"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0003",
+      "nom_fr": "Trouble délirant persistant (paranoïa)",
+      "nom_en": "Delusional disorder",
+      "synonymes": [
+        "délire paranoïaque",
+        "délire passionnel",
+        "délire de relation des sensitifs"
+      ],
+      "cim10": "F22",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "symptomes": [
+        "délire systématisé, cohérent, à thème unique (persécution, jalousie, érotomanie, revendication)",
+        "absence de détérioration",
+        "personnalité paranoïaque fréquente"
+      ],
+      "signes_cliniques": [
+        "conviction délirante inébranlable",
+        "préservation du fonctionnement intellectuel",
+        "risque de passage à l'acte hétéroagressif"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "élimination d'une cause organique ou toxique"
+      ],
+      "traitements_cles": [
+        "antipsychotique",
+        "alliance thérapeutique",
+        "évaluation du risque médico-légal",
+        "hospitalisation sous contrainte si danger"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0001",
+        "PATH-PSYC-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0004",
+      "nom_fr": "Psychose hallucinatoire chronique",
+      "nom_en": "Chronic hallucinatory psychosis",
+      "synonymes": [
+        "trouble délirant à mécanisme hallucinatoire (nosographie française)"
+      ],
+      "cim10": null,
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique",
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "symptomes": [
+        "hallucinations auditives et cénesthésiques",
+        "délire de persécution",
+        "femme d'âge mûr, isolement social et sensoriel"
+      ],
+      "signes_cliniques": [
+        "délire peu systématisé à mécanisme hallucinatoire",
+        "absence de dissociation",
+        "adaptation sociale relativement conservée"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "bilan neurologique et sensoriel (surdité)",
+        "imagerie cérébrale"
+      ],
+      "traitements_cles": [
+        "antipsychotique à faible dose",
+        "correction des déficits sensoriels",
+        "suivi régulier"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0003",
+        "PATH-PSYC-0001",
+        "PATH-GERI-0019",
+        "PATH-NEUR-0050"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0005",
+      "nom_fr": "Trouble schizo-affectif",
+      "nom_en": "Schizoaffective disorder",
+      "synonymes": [],
+      "cim10": "F25",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-149",
+        "RES-MED-153"
+      ],
+      "symptomes": [
+        "association de symptômes schizophréniques et d'épisodes thymiques (maniaques ou dépressifs)"
+      ],
+      "signes_cliniques": [
+        "syndrome délirant persistant en dehors des épisodes thymiques"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "bilan somatique"
+      ],
+      "traitements_cles": [
+        "antipsychotique",
+        "thymorégulateur",
+        "antidépresseur selon l'épisode",
+        "psychoéducation"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0001",
+        "PATH-PSYC-0007",
+        "PATH-PSYC-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0006",
+      "nom_fr": "Trouble psychotique induit par une substance",
+      "nom_en": "Substance-induced psychotic disorder",
+      "synonymes": [
+        "psychose cannabique",
+        "psychose aux psychostimulants"
+      ],
+      "cim10": null,
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "psychiatrique",
+        "addictive",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "symptomes": [
+        "idées délirantes et hallucinations survenant pendant ou après la consommation (cannabis, amphétamines, cocaïne, hallucinogènes)",
+        "agitation"
+      ],
+      "signes_cliniques": [
+        "délire",
+        "hallucinations",
+        "signes d'intoxication"
+      ],
+      "examens_cles": [
+        "dépistage urinaire des toxiques",
+        "bilan somatique",
+        "évolution après sevrage"
+      ],
+      "traitements_cles": [
+        "sevrage de la substance",
+        "antipsychotique de courte durée",
+        "prise en charge addictologique",
+        "surveillance de l'évolution vers une schizophrénie"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0041",
+        "PATH-PSYC-0043",
+        "PATH-PSYC-0001",
+        "PATH-PSYC-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0007",
+      "nom_fr": "Trouble bipolaire",
+      "nom_en": "Bipolar disorder",
+      "synonymes": [
+        "psychose maniaco-dépressive",
+        "trouble bipolaire de type I et II"
+      ],
+      "cim10": "F31",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "symptomes": [
+        "épisodes maniaques ou hypomaniaques (exaltation, euphorie ou irritabilité, réduction du besoin de sommeil, tachypsychie, logorrhée, dépenses)",
+        "épisodes dépressifs"
+      ],
+      "signes_cliniques": [
+        "excitation psychomotrice",
+        "fuite des idées",
+        "idées de grandeur",
+        "symptômes psychotiques possibles"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "bilan somatique et toxicologique",
+        "bilan préthérapeutique (TSH, fonction rénale, test de grossesse, ECG)"
+      ],
+      "traitements_cles": [
+        "thymorégulateurs (lithium, valproate, lamotrigine)",
+        "antipsychotiques de deuxième génération",
+        "psychoéducation",
+        "hospitalisation en phase maniaque sévère",
+        "prudence avec les antidépresseurs"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0008",
+        "PATH-PSYC-0005",
+        "PATH-PSYC-0046",
+        "PATH-PSYC-0038",
+        "PATH-NEPH-0047"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0008",
+      "nom_fr": "Cyclothymie",
+      "nom_en": "Cyclothymic disorder",
+      "synonymes": [],
+      "cim10": "F34.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "symptomes": [
+        "alternance chronique de périodes d'hypomanie et de dépression légère pendant au moins 2 ans"
+      ],
+      "signes_cliniques": [
+        "instabilité thymique",
+        "impact relationnel et professionnel"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "recherche d'une addiction associée"
+      ],
+      "traitements_cles": [
+        "psychoéducation",
+        "thymorégulateur selon le retentissement",
+        "psychothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0007",
+        "PATH-PSYC-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0009",
+      "nom_fr": "Épisode dépressif caractérisé (trouble dépressif)",
+      "nom_en": "Major depressive episode",
+      "synonymes": [
+        "dépression",
+        "trouble dépressif majeur",
+        "trouble dépressif récurrent"
+      ],
+      "cim10": "F32",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "symptomes": [
+        "humeur dépressive",
+        "perte d'intérêt et de plaisir (anhédonie)",
+        "fatigue",
+        "troubles du sommeil et de l'appétit",
+        "ralentissement",
+        "culpabilité",
+        "idées suicidaires",
+        "troubles de la concentration"
+      ],
+      "signes_cliniques": [
+        "ralentissement psychomoteur",
+        "tristesse de l'expression",
+        "caractéristiques mélancoliques ou psychotiques"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (critères DSM-5)",
+        "évaluation du risque suicidaire",
+        "bilan somatique (TSH, NFS)",
+        "échelles d'intensité (MADRS, HDRS, PHQ-9)"
+      ],
+      "traitements_cles": [
+        "psychothérapie",
+        "antidépresseurs (ISRS, IRSNa)",
+        "électroconvulsivothérapie (formes sévères ou résistantes)",
+        "stimulation magnétique transcrânienne",
+        "hospitalisation si risque suicidaire"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0046",
+        "PATH-PSYC-0007",
+        "PATH-PSYC-0010",
+        "PATH-PSYC-0011",
+        "PATH-GERI-0014",
+        "PATH-PSYC-0013",
+        "PATH-NEUR-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0010",
+      "nom_fr": "Trouble dépressif persistant (dysthymie)",
+      "nom_en": "Persistent depressive disorder (dysthymia)",
+      "synonymes": [],
+      "cim10": "F34.1",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "symptomes": [
+        "humeur dépressive chronique la plupart du temps pendant au moins 2 ans",
+        "faible estime de soi",
+        "fatigue"
+      ],
+      "signes_cliniques": [
+        "symptômes dépressifs d'intensité modérée mais durables"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "recherche d'un épisode dépressif caractérisé surajouté"
+      ],
+      "traitements_cles": [
+        "psychothérapie",
+        "antidépresseur"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0011",
+      "nom_fr": "Dépression du post-partum",
+      "nom_en": "Postpartum depression",
+      "synonymes": [],
+      "cim10": "F53.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "symptomes": [
+        "tristesse",
+        "anxiété centrée sur l'enfant",
+        "sentiment d'incapacité maternelle",
+        "troubles du sommeil",
+        "dans l'année suivant l'accouchement"
+      ],
+      "signes_cliniques": [
+        "retentissement sur le lien mère-enfant",
+        "idées suicidaires ou d'infanticide (formes graves)"
+      ],
+      "examens_cles": [
+        "dépistage (échelle EPDS)",
+        "bilan somatique (TSH, NFS)"
+      ],
+      "traitements_cles": [
+        "psychothérapie",
+        "antidépresseur compatible avec l'allaitement",
+        "unités mère-enfant",
+        "soutien social"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0012",
+      "nom_fr": "Psychose puerpérale",
+      "nom_en": "Postpartum psychosis",
+      "synonymes": [],
+      "cim10": "F53.1",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique",
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "symptomes": [
+        "confusion",
+        "délire centré sur l'enfant",
+        "hallucinations",
+        "agitation",
+        "fluctuations thymiques",
+        "début brutal dans les semaines suivant l'accouchement"
+      ],
+      "signes_cliniques": [
+        "troubles du comportement",
+        "risque suicidaire et d'infanticide"
+      ],
+      "examens_cles": [
+        "bilan somatique (infection, thyroïde, éclampsie)",
+        "imagerie cérébrale si signes neurologiques"
+      ],
+      "traitements_cles": [
+        "hospitalisation en urgence (unité mère-enfant)",
+        "antipsychotique",
+        "thymorégulateur",
+        "électroconvulsivothérapie dans certains cas",
+        "prévention de la récidive"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0007",
+        "PATH-PSYC-0002",
+        "PATH-PSYC-0011",
+        "PATH-NEUR-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0013",
+      "nom_fr": "Trouble anxieux généralisé",
+      "nom_en": "Generalised anxiety disorder",
+      "synonymes": [],
+      "cim10": "F41.1",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-150"
+      ],
+      "symptomes": [
+        "inquiétudes excessives et incontrôlables concernant plusieurs domaines, depuis au moins 6 mois",
+        "tension",
+        "irritabilité",
+        "fatigue",
+        "troubles du sommeil",
+        "difficultés de concentration"
+      ],
+      "signes_cliniques": [
+        "tension musculaire",
+        "signes neurovégétatifs"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "élimination d'une cause somatique (hyperthyroïdie) ou toxique (caféine, sevrage)"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale",
+        "antidépresseurs ISRS ou IRSNa",
+        "anxiolytique de courte durée",
+        "prégabaline"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0014",
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0014",
+      "nom_fr": "Trouble panique",
+      "nom_en": "Panic disorder",
+      "synonymes": [],
+      "cim10": "F41.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-150"
+      ],
+      "symptomes": [
+        "attaques de panique récurrentes et inattendues (palpitations, oppression thoracique, dyspnée, vertiges, peur de mourir ou de devenir fou)",
+        "anxiété anticipatoire"
+      ],
+      "signes_cliniques": [
+        "signes neurovégétatifs pendant la crise",
+        "examen normal en dehors des crises"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "ECG",
+        "élimination d'une cause cardiaque, endocrinienne ou toxique"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale",
+        "antidépresseurs ISRS",
+        "benzodiazépine ponctuelle",
+        "réassurance"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0015",
+        "PATH-PSYC-0013",
+        "PATH-CARD-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0015",
+      "nom_fr": "Agoraphobie",
+      "nom_en": "Agoraphobia",
+      "synonymes": [],
+      "cim10": "F40.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-150"
+      ],
+      "symptomes": [
+        "peur et évitement des lieux ou situations d'où il serait difficile de s'échapper (transports, foule, espaces ouverts)"
+      ],
+      "signes_cliniques": [
+        "conduites d'évitement",
+        "recours à un accompagnant"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale avec exposition",
+        "antidépresseurs ISRS"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0014",
+        "PATH-PSYC-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0016",
+      "nom_fr": "Trouble anxiété sociale (phobie sociale)",
+      "nom_en": "Social anxiety disorder",
+      "synonymes": [],
+      "cim10": "F40.1",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-150"
+      ],
+      "symptomes": [
+        "peur intense du regard et du jugement d'autrui",
+        "évitement des situations sociales",
+        "rougissement",
+        "tremblements"
+      ],
+      "signes_cliniques": [
+        "signes neurovégétatifs en situation sociale"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "recherche d'une consommation d'alcool associée"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale",
+        "antidépresseurs ISRS"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0015",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0017",
+      "nom_fr": "Phobies spécifiques",
+      "nom_en": "Specific phobias",
+      "synonymes": [],
+      "cim10": "F40.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-150"
+      ],
+      "symptomes": [
+        "peur intense et irrationnelle d'un objet ou d'une situation (animaux, hauteur, sang, avion)",
+        "évitement"
+      ],
+      "signes_cliniques": [
+        "réaction anxieuse immédiate lors de l'exposition"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "thérapie comportementale par exposition progressive"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0018",
+      "nom_fr": "Trouble obsessionnel compulsif",
+      "nom_en": "Obsessive-compulsive disorder",
+      "synonymes": [
+        "TOC",
+        "névrose obsessionnelle"
+      ],
+      "cim10": "F42",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-150"
+      ],
+      "symptomes": [
+        "obsessions (pensées intrusives, répétitives, anxiogènes) et compulsions (rituels de lavage, de vérification, de comptage)",
+        "conscience du caractère excessif"
+      ],
+      "signes_cliniques": [
+        "rituels chronophages",
+        "retentissement fonctionnel"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échelle Y-BOCS"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale avec exposition et prévention de la réponse",
+        "antidépresseurs ISRS à doses élevées",
+        "clomipramine"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0033",
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0019",
+      "nom_fr": "Trouble de stress post-traumatique",
+      "nom_en": "Post-traumatic stress disorder",
+      "synonymes": [
+        "état de stress post-traumatique"
+      ],
+      "cim10": "F43.1",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "reviviscences (flashbacks, cauchemars)",
+        "évitement",
+        "hypervigilance",
+        "altérations négatives de l'humeur",
+        "plus d'un mois après un événement traumatique"
+      ],
+      "signes_cliniques": [
+        "réactions de sursaut",
+        "troubles du sommeil",
+        "détresse lors des rappels"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "repérage des comorbidités (dépression, addictions)"
+      ],
+      "traitements_cles": [
+        "psychothérapies centrées sur le trauma (TCC, EMDR)",
+        "antidépresseurs ISRS",
+        "prise en charge des comorbidités"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0020",
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0046",
+        "PATH-GERI-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0020",
+      "nom_fr": "Trouble de stress aigu",
+      "nom_en": "Acute stress disorder",
+      "synonymes": [],
+      "cim10": "F43.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "symptômes dissociatifs, de reviviscence, d'évitement et d'hyperéveil entre 3 jours et 1 mois après un traumatisme"
+      ],
+      "signes_cliniques": [
+        "état de sidération ou d'agitation",
+        "dépersonnalisation"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "soutien psychologique immédiat (cellules d'urgence médico-psychologique)",
+        "prévention du TSPT",
+        "éviction des benzodiazépines au long cours"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0019",
+        "PATH-PSYC-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0021",
+      "nom_fr": "Trouble de l'adaptation",
+      "nom_en": "Adjustment disorder",
+      "synonymes": [],
+      "cim10": "F43.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "symptômes émotionnels ou comportementaux (anxiété, tristesse) en réponse à un facteur de stress identifiable, dans les 3 mois"
+      ],
+      "signes_cliniques": [
+        "retentissement proportionné ou excessif"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "élimination d'un épisode dépressif caractérisé"
+      ],
+      "traitements_cles": [
+        "psychothérapie de soutien",
+        "résolution du facteur de stress",
+        "traitement symptomatique bref"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0022",
+      "nom_fr": "Trouble à symptomatologie somatique",
+      "nom_en": "Somatic symptom disorder",
+      "synonymes": [
+        "troubles somatoformes"
+      ],
+      "cim10": "F45",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de liaison",
+      "categories": [
+        "psychiatrique",
+        "fonctionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "symptômes somatiques persistants source de détresse, avec pensées, sentiments et comportements excessifs liés à ces symptômes"
+      ],
+      "signes_cliniques": [
+        "examen clinique sans explication lésionnelle suffisante"
+      ],
+      "examens_cles": [
+        "bilan somatique raisonné et non répété",
+        "repérage de l'anxiété et de la dépression"
+      ],
+      "traitements_cles": [
+        "alliance thérapeutique avec un médecin référent",
+        "thérapie cognitivo-comportementale",
+        "antidépresseurs",
+        "limitation des explorations inutiles"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0024",
+        "PATH-PSYC-0023",
+        "PATH-GAST-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0023",
+      "nom_fr": "Trouble neurologique fonctionnel (trouble de conversion)",
+      "nom_en": "Functional neurological disorder (conversion disorder)",
+      "synonymes": [
+        "hystérie de conversion",
+        "crises non épileptiques psychogènes"
+      ],
+      "cim10": "F44",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de liaison",
+      "categories": [
+        "psychiatrique",
+        "neurologique",
+        "fonctionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "déficit moteur ou sensitif, troubles de la marche, crises pseudo-épileptiques, aphonie, cécité, sans lésion explicative"
+      ],
+      "signes_cliniques": [
+        "signes positifs (signe de Hoover, incohérence clinique)",
+        "indifférence variable"
+      ],
+      "examens_cles": [
+        "examen neurologique avec signes positifs",
+        "examens complémentaires pour éliminer une cause organique",
+        "vidéo-EEG (crises)"
+      ],
+      "traitements_cles": [
+        "annonce explicative du diagnostic",
+        "kinésithérapie et rééducation spécifiques",
+        "psychothérapie",
+        "prise en charge des comorbidités"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0008",
+        "PATH-PSYC-0022",
+        "PATH-NEUR-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0024",
+      "nom_fr": "Crainte excessive d'avoir une maladie (hypocondrie)",
+      "nom_en": "Illness anxiety disorder (hypochondriasis)",
+      "synonymes": [
+        "hypocondrie"
+      ],
+      "cim10": "F45.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de liaison",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "préoccupation persistante d'avoir ou de contracter une maladie grave",
+        "vérifications et consultations répétées ou évitement"
+      ],
+      "signes_cliniques": [
+        "examen normal",
+        "demande de réassurance répétée"
+      ],
+      "examens_cles": [
+        "éviction des examens répétés non justifiés"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale",
+        "antidépresseurs ISRS",
+        "suivi régulier programmé"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0022",
+        "PATH-PSYC-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0025",
+      "nom_fr": "Trouble factice (syndrome de Münchhausen)",
+      "nom_en": "Factitious disorder (Munchausen syndrome)",
+      "synonymes": [
+        "syndrome de Münchhausen",
+        "syndrome de Münchhausen par procuration"
+      ],
+      "cim10": "F68.1",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de liaison",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "production intentionnelle de symptômes ou de signes physiques sans bénéfice externe",
+        "nomadisme médical",
+        "antécédents d'hospitalisations multiples"
+      ],
+      "signes_cliniques": [
+        "signes discordants",
+        "lésions auto-infligées",
+        "hypoglycémies factices"
+      ],
+      "examens_cles": [
+        "confrontation des données",
+        "dosages toxicologiques (insuline et peptide C, anticoagulants)"
+      ],
+      "traitements_cles": [
+        "prise en charge psychiatrique",
+        "confrontation bienveillante",
+        "protection de l'enfant (forme par procuration)"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0018",
+        "PATH-PSYC-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0026",
+      "nom_fr": "Anorexie mentale",
+      "nom_en": "Anorexia nervosa",
+      "synonymes": [],
+      "cim10": "F50.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "restriction alimentaire",
+        "peur intense de grossir",
+        "distorsion de l'image corporelle",
+        "aménorrhée",
+        "hyperactivité physique",
+        "adolescente"
+      ],
+      "signes_cliniques": [
+        "IMC très bas",
+        "bradycardie",
+        "hypotension",
+        "hypothermie",
+        "lanugo",
+        "acrocyanose"
+      ],
+      "examens_cles": [
+        "IMC",
+        "ionogramme (hypokaliémie, hypophosphatémie)",
+        "ECG",
+        "NFS",
+        "bilan hépatique",
+        "ostéodensitométrie"
+      ],
+      "traitements_cles": [
+        "prise en charge multidisciplinaire (psychiatrique, nutritionnelle, somatique)",
+        "renutrition progressive",
+        "thérapie familiale et cognitivo-comportementale",
+        "hospitalisation si critères de gravité"
+      ],
+      "pathologies_liees": [
+        "PATH-GAST-0049",
+        "PATH-PSYC-0027",
+        "PATH-GAST-0048",
+        "PATH-NEPH-0041",
+        "PATH-PSYC-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0027",
+      "nom_fr": "Boulimie",
+      "nom_en": "Bulimia nervosa",
+      "synonymes": [],
+      "cim10": "F50.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "crises de frénésie alimentaire avec perte de contrôle",
+        "comportements compensatoires (vomissements provoqués, laxatifs, diurétiques)",
+        "préoccupation excessive du poids"
+      ],
+      "signes_cliniques": [
+        "poids souvent normal",
+        "hypertrophie parotidienne",
+        "érosions dentaires",
+        "signe de Russell (callosités des doigts)"
+      ],
+      "examens_cles": [
+        "ionogramme (hypokaliémie, alcalose)",
+        "ECG"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale",
+        "antidépresseur ISRS (fluoxétine)",
+        "prise en charge des complications"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0026",
+        "PATH-PSYC-0028",
+        "PATH-NEPH-0041",
+        "PATH-NEPH-0043",
+        "PATH-PSYC-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0028",
+      "nom_fr": "Accès hyperphagiques (binge eating disorder)",
+      "nom_en": "Binge eating disorder",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "crises de frénésie alimentaire récurrentes sans comportements compensatoires",
+        "détresse marquée"
+      ],
+      "signes_cliniques": [
+        "obésité fréquente"
+      ],
+      "examens_cles": [
+        "évaluation des complications métaboliques"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale",
+        "prise en charge nutritionnelle",
+        "traitement de l'obésité"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0027",
+        "PATH-PSYC-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0029",
+      "nom_fr": "Trouble insomnie",
+      "nom_en": "Insomnia disorder",
+      "synonymes": [
+        "insomnie chronique"
+      ],
+      "cim10": "F51.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-152"
+      ],
+      "symptomes": [
+        "difficultés d'endormissement, réveils nocturnes ou précoces, au moins 3 nuits par semaine pendant 3 mois",
+        "fatigue et retentissement diurne"
+      ],
+      "signes_cliniques": [
+        "examen normal"
+      ],
+      "examens_cles": [
+        "agenda du sommeil",
+        "recherche de comorbidités (dépression, anxiété, SAOS, jambes sans repos)",
+        "polysomnographie si doute"
+      ],
+      "traitements_cles": [
+        "hygiène du sommeil",
+        "thérapie cognitivo-comportementale de l'insomnie",
+        "hypnotiques de courte durée",
+        "mélatonine chez le sujet âgé",
+        "traitement des comorbidités"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0013",
+        "PATH-PNEU-0047",
+        "PATH-NEUR-0021",
+        "PATH-PSYC-0044"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0030",
+      "nom_fr": "Trouble du déficit de l'attention avec ou sans hyperactivité",
+      "nom_en": "Attention-deficit/hyperactivity disorder",
+      "synonymes": [
+        "TDAH"
+      ],
+      "cim10": "F90",
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "inattention",
+        "hyperactivité motrice",
+        "impulsivité",
+        "début avant 12 ans",
+        "retentissement scolaire, familial et social"
+      ],
+      "signes_cliniques": [
+        "agitation",
+        "difficultés de concentration en consultation (inconstantes)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "questionnaires (Conners)",
+        "bilan neuropsychologique",
+        "bilan orthophonique et sensoriel"
+      ],
+      "traitements_cles": [
+        "psychoéducation et guidance parentale",
+        "aménagements scolaires",
+        "méthylphénidate",
+        "thérapie cognitivo-comportementale"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0031",
+        "PATH-PSYC-0034",
+        "PATH-PSYC-0033",
+        "PATH-NEUR-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0031",
+      "nom_fr": "Trouble du spectre de l'autisme",
+      "nom_en": "Autism spectrum disorder",
+      "synonymes": [
+        "autisme"
+      ],
+      "cim10": "F84",
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "pédiatrique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-066"
+      ],
+      "symptomes": [
+        "déficit de la communication et des interactions sociales",
+        "comportements, intérêts et activités restreints et répétitifs",
+        "particularités sensorielles",
+        "apparition dans la petite enfance"
+      ],
+      "signes_cliniques": [
+        "absence de pointage et d'attention conjointe",
+        "stéréotypies",
+        "retard de langage fréquent"
+      ],
+      "examens_cles": [
+        "repérage précoce (M-CHAT)",
+        "évaluation pluridisciplinaire (ADOS, ADI-R)",
+        "bilan génétique (X fragile, puces ADN)",
+        "bilan auditif",
+        "EEG si suspicion d'épilepsie"
+      ],
+      "traitements_cles": [
+        "interventions éducatives et comportementales précoces",
+        "orthophonie",
+        "scolarisation adaptée",
+        "traitement des comorbidités (irritabilité, sommeil, épilepsie)"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0032",
+        "PATH-NEUR-0008",
+        "PATH-PSYC-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0032",
+      "nom_fr": "Déficience intellectuelle (trouble du développement intellectuel)",
+      "nom_en": "Intellectual disability",
+      "synonymes": [
+        "retard mental"
+      ],
+      "cim10": null,
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "pédiatrique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-066"
+      ],
+      "symptomes": [
+        "retard global des acquisitions",
+        "difficultés d'apprentissage",
+        "limitations du fonctionnement adaptatif"
+      ],
+      "signes_cliniques": [
+        "signes dysmorphiques ou neurologiques selon la cause"
+      ],
+      "examens_cles": [
+        "évaluation psychométrique (QI) et adaptative",
+        "bilan étiologique (génétique, métabolique, imagerie, audition, vision)"
+      ],
+      "traitements_cles": [
+        "prise en charge éducative et rééducative précoce",
+        "scolarisation adaptée",
+        "conseil génétique",
+        "traitement des comorbidités"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0031",
+        "PATH-NEUR-0070"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0033",
+      "nom_fr": "Syndrome de Gilles de la Tourette",
+      "nom_en": "Tourette syndrome",
+      "synonymes": [
+        "tics chroniques moteurs et vocaux"
+      ],
+      "cim10": "F95.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "tics moteurs multiples et au moins un tic vocal depuis plus d'un an, début avant 18 ans",
+        "sensation prémonitoire"
+      ],
+      "signes_cliniques": [
+        "tics fluctuants, partiellement contrôlables",
+        "coprolalie (rare)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "recherche des comorbidités (TDAH, TOC)"
+      ],
+      "traitements_cles": [
+        "psychoéducation",
+        "thérapie comportementale (inversion d'habitude)",
+        "antipsychotiques ou alpha-2 agonistes si retentissement"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0030",
+        "PATH-PSYC-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0034",
+      "nom_fr": "Trouble des conduites",
+      "nom_en": "Conduct disorder",
+      "synonymes": [],
+      "cim10": "F91",
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "comportements répétitifs et persistants violant les droits d'autrui ou les normes sociales (agressions, destructions, vols, fugues)"
+      ],
+      "signes_cliniques": [
+        "retentissement scolaire et familial"
+      ],
+      "examens_cles": [
+        "évaluation pédopsychiatrique",
+        "repérage des maltraitances et des comorbidités (TDAH, addictions)"
+      ],
+      "traitements_cles": [
+        "prise en charge multimodale (guidance parentale, thérapies familiales, interventions éducatives)",
+        "traitement des comorbidités"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0030",
+        "PATH-PSYC-0037",
+        "PATH-PSYC-0041",
+        "PATH-GERI-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0035",
+      "nom_fr": "Trouble anxiété de séparation",
+      "nom_en": "Separation anxiety disorder",
+      "synonymes": [],
+      "cim10": "F93.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Pédopsychiatrie",
+      "categories": [
+        "psychiatrique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "peur excessive et persistante de la séparation des figures d'attachement",
+        "refus d'aller à l'école",
+        "plaintes somatiques",
+        "cauchemars"
+      ],
+      "signes_cliniques": [
+        "anxiété majeure lors des séparations"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale",
+        "guidance parentale",
+        "collaboration avec l'école"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0013",
+        "PATH-PSYC-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0036",
+      "nom_fr": "Trouble de la personnalité borderline",
+      "nom_en": "Borderline personality disorder",
+      "synonymes": [
+        "personnalité état-limite",
+        "trouble de la personnalité émotionnellement labile"
+      ],
+      "cim10": "F60.3",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "instabilité émotionnelle, relationnelle et de l'image de soi",
+        "impulsivité",
+        "sentiment de vide",
+        "peur de l'abandon",
+        "colères intenses"
+      ],
+      "signes_cliniques": [
+        "automutilations",
+        "tentatives de suicide répétées",
+        "conduites à risque"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "repérage des comorbidités (dépression, addictions, TSPT)"
+      ],
+      "traitements_cles": [
+        "psychothérapies spécifiques (thérapie comportementale dialectique, mentalisation)",
+        "traitement des comorbidités",
+        "gestion de crise"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0046",
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0037",
+      "nom_fr": "Trouble de la personnalité antisociale",
+      "nom_en": "Antisocial personality disorder",
+      "synonymes": [
+        "personnalité psychopathique",
+        "personnalité dyssociale"
+      ],
+      "cim10": "F60.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie médico-légale",
+      "categories": [
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "mépris et transgression des droits d'autrui",
+        "impulsivité",
+        "irritabilité et agressivité",
+        "absence de remords",
+        "antécédents de trouble des conduites"
+      ],
+      "signes_cliniques": [
+        "passages à l'acte",
+        "conduites délictueuses",
+        "addictions associées"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "évaluation du risque de violence"
+      ],
+      "traitements_cles": [
+        "prise en charge des comorbidités addictives",
+        "approches psychoéducatives et judiciaires",
+        "thérapies structurées"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0034",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0038",
+      "nom_fr": "Trouble de l'usage de l'alcool (dépendance alcoolique)",
+      "nom_en": "Alcohol use disorder (alcohol dependence)",
+      "synonymes": [
+        "alcoolisme",
+        "dépendance à l'alcool"
+      ],
+      "cim10": "F10.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "addictive",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "envie irrépressible de boire (craving)",
+        "perte de contrôle",
+        "tolérance",
+        "syndrome de sevrage",
+        "poursuite malgré les conséquences"
+      ],
+      "signes_cliniques": [
+        "signes d'imprégnation (érythrose faciale, tremblements)",
+        "hépatomégalie",
+        "neuropathie"
+      ],
+      "examens_cles": [
+        "questionnaires (AUDIT, DETA/CAGE)",
+        "GGT, VGM, CDT",
+        "bilan hépatique",
+        "dépistage des complications"
+      ],
+      "traitements_cles": [
+        "intervention brève",
+        "sevrage encadré",
+        "médicaments de maintien de l'abstinence ou de réduction de consommation (acamprosate, naltrexone, baclofène, nalméfène)",
+        "accompagnement psychosocial",
+        "groupes d'entraide"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0039",
+        "PATH-HEPA-0007",
+        "PATH-HEPA-0010",
+        "PATH-GAST-0041",
+        "PATH-NEUR-0031",
+        "PATH-NEUR-0065",
+        "PATH-GAST-0007",
+        "PATH-CARD-0011",
+        "PATH-PSYC-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0039",
+      "nom_fr": "Syndrome de sevrage alcoolique et delirium tremens",
+      "nom_en": "Alcohol withdrawal syndrome and delirium tremens",
+      "synonymes": [
+        "delirium tremens"
+      ],
+      "cim10": "F10.3",
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "addictive",
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-151"
+      ],
+      "symptomes": [
+        "tremblements",
+        "sueurs",
+        "anxiété",
+        "insomnie",
+        "nausées 6 à 24 h après l'arrêt",
+        "hallucinations",
+        "confusion et agitation (delirium tremens)"
+      ],
+      "signes_cliniques": [
+        "tremblements",
+        "tachycardie",
+        "HTA",
+        "fièvre",
+        "convulsions",
+        "confusion avec onirisme (zoopsies)"
+      ],
+      "examens_cles": [
+        "score de Cushman",
+        "glycémie",
+        "ionogramme",
+        "phosphorémie",
+        "magnésémie",
+        "bilan hépatique",
+        "recherche de complications associées"
+      ],
+      "traitements_cles": [
+        "benzodiazépines selon les symptômes",
+        "hydratation",
+        "thiamine IV avant tout soluté glucosé",
+        "correction ionique",
+        "surveillance en milieu adapté"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0038",
+        "PATH-NEUR-0065",
+        "PATH-NEUR-0009",
+        "PATH-GERI-0008",
+        "PATH-NEPH-0041",
+        "PATH-NEPH-0049"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0040",
+      "nom_fr": "Trouble de l'usage des opioïdes",
+      "nom_en": "Opioid use disorder",
+      "synonymes": [
+        "dépendance aux opiacés",
+        "héroïnomanie"
+      ],
+      "cim10": "F11.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "addictive",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "craving",
+        "tolérance",
+        "syndrome de sevrage (bâillements, rhinorrhée, mydriase, douleurs, diarrhée)",
+        "usage injectable"
+      ],
+      "signes_cliniques": [
+        "myosis (intoxication)",
+        "traces d'injection",
+        "signes de surdosage (coma, bradypnée)"
+      ],
+      "examens_cles": [
+        "dépistage urinaire",
+        "sérologies VIH, VHB, VHC",
+        "bilan des complications infectieuses"
+      ],
+      "traitements_cles": [
+        "traitements de substitution (buprénorphine, méthadone)",
+        "naloxone en cas de surdosage",
+        "réduction des risques",
+        "accompagnement psychosocial"
+      ],
+      "pathologies_liees": [
+        "PATH-HEPA-0004",
+        "PATH-CARD-0029",
+        "PATH-PNEU-0049"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0041",
+      "nom_fr": "Trouble de l'usage du cannabis",
+      "nom_en": "Cannabis use disorder",
+      "synonymes": [],
+      "cim10": "F12.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "addictive",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "consommation régulière avec perte de contrôle",
+        "syndrome amotivationnel",
+        "anxiété",
+        "troubles de la mémoire",
+        "syndrome d'hyperémèse cannabinoïde"
+      ],
+      "signes_cliniques": [
+        "hyperhémie conjonctivale",
+        "tachycardie"
+      ],
+      "examens_cles": [
+        "dépistage urinaire",
+        "repérage des comorbidités psychiatriques"
+      ],
+      "traitements_cles": [
+        "entretien motivationnel",
+        "thérapie cognitivo-comportementale",
+        "prise en charge des comorbidités"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0006",
+        "PATH-PSYC-0001",
+        "PATH-CARD-0056",
+        "PATH-PNEU-0046"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0042",
+      "nom_fr": "Trouble de l'usage du tabac (dépendance tabagique)",
+      "nom_en": "Tobacco use disorder",
+      "synonymes": [
+        "tabagisme"
+      ],
+      "cim10": "F17.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "addictive",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "besoin de fumer",
+        "syndrome de sevrage à l'arrêt (irritabilité, troubles de concentration, prise de poids)",
+        "consommation persistante"
+      ],
+      "signes_cliniques": [
+        "signes de complications (BPCO, artériopathie)"
+      ],
+      "examens_cles": [
+        "test de Fagerström",
+        "CO expiré",
+        "dépistage des complications (EFR, cancer bronchique chez les gros fumeurs)"
+      ],
+      "traitements_cles": [
+        "conseil minimal",
+        "substituts nicotiniques",
+        "varénicline",
+        "bupropion",
+        "thérapie cognitivo-comportementale"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0003",
+        "PATH-PNEU-0022",
+        "PATH-CARD-0001",
+        "PATH-CARD-0045",
+        "PATH-CARD-0056"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0043",
+      "nom_fr": "Trouble de l'usage de la cocaïne et des psychostimulants",
+      "nom_en": "Cocaine and stimulant use disorder",
+      "synonymes": [],
+      "cim10": "F14.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "addictive",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "craving intense",
+        "euphorie puis descente dysphorique",
+        "insomnie",
+        "anxiété",
+        "épisodes paranoïdes"
+      ],
+      "signes_cliniques": [
+        "mydriase",
+        "tachycardie",
+        "HTA",
+        "signes de complications cardiovasculaires (SCA, AVC)"
+      ],
+      "examens_cles": [
+        "dépistage urinaire",
+        "ECG",
+        "troponine si douleur thoracique"
+      ],
+      "traitements_cles": [
+        "prise en charge psychothérapeutique (TCC, entretien motivationnel)",
+        "traitement des complications",
+        "absence de traitement de substitution validé"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0002",
+        "PATH-CARD-0004",
+        "PATH-NEUR-0001",
+        "PATH-PSYC-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0044",
+      "nom_fr": "Dépendance aux benzodiazépines",
+      "nom_en": "Benzodiazepine dependence",
+      "synonymes": [],
+      "cim10": "F13.2",
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "addictive",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-170"
+      ],
+      "symptomes": [
+        "utilisation prolongée",
+        "tolérance",
+        "syndrome de sevrage à l'arrêt (anxiété rebond, insomnie, convulsions)"
+      ],
+      "signes_cliniques": [
+        "somnolence",
+        "troubles cognitifs",
+        "chutes chez le sujet âgé"
+      ],
+      "examens_cles": [
+        "évaluation de la consommation",
+        "dépistage urinaire"
+      ],
+      "traitements_cles": [
+        "sevrage progressif sur plusieurs semaines",
+        "thérapie cognitivo-comportementale",
+        "prise en charge de l'anxiété et de l'insomnie"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0029",
+        "PATH-GERI-0001",
+        "PATH-GERI-0013",
+        "PATH-GERI-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0045",
+      "nom_fr": "Jeu d'argent pathologique",
+      "nom_en": "Gambling disorder",
+      "synonymes": [],
+      "cim10": "F63.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Addictologie",
+      "categories": [
+        "addictive",
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "pratique répétée et inadaptée du jeu d'argent",
+        "perte de contrôle",
+        "endettement",
+        "mensonges",
+        "tentative de « se refaire »"
+      ],
+      "signes_cliniques": [
+        "retentissement familial, social et financier"
+      ],
+      "examens_cles": [
+        "questionnaires (ICJE)",
+        "repérage des comorbidités (dépression, alcool, risque suicidaire)"
+      ],
+      "traitements_cles": [
+        "thérapie cognitivo-comportementale",
+        "groupes d'entraide",
+        "mesures de protection financière",
+        "traitement des comorbidités"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0046"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0046",
+      "nom_fr": "Crise suicidaire et conduites suicidaires",
+      "nom_en": "Suicidal crisis and suicidal behaviour",
+      "synonymes": [
+        "tentative de suicide",
+        "idées suicidaires"
+      ],
+      "cim10": null,
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "symptomes": [
+        "idées suicidaires",
+        "désespoir",
+        "sentiment d'impasse",
+        "tentative de suicide (intoxication médicamenteuse volontaire, pendaison, phlébotomie)"
+      ],
+      "signes_cliniques": [
+        "évaluation du risque, de l'urgence et de la dangerosité (RUD)",
+        "facteurs de risque et de protection"
+      ],
+      "examens_cles": [
+        "évaluation psychiatrique systématique",
+        "bilan somatique et toxicologique (paracétamolémie) après une tentative"
+      ],
+      "traitements_cles": [
+        "prise en charge des conséquences somatiques",
+        "hospitalisation si risque élevé",
+        "traitement du trouble psychiatrique sous-jacent",
+        "restriction de l'accès aux moyens létaux",
+        "dispositifs de recontact et suivi rapproché"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0007",
+        "PATH-PSYC-0036",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0001",
+        "PATH-HEPA-0022",
+        "PATH-GAST-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0047",
+      "nom_fr": "État d'agitation aiguë",
+      "nom_en": "Acute agitation",
+      "synonymes": [],
+      "cim10": "R45.1",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-151"
+      ],
+      "symptomes": [
+        "hyperactivité motrice et verbale",
+        "agressivité",
+        "anxiété",
+        "confusion selon la cause"
+      ],
+      "signes_cliniques": [
+        "excitation psychomotrice",
+        "signes de la cause (fièvre, signes neurologiques, intoxication)"
+      ],
+      "examens_cles": [
+        "recherche systématique d'une cause organique (glycémie, saturation, ionogramme, toxiques, imagerie cérébrale)",
+        "évaluation psychiatrique"
+      ],
+      "traitements_cles": [
+        "approche relationnelle de désescalade",
+        "sécurisation de l'environnement",
+        "sédation médicamenteuse (benzodiazépine, antipsychotique) si nécessaire",
+        "contention en dernier recours selon le protocole",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0008",
+        "PATH-PSYC-0039",
+        "PATH-PSYC-0002",
+        "PATH-PSYC-0007",
+        "PATH-PSYC-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0048",
+      "nom_fr": "Catatonie",
+      "nom_en": "Catatonia",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "PSYC",
+      "sous_specialite": "Psychiatrie de l'adulte",
+      "categories": [
+        "psychiatrique",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "stupeur",
+        "mutisme",
+        "refus alimentaire",
+        "agitation catatonique"
+      ],
+      "signes_cliniques": [
+        "catalepsie",
+        "flexibilité cireuse",
+        "négativisme",
+        "échopraxie et écholalie",
+        "signes neurovégétatifs (catatonie maligne)"
+      ],
+      "examens_cles": [
+        "échelle de Bush-Francis",
+        "test aux benzodiazépines",
+        "bilan somatique (CPK, infection, causes neurologiques et métaboliques)",
+        "EEG"
+      ],
+      "traitements_cles": [
+        "benzodiazépines (lorazépam)",
+        "électroconvulsivothérapie",
+        "arrêt des antipsychotiques en cas de catatonie maligne",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0001",
+        "PATH-PSYC-0007",
+        "PATH-PSYC-0009",
+        "PATH-PSYC-0049",
+        "PATH-NEUR-0066"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0049",
+      "nom_fr": "Syndrome malin des neuroleptiques",
+      "nom_en": "Neuroleptic malignant syndrome",
+      "synonymes": [],
+      "cim10": "G21.0",
+      "specialite": "PSYC",
+      "sous_specialite": "Psychopharmacologie clinique",
+      "categories": [
+        "psychiatrique",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-170"
+      ],
+      "symptomes": [
+        "fièvre élevée",
+        "rigidité musculaire",
+        "confusion",
+        "sueurs",
+        "après l'introduction ou l'augmentation d'un antipsychotique"
+      ],
+      "signes_cliniques": [
+        "hyperthermie",
+        "rigidité extrapyramidale",
+        "instabilité tensionnelle",
+        "tachycardie",
+        "troubles de conscience"
+      ],
+      "examens_cles": [
+        "CPK très élevées",
+        "hyperleucocytose",
+        "créatininémie (rhabdomyolyse)",
+        "bilan infectieux"
+      ],
+      "traitements_cles": [
+        "arrêt immédiat de l'antipsychotique",
+        "réanimation (refroidissement, hydratation)",
+        "dantrolène",
+        "bromocriptine",
+        "benzodiazépines"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0050",
+        "PATH-NEPH-0020",
+        "PATH-PSYC-0048",
+        "PATH-PSYC-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PSYC-0050",
+      "nom_fr": "Syndrome sérotoninergique",
+      "nom_en": "Serotonin syndrome",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "PSYC",
+      "sous_specialite": "Psychopharmacologie clinique",
+      "categories": [
+        "psychiatrique",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-170"
+      ],
+      "symptomes": [
+        "agitation",
+        "confusion",
+        "sueurs",
+        "diarrhée",
+        "tremblements",
+        "après association ou surdosage de médicaments sérotoninergiques"
+      ],
+      "signes_cliniques": [
+        "myoclonies",
+        "hyperréflexie",
+        "clonus inductible",
+        "hyperthermie",
+        "mydriase",
+        "tachycardie"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (critères de Hunter)",
+        "CPK",
+        "ionogramme"
+      ],
+      "traitements_cles": [
+        "arrêt des médicaments sérotoninergiques",
+        "benzodiazépines",
+        "cyproheptadine",
+        "refroidissement",
+        "réanimation si hyperthermie sévère"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0049",
+        "PATH-PSYC-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0001",
+      "nom_fr": "Chutes répétées du sujet âgé",
+      "nom_en": "Recurrent falls in older adults",
+      "synonymes": [
+        "troubles de la marche et de l'équilibre du sujet âgé"
+      ],
+      "cim10": "R29.6",
+      "specialite": "GERI",
+      "sous_specialite": "Chutes",
+      "categories": [
+        "gériatrique",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "symptomes": [
+        "chutes répétées",
+        "peur de tomber",
+        "troubles de la marche",
+        "vertiges",
+        "station au sol prolongée"
+      ],
+      "signes_cliniques": [
+        "troubles de l'équilibre (test unipodal, Timed Up and Go)",
+        "hypotension orthostatique",
+        "déficits sensoriels",
+        "sarcopénie",
+        "signes de traumatisme"
+      ],
+      "examens_cles": [
+        "évaluation gériatrique standardisée",
+        "recherche des facteurs de risque (médicaments, hypotension orthostatique, troubles visuels, troubles cognitifs)",
+        "ECG",
+        "glycémie",
+        "ostéodensitométrie",
+        "radiographies selon le traumatisme"
+      ],
+      "traitements_cles": [
+        "prise en charge des facteurs de risque (révision des ordonnances, correction des déficits sensoriels)",
+        "kinésithérapie et activité physique adaptée",
+        "aménagement du domicile",
+        "téléassistance",
+        "prévention et traitement de l'ostéoporose",
+        "vitamine D"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0002",
+        "PATH-CARD-0042",
+        "PATH-GERI-0013",
+        "PATH-GERI-0005",
+        "PATH-GERI-0004",
+        "PATH-NEUR-0015",
+        "PATH-GERI-0008",
+        "PATH-CARD-0068"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0002",
+      "nom_fr": "Syndrome post-chute",
+      "nom_en": "Post-fall syndrome",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "GERI",
+      "sous_specialite": "Chutes",
+      "categories": [
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-159"
+      ],
+      "symptomes": [
+        "peur de tomber",
+        "refus de la marche",
+        "anxiété",
+        "perte d'autonomie rapide après une chute"
+      ],
+      "signes_cliniques": [
+        "rétropulsion en position assise et debout",
+        "marche à petits pas avec élargissement du polygone",
+        "agrippement"
+      ],
+      "examens_cles": [
+        "évaluation gériatrique",
+        "élimination d'une fracture ou d'une cause neurologique"
+      ],
+      "traitements_cles": [
+        "verticalisation et rééducation précoces de la marche",
+        "prise en charge psychologique",
+        "prévention des récidives de chute"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0001",
+        "PATH-GERI-0003",
+        "PATH-GERI-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0003",
+      "nom_fr": "Syndrome de désadaptation psychomotrice",
+      "nom_en": "Psychomotor disadaptation syndrome",
+      "synonymes": [
+        "syndrome de régression psychomotrice"
+      ],
+      "cim10": null,
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-159",
+        "RES-MED-162"
+      ],
+      "symptomes": [
+        "perte des automatismes posturaux",
+        "peur du vide",
+        "troubles de la marche",
+        "ralentissement psychomoteur"
+      ],
+      "signes_cliniques": [
+        "rétropulsion",
+        "absence de réactions parachutes",
+        "hypertonie oppositionnelle",
+        "marche à petits pas"
+      ],
+      "examens_cles": [
+        "recherche d'une cause aiguë (chute, hospitalisation, infection) et de lésions sous-corticales (IRM)",
+        "évaluation gériatrique"
+      ],
+      "traitements_cles": [
+        "rééducation intensive (kinésithérapie, travail de l'équilibre)",
+        "traitement de la cause",
+        "prévention de l'alitement"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0002",
+        "PATH-GERI-0009",
+        "PATH-NEUR-0007",
+        "PATH-NEUR-0053"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0004",
+      "nom_fr": "Syndrome de fragilité",
+      "nom_en": "Frailty syndrome",
+      "synonymes": [
+        "fragilité gériatrique"
+      ],
+      "cim10": "R54",
+      "specialite": "GERI",
+      "sous_specialite": "Évaluation gériatrique standardisée",
+      "categories": [
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-160"
+      ],
+      "symptomes": [
+        "fatigue",
+        "perte de poids involontaire",
+        "diminution de la vitesse de marche",
+        "diminution de la force",
+        "sédentarité (critères de Fried)"
+      ],
+      "signes_cliniques": [
+        "faible force de préhension",
+        "vitesse de marche lente",
+        "dénutrition débutante"
+      ],
+      "examens_cles": [
+        "repérage (questionnaire de fragilité, critères de Fried)",
+        "évaluation gériatrique standardisée",
+        "bilan nutritionnel et cognitif"
+      ],
+      "traitements_cles": [
+        "activité physique adaptée",
+        "correction nutritionnelle",
+        "révision des médicaments",
+        "plan personnalisé de soins",
+        "prévention de la dépendance"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0005",
+        "PATH-GERI-0006",
+        "PATH-GERI-0001",
+        "PATH-GERI-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0005",
+      "nom_fr": "Sarcopénie",
+      "nom_en": "Sarcopenia",
+      "synonymes": [],
+      "cim10": "M62.5",
+      "specialite": "GERI",
+      "sous_specialite": "Évaluation gériatrique standardisée",
+      "categories": [
+        "gériatrique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-161"
+      ],
+      "symptomes": [
+        "faiblesse musculaire",
+        "difficulté à se relever d'une chaise",
+        "ralentissement de la marche",
+        "chutes"
+      ],
+      "signes_cliniques": [
+        "diminution de la force de préhension",
+        "fonte musculaire",
+        "test de lever de chaise allongé"
+      ],
+      "examens_cles": [
+        "force de préhension (dynamométrie)",
+        "mesure de la masse musculaire (DEXA, impédancemétrie)",
+        "performance physique (vitesse de marche, SPPB)",
+        "critères EWGSOP2"
+      ],
+      "traitements_cles": [
+        "activité physique adaptée avec renforcement musculaire",
+        "apports protéiques suffisants",
+        "vitamine D si carence"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0004",
+        "PATH-GERI-0001",
+        "PATH-GERI-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0006",
+      "nom_fr": "Dénutrition du sujet âgé",
+      "nom_en": "Malnutrition in older adults",
+      "synonymes": [],
+      "cim10": "E46",
+      "specialite": "GERI",
+      "sous_specialite": "Nutrition du sujet âgé",
+      "categories": [
+        "gériatrique",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-164"
+      ],
+      "symptomes": [
+        "perte d'appétit",
+        "perte de poids",
+        "asthénie",
+        "perte d'autonomie"
+      ],
+      "signes_cliniques": [
+        "perte de poids ≥ 5 % en 1 mois ou ≥ 10 % en 6 mois",
+        "IMC < 22 kg/m²",
+        "fonte musculaire",
+        "œdèmes"
+      ],
+      "examens_cles": [
+        "MNA",
+        "albuminémie (sévérité)",
+        "poids et IMC",
+        "recherche des causes (dentaires, dépression, isolement, pathologies chroniques)"
+      ],
+      "traitements_cles": [
+        "enrichissement de l'alimentation",
+        "compléments nutritionnels oraux",
+        "aide aux repas",
+        "soins dentaires",
+        "nutrition entérale selon le projet de soins"
+      ],
+      "pathologies_liees": [
+        "PATH-GAST-0048",
+        "PATH-GERI-0005",
+        "PATH-GERI-0010",
+        "PATH-GERI-0015",
+        "PATH-GERI-0014",
+        "PATH-GERI-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0007",
+      "nom_fr": "Déshydratation du sujet âgé",
+      "nom_en": "Dehydration in older adults",
+      "synonymes": [],
+      "cim10": "E86",
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "hydro-électrolytique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-163"
+      ],
+      "symptomes": [
+        "confusion",
+        "asthénie",
+        "somnolence",
+        "chute",
+        "soif peu ressentie"
+      ],
+      "signes_cliniques": [
+        "sécheresse des muqueuses",
+        "perte de poids",
+        "hypotension orthostatique",
+        "tachycardie",
+        "pli cutané (peu fiable)"
+      ],
+      "examens_cles": [
+        "ionogramme sanguin (hypernatrémie ou hyponatrémie)",
+        "urée et créatininémie",
+        "protidémie",
+        "hématocrite"
+      ],
+      "traitements_cles": [
+        "réhydratation orale, sous-cutanée ou IV selon la gravité",
+        "traitement de la cause (fièvre, diarrhée, diurétiques, canicule)",
+        "prévention (apports hydriques programmés)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEPH-0039",
+        "PATH-NEPH-0038",
+        "PATH-GERI-0008",
+        "PATH-NEPH-0016",
+        "PATH-GERI-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0008",
+      "nom_fr": "Syndrome confusionnel (delirium) du sujet âgé",
+      "nom_en": "Delirium in older adults",
+      "synonymes": [
+        "état confusionnel aigu"
+      ],
+      "cim10": "F05",
+      "specialite": "GERI",
+      "sous_specialite": "Troubles cognitifs du sujet âgé",
+      "categories": [
+        "gériatrique",
+        "neurologique",
+        "psychiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-165"
+      ],
+      "symptomes": [
+        "troubles de l'attention et de la vigilance d'installation aiguë et fluctuante",
+        "désorientation",
+        "hallucinations",
+        "inversion du rythme nycthéméral",
+        "agitation ou forme hypoactive"
+      ],
+      "signes_cliniques": [
+        "fluctuation de la vigilance",
+        "désorganisation de la pensée",
+        "signes de la cause"
+      ],
+      "examens_cles": [
+        "CAM (Confusion Assessment Method)",
+        "recherche systématique d'une cause (infection, globe vésical, fécalome, médicaments, troubles métaboliques, douleur)",
+        "ionogramme, glycémie, calcémie, NFS, CRP",
+        "ECG",
+        "imagerie cérébrale selon le contexte"
+      ],
+      "traitements_cles": [
+        "traitement de la cause",
+        "mesures non médicamenteuses (environnement calme, orientation, présence des proches, lunettes et appareils auditifs)",
+        "arrêt des médicaments en cause",
+        "sédation prudente si danger"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0050",
+        "PATH-GERI-0013",
+        "PATH-GERI-0012",
+        "PATH-GERI-0007",
+        "PATH-NEPH-0038",
+        "PATH-PSYC-0039",
+        "PATH-NEPH-0034",
+        "PATH-PSYC-0047",
+        "PATH-NEUR-0052"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0009",
+      "nom_fr": "Syndrome d'immobilisation",
+      "nom_en": "Immobilisation syndrome",
+      "synonymes": [
+        "complications du décubitus"
+      ],
+      "cim10": null,
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-162"
+      ],
+      "symptomes": [
+        "alitement prolongé",
+        "perte d'autonomie",
+        "douleurs"
+      ],
+      "signes_cliniques": [
+        "escarres",
+        "rétractions et ankyloses",
+        "amyotrophie",
+        "thrombose veineuse",
+        "encombrement bronchique",
+        "constipation et fécalome",
+        "rétention urinaire"
+      ],
+      "examens_cles": [
+        "évaluation du risque d'escarre (échelle de Norton ou Braden)",
+        "recherche des complications (écho-Doppler, radiographie thoracique)"
+      ],
+      "traitements_cles": [
+        "mobilisation et verticalisation précoces",
+        "kinésithérapie",
+        "prévention thromboembolique",
+        "prévention des escarres",
+        "nutrition et hydratation"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0010",
+        "PATH-CARD-0048",
+        "PATH-CARD-0049",
+        "PATH-GERI-0012",
+        "PATH-GERI-0003",
+        "PATH-PNEU-0013",
+        "PATH-GERI-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0010",
+      "nom_fr": "Escarres (lésions de pression)",
+      "nom_en": "Pressure ulcers",
+      "synonymes": [],
+      "cim10": "L89",
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "dermatologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-162"
+      ],
+      "symptomes": [
+        "douleur",
+        "plaie aux points d'appui (sacrum, talons, ischions, trochanters)"
+      ],
+      "signes_cliniques": [
+        "érythème persistant (stade 1) jusqu'à la nécrose profonde avec atteinte osseuse (stade 4)",
+        "infection locale"
+      ],
+      "examens_cles": [
+        "évaluation du stade (classification NPUAP-EPUAP)",
+        "évaluation nutritionnelle",
+        "recherche d'ostéite si escarre profonde"
+      ],
+      "traitements_cles": [
+        "décharge et supports adaptés",
+        "changements de position",
+        "soins locaux selon le stade (détersion, pansements adaptés)",
+        "nutrition",
+        "traitement de l'infection",
+        "chirurgie de recouvrement"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0009",
+        "PATH-GERI-0006",
+        "PATH-GERI-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0011",
+      "nom_fr": "Incontinence urinaire du sujet âgé",
+      "nom_en": "Urinary incontinence in older adults",
+      "synonymes": [],
+      "cim10": "R32",
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "fuites urinaires (à l'effort, par urgenturie, par regorgement)",
+        "pollakiurie",
+        "nycturie"
+      ],
+      "signes_cliniques": [
+        "globe vésical (regorgement)",
+        "prolapsus",
+        "fécalome",
+        "troubles cognitifs"
+      ],
+      "examens_cles": [
+        "calendrier mictionnel",
+        "bandelette urinaire",
+        "mesure du résidu post-mictionnel",
+        "bilan urodynamique selon le cas"
+      ],
+      "traitements_cles": [
+        "traitement des causes réversibles (infection, fécalome, médicaments)",
+        "rééducation périnéale",
+        "mictions programmées",
+        "anticholinergiques avec prudence (risque cognitif)",
+        "bêta-3 agonistes",
+        "protections adaptées"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0012",
+        "PATH-GERI-0008",
+        "PATH-GERI-0010",
+        "PATH-NEPH-0033",
+        "PATH-GERI-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0012",
+      "nom_fr": "Fécalome et constipation du sujet âgé",
+      "nom_en": "Faecal impaction in older adults",
+      "synonymes": [],
+      "cim10": "K56.4",
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-162"
+      ],
+      "symptomes": [
+        "constipation",
+        "fausse diarrhée",
+        "douleurs abdominales",
+        "confusion",
+        "rétention urinaire"
+      ],
+      "signes_cliniques": [
+        "masse de matières dures au toucher rectal",
+        "distension abdominale",
+        "globe vésical"
+      ],
+      "examens_cles": [
+        "toucher rectal",
+        "abdomen sans préparation ou scanner si doute"
+      ],
+      "traitements_cles": [
+        "évacuation (lavements, extraction manuelle)",
+        "laxatifs osmotiques",
+        "hydratation",
+        "mobilisation",
+        "révision des médicaments constipants"
+      ],
+      "pathologies_liees": [
+        "PATH-GAST-0025",
+        "PATH-GERI-0008",
+        "PATH-GERI-0011",
+        "PATH-GERI-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0013",
+      "nom_fr": "Iatrogénie médicamenteuse du sujet âgé (polymédication)",
+      "nom_en": "Adverse drug events in older adults (polypharmacy)",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "GERI",
+      "sous_specialite": "Polymédication",
+      "categories": [
+        "gériatrique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-160"
+      ],
+      "symptomes": [
+        "chute",
+        "confusion",
+        "troubles digestifs",
+        "hypotension",
+        "hémorragie",
+        "insuffisance rénale aiguë"
+      ],
+      "signes_cliniques": [
+        "signes du médicament en cause (hypotension orthostatique, bradycardie, syndrome anticholinergique)"
+      ],
+      "examens_cles": [
+        "révision systématique de l'ordonnance (critères STOPP/START, liste de Laroche)",
+        "fonction rénale (DFG)",
+        "dosages médicamenteux",
+        "ionogramme"
+      ],
+      "traitements_cles": [
+        "déprescription des médicaments inappropriés",
+        "adaptation des posologies à la fonction rénale",
+        "éducation et pilulier",
+        "conciliation médicamenteuse"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0001",
+        "PATH-GERI-0008",
+        "PATH-CARD-0042",
+        "PATH-NEPH-0022",
+        "PATH-PSYC-0044",
+        "PATH-NEPH-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0014",
+      "nom_fr": "Dépression du sujet âgé",
+      "nom_en": "Late-life depression",
+      "synonymes": [],
+      "cim10": "F32",
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-160"
+      ],
+      "symptomes": [
+        "tristesse moins exprimée",
+        "plaintes somatiques",
+        "anxiété",
+        "irritabilité",
+        "plaintes mnésiques",
+        "perte d'appétit",
+        "repli"
+      ],
+      "signes_cliniques": [
+        "ralentissement",
+        "dénutrition",
+        "troubles cognitifs (pseudo-démence dépressive)"
+      ],
+      "examens_cles": [
+        "échelle de dépression gériatrique (GDS)",
+        "évaluation du risque suicidaire",
+        "bilan somatique (TSH, B12, imagerie cérébrale selon le contexte)"
+      ],
+      "traitements_cles": [
+        "antidépresseurs ISRS ou IRSNa",
+        "psychothérapie",
+        "lutte contre l'isolement",
+        "électroconvulsivothérapie dans les formes sévères"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0009",
+        "PATH-GERI-0015",
+        "PATH-NEUR-0050",
+        "PATH-PSYC-0046",
+        "PATH-NEUR-0001",
+        "PATH-NEUR-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0015",
+      "nom_fr": "Syndrome de glissement",
+      "nom_en": "Failure to thrive in older adults (syndrome de glissement)",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "détérioration rapide de l'état général après un événement aigu (hospitalisation, chute, infection, deuil)",
+        "refus alimentaire",
+        "mutisme",
+        "désir de mort"
+      ],
+      "signes_cliniques": [
+        "anorexie",
+        "adipsie",
+        "repli",
+        "incontinence",
+        "état grabataire"
+      ],
+      "examens_cles": [
+        "recherche d'une cause somatique curable",
+        "évaluation de la dépression"
+      ],
+      "traitements_cles": [
+        "prise en charge somatique et psychologique intensive",
+        "réhydratation et renutrition",
+        "antidépresseur",
+        "réflexion éthique sur le projet de soins"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0014",
+        "PATH-GERI-0006",
+        "PATH-GERI-0007",
+        "PATH-GERI-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0016",
+      "nom_fr": "Troubles de la déglutition du sujet âgé (presbyphagie)",
+      "nom_en": "Oropharyngeal dysphagia in older adults",
+      "synonymes": [],
+      "cim10": "R13",
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "toux pendant ou après les repas",
+        "fausses routes",
+        "voix mouillée",
+        "allongement des repas",
+        "perte de poids"
+      ],
+      "signes_cliniques": [
+        "pneumopathies d'inhalation",
+        "dénutrition",
+        "déshydratation"
+      ],
+      "examens_cles": [
+        "évaluation orthophonique",
+        "test de déglutition",
+        "vidéofluoroscopie ou nasofibroscopie de déglutition",
+        "recherche de la cause (AVC, Parkinson, démence)"
+      ],
+      "traitements_cles": [
+        "adaptation des textures et épaississement des liquides",
+        "postures de sécurité",
+        "rééducation orthophonique",
+        "nutrition entérale selon le projet de soins"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0013",
+        "PATH-GERI-0006",
+        "PATH-NEUR-0001",
+        "PATH-NEUR-0015",
+        "PATH-GAST-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0017",
+      "nom_fr": "Hypothermie accidentelle du sujet âgé",
+      "nom_en": "Accidental hypothermia in older adults",
+      "synonymes": [],
+      "cim10": "T68",
+      "specialite": "GERI",
+      "sous_specialite": "Syndromes gériatriques",
+      "categories": [
+        "gériatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "confusion",
+        "somnolence",
+        "frissons absents en cas d'hypothermie profonde",
+        "station au sol prolongée"
+      ],
+      "signes_cliniques": [
+        "température centrale < 35 °C",
+        "bradycardie",
+        "troubles de conscience",
+        "rigidité"
+      ],
+      "examens_cles": [
+        "température centrale",
+        "ECG (onde J d'Osborn, arythmies)",
+        "ionogramme",
+        "glycémie",
+        "CPK (rhabdomyolyse)",
+        "TSH"
+      ],
+      "traitements_cles": [
+        "réchauffement progressif",
+        "surveillance cardiaque",
+        "traitement des complications et de la cause (chute, hypothyroïdie, sepsis)"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0001",
+        "PATH-NEPH-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0018",
+      "nom_fr": "Maltraitance de la personne âgée",
+      "nom_en": "Elder abuse",
+      "synonymes": [],
+      "cim10": "T74",
+      "specialite": "GERI",
+      "sous_specialite": "Évaluation gériatrique standardisée",
+      "categories": [
+        "gériatrique",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "plaintes de violence ou de négligence (souvent non exprimées)",
+        "anxiété",
+        "repli",
+        "dénutrition inexpliquée"
+      ],
+      "signes_cliniques": [
+        "ecchymoses d'âges différents",
+        "fractures inexpliquées",
+        "escarres",
+        "défaut d'hygiène",
+        "déshydratation"
+      ],
+      "examens_cles": [
+        "examen clinique complet et descriptif",
+        "recherche de lésions",
+        "évaluation sociale et cognitive"
+      ],
+      "traitements_cles": [
+        "protection de la personne (hospitalisation si danger)",
+        "signalement selon la législation",
+        "mesures de protection juridique",
+        "accompagnement des aidants"
+      ],
+      "pathologies_liees": [
+        "PATH-GERI-0001",
+        "PATH-GERI-0010",
+        "PATH-GERI-0006",
+        "PATH-GERI-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GERI-0019",
+      "nom_fr": "Presbyacousie",
+      "nom_en": "Presbycusis",
+      "synonymes": [
+        "surdité liée à l'âge"
+      ],
+      "cim10": "H91.1",
+      "specialite": "GERI",
+      "sous_specialite": "Évaluation gériatrique standardisée",
+      "categories": [
+        "gériatrique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-160"
+      ],
+      "symptomes": [
+        "baisse progressive bilatérale de l'audition",
+        "difficultés de compréhension dans le bruit",
+        "acouphènes",
+        "isolement social"
+      ],
+      "signes_cliniques": [
+        "otoscopie normale",
+        "tests acoumétriques"
+      ],
+      "examens_cles": [
+        "audiométrie tonale et vocale (surdité de perception bilatérale symétrique prédominant sur les aigus)"
+      ],
+      "traitements_cles": [
+        "appareillage auditif",
+        "rééducation orthophonique",
+        "implant cochléaire dans les formes sévères",
+        "lutte contre l'isolement"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0050",
+        "PATH-GERI-0014",
+        "PATH-GERI-0001",
+        "PATH-PSYC-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}

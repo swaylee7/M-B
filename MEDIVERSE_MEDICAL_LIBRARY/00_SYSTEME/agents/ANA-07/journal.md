@@ -11,3 +11,4 @@ Mission : Catalogue vérifié des ouvrages de référence et structuration des c
 - Lot 1 écrit : `22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-1-CARD-PNEU-MINT-IMPA.json` (CARD 68, PNEU 50, MINT 34, IMPA 25 = 177) — liens inter-lots à compléter à la reconstruction finale.
 - Lot 2 écrit : `ENC-1-GAST-HEPA-NEPH.json` (GAST 49, HEPA 48, NEPH 52).
 - Lot 3 écrit : `ENC-1-NEUR-PSYC-GERI.json` (NEUR, PSYC, GERI).
+- Lot 4 écrit : `ENC-1-DERM-RHUM-GENE.json`.

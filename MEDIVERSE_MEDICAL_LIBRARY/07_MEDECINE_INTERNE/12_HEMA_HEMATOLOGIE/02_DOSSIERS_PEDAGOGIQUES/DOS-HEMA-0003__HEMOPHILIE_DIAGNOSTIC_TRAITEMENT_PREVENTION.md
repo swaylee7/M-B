@@ -470,7 +470,7 @@ SAIGNEMENT CHEZ UN HÉMOPHILE CONNU
 
 ### 15.2 Prévention des saignements et des complications
 - **Prophylaxie** régulière dans les formes sévères [S1].
-- **Éducation thérapeutique** : reconnaissance précoce des saignements, **auto-injection** à domicile, carte d'hémophile mentionnant le type, la sévérité, l'inhibiteur et le CTH de référence.
+- **Éducation thérapeutique** : reconnaissance précoce des saignements, **auto-injection** à domicile, carte d'hémophile mentionnant le type, la sévérité, l'inhibiteur et le CTH de référence. La coordination hôpital–ville (médecin traitant, CTH) est un pilier du parcours de soins [S2, S3].
 - **Contre-indications** : injections IM, aspirine et AINS classiques ; prudence avec les antithrombotiques.
 - **Activité physique** encouragée (natation, vélo, marche) pour la protection musculaire et articulaire ; sports de contact violents déconseillés [S1].
 - **Hygiène bucco-dentaire** et suivi dentaire régulier (prévenir les extractions).
@@ -579,3 +579,185 @@ Un **inhibiteur** : titrage Bethesda. S'il est fort répondeur, les saignements 
 - Associer **CCPa à fortes doses** et émicizumab (microangiopathie thrombotique).
 - Confondre **inhibiteur** (allo-anticorps chez un hémophile traité) et **hémophilie acquise** (auto-anticorps chez un sujet sans antécédent).
 - Oublier qu'une **conductrice** peut saigner et doit être explorée avant une chirurgie ou un accouchement.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+> 10 QCM originaux Mediverse (réponses multiples possibles) ; la banque structurée en contient 12 pour cet item (`21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-08.json`).
+
+**QCM 1** (`QCM-HEMA-0825`) — Un homme atteint d'hémophilie A sévère a des enfants avec une femme non conductrice et non apparentée. Quelles propositions sont exactes ?
+
+- A. Tous ses fils seront indemnes.
+- B. Toutes ses filles seront conductrices obligatoires.
+- C. La moitié de ses fils seront hémophiles.
+- D. Ses petits-fils nés de ses filles ont un risque de 50 % d'être hémophiles.
+- E. La transmission est autosomique récessive.
+
+**QCM 2** (`QCM-HEMA-0826`) — Concernant la classification de sévérité de l'hémophilie (ISTH 2014, WFH 2020), quelles propositions sont exactes ?
+
+- A. Une hémophilie sévère correspond à un taux de facteur < 1 UI/dL.
+- B. Une hémophilie modérée correspond à un taux de 1 à 5 UI/dL.
+- C. Une hémophilie mineure correspond à un taux > 5 et < 40 UI/dL.
+- D. Les hémarthroses spontanées sont typiques des formes mineures.
+- E. Une conductrice ayant un taux < 40 UI/dL est considérée comme ayant une hémophilie mineure.
+
+**QCM 3** (`QCM-HEMA-0827`) — Un garçon de 14 mois présente un volumineux hématome de la cuisse après une vaccination intramusculaire. TP 92 %, TCA 78 s (témoin 32 s), plaquettes 310 G/L. Quelles propositions sont exactes ?
+
+- A. Un test de correction du TCA par plasma témoin est indiqué.
+- B. Un dosage des facteurs VIII, IX et XI est indiqué.
+- C. Le dosage du facteur Willebrand est utile au diagnostic différentiel.
+- D. Une maltraitance doit être retenue en priorité.
+- E. Un TP normal élimine un déficit en facteur IX.
+
+**QCM 4** (`QCM-HEMA-0828`) — Un hémophile A sévère de 60 kg présente une hémarthrose du genou. On souhaite un pic de FVIII d'environ 50 UI/dL. Quelles propositions sont exactes ?
+
+- A. La dose à injecter est d'environ 1 500 UI de FVIII.
+- B. La dose à injecter est d'environ 3 000 UI de FVIII.
+- C. L'injection doit être réalisée le plus tôt possible.
+- D. Un AINS est l'antalgique de choix.
+- E. Une immobilisation courte suivie d'une rééducation précoce est recommandée.
+
+**QCM 5** (`QCM-HEMA-0829`) — Un hémophile A sévère de 19 ans fait une chute à moto avec traumatisme crânien ; il est conscient, se plaint de céphalées. Quelles propositions sont exactes ?
+
+- A. Le FVIII doit être injecté avant la réalisation du scanner.
+- B. Un scanner cérébral normal permet un retour immédiat à domicile sans surveillance.
+- C. Le niveau initial visé est élevé (de l'ordre de 80–100 UI/dL).
+- D. Une hémorragie intracrânienne peut survenir de façon retardée.
+- E. Une ponction lombaire est indiquée pour éliminer une hémorragie méningée.
+
+**QCM 6** (`QCM-HEMA-0831`) — Concernant les inhibiteurs chez l'hémophile, quelles propositions sont exactes ?
+
+- A. Ce sont des allo-anticorps dirigés contre le facteur perfusé.
+- B. Ils sont plus fréquents dans l'hémophilie A sévère que dans l'hémophilie B.
+- C. Ils sont titrés par la méthode Bethesda (modification de Nijmegen).
+- D. Un titre ≥ 5 UB/mL définit un fort répondeur.
+- E. Ils apparaissent surtout après plusieurs centaines de jours d'exposition.
+
+**QCM 7** (`QCM-HEMA-0832`) — Concernant l'émicizumab, quelles propositions sont exactes ?
+
+- A. C'est un anticorps bispécifique rapprochant le FIXa et le FX.
+- B. Il est indiqué en prophylaxie de l'hémophilie A, avec ou sans inhibiteur.
+- C. Il est indiqué dans l'hémophilie B.
+- D. Il normalise artificiellement le TCA, ce qui fausse les dosages chronométriques du FVIII.
+- E. Il est le traitement de choix d'une hémarthrose aiguë.
+
+**QCM 8** (`QCM-HEMA-0833`) — Concernant la desmopressine (DDAVP) dans l'hémophilie, quelles propositions sont exactes ?
+
+- A. Elle est utile dans l'hémophilie A mineure.
+- B. Elle est efficace dans l'hémophilie B.
+- C. Un test thérapeutique préalable est recommandé.
+- D. Elle expose à une hyponatrémie par rétention hydrique.
+- E. Son efficacité augmente avec la répétition rapprochée des doses.
+
+**QCM 9** (`QCM-HEMA-0834`) — Concernant la prophylaxie dans l'hémophilie sévère selon la WFH (2020), quelles propositions sont exactes ?
+
+- A. Elle est recommandée pour les hémophiles sévères A et B.
+- B. La prophylaxie primaire débute avant 3 ans et avant la 2e hémarthrose cliniquement évidente.
+- C. La prophylaxie à faible dose n'a aucun intérêt par rapport au traitement à la demande.
+- D. Elle prévient l'arthropathie hémophilique.
+- E. Elle peut reposer sur l'émicizumab dans l'hémophilie A.
+
+**QCM 10** (`QCM-HEMA-0835`) — Une femme de 74 ans sans antécédent hémorragique présente de vastes ecchymoses des bras et du tronc. TP normal, TCA 68 s (témoin 30 s) non corrigé après incubation à 37 °C avec le plasma témoin, FVIII 3 UI/dL. Quelles propositions sont exactes ?
+
+- A. Une hémophilie A acquise est le diagnostic le plus probable.
+- B. Il s'agit d'un auto-anticorps anti-FVIII.
+- C. Un cancer ou une maladie auto-immune doivent être recherchés.
+- D. Le traitement des saignements repose sur les concentrés de FVIII à dose standard.
+- E. Une immunosuppression est indiquée pour éradiquer l'anticorps.
+
+### Corrigé commenté
+
+**QCM 1** — Réponses : **A, B, D**. Transmission récessive liée à l'X : le père transmet son X à toutes ses filles (conductrices obligatoires) et son Y à ses fils (indemnes). Chaque fils d'une conductrice a un risque de 1/2 d'être atteint.
+  - A : Vrai : ils reçoivent le chromosome Y paternel.
+  - B : Vrai : elles reçoivent l'X porteur.
+  - C : Faux : aucun fils n'est atteint par transmission paternelle.
+  - D : Vrai : chaque fils d'une conductrice a un risque de 50 %.
+  - E : Faux : récessive liée à l'X.
+
+**QCM 2** — Réponses : **A, B, C, E**. La sévérité se définit par le taux de facteur : sévère < 1, modérée 1–5, mineure > 5 à < 40 UI/dL. Les saignements spontanés caractérisent les formes sévères ; les formes mineures saignent après traumatisme ou chirurgie.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai.
+  - D : Faux : les saignements spontanés sont propres aux formes sévères.
+  - E : Vrai : selon la WFH 2020.
+
+**QCM 3** — Réponses : **A, B, C**. TCA isolément allongé chez un garçon avec hématome après IM : hémophilie jusqu'à preuve du contraire. Correction par plasma témoin, dosages des facteurs de la voie intrinsèque et du facteur Willebrand (type 3 ou 2N).
+  - A : Vrai : distingue déficit et anticoagulant circulant.
+  - B : Vrai : FVIII (hémophilie A), FIX (B), FXI.
+  - C : Vrai : Willebrand type 3 ou 2N peuvent abaisser le FVIII.
+  - D : Faux : le bilan d'hémostase est anormal ; la maltraitance se discute quand il est normal.
+  - E : Faux : le TP explore la voie extrinsèque ; il est normal dans l'hémophilie B.
+
+**QCM 4** — Réponses : **A, C, E**. Pour le FVIII, 1 UI/kg élève le taux d'environ 2 UI/dL : dose = poids × élévation × 0,5 = 60 × 50 × 0,5 = 1 500 UI. Traitement précoce, immobilisation courte, glace, antalgiques sans AINS classiques, puis rééducation.
+  - A : Vrai : 60 × 50 × 0,5.
+  - B : Faux : ce calcul correspondrait au FIX (coefficient 1).
+  - C : Vrai : idéalement dans les 2 heures.
+  - D : Faux : AINS classiques et aspirine sont contre-indiqués.
+  - E : Vrai : prévention de l'amyotrophie et de la raideur.
+
+**QCM 5** — Réponses : **A, C, D**. Chez l'hémophile, tout traumatisme crânien significatif impose l'injection immédiate de facteur à dose élevée avant l'imagerie. Le saignement peut être retardé : surveillance même si le scanner est normal. Les gestes invasifs non couverts sont proscrits.
+  - A : Vrai : « facteur d'abord ».
+  - B : Faux : surveillance nécessaire (hémorragie retardée).
+  - C : Vrai : niveaux WFH pour les saignements du SNC.
+  - D : Vrai : d'où la surveillance.
+  - E : Faux : geste invasif non indiqué et dangereux sans couverture.
+
+**QCM 6** — Réponses : **A, B, C, D**. Les inhibiteurs sont des allo-anticorps neutralisants apparaissant surtout pendant les 50 premiers jours d'exposition, plus fréquents dans l'hémophilie A sévère. Le seuil de 5 UB/mL sépare faibles et forts répondeurs ; ces derniers relèvent des by-passants, de l'émicizumab et de l'ITI.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai : méthode recommandée par la WFH.
+  - D : Vrai.
+  - E : Faux : le risque est maximal pendant les premiers jours d'exposition.
+
+**QCM 7** — Réponses : **A, B, D**. L'émicizumab mime la fonction cofacteur du FVIIIa ; il est utilisé en prophylaxie sous-cutanée de l'hémophilie A, y compris avec inhibiteur. Il interfère avec les tests fondés sur le TCA. Les saignements aigus se traitent par FVIII ou rFVIIa.
+  - A : Vrai : mécanisme d'action.
+  - B : Vrai : HAVEN 1 à 4.
+  - C : Faux : aucun effet sur le déficit en FIX (il nécessite le FIXa).
+  - D : Vrai : utiliser des méthodes chromogéniques bovines.
+  - E : Faux : pas d'usage pour traiter un saignement aigu.
+
+**QCM 8** — Réponses : **A, C, D**. La desmopressine libère le FVIII et le facteur Willebrand endothéliaux : utile dans l'hémophilie A mineure chez les répondeurs (test préalable). Inefficace dans l'hémophilie B et l'hémophilie A sévère. Risques : hyponatrémie, tachyphylaxie.
+  - A : Vrai.
+  - B : Faux : elle n'élève pas le FIX.
+  - C : Vrai : la réponse est individuelle.
+  - D : Vrai : restriction hydrique recommandée.
+  - E : Faux : tachyphylaxie (épuisement des stocks endothéliaux).
+
+**QCM 9** — Réponses : **A, B, D, E**. La WFH 2020 recommande la prophylaxie (idéalement primaire) dans les formes sévères ; elle prévient l'arthropathie. Même à faible dose, elle reste préférable au traitement à la demande dans les pays à ressources limitées. L'émicizumab est une option dans l'hémophilie A.
+  - A : Vrai.
+  - B : Vrai : définition WFH de la prophylaxie primaire.
+  - C : Faux : la WFH reconnaît son bénéfice.
+  - D : Vrai : objectif principal.
+  - E : Vrai : avec ou sans inhibiteur.
+
+**QCM 10** — Réponses : **A, B, C, E**. Syndrome hémorragique récent chez une personne âgée sans antécédent, TCA non corrigé (inhibiteur temps-dépendant) et FVIII bas : hémophilie A acquise. Saignements traités par agents by-passants (ou FVIII porcin recombinant), éradication de l'auto-anticorps par immunosuppression, recherche d'une cause.
+  - A : Vrai.
+  - B : Vrai : auto-anticorps (et non allo-anticorps).
+  - C : Vrai : causes secondaires fréquentes.
+  - D : Faux : le FVIII est neutralisé ; by-passants en première intention.
+  - E : Vrai : corticoïdes ± cyclophosphamide ou rituximab.
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 | Position 2 | Commentaire |
+|---|---|---|---|
+| Objectif de la prophylaxie | Historiquement : maintenir un taux résiduel ≥ 1 UI/dL | WFH 2020 : objectif de **prévention de tout saignement**, cibles individualisées, résiduel plus élevé (≥ 3–5 UI/dL) selon l'activité [S1] | Évolution vers une prophylaxie personnalisée par la pharmacocinétique |
+| Niveaux de facteur pour les saignements | WFH 2020 : tableaux distincts selon la disponibilité des produits (niveaux élevés vs schémas à doses plus faibles) [S1] | PNDS français : niveaux et durées définis par le CTH, ressources non limitantes [S2] | En Algérie, adapter aux produits disponibles `[À VÉRIFIER]` |
+| Place de l'émicizumab chez le patient sans inhibiteur | WFH 2020 : option de prophylaxie dans l'hémophilie A sévère [S1] ; HAVEN 3 [S5] | Facteurs à demi-vie prolongée également recommandés ; choix selon préférences et accès [S1, S2] | Pas de hiérarchie stricte entre les deux options |
+| Produits chez les patients non préalablement traités | Certaines données suggèrent un risque d'inhibiteur plus faible avec les FVIII plasmatiques contenant du facteur Willebrand | Recommandations n'imposant pas de type de produit (WFH 2020 : décision individualisée) [S1] | Débat non tranché ; information des familles |
+| Âge minimal pour la desmopressine | Prudence chez l'enfant de moins de 2 ans (hyponatrémie, convulsions) [S1] | Contre-indication formelle selon certains RCP `[À VÉRIFIER — RCP]` | Restriction hydrique et surveillance de la natrémie dans tous les cas |
+
+---
+
+## 22. Références
+
+1. **[S1]** Srivastava A, Santagostino E, Dougall A, et al. WFH Guidelines for the Management of Hemophilia, 3rd edition. *Haemophilia*. 2020;26(Suppl 6):1-158. doi:10.1111/hae.14046 — vérifiée.
+2. **[S2]** HAS / CRH-MHEMO. PNDS — Hémophilie (version 2019, document mis en ligne en 2023). — vérifiée (existence).
+3. **[S3]** HAS. Synthèse à destination du médecin traitant — Hémophilie. 2023. — vérifiée (existence).
+4. **[S4]** Blanchette VS, Key NS, Ljung LR, et al. Definitions in hemophilia: communication from the SSC of the ISTH. *J Thromb Haemost*. 2014;12(11):1935-1939. — **non vérifiée**.
+5. **[S5]** Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med*. 2018;379(9):811-822. — **non vérifiée** (essai HAVEN 3 confirmé par sources secondaires ; pagination à vérifier).
+6. **[S6]** First real-world evidence study of patients with hemophilia in Algeria (registre « Baromètre »). Résumé ISPOR Europe 2022. — vérifiée (existence du résumé ; auteurs à compléter).
+7. **[S7]** HAS. PNDS — Hémophilie A acquise. — vérifiée (existence ; date à préciser).

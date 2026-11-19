@@ -1,0 +1,1953 @@
+{
+  "agent": "TRA-01",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-06000",
+      "fr": "numération formule sanguine",
+      "en": "complete blood count",
+      "ar": "تعداد الدم الكامل",
+      "ar_variantes": [],
+      "definition_fr": "Dénombrement des hématies, leucocytes et plaquettes avec dosage de l'hémoglobine et formule leucocytaire.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06001",
+      "fr": "hématocrite",
+      "en": "hematocrit",
+      "ar": "الهيماتوكريت",
+      "ar_variantes": [],
+      "definition_fr": "Pourcentage du volume sanguin occupé par les hématies.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06002",
+      "fr": "volume globulaire moyen",
+      "en": "mean corpuscular volume",
+      "ar": "متوسط حجم الكرية",
+      "ar_variantes": [],
+      "definition_fr": "Volume moyen des hématies distinguant anémies microcytaires, normocytaires et macrocytaires.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06003",
+      "fr": "numération des réticulocytes",
+      "en": "reticulocyte count",
+      "ar": "تعداد الخلايا الشبكية",
+      "ar_variantes": [],
+      "definition_fr": "Évaluation de la régénération médullaire au cours d'une anémie.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06004",
+      "fr": "numération plaquettaire",
+      "en": "platelet count",
+      "ar": "تعداد الصُّفَيحات",
+      "ar_variantes": [],
+      "definition_fr": "Nombre de plaquettes par litre de sang.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06005",
+      "fr": "vitesse de sédimentation",
+      "en": "erythrocyte sedimentation rate",
+      "ar": "سرعة تثفُّل الكريات الحمر",
+      "ar_variantes": [
+        "سرعة الترسيب"
+      ],
+      "definition_fr": "Hauteur de sédimentation des hématies en une heure, marqueur non spécifique d'inflammation.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06006",
+      "fr": "protéine C réactive",
+      "en": "C-reactive protein",
+      "ar": "البروتين المتفاعل سي",
+      "ar_variantes": [],
+      "definition_fr": "Protéine de la phase aiguë de l'inflammation, d'élévation rapide.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "MINT",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06007",
+      "fr": "procalcitonine",
+      "en": "procalcitonin",
+      "ar": "طليعة الكالسيتونين",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur sérique orientant vers une infection bactérienne systémique.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "INFE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06008",
+      "fr": "ionogramme sanguin",
+      "en": "serum electrolyte panel",
+      "ar": "الكهارل المصلية",
+      "ar_variantes": [
+        "تحليل الشوارد"
+      ],
+      "definition_fr": "Dosage des principaux électrolytes plasmatiques.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06009",
+      "fr": "natrémie",
+      "en": "serum sodium",
+      "ar": "صوديوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique du sodium, reflet de l'état d'hydratation intracellulaire.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06010",
+      "fr": "kaliémie",
+      "en": "serum potassium",
+      "ar": "بوتاسيوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique du potassium.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06011",
+      "fr": "calcémie",
+      "en": "serum calcium",
+      "ar": "كالسيوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique du calcium, à interpréter selon l'albuminémie.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06012",
+      "fr": "urée sanguine",
+      "en": "blood urea",
+      "ar": "يوريا الدم",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique d'urée, marqueur de la fonction rénale et du catabolisme protidique.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06013",
+      "fr": "créatininémie",
+      "en": "serum creatinine",
+      "ar": "كرياتينين المصل",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique de créatinine servant à estimer le débit de filtration glomérulaire.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06014",
+      "fr": "glycémie à jeun",
+      "en": "fasting plasma glucose",
+      "ar": "سكر الدم الصيامي",
+      "ar_variantes": [
+        "سكر الدم على الريق"
+      ],
+      "definition_fr": "Glycémie mesurée après au moins huit heures de jeûne.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06015",
+      "fr": "hyperglycémie provoquée par voie orale",
+      "en": "oral glucose tolerance test",
+      "ar": "اختبار تحمّل الغلوكوز الفموي",
+      "ar_variantes": [],
+      "definition_fr": "Mesure de la glycémie deux heures après ingestion de 75 g de glucose.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "DIAB",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06016",
+      "fr": "hémoglobine glyquée",
+      "en": "glycated hemoglobin",
+      "ar": "الهيموغلوبين الغليكوزيلاتي",
+      "ar_variantes": [
+        "الهيموغلوبين السكري"
+      ],
+      "definition_fr": "Fraction de l'hémoglobine liée au glucose reflétant l'équilibre glycémique des deux à trois mois précédents (HbA1c).",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06017",
+      "fr": "bilan lipidique",
+      "en": "lipid profile",
+      "ar": "تحليل الدهون",
+      "ar_variantes": [],
+      "definition_fr": "Dosage du cholestérol total, du HDL, des triglycérides et calcul du LDL.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ENDO",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06018",
+      "fr": "bilan hépatique",
+      "en": "liver function tests",
+      "ar": "اختبارات وظائف الكبد",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des dosages explorant cytolyse, cholestase et insuffisance hépatocellulaire.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06019",
+      "fr": "transaminases",
+      "en": "aminotransferases",
+      "ar": "ناقلات الأمين",
+      "ar_variantes": [],
+      "definition_fr": "Enzymes (ALAT, ASAT) dont l'élévation traduit une cytolyse hépatique ou musculaire.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06020",
+      "fr": "gamma-glutamyl-transférase",
+      "en": "gamma-glutamyl transferase",
+      "ar": "غاما غلوتاميل ترانسفيراز",
+      "ar_variantes": [],
+      "definition_fr": "Enzyme marqueur de cholestase et d'induction enzymatique, notamment alcoolique.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06021",
+      "fr": "phosphatases alcalines",
+      "en": "alkaline phosphatase",
+      "ar": "الفوسفاتاز القلوية",
+      "ar_variantes": [],
+      "definition_fr": "Enzymes d'origine hépatique ou osseuse, élevées dans les cholestases et les ostéopathies.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEPA",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06022",
+      "fr": "bilirubinémie",
+      "en": "serum bilirubin",
+      "ar": "بيليروبين المصل",
+      "ar_variantes": [],
+      "definition_fr": "Dosage de la bilirubine totale, libre et conjuguée.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEPA",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06023",
+      "fr": "albuminémie",
+      "en": "serum albumin",
+      "ar": "ألبومين المصل",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique d'albumine, marqueur nutritionnel et de synthèse hépatique.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEPA",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06024",
+      "fr": "lipasémie",
+      "en": "serum lipase",
+      "ar": "ليباز المصل",
+      "ar_variantes": [],
+      "definition_fr": "Dosage de la lipase dont l'élévation au-delà de trois fois la normale oriente vers une pancréatite aiguë.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "GAST",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06025",
+      "fr": "troponine",
+      "en": "cardiac troponin",
+      "ar": "التروبونين",
+      "ar_variantes": [],
+      "definition_fr": "Protéine myocardique dont l'élévation signe une nécrose myocardique.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06026",
+      "fr": "peptides natriurétiques",
+      "en": "natriuretic peptides",
+      "ar": "الببتيدات المدرّة للصوديوم",
+      "ar_variantes": [],
+      "definition_fr": "Hormones cardiaques (BNP, NT-proBNP) élevées dans l'insuffisance cardiaque.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06027",
+      "fr": "D-dimères",
+      "en": "D-dimer",
+      "ar": "ثنائي القسيم د",
+      "ar_variantes": [
+        "الدي دايمر"
+      ],
+      "definition_fr": "Produits de dégradation de la fibrine, dont la négativité aide à exclure une thrombose veineuse.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06028",
+      "fr": "taux de prothrombine",
+      "en": "prothrombin time",
+      "ar": "زمن البروثرومبين",
+      "ar_variantes": [],
+      "definition_fr": "Test explorant la voie extrinsèque de la coagulation et la fonction de synthèse hépatique.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06029",
+      "fr": "rapport normalisé international",
+      "en": "international normalized ratio",
+      "ar": "النسبة المعيارية الدولية",
+      "ar_variantes": [],
+      "definition_fr": "Expression standardisée du temps de prothrombine utilisée pour surveiller les antivitamines K (INR).",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06030",
+      "fr": "temps de céphaline activée",
+      "en": "activated partial thromboplastin time",
+      "ar": "زمن الثرومبوبلاستين الجزئي المنشَّط",
+      "ar_variantes": [],
+      "definition_fr": "Test explorant la voie intrinsèque de la coagulation et surveillant l'héparine non fractionnée.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06031",
+      "fr": "gaz du sang artériel",
+      "en": "arterial blood gas",
+      "ar": "غازات الدم الشرياني",
+      "ar_variantes": [],
+      "definition_fr": "Mesure du pH, de la PaO2, de la PaCO2 et des bicarbonates sur sang artériel.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "PNEU",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06032",
+      "fr": "lactatémie",
+      "en": "blood lactate",
+      "ar": "لاكتات الدم",
+      "ar_variantes": [],
+      "definition_fr": "Concentration sanguine de lactate, marqueur d'hypoperfusion tissulaire.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06033",
+      "fr": "fer sérique",
+      "en": "serum iron",
+      "ar": "حديد المصل",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique du fer, à interpréter avec la transferrine et la ferritine.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06034",
+      "fr": "coefficient de saturation de la transferrine",
+      "en": "transferrin saturation",
+      "ar": "نسبة إشباع الترانسفيرين",
+      "ar_variantes": [],
+      "definition_fr": "Rapport fer sérique/capacité de fixation, abaissé dans la carence martiale.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06035",
+      "fr": "électrophorèse des protéines sériques",
+      "en": "serum protein electrophoresis",
+      "ar": "الرَّحَلان الكهربائي لبروتينات المصل",
+      "ar_variantes": [],
+      "definition_fr": "Séparation des protéines du sérum détectant notamment un pic monoclonal.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06036",
+      "fr": "immunofixation",
+      "en": "immunofixation",
+      "ar": "التثبيت المناعي",
+      "ar_variantes": [],
+      "definition_fr": "Technique d'identification du type d'une immunoglobuline monoclonale.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06037",
+      "fr": "protéinurie des 24 heures",
+      "en": "24-hour urine protein",
+      "ar": "بروتين البول خلال 24 ساعة",
+      "ar_variantes": [],
+      "definition_fr": "Quantification des protéines urinaires sur un recueil de 24 heures.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06038",
+      "fr": "bandelette urinaire",
+      "en": "urine dipstick",
+      "ar": "شريط تحليل البول",
+      "ar_variantes": [],
+      "definition_fr": "Test rapide semi-quantitatif sur urine (leucocytes, nitrites, sang, protéines, glucose).",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEPH",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06039",
+      "fr": "dosage de la TSH",
+      "en": "TSH assay",
+      "ar": "معايرة الهرمون المنبه للدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Examen de première intention pour explorer la fonction thyroïdienne.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06040",
+      "fr": "cortisolémie",
+      "en": "serum cortisol",
+      "ar": "كورتيزول المصل",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique de cortisol, interprétée selon l'heure du prélèvement.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06041",
+      "fr": "test de stimulation à l'ACTH",
+      "en": "ACTH stimulation test",
+      "ar": "اختبار التحفيز بالهرمون الموجه لقشر الكظر",
+      "ar_variantes": [],
+      "definition_fr": "Test dynamique explorant la réserve surrénalienne.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06042",
+      "fr": "test de freinage à la dexaméthasone",
+      "en": "dexamethasone suppression test",
+      "ar": "اختبار الكبت بالديكساميثازون",
+      "ar_variantes": [],
+      "definition_fr": "Test dynamique de dépistage de l'hypercorticisme.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06043",
+      "fr": "métanéphrines",
+      "en": "metanephrines",
+      "ar": "الميتانيفرينات",
+      "ar_variantes": [],
+      "definition_fr": "Métabolites des catécholamines dosés pour le diagnostic du phéochromocytome.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06044",
+      "fr": "marqueurs tumoraux",
+      "en": "tumor markers",
+      "ar": "الواسمات الورمية",
+      "ar_variantes": [],
+      "definition_fr": "Substances dont le dosage aide au suivi de certains cancers.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06045",
+      "fr": "antigène spécifique de la prostate",
+      "en": "prostate-specific antigen",
+      "ar": "المستضد النوعي للموثة",
+      "ar_variantes": [
+        "مستضد البروستات النوعي"
+      ],
+      "definition_fr": "Protéine prostatique dosée dans le sang pour le diagnostic et le suivi du cancer de la prostate (PSA).",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "UROL",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06046",
+      "fr": "alpha-fœtoprotéine",
+      "en": "alpha-fetoprotein",
+      "ar": "البروتين الجنيني ألفا",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur du carcinome hépatocellulaire, des tumeurs germinales et du dépistage prénatal.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEPA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06047",
+      "fr": "antigène carcino-embryonnaire",
+      "en": "carcinoembryonic antigen",
+      "ar": "المستضد السرطاني المضغي",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur de suivi des cancers colorectaux.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "ONCO",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06048",
+      "fr": "bêta-hCG",
+      "en": "beta human chorionic gonadotropin",
+      "ar": "موجِّهة الغدد التناسلية المشيمائية البشرية بيتا",
+      "ar_variantes": [],
+      "definition_fr": "Hormone placentaire dont le dosage confirme la grossesse et surveille les maladies trophoblastiques.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "OBST",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06049",
+      "fr": "uricémie",
+      "en": "serum uric acid",
+      "ar": "حمض البوليك في الدم",
+      "ar_variantes": [],
+      "definition_fr": "Concentration plasmatique d'acide urique.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06050",
+      "fr": "facteur rhumatoïde",
+      "en": "rheumatoid factor",
+      "ar": "العامل الرَّثْياني",
+      "ar_variantes": [
+        "العامل الروماتويدي"
+      ],
+      "definition_fr": "Autoanticorps anti-IgG retrouvé notamment dans la polyarthrite rhumatoïde.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "RHUM",
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06051",
+      "fr": "anticorps anti-peptides citrullinés",
+      "en": "anti-citrullinated peptide antibodies",
+      "ar": "الأضداد المضادة للببتيدات المُسْتَرْلَنة",
+      "ar_variantes": [],
+      "definition_fr": "Autoanticorps très spécifiques de la polyarthrite rhumatoïde.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "RHUM",
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06052",
+      "fr": "anticorps antinucléaires",
+      "en": "antinuclear antibodies",
+      "ar": "الأضداد المضادة للنوى",
+      "ar_variantes": [],
+      "definition_fr": "Autoanticorps dépistés en immunofluorescence dans les connectivites.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "MINT",
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06053",
+      "fr": "anticorps anti-ADN natif",
+      "en": "anti-double-stranded DNA antibodies",
+      "ar": "الأضداد المضادة للدنا ثنائي الطاق",
+      "ar_variantes": [],
+      "definition_fr": "Autoanticorps spécifiques du lupus systémique.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "MINT",
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06054",
+      "fr": "anticorps antiphospholipides",
+      "en": "antiphospholipid antibodies",
+      "ar": "الأضداد المضادة للشحميات الفوسفورية",
+      "ar_variantes": [],
+      "definition_fr": "Autoanticorps (anticoagulant circulant, anticardiolipine, anti-bêta2GP1) du syndrome des antiphospholipides.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "MINT",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06055",
+      "fr": "complément sérique",
+      "en": "serum complement",
+      "ar": "متمِّمة المصل",
+      "ar_variantes": [],
+      "definition_fr": "Dosage de l'activité CH50 et des fractions C3 et C4, consommées dans certaines maladies à complexes immuns.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "IMMU",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06056",
+      "fr": "groupage sanguin",
+      "en": "blood typing",
+      "ar": "تحديد الزمرة الدموية",
+      "ar_variantes": [
+        "فصيلة الدم"
+      ],
+      "definition_fr": "Détermination des groupes ABO et Rhésus avant transfusion ou en cours de grossesse.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06057",
+      "fr": "test de Coombs",
+      "en": "Coombs test",
+      "ar": "اختبار كومبس",
+      "ar_variantes": [],
+      "definition_fr": "Test à l'antiglobuline détectant des anticorps fixés sur les hématies ou circulants.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06058",
+      "fr": "recherche d'agglutinines irrégulières",
+      "en": "red cell antibody screening",
+      "ar": "التحرّي عن الراصّات غير النظامية",
+      "ar_variantes": [],
+      "definition_fr": "Dépistage d'anticorps anti-érythrocytaires avant transfusion ou pendant la grossesse.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06059",
+      "fr": "analyse du liquide cérébro-spinal",
+      "en": "cerebrospinal fluid analysis",
+      "ar": "تحليل السائل الدماغي الشوكي",
+      "ar_variantes": [],
+      "definition_fr": "Étude cytologique, biochimique et microbiologique du liquide obtenu par ponction lombaire.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEUR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06060",
+      "fr": "analyse du liquide pleural",
+      "en": "pleural fluid analysis",
+      "ar": "تحليل السائل الجنبي",
+      "ar_variantes": [],
+      "definition_fr": "Étude du liquide d'épanchement pleural distinguant exsudat et transsudat.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06061",
+      "fr": "exsudat",
+      "en": "exudate",
+      "ar": "النَّتْحة",
+      "ar_variantes": [],
+      "definition_fr": "Épanchement riche en protéines d'origine inflammatoire ou tumorale.",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOM",
+        "PNEU",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06062",
+      "fr": "transsudat",
+      "en": "transudate",
+      "ar": "الرُّشاحة",
+      "ar_variantes": [],
+      "definition_fr": "Épanchement pauvre en protéines d'origine mécanique (pression hydrostatique ou oncotique).",
+      "categorie": "biologie",
+      "specialites": [
+        "BIOM",
+        "PNEU",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06063",
+      "fr": "myélogramme",
+      "en": "bone marrow aspiration",
+      "ar": "رُشافة نِقْي العظم",
+      "ar_variantes": [],
+      "definition_fr": "Étude cytologique de la moelle osseuse prélevée par ponction sternale ou iliaque.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06064",
+      "fr": "biopsie ostéomédullaire",
+      "en": "bone marrow biopsy",
+      "ar": "خزعة نقي العظم",
+      "ar_variantes": [],
+      "definition_fr": "Prélèvement d'une carotte d'os iliaque pour étude histologique de la moelle.",
+      "categorie": "examen",
+      "specialites": [
+        "HEMA",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06065",
+      "fr": "biopsie",
+      "en": "biopsy",
+      "ar": "الخزعة",
+      "ar_variantes": [],
+      "definition_fr": "Prélèvement d'un fragment de tissu pour examen histologique.",
+      "categorie": "examen",
+      "specialites": [
+        "ANAP",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06066",
+      "fr": "cytoponction à l'aiguille fine",
+      "en": "fine-needle aspiration",
+      "ar": "الرشف بالإبرة الدقيقة",
+      "ar_variantes": [],
+      "definition_fr": "Aspiration de cellules à l'aiguille fine pour examen cytologique (nodules thyroïdiens, ganglions).",
+      "categorie": "examen",
+      "specialites": [
+        "ANAP",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06067",
+      "fr": "frottis cervico-utérin",
+      "en": "cervical smear",
+      "ar": "لُطاخة عنق الرحم",
+      "ar_variantes": [
+        "لطاخة بابانيكولاو"
+      ],
+      "definition_fr": "Prélèvement cytologique du col de l'utérus pour dépister les lésions précancéreuses.",
+      "categorie": "examen",
+      "specialites": [
+        "GYNE",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06068",
+      "fr": "spermogramme",
+      "en": "semen analysis",
+      "ar": "تحليل السائل المنوي",
+      "ar_variantes": [],
+      "definition_fr": "Étude du volume, de la numération, de la mobilité et de la morphologie des spermatozoïdes.",
+      "categorie": "examen",
+      "specialites": [
+        "GYNE",
+        "UROL",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06069",
+      "fr": "imagerie médicale",
+      "en": "medical imaging",
+      "ar": "التصوير الطبي",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des techniques produisant des images du corps à des fins diagnostiques ou thérapeutiques.",
+      "categorie": "general",
+      "specialites": [
+        "RADI",
+        "IMAG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06070",
+      "fr": "radiographie",
+      "en": "radiography",
+      "ar": "التصوير الشعاعي",
+      "ar_variantes": [
+        "الأشعة"
+      ],
+      "definition_fr": "Technique d'imagerie utilisant l'atténuation des rayons X par les tissus.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06071",
+      "fr": "radiographie thoracique",
+      "en": "chest radiograph",
+      "ar": "صورة الصدر الشعاعية",
+      "ar_variantes": [],
+      "definition_fr": "Radiographie du thorax de face et éventuellement de profil, examen de première intention en pneumologie.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06072",
+      "fr": "abdomen sans préparation",
+      "en": "plain abdominal radiograph",
+      "ar": "الصورة الشعاعية البسيطة للبطن",
+      "ar_variantes": [],
+      "definition_fr": "Radiographie de l'abdomen sans produit de contraste.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06073",
+      "fr": "niveaux hydro-aériques",
+      "en": "air-fluid levels",
+      "ar": "المستويات السائلة الهوائية",
+      "ar_variantes": [],
+      "definition_fr": "Images radiologiques d'interface gaz-liquide évocatrices d'occlusion intestinale.",
+      "categorie": "signe",
+      "specialites": [
+        "RADI",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06074",
+      "fr": "pneumopéritoine",
+      "en": "pneumoperitoneum",
+      "ar": "استرواح الصِّفاق",
+      "ar_variantes": [],
+      "definition_fr": "Présence d'air libre dans la cavité péritonéale, signe de perforation d'organe creux.",
+      "categorie": "signe",
+      "specialites": [
+        "RADI",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06075",
+      "fr": "opacité radiologique",
+      "en": "radiological opacity",
+      "ar": "العَتامة",
+      "ar_variantes": [],
+      "definition_fr": "Zone de densité augmentée sur une radiographie.",
+      "categorie": "signe",
+      "specialites": [
+        "RADI",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06076",
+      "fr": "hyperclarté",
+      "en": "radiolucency",
+      "ar": "الشفافية الزائدة",
+      "ar_variantes": [],
+      "definition_fr": "Zone de transparence anormalement augmentée sur une radiographie.",
+      "categorie": "signe",
+      "specialites": [
+        "RADI",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06077",
+      "fr": "syndrome alvéolaire",
+      "en": "alveolar pattern",
+      "ar": "النمط السنخي",
+      "ar_variantes": [],
+      "definition_fr": "Opacités floues et confluentes avec bronchogramme aérien traduisant un comblement alvéolaire.",
+      "categorie": "signe",
+      "specialites": [
+        "RADI",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06078",
+      "fr": "syndrome interstitiel",
+      "en": "interstitial pattern",
+      "ar": "النمط الخلالي",
+      "ar_variantes": [],
+      "definition_fr": "Opacités réticulaires ou nodulaires traduisant une atteinte du tissu interstitiel pulmonaire.",
+      "categorie": "signe",
+      "specialites": [
+        "RADI",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06079",
+      "fr": "bronchogramme aérien",
+      "en": "air bronchogram",
+      "ar": "المخطط القصبي الهوائي",
+      "ar_variantes": [],
+      "definition_fr": "Visualisation des bronches aérées au sein d'une opacité alvéolaire.",
+      "categorie": "signe",
+      "specialites": [
+        "RADI",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06080",
+      "fr": "échographie",
+      "en": "ultrasonography",
+      "ar": "التصوير بالصدى",
+      "ar_variantes": [
+        "التصوير بالأمواج فوق الصوتية",
+        "الإيكوغرافيا"
+      ],
+      "definition_fr": "Imagerie utilisant la réflexion des ultrasons, non irradiante.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06081",
+      "fr": "échographie-Doppler",
+      "en": "Doppler ultrasonography",
+      "ar": "التصوير بالدوبلر",
+      "ar_variantes": [],
+      "definition_fr": "Échographie couplée à l'analyse des flux sanguins.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "CARD",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06082",
+      "fr": "échocardiographie",
+      "en": "echocardiography",
+      "ar": "تخطيط صدى القلب",
+      "ar_variantes": [
+        "إيكو القلب"
+      ],
+      "definition_fr": "Échographie du cœur évaluant morphologie, fonction ventriculaire et valves.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06083",
+      "fr": "échographie obstétricale",
+      "en": "obstetric ultrasound",
+      "ar": "التصوير بالصدى أثناء الحمل",
+      "ar_variantes": [],
+      "definition_fr": "Échographie de surveillance de la grossesse et du fœtus.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06084",
+      "fr": "tomodensitométrie",
+      "en": "computed tomography",
+      "ar": "التصوير المقطعي المحوسب",
+      "ar_variantes": [
+        "السكانير"
+      ],
+      "definition_fr": "Imagerie en coupes reconstruites à partir de l'atténuation de rayons X.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06085",
+      "fr": "angioscanner",
+      "en": "CT angiography",
+      "ar": "تصوير الأوعية المقطعي",
+      "ar_variantes": [],
+      "definition_fr": "Tomodensitométrie avec injection de produit de contraste au temps artériel.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "RADI",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06086",
+      "fr": "imagerie par résonance magnétique",
+      "en": "magnetic resonance imaging",
+      "ar": "التصوير بالرنين المغناطيسي",
+      "ar_variantes": [],
+      "definition_fr": "Imagerie en coupes fondée sur la résonance magnétique des protons, non irradiante.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06087",
+      "fr": "produit de contraste iodé",
+      "en": "iodinated contrast medium",
+      "ar": "مادة التباين اليودية",
+      "ar_variantes": [],
+      "definition_fr": "Produit radio-opaque injecté en radiologie, néphrotoxique et parfois allergisant.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "IMAG",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06088",
+      "fr": "gadolinium",
+      "en": "gadolinium",
+      "ar": "الغادولينيوم",
+      "ar_variantes": [],
+      "definition_fr": "Produit de contraste paramagnétique utilisé en IRM.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "IMAG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06089",
+      "fr": "angiographie",
+      "en": "angiography",
+      "ar": "تصوير الأوعية",
+      "ar_variantes": [],
+      "definition_fr": "Opacification des vaisseaux par injection de produit de contraste.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06090",
+      "fr": "coronarographie",
+      "en": "coronary angiography",
+      "ar": "تصوير الشرايين الإكليلية",
+      "ar_variantes": [
+        "تصوير الشرايين التاجية"
+      ],
+      "definition_fr": "Angiographie des artères coronaires par cathétérisme.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06091",
+      "fr": "mammographie",
+      "en": "mammography",
+      "ar": "تصوير الثدي الشعاعي",
+      "ar_variantes": [],
+      "definition_fr": "Radiographie des seins pour le dépistage et le diagnostic du cancer du sein.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI",
+        "GYNE",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06092",
+      "fr": "transit œso-gastro-duodénal",
+      "en": "upper gastrointestinal series",
+      "ar": "تصوير المريء والمعدة والعفج بالباريوم",
+      "ar_variantes": [],
+      "definition_fr": "Radiographies après ingestion de produit baryté.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06093",
+      "fr": "scintigraphie",
+      "en": "scintigraphy",
+      "ar": "التصوير الومضاني",
+      "ar_variantes": [],
+      "definition_fr": "Imagerie de la distribution d'un radiopharmaceutique dans l'organisme.",
+      "categorie": "examen",
+      "specialites": [
+        "MNUC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06094",
+      "fr": "tomographie par émission de positons",
+      "en": "positron emission tomography",
+      "ar": "التصوير المقطعي بالإصدار البوزيتروني",
+      "ar_variantes": [],
+      "definition_fr": "Imagerie fonctionnelle utilisant un traceur émetteur de positons (souvent le FDG).",
+      "categorie": "examen",
+      "specialites": [
+        "MNUC",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06095",
+      "fr": "densitométrie osseuse",
+      "en": "bone densitometry",
+      "ar": "قياس كثافة العظم",
+      "ar_variantes": [],
+      "definition_fr": "Mesure de la densité minérale osseuse par absorptiométrie biphotonique.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06096",
+      "fr": "radiologie interventionnelle",
+      "en": "interventional radiology",
+      "ar": "الأشعة التداخلية",
+      "ar_variantes": [],
+      "definition_fr": "Actes diagnostiques et thérapeutiques réalisés sous guidage de l'imagerie.",
+      "categorie": "traitement",
+      "specialites": [
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06097",
+      "fr": "électrocardiogramme",
+      "en": "electrocardiogram",
+      "ar": "مخطط كهربية القلب",
+      "ar_variantes": [
+        "تخطيط القلب"
+      ],
+      "definition_fr": "Enregistrement de l'activité électrique du cœur par électrodes cutanées.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06098",
+      "fr": "enregistrement Holter",
+      "en": "Holter monitoring",
+      "ar": "تسجيل هولتر",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement électrocardiographique continu sur 24 heures ou plus.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06099",
+      "fr": "épreuve d'effort",
+      "en": "exercise stress test",
+      "ar": "اختبار الجهد",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement électrocardiographique au cours d'un effort calibré.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06100",
+      "fr": "mesure ambulatoire de la pression artérielle",
+      "en": "ambulatory blood pressure monitoring",
+      "ar": "المراقبة الجوّالة لضغط الدم",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement automatique répété de la pression artérielle sur 24 heures.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06101",
+      "fr": "mesure de la pression artérielle",
+      "en": "blood pressure measurement",
+      "ar": "قياس ضغط الدم",
+      "ar_variantes": [],
+      "definition_fr": "Mesure au brassard de la pression systolique et diastolique.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06102",
+      "fr": "index de pression systolique",
+      "en": "ankle-brachial index",
+      "ar": "المنسب الكاحلي العضدي",
+      "ar_variantes": [],
+      "definition_fr": "Rapport des pressions systoliques cheville/bras, abaissé dans l'artériopathie des membres inférieurs.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06103",
+      "fr": "électroencéphalogramme",
+      "en": "electroencephalogram",
+      "ar": "مخطط كهربية الدماغ",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement de l'activité électrique cérébrale.",
+      "categorie": "examen",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06104",
+      "fr": "électromyogramme",
+      "en": "electromyogram",
+      "ar": "مخطط كهربية العضل",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement de l'activité électrique des muscles et des conductions nerveuses.",
+      "categorie": "examen",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06105",
+      "fr": "spirométrie",
+      "en": "spirometry",
+      "ar": "قياس التنفّس",
+      "ar_variantes": [],
+      "definition_fr": "Mesure des volumes et débits ventilatoires.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06106",
+      "fr": "débit expiratoire de pointe",
+      "en": "peak expiratory flow",
+      "ar": "ذروة الجريان الزفيري",
+      "ar_variantes": [],
+      "definition_fr": "Débit maximal obtenu lors d'une expiration forcée, utile au suivi de l'asthme.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06107",
+      "fr": "oxymétrie de pouls",
+      "en": "pulse oximetry",
+      "ar": "قياس التأكسج النبضي",
+      "ar_variantes": [],
+      "definition_fr": "Mesure transcutanée non invasive de la saturation en oxygène.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06108",
+      "fr": "polysomnographie",
+      "en": "polysomnography",
+      "ar": "تخطيط النوم المتعدد",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement nocturne de multiples paramètres pour le diagnostic des troubles du sommeil.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06109",
+      "fr": "bronchoscopie",
+      "en": "bronchoscopy",
+      "ar": "تنظير القصبات",
+      "ar_variantes": [],
+      "definition_fr": "Exploration endoscopique de l'arbre trachéobronchique.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06110",
+      "fr": "endoscopie digestive haute",
+      "en": "upper gastrointestinal endoscopy",
+      "ar": "تنظير المريء والمعدة والعفج",
+      "ar_variantes": [],
+      "definition_fr": "Exploration endoscopique de l'œsophage, de l'estomac et du duodénum (fibroscopie œso-gastro-duodénale).",
+      "categorie": "examen",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06111",
+      "fr": "coloscopie",
+      "en": "colonoscopy",
+      "ar": "تنظير القولون",
+      "ar_variantes": [],
+      "definition_fr": "Exploration endoscopique du côlon et du rectum.",
+      "categorie": "examen",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06112",
+      "fr": "cholangiopancréatographie rétrograde endoscopique",
+      "en": "endoscopic retrograde cholangiopancreatography",
+      "ar": "تصوير القنوات الصفراوية والبنكرياسية بالتنظير الراجع",
+      "ar_variantes": [],
+      "definition_fr": "Opacification endoscopique des voies biliaires et pancréatiques, à visée surtout thérapeutique.",
+      "categorie": "examen",
+      "specialites": [
+        "GAST",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06113",
+      "fr": "cystoscopie",
+      "en": "cystoscopy",
+      "ar": "تنظير المثانة",
+      "ar_variantes": [],
+      "definition_fr": "Exploration endoscopique de l'urètre et de la vessie.",
+      "categorie": "examen",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06114",
+      "fr": "audiogramme",
+      "en": "audiogram",
+      "ar": "مخطّط السمع",
+      "ar_variantes": [],
+      "definition_fr": "Représentation graphique des seuils auditifs selon la fréquence.",
+      "categorie": "examen",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06115",
+      "fr": "fond d'œil",
+      "en": "fundoscopy",
+      "ar": "تنظير قاع العين",
+      "ar_variantes": [],
+      "definition_fr": "Examen de la rétine et de la papille optique.",
+      "categorie": "examen",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06116",
+      "fr": "tonométrie",
+      "en": "tonometry",
+      "ar": "قياس توتر العين",
+      "ar_variantes": [],
+      "definition_fr": "Mesure de la pression intraoculaire.",
+      "categorie": "examen",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06117",
+      "fr": "examen à la lampe à fente",
+      "en": "slit-lamp examination",
+      "ar": "الفحص بالمصباح الشقّي",
+      "ar_variantes": [],
+      "definition_fr": "Examen biomicroscopique du segment antérieur de l'œil.",
+      "categorie": "examen",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06118",
+      "fr": "tomographie en cohérence optique",
+      "en": "optical coherence tomography",
+      "ar": "التصوير المقطعي بالتماسك البصري",
+      "ar_variantes": [],
+      "definition_fr": "Imagerie en coupes de la rétine à haute résolution.",
+      "categorie": "examen",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06119",
+      "fr": "angiographie à la fluorescéine",
+      "en": "fluorescein angiography",
+      "ar": "تصوير الأوعية بالفلوريسين",
+      "ar_variantes": [],
+      "definition_fr": "Opacification des vaisseaux rétiniens par injection intraveineuse de fluorescéine.",
+      "categorie": "examen",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06120",
+      "fr": "test de grossesse",
+      "en": "pregnancy test",
+      "ar": "اختبار الحمل",
+      "ar_variantes": [],
+      "definition_fr": "Recherche urinaire ou sanguine de l'hormone chorionique gonadotrope.",
+      "categorie": "examen",
+      "specialites": [
+        "OBST",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06121",
+      "fr": "cardiotocographie",
+      "en": "cardiotocography",
+      "ar": "تخطيط نبض الجنين وتقلصات الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement simultané du rythme cardiaque fœtal et des contractions utérines.",
+      "categorie": "examen",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-06122",
+      "fr": "amniocentèse",
+      "en": "amniocentesis",
+      "ar": "بَزْل السَّلى",
+      "ar_variantes": [],
+      "definition_fr": "Prélèvement transabdominal de liquide amniotique à visée diagnostique.",
+      "categorie": "examen",
+      "specialites": [
+        "OBST",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06123",
+      "fr": "score d'Apgar",
+      "en": "Apgar score",
+      "ar": "حَرْز أبغار",
+      "ar_variantes": [],
+      "definition_fr": "Score d'adaptation à la vie extra-utérine du nouveau-né évalué à 1, 5 et 10 minutes.",
+      "categorie": "examen",
+      "specialites": [
+        "NEON",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06124",
+      "fr": "score de Glasgow",
+      "en": "Glasgow coma scale",
+      "ar": "مقياس غلاسكو للغيبوبة",
+      "ar_variantes": [],
+      "definition_fr": "Échelle d'évaluation de la conscience de 3 à 15 (ouverture des yeux, réponse verbale, réponse motrice).",
+      "categorie": "examen",
+      "specialites": [
+        "NEUR",
+        "MINT_REA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06125",
+      "fr": "indice de masse corporelle",
+      "en": "body mass index",
+      "ar": "منسب كتلة الجسم",
+      "ar_variantes": [
+        "مؤشر كتلة الجسم"
+      ],
+      "definition_fr": "Poids en kilogrammes divisé par le carré de la taille en mètres.",
+      "categorie": "examen",
+      "specialites": [
+        "ENDO",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-06126",
+      "fr": "courbe de croissance",
+      "en": "growth chart",
+      "ar": "منحنى النموّ",
+      "ar_variantes": [],
+      "definition_fr": "Représentation graphique du poids, de la taille et du périmètre crânien selon l'âge.",
+      "categorie": "examen",
+      "specialites": [
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    }
+  ]
+}

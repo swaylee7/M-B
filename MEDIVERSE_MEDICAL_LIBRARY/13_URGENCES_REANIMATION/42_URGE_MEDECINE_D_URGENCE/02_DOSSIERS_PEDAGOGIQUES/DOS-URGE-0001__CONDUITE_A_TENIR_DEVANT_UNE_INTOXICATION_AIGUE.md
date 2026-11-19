@@ -6,11 +6,17 @@ sous_specialite: "Toxicologie clinique d'urgence"
 items_residanat: [RES-MED-109]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-06 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-URGE-0001.md
 sources:
   - id: S1
     reference: "Mégarbane B, et al. Management of pharmaceutical and recreational drug poisoning. Recommandations formalisées d'experts SRLF-SFMU (avec STC, SFTA, GFRUP). Ann Intensive Care. 2020;10:157 (version française : Toxicologie Analytique et Clinique, 2021)."
@@ -69,21 +75,21 @@ sources:
     url: ""
     verifiee: true
   - id: S8
-    reference: "Eddleston M, Buckley NA, Eyer P, Dawson AH. Management of acute organophosphorus pesticide poisoning. Lancet. 2008. [À VÉRIFIER — non confirmée pendant la session]"
+    reference: "Eddleston M, Buckley NA, Eyer P, Dawson AH. Management of acute organophosphorus pesticide poisoning. Lancet. 2008;371(9612):597-607 (PMID 17706760). [Vérifiée à l'audit]"
     organisme: ""
     annee: 2008
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(07)61202-1"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S9
-    reference: "European Committee for Hyperbaric Medicine. Conférence européenne de consensus sur la médecine hyperbare (indications de l'oxygénothérapie hyperbare, dont l'intoxication au CO), 2016. [À VÉRIFIER — non confirmée pendant la session]"
+    reference: "Mathieu D, Marroni A, Kot J. Tenth European Consensus Conference on Hyperbaric Medicine: recommendations for accepted and non-accepted clinical indications and practice of hyperbaric oxygen treatment (ECHM, Lille, 2016). Diving Hyperb Med. 2017;47(1):24-32 (PMC6147240). [Existence vérifiée à l'audit ; libellé exact de l'indication CO non consulté]"
     organisme: ECHM
     annee: 2016
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S10
     reference: "EXTRIP Workgroup. Recommandations sur l'épuration extrarénale dans les intoxications (lithium, salicylés, alcools toxiques, metformine, etc.). [À VÉRIFIER — non confirmées pendant la session]"
     organisme: EXTRIP
@@ -109,7 +115,7 @@ sources:
     url: ""
     verifiee: false
   - id: S13
-    reference: "Centre National de Toxicologie (Alger, Algérie) — centre antipoison national. [Existence connue ; coordonnées, missions et données non vérifiées pendant la session]"
+    reference: "Centre National de Toxicologie (Alger, Algérie) — centre antipoison national. [Existence attestée par la littérature (adresse à Dely Brahim citée dans Ann Toxicol Anal 2011, doi:10.1051/ata/2011115) ; numéro de téléphone NON vérifié à l'audit : aucun numéro n'est reproduit ; se référer au site officiel du ministère de la Santé ou du CNT]"
     organisme: CNT Algérie
     annee: 2026
     type: site_institutionnel
@@ -156,7 +162,7 @@ Une **intoxication aiguë** est l'ensemble des troubles résultant de l'expositi
 ## 2. Historique (repères)
 
 - Le principe « c'est la dose qui fait le poison » fonde la toxicologie depuis la Renaissance.
-- Les **centres antipoison**, apparus au milieu du XXe siècle, ont structuré la toxicovigilance et le conseil téléphonique ; en Algérie, le **Centre National de Toxicologie** (Alger) assure ce rôle [S13 — À VÉRIFIER : missions et coordonnées].
+- Les **centres antipoison**, apparus au milieu du XXe siècle, ont structuré la toxicovigilance et le conseil téléphonique ; en Algérie, le **Centre National de Toxicologie** (Alger) assure ce rôle [S13 — missions à préciser ; coordonnées à consulter sur le site officiel, aucun numéro non vérifié n'est reproduit ici].
 - Les années 1990–2010 ont vu la **restriction progressive des décontaminations digestives** (abandon du sirop d'ipéca, quasi-abandon du lavage gastrique) au profit d'indications ciblées du charbon activé [S2, S3].
 - En France, les recommandations formalisées d'experts SRLF-SFMU de 2020 ont actualisé la prise en charge des intoxications médicamenteuses et par drogues récréatives (41 recommandations, dont des recommandations fortes sur la naloxone et la N-acétylcystéine) [S1].
 
@@ -279,7 +285,7 @@ Le **Poisoning Severity Score** (PSS, 0 = aucun symptôme à 4 = décès) est ut
 - **Nomogramme** (de Rumack-Matthew) : paracétamolémie mesurée **à partir de 4 h** après une ingestion unique d'heure connue, reportée sur la droite de traitement ; en Australie et en Nouvelle-Zélande, la droite (150 mg/L à 4 h) est inchangée [S4] ; au Royaume-Uni, le seuil a été abaissé (100 mg/L à 4 h) [S11 — À VÉRIFIER]. Le nomogramme n'est **pas utilisable** pour les ingestions répétées, d'heure inconnue ou de formes à libération prolongée [S4].
 - **Traitement — N-acétylcystéine (NAC) IV**, précurseur du glutathion, d'autant plus efficace qu'elle est précoce (idéalement dans les 8 h) :
   - **schéma en deux poches** recommandé en Australie/Nouvelle-Zélande : **200 mg/kg sur 4 h, puis 100 mg/kg sur 16 h**, efficacité similaire et beaucoup moins de réactions indésirables que le schéma en trois poches [S4] ;
-  - **schéma classique en trois poches** : 150 mg/kg sur 15–60 min, puis 50 mg/kg sur 4 h, puis 100 mg/kg sur 16 h [POSOLOGIE À VÉRIFIER — RCP / protocole local] ;
+  - **schéma classique en trois poches** (schéma du RCP de l'acétylcystéine IV, 300 mg/kg sur environ 21 h) : 150 mg/kg sur 15–60 min, puis 50 mg/kg sur 4 h, puis 100 mg/kg sur 16 h ; la durée de la première poche varie selon les RCP nationaux (allongée à 60 min pour réduire les réactions anaphylactoïdes) ;
   - **débuter la NAC sans attendre la paracétamolémie** si l'ingestion date de plus de 8 h, si l'heure est inconnue, en cas d'ingestion répétée supra-thérapeutique ou si le résultat ne peut être obtenu dans les 8 h [S4] ;
   - **ingestion massive** (concentration supérieure au double de la droite de traitement) : dose de NAC augmentée [S4] ; formes à libération prolongée : traitement complet si l'ingestion est potentiellement toxique [S4] ;
   - **fin de traitement** : contrôle des transaminases et de la paracétamolémie ; poursuite de la NAC si elles sont anormales [S4] ;
@@ -290,7 +296,7 @@ Le **Poisoning Severity Score** (PSS, 0 = aucun symptôme à 4 = décès) est ut
 
 ### 10.2 Benzodiazépines et apparentés
 
-Coma calme hypotonique, hyporéflexique ; rarement grave isolément, mais **dépression respiratoire** en cas d'association (alcool, opioïdes, autres sédatifs) et complications du coma (inhalation, rhabdomyolyse). Le **flumazénil** (antagoniste compétitif) a des indications restreintes : coma attribué à une intoxication **pure** aux benzodiazépines, en l'absence de contre-indication, notamment pour éviter une intubation [S1 — formulation À VÉRIFIER]. **Contre-indications** : co-ingestion de toxiques proconvulsivants (antidépresseurs tricycliques, tramadol…), QRS élargi, épilepsie, dépendance chronique aux benzodiazépines. Posologie usuelle : bolus de 0,2 mg IV puis 0,1 mg par minute jusqu'à un réveil suffisant, sans dépasser 1 mg [POSOLOGIE À VÉRIFIER — RCP]. Sa durée d'action courte expose à la **re-sédation**.
+Coma calme hypotonique, hyporéflexique ; rarement grave isolément, mais **dépression respiratoire** en cas d'association (alcool, opioïdes, autres sédatifs) et complications du coma (inhalation, rhabdomyolyse). Le **flumazénil** (antagoniste compétitif) a des indications restreintes : coma attribué à une intoxication **pure** aux benzodiazépines, en l'absence de contre-indication, notamment pour éviter une intubation [S1 — formulation À VÉRIFIER]. **Contre-indications** : co-ingestion de toxiques proconvulsivants (antidépresseurs tricycliques, tramadol…), QRS élargi, épilepsie, dépendance chronique aux benzodiazépines. Posologie : titration IV par petites doses (par exemple 0,2 mg puis 0,1 mg toutes les minutes) jusqu'à un réveil suffisant ; la dose totale maximale diffère selon l'indication (réversion d'une sédation ou intoxication) et le RCP — la limite de 1 mg correspond à la réversion d'une sédation et ne doit pas être présentée comme une règle générale en toxicologie [POSOLOGIE À VÉRIFIER — RCP]. Sa durée d'action courte expose à la **re-sédation**.
 
 ### 10.3 Opioïdes
 
@@ -321,11 +327,11 @@ Association d'un **syndrome anticholinergique** (mydriase, tachycardie, séchere
 - **Circonstances** : pesticides agricoles et domestiques ; ingestion volontaire, exposition professionnelle (cutanée, respiratoire).
 - **Syndrome cholinergique** : **muscarinique** (myosis, bradycardie, **bronchorrhée** et bronchospasme — cause principale de décès, hypersalivation, larmoiement, sueurs, vomissements, diarrhée, incontinence), **nicotinique** (fasciculations, faiblesse musculaire, paralysie respiratoire, tachycardie et hypertension possibles), **central** (agitation, convulsions, coma). Odeur alliacée possible.
 - **Diagnostic** : clinique, confirmé par la baisse de l'activité cholinestérasique.
-- **Traitement** [S8 — POSOLOGIES À VÉRIFIER — protocole local] :
+- **Traitement** [S8] :
   1. **décontamination** cutanée (déshabillage, lavage à l'eau et au savon) avec **protection du personnel** ;
   2. libération des voies aériennes, aspiration, oxygène, intubation si nécessaire (**éviter la succinylcholine** : paralysie prolongée) ;
-  3. **atropine IV** à doses croissantes (par exemple 1–2 mg chez l'adulte, puis doublement de la dose toutes les 5 minutes) jusqu'à l'**atropinisation** : auscultation pulmonaire « sèche » (critère principal), FC > 80/min, PAS > 80 mmHg, aisselles sèches, pupilles non punctiformes ; puis entretien en perfusion ; la tachycardie n'est pas une contre-indication si la bronchorrhée persiste ;
-  4. **oximes** (pralidoxime), qui réactivent l'enzyme avant son « vieillissement » : schéma de l'OMS par bolus puis perfusion continue ; leur bénéfice clinique est débattu ;
+  3. **atropine IV** à doses croissantes (bolus initial de 1–2 mg chez l'adulte, puis doublement de la dose toutes les 5 minutes) jusqu'à l'**atropinisation** : auscultation pulmonaire « sèche » (critère principal), FC > 80/min, PAS > 80 mmHg, aisselles sèches, pupilles non punctiformes ; puis entretien en perfusion (de l'ordre de 10 à 20 % de la dose de charge totale par heure, ajustée sur la réapparition des signes muscariniques ou d'une intoxication atropinique) [S8] ; la tachycardie n'est pas une contre-indication si la bronchorrhée persiste ;
+  4. **oximes** (pralidoxime), qui réactivent l'enzyme avant son « vieillissement » : schéma recommandé par l'OMS (chlorure de pralidoxime 30 mg/kg en 20–30 min puis 8 mg/kg/h en perfusion continue) [S8 — POSOLOGIE À VÉRIFIER — sel disponible (chlorure ou méthylsulfate) et RCP] ; leur bénéfice clinique est débattu ;
   5. **benzodiazépines** pour l'agitation et les convulsions.
 - **Complications** : **syndrome intermédiaire** (24–96 h : faiblesse des muscles cervicaux et proximaux, des nerfs crâniens et des muscles respiratoires → insuffisance respiratoire secondaire), neuropathie retardée (2–3 semaines).
 
@@ -350,8 +356,8 @@ Ivresse initiale puis, après une latence de quelques heures, **acidose métabol
 | **Isoniazide** | Convulsions réfractaires, acidose lactique, coma | **Pyridoxine** IV (dose égale à la quantité d'isoniazide ingérée, ou dose empirique si inconnue) [POSOLOGIE À VÉRIFIER] — pertinent dans les pays où le traitement antituberculeux est très prescrit |
 | **Chloroquine** | Hypotension, QRS large, hypokaliémie, arythmies, mort subite | Protocole associant diazépam à forte dose, adrénaline et ventilation mécanique [À VÉRIFIER] |
 | **Sulfamides hypoglycémiants** | Hypoglycémies récidivantes et prolongées | Glucose, octréotide [À VÉRIFIER], surveillance prolongée |
-| **Cyanures, fumées** | Coma, convulsions, acidose lactique majeure, collapsus | **Hydroxocobalamine** (5 g IV chez l'adulte, 70 mg/kg chez l'enfant, renouvelable) [POSOLOGIE À VÉRIFIER — RCP] |
-| **Méthémoglobinisants** | Cyanose « grise » non corrigée par l'oxygène, sang chocolat | **Bleu de méthylène** (1–2 mg/kg IV) sauf déficit en G6PD [POSOLOGIE À VÉRIFIER — RCP] |
+| **Cyanures, fumées** | Coma, convulsions, acidose lactique majeure, collapsus | **Hydroxocobalamine** (5 g IV en 15 min chez l'adulte, 70 mg/kg sans dépasser 5 g chez l'enfant ; seconde dose possible selon la gravité — RCP de l'hydroxocobalamine) |
+| **Méthémoglobinisants** | Cyanose « grise » non corrigée par l'oxygène, sang chocolat | **Bleu de méthylène** (1–2 mg/kg IV en 5 min, RCP du bleu de méthylène) sauf déficit en G6PD |
 | **Raticides anticoagulants** | Saignements retardés, INR allongé prolongé | Vitamine K1 au long cours, surveillance de l'INR |
 | **Anesthésiques locaux** (toxicité systémique) | Convulsions, arythmies, arrêt cardiaque | **Émulsion lipidique** IV [POSOLOGIE À VÉRIFIER — protocole local] |
 | **Colchicine** | Troubles digestifs, puis défaillance multiviscérale et aplasie | Symptomatique, réanimation précoce |
@@ -420,16 +426,16 @@ Intoxications le plus souvent accidentelles, souvent bénignes, mais certains m�
 
 | Antidote | Toxique | Posologie de référence (adulte) | Points clés |
 |---|---|---|---|
-| **N-acétylcystéine** IV | Paracétamol | 200 mg/kg sur 4 h puis 100 mg/kg sur 16 h (schéma ANZ) [S4] ; schéma classique en trois poches [POSOLOGIE À VÉRIFIER — RCP] | Débuter sans attendre si > 8 h ou heure inconnue ; contrôle biologique en fin de traitement |
+| **N-acétylcystéine** IV | Paracétamol | 200 mg/kg sur 4 h puis 100 mg/kg sur 16 h (schéma ANZ) [S4] ; ou schéma classique en trois poches du RCP : 150 mg/kg sur 15–60 min, 50 mg/kg sur 4 h, 100 mg/kg sur 16 h | Débuter sans attendre si > 8 h ou heure inconnue ; contrôle biologique en fin de traitement |
 | **Naloxone** | Opioïdes | Titration IV par petits bolus (ex. 0,04 mg) jusqu'à FR ≥ 12/min ; IM/intranasal possible [S1 — POSOLOGIE À VÉRIFIER] | Durée d'action courte : re-sédation ; sevrage aigu si surdosage |
-| **Flumazénil** | Benzodiazépines | 0,2 mg IV puis 0,1 mg/min, maximum 1 mg [POSOLOGIE À VÉRIFIER — RCP] | Contre-indiqué si toxique proconvulsivant, QRS large, épilepsie, dépendance |
-| **Atropine** | Organophosphorés, carbamates ; bradycardies | Bolus IV croissants (1–2 mg puis doublement toutes les 5 min) jusqu'à l'atropinisation, puis perfusion [S8 — POSOLOGIE À VÉRIFIER] | Critère principal : poumons secs |
-| **Pralidoxime** | Organophosphorés | Bolus puis perfusion continue selon le schéma OMS [S8 — POSOLOGIE À VÉRIFIER] | Bénéfice clinique débattu ; précocité |
+| **Flumazénil** | Benzodiazépines | Titration IV (ex. 0,2 mg puis 0,1 mg/min) jusqu'à un réveil suffisant ; dose maximale selon l'indication et le RCP [POSOLOGIE À VÉRIFIER — RCP] | Contre-indiqué si toxique proconvulsivant, QRS large, épilepsie, dépendance |
+| **Atropine** | Organophosphorés, carbamates ; bradycardies | Bolus IV croissants (1–2 mg puis doublement toutes les 5 min) jusqu'à l'atropinisation, puis perfusion d'environ 10–20 % de la dose de charge par heure [S8] | Critère principal : poumons secs |
+| **Pralidoxime** | Organophosphorés | Schéma OMS : 30 mg/kg (chlorure) en 20–30 min puis 8 mg/kg/h [S8 — POSOLOGIE À VÉRIFIER — sel et RCP du produit disponible] | Bénéfice clinique débattu ; précocité |
 | **Bicarbonate de sodium** 8,4 % | Stabilisants de membrane (tricycliques…) ; alcalinisation urinaire (salicylés) | Bolus de l'ordre de 1–2 mmol/kg, renouvelables selon le QRS [POSOLOGIE À VÉRIFIER] | Surveiller kaliémie et pH |
-| **Hydroxocobalamine** | Cyanures, fumées d'incendie | 5 g IV en 15–30 min (70 mg/kg chez l'enfant), renouvelable une fois [POSOLOGIE À VÉRIFIER — RCP] | Coloration rouge des urines et de la peau, interférences biologiques |
-| **Fomépizole** (ou éthanol) | Méthanol, éthylène glycol | Dose de charge puis entretien toutes les 12 h selon le RCP [POSOLOGIE À VÉRIFIER — RCP] | Associer l'hémodialyse si grave |
+| **Hydroxocobalamine** | Cyanures, fumées d'incendie | 5 g IV en 15 min (70 mg/kg chez l'enfant, sans dépasser 5 g) ; seconde dose de 5 g possible selon la gravité (RCP) | Coloration rouge des urines et de la peau, interférences biologiques |
+| **Fomépizole** (ou éthanol) | Méthanol, éthylène glycol | Fomépizole : 15 mg/kg IV en dose de charge, puis 10 mg/kg toutes les 12 h (4 doses), puis 15 mg/kg toutes les 12 h ; administrations plus rapprochées pendant l'hémodialyse (RCP du fomépizole) ; éthanol : selon protocole local [POSOLOGIE À VÉRIFIER — éthanol] | Associer l'hémodialyse si grave |
 | **Fragments Fab antidigoxine** | Digoxine | Dose selon la quantité ingérée ou la digoxinémie [POSOLOGIE À VÉRIFIER — RCP] | Indications : arythmies, bradycardie résistante, hyperkaliémie, choc |
-| **Bleu de méthylène** | Méthémoglobinémie | 1–2 mg/kg IV en 5 min [POSOLOGIE À VÉRIFIER — RCP] | Contre-indiqué si déficit en G6PD |
+| **Bleu de méthylène** | Méthémoglobinémie | 1–2 mg/kg IV en 5 min (RCP) | Contre-indiqué si déficit en G6PD |
 | **Glucagon** | Bêtabloquants | Bolus IV puis perfusion [POSOLOGIE À VÉRIFIER — protocole local] | Vomissements fréquents |
 | **Sels de calcium** | Inhibiteurs calciques ; hyperkaliémie non digitalique | Bolus IV répétés [POSOLOGIE À VÉRIFIER] | Surveillance de la calcémie |
 | **Insuline à forte dose** + glucose | Inhibiteurs calciques, bêtabloquants | Selon protocole [POSOLOGIE À VÉRIFIER] | Glycémie et kaliémie rapprochées |
@@ -444,7 +450,7 @@ Toute intoxication volontaire impose une **évaluation psychiatrique** avant la 
 
 #### f) Toxicovigilance
 
-Appel au **centre antipoison** pour l'aide à l'évaluation de la gravité et au traitement ; déclaration des cas (toxicovigilance). En Algérie : **Centre National de Toxicologie** (Alger) [S13 — coordonnées À VÉRIFIER].
+Appel au **centre antipoison** pour l'aide à l'évaluation de la gravité et au traitement ; déclaration des cas (toxicovigilance). En Algérie : **Centre National de Toxicologie** (Alger) [S13] — coordonnées non vérifiées à l'audit, donc non reproduites : consulter le site officiel du ministère de la Santé ou du CNT.
 
 ### 13.3 Stratégie générale (synthèse)
 
@@ -470,7 +476,7 @@ INTOXICATION SUSPECTÉE OU AVÉRÉE
 ### 13.4 Particularités algériennes
 
 - **Monoxyde de carbone** : priorité de santé publique hivernale (Protection civile : 156 décès en 2023) ; campagnes d'information et de prévention du ministère de la Santé (note n° 21478/MSPRH/DP/2010 pour l'hiver 2010–2011, par exemple) [S5–S7]. L'accès à l'oxygénothérapie hyperbare est limité à quelques centres [À VÉRIFIER].
-- **Centre National de Toxicologie** : centre antipoison national (Alger) [S13 — À VÉRIFIER].
+- **Centre National de Toxicologie** : centre antipoison national (Alger) [S13] ; coordonnées à consulter sur le site officiel (aucun numéro non vérifié reproduit).
 - **Pesticides** : intoxications organophosphorées en milieu agricole ; disponibilité de la pralidoxime à vérifier dans chaque établissement [À VÉRIFIER].
 - **Isoniazide** : traitement antituberculeux largement prescrit → penser à la pyridoxine devant des convulsions toxiques réfractaires.
 - **Plantes** : *Atractylis gummifera* (chardon à glu), datura, laurier-rose — intoxications décrites au Maghreb [À VÉRIFIER].
@@ -649,7 +655,7 @@ Ingestion d'un toxique
 - B. Il doit être utilisé comme test diagnostique devant tout coma inexpliqué.
 - C. Sa durée d'action courte expose à une re-sédation.
 - D. Il peut déclencher un sevrage et des convulsions chez un patient dépendant aux benzodiazépines.
-- E. La dose totale usuelle ne dépasse pas environ 1 mg.
+- E. Il s'administre par titration IV de petites doses successives.
 
 **QCM 7** (QCM-URGE-0007 — réponses multiples possibles). Un agriculteur de 45 ans a ingéré un insecticide organophosphoré. Il présente un myosis serré, une bronchorrhée abondante, une bradycardie à 42/min et des fasciculations. Quelles propositions sont exactes ?
 
@@ -698,7 +704,7 @@ Ingestion d'un toxique
 
 - A : Vrai : avant 4 h, l'absorption n'est pas terminée.
 - B : Vrai : tout retard au-delà de 8 h augmente le risque d'hépatotoxicité.
-- C : Vrai : schéma ANZ 2019.
+- C : Vrai : schéma ANZ (Chiew et al., Med J Aust 2020).
 - D : Faux : ralentir, traiter, puis reprendre.
 - E : Faux : non validé pour les ingestions répétées, d'heure inconnue ou à libération prolongée.
 - *Piège* : Attendre la paracétamolémie chez un patient vu tardivement.
@@ -736,7 +742,7 @@ Ingestion d'un toxique
 - B : Faux : non recommandé (SRLF-SFMU 2020).
 - C : Vrai : surveillance prolongée.
 - D : Vrai : sevrage aigu, convulsions.
-- E : Vrai : titration jusqu'à 1 mg selon le RCP (à vérifier).
+- E : Vrai : titration jusqu'à un réveil suffisant ; la dose maximale dépend de l'indication et du RCP (proposition reformulée à l'audit : la limite de 1 mg ne vaut pas règle générale en toxicologie).
 - *Piège* : Le « test au flumazénil » devant tout coma.
 
 **QCM 7 — réponse(s) : A, C, D.** L'inhibition de l'acétylcholinestérase provoque un syndrome cholinergique muscarinique, nicotinique et central. La bronchorrhée et le bronchospasme sont la principale cause de décès : l'atropine est titrée à doses croissantes sur l'assèchement pulmonaire. La succinylcholine, métabolisée par les cholinestérases, entraîne une paralysie prolongée. Le syndrome intermédiaire impose une surveillance de plusieurs jours.
@@ -750,7 +756,7 @@ Ingestion d'un toxique
 
 **QCM 8 — réponse(s) : A, B, D.** Le CO provoque une hypoxie tissulaire par fixation sur l'hémoglobine et inhibition de la respiration cellulaire. Le traitement repose sur l'oxygène immédiat, normobare ou hyperbare selon la gravité et la disponibilité. La COHb dépend du délai et de l'oxygène reçu, d'où une mauvaise corrélation avec la gravité. Les incendies associent CO et cyanures (hydroxocobalamine).
 
-- A : Vrai : indications usuelles (consensus européen 2016, à vérifier).
+- A : Vrai : indications usuelles de l'oxygénothérapie hyperbare (conférence de consensus européenne ECHM 2016) ; critères détaillés à confronter au protocole régional.
 - B : Vrai : troubles neuropsychologiques retardés.
 - C : Faux : corrélation médiocre.
 - D : Vrai : coma avec acidose lactique majeure → hydroxocobalamine.
@@ -779,13 +785,13 @@ Ingestion d'un toxique
 
 | Question | Position A | Position B | Commentaire |
 |---|---|---|---|
-| Schéma de N-acétylcystéine | **Australie/Nouvelle-Zélande 2019** (publié 2020) : deux poches, 200 mg/kg/4 h puis 100 mg/kg/16 h — moins d'effets indésirables, efficacité similaire [S4] | Schéma « historique » en trois poches (150/50/100 mg/kg sur 21 h), encore utilisé dans de nombreux pays et RCP [S12 — À VÉRIFIER] ; schémas accélérés britanniques [À VÉRIFIER] | Choisir selon le protocole local ; la dose totale de 300 mg/kg sur 20–21 h est commune aux schémas usuels |
+| Schéma de N-acétylcystéine | **Australie/Nouvelle-Zélande 2019** (publié 2020) : deux poches, 200 mg/kg/4 h puis 100 mg/kg/16 h — moins d'effets indésirables, efficacité similaire [S4] | Schéma « historique » en trois poches (150/50/100 mg/kg sur 21 h), schéma des RCP et encore utilisé dans de nombreux pays ; schémas accélérés britanniques [À VÉRIFIER] | Choisir selon le protocole local ; la dose totale de 300 mg/kg sur 20–21 h est commune aux schémas usuels |
 | Seuil du nomogramme | **ANZ 2019** : droite inchangée (150 mg/L à 4 h) [S4] | **Royaume-Uni (2012)** : seuil abaissé à 100 mg/L à 4 h pour tous les patients [S11 — À VÉRIFIER] | Le seuil britannique augmente le nombre de patients traités |
 | Seuil de dose toxique | **ANZ** : ≥ 200 mg/kg ou ≥ 10 g [S4] | Tradition française : seuil plus bas (≈ 150 mg/kg), majoré chez les sujets à risque [À VÉRIFIER] | Divergence de prudence |
 | Flumazénil | **SRLF-SFMU 2020** : indications restreintes, pas de test diagnostique systématique [S1] | Usage plus libéral dans certaines pratiques anciennes | Le risque convulsif limite son usage |
 | Délai d'utilisation du charbon | **AACT/EAPCCT 2005** : bénéfice plus probable dans l'heure ; pas d'usage systématique [S2] | **ANZ** (paracétamol) : charbon proposé aux patients vus précocement, parfois au-delà d'une heure pour les ingestions massives [S4 — À VÉRIFIER] | Raisonnement au cas par cas (dose, toxique, protection des voies aériennes) |
-| Oximes dans les organophosphorés | **OMS** : pralidoxime recommandée selon un schéma bolus + perfusion [À VÉRIFIER] | Essais randomisés sans bénéfice clair sur la mortalité [S8 — À VÉRIFIER] | Utilisation précoce selon disponibilité et protocole |
-| Oxygénothérapie hyperbare (CO) | **ECHM 2016** : indiquée dans les formes graves (perte de connaissance, signes neurologiques, atteinte cardiaque, grossesse) [S9 — À VÉRIFIER] | Bénéfice discuté par plusieurs méta-analyses ; accès limité | Décision selon disponibilité et protocole régional |
+| Oximes dans les organophosphorés | **OMS** (schéma repris par Eddleston et al., 2008) : pralidoxime 30 mg/kg puis 8 mg/kg/h [S8] | Essais randomisés sans bénéfice clair sur la mortalité [S8 — À VÉRIFIER] | Utilisation précoce selon disponibilité et protocole |
+| Oxygénothérapie hyperbare (CO) | **ECHM 2016** : oxygénothérapie hyperbare retenue parmi les indications acceptées de l'intoxication au CO, en pratique pour les formes graves (perte de connaissance, signes neurologiques, atteinte cardiaque, grossesse) [S9 — critères détaillés À VÉRIFIER] | Bénéfice discuté par plusieurs méta-analyses ; accès limité | Décision selon disponibilité et protocole régional |
 
 ## 22. Références
 
@@ -796,9 +802,9 @@ Ingestion d'un toxique
 5. [S5] Protection civile (Algérie). Bilans CO 2023–2024 (Radio Algérie). — *vérifiée (source secondaire)*.
 6. [S6] Étude sur l'intoxication au CO en Algérie, revue de l'Université de Sétif (auteurs et année à préciser). — *vérifiée (existence ; contenu partiellement consulté via extraits)*.
 7. [S7] MSPRH. Note n° 21478/MSPRH/DP/2010 — campagne CO hiver 2010-2011. — *vérifiée (existence)*.
-8. [S8] Eddleston M, et al. Management of acute organophosphorus pesticide poisoning. Lancet. 2008. — *non vérifiée pendant la session*.
-9. [S9] ECHM. Conférence européenne de consensus sur la médecine hyperbare, 2016. — *non vérifiée pendant la session*.
+8. [S8] Eddleston M, Buckley NA, Eyer P, Dawson AH. Management of acute organophosphorus pesticide poisoning. Lancet. 2008;371(9612):597-607. doi:10.1016/S0140-6736(07)61202-1. — *vérifiée à l'audit*.
+9. [S9] Mathieu D, Marroni A, Kot J. Tenth European Consensus Conference on Hyperbaric Medicine (ECHM 2016). Diving Hyperb Med. 2017;47(1):24-32. — *existence vérifiée à l'audit ; libellé de l'indication CO non consulté*.
 10. [S10] EXTRIP Workgroup. Recommandations d'épuration extrarénale. — *non vérifiées pendant la session*.
 11. [S11] Rumack BH, Matthew H. Pediatrics 1975 ; MHRA 2012. — *non vérifiées pendant la session*.
 12. [S12] RCP des antidotes. — *non consultés pendant la session*.
-13. [S13] Centre National de Toxicologie (Algérie). — *coordonnées et données non vérifiées pendant la session*.
+13. [S13] Centre National de Toxicologie (Algérie). — *existence attestée ; coordonnées non vérifiées à l'audit (aucun numéro reproduit) ; données non consultées*.

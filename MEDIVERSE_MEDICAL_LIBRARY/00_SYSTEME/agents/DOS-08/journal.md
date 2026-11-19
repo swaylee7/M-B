@@ -8,3 +8,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Hématologie-oncologi
 - 2026-11-19 — plages d'identifiants retenues : QCM-HEMA-0801…0860 (12/item), CAS-HEMA-0801…0810 (2/item).
 - 2026-11-19 — DOS-HEMA-0001 (anémies de l'adulte, RES-MED-112) rédigé en 4 passes + section 20 générée depuis la banque (8 QCM affichés / 12 en banque) ; 11 sources dont 9 vérifiées ; dossier resserré (sections 2 et 3.1) pour rester sous 11 000 mots.
 - 2026-11-19 — DOS-HEMA-0002 (PTI, RES-MED-113) rédigé en 4 passes + section 20 (10 QCM affichés / 12 en banque) ; 7 sources dont 6 vérifiées.
+- 2026-11-19 — DOS-HEMA-0003 (hémophilie, RES-MED-114) rédigé en 4 passes + section 20 (10 QCM affichés / 12 en banque) ; 7 sources dont 5 vérifiées ; tableau des niveaux de facteur WFH 2020 marqué [POSOLOGIE À VÉRIFIER].

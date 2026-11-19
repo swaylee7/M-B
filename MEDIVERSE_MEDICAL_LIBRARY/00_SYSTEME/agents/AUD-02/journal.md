@@ -26,3 +26,12 @@ Mission : Audit des posologies et contre-indications
   - antibiothérapie probabiliste ESC 2023 et prophylaxie secondaire du RAA (0005).
 - Dans les cas : 4 → 1 (reste l'adaptation à l'hémodialyse, CAS-CARD-0009).
 - 19 corrections de posologie ou de contre-indication au total. Aucune commande git.
+- 2026-11-19T02:05:12+00:00 — **Session d'audit des posologies (AUD-02, tenue conjointement avec AUD-01)** des dossiers DOS-PEDI-0001 à 0003 et DOS-NEON-0001 à 0002 et des lots DOS-05. Rapports communs : `00_SYSTEME/agents/AUD-01/rapports/`.
+- Postes confrontés aux sources : plans A, B et C de l'OMS ; SRO et zinc ; ReSoMal ; remplissage du malnutri ; F-75 et F-100 ; ATPE ; antibiothérapie de la MAS ; vitamine A, acide folique, fer ; transfusion ; IgIV ; photothérapie et exsanguinotransfusion (AAP 2004/2022, NICE, OMS) ; ampicilline/amoxicilline, benzylpénicilline, gentamicine, céfotaxime, aciclovir et glucosé chez le nouveau-né ; adrénaline.
+- **Erreur critique corrigée** : DOS-PEDI-0003, amoxicilline orale de relais 15 → 25–40 mg/kg toutes les 8 h pendant 5 jours (Pocket book OMS 2013, DOC-00063).
+- Marqueurs `[POSOLOGIE À VÉRIFIER]` dans les dossiers : 8 levés avec leur source nommée (adrénaline ; amoxicilline de la MAS non compliquée ; IgIV ; glucosé, ampicilline, benzylpénicilline, gentamicine et aciclovir chez le nouveau-né). Le marqueur anti-D a été normalisé pour être compté par le validateur. Restent 15 :
+  - 5 dans PEDI-0001 : NaCl 3 % ×3, ondansétron, racécadotril ;
+  - 2 dans PEDI-0003 : thiamine, albendazole ;
+  - 1 dans NEON-0001 : anti-D à 28 SA ;
+  - 7 dans NEON-0002 : doses méningées d'amoxicilline et de céfotaxime, vancomycine, méropénem, antifongiques, remplissage et amines, antibioprophylaxie per partum.
+- Dans les cas, 3 posologies ont été précisées (CAS-PEDI-0005, CAS-NEON-0001, CAS-NEON-0004). Aucune commande git.

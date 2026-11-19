@@ -75,7 +75,7 @@ sources:
     url: ""
     verifiee: true
   - id: S8
-    reference: "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026."
+    reference: "Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026;54(4):725-812 ; Intensive Care Med. 2026;52(5):863-936."
     organisme: SCCM/ESICM
     annee: 2026
     type: recommandation
@@ -861,7 +861,7 @@ Mydriase aréactive unilatérale + coma
 5. [S5] Mégarbane B, et al. Management of pharmaceutical and recreational drug poisoning (SRLF-SFMU). Ann Intensive Care. 2020;10:157. doi:10.1186/s13613-020-00762-9. — *vérifiée*.
 6. [S6] Prabhakaran S, et al. 2026 AHA/ASA acute ischemic stroke guideline. Stroke. 2026. — *vérifiée*.
 7. [S7] Greenberg SM, et al. 2022 AHA/ASA ICH guideline. Stroke. 2022;53:e282-e361. — *vérifiée*.
-8. [S8] Surviving Sepsis Campaign 2026. Crit Care Med. 2026. — *vérifiée*.
+8. [S8] Prescott HC, et al. Surviving Sepsis Campaign 2026. Crit Care Med. 2026;54(4):725-812. — *vérifiée*.
 9. [S9] Protection civile (Algérie) via Radio Algérie (bilan CO 2023) ; étude Université de Sétif sur les intoxications au CO. — *vérifiées (sources secondaires)*.
 10. [S10] Posner JB, Saper CB, Schiff ND, Claassen J. Plum and Posner's Diagnosis and Treatment of Stupor and Coma. OUP. — *ouvrage non consulté ; édition à vérifier*.
 11. [S11] Recommandations état de mal épileptique (SRLF/SFMU 2018) ; essai ESETT (2019). — *non vérifiés pendant la session*.

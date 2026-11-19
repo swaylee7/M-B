@@ -1,7 +1,7 @@
 {
   "id": "AUD-01",
   "statut": "session_terminee",
-  "derniere_execution": "2026-11-19T01:59:21+00:00",
+  "derniere_execution": "2026-11-19T02:05:12+00:00",
   "taches_terminees": [
     "Audit scientifique DOS-CARD-0001 — audite_corrections_requises, 11 corrections (critiques/majeures/mineures 0/1/10)",
     "Audit scientifique DOS-CARD-0002 — audite_valide, 10 corrections (critiques/majeures/mineures 0/0/10)",
@@ -9,14 +9,27 @@
     "Audit scientifique DOS-CARD-0004 — audite_corrections_requises, 8 corrections (critiques/majeures/mineures 0/0/8)",
     "Audit scientifique DOS-CARD-0005 — audite_corrections_requises, 12 corrections (critiques/majeures/mineures 0/0/12)",
     "Audit du lot QCM 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-01.json (60 QCM : 59 audite_valide, 1 audite_corrections_requises — QCM-CARD-0012)",
-    "Audit du lot cas 20_CAS_CLINIQUES/lots/DOS-01.json (10 cas : 6 corrigés ; 9 audite_valide, 1 audite_corrections_requises — CAS-CARD-0009)"
+    "Audit du lot cas 20_CAS_CLINIQUES/lots/DOS-01.json (10 cas : 6 corrigés ; 9 audite_valide, 1 audite_corrections_requises — CAS-CARD-0009)",
+    "Audit scientifique DOS-PEDI-0001 — audite_corrections_requises, 9 corrections (critiques/majeures/mineures 0/0/9)",
+    "Audit scientifique DOS-PEDI-0002 — audite_corrections_requises, 6 corrections (0/1/5) ; calendrier relu sur DOC-00070/00071/00076 : conforme",
+    "Audit scientifique DOS-PEDI-0003 — audite_corrections_requises, 16 corrections (1/3/12)",
+    "Audit scientifique DOS-NEON-0001 — audite_corrections_requises, 7 corrections (0/0/7)",
+    "Audit scientifique DOS-NEON-0002 — audite_corrections_requises, 11 corrections (0/3/8)",
+    "Audit du lot QCM lots/DOS-05.json (60 QCM : 7 corrigés ; 55 audite_valide, 5 audite_corrections_requises)",
+    "Audit du lot cas lots/DOS-05.json (10 cas : 3 corrigés ; 7 audite_valide, 3 audite_corrections_requises)"
   ],
   "taches_suivantes": [
     "DOS-CARD-0001 : lire le texte intégral ESC 2026 IC (doi 10.1093/eurheartj/ehag100) — classes, ARM, GLP-1, HFimpEF, acétazolamide ; vérifier S10 (ESC 2024 FA)",
     "DOS-CARD-0004/0005/0001 : lever les marqueurs posologiques restants (voir journal AUD-02)",
     "DOS-CARD-0003/0005 : remplacer ou compléter les références régionales non vérifiées (Blida S7, Béni Messous S8)",
     "Autoriser escardio.org, academic.oup.com, tctmd.com dans le réseau de la session pour permettre la lecture des textes originaux (WebFetch bloqué)",
-    "Relecture enseignant (valide_enseignant) des 5 dossiers"
+    "Relecture enseignant (valide_enseignant) des 5 dossiers",
+    "DOS-PEDI-0002 : lire en entier le guide pratique 2023 (VPO à la naissance) ; rechercher l'arrêté modificatif intermédiaire de 2018 au JORADP ; instructions HPV ; vérifier ACIP (S14) et les tableaux OMS (S13)",
+    "DOS-NEON-0001 : vérifier AAP 2004 (S1) et SFN 2017 (S6) ; relire les tableaux AAP 2022 (annexes) pour des repères chiffrés par âge gestationnel",
+    "DOS-NEON-0002 : vérifier AAP 2018 (S3/S4), CDC 2010 (S6), ACOG 2020 (S7) ; posologies de la RBP SFN/SFP 2017",
+    "DOS-PEDI-0001/0003 : vérifier NICE CG84, manuel OMS 1999, normes OMS 2006 ; protocoles nationaux algériens (PCIME, MAS)",
+    "Autoriser nice.org.uk et publications.aap.org dans le réseau de la session (WebFetch bloqué)",
+    "Relecture enseignant (valide_enseignant) des 5 dossiers DOS-05"
   ],
   "objectifs": {
     "dossiers": 5,
@@ -43,5 +56,38 @@
       "ESC 2026 IC (contenu, sources secondaires)",
       "ESC/ESH 2018 aspirine pré-éclampsie"
     ]
+  },
+  "sessions": {
+    "DOS-05": {
+      "date": "2026-11-19",
+      "dossiers_audites": 5,
+      "audite_valide": 0,
+      "audite_corrections_requises": 5,
+      "corrections_total": 49,
+      "critiques": 1,
+      "majeures": 7,
+      "mineures": 41,
+      "qcm_audites": 60,
+      "qcm_corriges": 7,
+      "cas_audites": 10,
+      "cas_corriges": 3,
+      "recherches_web": 9,
+      "references_verifiees_pendant_audit": [
+        "OMS Pocket book 2013 (DOC-00063)",
+        "OMS émaciation 2023 (DOC-00033)",
+        "OMS SBI 0-59 j 2024 (DOC-00052)",
+        "PCIME 2019 (DOC-00034)",
+        "AAP 2022 Kemper",
+        "AAP 2022 rapport technique",
+        "NICE NG195",
+        "NICE CG98",
+        "ESPGHAN 2014",
+        "Kimberlin 2001",
+        "RBP SFN/SFP 2017 (label HAS)",
+        "OMS BCG 2018",
+        "OMS 2005 traitement de la diarrhée (bibliographies)",
+        "OMS 2013 MAS (bibliographie DOC-00033)"
+      ]
+    }
   }
 }

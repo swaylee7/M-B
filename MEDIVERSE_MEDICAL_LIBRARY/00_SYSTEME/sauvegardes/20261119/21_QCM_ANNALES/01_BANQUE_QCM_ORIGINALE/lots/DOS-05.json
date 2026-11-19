@@ -1,0 +1,3235 @@
+{
+  "agent": "DOS-05",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-PEDI-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un nourrisson de 10 mois présentant une gastro-entérite aiguë, quels signes témoignent d'un choc hypovolémique ?",
+      "propositions": {
+        "A": "Temps de recoloration cutanée supérieur à 3 secondes",
+        "B": "Hypotension artérielle, signe précoce du choc chez l'enfant",
+        "C": "Extrémités froides et marbrures",
+        "D": "Bradycardie initiale",
+        "E": "Troubles de la conscience (léthargie, hypotonie)"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Chez l'enfant, les mécanismes compensateurs (tachycardie, vasoconstriction) maintiennent longtemps la pression artérielle : les signes de choc sont la tachycardie, l'allongement du TRC, les extrémités froides, les marbrures, les pouls filants et l'altération de la conscience. L'hypotension signe un choc décompensé.",
+      "explications_par_proposition": {
+        "A": "Vrai : signe de vasoconstriction périphérique et d'hypoperfusion.",
+        "B": "Faux : l'hypotension est tardive (choc décompensé, souvent préterminal).",
+        "C": "Vrai : vasoconstriction cutanée.",
+        "D": "Faux : la tachycardie est le signe initial ; la bradycardie est préterminale.",
+        "E": "Vrai : hypoperfusion cérébrale."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — signes de choc",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire qu'une pression artérielle normale élimine un choc chez le nourrisson.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le soluté de réhydratation orale (SRO) à osmolarité réduite recommandé par l'OMS et l'UNICEF :",
+      "propositions": {
+        "A": "Sa concentration en sodium est de 75 mmol/L",
+        "B": "Son osmolarité est de 245 mOsm/L",
+        "C": "Sa concentration en glucose est de 111 mmol/L",
+        "D": "Sa concentration en potassium est de 20 mmol/L",
+        "E": "Son osmolarité est de 311 mOsm/L"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le SRO à osmolarité réduite (Na 75, K 20, Cl 65, citrate 10, glucose 75 mmol/L ; 245 mOsm/L) a remplacé le SRO standard (Na 90, glucose 111 mmol/L ; 311 mOsm/L) car il réduit le volume des selles, les vomissements et le recours à la perfusion.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : 111 mmol/L est la teneur en glucose de l'ancien SRO standard (75 mmol/L dans le SRO actuel).",
+        "D": "Vrai.",
+        "E": "Faux : 311 mOsm/L correspond à l'ancien SRO standard."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — SRO",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre la composition de l'ancien SRO standard et du SRO à osmolarité réduite.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS/UNICEF. Déclaration commune SRO à osmolarité réduite et zinc (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "OMS. The treatment of diarrhoea: a manual for physicians and other senior health workers, 4e révision (non vérifiée en session)",
+          "date": "2005"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0003",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un nourrisson de 8 mois (7,5 kg) est agité, a les yeux enfoncés, boit avidement et présente un pli cutané qui s'efface lentement. Quel volume de SRO prescrire selon le plan B de l'OMS ?",
+      "propositions": {
+        "A": "50 mL/kg en 2 heures",
+        "B": "75 mL/kg en 4 heures",
+        "C": "100 mL/kg en 6 heures",
+        "D": "20 mL/kg/h pendant 6 heures",
+        "E": "150 mL/kg sur 24 heures"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'enfant présente au moins deux signes de la catégorie « signes évidents de déshydratation » : plan B, soit environ 75 mL/kg de SRO en 4 heures sous surveillance, puis réévaluation et reclassement.",
+      "explications_par_proposition": {
+        "A": "Faux : volume et durée ne correspondent à aucun plan OMS.",
+        "B": "Vrai : plan B.",
+        "C": "Faux : 100 mL/kg (en IV) correspond au plan C.",
+        "D": "Faux : 20 mL/kg/h pendant 6 heures correspond au plan C par sonde nasogastrique lorsque la perfusion est impossible.",
+        "E": "Faux."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — plan B OMS",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The treatment of diarrhoea: a manual for physicians and other senior health workers, 4e révision (non vérifiée en session)",
+          "date": "2005"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un nourrisson de 7 mois, non malnutri, présente une déshydratation sévère. Concernant le plan C de l'OMS (perfusion possible) :",
+      "propositions": {
+        "A": "Le Ringer lactate est le soluté préféré",
+        "B": "On administre 30 mL/kg en 30 minutes puis 70 mL/kg en 2 h 30",
+        "C": "On administre 30 mL/kg en 1 heure puis 70 mL/kg en 5 heures",
+        "D": "Le premier volume de 30 mL/kg peut être répété si le pouls radial reste faible",
+        "E": "Le glucosé à 5 % seul est le soluté de choix"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Plan C : 100 mL/kg de Ringer lactate (à défaut NaCl 0,9 %) ; chez le nourrisson de moins de 12 mois, 30 mL/kg en 1 heure puis 70 mL/kg en 5 heures ; chez l'enfant de 12 mois et plus, 30 mL/kg en 30 minutes puis 70 mL/kg en 2 h 30. Réévaluation toutes les 15–30 minutes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : ce rythme concerne l'enfant de 12 mois et plus.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : soluté hypotonique, inadapté au remplissage (risque d'hyponatrémie, inefficace sur la volémie)."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — plan C OMS",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser les débits nourrisson/enfant du plan C.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The treatment of diarrhoea: a manual for physicians and other senior health workers, 4e révision (non vérifiée en session)",
+          "date": "2005"
+        },
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la déshydratation hypernatrémique du nourrisson :",
+      "propositions": {
+        "A": "Le pli cutané est souvent peu marqué",
+        "B": "Il existe un risque d'hémorragie méningée et intracérébrale avant traitement",
+        "C": "La natrémie doit être corrigée en 6 heures",
+        "D": "La baisse de la natrémie ne doit pas dépasser 10 à 12 mmol/L par 24 heures",
+        "E": "Irritabilité, hypertonie et cri aigu sont évocateurs"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'hypernatrémie entraîne une déshydratation intracellulaire (rétraction cérébrale) avec relative préservation du secteur extracellulaire : la gravité est sous-estimée. L'adaptation cérébrale (osmoles idiogéniques) impose une correction lente (≈ 0,5 mmol/L/h, déficit corrigé sur 48 h) pour éviter l'œdème cérébral.",
+      "explications_par_proposition": {
+        "A": "Vrai : le secteur extracellulaire est relativement préservé.",
+        "B": "Vrai : rupture des veines ponts par rétraction cérébrale.",
+        "C": "Faux : une correction rapide expose à l'œdème cérébral et aux convulsions.",
+        "D": "Vrai.",
+        "E": "Vrai : signes neurologiques de la déshydratation intracellulaire."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — hypernatrémie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Corriger rapidement une hypernatrémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Guarino A et al. ESPGHAN/ESPID guidelines acute gastroenteritis, J Pediatr Gastroenterol Nutr 2014;59:132-152 (non vérifiée en session)",
+          "date": "2014"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0006",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle supplémentation en zinc l'OMS et l'UNICEF recommandent-elles pour un nourrisson de 9 mois atteint de diarrhée aiguë ?",
+      "propositions": {
+        "A": "5 mg/j pendant 5 jours",
+        "B": "10 mg/j pendant 10 à 14 jours",
+        "C": "20 mg/j pendant 10 à 14 jours",
+        "D": "20 mg/j pendant 3 jours",
+        "E": "Le zinc n'est pas indiqué"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "OMS/UNICEF (2004) : zinc 10 mg/j avant 6 mois et 20 mg/j à partir de 6 mois, pendant 10 à 14 jours ; il réduit la durée, la sévérité et les récidives. L'ESPGHAN ne le recommande pas en Europe, où la carence est rare.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux : dose réservée au nourrisson de moins de 6 mois.",
+        "C": "Vrai.",
+        "D": "Faux : durée insuffisante.",
+        "E": "Faux selon l'OMS (position différente de l'ESPGHAN en Europe)."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — zinc",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS/UNICEF. Déclaration commune SRO à osmolarité réduite et zinc (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une déshydratation aiguë SANS diarrhée chez un nourrisson doit faire évoquer :",
+      "propositions": {
+        "A": "Une acidocétose diabétique inaugurale",
+        "B": "Une sténose hypertrophique du pylore",
+        "C": "Une hyperplasie congénitale des surrénales avec perte de sel",
+        "D": "Un diabète insipide",
+        "E": "Une gastro-entérite à rotavirus"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Devant une déshydratation sans diarrhée : bandelette urinaire (glycosurie-cétonurie), ionogramme (hyponatrémie-hyperkaliémie de l'insuffisance surrénale, hypernatrémie à urines diluées du diabète insipide), échographie (pylore, invagination).",
+      "explications_par_proposition": {
+        "A": "Vrai : polyurie osmotique, diurèse conservée.",
+        "B": "Vrai : vomissements en jet, alcalose hypochlorémique.",
+        "C": "Vrai : perte de sel, hyperkaliémie.",
+        "D": "Vrai : pertes hydriques rénales.",
+        "E": "Faux : la gastro-entérite s'accompagne de diarrhée (les vomissements peuvent précéder de quelques heures)."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — étiologies non digestives",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la bandelette urinaire chez un nourrisson déshydraté à diurèse conservée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans la prise en charge d'une gastro-entérite aiguë du nourrisson :",
+      "propositions": {
+        "A": "Le lopéramide est contre-indiqué",
+        "B": "L'allaitement maternel doit être poursuivi",
+        "C": "Une antibiothérapie est systématique",
+        "D": "Une dose orale unique d'ondansétron peut faciliter la réhydratation orale (ESPGHAN 2014)",
+        "E": "Le métoclopramide est recommandé"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le traitement repose sur le SRO, la poursuite de l'allaitement et la réalimentation précoce. Les antibiotiques sont réservés à des indications ciblées (dysenterie, choléra, terrains à risque). L'ondansétron oral en dose unique est proposé par l'ESPGHAN ; métoclopramide et lopéramide sont à proscrire chez le nourrisson.",
+      "explications_par_proposition": {
+        "A": "Vrai : risque d'iléus et de dépression respiratoire.",
+        "B": "Vrai.",
+        "C": "Faux : la majorité des GEA sont virales.",
+        "D": "Vrai (posologie et statut d'AMM à vérifier).",
+        "E": "Faux : effets extrapyramidaux."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — traitements adjuvants",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Guarino A et al. ESPGHAN/ESPID guidelines acute gastroenteritis, J Pediatr Gastroenterol Nutr 2014;59:132-152 (non vérifiée en session)",
+          "date": "2014"
+        },
+        {
+          "reference": "OMS. The treatment of diarrhoea: a manual for physicians and other senior health workers, 4e révision (non vérifiée en session)",
+          "date": "2005"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un nourrisson atteint de malnutrition aiguë sévère présente une déshydratation sans signe de choc. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le ReSoMal est le soluté de réhydratation recommandé",
+        "B": "On administre environ 5 mL/kg toutes les 30 minutes pendant 2 heures",
+        "C": "Une perfusion de 100 mL/kg de Ringer lactate est systématique",
+        "D": "Le pli cutané et les yeux enfoncés peuvent exister sans déshydratation",
+        "E": "L'apparition d'une hépatomégalie ou de crépitants impose d'arrêter la réhydratation"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Chez le malnutri sévère, les signes classiques sont trompeurs et le cœur tolère mal la surcharge : réhydratation orale ou par sonde au ReSoMal (pauvre en sodium, riche en potassium), 5 mL/kg/30 min pendant 2 h puis 5–10 mL/kg/h ; perfusion réservée au choc (15 mL/kg en 1 h).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : risque d'insuffisance cardiaque ; perfusion seulement en cas de choc.",
+        "D": "Vrai : fonte du tissu sous-cutané et graisseux orbitaire.",
+        "E": "Vrai : signes de surcharge."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — enfant malnutri",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Perfuser un malnutri sur la seule présence d'un pli cutané.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "OMS. Guideline: updates on the management of severe acute malnutrition in infants and children (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la déshydratation hyponatrémique (Na < 130 mmol/L) du nourrisson :",
+      "propositions": {
+        "A": "Elle est favorisée par la compensation des pertes par de l'eau pure ou du thé",
+        "B": "La soif intense est au premier plan",
+        "C": "Le collapsus est précoce pour une perte de poids donnée",
+        "D": "Des convulsions justifient un bolus de NaCl hypertonique à 3 %",
+        "E": "La déshydratation extracellulaire est sous-estimée cliniquement"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Dans l'hyponatrémie, l'eau passe dans les cellules (hyperhydratation intracellulaire) et la déshydratation extracellulaire est majeure : collapsus précoce, pas de soif. En cas de convulsions, un bolus de NaCl 3 % remonte rapidement la natrémie de quelques mmol/L (posologie à vérifier selon le protocole).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la soif est un signe de déshydratation intracellulaire (hypernatrémie).",
+        "C": "Vrai.",
+        "D": "Vrai (posologie à vérifier).",
+        "E": "Faux : c'est dans l'hypernatrémie que la DEC est sous-estimée ; elle est au contraire marquée ici."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — hyponatrémie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le potassium au cours d'une déshydratation aiguë avec acidose métabolique :",
+      "propositions": {
+        "A": "Le potassium n'est ajouté aux perfusions qu'après reprise de la diurèse",
+        "B": "Une kaliémie normale exclut une déplétion potassique",
+        "C": "L'acidose favorise le transfert du potassium vers le secteur extracellulaire",
+        "D": "Une hypokaliémie se corrige par un bolus IV de KCl",
+        "E": "Une hypokaliémie peut entraîner un iléus paralytique"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les selles diarrhéiques sont riches en potassium ; l'acidose masque la déplétion (transfert extracellulaire) qui se démasque à la correction. Le KCl est ajouté au soluté après la reprise de la diurèse, jamais en bolus.",
+      "explications_par_proposition": {
+        "A": "Vrai : risque d'hyperkaliémie en cas d'insuffisance rénale fonctionnelle.",
+        "B": "Faux : la kaliémie peut être normale malgré une déplétion totale.",
+        "C": "Vrai.",
+        "D": "Faux : le KCl en bolus IV est dangereux (arrêt cardiaque).",
+        "E": "Vrai."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — potassium",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ajouter du potassium avant la reprise de la diurèse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "La Clinical Dehydration Scale (CDS), validée chez l'enfant de 1 à 36 mois, comporte les items suivants :",
+      "propositions": {
+        "A": "Aspect général",
+        "B": "Yeux",
+        "C": "Muqueuses",
+        "D": "Larmes",
+        "E": "Temps de recoloration cutanée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La CDS cote quatre items de 0 à 2 (aspect général, yeux, muqueuses, larmes) ; total 0 = pas de déshydratation, 1–4 = légère, 5–8 = modérée à sévère. Le TRC, signe isolé utile, n'en fait pas partie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : le TRC est un signe utile mais n'est pas un item de la CDS."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "theme": "Déshydratation — scores cliniques",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Friedman JN et al. Clinical dehydration scale, J Pediatr 2004;145:201-207 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0001 — Déshydratations aiguës du nourrisson",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Par rapport à la réponse immunitaire primaire, la réponse secondaire (après un rappel vaccinal) se caractérise par :",
+      "propositions": {
+        "A": "Un délai d'apparition des anticorps plus court",
+        "B": "Une prédominance d'IgM",
+        "C": "Une affinité plus élevée des anticorps",
+        "D": "Des titres d'anticorps plus élevés",
+        "E": "L'intervention des lymphocytes B mémoire"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La réponse secondaire mobilise les lymphocytes B et T mémoire générés dans les centres germinatifs : elle est rapide (2–5 jours), intense, faite d'IgG de haute affinité (maturation d'affinité). C'est le fondement des rappels.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : les IgM prédominent dans la réponse primaire.",
+        "C": "Vrai : maturation d'affinité.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — bases immunologiques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Plotkin SA. Correlates of protection induced by vaccination, Clin Vaccine Immunol 2010 (non vérifiée en session)",
+          "date": "2010"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les vaccins conjugués :",
+      "propositions": {
+        "A": "La conjugaison rend la réponse au polysaccharide thymodépendante",
+        "B": "Ils sont efficaces dès l'âge de 2 mois",
+        "C": "Ils réduisent le portage rhinopharyngé",
+        "D": "Le vaccin pneumococcique 23-valent est un vaccin conjugué",
+        "E": "La valence Hib du vaccin hexavalent est conjuguée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le polysaccharide seul est thymo-indépendant (inefficace avant 2 ans, sans mémoire). Couplé à une protéine porteuse, il est présenté aux lymphocytes T auxiliaires : réponse efficace dès 2 mois, mémoire, effet rappel et réduction du portage (immunité de groupe).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : le 23-valent est polysaccharidique non conjugué.",
+        "E": "Vrai : PRP conjugué à une protéine porteuse."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — vaccins conjugués",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre vaccin conjugué et vaccin polysaccharidique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Plotkin SA. Correlates of protection induced by vaccination, Clin Vaccine Immunol 2010 (non vérifiée en session)",
+          "date": "2010"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les vaccins suivants, lesquels sont des vaccins vivants atténués ?",
+      "propositions": {
+        "A": "BCG",
+        "B": "Vaccin poliomyélitique oral (VPO)",
+        "C": "Vaccin rougeole-oreillons-rubéole (ROR)",
+        "D": "Vaccin poliomyélitique inactivé (VPI)",
+        "E": "Anatoxine tétanique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les vaccins vivants (BCG, VPO, ROR, varicelle, rotavirus, fièvre jaune) sont contre-indiqués en cas d'immunodépression sévère et de grossesse ; le VPI et les anatoxines sont inactivés.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : inactivé.",
+        "E": "Faux : toxine inactivée."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — types de vaccins",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO recommendations for routine immunization — summary tables (non vérifiée en session)",
+          "date": "2024"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Constituent de VRAIES contre-indications vaccinales :",
+      "propositions": {
+        "A": "Une réaction anaphylactique à une dose antérieure du même vaccin",
+        "B": "Une rhinopharyngite fébrile à 38,2 °C",
+        "C": "Un déficit immunitaire combiné sévère, pour le BCG",
+        "D": "Une encéphalopathie survenue dans les 7 jours suivant une dose, pour la valence coqueluche",
+        "E": "La prématurité"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Contre-indications vraies : anaphylaxie (tous vaccins), immunodépression sévère et grossesse (vaccins vivants), encéphalopathie post-vaccinale (coqueluche). Maladie bénigne et prématurité sont de fausses contre-indications.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : maladie bénigne.",
+        "C": "Vrai : risque de BCGite disséminée.",
+        "D": "Vrai.",
+        "E": "Faux : on vaccine à l'âge chronologique."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — contre-indications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Différer une vaccination pour un rhume.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "CDC/ACIP. General Best Practice Guidelines for Immunization (non vérifiée en session)",
+          "date": "2023"
+        },
+        {
+          "reference": "OMS. WHO recommendations for routine immunization — summary tables (non vérifiée en session)",
+          "date": "2024"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les situations suivantes, lesquelles NE contre-indiquent PAS la vaccination prévue ?",
+      "propositions": {
+        "A": "Antibiothérapie en cours",
+        "B": "Allergie à l'œuf non anaphylactique, pour le ROR",
+        "C": "Ictère néonatal, pour le BCG",
+        "D": "Grossesse, pour le ROR",
+        "E": "Malnutrition aiguë"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les fausses contre-indications (antibiotiques, allergie à l'œuf pour le ROR, ictère, malnutrition, prématurité, allaitement, eczéma) sont des causes fréquentes d'occasions manquées. La grossesse contre-indique les vaccins vivants.",
+      "explications_par_proposition": {
+        "A": "Vrai (n'est pas une contre-indication).",
+        "B": "Vrai : quantités négligeables d'ovalbumine.",
+        "C": "Vrai.",
+        "D": "Faux : vraie contre-indication (vaccin vivant).",
+        "E": "Vrai : l'enfant malnutri doit au contraire être vacciné."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — fausses contre-indications",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": "Considérer l'allergie à l'œuf comme une contre-indication au ROR.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "CDC/ACIP. General Best Practice Guidelines for Immunization (non vérifiée en session)",
+          "date": "2023"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Le vaccin hexavalent utilisé à 2, 4 et 12 mois dans le calendrier algérien contient les valences :",
+      "propositions": {
+        "A": "Diphtérie",
+        "B": "Haemophilus influenzae b",
+        "C": "Hépatite B",
+        "D": "Poliomyélite inactivée",
+        "E": "Rougeole"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'arrêté du 3 juillet 2018 prévoit à 2, 4 et 12 mois les valences diphtérie, tétanos, coqueluche acellulaire, Hib, poliomyélite injectable et hépatite B, administrées depuis octobre 2023 sous forme d'un vaccin hexavalent, avec le vaccin pneumococcique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la rougeole est dans le ROR (11 et 18 mois)."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — calendrier algérien",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "Radio Algérie/APS — entrée en vigueur du nouveau calendrier le 15 octobre 2023",
+          "date": "2023"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le calendrier vaccinal algérien fixé par l'arrêté du 3 juillet 2018 (appliqué depuis octobre 2023) :",
+      "propositions": {
+        "A": "Le BCG et le vaccin contre l'hépatite B sont administrés à la naissance",
+        "B": "Les valences de l'hexavalent sont administrées à 2, 4 et 12 mois",
+        "C": "Le ROR est administré à 11 et 18 mois",
+        "D": "Le ROR est administré à 9 mois",
+        "E": "Une dose isolée de VPI est maintenue à 3 mois"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le calendrier de 2018 a supprimé le rendez-vous de 3 mois (VPI isolé du calendrier de 2014), intégré le VPI à 2, 4 et 12 mois et maintenu le ROR à 11 et 18 mois.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : 11 mois en Algérie (9 mois dans certaines recommandations OMS pour les zones de forte transmission).",
+        "E": "Faux : dose de 3 mois propre au calendrier de 2014."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — calendrier algérien",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Restituer l'ancien calendrier (2014) au lieu du calendrier en vigueur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "Arrêté du 24 novembre 2014 fixant le calendrier de vaccination obligatoire, JORADP n° 75 du 28 décembre 2014 (DOC-00076, remplacé)",
+          "date": "2014"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la réglementation du calendrier vaccinal en Algérie :",
+      "propositions": {
+        "A": "Le calendrier en vigueur est fixé par l'arrêté du 3 juillet 2018",
+        "B": "Cet arrêté a été publié au JORADP n° 49 du 8 août 2018",
+        "C": "Son application effective a débuté le 15 octobre 2023",
+        "D": "L'arrêté du 28 avril 2026 a ajouté la vaccination anti-papillomavirus à 11–13 ans",
+        "E": "L'arrêté de 2018 prévoit une dose de VPO à la naissance"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Arrêté du 3/07/2018 (JORADP n° 49 du 8/08/2018), appliqué le 15/10/2023, complété par l'arrêté du 28/04/2026 (JORADP n° 36 du 17/05/2026) : VPO ajouté à 2 mois, vaccin anti-HPV à 11–13 ans. Le VPO de naissance figurait dans le calendrier de 2014, pas dans celui de 2018.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : en 2018, VPO à 4 et 12 mois seulement (2, 4, 12 mois depuis 2026)."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — cadre réglementaire algérien",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "Arrêté du 28 avril 2026 complétant l'arrêté du 3 juillet 2018, JORADP n° 36 du 17 mai 2026 (DOC-00071)",
+          "date": "2026"
+        },
+        {
+          "reference": "Arrêté du 24 novembre 2014 fixant le calendrier de vaccination obligatoire, JORADP n° 75 du 28 décembre 2014 (DOC-00076, remplacé)",
+          "date": "2014"
+        },
+        {
+          "reference": "Radio Algérie/APS — entrée en vigueur du nouveau calendrier le 15 octobre 2023",
+          "date": "2023"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le vaccin poliomyélitique oral (VPO) :",
+      "propositions": {
+        "A": "Il induit une immunité intestinale",
+        "B": "Il expose à de rares poliomyélites paralytiques associées au vaccin",
+        "C": "Il est à éviter chez un enfant dont le frère reçoit une chimiothérapie",
+        "D": "Il s'administre par voie intramusculaire",
+        "E": "Des poliovirus dérivés de souches vaccinales peuvent émerger dans les populations sous-vaccinées"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le VPO (vivant, oral) bloque la transmission féco-orale mais est excrété dans les selles : il est contre-indiqué chez l'immunodéprimé et dans son entourage, où l'on utilise le VPI.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : excrétion du virus vaccinal.",
+        "D": "Faux : voie orale.",
+        "E": "Vrai."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — poliomyélite",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier l'entourage immunodéprimé avant un VPO.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO recommendations for routine immunization — summary tables (non vérifiée en session)",
+          "date": "2024"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la chaîne du froid et la conservation des vaccins :",
+      "propositions": {
+        "A": "La plupart des vaccins se conservent entre +2 et +8 °C",
+        "B": "La congélation des vaccins adsorbés sur aluminium prolonge leur efficacité",
+        "C": "Un flacon dont le carré de la pastille de contrôle est plus foncé que le cercle ne doit pas être utilisé",
+        "D": "Le test d'agitation permet de détecter la congélation d'un vaccin adsorbé",
+        "E": "Les vaccins reconstitués (BCG, ROR) sont jetés au plus tard 6 heures après reconstitution ou en fin de séance"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les vaccins adsorbés (hexavalent, DT, VHB, pneumocoque, HPV) ne doivent jamais être congelés ; la pastille de contrôle témoigne de l'exposition cumulée à la chaleur ; les vaccins reconstitués ne se conservent pas (politique OMS des flacons entamés).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la congélation les inactive.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai (consignes nationales à vérifier)."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — chaîne du froid",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Immunization in practice (non vérifiée en session)",
+          "date": "2015"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0023",
+      "format": "QCS (réponse unique)",
+      "enonce": "Cinq minutes après une vaccination, un enfant de 15 kg présente une urticaire généralisée, un stridor et une hypotension. Quel est le traitement de première intention ?",
+      "propositions": {
+        "A": "Antihistaminique IV",
+        "B": "Adrénaline IM 0,15 mg (0,01 mg/kg) dans la face antérolatérale de la cuisse",
+        "C": "Corticoïde IV",
+        "D": "Salbutamol inhalé",
+        "E": "Adrénaline sous-cutanée 1,5 mg"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'anaphylaxie se traite par adrénaline intramusculaire 0,01 mg/kg (maximum 0,5 mg), renouvelable toutes les 5 à 15 minutes, associée à l'oxygène et au remplissage ; les autres traitements sont adjuvants (posologie à vérifier selon le protocole national).",
+      "explications_par_proposition": {
+        "A": "Faux : adjuvant.",
+        "B": "Vrai.",
+        "C": "Faux : adjuvant, délai d'action long.",
+        "D": "Faux : adjuvant en cas de bronchospasme.",
+        "E": "Faux : dose dix fois trop élevée et voie inadaptée."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — anaphylaxie",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": "Retarder l'adrénaline au profit des antihistaminiques.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "CDC/ACIP. General Best Practice Guidelines for Immunization (non vérifiée en session)",
+          "date": "2023"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'immunité de groupe :",
+      "propositions": {
+        "A": "Le seuil d'immunité de groupe est approximativement égal à 1 − 1/R0",
+        "B": "Pour la rougeole, il est de l'ordre de 92 à 95 %",
+        "C": "Le tétanos bénéficie de l'immunité de groupe",
+        "D": "Elle protège les nourrissons trop jeunes pour être vaccinés",
+        "E": "La rougeole ayant un R0 faible, son seuil d'immunité de groupe est bas"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le seuil dépend du R0 : très élevé pour la rougeole (R0 ≈ 12–18). Le tétanos, non transmissible entre humains, n'offre aucune immunité de groupe : chacun doit être vacciné.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pas de transmission interhumaine.",
+        "D": "Vrai.",
+        "E": "Faux : R0 très élevé, seuil élevé."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "theme": "Vaccination — épidémiologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Penser que le tétanos bénéficie de l'immunité de groupe.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO recommendations for routine immunization — summary tables (non vérifiée en session)",
+          "date": "2024"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0002 — Vaccinations, PEV, calendrier algérien",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0025",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un enfant de 6 à 59 mois, quels critères définissent une malnutrition aiguë sévère selon l'OMS ?",
+      "propositions": {
+        "A": "Rapport poids/taille inférieur à −3 z-scores",
+        "B": "Périmètre brachial inférieur à 115 mm",
+        "C": "Œdèmes bilatéraux prenant le godet",
+        "D": "Rapport poids/âge inférieur à −2 z-scores",
+        "E": "Rapport taille/âge inférieur à −3 z-scores"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La MAS est définie par P/T < −3 z (normes OMS 2006), PB < 115 mm ou œdèmes nutritionnels bilatéraux ; un seul critère suffit.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : MAS quel que soit le P/T.",
+        "D": "Faux : insuffisance pondérale (indice composite).",
+        "E": "Faux : retard de croissance sévère (malnutrition chronique)."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — définitions OMS",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre émaciation, retard de croissance et insuffisance pondérale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Guideline: updates on the management of severe acute malnutrition in infants and children (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "OMS. WHO Child Growth Standards (non vérifiée en session)",
+          "date": "2006"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0026",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments sont en faveur d'un kwashiorkor plutôt que d'un marasme ?",
+      "propositions": {
+        "A": "Œdèmes bilatéraux",
+        "B": "Hépatomégalie",
+        "C": "Dermatose « en peinture écaillée »",
+        "D": "Fonte musculo-graisseuse extrême sans œdème",
+        "E": "Cheveux décolorés et clairsemés"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le kwashiorkor associe œdèmes, dermatose, cheveux décolorés (signe du drapeau), hépatomégalie stéatosique, apathie et anorexie ; le marasme est une émaciation extrême sans œdème chez un enfant éveillé et affamé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : stéatose.",
+        "C": "Vrai.",
+        "D": "Faux : marasme.",
+        "E": "Vrai."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — formes cliniques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition: a manual for physicians and other senior health workers (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0027",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Au cours de l'adaptation réductive de la malnutrition aiguë sévère :",
+      "propositions": {
+        "A": "L'activité de la pompe Na+/K+-ATPase est réduite",
+        "B": "Le sodium intracellulaire est augmenté",
+        "C": "Le potassium corporel total est diminué",
+        "D": "Le rein excrète plus facilement une charge sodée",
+        "E": "Les infections évoluent souvent sans fièvre"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'adaptation réductive ralentit tous les systèmes : pompe Na/K ralentie (Na intracellulaire élevé, K bas), cœur et rein fragiles (intolérance à la surcharge sodée), immunité déprimée (infections sans fièvre ni hyperleucocytose).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : capacité d'excrétion sodée réduite.",
+        "E": "Vrai."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — physiopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition: a manual for physicians and other senior health workers (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0028",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le lait thérapeutique F-75 :",
+      "propositions": {
+        "A": "Il apporte environ 75 kcal pour 100 mL",
+        "B": "Il est utilisé pendant la phase de stabilisation",
+        "C": "Il est prescrit à environ 130 mL/kg/j (100 mL/kg/j en cas d'œdèmes sévères)",
+        "D": "Il est riche en protéines afin d'obtenir un gain de poids rapide",
+        "E": "Il est administré en repas fréquents, y compris la nuit"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le F-75, pauvre en protéines, en sodium et en fer, couvre les besoins de base en phase de stabilisation sans viser la prise de poids ; le rattrapage est assuré ensuite par le F-100 ou l'ATPE.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : rôle du F-100/ATPE.",
+        "E": "Vrai : prévention de l'hypoglycémie et de l'hypothermie."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — F-75",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition: a manual for physicians and other senior health workers (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0029",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un enfant hospitalisé pour malnutrition aiguë sévère, quand introduire le fer ?",
+      "propositions": {
+        "A": "Dès l'admission",
+        "B": "Pendant la phase de stabilisation",
+        "C": "En phase de réhabilitation, lorsque l'enfant prend du poids",
+        "D": "Jamais",
+        "E": "Uniquement par voie intraveineuse"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Le fer est différé à la phase de réhabilitation (stress oxydatif et aggravation des infections en phase aiguë) et n'est pas ajouté à l'ATPE qui en contient.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Faux : nécessaire à la récupération (anémie).",
+        "E": "Faux : voie orale."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — micronutriments",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire du fer dès l'admission.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition: a manual for physicians and other senior health workers (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0030",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À l'admission d'un enfant atteint de malnutrition aiguë sévère, quelles complications faut-il rechercher systématiquement ?",
+      "propositions": {
+        "A": "Hypoglycémie",
+        "B": "Hypothermie",
+        "C": "Hyperkaliémie",
+        "D": "Infection sans fièvre",
+        "E": "Déshydratation, dont l'évaluation clinique est difficile"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les premières étapes du protocole OMS traitent l'hypoglycémie, l'hypothermie, la déshydratation, les troubles électrolytiques (hypokaliémie) et les infections, souvent silencieuses.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est l'hypokaliémie qui est attendue.",
+        "D": "Vrai.",
+        "E": "Vrai : signes classiques trompeurs."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — complications",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition: a manual for physicians and other senior health workers (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0031",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'antibiothérapie de la malnutrition aiguë sévère selon l'OMS :",
+      "propositions": {
+        "A": "Ampicilline + gentamicine pour la MAS compliquée hospitalisée",
+        "B": "Gentamicine en une prise quotidienne pendant 7 jours",
+        "C": "Uniquement en cas de fièvre",
+        "D": "Amoxicilline orale pour la MAS non compliquée en ambulatoire",
+        "E": "Fluoroquinolone en première ligne"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'antibiothérapie est systématique car les infections sont fréquentes et silencieuses : amoxicilline orale en ambulatoire ; ampicilline puis amoxicilline + gentamicine (7,5 mg/kg/j, 7 jours) en hospitalisation (posologies à vérifier).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (posologie à vérifier).",
+        "C": "Faux : systématique.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — antibiothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre la fièvre pour traiter.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Guideline: updates on the management of severe acute malnutrition in infants and children (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0032",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Le syndrome de renutrition inappropriée comporte :",
+      "propositions": {
+        "A": "Une hypophosphatémie",
+        "B": "Une hypokaliémie",
+        "C": "Une hypomagnésémie",
+        "D": "Un risque de carence aiguë en thiamine",
+        "E": "Une hypercalcémie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La réintroduction glucidique stimule l'insuline et provoque un transfert intracellulaire de phosphore, potassium et magnésium, une consommation de thiamine et une rétention hydrosodée (insuffisance cardiaque).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — syndrome de renutrition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mehanna HM et al. Refeeding syndrome, BMJ 2008;336:1495-1498 (non vérifiée en session)",
+          "date": "2008"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0033",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Critères de sortie (guérison nutritionnelle) de la MAS selon l'OMS (2013) :",
+      "propositions": {
+        "A": "Poids/taille ≥ −2 z",
+        "B": "Périmètre brachial ≥ 125 mm",
+        "C": "Absence d'œdèmes depuis au moins 2 semaines",
+        "D": "Gain de 15 % du poids d'admission",
+        "E": "Albuminémie normalisée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "On utilise le même indicateur qu'à l'admission (P/T ≥ −2 z ou PB ≥ 125 mm) et l'absence d'œdèmes depuis au moins 2 semaines ; le pourcentage de gain n'est plus recommandé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : abandonné (biaisé par les œdèmes).",
+        "E": "Faux : non retenu."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — critères de sortie",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Guideline: updates on the management of severe acute malnutrition in infants and children (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0034",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'orientation d'un enfant de 18 mois atteint de malnutrition aiguë sévère :",
+      "propositions": {
+        "A": "Sans complication et avec un appétit conservé, il peut être pris en charge en ambulatoire avec de l'ATPE",
+        "B": "L'échec du test d'appétit impose l'hospitalisation",
+        "C": "Des œdèmes généralisés (+++) imposent l'hospitalisation",
+        "D": "Toute MAS doit être hospitalisée",
+        "E": "Une pneumonie associée impose l'hospitalisation"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La prise en charge communautaire par ATPE est réservée à la MAS non compliquée avec test d'appétit réussi ; les complications médicales, l'échec du test, les œdèmes sévères et l'âge < 6 mois justifient l'hospitalisation.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — orientation",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Guideline: updates on the management of severe acute malnutrition in infants and children (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0035",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant des œdèmes chez un enfant de 2 ans, quels diagnostics différentiels du kwashiorkor faut-il évoquer ?",
+      "propositions": {
+        "A": "Syndrome néphrotique",
+        "B": "Insuffisance cardiaque",
+        "C": "Entéropathie exsudative",
+        "D": "Insuffisance hépatocellulaire",
+        "E": "Déshydratation hypernatrémique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La bandelette urinaire (protéinurie massive du syndrome néphrotique), l'examen cardiovasculaire, le bilan hépatique et la recherche de pertes digestives protéiques orientent le diagnostic.",
+      "explications_par_proposition": {
+        "A": "Vrai : protéinurie ≥ +++.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : pas d'œdème."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — diagnostic différentiel",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la bandelette urinaire devant des œdèmes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PEDI-0036",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles mesures contribuent à la prévention de la malnutrition protéino-calorique ?",
+      "propositions": {
+        "A": "Allaitement maternel exclusif jusqu'à 6 mois",
+        "B": "Diversification alimentaire à partir de 6 mois",
+        "C": "Surveillance régulière de la courbe de croissance",
+        "D": "Vaccination contre la rougeole",
+        "E": "Sevrage recommandé à 3 mois"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La prévention associe allaitement, diversification adaptée, surveillance de la croissance, vaccinations (rougeole), hygiène et traitement précoce des infections.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : la rougeole aggrave la dénutrition (ROR à 11 et 18 mois en Algérie).",
+        "E": "Faux."
+      },
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "theme": "Malnutrition — prévention",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition: a manual for physicians and other senior health workers (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "Arrêté du 3 juillet 2018, JORADP n° 49 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "Mediverse DOS-PEDI-0003 — Malnutrition protéino-calorique",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Sont des critères d'ictère néonatal pathologique :",
+      "propositions": {
+        "A": "Apparition avant 24 heures de vie",
+        "B": "Augmentation de la bilirubine de plus de 5 mg/dL (≈ 85 µmol/L) par 24 heures",
+        "C": "Bilirubine conjuguée supérieure à 1 mg/dL (≈ 17 µmol/L)",
+        "D": "Pic à J3–J4 chez un nouveau-né à terme en bon état, sous les seuils de traitement",
+        "E": "Persistance au-delà de 14 jours chez le nouveau-né à terme"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'ictère physiologique apparaît après 24 h, reste modéré, culmine à J3–J5 et disparaît avant J14 chez un enfant en bon état. Tout autre profil impose un bilan.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : cholestase.",
+        "D": "Faux : profil physiologique.",
+        "E": "Vrai : ictère prolongé."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — ictère pathologique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Qualifier de physiologique un ictère apparu avant 24 h.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AAP. Management of hyperbilirubinemia in the newborn infant ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Fawaz R et al. NASPGHAN/ESPGHAN cholestatic jaundice in infants, JPGN 2017 (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels mécanismes expliquent l'ictère physiologique du nouveau-né ?",
+      "propositions": {
+        "A": "Durée de vie des hématies plus courte",
+        "B": "Activité faible de l'UDP-glucuronosyltransférase 1A1",
+        "C": "Cycle entérohépatique augmenté",
+        "D": "Hématocrite plus élevé qu'au cours de la vie ultérieure",
+        "E": "Excès de ligandine hépatocytaire"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Production accrue (hématocrite élevé, hématies à durée de vie courte), captation et conjugaison immatures, cycle entérohépatique augmenté (β-glucuronidase, intestin peu colonisé).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la ligandine est au contraire peu abondante les premiers jours."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — physiologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Maisels MJ, McDonagh AF. Phototherapy for neonatal jaundice, N Engl J Med 2008 (non vérifiée en session)",
+          "date": "2008"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels signes évoquent une encéphalopathie bilirubinique aiguë ?",
+      "propositions": {
+        "A": "Hypotonie et succion faible",
+        "B": "Cri aigu",
+        "C": "Hypertonie avec rétrocolis et opisthotonos",
+        "D": "Fièvre",
+        "E": "Elle est due à l'élévation de la bilirubine conjuguée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Phase précoce : somnolence, hypotonie, succion faible ; phase intermédiaire : hypertonie (rétrocolis, opisthotonos), cri aigu, fièvre ; phase avancée : convulsions, apnées, coma. La forme neurotoxique est la bilirubine non conjuguée libre.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : bilirubine non conjuguée libre."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — encéphalopathie bilirubinique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AAP. Management of hyperbilirubinemia in the newborn infant ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'incompatibilité fœto-maternelle ABO :",
+      "propositions": {
+        "A": "La mère est habituellement de groupe O",
+        "B": "L'enfant est de groupe A ou B",
+        "C": "Elle peut survenir dès la première grossesse",
+        "D": "Elle est toujours plus sévère que l'incompatibilité Rhésus",
+        "E": "Le test de Coombs direct peut être faiblement positif, voire négatif"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les anticorps anti-A/anti-B de type IgG des mères de groupe O préexistent à la grossesse : l'incompatibilité peut s'exprimer dès le premier enfant, généralement de façon moins sévère que l'allo-immunisation Rh.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : généralement moins sévère.",
+        "E": "Vrai."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — incompatibilité ABO",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'incompatibilité ABO n'apparaît qu'à partir de la deuxième grossesse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AAP. Management of hyperbilirubinemia in the newborn infant ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos de la photothérapie néonatale :",
+      "propositions": {
+        "A": "Le spectre efficace est bleu-vert (environ 460–490 nm)",
+        "B": "La lumirubine constitue la principale voie d'élimination",
+        "C": "Une protection oculaire est nécessaire",
+        "D": "L'allaitement est contre-indiqué pendant toute la durée du traitement",
+        "E": "Elle peut provoquer un syndrome du « bébé bronzé » en cas de cholestase"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La photothérapie transforme la bilirubine en photo-isomères hydrosolubles (lumirubine surtout) ; l'efficacité dépend de l'irradiance et de la surface exposée ; l'allaitement est maintenu.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : de courtes interruptions pour les tétées sont acceptables.",
+        "E": "Vrai."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — photothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Maisels MJ, McDonagh AF. Phototherapy for neonatal jaundice, N Engl J Med 2008 (non vérifiée en session)",
+          "date": "2008"
+        },
+        {
+          "reference": "Kemper AR et al. AAP guideline revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "date": "2022"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant une suspicion d'atrésie des voies biliaires chez un nourrisson de 5 semaines :",
+      "propositions": {
+        "A": "Les selles sont décolorées",
+        "B": "Les urines sont foncées",
+        "C": "L'hyperbilirubinémie est conjuguée",
+        "D": "Les résultats de l'intervention de Kasai sont meilleurs lorsqu'elle est réalisée précocement",
+        "E": "La photothérapie est le traitement de choix"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Urgence diagnostique : bilirubine conjuguée, vitamine K, échographie à jeun et avis spécialisé ; l'hépato-porto-entérostomie de Kasai doit être réalisée le plus tôt possible (idéalement avant 45–60 jours).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : inefficace et responsable du bébé bronzé."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — cholestase",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Méconnaître des selles décolorées chez un nourrisson en bon état.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fawaz R et al. NASPGHAN/ESPGHAN cholestatic jaundice in infants, JPGN 2017 (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0007",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une bilirubinémie totale de 20 mg/dL correspond approximativement à :",
+      "propositions": {
+        "A": "171 µmol/L",
+        "B": "342 µmol/L",
+        "C": "513 µmol/L",
+        "D": "85 µmol/L",
+        "E": "250 µmol/L"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "1 mg/dL = 17,1 µmol/L ; 20 mg/dL ≈ 342 µmol/L.",
+      "explications_par_proposition": {
+        "A": "Faux : 10 mg/dL.",
+        "B": "Vrai.",
+        "C": "Faux : 30 mg/dL.",
+        "D": "Faux : 5 mg/dL.",
+        "E": "Faux : ≈ 14,6 mg/dL."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — unités",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles sont les indications d'une exsanguinotransfusion néonatale ?",
+      "propositions": {
+        "A": "Bilirubine au-dessus du seuil d'exsanguinotransfusion malgré une photothérapie intensive",
+        "B": "Signes d'encéphalopathie bilirubinique aiguë intermédiaire ou avancée",
+        "C": "Ictère physiologique à J3",
+        "D": "Anémie sévère avec anasarque fœto-placentaire d'une allo-immunisation Rhésus",
+        "E": "Ictère au lait de mère"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'exsanguinotransfusion (double masse sanguine) épure la bilirubine, les hématies sensibilisées et les anticorps ; elle est indiquée au-delà du seuil malgré la photothérapie intensive ou devant une encéphalopathie, et dans les formes graves de maladie hémolytique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — exsanguinotransfusion",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AAP. Management of hyperbilirubinemia in the newborn infant ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Kemper AR et al. AAP guideline revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "date": "2022"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'ictère au lait de mère :",
+      "propositions": {
+        "A": "Il apparaît ou persiste après la première semaine",
+        "B": "Il s'agit d'une hyperbilirubinémie non conjuguée",
+        "C": "L'enfant est en bon état avec une bonne prise de poids",
+        "D": "Il impose l'arrêt définitif de l'allaitement",
+        "E": "C'est un diagnostic d'élimination"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Ictère tardif et prolongé, bénin, chez un enfant allaité en parfait état ; après élimination d'une cholestase, d'une hypothyroïdie et d'une hémolyse, l'allaitement est poursuivi.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — allaitement",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": "Arrêter l'allaitement pour un ictère au lait de mère.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AAP. Management of hyperbilirubinemia in the newborn infant ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le déficit en glucose-6-phosphate déshydrogénase (G6PD) en période néonatale :",
+      "propositions": {
+        "A": "La transmission est liée à l'X",
+        "B": "Il est fréquent dans le bassin méditerranéen",
+        "C": "L'activité enzymatique peut être faussement normale pendant une hémolyse aiguë",
+        "D": "Les fèves et la naphtaline sont des facteurs déclenchants",
+        "E": "Le test de Coombs direct est positif"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'hémolyse du déficit en G6PD est non immunologique (Coombs négatif) ; les réticulocytes, riches en enzyme, peuvent normaliser le dosage pendant l'hémolyse : contrôle à distance.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — déficit en G6PD",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à l'absence de déficit sur un dosage réalisé en pleine hémolyse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kemper AR et al. AAP guideline revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "date": "2022"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la recommandation AAP 2022, quels facteurs de risque de neurotoxicité abaissent les seuils de traitement de l'hyperbilirubinémie ?",
+      "propositions": {
+        "A": "Âge gestationnel inférieur à 38 SA",
+        "B": "Albuminémie inférieure à 3,0 g/dL",
+        "C": "Maladie hémolytique iso-immune",
+        "D": "Sepsis",
+        "E": "Sexe féminin"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "AAP 2022 : AG < 38 SA, albumine < 3,0 g/dL, iso-immunisation, déficit en G6PD ou autre hémolyse, sepsis, instabilité clinique significative dans les 24 h précédentes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — facteurs de neurotoxicité",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kemper AR et al. AAP guideline revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "date": "2022"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prévention de l'allo-immunisation Rhésus :",
+      "propositions": {
+        "A": "Des immunoglobulines anti-D sont injectées à la mère Rh négatif non immunisée dans les 72 heures suivant l'accouchement d'un enfant Rh positif",
+        "B": "Elles sont également indiquées après un événement potentiellement immunisant (amniocentèse, fausse couche, traumatisme)",
+        "C": "Elles sont inutiles chez une femme déjà immunisée",
+        "D": "Elles sont administrées au nouveau-né",
+        "E": "La recherche d'agglutinines irrégulières est réalisée pendant la grossesse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La prophylaxie anti-D (post-natale, après événements à risque et, dans de nombreux pays, systématique à 28 SA) prévient l'immunisation ; elle est sans intérêt une fois l'immunisation constituée et s'administre à la mère.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : à la mère.",
+        "E": "Vrai."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "theme": "Ictère — prévention Rhésus",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Administrer les anti-D à une femme déjà immunisée ou au nouveau-né.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mediverse DOS-NEON-0001 — Ictère néonatal",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels sont les principaux germes de l'infection néonatale précoce (< 72 heures) ?",
+      "propositions": {
+        "A": "Streptocoque du groupe B",
+        "B": "Escherichia coli",
+        "C": "Listeria monocytogenes",
+        "D": "Staphylocoque à coagulase négative",
+        "E": "Candida albicans"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'infection précoce est materno-fœtale : SGB (premier germe à terme), E. coli (premier chez le prématuré), Listeria. Les SCN et Candida sont des germes d'infections tardives nosocomiales.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : infection tardive sur cathéter.",
+        "E": "Faux : infection tardive du grand prématuré."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — germes",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Puopolo KM et al. AAP — early-onset sepsis ≥35 SA, Pediatrics 2018;142(6):e20182894 (non vérifiée en session)",
+          "date": "2018"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels sont des facteurs de risque d'infection néonatale précoce ?",
+      "propositions": {
+        "A": "Portage vaginal de SGB sans antibioprophylaxie per partum adéquate",
+        "B": "Fièvre maternelle ≥ 38 °C pendant le travail",
+        "C": "Rupture prolongée des membranes",
+        "D": "Accouchement prématuré spontané",
+        "E": "Césarienne programmée avant travail à membranes intactes"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les facteurs majeurs sont la colonisation à SGB non couverte, la fièvre maternelle/chorioamniotite, la rupture prolongée des membranes et la prématurité spontanée ; la césarienne avant travail à membranes intactes expose peu au risque materno-fœtal ascendant.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai (≥ 12 h HAS ; ≥ 18 h CDC/AAP).",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — facteurs de risque",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Prise en charge du risque infectieux néonatal bactérien précoce (≥ 34 SA) (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Verani JR et al. CDC — prevention of perinatal GBS disease, MMWR 2010;59(RR-10) (non vérifiée en session)",
+          "date": "2010"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les signes cliniques d'infection néonatale :",
+      "propositions": {
+        "A": "Ils sont souvent non spécifiques",
+        "B": "Une hypothermie peut révéler l'infection",
+        "C": "Une détresse respiratoire est fréquente dans l'infection précoce",
+        "D": "La fièvre est toujours présente",
+        "E": "Un temps de recoloration supérieur à 3 secondes est un signe d'alerte"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Tout nouveau-né qui « va mal » doit être considéré comme infecté jusqu'à preuve du contraire : troubles thermiques (fièvre ou hypothermie), respiratoires, hémodynamiques, neurologiques, digestifs, comportementaux.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — clinique",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": "Attendre la fièvre pour évoquer une infection néonatale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE NG195. Neonatal infection: antibiotics for prevention and treatment (non vérifiée en session)",
+          "date": "2021"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les marqueurs biologiques de l'infection néonatale :",
+      "propositions": {
+        "A": "La CRP s'élève avec un délai de 6 à 12 heures",
+        "B": "Une CRP normale à H0 n'élimine pas une infection",
+        "C": "Deux CRP normales à 24 heures d'intervalle ont une bonne valeur prédictive négative",
+        "D": "La procalcitonine présente un pic physiologique au cours des 24–48 premières heures de vie",
+        "E": "Une CRP élevée affirme une infection bactérienne"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les marqueurs ont surtout une valeur négative lorsqu'ils sont répétés ; l'hémoculture reste l'examen de référence. La CRP s'élève aussi dans des situations non infectieuses (inhalation méconiale, souffrance périnatale).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : peu spécifique."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — biologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se rassurer sur une CRP normale à H0.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE NG195. Neonatal infection: antibiotics for prevention and treatment (non vérifiée en session)",
+          "date": "2021"
+        },
+        {
+          "reference": "HAS. Prise en charge du risque infectieux néonatal bactérien précoce (≥ 34 SA) (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'antibiothérapie probabiliste de l'infection néonatale précoce (≥ 34 SA) selon la HAS (2017) :",
+      "propositions": {
+        "A": "Elle associe amoxicilline et gentamicine",
+        "B": "Le céfotaxime est ajouté si une méningite est suspectée",
+        "C": "La ceftriaxone est utilisée en première ligne chez le nouveau-né ictérique",
+        "D": "L'hémoculture est prélevée avant la première dose",
+        "E": "Elle est différée jusqu'au résultat de la ponction lombaire chez un enfant instable"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Hémoculture puis antibiothérapie immédiate : amoxicilline + gentamicine ; céfotaxime en cas de méningite ou de sepsis grave. La ceftriaxone déplace la bilirubine et précipite avec le calcium ; la PL ne doit jamais retarder le traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — antibiothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retarder l'antibiothérapie pour réaliser la PL.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Prise en charge du risque infectieux néonatal bactérien précoce (≥ 34 SA) (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles durées de traitement sont habituellement retenues ?",
+      "propositions": {
+        "A": "Arrêt à 36–48 heures si cultures négatives, CRP normales et enfant bien",
+        "B": "Bactériémie à SGB : environ 10 jours",
+        "C": "Méningite à SGB : au moins 14 jours",
+        "D": "Méningite à bacille à Gram négatif : au moins 21 jours",
+        "E": "Méningite néonatale : 3 jours"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Repères usuels, à confronter aux protocoles : arrêt précoce si infection écartée ; 7–10 jours pour une bactériémie ; ≥ 14 jours (SGB) et ≥ 21 jours (Gram négatif) pour une méningite.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (à vérifier selon le protocole).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — durées",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE NG195. Neonatal infection: antibiotics for prevention and treatment (non vérifiée en session)",
+          "date": "2021"
+        },
+        {
+          "reference": "HAS. Prise en charge du risque infectieux néonatal bactérien précoce (≥ 34 SA) (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'antibioprophylaxie per partum du streptocoque du groupe B :",
+      "propositions": {
+        "A": "Elle repose sur la pénicilline G ou l'ampicilline/amoxicilline IV",
+        "B": "Elle est adéquate si elle est débutée au moins 4 heures avant la naissance",
+        "C": "Elle est indiquée en cas de bactériurie à SGB pendant la grossesse",
+        "D": "Elle est indiquée en cas d'antécédent d'enfant infecté par le SGB",
+        "E": "Elle est indiquée pour une césarienne programmée avant travail à membranes intactes chez une femme porteuse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Indications : portage en fin de grossesse, bactériurie à SGB, antécédent d'enfant infecté, statut inconnu avec facteur de risque ; pas d'indication pour une césarienne avant travail à membranes intactes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — prévention SGB",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Considérer comme adéquate une prophylaxie débutée moins de 4 heures avant la naissance.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Verani JR et al. CDC — prevention of perinatal GBS disease, MMWR 2010;59(RR-10) (non vérifiée en session)",
+          "date": "2010"
+        },
+        {
+          "reference": "ACOG Committee Opinion 797 — GBS early-onset disease (non vérifiée en session)",
+          "date": "2020"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la listériose néonatale :",
+      "propositions": {
+        "A": "La transmission peut être transplacentaire",
+        "B": "Un liquide amniotique teinté chez un prématuré est évocateur",
+        "C": "Listeria présente une résistance naturelle aux céphalosporines",
+        "D": "L'amoxicilline est active",
+        "E": "Le céfotaxime en monothérapie est efficace"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Listeria est sensible à l'amoxicilline (synergie avec les aminosides) et naturellement résistante aux céphalosporines, d'où la place de l'amoxicilline dans l'antibiothérapie probabiliste. La listériose est à déclaration obligatoire en Algérie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — listériose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter une infection néonatale précoce par céphalosporine seule.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Prise en charge du risque infectieux néonatal bactérien précoce (≥ 34 SA) (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022, liste des MDO, JORADP n° 47 (DOC-00072)",
+          "date": "2022"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'herpès néonatal :",
+      "propositions": {
+        "A": "Le traitement repose sur l'aciclovir intraveineux",
+        "B": "Il existe des formes cutanéo-oculo-buccales, neurologiques et disséminées",
+        "C": "La PCR HSV dans le LCR contribue au diagnostic",
+        "D": "Il peut survenir en l'absence de lésion maternelle connue",
+        "E": "Le ganciclovir est le traitement de référence"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'aciclovir IV à forte dose (20 mg/kg/8 h, 14 à 21 jours selon la forme — posologie à vérifier) est débuté dès la suspicion ; les lésions cutanées manquent souvent dans les formes neurologiques et disséminées.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : le ganciclovir concerne le CMV."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — herpès",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre des lésions cutanées pour évoquer un herpès néonatal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kimberlin DW et al. High-dose acyclovir for neonatal HSV, Pediatrics 2001 (non vérifiée en session)",
+          "date": "2001"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les infections tardives nosocomiales du prématuré :",
+      "propositions": {
+        "A": "Les staphylocoques à coagulase négative sont fréquents",
+        "B": "Le cathéter veineux central est un facteur de risque majeur",
+        "C": "Des entérobactéries productrices de BLSE peuvent être en cause",
+        "D": "Candida est à redouter chez le grand prématuré",
+        "E": "Elles surviennent exclusivement avant 72 heures de vie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les infections tardives (≥ 72 h) des unités de néonatologie sont liées aux dispositifs invasifs, à la nutrition parentérale et à l'écologie de l'unité ; l'hygiène des mains est la principale mesure de prévention.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — infections tardives",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE NG195. Neonatal infection: antibiotics for prevention and treatment (non vérifiée en session)",
+          "date": "2021"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un nouveau-né de 6 jours, sorti de maternité à J2, présente un état de choc. Quels diagnostics faut-il évoquer ?",
+      "propositions": {
+        "A": "Cardiopathie ducto-dépendante",
+        "B": "Hyperplasie congénitale des surrénales avec perte de sel",
+        "C": "Maladie héréditaire du métabolisme",
+        "D": "Sepsis",
+        "E": "Ictère au lait de mère"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Devant un choc néonatal secondaire : sepsis (antibiotiques sans délai), cardiopathie ducto-dépendante (pouls fémoraux, échocardiographie, prostaglandine E1), insuffisance surrénale (ionogramme), maladie métabolique (ammoniémie, lactates).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — diagnostic différentiel",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEON-0024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles mesures contribuent à la prévention des infections néonatales ?",
+      "propositions": {
+        "A": "Hygiène des mains des soignants",
+        "B": "Vaccination antitétanique des femmes",
+        "C": "Vaccin contre l'hépatite B et immunoglobulines anti-HBs dans les 12 heures chez le nouveau-né de mère AgHBs positive",
+        "D": "Antibioprophylaxie systématique de tous les nouveau-nés",
+        "E": "Dépistage du portage vaginal du SGB en fin de grossesse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La prévention repose sur l'hygiène, la vaccination maternelle et néonatale (BCG et hépatite B à la naissance dans le calendrier algérien), le dépistage et la prophylaxie ciblée du SGB ; l'antibioprophylaxie systématique des nouveau-nés n'est pas recommandée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : élimination du tétanos néonatal (maladie à déclaration obligatoire en Algérie).",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai (politique nationale à vérifier)."
+      },
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "theme": "Infections néonatales — prévention",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Verani JR et al. CDC — prevention of perinatal GBS disease, MMWR 2010;59(RR-10) (non vérifiée en session)",
+          "date": "2010"
+        },
+        {
+          "reference": "Arrêté du 3 juillet 2018, calendrier vaccinal, JORADP n° 49 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022, liste des MDO, JORADP n° 47 (DOC-00072)",
+          "date": "2022"
+        },
+        {
+          "reference": "Mediverse DOS-NEON-0002 — Infections néonatales",
+          "date": "2026-11-19"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

@@ -1,15 +1,20 @@
 {
   "id": "AUD-02",
   "statut": "session_terminee",
-  "derniere_execution": "2026-11-19T01:59:21+00:00",
+  "derniere_execution": "2026-11-19T02:05:12+00:00",
   "taches_terminees": [
-    "Audit des posologies et contre-indications DOS-CARD-0001 à 0005 et des lots QCM/cas DOS-01 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/)"
+    "Audit des posologies et contre-indications DOS-CARD-0001 à 0005 et des lots QCM/cas DOS-01 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/)",
+    "Audit des posologies DOS-PEDI-0001 à 0003, DOS-NEON-0001 à 0002 et des lots QCM/cas DOS-05 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/) — 1 erreur critique corrigée (amoxicilline de relais dans la MAS)"
   ],
   "taches_suivantes": [
     "DOS-CARD-0001 : bromocriptine (cardiomyopathie du péripartum) — schéma ESC Grossesse à confirmer",
     "DOS-CARD-0004 : HNF IV en attente de coronarographie (bolus et débit) — tableau ESC 2023 à confirmer",
     "DOS-CARD-0005 : antibiothérapie probabiliste ESC 2023 ; prophylaxie secondaire du RAA (programme national algérien)",
-    "CAS-CARD-0009 : adaptation de la céfazoline/cloxacilline à l'hémodialyse"
+    "CAS-CARD-0009 : adaptation de la céfazoline/cloxacilline à l'hémodialyse",
+    "DOS-PEDI-0001 : NaCl 3 % (hyponatrémie convulsive), ondansétron (AMM Algérie), racécadotril (RCP)",
+    "DOS-PEDI-0003 : thiamine (renutrition), albendazole selon l'âge",
+    "DOS-NEON-0001 : prophylaxie anti-D à 28 SA (dose et politique nationale)",
+    "DOS-NEON-0002 : doses méningées d'amoxicilline et de céfotaxime, vancomycine, méropénem, antifongiques, amines, antibioprophylaxie per partum (CDC 2010/ACOG 2020)"
   ],
   "objectifs": {
     "dossiers": 5
@@ -25,5 +30,17 @@
     "erreurs_critiques": 0,
     "erreurs_majeures": 1,
     "corrections": 19
+  },
+  "sessions": {
+    "DOS-05": {
+      "date": "2026-11-19",
+      "marqueurs_posologie_initiaux_dossiers": 22,
+      "marqueurs_posologie_leves_dossiers": 8,
+      "marqueurs_posologie_restants_dossiers": 15,
+      "note_comptage": "anti-D normalisé (non compté auparavant) ; la mention du marqueur dans l'avertissement de NEON-0002 a été reformulée",
+      "posologies_precisees_cas": 3,
+      "erreurs_critiques": 1,
+      "erreurs_majeures_posologie": 0
+    }
   }
 }

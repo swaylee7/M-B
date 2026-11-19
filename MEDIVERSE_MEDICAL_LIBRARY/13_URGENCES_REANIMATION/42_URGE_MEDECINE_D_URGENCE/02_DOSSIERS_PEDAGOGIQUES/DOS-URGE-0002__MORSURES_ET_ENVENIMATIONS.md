@@ -6,11 +6,17 @@ sous_specialite: "Envenimations et morsures"
 items_residanat: [RES-MED-111]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-06 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-02/rapports/DOS-URGE-0002.md
 sources:
   - id: S1
     reference: "Institut National de Santé Publique (INSP, Algérie). Rapport épidémiologique sur l'envenimation scorpionique en Algérie — données 2009 [année de publication À VÉRIFIER]."
@@ -69,13 +75,13 @@ sources:
     url: "https://fr.allafrica.com/stories/202205270993.html"
     verifiee: true
   - id: S8
-    reference: "Abroug F, et al. Serotherapy in scorpion envenomation: a randomised controlled trial. Lancet. 1999. [À VÉRIFIER — non confirmée pendant la session]"
+    reference: "Abroug F, ElAtrous S, Nouira S, Haguiga H, Touzi N, Bouchoucha S. Serotherapy in scorpion envenomation: a randomised controlled trial. Lancet. 1999;354(9182):906-909. [Vérifiée à l'audit : 825 patients de plus de 10 ans, Tozeur (Tunisie), sérum bivalent IV 20 mL contre placebo, tous grades de gravité]"
     organisme: ""
     annee: 1999
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(98)12083-4"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S9
     reference: "Bawaskar HS, Bawaskar PH. Essai randomisé prazosine ± sérum antiscorpionique dans les piqûres de Mesobuthus tamulus (Inde). BMJ. 2011. [À VÉRIFIER — non confirmée pendant la session]"
     organisme: ""
@@ -93,29 +99,29 @@ sources:
     url: ""
     verifiee: false
   - id: S11
-    reference: "World Health Organization. Rabies vaccines: WHO position paper — April 2018. Weekly Epidemiological Record. 2018;93(16). [À VÉRIFIER — non confirmée pendant la session]"
+    reference: "World Health Organization. Rabies vaccines: WHO position paper — April 2018. Weekly Epidemiological Record. 2018;93(16):201-219 (WHO IRIS hdl:10665/272372). [Vérifiée à l'audit via le catalogue REC-0531]"
     organisme: OMS
     annee: 2018
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
-    reference: "WHO Expert Consultation on Rabies, third report. WHO Technical Report Series n° 1012. 2018. [À VÉRIFIER — non confirmée pendant la session]"
+    reference: "World Health Organization. WHO Expert Consultation on Rabies, third report. Geneva: WHO; 2018 (WHO Technical Report Series n° 1012). ISBN 9789241210218 (WHO IRIS hdl:10665/272364). [Vérifiée à l'audit via le catalogue REC-0280]"
     organisme: OMS
     annee: 2018
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
-    reference: "WHO Regional Office for Africa. Guidelines for the prevention and clinical management of snakebite in Africa. 2010 ; WHO SEARO. Guidelines for the management of snakebites, 2nd ed. 2016. [À VÉRIFIER — non confirmées pendant la session]"
-    organisme: OMS (AFRO, SEARO)
+    reference: "WHO Regional Office for South-East Asia (SEARO). Guidelines for the management of snakebites, 2nd ed. New Delhi: WHO SEARO; 2016 (texte préparé par D. A. Warrell ; inclut le test de coagulation sur tube sec à 20 minutes). [Existence vérifiée à l'audit] — Le guide OMS-AFRO 2010 pour l'Afrique, également cité par le rédacteur, n'a pas été confirmé à l'audit [À VÉRIFIER]."
+    organisme: OMS (SEARO ; AFRO à vérifier)
     annee: 2016
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S14
     reference: "World Health Organization. Snakebite envenoming: a strategy for prevention and control. 2019. [À VÉRIFIER — non confirmée pendant la session]"
     organisme: OMS
@@ -185,7 +191,7 @@ mots_cles: [envenimation scorpionique, scorpion, Androctonus, sérum antiscorpio
 
 - La **sérothérapie antivenimeuse** est née à la fin du XIXe siècle dans le réseau des Instituts Pasteur ; la **vaccination antirabique** post-exposition remonte aux travaux de Pasteur (1885).
 - En Algérie, l'envenimation scorpionique a été reconnue comme **problème de santé publique** ; un **comité national intersectoriel de lutte contre l'envenimation scorpionique** a été créé par arrêté ministériel en **janvier 1997**, lançant le programme national [S4] ; un guide national de prise en charge a été publié en **2003** [S1, S2].
-- L'OMS a inscrit l'**envenimation ophidienne** sur la liste des maladies tropicales négligées (2017) et publié une stratégie de prévention et de contrôle (2019) [S14 — À VÉRIFIER] ; sa position sur les vaccins antirabiques a été actualisée en **avril 2018** (schémas abrégés) [S11 — À VÉRIFIER].
+- L'OMS a inscrit l'**envenimation ophidienne** sur la liste des maladies tropicales négligées (2017) et publié une stratégie de prévention et de contrôle (2019) [S14 — À VÉRIFIER] ; sa position sur les vaccins antirabiques a été actualisée en **avril 2018** (schémas abrégés) [S11].
 
 ## 3. Épidémiologie
 
@@ -208,7 +214,7 @@ mots_cles: [envenimation scorpionique, scorpion, Androctonus, sérum antiscorpio
 ### 3.3 Morsures animales et rage
 
 - Les morsures de **chiens** sont de loin les plus fréquentes, suivies des chats ; les **enfants** sont surtout mordus au visage et au cou.
-- La **rage canine** reste **endémique en Algérie**, avec chaque année des cas humains mortels et un grand nombre de personnes exposées recevant une prophylaxie post-exposition [À VÉRIFIER — chiffres nationaux récents non consultés pendant la session]. Dans le monde, la rage tue des dizaines de milliers de personnes par an, majoritairement en Afrique et en Asie, et la quasi-totalité des cas humains est due au chien [S11, S12 — À VÉRIFIER].
+- La **rage canine** reste **endémique en Algérie**, avec chaque année des cas humains mortels et un grand nombre de personnes exposées recevant une prophylaxie post-exposition [À VÉRIFIER — chiffres nationaux récents non consultés pendant la session]. Dans le monde, la rage tue des dizaines de milliers de personnes par an, majoritairement en Afrique et en Asie, et la quasi-totalité des cas humains est due au chien [S11, S12].
 
 ## 4. Rappels — les animaux et leurs venins
 
@@ -300,7 +306,7 @@ La stratégie nationale repose sur une **prise en charge standardisée** selon l
 
 Les anomalies biologiques (fibrinogène bas, thrombopénie, allongement du TP) sont des critères de gravité à intégrer à la décision d'immunothérapie.
 
-### 7.3 Exposition au risque rabique — catégories de l'OMS [S11 — À VÉRIFIER]
+### 7.3 Exposition au risque rabique — catégories de l'OMS [S11, S12]
 
 | Catégorie | Type de contact avec un animal suspect | Conduite |
 |---|---|---|
@@ -324,7 +330,7 @@ Les anomalies biologiques (fibrinogène bas, thrombopénie, allongement du TP) s
 - **Signes généraux** : malaise, vomissements, douleurs abdominales, diarrhée, hypotension.
 - **Syndrome hémorragique** : saignement prolongé au point de morsure, gingivorragies, hématurie, hémorragie digestive.
 - **Signes neurologiques** (élapidés) : ptosis, diplopie, dysphagie, faiblesse, détresse respiratoire.
-- **Test de coagulation sur tube sec à 20 minutes** (sang incoagulable = coagulopathie) : recommandé par l'OMS lorsque le laboratoire n'est pas disponible [S13 — À VÉRIFIER].
+- **Test de coagulation sur tube sec à 20 minutes** (sang incoagulable = coagulopathie) : recommandé par l'OMS lorsque le laboratoire n'est pas disponible [S13].
 
 ### 8.3 Morsure animale
 
@@ -446,7 +452,7 @@ Classer selon les **trois classes** (§ 7.1), en recherchant soigneusement les s
 - **Nature** : immunoglobulines équines purifiées (fragments F(ab')₂) dirigées contre les venins des espèces locales ; en Algérie, le SAS est historiquement produit et distribué dans le cadre national [À VÉRIFIER — producteur, présentation et circuit de distribution actuels].
 - **Modalités** : dans les protocoles qui l'utilisent, administration **la plus précoce possible**, par voie **intraveineuse**, en milieu disposant d'adrénaline et de matériel de réanimation (risque d'**anaphylaxie** et de **maladie sérique**) ; **[POSOLOGIE À VÉRIFIER — guide national / notice du produit]**.
 - **Débat international** :
-  - un **essai randomisé tunisien** n'a pas montré de bénéfice de l'immunothérapie IV sur l'évolution des envenimations graves, ce qui a conduit plusieurs équipes maghrébines à privilégier le **traitement symptomatique intensif** [S8 — À VÉRIFIER] ;
+  - un **essai randomisé tunisien** (825 patients **de plus de 10 ans**, tous grades de gravité confondus, sérum bivalent IV contre placebo) n'a pas montré de bénéfice de l'**administration systématique** du SAS, ce qui a conduit plusieurs équipes maghrébines à privilégier le **traitement symptomatique intensif** [S8] ; les **enfants de moins de 10 ans**, qui concentrent les décès, n'y étaient pas inclus, ce qui limite l'extrapolation à ce groupe ;
   - en **Inde**, la **prazosine** (alpha-bloquant) est le traitement de référence des piqûres de *Mesobuthus tamulus*, l'association au SAS accélérant la guérison dans un essai randomisé [S9 — À VÉRIFIER] ; ses données ne sont pas transposables directement aux espèces maghrébines ;
   - pour les scorpions américains (*Centruroides*), un antivenin spécifique a montré son efficacité sur les signes neurologiques [À VÉRIFIER].
 - **Message pour l'examen** : la **base du traitement des formes graves est la réanimation symptomatique**, en particulier cardiorespiratoire ; la place du SAS dépend du **protocole national en vigueur** [S2 — À VÉRIFIER].
@@ -470,7 +476,7 @@ Classer selon les **trois classes** (§ 7.1), en recherchant soigneusement les s
 
 #### a) Soins locaux (urgence, quel que soit l'animal)
 
-1. **Lavage immédiat et prolongé** de la plaie à l'**eau et au savon** pendant **environ 15 minutes**, puis **antiseptique** (povidone iodée, alcool) — geste essentiel de la prévention de la rage [S11 — À VÉRIFIER].
+1. **Lavage immédiat et prolongé** de la plaie à l'**eau et au savon** pendant **environ 15 minutes**, puis **antiseptique** (povidone iodée, alcool) — geste essentiel de la prévention de la rage [S11, S12].
 2. **Parage** des tissus dévitalisés, ablation des corps étrangers, exploration (tendons, articulations) ; avis chirurgical pour les morsures de la **main**, les plaies délabrantes, articulaires ou du visage.
 3. **Suture** : possible pour les plaies du **visage** (enjeu esthétique) après lavage et parage soigneux ; à éviter (ou suture différée) pour les plaies punctiformes, de la main, anciennes ou à haut risque infectieux.
 4. Immobilisation et surélévation du membre.
@@ -485,7 +491,7 @@ Classer selon les **trois classes** (§ 7.1), en recherchant soigneusement les s
 
 Selon le **statut vaccinal** et le **type de plaie** : rappel vaccinal et/ou immunoglobulines humaines antitétaniques chez le sujet non ou mal vacciné présentant une plaie à risque, selon le calendrier vaccinal national [À VÉRIFIER — calendrier et schéma algériens].
 
-#### d) Prophylaxie antirabique post-exposition (PPE) [S11, S12 — À VÉRIFIER]
+#### d) Prophylaxie antirabique post-exposition (PPE) [S11, S12]
 
 **Principes** :
 - la PPE est une **urgence** ; elle n'a **aucune contre-indication** (grossesse, nourrisson) ;
@@ -500,15 +506,15 @@ Selon le **statut vaccinal** et le **type de plaie** : rappel vaccinal et/ou imm
 | Intramusculaire « 2 semaines » (Essen abrégé) | IM | 1 dose à **J0, J3, J7** et entre **J14 et J28** |
 | Intramusculaire « 3 semaines » (Zagreb, 2-1-1) | IM | **2 doses à J0** (deux sites), puis 1 dose à **J7** et à **J21** |
 
-**Immunoglobulines antirabiques** (catégorie III, sujet non vacciné) : immunoglobulines humaines (**20 UI/kg**) ou équines (**40 UI/kg**), **infiltrées dans et autour de la plaie** autant que l'anatomie le permet ; l'OMS ne recommande plus l'injection IM à distance du reliquat ; elles peuvent être administrées jusqu'au **7e jour** après la première dose de vaccin [S11 — POSOLOGIE À VÉRIFIER].
+**Immunoglobulines antirabiques** (catégorie III, sujet non vacciné) : immunoglobulines humaines (**20 UI/kg**) ou équines (**40 UI/kg**), **infiltrées dans et autour de la plaie** autant que l'anatomie le permet ; l'OMS ne recommande plus l'injection IM à distance du reliquat ; elles peuvent être administrées jusqu'au **7e jour** après la première dose de vaccin [S11] ; le produit disponible et son volume se vérifient sur la notice.
 
-**Sujet antérieurement vacciné** (PPE complète ou vaccination pré-exposition) : rappel abrégé (par exemple 1 dose à J0 et J3) **sans immunoglobulines** [S11 — À VÉRIFIER].
+**Sujet antérieurement vacciné** (PPE complète ou vaccination pré-exposition) : rappel abrégé (par exemple 1 dose à J0 et J3) **sans immunoglobulines** [S11].
 
-**Observation de l'animal** : un chien ou un chat vivant et identifiable est mis en **observation vétérinaire** (période classique de 10 jours) ; s'il reste en bonne santé, la vaccination peut être interrompue — mais elle est **débutée sans attendre** [S12 — durée À VÉRIFIER].
+**Observation de l'animal** : un chien ou un chat vivant et identifiable est mis en **observation vétérinaire** (période classique de 10 jours) ; s'il reste en bonne santé, la vaccination peut être interrompue — mais elle est **débutée sans attendre** [S12].
 
 **En Algérie** : la rage est une maladie à déclaration obligatoire et la PPE est assurée par les structures publiques de santé selon un protocole national ; les vaccins et sérums antirabiques sont distribués dans un circuit national [À VÉRIFIER — instruction ministérielle, schéma national (Essen/Zagreb/ID) et producteur non vérifiés pendant la session].
 
-**Prophylaxie pré-exposition** (vétérinaires, personnels de fourrière, laboratoires, voyageurs exposés) : schéma OMS en 2 visites (J0 et J7) [S11 — À VÉRIFIER].
+**Prophylaxie pré-exposition** (vétérinaires, personnels de fourrière, laboratoires, voyageurs exposés) : schéma OMS en 2 visites (J0 et J7) [S11].
 
 ### 13.5 Stratégie synthétique
 
@@ -858,13 +864,13 @@ Morsure / griffure / léchage
 
 | Question | Position A | Position B | Commentaire |
 |---|---|---|---|
-| Immunothérapie antiscorpionique | **Algérie** : SAS intégré historiquement à la prise en charge standardisée du guide national (2003) — indications exactes à vérifier dans l'édition en vigueur [S2 — À VÉRIFIER] | **Tunisie** (essai randomisé, 1999) : pas de bénéfice démontré de l'immunothérapie IV ; traitement symptomatique intensif privilégié ; approche symptomatique également adoptée au Maroc [S8 — À VÉRIFIER] | Différence de pratique entre pays voisins, liée aux données disponibles, aux espèces et aux produits ; suivre le protocole national |
+| Immunothérapie antiscorpionique | **Algérie** : SAS intégré historiquement à la prise en charge standardisée du guide national (2003) — indications exactes à vérifier dans l'édition en vigueur [S2 — À VÉRIFIER] | **Tunisie** (essai randomisé, 1999, patients de plus de 10 ans) : pas de bénéfice démontré de l'administration systématique du SAS IV ; traitement symptomatique intensif privilégié [S8] ; approche symptomatique également adoptée au Maroc [À VÉRIFIER] | Différence de pratique entre pays voisins, liée aux données disponibles, aux espèces et aux produits ; suivre le protocole national |
 | Traitement pharmacologique de l'orage adrénergique | **Inde** : prazosine (Mesobuthus tamulus) [S9 — À VÉRIFIER] | **Maghreb** : dobutamine pour la dysfonction myocardique, réanimation symptomatique | Espèces et venins différents : pas d'extrapolation directe |
 | Bandage compressif après morsure de serpent | **Australie** (élapidés) : bandage compressif d'immobilisation | **OMS / pratique européenne et africaine pour les vipères** : déconseillé (aggravation locale) [S13 — À VÉRIFIER] | Dépend de la famille de serpent |
 | Prémédication avant antivenin | Certaines recommandations OMS (SEARO 2016) admettent une prémédication par adrénaline SC dans les contextes à risque [S13 — À VÉRIFIER] | D'autres ne recommandent pas de prémédication systématique, mais une disponibilité immédiate de l'adrénaline | Toujours préparer le traitement de l'anaphylaxie |
-| Schémas de vaccination antirabique | **OMS 2018** : schémas abrégés (ID 1 semaine ; IM 4 doses ; Zagreb) [S11 — À VÉRIFIER] | Schéma IM historique en 5 doses (Essen « long ») encore utilisé dans certains pays | Vérifier le schéma du protocole national algérien |
-| Immunoglobulines antirabiques | **OMS 2018** : infiltration locale maximale, pas d'injection IM du reliquat à distance [S11 — À VÉRIFIER] | Recommandations antérieures : injection IM du reliquat | Changement de doctrine (économie et efficacité locale) |
-| Durée d'observation de l'animal | Période classique de **10 jours** pour le chien et le chat [S12 — À VÉRIFIER] | Certains protocoles retiennent une durée plus longue | La PPE n'attend jamais la fin de l'observation |
+| Schémas de vaccination antirabique | **OMS 2018** : schémas abrégés (ID 1 semaine ; IM 4 doses ; Zagreb) [S11] | Schéma IM historique en 5 doses (Essen « long ») encore utilisé dans certains pays | Vérifier le schéma du protocole national algérien |
+| Immunoglobulines antirabiques | **OMS 2018** : infiltration locale maximale, pas d'injection IM du reliquat à distance [S11] | Recommandations antérieures : injection IM du reliquat | Changement de doctrine (économie et efficacité locale) |
+| Durée d'observation de l'animal | Période classique de **10 jours** pour le chien et le chat [S12] | Certains protocoles retiennent une durée plus longue | La PPE n'attend jamais la fin de l'observation |
 | Antibioprophylaxie après morsure de chien | **Sélective** (plaies à haut risque) [S15 — À VÉRIFIER] | Prescription quasi systématique dans certaines pratiques | Les morsures de chat et de la main justifient presque toujours une antibioprophylaxie |
 
 ## 22. Références
@@ -876,12 +882,12 @@ Morsure / griffure / léchage
 5. [S5] Algerian Journal of Health Sciences. 2020;2(Suppl 1) — données MSPRH 2019 (Aliane F.). — *vérifiée (extraits) ; article exact à préciser*.
 6. [S6] Radio Algérie, 16/07/2018 : « Envenimation scorpionique : entre 50 et 100 décès chaque année ». — *vérifiée*.
 7. [S7] allAfrica, 27/05/2022 : baisse des cas grâce aux campagnes de collecte et de prévention ; mise à jour du guide. — *vérifiée*.
-8. [S8] Abroug F, et al. Serotherapy in scorpion envenomation: a randomised controlled trial. Lancet. 1999. — *non vérifiée pendant la session*.
+8. [S8] Abroug F, ElAtrous S, Nouira S, Haguiga H, Touzi N, Bouchoucha S. Serotherapy in scorpion envenomation: a randomised controlled trial. Lancet. 1999;354(9182):906-909. doi:10.1016/S0140-6736(98)12083-4. — *vérifiée à l'audit*.
 9. [S9] Bawaskar HS, Bawaskar PH. Essai prazosine ± SAS (Inde). BMJ. 2011. — *non vérifiée pendant la session*.
 10. [S10] Chippaux JP, Goyffon M. Epidemiology of scorpionism: a global appraisal. Acta Trop. 2008. — *non vérifiée pendant la session*.
-11. [S11] OMS. Rabies vaccines: WHO position paper — April 2018. Wkly Epidemiol Rec. 2018. — *non vérifiée pendant la session*.
-12. [S12] OMS. Expert Consultation on Rabies, third report (TRS 1012), 2018. — *non vérifiée pendant la session*.
-13. [S13] OMS AFRO (2010) et SEARO (2016). Guidelines for the management of snakebites. — *non vérifiées pendant la session*.
+11. [S11] OMS. Rabies vaccines: WHO position paper — April 2018. Wkly Epidemiol Rec. 2018;93(16):201-219. — *vérifiée à l'audit (catalogue REC-0531)*.
+12. [S12] OMS. Expert Consultation on Rabies, third report (TRS 1012), 2018. ISBN 9789241210218. — *vérifiée à l'audit (catalogue REC-0280)*.
+13. [S13] OMS SEARO. Guidelines for the management of snakebites, 2nd ed. 2016. — *vérifiée à l'audit (existence)* ; guide OMS-AFRO 2010 *non confirmé*.
 14. [S14] OMS. Snakebite envenoming: a strategy for prevention and control. 2019. — *non vérifiée pendant la session*.
 15. [S15] Stevens DL, et al. IDSA SSTI guidelines 2014 update. Clin Infect Dis. 2014. — *non vérifiée pendant la session*.
 16. [S16] Audebert F, et al. Classification des envenimations vipérines (grades 0–3). Toxicon. 1992. — *non vérifiée pendant la session*.

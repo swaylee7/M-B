@@ -568,7 +568,7 @@ Plus fréquent, plus intense, plus prolongé ; la barrière hémato-encéphaliqu
 ### 15.1 Prévention de l'allo-immunisation Rhésus
 
 - Détermination du **groupe et du Rhésus** et **RAI** chez toute femme enceinte, répétées chez la femme Rh négatif.
-- Injection d'**immunoglobulines anti-D** chez la femme **Rh négatif non immunisée** : dans les **72 heures** suivant l'accouchement d'un enfant **Rh positif** (dose standard de l'ordre de 1 500 UI, soit 300 µg, adaptée au test de Kleihauer) et après tout **événement potentiellement immunisant** (fausse couche, IVG, grossesse extra-utérine, amniocentèse, traumatisme abdominal, version par manœuvres externes, métrorragies) ; **prophylaxie systématique à 28 SA** dans de nombreux pays **[POSOLOGIE ET POLITIQUE NATIONALE À VÉRIFIER]**. Une fois la femme immunisée, la prophylaxie est **inutile** (surveillance spécialisée de la grossesse).
+- Injection d'**immunoglobulines anti-D** chez la femme **Rh négatif non immunisée** : dans les **72 heures** suivant l'accouchement d'un enfant **Rh positif** (dose standard de l'ordre de 1 500 UI, soit 300 µg, adaptée au test de Kleihauer) et après tout **événement potentiellement immunisant** (fausse couche, IVG, grossesse extra-utérine, amniocentèse, traumatisme abdominal, version par manœuvres externes, métrorragies) ; **prophylaxie systématique à 28 SA** dans de nombreux pays **[POSOLOGIE À VÉRIFIER — dose de la prophylaxie à 28 SA et politique nationale]**. Une fois la femme immunisée, la prophylaxie est **inutile** (surveillance spécialisée de la grossesse).
 
 ### 15.2 Prévention de l'hyperbilirubinémie sévère et de l'ictère nucléaire
 

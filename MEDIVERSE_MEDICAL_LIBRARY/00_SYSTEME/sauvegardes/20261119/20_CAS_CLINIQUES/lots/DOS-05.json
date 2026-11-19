@@ -1,0 +1,680 @@
+{
+  "agent": "DOS-05",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-PEDI-0001",
+      "titre": "Diarrhée aiguë et somnolence chez un nourrisson de 9 mois en été",
+      "niveau": "residanat",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon de 9 mois, nourri au lait artificiel, vivant en zone urbaine.",
+      "motif_consultation": "Diarrhée liquide et vomissements depuis 48 heures, enfant « mou » depuis le matin.",
+      "antecedents": "Né à terme, 3 200 g. Vaccinations à jour selon le carnet. Poids de 8,6 kg mesuré 10 jours auparavant. Depuis la veille, la mère a remplacé les biberons de lait par de l'eau sucrée et du thé.",
+      "symptomes": "8 à 10 selles liquides par jour sans sang, vomissements alimentaires, fièvre à 38,8 °C, diminution nette des couches mouillées.",
+      "examen_clinique": "Poids 7,8 kg. Somnolent mais réactif, hypotonique. Yeux très enfoncés, fontanelle déprimée, pli cutané persistant > 2 s, muqueuses sèches. FC 178/min, TRC 4 s, extrémités froides, pouls filants. FR 52/min, respiration ample. Pas de purpura, nuque souple, abdomen souple.",
+      "biologie": "Glycémie capillaire 3,6 mmol/L (N 3,9–5,5). Na 126 mmol/L (N 135–145), K 3,1 mmol/L (N 3,5–5), Cl 98 mmol/L, HCO3- 12 mmol/L (N 22–26), urée 11 mmol/L (N 2–6), créatinine 58 µmol/L (N 15–35 à cet âge).",
+      "imagerie": "Aucune imagerie nécessaire en première intention.",
+      "hypotheses_diagnostiques": [
+        "Déshydratation aiguë sévère avec signes de choc compliquant une gastro-entérite aiguë",
+        "Forme hyponatrémique (apports hypotoniques)"
+      ],
+      "diagnostics_differentiels": [
+        "Sepsis ou méningite",
+        "Invagination intestinale aiguë",
+        "Acidocétose diabétique",
+        "Insuffisance surrénale aiguë"
+      ],
+      "examens_a_demander": [
+        "Ionogramme sanguin, glycémie, urée-créatinine, gaz du sang",
+        "Bandelette urinaire",
+        "Contrôles ioniques à H4–H6"
+      ],
+      "diagnostic_final": "Déshydratation aiguë sévère hyponatrémique avec choc hypovolémique et insuffisance rénale fonctionnelle, sur gastro-entérite aiguë probablement virale.",
+      "traitement": "Oxygène, voie veineuse (intra-osseuse si échec), remplissage par Ringer lactate selon le plan C de l'OMS (30 mL/kg en 1 h puis 70 mL/kg en 5 h chez le nourrisson < 12 mois) avec réévaluation toutes les 15 minutes ; apport glucosé ; potassium après reprise de la diurèse ; relais par SRO à osmolarité réduite dès que l'enfant boit ; zinc 20 mg/j pendant 10 à 14 jours ; reprise du lait habituel non dilué.",
+      "surveillance": "Conscience, FC, TRC, FR, diurèse, poids à H4–H6, ionogramme à H4–H6 puis toutes les 6–12 h, signes de surcharge.",
+      "evolution": "TRC à 2 s et FC à 150/min après 1 h ; miction à H2 ; SRO bu à H4 ; à H6 : 8,4 kg, natrémie 133 mmol/L, plus de signe de déshydratation : passage au plan A.",
+      "explication_pedagogique": "La perte de poids calculée (≈ 9 %) sous-estime la gravité : les signes de choc imposent le plan C. Les boissons hypotoniques (eau sucrée, thé) pendant une diarrhée riche en sodium favorisent l'hyponatrémie, qui majore la déshydratation extracellulaire. Il faut réévaluer et reclasser à chaque étape.",
+      "questions": [
+        {
+          "question": "Quelle est la gravité de la déshydratation ?",
+          "reponse": "Sévère avec choc (TRC 4 s, extrémités froides, somnolence) : plan C."
+        },
+        {
+          "question": "Quel mécanisme explique l'hyponatrémie ?",
+          "reponse": "Pertes sodées digestives compensées par des boissons hypotoniques (eau sucrée, thé)."
+        },
+        {
+          "question": "Quand ajouter le potassium ?",
+          "reponse": "Après la reprise de la diurèse."
+        },
+        {
+          "question": "Quels messages éducatifs donner ?",
+          "reponse": "SRO après chaque selle liquide (50–100 mL), ne pas remplacer le lait par de l'eau sucrée ou du thé, signes d'alerte."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. The treatment of diarrhoea, 4e révision (non vérifiée en session)",
+          "date": "2005"
+        },
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-PEDI-0002",
+      "titre": "Irritabilité et convulsion chez un nourrisson de 2 mois déshydraté en période de canicule",
+      "niveau": "dems",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille de 2 mois, nourrie au lait artificiel.",
+      "motif_consultation": "Diarrhée depuis 3 jours, fièvre, cri inhabituel et un épisode de mouvements cloniques du membre supérieur droit.",
+      "antecedents": "Née à terme, 3 000 g. Pour « mieux la nourrir », les parents ajoutent une mesurette supplémentaire dans chaque biberon depuis 2 semaines. Canicule, enfant couverte.",
+      "symptomes": "Selles liquides (6/j), fièvre à 39 °C, boit avidement, irritabilité, cri aigu.",
+      "examen_clinique": "Poids 4,3 kg (4,8 kg 5 jours avant). Irritable, hypertonique, cri aigu ; fontanelle normotendue à légèrement déprimée ; muqueuses très sèches ; peau pâteuse ; pli cutané peu marqué ; FC 170/min ; TRC 2 s ; température 38,9 °C.",
+      "biologie": "Na 164 mmol/L (N 135–145), K 4,6 mmol/L, Cl 128 mmol/L, HCO3- 17 mmol/L, glycémie 9,2 mmol/L, calcémie 2,02 mmol/L (N 2,2–2,6), urée 14 mmol/L, créatinine 62 µmol/L. Osmolalité calculée ≈ 351 mOsm/kg.",
+      "imagerie": "Échographie transfontanellaire : pas d'hémorragie visible ; IRM à discuter si signes focaux persistants.",
+      "hypotheses_diagnostiques": [
+        "Déshydratation hypernatrémique (≈ 10 %) avec convulsion",
+        "Rôle des biberons trop concentrés, de la fièvre et de la chaleur"
+      ],
+      "diagnostics_differentiels": [
+        "Méningite bactérienne",
+        "Thrombose veineuse cérébrale",
+        "Hémorragie intracrânienne (y compris traumatique)",
+        "Hypocalcémie, hypoglycémie"
+      ],
+      "examens_a_demander": [
+        "Ionogramme toutes les 4 h au début",
+        "Calcémie, glycémie",
+        "Ponction lombaire si l'état le permet (fièvre + convulsion)",
+        "Imagerie cérébrale si signes focaux"
+      ],
+      "diagnostic_final": "Déshydratation aiguë hypernatrémique (Na 164 mmol/L) compliquée d'une convulsion, favorisée par des biberons trop concentrés.",
+      "traitement": "Pas de choc : correction lente du déficit sur 48 heures, de préférence par voie entérale (SRO par sonde nasogastrique à débit régulier) ou par soluté isotonique glucosé IV ; objectif de baisse de la natrémie ≤ 10–12 mmol/L par 24 h ; correction de l'hypocalcémie si symptomatique ; antibiothérapie probabiliste jusqu'aux résultats de la PL si elle est indiquée ; reprise d'un lait correctement reconstitué.",
+      "surveillance": "Natrémie, glycémie, calcémie toutes les 4–6 h, poids, diurèse, état neurologique (toute convulsion pendant la correction fait suspecter un œdème cérébral).",
+      "evolution": "Natrémie 157 à H12, 152 à H24, 144 à H48 ; pas de nouvelle convulsion ; examen neurologique normal à la sortie ; suivi neurodéveloppemental programmé.",
+      "explication_pedagogique": "Dans l'hypernatrémie, le pli cutané est peu marqué et les signes neurologiques dominent. Le cerveau s'est adapté (osmoles idiogéniques) : une correction rapide expose à l'œdème cérébral. L'erreur de reconstitution des biberons est une cause classique à rechercher par l'interrogatoire.",
+      "questions": [
+        {
+          "question": "Pourquoi la gravité est-elle sous-estimée ?",
+          "reponse": "Le secteur extracellulaire est relativement préservé ; le pli est peu marqué."
+        },
+        {
+          "question": "Quelle vitesse de correction ?",
+          "reponse": "Baisse de la natrémie ≤ 10–12 mmol/L par 24 h, déficit corrigé sur 48 h."
+        },
+        {
+          "question": "Quelle erreur de puériculture rechercher ?",
+          "reponse": "Biberons trop concentrés (une mesurette rase pour 30 mL d'eau pour la plupart des laits)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "ESPGHAN/ESPID — gastro-entérite aiguë de l'enfant, JPGN 2014;59:132-152 (non vérifiée en session)",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-PEDI-0003",
+      "titre": "Rattrapage vaccinal d'une enfant de 13 mois dont le frère est sous chimiothérapie",
+      "niveau": "generaliste",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille de 13 mois.",
+      "motif_consultation": "Rhinopharyngite fébrile ; vaccins de 11 et 12 mois non faits.",
+      "antecedents": "BCG et hépatite B à la naissance ; hexavalent + pneumocoque (+ VPO à 4 mois) faits à 2 et 4 mois. Fièvre à 38,5 °C et douleur de cuisse 24 h après la dose de 4 mois. Frère de 5 ans traité par chimiothérapie pour leucémie aiguë lymphoblastique.",
+      "symptomes": "Rhinorrhée claire, fièvre à 38,2 °C depuis 24 h, bon état général.",
+      "examen_clinique": "Enfant joueuse, tympans normaux, auscultation normale, cicatrice de BCG présente, croissance harmonieuse.",
+      "biologie": "Aucune biologie nécessaire.",
+      "imagerie": "Aucune.",
+      "hypotheses_diagnostiques": [
+        "Rhinopharyngite virale bénigne",
+        "Retard de calendrier vaccinal"
+      ],
+      "diagnostics_differentiels": [
+        "Otite moyenne aiguë (éliminée par l'examen)"
+      ],
+      "examens_a_demander": [
+        "Aucun examen avant vaccination"
+      ],
+      "diagnostic_final": "Enfant en retard de calendrier, sans contre-indication vraie, vivant au contact d'un immunodéprimé.",
+      "traitement": "Vacciner le jour même (co-administration, sites différents) : ROR (1re dose), rappel hexavalent (DTCa-VPI-Hib-VHB) et pneumococcique de 12 mois ; ne pas administrer le VPO (excrétion du virus vaccinal, risque pour le frère immunodéprimé), la protection antipoliomyélitique étant assurée par le VPI ; ROR2 programmé à 18 mois (≥ 4 semaines d'intervalle) ; antipyrétique si fièvre mal tolérée.",
+      "surveillance": "Observation 15–30 min ; information sur la fièvre possible à 48 h (hexavalent) et entre J5 et J12 (ROR).",
+      "evolution": "Fièvre à 38,4 °C le lendemain, résolutive ; éruption discrète à J8 sans complication ; ROR2 fait à 18 mois.",
+      "explication_pedagogique": "Rhinopharyngite fébrile, réaction locale antérieure et « enfant souvent malade » sont de fausses contre-indications. Le VPO est contre-indiqué en cas d'immunodépression de l'enfant ou de son entourage ; le ROR de l'enfant est au contraire recommandé pour protéger le frère (cocooning).",
+      "questions": [
+        {
+          "question": "La rhinopharyngite contre-indique-t-elle la vaccination ?",
+          "reponse": "Non, maladie bénigne : vacciner."
+        },
+        {
+          "question": "Quels vaccins sont dus à 13 mois selon le calendrier algérien ?",
+          "reponse": "ROR1 (11 mois) et rappel hexavalent + pneumocoque + VPO (12 mois)."
+        },
+        {
+          "question": "Pourquoi éviter le VPO ici ?",
+          "reponse": "Le virus vaccinal est excrété et peut infecter le frère immunodéprimé."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "Arrêté du 28 avril 2026 complétant l'arrêté du 3 juillet 2018, JORADP n° 36 du 17 mai 2026 (DOC-00071)",
+          "date": "2026"
+        },
+        {
+          "reference": "CDC/ACIP. General Best Practice Guidelines for Immunization (non vérifiée en session)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-PEDI-0004",
+      "titre": "BCG à la maternité chez un nouveau-né dont le frère est décédé d'une infection disséminée",
+      "niveau": "residanat",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nouveau-né de sexe masculin, J1, parents cousins germains.",
+      "motif_consultation": "Vaccinations de naissance avant la sortie de maternité.",
+      "antecedents": "Un frère aîné décédé à 7 mois d'une « tuberculose généralisée » apparue après le BCG, avec infections pulmonaires répétées et diarrhée chronique ; aucune exploration immunologique réalisée. Grossesse normale, mère AgHBs négative.",
+      "symptomes": "Aucun.",
+      "examen_clinique": "Nouveau-né à terme, eutrophe, examen normal.",
+      "biologie": "NFS de contrôle demandée : lymphocytes 1 100/mm3 (valeurs usuelles néonatales nettement plus élevées, > 2 500–3 000/mm3).",
+      "imagerie": "Aucune.",
+      "hypotheses_diagnostiques": [
+        "Déficit immunitaire primitif familial (déficit immunitaire combiné sévère ou déficit de l'axe IL-12/IFN-γ)",
+        "BCGite disséminée chez le frère"
+      ],
+      "diagnostics_differentiels": [
+        "Lymphopénie transitoire (stress, infection)",
+        "Tuberculose congénitale (contexte maternel)"
+      ],
+      "examens_a_demander": [
+        "Immunophénotypage lymphocytaire (CD3, CD4, CD8, CD19, NK)",
+        "Dosage pondéral des immunoglobulines",
+        "Avis d'immunologie pédiatrique",
+        "Enquête génétique familiale"
+      ],
+      "diagnostic_final": "Suspicion de déficit immunitaire primitif sévère : contre-indication du BCG et des vaccins vivants dans l'attente du bilan.",
+      "traitement": "Différer le BCG (et ne pas administrer de VPO) ; administrer le vaccin contre l'hépatite B (inactivé, recombinant) ; vaccins inactivés selon le calendrier ; orientation vers un centre d'immunologie ; information de la famille ; signaler le contexte dans le carnet.",
+      "surveillance": "Croissance, infections, résultats du bilan immunologique ; produits sanguins irradiés si transfusion nécessaire.",
+      "evolution": "L'immunophénotypage confirme un déficit immunitaire combiné sévère ; l'enfant est orienté vers une greffe de cellules souches hématopoïétiques ; le BCG est définitivement contre-indiqué jusqu'à la reconstitution immunitaire.",
+      "explication_pedagogique": "Le BCG systématique à la naissance (arrêté du 3 juillet 2018) ne doit pas faire oublier ses contre-indications : un antécédent familial de déficit immunitaire ou de BCGite disséminée, surtout en contexte de consanguinité, impose de différer le BCG et les vaccins vivants et d'explorer l'immunité.",
+      "questions": [
+        {
+          "question": "Quel vaccin de naissance administrer ?",
+          "reponse": "Le vaccin contre l'hépatite B (inactivé) ; différer le BCG."
+        },
+        {
+          "question": "Quel examen simple oriente vers un déficit combiné sévère ?",
+          "reponse": "La lymphocytose totale (lymphopénie profonde)."
+        },
+        {
+          "question": "Quelle complication du BCG est évocatrice d'un déficit immunitaire ?",
+          "reponse": "La BCGite disséminée."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. BCG vaccines: WHO position paper (non vérifiée en session)",
+          "date": "2018"
+        },
+        {
+          "reference": "CDC/ACIP. General Best Practice Guidelines for Immunization (non vérifiée en session)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-PEDI-0005",
+      "titre": "Œdèmes et lésions cutanées chez une enfant de 22 mois sevrée brutalement",
+      "niveau": "residanat",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille de 22 mois.",
+      "motif_consultation": "Œdèmes des membres inférieurs depuis 10 jours.",
+      "antecedents": "Sevrage brutal à 18 mois à la naissance d'un cadet ; alimentation depuis à base de pain trempé dans du thé sucré et de bouillies de semoule ; diarrhée il y a 3 semaines ; ROR de 18 mois non fait.",
+      "symptomes": "Apathie, anorexie, irritabilité au toucher, œdèmes.",
+      "examen_clinique": "Poids 8,9 kg, taille 79 cm, PB 118 mm, température rectale 35,8 °C, FC 128/min, FR 34/min. Œdèmes bilatéraux prenant le godet des pieds, jambes et avant-bras (++), visage bouffi ; cheveux clairsemés et décolorés ; plaques hyperpigmentées desquamatives des cuisses et du siège ; hépatomégalie à 3 cm ; refus de l'ATPE au test d'appétit.",
+      "biologie": "Glycémie capillaire 2,8 mmol/L (N > 3,9). Albumine 18 g/L (N 35–50). Na 131 mmol/L, K 2,9 mmol/L (N 3,5–5), phosphore 1,1 mmol/L (N 1,3–2,1), Mg 0,62 mmol/L (N 0,7–1). Hb 8,9 g/dL. CRP 24 mg/L. Bandelette urinaire : protéinurie négative.",
+      "imagerie": "Radiographie thoracique : pas de foyer.",
+      "hypotheses_diagnostiques": [
+        "Malnutrition aiguë sévère œdémateuse (kwashiorkor) compliquée"
+      ],
+      "diagnostics_differentiels": [
+        "Syndrome néphrotique (protéinurie négative)",
+        "Insuffisance cardiaque",
+        "Entéropathie exsudative",
+        "Insuffisance hépatocellulaire"
+      ],
+      "examens_a_demander": [
+        "Hémoculture, ECBU",
+        "Recherche de tuberculose",
+        "Examen parasitologique des selles",
+        "Sérologie VIH selon le contexte",
+        "Surveillance phosphore, potassium, magnésium"
+      ],
+      "diagnostic_final": "Kwashiorkor (MAS œdémateuse ++) compliqué d'hypoglycémie, d'hypothermie limite et d'échec du test d'appétit.",
+      "traitement": "Protocole OMS en 10 étapes : 50 mL de glucose 10 % per os/sonde puis F-75 toutes les 2 h jour et nuit (130 mL/kg/j ; 100 mL/kg/j si les œdèmes deviennent +++) ; réchauffement (peau à peau) ; antibiothérapie systématique (ampicilline puis amoxicilline + gentamicine, posologies à vérifier) ; pas de diurétique, pas de perfusion, pas de fer en stabilisation ; acide folique, micronutriments ; vaccination ROR ; transition F-100/ATPE au retour de l'appétit.",
+      "surveillance": "Poids quotidien, stade des œdèmes, température, FC/FR toutes les 4 h, glycémie, ionogramme, phosphore, apports à chaque repas.",
+      "evolution": "Appétit revenu à J4, fonte des œdèmes (poids 8,3 kg à J5) ; gain de 12 g/kg/j en réhabilitation ; sortie vers le suivi ambulatoire avec ATPE ; guérison (PB ≥ 125 mm, absence d'œdèmes depuis 2 semaines) à S7.",
+      "explication_pedagogique": "Les œdèmes définissent la MAS quel que soit le P/T ; hypoglycémie et hypothermie sont des urgences silencieuses ; la perte de poids initiale par fonte des œdèmes n'est pas un échec ; la bandelette urinaire écarte le syndrome néphrotique.",
+      "questions": [
+        {
+          "question": "Pourquoi le poids est-il trompeur ?",
+          "reponse": "Les œdèmes majorent le poids."
+        },
+        {
+          "question": "Pourquoi pas de diurétique ?",
+          "reponse": "Les œdèmes se résorbent avec la renutrition ; les diurétiques aggravent les troubles électrolytiques et l'hypovolémie."
+        },
+        {
+          "question": "Quel examen simple élimine un syndrome néphrotique ?",
+          "reponse": "La bandelette urinaire (protéinurie)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "OMS. Updates on the management of severe acute malnutrition (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-PEDI-0006",
+      "titre": "Marasme d'un nourrisson de 10 mois et détresse respiratoire au troisième jour de renutrition",
+      "niveau": "dems",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon de 10 mois, famille en grande précarité.",
+      "motif_consultation": "Amaigrissement important et diarrhée prolongée.",
+      "antecedents": "Allaitement arrêté à 2 mois ; laits artificiels dilués « pour faire durer la boîte » ; diarrhées répétées.",
+      "symptomes": "Diarrhée depuis 3 semaines, enfant affamé, pleurs.",
+      "examen_clinique": "Poids 5,4 kg, longueur 70 cm (P/T < −3 z), PB 104 mm, pas d'œdème ; fonte musculaire et graisseuse extrême, « fesses en culotte flottante », faciès de vieillard ; température rectale 35,3 °C ; FC 132/min ; FR 36/min ; enfant éveillé.",
+      "biologie": "Glycémie 2,9 mmol/L (N > 3,9). Na 133 mmol/L, K 3,0 mmol/L, phosphore 1,0 mmol/L (N 1,3–2,1), Mg 0,66 mmol/L. Hb 9,4 g/dL. À J3 : phosphore 0,45 mmol/L, K 2,6 mmol/L.",
+      "imagerie": "Radiographie thoracique à J3 : cardiomégalie modérée, surcharge vasculaire discrète.",
+      "hypotheses_diagnostiques": [
+        "Marasme (MAS non œdémateuse) compliqué d'hypothermie et d'hypoglycémie",
+        "À J3 : syndrome de renutrition inappropriée avec surcharge"
+      ],
+      "diagnostics_differentiels": [
+        "Malnutrition secondaire (maladie cœliaque, mucoviscidose, infection chronique, VIH, tuberculose)",
+        "Pneumopathie nosocomiale",
+        "Insuffisance cardiaque d'autre origine"
+      ],
+      "examens_a_demander": [
+        "Phosphore, potassium, magnésium quotidiens les premiers jours",
+        "Hémoculture, ECBU",
+        "Recherche de tuberculose, sérologie VIH selon contexte",
+        "Test de la sueur à distance si suspicion",
+        "Anticorps anti-transglutaminase si gluten introduit"
+      ],
+      "diagnostic_final": "Marasme compliqué ; syndrome de renutrition (hypophosphatémie, hypokaliémie) avec surcharge volémique à J3, favorisé par une augmentation trop rapide des apports.",
+      "traitement": "Stabilisation : correction de l'hypoglycémie, réchauffement, F-75, antibiothérapie, ReSoMal si déshydratation. À J3 : réduction des apports au niveau F-75 de départ, arrêt des apports liquidiens supplémentaires, supplémentation en phosphore et potassium selon protocole, thiamine (posologies à vérifier), puis reprise progressive ; transition F-100/ATPE une fois stabilisé.",
+      "surveillance": "FR et FC toutes les 4 h (alerte : FR + 5/min, FC + 25/min), poids, œdèmes, électrolytes quotidiens, glycémie.",
+      "evolution": "Normalisation du phosphore à J5 ; reprise de la progression ; gain de 11 g/kg/j en réhabilitation ; éducation nutritionnelle et orientation sociale.",
+      "explication_pedagogique": "L'adaptation réductive impose une renutrition prudente : une augmentation trop rapide provoque un syndrome de renutrition (hypophosphatémie, hypokaliémie, rétention hydrosodée, insuffisance cardiaque). La surveillance de la FR et de la FC pendant la transition est un outil simple de détection.",
+      "questions": [
+        {
+          "question": "Quels signes cliniques alertent sur une surcharge pendant la transition ?",
+          "reponse": "Augmentation de la FR ≥ 5/min et de la FC ≥ 25/min, œdèmes, hépatomégalie, crépitants."
+        },
+        {
+          "question": "Quel trouble biologique caractérise le syndrome de renutrition ?",
+          "reponse": "L'hypophosphatémie (avec hypokaliémie, hypomagnésémie)."
+        },
+        {
+          "question": "Quelle cause secondaire de marasme rechercher au Maghreb ?",
+          "reponse": "Notamment la maladie cœliaque (et mucoviscidose, tuberculose, VIH)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "OMS. Updates on the management of severe acute malnutrition (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mehanna HM et al. Refeeding syndrome, BMJ 2008 (non vérifiée en session)",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEON-0001",
+      "titre": "Ictère à 20 heures de vie chez un nouveau-né à terme",
+      "niveau": "residanat",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nouveau-né de sexe masculin, 39 SA, 3 350 g, allaitement exclusif.",
+      "motif_consultation": "Ictère du visage et du thorax noté à 20 heures de vie.",
+      "antecedents": "Mère O Rh positif, RAI négatives ; grossesse et accouchement normaux ; Apgar 9/10.",
+      "symptomes": "Ictère ; tétées efficaces.",
+      "examen_clinique": "Ictère jusqu'à l'ombilic, pas de pâleur, foie à 2 cm, rate non palpable, pas de céphalhématome, examen neurologique normal.",
+      "biologie": "Bilirubine totale 10,5 mg/dL (≈ 180 µmol/L) à 20 h. Enfant A Rh positif. Coombs direct faiblement positif. Hb 14,2 g/dL (N 14–22), réticulocytes 9 % (N 3–7), microsphérocytes. G6PD normale (à recontrôler à distance). Bilirubine conjuguée 0,4 mg/dL.",
+      "imagerie": "Aucune.",
+      "hypotheses_diagnostiques": [
+        "Maladie hémolytique par incompatibilité ABO"
+      ],
+      "diagnostics_differentiels": [
+        "Déficit en G6PD",
+        "Sphérocytose héréditaire",
+        "Infection néonatale",
+        "Autre allo-immunisation (anticorps irréguliers)"
+      ],
+      "examens_a_demander": [
+        "Bilirubine sérique à 4–6 h",
+        "NFS, réticulocytes de contrôle",
+        "Albuminémie",
+        "G6PD à distance"
+      ],
+      "diagnostic_final": "Hyperbilirubinémie non conjuguée précoce par incompatibilité ABO (mère O, enfant A), facteur de risque de neurotoxicité.",
+      "traitement": "Photothérapie intensive immédiate (≥ 30 µW/cm²/nm, surface maximale, protection oculaire), allaitement maintenu ; contrôle de la bilirubine à 4–6 h ; IgIV 0,5–1 g/kg en 2 h si la bilirubine continue de monter et atteint le seuil d'escalade (posologie à vérifier) ; préparation d'une exsanguinotransfusion si le seuil est atteint.",
+      "surveillance": "Bilirubine sérique selon la cinétique, température, hydratation, poids ; contrôle du rebond après arrêt ; NFS à 2–3 semaines (anémie tardive).",
+      "evolution": "Bilirubine 11,2 mg/dL à 26 h puis 10,1 à 40 h ; arrêt à 60 h (8,6 mg/dL) ; rebond à 9,4 mg/dL ; sortie à J4 avec consultation à J5–J6.",
+      "explication_pedagogique": "Tout ictère avant 24 h est pathologique et impose un bilan d'hémolyse. L'incompatibilité ABO peut survenir dès le premier enfant, avec un Coombs direct faiblement positif. Les seuils dépendent de l'âge en heures, de l'âge gestationnel et des facteurs de neurotoxicité (iso-immunisation).",
+      "questions": [
+        {
+          "question": "L'ictère est-il physiologique ?",
+          "reponse": "Non : apparu avant 24 h."
+        },
+        {
+          "question": "Quels arguments pour l'incompatibilité ABO ?",
+          "reponse": "Mère O, enfant A, Coombs faiblement positif, microsphérocytes, réticulocytose."
+        },
+        {
+          "question": "Quand discuter les IgIV ?",
+          "reponse": "Si la bilirubine augmente malgré la photothérapie intensive et approche du seuil d'exsanguinotransfusion."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "AAP. Hyperbilirubinemia ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Kemper AR et al. AAP 2022 revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEON-0002",
+      "titre": "Nouveau-né de 5 jours très ictérique et hypertonique après une sortie précoce",
+      "niveau": "dems",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nouveau-né de sexe masculin, 38 SA, 3 050 g, sorti de maternité à 36 heures de vie.",
+      "motif_consultation": "Ictère intense, refus de téter et cri inhabituel à J5.",
+      "antecedents": "Allaitement exclusif ; un oncle maternel « allergique aux fèves » ; la mère a consommé des fèves la veille ; vêtements de l'enfant rangés avec de la naphtaline. Aucune mesure de bilirubine avant la sortie.",
+      "symptomes": "Ictère généralisé, somnolence alternant avec irritabilité, cri aigu, refus de téter depuis quelques heures.",
+      "examen_clinique": "Ictère jusqu'aux paumes et plantes, pâleur modérée ; hypertonie des extenseurs avec rétrocolis intermittent ; température 38,2 °C ; perte de poids 9 % ; selles colorées.",
+      "biologie": "Bilirubine totale 27,5 mg/dL (≈ 470 µmol/L), conjuguée 0,6 mg/dL. Hb 11,8 g/dL, réticulocytes 6 %. Coombs direct négatif. Albumine 2,9 g/dL. Groupes mère et enfant O Rh positif. Activité G6PD dans les limites basses de la normale (prélevée en pleine hémolyse).",
+      "imagerie": "IRM cérébrale à distance si séquelles suspectées (hypersignal des globus pallidus).",
+      "hypotheses_diagnostiques": [
+        "Hyperbilirubinémie sévère avec encéphalopathie bilirubinique aiguë de phase intermédiaire",
+        "Hémolyse sur déficit en G6PD (fèves, naphtaline)"
+      ],
+      "diagnostics_differentiels": [
+        "Méningite/sepsis",
+        "Sphérocytose héréditaire",
+        "Crigler-Najjar",
+        "Déshydratation par apports insuffisants associée"
+      ],
+      "examens_a_demander": [
+        "Bilirubine sérique toutes les 2–3 h",
+        "Bilan infectieux (hémoculture, CRP ; PL après stabilisation)",
+        "Dosage quantitatif de la G6PD à distance (≥ 2–3 mois)",
+        "Potentiels évoqués auditifs avant la sortie"
+      ],
+      "diagnostic_final": "Encéphalopathie bilirubinique aiguë sur hyperbilirubinémie extrême par hémolyse liée à un déficit probable en G6PD, aggravée par des apports insuffisants et une sortie précoce sans dépistage.",
+      "traitement": "Photothérapie intensive immédiate et continue, hydratation (IV si nécessaire), exsanguinotransfusion en urgence (double masse sanguine, sang irradié compatible) devant les signes neurologiques, sans attendre la baisse de la bilirubine ; antibiothérapie probabiliste jusqu'aux résultats du bilan infectieux en évitant la ceftriaxone ; éducation sur les facteurs déclenchants du déficit en G6PD.",
+      "surveillance": "Bilirubine, glycémie, calcémie, plaquettes pendant et après l'exsanguinotransfusion ; examen neurologique ; dépistage auditif ; suivi neurodéveloppemental prolongé.",
+      "evolution": "Bilirubine 13 mg/dL après l'exsanguinotransfusion ; disparition progressive de l'hypertonie ; PEA anormaux à droite ; suivi en neuropédiatrie et ORL ; déficit en G6PD confirmé à 3 mois.",
+      "explication_pedagogique": "L'absence d'évaluation du risque avant une sortie précoce et de suivi rapproché est la principale cause évitable d'ictère nucléaire. Les signes d'encéphalopathie intermédiaire imposent l'exsanguinotransfusion. Le dosage de G6PD peut être faussement normal pendant l'hémolyse.",
+      "questions": [
+        {
+          "question": "Quels signes d'encéphalopathie bilirubinique sont présents ?",
+          "reponse": "Cri aigu, hypertonie avec rétrocolis, fièvre, refus de téter (phase intermédiaire)."
+        },
+        {
+          "question": "Pourquoi l'exsanguinotransfusion est-elle indiquée ?",
+          "reponse": "Bilirubine au-dessus du seuil et signes neurologiques d'encéphalopathie aiguë."
+        },
+        {
+          "question": "Quelles mesures auraient pu prévenir cette situation ?",
+          "reponse": "Mesure de la bilirubine avant la sortie, évaluation du risque (antécédent familial de G6PD), suivi dans les 24–72 h, information sur les facteurs déclenchants."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "AAP. Hyperbilirubinemia ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Kemper AR et al. AAP 2022 revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEON-0003",
+      "titre": "Geignement et tachycardie à 5 heures de vie chez un nouveau-né de mère porteuse de streptocoque B",
+      "niveau": "residanat",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nouveau-né de sexe masculin, 38 SA, 3 200 g.",
+      "motif_consultation": "Geignement et polypnée à H5.",
+      "antecedents": "Mère primipare, prélèvement vaginal positif à SGB à 36 SA ; amoxicilline IV débutée 45 minutes avant la naissance ; rupture des membranes depuis 20 heures ; température maternelle maximale 38,4 °C.",
+      "symptomes": "Geignement, polypnée, difficultés à téter.",
+      "examen_clinique": "FR 72/min, tirage modéré, SpO2 91 % en air, FC 178/min, TRC 3 s, température 38,1 °C, tonus correct, fontanelle normotendue.",
+      "biologie": "CRP 8 mg/L à H0 (N < 10), 64 mg/L à H24, 21 mg/L à J4. Hémoculture positive à SGB à H18. LCR à H20 : 8 éléments/mm3, protéines 0,9 g/L, glucose normal, culture et PCR négatives. Glycémie 3,1 mmol/L.",
+      "imagerie": "Radiographie thoracique : opacités alvéolaires bilatérales discrètes.",
+      "hypotheses_diagnostiques": [
+        "Infection néonatale précoce à streptocoque du groupe B (pneumopathie, bactériémie)"
+      ],
+      "diagnostics_differentiels": [
+        "Retard de résorption du liquide pulmonaire",
+        "Maladie des membranes hyalines (peu probable à 38 SA)",
+        "Inhalation méconiale",
+        "Cardiopathie congénitale"
+      ],
+      "examens_a_demander": [
+        "Hémoculture (≥ 1 mL) avant antibiotiques",
+        "CRP H0 et H24–H48",
+        "Ponction lombaire dès stabilisation",
+        "Radiographie thoracique",
+        "Glycémie, gaz du sang"
+      ],
+      "diagnostic_final": "Bactériémie précoce à streptocoque B avec pneumopathie, sans méningite, chez un nouveau-né dont la mère porteuse de SGB n'a pas reçu d'antibioprophylaxie adéquate.",
+      "traitement": "Oxygénothérapie/ventilation non invasive, voie veineuse, apports glucosés ; hémoculture puis antibiothérapie immédiate amoxicilline + gentamicine (HAS 2017), céfotaxime discuté si aggravation ; après documentation : amoxicilline seule pour une durée totale d'environ 10 jours (à vérifier selon protocole) ; arrêt de la gentamicine.",
+      "surveillance": "Clinique rapprochée, SpO2, CRP, hémoculture de contrôle si nécessaire, taux résiduels de gentamicine, dépistage auditif.",
+      "evolution": "Amélioration en 48 heures, sevrage de l'oxygène à J3, sortie à J11.",
+      "explication_pedagogique": "Antibioprophylaxie inadéquate (< 4 h), rupture prolongée et fièvre maternelle forment un contexte à haut risque. La CRP initiale normale ne rassure pas ; l'hémoculture est l'examen clé et la PL est indispensable en cas de bactériémie. L'antécédent d'enfant infecté justifiera une antibioprophylaxie lors des accouchements suivants.",
+      "questions": [
+        {
+          "question": "L'antibioprophylaxie était-elle adéquate ?",
+          "reponse": "Non : débutée moins de 4 heures avant la naissance."
+        },
+        {
+          "question": "Pourquoi réaliser une PL ?",
+          "reponse": "Hémoculture positive : rechercher une méningite qui modifierait la posologie et la durée."
+        },
+        {
+          "question": "Quelle conséquence pour une grossesse ultérieure ?",
+          "reponse": "Antibioprophylaxie per partum systématique (antécédent d'enfant infecté par le SGB)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "HAS. Risque infectieux néonatal bactérien précoce ≥ 34 SA (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "NICE NG195. Neonatal infection (non vérifiée en session)",
+          "date": "2021"
+        },
+        {
+          "reference": "CDC. Prevention of perinatal GBS disease, MMWR 2010 (non vérifiée en session)",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEON-0004",
+      "titre": "Fièvre et bombement de la fontanelle chez un nourrisson de 3 semaines",
+      "niveau": "dems",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille de 21 jours, née à terme, sortie de maternité à J2.",
+      "motif_consultation": "Fièvre à 38,9 °C, refus de téter, irritabilité depuis 12 heures.",
+      "antecedents": "Grossesse non suivie en fin de terme (pas de dépistage du SGB) ; accouchement par voie basse sans antibioprophylaxie ; allaitement maternel ; pas d'herpès connu dans l'entourage.",
+      "symptomes": "Fièvre, irritabilité, gémissements, deux épisodes de vomissements.",
+      "examen_clinique": "Température 38,9 °C, FC 190/min, TRC 3 s, fontanelle bombante, hypotonie axiale, cri plaintif, pas de lésion cutanée ni de purpura.",
+      "biologie": "CRP 142 mg/L (N < 10), PCT 18 ng/mL (N < 0,5), GB 4 200/mm3, plaquettes 110 000/mm3. LCR : 850 éléments/mm3 (85 % polynucléaires), protéines 2,1 g/L, glycorachie 0,8 mmol/L (glycémie 5,6 mmol/L), cocci Gram positif en chaînettes à l'examen direct ; culture : SGB. ECBU stérile. PCR HSV dans le LCR négative.",
+      "imagerie": "Échographie transfontanellaire à J3 : pas d'abcès ni de dilatation ventriculaire ; IRM à discuter selon l'évolution.",
+      "hypotheses_diagnostiques": [
+        "Méningite bactérienne néonatale tardive à streptocoque B",
+        "Méningo-encéphalite herpétique (à éliminer)"
+      ],
+      "diagnostics_differentiels": [
+        "Méningite à E. coli",
+        "Méningite à Listeria",
+        "Méningite à entérovirus/paréchovirus",
+        "Infection urinaire avec réaction méningée"
+      ],
+      "examens_a_demander": [
+        "Hémocultures avant antibiotiques",
+        "PL (cytologie, biochimie, culture, PCR SGB/E. coli/entérovirus/HSV)",
+        "ECBU par sondage",
+        "Ionogramme (SIADH), glycémie",
+        "Imagerie cérébrale",
+        "Dépistage auditif à distance"
+      ],
+      "diagnostic_final": "Méningite tardive à streptocoque du groupe B.",
+      "traitement": "Antibiothérapie immédiate après prélèvements : amoxicilline à posologie méningée + céfotaxime à posologie méningée (± aminoside initial), avec aciclovir IV jusqu'au résultat négatif de la PCR HSV (posologies à vérifier) ; adaptation au germe : amoxicilline (ou pénicilline) pour au moins 14 jours ; restriction hydrique prudente si SIADH ; traitement des convulsions si besoin.",
+      "surveillance": "Clinique neurologique, périmètre crânien quotidien, natrémie, PL de contrôle selon l'évolution, imagerie cérébrale, potentiels évoqués auditifs, suivi neurodéveloppemental.",
+      "evolution": "Apyrexie à J3 ; échographie de contrôle normale ; arrêt du traitement à J14 ; dépistage auditif normal ; suivi neurodéveloppemental prévu jusqu'à l'âge scolaire.",
+      "explication_pedagogique": "Le SGB tardif (7 jours à 3 mois) se présente fréquemment sous forme de méningite et n'est pas prévenu par l'antibioprophylaxie per partum. L'antibiothérapie probabiliste doit couvrir SGB, E. coli et Listeria, et l'herpès néonatal doit être évoqué tant que la PCR n'est pas revenue.",
+      "questions": [
+        {
+          "question": "Pourquoi associer amoxicilline et céfotaxime en probabiliste ?",
+          "reponse": "Couvrir SGB, Listeria (amoxicilline) et E. coli (céfotaxime) à posologie méningée."
+        },
+        {
+          "question": "Quelle durée pour une méningite à SGB ?",
+          "reponse": "Au moins 14 jours."
+        },
+        {
+          "question": "Quelles séquelles dépister ?",
+          "reponse": "Surdité, épilepsie, hydrocéphalie, troubles du développement."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "NICE NG195. Neonatal infection (non vérifiée en session)",
+          "date": "2021"
+        },
+        {
+          "reference": "HAS. Risque infectieux néonatal bactérien précoce ≥ 34 SA (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 (MDO), JORADP n° 47 (DOC-00072)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}
