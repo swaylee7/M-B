@@ -93,21 +93,21 @@ sources:
     url: ""
     verifiee: true
   - id: S11
-    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence confirmée par le poste DOS-02 le 2026-11-19."
+    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence signalée comme confirmée par le poste DOS-02 le 2026-11-19 ; non reconfirmée dans la session DOS-09 (hôte .dz inaccessible, recherche web infructueuse)."
     organisme: "MSPRH / Ministère de la Santé (Algérie)"
     annee: 2024
     type: texte_officiel
     doi: ""
     url: "https://www.sapp.dz/wp-content/uploads/2024/03/Instrcution-tuberculose-latente.pdf"
-    verifiee: true
+    verifiee: false
   - id: S12
-    reference: "Ministère de la Santé, de la Population et de la Réforme Hospitalière / INSP. Programme national de lutte contre la tuberculose — Manuel de la lutte antituberculeuse à l'usage des personnels médicaux. Alger, édition 2011. Existence confirmée par le poste DOS-02 le 2026-11-19."
+    reference: "Ministère de la Santé, de la Population et de la Réforme Hospitalière / INSP. Programme national de lutte contre la tuberculose — Manuel de la lutte antituberculeuse à l'usage des personnels médicaux. Alger, édition 2011. Existence signalée comme confirmée par le poste DOS-02 le 2026-11-19 ; non reconfirmée dans la session DOS-09 (hôte .dz inaccessible, recherche web infructueuse)."
     organisme: "MSPRH / INSP"
     annee: 2011
     type: texte_officiel
     doi: ""
     url: "https://epspmesra.dz/pdf/manuel_tuber_2011.pdf"
-    verifiee: true
+    verifiee: false
   - id: S13
     reference: "Furer V, Rondaan C, Heijstek MW, et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis. 2020;79(1):39-52."
     organisme: EULAR
@@ -886,6 +886,6 @@ DEVANT UNE POLYARTHRITE RÉCENTE (≥ 3 articulations gonflées)
 8. **[S8]** Marmor MF, Kellner U, Lai TY, et al. Recommendations on screening for chloroquine and hydroxychloroquine retinopathy (2016 revision). *Ophthalmology.* 2016;123(6):1386-1394. doi:10.1016/j.ophtha.2016.01.058 — vérifiée (PMID 26992838).
 9. **[S9]** Slimani S, Abbas A, Ben Ammar A, et al. Characteristics of rheumatoid arthritis in Algeria: a multicenter study. *Rheumatol Int.* 2014;34(9):1235-1239. doi:10.1007/s00296-014-2981-7 — vérifiée (PMID 24633899 ; résumé lu).
 10. **[S10]** Slimani S, Ladjouze-Rezig A. Prevalence of rheumatoid arthritis in an urban population of Algeria: a prospective study. *Rheumatology (Oxford).* 2014;53(3):571-573. doi:10.1093/rheumatology/ket446 — existence vérifiée (PMID 24425779) ; chiffres non lus (pas de résumé) **[À VÉRIFIER]**.
-11. **[S11]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date exacts à vérifier). PDF diffusé par sapp.dz — existence confirmée par DOS-02 le 2026-11-19 ; contenu non relu dans cette session.
-12. **[S12]** MSPRH / INSP. Programme national de lutte contre la tuberculose — Manuel de la lutte antituberculeuse à l'usage des personnels médicaux. Alger, 2011 — existence confirmée par DOS-02 le 2026-11-19.
+11. **[S11]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date exacts à vérifier). PDF diffusé par sapp.dz — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.
+12. **[S12]** MSPRH / INSP. Programme national de lutte contre la tuberculose — Manuel de la lutte antituberculeuse à l'usage des personnels médicaux. Alger, 2011 — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 **[À VÉRIFIER]**.
 13. **[S13]** Furer V, Rondaan C, Heijstek MW, et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. *Ann Rheum Dis.* 2020;79(1):39-52. doi:10.1136/annrheumdis-2019-215882 — vérifiée (PMID 31413005).

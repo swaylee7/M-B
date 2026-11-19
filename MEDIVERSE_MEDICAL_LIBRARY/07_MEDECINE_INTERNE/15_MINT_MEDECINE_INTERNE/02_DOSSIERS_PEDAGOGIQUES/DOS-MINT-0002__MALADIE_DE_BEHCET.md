@@ -109,13 +109,13 @@ sources:
     url: ""
     verifiee: true
   - id: S13
-    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence confirmée par le poste DOS-02 le 2026-11-19."
+    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence signalée comme confirmée par le poste DOS-02 le 2026-11-19 ; non reconfirmée dans la session DOS-09 (hôte .dz inaccessible, recherche web infructueuse)."
     organisme: "Ministère de la Santé (Algérie)"
     annee: 2024
     type: texte_officiel
     doi: ""
     url: "https://www.sapp.dz/wp-content/uploads/2024/03/Instrcution-tuberculose-latente.pdf"
-    verifiee: true
+    verifiee: false
 mots_cles: [maladie de Behçet, aphtose bipolaire, pseudo-folliculite, test pathergique, HLA-B51, uvéite, vascularite de taille variable, thrombose veineuse, anévrisme artériel pulmonaire, neuro-Behçet, colchicine, azathioprine, anti-TNF, interféron alpha, critères ISG 1990, ICBD 2014, Algérie, Maghreb]
 ---
 
@@ -812,4 +812,4 @@ DEVANT UNE THROMBOSE VEINEUSE + HÉMOPTYSIE CHEZ UN HOMME JEUNE
 10. **[S10]** B'chir Hamzaoui S, Harmel A, Bouslama K, et al. La maladie de Behçet en Tunisie. Étude clinique de 519 cas. *Rev Med Interne.* 2006;27(10):742-750. doi:10.1016/j.revmed.2006.07.019 — vérifiée (PMID 16987570 ; résumé relu).
 11. **[S11]** B'chir-Hamzaoui S, Larbi T, Abdallah M, et al. Behçet's disease in Maghreb: Behcet Maghreb study about 1460 cases. *Rev Med Interne.* 2009;30(Suppl 4):S229-S231. doi:10.1016/j.revmed.2009.09.019 — existence vérifiée (PMID 19913958) ; contenu non relu.
 12. **[S12]** Fragoulis GE, Nikiphorou E, Dey M, et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with AIIRD. *Ann Rheum Dis.* 2023;82(6):742-753. doi:10.1136/ard-2022-223335 — vérifiée (PMID 36328476).
-13. **[S13]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence confirmée par DOS-02 le 2026-11-19 ; contenu non relu.
+13. **[S13]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.

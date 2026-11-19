@@ -1,9 +1,59 @@
 {
   "id": "DOS-09",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19T02:35:04+00:00",
+  "taches_terminees": [
+    "DOS-RHUM-0001 (RES-MED-099, polyarthrite rhumatoïde)",
+    "DOS-RHUM-0002 (RES-MED-100, pelvispondylite rhumatismale / SpA axiale)",
+    "DOS-MINT-0001 (RES-MED-101 + RES-MED-154, lupus érythémateux systémique)",
+    "DOS-MINT-0002 (RES-MED-158, maladie de Behçet)",
+    "DOS-DERM-0001 (RES-MED-011, psoriasis)",
+    "lot QCM DOS-09 (70)",
+    "lot cas DOS-09 (11)",
+    "validation JSON/YAML"
+  ],
+  "taches_suivantes": [
+    "Audit (AUD-xx) : relire l'instruction ministérielle algérienne ITL 2024 et le manuel PNLAT 2011 (hôtes .dz inaccessibles depuis DOS-09) puis passer verifiee à true et préciser schémas/délais avant biothérapie",
+    "Confronter toutes les mentions [POSOLOGIE À VÉRIFIER] aux RCP et protocoles locaux (corticothérapie, AINS, léflunomide, sulfasalazine, colchicine, azathioprine, ciclosporine, acitrétine, aprémilast, mycophénolate, cyclophosphamide, biothérapies)",
+    "Relire le texte intégral : PNDS HAS lupus 2024, PNDS HAS Behçet 2019, EuroGuiDerm vivant 2023/2025, KDIGO 2024, ASAS-EULAR 2022 (formulations marquées [À VÉRIFIER])",
+    "Lire Slimani & Ladjouze-Rezig 2014 (prévalence PR Algérie), étude PROSPA 2026 et Behçet Maghreb 2009 pour intégrer les chiffres",
+    "Vérifier la référence Ioannina 2007 (cas CAS-RHUM-0904 ; Europe PMC indisponible lors de la session)"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm_min_par_item": 12,
+    "cas_par_item": 2,
+    "remarque": "QCM et cas du lupus tagués sur RES-MED-101 et RES-MED-154 (dossier commun)"
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 70,
+    "qcm_par_item": {
+      "RES-MED-099": 14,
+      "RES-MED-100": 13,
+      "RES-MED-101": 16,
+      "RES-MED-154": 16,
+      "RES-MED-158": 13,
+      "RES-MED-011": 14
+    },
+    "cas": 11,
+    "cas_par_item": {
+      "RES-MED-099": 2,
+      "RES-MED-100": 2,
+      "RES-MED-101": 3,
+      "RES-MED-154": 3,
+      "RES-MED-158": 2,
+      "RES-MED-011": 2
+    },
+    "mots": {
+      "DOS-RHUM-0001": 10911,
+      "DOS-RHUM-0002": 8811,
+      "DOS-MINT-0001": 9887,
+      "DOS-MINT-0002": 8000,
+      "DOS-DERM-0001": 8459
+    },
+    "sources_verifiees": 61,
+    "sources_non_verifiees": 6,
+    "mots_methode": "wc -w (locale UTF-8), en-tête YAML inclus"
+  }
 }

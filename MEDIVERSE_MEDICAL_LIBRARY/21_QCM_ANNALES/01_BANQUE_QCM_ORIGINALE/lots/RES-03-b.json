@@ -1,0 +1,661 @@
+{
+  "agent": "RES-03",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-CARD-3127",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 28 ans présente depuis 2 jours une douleur thoracique, quelques jours après un épisode grippal. Concernant le diagnostic de péricardite aiguë, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La douleur est typiquement augmentée à l'inspiration profonde et en décubitus, et soulagée par l'antéflexion.",
+        "B": "Un frottement péricardique est très spécifique mais inconstant.",
+        "C": "L'ECG peut montrer un sus-décalage diffus et concave du segment ST, sans image en miroir, et un sous-décalage du segment PR.",
+        "D": "L'absence d'épanchement péricardique à l'échocardiographie élimine le diagnostic.",
+        "E": "Une élévation de la troponine oriente vers une atteinte myocardique associée (myopéricardite)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le diagnostic de péricardite aiguë repose classiquement sur au moins deux critères parmi : douleur thoracique typique, frottement péricardique, modifications ECG évocatrices et épanchement péricardique nouveau ou aggravé. Les marqueurs inflammatoires (CRP) et l'imagerie appuient le diagnostic. Les recommandations ESC 2025 traitent conjointement myocardite et péricardite en tant que syndromes inflammatoires myopéricardiques. Le principal diagnostic différentiel est le syndrome coronarien aigu avec sus-décalage du ST.",
+      "explications_par_proposition": {
+        "A": "Vrai : La douleur péricardique est positionnelle et respiratoire, soulagée penché en avant.",
+        "B": "Vrai : Le frottement est pathognomonique mais fugace et inconstant ; il faut le rechercher de façon répétée.",
+        "C": "Vrai : Le sus-décalage ST diffus, concave vers le haut, sans miroir (sauf en aVR et V1), et le sous-décalage PR sont évocateurs ; l'évolution se fait en plusieurs stades.",
+        "D": "Faux : L'épanchement est inconstant ; son absence n'élimine pas une péricardite, le diagnostic reposant sur au moins deux critères cliniques et ECG.",
+        "E": "Vrai : L'élévation de la troponine traduit une atteinte myocardique (syndrome inflammatoire myopéricardique), qui justifie une surveillance et une évaluation complémentaire, voire une IRM cardiaque."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-054"
+      ],
+      "theme": "Péricardite aiguë — diagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Récuser une péricardite en l'absence d'épanchement à l'échocardiographie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC — 2025 ESC Guidelines for the management of myocarditis and pericarditis (2025) [catalogue REC-0224]",
+          "date": "2025-10"
+        },
+        {
+          "reference": "ESC — 2015 ESC Guidelines for the diagnosis and management of pericardial diseases (2015) [catalogue REC-0223]",
+          "date": "2015-08"
+        },
+        {
+          "reference": "Zipes Douglas P, Libby Peter, Bonow Robert O et al. Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine. 11e éd. Elsevier ; 2019 [catalogue OUV-0319].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3128",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les étiologies et l'évolution des péricardites aiguës, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les péricardites virales ou idiopathiques sont les plus fréquentes dans les pays industrialisés.",
+        "B": "La tuberculose est une cause importante dans les régions de forte endémie et expose à l'évolution vers la constriction.",
+        "C": "La tamponnade se traduit par une bradycardie avec hypertension artérielle.",
+        "D": "Les récidives sont fréquentes, et la colchicine réduit leur risque.",
+        "E": "Une corticothérapie de première intention réduit le risque de récidive."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les péricardites aiguës sont le plus souvent virales ou idiopathiques, mais les causes bactériennes (dont tuberculeuse), néoplasiques, auto-immunes, post-infarctus, post-chirurgicales et métaboliques (insuffisance rénale) doivent être recherchées devant des critères de mauvais pronostic : fièvre élevée, évolution subaiguë, épanchement abondant ou tamponnade, absence de réponse aux AINS. Les complications sont la tamponnade, les récidives et la péricardite constrictive.",
+      "explications_par_proposition": {
+        "A": "Vrai : La majorité des péricardites aiguës sont présumées virales ou idiopathiques, d'évolution habituellement favorable.",
+        "B": "Vrai : La péricardite tuberculeuse, fréquente en zone d'endémie, peut évoluer vers la constriction ; elle est suspectée devant une fièvre prolongée, une altération de l'état général ou un épanchement abondant.",
+        "C": "Faux : La tamponnade associe tachycardie, hypotension, turgescence jugulaire et pouls paradoxal ; c'est une urgence de drainage.",
+        "D": "Vrai : Les récidives touchent une proportion importante des patients ; l'ajout de la colchicine au traitement anti-inflammatoire en diminue nettement le risque.",
+        "E": "Faux : Les corticoïdes en première intention favorisent les récidives et la corticodépendance ; ils sont réservés aux contre-indications aux AINS ou à certaines étiologies."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-054"
+      ],
+      "theme": "Péricardite aiguë — étiologies et évolution",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des corticoïdes en première intention dans une péricardite virale : risque accru de récidive.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC — 2025 ESC Guidelines for the management of myocarditis and pericarditis (2025) [catalogue REC-0224]",
+          "date": "2025-10"
+        },
+        {
+          "reference": "ESC — 2015 ESC Guidelines for the diagnosis and management of pericardial diseases (2015) [catalogue REC-0223]",
+          "date": "2015-08"
+        },
+        {
+          "reference": "Zipes Douglas P, Libby Peter, Bonow Robert O et al. Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine. 11e éd. Elsevier ; 2019 [catalogue OUV-0319].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3129",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel est le traitement de première intention d'une péricardite aiguë présumée virale, non compliquée, chez l'adulte ?",
+      "propositions": {
+        "A": "Un anti-inflammatoire non stéroïdien (ou l'aspirine) associé à la colchicine.",
+        "B": "Une corticothérapie générale à forte dose.",
+        "C": "Une anticoagulation curative.",
+        "D": "Une antibiothérapie probabiliste.",
+        "E": "Un drainage péricardique systématique."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le traitement de la péricardite aiguë non compliquée est ambulatoire : AINS ou aspirine associés à la colchicine, repos et limitation de l'activité physique jusqu'à guérison (plus prolongée chez le sportif et en cas de myopéricardite). Les formes à haut risque (fièvre élevée, épanchement abondant, tamponnade, immunodépression, traumatisme, anticoagulation, myopéricardite) justifient une hospitalisation et une enquête étiologique. Les péricardites récidivantes corticodépendantes peuvent relever d'immunomodulateurs, notamment des anti-IL-1.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'association AINS ou aspirine à doses anti-inflammatoires, avec protection gastrique, et colchicine pendant plusieurs mois est le traitement de référence ; la décroissance est guidée par les symptômes et la CRP.",
+        "B": "Faux : Les corticoïdes sont un traitement de seconde intention, en cas de contre-indication ou d'échec des AINS et de la colchicine, après élimination d'une cause infectieuse.",
+        "C": "Faux : L'anticoagulation majore le risque d'hémopéricarde et n'a pas d'indication.",
+        "D": "Faux : Une antibiothérapie n'est pas indiquée dans une péricardite virale.",
+        "E": "Faux : Le drainage est réservé à la tamponnade, aux épanchements abondants symptomatiques ou à visée diagnostique."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-054"
+      ],
+      "theme": "Péricardite aiguë — traitement de première intention",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la colchicine, qui réduit pourtant de moitié le risque de récidive.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC — 2025 ESC Guidelines for the management of myocarditis and pericarditis (2025) [catalogue REC-0224]",
+          "date": "2025-10"
+        },
+        {
+          "reference": "ESC — 2015 ESC Guidelines for the diagnosis and management of pericardial diseases (2015) [catalogue REC-0223]",
+          "date": "2015-08"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3130",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic et la physiopathologie de l'angine de poitrine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'angor typique associe une douleur rétrosternale constrictive, déclenchée par l'effort, et cédant au repos ou à la trinitrine en quelques minutes.",
+        "B": "L'angor de Prinzmetal survient au repos, souvent en fin de nuit, avec un sus-décalage transitoire du segment ST lié à un spasme coronaire.",
+        "C": "Un rétrécissement aortique serré peut entraîner un angor en l'absence de sténose coronaire.",
+        "D": "Un ECG de repos normal élimine le diagnostic d'angor.",
+        "E": "L'ECG d'effort est plus sensible que les tests d'imagerie fonctionnelle pour détecter une ischémie myocardique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'angor stable résulte d'un déséquilibre entre apports et besoins myocardiques en oxygène, le plus souvent dû à une sténose coronaire athéromateuse fixe démasquée par l'effort. Le diagnostic repose sur l'interrogatoire, l'estimation de la probabilité clinique et les examens non invasifs : coroscanner pour exclure une maladie coronaire chez les patients à probabilité faible ou intermédiaire, tests d'ischémie fonctionnelle, puis coronarographie selon les résultats. Les recommandations ESC 2024 parlent de syndromes coronariens chroniques et intègrent l'ischémie sans sténose obstructive (INOCA).",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces trois caractéristiques définissent l'angor typique ; la présence de deux d'entre elles définit un angor atypique.",
+        "B": "Vrai : Le spasme coronaire occlusif transitoire donne un sus-décalage ST ; les inhibiteurs calciques sont le traitement de choix.",
+        "C": "Vrai : L'hypertrophie ventriculaire et l'augmentation des besoins en oxygène expliquent un angor fonctionnel ; l'anémie sévère, l'hyperthyroïdie ou les tachycardies peuvent aussi révéler ou aggraver un angor.",
+        "D": "Faux : L'ECG de repos est souvent normal en dehors des crises ; il ne permet pas d'éliminer une maladie coronaire.",
+        "E": "Faux : Les tests d'imagerie fonctionnelle (échocardiographie de stress, scintigraphie, IRM de stress) sont plus sensibles et spécifiques que l'ECG d'effort."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-055"
+      ],
+      "theme": "Angor — diagnostic et physiopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer un angor sur un ECG de repos normal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC — 2024 ESC Guidelines for the management of chronic coronary syndromes (2024) [catalogue REC-0208]",
+          "date": "2024-09"
+        },
+        {
+          "reference": "HAS (Haute Autorité de santé) — Guide du parcours de soins – Syndrome coronarien chronique (2021) [catalogue REC-0498]",
+          "date": "2021-09"
+        },
+        {
+          "reference": "Zipes Douglas P, Libby Peter, Bonow Robert O et al. Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine. 11e éd. Elsevier ; 2019 [catalogue OUV-0319].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3131",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement médical de l'angor stable, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La trinitrine sublinguale est utilisée en cas de crise ou avant un effort déclenchant.",
+        "B": "Les bêtabloquants sont le traitement de choix de l'angor de Prinzmetal.",
+        "C": "L'aspirine à faible dose est prescrite au long cours en prévention des événements ischémiques.",
+        "D": "Une statine est prescrite avec un objectif de LDL-cholestérol < 0,55 g/L (1,4 mmol/L) chez le coronarien, à très haut risque cardiovasculaire.",
+        "E": "Les dérivés nitrés sont contre-indiqués avec les inhibiteurs de la phosphodiestérase de type 5."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le traitement médical de l'angor stable a deux objectifs : soulager les symptômes (trinitrine, bêtabloquants ou inhibiteurs calciques en première intention, puis autres anti-angineux) et prévenir les événements cardiovasculaires (antiagrégant plaquettaire, statine, contrôle des facteurs de risque, réadaptation cardiaque). La correction des facteurs de risque (arrêt du tabac, HTA, diabète, activité physique) est indispensable. La revascularisation est discutée en cas d'angor réfractaire ou de lésions à haut risque.",
+      "explications_par_proposition": {
+        "A": "Vrai : La trinitrine soulage la crise en quelques minutes ; son inefficacité au-delà de 15–20 minutes doit faire évoquer un syndrome coronarien aigu.",
+        "B": "Faux : Les bêtabloquants peuvent favoriser le spasme ; l'angor spastique relève des inhibiteurs calciques et des dérivés nitrés.",
+        "C": "Vrai : L'antiagrégation plaquettaire (aspirine, ou clopidogrel en cas d'intolérance) réduit le risque d'infarctus et de décès.",
+        "D": "Vrai : L'objectif de LDL-c < 1,4 mmol/L avec une réduction d'au moins 50 % est recommandé chez les patients à très haut risque (recommandations ESC/EAS 2019, objectifs maintenus par la mise à jour 2025).",
+        "E": "Vrai : L'association expose à une hypotension sévère ; elle est contre-indiquée."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-055"
+      ],
+      "theme": "Angor stable — traitement médical",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire un bêtabloquant dans un angor spastique : il peut aggraver le spasme.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC — 2024 ESC Guidelines for the management of chronic coronary syndromes (2024) [catalogue REC-0208]",
+          "date": "2024-09"
+        },
+        {
+          "reference": "ESC / EAS — 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk (2020) [catalogue REC-0228]",
+          "date": "2020-01"
+        },
+        {
+          "reference": "ESC / EAS — 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias (2025) [catalogue REC-0229]",
+          "date": "2025-11"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3132",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la revascularisation myocardique au cours du syndrome coronarien chronique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est indiquée pour améliorer les symptômes en cas d'angor persistant malgré un traitement médical optimal.",
+        "B": "Une sténose significative du tronc commun gauche est une indication de revascularisation pour améliorer le pronostic.",
+        "C": "Chez le diabétique porteur de lésions pluritronculaires complexes, le pontage aorto-coronarien est généralement préféré à l'angioplastie.",
+        "D": "L'angioplastie systématique de toute sténose coronaire chez un patient stable améliore la survie par rapport au traitement médical optimal.",
+        "E": "Après angioplastie avec stent pour un syndrome coronarien chronique, une double antiagrégation plaquettaire est habituellement prescrite pendant 6 mois."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Chez le coronarien stable, la revascularisation vise à soulager les symptômes résistants au traitement médical ou à améliorer le pronostic dans certaines anatomies (tronc commun, atteinte pluritronculaire avec dysfonction ventriculaire, large territoire ischémique). Le choix entre angioplastie et pontage relève d'une décision collégiale (Heart Team), selon l'anatomie (score SYNTAX), le diabète, la fonction ventriculaire et les comorbidités. Le traitement médical optimal reste indispensable dans tous les cas.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'angor réfractaire au traitement médical est une indication symptomatique de revascularisation.",
+        "B": "Vrai : L'atteinte significative du tronc commun gauche est une indication pronostique de revascularisation (chirurgicale ou percutanée selon l'anatomie).",
+        "C": "Vrai : Le pontage, notamment avec artère mammaire interne, est privilégié chez le diabétique pluritronculaire, sur décision de la Heart Team.",
+        "D": "Faux : Les essais COURAGE et ISCHEMIA n'ont pas montré de bénéfice sur la mortalité d'une stratégie invasive systématique chez les patients stables.",
+        "E": "Vrai : La durée standard de double antiagrégation après stent dans le syndrome coronarien chronique est de 6 mois, modulable selon les risques hémorragique et ischémique."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-055"
+      ],
+      "theme": "Syndrome coronarien chronique — revascularisation",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'angioplastie systématique d'une sténose stable prolonge la survie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC — 2024 ESC Guidelines for the management of chronic coronary syndromes (2024) [catalogue REC-0208]",
+          "date": "2024-09"
+        },
+        {
+          "reference": "HAS (Haute Autorité de santé) — Guide du parcours de soins – Syndrome coronarien chronique (2021) [catalogue REC-0498]",
+          "date": "2021-09"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3133",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la stratégie diagnostique de l'embolie pulmonaire (EP) chez un patient hémodynamiquement stable, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La probabilité clinique est évaluée par un score validé (Wells ou Genève révisé).",
+        "B": "Un dosage des D-dimères négatif permet d'exclure l'EP chez un patient de probabilité clinique non forte.",
+        "C": "L'angioscanner thoracique est l'examen d'imagerie de référence.",
+        "D": "Le dosage des D-dimères est indiqué chez un patient de probabilité clinique forte.",
+        "E": "Après 50 ans, un seuil de D-dimères ajusté à l'âge (âge × 10 µg/L) peut être utilisé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le diagnostic de l'EP stable suit un algorithme : probabilité clinique (score de Wells ou de Genève), D-dimères si la probabilité n'est pas forte, puis angioscanner thoracique en cas de D-dimères positifs ou de probabilité forte. L'écho-doppler veineux des membres inférieurs peut confirmer une maladie thromboembolique en cas de contre-indication au scanner. Chez le patient instable, l'échocardiographie au lit (dilatation du ventricule droit) permet de décider d'un traitement urgent si le scanner n'est pas immédiatement réalisable.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'évaluation de la probabilité clinique est la première étape et conditionne la suite de la stratégie.",
+        "B": "Vrai : Les D-dimères ont une excellente valeur prédictive négative mais une faible spécificité ; ils ne sont utiles qu'en cas de probabilité faible ou intermédiaire.",
+        "C": "Vrai : L'angioscanner thoracique confirme l'EP ; la scintigraphie de ventilation-perfusion est une alternative (insuffisance rénale, grossesse, allergie).",
+        "D": "Faux : En cas de probabilité forte, les D-dimères n'ont pas d'intérêt car un résultat négatif n'exclurait pas l'EP : l'imagerie est réalisée d'emblée.",
+        "E": "Vrai : Le seuil ajusté à l'âge augmente la spécificité chez le sujet âgé sans perte de sécurité."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-058"
+      ],
+      "theme": "Embolie pulmonaire — stratégie diagnostique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Doser les D-dimères chez un patient de forte probabilité clinique et se rassurer sur un résultat négatif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC (avec ERS) — 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS) (2020) [catalogue REC-0220]",
+          "date": "2020-01"
+        },
+        {
+          "reference": "AHA / ACC / ACCP / ACEP / CHEST / SCAI / SHM / SIR / SVM / SVN — 2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults (2026) [catalogue REC-0221]",
+          "date": "2026-02"
+        },
+        {
+          "reference": "ASH — American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism (2020) [catalogue REC-0386]",
+          "date": "2020-10"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3134",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la stratification pronostique et le traitement de l'embolie pulmonaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une EP à haut risque (choc ou hypotension persistante) relève d'une thrombolyse systémique en l'absence de contre-indication.",
+        "B": "Dans l'EP à haut risque, l'héparine non fractionnée intraveineuse est l'anticoagulant initial privilégié.",
+        "C": "Une EP à risque intermédiaire-élevé (dysfonction ventriculaire droite et troponine élevée, sans choc) relève d'une thrombolyse systématique.",
+        "D": "Les anticoagulants oraux directs sont le traitement de première intention de l'EP non grave en l'absence de contre-indication.",
+        "E": "Les anticoagulants oraux directs sont indiqués chez le porteur de valve cardiaque mécanique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La stratification de l'EP repose sur l'état hémodynamique (haut risque si choc), puis, chez les patients stables, sur les scores cliniques (sPESI), la dysfonction ventriculaire droite et la troponine. Le traitement repose sur l'anticoagulation, la reperfusion étant réservée aux formes à haut risque ou aux dégradations secondaires. Les AOD sont le traitement de première intention de la majorité des EP non graves. Les recommandations AHA/ACC 2026 proposent de nouvelles catégories cliniques d'EP, à confronter à la classification ESC 2019.",
+      "explications_par_proposition": {
+        "A": "Vrai : La thrombolyse (ou, en cas de contre-indication, l'embolectomie chirurgicale ou un traitement percutané) est indiquée dans l'EP à haut risque.",
+        "B": "Vrai : L'HNF, de demi-vie courte et antagonisable, est utilisée en cas de choc et de reperfusion envisagée.",
+        "C": "Faux : Dans l'EP à risque intermédiaire-élevé, la thrombolyse systématique n'est pas recommandée (excès d'hémorragies graves) ; le patient est anticoagulé et surveillé, avec reperfusion de sauvetage en cas de dégradation hémodynamique.",
+        "D": "Vrai : Les AOD (apixaban, rivaroxaban, ou dabigatran/édoxaban après héparine) sont préférés aux AVK lorsqu'ils sont possibles.",
+        "E": "Faux : Les AOD sont contre-indiqués chez les porteurs de valve mécanique et dans le syndrome des antiphospholipides à haut risque ; les AVK sont alors utilisés."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-058"
+      ],
+      "theme": "Embolie pulmonaire — stratification du risque et traitement",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Thrombolyser systématiquement une EP à risque intermédiaire-élevé sans instabilité hémodynamique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC (avec ERS) — 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS) (2020) [catalogue REC-0220]",
+          "date": "2020-01"
+        },
+        {
+          "reference": "AHA / ACC / ACCP / ACEP / CHEST / SCAI / SHM / SIR / SVM / SVN — 2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults (2026) [catalogue REC-0221]",
+          "date": "2026-02"
+        },
+        {
+          "reference": "ASH — American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism (2020) [catalogue REC-0386]",
+          "date": "2020-10"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3135",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la maladie thromboembolique veineuse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La triade de Virchow associe stase veineuse, lésion endothéliale et hypercoagulabilité.",
+        "B": "La durée minimale de l'anticoagulation d'une thrombose veineuse profonde proximale ou d'une EP est de 3 mois.",
+        "C": "Un premier épisode provoqué par un facteur transitoire majeur, comme une chirurgie, justifie l'arrêt de l'anticoagulation après 3 mois.",
+        "D": "En cas de cancer actif, l'anticoagulation est prolongée tant que le cancer est actif.",
+        "E": "La phlébographie reste l'examen de première intention pour le diagnostic de thrombose veineuse profonde."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La maladie thromboembolique veineuse regroupe TVP et EP. La durée du traitement anticoagulant dépend du caractère provoqué ou non de l'épisode et de la persistance du facteur de risque : 3 mois après un facteur transitoire majeur, traitement prolongé discuté après un épisode non provoqué (selon le risque hémorragique), et traitement prolongé en cas de cancer actif. Le diagnostic de TVP repose sur la probabilité clinique, les D-dimères et l'écho-doppler veineux. La prévention en situation à risque (chirurgie, alitement) est essentielle.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces trois mécanismes rendent compte des facteurs de risque (immobilisation, chirurgie, cancer, grossesse, contraception œstrogénique, thrombophilie).",
+        "B": "Vrai : Une durée minimale de 3 mois est recommandée pour toute TVP proximale ou EP.",
+        "C": "Vrai : Le risque de récidive après un facteur transitoire majeur est faible ; 3 mois suffisent.",
+        "D": "Vrai : Le cancer actif est un facteur persistant majeur ; l'anticoagulation est poursuivie au-delà de 6 mois tant que le cancer est actif ou traité.",
+        "E": "Faux : L'écho-doppler veineux est l'examen de référence du diagnostic de TVP ; la phlébographie n'a plus qu'une place exceptionnelle."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-058"
+      ],
+      "theme": "Thrombose veineuse profonde — physiopathologie et durée du traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter l'anticoagulation à 3 mois chez un patient dont le cancer est toujours actif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ASH — American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism (2020) [catalogue REC-0386]",
+          "date": "2020-10"
+        },
+        {
+          "reference": "ESC (avec ERS) — 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS) (2020) [catalogue REC-0220]",
+          "date": "2020-01"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3136",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le cœur pulmonaire chronique (CPC), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il correspond à l'hypertrophie et/ou la dilatation du ventricule droit secondaire à une hypertension pulmonaire due à une maladie respiratoire ou à une hypoxie chronique.",
+        "B": "La vasoconstriction pulmonaire hypoxique est un mécanisme central de l'hypertension pulmonaire des maladies respiratoires.",
+        "C": "Selon les recommandations ESC/ERS 2022, l'hypertension pulmonaire est définie par une pression artérielle pulmonaire moyenne > 20 mmHg au cathétérisme cardiaque droit.",
+        "D": "Le cathétérisme cardiaque droit est l'examen de référence pour confirmer l'hypertension pulmonaire.",
+        "E": "Une cardiopathie gauche est, par définition, la cause du cœur pulmonaire chronique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le cœur pulmonaire chronique est l'atteinte du ventricule droit secondaire à une hypertension pulmonaire d'origine respiratoire (BPCO, fibroses pulmonaires, hypoventilation alvéolaire, séquelles de tuberculose) ou thromboembolique chronique. Sa physiopathologie repose sur la vasoconstriction hypoxique, le remodelage vasculaire et la perte du lit capillaire. Le diagnostic d'HTP repose sur l'échocardiographie (dépistage) et le cathétérisme droit (confirmation). Le pronostic est lié à la fonction ventriculaire droite.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le CPC est la conséquence cardiaque droite d'une hypertension pulmonaire de cause respiratoire (groupe 3 de la classification de l'HTP) ; l'HTP thromboembolique chronique en est une autre cause.",
+        "B": "Vrai : L'hypoxie alvéolaire chronique entraîne une vasoconstriction puis un remodelage des artérioles pulmonaires ; la polyglobulie et la destruction du lit vasculaire y contribuent.",
+        "C": "Vrai : Le seuil de PAPm a été abaissé à > 20 mmHg en 2022 (contre ≥ 25 mmHg auparavant).",
+        "D": "Vrai : L'échocardiographie estime la probabilité d'HTP ; seul le cathétérisme droit la confirme et en précise le mécanisme (pré- ou post-capillaire).",
+        "E": "Faux : Les cardiopathies gauches donnent une HTP post-capillaire (groupe 2) ; elles sont exclues de la définition du cœur pulmonaire chronique."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-061"
+      ],
+      "theme": "Cœur pulmonaire chronique — définition et physiopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser l'ancien seuil de 25 mmHg : la définition ESC/ERS 2022 retient une PAPm > 20 mmHg.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC / ERS — 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension (2022) [catalogue REC-0222]",
+          "date": "2022-10"
+        },
+        {
+          "reference": "Broaddus V Courtney, Mason Robert J. Murray & Nadel's Textbook of Respiratory Medicine. 6e éd. Elsevier Saunders ; 2016 [catalogue OUV-0327].",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3137",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 70 ans atteint d'une BPCO sévère présente des œdèmes des membres inférieurs, une hépatomégalie douloureuse et une turgescence jugulaire. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un reflux hépato-jugulaire est attendu.",
+        "B": "Le signe de Harzer (battement systolique du ventricule droit perçu au creux épigastrique) peut être retrouvé.",
+        "C": "L'ECG peut montrer une déviation axiale droite, une hypertrophie ventriculaire droite et une onde P pulmonaire.",
+        "D": "Un souffle d'insuffisance tricuspide augmentant à l'inspiration (signe de Carvallo) est possible.",
+        "E": "L'œdème aigu du poumon est le mode habituel de décompensation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le cœur pulmonaire chronique se manifeste par des signes d'insuffisance cardiaque droite sur une maladie respiratoire chronique. L'échocardiographie transthoracique estime la pression artérielle pulmonaire systolique à partir de la vitesse de l'insuffisance tricuspide et évalue la fonction du ventricule droit. Les gaz du sang objectivent l'hypoxémie, souvent avec hypercapnie. Les décompensations sont souvent déclenchées par une exacerbation, une infection, une embolie pulmonaire ou un trouble du rythme.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le reflux hépato-jugulaire traduit l'élévation de la pression veineuse centrale.",
+        "B": "Vrai : Le signe de Harzer témoigne de l'hypertrophie-dilatation ventriculaire droite.",
+        "C": "Vrai : Les signes ECG d'HVD et d'hypertrophie auriculaire droite sont évocateurs mais peu sensibles, surtout en cas de distension thoracique.",
+        "D": "Vrai : L'insuffisance tricuspide fonctionnelle, liée à la dilatation du ventricule droit, augmente à l'inspiration.",
+        "E": "Faux : Le CPC se décompense sous forme d'insuffisance cardiaque droite (œdèmes, ascite, hépatomégalie), souvent lors d'une exacerbation respiratoire ; l'OAP relève d'une cardiopathie gauche."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-061"
+      ],
+      "theme": "Cœur pulmonaire chronique — diagnostic clinique et paraclinique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer un OAP au cœur pulmonaire chronique : il oriente vers une atteinte cardiaque gauche associée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC / ERS — 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension (2022) [catalogue REC-0222]",
+          "date": "2022-10"
+        },
+        {
+          "reference": "Broaddus V Courtney, Mason Robert J. Murray & Nadel's Textbook of Respiratory Medicine. 6e éd. Elsevier Saunders ; 2016 [catalogue OUV-0327].",
+          "date": "2016"
+        },
+        {
+          "reference": "Zipes Douglas P, Libby Peter, Bonow Robert O et al. Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine. 11e éd. Elsevier ; 2019 [catalogue OUV-0319].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CARD-3138",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un patient atteint de BPCO avec cœur pulmonaire chronique et hypoxémie de repos (PaO2 à 54 mmHg à l'état stable), quelle mesure améliore la survie ?",
+      "propositions": {
+        "A": "L'oxygénothérapie de longue durée, au moins 15 heures par jour.",
+        "B": "La digoxine au long cours.",
+        "C": "Le sildénafil, vasodilatateur pulmonaire spécifique.",
+        "D": "Des saignées répétées systématiques.",
+        "E": "Un bêtabloquant non cardiosélectif."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le traitement du cœur pulmonaire chronique associe le traitement de la maladie respiratoire causale, l'oxygénothérapie de longue durée lorsque les critères sont remplis, la ventilation non invasive en cas d'hypoventilation, et les diurétiques pour la rétention hydrosodée. Les vasodilatateurs spécifiques de l'HTAP n'ont pas d'indication générale dans le groupe 3. L'HTP thromboembolique chronique relève d'une évaluation en centre expert (endartériectomie pulmonaire, angioplastie, traitement médical).",
+      "explications_par_proposition": {
+        "A": "Vrai : L'oxygénothérapie de longue durée corrige l'hypoxémie, limite la vasoconstriction hypoxique et améliore la survie lorsque la PaO2 est ≤ 55 mmHg.",
+        "B": "Faux : La digoxine n'améliore pas la survie dans le cœur pulmonaire chronique et expose à la toxicité, majorée par l'hypoxie et l'hypokaliémie.",
+        "C": "Faux : Les vasodilatateurs pulmonaires spécifiques de l'HTAP ne sont pas recommandés de manière générale dans l'HTP associée à la BPCO ; ils peuvent aggraver l'hypoxémie en altérant le rapport ventilation/perfusion.",
+        "D": "Faux : Les saignées ne se discutent qu'en cas de polyglobulie très importante et symptomatique ; elles n'améliorent pas la survie.",
+        "E": "Faux : Un bêtabloquant non cardiosélectif expose au bronchospasme chez le BPCO."
+      },
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-061"
+      ],
+      "theme": "Cœur pulmonaire chronique — traitement améliorant la survie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire un vasodilatateur pulmonaire spécifique dans l'HTP de la BPCO, au risque d'aggraver l'hypoxémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC / ERS — 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension (2022) [catalogue REC-0222]",
+          "date": "2022-10"
+        },
+        {
+          "reference": "ATS — Home Oxygen Therapy for Adults with Chronic Lung Disease. An Official American Thoracic Society Clinical Practice Guideline (2020) [catalogue REC-0252]",
+          "date": "2020-11"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

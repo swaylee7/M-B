@@ -15,7 +15,7 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
     verdict: audite_corrections_requises
-    corrections: 24
+    corrections: 26
     rapport: 00_SYSTEME/agents/AUD-04/rapports/DOS-HEPA-0001.md
 sources:
   - id: S1

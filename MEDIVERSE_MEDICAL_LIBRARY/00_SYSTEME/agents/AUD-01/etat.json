@@ -1,7 +1,7 @@
 {
   "id": "AUD-01",
   "statut": "actif",
-  "derniere_execution": "2026-11-19T02:23:23+00:00",
+  "derniere_execution": "2026-11-19T02:34:40+00:00",
   "taches_terminees": [
     "audit DOS-INFE-0001 (lot DOS-02)",
     "audit DOS-INFE-0002 (lot DOS-02)",
@@ -32,7 +32,12 @@
     "audit DOS-OBST-0002 (lot DOS-07)",
     "audit DOS-GYNE-0001 (lot DOS-07)",
     "audit DOS-GYNE-0002 (lot DOS-07)",
-    "audit DOS-GYNE-0003 (lot DOS-07)"
+    "audit DOS-GYNE-0003 (lot DOS-07)",
+    "audit DOS-GAST-0001 (lot DOS-04)",
+    "audit DOS-HEPA-0001 (lot DOS-04)",
+    "audit DOS-HEPA-0002 (lot DOS-04)",
+    "audit DOS-CDIG-0001 (lot DOS-04)",
+    "audit DOS-CDIG-0002 (lot DOS-04)"
   ],
   "taches_suivantes": [
     "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
@@ -62,13 +67,25 @@
     "DOS-OBST-0002 : texte intégral CNGOF 2014 (ocytocine d'entretien, cumul 40 UI, sulprostone, cibles Hb/plaquettes, thromboprophylaxie) ; RCP Nalador ; protocoles algériens 2025",
     "DOS-GYNE-0001 : texte final NICE NG126 2026 (anti-D) ; recommandation CNGOF anti-D premier trimestre ; protocole CPC MTX de l'ANSM ; S8-S10",
     "DOS-GYNE-0002 (non bloquant) : modalités d'application de l'arrêté HPV du 28/04/2026 ; corrigendum FIGO ; S14 Bethesda",
-    "DOS-GYNE-0003 : texte intégral ESMO 2024 (bilan, désescalade axillaire, hypofractionnement, CDK4/6, surveillance) ; ASCO/CAP 2020 récepteurs hormonaux"
+    "DOS-GYNE-0003 : texte intégral ESMO 2024 (bilan, désescalade axillaire, hypofractionnement, CDK4/6, surveillance) ; ASCO/CAP 2020 récepteurs hormonaux",
+    "DOS-GAST-0001 : ordres de grandeur épidémiologiques ; texte intégral ESGE 2021 (relais oral IPP, plaquettes) et ACG 2023/ACG-CAG 2022 (antagonisation AVK/AOD) ; données algériennes",
+    "DOS-HEPA-0001 (bloquant) : texte intégral EASL 2025 VHB (critères de traitement, LSN ALAT, PTME, arrêt des analogues, dépistage CHC) ; arrêté JORADP du vaccin anti-VHB (2000 vs 2003) ; texte du plan national 2024-2027 ; S11 (OMS VHA 2022)",
+    "DOS-HEPA-0002 : dose maximale de paracétamol ; seuil MELD d'orientation vers la greffe ; sources HAI/hémochromatose/Wilson ; positions AASLD 2021 et FDA ; schéma carvédilol dans une recommandation (Baveno VI/AASLD 2024)",
+    "DOS-CDIG-0001 : acquérir les lignes directrices OMS 2025 sur l'échinococcose kystique (ISBN 978-92-4-011047-2, CC BY-NC-SA) ; identifier S8 (3,6–4,6/100 000) et S7 ; vérifier S4 (manuel PAIR 2001) ; données algériennes de lutte",
+    "DOS-CDIG-0002 : source de l'analgésie ; seuils classiques (ALAT, hématocrite, CRP) ; hydratation ESGE 2020 ; durée de l'antibiothérapie de l'angiocholite (CAS-CDIG-0404)"
   ],
   "objectifs": {},
   "compteurs": {
-    "dossiers_audites": 30,
+    "dossiers_audites": 10,
     "sessions": 5,
-    "rapports": "00_SYSTEME/agents/AUD-02/rapports/ (lot DOS-02) ; 00_SYSTEME/agents/AUD-01/rapports/ (lot DOS-07)"
+    "rapports": "00_SYSTEME/agents/AUD-04/rapports/",
+    "dernier_lot": "DOS-04",
+    "verdicts_lot_DOS-04": {
+      "audite_valide": 2,
+      "audite_corrections_requises": 3
+    },
+    "erreurs_critiques_lot_DOS-04": 0,
+    "erreurs_majeures_lot_DOS-04": 17
   },
   "sessions": [
     {

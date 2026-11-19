@@ -1,28 +1,42 @@
 {
   "id": "AUD-04",
   "statut": "actif",
-  "derniere_execution": "2026-11-19T01:56:59+00:00",
+  "derniere_execution": "2026-11-19T02:34:40+00:00",
   "taches_terminees": [
     "audit DOS-INFE-0001 (lot DOS-02)",
     "audit DOS-INFE-0002 (lot DOS-02)",
     "audit DOS-PNEU-0001 (lot DOS-02)",
     "audit DOS-PNEU-0002 (lot DOS-02)",
-    "audit DOS-PNEU-0003 (lot DOS-02)"
+    "audit DOS-PNEU-0003 (lot DOS-02)",
+    "audit DOS-GAST-0001 (lot DOS-04)",
+    "audit DOS-HEPA-0001 (lot DOS-04)",
+    "audit DOS-HEPA-0002 (lot DOS-04)",
+    "audit DOS-CDIG-0001 (lot DOS-04)",
+    "audit DOS-CDIG-0002 (lot DOS-04)"
   ],
   "taches_suivantes": [
     "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
     "DOS-INFE-0002 : Durées formes focalisées, schémas enfant/grossesse (Ioannina, OMS 2006) ; doses cotrimoxazole/ceftriaxone ; textes algériens",
     "DOS-PNEU-0001 : Lire l'instruction n°07/2024 et l'instruction ITL (sapp.dz) ; tranches de poids nationales et pédiatriques ; S14",
     "DOS-PNEU-0002 : Doses céfotaxime/spiramycine/lévofloxacine, amoxicilline pédiatrique ; S10–S12",
-    "DOS-PNEU-0003 : MART 6–11 ans, doses d'exacerbation pédiatriques (GINA 2025) ; S6, S7"
+    "DOS-PNEU-0003 : MART 6–11 ans, doses d'exacerbation pédiatriques (GINA 2025) ; S6, S7",
+    "DOS-GAST-0001 : ordres de grandeur épidémiologiques ; texte intégral ESGE 2021 (relais oral IPP, plaquettes) et ACG 2023/ACG-CAG 2022 (antagonisation AVK/AOD) ; données algériennes",
+    "DOS-HEPA-0001 (bloquant) : texte intégral EASL 2025 VHB (critères de traitement, LSN ALAT, PTME, arrêt des analogues, dépistage CHC) ; arrêté JORADP du vaccin anti-VHB (2000 vs 2003) ; texte du plan national 2024-2027 ; S11 (OMS VHA 2022)",
+    "DOS-HEPA-0002 : dose maximale de paracétamol ; seuil MELD d'orientation vers la greffe ; sources HAI/hémochromatose/Wilson ; positions AASLD 2021 et FDA ; schéma carvédilol dans une recommandation (Baveno VI/AASLD 2024)",
+    "DOS-CDIG-0001 : acquérir les lignes directrices OMS 2025 sur l'échinococcose kystique (ISBN 978-92-4-011047-2, CC BY-NC-SA) ; identifier S8 (3,6–4,6/100 000) et S7 ; vérifier S4 (manuel PAIR 2001) ; données algériennes de lutte",
+    "DOS-CDIG-0002 : source de l'analgésie ; seuils classiques (ALAT, hématocrite, CRP) ; hydratation ESGE 2020 ; durée de l'antibiothérapie de l'angiocholite (CAS-CDIG-0404)"
   ],
   "objectifs": {},
   "compteurs": {
-    "dossiers_audites": 5,
+    "dossiers_audites": 10,
     "references_verifiees_avant": 27,
     "references_verifiees_apres": 44,
     "references_totales": 52,
     "references_ajoutees": 1,
-    "references_lots_mises_a_jour": 57
+    "references_lots_mises_a_jour": 57,
+    "references_verifiees_avant_lot_DOS-04": 35,
+    "references_verifiees_apres_lot_DOS-04": 72,
+    "references_totales_lot_DOS-04": 76,
+    "references_ajoutees_lot_DOS-04": 6
   }
 }

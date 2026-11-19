@@ -85,13 +85,13 @@ sources:
     url: ""
     verifiee: true
   - id: S10
-    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence confirmée par le poste DOS-02 le 2026-11-19."
+    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence signalée comme confirmée par le poste DOS-02 le 2026-11-19 ; non reconfirmée dans la session DOS-09 (hôte .dz inaccessible, recherche web infructueuse)."
     organisme: "Ministère de la Santé (Algérie)"
     annee: 2024
     type: texte_officiel
     doi: ""
     url: "https://www.sapp.dz/wp-content/uploads/2024/03/Instrcution-tuberculose-latente.pdf"
-    verifiee: true
+    verifiee: false
   - id: S11
     reference: "Gossec L, Kerschbaumer A, Ferreira RJO, et al. EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update. Ann Rheum Dis. 2024;83(6):706-719."
     organisme: EULAR
@@ -811,6 +811,6 @@ LOMBALGIE CHRONIQUE (> 3 MOIS) CHEZ UN ADULTE DE MOINS DE 45 ANS
 7. **[S7]** Ziade NR. HLA B27 antigen in Middle Eastern and Arab countries: systematic review of the strength of association with axial spondyloarthritis and methodological gaps. *BMC Musculoskelet Disord.* 2017;18(1):280. doi:10.1186/s12891-017-1639-5 — vérifiée (PMID 28662723 ; résumé relu).
 8. **[S8]** Ziade N, Abou Abdallah F, Kfoury R, Tekaya R, et al. Clinical phenotype, disease burden and inter-regional heterogeneity of axial spondyloarthritis in 1112 patients across 15 Arab countries: the PROSPA study. *RMD Open.* 2026;12(4):e007136. doi:10.1136/rmdopen-2026-007136 — existence vérifiée (PMID 42982516) ; contenu non relu.
 9. **[S9]** Fragoulis GE, Nikiphorou E, Dey M, et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with AIIRD. *Ann Rheum Dis.* 2023;82(6):742-753. doi:10.1136/ard-2022-223335 — vérifiée (PMID 36328476).
-10. **[S10]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date exacts à vérifier) — existence confirmée par DOS-02 le 2026-11-19 ; contenu non relu dans cette session.
+10. **[S10]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date exacts à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.
 11. **[S11]** Gossec L, Kerschbaumer A, Ferreira RJO, et al. EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update. *Ann Rheum Dis.* 2024;83(6):706-719. doi:10.1136/ard-2024-225531 — vérifiée (PMID 38499325).
 12. **[S12]** Furer V, Rondaan C, Heijstek MW, et al. 2019 update of EULAR recommendations for vaccination in adult patients with AIIRD. *Ann Rheum Dis.* 2020;79(1):39-52. doi:10.1136/annrheumdis-2019-215882 — vérifiée (PMID 31413005).

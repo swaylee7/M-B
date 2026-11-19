@@ -15,7 +15,7 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
     verdict: audite_corrections_requises
-    corrections: 21
+    corrections: 28
     rapport: 00_SYSTEME/agents/AUD-04/rapports/DOS-CDIG-0001.md
 sources:
   - id: S1

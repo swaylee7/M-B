@@ -133,13 +133,13 @@ sources:
     url: ""
     verifiee: true
   - id: S16
-    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence confirmée par le poste DOS-02 le 2026-11-19."
+    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence signalée comme confirmée par le poste DOS-02 le 2026-11-19 ; non reconfirmée dans la session DOS-09 (hôte .dz inaccessible, recherche web infructueuse)."
     organisme: "Ministère de la Santé (Algérie)"
     annee: 2024
     type: texte_officiel
     doi: ""
     url: "https://www.sapp.dz/wp-content/uploads/2024/03/Instrcution-tuberculose-latente.pdf"
-    verifiee: true
+    verifiee: false
   - id: S17
     reference: "Furer V, Rondaan C, Heijstek MW, et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis. 2020;79(1):39-52."
     organisme: EULAR
@@ -921,5 +921,5 @@ ou baisse inexpliquée du DFG
 13. **[S13]** Furie R, Rovin BH, Houssiau F, et al. Two-year, randomized, controlled trial of belimumab in lupus nephritis. *N Engl J Med.* 2020;383(12):1117-1128. doi:10.1056/NEJMoa2001180 — vérifiée (PMID 32937045).
 14. **[S14]** Alharbi S, Aljohani R. Mortality and survival in patients with systemic lupus erythematosus in the Middle East and North Africa: a systematic review and meta-analysis. *Rheumatol Int.* 2026;46(7):161. doi:10.1007/s00296-026-06181-6 — vérifiée (PMID 42329420 ; résumé relu).
 15. **[S15]** Fragoulis GE, Nikiphorou E, Dey M, et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with AIIRD. *Ann Rheum Dis.* 2023;82(6):742-753. doi:10.1136/ard-2022-223335 — vérifiée (PMID 36328476).
-16. **[S16]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence confirmée par DOS-02 le 2026-11-19 ; contenu non relu.
+16. **[S16]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.
 17. **[S17]** Furer V, Rondaan C, Heijstek MW, et al. 2019 update of EULAR recommendations for vaccination in adult patients with AIIRD. *Ann Rheum Dis.* 2020;79(1):39-52. doi:10.1136/annrheumdis-2019-215882 — vérifiée (PMID 31413005).
