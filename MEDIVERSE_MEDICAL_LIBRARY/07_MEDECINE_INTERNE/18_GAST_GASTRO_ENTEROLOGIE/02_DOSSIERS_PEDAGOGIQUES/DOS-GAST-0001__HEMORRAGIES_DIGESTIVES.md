@@ -6,11 +6,17 @@ sous_specialite: "Urgences digestives — endoscopie digestive"
 items_residanat: [RES-MED-017]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_valide
+    corrections: 19
+    rapport: 00_SYSTEME/agents/AUD-04/rapports/DOS-GAST-0001.md
 sources:
   - id: S1
     reference: "Gralnek IM, Stanley AJ, Morris AJ, et al. Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline – Update 2021. Endoscopy. 2021;53(3):300-332."
@@ -49,7 +55,7 @@ sources:
     organisme: "BMJ"
     annee: 2017
     type: article
-    doi: ""
+    doi: "10.1136/bmj.i6432"
     url: ""
     verifiee: true
   - id: S6
@@ -61,11 +67,11 @@ sources:
     url: ""
     verifiee: true
   - id: S7
-    reference: "HALT-IT Trial Collaborators. Effects of a high-dose 24-h infusion of tranexamic acid on death and thromboembolic events in patients with acute gastrointestinal bleeding (HALT-IT): an international randomised, double-blind, placebo-controlled trial. Lancet. 2020;395:1927-1936 [pagination À VÉRIFIER]."
+    reference: "HALT-IT Trial Collaborators. Effects of a high-dose 24-h infusion of tranexamic acid on death and thromboembolic events in patients with acute gastrointestinal bleeding (HALT-IT): an international randomised, double-blind, placebo-controlled trial. Lancet. 2020;395(10241):1927-1936."
     organisme: "Lancet"
     annee: 2020
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(20)30848-5"
     url: ""
     verifiee: true
   - id: S8
@@ -81,57 +87,57 @@ sources:
     organisme: "Lancet"
     annee: 2000
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(00)02816-6"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S10
     reference: "Rockall TA, Logan RF, Devlin HB, Northfield TC. Risk assessment after acute upper gastrointestinal haemorrhage. Gut. 1996;38:316-321."
     organisme: "Gut"
     annee: 1996
     type: article
-    doi: ""
+    doi: "10.1136/gut.38.3.316"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
     reference: "Forrest JA, Finlayson ND, Shearman DJ. Endoscopy in gastrointestinal bleeding. Lancet. 1974;2:394-397."
     organisme: "Lancet"
     annee: 1974
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(74)91770-X"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
     reference: "Oakland K, Jairath V, Uberoi R, et al. Derivation and validation of a novel risk score for safe discharge after acute lower gastrointestinal bleeding: a modelling study. Lancet Gastroenterol Hepatol. 2017;2:635-643."
     organisme: "Lancet Gastroenterol Hepatol"
     annee: 2017
     type: article
-    doi: ""
+    doi: "10.1016/S2468-1253(17)30150-4"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
     reference: "García-Pagán JC, Caca K, Bureau C, et al. Early use of TIPS in patients with cirrhosis and variceal bleeding. N Engl J Med. 2010;362:2370-2379."
     organisme: "NEJM"
     annee: 2010
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa0910102"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S14
-    reference: "Malfertheiner P, Megraud F, Rokkas T, et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut. 2022;71:1724-1762."
+    reference: "Malfertheiner P, Megraud F, Rokkas T, et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut. 2022;71(9):1724-1762."
     organisme: "European Helicobacter and Microbiota Study Group"
     annee: 2022
     type: recommandation
-    doi: ""
+    doi: "10.1136/gutjnl-2022-327745"
     url: ""
-    verifiee: false
+    verifiee: true
 mots_cles: [hémorragie digestive haute, hémorragie digestive basse, ulcère hémorragique, rupture de varices œsophagiennes, score de Glasgow-Blatchford, classification de Forrest, Rockall, TIPS préemptif, terlipressine, inhibiteurs de la pompe à protons, transfusion restrictive, Oakland]
 ---
 
 # Hémorragies digestives : mécanismes physiopathologiques, étiologies, diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Les sources marquées `verifiee: false` dans l'en-tête n'ont pas pu être reconfirmées pendant la session de rédaction (budget de recherche épuisé) : leurs données chiffrées sont à contrôler en priorité lors de l'audit.
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1) — non encore relu par un enseignant. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Audit : les 14 sources ont été confirmées (PubMed/Europe PMC ; résumés ESGE 2021 et 2022 ; texte intégral de Baveno VII). Les ordres de grandeur épidémiologiques encore marqués [À VÉRIFIER] restent à sourcer.
 
 **Items du programme couverts** : RES-MED-017 — « Hémorragies digestives : Mécanismes physiopathologiques - étiologies - diagnostic - traitement. »
 
@@ -585,9 +591,9 @@ L'hémorragie ulcéreuse **s'arrête spontanément dans environ 80 % des cas** (
 - **Oxygénothérapie**, position adaptée (décubitus latéral si hématémèse et trouble de conscience), **à jeun**.
 - **Remplissage vasculaire** par **cristalloïdes** pour restaurer une pression artérielle permettant une perfusion d'organe ; éviter l'hypervolémie, en particulier chez le cirrhotique (pression artérielle moyenne cible raisonnable ; ordre de grandeur souvent retenu : PAM ≈ 65 mmHg [À VÉRIFIER — protocole local]).
 - **Transfusion de culots globulaires — stratégie restrictive** :
-  - seuil de transfusion **7 g/dL**, objectif **7–9 g/dL** dans l'hémorragie non variqueuse chez les patients sans cardiopathie [S1, S6] ; l'essai de Villanueva (921 patients) a montré une meilleure survie à 45 jours (95 % vs 91 %) et moins de récidives avec la stratégie restrictive par rapport à un seuil de 9 g/dL [S6] ;
-  - chez le patient avec **maladie cardiovasculaire**, l'ESGE suggère une stratégie plus libérale (seuil ≤ 8 g/dL, objectif ≥ 10 g/dL) [S1] [formulation exacte À VÉRIFIER] ;
-  - hémorragie **variqueuse** : seuil 7 g/dL, objectif 7–8 g/dL [S3] ; une sur-transfusion augmente la pression portale et le risque de récidive.
+  - seuil de transfusion **7 g/dL**, objectif **7–9 g/dL** dans l'hémorragie non variqueuse chez les patients sans cardiopathie [S1, S6] ; l'essai de Villanueva (921 patients) a montré une meilleure survie à 6 semaines (95 % vs 91 %) et moins de récidives avec la stratégie restrictive par rapport à un seuil de 9 g/dL [S6] ;
+  - chez le patient avec **maladie cardiovasculaire aiguë ou chronique**, l'ESGE recommande une stratégie plus libérale (seuil ≤ 8 g/dL, objectif ≥ 10 g/dL ; recommandation forte, niveau de preuve faible) [S1] ;
+  - hémorragie **variqueuse** : transfusion prudente, objectif 7–8 g/dL selon Baveno VII (en tenant compte de l'âge, d'une cardiopathie, de l'hémodynamique et d'un saignement actif) [S3] ; l'ESGE 2022 retient le même seuil de 7 g/dL avec une cible de 7–9 g/dL [S2] ; une sur-transfusion augmente la pression portale et le risque de récidive.
   - L'hémorragie massive avec choc relève d'un **protocole de transfusion massive** (culots, plasma, plaquettes, fibrinogène) selon le protocole local.
 - **Plaquettes** : à discuter si plaquettes < 50 G/L avec saignement actif (seuil d'usage, [À VÉRIFIER — protocole local]) ; chez le cirrhotique, la correction systématique de la thrombopénie et de l'INR n'est pas recommandée [S3].
 - **Acide tranexamique** : **ne pas utiliser** dans l'hémorragie digestive. L'essai HALT-IT (12 009 patients ; 1 g en 10 min puis 3 g sur 24 h) n'a montré aucune réduction des décès par hémorragie à 5 jours (3,7 % vs 3,8 % ; RR 0,99) mais un doublement des thromboses veineuses (0,8 % vs 0,4 %) et davantage de convulsions [S7].
@@ -596,12 +602,12 @@ L'hémorragie ulcéreuse **s'arrête spontanément dans environ 80 % des cas** (
 
 | Situation | Schéma | Source |
 |---|---|---|
-| **Avant l'endoscopie** (HDH suspectée non variqueuse) | IPP IV à forte dose : bolus de 80 mg puis perfusion continue de 8 mg/h (oméprazole/ésoméprazole) — ne doit jamais retarder l'endoscopie | [S1] |
-| **Après hémostase endoscopique** ou caillot adhérent non traité | IPP forte dose pendant **72 h** : bolus 80 mg puis 8 mg/h, ou bolus IV intermittents au moins 2 fois/jour en alternative | [S1] |
-| **Relais oral** | IPP double dose (2 prises/jour) jusqu'à J14, puis simple dose ; durée totale selon la lésion et la persistance du facteur de risque | [S1] [durées exactes À VÉRIFIER] |
+| **Avant l'endoscopie** (HDH suspectée non variqueuse) | IPP IV à forte dose à envisager : bolus de 80 mg puis perfusion continue de 8 mg/h (oméprazole/ésoméprazole) — ne doit jamais retarder l'endoscopie | [S1] |
+| **Après hémostase endoscopique** ou caillot adhérent (IIb) non traité | IPP forte dose pendant **72 h** : bolus 80 mg puis 8 mg/h ; alternatives acceptées par l'ESGE 2021 : bolus IV à forte dose 2 fois/jour, ou forte dose orale 2 fois/jour | [S1] |
+| **Relais oral** | IPP à forte dose en 2 prises/jour (forme orale biquotidienne admise par l'ESGE 2021), puis dose standard une fois par jour ; durée totale selon la lésion et la persistance du facteur de risque. Le schéma « double dose jusqu'à J14 » est classiquement enseigné mais n'a pas été retrouvé dans les recommandations principales de l'ESGE 2021 [À VÉRIFIER — texte intégral] | [S1] |
 | **Stigmates de bas risque (IIc, III)** | IPP oral à dose standard, réalimentation précoce, sortie précoce possible | [S1] |
 
-Effets indésirables des IPP (au long cours) : infections digestives (*Clostridioides difficile*), hypomagnésémie, interactions (clopidogrel/oméprazole discutée), néphrite interstitielle (rare). [POSOLOGIE À VÉRIFIER — RCP / protocole local pour la forme IV disponible en Algérie.]
+Effets indésirables des IPP (au long cours) : infections digestives (*Clostridioides difficile*), hypomagnésémie, interactions (clopidogrel/oméprazole discutée), néphrite interstitielle (rare). Schéma 80 mg puis 8 mg/h pendant 72 h : recommandation ESGE 2021 (recommandation 9) [S1] et RCP de l'ésoméprazole IV. Disponibilité de la forme IV en Algérie : à vérifier auprès de la pharmacie hospitalière [À VÉRIFIER].
 
 #### 13.2.3 Érythromycine
 
@@ -609,23 +615,23 @@ Effets indésirables des IPP (au long cours) : infections digestives (*Clostridi
 
 #### 13.2.4 Traitements vasoactifs splanchniques (hémorragie variqueuse)
 
-À débuter **dès la suspicion** d'hémorragie variqueuse, **avant** l'endoscopie, et à poursuivre **2 à 5 jours** [S2, S3].
+À débuter **dès la suspicion** d'hémorragie variqueuse, **avant** l'endoscopie, et à poursuivre **2 à 5 jours** (Baveno VII : recommandation A.1) [S2, S3].
 
 | Molécule | Posologie usuelle | Points importants | Source |
 |---|---|---|---|
-| **Terlipressine** | 2 mg IV toutes les 4 h les 48 premières heures, puis 1 mg toutes les 4 h (dose adaptée au poids selon RCP) | Contre-indications relatives : cardiopathie ischémique, artériopathie, arythmie ; risque d'ischémie, d'hyponatrémie | [S8] |
-| **Somatostatine** | Bolus 250 µg (renouvelable dans la première heure), puis 250–500 µg/h en perfusion continue | Bonne tolérance ; hyperglycémie | [S8] |
+| **Terlipressine** | 2 mg IV toutes les 4 h les 48 premières heures, puis 1 mg toutes les 4 h (adaptation au poids selon le RCP) | Contre-indications relatives : cardiopathie ischémique, artériopathie, arythmie ; risque d'ischémie ; **hyponatrémie** à surveiller (natrémie), surtout si la fonction hépatique est conservée (Baveno VII) | [S8, S3] |
+| **Somatostatine** | Bolus 250 µg (renouvelable dans la première heure si saignement persistant), puis 250 µg/h en perfusion continue (jusqu'à 500 µg/h) | Bonne tolérance ; hyperglycémie | [S8] |
 | **Octréotide** | Bolus 50 µg, puis 50 µg/h en perfusion continue | Analogue de la somatostatine | [S8] |
 
-[POSOLOGIE À VÉRIFIER — RCP / protocole local : disponibilité de chaque molécule en Algérie et schémas pondéraux.]
+Posologies : schémas standard des recommandations EASL 2018 sur la cirrhose décompensée [S8] (durée 2–5 jours : Baveno VII ; « jusqu'à 5 jours » : ESGE 2022) [S2, S3]. Disponibilité de chaque molécule en Algérie : à vérifier localement [À VÉRIFIER].
 
 #### 13.2.5 Antibioprophylaxie du cirrhotique
 
-Recommandée chez **tout cirrhotique** présentant une hémorragie digestive (variqueuse ou non) : **ceftriaxone 1 g/24 h pendant au maximum 7 jours** [S2, S3]. Elle réduit les infections, la récidive hémorragique et la mortalité. L'écologie bactérienne locale peut justifier une adaptation.
+Partie intégrante du traitement de **tout cirrhotique** présentant une hémorragie digestive haute, à débuter **dès l'admission** (Baveno VII) [S3] : **ceftriaxone 1 g/24 h jusqu'à 7 jours** (ESGE 2022, recommandation forte) [S2] ; Baveno VII la privilégie en cas de cirrhose avancée, d'écologie à forte résistance aux quinolones ou de prophylaxie antérieure par quinolone, et note que le risque infectieux est très faible en Child-Pugh A (bénéfice non tranché dans ce sous-groupe) [S3]. Elle réduit les infections, la récidive hémorragique et la mortalité. L'écologie bactérienne locale peut justifier une adaptation.
 
 #### 13.2.6 Prévention de l'encéphalopathie hépatique
 
-Chez le cirrhotique qui saigne, l'élimination rapide du sang intraluminal (lactulose, éventuellement mannitol) peut être utilisée pour prévenir l'encéphalopathie [S3] [formulation exacte À VÉRIFIER].
+Chez le cirrhotique qui saigne, l'élimination rapide du sang intraluminal par **lactulose (oral ou en lavements)** doit être utilisée pour prévenir l'encéphalopathie hépatique (Baveno VII, recommandation B.1) ; une encéphalopathie déclarée est traitée par lactulose [S3].
 
 #### 13.2.7 Moyens endoscopiques
 
@@ -645,14 +651,14 @@ Chez le cirrhotique qui saigne, l'élimination rapide du sang intraluminal (lact
 
 - **Embolisation artérielle** (artère gastroduodénale, gastrique gauche, branches mésentériques) : échec de l'hémostase endoscopique de l'ulcère (alternative à la chirurgie, souvent préférée) [S1] ; HDB avec extravasation à l'angio-TDM [S4].
 - **TIPS** (shunt porto-systémique intrahépatique par voie transjugulaire) :
-  - **préemptif** (dans les 72 h, idéalement < 24 h) chez les cirrhotiques à haut risque : Child-Pugh C < 14 points, ou Child-Pugh B > 7 points avec saignement actif à l'endoscopie initiale, ou GPVH > 20 mmHg [S3, S13] ;
+  - **préemptif** (prothèse couverte en PTFE, dans les 72 h, idéalement < 24 h) chez les cirrhotiques à haut risque saignant de varices œsophagiennes ou GOV1/GOV2 : Child-Pugh C < 14 points, ou Child-Pugh B > 7 points avec saignement actif à l'endoscopie initiale, ou GPVH > 20 mmHg [S3, S13] ; une ACLF, une encéphalopathie ou une hyperbilirubinémie à l'admission ne sont **pas** des contre-indications chez ces patients (Baveno VII) [S3] ;
   - **de sauvetage** : hémorragie persistante ou récidive malgré traitement vasoactif et endoscopique [S2, S3].
-  - Contre-indications et réserves : insuffisance cardiaque, hypertension pulmonaire sévère, encéphalopathie récidivante, Child-Pugh ≥ 14, sepsis non contrôlé, obstacle anatomique.
+  - Contre-indications et réserves : insuffisance cardiaque, hypertension pulmonaire sévère, encéphalopathie récidivante, sepsis non contrôlé, obstacle anatomique ; futilité probable si Child-Pugh ≥ 14, ou MELD > 30 avec lactates > 12 mmol/L, sauf transplantation envisagée à court terme (Baveno VII) [S3].
 - **Obturation rétrograde transveineuse par ballonnet (BRTO)** : varices gastriques avec shunt spléno-rénal (centres experts).
 
 #### 13.2.9 Tamponnement par sonde à ballonnets
 
-Sonde de **Sengstaken-Blakemore** (œsophagienne + gastrique) ou de **Linton** (gastrique) : mesure **temporaire** (≤ 24 h) en cas d'hémorragie variqueuse massive non contrôlée, dans l'attente d'un traitement définitif (TIPS) ; complications graves (nécrose, rupture œsophagienne, inhalation). Baveno VII préfère, lorsque disponible, la **prothèse œsophagienne auto-expansible** [S3].
+Sonde de **Sengstaken-Blakemore** (œsophagienne + gastrique) ou de **Linton** (gastrique) : mesure **temporaire** (≤ 24 h) en cas d'hémorragie variqueuse massive non contrôlée, dans l'attente d'un traitement définitif (TIPS) ; complications graves (nécrose, rupture œsophagienne, inhalation). Selon Baveno VII, la **prothèse œsophagienne métallique auto-expansible** est aussi efficace que le tamponnement et plus sûre [S3].
 
 #### 13.2.10 Chirurgie
 
@@ -684,8 +690,8 @@ Désormais rare : **échec de l'hémostase endoscopique et de l'embolisation**, 
 6. Évaluer l'indication de **TIPS préemptif** (Child C < 14 ; Child B > 7 avec saignement actif ; GPVH > 20 mmHg) dans les 72 h [S3, S13].
 7. Hémorragie réfractaire → tamponnement (sonde ou prothèse) comme pont → **TIPS de sauvetage** [S2, S3].
 8. Prévention et dépistage des complications : lactulose, surveillance de l'encéphalopathie, de la fonction rénale, de l'infection.
-9. Arrêt de l'IPP éventuellement débuté avant l'endoscopie si aucune indication ulcéreuse n'est retrouvée [S3] [À VÉRIFIER].
-10. **Prophylaxie secondaire** (dès J3–J5, à l'arrêt du vasoactif) : **bêtabloquant non sélectif (propranolol ou carvédilol) + ligatures itératives** jusqu'à éradication [S2, S3].
+9. Arrêt de l'IPP éventuellement débuté avant l'endoscopie, sauf indication stricte à le poursuivre (Baveno VII, recommandation 6.12) [S3].
+10. **Prophylaxie secondaire** (dès J3–J5, à l'arrêt du vasoactif) : **bêtabloquant non sélectif (propranolol, nadolol) ou carvédilol + ligatures itératives** jusqu'à éradication (Baveno VII 7.8 ; ESGE 2022) [S2, S3].
 
 #### 13.3.3 Hémorragie digestive basse
 
@@ -700,10 +706,10 @@ Désormais rare : **échec de l'hémostase endoscopique et de l'embolisation**, 
 | Traitement | Conduite pendant l'épisode aigu | Reprise |
 |---|---|---|
 | **Aspirine en prévention primaire** | Arrêter | Réévaluer la balance bénéfice/risque ; souvent arrêt définitif |
-| **Aspirine en prévention secondaire** | Poursuivre si possible ou interrompre brièvement | Reprise rapide (dans les jours suivant l'hémostase, souvent ≤ 3–5 jours) [S1] [délai exact À VÉRIFIER] |
+| **Aspirine faible dose en prévention secondaire (monothérapie)** | **Ne pas l'interrompre** (ESGE 2021) | Si elle a été interrompue : reprise dès que possible, de préférence dans les **3–5 jours** [S1] |
 | **Double antiagrégation (stent récent)** | Ne pas interrompre l'aspirine ; décision collégiale avec le cardiologue pour l'inhibiteur de P2Y12 | Reprise précoce de l'inhibiteur de P2Y12 (avis cardiologique) |
-| **AVK** | Interrompre ; si hémorragie grave : vitamine K + concentré de complexe prothrombinique (CCP 4 facteurs, préféré au plasma) [S4] | Reprise après contrôle du saignement, de préférence **dans les 7 jours** ou peu après [S1] |
-| **AOD** | Interrompre ; antidote spécifique ou CCP si hémorragie menaçante, selon disponibilité [S4] | Idem, de préférence dans les 7 jours [S1] |
+| **AVK** | Interrompre ; si hémorragie menaçant le pronostic vital : vitamine K + concentré de complexe prothrombinique (CCP, préféré au plasma) selon le protocole local ; l'antagonisation n'est pas systématique (position ACG à confirmer dans le texte intégral [À VÉRIFIER]) | Reprise dès le contrôle du saignement, de préférence **dans les 7 jours ou peu après**, selon le risque thromboembolique [S1] |
+| **AOD** | Interrompre ; antidote spécifique ou CCP seulement si hémorragie menaçante, selon disponibilité et protocole local [À VÉRIFIER] | Idem, de préférence dans les 7 jours ou peu après ; tenir compte du délai d'action rapide des AOD [S1] |
 
 Le message clé : **les patients qui reprennent leur anticoagulation ont moins d'événements thromboemboliques et une mortalité plus faible**, au prix d'un risque de récidive hémorragique modérément accru ; l'ACG recommande la reprise de l'anticoagulation après l'arrêt du saignement [S4], l'ESGE la reprise de préférence dans les 7 jours [S1].
 
@@ -726,7 +732,7 @@ Le message clé : **les patients qui reprennent leur anticoagulation ont moins d
 ### 14.2 Surveillance à moyen terme
 
 - **Ulcère** : contrôle endoscopique de la cicatrisation d'un **ulcère gastrique** (biopsies pour éliminer un cancer) à 6–8 semaines ; contrôle de l'éradication de *H. pylori* [S14].
-- **Varices** : séances de ligature toutes les 1 à 4 semaines jusqu'à éradication, puis EOGD de contrôle à 3–6 mois puis tous les 6–12 mois [S2] [intervalles exacts À VÉRIFIER] ; tolérance du bêtabloquant (FC, PA).
+- **Varices** : séances de ligature toutes les 1 à 4 semaines jusqu'à éradication (ESGE 2022), puis EOGD de surveillance tous les 3–6 mois la première année suivant l'éradication (ESGE 2022, recommandation formulée pour la prophylaxie primaire par ligature) [S2] ; tolérance du bêtabloquant (FC, PA).
 - **Anémie** : supplémentation martiale (voie orale ou IV si intolérance/carence profonde), contrôle de l'hémogramme et de la ferritine.
 
 ---
@@ -801,7 +807,7 @@ H. pylori (biopsies) → éradication + contrôle ; arrêt AINS ; plan antithrom
 Suspicion d'hémorragie variqueuse
         ▼
 Vasoactif IMMÉDIAT (terlipressine / somatostatine / octréotide) — 2 à 5 jours
-+ Ceftriaxone 1 g/j (≤ 7 j) + transfusion restrictive (Hb 7–8 g/dL)
++ Antibioprophylaxie dès l'admission (ceftriaxone 1 g/j, ≤ 7 j) + transfusion restrictive (Hb 7–8 g/dL)
 + érythromycine avant endoscopie + lactulose (prévention EH)
         ▼
 EOGD ≤ 12 h
@@ -815,7 +821,7 @@ Haut risque ? (Child C < 14 / Child B > 7 + saignement actif / GPVH > 20)
 Échec (saignement persistant / récidive précoce)
    → tamponnement (prothèse ou sonde) comme pont → TIPS DE SAUVETAGE
         ▼
-Prophylaxie secondaire : BBNS (propranolol / carvédilol) + ligatures itératives
+Prophylaxie secondaire : BBNS (propranolol / nadolol) ou carvédilol + ligatures itératives
 ```
 
 ### 16.4 Hémorragie digestive basse
@@ -849,7 +855,7 @@ Bilan négatif (EOGD + coloscopie) → hémorragie du grêle → vidéocapsule /
 Hémorragie digestive haute (hématémèse + méléna) avec **retentissement hémodynamique** (FC > 100, PAS < 100, lactates > 2) chez un **coronarien**. Score de Glasgow-Blatchford : urée 10–25 → 4 ; Hb homme < 10 → 6 ; PAS 90–99 → 2 ; FC ≥ 100 → 1 ; méléna → 1 ; syncope (malaise lipothymique sans perte de connaissance : à discuter, 0 ici) → **14 points** : patient à haut risque, hospitalisation en soins continus.
 
 **Question 2 — Mesures immédiates ?**
-Deux voies veineuses, groupe-RAI, remplissage prudent par cristalloïdes, oxygène, à jeun. Transfusion : patient coronarien → stratégie un peu plus libérale (seuil ≈ 8 g/dL, objectif autour de 10 g/dL selon l'ESGE [S1]) : transfusion d'un culot puis réévaluation. **IPP IV** : bolus 80 mg puis 8 mg/h. **Érythromycine 250 mg IV** 30–120 min avant l'EOGD. Arrêt de l'ibuprofène. Aspirine en prévention secondaire : suspension brève, reprise précoce après hémostase (avis cardiologique). Pas d'acide tranexamique [S7].
+Deux voies veineuses, groupe-RAI, remplissage prudent par cristalloïdes, oxygène, à jeun. Transfusion : patient coronarien → stratégie plus libérale (seuil ≤ 8 g/dL, objectif ≥ 10 g/dL selon l'ESGE, recommandation formulée pour le patient stable [S1]) ; ici, Hb 8,9 g/dL mais instabilité hémodynamique et saignement probablement actif : transfusion d'un culot justifiée puis réévaluation. **IPP IV** : bolus 80 mg puis 8 mg/h. **Érythromycine 250 mg IV** 30–120 min avant l'EOGD. Arrêt de l'ibuprofène. Aspirine en prévention secondaire : l'ESGE recommande de ne pas l'interrompre ; si elle est suspendue (instabilité), reprise dès que possible, de préférence dans les 3–5 jours (avis cardiologique). Pas d'acide tranexamique [S7].
 
 **Question 3 — Quand faire l'endoscopie ?**
 Après stabilisation, **dans les 24 h** ; si l'instabilité persiste malgré la réanimation, endoscopie urgente en milieu sécurisé [S1].
@@ -861,7 +867,7 @@ Hémostase endoscopique : injection d'adrénaline diluée **associée** à la po
 
 **Évolution** : à H+40, nouvelle hématémèse, FC 125/min, Hb 7,1 g/dL. **Question 5 — Que faire ?** Récidive précoce : réanimation, transfusion, **seconde endoscopie** (hémostase, éventuellement clip OTSC) ; en cas d'échec, **embolisation de l'artère gastroduodénale** ; chirurgie si échec ou indisponibilité de la radiologie interventionnelle [S1]. Ici, la seconde endoscopie avec OTSC obtient l'hémostase.
 
-**Question 6 — Prévention de la récidive ?** Biopsies : *H. pylori* positif → traitement d'éradication selon les recommandations et l'antibiorésistance locale [S14], contrôle par test respiratoire. Arrêt définitif des AINS (antalgie par paracétamol). Reprise de l'aspirine dès que l'hémostase est assurée (en pratique dans les jours suivants), sous couverture par IPP au long cours.
+**Question 6 — Prévention de la récidive ?** Biopsies : *H. pylori* positif → traitement d'éradication selon les recommandations et l'antibiorésistance locale [S14], contrôle par test respiratoire. Arrêt définitif des AINS (antalgie par paracétamol). Reprise de l'aspirine dès que l'hémostase est assurée (de préférence dans les 3–5 jours [S1]), sous couverture par IPP au long cours.
 
 **Commentaire pédagogique** : ce cas illustre (1) le cumul AINS + aspirine + *H. pylori* non éradiqué, (2) l'utilisation du score de Glasgow-Blatchford pour l'orientation, (3) la particularité transfusionnelle du coronarien, (4) l'algorithme de récidive (endoscopie → embolisation → chirurgie), (5) la gestion de l'aspirine en prévention secondaire, où le risque thrombotique de l'arrêt dépasse souvent le risque hémorragique de la reprise.
 
@@ -880,7 +886,7 @@ Hémostase endoscopique : injection d'adrénaline diluée **associée** à la po
 9. **Cirrhotique** : vasoactif immédiat 2–5 j + **ceftriaxone** + EOGD ≤ 12 h + **ligature** ; TIPS préemptif chez les patients à haut risque [S2, S3].
 10. HDB : angio-TDM si saignement actif avec instabilité ; coloscopie non urgente chez le patient stable [S4].
 11. *H. pylori* : rechercher en phase aiguë, **refaire le test si négatif**, contrôler l'éradication [S1, S14].
-12. Reprise de l'anticoagulation de préférence **dans les 7 jours** ; aspirine de prévention secondaire reprise rapidement [S1, S4].
+12. Reprise de l'anticoagulation de préférence **dans les 7 jours ou peu après** ; aspirine de prévention secondaire non interrompue (ou reprise dans les 3–5 jours) [S1, S4].
 
 ---
 
@@ -991,10 +997,11 @@ E. Rupture de varices œsophagiennes.
 |---|---|---|---|
 | **Seuil de Glasgow-Blatchford pour la sortie** | ESGE 2021 : score ≤ 1 → pas d'hospitalisation ni d'endoscopie urgente [S1] ; étude de Stanley 2017 : seuil optimal ≤ 1 [S5] | Certains référentiels nationaux (notamment britanniques, NICE — non revérifié dans cette session) retiennent un seuil de 0 [À VÉRIFIER] | Le seuil ≤ 1 accroît la proportion de patients gérés en ambulatoire au prix d'une faible perte de sensibilité |
 | **Délai de l'endoscopie dans l'hémorragie variqueuse** | ESGE 2022 : ≤ 12 h après stabilisation [S2] | Baveno VII 2022 : ≤ 12 h également [S3] | Concordance ; l'enjeu est de ne pas attendre 24 h comme dans l'hémorragie non variqueuse |
+| **Cible transfusionnelle de l'hémorragie variqueuse** | Baveno VII : 7–8 g/dL [S3] | ESGE 2022 : seuil 7 g/dL, cible 7–9 g/dL (recommandation commune aux hémorragies hautes) [S2] | Dans tous les cas, éviter la sur-transfusion |
 | **Délai de l'endoscopie dans l'hémorragie non variqueuse** | ESGE 2021 : ≤ 24 h ; pas d'endoscopie ≤ 12 h systématique (2021) [S1] | Version ESGE 2015 et pratiques antérieures : endoscopie très précoce encouragée chez les patients à haut risque | La mise à jour 2021 s'appuie sur un essai randomisé n'ayant pas montré de bénéfice de l'endoscopie urgente |
-| **Seuil transfusionnel chez le coronarien** | ESGE 2021 : stratégie plus libérale (≤ 8 g/dL, cible ≥ 10) [S1] [À VÉRIFIER] | Essai de Villanueva : patients avec syndrome coronarien aigu exclus ; données limitées [S6] | Individualiser |
+| **Seuil transfusionnel chez le coronarien** | ESGE 2021 : stratégie plus libérale (≤ 8 g/dL, cible ≥ 10 g/dL ; recommandation forte, preuve faible) [S1] | Essai de Villanueva : patients avec syndrome coronarien aigu exclus ; données limitées [S6] | Individualiser |
 | **Coloscopie dans l'HDB** | ACG 2023 : coloscopie non urgente pour la plupart des patients hospitalisés [S4] | Pratiques antérieures : coloscopie urgente (< 24 h) proposée pour améliorer le rendement diagnostique | Pas de bénéfice démontré sur les critères majeurs [S4] |
-| **Reprise de l'anticoagulation** | ESGE 2021 : de préférence dans les 7 jours [S1] | ACG 2023 : reprise après l'arrêt du saignement, sans délai unique imposé [S4] | Décision individualisée selon le risque thrombotique |
+| **Reprise de l'anticoagulation** | ESGE 2021 : dès le contrôle du saignement, de préférence dans les 7 jours ou peu après [S1] | ACG 2023 : reprise après l'arrêt du saignement, sans délai unique imposé [S4] | Décision individualisée selon le risque thrombotique |
 
 ---
 
@@ -1004,13 +1011,13 @@ E. Rupture de varices œsophagiennes.
 2. **[S2]** Gralnek IM, et al. Endoscopic diagnosis and management of esophagogastric variceal hemorrhage: ESGE Guideline. *Endoscopy*. 2022;54(11):1094-1120. doi:10.1055/a-1939-4887. — *vérifiée*.
 3. **[S3]** de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. *J Hepatol*. 2022;76(4):959-974. doi:10.1016/j.jhep.2021.12.022. — *vérifiée*.
 4. **[S4]** Sengupta N, et al. Management of Patients With Acute Lower Gastrointestinal Bleeding: An Updated ACG Guideline. *Am J Gastroenterol*. 2023;118(2):208-231. doi:10.14309/ajg.0000000000002130. — *vérifiée*.
-5. **[S5]** Stanley AJ, et al. Comparison of risk scoring systems for patients presenting with upper gastrointestinal bleeding: international multicentre prospective study. *BMJ*. 2017;356:i6432. — *vérifiée*.
+5. **[S5]** Stanley AJ, et al. Comparison of risk scoring systems for patients presenting with upper gastrointestinal bleeding: international multicentre prospective study. *BMJ*. 2017;356:i6432. doi:10.1136/bmj.i6432 (PMID 28053181). — *vérifiée*.
 6. **[S6]** Villanueva C, et al. Transfusion strategies for acute upper gastrointestinal bleeding. *N Engl J Med*. 2013;368:11-21. doi:10.1056/NEJMoa1211801. — *vérifiée*.
-7. **[S7]** HALT-IT Trial Collaborators. Effects of a high-dose 24-h infusion of tranexamic acid on death and thromboembolic events in patients with acute gastrointestinal bleeding (HALT-IT). *Lancet*. 2020 [pagination À VÉRIFIER]. — *vérifiée (existence et résultats principaux)*.
+7. **[S7]** HALT-IT Trial Collaborators. Effects of a high-dose 24-h infusion of tranexamic acid on death and thromboembolic events in patients with acute gastrointestinal bleeding (HALT-IT). *Lancet*. 2020;395(10241):1927-1936. doi:10.1016/S0140-6736(20)30848-5 (PMID 32563378). — *vérifiée*.
 8. **[S8]** EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis. *J Hepatol*. 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024. — *vérifiée*.
-9. **[S9]** Blatchford O, et al. A risk score to predict need for treatment for upper-gastrointestinal haemorrhage. *Lancet*. 2000;356:1318-1321. — *non revérifiée dans la session*.
-10. **[S10]** Rockall TA, et al. Risk assessment after acute upper gastrointestinal haemorrhage. *Gut*. 1996;38:316-321. — *non revérifiée*.
-11. **[S11]** Forrest JA, et al. Endoscopy in gastrointestinal bleeding. *Lancet*. 1974;2:394-397. — *non revérifiée*.
-12. **[S12]** Oakland K, et al. Derivation and validation of a novel risk score for safe discharge after acute lower gastrointestinal bleeding. *Lancet Gastroenterol Hepatol*. 2017;2:635-643. — *non revérifiée*.
-13. **[S13]** García-Pagán JC, et al. Early use of TIPS in patients with cirrhosis and variceal bleeding. *N Engl J Med*. 2010;362:2370-2379. — *non revérifiée*.
-14. **[S14]** Malfertheiner P, et al. Management of *Helicobacter pylori* infection: the Maastricht VI/Florence consensus report. *Gut*. 2022;71:1724-1762. — *non revérifiée*.
+9. **[S9]** Blatchford O, et al. A risk score to predict need for treatment for upper-gastrointestinal haemorrhage. *Lancet*. 2000;356(9238):1318-1321. doi:10.1016/S0140-6736(00)02816-6 (PMID 11073021). — *vérifiée (audit)*.
+10. **[S10]** Rockall TA, et al. Risk assessment after acute upper gastrointestinal haemorrhage. *Gut*. 1996;38(3):316-321. doi:10.1136/gut.38.3.316 (PMID 8675081). — *vérifiée (audit)*.
+11. **[S11]** Forrest JA, et al. Endoscopy in gastrointestinal bleeding. *Lancet*. 1974;2(7877):394-397. doi:10.1016/S0140-6736(74)91770-X (PMID 4136718). — *vérifiée (audit)*.
+12. **[S12]** Oakland K, et al. Derivation and validation of a novel risk score for safe discharge after acute lower gastrointestinal bleeding: a modelling study. *Lancet Gastroenterol Hepatol*. 2017;2(9):635-643. doi:10.1016/S2468-1253(17)30150-4 (PMID 28651935). — *vérifiée (audit)*.
+13. **[S13]** García-Pagán JC, et al. Early use of TIPS in patients with cirrhosis and variceal bleeding. *N Engl J Med*. 2010;362(25):2370-2379. doi:10.1056/NEJMoa0910102 (PMID 20573925). — *vérifiée (audit)*.
+14. **[S14]** Malfertheiner P, et al. Management of *Helicobacter pylori* infection: the Maastricht VI/Florence consensus report. *Gut*. 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745 (PMID 35944925). — *vérifiée (audit)*.

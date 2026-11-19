@@ -13,3 +13,9 @@ Mission : Catalogue vérifié des ouvrages de référence et structuration des c
 - Lot 3 écrit : `ENC-1-NEUR-PSYC-GERI.json` (NEUR, PSYC, GERI).
 - Lot 4 écrit : `ENC-1-DERM-RHUM-GENE.json`.
 - Lot 5 écrit : `ENC-1-ENDO-DIAB-ONCO.json`.
+- Lot 6 écrit : `ENC-1-INFE-PARA-HEMA.json` (INFE 60, PARA 35, HEMA 58).
+- Reconstruction finale des 6 lots avec résolution des liens inter-lots ; ajouts de couverture d'items (vertiges C047, ostéomyélite C038, génétique S023/S025).
+- Validation indépendante (python3) : 6 JSON valides, 885 ids uniques `PATH-<CODE>-nnnn`, 3 725 liens `pathologies_liees` tous résolus (liens vers des pathologies hors périmètre retirés : uvéite, appendicite, nocardiose, cyphoscoliose, conjonctivite allergique), items tous présents dans programme_residanat.json, aucune fiche sans lien.
+- Bilan : CARD 68, PNEU 50, MINT 34, IMPA 25, GAST 49, HEPA 48, NEPH 52, NEUR 72, PSYC 50, GERI 19, DERM 65, RHUM 43, GENE 39, ENDO 53, DIAB 21, ONCO 44, INFE 60, PARA 35, HEMA 58 = 885 ; maladies rares 220 ; CIM-10 renseigné 736 (83,2 %) ; 562 pathologies reliées à ≥ 1 item.
+- Règles appliquées : CIM-10 OMS seulement si certain (null pour les entités composites, codes spécifiques à la CIM-10-CM, ou incertains : ex. dengue, SJS/Lyell, complications du diabète, cholangiocarcinome) ; aucune posologie ; contenu standard et concis ; `dossier: null`, `statut: referentiel_a_auditer`.
+- Limites : codes CIM-10 non vérifiés en ligne pendant la session (connaissance établie) ; 6 fiches sans sous-spécialité adaptée dans specialites.yaml (IRC, MNI, CMV, encéphalite herpétique, VPPB, névrite vestibulaire) ; périmètre limité aux 19 spécialités demandées ; indexer.py non lancé (fusion laissée au pipeline).

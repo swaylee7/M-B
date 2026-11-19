@@ -1,0 +1,1371 @@
+{
+  "agent": "TRA-01",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-09000",
+      "fr": "ponction lombaire",
+      "en": "lumbar puncture",
+      "ar": "البَزْل القطني",
+      "ar_variantes": [],
+      "definition_fr": "Introduction d'une aiguille dans l'espace sous-arachnoïdien lombaire pour prélever du liquide cérébro-spinal.",
+      "categorie": "examen",
+      "specialites": [
+        "NEUR",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09001",
+      "fr": "ponction pleurale",
+      "en": "thoracentesis",
+      "ar": "بَزْل الجنبة",
+      "ar_variantes": [],
+      "definition_fr": "Ponction de la cavité pleurale à visée diagnostique ou évacuatrice.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09002",
+      "fr": "ponction d'ascite",
+      "en": "paracentesis",
+      "ar": "بَزْل البطن",
+      "ar_variantes": [
+        "بزل الحبن"
+      ],
+      "definition_fr": "Ponction de la cavité péritonéale pour analyser ou évacuer l'ascite.",
+      "categorie": "examen",
+      "specialites": [
+        "HEPA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09003",
+      "fr": "ponction articulaire",
+      "en": "arthrocentesis",
+      "ar": "بَزْل المفصل",
+      "ar_variantes": [],
+      "definition_fr": "Ponction d'une articulation pour analyse du liquide synovial ou évacuation.",
+      "categorie": "examen",
+      "specialites": [
+        "RHUM",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09004",
+      "fr": "ponction-biopsie hépatique",
+      "en": "liver biopsy",
+      "ar": "خزعة الكبد",
+      "ar_variantes": [],
+      "definition_fr": "Prélèvement de tissu hépatique pour examen histologique.",
+      "categorie": "examen",
+      "specialites": [
+        "HEPA",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09005",
+      "fr": "toucher rectal",
+      "en": "digital rectal examination",
+      "ar": "المسّ الشرجي",
+      "ar_variantes": [],
+      "definition_fr": "Examen digital du rectum et de la prostate.",
+      "categorie": "examen",
+      "specialites": [
+        "UROL",
+        "GAST",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09006",
+      "fr": "toucher vaginal",
+      "en": "vaginal examination",
+      "ar": "المسّ المهبلي",
+      "ar_variantes": [],
+      "definition_fr": "Examen digital du vagin, du col et des annexes, souvent combiné au palper abdominal.",
+      "categorie": "examen",
+      "specialites": [
+        "GYNE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09007",
+      "fr": "examen au spéculum",
+      "en": "speculum examination",
+      "ar": "الفحص بالمنظار المهبلي",
+      "ar_variantes": [],
+      "definition_fr": "Inspection du vagin et du col utérin à l'aide d'un spéculum.",
+      "categorie": "examen",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09008",
+      "fr": "glycémie capillaire",
+      "en": "capillary blood glucose",
+      "ar": "قياس سكر الدم الشعري",
+      "ar_variantes": [],
+      "definition_fr": "Mesure de la glycémie sur une goutte de sang prélevée au doigt.",
+      "categorie": "examen",
+      "specialites": [
+        "DIAB",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09009",
+      "fr": "drainage thoracique",
+      "en": "chest tube drainage",
+      "ar": "التصريف الصدري",
+      "ar_variantes": [],
+      "definition_fr": "Mise en place d'un drain dans la cavité pleurale pour évacuer air ou liquide.",
+      "categorie": "traitement",
+      "specialites": [
+        "CTHO",
+        "PNEU",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09010",
+      "fr": "sondage urinaire",
+      "en": "urinary catheterization",
+      "ar": "القَثْطَرة البولية",
+      "ar_variantes": [],
+      "definition_fr": "Introduction d'une sonde dans la vessie par l'urètre.",
+      "categorie": "traitement",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09011",
+      "fr": "sonde nasogastrique",
+      "en": "nasogastric tube",
+      "ar": "الأنبوب الأنفي المعدي",
+      "ar_variantes": [],
+      "definition_fr": "Sonde introduite par le nez jusqu'à l'estomac pour aspiration ou alimentation.",
+      "categorie": "traitement",
+      "specialites": [
+        "CGEN",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09012",
+      "fr": "voie veineuse périphérique",
+      "en": "peripheral venous line",
+      "ar": "الخط الوريدي المحيطي",
+      "ar_variantes": [],
+      "definition_fr": "Cathéter court placé dans une veine superficielle pour perfusion.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09013",
+      "fr": "cathéter veineux central",
+      "en": "central venous catheter",
+      "ar": "القِثطار الوريدي المركزي",
+      "ar_variantes": [],
+      "definition_fr": "Cathéter dont l'extrémité est placée dans une veine cave, pour perfusions prolongées ou agressives.",
+      "categorie": "traitement",
+      "specialites": [
+        "MINT_REA",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09014",
+      "fr": "perfusion intraveineuse",
+      "en": "intravenous infusion",
+      "ar": "التسريب الوريدي",
+      "ar_variantes": [],
+      "definition_fr": "Administration continue d'un soluté ou d'un médicament par voie veineuse.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09015",
+      "fr": "transfusion sanguine",
+      "en": "blood transfusion",
+      "ar": "نقل الدم",
+      "ar_variantes": [],
+      "definition_fr": "Administration de produits sanguins labiles à un receveur.",
+      "categorie": "traitement",
+      "specialites": [
+        "HEMA",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09016",
+      "fr": "concentré de globules rouges",
+      "en": "packed red blood cells",
+      "ar": "مركّز الكريات الحمر",
+      "ar_variantes": [],
+      "definition_fr": "Produit sanguin labile utilisé pour corriger une anémie.",
+      "categorie": "traitement",
+      "specialites": [
+        "HEMA",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09017",
+      "fr": "plasma frais congelé",
+      "en": "fresh frozen plasma",
+      "ar": "البلازما الطازجة المجمّدة",
+      "ar_variantes": [],
+      "definition_fr": "Produit sanguin apportant les facteurs de coagulation.",
+      "categorie": "traitement",
+      "specialites": [
+        "HEMA",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09018",
+      "fr": "oxygénothérapie",
+      "en": "oxygen therapy",
+      "ar": "المعالجة بالأكسجين",
+      "ar_variantes": [],
+      "definition_fr": "Administration d'oxygène pour corriger une hypoxémie.",
+      "categorie": "traitement",
+      "specialites": [
+        "PNEU",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09019",
+      "fr": "intubation endotrachéale",
+      "en": "endotracheal intubation",
+      "ar": "التنبيب الرغامي",
+      "ar_variantes": [],
+      "definition_fr": "Mise en place d'une sonde dans la trachée pour assurer la liberté des voies aériennes et la ventilation.",
+      "categorie": "traitement",
+      "specialites": [
+        "ANES",
+        "MINT_REA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09020",
+      "fr": "ventilation mécanique",
+      "en": "mechanical ventilation",
+      "ar": "التهوية الآلية",
+      "ar_variantes": [
+        "التنفس الاصطناعي"
+      ],
+      "definition_fr": "Suppléance ventilatoire assurée par un respirateur.",
+      "categorie": "traitement",
+      "specialites": [
+        "MINT_REA",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09021",
+      "fr": "ventilation non invasive",
+      "en": "noninvasive ventilation",
+      "ar": "التهوية غير الباضعة",
+      "ar_variantes": [],
+      "definition_fr": "Ventilation mécanique délivrée par un masque, sans intubation.",
+      "categorie": "traitement",
+      "specialites": [
+        "MINT_REA",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09022",
+      "fr": "trachéotomie",
+      "en": "tracheotomy",
+      "ar": "بَضْع الرُّغامى",
+      "ar_variantes": [],
+      "definition_fr": "Ouverture chirurgicale de la trachée cervicale.",
+      "categorie": "traitement",
+      "specialites": [
+        "ORL",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09023",
+      "fr": "réanimation cardiopulmonaire",
+      "en": "cardiopulmonary resuscitation",
+      "ar": "الإنعاش القلبي الرئوي",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des gestes (compressions, ventilation, défibrillation) visant à restaurer une circulation spontanée.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09024",
+      "fr": "massage cardiaque externe",
+      "en": "chest compressions",
+      "ar": "التدليك القلبي الخارجي",
+      "ar_variantes": [
+        "الضغطات الصدرية"
+      ],
+      "definition_fr": "Compressions thoraciques rythmées assurant une circulation artificielle.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09025",
+      "fr": "défibrillation",
+      "en": "defibrillation",
+      "ar": "إزالة الرجفان",
+      "ar_variantes": [],
+      "definition_fr": "Délivrance d'un choc électrique pour interrompre une fibrillation ou une tachycardie ventriculaire sans pouls.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09026",
+      "fr": "cardioversion",
+      "en": "cardioversion",
+      "ar": "تقويم نظم القلب",
+      "ar_variantes": [],
+      "definition_fr": "Restauration du rythme sinusal par choc électrique synchronisé ou médicament.",
+      "categorie": "traitement",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09027",
+      "fr": "stimulateur cardiaque",
+      "en": "pacemaker",
+      "ar": "الناظِمة القلبية",
+      "ar_variantes": [],
+      "definition_fr": "Dispositif implantable stimulant électriquement le cœur en cas de bradycardie.",
+      "categorie": "traitement",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09028",
+      "fr": "angioplastie coronaire",
+      "en": "percutaneous coronary intervention",
+      "ar": "رأب الوعاء الإكليلي",
+      "ar_variantes": [],
+      "definition_fr": "Dilatation d'une sténose coronaire par ballonnet, souvent avec pose de stent.",
+      "categorie": "traitement",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09029",
+      "fr": "pontage aorto-coronarien",
+      "en": "coronary artery bypass grafting",
+      "ar": "المَجازة الإكليلية",
+      "ar_variantes": [],
+      "definition_fr": "Revascularisation chirurgicale du myocarde par greffon artériel ou veineux.",
+      "categorie": "traitement",
+      "specialites": [
+        "CCVA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09030",
+      "fr": "remplacement valvulaire",
+      "en": "valve replacement",
+      "ar": "استبدال الصمام",
+      "ar_variantes": [],
+      "definition_fr": "Substitution d'une valve cardiaque malade par une prothèse.",
+      "categorie": "traitement",
+      "specialites": [
+        "CCVA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09031",
+      "fr": "thrombolyse",
+      "en": "thrombolysis",
+      "ar": "حَلّ الخُثرة",
+      "ar_variantes": [],
+      "definition_fr": "Dissolution médicamenteuse d'un thrombus artériel ou veineux.",
+      "categorie": "traitement",
+      "specialites": [
+        "CARD",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09032",
+      "fr": "thrombectomie mécanique",
+      "en": "mechanical thrombectomy",
+      "ar": "استئصال الخثرة الميكانيكي",
+      "ar_variantes": [],
+      "definition_fr": "Retrait endovasculaire d'un thrombus, notamment dans l'infarctus cérébral.",
+      "categorie": "traitement",
+      "specialites": [
+        "NEUR",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09033",
+      "fr": "dialyse",
+      "en": "dialysis",
+      "ar": "الدِّيال",
+      "ar_variantes": [
+        "غسيل الكلى"
+      ],
+      "definition_fr": "Épuration extrarénale du sang par diffusion à travers une membrane semi-perméable.",
+      "categorie": "traitement",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09034",
+      "fr": "hémodialyse",
+      "en": "hemodialysis",
+      "ar": "الديال الدموي",
+      "ar_variantes": [],
+      "definition_fr": "Dialyse à travers une membrane artificielle avec circulation extracorporelle.",
+      "categorie": "traitement",
+      "specialites": [
+        "NEPH",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09035",
+      "fr": "dialyse péritonéale",
+      "en": "peritoneal dialysis",
+      "ar": "الديال الصِّفاقي",
+      "ar_variantes": [],
+      "definition_fr": "Dialyse utilisant le péritoine comme membrane d'échange.",
+      "categorie": "traitement",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09036",
+      "fr": "transplantation rénale",
+      "en": "kidney transplantation",
+      "ar": "زرع الكلية",
+      "ar_variantes": [],
+      "definition_fr": "Greffe d'un rein provenant d'un donneur vivant ou décédé.",
+      "categorie": "traitement",
+      "specialites": [
+        "NEPH",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09037",
+      "fr": "greffe de cellules souches hématopoïétiques",
+      "en": "hematopoietic stem cell transplantation",
+      "ar": "زرع الخلايا الجذعية المكوّنة للدم",
+      "ar_variantes": [
+        "زرع نقي العظم"
+      ],
+      "definition_fr": "Administration de cellules souches hématopoïétiques après conditionnement.",
+      "categorie": "traitement",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09038",
+      "fr": "anesthésie générale",
+      "en": "general anesthesia",
+      "ar": "التخدير العام",
+      "ar_variantes": [],
+      "definition_fr": "Perte de conscience réversible induite médicamenteusement pour un acte.",
+      "categorie": "traitement",
+      "specialites": [
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09039",
+      "fr": "anesthésie locorégionale",
+      "en": "regional anesthesia",
+      "ar": "التخدير الناحي",
+      "ar_variantes": [],
+      "definition_fr": "Anesthésie d'une région par blocage nerveux.",
+      "categorie": "traitement",
+      "specialites": [
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09040",
+      "fr": "rachianesthésie",
+      "en": "spinal anesthesia",
+      "ar": "التخدير النخاعي",
+      "ar_variantes": [],
+      "definition_fr": "Injection d'anesthésique local dans le liquide cérébro-spinal lombaire.",
+      "categorie": "traitement",
+      "specialites": [
+        "ANES",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09041",
+      "fr": "anesthésie péridurale",
+      "en": "epidural anesthesia",
+      "ar": "التخدير فوق الجافية",
+      "ar_variantes": [],
+      "definition_fr": "Injection d'anesthésique dans l'espace péridural, utilisée notamment pour l'analgésie obstétricale.",
+      "categorie": "traitement",
+      "specialites": [
+        "ANES",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09042",
+      "fr": "laparotomie",
+      "en": "laparotomy",
+      "ar": "بَضْع البطن",
+      "ar_variantes": [
+        "فتح البطن"
+      ],
+      "definition_fr": "Ouverture chirurgicale de la paroi abdominale.",
+      "categorie": "traitement",
+      "specialites": [
+        "CGEN",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09043",
+      "fr": "cœlioscopie",
+      "en": "laparoscopy",
+      "ar": "تنظير البطن",
+      "ar_variantes": [],
+      "definition_fr": "Exploration et chirurgie de la cavité abdominale par endoscopie après insufflation.",
+      "categorie": "traitement",
+      "specialites": [
+        "CGEN",
+        "CDIG",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09044",
+      "fr": "appendicectomie",
+      "en": "appendectomy",
+      "ar": "استئصال الزائدة الدودية",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de l'appendice.",
+      "categorie": "traitement",
+      "specialites": [
+        "CGEN",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09045",
+      "fr": "cholécystectomie",
+      "en": "cholecystectomy",
+      "ar": "استئصال المرارة",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de la vésicule biliaire.",
+      "categorie": "traitement",
+      "specialites": [
+        "CDIG",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09046",
+      "fr": "thyroïdectomie",
+      "en": "thyroidectomy",
+      "ar": "استئصال الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de tout ou partie de la thyroïde.",
+      "categorie": "traitement",
+      "specialites": [
+        "CGEN",
+        "ENDO",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09047",
+      "fr": "colectomie",
+      "en": "colectomy",
+      "ar": "استئصال القولون",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de tout ou partie du côlon.",
+      "categorie": "traitement",
+      "specialites": [
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09048",
+      "fr": "gastrectomie",
+      "en": "gastrectomy",
+      "ar": "استئصال المعدة",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de tout ou partie de l'estomac.",
+      "categorie": "traitement",
+      "specialites": [
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09049",
+      "fr": "splénectomie",
+      "en": "splenectomy",
+      "ar": "استئصال الطحال",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de la rate.",
+      "categorie": "traitement",
+      "specialites": [
+        "CDIG",
+        "CGEN",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09050",
+      "fr": "néphrectomie",
+      "en": "nephrectomy",
+      "ar": "استئصال الكلية",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale du rein.",
+      "categorie": "traitement",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09051",
+      "fr": "prostatectomie",
+      "en": "prostatectomy",
+      "ar": "استئصال المُوثة",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de la prostate.",
+      "categorie": "traitement",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09052",
+      "fr": "résection transurétrale de prostate",
+      "en": "transurethral resection of the prostate",
+      "ar": "الاستئصال عبر الإحليل للموثة",
+      "ar_variantes": [],
+      "definition_fr": "Résection endoscopique de l'adénome prostatique.",
+      "categorie": "traitement",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09053",
+      "fr": "lithotritie extracorporelle",
+      "en": "extracorporeal shock wave lithotripsy",
+      "ar": "تفتيت الحصى بالموجات الصادمة من خارج الجسم",
+      "ar_variantes": [],
+      "definition_fr": "Fragmentation des calculs urinaires par ondes de choc.",
+      "categorie": "traitement",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09054",
+      "fr": "mastectomie",
+      "en": "mastectomy",
+      "ar": "استئصال الثدي",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de la glande mammaire.",
+      "categorie": "traitement",
+      "specialites": [
+        "GYNE",
+        "CGEN",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09055",
+      "fr": "hystérectomie",
+      "en": "hysterectomy",
+      "ar": "استئصال الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de l'utérus.",
+      "categorie": "traitement",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09056",
+      "fr": "césarienne",
+      "en": "cesarean section",
+      "ar": "العملية القيصرية",
+      "ar_variantes": [
+        "القيصرية"
+      ],
+      "definition_fr": "Extraction du fœtus par incision de la paroi abdominale et de l'utérus.",
+      "categorie": "traitement",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09057",
+      "fr": "épisiotomie",
+      "en": "episiotomy",
+      "ar": "بَضْع الفَرْج",
+      "ar_variantes": [
+        "بضع العجان"
+      ],
+      "definition_fr": "Incision du périnée au moment de l'expulsion.",
+      "categorie": "traitement",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09058",
+      "fr": "curetage utérin",
+      "en": "uterine curettage",
+      "ar": "كشط الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Évacuation du contenu utérin par curette ou aspiration.",
+      "categorie": "traitement",
+      "specialites": [
+        "GYNE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09059",
+      "fr": "colostomie",
+      "en": "colostomy",
+      "ar": "فَغْر القولون",
+      "ar_variantes": [],
+      "definition_fr": "Abouchement chirurgical du côlon à la peau.",
+      "categorie": "traitement",
+      "specialites": [
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09060",
+      "fr": "réduction de fracture",
+      "en": "fracture reduction",
+      "ar": "ردّ الكسر",
+      "ar_variantes": [],
+      "definition_fr": "Remise en position anatomique des fragments d'une fracture.",
+      "categorie": "traitement",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09061",
+      "fr": "ostéosynthèse",
+      "en": "internal fixation",
+      "ar": "التثبيت الداخلي للكسر",
+      "ar_variantes": [],
+      "definition_fr": "Fixation chirurgicale des fragments osseux par matériel (plaque, clou, vis).",
+      "categorie": "traitement",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09062",
+      "fr": "immobilisation plâtrée",
+      "en": "plaster cast",
+      "ar": "الجبيرة الجبسية",
+      "ar_variantes": [],
+      "definition_fr": "Contention d'un segment de membre par un plâtre ou une résine.",
+      "categorie": "traitement",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09063",
+      "fr": "arthroplastie",
+      "en": "arthroplasty",
+      "ar": "رأب المفصل",
+      "ar_variantes": [],
+      "definition_fr": "Remplacement chirurgical d'une articulation par une prothèse.",
+      "categorie": "traitement",
+      "specialites": [
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09064",
+      "fr": "amputation",
+      "en": "amputation",
+      "ar": "البَتْر",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale de tout ou partie d'un membre.",
+      "categorie": "traitement",
+      "specialites": [
+        "ORTH",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09065",
+      "fr": "parage de plaie",
+      "en": "wound debridement",
+      "ar": "إنضار الجرح",
+      "ar_variantes": [],
+      "definition_fr": "Excision des tissus nécrosés ou souillés d'une plaie.",
+      "categorie": "traitement",
+      "specialites": [
+        "CPLA",
+        "TRAU",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09066",
+      "fr": "suture",
+      "en": "suture",
+      "ar": "الخياطة",
+      "ar_variantes": [
+        "الدَّرْز"
+      ],
+      "definition_fr": "Rapprochement des berges d'une plaie par des fils.",
+      "categorie": "traitement",
+      "specialites": [
+        "CGEN",
+        "CPLA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09067",
+      "fr": "greffe de peau",
+      "en": "skin graft",
+      "ar": "الطُّعم الجلدي",
+      "ar_variantes": [],
+      "definition_fr": "Transfert d'un fragment de peau sans pédicule vasculaire.",
+      "categorie": "traitement",
+      "specialites": [
+        "CPLA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09068",
+      "fr": "lambeau",
+      "en": "flap",
+      "ar": "السَّديلة",
+      "ar_variantes": [],
+      "definition_fr": "Tissu transféré avec sa propre vascularisation pour couvrir une perte de substance.",
+      "categorie": "traitement",
+      "specialites": [
+        "CPLA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09069",
+      "fr": "incision-drainage d'abcès",
+      "en": "incision and drainage",
+      "ar": "شقّ الخراج وتصريفه",
+      "ar_variantes": [],
+      "definition_fr": "Ouverture chirurgicale d'un abcès et évacuation du pus.",
+      "categorie": "traitement",
+      "specialites": [
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09070",
+      "fr": "circoncision",
+      "en": "circumcision",
+      "ar": "الخِتان",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale du prépuce.",
+      "categorie": "traitement",
+      "specialites": [
+        "UROL",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09071",
+      "fr": "garrot",
+      "en": "tourniquet",
+      "ar": "العاصِبة",
+      "ar_variantes": [],
+      "definition_fr": "Dispositif comprimant un membre pour interrompre la circulation artérielle en aval d'une hémorragie.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE",
+        "TRAU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09072",
+      "fr": "position latérale de sécurité",
+      "en": "recovery position",
+      "ar": "وضعية الأمان الجانبية",
+      "ar_variantes": [],
+      "definition_fr": "Position couchée sur le côté préservant la liberté des voies aériennes d'un sujet inconscient qui respire.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09073",
+      "fr": "manœuvre de Heimlich",
+      "en": "Heimlich maneuver",
+      "ar": "مناورة هايمليك",
+      "ar_variantes": [],
+      "definition_fr": "Compressions abdominales sous-diaphragmatiques pour expulser un corps étranger des voies aériennes.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09074",
+      "fr": "collier cervical",
+      "en": "cervical collar",
+      "ar": "الطَّوق الرقبي",
+      "ar_variantes": [],
+      "definition_fr": "Dispositif d'immobilisation du rachis cervical chez le traumatisé.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE",
+        "TRAU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09075",
+      "fr": "lavage gastrique",
+      "en": "gastric lavage",
+      "ar": "غسل المعدة",
+      "ar_variantes": [],
+      "definition_fr": "Évacuation du contenu gastrique par sonde, d'indication très restreinte.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09076",
+      "fr": "ligature des varices œsophagiennes",
+      "en": "endoscopic variceal ligation",
+      "ar": "ربط الدوالي بالتنظير",
+      "ar_variantes": [],
+      "definition_fr": "Pose endoscopique d'anneaux élastiques sur les varices œsophagiennes.",
+      "categorie": "traitement",
+      "specialites": [
+        "GAST",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09077",
+      "fr": "phacoémulsification",
+      "en": "phacoemulsification",
+      "ar": "استحلاب العدسة",
+      "ar_variantes": [],
+      "definition_fr": "Technique chirurgicale de la cataracte par fragmentation ultrasonique du cristallin.",
+      "categorie": "traitement",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-09078",
+      "fr": "iridotomie au laser",
+      "en": "laser iridotomy",
+      "ar": "بضع القزحية بالليزر",
+      "ar_variantes": [],
+      "definition_fr": "Perforation de l'iris au laser pour traiter ou prévenir la fermeture de l'angle.",
+      "categorie": "traitement",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09079",
+      "fr": "paracentèse du tympan",
+      "en": "myringotomy",
+      "ar": "بَضْع الطبلة",
+      "ar_variantes": [],
+      "definition_fr": "Incision du tympan pour drainer l'oreille moyenne.",
+      "categorie": "traitement",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09080",
+      "fr": "amygdalectomie",
+      "en": "tonsillectomy",
+      "ar": "استئصال اللوزتين",
+      "ar_variantes": [],
+      "definition_fr": "Ablation chirurgicale des amygdales palatines.",
+      "categorie": "traitement",
+      "specialites": [
+        "ORL",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09081",
+      "fr": "tamponnement nasal",
+      "en": "nasal packing",
+      "ar": "الدكّ الأنفي",
+      "ar_variantes": [],
+      "definition_fr": "Mise en place d'un matériel hémostatique dans les fosses nasales en cas d'épistaxis.",
+      "categorie": "traitement",
+      "specialites": [
+        "ORL",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09082",
+      "fr": "craniotomie",
+      "en": "craniotomy",
+      "ar": "بَضْع القِحف",
+      "ar_variantes": [],
+      "definition_fr": "Ouverture chirurgicale de la boîte crânienne.",
+      "categorie": "traitement",
+      "specialites": [
+        "NCHI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09083",
+      "fr": "dérivation ventriculo-péritonéale",
+      "en": "ventriculoperitoneal shunt",
+      "ar": "التحويلة البُطَينية الصِّفاقية",
+      "ar_variantes": [],
+      "definition_fr": "Drainage du liquide cérébro-spinal des ventricules vers le péritoine.",
+      "categorie": "traitement",
+      "specialites": [
+        "NCHI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09084",
+      "fr": "radiothérapie",
+      "en": "radiotherapy",
+      "ar": "المعالجة الشعاعية",
+      "ar_variantes": [
+        "العلاج الإشعاعي"
+      ],
+      "definition_fr": "Traitement par rayonnements ionisants.",
+      "categorie": "traitement",
+      "specialites": [
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09085",
+      "fr": "curiethérapie",
+      "en": "brachytherapy",
+      "ar": "المعالجة الكَثَبية",
+      "ar_variantes": [],
+      "definition_fr": "Radiothérapie par sources radioactives placées au contact ou à l'intérieur de la tumeur.",
+      "categorie": "traitement",
+      "specialites": [
+        "ONCO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09086",
+      "fr": "soins palliatifs",
+      "en": "palliative care",
+      "ar": "الرعاية الملطِّفة",
+      "ar_variantes": [],
+      "definition_fr": "Soins actifs et globaux visant à soulager la douleur et préserver la qualité de vie en phase avancée.",
+      "categorie": "traitement",
+      "specialites": [
+        "ONCO",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09087",
+      "fr": "kinésithérapie",
+      "en": "physiotherapy",
+      "ar": "المعالجة الفيزيائية",
+      "ar_variantes": [
+        "العلاج الطبيعي"
+      ],
+      "definition_fr": "Traitement par le mouvement et les agents physiques.",
+      "categorie": "traitement",
+      "specialites": [
+        "MPR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09088",
+      "fr": "rééducation fonctionnelle",
+      "en": "rehabilitation",
+      "ar": "إعادة التأهيل",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des moyens visant à restaurer les capacités fonctionnelles.",
+      "categorie": "traitement",
+      "specialites": [
+        "MPR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09089",
+      "fr": "orthèse",
+      "en": "orthosis",
+      "ar": "التقويمة",
+      "ar_variantes": [
+        "الجهاز التقويمي"
+      ],
+      "definition_fr": "Appareillage externe soutenant ou corrigeant un segment corporel.",
+      "categorie": "traitement",
+      "specialites": [
+        "MPR",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-09090",
+      "fr": "prothèse",
+      "en": "prosthesis",
+      "ar": "البديلة",
+      "ar_variantes": [
+        "الطرف الاصطناعي"
+      ],
+      "definition_fr": "Dispositif remplaçant un organe ou un membre absent.",
+      "categorie": "traitement",
+      "specialites": [
+        "MPR",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    }
+  ]
+}

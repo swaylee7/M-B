@@ -160,8 +160,11 @@ def main() -> int:
                         " ".join(p.get("symptomes") or []), " ".join(p.get("signes_cliniques") or [])])
         ajout("pathologie", p["id"], p.get("nom_fr", ""), p.get("specialite"), CATALOGUES["pathologies"][2], txt)
     for g in donnees["glossaire"]:
-        ajout("terme", g["id"], f"{g.get('fr', '')} / {g.get('en', '')} / {g.get('ar', '')}", (g.get("specialites") or [None])[0],
-              CATALOGUES["glossaire"][2], " ".join([g.get("fr", ""), g.get("en", ""), g.get("ar", ""), g.get("definition_fr", "")]))
+        # "ar" peut valoir null (équivalent arabe à établir) : on le remplace par "" pour l'index
+        ar = g.get("ar") or ""
+        ajout("terme", g["id"], f"{g.get('fr') or ''} / {g.get('en') or ''} / {ar}", (g.get("specialites") or [None])[0],
+              CATALOGUES["glossaire"][2], " ".join([g.get("fr") or "", g.get("en") or "", ar, " ".join(g.get("ar_variantes") or []),
+                                                   g.get("developpement_fr") or "", g.get("developpement_en") or "", g.get("definition_fr") or ""]))
     reg = charger_json(RACINE / "00_SYSTEME/registre_acquisitions.json", {"documents": []})
     for doc in reg["documents"]:
         if doc.get("redistribution") == "redistribuable":

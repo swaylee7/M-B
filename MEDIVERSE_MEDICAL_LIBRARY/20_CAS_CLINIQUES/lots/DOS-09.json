@@ -319,6 +319,244 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-09",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT-0901",
+      "titre": "Arthralgies, éruption du visage et leucopénie chez une jeune femme",
+      "niveau": "generaliste",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 26 ans, employée de banque à Béjaïa, non fumeuse.",
+      "motif_consultation": "Douleurs articulaires et rougeur du visage depuis 3 mois.",
+      "antecedents": "Pas d'antécédent ; pas de prise médicamenteuse hormis une contraception œstroprogestative ; pas de fausse couche ni de thrombose.",
+      "symptomes": "Arthralgies inflammatoires des mains et des genoux, asthénie, rougeur du visage apparue après l'été et aggravée par le soleil, chute de cheveux diffuse, aphtes indolores du palais.",
+      "examen_clinique": "Érythème des pommettes et du nez respectant les sillons naso-géniens ; synovites de 2 IPP ; alopécie diffuse non cicatricielle ; ulcération palatine ; auscultation cardio-pulmonaire normale ; TA 118/72 mmHg ; pas d'œdème.",
+      "biologie": "Leucocytes 3,2 G/L (N 4–10), lymphocytes 0,9 G/L, Hb 12,1 g/dL, plaquettes 180 G/L ; VS 40 mm, CRP 4 mg/L ; créatinine 6 mg/L ; bandelette urinaire négative, protéinurie/créatininurie 0,1 g/g ; AAN 1/640 homogènes ; anti-ADN natif 85 UI/mL (N < 30) ; anti-Sm négatifs ; anti-SSA négatifs ; C3 0,82 g/L (N 0,9–1,8), C4 0,12 g/L (N 0,1–0,4) ; antiphospholipides négatifs.",
+      "imagerie": "Radiographies des mains normales ; radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Lupus systémique cutanéo-articulaire",
+        "Polyarthrite rhumatoïde débutante",
+        "Polyarthrite virale"
+      ],
+      "diagnostics_differentiels": [
+        "Polyarthrite rhumatoïde",
+        "Parvovirus B19",
+        "Lupus induit",
+        "Rosacée et arthralgies non spécifiques"
+      ],
+      "examens_a_demander": [
+        "NFS, VS, CRP",
+        "AAN puis anti-ADN natif, anti-Sm, anti-SSA/SSB, anti-RNP",
+        "C3, C4",
+        "Antiphospholipides",
+        "Bandelette urinaire, protéinurie/créatininurie, créatinine",
+        "Examen ophtalmologique de référence avant HCQ",
+        "Sérologies VHB, VHC, VIH"
+      ],
+      "diagnostic_final": "Lupus érythémateux systémique cutanéo-articulaire (score EULAR/ACR 2019 : lupus cutané aigu 6 + articulaire 6 + leucopénie 3 + anti-ADN 6 + C3 bas 3 = 24 ≥ 10), sans atteinte rénale.",
+      "traitement": "Hydroxychloroquine 5 mg/kg de poids réel/j (EULAR 2023) [arrondi selon formes disponibles — POSOLOGIE À VÉRIFIER — RCP] ; photoprotection stricte ; corticothérapie orale à faible dose de courte durée si arthrite gênante [POSOLOGIE À VÉRIFIER] ; arrêt de la contraception œstroprogestative au profit d'une méthode adaptée (dispositif intra-utérin ou progestatif) après évaluation ; vaccinations à jour ; éducation thérapeutique.",
+      "surveillance": "Consultation à 1 mois puis tous les 3 mois : clinique, TA, bandelette urinaire et protéinurie à chaque visite, NFS, C3/C4, anti-ADN ; examen ophtalmologique de référence puis annuel après 5 ans d'HCQ.",
+      "evolution": "Amélioration cutanée et articulaire en 3 mois ; leucocytes 4,1 G/L ; pas de protéinurie à 1 an.",
+      "explication_pedagogique": "Forme typique de lupus cutanéo-articulaire de la femme jeune ; l'HCQ et la photoprotection en sont le socle ; la surveillance urinaire systématique dépiste une néphropathie silencieuse.",
+      "questions": [
+        {
+          "question": "Quel critère est indispensable pour appliquer les critères EULAR/ACR 2019 ?",
+          "reponse": "Des AAN ≥ 1/80 sur cellules HEp-2 (critère d'entrée)."
+        },
+        {
+          "question": "Pourquoi la CRP est-elle normale ?",
+          "reponse": "La CRP est souvent peu élevée au cours des poussées lupiques ; son élévation doit faire rechercher une infection ou une sérite."
+        },
+        {
+          "question": "Pourquoi changer de contraception ?",
+          "reponse": "Les œstrogènes peuvent favoriser les poussées et sont contre-indiqués en cas d'antiphospholipides ; une méthode sans œstrogène est préférable chez la patiente lupique (EULAR 2017)."
+        },
+        {
+          "question": "Quel examen urinaire répéter à chaque consultation ?",
+          "reponse": "La bandelette et le rapport protéinurie/créatininurie, pour dépister une néphropathie lupique."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Aringer M et al. 2019 EULAR/ACR classification criteria for SLE. Ann Rheum Dis 2019;78(9):1151-1159",
+          "date": "2019"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Marmor MF et al. Recommendations on screening for hydroxychloroquine retinopathy (2016 revision). Ophthalmology 2016;123(6):1386-1394",
+          "date": "2016"
+        },
+        {
+          "reference": "Andreoli L et al. EULAR recommendations for women's health and pregnancy in SLE and/or APS. Ann Rheum Dis 2017;76(3):476-485",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT-0902",
+      "titre": "Fièvre et toux chez une patiente lupique sous immunosuppresseurs : poussée ou infection ?",
+      "niveau": "residanat",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 31 ans, mère au foyer à Batna.",
+      "motif_consultation": "Fièvre à 39 °C et toux depuis 3 semaines.",
+      "antecedents": "LES avec néphropathie de classe IV diagnostiqué il y a 8 mois ; traitement : HCQ, mycophénolate, prednisone 15 mg/j (décroissance en cours). Dépistage de la tuberculose latente non réalisé avant le traitement. Frère traité pour tuberculose pulmonaire l'an dernier.",
+      "symptomes": "Fièvre vespérale, sueurs nocturnes, toux productive, amaigrissement de 4 kg ; pas d'éruption, pas d'arthralgies, pas d'œdème.",
+      "examen_clinique": "T 38,8 °C, FR 22/min, SpO2 95 % ; râles crépitants apicaux droits ; pas d'érythème, pas de synovite, pas de frottement ; TA 124/78 mmHg.",
+      "biologie": "Leucocytes 9,8 G/L (neutrophiles 8,1), lymphocytes 0,6 G/L ; Hb 11,2 g/dL ; CRP 96 mg/L ; créatinine 7 mg/L ; protéinurie/créatininurie 0,3 g/g (stable) ; C3 et C4 normaux ; anti-ADN natif 35 UI/mL (stables) ; procalcitonine 0,2 ng/mL. Expectorations : BAAR positifs à l'examen direct ; test moléculaire : M. tuberculosis détecté, résistance à la rifampicine non détectée. Sérologie VIH négative.",
+      "imagerie": "Radiographie thoracique : infiltrat excavé du lobe supérieur droit.",
+      "hypotheses_diagnostiques": [
+        "Tuberculose pulmonaire",
+        "Pneumonie bactérienne",
+        "Pneumopathie lupique",
+        "Pneumocystose"
+      ],
+      "diagnostics_differentiels": [
+        "Poussée lupique (sérite, pneumopathie lupique)",
+        "Pneumonie à pneumocoque",
+        "Pneumocystose",
+        "Pneumopathie médicamenteuse"
+      ],
+      "examens_a_demander": [
+        "Hémocultures",
+        "Expectorations : microscopie, test moléculaire, culture",
+        "Radiographie ± scanner thoracique",
+        "CRP, procalcitonine",
+        "C3, C4, anti-ADN, protéinurie (activité lupique)",
+        "Sérologie VIH"
+      ],
+      "diagnostic_final": "Tuberculose pulmonaire bactériologiquement confirmée, rifampicine sensible, chez une patiente lupique immunodéprimée ; pas de poussée lupique (complément normal, anti-ADN stables, protéinurie stable).",
+      "traitement": "Traitement antituberculeux selon le schéma national (directives 2024) [POSOLOGIE À VÉRIFIER — protocole national] ; déclaration et enquête autour du cas ; isolement respiratoire initial. Ajustement de l'immunosuppression en concertation (réduction du mycophénolate pendant la phase initiale selon la gravité), maintien de l'HCQ et d'une corticothérapie à la dose minimale ; attention aux interactions de la rifampicine (inducteur enzymatique : baisse de l'efficacité des corticoïdes, nécessitant souvent une adaptation de dose) [À VÉRIFIER — RCP].",
+      "surveillance": "Tolérance hépatique des antituberculeux ; contrôle bactériologique selon le programme national ; activité lupique (protéinurie, complément, anti-ADN) mensuelle pendant l'ajustement de l'immunosuppression.",
+      "evolution": "Apyrexie en 2 semaines ; examen microscopique négatif à 2 mois ; pas de poussée rénale ; reprise de la dose pleine de mycophénolate après la phase initiale selon l'avis spécialisé.",
+      "explication_pedagogique": "Chez une patiente lupique sous immunosuppresseurs en Algérie, toute fièvre impose de rechercher une infection, et notamment une tuberculose. Une CRP élevée avec complément normal et anti-ADN stables oriente vers l'infection plutôt que vers la poussée. Le dépistage de l'ITL aurait dû précéder l'immunosuppression (EULAR 2022, instruction nationale 2024).",
+      "questions": [
+        {
+          "question": "Quels arguments s'opposent à une poussée lupique ?",
+          "reponse": "Complément normal, anti-ADN stables, protéinurie stable, absence de signes cutanés ou articulaires, CRP très élevée, contage tuberculeux."
+        },
+        {
+          "question": "Quelle erreur de prévention a été commise ?",
+          "reponse": "L'absence de dépistage de la tuberculose latente avant l'immunosuppression, alors que la patiente avait un contage familial."
+        },
+        {
+          "question": "Quelle interaction médicamenteuse surveiller ?",
+          "reponse": "La rifampicine, inducteur enzymatique, diminue l'exposition aux corticoïdes et à d'autres médicaments ; adaptation selon l'avis spécialisé et le RCP."
+        },
+        {
+          "question": "Pourquoi ne pas arrêter l'hydroxychloroquine ?",
+          "reponse": "Elle n'est pas immunosuppressive, réduit le risque de poussée et améliore la survie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Alharbi S, Aljohani R. Mortality and survival in SLE in the MENA region: meta-analysis. Rheumatol Int 2026;46(7):161",
+          "date": "2026"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT-0903",
+      "titre": "Projet de grossesse chez une patiente lupique avec syndrome des antiphospholipides",
+      "niveau": "dems",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 33 ans, enseignante à Tlemcen, mariée.",
+      "motif_consultation": "Consultation pré-conceptionnelle.",
+      "antecedents": "LES diagnostiqué à 25 ans (atteinte cutanéo-articulaire et péricardite), SAPL thrombotique (thrombose veineuse profonde fémorale il y a 4 ans) avec triple positivité (anticoagulant lupique, anticardiolipine et anti-β2GP1 à titres élevés) ; anti-SSA positifs. Traitement : HCQ 300 mg/j, warfarine (INR cible 2–3), prednisone 5 mg/j, méthotrexate 15 mg/semaine. Une fausse couche à 9 SA il y a 6 ans.",
+      "symptomes": "Aucun symptôme depuis 18 mois.",
+      "examen_clinique": "Poids 60 kg ; TA 120/75 mmHg ; pas de lésion cutanée, pas de synovite.",
+      "biologie": "NFS normale ; créatinine 6 mg/L ; protéinurie/créatininurie 0,08 g/g ; C3 et C4 normaux ; anti-ADN natif négatifs ; anti-SSA positifs.",
+      "imagerie": "Échocardiographie : pas de valvulopathie, pression artérielle pulmonaire normale.",
+      "hypotheses_diagnostiques": [
+        "Lupus quiescent depuis plus de 6 mois",
+        "SAPL thrombotique triple positif",
+        "Grossesse à haut risque"
+      ],
+      "diagnostics_differentiels": [
+        "Sans objet (consultation préconceptionnelle)"
+      ],
+      "examens_a_demander": [
+        "Évaluation de l'activité lupique (clinique, urines, complément, anti-ADN)",
+        "Fonction rénale et protéinurie de référence",
+        "Profil antiphospholipide",
+        "Anti-SSA/SSB",
+        "Tension artérielle",
+        "Avis conjoint rhumatologue/interniste, obstétricien et hématologue"
+      ],
+      "diagnostic_final": "Projet de grossesse chez une patiente lupique en rémission prolongée, avec SAPL thrombotique triple positif et anti-SSA positifs.",
+      "traitement": "Grossesse autorisée car maladie inactive depuis plus de 6 mois (EULAR 2017). Arrêt du méthotrexate avant la conception (tératogène) et relais si besoin par azathioprine ; poursuite de l'HCQ ; corticothérapie à dose minimale. Anticoagulation : remplacement de la warfarine (tératogène) par une héparine de bas poids moléculaire à dose curative, idéalement dès le test de grossesse positif et avant la 6e semaine d'aménorrhée, en association à l'aspirine à faible dose selon l'avis spécialisé (EULAR SAPL 2019) [POSOLOGIES À VÉRIFIER — RCP / protocole local]. Pas d'anticoagulant oral direct (triple positivité). Contraception sans œstrogène en attendant.",
+      "surveillance": "Suivi mensuel conjoint : TA, protéinurie, NFS, complément, anti-ADN ; dépistage de la pré-éclampsie ; échocardiographie fœtale et surveillance du rythme cardiaque fœtal entre environ 16 et 26 SA du fait des anti-SSA [calendrier À VÉRIFIER — protocole local] ; échographies de croissance ; reprise des AVK en post-partum.",
+      "evolution": "Grossesse menée à 37 SA, enfant sans bloc auriculo-ventriculaire ; poussée cutanée modérée du post-partum contrôlée par l'HCQ et une courte corticothérapie ; reprise de la warfarine en post-partum.",
+      "explication_pedagogique": "Ce cas synthétise la préparation d'une grossesse lupique : planification en rémission, poursuite de l'HCQ, relais des médicaments tératogènes (méthotrexate, AVK), gestion du SAPL triple positif (pas d'AOD) et surveillance spécifique liée aux anti-SSA.",
+      "questions": [
+        {
+          "question": "Quels médicaments sont tératogènes chez cette patiente ?",
+          "reponse": "Le méthotrexate et la warfarine (embryopathie aux AVK)."
+        },
+        {
+          "question": "Pourquoi éviter un anticoagulant oral direct ?",
+          "reponse": "Le SAPL est triple positif : les AOD (rivaroxaban) y sont associés à plus de récidives thrombotiques artérielles (EULAR 2019)."
+        },
+        {
+          "question": "Quel risque fœtal est lié aux anti-SSA ?",
+          "reponse": "Le lupus néonatal et le bloc auriculo-ventriculaire congénital, d'où la surveillance cardiaque fœtale."
+        },
+        {
+          "question": "Quelle condition préalable à la conception ?",
+          "reponse": "Une maladie inactive depuis au moins 6 mois, sous traitement compatible avec la grossesse."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Andreoli L et al. EULAR recommendations for women's health and pregnancy in SLE and/or APS. Ann Rheum Dis 2017;76(3):476-485",
+          "date": "2017"
+        },
+        {
+          "reference": "Tektonidou MG et al. EULAR recommendations for the management of APS in adults. Ann Rheum Dis 2019;78(10):1296-1304",
+          "date": "2019"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
     }
   ]
 }

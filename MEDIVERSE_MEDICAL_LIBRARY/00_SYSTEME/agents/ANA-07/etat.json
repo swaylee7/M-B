@@ -1,10 +1,66 @@
 {
   "id": "ANA-07",
-  "statut": "couvert_par_ANA-01",
-  "derniere_execution": "2026-11-19T01:25:21+00:00",
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {},
-  "note": "Poste tenu par l'agent ANA-01 (agent unique pour ANA-01 à ANA-20) : voir 00_SYSTEME/agents/ANA-01/etat.json et les lots 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-*.json."
+  "statut": "volet_encyclopedie_lot_initial_termine_a_auditer",
+  "derniere_execution": "2026-11-19T02:19:37+00:00",
+  "postes_couverts_volet_encyclopedie": [
+    "ANA-07",
+    "ANA-08",
+    "ANA-09",
+    "ANA-10",
+    "ANA-11",
+    "ANA-12",
+    "ANA-13",
+    "ANA-14",
+    "ANA-15",
+    "ANA-16",
+    "ANA-17",
+    "ANA-18"
+  ],
+  "agent_lots": "ENC-1",
+  "taches_terminees": [
+    "Référentiel des pathologies (§11) : 885 pathologies, 19 spécialités (MINT, CARD, PNEU, GAST, HEPA, NEPH, NEUR, PSYC, DERM, RHUM, ENDO, DIAB, ONCO, INFE, HEMA, GERI, IMPA, GENE, PARA)",
+    "6 lots écrits dans 22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-1-*.json (JSON validés, ids uniques, liens vérifiés)",
+    "Rattachement aux items du résidanat : 562 pathologies reliées, 220 items distincts"
+  ],
+  "taches_suivantes": [
+    "Audit médical du référentiel (statut referentiel_a_auditer) par AUD-xx, en particulier codes CIM-10 et rattachements d'items",
+    "Vérifier les codes CIM-10 contre la classification OMS en ligne (non consultée pendant la session) ; compléter les 149 codes laissés à null",
+    "Fusion par indexer.py (referentiel_pathologies.json) puis génération du graphe de liens (02_GRAPHE_LIENS)",
+    "Étendre aux spécialités hors périmètre (PEDI, NEON, GYNE, OBST, chirurgies, ORL, OPHT, URGE, MINT_REA…)"
+  ],
+  "objectifs": {
+    "total_vise": 700,
+    "min_grande_specialite": 40,
+    "min_autres": 15
+  },
+  "compteurs": {
+    "pathologies": 885,
+    "par_specialite": {
+      "CARD": 68,
+      "PNEU": 50,
+      "MINT": 34,
+      "IMPA": 25,
+      "DERM": 65,
+      "RHUM": 43,
+      "GENE": 39,
+      "ENDO": 53,
+      "DIAB": 21,
+      "ONCO": 44,
+      "GAST": 49,
+      "HEPA": 48,
+      "NEPH": 52,
+      "INFE": 60,
+      "PARA": 35,
+      "HEMA": 58,
+      "NEUR": 72,
+      "PSYC": 50,
+      "GERI": 19
+    },
+    "maladies_rares": 220,
+    "avec_cim10": 736,
+    "pct_cim10": 83.2,
+    "liens": 3725,
+    "items_distincts": 220
+  },
+  "note": "Volet catalogue d'ouvrages : poste tenu par ANA-01 (voir 00_SYSTEME/agents/ANA-01/etat.json). Volet encyclopédie : agent ENC-1 sous le poste ANA-07 (postes ANA-07 à ANA-18)."
 }

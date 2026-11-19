@@ -1,7 +1,7 @@
 {
   "id": "AUD-02",
   "statut": "actif",
-  "derniere_execution": "2026-11-19T02:06:26+00:00",
+  "derniere_execution": "2026-11-19T02:19:58+00:00",
   "taches_terminees": [
     "audit DOS-INFE-0001 (lot DOS-02)",
     "audit DOS-INFE-0002 (lot DOS-02)",
@@ -22,7 +22,8 @@
     "audit DOS-MINT_REA-0001 (lot DOS-06)",
     "audit DOS-MINT_REA-0002 (lot DOS-06)",
     "audit DOS-URGE-0001 (lot DOS-06)",
-    "audit DOS-URGE-0002 (lot DOS-06)"
+    "audit DOS-URGE-0002 (lot DOS-06)",
+    "Audit des posologies DOS-DIAB-0001/0002, DOS-ENDO-0001, DOS-NEPH-0001/0002 et des lots QCM/cas DOS-03 (rapports communs dans 00_SYSTEME/agents/AUD-01/rapports/)"
   ],
   "taches_suivantes": [
     "DOS-INFE-0001 : Texte intégral ESCMID 2016/SPILF 2018 (doses fixes, durée gentamicine) ; chimioprophylaxie (protocole national) ; OMS 2025 ; textes algériens",
@@ -42,12 +43,17 @@
     "Obtenir le guide national algérien de l'envenimation scorpionique en vigueur (SAS : indication, posologie)",
     "Confronter les antidotes marqués aux RCP et protocoles (naloxone, flumazénil, bicarbonate, glucagon, Fab antidigoxine, pralidoxime)",
     "Obtenir les coordonnées officielles du Centre National de Toxicologie (Alger) avant toute publication d'un numéro",
-    "Relecture humaine qualifiée (statut valide_enseignant)"
+    "Relecture humaine qualifiée (statut valide_enseignant)",
+    "DOS-DIAB-0002 : bicarbonate (pH < 7,0), glucose IV de l'hypoglycémie hospitalière, octréotide — marqueurs à lever ; texte intégral du consensus 2024 (pmc.ncbi.nlm.nih.gov à autoriser)",
+    "DOS-DIAB-0001 : posologies des autres classes d'antidiabétiques (RCP), douleur neuropathique, Ramadan (IDF-DAR 2021) ; lire la prise de position SFD de novembre 2025",
+    "DOS-ENDO-0001 : doses JTA/JES 2016 (crise thyrotoxique), AIT (ETA 2018 amiodarone), De Quervain (ATA 2016), corticoprophylaxie de l'iode 131 (EUGOGO 2021) ; ATA 2026 grossesse en texte intégral",
+    "DOS-NEPH-0001 : mettre à jour à la publication définitive de la KDIGO 2026 AKI/AKD ; posologies (syndrome hépato-rénal, NTIA, bicarbonate, adaptation des médicaments)",
+    "DOS-NEPH-0002 : texte intégral UKKA juillet 2026 (ukkidney.org à autoriser) et ERC 2025 ; polystyrène sulfonate (RCP) ; KCl par voie centrale ; paralysie périodique thyrotoxique"
   ],
   "objectifs": {},
   "compteurs": {
     "dossiers_audites": 20,
-    "sessions": 4
+    "sessions": 5
   },
   "sessions": [
     {
@@ -166,6 +172,42 @@
         "Obtenir les coordonnées officielles du Centre National de Toxicologie (Alger) avant toute publication d'un numéro"
       ],
       "origine": "session courante"
+    },
+    {
+      "redacteur": "DOS-03",
+      "date": "2026-11-19T02:19:58+00:00",
+      "dossiers": [
+        "DOS-DIAB-0001",
+        "DOS-DIAB-0002",
+        "DOS-ENDO-0001",
+        "DOS-NEPH-0001",
+        "DOS-NEPH-0002"
+      ],
+      "rapports": "00_SYSTEME/agents/AUD-01/rapports/",
+      "compteurs": {
+        "dossiers_audites": 5,
+        "qcm_audites": 60,
+        "qcm_corriges": 3,
+        "cas_audites": 10,
+        "cas_corriges": 3,
+        "corrections_dossiers": 31,
+        "erreurs_critiques": 0,
+        "erreurs_majeures": 2,
+        "corrections_aud01": 18,
+        "corrections_aud02": 13,
+        "marqueurs_posologie_leves": 6,
+        "marqueurs_posologie_restants": 18,
+        "recherches_web": 10,
+        "audite_valide": 0,
+        "audite_corrections_requises": 5
+      },
+      "taches_suivantes": [
+        "DOS-DIAB-0002 : bicarbonate (pH < 7,0), glucose IV de l'hypoglycémie hospitalière, octréotide — marqueurs à lever ; texte intégral du consensus 2024 (pmc.ncbi.nlm.nih.gov à autoriser)",
+        "DOS-DIAB-0001 : posologies des autres classes d'antidiabétiques (RCP), douleur neuropathique, Ramadan (IDF-DAR 2021) ; lire la prise de position SFD de novembre 2025",
+        "DOS-ENDO-0001 : doses JTA/JES 2016 (crise thyrotoxique), AIT (ETA 2018 amiodarone), De Quervain (ATA 2016), corticoprophylaxie de l'iode 131 (EUGOGO 2021) ; ATA 2026 grossesse en texte intégral",
+        "DOS-NEPH-0001 : mettre à jour à la publication définitive de la KDIGO 2026 AKI/AKD ; posologies (syndrome hépato-rénal, NTIA, bicarbonate, adaptation des médicaments)",
+        "DOS-NEPH-0002 : texte intégral UKKA juillet 2026 (ukkidney.org à autoriser) et ERC 2025 ; polystyrène sulfonate (RCP) ; KCl par voie centrale ; paralysie périodique thyrotoxique"
+      ]
     }
   ],
   "note": "Fichier fusionné le 2026-11-19 par la session DOS-06 après un écrasement accidentel des états des sessions DOS-01 et DOS-05 ; leurs entrées ont été reconstituées d'après les journaux. Postes partagés : relire ce fichier et le compléter (lecture-modification-écriture), ne pas le réécrire en entier."

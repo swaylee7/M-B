@@ -7063,6 +7063,694 @@
       "statut": "brouillon_a_auditer",
       "auteur": "RES-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5074",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la régulation du volume du secteur extracellulaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le volume extracellulaire dépend principalement du capital sodé de l'organisme.",
+        "B": "Le système rénine-angiotensine-aldostérone participe à la régulation du bilan sodé et donc du volume extracellulaire.",
+        "C": "Les peptides natriurétiques favorisent l'élimination rénale de sodium.",
+        "D": "Une déshydratation extracellulaire se traduit cliniquement par un pli cutané, une hypotension et une tachycardie.",
+        "E": "Le volume extracellulaire est régulé principalement par l'hormone antidiurétique en fonction du capital sodé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le volume du secteur extracellulaire est déterminé par le capital sodé, car le sodium est le principal osmole de ce compartiment. Sa régulation fait intervenir le rein et des systèmes neuro-hormonaux : le système rénine-angiotensine-aldostérone (rétention de sodium), les peptides natriurétiques (élimination de sodium en cas d'hypervolémie), le système nerveux sympathique et la pression de perfusion rénale. L'ADH, elle, règle le bilan de l'eau (osmolalité), à distinguer de la régulation du volume. Cliniquement, une déshydratation extracellulaire (perte de sodium et d'eau) donne des signes d'hypovolémie, une hyperhydratation extracellulaire des œdèmes. Cette double régulation (eau et sodium) fonde l'analyse des troubles hydro-électrolytiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le sodium étant le principal osmole extracellulaire, sa quantité détermine le volume de ce secteur.",
+        "B": "Vrai : L'aldostérone augmente la réabsorption rénale de sodium.",
+        "C": "Vrai : Sécrétés en réponse à une distension des cavités cardiaques (hypervolémie).",
+        "D": "Vrai : Signes d'hypovolémie.",
+        "E": "Faux : L'ADH régule surtout le bilan de l'eau (osmolalité) ; le volume extracellulaire est réglé par le bilan sodé (système rénine-angiotensine-aldostérone, peptides natriurétiques, système nerveux sympathique)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-070"
+      ],
+      "theme": "Régulation du volume extracellulaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer la régulation du volume extracellulaire à l'ADH plutôt qu'au bilan sodé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5027",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les phénomènes de surface, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La tension superficielle résulte des forces de cohésion entre les molécules d'un liquide, déséquilibrées à la surface.",
+        "B": "La tension superficielle tend à minimiser la surface d'une interface liquide-gaz.",
+        "C": "Les tensioactifs (surfactants) abaissent la tension superficielle.",
+        "D": "La tension superficielle s'exprime en newton par mètre (ou joule par mètre carré).",
+        "E": "La tension superficielle augmente lorsqu'on ajoute un tensioactif à un liquide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les phénomènes de surface résultent des forces de cohésion intermoléculaires, déséquilibrées à l'interface : les molécules de surface subissent une force résultante vers l'intérieur, à l'origine de la tension superficielle, qui tend à minimiser l'aire de l'interface (gouttes et bulles sphériques). Elle s'exprime en N/m (énergie par unité de surface). Les tensioactifs (surfactants, amphiphiles) s'adsorbent à l'interface et abaissent la tension superficielle. En biologie, ces phénomènes expliquent le rôle du surfactant pulmonaire (stabilité alvéolaire), les échanges aux interfaces, l'action des détergents et de nombreux processus physiologiques. Leur compréhension éclaire des applications médicales (surfactant, émulsions, tensiométrie).",
+      "explications_par_proposition": {
+        "A": "Vrai : Les molécules de surface subissent une force résultante dirigée vers l'intérieur du liquide.",
+        "B": "Vrai : D'où la forme sphérique des gouttes et des bulles.",
+        "C": "Vrai : En s'adsorbant à l'interface.",
+        "D": "Vrai : Elle correspond à une énergie par unité de surface.",
+        "E": "Faux : Un tensioactif diminue la tension superficielle, il ne l'augmente pas."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-071"
+      ],
+      "theme": "Phénomènes de surface et tension superficielle",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un tensioactif augmente la tension superficielle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5028",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les interfaces et leurs rôles en biologie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le surfactant pulmonaire, en abaissant la tension superficielle alvéolaire, stabilise les alvéoles et augmente la compliance pulmonaire.",
+        "B": "Les molécules amphiphiles possèdent une partie hydrophile et une partie hydrophobe.",
+        "C": "Les phospholipides membranaires s'organisent en bicouche du fait de leur caractère amphiphile.",
+        "D": "L'adsorption de molécules à une interface peut modifier ses propriétés.",
+        "E": "Le surfactant pulmonaire augmente la tension superficielle alvéolaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les interfaces jouent un rôle majeur en biologie. Les molécules amphiphiles (phospholipides, tensioactifs) possèdent une tête hydrophile et une queue hydrophobe, ce qui leur permet de s'orienter aux interfaces et de former micelles et bicouches : la bicouche phospholipidique est la base des membranes biologiques. Le surfactant pulmonaire, sécrété par les pneumocytes de type II, abaisse la tension superficielle alvéolaire, stabilise les alvéoles de petit rayon (loi de Laplace) et augmente la compliance ; son déficit cause la maladie des membranes hyalines du prématuré. Ces phénomènes de surface interviennent aussi dans les échanges, l'absorption et de nombreuses applications (émulsions, médicaments). Leur étude relie physique et physiologie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Son déficit chez le prématuré cause la maladie des membranes hyalines.",
+        "B": "Vrai : Elles s'orientent aux interfaces et forment micelles et bicouches.",
+        "C": "Vrai : La bicouche est la base de la structure des membranes biologiques.",
+        "D": "Vrai : Principe exploité en biologie et en pharmacie (émulsions, mouillage).",
+        "E": "Faux : Le surfactant abaisse la tension superficielle alvéolaire, ce qui stabilise les alvéoles et prévient leur collapsus."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-071"
+      ],
+      "theme": "Interfaces en biologie et applications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le surfactant augmente la tension superficielle alvéolaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5029",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la mesure et les applications des phénomènes de surface, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La tension superficielle peut être mesurée par diverses méthodes (arrachement, montée capillaire, goutte).",
+        "B": "Le mouillage d'une surface dépend des tensions interfaciales et se caractérise par l'angle de contact.",
+        "C": "Les émulsions et les mousses sont stabilisées par des tensioactifs.",
+        "D": "Les phénomènes de surface interviennent dans l'adsorption des protéines sur les biomatériaux.",
+        "E": "Les phénomènes de surface n'ont aucune application en médecine ou en biologie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les phénomènes de surface se mesurent par tensiométrie (méthodes d'arrachement, de montée capillaire, de la goutte pendante) et se caractérisent, pour les surfaces solides, par l'angle de contact (mouillage). Leurs applications biomédicales sont nombreuses : rôle du surfactant pulmonaire, formulation des émulsions et suspensions médicamenteuses, stabilisation par les tensioactifs, mouillage et adhésion sur les biomatériaux (biocompatibilité, adsorption des protéines), et procédés de séparation. La compréhension de ces phénomènes relie la physique des interfaces à la physiologie et à la pharmacie. Elle illustre l'intérêt de la biophysique pour les dispositifs médicaux et la galénique. Ces notions complètent l'étude de la tension superficielle et de la capillarité.",
+      "explications_par_proposition": {
+        "A": "Vrai : La tensiométrie a des applications biomédicales.",
+        "B": "Vrai : Un angle faible traduit un bon mouillage.",
+        "C": "Vrai : Applications pharmaceutiques et cosmétiques.",
+        "D": "Vrai : Un enjeu pour la biocompatibilité des dispositifs médicaux.",
+        "E": "Faux : Ils ont de nombreuses applications (surfactant pulmonaire, émulsions médicamenteuses, biomatériaux, tensiométrie), contrairement à cette affirmation."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-071"
+      ],
+      "theme": "Mesures et applications des phénomènes de surface",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Nier les applications médicales des phénomènes de surface.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5030",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'application de la loi de Laplace aux interfaces courbes en biologie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Pour une bulle à une seule interface (alvéole modélisée), la pression interne est P = 2T/r.",
+        "B": "Sans surfactant, les petites alvéoles auraient tendance à se vider dans les grandes.",
+        "C": "Le surfactant stabilise les alvéoles en réduisant davantage la tension superficielle dans les petites alvéoles.",
+        "D": "La loi de Laplace indique que la pression dans une bulle est indépendante de son rayon.",
+        "E": "Une bulle de savon possède une seule interface liquide-gaz."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La loi de Laplace relie la pression à la tension superficielle et au rayon de courbure d'une interface : P = 2T/r pour une interface sphérique unique (modèle de l'alvéole), P = 4T/r pour une bulle de savon (deux interfaces). Elle explique qu'à tension constante, la pression est plus élevée dans les petites alvéoles, qui tendraient à se vider dans les grandes (instabilité). Le surfactant pulmonaire, en abaissant davantage la tension superficielle dans les petites alvéoles, égalise les pressions et prévient le collapsus, augmentant la compliance. Son déficit (prématuré) entraîne la maladie des membranes hyalines. Cette application de la physique des surfaces à la physiologie respiratoire est un exemple fondamental de la biophysique médicale.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle augmente lorsque le rayon diminue, à tension constante.",
+        "B": "Vrai : Du fait d'une pression plus élevée dans les alvéoles de petit rayon.",
+        "C": "Vrai : Ce qui tend à égaliser les pressions et prévient le collapsus.",
+        "D": "Faux : La pression dépend du rayon (P = 2T/r pour une bulle à une interface) : elle augmente quand le rayon diminue.",
+        "E": "Faux : Une bulle de savon possède deux interfaces (film mince entre deux milieux gazeux), d'où P = 4T/r ; une alvéole est modélisée par une seule interface (P = 2T/r)."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-071"
+      ],
+      "theme": "Loi de Laplace appliquée aux alvéoles et aux bulles",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Confondre le nombre d'interfaces d'une bulle de savon (deux) et d'une alvéole (une).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5031",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la capillarité, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La capillarité est l'ascension ou la dépression d'un liquide dans un tube fin, liée aux forces de surface.",
+        "B": "La loi de Jurin indique que la hauteur d'ascension capillaire est inversement proportionnelle au rayon du tube.",
+        "C": "Un liquide mouillant (comme l'eau dans le verre) présente un ménisque concave et monte dans le tube.",
+        "D": "La capillarité intervient dans de nombreux phénomènes biologiques et techniques.",
+        "E": "La hauteur d'ascension capillaire augmente avec le rayon du tube."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La capillarité désigne le comportement d'un liquide dans un tube de faible diamètre, résultant des forces de surface (cohésion entre molécules du liquide, adhésion avec la paroi). Un liquide mouillant (angle de contact faible, ménisque concave) s'élève dans le tube ; un liquide non mouillant (mercure, ménisque convexe) est déprimé. La loi de Jurin exprime la hauteur d'ascension : h = 2T cosθ / (ρ g r), inversement proportionnelle au rayon du tube. La capillarité intervient dans de nombreux phénomènes (milieux poreux, techniques de laboratoire, physiologie). Associée à la tension superficielle et à la loi de Laplace, elle illustre l'importance des forces de surface en biophysique et leurs applications médicales.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle résulte de l'équilibre entre cohésion et adhésion.",
+        "B": "Vrai : Plus le tube est fin, plus l'ascension est élevée.",
+        "C": "Vrai : Un liquide non mouillant (mercure) présente un ménisque convexe et est déprimé.",
+        "D": "Vrai : Comme la montée de liquides dans des milieux poreux.",
+        "E": "Faux : D'après la loi de Jurin, la hauteur d'ascension capillaire est inversement proportionnelle au rayon : elle diminue quand le rayon augmente."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-072"
+      ],
+      "theme": "Tension superficielle et capillarité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la hauteur capillaire augmente avec le rayon du tube.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5032",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la pression à l'intérieur d'une bulle et ses implications, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La pression à l'intérieur d'une bulle de gaz dans un liquide augmente lorsque le rayon de la bulle diminue.",
+        "B": "Une embolie gazeuse correspond à l'obstruction d'un vaisseau par une bulle de gaz.",
+        "C": "La tension superficielle à l'interface gaz-sang tend à stabiliser les petites bulles, difficiles à éliminer.",
+        "D": "La loi de Laplace relie la pression, la tension superficielle et le rayon de courbure.",
+        "E": "La pression dans une bulle est indépendante de la tension superficielle du liquide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La loi de Laplace appliquée à une bulle de gaz dans un liquide (P = 2T/r) montre que la pression interne augmente quand le rayon diminue et avec la tension superficielle. Ce principe éclaire plusieurs phénomènes médicaux : la physiologie alvéolaire (rôle du surfactant), mais aussi l'embolie gazeuse, obstruction d'un vaisseau par une bulle de gaz, survenant lors d'accidents de décompression (plongée), de gestes médicaux (cathéters, chirurgie) ou de traumatismes. La tension superficielle tend à stabiliser les petites bulles, ce qui complique leur élimination et contribue à la gravité. La compréhension de ces phénomènes de surface a des implications en physiologie respiratoire, en médecine hyperbare et en prévention des accidents iatrogènes.",
+      "explications_par_proposition": {
+        "A": "Vrai : Selon la loi de Laplace (P = 2T/r pour une interface).",
+        "B": "Vrai : Elle peut survenir lors d'accidents de décompression ou de gestes médicaux.",
+        "C": "Vrai : Ce qui participe à la gravité des embolies gazeuses.",
+        "D": "Vrai : Elle s'applique aux bulles, alvéoles et vaisseaux.",
+        "E": "Faux : La pression dans une bulle dépend de la tension superficielle (P = 2T/r) : plus la tension est élevée, plus la pression interne est grande."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-072"
+      ],
+      "theme": "Pression dans une bulle et embolie gazeuse",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la pression dans une bulle est indépendante de la tension superficielle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5033",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les applications médicales de la tension superficielle et de la capillarité, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le surfactant pulmonaire réduit la tension superficielle alvéolaire et prévient le collapsus.",
+        "B": "La capillarité est utilisée dans certaines techniques de laboratoire (chromatographie, prélèvements capillaires).",
+        "C": "La tension superficielle intervient dans la formation et la stabilité des émulsions pharmaceutiques.",
+        "D": "Les phénomènes de surface participent à certains mécanismes physiologiques et pathologiques.",
+        "E": "La tension superficielle n'a aucune implication en physiologie respiratoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La tension superficielle et la capillarité, phénomènes de surface, ont de nombreuses applications médicales. En physiologie respiratoire, la tension superficielle alvéolaire et le surfactant déterminent la stabilité des alvéoles et la compliance pulmonaire (détresse respiratoire du prématuré en cas de déficit). En pathologie, elles interviennent dans les embolies gazeuses. En technique et en pharmacie, la capillarité est exploitée (prélèvements capillaires, chromatographie, milieux poreux) et la tension superficielle conditionne la formation et la stabilité des émulsions et suspensions (tensioactifs). La tensiométrie et l'étude du mouillage ont des applications pour les biomatériaux. Ces exemples montrent le lien étroit entre la physique des interfaces et la médecine.",
+      "explications_par_proposition": {
+        "A": "Vrai : Son déficit cause la détresse respiratoire du prématuré.",
+        "B": "Vrai : Et dans les dispositifs à base de milieux poreux.",
+        "C": "Vrai : Stabilisées par des tensioactifs.",
+        "D": "Vrai : Comme la stabilité alvéolaire ou les embolies gazeuses.",
+        "E": "Faux : La tension superficielle a une implication majeure en physiologie respiratoire (stabilité alvéolaire, rôle du surfactant, compliance), contrairement à cette affirmation."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-072"
+      ],
+      "theme": "Applications médicales de la tension superficielle",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Nier le rôle de la tension superficielle en physiologie respiratoire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5034",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les facteurs qui modifient la tension superficielle, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La tension superficielle d'un liquide dépend de sa nature et de la température.",
+        "B": "Les tensioactifs abaissent la tension superficielle en s'adsorbant à l'interface.",
+        "C": "Au-delà de la concentration micellaire critique, les tensioactifs forment des micelles.",
+        "D": "Le surfactant pulmonaire module la tension superficielle en fonction de la surface alvéolaire.",
+        "E": "L'ajout d'un tensioactif à l'eau augmente fortement sa tension superficielle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La tension superficielle d'un liquide dépend de sa nature et des conditions physiques : elle diminue en général lorsque la température augmente et est fortement abaissée par les tensioactifs, qui s'adsorbent à l'interface. L'effet des tensioactifs croît avec leur concentration jusqu'à la concentration micellaire critique, au-delà de laquelle ils forment des micelles sans réduction supplémentaire notable de la tension. Le surfactant pulmonaire a la particularité de moduler la tension superficielle selon la surface alvéolaire (plus efficace à faible surface), ce qui stabilise les alvéoles au cours du cycle respiratoire. La connaissance de ces facteurs est utile en physiologie (respiration) et en pharmacie (formulation). Elle complète l'étude des phénomènes de surface.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle diminue en général quand la température augmente.",
+        "B": "Vrai : Leur concentration influence l'effet, jusqu'à la concentration micellaire critique.",
+        "C": "Vrai : La tension superficielle ne diminue alors plus notablement.",
+        "D": "Vrai : Ce qui stabilise les alvéoles au cours du cycle respiratoire.",
+        "E": "Faux : L'ajout d'un tensioactif abaisse la tension superficielle de l'eau ; il ne l'augmente pas."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-072"
+      ],
+      "theme": "Facteurs modifiant la tension superficielle",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un tensioactif augmente la tension superficielle de l'eau.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la stérilisation et la désinfection, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La stérilisation vise la destruction de tous les micro-organismes, y compris les spores.",
+        "B": "La désinfection réduit le nombre de micro-organismes mais n'assure pas nécessairement la destruction des spores.",
+        "C": "L'antisepsie s'applique aux tissus vivants (peau, muqueuses).",
+        "D": "Le niveau de traitement requis d'un dispositif médical dépend du risque infectieux lié à son usage (classification de Spaulding).",
+        "E": "La désinfection et la stérilisation sont des termes strictement synonymes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'hygiène hospitalière distingue des niveaux de traitement anti-microbien. La stérilisation détruit tous les micro-organismes, y compris les spores (état stérile). La désinfection réduit la charge microbienne sur les surfaces et le matériel inerte, sans toujours détruire les spores (désinfection de bas, intermédiaire ou haut niveau). L'antisepsie est l'application de ces principes aux tissus vivants (peau, muqueuses). Le niveau requis dépend du risque infectieux lié à l'usage du dispositif (classification de Spaulding : critique, semi-critique, non critique). Ces définitions, essentielles à la prévention des infections associées aux soins, orientent le choix des procédés et des produits. Leur respect est un pilier de la sécurité des soins.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle aboutit à un état stérile (absence de tout micro-organisme vivant).",
+        "B": "Vrai : Elle s'applique aux surfaces et dispositifs, l'antisepsie aux tissus vivants.",
+        "C": "Vrai : Alors que la désinfection concerne les surfaces et le matériel inerte.",
+        "D": "Vrai : Dispositifs critiques (stérilisation), semi-critiques (désinfection de haut niveau), non critiques.",
+        "E": "Faux : La stérilisation détruit tous les micro-organismes (spores comprises) ; la désinfection réduit la charge microbienne sans garantir la destruction de toutes les spores : ce ne sont pas des synonymes."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-073"
+      ],
+      "theme": "Stérilisation et désinfection : définitions",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Employer « désinfection » et « stérilisation » comme synonymes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rutala WA, Weber DJ ; Healthcare Infection Control Practices Advisory Committee (HICPAC). Guideline for Disinfection and Sterilization in Healthcare Facilities, 2008. CDC (mise à jour 2019).",
+          "date": "2008"
+        },
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les méthodes de stérilisation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La stérilisation par la vapeur d'eau saturée sous pression (autoclave) est une méthode de référence.",
+        "B": "La chaleur humide est plus efficace que la chaleur sèche à température égale.",
+        "C": "Il existe des méthodes de stérilisation à basse température pour le matériel thermosensible.",
+        "D": "Le respect des paramètres (température, durée, pression) et les contrôles sont indispensables.",
+        "E": "L'autoclave stérilise sans aucun contrôle ni traçabilité."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La stérilisation détruit tous les micro-organismes, spores comprises. La méthode de référence pour le matériel thermorésistant est la vapeur d'eau saturée sous pression (autoclave : par exemple 134 °C), la chaleur humide étant plus efficace que la chaleur sèche (Poupinel, aujourd'hui peu recommandé). Pour le matériel thermosensible, on recourt à des procédés à basse température (gaz plasma de peroxyde d'hydrogène, oxyde d'éthylène) ou, selon les contextes, à la stérilisation par irradiation (industrielle). Le respect strict des paramètres et des contrôles (indicateurs physico-chimiques et biologiques) ainsi que la traçabilité sont indispensables. Le choix de la méthode dépend de la nature du dispositif. Ces procédés sont au cœur de la prévention des infections associées aux soins.",
+      "explications_par_proposition": {
+        "A": "Vrai : Par exemple 134 °C pendant une durée définie pour les dispositifs thermorésistants.",
+        "B": "Vrai : La vapeur transfère mieux l'énergie thermique.",
+        "C": "Vrai : Comme le gaz plasma de peroxyde d'hydrogène ou l'oxyde d'éthylène.",
+        "D": "Vrai : Indicateurs physico-chimiques et biologiques vérifient l'efficacité.",
+        "E": "Faux : La stérilisation nécessite des contrôles (indicateurs physico-chimiques et biologiques) et une traçabilité rigoureuse, garants de l'efficacité."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-073"
+      ],
+      "theme": "Méthodes de stérilisation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la chaleur sèche est aussi efficace que la chaleur humide à température égale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rutala WA, Weber DJ ; Healthcare Infection Control Practices Advisory Committee (HICPAC). Guideline for Disinfection and Sterilization in Healthcare Facilities, 2008. CDC (mise à jour 2019).",
+          "date": "2008"
+        },
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prévention des infections associées aux soins, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'hygiène des mains est la mesure la plus importante de prévention des infections associées aux soins.",
+        "B": "Les précautions standard s'appliquent à tout patient, quel que soit son statut infectieux.",
+        "C": "Des précautions complémentaires (contact, gouttelettes, air) s'ajoutent selon l'agent et son mode de transmission.",
+        "D": "Le bon usage des antibiotiques participe à la maîtrise des résistances bactériennes.",
+        "E": "Le port de gants dispense de l'hygiène des mains."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La prévention des infections associées aux soins repose sur plusieurs piliers. L'hygiène des mains, notamment la friction hydro-alcoolique, est la mesure la plus efficace et ne doit jamais être remplacée par le simple port de gants. Les précautions standard s'appliquent à tout patient (hygiène des mains, équipements de protection, gestion du matériel et des excreta, prévention des accidents d'exposition au sang), complétées si besoin par des précautions selon le mode de transmission (contact, gouttelettes, air). S'y ajoutent la stérilisation et la désinfection adaptées, la maîtrise de l'environnement, la surveillance épidémiologique et le bon usage des antibiotiques (lutte contre les résistances). Ces mesures, coordonnées, sont essentielles à la sécurité des soins et relèvent de l'hygiène hospitalière.",
+      "explications_par_proposition": {
+        "A": "Vrai : La friction hydro-alcoolique est recommandée en première intention.",
+        "B": "Vrai : Elles réduisent le risque de transmission croisée.",
+        "C": "Vrai : Par exemple l'isolement respiratoire pour la tuberculose.",
+        "D": "Vrai : Enjeu majeur en milieu hospitalier.",
+        "E": "Faux : Le port de gants ne dispense pas de l'hygiène des mains, qui reste indispensable avant et après le retrait des gants."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-073"
+      ],
+      "theme": "Prévention des infections associées aux soins",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le port de gants remplace l'hygiène des mains.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rutala WA, Weber DJ ; Healthcare Infection Control Practices Advisory Committee (HICPAC). Guideline for Disinfection and Sterilization in Healthcare Facilities, 2008. CDC (mise à jour 2019).",
+          "date": "2008"
+        },
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MICR-5010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement du matériel médical selon le risque infectieux, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les dispositifs critiques, pénétrant dans des tissus stériles ou le système vasculaire, doivent être stérilisés.",
+        "B": "Les dispositifs semi-critiques, en contact avec des muqueuses, nécessitent au moins une désinfection de haut niveau.",
+        "C": "Les dispositifs non critiques, en contact avec la peau intacte, nécessitent un nettoyage et une désinfection de bas niveau.",
+        "D": "Le nettoyage préalable du matériel est une étape indispensable avant désinfection ou stérilisation.",
+        "E": "Un dispositif critique peut être simplement désinfecté à bas niveau sans stérilisation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La classification de Spaulding adapte le niveau de traitement au risque infectieux lié à l'usage du dispositif. Les dispositifs critiques (effraction des tissus stériles ou du système vasculaire : instruments chirurgicaux) exigent la stérilisation. Les dispositifs semi-critiques (contact avec les muqueuses : endoscopes souples) requièrent au minimum une désinfection de haut niveau. Les dispositifs non critiques (contact avec la peau intacte : brassard, stéthoscope) nécessitent un nettoyage et une désinfection de bas niveau. Toute procédure débute par un nettoyage, étape indispensable à l'efficacité de la désinfection ou de la stérilisation. Cette classification, pilier de l'hygiène hospitalière, guide le retraitement des dispositifs médicaux et la prévention des infections associées aux soins.",
+      "explications_par_proposition": {
+        "A": "Vrai : Par exemple les instruments chirurgicaux.",
+        "B": "Vrai : Par exemple certains endoscopes.",
+        "C": "Vrai : Par exemple un brassard à tension.",
+        "D": "Vrai : Il élimine les salissures et réduit la charge microbienne, conditionnant l'efficacité des étapes suivantes.",
+        "E": "Faux : Un dispositif critique doit être stérilisé (ou à défaut soumis à une désinfection de haut niveau validée) ; une désinfection de bas niveau est insuffisante."
+      },
+      "specialite": "MICR",
+      "items_residanat": [
+        "RES-SF-073"
+      ],
+      "theme": "Classification de Spaulding et traitement du matériel",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se contenter d'une désinfection de bas niveau pour un dispositif critique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rutala WA, Weber DJ ; Healthcare Infection Control Practices Advisory Committee (HICPAC). Guideline for Disinfection and Sterilization in Healthcare Facilities, 2008. CDC (mise à jour 2019).",
+          "date": "2008"
+        },
+        {
+          "reference": "Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9e éd. Elsevier ; 2021 [catalogue OUV-0206].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }

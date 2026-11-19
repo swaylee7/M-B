@@ -79,7 +79,7 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -156,7 +156,7 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -197,7 +197,7 @@
       "traitement": "Alerte et heure notée ; 2 VVP 14-16 G ; O2, réchauffement, sonde urinaire ; massage utérin et compression bimanuelle ; ocytocine 5-10 UI IV lente puis perfusion d'entretien ; acide tranexamique 1 g IV en 10 min (< 3 h), 2e dose à 30 min devant la persistance ; révision utérine sous anesthésie avec antibioprophylaxie ; examen sous valves (éraillure vaginale non hémorragique) ; 2e ligne : sulprostone IV si disponible (sinon misoprostol 800 µg sublingual ou ergométrine en l'absence d'HTA) ; transfusion 4 CGR et 2 PFC, concentré de fibrinogène ; ballonnet de tamponnement intra-utérin (test positif) ; bloc opératoire prévenu pour ligatures/capitonnage/hystérectomie en cas d'échec.",
       "surveillance": "Pouls, PA, saignement, tonus utérin, diurèse toutes les 15 min puis horaire ; Hb et hémostase répétées ; retrait progressif du ballonnet à H+20 ; HBPM dès H+24 en l'absence de saignement ; fer IV ; recherche d'un syndrome de Sheehan (montée laiteuse) ; revue de morbidité.",
       "evolution": "Arrêt du saignement après ballonnet ; Hb 8,1 g/dL à J1 ; montée laiteuse normale à J3 ; sortie à J4 avec fer et information sur le risque de récidive.",
-      "explication_pedagogique": "La gravité d'une HPP dépend surtout du délai de prise en charge. Mesurer les pertes (sac, champ calibré) permet un diagnostic à 500 mL au lieu de 1 100 mL. Le bundle de première intention (massage, ocytocine, acide tranexamique, remplissage, examen et escalade) doit être appliqué simultanément. L'escalade est guidée par le temps (15-30 min). En l'absence d'embolisation, la laparotomie (ligatures, capitonnage, hystérectomie) se fait sur place chez une patiente instable.",
+      "explication_pedagogique": "La gravité d'une HPP dépend surtout du délai de prise en charge. Mesurer les pertes (sac, champ calibré) permet un diagnostic précoce : selon les critères OMS 2025, l'HPP aurait été retenue dès 300 mL mesurés avec une tachycardie > 100/min ou un index de choc > 1, ou dès 500 mL, au lieu de 1 100 mL. Le bundle de première intention (massage, ocytocine, acide tranexamique, remplissage, examen et escalade) doit être appliqué simultanément. L'escalade est guidée par le temps (15-30 min). En l'absence d'embolisation, la laparotomie (ligatures, capitonnage, hystérectomie) se fait sur place chez une patiente instable.",
       "questions": [
         {
           "question": "Citez les facteurs de risque d'atonie présents.",
@@ -205,7 +205,7 @@
         },
         {
           "question": "Quelles sont les modalités de l'acide tranexamique ?",
-          "reponse": "1 g IV en 10 min dans les 3 h suivant la naissance, 2e dose de 1 g si le saignement persiste à 30 min ou reprend dans les 24 h (OMS 2017, essai WOMAN)."
+          "reponse": "1 g IV en 10 min dans les 3 h suivant la naissance, 2e dose de 1 g si le saignement persiste à 30 min ou reprend dans les 24 h (OMS 2017, reprise en 2025 ; essai WOMAN)."
         },
         {
           "question": "Pourquoi l'ergométrine est-elle utilisable ici ?",
@@ -232,9 +232,13 @@
         {
           "reference": "Gallos I et al. E-MOTIVE. N Engl J Med 2023",
           "date": "2023"
+        },
+        {
+          "reference": "OMS. Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage, 2025 (DOC-00035)",
+          "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -270,7 +274,7 @@
         "Consultation d'anesthésie"
       ],
       "diagnostic_final": "Placenta praevia recouvrant avec suspicion forte de placenta accreta spectrum (percreta focal vésical) sur utérus bicicatriciel.",
-      "traitement": "Correction de l'anémie (fer IV) ; corticothérapie anténatale si menace ; planification multidisciplinaire (obstétricien expérimenté, anesthésiste, urologue, radiologue interventionnel si disponible, banque de sang) ; césarienne programmée vers 34-36 SA (terme selon le protocole du centre) par incision corporéale à distance du placenta, sans tenter de délivrance ; hystérectomie avec placenta en place ; acide tranexamique ; récupération de sang peropératoire si disponible ; protocole de transfusion massive prêt (CGR, PFC, fibrinogène, plaquettes) ; alternative conservatrice (placenta laissé en place) discutée selon le désir de grossesse et le plateau technique.",
+      "traitement": "Correction de l'anémie (fer IV) ; corticothérapie anténatale si menace ; planification multidisciplinaire (obstétricien expérimenté, anesthésiste, urologue, radiologue interventionnel si disponible, banque de sang) ; césarienne programmée vers 34-36 SA (terme selon le protocole du centre) par incision corporéale à distance du placenta, sans tenter de délivrance ; hystérectomie avec placenta en place ; acide tranexamique en cas d'hémorragie (pas de TXA prophylactique systématique à la césarienne selon l'OMS 2025) ; récupération de sang peropératoire si disponible ; protocole de transfusion massive prêt (CGR, PFC, fibrinogène, plaquettes) ; alternative conservatrice (placenta laissé en place) discutée selon le désir de grossesse et le plateau technique.",
       "surveillance": "Avant l'accouchement : consignes de reconsultation immédiate en cas de saignement, résidence proche du CHU. Après : soins intensifs, Hb, hémostase, diurèse (lésion vésicale), thromboprophylaxie, fer IV, soutien psychologique.",
       "evolution": "Césarienne-hystérectomie programmée à 35 SA ; brèche vésicale réparée ; pertes 2 300 mL ; transfusion de 4 CGR, 3 PFC et 3 g de fibrinogène ; nouveau-né de 2 600 g en bonne santé ; suites favorables.",
       "explication_pedagogique": "L'association placenta praevia + cicatrice(s) de césarienne est le principal facteur de risque du placenta accreta spectrum, cause majeure d'hémorragie de la délivrance massive. Le diagnostic anténatal et l'accouchement programmé dans un centre de niveau III avec banque de sang réduisent la morbidité. Il ne faut jamais forcer la délivrance d'un placenta accreta. Cette situation illustre la prévention de l'HPP par l'identification anténatale des femmes à risque (CNGOF 2014).",
@@ -296,9 +300,13 @@
         {
           "reference": "OMS. Recommendation on tranexamic acid for PPH, 2017",
           "date": "2017"
+        },
+        {
+          "reference": "OMS. Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage, 2025 (DOC-00035)",
+          "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -337,7 +345,7 @@
         "Groupe sanguin, Rhésus, RAI"
       ],
       "diagnostic_final": "Grossesse extra-utérine tubaire gauche non rompue, peu active (hCG 2 400-2 650 UI/L en plateau, masse de 22 mm sans activité cardiaque), chez une patiente stable.",
-      "traitement": "Après information et choix éclairé (hCG entre 1 500 et 5 000 UI/L : méthotrexate ou chirurgie selon le NICE) : méthotrexate IM en dose unique (1 mg/kg selon la RTU française ou 50 mg/m² selon l'ACOG) ; prophylaxie anti-D selon le protocole local (ACOG : recommandée ; NICE : non requise en cas de traitement exclusivement médical) ; consignes : pas d'AINS, d'alcool, d'acide folique ni d'exposition solaire, abstinence pendant la surveillance, contraception efficace et délai avant conception d'au moins 3 mois (NICE) ; arrêt du tabac.",
+      "traitement": "Après information et choix éclairé (hCG entre 1 500 et 5 000 UI/L : méthotrexate ou chirurgie selon le NICE) : méthotrexate IM en dose unique (1 mg/kg selon le protocole français — RTU puis cadre de prescription compassionnelle de l'ANSM — ou 50 mg/m² selon l'ACOG) ; prophylaxie anti-D selon le protocole national ou local (ACOG : recommandée ; NICE, mise à jour de 2026 : non proposée avant 12 SA) ; consignes : pas d'AINS, d'alcool, d'acide folique ni d'exposition solaire, abstinence pendant la surveillance, contraception efficace et délai avant conception d'au moins 3 mois (recommandation britannique RCOG) ; arrêt du tabac.",
       "surveillance": "hCG à J4 et J7 puis hebdomadaire jusqu'à négativation ; consultation en urgence si douleur intense, malaise, saignement abondant ; échographie en cas de douleur (douleur de séparation vs rupture).",
       "evolution": "Douleur modérée à J5 sans épanchement significatif (douleur de séparation). hCG : J4 2 900 UI/L, J7 2 300 UI/L (baisse de 21 % entre J4 et J7) ; négativation à 6 semaines.",
       "explication_pedagogique": "Le diagnostic de GEU repose sur l'association hCG quantitative + échographie endovaginale. Chez une femme qui désire sa grossesse, un second dosage à 48 h évite d'administrer du méthotrexate sur une grossesse intra-utérine débutante (zone de discrimination pouvant atteindre 3 500 UI/L selon l'ACOG). Le méthotrexate exige une patiente stable, une GEU non rompue de petite taille sans activité cardiaque, un bilan préthérapeutique normal et une surveillance fiable. L'ascension de l'hCG à J4 est fréquente ; le critère de succès est une baisse ≥ 15 % entre J4 et J7.",
@@ -361,11 +369,11 @@
           "date": "2018"
         },
         {
-          "reference": "NICE NG126",
-          "date": "2019"
+          "reference": "NICE NG126 (2019, mise à jour de juin 2026 : anti-D)",
+          "date": "2026"
         },
         {
-          "reference": "HAS. RTU méthotrexate GEU, 2016",
+          "reference": "ANSM. RTU du méthotrexate dans la GEU (2016), puis cadre de prescription compassionnelle (2022)",
           "date": "2016"
         },
         {
@@ -373,7 +381,7 @@
           "date": "2016"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -408,10 +416,10 @@
         "Les examens ne doivent pas retarder la chirurgie"
       ],
       "diagnostic_final": "GEU tubaire droite rompue avec hémopéritoine massif et choc hémorragique, sur grossesse survenue sous DIU.",
-      "traitement": "Réanimation : 2 VVP de gros calibre, remplissage, transfusion de CGR (O négatif si nécessaire) ; chirurgie immédiate : laparotomie (ou cœlioscopie si équipe entraînée et état le permettant après réanimation) avec aspiration de l'hémopéritoine et salpingectomie droite ; examen de la trompe gauche ; immunoglobuline anti-D (Rhésus négatif, traitement chirurgical) ; examen anatomopathologique de la pièce ; retrait du DIU discuté.",
+      "traitement": "Réanimation : 2 VVP de gros calibre, remplissage, transfusion de CGR (O négatif si nécessaire) ; chirurgie immédiate : laparotomie (ou cœlioscopie si équipe entraînée et état le permettant après réanimation) avec aspiration de l'hémopéritoine et salpingectomie droite ; examen de la trompe gauche ; immunoglobuline anti-D selon le protocole en vigueur (Rhésus négatif ; recommandée par l'ACOG, non proposée avant 12 SA par le NICE depuis 2026) ; examen anatomopathologique de la pièce ; retrait du DIU discuté.",
       "surveillance": "Hémodynamique, Hb postopératoire, diurèse ; contrôle de la négativation de l'hCG selon la pratique du service ; information sur la fertilité et la contraception ; échographie précoce lors d'une grossesse ultérieure.",
       "evolution": "Hémopéritoine de 1 800 mL ; salpingectomie droite ; trompe gauche saine ; transfusion de 3 CGR ; histologie : villosités choriales dans la trompe avec lésions de salpingite chronique ; sortie à J3.",
-      "explication_pedagogique": "Le DIU diminue le risque absolu de grossesse mais toute grossesse sous DIU doit faire évoquer une GEU. Le choc hémorragique avec test de grossesse positif impose une chirurgie immédiate sans attendre d'autres examens. La prophylaxie anti-D est indiquée chez la femme Rhésus négatif opérée. L'examen anatomopathologique confirme le diagnostic (villosités choriales) et documente les lésions tubaires.",
+      "explication_pedagogique": "Le DIU diminue le risque absolu de grossesse mais toute grossesse sous DIU doit faire évoquer une GEU. Le choc hémorragique avec test de grossesse positif impose une chirurgie immédiate sans attendre d'autres examens. La prophylaxie anti-D chez la femme Rhésus négatif suit le protocole en vigueur : les recommandations divergent au premier trimestre (ACOG : recommandée ; NICE 2026 : non proposée avant 12 SA). L'examen anatomopathologique confirme le diagnostic (villosités choriales) et documente les lésions tubaires.",
       "questions": [
         {
           "question": "Quelle est la signification de la scapulalgie ?",
@@ -440,7 +448,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -477,8 +485,8 @@
         "Cystoscopie/rectoscopie si suspicion clinique ou radiologique"
       ],
       "diagnostic_final": "Carcinome épidermoïde non kératinisant du col de l'utérus, stade FIGO 2018 IIIC1r (tumeur de 5,5 cm avec envahissement paramétrial et adénopathies pelviennes à l'imagerie).",
-      "traitement": "RCP ; radiochimiothérapie concomitante : radiothérapie externe pelvienne (≈ 45-50 Gy) avec surimpression ganglionnaire et cisplatine hebdomadaire (40 mg/m²), suivie d'une curiethérapie utéro-vaginale guidée par l'IRM ; durée totale idéalement ≤ 7-8 semaines ; correction de l'anémie ; options discutées selon l'accès : chimiothérapie d'induction (INTERLACE) ou pembrolizumab (KEYNOTE-A18) ; soins de support (nutrition, douleur, psychologie, hébergement près du centre).",
-      "surveillance": "IRM pelvienne à 3 mois ; examen clinique tous les 3-4 mois pendant 2 ans puis tous les 6 mois jusqu'à 5 ans ; SCC-Ag ; prise en charge des séquelles (dilatateurs vaginaux, rectite, cystite, ménopause radio-induite).",
+      "traitement": "RCP ; radiochimiothérapie concomitante : radiothérapie externe pelvienne (45 Gy en 25 fractions) avec complément de dose sur les ganglions envahis et cisplatine hebdomadaire (40 mg/m²), suivie d'une curiethérapie utéro-vaginale guidée par l'IRM ; durée totale ≤ 7 semaines (ESGO 2023) ; correction de l'anémie ; options discutées selon l'accès : chimiothérapie d'induction (INTERLACE) ou pembrolizumab (KEYNOTE-A18) ; soins de support (nutrition, douleur, psychologie, hébergement près du centre).",
+      "surveillance": "IRM pelvienne pas avant 3 mois (même technique qu'au diagnostic) ; pas de cytologie de surveillance après irradiation ; examen clinique tous les 3-4 mois pendant 2 ans puis tous les 6 mois jusqu'à 5 ans ; SCC-Ag ; prise en charge des séquelles (dilatateurs vaginaux, rectite, cystite, ménopause radio-induite).",
       "evolution": "Réponse complète à l'IRM de 3 mois ; sténose vaginale modérée prévenue par dilatateurs ; suivi en cours.",
       "explication_pedagogique": "Les métrorragies post-coïtales imposent un examen au spéculum et la biopsie de toute lésion. La FIGO 2018 intègre l'imagerie et les ganglions (stade IIIC, notation r/p). Les stades localement avancés relèvent de la radiochimiothérapie suivie de curiethérapie, et non de la chirurgie. Le retard au dépistage explique la fréquence des formes avancées ; la vaccination des filles et le dépistage des femmes de la famille sont des messages de prévention.",
       "questions": [
@@ -505,11 +513,19 @@
           "date": "2021"
         },
         {
-          "reference": "Cibula D et al. ESGO/ESTRO/ESP 2023 [À VÉRIFIER]",
+          "reference": "Cibula D et al. ESGO/ESTRO/ESP guidelines for cervical cancer — update 2023. Int J Gynecol Cancer 2023;33(5):649-666 (DOC-00094)",
           "date": "2023"
+        },
+        {
+          "reference": "McCormack M et al. INTERLACE. Lancet 2024;404(10462):1525-1535",
+          "date": "2024"
+        },
+        {
+          "reference": "Lorusso D et al. KEYNOTE-A18 (survie globale). Lancet 2024;404(10460):1321-1332",
+          "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -572,7 +588,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -643,7 +659,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     },
@@ -714,7 +730,7 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-07",
       "date_creation": "2026-11-19"
     }

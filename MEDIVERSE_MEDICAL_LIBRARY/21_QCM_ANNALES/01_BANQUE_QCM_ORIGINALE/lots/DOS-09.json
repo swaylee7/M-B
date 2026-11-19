@@ -1347,6 +1347,857 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-09",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0901",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiopathologie du lupus érythémateux systémique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un défaut de clairance des corps apoptotiques expose des antigènes nucléaires",
+        "B": "Une signature interféron de type I est retrouvée chez de nombreux patients",
+        "C": "BAFF/BLyS favorise la survie des lymphocytes B auto-réactifs",
+        "D": "Un déficit congénital en C1q protège contre le lupus",
+        "E": "Les lésions rénales sont indépendantes des complexes immuns"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Défaut de clairance des débris apoptotiques, production d'IFN de type I par les cellules dendritiques plasmacytoïdes, activation des lymphocytes B soutenue par BAFF, complexes immuns et consommation du complément sont les étapes clés.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : cible de l'anifrolumab.",
+        "C": "Vrai : cible du bélimumab.",
+        "D": "Faux : il expose au contraire à un risque très élevé de lupus.",
+        "E": "Faux : la glomérulonéphrite lupique est une maladie à complexes immuns."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — physiopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Morand EF et al. Trial of anifrolumab in active SLE (TULIP-2). N Engl J Med 2020;382(3):211-221",
+          "date": "2020"
+        },
+        {
+          "reference": "Furie R et al. Belimumab in lupus nephritis (BLISS-LN). N Engl J Med 2020;383(12):1117-1128",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0902",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les auto-anticorps au cours du lupus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les AAN sont très sensibles mais peu spécifiques",
+        "B": "Les anti-Sm sont très spécifiques du lupus",
+        "C": "Les anti-histones sont fréquents dans le lupus induit",
+        "D": "Les anti-SSA exposent au bloc auriculo-ventriculaire congénital",
+        "E": "Une CRP très élevée est le marqueur habituel d'une poussée lupique non compliquée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "AAN : sensibles, peu spécifiques ; anti-ADN natif et anti-Sm : spécifiques ; anti-SSA : risque de lupus néonatal et de BAV congénital ; la CRP est souvent normale ou peu élevée en poussée, son élévation oriente vers une infection ou une sérite.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — immunologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Attribuer une CRP élevée à une poussée sans chercher d'infection.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Aringer M et al. 2019 EULAR/ACR classification criteria for SLE. Ann Rheum Dis 2019;78(9):1151-1159",
+          "date": "2019"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0903",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos des critères de classification EULAR/ACR 2019 du lupus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Des AAN à un titre ≥ 1/80 constituent le critère d'entrée obligatoire",
+        "B": "Le seuil de classification est de 10 points",
+        "C": "Au moins un critère clinique est nécessaire",
+        "D": "Dans un même domaine, tous les critères présents s'additionnent",
+        "E": "Une néphropathie lupique de classe III ou IV à la biopsie rapporte 10 points"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Critères pondérés en 7 domaines cliniques et 3 immunologiques ; seul le critère de plus fort poids est compté par domaine ; sensibilité 96,1 % et spécificité 93,4 % en validation.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : seul le critère de poids le plus élevé est retenu par domaine.",
+        "E": "Vrai."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — critères EULAR/ACR 2019",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Additionner les critères d'un même domaine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Aringer M et al. 2019 EULAR/ACR classification criteria for SLE. Ann Rheum Dis 2019;78(9):1151-1159",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0904",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les lésions cutanées lupiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'érythème en vespertilio respecte habituellement les sillons naso-géniens",
+        "B": "Le lupus discoïde évolue vers des cicatrices atrophiques",
+        "C": "Le lupus cutané subaigu est associé aux anticorps anti-SSA",
+        "D": "Le lupus cutané aigu a un poids de 2 points dans les critères 2019",
+        "E": "La photoprotection fait partie du traitement"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Lupus cutané aigu (poids 6), subaigu ou discoïde (poids 4) ; photosensibilité commune ; photoprotection systématique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : alopécie cicatricielle possible.",
+        "C": "Vrai.",
+        "D": "Faux : 6 points.",
+        "E": "Vrai."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — atteinte cutanée",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Aringer M et al. 2019 EULAR/ACR classification criteria for SLE. Ann Rheum Dis 2019;78(9):1151-1159",
+          "date": "2019"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0905",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la néphropathie lupique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est souvent cliniquement silencieuse au début",
+        "B": "La bandelette urinaire et la protéinurie doivent être contrôlées à chaque consultation",
+        "C": "Une protéinurie persistante ≥ 0,5 g/24 h justifie de discuter une biopsie rénale",
+        "D": "La classe IV correspond à une glomérulonéphrite extramembraneuse",
+        "E": "Une baisse du C3 avec ascension des anti-ADN natif accompagne souvent une poussée rénale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La néphropathie conditionne le pronostic ; la biopsie précise la classe ISN/RPS, l'activité et la chronicité.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : surtout avec hématurie glomérulaire ou cylindres.",
+        "D": "Faux : classe IV = proliférative diffuse ; la classe V est extramembraneuse.",
+        "E": "Vrai."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — néphropathie lupique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la bandelette urinaire chez une patiente lupique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "KDIGO 2024 Clinical Practice Guideline for the management of lupus nephritis. Kidney Int 2024;105(1S):S1-S69",
+          "date": "2024"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0906",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans la classification ISN/RPS de la néphropathie lupique, la classe IV correspond à :",
+      "propositions": {
+        "A": "Une atteinte mésangiale minime",
+        "B": "Une prolifération mésangiale pure",
+        "C": "Une glomérulonéphrite proliférative diffuse touchant au moins 50 % des glomérules",
+        "D": "Une glomérulonéphrite extramembraneuse",
+        "E": "Une sclérose glomérulaire avancée (≥ 90 %)"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Classes : I mésangiale minime, II mésangiale proliférative, III proliférative focale (< 50 %), IV proliférative diffuse (≥ 50 %), V extramembraneuse, VI sclérose avancée.",
+      "explications_par_proposition": {
+        "A": "Faux : classe I.",
+        "B": "Faux : classe II.",
+        "C": "Vrai.",
+        "D": "Faux : classe V.",
+        "E": "Faux : classe VI."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — classification histologique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "KDIGO 2024 Clinical Practice Guideline for the management of lupus nephritis. Kidney Int 2024;105(1S):S1-S69",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0907",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hydroxychloroquine dans le lupus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est recommandée chez tous les patients en l'absence de contre-indication",
+        "B": "La dose ne doit pas dépasser 5 mg/kg de poids réel par jour",
+        "C": "Elle doit être interrompue dès le début d'une grossesse",
+        "D": "Un dépistage rétinien annuel est recommandé après 5 ans de traitement en l'absence de facteur de risque",
+        "E": "Elle réduit les poussées et est associée à une meilleure survie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'HCQ est le traitement de base de tout lupus ; la toxicité rétinienne dépend de la dose et de la durée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : dose cible 5 mg/kg de poids réel (EULAR 2023), plafond AAO 2016.",
+        "C": "Faux : elle doit être poursuivie pendant la grossesse.",
+        "D": "Vrai : après un examen de référence la première année.",
+        "E": "Vrai : y compris dans la région MENA (facteur protecteur)."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — hydroxychloroquine",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Arrêter l'HCQ pendant la grossesse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Marmor MF et al. Recommendations on screening for hydroxychloroquine retinopathy (2016 revision). Ophthalmology 2016;123(6):1386-1394",
+          "date": "2016"
+        },
+        {
+          "reference": "Alharbi S, Aljohani R. Mortality and survival in SLE in the MENA region: meta-analysis. Rheumatol Int 2026;46(7):161",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0908",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la corticothérapie au cours du lupus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dose d'entretien doit être réduite à 5 mg/j ou moins d'équivalent prednisone, puis arrêtée si possible",
+        "B": "Des bolus intraveineux de méthylprednisolone sont utilisés dans les formes sévères",
+        "C": "Une dose d'entretien de 20 mg/j pendant plusieurs années est acceptable si le lupus est contrôlé",
+        "D": "Une prophylaxie de la pneumocystose se discute en cas de forte dose prolongée",
+        "E": "Un arrêt brutal après corticothérapie prolongée expose à une insuffisance surrénalienne"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les corticoïdes sont un traitement d'attente ; l'exposition cumulée est un facteur de dommage et de mortalité.",
+      "explications_par_proposition": {
+        "A": "Vrai : EULAR 2023.",
+        "B": "Vrai : ils permettent une dose orale initiale plus faible.",
+        "C": "Faux : source majeure de dommage iatrogène.",
+        "D": "Vrai : au-delà de 15–30 mg/j pendant plus de 2–4 semaines selon l'EULAR.",
+        "E": "Vrai."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — corticothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Alharbi S, Aljohani R. Mortality and survival in SLE in the MENA region: meta-analysis. Rheumatol Int 2026;46(7):161",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0909",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une patiente a une néphropathie lupique de classe IV active. Quelles options thérapeutiques sont conformes aux recommandations EULAR 2023 / KDIGO 2024 ?",
+      "propositions": {
+        "A": "Glucocorticoïdes associés au mycophénolate",
+        "B": "Glucocorticoïdes associés au cyclophosphamide IV à faible dose",
+        "C": "Ajout envisageable de bélimumab ou d'un inhibiteur de la calcineurine",
+        "D": "Arrêt de l'hydroxychloroquine pendant l'induction",
+        "E": "Traitement d'entretien d'au moins 3 ans au total"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Mycophénolate ou cyclophosphamide faible dose sont les médicaments d'ancrage ; le bélimumab (BLISS-LN) ou un inhibiteur de la calcineurine peuvent être ajoutés ; l'HCQ est maintenue ; l'entretien dure au moins 3 ans.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'HCQ est poursuivie chez tous les patients.",
+        "E": "Vrai (KDIGO 2024)."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — traitement de la néphropathie",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "KDIGO 2024 Clinical Practice Guideline for the management of lupus nephritis. Kidney Int 2024;105(1S):S1-S69",
+          "date": "2024"
+        },
+        {
+          "reference": "Furie R et al. Belimumab in lupus nephritis (BLISS-LN). N Engl J Med 2020;383(12):1117-1128",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0910",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les biothérapies du lupus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le bélimumab cible BLyS/BAFF",
+        "B": "L'anifrolumab cible le récepteur de l'interféron de type I",
+        "C": "Le rituximab est réservé aux formes réfractaires",
+        "D": "L'anifrolumab est un anti-TNF",
+        "E": "Les anti-TNF sont le traitement de référence du lupus"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Bélimumab et anifrolumab sont indiqués dans les lupus actifs malgré le traitement standard ; le rituximab est utilisé dans les formes réfractaires. Les anti-TNF peuvent au contraire induire des lupus.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (TULIP-2).",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Faux : ils peuvent induire un lupus."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — biothérapies",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Morand EF et al. Trial of anifrolumab in active SLE (TULIP-2). N Engl J Med 2020;382(3):211-221",
+          "date": "2020"
+        },
+        {
+          "reference": "Furie R et al. Belimumab in lupus nephritis (BLISS-LN). N Engl J Med 2020;383(12):1117-1128",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0911",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une patiente lupique de 28 ans, traitée par HCQ et mycophénolate, a un projet de grossesse. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La grossesse doit être programmée en période de maladie inactive",
+        "B": "L'hydroxychloroquine doit être poursuivie",
+        "C": "Le mycophénolate doit être arrêté et remplacé si besoin par l'azathioprine",
+        "D": "La présence d'anti-SSA justifie une surveillance du rythme cardiaque fœtal",
+        "E": "Une contraception œstroprogestative est le meilleur choix en attendant si les antiphospholipides sont positifs"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les recommandations EULAR 2017 insistent sur la planification, la poursuite de l'HCQ, le relais des médicaments tératogènes et le dépistage des anti-SSA et des antiphospholipides.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : le mycophénolate est tératogène.",
+        "D": "Vrai : risque de BAV congénital.",
+        "E": "Faux : les œstrogènes sont à éviter en cas d'antiphospholipides."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Andreoli L et al. EULAR recommendations for women's health and pregnancy in SLE and/or APS. Ann Rheum Dis 2017;76(3):476-485",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0912",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le syndrome des antiphospholipides (SAPL) associé au lupus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Après une thrombose veineuse, un AVK au long cours (INR cible 2–3) est recommandé",
+        "B": "Les anticoagulants oraux directs sont à éviter chez les patients triple positifs",
+        "C": "Un TCA allongé par un anticoagulant lupique traduit un risque hémorragique",
+        "D": "La positivité des antiphospholipides doit être confirmée à au moins 12 semaines",
+        "E": "Un livedo racemosa doit faire rechercher des antiphospholipides"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'anticoagulant lupique allonge le TCA in vitro mais est thrombogène in vivo.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (rivaroxaban).",
+        "C": "Faux : il est associé à un risque thrombotique.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — SAPL",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Considérer l'anticoagulant lupique comme hémorragique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tektonidou MG et al. EULAR recommendations for the management of APS in adults. Ann Rheum Dis 2019;78(10):1296-1304",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0913",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le lupus induit médicamenteux, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'isoniazide fait partie des médicaments inducteurs",
+        "B": "L'hydralazine fait partie des médicaments inducteurs",
+        "C": "Les anticorps anti-histones y sont fréquents",
+        "D": "Les atteintes rénales et neurologiques graves y sont fréquentes",
+        "E": "Il régresse habituellement après l'arrêt du médicament"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le lupus induit associe surtout arthralgies, sérites et fièvre ; les atteintes graves sont rares ; les anti-TNF donnent des formes avec anti-ADN.",
+      "explications_par_proposition": {
+        "A": "Vrai : pertinent dans le contexte algérien (tuberculose, ITL).",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : rares.",
+        "E": "Vrai."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — lupus induit",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0914",
+      "format": "QCS (réponse unique)",
+      "enonce": "D'après la méta-analyse des cohortes lupiques de la région Moyen-Orient – Afrique du Nord (2026), quelle est la première cause de décès ?",
+      "propositions": {
+        "A": "Les infections",
+        "B": "Les cancers",
+        "C": "Les accidents vasculaires cérébraux",
+        "D": "Les suicides",
+        "E": "Les hémorragies digestives"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Les infections sont la première cause de décès, suivies de l'activité de la maladie, de l'insuffisance rénale et des complications cardiovasculaires ; l'HCQ et l'azathioprine apparaissent protectrices.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Faux : les complications cardiovasculaires viennent après.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — pronostic (région MENA)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Alharbi S, Aljohani R. Mortality and survival in SLE in the MENA region: meta-analysis. Rheumatol Int 2026;46(7):161",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0915",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une patiente lupique traitée par prednisone 15 mg/j et mycophénolate consulte pour une fièvre à 39 °C avec toux. Quelles attitudes sont justifiées ?",
+      "propositions": {
+        "A": "Rechercher d'abord une infection",
+        "B": "Interpréter une CRP élevée comme un argument en faveur d'une infection",
+        "C": "Réaliser des hémocultures et une radiographie thoracique",
+        "D": "Augmenter la corticothérapie sans exploration, s'agissant probablement d'une poussée",
+        "E": "Évoquer une tuberculose dans le contexte algérien"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Chez un patient lupique immunodéprimé, toute fièvre est une infection jusqu'à preuve du contraire ; la CRP, souvent peu élevée en poussée, oriente vers une infection lorsqu'elle est élevée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (en dehors d'une sérite).",
+        "C": "Vrai.",
+        "D": "Faux : risque d'aggraver une infection.",
+        "E": "Vrai : pays d'endémie, immunosuppression."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — fièvre sous immunosuppresseurs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Augmenter les corticoïdes devant une fièvre sans exclure une infection.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Alharbi S, Aljohani R. Mortality and survival in SLE in the MENA region: meta-analysis. Rheumatol Int 2026;46(7):161",
+          "date": "2026"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MINT-0916",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles anomalies hématologiques sont évocatrices de lupus ?",
+      "propositions": {
+        "A": "Anémie hémolytique auto-immune à test de Coombs direct positif",
+        "B": "Lymphopénie",
+        "C": "Thrombopénie périphérique pouvant précéder le diagnostic",
+        "D": "Hyperleucocytose à polynucléaires neutrophiles isolée",
+        "E": "Pancytopénie centrale par envahissement médullaire"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les cytopénies auto-immunes sont fréquentes et figurent dans les critères de classification (leucopénie 3, thrombopénie 4, hémolyse 4).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : évoque plutôt une infection ou une corticothérapie.",
+        "E": "Faux : évoque une hémopathie."
+      },
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "theme": "LES — atteinte hématologique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Aringer M et al. 2019 EULAR/ACR classification criteria for SLE. Ann Rheum Dis 2019;78(9):1151-1159",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
     }
   ]
 }

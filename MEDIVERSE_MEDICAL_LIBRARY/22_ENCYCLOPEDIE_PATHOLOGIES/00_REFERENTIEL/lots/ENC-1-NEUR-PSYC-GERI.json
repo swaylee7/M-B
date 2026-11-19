@@ -220,6 +220,7 @@
       "pathologies_liees": [
         "PATH-NEPH-0026",
         "PATH-NEUR-0003",
+        "PATH-INFE-0006",
         "PATH-NEUR-0045",
         "PATH-GENE-0016"
       ],
@@ -272,6 +273,7 @@
         "traitement de la cause"
       ],
       "pathologies_liees": [
+        "PATH-HEMA-0029",
         "PATH-MINT-0006",
         "PATH-NEUR-0048",
         "PATH-NEUR-0008",
@@ -432,6 +434,7 @@
         "PATH-NEUR-0055",
         "PATH-GENE-0021",
         "PATH-CARD-0068",
+        "PATH-PARA-0016",
         "PATH-NEUR-0057"
       ],
       "dossier": null,
@@ -482,6 +485,8 @@
         "PATH-NEUR-0008",
         "PATH-DIAB-0014",
         "PATH-PSYC-0039",
+        "PATH-INFE-0006",
+        "PATH-INFE-0045",
         "PATH-NEPH-0038"
       ],
       "dossier": null,
@@ -705,6 +710,7 @@
         "pas de traitement de fond dans les formes simples"
       ],
       "pathologies_liees": [
+        "PATH-INFE-0006",
         "PATH-NEUR-0008",
         "PATH-NEUR-0012"
       ],
@@ -928,7 +934,8 @@
       "maladie_rare": true,
       "priorite": "residanat",
       "items_residanat": [
-        "RES-SF-046"
+        "RES-SF-046",
+        "RES-SF-025"
       ],
       "symptomes": [
         "mouvements choréiques",
@@ -1041,6 +1048,7 @@
         "gabapentinoïdes"
       ],
       "pathologies_liees": [
+        "PATH-HEMA-0001",
         "PATH-NEPH-0023",
         "PATH-PSYC-0029"
       ],
@@ -1235,7 +1243,8 @@
       ],
       "pathologies_liees": [
         "PATH-NEUR-0022",
-        "PATH-NEUR-0024"
+        "PATH-NEUR-0024",
+        "PATH-INFE-0045"
       ],
       "dossier": null,
       "statut": "referentiel_a_auditer"
@@ -1293,7 +1302,8 @@
         "PATH-PNEU-0028",
         "PATH-NEUR-0027",
         "PATH-ENDO-0001",
-        "PATH-NEUR-0033"
+        "PATH-NEUR-0033",
+        "PATH-INFE-0047"
       ],
       "dossier": null,
       "statut": "referentiel_a_auditer"
@@ -1390,8 +1400,12 @@
       ],
       "pathologies_liees": [
         "PATH-NEUR-0029",
+        "PATH-INFE-0013",
+        "PATH-INFE-0044",
+        "PATH-INFE-0043",
         "PATH-NEUR-0060",
-        "PATH-HEPA-0028"
+        "PATH-HEPA-0028",
+        "PATH-INFE-0047"
       ],
       "dossier": null,
       "statut": "referentiel_a_auditer"
@@ -1440,6 +1454,7 @@
       ],
       "pathologies_liees": [
         "PATH-NEUR-0028",
+        "PATH-HEMA-0050",
         "PATH-NEUR-0032",
         "PATH-DIAB-0018"
       ],
@@ -1705,7 +1720,8 @@
       "priorite": "residanat",
       "items_residanat": [
         "RES-MED-032",
-        "RES-SF-043"
+        "RES-SF-043",
+        "RES-SF-023"
       ],
       "symptomes": [
         "retard de la marche",
@@ -1806,7 +1822,8 @@
       "maladie_rare": true,
       "priorite": "residanat",
       "items_residanat": [
-        "RES-MED-032"
+        "RES-MED-032",
+        "RES-SF-025"
       ],
       "symptomes": [
         "faiblesse musculaire distale",
@@ -2127,6 +2144,7 @@
       ],
       "pathologies_liees": [
         "PATH-DERM-0040",
+        "PATH-INFE-0027",
         "PATH-MINT-0005",
         "PATH-NEUR-0028",
         "PATH-NEUR-0001"
@@ -2688,6 +2706,7 @@
       "pathologies_liees": [
         "PATH-NEUR-0056",
         "PATH-NEUR-0058",
+        "PATH-HEMA-0048",
         "PATH-NEUR-0008",
         "PATH-GENE-0019"
       ],
@@ -2921,6 +2940,7 @@
       ],
       "pathologies_liees": [
         "PATH-ONCO-0025",
+        "PATH-HEMA-0049",
         "PATH-RHUM-0024",
         "PATH-RHUM-0026",
         "PATH-NEUR-0064",
@@ -3060,6 +3080,7 @@
         "traitement de la cause (Biermer, malabsorption)"
       ],
       "pathologies_liees": [
+        "PATH-HEMA-0003",
         "PATH-GAST-0011",
         "PATH-NEUR-0031"
       ],
@@ -3211,6 +3232,7 @@
         "exérèse tumorale"
       ],
       "pathologies_liees": [
+        "PATH-INFE-0045",
         "PATH-PSYC-0048",
         "PATH-PSYC-0001",
         "PATH-ONCO-0031",
@@ -3411,6 +3433,102 @@
         "PATH-NEUR-0008",
         "PATH-PSYC-0032",
         "PATH-NEUR-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0071",
+      "nom_fr": "Vertige positionnel paroxystique bénin",
+      "nom_en": "Benign paroxysmal positional vertigo",
+      "synonymes": [
+        "VPPB",
+        "cupulolithiase",
+        "canalolithiase"
+      ],
+      "cim10": "H81.1",
+      "specialite": "NEUR",
+      "sous_specialite": null,
+      "categories": [
+        "neurologique",
+        "gériatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-047",
+        "RES-MED-039"
+      ],
+      "symptomes": [
+        "vertiges rotatoires brefs (< 1 min) déclenchés par les changements de position de la tête (se coucher, se retourner au lit)",
+        "nausées"
+      ],
+      "signes_cliniques": [
+        "nystagmus positionnel déclenché par la manœuvre de Dix-Hallpike (canal postérieur)",
+        "examen neurologique normal"
+      ],
+      "examens_cles": [
+        "diagnostic clinique par les manœuvres diagnostiques",
+        "imagerie seulement si atypie (nystagmus central)"
+      ],
+      "traitements_cles": [
+        "manœuvres libératoires (Semont, Epley)",
+        "rééducation vestibulaire",
+        "éviction des antivertigineux au long cours"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0072",
+        "PATH-NEUR-0001",
+        "PATH-GERI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEUR-0072",
+      "nom_fr": "Névrite vestibulaire (déficit vestibulaire unilatéral aigu)",
+      "nom_en": "Vestibular neuritis",
+      "synonymes": [
+        "neuronite vestibulaire"
+      ],
+      "cim10": "H81.2",
+      "specialite": "NEUR",
+      "sous_specialite": null,
+      "categories": [
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-047",
+        "RES-MED-039"
+      ],
+      "symptomes": [
+        "grand vertige rotatoire brutal et prolongé (plusieurs jours)",
+        "nausées et vomissements",
+        "déséquilibre",
+        "absence de troubles auditifs"
+      ],
+      "signes_cliniques": [
+        "nystagmus horizonto-rotatoire unidirectionnel battant du côté sain",
+        "test d'impulsion rapide de la tête (head impulse test) positif du côté atteint",
+        "déviation des index et de la marche du côté atteint"
+      ],
+      "examens_cles": [
+        "examen clinique (protocole HINTS pour éliminer un AVC de la fosse postérieure)",
+        "vidéonystagmographie",
+        "audiogramme normal",
+        "IRM si signes centraux ou HINTS inquiétant"
+      ],
+      "traitements_cles": [
+        "antivertigineux et antiémétiques sur une courte durée",
+        "corticothérapie discutée",
+        "rééducation vestibulaire précoce"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0071",
+        "PATH-NEUR-0001",
+        "PATH-NEUR-0022"
       ],
       "dossier": null,
       "statut": "referentiel_a_auditer"
@@ -5257,6 +5375,7 @@
         "accompagnement psychosocial"
       ],
       "pathologies_liees": [
+        "PATH-INFE-0009",
         "PATH-HEPA-0004",
         "PATH-CARD-0029",
         "PATH-PNEU-0049"
@@ -5966,7 +6085,7 @@
       "nom_fr": "Sarcopénie",
       "nom_en": "Sarcopenia",
       "synonymes": [],
-      "cim10": "M62.5",
+      "cim10": null,
       "specialite": "GERI",
       "sous_specialite": "Évaluation gériatrique standardisée",
       "categories": [
@@ -6617,7 +6736,8 @@
       "pathologies_liees": [
         "PATH-GERI-0001",
         "PATH-ENDO-0010",
-        "PATH-NEPH-0020"
+        "PATH-NEPH-0020",
+        "PATH-INFE-0005"
       ],
       "dossier": null,
       "statut": "referentiel_a_auditer"
