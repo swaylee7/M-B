@@ -609,3 +609,5 @@
 {"date": "2026-11-19T02:07:50+00:00", "agent": "AUD-02", "action": "rectificatif_etat", "cible": "00_SYSTEME/agents/AUD-02/etat.json", "details": {"motif": "écrasement accidentel des états des sessions DOS-01 et DOS-05 ; fusion et reconstitution depuis la sauvegarde et les journaux"}}
 {"date": "2026-11-19T02:08:00+00:00", "agent": "RES-02", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-02-b.json"}
 {"date": "2026-11-19T02:08:00+00:00", "agent": "RES-02", "action": "ajout_qcm", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-02-*.json", "details": {"ajoutes_a": 0, "ajoutes_b": 14, "sources_dsl": ["c12.txt"]}}
+{"date": "2026-11-19T02:08:39+00:00", "agent": "TRA-01", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/lots/TRA-pathologies-medicales.json"}
+{"date": "2026-11-19T02:08:39+00:00", "agent": "TRA-01", "action": "glossaire_lot", "cible": "23_GLOSSAIRES/FR_EN_AR/lots/TRA-pathologies-medicales.json", "details": {"termes": 358, "premier_id": "GLO-07000", "dernier_id": "GLO-07357"}}

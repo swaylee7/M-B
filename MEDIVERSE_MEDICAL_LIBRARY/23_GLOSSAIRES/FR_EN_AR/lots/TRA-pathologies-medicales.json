@@ -1,0 +1,5478 @@
+{
+  "agent": "TRA-01",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-07000",
+      "fr": "fièvre typhoïde",
+      "en": "typhoid fever",
+      "ar": "الحمّى التيفية",
+      "ar_variantes": [
+        "التيفوئيد"
+      ],
+      "definition_fr": "Infection systémique due à Salmonella Typhi, transmise par l'eau et les aliments contaminés.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07001",
+      "fr": "fièvres paratyphoïdes",
+      "en": "paratyphoid fever",
+      "ar": "الحمّى نظيرة التيفية",
+      "ar_variantes": [],
+      "definition_fr": "Infections systémiques proches de la typhoïde dues à Salmonella Paratyphi A, B ou C.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07002",
+      "fr": "paludisme",
+      "en": "malaria",
+      "ar": "الملاريا",
+      "ar_variantes": [
+        "البُرَداء"
+      ],
+      "definition_fr": "Parasitose due à un Plasmodium transmis par la piqûre d'anophèle femelle.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PARA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07003",
+      "fr": "paludisme grave",
+      "en": "severe malaria",
+      "ar": "الملاريا الوخيمة",
+      "ar_variantes": [],
+      "definition_fr": "Forme de paludisme avec défaillance viscérale, habituellement à Plasmodium falciparum.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PARA",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07004",
+      "fr": "rage",
+      "en": "rabies",
+      "ar": "داء الكَلَب",
+      "ar_variantes": [
+        "السُّعار"
+      ],
+      "definition_fr": "Encéphalite virale mortelle transmise par morsure d'animal, évitable par prophylaxie post-exposition.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07005",
+      "fr": "sepsis",
+      "en": "sepsis",
+      "ar": "الإنتان",
+      "ar_variantes": [],
+      "definition_fr": "Dysfonction d'organe menaçant le pronostic vital, causée par une réponse dérégulée de l'hôte à une infection.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07006",
+      "fr": "choc septique",
+      "en": "septic shock",
+      "ar": "الصدمة الإنتانية",
+      "ar_variantes": [],
+      "definition_fr": "Sepsis avec hypotension nécessitant des vasopresseurs et hyperlactatémie malgré un remplissage adéquat.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07007",
+      "fr": "état septicémique",
+      "en": "septicemia",
+      "ar": "إنتان الدم",
+      "ar_variantes": [
+        "تسمّم الدم"
+      ],
+      "definition_fr": "Infection générale avec décharges répétées de germes dans le sang à partir d'un foyer.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07008",
+      "fr": "bactériémie",
+      "en": "bacteremia",
+      "ar": "تجرثُم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Présence de bactéries dans le sang mise en évidence par hémoculture.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07009",
+      "fr": "méningite purulente",
+      "en": "bacterial meningitis",
+      "ar": "التهاب السحايا الجرثومي",
+      "ar_variantes": [
+        "التهاب السحايا القيحي"
+      ],
+      "definition_fr": "Inflammation des méninges d'origine bactérienne, urgence diagnostique et thérapeutique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "NEUR",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07010",
+      "fr": "méningite tuberculeuse",
+      "en": "tuberculous meningitis",
+      "ar": "التهاب السحايا السلّي",
+      "ar_variantes": [],
+      "definition_fr": "Méningite subaiguë à liquide clair due à Mycobacterium tuberculosis.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07011",
+      "fr": "encéphalite",
+      "en": "encephalitis",
+      "ar": "التهاب الدماغ",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation du parenchyme cérébral, souvent virale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07012",
+      "fr": "purpura fulminans",
+      "en": "purpura fulminans",
+      "ar": "الفُرفُرية الخاطفة",
+      "ar_variantes": [],
+      "definition_fr": "Purpura extensif nécrotique avec choc, le plus souvent méningococcique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "MINT_REA",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07013",
+      "fr": "infection à VIH",
+      "en": "HIV infection",
+      "ar": "العدوى بفيروس العوز المناعي البشري",
+      "ar_variantes": [],
+      "definition_fr": "Infection chronique par le virus de l'immunodéficience humaine entraînant une déplétion lymphocytaire CD4.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07014",
+      "fr": "sida",
+      "en": "acquired immunodeficiency syndrome",
+      "ar": "متلازمة العوز المناعي المكتسب",
+      "ar_variantes": [
+        "الإيدز",
+        "السيدا"
+      ],
+      "definition_fr": "Stade avancé de l'infection à VIH défini par la survenue d'infections opportunistes ou de cancers.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07015",
+      "fr": "infections opportunistes",
+      "en": "opportunistic infections",
+      "ar": "العداوى الانتهازية",
+      "ar_variantes": [],
+      "definition_fr": "Infections dues à des agents peu pathogènes chez l'immunocompétent, survenant lors d'une immunodépression.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07016",
+      "fr": "diarrhée infectieuse",
+      "en": "infectious diarrhea",
+      "ar": "الإسهال العدوائي",
+      "ar_variantes": [],
+      "definition_fr": "Diarrhée d'origine bactérienne, virale ou parasitaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "GAST",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07017",
+      "fr": "choléra",
+      "en": "cholera",
+      "ar": "الكوليرا",
+      "ar_variantes": [
+        "الهَيْضة"
+      ],
+      "definition_fr": "Diarrhée hydrique profuse due à la toxine de Vibrio cholerae, à transmission hydrique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07018",
+      "fr": "dysenterie",
+      "en": "dysentery",
+      "ar": "الزُّحار",
+      "ar_variantes": [],
+      "definition_fr": "Syndrome associant selles glairo-sanglantes, épreintes et ténesme.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07019",
+      "fr": "toxi-infection alimentaire collective",
+      "en": "foodborne disease outbreak",
+      "ar": "التسمّم الغذائي الجماعي",
+      "ar_variantes": [],
+      "definition_fr": "Survenue d'au moins deux cas groupés de symptômes digestifs rapportés à une même origine alimentaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07020",
+      "fr": "brucellose",
+      "en": "brucellosis",
+      "ar": "داء البروسيلات",
+      "ar_variantes": [
+        "الحمّى المالطية"
+      ],
+      "definition_fr": "Zoonose due à Brucella, transmise par le lait cru et le contact avec le bétail.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07021",
+      "fr": "tuberculose",
+      "en": "tuberculosis",
+      "ar": "السُّلّ",
+      "ar_variantes": [
+        "التدرّن"
+      ],
+      "definition_fr": "Maladie infectieuse due au complexe Mycobacterium tuberculosis, à transmission aérienne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07022",
+      "fr": "tuberculose pulmonaire",
+      "en": "pulmonary tuberculosis",
+      "ar": "السل الرئوي",
+      "ar_variantes": [],
+      "definition_fr": "Localisation pulmonaire de la tuberculose, forme contagieuse ciblée par le programme national de lutte.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07023",
+      "fr": "primo-infection tuberculeuse",
+      "en": "primary tuberculosis",
+      "ar": "العدوى السلّية الأولية",
+      "ar_variantes": [],
+      "definition_fr": "Premier contact de l'organisme avec le bacille tuberculeux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PNEU",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07024",
+      "fr": "tuberculose multirésistante",
+      "en": "multidrug-resistant tuberculosis",
+      "ar": "السل المقاوم للأدوية المتعددة",
+      "ar_variantes": [],
+      "definition_fr": "Tuberculose résistante au moins à l'isoniazide et à la rifampicine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07025",
+      "fr": "tétanos",
+      "en": "tetanus",
+      "ar": "الكُزاز",
+      "ar_variantes": [],
+      "definition_fr": "Toxi-infection due à Clostridium tetani provoquant contractures et spasmes musculaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07026",
+      "fr": "diphtérie",
+      "en": "diphtheria",
+      "ar": "الخُناق",
+      "ar_variantes": [
+        "الدفتيريا"
+      ],
+      "definition_fr": "Toxi-infection due à Corynebacterium diphtheriae, avec angine à fausses membranes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PEDI",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07027",
+      "fr": "coqueluche",
+      "en": "pertussis",
+      "ar": "الشاهوق",
+      "ar_variantes": [
+        "السعال الديكي"
+      ],
+      "definition_fr": "Infection respiratoire due à Bordetella pertussis avec quintes de toux, grave chez le nourrisson.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07028",
+      "fr": "rougeole",
+      "en": "measles",
+      "ar": "الحصبة",
+      "ar_variantes": [],
+      "definition_fr": "Fièvre éruptive virale très contagieuse avec catarrhe oculo-respiratoire et signe de Köplik.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07029",
+      "fr": "rubéole",
+      "en": "rubella",
+      "ar": "الحصبة الألمانية",
+      "ar_variantes": [],
+      "definition_fr": "Fièvre éruptive virale bénigne, tératogène en début de grossesse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PEDI",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07030",
+      "fr": "varicelle",
+      "en": "varicella",
+      "ar": "الحُماق",
+      "ar_variantes": [
+        "جدري الماء"
+      ],
+      "definition_fr": "Primo-infection par le virus varicelle-zona avec éruption vésiculeuse généralisée.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PEDI",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07031",
+      "fr": "zona",
+      "en": "herpes zoster",
+      "ar": "الحلأ النُّطاقي",
+      "ar_variantes": [
+        "الحزام الناري"
+      ],
+      "definition_fr": "Réactivation du virus varicelle-zona avec éruption vésiculeuse métamérique douloureuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "DERM",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07032",
+      "fr": "oreillons",
+      "en": "mumps",
+      "ar": "النُّكاف",
+      "ar_variantes": [
+        "أبو كعب"
+      ],
+      "definition_fr": "Infection virale atteignant surtout les parotides.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07033",
+      "fr": "poliomyélite",
+      "en": "poliomyelitis",
+      "ar": "شلل الأطفال",
+      "ar_variantes": [],
+      "definition_fr": "Infection à poliovirus pouvant atteindre les motoneurones et provoquer des paralysies flasques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PEDI",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07034",
+      "fr": "grippe",
+      "en": "influenza",
+      "ar": "النَّزْلة الوافدة",
+      "ar_variantes": [
+        "الإنفلونزا"
+      ],
+      "definition_fr": "Infection respiratoire aiguë épidémique due au virus influenza.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07035",
+      "fr": "COVID-19",
+      "en": "coronavirus disease 2019",
+      "ar": "مرض فيروس كورونا 2019",
+      "ar_variantes": [
+        "كوفيد-19"
+      ],
+      "definition_fr": "Maladie infectieuse due au SARS-CoV-2, de gravité variable.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07036",
+      "fr": "leishmaniose cutanée",
+      "en": "cutaneous leishmaniasis",
+      "ar": "داء الليشمانيات الجلدي",
+      "ar_variantes": [
+        "حبّة بسكرة"
+      ],
+      "definition_fr": "Parasitose cutanée transmise par le phlébotome, responsable d'ulcérations chroniques, endémique en Algérie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07037",
+      "fr": "leishmaniose viscérale",
+      "en": "visceral leishmaniasis",
+      "ar": "داء الليشمانيات الحشوي",
+      "ar_variantes": [
+        "الكالازار"
+      ],
+      "definition_fr": "Parasitose systémique avec fièvre, splénomégalie et pancytopénie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PARA",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07038",
+      "fr": "amibiase",
+      "en": "amebiasis",
+      "ar": "داء المتحوِّلات",
+      "ar_variantes": [
+        "الأميبا"
+      ],
+      "definition_fr": "Infection par Entamoeba histolytica, intestinale ou hépatique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PARA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07039",
+      "fr": "abcès amibien du foie",
+      "en": "amebic liver abscess",
+      "ar": "الخُراج الكبدي الأميبي",
+      "ar_variantes": [],
+      "definition_fr": "Localisation hépatique de l'amibiase.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PARA",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07040",
+      "fr": "giardiose",
+      "en": "giardiasis",
+      "ar": "داء الجيارديات",
+      "ar_variantes": [],
+      "definition_fr": "Parasitose intestinale à Giardia intestinalis.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PARA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07041",
+      "fr": "toxoplasmose",
+      "en": "toxoplasmosis",
+      "ar": "داء المقوَّسات",
+      "ar_variantes": [],
+      "definition_fr": "Infection à Toxoplasma gondii, grave en cas de contamination fœtale ou d'immunodépression.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "PARA",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07042",
+      "fr": "hydatidose",
+      "en": "cystic echinococcosis",
+      "ar": "داء الكيسات العُدارية",
+      "ar_variantes": [
+        "الكيس المائي"
+      ],
+      "definition_fr": "Parasitose due à la larve d'Echinococcus granulosus, fréquente dans les régions d'élevage ovin.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PARA",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07043",
+      "fr": "bilharziose urogénitale",
+      "en": "urogenital schistosomiasis",
+      "ar": "البلهارسيا البولية",
+      "ar_variantes": [
+        "داء المنشقّات"
+      ],
+      "definition_fr": "Parasitose à Schistosoma haematobium responsable d'hématurie terminale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PARA",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07044",
+      "fr": "oxyurose",
+      "en": "enterobiasis",
+      "ar": "داء السَّرْميّات",
+      "ar_variantes": [],
+      "definition_fr": "Parasitose intestinale à Enterobius vermicularis avec prurit anal nocturne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PARA",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07045",
+      "fr": "ascaridiose",
+      "en": "ascariasis",
+      "ar": "داء الصَّفَر",
+      "ar_variantes": [],
+      "definition_fr": "Parasitose intestinale à Ascaris lumbricoides.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PARA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07046",
+      "fr": "téniasis",
+      "en": "taeniasis",
+      "ar": "داء الشريطيات",
+      "ar_variantes": [],
+      "definition_fr": "Parasitose intestinale due au ver adulte du genre Taenia.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PARA",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07047",
+      "fr": "gale",
+      "en": "scabies",
+      "ar": "الجَرَب",
+      "ar_variantes": [],
+      "definition_fr": "Ectoparasitose contagieuse due à Sarcoptes scabiei, très prurigineuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07048",
+      "fr": "pédiculose",
+      "en": "pediculosis",
+      "ar": "القُمال",
+      "ar_variantes": [
+        "داء القمل"
+      ],
+      "definition_fr": "Infestation par les poux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PARA",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07049",
+      "fr": "syphilis",
+      "en": "syphilis",
+      "ar": "الزُّهري",
+      "ar_variantes": [
+        "السفلس"
+      ],
+      "definition_fr": "Infection sexuellement transmissible due à Treponema pallidum, évoluant en stades.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07050",
+      "fr": "gonococcie",
+      "en": "gonorrhea",
+      "ar": "السَّيَلان",
+      "ar_variantes": [],
+      "definition_fr": "Infection sexuellement transmissible à Neisseria gonorrhoeae.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "DERM",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07051",
+      "fr": "infections sexuellement transmissibles",
+      "en": "sexually transmitted infections",
+      "ar": "العداوى المنقولة جنسيّاً",
+      "ar_variantes": [
+        "الأمراض المنقولة جنسيا"
+      ],
+      "definition_fr": "Infections transmises principalement lors des rapports sexuels.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "DERM",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07052",
+      "fr": "herpès génital",
+      "en": "genital herpes",
+      "ar": "الحلأ التناسلي",
+      "ar_variantes": [
+        "الهربس التناسلي"
+      ],
+      "definition_fr": "Infection génitale récurrente due aux virus herpès simplex.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07053",
+      "fr": "condylomes acuminés",
+      "en": "genital warts",
+      "ar": "اللُّقموم المؤنَّف",
+      "ar_variantes": [
+        "الثآليل التناسلية"
+      ],
+      "definition_fr": "Lésions ano-génitales à papillomavirus humains.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07054",
+      "fr": "leptospirose",
+      "en": "leptospirosis",
+      "ar": "داء البريميات",
+      "ar_variantes": [],
+      "definition_fr": "Zoonose due à Leptospira transmise par l'eau souillée d'urine de rongeurs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07055",
+      "fr": "fièvre boutonneuse méditerranéenne",
+      "en": "Mediterranean spotted fever",
+      "ar": "الحمّى المبقّعة المتوسطية",
+      "ar_variantes": [],
+      "definition_fr": "Rickettsiose transmise par la tique du chien, avec tache noire et éruption maculopapuleuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07056",
+      "fr": "charbon",
+      "en": "anthrax",
+      "ar": "الجمرة الخبيثة",
+      "ar_variantes": [],
+      "definition_fr": "Zoonose due à Bacillus anthracis, cutanée, digestive ou respiratoire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07057",
+      "fr": "peste",
+      "en": "plague",
+      "ar": "الطاعون",
+      "ar_variantes": [],
+      "definition_fr": "Zoonose due à Yersinia pestis transmise par les puces de rongeurs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07058",
+      "fr": "lèpre",
+      "en": "leprosy",
+      "ar": "الجُذام",
+      "ar_variantes": [],
+      "definition_fr": "Infection chronique à Mycobacterium leprae atteignant la peau et les nerfs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07059",
+      "fr": "infection urinaire",
+      "en": "urinary tract infection",
+      "ar": "عدوى المسالك البولية",
+      "ar_variantes": [
+        "التهاب المسالك البولية"
+      ],
+      "definition_fr": "Infection de l'arbre urinaire, basse (cystite) ou haute (pyélonéphrite).",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "UROL",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07060",
+      "fr": "cystite",
+      "en": "cystitis",
+      "ar": "التهاب المثانة",
+      "ar_variantes": [],
+      "definition_fr": "Infection ou inflammation de la vessie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "NEPH",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07061",
+      "fr": "pyélonéphrite aiguë",
+      "en": "acute pyelonephritis",
+      "ar": "التهاب الحُوَيضة والكلية الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Infection bactérienne du bassinet et du parenchyme rénal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "UROL",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07062",
+      "fr": "prostatite",
+      "en": "prostatitis",
+      "ar": "التهاب المُوثة",
+      "ar_variantes": [
+        "التهاب البروستات"
+      ],
+      "definition_fr": "Infection ou inflammation de la prostate.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07063",
+      "fr": "fièvre prolongée inexpliquée",
+      "en": "fever of unknown origin",
+      "ar": "الحمّى مجهولة المصدر",
+      "ar_variantes": [],
+      "definition_fr": "Fièvre persistante dont l'origine reste inconnue après un bilan initial bien conduit.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07064",
+      "fr": "érysipèle",
+      "en": "erysipelas",
+      "ar": "الحُمْرة",
+      "ar_variantes": [],
+      "definition_fr": "Dermohypodermite bactérienne aiguë non nécrosante, habituellement streptococcique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07065",
+      "fr": "impétigo",
+      "en": "impetigo",
+      "ar": "القُوباء",
+      "ar_variantes": [],
+      "definition_fr": "Infection cutanée superficielle contagieuse à staphylocoque ou streptocoque.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07066",
+      "fr": "furoncle",
+      "en": "furuncle",
+      "ar": "الدُّمَّل",
+      "ar_variantes": [],
+      "definition_fr": "Infection profonde et nécrosante d'un follicule pilo-sébacé à Staphylococcus aureus.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07067",
+      "fr": "dermohypodermite bactérienne",
+      "en": "cellulitis",
+      "ar": "التهاب النسيج الخلوي",
+      "ar_variantes": [],
+      "definition_fr": "Infection bactérienne du derme et de l'hypoderme.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07068",
+      "fr": "fasciite nécrosante",
+      "en": "necrotizing fasciitis",
+      "ar": "التهاب اللفافة الناخر",
+      "ar_variantes": [],
+      "definition_fr": "Infection grave nécrosante de l'hypoderme et du fascia superficiel, urgence médico-chirurgicale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "INFE",
+        "CPLA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07069",
+      "fr": "teigne",
+      "en": "tinea capitis",
+      "ar": "سَعْفة الرأس",
+      "ar_variantes": [
+        "القرع"
+      ],
+      "definition_fr": "Infection dermatophytique du cuir chevelu, fréquente chez l'enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07070",
+      "fr": "candidose",
+      "en": "candidiasis",
+      "ar": "داء المبيَضّات",
+      "ar_variantes": [],
+      "definition_fr": "Infection à levures du genre Candida, cutanéo-muqueuse ou systémique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07071",
+      "fr": "pityriasis versicolor",
+      "en": "pityriasis versicolor",
+      "ar": "النُّخالية المبرقشة",
+      "ar_variantes": [],
+      "definition_fr": "Mycose superficielle à Malassezia avec macules squameuses hypo- ou hyperpigmentées.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07072",
+      "fr": "onychomycose",
+      "en": "onychomycosis",
+      "ar": "داء الظفر الفطري",
+      "ar_variantes": [],
+      "definition_fr": "Infection fongique de l'ongle.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07073",
+      "fr": "verrue",
+      "en": "wart",
+      "ar": "الثُّؤلول",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur cutanée bénigne due aux papillomavirus humains.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07074",
+      "fr": "lupus tuberculeux",
+      "en": "lupus vulgaris",
+      "ar": "الذِّئبة الشائعة",
+      "ar_variantes": [
+        "السل الجلدي"
+      ],
+      "definition_fr": "Forme de tuberculose cutanée chronique d'évolution lente et destructrice.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07075",
+      "fr": "psoriasis",
+      "en": "psoriasis",
+      "ar": "الصُّداف",
+      "ar_variantes": [],
+      "definition_fr": "Dermatose inflammatoire chronique avec plaques érythémato-squameuses.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07076",
+      "fr": "eczéma de contact",
+      "en": "allergic contact dermatitis",
+      "ar": "التهاب الجلد التماسي",
+      "ar_variantes": [
+        "الإكزيما التماسية"
+      ],
+      "definition_fr": "Dermatose due à une hypersensibilité retardée à un allergène appliqué sur la peau.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07077",
+      "fr": "dermatite atopique",
+      "en": "atopic dermatitis",
+      "ar": "التهاب الجلد التأتُّبي",
+      "ar_variantes": [
+        "الإكزيما التأتبية"
+      ],
+      "definition_fr": "Dermatose inflammatoire prurigineuse chronique survenant sur terrain atopique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "PEDI",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07078",
+      "fr": "urticaire",
+      "en": "urticaria",
+      "ar": "الشَّرى",
+      "ar_variantes": [],
+      "definition_fr": "Éruption de papules œdémateuses prurigineuses fugaces.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07079",
+      "fr": "acné",
+      "en": "acne",
+      "ar": "العُدّ",
+      "ar_variantes": [
+        "حب الشباب"
+      ],
+      "definition_fr": "Dermatose inflammatoire du follicule pilo-sébacé.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07080",
+      "fr": "vitiligo",
+      "en": "vitiligo",
+      "ar": "البُهاق",
+      "ar_variantes": [],
+      "definition_fr": "Dépigmentation cutanée acquise par destruction des mélanocytes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07081",
+      "fr": "pemphigus",
+      "en": "pemphigus",
+      "ar": "الفُقاع",
+      "ar_variantes": [],
+      "definition_fr": "Dermatose bulleuse auto-immune intraépidermique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07082",
+      "fr": "mélanome",
+      "en": "melanoma",
+      "ar": "الورم الميلانيني",
+      "ar_variantes": [
+        "الميلانوما"
+      ],
+      "definition_fr": "Tumeur maligne développée aux dépens des mélanocytes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07083",
+      "fr": "carcinome basocellulaire",
+      "en": "basal cell carcinoma",
+      "ar": "سرطانة الخلايا القاعدية",
+      "ar_variantes": [],
+      "definition_fr": "Cancer cutané le plus fréquent, d'évolution locale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07084",
+      "fr": "toxidermie",
+      "en": "drug eruption",
+      "ar": "الطفح الدوائي",
+      "ar_variantes": [],
+      "definition_fr": "Réaction cutanée indésirable d'origine médicamenteuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07085",
+      "fr": "syndrome de Stevens-Johnson",
+      "en": "Stevens-Johnson syndrome",
+      "ar": "متلازمة ستيفنز جونسون",
+      "ar_variantes": [],
+      "definition_fr": "Toxidermie bulleuse grave avec décollement épidermique et atteinte muqueuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DERM",
+        "PHAR",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07086",
+      "fr": "hémorragie digestive",
+      "en": "gastrointestinal bleeding",
+      "ar": "النزف الهضمي",
+      "ar_variantes": [],
+      "definition_fr": "Saignement dans la lumière du tube digestif, haute ou basse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07087",
+      "fr": "ulcère gastroduodénal",
+      "en": "peptic ulcer disease",
+      "ar": "القرحة الهضمية",
+      "ar_variantes": [
+        "قرحة المعدة والعفج"
+      ],
+      "definition_fr": "Perte de substance de la muqueuse gastrique ou duodénale atteignant la musculeuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07088",
+      "fr": "gastrite",
+      "en": "gastritis",
+      "ar": "التهاب المعدة",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la muqueuse gastrique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07089",
+      "fr": "reflux gastro-œsophagien",
+      "en": "gastroesophageal reflux disease",
+      "ar": "داء الجَزْر المعدي المريئي",
+      "ar_variantes": [
+        "الارتجاع المريئي"
+      ],
+      "definition_fr": "Remontée du contenu gastrique dans l'œsophage responsable de symptômes ou de lésions.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07090",
+      "fr": "œsophagite",
+      "en": "esophagitis",
+      "ar": "التهاب المريء",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la muqueuse œsophagienne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07091",
+      "fr": "varices œsophagiennes",
+      "en": "esophageal varices",
+      "ar": "دوالي المريء",
+      "ar_variantes": [],
+      "definition_fr": "Dilatations veineuses sous-muqueuses de l'œsophage dues à l'hypertension portale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07092",
+      "fr": "gastro-entérite aiguë",
+      "en": "acute gastroenteritis",
+      "ar": "التهاب المعدة والأمعاء الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation aiguë du tube digestif, souvent infectieuse, avec diarrhée et vomissements.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "PEDI",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07093",
+      "fr": "hépatite virale",
+      "en": "viral hepatitis",
+      "ar": "التهاب الكبد الفيروسي",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation du foie due à un virus hépatotrope.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07094",
+      "fr": "hépatite B chronique",
+      "en": "chronic hepatitis B",
+      "ar": "التهاب الكبد ب المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Persistance de l'antigène HBs au-delà de six mois.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07095",
+      "fr": "hépatite C chronique",
+      "en": "chronic hepatitis C",
+      "ar": "التهاب الكبد ج المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Persistance de l'ARN du virus de l'hépatite C au-delà de six mois.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07096",
+      "fr": "hépatite fulminante",
+      "en": "fulminant hepatitis",
+      "ar": "التهاب الكبد الخاطف",
+      "ar_variantes": [],
+      "definition_fr": "Insuffisance hépatocellulaire aiguë grave avec encéphalopathie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07097",
+      "fr": "cirrhose",
+      "en": "cirrhosis",
+      "ar": "تشمّع الكبد",
+      "ar_variantes": [
+        "تليّف الكبد"
+      ],
+      "definition_fr": "Fibrose hépatique diffuse avec nodules de régénération, aboutissement de nombreuses hépatopathies chroniques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07098",
+      "fr": "insuffisance hépatocellulaire",
+      "en": "hepatocellular failure",
+      "ar": "قصور الخلية الكبدية",
+      "ar_variantes": [],
+      "definition_fr": "Défaillance des fonctions de synthèse et d'épuration du foie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07099",
+      "fr": "encéphalopathie hépatique",
+      "en": "hepatic encephalopathy",
+      "ar": "الاعتلال الدماغي الكبدي",
+      "ar_variantes": [],
+      "definition_fr": "Troubles neuropsychiques liés à l'insuffisance hépatocellulaire et aux shunts portosystémiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07100",
+      "fr": "hypertension portale",
+      "en": "portal hypertension",
+      "ar": "فرط ضغط الدم البابي",
+      "ar_variantes": [
+        "ارتفاع الضغط البابي"
+      ],
+      "definition_fr": "Augmentation de la pression dans le système porte, responsable de varices et d'ascite.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07101",
+      "fr": "infection spontanée du liquide d'ascite",
+      "en": "spontaneous bacterial peritonitis",
+      "ar": "التهاب الصفاق الجرثومي العفوي",
+      "ar_variantes": [],
+      "definition_fr": "Infection de l'ascite sans foyer intra-abdominal, complication grave de la cirrhose.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07102",
+      "fr": "carcinome hépatocellulaire",
+      "en": "hepatocellular carcinoma",
+      "ar": "سرطانة الخلايا الكبدية",
+      "ar_variantes": [],
+      "definition_fr": "Cancer primitif du foie, survenant surtout sur cirrhose.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07103",
+      "fr": "stéatose hépatique",
+      "en": "hepatic steatosis",
+      "ar": "تشحّم الكبد",
+      "ar_variantes": [
+        "الكبد الدهني"
+      ],
+      "definition_fr": "Accumulation de triglycérides dans les hépatocytes, métabolique ou alcoolique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07104",
+      "fr": "cholestase",
+      "en": "cholestasis",
+      "ar": "الركود الصفراوي",
+      "ar_variantes": [],
+      "definition_fr": "Diminution ou arrêt de l'écoulement de la bile.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07105",
+      "fr": "rectocolite hémorragique",
+      "en": "ulcerative colitis",
+      "ar": "التهاب القولون التقرّحي",
+      "ar_variantes": [],
+      "definition_fr": "Maladie inflammatoire chronique atteignant la muqueuse du rectum et du côlon de façon continue.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07106",
+      "fr": "maladie de Crohn",
+      "en": "Crohn's disease",
+      "ar": "داء كرون",
+      "ar_variantes": [],
+      "definition_fr": "Maladie inflammatoire chronique pouvant atteindre tout le tube digestif de façon discontinue et transmurale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07107",
+      "fr": "maladies inflammatoires chroniques de l'intestin",
+      "en": "inflammatory bowel diseases",
+      "ar": "داء الأمعاء الالتهابي",
+      "ar_variantes": [],
+      "definition_fr": "Groupe comprenant la maladie de Crohn et la rectocolite hémorragique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07108",
+      "fr": "syndrome de malabsorption",
+      "en": "malabsorption syndrome",
+      "ar": "متلازمة سوء الامتصاص",
+      "ar_variantes": [],
+      "definition_fr": "Défaut d'absorption intestinale des nutriments entraînant diarrhée chronique et carences.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07109",
+      "fr": "maladie cœliaque",
+      "en": "celiac disease",
+      "ar": "الداء الزُّلاقي",
+      "ar_variantes": [
+        "حساسية الغلوتين"
+      ],
+      "definition_fr": "Entéropathie auto-immune induite par le gluten chez des sujets génétiquement prédisposés.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07110",
+      "fr": "syndrome de l'intestin irritable",
+      "en": "irritable bowel syndrome",
+      "ar": "متلازمة القولون المتهيّج",
+      "ar_variantes": [
+        "القولون العصبي"
+      ],
+      "definition_fr": "Trouble fonctionnel intestinal associant douleurs abdominales et troubles du transit.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07111",
+      "fr": "pancréatite chronique",
+      "en": "chronic pancreatitis",
+      "ar": "التهاب المعثكلة المزمن",
+      "ar_variantes": [
+        "التهاب البنكرياس المزمن"
+      ],
+      "definition_fr": "Inflammation chronique du pancréas avec fibrose et insuffisance exocrine et endocrine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07112",
+      "fr": "maladie diverticulaire du côlon",
+      "en": "colonic diverticular disease",
+      "ar": "داء الرُّتوج القولوني",
+      "ar_variantes": [],
+      "definition_fr": "Présence de diverticules coliques, compliqués ou non.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07113",
+      "fr": "hémorroïdes",
+      "en": "hemorrhoids",
+      "ar": "البواسير",
+      "ar_variantes": [],
+      "definition_fr": "Dilatations des plexus veineux hémorroïdaires devenant symptomatiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07114",
+      "fr": "fissure anale",
+      "en": "anal fissure",
+      "ar": "الشقّ الشرجي",
+      "ar_variantes": [],
+      "definition_fr": "Ulcération longitudinale du canal anal, très douloureuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07115",
+      "fr": "fistule anale",
+      "en": "anal fistula",
+      "ar": "الناسور الشرجي",
+      "ar_variantes": [],
+      "definition_fr": "Trajet anormal entre le canal anal et la peau périanale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07116",
+      "fr": "polype colique",
+      "en": "colonic polyp",
+      "ar": "السَّليلة القولونية",
+      "ar_variantes": [
+        "البوليب"
+      ],
+      "definition_fr": "Tumeur faisant saillie dans la lumière colique, dont l'adénome est précancéreux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07117",
+      "fr": "accident vasculaire cérébral",
+      "en": "stroke",
+      "ar": "السكتة الدماغية",
+      "ar_variantes": [
+        "الحادث الوعائي الدماغي"
+      ],
+      "definition_fr": "Déficit neurologique brutal d'origine vasculaire, ischémique ou hémorragique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07118",
+      "fr": "accident ischémique transitoire",
+      "en": "transient ischemic attack",
+      "ar": "النوبة الإقفارية العابرة",
+      "ar_variantes": [],
+      "definition_fr": "Épisode bref de dysfonction neurologique d'origine ischémique sans infarctus cérébral.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07119",
+      "fr": "infarctus cérébral",
+      "en": "cerebral infarction",
+      "ar": "الاحتشاء الدماغي",
+      "ar_variantes": [],
+      "definition_fr": "Nécrose du tissu cérébral par occlusion artérielle.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07120",
+      "fr": "hémorragie intracérébrale",
+      "en": "intracerebral hemorrhage",
+      "ar": "النزف داخل المخ",
+      "ar_variantes": [
+        "النزف الدماغي"
+      ],
+      "definition_fr": "Saignement dans le parenchyme cérébral.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07121",
+      "fr": "sclérose en plaques",
+      "en": "multiple sclerosis",
+      "ar": "التصلّب المتعدّد",
+      "ar_variantes": [
+        "التصلب اللويحي"
+      ],
+      "definition_fr": "Maladie inflammatoire démyélinisante chronique du système nerveux central.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07122",
+      "fr": "myasthénie",
+      "en": "myasthenia gravis",
+      "ar": "الوهن العضلي الوبيل",
+      "ar_variantes": [],
+      "definition_fr": "Maladie auto-immune de la jonction neuromusculaire avec fatigabilité musculaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07123",
+      "fr": "migraine",
+      "en": "migraine",
+      "ar": "الشقيقة",
+      "ar_variantes": [],
+      "definition_fr": "Céphalée primaire récurrente pulsatile, souvent unilatérale, avec nausées et photophobie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07124",
+      "fr": "algie vasculaire de la face",
+      "en": "cluster headache",
+      "ar": "الصداع العنقودي",
+      "ar_variantes": [],
+      "definition_fr": "Céphalée primaire unilatérale orbitaire très intense survenant par crises en périodes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07125",
+      "fr": "névralgie du trijumeau",
+      "en": "trigeminal neuralgia",
+      "ar": "ألم العصب مثلث التوائم",
+      "ar_variantes": [],
+      "definition_fr": "Douleurs paroxystiques en décharges électriques dans le territoire du nerf trijumeau.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07126",
+      "fr": "myopathie",
+      "en": "myopathy",
+      "ar": "الاعتلال العضلي",
+      "ar_variantes": [],
+      "definition_fr": "Affection primitive du muscle strié squelettique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07127",
+      "fr": "dystrophie musculaire de Duchenne",
+      "en": "Duchenne muscular dystrophy",
+      "ar": "الحَثَل العضلي الدوشيني",
+      "ar_variantes": [],
+      "definition_fr": "Myopathie génétique récessive liée à l'X par déficit en dystrophine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "PEDI",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07128",
+      "fr": "paralysie faciale périphérique",
+      "en": "peripheral facial palsy",
+      "ar": "الشلل الوجهي المحيطي",
+      "ar_variantes": [
+        "شلل بِل"
+      ],
+      "definition_fr": "Paralysie de l'hémiface par atteinte du nerf facial, intéressant le territoire supérieur et inférieur.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07129",
+      "fr": "polyneuropathie",
+      "en": "polyneuropathy",
+      "ar": "اعتلال الأعصاب المتعدّد",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte bilatérale, symétrique et distale des nerfs périphériques, appelée aussi polynévrite.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07130",
+      "fr": "multinévrite",
+      "en": "mononeuritis multiplex",
+      "ar": "التهاب الأعصاب الأحادية المتعدّد",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte asymétrique successive de plusieurs troncs nerveux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07131",
+      "fr": "syndrome de Guillain-Barré",
+      "en": "Guillain-Barré syndrome",
+      "ar": "متلازمة غيان باريه",
+      "ar_variantes": [],
+      "definition_fr": "Polyradiculonévrite aiguë inflammatoire démyélinisante post-infectieuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07132",
+      "fr": "épilepsie",
+      "en": "epilepsy",
+      "ar": "الصَّرَع",
+      "ar_variantes": [],
+      "definition_fr": "Maladie cérébrale caractérisée par une prédisposition durable à générer des crises épileptiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07133",
+      "fr": "état de mal épileptique",
+      "en": "status epilepticus",
+      "ar": "الحالة الصرعية",
+      "ar_variantes": [],
+      "definition_fr": "Crise prolongée ou crises répétées sans retour à l'état de conscience normal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07134",
+      "fr": "maladie de Parkinson",
+      "en": "Parkinson's disease",
+      "ar": "داء باركنسون",
+      "ar_variantes": [],
+      "definition_fr": "Maladie neurodégénérative par perte des neurones dopaminergiques de la substance noire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07135",
+      "fr": "compression médullaire",
+      "en": "spinal cord compression",
+      "ar": "انضغاط النخاع الشوكي",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte de la moelle par un processus expansif, urgence neurochirurgicale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "NCHI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07136",
+      "fr": "maladie d'Alzheimer",
+      "en": "Alzheimer's disease",
+      "ar": "داء ألزهايمر",
+      "ar_variantes": [],
+      "definition_fr": "Maladie neurodégénérative, première cause de démence.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07137",
+      "fr": "démence",
+      "en": "dementia",
+      "ar": "الخَرَف",
+      "ar_variantes": [],
+      "definition_fr": "Déclin cognitif acquis retentissant sur l'autonomie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "GERI",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07138",
+      "fr": "syndrome du canal carpien",
+      "en": "carpal tunnel syndrome",
+      "ar": "متلازمة النفق الرسغي",
+      "ar_variantes": [],
+      "definition_fr": "Compression du nerf médian au poignet.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07139",
+      "fr": "sclérose latérale amyotrophique",
+      "en": "amyotrophic lateral sclerosis",
+      "ar": "التصلّب الجانبي الضموري",
+      "ar_variantes": [],
+      "definition_fr": "Maladie dégénérative des motoneurones centraux et périphériques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07140",
+      "fr": "paraplégie",
+      "en": "paraplegia",
+      "ar": "الشلل السفلي",
+      "ar_variantes": [
+        "شلل الطرفين السفليين"
+      ],
+      "definition_fr": "Paralysie des deux membres inférieurs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "MPR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07141",
+      "fr": "tétraplégie",
+      "en": "tetraplegia",
+      "ar": "الشلل الرباعي",
+      "ar_variantes": [],
+      "definition_fr": "Paralysie des quatre membres par atteinte médullaire cervicale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "MPR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07142",
+      "fr": "coma",
+      "en": "coma",
+      "ar": "السُّبات",
+      "ar_variantes": [
+        "الغيبوبة"
+      ],
+      "definition_fr": "Abolition de la conscience et de la vigilance non réversible par la stimulation.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR",
+        "MINT_REA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07143",
+      "fr": "pneumonie",
+      "en": "pneumonia",
+      "ar": "ذات الرئة",
+      "ar_variantes": [
+        "الالتهاب الرئوي"
+      ],
+      "definition_fr": "Infection aiguë du parenchyme pulmonaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07144",
+      "fr": "pneumonie communautaire",
+      "en": "community-acquired pneumonia",
+      "ar": "ذات الرئة المكتسبة في المجتمع",
+      "ar_variantes": [],
+      "definition_fr": "Pneumonie acquise en dehors de l'hôpital.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07145",
+      "fr": "bronchite aiguë",
+      "en": "acute bronchitis",
+      "ar": "التهاب القصبات الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation aiguë des bronches, le plus souvent virale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07146",
+      "fr": "bronchopneumopathie chronique obstructive",
+      "en": "chronic obstructive pulmonary disease",
+      "ar": "الداء الرئوي الساد المزمن",
+      "ar_variantes": [
+        "الانسداد الرئوي المزمن"
+      ],
+      "definition_fr": "Maladie respiratoire chronique avec obstruction bronchique persistante, liée surtout au tabac (BPCO).",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07147",
+      "fr": "bronchite chronique",
+      "en": "chronic bronchitis",
+      "ar": "التهاب القصبات المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Toux productive au moins trois mois par an pendant au moins deux années consécutives.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07148",
+      "fr": "emphysème",
+      "en": "emphysema",
+      "ar": "النُّفاخ",
+      "ar_variantes": [
+        "انتفاخ الرئة"
+      ],
+      "definition_fr": "Distension permanente des espaces aériens distaux avec destruction des parois alvéolaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07149",
+      "fr": "asthme",
+      "en": "asthma",
+      "ar": "الربو",
+      "ar_variantes": [],
+      "definition_fr": "Maladie inflammatoire chronique des bronches avec obstruction variable et réversible.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07150",
+      "fr": "asthme aigu grave",
+      "en": "acute severe asthma",
+      "ar": "نوبة الربو الشديدة",
+      "ar_variantes": [],
+      "definition_fr": "Crise d'asthme menaçant le pronostic vital.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07151",
+      "fr": "insuffisance respiratoire chronique",
+      "en": "chronic respiratory failure",
+      "ar": "القصور التنفسي المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Incapacité permanente du système respiratoire à assurer des échanges gazeux normaux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07152",
+      "fr": "insuffisance respiratoire aiguë",
+      "en": "acute respiratory failure",
+      "ar": "القصور التنفسي الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Défaillance brutale des échanges gazeux avec hypoxémie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07153",
+      "fr": "syndrome de détresse respiratoire aiguë",
+      "en": "acute respiratory distress syndrome",
+      "ar": "متلازمة الضائقة التنفسية الحادة",
+      "ar_variantes": [],
+      "definition_fr": "Œdème pulmonaire lésionnel avec hypoxémie sévère.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07154",
+      "fr": "épanchement pleural",
+      "en": "pleural effusion",
+      "ar": "الانصباب الجَنْبي",
+      "ar_variantes": [],
+      "definition_fr": "Présence de liquide dans la cavité pleurale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07155",
+      "fr": "pleurésie purulente",
+      "en": "empyema",
+      "ar": "الدُّبَيلة",
+      "ar_variantes": [
+        "تقيّح الجنب"
+      ],
+      "definition_fr": "Épanchement pleural purulent.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "CTHO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07156",
+      "fr": "pneumothorax",
+      "en": "pneumothorax",
+      "ar": "استرواح الصدر",
+      "ar_variantes": [],
+      "definition_fr": "Présence d'air dans la cavité pleurale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "CTHO",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07157",
+      "fr": "cancer bronchique",
+      "en": "lung cancer",
+      "ar": "سرطان القصبات",
+      "ar_variantes": [
+        "سرطان الرئة"
+      ],
+      "definition_fr": "Tumeur maligne primitive des bronches, principalement liée au tabac.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07158",
+      "fr": "syndrome médiastinal",
+      "en": "mediastinal syndrome",
+      "ar": "المتلازمة المنصفية",
+      "ar_variantes": [],
+      "definition_fr": "Signes de compression des organes du médiastin par un processus expansif.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "CTHO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07159",
+      "fr": "dilatation des bronches",
+      "en": "bronchiectasis",
+      "ar": "توسّع القصبات",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation permanente et irréversible du calibre des bronches.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07160",
+      "fr": "fibrose pulmonaire idiopathique",
+      "en": "idiopathic pulmonary fibrosis",
+      "ar": "التليّف الرئوي مجهول السبب",
+      "ar_variantes": [],
+      "definition_fr": "Pneumopathie interstitielle fibrosante chronique de cause inconnue.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07161",
+      "fr": "syndrome d'apnées obstructives du sommeil",
+      "en": "obstructive sleep apnea",
+      "ar": "انقطاع النفس الانسدادي النومي",
+      "ar_variantes": [],
+      "definition_fr": "Obstructions répétées des voies aériennes supérieures pendant le sommeil.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07162",
+      "fr": "embolie pulmonaire",
+      "en": "pulmonary embolism",
+      "ar": "الانصمام الرئوي",
+      "ar_variantes": [],
+      "definition_fr": "Obstruction d'artères pulmonaires par un thrombus, généralement issu des veines des membres inférieurs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07163",
+      "fr": "cœur pulmonaire chronique",
+      "en": "chronic cor pulmonale",
+      "ar": "القلب الرئوي المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Hypertrophie-dilatation du ventricule droit secondaire à une hypertension pulmonaire d'origine respiratoire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07164",
+      "fr": "atélectasie",
+      "en": "atelectasis",
+      "ar": "الانخماص",
+      "ar_variantes": [],
+      "definition_fr": "Affaissement d'un territoire pulmonaire par perte de son aération.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07165",
+      "fr": "abcès du poumon",
+      "en": "lung abscess",
+      "ar": "خُراج الرئة",
+      "ar_variantes": [],
+      "definition_fr": "Collection purulente intra-parenchymateuse pulmonaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07166",
+      "fr": "silicose",
+      "en": "silicosis",
+      "ar": "السُّحار السيليسي",
+      "ar_variantes": [],
+      "definition_fr": "Pneumoconiose fibrosante due à l'inhalation de silice cristalline.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "MTRA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07167",
+      "fr": "asbestose",
+      "en": "asbestosis",
+      "ar": "داء الأسبست",
+      "ar_variantes": [],
+      "definition_fr": "Fibrose pulmonaire due à l'inhalation de fibres d'amiante.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PNEU",
+        "MTRA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07168",
+      "fr": "dissection aortique",
+      "en": "aortic dissection",
+      "ar": "تسلّخ الأبهر",
+      "ar_variantes": [],
+      "definition_fr": "Clivage de la paroi aortique par irruption de sang dans la média.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07169",
+      "fr": "rétrécissement mitral",
+      "en": "mitral stenosis",
+      "ar": "تضيّق الصمام التاجي",
+      "ar_variantes": [],
+      "definition_fr": "Réduction de la surface d'ouverture de la valve mitrale, le plus souvent rhumatismale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07170",
+      "fr": "insuffisance mitrale",
+      "en": "mitral regurgitation",
+      "ar": "قصور الصمام التاجي",
+      "ar_variantes": [],
+      "definition_fr": "Défaut de fermeture de la valve mitrale avec reflux systolique vers l'oreillette gauche.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07171",
+      "fr": "insuffisance aortique",
+      "en": "aortic regurgitation",
+      "ar": "قصور الصمام الأبهري",
+      "ar_variantes": [],
+      "definition_fr": "Défaut de fermeture de la valve aortique avec reflux diastolique vers le ventricule gauche.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07172",
+      "fr": "rétrécissement aortique",
+      "en": "aortic stenosis",
+      "ar": "تضيّق الصمام الأبهري",
+      "ar_variantes": [],
+      "definition_fr": "Obstacle à l'éjection ventriculaire gauche au niveau de la valve aortique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07173",
+      "fr": "rhumatisme articulaire aigu",
+      "en": "acute rheumatic fever",
+      "ar": "الحمّى الرثوية",
+      "ar_variantes": [
+        "الحمى الروماتيزمية"
+      ],
+      "definition_fr": "Complication inflammatoire post-streptococcique atteignant articulations et cœur.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "PEDI",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07174",
+      "fr": "endocardite infectieuse",
+      "en": "infective endocarditis",
+      "ar": "التهاب الشَّغاف العدوائي",
+      "ar_variantes": [],
+      "definition_fr": "Infection de l'endocarde, surtout valvulaire, avec végétations.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07175",
+      "fr": "péricardite aiguë",
+      "en": "acute pericarditis",
+      "ar": "التهاب التأمور الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation aiguë du péricarde avec douleur thoracique et frottement.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07176",
+      "fr": "tamponnade",
+      "en": "cardiac tamponade",
+      "ar": "السُّطام القلبي",
+      "ar_variantes": [],
+      "definition_fr": "Compression du cœur par un épanchement péricardique abondant ou rapide, urgence vitale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07177",
+      "fr": "myocardite",
+      "en": "myocarditis",
+      "ar": "التهاب عضل القلب",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation du myocarde, souvent virale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07178",
+      "fr": "cardiomyopathie",
+      "en": "cardiomyopathy",
+      "ar": "اعتلال عضل القلب",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte primitive du myocarde (dilatée, hypertrophique, restrictive).",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07179",
+      "fr": "angine de poitrine",
+      "en": "angina pectoris",
+      "ar": "الذبحة الصدرية",
+      "ar_variantes": [],
+      "definition_fr": "Douleur thoracique constrictive due à une ischémie myocardique transitoire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07180",
+      "fr": "cardiopathie ischémique",
+      "en": "ischemic heart disease",
+      "ar": "داء القلب الإقفاري",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des atteintes cardiaques dues à une insuffisance coronaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07181",
+      "fr": "syndrome coronarien aigu",
+      "en": "acute coronary syndrome",
+      "ar": "المتلازمة الإكليلية الحادّة",
+      "ar_variantes": [],
+      "definition_fr": "Ischémie myocardique aiguë par rupture de plaque et thrombose coronaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07182",
+      "fr": "syndrome coronarien aigu sans sus-décalage du segment ST",
+      "en": "non-ST-elevation acute coronary syndrome",
+      "ar": "المتلازمة الإكليلية الحادة دون ارتفاع المقطع إس تي",
+      "ar_variantes": [],
+      "definition_fr": "Syndrome coronarien aigu sans élévation persistante du segment ST.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07183",
+      "fr": "infarctus du myocarde",
+      "en": "myocardial infarction",
+      "ar": "احتشاء عضل القلب",
+      "ar_variantes": [
+        "الجلطة القلبية",
+        "النوبة القلبية"
+      ],
+      "definition_fr": "Nécrose myocardique d'origine ischémique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07184",
+      "fr": "thrombose veineuse profonde",
+      "en": "deep vein thrombosis",
+      "ar": "الخُثار الوريدي العميق",
+      "ar_variantes": [],
+      "definition_fr": "Formation d'un thrombus dans une veine profonde, surtout des membres inférieurs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "HEMA",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07185",
+      "fr": "maladie thromboembolique veineuse",
+      "en": "venous thromboembolism",
+      "ar": "الانصمام الخثاري الوريدي",
+      "ar_variantes": [],
+      "definition_fr": "Entité regroupant thrombose veineuse profonde et embolie pulmonaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07186",
+      "fr": "insuffisance cardiaque",
+      "en": "heart failure",
+      "ar": "قصور القلب",
+      "ar_variantes": [
+        "فشل القلب"
+      ],
+      "definition_fr": "Incapacité du cœur à assurer un débit adapté aux besoins de l'organisme ou au prix de pressions de remplissage élevées.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07187",
+      "fr": "œdème aigu du poumon",
+      "en": "acute pulmonary edema",
+      "ar": "الوذمة الرئوية الحادة",
+      "ar_variantes": [],
+      "definition_fr": "Inondation alvéolaire aiguë, le plus souvent par insuffisance ventriculaire gauche.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07188",
+      "fr": "hypertension artérielle",
+      "en": "hypertension",
+      "ar": "فرط ضغط الدم",
+      "ar_variantes": [
+        "ارتفاع ضغط الدم"
+      ],
+      "definition_fr": "Élévation permanente de la pression artérielle au-delà des seuils définis par les recommandations.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07189",
+      "fr": "urgence hypertensive",
+      "en": "hypertensive emergency",
+      "ar": "الطارئة الضغطية",
+      "ar_variantes": [],
+      "definition_fr": "Poussée tensionnelle sévère avec atteinte aiguë d'organe cible.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07190",
+      "fr": "athérosclérose",
+      "en": "atherosclerosis",
+      "ar": "التصلّب العصيدي",
+      "ar_variantes": [
+        "تصلب الشرايين"
+      ],
+      "definition_fr": "Remaniement de l'intima des artères avec accumulation lipidique et fibrose.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "ANAP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07191",
+      "fr": "artériopathie oblitérante des membres inférieurs",
+      "en": "peripheral artery disease",
+      "ar": "الداء الشرياني الساد للطرفين السفليين",
+      "ar_variantes": [],
+      "definition_fr": "Rétrécissement athéromateux des artères des membres inférieurs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07192",
+      "fr": "anévrisme de l'aorte abdominale",
+      "en": "abdominal aortic aneurysm",
+      "ar": "أمّ الدم الأبهرية البطنية",
+      "ar_variantes": [],
+      "definition_fr": "Dilatation localisée et permanente de l'aorte abdominale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CCVA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07193",
+      "fr": "communication interauriculaire",
+      "en": "atrial septal defect",
+      "ar": "عيب الحاجز الأذيني",
+      "ar_variantes": [],
+      "definition_fr": "Cardiopathie congénitale avec communication entre les deux oreillettes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07194",
+      "fr": "communication interventriculaire",
+      "en": "ventricular septal defect",
+      "ar": "عيب الحاجز البطيني",
+      "ar_variantes": [],
+      "definition_fr": "Cardiopathie congénitale avec communication entre les deux ventricules.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07195",
+      "fr": "persistance du canal artériel",
+      "en": "patent ductus arteriosus",
+      "ar": "استمرار القناة الشريانية",
+      "ar_variantes": [
+        "القناة الشريانية السالكة"
+      ],
+      "definition_fr": "Absence de fermeture du canal artériel après la naissance.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "PEDI",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07196",
+      "fr": "tétralogie de Fallot",
+      "en": "tetralogy of Fallot",
+      "ar": "رُباعية فالو",
+      "ar_variantes": [],
+      "definition_fr": "Cardiopathie congénitale cyanogène associant CIV, sténose pulmonaire, dextroposition aortique et hypertrophie ventriculaire droite.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "PEDI",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07197",
+      "fr": "shunt intracardiaque",
+      "en": "intracardiac shunt",
+      "ar": "التحويلة داخل القلب",
+      "ar_variantes": [],
+      "definition_fr": "Passage anormal de sang entre cavités droites et gauches.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07198",
+      "fr": "trouble du rythme cardiaque",
+      "en": "cardiac arrhythmia",
+      "ar": "اضطراب النَّظْم القلبي",
+      "ar_variantes": [],
+      "definition_fr": "Anomalie de la fréquence, de la régularité ou de l'origine de l'activation cardiaque.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07199",
+      "fr": "fibrillation atriale",
+      "en": "atrial fibrillation",
+      "ar": "الرَّجَفان الأذيني",
+      "ar_variantes": [],
+      "definition_fr": "Arythmie supraventriculaire avec activité atriale désorganisée, exposant aux embolies.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07200",
+      "fr": "flutter atrial",
+      "en": "atrial flutter",
+      "ar": "الرفرفة الأذينية",
+      "ar_variantes": [],
+      "definition_fr": "Tachycardie atriale par macro-réentrée, à activité régulière en dents de scie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07201",
+      "fr": "tachycardie ventriculaire",
+      "en": "ventricular tachycardia",
+      "ar": "تسرّع القلب البطيني",
+      "ar_variantes": [],
+      "definition_fr": "Rythme rapide d'origine ventriculaire, potentiellement grave.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07202",
+      "fr": "fibrillation ventriculaire",
+      "en": "ventricular fibrillation",
+      "ar": "الرجفان البطيني",
+      "ar_variantes": [],
+      "definition_fr": "Activité électrique ventriculaire anarchique sans contraction efficace, cause d'arrêt cardiaque.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07203",
+      "fr": "bloc auriculo-ventriculaire",
+      "en": "atrioventricular block",
+      "ar": "الإحصار الأذيني البطيني",
+      "ar_variantes": [],
+      "definition_fr": "Ralentissement ou interruption de la conduction entre oreillettes et ventricules.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07204",
+      "fr": "arrêt cardiorespiratoire",
+      "en": "cardiopulmonary arrest",
+      "ar": "توقّف القلب والتنفس",
+      "ar_variantes": [],
+      "definition_fr": "Interruption brutale de l'activité circulatoire efficace.",
+      "categorie": "pathologie",
+      "specialites": [
+        "URGE",
+        "MINT_REA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07205",
+      "fr": "mort subite",
+      "en": "sudden cardiac death",
+      "ar": "الموت القلبي المفاجئ",
+      "ar_variantes": [],
+      "definition_fr": "Décès inattendu d'origine cardiaque survenant brutalement.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "MLEG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07206",
+      "fr": "choc cardiogénique",
+      "en": "cardiogenic shock",
+      "ar": "الصدمة القلبية المنشأ",
+      "ar_variantes": [],
+      "definition_fr": "Insuffisance circulatoire aiguë par défaillance de la pompe cardiaque.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CARD",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07207",
+      "fr": "varices des membres inférieurs",
+      "en": "varicose veins",
+      "ar": "الدوالي",
+      "ar_variantes": [],
+      "definition_fr": "Dilatations permanentes et tortueuses des veines superficielles.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CCVA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07208",
+      "fr": "malnutrition protéino-énergétique",
+      "en": "protein-energy malnutrition",
+      "ar": "سوء التغذية البروتيني الطاقي",
+      "ar_variantes": [],
+      "definition_fr": "Carence d'apport en protéines et en énergie chez l'enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07209",
+      "fr": "kwashiorkor",
+      "en": "kwashiorkor",
+      "ar": "الكواشيوركور",
+      "ar_variantes": [],
+      "definition_fr": "Malnutrition à prédominance protéique avec œdèmes et troubles cutanés.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07210",
+      "fr": "marasme",
+      "en": "marasmus",
+      "ar": "السَّغَل",
+      "ar_variantes": [],
+      "definition_fr": "Malnutrition par carence énergétique globale avec fonte musculo-adipeuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07211",
+      "fr": "rachitisme carentiel",
+      "en": "nutritional rickets",
+      "ar": "الرَّخَد التغذوي",
+      "ar_variantes": [
+        "الكساح"
+      ],
+      "definition_fr": "Défaut de minéralisation osseuse de l'enfant par carence en vitamine D.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07212",
+      "fr": "ictère néonatal",
+      "en": "neonatal jaundice",
+      "ar": "اليرقان الوليدي",
+      "ar_variantes": [],
+      "definition_fr": "Coloration jaune de la peau du nouveau-né par hyperbilirubinémie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07213",
+      "fr": "ictère nucléaire",
+      "en": "kernicterus",
+      "ar": "اليرقان النووي",
+      "ar_variantes": [],
+      "definition_fr": "Encéphalopathie due au dépôt de bilirubine libre dans les noyaux gris centraux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07214",
+      "fr": "maladie hémolytique du nouveau-né",
+      "en": "hemolytic disease of the newborn",
+      "ar": "داء الوليد الانحلالي",
+      "ar_variantes": [],
+      "definition_fr": "Hémolyse fœtale par anticorps maternels anti-érythrocytaires (incompatibilité Rhésus ou ABO).",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON",
+        "OBST",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07215",
+      "fr": "convulsions fébriles",
+      "en": "febrile seizures",
+      "ar": "الاختلاجات الحُمّوية",
+      "ar_variantes": [],
+      "definition_fr": "Crises convulsives du jeune enfant survenant lors d'une fièvre, sans infection du système nerveux central.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07216",
+      "fr": "déshydratation aiguë du nourrisson",
+      "en": "acute dehydration in infants",
+      "ar": "التجفاف الحادّ عند الرضيع",
+      "ar_variantes": [],
+      "definition_fr": "Perte hydrique aiguë, souvent due à une diarrhée, grave chez le nourrisson.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07217",
+      "fr": "maladie des membranes hyalines",
+      "en": "hyaline membrane disease",
+      "ar": "داء الغشاء الهياليني",
+      "ar_variantes": [],
+      "definition_fr": "Détresse respiratoire du prématuré par déficit en surfactant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07218",
+      "fr": "tachypnée transitoire du nouveau-né",
+      "en": "transient tachypnea of the newborn",
+      "ar": "تسرّع التنفس العابر عند الوليد",
+      "ar_variantes": [],
+      "definition_fr": "Détresse respiratoire bénigne par résorption retardée du liquide pulmonaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07219",
+      "fr": "inhalation méconiale",
+      "en": "meconium aspiration syndrome",
+      "ar": "متلازمة استنشاق العِقْي",
+      "ar_variantes": [],
+      "definition_fr": "Détresse respiratoire du nouveau-né par inhalation de liquide amniotique méconial.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07220",
+      "fr": "encéphalopathie anoxo-ischémique",
+      "en": "hypoxic-ischemic encephalopathy",
+      "ar": "الاعتلال الدماغي بنقص التأكسج والإقفار",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte cérébrale du nouveau-né consécutive à une asphyxie périnatale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07221",
+      "fr": "infection néonatale",
+      "en": "neonatal infection",
+      "ar": "عدوى الوليد",
+      "ar_variantes": [],
+      "definition_fr": "Infection survenant chez le nouveau-né, précoce (materno-fœtale) ou tardive.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07222",
+      "fr": "prématurité",
+      "en": "prematurity",
+      "ar": "الخِداج",
+      "ar_variantes": [],
+      "definition_fr": "Naissance avant 37 semaines d'aménorrhée révolues.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEON",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07223",
+      "fr": "bronchiolite",
+      "en": "bronchiolitis",
+      "ar": "التهاب القُصَيبات",
+      "ar_variantes": [],
+      "definition_fr": "Infection virale des petites voies aériennes du nourrisson, souvent due au virus respiratoire syncytial.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07224",
+      "fr": "laryngite aiguë sous-glottique",
+      "en": "croup",
+      "ar": "الخانوق",
+      "ar_variantes": [
+        "التهاب الحنجرة تحت المزمار"
+      ],
+      "definition_fr": "Infection virale de l'enfant avec dyspnée laryngée et toux rauque.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07225",
+      "fr": "glomérulonéphrite aiguë post-streptococcique",
+      "en": "post-streptococcal glomerulonephritis",
+      "ar": "التهاب كبيبات الكلى التالي للعقديات",
+      "ar_variantes": [],
+      "definition_fr": "Glomérulonéphrite à complexes immuns survenant après une infection streptococcique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07226",
+      "fr": "syndrome néphrotique idiopathique",
+      "en": "idiopathic nephrotic syndrome",
+      "ar": "المتلازمة الكُلائية مجهولة السبب",
+      "ar_variantes": [],
+      "definition_fr": "Syndrome néphrotique à lésions glomérulaires minimes, fréquent chez l'enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07227",
+      "fr": "arthrite juvénile idiopathique",
+      "en": "juvenile idiopathic arthritis",
+      "ar": "التهاب المفاصل الشبابي مجهول السبب",
+      "ar_variantes": [],
+      "definition_fr": "Arthrite chronique de plus de six semaines débutant avant 16 ans.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07228",
+      "fr": "drépanocytose",
+      "en": "sickle cell disease",
+      "ar": "داء الكريات المنجلية",
+      "ar_variantes": [
+        "فقر الدم المنجلي"
+      ],
+      "definition_fr": "Hémoglobinopathie génétique par hémoglobine S.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "PEDI",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07229",
+      "fr": "thalassémie",
+      "en": "thalassemia",
+      "ar": "الثلاسيمية",
+      "ar_variantes": [
+        "فقر دم البحر المتوسط"
+      ],
+      "definition_fr": "Hémoglobinopathie par défaut de synthèse des chaînes de globine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "PEDI",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07230",
+      "fr": "mucoviscidose",
+      "en": "cystic fibrosis",
+      "ar": "التليّف الكيسي",
+      "ar_variantes": [],
+      "definition_fr": "Maladie génétique autosomique récessive due à des mutations du gène CFTR.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "PNEU",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07231",
+      "fr": "trisomie 21",
+      "en": "Down syndrome",
+      "ar": "متلازمة داون",
+      "ar_variantes": [
+        "التثلّث الصبغي 21"
+      ],
+      "definition_fr": "Anomalie chromosomique par chromosome 21 surnuméraire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GENE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07232",
+      "fr": "retard psychomoteur",
+      "en": "psychomotor delay",
+      "ar": "التأخّر النفسي الحركي",
+      "ar_variantes": [],
+      "definition_fr": "Retard d'acquisition des étapes du développement moteur et psychique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PEDI",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07233",
+      "fr": "insuffisance antéhypophysaire",
+      "en": "hypopituitarism",
+      "ar": "قصور النخامة",
+      "ar_variantes": [],
+      "definition_fr": "Déficit de sécrétion d'une ou plusieurs hormones antéhypophysaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07234",
+      "fr": "adénome hypophysaire",
+      "en": "pituitary adenoma",
+      "ar": "الورم الغدي النخامي",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur bénigne de l'antéhypophyse, sécrétante ou non.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "NCHI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07235",
+      "fr": "hyperprolactinémie",
+      "en": "hyperprolactinemia",
+      "ar": "فرط برولاكتين الدم",
+      "ar_variantes": [],
+      "definition_fr": "Élévation de la prolactine sérique, cause d'aménorrhée-galactorrhée.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07236",
+      "fr": "acromégalie",
+      "en": "acromegaly",
+      "ar": "ضخامة النهايات",
+      "ar_variantes": [],
+      "definition_fr": "Hypersécrétion d'hormone de croissance après la fin de la croissance.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07237",
+      "fr": "diabète insipide",
+      "en": "diabetes insipidus",
+      "ar": "البيلة التَّفِهة",
+      "ar_variantes": [
+        "السكري الكاذب"
+      ],
+      "definition_fr": "Syndrome polyuro-polydipsique par défaut de sécrétion ou d'action de l'hormone antidiurétique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07238",
+      "fr": "hyperthyroïdie",
+      "en": "hyperthyroidism",
+      "ar": "فرط نشاط الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Excès de production d'hormones thyroïdiennes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07239",
+      "fr": "maladie de Basedow",
+      "en": "Graves' disease",
+      "ar": "داء غريفز",
+      "ar_variantes": [
+        "داء بازدو"
+      ],
+      "definition_fr": "Hyperthyroïdie auto-immune par anticorps anti-récepteur de la TSH.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07240",
+      "fr": "hypothyroïdie",
+      "en": "hypothyroidism",
+      "ar": "قصور الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Insuffisance de sécrétion des hormones thyroïdiennes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07241",
+      "fr": "hypothyroïdie congénitale",
+      "en": "congenital hypothyroidism",
+      "ar": "قصور الدرقية الخِلْقي",
+      "ar_variantes": [],
+      "definition_fr": "Hypothyroïdie présente dès la naissance, dépistée en période néonatale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "PEDI",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07242",
+      "fr": "goitre",
+      "en": "goiter",
+      "ar": "الدُّراق",
+      "ar_variantes": [
+        "تضخّم الغدة الدرقية"
+      ],
+      "definition_fr": "Augmentation de volume de la glande thyroïde.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07243",
+      "fr": "thyroïdite",
+      "en": "thyroiditis",
+      "ar": "التهاب الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la glande thyroïde.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07244",
+      "fr": "cancer de la thyroïde",
+      "en": "thyroid cancer",
+      "ar": "سرطان الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur maligne thyroïdienne, majoritairement différenciée de souche vésiculaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "ONCO",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07245",
+      "fr": "hypercalcémie",
+      "en": "hypercalcemia",
+      "ar": "فرط كالسيوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Calcémie supérieure aux valeurs normales, menaçante au-delà de 3,5 mmol/L.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07246",
+      "fr": "hypocalcémie",
+      "en": "hypocalcemia",
+      "ar": "نقص كالسيوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Calcémie inférieure aux valeurs normales, avec risque de tétanie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07247",
+      "fr": "hyperparathyroïdie primaire",
+      "en": "primary hyperparathyroidism",
+      "ar": "فرط نشاط جارات الدرقية الأولي",
+      "ar_variantes": [],
+      "definition_fr": "Sécrétion excessive et autonome de parathormone, souvent par adénome.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07248",
+      "fr": "insuffisance surrénale",
+      "en": "adrenal insufficiency",
+      "ar": "قصور الكظر",
+      "ar_variantes": [],
+      "definition_fr": "Défaut de sécrétion des hormones corticosurrénaliennes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07249",
+      "fr": "maladie d'Addison",
+      "en": "Addison's disease",
+      "ar": "داء أديسون",
+      "ar_variantes": [],
+      "definition_fr": "Insuffisance surrénale primaire, auto-immune ou tuberculeuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07250",
+      "fr": "syndrome de Cushing",
+      "en": "Cushing's syndrome",
+      "ar": "متلازمة كوشينغ",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des manifestations liées à un excès chronique de glucocorticoïdes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07251",
+      "fr": "phéochromocytome",
+      "en": "pheochromocytoma",
+      "ar": "ورم القَواتِم",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur médullosurrénalienne sécrétant des catécholamines.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07252",
+      "fr": "hyperaldostéronisme primaire",
+      "en": "primary aldosteronism",
+      "ar": "فرط الألدوستيرونية الأولي",
+      "ar_variantes": [],
+      "definition_fr": "Sécrétion autonome d'aldostérone, cause d'hypertension avec hypokaliémie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07253",
+      "fr": "diabète sucré",
+      "en": "diabetes mellitus",
+      "ar": "داء السكّري",
+      "ar_variantes": [
+        "السكري"
+      ],
+      "definition_fr": "Hyperglycémie chronique due à un défaut de sécrétion et/ou d'action de l'insuline.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07254",
+      "fr": "diabète de type 1",
+      "en": "type 1 diabetes",
+      "ar": "السكري من النمط الأول",
+      "ar_variantes": [],
+      "definition_fr": "Diabète par destruction auto-immune des cellules bêta, nécessitant l'insuline.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07255",
+      "fr": "diabète de type 2",
+      "en": "type 2 diabetes",
+      "ar": "السكري من النمط الثاني",
+      "ar_variantes": [],
+      "definition_fr": "Diabète associant insulinorésistance et insulinopénie relative.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07256",
+      "fr": "diabète gestationnel",
+      "en": "gestational diabetes",
+      "ar": "سكّري الحمل",
+      "ar_variantes": [],
+      "definition_fr": "Trouble de la tolérance glucidique découvert pendant la grossesse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07257",
+      "fr": "acidocétose diabétique",
+      "en": "diabetic ketoacidosis",
+      "ar": "الحُماض الكيتوني السكري",
+      "ar_variantes": [],
+      "definition_fr": "Complication aiguë du diabète par carence en insuline avec hyperglycémie, cétose et acidose.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07258",
+      "fr": "état hyperosmolaire hyperglycémique",
+      "en": "hyperosmolar hyperglycemic state",
+      "ar": "الحالة فرط الأسمولية مع فرط سكر الدم",
+      "ar_variantes": [],
+      "definition_fr": "Complication aiguë du diabète de type 2 avec hyperglycémie majeure et déshydratation sans cétose.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07259",
+      "fr": "hypoglycémie",
+      "en": "hypoglycemia",
+      "ar": "نقص سكّر الدم",
+      "ar_variantes": [],
+      "definition_fr": "Glycémie basse avec signes neuroglucopéniques ou adrénergiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07260",
+      "fr": "néphropathie diabétique",
+      "en": "diabetic nephropathy",
+      "ar": "اعتلال الكلية السكري",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte rénale glomérulaire liée au diabète.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07261",
+      "fr": "neuropathie diabétique",
+      "en": "diabetic neuropathy",
+      "ar": "اعتلال الأعصاب السكري",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte du système nerveux périphérique liée au diabète.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07262",
+      "fr": "pied diabétique",
+      "en": "diabetic foot",
+      "ar": "القدم السكّرية",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des lésions du pied liées à la neuropathie et à l'artériopathie diabétiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07263",
+      "fr": "syndrome métabolique",
+      "en": "metabolic syndrome",
+      "ar": "المتلازمة الاستقلابية",
+      "ar_variantes": [],
+      "definition_fr": "Association d'obésité abdominale, d'hypertension, de dyslipidémie et d'hyperglycémie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07264",
+      "fr": "obésité",
+      "en": "obesity",
+      "ar": "السِّمنة",
+      "ar_variantes": [],
+      "definition_fr": "Excès de masse grasse avec indice de masse corporelle d'au moins 30 kg/m².",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07265",
+      "fr": "dyslipidémie",
+      "en": "dyslipidemia",
+      "ar": "اضطراب شحميات الدم",
+      "ar_variantes": [],
+      "definition_fr": "Anomalie qualitative ou quantitative des lipides plasmatiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07266",
+      "fr": "hypercholestérolémie familiale",
+      "en": "familial hypercholesterolemia",
+      "ar": "فرط كولسترول الدم العائلي",
+      "ar_variantes": [],
+      "definition_fr": "Hypercholestérolémie génétique par défaut du récepteur des LDL.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ENDO",
+        "GENE",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07267",
+      "fr": "mal de Pott",
+      "en": "spinal tuberculosis",
+      "ar": "داء بوت",
+      "ar_variantes": [
+        "السل الفقري"
+      ],
+      "definition_fr": "Spondylodiscite tuberculeuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM",
+        "INFE",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07268",
+      "fr": "polyarthrite rhumatoïde",
+      "en": "rheumatoid arthritis",
+      "ar": "التهاب المفاصل الرَّثْياني",
+      "ar_variantes": [
+        "التهاب المفاصل الروماتويدي"
+      ],
+      "definition_fr": "Rhumatisme inflammatoire chronique destructeur à prédominance distale et symétrique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07269",
+      "fr": "spondyloarthrite ankylosante",
+      "en": "ankylosing spondylitis",
+      "ar": "التهاب الفَقار المُقسِّط",
+      "ar_variantes": [],
+      "definition_fr": "Rhumatisme inflammatoire du rachis et des sacro-iliaques, appelé autrefois pelvispondylite rhumatismale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07270",
+      "fr": "lupus érythémateux systémique",
+      "en": "systemic lupus erythematosus",
+      "ar": "الذئبة الحمامية الجهازية",
+      "ar_variantes": [],
+      "definition_fr": "Connectivite auto-immune multisystémique avec anticorps antinucléaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM",
+        "MINT",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07271",
+      "fr": "sciatique",
+      "en": "sciatica",
+      "ar": "عِرق النَّسا",
+      "ar_variantes": [],
+      "definition_fr": "Douleur radiculaire L5 ou S1 sur le trajet du nerf sciatique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07272",
+      "fr": "hernie discale",
+      "en": "herniated disc",
+      "ar": "فتق القرص الفقري",
+      "ar_variantes": [
+        "الانزلاق الغضروفي"
+      ],
+      "definition_fr": "Saillie du noyau discal dans le canal rachidien comprimant une racine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM",
+        "NCHI",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07273",
+      "fr": "goutte",
+      "en": "gout",
+      "ar": "النِّقرس",
+      "ar_variantes": [],
+      "definition_fr": "Arthropathie microcristalline par dépôt d'urate de sodium.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07274",
+      "fr": "hyperuricémie",
+      "en": "hyperuricemia",
+      "ar": "فرط حمض البوليك في الدم",
+      "ar_variantes": [],
+      "definition_fr": "Uricémie supérieure aux valeurs normales.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07275",
+      "fr": "arthrose",
+      "en": "osteoarthritis",
+      "ar": "الفُصال العظمي",
+      "ar_variantes": [
+        "خشونة المفاصل"
+      ],
+      "definition_fr": "Maladie dégénérative du cartilage articulaire avec remaniements osseux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07276",
+      "fr": "ostéoporose",
+      "en": "osteoporosis",
+      "ar": "تخلخل العظم",
+      "ar_variantes": [
+        "هشاشة العظام"
+      ],
+      "definition_fr": "Diminution de la masse osseuse et altération de la microarchitecture exposant aux fractures.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM",
+        "GERI",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07277",
+      "fr": "arthrite septique",
+      "en": "septic arthritis",
+      "ar": "التهاب المفصل الإنتاني",
+      "ar_variantes": [],
+      "definition_fr": "Infection bactérienne d'une articulation.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM",
+        "ORTH",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07278",
+      "fr": "syndrome des antiphospholipides",
+      "en": "antiphospholipid syndrome",
+      "ar": "متلازمة أضداد الشحميات الفوسفورية",
+      "ar_variantes": [],
+      "definition_fr": "Thromboses et/ou complications obstétricales avec anticorps antiphospholipides persistants.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "HEMA",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07279",
+      "fr": "syndrome de Gougerot-Sjögren",
+      "en": "Sjögren's syndrome",
+      "ar": "متلازمة شوغرن",
+      "ar_variantes": [],
+      "definition_fr": "Exocrinopathie auto-immune avec sécheresse oculaire et buccale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07280",
+      "fr": "sarcoïdose",
+      "en": "sarcoidosis",
+      "ar": "الساركويد",
+      "ar_variantes": [],
+      "definition_fr": "Granulomatose systémique de cause inconnue, à atteinte surtout médiastino-pulmonaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07281",
+      "fr": "maladie de Behçet",
+      "en": "Behçet's disease",
+      "ar": "داء بهجت",
+      "ar_variantes": [],
+      "definition_fr": "Vascularite avec aphtose bipolaire, uvéite et atteintes vasculaires, fréquente au Maghreb.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "DERM",
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07282",
+      "fr": "vascularite",
+      "en": "vasculitis",
+      "ar": "التهاب الأوعية",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la paroi des vaisseaux sanguins.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07283",
+      "fr": "artérite à cellules géantes",
+      "en": "giant cell arteritis",
+      "ar": "التهاب الشرايين ذو الخلايا العملاقة",
+      "ar_variantes": [],
+      "definition_fr": "Vascularite des grosses artères du sujet âgé, appelée aussi maladie de Horton.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07284",
+      "fr": "sclérodermie systémique",
+      "en": "systemic sclerosis",
+      "ar": "تصلّب الجلد الجهازي",
+      "ar_variantes": [],
+      "definition_fr": "Connectivite avec fibrose cutanée et viscérale et atteinte microvasculaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07285",
+      "fr": "fièvre méditerranéenne familiale",
+      "en": "familial Mediterranean fever",
+      "ar": "حمّى البحر المتوسط العائلية",
+      "ar_variantes": [],
+      "definition_fr": "Maladie auto-inflammatoire héréditaire avec accès fébriles et sérites.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07286",
+      "fr": "connectivite",
+      "en": "connective tissue disease",
+      "ar": "داء النسيج الضامّ",
+      "ar_variantes": [],
+      "definition_fr": "Maladie auto-immune systémique touchant le tissu conjonctif (lupus, sclérodermie…).",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07287",
+      "fr": "état de choc",
+      "en": "shock",
+      "ar": "الصدمة",
+      "ar_variantes": [],
+      "definition_fr": "Insuffisance circulatoire aiguë entraînant une hypoperfusion tissulaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT_REA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07288",
+      "fr": "choc hypovolémique",
+      "en": "hypovolemic shock",
+      "ar": "الصدمة بنقص الحجم",
+      "ar_variantes": [],
+      "definition_fr": "Choc par diminution du volume sanguin circulant (hémorragie, déshydratation).",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT_REA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07289",
+      "fr": "choc anaphylactique",
+      "en": "anaphylactic shock",
+      "ar": "الصدمة التأقية",
+      "ar_variantes": [],
+      "definition_fr": "Choc par réaction d'hypersensibilité immédiate systémique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT_REA",
+        "URGE",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07290",
+      "fr": "intoxication aiguë",
+      "en": "acute poisoning",
+      "ar": "التسمّم الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Exposition à une substance toxique entraînant des effets nocifs rapides.",
+      "categorie": "pathologie",
+      "specialites": [
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07291",
+      "fr": "intoxication au monoxyde de carbone",
+      "en": "carbon monoxide poisoning",
+      "ar": "التسمّم بأحادي أكسيد الكربون",
+      "ar_variantes": [],
+      "definition_fr": "Intoxication par un gaz inodore produit par la combustion incomplète, fréquente en hiver.",
+      "categorie": "pathologie",
+      "specialites": [
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07292",
+      "fr": "intoxication aux organophosphorés",
+      "en": "organophosphate poisoning",
+      "ar": "التسمّم بالفوسفات العضوية",
+      "ar_variantes": [],
+      "definition_fr": "Syndrome cholinergique par inhibition des cholinestérases.",
+      "categorie": "pathologie",
+      "specialites": [
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07293",
+      "fr": "noyade",
+      "en": "drowning",
+      "ar": "الغرق",
+      "ar_variantes": [],
+      "definition_fr": "Insuffisance respiratoire résultant de l'immersion dans un liquide.",
+      "categorie": "pathologie",
+      "specialites": [
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07294",
+      "fr": "envenimation scorpionique",
+      "en": "scorpion envenomation",
+      "ar": "التسمّم بلسعة العقرب",
+      "ar_variantes": [],
+      "definition_fr": "Intoxication par venin de scorpion, problème de santé publique dans le sud algérien.",
+      "categorie": "pathologie",
+      "specialites": [
+        "URGE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07295",
+      "fr": "envenimation ophidienne",
+      "en": "snakebite envenoming",
+      "ar": "التسمّم بلدغة الأفعى",
+      "ar_variantes": [],
+      "definition_fr": "Intoxication par venin de serpent après morsure.",
+      "categorie": "pathologie",
+      "specialites": [
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07296",
+      "fr": "coup de chaleur",
+      "en": "heat stroke",
+      "ar": "ضربة الحرارة",
+      "ar_variantes": [
+        "ضربة الشمس"
+      ],
+      "definition_fr": "Hyperthermie majeure avec troubles neurologiques par défaillance de la thermorégulation.",
+      "categorie": "pathologie",
+      "specialites": [
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07297",
+      "fr": "défaillance multiviscérale",
+      "en": "multiple organ dysfunction syndrome",
+      "ar": "قصور الأعضاء المتعدّد",
+      "ar_variantes": [],
+      "definition_fr": "Dysfonction simultanée de plusieurs organes vitaux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07298",
+      "fr": "anémie",
+      "en": "anemia",
+      "ar": "فقر الدم",
+      "ar_variantes": [
+        "الأنيميا"
+      ],
+      "definition_fr": "Diminution de l'hémoglobine en dessous des valeurs normales pour l'âge et le sexe.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07299",
+      "fr": "anémie ferriprive",
+      "en": "iron-deficiency anemia",
+      "ar": "فقر الدم بعوز الحديد",
+      "ar_variantes": [],
+      "definition_fr": "Anémie microcytaire par carence en fer.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "PEDI",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07300",
+      "fr": "anémie mégaloblastique",
+      "en": "megaloblastic anemia",
+      "ar": "فقر الدم الأرومي الضخم",
+      "ar_variantes": [],
+      "definition_fr": "Anémie macrocytaire par carence en vitamine B12 ou en folates.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07301",
+      "fr": "anémie hémolytique",
+      "en": "hemolytic anemia",
+      "ar": "فقر الدم الانحلالي",
+      "ar_variantes": [],
+      "definition_fr": "Anémie par destruction prématurée des hématies.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07302",
+      "fr": "favisme",
+      "en": "G6PD deficiency",
+      "ar": "الفُوال",
+      "ar_variantes": [
+        "عوز نازعة هيدروجين الغلوكوز-6-فوسفات"
+      ],
+      "definition_fr": "Anémie hémolytique aiguë déclenchée par les fèves ou certains médicaments chez les déficitaires en G6PD.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "PEDI",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07303",
+      "fr": "purpura thrombopénique immunologique",
+      "en": "immune thrombocytopenia",
+      "ar": "الفُرفُرية قليلة الصفيحات المناعية",
+      "ar_variantes": [],
+      "definition_fr": "Thrombopénie par destruction périphérique auto-immune des plaquettes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07304",
+      "fr": "thrombopénie",
+      "en": "thrombocytopenia",
+      "ar": "قلّة الصفيحات",
+      "ar_variantes": [],
+      "definition_fr": "Plaquettes inférieures à 150 G/L.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07305",
+      "fr": "neutropénie",
+      "en": "neutropenia",
+      "ar": "قلّة العَدِلات",
+      "ar_variantes": [],
+      "definition_fr": "Polynucléaires neutrophiles inférieurs à 1,5 G/L.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07306",
+      "fr": "pancytopénie",
+      "en": "pancytopenia",
+      "ar": "قلّة الكريات الشاملة",
+      "ar_variantes": [],
+      "definition_fr": "Diminution des trois lignées sanguines.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07307",
+      "fr": "hémophilie",
+      "en": "hemophilia",
+      "ar": "الناعور",
+      "ar_variantes": [
+        "الهيموفيليا"
+      ],
+      "definition_fr": "Maladie hémorragique héréditaire liée à l'X par déficit en facteur VIII (A) ou IX (B).",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07308",
+      "fr": "maladie de Willebrand",
+      "en": "von Willebrand disease",
+      "ar": "داء فون فيلبراند",
+      "ar_variantes": [],
+      "definition_fr": "Maladie hémorragique héréditaire la plus fréquente, par déficit du facteur Willebrand.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07309",
+      "fr": "coagulation intravasculaire disséminée",
+      "en": "disseminated intravascular coagulation",
+      "ar": "التخثّر المنتثر داخل الأوعية",
+      "ar_variantes": [],
+      "definition_fr": "Activation diffuse de la coagulation avec consommation des facteurs et des plaquettes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "MINT_REA",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07310",
+      "fr": "myélome multiple",
+      "en": "multiple myeloma",
+      "ar": "الورم النِّقوي المتعدّد",
+      "ar_variantes": [],
+      "definition_fr": "Hémopathie maligne par prolifération plasmocytaire médullaire sécrétant une immunoglobuline monoclonale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07311",
+      "fr": "leucémie aiguë",
+      "en": "acute leukemia",
+      "ar": "ابيضاض الدم الحادّ",
+      "ar_variantes": [
+        "اللوكيميا الحادة"
+      ],
+      "definition_fr": "Prolifération maligne de cellules hématopoïétiques immatures (blastes).",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07312",
+      "fr": "leucémie lymphoïde chronique",
+      "en": "chronic lymphocytic leukemia",
+      "ar": "ابيضاض الدم اللمفاوي المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Prolifération de lymphocytes B matures, leucémie la plus fréquente de l'adulte âgé.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07313",
+      "fr": "leucémie myéloïde chronique",
+      "en": "chronic myeloid leukemia",
+      "ar": "ابيضاض الدم النقوي المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Syndrome myéloprolifératif lié au chromosome de Philadelphie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07314",
+      "fr": "lymphome de Hodgkin",
+      "en": "Hodgkin lymphoma",
+      "ar": "لمفومة هودجكين",
+      "ar_variantes": [
+        "داء هودجكين"
+      ],
+      "definition_fr": "Lymphome caractérisé par la présence de cellules de Reed-Sternberg.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07315",
+      "fr": "lymphome non hodgkinien",
+      "en": "non-Hodgkin lymphoma",
+      "ar": "اللمفومة اللاهودجكينية",
+      "ar_variantes": [],
+      "definition_fr": "Groupe hétérogène de proliférations lymphoïdes malignes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07316",
+      "fr": "polyglobulie",
+      "en": "polycythemia",
+      "ar": "كثرة الحُمْر",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de la masse globulaire totale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07317",
+      "fr": "accident transfusionnel",
+      "en": "transfusion reaction",
+      "ar": "تفاعل نقل الدم",
+      "ar_variantes": [],
+      "definition_fr": "Effet indésirable survenant au cours ou au décours d'une transfusion.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07318",
+      "fr": "syndrome néphritique aigu",
+      "en": "acute nephritic syndrome",
+      "ar": "المتلازمة الكلوية الالتهابية الحادة",
+      "ar_variantes": [],
+      "definition_fr": "Association brutale d'hématurie, protéinurie, œdèmes, hypertension et insuffisance rénale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07319",
+      "fr": "syndrome néphrotique",
+      "en": "nephrotic syndrome",
+      "ar": "المتلازمة الكُلائية",
+      "ar_variantes": [],
+      "definition_fr": "Protéinurie abondante avec hypoalbuminémie, souvent œdèmes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07320",
+      "fr": "glomérulonéphrite",
+      "en": "glomerulonephritis",
+      "ar": "التهاب كبيبات الكلى",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte inflammatoire des glomérules rénaux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07321",
+      "fr": "insuffisance rénale aiguë",
+      "en": "acute kidney injury",
+      "ar": "القصور الكلوي الحادّ",
+      "ar_variantes": [
+        "الفشل الكلوي الحاد"
+      ],
+      "definition_fr": "Altération rapide et potentiellement réversible de la fonction rénale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07322",
+      "fr": "insuffisance rénale chronique",
+      "en": "chronic kidney disease",
+      "ar": "القصور الكلوي المزمن",
+      "ar_variantes": [
+        "الفشل الكلوي المزمن"
+      ],
+      "definition_fr": "Diminution permanente du débit de filtration glomérulaire ou marqueurs d'atteinte rénale depuis plus de trois mois.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07323",
+      "fr": "hyponatrémie",
+      "en": "hyponatremia",
+      "ar": "نقص صوديوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Natrémie inférieure à 135 mmol/L, témoin d'une hyperhydratation intracellulaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07324",
+      "fr": "hypernatrémie",
+      "en": "hypernatremia",
+      "ar": "فرط صوديوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Natrémie supérieure à 145 mmol/L, témoin d'une déshydratation intracellulaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07325",
+      "fr": "hypokaliémie",
+      "en": "hypokalemia",
+      "ar": "نقص بوتاسيوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Kaliémie inférieure à 3,5 mmol/L.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07326",
+      "fr": "hyperkaliémie",
+      "en": "hyperkalemia",
+      "ar": "فرط بوتاسيوم الدم",
+      "ar_variantes": [],
+      "definition_fr": "Kaliémie supérieure à 5 mmol/L, urgence en cas de signes électrocardiographiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07327",
+      "fr": "acidose métabolique",
+      "en": "metabolic acidosis",
+      "ar": "الحُماض الاستقلابي",
+      "ar_variantes": [],
+      "definition_fr": "Baisse du pH par diminution primitive des bicarbonates.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07328",
+      "fr": "alcalose métabolique",
+      "en": "metabolic alkalosis",
+      "ar": "القُلاء الاستقلابي",
+      "ar_variantes": [],
+      "definition_fr": "Élévation du pH par augmentation primitive des bicarbonates.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07329",
+      "fr": "acidose respiratoire",
+      "en": "respiratory acidosis",
+      "ar": "الحُماض التنفسي",
+      "ar_variantes": [],
+      "definition_fr": "Baisse du pH par hypoventilation alvéolaire et hypercapnie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07330",
+      "fr": "alcalose respiratoire",
+      "en": "respiratory alkalosis",
+      "ar": "القُلاء التنفسي",
+      "ar_variantes": [],
+      "definition_fr": "Élévation du pH par hyperventilation et hypocapnie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07331",
+      "fr": "déshydratation extracellulaire",
+      "en": "extracellular dehydration",
+      "ar": "التجفاف خارج الخلوي",
+      "ar_variantes": [],
+      "definition_fr": "Diminution du volume extracellulaire par perte de sodium et d'eau.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "PEDI",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07332",
+      "fr": "polykystose rénale autosomique dominante",
+      "en": "autosomal dominant polycystic kidney disease",
+      "ar": "داء الكلية متعدّد الكيسات",
+      "ar_variantes": [],
+      "definition_fr": "Néphropathie héréditaire avec multiples kystes rénaux bilatéraux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "GENE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07333",
+      "fr": "schizophrénie",
+      "en": "schizophrenia",
+      "ar": "الفُصام",
+      "ar_variantes": [],
+      "definition_fr": "Trouble psychotique chronique associant symptômes positifs, négatifs et désorganisation.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07334",
+      "fr": "trouble anxieux généralisé",
+      "en": "generalized anxiety disorder",
+      "ar": "اضطراب القلق المعمَّم",
+      "ar_variantes": [],
+      "definition_fr": "Anxiété et soucis excessifs et persistants concernant de multiples domaines.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07335",
+      "fr": "trouble panique",
+      "en": "panic disorder",
+      "ar": "اضطراب الهلع",
+      "ar_variantes": [],
+      "definition_fr": "Attaques de panique récurrentes et inattendues avec anxiété anticipatoire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07336",
+      "fr": "phobie",
+      "en": "phobia",
+      "ar": "الرُّهاب",
+      "ar_variantes": [],
+      "definition_fr": "Peur intense et irrationnelle d'un objet ou d'une situation, avec évitement.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07337",
+      "fr": "trouble obsessionnel compulsif",
+      "en": "obsessive-compulsive disorder",
+      "ar": "اضطراب الوسواس القهري",
+      "ar_variantes": [],
+      "definition_fr": "Obsessions et/ou compulsions envahissantes et source de souffrance.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07338",
+      "fr": "épisode dépressif caractérisé",
+      "en": "major depressive episode",
+      "ar": "النوبة الاكتئابية الكبرى",
+      "ar_variantes": [
+        "الاكتئاب"
+      ],
+      "definition_fr": "Humeur dépressive ou perte d'intérêt pendant au moins deux semaines avec retentissement fonctionnel.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07339",
+      "fr": "trouble bipolaire",
+      "en": "bipolar disorder",
+      "ar": "الاضطراب ثنائي القطب",
+      "ar_variantes": [],
+      "definition_fr": "Trouble de l'humeur avec alternance d'épisodes maniaques ou hypomaniaques et dépressifs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07340",
+      "fr": "trouble de stress post-traumatique",
+      "en": "post-traumatic stress disorder",
+      "ar": "اضطراب الكَرْب التالي للرَّضْح",
+      "ar_variantes": [],
+      "definition_fr": "Reviviscences, évitement et hypervigilance après un événement traumatique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07341",
+      "fr": "tentative de suicide",
+      "en": "suicide attempt",
+      "ar": "محاولة الانتحار",
+      "ar_variantes": [],
+      "definition_fr": "Acte autoagressif à intention de mourir n'ayant pas abouti au décès.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07342",
+      "fr": "addiction",
+      "en": "addiction",
+      "ar": "الإدمان",
+      "ar_variantes": [],
+      "definition_fr": "Perte de contrôle de la consommation d'une substance ou d'un comportement malgré ses conséquences négatives.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07343",
+      "fr": "trouble de l'usage de l'alcool",
+      "en": "alcohol use disorder",
+      "ar": "اضطراب تعاطي الكحول",
+      "ar_variantes": [
+        "الكحولية"
+      ],
+      "definition_fr": "Consommation problématique d'alcool avec perte de contrôle et retentissement.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07344",
+      "fr": "syndrome de sevrage",
+      "en": "withdrawal syndrome",
+      "ar": "متلازمة الانسحاب",
+      "ar_variantes": [],
+      "definition_fr": "Manifestations survenant à l'arrêt brutal d'une substance entraînant une dépendance physique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07345",
+      "fr": "delirium tremens",
+      "en": "delirium tremens",
+      "ar": "الهذيان الارتعاشي",
+      "ar_variantes": [],
+      "definition_fr": "Forme grave de sevrage alcoolique avec confusion, agitation, hallucinations et fièvre.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07346",
+      "fr": "anorexie mentale",
+      "en": "anorexia nervosa",
+      "ar": "القَهَم العصبي",
+      "ar_variantes": [],
+      "definition_fr": "Trouble des conduites alimentaires avec restriction, peur de grossir et amaigrissement.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07347",
+      "fr": "trouble du spectre de l'autisme",
+      "en": "autism spectrum disorder",
+      "ar": "اضطراب طيف التوحّد",
+      "ar_variantes": [],
+      "definition_fr": "Trouble neurodéveloppemental des interactions sociales et de la communication avec intérêts restreints.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07348",
+      "fr": "trouble déficit de l'attention avec hyperactivité",
+      "en": "attention-deficit/hyperactivity disorder",
+      "ar": "اضطراب نقص الانتباه مع فرط النشاط",
+      "ar_variantes": [],
+      "definition_fr": "Trouble neurodéveloppemental associant inattention, hyperactivité et impulsivité.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07349",
+      "fr": "syndrome confusionnel",
+      "en": "delirium",
+      "ar": "الهَذَيان",
+      "ar_variantes": [],
+      "definition_fr": "Altération aiguë et fluctuante de l'attention et de la conscience, d'origine organique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GERI",
+        "PSYC",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07350",
+      "fr": "fragilité",
+      "en": "frailty",
+      "ar": "الهشاشة لدى المسنّ",
+      "ar_variantes": [],
+      "definition_fr": "État de vulnérabilité accrue du sujet âgé face à un stress, par diminution des réserves physiologiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07351",
+      "fr": "dénutrition",
+      "en": "undernutrition",
+      "ar": "نقص التغذية",
+      "ar_variantes": [
+        "سوء التغذية"
+      ],
+      "definition_fr": "Déséquilibre entre apports et besoins protéino-énergétiques entraînant une perte tissulaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GERI",
+        "BIOC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07352",
+      "fr": "escarre",
+      "en": "pressure ulcer",
+      "ar": "قرحة الضغط",
+      "ar_variantes": [
+        "قرحة الفراش"
+      ],
+      "definition_fr": "Lésion ischémique cutanée et sous-cutanée due à une compression prolongée.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GERI",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07353",
+      "fr": "syndrome d'immobilisation",
+      "en": "immobility syndrome",
+      "ar": "متلازمة عدم الحركة",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des complications d'un alitement ou d'une immobilité prolongés.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GERI",
+        "MPR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-07354",
+      "fr": "polymédication",
+      "en": "polypharmacy",
+      "ar": "تعدّد الأدوية",
+      "ar_variantes": [],
+      "definition_fr": "Prise simultanée de nombreux médicaments, facteur de risque iatrogène chez le sujet âgé.",
+      "categorie": "general",
+      "specialites": [
+        "GERI",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07355",
+      "fr": "saturnisme",
+      "en": "lead poisoning",
+      "ar": "التسمّم بالرصاص",
+      "ar_variantes": [],
+      "definition_fr": "Intoxication chronique par le plomb, professionnelle ou environnementale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MTRA",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07356",
+      "fr": "intoxication par les solvants",
+      "en": "solvent poisoning",
+      "ar": "التسمّم بالمذيبات",
+      "ar_variantes": [],
+      "definition_fr": "Intoxication aiguë ou chronique par les solvants organiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MTRA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-07357",
+      "fr": "surdité professionnelle",
+      "en": "occupational hearing loss",
+      "ar": "الصمم المهني",
+      "ar_variantes": [],
+      "definition_fr": "Surdité de perception bilatérale et irréversible due à l'exposition prolongée au bruit.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MTRA",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    }
+  ]
+}
