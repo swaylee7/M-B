@@ -54,7 +54,7 @@ def pdf_chromium(odts: list[Path]) -> None:
             corps, meta = preparer(src)
             with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as t:
                 t.write(corps); tmp = t.name
-            subprocess.run(["pandoc", tmp, "-f", "markdown+pipe_tables+grid_tables", "-s", "--embed-resources", "--toc", "--toc-depth=2",
+            subprocess.run(["pandoc", tmp, "-f", "markdown+pipe_tables+grid_tables-yaml_metadata_block", "-s", "--embed-resources", "--toc", "--toc-depth=2",
                             "-c", str(CSS), "-o", str(html), "-M", "lang=fr", *meta], check=True, capture_output=True, text=True)
             Path(tmp).unlink()
             htmls.append(html)
@@ -119,7 +119,7 @@ def md_vers_odt(md: Path, odt: Path) -> None:
         t.write(corps)
         tmp = t.name
     sous_titre = "Bibliothèque médicale Mediverse — dossier pédagogique original"
-    subprocess.run(["pandoc", tmp, "-f", "markdown+pipe_tables+grid_tables", "-o", str(odt), "--toc", "--toc-depth=2",
+    subprocess.run(["pandoc", tmp, "-f", "markdown+pipe_tables+grid_tables-yaml_metadata_block", "-o", str(odt), "--toc", "--toc-depth=2",
                     "-M", f"title={titre}", "-M", f"subtitle={sous_titre}",
                     "-M", f"author={fm.get('auteur', 'Mediverse')}", "-M", f"date={fm.get('date_revision', '')}"],
                    check=True, capture_output=True, text=True)

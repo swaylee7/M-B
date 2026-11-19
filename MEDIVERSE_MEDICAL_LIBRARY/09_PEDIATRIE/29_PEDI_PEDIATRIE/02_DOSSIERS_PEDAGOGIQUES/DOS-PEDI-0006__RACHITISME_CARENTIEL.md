@@ -515,7 +515,8 @@ Excellent si le diagnostic est précoce et le traitement bien conduit ; la morta
 | > 12 mois à 12 ans | 3 000–6 000 UI | 150 000 UI | 600 UI |
 | > 12 ans | 6 000 UI | 300 000 UI | 600 UI |
 
-  La réponse est réévaluée à 3 mois (un traitement supplémentaire peut être nécessaire) et l'apport calcique d'au moins 500 mg/j est assuré [S15].
+La réponse est réévaluée à 3 mois (un traitement supplémentaire peut être nécessaire) et l'apport calcique d'au moins 500 mg/j est assuré [S15].
+
 - **Calcium** : **500 mg/j**, systématiquement, en association avec la vitamine D [S1].
 - **Entretien** après le traitement : **400 UI/j avant 12 mois** et **600 UI/j après 12 mois** (doses de prévention) [S1].
 
