@@ -6,22 +6,28 @@ sous_specialite: "Hémopathies malignes — lymphomes"
 items_residanat: [RES-MED-117]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 13
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0005.md
 sources:
   - id: S1
     reference: "Eichenauer DA, et al.; ESMO Guidelines Committee. Hodgkin lymphoma: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2018;29(Suppl 4):iv19-iv29."
-    organisme: "ESMO (approuvé par l'EHA)"
+    organisme: "ESMO (approuvé par l'EHA) — remplacée en Europe par l'EHA 2026 (S2)"
     annee: 2018
     type: recommandation
     doi: "10.1093/annonc/mdy080"
     url: ""
     verifiee: true
   - id: S2
-    reference: "Eichenauer DA, et al. Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up. HemaSphere. 2026;10:e70422 [liste des auteurs et contenu détaillé à vérifier sur le texte intégral ; contenu connu par des sources secondaires]."
+    reference: "Eichenauer DA, André M, Borchmann P, Collins GP, Doherty I, Eich HT, et al. Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up. HemaSphere. 2026;10(6):e70422. PMID 42345030 (texte intégral PMC13288861 lu par l'audit)."
     organisme: EHA
     annee: 2026
     type: recommandation
@@ -85,20 +91,20 @@ sources:
     url: "https://www.has-sante.fr/upload/docs/application/pdf/2013-10/guide_lymphome_hodgkin_web.pdf"
     verifiee: true
   - id: S10
-    reference: "Hasenclever D, Diehl V. A prognostic score for advanced Hodgkin's disease. International Prognostic Factors Project on Advanced Hodgkin's Disease. N Engl J Med. 1998;339(21):1506-1514 [référence à vérifier]."
+    reference: "Hasenclever D, Diehl V. A prognostic score for advanced Hodgkin's disease. International Prognostic Factors Project on Advanced Hodgkin's Disease. N Engl J Med. 1998;339(21):1506-1514. PMID 9819449."
     organisme: "International Prognostic Factors Project"
     annee: 1998
     type: article
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://pubmed.ncbi.nlm.nih.gov/9819449/"
+    verifiee: true
 mots_cles: [lymphome de Hodgkin, maladie de Hodgkin, cellules de Reed-Sternberg, CD30, CD15, EBV, scléronodulaire, prédominance lymphocytaire nodulaire, Ann Arbor, Lugano, TEP-scanner, Deauville, GHSG, EORTC, IPS, ABVD, BV-AVD, BEACOPP escaladé, BrECADD, nivolumab-AVD, radiothérapie, effets tardifs]
 ---
 
 # Lymphome de Hodgkin (maladie de Hodgkin) : définition, diagnostic, classification, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les protocoles de chimiothérapie sont cités **par leur nom** ; aucune dose n'est détaillée `[POSOLOGIE À VÉRIFIER — protocole local / RCP]`. Les recommandations EHA 2026 [S2] n'ont été consultées qu'à travers leur notice bibliographique et des comptes rendus secondaires : leur contenu doit être vérifié sur le texte intégral.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19), corrections requises — voir le rapport d'audit. Les protocoles de chimiothérapie sont cités **par leur nom** ; aucune dose n'est indiquée : la prescription suit le protocole publié de l'essai de référence et le protocole du service validé en RCP. Les recommandations EHA 2026 [S2] ont été vérifiées par l'audit sur leur texte intégral.
 
 **Items du programme couverts** : RES-MED-117 — « Maladie d'Hodgkin : Définition - diagnostic - classification - traitement ». La terminologie actuelle est **lymphome de Hodgkin (LH)**.
 
@@ -150,7 +156,7 @@ mots_cles: [lymphome de Hodgkin, maladie de Hodgkin, cellules de Reed-Sternberg,
 
 ## 3. Épidémiologie
 
-- Environ **10 % des lymphomes** dans les pays occidentaux `[À VÉRIFIER : GLOBOCAN/registres]`.
+- Environ **10 % des lymphomes** dans les pays occidentaux `[À VÉRIFIER : GLOBOCAN/registres]` ; incidence standardisée de 3,5 à 4 pour 100 000 par an en Europe [S2].
 - **Distribution bimodale** de l'incidence dans les pays à revenu élevé : pic chez l'**adulte jeune (15–35 ans)**, à prédominance de forme **scléronodulaire**, et second pic après **55–60 ans** ; dans les pays à ressources limitées, l'incidence chez l'**enfant** (surtout garçons, forme à **cellularité mixte**, souvent **EBV+**) est plus élevée `[À VÉRIFIER : données maghrébines]`.
 - Légère prédominance **masculine** globale ; la forme scléronodulaire touche autant ou davantage les **femmes jeunes**.
 - **Algérie** : aucune donnée d'incidence vérifiée pendant la rédaction de ce dossier `[À VÉRIFIER : registres du cancer de Sétif, d'Alger, d'Oran ; GLOBOCAN ; Plan national cancer]`.
@@ -309,17 +315,17 @@ Sept facteurs, un point chacun : **albumine < 40 g/L** ; **Hb < 105 g/L** ; **se
 - **Formes avancées** : signes B, atteintes extranodales (poumon, foie, os, moelle), pronostic plus réservé.
 
 ### 10.2 Selon le terrain
-- **Sujet âgé (> 60 ans)** : comorbidités, toxicité pulmonaire de la **bléomycine** plus fréquente et plus grave, toxicité hématologique ; schémas adaptés (nivolumab-AVD préféré par l'EHA 2026 selon les comptes rendus disponibles) [S2] `[À VÉRIFIER sur le texte intégral]`.
+- **Sujet âgé (> 60 ans)** : comorbidités, toxicité pulmonaire de la **bléomycine** plus fréquente et plus grave (pas plus de 2 cycles contenant de la bléomycine après 60 ans ; omission à discuter après 70 ans), toxicité hématologique ; l'EHA 2026 recommande **6 cycles de nivolumab-AVD** chez le sujet âgé apte à une polychimiothérapie (stade avancé) [S2].
 - **Enfant et adolescent** : protocoles pédiatriques dédiés, réduction de la radiothérapie.
 - **Grossesse** : prise en charge pluridisciplinaire ; ABVD possible au 2e–3e trimestre, report de certains examens (TEP) et de la radiothérapie `[À VÉRIFIER : recommandations spécifiques]`.
 - **Infection par le VIH** : formes avancées, EBV+, cellularité mixte ; traitement antirétroviral associé, interactions médicamenteuses, prophylaxies anti-infectieuses.
 
 ### 10.3 LH nodulaire à prédominance lymphocytaire
 - Homme jeune, **adénopathie périphérique isolée** (cervicale, axillaire, inguinale), stade localisé, peu de signes B, médiastin rarement atteint ; **rechutes tardives** et **transformation** en lymphome B diffus à grandes cellules possibles.
-- Stade IA sans facteur de risque : **radiothérapie seule** (voire surveillance après exérèse complète chez l'enfant) ; formes plus étendues : chimiothérapie de type LHc ou schémas contenant un **anti-CD20** (rituximab) ; rechutes : rituximab [S1, S2].
+- Stade IA sans facteur de risque : **radiothérapie seule des sites atteints à 30 Gy**, y compris après exérèse ganglionnaire complète chez l'adulte (surveillance possible après exérèse complète chez l'enfant) ; autres stades localisés : schémas de LHc (ABVD) éventuellement associés à un **anti-CD20** ; stades avancés : de la surveillance active à une chimiothérapie avec anti-CD20 ; rechute : biopsie (transformation ≈ 10 % à 10 ans), puis anti-CD20 seul, radiothérapie ou chimiothérapie selon le cas. Le **brentuximab vedotin et les anti-PD-1 n'ont pas de place** dans le LHNPL (cellules LP CD30 négatives) [S2].
 
 ### 10.4 Formes réfractaires et rechutes
-- **Réfractaire primaire** (progression sous traitement ou TEP de fin de traitement positive) ou **rechute** précoce (< 12 mois) ou tardive ; confirmation histologique recommandée ; pronostic dépendant de la chimiosensibilité.
+- **Réfractaire** (progression pendant le traitement ou rechute dans les 3 mois suivant sa fin), **rechute précoce** (dans les 12 mois) ou **tardive** (≥ 12 mois) ; confirmation histologique recommandée ; pronostic dépendant de la chimiosensibilité (obtenir une réponse métabolique complète avant l'autogreffe) [S2].
 
 ---
 
@@ -345,10 +351,10 @@ Sept facteurs, un point chacun : **albumine < 40 g/L** ; **Hb < 105 g/L** ; **se
 ## 12. Évolution, complications, pronostic
 
 ### 12.1 Pronostic global
-- Le LH est **curable dans la grande majorité des cas** : plus de 90 % des formes localisées favorables sont contrôlées au long cours [S1] `[À VÉRIFIER : chiffres actualisés]`.
+- Le LH est **curable dans la grande majorité des cas** : dans les formes localisées favorables (essai HD10, ABVD × 2 + 20 Gy), la survie sans progression à 10 ans est d'environ 87 % et la survie globale d'environ 94 % [S2].
 - **Stades avancés** :
-  - essai **HD21** (patients de 18 à 60 ans) : survie sans progression à 4 ans de **94,3 %** avec le BrECADD guidé par la TEP contre **90,9 %** avec l'eBEACOPP, avec une **morbidité liée au traitement plus faible** (42 % vs 59 %) ; survie globale à 4 ans ≈ 98 % dans les deux bras [S6] ;
-  - essai **S1826** (patients ≥ 12 ans) : survie sans progression à 2 ans de **92 %** avec nivolumab-AVD contre **83 %** avec BV-AVD [S7] ;
+  - essai **HD21** (patients de 18 à 60 ans) : survie sans progression à 4 ans de **94,3 %** avec le BrECADD guidé par la TEP contre **90,9 %** avec l'eBEACOPP, avec une **morbidité liée au traitement plus faible** (42 % vs 59 %) ; survie globale à 4 ans ≈ 98 % dans les deux bras [S6] ; à 5 ans : 93,6 % contre 90,6 % (SSP), survie globale 98 % dans les deux bras [S2] ;
+  - essai **S1826** (patients ≥ 12 ans) : survie sans progression à 2 ans de **92 %** avec nivolumab-AVD contre **83 %** avec BV-AVD [S7] ; à 3 ans : 91 % contre 82 % ; chez les plus de 60 ans : 82 % contre 58 % [S2] ;
   - essai **ECHELON-1** : survie globale à 6 ans de **93,9 %** avec BV-AVD contre **89,4 %** avec ABVD, au prix de davantage de neuropathies (souvent réversibles) [S8].
 - Facteurs pronostiques : stade, facteurs de risque (GHSG/EORTC), IPS, âge, **réponse en TEP intermédiaire** (le plus puissant à l'ère moderne) [S1, S2].
 
@@ -375,13 +381,14 @@ Sept facteurs, un point chacun : **albumine < 40 g/L** ; **Hb < 105 g/L** ; **se
 
 ### 13.2 Moyens
 
-#### 13.2.1 Polychimiothérapies (citées par leur nom) `[POSOLOGIE À VÉRIFIER — protocole local / RCP]`
+#### 13.2.1 Polychimiothérapies (citées par leur nom ; aucune dose indiquée : protocole publié de l'essai de référence et protocole du service)
 - **ABVD** : doxorubicine (Adriamycine), **bléomycine**, vinblastine, dacarbazine — standard historique international (cycles de 28 jours) [S1, S9].
 - **AVD** : ABVD sans bléomycine (désescalade après TEP2 négative, sujet âgé).
 - **BV-AVD** (A+AVD) : brentuximab vedotin + AVD (ECHELON-1) [S8].
 - **N-AVD** : nivolumab + AVD (S1826) [S7].
 - **BEACOPP escaladé (eBEACOPP)** : bléomycine, étoposide, doxorubicine, cyclophosphamide, vincristine, procarbazine, prednisone — plus intensif (GHSG), toxicité hématologique et gonadique importante.
 - **BrECADD** : brentuximab vedotin, étoposide, cyclophosphamide, doxorubicine, dacarbazine, dexaméthasone — remplace l'eBEACOPP dans la stratégie du GHSG (HD21) [S6].
+- **eBEACOPDac** : variante de l'eBEACOPP sans procarbazine (dacarbazine), d'efficacité comparable et moins toxique selon une étude observationnelle britannique ; alternative proposée par l'EHA 2026 [S2].
 - **Chimiothérapies de rattrapage** (rechute) : schémas à base de platine ou de gemcitabine (ICE, DHAP, GVD…), de plus en plus associés à un **anti-PD-1** [S2].
 
 #### 13.2.2 Radiothérapie
@@ -392,13 +399,13 @@ Sept facteurs, un point chacun : **albumine < 40 g/L** ; **Hb < 105 g/L** ; **se
 - **Anti-PD-1** (nivolumab, pembrolizumab) : rechutes et réfractaires (très actifs), première ligne (N-AVD) [S7].
 
 #### 13.2.4 Intensification thérapeutique
-- **Chimiothérapie à haute dose + autogreffe** de cellules souches : standard des **rechutes chimiosensibles** [S1, S2].
+- **Chimiothérapie à haute dose (BEAM) + autogreffe** de cellules souches : standard des **rechutes chimiosensibles**, après un rattrapage associant de préférence un **anti-PD-1 et une chimiothérapie** ; entretien par **brentuximab vedotin** après autogreffe chez les patients à haut risque (essai AETHERA) [S1, S2].
 - **Allogreffe** : rechutes après autogreffe, chez le sujet jeune répondeur.
 
 #### 13.2.5 Soins de support
-- **G-CSF** (obligatoire avec eBEACOPP/BrECADD ; à éviter si possible avec la bléomycine), antiémétiques, prophylaxie de la pneumocystose et antivirale selon les protocoles intensifs, **produits sanguins irradiés** (recommandation de certaines sociétés de transfusion pour les patients atteints de LH) `[À VÉRIFIER : recommandation applicable]`, contraception, préservation de la fertilité, accompagnement psychologique.
+- **G-CSF et cotrimoxazole en prophylaxie primaire, obligatoires avec BrECADD, eBEACOPP, eBEACOPDac et BV-AVD** [S2] (le G-CSF est à éviter si possible avec la bléomycine), antiémétiques, prophylaxie antivirale selon les protocoles, **produits sanguins irradiés** (recommandation de certaines sociétés de transfusion pour les patients atteints de LH) `[À VÉRIFIER : recommandation applicable]`, contraception, préservation de la fertilité, accompagnement psychologique.
 
-### 13.3 Stratégie thérapeutique (synthèse ESMO 2018 [S1] et EHA 2026 [S2])
+### 13.3 Stratégie thérapeutique (synthèse ESMO 2018 [S1] et EHA 2026 [S2], vérifiée sur le texte intégral de l'EHA 2026)
 
 ```text
 LH CLASSIQUE — décision en RCP selon stade, facteurs de risque, âge, TEP
@@ -408,9 +415,9 @@ LH CLASSIQUE — décision en RCP selon stade, facteurs de risque, âge, TEP
 │       (l'omission de la radiothérapie chez les TEP-négatifs expose à plus de rechutes)
 │
 ├─ STADE LOCALISÉ DÉFAVORABLE (I–II avec ≥ 1 facteur de risque), ≤ 60 ans
-│     → eBEACOPP × 2 + ABVD × 2, puis ISRT 30 Gy si TEP positive ; pas de traitement
-│       complémentaire si TEP négative (EHA 2026, d'après les comptes rendus) [S2]
-│     → alternative classique : ABVD × 4 + ISRT 30 Gy [S1]
+│     → eBEACOPP × 2 (ou variante sans procarbazine) + ABVD × 2, puis ISRT 30 Gy si TEP
+│       positive ; pas de traitement complémentaire si TEP négative (EHA 2026, grade 1A) [S2]
+│     → approche moins intensive, et sujet > 60 ans : A(B)VD × 4 + ISRT 30 Gy [S1, S2]
 │
 ├─ STADE AVANCÉ (III–IV, ± IIB à risque), ≤ 60 ans
 │     → BrECADD guidé par la TEP2 (4 ou 6 cycles) + radiothérapie des masses résiduelles
@@ -419,12 +426,12 @@ LH CLASSIQUE — décision en RCP selon stade, facteurs de risque, âge, TEP
 │     → ABVD avec adaptation à la TEP2 (désescalade en AVD si TEP2 négative ; escalade
 │       si positive) quand les options précédentes ne sont pas disponibles [S1]
 │
-├─ > 60 ANS → N-AVD × 6 préféré selon l'EHA 2026 [S2] `[À VÉRIFIER]` ; éviter la bléomycine
-│             au-delà de 2 cycles ; schémas adaptés à la fragilité
+├─ > 60 ANS (stade avancé, apte) → N-AVD × 6 (EHA 2026, grade 2A) [S2] ; sinon
+│             A(B)VD × 2 puis AVD × 4 ; bléomycine limitée à 2 cycles ; schémas adaptés à la fragilité
 │
-└─ RECHUTE / RÉFRACTAIRE → biopsie de confirmation → rattrapage (± anti-PD-1)
-      → chimiothérapie haute dose + autogreffe si chimiosensible
-      → brentuximab vedotin / anti-PD-1 ; allogreffe chez le sujet jeune
+└─ RECHUTE / RÉFRACTAIRE → biopsie de confirmation → rattrapage anti-PD-1 + chimiothérapie
+      (ou BV + chimiothérapie si anti-PD-1 indisponible) → haute dose + autogreffe si chimiosensible
+      → entretien BV si haut risque ; anti-PD-1 ; allogreffe chez le sujet jeune répondeur [S2]
 ```
 
 ### 13.4 Particularités algériennes
@@ -440,8 +447,8 @@ LH CLASSIQUE — décision en RCP selon stade, facteurs de risque, âge, TEP
 |---|---|
 | Pendant le traitement | Hémogramme avant chaque cycle (tolérance), signes de toxicité pulmonaire (toux, dyspnée, DLCO), neuropathie, infections ; **TEP intermédiaire** (après 2 cycles) selon le protocole [S3] |
 | Fin de traitement | **TEP-scanner** d'évaluation (score de Deauville) [S3] |
-| Après rémission complète | Consultations cliniques régulières (par exemple tous les 3 mois les 2 premières années, puis tous les 6 mois jusqu'à 5 ans, puis annuelles) `[À VÉRIFIER]` ; **pas d'imagerie systématique** en l'absence de symptômes chez les patients en réponse métabolique complète [S1] |
-| Effets tardifs (à vie) | **TSH annuelle** après irradiation cervicale ; **dépistage du cancer du sein** (IRM ± mammographie) chez les femmes irradiées sur le thorax avant 30 ans, à partir de 8–10 ans après la radiothérapie `[À VÉRIFIER : âge et rythme]` ; évaluation cardiovasculaire (facteurs de risque, échocardiographie) ; arrêt du tabac ; fertilité ; vaccinations [S1, S2] |
+| Après rémission complète | Consultations cliniques régulières (examen, hémogramme, VS, biochimie), à un rythme que l'EHA 2026 laisse adapter au système de santé (par exemple tous les 3 mois les 2 premières années, puis tous les 6 mois jusqu'à 5 ans, puis annuelles — rythme indicatif) ; **pas d'imagerie de surveillance** en l'absence de symptômes [S1, S2] |
+| Effets tardifs (à vie) | **TSH annuelle** après irradiation cervicale ; **dépistage du cancer du sein** (mammographie et/ou IRM **annuelles**) chez les femmes dont les seins ont été exposés à la radiothérapie **avant 36 ans**, à partir de **8 ans après la radiothérapie, mais pas avant 25 ans** [S2] ; hormones gonadiques chez les patients jeunes ayant reçu une chimiothérapie intensive ; pression artérielle et bilan lipidique annuels ; évaluation cardiovasculaire (facteurs de risque, échocardiographie) ; arrêt du tabac ; fertilité ; vaccinations [S1, S2] |
 
 ---
 
@@ -507,7 +514,7 @@ Adénopathie sus-claviculaire chez une femme jeune avec masse médiastinale, pru
 **Stade IIA** (≥ 2 aires du même côté du diaphragme, pas de signes B) [S3] avec **facteurs de risque** : masse médiastinale volumineuse (RMT ≥ 0,35 selon l'EORTC ; ≥ 1/3 selon le GHSG), **VS ≥ 50 mm** sans signes B, et ≥ 3 aires (GHSG) → **stade localisé défavorable** [S1].
 
 **Question 4 — Quel traitement ?**
-Patiente ≤ 60 ans : **eBEACOPP × 2 puis ABVD × 2**, avec **radiothérapie ISRT 30 Gy** si la TEP de fin de chimiothérapie est positive ; alternative : **ABVD × 4 + ISRT 30 Gy** [S1, S2] `[POSOLOGIE À VÉRIFIER — protocole local]`. La radiothérapie médiastinale chez une femme jeune impose des techniques d'épargne mammaire et cardiaque.
+Patiente ≤ 60 ans : **eBEACOPP × 2 (ou eBEACOPDac) puis ABVD × 2**, avec **radiothérapie ISRT 30 Gy** si la TEP de fin de chimiothérapie est positive (EHA 2026, grade 1A) ; alternative moins intensive : **ABVD × 4 + ISRT 30 Gy** [S1, S2] (doses : protocole du service). La radiothérapie médiastinale chez une femme jeune impose des techniques d'épargne mammaire et cardiaque.
 
 **Évolution.** TEP de fin de chimiothérapie : Deauville 2 (réponse métabolique complète). Pas de radiothérapie selon la stratégie retenue. À 1 an : rémission complète persistante ; TSH normale ; reprise des études.
 
@@ -710,18 +717,18 @@ Patiente ≤ 60 ans : **eBEACOPP × 2 puis ABVD × 2**, avec **radiothérapie IS
 | Thème | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
 | Radiothérapie des stades localisés favorables TEP-négatifs | ESMO 2018 et EHA 2026 : **ABVD × 2 + 20 Gy** ; l'omission de la radiothérapie augmente le risque de rechute [S1, S2] | Pratiques nord-américaines : chimiothérapie seule (ABVD × 3–4) acceptée chez les TEP-négatifs pour éviter les toxicités tardives `[À VÉRIFIER : NCCN en vigueur]` | Arbitrage entre contrôle tumoral et toxicité tardive ; décision partagée |
-| Première ligne des stades avancés (≤ 60 ans) | Groupe allemand / EHA 2026 : **BrECADD guidé par la TEP2** [S2, S6] | Intergroupe nord-américain : **nivolumab-AVD** (S1826) [S7] ; BV-AVD (ECHELON-1) [S8] | Pas de comparaison directe BrECADD vs N-AVD ; l'EHA 2026 cite les deux comme options très actives d'après les comptes rendus disponibles |
+| Première ligne des stades avancés (≤ 60 ans) | Groupe allemand / EHA 2026 : **BrECADD guidé par la TEP2** (4 ou 6 cycles, grade 1A) [S2, S6] | Intergroupe nord-américain : **nivolumab-AVD** (S1826) [S7] ; BV-AVD (ECHELON-1) [S8] | Pas de comparaison directe BrECADD vs N-AVD ; l'EHA 2026 retient N-AVD × 6 comme alternative moins intensive (grade 1A) |
 | Stratégie adaptée à la TEP avec ABVD | ESMO 2018 : ABVD avec désescalade (AVD) si TEP2 négative [S1] | Stratégies intensives d'emblée (BEACOPP/BrECADD) chez les patients à haut risque [S2, S6] | Choix dépendant de l'âge, de la fertilité et des ressources |
 | Définition des facteurs de risque des stades localisés | GHSG : ≥ 3 aires, masse ≥ 1/3 du thorax, atteinte extranodale, VS [S1] | EORTC : ≥ 4 aires, RMT ≥ 0,35, âge ≥ 50 ans, VS [S1] | Préciser le référentiel utilisé dans chaque essai et chaque RCP |
 | Nomenclature du LHNPL | OMS 2022 : « LH nodulaire à prédominance lymphocytaire » conservé [S4] | ICC 2022 : « lymphome B nodulaire à prédominance lymphocytaire » [S5] | Même entité ; implication thérapeutique (anti-CD20) |
-| Sujet de plus de 60 ans | ESMO 2018 : ABVD × 2 puis AVD, ou schémas adaptés [S1] | EHA 2026 : N-AVD × 6 préféré (selon comptes rendus) [S2] `[À VÉRIFIER]` | Données de sous-groupe de S1826 favorables au nivolumab-AVD |
+| Sujet de plus de 60 ans | ESMO 2018 : ABVD × 2 puis AVD, ou schémas adaptés [S1] | EHA 2026 : N-AVD × 6 chez le sujet apte (grade 2A) ; A(B)VD × 2 puis AVD × 4 en alternative [S2] | Données de sous-groupe de S1826 favorables au nivolumab-AVD (SSP à 3 ans 82 % vs 58 %) |
 
 ---
 
 ## 22. Références
 
 1. **[S1]** Eichenauer DA, et al. Hodgkin lymphoma: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. *Ann Oncol*. 2018;29(Suppl 4):iv19-iv29. doi:10.1093/annonc/mdy080 — vérifiée.
-2. **[S2]** Eichenauer DA, et al. Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up. *HemaSphere*. 2026;10:e70422. doi:10.1002/hem3.70422 — vérifiée (notice et comptes rendus secondaires ; texte intégral non consulté).
+2. **[S2]** Eichenauer DA, André M, Borchmann P, et al. Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up. *HemaSphere*. 2026;10(6):e70422. doi:10.1002/hem3.70422 — vérifiée (texte intégral lu par l'audit, PMC13288861).
 3. **[S3]** Cheson BD, Fisher RI, Barrington SF, et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification. *J Clin Oncol*. 2014;32(27):3059-3068. doi:10.1200/JCO.2013.54.8800 — vérifiée.
 4. **[S4]** Alaggio R, Amador C, Anagnostopoulos I, et al. The 5th edition of the WHO Classification of Haematolymphoid Tumours: Lymphoid Neoplasms. *Leukemia*. 2022;36(7):1720-1748. doi:10.1038/s41375-022-01620-2 — vérifiée.
 5. **[S5]** Campo E, Jaffe ES, Cook JR, et al. The International Consensus Classification of Mature Lymphoid Neoplasms. *Blood*. 2022;140(11):1229-1253. doi:10.1182/blood.2022015851 — vérifiée.
@@ -729,4 +736,4 @@ Patiente ≤ 60 ans : **eBEACOPP × 2 puis ABVD × 2**, avec **radiothérapie IS
 7. **[S7]** Herrera AF, et al. Nivolumab+AVD in advanced-stage classic Hodgkin's lymphoma. *N Engl J Med*. 2024;391(15):1379-1389. doi:10.1056/NEJMoa2405888 — vérifiée.
 8. **[S8]** Ansell SM, et al. Overall survival with brentuximab vedotin in stage III or IV Hodgkin's lymphoma. *N Engl J Med*. 2022;387(4):310-320. doi:10.1056/NEJMoa2206125 — vérifiée.
 9. **[S9]** HAS / INCa. Guide ALD — Lymphome de Hodgkin classique de l'adulte. Octobre 2013. — vérifiée (existence ; titre exact à confirmer).
-10. **[S10]** Hasenclever D, Diehl V. A prognostic score for advanced Hodgkin's disease. *N Engl J Med*. 1998;339(21):1506-1514. — **non vérifiée**.
+10. **[S10]** Hasenclever D, Diehl V. A prognostic score for advanced Hodgkin's disease. *N Engl J Med*. 1998;339(21):1506-1514. — vérifiée (PubMed, PMID 9819449).

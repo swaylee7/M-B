@@ -6,11 +6,17 @@ sous_specialite: "Hémopathies malignes — néoplasies plasmocytaires"
 items_residanat: [RES-MED-115]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0004.md
 sources:
   - id: S1
     reference: "Rajkumar SV, Dimopoulos MA, Palumbo A, et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-e548."
@@ -45,7 +51,7 @@ sources:
     url: ""
     verifiee: true
   - id: S5
-    reference: "Dimopoulos MA, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. Nat Rev Clin Oncol. 2025;22(9):680-700."
+    reference: "Dimopoulos MA, Terpos E, Boccadoro M, Moreau P, Mateos MV, Zweegman S, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. Nat Rev Clin Oncol. 2025;22(9):680-700. PMID 40624367 (résumé lu par l'audit ; texte intégral non consulté)."
     organisme: "EHA / EMN"
     annee: 2025
     type: recommandation
@@ -69,7 +75,7 @@ sources:
     url: ""
     verifiee: true
   - id: S8
-    reference: "Facon T, et al.; IMROZ Study Group. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma. N Engl J Med. 2024;391(17):1597-1609."
+    reference: "Facon T, Dimopoulos MA, Leleu XP, Beksac M, Pour L, Hájek R, et al.; IMROZ Study Group. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma. N Engl J Med. 2024;391(17):1597-1609. PMID 38832972."
     organisme: "Essai IMROZ"
     annee: 2024
     type: article
@@ -77,13 +83,13 @@ sources:
     url: ""
     verifiee: true
   - id: S9
-    reference: "Facon T, et al.; MAIA Trial Investigators. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma. N Engl J Med. 2019;380(22):2104-2115 [référence à vérifier]."
+    reference: "Facon T, Kumar S, Plesner T, et al.; MAIA Trial Investigators. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma. N Engl J Med. 2019;380(22):2104-2115. PMID 31141632. Survie globale : Facon T, Kumar SK, Plesner T, et al. Lancet Oncol. 2021;22(11):1582-1596 (PMID 34655533)."
     organisme: "Essai MAIA"
     annee: 2019
     type: article
-    doi: ""
-    url: ""
-    verifiee: false
+    doi: "10.1056/NEJMoa1817249"
+    url: "https://pubmed.ncbi.nlm.nih.gov/31141632/"
+    verifiee: true
   - id: S10
     reference: "Belouni R, et al. Epidemiological and immunochemical parameters of monoclonal plasma cell dyscrasias of 2121 cases in Algeria. Curr Res Transl Med. 2020;68(2):67-70. PMID 31761679."
     organisme: "CHU Beni Messous (Alger)"
@@ -101,20 +107,52 @@ sources:
     url: ""
     verifiee: false
   - id: S12
-    reference: "Greipp PR, San Miguel J, Durie BG, et al. International staging system for multiple myeloma. J Clin Oncol. 2005;23(15):3412-3420 [référence à vérifier]."
+    reference: "Greipp PR, San Miguel J, Durie BG, Crowley JJ, Barlogie B, Bladé J, et al. International staging system for multiple myeloma. J Clin Oncol. 2005;23(15):3412-3420. PMID 15809451."
     organisme: IMWG
     annee: 2005
     type: article
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://pubmed.ncbi.nlm.nih.gov/15809451/"
+    verifiee: true
+  - id: S13
+    reference: "Perrot A, Manier S, Hulin C, et al.; Intergroupe Francophone du Myélome (IFM). IFM 2026 Recommendations for First-line Treatment of Newly Diagnosed Multiple Myeloma. Clin Lymphoma Myeloma Leuk. 2026 (publication en ligne, 9 septembre 2026). PMID 42888080 (résumé lu par l'audit)."
+    organisme: IFM
+    annee: 2026
+    type: recommandation
+    doi: "10.1016/j.clml.2026.09.002"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42888080/"
+    verifiee: true
+  - id: S14
+    reference: "Fernández de Larrea C, Kyle R, Rosiñol L, et al. Primary plasma cell leukemia: consensus definition by the International Myeloma Working Group according to peripheral blood plasma cell percentage. Blood Cancer J. 2021;11(12):192. PMID 34857730."
+    organisme: IMWG
+    annee: 2021
+    type: recommandation
+    doi: "10.1038/s41408-021-00587-0"
+    url: "https://pubmed.ncbi.nlm.nih.gov/34857730/"
+    verifiee: true
+  - id: S15
+    reference: "Kyle RA, Therneau TM, Rajkumar SV, et al. A long-term study of prognosis in monoclonal gammopathy of undetermined significance. N Engl J Med. 2002;346(8):564-569 (PMID 11856795) ; Rajkumar SV, Kyle RA, Therneau TM, et al. Serum free light chain ratio is an independent risk factor for progression in monoclonal gammopathy of undetermined significance. Blood. 2005;106(3):812-817 (PMID 15855274)."
+    organisme: "Mayo Clinic"
+    annee: 2005
+    type: article
+    doi: ""
+    url: "https://pubmed.ncbi.nlm.nih.gov/11856795/"
+    verifiee: true
+  - id: S16
+    reference: "Résumés des caractéristiques du produit (versions MHRA/EMA consultées en novembre 2026) : Zometa (acide zolédronique), rubriques 4.2 et 4.4 ; Xgeva (dénosumab 120 mg), rubriques 4.2 et 4.4."
+    organisme: "MHRA / EMA (RCP)"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: "https://www.medicines.org.uk/emc/product/12754/smpc"
+    verifiee: true
 mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline monoclonale, chaînes légères libres, CRAB, SLiM, MGUS, myélome indolent, ISS, R-ISS, R2-ISS, cytogénétique, néphropathie à cylindres myélomateux, hypercalcémie, autogreffe, daratumumab, VRd, Dara-VRd, lénalidomide, bisphosphonates, Algérie]
 ---
 
 # Myélome multiple : classification, diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les protocoles de chimiothérapie sont cités **par leur nom** ; aucune dose de chimiothérapie n'est détaillée. Toute prescription relève d'une réunion de concertation pluridisciplinaire (RCP) et des protocoles du service.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19), corrections requises — voir le rapport d'audit. Les protocoles de chimiothérapie sont cités **par leur nom** ; aucune dose de chimiothérapie n'est détaillée. Toute prescription relève d'une réunion de concertation pluridisciplinaire (RCP) et des protocoles du service.
 
 **Items du programme couverts** : RES-MED-115 — « Myélome multiple : Classification - diagnostic - traitement ».
 
@@ -160,7 +198,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 - Environ **1 % des cancers** et **10 % des hémopathies malignes** ; deuxième hémopathie maligne la plus fréquente dans les pays occidentaux `[À VÉRIFIER : GLOBOCAN]`.
 - **Sujet âgé** : âge médian au diagnostic autour de 65–70 ans ; < 2 % des patients ont moins de 40 ans `[À VÉRIFIER]`.
 - Légère **prédominance masculine** ; incidence plus élevée dans les populations d'ascendance africaine.
-- La **MGUS** est fréquente après 50 ans (quelques pour cent de la population) et progresse vers un myélome ou une hémopathie apparentée avec un risque d'environ **1 % par an** `[À VÉRIFIER : études de Kyle]`.
+- La **MGUS** est fréquente après 50 ans (quelques pour cent de la population) et progresse vers un myélome ou une hémopathie apparentée avec un risque d'environ **1 % par an** (cohorte de la Mayo Clinic [S15]).
 
 ### 3.2 Algérie
 - Une série de **2 121 gammapathies monoclonales** diagnostiquées au CHU de Beni Messous (Alger) entre 1998 et 2016 retrouve le **myélome multiple** dans **55,2 %** des cas et la **MGUS** dans **34,1 %**, sans prédominance masculine ; isotypes : **IgG 60,9 %**, **IgA 17,9 %**, **chaînes légères 10,5 %**, IgM 6,6 %, IgD 1,0 %, IgE 0,1 % ; les auteurs soulignent une fréquence plus élevée du **myélome à chaînes légères** et plus faible de l'isotype IgM que dans les séries occidentales [S10].
@@ -202,7 +240,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 ## 6. Étiologies et facteurs de risque
 
 - **Âge** (facteur principal), **sexe masculin**, **ascendance africaine**.
-- **MGUS préexistante** (quasi constante) ; facteurs de risque de progression d'une MGUS : isotype non-IgG, pic ≥ 15 g/L, rapport des chaînes libres anormal (modèle de la Mayo Clinic) `[À VÉRIFIER : seuils exacts du modèle]`.
+- **MGUS préexistante** (quasi constante) ; facteurs de risque de progression d'une MGUS : isotype non-IgG, pic ≥ 15 g/L, rapport des chaînes libres anormal (modèle de la Mayo Clinic [S15]).
 - **Antécédents familiaux** de myélome ou de MGUS (risque modestement augmenté).
 - **Obésité**, expositions professionnelles (pesticides, radiations ionisantes, benzène) : associations rapportées, de niveau de preuve variable `[À VÉRIFIER]`.
 - Aucune prévention primaire validée.
@@ -242,7 +280,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 | Système | Critères | Groupes et pronostic |
 |---|---|---|
 | **ISS** (2005) [S12] | **β2-microglobuline** et **albumine** | I : β2m < 3,5 mg/L et albumine ≥ 35 g/L ; III : β2m ≥ 5,5 mg/L ; II : ni I ni III |
-| **R-ISS** (2015) [S2] | ISS + **cytogénétique** de haut risque (del(17p), t(4;14), t(14;16)) + **LDH** | I : ISS I + cytogénétique standard + LDH normale ; III : ISS III + cytogénétique de haut risque **ou** LDH élevée ; II : autres. Survie globale à 5 ans : **82 %, 62 %, 40 %** |
+| **R-ISS** (2015) [S2] | ISS + **cytogénétique** de haut risque (del(17p), t(4;14), t(14;16)) + **LDH** | I : ISS I + cytogénétique standard + LDH normale ; III : ISS III **et** (cytogénétique de haut risque **ou** LDH élevée) ; II : autres. Survie globale à 5 ans : **82 %, 62 %, 40 %** |
 | **R2-ISS** (2022) [S3] | Score additif : ISS II = 1 ; ISS III = 1,5 ; del(17p) = 1 ; LDH élevée = 1 ; t(4;14) = 1 ; gain/amplification 1q = 0,5 | I (0 point), II (0,5–1), III (1,5–2,5), IV (3–5) ; survie médiane : non atteinte, ≈ 109, ≈ 68 et ≈ 38 mois dans la cohorte d'entraînement |
 
 - Le **R2-ISS** affine surtout la stratification des patients de **risque intermédiaire** (R-ISS II, majoritaires) [S3] ; l'EHA–EMN 2025 l'intègre dans la stratification initiale [S5].
@@ -287,7 +325,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 ## 9. Examens complémentaires et interprétation
 
 ### 9.1 Biologie d'orientation
-- **Hémogramme** : anémie normocytaire arégénérative ; **rouleaux d'hématies** au frottis ; plasmocytes circulants (leucémie à plasmocytes si ≥ 5 % selon les définitions actuelles `[À VÉRIFIER : seuil IMWG 2021]`).
+- **Hémogramme** : anémie normocytaire arégénérative ; **rouleaux d'hématies** au frottis ; plasmocytes circulants (leucémie à plasmocytes primitive si ≥ 5 % de plasmocytes circulants, définition IMWG 2021 [S14]).
 - **VS très élevée** (sauf myélome à chaînes légères ou non sécrétant), protidémie élevée (sauf chaînes légères).
 - **Calcémie** (corrigée par l'albumine ou calcium ionisé), **créatinine et DFG**, ionogramme (un **trou anionique bas** peut s'observer avec les IgG cationiques), **albumine**, **β2-microglobuline**, **LDH**, uricémie, bilan hépatique.
 
@@ -407,7 +445,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 | Immunothérapies de rechute | **CAR-T anti-BCMA**, anticorps **bispécifiques** (anti-BCMA, anti-GPRC5D), conjugués anticorps-médicament | Syndrome de relargage cytokinique, neurotoxicité, infections sévères, cytopénies prolongées |
 | Autres | Sélinexor, vénétoclax (patients avec t(11;14) dans le cadre d'essais ou de recommandations spécifiques) | Selon la molécule |
 
-**Protocoles cités par leur nom** (doses non détaillées volontairement, `[POSOLOGIE À VÉRIFIER — protocole local / RCP]`) :
+**Protocoles cités par leur nom** (aucune dose n'est indiquée dans ce dossier : la prescription suit le protocole publié de l'essai de référence et le protocole du service validé en RCP) :
 - **VRd** (bortezomib–lénalidomide–dexaméthasone) ;
 - **Dara-VRd** (daratumumab + VRd) ; **Dara-VTd** (daratumumab–bortezomib–thalidomide–dexaméthasone) ;
 - **Isa-VRd** (isatuximab + VRd) ;
@@ -418,14 +456,14 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 ### 13.4 Stratégie de première ligne
 
 #### 13.4.1 Patients éligibles à l'autogreffe (en général ≤ 65–70 ans, sans comorbidité majeure)
-1. **Induction** par un **quadruplet** associant un anti-CD38, un inhibiteur du protéasome, un immunomodulateur et la dexaméthasone : l'essai **PERSEUS** (709 patients de 18 à 70 ans) a montré que l'ajout du daratumumab sous-cutané au VRd en induction et consolidation, suivi d'un entretien daratumumab–lénalidomide, améliorait significativement la survie sans progression par rapport au VRd [S7] ; l'EHA–EMN 2025 retient les quadruplets à base d'anti-CD38 comme standard [S5].
+1. **Induction** par un **quadruplet** associant un anti-CD38, un inhibiteur du protéasome, un immunomodulateur et la dexaméthasone : l'essai **PERSEUS** (709 patients de 18 à 70 ans) a montré que l'ajout du daratumumab sous-cutané au VRd en induction et consolidation, suivi d'un entretien daratumumab–lénalidomide, améliorait significativement la survie sans progression par rapport au VRd [S7] ; l'EHA–EMN 2025 retient les quadruplets à base d'anti-CD38 comme standard [S5] ; l'IFM (2026) retient comme induction de référence **Dara-VRd** (PERSEUS) ou **Isa-VRd** (GMMG-HD7), suivie de l'autogreffe, d'une consolidation optionnelle et d'un entretien **daratumumab–lénalidomide** [S13].
 2. **Mobilisation et recueil** de cellules souches périphériques.
 3. **Intensification** par **melphalan à haute dose + autogreffe** [S4, S5].
 4. **Consolidation** (selon le protocole).
 5. **Entretien** par **lénalidomide** (± anti-CD38), en général jusqu'à progression ou pendant une durée définie selon la MRD [S4, S5].
 
 #### 13.4.2 Patients non éligibles à l'autogreffe
-- **Dara-Rd** (essai MAIA : bénéfice en survie sans progression et en survie globale par rapport au Rd) [S9] ;
+- **Dara-Rd** (essai MAIA : bénéfice en survie sans progression, puis en survie globale dans l'analyse de 2021, par rapport au Rd) [S9] ; c'est le socle retenu par l'IFM 2026 chez le patient non éligible, avec ajout du bortezomib (Isa-VRd ou Dara-VRd) chez le patient en bonne forme et schéma **DR sans dexaméthasone** chez le patient fragile (essai IFM2017-03) [S13] ;
 - **Isa-VRd** : dans l'essai **IMROZ** (patients non candidats à la greffe), l'ajout de l'isatuximab au VRd a réduit d'environ 40 % le risque de progression ou de décès ; survie sans progression à 60 mois de 63,2 % contre 45,2 % [S8] ;
 - **VRd** (ou VRd allégé chez le sujet âgé) ;
 - chez le sujet **fragile** : schémas allégés (par exemple Dara-Rd à doses de dexaméthasone réduites) ; l'intensité est guidée par l'évaluation gériatrique [S4, S5].
@@ -436,7 +474,9 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 ### 13.5 Traitements de support (essentiels)
 
 #### 13.5.1 Os
-- **Bisphosphonates** (acide **zolédronique** 4 mg IV toutes les 3–4 semaines, dose adaptée à la clairance de la créatinine) ou **dénosumab** (120 mg SC toutes les 4 semaines, utilisable en insuffisance rénale) chez tout patient traité pour un myélome symptomatique, même sans lésion lytique visible [S4] `[POSOLOGIE À VÉRIFIER — RCP]`.
+- **Bisphosphonates** ou **dénosumab** chez tout patient traité pour un myélome symptomatique, même sans lésion lytique visible [S4] :
+  - **acide zolédronique 4 mg** en perfusion IV d'au moins 15 minutes toutes les 3–4 semaines si la clairance de la créatinine (Cockcroft-Gault) est > 60 mL/min ; **3,5 mg** (50–60 mL/min), **3,3 mg** (40–49 mL/min), **3,0 mg** (30–39 mL/min) ; **non recommandé** sous 30 mL/min ; créatinine contrôlée avant chaque perfusion (RCP de Zometa [S16]) ;
+  - **dénosumab 120 mg SC toutes les 4 semaines**, sans adaptation à la fonction rénale (option préférée en cas d'insuffisance rénale), avec calcium et vitamine D et surveillance de la calcémie (risque d'hypocalcémie majoré si clairance < 30 mL/min ou dialyse ; hypocalcémie préexistante à corriger ; calcium ≥ 500 mg et vitamine D 400 UI par jour sauf hypercalcémie) (RCP de Xgeva [S16]).
 - **Bilan dentaire préalable** et hygiène bucco-dentaire (prévention de l'**ostéonécrose de la mâchoire**) ; supplémentation en **calcium et vitamine D** (surveillance de l'hypocalcémie sous dénosumab).
 - **Radiothérapie antalgique** des lésions douloureuses ou menaçantes ; **cyphoplastie/vertébroplastie** des tassements douloureux ; **chirurgie orthopédique** des fractures ou lésions à risque fracturaire.
 
@@ -447,7 +487,7 @@ mots_cles: [myélome multiple, maladie de Kahler, plasmocytes, immunoglobuline m
 - Adapter les doses de lénalidomide et des autres médicaments à la fonction rénale.
 
 #### 13.5.3 Hypercalcémie
-- **Réhydratation** par sérum salé isotonique, **bisphosphonate IV** (acide zolédronique) ou dénosumab (si insuffisance rénale), **corticoïdes** (inclus dans le traitement du myélome), calcitonine en appoint ; arrêt des médicaments hypercalcémiants (thiazidiques, vitamine D, calcium) ; dialyse si hypercalcémie majeure avec insuffisance rénale `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **Réhydratation** par sérum salé isotonique, **bisphosphonate IV** (acide zolédronique) ou dénosumab (si insuffisance rénale), **corticoïdes** (inclus dans le traitement du myélome), calcitonine en appoint ; arrêt des médicaments hypercalcémiants (thiazidiques, vitamine D, calcium) ; dialyse si hypercalcémie majeure avec insuffisance rénale. Dans l'hypercalcémie, l'acide zolédronique s'administre en **dose unique de 4 mg** IV en au moins 15 minutes, après réhydratation, en évaluant le rapport bénéfice-risque en cas d'insuffisance rénale sévère (RCP [S16]) ; le dénosumab n'a pas d'AMM européenne dans l'hypercalcémie `[À VÉRIFIER : statut et protocole local]`.
 
 #### 13.5.4 Compression médullaire (urgence)
 - **Dexaméthasone à forte dose** immédiate, **IRM** en urgence, **radiothérapie** et/ou **chirurgie décompressive** (instabilité, compression osseuse) ; puis traitement systémique [S4].
@@ -756,8 +796,8 @@ Patient de 66 ans sans comorbidité majeure : éligibilité à l'autogreffe à d
 
 | Thème | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
-| Induction du patient éligible | EHA-ESMO 2021 : triplets (VRd, VTd) ou quadruplet Dara-VTd selon l'accès [S4] | EHA–EMN 2025 : **quadruplets à base d'anti-CD38** comme standard (dont Dara-VRd après PERSEUS) [S5, S7] | Évolution rapide des standards ; en contexte de ressources limitées, les triplets restent acceptables |
-| Patient non éligible | Dara-Rd (MAIA) [S9] | Isa-VRd (IMROZ) [S8] ; quadruplets chez le sujet apte | Choix selon la fragilité, la tolérance du bortezomib, l'accès |
+| Induction du patient éligible | EHA-ESMO 2021 : triplets (VRd, VTd) ou quadruplet Dara-VTd selon l'accès [S4] | EHA–EMN 2025 : **quadruplets à base d'anti-CD38** comme standard (dont Dara-VRd après PERSEUS) [S5, S7] ; IFM 2026 : Dara-VRd ou Isa-VRd, entretien daratumumab–lénalidomide [S13] | Évolution rapide des standards ; en contexte de ressources limitées, les triplets restent acceptables |
+| Patient non éligible | Dara-Rd (MAIA) [S9] ; IFM 2026 : DRd comme socle, DR sans dexaméthasone chez le sujet fragile [S13] | Isa-VRd (IMROZ) [S8] ; quadruplets chez le sujet apte (IFM 2026 : Isa-VRd ou Dara-VRd) [S13] | Choix selon la fragilité, la tolérance du bortezomib, l'accès |
 | Stratification pronostique | R-ISS (IMWG 2015) [S2] | R2-ISS (EMN 2022), intégré par l'EHA–EMN 2025 [S3, S5] ; définitions consensuelles du haut risque plus récentes `[À VÉRIFIER : consensus IMWG/IMS 2025]` | Le R2-ISS discrimine mieux le risque intermédiaire |
 | Imagerie initiale | Scanner corps entier faible dose (EHA-ESMO 2021, EHA–EMN 2025) [S4, S5] | Radiographies standard du squelette (pratique encore répandue là où le scanner manque) | Les radiographies sous-estiment les lésions (sensibilité moindre) |
 | Myélome indolent à haut risque | Surveillance rapprochée (attitude historique) | Traitement précoce des formes à haut risque discuté (EHA–EMN 2025) [S5] `[À VÉRIFIER : niveau de recommandation]` | Décision en RCP, information du patient |
@@ -771,11 +811,15 @@ Patient de 66 ans sans comorbidité majeure : éligibilité à l'autogreffe à d
 2. **[S2]** Palumbo A, Avet-Loiseau H, Oliva S, et al. Revised International Staging System for multiple myeloma. *J Clin Oncol*. 2015;33(26):2863-2869. doi:10.1200/JCO.2015.61.2267 — vérifiée.
 3. **[S3]** D'Agostino M, Cairns DA, Lahuerta JJ, et al. Second Revision of the International Staging System (R2-ISS). *J Clin Oncol*. 2022;40(29):3406-3418. doi:10.1200/JCO.21.02614 — vérifiée.
 4. **[S4]** Dimopoulos MA, Moreau P, Terpos E, et al. Multiple myeloma: EHA-ESMO Clinical Practice Guidelines. *Ann Oncol*. 2021;32(3):309-322. doi:10.1016/j.annonc.2020.11.014 — vérifiée.
-5. **[S5]** Dimopoulos MA, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. *Nat Rev Clin Oncol*. 2025;22(9):680-700. doi:10.1038/s41571-025-01041-x — vérifiée.
+5. **[S5]** Dimopoulos MA, Terpos E, Boccadoro M, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. *Nat Rev Clin Oncol*. 2025;22(9):680-700. doi:10.1038/s41571-025-01041-x — vérifiée (résumé lu par l'audit ; texte intégral non consulté).
 6. **[S6]** Kumar S, Paiva B, Anderson KC, et al. IMWG consensus criteria for response and minimal residual disease assessment in multiple myeloma. *Lancet Oncol*. 2016;17(8):e328-e346. doi:10.1016/S1470-2045(16)30206-6 — vérifiée.
 7. **[S7]** Sonneveld P, Dimopoulos MA, Boccadoro M, et al. Daratumumab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (PERSEUS). *N Engl J Med*. 2024;390(4):301-313. doi:10.1056/NEJMoa2312054 — vérifiée.
-8. **[S8]** Facon T, et al. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (IMROZ). *N Engl J Med*. 2024;391(17):1597-1609. doi:10.1056/NEJMoa2400712 — vérifiée.
-9. **[S9]** Facon T, et al. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma (MAIA). *N Engl J Med*. 2019;380(22):2104-2115. — **non vérifiée**.
+8. **[S8]** Facon T, Dimopoulos MA, Leleu XP, et al. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (IMROZ). *N Engl J Med*. 2024;391(17):1597-1609. doi:10.1056/NEJMoa2400712 — vérifiée (résumé lu : SSP à 60 mois 63,2 % vs 45,2 %, HR 0,60).
+9. **[S9]** Facon T, Kumar S, Plesner T, et al. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma (MAIA). *N Engl J Med*. 2019;380(22):2104-2115. doi:10.1056/NEJMoa1817249 ; survie globale : *Lancet Oncol*. 2021;22(11):1582-1596. — vérifiée (PubMed).
 10. **[S10]** Belouni R, et al. Epidemiological and immunochemical parameters of monoclonal plasma cell dyscrasias of 2121 cases in Algeria. *Curr Res Transl Med*. 2020;68(2):67-70. doi:10.1016/j.retram.2019.11.003 — vérifiée.
 11. **[S11]** SAHTS. Registre algérien du myélome multiple (AMMR), résumé de congrès (Blood, 2017) ; séries algériennes d'autogreffe. — **non vérifiée** (références complètes à établir).
-12. **[S12]** Greipp PR, San Miguel J, Durie BG, et al. International staging system for multiple myeloma. *J Clin Oncol*. 2005;23(15):3412-3420. — **non vérifiée**.
+12. **[S12]** Greipp PR, San Miguel J, Durie BG, et al. International staging system for multiple myeloma. *J Clin Oncol*. 2005;23(15):3412-3420. — vérifiée (PubMed).
+13. **[S13]** Perrot A, Manier S, Hulin C, et al. IFM 2026 Recommendations for First-line Treatment of Newly Diagnosed Multiple Myeloma. *Clin Lymphoma Myeloma Leuk*. 2026. doi:10.1016/j.clml.2026.09.002 — vérifiée (résumé lu par l'audit).
+14. **[S14]** Fernández de Larrea C, Kyle R, Rosiñol L, et al. Primary plasma cell leukemia: consensus definition by the IMWG. *Blood Cancer J*. 2021;11(12):192. — vérifiée (PubMed).
+15. **[S15]** Kyle RA, et al. *N Engl J Med*. 2002;346(8):564-569 ; Rajkumar SV, et al. *Blood*. 2005;106(3):812-817. — vérifiées (PubMed).
+16. **[S16]** RCP de Zometa (acide zolédronique) et de Xgeva (dénosumab). — vérifiés pendant l'audit (consultation en ligne).

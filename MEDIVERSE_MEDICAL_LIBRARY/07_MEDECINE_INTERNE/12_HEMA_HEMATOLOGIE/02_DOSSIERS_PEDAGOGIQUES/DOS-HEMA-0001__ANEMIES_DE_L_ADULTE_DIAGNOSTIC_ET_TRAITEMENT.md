@@ -6,11 +6,17 @@ sous_specialite: "Pathologie du globule rouge"
 items_residanat: [RES-MED-112]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 15
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md
 sources:
   - id: S1
     reference: "World Health Organization. Guideline on haemoglobin cutoffs to define anaemia in individuals and populations. Geneva: WHO; 2024. ISBN 978-92-4-008854-2."
@@ -61,7 +67,7 @@ sources:
     url: ""
     verifiee: true
   - id: S7
-    reference: "Cappellini MD, Farmakis D, Porter J, Taher A (eds). Guidelines for the management of transfusion dependent thalassaemia (TDT). 4th edition (version 2.0). Nicosia: Thalassaemia International Federation; 2021 (NCBI Bookshelf 2023)."
+    reference: "Cappellini MD, Farmakis D, Porter J, Taher A (eds). Guidelines for the management of transfusion dependent thalassaemia (TDT). 4th edition (version 2.0). Nicosia: Thalassaemia International Federation; 2021 (NCBI Bookshelf 2023). Remplacée par la 5e édition (TIF 2025, S12)."
     organisme: TIF
     annee: 2021
     type: recommandation
@@ -77,7 +83,7 @@ sources:
     url: ""
     verifiee: true
   - id: S9
-    reference: "Haute Autorité de santé. ALD n° 10 — Syndromes drépanocytaires majeurs de l'adulte. Protocole national de diagnostic et de soins. Saint-Denis : HAS ; janvier 2010 (section hydroxycarbamide actualisée en octobre 2013)."
+    reference: "Haute Autorité de santé. ALD n° 10 — Syndromes drépanocytaires majeurs de l'adulte. Protocole national de diagnostic et de soins. Saint-Denis : HAS ; janvier 2010 (paragraphe 3.7.3 Hydroxycarbamide actualisé en janvier 2014)."
     organisme: HAS
     annee: 2010
     type: recommandation
@@ -93,20 +99,36 @@ sources:
     url: ""
     verifiee: false
   - id: S11
-    reference: "Snook J, Bhala N, Beales ILP, et al. British Society of Gastroenterology guidelines for the management of iron deficiency anaemia in adults. Gut. 2021;70(11):2030-2051 [référence à vérifier]."
+    reference: "Snook J, Bhala N, Beales ILP, Cannings D, Kightley C, Logan RP, et al. British Society of Gastroenterology guidelines for the management of iron deficiency anaemia in adults. Gut. 2021;70(11):2030-2051. PMID 34497146."
     organisme: BSG
     annee: 2021
     type: recommandation
+    doi: "10.1136/gutjnl-2021-325210"
+    url: "https://pubmed.ncbi.nlm.nih.gov/34497146/"
+    verifiee: true
+  - id: S12
+    reference: "Musallam KM, Cappellini MD, Porter JB, Farmakis D, Eleftheriou A, Angastiniotis M, Taher AT. TIF Guidelines for the Management of Transfusion-Dependent β-Thalassemia. HemaSphere. 2025;9(3):e70095. PMID 40045934 (synthèse des recommandations de la 5e édition, texte intégral PMC11880825 lu par l'audit)."
+    organisme: TIF
+    annee: 2025
+    type: recommandation
+    doi: "10.1002/hem3.70095"
+    url: "https://pubmed.ncbi.nlm.nih.gov/40045934/"
+    verifiee: true
+  - id: S13
+    reference: "Résumés des caractéristiques du produit (RCP, versions britanniques consultées sur medicines.org.uk en novembre 2026) : Ferinject (carboxymaltose ferrique) — rubrique 4.2 ; Siklos (hydroxycarbamide) — rubrique 4.2."
+    organisme: "MHRA / EMA (RCP)"
+    annee: 2026
+    type: texte_officiel
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.medicines.org.uk/emc/product/5910/smpc"
+    verifiee: true
 mots_cles: [anémie, hémoglobine, VGM, réticulocytes, carence martiale, ferritine, hepcidine, anémie inflammatoire, vitamine B12, maladie de Biermer, folates, hémolyse, test de Coombs, AHAI, déficit en G6PD, drépanocytose, thalassémie, aplasie médullaire, transfusion, Algérie]
 ---
 
 # Anémies de l'adulte : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique. Les données épidémiologiques algériennes disponibles sont surtout hospitalières et sont signalées comme telles.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19), corrections requises — voir le rapport d'audit. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique. Les données épidémiologiques algériennes disponibles sont surtout hospitalières et sont signalées comme telles.
 
 **Items du programme couverts** : RES-MED-112 — « Anémies de l'adulte : Diagnostic et traitement ».
 
@@ -135,15 +157,15 @@ L'OMS a actualisé en **2024** ses seuils de définition de l'anémie [S1]. La r
 
 | Population | Anémie si Hb < | Anémie légère | Anémie modérée | Anémie sévère |
 |---|---|---|---|---|
-| Homme ≥ 15 ans | 130 g/L | 110–129 g/L | 80–109 g/L | < 80 g/L |
-| Femme non enceinte ≥ 15 ans | 120 g/L | 110–119 g/L | 80–109 g/L | < 80 g/L |
+| Homme 15–65 ans | 130 g/L | 110–129 g/L | 80–109 g/L | < 80 g/L |
+| Femme non enceinte 15–65 ans | 120 g/L | 110–119 g/L | 80–109 g/L | < 80 g/L |
 | Femme enceinte, 1er trimestre | 110 g/L | 100–109 g/L | 70–99 g/L | < 70 g/L |
-| Femme enceinte, 2e trimestre | 105 g/L | 95–104 g/L `[À VÉRIFIER]` | 70–94 g/L `[À VÉRIFIER]` | < 70 g/L |
+| Femme enceinte, 2e trimestre | 105 g/L | 95–104 g/L | 70–94 g/L | < 70 g/L |
 | Femme enceinte, 3e trimestre | 110 g/L | 100–109 g/L | 70–99 g/L | < 70 g/L |
 
-> Les bornes de sévérité de la grossesse au 2e trimestre doivent être confrontées au tableau du document OMS [S1] ; l'OMS précise qu'elle maintient, faute de preuves suffisantes, la classification de sévérité fondée sur l'avis d'experts utilisée depuis 2000.
+> Bornes vérifiées sur le texte de la ligne directrice (tableaux 2 et 3 [S1]) : les seuils sont établis pour les adultes de **15 à 65 ans** ; faute de preuves suffisantes, l'OMS n'a pas modifié la méthode de classification de la sévérité (avis d'experts de 1989) et a maintenu le seuil d'anémie sévère à < 70 g/L chez l'enfant de 6–23 mois et au 2e trimestre de la grossesse.
 
-En pratique hospitalière francophone, on retient habituellement : Hb < 130 g/L chez l'homme, < 120 g/L chez la femme, < 105 g/L chez la femme enceinte à partir du 2e trimestre — valeurs concordantes avec l'OMS.
+En pratique hospitalière francophone, on retient habituellement : Hb < 130 g/L chez l'homme, < 120 g/L chez la femme, < 110 g/L au 1er trimestre et < 105 g/L à partir du 2e trimestre de la grossesse — valeurs concordantes avec l'OMS, **sauf au 3e trimestre**, où l'OMS 2024 retient < 110 g/L [S1].
 
 ### 1.2 Fausses anémies (hémodilution)
 
@@ -535,35 +557,36 @@ Signes imposant une prise en charge urgente (et souvent une transfusion) :
 - Risques : surcharge volémique (sujet âgé, insuffisant cardiaque : débit lent ± diurétique), hémolyse aiguë ABO, allo-immunisation, réactions fébriles, infections, surcharge martiale chronique ; chez le drépanocytaire, **hyperviscosité** si Hb post-transfusionnelle trop élevée et **hémolyse retardée post-transfusionnelle**.
 
 #### 13.2.2 Fer
-- **Fer oral** (sels ferreux : sulfate, fumarate, gluconate) : traitement de première intention. Posologie traditionnelle de **100 à 200 mg de fer élémentaire par jour** en une ou plusieurs prises, à jeun ; des schémas à **dose plus faible et/ou un jour sur deux** sont proposés pour améliorer la tolérance digestive et l'absorption (rôle de l'hepcidine induite par la prise) [S11] — `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
-- **Durée** : jusqu'à normalisation de l'Hb puis **3 mois supplémentaires** pour reconstituer les réserves (ferritine normalisée) ; contrôle de la réponse : **crise réticulocytaire** vers J7–J10, ascension de l'Hb d'environ 10–20 g/L en 2–4 semaines.
+- **Fer oral** (sels ferreux : sulfate, fumarate, gluconate) : traitement de première intention. La BSG (2021) recommande **un comprimé par jour** de sulfate, fumarate ou gluconate ferreux (soit **50 à 100 mg de fer élémentaire**, par exemple un comprimé de sulfate ferreux à 200 mg), **à jeun** ; en cas d'intolérance : **un comprimé un jour sur deux**, une autre préparation orale ou le fer parentéral [S11]. Les posologies traditionnelles plus élevées (100–200 mg/j en plusieurs prises) n'augmentent guère la quantité absorbée : chaque prise élève l'hepcidine pendant environ 24 h, ce qui justifie la prise unique quotidienne ou un jour sur deux [S11].
+- **Durée** : jusqu'à normalisation de l'Hb puis **3 mois supplémentaires** pour reconstituer les réserves (ferritine normalisée) ; contrôle de la réponse : **crise réticulocytaire** vers J7–J10, ascension de l'Hb d'au moins **10 g/L à 2 semaines** (ou de 20 g/L à 4 semaines) ; son absence prédit l'échec et fait discuter le fer IV [S11].
 - Effets indésirables : troubles digestifs (nausées, constipation ou diarrhée), selles noires (à distinguer d'un méléna). Interactions : diminution de l'absorption par les IPP, le thé, les antiacides, les cyclines, les quinolones, la lévothyroxine (décaler les prises).
-- **Fer intraveineux** (carboxymaltose ferrique, dérisomaltose ferrique, hydroxyde ferrique-saccharose…) : intolérance ou inefficacité du fer oral, malabsorption (maladie cœliaque, chirurgie bariatrique, MICI actives), pertes supérieures aux capacités d'absorption, besoin de correction rapide (3e trimestre de grossesse, avant chirurgie), insuffisance rénale chronique, insuffisance cardiaque. Administration en milieu équipé (risque d'hypersensibilité) ; hypophosphatémie possible avec le carboxymaltose ferrique `[POSOLOGIE À VÉRIFIER — RCP]`.
+- **Fer intraveineux** (carboxymaltose ferrique, dérisomaltose ferrique, hydroxyde ferrique-saccharose…) : intolérance ou inefficacité du fer oral, malabsorption (maladie cœliaque, chirurgie bariatrique, MICI actives), pertes supérieures aux capacités d'absorption, besoin de correction rapide (3e trimestre de grossesse, avant chirurgie), insuffisance rénale chronique, insuffisance cardiaque. Administration en milieu équipé (risque d'hypersensibilité) ; hypophosphatémie possible avec le carboxymaltose ferrique.
+- **Posologie du carboxymaltose ferrique (RCP [S13])** : besoin total en fer estimé par un tableau simplifié — Hb < 100 g/L : **1 500 mg** (35–< 70 kg) ou **2 000 mg** (≥ 70 kg) ; Hb 100–< 140 g/L : 1 000 mg ou 1 500 mg ; Hb ≥ 140 g/L : 500 mg ; 30 mg/kg sous 35 kg. Une administration ne dépasse pas **1 000 mg** ni 20 mg/kg (perfusion) ou 15 mg/kg (injection), avec au plus 1 000 mg par semaine (2e dose ≥ 7 jours après la 1re) ; contrôle de l'Hb au plus tôt 4 semaines après la dernière dose. La formule de **Ganzoni** (déficit en fer = poids × [Hb cible − Hb actuelle, en g/dL] × 2,4 + réserves d'environ 500 mg) est une alternative utilisée pour d'autres spécialités ; les deux méthodes ne sont pas interchangeables.
 
 #### 13.2.3 Vitamine B12 et folates
-- **Carence en B12** : la BSH renvoie aux schémas du formulaire britannique, par exemple **hydroxocobalamine 1 mg IM trois fois par semaine pendant 2 semaines** puis **1 mg tous les 3 mois** à vie dans la maladie de Biermer ; en cas d'atteinte neurologique, injections plus rapprochées jusqu'à absence d'amélioration [S4]. En France, la **cyanocobalamine 1 000 µg** IM est utilisée selon un schéma d'attaque quotidien puis hebdomadaire, puis mensuel `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **Carence en B12** : la BSH renvoie aux schémas du formulaire britannique : **hydroxocobalamine 1 mg IM trois fois par semaine pendant 2 semaines** puis **1 mg tous les 3 mois** à vie dans la maladie de Biermer ; en cas d'atteinte neurologique, **1 mg un jour sur deux** jusqu'à absence d'amélioration supplémentaire, puis **1 mg tous les 2 mois** [S4]. En France, la **cyanocobalamine 1 000 µg** IM est utilisée selon un schéma d'attaque quotidien puis hebdomadaire, puis mensuel `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
 - La **voie orale à forte dose** est une alternative possible si l'observance est assurée, y compris dans certaines malabsorptions (absorption passive d'environ 1 % de la dose), selon la BSH [S4] ; elle est déconseillée en cas d'atteinte neurologique sévère.
 - **Carence en folates** : **acide folique 5 mg/j pendant 4 mois** [S4] (plus longtemps si la cause persiste, par exemple hémolyse chronique) ; ne jamais débuter les folates seuls sans avoir vérifié/corrigé la B12.
 - **Surveillance précoce** : **hypokaliémie** possible lors de la reprise brutale de l'érythropoïèse (surveiller la kaliémie les premiers jours dans les formes sévères), crise réticulocytaire à J5–J8.
 
 #### 13.2.4 Traitement des AHAI [S5]
-- **AHAI à anticorps chauds** : **corticoïdes** en première ligne (prednisone de l'ordre de 1 mg/kg/j pendant 3–4 semaines puis décroissance progressive sur plusieurs mois) ; **rituximab** en deuxième ligne, voire plus tôt dans les formes sévères ; puis immunosuppresseurs, splénectomie. Supplémentation en folates ; prophylaxie thromboembolique (risque thrombotique accru) `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **AHAI à anticorps chauds** : **corticoïdes** en première ligne (prednisone de l'ordre de 1 mg/kg/j pendant 3–4 semaines puis décroissance progressive sur plusieurs mois) ; **rituximab** en deuxième ligne, voire plus tôt dans les formes sévères ; puis immunosuppresseurs, splénectomie. Supplémentation en folates ; prophylaxie thromboembolique (risque thrombotique accru), en particulier en cas d'hospitalisation ou d'hémolyse active [S5].
 - **Maladie des agglutinines froides** : protection contre le froid ; les corticoïdes sont inefficaces ; **rituximab ± bendamustine** en première ligne lorsque le traitement est nécessaire [S5] ; transfusions de CGR réchauffés ; inhibiteurs du complément selon disponibilité.
 - Transfusion possible en cas d'anémie mal tolérée malgré la difficulté de compatibilité (anticorps panréactifs) : ne jamais la refuser à un patient en détresse.
 
 #### 13.2.5 Drépanocytose [S8, S9]
 - **Crise vaso-occlusive** : hospitalisation si douleur non contrôlée ; **antalgie rapide et réévaluée** (paliers II puis **morphine** titrée, souvent par PCA), **hydratation** (sans excès), **oxygène si hypoxémie**, réchauffement, kinésithérapie respiratoire incitative (spirométrie incitative) pour prévenir le STA, prophylaxie thromboembolique selon le contexte ; éviter les corticoïdes (rebond douloureux, risque de STA).
 - **Syndrome thoracique aigu** : urgence ; oxygène, antibiothérapie couvrant pneumocoque et germes atypiques, analgésie, spirométrie incitative, **transfusion simple ou échange transfusionnel** selon la gravité et l'Hb ; réanimation si détresse.
-- **Hydroxycarbamide (hydroxyurée)** : augmente l'HbF, réduit les CVO, les STA, les transfusions ; indiqué chez l'adulte SS ou S/β⁰ avec ≥ 3 CVO modérées à sévères par an, STA sévère ou récidivant, anémie chronique symptomatique, ou douleurs altérant la qualité de vie [S8]. Dose initiale de l'ordre de **15 mg/kg/j**, augmentée par paliers jusqu'à la dose maximale tolérée sous surveillance de l'hémogramme [S8] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`. Contraception efficace ; arrêt en cas de grossesse ou d'allaitement [S8].
+- **Hydroxycarbamide (hydroxyurée)** : augmente l'HbF, réduit les CVO, les STA, les transfusions ; indiqué chez l'adulte SS ou S/β⁰ avec ≥ 3 CVO modérées à sévères par an, STA sévère ou récidivant, anémie chronique symptomatique, ou douleurs altérant la qualité de vie [S8] ; en France, le PNDS retient 3 hospitalisations par an pour CVO ou un STA grave ou récidivant (l'anémie chronique profonde étant hors AMM) [S9]. Dose initiale de **15 mg/kg/j** en une prise (dose usuelle 15–30 mg/kg/j selon le RCP de Siklos [S13]), augmentée par paliers de 5 mg/kg/j toutes les 8 semaines environ jusqu'à la dose maximale tolérée (myélosuppression modérée), **sans dépasser 35 mg/kg/j**, sous surveillance de l'hémogramme [S8, S13] ; réduction de la dose initiale en cas d'insuffisance rénale. Contraception efficace ; arrêt en cas de grossesse ou d'allaitement [S8].
 - **Programmes transfusionnels** (transfusions simples ou échanges) : prévention secondaire de l'AVC, complications sévères récidivantes, grossesse compliquée.
 - **Mesures générales** : vaccinations (pneumocoque, méningocoque, *Haemophilus*, grippe annuelle, hépatite B), **acide folique**, éducation (hydratation, éviter froid, altitude, efforts intenses), prise en charge précoce de toute fièvre.
 - **Allogreffe de cellules souches** (donneur HLA-identique familial) : seul traitement curatif établi, surtout chez l'enfant ; les **thérapies géniques** autorisées depuis 2023 dans certains pays restent d'accès très limité `[À VÉRIFIER : statut réglementaire et disponibilité]`.
 
-#### 13.2.6 Thalassémie dépendante des transfusions [S7]
-- **Transfusions régulières** (toutes les 2 à 5 semaines) pour maintenir une **Hb prétransfusionnelle d'environ 95–105 g/L**, ce qui freine l'érythropoïèse inefficace et les déformations osseuses [S7].
-- **Chélation du fer** : déféroxamine (sous-cutanée lente), défériprone (orale, risque d'agranulocytose : NFS hebdomadaire), déférasirox (orale, surveillance rénale et hépatique) ; adaptée à la ferritine et à l'**IRM T2*** cardiaque et hépatique [S7] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+#### 13.2.6 Thalassémie dépendante des transfusions [S7, S12]
+- **Transfusions régulières** (toutes les 2 à 5 semaines) pour maintenir une **Hb prétransfusionnelle de 95–105 g/L** (100–110 g/L en cas de cardiopathie, d'hématopoïèse extramédullaire importante ou de freinage médullaire insuffisant), sans dépasser 130–150 g/L après transfusion, ce qui freine l'érythropoïèse inefficace et les déformations osseuses [S7, S12].
+- **Chélation du fer** : déféroxamine (sous-cutanée lente), défériprone (orale, risque d'agranulocytose : NFS hebdomadaire), déférasirox (orale, surveillance rénale et hépatique) ; adaptée à la ferritine (au moins tous les 3 mois) et à l'**IRM** hépatique (concentration en fer) et cardiaque (**T2***) annuelle à partir de 8–10 ans ; la TIF 2025 renvoie, pour les doses, aux RCP de chaque chélateur et demande de les réduire quand la ferritine ou le fer hépatique baissent [S12] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
 - **Splénectomie** en cas d'hypersplénisme (augmentation des besoins transfusionnels), après vaccinations ; risque thrombotique et infectieux.
-- Thérapies récentes citées par la TIF : **luspatercept** (réduction des besoins transfusionnels), thérapie génique ; **allogreffe** curatrice chez l'enfant avec donneur HLA-identique [S7].
+- Thérapies récentes (TIF 2025 [S12]) : **luspatercept** recommandé chez l'adulte (≥ 18 ans) pour réduire les besoins transfusionnels ; **allogreffe** de donneur HLA-identique familial, traitement curatif préféré chez l'enfant (excellents résultats jusqu'à 14 ans) ; **thérapie génique** (insertion ou édition) proposée à partir de 14 ans ou en l'absence de donneur HLA-identique familial, là où elle est accessible.
 
 #### 13.2.7 Aplasie médullaire [S6]
 - **Mesures de support** : transfusions de CGR et de plaquettes (produits **irradiés** et déleucocytés chez les candidats à l'immunosuppression/greffe selon les protocoles), prévention et traitement précoce des infections (neutropénie fébrile = urgence), arrêt de tout médicament suspect.
@@ -693,7 +716,7 @@ ANÉMIE CONFIRMÉE (Hb < seuil OMS)
 **Hémogramme** : Hb 78 g/L, VGM 68 fL, TCMH 21 pg, IDR 19 %, réticulocytes 38 G/L, leucocytes 7,2 G/L, plaquettes 486 G/L. **Ferritine 6 µg/L**, CST 5 %, CRP 3 mg/L, créatinine normale.
 
 **Question 1 — Quel est le diagnostic syndromique ?**
-Anémie modérée selon l'OMS (80–109 g/L chez l'homme : ici 78 g/L, donc à la limite de la sévérité) [S1], **microcytaire, hypochrome, arégénérative**, avec thrombocytose réactionnelle : **anémie par carence martiale** affirmée par une ferritine effondrée en l'absence d'inflammation [S2, S3].
+Anémie **sévère** selon l'OMS (< 80 g/L chez l'homme : ici 78 g/L, juste sous le seuil) [S1], **microcytaire, hypochrome, arégénérative**, avec thrombocytose réactionnelle : **anémie par carence martiale** affirmée par une ferritine effondrée en l'absence d'inflammation [S2, S3].
 
 **Question 2 — La tolérance impose-t-elle une transfusion ?**
 Le patient est coronarien et l'Hb est inférieure à 80 g/L, mais il n'a ni angor, ni signe d'insuffisance cardiaque, ni hémorragie active. Une transfusion n'est pas systématique ; elle se discute si apparaissent des signes d'ischémie. Le **fer intraveineux** est une option raisonnable pour une correction plus rapide chez ce coronarien, puis relais selon la tolérance.
@@ -705,7 +728,7 @@ Chez un **homme de plus de 50 ans**, la carence martiale impose une **fibroscopi
 
 **Commentaire pédagogique.**
 - Le cancer du côlon droit saigne à bas bruit et se révèle souvent par une **anémie ferriprive isolée**.
-- Une ferritine < 15 µg/L sans inflammation est **pathognomonique** de carence martiale [S2] ; le fer sérique seul n'apporte rien [S3].
+- Une ferritine < 15 µg/L sans inflammation **affirme** la carence martiale [S2] ; le fer sérique seul n'apporte rien [S3].
 - Les IPP réduisent l'absorption du fer oral : un argument de plus pour la voie IV ici.
 
 ---
@@ -811,8 +834,8 @@ Chez un **homme de plus de 50 ans**, la carence martiale impose une **fibroscopi
 ### Corrigé commenté
 
 **QCM 1** — Réponses : **A, B, C, E**. La révision OMS 2024 conserve les seuils de l'adulte non enceinte (130 g/L chez l'homme, 120 g/L chez la femme), retient 105 g/L au 2e trimestre de la grossesse et recommande d'ajuster l'Hb au tabagisme et à l'altitude, mais pas à l'infection ou à l'inflammation.
-  - A : Vrai : seuil de 130 g/L chez l'homme de 15 ans et plus.
-  - B : Vrai : seuil de 120 g/L chez la femme non enceinte de 15 ans et plus.
+  - A : Vrai : seuil de 130 g/L chez l'homme de 15 à 65 ans.
+  - B : Vrai : seuil de 120 g/L chez la femme non enceinte de 15 à 65 ans.
   - C : Vrai : le seuil du 2e trimestre (105 g/L) a été explicitement retenu en 2024.
   - D : Faux : l'OMS recommande de ne pas ajuster l'Hb pour l'infection ou l'inflammation.
   - E : Vrai : un ajustement pour le tabagisme (et l'altitude) est recommandé.
@@ -876,7 +899,8 @@ Chez un **homme de plus de 50 ans**, la carence martiale impose une **fibroscopi
 | Ferritine en contexte inflammatoire | OMS 2020 : < 70 µg/L chez l'adulte (recommandation conditionnelle, faible certitude) [S2] | Cardiologie/néphrologie : seuils à 100 µg/L, ou 100–299 µg/L avec CST < 20 % `[À VÉRIFIER : ESC, KDIGO]` | Les seuils diffèrent selon la population cible |
 | Ajustement de l'Hb | OMS 2024 : ajustement au tabagisme et à l'altitude ; pas d'ajustement à l'inflammation [S1] | Seuils hospitaliers usuels sans ajustement au tabac | Impact surtout épidémiologique |
 | Voie d'administration de la B12 | BSH 2014 : voie orale à forte dose acceptable si observance assurée [S4] | Pratique française : voie IM privilégiée dans le Biermer avec atteinte neurologique | Consensus : IM en cas d'atteinte neurologique sévère |
-| Indications de l'hydroxycarbamide chez l'adulte | NHLBI 2014 : ≥ 3 CVO modérées à sévères/an, STA sévère ou récidivant, anémie symptomatique [S8] | HAS PNDS adulte 2010, section actualisée en 2013 (AMM de l'hydroxycarbamide) [S9] | Le PNDS adulte français n'a pas été réactualisé depuis 2013 selon nos recherches `[À VÉRIFIER]` |
+| Indications de l'hydroxycarbamide chez l'adulte | NHLBI 2014 : ≥ 3 CVO modérées à sévères/an, STA sévère ou récidivant, anémie symptomatique [S8] | HAS PNDS adulte 2010, paragraphe actualisé en janvier 2014 : 3 hospitalisations/an pour CVO, STA grave ou récidivant ; anémie profonde hors AMM [S9] | La page HAS ne propose, en plus, qu'une synthèse pour le médecin traitant (2017) ; aucune refonte du PNDS adulte n'a été trouvée `[À VÉRIFIER]` |
+| Prise en charge de la thalassémie dépendante des transfusions | TIF 2021 (4e éd.) [S7] | TIF 2025 (5e éd.) : luspatercept chez l'adulte, place de la thérapie génique à partir de 14 ans, Hb prétransfusionnelle inchangée (95–105 g/L) [S12] | Se référer à l'édition 2025 |
 | Immunosuppression de l'aplasie sévère | BSH 2024 : ATG de cheval + ciclosporine + **eltrombopag** en première ligne [S6] | Version BCSH antérieure (2015–2016) `[À VÉRIFIER]` : ATG + ciclosporine sans eltrombopag | Actualiser vers la version 2024 |
 
 ---
@@ -889,8 +913,10 @@ Chez un **homme de plus de 50 ans**, la carence martiale impose une **fibroscopi
 4. **[S4]** Devalia V, Hamilton MS, Molloy AM. Guidelines for the diagnosis and treatment of cobalamin and folate disorders. *Br J Haematol*. 2014;166(4):496-513. doi:10.1111/bjh.12959 — vérifiée.
 5. **[S5]** Jäger U, Barcellini W, Broome CM, et al. Diagnosis and treatment of autoimmune hemolytic anemia in adults: recommendations from the First International Consensus Meeting. *Blood Rev*. 2020;41:100648. PMID 31839434 — vérifiée.
 6. **[S6]** Kulasekararaj A, et al. Guidelines for the diagnosis and management of adult aplastic anaemia: a British Society for Haematology Guideline. *Br J Haematol*. 2024;204(3):784-804. doi:10.1111/bjh.19236 — vérifiée.
-7. **[S7]** Cappellini MD, Farmakis D, Porter J, Taher A (eds). *Guidelines for the management of transfusion dependent thalassaemia (TDT)*, 4th ed. Nicosia: Thalassaemia International Federation; 2021. — vérifiée.
+7. **[S7]** Cappellini MD, Farmakis D, Porter J, Taher A (eds). *Guidelines for the management of transfusion dependent thalassaemia (TDT)*, 4th ed. Nicosia: Thalassaemia International Federation; 2021. — vérifiée ; **remplacée** par la 5e édition [S12].
 8. **[S8]** Yawn BP, Buchanan GR, Afenyi-Annan AN, et al. Management of sickle cell disease: summary of the 2014 evidence-based report by expert panel members. *JAMA*. 2014;312(10):1033-1048. doi:10.1001/jama.2014.10517 — vérifiée.
-9. **[S9]** Haute Autorité de santé. *ALD n° 10 — Syndromes drépanocytaires majeurs de l'adulte* (PNDS). 2010, actualisation hydroxycarbamide 2013. — vérifiée (existence).
+9. **[S9]** Haute Autorité de santé. *ALD n° 10 — Syndromes drépanocytaires majeurs de l'adulte* (PNDS). 2010, paragraphe hydroxycarbamide actualisé en janvier 2014. — vérifiée (texte lu par l'audit).
 10. **[S10]** Travaux hospitalo-universitaires algériens sur les hémoglobinopathies (Alger, Blida, Constantine). — **non vérifiée** (références exactes à établir).
-11. **[S11]** Snook J, et al. British Society of Gastroenterology guidelines for the management of iron deficiency anaemia in adults. *Gut*. 2021;70(11):2030-2051. — **non vérifiée**.
+11. **[S11]** Snook J, Bhala N, Beales ILP, et al. British Society of Gastroenterology guidelines for the management of iron deficiency anaemia in adults. *Gut*. 2021;70(11):2030-2051. doi:10.1136/gutjnl-2021-325210 — vérifiée (texte intégral lu par l'audit).
+12. **[S12]** Musallam KM, Cappellini MD, Porter JB, et al. TIF Guidelines for the Management of Transfusion-Dependent β-Thalassemia. *HemaSphere*. 2025;9(3):e70095. doi:10.1002/hem3.70095 — vérifiée (texte intégral lu par l'audit).
+13. **[S13]** RCP de Ferinject (carboxymaltose ferrique) et de Siklos (hydroxycarbamide), rubrique 4.2. — vérifiés (consultation des RCP en ligne pendant l'audit).

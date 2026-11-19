@@ -1,0 +1,876 @@
+{
+  "agent": "DOS-09",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-RHUM-0901",
+      "titre": "Polyarthrite des mains depuis 8 semaines chez une enseignante de 38 ans",
+      "niveau": "generaliste",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 38 ans, enseignante à Oran, mariée, deux enfants, non fumeuse.",
+      "motif_consultation": "Douleurs et gonflement des doigts depuis 8 semaines, difficulté à écrire au tableau le matin.",
+      "antecedents": "Aucun antécédent notable. Pas de psoriasis personnel ou familial. Mère suivie pour « rhumatisme » non précisé. Contraception orale.",
+      "symptomes": "Douleurs des poignets, des MCP et des IPP des deux mains, réveils nocturnes vers 5 h, raideur matinale de 1 h 30, asthénie. Pas de fièvre, pas d'éruption, pas de photosensibilité, pas d'aphtose, pas de syndrome sec, pas de diarrhée.",
+      "examen_clinique": "Synovites des 2e, 3e et 4e MCP droites, 2e et 3e MCP gauches, IPP 2 et 3 bilatérales ; poignets gonflés ; squeeze test des MTP positif. 12 articulations gonflées et 14 douloureuses sur 28. Pas de nodule. Examen cutané et unguéal normal. Auscultation normale.",
+      "biologie": "VS 38 mm (N < 20), CRP 18 mg/L (N < 5), Hb 11,8 g/dL, GB 7,6 G/L, plaquettes 390 G/L ; FR 28 UI/mL (N < 14) ; anti-CCP 95 U/mL (N < 17) ; AAN négatifs ; ALAT 18 UI/L, créatinine 6,5 mg/L ; bandelette urinaire négative ; sérologies VHB, VHC, VIH négatives ; IgM anti-parvovirus B19 négatives.",
+      "imagerie": "Radiographies mains et pieds : déminéralisation en bande des MCP, pas d'érosion. Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Polyarthrite rhumatoïde débutante séropositive",
+        "Polyarthrite virale",
+        "Lupus systémique débutant"
+      ],
+      "diagnostics_differentiels": [
+        "Polyarthrite virale (parvovirus B19, VHB, VHC)",
+        "Lupus systémique",
+        "Rhumatisme psoriasique sans psoriasis visible",
+        "Syndrome de Gougerot-Sjögren"
+      ],
+      "examens_a_demander": [
+        "VS, CRP, NFS",
+        "FR et ACPA",
+        "AAN (± anti-ADN natif si positifs)",
+        "Sérologies virales (VHB, VHC, VIH, parvovirus B19)",
+        "Bilan hépatique et rénal, bandelette urinaire",
+        "Radiographies des mains, des pieds et du thorax",
+        "Échographie articulaire en cas de doute"
+      ],
+      "diagnostic_final": "Polyarthrite rhumatoïde débutante séropositive (ACR/EULAR 2010 : 5 + 3 + 1 + 1 = 10/10), forte activité.",
+      "traitement": "Information et décision partagée ; méthotrexate hebdomadaire 10 à 15 mg/semaine augmenté de 5 mg toutes les 2 à 4 semaines selon tolérance, acide folique ≥ 5 mg/semaine (3E) ; corticothérapie orale de courte durée à faible dose avec décroissance rapide [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; contraception poursuivie (MTX tératogène) ; vaccinations antigrippale, antipneumococcique et anti-VHB ; calcium et vitamine D ; activité physique et orthèses de repos.",
+      "surveillance": "NFS, ALAT, créatinine toutes les 4 à 6 semaines jusqu'à dose stable, puis tous les 1 à 3 mois ; DAS28 ou CDAI tous les 1 à 3 mois ; radiographies des mains et des pieds à distance.",
+      "evolution": "À 3 mois, DAS28 à 3,0 sous MTX 20 mg/semaine ; corticoïdes arrêtés au 3e mois. À 6 mois : rémission clinique (DAS28 2,2, 0 articulation gonflée). Pas de progression radiographique à 1 an.",
+      "explication_pedagogique": "Cas typique de PR débutante : tableau clinique, sérologie fortement positive, élimination des polyarthrites virales et des connectivites, traitement de fond précoce par MTX optimisé dans une stratégie T2T.",
+      "questions": [
+        {
+          "question": "Calculez le score ACR/EULAR 2010.",
+          "reponse": "Plus de 10 articulations dont des petites (5) + ACPA > 3 × N (3) + CRP/VS élevées (1) + durée ≥ 6 semaines (1) = 10/10."
+        },
+        {
+          "question": "Pourquoi rechercher une infection par le parvovirus B19 ?",
+          "reponse": "Il peut donner une polyarthrite aiguë symétrique des mains, parfois avec FR positif, d'évolution spontanément favorable ; ici, la durée > 6 semaines et les ACPA élevés rendent ce diagnostic improbable."
+        },
+        {
+          "question": "Quels signes d'alerte expliquer à la patiente sous MTX ?",
+          "reponse": "Fièvre, toux ou dyspnée (pneumopathie d'hypersensibilité, infection), ulcérations buccales, saignements ou ecchymoses (cytopénies) : consulter et faire une NFS."
+        },
+        {
+          "question": "Quel est l'objectif à 6 mois ?",
+          "reponse": "Rémission (ou au minimum faible activité) selon la stratégie treat-to-target."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Aletaha D et al. 2010 ACR/EULAR rheumatoid arthritis classification criteria. Ann Rheum Dis 2010;69(9):1580-1588",
+          "date": "2010"
+        },
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        },
+        {
+          "reference": "Visser K et al. 3E Initiative — recommandations méthotrexate. Ann Rheum Dis 2009;68(7):1086-1093",
+          "date": "2009"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-RHUM-0902",
+      "titre": "PR ancienne en échec du méthotrexate : bilan pré-biothérapie et découverte d'une pneumopathie interstitielle",
+      "niveau": "dems",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-099"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 58 ans, ancien ouvrier d'une carrière de pierre, fumeur actif (30 paquets-années), Constantine.",
+      "motif_consultation": "Polyarthrite active malgré le traitement, adressé pour discussion d'une biothérapie.",
+      "antecedents": "PR séropositive (FR et ACPA à titre élevé) depuis 9 ans, érosive. Méthotrexate 20 mg/semaine par voie sous-cutanée depuis 2 ans + acide folique, prednisone 10 mg/j depuis plus d'un an. Antécédent de pleurésie « traitée » à l'âge de 25 ans (dossier indisponible). Père décédé de tuberculose.",
+      "symptomes": "Douleurs des mains, des poignets et des pieds, raideur matinale de 2 h, toux sèche et dyspnée d'effort (stade 2 mMRC) depuis 6 mois.",
+      "examen_clinique": "10 articulations gonflées, 14 douloureuses ; DAS28-CRP 5,6. Nodules rhumatoïdes aux coudes. Râles crépitants « velcro » aux deux bases. SpO2 95 % au repos. Pas d'hippocratisme digital.",
+      "biologie": "CRP 34 mg/L (N < 5), Hb 11 g/dL, GB 8,2 G/L ; ALAT 30 UI/L ; créatinine 9 mg/L ; IGRA positif ; AgHBs négatif, anti-HBc positifs, anti-HBs négatifs, ADN VHB indétectable ; VHC et VIH négatifs ; glycémie à jeun 1,18 g/L (N 0,70–1,10).",
+      "imagerie": "Radiographie thoracique : opacités réticulaires des bases, pas de caverne, séquelle pleurale gauche. Scanner thoracique haute résolution : pneumopathie interstitielle des bases d'aspect de pneumopathie interstitielle commune (réticulations sous-pleurales, bronchectasies de traction), pas de lésion évocatrice de tuberculose active. EFR : CVF 72 % de la théorique, DLCO 55 %.",
+      "hypotheses_diagnostiques": [
+        "PR active en échec du MTX avec facteurs de mauvais pronostic",
+        "Pneumopathie interstitielle associée à la PR",
+        "Pneumopathie d'hypersensibilité au méthotrexate",
+        "Tuberculose (latente ou active)"
+      ],
+      "diagnostics_differentiels": [
+        "Pneumopathie d'hypersensibilité au MTX (aiguë/subaiguë, fébrile)",
+        "Silicose (exposition professionnelle)",
+        "Tuberculose pulmonaire active",
+        "Insuffisance cardiaque"
+      ],
+      "examens_a_demander": [
+        "Scanner thoracique haute résolution et EFR avec DLCO",
+        "Avis pneumologique (discussion multidisciplinaire)",
+        "Recherche de tuberculose active (expectorations/test moléculaire si toux productive ou image suspecte)",
+        "IGRA (ou IDR)",
+        "Sérologies VHB complètes avec ADN viral, VHC, VIH",
+        "Bilan cardiovasculaire et glycémique",
+        "Ostéodensitométrie (corticothérapie > 3 mois)"
+      ],
+      "diagnostic_final": "PR séropositive érosive active en échec du MTX, compliquée d'une pneumopathie interstitielle diffuse ; infection tuberculeuse latente ; hépatite B résolue (anti-HBc isolés) ; corticodépendance.",
+      "traitement": "Décision en réunion multidisciplinaire rhumatologue-pneumologue. Sevrage tabagique impératif. Traitement de l'infection tuberculeuse latente selon l'instruction nationale ITL 2024 [schéma et durée À VÉRIFIER — protocole national], tuberculose active préalablement exclue. Choix d'une biothérapie à profil pulmonaire jugé favorable (abatacept ou rituximab, options privilégiées par la SFR 2024 en cas de PID) ; avec le rituximab, risque de réactivation du VHB chez un patient anti-HBc positif : prophylaxie antivirale ou surveillance de l'ADN viral selon avis hépatologique. Discussion d'un antifibrosant avec le pneumologue expert. Décroissance progressive de la prednisone, prévention de l'ostéoporose cortisonique. Vaccinations (grippe, pneumocoque, VHB). [Doses : POSOLOGIE À VÉRIFIER — RCP / protocole local]",
+      "surveillance": "Activité de la PR (DAS28/CDAI) tous les 1 à 3 mois ; EFR et DLCO tous les 3 à 6 mois puis selon évolution ; surveillance clinique de la tuberculose sous biothérapie ; ADN VHB et transaminases selon l'avis hépatologique ; glycémie, tension, lipides ; dépistage du cancer bronchique selon le contexte.",
+      "evolution": "À 6 mois : DAS28 à 3,1, prednisone réduite à 5 mg/j, arrêt du tabac obtenu, fonction respiratoire stable (CVF 70 %). Pas de réactivation tuberculeuse ni virale.",
+      "explication_pedagogique": "Ce cas illustre la stratification EULAR (facteurs de mauvais pronostic → bDMARD), l'importance du bilan pré-biothérapie en pays d'endémie tuberculeuse, la gestion du statut VHB, et l'intégration de la PID dans le choix du traitement (SFR 2024).",
+      "questions": [
+        {
+          "question": "Quels sont les facteurs de mauvais pronostic de cette PR ?",
+          "reponse": "Auto-anticorps à titre élevé, érosions, activité élevée, échec du MTX, manifestations extra-articulaires (nodules, PID), tabagisme, sexe masculin."
+        },
+        {
+          "question": "Pourquoi l'IGRA positif ne contre-indique-t-il pas définitivement la biothérapie ?",
+          "reponse": "Il traduit une infection tuberculeuse latente : après exclusion d'une tuberculose active, son traitement selon le protocole national permet ensuite de débuter la biothérapie avec une surveillance."
+        },
+        {
+          "question": "Quel risque fait courir le rituximab chez un patient anti-HBc positif ?",
+          "reponse": "Une réactivation du VHB, potentiellement grave : prophylaxie antivirale ou surveillance de l'ADN viral selon le statut et l'avis spécialisé (EULAR 2022 infections)."
+        },
+        {
+          "question": "Le méthotrexate est-il responsable de la PID ?",
+          "reponse": "Une PID de type pneumopathie interstitielle commune d'installation lente chez un fumeur séropositif évoque d'abord une PID associée à la PR ; la pneumopathie d'hypersensibilité au MTX est plutôt aiguë ou subaiguë, fébrile ; la décision de poursuivre ou non le MTX est prise avec le pneumologue."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Smolen JS et al. EULAR recommendations for the management of RA: 2022 update. Ann Rheum Dis 2023;82(1):3-18",
+          "date": "2023"
+        },
+        {
+          "reference": "Fautrel B et al. 2024 update of the SFR recommendations for RA. Joint Bone Spine 2024;91(6):105790",
+          "date": "2024"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie)/INSP. Manuel de la lutte antituberculeuse à l'usage des personnels médicaux, 2011",
+          "date": "2011"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-RHUM-0903",
+      "titre": "Lombalgies nocturnes et œil rouge chez un étudiant de 23 ans",
+      "niveau": "etudiant",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 23 ans, étudiant en sciences à Tizi Ouzou, non fumeur.",
+      "motif_consultation": "Adressé par l'ophtalmologiste après un second épisode d'uvéite antérieure aiguë, pour des lombalgies chroniques.",
+      "antecedents": "Uvéite antérieure aiguë gauche il y a 1 an, droite il y a 3 semaines (traitées par collyres corticoïdes et mydriatiques). Pas de psoriasis, pas de diarrhée chronique. Père : « rhumatisme du dos ».",
+      "symptomes": "Lombalgies et fessalgies à bascule depuis 3 ans, réveils nocturnes en fin de nuit, raideur matinale de 1 heure, amélioration au sport, talalgie postérieure droite matinale. Ibuprofène très efficace en 2 jours.",
+      "examen_clinique": "Schober 10 → 13 cm ; distance occiput-mur 0 ; ampliation thoracique 3 cm ; douleur à la pression du tendon d'Achille droit ; pas d'arthrite périphérique ; examen cardiaque normal.",
+      "biologie": "CRP 16 mg/L (N < 5) ; VS 24 mm ; NFS normale ; créatinine 9 mg/L ; HLA-B27 positif ; FR et ACPA négatifs.",
+      "imagerie": "Radiographie du bassin : sacro-iliite bilatérale de grade 3 (érosions, condensation, pseudo-élargissement). Rachis lombaire de profil : mise au carré de L1-L2, pas de syndesmophyte.",
+      "hypotheses_diagnostiques": [
+        "Spondylarthrite ankylosante (SpA axiale radiographique)",
+        "SpA associée à une MICI",
+        "Rhumatisme psoriasique axial"
+      ],
+      "diagnostics_differentiels": [
+        "Lombalgie commune",
+        "Sacro-iliite infectieuse (brucellose, tuberculose)",
+        "Ostéite condensante iliaque (non applicable chez l'homme)",
+        "Maladie hyperostosique"
+      ],
+      "examens_a_demander": [
+        "CRP, VS, NFS",
+        "HLA-B27",
+        "Radiographie du bassin de face",
+        "Radiographies du rachis lombaire et dorso-lombaire de profil",
+        "IRM des sacro-iliaques si radiographie douteuse",
+        "ECG",
+        "Sérologies brucelliennes si contexte d'exposition"
+      ],
+      "diagnostic_final": "Spondylarthrite ankylosante (pelvispondylite rhumatismale) : critères de New York modifiés remplis (sacro-iliite bilatérale de grade 3 + lombalgie inflammatoire + limitation lombaire), avec uvéites antérieures aiguës récidivantes et enthésite achilléenne.",
+      "traitement": "Éducation, auto-exercices quotidiens, kinésithérapie ; AINS à dose optimale en continu tant que symptomatique [POSOLOGIE À VÉRIFIER — RCP], surveillance tensionnelle et rénale. Consignes : consultation ophtalmologique en urgence devant tout œil rouge douloureux. Si échec de 2 AINS avec ASDAS ≥ 2,1 : biothérapie, en privilégiant un anticorps monoclonal anti-TNF du fait des uvéites récidivantes (après bilan pré-thérapeutique incluant tuberculose et VHB).",
+      "surveillance": "ASDAS-CRP et BASDAI à chaque consultation ; BASMI, Schober, ampliation thoracique ; radiographies à distance ; surveillance des AINS ; uvéites.",
+      "evolution": "Sous AINS en continu et exercices, ASDAS à 1,8 à 3 mois. Nouvelle uvéite 8 mois plus tard malgré l'AINS ; discussion d'un anti-TNF monoclonal en raison du caractère récidivant.",
+      "explication_pedagogique": "Cas typique de SpA axiale radiographique révélée par des uvéites ; l'ophtalmologiste est un acteur du diagnostic précoce. Le choix d'une éventuelle biothérapie tient compte des manifestations extra-squelettiques.",
+      "questions": [
+        {
+          "question": "Quels critères de lombalgie inflammatoire sont présents ?",
+          "reponse": "Début < 40 ans, insidieux, amélioration par l'exercice, pas par le repos, douleurs nocturnes : 5/5."
+        },
+        {
+          "question": "Les critères de New York modifiés sont-ils remplis ?",
+          "reponse": "Oui : sacro-iliite bilatérale de grade 3 et au moins un critère clinique."
+        },
+        {
+          "question": "Pourquoi éviter l'étanercept si une biothérapie devient nécessaire ?",
+          "reponse": "Les anticorps monoclonaux anti-TNF sont préférés en cas d'uvéite récidivante (ASAS-EULAR 2022)."
+        },
+        {
+          "question": "Que faire devant un nouvel œil rouge douloureux ?",
+          "reponse": "Consultation ophtalmologique en urgence (lampe à fente), traitement local rapide."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        },
+        {
+          "reference": "Sieper J et al. ASAS criteria for inflammatory back pain. Ann Rheum Dis 2009;68(6):784-788",
+          "date": "2009"
+        },
+        {
+          "reference": "van der Linden S et al. Modified New York criteria for ankylosing spondylitis. Arthritis Rheum 1984;27(4):361-368",
+          "date": "1984"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-RHUM-0904",
+      "titre": "Sacro-iliite unilatérale fébrile chez un éleveur : SpA ou infection ?",
+      "niveau": "residanat",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 34 ans, éleveur d'ovins dans la région de Djelfa.",
+      "motif_consultation": "Fessalgie droite intense et fièvre depuis 3 semaines.",
+      "antecedents": "Aucun antécédent. Consommation régulière de lait cru et de fromage frais artisanal.",
+      "symptomes": "Douleur fessière droite irradiant à la face postérieure de la cuisse, d'aggravation progressive, réveils nocturnes, boiterie ; fièvre vespérale à 39 °C avec sueurs abondantes ; arthralgies diffuses ; perte de 4 kg.",
+      "examen_clinique": "T 38,6 °C ; douleur exquise à la pression de la sacro-iliaque droite ; manœuvres sacro-iliaques douloureuses à droite ; hépatosplénomégalie discrète ; testicules normaux ; pas d'arthrite périphérique, pas d'uvéite.",
+      "biologie": "GB 5,1 G/L (N 4–10) avec lymphocytose relative ; CRP 64 mg/L ; VS 55 mm ; ALAT 62 UI/L (N < 40) ; test au rose Bengale positif ; sérologie de Wright 1/320 ; hémocultures (2 flacons sur 3) positives à Brucella spp. (culture prolongée) ; HLA-B27 négatif.",
+      "imagerie": "Radiographie du bassin : flou de l'interligne sacro-iliaque droit. IRM : sacro-iliite droite avec œdème osseux étendu des deux berges, épanchement articulaire et infiltration des parties molles adjacentes ; pas d'abcès.",
+      "hypotheses_diagnostiques": [
+        "Sacro-iliite brucellienne",
+        "Sacro-iliite à pyogènes",
+        "Sacro-iliite tuberculeuse",
+        "SpA axiale débutante"
+      ],
+      "diagnostics_differentiels": [
+        "SpA axiale (bilatérale le plus souvent, non fébrile)",
+        "Sacro-iliite à staphylocoque",
+        "Tuberculose ostéo-articulaire",
+        "Ostéite pubienne ou pyomyosite du psoas"
+      ],
+      "examens_a_demander": [
+        "Hémocultures prolongées (avant antibiotiques)",
+        "Test au rose Bengale et sérologie de Wright",
+        "NFS, CRP, bilan hépatique",
+        "IRM du bassin",
+        "Radiographie thoracique",
+        "Ponction-biopsie guidée si diagnostic incertain",
+        "Déclaration obligatoire et enquête autour du cas"
+      ],
+      "diagnostic_final": "Brucellose aiguë localisée : sacro-iliite brucellienne droite (Brucella spp., hémocultures positives).",
+      "traitement": "Antibiothérapie prolongée associant deux antibiotiques actifs selon les recommandations en vigueur (par exemple doxycycline associée à un aminoside ou à la rifampicine, durée prolongée pour une forme ostéo-articulaire) [POSOLOGIE À VÉRIFIER — RCP / protocole national] ; antalgiques ; repos relatif puis rééducation ; déclaration obligatoire ; conseils d'hygiène (pasteurisation ou ébullition du lait) ; information des services vétérinaires.",
+      "surveillance": "Courbe thermique, douleurs, CRP, bilan hépatique (tolérance), IRM de contrôle en cas d'évolution défavorable ; surveillance des rechutes pendant plusieurs mois.",
+      "evolution": "Apyrexie en 10 jours, régression progressive des douleurs ; CRP normalisée à 6 semaines ; pas de rechute à 6 mois.",
+      "explication_pedagogique": "Ce cas rappelle qu'en Algérie, une sacro-iliite unilatérale fébrile est une brucellose (ou une infection) jusqu'à preuve du contraire. Un traitement de SpA (a fortiori un anti-TNF) serait délétère. Le HLA-B27 n'a ici aucun intérêt diagnostique.",
+      "questions": [
+        {
+          "question": "Quels éléments s'opposent à une SpA axiale ?",
+          "reponse": "Caractère unilatéral et aigu, fièvre élevée, sueurs, hépatosplénomégalie, exposition au lait cru, syndrome inflammatoire important."
+        },
+        {
+          "question": "Quel est l'examen de certitude ?",
+          "reponse": "L'isolement de Brucella en hémoculture (ou dans un prélèvement ostéo-articulaire) ; les sérologies sont des arguments forts."
+        },
+        {
+          "question": "Pourquoi une biothérapie anti-TNF serait-elle dangereuse ?",
+          "reponse": "Elle aggraverait une infection granulomateuse non contrôlée (brucellose, tuberculose)."
+        },
+        {
+          "question": "Quelle mesure de santé publique est obligatoire ?",
+          "reponse": "La déclaration de la brucellose, maladie à déclaration obligatoire, et l'enquête sur l'origine (cheptel, produits laitiers)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        },
+        {
+          "reference": "Ariza J et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med 2007 [référence à vérifier]",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT-0901",
+      "titre": "Arthralgies, éruption du visage et leucopénie chez une jeune femme",
+      "niveau": "generaliste",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 26 ans, employée de banque à Béjaïa, non fumeuse.",
+      "motif_consultation": "Douleurs articulaires et rougeur du visage depuis 3 mois.",
+      "antecedents": "Pas d'antécédent ; pas de prise médicamenteuse hormis une contraception œstroprogestative ; pas de fausse couche ni de thrombose.",
+      "symptomes": "Arthralgies inflammatoires des mains et des genoux, asthénie, rougeur du visage apparue après l'été et aggravée par le soleil, chute de cheveux diffuse, aphtes indolores du palais.",
+      "examen_clinique": "Érythème des pommettes et du nez respectant les sillons naso-géniens ; synovites de 2 IPP ; alopécie diffuse non cicatricielle ; ulcération palatine ; auscultation cardio-pulmonaire normale ; TA 118/72 mmHg ; pas d'œdème.",
+      "biologie": "Leucocytes 3,2 G/L (N 4–10), lymphocytes 0,9 G/L, Hb 12,1 g/dL, plaquettes 180 G/L ; VS 40 mm, CRP 4 mg/L ; créatinine 6 mg/L ; bandelette urinaire négative, protéinurie/créatininurie 0,1 g/g ; AAN 1/640 homogènes ; anti-ADN natif 85 UI/mL (N < 30) ; anti-Sm négatifs ; anti-SSA négatifs ; C3 0,82 g/L (N 0,9–1,8), C4 0,12 g/L (N 0,1–0,4) ; antiphospholipides négatifs.",
+      "imagerie": "Radiographies des mains normales ; radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Lupus systémique cutanéo-articulaire",
+        "Polyarthrite rhumatoïde débutante",
+        "Polyarthrite virale"
+      ],
+      "diagnostics_differentiels": [
+        "Polyarthrite rhumatoïde",
+        "Parvovirus B19",
+        "Lupus induit",
+        "Rosacée et arthralgies non spécifiques"
+      ],
+      "examens_a_demander": [
+        "NFS, VS, CRP",
+        "AAN puis anti-ADN natif, anti-Sm, anti-SSA/SSB, anti-RNP",
+        "C3, C4",
+        "Antiphospholipides",
+        "Bandelette urinaire, protéinurie/créatininurie, créatinine",
+        "Examen ophtalmologique de référence avant HCQ",
+        "Sérologies VHB, VHC, VIH"
+      ],
+      "diagnostic_final": "Lupus érythémateux systémique cutanéo-articulaire (score EULAR/ACR 2019 : lupus cutané aigu 6 + articulaire 6 + leucopénie 3 + anti-ADN 6 + C3 bas 3 = 24 ≥ 10), sans atteinte rénale.",
+      "traitement": "Hydroxychloroquine 5 mg/kg de poids réel/j (EULAR 2023) [arrondi selon formes disponibles — POSOLOGIE À VÉRIFIER — RCP] ; photoprotection stricte ; corticothérapie orale à faible dose de courte durée si arthrite gênante [POSOLOGIE À VÉRIFIER] ; arrêt de la contraception œstroprogestative au profit d'une méthode adaptée (dispositif intra-utérin ou progestatif) après évaluation ; vaccinations à jour ; éducation thérapeutique.",
+      "surveillance": "Consultation à 1 mois puis tous les 3 mois : clinique, TA, bandelette urinaire et protéinurie à chaque visite, NFS, C3/C4, anti-ADN ; examen ophtalmologique de référence puis annuel après 5 ans d'HCQ.",
+      "evolution": "Amélioration cutanée et articulaire en 3 mois ; leucocytes 4,1 G/L ; pas de protéinurie à 1 an.",
+      "explication_pedagogique": "Forme typique de lupus cutanéo-articulaire de la femme jeune ; l'HCQ et la photoprotection en sont le socle ; la surveillance urinaire systématique dépiste une néphropathie silencieuse.",
+      "questions": [
+        {
+          "question": "Quel critère est indispensable pour appliquer les critères EULAR/ACR 2019 ?",
+          "reponse": "Des AAN ≥ 1/80 sur cellules HEp-2 (critère d'entrée)."
+        },
+        {
+          "question": "Pourquoi la CRP est-elle normale ?",
+          "reponse": "La CRP est souvent peu élevée au cours des poussées lupiques ; son élévation doit faire rechercher une infection ou une sérite."
+        },
+        {
+          "question": "Pourquoi changer de contraception ?",
+          "reponse": "Les œstrogènes peuvent favoriser les poussées et sont contre-indiqués en cas d'antiphospholipides ; une méthode sans œstrogène est préférable chez la patiente lupique (EULAR 2017)."
+        },
+        {
+          "question": "Quel examen urinaire répéter à chaque consultation ?",
+          "reponse": "La bandelette et le rapport protéinurie/créatininurie, pour dépister une néphropathie lupique."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Aringer M et al. 2019 EULAR/ACR classification criteria for SLE. Ann Rheum Dis 2019;78(9):1151-1159",
+          "date": "2019"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Marmor MF et al. Recommendations on screening for hydroxychloroquine retinopathy (2016 revision). Ophthalmology 2016;123(6):1386-1394",
+          "date": "2016"
+        },
+        {
+          "reference": "Andreoli L et al. EULAR recommendations for women's health and pregnancy in SLE and/or APS. Ann Rheum Dis 2017;76(3):476-485",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT-0902",
+      "titre": "Fièvre et toux chez une patiente lupique sous immunosuppresseurs : poussée ou infection ?",
+      "niveau": "residanat",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 31 ans, mère au foyer à Batna.",
+      "motif_consultation": "Fièvre à 39 °C et toux depuis 3 semaines.",
+      "antecedents": "LES avec néphropathie de classe IV diagnostiqué il y a 8 mois ; traitement : HCQ, mycophénolate, prednisone 15 mg/j (décroissance en cours). Dépistage de la tuberculose latente non réalisé avant le traitement. Frère traité pour tuberculose pulmonaire l'an dernier.",
+      "symptomes": "Fièvre vespérale, sueurs nocturnes, toux productive, amaigrissement de 4 kg ; pas d'éruption, pas d'arthralgies, pas d'œdème.",
+      "examen_clinique": "T 38,8 °C, FR 22/min, SpO2 95 % ; râles crépitants apicaux droits ; pas d'érythème, pas de synovite, pas de frottement ; TA 124/78 mmHg.",
+      "biologie": "Leucocytes 9,8 G/L (neutrophiles 8,1), lymphocytes 0,6 G/L ; Hb 11,2 g/dL ; CRP 96 mg/L ; créatinine 7 mg/L ; protéinurie/créatininurie 0,3 g/g (stable) ; C3 et C4 normaux ; anti-ADN natif 35 UI/mL (stables) ; procalcitonine 0,2 ng/mL. Expectorations : BAAR positifs à l'examen direct ; test moléculaire : M. tuberculosis détecté, résistance à la rifampicine non détectée. Sérologie VIH négative.",
+      "imagerie": "Radiographie thoracique : infiltrat excavé du lobe supérieur droit.",
+      "hypotheses_diagnostiques": [
+        "Tuberculose pulmonaire",
+        "Pneumonie bactérienne",
+        "Pneumopathie lupique",
+        "Pneumocystose"
+      ],
+      "diagnostics_differentiels": [
+        "Poussée lupique (sérite, pneumopathie lupique)",
+        "Pneumonie à pneumocoque",
+        "Pneumocystose",
+        "Pneumopathie médicamenteuse"
+      ],
+      "examens_a_demander": [
+        "Hémocultures",
+        "Expectorations : microscopie, test moléculaire, culture",
+        "Radiographie ± scanner thoracique",
+        "CRP, procalcitonine",
+        "C3, C4, anti-ADN, protéinurie (activité lupique)",
+        "Sérologie VIH"
+      ],
+      "diagnostic_final": "Tuberculose pulmonaire bactériologiquement confirmée, rifampicine sensible, chez une patiente lupique immunodéprimée ; pas de poussée lupique (complément normal, anti-ADN stables, protéinurie stable).",
+      "traitement": "Traitement antituberculeux selon le schéma national (directives 2024) [POSOLOGIE À VÉRIFIER — protocole national] ; déclaration et enquête autour du cas ; isolement respiratoire initial. Ajustement de l'immunosuppression en concertation (réduction du mycophénolate pendant la phase initiale selon la gravité), maintien de l'HCQ et d'une corticothérapie à la dose minimale ; attention aux interactions de la rifampicine (inducteur enzymatique : baisse de l'efficacité des corticoïdes, nécessitant souvent une adaptation de dose) [À VÉRIFIER — RCP].",
+      "surveillance": "Tolérance hépatique des antituberculeux ; contrôle bactériologique selon le programme national ; activité lupique (protéinurie, complément, anti-ADN) mensuelle pendant l'ajustement de l'immunosuppression.",
+      "evolution": "Apyrexie en 2 semaines ; examen microscopique négatif à 2 mois ; pas de poussée rénale ; reprise de la dose pleine de mycophénolate après la phase initiale selon l'avis spécialisé.",
+      "explication_pedagogique": "Chez une patiente lupique sous immunosuppresseurs en Algérie, toute fièvre impose de rechercher une infection, et notamment une tuberculose. Une CRP élevée avec complément normal et anti-ADN stables oriente vers l'infection plutôt que vers la poussée. Le dépistage de l'ITL aurait dû précéder l'immunosuppression (EULAR 2022, instruction nationale 2024).",
+      "questions": [
+        {
+          "question": "Quels arguments s'opposent à une poussée lupique ?",
+          "reponse": "Complément normal, anti-ADN stables, protéinurie stable, absence de signes cutanés ou articulaires, CRP très élevée, contage tuberculeux."
+        },
+        {
+          "question": "Quelle erreur de prévention a été commise ?",
+          "reponse": "L'absence de dépistage de la tuberculose latente avant l'immunosuppression, alors que la patiente avait un contage familial."
+        },
+        {
+          "question": "Quelle interaction médicamenteuse surveiller ?",
+          "reponse": "La rifampicine, inducteur enzymatique, diminue l'exposition aux corticoïdes et à d'autres médicaments ; adaptation selon l'avis spécialisé et le RCP."
+        },
+        {
+          "question": "Pourquoi ne pas arrêter l'hydroxychloroquine ?",
+          "reponse": "Elle n'est pas immunosuppressive, réduit le risque de poussée et améliore la survie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        },
+        {
+          "reference": "Alharbi S, Aljohani R. Mortality and survival in SLE in the MENA region: meta-analysis. Rheumatol Int 2026;46(7):161",
+          "date": "2026"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT-0903",
+      "titre": "Projet de grossesse chez une patiente lupique avec syndrome des antiphospholipides",
+      "niveau": "dems",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-101",
+        "RES-MED-154"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 33 ans, enseignante à Tlemcen, mariée.",
+      "motif_consultation": "Consultation pré-conceptionnelle.",
+      "antecedents": "LES diagnostiqué à 25 ans (atteinte cutanéo-articulaire et péricardite), SAPL thrombotique (thrombose veineuse profonde fémorale il y a 4 ans) avec triple positivité (anticoagulant lupique, anticardiolipine et anti-β2GP1 à titres élevés) ; anti-SSA positifs. Traitement : HCQ 300 mg/j, warfarine (INR cible 2–3), prednisone 5 mg/j, méthotrexate 15 mg/semaine. Une fausse couche à 9 SA il y a 6 ans.",
+      "symptomes": "Aucun symptôme depuis 18 mois.",
+      "examen_clinique": "Poids 60 kg ; TA 120/75 mmHg ; pas de lésion cutanée, pas de synovite.",
+      "biologie": "NFS normale ; créatinine 6 mg/L ; protéinurie/créatininurie 0,08 g/g ; C3 et C4 normaux ; anti-ADN natif négatifs ; anti-SSA positifs.",
+      "imagerie": "Échocardiographie : pas de valvulopathie, pression artérielle pulmonaire normale.",
+      "hypotheses_diagnostiques": [
+        "Lupus quiescent depuis plus de 6 mois",
+        "SAPL thrombotique triple positif",
+        "Grossesse à haut risque"
+      ],
+      "diagnostics_differentiels": [
+        "Sans objet (consultation préconceptionnelle)"
+      ],
+      "examens_a_demander": [
+        "Évaluation de l'activité lupique (clinique, urines, complément, anti-ADN)",
+        "Fonction rénale et protéinurie de référence",
+        "Profil antiphospholipide",
+        "Anti-SSA/SSB",
+        "Tension artérielle",
+        "Avis conjoint rhumatologue/interniste, obstétricien et hématologue"
+      ],
+      "diagnostic_final": "Projet de grossesse chez une patiente lupique en rémission prolongée, avec SAPL thrombotique triple positif et anti-SSA positifs.",
+      "traitement": "Grossesse autorisée car maladie inactive depuis plus de 6 mois (EULAR 2017). Arrêt du méthotrexate avant la conception (tératogène) et relais si besoin par azathioprine ; poursuite de l'HCQ ; corticothérapie à dose minimale. Anticoagulation : remplacement de la warfarine (tératogène) par une héparine de bas poids moléculaire à dose curative, idéalement dès le test de grossesse positif et avant la 6e semaine d'aménorrhée, en association à l'aspirine à faible dose selon l'avis spécialisé (EULAR SAPL 2019) [POSOLOGIES À VÉRIFIER — RCP / protocole local]. Pas d'anticoagulant oral direct (triple positivité). Contraception sans œstrogène en attendant.",
+      "surveillance": "Suivi mensuel conjoint : TA, protéinurie, NFS, complément, anti-ADN ; dépistage de la pré-éclampsie ; échocardiographie fœtale et surveillance du rythme cardiaque fœtal entre environ 16 et 26 SA du fait des anti-SSA [calendrier À VÉRIFIER — protocole local] ; échographies de croissance ; reprise des AVK en post-partum.",
+      "evolution": "Grossesse menée à 37 SA, enfant sans bloc auriculo-ventriculaire ; poussée cutanée modérée du post-partum contrôlée par l'HCQ et une courte corticothérapie ; reprise de la warfarine en post-partum.",
+      "explication_pedagogique": "Ce cas synthétise la préparation d'une grossesse lupique : planification en rémission, poursuite de l'HCQ, relais des médicaments tératogènes (méthotrexate, AVK), gestion du SAPL triple positif (pas d'AOD) et surveillance spécifique liée aux anti-SSA.",
+      "questions": [
+        {
+          "question": "Quels médicaments sont tératogènes chez cette patiente ?",
+          "reponse": "Le méthotrexate et la warfarine (embryopathie aux AVK)."
+        },
+        {
+          "question": "Pourquoi éviter un anticoagulant oral direct ?",
+          "reponse": "Le SAPL est triple positif : les AOD (rivaroxaban) y sont associés à plus de récidives thrombotiques artérielles (EULAR 2019)."
+        },
+        {
+          "question": "Quel risque fœtal est lié aux anti-SSA ?",
+          "reponse": "Le lupus néonatal et le bloc auriculo-ventriculaire congénital, d'où la surveillance cardiaque fœtale."
+        },
+        {
+          "question": "Quelle condition préalable à la conception ?",
+          "reponse": "Une maladie inactive depuis au moins 6 mois, sous traitement compatible avec la grossesse."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Andreoli L et al. EULAR recommendations for women's health and pregnancy in SLE and/or APS. Ann Rheum Dis 2017;76(3):476-485",
+          "date": "2017"
+        },
+        {
+          "reference": "Tektonidou MG et al. EULAR recommendations for the management of APS in adults. Ann Rheum Dis 2019;78(10):1296-1304",
+          "date": "2019"
+        },
+        {
+          "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT-0904",
+      "titre": "Aphtes buccaux et génitaux récidivants chez un étudiant de 22 ans",
+      "niveau": "generaliste",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-158"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 22 ans, étudiant à Constantine.",
+      "motif_consultation": "Aphtes buccaux très douloureux récidivants et ulcération scrotale.",
+      "antecedents": "Aphtes buccaux depuis l'âge de 17 ans, 5 à 6 poussées par an ; pas de médicament ; pas de rapport sexuel à risque récent.",
+      "symptomes": "Poussée actuelle de 4 aphtes buccaux gênant l'alimentation ; ulcération scrotale douloureuse depuis 8 jours ; « boutons » du dos ; douleur et gonflement du genou droit depuis 1 semaine. Pas de troubles visuels, pas de céphalées, pas de signes digestifs, pas de douleur de mollet.",
+      "examen_clinique": "Aphtes de 5 à 8 mm à fond jaunâtre et halo rouge (lèvres, joues) ; ulcération scrotale à bords nets, deux cicatrices anciennes ; papulo-pustules du dos et des cuisses ; épanchement du genou droit ; mollets souples ; examen neurologique normal.",
+      "biologie": "CRP 22 mg/L ; NFS normale (pas de neutropénie) ; ferritine, folates et vitamine B12 normaux ; TPHA-VDRL négatifs ; sérologie VIH négative ; PCR herpès sur l'ulcération négative. Test pathergique positif à 48 h. Liquide articulaire inflammatoire stérile, sans cristaux.",
+      "imagerie": "Radiographie du genou normale ; radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Maladie de Behçet cutanéo-muqueuse et articulaire",
+        "Aphtose commune",
+        "Herpès génital"
+      ],
+      "diagnostics_differentiels": [
+        "Herpès génital",
+        "Syphilis",
+        "Maladie de Crohn",
+        "Arthrite réactionnelle",
+        "Neutropénie cyclique"
+      ],
+      "examens_a_demander": [
+        "NFS (répétée si besoin), bilan martial, folates, B12",
+        "PCR herpès et sérologie syphilitique",
+        "Sérologie VIH",
+        "Ponction articulaire",
+        "Examen ophtalmologique complet (lampe à fente et fond d'œil)",
+        "Test pathergique"
+      ],
+      "diagnostic_final": "Maladie de Behçet cutanéo-muqueuse et articulaire (ISG 1990 : aphtose buccale récidivante + aphtose génitale + lésions cutanées + pathergie ; ICBD 2014 : 2 + 2 + 1 + 1 = 6), sans atteinte oculaire ni vasculaire.",
+      "traitement": "Soins locaux (bains de bouche, corticoïde topique sur les aphtes) ; colchicine en première intention pour prévenir les récidives cutanéo-muqueuses et traiter l'arthrite [POSOLOGIE À VÉRIFIER — RCP] ; infiltration du genou possible ; soins dentaires et hygiène bucco-dentaire ; information sur les signes d'alerte (baisse de vision, œil rouge, céphalées, douleur de mollet, hémoptysie).",
+      "surveillance": "Consultation à 1 puis 3 mois ; examen ophtalmologique de référence puis régulier ; tolérance digestive de la colchicine, NFS et créatinine.",
+      "evolution": "Diminution de la fréquence des aphtes ; disparition de l'arthrite en 3 semaines ; examen ophtalmologique normal à 1 an.",
+      "explication_pedagogique": "Forme typique de l'homme jeune, à ce stade sans atteinte grave. Le diagnostic est clinique après élimination des causes d'ulcérations (herpès, syphilis, carences, neutropénie). La colchicine est la base ; l'examen ophtalmologique doit être systématique et répété car l'atteinte oculaire est fréquente dans les séries maghrébines.",
+      "questions": [
+        {
+          "question": "Quels critères ISG sont remplis ?",
+          "reponse": "Aphtose buccale récidivante (obligatoire) + aphtose génitale + lésions cutanées + test pathergique positif."
+        },
+        {
+          "question": "Pourquoi rechercher un herpès et une syphilis ?",
+          "reponse": "Ce sont les principaux diagnostics différentiels des ulcérations génitales."
+        },
+        {
+          "question": "Quel examen est indispensable même sans plainte visuelle ?",
+          "reponse": "Un examen ophtalmologique complet (lampe à fente et fond d'œil)."
+        },
+        {
+          "question": "Quel est le traitement de première intention ?",
+          "reponse": "La colchicine, associée aux soins locaux (EULAR 2018, PNDS 2019)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "International Study Group for Behçet's Disease. Criteria for diagnosis of Behçet's disease. Lancet 1990;335(8697):1078-1080",
+          "date": "1990"
+        },
+        {
+          "reference": "ITR-ICBD. The International Criteria for Behçet's Disease (ICBD). J Eur Acad Dermatol Venereol 2014;28(3):338-347",
+          "date": "2014"
+        },
+        {
+          "reference": "Hatemi G et al. 2018 update of the EULAR recommendations for the management of Behçet's syndrome. Ann Rheum Dis 2018;77(6):808-818",
+          "date": "2018"
+        },
+        {
+          "reference": "HAS / FAI²R. PNDS Maladie de Behçet, décembre 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "Ghembaza ME et al. Behçet disease in Western Algeria. Med Sante Trop 2017;27(1):101-104",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MINT-0905",
+      "titre": "Hémoptysie chez un homme jeune anticoagulé pour une thrombose veineuse",
+      "niveau": "dems",
+      "specialite": "MINT",
+      "items_residanat": [
+        "RES-MED-158"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 30 ans, chauffeur à Sidi Bel Abbès, fumeur.",
+      "motif_consultation": "Hémoptysies de moyenne abondance depuis 48 heures.",
+      "antecedents": "Thrombose veineuse profonde fémoro-poplitée gauche il y a 2 mois, traitée par anticoagulant oral (bilan de thrombophilie et antiphospholipides négatifs). Aphtes buccaux récidivants depuis 10 ans, « boutons » du scrotum non explorés. Père ayant eu une « maladie des yeux ».",
+      "symptomes": "Hémoptysies (environ 100 mL sur 24 h), fièvre à 38,3 °C, douleur thoracique droite, dyspnée modérée.",
+      "examen_clinique": "T 38,3 °C ; FC 104/min ; TA 128/76 mmHg ; SpO2 93 % en air ; aphtes buccaux ; cicatrice scrotale ; pseudo-folliculite ; œdème résiduel du membre inférieur gauche.",
+      "biologie": "Hb 11,4 g/dL ; GB 11 G/L ; CRP 85 mg/L ; INR 2,6 sous AVK ; créatinine 9 mg/L ; IGRA négatif ; expectorations : pas de BAAR (microscopie et test moléculaire négatifs) ; sérologies VHB, VHC, VIH négatives.",
+      "imagerie": "Angioscanner thoracique : deux anévrismes de l'artère pulmonaire lobaire inférieure droite (2,5 cm) et segmentaire gauche, partiellement thrombosés ; pas d'embolie pulmonaire ; verre dépoli péri-lésionnel (hémorragie).",
+      "hypotheses_diagnostiques": [
+        "Maladie de Behçet vasculaire avec anévrismes des artères pulmonaires (association thrombose veineuse – anévrismes pulmonaires)",
+        "Embolie pulmonaire sous anticoagulant",
+        "Tuberculose pulmonaire"
+      ],
+      "diagnostics_differentiels": [
+        "Embolie pulmonaire",
+        "Tuberculose pulmonaire excavée",
+        "Anévrisme mycotique (endocardite)",
+        "Pneumopathie infectieuse"
+      ],
+      "examens_a_demander": [
+        "Angioscanner thoracique en urgence",
+        "Hémostase, groupe sanguin",
+        "Recherche de tuberculose (expectorations, test moléculaire)",
+        "Hémocultures et échocardiographie (anévrisme mycotique)",
+        "Examen ophtalmologique",
+        "Bilan pré-immunosuppresseur (IGRA, VHB, VHC, VIH)"
+      ],
+      "diagnostic_final": "Maladie de Behçet avec atteinte vasculaire majeure : anévrismes des artères pulmonaires compliqués d'hémoptysie, survenant après une thrombose veineuse profonde (ICBD : buccal 2 + génital 2 + peau 1 + vasculaire 1 = 6).",
+      "traitement": "Hospitalisation en soins intensifs ; arrêt de l'anticoagulation et antagonisation selon l'avis spécialisé ; glucocorticoïdes à forte dose (bolus IV puis relais oral) associés au cyclophosphamide IV (EULAR 2018) [POSOLOGIES À VÉRIFIER — protocole] ; anti-TNF monoclonal en cas de forme réfractaire après dépistage tuberculeux ; embolisation artérielle en urgence si hémoptysie grave ou persistante ; colchicine pour la composante cutanéo-muqueuse ; arrêt du tabac ; contraception non applicable ; préservation de la fertilité à discuter avant cyclophosphamide.",
+      "surveillance": "Hémoptysies, hémoglobine ; angioscanner de contrôle à 3–6 mois ; tolérance du cyclophosphamide (NFS, urines) ; infections ; examen ophtalmologique ; relais par un immunosuppresseur d'entretien (azathioprine) selon l'évolution.",
+      "evolution": "Arrêt des hémoptysies en 72 h sans embolisation ; réduction de taille des anévrismes à 6 mois ; relais par azathioprine ; pas de nouvelle thrombose.",
+      "explication_pedagogique": "Ce cas illustre le piège majeur de la maladie de Behçet vasculaire : une hémoptysie chez un patient thrombosé n'est pas une embolie pulmonaire jusqu'à preuve du contraire ; l'anticoagulation peut être fatale en présence d'anévrismes artériels pulmonaires. Le traitement repose sur l'immunosuppression intensive (glucocorticoïdes + cyclophosphamide). Il souligne aussi l'intérêt de rechercher les signes de Behçet (aphtes, cicatrices scrotales) devant toute thrombose veineuse de l'homme jeune.",
+      "questions": [
+        {
+          "question": "Quel examen fallait-il faire devant l'hémoptysie ?",
+          "reponse": "Un angioscanner thoracique en urgence, à la recherche d'un anévrisme artériel pulmonaire (et d'une embolie)."
+        },
+        {
+          "question": "Pourquoi arrêter l'anticoagulant ?",
+          "reponse": "Les anévrismes artériels pulmonaires exposent à une hémoptysie massive potentiellement mortelle, aggravée par l'anticoagulation."
+        },
+        {
+          "question": "Quel est le traitement de fond recommandé ?",
+          "reponse": "Glucocorticoïdes à forte dose et cyclophosphamide ; anti-TNF si réfractaire ; embolisation si hémoptysie grave (EULAR 2018)."
+        },
+        {
+          "question": "Quelle erreur initiale a été commise lors de la thrombose veineuse ?",
+          "reponse": "Ne pas avoir recherché une maladie de Behçet (aphtes, cicatrices scrotales) et avoir traité par anticoagulant seul, sans immunosuppresseur ni recherche d'anévrisme."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "ITR-ICBD. The International Criteria for Behçet's Disease (ICBD). J Eur Acad Dermatol Venereol 2014;28(3):338-347",
+          "date": "2014"
+        },
+        {
+          "reference": "Hatemi G et al. 2018 update of the EULAR recommendations for the management of Behçet's syndrome. Ann Rheum Dis 2018;77(6):808-818",
+          "date": "2018"
+        },
+        {
+          "reference": "HAS / FAI²R. PNDS Maladie de Behçet, décembre 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-DERM-0901",
+      "titre": "Éruption de petites plaques squameuses du tronc chez un lycéen de 17 ans",
+      "niveau": "etudiant",
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-011"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 17 ans, lycéen à Médéa.",
+      "motif_consultation": "Éruption de « petits boutons rouges qui pèlent » sur le tronc et les cuisses depuis 10 jours.",
+      "antecedents": "Angine fébrile il y a 3 semaines, non traitée par antibiotique. Mère atteinte de psoriasis du cuir chevelu. Pas de médicament en cours. Pas de rapport sexuel.",
+      "symptomes": "Éruption peu prurigineuse, apparue en quelques jours, sans fièvre actuelle.",
+      "examen_clinique": "Une centaine de petites papules et plaques érythémato-squameuses de 3 à 8 mm, bien limitées, sur le tronc et la racine des membres ; grattage de Brocq positif ; pas de médaillon initial ; paumes et plantes indemnes ; pas d'adénopathie ; ongles normaux ; amygdales érythémateuses.",
+      "biologie": "Prélèvement de gorge : streptocoque du groupe A ; ASLO 600 UI/mL (N < 200). TPHA-VDRL négatifs.",
+      "imagerie": "Aucune.",
+      "hypotheses_diagnostiques": [
+        "Psoriasis en gouttes post-streptococcique",
+        "Pityriasis rosé de Gibert",
+        "Syphilis secondaire"
+      ],
+      "diagnostics_differentiels": [
+        "Pityriasis rosé de Gibert",
+        "Syphilis secondaire",
+        "Toxidermie",
+        "Parapsoriasis"
+      ],
+      "examens_a_demander": [
+        "Prélèvement de gorge et/ou ASLO",
+        "Sérologie syphilitique (TPHA-VDRL)",
+        "Biopsie seulement si doute"
+      ],
+      "diagnostic_final": "Psoriasis en gouttes déclenché par une angine streptococcique, sur terrain familial.",
+      "traitement": "Traitement de l'angine streptococcique selon les recommandations [POSOLOGIE À VÉRIFIER — protocole national] ; émollients ; topiques (dermocorticoïde ou association calcipotriol + bétaméthasone) sur les lésions les plus gênantes [POSOLOGIE À VÉRIFIER — RCP] ; photothérapie UVB à spectre étroit si éruption étendue et persistante ; information sur la nature chronique possible du psoriasis et les facteurs déclenchants.",
+      "surveillance": "Consultation à 6–8 semaines ; surveillance de l'évolution vers un psoriasis en plaques ; recherche ultérieure d'atteinte unguéale ou articulaire.",
+      "evolution": "Régression quasi complète en 2 mois ; apparition, 2 ans plus tard, de plaques des coudes : psoriasis en plaques débutant.",
+      "explication_pedagogique": "Forme classique de l'adolescent : diagnostic clinique, facteur déclenchant streptococcique, terrain génétique. Le diagnostic différentiel principal (pityriasis rosé, syphilis secondaire) se règle par l'examen et une sérologie.",
+      "questions": [
+        {
+          "question": "Quel facteur déclenchant rechercher ?",
+          "reponse": "Une infection streptococcique récente (angine), par prélèvement de gorge ou ASLO."
+        },
+        {
+          "question": "Comment distinguer un pityriasis rosé ?",
+          "reponse": "Présence d'un médaillon initial, disposition en « sapin de Noël », régression spontanée en 6 à 8 semaines."
+        },
+        {
+          "question": "Pourquoi demander une sérologie syphilitique ?",
+          "reponse": "La syphilis secondaire peut donner des syphilides psoriasiformes ; elle est curable."
+        },
+        {
+          "question": "Quelle évolution annoncer ?",
+          "reponse": "Régression possible, mais risque d'évolution vers un psoriasis chronique, surtout en présence d'antécédents familiaux."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Nast A et al. EuroGuiDerm Guideline on the systemic treatment of Psoriasis vulgaris – Part 1. J Eur Acad Dermatol Venereol 2020;34(11):2461-2498",
+          "date": "2020"
+        },
+        {
+          "reference": "Ammar-Khodja A et al. EPIMAG: epidemiological psoriasis study in the Maghreb. Dermatology 2015;231(2):134-144",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-DERM-0902",
+      "titre": "Fièvre et pustules généralisées après arrêt de corticoïdes chez une femme de 38 ans",
+      "niveau": "dems",
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-011"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 38 ans, couturière à Tiaret, deux enfants, désir d'une troisième grossesse.",
+      "motif_consultation": "Fièvre à 39,5 °C et éruption pustuleuse généralisée depuis 48 heures.",
+      "antecedents": "Psoriasis en plaques depuis 15 ans, traité par topiques. Il y a 3 semaines, injection de corticoïde retard puis prednisone orale 40 mg/j pendant 10 jours prescrits pour une « allergie cutanée », arrêtés brutalement il y a 5 jours.",
+      "symptomes": "Fièvre, frissons, brûlures cutanées, asthénie intense, arthralgies.",
+      "examen_clinique": "T 39,4 °C ; FC 112/min ; TA 105/65 mmHg ; érythème diffus du tronc et des membres couvert de pustules de 1 à 2 mm confluant en nappes (« lacs de pus ») ; langue géographique ; pas d'atteinte muqueuse érosive ; pas de signe de Nikolsky.",
+      "biologie": "GB 21 G/L (neutrophiles 18 G/L) ; CRP 180 mg/L ; albuminémie 28 g/L ; calcémie corrigée 2,05 mmol/L (N 2,20–2,60) ; créatinine 11 mg/L ; ALAT 45 UI/L ; hémocultures stériles ; prélèvement d'une pustule : examen direct sans germe, culture stérile ; β-hCG négatif.",
+      "imagerie": "Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Psoriasis pustuleux généralisé (von Zumbusch) déclenché par le sevrage cortisonique",
+        "Pustulose exanthématique aiguë généralisée (toxidermie)",
+        "Sepsis à point de départ cutané"
+      ],
+      "diagnostics_differentiels": [
+        "Pustulose exanthématique aiguë généralisée (médicament introduit quelques jours avant)",
+        "Infection bactérienne cutanée (impétigo, folliculite)",
+        "Syndrome de Sweet",
+        "Toxidermie grave"
+      ],
+      "examens_a_demander": [
+        "NFS, CRP, ionogramme, calcémie, albuminémie, fonction rénale et hépatique",
+        "Hémocultures",
+        "Prélèvement bactériologique d'une pustule",
+        "Biopsie cutanée (pustules spongiformes de Kogoj)",
+        "Test de grossesse",
+        "Bilan pré-thérapeutique (tuberculose, VHB, VHC, VIH) avant traitement systémique"
+      ],
+      "diagnostic_final": "Psoriasis pustuleux généralisé (type von Zumbusch) déclenché par l'arrêt brutal d'une corticothérapie générale.",
+      "traitement": "Hospitalisation ; réhydratation, correction des troubles hydro-électrolytiques et de l'hypocalcémie, surveillance hémodynamique ; émollients et soins locaux ; pas de reprise d'une corticothérapie générale. Traitement systémique : spésolimab (anti-IL-36R) si disponible [S10] ; à défaut ciclosporine en induction courte, ou biothérapie (anti-TNF, anti-IL-17) après bilan infectieux [POSOLOGIES À VÉRIFIER — RCP]. L'acitrétine, efficace dans les formes pustuleuses, est ici peu adaptée en raison du projet de grossesse (tératogénicité prolongée après l'arrêt). Dépistage de l'ITL avant biothérapie selon l'instruction nationale [S12].",
+      "surveillance": "Courbe thermique, état hémodynamique, ionogramme, calcémie, albuminémie, fonction rénale (ciclosporine), tension artérielle ; réponse cutanée quotidienne ; plan de traitement d'entretien adapté au projet de grossesse.",
+      "evolution": "Apyrexie en 72 heures et disparition des pustules en 1 semaine ; relais par un traitement d'entretien compatible avec un futur projet de grossesse (discussion d'une biothérapie adaptée, par exemple certolizumab pegol) en concertation.",
+      "explication_pedagogique": "Ce cas illustre le danger majeur des corticoïdes généraux dans le psoriasis, la reconnaissance d'une urgence dermatologique (pustules amicrobiennes, fièvre, hyperleucocytose, hypocalcémie) et l'importance du terrain (projet de grossesse) dans le choix du traitement.",
+      "questions": [
+        {
+          "question": "Quel est le facteur déclenchant ?",
+          "reponse": "L'arrêt brutal d'une corticothérapie générale (et l'injection retard)."
+        },
+        {
+          "question": "Comment différencier une pustulose exanthématique aiguë généralisée ?",
+          "reponse": "Introduction récente d'un médicament (souvent antibiotique) quelques jours avant, absence d'antécédent de psoriasis, résolution rapide à l'arrêt ; l'histologie et l'anamnèse aident."
+        },
+        {
+          "question": "Pourquoi l'acitrétine est-elle problématique ici ?",
+          "reponse": "Tératogène, avec une contraception requise pendant et plusieurs années après l'arrêt : incompatible avec un projet de grossesse proche."
+        },
+        {
+          "question": "Que retenir pour la pratique de ville ?",
+          "reponse": "Ne jamais prescrire de corticoïdes généraux chez un patient psoriasique ; adresser en urgence toute forme pustuleuse généralisée ou érythrodermique."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Nast A et al. EuroGuiDerm Guideline on the systemic treatment of Psoriasis vulgaris – Part 1. J Eur Acad Dermatol Venereol 2020;34(11):2461-2498",
+          "date": "2020"
+        },
+        {
+          "reference": "Nast A et al. EuroGuiDerm Guideline – Part 2: specific clinical and comorbid situations. J Eur Acad Dermatol Venereol 2021;35(2):281-317",
+          "date": "2021"
+        },
+        {
+          "reference": "Bachelez H et al. Trial of spesolimab for generalized pustular psoriasis. N Engl J Med 2021;385(26):2431-2440",
+          "date": "2021"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

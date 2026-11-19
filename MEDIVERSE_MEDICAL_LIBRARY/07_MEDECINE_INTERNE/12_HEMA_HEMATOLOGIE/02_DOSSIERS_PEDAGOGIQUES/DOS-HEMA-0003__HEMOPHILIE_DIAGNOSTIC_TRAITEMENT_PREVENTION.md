@@ -6,11 +6,17 @@ sous_specialite: "Hémostase — déficits constitutionnels de la coagulation"
 items_residanat: [RES-MED-114]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 13
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0003.md
 sources:
   - id: S1
     reference: "Srivastava A, Santagostino E, Dougall A, et al.; WFH Guidelines for the Management of Hemophilia panelists and co-authors. WFH Guidelines for the Management of Hemophilia, 3rd edition. Haemophilia. 2020;26(Suppl 6):1-158."
@@ -37,21 +43,21 @@ sources:
     url: "https://www.has-sante.fr/upload/docs/application/pdf/2023-06/synthese_mg_hemophilie.pdf"
     verifiee: true
   - id: S4
-    reference: "Blanchette VS, Key NS, Ljung LR, et al.; Subcommittee on Factor VIII, Factor IX and Rare Coagulation Disorders of the SSC of the ISTH. Definitions in hemophilia: communication from the SSC of the ISTH. J Thromb Haemost. 2014;12(11):1935-1939 [référence à vérifier]."
+    reference: "Blanchette VS, Key NS, Ljung LR, Manco-Johnson MJ, van den Berg HM, Srivastava A; Subcommittee on Factor VIII, Factor IX and Rare Coagulation Disorders of the SSC of the ISTH. Definitions in hemophilia: communication from the SSC of the ISTH. J Thromb Haemost. 2014;12(11):1935-1939. PMID 25059285."
     organisme: ISTH
     annee: 2014
     type: recommandation
-    doi: ""
-    url: ""
-    verifiee: false
+    doi: "10.1111/jth.12672"
+    url: "https://pubmed.ncbi.nlm.nih.gov/25059285/"
+    verifiee: true
   - id: S5
-    reference: "Mahlangu J, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors (HAVEN 3). N Engl J Med. 2018;379(9):811-822 [pagination à vérifier]."
+    reference: "Mahlangu J, Oldenburg J, Paz-Priel I, Negrier C, Niggli M, Mancuso ME, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors (HAVEN 3). N Engl J Med. 2018;379(9):811-822. PMID 30157389."
     organisme: "Essai HAVEN 3"
     annee: 2018
     type: article
-    doi: ""
-    url: ""
-    verifiee: false
+    doi: "10.1056/NEJMoa1803550"
+    url: "https://pubmed.ncbi.nlm.nih.gov/30157389/"
+    verifiee: true
   - id: S6
     reference: "First real-world evidence study of patients with hemophilia in Algeria (registre « Baromètre » du ministère de la Santé). Résumé ISPOR Europe 2022 [auteurs à compléter]."
     organisme: "ISPOR (résumé de congrès) / Ministère de la Santé (Algérie)"
@@ -68,13 +74,21 @@ sources:
     doi: ""
     url: "https://www.has-sante.fr/jcms/p_3594164/fr/hemophilie-a-acquise"
     verifiee: true
+  - id: S8
+    reference: "Tiede A, Collins P, Knoebl P, Teitel J, Kessler C, Shima M, et al. International recommendations on the diagnosis and treatment of acquired hemophilia A. Haematologica. 2020;105(7):1791-1801. PMID 32381574 (texte intégral PMC7327664 lu par l'audit)."
+    organisme: "Groupe international d'experts"
+    annee: 2020
+    type: recommandation
+    doi: "10.3324/haematol.2019.230771"
+    url: "https://pubmed.ncbi.nlm.nih.gov/32381574/"
+    verifiee: true
 mots_cles: [hémophilie A, hémophilie B, facteur VIII, facteur IX, TCA, hémarthrose, arthropathie hémophilique, inhibiteur, unités Bethesda, émicizumab, prophylaxie, agents by-passants, desmopressine, induction de tolérance immune, conductrice, diagnostic prénatal, hémophilie acquise, Algérie]
 ---
 
 # Hémophilie : diagnostic, traitement, prévention
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, aux recommandations de la WFH et aux protocoles du centre de traitement de l'hémophilie avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19), corrections requises — voir le rapport d'audit. Les posologies doivent être confrontées au RCP, aux recommandations de la WFH et aux protocoles du centre de traitement de l'hémophilie avant usage clinique.
 
 **Items du programme couverts** : RES-MED-114 — « Hémophilie : Diagnostic - traitement - prévention ».
 
@@ -305,7 +319,7 @@ Groupe sanguin, sérologies VIH, VHB, VHC (et statut vaccinal VHA/VHB), bilan h�
 - Sujet **âgé** (> 65 ans) ou **femme en post-partum**, **sans antécédent hémorragique** personnel ni familial.
 - Hémorragies **sous-cutanées étendues** (larges ecchymoses), musculaires, digestives, post-opératoires ; les **hémarthroses sont rares** (contrairement à l'hémophilie constitutionnelle).
 - TCA allongé **non corrigé** par le plasma témoin (après incubation), FVIII bas, anticorps anti-FVIII titré en UB.
-- Traitement : **agents by-passants** (facteur VIIa recombinant, CCPa) ou FVIII porcin recombinant pour les saignements, **éradication de l'auto-anticorps** par immunosuppression (corticoïdes ± cyclophosphamide ou rituximab) ; recherche d'une cause (cancer, maladie auto-immune) ; l'émicizumab est utilisé dans certains pays `[À VÉRIFIER : statut d'autorisation]`. Mortalité non négligeable (hémorragies, infections sous immunosuppresseurs).
+- Traitement : **agents by-passants** (rFVIIa 90 µg/kg toutes les 2–3 h ; CCPa 50–100 U/kg toutes les 8–12 h, maximum 200 U/kg/j) ou FVIII porcin recombinant (200 U/kg puis selon le taux) pour les saignements, plutôt que le FVIII humain ou la desmopressine ; **éradication de l'auto-anticorps** par immunosuppression (prednisone 1 mg/kg/j pendant 4–6 semaines au maximum, associée d'emblée au rituximab ou au cyclophosphamide si FVIII < 1 UI/dL ou inhibiteur > 20 UB) [S8] ; recherche d'une cause (cancer, maladie auto-immune). Les recommandations internationales de 2020 déconseillaient l'émicizumab hors essai dans cette indication [S8] ; il est depuis utilisé dans certains pays `[À VÉRIFIER : statut d'autorisation]`. Mortalité non négligeable (hémorragies, infections sous immunosuppresseurs).
 
 ---
 
@@ -358,23 +372,26 @@ Groupe sanguin, sérologies VIH, VHB, VHC (et statut vaccinal VHA/VHB), bilan h�
   - **FVIII** : dose (UI) = poids (kg) × élévation souhaitée (UI/dL) × **0,5** ;
   - **FIX** : dose (UI) = poids (kg) × élévation souhaitée (UI/dL) × **1** (récupération plus faible de certains FIX recombinants : se référer au RCP du produit) ;
   - arrondir à la taille des flacons ; adapter selon la **pharmacocinétique** individuelle et l'évolution clinique.
-- **Niveaux cibles indicatifs** (WFH 2020, tableaux « niveaux de facteur et durée » [S1]) `[POSOLOGIE À VÉRIFIER — tableau WFH 2020 / protocole du CTH]` :
+- **Niveaux cibles indicatifs** en l'absence de contrainte d'accès aux produits (WFH 2020 [S1], tableau reproduit dans le PNDS français 2023, tableau 16 [S2], vérifié par l'audit) — à adapter par le CTH :
 
 | Saignement | Hémophilie A : pic visé (UI/dL) | Hémophilie B : pic visé (UI/dL) | Durée indicative |
 |---|---|---|---|
 | Hémarthrose | 40–60 | 40–60 | 1–2 jours, ou plus si réponse insuffisante |
 | Hématome musculaire superficiel | 40–60 | 40–60 | 2–3 jours |
-| Hématome du psoas / musculaire profond avec atteinte neurovasculaire | 80–100 (initial), puis 30–60 | 60–80 (initial), puis 30–60 | Plusieurs jours (phase d'entretien prolongée) |
-| Hémorragie intracrânienne / cervicale | 80–100 (initial), puis 50 | 60–80 (initial), puis 30 | 7 à 21 jours selon l'évolution |
-| Hémorragie digestive | 80–100 puis 50 | 60–80 puis 30 | Jusqu'à guérison |
-| Chirurgie majeure | 80–100 (préopératoire) puis décroissant | 60–80 (préopératoire) puis décroissant | Selon le geste |
+| Hématome du psoas / musculaire profond avec atteinte neurovasculaire ou perte sanguine importante | 80–100 (initial), puis 30–60 | 60–80 (initial), puis 30–60 | 1–2 jours, puis 3–5 jours (parfois plus, pendant la rééducation) |
+| Hémorragie intracrânienne (SNC) | 80–100 (J1–J7), puis 50 | 60–80 (J1–J7), puis 30 | Entretien de J8 à J21 |
+| Hémorragie de la gorge et du cou | 80–100 (J1–J7), puis 50 | 60–80 (J1–J7), puis 30 | Entretien de J8 à J14 |
+| Hémorragie digestive | 80–100 puis 50 | 60–80 puis 30 | 7–14 jours |
+| Hématurie (rein) ; lacération profonde | 50 | 40 | 3–5 jours ; 5–7 jours |
+| Chirurgie majeure | 80–100 (préopératoire), puis 60–80 (J1–J3), 40–60 (J4–J6), 30–50 (J7–J14) | 60–80 (préopératoire), puis 40–60 (J1–J3), 30–50 (J4–J6), 20–40 (J7–J14) | Selon le geste |
+| Chirurgie mineure | 50–80 (préopératoire), puis 30–80 | 50–80 (préopératoire), puis 30–80 | 1–5 jours selon le geste |
 
 > La WFH décrit aussi des schémas à **doses plus faibles** utilisés là où les produits sont limités ; le niveau et la durée doivent être adaptés aux ressources disponibles et à la réponse clinique [S1].
 
 #### 13.2.2 Émicizumab
 - **Anticorps monoclonal bispécifique** humanisé qui rapproche le **FIXa** et le **FX**, **mimant la fonction cofacteur du FVIIIa** ; il n'est **pas reconnu par les inhibiteurs anti-FVIII**.
-- Indication : **prophylaxie de l'hémophilie A sévère**, avec ou sans inhibiteur ; **pas d'indication dans l'hémophilie B** ni pour traiter un saignement aigu.
-- Administration **sous-cutanée** : dose de charge **3 mg/kg/semaine pendant 4 semaines**, puis entretien **1,5 mg/kg/semaine**, **3 mg/kg toutes les 2 semaines** ou **6 mg/kg toutes les 4 semaines** [S5] `[POSOLOGIE À VÉRIFIER — RCP]`.
+- Indication (RCP, repris par le PNDS 2023 [S2]) : **prophylaxie de l'hémophilie A avec inhibiteur** (quelle que soit la sévérité) et de l'**hémophilie A sévère sans inhibiteur**, à tout âge ; extension européenne (23 janvier 2023) à l'hémophilie A **modérée** sans inhibiteur avec phénotype hémorragique sévère ; **pas d'indication dans l'hémophilie B** ni pour traiter un saignement aigu.
+- Administration **sous-cutanée** : dose de charge **3 mg/kg/semaine pendant 4 semaines**, puis entretien **1,5 mg/kg/semaine**, **3 mg/kg toutes les 2 semaines** ou **6 mg/kg toutes les 4 semaines** (RCP de Hemlibra, tableau 11 du PNDS 2023 [S2]) ; les schémas hebdomadaire et toutes les 2 semaines ont été évalués dans HAVEN 3 [S5].
 - Dans l'essai HAVEN 3 (hémophilie A sans inhibiteur), la prophylaxie hebdomadaire ou bimensuelle a réduit très fortement le taux de saignements traités par rapport à l'absence de prophylaxie, et davantage que la prophylaxie antérieure par FVIII dans la comparaison intra-individuelle [S5].
 - Précautions :
   - **microangiopathie thrombotique et thromboses** décrites lors de l'association avec des **CCPa à doses cumulées élevées** : privilégier le rFVIIa pour traiter les saignements intercurrents sous émicizumab [S1] ;
@@ -382,20 +399,21 @@ Groupe sanguin, sérologies VIH, VHB, VHC (et statut vaccinal VHA/VHB), bilan h�
   - le patient reste exposé aux saignements traumatiques : les saignements intercurrents se traitent par FVIII (sans inhibiteur) ou rFVIIa (avec inhibiteur).
 
 #### 13.2.3 Agents « by-passants » (patients avec inhibiteur fort répondeur)
-- **Facteur VII activé recombinant (rFVIIa)** et **concentré de complexe prothrombinique activé (CCPa)** : ils contournent l'étape FVIII/FIX ; efficacité moins prévisible que le facteur ; risque thrombotique [S1] `[POSOLOGIE À VÉRIFIER — RCP / protocole du CTH]`.
+- **Facteur VII activé recombinant (rFVIIa)** et **concentré de complexe prothrombinique activé (CCPa)** : ils contournent l'étape FVIII/FIX ; efficacité moins prévisible que le facteur ; risque thrombotique [S1].
+- Posologies (RCP, tableau 9 du PNDS 2023 [S2]) : **rFVIIa 90 µg/kg** en bolus IV toutes les 2–3 heures jusqu'à l'hémostase (injection unique de 270 µg/kg possible pour un saignement mineur à modéré) ; **CCPa 50–100 U/kg** 2 à 3 fois par jour, sans dépasser **100 U/kg par injection** ni **200 U/kg par 24 heures**. Sous émicizumab, le CCPa n'est utilisé qu'en l'absence d'alternative, sur avis du centre de référence et à doses réduites [S2].
 - Pas de test biologique simple pour monitorer leur efficacité : surveillance clinique.
 
 #### 13.2.4 Induction de tolérance immune (ITI)
 - Administration **régulière et prolongée** de FVIII (plusieurs mois à années) pour éradiquer l'inhibiteur ; meilleure réussite si titre bas au début, chez l'enfant, et si débutée tôt ; possible en association avec l'émicizumab selon des protocoles récents [S1].
 
 #### 13.2.5 Desmopressine (DDAVP)
-- Analogue de la vasopressine qui **libère le FVIII et le facteur Willebrand** endothéliaux (élévation de 3 à 5 fois du taux de base) : utile dans l'**hémophilie A mineure** (et chez certaines conductrices), **inefficace dans l'hémophilie B et l'hémophilie A sévère** [S1].
+- Analogue de la vasopressine qui **libère le FVIII et le facteur Willebrand** endothéliaux (élévation de 2 à 5 fois du taux de base en 30–60 minutes, retour au taux de base en 6–9 heures [S2]) : utile dans l'**hémophilie A mineure** (et chez certaines conductrices), **inefficace dans l'hémophilie B et l'hémophilie A sévère** [S1].
 - **Test thérapeutique préalable** pour vérifier la réponse ; **tachyphylaxie** après plusieurs administrations rapprochées.
-- Voie IV ou SC (de l'ordre de **0,3 µg/kg**) ou intranasale [S1] `[POSOLOGIE À VÉRIFIER — RCP]`.
-- Effets indésirables : flush, céphalées, tachycardie, **rétention hydrique et hyponatrémie** (restriction hydrique de 24 h, prudence chez le jeune enfant), précaution chez le coronarien.
+- Posologies (RCP, tableau 13 du PNDS 2023 [S2]) : **0,3 µg/kg** IV dilué dans 50–100 mL de NaCl 0,9 % en 15–30 minutes (0,2 µg/kg chez l'enfant, le sujet âgé ou en cas de troubles cardiovasculaires), répétable toutes les 12 heures si la réponse est suffisante ; ou 0,3 µg/kg en SC ; spray nasal : **150 µg** (une pulvérisation) si poids < 50 kg, **300 µg** au-delà.
+- Effets indésirables : flush, céphalées, tachycardie, **rétention hydrique et hyponatrémie** : **restriction hydrique pendant 24 heures** (750 mL chez l'adulte, 20 mL/kg chez l'enfant, en dehors des apports alimentaires), **natrémie** en cas d'administrations répétées ; usage **non recommandé avant 2 ans** (convulsions) ; précaution chez le coronarien [S2].
 
 #### 13.2.6 Antifibrinolytiques
-- **Acide tranexamique** (ou acide aminocaproïque) : saignements **muqueux** (épistaxis, gingivorragies, extraction dentaire en bains de bouche ou per os, ménorragies) en complément du facteur [S1] `[POSOLOGIE À VÉRIFIER — RCP]`.
+- **Acide tranexamique** (ou acide aminocaproïque) : saignements **muqueux** (épistaxis, gingivorragies, extraction dentaire en bains de bouche ou per os, ménorragies) en complément du facteur [S1]. Posologies (RCP, tableau 13 du PNDS 2023 [S2]) : adulte **2 à 4 g/24 h per os en 2 ou 3 prises**, ou 0,5 à 1 g en IV lente 2 à 3 fois par jour ; enfant à partir de 1 an **20 mg/kg/j** en 2 à 3 prises ; réduction en cas d'insuffisance rénale.
 - **Contre-indiqué** dans l'**hématurie** (caillots obstructifs) ; prudence avec les CCPa.
 
 #### 13.2.7 Traitements adjuvants et prise en charge globale
@@ -536,7 +554,7 @@ Hémophilie A sévère
 Injection **immédiate** de FVIII (sans attendre une radiographie) pour viser un pic d'environ 40–60 UI/dL [S1] ; immobilisation antalgique, glace de courte durée, surélévation, paracétamol ± opioïde ; **aucun AINS ni aspirine**, aucune injection IM.
 
 **Question 2 — Calculez la dose.**
-Dose (UI) = poids × élévation souhaitée × 0,5 = 60 × 50 × 0,5 = **1 500 UI** de FVIII (arrondie à la présentation disponible) [S1] `[POSOLOGIE À VÉRIFIER — protocole du CTH]`. Réinjection selon la demi-vie (8–12 h) et l'évolution, sur 1 à 2 jours ou plus.
+Dose (UI) = poids × élévation souhaitée × 0,5 = 60 × 50 × 0,5 = **1 500 UI** de FVIII (soit 25 UI/kg, arrondie à la présentation disponible) [S1, S2]. Réinjection selon la demi-vie (8–12 h) et l'évolution, sur 1 à 2 jours ou plus.
 
 **Question 3 — Que signifient 4 hémarthroses du même genou en un an ?**
 Il s'agit d'une **articulation cible** avec **synovite** probable (échographie) : risque d'arthropathie rapide. L'indication d'une **prophylaxie régulière** (FVIII ou émicizumab) est formelle selon la WFH [S1] ; une synoviorthèse peut se discuter si la synovite persiste.
@@ -748,16 +766,17 @@ Un **inhibiteur** : titrage Bethesda. S'il est fort répondeur, les saignements 
 | Niveaux de facteur pour les saignements | WFH 2020 : tableaux distincts selon la disponibilité des produits (niveaux élevés vs schémas à doses plus faibles) [S1] | PNDS français : niveaux et durées définis par le CTH, ressources non limitantes [S2] | En Algérie, adapter aux produits disponibles `[À VÉRIFIER]` |
 | Place de l'émicizumab chez le patient sans inhibiteur | WFH 2020 : option de prophylaxie dans l'hémophilie A sévère [S1] ; HAVEN 3 [S5] | Facteurs à demi-vie prolongée également recommandés ; choix selon préférences et accès [S1, S2] | Pas de hiérarchie stricte entre les deux options |
 | Produits chez les patients non préalablement traités | Certaines données suggèrent un risque d'inhibiteur plus faible avec les FVIII plasmatiques contenant du facteur Willebrand | Recommandations n'imposant pas de type de produit (WFH 2020 : décision individualisée) [S1] | Débat non tranché ; information des familles |
-| Âge minimal pour la desmopressine | Prudence chez l'enfant de moins de 2 ans (hyponatrémie, convulsions) [S1] | Contre-indication formelle selon certains RCP `[À VÉRIFIER — RCP]` | Restriction hydrique et surveillance de la natrémie dans tous les cas |
+| Âge minimal pour la desmopressine | Prudence chez l'enfant de moins de 2 ans (hyponatrémie, convulsions) [S1] | PNDS 2023 (d'après le RCP de Minirin) : usage **non recommandé** avant 2 ans [S2] | Restriction hydrique et surveillance de la natrémie dans tous les cas |
 
 ---
 
 ## 22. Références
 
 1. **[S1]** Srivastava A, Santagostino E, Dougall A, et al. WFH Guidelines for the Management of Hemophilia, 3rd edition. *Haemophilia*. 2020;26(Suppl 6):1-158. doi:10.1111/hae.14046 — vérifiée.
-2. **[S2]** HAS / CRH-MHEMO. PNDS — Hémophilie (version 2019, document mis en ligne en 2023). — vérifiée (existence).
+2. **[S2]** HAS / CRH-MHEMO. PNDS — Hémophilie (version 2019, document mis en ligne en 2023). — vérifiée (texte intégral lu par l'audit : tableaux 9, 11, 13 et 16).
 3. **[S3]** HAS. Synthèse à destination du médecin traitant — Hémophilie. 2023. — vérifiée (existence).
-4. **[S4]** Blanchette VS, Key NS, Ljung LR, et al. Definitions in hemophilia: communication from the SSC of the ISTH. *J Thromb Haemost*. 2014;12(11):1935-1939. — **non vérifiée**.
-5. **[S5]** Mahlangu J, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med*. 2018;379(9):811-822. — **non vérifiée** (essai HAVEN 3 confirmé par sources secondaires ; pagination à vérifier).
+4. **[S4]** Blanchette VS, Key NS, Ljung LR, et al. Definitions in hemophilia: communication from the SSC of the ISTH. *J Thromb Haemost*. 2014;12(11):1935-1939. doi:10.1111/jth.12672 — vérifiée (PubMed).
+5. **[S5]** Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med*. 2018;379(9):811-822. doi:10.1056/NEJMoa1803550 — vérifiée (résumé lu par l'audit).
 6. **[S6]** First real-world evidence study of patients with hemophilia in Algeria (registre « Baromètre »). Résumé ISPOR Europe 2022. — vérifiée (existence du résumé ; auteurs à compléter).
 7. **[S7]** HAS. PNDS — Hémophilie A acquise. — vérifiée (existence ; date à préciser).
+8. **[S8]** Tiede A, Collins P, Knoebl P, et al. International recommendations on the diagnosis and treatment of acquired hemophilia A. *Haematologica*. 2020;105(7):1791-1801. doi:10.3324/haematol.2019.230771 — vérifiée (texte intégral lu par l'audit).

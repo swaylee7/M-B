@@ -1,9 +1,27 @@
 {
   "id": "AUD-03",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "actif",
+  "derniere_execution": "2026-11-19T02:46:50+00:00",
+  "taches_terminees": [
+    "audit QCM lots RES-02-a (124) et RES-02-b (148) — rapport rapports/RES-02.md"
+  ],
+  "taches_suivantes": [
+    "QCM-BIOC-5019 : compléter titre exact et date du document ANSM/Afssaps (seuil Friedewald TG < 3,4 g/L = 3,9 mmol/L) après téléchargement",
+    "Banque RES-02 : relecture humaine qualifiée (statut valide_enseignant)"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "RES-02": {
+      "qcm_audites": 272,
+      "qcm_corriges": 30,
+      "qcm_valides_sans_modification": 242,
+      "qcm_a_revoir": 0,
+      "erreurs_critiques": 3,
+      "erreurs_de_cle_franches": 1,
+      "corrections_majeures": 1,
+      "corrections_mineures": 26,
+      "recherches_web": 1,
+      "rapport": "00_SYSTEME/agents/AUD-03/rapports/RES-02.md"
+    }
+  }
 }

@@ -6,11 +6,17 @@ sous_specialite: "Hémostase — thrombopénies"
 items_residanat: [RES-MED-113]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 21
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0002.md
 sources:
   - id: S1
     reference: "Neunert C, Terrell DR, Arnold DM, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3(23):3829-3866."
@@ -61,20 +67,36 @@ sources:
     url: "https://www.has-sante.fr/upload/docs/application/pdf/2025-04/pnds_pti_de_lenfant_et_de_ladolescent.pdf"
     verifiee: true
   - id: S7
-    reference: "Khellaf M, Michel M, Schaeffer A, Bierling P, Godeau B. Assessment of a therapeutic strategy for adults with severe autoimmune thrombocytopenic purpura based on a bleeding score rather than platelet count. Haematologica. 2005;90(6):829-832 [référence à vérifier]."
+    reference: "Khellaf M, Michel M, Schaeffer A, Bierling P, Godeau B. Assessment of a therapeutic strategy for adults with severe autoimmune thrombocytopenic purpura based on a bleeding score rather than platelet count. Haematologica. 2005;90(6):829-832. PMID 15951296."
     organisme: "Article original"
     annee: 2005
     type: article
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://pubmed.ncbi.nlm.nih.gov/15951296/"
+    verifiee: true
+  - id: S8
+    reference: "Cuker A, Terrell DR, Sowdagar H, Arnold DM, Audia S, Bussel JB, et al. American Society of Hematology 2026 guidelines for immune thrombocytopenia: initial and second-line therapy for adults with primary ITP. Blood Adv. 2026;10(20):7076-7097. PMID 42617047 (texte intégral PMC13696133 lu par l'audit)."
+    organisme: ASH
+    annee: 2026
+    type: recommandation
+    doi: "10.1182/bloodadvances.2026021269"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42617047/"
+    verifiee: true
+  - id: S9
+    reference: "Résumés des caractéristiques du produit (RCP, versions EMA/MHRA consultées en novembre 2026) : Revolade (eltrombopag), Nplate (romiplostim), Doptelet (avatrombopag) — rubrique 4.2 ; Exacyl (acide tranexamique), posologies reprises dans le PNDS Hémophilie HAS 2023 (tableau 13)."
+    organisme: "EMA / MHRA / ANSM (RCP)"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: "https://www.medicines.org.uk/emc/product/7820/smpc"
+    verifiee: true
 mots_cles: [purpura thrombopénique immunologique, PTI, thrombopénie, auto-anticorps antiplaquettes, fausse thrombopénie EDTA, score hémorragique, corticoïdes, immunoglobulines intraveineuses, agonistes du récepteur de la thrombopoïétine, eltrombopag, romiplostim, rituximab, splénectomie, grossesse, syndrome d'Evans]
 ---
 
 # Purpura thrombopénique immunologique (ex-« idiopathique ») : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19), corrections requises — voir le rapport d'audit. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-113 — « Purpura thrombopénique idiopathique : Diagnostic et traitement ». La terminologie internationale actuelle est **thrombopénie immunologique** (*immune thrombocytopenia*, ITP), et en français **purpura thrombopénique immunologique (PTI)** [S3, S4] ; l'adjectif « idiopathique » de l'intitulé officiel correspond au **PTI primaire**.
 
@@ -120,7 +142,7 @@ Autres définitions utiles [S3] :
 - **1951** : expérience de **Harrington-Hollingsworth** : le plasma d'un patient atteint, transfusé à un volontaire sain (Harrington lui-même), provoque une thrombopénie profonde — preuve d'un facteur plasmatique (auto-anticorps).
 - **1981** : efficacité des **immunoglobulines intraveineuses** (Imbach, chez l'enfant).
 - **Années 2000** : rituximab hors AMM ; **2008** : premiers **agonistes du récepteur de la thrombopoïétine** (romiplostim, eltrombopag).
-- **2009** : standardisation de la terminologie (conférence de Vicence) [S3] ; **2019** : recommandations ASH [S1] et consensus international actualisé [S2] ; **2017–2025** : PNDS français (commun puis scindé adulte/enfant) [S4, S5, S6].
+- **2009** : standardisation de la terminologie (conférence de Vicence) [S3] ; **2019** : recommandations ASH [S1] et consensus international actualisé [S2] ; **2017–2025** : PNDS français (commun puis scindé adulte/enfant) [S4, S5, S6] ; **2026** : mise à jour ciblée de l'ASH sur le traitement initial et de deuxième ligne de l'adulte [S8].
 
 ---
 
@@ -185,7 +207,7 @@ Les plaquettes présentes dans le PTI sont souvent **jeunes et fonctionnelles** 
 | Gravité | Non sévère / sévère (saignement imposant un traitement) [S3] ; quantification par un **score hémorragique** |
 | Réponse au traitement | Réponse complète (≥ 100 G/L) / réponse (≥ 30 G/L et doublement) / non-réponse ; corticodépendance [S3] |
 
-**Score hémorragique de l'adulte (score de Khellaf)** [S7] : utilisé en France, il additionne des points selon l'âge (> 65 ans, > 75 ans) et le type de saignement (purpura cutané localisé ou diffus, épistaxis uni- ou bilatérale, bulles buccales ou gingivorragies, hémorragie digestive, hématurie, méno-métrorragies, hémorragie du système nerveux central). **Un score > 8 justifie un traitement d'urgence associant IgIV et corticoïdes** selon le PNDS [S4] `[À VÉRIFIER : grille exacte de cotation dans le PNDS en vigueur]`. Chez l'enfant, des scores spécifiques (Buchanan, score pédiatrique du PNDS) sont utilisés [S6].
+**Score hémorragique de l'adulte (score de Khellaf)** [S7] : utilisé en France, il additionne des points selon l'âge (> 65 ans, > 75 ans) et le type de saignement (purpura cutané localisé ou diffus, épistaxis uni- ou bilatérale, bulles buccales ou gingivorragies, hémorragie digestive, hématurie, méno-métrorragies, hémorragie du système nerveux central). **Un score > 8 justifie un traitement d'urgence associant IgIV et corticoïdes ; un score ≤ 8 relève des corticoïdes seuls** (stratégie validée par Khellaf et al. [S7], reprise par le PNDS [S4, S5]) `[À VÉRIFIER : grille exacte de cotation dans le PNDS en vigueur]`. Chez l'enfant, des scores spécifiques (Buchanan, score pédiatrique du PNDS) sont utilisés [S6].
 
 ---
 
@@ -253,7 +275,7 @@ L'examen d'un PTI primaire est **normal en dehors du syndrome hémorragique** :
 ### 9.3 Myélogramme : indications
 
 - **Consensus international et ASH** : non nécessaire au diagnostic d'un PTI typique (thrombopénie isolée, examen clinique et frottis normaux), quel que soit l'âge [S1, S2].
-- **PNDS français** : myélogramme recommandé **chez le sujet de plus de 60 ans** (élimination d'une myélodysplasie), en cas d'**anomalie d'une autre lignée** ou du frottis, de **signes atypiques** (splénomégalie, adénopathies), d'**échec des traitements de première ligne**, et **avant splénectomie** [S4, S5] `[À VÉRIFIER : liste exacte de l'actualisation 2024]`.
+- **PNDS français** : le PNDS de 2017 recommandait le myélogramme **chez le sujet de plus de 60 ans** (élimination d'une myélodysplasie), en cas d'**anomalie d'une autre lignée** ou du frottis, de **signes atypiques** (splénomégalie, adénopathies), d'**échec des traitements de première ligne**, et **avant splénectomie** [S4] ; la synthèse de l'actualisation 2024 précise seulement que le myélogramme « n'est plus systématique » [S5] `[À VÉRIFIER : indications exactes dans le texte complet du PNDS adulte 2024]`.
 - Dans le PTI, la moelle est **riche en mégacaryocytes** (normaux ou augmentés) : l'aspect confirme l'origine périphérique.
 - Une **biopsie ostéomédullaire** (avec cytogénétique) se discute avant splénectomie ou devant un PTI réfractaire, et sous agonistes du récepteur de la TPO en cas d'anomalie (fibrose).
 
@@ -263,8 +285,9 @@ L'examen d'un PTI primaire est **normal en dehors du syndrome hémorragique** :
 
 ### 10.1 PTI de l'enfant [S6]
 - Début brutal après une infection virale, purpura souvent spectaculaire mais **hémorragies graves rares** ; **guérison spontanée** fréquente en quelques semaines à mois.
-- L'ASH recommande une **surveillance simple** chez l'enfant sans saignement ou avec saignement cutané mineur, quelle que soit la numération [S1] ; le traitement (corticoïdes courts ou IgIV) est réservé aux formes hémorragiques selon un score pédiatrique [S6].
-- Le myélogramme n'est pas systématique ; il est discuté avant corticothérapie dans certaines pratiques (crainte de masquer une leucémie aiguë) `[À VÉRIFIER : position du PNDS 2025]`.
+- L'ASH (2019) suggère une **surveillance simple** chez l'enfant sans saignement ou avec saignement cutané mineur, quelle que soit la numération [S1]. Le **PNDS français 2025** est différent : au diagnostic, un traitement (corticoïdes ou IgIV) est **recommandé si les plaquettes sont ≤ 10 G/L, quel que soit le score hémorragique**, ainsi que pour tout score de Buchanan modifié 3a ou 3b ; au-dessus de 10 G/L et sans facteur de risque, l'abstention initiale est la règle [S6].
+- Doses de première ligne du PNDS 2025 [S6] : **prednisone 4 mg/kg/j en 2 prises pendant 4 jours** (maximum 120 mg/j, arrêt sans décroissance) — ou 1–2 mg/kg/j (maximum 80 mg/j) pendant 7 jours puis décroissance sur 2 semaines — ou **IgIV 0,8 à 1 g/kg** en perfusion lente, avec hydratation.
+- Le myélogramme n'est pas nécessaire au diagnostic d'un PTI typique de l'enfant et **n'est plus systématique avant une corticothérapie** ; la décision de ne pas le faire est documentée par un médecin senior après analyse du frottis par un cytologiste [S6].
 - Une évolution chronique, surtout chez l'adolescent, fait rechercher une maladie auto-immune (lupus) ou un déficit immunitaire.
 
 ### 10.2 PTI de l'adulte jeune
@@ -276,8 +299,8 @@ L'examen d'un PTI primaire est **normal en dehors du syndrome hémorragique** :
 
 ### 10.4 PTI et grossesse [S2, S4]
 - Différencier d'une **thrombopénie gestationnelle** (bénigne, 3e trimestre, plaquettes généralement > 70–80 G/L, sans antécédent de thrombopénie, résolution après l'accouchement), d'une **prééclampsie/HELLP syndrome** et d'une **microangiopathie thrombotique**.
-- Traitement si thrombopénie profonde ou saignement, et pour atteindre un seuil permettant l'accouchement et l'anesthésie périmédullaire : **corticoïdes à faible dose** ou **IgIV** ; les agonistes du récepteur de la TPO et le rituximab ne sont pas recommandés en routine pendant la grossesse `[À VÉRIFIER : seuils plaquettaires pour l'anesthésie selon les recommandations obstétricales et le PNDS]`.
-- **Risque de thrombopénie néonatale** par passage transplacentaire des IgG maternelles (moindre que dans l'allo-immunisation fœto-maternelle) : numération au sang du cordon et surveillance du nouveau-né pendant plusieurs jours (nadir vers J2–J5) ; l'accouchement se décide sur des **critères obstétricaux** (pas de césarienne systématique).
+- Traitement si thrombopénie profonde ou saignement, et pour atteindre un seuil permettant l'accouchement et l'anesthésie périmédullaire : **corticoïdes à faible dose** ou **IgIV** ; les agonistes du récepteur de la TPO et le rituximab ne sont pas recommandés en routine pendant la grossesse. Selon la synthèse HAS 2024, le seuil souhaité pour l'accouchement (voie basse sauf indication obstétricale) est de **50 G/L**, et un minimum de **70 G/L** est exigé pour une rachianesthésie [S5].
+- **Risque de thrombopénie néonatale** par passage transplacentaire des IgG maternelles (sévère dans environ 10 % des cas selon la HAS [S5] ; moindre que dans l'allo-immunisation fœto-maternelle) : numération au sang du cordon et surveillance du nouveau-né pendant plusieurs jours (nadir vers J2–J5) ; l'accouchement se décide sur des **critères obstétricaux** (pas de césarienne systématique).
 
 ### 10.5 Syndrome d'Evans
 - Association d'un PTI et d'une **AHAI** (TDA positif), simultanée ou successive ; rechercher un lupus, un DICV, un ALPS, une lymphoprolifération ; évolution volontiers chronique et récidivante.
@@ -333,17 +356,17 @@ L'examen d'un PTI primaire est **normal en dehors du syndrome hémorragique** :
 
 #### 13.2.1 Mesures générales
 - Éviter **aspirine, AINS**, injections intramusculaires, sports de contact ; prudence avec les antithrombotiques (réévaluer l'indication).
-- Contrôle des ménorragies (traitements hormonaux) ; **acide tranexamique** possible en appoint pour les saignements muqueux `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- Contrôle des ménorragies (traitements hormonaux) ; **acide tranexamique** possible en appoint pour les saignements muqueux : chez l'adulte, **2 à 4 g/j per os en 2 ou 3 prises**, ou 0,5 à 1 g IV lente 2 à 3 fois par jour ; réduction des doses en cas d'insuffisance rénale (RCP [S9]).
 - Éducation : signes d'alerte hémorragique, carte de soins.
 
 #### 13.2.2 Corticoïdes (première ligne)
-- **Prednisone** de l'ordre de **1 mg/kg/j pendant 2 à 3 semaines**, puis **arrêt rapide** sans décroissance prolongée selon le PNDS [S4] ; l'ASH recommande de **ne pas dépasser 6 semaines** au total (décroissance incluse) [S1].
+- **Prednisone** de l'ordre de **1 mg/kg/j pendant 2 à 3 semaines**, puis **arrêt rapide** (habituellement en 3 semaines au total selon la synthèse HAS 2024) sans décroissance prolongée [S4, S5] ; l'ASH (2019, non modifié en 2026) recommande de **ne pas dépasser 6 semaines** au total (décroissance incluse) et admet une dose de 0,5 à 2 mg/kg/j [S1, S8].
 - Alternative : **dexaméthasone 40 mg/j pendant 4 jours** (cures éventuellement répétées) [S1, S2].
 - Réponse dans la majorité des cas en quelques jours, mais **rechutes fréquentes** à l'arrêt chez l'adulte.
 - Effets indésirables : hyperglycémie, HTA, troubles psychiques et du sommeil, infections, ostéoporose, myopathie — d'où l'interdiction de la **corticothérapie prolongée** pour maintenir une numération [S1, S4].
 
 #### 13.2.3 Immunoglobulines intraveineuses (IgIV)
-- **1 g/kg à J1**, à renouveler éventuellement à J2 ou J3 selon la réponse et la gravité [S2, S4] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **1 g/kg à J1**, à renouveler éventuellement une fois (J2 ou J3) selon la réponse et la gravité, soit 1 à 2 g/kg au total [S2, S4, S7].
 - **Effet rapide (24–48 h) mais transitoire** (2–4 semaines) : indiquées en **urgence hémorragique**, avant un geste invasif, ou en cas de contre-indication aux corticoïdes.
 - Mécanisme : blocage des récepteurs Fc des macrophages, immunomodulation.
 - Effets indésirables : céphalées, méningite aseptique, insuffisance rénale (formulations contenant du saccharose), **thromboses**, hémolyse (anticorps anti-A/anti-B), réactions chez les déficitaires en IgA ; vérifier le dosage pondéral des Ig avant la première perfusion.
@@ -352,14 +375,15 @@ L'examen d'un PTI primaire est **normal en dehors du syndrome hémorragique** :
 - **Inefficaces** en dehors de l'urgence (destruction immédiate) ; réservées aux **hémorragies menaçant le pronostic vital**, **associées** aux IgIV et à une corticothérapie intraveineuse à forte dose [S2, S4].
 
 #### 13.2.5 Agonistes du récepteur de la thrombopoïétine (AR-TPO)
-- **Eltrombopag** (oral) : prise à distance des aliments riches en calcium et des cations polyvalents ; surveillance hépatique (hépatotoxicité) ; posologies adaptées à l'origine asiatique et à l'insuffisance hépatique `[POSOLOGIE À VÉRIFIER — RCP]`.
-- **Romiplostim** (sous-cutané hebdomadaire, dose ajustée à la numération) `[POSOLOGIE À VÉRIFIER — RCP]`.
-- **Avatrombopag** (oral, sans contrainte alimentaire particulière) `[POSOLOGIE À VÉRIFIER — RCP]`.
+- **Eltrombopag** (oral) : **50 mg/j** en une prise chez l'adulte, **25 mg/j** chez les patients d'ascendance est- ou sud-est-asiatique et en cas d'insuffisance hépatique ; paliers de 25 mg selon la numération, sans dépasser **75 mg/j** ; prise à distance des produits laitiers, antiacides et cations polyvalents ; surveillance hépatique (hépatotoxicité) (RCP [S9]).
+- **Romiplostim** (sous-cutané hebdomadaire) : **1 µg/kg/semaine** au départ, augmenté par paliers de 1 µg/kg jusqu'à une numération ≥ 50 G/L, **sans dépasser 10 µg/kg/semaine** (RCP [S9]).
+- **Avatrombopag** (oral) : **20 mg/j** au départ, à prendre **au cours d'un repas** (pas d'interaction avec les cations) ; plus faible dose permettant de maintenir ≥ 50 G/L (RCP [S9]).
+- En France, seuls le romiplostim et l'eltrombopag disposaient d'une AMM dans le PTI de l'adulte selon la synthèse HAS 2024 [S5].
 - Taux de réponse élevés ; traitement en principe **suspensif** (rechute à l'arrêt), mais des rémissions prolongées après arrêt progressif sont décrites chez une partie des patients.
 - Effets indésirables : **thromboses**, céphalées, **fibrose réticulinique médullaire** (rare, réversible), rebond thrombopénique à l'arrêt brutal.
 
 #### 13.2.6 Rituximab (anti-CD20)
-- Utilisé **hors AMM** dans de nombreux pays ; schémas usuels **375 mg/m² hebdomadaires × 4** ou **1 000 mg à J1 et J15** [S2, S4] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- Utilisé **hors AMM** dans de nombreux pays (en France : accès compassionnel selon la HAS 2024 [S5]) ; schémas usuels **375 mg/m² hebdomadaires × 4** (le plus étudié selon l'ASH 2026) ou **1 000 mg à J1 et J15** [S2, S4, S8].
 - Réponse chez environ la moitié des patients, prolongée chez une minorité `[À VÉRIFIER : taux à long terme]`.
 - Prérequis : **sérologie VHB** (risque de réactivation), dosage des Ig, mise à jour des vaccinations (réponse vaccinale abolie pendant plusieurs mois).
 - Effets indésirables : réactions perfusionnelles, infections, hypogammaglobulinémie, neutropénie tardive, leucoencéphalopathie multifocale progressive (exceptionnelle).
@@ -367,12 +391,12 @@ L'examen d'un PTI primaire est **normal en dehors du syndrome hémorragique** :
 #### 13.2.7 Splénectomie
 - Le plus souvent par **cœlioscopie** ; réponse durable chez environ deux tiers des patients `[À VÉRIFIER]`.
 - **À différer d'au moins 12 mois** après le diagnostic (chances de rémission spontanée) [S1, S2].
-- **Vaccinations au moins 2 à 4 semaines avant** (pneumocoque, méningocoques ACWY et B, *Haemophilus influenzae* b, grippe annuelle), antibioprophylaxie et éducation post-splénectomie (toute **fièvre = urgence**) ; risque **thrombotique** accru (veineux, portal).
+- **Vaccinations au moins 2 semaines avant** (idéalement 2 à 4 semaines ; pneumocoque, méningocoques ACWY et B, *Haemophilus influenzae* b, grippe annuelle) [S8], antibioprophylaxie et éducation post-splénectomie (toute **fièvre = urgence**) ; risque **thrombotique** accru (veineux, portal).
 - Contre-indications relatives : sujet âgé, comorbidités, antécédent thrombotique, SAPL.
 
 #### 13.2.8 Autres traitements
 - **Fostamatinib** (inhibiteur de SYK), immunosuppresseurs (azathioprine, mycophénolate mofétil, ciclosporine), **danazol**, **dapsone**, **hydroxychloroquine** (si anticorps antinucléaires), **éradication d'*H. pylori*** si infection documentée [S2].
-- Nouveaux agents (inhibiteurs de BTK, inhibiteurs du FcRn…) en cours de développement ou d'autorisation `[À VÉRIFIER : statut réglementaire 2026]`.
+- **Inhibiteurs de BTK** : un inhibiteur de BTK a été approuvé dans le PTI en 2025 ; l'ASH 2026 suggère un inhibiteur de BTK, le mycophénolate mofétil ou un inhibiteur de SYK (fostamatinib) chez l'adulte qui ne peut pas ou ne veut pas recevoir un AR-TPO ou le rituximab ; l'azathioprine a un rapport bénéfice-risque moins favorable [S8]. Autres agents (inhibiteurs du FcRn…) : en développement `[À VÉRIFIER : statut réglementaire en Europe et en Algérie]`.
 
 ### 13.3 Stratégie thérapeutique
 
@@ -392,10 +416,13 @@ PTI CONFIRMÉ (thrombopénie isolée < 100 G/L, bilan d'élimination)
 │
 ├─ C. PLAQUETTES < 30 G/L ou saignement cutanéo-muqueux non grave
 │     → 1re ligne : prednisone (≤ 6 semaines au total) ou dexaméthasone ; IgIV si besoin d'effet rapide
+│     → ASH 2026 : si traitement nécessaire, association corticoïdes + AR-TPO ou + rituximab
+│       suggérée plutôt que corticoïdes seuls (recommandation conditionnelle) [S8] ;
+│       PNDS 2024 : corticoïdes seuls en 1re ligne (seuil < 20 G/L ou saignement) [S5]
 │
 └─ D. ÉCHEC, CORTICODÉPENDANCE, PTI PERSISTANT OU CHRONIQUE (décision partagée)
-      → AR-TPO (eltrombopag, romiplostim, avatrombopag)
-      → rituximab
+      → AR-TPO (eltrombopag, romiplostim, avatrombopag) — recommandation forte de l'ASH 2026 [S8]
+      → rituximab (recommandation conditionnelle)
       → splénectomie après 12 mois d'évolution
       → autres : fostamatinib, immunosuppresseurs, danazol, dapsone, hydroxychloroquine
 ```
@@ -483,7 +510,7 @@ Après 1re ligne :
   - chirurgie majeure : ≥ 50–80 G/L ; anesthésie périmédullaire : ≥ 70–80 G/L ;
   - neurochirurgie, chirurgie ophtalmologique postérieure : ≥ 100 G/L.
 - **Préparation** : IgIV (effet en 24–48 h) ou cure courte de corticoïdes ; AR-TPO si le geste peut être programmé (délai d'action de 1 à 2 semaines).
-- **Antithrombotiques** : la balance entre risque thrombotique et risque hémorragique se discute au cas par cas ; un antiagrégant ou un anticoagulant est en général envisageable au-dessus de **50 G/L** selon les avis d'experts `[À VÉRIFIER : position du PNDS 2024 et de l'ISTH]`.
+- **Antithrombotiques** : la balance entre risque thrombotique et risque hémorragique se discute au cas par cas ; selon la synthèse HAS 2024, l'objectif est de maintenir les plaquettes **> 50 G/L sous anticoagulant** ne pouvant être interrompu et **> 30 G/L sous antiagrégant**, la prescription étant réévaluée collégialement [S5] `[À VÉRIFIER : position de l'ISTH]`.
 
 ---
 
@@ -507,7 +534,7 @@ Association **IgIV (1 g/kg, à renouveler selon l'évolution)** et **corticoïde
 **Question 4 — Quel bilan d'élimination ?**
 Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholipides ; TSH ; électrophorèse des protéines et dosage pondéral des Ig ; test direct à l'antiglobuline ; groupe-RAI ; recherche d'*H. pylori* selon le contexte. Pas de myélogramme systématique chez cette patiente jeune au tableau typique (consensus international, ASH) [S1, S2] — à discuter si évolution atypique ou échec.
 
-**Évolution.** Plaquettes à 62 G/L à J3, 180 G/L à J10 ; arrêt de la prednisone à J21 sans décroissance prolongée. À 2 mois, rechute à 18 G/L avec purpura discret ; les AAN sont faiblement positifs (1/160) sans autre élément de lupus. Après information et **décision partagée**, un **agoniste du récepteur de la TPO** est débuté (PTI persistant, corticodépendance à éviter) : plaquettes stables entre 60 et 120 G/L. La splénectomie n'est pas envisagée avant 12 mois d'évolution [S1, S2].
+**Évolution.** Plaquettes à 62 G/L à J3, 180 G/L à J10 ; arrêt de la prednisone à J21 sans décroissance prolongée. À 2 mois, rechute à 18 G/L avec purpura discret ; les AAN sont faiblement positifs (1/160) sans autre élément de lupus. Après information et **décision partagée**, un **agoniste du récepteur de la TPO** est débuté (PTI encore « nouvellement diagnostiqué », < 3 mois, en rechute précoce après corticothérapie ; recommandation forte de l'ASH 2026 en deuxième ligne [S8] ; corticodépendance à éviter) : plaquettes stables entre 60 et 120 G/L. La splénectomie n'est pas envisagée avant 12 mois d'évolution [S1, S2].
 
 **Commentaire pédagogique.**
 - Le PTI de l'adulte jeune rechute fréquemment après la corticothérapie : la **corticothérapie prolongée** pour « tenir » la numération est une erreur [S1, S4].
@@ -523,11 +550,11 @@ Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholip
 3. Toujours **éliminer une fausse thrombopénie** à l'EDTA (frottis, tube citraté).
 4. L'examen clinique d'un PTI est **normal hormis le syndrome hémorragique** : une splénomégalie ou des adénopathies remettent en cause le diagnostic.
 5. La gravité se juge sur le **syndrome hémorragique** (score) plus que sur la numération ; bulles buccales et signes neurologiques sont des urgences.
-6. **≥ 30 G/L sans saignement** : surveillance ; **< 30 G/L** : corticoïdes courts (≤ 6 semaines au total, ASH) [S1].
+6. **≥ 30 G/L sans saignement** : surveillance ; **< 30 G/L** : corticoïdes courts (≤ 6 semaines au total, ASH) [S1] — seuil de traitement de 20 G/L (ou saignement) dans la synthèse HAS 2024 [S5] ; l'ASH 2026 suggère d'associer d'emblée un AR-TPO ou le rituximab aux corticoïdes [S8].
 7. **Urgence** : IgIV + corticoïdes ± transfusion plaquettaire (uniquement si hémorragie menaçant le pronostic vital).
-8. Deuxième ligne : **AR-TPO, rituximab, splénectomie** (après 12 mois) — décision partagée [S1, S2].
+8. Deuxième ligne : **AR-TPO** (recommandation forte de l'ASH 2026), **rituximab**, puis splénectomie (après 12 mois) — décision partagée [S2, S8].
 9. **Vaccinations avant splénectomie** et avant rituximab ; sérologie VHB avant rituximab.
-10. Chez l'enfant, l'abstention est la règle en l'absence de saignement significatif [S1, S6].
+10. Chez l'enfant, l'abstention est la règle en l'absence de saignement significatif [S1, S6] — mais le PNDS 2025 recommande un traitement court si les plaquettes sont **≤ 10 G/L** au diagnostic [S6].
 
 ---
 
@@ -541,7 +568,7 @@ Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholip
 - Méconnaître des **schizocytes** (MAT) ou une **TIH** (thromboses sous héparine) en concluant trop vite à un PTI.
 - Prescrire de l'**aspirine** ou un AINS chez un patient thrombopénique (antalgie : paracétamol).
 - Chez la femme enceinte, confondre PTI et **thrombopénie gestationnelle** ou **HELLP syndrome** ; indiquer une césarienne pour le seul motif du PTI.
-- Faire un myélogramme systématique chez l'enfant ou l'adulte jeune typique (non recommandé par l'ASH et le consensus international) — mais l'**omettre chez le sujet de plus de 60 ans** selon le PNDS [S4].
+- Faire un myélogramme systématique chez l'enfant ou l'adulte jeune typique (non recommandé par l'ASH, le consensus international ni le PNDS enfant 2025) — mais l'**omettre chez le sujet de plus de 60 ans** (PNDS 2017 ; la synthèse 2024 le dit « non systématique ») [S4, S5, S6].
 
 ---
 
@@ -584,7 +611,7 @@ Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholip
 **QCM 5** (`QCM-HEMA-0817`) — Concernant le myélogramme dans le bilan d'un PTI de l'adulte, quelles propositions sont exactes ?
 
 - A. Le consensus international de 2019 ne le juge pas nécessaire en cas de thrombopénie isolée typique avec frottis normal.
-- B. Le PNDS français le recommande chez le sujet de plus de 60 ans.
+- B. Le PNDS français de 2017 le recommandait chez le sujet de plus de 60 ans.
 - C. Il montre classiquement une moelle pauvre en mégacaryocytes dans le PTI.
 - D. Il est indiqué en cas d'échec de la première ligne de traitement.
 - E. Il est indiqué en cas d'anomalie des autres lignées.
@@ -661,14 +688,14 @@ Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholip
 
 **QCM 5** — Réponses : **A, B, D, E**. Le myélogramme n'est pas nécessaire dans une forme typique (ASH, ICR), mais le PNDS le recommande après 60 ans (myélodysplasie), en cas d'atypie, d'échec thérapeutique ou avant splénectomie. Dans le PTI, la moelle est riche en mégacaryocytes.
   - A : Vrai : position du consensus international 2019.
-  - B : Vrai : élimination d'une myélodysplasie.
+  - B : Vrai : élimination d'une myélodysplasie (PNDS 2017 ; la synthèse de 2024 le dit « non systématique », indications à vérifier dans le texte complet).
   - C : Faux : les mégacaryocytes sont normaux ou augmentés (origine périphérique).
   - D : Vrai : remise en cause du diagnostic.
   - E : Vrai : suspicion de cause centrale.
 
 **QCM 6** — Réponses : **A, B, C, D**. L'ASH 2019 recommande l'observation au-dessus de 30 G/L chez l'adulte peu symptomatique, suggère une corticothérapie en dessous, limite la prednisone à 6 semaines au total et admet la dexaméthasone. L'objectif est d'éviter les saignements graves, pas de normaliser la numération.
-  - A : Vrai : recommandation de l'ASH 2019.
-  - B : Vrai : suggestion de l'ASH 2019.
+  - A : Vrai : recommandation (forte) de l'ASH 2019, non modifiée en 2026.
+  - B : Vrai : suggestion de l'ASH 2019 ; le seuil n'a pas changé en 2026, mais l'ASH 2026 suggère d'associer un AR-TPO ou le rituximab aux corticoïdes.
   - C : Vrai : pour limiter la toxicité cumulative.
   - D : Vrai : schéma alternatif.
   - E : Faux : on vise une numération hémostatique, pas la normalisation.
@@ -705,13 +732,14 @@ Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholip
 
 ## 21. Divergences entre recommandations
 
-| Thème | ASH 2019 [S1] | Consensus international 2019 [S2] | HAS / PNDS (2017, synthèse adulte 2024) [S4, S5] |
+| Thème | ASH 2019 [S1] (mise à jour ciblée 2026 [S8]) | Consensus international 2019 [S2] | HAS / PNDS (2017, synthèse adulte 2024) [S4, S5] |
 |---|---|---|---|
-| Seuil de traitement chez l'adulte nouvellement diagnostiqué | Observation si ≥ 30 G/L sans saignement significatif ; corticoïdes suggérés si < 30 G/L | Décision individualisée selon saignement, terrain et préférences | Traitement guidé par le **score hémorragique** et la numération (< 30 G/L) |
+| Seuil de traitement chez l'adulte nouvellement diagnostiqué | Observation si ≥ 30 G/L sans saignement significatif ; corticoïdes suggérés si < 30 G/L (seuils inchangés en 2026) | Décision individualisée selon saignement, terrain et préférences | Pas de traitement en général au-dessus de **20 G/L** sans saignement ni comorbidité (une courte corticothérapie au diagnostic reste utile) ; hospitalisation et traitement si < 20 G/L ou saignement, guidé par le **score hémorragique** ; seuil de 50 G/L sous anticoagulant |
+| Traitement initial | ASH 2026 : corticoïdes **+ AR-TPO ou + rituximab** plutôt que corticoïdes seuls (conditionnelle, faible certitude) [S8] | Corticoïdes ± IgIV | Corticoïdes (prednisone ou dexaméthasone) ± IgIV si score élevé |
 | Durée de la corticothérapie | ≤ 6 semaines au total (décroissance incluse) | Cures courtes ; éviter l'exposition prolongée | Prednisone 2–3 semaines puis arrêt rapide sans décroissance prolongée |
 | Myélogramme initial | Non nécessaire dans une forme typique | Non nécessaire en cas de thrombopénie isolée avec frottis normal | Recommandé après **60 ans**, en cas d'atypie, d'échec ou avant splénectomie |
-| Deuxième ligne de l'adulte | AR-TPO ou splénectomie suggérés ; AR-TPO plutôt que rituximab ; rituximab plutôt que splénectomie `[À VÉRIFIER : formulation exacte des suggestions ASH]` | AR-TPO, rituximab, fostamatinib, splénectomie, selon le patient | AR-TPO et rituximab avant la splénectomie ; splénectomie après 12 mois |
-| Enfant sans saignement significatif | Observation quelle que soit la numération | Observation possible | Abstention sauf score hémorragique élevé (PNDS enfant 2025 [S6]) |
+| Deuxième ligne de l'adulte | 2019 (recommandations désormais retirées) : AR-TPO ou splénectomie ; AR-TPO plutôt que rituximab ; rituximab plutôt que splénectomie. **2026** : AR-TPO (forte) ou rituximab (conditionnelle), puis inhibiteur de BTK, MMF ou inhibiteur de SYK ; splénectomie ≥ 1 an après le diagnostic [S8] | AR-TPO, rituximab, fostamatinib, splénectomie, selon le patient | AR-TPO et rituximab avant la splénectomie ; splénectomie après 12 mois |
+| Enfant sans saignement significatif | Observation quelle que soit la numération | Observation possible | PNDS enfant 2025 : traitement (corticoïdes 4 j ou IgIV) si plaquettes **≤ 10 G/L** quel que soit le score, ou si score 3a/3b ; abstention au-dessus de 10 G/L sans facteur de risque [S6] |
 | Recherche d'*H. pylori* | Éradication si infection documentée | À considérer chez l'adulte, surtout en région de forte prévalence | Selon le contexte |
 
 **Lecture critique** : les divergences portent moins sur les molécules que sur l'**ordre** des traitements et les **critères** de décision (numération vs score hémorragique). Toutes les sources insistent sur la **décision partagée** et la limitation de la corticothérapie.
@@ -724,6 +752,8 @@ Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholip
 2. **[S2]** Provan D, Arnold DM, Bussel JB, et al. Updated international consensus report on the investigation and management of primary immune thrombocytopenia. *Blood Adv*. 2019;3(22):3780-3817. doi:10.1182/bloodadvances.2019000812 — vérifiée.
 3. **[S3]** Rodeghiero F, Stasi R, Gernsheimer T, et al. Standardization of terminology, definitions and outcome criteria in immune thrombocytopenic purpura of adults and children. *Blood*. 2009;113(11):2386-2393. doi:10.1182/blood-2008-07-162503 — vérifiée.
 4. **[S4]** HAS. PNDS — Purpura thrombopénique immunologique de l'enfant et de l'adulte. Mai 2017. — vérifiée (existence ; remplacé pour l'adulte par l'actualisation 2024 et pour l'enfant par le PNDS 2025).
-5. **[S5]** HAS / CeReCAI. Synthèse à destination du médecin traitant — PTI de l'adulte. Décembre 2024. — vérifiée (existence).
-6. **[S6]** HAS / CEREVANCE. PNDS — PTI de l'enfant et de l'adolescent. 2025. — vérifiée (existence).
-7. **[S7]** Khellaf M, Michel M, Schaeffer A, Bierling P, Godeau B. Assessment of a therapeutic strategy for adults with severe autoimmune thrombocytopenic purpura based on a bleeding score rather than platelet count. *Haematologica*. 2005;90(6):829-832. — **non vérifiée**.
+5. **[S5]** HAS / CeReCAI. Synthèse à destination du médecin traitant — PTI de l'adulte. Décembre 2024. — vérifiée (texte lu par l'audit ; le texte complet du PNDS adulte 2024 n'a pas été consulté).
+6. **[S6]** HAS / CEREVANCE. PNDS — PTI de l'enfant et de l'adolescent. Version de janvier 2025. — vérifiée (texte intégral lu par l'audit).
+7. **[S7]** Khellaf M, Michel M, Schaeffer A, Bierling P, Godeau B. Assessment of a therapeutic strategy for adults with severe autoimmune thrombocytopenic purpura based on a bleeding score rather than platelet count. *Haematologica*. 2005;90(6):829-832. PMID 15951296 — vérifiée (résumé lu par l'audit).
+8. **[S8]** Cuker A, Terrell DR, Sowdagar H, et al. American Society of Hematology 2026 guidelines for immune thrombocytopenia: initial and second-line therapy for adults with primary ITP. *Blood Adv*. 2026;10(20):7076-7097. doi:10.1182/bloodadvances.2026021269 — vérifiée (texte intégral lu par l'audit ; remplace les recommandations 5 à 9 de l'ASH 2019).
+9. **[S9]** RCP de Revolade, Nplate, Doptelet (rubrique 4.2) et d'Exacyl (posologies reprises dans le PNDS Hémophilie HAS 2023). — vérifiés pendant l'audit.
