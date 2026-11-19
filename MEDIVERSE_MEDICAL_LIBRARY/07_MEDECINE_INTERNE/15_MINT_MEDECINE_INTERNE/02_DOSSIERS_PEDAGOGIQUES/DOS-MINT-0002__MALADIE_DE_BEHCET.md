@@ -6,11 +6,24 @@ sous_specialite: "Vascularites"
 items_residanat: [RES-MED-158]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-09 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MINT-0002.md
+    remarque: "Critères ISG 1990 et ICBD 2014, stratégie EULAR 2018 et données maghrébines (Ghembaza 2017, Tunisie 2006, de Menthon 2009 : résumés relus) conformes. PNDS 2019 relu en texte intégral : divergence sur l'anticoagulation des thromboses veineuses et cérébrales précisée ; choix anti-TNF/IFN-α selon le risque tuberculeux ; grossesse ; prévention de la tuberculose (OMS 2024). Texte intégral EULAR 2018 non relu ; instruction algérienne ITL 2024 non relue ; chiffres Behçet Maghreb 2009 non lus."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 10
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MINT-0002.md
+    remarque: "Les 9 marqueurs posologiques levés d'après le PNDS 2019 (Encadrés 1 à 3 et chapitre 4) : colchicine, aprémilast, corticothérapie, azathioprine (TPMT), ciclosporine, interféron alpha, infliximab/adalimumab, cyclophosphamide, thalidomide ; doses du cas commenté précisées. Aucun marqueur posologique restant."
 sources:
   - id: S1
     reference: "International Study Group for Behçet's Disease. Criteria for diagnosis of Behçet's disease. Lancet. 1990;335(8697):1078-1080."
@@ -116,13 +129,37 @@ sources:
     doi: ""
     url: "https://www.sapp.dz/wp-content/uploads/2024/03/Instrcution-tuberculose-latente.pdf"
     verifiee: false
+  - id: S14
+    reference: "Résumés des caractéristiques du produit (RCP) des spécialités citées (AMM européennes, EPAR de l'EMA, ou AMM nationales), versions en vigueur."
+    organisme: "EMA / autorités nationales"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/medicines"
+    verifiee: false
+  - id: S15
+    reference: "World Health Organization. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment. 2nd ed. Geneva: WHO; 2024. ISBN 9789240096196."
+    organisme: "OMS"
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/378536"
+    verifiee: true
+  - id: S16
+    reference: "Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm - part 2: Specific clinical and comorbid situations. J Dtsch Dermatol Ges. 2026;24(2):270-282."
+    organisme: "DDG / BVDD (avec la DGP pour le chapitre tuberculose)"
+    annee: 2026
+    type: recommandation
+    doi: "10.1111/ddg.16001"
+    url: ""
+    verifiee: true
 mots_cles: [maladie de Behçet, aphtose bipolaire, pseudo-folliculite, test pathergique, HLA-B51, uvéite, vascularite de taille variable, thrombose veineuse, anévrisme artériel pulmonaire, neuro-Behçet, colchicine, azathioprine, anti-TNF, interféron alpha, critères ISG 1990, ICBD 2014, Algérie, Maghreb]
 ---
 
 # Maladie de Behçet : diagnostic, formes cliniques et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-158 — « Maladie de Behçet » (module Maladies systémiques).
 
@@ -374,7 +411,7 @@ Il n'existe **aucun test diagnostique** ; les examens servent à :
 | Forme | Particularités |
 |---|---|
 | **Homme jeune** | Formes sévères : uvéite postérieure, thromboses, anévrismes, neuro-Behçet ; mortalité plus élevée [S10, S3] |
-| **Femme** | Plus d'érythème noueux et d'atteinte articulaire [S10] ; grossesse possible, colchicine habituellement poursuivie **[À VÉRIFIER — RCP]** |
+| **Femme** | Plus d'érythème noueux et d'atteinte articulaire [S10] ; grossesse possible (après au moins 12 mois de rémission dans les formes graves) ; colchicine poursuivie à la même dose ; azathioprine, ciclosporine et anti-TNF autorisés si leur poursuite est justifiée ; œstrogènes à éviter en cas d'atteinte vasculaire [S4] |
 | **Forme pédiatrique** | Rare ; rechercher une forme monogénique (début précoce, antécédents familiaux) [S5] |
 | **Forme vasculaire** (« angio-Behçet ») | Thromboses veineuses récidivantes, Budd-Chiari, anévrismes pulmonaires |
 | **Neuro-Behçet** | Parenchymateux (tronc cérébral) ou thrombose veineuse cérébrale |
@@ -429,15 +466,15 @@ Selon les principes généraux des recommandations EULAR 2018 et du PNDS frança
 | Moyen | Indications principales [S3, S4] | Points de vigilance | Posologie |
 |---|---|---|---|
 | **Soins locaux** : bains de bouche, corticoïdes topiques, anesthésiques locaux ; hygiène bucco-dentaire | Aphtes buccaux et génitaux | Traitement des foyers dentaires | Selon les produits |
-| **Colchicine** | **Première intention** des atteintes cutanéo-muqueuses (prévention des récidives, surtout érythème noueux et aphtose génitale) et des **arthrites** [S3, S4] | Diarrhée ; toxicité en cas d'insuffisance rénale ou d'interaction (macrolides, certains antifongiques) | **[POSOLOGIE À VÉRIFIER — RCP]** |
-| **Aprémilast** (inhibiteur de PDE4) | **Ulcérations buccales** résistantes à la colchicine [S3] | Troubles digestifs, céphalées, perte de poids | **[POSOLOGIE À VÉRIFIER — RCP]** |
-| **Glucocorticoïdes** | Poussées sévères (oculaires, neurologiques, vasculaires, digestives), **toujours associés à un immunosuppresseur** dans l'atteinte oculaire postérieure [S3] ; injections intravitréennes en appoint d'une poussée unilatérale | Complications de la corticothérapie | Bolus IV puis voie orale dégressive **[POSOLOGIE À VÉRIFIER]** |
-| **Azathioprine** | Atteinte oculaire postérieure ; thromboses veineuses ; neuro-Behçet parenchymateux ; atteinte digestive ; formes cutanéo-muqueuses ou articulaires réfractaires [S3] | Cytopénies (TPMT), hépatotoxicité, interaction avec l'allopurinol | **[POSOLOGIE À VÉRIFIER — RCP]** |
-| **Ciclosporine** | Atteinte oculaire postérieure ; thromboses veineuses [S3] | **À éviter dans le neuro-Behçet parenchymateux** (neurotoxicité), sauf nécessité oculaire [S3] ; néphrotoxicité, HTA | **[POSOLOGIE À VÉRIFIER — RCP]** |
-| **Interféron alpha** | Atteinte oculaire (dont formes menaçant la vision) ; formes cutanéo-muqueuses réfractaires [S3] | Syndrome pseudo-grippal, dépression, cytopénies ; ne pas associer à l'azathioprine (myélotoxicité) | **[POSOLOGIE À VÉRIFIER — RCP]** |
-| **Anticorps monoclonaux anti-TNF** (infliximab, adalimumab) | Uvéite postérieure sévère ou réfractaire, formes vasculaires, neurologiques ou digestives sévères/réfractaires [S3] | **Dépistage et traitement de la tuberculose latente obligatoires**, sérologies VHB/VHC/VIH [S12, S13] | **[POSOLOGIE À VÉRIFIER — RCP]** |
-| **Cyclophosphamide** | **Anévrismes artériels** (pulmonaires, aortiques, périphériques) avec glucocorticoïdes [S3] | Toxicité gonadique, vésicale, infectieuse | **[POSOLOGIE À VÉRIFIER — protocole]** |
-| **Thalidomide** | Formes digestives réfractaires, cutanéo-muqueuses sévères [S3] | **Tératogène** (programme de prévention de la grossesse), neuropathie, thromboses | **[POSOLOGIE À VÉRIFIER — RCP]** |
+| **Colchicine** | **Première intention** des atteintes cutanéo-muqueuses (prévention des récidives, surtout érythème noueux et aphtose génitale) et des **arthrites** [S3, S4] | Diarrhée ; toxicité en cas d'insuffisance rénale ou d'interaction (macrolides, certains antifongiques, pamplemousse) | 1 à 2 mg/j, à poursuivre au moins 3 à 6 mois avant de conclure à l'inefficacité ; dose adaptée à la fonction rénale et hépatique [S4] |
+| **Aprémilast** (inhibiteur de PDE4) | **Ulcérations buccales** résistantes à la colchicine [S3] | Troubles digestifs, céphalées, perte de poids | 30 mg × 2/j [S4], atteints après une titration de 5 jours (RCP) [S14] |
+| **Glucocorticoïdes** | Poussées sévères (oculaires, neurologiques, vasculaires, digestives), **toujours associés à un immunosuppresseur** dans l'atteinte oculaire postérieure [S3] ; injections intravitréennes en appoint d'une poussée unilatérale | Complications de la corticothérapie | Formes graves (neurologiques, vasculaires) : bolus de méthylprednisolone 500 mg/j pendant 3 jours, puis prednisone 1 mg/kg/j (≤ 80 mg/j) pendant 3 semaines, décroissance à 15–20 mg/j à 3 mois et ≤ 0,1 mg/kg/j à 6 mois ; uvéite postérieure : 0,5 à 1 mg/kg/j, ± bolus de 500 mg/j pendant 3 jours ; atteinte digestive ou thrombose veineuse non grave : 0,5 mg/kg/j [S4] |
+| **Azathioprine** | Atteinte oculaire postérieure ; thromboses veineuses ; neuro-Behçet parenchymateux ; atteinte digestive ; formes cutanéo-muqueuses ou articulaires réfractaires [S3] | Cytopénies (TPMT), hépatotoxicité ; allopurinol et fébuxostat contre-indiqués | 2 mg/kg/j (≤ 200 mg/j ; jusqu'à 3 mg/kg/j si réponse partielle) ; recherche d'un déficit en TPMT (génotype ou phénotype) recommandée par le CPIC et le réseau français de pharmacogénétique, sans dispenser d'une NFS hebdomadaire le premier mois, puis mensuelle 3 mois, puis trimestrielle [S4] |
+| **Ciclosporine** | Atteinte oculaire postérieure ; thromboses veineuses [S3] | **À éviter dans le neuro-Behçet parenchymateux** (neurotoxicité), sauf nécessité oculaire [S3] ; néphrotoxicité, HTA | 3 mg/kg/j [S4] |
+| **Interféron alpha** | Atteinte oculaire (dont formes menaçant la vision) ; formes cutanéo-muqueuses réfractaires [S3] | Syndrome pseudo-grippal, dépression, cytopénies ; ne pas associer à l'azathioprine (myélotoxicité) | IFN-α2a 3 millions d'unités SC 3 fois par semaine [S4] (disponibilité des spécialités à vérifier) |
+| **Anticorps monoclonaux anti-TNF** (infliximab, adalimumab) | Uvéite postérieure sévère ou réfractaire, formes vasculaires, neurologiques ou digestives sévères/réfractaires [S3] | **Dépistage et traitement de la tuberculose latente obligatoires**, sérologies VHB/VHC/VIH [S12, S13] | Infliximab 5 mg/kg IV à S0, S2, S6 puis toutes les 6 semaines ; adalimumab 80 mg SC puis 40 mg toutes les 2 semaines [S4] |
+| **Cyclophosphamide** | **Anévrismes artériels** (pulmonaires, aortiques, périphériques) avec glucocorticoïdes [S3] | Toxicité gonadique, vésicale, infectieuse ; hydratation, Mesna, préservation de la fertilité | 0,7 g/m² IV toutes les 4 semaines (≤ 1,2 g par bolus ; 15 mg/kg dans l'algorithme du PNDS), 6 bolus, puis relais par azathioprine 2 à 4 semaines après le dernier bolus [S4] |
+| **Thalidomide** | Formes digestives réfractaires, cutanéo-muqueuses sévères [S3] | **Tératogène** (programme de prévention de la grossesse), neuropathie, thromboses | 50 à 100 mg/j [S4] |
 | **Anticoagulants** | Thromboses veineuses : peuvent être **ajoutés** aux immunosuppresseurs si le risque hémorragique est faible et après avoir **exclu un anévrisme artériel pulmonaire** [S3] ; thrombose veineuse cérébrale : courte durée [S3] | Risque d'hémoptysie massive si anévrisme méconnu | Selon protocole |
 | **Aspirine à dose antiagrégante** | Envisagée en cas d'**atteinte artérielle sténosante** [S4] | Risque hémorragique | Selon protocole |
 | **Radiologie interventionnelle / chirurgie** | Embolisation des anévrismes artériels pulmonaires hémorragiques ; chirurgie ou endoprothèse des anévrismes aortiques et périphériques, **sous immunosuppression** (risque d'anévrisme anastomotique) [S3] ; urgences digestives (perforation, hémorragie) | Pathergie : faux anévrismes aux points de ponction | — |
@@ -489,11 +526,11 @@ Selon les principes généraux des recommandations EULAR 2018 et du PNDS frança
      ou occlusion
 ```
 
-Les formulations exactes de chaque recommandation (niveaux de preuve) sont à relire dans le texte EULAR 2018 et le PNDS 2019 **[À VÉRIFIER avant usage clinique]**.
+Le texte intégral du PNDS 2019 a été relu lors de l'audit [S4] ; les formulations exactes et les niveaux de preuve des recommandations EULAR 2018 restent à relire dans le texte original **[À VÉRIFIER — texte EULAR 2018]** [S3]. Le PNDS fait dépendre le choix entre anti-TNF et interféron alpha du **risque tuberculeux**, de la tolérance à l'interféron et de l'expérience du clinicien [S4].
 
 ### 13.4 Particularités algériennes
 - **Fréquence élevée** de la maladie au Maghreb et profil masculin à atteintes oculaires et vasculaires fréquentes [S9, S10] : examen ophtalmologique systématique, recherche d'atteinte vasculaire devant tout signe d'appel.
-- **Tuberculose** : diagnostic différentiel majeur (uvéite, atteinte neuroméningée, ulcérations intestinales) et risque de réactivation sous immunosuppresseurs et anti-TNF ; dépistage de l'ITL selon l'instruction nationale de 2024 avant ces traitements [S12, S13].
+- **Tuberculose** : diagnostic différentiel majeur (uvéite, atteinte neuroméningée, ulcérations intestinales) et risque de réactivation sous immunosuppresseurs et anti-TNF ; dépistage de l'ITL avant ces traitements [S12, S13]. Schémas préventifs de l'OMS 2024 : 6 ou 9 mois d'isoniazide (6H, 9H), 3HP, 3HR, alternatives 1HP et 4R [S15] ; les rifamycines diminuent l'exposition aux corticoïdes et à la ciclosporine. Délai avant l'immunosuppression non fixé par l'OMS (4 semaines suggérées par la recommandation S3 allemande 2026 [S16]), à mettre en balance avec l'urgence d'une atteinte menaçant la vision ou la vie ; schémas et délai de l'instruction nationale 2024 **à confirmer** [S13].
 - **Brucellose** : diagnostic différentiel des atteintes neuroméningées, articulaires et des orchi-épididymites.
 - **Accès aux molécules** (aprémilast, interféron alpha, anti-TNF) : selon la nomenclature nationale et les établissements **[À VÉRIFIER]**.
 
@@ -557,7 +594,7 @@ DEVANT UNE THROMBOSE VEINEUSE + HÉMOPTYSIE CHEZ UN HOMME JEUNE
 1. *Diagnostic ?* — Aphtose buccale récidivante + aphtose génitale + lésions cutanées + atteinte oculaire (+ pathergie spontanée au point de ponction) : critères **ISG 1990** remplis [S1] ; **ICBD 2014** : œil 2 + génital 2 + buccal 2 + peau 1 + vasculaire 1 (+ pathergie 1) = 8–9 ≥ 4 [S2]. HLA-B51 positif : argument de terrain, non nécessaire [S8].
 2. *Gravité ?* — Homme jeune avec **panuvéite et vascularite rétinienne occlusive** (menace visuelle) et antécédent de thrombose veineuse profonde : forme **majeure** [S3, S10].
 3. *Bilan complémentaire indispensable ?* — Écho-Doppler de contrôle ; **angioscanner thoracique** pour éliminer un anévrisme artériel pulmonaire avant toute réintroduction d'anticoagulant ; IRM cérébrale à discuter.
-4. *Traitement ?* — Poussée menaçant la vision : **corticoïdes à forte dose** (bolus IV puis relais oral) associés d'emblée à un **anti-TNF monoclonal (infliximab)** ou à l'interféron alpha, puis immunosuppression de fond (azathioprine possible) [S3] **[POSOLOGIES À VÉRIFIER — RCP]**. Comme l'IGRA est positif, une **tuberculose active est éliminée**, puis un **traitement de l'ITL** est débuté selon l'instruction nationale [S13] ; l'anti-TNF est introduit en concertation selon le délai prévu, l'urgence visuelle pouvant faire privilégier l'interféron alpha ou les corticoïdes avec un immunosuppresseur en attendant **[à discuter en RCP]**. Colchicine pour la composante cutanéo-muqueuse. Thrombose veineuse : traitée par l'immunosuppression ; l'anticoagulation n'est envisagée qu'après exclusion d'un anévrisme pulmonaire [S3].
+4. *Traitement ?* — Poussée menaçant la vision : **corticoïdes à forte dose** (bolus IV puis relais oral) associés d'emblée à un **anti-TNF monoclonal (infliximab)** ou à l'interféron alpha, puis immunosuppression de fond (azathioprine possible, mais jamais associée à l'interféron) [S3] ; doses du PNDS : prednisone 0,5 à 1 mg/kg/j précédée de bolus de méthylprednisolone 500 mg/j pendant 3 jours, infliximab 5 mg/kg à S0, S2, S6 puis toutes les 6 semaines ou IFN-α2a 3 MU 3 fois par semaine, azathioprine 2 mg/kg/j [S4]. Comme l'IGRA est positif, une **tuberculose active est éliminée**, puis un **traitement de l'ITL** est débuté selon l'instruction nationale [S13] ; l'anti-TNF est introduit en concertation selon le délai prévu, l'urgence visuelle pouvant faire privilégier l'interféron alpha ou les corticoïdes avec un immunosuppresseur en attendant (le PNDS fait dépendre le choix anti-TNF/interféron du risque tuberculeux [S4] ; décision en réunion de concertation pluridisciplinaire). Colchicine pour la composante cutanéo-muqueuse. Thrombose veineuse : traitée par l'immunosuppression ; l'anticoagulation n'est envisagée qu'après exclusion d'un anévrisme pulmonaire [S3].
 5. *Pourquoi ne pas utiliser la ciclosporine si une atteinte neurologique apparaissait ?* — Neurotoxicité : à éviter dans le neuro-Behçet parenchymateux [S3].
 
 **Évolution.** À 3 mois : acuité 7/10, disparition de la hyalite ; pas de nouvelle thrombose. Poursuite de l'immunosuppression de fond avec surveillance ophtalmologique rapprochée et vigilance tuberculeuse.
@@ -793,9 +830,9 @@ DEVANT UNE THROMBOSE VEINEUSE + HÉMOPTYSIE CHEZ UN HOMME JEUNE
 |---|---|---|---|
 | Critères diagnostiques | **ISG 1990** : aphtose buccale obligatoire + ≥ 2 critères ; spécifiques, moins sensibles [S1] | **ICBD 2014** : système à points (≥ 4), aphtose buccale non obligatoire, manifestations vasculaires et neurologiques intégrées ; plus sensibles [S2] | Les deux sont utilisés ; ce sont des aides, le diagnostic reste clinique [S4] |
 | Test pathergique | **ISG 1990** : critère à part entière [S1] | **ICBD 2014** : critère **optionnel** (1 point) [S2] | Positivité très variable selon les populations (20 % à 51 % au Maghreb [S9, S10]) |
-| Anticoagulation des thromboses veineuses | **EULAR 2018** : traitement principal par glucocorticoïdes et immunosuppresseurs ; anticoagulants « pouvant être ajoutés » si risque hémorragique faible et anévrisme pulmonaire exclu [S3] | **Pratique française (PNDS 2019)** : place de l'anticoagulation associée aux immunosuppresseurs discutée de façon plus large selon le territoire **[formulation exacte À VÉRIFIER dans le PNDS]** [S4] | Accord sur un point : jamais d'anticoagulation sans avoir exclu un anévrisme artériel pulmonaire |
+| Anticoagulation des thromboses veineuses | **EULAR 2018** : traitement principal par glucocorticoïdes et immunosuppresseurs ; anticoagulants « pouvant être ajoutés » si risque hémorragique faible et anévrisme pulmonaire exclu [S3] | **PNDS 2019** : anticoagulation curative **recommandée** dans les thromboses veineuses, après évaluation du risque hémorragique et recherche d'un anévrisme artériel, pendant 3 à 6 mois (prolongée en cas de thrombose cave ou sus-hépatique) ; thrombose veineuse cérébrale : anticoagulation curative, en général 12 à 18 mois (EULAR 2018 : courte durée) [S4] | Divergence réelle sur la place et la durée de l'anticoagulation ; accord sur un point : jamais d'anticoagulation sans avoir exclu un anévrisme artériel pulmonaire |
 | Atteinte artérielle sténosante | **PNDS 2019** : aspirine à dose antiagrégante envisagée [S4] | **EULAR 2018** : centré sur les anévrismes (cyclophosphamide + corticoïdes, chirurgie/embolisation) ; pas de position équivalente identifiée **[À VÉRIFIER]** [S3] | Données limitées |
-| Traitement de l'uvéite postérieure | **EULAR 2018** : azathioprine, ciclosporine, interféron alpha ou anti-TNF monoclonal (choix individualisé) ; poussée menaçant la vision : corticoïdes forte dose + infliximab ou interféron alpha [S3] | **PNDS 2019** : place des biothérapies (anti-TNF) soulignée dans les formes sévères du fait des nombreuses données récentes [S5] | En Algérie, l'accès aux anti-TNF et à l'interféron et le risque tuberculeux pèsent dans le choix |
+| Traitement de l'uvéite postérieure | **EULAR 2018** : azathioprine, ciclosporine, interféron alpha ou anti-TNF monoclonal (choix individualisé) ; poussée menaçant la vision : corticoïdes forte dose + infliximab ou interféron alpha [S3] | **PNDS 2019** : uvéite postérieure non sévère : corticoïdes + azathioprine (2 mg/kg/j) ou ciclosporine (3 mg/kg/j) ; uvéite sévère (baisse d'acuité, vascularite occlusive, œdème maculaire) : corticoïdes + anti-TNF (infliximab, adalimumab), interféron alpha en alternative [S4, S5] | En Algérie, l'accès aux anti-TNF et à l'interféron et le risque tuberculeux pèsent dans le choix, comme le prévoit le PNDS [S4] |
 | Aphtose buccale résistante | **EULAR 2018** : aprémilast [S3] | Disponibilité locale variable **[À VÉRIFIER — nomenclature nationale]** | Alternatives : azathioprine, interféron, anti-TNF dans des cas sélectionnés [S3] |
 
 ## 22. Références
@@ -803,7 +840,7 @@ DEVANT UNE THROMBOSE VEINEUSE + HÉMOPTYSIE CHEZ UN HOMME JEUNE
 1. **[S1]** International Study Group for Behçet's Disease. Criteria for diagnosis of Behçet's disease. *Lancet.* 1990;335(8697):1078-1080 — vérifiée (Europe PMC, PMID 1970380).
 2. **[S2]** International Team for the Revision of the ICBD (ITR-ICBD). The International Criteria for Behçet's Disease (ICBD): a collaborative study of 27 countries on the sensitivity and specificity of the new criteria. *J Eur Acad Dermatol Venereol.* 2014;28(3):338-347. doi:10.1111/jdv.12107 — vérifiée (catalogue REC-0465).
 3. **[S3]** Hatemi G, Christensen R, Bang D, et al. 2018 update of the EULAR recommendations for the management of Behçet's syndrome. *Ann Rheum Dis.* 2018;77(6):808-818. doi:10.1136/annrheumdis-2018-213225 — vérifiée (REC-0464 ; résumé relu).
-4. **[S4]** HAS ; CeRéMAIA ; filière FAI²R. PNDS « Maladie de Behçet ». Décembre 2019. https://www.has-sante.fr/upload/docs/application/pdf/2020-01/pnds_behcet_vf_171219.pdf — existence vérifiée (WebSearch) ; texte intégral non relu.
+4. **[S4]** HAS ; CeRéMAIA ; filière FAI²R. PNDS « Maladie de Behçet ». Décembre 2019. https://www.has-sante.fr/upload/docs/application/pdf/2020-01/pnds_behcet_vf_171219.pdf — vérifiée ; texte intégral relu par AUD-01 le 2026-11-19 (chapitre 4, Encadrés 1 à 3).
 5. **[S5]** Kone-Paut I, Barete S, Bodaghi B, et al. French recommendations for the management of Behçet's disease. *Orphanet J Rare Dis.* 2021;16(Suppl 1):352. doi:10.1186/s13023-020-01620-4 — vérifiée (PMID 33622338 ; résumé relu).
 6. **[S6]** Yazici Y, Hatemi G, Bodaghi B, et al. Behçet syndrome. *Nat Rev Dis Primers.* 2021;7(1):67. doi:10.1038/s41572-021-00301-1 — vérifiée (PMID 34531393 ; résumé relu).
 7. **[S7]** Mahr A, Maldini C. Épidémiologie de la maladie de Behçet. *Rev Med Interne.* 2014;35(2):81-89. doi:10.1016/j.revmed.2013.12.005 — vérifiée (PMID 24398415 ; résumé relu).
@@ -812,4 +849,7 @@ DEVANT UNE THROMBOSE VEINEUSE + HÉMOPTYSIE CHEZ UN HOMME JEUNE
 10. **[S10]** B'chir Hamzaoui S, Harmel A, Bouslama K, et al. La maladie de Behçet en Tunisie. Étude clinique de 519 cas. *Rev Med Interne.* 2006;27(10):742-750. doi:10.1016/j.revmed.2006.07.019 — vérifiée (PMID 16987570 ; résumé relu).
 11. **[S11]** B'chir-Hamzaoui S, Larbi T, Abdallah M, et al. Behçet's disease in Maghreb: Behcet Maghreb study about 1460 cases. *Rev Med Interne.* 2009;30(Suppl 4):S229-S231. doi:10.1016/j.revmed.2009.09.019 — existence vérifiée (PMID 19913958) ; contenu non relu.
 12. **[S12]** Fragoulis GE, Nikiphorou E, Dey M, et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with AIIRD. *Ann Rheum Dis.* 2023;82(6):742-753. doi:10.1136/ard-2022-223335 — vérifiée (PMID 36328476).
-13. **[S13]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.
+13. **[S13]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ni par AUD-01 (hôte .dz inaccessible) ; contenu non relu **[À VÉRIFIER]**.
+14. **[S14]** Résumés des caractéristiques du produit (RCP) des spécialités citées (EPAR de l'EMA ou AMM nationales), versions en vigueur — non consultés pendant l'audit (site de l'EMA inaccessible depuis la session) ; posologies d'AMM standard, à recouper sur le RCP en vigueur **[À VÉRIFIER]**.
+15. **[S15]** OMS. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment, 2e éd. Genève : OMS ; 2024 — vérifiée (catalogue REC-0263, document DOC-00027 relu par AUD-01).
+16. **[S16]** Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm – part 2: Specific clinical and comorbid situations. *J Dtsch Dermatol Ges.* 2026;24(2):270-282. doi:10.1111/ddg.16001 — vérifiée (PMID 41641952 ; texte intégral en accès libre relu, chapitre tuberculose).

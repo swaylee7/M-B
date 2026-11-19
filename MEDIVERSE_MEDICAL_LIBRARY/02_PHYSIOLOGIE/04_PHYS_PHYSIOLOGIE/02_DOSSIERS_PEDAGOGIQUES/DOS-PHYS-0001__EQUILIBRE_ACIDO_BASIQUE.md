@@ -861,7 +861,7 @@ Biologie : glycémie 28 mmol/L ; Na+ 132 mmol/L ; K+ 5,4 mmol/L ; Cl- 88 mmol/L 
 
 ## 20. QCM d'auto-évaluation
 
-*10 questions originales (également versées dans la banque Mediverse, lot DOS-13). Réponses multiples possibles sauf mention QCS.*
+*8 questions originales (également versées dans la banque Mediverse, lot DOS-13). Réponses multiples possibles sauf mention QCS.*
 
 ### QCM 1 — Équilibre acido-basique — équation d'Henderson-Hasselbalch
 
@@ -1006,42 +1006,6 @@ Devant une acidose métabolique à trou anionique normal, quelles propositions s
 - C — Faux : hyperkaliémie (hypoaldostéronisme ou résistance).
 - D — Faux : les cétoanions urinaires faussent le calcul.
 - E — Vrai : inhibition de l'anhydrase carbonique proximale.
-
-### QCM 9 — Alcalose métabolique — génération et entretien
-
-Une femme de 45 ans vomit depuis 5 jours (sténose pyloro-duodénale). Gaz du sang : pH 7,52 ; HCO3- 38 mmol/L ; PaCO2 48 mmHg. Quelles propositions sont exactes ?
-
-- **A.** La chlorurie est attendue basse (< 20-25 mmol/L).
-- **B.** L'alcalose est entretenue par la déplétion chlorée et volémique et par l'hypokaliémie.
-- **C.** L'apport de NaCl et de KCl est le traitement de base.
-- **D.** L'hyperaldostéronisme primaire est une cause d'alcalose chlorosensible.
-- **E.** La PaCO2 est compatible avec la compensation attendue (≈ +0,7 mmHg par mmol/L de HCO3-).
-
-**Réponse(s) : A, B, C, E.** ΔHCO3- = 14 → ΔPaCO2 attendue ≈ 10 mmHg → PaCO2 ≈ 50 : compensation adaptée. Les vomissements génèrent l'alcalose ; la déplétion chlorée, l'hypovolémie et l'hypokaliémie l'entretiennent.
-
-- A — Vrai : alcalose chlorosensible.
-- B — Vrai.
-- C — Vrai.
-- D — Faux : chlororésistante (chlorurie élevée, HTA).
-- E — Vrai.
-
-### QCM 10 — Acidose respiratoire aiguë ou chronique
-
-Un patient BPCO stable a : pH 7,34 ; PaCO2 60 mmHg ; HCO3- 31 mmol/L. Quelles propositions sont exactes ?
-
-- **A.** Si l'hypercapnie était aiguë, les bicarbonates attendus seraient d'environ 26 mmol/L.
-- **B.** Si l'hypercapnie est chronique, les bicarbonates attendus sont d'environ 31 mmol/L.
-- **C.** Le profil est compatible avec une acidose respiratoire chronique compensée.
-- **D.** Il existe obligatoirement une acidose métabolique associée.
-- **E.** L'oxygénothérapie à haut débit corrige l'hypercapnie.
-
-**Réponse(s) : A, B, C.** ΔPaCO2 = 20 mmHg. Aiguë : +0,1 × 20 = +2 → 26 ; chronique : +0,35 × 20 = +7 → 31. Les valeurs correspondent à une acidose respiratoire chronique compensée.
-
-- A — Vrai.
-- B — Vrai.
-- C — Vrai.
-- D — Faux : les bicarbonates sont conformes à la compensation chronique.
-- E — Faux : seule la ventilation élimine le CO2 ; un excès d'O2 peut aggraver l'hypercapnie chez le BPCO.
 
 
 ---

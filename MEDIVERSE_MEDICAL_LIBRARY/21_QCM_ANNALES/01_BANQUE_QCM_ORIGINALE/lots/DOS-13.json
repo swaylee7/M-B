@@ -1,0 +1,677 @@
+{
+  "agent": "DOS-13",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-PHYS-1301",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un sujet sain a un pH artériel de 7,40, une PaCO2 de 40 mmHg et des bicarbonates à 24 mmol/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La concentration en ions H+ libres est d'environ 40 nmol/L.",
+        "B": "Le rapport [HCO3-]/(0,03 × PaCO2) est voisin de 20.",
+        "C": "Le pK' du système acide carbonique/bicarbonate utilisé dans l'équation est de 6,8.",
+        "D": "Un pH de 7,10 correspond à une [H+] proche de 80 nmol/L.",
+        "E": "Le bicarbonate affiché par l'analyseur de gaz du sang est mesuré directement par une électrode spécifique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "pH = 6,1 + log([HCO3-]/0,03 × PaCO2) ; forme d'Henderson : [H+] = 24 × PaCO2/[HCO3-] = 24 × 40/24 = 40 nmol/L. Une baisse de 0,3 unité de pH double [H+].",
+      "explications_par_proposition": {
+        "A": "Vrai : 24 × 40 / 24 = 40 nmol/L.",
+        "B": "Vrai : 24/1,2 = 20 ; log 20 ≈ 1,3 ; 6,1 + 1,3 = 7,4.",
+        "C": "Faux : pK' = 6,1 ; 6,8 est le pK du couple phosphate.",
+        "D": "Vrai : −0,3 unité de pH = doublement de [H+] (≈ 79-80 nmol/L).",
+        "E": "Faux : il est calculé à partir du pH et de la PaCO2 mesurés ; le CO2 total de l'ionogramme est, lui, mesuré."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Équilibre acido-basique — équation d'Henderson-Hasselbalch",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que le bicarbonate des gaz du sang est mesuré.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology, 14e éd. Elsevier 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Berend K et al. N Engl J Med 2014;371:1434-45",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1302",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les systèmes tampons de l'organisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le système bicarbonate/CO2 doit son efficacité au fait qu'il s'agit d'un système ouvert dont les deux composants sont régulés par le poumon et le rein.",
+        "B": "Les phosphates constituent le principal tampon de l'acidité titrable urinaire.",
+        "C": "Le couple NH3/NH4+, de pK voisin de 9,2, est le principal tampon plasmatique.",
+        "D": "La désoxyhémoglobine accepte mieux les protons que l'oxyhémoglobine.",
+        "E": "L'os participe au tamponnement des charges acides chroniques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le couple HCO3-/CO2 (pK' 6,1) est efficace car ouvert ; l'hémoglobine est le principal tampon non bicarbonate du sang (effet Haldane) ; les phosphates tamponnent l'urine ; l'os tamponne lentement les acidoses chroniques.",
+      "explications_par_proposition": {
+        "A": "Vrai : élimination du CO2 par la ventilation, régénération de HCO3- par le rein.",
+        "B": "Vrai : HPO4²⁻ + H+ → H2PO4⁻ (pK 6,8).",
+        "C": "Faux : pK trop élevé ; NH3/NH4+ agit comme piège à protons dans l'urine, pas comme tampon plasmatique.",
+        "D": "Vrai : c'est l'effet Haldane, qui facilite le transport veineux du CO2.",
+        "E": "Vrai : au prix d'une déminéralisation (acidose de l'insuffisance rénale chronique)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Équilibre acido-basique — systèmes tampons",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Considérer l'ammonium comme un tampon plasmatique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology, 3e éd. Elsevier 2017",
+          "date": "2017"
+        },
+        {
+          "reference": "Hamm LL et al. Clin J Am Soc Nephrol 2015;10:2232-42",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1303",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la régulation rénale de l'équilibre acido-basique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Environ 80 % des bicarbonates filtrés sont réabsorbés dans le tubule proximal.",
+        "B": "L'échangeur Na+/H+ NHE3 assure l'essentiel de la sécrétion de protons dans le tubule proximal.",
+        "C": "Chaque ion NH4+ excrété dans l'urine correspond à la génération d'un bicarbonate « neuf ».",
+        "D": "L'acidité titrable est le principal mécanisme d'adaptation à une acidose métabolique chronique.",
+        "E": "L'acétazolamide augmente la réabsorption proximale des bicarbonates."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le rein réabsorbe ≈ 4 300 mmol/j de HCO3- (80 % au tubule proximal via NHE3, anhydrases carboniques IV et II, NBCe1) et excrète l'acide fixe sous forme d'acidité titrable et surtout d'ammonium, mécanisme adaptatif majeur.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : complété par une H+-ATPase.",
+        "C": "Vrai : le métabolisme de la glutamine produit NH4+ et HCO3- ; si NH4+ est excrété, le HCO3- est un gain net.",
+        "D": "Faux : l'acidité titrable, limitée par les phosphates filtrés, s'adapte peu ; c'est l'ammoniogenèse qui augmente fortement.",
+        "E": "Faux : en inhibant l'anhydrase carbonique, elle diminue la réabsorption et provoque une acidose hyperchlorémique."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Équilibre acido-basique — régulation rénale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre acidité titrable et ammoniurie comme mécanisme adaptatif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hamm LL et al. Clin J Am Soc Nephrol 2015;10:2232-42",
+          "date": "2015"
+        },
+        {
+          "reference": "Brenner & Rector's The Kidney, 11e éd. Elsevier 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1304",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient a les gaz du sang artériels suivants : pH 7,25 ; PaCO2 32 mmHg ; HCO3- 12 mmol/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le trouble primaire est une acidose métabolique.",
+        "B": "La PaCO2 attendue selon la formule de Winter est comprise entre 24 et 28 mmHg.",
+        "C": "La compensation respiratoire est adaptée.",
+        "D": "Il existe une acidose respiratoire associée.",
+        "E": "Il existe une alcalose respiratoire associée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "PaCO2 attendue = 1,5 × 12 + 8 ± 2 = 26 ± 2 mmHg. Une PaCO2 mesurée à 32 mmHg est trop haute : la ventilation est insuffisante (épuisement, sédation, BPCO), d'où une acidose mixte métabolique et respiratoire.",
+      "explications_par_proposition": {
+        "A": "Vrai : pH bas et bicarbonates bas.",
+        "B": "Vrai : 26 ± 2.",
+        "C": "Faux : PaCO2 > 28.",
+        "D": "Vrai : PaCO2 supérieure à la valeur attendue.",
+        "E": "Faux : il faudrait une PaCO2 < 24 mmHg."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Gaz du sang — formule de Winter et trouble mixte",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à une compensation correcte parce que la PaCO2 est « basse » (< 40).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Albert MS, Dell RB, Winters RW. Ann Intern Med 1967;66:312-22",
+          "date": "1967"
+        },
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92 (SRLF/SFMU)",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1305",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Patient de réanimation : Na+ 138 mmol/L ; Cl- 104 mmol/L ; HCO3- 16 mmol/L ; albuminémie 20 g/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le trou anionique non corrigé (sans K+) est de 18 mmol/L.",
+        "B": "Le trou anionique corrigé par l'albumine est d'environ 23 mmol/L.",
+        "C": "L'hypoalbuminémie augmente le trou anionique.",
+        "D": "L'albumine est le principal anion indosé du plasma.",
+        "E": "Un trou anionique normal permet d'éliminer une acidose lactique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "TA = 138 − (104 + 16) = 18 ; TA corrigé = 18 + 0,25 × (40 − 20) = 23 mmol/L. L'hypoalbuminémie abaisse le TA (≈ 2,5 mmol/L par 10 g/L) et peut masquer une accumulation d'anions indosés.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : elle le diminue.",
+        "D": "Vrai.",
+        "E": "Faux : surtout si le TA n'est pas corrigé ; seul le dosage du lactate élimine une hyperlactatémie."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Trou anionique et correction par l'albumine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la correction par l'albumine chez un patient hypoalbuminémique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Figge J et al. Crit Care Med 1998;26:1807-10",
+          "date": "1998"
+        },
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1306",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une patiente présente une acidose métabolique avec un trou anionique à 30 mmol/L (normal retenu : 12) et des bicarbonates à 18 mmol/L (normal retenu : 24). Quelle est l'interprétation la plus probable ?",
+      "propositions": {
+        "A": "Acidose à trou anionique augmenté isolée.",
+        "B": "Acidose à trou anionique augmenté associée à une acidose hyperchlorémique.",
+        "C": "Acidose à trou anionique augmenté associée à une alcalose métabolique.",
+        "D": "Alcalose respiratoire isolée.",
+        "E": "Erreur de laboratoire certaine."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Delta ratio = (30 − 12)/(24 − 18) = 18/6 = 3. Un rapport > 2 indique que les bicarbonates sont « trop hauts » pour l'anion accumulé : une alcalose métabolique coexiste (vomissements, diurétiques).",
+      "explications_par_proposition": {
+        "A": "Faux : un trouble isolé donnerait un rapport entre 1 et 2.",
+        "B": "Faux : ce serait un rapport < 1.",
+        "C": "Vrai.",
+        "D": "Faux : le TA augmenté signe une acidose métabolique.",
+        "E": "Faux : un trouble mixte explique les valeurs."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Gaz du sang — delta ratio",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "S'arrêter au diagnostic d'acidose à TA augmenté sans calculer le delta ratio.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rastegar A. J Am Soc Nephrol 2007;18:2429-31",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1307",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 35 ans est admis pour troubles visuels et acidose à trou anionique augmenté. Osmolalité mesurée 330 mOsm/kg ; Na+ 140 mmol/L ; glucose 5 mmol/L ; urée 5 mmol/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le trou osmolaire est d'environ 40 mOsm/kg.",
+        "B": "Ce tableau doit faire évoquer une intoxication au méthanol ou à l'éthylène glycol.",
+        "C": "L'éthanol peut aussi augmenter le trou osmolaire.",
+        "D": "Un trou osmolaire normal élimine formellement une intoxication au méthanol.",
+        "E": "Le trou anionique est maximal dès les premières minutes, avant le métabolisme de l'alcool."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Osmolalité calculée = 2 × 140 + 5 + 5 = 290 ; trou = 40. Les alcools toxiques augmentent d'abord le trou osmolaire puis, une fois métabolisés en acides (formiate, glycolate), le trou anionique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : troubles visuels évocateurs du méthanol.",
+        "C": "Vrai : l'éthanol est osmotiquement actif.",
+        "D": "Faux : vu tardivement, l'alcool est déjà métabolisé et le trou osmolaire peut être normal.",
+        "E": "Faux : c'est l'inverse ; le TA augmente avec la formation des acides."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Acidose métabolique — trou osmolaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un trou osmolaire normal élimine une intoxication vue tardivement.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kraut JA, Madias NE. Nat Rev Nephrol 2010;6:274-85",
+          "date": "2010"
+        },
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1308",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant une acidose métabolique à trou anionique normal, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un trou anionique urinaire négatif traduit une ammoniurie élevée, donc une réponse rénale adaptée.",
+        "B": "Dans l'acidose tubulaire distale (type 1), le trou anionique urinaire est positif et le pH urinaire supérieur à 5,5.",
+        "C": "L'acidose tubulaire de type 4 s'accompagne habituellement d'une hypokaliémie.",
+        "D": "Le trou anionique urinaire reste interprétable au cours d'une acidocétose.",
+        "E": "L'acétazolamide peut provoquer une acidose hyperchlorémique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "TAU = Na+u + K+u − Cl-u. NH4+ étant excrété avec Cl-, une ammoniurie élevée rend le TAU négatif (pertes digestives). Un TAU positif signe un défaut d'acidification (type 1, type 4, insuffisance rénale).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : hyperkaliémie (hypoaldostéronisme ou résistance).",
+        "D": "Faux : les cétoanions urinaires faussent le calcul.",
+        "E": "Vrai : inhibition de l'anhydrase carbonique proximale."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Acidose hyperchlorémique — trou anionique urinaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser le TAU dans une acidose à TA augmenté.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kraut JA, Madias NE. Nat Rev Nephrol 2010;6:274-85",
+          "date": "2010"
+        },
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1309",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 45 ans vomit depuis 5 jours (sténose pyloro-duodénale). Gaz du sang : pH 7,52 ; HCO3- 38 mmol/L ; PaCO2 48 mmHg. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La chlorurie est attendue basse (< 20-25 mmol/L).",
+        "B": "L'alcalose est entretenue par la déplétion chlorée et volémique et par l'hypokaliémie.",
+        "C": "L'apport de NaCl et de KCl est le traitement de base.",
+        "D": "L'hyperaldostéronisme primaire est une cause d'alcalose chlorosensible.",
+        "E": "La PaCO2 est compatible avec la compensation attendue (≈ +0,7 mmHg par mmol/L de HCO3-)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "ΔHCO3- = 14 → ΔPaCO2 attendue ≈ 10 mmHg → PaCO2 ≈ 50 : compensation adaptée. Les vomissements génèrent l'alcalose ; la déplétion chlorée, l'hypovolémie et l'hypokaliémie l'entretiennent.",
+      "explications_par_proposition": {
+        "A": "Vrai : alcalose chlorosensible.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : chlororésistante (chlorurie élevée, HTA).",
+        "E": "Vrai."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Alcalose métabolique — génération et entretien",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer la formule de Winter à une alcalose métabolique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Emmett M. Clin J Am Soc Nephrol 2020;15:1848-56",
+          "date": "2020"
+        },
+        {
+          "reference": "Adrogué HJ, Madias NE. J Am Soc Nephrol 2010;21:920-3",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1310",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient BPCO stable a : pH 7,34 ; PaCO2 60 mmHg ; HCO3- 31 mmol/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Si l'hypercapnie était aiguë, les bicarbonates attendus seraient d'environ 26 mmol/L.",
+        "B": "Si l'hypercapnie est chronique, les bicarbonates attendus sont d'environ 31 mmol/L.",
+        "C": "Le profil est compatible avec une acidose respiratoire chronique compensée.",
+        "D": "Il existe obligatoirement une acidose métabolique associée.",
+        "E": "L'oxygénothérapie à haut débit corrige l'hypercapnie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "ΔPaCO2 = 20 mmHg. Aiguë : +0,1 × 20 = +2 → 26 ; chronique : +0,35 × 20 = +7 → 31. Les valeurs correspondent à une acidose respiratoire chronique compensée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : les bicarbonates sont conformes à la compensation chronique.",
+        "E": "Faux : seule la ventilation élimine le CO2 ; un excès d'O2 peut aggraver l'hypercapnie chez le BPCO."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Acidose respiratoire aiguë ou chronique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prendre l'élévation compensatrice des bicarbonates pour une alcalose métabolique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Adrogué HJ, Madias NE. J Am Soc Nephrol 2010;21:920-3",
+          "date": "2010"
+        },
+        {
+          "reference": "Epstein SK, Singh N. Respir Care 2001;46:366-83",
+          "date": "2001"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1311",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'alcalose respiratoire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez la femme enceinte, une PaCO2 autour de 30 mmHg est physiologique.",
+        "B": "L'intoxication salicylée de l'adulte associe fréquemment une alcalose respiratoire et une acidose métabolique à trou anionique augmenté.",
+        "C": "Dans la forme chronique, les bicarbonates diminuent d'environ 4 mmol/L par 10 mmHg de baisse de la PaCO2.",
+        "D": "L'alcalose augmente le calcium ionisé.",
+        "E": "L'anxiété doit être évoquée en premier, avant toute recherche d'hypoxémie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La progestérone stimule la ventilation au cours de la grossesse. Les salicylés stimulent directement les centres respiratoires et provoquent une acidose à TA augmenté. L'alcalose diminue le calcium ionisé (tétanie).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : trouble mixte classique.",
+        "C": "Vrai : coefficient ≈ 0,4 (0,4 à 0,5 selon les sources).",
+        "D": "Faux : il diminue (fixation accrue à l'albumine).",
+        "E": "Faux : l'origine anxieuse est un diagnostic d'élimination (embolie pulmonaire, sepsis, hypoxémie d'abord)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Alcalose respiratoire — causes et conséquences",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retenir une hyperventilation anxieuse sans avoir éliminé une hypoxémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Adrogué HJ, Madias NE. J Am Soc Nephrol 2010;21:920-3",
+          "date": "2010"
+        },
+        {
+          "reference": "Berend K et al. N Engl J Med 2014;371:1434-45",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1312",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations françaises d'experts SRLF/SFMU (2019) sur l'acidose métabolique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le bicarbonate de sodium devrait probablement être administré en réanimation en cas d'acidémie métabolique sévère (pH ≤ 7,20, PaCO2 < 45 mmHg) avec insuffisance rénale aiguë modérée à sévère.",
+        "B": "Le bicarbonate de sodium est recommandé de façon systématique au cours de l'arrêt cardiaque.",
+        "C": "Le bicarbonate de sodium est recommandé dans l'acidocétose diabétique dès que le pH est inférieur à 7,20.",
+        "D": "Les experts suggèrent le bicarbonate de sodium dans l'intoxication salicylée, quel que soit le pH.",
+        "E": "L'essai BICAR-ICU a montré une réduction du critère principal composite dans la population globale."
+      },
+      "reponses_correctes": [
+        "A",
+        "D"
+      ],
+      "explication_generale": "Le panel recommande probablement le bicarbonate dans l'acidémie sévère avec insuffisance rénale aiguë (grade 2+, d'après BICAR-ICU), le suggère pour compenser des pertes de bases mal tolérées et dans l'intoxication salicylée, et le déconseille dans l'acidocétose (grade 2−) et en routine dans l'arrêt cardiaque (grade 1−).",
+      "explications_par_proposition": {
+        "A": "Vrai : R3.6, grade 2+.",
+        "B": "Faux : non systématique, sauf hyperkaliémie préexistante ou intoxication par stabilisants de membrane.",
+        "C": "Faux : probablement pas de bicarbonate dans l'acidocétose diabétique.",
+        "D": "Vrai : avis d'experts.",
+        "E": "Faux : pas de différence sur le critère principal ; bénéfice de survie à J28 dans la strate AKIN 2-3."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Acidose métabolique — bicarbonate de sodium selon SRLF/SFMU 2019",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Prescrire du bicarbonate sur un pH bas sans tenir compte de la cause.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        },
+        {
+          "reference": "Jaber S et al. Lancet 2018;392:31-40 (BICAR-ICU)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-1313",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions sont exactes concernant les examens biologiques au cours d'une acidose métabolique ?",
+      "propositions": {
+        "A": "Le lactate capillaire ne doit pas être utilisé pour diagnostiquer une hyperlactatémie.",
+        "B": "Un lactate veineux normal permet d'écarter une hyperlactatémie.",
+        "C": "La PCO2 veineuse périphérique peut remplacer de façon fiable la PaCO2.",
+        "D": "La cétonémie capillaire est préférée à la cétonurie pour le diagnostic d'acidocétose.",
+        "E": "Le déficit de base doit être préféré aux bicarbonates pour identifier les patients à risque d'acidose."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le panel SRLF/SFMU : pas de lactate capillaire (grade 1−) ; un lactate veineux normal écarte l'hyperlactatémie ; cétonémie capillaire plutôt que cétonurie (grade 1+) ; déficit de base probablement pas préférable aux bicarbonates. La méta-analyse de Byrne montre que la PCO2 veineuse n'est pas interchangeable avec la PaCO2.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : mais un lactate veineux élevé doit être confirmé sur sang artériel.",
+        "C": "Faux : intervalle de prédiction trop large.",
+        "D": "Vrai.",
+        "E": "Faux : grade 2−."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-014"
+      ],
+      "theme": "Gaz du sang veineux, lactate et cétonémie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Jung B et al. Ann Intensive Care 2019;9:92",
+          "date": "2019"
+        },
+        {
+          "reference": "Byrne AL et al. Respirology 2014;19:168-75",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

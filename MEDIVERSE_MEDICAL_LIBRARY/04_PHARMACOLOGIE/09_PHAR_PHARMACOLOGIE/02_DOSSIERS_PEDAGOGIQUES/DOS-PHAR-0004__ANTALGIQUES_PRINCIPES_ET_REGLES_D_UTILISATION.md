@@ -382,3 +382,431 @@ mots_cles: [antalgiques, paliers OMS, paracétamol, AINS, opioïdes, morphine, c
 | Convulsions | Tramadol, péthidine (norpéthidine) | Éviter chez l'épileptique |
 | Allongement du QT | Méthadone | ECG |
 
+---
+
+## 13. Règles d'utilisation
+
+### 13.1 Objectifs
+
+1. Soulager la douleur à un niveau **acceptable pour le patient**, rapidement, et maintenir ce soulagement [S1].
+2. Restaurer la fonction (sommeil, mobilité, activités) et la qualité de vie.
+3. Limiter les effets indésirables et les risques (surdosage, trouble de l'usage), en particulier pour les opioïdes [S3, S4].
+4. Traiter la cause chaque fois que possible.
+
+### 13.2 Les principes de l'OMS : « by mouth, by the clock, for the individual, with attention to detail » [S1]
+
+- **Par la bouche** : voie orale chaque fois que possible.
+- **À heures fixes** : doses régulières à intervalles adaptés à la molécule, la dose suivante étant donnée **avant** la fin de l'effet de la précédente ; augmentation progressive jusqu'au confort.
+- **Pour chaque individu** : évaluation, diagnostic du type de douleur, « la bonne dose est celle qui soulage le patient » (pas de dose maximale théorique pour la morphine).
+- **Avec attention aux détails** : information, prévention des effets indésirables, réévaluation.
+
+### 13.3 Moyens : posologies standard sourcées (adulte sans insuffisance rénale ni hépatique)
+
+| Molécule | Posologie standard | Maximum / remarques | Source |
+|---|---|---|---|
+| **Paracétamol** oral ou rectal | 0,5 à 1 g toutes les 4 à 6 h | **4 g/24 h** ; **3 g/24 h** chez l'adulte > 50 kg avec facteur de risque d'hépatotoxicité | [S1] |
+| Paracétamol IV | > 50 kg : 1 g jusqu'à toutes les 4 h (max 4 g/24 h ; 3 g si facteur de risque) ; 10–50 kg : 15 mg/kg jusqu'à toutes les 4 h (max 60 mg/kg/24 h) | Intervalle ≥ 6 h si clairance < 30 mL/min | [S1] |
+| Paracétamol — douleur cancéreuse chronique (dose de départ type) | 500 à 1 000 mg toutes les 6 h | Max 1 000 mg toutes les 6 h | [S1] |
+| **Ibuprofène** | 400 à 800 mg toutes les 8 h (douleur cancéreuse, dose de départ type) | Max 800 mg toutes les 8 h ; avec nourriture ; envisager un IPP ; éviter si risque hémorragique ou thrombopénie | [S1] |
+| Aspirine (antalgique) | 300 à 900 mg toutes les 4 à 6 h si besoin | Max 4 g/j ; non recommandée avant 16 ans | [S1] |
+| **Codéine** | 30 à 60 mg toutes les 4 h si besoin | **Max 240 mg/j** ; efficacité et toxicité imprévisibles (CYP2D6) | [S1, S7] |
+| **Morphine orale LI** (patient naïf, douleur cancéreuse) | **5 mg toutes les 4 h** | Pas de dose maximale ; titrer selon la réponse | [S1] |
+| **Morphine IV/SC** (patient naïf) | **2 mg toutes les 4 h** (douleur cancéreuse chronique) ; douleur aiguë : 2–10 mg toutes les 4 h si besoin | Dose orale ≈ **2 fois** la dose parentérale | [S1] |
+| **Morphine LP** | Dose journalière déterminée par la titration en LI, répartie toutes les 12 h | Ne pas écraser ; ne pas utiliser pour les accès paroxystiques | [S1] |
+| **Fentanyl transdermique** | 12 à 25 µg/h toutes les 72 h (en relais d'un opioïde, selon conversion) | Pas chez le patient cachectique, fébrile ou très sudoral ; pas de dose maximale | [S1] |
+| **Amitriptyline** (douleur neuropathique) | 10 à 25 mg le soir | Max 100 mg le soir (en l'absence de dosage plasmatique) ; effets anticholinergiques | [S1] |
+| **Naloxone** (surdosage) | 0,08 à 0,12 mg IV toutes les 2 à 3 minutes jusqu'à ventilation adéquate ; réinjections toutes les 20–60 min ou perfusion | Courte durée d'action | [S1] |
+| Tramadol, oxycodone, hydromorphone, gabapentine, prégabaline, duloxétine | Selon RCP | — | `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` |
+
+### 13.4 Stratégie selon le contexte
+
+#### 13.4.1 Douleur aiguë
+
+- **Paracétamol** ± **AINS** (en l'absence de contre-indication) en première intention ; traitement de la cause.
+- HAS 2022 : en **douleur aiguë non sévère**, les opioïdes ne sont **pas recommandés en première intention** ; ils peuvent être proposés en seconde intention pour une douleur modérée insuffisamment soulagée par les non-opioïdes [S4].
+- CDC 2022 : pour la douleur aiguë, préférer les non-opioïdes ; si un opioïde est nécessaire, opioïde à **libération immédiate**, à la **dose efficace la plus faible**, pour une **durée courte** correspondant à la durée attendue d'une douleur intense [S3].
+- Douleur aiguë sévère (fracture, colique néphrétique résistante, traumatisé) : titration de morphine IV en milieu surveillé (protocoles d'urgence `[POSOLOGIE À VÉRIFIER — protocole local]`).
+
+#### 13.4.2 Douleur postopératoire (SFAR 2019) [S5]
+
+- Évaluation systématique, y compris chez le patient non communicant ; repérage des patients **vulnérables** (consommation préalable d'opioïdes, douleur chronique, anxiété).
+- **Analgésie multimodale** : association paracétamol + AINS (si pas de contre-indication) + opioïde si nécessaire, **anesthésie locale ou locorégionale** chaque fois que possible.
+- Agents **antihyperalgésiques** (kétamine à faible dose, gabapentinoïdes) : place discutée selon les situations et non systématique `[À VÉRIFIER — détail des 17 recommandations]`.
+
+#### 13.4.3 Douleur cancéreuse (OMS 2018) [S1]
+
+1. Débuter par un antalgique de puissance **adaptée à l'intensité** : non-opioïde pour une douleur légère ; **opioïde (ex. morphine orale) ± paracétamol/AINS** pour une douleur modérée à sévère (les antalgiques faibles seuls ne conviennent pas).
+2. **Entretien** : n'importe quel opioïde peut être utilisé ; **morphine orale LI à heures fixes ou morphine LP**, avec **morphine LI en interdose** (dose de secours de **50 à 100 % de la dose régulière des 4 heures**).
+3. Voie SC préférée à l'IM si la voie orale ou transdermique est impossible.
+4. **Corticoïdes adjuvants** si indiqués, durée la plus courte (voir DOS-PHAR-0003) ; **bisphosphonates** pour les métastases osseuses ; **radiothérapie monofraction** des métastases osseuses douloureuses.
+5. À l'arrêt d'un opioïde chez un patient physiquement dépendant : **décroissance progressive**.
+
+#### 13.4.4 Douleur chronique non cancéreuse
+
+- Approche **biopsychosociale**, activité physique, thérapies non médicamenteuses (éducation, exercice, thérapies psychologiques) [S9, S12].
+- **Opioïdes en dernière intention** après échec des autres options (HAS 2022) [S4] ; OMS 2023 : les opioïdes **ne doivent pas être utilisés en routine** dans la lombalgie chronique primaire (recommandation conditionnelle contre), alors que les AINS **peuvent être proposés** (recommandation conditionnelle pour) ; pas de recommandation pour le paracétamol faute d'essais [S9].
+- CDC 2022 : si des opioïdes sont prescrits, objectifs fonctionnels définis, dose la plus faible, réévaluation régulière, prudence au-delà de certaines doses journalières (en équivalent morphine) et association aux benzodiazépines à éviter [S3].
+
+#### 13.4.5 Douleur neuropathique (NeuPSIG 2015) [S6]
+
+| Ligne | Traitements | Commentaire |
+|---|---|---|
+| **1re ligne** | Antidépresseurs tricycliques, IRSNa (duloxétine, venlafaxine), gabapentine, prégabaline | Titration progressive, efficacité jugée après quelques semaines |
+| **2e ligne** | Lidocaïne topique (patch), capsaïcine haute concentration (patch), tramadol | Douleurs localisées pour les topiques |
+| **3e ligne** | Opioïdes forts, toxine botulique (douleurs localisées) | Avis spécialisé |
+| Cas particulier | **Carbamazépine** dans la névralgie du trijumeau | Indication historique |
+
+### 13.5 Titration, interdoses, rotation et équianalgésie
+
+#### 13.5.1 Titration de la morphine orale (douleur cancéreuse, patient naïf)
+
+```text
+1. Morphine orale LI 5 mg toutes les 4 h (à heures fixes) [S1]
+   + interdose de morphine LI (50–100 % de la dose des 4 h) si accès douloureux [S1]
+   + laxatif systématique ; antiémétique si besoin
+2. Réévaluation quotidienne : dose totale des 24 h = doses fixes + interdoses
+3. Ajuster la dose fixe en intégrant les interdoses consommées
+4. Douleur stabilisée → conversion en morphine LP toutes les 12 h
+   (même dose journalière), interdoses LI maintenues [S1]
+5. Sédation croissante, fréquence respiratoire basse → réduire/suspendre ;
+   naloxone si dépression respiratoire
+```
+
+#### 13.5.2 Table d'équianalgésie (puissance relative à la morphine orale) — OMS 2018, annexe 6 [S1]
+
+| Opioïde (voie orale, LI sauf mention) | Puissance relative à la morphine orale | Durée d'action (h) |
+|---|---|---|
+| Codéine | 1/10 | 3–6 |
+| Dihydrocodéine | 1/10 | 3–6 |
+| Péthidine | 1/8 | 2–4 |
+| Tapentadol | 1/3 | 4–6 |
+| Hydrocodone | 2/3 | 4–8 |
+| **Oxycodone** | **1,5** (2 selon les fabricants) | 3–4 |
+| Méthadone | 5–10 (variable ; avis spécialisé indispensable) | 8–12 |
+| **Hydromorphone** | **4–5** (5–7,5 selon les fabricants) | 4–5 |
+| Buprénorphine sublinguale | 80 | 6–8 |
+| Buprénorphine transdermique | 100 (75–115) | Selon la forme (72–168) |
+| **Fentanyl transdermique** | **100** (150 selon les fabricants) | 72 |
+
+*Mode d'emploi* : multiplier la dose de l'opioïde par sa puissance relative pour obtenir l'équivalent en morphine orale ; diviser la dose de morphine par la puissance relative pour obtenir la dose de l'autre opioïde [S1].
+
+**Ratios de conversion de voie (OMS 2018, annexe 6)** [S1] :
+
+| Conversion | Ratio | Exemple |
+|---|---|---|
+| Morphine orale → morphine SC/IV | **2:1** (diviser par 2) | 60 mg/24 h PO → 30 mg/24 h SC/IV |
+| Morphine orale → hydromorphone SC/IV | 10:1 | 60 mg/24 h PO → 6 mg/24 h SC/IV |
+| Morphine orale → fentanyl SC/IV | 100–150:1 (variable) | 60 mg/24 h PO → ≈ 400 µg/24 h SC/IV |
+| Hydromorphone orale → SC/IV | 3:1 (certains centres 2:1) | 32 mg/24 h PO → ≈ 10 mg/24 h SC/IV |
+| Méthadone orale → SC/IV | 2:1 (certains centres 1:1) | 30 mg/24 h PO → 15 mg/24 h SC/IV |
+
+#### 13.5.3 Règles de la rotation des opioïdes [S1]
+
+- Indications : effets indésirables intolérables, analgésie insuffisante malgré l'augmentation des doses, hyperalgésie, changement de voie, interaction.
+- Les tables ne sont qu'un **guide approximatif** (variabilité interindividuelle, fonction rénale et hépatique, âge, direction de la conversion, absence d'essais randomisés de rotation).
+- **Réduire d'environ 50 % la dose calculée** du nouvel opioïde lorsque la conversion se fait à **forte dose** (≥ 1 g/24 h d'équivalent morphine), chez le sujet **âgé ou fragile**, en cas d'**effets indésirables** intolérables (délire) ou d'**escalade récente rapide** (possible hyperalgésie) ; compenser par des interdoses pendant la retitration.
+- **Méthadone** : conversion réservée aux équipes spécialisées (demi-vie longue et variable, puissance réelle sous-estimée en administration répétée).
+
+### 13.6 Surdosage en opioïdes
+
+- **Signes** : somnolence, myosis serré, bradypnée (< 8–10/min), puis coma, hypoxie.
+- **Conduite** : stimulation, oxygène, ventilation au masque si besoin, **naloxone titrée** (0,08–0,12 mg IV toutes les 2–3 min jusqu'à reprise d'une ventilation efficace) pour éviter un **sevrage brutal** et la réapparition de la douleur chez le patient dépendant ; réinjections ou perfusion car la naloxone agit moins longtemps que la plupart des opioïdes (surtout les formes LP, la méthadone et en cas d'insuffisance rénale) [S1] ; voir DOS-URGE-0001.
+
+### 13.7 Particularités algériennes
+
+- Les antalgiques essentiels de l'OMS (paracétamol, ibuprofène, aspirine, codéine, morphine sous toutes ses formes, fentanyl transdermique, méthadone en liste complémentaire, naloxone) constituent la base minimale recommandée [S2] ; leur disponibilité effective et les règles de prescription des stupéfiants en Algérie doivent être vérifiées `[À VÉRIFIER — réglementation nationale des stupéfiants]`.
+- La forte proportion de **métaboliseurs ultrarapides du CYP2D6** en Afrique du Nord (16–28 %) [S1] plaide pour une **grande prudence avec la codéine** (et le tramadol) chez l'enfant, la femme allaitante et le sujet fragile, et pour le recours à de faibles doses de morphine titrées lorsque la douleur est sévère.
+- Le mésusage du **prégabaline** et du **tramadol** est rapporté dans plusieurs pays de la région ; aucune donnée algérienne publiée n'a été vérifiée pour ce dossier `[À VÉRIFIER]`.
+
+---
+
+## 14. Surveillance
+
+| Paramètre | Rythme | Commentaire |
+|---|---|---|
+| Intensité de la douleur (EN/EVA ou échelle comportementale) | Avant et après chaque administration en phase aiguë ; à chaque visite | Tracer |
+| Sédation (échelle de sédation) et **fréquence respiratoire** | Surveillance rapprochée lors de la titration et des augmentations de dose | La sédation précède la dépression respiratoire |
+| Transit | Quotidien sous opioïdes | Laxatif systématique |
+| Fonction rénale | Sous AINS (2–5 jours après le début chez le patient à risque) et opioïdes à élimination rénale | — |
+| Pression artérielle, œdèmes | AINS au long cours | — |
+| Signes de mésusage, consommation d'interdoses | Chaque consultation (douleur chronique) | [S3, S4] |
+| Fonction (activités, sommeil) | Chaque consultation | Objectif fonctionnel |
+
+---
+
+## 15. Prévention
+
+- **Prévention de la douleur provoquée par les soins** (ponctions, pansements, mobilisations) : antalgie préalable, anesthésiques locaux, méthodes non pharmacologiques.
+- **Prévention de la chronicisation** : traitement précoce et efficace de la douleur aiguë (postopératoire notamment), repérage des facteurs psychosociaux (« drapeaux jaunes ») [S12].
+- **Prévention du mésusage des opioïdes** : indication rigoureuse, prescription de quantités limitées, réévaluation, information, élimination des médicaments non utilisés, **naloxone** pour les patients à risque [S3, S4].
+- **Prévention des effets indésirables** : laxatif systématique, IPP avec les AINS chez les patients à risque, éviter l'association AINS + IEC/ARA2 + diurétique.
+- **Prévention des surdosages en paracétamol** : information sur les associations contenant du paracétamol (risque de cumul), respect de la dose maximale et adaptation au poids [S1].
+
+---
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Démarche générale devant une douleur
+
+```text
+Douleur
+│
+├─ 1. Évaluer : intensité (EN/EVA/échelle comportementale), mécanisme
+│     (nociceptif / neuropathique / nociplastique / mixte), retentissement, cause
+│
+├─ 2. Traiter la cause quand c'est possible
+│
+├─ 3. Mécanisme nociceptif
+│     ├─ Légère → paracétamol ± AINS (si pas de contre-indication)
+│     ├─ Modérée → non-opioïdes ; opioïde en 2e intention si insuffisant (douleur aiguë) [S4]
+│     │            ou opioïde à faible dose d'emblée (douleur cancéreuse) [S1]
+│     └─ Sévère → opioïde fort titré ± paracétamol/AINS ; anesthésie locorégionale si possible
+│
+├─ 4. Mécanisme neuropathique → tricyclique, IRSNa, gabapentine ou prégabaline [S6]
+│
+├─ 5. Douleur chronique primaire → approche biopsychosociale, exercice ;
+│     pas d'opioïde en routine [S9, S4]
+│
+└─ 6. Réévaluer : efficacité, tolérance, fonction ; adapter
+```
+
+### 16.2 Patient somnolent sous morphine
+
+```text
+Somnolence sous morphine
+│
+├─ FR < 8–10/min, myosis, cyanose ? → OUI : stimulation, O2, naloxone titrée,
+│     surveillance prolongée (réinjections/perfusion) [S1]
+│
+└─ NON → suspendre la dose suivante, chercher une cause :
+      insuffisance rénale (accumulation), interaction (benzodiazépines, gabapentinoïdes),
+      hypercalcémie, encéphalopathie, augmentation récente de dose
+      → réduire la dose ou rotation d'opioïde
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** M. H., 64 ans, 62 kg, suivi pour un adénocarcinome pulmonaire avec métastases osseuses (rachis dorsal, bassin), reçoit de la morphine LP 60 mg matin et soir et prend en moyenne 4 interdoses de morphine LI 20 mg par jour. Depuis une semaine, sa famille note une somnolence, des épisodes de confusion nocturne et des secousses musculaires. Il n'est pas allé à la selle depuis 5 jours. Créatinine 168 µmol/L (90 il y a un mois), calcémie corrigée 2,45 mmol/L. La douleur reste cotée à 6/10.
+
+**Question 1 — Quelle est la dose journalière actuelle d'équivalent morphine orale ?**
+Morphine LP 120 mg + interdoses 4 × 20 mg = **200 mg/24 h** de morphine orale.
+
+**Question 2 — Comment interprétez-vous les signes neurologiques ?**
+**Neurotoxicité de la morphine** (somnolence, confusion, myoclonies) favorisée par l'**aggravation de la fonction rénale** (accumulation des métabolites glucuronidés) [S1] ; il faut aussi éliminer une hypercalcémie (calcémie normale ici), une métastase cérébrale, une infection, une interaction. La **constipation** sévère doit être traitée (fécalome ?).
+
+**Question 3 — Quelle conduite antalgique ?**
+**Rotation d'opioïde**, par exemple vers l'**oxycodone** :
+- équivalence : oxycodone ≈ 1,5 fois plus puissante que la morphine orale → 200 / 1,5 ≈ **133 mg/24 h** d'oxycodone orale [S1] ;
+- **réduction d'environ 50 %** en raison des effets indésirables (délire) et de la fonction rénale → environ **65–70 mg/24 h**, par exemple oxycodone LP 30–35 mg toutes les 12 h [S1] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` ;
+- **interdoses** d'oxycodone LI (50–100 % de la dose des 4 heures, soit environ 5–10 mg) pour compenser pendant la retitration [S1] ;
+- surveillance rapprochée de la vigilance et de la fréquence respiratoire ; réévaluation à 24–48 h.
+
+**Question 4 — Quelles mesures associées ?**
+- **Laxatifs** à dose efficace, recherche et traitement d'un fécalome ;
+- hydratation et recherche de la cause de l'insuffisance rénale (AINS ? déshydratation ? obstacle ?) — arrêter tout AINS néphrotoxique ;
+- traitement spécifique des métastases osseuses : **bisphosphonate** (adapté à la fonction rénale) et **radiothérapie monofraction** sur les sites douloureux [S1] ;
+- corticoïde adjuvant à discuter (durée courte) [S1] ;
+- évaluation d'une composante **neuropathique** (radiculalgie métastatique) → co-antalgique.
+
+**Commentaire** : la toxicité opioïde chez un patient dont la douleur n'est pas contrôlée n'impose pas l'arrêt des opioïdes mais une **rotation avec réduction de dose**, le traitement des facteurs favorisants et l'**approche multimodale** (radiothérapie, bisphosphonates, adjuvants).
+
+---
+
+## 18. Points clés à retenir
+
+1. Douleur = expérience **sensorielle et émotionnelle** (IASP 2020) ; chronique si > 3 mois ; distinguer nociceptive, neuropathique, nociplastique [S10, S11].
+2. Échelle OMS à 3 paliers = **outil pédagogique**, non protocole strict ; en douleur cancéreuse modérée à sévère, un opioïde fort à faible dose peut être utilisé d'emblée [S1].
+3. Principes OMS : **par la bouche, à heures fixes, pour chaque individu, avec attention aux détails** [S1].
+4. Paracétamol : **4 g/j max** (3 g si facteur de risque hépatique) ; pas d'effet anti-inflammatoire [S1, S2].
+5. AINS : efficaces sur la douleur inflammatoire ; risques digestif, rénal, cardiovasculaire ; **contre-indiqués à partir de 24 SA**.
+6. Codéine : prodrogue activée par le **CYP2D6** ; **16–28 % de métaboliseurs ultrarapides en Afrique du Nord** → risque de toxicité [S1, S7].
+7. Morphine orale LI **5 mg/4 h** chez le patient naïf, interdoses de **50–100 % de la dose des 4 h**, puis LP toutes les 12 h [S1].
+8. Morphine **orale = 2 × parentérale** ; oxycodone ≈ 1,5 × morphine ; hydromorphone ≈ 4–5 × ; fentanyl TD ≈ 100 × [S1].
+9. Rotation : **réduire de ~50 %** la dose calculée en cas de forte dose, de sujet fragile, de toxicité ou d'escalade rapide [S1].
+10. **Laxatif systématique** sous opioïde (pas de tolérance à la constipation).
+11. Surdosage : **naloxone titrée** 0,08–0,12 mg IV toutes les 2–3 min, réinjections [S1].
+12. Douleur neuropathique : tricycliques, IRSNa, gabapentinoïdes en 1re ligne ; paracétamol et AINS inefficaces [S6].
+13. Douleur chronique non cancéreuse : opioïdes **en dernière intention** (HAS 2022), pas en routine dans la lombalgie chronique primaire (OMS 2023) [S4, S9].
+
+---
+
+## 19. Pièges classiques à l'examen
+
+- Appliquer l'échelle des paliers « marche par marche » chez un patient cancéreux en douleur sévère (retard d'antalgie) [S1].
+- Utiliser le **fentanyl transdermique** chez un patient naïf d'opioïdes ou pour une douleur instable.
+- Prescrire le fentanyl transmuqueux chez un patient **non tolérant** aux opioïdes.
+- Oublier le **laxatif** ; croire qu'une tolérance s'installe à la constipation.
+- Associer deux opioïdes agonistes purs à libération prolongée, ou un **agoniste-antagoniste** (nalbuphine) à un agoniste pur.
+- Associer **tramadol** et antidépresseurs sérotoninergiques sans vigilance (syndrome sérotoninergique).
+- Prescrire de la **codéine** à un enfant après amygdalectomie ou à une mère qui allaite.
+- Dépasser la dose de paracétamol en cumulant plusieurs spécialités qui en contiennent.
+- Écraser une forme LP.
+- Injecter la naloxone en bolus massif chez un patient dépendant (sevrage brutal, douleur, agitation) au lieu de la titrer.
+- Oublier qu'un AINS + IEC/ARA2 + diurétique chez un sujet déshydraté expose à l'insuffisance rénale aiguë.
+- Traiter une douleur neuropathique par paracétamol/AINS seuls.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+*QCM originaux Mediverse (5 propositions, une ou plusieurs réponses exactes). Ils figurent aussi, avec d'autres, dans la banque structurée (lot DOS-14).*
+
+**QCM 1** (`QCM-PHAR-1437`) — Selon les lignes directrices de l'OMS (2018) sur la douleur cancéreuse, quelles propositions sont exactes ?
+
+- A. Les antalgiques doivent être donnés par voie orale chaque fois que possible
+- B. Ils doivent être donnés à intervalles fixes, la dose suivante avant la fin de l'effet de la précédente
+- C. L'échelle à trois paliers est un protocole strict qu'il faut suivre palier par palier
+- D. Les antalgiques faibles ne doivent pas être donnés seuls pour initier le traitement d'une douleur modérée ou sévère
+- E. La voie intramusculaire est préférée à la voie sous-cutanée quand la voie orale est impossible
+
+**QCM 2** (`QCM-PHAR-1438`) — Concernant le paracétamol chez l'adulte, quelles propositions sont exactes ?
+
+- A. La dose maximale usuelle est de 4 g par 24 heures
+- B. Chez l'adulte de plus de 50 kg présentant un facteur de risque d'hépatotoxicité, la dose maximale est réduite à 3 g par 24 heures
+- C. Il a une activité anti-inflammatoire comparable à celle des AINS
+- D. Son hépatotoxicité en cas de surdosage est liée à un métabolite réactif (NAPQI)
+- E. Par voie IV, l'intervalle entre deux doses est d'au moins 6 heures si la clairance de la créatinine est inférieure à 30 mL/min
+
+**QCM 3** (`QCM-PHAR-1439`) — Concernant les anti-inflammatoires non stéroïdiens (AINS), quelles propositions sont exactes ?
+
+- A. Ils inhibent les cyclo-oxygénases et la synthèse des prostaglandines
+- B. Ils sont contre-indiqués à partir de 24 semaines d'aménorrhée
+- C. L'association AINS + IEC + diurétique expose à l'insuffisance rénale aiguë, surtout en cas de déshydratation
+- D. Ils sont efficaces en monothérapie sur la douleur neuropathique
+- E. Ils sont le traitement antalgique de choix chez le patient cirrhotique
+
+**QCM 4** (`QCM-PHAR-1440`) — Concernant la codéine, quelles propositions sont exactes ?
+
+- A. C'est une prodrogue transformée en morphine par le CYP2D6
+- B. Selon l'OMS, 16 à 28 % des populations arabes et nord-africaines seraient des métaboliseurs ultrarapides
+- C. Les métaboliseurs lents n'en retirent pas ou peu d'effet antalgique
+- D. La dose maximale usuelle chez l'adulte est de 240 mg par jour
+- E. Elle est recommandée chez la femme qui allaite car elle ne passe pas dans le lait
+
+**QCM 5** (`QCM-PHAR-1441`) — Chez un adulte naïf d'opioïdes ayant une douleur cancéreuse sévère, quelles propositions concernant la morphine orale sont exactes ?
+
+- A. Une dose de départ typique est de 5 mg de morphine à libération immédiate toutes les 4 heures
+- B. Une interdose de 50 à 100 % de la dose régulière des 4 heures peut être proposée en cas d'accès douloureux
+- C. La dose maximale journalière est de 60 mg
+- D. Après stabilisation, la dose journalière peut être convertie en morphine à libération prolongée toutes les 12 heures
+- E. Les comprimés à libération prolongée peuvent être écrasés pour accélérer leur effet
+
+**QCM 6** (`QCM-PHAR-1442`) — Selon les tables de conversion reproduites par l'OMS (2018), quelles équivalences approximatives sont exactes ?
+
+- A. Morphine orale 60 mg/24 h ≈ morphine SC ou IV 30 mg/24 h
+- B. L'oxycodone orale est environ 1,5 fois plus puissante que la morphine orale
+- C. L'hydromorphone orale est environ 4 à 5 fois plus puissante que la morphine orale
+- D. Le fentanyl transdermique a une puissance relative d'environ 100 par rapport à la morphine orale
+- E. La codéine est environ 2 fois moins puissante que la morphine orale
+
+**QCM 7** (`QCM-PHAR-1443`) — Concernant la rotation des opioïdes, quelles propositions sont exactes ?
+
+- A. Une réduction d'environ 50 % de la dose calculée est prudente lors d'une conversion à forte dose ou chez un patient âgé ou fragile
+- B. Les tables de conversion sont exactes et ne nécessitent pas de surveillance particulière
+- C. La conversion vers la méthadone doit être guidée par un spécialiste
+- D. Des effets indésirables intolérables malgré une analgésie correcte sont une indication de rotation
+- E. Une insuffisance rénale contre-indique toute rotation d'opioïde
+
+**QCM 8** (`QCM-PHAR-1444`) — Concernant les effets indésirables des opioïdes, quelles propositions sont exactes ?
+
+- A. La constipation ne fait pas l'objet d'une tolérance et justifie un laxatif systématique
+- B. Les nausées surviennent surtout en début de traitement
+- C. La dépression respiratoire est habituellement précédée d'une somnolence
+- D. Une hyperalgésie peut être induite par les opioïdes à fortes doses
+- E. La diarrhée est un effet indésirable fréquent des opioïdes
+
+**QCM 9** (`QCM-PHAR-1445`) — Un patient sous morphine LP pour une douleur cancéreuse est retrouvé somnolent, avec une fréquence respiratoire à 6/min et un myosis serré. Quelles propositions sont exactes ?
+
+- A. La naloxone est administrée par petites doses IV (0,08 à 0,12 mg) toutes les 2 à 3 minutes jusqu'à ventilation adéquate
+- B. La durée d'action de la naloxone est plus longue que celle de la morphine LP
+- C. Des réinjections ou une perfusion de naloxone peuvent être nécessaires
+- D. Le myosis serré est un signe évocateur
+- E. Un bolus de 2 mg de naloxone est recommandé d'emblée pour réveiller rapidement le patient
+
+**QCM 10** (`QCM-PHAR-1446`) — Selon la méta-analyse du NeuPSIG (2015), quels traitements sont recommandés en première ligne de la douleur neuropathique, ou spécifiquement indiqués ?
+
+- A. Amitriptyline (antidépresseur tricyclique)
+- B. Gabapentine ou prégabaline
+- C. Duloxétine
+- D. Paracétamol à dose maximale
+- E. Carbamazépine dans la névralgie du trijumeau
+
+### Corrigé commenté
+
+**QCM 1** — Réponses : **A, B, D**. OMS 2018 : « by mouth, by the clock, for the individual, with attention to detail » ; l'échelle est un outil pédagogique ; SC préférée à IM.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Faux : outil pédagogique et guide général.
+  - D : Vrai : on peut débuter par un opioïde (morphine) associé ou non aux non-opioïdes.
+  - E : Faux : la SC est moins douloureuse et préférée.
+  - *Piège* : Monter palier par palier devant une douleur sévère.
+
+**QCM 2** — Réponses : **A, B, D, E**. Paracétamol : antalgique-antipyrétique sans effet anti-inflammatoire, dose maximale 4 g/24 h (3 g si facteur de risque), intervalle allongé en insuffisance rénale sévère (OMS 2018).
+  - A : Vrai.
+  - B : Vrai.
+  - C : Faux : l'OMS ne le recommande pas comme anti-inflammatoire.
+  - D : Vrai : antidote N-acétylcystéine.
+  - E : Vrai.
+  - *Piège* : Cumuler plusieurs spécialités contenant du paracétamol.
+
+**QCM 3** — Réponses : **A, B, C**. Les AINS inhibent COX-1/COX-2 ; leurs risques sont digestifs, rénaux, cardiovasculaires et obstétricaux. Ils sont peu efficaces sur la douleur neuropathique et à éviter dans la cirrhose.
+  - A : Vrai.
+  - B : Vrai : toxicité fœtale (canal artériel, rein).
+  - C : Vrai : « triple whammy ».
+  - D : Faux.
+  - E : Faux : risque rénal, hémorragique et de décompensation.
+
+**QCM 4** — Réponses : **A, B, C, D**. Effet imprévisible selon le génotype CYP2D6 : inefficace chez les métaboliseurs lents, toxique (dépression respiratoire) chez les ultrarapides. Le CPIC recommande de l'éviter chez ces deux phénotypes ; prudence chez l'enfant et pendant l'allaitement.
+  - A : Vrai.
+  - B : Vrai : contre 1–10 % chez les Caucasiens.
+  - C : Vrai.
+  - D : Vrai : 30–60 mg toutes les 4 h, max 240 mg/j.
+  - E : Faux : toxicité décrite chez des nourrissons allaités par des mères métaboliseuses ultrarapides.
+  - *Piège* : Considérer la codéine comme un antalgique « doux » sans risque.
+
+**QCM 5** — Réponses : **A, B, D**. OMS 2018 : titration par morphine LI à heures fixes, interdoses de LI, puis relais LP ; pas de dose maximale théorique ; ne jamais écraser une forme LP.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Faux : pas de dose maximale, la bonne dose est celle qui soulage.
+  - D : Vrai.
+  - E : Faux : risque de surdosage.
+
+**QCM 6** — Réponses : **A, B, C, D**. Ratios indicatifs : morphine PO/parentérale 2:1 ; oxycodone 1,5 (2 selon les fabricants) ; hydromorphone 4–5 ; fentanyl TD 100 (150) ; codéine 1/10.
+  - A : Vrai : ratio 2:1.
+  - B : Vrai.
+  - C : Vrai.
+  - D : Vrai.
+  - E : Faux : 1/10.
+  - *Piège* : Utiliser les tables comme des équivalences exactes.
+
+**QCM 7** — Réponses : **A, C, D**. Les ratios sont approximatifs ; réduire de ~50 % dans les situations à risque et compenser par des interdoses ; méthadone réservée aux équipes spécialisées.
+  - A : Vrai (OMS 2018).
+  - B : Faux : variabilité interindividuelle, absence d'essais randomisés.
+  - C : Vrai : puissance réelle très supérieure en administration répétée.
+  - D : Vrai.
+  - E : Faux : l'insuffisance rénale est au contraire une raison fréquente de rotation.
+
+**QCM 8** — Réponses : **A, B, C, D**. Constipation constante sans tolérance ; nausées et somnolence initiales ; la sédation précède la dépression respiratoire ; hyperalgésie possible.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai : surveiller la sédation.
+  - D : Vrai.
+  - E : Faux : constipation.
+
+**QCM 9** — Réponses : **A, C, D**. Titration de la naloxone pour restaurer la ventilation sans provoquer de sevrage brutal ni de douleur ; durée d'action courte, d'où les réinjections (OMS 2018).
+  - A : Vrai.
+  - B : Faux : plus courte, risque de re-sédation.
+  - C : Vrai.
+  - D : Vrai.
+  - E : Faux : risque de sevrage aigu et de douleur intense chez le patient dépendant.
+  - *Piège* : Bolus massif de naloxone chez le patient dépendant.
+
+**QCM 10** — Réponses : **A, B, C, E**. 1re ligne : tricycliques, IRSNa, gabapentinoïdes ; 2e ligne : lidocaïne et capsaïcine topiques, tramadol ; 3e ligne : opioïdes forts, toxine botulique. La carbamazépine reste le traitement de la névralgie du trijumeau.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Vrai.
+  - D : Faux : inefficace sur la douleur neuropathique.
+  - E : Vrai.
+

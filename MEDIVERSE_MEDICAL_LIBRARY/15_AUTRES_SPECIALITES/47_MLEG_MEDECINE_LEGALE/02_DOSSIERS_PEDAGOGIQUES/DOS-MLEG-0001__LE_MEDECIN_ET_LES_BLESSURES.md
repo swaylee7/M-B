@@ -481,7 +481,62 @@ ALGORITHME 2 — Décès d'une personne blessée
 
 ## 17. Cas clinique commenté
 
-<!--CAS_DOSSIER-->
+Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS-MLEG-1002) y est disponible.
+
+### Ecchymose orbitaire et marques au cou chez une femme de 34 ans
+
+*Niveau : generaliste — scénario fictif (CAS-MLEG-1001).*
+
+**Identité** — Scénario fictif : femme, 34 ans, mère de deux enfants, sans profession, mariée.
+
+**Motif** — Consultation dans un établissement public de santé de proximité pour « douleurs au visage » ; elle demande un certificat.
+
+**Antécédents** — Aucun antécédent médical, pas de traitement anticoagulant. Deux consultations aux urgences dans l'année pour « chute dans l'escalier ».
+
+**Histoire et symptômes** — Elle déclare avoir été frappée la veille vers 22 h à son domicile par son époux, à coups de poing au visage, et avoir été saisie au cou et aux bras. Douleur orbitaire gauche, douleur à la déglutition, insomnie, peur pour ses enfants.
+
+**Examen clinique** — Femme anxieuse, pleurs. Ecchymose violacée périorbitaire gauche de 4,5 × 3 cm avec œdème palpébral, sans trouble de l'oculomotricité ni diplopie, acuité visuelle conservée. Trois érosions linéaires parallèles de 2 à 3 cm, obliques, face latérale gauche du cou, et une ecchymose rougeâtre de 3 × 1,5 cm sous l'angle de la mandibule droite. Quatre ecchymoses ovalaires de 1 à 1,5 cm alignées sur la face interne du bras droit, à 8 cm au-dessus du pli du coude. Ecchymose verdâtre de 5 × 4 cm face postérieure de l'avant-bras gauche. Pas de pétéchies conjonctivales. Reste de l'examen normal.
+
+**Biologie** — Non nécessaire au constat ; bilan d'hémostase non indiqué (pas de saignement anormal, lésions expliquées par le mécanisme allégué).
+
+**Imagerie / examens** — Radiographie ou scanner du massif facial à discuter selon l'examen ophtalmologique (fracture du plancher orbitaire à éliminer) ; ici examen ophtalmologique normal, scanner non réalisé en urgence.
+
+**Questions et réponses commentées**
+
+1. *Le médecin généraliste peut-il se contenter d'orienter la patiente vers le légiste sans certificat ?*  
+   Non : l'article 199 impose à tout médecin de constater les lésions et d'établir un certificat descriptif ; le manquement est puni d'une amende (art. 420).
+2. *Comment rapporter les faits ?*  
+   Au conditionnel ou entre guillemets (« Mme X déclare… »), sans désigner l'auteur comme établi ni qualifier juridiquement les faits.
+3. *Peut-on dater l'ecchymose verdâtre de l'avant-bras ?*  
+   On peut seulement noter un aspect évoquant une lésion plus ancienne que les autres ; la datation précise par la couleur n'est pas fiable.
+4. *Quelle obligation d'information existe ?*  
+   Informer les services concernés des violences subies, notamment par les femmes (loi 18-11, art. 198).
+5. *À qui remettre le certificat ?*  
+   En main propre à la patiente ; un double est conservé dans le dossier ; jamais au conjoint (secret médical).
+
+**Hypothèses diagnostiques**
+- Lésions récentes compatibles avec les violences alléguées
+- Violences conjugales répétées (antécédents de « chutes »)
+
+**Diagnostics différentiels**
+- Chute accidentelle (sièges protégés et lésions de préhension peu compatibles)
+- Trouble de l'hémostase (aucun argument)
+
+**Examens à demander**
+- Examen ophtalmologique
+- Imagerie du massif facial si signe d'appel
+- Évaluation psychologique
+
+**Diagnostic retenu** — Lésions traumatiques récentes (ecchymose périorbitaire, érosions cervicales, ecchymoses de préhension du bras) et une ecchymose d'aspect plus ancien de l'avant-bras, compatibles avec les violences alléguées, dans un contexte évocateur de violences conjugales répétées.
+
+**Prise en charge** — Soins (antalgiques, froid local), avis ophtalmologique. Rédaction d'un certificat médical descriptif (art. 199 de la loi 18-11) : identité, date et heure de l'examen, déclarations rapportées au conditionnel, description lésion par lésion avec schéma, retentissement psychique, absence de qualification juridique et de désignation de l'auteur, signature et cachet ; photographies avec son accord ; double conservé. Remise en main propre à la patiente, jamais à l'époux. Information des services concernés des violences subies par une femme (art. 198), en expliquant la démarche à la patiente. Orientation vers le service de médecine légale pour la détermination des taux d'incapacité et des préjudices (art. 199). Évaluation du danger (menaces de mort, armes, enfants exposés), information sur les ressources d'aide, soutien psychologique.
+
+**Surveillance** — Réexamen à 48-72 heures (apparition possible de nouvelles ecchymoses → certificat complémentaire), suivi psychologique, vigilance pour les enfants.
+
+**Évolution** — Nouvelle consultation à J3 : apparition d'une ecchymose dorsale décrite dans un certificat complémentaire. La patiente a été examinée par le service de médecine légale et accompagnée par une association.
+
+**Commentaire pédagogique** — Ce cas illustre l'obligation pour tout médecin d'établir un certificat descriptif en cas de violence, les règles d'objectivité (propos rapportés, description sans interprétation, pas de désignation de l'auteur), la prudence quant à l'âge des lésions (ecchymose verdâtre d'aspect plus ancien, sans datation précise), l'obligation d'information des services concernés pour les violences subies par les femmes (art. 198) et le partage des rôles avec le médecin légiste (taux d'incapacité). Le secret médical interdit de remettre le certificat à l'époux.
+
 
 ## 18. Points clés à retenir
 
@@ -511,7 +566,188 @@ ALGORITHME 2 — Décès d'une personne blessée
 
 ## 20. QCM d'auto-évaluation
 
-<!--QCM_DOSSIER-->
+Les QCM ci-dessous sont les dix premiers de la banque structurée `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-10.json` (identifiants QCM-MLEG-1001 à QCM-MLEG-1010).
+
+**QCM 1 — Article 199 de la loi 18-11** (QCM (réponses multiples), difficulté 1/3)
+
+Selon l'article 199 de la loi algérienne n° 18-11 relative à la santé, quelles propositions sont exactes ?
+
+- **A.** En cas de violence sur une personne, tout médecin est tenu de constater les lésions et blessures et d'établir un certificat descriptif.
+- **B.** Seul un médecin légiste est autorisé à établir un certificat descriptif de coups et blessures.
+- **C.** Les taux d'incapacité et les autres préjudices sont déterminés par un médecin spécialiste en médecine légale.
+- **D.** Toute blessure suspecte doit faire l'objet d'une déclaration obligatoire selon les modalités réglementaires.
+- **E.** Le manquement à l'obligation d'établir le certificat descriptif est passible d'une amende.
+
+> **Corrigé : A, C, D, E.** L'article 199 impose à tout médecin le constat et le certificat descriptif, confie au légiste l'évaluation des taux d'incapacité et des préjudices, et prévoit la déclaration obligatoire des blessures suspectes ; l'article 420 sanctionne le manquement d'une amende de 20 000 à 40 000 DA.
+> - A : Vrai.
+> - B : Faux : l'obligation pèse sur tout médecin.
+> - C : Vrai.
+> - D : Vrai : alinéa 2.
+> - E : Vrai : article 420.
+>
+> *Piège* : Croire que le généraliste peut renvoyer la victime vers le légiste sans rédiger de certificat.
+
+**QCM 2 — Règles de rédaction du certificat descriptif** (QCM (réponses multiples), difficulté 1/3)
+
+Lors de la rédaction d'un certificat médical descriptif pour une victime de violences, quelles formulations ou pratiques sont correctes ?
+
+- **A.** « Mme X déclare avoir été frappée à coups de poing le 3 mars vers 21 h à son domicile. »
+- **B.** « Ecchymose violacée de 4 × 3 cm de la paupière supérieure gauche. »
+- **C.** « Victime de coups et blessures volontaires de la part de son mari. »
+- **D.** Réalisation de photographies avec échelle métrique, avec l'accord de la patiente.
+- **E.** Conservation d'un double du certificat dans le dossier médical.
+
+> **Corrigé : A, B, D, E.** Le certificat rapporte les dires au conditionnel ou entre guillemets, décrit objectivement les lésions (nature, siège, dimensions, couleur), ne désigne pas l'auteur et n'utilise pas de qualification juridique. Les photographies sont faites avec consentement ; un double est conservé.
+> - A : Correct : propos rapportés et attribués.
+> - B : Correct : description précise.
+> - C : Incorrect : qualification juridique et désignation de l'auteur.
+> - D : Correct.
+> - E : Correct.
+>
+> *Piège* : Employer la qualification juridique « coups et blessures volontaires ».
+
+**QCM 3 — Morphologie des lésions élémentaires** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant la morphologie des lésions traumatiques, quelles propositions sont exactes ?
+
+- **A.** Une plaie par instrument tranchant est habituellement plus longue que profonde, à bords nets.
+- **B.** Une plaie par instrument piquant est habituellement plus profonde que longue.
+- **C.** Une plaie contuse a des bords nets et réguliers, sans pont tissulaire.
+- **D.** Des érosions en forme de croissant peuvent correspondre à des marques d'ongles.
+- **E.** Une ecchymose figurée peut reproduire la forme de l'agent vulnérant (doigts, ceinture, semelle).
+
+> **Corrigé : A, B, D, E.** La morphologie oriente vers le mécanisme : tranchant (bords nets, longueur > profondeur), piquant (profondeur > longueur), contondant (bords irréguliers, ponts tissulaires) ; les lésions figurées et les érosions unguéales sont évocatrices de violences.
+> - A : Vrai.
+> - B : Vrai : la gravité dépend des organes profonds.
+> - C : Faux : bords irréguliers, contus, ponts tissulaires.
+> - D : Vrai.
+> - E : Vrai.
+
+**QCM 4 — Datation des ecchymoses** (QCS (réponse unique), difficulté 2/3)
+
+À propos de la datation d'une ecchymose par sa couleur, quelle proposition est exacte ?
+
+- **A.** Une ecchymose jaune date toujours de plus de 7 jours.
+- **B.** Une ecchymose rouge date toujours de moins de 24 heures.
+- **C.** La couleur permet de dater une ecchymose au jour près chez l'adulte sain.
+- **D.** L'évolution de la couleur dépend de nombreux facteurs, et la datation précise par la couleur n'est pas fiable.
+- **E.** Les ecchymoses évoluent de la même façon chez l'enfant et le sujet âgé sous anticoagulant.
+
+> **Corrigé : D.** La couleur d'une ecchymose évolue avec la dégradation de l'hémoglobine, mais la vitesse dépend de la profondeur, de la taille, du siège, de l'âge et de la coagulation : le certificat doit rester prudent.
+> - A : Faux : affirmation trop catégorique.
+> - B : Faux.
+> - C : Faux.
+> - D : Vrai.
+> - E : Faux : le terrain modifie l'aspect et l'évolution.
+>
+> *Piège* : Affirmer l'âge d'une lésion d'après sa couleur.
+
+**QCM 5 — Signes d'alerte de maltraitance de l'enfant** (QCM (réponses multiples), difficulté 2/3)
+
+Parmi les éléments suivants, lesquels doivent faire suspecter une maltraitance chez un enfant ?
+
+- **A.** Ecchymoses chez un nourrisson de 3 mois qui ne se déplace pas seul.
+- **B.** Fractures de côtes postérieures d'âges différents.
+- **C.** Ecchymoses des crêtes tibiales chez un enfant de 4 ans qui court et joue.
+- **D.** Récit changeant et discordant avec les lésions.
+- **E.** Brûlures à contours nets « en chaussette » des deux pieds.
+
+> **Corrigé : A, B, D, E.** Les signes d'alerte sont la discordance récit/lésions, le retard de recours, les lésions d'âges différents, les sièges inhabituels, les ecchymoses avant l'âge de la marche, les fractures évocatrices et les brûlures par immersion.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Faux : siège exposé typique des chutes accidentelles de l'enfant qui marche.
+> - D : Vrai.
+> - E : Vrai : aspect d'immersion forcée.
+
+**QCM 6 — Mort suspecte ou violente** (QCM (réponses multiples), difficulté 2/3)
+
+Un médecin est appelé pour constater le décès d'un homme retrouvé sur la voie publique avec une plaie thoracique. Quelles propositions sont exactes ?
+
+- **A.** Il délivre uniquement un certificat de constat de décès et avise les autorités compétentes.
+- **B.** Il remplit la partie inférieure du certificat (causes médicales du décès) en indiquant « hémorragie par plaie thoracique ».
+- **C.** Il ne remplit que la partie supérieure du certificat médical de décès (obstacle médico-légal).
+- **D.** La partie relative aux causes du décès sera renseignée par le médecin légiste après examen du corps.
+- **E.** L'autopsie médico-légale est réalisée par le médecin légiste désigné par la juridiction compétente.
+
+> **Corrigé : A, C, D, E.** En cas de mort suspecte, violente ou sur la voie publique, la loi 18-11 (art. 200) limite le rôle du médecin au constat et à l'information des autorités ; le décret 22-178 prévoit que seule la partie supérieure est remplie et que le légiste complète les causes ; l'autopsie est faite par un légiste désigné par la juridiction (art. 201).
+> - A : Vrai : art. 200.
+> - B : Faux : obstacle médico-légal.
+> - C : Vrai : décret 22-178, art. 6.
+> - D : Vrai.
+> - E : Vrai : art. 201.
+>
+> *Piège* : Délivrer un certificat de décès complet en cas de mort violente.
+
+**QCM 7 — Réquisition judiciaire** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant la réquisition d'un médecin par l'autorité judiciaire, quelles propositions sont exactes ?
+
+- **A.** Le professionnel de santé est tenu de déférer aux réquisitions de l'autorité publique.
+- **B.** Le refus de déférer à une réquisition établie et notifiée dans les formes est pénalement sanctionné.
+- **C.** Le médecin peut invoquer le secret médical pour refuser d'examiner la personne.
+- **D.** Le médecin doit exiger une réquisition écrite et répondre uniquement aux questions posées.
+- **E.** Le rapport est remis à l'autorité requérante.
+
+> **Corrigé : A, B, D, E.** La loi 18-11 impose de déférer aux réquisitions (art. 178) et sanctionne le refus par renvoi à l'article 187 bis du code pénal (art. 418). Le médecin limite sa réponse à la mission.
+> - A : Vrai : art. 178.
+> - B : Vrai : art. 418.
+> - C : Faux : le secret limite le contenu du rapport à la mission, il ne justifie pas le refus.
+> - D : Vrai (HAS 2011 ; principe de limitation à la mission).
+> - E : Vrai.
+
+**QCM 8 — Secret médical** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant le secret médical en droit algérien, quelles propositions sont exactes ?
+
+- **A.** Il couvre l'ensemble des informations parvenues à la connaissance des professionnels de santé.
+- **B.** Il peut être levé par la juridiction compétente.
+- **C.** Les informations peuvent être partagées au sein de l'équipe de soins dans l'intérêt médical du malade.
+- **D.** Il est totalement aboli par le décès du patient.
+- **E.** Sa violation expose aux sanctions prévues par l'article 301 du code pénal.
+
+> **Corrigé : A, B, C, E.** Le secret est défini par les articles 24 et 169 de la loi 18-11 ; sa violation est sanctionnée par renvoi à l'article 301 du code pénal (art. 417). Le code de déontologie précise que le décès n'abolit pas le secret, sauf pour faire valoir des droits (art. 41).
+> - A : Vrai : art. 24.
+> - B : Vrai : art. 24.
+> - C : Vrai : art. 169.
+> - D : Faux : code de déontologie, art. 41 ; loi 18-11, art. 25 (information de la famille dans des conditions limitées).
+> - E : Vrai : art. 417.
+
+**QCM 9 — Situations à déclaration obligatoire** (QCM (réponses multiples), difficulté 2/3)
+
+Parmi les situations suivantes rencontrées en consultation, lesquelles imposent au médecin une déclaration ou une information des autorités ?
+
+- **A.** Ecchymoses multiples évoquant des sévices chez un enfant de 6 ans.
+- **B.** Blessure suspecte par arme blanche chez un adulte qui refuse de s'expliquer.
+- **C.** Tétanos chez un agriculteur blessé.
+- **D.** Morsure de chien avec suspicion de rage chez l'animal.
+- **E.** Entorse de cheville lors d'un match de football.
+
+> **Corrigé : A, B, C, D.** Les violences sur mineurs (art. 198), les blessures suspectes (art. 199 al. 2) et les maladies à déclaration obligatoire (art. 39 ; tétanos et rage figurent au décret 22-250) imposent une déclaration ; une entorse sportive n'en relève pas.
+> - A : Vrai : information des services concernés.
+> - B : Vrai : déclaration obligatoire de la blessure suspecte.
+> - C : Vrai : MDO.
+> - D : Vrai : la rage est une MDO ; mise en route de la prophylaxie selon le protocole national.
+> - E : Faux.
+
+**QCM 10 — Notion d'incapacité totale de travail** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant l'incapacité totale de travail (ITT) au sens pénal, quelles propositions sont exactes ?
+
+- **A.** Elle correspond à la gêne importante pour accomplir les actes ordinaires de la vie, et non à l'arrêt de travail.
+- **B.** Un enfant ou un retraité peuvent se voir reconnaître une ITT.
+- **C.** Sa durée contribue à la qualification pénale des violences.
+- **D.** Elle est identique à la durée de l'arrêt de travail prescrit.
+- **E.** Le retentissement psychologique peut être pris en compte.
+
+> **Corrigé : A, B, C, E.** L'ITT pénale mesure le retentissement fonctionnel global ; elle influence la qualification (contravention ou délit). En Algérie, l'évaluation des taux d'incapacité relève du médecin légiste (art. 199).
+> - A : Vrai.
+> - B : Vrai.
+> - C : Vrai : code pénal, art. 264 et 442.
+> - D : Faux : notion différente.
+> - E : Vrai.
+>
+> *Piège* : Confondre ITT et arrêt de travail.
+
 
 ## 21. Divergences entre référentiels
 

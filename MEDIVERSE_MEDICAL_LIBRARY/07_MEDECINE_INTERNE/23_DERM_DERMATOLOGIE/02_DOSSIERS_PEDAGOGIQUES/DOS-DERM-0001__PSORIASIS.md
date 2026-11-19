@@ -6,11 +6,24 @@ sous_specialite: "Dermatoses inflammatoires"
 items_residanat: [RES-MED-011]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-09 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-DERM-0001.md
+    remarque: "PASI, BSA, DLQI, règle des 10, CASPAR et données EPIMAG (résumé relu) conformes. Critères de surclassement sourcés (consensus européen 2011) ; objectifs thérapeutiques actualisés (S3 allemande 2026 : PASI 75 minimal, PASI 90 / PASI absolu < 2 / DLQI ≤ 1 souhaités) ; place des biothérapies en première ligne ; choix du traitement en cas d'ITL (S3 2026 partie 2) ; prévention de la tuberculose (OMS 2024). Texte intégral EuroGuiDerm non accessible ; instruction algérienne ITL 2024 non relue."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-DERM-0001.md
+    remarque: "Les 8 marqueurs posologiques levés : méthotrexate et deucravacitinib (S3 2026, texte relu), dermocorticoïdes, calcipotriol-bétaméthasone, ciclosporine, acitrétine, aprémilast et biothérapies (RCP, S13 non consultable depuis la session) ; contraception de 3 ans après l'acitrétine et tests de grossesse (EMA 2018). Aucun marqueur posologique restant."
 sources:
   - id: S1
     reference: "Nast A, Smith C, Spuls PI, et al. EuroGuiDerm Guideline on the systemic treatment of Psoriasis vulgaris - Part 1: treatment and monitoring recommendations. J Eur Acad Dermatol Venereol. 2020;34(11):2461-2498."
@@ -108,13 +121,53 @@ sources:
     doi: ""
     url: "https://www.sapp.dz/wp-content/uploads/2024/03/Instrcution-tuberculose-latente.pdf"
     verifiee: false
+  - id: S13
+    reference: "Résumés des caractéristiques du produit (RCP) des spécialités citées (AMM européennes, EPAR de l'EMA, ou AMM nationales), versions en vigueur."
+    organisme: "EMA / autorités nationales"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/medicines"
+    verifiee: false
+  - id: S14
+    reference: "European Medicines Agency. Retinoid Article 31 referral (2018) — mesures actualisées de prévention de la grossesse sous rétinoïdes oraux ; annexe III (informations produit)."
+    organisme: "EMA (PRAC / CMDh)"
+    annee: 2018
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/documents/referral/retinoid-article-31-referral-annex-iii_en.pdf"
+    verifiee: true
+  - id: S15
+    reference: "Mrowietz U, Kragballe K, Reich K, et al. Definition of treatment goals for moderate to severe psoriasis: a European consensus. Arch Dermatol Res. 2011;303(1):1-10."
+    organisme: "Consensus européen"
+    annee: 2011
+    type: article
+    doi: "10.1007/s00403-010-1080-1"
+    url: ""
+    verifiee: true
+  - id: S16
+    reference: "Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm - part 2: Specific clinical and comorbid situations. J Dtsch Dermatol Ges. 2026;24(2):270-282."
+    organisme: "DDG / BVDD (avec la DGP pour le chapitre tuberculose)"
+    annee: 2026
+    type: recommandation
+    doi: "10.1111/ddg.16001"
+    url: ""
+    verifiee: true
+  - id: S17
+    reference: "World Health Organization. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment. 2nd ed. Geneva: WHO; 2024. ISBN 9789240096196."
+    organisme: "OMS"
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/378536"
+    verifiee: true
 mots_cles: [psoriasis, psoriasis en plaques, PASI, DLQI, rhumatisme psoriasique, CASPAR, psoriasis pustuleux, érythrodermie, dermocorticoïdes, calcipotriol, photothérapie, méthotrexate, ciclosporine, acitrétine, aprémilast, biothérapies, anti-IL-17, anti-IL-23, tuberculose latente, Maghreb, Algérie]
 ---
 
 # Psoriasis : aspect typique, formes cliniques et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-011 — « Psoriasis : Aspect typique - formes cliniques - traitement ».
 
@@ -246,7 +299,7 @@ Hyperkératose **parakératosique**, **disparition de la couche granuleuse**, **
 | **PGA** (*Physician Global Assessment*) | Évaluation globale | Essais, pratique |
 | **NAPSI** | Atteinte unguéale | Ongles |
 
-**Définition du psoriasis modéré à sévère selon EuroGuiDerm** [S1] : **(BSA > 10 % ou PASI > 10) et DLQI > 10** (« règle des 10 »). Un psoriasis de moindre étendue peut être **reclassé en modéré à sévère** en présence de critères dits « de surclassement » : atteinte importante de **zones visibles**, du **cuir chevelu**, des **organes génitaux**, des **paumes et plantes**, atteinte **unguéale** significative, **prurit** important, plaques réfractaires **[liste exacte À VÉRIFIER dans EuroGuiDerm]**.
+**Définition du psoriasis modéré à sévère selon EuroGuiDerm** [S1] : **(BSA > 10 % ou PASI > 10) et DLQI > 10** (« règle des 10 »). Un psoriasis de moindre étendue peut être **reclassé en modéré à sévère** en présence de critères dits « de surclassement » (consensus européen 2011, repris par EuroGuiDerm et la S3 allemande 2026) : atteinte importante de **zones visibles**, d'une grande partie du **cuir chevelu**, des **organes génitaux**, des **paumes et/ou plantes**, **onycholyse ou onychodystrophie d'au moins deux ongles des doigts**, **prurit** entraînant le grattage, **plaques isolées réfractaires** [S15, S11].
 
 ### 7.3 Critères CASPAR du rhumatisme psoriasique [S8]
 Chez un patient ayant une **atteinte inflammatoire articulaire, rachidienne ou enthésitique**, un score **≥ 3 points** parmi :
@@ -381,7 +434,7 @@ L'atteinte unguéale est associée au **rhumatisme psoriasique** (atteinte des i
 4. Minimiser la **toxicité** des traitements au long cours ;
 5. **Décision partagée** avec un patient informé du caractère chronique de la maladie (éducation thérapeutique).
 
-**Cibles thérapeutiques** : l'évaluation de la réponse repose classiquement sur le PASI et le DLQI à la fin de la phase d'induction (en général entre 10 et 16 semaines selon la molécule) puis régulièrement en entretien. Le consensus européen historique considérait un **PASI 75** comme un succès, un **PASI 50–75 avec DLQI ≤ 5** comme acceptable et un PASI < 50 (ou PASI 50–75 avec DLQI > 5) comme un échec ; les recommandations récentes (SFD 2019, EuroGuiDerm) intègrent des objectifs plus ambitieux, en valeur absolue de PASI et de DLQI **[seuils exacts À VÉRIFIER dans S1, S3, S4]** [S1, S4].
+**Cibles thérapeutiques** : l'évaluation de la réponse repose classiquement sur le PASI et le DLQI à la fin de la phase d'induction (en général entre 10 et 16 semaines selon la molécule) puis régulièrement en entretien. Le consensus européen historique considérait un **PASI 75** comme un succès, un **PASI 50–75 avec DLQI ≤ 5** comme acceptable et un PASI < 50 (ou PASI 50–75 avec DLQI > 5) comme un échec ; les recommandations récentes intègrent des objectifs plus ambitieux : la S3 allemande 2026, adaptée d'EuroGuiDerm, fixe le **PASI 75** comme objectif minimal et un **PASI 90**, un **PASI absolu < 2** ou un **DLQI ≤ 1** comme objectifs souhaitables [S11] (consensus historique : [S15]).
 
 ### 13.2 Moyens
 
@@ -395,8 +448,8 @@ L'atteinte unguéale est associée au **rhumatisme psoriasique** (atteinte des i
 #### 13.2.2 Traitements locaux (psoriasis limité, ou en complément)
 | Classe | Exemples | Modalités et précautions |
 |---|---|---|
-| **Dermocorticoïdes** | Classes d'activité forte à très forte sur le corps (en France, classification de I « très forte » à IV « faible ») ; classes plus faibles sur le visage et les plis | Une application par jour en général ; traitement d'attaque puis décroissance ou schéma d'entretien intermittent ; **effets indésirables** : atrophie, vergetures, rebond à l'arrêt brutal, effets systémiques si grandes surfaces ; compter les tubes ; **éviter sur une dermatophytie** [posologie : **POSOLOGIE À VÉRIFIER — RCP**] |
-| **Analogues de la vitamine D** | Calcipotriol, calcitriol | Seuls ou en **association fixe calcipotriol + bétaméthasone** (une application par jour, très utilisée) ; irritation ; respecter la quantité hebdomadaire maximale (risque d'hypercalcémie) **[POSOLOGIE À VÉRIFIER — RCP]** |
+| **Dermocorticoïdes** | Classes d'activité forte à très forte sur le corps (en France, classification de I « très forte » à IV « faible ») ; classes plus faibles sur le visage et les plis | Une application par jour en général ; traitement d'attaque puis décroissance ou schéma d'entretien intermittent ; **effets indésirables** : atrophie, vergetures, rebond à l'arrêt brutal, effets systémiques si grandes surfaces ; compter les tubes ; **éviter sur une dermatophytie** ; posologie : une à deux applications par jour selon le RCP, une seule suffisant en général [S13] |
+| **Analogues de la vitamine D** | Calcipotriol, calcitriol | Seuls ou en **association fixe calcipotriol + bétaméthasone** (une application par jour, très utilisée) ; irritation ; respecter les quantités maximales (risque d'hypercalcémie) : pour l'association calcipotriol + bétaméthasone, 15 g/j et 100 g/semaine au maximum, sur moins de 30 % de la surface corporelle [S13] |
 | **Kératolytiques** | Acide salicylique (vaseline salicylée), urée | Décaper les squames épaisses avant les autres topiques ; prudence chez l'enfant (salicylisme) et sur de grandes surfaces |
 | **Rétinoïde topique** | Tazarotène | Irritant ; tératogène (contraception) |
 | **Inhibiteurs topiques de la calcineurine** | Tacrolimus | Visage et plis (usage hors AMM selon les pays) |
@@ -411,12 +464,12 @@ L'atteinte unguéale est associée au **rhumatisme psoriasique** (atteinte des i
 #### 13.2.4 Traitements systémiques conventionnels [S1, S4]
 | Molécule | Points clés | Posologie |
 |---|---|---|
-| **Méthotrexate** | Traitement systémique de première ligne le plus utilisé ; efficace aussi sur l'arthrite périphérique ; **une prise par semaine** avec **acide folique** ; surveillance NFS, transaminases, créatinine ; marqueurs non invasifs de fibrose hépatique selon les terrains ; **tératogène** ; interactions (triméthoprime-sulfaméthoxazole) | Dose hebdomadaire progressive **[POSOLOGIE À VÉRIFIER — EuroGuiDerm / RCP]** |
-| **Ciclosporine** | Action rapide : traitement d'**induction** de courte durée (poussées sévères, érythrodermie) ; **néphrotoxicité** et **HTA** (surveillance créatinine et tension), interactions (CYP3A4), risque carcinogène cutané accru après PUVA ; durée limitée | Dose rapportée au poids (classiquement de 2,5 à 5 mg/kg/j) **[POSOLOGIE À VÉRIFIER — RCP]** |
-| **Acitrétine** (rétinoïde) | Utile dans les formes **pustuleuses** et kératosiques palmo-plantaires ; peu efficace seule sur le psoriasis en plaques ; **tératogénicité majeure et prolongée** : contraception efficace pendant le traitement et plusieurs années après l'arrêt (durée réglementaire **[À VÉRIFIER — RCP]**), interdiction du don du sang ; sécheresse cutanéo-muqueuse, hyperlipidémie, hépatotoxicité | **[POSOLOGIE À VÉRIFIER — RCP]** |
-| **Aprémilast** (inhibiteur de PDE4) | Voie orale, sans surveillance biologique systématique ; efficacité modérée ; utile pour le psoriasis du cuir chevelu, palmo-plantaire et le rhumatisme psoriasique ; troubles digestifs, perte de poids, troubles de l'humeur (prudence si antécédent dépressif) | Titration puis dose d'entretien **[POSOLOGIE À VÉRIFIER — RCP]** |
+| **Méthotrexate** | Traitement systémique de première ligne le plus utilisé ; efficace aussi sur l'arthrite périphérique ; **une prise par semaine** avec **acide folique** ; surveillance NFS, transaminases, créatinine ; marqueurs non invasifs de fibrose hépatique selon les terrains ; **tératogène** ; interactions (triméthoprime-sulfaméthoxazole) | 15 mg une fois par semaine (dose initiale et d'entretien habituelle), 20 mg si réponse insuffisante, 25 mg utile seulement chez une minorité, pas au-delà ; voie SC préférée au-delà de 15 mg ; acide folique 5 mg une fois par semaine, 24 h après le MTX [S11] |
+| **Ciclosporine** | Action rapide : traitement d'**induction** de courte durée (poussées sévères, érythrodermie) ; **néphrotoxicité** et **HTA** (surveillance créatinine et tension), interactions (CYP3A4), risque carcinogène cutané accru après PUVA ; durée limitée | 2,5 mg/kg/j en 2 prises au départ, jusqu'à 5 mg/kg/j au maximum [S13] ; cures courtes |
+| **Acitrétine** (rétinoïde) | Utile dans les formes **pustuleuses** et kératosiques palmo-plantaires ; peu efficace seule sur le psoriasis en plaques ; **tératogénicité majeure et prolongée** : contraception efficace pendant le traitement et **3 ans après l'arrêt** (programme de prévention de la grossesse de l'EMA) [S14], pas d'alcool pendant le traitement et 2 mois après chez la femme, pas de don du sang pendant le traitement et 3 ans après [S13] ; sécheresse cutanéo-muqueuse, hyperlipidémie, hépatotoxicité | 25 à 30 mg/j pendant 2 à 4 semaines, puis 25 à 50 mg/j selon la réponse et la tolérance (75 mg/j au maximum) [S13] |
+| **Aprémilast** (inhibiteur de PDE4) | Voie orale, sans surveillance biologique systématique ; efficacité modérée ; utile pour le psoriasis du cuir chevelu, palmo-plantaire et le rhumatisme psoriasique ; troubles digestifs, perte de poids, troubles de l'humeur (prudence si antécédent dépressif) | Titration sur 5 jours, puis 30 mg × 2/j à partir du 6e jour [S13] |
 | **Fumarates** (diméthylfumarate) | Option dans certains pays européens ; lymphopénie (surveillance) | Disponibilité locale **[À VÉRIFIER]** |
-| **Deucravacitinib** (inhibiteur de TYK2) | Voie orale ; chapitre ajouté dans la version EuroGuiDerm de septembre 2023 [S3] | **[POSOLOGIE À VÉRIFIER — RCP]** |
+| **Deucravacitinib** (inhibiteur de TYK2) | Voie orale ; chapitre ajouté dans la version EuroGuiDerm de septembre 2023 [S3] ; déconseillé en cas d'ITL faute de données [S16] | 6 mg une fois par jour [S11] |
 
 > **Les corticoïdes généraux sont à proscrire dans le psoriasis** : leur arrêt expose à des **rebonds graves** (érythrodermie, psoriasis pustuleux généralisé).
 
@@ -428,11 +481,32 @@ L'atteinte unguéale est associée au **rhumatisme psoriasique** (atteinte des i
 | **Anti-IL-17** | Sécukinumab, ixékizumab (anti-IL-17A), bimékizumab (anti-IL-17A/F), brodalumab (anti-récepteur IL-17RA) | Très efficaces et rapides ; actifs sur le rhumatisme et l'atteinte axiale ; **candidoses** ; **à éviter en cas de MICI** |
 | **Anti-IL-23 (p19)** | Guselkumab, risankizumab, tildrakizumab | Très efficaces, injections espacées ; bon profil de tolérance ; actifs sur l'arthrite périphérique (guselkumab, risankizumab) mais **non recommandés pour l'atteinte axiale** |
 
-Posologies : **[POSOLOGIE À VÉRIFIER — RCP]**.
+Posologies usuelles de l'adulte dans le psoriasis en plaques (RCP [S13]) :
+
+| Molécule | Posologie |
+|---|---|
+| Adalimumab | 80 mg SC, puis 40 mg toutes les 2 semaines à partir de la semaine suivante |
+| Étanercept | 50 mg SC par semaine (ou 50 mg deux fois par semaine pendant au plus 12 semaines) |
+| Infliximab | 5 mg/kg IV à S0, S2 et S6, puis toutes les 8 semaines |
+| Certolizumab pegol | 400 mg SC à S0, S2 et S4, puis 200 mg toutes les 2 semaines |
+| Ustékinumab | 45 mg SC à S0 et S4, puis toutes les 12 semaines (90 mg au-delà de 100 kg) |
+| Sécukinumab | 300 mg SC à S0, S1, S2, S3 et S4, puis tous les mois |
+| Ixékizumab | 160 mg SC à S0, puis 80 mg toutes les 2 semaines jusqu'à S12, puis toutes les 4 semaines |
+| Brodalumab | 210 mg SC à S0, S1 et S2, puis toutes les 2 semaines |
+| Bimékizumab | 320 mg SC à S0, S4, S8, S12 et S16, puis toutes les 8 semaines |
+| Guselkumab | 100 mg SC à S0 et S4, puis toutes les 8 semaines |
+| Risankizumab | 150 mg SC à S0 et S4, puis toutes les 12 semaines |
+| Tildrakizumab | 100 mg SC à S0 et S4, puis toutes les 12 semaines |
+| Spésolimab (poussée de psoriasis pustuleux généralisé) | 900 mg IV en dose unique, seconde perfusion possible une semaine plus tard si les symptômes persistent |
 
 **Bilan pré-biothérapie** (EuroGuiDerm, adaptation au contexte algérien) [S1, S2, S12] :
 1. Interrogatoire et examen (infections, cancers, insuffisance cardiaque, maladie démyélinisante, MICI, grossesse) ;
-2. **Tuberculose** : radiographie thoracique, **IGRA** (ou IDR) ; traitement de l'ITL selon l'instruction nationale de 2024 avant la biothérapie **[schéma et délai À VÉRIFIER — protocole national]** ;
+2. **Tuberculose** : radiographie thoracique, **IGRA** (ou IDR) ; en cas d'ITL :
+   **Traiter l'ITL** (après exclusion d'une tuberculose active) :
+   - **schémas OMS 2024** [S17] : 6 ou 9 mois d'isoniazide quotidien (6H, 9H), 3 mois de rifapentine + isoniazide hebdomadaires (3HP) ou 3 mois d'isoniazide + rifampicine quotidiens (3HR) ; alternatives : 1 mois de rifapentine + isoniazide quotidiens (1HP) ou 4 mois de rifampicine quotidienne (4R). Chez un candidat à un anti-TNF, l'OMS souligne l'intérêt de terminer vite le traitement préventif (schémas courts) [S17]. Posologies de l'adulte données par l'OMS : 4R, rifampicine 10 mg/kg/j ; 1HP, isoniazide 300 mg/j + rifapentine 600 mg/j (≥ 13 ans) ; pour les autres schémas, manuel opérationnel de l'OMS et protocole national ;
+   - les rifamycines sont des **inducteurs enzymatiques** (corticoïdes, inhibiteurs de la calcineurine, certains inhibiteurs de JAK, contraception hormonale) : revoir les interactions ;
+   - **délai avant la biothérapie** : ni l'OMS ni l'EULAR 2022 n'en fixent ; la recommandation S3 allemande 2026 suggère en général **4 semaines** entre le début du traitement préventif et l'immunosuppression (accord d'experts, sans données d'essai) [S16] ;
+   - **Algérie** : l'instruction ministérielle de 2024 relative à l'ITL [S12] (schémas retenus, délai, disponibilité de la rifapentine) n'a pas pu être relue : contenu **à confirmer** avant usage. ;
 3. Sérologies **VHB** (AgHBs, anti-HBc, anti-HBs), **VHC**, **VIH** — chapitre « hépatites virales » d'EuroGuiDerm mis à jour en février 2025 [S3] ;
 4. NFS, transaminases, créatinine, test de grossesse ;
 5. **Vaccinations** à jour ; vaccins vivants à éviter sous biothérapie.
@@ -465,9 +539,12 @@ comorbidités, projet de grossesse, préférences du patient
      ÉVITER les anti-IL-17
    - Insuffisance cardiaque sévère, sclérose en plaques : ÉVITER les anti-TNF
    - Grossesse (projet) : certolizumab pegol privilégié
-   - Antécédent de tuberculose / ITL : traitement de l'ITL ; les anti-IL-17
-     et anti-IL-23 semblent associés à un risque moindre que les anti-TNF
-     [À VÉRIFIER — EuroGuiDerm partie 2]
+   - ITL (S3 allemande 2026 [S16]) : préférer un anti-IL-17, un anti-IL-23
+     ou l'ustékinumab (traitement préventif à envisager, conseillé avec
+     l'ustékinumab), ou un traitement conventionnel (MTX, ciclosporine,
+     acitrétine, aprémilast, photothérapie) sans traitement préventif
+     systématique ; anti-TNF seulement sans autre option, toujours avec
+     traitement préventif ; deucravacitinib déconseillé (données insuffisantes)
 
 4. FORMES GRAVES → HOSPITALISATION
    - Érythrodermie : soins généraux + ciclosporine ou biothérapie
@@ -491,7 +568,7 @@ comorbidités, projet de grossesse, préférences du patient
 | Topiques | Quantités utilisées (tubes), atrophie cutanée, rebond |
 | Méthotrexate | NFS, transaminases, créatinine (rapprochées au début puis espacées) ; marqueurs non invasifs de fibrose hépatique selon le terrain [S1] |
 | Ciclosporine | **Créatinine** et **tension artérielle** régulières ; durée limitée |
-| Acitrétine | Bilan lipidique, transaminases, **test de grossesse** mensuel chez la femme en âge de procréer **[À VÉRIFIER — RCP]** |
+| Acitrétine | Bilan lipidique, transaminases ; chez la femme en âge de procréer, **test de grossesse** avant le traitement, idéalement mensuel pendant, puis tous les 1 à 3 mois pendant 3 ans après l'arrêt [S14] |
 | Aprémilast | Poids, humeur |
 | Biothérapies | Infections (dont **tuberculose**), candidoses (anti-IL-17), signes digestifs (MICI), réactions aux points d'injection |
 | Comorbidités | Poids, tour de taille, tension, glycémie, lipides, transaminases, humeur, tabac/alcool ; dépistage articulaire à chaque consultation |
@@ -570,7 +647,7 @@ ENSUITE : évaluer la sévérité (BSA, PASI, DLQI), rechercher un rhumatisme
 - **Oublier les médicaments inducteurs** : hydroxychloroquine, lithium, bêtabloquants.
 - **Méconnaître un rhumatisme psoriasique** (IPD, dactylite, talalgies, lombalgie inflammatoire).
 - **Ignorer les comorbidités** cardio-métaboliques et la dépression.
-- **Prescrire de l'acitrétine à une femme en âge de procréer** sans contraception prolongée au-delà de l'arrêt.
+- **Prescrire de l'acitrétine à une femme en âge de procréer** sans contraception prolongée 3 ans au-delà de l'arrêt [S14].
 - **Associer ciclosporine et PUVA** (risque carcinogène).
 - **Prescrire un anti-IL-17 chez un patient atteint de maladie de Crohn.**
 - **Prescrire un anti-IL-23 pour une atteinte axiale** de rhumatisme psoriasique.
@@ -762,7 +839,7 @@ ENSUITE : évaluer la sévérité (BSA, PASI, DLQI), rechercher un rhumatisme
 
 - A : Vrai.
 - B : Vrai : surveillance créatinine et tension.
-- C : Vrai : tératogénicité prolongée (durée réglementaire à vérifier dans le RCP).
+- C : Vrai : tératogénicité prolongée ; contraception pendant le traitement et 3 ans après l'arrêt (EMA 2018).
 - D : Faux : risque carcinogène cutané accru.
 - E : Vrai.
 
@@ -773,11 +850,11 @@ ENSUITE : évaluer la sévérité (BSA, PASI, DLQI), rechercher un rhumatisme
 
 | Question | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
-| Place des biothérapies en première ligne systémique | **EuroGuiDerm 2020 / version vivante 2023** : traitement conventionnel en général en première intention ; biothérapie d'emblée lorsque les traitements conventionnels ne conviennent pas (contre-indication, situation clinique) **[formulation exacte À VÉRIFIER]** [S1, S3] ; **SFD 2019** : algorithmes hiérarchisés intégrant les nouveaux traitements [S4] | **AAD-NPF 2019** : les biothérapies sont présentées comme une option de **première ligne** pour le psoriasis modéré à sévère [S5] | Différences liées aux systèmes de santé et au remboursement ; en Algérie, disponibilité et coût priment **[À VÉRIFIER]** |
-| Objectifs thérapeutiques | **Consensus européen historique** : succès = PASI 75 ; PASI 50–75 acceptable si DLQI ≤ 5 | **SFD 2019** et recommandations récentes : objectifs plus exigeants (PASI absolu bas, DLQI 0–1) [S4] | Seuils à vérifier dans chaque texte |
+| Place des biothérapies en première ligne systémique | **EuroGuiDerm 2020 / version vivante 2023** : traitement conventionnel en général en première intention ; biothérapie d'emblée lorsque les traitements conventionnels ne conviennent pas (contre-indication, situation clinique) **[formulation exacte À VÉRIFIER]** [S1, S3] ; **SFD 2019** : algorithmes hiérarchisés intégrant les nouveaux traitements [S4] ; **S3 allemande 2026** (adaptée d'EuroGuiDerm) : pour un premier traitement systémique, une biothérapie ayant une AMM de première ligne ou le deucravacitinib est suggérée, surtout dans les psoriasis particulièrement sévères [S11] | **AAD-NPF 2019** : les biothérapies sont présentées comme une option de **première ligne** pour le psoriasis modéré à sévère [S5] | Différences liées aux systèmes de santé et au remboursement ; en Algérie, disponibilité et coût priment **[À VÉRIFIER]** |
+| Objectifs thérapeutiques | **Consensus européen historique** : succès = PASI 75 ; PASI 50–75 acceptable si DLQI ≤ 5 | **SFD 2019** et recommandations récentes : objectifs plus exigeants ; S3 allemande 2026 : PASI 75 minimal, PASI 90 ou PASI absolu < 2 ou DLQI ≤ 1 souhaités [S4, S11] | Le consensus historique de 2011 [S15] reste la base des décisions de poursuite ou de modification après l'induction |
 | Mises à jour | **EuroGuiDerm** : recommandation « vivante » (version de septembre 2023 avec deucravacitinib, mise à jour partielle en février 2025 : hépatites virales, grossesse) [S3] ; adaptation allemande S3 publiée en 2026 [S11] | **SFD 2019** et **AAD-NPF 2019** : textes non « vivants », antérieurs à certaines molécules [S4, S5] | Toujours vérifier la version la plus récente |
 | Rhumatisme psoriasique et choix de la molécule | **EULAR 2023** : stratégie par domaine (arthrite périphérique, axiale, enthésite, dactylite) ; les anti-IL-23 ne sont pas retenus pour l'atteinte axiale [S9] | **EuroGuiDerm** : choix de la biothérapie cutanée tenant compte de l'arthrite [S1, S2] | Concordance globale ; décision dermatologue-rhumatologue |
-| Dépistage de la tuberculose latente | **EuroGuiDerm** : dépistage avant biothérapie [S1] ; **AAD-NPF 2019** : dépistage avant biothérapie et suivi selon le risque **[modalités À VÉRIFIER]** [S5] | **Algérie** : directives nationales (instruction ITL 2024) [S12] | Contenu de l'instruction nationale à relire **[À VÉRIFIER]** |
+| Dépistage de la tuberculose latente | **EuroGuiDerm** : dépistage avant biothérapie [S1] ; **AAD-NPF 2019** : dépistage avant biothérapie et suivi selon le risque **[modalités À VÉRIFIER]** [S5] | **Algérie** : directives nationales (instruction ITL 2024) [S12] ; références internationales : schémas OMS 2024 [S17], choix de la molécule et délai de 4 semaines (S3 allemande 2026) [S16] | Contenu de l'instruction nationale à relire **[À VÉRIFIER]** |
 
 ## 22. Références
 
@@ -791,5 +868,10 @@ ENSUITE : évaluer la sévérité (BSA, PASI, DLQI), rechercher un rhumatisme
 8. **[S8]** Taylor W, Gladman D, Helliwell P, et al. Classification criteria for psoriatic arthritis: development of new criteria from a large international study. *Arthritis Rheum.* 2006;54(8):2665-2673. doi:10.1002/art.21972 — vérifiée (PMID 16871531).
 9. **[S9]** Gossec L, Kerschbaumer A, Ferreira RJO, et al. EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update. *Ann Rheum Dis.* 2024;83(6):706-719. doi:10.1136/ard-2024-225531 — vérifiée (PMID 38499325).
 10. **[S10]** Bachelez H, Choon SE, Marrakchi S, et al. Trial of spesolimab for generalized pustular psoriasis. *N Engl J Med.* 2021;385(26):2431-2440. doi:10.1056/NEJMoa2111563 — vérifiée (PMID 34936739).
-11. **[S11]** Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the treatment of psoriasis vulgaris, adapted from EuroGuiDerm – part 1: Treatment recommendations and monitoring. *J Dtsch Dermatol Ges.* 2026;24(1):122-137. doi:10.1111/ddg.16002 — vérifiée (PMID 41531416).
-12. **[S12]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.
+11. **[S11]** Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the treatment of psoriasis vulgaris, adapted from EuroGuiDerm – part 1: Treatment recommendations and monitoring. *J Dtsch Dermatol Ges.* 2026;24(1):122-137. doi:10.1111/ddg.16002 — vérifiée (PMID 41531416 ; texte intégral en accès libre PMC12800871 relu par AUD-01 : objectifs, méthotrexate, deucravacitinib, critères de surclassement).
+12. **[S12]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ni par AUD-01 (hôte .dz inaccessible) ; contenu non relu **[À VÉRIFIER]**.
+13. **[S13]** Résumés des caractéristiques du produit (RCP) des spécialités citées (EPAR de l'EMA ou AMM nationales), versions en vigueur — non consultés pendant l'audit (site de l'EMA inaccessible depuis la session) ; posologies d'AMM standard, à recouper sur le RCP en vigueur **[À VÉRIFIER]**.
+14. **[S14]** European Medicines Agency. Retinoid Article 31 referral (2018) : mesures actualisées de prévention de la grossesse sous rétinoïdes oraux, annexe III (informations produit) — existence et contenu principal vérifiés (recherche web, AUD-01, 2026-11-19).
+15. **[S15]** Mrowietz U, Kragballe K, Reich K, et al. Definition of treatment goals for moderate to severe psoriasis: a European consensus. *Arch Dermatol Res.* 2011;303(1):1-10. doi:10.1007/s00403-010-1080-1 — vérifiée (PMID 20857129 ; texte intégral en accès libre relu).
+16. **[S16]** Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm – part 2: Specific clinical and comorbid situations. *J Dtsch Dermatol Ges.* 2026;24(2):270-282. doi:10.1111/ddg.16001 — vérifiée (PMID 41641952 ; texte intégral en accès libre relu, chapitre tuberculose).
+17. **[S17]** OMS. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment, 2e éd. Genève : OMS ; 2024 — vérifiée (catalogue REC-0263, document DOC-00027 relu par AUD-01).

@@ -374,7 +374,60 @@ ALGORITHME 2 — Le médecin reçoit une plainte disciplinaire
 
 ## 17. Cas clinique commenté
 
-<!--CAS_DOSSIER-->
+Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS-MLEG-1004) y est disponible.
+
+### Douleur thoracique renvoyée à domicile la nuit, décès le lendemain
+
+*Niveau : residanat — scénario fictif (CAS-MLEG-1003).*
+
+**Identité** — Scénario fictif : homme, 52 ans, chauffeur, fumeur, hypertendu non traité.
+
+**Motif** — Consultation à 2 h du matin aux urgences d'un établissement public hospitalier pour douleur thoracique.
+
+**Antécédents** — Tabagisme 30 paquets-années, hypertension artérielle connue non traitée, père décédé d'infarctus à 55 ans.
+
+**Histoire et symptômes** — Douleur rétrosternale constrictive depuis une heure, irradiant au bras gauche, avec sueurs. Le patient est vu par un médecin de garde seul aux urgences, sans senior joignable ; l'électrocardiographe du service est en panne depuis une semaine.
+
+**Examen clinique** — PA 165/95 mmHg, FC 98/min, auscultation normale. Le médecin conclut à une « douleur pariétale », prescrit un anti-inflammatoire et laisse sortir le patient à 2 h 40, sans ECG ni dosage de troponine, et sans que ces éléments soient tracés dans le dossier.
+
+**Biologie** — Aucune biologie réalisée.
+
+**Imagerie / examens** — Aucun examen réalisé.
+
+**Questions et réponses commentées**
+
+1. *Devant quelle juridiction la famille demandera-t-elle réparation ?*  
+   Devant les juridictions administratives : le médecin exerce dans un établissement public et la faute est une faute de service.
+2. *Le médecin peut-il être poursuivi pénalement ?*  
+   Oui, la responsabilité pénale est personnelle : homicide involontaire par négligence ou faute professionnelle avérée (art. 413 de la loi 18-11, renvoi à l'art. 288 du code pénal), si l'expertise établit la faute et le lien de causalité.
+3. *Qu'apporte l'expertise ?*  
+   Elle établit les faits techniques, la conformité des soins, la part de l'organisation, et le lien de causalité ; la loi exige une faute avérée après expertise (art. 353).
+4. *Quels enseignements de prévention ?*  
+   ECG systématique devant une douleur thoracique, traçabilité, supervision des gardes, maintenance du matériel, déclaration et analyse des événements indésirables.
+
+**Hypothèses diagnostiques**
+- Syndrome coronarien aigu non diagnostiqué
+- Faute de diagnostic (absence d'examens élémentaires)
+- Faute d'organisation du service (ECG en panne, absence de senior)
+
+**Diagnostics différentiels**
+- Aléa diagnostique non fautif (présentation atypique) — non retenu : tableau typique chez un patient à haut risque
+- Cause étrangère — non retenue
+
+**Examens à demander**
+- Expertise judiciaire (art. 353 de la loi 18-11) : analyse du dossier, des conditions de travail, du matériel, de l'organisation des gardes
+- Autopsie médico-légale si mort suspecte signalée
+
+**Diagnostic retenu** — Décès par probable infarctus du myocarde (à confirmer par l'expertise) après un défaut de diagnostic aux urgences, associé à une désorganisation du service (absence de matériel et d'encadrement).
+
+**Prise en charge** — Analyse des responsabilités : (1) responsabilité ADMINISTRATIVE de l'établissement pour faute de service (défaut d'examen élémentaire, matériel défaillant, absence de senior) devant les juridictions administratives ; (2) responsabilité PÉNALE personnelle possible du médecin pour homicide involontaire si une négligence ou faute professionnelle est avérée après expertise (art. 413 de la loi 18-11, renvoi à l'art. 288 du code pénal), l'organisation défaillante pouvant être prise en compte ; (3) responsabilité DISCIPLINAIRE devant le conseil régional de déontologie (saisine possible par la famille ou le chef d'établissement, art. 348) ; (4) responsabilité STATUTAIRE vis-à-vis de l'employeur. La famille peut aussi saisir la commission de conciliation et de médiation (art. 28). Côté établissement : déclaration et analyse de l'événement indésirable grave, réparation du matériel, organisation de la supervision des gardes.
+
+**Surveillance** — Suivi des procédures ; mesures correctives (protocole douleur thoracique, ECG dans les 10 minutes, astreinte de senior).
+
+**Évolution** — Après expertise, la faute de service est retenue (absence d'ECG, matériel défaillant connu, absence d'encadrement) ; indemnisation de la famille par l'établissement. L'appréciation pénale porte sur la part de négligence personnelle du médecin, compte tenu des conditions d'exercice.
+
+**Commentaire pédagogique** — Ce cas illustre la coexistence des responsabilités : réparation par l'établissement public (faute de service) et éventuelle responsabilité pénale personnelle (non assurable), disciplinaire et statutaire. Il montre le rôle central de l'expertise (faute « avérée, après expertise »), la notion de faute d'organisation, et l'importance de la traçabilité dans le dossier médical (art. 177).
+
 
 ## 18. Points clés à retenir
 
@@ -403,7 +456,186 @@ ALGORITHME 2 — Le médecin reçoit une plainte disciplinaire
 
 ## 20. QCM d'auto-évaluation
 
-<!--QCM_DOSSIER-->
+Les QCM ci-dessous sont les dix premiers de la banque structurée `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-10.json` (identifiants QCM-MLEG-1013 à QCM-MLEG-1022).
+
+**QCM 1 — Les différentes responsabilités** (QCM (réponses multiples), difficulté 1/3)
+
+Concernant les différentes formes de responsabilité médicale, quelles propositions sont exactes ?
+
+- **A.** La responsabilité civile a pour finalité la réparation du dommage subi par le patient.
+- **B.** La responsabilité pénale a pour finalité de punir l'auteur d'une infraction.
+- **C.** La responsabilité disciplinaire sanctionne un manquement aux règles de déontologie.
+- **D.** Une sanction disciplinaire empêche toute poursuite pénale pour les mêmes faits.
+- **E.** Le praticien d'un établissement public de santé peut voir engagée la responsabilité de son établissement devant les juridictions administratives.
+
+> **Corrigé : A, B, C, E.** Les responsabilités civile et administrative réparent, la pénale punit, la disciplinaire sanctionne professionnellement. Elles sont indépendantes et peuvent se cumuler (loi 18-11, art. 347 ; code de déontologie, art. 221).
+> - A : Vrai.
+> - B : Vrai.
+> - C : Vrai.
+> - D : Faux : les actions sont indépendantes.
+> - E : Vrai : faute de service.
+>
+> *Piège* : Croire qu'une sanction disciplinaire éteint l'action pénale.
+
+**QCM 2 — Conditions de la responsabilité pour faute** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant les conditions de la responsabilité médicale pour faute, quelles propositions sont exactes ?
+
+- **A.** Elle exige une faute, un dommage et un lien de causalité.
+- **B.** Selon la loi 18-11, la faute médicale doit être avérée après expertise.
+- **C.** La survenue d'une complication suffit à établir la faute.
+- **D.** Le défendeur peut s'exonérer en prouvant une cause étrangère (force majeure, fait de la victime ou d'un tiers).
+- **E.** Un accident médical non fautif (aléa) engage la responsabilité pour faute du médecin.
+
+> **Corrigé : A, B, D.** La responsabilité pour faute repose sur la trilogie faute-dommage-causalité ; l'expertise est centrale (art. 353 de la loi 18-11) ; la cause étrangère exonère (code civil, art. 127) ; l'aléa n'est pas une faute.
+> - A : Vrai.
+> - B : Vrai : art. 353.
+> - C : Faux : une complication peut être un aléa.
+> - D : Vrai : art. 127 du code civil.
+> - E : Faux.
+>
+> *Piège* : Assimiler complication et faute.
+
+**QCM 3 — Obligation de moyens** (QCS (réponse unique), difficulté 1/3)
+
+Quel article du code civil algérien (rédaction de 1975) fonde classiquement l'obligation de moyens du médecin, en libérant le débiteur qui a apporté à l'exécution de son obligation la diligence d'un bon père de famille, même si le résultat n'est pas obtenu ?
+
+- **A.** Article 124.
+- **B.** Article 136.
+- **C.** Article 172.
+- **D.** Article 182.
+- **E.** Article 301.
+
+> **Corrigé : C.** L'article 172 du code civil (1975) pose la règle de diligence du « bon père de famille » pour l'obligation de faire : c'est le fondement de l'obligation de moyens. L'article 124 fonde la responsabilité délictuelle, l'article 136 celle du commettant, l'article 182 l'étendue de la réparation ; l'article 301 est un article du code pénal (secret professionnel).
+> - A : Faux : responsabilité du fait personnel.
+> - B : Faux : responsabilité du commettant.
+> - C : Vrai.
+> - D : Faux : réparation (perte subie, gain manqué).
+> - E : Faux : code pénal.
+
+**QCM 4 — Exercice public : responsabilité administrative** (QCM (réponses multiples), difficulté 2/3)
+
+Un patient est victime d'une faute de diagnostic commise par un praticien d'un établissement public hospitalier dans l'exercice de ses fonctions. Quelles propositions sont exactes ?
+
+- **A.** La faute de service engage en principe la responsabilité de l'établissement.
+- **B.** L'action en réparation relève des juridictions administratives.
+- **C.** Une faute personnelle détachable du service peut engager la responsabilité personnelle du praticien.
+- **D.** Le patient peut saisir la commission de conciliation et de médiation en cas de violation de ses droits.
+- **E.** Le praticien public n'encourt aucune responsabilité pénale pour les actes accomplis à l'hôpital.
+
+> **Corrigé : A, B, C, D.** En exercice public, la faute de service est réparée par l'établissement devant le juge administratif ; la faute personnelle détachable engage le praticien. La responsabilité pénale, personnelle, demeure. La commission de conciliation et de médiation est prévue par l'article 28 de la loi 18-11.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Vrai.
+> - D : Vrai : art. 28.
+> - E : Faux : la responsabilité pénale est personnelle (art. 413).
+
+**QCM 5 — Exercice privé : responsabilité civile** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant la responsabilité civile en exercice privé, quelles propositions sont exactes ?
+
+- **A.** Tout fait quelconque de l'homme qui cause à autrui un dommage par sa faute oblige son auteur à le réparer (code civil, art. 124).
+- **B.** La clinique répond, en tant que commettant, des dommages causés par ses préposés salariés dans l'exercice de leurs fonctions.
+- **C.** Les professionnels de santé libéraux sont tenus de souscrire une assurance couvrant leur responsabilité civile et professionnelle.
+- **D.** Une clause exonérant le médecin de toute responsabilité délictuelle est valable si le patient l'a signée.
+- **E.** La réparation couvre la perte subie et le gain manqué qui sont la suite normale du fait dommageable.
+
+> **Corrigé : A, B, C, E.** La responsabilité civile repose sur les articles 124 (fait personnel), 136 (commettant), 176-182 (contractuelle) du code civil ; l'assurance est obligatoire (loi 18-11, art. 296) ; les clauses exonérant de la responsabilité délictuelle sont nulles (art. 178 du code civil).
+> - A : Vrai.
+> - B : Vrai : art. 136.
+> - C : Vrai : art. 296 de la loi 18-11.
+> - D : Faux : nullité (art. 178).
+> - E : Vrai : art. 182.
+
+**QCM 6 — Responsabilité pénale : caractères** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant la responsabilité pénale du professionnel de santé en droit algérien, quelles propositions sont exactes ?
+
+- **A.** Elle est personnelle.
+- **B.** Les amendes pénales sont prises en charge par l'assurance responsabilité civile professionnelle.
+- **C.** L'article 413 de la loi 18-11 renvoie aux articles 288, 289 et 442 (alinéa 2) du code pénal pour les atteintes causées par négligence ou faute professionnelle avérée.
+- **D.** La nécessité médicale justifiée est expressément réservée par l'article 413.
+- **E.** Une personne morale (clinique) peut être pénalement sanctionnée pour les infractions prévues par la loi 18-11.
+
+> **Corrigé : A, C, D, E.** La responsabilité pénale est personnelle et non assurable. La loi 18-11 réprime les atteintes involontaires par négligence ou faute avérée (art. 413) et prévoit la responsabilité des personnes morales (art. 441).
+> - A : Vrai.
+> - B : Faux : les sanctions pénales ne sont pas assurables.
+> - C : Vrai.
+> - D : Vrai.
+> - E : Vrai : art. 441.
+>
+> *Piège* : Penser que l'assurance couvre les condamnations pénales.
+
+**QCM 7 — Infractions prévues par la loi 18-11** (QCM (réponses multiples), difficulté 2/3)
+
+Quelles correspondances entre comportement et texte sont exactes (loi 18-11 relative à la santé) ?
+
+- **A.** Violation du secret médical : article 417, avec renvoi à l'article 301 du code pénal.
+- **B.** Refus de déférer à une réquisition de l'autorité publique : article 418, avec renvoi à l'article 187 bis du code pénal.
+- **C.** Absence de certificat descriptif en cas de violence : article 420, amende de 20 000 à 40 000 DA.
+- **D.** Exercice illégal des professions de santé : article 416, avec renvoi à l'article 243 du code pénal.
+- **E.** Défaut d'information du patient : peine de réclusion criminelle prévue par l'article 343.
+
+> **Corrigé : A, B, C, D.** Le titre VIII de la loi 18-11 prévoit des peines propres ou des renvois au code pénal. L'article 343 pose l'obligation d'information et de consentement mais ne fixe pas de peine.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Vrai.
+> - D : Vrai.
+> - E : Faux : l'article 343 ne contient pas de sanction pénale ; le défaut d'information relève surtout des responsabilités civile et disciplinaire.
+
+**QCM 8 — Conseils de déontologie médicale (loi 18-11)** (QCM (réponses multiples), difficulté 2/3)
+
+Selon la loi 18-11, quelles propositions sont exactes concernant les conseils de déontologie médicale ?
+
+- **A.** Ils sont composés exclusivement de membres élus par leurs pairs.
+- **B.** Ils peuvent être saisis par les malades, les usagers ou leurs représentants légaux.
+- **C.** Les décisions des conseils régionaux sont susceptibles de recours devant le conseil national dans un délai de deux mois.
+- **D.** Les décisions des conseils nationaux sont susceptibles de recours devant le Conseil d'État dans un délai de quatre mois.
+- **E.** L'inscription au conseil de déontologie est facultative pour le médecin libéral.
+
+> **Corrigé : A, B, C, D.** Les articles 346 à 351 organisent les conseils : composition élective, pouvoir disciplinaire, saisine large, recours gradués, inscription obligatoire.
+> - A : Vrai : art. 346.
+> - B : Vrai : art. 348.
+> - C : Vrai : art. 350.
+> - D : Vrai : art. 350.
+> - E : Faux : obligatoire (art. 349).
+
+**QCM 9 — Procédure disciplinaire (code de déontologie 1992)** (QCM (réponses multiples), difficulté 3/3)
+
+Selon le code de déontologie médicale (décret 92-276), quelles propositions sont exactes concernant la procédure disciplinaire ?
+
+- **A.** La plainte est notifiée à l'intéressé dans les quinze jours.
+- **B.** Aucune décision ne peut être prise sans que l'intéressé ait été entendu ou appelé à comparaître.
+- **C.** Le médecin peut se faire assister par un confrère inscrit au tableau ou par un avocat.
+- **D.** Le conseil régional peut prononcer l'avertissement ou le blâme et proposer l'interdiction d'exercer.
+- **E.** La section régionale dispose d'un délai de deux ans pour statuer.
+
+> **Corrigé : A, B, C, D.** Les articles 210 à 221 du code de déontologie garantissent les droits de la défense (notification, audition, assistance) et fixent les sanctions du conseil régional (avertissement, blâme, proposition d'interdiction d'exercer ou de fermeture).
+> - A : Vrai : art. 212.
+> - B : Vrai : art. 213.
+> - C : Vrai : art. 215.
+> - D : Vrai : art. 217.
+> - E : Faux : quatre mois (art. 216).
+>
+> *Piège* : Croire que le conseil régional prononce lui-même l'interdiction d'exercer (il la propose, selon le code de 1992).
+
+**QCM 10 — Information et consentement** (QCM (réponses multiples), difficulté 1/3)
+
+Selon la loi 18-11, quelles propositions sont exactes concernant l'information et le consentement ?
+
+- **A.** Aucun acte médical ni traitement ne peut être pratiqué sans le consentement libre et éclairé du patient.
+- **B.** L'information porte notamment sur les risques fréquents ou graves normalement prévisibles et sur les alternatives.
+- **C.** En cas de refus de soins, une déclaration écrite peut être exigée.
+- **D.** En cas d'urgence avec menace vitale, le professionnel doit prodiguer les soins et peut passer outre le consentement.
+- **E.** Les droits du mineur sont exercés par le mineur lui-même dès l'âge de 12 ans.
+
+> **Corrigé : A, B, C, D.** Les articles 23, 343 et 344 de la loi 18-11 définissent l'information, le consentement et la conduite en cas de refus ; les droits des mineurs et incapables sont exercés par les parents ou le représentant légal.
+> - A : Vrai : art. 343.
+> - B : Vrai : art. 343.
+> - C : Vrai : art. 344.
+> - D : Vrai : art. 344.
+> - E : Faux : par les parents ou le représentant légal (art. 343).
+
 
 ## 21. Divergences et points à vérifier
 

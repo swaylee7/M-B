@@ -622,7 +622,67 @@ ALGORITHME 4 — Réponse insuffisante à un antipsychotique
 
 ## 17. Cas clinique commenté
 
-<!--CAS_DOSSIER-->
+Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS-PSYC-1002) y est disponible.
+
+### Retrait social, voix et sentiment d'être espionné chez un étudiant de 22 ans
+
+*Niveau : residanat — scénario fictif (CAS-PSYC-1001).*
+
+**Identité** — Scénario fictif : homme, 22 ans, étudiant en deuxième année de licence, célibataire, vit chez ses parents dans une grande ville du nord du pays.
+
+**Motif** — Amené aux urgences psychiatriques d'un établissement public par son père et son frère pour « comportement étrange » et menaces envers un voisin.
+
+**Antécédents** — Pas d'antécédent médical notable. Consommation quotidienne de cannabis depuis l'âge de 17 ans, tabac 15 cigarettes/j, pas d'alcool. Un oncle paternel « hospitalisé en psychiatrie » à plusieurs reprises. Développement normal, scolarité correcte jusqu'au baccalauréat.
+
+**Histoire et symptômes** — Depuis environ huit mois : repli progressif, abandon des cours, inversion du rythme veille-sommeil, perte d'intérêt pour ses amis. Depuis trois mois : conviction que le voisin et « des services » l'espionnent par son téléphone, qu'ils « lisent ses pensées » ; il entend des voix d'hommes qui commentent ses gestes et l'insultent. Il a démonté son téléphone et menacé le voisin la veille avec un couteau de cuisine.
+
+**Examen clinique** — Patient méfiant, présentation négligée, attitudes d'écoute, rires immotivés, discours diffluent avec barrages, néologisme (« télécerveau »), affect émoussé et discordant. Délire de persécution et d'influence non systématisé, mécanismes hallucinatoire et interprétatif, adhésion totale, aucun insight. Pas d'idée suicidaire exprimée. Orienté, vigilance normale. Examen somatique et neurologique normal ; PA 125/75 mmHg, FC 88/min, T 36,8 °C, poids 64 kg, IMC 21 kg/m².
+
+**Biologie** — Hémogramme normal (Hb 14,6 g/dL ; leucocytes 7 200/mm³ ; plaquettes 260 000/mm³). Na 140 mmol/L (135-145), K 4,1 mmol/L (3,5-5), créatinine 78 µmol/L (60-110), ASAT/ALAT normales, glycémie à jeun 0,88 g/L (0,70-1,10), cholestérol total 1,70 g/L, triglycérides 0,95 g/L, TSH 1,9 mUI/L (0,4-4). Dépistage urinaire : cannabinoïdes positifs, autres toxiques négatifs. Sérologies VIH et syphilis négatives.
+
+**Imagerie / examens** — IRM cérébrale normale. ECG : rythme sinusal, QTc 410 ms.
+
+**Questions et réponses commentées**
+
+1. *Quels arguments permettent de retenir le diagnostic de schizophrénie plutôt qu'un trouble schizophréniforme ?*  
+   La durée totale des signes (phase prodromique comprise) dépasse six mois, avec une phase active de plus d'un mois et un déclin fonctionnel net (abandon des études).
+2. *Le dépistage positif au cannabis permet-il de conclure à une psychose induite ?*  
+   Non : la phase prodromique ancienne, la persistance des symptômes et la présence de symptômes négatifs et de désorganisation orientent vers une schizophrénie ; le cannabis est un facteur de risque et de rechute, à prendre en charge.
+3. *Quel cadre légal utiliser devant le refus de soins ?*  
+   La mise en observation du fait d'un tiers (loi 18-11, art. 137-140) dans un service ou une unité fermée d'une structure publique, au plus 15 jours (prolongeable une fois), sur présentation du patient par un membre de la famille ; elle peut ensuite être transformée en hospitalisation du fait d'un tiers ou laisser place aux soins libres.
+4. *Quelle posologie de rispéridone proposer ?*  
+   Début à 1 mg/j puis augmentation progressive à 2-6 mg/j (maximum 10 mg/j) selon la réponse et la tolérance (mhGAP-IG 2.0) — à confronter au RCP.
+5. *Quelle durée de traitement d'entretien proposer ?*  
+   Au moins 7 à 12 mois après la rémission d'un premier épisode (OMS 2023), avec réévaluation partagée ; la rechute survenue à l'arrêt incite à un traitement plus prolongé et à discuter une forme injectable à action prolongée.
+
+**Hypothèses diagnostiques**
+- Schizophrénie (forme paranoïde) inaugurée par une phase prodromique de cinq mois
+- Trouble psychotique induit par le cannabis
+- Trouble schizophréniforme si la durée était inférieure à six mois
+
+**Diagnostics différentiels**
+- Psychose induite par le cannabis (persistance des symptômes et phase prodromique antérieure plaident contre)
+- Épisode maniaque ou dépressif avec caractéristiques psychotiques (pas de syndrome thymique)
+- Cause organique (examen neurologique, biologie et IRM normaux)
+- Trouble délirant (désorganisation et symptômes négatifs présents)
+
+**Examens à demander**
+- Bilan biologique de référence et toxiques urinaires
+- IRM cérébrale
+- ECG avec QTc
+- Mesures métaboliques de référence (poids, IMC, tour de taille, PA, glycémie, lipides)
+- EEG uniquement si signes paroxystiques ou confusion
+
+**Diagnostic retenu** — Schizophrénie selon le DSM-5-TR (symptômes du critère A depuis plus d'un mois, signes continus depuis environ huit mois, déclin fonctionnel), forme paranoïde ; trouble de l'usage du cannabis comorbide.
+
+**Prise en charge** — Refus de soins avec troubles rendant le consentement impossible et nécessité de soins immédiats : présentation par le père au psychiatre de l'établissement public et mise en observation du fait d'un tiers en unité fermée (bulletin d'admission, durée maximale de 15 jours — loi 18-11, art. 137-139). Rispéridone en monothérapie, début 1 mg/j puis augmentation progressive vers 2 à 6 mg/j selon l'efficacité et la tolérance (mhGAP-IG 2.0). Pas d'anticholinergique systématique. Psychoéducation du patient et de la famille, information sur le rôle du cannabis, entretien motivationnel, aide au sevrage tabagique. Au 12e jour, amélioration nette ; le patient accepte de poursuivre les soins en service ouvert (art. 135-136).
+
+**Surveillance** — Clinique hebdomadaire les 6 premières semaines (efficacité, effets extrapyramidaux, sédation, idées suicidaires). Poids mensuel pendant 3 mois puis trimestriel ; glycémie à jeun, lipides et PA à 3 et 6 mois puis annuellement (CANMAT-ISBD 2018). Prolactine si galactorrhée ou troubles sexuels. ECG de contrôle après titration.
+
+**Évolution** — Rémission partielle à 6 semaines (disparition des hallucinations, persistance d'une méfiance et d'un émoussement). À 5 mois, arrêt du traitement de sa propre initiative et reprise du cannabis, suivis d'une rechute délirante. Une forme injectable à action prolongée est discutée avec lui et sa famille ; reprise des études aménagée avec un programme de réhabilitation.
+
+**Commentaire pédagogique** — Ce cas illustre la séquence typique prodromes → épisode aigu, la nécessité d'éliminer une cause organique malgré un dépistage positif au cannabis, le choix d'un antipsychotique en monothérapie avec posologie progressive, l'application du cadre légal algérien (mise en observation du fait d'un tiers, uniquement en structure publique) puis le passage aux soins libres, et le risque majeur de rechute à l'arrêt du traitement et à la reprise du cannabis, justifiant un traitement d'entretien d'au moins 7 à 12 mois (OMS) et la discussion d'une forme retard.
+
 
 ## 18. Points clés à retenir
 
@@ -652,7 +712,190 @@ ALGORITHME 4 — Réponse insuffisante à un antipsychotique
 
 ## 20. QCM d'auto-évaluation
 
-<!--QCM_DOSSIER-->
+Les QCM ci-dessous sont les dix premiers de la banque structurée `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-10.json` (identifiants QCM-PSYC-1001 à QCM-PSYC-1010).
+
+**QCM 1 — Critères diagnostiques DSM-5-TR** (QCM (réponses multiples), difficulté 1/3)
+
+Concernant les critères diagnostiques de la schizophrénie dans le DSM-5-TR, quelles propositions sont exactes ?
+
+- **A.** Le critère A exige au moins deux symptômes caractéristiques présents une part significative du temps pendant un mois, dont au moins un parmi idées délirantes, hallucinations et discours désorganisé.
+- **B.** La durée totale des signes du trouble doit atteindre au moins six mois, phases prodromique et résiduelle comprises.
+- **C.** Des symptômes négatifs isolés pendant un mois suffisent à remplir le critère A.
+- **D.** La CIM-11 exige elle aussi six mois d'évolution pour poser le diagnostic.
+- **E.** Une baisse du fonctionnement par rapport au niveau antérieur fait partie des critères.
+
+> **Corrigé : A, B, E.** Le DSM-5-TR associe un critère symptomatique (deux symptômes sur cinq pendant un mois, dont un symptôme « positif » ou de désorganisation du discours), un critère fonctionnel et un critère de durée de six mois. La CIM-11 retient un mois de symptômes caractéristiques.
+> - A : Vrai : c'est la définition du critère A.
+> - B : Vrai : six mois au total, dont au moins un mois de phase active.
+> - C : Faux : il faut au moins un symptôme parmi les trois premiers (délire, hallucinations, discours désorganisé).
+> - D : Faux : la CIM-11 exige un mois de symptômes ; c'est une divergence classique entre les deux classifications.
+> - E : Vrai : critère B (déclin fonctionnel).
+>
+> *Piège* : Confondre la durée du DSM-5-TR (6 mois) et celle de la CIM-11 (1 mois).
+
+**QCM 2 — Bilan d'un premier épisode psychotique** (QCS (réponse unique), difficulté 1/3)
+
+Un homme de 20 ans présente un premier épisode psychotique. Parmi les examens suivants, lequel N'a PAS sa place dans le bilan de routine ?
+
+- **A.** Imagerie cérébrale (IRM de préférence).
+- **B.** Recherche urinaire de toxiques.
+- **C.** ECG avec mesure du QTc.
+- **D.** Recherche de variants génétiques de susceptibilité pour confirmer le diagnostic.
+- **E.** Glycémie à jeun et bilan lipidique de référence.
+
+> **Corrigé : D.** Le bilan d'un premier épisode vise à éliminer une cause organique ou toxique et à établir des valeurs de référence avant antipsychotique. Aucun test génétique n'a d'utilité diagnostique en routine.
+> - A : Indiquée : recherche de lésion cérébrale, surtout en cas d'atypie.
+> - B : Indiquée : psychose induite par une substance.
+> - C : Indiqué : référence avant antipsychotique allongeant le QT.
+> - D : Non indiquée : l'héritabilité est polygénique ; aucun test ne confirme le diagnostic.
+> - E : Indiquées : référence métabolique avant antipsychotique.
+
+**QCM 3 — Voies dopaminergiques et effets des antipsychotiques** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant les voies dopaminergiques et les effets des antipsychotiques, quelles propositions sont exactes ?
+
+- **A.** L'hyperactivité dopaminergique mésolimbique est associée aux symptômes positifs.
+- **B.** Le blocage D2 de la voie tubéro-infundibulaire explique la galactorrhée et l'aménorrhée.
+- **C.** Le blocage D2 de la voie nigrostriée explique les dystonies aiguës et le parkinsonisme.
+- **D.** L'aripiprazole est un antagoniste D2 complet, ce qui explique son fort effet hyperprolactinémiant.
+- **E.** Les antipsychotiques de première génération améliorent constamment les symptômes négatifs primaires.
+
+> **Corrigé : A, B, C.** Les quatre voies dopaminergiques expliquent l'effet thérapeutique (mésolimbique) et les effets indésirables (nigrostriée : extrapyramidaux ; tubéro-infundibulaire : hyperprolactinémie ; mésocorticale : déficit négatif et cognitif).
+> - A : Vrai.
+> - B : Vrai : la dopamine inhibe la sécrétion de prolactine ; son blocage la lève.
+> - C : Vrai.
+> - D : Faux : l'aripiprazole est un agoniste partiel D2, avec peu d'effet prolactinique.
+> - E : Faux : le blocage mésocortical peut au contraire aggraver le déficit.
+
+**QCM 4 — Schizophrénie résistante et clozapine** (QCM (réponses multiples), difficulté 2/3)
+
+À propos de la schizophrénie résistante et de la clozapine, quelles propositions sont exactes ?
+
+- **A.** La résistance se définit après l'échec d'au moins deux antipsychotiques différents prescrits à dose et durée adéquates.
+- **B.** L'observance doit être vérifiée avant de conclure à une résistance.
+- **C.** La clozapine impose une surveillance hématologique en raison du risque d'agranulocytose.
+- **D.** La clozapine est le traitement de première intention de tout premier épisode psychotique.
+- **E.** Une fièvre ou une angine sous clozapine impose un hémogramme en urgence.
+
+> **Corrigé : A, B, C, E.** La clozapine est le traitement de référence de la schizophrénie résistante (NICE, APA, WFSBP, OMS). Ses risques (agranulocytose, myocardite, convulsions, constipation sévère) la réservent à cette indication, sous surveillance spécialisée.
+> - A : Vrai.
+> - B : Vrai : la non-observance est la première cause de « pseudo-résistance ».
+> - C : Vrai.
+> - D : Faux : elle est réservée aux formes résistantes (et, selon l'APA, au risque suicidaire ou agressif persistant).
+> - E : Vrai : une agranulocytose doit être éliminée sans délai.
+>
+> *Piège* : Conclure à la résistance sans vérifier l'observance.
+
+**QCM 5 — Syndrome malin des neuroleptiques** (QCM (réponses multiples), difficulté 2/3)
+
+Un homme de 30 ans a reçu de l'halopéridol injectable pour une agitation. 48 heures plus tard, il présente une température à 39,6 °C, une rigidité généralisée, une confusion, une tachycardie, des sueurs et des CPK très élevées. Quelles propositions sont exactes ?
+
+- **A.** L'antipsychotique doit être arrêté immédiatement.
+- **B.** Il faut poursuivre l'halopéridol en ajoutant un anticholinergique.
+- **C.** Une surveillance en réanimation avec prévention de l'insuffisance rénale est indiquée.
+- **D.** Le syndrome sérotoninergique et une infection du système nerveux central font partie des diagnostics différentiels.
+- **E.** L'halopéridol pourra être réintroduit à la même dose 48 heures après l'apyrexie.
+
+> **Corrigé : A, C, D.** Le tableau associe les éléments retenus par le consensus Delphi (exposition à un antagoniste dopaminergique, hyperthermie, rigidité, altération mentale, élévation des CPK, labilité sympathique). C'est une urgence : arrêt de l'antipsychotique, réanimation, recherche des diagnostics différentiels.
+> - A : Vrai.
+> - B : Faux : l'anticholinergique ne traite pas le SMN et la poursuite de l'antipsychotique est dangereuse.
+> - C : Vrai : risque de rhabdomyolyse et d'insuffisance rénale.
+> - D : Vrai : ainsi que l'hyperthermie maligne, la catatonie maligne, le coup de chaleur.
+> - E : Faux : une réintroduction éventuelle se fait à distance, avec une autre molécule, à faible dose et titration lente.
+>
+> *Piège* : Confondre SMN et dystonie aiguë (pas de fièvre ni d'élévation majeure des CPK dans la dystonie).
+
+**QCM 6 — Surveillance métabolique sous antipsychotique** (QCM (réponses multiples), difficulté 2/3)
+
+Selon le calendrier proposé par CANMAT-ISBD 2018 pour les patients sous antipsychotique atypique, quelles propositions sont exactes ?
+
+- **A.** Le poids est contrôlé chaque mois pendant les trois premiers mois, puis tous les trois mois.
+- **B.** La glycémie à jeun, le bilan lipidique et la pression artérielle sont contrôlés à 3 et 6 mois, puis une fois par an.
+- **C.** Aucun bilan initial n'est nécessaire chez un sujet jeune sans antécédent.
+- **D.** L'olanzapine fait partie des molécules au risque métabolique le plus élevé.
+- **E.** L'aripiprazole est la molécule au risque métabolique le plus élevé.
+
+> **Corrigé : A, B, D.** La surveillance métabolique est systématique, avec un bilan de référence puis un suivi rapproché la première année. L'olanzapine et la clozapine sont les molécules les plus à risque.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Faux : le bilan initial est toujours recommandé.
+> - D : Vrai.
+> - E : Faux : son risque métabolique est faible.
+
+**QCM 7 — Agitation aiguë d'origine psychotique** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant la prise en charge d'une agitation aiguë chez un patient schizophrène connu (consensus Project BETA), quelles propositions sont exactes ?
+
+- **A.** La désescalade verbale et la réduction des stimulations sont tentées en premier si possible.
+- **B.** La voie orale est préférée si le patient accepte le traitement.
+- **C.** L'association d'olanzapine intramusculaire et d'une benzodiazépine parentérale est recommandée en première intention.
+- **D.** L'halopéridol intraveineux peut être administré sans surveillance cardiaque.
+- **E.** Si une première dose d'antipsychotique est insuffisante, l'ajout d'une benzodiazépine est préféré à un second antipsychotique.
+
+> **Corrigé : A, B, E.** Le consensus BETA privilégie les mesures non pharmacologiques, la voie orale lorsque c'est possible et un antipsychotique en cas d'agitation d'origine psychotique ; une benzodiazépine peut être ajoutée. Exemples de posologies (BETA) : halopéridol 5 mg IM (maximum 20 mg/24 h), olanzapine 10 mg IM (maximum 30 mg/24 h), lorazépam 2 mg (maximum 12 mg/24 h).
+> - A : Vrai.
+> - B : Vrai.
+> - C : Faux : cette association est à éviter (baisse de saturation rapportée, surtout en cas d'alcoolisation).
+> - D : Faux : la voie IV majore le risque d'allongement du QT ; elle impose une limitation de dose et un monitorage cardiaque.
+> - E : Vrai.
+>
+> *Piège* : Associer olanzapine IM et benzodiazépine parentérale.
+
+**QCM 8 — Cadre légal algérien des soins sans consentement** (QCM (réponses multiples), difficulté 2/3)
+
+Selon la loi algérienne n° 18-11 relative à la santé, quelles propositions sont exactes concernant l'hospitalisation des malades atteints de troubles mentaux ?
+
+- **A.** L'hospitalisation sans consentement ne peut se faire que dans des structures de santé publiques.
+- **B.** La mise en observation du fait d'un tiers dure au plus quinze jours, prolongeable une fois de quinze jours.
+- **C.** L'hospitalisation d'office est prise par arrêté du wali pour une durée maximale de six mois, renouvelable.
+- **D.** L'examen psychiatrique d'office peut être décidé par le médecin généraliste traitant.
+- **E.** L'hospitalisation à temps plein en psychiatrie d'un adolescent de 15 ans est soumise à l'approbation de la commission de santé mentale de wilaya.
+
+> **Corrigé : A, B, C, E.** Les articles 128 à 164 de la loi 18-11 organisent les soins sans consentement : structures publiques uniquement, mise en observation limitée à 15 jours, hospitalisation d'office par arrêté du wali (6 mois au plus), examen psychiatrique d'office décidé par le wali ou le procureur général, contrôle par la commission de santé mentale de wilaya.
+> - A : Vrai : article 128.
+> - B : Vrai : articles 139-140.
+> - C : Vrai : article 154.
+> - D : Faux : seuls le procureur général près la Cour ou le wali sont habilités (article 145).
+> - E : Vrai : article 130 (avant 16 ans et au-delà de 75 ans).
+>
+> *Piège* : Croire que le médecin ou un établissement privé peut décider d'une hospitalisation d'office.
+
+**QCM 9 — Facteurs pronostiques** (QCM (réponses multiples), difficulté 1/3)
+
+Parmi les éléments suivants, lesquels sont des facteurs de MAUVAIS pronostic d'une schizophrénie ?
+
+- **A.** Début insidieux.
+- **B.** Âge de début tardif.
+- **C.** Prédominance des symptômes négatifs.
+- **D.** Durée de psychose non traitée prolongée.
+- **E.** Bonne adaptation prémorbide.
+
+> **Corrigé : A, C, D.** Les facteurs défavorables sont le début précoce et insidieux, la prédominance des symptômes négatifs et cognitifs, une longue durée de psychose non traitée, une mauvaise adaptation prémorbide, l'addiction et la non-observance.
+> - A : Vrai.
+> - B : Faux : un début tardif est plutôt favorable.
+> - C : Vrai.
+> - D : Vrai.
+> - E : Faux : c'est un facteur favorable.
+
+**QCM 10 — Spectre de la schizophrénie : durées** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant les critères de durée des troubles du spectre de la schizophrénie, quelles propositions sont exactes ?
+
+- **A.** Le trouble psychotique bref (DSM-5-TR) dure au moins un jour et moins d'un mois, avec retour à l'état antérieur.
+- **B.** Le trouble schizophréniforme (DSM-5-TR) dure au moins un mois et moins de six mois.
+- **C.** Le trouble psychotique aigu et transitoire de la CIM-11 ne dépasse pas trois mois.
+- **D.** Le trouble délirant de la CIM-11 exige seulement un mois d'évolution.
+- **E.** Dans le trouble schizoaffectif, des idées délirantes ou hallucinations existent au moins deux semaines en l'absence d'épisode thymique majeur.
+
+> **Corrigé : A, B, C, E.** Les seuils de durée structurent le diagnostic différentiel des psychoses et diffèrent entre DSM-5-TR et CIM-11.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Vrai.
+> - D : Faux : la CIM-11 exige trois mois pour le trouble délirant (le DSM-5-TR un mois).
+> - E : Vrai.
+>
+> *Piège* : Appliquer à la CIM-11 les seuils du DSM-5-TR.
+
 
 ## 21. Divergences entre recommandations
 

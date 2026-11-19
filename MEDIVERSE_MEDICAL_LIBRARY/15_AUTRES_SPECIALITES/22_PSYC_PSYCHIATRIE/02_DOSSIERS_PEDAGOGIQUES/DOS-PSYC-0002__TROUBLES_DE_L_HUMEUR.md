@@ -557,7 +557,64 @@ ALGORITHME 3 — Épisode maniaque
 
 ## 17. Cas clinique commenté
 
-<!--CAS_DOSSIER-->
+Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS-PSYC-1004) y est disponible.
+
+### Insomnie sans fatigue, dépenses et projets grandioses trois semaines après un antidépresseur
+
+*Niveau : residanat — scénario fictif (CAS-PSYC-1003).*
+
+**Identité** — Scénario fictif : homme, 27 ans, ingénieur, marié, sans enfant.
+
+**Motif** — Consultation demandée par son épouse et sa mère pour « changement de comportement » depuis dix jours.
+
+**Antécédents** — Épisode dépressif caractérisé d'intensité moyenne il y a deux mois, après un conflit professionnel ; son médecin a prescrit de l'escitalopram 10 mg/j, il y a trois semaines. À l'interrogatoire de la mère : à 22 ans, une période d'environ cinq jours de bonne humeur inhabituelle avec peu de sommeil et beaucoup de projets, sans conséquence. Père traité au long cours pour un « trouble de l'humeur ». Pas de toxique, pas d'alcool.
+
+**Histoire et symptômes** — Depuis dix jours : sommeil réduit à 3 heures par nuit sans fatigue, logorrhée, idées qui « fusent », projets de créer trois entreprises, achat d'une voiture à crédit, irritabilité, altercation avec son supérieur ayant entraîné une mise à pied, désinhibition. Il se dit « guéri et plus intelligent que jamais ».
+
+**Examen clinique** — Patient hypersthénique, familier, tachypsychie, fuite des idées, distractibilité, humeur expansive et irritable, idées de grandeur non délirantes, pas d'hallucinations, pas d'idée suicidaire. Aucune conscience du trouble. Examen somatique normal : PA 130/80 mmHg, FC 92/min, T 37 °C, poids 74 kg, IMC 23 kg/m².
+
+**Biologie** — Hémogramme normal. Na 141 mmol/L (135-145), créatinine 82 µmol/L (60-110), DFG estimé > 90 mL/min/1,73 m², calcémie 2,38 mmol/L (2,20-2,60), TSH 2,1 mUI/L (0,4-4), glycémie à jeun 0,92 g/L, bilan lipidique normal, bilan hépatique normal. Toxiques urinaires négatifs.
+
+**Imagerie / examens** — ECG normal (QTc 400 ms). Pas d'imagerie cérébrale (patient jeune, sans signe neurologique ni atypie).
+
+**Questions et réponses commentées**
+
+1. *Pourquoi parle-t-on de manie et non d'hypomanie ?*  
+   Les symptômes durent depuis plus d'une semaine et entraînent une altération marquée du fonctionnement (mise à pied, dépenses inconsidérées).
+2. *Quel élément de l'anamnèse aurait dû faire différer l'antidépresseur seul ?*  
+   L'antécédent d'hypomanie (à rechercher auprès de l'entourage) et l'antécédent familial de trouble de l'humeur ; la HAS et CANMAT-ISBD recommandent de rechercher une bipolarité et d'éviter l'antidépresseur en monothérapie dans ce contexte.
+3. *Quel bilan avant lithium ?*  
+   Créatinine et DFG, ionogramme, calcémie, TSH, ECG selon l'âge et les facteurs de risque, test de grossesse chez la femme ; IMC.
+4. *Comment surveiller la lithiémie ?*  
+   Prélèvement à la vallée (12 h après la prise), 5 jours après chaque modification ; deux dosages consécutifs dans la cible en phase aiguë puis tous les 3 à 6 mois (CANMAT-ISBD 2018).
+
+**Hypothèses diagnostiques**
+- Épisode maniaque sans caractéristiques psychotiques d'un trouble bipolaire de type I
+- Virage maniaque induit par l'escitalopram
+- Manie secondaire (toxique, endocrinienne) — écartée par le bilan
+
+**Diagnostics différentiels**
+- Hypomanie (écartée : altération marquée du fonctionnement)
+- Intoxication par les stimulants (toxiques négatifs)
+- Hyperthyroïdie (TSH normale)
+- Trouble de la personnalité (épisode nettement délimité, rupture avec l'état antérieur)
+
+**Examens à demander**
+- Toxiques urinaires, TSH
+- Bilan préthérapeutique du lithium : créatinine et DFG, ionogramme, calcémie, TSH, ECG
+- IMC, glycémie, lipides (si antipsychotique)
+- Recherche d'antécédents auprès de l'entourage
+
+**Diagnostic retenu** — Trouble bipolaire de type I, épisode actuel maniaque sans caractéristiques psychotiques (les symptômes persistent après l'arrêt de l'antidépresseur, au-delà de son effet pharmacologique), avec antécédent probable d'hypomanie et antécédent familial au premier degré.
+
+**Prise en charge** — Arrêt immédiat de l'escitalopram. Hospitalisation en service ouvert acceptée après discussion avec la famille (à défaut, en cas de refus avec danger, mise en observation du fait d'un tiers en structure publique — loi 18-11). Lithium (traitement de première ligne de CANMAT-ISBD) : début 300 mg/j, augmentation progressive tous les 7 jours (mhGAP-IG) ; lithiémie à la vallée environ 5 jours après chaque palier, cible 0,8-1,2 mEq/L en phase aiguë. Benzodiazépine sur une courte durée pour l'agitation et l'insomnie [POSOLOGIE À VÉRIFIER — RCP / protocole local]. En cas de réponse insuffisante ou de manie sévère, association d'un antipsychotique atypique (quétiapine, rispéridone, aripiprazole). Psychoéducation du patient et de l'épouse.
+
+**Surveillance** — Lithiémies jusqu'à deux dosages consécutifs dans la cible, puis tous les 3 à 6 mois ; créatinine, TSH et calcémie à 6 mois puis annuellement ; poids ; signes de toxicité ; humeur (risque de bascule dépressive) ; information sur les interactions (AINS, IEC, ARA II, diurétiques) et la déshydratation.
+
+**Évolution** — Lithiémie 0,62 mEq/L au premier contrôle, puis 0,91 mEq/L après augmentation de dose. Amélioration nette en trois semaines, sortie à J24. Maintien du lithium en entretien (cible 0,6-1,0 mEq/L), suivi conjoint psychiatre-médecin traitant, reprise du travail progressive.
+
+**Commentaire pédagogique** — Ce cas montre l'importance de rechercher systématiquement une bipolarité avant de prescrire un antidépresseur (antécédent d'hypomanie connu de la mère, antécédent familial) : l'antidépresseur en monothérapie a précipité une manie. Il illustre les critères de la manie (durée, altération marquée), la conduite à tenir (arrêt de l'antidépresseur, thymorégulateur de première ligne, hospitalisation) et la surveillance du lithium.
+
 
 ## 18. Points clés à retenir
 
@@ -587,7 +644,186 @@ ALGORITHME 3 — Épisode maniaque
 
 ## 20. QCM d'auto-évaluation
 
-<!--QCM_DOSSIER-->
+Les QCM ci-dessous sont les dix premiers de la banque structurée `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-10.json` (identifiants QCM-PSYC-1013 à QCM-PSYC-1022).
+
+**QCM 1 — Critères de l'épisode dépressif caractérisé** (QCM (réponses multiples), difficulté 1/3)
+
+Concernant l'épisode dépressif caractérisé (EDC) selon le DSM-5-TR, quelles propositions sont exactes ?
+
+- **A.** Il faut au moins cinq symptômes sur neuf, présents presque tous les jours pendant au moins deux semaines.
+- **B.** L'humeur dépressive ou la perte d'intérêt ou de plaisir fait obligatoirement partie des symptômes.
+- **C.** Les idées suicidaires ne font pas partie des critères.
+- **D.** Un antécédent d'épisode maniaque exclut le diagnostic de trouble dépressif caractérisé (unipolaire).
+- **E.** Le ralentissement psychomoteur doit être observable par autrui.
+
+> **Corrigé : A, B, D, E.** L'EDC associe au moins 5 symptômes sur 9 pendant 2 semaines, dont l'humeur dépressive ou l'anhédonie, avec détresse ou altération du fonctionnement. Un antécédent de manie ou d'hypomanie fait porter le diagnostic de trouble bipolaire.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Faux : les pensées de mort et idées suicidaires sont le 9e critère.
+> - D : Vrai : il s'agit alors d'un trouble bipolaire.
+> - E : Vrai : il ne suffit pas que le patient le ressente.
+
+**QCM 2 — Manie et hypomanie** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant les épisodes maniaque et hypomaniaque (DSM-5-TR), quelles propositions sont exactes ?
+
+- **A.** L'épisode maniaque dure au moins une semaine, ou moins si une hospitalisation est nécessaire.
+- **B.** L'épisode hypomaniaque dure au moins quatre jours consécutifs.
+- **C.** La présence de caractéristiques psychotiques est compatible avec une hypomanie.
+- **D.** Lorsque l'humeur est seulement irritable, quatre symptômes supplémentaires sont exigés pour la manie.
+- **E.** Une hypomanie apparue sous antidépresseur et persistant au-delà de l'effet pharmacologique compte pour le diagnostic de trouble bipolaire.
+
+> **Corrigé : A, B, D, E.** La manie se distingue de l'hypomanie par la durée, l'altération marquée du fonctionnement, la nécessité d'hospitaliser ou la présence de caractéristiques psychotiques.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Faux : des caractéristiques psychotiques font requalifier l'épisode en manie.
+> - D : Vrai : trois symptômes si l'humeur est élevée ou expansive, quatre si elle est seulement irritable.
+> - E : Vrai.
+>
+> *Piège* : Confondre hypomanie et manie : psychose ou hospitalisation = manie.
+
+**QCM 3 — Classification des troubles bipolaires** (QCS (réponse unique), difficulté 1/3)
+
+Une femme de 32 ans a présenté deux épisodes dépressifs caractérisés et, il y a deux ans, une période de six jours d'euphorie avec réduction du besoin de sommeil et projets multiples, sans retentissement majeur ni hospitalisation. Quel est le diagnostic le plus probable ?
+
+- **A.** Trouble dépressif caractérisé récurrent.
+- **B.** Trouble bipolaire de type I.
+- **C.** Trouble bipolaire de type II.
+- **D.** Trouble cyclothymique.
+- **E.** Trouble dépressif persistant.
+
+> **Corrigé : C.** L'association d'au moins un épisode hypomaniaque et d'au moins un EDC, sans épisode maniaque, définit le trouble bipolaire de type II.
+> - A : Faux : l'hypomanie exclut le diagnostic unipolaire.
+> - B : Faux : pas d'épisode maniaque (pas d'altération marquée, pas d'hospitalisation, pas de psychose).
+> - C : Vrai.
+> - D : Faux : les épisodes remplissent ici les critères d'EDC et d'hypomanie.
+> - E : Faux : il n'y a pas d'humeur dépressive chronique de 2 ans.
+>
+> *Piège* : Retenir un trouble unipolaire faute d'avoir recherché l'hypomanie auprès de l'entourage.
+
+**QCM 4 — Bilan d'un épisode dépressif** (QCM (réponses multiples), difficulté 2/3)
+
+Selon CANMAT 2023, concernant le bilan d'un épisode dépressif chez l'adulte, quelles propositions sont exactes ?
+
+- **A.** Un hémogramme et une TSH sont proposés comme examens peu coûteux pour éliminer une anémie ou une dysthyroïdie.
+- **B.** Un ECG est systématique chez tout patient déprimé.
+- **C.** Une imagerie cérébrale est à considérer devant une première dépression d'apparition tardive.
+- **D.** Une imagerie est à considérer en présence de signes neurologiques ou d'un changement brutal de la personnalité.
+- **E.** Le suivi par échelles validées aide à repérer l'absence d'amélioration précoce.
+
+> **Corrigé : A, C, D, E.** Le bilan somatique repose sur l'anamnèse et l'examen ; les examens complémentaires sont ciblés. L'ECG est indiqué chez le patient cardiaque recevant un médicament allongeant le QTc.
+> - A : Vrai.
+> - B : Faux : il n'est pas systématique.
+> - C : Vrai.
+> - D : Vrai.
+> - E : Vrai : par exemple le PHQ-9 (« measurement-based care »).
+
+**QCM 5 — Stratégie selon la sévérité de l'EDC** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant le traitement d'un épisode dépressif caractérisé de l'adulte, quelles propositions sont exactes ?
+
+- **A.** Dans une forme légère, un antidépresseur n'est pas systématique en première intention.
+- **B.** Dans une forme modérée, CANMAT 2023 place psychothérapie structurée et antidépresseur au même niveau.
+- **C.** Dans une forme sévère avec caractéristiques psychotiques, l'association antidépresseur + antipsychotique est recommandée.
+- **D.** L'électroconvulsivothérapie est réservée aux patients ayant épuisé tous les traitements médicamenteux.
+- **E.** L'absence d'amélioration après 2 à 4 semaines à dose efficace doit faire envisager une augmentation de dose ou un changement.
+
+> **Corrigé : A, B, C, E.** La sévérité guide le choix : psychothérapie dans les formes légères, psychothérapie ou antidépresseur dans les formes modérées, association dans les formes sévères, antidépresseur + antipsychotique ou ECT si caractéristiques psychotiques ; l'ECT est aussi indiquée d'emblée dans les situations à risque vital.
+> - A : Vrai (HAS 2017, NICE NG222).
+> - B : Vrai.
+> - C : Vrai.
+> - D : Faux : elle peut être indiquée d'emblée (risque vital, refus alimentaire, catatonie, mélancolie sévère).
+> - E : Vrai : une amélioration inférieure à 20 % à 2-4 semaines prédit la non-réponse.
+
+**QCM 6 — Posologies des antidépresseurs (CANMAT 2023)** (QCM (réponses multiples), difficulté 2/3)
+
+Parmi les fourchettes de doses quotidiennes suivantes, lesquelles correspondent au tableau des antidépresseurs de CANMAT 2023 ?
+
+- **A.** Sertraline 50-200 mg.
+- **B.** Escitalopram 40-60 mg.
+- **C.** Venlafaxine LP 75-225 mg.
+- **D.** Mirtazapine 30-60 mg.
+- **E.** Fluoxétine 20-60 mg.
+
+> **Corrigé : A, C, D, E.** Le tableau 3.3 de CANMAT 2023 donne des fourchettes issues des monographies : sertraline 50-200 mg, escitalopram 10-20 mg, venlafaxine LP 75-225 mg, mirtazapine 30-60 mg, fluoxétine 20-60 mg. Toute prescription doit être confrontée au RCP local.
+> - A : Vrai.
+> - B : Faux : 10-20 mg/j.
+> - C : Vrai.
+> - D : Vrai.
+> - E : Vrai.
+
+**QCM 7 — Effets indésirables des antidépresseurs** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant la tolérance des antidépresseurs, quelles propositions sont exactes ?
+
+- **A.** Le risque d'hyponatrémie et de saignements sous ISRS/IRSNa est surtout marqué après 65 ans.
+- **B.** Chez les moins de 25 ans, les ISRS et IRSNa sont associés à un risque accru d'akathisie, d'agitation et d'agressivité.
+- **C.** Les tricycliques sont préférés chez le patient à haut risque suicidaire car ils sont peu toxiques en surdosage.
+- **D.** L'arrêt brutal d'un antidépresseur peut entraîner un syndrome d'arrêt.
+- **E.** L'association de plusieurs médicaments sérotoninergiques expose au syndrome sérotoninergique.
+
+> **Corrigé : A, B, D, E.** Les effets indésirables dépendent de l'âge et de la classe ; les tricycliques sont dangereux en surdosage (troubles de conscience, cardiotoxicité, convulsions), d'où la préférence pour les ISRS chez le patient à risque.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Faux : ils sont potentiellement létaux en surdosage.
+> - D : Vrai : décroissance progressive recommandée.
+> - E : Vrai.
+>
+> *Piège* : Prescrire des tricycliques en grande quantité à un patient suicidaire.
+
+**QCM 8 — Surveillance du lithium** (QCM (réponses multiples), difficulté 2/3)
+
+Concernant la surveillance d'un traitement par lithium (CANMAT-ISBD 2018), quelles propositions sont exactes ?
+
+- **A.** La lithiémie est prélevée à la vallée, environ 12 heures après la dernière prise.
+- **B.** Un contrôle est réalisé environ 5 jours après chaque modification de dose.
+- **C.** La cible en phase maniaque aiguë est de 0,8 à 1,2 mEq/L chez l'adulte.
+- **D.** Fonction rénale, TSH et calcémie sont contrôlées à 6 mois puis au moins une fois par an.
+- **E.** Chez le sujet âgé, la cible en phase aiguë est plus élevée que chez l'adulte jeune.
+
+> **Corrigé : A, B, C, D.** La surveillance du lithium associe des dosages à la vallée et un suivi rénal, thyroïdien et calcique ; la marge thérapeutique est étroite.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Vrai : en entretien, 0,6-1,0 mEq/L peut suffire.
+> - D : Vrai.
+> - E : Faux : elle est plus basse (0,4-0,8 mEq/L).
+>
+> *Piège* : Interpréter une lithiémie prélevée juste après la prise.
+
+**QCM 9 — Intoxication au lithium** (QCM (réponses multiples), difficulté 2/3)
+
+Une patiente de 66 ans traitée par lithium depuis 10 ans présente, après plusieurs jours de diarrhée, un tremblement grossier, une ataxie et une confusion. Quelles propositions sont exactes ?
+
+- **A.** La déshydratation est un facteur favorisant classique d'intoxication.
+- **B.** L'introduction récente d'un AINS ou d'un diurétique doit être recherchée.
+- **C.** Les IEC et ARA II augmentent la lithiémie.
+- **D.** Il faut doubler la dose de lithium pour prévenir une rechute thymique.
+- **E.** Un dosage de la lithiémie, de la créatinine et un ECG sont indiqués en urgence.
+
+> **Corrigé : A, B, C, E.** Le tableau évoque une intoxication au lithium favorisée par la déshydratation et les interactions (AINS, IEC, ARA II, diurétiques). Conduite : arrêt du lithium, dosages, ECG, réhydratation, avis spécialisé.
+> - A : Vrai.
+> - B : Vrai.
+> - C : Vrai.
+> - D : Faux : le lithium doit être arrêté.
+> - E : Vrai.
+
+**QCM 10 — Épisode maniaque : prise en charge** (QCM (réponses multiples), difficulté 2/3)
+
+Un homme de 30 ans présente un épisode maniaque sous escitalopram. Quelles propositions sont exactes ?
+
+- **A.** L'antidépresseur doit être arrêté.
+- **B.** Le lithium, la quétiapine, le divalproex, la rispéridone et l'aripiprazole font partie des traitements de première ligne de CANMAT-ISBD 2018.
+- **C.** Une association antipsychotique atypique + lithium ou divalproex est privilégiée en cas de manie psychotique ou si une réponse rapide est nécessaire.
+- **D.** S'il refuse les soins et présente un danger, il peut être hospitalisé sans consentement dans une clinique privée.
+- **E.** En cas d'agitation, l'association olanzapine IM + benzodiazépine parentérale est recommandée.
+
+> **Corrigé : A, B, C.** Devant une manie : arrêt des antidépresseurs, traitement antimaniaque de première ligne, hospitalisation si nécessaire dans le cadre légal (loi 18-11 : soins sans consentement uniquement en structure publique).
+> - A : Vrai.
+> - B : Vrai.
+> - C : Vrai.
+> - D : Faux : l'hospitalisation sans consentement ne peut se faire que dans des structures publiques (art. 128).
+> - E : Faux : association à éviter (BETA).
+
 
 ## 21. Divergences entre recommandations
 

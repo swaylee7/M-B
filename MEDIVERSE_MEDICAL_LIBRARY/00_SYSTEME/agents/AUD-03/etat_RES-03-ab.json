@@ -1,0 +1,40 @@
+{
+  "id": "AUD-03",
+  "mission": "audit QCM lots RES-03-a (126) et RES-03-b (99)",
+  "statut": "termine",
+  "derniere_execution": "2026-11-19",
+  "fichiers_audites": [
+    "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-03-a.json",
+    "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-03-b.json"
+  ],
+  "sauvegardes": [
+    "00_SYSTEME/sauvegardes/20261119/21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-03-a.avant_audit_AUD-03.json",
+    "00_SYSTEME/sauvegardes/20261119/21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/RES-03-b.avant_audit_AUD-03.json"
+  ],
+  "rapport": "00_SYSTEME/agents/AUD-03/rapports/RES-03-ab.md",
+  "compteurs": {
+    "qcm_audites": 225,
+    "qcm_corriges": 19,
+    "qcm_valides_sans_modification": 206,
+    "qcm_a_revoir": 0,
+    "erreurs_de_cle": 0,
+    "erreurs_critiques": 0,
+    "corrections_majeures": 1,
+    "corrections_mineures": 18,
+    "marqueurs_leves": 6,
+    "recherches_web": 4
+  },
+  "qcm_corriges": [
+    "QCM-INFE-3010", "QCM-INFE-3011", "QCM-INFE-3012", "QCM-INFE-3013", "QCM-NEUR-3064", "QCM-NEUR-3079",
+    "QCM-NEUR-3083", "QCM-PNEU-3103", "QCM-CARD-3120", "QCM-CARD-3126", "QCM-PEDI-3146", "QCM-PEDI-3156",
+    "QCM-PEDI-3173", "QCM-PEDI-3176", "QCM-PEDI-3182", "QCM-PEDI-3185", "QCM-ENDO-3191", "QCM-ENDO-3215",
+    "QCM-RHUM-3225"
+  ],
+  "taches_suivantes": [
+    "Catalogue REC : inscrire Fewtrell et al. 2017 (ESPGHAN, diversification, JPGN 64(1):119-132) ; compléter REC-0219 (seuils ESC/EACTS 2025 IM primaire), REC-0266 (PAM / pression diastolique SSC 2026), REC-0224, REC-0415",
+    "QCM-RHUM-3225 : confronter au manuel du PNLT algérien (durée du mal de Pott chez l'adulte)",
+    "QCM-INFE-3012 (B) : vérifier le maintien de la PAM initiale ≥ 65 mmHg dans le texte SSC 2026",
+    "Audit des lots RES-03-c et RES-03-d à leur achèvement",
+    "Relecture humaine qualifiée (valide_enseignant)"
+  ]
+}
