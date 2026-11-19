@@ -672,6 +672,653 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-13",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1301",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hémostase primaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'adhésion plaquettaire sous fort cisaillement repose sur la liaison du complexe GPIb-IX-V au facteur Willebrand.",
+        "B": "L'agrégation plaquettaire fait intervenir l'intégrine αIIbβ3 et le fibrinogène.",
+        "C": "Le syndrome de Bernard-Soulier correspond à un déficit en αIIbβ3.",
+        "D": "Le facteur Willebrand transporte et protège le facteur VIII.",
+        "E": "L'aspirine inhibe de façon réversible la COX-1 plaquettaire pendant quelques heures."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "GPIb-IX-V/VWF assure l'adhésion, αIIbβ3/fibrinogène l'agrégation. Bernard-Soulier = déficit en GPIb-IX-V (macrothrombopénie) ; Glanzmann = déficit en αIIbβ3. L'aspirine acétyle irréversiblement la COX-1 pour la durée de vie de la plaquette.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est la thrombasthénie de Glanzmann.",
+        "D": "Vrai : un déficit sévère en VWF abaisse le FVIII.",
+        "E": "Faux : inhibition irréversible, effet de 7 à 10 jours."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Hémostase primaire — glycoprotéines plaquettaires et VWF",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inverser Glanzmann et Bernard-Soulier.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hoffbrand's Essential Haematology, 9e éd. Wiley-Blackwell 2024",
+          "date": "2024"
+        },
+        {
+          "reference": "Versteeg HH et al. Physiol Rev 2013;93:327-58",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1302",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le modèle cellulaire de l'hémostase (Hoffman et Monroe), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La phase d'initiation se déroule sur les cellules exprimant le facteur tissulaire.",
+        "B": "La thrombine produite lors de l'initiation active les plaquettes ainsi que les facteurs V, VIII et XI.",
+        "C": "L'explosion de thrombine se produit à la surface des plaquettes activées grâce aux complexes tenase et prothrombinase.",
+        "D": "Le facteur XII est indispensable à l'hémostase physiologique.",
+        "E": "Ce modèle explique pourquoi l'hémophilie est hémorragique malgré une voie du facteur tissulaire intacte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Initiation (FT-VIIa, petite quantité de thrombine), amplification (activation des plaquettes, V, VIII, XI), propagation (IXa-VIIIa et Xa-Va sur la plaquette). Sans FVIII ou FIX, la propagation échoue. Le FXII n'est pas nécessaire à l'hémostase.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : son déficit allonge le TCA sans saigner.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Coagulation — modèle cellulaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le FXII, exploré par le TCA, est nécessaire à l'hémostase.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hoffman M, Monroe DM. Thromb Haemost 2001;85:958-65",
+          "date": "2001"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1303",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les facteurs vitamine K-dépendants, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils comprennent les facteurs II, VII, IX et X.",
+        "B": "Les protéines C et S sont également vitamine K-dépendantes.",
+        "C": "Le facteur V est vitamine K-dépendant.",
+        "D": "Le facteur VII a la demi-vie la plus courte, ce qui explique la baisse précoce du TP sous AVK.",
+        "E": "Les AVK inhibent la vitamine K époxyde réductase (VKORC1)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La γ-carboxylation des facteurs II, VII, IX, X et des protéines C, S, Z nécessite la vitamine K réduite, régénérée par VKORC1 (cible des AVK). Le FV n'est pas vitamine K-dépendant : son dosage distingue carence en vitamine K et insuffisance hépatique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai : demi-vie de quelques heures.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Facteurs vitamine K-dépendants",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inclure le facteur V parmi les facteurs vitamine K-dépendants.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Williams Hematology, 10e éd. McGraw Hill 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1304",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions concernant les tests globaux de la coagulation sont exactes ?",
+      "propositions": {
+        "A": "Le TP explore les facteurs VII, X, V, II et le fibrinogène.",
+        "B": "Le TCA explore le facteur VII.",
+        "C": "Le TCA est sensible aux déficits en facteurs VIII, IX, XI et XII.",
+        "D": "Le temps de thrombine est allongé par l'héparine et par le dabigatran.",
+        "E": "Le temps de reptilase est allongé par l'héparine non fractionnée."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "TP = voie « extrinsèque » + commune ; TCA = voie « intrinsèque » + commune ; TT = conversion du fibrinogène, très sensible aux antithrombines (héparine via l'antithrombine, dabigatran) ; la reptilase est insensible à l'héparine.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : le FVII n'est exploré que par le TP.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : c'est ce qui permet de distinguer une héparine d'une anomalie du fibrinogène."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Tests de coagulation — facteurs explorés",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Attribuer le FVII au TCA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Henry's Clinical Diagnosis and Management by Laboratory Methods, 24e éd. Elsevier 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1305",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles erreurs préanalytiques peuvent fausser un bilan d'hémostase ?",
+      "propositions": {
+        "A": "Un tube citraté insuffisamment rempli.",
+        "B": "Un prélèvement effectué sur un cathéter hépariné.",
+        "C": "Un hématocrite supérieur à 55 % sans adaptation du volume de citrate.",
+        "D": "La numération plaquettaire sur tube EDTA chez un patient présentant une agglutination à l'EDTA.",
+        "E": "L'utilisation d'un tube citraté à 3,2 % avec un rapport sang/citrate de 9/1."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le rapport 9/1 avec citrate 0,109 M (3,2 %) est la norme. Un excès relatif de citrate (tube sous-rempli, hématocrite élevé) allonge les temps ; la contamination héparinique allonge TCA et TT ; l'EDTA peut provoquer une pseudo-thrombopénie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : contrôle sur frottis ou tube citraté.",
+        "E": "Faux : c'est la bonne pratique."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Préanalytique du bilan d'hémostase",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hoffbrand's Essential Haematology, 9e éd. 2024",
+          "date": "2024"
+        },
+        {
+          "reference": "Henry's Clinical Diagnosis, 24e éd. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1306",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient a un TP à 38 %, un TCA ratio à 1,5, un fibrinogène à 2,8 g/L, des plaquettes à 230 G/L. Facteur V 98 % ; facteurs II, VII et X entre 25 et 35 %. Quel est le diagnostic le plus probable ?",
+      "propositions": {
+        "A": "Insuffisance hépatocellulaire.",
+        "B": "Carence en vitamine K ou traitement par AVK.",
+        "C": "CIVD.",
+        "D": "Hémophilie A.",
+        "E": "Anticoagulant lupique isolé."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Baisse des facteurs vitamine K-dépendants avec facteur V normal et fibrinogène normal : carence en vitamine K (cholestase, malabsorption, antibiotiques, dénutrition) ou AVK.",
+      "explications_par_proposition": {
+        "A": "Faux : le FV serait abaissé.",
+        "B": "Vrai.",
+        "C": "Faux : fibrinogène et plaquettes normaux.",
+        "D": "Faux : le TP serait normal.",
+        "E": "Faux : il n'abaisse pas le TP de cette façon."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Interprétation — insuffisance hépatique ou carence en vitamine K",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier de doser le facteur V devant un TP bas.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Williams Hematology, 10e éd. 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1307",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant un allongement isolé du TCA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une correction par le mélange avec un plasma normal oriente vers un déficit en facteur.",
+        "B": "Un inhibiteur anti-FVIII peut n'apparaître qu'après une incubation de 2 heures à 37 °C.",
+        "C": "Un déficit en facteur XII expose à des hémorragies graves.",
+        "D": "Un anticoagulant lupique expose surtout à un risque thrombotique.",
+        "E": "Une contamination par l'héparine doit être éliminée en premier."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Démarche : éliminer l'héparine (TT/reptilase, anti-Xa), puis test de correction immédiat et après incubation. Corrigé = déficit (VIII, IX, XI, XII) ; non corrigé = inhibiteur (anticoagulant lupique thrombogène ou anti-VIII hémorragique).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : inhibiteur temps- et température-dépendant.",
+        "C": "Faux : le déficit en FXII n'est pas hémorragique.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "TCA isolément allongé — test de correction",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Lire le test de correction uniquement en immédiat.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tiede A et al. Haematologica 2020;105:1791-1801",
+          "date": "2020"
+        },
+        {
+          "reference": "Devreese KMJ et al. J Thromb Haemost 2020;18:2828-39",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1308",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations ISTH (2020) sur la recherche d'un anticoagulant lupique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Deux tests de principes différents sont recommandés, dont le dRVVT.",
+        "B": "La démarche comporte un dépistage, un test de mélange et un test de confirmation.",
+        "C": "Le test de confirmation repose sur l'ajout d'un excès de phospholipides.",
+        "D": "Un résultat obtenu en phase inflammatoire aiguë doit être interprété avec prudence.",
+        "E": "La présence d'un anticoagulant lupique contre-indique tout anticoagulant."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'ISTH recommande le dRVVT et un TCA sensible au LA, selon la séquence dépistage-mélange-confirmation ; l'interprétation est délicate sous anticoagulant et en cas de CRP élevée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : l'excès de phospholipides neutralise l'anticorps.",
+        "D": "Vrai.",
+        "E": "Faux : le syndrome des antiphospholipides thrombotique justifie au contraire une anticoagulation."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Anticoagulant lupique — recommandations ISTH 2020",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Confondre « anticoagulant circulant » biologique et risque hémorragique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Devreese KMJ et al. J Thromb Haemost 2020;18:2828-39",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1309",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient en choc septique a : plaquettes 45 G/L ; D-dimères fortement augmentés ; TQ allongé de 4 secondes ; fibrinogène 0,9 g/L. Quelles propositions sont exactes concernant le score ISTH ?",
+      "propositions": {
+        "A": "Le score est de 8 points.",
+        "B": "Un score ≥ 5 est compatible avec une CIVD patente.",
+        "C": "Le score ne s'applique qu'en présence d'une affection connue pour se compliquer de CIVD.",
+        "D": "Un score < 5 élimine définitivement une CIVD.",
+        "E": "Le facteur V est inclus dans le score."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Plaquettes < 50 G/L : 2 points ; marqueur de fibrine fortement augmenté : 3 ; TQ allongé de 3 à 6 s : 1 ; fibrinogène < 1 g/L : 1. Total = 7 points (≥ 5 : compatible avec une CIVD patente).",
+      "explications_par_proposition": {
+        "A": "Faux : 2 + 3 + 1 + 1 = 7 points.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : il faut répéter le score dans les 1 à 2 jours.",
+        "E": "Faux : plaquettes, marqueur de fibrine, TQ, fibrinogène."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "CIVD — score ISTH",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se tromper dans les points attribués au marqueur de fibrine (2 ou 3).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Taylor FB Jr et al. Thromb Haemost 2001;86:1327-30",
+          "date": "2001"
+        },
+        {
+          "reference": "Levi M et al. Br J Haematol 2009;145:24-33",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1310",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations ASH/ISTH/NHF/WFH 2021 sur le diagnostic de la maladie de Willebrand, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un taux de VWF < 0,30 UI/mL permet le diagnostic de déficit de type 1 quel que soit le phénotype hémorragique.",
+        "B": "Un taux de VWF entre 0,30 et 0,50 UI/mL associé à des saignements anormaux permet le diagnostic de type 1.",
+        "C": "Un rapport activité VWF/VWF:Ag < 0,7 doit faire rechercher un type 2.",
+        "D": "Les tests mesurant la liaison du VWF à la GPIb sont préférés au VWF:RCo.",
+        "E": "Un TCA normal élimine la maladie de Willebrand."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les seuils 0,30 et 0,50 UI/mL, le rapport 0,7 et la préférence pour VWF:GPIbM/GPIbR figurent dans les recommandations de 2021 ; le TCA est souvent normal dans les types 1 et 2.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Maladie de Willebrand — critères diagnostiques 2021",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Éliminer un Willebrand sur un TCA normal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "James PD et al. Blood Adv 2021;5:280-300",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1311",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la fibrinolyse et les D-dimères, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les D-dimères proviennent de la dégradation par la plasmine de la fibrine stabilisée par le FXIIIa.",
+        "B": "Le PAI-1 inhibe le t-PA et l'u-PA.",
+        "C": "L'acide tranexamique active le plasminogène.",
+        "D": "Le seuil des D-dimères ajusté à l'âge (âge × 10 µg/L après 50 ans) a été validé pour exclure une embolie pulmonaire à probabilité clinique non forte.",
+        "E": "Des D-dimères élevés sont spécifiques de la maladie thromboembolique veineuse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les D-dimères témoignent d'une coagulation suivie de fibrinolyse ; ils ont une forte valeur prédictive négative mais une faible spécificité (âge, cancer, grossesse, infection, chirurgie, CIVD).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est un antifibrinolytique (analogue de la lysine).",
+        "D": "Vrai : étude ADJUST-PE.",
+        "E": "Faux."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Fibrinolyse et D-dimères",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des D-dimères pour « confirmer » une thrombose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tripodi A. Clin Chem 2011;57:1256-62",
+          "date": "2011"
+        },
+        {
+          "reference": "Righini M et al. JAMA 2014;311:1117-24",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1312",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'exploration biologique des anticoagulants oraux directs (AOD), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un temps de thrombine normal rend très improbable une concentration significative de dabigatran.",
+        "B": "Un TP normal exclut une concentration significative d'apixaban.",
+        "C": "Les anti-Xa directs se mesurent par une activité anti-Xa calibrée spécifiquement pour la molécule.",
+        "D": "L'INR est l'outil de surveillance recommandé des anti-Xa directs.",
+        "E": "Le temps de thrombine dilué permet de quantifier le dabigatran."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le TT est extrêmement sensible au dabigatran ; le TP est peu sensible à l'apixaban ; l'activité anti-Xa calibrée et le TT dilué (ou les tests à l'écarine) sont les tests spécifiques.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Faux : l'INR est conçu pour les AVK.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Biologie des anticoagulants oraux directs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se rassurer d'un TP normal chez un patient sous apixaban.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Douxfils J et al. J Thromb Haemost 2018;16:209-19",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1313",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations de la SFAR (2013) sur l'évaluation hémostatique pré-interventionnelle, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'interrogatoire standardisé est l'élément central de l'évaluation.",
+        "B": "Un bilan TP/TCA/plaquettes systématique est recommandé chez tout adulte avant une chirurgie programmée.",
+        "C": "Un bilan est justifié si l'interrogatoire est positif ou impossible.",
+        "D": "Un bilan d'hémostase normal élimine tout risque hémorragique.",
+        "E": "Le temps de saignement est le test de référence pour dépister une anomalie de l'hémostase primaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "C"
+      ],
+      "explication_generale": "La SFAR privilégie un interrogatoire standardisé et ne recommande pas de bilan systématique chez l'adulte sans antécédent ; un bilan normal n'élimine pas un Willebrand ou une thrombopathie ; le temps de saignement est abandonné.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "theme": "Bilan d'hémostase pré-interventionnel (SFAR 2013)",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": "Prescrire un bilan systématique au lieu d'un interrogatoire structuré.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bonhomme F et al. Eur J Anaesthesiol 2013;30:142-62 (SFAR)",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
     }
   ]
 }

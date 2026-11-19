@@ -459,7 +459,8 @@ La loi organise donc une **complémentarité** encadrée (art. 16, 265) plutôt 
 
 - Est professionnel de santé toute personne exerçant dans une structure de santé et concourant à la prestation de soins ; les personnels des services extérieurs chargés de missions techniques, d'enquêtes épidémiologiques, de contrôle et d'inspection le sont aussi (art. 165).
 - Conditions : nationalité algérienne, diplôme algérien ou équivalent reconnu, droits civiques, aptitude, **inscription au tableau de l'ordre** de la profession (art. 166) `[conditions complètes et exceptions : voir le texte]`.
-- **Formation continue** : un droit et une obligation (art. 170).
+- **Régimes d'exercice** : fonctionnaire ou contractuel dans les structures publiques, contractuel dans les autres structures sanitaires ou sociales, ou exercice **libéral** (art. 167).
+- **Formation continue** : un droit, obligatoire pour tous les professionnels exerçant dans les structures de santé, à la charge de l'État pour ceux du secteur public (art. 170).
 - **Praticiens inspecteurs** assermentés, rattachés aux services extérieurs, chargés de rechercher et constater les infractions (art. 189-195).
 - **Service civil** : les praticiens spécialistes y sont assujettis (loi 84-10) et doivent l'accomplir dans les structures **publiques**, selon les besoins de la carte sanitaire, **avant** d'exercer dans le privé ; des mesures incitatives sont prévues, notamment pour les wilayas du **Sud** et des **Hauts-Plateaux** (art. 196-197) [S1, S12].
 - **Obligations médico-légales** : signaler les violences subies par les personnes vulnérables (femmes, enfants, personnes âgées, incapables, personnes privées de liberté) (art. 198) ; établir le certificat médical constatant le décès (art. 204).
@@ -531,3 +532,250 @@ Les programmes verticaux historiques (lutte antituberculeuse, programme élargi 
 - Chaque établissement assurant un service public élabore un **projet d'établissement** et un **plan de démarche qualité** (art. 290), décliné en contrats et projets de service (art. 301).
 - **Évaluation interne** obligatoire de la gestion, des activités et des pratiques professionnelles, avec rapport transmis aux services du ministère (art. 325-326) ; **audit** à la demande de l'établissement, réalisé par les services du ministère, sur la base de normes, d'indicateurs et de référentiels (art. 327) ; démarches diagnostiques et thérapeutiques fondées sur des **consensus factuels** régulièrement mis à jour (art. 265) [S1].
 - Indicateurs de qualité devenus réglementaires : les **infections du site opératoire**, les **pneumopathies acquises sous ventilation mécanique** et les **infections à bactéries multirésistantes** figurent parmi les MDO (décret 22-250) [S2].
+
+---
+
+## 13. Contexte démographique et épidémiologique (données sourcées)
+
+| Indicateur | Valeur | Source |
+|---|---|---|
+| Population au 1er janvier 2024 | ≈ 46,7 millions | ONS (reprise de presse) [S18] |
+| Naissances vivantes 2023 | ≈ 895 000 | ONS [S18] |
+| Taux brut de mortalité 2023 | 4,15 ‰ | ONS [S18] |
+| Mortalité infantile 2023 | 19,9 ‰ | ONS [S18] |
+| Espérance de vie à la naissance 2023 | 79,6 ans (H 78,2 ; F 81,0) | ONS [S18] |
+| Diabète (18-69 ans) | 14,4 % | STEPS 2016-2017 [S19] |
+| Tabac fumé actuel (18-69 ans) | 16,5 % | STEPS 2016-2017 [S19] |
+
+Implications pour l'organisation : **vieillissement** (besoins gériatriques, maladies chroniques, soins à domicile, art. 86-87), **poids des maladies non transmissibles** (plans multisectoriels, art. 45-48), persistance de problèmes **transmissibles** et **périnatals** (MDO, vaccination, PMI) : c'est la **double charge** de morbidité qui oblige le système à renforcer à la fois les soins primaires et le niveau spécialisé. Les données sur les ressources (densité médicale, lits, dépense de santé) ne sont pas reprises faute de source vérifiée pendant la session `[À VÉRIFIER — annuaires statistiques du ministère, comptes nationaux de la santé]`.
+
+---
+
+## 14. Analyse critique : forces, faiblesses, défis
+
+Cette analyse est **pédagogique** et argumentée ; elle ne remplace pas un rapport officiel d'évaluation.
+
+| Forces | Faiblesses / tensions |
+|---|---|
+| Droit à la santé et gratuité affirmés par la loi (art. 12-13) | Accès effectif inégal selon les territoires (d'où les incitations Sud / Hauts-Plateaux, art. 196) |
+| Réseau public couvrant le territoire (EPSP, EPH, EHS, CHU) | Hiérarchisation peu respectée en pratique : recours direct aux urgences et aux CHU (le médecin référent de l'art. 22 dépend de textes d'application) |
+| Programmes nationaux anciens (vaccination, tuberculose) et cadre MDO modernisé (2022) | Exhaustivité variable des déclarations et des certificats de décès |
+| Formation médicale nationale (résidanat, DEMS) et service civil | Répartition des spécialistes ; coexistence d'activités publique et privée |
+| Cadre légal de la qualité (projet d'établissement, évaluation, audit) | Système d'information encore fragmenté (dossier médical unique et numérisation en construction) |
+| Complémentarité public-privé encadrée (cahier des charges, conventions) | Paiements directs des ménages dans le privé ; soutenabilité du financement (dépendance au budget de l'État) |
+
+**Défis majeurs** : transition épidémiologique et vieillissement ; renforcement des **soins primaires** et du **médecin référent** ; **contractualisation** effective du financement ; numérisation et **dossier médical unique** ; réduction des inégalités territoriales ; qualité et sécurité des soins ; régulation du secteur privé ; coordination intersectorielle (environnement, alimentation, tabac, sécurité routière).
+
+---
+
+## 15. Algorithmes décisionnels
+
+### 15.1 Parcours de soins hiérarchisé (principe de l'art. 22)
+
+```text
+1. Le patient présente un problème de santé
+   1a. Urgence vitale ou fonctionnelle → accès direct aux URGENCES (EPH, CHU, EHS) ; nul motif ne peut faire obstacle (art. 21)
+   1b. Pas d'urgence → aller en 2
+2. Premier recours : MÉDECIN RÉFÉRENT (généraliste traitant de la structure de proximité, publique ou privée, la plus proche du domicile)
+   → prévention, soins de base, suivi des maladies chroniques, programmes nationaux
+3. Besoin d'un avis ou de soins spécialisés ? → orientation vers le niveau SECONDAIRE (consultations spécialisées, EPH, EHS)
+   (exception : cas d'accès direct définis par le ministre)
+4. Besoin de soins hautement spécialisés ? → niveau TERTIAIRE (CHU, EHS de référence)
+5. Retour au médecin référent avec compte rendu → continuité (dossier médical unique)
+```
+
+### 15.2 Conduite du médecin devant une maladie à déclaration obligatoire
+
+```text
+1. Cas suspect ou confirmé d'une maladie de la liste (décret 22-250) ?
+   → oui : DÉCLARER SANS DÉLAI aux services sanitaires concernés (art. 39), selon les modalités fixées par arrêté
+2. Catégorie 2 (surveillance internationale : choléra, fièvres hémorragiques, poliomyélite, nouveau sous-type grippal…) ?
+   → alerte immédiate ; mesures du Règlement sanitaire international (art. 42)
+3. Mesures autour du cas : prise en charge, isolement si nécessaire, recherche et protection des contacts (art. 38),
+   vaccination ou chimioprophylaxie selon la maladie (art. 41)
+4. Le service d'épidémiologie et la direction de wilaya chargée de la santé investiguent ; le wali et le P/APC
+   mettent en œuvre les mesures de lutte (art. 35)
+```
+
+### 15.3 Ouverture d'une structure privée (art. 306-307, 311-312)
+
+```text
+1. Projet conforme à la carte sanitaire et au schéma d'organisation sanitaire ?
+   → non : refus probable ; → oui : aller en 2
+2. Dossier d'autorisation au ministre (réalisation, ouverture, exploitation ; équipements soumis à normes)
+3. Conformité aux conditions techniques ; contrôle et évaluation périodiques
+4. Option : mission de service public (cahier des charges, convention de prise en charge des dépenses)
+5. Manquements → retrait de l'autorisation ; fermeture (ministre, ou wali ≤ 3 mois)
+```
+
+---
+
+## 16. Situation commentée (cas fictif)
+
+**Situation** : un médecin généraliste exerce dans une polyclinique rattachée à un EPSP d'une wilaya des Hauts-Plateaux. Il reçoit un éleveur de 45 ans fébrile depuis 3 semaines, avec sueurs nocturnes et arthralgies ; la sérologie de Wright revient positive. Le patient souhaite être « envoyé directement au CHU » de la capitale régionale.
+
+**Questions et réponses commentées**
+1. *Quelle obligation déclarative ?* — La **brucellose** figure dans la catégorie 1 (surveillance nationale) de la liste du décret 22-250 : déclaration **sans délai** du cas aux services sanitaires (art. 39 de la loi 18-11) [S1, S2]. Le service d'épidémiologie peut organiser une enquête autour du cas (cheptel, consommation de lait cru), en lien avec les services vétérinaires (intersectorialité, art. 4).
+2. *Le patient doit-il être adressé au CHU ?* — Non, sauf complication relevant de soins hautement spécialisés. Selon le principe de **hiérarchisation** (art. 3, 22), le médecin référent prend en charge ou oriente vers une consultation spécialisée de **niveau secondaire** (médecine interne ou infectiologie de l'EPH) ; le CHU (niveau tertiaire) reçoit les formes compliquées (spondylodiscite, endocardite, neurobrucellose).
+3. *Le spécialiste qui le recevra à l'EPH peut-il exercer ensuite en libéral ?* — Les praticiens spécialistes doivent accomplir le **service civil** dans les structures publiques, selon les besoins de la carte sanitaire, avant d'exercer dans le privé (art. 196-197, loi 84-10) [S1, S12].
+4. *Le patient doit-il payer ses soins à l'EPH ?* — Les soins sont **gratuits** dans le secteur public (art. 13) ; l'établissement est financé par l'État et par la contribution de la sécurité sociale pour les assurés (art. 300, 329-330). Les médicaments achetés en officine relèvent du remboursement par sa caisse de sécurité sociale (modalités `[À VÉRIFIER]`).
+5. *Quelles informations seront transmises au système d'information ?* — La déclaration de MDO (surveillance), les données d'activité de l'établissement (art. 293, 319-323) et, le cas échéant, le dossier médical unique (art. 292).
+
+**Message** : la connaissance de l'organisation sanitaire est une compétence **clinique** : elle conditionne la qualité du parcours de soins, la protection de la collectivité et le respect des obligations légales du médecin.
+
+---
+
+## 17. Points clés à retenir
+
+1. Le texte de référence est la **loi n° 18-11 du 2 juillet 2018 relative à la santé**, qui a abrogé la loi 85-05 (art. 449) tout en maintenant ses textes d'application jusqu'à leur remplacement.
+2. Principes : universalité, égalité d'accès, solidarité, équité, continuité (art. 6) ; **gratuité des soins** (art. 13) ; **secteur public fort** (art. 5) ; **intersectorialité** (art. 4) ; **hiérarchisation et complémentarité** (art. 3).
+3. **Médecin référent** = généraliste traitant de la structure de proximité la plus proche du domicile ; accès au spécialiste sur son orientation, sauf urgence et accès direct (art. 22).
+4. Soins **primaires** (premier niveau, proximité), **secondaires** (spécialisés), **tertiaires** (hautement spécialisés) (art. 283-285).
+5. Planification par la **carte sanitaire** (normes de couverture, bassins de population) et le **schéma d'organisation sanitaire** (complémentarités, coopérations) (art. 269-271).
+6. Établissements publics : **CHU** (décret 97-467), **EHS** (97-465), **EPH** et **EPSP** (07-140, qui a remplacé les secteurs sanitaires) ; la loi 2018 cite aussi la circonscription sanitaire et l'établissement d'aide médicale d'urgence (art. 298).
+7. L'établissement public de santé : personnalité morale, autonomie financière, financement par **contrats d'objectifs et de performance** (art. 297, 301).
+8. Secteur privé : **autorisation** ministérielle, contrôle, possible **mission de service public** par cahier des charges (art. 307-312).
+9. Financement : **État** (prévention, formation, recherche, démunis), **sécurité sociale** (base contractuelle), collectivités locales, entreprises, assurances, bénéficiaires ; **comptes nationaux de la santé** annuels (art. 329-338).
+10. Obligations du médecin : **déclarer les MDO sans délai** (décret 22-250), **certificat de décès** réglementaire (décret 22-178), adhésion au **système national d'information sanitaire**.
+
+---
+
+## 18. Pièges classiques à l'examen
+
+- Citer la loi **85-05** comme texte en vigueur : elle est **abrogée** depuis 2018 (art. 449 de la loi 18-11).
+- Confondre **carte sanitaire** (normes et moyens) et **schéma d'organisation sanitaire** (complémentarités et coopérations).
+- Parler de « secteurs sanitaires » comme organisation actuelle : remplacés par les EPH et EPSP en 2007.
+- Croire que le médecin référent est obligatoirement un médecin du secteur **public** : il peut exercer dans une structure de proximité publique **ou privée** (art. 22).
+- Oublier les **exceptions** à la hiérarchisation : urgences et cas d'accès direct définis par le ministre.
+- Penser que seuls les médecins publics déclarent les MDO : l'obligation vaut pour **tout praticien médical** (art. 39).
+- Croire que les structures privées échappent au système national d'information sanitaire (art. 321 : obligation pour toutes).
+- Confondre le **service civil** (spécialistes, avant exercice privé) avec le service national.
+- Affirmer des chiffres (densité médicale, nombre de lits, dépense de santé) sans source datée.
+
+---
+
+## 19. QCM d'auto-évaluation
+
+**QCM 1.** Selon la loi n° 18-11, le système national de santé est fondé sur les principes de :
+A. Universalité
+B. Égalité d'accès aux soins
+C. Solidarité et équité
+D. Continuité du service public
+E. Libre accès direct à tous les services spécialisés sans orientation
+
+**QCM 2.** Concernant le médecin référent (art. 22) :
+A. C'est le médecin généraliste traitant du patient
+B. Il exerce dans la structure de proximité la plus proche du domicile
+C. Il ne peut exercer que dans le secteur public
+D. L'accès aux services spécialisés se fait sur son orientation, sauf urgence et accès direct prévus
+E. Il est obligatoirement un spécialiste en médecine interne
+
+**QCM 3.** La carte sanitaire :
+A. Fixe les normes de couverture sanitaire
+B. Tient compte des bassins de population et des caractéristiques épidémiologiques
+C. Vise à susciter les coopérations entre établissements (rôle propre du schéma d'organisation sanitaire)
+D. Est élaborée, évaluée et mise à jour périodiquement
+E. Concerne uniquement le secteur privé
+
+**QCM 4.** Concernant les établissements publics de santé :
+A. Ils sont dotés de la personnalité morale et de l'autonomie financière
+B. Leur financement s'appuie sur des contrats d'objectifs et de performance
+C. Le décret 07-140 a créé les EPH et les EPSP
+D. Les CHU associent soins, formation et recherche
+E. Leurs personnels relèvent du code du travail du secteur privé
+
+**QCM 5.** Les soins primaires selon la loi 18-11 :
+A. Constituent le premier niveau du processus de soins
+B. Comprennent prévention, promotion, soins essentiels et réadaptation
+C. Doivent être rapprochés des lieux de vie, d'enseignement et de travail
+D. Correspondent aux soins hautement spécialisés
+E. Sont dispensés exclusivement par les CHU
+
+**QCM 6.** Le financement du système national de santé fait intervenir :
+A. L'État, notamment pour la prévention, la formation et la recherche
+B. Les organismes de sécurité sociale sur une base contractuelle
+C. Les collectivités locales
+D. Les assurances économiques
+E. Exclusivement les ménages pour les soins hospitaliers publics
+
+**QCM 7.** Concernant le secteur privé de santé :
+A. Son ouverture est soumise à l'autorisation du ministre chargé de la santé
+B. Il peut être investi d'une mission de service public selon un cahier des charges
+C. Le wali peut prononcer une fermeture n'excédant pas 3 mois
+D. Les mutuelles sociales peuvent créer des structures privées de santé
+E. Il est dispensé de tout contrôle du ministère de la santé
+
+**QCM 8.** Concernant les obligations déclaratives du médecin :
+A. La liste des MDO en vigueur est fixée par le décret exécutif n° 22-250
+B. Seuls les cas confirmés doivent être déclarés
+C. Le certificat de décès comporte une partie inférieure anonyme portant les causes médicales
+D. En cas de mort violente, le médecin ne remplit que la partie supérieure et avise les autorités
+E. La brucellose fait partie des MDO
+
+**QCM 9.** Le service civil des praticiens spécialistes :
+A. Est régi par la loi n° 84-10
+B. S'accomplit dans les structures publiques de santé
+C. Précède l'exercice dans le secteur privé ou libéral
+D. Est assorti de mesures incitatives, notamment pour le Sud et les Hauts-Plateaux
+E. Concerne uniquement les médecins généralistes
+
+**QCM 10.** Parmi les propositions suivantes, lesquelles sont exactes ?
+A. La loi 85-05 relative à la protection et à la promotion de la santé est abrogée
+B. La gratuité des soins a été instituée par l'ordonnance n° 73-65
+C. Les structures privées doivent intégrer le système national d'information sanitaire
+D. Les comptes nationaux de la santé sont publiés annuellement
+E. Le décret 22-211 fixe la liste des maladies à dépistage anonyme et gratuit
+
+### Corrigé commenté
+
+- **QCM 1 : A, B, C, D** (art. 6). E faux : l'accès aux spécialistes passe par le médecin référent (art. 22).
+- **QCM 2 : A, B, D.** C faux (structure publique ou privée) ; E faux (généraliste).
+- **QCM 3 : A, B, D.** C décrit le schéma d'organisation sanitaire (art. 271) ; E faux (la carte concerne tout le système et conditionne aussi la création des structures privées, art. 306).
+- **QCM 4 : A, B, C, D.** E faux : statut général de la fonction publique (art. 299).
+- **QCM 5 : A, B, C** (art. 283). D et E décrivent les soins tertiaires.
+- **QCM 6 : A, B, C, D** (art. 329-333). E faux : gratuité dans le public (art. 13), la participation éventuelle des bénéficiaires (art. 334) n'est pas exclusive.
+- **QCM 7 : A, B, C, D** (art. 307, 309, 311, 315). E faux (art. 310).
+- **QCM 8 : A, C, D, E.** B faux : cas suspects **et** confirmés (art. 39).
+- **QCM 9 : A, B, C, D** (art. 196-197). E faux : les praticiens **spécialistes**.
+- **QCM 10 : A, B, C, D, E** (art. 449, ordonnance 73-65, art. 321, art. 338, décret 22-211).
+
+---
+
+## 20. Divergences, zones d'incertitude et évolutions
+
+| Sujet | Position / texte 1 | Position / texte 2 | Conséquence |
+|---|---|---|---|
+| Typologie des établissements publics | Décrets 97-465, 97-467, 07-140 : CHU, EHS, EPH, EPSP | Loi 18-11, art. 298 : CHU, EHS, **circonscription sanitaire**, **établissement d'aide médicale d'urgence** | Tant que les textes d'application ne sont pas publiés, les textes antérieurs continuent de produire leurs effets (art. 449) ; vérifier l'état réglementaire `[À VÉRIFIER]` |
+| Financement des hôpitaux par la sécurité sociale | Pratique historique d'une dotation globale (« forfait ») | Loi 18-11 : contribution sur base **contractuelle** (art. 330) et contrats d'objectifs et de performance (art. 301) | Réforme de la contractualisation ; état de mise en œuvre `[À VÉRIFIER]` |
+| Gratuité des soins | Principe constitutionnel et légal (art. 13) | Participation possible des bénéficiaires (art. 334) ; paiements directs dans le privé | Distinguer gratuité dans le public et dépense globale des ménages |
+| Hiérarchisation | Principe légal (art. 3, 22) | Recours direct fréquent aux urgences et aux CHU en pratique | Écart entre norme et pratique, dépend des textes d'application du médecin référent |
+| Cadre d'analyse | OMS 2007 : six piliers [S20] | Approche des soins de santé primaires (Alma-Ata 1978, Astana 2018) [S21] | Grilles complémentaires : structure du système vs orientation des soins |
+| Modifications de la loi 18-11 | Texte initial de 2018 [S1] | Modifications ultérieures (ordonnance 20-02 selon le registre) | Toujours citer « loi 18-11 modifiée et complétée » et vérifier la version consolidée |
+
+---
+
+## 21. Références
+
+1. [S1] Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (DOC-00074).
+2. [S2] Décret exécutif n° 22-250 du 30 juin 2022 (liste des MDO). JORADP n° 47/2022 (DOC-00072).
+3. [S3] Décret exécutif n° 22-211 du 5 juin 2022 (dépistage anonyme et gratuit). JORADP n° 40/2022 (DOC-00073).
+4. [S4] Décret exécutif n° 22-178 du 28 avril 2022 (certificat médical de décès). JORADP n° 32/2022 (DOC-00077).
+5. [S5] Décret exécutif n° 22-251 du 30 juin 2022 (agence nationale de numérisation en santé). JORADP n° 47/2022.
+6. [S6] Décret exécutif n° 07-140 du 19 mai 2007 (EPH et EPSP), modifié et complété.
+7. [S7] Décret exécutif n° 97-467 du 2 décembre 1997 (CHU).
+8. [S8] Décret exécutif n° 97-465 du 2 décembre 1997 (EHS).
+9. [S9] Ordonnance n° 73-65 du 28 décembre 1973 (médecine gratuite).
+10. [S10] Loi n° 85-05 du 16 février 1985 relative à la protection et à la promotion de la santé (abrogée).
+11. [S11] Loi n° 83-11 du 2 juillet 1983 relative aux assurances sociales.
+12. [S12] Loi n° 84-10 du 11 février 1984 relative au service civil.
+13. [S13] Loi n° 10-12 du 29 décembre 2010 relative à la protection des personnes âgées.
+14. [S14] Décret exécutif n° 11-379 du 21 novembre 2011 (attributions du ministre).
+15. [S15] Décret exécutif n° 11-236 du 3 juillet 2011 (statut du résident). JORADP n° 38/2011 (DOC-00004).
+16. [S16] Arrêté MESRS n° 1137 du 4 novembre 2015 (DEMS) (DOC-00066).
+17. [S17] Arrêtés du 3 juillet 2018 et du 28 avril 2026 (calendrier vaccinal) (DOC-00070, DOC-00071).
+18. [S18] ONS. Démographie algérienne 2020-2023 (n° 1030), 2024.
+19. [S19] MSPRH / OMS. Enquête STEPwise Algérie 2016-2017 (2018).
+20. [S20] WHO. Everybody's business: strengthening health systems to improve health outcomes. Geneva; 2007.
+21. [S21] Déclaration d'Alma-Ata (1978) ; Déclaration d'Astana (2018).
+22. [S22] Décrets exécutifs n° 95-319 (1995) et n° 14-106 (2014).
+23. [S23] Décret n° 71-275 du 3 décembre 1971 portant création du DEMS (DOC-00022).

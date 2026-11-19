@@ -160,6 +160,153 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-13",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-1301",
+      "titre": "TCA allongé découvert avant une cholécystectomie chez une femme de 34 ans",
+      "niveau": "generaliste",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 34 ans, enseignante, deux grossesses dont une fausse couche tardive à 22 SA, adressée par le chirurgien avant une cholécystectomie programmée.",
+      "motif_consultation": "Bilan d'hémostase prescrit en ville avant chirurgie : TCA allongé ; demande d'avis avant intervention.",
+      "antecedents": "Une fausse couche tardive à 22 SA il y a 3 ans ; une thrombose veineuse surale après un vol long-courrier il y a 5 ans, traitée 3 mois. Pas de saignement anormal lors de l'accouchement, des extractions dentaires ni d'une appendicectomie dans l'enfance. Pas de traitement en cours. Mère : lupus systémique.",
+      "symptomes": "Asymptomatique sur le plan hémorragique ; coliques hépatiques récidivantes.",
+      "examen_clinique": "Examen normal, pas d'ecchymose, pas de purpura, livedo discret des membres inférieurs.",
+      "biologie": "Plaquettes 165 G/L (N 150-400) ; TP 95 % (N ≥ 70) ; TCA ratio 1,65 (N < 1,2) ; fibrinogène 3,1 g/L (N 2-4) ; TT normal. Test de correction : TCA du mélange 50/50 non corrigé en immédiat (indice de Rosner 22, seuil local 15), stable après incubation. Facteurs VIII 120 %, IX 70 %, XI 62 %, XII 58 % (dosages réalisés à plusieurs dilutions : augmentation des taux avec la dilution). dRVVT : dépistage allongé, mélange non corrigé, confirmation positive (correction par excès de phospholipides). Anticorps anticardiolipine IgG 62 GPL (seuil 40) ; anti-β2GPI IgG positifs.",
+      "imagerie": "Échographie abdominale : lithiase vésiculaire.",
+      "hypotheses_diagnostiques": [
+        "Anticoagulant lupique (syndrome des antiphospholipides possible)",
+        "Déficit constitutionnel en facteur XI ou XII",
+        "Contamination par l'héparine"
+      ],
+      "diagnostics_differentiels": [
+        "Hémophilie A acquise (non retenue : absence de saignement, FVIII normal, inhibiteur non dépendant du temps)",
+        "Maladie de Willebrand (FVIII normal)",
+        "Déficit en FXII isolé (non retenu : profil d'inhibiteur et taux augmentant avec la dilution)"
+      ],
+      "examens_a_demander": [
+        "Contrôle des anticorps antiphospholipides et de l'anticoagulant lupique à 12 semaines",
+        "Bilan d'auto-immunité (anticorps antinucléaires, anti-ADN)",
+        "Avis spécialisé (médecine interne / hémostase) pour l'anticoagulation périopératoire"
+      ],
+      "diagnostic_final": "Anticoagulant lupique avec profil antiphospholipide « triple positif » (LA, anticardiolipine, anti-β2GPI) chez une patiente ayant des antécédents thrombotique et obstétrical : syndrome des antiphospholipides probable, à confirmer par la persistance à 12 semaines.",
+      "traitement": "L'allongement du TCA ne contre-indique pas la chirurgie sur le plan hémorragique ; le risque est thrombotique : prophylaxie antithrombotique périopératoire adaptée, mobilisation précoce, discussion d'une anticoagulation au long cours en milieu spécialisé selon la confirmation du diagnostic. Surveillance de l'héparine par activité anti-Xa (TCA ininterprétable). [POSOLOGIE À VÉRIFIER — protocole local]",
+      "surveillance": "Plaquettes sous héparine ; contrôle biologique à 12 semaines ; suivi d'une future grossesse en centre spécialisé.",
+      "evolution": "Cholécystectomie sans complication hémorragique ni thrombotique sous prophylaxie ; persistance du triple positif à 12 semaines.",
+      "explication_pedagogique": "Le TCA isolément allongé sans saignement oriente d'emblée vers un anticoagulant lupique ou un déficit en facteur contact. L'absence de correction par le plasma normal, immédiate et non dépendante du temps, signe un inhibiteur ; l'augmentation des taux de facteurs avec la dilution traduit l'effet de l'inhibiteur dans les dosages chronométriques (faux déficits multiples). L'ISTH recommande deux tests de principes différents (dRVVT et TCA sensible) avec la séquence dépistage-mélange-confirmation. Le paradoxe est essentiel : un « anticoagulant » in vitro qui expose à la thrombose in vivo. Le TCA devenant ininterprétable, la surveillance d'une héparine non fractionnée doit reposer sur l'activité anti-Xa.",
+      "questions": [
+        {
+          "question": "Quel est le premier geste devant ce TCA allongé ?",
+          "reponse": "Vérifier l'absence d'héparine et la qualité du prélèvement, interroger sur les saignements, puis réaliser un test de correction."
+        },
+        {
+          "question": "Comment interpréter l'absence de correction ?",
+          "reponse": "Présence d'un inhibiteur ; sans saignement et sans dépendance au temps, l'anticoagulant lupique est le plus probable."
+        },
+        {
+          "question": "Pourquoi les facteurs IX, XI, XII semblent-ils bas ?",
+          "reponse": "Interférence de l'anticoagulant lupique dans les dosages chronométriques fondés sur le TCA ; les taux augmentent avec la dilution."
+        },
+        {
+          "question": "Quel risque périopératoire faut-il redouter ?",
+          "reponse": "Le risque thrombotique, et non hémorragique."
+        },
+        {
+          "question": "Que faut-il pour affirmer le syndrome des antiphospholipides ?",
+          "reponse": "Des critères cliniques (thrombose, morbidité obstétricale) et la persistance des anticorps à au moins 12 semaines d'intervalle."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Devreese KMJ et al. Update of the guidelines for lupus anticoagulant detection and interpretation. J Thromb Haemost 2020;18:2828-39",
+          "date": "2020"
+        },
+        {
+          "reference": "Bonhomme F et al. Pre-interventional haemostatic assessment (SFAR). Eur J Anaesthesiol 2013;30:142-62",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-1302",
+      "titre": "Saignements diffus et thrombopénie au cours d'un choc septique — lecture d'un bilan de CIVD",
+      "niveau": "residanat",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-SF-033"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 58 ans, diabétique de type 2, hospitalisé en réanimation pour pyélonéphrite obstructive compliquée de choc septique.",
+      "motif_consultation": "Apparition, 24 heures après l'admission, d'un saignement aux points de ponction, d'une hématurie macroscopique et de taches purpuriques des extrémités.",
+      "antecedents": "Diabète sous metformine ; pas d'antécédent hémorragique ; pas de traitement anticoagulant ; aucune héparine reçue depuis l'admission (contrôlé).",
+      "symptomes": "Fièvre à 39,5 °C, frissons, oligurie, confusion.",
+      "examen_clinique": "PA 82/45 mmHg sous noradrénaline, FC 125/min, marbrures, suintements aux points de ponction, purpura nécrotique débutant des orteils.",
+      "biologie": "Plaquettes 38 G/L (N 150-400 ; 210 G/L à l'admission) ; TQ 19,5 s pour un témoin de 12,5 s (allongement de 7 s) ; TP 41 % ; TCA ratio 1,6 ; fibrinogène 0,8 g/L (N 2-4) ; D-dimères 18 000 µg/L FEU (N < 500) ; monomères de fibrine positifs ; facteur V 32 % ; schizocytes 0,5 % ; lactate 6,2 mmol/L ; créatinine 290 µmol/L ; bilirubine 32 µmol/L ; hémocultures : Escherichia coli.",
+      "imagerie": "Échographie rénale : dilatation pyélocalicielle gauche sur calcul urétéral.",
+      "hypotheses_diagnostiques": [
+        "Coagulation intravasculaire disséminée sur sepsis",
+        "Insuffisance hépatocellulaire aiguë (foie de choc)",
+        "Microangiopathie thrombotique"
+      ],
+      "diagnostics_differentiels": [
+        "Thrombopénie induite par l'héparine (aucune exposition)",
+        "Microangiopathie thrombotique (fibrinogène et TP seraient habituellement préservés)",
+        "Insuffisance hépatique isolée (D-dimères et chute plaquettaire non expliqués)",
+        "Dilution par remplissage"
+      ],
+      "examens_a_demander": [
+        "Score ISTH répété quotidiennement",
+        "Frottis sanguin (schizocytes)",
+        "Bilan hépatique complet",
+        "Antithrombine (selon protocole)",
+        "Groupe, RAI en vue de transfusion"
+      ],
+      "diagnostic_final": "CIVD patente (score ISTH 8) compliquant un choc septique à Escherichia coli sur pyélonéphrite obstructive.",
+      "traitement": "Traitement de la cause en urgence : antibiothérapie adaptée, drainage des urines (néphrostomie ou sonde urétérale), support hémodynamique. Support transfusionnel guidé par les saignements et les gestes invasifs : plaquettes, plasma, concentré de fibrinogène selon les seuils des protocoles et recommandations [POSOLOGIE À VÉRIFIER — protocole local]. Pas d'antifibrinolytique dans la CIVD septique (fibrinolyse « inhibée »).",
+      "surveillance": "Plaquettes, TQ, fibrinogène et D-dimères au moins quotidiens (score ISTH), saignements, fonction rénale, lactate.",
+      "evolution": "Après drainage et antibiothérapie, amélioration hémodynamique en 48 heures ; remontée progressive des plaquettes et du fibrinogène en 4 à 5 jours.",
+      "explication_pedagogique": "Score ISTH : plaquettes < 50 G/L (2) + marqueur de fibrine fortement augmenté (3) + allongement du TQ de 7 s, donc > 6 s (2) + fibrinogène < 1 g/L (1) = 8 points, compatible avec une CIVD patente. La baisse du facteur V traduit la consommation (et non spécifiquement l'insuffisance hépatique), la chute rapide des plaquettes et l'élévation massive des D-dimères signent la génération de thrombine et de plasmine. La CIVD du sepsis est de type « thrombotique » (PAI-1 élevé, fibrinolyse relativement inhibée), d'où le purpura nécrotique des extrémités et la défaillance d'organes ; l'acide tranexamique y est déconseillé. Le traitement est avant tout celui de la cause.",
+      "questions": [
+        {
+          "question": "Calculez le score ISTH.",
+          "reponse": "Plaquettes < 50 : 2 ; D-dimères fortement augmentés : 3 ; TQ allongé de plus de 6 s : 2 ; fibrinogène < 1 g/L : 1 ; total = 8 (≥ 5 : CIVD patente)."
+        },
+        {
+          "question": "Le facteur V bas permet-il de conclure à une insuffisance hépatique ?",
+          "reponse": "Non : dans la CIVD, le FV est consommé ; seule la présence d'une thrombopénie, d'un fibrinogène bas et de D-dimères très élevés oriente vers la CIVD."
+        },
+        {
+          "question": "Quel est l'élément le plus important du traitement ?",
+          "reponse": "Le traitement de la cause (drainage de l'obstacle et antibiothérapie)."
+        },
+        {
+          "question": "Pourquoi éviter l'acide tranexamique ici ?",
+          "reponse": "Dans la CIVD septique, la fibrinolyse est relativement inhibée (PAI-1 élevé) ; un antifibrinolytique majorerait le risque de thromboses microvasculaires."
+        },
+        {
+          "question": "Comment distinguer une microangiopathie thrombotique ?",
+          "reponse": "Dans une microangiopathie thrombotique, TP, TCA et fibrinogène sont habituellement normaux, avec schizocytes nombreux et hémolyse ; ici, l'atteinte de la coagulation domine."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Taylor FB Jr et al. Towards definition, clinical and laboratory criteria, and a scoring system for DIC. Thromb Haemost 2001;86:1327-30",
+          "date": "2001"
+        },
+        {
+          "reference": "Levi M et al. Guidelines for the diagnosis and management of DIC (BCSH). Br J Haematol 2009;145:24-33",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-13",
+      "date_creation": "2026-11-19"
     }
   ]
 }

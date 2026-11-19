@@ -1,0 +1,98 @@
+{
+  "id": "AUD-01",
+  "perimetre": "Audit scientifique et posologique (AUD-01/AUD-02) des dossiers du rédacteur DOS-09",
+  "derniere_execution": "2026-11-19T03:11:09+00:00",
+  "taches_terminees": [
+    "audit DOS-RHUM-0001 (lot DOS-09)",
+    "audit DOS-RHUM-0002 (lot DOS-09)",
+    "audit DOS-MINT-0001 (lot DOS-09)",
+    "audit DOS-MINT-0002 (lot DOS-09)",
+    "audit DOS-DERM-0001 (lot DOS-09)",
+    "audit lot QCM DOS-09 (70 QCM)",
+    "audit lot cas DOS-09 (11 cas)"
+  ],
+  "resultats": {
+    "DOS-RHUM-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 12
+      },
+      "marqueurs_posologie_restants": 2
+    },
+    "DOS-RHUM-0002": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 11
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-MINT-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 12
+      },
+      "marqueurs_posologie_restants": 1
+    },
+    "DOS-MINT-0002": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 14
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-DERM-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 15
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "marqueurs_posologie": {
+      "initial": 31,
+      "leves": 28,
+      "restants": 3
+    },
+    "qcm": {
+      "total": 70,
+      "modifies": 7,
+      "audite_valide": 70
+    },
+    "cas": {
+      "total": 11,
+      "modifies": 10,
+      "audite_valide": 7,
+      "audite_corrections_requises": [
+        "CAS-RHUM-0901",
+        "CAS-RHUM-0902",
+        "CAS-MINT-0902",
+        "CAS-DERM-0901"
+      ]
+    }
+  },
+  "taches_suivantes": [
+    "Lire l'instruction ministérielle ITL 2024 (sapp.dz) et le manuel PNLAT 2011 : schémas, délai avant biothérapie, rifapentine ; passer les sources nationales TB à verifiee: true dans les 5 dossiers",
+    "Recouper sur les RCP en vigueur (EPAR EMA) les posologies levées à partir des RCP (source RCP verifiee: false, ema.europa.eu inaccessible)",
+    "DOS-RHUM-0001 : dose initiale de la corticothérapie de pont (protocole local) ; délai d'arrêt du MTX avant conception ; chiffre de Slimani 2014 (S10)",
+    "DOS-MINT-0001 : posologie et cibles de la voclosporine et du tacrolimus",
+    "DOS-MINT-0002 : texte intégral EULAR 2018 ; chiffres Behçet Maghreb 2009",
+    "DOS-DERM-0001 : texte intégral EuroGuiDerm vivant (érythrodermie, psoriasis pustuleux généralisé, première ligne)",
+    "DOS-RHUM-0002 : chiffres PROSPA 2026 ; texte intégral ASAS-EULAR 2022",
+    "Cas : CAS-MINT-0902 (posologies antituberculeuses nationales, corticoïdes sous rifampicine) ; CAS-DERM-0901 (angine, programme national RAA)",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
+  ]
+}

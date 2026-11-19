@@ -50,3 +50,43 @@ Mission : Audit des posologies et contre-indications
 - 2026-11-19T02:34:40+00:00 — Marqueurs [POSOLOGIE À VÉRIFIER] levés avec source nommée : IPP (ESGE 2021), vasoactifs (EASL 2018), antiviraux VHB et adaptation rénale (OMS 2024, tableau 17.1), ribavirine (EASL 2020), diurétiques/norfloxacine/terlipressine/rifaximine (EASL 2018/2022), AUDC (EASL CBP 2017), entécavir rénal, albendazole (OMS 2025), remplissage de la PA (WATERFALL, ACG 2024), AINS rectal post-CPRE (ESGE 2020). Marqueurs levés : 14 ; restants : 0. Lots JSON corrigés via commun.ecrire_json et validés (python3 json + valider.py : 0 erreur).
 - 2026-11-19T02:52:36+00:00 — Audit des posologies conjoint (AUD-01/AUD-02) du lot DOS-08 (DOS-HEMA-0001 à 0005, 60 QCM, 10 cas) ; rapports uniques dans `00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-000[1-5].md`.
 - 2026-11-19T02:52:36+00:00 — Erreurs critiques (dose) : aucune. Marqueurs [POSOLOGIE À VÉRIFIER] levés avec source nommée : fer oral (BSG 2021), carboxymaltose ferrique (RCP Ferinject : tableau simplifié, 1 000 mg max/administration), AHAI (consensus 2020), hydroxycarbamide (NHLBI 2014, RCP Siklos : 15 → ≤ 35 mg/kg/j), IgIV (1 g/kg, 1–2 g/kg), acide tranexamique (RCP Exacyl), eltrombopag/romiplostim/avatrombopag (RCP), rituximab (375 mg/m² × 4 ou 1 g J1/J15), niveaux de facteur WFH 2020 (via PNDS 2023), émicizumab (RCP), agents by-passants (RCP), desmopressine (RCP, restriction hydrique, < 2 ans), acide zolédronique adapté à la clairance et dénosumab (RCP Zometa/Xgeva), protocoles cités sans dose (myélome, Hodgkin). Marqueurs maintenus : cyanocobalamine (schéma français), chélateurs du fer (DOS-HEMA-0001) ; dans le lot de cas : CAS-HEMA-0801 (B12), 0802 (Hb post-transfusionnelle), 0808 (dexaméthasone).
+- 2026-11-19T03:11:09+00:00 — **Session d'audit scientifique et posologique (AUD-02 posologies, tenue conjointement avec AUD-01)** des dossiers du rédacteur DOS-09 :
+  - dossiers DOS-RHUM-0001 (polyarthrite rhumatoïde), DOS-RHUM-0002 (SpA axiale), DOS-MINT-0001 (lupus), DOS-MINT-0002 (Behçet) et DOS-DERM-0001 (psoriasis) ;
+  - lots `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-09.json` (70 QCM) et `20_CAS_CLINIQUES/lots/DOS-09.json` (11 cas).
+  J'ai d'abord lu PROTOCOLE_AUDIT.md, CONVENTIONS.md et le catalogue, puis les 5 dossiers et les 2 lots en entier.
+- Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/` (5 dossiers et 2 lots).
+- Textes intégraux relus :
+  - PNDS HAS Behçet 2019 et PNDS HAS lupus 2024, téléchargés depuis has-sante.fr ;
+  - OMS 2024 sur le traitement préventif de la tuberculose (DOC-00027) ;
+  - recommandations d'Ioannina (DOC-00080) ;
+  - S3 allemande 2026 sur le psoriasis, parties 1 et 2 (Europe PMC, accès libre) ;
+  - consensus européen de 2011 sur les objectifs thérapeutiques dans le psoriasis ;
+  - résumés Europe PMC des séries maghrébines (Slimani 2014, Ghembaza 2017, Tunisie 2006, EPIMAG, méta-analyse MENA 2026, Ziade 2017).
+- 7 recherches web :
+  - bolus de l'EULAR 2023 dans le LES ;
+  - délai de l'ITL selon l'EULAR 2022 (non trouvé) ;
+  - restrictions de l'EMA sur les inhibiteurs de JAK ;
+  - programme de prévention de la grossesse sous rétinoïdes (EMA 2018) ;
+  - posologies des biothérapies de la PR ;
+  - méthotrexate selon l'EuroGuiDerm ;
+  - définitions de l'ACR 2021.
+- Hôtes inaccessibles : ema.europa.eu, sapp.dz, guidelines.edf.one, ard.bmj.com, eprints.gla.ac.uk.
+- Résultats (tous les dossiers en version 1.1, verdict audite_corrections_requises) :
+  - DOS-RHUM-0001 : 13 corrections (0 critique / 1 majeure / 12 mineures) ; 2 marqueurs restants (dose de la corticothérapie de pont).
+  - DOS-RHUM-0002 : 12 corrections (0/1/11) ; 0 marqueur.
+  - DOS-MINT-0001 : 13 corrections (0/1/12) ; 1 marqueur (inhibiteurs de la calcineurine).
+  - DOS-MINT-0002 : 15 corrections (0/1/14) ; 0 marqueur (doses du PNDS 2019).
+  - DOS-DERM-0001 : 16 corrections (0/1/15) ; 0 marqueur.
+  - Bilan des marqueurs `[POSOLOGIE À VÉRIFIER]` : 28 levés sur 31.
+  - Aucune erreur critique. La correction majeure commune aux 5 dossiers est le traitement de l'ITL, désormais documenté :
+    - schémas OMS 2024 : 6H/9H, 3HP, 3HR, 1HP, 4R ;
+    - délai de 4 semaines suggéré par la S3 allemande 2026 ;
+    - instruction algérienne 2024 présentée « à confirmer ».
+- Autres points :
+  - divergences datées ajoutées : PNDS 2024 et EULAR/AAO sur la dose d'HCQ ; PNDS 2019 et EULAR 2018 sur l'anticoagulation dans le Behçet ;
+  - la référence d'Ioannina (consensus de 2007 sur la brucellose) n'est citée que dans CAS-RHUM-0904 (sacro-iliite brucellienne, diagnostic différentiel de la SpA axiale) : citation pertinente, référence complétée (PMID 18162038).
+- Lots JSON corrigés avec `ecrire_json` (JSON validé avec python3) :
+  - 7 explications de QCM complétées ; 70 QCM `audite_valide` ;
+  - 10 cas modifiés ; 7 `audite_valide` et 4 `audite_corrections_requises` (CAS-RHUM-0901, CAS-RHUM-0902, CAS-MINT-0902, CAS-DERM-0901).
+- Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-RHUM-0001.md`, `DOS-RHUM-0002.md`, `DOS-MINT-0001.md`, `DOS-MINT-0002.md`, `DOS-DERM-0001.md`.
+- État : `00_SYSTEME/agents/AUD-01/etat_DOS-09.json`. Aucune commande git.

@@ -69,3 +69,43 @@ Mission : Audit scientifique des dossiers (exactitude, cohérence, actualité)
   - DOS-HEMA-0005 : 16 corrections (0/0/16) → audite_valide, v1.1.
 - 2026-11-19T02:52:36+00:00 — Lots (écrits par `ecrire_json`, validés avec python3 : 5 propositions, réponses/explications cohérentes, 15 rubriques, concordance dossiers ↔ lot) : 7 QCM corrigés (0801, 0817, 0818, 0822, 0824, 0855, 0857), 60/60 audite_valide ; 8 cas modifiés, dont CAS-HEMA-0803 (majeure : abstention à 9 G/L contraire au PNDS 2025 → 14 G/L) ; 7 cas audite_valide, 3 audite_corrections_requises (0801, 0802, 0808 : marqueurs résiduels).
 - 2026-11-19T02:52:36+00:00 — Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md` à `DOS-HEMA-0005.md`. État de session : `00_SYSTEME/agents/AUD-01/etat_DOS-08.json` (etat.json non réécrit). Aucune commande git.
+- 2026-11-19T03:11:09+00:00 — **Session d'audit scientifique et posologique (AUD-01, tenue conjointement avec AUD-02)** des dossiers du rédacteur DOS-09 :
+  - dossiers DOS-RHUM-0001 (polyarthrite rhumatoïde), DOS-RHUM-0002 (SpA axiale), DOS-MINT-0001 (lupus), DOS-MINT-0002 (Behçet) et DOS-DERM-0001 (psoriasis) ;
+  - lots `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-09.json` (70 QCM) et `20_CAS_CLINIQUES/lots/DOS-09.json` (11 cas).
+  J'ai d'abord lu PROTOCOLE_AUDIT.md, CONVENTIONS.md et le catalogue, puis les 5 dossiers et les 2 lots en entier.
+- Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/` (5 dossiers et 2 lots).
+- Textes intégraux relus :
+  - PNDS HAS Behçet 2019 et PNDS HAS lupus 2024, téléchargés depuis has-sante.fr ;
+  - OMS 2024 sur le traitement préventif de la tuberculose (DOC-00027) ;
+  - recommandations d'Ioannina (DOC-00080) ;
+  - S3 allemande 2026 sur le psoriasis, parties 1 et 2 (Europe PMC, accès libre) ;
+  - consensus européen de 2011 sur les objectifs thérapeutiques dans le psoriasis ;
+  - résumés Europe PMC des séries maghrébines (Slimani 2014, Ghembaza 2017, Tunisie 2006, EPIMAG, méta-analyse MENA 2026, Ziade 2017).
+- 7 recherches web :
+  - bolus de l'EULAR 2023 dans le LES ;
+  - délai de l'ITL selon l'EULAR 2022 (non trouvé) ;
+  - restrictions de l'EMA sur les inhibiteurs de JAK ;
+  - programme de prévention de la grossesse sous rétinoïdes (EMA 2018) ;
+  - posologies des biothérapies de la PR ;
+  - méthotrexate selon l'EuroGuiDerm ;
+  - définitions de l'ACR 2021.
+- Hôtes inaccessibles : ema.europa.eu, sapp.dz, guidelines.edf.one, ard.bmj.com, eprints.gla.ac.uk.
+- Résultats (tous les dossiers en version 1.1, verdict audite_corrections_requises) :
+  - DOS-RHUM-0001 : 13 corrections (0 critique / 1 majeure / 12 mineures) ; 2 marqueurs restants (dose de la corticothérapie de pont).
+  - DOS-RHUM-0002 : 12 corrections (0/1/11) ; 0 marqueur.
+  - DOS-MINT-0001 : 13 corrections (0/1/12) ; 1 marqueur (inhibiteurs de la calcineurine).
+  - DOS-MINT-0002 : 15 corrections (0/1/14) ; 0 marqueur (doses du PNDS 2019).
+  - DOS-DERM-0001 : 16 corrections (0/1/15) ; 0 marqueur.
+  - Bilan des marqueurs `[POSOLOGIE À VÉRIFIER]` : 28 levés sur 31.
+  - Aucune erreur critique. La correction majeure commune aux 5 dossiers est le traitement de l'ITL, désormais documenté :
+    - schémas OMS 2024 : 6H/9H, 3HP, 3HR, 1HP, 4R ;
+    - délai de 4 semaines suggéré par la S3 allemande 2026 ;
+    - instruction algérienne 2024 présentée « à confirmer ».
+- Autres points :
+  - divergences datées ajoutées : PNDS 2024 et EULAR/AAO sur la dose d'HCQ ; PNDS 2019 et EULAR 2018 sur l'anticoagulation dans le Behçet ;
+  - la référence d'Ioannina (consensus de 2007 sur la brucellose) n'est citée que dans CAS-RHUM-0904 (sacro-iliite brucellienne, diagnostic différentiel de la SpA axiale) : citation pertinente, référence complétée (PMID 18162038).
+- Lots JSON corrigés avec `ecrire_json` (JSON validé avec python3) :
+  - 7 explications de QCM complétées ; 70 QCM `audite_valide` ;
+  - 10 cas modifiés ; 7 `audite_valide` et 4 `audite_corrections_requises` (CAS-RHUM-0901, CAS-RHUM-0902, CAS-MINT-0902, CAS-DERM-0901).
+- Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-RHUM-0001.md`, `DOS-RHUM-0002.md`, `DOS-MINT-0001.md`, `DOS-MINT-0002.md`, `DOS-DERM-0001.md`.
+- État : `00_SYSTEME/agents/AUD-01/etat_DOS-09.json`. Aucune commande git.

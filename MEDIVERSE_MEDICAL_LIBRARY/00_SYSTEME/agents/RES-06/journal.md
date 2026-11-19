@@ -9,3 +9,5 @@ Mission : Fiches mémo, tableaux de révision et pièges classiques
 - 2026-11-19 — FIC-PNEU-0001 (tuberculose), FIC-PNEU-0002 (pneumonies), FIC-PNEU-0003 (asthme) créées.
 - 2026-11-19 — FIC-INFE-0001 (méningites purulentes), FIC-INFE-0002 (brucellose) créées.
 - 2026-11-19 — FIC-GAST-0001 (hémorragies digestives), FIC-HEPA-0001 (hépatites A-B-C), FIC-HEPA-0002 (cirrhoses) créées.
+- 2026-11-19 — FIC-CDIG-0001 (kyste hydatique du foie), FIC-CDIG-0002 (pancréatite aiguë) créées.
+- 2026-11-19 — FIC-DIAB-0001 (diabète sucré), FIC-DIAB-0002 (complications aiguës du diabète) créées.

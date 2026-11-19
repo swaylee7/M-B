@@ -211,3 +211,317 @@ mots_cles: [transfusion, concentré de globules rouges, plaquettes, plasma, comp
   - selon un reportage de Radio Algérie (2023), le pays compterait environ **248 centres de transfusion sanguine**, avec un projet de **36 nouvelles structures** [S16] ;
   - les données nationales d'hémovigilance (nombre de PSL distribués, incidence des effets indésirables) n'ont pas été identifiées pour ce dossier `[À VÉRIFIER — rapports de l'Agence nationale du sang]`.
 
+---
+
+## 4. Rappels immuno-hématologiques
+
+### 4.1 Le système ABO
+
+- Antigènes A et B portés par les glycoprotéines et glycolipides de la membrane érythrocytaire (et de nombreux tissus), déterminés par le gène *ABO* et par l'antigène H (précurseur).
+- **Anticorps naturels réguliers** : chaque sujet possède les anticorps dirigés contre les antigènes qu'il n'a pas (sujet A : anti-B ; sujet B : anti-A ; sujet O : anti-A et anti-B ; sujet AB : aucun). Ils apparaissent au cours de la première année de vie, sont principalement de type **IgM**, **activent le complément** et provoquent une **hémolyse intravasculaire immédiate** en cas d'incompatibilité : c'est l'accident transfusionnel le plus grave et le plus évitable.
+- Les sujets O possèdent aussi des anti-A,B de type IgG, parfois à titre élevé (« donneurs dangereux » pour le plasma et les plaquettes).
+
+| Groupe | Antigènes sur les hématies | Anticorps dans le plasma |
+|---|---|---|
+| O | Aucun (H) | Anti-A, anti-B |
+| A | A | Anti-B |
+| B | B | Anti-A |
+| AB | A et B | Aucun |
+
+### 4.2 Le système Rhésus (RH)
+
+- Antigène **D** (RH1), le plus immunogène après A et B ; sujets **RhD positifs** ou **RhD négatifs**. Les autres antigènes du système (C, c, E, e) constituent le **phénotype RH-KEL** avec l'antigène **Kell** (KEL1).
+- Les anticorps anti-D sont **immuns** (acquis après transfusion ou grossesse), de type IgG, responsables d'hémolyses retardées et de la **maladie hémolytique du fœtus et du nouveau-né** (voir DOS-NEON-0001).
+
+### 4.3 Autres systèmes et anticorps irréguliers
+
+- Kell, Duffy (Fy), Kidd (Jk), MNS, Lewis… : les anticorps correspondants sont **irréguliers** (immuns, présents chez une minorité de sujets allo-immunisés) ; ils sont dépistés par la **recherche d'agglutinines irrégulières (RAI)**. Les anti-Kidd sont classiquement responsables d'hémolyses retardées (titre fluctuant, souvent indétectable).
+- Les patients **polytransfusés** (drépanocytose, thalassémie, myélodysplasies) sont à haut risque d'allo-immunisation → transfusion de CGR **phénotypés** (RH-KEL, voire phénotype étendu).
+
+### 4.4 Le système HLA et les antigènes plaquettaires et granulocytaires
+
+- Les anticorps anti-HLA ou anti-HNA (souvent chez des donneuses multipares) peuvent être en cause dans le **TRALI** ; les anticorps anti-HLA du receveur expliquent une partie des **états réfractaires** aux transfusions de plaquettes ; les anticorps anti-HPA (souvent anti-HPA-1a) expliquent le **purpura post-transfusionnel**.
+
+---
+
+## 5. Physiopathologie : pourquoi et comment transfuse-t-on, et d'où viennent les accidents ?
+
+### 5.1 Bénéfice attendu
+
+- **CGR** : restaurer la capacité de transport de l'oxygène. Le transport en O₂ (DO₂) dépend du débit cardiaque, de l'hémoglobine et de la saturation ; les mécanismes d'adaptation à l'anémie (augmentation du débit cardiaque, de l'extraction tissulaire, déplacement de la courbe de dissociation) expliquent la bonne tolérance d'anémies profondes d'installation lente et la mauvaise tolérance des anémies aiguës ou des terrains cardiaques.
+- **Plaquettes** : prévenir ou traiter un saignement lié à une thrombopénie ou une thrombopathie.
+- **Plasma** : apporter l'ensemble des facteurs de coagulation dans les coagulopathies complexes (transfusion massive, CIVD avec saignement, microangiopathies thrombotiques par échange plasmatique).
+- **Cryoprécipité / fibrinogène** : corriger une hypofibrinogénémie (le cryoprécipité contient aussi du facteur VIII, du facteur Willebrand et du facteur XIII) [S12].
+
+### 5.2 Mécanismes des accidents
+
+| Mécanisme | Accident | Explication |
+|---|---|---|
+| Conflit antigène-anticorps érythrocytaire **ABO** (IgM) | **Hémolyse intravasculaire aiguë** | Activation du complément, libération d'hémoglobine libre, cytokines, CIVD, insuffisance rénale |
+| Conflit avec un anticorps **irrégulier** (IgG) | Hémolyse **retardée** (extravasculaire) | Réactivation d'une allo-immunisation ancienne (anticorps indétectable lors de la RAI) |
+| Cytokines accumulées pendant la conservation, anticorps anti-leucocytaires | **Réaction fébrile non hémolytique** | Diminuée par la déleucocytation |
+| IgE, anticorps anti-IgA (déficit en IgA), protéines plasmatiques | **Allergie**, **anaphylaxie** | Surtout avec le plasma et les plaquettes |
+| Anticorps du donneur anti-HLA/HNA + activation des polynucléaires pulmonaires du receveur (« deux coups ») | **TRALI** | Œdème pulmonaire lésionnel [S7] |
+| Volume et débit excessifs sur un terrain à risque | **TACO** | Œdème pulmonaire hydrostatique [S8] |
+| Lymphocytes T viables du donneur chez un receveur incapable de les rejeter | **GVH transfusionnelle** | Pancytopénie, quasi constamment mortelle ; prévention par l'irradiation dans des indications ciblées [S17] |
+| Bactéries (peau du donneur, bactériémie asymptomatique), conservation des plaquettes à température ambiante | **Contamination bactérienne** | Choc septique, souvent endotoxinique |
+| Virus, parasites (paludisme), prions en période muette ou non dépistés | **Infections transmissibles** | Risque résiduel lié à la fenêtre sérologique |
+| Apport de fer (≈ 200–250 mg par CGR `[À VÉRIFIER]`) | **Hémochromatose post-transfusionnelle** | Polytransfusés chroniques |
+| Citrate, potassium, froid, dilution | Complications de la **transfusion massive** | Hypocalcémie, hyperkaliémie, hypothermie, coagulopathie de dilution |
+
+---
+
+## 6. Indications : quand transfuser ? (vue d'ensemble)
+
+| Produit | Indications principales | Seuils / références |
+|---|---|---|
+| **CGR** | Anémie aiguë (hémorragie) ou chronique mal tolérée, anémie centrale (chimiothérapie, aplasie), hémoglobinopathies (programmes transfusionnels) | Seuils restrictifs : 7 g/dL chez la plupart des adultes hospitalisés stables ; 7,5 en chirurgie cardiaque ; 8 en chirurgie orthopédique ou en cas de maladie cardiovasculaire préexistante [S1] |
+| **Plaquettes** | Prophylaxie dans les thrombopénies centrales profondes ; avant un geste invasif ; saignement d'une thrombopénie ou thrombopathie | < 10 G/L (prophylaxie, chimiothérapie/allogreffe) ; < 20 G/L (ponction lombaire, radiologie interventionnelle à faible risque) ; < 50 G/L (chirurgie majeure non neuraxiale, radiologie interventionnelle à haut risque) [S2] |
+| **Plasma** | Hémorragie avec coagulopathie (transfusion massive), CIVD avec saignement, échanges plasmatiques du purpura thrombotique thrombocytopénique, déficits en facteurs sans concentré disponible | Pas de transfusion « préventive » pour corriger un TP isolé avant un geste à faible risque `[À VÉRIFIER — HAS/ANSM plasma]` |
+| **Cryoprécipité / fibrinogène** | Hypofibrinogénémie avec saignement (hémorragie obstétricale, transfusion massive) | Fibrinogène < 1,5 g/L dans l'hémorragie traumatique selon le guide européen [S13] `[À VÉRIFIER]` |
+| **MDS** | Albumine (cirrhose : paracentèse évacuatrice de grand volume, infection du liquide d'ascite), immunoglobulines (déficits immunitaires, PTI, Kawasaki), anti-D (prévention de l'allo-immunisation fœto-maternelle), CCP (réversion des AVK — voir DOS-PHAR-0002), facteurs VIII/IX (hémophilie — voir DOS-HEMA-0003) | Selon les recommandations spécifiques [S12] |
+
+---
+
+## 7. Classification des produits sanguins labiles et qualifications
+
+### 7.1 Les produits
+
+| Produit | Préparation | Conservation (repères usuels) | Remarques |
+|---|---|---|---|
+| **CGR déleucocyté** | Centrifugation du sang total, solution de conservation, filtration des leucocytes | Réfrigéré (2–6 °C), plusieurs semaines selon la solution `[À VÉRIFIER — durée réglementaire nationale]` | Un CGR augmente l'hémoglobine d'environ 1 g/dL chez un adulte de 70 kg sans saignement (repère classique) `[À VÉRIFIER]` |
+| **Concentré plaquettaire** : mélange de couches leuco-plaquettaires de plusieurs dons, ou plaquettes d'aphérèse (donneur unique) | — | **Température ambiante (20–24 °C) sous agitation**, quelques jours | Risque de contamination bactérienne plus élevé du fait de la conservation à température ambiante |
+| **PFC** | Plasma congelé rapidement après le prélèvement ; sécurisé par quarantaine ou par traitement de réduction des pathogènes | Congelé (≤ −25 °C), décongelé avant usage | Compatibilité ABO « inversée » (§ 8.4) |
+| **Cryoprécipité** | Fraction du plasma précipitant au froid | Congelé | Riche en fibrinogène, FVIII, Willebrand, FXIII ; l'OMS préfère la forme à réduction de pathogènes, la forme native étant réservée aux hémorragies menaçant la vie [S12] |
+| **Sang total** | Inscrit sur la liste OMS [S12] | — | Usage dans certains contextes (hémorragie massive, ressources limitées) |
+
+### 7.2 Qualifications et transformations
+
+| Qualification / transformation | Définition | Indications principales |
+|---|---|---|
+| **Phénotypé** (RH-KEL) | Respect des antigènes C, c, E, e et Kell | Femmes jusqu'à la fin de la période de procréation, polytransfusés, patients allo-immunisés |
+| **Phénotype étendu** | Respect d'autres systèmes (Duffy, Kidd, MNS) | Patients allo-immunisés, drépanocytaires, thalassémiques |
+| **Compatibilisé** | Épreuve directe de compatibilité au laboratoire entre le sérum du receveur et les hématies du CGR | **RAI positive** (ou antécédent d'anticorps), nouveau-nés selon les protocoles |
+| **Irradié** | Inactivation des lymphocytes T | Prévention de la GVH transfusionnelle : déficits immunitaires cellulaires congénitaux, allogreffe de CSH, traitements par analogues de purines, lymphome de Hodgkin, transfusions intra-utérines, dons intrafamiliaux, plaquettes HLA-compatibles (indications révisées depuis la déleucocytation) [S17] `[À VÉRIFIER — liste nationale]` |
+| **Déplasmatisé** | Élimination du plasma résiduel par lavage | Antécédents de réactions allergiques graves, déficit en IgA avec anticorps anti-IgA |
+| **Réduit en volume** | — | Nouveau-nés, risque de surcharge |
+| **CMV négatif** | Donneurs séronégatifs | Indications restreintes depuis la déleucocytation (variables selon les pays) `[À VÉRIFIER]` |
+
+---
+
+## 8. Règles de compatibilité et sécurité de l'acte transfusionnel
+
+### 8.1 Bilan immuno-hématologique prétransfusionnel [S15]
+
+- **Groupage ABO-RhD** (et phénotype RH-KEL selon le contexte) sur **deux déterminations** réalisées sur deux prélèvements distincts, avec identification rigoureuse du patient ; un groupe sanguin n'est **jamais** déterminé sur la base d'une carte ou d'une déclaration.
+- **RAI** (dépistage d'anticorps irréguliers) récente : durée de validité réduite (classiquement **72 heures**) chez un patient transfusé ou enceinte dans les mois précédents, car une allo-immunisation peut apparaître rapidement `[À VÉRIFIER — règle nationale]` ; si RAI positive : **identification** de l'anticorps et CGR **compatibilisés** dépourvus de l'antigène correspondant.
+- Avant la première transfusion : information du patient (bénéfices, risques, alternatives), recueil de son accord selon la réglementation, et selon les pays sérologies prétransfusionnelles (VIH, VHB, VHC) `[À VÉRIFIER — réglementation algérienne]`.
+
+### 8.2 Prescription et délivrance
+
+- Prescription écrite, nominative, datée et signée, précisant le produit, la quantité, les qualifications, l'**indication** et le degré d'urgence (urgence vitale immédiate, urgence vitale, urgence relative).
+
+### 8.3 Compatibilité ABO pour les globules rouges
+
+Principe : **ne jamais apporter d'antigène contre lequel le receveur possède un anticorps**.
+
+| Receveur | CGR compatibles |
+|---|---|
+| O | **O uniquement** |
+| A | A, O |
+| B | B, O |
+| AB | AB, A, B, O |
+
+- Le **CGR O** est donc « donneur universel » pour les hématies (en pratique **O RhD négatif** en urgence vitale immédiate sans groupe connu, surtout chez la femme en âge de procréer).
+- **RhD** : un receveur RhD négatif reçoit des CGR RhD négatifs, impérativement chez la fille et la femme jusqu'à la fin de la période de procréation ; dérogations possibles en pénurie chez l'homme ou la femme ménopausée non immunisés, selon les procédures `[À VÉRIFIER]`.
+
+### 8.4 Compatibilité ABO pour le plasma (règle « inversée »)
+
+Principe : **ne pas apporter d'anticorps dirigés contre les antigènes du receveur**.
+
+| Receveur | Plasma compatible |
+|---|---|
+| O | O, A, B, AB |
+| A | A, AB |
+| B | B, AB |
+| AB | **AB uniquement** |
+
+- Le **plasma AB** est donc « donneur universel » pour le plasma.
+
+### 8.5 Plaquettes
+
+- Transfusion de préférence **ABO identique** ou compatible ; les plaquettes non identiques sont possibles (le contenu plasmatique peut contenir des anti-A/anti-B à titre élevé — risque d'hémolyse chez le receveur, d'où des précautions avec les donneurs O) [S5].
+- **RhD** : les plaquettes contiennent quelques hématies ; chez une **receveuse RhD négative en âge de procréer** recevant des plaquettes RhD positives, une **prévention par immunoglobulines anti-D** est recommandée [S5].
+
+### 8.6 Contrôles au lit du patient et administration [S6]
+
+1. **Vérification de concordance** : identité du patient (questionnée si possible, bracelet), prescription, document de délivrance, étiquette du produit, groupe, qualifications, date de péremption, intégrité de la poche.
+2. **Contrôle ultime de compatibilité ABO** au lit du patient pour les CGR (test sur carte avec le sang du patient et celui de la poche) dans les pays qui l'ont rendu obligatoire, dont la France ; en Algérie, se conformer à la procédure nationale `[À VÉRIFIER]`.
+3. **Unité de temps, de lieu et d'action** : un soignant, un patient, une poche, au lit du patient.
+4. **Surveillance** : constantes (pouls, PA, température, fréquence respiratoire, SpO₂) avant la transfusion, **dans les 15 premières minutes**, puis régulièrement et en fin de transfusion ; présence soignante au début ; débit lent initialement [S6].
+5. Durée de passage d'un CGR limitée (classiquement terminée dans les 4 heures suivant la sortie de l'enceinte de conservation) [S6] `[À VÉRIFIER — délai réglementaire]`.
+6. **Traçabilité** : enregistrement du produit transfusé dans le dossier du patient et retour d'information à la structure de transfusion.
+
+---
+
+## 9. Examens complémentaires et interprétation
+
+### 9.1 Avant la transfusion
+
+| Examen | Intérêt | Interprétation |
+|---|---|---|
+| Groupage ABO-RhD (2 déterminations) | Choix des produits | Discordance → nouveau prélèvement, enquête d'identito-vigilance |
+| Phénotype RH-KEL (± étendu) | Prévention de l'allo-immunisation | Indispensable chez la femme jeune et le polytransfusé |
+| **RAI** | Dépistage d'anticorps irréguliers | Positive → identification, CGR compatibilisés dépourvus de l'antigène |
+| Hémogramme | Indication | Interpréter selon la cinétique, la tolérance et le terrain |
+| Bilan d'hémostase (TP, TCA, fibrinogène), viscoélastométrie selon disponibilité | Hémorragie, transfusion massive | Guidage de l'apport en plasma, fibrinogène et plaquettes [S13] |
+| Bilan martial, folates, B12 | Alternative à la transfusion (anémie carentielle) | Une anémie ferriprive bien tolérée se traite par le **fer**, non par la transfusion (voir DOS-HEMA-0001) [S9] |
+
+### 9.2 Après la transfusion
+
+- **Hémoglobine de contrôle** (rendement transfusionnel) ; numération plaquettaire à 1 heure et à 24 heures pour évaluer un **état réfractaire** aux plaquettes (rendement faible répété → recherche d'anticorps anti-HLA, plaquettes HLA-compatibles) [S5].
+- **RAI de contrôle** quelques semaines à quelques mois après une transfusion (dépistage d'une allo-immunisation) `[À VÉRIFIER — délai selon la réglementation]`.
+
+### 9.3 En cas d'accident transfusionnel
+
+| Examen | Objectif |
+|---|---|
+| Vérification de l'identité, de la concordance et du contrôle ultime ; recontrôle du groupe ABO du patient et de la poche | Rechercher une **incompatibilité ABO** (erreur d'identification) |
+| **Test direct à l'antiglobuline** (Coombs direct), RAI, élution | Hémolyse immunologique |
+| Bilan d'hémolyse : hémoglobine, LDH, haptoglobine, bilirubine libre, hémoglobinémie, hémoglobinurie | Hémolyse intravasculaire |
+| Bilan d'hémostase (CIVD) ; créatinine, kaliémie | Complications de l'hémolyse aiguë |
+| **Hémocultures du patient** et **culture de la poche** (conservée et renvoyée à la structure de transfusion) | Contamination bactérienne |
+| Radiographie thoracique, gaz du sang, **BNP/NT-proBNP**, échocardiographie | TRALI vs TACO [S7, S8] |
+| Tryptase (allergie grave), dosage des IgA et anticorps anti-IgA | Anaphylaxie |
+| Recherche d'anticorps anti-HLA/HNA chez le(s) donneur(s) | Enquête TRALI (par la structure de transfusion) |
+
+---
+
+## 10. Situations particulières
+
+### 10.1 Urgence vitale
+
+- **Urgence vitale immédiate** : délivrance sans délai de CGR **O** (RhD négatif, Kell négatif de préférence chez la fille et la femme en âge de procréer) et de plasma **AB**, avant les résultats du groupage ; prélever les tubes de groupage **avant** la transfusion si possible ; passage aux produits isogroupes dès que le groupe est connu.
+- **Urgence vitale** : produits isogroupes après une détermination de groupe, sans attendre la RAI ; **urgence relative** : bilan complet.
+
+### 10.2 Transfusion massive (hémorragie traumatique, obstétricale, digestive)
+
+- Définition opérationnelle variable (ex. remplacement d'une masse sanguine en 24 h ou de la moitié en 3 h) `[À VÉRIFIER — définition retenue localement]`.
+- Principes du guide européen 2023 de l'hémorragie traumatique [S13] :
+  - contrôle chirurgical ou endovasculaire rapide du saignement ; prévention de la « triade létale » (hypothermie, acidose, coagulopathie) ;
+  - **acide tranexamique** le plus tôt possible et **dans les 3 heures** après le traumatisme (CRASH-2 : 1 g en 10 minutes puis 1 g en 8 heures) [S14, S13] ;
+  - apport précoce de **plasma** (rapport plasma/CGR élevé, au moins 1:2) ou de **fibrinogène** selon la stratégie, puis guidage par la biologie (fibrinogène, plaquettes, viscoélastométrie) [S13] `[À VÉRIFIER — valeurs cibles exactes]` ;
+  - surveillance et correction de la **calcémie ionisée** (citrate), de la kaliémie, de la température.
+- Hémorragie obstétricale : voir DOS-OBST-0002.
+
+### 10.3 Femme en âge de procréer, grossesse
+
+- CGR **RhD compatibles** et **Kell négatifs**, phénotypés RH-KEL, pour prévenir les allo-immunisations fœto-maternelles.
+- Immunoglobulines anti-D après exposition à des hématies RhD positives (plaquettes RhD+, accouchement d'un enfant RhD+, etc.) chez la femme RhD négative non immunisée [S5].
+
+### 10.4 Nouveau-né et enfant
+
+- Seuils spécifiques (AABB 2023 : seuil restrictif de 7 g/dL chez l'enfant en réanimation, stable, sans hémoglobinopathie, cardiopathie cyanogène ni hypoxémie sévère ; seuils selon le type de réparation dans les cardiopathies congénitales) [S1] ; produits adaptés (réduits en volume, irradiés pour l'exsanguino-transfusion et la transfusion intra-utérine selon les procédures).
+- Plaquettes chez le nouveau-né : seuil de 25 G/L dans les thrombopénies de consommation sans hémorragie majeure (AABB/ICTMG 2025) [S2].
+
+### 10.5 Hémoglobinopathies (drépanocytose, thalassémies)
+
+- Transfusions itératives → **CGR phénotypés (phénotype étendu)**, surveillance de l'allo-immunisation, **chélation du fer** (déférasirox, défériprone, déféroxamine, inscrits sur la liste OMS) [S12] ; risque d'**hémolyse retardée post-transfusionnelle** grave chez le drépanocytaire (avec parfois chute de l'hémoglobine sous le niveau prétransfusionnel — « hyperhémolyse »).
+
+### 10.6 Cardiopathie, sujet âgé
+
+- **Risque de TACO** : transfuser lentement, une unité à la fois, avec réévaluation clinique entre chaque CGR, diurétique à discuter selon le terrain [S8] `[À VÉRIFIER]`.
+- Infarctus du myocarde avec anémie : l'essai MINT (2023) n'a pas montré de réduction significative du critère composite décès ou récidive d'infarctus à 30 jours avec un seuil libéral (< 10 g/dL) versus restrictif (7–8 g/dL), mais les auteurs concluent qu'un **effet délétère de la stratégie restrictive ne peut être exclu** [S10].
+
+### 10.7 Refus de transfusion
+
+- Patients refusant la transfusion pour des convictions personnelles ou religieuses : respect du consentement éclairé dans le cadre légal, anticipation (stratégies d'épargne sanguine, fer IV, érythropoïétine, acide tranexamique, récupération peropératoire selon l'acceptation) [S9].
+
+---
+
+## 11. Diagnostics différentiels des réactions survenant pendant ou après une transfusion
+
+| Signe dominant | Diagnostics à évoquer | Éléments distinctifs |
+|---|---|---|
+| **Fièvre ± frissons** | Réaction fébrile non hémolytique ; **hémolyse aiguë** ; **contamination bactérienne** ; TRALI (fièvre possible) | Fièvre isolée modérée et bon état → RFNH (diagnostic d'élimination) ; hypotension, choc, douleurs lombaires, hémoglobinurie → hémolyse ; frissons intenses, choc, poche de plaquettes → contamination |
+| **Dyspnée, hypoxémie** | **TRALI**, **TACO**, réaction allergique (bronchospasme), embolie, aggravation de la maladie sous-jacente | Voir tableau TRALI/TACO ci-dessous |
+| **Urticaire, prurit** | Réaction allergique mineure | Sans signes systémiques |
+| **Hypotension** | Anaphylaxie, hémolyse aiguë, contamination bactérienne, TRALI, hypotension aux inhibiteurs de l'enzyme de conversion (bradykinine) | Contexte, signes associés |
+| **Ictère, anémie inexpliquée J5–J15** | **Hémolyse retardée** | Coombs direct positif, nouvelle RAI positive |
+| **Purpura J5–J10** | **Purpura post-transfusionnel** (anti-HPA-1a) | Thrombopénie profonde, femme multipare |
+
+### TRALI ou TACO ?
+
+| Critère | **TRALI** [S7] | **TACO** [S8] |
+|---|---|---|
+| Délai | Pendant ou dans les **6 heures** suivant la transfusion | Pendant ou dans les **12 heures** (définition ISBT révisée) |
+| Mécanisme | Œdème **lésionnel** (anticorps anti-HLA/HNA du donneur, « deux coups ») | Œdème **hydrostatique** (surcharge volémique) |
+| Terrain | Tous, surtout patients de réanimation, chirurgie | Sujet âgé, insuffisance cardiaque ou rénale, bilan entrée-sortie positif, transfusion rapide |
+| Pression artérielle | **Hypotension** fréquente | **Hypertension** fréquente |
+| Fièvre | Possible | Rare |
+| Pression veineuse, signes d'insuffisance cardiaque | Absents | Turgescence jugulaire, galop, œdèmes |
+| BNP/NT-proBNP | Normal ou peu élevé | **Élevé** |
+| Réponse aux diurétiques | Nulle | **Amélioration** |
+| Échocardiographie | Fonction cardiaque normale, pressions de remplissage basses | Pressions de remplissage élevées |
+| Pronostic | Grave, mortalité notable, guérison souvent en 48–96 h | Bon si traité ; mortalité chez les fragiles |
+
+---
+
+## 12. Accidents transfusionnels (complications)
+
+### 12.1 Classification
+
+| | Immédiats (< 24 h) | Retardés |
+|---|---|---|
+| **Immunologiques** | Hémolyse aiguë (ABO +++), réaction fébrile non hémolytique, allergie/anaphylaxie, **TRALI** | Hémolyse retardée, **allo-immunisation** (érythrocytaire, HLA, plaquettaire), purpura post-transfusionnel, **GVH transfusionnelle**, état réfractaire aux plaquettes |
+| **Non immunologiques** | **TACO**, **contamination bactérienne**, complications métaboliques de la transfusion massive (hypocalcémie, hyperkaliémie, hypothermie), embolie gazeuse | **Infections transmissibles** (VIH, VHB, VHC, HTLV, paludisme…), **surcharge en fer** |
+
+### 12.2 Hémolyse aiguë par incompatibilité ABO
+
+- **Cause** : presque toujours une **erreur d'identification** (prélèvement, étiquetage, délivrance, pose au mauvais patient).
+- **Clinique** : dès les premiers millilitres : malaise, angoisse, douleurs lombaires ou thoraciques, sensation de chaleur, frissons, fièvre, hypotension, choc, saignements (CIVD), urines rouge foncé (hémoglobinurie) ; sous anesthésie générale, seuls l'hypotension et un saignement diffus peuvent alerter.
+- **Complications** : choc, CIVD, insuffisance rénale aiguë, décès.
+- **Conduite** : arrêt immédiat de la transfusion, maintien de la voie veineuse, réanimation (remplissage, diurèse), alerte de la structure de transfusion et de l'hémovigilance, bilan (§ 9.3), recherche d'une **seconde erreur** (un autre patient peut avoir reçu la poche destinée au premier).
+
+### 12.3 Réaction fébrile non hémolytique (RFNH)
+
+- Fièvre (≥ 38 °C et augmentation ≥ 1 °C), frissons, sans autre signe ; diagnostic **d'élimination** (exclure hémolyse et contamination) ; fréquence diminuée par la déleucocytation ; traitement symptomatique (paracétamol).
+
+### 12.4 Réactions allergiques
+
+- **Mineures** (urticaire, prurit) : interruption, antihistaminique, reprise prudente possible si les signes régressent rapidement et isolément `[À VÉRIFIER — procédure locale]`.
+- **Anaphylaxie** : arrêt définitif, **adrénaline**, remplissage, oxygène ; bilan (tryptase, déficit en IgA) ; produits déplasmatisés pour les transfusions futures si indiqué.
+
+### 12.5 TRALI
+
+- Définition consensuelle 2019 : SDRA d'apparition aiguë dans les 6 heures suivant une transfusion, sans facteur de risque de SDRA (TRALI type I) ou avec un facteur de risque mais une dégradation respiratoire attribuable à la transfusion (TRALI type II) [S7].
+- **Traitement** : arrêt, oxygénothérapie, ventilation si besoin, soutien hémodynamique ; **pas de diurétique** ; déclaration (enquête donneurs : exclusion des donneurs porteurs d'anticorps impliqués).
+- **Prévention** : plasma et plaquettes de donneurs masculins ou de donneuses sans anticorps anti-HLA (stratégies de réduction du risque) `[À VÉRIFIER]`.
+
+### 12.6 TACO
+
+- Définition ISBT révisée (2018, validée en 2019) : apparition ou aggravation, dans les 12 heures suivant la transfusion, d'au moins un signe respiratoire (détresse respiratoire aiguë ou œdème pulmonaire) et d'éléments cardiovasculaires, de bilan hydrique ou de biomarqueurs (BNP) en faveur d'une surcharge [S8].
+- **Traitement** : arrêt ou ralentissement, position assise, oxygène, **diurétique** ; **prévention** : évaluation du risque, débit lent, une unité à la fois, réévaluation, diurétique préventif discuté chez les patients à risque.
+
+### 12.7 Contamination bactérienne
+
+- Plus fréquente avec les **plaquettes** (conservation à température ambiante) ; tableau de choc septique brutal pendant ou peu après la transfusion (frissons, fièvre élevée, hypotension, troubles digestifs).
+- **Conduite** : arrêt, hémocultures du patient, **culture de la poche**, antibiothérapie probabiliste à large spectre (voir DOS-PHAR-0001), réanimation ; alerte pour bloquer les produits issus du même don.
+
+### 12.8 Hémolyse retardée et allo-immunisation
+
+- Hémolyse extravasculaire 5 à 15 jours après la transfusion (fièvre, ictère, anémie inexpliquée), Coombs direct positif, nouvel anticorps (anti-Kidd, anti-RH, anti-Kell…) ; souvent bénigne mais grave chez le drépanocytaire.
+- **Allo-immunisation** : complique les transfusions ultérieures et les grossesses (maladie hémolytique du nouveau-né) → phénotypage, RAI de contrôle, carte de groupe mentionnant les anticorps.
+
+### 12.9 GVH transfusionnelle
+
+- 1 à 2 semaines après la transfusion : fièvre, éruption, diarrhée, hépatite, **pancytopénie** (atteinte médullaire) ; mortalité très élevée ; **prévention** par irradiation des PSL dans les indications retenues (immunodépressions cellulaires profondes, dons intrafamiliaux, HLA-compatibles) [S17].
+
+### 12.10 Infections transmissibles
+
+- Risque résiduel lié à la **fenêtre silencieuse** et aux agents non dépistés ; réduit par la sélection des donneurs (entretien médical obligatoire en Algérie [S11]), le dépistage des dons (au minimum VIH, VHB, VHC, syphilis selon les standards internationaux `[À VÉRIFIER — liste réglementaire algérienne]`), le dépistage génomique viral lorsqu'il est disponible, la déleucocytation et la réduction des pathogènes ; le **paludisme** transfusionnel est à considérer pour les donneurs exposés en zone d'endémie (sud du pays, voyageurs) `[À VÉRIFIER]`.
+
+### 12.11 Surcharge en fer
+
+- Après de nombreuses transfusions (thalassémie, myélodysplasie, drépanocytose sous programme) : atteinte hépatique, cardiaque, endocrinienne ; surveillance de la ferritine et de l'IRM (T2*) ; chélation [S12].
+
