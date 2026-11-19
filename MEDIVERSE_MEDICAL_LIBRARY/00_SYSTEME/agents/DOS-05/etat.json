@@ -1,20 +1,65 @@
 {
   "id": "DOS-05",
-  "statut": "en_cours",
+  "statut": "termine_a_auditer",
   "derniere_execution": "2026-11-19",
   "taches_terminees": [
     "lecture_contexte",
-    "recherche_calendrier_vaccinal_algerie"
-  ],
-  "taches_suivantes": [
+    "recherche_calendrier_vaccinal_algerie",
     "DOS-PEDI-0001",
     "DOS-PEDI-0002",
     "DOS-PEDI-0003",
     "DOS-NEON-0001",
     "DOS-NEON-0002",
+    "maj_DOS-PEDI-0002_textes_JORADP_DOC-00070_00071_00076_00072_00074",
     "lot_QCM",
-    "lot_CAS"
+    "lot_CAS",
+    "journal_global"
   ],
-  "objectifs": {},
-  "compteurs": {}
+  "taches_suivantes": [
+    "audit AUD-01/AUD-02/AUD-03/AUD-04 des 5 dossiers et des lots",
+    "vérifier les références internationales (budget web épuisé en session)",
+    "confronter les seuils d'ictère aux courbes AAP 2022/NICE",
+    "vérifier les posologies néonatales et MAS",
+    "éclaircir le VPO de naissance (guide pratique 2023) et l'arrêté modificatif intermédiaire de 2018"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas_cliniques": 10
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas_cliniques": 10,
+    "mots_reels": {
+      "DOS-PEDI-0001": 9723,
+      "DOS-PEDI-0002": 9260,
+      "DOS-PEDI-0003": 7740,
+      "DOS-NEON-0001": 7240,
+      "DOS-NEON-0002": 7065
+    },
+    "plages_ids": {
+      "QCM": [
+        "QCM-PEDI-0001..0036",
+        "QCM-NEON-0001..0024"
+      ],
+      "CAS": [
+        "CAS-PEDI-0001..0006",
+        "CAS-NEON-0001..0004"
+      ],
+      "DOS": [
+        "DOS-PEDI-0001..0003",
+        "DOS-NEON-0001..0002"
+      ]
+    }
+  },
+  "fichiers": [
+    "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0001__DESHYDRATATIONS_AIGUES_DU_NOURRISSON.md",
+    "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0002__VACCINATIONS_BASES_IMMUNOLOGIQUES_CONTRE_INDICATIONS_PEV.md",
+    "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0003__MALNUTRITION_PROTEINO_CALORIQUE.md",
+    "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0001__ICTERE_NEONATAL.md",
+    "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0002__INFECTIONS_NEONATALES.md",
+    "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05.json",
+    "20_CAS_CLINIQUES/lots/DOS-05.json"
+  ]
 }

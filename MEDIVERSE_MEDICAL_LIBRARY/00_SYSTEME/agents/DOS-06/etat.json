@@ -1,9 +1,23 @@
 {
   "id": "DOS-06",
-  "statut": "en_cours",
+  "statut": "termine_a_auditer",
   "derniere_execution": "2026-11-19",
-  "taches_terminees": ["verification_references", "DOS-NEUR-0001_brouillon"],
-  "taches_suivantes": ["DOS-MINT_REA-0001", "DOS-MINT_REA-0002", "DOS-URGE-0001", "DOS-URGE-0002", "lots_QCM_cas", "ecriture_finale"],
+  "taches_terminees": [
+    "verification_references",
+    "DOS-NEUR-0001",
+    "DOS-MINT_REA-0001",
+    "DOS-MINT_REA-0002",
+    "DOS-URGE-0001",
+    "DOS-URGE-0002",
+    "lot_QCM_DOS-06",
+    "lot_cas_DOS-06"
+  ],
+  "taches_suivantes": [
+    "audit_medical_des_5_dossiers (statut brouillon_a_auditer)",
+    "verifier_references_non_confirmees (OMS rage 2018, OMS serpents, Teasdale 1974, Eddleston 2008, IDSA 2014, Abroug 1999, essais AVC)",
+    "acquerir_guide_national_envenimation_scorpionique (MSPRH 2003 + mise a jour) et protocole national rage",
+    "lever_les_marqueurs_POSOLOGIE_A_VERIFIER"
+  ],
   "objectifs": {"dossiers": 5, "qcm": 60, "cas": 10},
-  "compteurs": {"dossiers": 1, "qcm": 12, "cas": 2}
+  "compteurs": {"dossiers": 5, "qcm": 60, "cas": 10, "mots": {"DOS-NEUR-0001": 10166, "DOS-MINT_REA-0001": 9387, "DOS-MINT_REA-0002": 8594, "DOS-URGE-0001": 8671, "DOS-URGE-0002": 8770}, "sources_verifiees": 44, "sources_non_verifiees": 29}
 }

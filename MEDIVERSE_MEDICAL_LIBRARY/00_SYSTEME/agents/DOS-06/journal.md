@@ -15,3 +15,17 @@ Mission : Dossiers pédagogiques originaux approfondis — Neurologie-réanimati
 - 2026-11-19 — DOS-MINT_REA-0001 (états de choc) rédigé en 4 passes + 12 QCM + 2 cas (9 387 mots).
 - 2026-11-19 — DOS-MINT_REA-0002 (comas) rédigé en 4 passes + 12 QCM + 2 cas.
 - 2026-11-19 — DOS-URGE-0001 (intoxications aiguës) rédigé en 4 passes + 12 QCM + 2 cas.
+- 2026-11-19 — DOS-URGE-0002 (morsures et envenimations) rédigé en 4 passes + 12 QCM + 2 cas.
+- 2026-11-19 — Correction de métadonnées non confirmées (année de l'étude CO de Sétif → null ; année du rapport INSP scorpion → année des données ; URL AJHS retirée).
+- 2026-11-19 — Écriture finale (journalisée dans operations.jsonl) :
+  - 12_NEUROLOGIE/21_NEUR_NEUROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEUR-0001__ACCIDENTS_VASCULAIRES_CEREBRAUX.md (10 166 mots ; sources 10/15 vérifiées)
+  - 13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md (9 387 mots ; 12/15)
+  - 13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0002__COMAS.md (8 594 mots ; 8/13)
+  - 13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0001__CONDUITE_A_TENIR_DEVANT_UNE_INTOXICATION_AIGUE.md (8 671 mots ; 7/13)
+  - 13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0002__MORSURES_ET_ENVENIMATIONS.md (8 770 mots ; 7/17)
+  - 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-06.json (60 QCM : QCM-NEUR-0001..0012, QCM-MINT_REA-0001..0024, QCM-URGE-0001..0024 ; origine originale_mediverse)
+  - 20_CAS_CLINIQUES/lots/DOS-06.json (10 cas : CAS-NEUR-0001..0002, CAS-MINT_REA-0001..0004, CAS-URGE-0001..0004)
+  - Validation python3 : JSON valides, clés conformes aux schémas, cohérence explications « Vrai » / réponses correctes, YAML des dossiers valide, sections 1–22 présentes, toutes les [S#] citées déclarées.
+- Points à auditer : posologies marquées [POSOLOGIE À VÉRIFIER] (SAS, antivenins, schémas NAC 3 poches, atropine/pralidoxime, glucagon, insuline forte dose, thiamine, osmothérapie, adrénaline IV) ; seuils ASPECTS AHA 2026 (source secondaire) ; texte intégral du guide algérien scorpion (non consulté) ; protocole national rage ; sources OMS rage/serpents non vérifiées ; coordonnées CNT.
+- Non fait (hors périmètre) : aucune modification de programme_residanat.json (champs dossiers/qcm laissés à indexer.py) ; aucune commande git.
+- 2026-11-19 — Écart de consigne : un « git status » (lecture seule, sans modification) a été exécuté par inadvertance pour lister les fichiers modifiés ; aucune autre commande git.

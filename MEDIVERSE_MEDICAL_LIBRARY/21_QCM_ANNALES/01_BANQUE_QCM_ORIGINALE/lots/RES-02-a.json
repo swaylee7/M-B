@@ -1040,6 +1040,1039 @@
       "statut": "brouillon_a_auditer",
       "auteur": "RES-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le cycle cardiaque du ventricule gauche chez l'adulte au repos, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Pendant la contraction isovolumique, la valve mitrale et la valve aortique sont toutes deux fermées.",
+        "B": "Le premier bruit du cœur (B1) correspond à la fermeture des valves sigmoïdes aortique et pulmonaire.",
+        "C": "La valve aortique s'ouvre lorsque la pression ventriculaire gauche dépasse la pression aortique.",
+        "D": "Au repos, la contraction auriculaire assure la majeure partie du remplissage ventriculaire.",
+        "E": "Le volume télédiastolique du ventricule gauche de l'adulte est d'environ 500 mL."
+      },
+      "reponses_correctes": [
+        "A",
+        "C"
+      ],
+      "explication_generale": "Le cycle cardiaque comprend la systole (contraction isovolumique puis éjection) et la diastole (relaxation isovolumique, remplissage rapide, diastasis, systole auriculaire). Les valves s'ouvrent et se ferment passivement selon les gradients de pression. B1 marque la fermeture des valves atrio-ventriculaires, B2 celle des valves sigmoïdes. Chez l'adulte au repos : volume télédiastolique ≈ 120 mL, volume télésystolique ≈ 50 mL, volume d'éjection ≈ 70 mL, fraction d'éjection ≈ 60 % (normale ≥ 50 %).",
+      "explications_par_proposition": {
+        "A": "Vrai : La mitrale vient de se fermer et la pression ventriculaire n'a pas encore dépassé la pression aortique : le volume reste constant.",
+        "B": "Faux : B1 correspond à la fermeture des valves atrio-ventriculaires (mitrale et tricuspide) au début de la systole ; B2 à celle des valves sigmoïdes.",
+        "C": "Vrai : La phase d'éjection débute alors ; la pression aortique est à ce moment voisine de la pression diastolique (≈ 80 mmHg).",
+        "D": "Faux : L'essentiel du remplissage (≈ 70 à 80 %) est passif, en début de diastole ; la systole auriculaire en apporte environ 20 % (davantage en cas de tachycardie ou de ventricule rigide).",
+        "E": "Faux : Il est d'environ 120 mL ; avec un volume télésystolique d'environ 50 mL, le volume d'éjection systolique est d'environ 70 mL."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-006"
+      ],
+      "theme": "Cycle cardiaque : phases et bruits du cœur",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Inverser B1 et B2, ou surestimer le rôle de la systole auriculaire dans le remplissage de repos.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Costanzo LS. Physiology. 6e éd. Elsevier ; 2018 [catalogue OUV-0174].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les déterminants du débit cardiaque, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le débit cardiaque est le produit de la fréquence cardiaque par le volume d'éjection systolique.",
+        "B": "Selon la loi de Frank-Starling, l'augmentation du volume télédiastolique augmente la force de contraction ventriculaire.",
+        "C": "À contractilité constante, une augmentation de la postcharge tend à réduire le volume d'éjection systolique.",
+        "D": "La stimulation sympathique β1 diminue la contractilité myocardique.",
+        "E": "L'index cardiaque rapporte le débit cardiaque à la surface corporelle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le débit cardiaque (Qc = FC × VES ≈ 5 L/min au repos) dépend de la fréquence et de trois déterminants du volume d'éjection : la précharge (volume télédiastolique, loi de Frank-Starling), la postcharge (charge s'opposant à l'éjection, liée surtout à la pression aortique et aux résistances) et la contractilité (inotropisme, augmentée par le sympathique et les catécholamines). Selon le principe de Fick, Qc = VO2 / (CaO2 - CvO2). L'index cardiaque permet de comparer des sujets de corpulence différente.",
+      "explications_par_proposition": {
+        "A": "Vrai : Au repos chez l'adulte : ≈ 70 battements/min × 70 mL ≈ 5 L/min.",
+        "B": "Vrai : L'étirement des sarcomères optimise le chevauchement actine-myosine et la sensibilité des myofilaments au calcium, dans les limites physiologiques.",
+        "C": "Vrai : Le ventricule doit vaincre une pression d'éjection plus élevée ; le volume télésystolique augmente.",
+        "D": "Faux : Elle augmente la contractilité (effet inotrope positif) et la fréquence cardiaque (effet chronotrope positif) via l'AMPc et l'augmentation du calcium intracellulaire.",
+        "E": "Vrai : Valeur normale de repos : environ 2,5 à 4 L/min/m²."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-006"
+      ],
+      "theme": "Débit cardiaque : précharge, postcharge, contractilité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre précharge (remplissage) et postcharge (résistance à l'éjection).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Koeppen BM, Stanton BA. Berne & Levy Physiology. 7e éd. Elsevier ; 2018 [catalogue OUV-0173].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la boucle pression-volume du ventricule gauche, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'aire de la boucle représente le travail externe (travail systolique) du ventricule au cours d'un cycle.",
+        "B": "La largeur de la boucle correspond au volume d'éjection systolique.",
+        "C": "Une augmentation isolée de la contractilité déplace le point télésystolique vers la droite.",
+        "D": "Les deux segments verticaux de la boucle correspondent aux phases isovolumiques.",
+        "E": "Une augmentation de la précharge déplace le bord droit de la boucle vers la gauche."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Dans le plan pression-volume, le cycle ventriculaire décrit une boucle parcourue dans le sens antihoraire : remplissage (bord inférieur), contraction isovolumique (bord droit), éjection (bord supérieur), relaxation isovolumique (bord gauche). Le point télésystolique se situe sur la relation pression-volume télésystolique, dont la pente (élastance) reflète la contractilité. Précharge, postcharge et contractilité modifient la boucle de façon caractéristique ; son aire mesure le travail systolique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le travail pression-volume correspond à l'intégrale de P dV sur un cycle.",
+        "B": "Vrai : C'est la différence entre volume télédiastolique et volume télésystolique.",
+        "C": "Faux : Elle augmente la pente de la relation pression-volume télésystolique et déplace le point télésystolique vers la gauche (volume télésystolique plus petit), d'où un volume d'éjection plus grand.",
+        "D": "Vrai : Contraction isovolumique (segment ascendant, à droite) et relaxation isovolumique (segment descendant, à gauche).",
+        "E": "Faux : Une augmentation du volume télédiastolique déplace le bord droit vers la droite et augmente le volume d'éjection (mécanisme de Frank-Starling)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-006"
+      ],
+      "theme": "Boucle pression-volume du ventricule gauche",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Confondre l'effet d'une hausse de précharge (élargissement vers la droite) et celui d'une hausse de contractilité (point télésystolique déplacé vers la gauche).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Costanzo LS. Physiology. 6e éd. Elsevier ; 2018 [catalogue OUV-0174].",
+          "date": "2018"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5006",
+      "format": "QCS (réponse unique)",
+      "enonce": "Parmi les valeurs suivantes, laquelle correspond à une pression normale chez l'adulte au repos ?",
+      "propositions": {
+        "A": "Pression systolique du ventricule droit : 120 mmHg.",
+        "B": "Pression moyenne de l'oreillette droite comprise entre 0 et 8 mmHg.",
+        "C": "Pression télédiastolique du ventricule gauche : 40 mmHg.",
+        "D": "Pression artérielle pulmonaire moyenne : 35 mmHg.",
+        "E": "Pression artérielle pulmonaire d'occlusion (capillaire bloquée) : 30 mmHg."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La petite circulation est un système à basse pression : ventricule droit ≈ 25/0-5 mmHg, artère pulmonaire ≈ 25/10 mmHg (moyenne ≈ 14 mmHg), pression artérielle pulmonaire d'occlusion ≈ 6-12 mmHg, reflet de la pression auriculaire gauche. La grande circulation est à haute pression : ventricule gauche ≈ 120/≤ 12 mmHg, aorte ≈ 120/80 mmHg. La pression de l'oreillette droite, proche de la pression veineuse centrale, est basse. Ces valeurs, mesurées par cathétérisme, permettent de distinguer les hypertensions pulmonaires pré- et post-capillaires.",
+      "explications_par_proposition": {
+        "A": "Faux : La pression systolique du ventricule droit est d'environ 25 mmHg : la circulation pulmonaire est un système à basse pression.",
+        "B": "Vrai : Elle est proche de la pression veineuse centrale, basse chez le sujet normal.",
+        "C": "Faux : Elle est normalement d'environ 12 mmHg au plus ; 40 mmHg traduirait une élévation majeure des pressions de remplissage.",
+        "D": "Faux : La pression artérielle pulmonaire moyenne normale est d'environ 14 ± 3 mmHg ; le seuil actuellement retenu pour l'hypertension pulmonaire est > 20 mmHg.",
+        "E": "Faux : Elle est normalement d'environ 6 à 12 mmHg ; une valeur > 15 mmHg oriente vers une hypertension pulmonaire post-capillaire."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-006"
+      ],
+      "theme": "Pressions intracardiaques normales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Transposer au cœur droit les pressions du cœur gauche.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Humbert M, Kovacs G, Hoeper MM et al. 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. Eur Heart J 2022;43(38):3618-3731.",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les déterminants de la pression artérielle (PA), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La pression artérielle moyenne est approximativement le produit du débit cardiaque par les résistances vasculaires systémiques.",
+        "B": "La pression artérielle moyenne peut être estimée par PAD + (PAS - PAD)/3.",
+        "C": "Les résistances vasculaires systémiques siègent principalement au niveau des grosses artères élastiques.",
+        "D": "La pression pulsée (différentielle) augmente lorsque la compliance artérielle diminue.",
+        "E": "La pression artérielle diastolique dépend surtout du volume d'éjection systolique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La PA résulte de l'interaction entre débit cardiaque et résistances vasculaires (PAM = Qc × RVS), modulée par la compliance artérielle. La PAS dépend principalement du volume d'éjection et de la rigidité des grosses artères ; la PAD dépend des résistances artériolaires, de la compliance et de la durée diastolique. La pression pulsée (PAS - PAD) augmente avec la rigidité artérielle, d'où l'HTA systolique isolée du sujet âgé. La PAM, pression de perfusion des organes, s'estime par PAD + 1/3 (PAS - PAD).",
+      "explications_par_proposition": {
+        "A": "Vrai : PAM ≈ Qc × RVS (en négligeant la pression auriculaire droite) : analogue hémodynamique de la loi d'Ohm.",
+        "B": "Vrai : La diastole étant plus longue que la systole à fréquence normale, la PAM est plus proche de la PAD : pour 120/80 mmHg, PAM ≈ 93 mmHg.",
+        "C": "Faux : Elles siègent principalement au niveau des artérioles (vaisseaux résistifs), dont le tonus est finement régulé.",
+        "D": "Vrai : La rigidité artérielle (vieillissement) élève la PAS et tend à abaisser la PAD, d'où une pression pulsée élevée.",
+        "E": "Faux : La PAD dépend surtout des résistances périphériques, de la durée de la diastole et de la compliance ; la PAS dépend davantage du volume d'éjection et de la rigidité aortique."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-008"
+      ],
+      "theme": "Déterminants de la pression artérielle",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Situer les résistances périphériques dans les grosses artères au lieu des artérioles.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Costanzo LS. Physiology. 6e éd. Elsevier ; 2018 [catalogue OUV-0174].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le baroréflexe artériel, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les barorécepteurs artériels sont situés principalement dans la paroi du sinus carotidien et de la crosse aortique.",
+        "B": "Les afférences sinocarotidiennes cheminent dans le nerf glossopharyngien (IX) et les afférences aortiques dans le nerf vague (X).",
+        "C": "Une élévation de la PA diminue la fréquence de décharge des barorécepteurs.",
+        "D": "Le baroréflexe est le principal mécanisme de contrôle de la PA à long terme.",
+        "E": "Le passage brutal en orthostatisme active une réponse baroréflexe qui augmente la fréquence cardiaque et les résistances vasculaires."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Le baroréflexe est une boucle de régulation rapide : barorécepteurs carotidiens (IX) et aortiques (X), intégration bulbaire (noyau du tractus solitaire), effecteurs autonomes (cœur et vaisseaux). Toute hausse de PA augmente la décharge des barorécepteurs, provoquant bradycardie (vague) et vasodilatation (inhibition sympathique) ; toute baisse produit l'inverse. Il tamponne les variations de PA, notamment lors des changements de posture, mais se réinitialise lors d'une HTA chronique. La régulation à long terme dépend du rein (natriurèse de pression, SRAA).",
+      "explications_par_proposition": {
+        "A": "Vrai : Ce sont des mécanorécepteurs sensibles à l'étirement de la paroi.",
+        "B": "Vrai : Elles se projettent sur le noyau du tractus solitaire, dans le bulbe.",
+        "C": "Faux : Une élévation de PA étire la paroi et augmente la fréquence de décharge, ce qui inhibe le sympathique et active le parasympathique.",
+        "D": "Faux : Il régule la PA à court terme (secondes à minutes) et se réinitialise (resetting) en cas d'HTA prolongée ; le contrôle à long terme repose surtout sur le rein (natriurèse de pression, système rénine-angiotensine-aldostérone).",
+        "E": "Vrai : La baisse du retour veineux et de la PA diminue la décharge des barorécepteurs : levée de l'inhibition sympathique, tachycardie et vasoconstriction."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-008"
+      ],
+      "theme": "Baroréflexe artériel",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le baroréflexe règle la PA à long terme.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le système rénine-angiotensine-aldostérone (SRAA) dans la régulation de la PA, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La rénine est sécrétée par les cellules juxtaglomérulaires de l'artériole afférente.",
+        "B": "Une baisse de la pression de perfusion rénale stimule la sécrétion de rénine.",
+        "C": "La rénine transforme directement l'angiotensine I en angiotensine II.",
+        "D": "L'angiotensine II stimule la sécrétion d'aldostérone par la zone glomérulée de la corticosurrénale.",
+        "E": "L'angiotensine II est un puissant vasoconstricteur artériolaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le SRAA régule la volémie et la PA à moyen et long terme. La rénine (appareil juxtaglomérulaire) est libérée en réponse à une hypoperfusion rénale, à une baisse du NaCl à la macula densa ou à une stimulation sympathique. Elle clive l'angiotensinogène en angiotensine I, convertie par l'enzyme de conversion en angiotensine II. Celle-ci entraîne vasoconstriction, sécrétion d'aldostérone (rétention sodée), soif et libération d'ADH. Ce système est la cible des IEC, des antagonistes des récepteurs de l'angiotensine II et des antagonistes de l'aldostérone.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ce sont des cellules musculaires lisses modifiées (myoépithélioïdes) de l'appareil juxtaglomérulaire.",
+        "B": "Vrai : Autres stimuli : baisse du NaCl délivré à la macula densa et stimulation sympathique β1.",
+        "C": "Faux : La rénine clive l'angiotensinogène (d'origine hépatique) en angiotensine I ; l'enzyme de conversion (surtout endothéliale, abondante dans le poumon) transforme l'angiotensine I en angiotensine II.",
+        "D": "Vrai : L'aldostérone augmente la réabsorption de Na+ et la sécrétion de K+ dans le néphron distal (tubule collecteur).",
+        "E": "Vrai : Elle agit via les récepteurs AT1 ; elle stimule aussi la soif, la sécrétion d'ADH et le tonus sympathique."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-008"
+      ],
+      "theme": "Système rénine-angiotensine-aldostérone",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à la rénine la conversion de l'angiotensine I en angiotensine II, qui relève de l'enzyme de conversion.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Costanzo LS. Physiology. 6e éd. Elsevier ; 2018 [catalogue OUV-0174].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5010",
+      "format": "QCS (réponse unique)",
+      "enonce": "Lors de la mesure auscultatoire de la pression artérielle au brassard chez l'adulte, à quel moment la pression artérielle diastolique est-elle classiquement lue ?",
+      "propositions": {
+        "A": "À l'apparition des premiers bruits (phase I de Korotkoff).",
+        "B": "Au moment où les bruits sont les plus intenses.",
+        "C": "À la disparition des bruits (phase V de Korotkoff).",
+        "D": "Lorsque l'aiguille du manomètre commence à osciller, avant l'apparition de tout bruit.",
+        "E": "À la moitié de la pression systolique."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "La méthode auscultatoire repose sur les bruits de Korotkoff, produits par l'écoulement turbulent du sang dans l'artère humérale partiellement comprimée. Lors du dégonflage du brassard, l'apparition des bruits (phase I) correspond à la PAS et leur disparition (phase V) à la PAD. Les appareils automatiques oscillométriques détectent l'amplitude maximale des oscillations (proche de la PAM) et estiment PAS et PAD par algorithme. Un brassard adapté au périmètre du bras est indispensable : un brassard trop petit surestime la PA.",
+      "explications_par_proposition": {
+        "A": "Faux : L'apparition des bruits correspond à la pression artérielle systolique.",
+        "B": "Faux : Ce renforcement ne correspond à aucune pression de référence.",
+        "C": "Vrai : La phase V est la référence chez l'adulte ; l'assourdissement (phase IV) n'est retenu que si les bruits persistent jusqu'à des pressions très basses.",
+        "D": "Faux : Les oscillations sont exploitées par les appareils oscillométriques, qui détectent la pression moyenne et estiment PAS et PAD par algorithme.",
+        "E": "Faux : Aucune relation fixe ne lie PAS et PAD."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-008"
+      ],
+      "theme": "Mesure auscultatoire de la pression artérielle",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retenir la phase IV (assourdissement) comme PAD standard chez l'adulte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'anatomie de l'appareil respiratoire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La bronche souche droite est plus courte, plus large et plus verticale que la gauche.",
+        "B": "Le poumon droit comporte trois lobes et le poumon gauche deux.",
+        "C": "Le diaphragme est innervé par les nerfs intercostaux.",
+        "D": "La trachée se divise en deux bronches souches au niveau de la carène, approximativement en regard de T4–T5.",
+        "E": "Au repos, l'expiration est un phénomène actif faisant intervenir les muscles abdominaux."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'arbre trachéobronchique se divise de façon dichotomique depuis la trachée (bifurcation vers T4–T5) jusqu'aux bronchioles respiratoires et aux alvéoles. La bronche souche droite, plus verticale, est le siège préférentiel des inhalations. Le diaphragme (nerfs phréniques, C3–C5) est le principal muscle inspiratoire ; scalènes et sterno-cléido-mastoïdiens sont des inspirateurs accessoires. L'expiration de repos est passive ; l'expiration forcée recrute muscles abdominaux et intercostaux internes.",
+      "explications_par_proposition": {
+        "A": "Vrai : C'est pourquoi les corps étrangers inhalés s'engagent préférentiellement à droite.",
+        "B": "Vrai : Le lobe supérieur gauche comporte la lingula, homologue du lobe moyen.",
+        "C": "Faux : Il est innervé par les nerfs phréniques, issus principalement de C4, avec une contribution de C3 et C5.",
+        "D": "Vrai : L'angle sternal (de Louis) est le repère superficiel de la bifurcation trachéale.",
+        "E": "Faux : Au repos, l'expiration est passive (rétraction élastique) ; les muscles abdominaux et intercostaux internes n'interviennent qu'à l'effort ou en expiration forcée."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-009"
+      ],
+      "theme": "Anatomie de l'appareil respiratoire et muscles respiratoires",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Retenir une innervation intercostale du diaphragme : elle est phrénique (C3–C5).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Dalley AF, Agur AMR, Moore KL. Moore's Clinically Oriented Anatomy. 9e éd. Wolters Kluwer ; 2023 [catalogue OUV-0155].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la mécanique ventilatoire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Au repos, en fin d'expiration, la pression pleurale est négative (subatmosphérique), de l'ordre de -5 cm H2O.",
+        "B": "La compliance pulmonaire est définie par le rapport ΔV/ΔP.",
+        "C": "Le surfactant augmente la tension superficielle alvéolaire.",
+        "D": "La capacité résiduelle fonctionnelle correspond au volume pour lequel les forces de rétraction pulmonaire et d'expansion thoracique s'équilibrent.",
+        "E": "Un pneumothorax entraîne un collapsus du poumon et une tendance à l'expansion de l'hémithorax correspondant."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La ventilation résulte de variations de la pression pleurale générées par les muscles respiratoires. Le poumon tend à se rétracter (fibres élastiques et tension superficielle), la paroi thoracique à s'expandre : l'équilibre fixe la capacité résiduelle fonctionnelle et une pression pleurale négative d'environ -5 cm H2O. La compliance (ΔV/ΔP) mesure la distensibilité. Le surfactant réduit la tension superficielle, prévient l'atélectasie des petites alvéoles (loi de Laplace) ; son déficit est responsable de la maladie des membranes hyalines du prématuré.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle résulte des forces élastiques opposées du poumon (tendance au collapsus) et de la paroi thoracique (tendance à l'expansion).",
+        "B": "Vrai : Elle est d'environ 200 mL/cm H2O pour les deux poumons ; elle diminue dans la fibrose et augmente dans l'emphysème.",
+        "C": "Faux : Le surfactant (riche en dipalmitoylphosphatidylcholine, sécrété par les pneumocytes de type II) diminue la tension superficielle, ce qui augmente la compliance et stabilise les petites alvéoles.",
+        "D": "Vrai : C'est le volume de relaxation du système respiratoire, atteint en fin d'expiration calme.",
+        "E": "Vrai : L'entrée d'air annule la pression pleurale négative : le poumon se rétracte, la paroi thoracique se distend."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-009"
+      ],
+      "theme": "Mécanique ventilatoire : pression pleurale, compliance, surfactant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le surfactant augmente la tension superficielle ou que la pression pleurale est positive au repos.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les volumes et débits pulmonaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le volume courant de l'adulte au repos est d'environ 500 mL.",
+        "B": "Le volume résiduel peut être mesuré par spirométrie simple.",
+        "C": "La capacité vitale est la somme du volume de réserve inspiratoire, du volume courant et du volume de réserve expiratoire.",
+        "D": "Un rapport VEMS/CVF abaissé définit un trouble ventilatoire obstructif.",
+        "E": "Dans un trouble ventilatoire restrictif pur, le rapport VEMS/CVF est effondré."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La spirométrie mesure les volumes mobilisables (volume courant ≈ 500 mL, volumes de réserve, capacité vitale) et les débits (VEMS). Les volumes non mobilisables (volume résiduel) et les capacités qui l'incluent (capacité résiduelle fonctionnelle, capacité pulmonaire totale) nécessitent pléthysmographie ou dilution gazeuse. Le trouble ventilatoire obstructif est défini par un rapport VEMS/CVF abaissé ; le trouble restrictif par une capacité pulmonaire totale diminuée. Ces notions fondent l'interprétation des explorations fonctionnelles respiratoires.",
+      "explications_par_proposition": {
+        "A": "Vrai : Valeur classique pour un adulte de corpulence moyenne.",
+        "B": "Faux : Le volume résiduel (et donc la capacité résiduelle fonctionnelle et la capacité pulmonaire totale) nécessite une pléthysmographie ou une méthode de dilution de l'hélium ou de rinçage de l'azote.",
+        "C": "Vrai : Elle représente le volume maximal mobilisable.",
+        "D": "Vrai : Le seuil fixe de 0,70 est celui de GOLD ; les recommandations ERS/ATS privilégient la limite inférieure de la normale.",
+        "E": "Faux : VEMS et CVF diminuent parallèlement : le rapport est normal ou augmenté ; le diagnostic de restriction repose sur une capacité pulmonaire totale diminuée."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-009"
+      ],
+      "theme": "Volumes et débits pulmonaires",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Penser que la spirométrie seule mesure la capacité pulmonaire totale ou le volume résiduel.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5013",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un adulte respire avec un volume courant de 500 mL, une fréquence de 12 cycles/min et un espace mort physiologique de 150 mL. Quelle est sa ventilation alvéolaire ?",
+      "propositions": {
+        "A": "6,0 L/min",
+        "B": "4,2 L/min",
+        "C": "1,8 L/min",
+        "D": "7,8 L/min",
+        "E": "350 mL/min"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La ventilation minute (VE = VT × f) comprend une ventilation de l'espace mort (VD × f), qui ne participe pas aux échanges, et la ventilation alvéolaire (VA = (VT - VD) × f), seule efficace. L'espace mort anatomique est d'environ 150 mL chez l'adulte (≈ 2 mL/kg). La PaCO2 est inversement proportionnelle à la ventilation alvéolaire (PaCO2 ∝ VCO2/VA). Une respiration rapide et superficielle augmente la part de l'espace mort et diminue l'efficacité de la ventilation, même à ventilation minute constante.",
+      "explications_par_proposition": {
+        "A": "Faux : C'est la ventilation minute (0,5 L × 12), qui inclut la ventilation de l'espace mort.",
+        "B": "Vrai : VA = (VT - VD) × f = (500 - 150) × 12 = 4 200 mL/min.",
+        "C": "Faux : C'est la ventilation de l'espace mort (150 mL × 12).",
+        "D": "Faux : Addition erronée de la ventilation de l'espace mort à la ventilation minute.",
+        "E": "Faux : Oubli de la multiplication par la fréquence respiratoire."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-009"
+      ],
+      "theme": "Ventilation alvéolaire et espace mort",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Confondre ventilation minute et ventilation alvéolaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10e éd. Wolters Kluwer ; 2016 [catalogue OUV-0177].",
+          "date": "2016"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'histologie de l'hypophyse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'adénohypophyse (pars distalis) est formée de cordons de cellules épithéliales glandulaires entourés de capillaires fenêtrés.",
+        "B": "À la coloration standard, on y distingue des cellules acidophiles, basophiles et chromophobes.",
+        "C": "La neurohypophyse contient les corps cellulaires des neurones sécrétant l'ADH et l'ocytocine.",
+        "D": "Les pituicytes sont des cellules gliales de la neurohypophyse.",
+        "E": "Les cellules somatotropes sont basophiles."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'hypophyse comprend deux parties d'origine embryologique distincte. L'adénohypophyse (pars distalis, intermedia et tuberalis), issue de la poche de Rathke, est une glande endocrine épithéliale : acidophiles (somatotropes, lactotropes), basophiles (corticotropes, thyréotropes, gonadotropes) et chromophobes (cellules peu granulées). La neurohypophyse, issue du diencéphale, est un tissu nerveux contenant les axones des neurones magnocellulaires hypothalamiques, leurs terminaisons dilatées (corps de Herring) et des pituicytes. Le système porte hypothalamo-hypophysaire relie l'éminence médiane à l'adénohypophyse.",
+      "explications_par_proposition": {
+        "A": "Vrai : Organisation typique d'une glande endocrine cordonale.",
+        "B": "Vrai : Les acidophiles sécrètent GH et prolactine ; les basophiles ACTH, TSH, FSH et LH.",
+        "C": "Faux : Les corps cellulaires sont situés dans les noyaux supraoptiques et paraventriculaires de l'hypothalamus ; la neurohypophyse contient leurs axones et terminaisons (corps de Herring).",
+        "D": "Vrai : Ils entourent les axones amyéliniques du faisceau hypothalamo-hypophysaire.",
+        "E": "Faux : Les cellules somatotropes (GH) et lactotropes (prolactine) sont acidophiles."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-010"
+      ],
+      "theme": "Histologie de l'hypophyse",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Placer les corps cellulaires des neurones à ADH dans la posthypophyse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Ross MH, Pawlina W. Histology: A Text and Atlas, with Correlated Cell and Molecular Biology. 8e éd. Wolters Kluwer Health ; 2020 [catalogue OUV-0163].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la régulation de l'antéhypophyse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hormones hypothalamiques hypophysiotropes atteignent l'antéhypophyse par le système porte hypothalamo-hypophysaire.",
+        "B": "La dopamine exerce un contrôle inhibiteur tonique sur la sécrétion de prolactine.",
+        "C": "La TRH inhibe la sécrétion de TSH.",
+        "D": "La somatostatine inhibe la sécrétion de GH.",
+        "E": "La sécrétion de GnRH doit être pulsatile pour stimuler durablement la sécrétion de LH et de FSH."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'antéhypophyse est contrôlée par des neurohormones hypothalamiques transportées par le système porte : stimulantes (CRH, TRH, GnRH, GHRH) ou inhibitrices (somatostatine sur GH et TSH, dopamine sur la prolactine). La prolactine est la seule hormone antéhypophysaire sous contrôle inhibiteur prédominant, d'où son élévation lors des lésions de la tige pituitaire. La pulsatilité de la GnRH est indispensable ; sa stimulation continue freine paradoxalement l'axe gonadotrope. Les hormones périphériques exercent un rétrocontrôle négatif sur l'hypothalamus et l'hypophyse.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elles sont libérées dans les capillaires de l'éminence médiane (plexus primaire) puis gagnent le plexus secondaire de l'antéhypophyse.",
+        "B": "Vrai : D'où l'hyperprolactinémie lors d'une section de tige ou d'un traitement par neuroleptique (antagoniste des récepteurs D2).",
+        "C": "Faux : La TRH stimule la sécrétion de TSH (et accessoirement celle de prolactine).",
+        "D": "Vrai : Elle inhibe aussi la sécrétion de TSH ; la GHRH stimule la sécrétion de GH.",
+        "E": "Vrai : Une administration continue d'agonistes de la GnRH désensibilise les cellules gonadotropes, propriété utilisée en thérapeutique pour freiner l'axe gonadotrope."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-010"
+      ],
+      "theme": "Contrôle hypothalamique de l'antéhypophyse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier que la prolactine est principalement sous contrôle inhibiteur (dopamine).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hormone antidiurétique (ADH, arginine-vasopressine), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Sa sécrétion est stimulée par une augmentation de l'osmolalité plasmatique, détectée par des osmorécepteurs hypothalamiques.",
+        "B": "Une hypovolémie importante stimule sa sécrétion.",
+        "C": "Au niveau du tubule collecteur, elle agit sur les récepteurs V2 et provoque l'insertion d'aquaporines 2 dans la membrane apicale.",
+        "D": "Un déficit en ADH entraîne une polyurie avec des urines hypertoniques.",
+        "E": "L'ADH est synthétisée par les cellules de l'antéhypophyse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'ADH, nonapeptide hypothalamique stocké et libéré par la posthypophyse, régule principalement l'osmolalité plasmatique. Sa sécrétion est déclenchée par l'hyperosmolalité (stimulus le plus sensible) et par l'hypovolémie ou l'hypotension (stimulus moins sensible mais puissant). Via les récepteurs V2 rénaux, elle augmente la réabsorption d'eau par insertion d'aquaporines 2 ; via les récepteurs V1, elle est vasoconstrictrice. Son déficit (diabète insipide central) ou la résistance rénale à son action (néphrogénique) donnent une polyurie hypotonique ; sa sécrétion inappropriée (SIADH) une hyponatrémie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une variation de l'ordre de 1 à 2 % de l'osmolalité suffit à modifier la sécrétion.",
+        "B": "Vrai : Le stimulus volémique est moins sensible (baisse de volume d'environ 5 à 10 % nécessaire) mais puissant.",
+        "C": "Vrai : La voie V2–AMPc–protéine kinase A augmente la perméabilité à l'eau et donc la réabsorption d'eau libre.",
+        "D": "Faux : Le diabète insipide central entraîne une polyurie hypotonique (osmolalité urinaire basse).",
+        "E": "Faux : Elle est synthétisée par les neurones magnocellulaires des noyaux supraoptiques et paraventriculaires et libérée par la posthypophyse."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-010"
+      ],
+      "theme": "Hormone antidiurétique (posthypophyse)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre le lieu de synthèse (hypothalamus) et le lieu de libération (posthypophyse).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Costanzo LS. Physiology. 6e éd. Elsevier ; 2018 [catalogue OUV-0174].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5016",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle est la principale action physiologique de l'ocytocine pendant l'allaitement ?",
+      "propositions": {
+        "A": "Stimuler la synthèse du lait par les cellules alvéolaires mammaires.",
+        "B": "Provoquer l'éjection du lait par contraction des cellules myoépithéliales.",
+        "C": "Inhiber la sécrétion de prolactine.",
+        "D": "Augmenter la réabsorption rénale d'eau.",
+        "E": "Déclencher l'ovulation."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'ocytocine, nonapeptide synthétisé surtout dans les noyaux paraventriculaires et libéré par la posthypophyse, agit sur les cellules myoépithéliales des acini mammaires (éjection du lait) et sur le myomètre (contractions utérines, en particulier lors de l'expulsion). Ses récepteurs utérins augmentent en fin de grossesse. La synthèse du lait relève de la prolactine (antéhypophyse), l'éjection de l'ocytocine : deux étapes à ne pas confondre. Sa structure proche de celle de l'ADH explique une faible action antidiurétique à forte dose.",
+      "explications_par_proposition": {
+        "A": "Faux : C'est le rôle de la prolactine, hormone antéhypophysaire.",
+        "B": "Vrai : Réflexe neuroendocrine : la succion du mamelon déclenche la libération posthypophysaire d'ocytocine.",
+        "C": "Faux : La succion stimule au contraire la sécrétion de prolactine ; l'ocytocine n'en est pas un inhibiteur.",
+        "D": "Faux : C'est l'action principale de l'ADH ; l'ocytocine n'a qu'une faible activité antidiurétique à forte dose.",
+        "E": "Faux : L'ovulation est déclenchée par le pic de LH."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-010"
+      ],
+      "theme": "Ocytocine et lactation",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre l'action de la prolactine (synthèse du lait) et celle de l'ocytocine (éjection).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Melmed S, Koenig RJ, Rosen CJ, Auchus RJ, Goldfine AB. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'anatomie vasculaire de l'appareil génital, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'uretère croise l'artère utérine en passant sous elle, à proximité du col utérin.",
+        "B": "L'artère ovarienne naît de l'aorte abdominale.",
+        "C": "La veine testiculaire gauche se draine directement dans la veine cave inférieure.",
+        "D": "Le conduit déférent traverse le canal inguinal au sein du cordon spermatique.",
+        "E": "L'artère utérine est une branche de l'artère iliaque externe."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les gonades, d'origine lombaire, reçoivent leurs artères directement de l'aorte (artères ovariennes ou testiculaires) ; le drainage veineux gonadique gauche se fait dans la veine rénale gauche, le droit dans la veine cave inférieure, ce qui explique la prédominance gauche des varicocèles. L'artère utérine, branche de l'iliaque interne, croise l'uretère au-dessus de lui dans le paramètre, rapport chirurgical majeur. Le conduit déférent chemine dans le cordon spermatique à travers le canal inguinal, puis devient pelvien jusqu'à la prostate.",
+      "explications_par_proposition": {
+        "A": "Vrai : Rapport classique : risque de lésion urétérale lors de la ligature de l'artère utérine au cours de l'hystérectomie.",
+        "B": "Vrai : Elle naît de la face antérieure de l'aorte, sous les artères rénales, et chemine dans le ligament suspenseur de l'ovaire.",
+        "C": "Faux : La veine testiculaire gauche se jette dans la veine rénale gauche, ce qui favorise la varicocèle gauche ; la droite se jette dans la veine cave inférieure.",
+        "D": "Vrai : Il gagne ensuite le pelvis et s'unit au conduit de la vésicule séminale pour former le conduit éjaculateur.",
+        "E": "Faux : L'artère utérine est une branche de l'artère iliaque interne."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-011"
+      ],
+      "theme": "Vascularisation de l'appareil génital",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Oublier le drainage veineux asymétrique des gonades.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Dalley AF, Agur AMR, Moore KL. Moore's Clinically Oriented Anatomy. 9e éd. Wolters Kluwer ; 2023 [catalogue OUV-0155].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'histologie du testicule, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les cellules de Sertoli reposent sur la membrane basale des tubes séminifères et forment entre elles des jonctions serrées constituant la barrière hémato-testiculaire.",
+        "B": "Les cellules de Leydig, situées dans le tissu interstitiel, sécrètent la testostérone sous l'action de la LH.",
+        "C": "Les spermatogonies sont des cellules haploïdes.",
+        "D": "Les cellules de Sertoli sécrètent l'inhibine B et l'ABP (androgen-binding protein) sous l'action de la FSH.",
+        "E": "La spermatogenèse humaine dure environ 7 jours."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le testicule comprend des tubes séminifères (épithélium séminal : cellules germinales et cellules de Sertoli) et un tissu interstitiel contenant les cellules de Leydig. La FSH agit sur les cellules de Sertoli (soutien de la spermatogenèse, ABP, inhibine B), la LH sur les cellules de Leydig (testostérone). La concentration intratesticulaire élevée de testostérone est indispensable à la spermatogenèse. Spermatogonies (2n), spermatocytes I (2n, méiose I), spermatocytes II (n), spermatides (n) puis spermatozoïdes (spermiogenèse) : l'ensemble dure environ 70 jours.",
+      "explications_par_proposition": {
+        "A": "Vrai : Cette barrière isole les cellules germinales méiotiques et post-méiotiques du système immunitaire.",
+        "B": "Vrai : Ce sont des cellules stéroïdogènes riches en réticulum endoplasmique lisse et en gouttelettes lipidiques.",
+        "C": "Faux : Les spermatogonies sont diploïdes ; les spermatocytes II et les spermatides sont haploïdes.",
+        "D": "Vrai : L'inhibine B exerce un rétrocontrôle négatif sélectif sur la sécrétion de FSH.",
+        "E": "Faux : Elle dure environ 64 à 74 jours (≈ 70 jours), sans compter le transit épididymaire."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-011"
+      ],
+      "theme": "Histologie du testicule et spermatogenèse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser les cibles de la FSH (cellules de Sertoli) et de la LH (cellules de Leydig).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5006",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans un follicule ovarien antral, quelles cellules, stimulées par la LH, synthétisent les androgènes servant de précurseurs à l'estradiol folliculaire ?",
+      "propositions": {
+        "A": "Les cellules de la granulosa.",
+        "B": "Les cellules de la thèque interne.",
+        "C": "Les cellules de la thèque externe.",
+        "D": "L'ovocyte.",
+        "E": "Les cellules de la corona radiata."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La stéroïdogenèse folliculaire repose sur la coopération de deux types cellulaires : les cellules de la thèque interne, vascularisées et sensibles à la LH, synthétisent des androgènes à partir du cholestérol ; les cellules de la granulosa, avasculaires et sensibles à la FSH, expriment l'aromatase qui convertit ces androgènes en estradiol. En fin de phase folliculaire, la granulosa du follicule dominant acquiert aussi des récepteurs de la LH, préparant la lutéinisation. Après l'ovulation, le corps jaune associe cellules lutéales d'origine granulosa et thécale.",
+      "explications_par_proposition": {
+        "A": "Faux : Elles expriment surtout le récepteur de la FSH et l'aromatase, qui convertit les androgènes en estradiol ; elles ne possèdent pas l'équipement enzymatique de synthèse des androgènes.",
+        "B": "Vrai : Selon le modèle « deux cellules, deux gonadotrophines », la thèque interne (sous LH) produit des androgènes (androstènedione) qui diffusent vers la granulosa, où l'aromatase (sous FSH) les transforme en estradiol.",
+        "C": "Faux : C'est une couche essentiellement conjonctive et fibreuse, sans rôle stéroïdogène majeur.",
+        "D": "Faux : Il ne synthétise pas les stéroïdes folliculaires.",
+        "E": "Faux : Ce sont des cellules de la granulosa entourant directement l'ovocyte."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-011"
+      ],
+      "theme": "Follicule ovarien : modèle deux cellules – deux gonadotrophines",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer l'aromatase à la thèque ou la production d'androgènes à la granulosa.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiologie d'un cycle menstruel de 28 jours, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le pic de LH précède l'ovulation d'environ 24 à 36 heures.",
+        "B": "La phase lutéale a une durée relativement constante, d'environ 14 jours.",
+        "C": "Pendant la phase lutéale, l'endomètre est sous l'influence prédominante des œstrogènes seuls et prolifère.",
+        "D": "L'élévation de la température basale de 0,3 à 0,5 °C après l'ovulation est due à la progestérone.",
+        "E": "En l'absence de fécondation, le corps jaune est maintenu par l'hCG d'origine hypophysaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le cycle ovarien comprend une phase folliculaire (croissance du follicule dominant sous FSH, sécrétion croissante d'estradiol, prolifération endométriale), l'ovulation (déclenchée par le pic de LH, conséquence d'un rétrocontrôle positif de l'estradiol) et une phase lutéale d'environ 14 jours (corps jaune sécrétant progestérone et estradiol, endomètre sécrétoire, élévation thermique). Sans fécondation, la lutéolyse entraîne une chute hormonale et la desquamation de la couche fonctionnelle de l'endomètre. En cas de grossesse, l'hCG trophoblastique maintient le corps jaune.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il résulte d'un rétrocontrôle positif exercé par une concentration d'estradiol élevée et soutenue en fin de phase folliculaire.",
+        "B": "Vrai : La variabilité de la durée des cycles porte essentiellement sur la phase folliculaire.",
+        "C": "Faux : La phase proliférative correspond à la phase folliculaire ; en phase lutéale, la progestérone du corps jaune transforme l'endomètre en endomètre sécrétoire.",
+        "D": "Vrai : Effet thermogène de la progestérone ; le plateau thermique persiste jusqu'aux règles.",
+        "E": "Faux : L'hCG est d'origine trophoblastique et ne maintient le corps jaune qu'en cas de grossesse ; sinon, le corps jaune régresse, la progestérone chute et les règles surviennent."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-011"
+      ],
+      "theme": "Physiologie du cycle menstruel",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer la prolifération endométriale à la phase lutéale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }
