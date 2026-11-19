@@ -11,4 +11,5 @@ python3 $S/files_attente.py
 python3 $S/tableau_de_bord.py > /dev/null && echo "Tableau de bord : 25_INDEX_GENERAL/TABLEAU_DE_BORD.md"
 python3 $S/exporter.py "$@"
 python3 $S/indexer.py > /dev/null   # ré-indexe après génération des livrets
+python3 $S/planning_revision.py
 python3 $S/page_recherche.py
