@@ -651,3 +651,93 @@ Biologie : **calcémie 1,55 mmol/L** (N 2,2–2,6), phosphatémie 1,4 mmol/L (no
 
 *Questions originales Mediverse (propositions A–E, réponses multiples possibles sauf QCS). Identifiants identiques à ceux du lot JSON.*
 
+**QCM 1 (QCM-PEDI-0525) — QCS.** Selon le consensus mondial de 2016 sur le rachitisme nutritionnel, quel seuil de 25-hydroxyvitamine D sérique définit la carence en vitamine D ?
+
+- A. < 10 nmol/L
+- B. < 30 nmol/L
+- C. < 50 nmol/L
+- D. < 75 nmol/L
+- E. < 100 nmol/L
+
+**QCM 2 (QCM-PEDI-0526) — QCM.** Un nourrisson de 14 mois présentant des bourrelets épiphysaires et un chapelet costal a un rachitisme carentiel au stade compensé. Quel profil biologique attendez-vous ?
+
+- A. Calcémie normale
+- B. Phosphatémie basse
+- C. Phosphatases alcalines élevées
+- D. Parathormone basse
+- E. 25-hydroxyvitamine D basse
+
+**QCM 3 (QCM-PEDI-0527) — QCM.** Quels signes radiologiques du poignet de face sont évocateurs d'un rachitisme évolutif ?
+
+- A. Élargissement de la plaque de croissance
+- B. Aspect en cupule de la métaphyse
+- C. Effilochage du bord métaphysaire
+- D. Ostéopénie diffuse
+- E. Bande dense de minéralisation à la limite métaphysaire
+
+**QCM 4 (QCM-PEDI-0528) — QCM.** Concernant le traitement du rachitisme nutritionnel selon le consensus mondial de 2016, quelles propositions sont exactes ?
+
+- A. La dose minimale recommandée de vitamine D est de 2 000 UI par jour pendant au moins 3 mois
+- B. Un apport de 500 mg/j de calcium est associé quel que soit l'âge ou le poids
+- C. La voie orale est préférée à la voie intramusculaire
+- D. Le calcitriol est le traitement de première intention
+- E. Après le traitement, une dose d'entretien de 400 UI/j (avant 12 mois) ou 600 UI/j (après 12 mois) est poursuivie
+
+**QCM 5 (QCM-PEDI-0529) — QCM.** Concernant la prévention du rachitisme carentiel selon le consensus mondial de 2016, quelles propositions sont exactes ?
+
+- A. Tous les nourrissons de 0 à 12 mois devraient recevoir 400 UI/j de vitamine D, quel que soit leur mode d'alimentation
+- B. Le nourrisson nourri exclusivement au lait infantile n'a jamais besoin de supplément, quelle que soit sa consommation
+- C. Au-delà de 12 mois, les besoins sont d'au moins 600 UI/j par l'alimentation et/ou la supplémentation
+- D. Les femmes enceintes devraient recevoir 600 UI/j de vitamine D
+- E. L'enrichissement des aliments fait partie des stratégies de santé publique recommandées
+
+**QCM 6 (QCM-PEDI-0530) — QCM.** Un nourrisson de 3 mois, allaité sans supplémentation, est hospitalisé pour une hypocalcémie profonde révélée par un stridor et des convulsions. Quelles propositions sont exactes ?
+
+- A. Un ECG doit être réalisé (allongement du QT)
+- B. Une échocardiographie est utile pour rechercher une cardiomyopathie dilatée
+- C. Le calcium IV doit être administré lentement sous scope
+- D. Une forte dose de vitamine D sans apport calcique est le traitement le plus sûr
+- E. La mère doit être évaluée et supplémentée
+
+**QCM 7 (QCM-PEDI-0531) — QCM.** Un enfant de 3 ans a des jambes arquées progressives malgré plusieurs cures de vitamine D bien prises ; son père est petit avec des membres inférieurs incurvés. Quels éléments orientent vers un rachitisme hypophosphatémique lié à l'X ?
+
+- A. Phosphatémie très basse
+- B. Calcémie normale
+- C. 25-OHD normale
+- D. Taux de réabsorption tubulaire du phosphate (TmP/DFG) bas
+- E. Phosphatases alcalines basses
+
+**QCM 8 (QCM-PEDI-0532) — QCS.** Devant un tableau de rachitisme radiologique avec des phosphatases alcalines effondrées et une perte précoce des dents de lait, quel diagnostic évoquez-vous en premier ?
+
+- A. Rachitisme carentiel
+- B. Rachitisme hypophosphatémique lié à l'X
+- C. Hypophosphatasie
+- D. Ostéodystrophie rénale
+- E. Rachitisme pseudo-carentiel de type 1
+
+### Corrigé commenté
+
+**QCM 1 (QCM-PEDI-0525) — Réponse(s) : B.** Le consensus de 2016 retient : carence < 30 nmol/L (12 ng/mL), insuffisance 30–50 nmol/L, suffisance > 50 nmol/L (20 ng/mL) ; la toxicité se définit par une 25-OHD > 250 nmol/L avec hypercalcémie, hypercalciurie et PTH freinée.
+*Piège* : Confondre seuil de carence (30) et seuil de suffisance (50 nmol/L).
+
+**QCM 2 (QCM-PEDI-0526) — Réponse(s) : A, B, C, E.** Au stade compensé (stade 2), l'hyperparathyroïdie secondaire maintient la calcémie au prix d'une fuite urinaire de phosphate : calcémie normale, phosphatémie basse, PAL et PTH élevées, 25-OHD basse.
+*Piège* : Attendre une hypocalcémie constante.
+
+**QCM 3 (QCM-PEDI-0527) — Réponse(s) : A, B, C, D.** Le rachitisme évolutif associe élargissement de la plaque de croissance, métaphyse évasée en cupule, bords effilochés et déminéralisation. La bande dense métaphysaire est au contraire un signe de guérison sous traitement. Le consensus considère la radiographie comme l'examen qui confirme le diagnostic.
+*Piège* : Prendre la ligne de minéralisation de guérison pour un signe d'activité.
+
+**QCM 4 (QCM-PEDI-0528) — Réponse(s) : A, B, C, E.** Consensus 2016 : vitamine D ≥ 2 000 UI/j pendant ≥ 3 mois (ou dose unique selon l'âge), toujours associée à 500 mg/j de calcium ; voie orale préférée ; vitamine D3 préférée pour les fortes doses ; entretien aux doses de prévention. Le calcitriol ne reconstitue pas les réserves et n'est pas indiqué dans la forme carentielle.
+*Piège* : Oublier le calcium ; prescrire du calcitriol.
+
+**QCM 5 (QCM-PEDI-0529) — Réponse(s) : A, C, D, E.** Le consensus recommande 400 UI/j pour tous les nourrissons de la naissance à 12 mois indépendamment du mode d'alimentation, au moins 600 UI/j ensuite, 600 UI/j chez la femme enceinte, et appelle à des programmes de supplémentation et d'enrichissement des aliments.
+
+**QCM 6 (QCM-PEDI-0530) — Réponse(s) : A, B, C, E.** L'hypocalcémie carentielle du jeune nourrisson peut se compliquer de laryngospasme, de convulsions et d'une cardiomyopathie dilatée potentiellement mortelle : scope, ECG, échocardiographie, calcium IV lent, puis calcium oral et vitamine D. La carence maternelle est presque constante.
+*Piège* : Négliger le cœur devant une hypocalcémie du nourrisson.
+
+**QCM 7 (QCM-PEDI-0531) — Réponse(s) : A, B, C, D.** Le XLH associe hypophosphatémie par fuite rénale de phosphate (TmP/DFG bas, FGF23 élevé), calcémie normale, 25-OHD normale, PTH normale ou peu élevée et PAL élevées ; transmission dominante liée à l'X ; résistance à la vitamine D native. Des PAL basses orienteraient vers une hypophosphatasie.
+*Piège* : Multiplier les cures de vitamine D devant un rachitisme qui ne guérit pas.
+
+**QCM 8 (QCM-PEDI-0532) — Réponse(s) : C.** L'hypophosphatasie, déficit en phosphatase alcaline non spécifique de tissu, se caractérise par des PAL basses (contrairement à tous les autres rachitismes où elles sont élevées) et une perte précoce des dents.
+*Piège* : Ne pas regarder la valeur des PAL.
+
+*Les QCM 9 à 12 de la série (QCM-PEDI-0533 à QCM-PEDI-0536) figurent uniquement dans le lot JSON `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json`.*

@@ -184,7 +184,7 @@ Indication posée (Hb + tolérance + terrain + alternatives) → prescription é
 ├─ Choix du produit et des qualifications (phénotypé, irradié, déplasmatisé…)
 ├─ Au lit : concordance identité ↔ prescription ↔ délivrance ↔ poche ; contrôle ultime ABO
 │     (obligatoire en France ; procédure algérienne [À VÉRIFIER])
-├─ Un soignant, un patient, une poche ; débit lent au début ; constantes à 15 min
+├─ Un soignant, un patient, une poche ; débit lent au début ; constantes dans les 15 premières minutes
 └─ Traçabilité dans le dossier + retour à la structure de transfusion
 ```
 
@@ -288,12 +288,12 @@ Indication posée (Hb + tolérance + terrain + alternatives) → prescription é
 2. ABO : anticorps naturels IgM → hémolyse intravasculaire immédiate ; irréguliers IgG → hémolyse retardée.
 3. Groupe sur 2 déterminations + RAI récente ; RAI positive → CGR compatibilisés.
 4. CGR O universel ; plasma AB universel.
-5. Seuils CGR : 7 / 7,5 / 8 g/dL (AABB 2023) ; HAS 2014 : hématologie 8, coronarien aigu 10.
+5. Seuils CGR (AABB 2023) : 7 g/dL (adulte stable), 7,5 (chirurgie cardiaque), 8 (orthopédie, cardiopathie) ; HAS 2014 : hématologie 8, coronarien aigu 10.
 6. Plaquettes : < 10 / < 20 / < 50 G/L ; dose 0,5–0,7 × 10¹¹/10 kg ; pas dans la dengue.
 7. Plasma 10–15 mL/kg ; pas pour un AVK (CCP + vitamine K).
 8. TRALI ≤ 6 h, hypotension, pas de diurétique ; TACO ≤ 12 h, HTA, BNP ↑, diurétique.
 9. Fièvre + choc sous plaquettes → contamination bactérienne (culture de la poche).
-10. Algérie : collecte publique, non lucrative, Agence nationale du sang, donneurs 18–65 ans (loi 18-11).
+10. Algérie : collecte publique, non lucrative, Agence nationale du sang, donneurs de 18 à 65 ans (loi 18-11).
 
 ## 9. Sources (reprises du dossier DOS-HEMA-0006)
 

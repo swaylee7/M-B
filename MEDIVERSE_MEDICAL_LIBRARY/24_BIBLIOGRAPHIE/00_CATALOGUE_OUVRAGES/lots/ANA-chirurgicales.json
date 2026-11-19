@@ -12,11 +12,11 @@
         "Evers B Mark",
         "Mattox Kenneth L"
       ],
-      "edition": "20e",
-      "annee": 2017,
+      "edition": "22e",
+      "annee": 2025,
       "editeur_commercial": "Elsevier/Saunders",
       "isbn": [
-        "9780323299879"
+        "9780443124341"
       ],
       "langue": "en",
       "specialites": [
@@ -25,9 +25,11 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "19e",
-        "annee": 2012,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101570141"
+        "edition": "21e",
+        "annee": null,
+        "isbn": "9780323640626",
+        "remarque": "21e édition (ISBN 9780323640626 relevé chez un libraire) ; année non confirmée en session",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -40,14 +42,34 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/sabiston-textbook-of-surgery/scott-tyler/978-0-443-12434-1",
+          "https://www.inspectioncopy.elsevier.com/book/details/9780443124341",
+          "https://www.us.elsevierhealth.com/sabiston-textbook-of-surgery-9780443124365.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101667903"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 21e édition (Elsevier, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 20e (2017) → 22e (2025) (trace complète dans edition_cataloguee_avant_audit). 22e édition confirmée (Elsevier, parution 27/08/2025, 2176 p.), ISBN imprimé 9780443124341 (ISBN-10 0443124345) ; direction D. S. Tyler et al. selon Elsevier/Blackwell's. La 21e édition (ISBN 9780323640626) s'intercale entre la 20e (cataloguée avant audit) et la 22e. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 21e édition (Elsevier, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "20e",
+        "annee": 2017,
+        "isbn": [
+          "9780323299879"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101667903"
+        ],
+        "edition_precedente": {
+          "edition": "19e",
+          "annee": 2012,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101570141"
+        }
+      }
     },
     {
       "id": "OUV-0501",
@@ -86,12 +108,15 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://www.mhprofessional.com/schwartz-s-principles-of-surgery-2-volume-set-11th-edition-9781259835353-usa-group",
+          "https://en.wikipedia.org/wiki/Schwartz%27s_Principles_of_Surgery",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101721353"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible. | Audit AUD-04 : 11e édition (McGraw Hill, 2019, ISBN 9781259835353) toujours la plus récente repérée (page éditeur McGraw Hill) ; aucune 12e édition trouvée par recherche web au 2026-11-19."
     },
     {
       "id": "OUV-0502",
@@ -272,11 +297,15 @@
         "statut": "verifie",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/books/NBK333500/",
-          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv"
+          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv",
+          "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
         ],
         "date": "2026-11-19"
       },
-      "notes": "Éditeurs scientifiques d'après connaissance antérieure [À VÉRIFIER]. Métadonnées (titre, ISBN, licence) lues dans le paquet XML du sous-ensemble Open Access de NCBI Bookshelf (LitArch) pendant la session."
+      "notes": "Éditeurs scientifiques d'après connaissance antérieure [À VÉRIFIER]. Métadonnées (titre, ISBN, licence) lues dans le paquet XML du sous-ensemble Open Access de NCBI Bookshelf (LitArch) pendant la session. | Audit AUD-04 (2026-11-19) : doublon fusionné — l'entrée OUV-0952 (lot ACQ-05) décrivait le même ouvrage et la même édition (même titre (DCP3 vol. 1, Essential Surgery), même édition (3e, 2015), même NBK333500) ; elle a été retirée du lot et archivée intégralement dans 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/doublons_retires.json ; ses sources, ISBN et informations d'accès ouvert ont été reportés ici. Notes de l'entrée retirée OUV-0952 : Licence : probablement CC BY 3.0 IGO comme les autres volumes DCP3 [À VÉRIFIER — paquet non inspecté]. NCBI Bookshelf NBK333500 ; éditeurs scientifiques non vérifiés pendant la session.",
+      "ids_fusionnes": [
+        "OUV-0952"
+      ]
     },
     {
       "id": "OUV-0506",
@@ -460,16 +489,15 @@
       "titre": "Campbell-Walsh-Wein Urology",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Partin Alan W",
-        "Dmochowski Roger R",
-        "Kavoussi Louis R",
-        "Peters Craig"
+        "Dmochowski RR",
+        "et al. [À VÉRIFIER]"
       ],
-      "edition": "12e",
-      "annee": 2021,
+      "edition": "13e",
+      "annee": 2025,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "0323546420"
+        "9780323884051",
+        "9780323931588"
       ],
       "langue": "en",
       "specialites": [
@@ -478,9 +506,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "11e",
-        "annee": 2016,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101666137"
+        "edition": "12e",
+        "annee": 2021,
+        "isbn": "0323546420",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -495,12 +524,38 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/campbell-walsh-wein-urology/dmochowski/978-0-323-88405-1",
+          "https://evolve.elsevier.com/cs/product/9780323884051?role=student",
+          "https://inspectioncopy.elsevier.com/book/details/9780323884051",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101768282"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Une 13e édition est attendue à terme ; non repérée dans le NLM Catalog à la date de vérification. Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 12e (2021) → 13e (2025) (trace complète dans edition_cataloguee_avant_audit). 13e édition confirmée (Elsevier ; shop.elsevier.com : 6 mai 2025 ; evolve : 20/06/2025 ; 4032 p.), ISBN imprimé 9780323884051 (ISBN-10 0323884059), eBook 9780323931588. | Notes antérieures (avant audit) : Une 13e édition est attendue à terme ; non repérée dans le NLM Catalog à la date de vérification. Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "12e",
+        "annee": 2021,
+        "isbn": [
+          "0323546420"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101768282"
+        ],
+        "auteurs_editeurs": [
+          "Partin Alan W",
+          "Dmochowski Roger R",
+          "Kavoussi Louis R",
+          "Peters Craig"
+        ],
+        "edition_precedente": {
+          "edition": "11e",
+          "annee": 2016,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101666137"
+        }
+      }
     },
     {
       "id": "OUV-0511",
@@ -1354,13 +1409,19 @@
       "titre": "Cummings Otolaryngology: Head and Neck Surgery",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Flint Paul W"
+        "Francis HW",
+        "Haughey BH",
+        "Lesperance MM",
+        "Lund VJ",
+        "Robbins KT",
+        "Park SS",
+        "Hillel A"
       ],
-      "edition": "7e",
-      "annee": 2021,
+      "edition": "8e",
+      "annee": 2025,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323611794"
+        "9780443119842"
       ],
       "langue": "en",
       "specialites": [
@@ -1368,7 +1429,12 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "7e",
+        "annee": 2021,
+        "isbn": "9780323611794",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -1382,12 +1448,30 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/cummings-otolaryngology/francis/978-0-443-11984-2",
+          "https://www.inspectioncopy.elsevier.com/book/details/9780443119842",
+          "https://www.elsevierhealth.com.au/cummings-otolaryngology-head-and-neck-surgery-9780443119842.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101768357"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 7e (2021) → 8e (2025) (trace complète dans edition_cataloguee_avant_audit). 8e édition confirmée (Elsevier/Churchill Livingstone, 3568 p. ; dates de parution 2025 variables selon les sites : 03/07/2025, 30/09/2025 sur shop.elsevier.com), ISBN 9780443119842 (ISBN-10 0443119848) ; éditeurs H. W. Francis, B. H. Haughey, M. M. Lesperance, V. J. Lund, K. T. Robbins, S. S. Park, A. Hillel. | Notes antérieures (avant audit) : Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "7e",
+        "annee": 2021,
+        "isbn": [
+          "9780323611794"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101768357"
+        ],
+        "auteurs_editeurs": [
+          "Flint Paul W"
+        ]
+      }
     },
     {
       "id": "OUV-0531",
@@ -1522,14 +1606,13 @@
       "titre": "Kanski's Clinical Ophthalmology: A Systematic Approach",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Salmon John F",
-        "Bowling Brad"
+        "Salmon JF"
       ],
-      "edition": "9e",
-      "annee": 2020,
+      "edition": "10e",
+      "annee": 2024,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780702077111"
+        "9780443110993"
       ],
       "langue": "en",
       "specialites": [
@@ -1537,7 +1620,12 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "9e",
+        "annee": 2020,
+        "isbn": "9780702077111",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -1551,12 +1639,31 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/kanskis-clinical-ophthalmology/salmon/978-0-443-11099-3",
+          "https://evolve.elsevier.com/cs/product/9780443110993?role=faculty",
+          "https://inspectioncopy.elsevier.com/book/details/9780443110993",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/490356"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Traduction française d'éditions antérieures connue (Elsevier Masson) [À VÉRIFIER]. Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 9e (2020) → 10e (2024) (trace complète dans edition_cataloguee_avant_audit). 10e édition confirmée (Elsevier ; shop.elsevier.com : 4 avril 2024, « latest edition » ; autre fiche Elsevier : 23/07/2024 ; copyright 2025), ISBN 9780443110993 (ISBN-10 0443110999), auteur J. F. Salmon. | Notes antérieures (avant audit) : Traduction française d'éditions antérieures connue (Elsevier Masson) [À VÉRIFIER]. Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "9e",
+        "annee": 2020,
+        "isbn": [
+          "9780702077111"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/490356"
+        ],
+        "auteurs_editeurs": [
+          "Salmon John F",
+          "Bowling Brad"
+        ]
+      }
     },
     {
       "id": "OUV-0535",
@@ -1650,22 +1757,29 @@
     },
     {
       "id": "OUV-0537",
-      "titre": "Basic and Clinical Science Course (BCSC)",
+      "titre": "Basic and Clinical Science Course (BCSC), 2026–2027 — Complete Print Set",
       "sous_titre": "",
       "auteurs_editeurs": [
         "American Academy of Ophthalmology"
       ],
-      "edition": null,
-      "annee": null,
+      "edition": "2026–2027",
+      "annee": 2026,
       "editeur_commercial": "American Academy of Ophthalmology",
-      "isbn": [],
+      "isbn": [
+        "9798897300167"
+      ],
       "langue": "en",
       "specialites": [
         "OPHT"
       ],
       "niveau": "specialiste",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "2025–2026",
+        "annee": 2025,
+        "isbn": "9781681048734",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -1676,12 +1790,26 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "non_verifie",
-        "sources": [],
-        "date": "2026-11-19"
+        "statut": "verifie",
+        "sources": [
+          "https://mngbookshop.co.uk/9798897300167/2026-2027-basic-and-clinical-science-course-complete-print-set/",
+          "https://woodslane.com.au/products/9798897300167",
+          "https://www.readings.com.au/product/9781681048734/2025-2026-basic-and-clinical-science-course-complete-print-set--american-academy-of-ophthalmology--2025--9781681048734"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04",
+        "verificateur": "AUD-04"
       },
-      "notes": "Des sections isolées sont cataloguées dans le NLM (ex. « Retina and Vitreous », 2015) mais pas la série au millésime courant. Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
-      "edition_attendue_non_verifiee": "Série de 13 sections révisée annuellement — millésime le plus récent [À VÉRIFIER]"
+      "notes": "Audit AUD-04 (2026-11-19) : Édition identifiée : 2026–2027 (2026) (aucune édition renseignée avant audit). Identifié par libraires (aucune page AAO consultable en session) : BCSC 2026–2027, coffret complet imprimé, ISBN 9798897300167 (set résidence 9798897300143, date éditeur 08/07/2026 ; section 1 : 9781681049717). Édition précédente 2025–2026 : coffret 9781681048734 (15/08/2025). Révision annuelle (13 sections). | Notes antérieures (avant audit) : Des sections isolées sont cataloguées dans le NLM (ex. « Retina and Vitreous », 2015) mais pas la série au millésime courant. Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
+      "edition_cataloguee_avant_audit": {
+        "edition": null,
+        "annee": null,
+        "isbn": [],
+        "statut_verification": "non_verifie",
+        "sources": [],
+        "titre": "Basic and Clinical Science Course (BCSC)",
+        "edition_attendue_non_verifiee": "Série de 13 sections révisée annuellement — millésime le plus récent [À VÉRIFIER]"
+      }
     },
     {
       "id": "OUV-0538",
@@ -2990,13 +3118,14 @@
       "titre": "Shafer's Textbook of Oral Pathology",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Rajendran R",
         "Sivapathasundharam B"
       ],
-      "edition": null,
-      "annee": null,
-      "editeur_commercial": "Elsevier (India)",
-      "isbn": [],
+      "edition": "10e",
+      "annee": 2024,
+      "editeur_commercial": "Elsevier India",
+      "isbn": [
+        "9788131269350"
+      ],
       "langue": "en",
       "specialites": [
         "DENT",
@@ -3016,12 +3145,29 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "non_verifie",
-        "sources": [],
-        "date": "2026-11-19"
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/shafers-textbook-of-oral-pathology/sivapathasundharam/978-81-312-6935-0",
+          "https://www.vitalsource.com/ie/products/shafer-39-s-textbook-of-oral-pathology-e-book-b-sivapathasundharam-v9788131269367"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04",
+        "verificateur": "AUD-04"
       },
-      "notes": "Le NLM ne recense que les éditions américaines anciennes (4e éd., Saunders, 1983). Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
-      "edition_attendue_non_verifiee": "Édition indienne récente (9e, 2020/2021 ?) [À VÉRIFIER]"
+      "notes": "Audit AUD-04 (2026-11-19) : Édition identifiée : 10e (2024) (aucune édition renseignée avant audit). Identifié et vérifié : 10e édition (Elsevier India, 13/12/2024, présentée comme dernière édition par Elsevier), ISBN 9788131269350 ; auteur B. Sivapathasundharam (les éditions antérieures étaient co-signées A. Rajendran). | Notes antérieures (avant audit) : Le NLM ne recense que les éditions américaines anciennes (4e éd., Saunders, 1983). Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
+      "edition_cataloguee_avant_audit": {
+        "edition": null,
+        "annee": null,
+        "isbn": [],
+        "statut_verification": "non_verifie",
+        "sources": [],
+        "editeur_commercial": "Elsevier (India)",
+        "auteurs_editeurs": [
+          "Rajendran R",
+          "Sivapathasundharam B"
+        ],
+        "edition_attendue_non_verifiee": "Édition indienne récente (9e, 2020/2021 ?) [À VÉRIFIER]"
+      }
     },
     {
       "id": "OUV-0568",
@@ -3101,6 +3247,16 @@
         "methode": "NLM Catalog (NCBI E-utilities)"
       },
       "notes": "Collège national des enseignants en odontologie conservatrice (CNEOC), Éditions Espace ID ; 2e éd. 2010 — une édition plus récente est possible [À VÉRIFIER]."
+    }
+  ],
+  "audits": [
+    {
+      "agent": "AUD-04",
+      "date": "2026-11-19",
+      "objet": "audit des éditions (dernière édition, année, ISBN) et fusion des doublons",
+      "entrees_auditees": 7,
+      "entrees_retirees_doublons": 0,
+      "sauvegarde": "00_SYSTEME/sauvegardes/20261119/24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-chirurgicales.avant_audit_AUD-04.json"
     }
   ]
 }

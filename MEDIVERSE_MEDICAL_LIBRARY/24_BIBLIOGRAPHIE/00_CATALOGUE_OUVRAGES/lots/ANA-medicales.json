@@ -58,15 +58,14 @@
       "titre": "Goldman-Cecil Medicine",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Goldman Lee",
-        "Schafer Andrew I",
-        "Cecil Russell L"
+        "Goldman L",
+        "Cooney KA"
       ],
-      "edition": "26e",
-      "annee": 2020,
+      "edition": "27e",
+      "annee": 2023,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323532662"
+        "9780323930383"
       ],
       "langue": "en",
       "specialites": [
@@ -75,9 +74,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "25e",
-        "annee": 2016,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101648915"
+        "edition": "26e",
+        "annee": 2020,
+        "isbn": "9780323532662",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -90,14 +90,45 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/goldman-cecil-medicine-2-volume-set/goldman/978-0-323-93038-3",
+          "https://evolve.elsevier.com/cs/product/9780323930383?role=student",
+          "https://shop.elsevier.com/books/goldman-cecil-medicine-2-volume-set/goldman/978-0-443-38684-8",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101763364"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 27e édition (Elsevier, 2023/2024) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 26e (2020) → 27e (2023) (trace complète dans edition_cataloguee_avant_audit). 27e édition confirmée (Elsevier, coffret 2 volumes, 15/07/2023, copyright 2024, 3040 p.), ISBN 9780323930383 ; éditeurs L. Goldman, K. A. Cooney. Une 28e édition est annoncée par Elsevier pour le 01/04/2027 (ISBN 9780443386848 / 9780443386855). | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 27e édition (Elsevier, 2023/2024) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "26e",
+        "annee": 2020,
+        "isbn": [
+          "9780323532662"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101763364"
+        ],
+        "auteurs_editeurs": [
+          "Goldman Lee",
+          "Schafer Andrew I",
+          "Cecil Russell L"
+        ],
+        "edition_precedente": {
+          "edition": "25e",
+          "annee": 2016,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101648915"
+        }
+      },
+      "edition_annoncee": {
+        "edition": "28e",
+        "annee": 2027,
+        "isbn": "9780443386848",
+        "statut": "annoncée par Elsevier pour le 01/04/2027 — non parue au 2026-11-19"
+      }
     },
     {
       "id": "OUV-0302",
@@ -290,16 +321,16 @@
       "titre": "Oxford Handbook of Clinical Medicine",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Longmore J M",
-        "Wilkinson Ian",
-        "Baldwin Andrew",
-        "Wallin Elizabeth"
+        "Wilkinson IB",
+        "Raine T",
+        "et al. [À VÉRIFIER]"
       ],
-      "edition": "9e",
-      "annee": 2014,
+      "edition": "11e",
+      "annee": 2024,
       "editeur_commercial": "Oxford University Press",
       "isbn": [
-        "9780199609628"
+        "9780198844013",
+        "9780192582508"
       ],
       "langue": "en",
       "specialites": [
@@ -307,7 +338,13 @@
       ],
       "niveau": "revision",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "10e",
+        "annee": null,
+        "isbn": "9780199689903",
+        "remarque": "10e édition entre la 9e (cataloguée avant audit) et la 11e ; année non vérifiée en session",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -319,29 +356,51 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://www.oup.com.au/books/higher-education/medicine-dentistry/9780198844013",
+          "https://india.oup.com/product/oxford-handbook-of-clinical-medicine-eleventh-edition-9780198844020/",
+          "https://www.thenile.co.nz/books/tim-raine/oxford-handbook-of-clinical-medicine/9780198844013",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101645325"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Des éditions ultérieures (10e 2017, 11e 2024 ; Oxford University Press) sont connues. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 9e (2014) → 11e (2024) (trace complète dans edition_cataloguee_avant_audit). 11e édition confirmée sur les sites Oxford University Press (parution 07/06/2024, 888 p.), ISBN 9780198844013, eText 9780192582508 (édition internationale/Inde : 9780198844020). | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Des éditions ultérieures (10e 2017, 11e 2024 ; Oxford University Press) sont connues. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "9e",
+        "annee": 2014,
+        "isbn": [
+          "9780199609628"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101645325"
+        ],
+        "auteurs_editeurs": [
+          "Longmore J M",
+          "Wilkinson Ian",
+          "Baldwin Andrew",
+          "Wallin Elizabeth"
+        ]
+      }
     },
     {
       "id": "OUV-0307",
       "titre": "Macleod's Clinical Examination",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Innes J Alastair",
-        "Dover Anna R",
-        "Fairhurst Karen"
+        "Dover AR",
+        "Innes JA",
+        "Fairhurst K"
       ],
-      "edition": "14e",
-      "annee": 2018,
+      "edition": "15e",
+      "annee": 2023,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780702069932"
+        "9780323847704",
+        "9780323847728"
       ],
       "langue": "en",
       "specialites": [
@@ -350,9 +409,10 @@
       "niveau": "manuel_etudiant",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "13e",
-        "annee": 2013,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101597125"
+        "edition": "14e",
+        "annee": 2018,
+        "isbn": "9780702069932",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -365,14 +425,39 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/macleods-clinical-examination/dover/978-0-323-84770-4",
+          "https://evolve.elsevier.com/cs/product/9780323847704?role=faculty",
+          "https://inspectioncopy.elsevier.com/book/details/9780323847704",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101734533"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 15e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 14e (2018) → 15e (2023) (trace complète dans edition_cataloguee_avant_audit). 15e édition confirmée (Elsevier, 20/04/2023, copyright 2024, 464 p.), ISBN 9780323847704 (ISBN-10 0323847706), eBook PDF 9780323847728 ; éditeurs A. R. Dover, J. A. Innes, K. Fairhurst. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 15e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "14e",
+        "annee": 2018,
+        "isbn": [
+          "9780702069932"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101734533"
+        ],
+        "auteurs_editeurs": [
+          "Innes J Alastair",
+          "Dover Anna R",
+          "Fairhurst Karen"
+        ],
+        "edition_precedente": {
+          "edition": "13e",
+          "annee": 2013,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101597125"
+        }
+      }
     },
     {
       "id": "OUV-0308",
@@ -423,18 +508,22 @@
     },
     {
       "id": "OUV-0309",
-      "titre": "Current Medical Diagnosis & Treatment (CMDT)",
+      "titre": "CURRENT Medical Diagnosis & Treatment 2026",
       "sous_titre": "",
       "auteurs_editeurs": [
         "Papadakis MA",
-        "McPhee SJ",
         "Rabow MW",
-        "McQuaid KR"
+        "McQuaid KR",
+        "Nadler PL",
+        "Leemann Price E"
       ],
-      "edition": null,
-      "annee": null,
-      "editeur_commercial": "McGraw Hill (Lange)",
-      "isbn": [],
+      "edition": "65e (CMDT 2026)",
+      "annee": 2025,
+      "editeur_commercial": "McGraw Hill",
+      "isbn": [
+        "9781266135545",
+        "9781266643316"
+      ],
       "langue": "en",
       "specialites": [
         "MINT"
@@ -453,12 +542,39 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "non_verifie",
-        "sources": [],
-        "date": "2026-11-19"
+        "statut": "verifie",
+        "sources": [
+          "https://www.mheducation.com/highered/mhp/product/current-medical-diagnosis-treatment-2026.html",
+          "https://www.lehmanns.ch/shop/medizin-pharmazie/80812444-9781266135545-current-medical-diagnosis-amp-treatment-2026",
+          "https://blackwells.co.uk/bookshop/product/Current-Medical-Diagnosis--Treatment-2026-by-Maxine-A-Papadakis-editor-Michael-W-Rabow-editor-Kenneth-R-McQuaid-editor-Paul-Nadler-editor-Erika-Leemann-Price-editor/9781266135545"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04",
+        "verificateur": "AUD-04"
       },
-      "notes": "Ouvrage annuel : toujours utiliser le millésime de l'année en cours. Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
-      "edition_attendue_non_verifiee": "Édition annuelle la plus récente (CMDT 2026 ou 2027) [À VÉRIFIER]"
+      "notes": "Audit AUD-04 (2026-11-19) : Édition identifiée : 65e (CMDT 2026) (2025) (aucune édition renseignée avant audit). Identifié et vérifié : édition annuelle « CMDT 2026 » = 65e édition (McGraw Hill, parution septembre–octobre 2025, © 2025), ISBN 9781266135545, eBook 9781266643316 ; éditeurs M. A. Papadakis, M. W. Rabow, K. R. McQuaid (assoc. P. L. Nadler, E. Leemann Price). Une édition « CMDT 2027 » apparaît chez un libraire (ISBN 9781264824717 dans l'URL), non confirmée au 2026-11-19. | Notes antérieures (avant audit) : Ouvrage annuel : toujours utiliser le millésime de l'année en cours. Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
+      "edition_cataloguee_avant_audit": {
+        "edition": null,
+        "annee": null,
+        "isbn": [],
+        "statut_verification": "non_verifie",
+        "sources": [],
+        "titre": "Current Medical Diagnosis & Treatment (CMDT)",
+        "editeur_commercial": "McGraw Hill (Lange)",
+        "auteurs_editeurs": [
+          "Papadakis MA",
+          "McPhee SJ",
+          "Rabow MW",
+          "McQuaid KR"
+        ],
+        "edition_attendue_non_verifiee": "Édition annuelle la plus récente (CMDT 2026 ou 2027) [À VÉRIFIER]"
+      },
+      "edition_annoncee": {
+        "edition": "CMDT 2027 (66e)",
+        "annee": null,
+        "isbn": "9781264824717",
+        "statut": "fiche libraire (Blackwell's) sans date ni numéro d'édition ; ISBN relevé uniquement dans l'URL — à confirmer"
+      }
     },
     {
       "id": "OUV-0310",
@@ -499,11 +615,15 @@
         "statut": "verifie",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/books/NBK430685/",
-          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv"
+          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv",
+          "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
         ],
         "date": "2026-11-19"
       },
-      "notes": "Encyclopédie de révision en ligne couvrant toutes les spécialités ; licence lue dans le paquet XML Open Access (LitArch). Qualité hétérogène selon les articles : à recouper."
+      "notes": "Encyclopédie de révision en ligne couvrant toutes les spécialités ; licence lue dans le paquet XML Open Access (LitArch). Qualité hétérogène selon les articles : à recouper. | Audit AUD-04 (2026-11-19) : doublon fusionné — l'entrée OUV-0957 (lot ACQ-05) décrivait le même ouvrage et la même édition (même ressource (StatPearls, mise à jour continue), même NBK430685) ; elle a été retirée du lot et archivée intégralement dans 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/doublons_retires.json ; ses sources, ISBN et informations d'accès ouvert ont été reportés ici. Notes de l'entrée retirée OUV-0957 : Licence : licence non vérifiée pendant la session (souvent indiquée CC BY-NC-ND 4.0 par chapitre) [À VÉRIFIER] ; ND interdit toute traduction ou modification. NCBI Bookshelf NBK430685 ; paquet LitArch de 2,0 Go (non téléchargé) ; encyclopédie de chapitres mis à jour en continu, pas de PDF unique.",
+      "ids_fusionnes": [
+        "OUV-0957"
+      ]
     },
     {
       "id": "OUV-0311",
@@ -638,13 +758,19 @@
       "titre": "Hematology: Basic Principles and Practice (Hoffman)",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Hoffman Ronald"
+        "Hoffman R",
+        "Benz EJ",
+        "Silberstein LE",
+        "Heslop HE",
+        "Weitz JI",
+        "Salama ME"
       ],
-      "edition": "7e",
-      "annee": 2018,
+      "edition": "8e",
+      "annee": 2022,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323357623"
+        "9780323733885",
+        "9780323733892"
       ],
       "langue": "en",
       "specialites": [
@@ -653,9 +779,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "6e",
-        "annee": 2013,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101592036"
+        "edition": "7e",
+        "annee": 2018,
+        "isbn": "9780323357623",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -668,14 +795,37 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/hematology/hoffman/978-0-323-73388-5",
+          "https://evolve.elsevier.com/cs/product/9780323733885?role=student",
+          "https://ascopost.com/issues/september-10-2023/new-updated-edition-of-a-classic-in-hematology-literature/",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101699116"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2022/2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 7e (2018) → 8e (2022) (trace complète dans edition_cataloguee_avant_audit). 8e édition confirmée (Elsevier, 27/10/2022), ISBN 9780323733885 (ISBN-10 0323733883), eBook 9780323733892 ; éditeurs R. Hoffman, E. J. Benz, L. E. Silberstein, H. E. Heslop, J. I. Weitz, M. E. Salama. Une fiche Elsevier « Hematology » (Hoffman) sous l'ISBN 9780443067150 apparaît en recherche (édition suivante possible) [À VÉRIFIER]. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (Elsevier, 2022/2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "7e",
+        "annee": 2018,
+        "isbn": [
+          "9780323357623"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101699116"
+        ],
+        "auteurs_editeurs": [
+          "Hoffman Ronald"
+        ],
+        "edition_precedente": {
+          "edition": "6e",
+          "annee": 2013,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101592036"
+        }
+      }
     },
     {
       "id": "OUV-0315",
@@ -875,18 +1025,15 @@
       "titre": "Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Zipes Douglas P",
-        "Libby Peter",
-        "Bonow Robert O",
-        "Mann Douglas L",
-        "Tomaselli Gordon F",
-        "Braunwald Eugene"
+        "Bonow RO",
+        "et al. [liste complète des éditeurs scientifiques de la 13e éd. À VÉRIFIER]"
       ],
-      "edition": "11e",
-      "annee": 2019,
+      "edition": "13e",
+      "annee": 2025,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323463423"
+        "9780443249747",
+        "9780443434167"
       ],
       "langue": "en",
       "specialites": [
@@ -894,7 +1041,13 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "12e",
+        "annee": null,
+        "isbn": "9780323824675",
+        "remarque": "12e édition (volume unique, ISBN 9780323824675 d'après evolve.elsevier.com) ; année 2021/2022 non confirmée en session",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -906,14 +1059,37 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/braunwald-s-heart-disease-2-volume-set/bonow/978-0-443-24974-7",
+          "https://evolve.elsevier.com/cs/product/9780443249747?role=student",
+          "https://www.us.elsevierhealth.com/braunwalds-heart-disease-single-volume-9780443434167.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101727984"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 12e édition (Elsevier, 2021/2022) est connue ; une 13e est possiblement parue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 11e (2019) → 13e (2025) (trace complète dans edition_cataloguee_avant_audit). 13e édition confirmée sur les sites Elsevier : coffret 2 volumes ISBN 9780443249747 (shop.elsevier.com : 8 décembre 2025 ; evolve : 10/12/2025 ; copyright 2026), volume unique ISBN 9780443434167 (Elsevier : 2026). La 12e édition (ISBN vol. unique 9780323824675) s'intercale entre la 11e (cataloguée avant audit) et la 13e. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 12e édition (Elsevier, 2021/2022) est connue ; une 13e est possiblement parue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "11e",
+        "annee": 2019,
+        "isbn": [
+          "9780323463423"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101727984"
+        ],
+        "auteurs_editeurs": [
+          "Zipes Douglas P",
+          "Libby Peter",
+          "Bonow Robert O",
+          "Mann Douglas L",
+          "Tomaselli Gordon F",
+          "Braunwald Eugene"
+        ]
+      }
     },
     {
       "id": "OUV-0320",
@@ -1227,14 +1403,15 @@
       "titre": "Murray & Nadel's Textbook of Respiratory Medicine",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Broaddus V Courtney",
-        "Mason Robert J"
+        "Broaddus VC",
+        "et al. [À VÉRIFIER]"
       ],
-      "edition": "6e",
-      "annee": 2016,
+      "edition": "7e",
+      "annee": 2021,
       "editeur_commercial": "Elsevier Saunders",
       "isbn": [
-        "9781455733835"
+        "9780323655873",
+        "9780323655880"
       ],
       "langue": "en",
       "specialites": [
@@ -1243,9 +1420,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "5e",
-        "annee": 2010,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101500896"
+        "edition": "6e",
+        "annee": 2016,
+        "isbn": "9781455733835",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -1258,14 +1436,37 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/murray-and-nadels-textbook-of-respiratory-medicine-2-volume-set/broaddus/978-0-323-65587-3",
+          "https://www.us.elsevierhealth.com/murray-nadels-textbook-of-respiratory-medicine-2-volume-set-9780323655873.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101650740"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 7e édition (Elsevier, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 6e (2016) → 7e (2021) (trace complète dans edition_cataloguee_avant_audit). 7e édition confirmée (Elsevier, coffret 2 volumes, parution 17/05/2021, copyright 2022), ISBN 9780323655873 (ISBN-10 0323655874), eBook 9780323655880. Aucune 8e édition repérée sur les sites Elsevier au 2026-11-19. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 7e édition (Elsevier, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "6e",
+        "annee": 2016,
+        "isbn": [
+          "9781455733835"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101650740"
+        ],
+        "auteurs_editeurs": [
+          "Broaddus V Courtney",
+          "Mason Robert J"
+        ],
+        "edition_precedente": {
+          "edition": "5e",
+          "annee": 2010,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101500896"
+        }
+      }
     },
     {
       "id": "OUV-0328",
@@ -1400,15 +1601,16 @@
       "titre": "Sleisenger and Fordtran's Gastrointestinal and Liver Disease",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Feldman Mark",
-        "Friedman Lawrence S",
-        "Brandt Lawrence J"
+        "Chung RT",
+        "Rubin DT",
+        "Wilcox CM"
       ],
-      "edition": "11e",
-      "annee": 2021,
+      "edition": "12e",
+      "annee": 2025,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323609623"
+        "9780443116575",
+        "9780443117275"
       ],
       "langue": "en",
       "specialites": [
@@ -1418,9 +1620,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "10e",
-        "annee": 2016,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101631364"
+        "edition": "11e",
+        "annee": 2021,
+        "isbn": "9780323609623",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -1435,12 +1638,37 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/sleisenger-and-fordtrans-gastrointestinal-and-liver-disease-2-volume-set/chung/978-0-443-11657-5",
+          "https://www.us.elsevierhealth.com/sleisenger-and-fordtrans-gastrointestinal-and-liver-disease-2-volume-set-9780443116575.html",
+          "https://inspectioncopy.elsevier.com/book/details/9780443116575",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101772609"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 11e (2021) → 12e (2025) (trace complète dans edition_cataloguee_avant_audit). 12e édition confirmée (Elsevier, coffret 2 volumes, parution 10/12/2025), ISBN 9780443116575, eBook 9780443117275 ; éditeurs R. T. Chung, D. T. Rubin, C. M. Wilcox. | Notes antérieures (avant audit) : Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "11e",
+        "annee": 2021,
+        "isbn": [
+          "9780323609623"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101772609"
+        ],
+        "auteurs_editeurs": [
+          "Feldman Mark",
+          "Friedman Lawrence S",
+          "Brandt Lawrence J"
+        ],
+        "edition_precedente": {
+          "edition": "10e",
+          "annee": 2016,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101631364"
+        }
+      }
     },
     {
       "id": "OUV-0332",
@@ -1752,18 +1980,19 @@
       "titre": "Brenner & Rector's The Kidney",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Yu Alan S L",
-        "Chertow Glenn M",
-        "Luyckx Valérie A",
-        "Marsden Philip A",
-        "Skorecki Karl",
-        "Taal Maarten W"
+        "Luyckx VA",
+        "Chertow GM",
+        "Marsden PA",
+        "Skorecki K",
+        "Taal MW",
+        "Yu ASL"
       ],
-      "edition": "11e",
-      "annee": 2020,
+      "edition": "12e",
+      "annee": 2026,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323759335"
+        "9780443106415",
+        "9780443381775"
       ],
       "langue": "en",
       "specialites": [
@@ -1772,9 +2001,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "10e",
-        "annee": 2016,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101666927"
+        "edition": "11e",
+        "annee": 2020,
+        "isbn": "9780323759335",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -1789,28 +2019,56 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/brenner-and-rectors-the-kidney-2-volume-set/luyckx/978-0-443-10641-5",
+          "https://www.us.elsevierhealth.com/brenner-rectors-the-kidney-2-volume-set-9780443106415.html",
+          "https://www.elsevierhealth.com.au/brenner-rectors-the-kidney-2-volume-set-9780443106415.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101763763"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 11e (2020) → 12e (2026) (trace complète dans edition_cataloguee_avant_audit). 12e édition confirmée (Elsevier, coffret 2 volumes, 2896 p. ; parution 02/03/2026 — 17/03/2026 sur le site australien ; copyright 2027), ISBN 9780443106415 (ISBN-10 044310641X), eBook 9780443381775 ; éditeurs V. Luyckx, G. M. Chertow, P. A. Marsden, K. Skorecki, M. W. Taal, A. S. L. Yu. | Notes antérieures (avant audit) : Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "11e",
+        "annee": 2020,
+        "isbn": [
+          "9780323759335"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101763763"
+        ],
+        "auteurs_editeurs": [
+          "Yu Alan S L",
+          "Chertow Glenn M",
+          "Luyckx Valérie A",
+          "Marsden Philip A",
+          "Skorecki Karl",
+          "Taal Maarten W"
+        ],
+        "edition_precedente": {
+          "edition": "10e",
+          "annee": 2016,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101666927"
+        }
+      }
     },
     {
       "id": "OUV-0340",
       "titre": "Comprehensive Clinical Nephrology",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Feehally John",
-        "Floege Jürgen",
-        "Tonelli Marcello",
-        "Johnson Richard J"
+        "Johnson RJ",
+        "Floege J",
+        "Tonelli M"
       ],
-      "edition": "6e",
-      "annee": 2019,
+      "edition": "7e",
+      "annee": 2023,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323479097"
+        "9780323825924",
+        "9780323825931"
       ],
       "langue": "en",
       "specialites": [
@@ -1819,9 +2077,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "5e",
-        "annee": 2015,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101632066"
+        "edition": "6e",
+        "annee": 2019,
+        "isbn": "9780323479097",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -1834,14 +2093,46 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/comprehensive-clinical-nephrology/johnson/978-0-323-82592-4",
+          "https://evolve.elsevier.com/cs/product/9780323825924?role=student",
+          "https://inspectioncopy.elsevier.com/book/details/9780323825924",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101735653"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 7e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 6e (2019) → 7e (2023) (trace complète dans edition_cataloguee_avant_audit). 7e édition confirmée (Elsevier ; evolve : parution 04/05/2023, copyright 2024, 1328 p. ; shop.elsevier.com indique 22/05/2024), ISBN 9780323825924, eText 9780323825931 ; éditeurs R. J. Johnson, J. Floege, M. Tonelli. Une 8e édition (ISBN 9780443285516) est pré-annoncée par Elsevier. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 7e édition (Elsevier, 2023) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "6e",
+        "annee": 2019,
+        "isbn": [
+          "9780323479097"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101735653"
+        ],
+        "auteurs_editeurs": [
+          "Feehally John",
+          "Floege Jürgen",
+          "Tonelli Marcello",
+          "Johnson Richard J"
+        ],
+        "edition_precedente": {
+          "edition": "5e",
+          "annee": 2015,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101632066"
+        }
+      },
+      "edition_annoncee": {
+        "edition": "8e",
+        "annee": null,
+        "isbn": "9780443285516",
+        "statut": "pré-annonce Elsevier (« expected availability 12-01-2026 ») — non confirmée"
+      }
     },
     {
       "id": "OUV-0341",
@@ -1965,29 +2256,32 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://www.mheducation.com/highered/mhp/product/adams-victor-s-principles-neurology-twelfth-edition.html",
+          "https://lib.ecu.edu/catalog-preview/catalog/5992691",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/264790"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible. | Audit AUD-04 : 12e édition (McGraw Hill, 2023, ISBN 9781264264520, eText 9781264264537 ; A. H. Ropper, M. A. Samuels, J. P. Klein, S. Prasad) confirmée sur la page éditeur ; aucune 13e édition repérée au 2026-11-19."
     },
     {
       "id": "OUV-0344",
-      "titre": "Bradley's Neurology in Clinical Practice",
+      "titre": "Bradley and Daroff's Neurology in Clinical Practice",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Daroff Robert B",
-        "Jankovic Joseph",
-        "Mazziotta John C",
-        "Pomeroy Scott Loren",
-        "Bradley W G"
+        "Jankovic J",
+        "Newman NJ",
+        "Mazziotta JC",
+        "Pomeroy SL"
       ],
-      "edition": "7e",
-      "annee": 2016,
+      "edition": "9e",
+      "annee": 2026,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323287838"
+        "9780443284038",
+        "9780443284045"
       ],
       "langue": "en",
       "specialites": [
@@ -1996,9 +2290,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "6e",
-        "annee": 2012,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101564932"
+        "edition": "8e",
+        "annee": 2021,
+        "isbn": "9780323642613",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -2011,14 +2306,42 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/bradley-and-daroffs-neurology-in-clinical-practice-2-volume-set/jankovic/978-0-443-28403-8",
+          "https://www.us.elsevierhealth.com/bradley-and-daroffs-neurology-in-clinical-practice-2-volume-set-9780443284038.html",
+          "https://www.livres-medicaux.com/neurologie/64382-bradley-and-daroff-s-neurology-in-clinical-practice-2-volume-9th-edition.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101716299"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (« Bradley and Daroff's Neurology in Clinical Practice », Elsevier, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 7e (2016) → 9e (2026) (trace complète dans edition_cataloguee_avant_audit). 9e édition confirmée sur les sites Elsevier : « Bradley and Daroff's Neurology in Clinical Practice », coffret 2 volumes ISBN 9780443284038, eBook 9780443284045 ; parution 2026 (dates discordantes : 06/04, 24/08 ou 01/09/2026 ; copyright 2027) ; éditeurs J. Jankovic, N. J. Newman, J. C. Mazziotta, S. L. Pomeroy. La 8e édition (23/03/2021, ISBN 9780323642613) s'intercale entre la 7e (cataloguée avant audit) et la 9e. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 8e édition (« Bradley and Daroff's Neurology in Clinical Practice », Elsevier, 2021/2022) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "7e",
+        "annee": 2016,
+        "isbn": [
+          "9780323287838"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101716299"
+        ],
+        "titre": "Bradley's Neurology in Clinical Practice",
+        "auteurs_editeurs": [
+          "Daroff Robert B",
+          "Jankovic Joseph",
+          "Mazziotta John C",
+          "Pomeroy Scott Loren",
+          "Bradley W G"
+        ],
+        "edition_precedente": {
+          "edition": "6e",
+          "annee": 2012,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101564932"
+        }
+      }
     },
     {
       "id": "OUV-0345",
@@ -2333,10 +2656,14 @@
       "auteurs_editeurs": [
         "American Psychiatric Association"
       ],
-      "edition": null,
-      "annee": null,
+      "edition": "5e, révision du texte (DSM-5-TR)",
+      "annee": 2022,
       "editeur_commercial": "American Psychiatric Association Publishing",
-      "isbn": [],
+      "isbn": [
+        "9780890425756",
+        "9780890425763",
+        "9780890425770"
+      ],
       "langue": "en",
       "specialites": [
         "PSYC"
@@ -2354,12 +2681,25 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "non_verifie",
-        "sources": [],
-        "date": "2026-11-19"
+        "statut": "verifie",
+        "sources": [
+          "https://www.barnesandnoble.com/w/diagnostic-and-statistical-manual-of-mental-disorders-fifth-edition-text-revision-american-psychiatric/1147203778",
+          "https://www.bookshare.org/browse/book/4558240",
+          "https://bookstore.merrimack.edu/ebook/9780890425770"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04",
+        "verificateur": "AUD-04"
       },
-      "notes": "Classification de référence ; à articuler avec la CIM-11 (OMS). Traduction française connue (Elsevier Masson) [À VÉRIFIER]. Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
-      "edition_attendue_non_verifiee": "DSM-5-TR (2022) [À VÉRIFIER]"
+      "notes": "Audit AUD-04 (2026-11-19) : Édition identifiée : 5e, révision du texte (DSM-5-TR) (2022) (aucune édition renseignée avant audit). Identifié et vérifié : DSM-5-TR (American Psychiatric Association Publishing, 2022) — ISBN relié 9780890425756, broché 9780890425763, eBook 9780890425770 ; nouveautés : trouble du deuil prolongé, >70 critères modifiés, codes CIM-10-CM mis à jour. Aucune édition ultérieure repérée au 2026-11-19. | Notes antérieures (avant audit) : Classification de référence ; à articuler avec la CIM-11 (OMS). Traduction française connue (Elsevier Masson) [À VÉRIFIER]. Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
+      "edition_cataloguee_avant_audit": {
+        "edition": null,
+        "annee": null,
+        "isbn": [],
+        "statut_verification": "non_verifie",
+        "sources": [],
+        "edition_attendue_non_verifiee": "DSM-5-TR (2022) [À VÉRIFIER]"
+      }
     },
     {
       "id": "OUV-0353",
@@ -2406,24 +2746,35 @@
         "statut": "verifie",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/books/NBK361945/",
-          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv"
+          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv",
+          "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19",
+          "Paquet LitArch 9c/b8/dcp3v4_NBK361945.tar.gz téléchargé et inspecté"
         ],
         "date": "2026-11-19"
       },
-      "notes": "Métadonnées (titre, ISBN, licence) lues dans le paquet XML du sous-ensemble Open Access de NCBI Bookshelf (LitArch) pendant la session."
+      "notes": "Métadonnées (titre, ISBN, licence) lues dans le paquet XML du sous-ensemble Open Access de NCBI Bookshelf (LitArch) pendant la session. | Audit AUD-04 (2026-11-19) : doublon fusionné — l'entrée OUV-0951 (lot ACQ-05) décrivait le même ouvrage et la même édition (même titre (DCP3 vol. 4, Mental, Neurological, and Substance Use Disorders), même édition (3e, 2016), mêmes ISBN, même NBK361945) ; elle a été retirée du lot et archivée intégralement dans 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/doublons_retires.json ; ses sources, ISBN et informations d'accès ouvert ont été reportés ici. Notes de l'entrée retirée OUV-0951 : Licence : CC BY 3.0 IGO (lue dans le XML du paquet LitArch dcp3v4_NBK361945). NCBI Bookshelf NBK361945.",
+      "ids_fusionnes": [
+        "OUV-0951"
+      ]
     },
     {
       "id": "OUV-0354",
       "titre": "Fitzpatrick's Dermatology",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Kang Sewon"
+        "Kang S",
+        "Amagai M",
+        "Bruckner AL",
+        "Enk AH",
+        "Margolis DJ",
+        "McMichael AJ",
+        "Orringer JS"
       ],
-      "edition": "9e",
-      "annee": 2019,
+      "edition": "10e",
+      "annee": null,
       "editeur_commercial": "McGraw-Hill Education",
       "isbn": [
-        "9780071837798"
+        "9781264810864"
       ],
       "langue": "en",
       "specialites": [
@@ -2431,7 +2782,12 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "9e",
+        "annee": 2019,
+        "isbn": "9780071837798",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -2443,14 +2799,30 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "verifie",
+        "statut": "partiel",
         "sources": [
+          "https://www.mheducation.com/highered/mhp/product/fitzpatrick-s-dermatology-tenth-edition-bundle.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101745594"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 9e (2019) → 10e (année non renseignée) (trace complète dans edition_cataloguee_avant_audit). 10e édition identifiée sur la page McGraw Hill (« Fitzpatrick's Dermatology, Tenth Edition », bundle, ISBN 9781264810864, ISBN-10 1264810865 ; éditeurs S. Kang, M. Amagai, A. L. Bruckner, A. H. Enk, D. J. Margolis, A. J. McMichael, J. S. Orringer ; >500 contributeurs). Année de parution non trouvée en session [À VÉRIFIER]. | Notes antérieures (avant audit) : Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "9e",
+        "annee": 2019,
+        "isbn": [
+          "9780071837798"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101745594"
+        ],
+        "auteurs_editeurs": [
+          "Kang Sewon"
+        ]
+      }
     },
     {
       "id": "OUV-0355",
@@ -2691,18 +3063,15 @@
       "titre": "Firestein & Kelley's Textbook of Rheumatology",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Firestein Gary S",
-        "Budd Ralph C",
-        "Gabriel Sherine E",
-        "Koretzky Gary A",
-        "McInnes Iain B",
-        "O'Dell James R"
+        "Firestein GS",
+        "et al. [À VÉRIFIER]"
       ],
-      "edition": "11e",
-      "annee": 2021,
+      "edition": "12e",
+      "annee": 2024,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323639200"
+        "9780323935401",
+        "9780323935906"
       ],
       "langue": "en",
       "specialites": [
@@ -2711,9 +3080,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "10e",
-        "annee": 2017,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101677497"
+        "edition": "11e",
+        "annee": 2021,
+        "isbn": "9780323639200",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -2728,12 +3098,40 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/firestein-and-kelley-s-textbook-of-rheumatology-2-volume-set/firestein/978-0-323-93540-1",
+          "https://www.us.elsevierhealth.com/firestein-kelleys-textbook-of-rheumatology-2-volume-set-9780323935401.html",
+          "https://www.us.elsevierhealth.com/firestein-kelleys-textbook-of-rheumatology-e-book-9780323935906.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101773526"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Titre de la 11e édition : « Firestein & Kelley's » (anciennement « Kelley & Firestein's »). Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 11e (2021) → 12e (2024) (trace complète dans edition_cataloguee_avant_audit). 12e édition confirmée (Elsevier, coffret 2 volumes, parution 09/10/2024), ISBN imprimé 9780323935401, eBook 9780323935906. | Notes antérieures (avant audit) : Titre de la 11e édition : « Firestein & Kelley's » (anciennement « Kelley & Firestein's »). Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "11e",
+        "annee": 2021,
+        "isbn": [
+          "9780323639200"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101773526"
+        ],
+        "auteurs_editeurs": [
+          "Firestein Gary S",
+          "Budd Ralph C",
+          "Gabriel Sherine E",
+          "Koretzky Gary A",
+          "McInnes Iain B",
+          "O'Dell James R"
+        ],
+        "edition_precedente": {
+          "edition": "10e",
+          "annee": 2017,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101677497"
+        }
+      }
     },
     {
       "id": "OUV-0361",
@@ -2957,17 +3355,18 @@
       "titre": "Williams Textbook of Endocrinology",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Melmed Shlomo",
-        "Koenig Ronald J",
-        "Rosen Clifford J",
-        "Auchus Richard J",
-        "Goldfine Allison B"
+        "Melmed S",
+        "Auchus RJ",
+        "Goldfine AB",
+        "Rosen CJ",
+        "Kopp PA"
       ],
-      "edition": "14e",
-      "annee": 2020,
+      "edition": "15e",
+      "annee": 2024,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323555968"
+        "9780323932301",
+        "9780323933476"
       ],
       "langue": "en",
       "specialites": [
@@ -2975,7 +3374,12 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "14e",
+        "annee": 2020,
+        "isbn": "9780323555968",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -2987,14 +3391,36 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/williams-textbook-of-endocrinology/melmed/978-0-323-93230-1",
+          "https://inspectioncopy.elsevier.com/book/details/9780323932301",
+          "https://www.us.elsevierhealth.com/williams-textbook-of-endocrinology-e-book-9780323933476.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/489483"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 15e édition (Elsevier, 2024) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 14e (2020) → 15e (2024) (trace complète dans edition_cataloguee_avant_audit). 15e édition confirmée (Elsevier ; shop.elsevier.com : 3 avril 2024 ; fiche produit : 8 juillet 2024 ; 1862 p.), ISBN imprimé 9780323932301, eBook 9780323933476 ; éditeurs scientifiques S. Melmed, R. J. Auchus, A. B. Goldfine, C. J. Rosen, P. A. Kopp. | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 15e édition (Elsevier, 2024) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "14e",
+        "annee": 2020,
+        "isbn": [
+          "9780323555968"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/489483"
+        ],
+        "auteurs_editeurs": [
+          "Melmed Shlomo",
+          "Koenig Ronald J",
+          "Rosen Clifford J",
+          "Auchus Richard J",
+          "Goldfine Allison B"
+        ]
+      }
     },
     {
       "id": "OUV-0367",
@@ -3043,23 +3469,31 @@
     },
     {
       "id": "OUV-0368",
-      "titre": "Endocrinology: Adult and Pediatric (De Groot)",
+      "titre": "DeGroot's Endocrinology: Basic Science and Clinical Practice",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Jameson JL",
-        "De Groot LJ"
+        "Robertson RP"
       ],
-      "edition": null,
-      "annee": null,
+      "edition": "8e",
+      "annee": 2023,
       "editeur_commercial": "Elsevier",
-      "isbn": [],
+      "isbn": [
+        "9780323694124",
+        "9780323694131"
+      ],
       "langue": "en",
       "specialites": [
         "ENDO"
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "7e",
+        "annee": 2015,
+        "titre": "Endocrinology: Adult and Pediatric (Jameson JL, De Groot LJ)",
+        "isbn": "9780323189071",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -3071,12 +3505,30 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "non_verifie",
-        "sources": [],
-        "date": "2026-11-19"
+        "statut": "verifie",
+        "sources": [
+          "https://shop.elsevier.com/books/degroots-endocrinology/robertson/978-0-323-69412-4",
+          "https://inspectioncopy.elsevier.com/book/details/9780323694124",
+          "https://shop.elsevier.com/books/endocrinology-adult-and-pediatric/jameson/978-0-323-18907-1"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04",
+        "verificateur": "AUD-04"
       },
-      "notes": "Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
-      "edition_attendue_non_verifiee": "8e édition (2023) [À VÉRIFIER]"
+      "notes": "Audit AUD-04 (2026-11-19) : Édition identifiée : 8e (2023) (aucune édition renseignée avant audit). Identifié et vérifié : l'ouvrage catalogué sous « Endocrinology: Adult and Pediatric (De Groot) » paraît désormais sous le titre « DeGroot's Endocrinology: Basic Science and Clinical Practice », 8e édition (Elsevier, © 2023, 2 volumes, 2880 p.), ISBN 9780323694124, eBook 9780323694131 ; éditeur scientifique R. P. Robertson. 7e édition (Jameson & De Groot, 25/02/2015) : ISBN 9780323189071 (d'après l'URL de la fiche Elsevier). | Notes antérieures (avant audit) : Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
+      "edition_cataloguee_avant_audit": {
+        "edition": null,
+        "annee": null,
+        "isbn": [],
+        "statut_verification": "non_verifie",
+        "sources": [],
+        "titre": "Endocrinology: Adult and Pediatric (De Groot)",
+        "auteurs_editeurs": [
+          "Jameson JL",
+          "De Groot LJ"
+        ],
+        "edition_attendue_non_verifiee": "8e édition (2023) [À VÉRIFIER]"
+      }
     },
     {
       "id": "OUV-0369",
@@ -3118,11 +3570,15 @@
         "statut": "verifie",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/books/NBK278943/",
-          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv"
+          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv",
+          "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
         ],
         "date": "2026-11-19"
       },
-      "notes": "Manuel d'endocrinologie en ligne (2000-) ; licence lue dans le paquet XML Open Access."
+      "notes": "Manuel d'endocrinologie en ligne (2000-) ; licence lue dans le paquet XML Open Access. | Audit AUD-04 (2026-11-19) : doublon fusionné — l'entrée OUV-0958 (lot ACQ-05) décrivait le même ouvrage et la même édition (même ressource (Endotext, mise à jour continue), même NBK278943) ; elle a été retirée du lot et archivée intégralement dans 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/doublons_retires.json ; ses sources, ISBN et informations d'accès ouvert ont été reportés ici. Notes de l'entrée retirée OUV-0958 : Licence : licence non vérifiée pendant la session [À VÉRIFIER]. NCBI Bookshelf NBK278943 ; manuel d'endocrinologie en ligne mis à jour en continu ; paquet LitArch de 155 Mo non téléchargé.",
+      "ids_fusionnes": [
+        "OUV-0958"
+      ]
     },
     {
       "id": "OUV-0370",
@@ -3608,26 +4064,29 @@
         "statut": "verifie",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/books/NBK343628/",
-          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv"
+          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv",
+          "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
         ],
         "date": "2026-11-19"
       },
-      "notes": "Éditeurs scientifiques d'après connaissance antérieure [À VÉRIFIER]. Métadonnées (titre, ISBN, licence) lues dans le paquet XML du sous-ensemble Open Access de NCBI Bookshelf (LitArch) pendant la session."
+      "notes": "Éditeurs scientifiques d'après connaissance antérieure [À VÉRIFIER]. Métadonnées (titre, ISBN, licence) lues dans le paquet XML du sous-ensemble Open Access de NCBI Bookshelf (LitArch) pendant la session. | Audit AUD-04 (2026-11-19) : doublon fusionné — l'entrée OUV-0953 (lot ACQ-05) décrivait le même ouvrage et la même édition (même titre (DCP3 vol. 3, Cancer), même édition (3e, 2015), même NBK343628) ; elle a été retirée du lot et archivée intégralement dans 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/doublons_retires.json ; ses sources, ISBN et informations d'accès ouvert ont été reportés ici. Notes de l'entrée retirée OUV-0953 : Licence : probablement CC BY 3.0 IGO [À VÉRIFIER — paquet non inspecté]. NCBI Bookshelf NBK343628 ; éditeurs scientifiques non vérifiés.",
+      "ids_fusionnes": [
+        "OUV-0953"
+      ]
     },
     {
       "id": "OUV-0381",
       "titre": "Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Bennett John E",
-        "Dolin Raphael",
-        "Blaser Martin J"
+        "Blaser MJ",
+        "et al. [À VÉRIFIER]"
       ],
-      "edition": "9e",
-      "annee": 2020,
+      "edition": "10e",
+      "annee": 2025,
       "editeur_commercial": "Elsevier",
       "isbn": [
-        "9780323482554"
+        "9780323934992"
       ],
       "langue": "en",
       "specialites": [
@@ -3636,9 +4095,10 @@
       "niveau": "reference",
       "origine_priorite": "internationale",
       "edition_precedente": {
-        "edition": "8e",
-        "annee": 2015,
-        "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101633437"
+        "edition": "9e",
+        "annee": 2020,
+        "isbn": "9780323482554",
+        "source": "audit AUD-04 (voir verification.sources)"
       },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
@@ -3651,14 +4111,39 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "partiel",
+        "statut": "verifie",
         "sources": [
+          "https://shop.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/blaser/978-0-323-93499-2",
+          "https://evolve.elsevier.com/cs/product/9780323934992?role=student",
+          "https://inspectioncopy.elsevier.com/book/details/9780323934992",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/101757445"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 10e édition (Elsevier, 2024/2025) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification]."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 9e (2020) → 10e (2025) (trace complète dans edition_cataloguee_avant_audit). 10e édition confirmée (Elsevier, coffret 2 volumes, parution 07/10/2025, copyright 2026), ISBN 9780323934992 (ISBN-10 0323934994) ; eBook VitalSource 9780323935890. Traduction espagnole annoncée (Elsevier, 2026). | Notes antérieures (avant audit) : Édition vérifiée (NLM Catalog) = dernière édition cataloguée par la NLM. Une 10e édition (Elsevier, 2024/2025) est connue. [À VÉRIFIER — édition plus récente probable, non confirmée en session ; ne pas remplacer sans vérification].",
+      "edition_cataloguee_avant_audit": {
+        "edition": "9e",
+        "annee": 2020,
+        "isbn": [
+          "9780323482554"
+        ],
+        "statut_verification": "partiel",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/101757445"
+        ],
+        "auteurs_editeurs": [
+          "Bennett John E",
+          "Dolin Raphael",
+          "Blaser Martin J"
+        ],
+        "edition_precedente": {
+          "edition": "8e",
+          "annee": 2015,
+          "source": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101633437"
+        }
+      }
     },
     {
       "id": "OUV-0382",
@@ -3796,15 +4281,19 @@
     },
     {
       "id": "OUV-0385",
-      "titre": "Red Book: Report of the Committee on Infectious Diseases",
+      "titre": "Red Book: 2024–2027 Report of the Committee on Infectious Diseases",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "American Academy of Pediatrics, Committee on Infectious Diseases"
+        "American Academy of Pediatrics, Committee on Infectious Diseases",
+        "Kimberlin DW"
       ],
-      "edition": null,
-      "annee": null,
+      "edition": "33e (2024–2027)",
+      "annee": 2024,
       "editeur_commercial": "American Academy of Pediatrics",
-      "isbn": [],
+      "isbn": [
+        "9781610027342",
+        "9781610027359"
+      ],
       "langue": "en",
       "specialites": [
         "INFE",
@@ -3823,12 +4312,29 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "non_verifie",
-        "sources": [],
-        "date": "2026-11-19"
+        "statut": "verifie",
+        "sources": [
+          "https://aap.org/Red-Book-2024-Report-of-the-Committee-on-Infectious-Diseases-33rd-Edition-Paperback",
+          "https://aap.org/Red-Book-2024-Report-of-the-Committee-on-Infectious-Diseases-33rd-Edition-eBook",
+          "https://www.chop.edu/vaccine-update-healthcare-professionals/newsletter/bookshelf-red-book-2024-2027"
+        ],
+        "date": "2026-11-19",
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04",
+        "verificateur": "AUD-04"
       },
-      "notes": "Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
-      "edition_attendue_non_verifiee": "Édition triennale la plus récente (Red Book 2024-2027) [À VÉRIFIER]"
+      "notes": "Audit AUD-04 (2026-11-19) : Édition identifiée : 33e (2024–2027) (2024) (aucune édition renseignée avant audit). Identifié et vérifié sur le site de l'éditeur (AAP) : Red Book 2024–2027, 33e édition, American Academy of Pediatrics, mai 2024, ISBN broché 9781610027342, eBook 9781610027359 ; éditeur scientifique D. W. Kimberlin. | Notes antérieures (avant audit) : Titre absent du NLM Catalog sous cette forme et budget de recherche web épuisé : édition, année et ISBN non vérifiés.",
+      "edition_cataloguee_avant_audit": {
+        "edition": null,
+        "annee": null,
+        "isbn": [],
+        "statut_verification": "non_verifie",
+        "sources": [],
+        "titre": "Red Book: Report of the Committee on Infectious Diseases",
+        "auteurs_editeurs": [
+          "American Academy of Pediatrics, Committee on Infectious Diseases"
+        ],
+        "edition_attendue_non_verifiee": "Édition triennale la plus récente (Red Book 2024-2027) [À VÉRIFIER]"
+      }
     },
     {
       "id": "OUV-0386",
@@ -3872,12 +4378,15 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://evolve.elsevier.com/cs/product/9780323883054?role=student",
+          "https://shop.elsevier.com/books/nelson-textbook-of-pediatrics-2-volume-set/kliegman/978-0-323-88305-4",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/272675"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible. | Audit AUD-04 : 22e édition confirmée (Elsevier, coffret 2 volumes, ISBN 9780323883054 ; eBook 9780323883061) ; parution avril 2024 (evolve : 25/04/2024), copyright 2025 — l'année cataloguée (2025) correspond au copyright. Éditeurs R. M. Kliegman, J. W. St Geme III. Aucune 23e édition repérée au 2026-11-19."
     },
     {
       "id": "OUV-0387",
@@ -4054,11 +4563,16 @@
         "statut": "verifie",
         "sources": [
           "https://www.ncbi.nlm.nih.gov/books/NBK361907/",
-          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv"
+          "https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv",
+          "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19",
+          "Paquet LitArch 94/f4/dcp3v2_NBK361907.tar.gz téléchargé et inspecté (métadonnées book-meta et <license>)"
         ],
         "date": "2026-11-19"
       },
-      "notes": "Éditeurs scientifiques d'après connaissance antérieure [À VÉRIFIER]. Métadonnées (titre, ISBN, licence) lues dans le paquet XML du sous-ensemble Open Access de NCBI Bookshelf (LitArch) pendant la session."
+      "notes": "Éditeurs scientifiques d'après connaissance antérieure [À VÉRIFIER]. Métadonnées (titre, ISBN, licence) lues dans le paquet XML du sous-ensemble Open Access de NCBI Bookshelf (LitArch) pendant la session. | Audit AUD-04 (2026-11-19) : doublon fusionné — l'entrée OUV-0950 (lot ACQ-05) décrivait le même ouvrage et la même édition (même titre (DCP3 vol. 2, Reproductive, Maternal, Newborn, and Child Health), même édition (3e, 2016), mêmes ISBN, même NCBI Bookshelf NBK361907) ; elle a été retirée du lot et archivée intégralement dans 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/doublons_retires.json ; ses sources, ISBN et informations d'accès ouvert ont été reportés ici. Notes de l'entrée retirée OUV-0950 : Licence : CC BY 3.0 IGO (lue dans le XML du paquet LitArch dcp3v2_NBK361907). NCBI Bookshelf NBK361907. Redistribuable (CC BY) si un PDF complet est obtenu depuis une source autorisée (Banque mondiale).",
+      "ids_fusionnes": [
+        "OUV-0950"
+      ]
     },
     {
       "id": "OUV-0391",
@@ -4324,12 +4838,15 @@
       "verification": {
         "statut": "verifie",
         "sources": [
+          "https://www.mhprofessional.com/williams-gynecology-fourth-edition-9781260456868-usa",
+          "https://www.mheducation.com/highered/mhp/product/williams-gynecology-fourth-edition.html",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/490683"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible. | Audit AUD-04 : 4e édition (McGraw Hill, 2020, ISBN 9781260456868) toujours la plus récente repérée (page éditeur McGraw Hill) ; aucune 5e édition trouvée par recherche web au 2026-11-19."
     },
     {
       "id": "OUV-0397",
@@ -4559,13 +5076,14 @@
       "titre": "Williams Obstetrics",
       "sous_titre": "",
       "auteurs_editeurs": [
-        "Cunningham F Gary"
+        "Hoffman BL",
+        "et al. (University of Texas Southwestern Medical Center / Parkland Hospital) [À VÉRIFIER]"
       ],
-      "edition": "26e",
-      "annee": 2022,
+      "edition": "27e",
+      "annee": null,
       "editeur_commercial": "McGraw Hill",
       "isbn": [
-        "9781260462739"
+        "9781266022357"
       ],
       "langue": "en",
       "specialites": [
@@ -4573,7 +5091,12 @@
       ],
       "niveau": "reference",
       "origine_priorite": "internationale",
-      "edition_precedente": null,
+      "edition_precedente": {
+        "edition": "26e",
+        "annee": 2022,
+        "isbn": "9781260462739",
+        "source": "audit AUD-04 (voir verification.sources)"
+      },
       "traduction_francaise": null,
       "statut_acquisition": "identifie_non_acquis",
       "motif_non_acquisition": "Ouvrage protégé par le droit d'auteur : aucune copie intégrale légalement redistribuable ; catalogage bibliographique uniquement.",
@@ -4585,14 +5108,31 @@
       "acces_ouvert": null,
       "dossiers_mediverse_associes": [],
       "verification": {
-        "statut": "verifie",
+        "statut": "partiel",
         "sources": [
+          "https://www.mheducation.com/highered/mhp/product/williams-obstetrics-27e.html",
+          "https://www.thriftbooks.com/w/williams-obstetrics-27e_barbara-l-hoffman/59358824/",
           "https://www.ncbi.nlm.nih.gov/nlmcatalog/381951"
         ],
         "date": "2026-11-19",
-        "methode": "NLM Catalog (NCBI E-utilities)"
+        "methode": "Recherche web (WebSearch) : sites éditeurs, libraires, catalogues de bibliothèques — audit AUD-04 ; antérieurement : NLM Catalog (NCBI E-utilities)",
+        "verificateur": "AUD-04"
       },
-      "notes": "Rédacteur principal : F. Gary Cunningham. Une 27e édition n'est pas repérée dans le NLM Catalog à la date de vérification. Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+      "notes": "Audit AUD-04 (2026-11-19) : ÉDITION MISE À JOUR — cataloguée avant audit : 26e (2022) → 27e (année non renseignée) (trace complète dans edition_cataloguee_avant_audit). 27e édition identifiée : page produit McGraw Hill « Williams Obstetrics 27e » (ISBN-13 9781266022357, confirmé par un libraire : ISBN-10 126602235X), >1000 illustrations, références bibliographiques jusqu'en 2026. Date de parution non trouvée en session [À VÉRIFIER — 2026 probable, non confirmé] ; la page éditeur peut être une pré-annonce. | Notes antérieures (avant audit) : Rédacteur principal : F. Gary Cunningham. Une 27e édition n'est pas repérée dans le NLM Catalog à la date de vérification. Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible.",
+      "edition_cataloguee_avant_audit": {
+        "edition": "26e",
+        "annee": 2022,
+        "isbn": [
+          "9781260462739"
+        ],
+        "statut_verification": "verifie",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/381951"
+        ],
+        "auteurs_editeurs": [
+          "Cunningham F Gary"
+        ]
+      }
     },
     {
       "id": "OUV-0403",
@@ -5175,6 +5715,16 @@
         "methode": "NLM Catalog (NCBI E-utilities)"
       },
       "notes": "Dernière édition repérée dans le NLM Catalog au 2026-11-19 ; une édition plus récente non encore cataloguée reste possible."
+    }
+  ],
+  "audits": [
+    {
+      "agent": "AUD-04",
+      "date": "2026-11-19",
+      "objet": "audit des éditions (dernière édition, année, ISBN) et fusion des doublons",
+      "entrees_auditees": 22,
+      "entrees_retirees_doublons": 0,
+      "sauvegarde": "00_SYSTEME/sauvegardes/20261119/24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-medicales.avant_audit_AUD-04.json"
     }
   ]
 }

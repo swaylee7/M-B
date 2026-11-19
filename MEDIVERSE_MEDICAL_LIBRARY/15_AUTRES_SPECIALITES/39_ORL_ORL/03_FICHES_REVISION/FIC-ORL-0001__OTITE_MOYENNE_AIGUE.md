@@ -206,7 +206,7 @@ Disponibilité des formes (cefpodoxime en suspension, pristinamycine) `[À VÉRI
 | 6–23 mois | Antibiotique | Antibiotique | Antibiotique **ou** surveillance |
 | ≥ 24 mois | Antibiotique | Antibiotique **ou** surveillance | Antibiotique **ou** surveillance |
 
-Amoxicilline **80 à 90 mg/kg/j** ; amox-clav si amoxicilline dans les 30 jours, conjonctivite ou OMA récidivante résistante ; durées **10 jours** (< 2 ans, formes sévères), **7 jours** (2-5 ans), **5 à 7 jours** (≥ 6 ans). **Différences** : la France n'admet l'abstention qu'**après 2 ans** et propose des durées plus courtes ; l'AAP élargit l'amox-clav d'emblée et encadre moins les AINS.
+Amoxicilline **80 à 90 mg/kg/j** ; amox-clav si amoxicilline dans les 30 jours, conjonctivite ou OMA récidivante résistante ; durées **10 jours** (< 2 ans, formes sévères), **7 jours** (entre 2 et 5 ans), **5 à 7 jours** (≥ 6 ans). **Différences** : la France n'admet l'abstention qu'**après 2 ans** et propose des durées plus courtes ; l'AAP élargit l'amox-clav d'emblée et encadre moins les AINS.
 
 ### 4.4 Échec (48-72 h) et gestes ORL
 
@@ -225,7 +225,7 @@ Amoxicilline **80 à 90 mg/kg/j** ; amox-clav si amoxicilline dans les 30 jours,
 - **Réévaluation à 48-72 h** si pas d'amélioration, ou **systématiquement** en cas d'abstention initiale ; reconsulter si fièvre persistante, douleur non contrôlée, **tuméfaction rétro-auriculaire**, asymétrie faciale, vomissements, somnolence, raideur de nuque.
 - **Pas de contrôle otoscopique systématique** chez l'enfant asymptomatique (forme simple) ; contrôle chez le nourrisson, si otites récidivantes, plainte auditive ou retard de langage (audiométrie si OSM au-delà de 3 mois) `[À VÉRIFIER — recommandations ORL sur l'OSM]`.
 - **OSM post-otitique** : épanchement persistant plusieurs semaines = **pas un échec**, pas d'antibiotique.
-- **Cochrane 2023** : bénéfice **modeste** des antibiotiques (douleur à 2-3 et 4-7 jours, perforation, atteinte controlatérale) au prix d'effets indésirables → abstention ciblée **après 2 ans** dans les formes non sévères [S7].
+- **Cochrane 2023** : bénéfice **modeste** des antibiotiques (douleur à 2-3 jours et à 4-7 jours, perforation, atteinte controlatérale) au prix d'effets indésirables → abstention ciblée **après 2 ans** dans les formes non sévères [S7].
 
 | Complication | Signes | Conduite |
 |---|---|---|

@@ -1,0 +1,331 @@
+{
+  "description": "Entrées retirées des lots du catalogue des ouvrages car doublons évidents (même ouvrage, même édition). Chaque entrée est conservée intégralement ; l'entrée conservée porte l'id retiré dans `ids_fusionnes` et dans `notes`.",
+  "agent": "AUD-04",
+  "date": "2026-11-19",
+  "doublons": [
+    {
+      "id_retire": "OUV-0950",
+      "lot_origine": "ACQ-05",
+      "fusionne_dans": "OUV-0390",
+      "lot_conserve": "ANA-medicales",
+      "motif": "même titre (DCP3 vol. 2, Reproductive, Maternal, Newborn, and Child Health), même édition (3e, 2016), mêmes ISBN, même NCBI Bookshelf NBK361907",
+      "date": "2026-11-19",
+      "agent": "AUD-04",
+      "entree_retiree": {
+        "id": "OUV-0950",
+        "titre": "Reproductive, Maternal, Newborn, and Child Health",
+        "sous_titre": "Disease Control Priorities, Third Edition (Volume 2)",
+        "auteurs_editeurs": [
+          "Black RE",
+          "Laxminarayan R",
+          "Temmerman M",
+          "Walker N"
+        ],
+        "edition": "",
+        "annee": 2016,
+        "editeur_commercial": "The International Bank for Reconstruction and Development / The World Bank",
+        "isbn": [
+          "978-1-4648-0348-2",
+          "978-1-4648-0368-0"
+        ],
+        "langue": "en",
+        "specialites": [
+          "PEDI",
+          "OBST",
+          "SPUB"
+        ],
+        "niveau": "reference",
+        "origine_priorite": "internationale",
+        "edition_precedente": null,
+        "traduction_francaise": null,
+        "statut_acquisition": "identifie_non_acquis",
+        "motif_non_acquisition": "Pas de PDF complet disponible via les hôtes autorisés : le paquet LitArch ne contient que du XML (+ annexes/chapitres PDF) et les pages Bookshelf (www.ncbi.nlm.nih.gov/books) sont derrière un reCAPTCHA. Catalogue seulement.",
+        "voies_acces_legales": [
+          "NCBI Bookshelf (lecture en ligne gratuite)",
+          "paquet XML LitArch (ftp.ncbi.nlm.nih.gov/pub/litarch)"
+        ],
+        "dossiers_mediverse_associes": [],
+        "verification": {
+          "statut": "verifie",
+          "sources": [
+            "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19",
+            "Paquet LitArch 94/f4/dcp3v2_NBK361907.tar.gz téléchargé et inspecté (métadonnées book-meta et <license>)"
+          ],
+          "date": "2026-11-19"
+        },
+        "notes": "Licence : CC BY 3.0 IGO (lue dans le XML du paquet LitArch dcp3v2_NBK361907). NCBI Bookshelf NBK361907. Redistribuable (CC BY) si un PDF complet est obtenu depuis une source autorisée (Banque mondiale)."
+      }
+    },
+    {
+      "id_retire": "OUV-0951",
+      "lot_origine": "ACQ-05",
+      "fusionne_dans": "OUV-0353",
+      "lot_conserve": "ANA-medicales",
+      "motif": "même titre (DCP3 vol. 4, Mental, Neurological, and Substance Use Disorders), même édition (3e, 2016), mêmes ISBN, même NBK361945",
+      "date": "2026-11-19",
+      "agent": "AUD-04",
+      "entree_retiree": {
+        "id": "OUV-0951",
+        "titre": "Mental, Neurological, and Substance Use Disorders",
+        "sous_titre": "Disease Control Priorities, Third Edition (Volume 4)",
+        "auteurs_editeurs": [
+          "Patel V",
+          "Chisholm D",
+          "Dua T",
+          "Laxminarayan R",
+          "Medina-Mora ME"
+        ],
+        "edition": "",
+        "annee": 2016,
+        "editeur_commercial": "The International Bank for Reconstruction and Development / The World Bank",
+        "isbn": [
+          "978-1-4648-0426-7",
+          "978-1-4648-0428-1"
+        ],
+        "langue": "en",
+        "specialites": [
+          "PSYC",
+          "NEUR",
+          "SPUB"
+        ],
+        "niveau": "reference",
+        "origine_priorite": "internationale",
+        "edition_precedente": null,
+        "traduction_francaise": null,
+        "statut_acquisition": "identifie_non_acquis",
+        "motif_non_acquisition": "Pas de PDF complet disponible via les hôtes autorisés : le paquet LitArch ne contient que du XML (+ annexes/chapitres PDF) et les pages Bookshelf (www.ncbi.nlm.nih.gov/books) sont derrière un reCAPTCHA. Catalogue seulement.",
+        "voies_acces_legales": [
+          "NCBI Bookshelf (lecture en ligne gratuite)",
+          "paquet XML LitArch (ftp.ncbi.nlm.nih.gov/pub/litarch)"
+        ],
+        "dossiers_mediverse_associes": [],
+        "verification": {
+          "statut": "verifie",
+          "sources": [
+            "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19",
+            "Paquet LitArch 9c/b8/dcp3v4_NBK361945.tar.gz téléchargé et inspecté"
+          ],
+          "date": "2026-11-19"
+        },
+        "notes": "Licence : CC BY 3.0 IGO (lue dans le XML du paquet LitArch dcp3v4_NBK361945). NCBI Bookshelf NBK361945."
+      }
+    },
+    {
+      "id_retire": "OUV-0952",
+      "lot_origine": "ACQ-05",
+      "fusionne_dans": "OUV-0505",
+      "lot_conserve": "ANA-chirurgicales",
+      "motif": "même titre (DCP3 vol. 1, Essential Surgery), même édition (3e, 2015), même NBK333500",
+      "date": "2026-11-19",
+      "agent": "AUD-04",
+      "entree_retiree": {
+        "id": "OUV-0952",
+        "titre": "Essential Surgery",
+        "sous_titre": "Disease Control Priorities, Third Edition (Volume 1)",
+        "auteurs_editeurs": [],
+        "edition": "",
+        "annee": 2015,
+        "editeur_commercial": "The International Bank for Reconstruction and Development / The World Bank",
+        "isbn": [],
+        "langue": "en",
+        "specialites": [
+          "CGEN",
+          "SPUB"
+        ],
+        "niveau": "reference",
+        "origine_priorite": "internationale",
+        "edition_precedente": null,
+        "traduction_francaise": null,
+        "statut_acquisition": "identifie_non_acquis",
+        "motif_non_acquisition": "Pas de PDF complet disponible via les hôtes autorisés : le paquet LitArch ne contient que du XML (+ annexes/chapitres PDF) et les pages Bookshelf (www.ncbi.nlm.nih.gov/books) sont derrière un reCAPTCHA. Catalogue seulement.",
+        "voies_acces_legales": [
+          "NCBI Bookshelf (lecture en ligne gratuite)",
+          "paquet XML LitArch (ftp.ncbi.nlm.nih.gov/pub/litarch)"
+        ],
+        "dossiers_mediverse_associes": [],
+        "verification": {
+          "statut": "partiel",
+          "sources": [
+            "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
+          ],
+          "date": "2026-11-19"
+        },
+        "notes": "Licence : probablement CC BY 3.0 IGO comme les autres volumes DCP3 [À VÉRIFIER — paquet non inspecté]. NCBI Bookshelf NBK333500 ; éditeurs scientifiques non vérifiés pendant la session."
+      }
+    },
+    {
+      "id_retire": "OUV-0953",
+      "lot_origine": "ACQ-05",
+      "fusionne_dans": "OUV-0380",
+      "lot_conserve": "ANA-medicales",
+      "motif": "même titre (DCP3 vol. 3, Cancer), même édition (3e, 2015), même NBK343628",
+      "date": "2026-11-19",
+      "agent": "AUD-04",
+      "entree_retiree": {
+        "id": "OUV-0953",
+        "titre": "Cancer",
+        "sous_titre": "Disease Control Priorities, Third Edition (Volume 3)",
+        "auteurs_editeurs": [],
+        "edition": "",
+        "annee": 2015,
+        "editeur_commercial": "The International Bank for Reconstruction and Development / The World Bank",
+        "isbn": [],
+        "langue": "en",
+        "specialites": [
+          "ONCO",
+          "SPUB"
+        ],
+        "niveau": "reference",
+        "origine_priorite": "internationale",
+        "edition_precedente": null,
+        "traduction_francaise": null,
+        "statut_acquisition": "identifie_non_acquis",
+        "motif_non_acquisition": "Pas de PDF complet disponible via les hôtes autorisés : le paquet LitArch ne contient que du XML (+ annexes/chapitres PDF) et les pages Bookshelf (www.ncbi.nlm.nih.gov/books) sont derrière un reCAPTCHA. Catalogue seulement.",
+        "voies_acces_legales": [
+          "NCBI Bookshelf (lecture en ligne gratuite)",
+          "paquet XML LitArch (ftp.ncbi.nlm.nih.gov/pub/litarch)"
+        ],
+        "dossiers_mediverse_associes": [],
+        "verification": {
+          "statut": "partiel",
+          "sources": [
+            "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
+          ],
+          "date": "2026-11-19"
+        },
+        "notes": "Licence : probablement CC BY 3.0 IGO [À VÉRIFIER — paquet non inspecté]. NCBI Bookshelf NBK343628 ; éditeurs scientifiques non vérifiés."
+      }
+    },
+    {
+      "id_retire": "OUV-0954",
+      "lot_origine": "ACQ-05",
+      "fusionne_dans": "OUV-0699",
+      "lot_conserve": "ANA-transversales",
+      "motif": "même titre (DCP3 vol. 9, Improving Health and Reducing Poverty), même édition (3e, 2017), même NBK525289",
+      "date": "2026-11-19",
+      "agent": "AUD-04",
+      "entree_retiree": {
+        "id": "OUV-0954",
+        "titre": "Disease Control Priorities: Improving Health and Reducing Poverty",
+        "sous_titre": "Disease Control Priorities, 3rd edition (Volume 9)",
+        "auteurs_editeurs": [],
+        "edition": "",
+        "annee": 2017,
+        "editeur_commercial": "The International Bank for Reconstruction and Development / The World Bank",
+        "isbn": [],
+        "langue": "en",
+        "specialites": [
+          "SPUB"
+        ],
+        "niveau": "reference",
+        "origine_priorite": "internationale",
+        "edition_precedente": null,
+        "traduction_francaise": null,
+        "statut_acquisition": "identifie_non_acquis",
+        "motif_non_acquisition": "Pas de PDF complet disponible via les hôtes autorisés : le paquet LitArch ne contient que du XML (+ annexes/chapitres PDF) et les pages Bookshelf (www.ncbi.nlm.nih.gov/books) sont derrière un reCAPTCHA. Catalogue seulement.",
+        "voies_acces_legales": [
+          "NCBI Bookshelf (lecture en ligne gratuite)",
+          "paquet XML LitArch (ftp.ncbi.nlm.nih.gov/pub/litarch)"
+        ],
+        "dossiers_mediverse_associes": [],
+        "verification": {
+          "statut": "partiel",
+          "sources": [
+            "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
+          ],
+          "date": "2026-11-19"
+        },
+        "notes": "Licence : probablement CC BY 3.0 IGO [À VÉRIFIER — paquet non inspecté]. NCBI Bookshelf NBK525289 ; utile pour les items d'économie et de programmation sanitaire (RES-MED-136, RES-MED-137)."
+      }
+    },
+    {
+      "id_retire": "OUV-0957",
+      "lot_origine": "ACQ-05",
+      "fusionne_dans": "OUV-0310",
+      "lot_conserve": "ANA-medicales",
+      "motif": "même ressource (StatPearls, mise à jour continue), même NBK430685",
+      "date": "2026-11-19",
+      "agent": "AUD-04",
+      "entree_retiree": {
+        "id": "OUV-0957",
+        "titre": "StatPearls",
+        "sous_titre": "",
+        "auteurs_editeurs": [
+          "StatPearls Publishing"
+        ],
+        "edition": "",
+        "annee": 2026,
+        "editeur_commercial": "StatPearls Publishing (Treasure Island, FL)",
+        "isbn": [],
+        "langue": "en",
+        "specialites": [
+          "MINT"
+        ],
+        "niveau": "revision",
+        "origine_priorite": "internationale",
+        "edition_precedente": null,
+        "traduction_francaise": null,
+        "statut_acquisition": "identifie_non_acquis",
+        "motif_non_acquisition": "Pas de PDF complet disponible via les hôtes autorisés : le paquet LitArch ne contient que du XML (+ annexes/chapitres PDF) et les pages Bookshelf (www.ncbi.nlm.nih.gov/books) sont derrière un reCAPTCHA. Catalogue seulement.",
+        "voies_acces_legales": [
+          "NCBI Bookshelf (lecture en ligne gratuite)",
+          "paquet XML LitArch (ftp.ncbi.nlm.nih.gov/pub/litarch)"
+        ],
+        "dossiers_mediverse_associes": [],
+        "verification": {
+          "statut": "partiel",
+          "sources": [
+            "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
+          ],
+          "date": "2026-11-19"
+        },
+        "notes": "Licence : licence non vérifiée pendant la session (souvent indiquée CC BY-NC-ND 4.0 par chapitre) [À VÉRIFIER] ; ND interdit toute traduction ou modification. NCBI Bookshelf NBK430685 ; paquet LitArch de 2,0 Go (non téléchargé) ; encyclopédie de chapitres mis à jour en continu, pas de PDF unique."
+      }
+    },
+    {
+      "id_retire": "OUV-0958",
+      "lot_origine": "ACQ-05",
+      "fusionne_dans": "OUV-0369",
+      "lot_conserve": "ANA-medicales",
+      "motif": "même ressource (Endotext, mise à jour continue), même NBK278943",
+      "date": "2026-11-19",
+      "agent": "AUD-04",
+      "entree_retiree": {
+        "id": "OUV-0958",
+        "titre": "Endotext",
+        "sous_titre": "",
+        "auteurs_editeurs": [
+          "MDText.com, Inc."
+        ],
+        "edition": "",
+        "annee": 2000,
+        "editeur_commercial": "MDText.com, Inc. (South Dartmouth, MA)",
+        "isbn": [],
+        "langue": "en",
+        "specialites": [
+          "ENDO",
+          "DIAB"
+        ],
+        "niveau": "reference",
+        "origine_priorite": "internationale",
+        "edition_precedente": null,
+        "traduction_francaise": null,
+        "statut_acquisition": "identifie_non_acquis",
+        "motif_non_acquisition": "Pas de PDF complet disponible via les hôtes autorisés : le paquet LitArch ne contient que du XML (+ annexes/chapitres PDF) et les pages Bookshelf (www.ncbi.nlm.nih.gov/books) sont derrière un reCAPTCHA. Catalogue seulement.",
+        "voies_acces_legales": [
+          "NCBI Bookshelf (lecture en ligne gratuite)",
+          "paquet XML LitArch (ftp.ncbi.nlm.nih.gov/pub/litarch)"
+        ],
+        "dossiers_mediverse_associes": [],
+        "verification": {
+          "statut": "partiel",
+          "sources": [
+            "Liste NCBI LitArch (Bookshelf Open Access) https://ftp.ncbi.nlm.nih.gov/pub/litarch/file_list.csv consultée le 2026-11-19"
+          ],
+          "date": "2026-11-19"
+        },
+        "notes": "Licence : licence non vérifiée pendant la session [À VÉRIFIER]. NCBI Bookshelf NBK278943 ; manuel d'endocrinologie en ligne mis à jour en continu ; paquet LitArch de 155 Mo non téléchargé."
+      }
+    }
+  ]
+}
