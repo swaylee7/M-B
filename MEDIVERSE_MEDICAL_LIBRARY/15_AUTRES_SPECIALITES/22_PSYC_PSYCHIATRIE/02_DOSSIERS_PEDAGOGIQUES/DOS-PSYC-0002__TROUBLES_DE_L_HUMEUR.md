@@ -482,3 +482,137 @@ ALGORITHME 1 — EDC de l'adulte
 - **Pharmacovigilance** : les effets indésirables médicamenteux (par exemple une intoxication au lithium ou une éruption grave sous lamotrigine) doivent être déclarés aux autorités sanitaires (art. 177).
 - **Disponibilité des molécules** (sels de lithium, valproate, antipsychotiques atypiques, antidépresseurs) et possibilité de dosage de la lithiémie : à vérifier localement `[À VÉRIFIER]`. Le mhGAP-IG rappelle que le lithium ne doit être prescrit que si la surveillance biologique est possible ; sinon, valproate ou carbamazépine sont proposés (en dehors de la femme en âge de procréer pour le valproate) [S9, S10].
 
+## 14. Surveillance
+
+### 14.1 Sous antidépresseur
+- Consultations rapprochées les premières semaines : tolérance, **risque suicidaire**, observance, **virage** (hypomaniaque ou mixte).
+- Mesure répétée des symptômes par échelle (par exemple PHQ-9) : amélioration précoce attendue en 2 à 4 semaines [S4].
+- Natrémie chez le sujet âgé sous ISRS/IRSNa, ECG si facteurs de risque cardiaques et molécule allongeant le QTc, bilan hépatique sous agomélatine [S4].
+
+### 14.2 Sous lithium [S5, S10]
+
+| Paramètre | Rythme |
+|---|---|
+| **Lithiémie** | Prélèvement à la **vallée, environ 12 h après la dernière prise** ; environ **5 jours** après chaque modification de dose ; obtenir **deux dosages consécutifs dans la zone thérapeutique** en phase aiguë, puis tous les **3 à 6 mois** (ou plus souvent si nécessaire) [S5] ; le mhGAP-IG propose un contrôle tous les 2 à 3 mois [S10] |
+| **Fonction rénale, TSH, calcémie** | À **6 mois** puis **au moins une fois par an** [S5] |
+| Poids, signes cliniques de toxicité | À chaque consultation |
+| ECG | Selon l'âge et les facteurs de risque |
+
+**Intoxication au lithium** : favorisée par la déshydratation (fièvre, diarrhée, vomissements, chaleur), un régime désodé, les AINS, IEC, ARA II et diurétiques, l'insuffisance rénale et l'âge [S5, S10]. Signes d'alerte : troubles digestifs, tremblement grossier, syndrome cérébelleux (ataxie, dysarthrie), confusion ; formes graves avec convulsions, coma, troubles du rythme et décès [S10]. Conduite : arrêt du lithium, lithiémie en urgence, ionogramme et créatinine, ECG, réhydratation, avis spécialisé (épuration extrarénale dans les formes graves) `[À VÉRIFIER — protocole local]`. Les épisodes de toxicité augmentent le risque d'atteinte rénale à long terme [S5].
+
+### 14.3 Sous valproate et carbamazépine [S5]
+- **Valproate** : histoire menstruelle (syndrome des ovaires polykystiques), hémogramme et bilan hépatique tous les 3 à 6 mois la première année puis annuellement ; valproatémie en phase aiguë.
+- **Carbamazépine** : natrémie au moins annuelle, hémogramme, bilan hépatique ; dosage pour la toxicité et l'observance (6-12 mois) ; surveiller les interactions (inducteur enzymatique).
+- **Lamotrigine et carbamazépine** : information sur le risque d'éruption grave ; consulter immédiatement en cas d'éruption ou d'ulcérations muqueuses.
+
+### 14.4 Sous antipsychotique atypique [S5]
+Poids chaque mois les 3 premiers mois puis tous les 3 mois ; pression artérielle, glycémie à jeun et bilan lipidique à 3 et 6 mois puis annuellement ; effets extrapyramidaux ; surveillance renforcée chez l'enfant de moins de 10 ans, le sujet âgé, le patient malade ou sous associations.
+
+## 15. Prévention
+
+- **Primaire** : réduction des facteurs de stress (prévention des violences et de l'adversité infantile), lutte contre l'alcool, programmes de prévention primaire en santé mentale (art. 104 de la loi 18-11) [S12].
+- **Secondaire** : repérage de la dépression par une échelle validée chez les patients à risque en soins primaires et secondaires lorsque des ressources de diagnostic et de traitement existent (CANMAT 2023) [S4] ; repérage de la bipolarité devant toute dépression [S8].
+- **Tertiaire** : traitement jusqu'à rémission complète, entretien suffisant, psychoéducation, détection des prodromes, régularité des rythmes, réhabilitation psychosociale (art. 105 de la loi 18-11) [S12].
+- **Prévention du suicide** : évaluation systématique, plan de sécurité, restriction des moyens létaux, suivi après une tentative ou une hospitalisation.
+
+## 16. Algorithmes décisionnels et arbres diagnostiques
+
+```text
+ALGORITHME 2 — Devant une humeur dépressive
+1. Critères d'EDC remplis (≥ 5/9 symptômes, ≥ 2 semaines, dont humeur dépressive ou anhédonie) ?
+   NON → deuil, trouble de l'adaptation, dysthymie (≥ 2 ans), symptômes subsyndromiques.
+   OUI → 2.
+2. Cause somatique, médicamenteuse ou toxique ? (examen, anamnèse, NFS, TSH, ± imagerie)
+   OUI → trouble de l'humeur secondaire : traiter la cause + traitement symptomatique.
+   NON → 3.
+3. Antécédent d'épisode maniaque ou hypomaniaque ?
+   OUI (manie) → trouble bipolaire de type I : dépression bipolaire.
+   OUI (hypomanie seulement) → trouble bipolaire de type II.
+   NON → 4.
+4. Signes d'alerte de bipolarité (antécédents familiaux, début précoce, post-partum,
+   caractéristiques mixtes ou psychotiques, virage antérieur) ?
+   OUI → prudence : avis spécialisé, éviter l'antidépresseur en monothérapie.
+   NON → trouble dépressif caractérisé (unipolaire) : algorithme 1 (§ 13.3.1).
+5. À chaque étape : évaluer le RISQUE SUICIDAIRE et les critères d'hospitalisation.
+```
+
+```text
+ALGORITHME 3 — Épisode maniaque
+1. Sécurité, hospitalisation (cadre légal si refus : loi 18-11).
+2. Arrêt des antidépresseurs et des substances déclenchantes.
+3. Bilan : toxiques, TSH, bilan préthérapeutique (rein, thyroïde, calcémie, foie,
+   hémogramme, grossesse, IMC, glycémie, lipides).
+4. Patient déjà sous lithium ou valproate : vérifier la concentration et l'observance,
+   optimiser, ajouter un antipsychotique atypique.
+5. Patient non traité : monothérapie de 1re ligne (lithium, quétiapine, divalproex,
+   rispéridone, aripiprazole…) ou association antipsychotique + lithium/divalproex
+   si manie psychotique ou sévère.
+   ⚠ Pas de valproate chez la femme en âge de procréer.
+6. Agitation : désescalade, voie orale, sinon IM (BETA) — pas d'olanzapine IM
+   + benzodiazépine parentérale.
+7. Échec des 1res lignes : 2e ligne (olanzapine, carbamazépine, halopéridol, associations), ECT.
+8. Après la phase aiguë : poursuivre le traitement efficace en entretien
+   (lithium de référence) + psychoéducation.
+```
+
+## 17. Cas clinique commenté
+
+<!--CAS_DOSSIER-->
+
+## 18. Points clés à retenir
+
+1. L'EDC exige au moins **5 symptômes sur 9 pendant 2 semaines**, dont l'humeur dépressive ou l'anhédonie ; la manie exige **une semaine** (ou une hospitalisation), l'hypomanie **4 jours** sans altération marquée ni psychose [S1].
+2. **Bipolaire I** = au moins un épisode maniaque ; **bipolaire II** = hypomanie + EDC, jamais de manie [S1].
+3. Devant toute dépression : **évaluer le risque suicidaire** et **rechercher une bipolarité** (interroger l'entourage) [S4, S5, S8].
+4. Bilan somatique minimal : examen clinique, **hémogramme et TSH** ; ECG et imagerie selon le contexte [S4].
+5. Traitement de l'EDC **selon la sévérité** : psychothérapie dans les formes légères ; psychothérapie ou antidépresseur dans les formes modérées ; association dans les formes sévères ; antidépresseur + antipsychotique ou ECT dans les formes psychotiques [S3, S4, S7].
+6. Absence d'amélioration à **2–4 semaines** : augmenter la dose ou changer [S4] ; poursuivre au moins **6 mois après la rémission** [S9].
+7. **Pas d'antidépresseur en monothérapie dans le bipolaire de type I** ; arrêter les antidépresseurs en cas de manie [S5].
+8. **Lithium** = référence de l'entretien bipolaire ; lithiémie à la vallée (12 h), cible 0,8–1,2 mEq/L en aigu et 0,6–1,0 en entretien selon CANMAT-ISBD ; surveillance rénale, thyroïdienne et calcique [S5].
+9. **Valproate contre-indiqué chez la femme en âge de procréer** (OMS, NICE) [S6, S9].
+10. En Algérie, le refus de soins avec danger relève des articles 128 à 164 de la loi 18-11 (structures publiques, mise en observation du fait d'un tiers, hospitalisation d'office) [S12].
+
+## 19. Pièges classiques à l'examen
+
+- Prescrire un antidépresseur à un patient déprimé **sans rechercher d'antécédent d'hypomanie**.
+- Considérer une hypomanie sous antidépresseur comme un simple effet indésirable, alors qu'elle oriente vers un trouble bipolaire (si elle persiste au-delà de l'effet pharmacologique) [S1].
+- Confondre **hypomanie** (≥ 4 jours, pas d'altération marquée, pas de psychose) et **manie** (≥ 1 semaine, ou hospitalisation, ou psychose).
+- Interpréter une lithiémie prélevée **juste après la prise** (il faut un dosage à la vallée, environ 12 h après).
+- Associer lithium et **AINS, IEC, ARA II ou diurétiques** sans surveillance.
+- Prescrire du **valproate** à une jeune femme sans contraception ni information.
+- Juger inefficace un antidépresseur après une semaine, ou au contraire poursuivre une molécule inefficace pendant des mois sans réévaluation.
+- Arrêter brutalement un antidépresseur (syndrome d'arrêt) ou un traitement thymorégulateur (rechute).
+- Prescrire des **tricycliques** en grande quantité à un patient suicidaire.
+- Oublier la **dépression bipolaire** devant une dépression du post-partum avec éléments psychotiques.
+
+## 20. QCM d'auto-évaluation
+
+<!--QCM_DOSSIER-->
+
+## 21. Divergences entre recommandations
+
+| Question | Position A | Position B | Commentaire |
+|---|---|---|---|
+| **Cible de lithiémie en entretien** | CANMAT-ISBD 2018 : 0,6–1,0 mEq/L (aigu 0,8–1,2) [S5] | mhGAP-IG 2016 (OMS) : 0,6–0,8 mEq/L (aigu 0,8–1,0) [S10] | Cibles proches ; la borne haute diffère. Chez le sujet âgé, CANMAT-ISBD retient 0,4–0,8 en aigu |
+| **Lithiémie en potentialisation dans la dépression unipolaire** | CANMAT 2023 : 0,5–0,8 mmol/L [S4] | — | Indication différente du trouble bipolaire, cibles plus basses |
+| **Première intention dans la dépression légère** | NICE NG222 : interventions psychologiques (autoassistance guidée, TCC de groupe, activation comportementale) [S3] | HAS 2017 : psychothérapie de soutien ; antidépresseur non indiqué en première intention [S7] | Convergence : pas d'antidépresseur systématique ; nuances sur le type d'intervention |
+| **Dépression modérée** | CANMAT 2023 : psychothérapie structurée et antidépresseur au même niveau, choix partagé [S4] | NICE NG222 (dépression « plus sévère ») : association antidépresseur + psychothérapie [S3] | Les catégories de sévérité ne se recouvrent pas exactement |
+| **Durée de l'entretien après rémission** | OMS (DEP2) : au moins 6 mois [S9] | CANMAT 2023 : environ 6 à 24 mois, davantage si facteurs de risque [S4] | Allonger en cas d'épisodes récurrents, de symptômes résiduels |
+| **Première intention dans la manie** | NICE CG185 : antipsychotique (halopéridol, olanzapine, quétiapine, rispéridone) chez le patient non traité [S6] | CANMAT-ISBD 2018 : lithium, quétiapine, divalproex et plusieurs atypiques au même rang [S5] ; OMS : antipsychotique OU thymorégulateur [S9] | La hiérarchie CANMAT intègre efficacité, tolérance et données de prévention |
+| **Dépression bipolaire** | CANMAT-ISBD 2018 : quétiapine, lithium, lamotrigine, lurasidone [S5] | OMS 2023 (PSY9) : fluoxétine ou venlafaxine possibles mais toujours avec un thymorégulateur ; olanzapine, quétiapine, valproate [S9] | L'OMS tient compte de la disponibilité en soins non spécialisés |
+| **Olanzapine en entretien** | CANMAT-ISBD : 2e ligne (risque métabolique) [S5] | OMS PSY8 : option citée parmi les antipsychotiques d'entretien [S9] | Arbitrage efficacité/tolérance |
+
+## 22. Références
+
+1. [S1] American Psychiatric Association. *DSM-5-TR*. 2022. ISBN 978-0-89042-575-6.
+2. [S2] OMS. *CIM-11*, chapitre 06. En vigueur depuis le 1er janvier 2022. https://icd.who.int
+3. [S3] NICE. *Depression in adults: treatment and management* (NG222). 2022. https://www.nice.org.uk/guidance/ng222
+4. [S4] Lam RW, Kennedy SH, Adams C, et al. CANMAT 2023 Update on Clinical Guidelines for Management of Major Depressive Disorder in Adults. *Can J Psychiatry*. 2024;69(9):641-687. doi:10.1177/07067437241245384 (DOC-00099)
+5. [S5] Yatham LN, Kennedy SH, Parikh SV, et al. CANMAT and ISBD 2018 guidelines for the management of patients with bipolar disorder. *Bipolar Disord*. 2018;20(2):97-170. doi:10.1111/bdi.12609 (DOC-00100)
+6. [S6] NICE. *Bipolar disorder: assessment and management* (CG185). 2014, mise à jour. https://www.nice.org.uk/guidance/cg185
+7. [S7] HAS. *Épisode dépressif caractérisé de l'adulte : prise en charge en soins de premier recours*. 2017.
+8. [S8] HAS. *Patient avec un trouble bipolaire : repérage et prise en charge initiale en premier recours*. 2015.
+9. [S9] OMS. *mhGAP guideline for mental, neurological and substance use disorders*. 2023 (DOC-00049). https://iris.who.int/handle/10665/374250
+10. [S10] OMS. *mhGAP Intervention Guide*, version 2.0. 2016. ISBN 978-92-4-154979-0. https://iris.who.int/handle/10665/250239
+11. [S11] Wilson MP, et al. The psychopharmacology of agitation (Project BETA). *West J Emerg Med*. 2012;13(1):26-34. doi:10.5811/westjem.2011.9.6866 (DOC-00098)
+12. [S12] Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (DOC-00074).

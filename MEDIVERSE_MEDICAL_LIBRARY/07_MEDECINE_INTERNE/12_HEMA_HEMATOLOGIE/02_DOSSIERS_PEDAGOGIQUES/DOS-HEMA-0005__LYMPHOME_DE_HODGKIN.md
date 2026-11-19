@@ -15,7 +15,7 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-01 / AUD-02 (IA)"
     verdict: audite_valide
-    corrections: 13
+    corrections: 16
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0005.md
 sources:
   - id: S1
