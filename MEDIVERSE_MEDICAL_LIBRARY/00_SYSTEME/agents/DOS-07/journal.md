@@ -12,3 +12,8 @@ Mission : Dossiers pédagogiques originaux approfondis — Gynécologie-obstétr
 - 2026-11-19 — DOS-GYNE-0001 (GEU) rédigé en 3 passes ; anatomie pathologique intégrée en §7.4 pour conserver la numérotation à 22 sections ; 10 QCM affichés (12 en banque) ; 10 sources dont 7 vérifiées.
 - 2026-11-19 — DOS-GYNE-0002 (cancer du col) rédigé en 3 passes ; 10 QCM affichés (12 en banque) ; 14 sources dont 8 vérifiées.
 - 2026-11-19 — DOS-GYNE-0003 (tumeurs du sein) rédigé en 3 passes ; 10 QCM affichés (12 en banque) ; 15 sources dont 8 vérifiées.
+- 2026-11-19 — DOS-OBST-0001 resserré (sections 2, 4.2, 6.2, 7.1, 8.2, 10.2, 13.2.2, 13.3.5, 13.4, 15.2, 17-19, 21-22 condensées ; 12.5 et 16.3 supprimées, contenu repris ailleurs) pour respecter 11 000 mots (wc -w) ; version antérieure conservée dans le scratchpad de session.
+- 2026-11-19 — lots écrits et validés par script python3 (schéma, 5 propositions, cohérence réponses/explications, unicité inter-lots) : 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-07.json (60 QCM, 12/item) ; 20_CAS_CLINIQUES/lots/DOS-07.json (10 cas, 2/item, 15 rubriques).
+- 2026-11-19 — mots (wc -w) : OBST-0001 10 577 ; OBST-0002 10 736 ; GYNE-0001 9 583 ; GYNE-0002 9 496 ; GYNE-0003 9 920. Sources : 67 citées, 44 vérifiées, 23 non vérifiées (budget WebSearch épuisé).
+- 2026-11-19 — journal global (operations.jsonl) alimenté via commun.journaliser. File d'attente 00_SYSTEME/files_attente/dossiers_residanat.json NON modifiée (hors périmètre) : à mettre à jour par l'orchestrateur/RES-01.
+- 2026-11-19 — fin de mission ; tous les livrables au statut brouillon_a_auditer.

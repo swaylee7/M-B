@@ -1,9 +1,23 @@
 {
   "id": "DOS-07",
-  "statut": "en_cours",
+  "statut": "termine_a_auditer",
   "derniere_execution": "2026-11-19",
-  "taches_terminees": ["DOS-OBST-0001 (RES-CHI-066)", "DOS-OBST-0002 (RES-CHI-056)", "DOS-GYNE-0001 (RES-CHI-057)", "DOS-GYNE-0002 (RES-CHI-058)"],
-  "taches_suivantes": ["DOS-GYNE-0003 (RES-CHI-062) — passes 2 et 3", "lot QCM DOS-07.json (60 QCM)", "lot cas cliniques DOS-07.json (10 cas)", "validation JSON + journal global"],
+  "taches_terminees": [
+    "DOS-OBST-0001 — Pré-éclampsie (RES-CHI-066)",
+    "DOS-OBST-0002 — Hémorragie de la délivrance (RES-CHI-056)",
+    "DOS-GYNE-0001 — Grossesse extra-utérine (RES-CHI-057)",
+    "DOS-GYNE-0002 — Cancer du col de l'utérus (RES-CHI-058)",
+    "DOS-GYNE-0003 — Tumeurs du sein (RES-CHI-062)",
+    "Lot QCM 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-07.json (60)",
+    "Lot cas cliniques 20_CAS_CLINIQUES/lots/DOS-07.json (10)"
+  ],
+  "taches_suivantes": [
+    "Audit (AUD) : vérifier les 23 sources verifiee:false (ESGO 2023, KEYNOTE-A18, SHAPE, INTERLACE, KEYNOTE-522, OlympiA, DESTINY-Breast04, AJCC 8e, RCOG GTG 52, ACOG PB 183, OMS 2018 utérotoniques, CHIPS, HYPITAT, DEMETER, Stovall, Barnhart, OMS 2020 tumeurs génitales, Bethesda, Elston-Ellis, ASCO/CAP HER2, ESMO métastatique 2021, SFHTA/CNGOF, B-Lynch)",
+    "Relire les mentions [À VÉRIFIER] et [POSOLOGIE À VÉRIFIER] (seuils SFAR-CNGOF 2020, sulprostone, ocytocine d'entretien, cibles transfusionnelles, protocoles MTX français)",
+    "Consulter les protocoles MSPRH 2025 (UNICEF) pour aligner les posologies algériennes",
+    "Mettre à jour files_attente/dossiers_residanat.json et programme_residanat.json (rattachements dossiers/QCM/cas) — orchestrateur/RES-01"
+  ],
   "objectifs": {"dossiers": 5, "qcm": 60, "cas_cliniques": 10},
-  "compteurs": {"dossiers": 4, "qcm": 48, "cas_cliniques": 0}
+  "compteurs": {"dossiers": 5, "qcm": 60, "cas_cliniques": 10, "sources_citees": 67, "sources_verifiees": 44, "sources_non_verifiees": 23},
+  "plages_identifiants": {"qcm": ["QCM-OBST-0701..0724", "QCM-GYNE-0701..0736"], "cas": ["CAS-OBST-0701..0704", "CAS-GYNE-0701..0706"]}
 }
