@@ -4,7 +4,12 @@ titre: "Fiche — Troubles de l'humeur (épisode dépressif caractérisé, troub
 specialite: PSYC
 items_residanat: [RES-MED-153]
 dossier_source: DOS-PSYC-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Divergence fluoxétine CANMAT 2023 (20–60 mg) / mhGAP-IG 2016 (max 80 mg/j) signalée ; équivalence 1 mEq/L = 1 mmol/L pour la lithiémie (DOS-PSYC-0002 v1.2)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -119,7 +124,7 @@ sources:
 
 # Fiche — Troubles de l'humeur : EDC et trouble bipolaire (RES-MED-153)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PSYC-0002 (v1.1, statut `audite_valide`). Aucun fait nouveau ; doses identiques au dossier (CANMAT 2023 [S4], CANMAT-ISBD 2018 [S5], mhGAP-IG 2.0 [S10], BETA [S11], RCP [S13]), à confronter au RCP des spécialités enregistrées en Algérie. Cadre légal : **loi n° 18-11** (DOC-00074) [S12], articles cités par le dossier. Données algériennes de prévalence `[À VÉRIFIER]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PSYC-0002 (v1.2, statut `audite_valide`). Aucun fait nouveau ; doses identiques au dossier (CANMAT 2023 [S4], CANMAT-ISBD 2018 [S5], mhGAP-IG 2.0 [S10], BETA [S11], RCP [S13]), à confronter au RCP des spécialités enregistrées en Algérie. Cadre légal : **loi n° 18-11** (DOC-00074) [S12], articles cités par le dossier. Données algériennes de prévalence `[À VÉRIFIER]`.
 
 ## 1. Définition (2 lignes)
 
@@ -140,7 +145,7 @@ sources:
 | Cycles rapides | ≥ 4 épisodes sur 12 mois |
 | CIM-11 | Bipolaire I 6A60, II 6A61, cyclothymique 6A62 ; dépressif unique 6A70, récurrent 6A71, dysthymique 6A72 |
 | Virage sous antidépresseur | Retenu pour le bipolaire s'il **persiste au-delà de l'effet physiologique** du traitement |
-| Lithiémie (CANMAT-ISBD) | Aigu **0,8–1,2 mEq/L** (sujet âgé 0,4–0,8) ; entretien **0,6–1,0** ; mhGAP-IG : 0,8–1,0 / 0,6–0,8 ; NICE : 0,6–0,8 mmol/L au départ |
+| Lithiémie (CANMAT-ISBD) | Aigu **0,8–1,2 mEq/L** (sujet âgé 0,4–0,8) ; entretien **0,6–1,0** ; mhGAP-IG : 0,8–1,0 / 0,6–0,8 ; NICE : 0,6–0,8 mmol/L au départ ; pour le lithium, **1 mEq/L = 1 mmol/L** (unités interchangeables) |
 | Valproatémie | 350–700 µmol/L (50–100 µg/mL), 3 à 5 jours après la dernière modification |
 
 ## 3. Démarche diagnostique
@@ -184,7 +189,7 @@ Arrêt : décroissance lente (« hyperbolique »)
 | IRSNa (1re ligne) | Venlafaxine LP 75–225 mg ; duloxétine 60–120 mg ; desvenlafaxine 50–100 mg ; milnacipran 50–200 mg |
 | Autres 1re ligne | Mirtazapine 30–60 mg ; miansérine 30–90 mg ; vortioxétine 10–20 mg ; agomélatine 25–50 mg (surveillance hépatique) ; bupropion 150–450 mg |
 | 2e / 3e ligne | Tricycliques 75–300 mg (clomipramine 150–300 mg) ; moclobémide 150–450 mg ; IMAO irréversibles (3e ligne) |
-| mhGAP-IG [S10] | **Fluoxétine** 10 mg/j la 1re semaine puis 20 mg/j ; 40 mg/j si pas de réponse à 6 semaines (max 80 mg/j) · **Amitriptyline** 25 mg au coucher, +25–50 mg/semaine → 100–150 mg/j (max 300 mg/j ; dose minimale efficace 75 mg/j) ; contre-indiquée chez l'enfant |
+| mhGAP-IG [S10] | **Fluoxétine** 10 mg/j la 1re semaine puis 20 mg/j ; 40 mg/j si pas de réponse à 6 semaines (max 80 mg/j ; **divergence** avec la borne haute de 60 mg de CANMAT 2023 [S4] — le RCP prévaut) · **Amitriptyline** 25 mg au coucher, +25–50 mg/semaine → 100–150 mg/j (max 300 mg/j ; dose minimale efficace 75 mg/j) ; contre-indiquée chez l'enfant |
 
 - **Effets** : ISRS/IRSNa → digestifs, sexuels, **hyponatrémie et saignements** (> 65 ans, AINS), QTc (citalopram), **akathisie/agitation < 25 ans** ; tricycliques → anticholinergiques, conduction, **létaux en surdosage** ; **syndrome sérotoninergique** ; syndrome d'arrêt ; **virage**.
 - **Adolescent** : psychothérapie d'abord ; fluoxétine seule retenue par le mhGAP-IG (10 mg/j, 20 mg/j après 6 semaines, max 40 mg/j).

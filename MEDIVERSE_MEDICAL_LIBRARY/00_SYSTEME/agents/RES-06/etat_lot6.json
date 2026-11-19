@@ -1,9 +1,192 @@
 {
   "id": "RES-06",
   "lot": 6,
-  "statut": "en_cours",
-  "derniere_execution": "2026-11-19T05:00:00+00:00",
-  "perimetre": "Fiches de révision dérivées des dossiers v1.1 audités — épidémiologie, santé publique, gériatrie, maladies infectieuses (typhoïde, paludisme, VIH, sepsis, rage)",
-  "taches_terminees": [],
-  "taches_suivantes": ["FIC-EPID-0001", "FIC-EPID-0002", "FIC-SPUB-0001", "FIC-GERI-0001", "FIC-GERI-0002", "FIC-INFE-0003", "FIC-INFE-0004", "FIC-INFE-0005", "FIC-INFE-0006", "FIC-INFE-0007", "PIEGES_CLASSIQUES_LOT6"]
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T04:44:18+00:00",
+  "perimetre": "Fiches de révision dérivées des dossiers v1.1 audités — maladies infectieuses (typhoïde, paludisme, rage, sepsis, VIH), épidémiologie (indicateurs, enquêtes), santé publique (organisation du système de santé algérien), personnes âgées (chutes, confusion)",
+  "taches_terminees": [
+    "FIC-EPID-0001",
+    "FIC-EPID-0002",
+    "FIC-SPUB-0001",
+    "FIC-GERI-0001",
+    "FIC-GERI-0002",
+    "FIC-INFE-0003",
+    "FIC-INFE-0004",
+    "FIC-INFE-0005",
+    "FIC-INFE-0006",
+    "FIC-INFE-0007",
+    "PIEGES_CLASSIQUES_LOT6"
+  ],
+  "taches_suivantes": [
+    "Audit des 10 fiches FIC lot 6 et de PIEGES_CLASSIQUES_LOT6 par AUD (statut brouillon_a_auditer)",
+    "Transmission des 6 incohérences repérées (art. 88-90 / 89-90 ; notation 2 × 2 EPID-0001/0002 ; CIM-11 GERI-0002 ; lactate INFE-0006 ; > / ≥ 65 ans GERI-0001 ; champ fiches vide dans programme_residanat.json) à l'agent d'audit / à l'orchestrateur",
+    "Mise à jour des fiches si les dossiers EPID-0001, SPUB-0001, GERI-0002, INFE-0005 et INFE-0006 passent en v1.2 (levée des marqueurs restants)",
+    "Indexation (indexer.py) et exports (exporter.py) par l'orchestrateur"
+  ],
+  "fiches": [
+    {
+      "id": "FIC-EPID-0001",
+      "fichier": "15_AUTRES_SPECIALITES/50_EPID_EPIDEMIOLOGIE/03_FICHES_REVISION/FIC-EPID-0001__MESURE_DE_L_ETAT_DE_SANTE_INDICATEURS_MESURES_D_IMPACT.md",
+      "dossier_source": "DOS-EPID-0001",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-128",
+      "mots": 1990,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-EPID-0002",
+      "fichier": "15_AUTRES_SPECIALITES/50_EPID_EPIDEMIOLOGIE/03_FICHES_REVISION/FIC-EPID-0002__ENQUETES_EPIDEMIOLOGIQUES_CAS_TEMOINS_COHORTES_TRANSVERSALES.md",
+      "dossier_source": "DOS-EPID-0002",
+      "statut_dossier_source": "audite_valide",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-132",
+      "mots": 1726,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-SPUB-0001",
+      "fichier": "15_AUTRES_SPECIALITES/49_SPUB_SANTE_PUBLIQUE/03_FICHES_REVISION/FIC-SPUB-0001__ORGANISATION_SANITAIRE_ET_FONCTIONNEMENT_DU_SYSTEME_DE_SANTE_ALGERIEN.md",
+      "dossier_source": "DOS-SPUB-0001",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-135",
+      "mots": 1984,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-GERI-0001",
+      "fichier": "07_MEDECINE_INTERNE/52_GERI_GERIATRIE/03_FICHES_REVISION/FIC-GERI-0001__CHUTES_ET_TROUBLES_DE_L_EQUILIBRE_DU_SUJET_AGE.md",
+      "dossier_source": "DOS-GERI-0001",
+      "statut_dossier_source": "audite_valide",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-159",
+      "mots": 1586,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-GERI-0002",
+      "fichier": "07_MEDECINE_INTERNE/52_GERI_GERIATRIE/03_FICHES_REVISION/FIC-GERI-0002__TROUBLES_CONFUSIONNELS_DU_SUJET_AGE_SYNDROME_CONFUSIONNEL_AIGU_DELIRIUM.md",
+      "dossier_source": "DOS-GERI-0002",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-165",
+      "mots": 1500,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-INFE-0003",
+      "fichier": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/03_FICHES_REVISION/FIC-INFE-0003__FIEVRES_TYPHOIDE_ET_PARATYPHOIDES.md",
+      "dossier_source": "DOS-INFE-0003",
+      "statut_dossier_source": "audite_valide",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-001",
+      "mots": 1576,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-INFE-0004",
+      "fichier": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/03_FICHES_REVISION/FIC-INFE-0004__PALUDISME.md",
+      "dossier_source": "DOS-INFE-0004",
+      "statut_dossier_source": "audite_valide",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-002",
+      "mots": 1723,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-INFE-0005",
+      "fichier": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/03_FICHES_REVISION/FIC-INFE-0005__INFECTION_A_VIH.md",
+      "dossier_source": "DOS-INFE-0005",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-006",
+      "mots": 1646,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-INFE-0006",
+      "fichier": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/03_FICHES_REVISION/FIC-INFE-0006__ETATS_SEPTICEMIQUES_SEPSIS.md",
+      "dossier_source": "DOS-INFE-0006",
+      "statut_dossier_source": "audite_corrections_requises",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-004",
+      "mots": 1526,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-INFE-0007",
+      "fichier": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/03_FICHES_REVISION/FIC-INFE-0007__RAGE.md",
+      "dossier_source": "DOS-INFE-0007",
+      "statut_dossier_source": "audite_valide",
+      "version_dossier_source": "1.1",
+      "item": "RES-MED-003",
+      "mots": 1482,
+      "pieges": 10,
+      "controle_chiffres_doses": "0 écart",
+      "statut": "brouillon_a_auditer"
+    }
+  ],
+  "compilation": {
+    "fichier": "16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT6.md",
+    "nombre_pieges": 100,
+    "modules": {
+      "MALADIES INFECTIEUSES": 50,
+      "EPIDEMIOLOGIE ET MEDECINE PREVENTIVE": 30,
+      "PERSONNES AGEES": 20
+    },
+    "statut": "brouillon_a_auditer"
+  },
+  "incoherences_reperees": [
+    {
+      "type": "inter-dossiers",
+      "gravite": "mineure",
+      "objet": "Gratuité des personnes en difficulté (loi 18-11) : DOS-GERI-0001 § 13.4 « art. 88-90 » vs DOS-SPUB-0001 § 10 « art. 89-90 » (en-tête S14 de DOS-GERI-0001 : « art. 86-90 »)"
+    },
+    {
+      "type": "inter-dossiers",
+      "gravite": "mineure",
+      "objet": "Notation du tableau 2 × 2 : DOS-EPID-0001 § 10.1 (b = exposés non malades, c = non exposés malades) vs DOS-EPID-0002 § 6.5 (b = cas non exposés, c = témoins exposés) ; « totaux de lignes 240 et 360 » de l'exemple 5 de DOS-EPID-0002 = (a + c) et (b + d) dans sa propre disposition"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-GERI-0002 : code CIM-11 6D70 « vérifié sur une source secondaire » (§ 1.2) mais marqué [À VÉRIFIER] au § 20"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-INFE-0006 : lactate « > 4 mmol/L » avec [À VÉRIFIER] (§ 9.2) vs « lactate ≥ 4 » sans marqueur dans l'algorithme (§ 13.3)"
+    },
+    {
+      "type": "intra-dossier",
+      "gravite": "mineure",
+      "objet": "DOS-GERI-0001 : population HAS « plus de 65 ans » (§ 1) vs « ≥ 65 ans selon HAS » (§ 21)"
+    },
+    {
+      "type": "index",
+      "gravite": "mineure",
+      "objet": "programme_residanat.json : champ fiches vide pour les 10 items du lot 6 (statuts des dossiers à jour) — réindexation nécessaire"
+    }
+  ],
+  "outils": "scratchpad de session (non versionnés) : res06_lot6_outils/ (l6_inject_sources.py, l6_check_numbers.py, l6_check_articles.py, l6_contexte_doses.py, l6_wc.py, l6_valider.py, l6_build_pieges.py)",
+  "git": "aucune opération (consigne)"
 }

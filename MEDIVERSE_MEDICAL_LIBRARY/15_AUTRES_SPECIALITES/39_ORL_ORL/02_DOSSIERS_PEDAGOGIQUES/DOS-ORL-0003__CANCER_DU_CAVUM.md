@@ -6,7 +6,7 @@ sous_specialite: "Cancérologie cervico-faciale"
 items_residanat: [RES-CHI-049]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0003.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 4, point 6) : association au tabac harmonisée sur le résumé de [S12] (Feng 2009 : tabac associé aux formes différenciées, non à l'UCNT ; analyse restreinte aux hommes) — « limitée aux formes kératinisantes » corrigé au § 1 et nuance ajoutée au tableau histologique. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Bossi P, Chan AT, Licitra L, Trama A, Orlandi E, Hui EP, et al. Nasopharyngeal carcinoma: ESMO-EURACAN Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2021;32(4):452-465 (catalogue : REC-0394)."
@@ -152,7 +158,7 @@ mots_cles: [cancer du cavum, carcinome du nasopharynx, UCNT, virus d'Epstein-Bar
 # Cancer du cavum (carcinome du nasopharynx) : diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1 ; cohérence AUD-05, v1.2). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-049 — « Cancer du cavum : Diagnostic - traitement » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -174,7 +180,7 @@ Le **cavum** (rhinopharynx, nasopharynx) est l'étage supérieur du pharynx, sit
 
 - son **épidémiologie géographique** très particulière (endémie en Chine du Sud et en Asie du Sud-Est, incidence intermédiaire en **Afrique du Nord**) ;
 - son lien étroit avec le **virus d'Epstein-Barr (EBV)** pour les formes non kératinisantes ;
-- une association **faible ou nulle avec l'alcool**, et une association avec le **tabac** limitée aux formes kératinisantes (données nord-africaines) [S12] ;
+- une association **faible ou nulle avec l'alcool**, et une association avec le **tabac** limitée aux formes **différenciées**, sans association avec l'UCNT (données nord-africaines, analyse du tabac restreinte aux hommes) [S12] ;
 - une **lymphophilie** marquée (adénopathies cervicales fréquentes et souvent révélatrices) ;
 - une **grande radio- et chimiosensibilité** : la **chirurgie n'a pas de place** dans le traitement initial de la tumeur primitive, qui repose sur la **radiothérapie** (± chimiothérapie).
 
@@ -255,7 +261,7 @@ Riche et **bilatéral** : premier relais **rétropharyngé** (ganglions de Rouvi
 
 | Type | Caractéristiques | Lien avec l'EBV | Fréquence au Maghreb |
 |---|---|---|---|
-| **Carcinome épidermoïde kératinisant** | Différenciation malpighienne, kératine | Faible | Minoritaire ; sujet plus âgé, tabac [S12] |
+| **Carcinome épidermoïde kératinisant** | Différenciation malpighienne, kératine | Faible | Minoritaire ; sujet plus âgé, tabac (dans l'étude nord-africaine, le tabac est associé à l'ensemble des formes « différenciées », par opposition à l'UCNT [S12]) |
 | **Carcinome non kératinisant différencié** | Peu de kératine, architecture stratifiée | Fort | Fréquent |
 | **Carcinome non kératinisant indifférencié (UCNT)** | Cellules syncytiales, stroma lymphoïde abondant | Constant | **Majoritaire** [S12] |
 | **Carcinome épidermoïde basaloïde** | Rare | Variable | Rare |

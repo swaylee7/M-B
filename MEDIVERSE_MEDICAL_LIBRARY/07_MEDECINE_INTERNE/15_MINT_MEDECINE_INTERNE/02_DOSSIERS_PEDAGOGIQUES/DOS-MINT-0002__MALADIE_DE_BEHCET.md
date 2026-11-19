@@ -6,7 +6,7 @@ sous_specialite: "Vascularites"
 items_residanat: [RES-MED-158]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-09 (IA) — dossier pédagogique original"
@@ -24,6 +24,12 @@ audit:
     corrections: 10
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MINT-0002.md
     remarque: "Les 9 marqueurs posologiques levés d'après le PNDS 2019 (Encadrés 1 à 3 et chapitre 4) : colchicine, aprémilast, corticothérapie, azathioprine (TPMT), ciclosporine, interféron alpha, infliximab/adalimumab, cyclophosphamide, thalidomide ; doses du cas commenté précisées. Aucun marqueur posologique restant."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence : divergence EULAR 2018 / PNDS 2019 sur l'anticoagulation des thromboses veineuses (et des thromboses veineuses cérébrales) reportée dans le tableau des moyens (§ 13.2) et les algorithmes (§ 13.3, § 16), et non plus seulement au § 21. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "International Study Group for Behçet's Disease. Criteria for diagnosis of Behçet's disease. Lancet. 1990;335(8697):1078-1080."
@@ -475,7 +481,7 @@ Selon les principes généraux des recommandations EULAR 2018 et du PNDS frança
 | **Anticorps monoclonaux anti-TNF** (infliximab, adalimumab) | Uvéite postérieure sévère ou réfractaire, formes vasculaires, neurologiques ou digestives sévères/réfractaires [S3] | **Dépistage et traitement de la tuberculose latente obligatoires**, sérologies VHB/VHC/VIH [S12, S13] | Infliximab 5 mg/kg IV à S0, S2, S6 puis toutes les 6 semaines ; adalimumab 80 mg SC puis 40 mg toutes les 2 semaines [S4] |
 | **Cyclophosphamide** | **Anévrismes artériels** (pulmonaires, aortiques, périphériques) avec glucocorticoïdes [S3] | Toxicité gonadique, vésicale, infectieuse ; hydratation, Mesna, préservation de la fertilité | 0,7 g/m² IV toutes les 4 semaines (≤ 1,2 g par bolus ; 15 mg/kg dans l'algorithme du PNDS), 6 bolus, puis relais par azathioprine 2 à 4 semaines après le dernier bolus [S4] |
 | **Thalidomide** | Formes digestives réfractaires, cutanéo-muqueuses sévères [S3] | **Tératogène** (programme de prévention de la grossesse), neuropathie, thromboses | 50 à 100 mg/j [S4] |
-| **Anticoagulants** | Thromboses veineuses : peuvent être **ajoutés** aux immunosuppresseurs si le risque hémorragique est faible et après avoir **exclu un anévrisme artériel pulmonaire** [S3] ; thrombose veineuse cérébrale : courte durée [S3] | Risque d'hémoptysie massive si anévrisme méconnu | Selon protocole |
+| **Anticoagulants** | Thromboses veineuses : **EULAR 2018** : peuvent être **ajoutés** aux immunosuppresseurs si le risque hémorragique est faible et après avoir **exclu un anévrisme artériel pulmonaire** [S3] ; **PNDS 2019** : anticoagulation curative **recommandée** (après évaluation du risque hémorragique et recherche d'un anévrisme artériel), 3 à 6 mois, prolongée en cas de thrombose cave ou sus-hépatique [S4]. Thrombose veineuse cérébrale : courte durée (EULAR 2018) [S3] ; 12 à 18 mois en général (PNDS 2019) [S4] — divergence détaillée au § 21 | Risque d'hémoptysie massive si anévrisme méconnu | Selon protocole |
 | **Aspirine à dose antiagrégante** | Envisagée en cas d'**atteinte artérielle sténosante** [S4] | Risque hémorragique | Selon protocole |
 | **Radiologie interventionnelle / chirurgie** | Embolisation des anévrismes artériels pulmonaires hémorragiques ; chirurgie ou endoprothèse des anévrismes aortiques et périphériques, **sous immunosuppression** (risque d'anévrisme anastomotique) [S3] ; urgences digestives (perforation, hémorragie) | Pathergie : faux anévrismes aux points de ponction | — |
 
@@ -503,9 +509,11 @@ Selon les principes généraux des recommandations EULAR 2018 et du PNDS frança
 
 4. VASCULAIRE
    Thrombose veineuse profonde aiguë : GLUCOCORTICOÏDES + IMMUNOSUPPRESSEUR
-     (azathioprine, cyclophosphamide, ciclosporine) ; anticoagulant ajouté si
-     risque hémorragique faible ET anévrisme pulmonaire exclu (angioscanner)
-     ; réfractaire : anti-TNF monoclonal
+     (azathioprine, cyclophosphamide, ciclosporine) ; anticoagulation :
+     EULAR 2018 = « peut être ajoutée » si risque hémorragique faible ET
+     anévrisme pulmonaire exclu (angioscanner) ; PNDS 2019 = curative
+     recommandée 3 à 6 mois (plus si thrombose cave ou sus-hépatique), après
+     la même vérification (voir § 21) ; réfractaire : anti-TNF monoclonal
    Anévrisme artériel pulmonaire : GLUCOCORTICOÏDES forte dose + CYCLOPHOSPHAMIDE ;
      anti-TNF si réfractaire ; EMBOLISATION si hémoptysie grave
    Anévrisme aortique/périphérique : CYCLOPHOSPHAMIDE + GLUCOCORTICOÏDES avant
@@ -516,7 +524,8 @@ Selon les principes généraux des recommandations EULAR 2018 et du PNDS frança
      immunosuppresseur (azathioprine) ; anti-TNF monoclonal si sévère/réfractaire ;
      ÉVITER la CICLOSPORINE
    Thrombose veineuse cérébrale : GLUCOCORTICOÏDES ; anticoagulation de courte
-     durée ; rechercher une atteinte vasculaire d'un autre territoire
+     durée (EULAR 2018) ou curative de 12 à 18 mois en général (PNDS 2019) ;
+     rechercher une atteinte vasculaire d'un autre territoire
 
 6. DIGESTIVE
    Confirmer par endoscopie/imagerie ; éliminer ulcères aux AINS, MICI,
@@ -578,7 +587,8 @@ DEVANT UNE THROMBOSE VEINEUSE + HÉMOPTYSIE CHEZ UN HOMME JEUNE
         ├─ OUI : corticoïdes forte dose + cyclophosphamide ; embolisation si
         │        hémoptysie grave ; anticoagulation contre-indiquée
         └─ NON : rechercher embolie pulmonaire ; traitement immunosuppresseur
-                 de la thrombose ± anticoagulation (risque hémorragique faible)
+                 de la thrombose ± anticoagulation (EULAR 2018 : « peut être
+                 ajoutée » si risque hémorragique faible ; PNDS 2019 : recommandée)
 ```
 
 

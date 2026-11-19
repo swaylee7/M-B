@@ -914,7 +914,7 @@
         "D",
         "E"
       ],
-      "explication_generale": "Le tableau 3.3 de CANMAT 2023 donne des fourchettes issues des monographies : sertraline 50-200 mg, escitalopram 10-20 mg, venlafaxine LP 75-225 mg, mirtazapine 30-60 mg, fluoxétine 20-60 mg. Toute prescription doit être confrontée au RCP local.",
+      "explication_generale": "Le tableau 3.3 de CANMAT 2023 donne des fourchettes issues des monographies : sertraline 50-200 mg, escitalopram 10-20 mg, venlafaxine LP 75-225 mg, mirtazapine 30-60 mg, fluoxétine 20-60 mg. Ces fourchettes ne sont pas des plafonds absolus : le mhGAP-IG 2.0 (OMS, 2016) admet jusqu'à 80 mg/j de fluoxétine (divergence présentée dans DOS-PSYC-0002, § 21). Toute prescription doit être confrontée au RCP local.",
       "explications_par_proposition": {
         "A": "Vrai.",
         "B": "Faux : 10-20 mg/j.",
@@ -944,7 +944,15 @@
       ],
       "statut": "audite_valide",
       "auteur": "DOS-10",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Explication complétée : divergence CANMAT 2023 (20-60 mg) / mhGAP-IG 2016 (maximum 80 mg/j) pour la fluoxétine, alignée sur DOS-PSYC-0002 v1.2. Clé inchangée.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "QCM-PSYC-1019",

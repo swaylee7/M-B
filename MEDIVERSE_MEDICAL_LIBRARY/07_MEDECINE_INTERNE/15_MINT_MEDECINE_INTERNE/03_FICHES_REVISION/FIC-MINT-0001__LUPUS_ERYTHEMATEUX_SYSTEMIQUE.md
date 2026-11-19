@@ -4,7 +4,12 @@ titre: "Fiche — Lupus érythémateux systémique"
 specialite: MINT
 items_residanat: [RES-MED-101, RES-MED-154]
 dossier_source: DOS-MINT-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Alignement sur DOS-MINT-0001 v1.2 (prednisone du cas recalculée à ≈ 17–28 mg/j pour 56 kg) : valeur absente de la fiche, pas de modification de fond."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -191,7 +196,7 @@ sources:
 
 # Fiche — Lupus érythémateux systémique (RES-MED-101, RES-MED-154)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MINT-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Cadre : critères EULAR/ACR 2019 [S1], EULAR 2023 [S2], KDIGO 2024 [S3], EULAR/ERA-EDTA 2019 [S4], PNDS HAS 2024 [S6], ACR 2024–2025 [S7, S8]. Données algériennes de l'adulte non retrouvées `[À VÉRIFIER]` ; données MENA [S14].
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MINT-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Cadre : critères EULAR/ACR 2019 [S1], EULAR 2023 [S2], KDIGO 2024 [S3], EULAR/ERA-EDTA 2019 [S4], PNDS HAS 2024 [S6], ACR 2024–2025 [S7, S8]. Données algériennes de l'adulte non retrouvées `[À VÉRIFIER]` ; données MENA [S14].
 
 ## 1. Définition (2 lignes)
 

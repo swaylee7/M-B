@@ -114,7 +114,7 @@ Fiche : [FIC-OPHT-0001](../../15_AUTRES_SPECIALITES/40_OPHT_OPHTALMOLOGIE/03_FIC
 2. Instiller un **collyre mydriatique** pour examiner le fond d'œil d'un œil rouge douloureux. — *(RES-CHI-040 · FIC-OPHT-0001, piège 2)*
 3. Confondre avec une **uvéite antérieure** (myosis, Tyndall, chambre de profondeur normale). — *(RES-CHI-040 · FIC-OPHT-0001, piège 3)*
 4. Oublier l'**iridotomie préventive de l'œil adelphe**. — *(RES-CHI-040 · FIC-OPHT-0001, piège 4)*
-5. Prescrire un **collyre bêtabloquant** chez un asthmatique ou un BPCO sévère, du **mannitol** chez un insuffisant cardiaque. — *(RES-CHI-040 · FIC-OPHT-0001, piège 5)*
+5. Prescrire un **collyre bêtabloquant** chez un asthmatique ou un patient ayant un antécédent de BPCO, du **mannitol** chez un insuffisant cardiaque. — *(RES-CHI-040 · FIC-OPHT-0001, piège 5 ; libellé aligné sur DOS-OPHT-0001 v1.2, AUD-05)*
 6. Compter sur la **pilocarpine** tant que la PIO est très élevée, ou l'utiliser dans un glaucome malin ou une fermeture par effusion. — *(RES-CHI-040 · FIC-OPHT-0001, piège 6)*
 7. Traiter par **iridotomie** une **fermeture bilatérale du sujet jeune sous topiramate**. — *(RES-CHI-040 · FIC-OPHT-0001, piège 7)*
 8. Parler de « **glaucome** » sans neuropathie optique (terminologie ISGEO). — *(RES-CHI-040 · FIC-OPHT-0001, piège 8)*

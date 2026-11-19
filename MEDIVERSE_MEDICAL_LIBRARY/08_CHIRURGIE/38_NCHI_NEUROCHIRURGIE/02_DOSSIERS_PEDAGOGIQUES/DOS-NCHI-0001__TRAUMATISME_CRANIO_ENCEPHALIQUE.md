@@ -6,7 +6,7 @@ sous_specialite: "Neurotraumatologie"
 items_residanat: [RES-CHI-051]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 9
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NCHI-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 4, point 7) : la cible SpO2 ≥ 90 % (points clés, algorithme § 16.2) est rattachée à la 3e édition BTF (2007), la 4e édition ne fixant pas de seuil d'oxygénation ; seuil SFAR 2018 non retrouvé par recherche [À VÉRIFIER]. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Carney N, Totten AM, O'Reilly C, Ullman JS, Hawryluk GW, Bell MJ, et al. Guidelines for the Management of Severe Traumatic Brain Injury, Fourth Edition. Neurosurgery. 2017;80(1):6-15 (catalogue : REC-0425)."
@@ -184,7 +190,7 @@ mots_cles: [traumatisme crânien, score de Glasgow, hématome extradural, hémat
 # Traumatisme crânio-encéphalique : diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1 ; cohérence AUD-05, v1.2). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-051 — « Traumatisme crânio-encéphalique : Diagnostic - traitement » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -647,7 +653,8 @@ TDM anormale → avis neurochirurgical ; hospitalisation ; antagonisation si ant
 ```text
 GCS ≤ 8 après correction de l'hypoxémie et de l'hypotension
 │
-├─ Préhospitalier : intubation (rachis en ligne), SpO2 ≥ 90 %, normocapnie (EtCO2),
+├─ Préhospitalier : intubation (rachis en ligne), SpO2 ≥ 90 % (seuil BTF 2007, § 5.2),
+│   normocapnie (EtCO2),
 │   PAS ≥ 110 mmHg (≥ 100 entre 50 et 69 ans), glycémie, pas de soluté hypotonique,
 │   mydriase / aggravation → osmothérapie ; orientation vers un centre avec neurochirurgie
 │
@@ -749,7 +756,7 @@ Mydriase aréactive unilatérale + troubles de conscience
 4. **HSDA** : veines ponts, croissant ; **> 10 mm ou déviation > 5 mm = chirurgie** ; pronostic plus sombre [S8].
 5. **TDM sans injection** = examen de référence ; pas de radiographie du crâne ; indications du TC léger : **NICE NG232**, **règle canadienne** (adulte), **PECARN** (enfant) [S3, S4, S5].
 6. Patient sous **anticoagulant ou antiagrégant (hors aspirine seule)** : envisager une TDM dans les 8 h même sans autre critère (NICE) [S3].
-7. TC grave : intubation, **pas de désaturation** (SpO2 ≥ 90 % au minimum), **normocapnie** (pas d'hyperventilation prophylactique), **PAS ≥ 100-110 mmHg selon l'âge**, PIC traitée au-delà de **22 mmHg**, **PPC 60-70 mmHg** [S1, S2].
+7. TC grave : intubation, **pas de désaturation** (SpO2 ≥ 90 % au minimum : seuil de la 3e édition BTF 2007, la 4e édition [S1] ne fixant pas de seuil d'oxygénation — § 5.2 ; seuil SFAR [S2] non vérifié **[À VÉRIFIER]**), **normocapnie** (pas d'hyperventilation prophylactique), **PAS ≥ 100-110 mmHg selon l'âge**, PIC traitée au-delà de **22 mmHg**, **PPC 60-70 mmHg** [S1, S2].
 8. **Osmothérapie** (mannitol ou SSH) devant des signes d'engagement ou une HTIC ; **pas de corticoïdes** (CRASH) ; **pas d'hypothermie prophylactique** [S1, S10].
 9. **Acide tranexamique** précoce (≤ 3 h) : bénéfice dans les TC légers à modérés (CRASH-3) ; **prophylaxie anticomitiale** limitée aux crises précoces (7 jours) [S1, S9].
 10. **Craniectomie décompressive** : HTIC réfractaire ; moins de décès mais plus de handicaps sévères (RESCUEicp) → décision collégiale [S11].

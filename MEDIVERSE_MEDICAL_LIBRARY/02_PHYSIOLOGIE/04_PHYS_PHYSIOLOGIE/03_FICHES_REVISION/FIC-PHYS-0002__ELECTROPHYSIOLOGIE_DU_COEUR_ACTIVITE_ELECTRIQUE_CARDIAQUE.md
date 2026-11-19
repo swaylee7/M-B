@@ -4,7 +4,12 @@ titre: "Fiche — Électrophysiologie du cœur : potentiels d'action, canaux ion
 specialite: PHYS
 items_residanat: [RES-SF-007]
 dossier_source: DOS-PHYS-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Renvoi vers DOS-CARD-0007 précisé (§ 13.2.2, dossier audité)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -119,7 +124,7 @@ sources:
 
 # Fiche — Électrophysiologie du cœur : activité électrique cardiaque (RES-SF-007)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PHYS-0002 (v1.1, statut `audite_valide`). Aucun fait nouveau. Sciences fondamentales : **aucune posologie** (antiarythmiques : DOS-CARD-0007 ; hyperkaliémie : DOS-NEPH-0002). Seuils ESC 2022 vérifiés sur sources secondaires [S15, S16] (texte intégral [S13] non accessible pendant l'audit).
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PHYS-0002 (v1.2, statut `audite_valide`). Aucun fait nouveau. Sciences fondamentales : **aucune posologie** (antiarythmiques : DOS-CARD-0007, § 13.2.2 ; hyperkaliémie : DOS-NEPH-0002). Seuils ESC 2022 vérifiés sur sources secondaires [S15, S16] (texte intégral [S13] non accessible pendant l'audit).
 
 ## 1. Définition (2 lignes)
 

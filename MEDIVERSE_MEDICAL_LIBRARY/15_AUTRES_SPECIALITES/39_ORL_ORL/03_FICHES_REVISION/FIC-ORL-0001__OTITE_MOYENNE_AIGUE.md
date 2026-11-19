@@ -4,7 +4,12 @@ titre: "Fiche — Otite moyenne aiguë : définition, diagnostic, évolution, tr
 specialite: ORL
 items_residanat: [RES-CHI-044]
 dossier_source: DOS-ORL-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Plafond pédiatrique du cotrimoxazole (800/160 mg/j) confirmé sur la fiche HAS de l'enfant et explicité (DOS-ORL-0001 v1.2)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -111,7 +116,7 @@ sources:
 
 # Fiche — Otite moyenne aiguë (RES-CHI-044)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-ORL-0001 (v1.1, statut `audite_valide`). Aucun fait nouveau ; doses identiques au dossier. Référentiel principal : fiches mémo **HAS–SPILF–GPIP** (enfant et adulte, 2021, mises à jour 2024-2025) [S1, S2, S3], confrontées à l'**AAP 2013** [S6]. Aucune recommandation algérienne spécifique identifiée `[À VÉRIFIER — existence d'un guide MSPRH ou d'une société savante algérienne de pédiatrie/ORL]` ; calendrier vaccinal algérien [S11].
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-ORL-0001 (v1.2, statut `audite_valide`). Aucun fait nouveau ; doses identiques au dossier. Référentiel principal : fiches mémo **HAS–SPILF–GPIP** (enfant et adulte, 2021, mises à jour 2024-2025) [S1, S2, S3], confrontées à l'**AAP 2013** [S6]. Aucune recommandation algérienne spécifique identifiée `[À VÉRIFIER — existence d'un guide MSPRH ou d'une société savante algérienne de pédiatrie/ORL]` ; calendrier vaccinal algérien [S11].
 
 ## 1. Définition (2 lignes)
 
@@ -194,7 +199,7 @@ OMA PURULENTE confirmée
 | Amoxicilline–acide clavulanique (otite-conjonctivite) | 80 mg/kg/j (amoxicilline) en 2 prises, ≤ 3 g/j | — |
 | **Cefpodoxime** (allergie aux pénicillines sans CI aux céphalosporines) | **8 mg/kg/j en 2 prises**, ≤ 400 mg/j | 400 mg/j en 2 prises |
 | Céfuroxime axétil | — | 500 mg/j en 2 prises |
-| **Cotrimoxazole** (CI à toutes les β-lactamines) | **30 mg/kg/j + 6 mg/kg/j en 2 prises**, ≤ 800/160 mg/j | 800 mg + 160 mg, 2 fois par jour, 5 jours (libellé de la fiche jugé ambigu par le dossier) |
+| **Cotrimoxazole** (CI à toutes les β-lactamines) | **30 mg/kg/j + 6 mg/kg/j en 2 prises**, ≤ 800/160 mg/j (plafond « par jour » libellé ainsi par la fiche HAS de l'enfant, vérifié ; atteint vers 27 kg) | 800 mg + 160 mg, 2 fois par jour, 5 jours (libellé de la fiche jugé ambigu par le dossier) |
 | Pristinamycine (CI aux β-lactamines) | — | 2 g/j en 2 prises |
 
 Disponibilité des formes (cefpodoxime en suspension, pristinamycine) `[À VÉRIFIER — nomenclature MSPRH / disponibilité locale]`.

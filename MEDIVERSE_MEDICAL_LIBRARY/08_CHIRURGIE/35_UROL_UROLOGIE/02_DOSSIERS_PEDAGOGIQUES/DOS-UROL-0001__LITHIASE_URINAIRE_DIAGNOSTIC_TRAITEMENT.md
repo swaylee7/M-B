@@ -6,7 +6,7 @@ sous_specialite: "Lithiase urinaire"
 items_residanat: [RES-CHI-023, RES-CHI-030]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-UROL-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 4 RES-06, point 1) : délai d'imagerie de la CN simple harmonisé — dans les 48 h, entre la 12e et la 48e heure selon l'actualisation SFMU 2008 (qui admettait échographie + ASP ou scanner non injecté), d'après des sources secondaires concordantes ; aucune source pour « 24–48 h » ; délai propre au CLAFU 2022 marqué [À VÉRIFIER]. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Skolarikos A, Geraghty R, Somani B, Tailly T, Jung H, Neisius A, Petřík A, Kamphuis GM, et al. European Association of Urology Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol. 2025;88(1):64-75."
@@ -441,7 +447,7 @@ Un calcul rénal non obstructif est souvent **asymptomatique**, découvert sur u
 
 ### 9.3 Délai de l'imagerie (stratégie)
 - **CN compliquée ou terrain à risque** : imagerie **en urgence** (scanner non injecté en première intention, sauf grossesse) [S4, S9].
-- **CN simple** : imagerie dans les **24–48 heures** ; le CLAFU 2022 et l'EAU privilégient le scanner non injecté faible dose, la conférence SFMU 2008 retenait l'association échographie + ASP [S4, S5, S9] (voir divergences § 21).
+- **CN simple** : imagerie **différée, dans les 48 heures** : entre la 12e et la 48e heure selon l'actualisation SFMU 2008, qui admettait l'association échographie + ASP **ou** le scanner non injecté [S9] (délai et options rapportés par des sources secondaires concordantes ; texte intégral non relu) ; le CLAFU 2022 et l'EAU privilégient le scanner non injecté faible dose [S4, S5] ; délai propre au CLAFU 2022 non vérifié **[À VÉRIFIER]** (voir divergences § 21).
 - **Doute diagnostique** (âge, absence d'hématurie, douleur atypique, signes péritonéaux) : scanner **immédiat**.
 
 ### 9.4 Analyse du calcul et bilan métabolique (au décours)
@@ -591,7 +597,7 @@ Les deux techniques ont une **efficacité équivalente** pour drainer une obstru
 
 #### 13.3.1 Colique néphrétique simple
 1. Antalgie : **AINS** (si pas de contre-indication) ± paracétamol ; morphine titrée si échec [S1, S9, S14].
-2. Imagerie dans les 24–48 h (scanner non injecté faible dose ou, selon les pratiques, échographie ± ASP) [S4, S5, S9].
+2. Imagerie dans les 48 h (entre 12 et 48 h selon la SFMU 2008) : scanner non injecté faible dose ou, selon les pratiques, échographie ± ASP [S4, S5, S9].
 3. **Retour à domicile** si douleur contrôlée, pas de fièvre, diurèse conservée, patient fiable et compréhension des consignes.
 4. Ordonnance : AINS per os sur une courte durée (quelques jours), à la dose minimale efficace — par exemple ibuprofène 400 mg × 3/j ou diclofénac 50 mg × 2 à 3/j (150 mg/j au maximum) selon le RCP —, paracétamol, ± tamsulosine si calcul de l'uretère distal > 5 mm [S1] ; tamisage des urines.
 5. **Consignes de reconsultation immédiate** : fièvre ≥ 38 °C ou frissons, douleur non contrôlée, diminution des urines, vomissements empêchant les prises orales.
@@ -684,7 +690,7 @@ Sources : [S1, S4, S6, S11] — la hiérarchie entre LEC et URS dépend de la de
 4. Aucun critère → CN SIMPLE
    ├── AINS IV/IM (± paracétamol), morphine titrée si échec ; pas d'hyperhydratation
    ├── BU, créatinine
-   ├── Imagerie ≤ 24–48 h (scanner non injecté faible dose / échographie ± ASP)
+   ├── Imagerie entre 12 et 48 h (scanner non injecté faible dose / échographie ± ASP)
    └── Sortie si douleur contrôlée : antalgiques, ± tamsulosine (uretère distal > 5 mm),
        tamisage, consignes de retour, consultation urologique avec imagerie de contrôle
 ```
@@ -856,7 +862,7 @@ E. Analyse infrarouge du calcul lorsqu'il est disponible.
 
 | Sujet | Position A | Position B | Commentaire |
 |---|---|---|---|
-| **Imagerie de la CN simple** | SFMU/AFU 2008 : échographie + ASP dans les 12–48 h ; scanner en cas de doute ou de CN compliquée [S9] | CLAFU 2022 : scanner non injecté = référence [S4, S5] ; EAU 2025 : échographie en première ligne puis scanner faible dose pour l'évaluation précise [S1] | Évolution vers le scanner faible dose ; stratégie « échographie d'abord » validée par l'essai de Smith-Bindman [S15] ; la disponibilité locale guide le choix |
+| **Imagerie de la CN simple** | SFMU/AFU 2008 : entre la 12e et la 48e heure, échographie + ASP ou scanner non injecté ; scanner en urgence en cas de doute ou de CN compliquée [S9] (sources secondaires concordantes ; texte intégral non relu) | CLAFU 2022 : scanner non injecté = référence [S4, S5] ; EAU 2025 : échographie en première ligne puis scanner faible dose pour l'évaluation précise [S1] | Évolution vers le scanner faible dose ; stratégie « échographie d'abord » validée par l'essai de Smith-Bindman [S15] ; la disponibilité locale guide le choix |
 | **Traitement médical expulsif** | EAU 2025 : alpha-bloquant à envisager chez des patients sélectionnés [S1] ; éditions antérieures : option fortement recommandée pour l'uretère distal > 5 mm [S3] ; section révisée dans l'édition 2026 [S2] [À VÉRIFIER] | Essais pragmatiques SUSPEND et STONE négatifs en population non sélectionnée [S12, S13] | Usage hors AMM ; ne pas l'utiliser pour les petits calculs (< 5 mm), qui s'éliminent spontanément |
 | **Place relative LEC / URS** | EAU et AUA : LEC et URS sont toutes deux de première ligne pour de nombreux calculs < 20 mm [S1, S11] | CLAFU 2022 : choix fondé sur la composition, la densité, le contexte et l'objectif « sans fragment » avec la technique la moins invasive [S6] | Tendance à la progression de l'URS souple ; en Algérie, l'accès aux deux techniques est inégal [S17, S19] |
 | **Délai avant intervention pour un calcul urétéral non compliqué** | Pratiques variables (surveillance de quelques semaines) | EAU : intervention si pas d'expulsion, douleur persistante ou obstruction [S1] | Délais exacts [À VÉRIFIER] dans la version en vigueur |

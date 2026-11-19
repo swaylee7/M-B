@@ -2997,7 +2997,7 @@
         "B",
         "D"
       ],
-      "explication_generale": "La thrombose est d'origine inflammatoire : l'immunosuppression prévient les récidives ; l'anticoagulation n'est qu'un complément éventuel.",
+      "explication_generale": "La thrombose est d'origine inflammatoire : l'immunosuppression prévient les récidives ; selon l'EULAR 2018, l'anticoagulation n'est qu'un complément éventuel (proposition B). Le PNDS français 2019 diverge : il recommande une anticoagulation curative de 3 à 6 mois, après exclusion d'un anévrisme artériel pulmonaire et évaluation du risque hémorragique (DOS-MINT-0002, § 21). L'énoncé précisant « selon l'EULAR 2018 », la clé est inchangée.",
       "explications_par_proposition": {
         "A": "Vrai.",
         "B": "Vrai.",
@@ -3033,7 +3033,15 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "verdict": "audite_valide",
         "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Explication complétée par la position divergente du PNDS 2019 (anticoagulation curative recommandée 3 à 6 mois), alignée sur DOS-MINT-0002 v1.2. Clé inchangée.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "QCM-MINT-0927",

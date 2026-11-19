@@ -4,7 +4,12 @@ titre: "Fiche — Maladie de Behçet"
 specialite: MINT
 items_residanat: [RES-MED-158]
 dossier_source: DOS-MINT-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Tableau des TVP : position du PNDS 2019 (anticoagulation curative recommandée 3 à 6 mois) ajoutée à celle de l'EULAR 2018, comme dans DOS-MINT-0002 v1.2."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -119,7 +124,7 @@ sources:
 
 # Fiche — Maladie de Behçet (RES-MED-158)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MINT-0002 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (PNDS 2019 relu [S4]). Cadre : critères ISG 1990 [S1] et ICBD 2014 [S2], EULAR 2018 [S3] (texte intégral non relu `[À VÉRIFIER]`), séries de l'Ouest algérien [S9] et tunisienne [S10].
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MINT-0002 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (PNDS 2019 relu [S4]). Cadre : critères ISG 1990 [S1] et ICBD 2014 [S2], EULAR 2018 [S3] (texte intégral non relu `[À VÉRIFIER]`), séries de l'Ouest algérien [S9] et tunisienne [S10].
 
 ## 1. Définition (2 lignes)
 
@@ -178,7 +183,7 @@ Thrombose veineuse + HÉMOPTYSIE chez un homme jeune → NE PAS ANTICOAGULER À 
 | Articulaire | **Colchicine** ; infiltration ; chronique : azathioprine, IFN-α, anti-TNF |
 | Uvéite antérieure isolée | Traitement local ; systémique si homme jeune, début précoce |
 | **Segment postérieur** | **Azathioprine, ciclosporine, IFN-α ou anti-TNF monoclonal** ; **corticoïdes toujours associés à un immunosuppresseur** ; poussée menaçant la vision : corticoïdes forte dose + **infliximab ou IFN-α** ; intravitréen en appoint |
-| **TVP** | **Glucocorticoïdes + immunosuppresseur** (azathioprine, cyclophosphamide, ciclosporine) ; anticoagulant ajouté seulement si risque hémorragique faible **ET anévrisme pulmonaire exclu** ; réfractaire : anti-TNF monoclonal |
+| **TVP** | **Glucocorticoïdes + immunosuppresseur** (azathioprine, cyclophosphamide, ciclosporine) ; anticoagulation : **EULAR** = « peut être ajoutée » si risque hémorragique faible **ET anévrisme pulmonaire exclu** ; **PNDS** = curative recommandée 3 à 6 mois (plus si cave ou sus-hépatique), après la même vérification ; réfractaire : anti-TNF monoclonal |
 | **Anévrisme artériel** | Glucocorticoïdes forte dose + **cyclophosphamide** ; anti-TNF si réfractaire ; embolisation (pulmonaire) ; chirurgie/endoprothèse **sous immunosuppression** |
 | Neuro parenchymateux | Glucocorticoïdes forte dose + azathioprine ; anti-TNF monoclonal si sévère ; **ÉVITER la ciclosporine** |
 | Thrombose veineuse cérébrale | Glucocorticoïdes ; anticoagulation (EULAR : courte durée ; PNDS : 12 à 18 mois) |

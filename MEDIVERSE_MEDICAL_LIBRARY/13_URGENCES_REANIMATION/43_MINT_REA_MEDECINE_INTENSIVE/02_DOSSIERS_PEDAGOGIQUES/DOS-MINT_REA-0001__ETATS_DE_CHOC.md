@@ -6,7 +6,7 @@ sous_specialite: "Défaillances circulatoires aiguës"
 items_residanat: [RES-MED-106]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.2"
+version: "1.3"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-06 (IA) — dossier pédagogique original"
@@ -23,6 +23,12 @@ audit:
     corrections: 3
     rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
     remarque: "Audit de cohérence transversale (avec DOS-PEDI-0002) : adrénaline IM de l'anaphylaxie — « maximum 0,3 mg chez l'enfant » remplacé par la règle 0,01 mg/kg (maximum 0,5 mg) et le barème par âge de la WAO 2020 (tableau 6, vérifié sur le PDF acquis : < 10 kg 0,01 mg/kg ; 1–5 ans 0,15 mg ; 6–12 ans 0,3 mg ; adolescent et adulte 0,5 mg) ; RCUK 2021 : existence confirmée, barème par âge non relu. Restent ouverts les points des audits précédents."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence avec DOS-IMMU-0002 : remplissage de l'anaphylaxie présenté source par source — WAO 2020 (texte relu, DOC-00086) : bolus de 20 mL/kg quel que soit l'âge ; RCUK 2021 : 500–1 000 mL chez l'adulte, 10 mL/kg chez l'enfant (extraits de documents RCUK dérivés, texte intégral non relu, marqueur maintenu) ; ligne ajoutée au § 21. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026;54(4):725-812 (publication le 23 mars 2026) ; publication simultanée : Intensive Care Med. 2026;52(5):863-936, doi:10.1007/s00134-026-08361-1 (catalogue REC-0266)."
@@ -455,7 +461,7 @@ Dans le choc septique nécessitant des doses croissantes de vasopresseurs, la SS
 1. **Arrêter l'exposition** (perfusion en cours, produit de contraste), appeler à l'aide.
 2. **Adrénaline IM immédiate** (voir tableau), renouvelable toutes les 5 minutes.
 3. Position adaptée, oxygène à haut débit.
-4. **Remplissage rapide** par cristalloïdes en cas d'hypotension (bolus de l'ordre de 500–1 000 mL chez l'adulte, 10–20 mL/kg chez l'enfant) [S13 — À VÉRIFIER].
+4. **Remplissage rapide** par cristalloïdes en cas d'hypotension ou d'instabilité cardiovasculaire, par bolus réévalués : **WAO 2020 : bolus de 20 mL/kg**, sans distinction d'âge (texte intégral relu) [S6] ; **RCUK 2021 : 500–1 000 mL chez l'adulte, 10 mL/kg chez l'enfant**, bolus renouvelable (valeurs lues par extraits dans des documents dérivés du RCUK ; texte intégral non relu) [S13 — À VÉRIFIER]. Chez l'adulte, les ordres de grandeur sont voisins (20 mL/kg ≈ 1 400 mL pour 70 kg) ; chez l'enfant, le volume du bolus diffère (20 vs 10 mL/kg) : voir § 21.
 5. **Anaphylaxie réfractaire** (persistance après deux injections IM) : perfusion IV d'adrénaline titrée par une équipe entraînée sous monitorage ; vasopresseur additionnel si besoin ; **glucagon** IV chez le patient sous bêtabloquant [S13 — POSOLOGIE À VÉRIFIER].
 6. **Bronchospasme** : bronchodilatateur β2 inhalé en complément de l'adrénaline ; œdème laryngé : intubation précoce par un opérateur expérimenté (préparer l'abord chirurgical).
 7. **Antihistaminiques H1** : uniquement pour les symptômes cutanéo-muqueux, après stabilisation ; **corticoïdes** : non indiqués en première ligne [S5].
@@ -563,7 +569,8 @@ OU hypotension/bronchospasme/atteinte laryngée après allergène probable
 ├─ ADRÉNALINE IM 0,01 mg/kg (max 0,5 mg ; par âge, WAO : 0,15 mg 1–5 ans,
 │  0,3 mg 6–12 ans, 0,5 mg adolescent/adulte), cuisse
 ├─ Décubitus jambes surélevées (assis si dyspnée ; latéral gauche si grossesse), O2
-├─ Remplissage cristalloïdes si hypotension
+├─ Remplissage cristalloïdes si hypotension (WAO : 20 mL/kg ; RCUK : 500–1 000 mL
+│  chez l'adulte, 10 mL/kg chez l'enfant)
 ├─ Pas d'amélioration à 5 min → 2e dose IM
 ├─ Toujours réfractaire → adrénaline IV en perfusion titrée (équipe entraînée),
 │  glucagon si bêtabloquant, vasopresseur additionnel
@@ -852,6 +859,7 @@ Hypoperfusion + dysfonction cardiaque (ECG, écho, troponine)
 | Assistance circulatoire | **DanGer Shock 2024** : bénéfice de survie de la pompe microaxiale dans le choc de l'infarctus avec sus-décalage de ST [S8] | Recommandations antérieures (ESC 2021) sans recommandation forte en faveur d'une assistance systématique ; ECLS-SHOCK négatif pour l'ECMO [S10, S15] | Niveau de preuve en évolution : seule une population sélectionnée bénéficie |
 | Dose d'adrénaline IM chez l'enfant | **WAO 2020** : 0,01 mg/kg (maximum 0,5 mg), ou barème par âge — 0,15 mg (1–5 ans), 0,3 mg (6–12 ans), 0,5 mg (adolescent) [S6] ; **EAACI 2021** : 0,01 mg/kg, maximum 0,5 mg [S5] | **OMS, Pocket book 2013** : 0,15 mL de solution à 1 mg/mL chez le jeune enfant, 0,3 mL chez l'enfant plus grand (voir DOS-PEDI-0002) ; **RCUK 2021** : barème par âge [S13 — À VÉRIFIER] | Le calcul au poids et les barèmes par âge sont concordants ; 0,3 mg est la dose usuelle de 6–12 ans, **pas un plafond pédiatrique** |
 | Corticoïdes et antihistaminiques dans l'anaphylaxie | **EAACI 2021** : pas en première ligne, les corticoïdes ne préviennent pas de façon démontrée les réactions biphasiques [S5] | Pratiques françaises plus anciennes associant systématiquement corticoïdes et antihistaminiques [S14 — non vérifiée] | L'adrénaline IM reste le seul traitement de première ligne |
+| Volume du bolus de remplissage dans l'anaphylaxie | **WAO 2020** : 20 mL/kg de cristalloïdes si instabilité cardiovasculaire, quel que soit l'âge [S6] (texte intégral relu) | **RCUK 2021** : adulte 500–1 000 mL, enfant 10 mL/kg, à renouveler [S13 — extraits ; texte intégral non relu] | Ordres de grandeur voisins chez l'adulte ; divergence chez l'enfant (20 vs 10 mL/kg) ; réévaluer après chaque bolus |
 | Doses d'adrénaline IV en anaphylaxie | **Resuscitation Council UK 2021** : perfusion IV titrée pour l'anaphylaxie réfractaire [S13 — non vérifiée] | **Pratique anesthésique française** : bolus IV titrés selon le grade en contexte peropératoire monitoré [À VÉRIFIER — recommandations SFAR non vérifiées] | La voie IV est réservée aux équipes entraînées sous monitorage |
 | Cible de PAM dans le choc septique | **SSC** : PAM initiale 65 mmHg [S1, S2] | **ESICM 2014** : cibles individualisées, plus élevées possibles chez l'hypertendu chronique [S4] | Individualiser selon la perfusion tissulaire |
 
@@ -869,6 +877,6 @@ Hypoperfusion + dysfonction cardiaque (ECG, écho, troponine)
 10. [S10] McDonagh TA, Metra M, et al. 2021 ESC Guidelines for heart failure. Eur Heart J. 2021;42(36):3599-3726. doi:10.1093/eurheartj/ehab368. — *vérifiée*.
 11. [S11] Byrne RA, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023. doi:10.1093/eurheartj/ehad191. — *vérifiée*.
 12. [S12] Rossaint R, Afshari A, Bouillon B, et al. European guideline on management of major bleeding and coagulopathy following trauma, 6th ed. Crit Care. 2023;27(1):80. doi:10.1186/s13054-023-04327-7. — *vérifiée*.
-13. [S13] Resuscitation Council UK. Emergency treatment of anaphylaxis: guidelines for healthcare providers. 2021. — *existence confirmée par recherche web (AUD-05, 2026-11-19 ; resus.org.uk) ; barème de doses non relu*.
+13. [S13] Resuscitation Council UK. Emergency treatment of anaphylaxis: guidelines for healthcare providers. 2021. — *existence confirmée par recherche web (AUD-05, 2026-11-19 ; resus.org.uk) ; barème de doses non relu ; volumes de remplissage (adulte 500–1 000 mL, enfant 10 mL/kg) lus par extraits de documents RCUK dérivés (fiche RCUK/PHE des sites de vaccination, mise à jour août 2021 ; algorithme de l'anaphylaxie réfractaire) — texte intégral non relu*.
 14. [S14] Gloaguen A, et al. Prise en charge de l'anaphylaxie en médecine d'urgence (SFMU/SFA/GFRUP). 2016. — *non vérifiée pendant la session*.
 15. [S15] Essais IABP-SHOCK II, CULPRIT-SHOCK, ECLS-SHOCK, CRASH-2, ANDROMEDA-SHOCK. — *non vérifiés pendant la session*.

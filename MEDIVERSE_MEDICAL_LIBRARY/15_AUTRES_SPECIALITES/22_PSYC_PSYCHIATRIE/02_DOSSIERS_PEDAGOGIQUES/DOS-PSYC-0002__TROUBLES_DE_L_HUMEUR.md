@@ -6,7 +6,7 @@ sous_specialite: "Troubles de l'humeur"
 items_residanat: [RES-MED-153]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-10 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_valide
     corrections: 7
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence : divergence réelle sur la dose maximale de fluoxétine présentée (CANMAT 2023, tableau 3.3 relu sur DOC-00099 : 20–60 mg/j issus des monographies ; mhGAP-IG 2016 : maximum 80 mg/j) au § 13.2.2 et au § 21 ; équivalence 1 mEq/L = 1 mmol/L pour la lithiémie explicitée. Aucun marqueur ajouté."
 sources:
   - id: S1
     reference: "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington, DC: American Psychiatric Association Publishing; 2022. ISBN 978-0-89042-575-6."
@@ -398,7 +404,7 @@ Fourchettes de doses quotidiennes issues du **tableau 3.3 de CANMAT 2023** (éta
 | IMAO irréversibles | Phénelzine 45–90 mg ; tranylcypromine 30–60 mg | | 3e |
 
 Le **mhGAP-IG 2.0** (soins non spécialisés) propose deux molécules essentielles [S10] :
-- **Fluoxétine** : 10 mg/j la première semaine puis 20 mg/j ; si pas de réponse après 6 semaines, 40 mg/j (maximum 80 mg/j) ; molécule préférée chez le sujet âgé ou malade (début 10 mg/j, maximum 40 mg/j).
+- **Fluoxétine** : 10 mg/j la première semaine puis 20 mg/j ; si pas de réponse après 6 semaines, 40 mg/j (maximum 80 mg/j) ; molécule préférée chez le sujet âgé ou malade (début 10 mg/j, maximum 40 mg/j). La borne haute de l'adulte diffère de celle du tableau de CANMAT 2023 (20–60 mg/j, fourchette issue des monographies canadiennes) : divergence présentée au § 21 ; la dose maximale applicable est celle du RCP en vigueur.
 - **Amitriptyline** : 25 mg au coucher, augmentation de 25–50 mg par semaine jusqu'à 100–150 mg/j (maximum 300 mg/j) ; dose minimale efficace chez l'adulte 75 mg/j ; contre-indiquée chez l'enfant et l'adolescent ; prudence chez le cardiaque, l'épileptique et le **bipolaire** (risque de virage).
 
 L'OMS (mhGAP 2023, DEP1) retient pour la dépression modérée à sévère de l'adulte les ISRS (citalopram, escitalopram, fluoxétine, fluvoxamine, paroxétine, sertraline) ou l'amitriptyline [S9].
@@ -414,7 +420,7 @@ L'OMS (mhGAP 2023, DEP1) retient pour la dépression modérée à sévère de l'
 
 | Molécule | Posologie de référence | Cibles plasmatiques | Effets indésirables / précautions |
 |---|---|---|---|
-| **Lithium** | mhGAP-IG : début 300 mg/j, augmentation tous les 7 jours jusqu'à la cible (habituellement 600–1 200 mg/j) ; à n'utiliser que si une surveillance clinique et biologique est possible [S10] | **Manie aiguë** : 0,8–1,2 mEq/L (0,4–0,8 chez le sujet âgé) ; **entretien** : 0,6–1,0 mEq/L (CANMAT-ISBD) [S5] — le mhGAP-IG retient 0,8–1,0 en aigu et 0,6–0,8 en entretien [S10] | Tremblement, polyurie-polydipsie (diabète insipide néphrogénique), prise de poids, troubles digestifs, **hypothyroïdie**, hyperparathyroïdie (calcémie), troubles de conduction, atteinte rénale chronique ; **marge thérapeutique étroite** : toxicité favorisée par la déshydratation, les AINS, IEC, ARA II, diurétiques, l'âge [S5, S10] |
+| **Lithium** | mhGAP-IG : début 300 mg/j, augmentation tous les 7 jours jusqu'à la cible (habituellement 600–1 200 mg/j) ; à n'utiliser que si une surveillance clinique et biologique est possible [S10] | **Manie aiguë** : 0,8–1,2 mEq/L (0,4–0,8 chez le sujet âgé) ; **entretien** : 0,6–1,0 mEq/L (CANMAT-ISBD) [S5] — le mhGAP-IG retient 0,8–1,0 en aigu et 0,6–0,8 en entretien [S10]. Unités : le lithium étant un ion monovalent, **1 mEq/L = 1 mmol/L** ; les cibles exprimées en mEq/L (CANMAT-ISBD, mhGAP-IG) et en mmol/L (NICE, CANMAT 2023) sont directement comparables | Tremblement, polyurie-polydipsie (diabète insipide néphrogénique), prise de poids, troubles digestifs, **hypothyroïdie**, hyperparathyroïdie (calcémie), troubles de conduction, atteinte rénale chronique ; **marge thérapeutique étroite** : toxicité favorisée par la déshydratation, les AINS, IEC, ARA II, diurétiques, l'âge [S5, S10] |
 | **Valproate** | mhGAP-IG : début 500 mg/j, augmentation progressive à 1 000–2 000 mg/j (maximum 60 mg/kg/j) [S10] | 350–700 µmol/L (50–100 µg/mL) en phase aiguë, 3 à 5 jours après la dernière modification de dose [S5] | **Tératogène** (contre-indiqué chez la femme en âge de procréer — OMS, NICE) [S6, S9], hépatotoxicité, pancréatite, thrombopénie, prise de poids, tremblement, syndrome des ovaires polykystiques |
 | **Carbamazépine** | mhGAP-IG : début 200 mg/j, +200 mg par semaine jusqu'à 400–600 mg/j en deux prises (maximum 1 200 mg/j) ; auto-induction enzymatique [S10] | Dosage surtout pour la toxicité et l'observance (tous les 6–12 mois) [S5] | Éruptions graves (HLA-B\*1502), hyponatrémie, leucopénie, hépatotoxicité, **inducteur enzymatique** (contraceptifs, autres psychotropes) [S5, S10] |
 | **Lamotrigine** | Titration très lente obligatoire (RCP) : **25 mg/j** les semaines 1-2, **50 mg/j** les semaines 3-4, puis augmentation progressive vers la dose cible habituelle de **200 mg/j** ; **avec le valproate** (qui inhibe son métabolisme) : **12,5 mg/j** (25 mg un jour sur deux) les semaines 1-2, puis 25 mg/j les semaines 3-4, avec des doses d'entretien réduites ; avec un inducteur enzymatique (carbamazépine), schéma majoré selon le RCP [S13]. CANMAT-ISBD : une titration débutée à 25 mg/j avec des paliers de 25 mg toutes les deux semaines abaisse le risque d'éruption grave à environ 1/5 000 ; dans la dépression bipolaire, viser au moins 200 mg/j [S5] | — | **Éruptions cutanées graves** (Stevens-Johnson, Lyell) : informer le patient ; efficace surtout sur la polarité dépressive [S5] |
@@ -846,6 +852,7 @@ Un homme de 30 ans présente un épisode maniaque sous escitalopram. Quelles pro
 | **Cible de lithiémie en entretien** | CANMAT-ISBD 2018 : 0,6–1,0 mEq/L (aigu 0,8–1,2) [S5] | mhGAP-IG 2016 (OMS) : 0,6–0,8 mEq/L (aigu 0,8–1,0) [S10] | Cibles proches ; la borne haute diffère. Chez le sujet âgé, CANMAT-ISBD retient 0,4–0,8 en aigu |
 | **Cible de lithiémie selon le NICE** | NICE CG185 (mise à jour du 2 septembre 2025, § 1.10.15-1.10.16) : 0,6–0,8 mmol/L chez le patient débutant le lithium ; 0,8–1,0 mmol/L pendant au moins 6 mois en cas d'antécédent de rechute sous lithium ou de symptômes subsyndromiques avec retentissement fonctionnel sous lithium [S6] | CANMAT-ISBD 2018 : 0,8–1,2 mEq/L en phase aiguë, 0,6–1,0 en entretien [S5] | Le NICE vise d'emblée une cible plus basse ; dosage 1 semaine après l'instauration et après chaque modification, puis chaque semaine jusqu'à stabilisation (NICE) |
 | **Lithiémie en potentialisation dans la dépression unipolaire** | CANMAT 2023 : 0,5–0,8 mmol/L [S4] | — | Indication différente du trouble bipolaire, cibles plus basses |
+| **Dose maximale de fluoxétine (dépression de l'adulte)** | CANMAT 2023 (tableau 3.3) : 20–60 mg/j, fourchette issue des monographies canadiennes, des doses hors fourchette étant parfois utilisées [S4] | mhGAP-IG 2.0 (OMS, 2016) : 20 mg/j, puis 40 mg/j sans réponse à 6 semaines, **maximum 80 mg/j** [S10] | Divergence réelle sur la borne haute ; les fourchettes ne se substituent pas au RCP en vigueur |
 | **Première intention dans la dépression légère** | NICE NG222 : interventions psychologiques (autoassistance guidée, TCC de groupe, activation comportementale) [S3] | HAS 2017 : psychothérapie de soutien ; antidépresseur non indiqué en première intention [S7] | Convergence : pas d'antidépresseur systématique ; nuances sur le type d'intervention |
 | **Dépression modérée** | CANMAT 2023 : psychothérapie structurée et antidépresseur au même niveau, choix partagé [S4] | NICE NG222 (dépression « plus sévère ») : association antidépresseur + psychothérapie [S3] | Les catégories de sévérité ne se recouvrent pas exactement |
 | **Durée de l'entretien après rémission** | OMS (DEP2) : au moins 6 mois [S9] | CANMAT 2023 : environ 6 à 24 mois, davantage si facteurs de risque [S4] | Allonger en cas d'épisodes récurrents, de symptômes résiduels |

@@ -4,7 +4,12 @@ titre: "Fiche — Adénome de la prostate (hypertrophie bénigne de la prostate)
 specialite: UROL
 items_residanat: [RES-CHI-025]
 dossier_source: DOS-UROL-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Alignement sur DOS-UROL-0002 v1.2 (renvoi interne corrigé) : pas de modification de fond."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -127,7 +132,7 @@ sources:
 
 # Fiche — Adénome de la prostate / hypertrophie bénigne de la prostate (RES-CHI-025)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-UROL-0002 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (RCP). Cadre : EAU 2023 [S1] (édition en ligne 2026 [S2] non lue), CTMH/AFU 2025 [S3–S5], AUA 2021–2023 [S6–S8]. Aucune recommandation ni série algérienne sur l'HBP identifiée.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-UROL-0002 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (RCP). Cadre : EAU 2023 [S1] (édition en ligne 2026 [S2] non lue), CTMH/AFU 2025 [S3–S5], AUA 2021–2023 [S6–S8]. Aucune recommandation ni série algérienne sur l'HBP identifiée.
 
 ## 1. Définition (2 lignes)
 

@@ -4,7 +4,12 @@ titre: "Fiche — Fractures du col du fémur : classification, diagnostic, trait
 specialite: TRAU
 items_residanat: [RES-CHI-035]
 dossier_source: DOS-TRAU-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Bornes de Pauwels harmonisées (I ≤ 30°, III ≥ 50°), comme DOS-TRAU-0001 v1.2."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -167,7 +172,7 @@ sources:
 
 # Fiche — Fractures du col du fémur (RES-CHI-035)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-TRAU-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (RCP). Cadre : NICE CG124 (mise à jour 2023) [S1], AAOS [S2, S3], essais HEALTH, FAITH, HIP ATTACK [S4–S6]. Publications princeps de Garden [S13] et Pauwels [S14] non vérifiées. Aucune recommandation ni donnée épidémiologique algérienne identifiée.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-TRAU-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (RCP). Cadre : NICE CG124 (mise à jour 2023) [S1], AAOS [S2, S3], essais HEALTH, FAITH, HIP ATTACK [S4–S6]. Publications princeps de Garden [S13] et Pauwels [S14] non vérifiées. Aucune recommandation ni donnée épidémiologique algérienne identifiée.
 
 ## 1. Définition (2 lignes)
 
@@ -192,7 +197,7 @@ Fracture **intracapsulaire** (sous-capitale, transcervicale, basicervicale) de l
 | Classification | Types | Point clé |
 |---|---|---|
 | **Garden** (face) [S13] | **I** incomplète/engrenée en **valgus** ; **II** complète non déplacée ; **III** déplacement partiel en **varus**, travées céphaliques **horizontalisées**, non alignées avec le cotyle ; **IV** déplacement total, travées **parallèles à celles du cotyle** | En pratique : **non déplacées (I–II) / déplacées (III–IV)** ; reproductibilité médiocre ; **profil indispensable** (bascule postérieure) |
-| **Pauwels** (angle trait/horizontale) [S14, S17] | I < 30° (compression, bon) ; II 30–50° ; III > 50° (**cisaillement**, mauvais pronostic de l'ostéosynthèse) | Surtout chez le **sujet jeune** ; limites : rotation, réduction, reproductibilité [S17, S18] |
+| **Pauwels** (angle trait/horizontale) [S14, S17] | I ≤ 30° (compression, bon) ; II > 30° et < 50° ; III ≥ 50° (**cisaillement**, mauvais pronostic de l'ostéosynthèse) | Surtout chez le **sujet jeune** ; limites : rotation, réduction, reproductibilité [S17, S18] |
 | **AO/OTA 2018** [S12] | 31A trochantérienne ; **31B col** (B1 sous-capitale, B2 transcervicale, B3 basicervicale) ; 31C tête | Basicervicale : comportement proche du trochanter (vis-plaque) |
 | **Delbet** (enfant) [S11] | I **transépiphysaire** ; II transcervicale ; III cervico-trochantérienne ; IV intertrochantérienne | Nécrose décroissante de I à IV |
 
@@ -289,7 +294,7 @@ MORIBOND / GRABATAIRE NON DOULOUREUX → traitement fonctionnel discuté
 
 - **« Garden : 1-2 je visse, 3-4 je remplace (chez l'âgé) »**.
 - **« IV = la tête revenue chez elle »** : Garden IV, tête libre, travées parallèles à celles du cotyle.
-- **« Pauwels 30-50 : au-delà, ça cisaille »** : type III > 50°, ostéosynthèse à risque.
+- **« Pauwels 30-50 : au-delà, ça cisaille »** : type III ≥ 50°, ostéosynthèse à risque.
 - **« Jeune : je sauve la tête ; vieux : je sauve la vie »** — ostéosynthèse urgente chez le jeune, arthroplastie et appui immédiat chez l'âgé.
 - **« Delbet 38-28-18-5 »** : la nécrose décroît du type I au type IV.
 
@@ -297,7 +302,7 @@ MORIBOND / GRABATAIRE NON DOULOUREUX → traitement fonctionnel discuté
 
 1. Col = intracapsulaire : artères rétinaculaires (circonflexe médiale) menacées → nécrose, pseudarthrose.
 2. Garden I–II non déplacées / III–IV déplacées ; profil indispensable.
-3. Pauwels III (> 50°) = cisaillement, échec d'ostéosynthèse chez le jeune.
+3. Pauwels III (≥ 50°) = cisaillement, échec d'ostéosynthèse chez le jeune.
 4. Rotation externe + raccourcissement + adduction ; Garden I : la patiente marche ; radiographies normales → IRM.
 5. Âgé non déplacé : ostéosynthèse ; âgé déplacé : arthroplastie cimentée (PTH à envisager si autonome à l'extérieur, cognition normale).
 6. Jeune : urgence, réduction anatomique + ostéosynthèse.

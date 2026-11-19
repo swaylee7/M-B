@@ -4,7 +4,12 @@ titre: "Fiche — Anticoagulants : principes, modalités de surveillance, règle
 specialite: PHAR
 items_residanat: [RES-MED-173]
 dossier_source: DOS-PHAR-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Demi-vies des facteurs vitamine K-dépendants alignées sur HEMA-0007 ; divergence EHRA 2021 (INR ≤ 2) / RCP (seuils propres à chaque AOD) explicitée (DOS-PHAR-0002 v1.2)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -215,7 +220,7 @@ sources:
 
 # Fiche — Anticoagulants : principes, surveillance, règles d'utilisation (RES-MED-173)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PHAR-0002 (v1.1, `audite_corrections_requises` : 2 marqueurs de posologie restants). Aucun fait nouveau ; **posologies identiques au dossier** ; marqueurs conservés. Disponibilité algérienne des AOD et antidotes `[À VÉRIFIER]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PHAR-0002 (v1.2, `audite_corrections_requises` : 2 marqueurs de posologie restants). Aucun fait nouveau ; **posologies identiques au dossier** ; marqueurs conservés. Disponibilité algérienne des AOD et antidotes `[À VÉRIFIER]`.
 
 ## 1. Définition (2 lignes)
 
@@ -225,7 +230,7 @@ Médicament qui **diminue la formation de fibrine** en inhibant la génération 
 
 | Paramètre | Valeur |
 |---|---|
-| Demi-vies (vit. K) | VII ≈ 6 h ; protéine C ≈ 8 h ; IX ≈ 24 h ; X ≈ 40 h ; II ≈ 60–72 h → INR allongé en 1 à 2 jours, **hypercoagulabilité initiale** |
+| Demi-vies (vit. K, ordres de grandeur) | VII ≈ 4–6 h ; protéine C ≈ 6–8 h ; IX ≈ 18–24 h ; X ≈ 40 h ; II ≈ 60–70 h (valeurs de FIC-HEMA-0007) → INR allongé en 1 à 2 jours, **hypercoagulabilité initiale** |
 | HNF | ≈ 15 000 Da ; anti-Xa/anti-IIa ≈ 1 ; demi-vie ≈ 1–2 h ; **pas d'accumulation rénale** |
 | HBPM | anti-Xa/anti-IIa 2 à 4 ; biodisponibilité SC ≈ 90 % ; **élimination rénale** ; protamine ≈ 60 % au maximum |
 | Fondaparinux | demi-vie ≈ 17–21 h ; rénale exclusive ; **pas d'antidote** |
@@ -296,7 +301,7 @@ PAS de bilan de thrombophilie en phase aiguë ni sous anticoagulant
 
 - **Pas de dose de charge** élevée ; ACCP 2012 : **10 mg de warfarine pendant 2 jours** chez l'ambulatoire en bonne santé [S13] ; pratique française : doses plus prudentes (ex. warfarine 5 mg/j) `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`. L'INR reflète la dose des 2–3 jours précédents.
 - **Relais héparine → AVK** : AVK **dès J1**, **chevauchement ≥ 5 jours**, arrêt de l'héparine après **deux INR consécutifs à 24 h d'intervalle ≥ 2** [S2, S3].
-- **AVK → AOD** : débuter dès INR ≤ 2 ; seuils RCP : dabigatran et apixaban INR < 2 ; édoxaban ≤ 2,5 ; rivaroxaban ≤ 3 (FA) / ≤ 2,5 (MTEV) [S5].
+- **AVK → AOD** — **divergence** : EHRA 2021 [S5] : débuter dès INR ≤ 2 (2–2,5 : le jour même ou le lendemain) ; RCP européens : dabigatran et apixaban INR < 2 ; édoxaban ≤ 2,5 ; rivaroxaban ≤ 3 (FA) / ≤ 2,5 (MTEV) — le RCP de la molécule prévaut.
 
 ### 4.5 Stratégies
 

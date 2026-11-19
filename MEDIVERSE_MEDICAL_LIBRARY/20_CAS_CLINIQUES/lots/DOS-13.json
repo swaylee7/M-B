@@ -207,7 +207,7 @@
         "ECG de contrôle après correction ; ECG des apparentés si le QT reste long"
       ],
       "diagnostic_final": "Torsades de pointes sur allongement acquis du QT, multifactoriel : association de médicaments bloquant IKr (macrolide, antiémétique, antidépresseur), hypokaliémie et hypomagnésémie (diurétique, diarrhée), bradycardie, sexe féminin et âge.",
-      "traitement": "Arrêt de tous les médicaments allongeant le QT ; correction de la kaliémie (objectif dans la moitié supérieure de la normale) et de la magnésémie ; sulfate de magnésium intraveineux en cas de torsades selon le protocole ; accélération de la fréquence (isoprénaline ou stimulation temporaire) en cas de récidives favorisées par les pauses ; choc électrique en cas de dégénérescence en fibrillation ventriculaire (doses : dossier des troubles du rythme, DOS-CARD-0007).",
+      "traitement": "Arrêt de tous les médicaments allongeant le QT ; correction de la kaliémie (objectif dans la moitié supérieure de la normale) et de la magnésémie ; sulfate de magnésium intraveineux en cas de torsades selon le protocole ; accélération de la fréquence (isoprénaline ou stimulation temporaire) en cas de récidives favorisées par les pauses ; choc électrique en cas de dégénérescence en fibrillation ventriculaire (posologies du magnésium et de l'isoprénaline : DOS-CARD-0007, § 13.2.2, audité ; défibrillation selon l'algorithme de réanimation en vigueur).",
       "surveillance": "Monitorage continu jusqu'à normalisation du QTc ; ionogramme quotidien ; choix d'un antibiotique sans effet sur le QT.",
       "evolution": "Disparition des torsades après correction électrolytique et arrêt des médicaments ; QTc à 450 ms à J5. ECG des enfants normaux.",
       "explication_pedagogique": "La repolarisation ventriculaire dépend d'une « réserve » de courants potassiques (IKr, IKs). Les médicaments allongeant le QT bloquent pour la plupart le canal hERG (IKr) ; l'hypokaliémie diminue paradoxalement la conductance de IKr ; l'hypomagnésémie et la bradycardie accentuent l'allongement du potentiel d'action. Le potentiel d'action prolongé permet la réactivation des canaux calciques L : ce sont les post-dépolarisations précoces, qui déclenchent les torsades de pointes, typiquement après une séquence « cycle court – cycle long – cycle court » (pause). Le magnésium supprime les post-dépolarisations précoces même si la magnésémie est normale ; l'accélération de la fréquence raccourcit le potentiel d'action. Les mouvements cloniques au cours d'une syncope d'origine rythmique ne doivent pas faire conclure à une épilepsie.",
@@ -255,7 +255,15 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "verdict": "audite_valide",
         "remarque": "QTc de Bazett recalculé (≈ 560 ms) ; physiopathologie des torsades exacte ; marqueur sans dose remplacé par un renvoi (DOS-CARD-0007, en attente d'audit)."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Renvoi précisé après l'audit de DOS-CARD-0007 (v1.1) : le § 13.2.2 contient les posologies du sulfate de magnésium (2 g IV) et de l'isoprénaline ; l'énergie de défibrillation n'y figure pas.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "CAS-PHYS-1304",
@@ -290,7 +298,7 @@
         "Avis cardiologique pour stimulation cardiaque"
       ],
       "diagnostic_final": "Bloc auriculo-ventriculaire complet infranodal (échappement à QRS larges à 38/min) par dégénérescence du tissu de conduction, responsable de syncopes (syndrome d'Adams-Stokes).",
-      "traitement": "Hospitalisation sous monitorage ; si mauvaise tolérance, accélération temporaire de la fréquence (isoprénaline ou stimulation externe ou endocavitaire) en attendant l'implantation d'un stimulateur cardiaque définitif, indiqué dans le bloc AV complet symptomatique selon les recommandations de cardiologie ; l'atropine est peu efficace dans un bloc infranodal (doses d'atropine et d'isoprénaline : DOS-CARD-0007).",
+      "traitement": "Hospitalisation sous monitorage ; si mauvaise tolérance, accélération temporaire de la fréquence (isoprénaline ou stimulation externe ou endocavitaire) en attendant l'implantation d'un stimulateur cardiaque définitif, indiqué dans le bloc AV complet symptomatique selon les recommandations de cardiologie ; l'atropine est peu efficace dans un bloc infranodal (doses d'atropine et d'isoprénaline : DOS-CARD-0007, § 13.2.2, audité).",
       "surveillance": "Monitorage jusqu'à l'implantation ; contrôles du stimulateur.",
       "evolution": "Implantation d'un stimulateur double chambre ; disparition des malaises.",
       "explication_pedagogique": "Les P sont régulières à 80/min (automatisme sinusal préservé) et les QRS réguliers à 38/min, sans relation entre eux : c'est une dissociation auriculo-ventriculaire par bloc complet. Le niveau du bloc se déduit de l'échappement : un échappement jonctionnel (au-dessus de la bifurcation du His) donne des QRS fins à 40-60/min, sensible à l'atropine ; un échappement ventriculaire (bloc infra-hisien) donne des QRS larges à 20-40/min, instable et insensible à l'atropine, puisque le tissu sous-jacent est peu innervé par le vague. La préexistence d'un bloc de branche droit et d'un hémibloc antérieur gauche (bloc bifasciculaire) oriente vers une atteinte diffuse du tissu de conduction. La pression différentielle élargie traduit l'augmentation du volume d'éjection systolique lié à la bradycardie.",
@@ -334,7 +342,15 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "verdict": "audite_valide",
         "remarque": "Lecture du BAV complet infranodal exacte ; marqueur sans dose remplacé par un renvoi (DOS-CARD-0007, en attente d'audit)."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Renvoi précisé après l'audit de DOS-CARD-0007 (v1.1) : atropine 0,5 mg IV jusqu'à 3 mg, isoprénaline 5 µg/min au § 13.2.2.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "CAS-HEMA-1301",

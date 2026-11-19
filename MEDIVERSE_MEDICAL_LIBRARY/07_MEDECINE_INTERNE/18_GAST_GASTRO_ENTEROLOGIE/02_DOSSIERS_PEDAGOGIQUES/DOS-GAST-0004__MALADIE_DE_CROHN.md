@@ -424,6 +424,9 @@ Faisceau d'arguments **cliniques, endoscopiques, histologiques et radiologiques*
 ### 10.1 Selon la localisation (L1–L4) et le phénotype (B1–B3, p)
 Voir § 7.1. Le phénotype **pénétrant** (B3) et l'atteinte **périanale** (p) sont associés à un pronostic plus sévère.
 
+### 10.1 bis Évaluation de la sévérité en pratique
+La sévérité ne se résume pas à un score : elle combine l'**activité** (CDAI ou HBI, CRP, calprotectine, lésions endoscopiques — ulcérations profondes et étendues), l'**extension** (atteinte étendue du grêle, atteinte digestive haute), le **phénotype** (sténoses, fistules, abcès, LAP), le **retentissement** (dénutrition, anémie, handicap) et l'**histoire** (chirurgies antérieures, corticodépendance, échecs thérapeutiques) [S5, S15]. Une **forme sévère** (CDAI > 450, dénutrition, fièvre, occlusion, abcès) relève de l'**hospitalisation**, d'une imagerie en urgence à la recherche d'un abcès avant toute corticothérapie, d'une **thromboprophylaxie** et d'une discussion médico-chirurgicale [S5].
+
 ### 10.2 Formes particulières
 - **Iléite aiguë terminale** pseudo-appendiculaire : diagnostic différentiel avec l'appendicite, la yersiniose, la tuberculose.
 - **Atteinte jéjunale ou étendue du grêle** : pronostic plus sévère, dénutrition, discussion précoce d'une biothérapie [S5].
@@ -432,6 +435,13 @@ Voir § 7.1. Le phénotype **pénétrant** (B3) et l'atteinte **périanale** (p)
 - **Forme de l'enfant** : retard de croissance, retard pubertaire ; **nutrition entérale exclusive** en première intention fréquente (pédiatrie) ; MICI monogénique si début avant 5 ans [S5].
 - **Sujet âgé** : souvent colique, inflammatoire ; diagnostic différentiel avec l'ischémie, la diverticulite, les colites médicamenteuses.
 - **Grossesse** : rémission recommandée avant la conception ; **méthotrexate arrêté 6 mois avant** ; anti-TNF à discuter au 3ᵉ trimestre ; vaccins vivants différés chez le nourrisson exposé in utero (BCG au moins 6 mois) [S5].
+
+### 10.3 Fertilité, grossesse et allaitement (synthèse pratique)
+- La **fertilité** est en général conservée en dehors des poussées ; elle peut être diminuée après chirurgie pelvienne (anastomose iléo-anale, chirurgie des LAP) [À VÉRIFIER — source].
+- **Programmer la grossesse en rémission** ; poursuivre la plupart des traitements d'entretien (thiopurines, anti-TNF) selon l'avis spécialisé ; **arrêter le méthotrexate 6 mois avant** la conception [S5].
+- **Anti-TNF** : discussion d'un arrêt au début du 3ᵉ trimestre chez les patientes en rémission stable, poursuite en cas de maladie active ou à haut risque de rechute [S5].
+- **Nourrisson exposé in utero aux biothérapies** : **pas de vaccin vivant** (BCG différé d'au moins 6 mois, pas de vaccin rotavirus) ; vaccins inactivés selon le calendrier [S5] — point important en Algérie où le **BCG** est administré à la naissance selon le calendrier vaccinal national (voir les arrêtés du calendrier vaccinal au catalogue) [À VÉRIFIER — conduite nationale pour les nourrissons exposés].
+- **LAP actives** : discussion du mode d'accouchement (césarienne) avec l'obstétricien [À VÉRIFIER — source].
 
 ---
 
@@ -449,6 +459,21 @@ Voir § 7.1. Le phénotype **pénétrant** (B3) et l'atteinte **périanale** (p)
 | **Rectocolite hémorragique** | Atteinte continue rectale, muqueuse | Endoscopie, histologie (DOS-GAST-0003) |
 | **Maladie cœliaque, syndrome de l'intestin irritable** | Pas d'inflammation | Sérologie, calprotectine normale |
 | **Fistules anales cryptoglandulaires** | Fistule simple sans atteinte rectale | IRM pelvienne, endoscopie |
+
+### 11.1 Maladie de Crohn iléo-cæcale ou tuberculose intestinale ? Éléments d'orientation
+
+| Élément | Plutôt tuberculose intestinale | Plutôt maladie de Crohn |
+|---|---|---|
+| Contexte | Contage, origine ou séjour en zone d'endémie, immunodépression, tuberculose pulmonaire active ou ancienne | Antécédent familial de MICI, tabagisme |
+| Signes généraux | Fièvre, sueurs nocturnes, ascite | Moins marqués ; diarrhée chronique, LAP |
+| Lésions anopérinéales | Rares | **Fréquentes** (fistules complexes) |
+| Endoscopie | Ulcérations **transversales** ou circonférentielles, **valvule iléo-cæcale béante**, atteinte de peu de segments | Ulcérations **longitudinales**, aphtoïdes, aspect pavimenteux, **lésions segmentaires multiples**, rectum parfois atteint |
+| Imagerie | Adénopathies **nécrotiques** (centre hypodense), ascite, atteinte péritonéale, lésions pulmonaires | Épaississement segmentaire, « signe du peigne » (hypervascularisation mésentérique), fistules, abcès, sténoses multiples |
+| Histologie | **Granulomes nombreux, confluents, volumineux**, avec **nécrose caséeuse** ; BAAR à la coloration de Ziehl | Granulomes **rares, petits, non caséeux** ; inflammation discontinue |
+| Microbiologie | **Culture** et **PCR** (dont tests moléculaires rapides) positives sur biopsies — sensibilité imparfaite | Négatives |
+| IGRA | Positif fréquent, **mais n'affirme pas** la tuberculose active | Peut être positif (ITL) |
+
+**Conduite en cas de doute persistant** : discussion pluridisciplinaire (gastro-entérologue, pneumo-phtisiologue, infectiologue) ; un **traitement antituberculeux d'épreuve**, avec réévaluation clinique et endoscopique, est préférable à une corticothérapie ou à un anti-TNF « à l'aveugle » [principe repris de la littérature asiatique et des recommandations de prise en charge des MICI en zone d'endémie — source précise À VÉRIFIER ; BSG 2019 : considérer ce diagnostic [S5]]. Les éléments du tableau sont des orientations, aucun n'étant isolément discriminant [À VÉRIFIER — revue de référence].
 
 **En Algérie, la tuberculose intestinale doit être éliminée avec rigueur avant de retenir une MC iléo-cæcale et a fortiori avant d'introduire des corticoïdes ou un anti-TNF** : la BSG 2019 recommande de considérer ce diagnostic différentiel chez les patients nés ou ayant vécu longtemps en zone d'endémie [S5].
 
@@ -520,8 +545,8 @@ Mortalité légèrement supérieure à la population générale dans certaines s
 | Molécule | Schéma | Source |
 |---|---|---|
 | **Infliximab** (anti-TNF IV) | **5 mg/kg aux semaines 0, 2, 6, puis toutes les 8 semaines** | SONIC [S13] |
-| **Infliximab + azathioprine (2,5 mg/kg/j)** | Association plus efficace que chacune des monothérapies : rémission sans corticoïdes à S26 **56,8 %** contre 44,4 % (infliximab seul) et 30,0 % (azathioprine seule) | SONIC [S13] ; BSG 2019 [S5] |
-| **Adalimumab** (anti-TNF SC) | 160 mg à S0, 80 mg à S2, puis 40 mg toutes les 2 semaines | Schéma décrit par la BSG 2019 (RCH) [S5] ; MC : RCP [POSOLOGIE À VÉRIFIER — RCP] |
+| **Infliximab + azathioprine (2,5 mg/kg/j)** | Association plus efficace que chacune des monothérapies : rémission sans corticoïdes à la semaine 26 **56,8 %** contre 44,4 % (infliximab seul) et 30,0 % (azathioprine seule) | SONIC [S13] ; BSG 2019 [S5] |
+| **Adalimumab** (anti-TNF SC) | 160 mg à la semaine 0, 80 mg à la semaine 2, puis 40 mg toutes les 2 semaines | Schéma décrit par la BSG 2019 (RCH) [S5] ; MC : RCP [POSOLOGIE À VÉRIFIER — RCP] |
 | **Ustékinumab** (anti-IL-12/23) | Induction IV unique ~6 mg/kg (260 mg ≤ 55 kg ; 390 mg 55–85 kg ; 520 mg > 85 kg), puis entretien SC | BSG 2019 (essais UNITI) [S5] ; entretien : RCP [POSOLOGIE À VÉRIFIER — RCP] |
 | **Védolizumab** (anti-α4β7) | 300 mg IV aux semaines 0, 2, 6, puis toutes les 8 semaines | BSG 2019 [S5] |
 | **Risankizumab** (anti-IL-23), **upadacitinib** (anti-JAK) | Selon RCP | Recommandés par l'ECCO 2024 selon la synthèse du catalogue [S1] ; [POSOLOGIE À VÉRIFIER — RCP] ; disponibilité en Algérie [À VÉRIFIER] |
@@ -559,7 +584,7 @@ Abcès (IV, puis relais), complications périanales (métronidazole, ciprofloxac
 |---|---|---|---|
 | **Corticoïdes systémiques** | Infections, diabète, HTA, ostéoporose, troubles de l'humeur, cataracte, retard de croissance | Infection non contrôlée (abcès), tuberculose non traitée | Glycémie, PA, calcium-vitamine D, ostéodensitométrie [S5] |
 | **Budésonide** | Effets systémiques moindres (premier passage hépatique) | Cirrhose (passage systémique accru) [À VÉRIFIER — RCP] | Clinique |
-| **Thiopurines** | Myélotoxicité, hépatotoxicité, pancréatite, infections, cancers cutanés, lymphomes | TPMT nulle ; allopurinol/fébuxostat (interaction) sauf schéma spécialisé à dose réduite [S5] | NFS, bilan hépatique S2, S4, S8, S12 puis tous les 3 mois [S5] |
+| **Thiopurines** | Myélotoxicité, hépatotoxicité, pancréatite, infections, cancers cutanés, lymphomes | TPMT nulle ; allopurinol/fébuxostat (interaction) sauf schéma spécialisé à dose réduite [S5] | NFS, bilan hépatique aux semaines 2, 4, 8, 12 puis tous les 3 mois [S5] |
 | **Méthotrexate** | Nausées, cytopénies, hépatotoxicité, pneumopathie | **Grossesse** (arrêt 6 mois avant la conception), alcool, insuffisance rénale [S5] | NFS, bilan hépatique, fonction rénale [S5] |
 | **Anti-TNF** | Infections (tuberculose, infections opportunistes), réactions aux perfusions ou aux points d'injection, lésions psoriasiformes, auto-immunité induite, lymphomes (surtout en association aux thiopurines) | Tuberculose active ou ITL non traitée, sepsis, **abcès non drainé**, insuffisance cardiaque sévère, maladie démyélinisante [S5] | Infections, tuberculose, dosages si perte de réponse [S5] |
 | **Védolizumab** | Infections surtout digestives ; action « intestino-sélective » | Bilan pré-thérapeutique identique aux anti-TNF faute de données à long terme suffisantes [S5] | Idem |
@@ -699,7 +724,7 @@ Sujet jeune, **lésions anopérinéales**, phénotype **sténosant**, tabagisme,
 - **Arrêt du tabac** (aide au sevrage), **renutrition** (supplémentation orale, voire nutrition entérale), fer IV, vitamine B12.
 - Fistule : **séton** de drainage par le chirurgien proctologue.
 - Traitement de l'**ITL** avant l'anti-TNF, selon l'OMS et le protocole national (schéma, durée et délai à confirmer auprès du service de pneumo-phtisiologie) [S20, S21 — À VÉRIFIER].
-- **Infliximab 5 mg/kg (S0, S2, S6 puis toutes les 8 semaines) + azathioprine 2–2,5 mg/kg/j** après dosage de la TPMT [S5, S13] ; sérologies VHB, VHC, VIH, VZV et vaccinations préalables [S5].
+- **Infliximab 5 mg/kg (semaines 0, 2, 6, puis toutes les 8 semaines) + azathioprine 2–2,5 mg/kg/j** après dosage de la TPMT [S5, S13] ; sérologies VHB, VHC, VIH, VZV et vaccinations préalables [S5].
 - Une **résection iléo-cæcale cœlioscopique** est une alternative à discuter en réunion pluridisciplinaire si la sténose est **fibreuse** et symptomatique (atteinte localisée < 40 cm) [S5, S18].
 
 **Évolution.** À 6 mois : rémission clinique, CRP 3 mg/L, calprotectine 90 µg/g, fistule tarie. Deux ans plus tard, syndrome occlusif récidivant ; entéro-IRM : sténose fibreuse de 8 cm sans inflammation active → **résection iléo-cæcale cœlioscopique**. À 6 mois de l'intervention, l'**iléocoloscopie** montre un score de **Rutgeerts i3**.

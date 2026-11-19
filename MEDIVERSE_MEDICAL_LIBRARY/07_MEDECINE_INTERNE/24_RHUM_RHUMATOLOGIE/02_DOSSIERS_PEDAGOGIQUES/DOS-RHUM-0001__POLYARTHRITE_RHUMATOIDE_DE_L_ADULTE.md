@@ -6,7 +6,7 @@ sous_specialite: "Rhumatismes inflammatoires chroniques"
 items_residanat: [RES-MED-099]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-09 (IA) — dossier pédagogique original"
@@ -24,6 +24,12 @@ audit:
     corrections: 4
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-RHUM-0001.md
     remarque: "Posologies levées (RCP) : léflunomide, sulfasalazine, biothérapies, inhibiteurs de JAK. Restent 2 marqueurs : dose initiale de la corticothérapie de pont (non standardisée par l'EULAR). RCP non consultables depuis la session (S14 non vérifiée)."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (file AUD-05, lot 3 RES-06) : méthotrexate du cas clinique harmonisé avec l'initiative 3E (jusqu'à 20 à 30 mg/semaine) ; seuil de rémission DAS28 : < 2,6 (usage courant) et libellé « ≤ 2,6 » propre à la série algérienne [S9] explicités (§ 3, § 7.3, § 21). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Aletaha D, Neogi T, Silman AJ, et al. 2010 rheumatoid arthritis classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Ann Rheum Dis. 2010;69(9):1580-1588."
@@ -225,7 +231,7 @@ La description clinique de la maladie est ancienne (début du XIXe siècle) et l
 | Sexe | 213 femmes / 36 hommes (≈ 6 femmes pour 1 homme) |
 | Âge moyen | 50,1 ± 14,5 ans |
 | Durée moyenne d'évolution | 8,4 ± 7,8 ans |
-| DAS28 moyen à l'inclusion | 4,3 (activité modérée) ; 14 % en rémission (DAS28 ≤ 2,6) |
+| DAS28 moyen à l'inclusion | 4,3 (activité modérée) ; 14 % en rémission (seuil libellé « DAS28 ≤ 2,6 » dans cette série ; seuil usuel : < 2,6, § 7.3) |
 | HAQ moyen | 0,81 |
 | Facteur rhumatoïde positif | 78,5 % |
 | ACPA positifs (quand dosés) | 69 % |
@@ -336,7 +342,7 @@ Sept critères (raideur matinale ≥ 1 h, arthrite de ≥ 3 zones, arthrite des 
 | **SDAI** | 28 articulations, appréciation patient et médecin (0–10), CRP (mg/dL) | ≤ 3,3 | ≤ 11 | ≤ 26 | > 26 |
 | **CDAI** | Idem SDAI sans la CRP (utilisable en consultation sans biologie) | ≤ 2,8 | ≤ 10 | ≤ 22 | > 22 |
 
-Les seuils du DAS28 sont ceux classiquement utilisés en pratique (seuil de rémission 2,6 également employé dans l'étude algérienne [S9]) ; le DAS28 peut rester < 2,6 alors que des articulations restent gonflées, ce qui explique que la rémission « stricte » soit plutôt définie par les critères booléens ou le SDAI/CDAI.
+Les seuils du DAS28 sont ceux classiquement utilisés en pratique (seuil de rémission 2,6 également employé dans l'étude algérienne [S9], qui le libelle « ≤ 2,6 » ; l'écart de formulation ne concerne que la valeur 2,60 exactement) ; le DAS28 peut rester < 2,6 alors que des articulations restent gonflées, ce qui explique que la rémission « stricte » soit plutôt définie par les critères booléens ou le SDAI/CDAI.
 
 **Rémission booléenne ACR/EULAR, révision 2022** [S6] : nombre d'articulations douloureuses (sur 28) ≤ 1, nombre d'articulations gonflées (sur 28) ≤ 1, CRP ≤ 1 mg/dL et appréciation globale du patient ≤ 2 sur une échelle de 0 à 10 (le seuil de l'appréciation globale a été relevé de 1 à 2 lors de cette révision).
 
@@ -708,7 +714,7 @@ DEVANT UNE POLYARTHRITE RÉCENTE (≥ 3 articulations gonflées)
 1. *Quel diagnostic retenez-vous ?* — Polyarthrite bilatérale symétrique des petites articulations, inflammatoire, évoluant depuis plus de 6 semaines, avec ACPA fortement positifs : **PR débutante, séropositive**. Score ACR/EULAR 2010 : 10 petites articulations atteintes aux mains et aux poignets (gonflées ou douloureuses : MCP, IPP, poignets) ; les MTP douloureuses au squeeze test s'y ajoutent, soit plus de 10 articulations dont au moins une petite = **5** (en ne comptant que les mains et poignets : « 4 à 10 petites articulations » = 3) ; sérologie fortement positive = **3** ; CRP/VS anormales = **1** ; durée ≥ 6 semaines = **1** ; total **10/10** (8/10 au minimum) [S1]. De plus, une érosion typique est présente.
 2. *Facteurs de mauvais pronostic ?* — ACPA à titre élevé, FR positif, érosion précoce, activité élevée, tabagisme [S2].
 3. *Activité ?* — Le DAS28-VS calculé est > 5,1 : **forte activité**.
-4. *Traitement initial ?* — Information, décision partagée, **arrêt du tabac** ; **méthotrexate** hebdomadaire à dose initiale de 10 à 15 mg/semaine, augmentée par paliers de 5 mg toutes les 2 à 4 semaines vers 20–25 mg/semaine selon tolérance, avec **acide folique ≥ 5 mg/semaine** [S5] ; **corticothérapie orale à faible dose de courte durée** (< 3 mois) avec décroissance rapide [S2, S4] **[POSOLOGIE À VÉRIFIER — protocole local]** ; contraception efficace (MTX tératogène) ; vaccination anti-VHB (sérologie négative), antigrippale et antipneumococcique [S13] ; calcium/vitamine D.
+4. *Traitement initial ?* — Information, décision partagée, **arrêt du tabac** ; **méthotrexate** hebdomadaire à dose initiale de 10 à 15 mg/semaine, augmentée par paliers de 5 mg toutes les 2 à 4 semaines jusqu'à 20 à 30 mg/semaine selon réponse et tolérance (ici 20 mg/semaine en sous-cutané), avec **acide folique ≥ 5 mg/semaine** [S5] ; **corticothérapie orale à faible dose de courte durée** (< 3 mois) avec décroissance rapide [S2, S4] **[POSOLOGIE À VÉRIFIER — protocole local]** ; contraception efficace (MTX tératogène) ; vaccination anti-VHB (sérologie négative), antigrippale et antipneumococcique [S13] ; calcium/vitamine D.
 5. *Surveillance ?* — NFS, ALAT, créatinine toutes les 4 à 6 semaines jusqu'à dose stable [S5] ; DAS28 tous les 1 à 3 mois.
 
 **Évolution.** À 3 mois, sous MTX 20 mg/semaine en sous-cutané, le DAS28 passe à 4,1 (amélioration insuffisante) et la corticothérapie ne peut être diminuée sous 7,5 mg/j. À 6 mois, la cible n'est pas atteinte. En présence de facteurs de mauvais pronostic, l'**ajout d'un bDMARD** au MTX est décidé [S2]. Le **bilan pré-biothérapie** comporte : interrogatoire et examen orientés, radiographie thoracique normale, **IGRA positif**. Une tuberculose active ayant été écartée, un **traitement de l'ITL** est instauré, par exemple par un schéma court de l'OMS (3HR ou 4R) [S16], selon l'instruction nationale [S11] (à confirmer) ; l'anti-TNF est débuté après environ 4 semaines de traitement préventif (délai suggéré par la recommandation S3 allemande [S17] ; délai national à confirmer). À 12 mois : rémission booléenne (0 articulation gonflée, 1 douloureuse, CRP 0,3 mg/dL, appréciation globale 2/10) [S6] ; la corticothérapie est arrêtée.
@@ -931,7 +937,7 @@ DEVANT UNE POLYARTHRITE RÉCENTE (≥ 3 articulations gonflées)
 | Corticothérapie de « pont » à l'instauration du csDMARD | **EULAR 2022** : GC de courte durée recommandés lors de l'initiation ou du changement de csDMARD, décroissance et arrêt aussi rapides que possible [S2] ; **SFR 2024** s'appuie sur cette version EULAR [S3] | **ACR 2021** : recommandation conditionnelle **contre** l'association systématique d'une corticothérapie de courte durée lors de l'initiation d'un csDMARD [S4] | Divergence réelle sur le rapport bénéfice/risque des GC ; dans tous les textes, la corticothérapie prolongée est à éviter |
 | Stratification de l'escalade | **EULAR 2022** : facteurs de mauvais pronostic → ajout d'un bDMARD (ou tsDMARD après évaluation des risques) ; absence → autre csDMARD [S2] | **ACR 2021** : chez le patient non contrôlé sous MTX à dose maximale tolérée, l'ajout d'un bDMARD ou d'un tsDMARD est préféré (conditionnellement) à la trithérapie conventionnelle, sans stratification formelle sur les facteurs pronostiques [S4] | En contexte de ressources limitées, l'option « autre csDMARD / trithérapie » garde une place pratique |
 | Inhibiteurs de JAK | **EULAR 2022 / SFR 2024** : à n'envisager qu'après évaluation du risque d'événements cardiovasculaires majeurs, de cancers et de thromboses [S2, S3] ; **EMA 2023** : réservés, chez les patients à risque, aux situations sans alternative appropriée [S15] | **ACR 2021** : publié avant les données de sécurité ayant conduit à ces restrictions ; position moins restrictive [S4] | Appliquer la version la plus récente et les mentions du RCP en vigueur |
-| Définition de la rémission | **DAS28 < 2,6** : seuil largement utilisé en pratique et dans les études (dont la série algérienne [S9]) | **ACR/EULAR booléenne (révision 2022)** ou SDAI ≤ 3,3 : définitions plus strictes ; appréciation globale du patient ≤ 2/10 depuis 2022 [S6] | Le DAS28 peut surestimer la rémission |
+| Définition de la rémission | **DAS28 < 2,6** : seuil largement utilisé en pratique et dans les études (dont la série algérienne [S9], qui le libelle « ≤ 2,6 ») | **ACR/EULAR booléenne (révision 2022)** ou SDAI ≤ 3,3 : définitions plus strictes ; appréciation globale du patient ≤ 2/10 depuis 2022 [S6] | Le DAS28 peut surestimer la rémission |
 | Dépistage et traitement de la tuberculose latente | **EULAR 2022** : IGRA préféré à l'IDR là où il est disponible ; choix du traitement préventif renvoyé aux recommandations nationales [S7] ; **OMS 2024** : 6H/9H, 3HP, 3HR, alternatives 1HP et 4R [S16] ; **S3 allemande 2026** : délai de 4 semaines avant l'immunosuppression [S17] | **Algérie** : directives nationales (instruction ITL 2024, programme national) qui fixent les tests disponibles, les schémas et le délai [S11, S12] | Contenu exact de l'instruction nationale à relire avant usage **[À VÉRIFIER]** |
 | Personnes à risque de PR (sans arthrite) | **SFR 2024** : volet dédié, information, surveillance, arrêt du tabac, pas de csDMARD systématique [S3] | **EULAR 2022** (prise en charge par DMARD) ne traite pas spécifiquement ce stade [S2] | Domaine de recherche active |
 

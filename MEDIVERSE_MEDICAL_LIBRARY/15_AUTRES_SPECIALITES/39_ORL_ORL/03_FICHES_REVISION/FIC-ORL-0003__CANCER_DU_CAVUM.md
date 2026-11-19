@@ -4,7 +4,12 @@ titre: "Fiche — Cancer du cavum (carcinome du nasopharynx) : diagnostic, trait
 specialite: ORL
 items_residanat: [RES-CHI-049]
 dossier_source: DOS-ORL-0003
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Alignement sur DOS-ORL-0003 v1.2 (tabac associé aux formes différenciées, pas à l'UCNT) : fiche déjà conforme."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -143,7 +148,7 @@ sources:
 
 # Fiche — Cancer du cavum / carcinome du nasopharynx (RES-CHI-049)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-ORL-0003 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses des essais identiques au dossier, **à adapter à la clairance, à l'audition et à l'état général selon le RCP et le protocole du centre**. Cadre : ESMO-EURACAN 2021 [S1], CSCO-ASCO 2021 [S3] (textes intégraux non consultés), TNM-8 [S5] et **TNM-9 (2025)** [S4], données maghrébines et sétifiennes [S12, S13, S15]. NCCN non consulté `[À VÉRIFIER — version NCCN en vigueur]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-ORL-0003 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses des essais identiques au dossier, **à adapter à la clairance, à l'audition et à l'état général selon le RCP et le protocole du centre**. Cadre : ESMO-EURACAN 2021 [S1], CSCO-ASCO 2021 [S3] (textes intégraux non consultés), TNM-8 [S5] et **TNM-9 (2025)** [S4], données maghrébines et sétifiennes [S12, S13, S15]. NCCN non consulté `[À VÉRIFIER — version NCCN en vigueur]`.
 
 ## 1. Définition (2 lignes)
 

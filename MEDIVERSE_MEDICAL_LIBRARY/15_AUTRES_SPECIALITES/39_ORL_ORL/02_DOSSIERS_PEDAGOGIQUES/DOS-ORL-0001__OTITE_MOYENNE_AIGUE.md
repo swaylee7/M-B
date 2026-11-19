@@ -6,7 +6,7 @@ sous_specialite: "Otologie — infections ORL de l'enfant et de l'adulte"
 items_residanat: [RES-CHI-044]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_valide
     corrections: 6
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 4, point 5) : le plafond pédiatrique du cotrimoxazole « 800/160 mg/j » est bien le libellé de la fiche HAS de l'enfant (versions 2021 et 2024, vérifié par recherche le 2026-11-19) ; précision ajoutée (atteint vers 27 kg, inférieur à la dose adulte). Aucune valeur modifiée, aucun marqueur ajouté."
 sources:
   - id: S1
     reference: "Haute Autorité de santé (HAS), SPILF, GPIP. Choix et durées d'antibiothérapies : otite moyenne aiguë purulente de l'enfant. Fiche mémo — recommandation de bonne pratique. Validée le 15 juillet 2021, mise à jour le 14 mai 2025."
@@ -120,7 +126,7 @@ mots_cles: [otite moyenne aiguë, OMA purulente, otoscopie, tympan bombé, amoxi
 # Otite moyenne aiguë : définition, diagnostic, évolution, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : audité (AUD-01/AUD-02, 2026-11-19, v1.1) — relecture enseignant non encore réalisée. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19, v1.1 ; cohérence AUD-05, v1.2) — relecture enseignant non encore réalisée. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-044 — « Otite moyenne aiguë : Définition - diagnostic - évolution - traitement » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -376,7 +382,7 @@ Excellent dans l'immense majorité des cas. La vigilance porte sur le **nourriss
 | **Amoxicilline–acide clavulanique** (syndrome otite-conjonctivite) | **80 mg/kg/j** (dose exprimée en amoxicilline) en 2 prises, sans dépasser 3 g/j | — | Cible *H. influenzae* producteur de β-lactamase |
 | **Cefpodoxime proxétil** (allergie documentée aux pénicillines sans contre-indication aux céphalosporines) | **8 mg/kg/j en 2 prises**, sans dépasser 400 mg/j | 400 mg/j en 2 prises | Céphalosporine orale de 3e génération |
 | **Céfuroxime axétil** (même indication) | — | 500 mg/j en 2 prises | Alternative de l'adulte [S2] |
-| **Sulfaméthoxazole–triméthoprime** (contre-indication à toutes les β-lactamines) | **30 mg/kg/j + 6 mg/kg/j en 2 prises**, sans dépasser 800/160 mg/j | **800 mg + 160 mg, 2 fois par jour** (soit 1 600/320 mg/j), 5 jours [S2] — le libellé de la fiche (« 800 mg par jour + 160 mg par jour, 2 fois par jour ») est ambigu ; il correspond à la posologie adulte usuelle d'un comprimé dosé à 800/160 mg deux fois par jour | Efficacité moindre sur le pneumocoque ; surveiller la tolérance (cutanée, hématologique, kaliémie) et les interactions (AVK) |
+| **Sulfaméthoxazole–triméthoprime** (contre-indication à toutes les β-lactamines) | **30 mg/kg/j + 6 mg/kg/j en 2 prises**, sans dépasser 800/160 mg/j — plafond libellé « par jour » dans la fiche HAS de l'enfant (libellé identique dans les versions 2021 et 2024, vérifié le 2026-11-19 [S1]) ; il est atteint vers 27 kg et reste inférieur à la dose de l'adulte (1 600/320 mg/j, fiche de l'adulte [S2]) : ce n'est pas une erreur de transcription | **800 mg + 160 mg, 2 fois par jour** (soit 1 600/320 mg/j), 5 jours [S2] — le libellé de la fiche (« 800 mg par jour + 160 mg par jour, 2 fois par jour ») est ambigu ; il correspond à la posologie adulte usuelle d'un comprimé dosé à 800/160 mg deux fois par jour | Efficacité moindre sur le pneumocoque ; surveiller la tolérance (cutanée, hématologique, kaliémie) et les interactions (AVK) |
 | **Pristinamycine** (contre-indication aux β-lactamines) | — | 2 g/j en 2 prises | Adulte uniquement [S2] |
 
 > **Remarque Algérie** : la disponibilité et les formes galéniques (cefpodoxime en suspension pédiatrique, pristinamycine) doivent être vérifiées dans la nomenclature nationale des produits pharmaceutiques. **[À VÉRIFIER — nomenclature MSPRH / disponibilité locale]**.

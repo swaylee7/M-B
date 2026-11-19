@@ -1,0 +1,3444 @@
+{
+  "agent": "DOS-11",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-UROL-1101",
+      "format": "QCS (réponse unique)",
+      "enonce": "Lequel de ces calculs urinaires est classiquement invisible au scanner abdomino-pelvien sans injection ?",
+      "propositions": {
+        "A": "Calcul d'acide urique",
+        "B": "Calcul de cystine",
+        "C": "Calcul d'indinavir",
+        "D": "Calcul de struvite",
+        "E": "Calcul de brushite"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Le scanner non injecté visualise pratiquement tous les calculs, y compris ceux d'acide urique (radiotransparents à l'ASP). Les calculs médicamenteux d'indinavir font exception : ils restent invisibles, seule une dilatation pouvant orienter.",
+      "explications_par_proposition": {
+        "A": "Faux : radiotransparent à l'ASP mais bien visible au scanner (densité basse).",
+        "B": "Faux : la cystine est faiblement opaque à l'ASP et visible au scanner.",
+        "C": "Vrai : le calcul d'indinavir est l'exception classique, invisible même au scanner.",
+        "D": "Faux : la struvite est visible au scanner.",
+        "E": "Faux : la brushite (phosphate calcique) est très dense et visible."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "theme": "Lithiase urinaire — imagerie et composition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre radiotransparence à l'ASP (acide urique) et invisibilité au scanner (indinavir).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        },
+        {
+          "reference": "Daudon M et al. 2022 Recommendations of the AFU Lithiasis Committee: Epidemiology, stone analysis and composition. Prog Urol 2023;33(14):737-765. doi:10.1016/j.purol.2023.08.013",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1102",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les substances urinaires suivantes, lesquelles sont des inhibiteurs physiologiques de la cristallisation ?",
+      "propositions": {
+        "A": "Le citrate",
+        "B": "Le magnésium",
+        "C": "L'uromoduline (protéine de Tamm-Horsfall)",
+        "D": "L'oxalate",
+        "E": "Le sodium"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La lithogenèse résulte d'un déséquilibre entre promoteurs (calcium, oxalate, acide urique, phosphate, faible diurèse) et inhibiteurs (citrate, magnésium, uromoduline, pyrophosphate). L'hypocitraturie est une anomalie lithogène fréquente.",
+      "explications_par_proposition": {
+        "A": "Vrai : le citrate complexe le calcium et inhibe la croissance cristalline.",
+        "B": "Vrai : le magnésium forme des complexes solubles avec l'oxalate.",
+        "C": "Vrai : l'uromoduline limite l'agrégation des cristaux.",
+        "D": "Faux : l'oxalate est un promoteur de la lithiase oxalo-calcique.",
+        "E": "Faux : l'excès de sodium augmente la calciurie (promoteur indirect)."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "theme": "Lithiase urinaire — physiopathologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lemoine S et al. 2022 Recommendations of the AFU Lithiasis Committee: Medical management. Prog Urol 2023;33(14):911-953. doi:10.1016/j.purol.2023.08.004",
+          "date": "2023"
+        },
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1103",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles associations entre type cristallin et mécanisme lithogène sont exactes ?",
+      "propositions": {
+        "A": "Weddellite (oxalate de calcium dihydraté) — hypercalciurie",
+        "B": "Whewellite (oxalate de calcium monohydraté) — hyperoxalurie",
+        "C": "Struvite — infection à germe uréasique",
+        "D": "Acide urique — pH urinaire alcalin",
+        "E": "Cystine — maladie autosomique dominante"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La composition oriente l'enquête étiologique : weddellite et hypercalciurie, whewellite et hyperoxalurie (ou faible diurèse), struvite et infection par germe producteur d'uréase (Proteus…), acide urique et pH urinaire acide, cystine et cystinurie (autosomique récessive).",
+      "explications_par_proposition": {
+        "A": "Vrai : la weddellite est calcium-dépendante.",
+        "B": "Vrai : la whewellite est oxalate-dépendante.",
+        "C": "Vrai : l'uréase alcalinise l'urine et génère de l'ammonium.",
+        "D": "Faux : l'acide urique précipite en urine ACIDE (pH < 5,5).",
+        "E": "Faux : la cystinurie est autosomique RÉCESSIVE (penser à la consanguinité)."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "theme": "Lithiase urinaire — composition et étiologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser le pH lithogène de l'acide urique et des phosphates.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lemoine S et al. 2022 Recommendations of the AFU Lithiasis Committee: Medical management. Prog Urol 2023;33(14):911-953. doi:10.1016/j.purol.2023.08.004",
+          "date": "2023"
+        },
+        {
+          "reference": "Daudon M et al. 2022 Recommendations of the AFU Lithiasis Committee: Epidemiology, stone analysis and composition. Prog Urol 2023;33(14):737-765. doi:10.1016/j.purol.2023.08.013",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1104",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme enceinte de 28 semaines d'aménorrhée présente une colique néphrétique droite apyrétique. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'échographie est l'examen d'imagerie de première intention.",
+        "B": "Les AINS sont contre-indiqués.",
+        "C": "Un scanner abdomino-pelvien standard doit être réalisé en première intention.",
+        "D": "Une sonde JJ ou une néphrostomie est indiquée en cas de complication.",
+        "E": "Une dilatation physiologique des cavités droites peut gêner l'interprétation échographique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La grossesse est un terrain à risque : imagerie non irradiante d'abord (échographie, puis IRM si besoin), analgésie sans AINS (contre-indiqués au moins à partir de 24 SA), drainage en cas de fièvre, d'anurie ou de douleur rebelle.",
+      "explications_par_proposition": {
+        "A": "Vrai : examen non irradiant de première intention.",
+        "B": "Vrai : les AINS sont contre-indiqués (au moins à partir de 24 SA ; à éviter pendant toute la grossesse).",
+        "C": "Faux : le scanner n'est envisagé qu'en dernier recours, à faible dose.",
+        "D": "Vrai : le drainage reste le traitement de la CN compliquée pendant la grossesse.",
+        "E": "Vrai : l'hydronéphrose physiologique, surtout droite, est fréquente au 3e trimestre."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023",
+        "RES-CHI-030"
+      ],
+      "theme": "Colique néphrétique — grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des AINS ou un scanner d'emblée chez la femme enceinte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        },
+        {
+          "reference": "Meria P et al. 2022 Recommendations of the AFU Lithiasis Committee: Management of symptomatic urinary stones. Prog Urol 2023;33(14):791-811. doi:10.1016/j.purol.2023.08.018",
+          "date": "2023"
+        },
+        {
+          "reference": "El Khebir M et al. Actualisation 2008 de la 8e conférence de consensus SFMU 1999 — colique néphrétique de l'adulte. Prog Urol 2009;19(7):462-473. doi:10.1016/j.purol.2009.03.005",
+          "date": "2009"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1105",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le drainage en urgence d'une pyélonéphrite aiguë obstructive sur calcul urétéral, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Sonde JJ et néphrostomie percutanée ont une efficacité équivalente pour drainer.",
+        "B": "La néphrostomie percutanée est contre-indiquée en cas de troubles de l'hémostase non corrigés.",
+        "C": "La sonde JJ est réalisable chez un patient anticoagulé.",
+        "D": "Il est recommandé de fragmenter le calcul par urétéroscopie dans le même temps.",
+        "E": "La néphrostomie permet de prélever l'urine pyélique pour culture."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Dans l'obstruction infectée, le seul objectif urgent est de décomprimer les cavités (JJ ou néphrostomie, efficacité équivalente dans l'essai randomisé de Pearle 1998) avec une antibiothérapie parentérale ; le calcul est traité à distance, sur urines stériles.",
+      "explications_par_proposition": {
+        "A": "Vrai : essai randomisé de Pearle (1998).",
+        "B": "Vrai : l'abord percutané expose au saignement.",
+        "C": "Vrai : la voie rétrograde endoscopique est utilisable sous anticoagulants.",
+        "D": "Faux : manipuler le calcul sur urines infectées expose au choc septique.",
+        "E": "Vrai : le prélèvement pyélique documente l'infection."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023",
+        "RES-CHI-030"
+      ],
+      "theme": "Colique néphrétique compliquée — dérivation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Vouloir traiter le calcul en urgence chez un patient fébrile.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pearle MS et al. Optimal method of urgent decompression of the collecting system for obstruction and infection due to ureteral calculi. J Urol 1998;160(4):1260-1264",
+          "date": "1998"
+        },
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        },
+        {
+          "reference": "Meria P et al. 2022 Recommendations of the AFU Lithiasis Committee: Management of symptomatic urinary stones. Prog Urol 2023;33(14):791-811. doi:10.1016/j.purol.2023.08.018",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1106",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les essais du traitement médical expulsif des calculs urétéraux, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'essai SUSPEND n'a pas montré de bénéfice de la tamsulosine sur l'absence d'intervention à 4 semaines.",
+        "B": "L'essai SUSPEND évaluait également la nifédipine.",
+        "C": "L'essai STONE a montré une augmentation significative de l'expulsion des calculs de moins de 9 mm.",
+        "D": "L'EAU considère que le traitement par alpha-bloquant peut être proposé à des patients sélectionnés.",
+        "E": "Le traitement médical expulsif est indiqué en cas de pyélonéphrite obstructive."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les grands essais pragmatiques (SUSPEND 2015, STONE 2018) n'ont pas confirmé de bénéfice en population non sélectionnée ; l'EAU 2025 réserve le TME à des patients sélectionnés (en pratique calculs de l'uretère distal > 5 mm). Il est exclu en cas de complication.",
+      "explications_par_proposition": {
+        "A": "Vrai : critère principal négatif.",
+        "B": "Vrai : essai à trois bras (tamsulosine, nifédipine, placebo).",
+        "C": "Faux : STONE n'a pas montré d'augmentation significative.",
+        "D": "Vrai : formulation de l'EAU 2025.",
+        "E": "Faux : la fièvre impose un drainage, pas un TME."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023",
+        "RES-CHI-030"
+      ],
+      "theme": "Lithiase urétérale — traitement médical expulsif",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Présenter la tamsulosine comme efficace pour tous les calculs.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pickard R et al. Medical expulsive therapy in adults with ureteric colic (SUSPEND). Lancet 2015;386(9991):341-349. doi:10.1016/S0140-6736(15)60933-3",
+          "date": "2015"
+        },
+        {
+          "reference": "Meltzer AC et al. Effect of Tamsulosin on Passage of Symptomatic Ureteral Stones (STONE). JAMA Intern Med 2018;178(8):1051-1057",
+          "date": "2018"
+        },
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1107",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles sont des contre-indications de la lithotritie extracorporelle (LEC) ?",
+      "propositions": {
+        "A": "Grossesse",
+        "B": "Infection urinaire non traitée",
+        "C": "Traitement anticoagulant non interrompu",
+        "D": "Anévrisme aortique situé à proximité du calcul",
+        "E": "Calcul pyélique de 8 mm"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La LEC est contre-indiquée en cas de grossesse, de troubles de l'hémostase ou d'anticoagulation non gérés, d'infection non traitée, d'obstacle d'aval et d'anévrisme vasculaire à proximité. Un calcul rénal < 10 mm est au contraire une bonne indication.",
+      "explications_par_proposition": {
+        "A": "Vrai : contre-indication absolue.",
+        "B": "Vrai : risque de sepsis.",
+        "C": "Vrai : risque d'hématome rénal.",
+        "D": "Vrai : risque de rupture.",
+        "E": "Faux : indication classique (< 20 mm hors pôle inférieur défavorable)."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "theme": "Lithiase urinaire — LEC",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        },
+        {
+          "reference": "Almeras C, Meria P. 2022 Recommendations of the AFU Lithiasis Committee: Summary of indications. Prog Urol 2023;33(14):901-910. doi:10.1016/j.purol.2023.08.001",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1108",
+      "format": "QCS (réponse unique)",
+      "enonce": "Femme de 55 ans, infections urinaires récidivantes à Proteus mirabilis, calcul coralliforme complet du rein gauche. Quel est le traitement interventionnel de première intention ?",
+      "propositions": {
+        "A": "Lithotritie extracorporelle",
+        "B": "Néphrolithotomie percutanée",
+        "C": "Surveillance simple",
+        "D": "Dissolution par alcalinisation",
+        "E": "Traitement médical expulsif"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Les calculs > 20 mm et coralliformes relèvent de la NLPC (éventuellement associée à l'urétéroscopie souple). Le calcul d'infection (struvite) doit être retiré en totalité, avec traitement de l'infection, sous peine de récidive et de destruction rénale.",
+      "explications_par_proposition": {
+        "A": "Faux : inadaptée aux calculs volumineux coralliformes.",
+        "B": "Vrai : technique de référence des calculs > 20 mm et coralliformes.",
+        "C": "Faux : le calcul d'infection menace le rein.",
+        "D": "Faux : la dissolution concerne l'acide urique ; l'alcalinisation favorise la struvite.",
+        "E": "Faux : réservé aux calculs urétéraux distaux."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "theme": "Lithiase urinaire — calcul coralliforme",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Proposer une alcalinisation pour un calcul de struvite.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        },
+        {
+          "reference": "Almeras C, Meria P. 2022 Recommendations of the AFU Lithiasis Committee: Summary of indications. Prog Urol 2023;33(14):901-910. doi:10.1016/j.purol.2023.08.001",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1109",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments font partie du bilan métabolique de première intention d'un patient lithiasique (à distance de l'épisode aigu) ?",
+      "propositions": {
+        "A": "Calciurie, natriurèse et urée urinaire des 24 heures",
+        "B": "Calcémie",
+        "C": "Dosage de la PTH chez tous les patients",
+        "D": "pH des urines du réveil",
+        "E": "Analyse par spectrophotométrie infrarouge du calcul"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le bilan de première intention associe un bilan sanguin (créatinine, calcium, acide urique, glycémie), un recueil des urines de 24 heures (volume, créatinine, calcium, sodium, urée, acide urique) et les urines du réveil (pH, densité, cristallurie), ainsi que l'analyse morpho-constitutionnelle du calcul. La PTH n'est dosée qu'en cas de calcémie élevée ou limite.",
+      "explications_par_proposition": {
+        "A": "Vrai : reflète les apports et la calciurie.",
+        "B": "Vrai : dépistage de l'hyperparathyroïdie primaire.",
+        "C": "Faux : la PTH est réservée aux calcémies anormales ou limites.",
+        "D": "Vrai : oriente vers l'acide urique ou une acidose tubulaire.",
+        "E": "Vrai : examen clé recommandé par le CLAFU."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "theme": "Lithiase urinaire — bilan étiologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lemoine S et al. 2022 Recommendations of the AFU Lithiasis Committee: Medical management. Prog Urol 2023;33(14):911-953. doi:10.1016/j.purol.2023.08.004",
+          "date": "2023"
+        },
+        {
+          "reference": "Daudon M et al. 2022 Recommendations of the AFU Lithiasis Committee: Epidemiology, stone analysis and composition. Prog Urol 2023;33(14):737-765. doi:10.1016/j.purol.2023.08.013",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1110",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans la série de 1 104 lithiasiques adultes de l'Ouest algérien (2012-2019), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le sex-ratio homme/femme était d'environ 1,9.",
+        "B": "La récidive concernait environ la moitié des patients.",
+        "C": "L'oxalate de calcium était le composant majoritaire (environ 75 %).",
+        "D": "La consanguinité concernait environ un quart des patients.",
+        "E": "La chirurgie ouverte n'était plus utilisée (< 1 % des cas)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Cette série (Abbassene, Tunis Med 2020) montre un profil proche de celui des pays industrialisés (oxalate de calcium, haut appareil, surpoids fréquent) mais une consanguinité de 25 %, une récidive de 51,1 % et une chirurgie ouverte encore pratiquée dans 19,7 % des cas.",
+      "explications_par_proposition": {
+        "A": "Vrai : sex-ratio 1,9.",
+        "B": "Vrai : 51,1 %.",
+        "C": "Vrai : 75 %.",
+        "D": "Vrai : 25 %.",
+        "E": "Faux : chirurgie ouverte 19,7 %, endo-urologie ou LEC 15,5 %."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "theme": "Lithiase urinaire — épidémiologie algérienne",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la chirurgie ouverte a disparu dans toutes les séries locales.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Abbassene F et al. Adult urolithiasis in Western Algeria: a study of 1104 cases. Tunis Med 2020;98(5):396-403",
+          "date": "2020"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1111",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'essai randomisé de Pathan et al. (Lancet 2016) sur l'analgésie de la colique néphrétique aux urgences, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il comparait le diclofénac IM, la morphine IV et le paracétamol IV.",
+        "B": "Le diclofénac a donné une analgésie au moins aussi efficace que la morphine.",
+        "C": "La morphine entraînait moins d'effets indésirables que les AINS.",
+        "D": "Il s'agissait d'un essai en double aveugle.",
+        "E": "Il conclut à l'abandon des AINS dans cette indication."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Cet essai multibras en double aveugle a conforté la place des AINS en première intention (diclofénac IM au moins aussi efficace que la morphine IV, avec moins d'effets indésirables), le paracétamol IV étant une alternative ; c'est la position de l'EAU 2025.",
+      "explications_par_proposition": {
+        "A": "Vrai : trois bras.",
+        "B": "Vrai : résultat principal.",
+        "C": "Faux : la morphine entraînait davantage d'effets indésirables.",
+        "D": "Vrai : double aveugle.",
+        "E": "Faux : il conforte au contraire les AINS."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023",
+        "RES-CHI-030"
+      ],
+      "theme": "Colique néphrétique — analgésie",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Croire que la morphine est l'antalgique de référence de première intention.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pathan SA et al. Delivering safe and effective analgesia for management of renal colic in the emergency department. Lancet 2016;387(10032):1999-2007",
+          "date": "2016"
+        },
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1112",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la lithiase urique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'alcalinisation des urines est le traitement de base.",
+        "B": "L'allopurinol est indiqué en cas d'hyperuricosurie ou d'hyperuricémie.",
+        "C": "L'objectif est d'obtenir un pH urinaire acide.",
+        "D": "La réduction des protéines animales est conseillée.",
+        "E": "Une dissolution du calcul peut être obtenue par traitement médical."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La lithiase urique est favorisée par un pH urinaire acide persistant (syndrome métabolique, diabète) ; l'alcalinisation (citrate de potassium ou bicarbonate) permet la prévention et souvent la dissolution, complétée par l'allopurinol en cas d'excès d'acide urique et par des mesures diététiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : élève la solubilité de l'acide urique.",
+        "B": "Vrai : réduit la production d'acide urique.",
+        "C": "Faux : on vise un pH alcalin : 6,2–6,8 en prévention et 7,0–7,2 pour la dissolution (EAU).",
+        "D": "Vrai : diminue la charge acide et purinique.",
+        "E": "Vrai : la lithiase urique est la seule dissoluble par voie orale."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "theme": "Lithiase urinaire — lithiase urique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Skolarikos A et al. EAU Guidelines on the Diagnosis and Treatment of Urolithiasis. Eur Urol 2025;88(1):64-75. doi:10.1016/j.eururo.2025.03.011",
+          "date": "2025"
+        },
+        {
+          "reference": "Lemoine S et al. 2022 Recommendations of the AFU Lithiasis Committee: Medical management. Prog Urol 2023;33(14):911-953. doi:10.1016/j.purol.2023.08.004",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Cibles de pH urinaire précisées (EAU : 6,2–6,8 en prévention, 7,0–7,2 pour la dissolution)."
+      }
+    },
+    {
+      "id": "QCM-UROL-1113",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les symptômes suivants du bas appareil urinaire, lesquels sont des symptômes de la phase de remplissage (stockage) ?",
+      "propositions": {
+        "A": "Urgenturie",
+        "B": "Nycturie",
+        "C": "Jet faible",
+        "D": "Pollakiurie diurne",
+        "E": "Gouttes retardataires"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les STBAU se répartissent en symptômes de remplissage (pollakiurie, nycturie, urgenturie, incontinence par urgenturie), mictionnels (retard, jet faible, poussée, jet haché) et post-mictionnels (vidange incomplète, gouttes retardataires).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : symptôme mictionnel.",
+        "D": "Vrai.",
+        "E": "Faux : symptôme post-mictionnel."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — sémiologie des STBAU",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Classer la nycturie parmi les symptômes mictionnels.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222. doi:10.1016/j.eururo.2023.04.008",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1114",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le calendrier (catalogue) mictionnel dans l'évaluation des STBAU masculins, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est recommandé en cas de nycturie.",
+        "B": "Il permet d'identifier une polyurie nocturne.",
+        "C": "Il remplace le score IPSS.",
+        "D": "Il est recommandé lorsque les symptômes de remplissage prédominent.",
+        "E": "Il est classiquement tenu sur au moins 3 jours."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'EAU recommande le calendrier mictionnel en cas de nycturie ou de symptômes de remplissage prédominants : il distingue polyurie (volume des 24 h élevé), polyurie nocturne (part nocturne excessive) et réduction de la capacité vésicale. Il complète l'IPSS sans le remplacer.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : outils complémentaires.",
+        "D": "Vrai.",
+        "E": "Vrai : durée d'au moins 3 jours retenue par l'EAU."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — évaluation initiale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer toute nycturie à la prostate sans calendrier mictionnel.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222. doi:10.1016/j.eururo.2023.04.008",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Mention « à vérifier » levée (calendrier mictionnel d'au moins 3 jours, EAU)."
+      }
+    },
+    {
+      "id": "QCM-UROL-1115",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le score IPSS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il comporte 7 questions sur les symptômes.",
+        "B": "Le score symptomatique va de 0 à 35.",
+        "C": "Une question supplémentaire évalue la qualité de vie de 0 à 6.",
+        "D": "Il comporte une question sur la fonction érectile.",
+        "E": "Un score de 20 à 35 correspond à des symptômes sévères."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'IPSS dérive de l'index symptomatique de l'AUA (1992) : 7 items cotés de 0 à 5 (vidange incomplète, pollakiurie, intermittence, urgenturie, jet faible, poussée, nycturie), soit 0–35 (0–7 léger, 8–19 modéré, 20–35 sévère), plus une question de qualité de vie (0–6). La fonction érectile s'évalue par d'autres questionnaires.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : non incluse (questionnaires dédiés type IIEF).",
+        "E": "Vrai."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — scores",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Barry MJ et al. The American Urological Association symptom index for benign prostatic hyperplasia. J Urol 1992;148(5):1549-1557",
+          "date": "1992"
+        },
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222. doi:10.1016/j.eururo.2023.04.008",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1116",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 66 ans traité par dutastéride depuis 1 an a un PSA à 1,6 ng/mL (3,4 ng/mL avant traitement). Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le PSA « corrigé » est d'environ 3,2 ng/mL.",
+        "B": "Une baisse d'environ 50 % du PSA est attendue sous inhibiteur de la 5-alpha-réductase.",
+        "C": "Une réascension du PSA sous traitement bien suivi doit faire rechercher un cancer.",
+        "D": "Le dutastéride n'a pas d'effet sur le PSA.",
+        "E": "L'interprétation impose de doubler la valeur mesurée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les I5AR diminuent le PSA d'environ 50 % après 6 à 12 mois ; il faut doubler la valeur pour l'interpréter et considérer toute réascension sous traitement comme suspecte. Doser un PSA de référence avant traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai : 1,6 × 2.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — I5AR et PSA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier de corriger le PSA sous I5AR et méconnaître un cancer.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cornford P et al. EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer — 2024 Update, Part I. Eur Urol 2024;86(2):148-163",
+          "date": "2024"
+        },
+        {
+          "reference": "Anract J et al. Non-interventional and medical management of LUTS related to BPH: Guidelines of the French LUTS Committee (CTMH). Fr J Urol 2025;35(11):102952",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1117",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels effets indésirables sont attendus avec les alpha-bloquants prescrits dans l'HBP ?",
+      "propositions": {
+        "A": "Hypotension orthostatique",
+        "B": "Syndrome de l'iris flasque peropératoire",
+        "C": "Gynécomastie",
+        "D": "Anéjaculation ou éjaculation rétrograde",
+        "E": "Diminution de moitié du PSA"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les alpha-bloquants exposent à l'hypotension orthostatique (surtout les molécules peu sélectives et chez le sujet âgé), aux vertiges, à la congestion nasale, aux troubles de l'éjaculation (tamsulosine, silodosine) et au syndrome de l'iris flasque (informer l'ophtalmologiste avant une chirurgie de la cataracte). Gynécomastie et baisse du PSA concernent les I5AR.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : effet des I5AR.",
+        "D": "Vrai.",
+        "E": "Faux : effet des I5AR."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — alpha-bloquants",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre les effets indésirables des alpha-bloquants et des I5AR.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222. doi:10.1016/j.eururo.2023.04.008",
+          "date": "2023"
+        },
+        {
+          "reference": "Anract J et al. Non-interventional and medical management of LUTS related to BPH: Guidelines of the French LUTS Committee (CTMH). Fr J Urol 2025;35(11):102952",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1118",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'essai MTOPS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il comparait doxazosine, finastéride, leur association et un placebo.",
+        "B": "L'association réduisait davantage le risque de progression clinique que chaque monothérapie.",
+        "C": "La doxazosine seule réduisait le risque de chirurgie invasive autant que le finastéride.",
+        "D": "Il a été publié dans le New England Journal of Medicine en 2003.",
+        "E": "Le critère principal était une progression clinique composite."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "MTOPS a établi l'intérêt de l'association alpha-bloquant + I5AR sur la progression clinique (aggravation de l'IPSS, RAU, insuffisance rénale, infections, incontinence) ; seul le finastéride (seul ou associé) réduisait le risque de RAU et de chirurgie invasive.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : l'alpha-bloquant seul ne réduisait pas ce risque à long terme.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — traitement médical, essais",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Attribuer aux alpha-bloquants une prévention de la RAU et de la chirurgie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "McConnell JD et al. MTOPS. N Engl J Med 2003;349(25):2387-2398. doi:10.1056/NEJMoa030656",
+          "date": "2003"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1119",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les antimuscariniques et les agonistes bêta-3 dans les STBAU de l'homme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils sont proposés en deuxième intention en cas de symptômes de remplissage prédominants.",
+        "B": "Un résidu post-mictionnel élevé impose la prudence.",
+        "C": "Le mirabégron est un agoniste bêta-3-adrénergique.",
+        "D": "Ils peuvent être associés à un alpha-bloquant.",
+        "E": "Ils sont indiqués en première intention en cas de rétention chronique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le CTMH 2025 propose antimuscariniques ou agonistes bêta-3 en deuxième ligne des STBAU modérés à sévères à prédominance de remplissage. Ils exposent à la rétention si le résidu est important et sont contre-productifs en cas de rétention chronique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : risque d'aggravation de la rétention."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — symptômes de remplissage",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire un antimuscarinique à un patient en rétention chronique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Anract J et al. Non-interventional and medical management of LUTS related to BPH: Guidelines of the French LUTS Committee (CTMH). Fr J Urol 2025;35(11):102952",
+          "date": "2025"
+        },
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222. doi:10.1016/j.eururo.2023.04.008",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1120",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles sont des contre-indications classiques du cathéter sus-pubien dans la rétention aiguë d'urine ?",
+      "propositions": {
+        "A": "Vessie non distendue",
+        "B": "Troubles de l'hémostase non corrigés",
+        "C": "Prostatite aiguë fébrile",
+        "D": "Tumeur de vessie connue",
+        "E": "Antécédent de chirurgie sous-ombilicale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le cathéter sus-pubien est au contraire préféré en cas de prostatite aiguë (sondage urétral déconseillé) ou d'urètre pathologique. Il est contre-indiqué si la vessie n'est pas distendue, en cas de troubles de l'hémostase, de tumeur vésicale (ensemencement) ou de cicatrice sous-ombilicale (interposition digestive).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est une indication préférentielle.",
+        "D": "Vrai.",
+        "E": "Vrai : risque d'interposition intestinale (contre-indication relative classique)."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — rétention aiguë d'urine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Poser une sonde urétrale en cas de prostatite aiguë.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pinar U et al. Management of acute urinary retention in men with BPH: CTMH guidelines. Fr J Urol 2025;35(11):102953",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Explication de E précisée (contre-indication relative)."
+      }
+    },
+    {
+      "id": "QCM-UROL-1121",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations françaises du CTMH (2025) sur le traitement interventionnel de l'obstruction liée à l'HBP, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'incision cervico-prostatique concerne les prostates de moins de 30 mL sans lobe médian.",
+        "B": "La RTUP concerne les prostates de 30 à 80 mL.",
+        "C": "Le volume minimal pour l'embolisation des artères prostatiques est de 40 mL.",
+        "D": "L'adénomectomie ouverte peut être proposée au-delà de 80 mL dans les centres sans énucléation endoscopique.",
+        "E": "Les implants urétraux sont l'option de choix en cas de lobe médian obstructif."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le choix dépend du volume et de l'anatomie : ICP < 30 mL sans lobe médian, RTUP/vaporisation/aquablation 30–80 mL, énucléation endoscopique pour tous volumes (surtout > 80 mL), adénomectomie si l'énucléation n'est pas disponible, EAP à partir de 40 mL (meilleure efficacité > 80 mL), implants en l'absence de lobe médian.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : le lobe médian obstructif est une limite des implants."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — traitement chirurgical",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Klein C et al. Surgical and interventional management of BOO related to BPH: CTMH Clinical Practice Guidelines. Fr J Urol 2025;35(11):102951",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1122",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le syndrome de résection transurétrale (« TURP syndrome »), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il comporte une hyponatrémie de dilution.",
+        "B": "Il est lié à l'absorption du liquide d'irrigation hypotonique (glycocolle) en résection monopolaire.",
+        "C": "Il est plus fréquent avec la résection bipolaire au sérum physiologique.",
+        "D": "Il peut associer confusion, troubles visuels, nausées et bradycardie.",
+        "E": "La résection bipolaire en réduit le risque."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'absorption massive de glycocolle lors d'une RTUP monopolaire longue ou d'une effraction des sinus veineux provoque une hyperhydratation hypo-osmolaire (hyponatrémie) et des troubles neurologiques et hémodynamiques. La résection bipolaire au sérum physiologique en réduit nettement le risque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est l'inverse.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — complications de la RTUP",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Klein C et al. Surgical and interventional management of BOO related to BPH: CTMH Clinical Practice Guidelines. Fr J Urol 2025;35(11):102951",
+          "date": "2025"
+        },
+        {
+          "reference": "Lerner LB et al. AUA Guideline on LUTS/BPH, Part II — Surgical Evaluation and Treatment. J Urol 2021;206(4):818-826",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1123",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'anatomie zonale de la prostate et ses conséquences cliniques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'HBP se développe dans la zone de transition.",
+        "B": "La majorité des adénocarcinomes naissent dans la zone périphérique.",
+        "C": "Le toucher rectal explore surtout la zone périphérique.",
+        "D": "La zone centrale représente environ 70 % du tissu glandulaire.",
+        "E": "Le risque de cancer persiste après RTUP ou adénomectomie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La zone périphérique (≈ 70 % du tissu glandulaire) est postérieure, palpable au toucher rectal et siège de la plupart des cancers ; elle est laissée en place par la chirurgie de l'HBP, qui enlève la zone de transition hypertrophiée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : c'est la zone périphérique (la centrale ≈ 25 %).",
+        "E": "Vrai."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — anatomie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire qu'une adénomectomie supprime le risque de cancer de la prostate.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222. doi:10.1016/j.eururo.2023.04.008",
+          "date": "2023"
+        },
+        {
+          "reference": "Cornford P et al. EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer — 2024 Update, Part I. Eur Urol 2024;86(2):148-163",
+          "date": "2024"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-UROL-1124",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 75 ans présente un globe vésical indolore de 1,8 L, des mictions par regorgement, une créatinine à 320 µmol/L et une dilatation bilatérale des cavités rénales. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un drainage vésical est indiqué.",
+        "B": "Une polyurie de levée d'obstacle doit être surveillée.",
+        "C": "La kaliémie et la natrémie doivent être surveillées.",
+        "D": "Un antimuscarinique améliorera la vidange vésicale.",
+        "E": "Une chirurgie de désobstruction se discute après stabilisation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La rétention chronique avec insuffisance rénale obstructive impose un drainage, une surveillance de la levée d'obstacle (diurèse, ionogramme, compensation partielle) puis une désobstruction chirurgicale (indication absolue), en informant le patient que le détrusor peut ne pas récupérer.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : aggrave la rétention.",
+        "E": "Vrai : insuffisance rénale liée à l'obstruction = indication chirurgicale."
+      },
+      "specialite": "UROL",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "theme": "HBP — rétention chronique compliquée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre mictions par regorgement et incontinence vraie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gravas S et al. Summary Paper on the 2023 EAU Guidelines on the Management of Non-neurogenic Male LUTS. Eur Urol 2023;84(2):207-222. doi:10.1016/j.eururo.2023.04.008",
+          "date": "2023"
+        },
+        {
+          "reference": "Pinar U et al. Management of acute urinary retention in men with BPH: CTMH guidelines. Fr J Urol 2025;35(11):102953",
+          "date": "2025"
+        },
+        {
+          "reference": "Lerner LB et al. AUA Guideline on LUTS/BPH, Part II — Surgical Evaluation and Treatment. J Urol 2021;206(4):818-826",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1101",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les fractures de l'extrémité supérieure du fémur, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La fracture sous-capitale est intracapsulaire.",
+        "B": "La fracture pertrochantérienne est extracapsulaire.",
+        "C": "La fracture basicervicale a un comportement mécanique proche des fractures trochantériennes.",
+        "D": "Les fractures extracapsulaires exposent davantage à l'ostéonécrose de la tête que les fractures du col.",
+        "E": "La fracture sous-trochantérienne fait partie des fractures de l'extrémité supérieure du fémur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les fractures du col sont intracapsulaires et menacent la vascularisation rétinaculaire de la tête (nécrose, pseudarthrose) ; les fractures trochantériennes et sous-trochantériennes sont extracapsulaires, en os spongieux bien vascularisé, et posent surtout des problèmes de stabilité.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : souvent traitée par vis-plaque.",
+        "D": "Faux : c'est l'inverse.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures de l'extrémité supérieure du fémur — anatomie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE. Hip fracture: management. Clinical guideline CG124 (2011, mise à jour 06/01/2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "Meinberg EG et al. Fracture and Dislocation Classification Compendium-2018. J Orthop Trauma 2018;32 Suppl 1:S1-S170",
+          "date": "2018"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1102",
+      "format": "QCS (réponse unique)",
+      "enonce": "Sur le cliché de face d'une fracture du col du fémur, la tête fémorale a perdu tout contact avec le col et ses travées de compression sont redevenues parallèles à celles du cotyle. Quel est le stade de Garden ?",
+      "propositions": {
+        "A": "Garden I",
+        "B": "Garden II",
+        "C": "Garden III",
+        "D": "Garden IV",
+        "E": "Pauwels III"
+      },
+      "reponses_correctes": [
+        "D"
+      ],
+      "explication_generale": "Dans le Garden IV, le déplacement est complet : la tête, libérée, reprend sa position anatomique dans le cotyle, d'où le parallélisme des travées céphaliques et cotyloïdiennes. Dans le Garden III, la tête reste attachée par une charnière postérieure et bascule en varus (travées non alignées).",
+      "explications_par_proposition": {
+        "A": "Faux : fracture engrenée en valgus.",
+        "B": "Faux : fracture complète non déplacée.",
+        "C": "Faux : déplacement partiel, travées céphaliques horizontalisées.",
+        "D": "Vrai.",
+        "E": "Faux : Pauwels décrit l'orientation du trait, pas les travées."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures du col — classification de Garden",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre Garden III et Garden IV.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Garden RS. Low-angle fixation in fractures of the femoral neck. J Bone Joint Surg Br 1961;43-B:647-663 [référence non vérifiée]",
+          "date": "1961"
+        },
+        {
+          "reference": "NICE. Hip fracture: management. Clinical guideline CG124 (2011, mise à jour 06/01/2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1103",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la classification AO/OTA (compendium 2018) du fémur proximal (région 31), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "31B correspond aux fractures du col.",
+        "B": "31A correspond aux fractures de la région trochantérienne.",
+        "C": "31B1 correspond aux fractures sous-capitales.",
+        "D": "31B3 correspond aux fractures basicervicales.",
+        "E": "31C correspond aux fractures sous-trochantériennes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Dans le compendium AO/OTA 2018, la région 31 comprend 31A (trochantérienne), 31B (col : B1 sous-capitale, B2 transcervicale, B3 basicervicale) et 31C (tête fémorale). Les fractures sous-trochantériennes sont codées dans le segment diaphysaire proximal [libellés à vérifier dans le compendium].",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 31C = tête fémorale."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures du col — classification AO/OTA",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Meinberg EG et al. Fracture and Dislocation Classification Compendium-2018. J Orthop Trauma 2018;32 Suppl 1:S1-S170",
+          "date": "2018"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1104",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 84 ans a une douleur inguinale après une chute ; elle ne peut pas appuyer. Les radiographies de bassin et de hanche (face et profil) sont normales. Selon NICE, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une IRM est indiquée.",
+        "B": "Un scanner est proposé si l'IRM n'est pas disponible dans les 24 heures ou est contre-indiquée.",
+        "C": "Une scintigraphie osseuse est l'examen de première intention.",
+        "D": "L'échographie de hanche est l'examen de référence.",
+        "E": "La marche peut être autorisée sans autre examen."
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "NICE CG124 recommande l'IRM en cas de suspicion clinique persistante malgré des radiographies normales, et le scanner si l'IRM n'est pas accessible dans les 24 heures ou est contre-indiquée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux : l'échographie ne visualise pas le trait.",
+        "E": "Faux : risque de déplacement secondaire d'une fracture occulte."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures du col — fracture occulte",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se contenter de radiographies normales chez une patiente qui ne peut pas appuyer.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE. Hip fracture: management. Clinical guideline CG124 (2011, mise à jour 06/01/2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1105",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'essai HEALTH (NEJM 2019) comparant prothèse totale (PTH) et prothèse intermédiaire dans les fractures déplacées du col, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il incluait des patients de 50 ans et plus, capables de marcher avant la fracture.",
+        "B": "Il comparait PTH et hémiarthroplastie.",
+        "C": "La PTH a significativement réduit les réinterventions à 24 mois.",
+        "D": "Les luxations étaient plus fréquentes après PTH.",
+        "E": "La PTH apportait un gain fonctionnel modeste."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "HEALTH n'a pas montré de réduction significative des réinterventions secondaires avec la PTH ; le gain fonctionnel était modeste et les luxations plus fréquentes. Depuis sa mise à jour de 2023, NICE recommande d'envisager (« consider ») une PTH chez le patient qui marchait seul à l'extérieur avec au plus une canne ; la version antérieure recommandait de la proposer au patient autonome, sans trouble cognitif et apte à l'intervention.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures du col — arthroplastie",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Présenter la PTH comme supérieure en tout point à la prothèse intermédiaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HEALTH Investigators. Total Hip Arthroplasty or Hemiarthroplasty for Hip Fracture. N Engl J Med 2019;381(23):2199-2208",
+          "date": "2019"
+        },
+        {
+          "reference": "NICE. Hip fracture: management. Clinical guideline CG124 (2011, mise à jour 06/01/2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Explication actualisée : formulation NICE 2023 (« envisager » une PTH) ; résultats chiffrés de HEALTH vérifiés (résumé)."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1106",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'essai FAITH (Lancet 2017), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il comparait vis canulées et vis-plaque dynamique.",
+        "B": "Il ne retrouvait pas de différence globale du taux de réintervention.",
+        "C": "Il incluait des patients de 50 ans et plus.",
+        "D": "Il concernait l'ostéosynthèse des fractures du col du fémur.",
+        "E": "Les vis canulées étaient nettement supérieures chez les fumeurs."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "FAITH (1 108 patients) n'a pas montré de différence globale de réintervention à 24 mois entre vis canulées et vis-plaque (22 % vs 20 %) ; l'ostéonécrose était plus fréquente avec la vis-plaque (9 % vs 5 %) ; des analyses de sous-groupes exploratoires suggéraient un avantage de la vis-plaque chez les fumeurs, dans les fractures déplacées et basicervicales.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : selon les auteurs, les fumeurs (comme les fractures déplacées ou basicervicales) pourraient au contraire tirer bénéfice de la vis-plaque (analyses de sous-groupes)."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures du col — ostéosynthèse",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "FAITH Investigators. Fracture fixation in the operative management of hip fractures (FAITH). Lancet 2017;389(10078):1519-1527",
+          "date": "2017"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Sous-groupes de FAITH confirmés sur le résumé ; chiffres ajoutés ; mention « à vérifier » levée."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1107",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un garçon de 10 ans présente, après une chute d'un arbre, une fracture transcervicale déplacée du col du fémur. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'un type II de Delbet.",
+        "B": "La prise en charge est une urgence chirurgicale.",
+        "C": "Le risque d'ostéonécrose de la tête est élevé.",
+        "D": "Une prothèse intermédiaire est le traitement de choix.",
+        "E": "Une coxa vara et une inégalité de longueur doivent être surveillées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Chez l'enfant, la tête dépend des vaisseaux rétinaculaires ; les fractures du col (Delbet I à IV) sont des urgences de réduction et de fixation, exposant à l'ostéonécrose (d'autant plus que la fracture est proximale et déplacée), à la coxa vara, à l'épiphysiodèse et à la pseudarthrose.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : on conserve la tête (réduction et ostéosynthèse).",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures du col — enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer à l'enfant la stratégie prothétique du sujet âgé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Boardman MJ et al. Hip fractures in children. J Am Acad Orthop Surg 2009;17(3):162-173",
+          "date": "2009"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1108",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations AAOS (2021) sur les fractures de hanche du sujet âgé, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La traction préopératoire n'est pas recommandée.",
+        "B": "Les blocs nerveux périphériques sont recommandés pour l'analgésie.",
+        "C": "Une transfusion est recommandée dès que l'hémoglobine est inférieure à 10 g/dL chez le patient asymptomatique.",
+        "D": "L'acide tranexamique réduit les pertes sanguines.",
+        "E": "Rachianesthésie et anesthésie générale donnent des résultats comparables."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'AAOS déconseille la traction préopératoire, recommande les blocs nerveux, l'acide tranexamique et une stratégie transfusionnelle restrictive (pas de transfusion au-dessus de 8 g/dL chez le patient asymptomatique), et considère rachianesthésie et anesthésie générale comme équivalentes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : seuil restrictif de 8 g/dL.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures de hanche — péri-opératoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire une traction collée pour soulager la douleur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "O'Connor MI, Switzer JA. AAOS Clinical Practice Guideline Summary: Management of Hip Fractures in Older Adults. J Am Acad Orthop Surg 2022;30(20):e1291-e1296",
+          "date": "2022"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1109",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 88 ans est retrouvée au sol après une nuit entière, avec une fracture du col du fémur. Quelles conséquences du séjour prolongé au sol faut-il rechercher ?",
+      "propositions": {
+        "A": "Rhabdomyolyse",
+        "B": "Hypothermie",
+        "C": "Insuffisance rénale aiguë",
+        "D": "Escarres",
+        "E": "Hyperthermie maligne"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le séjour prolongé au sol expose à la rhabdomyolyse (CPK, myoglobinurie), à l'hypothermie, à la déshydratation et à l'insuffisance rénale aiguë, aux escarres et à la pneumopathie d'inhalation. L'hyperthermie maligne est une complication pharmacogénétique de l'anesthésie, sans rapport.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures de hanche — évaluation gériatrique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. 2009",
+          "date": "2009"
+        },
+        {
+          "reference": "NICE. Hip fracture: management. Clinical guideline CG124 (2011, mise à jour 06/01/2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1110",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la thromboprophylaxie après chirurgie d'une fracture de l'extrémité supérieure du fémur, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une HBPM ou le fondaparinux peuvent être utilisés.",
+        "B": "Le fondaparinux 2,5 mg/j est débuté environ 6 heures après la fin de l'intervention (RCP).",
+        "C": "La durée est prolongée, de l'ordre de 4 à 5 semaines.",
+        "D": "Aucune prophylaxie n'est nécessaire si la patiente est levée à J1.",
+        "E": "La posologie doit tenir compte de la fonction rénale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La fracture de hanche est une situation à risque thromboembolique élevé ; la prophylaxie médicamenteuse (HBPM ou fondaparinux) est prolongée plusieurs semaines, adaptée à la fonction rénale, complétée par une contention mécanique si nécessaire : 1 mois selon NICE NG89 ; HBPM débutée 6 à 12 h après l'intervention ou fondaparinux 6 h après (énoxaparine 4 000 UI/j, 2 000 UI/j si ClCr 15–30 mL/min).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : RCP du fondaparinux ; délai repris par NICE NG89 (1,5 mg/j si ClCr 20–50 mL/min ; contre-indiqué si ClCr < 20 mL/min).",
+        "C": "Vrai : 1 mois selon NICE NG89 (fracture de fragilité de l'extrémité supérieure du fémur) ; prophylaxie prolongée selon la SFAR 2011.",
+        "D": "Faux : la mobilisation précoce ne suffit pas.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures de hanche — thromboprophylaxie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter la prophylaxie à la sortie de l'hôpital.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Samama CM et al. SFAR — Prévention de la MTEV postopératoire, actualisation 2011. Ann Fr Anesth Reanim 2011;30(12):947-951",
+          "date": "2011"
+        },
+        {
+          "reference": "Samama CM, Afshari A. European guidelines on perioperative venous thromboembolism prophylaxis. Eur J Anaesthesiol 2018;35(2):73-76",
+          "date": "2018"
+        },
+        {
+          "reference": "NICE. Venous thromboembolism in over 16s: reducing the risk of hospital-acquired deep vein thrombosis or pulmonary embolism (NG89). 2018, mise à jour août 2019",
+          "date": "2019"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Posologies et durée confirmées (RCP, NICE NG89) ; mentions « à vérifier » levées ; source NICE NG89 ajoutée."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1111",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles complications sont spécifiques de l'ostéosynthèse d'une fracture du col du fémur (par opposition à l'arthroplastie) ?",
+      "propositions": {
+        "A": "Pseudarthrose",
+        "B": "Ostéonécrose tardive de la tête fémorale",
+        "C": "Luxation de la prothèse",
+        "D": "Déplacement secondaire du foyer",
+        "E": "Usure cotyloïdienne (cotyloïdite)"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'ostéosynthèse conserve la tête : elle expose à la pseudarthrose, à l'ostéonécrose (parfois plusieurs années après) et au déplacement secondaire. La luxation et l'usure cotyloïdienne sont des complications des prothèses.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : complication de l'arthroplastie.",
+        "D": "Vrai.",
+        "E": "Faux : complication de la prothèse céphalique ou intermédiaire."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures du col — complications",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE. Hip fracture: management. Clinical guideline CG124 (2011, mise à jour 06/01/2023)",
+          "date": "2023"
+        },
+        {
+          "reference": "O'Connor MI, Switzer JA. AAOS Clinical Practice Guideline Summary: Management of Hip Fractures in Older Adults. J Am Acad Orthop Surg 2022;30(20):e1291-e1296",
+          "date": "2022"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1112",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 40 ans présente une fracture du col du fémur dont le trait forme un angle de 65° avec l'horizontale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'un type III de Pauwels.",
+        "B": "Les contraintes de cisaillement prédominent.",
+        "C": "Le risque de pseudarthrose après ostéosynthèse est élevé.",
+        "D": "Une prothèse totale est le traitement de première intention.",
+        "E": "Un montage résistant au cisaillement est souhaitable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le trait vertical (Pauwels III, > 50°) subit un cisaillement maximal. Chez le sujet jeune, on conserve la tête par une réduction anatomique urgente et une ostéosynthèse résistant au cisaillement (vis-plaque ± vis anti-rotatoire, autres montages selon les équipes).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : on conserve la tête chez le sujet jeune.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "theme": "Fractures du col — sujet jeune",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Proposer une arthroplastie à un adulte jeune.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pauwels F. Der Schenkelhalsbruch: ein mechanisches Problem. Stuttgart: Enke; 1935 [référence non vérifiée]",
+          "date": "1935"
+        },
+        {
+          "reference": "FAITH Investigators. Fracture fixation in the operative management of hip fractures (FAITH). Lancet 2017;389(10078):1519-1527",
+          "date": "2017"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1113",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la fracture de Goyrand-Smith, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le fragment distal bascule en avant.",
+        "B": "Elle survient typiquement après une chute sur le dos de la main, poignet fléchi.",
+        "C": "Elle est instable sous plâtre.",
+        "D": "Elle est le plus souvent traitée par plaque palmaire.",
+        "E": "Elle donne une déformation en « dos de fourchette »."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La fracture de Goyrand-Smith est l'inverse du Pouteau-Colles : bascule antérieure (palmaire), mécanisme en flexion ; elle est instable sous plâtre et relève le plus souvent d'une plaque palmaire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : le « dos de fourchette » est celui du Pouteau-Colles."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — formes anatomiques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter un Goyrand-Smith comme un Pouteau-Colles par plâtre seul.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kamal RN, Shapiro LM. AAOS/ASSH Clinical Practice Guideline Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg 2022;30(4):e480-e486",
+          "date": "2022"
+        },
+        {
+          "reference": "Meinberg EG et al. Fracture and Dislocation Classification Compendium-2018. J Orthop Trauma 2018;32 Suppl 1:S1-S170",
+          "date": "2018"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1114",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la fracture marginale antérieure du radius distal (Barton antérieur), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une fracture articulaire partielle.",
+        "B": "Elle s'accompagne d'une subluxation antérieure du carpe.",
+        "C": "Elle correspond au groupe 2R3 B3 de l'AO/OTA.",
+        "D": "Elle est extra-articulaire.",
+        "E": "Son traitement fait appel à une plaque palmaire de soutien."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le Barton antérieur est un cisaillement de la marge palmaire entraînant le carpe en avant : fracture articulaire partielle (AO 2R3 B3), très instable, traitée par plaque palmaire en soutien (« buttress »).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — fractures articulaires partielles",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Meinberg EG et al. Fracture and Dislocation Classification Compendium-2018. J Orthop Trauma 2018;32 Suppl 1:S1-S170",
+          "date": "2018"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1115",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans la classification de Frykman, quel type correspond à une fracture touchant l'articulation radio-carpienne ET l'articulation radio-ulnaire distale, sans fracture de la styloïde ulnaire ?",
+      "propositions": {
+        "A": "Type III",
+        "B": "Type V",
+        "C": "Type VII",
+        "D": "Type VIII",
+        "E": "Type IV"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Frykman : I–II extra-articulaires, III–IV radio-carpiennes, V–VI radio-ulnaires distales, VII–VIII les deux ; les types pairs comportent une fracture de la styloïde ulnaire. Radio-carpienne + RUD sans styloïde ulnaire = type VII.",
+      "explications_par_proposition": {
+        "A": "Faux : radio-carpienne seule.",
+        "B": "Faux : RUD seule.",
+        "C": "Vrai.",
+        "D": "Faux : avec fracture de la styloïde ulnaire.",
+        "E": "Faux : radio-carpienne + styloïde ulnaire."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — classification de Frykman",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser types pairs et impairs.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Frykman G. Fracture of the distal radius including sequelae. Acta Orthop Scand 1967;Suppl 108 [référence non vérifiée]",
+          "date": "1967"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1116",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les repères cliniques et radiologiques du radius distal de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La styloïde radiale descend normalement plus bas que la styloïde ulnaire.",
+        "B": "L'alignement des deux styloïdes (signe de Laugier) traduit un raccourcissement du radius.",
+        "C": "L'inclinaison palmaire normale est de l'ordre de 10 à 12°.",
+        "D": "Un raccourcissement du radius rend la variance ulnaire positive.",
+        "E": "L'inclinaison radiale normale est de l'ordre de 45°."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Repères classiques : inclinaison radiale ≈ 20–25°, inclinaison palmaire ≈ 10–12°, hauteur radiale ≈ 10–13 mm, variance ulnaire ≈ 0. Le raccourcissement du radius fait remonter la styloïde radiale (Laugier) et rend la variance ulnaire positive (conflit ulno-carpien).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : ≈ 20–25°."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — paramètres radiologiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kamal RN, Shapiro LM. AAOS/ASSH Clinical Practice Guideline Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg 2022;30(4):e480-e486",
+          "date": "2022"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1117",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'essai CROSSFIRE (JAMA Surg 2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il incluait des patients de 60 ans et plus.",
+        "B": "Il comparait plaque palmaire verrouillée et réduction fermée avec plâtre.",
+        "C": "Aucune différence cliniquement importante du score PRWE à 12 mois n'a été observée.",
+        "D": "Le succès du traitement perçu par le patient était en faveur de la plaque.",
+        "E": "Les complications étaient significativement plus nombreuses dans le groupe plaque."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "CROSSFIRE (Australie, Nouvelle-Zélande ; âge moyen 71 ans, 90 % de femmes) n'a pas montré de différence cliniquement importante du PRWE à 12 mois ; les complications totales ne différaient pas significativement ; le succès perçu favorisait la plaque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : pas de différence significative (14 % plâtre vs 8 % plaque)."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — sujet âgé, essais",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "CROSSFIRE Study Group. Surgical Plating vs Closed Reduction for Fractures in the Distal Radius in Older Patients. JAMA Surg 2021;156(3):229-237",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1118",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'essai WRIST (résultats à 24 mois, JAMA Netw Open 2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il concernait des patients de 60 ans et plus avec fracture instable.",
+        "B": "Il randomisait plaque palmaire, fixateur externe ± broches et embrochage ; un groupe plâtre était constitué par choix du patient.",
+        "C": "Le score MHQ à 24 mois ne différait pas de façon cliniquement significative entre les groupes.",
+        "D": "Le cal vicieux était plus fréquent dans le groupe plâtre.",
+        "E": "Il a été mené exclusivement au Royaume-Uni."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "WRIST a inclus 304 patients (États-Unis, Canada, Singapour) : pas de différence cliniquement significative du MHQ à 24 mois, mais cal vicieux dans 59 % des cas du groupe plâtre contre 8 à 17 % dans les groupes chirurgicaux.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : États-Unis, Canada, Singapour."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — sujet âgé, essais",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Assimiler cal vicieux radiologique et mauvais résultat fonctionnel chez le sujet âgé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Chung KC et al. WRIST — 24-Month Outcomes. JAMA Netw Open 2021;4(6):e2112710",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1119",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la rupture du tendon long extenseur du pouce (LEP) après fracture du radius distal, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le tendon contourne le tubercule de Lister.",
+        "B": "Elle survient souvent après des fractures peu ou non déplacées.",
+        "C": "Son traitement fait appel à un transfert de l'extenseur propre de l'index.",
+        "D": "Elle survient typiquement le jour du traumatisme.",
+        "E": "Une vis dorsale trop longue peut en être responsable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La rupture du LEP est une complication secondaire (quelques semaines), liée à l'ischémie ou au frottement du tendon au tubercule de Lister, ou à une vis dorsale saillante ; elle se traite par transfert tendineux.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : complication secondaire.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — complications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Méconnaître une perte d'extension du pouce à distance de la fracture.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kamal RN, Shapiro LM. AAOS/ASSH Clinical Practice Guideline Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg 2022;30(4):e480-e486",
+          "date": "2022"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1120",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles mesures participent à la prévention du syndrome douloureux régional complexe après fracture du radius distal ?",
+      "propositions": {
+        "A": "Éviter l'immobilisation en flexion palmaire et inclinaison ulnaire forcées.",
+        "B": "Mobiliser les doigts dès le premier jour.",
+        "C": "Assurer un contrôle efficace de la douleur.",
+        "D": "Prolonger une immobilisation serrée au-delà de 3 mois.",
+        "E": "Prescrire systématiquement de la vitamine C, recommandation consensuelle actuelle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Une immobilisation en position neutre, non compressive, la mobilisation précoce des doigts et une analgésie efficace limitent le risque de SDRC. La vitamine C a été suggérée par l'AAOS en 2009 (force modérée) pour prévenir les douleurs disproportionnées ; l'essai d'Ekrol (JBJS Am 2014 ; 500 mg/j pendant 50 jours) n'a montré aucun bénéfice sur la fonction ni sur le taux de SDRC. Ce n'est pas une recommandation consensuelle actuelle (formulation exacte de l'AAOS 2020 non relue).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : favorise raideur et SDRC.",
+        "E": "Faux : l'AAOS 2009 la suggérait (force modérée), mais l'essai randomisé en double aveugle d'Ekrol (2014, 336 patients) n'a montré aucun bénéfice."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — SDRC",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Présenter la vitamine C comme une prévention établie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kamal RN, Shapiro LM. AAOS/ASSH Clinical Practice Guideline Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg 2022;30(4):e480-e486",
+          "date": "2022"
+        },
+        {
+          "reference": "Ekrol I et al. The influence of vitamin C on the outcome of distal radial fractures: a double-blind, randomized controlled trial. J Bone Joint Surg Am 2014;96(17):1451-1459",
+          "date": "2014"
+        },
+        {
+          "reference": "Lichtman DM et al. Treatment of distal radius fractures (recommandations AAOS 2009). J Am Acad Orthop Surg 2010;18(3):180-189",
+          "date": "2010"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Explication sur la vitamine C sourcée (AAOS 2009 ; essai d'Ekrol 2014) ; sources ajoutées."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1121",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Après réduction d'une fracture de Pouteau-Colles, une patiente signale des paresthésies croissantes de l'index et du médius. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles évoquent une compression aiguë du nerf médian.",
+        "B": "Une immobilisation en flexion palmaire forcée peut les aggraver.",
+        "C": "Leur persistance ou aggravation malgré la correction de la position impose une décompression chirurgicale.",
+        "D": "Une surveillance simple suffit même en cas d'aggravation.",
+        "E": "L'examen du nerf médian doit être consigné avant et après réduction."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le syndrome du canal carpien aigu est une complication précoce (hématome, déplacement, flexion forcée) ; desserrer, corriger la position, et en cas de persistance ou d'aggravation, libérer le canal carpien en urgence et stabiliser la fracture.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : risque de lésion nerveuse définitive.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — complications précoces",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kamal RN, Shapiro LM. AAOS/ASSH Clinical Practice Guideline Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg 2022;30(4):e480-e486",
+          "date": "2022"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1122",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les fractures du radius distal de l'enfant, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La fracture en motte de beurre (torus) est stable.",
+        "B": "Le décollement épiphysaire de type Salter-Harris II est le plus fréquent.",
+        "C": "Le potentiel de remodelage est important près du cartilage de croissance.",
+        "D": "Les manœuvres de réduction répétées et tardives d'un décollement épiphysaire sont recommandées.",
+        "E": "La fracture en bois vert correspond à la rupture d'une seule corticale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Chez l'enfant, l'os plastique et le périoste épais expliquent les fractures en motte de beurre et en bois vert ; le remodelage permet d'accepter certaines angulations, mais les réductions tardives ou répétées d'un décollement épiphysaire exposent à l'épiphysiodèse [données à vérifier selon les référentiels pédiatriques].",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : risque d'épiphysiodèse.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — enfant",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Meinberg EG et al. Fracture and Dislocation Classification Compendium-2018. J Orthop Trauma 2018;32 Suppl 1:S1-S170",
+          "date": "2018"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1123",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'embrochage percutané des fractures du radius distal, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'embrochage de Kapandji est intrafocal.",
+        "B": "C'est une technique percutanée.",
+        "C": "Il impose toujours l'ajout d'une plaque.",
+        "D": "Il peut léser la branche sensitive du nerf radial.",
+        "E": "Dans DRAFFT, les broches ont donné des résultats fonctionnels équivalents à la plaque palmaire à 12 mois et à 5 ans."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'embrochage (intrafocal de Kapandji ou extrafocal) est peu invasif et peu coûteux ; l'essai DRAFFT (461 adultes) n'a retrouvé aucune différence cliniquement pertinente du PRWE entre broches et plaque à 3, 6, 12 mois et 5 ans.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : il est souvent complété par un plâtre, pas par une plaque.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — traitement chirurgical",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Costa ML et al. DRAFFT. BMJ 2014;349:g4807 ; suivi à 5 ans Bone Joint J 2019;101-B(8):978-983",
+          "date": "2014"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-TRAU-1124",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 58 ans présente une fracture de Pouteau-Colles après une chute de sa hauteur. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une fracture de fragilité.",
+        "B": "Une ostéodensitométrie est indiquée.",
+        "C": "Le statut en vitamine D doit être évalué.",
+        "D": "Aucune prise en charge osseuse n'est nécessaire une fois la fracture consolidée.",
+        "E": "Le risque de chute doit être évalué."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La fracture du poignet par traumatisme de faible énergie après 50 ans est souvent la première fracture ostéoporotique : elle justifie un bilan et un traitement de l'ostéoporose ainsi qu'une prévention des chutes pour éviter la fracture suivante (hanche, vertèbre).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : prévention secondaire indispensable.",
+        "E": "Vrai."
+      },
+      "specialite": "TRAU",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "theme": "Radius distal — prévention secondaire",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": "Oublier la prévention secondaire de l'ostéoporose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Conley RB et al. Secondary Fracture Prevention: Consensus Clinical Recommendations. J Bone Miner Res 2020;35(1):36-52",
+          "date": "2020"
+        },
+        {
+          "reference": "HAS. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. 2009",
+          "date": "2009"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1101",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels facteurs expliquent la localisation métaphysaire de l'ostéomyélite aiguë hématogène de l'enfant ?",
+      "propositions": {
+        "A": "Les anses capillaires et sinusoïdes veineux métaphysaires à flux lent.",
+        "B": "La pauvreté locale en cellules phagocytaires.",
+        "C": "Le rôle favorisant d'un microtraumatisme.",
+        "D": "Le périoste très adhérent de l'enfant.",
+        "E": "Le périoste épais et facilement décollable, qui explique l'abcès sous-périosté."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La vascularisation terminale de la métaphyse (anses capillaires, sinusoïdes à flux lent, endothélium discontinu, peu de macrophages) favorise la fixation des bactéries. Le périoste de l'enfant est épais et peu adhérent, d'où la fréquence de l'abcès sous-périosté.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : il est peu adhérent (sauf à la physe).",
+        "E": "Vrai."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — physiopathologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saavedra-Lozano J et al. Bone and Joint Infections (ESPID). Pediatr Infect Dis J 2017;36(8):788-799",
+          "date": "2017"
+        },
+        {
+          "reference": "Woods CR et al. PIDS/IDSA 2021 Guideline on Acute Hematogenous Osteomyelitis in Pediatrics. J Pediatric Infect Dis Soc 2021;10(8):801-844",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1102",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant Kingella kingae dans les infections ostéo-articulaires de l'enfant, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle touche surtout les enfants de 6 mois à 4 ans.",
+        "B": "La CRP peut être normale ou peu élevée.",
+        "C": "Sa culture est améliorée par l'inoculation du prélèvement en flacon d'hémoculture.",
+        "D": "Le diagnostic repose souvent sur une PCR spécifique.",
+        "E": "Elle est sensible à la vancomycine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "K. kingae est un agent majeur des IOA du jeune enfant (portage oropharyngé), responsable de formes souvent modérées ; le diagnostic est surtout moléculaire. Elle est naturellement résistante aux glycopeptides.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : résistance naturelle aux glycopeptides."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — Kingella kingae",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Exiger une CRP élevée pour évoquer une IOA chez un enfant de 2 ans.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the GPIP. Infect Dis Now 2023;53(8S):104789",
+          "date": "2023"
+        },
+        {
+          "reference": "De Marco G et al. Bacteriological diagnosis of osteoarticular infections caused by Kingella kingae. Front Pediatr 2024;12:1520636",
+          "date": "2024"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Mention « à vérifier » levée (résistance naturelle de K. kingae aux glycopeptides)."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1103",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans une série de 71 nourrissons de moins de 3 mois hospitalisés pour infection ostéo-articulaire (Mediamolle, 2019), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Streptococcus agalactiae était le germe le plus fréquent.",
+        "B": "La fièvre était constante.",
+        "C": "La hanche et le genou étaient les localisations les plus fréquentes.",
+        "D": "Des séquelles orthopédiques graves ont été observées.",
+        "E": "Escherichia coli faisait partie des germes identifiés."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Dans cette série parisienne, le streptocoque B (45 %), S. aureus (22 %) et E. coli (18 %) dominaient ; la fièvre n'était présente que chez 52 % des nourrissons ; 4 des 34 enfants suivis plus d'un an ont gardé des séquelles sévères.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : 52 % seulement.",
+        "C": "Vrai (32 % chacune).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — nourrisson",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Écarter une IOA chez un nourrisson apyrétique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mediamolle N et al. Bone and joint infections in infants under three months of age. Acta Paediatr 2019;108(5):933-939",
+          "date": "2019"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1104",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les radiographies standard dans l'ostéomyélite aiguë de l'enfant, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles sont souvent normales au début.",
+        "B": "Les signes osseux n'apparaissent qu'après une dizaine de jours environ.",
+        "C": "Elles permettent d'éliminer une tumeur osseuse ou une fracture.",
+        "D": "Elles sont inutiles si une IRM est prévue.",
+        "E": "Des appositions périostées peuvent apparaître secondairement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La radiographie initiale, souvent normale, est indispensable comme référence et pour éliminer un diagnostic différentiel (tumeur, fracture) ; les signes (appositions périostées, ostéolyse) apparaissent après environ 10 à 15 jours [délai à vérifier].",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : elle reste l'examen initial.",
+        "E": "Vrai."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — imagerie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Éliminer une ostéomyélite sur des radiographies normales à J2.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saavedra-Lozano J et al. Bone and Joint Infections (ESPID). Pediatr Infect Dis J 2017;36(8):788-799",
+          "date": "2017"
+        },
+        {
+          "reference": "Woods CR et al. PIDS/IDSA 2021 Guideline on Acute Hematogenous Osteomyelitis in Pediatrics. J Pediatric Infect Dis Soc 2021;10(8):801-844",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1105",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les propositions du GPIP (2023), quelles durées minimales d'antibiothérapie sont exactes ?",
+      "propositions": {
+        "A": "Ostéomyélite non compliquée : 3 semaines.",
+        "B": "Arthrite septique : 14 jours.",
+        "C": "Infection du bassin ou spondylodiscite : 4 à 6 semaines.",
+        "D": "Nourrisson de moins de 3 mois : durée prolongée (4 à 6 semaines).",
+        "E": "Toute ostéomyélite : 6 semaines dont 3 semaines IV."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le GPIP 2023 retient une durée minimale de 14 jours pour l'arthrite septique, 3 semaines pour l'ostéomyélite et 4 à 6 semaines pour les IOA du bassin, les spondylodiscites, les formes sévères ou d'évolution lente et les terrains particuliers (nouveau-né, nourrisson < 3 mois, immunodéprimé), avec une voie IV courte (≈ 3 jours) si l'évolution est favorable.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : voie IV courte et durée totale de 3 semaines dans la forme non compliquée."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — durée du traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prolonger systématiquement la voie veineuse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the GPIP. Infect Dis Now 2023;53(8S):104789",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1106",
+      "format": "QCS (réponse unique)",
+      "enonce": "Selon le GPIP (2023), en l'absence d'identification bactérienne, quel relais oral peut être proposé chez un enfant de plus de 3 mois traité pour une ostéomyélite non compliquée d'évolution favorable ?",
+      "propositions": {
+        "A": "Amoxicilline seule à 50 mg/kg/j",
+        "B": "Amoxicilline-acide clavulanique à 80 mg/kg/j (dose d'amoxicilline)",
+        "C": "Ciprofloxacine",
+        "D": "Vancomycine orale",
+        "E": "Cotrimoxazole"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Le relais oral doit couvrir S. aureus sensible à la méticilline et K. kingae, à forte dose : amoxicilline-acide clavulanique 80 mg/kg/j (amoxicilline) en 3 prises, avec une forme pédiatrique de rapport 8/1 (acide clavulanique limité à 10 mg/kg/j), ou céfalexine 150 mg/kg/j en 3 prises (4 g/j au maximum).",
+      "explications_par_proposition": {
+        "A": "Faux : inactive sur S. aureus producteur de pénicillinase et dose insuffisante.",
+        "B": "Vrai.",
+        "C": "Faux : non recommandée en première intention chez l'enfant dans cette indication.",
+        "D": "Faux : non absorbée par voie orale et inactive sur Kingella.",
+        "E": "Faux : non retenu dans ce schéma."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — relais oral",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the GPIP. Infect Dis Now 2023;53(8S):104789",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Fractionnement et forme galénique précisés (GPIP 2023, version française ; RCP)."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1107",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le sarcome d'Ewing comme diagnostic différentiel de l'ostéomyélite de l'enfant, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une fièvre et une CRP élevée sont possibles.",
+        "B": "Une réaction périostée en « bulbe d'oignon » peut être observée.",
+        "C": "Une biopsie avec analyse histologique s'impose en cas de doute.",
+        "D": "Il est exclusivement métaphysaire.",
+        "E": "L'IRM est utile pour l'évaluation locale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le sarcome d'Ewing peut mimer une infection (fièvre, syndrome inflammatoire) ; il touche volontiers la diaphyse des os longs et les os plats. Toute « ostéomyélite » atypique ou résistante impose une IRM et une analyse histologique des prélèvements.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : volontiers diaphysaire ou des os plats.",
+        "E": "Vrai."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — diagnostic différentiel",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Méconnaître une tumeur maligne devant une « ostéomyélite » qui ne guérit pas.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saavedra-Lozano J et al. Bone and Joint Infections (ESPID). Pediatr Infect Dis J 2017;36(8):788-799",
+          "date": "2017"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1108",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un abcès sous-périosté est découvert à l'IRM chez un enfant traité pour une ostéomyélite tibiale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'échographie peut aussi le mettre en évidence.",
+        "B": "Un drainage chirurgical est indiqué.",
+        "C": "Les prélèvements doivent être adressés en culture et en PCR.",
+        "D": "Il contre-indique la poursuite des antibiotiques.",
+        "E": "Son absence de drainage expose à l'échec du traitement médical."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'abcès sous-périosté est une indication chirurgicale reconnue (GPIP) ; le drainage permet aussi la documentation bactériologique. L'antibiothérapie est évidemment poursuivie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — chirurgie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the GPIP. Infect Dis Now 2023;53(8S):104789",
+          "date": "2023"
+        },
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy of bone and joint infections in children: proposals of the GPIP. Arch Pediatr 2017;24(12S):S36-S41",
+          "date": "2017"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1109",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les infections ostéo-articulaires à Staphylococcus aureus producteur de leucocidine de Panton-Valentine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles peuvent se présenter par un sepsis grave.",
+        "B": "Des thromboses veineuses septiques peuvent survenir.",
+        "C": "Les atteintes multifocales sont possibles.",
+        "D": "L'association d'un antibiotique anti-toxinique est discutée.",
+        "E": "Elles correspondent à la forme typique des infections à Kingella kingae."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La PVL est associée à des formes sévères : sepsis, foyers multiples, pyomyosites, thromboses veineuses et emboles septiques, pneumopathies nécrosantes. Les schémas associent une bêtalactamine antistaphylococcique à forte dose et un antibiotique anti-toxinique (clindamycine 30–40 mg/kg/j en 3–4 injections, ou linézolide) ; le choix et la dose de la bêtalactamine relèvent du protocole GPIP ou local.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : les IOA à Kingella sont plutôt modérées."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — formes graves",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the GPIP. Infect Dis Now 2023;53(8S):104789",
+          "date": "2023"
+        },
+        {
+          "reference": "Woods CR et al. PIDS/IDSA 2021 Guideline on Acute Hematogenous Osteomyelitis in Pediatrics. J Pediatric Infect Dis Soc 2021;10(8):801-844",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Dose de clindamycine précisée (PIDS/IDSA 2021) ; schéma des formes graves renvoyé au protocole."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1110",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'essai randomisé de Peltola et al. (2010) sur l'ostéomyélite aiguë de l'enfant, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il portait sur 131 cas à culture positive.",
+        "B": "Les enfants recevaient de la clindamycine ou une céphalosporine de 1re génération.",
+        "C": "La phase intraveineuse durait 2 à 4 jours.",
+        "D": "Près d'un quart des enfants n'ont pas été opérés.",
+        "E": "La durée médiane de traitement dans le bras court était de 6 semaines."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Cet essai finlandais a montré qu'un traitement de 20 jours (contre 30), avec une phase IV de 2 à 4 jours et des antibiotiques bien absorbés à fortes doses, suffisait dans la plupart des cas lorsque la réponse clinique était bonne et la CRP normalisée en 7 à 10 jours.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai (24 %).",
+        "E": "Faux : 20 jours (bras court) contre 30 jours."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — essais thérapeutiques",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Peltola H et al. Short- versus long-term antimicrobial treatment for AHO of childhood. Pediatr Infect Dis J 2010;29(12):1123-1128",
+          "date": "2010"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1111",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un enfant de 4 ans boite depuis 24 heures (hanche droite) après une rhinopharyngite. Température 37,6 °C, appui possible, VS 18 mm/h, leucocytes 8 500/mm³. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Aucun critère de Kocher n'est présent.",
+        "B": "Une synovite transitoire est le diagnostic le plus probable.",
+        "C": "Une ponction articulaire est obligatoire en urgence.",
+        "D": "Une surveillance avec réévaluation clinique est adaptée.",
+        "E": "Une arthrite septique est très probable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les critères de Kocher (fièvre > 38,5 °C, refus d'appui, VS > 40 mm/h, leucocytes > 12 000/mm³) sont tous absents : la probabilité d'arthrite septique est faible. La synovite transitoire est probable ; une réévaluation est indispensable (aggravation, fièvre, refus d'appui → échographie, ponction).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : non indispensable en l'absence de critère, sous surveillance.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite/arthrite — hanche douloureuse de l'enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ponctionner toutes les synovites transitoires ou, à l'inverse, ne pas réévaluer.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kocher MS et al. Differentiating between septic arthritis and transient synovitis of the hip in children. J Bone Joint Surg Am 1999;81(12):1662-1670",
+          "date": "1999"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    },
+    {
+      "id": "QCM-ORTH-1112",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un enfant drépanocytaire de 6 ans présente une fièvre à 39,8 °C et une douleur du tibia. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les salmonelles font partie des germes à couvrir.",
+        "B": "Une crise vaso-occlusive osseuse est un diagnostic différentiel.",
+        "C": "Une céphalosporine de 3e génération est utile pour couvrir les salmonelles.",
+        "D": "L'IRM peut aider à distinguer infarctus osseux et infection.",
+        "E": "Staphylococcus aureus n'est jamais en cause chez le drépanocytaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Chez le drépanocytaire, l'ostéomyélite peut être due aux salmonelles et à S. aureus ; la distinction avec un infarctus osseux est difficile (fièvre persistante, CRP très élevée, collection à l'imagerie, hémocultures). L'antibiothérapie probabiliste doit couvrir les deux [schéma et posologies à vérifier — protocole local].",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : S. aureus reste possible et fréquent."
+      },
+      "specialite": "ORTH",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "theme": "Ostéomyélite aiguë — drépanocytose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saavedra-Lozano J et al. Bone and Joint Infections (ESPID). Pediatr Infect Dis J 2017;36(8):788-799",
+          "date": "2017"
+        },
+        {
+          "reference": "Lorrot M et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the GPIP. Infect Dis Now 2023;53(8S):104789",
+          "date": "2023"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-11",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
+    }
+  ]
+}

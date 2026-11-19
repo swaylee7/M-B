@@ -6,7 +6,7 @@ sous_specialite: "Glaucome — urgences ophtalmologiques"
 items_residanat: [RES-CHI-040]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-OPHT-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 4, point 8) : contre-indication des bêtabloquants topiques alignée sur l'EGS 4e édition (asthme, antécédent de BPCO) dans les points clés, les pièges et le commentaire du cas ; dates des éditions EGS corrigées (5e : 2021 ; 6e : 2025). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "European Glaucoma Society. Terminology and Guidelines for Glaucoma, 6th Edition (Pazos M, Traverso CE, Viswanathan A, et al.). Br J Ophthalmol. 2025;109(Suppl 1):1-212 (PMID 41026937 ; existence et métadonnées vérifiées ; texte intégral non consulté)."
@@ -96,7 +102,7 @@ mots_cles: [glaucome par fermeture de l'angle, crise aiguë de fermeture de l'an
 # Glaucome par fermeture de l'angle : diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1 ; cohérence AUD-05, v1.2). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-040 — « Glaucome par fermeture de l'angle : Diagnostic - traitement » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -137,7 +143,7 @@ Les fermetures de l'angle sont dites **primitives** quand elles résultent d'une
 - **2002** : classification **ISGEO** (Foster et al.), qui définit le spectre PACS/PAC/PACG [S8].
 - **2016** : essai **EAGLE** — l'extraction du cristallin clair fait mieux que l'iridotomie en première intention dans la FPA à PIO élevée et le GPFA [S5].
 - **2019** : essai **ZAP** — l'iridotomie prophylactique des suspects de fermeture n'apporte qu'un bénéfice modeste [S6].
-- **2021-2026** : 5e puis 6e édition des recommandations de l'**EGS** [S1, S2] ; PPP de l'**AAO** 2020 (publié en 2021) puis 2026 [S3, S4].
+- **2021 et 2025** : 5e (2021) puis 6e édition (2025) des recommandations de l'**EGS** [S2, S1] ; PPP de l'**AAO** 2020 (publié en 2021) puis 2026 [S3, S4].
 
 ## 3. Épidémiologie
 
@@ -524,7 +530,7 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 
 **Évolution.** PIO à 22 mmHg à H6, puis 14 mmHg à J3. Gonioscopie après iridotomie : angles ouverts aux deux tiers, synéchies limitées à gauche. Acuité visuelle OG revenue à 6/10 ; légère atrophie sectorielle de l'iris. Pas de neuropathie optique au bilan à 1 mois. Discussion ultérieure d'une extraction du cristallin.
 
-**Commentaire pédagogique.** Une céphalée avec vomissements chez un patient hospitalisé recevant des nébulisations d'anticholinergique doit faire examiner les yeux. La crise aiguë associe semi-mydriase aréactive, cornée trouble, chambre étroite et PIO très élevée ; l'œil adelphe à angle étroit conforte le diagnostic. Le traitement médical doit respecter le terrain (bêtabloquants topiques contre-indiqués en cas de BPCO sévère ou d'asthme ; mannitol dangereux en cas d'insuffisance cardiaque). L'iridotomie bilatérale traite le mécanisme et protège l'œil adelphe ; l'extraction du cristallin est une option de fond (EAGLE).
+**Commentaire pédagogique.** Une céphalée avec vomissements chez un patient hospitalisé recevant des nébulisations d'anticholinergique doit faire examiner les yeux. La crise aiguë associe semi-mydriase aréactive, cornée trouble, chambre étroite et PIO très élevée ; l'œil adelphe à angle étroit conforte le diagnostic. Le traitement médical doit respecter le terrain (bêtabloquants topiques contre-indiqués en cas d'asthme ou d'antécédent de BPCO selon l'EGS [S9] ; a fortiori chez ce patient atteint de BPCO sévère ; mannitol dangereux en cas d'insuffisance cardiaque). L'iridotomie bilatérale traite le mécanisme et protège l'œil adelphe ; l'extraction du cristallin est une option de fond (EAGLE).
 
 ## 18. Points clés à retenir
 
@@ -533,7 +539,7 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 3. Crise favorisée par la **semi-mydriase** : obscurité, stress, **anticholinergiques**, sympathomimétiques, antidépresseurs, **collyres mydriatiques** ; le **topiramate** donne une fermeture **bilatérale** par effusion ciliochoroïdienne.
 4. Crise aiguë : **œil rouge douloureux, baisse de vision, halos, vomissements**, cornée trouble, **semi-mydriase aréactive**, **chambre antérieure étroite**, **PIO très élevée**, **globe dur** ; examiner l'**œil adelphe**.
 5. **Urgence** : baisser la PIO (acétazolamide, collyres hypotonisants, ± mannitol), puis **pilocarpine** quand la PIO baisse, puis **iridotomie au laser des deux yeux** [S2, S3].
-6. **Respecter les contre-indications** : bêtabloquants (asthme, BPCO sévère, bradycardie), mannitol (insuffisance cardiaque ou rénale), acétazolamide (allergie aux sulfamides, hypokaliémie, insuffisance rénale).
+6. **Respecter les contre-indications** : bêtabloquants (asthme, antécédent de BPCO, bradycardie [S9]), mannitol (insuffisance cardiaque ou rénale), acétazolamide (allergie aux sulfamides, hypokaliémie, insuffisance rénale).
 7. **Jamais de mydriatique** dans une crise primitive ; **jamais de pilocarpine ni d'iridotomie** dans les fermetures par effusion (topiramate) ou le glaucome malin (cycloplégiques).
 8. **Gonioscopie** = examen clé du diagnostic et du suivi ; l'imagerie (OCT, UBM) la complète.
 9. **EAGLE** : l'extraction du cristallin clair est une option de **première intention** dans la FPA à PIO ≥ 30 mmHg et le GPFA [S5] ; **ZAP** : pas d'iridotomie prophylactique généralisée des suspects [S6].
@@ -545,7 +551,7 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 - Instiller un **collyre mydriatique** pour examiner le fond d'œil d'un œil rouge douloureux.
 - Confondre avec une **uvéite antérieure** (myosis, Tyndall, chambre de profondeur normale).
 - Oublier l'**iridotomie préventive de l'œil adelphe**.
-- Prescrire un **collyre bêtabloquant** chez un asthmatique ou un BPCO sévère, du **mannitol** chez un insuffisant cardiaque.
+- Prescrire un **collyre bêtabloquant** chez un asthmatique ou un patient ayant un antécédent de BPCO, du **mannitol** chez un insuffisant cardiaque.
 - Compter sur la **pilocarpine** tant que la PIO est très élevée (sphincter ischémique), ou l'utiliser dans un glaucome malin ou une fermeture médicamenteuse par effusion.
 - Traiter une **fermeture bilatérale du sujet jeune** sous topiramate par iridotomie.
 - Parler de « glaucome » en l'absence de neuropathie optique (terminologie ISGEO).

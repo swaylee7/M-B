@@ -6,7 +6,7 @@ sous_specialite: "Traumatologie du membre supérieur — poignet"
 items_residanat: [RES-CHI-033]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 7
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-TRAU-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence avec DOS-TRAU-0001 (lot 4, point 4) : paracétamol chez l'adulte de moins de 50 kg — 15 mg/kg par prise, 60 mg/kg/j sans dépasser 3 g/j (RCP), au lieu de « 3 g/j si < 50 kg ». Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Kamal RN, Shapiro LM. American Academy of Orthopaedic Surgeons/American Society for Surgery of the Hand Clinical Practice Guideline Summary: Management of Distal Radius Fractures. J Am Acad Orthop Surg. 2022;30(4):e480-e486."
@@ -469,7 +475,7 @@ La consolidation est habituellement obtenue en **6 semaines environ** chez l'adu
 
 #### 13.2.1 Analgésie et mesures immédiates
 - **Immobilisation provisoire** (attelle), surélévation, glace ; retrait des bagues.
-- **Analgésie multimodale** avec **épargne opioïde** : l'AAOS 2020 retient, par consensus, l'intérêt des stratégies multimodales limitant les opioïdes [S2] ; paracétamol 1 g toutes les 6 heures (4 g/j au maximum ; 3 g/j si le poids est inférieur à 50 kg ou en cas de facteur de risque hépatique), AINS de courte durée en l'absence de contre-indication, par exemple ibuprofène 400 mg × 3/j (RCP).
+- **Analgésie multimodale** avec **épargne opioïde** : l'AAOS 2020 retient, par consensus, l'intérêt des stratégies multimodales limitant les opioïdes [S2] ; paracétamol 1 g toutes les 6 heures chez l'adulte de plus de 50 kg (4 g/j au maximum ; 3 g/j au maximum en cas d'insuffisance hépatocellulaire, de dénutrition ou de déshydratation) ; 15 mg/kg par prise (60 mg/kg/j, sans dépasser 3 g/j) si le poids est inférieur à 50 kg (RCP ; règle identique à DOS-TRAU-0001) ; AINS de courte durée en l'absence de contre-indication, par exemple ibuprofène 400 mg × 3/j (RCP).
 - **Anesthésie pour la réduction** : bloc du foyer (« hematoma block »), anesthésie locorégionale intraveineuse, bloc plexique, anesthésie générale [POSOLOGIE À VÉRIFIER — anesthésiques locaux : protocole local].
 
 #### 13.2.2 Traitement orthopédique

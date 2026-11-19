@@ -423,7 +423,7 @@
       "reponses_correctes": [
         "C"
       ],
-      "explication_generale": "Garden I et II sont des fractures non déplacées (bon pronostic vasculaire), Garden III et IV des fractures déplacées exposant à l'ostéonécrose et à la pseudarthrose. La classification de Pauwels, fondée sur l'obliquité du trait par rapport à l'horizontale (I < 30°, II 30-50°, III > 50°), apprécie les contraintes en cisaillement : plus le trait est vertical, plus le risque de pseudarthrose est élevé.",
+      "explication_generale": "Garden I et II sont des fractures non déplacées (bon pronostic vasculaire), Garden III et IV des fractures déplacées exposant à l'ostéonécrose et à la pseudarthrose. La classification de Pauwels, fondée sur l'obliquité du trait par rapport à l'horizontale (I ≤ 30°, II entre 30 et 50°, III ≥ 50°), apprécie les contraintes en cisaillement : plus le trait est vertical, plus le risque de pseudarthrose est élevé.",
       "explications_par_proposition": {
         "A": "Faux : Le stade I est une fracture incomplète ou engrenée en valgus (abduction).",
         "B": "Faux : Le stade II est une fracture complète non déplacée.",
@@ -463,7 +463,15 @@
         "auditeur": "AUD-03 (IA)",
         "verdict": "audite_valide",
         "note": "Clé vérifiée (C) proposition par proposition, sans ambiguïté ; explications cohérentes avec la clé ; sources existantes et datées. Classification de Garden (III : travées non alignées ; IV : travées de nouveau parallèles) et de Pauwels (< 30°, 30-50°, > 50°) exactes."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Bornes de la classification de Pauwels harmonisées (I ≤ 30°, III ≥ 50° ; Bartoníček 2001), alignées sur DOS-TRAU-0001 v1.2. Clé inchangée.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "QCM-TRAU-4099",

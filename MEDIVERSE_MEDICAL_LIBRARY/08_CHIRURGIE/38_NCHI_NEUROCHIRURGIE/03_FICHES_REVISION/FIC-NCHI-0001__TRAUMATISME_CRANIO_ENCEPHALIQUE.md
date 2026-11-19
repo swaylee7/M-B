@@ -4,7 +4,12 @@ titre: "Fiche — Traumatisme crânio-encéphalique : diagnostic, traitement"
 specialite: NCHI
 items_residanat: [RES-CHI-051]
 dossier_source: DOS-NCHI-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Alignement sur DOS-NCHI-0001 v1.2 (SpO2 ≥ 90 % rattachée à la BTF 2007) : fiche déjà conforme."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -175,7 +180,7 @@ sources:
 
 # Fiche — Traumatisme crânio-encéphalique (RES-CHI-051)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-NCHI-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier, **marqueurs `[POSOLOGIE À VÉRIFIER …]` conservés**. Cadre : **Brain Trauma Foundation** 4e édition (2016-2017) [S1] et pédiatrique 2019 [S7], **SFAR 2016** (publié 2018 ; texte intégral inaccessible, seuils `[à vérifier]`) [S2], **NICE NG232** (2023) [S3], règle canadienne [S4], **PECARN** [S5]. Aucune donnée nationale algérienne identifiée `[À VÉRIFIER — données nationales (sécurité routière, INSP) et cartographie des services de neurochirurgie et de neuro-réanimation]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-NCHI-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier, **marqueurs `[POSOLOGIE À VÉRIFIER …]` conservés**. Cadre : **Brain Trauma Foundation** 4e édition (2016-2017) [S1] et pédiatrique 2019 [S7], **SFAR 2016** (publié 2018 ; texte intégral inaccessible, seuils `[à vérifier]`) [S2], **NICE NG232** (2023) [S3], règle canadienne [S4], **PECARN** [S5]. Aucune donnée nationale algérienne identifiée `[À VÉRIFIER — données nationales (sécurité routière, INSP) et cartographie des services de neurochirurgie et de neuro-réanimation]`.
 
 ## 1. Définition (2 lignes)
 

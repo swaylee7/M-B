@@ -4,7 +4,12 @@ titre: "Fiche — Fracture de l'extrémité inférieure du radius : anatomie pat
 specialite: TRAU
 items_residanat: [RES-CHI-033]
 dossier_source: DOS-TRAU-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Paracétamol < 50 kg : 15 mg/kg par prise (60 mg/kg/j, sans dépasser 3 g/j), comme FIC-TRAU-0001 et DOS-TRAU-0002 v1.2."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -135,7 +140,7 @@ sources:
 
 # Fiche — Fracture de l'extrémité inférieure du radius (RES-CHI-033)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-TRAU-0002 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (RCP). Cadre : AAOS/ASSH 2020 [S1, S2], essais DRAFFT, CROSSFIRE, WRIST [S3–S6], classifications de Castaing [S11], AO/OTA [S9], Frykman [S10]. Aucune recommandation ni donnée épidémiologique algérienne identifiée.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-TRAU-0002 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (RCP). Cadre : AAOS/ASSH 2020 [S1, S2], essais DRAFFT, CROSSFIRE, WRIST [S3–S6], classifications de Castaing [S11], AO/OTA [S9], Frykman [S10]. Aucune recommandation ni donnée épidémiologique algérienne identifiée.
 
 ## 1. Définition (2 lignes)
 
@@ -203,7 +208,7 @@ Chute sur la main / traumatisme du poignet
 
 ### 4.1 Moyens
 
-- **Immédiat** : attelle, surélévation, glace, **retrait des bagues** ; analgésie multimodale avec **épargne opioïde** [S2] : paracétamol **1 g toutes les 6 heures** (4 g/j au maximum ; 3 g/j si poids < 50 kg ou facteur de risque hépatique), AINS de courte durée sans contre-indication (ibuprofène **400 mg × 3/j**, RCP). Anesthésie de réduction : bloc du foyer, ALR IV, bloc plexique, AG `[POSOLOGIE À VÉRIFIER — anesthésiques locaux : protocole local]`.
+- **Immédiat** : attelle, surélévation, glace, **retrait des bagues** ; analgésie multimodale avec **épargne opioïde** [S2] : paracétamol **1 g toutes les 6 heures** si > 50 kg (4 g/j au maximum ; 3 g/j si insuffisance hépatocellulaire, dénutrition ou déshydratation) ; **15 mg/kg** par prise (60 mg/kg/j, sans dépasser 3 g/j) si < 50 kg, AINS de courte durée sans contre-indication (ibuprofène **400 mg × 3/j**, RCP). Anesthésie de réduction : bloc du foyer, ALR IV, bloc plexique, AG `[POSOLOGIE À VÉRIFIER — anesthésiques locaux : protocole local]`.
 - **Orthopédique** : traction dans l'axe (désimpaction) puis correction de la bascule ; contention (brachio-antébrachio-palmaire puis antébrachio-palmaire selon les écoles), poignet **neutre ou légère flexion**, **jamais en flexion-inclinaison ulnaire forcée** (Cotton-Loder) ; plâtre fendu en phase œdémateuse ; ≈ 6 semaines si déplacée `[À VÉRIFIER — durée selon les protocoles]` ; **radiographies à J7–J10 puis J15–J21** ; doigts, coude, épaule mobilisés dès J1.
 
 | Technique chirurgicale | Indications | À retenir |

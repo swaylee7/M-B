@@ -6,7 +6,7 @@ sous_specialite: "Physiologie rénale et respiratoire — équilibre acido-basiq
 items_residanat: [RES-SF-014]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-13 (IA) — dossier pédagogique original"
@@ -18,6 +18,12 @@ audit:
     corrections: 7
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHYS-0001.md
     remarque: "Textes intégraux relus : SRLF/SFMU 2019 (PMC6695455 : R1.3, R3.2, R3.5–R3.14, valeurs du TA, BICAR-ICU) et consensus 2024 sur les crises hyperglycémiques (version Diabetologia, PMC11343900 : critères D-K-A, bicarbonate si pH < 7,0). Formules (Henderson, Winter, 0,7 ; 0,1/0,35 ; 0,2/0,4), TA ± K+, correction par l'albumine, delta ratio, trou osmolaire et valeurs normales conformes. Critères de l'acidocétose alignés sur DOS-DIAB-0002 ; QCM 4 (gaz incohérents) corrigé ; marqueur de posologie levé (aucune dose proposée, renvois sourcés)."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 5, point 2) : delta ratio — valeur attendue voisine de 1 dans l'acidocétose ajoutée au § 9.5 et réponse 5 du cas reformulée pour concorder avec le tableau. Aucun marqueur ajouté."
 sources:
   - id: S1
     reference: "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Philadelphia : Elsevier ; 2021 (catalogue Mediverse OUV-0170) — chapitres consacrés à la régulation acido-basique, consultés comme ouvrage de référence, non reproduits."
@@ -185,7 +191,7 @@ mots_cles: [équilibre acido-basique, pH, Henderson-Hasselbalch, bicarbonates, P
 # Équilibre acido-basique : équation d'Henderson-Hasselbalch, systèmes tampons, régulation pulmonaire et rénale — interprétation des gaz du sang
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1) ; relecture enseignante requise. Les seuils, coefficients de compensation et valeurs de référence doivent être confrontés aux valeurs du laboratoire local ; aucune posologie n'est proposée dans ce dossier de sciences fondamentales.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1), puis audit de cohérence AUD-05 (version 1.2) ; relecture enseignante requise. Les seuils, coefficients de compensation et valeurs de référence doivent être confrontés aux valeurs du laboratoire local ; aucune posologie n'est proposée dans ce dossier de sciences fondamentales.
 
 **Items du programme couverts** : RES-SF-014 — « Équilibre acido-basique : équation d'Henderson-Hasselbalch, systèmes tampons, régulation pulmonaire et rénale ».
 
@@ -532,7 +538,7 @@ Delta ratio = (TA mesuré − TA normal) / (HCO3- normal − HCO3- mesuré)
 | 1 – 2 | acidose à TA augmenté « pure » (rapport voisin de 1 dans l'acidocétose où les cétoanions sont excrétés, souvent plus élevé dans l'acidose lactique) |
 | > 2 | acidose à TA augmenté **associée** à une alcalose métabolique (bicarbonates « trop hauts ») ou à une compensation d'acidose respiratoire chronique |
 
-Le delta ratio est un **outil d'orientation** ; ses seuils sont approximatifs, car ils dépendent du TA « normal » choisi et de la répartition différente des anions et des protons entre secteurs [S10, S8].
+Le delta ratio est un **outil d'orientation** ; ses seuils sont approximatifs, car ils dépendent du TA « normal » choisi et de la répartition différente des anions et des protons entre secteurs [S10, S8]. La valeur attendue dépend aussi de l'acide en cause : dans l'**acidocétose**, la fuite urinaire des cétoanions rapproche le rapport de **1** (voire moins) ; une valeur nettement supérieure à 1 dans ce contexte, sans atteindre 2, est un argument **modéré** en faveur d'une alcalose métabolique associée, à confronter à la clinique (vomissements) et à la chlorémie (voir le cas du § 17) [S10].
 
 ### 9.6 Le trou osmolaire
 
@@ -826,7 +832,7 @@ Biologie : glycémie 28 mmol/L ; Na+ 132 mmol/L ; K+ 5,4 mmol/L ; Cl- 88 mmol/L 
 2. *Trouble primaire ?* pH bas, HCO3- bas : **acidose métabolique**.
 3. *Compensation ?* PaCO2 attendue = 1,5 × 9 + 8 = 21,5 ± 2 mmHg (19,5 – 23,5). La PaCO2 mesurée (22) est dans l'intervalle : compensation respiratoire adaptée, pas de trouble respiratoire associé.
 4. *Trou anionique ?* TA = 132 − (88 + 9) = **35 mmol/L** (albumine normale, pas de correction). Acidose à TA très augmenté, expliquée par la cétonémie à 6,2 mmol/L : **acidocétose diabétique**.
-5. *Delta ratio ?* ΔTA = 35 − 12 = 23 ; ΔHCO3- = 24 − 9 = 15 ; delta ratio ≈ **1,5**. Pour une acidocétose, un rapport voisin de 1 serait attendu ; une valeur > 1 (et, dans d'autres cas, > 2) doit faire rechercher une **alcalose métabolique associée** liée aux vomissements : la chlorémie basse (88 mmol/L) va dans ce sens. Ici, l'argument est modéré ; il faut surtout retenir que les vomissements ont « soutenu » les bicarbonates et que l'acidose réelle est plus sévère que ne le suggèrent les bicarbonates.
+5. *Delta ratio ?* ΔTA = 35 − 12 = 23 ; ΔHCO3- = 24 − 9 = 15 ; delta ratio ≈ **1,5**. Selon le tableau général du § 9.5, la valeur se situe dans la zone 1–2 (acidose à TA augmenté « pure ») ; mais dans une acidocétose, un rapport voisin de 1 est attendu (fuite urinaire des cétoanions) : une valeur nettement > 1 dans ce contexte (et, de façon plus probante, > 2) doit faire rechercher une **alcalose métabolique associée** liée aux vomissements ; la chlorémie basse (88 mmol/L) va dans ce sens. Ici, l'argument est modéré ; il faut surtout retenir que les vomissements ont « soutenu » les bicarbonates et que l'acidose réelle est plus sévère que ne le suggèrent les bicarbonates.
 6. *Kaliémie ?* Le K+ à 5,4 mmol/L reflète la carence en insuline et l'hyperosmolarité ; le capital potassique est en réalité effondré (vomissements, diurèse osmotique). L'insulinothérapie fera chuter la kaliémie : la surveillance et la supplémentation sont indispensables [S19].
 7. *Bicarbonate ?* Non indiqué : le panel SRLF/SFMU recommande « probablement » de ne pas administrer de bicarbonate dans l'acidocétose diabétique [S11]. Le traitement repose sur la réhydratation, l'insuline intraveineuse continue sans bolus initial (le consensus de 2024 ne prévoit un bolus que si l'accès veineux doit être retardé) et la supplémentation potassique [S11, S19].
 8. *Évolution attendue ?* En phase de récupération, une acidose hyperchlorémique (TA normalisé mais HCO3- encore bas) est fréquente : perte urinaire des cétoanions et apports de NaCl. Elle ne doit pas être confondue avec une persistance de l'acidocétose ; la cétonémie fait la différence.

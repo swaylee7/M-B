@@ -6,7 +6,7 @@ sous_specialite: "Immunopathologie — hypersensibilités et allergie"
 items_residanat: [RES-SF-035]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-13 (IA) — dossier pédagogique original"
@@ -18,6 +18,12 @@ audit:
     corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-IMMU-0002.md
     remarque: "Posologie de l'adrénaline IM vérifiée sur le texte intégral de la WAO 2020 (PMC7607509 ; document acquis DOC-00086, tableau 6) : 0,01 mg/kg de la solution à 1 mg/mL, maximum 0,5 mg, répétée toutes les 5 à 15 min ; barème < 10 kg 0,01 mg/kg, 1-5 ans 0,15 mg, 6-12 ans 0,3 mg, adolescent et adulte 0,5 mg — identique à DOS-MINT_REA-0001 et DOS-PEDI-0002 (aucune divergence créée) ; marqueur levé. Remplissage : bolus de cristalloïdes de 20 mL/kg (WAO 2020) ; marqueur levé. Critères WAO, tryptase (15 min-3 h, pic 1-2 h, 36-40 % < 11,4 µg/L, basale ≥ 24 h, formule 20 % + 2), IgE spécifiques, tests cutanés, patch-tests et Gell-Coombs/Pichler conformes ; nomenclature EAACI 2023 corrigée (neuf types). Aucune erreur critique ni majeure."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence avec DOS-MINT_REA-0001 : bolus de 20 mL/kg (WAO 2020) précisé « sans distinction d'âge », renvoi vers les volumes fixes de l'adulte d'autres référentiels. Aucun marqueur ajouté."
 sources:
   - id: S1
     reference: "Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9e éd. Elsevier ; 2018 (catalogue Mediverse OUV-0189)."
@@ -185,7 +191,7 @@ mots_cles: [hypersensibilité, allergie, Gell et Coombs, IgE, FcεRI, mastocyte,
 # États d'hypersensibilité de types I, II, III et IV : bases cellulaires et moléculaires, choc anaphylactique, exploration
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucune figure.
-> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1) ; relecture enseignante requise. Les seules posologies citées (adrénaline intramusculaire et remplissage de l'anaphylaxie) sont celles de la guidance de la World Allergy Organization 2020, vérifiées sur son texte intégral pendant l'audit ; les protocoles locaux et le RCP restent la référence d'application. Les autres traitements sont décrits sans posologie.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1), puis audit de cohérence AUD-05 (version 1.2) ; relecture enseignante requise. Les seules posologies citées (adrénaline intramusculaire et remplissage de l'anaphylaxie) sont celles de la guidance de la World Allergy Organization 2020, vérifiées sur son texte intégral pendant l'audit ; les protocoles locaux et le RCP restent la référence d'application. Les autres traitements sont décrits sans posologie.
 
 **Items du programme couverts** : RES-SF-035 — « États d'hypersensibilité I, II, III et IV : bases cellulaires et moléculaires du choc anaphylactique — exploration — bases cellulaires et moléculaires de l'allergie de types III et IV — exploration ». Dossier lié : DOS-IMMU-0001 (système HLA, pharmacogénétique).
 
@@ -561,7 +567,7 @@ Selon la guidance WAO 2020 [S7], confortée par les recommandations EAACI 2021 [
 1. **Arrêter l'exposition** si possible (perfusion en cours), **appeler à l'aide**.
 2. **Adrénaline par voie intramusculaire**, dans la face antérolatérale de la cuisse (muscle vaste latéral), **sans délai** : **0,01 mg/kg** de la solution à **1 mg/mL** (1/1 000), **sans dépasser 0,5 mg** au total par injection (dose de l'adolescent et de l'adulte) ; **à renouveler si les symptômes persistent, toutes les 5 à 15 minutes** (donc dès 5 minutes). Repères simplifiés de la WAO (tableau 6) : nourrisson < 10 kg : 0,01 mg/kg (0,01 mL/kg) ; enfant de 1 à 5 ans : 0,15 mg (0,15 mL) ; enfant de 6 à 12 ans : 0,3 mg (0,3 mL) ; adolescent et adulte : 0,5 mg (0,5 mL) [S7]. La voie intramusculaire est bien tolérée, contrairement au bolus intraveineux, source d'arythmies potentiellement mortelles ; la voie IV est réservée aux patients monitorés, en perfusion, par une équipe entraînée [S7]. L'EAACI 2021 recommande elle aussi l'adrénaline intramusculaire précoce en première intention [S8]. Les modalités d'application restent celles du RCP et du protocole local.
 3. **Position** adaptée : décubitus dorsal le plus souvent ; position assise en cas de détresse respiratoire ; décubitus latéral gauche semi-assis chez la femme enceinte ; position latérale de sécurité si le patient est inconscient [S7].
-4. **Oxygène** à haut débit en cas de détresse respiratoire ou de doses répétées d'adrénaline, voie veineuse de gros calibre, **remplissage vasculaire** par cristalloïdes en cas d'instabilité cardiovasculaire (**bolus de 20 mL/kg** selon la WAO), monitorage [S7].
+4. **Oxygène** à haut débit en cas de détresse respiratoire ou de doses répétées d'adrénaline, voie veineuse de gros calibre, **remplissage vasculaire** par cristalloïdes en cas d'instabilité cardiovasculaire (**bolus de 20 mL/kg** selon la WAO, sans distinction d'âge ; d'autres référentiels expriment le bolus de l'adulte en volume fixe : voir DOS-MINT_REA-0001, § 13 et § 21), monitorage [S7].
 5. **Anaphylaxie réfractaire** : adrénaline en perfusion intraveineuse titrée en milieu spécialisé (réanimation) ; **glucagon** envisageable chez le patient sous β-bloquant ne répondant pas à l'adrénaline, malgré un niveau de preuve limité [S7].
 6. **Traitements de deuxième ligne** : β2-mimétiques inhalés (bronchospasme), adrénaline nébulisée en cas d'obstruction des voies aériennes supérieures, antihistaminiques H1 (signes cutanés seulement), glucocorticoïdes. La WAO souligne que l'usage systématique des glucocorticoïdes est devenu controversé (bénéfice non démontré, voire délétère) [S7], et la mise à jour AAAAI/ACAAI 2020 indique que les antihistaminiques et/ou glucocorticoïdes ne sont pas des moyens fiables de prévention de l'anaphylaxie biphasique [S9].
 7. **Prélèvement pour la tryptase** (pic et basale) sans retarder le traitement [S7, S8].

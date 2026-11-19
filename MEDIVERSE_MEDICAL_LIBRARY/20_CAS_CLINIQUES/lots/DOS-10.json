@@ -687,7 +687,7 @@
         "Vérification du statut vaccinal antitétanique"
       ],
       "diagnostic_final": "Accident du travail : fracture déplacée de l'extrémité distale du radius droit, contusion de la hanche gauche, plaie contuse du coude gauche.",
-      "traitement": "Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique : plaie contuse de chantier (plaie à risque) et dernière dose datant de plus de 10 ans → rappel anti-diphtérique et anti-tétanique (dT) ; immunoglobulines antitétaniques humaines (250 UI IM, site distinct) seulement si la primovaccination est incomplète ou inconnue (CDC ; MSF) — le protocole national prévaut ; antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.",
+      "traitement": "Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique : plaie contuse de chantier (plaie à risque) et dernière dose datant de plus de 10 ans → rappel anti-diphtérique et anti-tétanique (dT) ; immunoglobulines antitétaniques humaines (250 UI IM, 500 UI au-delà de 24 heures après la blessure, site distinct) seulement si la primovaccination est incomplète ou inconnue (CDC ; MSF) — le protocole national prévaut ; antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.",
       "surveillance": "Contrôles radiologiques, certificats de prolongation si nécessaire, rééducation. Visite de reprise par le médecin du travail avant la reprise (loi 88-07, art. 17).",
       "evolution": "Consolidation à 4 mois avec raideur modérée du poignet. Certificat de consolidation (art. 24) : date de consolidation, description des séquelles, taux indicatif. Le médecin-conseil fixe le taux d'incapacité permanente selon le barème (art. 42) ; s'il est inférieur à 10 %, pas de rente mais un capital (art. 44). Le médecin du travail propose un aménagement temporaire du poste ; la commission d'hygiène et de sécurité analyse l'accident (absence de garde-corps).",
       "explication_pedagogique": "Ce cas illustre la qualification d'AT (lésion corporelle, cause soudaine et extérieure, cadre du travail), la présomption d'imputabilité, la répartition des rôles (médecin traitant : certificats ; employeur : déclaration ; médecin-conseil : taux ; médecin du travail : reprise et prévention) et les règles de réparation (indemnités journalières, rente ou capital selon le taux).",
@@ -731,7 +731,15 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "resultat": "marqueur de posologie levé (prophylaxie antitétanique) ; sources législatives complétées",
         "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MTRA-0001.md"
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Dose des immunoglobulines antitétaniques complétée (500 UI au-delà de 24 heures, MSF), alignée sur DOS-MLEG-0001 et DOS-MTRA-0001 v1.2.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "CAS-MTRA-1002",

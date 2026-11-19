@@ -6,7 +6,7 @@ sous_specialite: "Traumatologie du membre inférieur — extrémité supérieure
 items_residanat: [RES-CHI-035]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 15
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-TRAU-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 4, point 3) : bornes de Pauwels harmonisées sur la publication originale selon Bartoníček 2001 (résumé : I jusqu'à 30°, II 30–50°, III 50° et plus) dans le tableau, les points clés et le QCM 3 ; « AAOS 2021 » précisé (recommandation adoptée en 2021, publiée en 2022 [S2, S3]). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "National Institute for Health and Care Excellence (NICE). Hip fracture: management. Clinical guideline CG124. Publiée le 22 juin 2011, dernière mise à jour le 6 janvier 2023."
@@ -320,11 +326,11 @@ Elle mesure l'**angle entre le trait de fracture et l'horizontale** (sur un clic
 
 | Type | Angle | Contraintes | Pronostic après ostéosynthèse |
 |---|---|---|---|
-| **Pauwels I** | < 30° | **Compression** dominante (fracture stable, souvent engrenée) | Bon |
-| **Pauwels II** | 30–50° | Mixte | Intermédiaire |
-| **Pauwels III** | > 50° (trait proche de la verticale) | **Cisaillement** dominant | **Mauvais** : déplacement secondaire, pseudarthrose |
+| **Pauwels I** | ≤ 30° | **Compression** dominante (fracture stable, souvent engrenée) | Bon |
+| **Pauwels II** | > 30° et < 50° | Mixte | Intermédiaire |
+| **Pauwels III** | ≥ 50° (trait proche de la verticale) | **Cisaillement** dominant | **Mauvais** : déplacement secondaire, pseudarthrose |
 
-Les seuils ci-dessus (I ≤ 30°, II 30–50°, III ≥ 50°) sont ceux de la publication originale ; des valeurs différentes, issues de mauvaises interprétations, circulent dans la littérature [S17].
+Les seuils ci-dessus (I jusqu'à 30°, II entre 30 et 50°, III à partir de 50°) sont ceux de la publication originale, d'après l'analyse de Bartoníček ; des valeurs différentes, issues de mauvaises interprétations, circulent dans la littérature [S17].
 
 Intérêt : surtout chez le **sujet jeune** (fractures à haute énergie) traité par ostéosynthèse, pour choisir un montage résistant au cisaillement.
 
@@ -501,7 +507,7 @@ Le choix du traitement ne dépend pas seulement de la fracture mais aussi du **p
 
 #### 13.2.2 Délai opératoire
 - **NICE** : opérer **le jour de l'admission ou le lendemain**, en identifiant et corrigeant sans délai les comorbidités qui peuvent l'être (anémie, anticoagulation, déshydratation, troubles électrolytiques, diabète déséquilibré, insuffisance cardiaque décompensée, arythmie corrigeable, infection aiguë) [S1].
-- **AAOS 2021** : une chirurgie dans les **24 à 48 heures** suivant l'admission peut être associée à de meilleurs résultats [S2] [À VÉRIFIER — force exacte de la recommandation].
+- **AAOS 2021** (recommandation adoptée en 2021, publiée en 2022 [S2, S3]) : une chirurgie dans les **24 à 48 heures** suivant l'admission peut être associée à de meilleurs résultats [S2] [À VÉRIFIER — force exacte de la recommandation].
 - Le délai de **36 heures** souvent cité correspond à un indicateur d'audit britannique (délai depuis l'arrivée aux urgences), et non au libellé de la recommandation NICE, qui parle du jour de l'admission ou du lendemain [À VÉRIFIER — indicateur en vigueur].
 - **HIP ATTACK** (Lancet 2020) : 2 970 patients de 45 ans ou plus ; délai médian de 6 h dans le groupe accéléré contre 24 h. La chirurgie accélérée n'a réduit aucun des deux critères principaux à 90 jours : la mortalité (9 % contre 10 %) et le critère composite de complications majeures (22 % dans les deux groupes) [S6]. Certains critères secondaires (délire, délai de mobilisation, durée de séjour) étaient en faveur de la stratégie accélérée [À VÉRIFIER — détail des critères secondaires].
 - **Message** : il ne faut **pas retarder** la chirurgie pour des examens non indispensables ni pour une anomalie non corrigeable ; il faut **la retarder brièvement** pour corriger ce qui peut l'être rapidement.
@@ -675,7 +681,7 @@ Fracture du col
 ## 18. Points clés à retenir
 1. Les fractures du col sont **intracapsulaires** : la vascularisation de la tête (artères rétinaculaires issues de la circonflexe médiale) est menacée → **ostéonécrose** et **pseudarthrose**.
 2. **Garden** : I engrenée en valgus, II complète non déplacée, III déplacement partiel en varus, IV déplacement complet (travées céphaliques parallèles à celles du cotyle) ; en pratique **non déplacées (I–II) / déplacées (III–IV)** [S13].
-3. **Pauwels** : angle du trait > 50° (type III) = cisaillement = risque d'échec de l'ostéosynthèse chez le jeune [S14].
+3. **Pauwels** : angle du trait ≥ 50° (type III) = cisaillement = risque d'échec de l'ostéosynthèse chez le jeune [S14].
 4. **Delbet** (enfant) : I transépiphysaire → IV intertrochantérienne ; risque de nécrose décroissant de I à IV [S11].
 5. Clinique : raccourcissement, **rotation externe**, adduction ; piège de la fracture **engrenée en valgus** qui permet la marche. Radiographies normales + suspicion → **IRM** [S1].
 6. Sujet âgé : **ostéosynthèse** si non déplacée, **arthroplastie cimentée** si déplacée (PTH à envisager si actif et autonome, cognition normale ; prothèse intermédiaire sinon) [S1, S2, S4].
@@ -718,7 +724,7 @@ E. Elle se lit principalement sur le cliché de face.
 
 **QCM 3.** Classification de Pauwels :
 A. Elle repose sur l'angle du trait avec l'horizontale.
-B. Le type III correspond à un angle > 50°.
+B. Le type III correspond à un angle ≥ 50°.
 C. Le type III expose au cisaillement.
 D. Elle est surtout utile chez le sujet jeune traité par ostéosynthèse.
 E. Le type I a le plus mauvais pronostic.
@@ -786,7 +792,7 @@ E. Programme de prévention des chutes.
 
 | Sujet | Position A | Position B | Commentaire |
 |---|---|---|---|
-| **Délai opératoire** | NICE CG124 (MAJ 2023) : le jour de l'admission ou le lendemain [S1] | AAOS 2021 : dans les 24–48 h [S2] ; HIP ATTACK : la chirurgie ultra-précoce (≤ 6 h) ne réduit pas le critère principal [S6] | Concordance sur l'idée « tôt, après correction rapide de ce qui est corrigeable » |
+| **Délai opératoire** | NICE CG124 (MAJ 2023) : le jour de l'admission ou le lendemain [S1] | AAOS 2021 (publiée en 2022) : dans les 24–48 h [S2] ; HIP ATTACK : la chirurgie ultra-précoce (≤ 6 h) ne réduit pas le critère principal [S6] | Concordance sur l'idée « tôt, après correction rapide de ce qui est corrigeable » |
 | **PTH vs prothèse intermédiaire** | NICE (avant 2023) : proposer une PTH si marche autonome à l'extérieur (≤ 1 canne), pas de trouble cognitif, apte ; NICE 2023 : PTH à envisager (« consider ») chez le patient autonome à l'extérieur [S1] | AAOS : la PTH peut être bénéfique chez des patients correctement sélectionnés [S2] ; HEALTH : pas de différence de réintervention, gain fonctionnel modeste, plus de luxations [S4] | Indication de PTH plus restrictive qu'auparavant pour certains auteurs ; décision partagée |
 | **Fracture non déplacée du sujet très âgé** | Ostéosynthèse (pratique majoritaire) | Arthroplastie discutée (risque de déplacement secondaire et de réintervention) [S2] [À VÉRIFIER — option AAOS] | Données randomisées limitées |
 | **Implant d'ostéosynthèse** | Vis canulées (moins invasives) | Vis-plaque (meilleure dans certains sous-groupes de FAITH) [S5] | Pas de différence globale |

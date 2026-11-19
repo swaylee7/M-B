@@ -6,7 +6,7 @@ sous_specialite: "Troubles psychotiques"
 items_residanat: [RES-MED-149]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-10 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 9
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence : mortalité par suicide harmonisée à environ 5 à 6 % (DSM-5-TR) dans les points clés. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington, DC: American Psychiatric Association Publishing; 2022. ISBN 978-0-89042-575-6."
@@ -695,7 +701,7 @@ Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS
 6. Après un premier épisode en rémission, l'OMS recommande un traitement d'entretien d'**au moins 7 à 12 mois** ; les formes injectables à action prolongée sont une alternative en cas d'observance incertaine [S6].
 7. **Surveillance métabolique** systématique (poids mensuel les 3 premiers mois, puis trimestriel ; glycémie, lipides, pression artérielle à 3 et 6 mois puis annuellement) [S10].
 8. **Syndrome malin** : fièvre, rigidité, confusion, dysautonomie, CPK élevées → arrêt de l'antipsychotique et réanimation [S9].
-9. Le **risque suicidaire** (≈ 5 % de décès par suicide) doit être évalué à chaque étape [S1].
+9. Le **risque suicidaire** (environ 5 à 6 % de décès par suicide selon le DSM-5-TR, § 3) doit être évalué à chaque étape [S1].
 10. En Algérie, l'hospitalisation sans consentement obéit à la **loi 18-11** (art. 128-164) : uniquement en structure publique, mise en observation de 15 jours, hospitalisation d'office par arrêté du wali pour 6 mois au maximum, contrôle par la commission de santé mentale de wilaya [S11].
 
 ## 19. Pièges classiques à l'examen

@@ -548,14 +548,14 @@ Non recommandé dans la RCH : les essais n'ont pas montré de bénéfice sur la 
 | Molécule (classe) | Schéma d'induction et d'entretien | Source |
 |---|---|---|
 | **Infliximab** (anti-TNF IV) | **5 mg/kg aux semaines 0, 2 et 6**, puis entretien toutes les 8 semaines | Essais ACT [S12] ; BSG 2019 [S5] ; rythme d'entretien : RCP [POSOLOGIE À VÉRIFIER — RCP] |
-| **Adalimumab** (anti-TNF SC) | **160 mg à S0, 80 mg à S2, puis 40 mg toutes les 2 semaines** | BSG 2019 [S5] |
+| **Adalimumab** (anti-TNF SC) | **160 mg à la semaine 0, 80 mg à la semaine 2, puis 40 mg toutes les 2 semaines** | BSG 2019 [S5] |
 | **Golimumab** (anti-TNF SC) | Selon le RCP | [POSOLOGIE À VÉRIFIER — RCP] |
 | **Védolizumab** (anti-intégrine α4β7, IV) | **300 mg aux semaines 0, 2 et 6, puis toutes les 8 semaines** | BSG 2019 (essai VARSITY) [S5] |
 | **Ustékinumab** (anti-IL-12/23) | Induction IV unique d'environ **6 mg/kg** (paliers de poids : 260 mg ≤ 55 kg ; 390 mg de 55 à 85 kg ; 520 mg > 85 kg), puis entretien SC selon le RCP | BSG 2019 (essai UNIFI) [S5] ; entretien [POSOLOGIE À VÉRIFIER — RCP] |
 | **Tofacitinib** (inhibiteur de JAK, oral) | **10 mg × 2/j pendant 8 semaines** en induction, puis entretien à 5 mg (ou 10 mg) × 2/j | BSG 2019 (essais OCTAVE) [S5] ; restrictions de l'EMA pour les inhibiteurs de JAK (âge ≥ 65 ans, risque cardiovasculaire, cancer, thrombose) : voir DOS-RHUM-0001 |
 | **Molécules plus récentes** (filgotinib, upadacitinib, modulateurs de S1P — ozanimod, étrasimod —, anti-IL-23 — mirikizumab, guselkumab, risankizumab) | Selon RCP | Intégrées aux recommandations 2025–2026 [S2, S3, S6] [contenu non relu — À VÉRIFIER] ; disponibilité en Algérie [À VÉRIFIER] |
 
-- **Association infliximab + thiopurine** : plus efficace que l'infliximab seul chez les patients en échec des corticoïdes (essai UC SUCCESS, rémission à S16 : 40 % contre 22 %) [S5].
+- **Association infliximab + thiopurine** : plus efficace que l'infliximab seul chez les patients en échec des corticoïdes (essai UC SUCCESS, rémission à la semaine 16 : 40 % contre 22 %) [S5].
 - **Mesures thérapeutiques** : dosages résiduels et anticorps anti-médicament pour guider l'optimisation en cas de perte de réponse [S5].
 
 #### 13.2.7 Bilan avant immunosuppresseur ou biothérapie — priorité au dépistage de la tuberculose

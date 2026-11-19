@@ -4,12 +4,16 @@ titre: "Fiche — États de choc (hypovolémique, cardiogénique, septique, anap
 specialite: MINT_REA
 items_residanat: [RES-MED-106]
 dossier_source: DOS-MINT_REA-0001
-version_dossier_source: "1.2"
+version_dossier_source: "1.3"
 revisions:
   - date: 2026-11-19
     auteur: "AUD-05 (IA)"
     objet: "Harmonisation avec DOS-MINT_REA-0001 v1.2 et DOS-PEDI-0002 : adrénaline IM de l'enfant (0,01 mg/kg, maximum 0,5 mg ; barème par âge WAO 2020) — « maximum 0,3 mg chez l'enfant » supprimé."
     rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Remplissage de l'anaphylaxie : WAO 2020 (20 mL/kg) et RCUK 2021 (500–1 000 mL adulte, 10 mL/kg enfant, extraits) présentés chacun avec sa source ; [S6] ajoutée à la liste des références citées (DOS-MINT_REA-0001 v1.3)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -68,7 +72,7 @@ sources:
 
 # Fiche — États de choc (RES-MED-106)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MINT_REA-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **Surviving Sepsis Campaign 2026** [S1] et 2021 [S2], **Sepsis-3** [S3], **EAACI 2021** (anaphylaxie) [S5], **ESC 2021** (insuffisance cardiaque) [S10], **guide européen du trauma 2023** [S12]. Aucune recommandation nationale algérienne retrouvée `[À VÉRIFIER]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MINT_REA-0001 (v1.3, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **Surviving Sepsis Campaign 2026** [S1] et 2021 [S2], **Sepsis-3** [S3], **EAACI 2021** (anaphylaxie) [S5], **ESC 2021** (insuffisance cardiaque) [S10], **guide européen du trauma 2023** [S12]. Aucune recommandation nationale algérienne retrouvée `[À VÉRIFIER]`.
 
 ## 1. Définition (2 lignes)
 
@@ -145,7 +149,8 @@ SEPTIQUE (1re heure) : lactate → hémocultures → ANTIBIOTIQUES IV < 1 h (sep
   probabiliste systématique (SSC 2026) ; purpura fulminans : C3G immédiate
 ANAPHYLACTIQUE : arrêt de l'exposition → ADRÉNALINE IM → décubitus jambes surélevées
   (assis si dyspnée, latéral gauche si grossesse ; JAMAIS debout) → O₂ → cristalloïdes
-  (500–1 000 mL adulte ; 10–20 mL/kg enfant) [S13 — À VÉRIFIER] → 2e dose à 5 min →
+  (WAO 2020 [S6] : 20 mL/kg quel que soit l'âge ; RCUK 2021 : 500–1 000 mL adulte,
+  10 mL/kg enfant, extraits [S13 — À VÉRIFIER]) → 2e dose à 5 min →
   réfractaire : adrénaline IV titrée, GLUCAGON si bêtabloquant [POSOLOGIE À VÉRIFIER] ;
   β2 inhalé si bronchospasme ; anti-H1/corticoïdes = PAS en 1re ligne ;
   sortie : 2 stylos auto-injecteurs, plan d'action, allergologue
@@ -216,4 +221,5 @@ VD (infarctus) : turgescence + poumons clairs → éviter les dérivés nitrés
 - [S12] Rossaint R, et al. Guide européen — hémorragie et coagulopathie traumatique, 6ᵉ éd.
 
 Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
-- [S13] Resuscitation Council UK. Emergency treatment of anaphylaxis: guidelines for healthcare providers. 2021. [À VÉRIFIER — non confirmée pendant la session] — non vérifiée en session
+- [S6] Cardona V, et al. World Allergy Organization Anaphylaxis Guidance 2020. *World Allergy Organ J* 2020;13(10):100472 — vérifiée (texte intégral relu : bolus de 20 mL/kg).
+- [S13] Resuscitation Council UK. Emergency treatment of anaphylaxis: guidelines for healthcare providers. 2021 — existence confirmée (AUD-05) ; volumes de remplissage lus par extraits de documents RCUK dérivés, texte intégral non relu `[À VÉRIFIER]`.

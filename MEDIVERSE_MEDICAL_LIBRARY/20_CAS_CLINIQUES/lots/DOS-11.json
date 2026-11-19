@@ -455,7 +455,7 @@
       "questions": [
         {
           "question": "Classez la fracture.",
-          "reponse": "Transcervicale (AO/OTA 31B2), déplacée, Pauwels III (trait > 50°)."
+          "reponse": "Transcervicale (AO/OTA 31B2), déplacée, Pauwels III (trait ≥ 50°)."
         },
         {
           "question": "Pourquoi ne pas proposer d'emblée une prothèse ?",
@@ -496,7 +496,15 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "verdict": "audite_valide",
         "remarque": "Posologie de la thromboprophylaxie précisée (RCP) ; marqueur levé. Choix de la vis-plaque cohérent avec les sous-groupes de FAITH (fumeur, fracture déplacée)."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Borne du type III de Pauwels harmonisée (≥ 50°), alignée sur DOS-TRAU-0001 v1.2.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "CAS-TRAU-1103",
@@ -528,7 +536,7 @@
         "Bilan d'ostéoporose et traitement adapté à la fonction rénale"
       ],
       "diagnostic_final": "Fracture de Pouteau-Colles droite extra-articulaire, instable (4 critères de Lafontaine), chez une patiente âgée à faible demande fonctionnelle ; fracture de fragilité.",
-      "traitement": "Traitement orthopédique après réduction : manchette plâtrée en position neutre (pas de flexion-inclinaison ulnaire forcée), mobilisation immédiate des doigts, surélévation ; analgésie par paracétamol, 1 g toutes les 6 heures, sans dépasser 3 g/j si le poids est inférieur à 50 kg (AINS évités : insuffisance rénale ; RCP). En cas de déplacement secondaire, l'acceptation d'un cal vicieux est discutée compte tenu de l'âge et de la faible demande (résultats fonctionnels comparables à la chirurgie dans CROSSFIRE et WRIST). Prévention secondaire : correction de la vitamine D, traitement anti-ostéoporotique adapté au DFG, arrêt progressif du zolpidem, aménagement du domicile.",
+      "traitement": "Traitement orthopédique après réduction : manchette plâtrée en position neutre (pas de flexion-inclinaison ulnaire forcée), mobilisation immédiate des doigts, surélévation ; analgésie par paracétamol, 1 g toutes les 6 heures si le poids dépasse 50 kg (4 g/j au maximum) ; 15 mg/kg par prise (60 mg/kg/j, sans dépasser 3 g/j) si le poids est inférieur à 50 kg (AINS évités : insuffisance rénale ; RCP). En cas de déplacement secondaire, l'acceptation d'un cal vicieux est discutée compte tenu de l'âge et de la faible demande (résultats fonctionnels comparables à la chirurgie dans CROSSFIRE et WRIST). Prévention secondaire : correction de la vitamine D, traitement anti-ostéoporotique adapté au DFG, arrêt progressif du zolpidem, aménagement du domicile.",
       "surveillance": "Œdème et coloration des doigts, nerf médian, plâtre (compression) ; radiographies de contrôle ; ablation de l'immobilisation vers 6 semaines ; rééducation ; recherche d'un SDRC ; extension du pouce (LEP).",
       "evolution": "Déplacement secondaire modéré à J10 (bascule dorsale 15°) accepté après décision partagée ; consolidation à 6 semaines ; à 6 mois, autonomie complète malgré une déformation résiduelle, douleur minime.",
       "explication_pedagogique": "Les critères de Lafontaine prédisent l'instabilité mais la décision dépend aussi de l'âge et de la demande fonctionnelle : chez une patiente âgée peu active, un traitement orthopédique est acceptable, la chirurgie n'ayant pas montré de bénéfice fonctionnel durable dans les essais CROSSFIRE et WRIST. La fracture du poignet est une fracture sentinelle : la prévention secondaire est indispensable.",
@@ -580,7 +588,15 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "verdict": "audite_valide",
         "remarque": "Posologie du paracétamol précisée (RCP) ; marqueur levé. Décompte des critères de Lafontaine exact."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Posologie du paracétamol chez l'adulte de moins de 50 kg harmonisée (15 mg/kg par prise, 60 mg/kg/j, sans dépasser 3 g/j ; RCP), alignée sur DOS-TRAU-0001 et DOS-TRAU-0002 v1.2.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "CAS-TRAU-1104",

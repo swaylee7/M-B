@@ -6,7 +6,7 @@ sous_specialite: "Médicaments de l'hémostase — anticoagulants"
 items_residanat: [RES-MED-173]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-14 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 21
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 5 RES-06) : demi-vies des facteurs vitamine K-dépendants alignées sur DOS-HEMA-0007 § 4.4 (ordres de grandeur) ; seuil d'INR du relais AVK → AOD : divergence EHRA 2021 (≤ 2,0) / RCP européens (seuils propres à chaque AOD) explicitée au § 13.3.3 et au § 21. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J. 2024;45(36):3314-3414."
@@ -306,7 +312,7 @@ Le **risque iatrogène** des anticoagulants est majeur : les accidents hémorrag
 ### 4.3 Le cycle de la vitamine K
 
 - Les facteurs **II, VII, IX, X** et les protéines **C et S** subissent une γ-carboxylation hépatique dépendante de la vitamine K réduite (hydroquinone), régénérée par la **vitamine K époxyde réductase** (VKORC1), cible des AVK.
-- Demi-vies : facteur VII ≈ 6 h ; protéine C ≈ 8 h ; facteurs IX ≈ 24 h, X ≈ 40 h, II ≈ 60–72 h. Conséquences : l'INR s'allonge en 1 à 2 jours (baisse du VII) alors que l'effet antithrombotique complet n'est obtenu qu'après plusieurs jours (baisse du II et du X) ; la chute précoce de la protéine C explique l'**état d'hypercoagulabilité paradoxal** des premiers jours (nécrose cutanée aux AVK) et la nécessité d'un **chevauchement** avec une héparine lors d'une thrombose aiguë.
+- Demi-vies (ordres de grandeur ; les valeurs exactes varient selon les sources — mêmes valeurs que DOS-HEMA-0007, § 4.4) : facteur VII ≈ 4–6 h ; protéine C ≈ 6–8 h ; facteurs IX ≈ 18–24 h, X ≈ 40 h, II ≈ 60–70 h. Conséquences : l'INR s'allonge en 1 à 2 jours (baisse du VII) alors que l'effet antithrombotique complet n'est obtenu qu'après plusieurs jours (baisse du II et du X) ; la chute précoce de la protéine C explique l'**état d'hypercoagulabilité paradoxal** des premiers jours (nécrose cutanée aux AVK) et la nécessité d'un **chevauchement** avec une héparine lors d'une thrombose aiguë.
 
 ---
 
@@ -672,7 +678,7 @@ FA documentée (hors valve mécanique / rétrécissement mitral modéré-serré)
 |---|---|---|
 | **Héparine (HNF/HBPM/fondaparinux) → AVK** | Débuter l'AVK **dès J1** ; **chevauchement d'au moins 5 jours** ; arrêt de l'héparine quand **deux INR consécutifs à 24 h d'intervalle sont dans la cible** (≥ 2) | [S2, S3] |
 | **Héparine → AOD** | Démarrer l'AOD à l'heure prévue de l'injection suivante d'HBPM, ou à l'arrêt de la perfusion d'HNF | [S5] |
-| **AVK → AOD** | Arrêter l'AVK ; débuter l'AOD dès que l'INR est ≤ 2 (entre 2 et 2,5 : le jour même ou, mieux, le lendemain ; > 2,5 : attendre selon l'INR et la demi-vie de l'AVK) [S5] ; les RCP européens fixent des seuils propres à chaque AOD (dabigatran et apixaban : INR < 2 ; édoxaban : INR ≤ 2,5 ; rivaroxaban : INR ≤ 3 dans la FA, ≤ 2,5 dans la MTEV) | [S5] |
+| **AVK → AOD** | Arrêter l'AVK ; débuter l'AOD dès que l'INR est ≤ 2 (entre 2 et 2,5 : le jour même ou, mieux, le lendemain ; > 2,5 : attendre selon l'INR et la demi-vie de l'AVK) [S5] ; les RCP européens fixent des seuils propres à chaque AOD (dabigatran et apixaban : INR < 2 ; édoxaban : INR ≤ 2,5 ; rivaroxaban : INR ≤ 3 dans la FA, ≤ 2,5 dans la MTEV). **Divergence** EHRA 2021 / RCP présentée au § 21 ; en pratique, suivre le RCP de la molécule prescrite | [S5] ; RCP européens |
 | **AOD → AVK** | Chevauchement AOD + AVK jusqu'à un INR ≥ 2 (INR mesuré juste avant la prise d'AOD ; règles spécifiques pour l'édoxaban à demi-dose) | [S5] |
 | **AOD → héparine** | Débuter l'héparine à l'heure de la prise suivante de l'AOD | [S5] |
 
@@ -1077,6 +1083,7 @@ Hémorragie grave : arrêt de l'apixaban, remplissage, transfusion (seuil restri
 | Relais périopératoire par héparine | ACCP 2022 et ASH 2018 : contre le relais systématique ; BRIDGE [S4, S7, S14] | ESC 2022 (chirurgie non cardiaque) : relais à considérer chez les porteurs de valve mécanique à haut risque thrombotique [S11] | Convergence : relais réservé aux très hauts risques |
 | Durée du traitement après MTEV non provoquée | ESC 2019 / ASH 2020 : traitement prolongé à envisager, voire indéfini [S2, S8] | CHEST 2021 : traitement prolongé suggéré avec réévaluation périodique ; doses réduites d'AOD en phase prolongée [S3] | Toujours individualiser selon le risque hémorragique |
 | Réversion des anti-Xa | ANNEXA-I (2024) : andexanet améliore le contrôle de l'hématome intracérébral mais augmente les événements thrombotiques [S17] ; FDA (décembre 2025) : risques jugés supérieurs aux bénéfices, retrait du marché américain [S25] | EHRA 2021 : CCP (50 UI/kg) à défaut d'andexanet [S5] | Statut européen et disponibilité en Algérie à vérifier `[À VÉRIFIER]` ; le CCP reste l'option la plus accessible |
+| Seuil d'INR pour débuter un AOD après un AVK | **EHRA 2021** : débuter dès que l'INR est **≤ 2,0** ; entre 2,0 et 2,5 : le jour même ou, mieux, le lendemain ; > 2,5 : attendre selon l'INR et la demi-vie de l'AVK [S5] | **RCP européens** : seuils propres à chaque molécule — dabigatran et apixaban : INR **< 2** ; édoxaban : **≤ 2,5** ; rivaroxaban : **≤ 3** (FA), **≤ 2,5** (MTEV) | Pour le dabigatran et l'apixaban, l'écart avec l'EHRA ne porte que sur la valeur 2,0 exactement (« ≤ 2 » vs « < 2 ») ; pour l'édoxaban et le rivaroxaban, les RCP autorisent un relais plus précoce. Le RCP de la molécule prescrite prévaut |
 | Cibles d'INR des valves mécaniques | ESC/EACTS 2021 : tableau thrombogénicité × facteurs de risque (2,5 à 4) [S19] | ESC/EACTS 2025 : AVK à vie réaffirmés, cibles individualisées [S24] | Valeurs 2025 à confirmer sur le texte intégral `[À VÉRIFIER]` |
 
 ---

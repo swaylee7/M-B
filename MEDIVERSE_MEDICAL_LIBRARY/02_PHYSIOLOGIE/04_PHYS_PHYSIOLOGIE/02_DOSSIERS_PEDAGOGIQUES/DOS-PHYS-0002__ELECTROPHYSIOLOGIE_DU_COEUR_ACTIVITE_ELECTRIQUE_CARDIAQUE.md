@@ -6,7 +6,7 @@ sous_specialite: "Physiologie cardiovasculaire — électrophysiologie"
 items_residanat: [RES-SF-007]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-13 (IA) — dossier pédagogique original"
@@ -18,6 +18,12 @@ audit:
     corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHYS-0002.md
     remarque: "Correction majeure : durée normale du QRS (« < 0,12 s » remplacé par ≤ 0,10–0,11 s ; 110–119 ms = bloc incomplet ou trouble de conduction non spécifique selon [S10]). Seuils ESC 2022 vérifiés sur sources secondaires reproduisant les recommandations (S15, S16) : QT long = QTc ≥ 480 ms sur ECG répétés ou score > 3, ou variant pathogène ; Brugada = type 1 spontané, type 1 induit + élément clinique ; QT court ≤ 360 ms + élément additionnel. Phases du PA, canaux, conduction, intervalles et seuils AHA 2009 du QTc conformes. Marqueurs de posologie sans objet (aucune dose) remplacés par des renvois."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence : renvoi des posologies d'antiarythmiques vérifié après l'audit de DOS-CARD-0007 (v1.1) et précisé (§ 13.2.2)."
 sources:
   - id: S1
     reference: "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 (catalogue Mediverse OUV-0170)."
@@ -153,7 +159,7 @@ mots_cles: [électrophysiologie cardiaque, potentiel d'action, potentiel de repo
 # Électrophysiologie du cœur : activité électrique cardiaque
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucune figure.
-> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1) ; relecture enseignante requise. Les valeurs numériques (potentiels, vitesses, durées) sont des ordres de grandeur issus des ouvrages de référence ; elles varient selon l'espèce, la région du cœur et la fréquence cardiaque. Les médicaments cités le sont pour leur mécanisme ; aucune posologie n'est proposée.
+> Statut : audité par AUD-01/AUD-02 (IA) le 2026-11-19 (version 1.1), puis audit de cohérence AUD-05 (version 1.2) ; relecture enseignante requise. Les valeurs numériques (potentiels, vitesses, durées) sont des ordres de grandeur issus des ouvrages de référence ; elles varient selon l'espèce, la région du cœur et la fréquence cardiaque. Les médicaments cités le sont pour leur mécanisme ; aucune posologie n'est proposée.
 
 **Items du programme couverts** : RES-SF-007 — « Électrophysiologie du cœur : activité électrique cardiaque ».
 
@@ -532,7 +538,7 @@ Une voie accessoire auriculo-ventriculaire conduit sans retard : **PR court**, *
 
 ## 14. Modulation thérapeutique de l'activité électrique (principes)
 
-*Ce chapitre présente des mécanismes d'action ; aucune posologie n'y est proposée. Indications et posologies : recommandations de cardiologie, RCP et dossier Mediverse des troubles du rythme (DOS-CARD-0007).*
+*Ce chapitre présente des mécanismes d'action ; aucune posologie n'y est proposée. Indications et posologies : recommandations de cardiologie, RCP et dossier Mediverse des troubles du rythme (DOS-CARD-0007, § 13.2.2 « Posologies d'urgence et d'entretien », audité en version 1.1).*
 
 ### 14.1 Classification des antiarythmiques
 

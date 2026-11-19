@@ -4,7 +4,12 @@ titre: "Fiche — Glaucome par fermeture de l'angle : diagnostic, traitement"
 specialite: OPHT
 items_residanat: [RES-CHI-040]
 dossier_source: DOS-OPHT-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Piège 5 : contre-indication des bêtabloquants topiques alignée sur l'EGS (asthme, antécédent de BPCO), comme DOS-OPHT-0001 v1.2 ; compilation PIEGES_CLASSIQUES_LOT4 mise à jour."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -87,7 +92,7 @@ sources:
 
 # Fiche — Glaucome par fermeture de l'angle (RES-CHI-040)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-OPHT-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier : doses d'urgence de l'**EGS 4e édition (2017)**, lue en texte intégral par l'audit [S9] — 5e et 6e éditions non relues sur ce point `[À VÉRIFIER]`. Terminologie ISGEO/EGS/AAO [S2, S3, S8] ; essais EAGLE [S5] et ZAP [S6]. Aucune donnée ni recommandation algérienne identifiée `[À VÉRIFIER — recommandations de la Société algérienne d'ophtalmologie]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-OPHT-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier : doses d'urgence de l'**EGS 4e édition (2017)**, lue en texte intégral par l'audit [S9] — 5e et 6e éditions non relues sur ce point `[À VÉRIFIER]`. Terminologie ISGEO/EGS/AAO [S2, S3, S8] ; essais EAGLE [S5] et ZAP [S6]. Aucune donnée ni recommandation algérienne identifiée `[À VÉRIFIER — recommandations de la Société algérienne d'ophtalmologie]`.
 
 ## 1. Définition (2 lignes)
 
@@ -211,7 +216,7 @@ CA plate + PIO élevée après chirurgie filtrante, IPL perméable → GLAUCOME 
 2. Instiller un **collyre mydriatique** pour examiner le fond d'œil d'un œil rouge douloureux.
 3. Confondre avec une **uvéite antérieure** (myosis, Tyndall, chambre de profondeur normale).
 4. Oublier l'**iridotomie préventive de l'œil adelphe**.
-5. Prescrire un **collyre bêtabloquant** chez un asthmatique ou un BPCO sévère, du **mannitol** chez un insuffisant cardiaque.
+5. Prescrire un **collyre bêtabloquant** chez un asthmatique ou un patient ayant un antécédent de BPCO, du **mannitol** chez un insuffisant cardiaque.
 6. Compter sur la **pilocarpine** tant que la PIO est très élevée, ou l'utiliser dans un glaucome malin ou une fermeture par effusion.
 7. Traiter par **iridotomie** une **fermeture bilatérale du sujet jeune sous topiramate**.
 8. Parler de « **glaucome** » sans neuropathie optique (terminologie ISGEO).

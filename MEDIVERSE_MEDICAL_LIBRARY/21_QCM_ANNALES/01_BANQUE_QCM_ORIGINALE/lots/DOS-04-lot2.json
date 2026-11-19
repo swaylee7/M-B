@@ -1,0 +1,3020 @@
+{
+  "agent": "DOS-04",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-GAST-0451",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 52 ans a un ulcère bulbaire. Il prend de l'oméprazole 20 mg/j depuis 10 jours. Quelles propositions concernant la recherche de Helicobacter pylori sont exactes ?",
+      "propositions": {
+        "A": "Des biopsies réalisées sous IPP peuvent être faussement négatives",
+        "B": "La sérologie IgG n'est pas influencée par la prise d'IPP",
+        "C": "Un test respiratoire à l'urée réalisé maintenant est fiable",
+        "D": "L'idéal est d'arrêter l'IPP au moins 2 semaines avant un test direct",
+        "E": "Une sérologie positive prouve une infection active"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les IPP diminuent la densité bactérienne et rendent faussement négatifs histologie, test rapide à l'uréase, TRU et antigène fécal ; ils doivent être arrêtés au moins 2 semaines avant ces tests. La sérologie n'est pas influencée, mais ne distingue pas infection active et ancienne.",
+      "explications_par_proposition": {
+        "A": "Vrai : faux négatifs sous IPP.",
+        "B": "Vrai : c'est son intérêt (IPP, hémorragie, atrophie).",
+        "C": "Faux : le TRU est aussi faussé par les IPP.",
+        "D": "Vrai : délai de 2 semaines (HAS 2021, Maastricht VI).",
+        "E": "Faux : les anticorps persistent après guérison."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Helicobacter pylori — tests diagnostiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à l'absence d'infection sur un test réalisé sous IPP.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745",
+          "date": "2022"
+        },
+        {
+          "reference": "HAS. Choix et durées d'antibiothérapies : traitement probabiliste de l'infection par Helicobacter pylori chez l'adulte. Fiche mémo, juillet 2021 (page mise à jour le 13/05/2025)",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0452",
+      "format": "QCS (réponse unique)",
+      "enonce": "Selon la fiche mémo de la HAS (2021), quel est le traitement probabiliste de première intention de l'infection à H. pylori chez un adulte sans prise antérieure de macrolide ni allergie à l'amoxicilline ?",
+      "propositions": {
+        "A": "Trithérapie IPP-amoxicilline-clarithromycine 7 jours",
+        "B": "Quadrithérapie concomitante (IPP, amoxicilline, clarithromycine, métronidazole) 14 jours",
+        "C": "Quadrithérapie bismuthée 14 jours",
+        "D": "Bithérapie IPP-amoxicilline à forte dose 14 jours",
+        "E": "Trithérapie IPP-amoxicilline-lévofloxacine 10 jours"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La HAS (2021) retient la quadrithérapie concomitante de 14 jours en probabiliste de première intention, la quadrithérapie bismuthée de 10 jours étant à privilégier en cas de prise antérieure de macrolides ou d'allergie documentée à l'amoxicilline. Maastricht VI et l'ACG 2024 privilégient la quadrithérapie bismuthée de 14 jours : c'est une divergence.",
+      "explications_par_proposition": {
+        "A": "Faux : abandonnée en probabiliste.",
+        "B": "Vrai : position HAS 2021.",
+        "C": "Faux pour la HAS (bismuth 10 jours si macrolide/allergie) ; c'est la position de Maastricht VI et de l'ACG.",
+        "D": "Faux : non retenue par la HAS.",
+        "E": "Faux : schéma guidé (souche résistante à la clarithromycine et sensible à la lévofloxacine)."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Helicobacter pylori — traitement probabiliste",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les positions HAS 2021 et Maastricht VI.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Choix et durées d'antibiothérapies : traitement probabiliste de l'infection par Helicobacter pylori chez l'adulte. Fiche mémo, juillet 2021 (page mise à jour le 13/05/2025)",
+          "date": "2021"
+        },
+        {
+          "reference": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0453",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la résistance de H. pylori aux antibiotiques dans les séries algériennes publiées, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La résistance primaire à la clarithromycine était de 33 % dans une étude moléculaire algéroise (2008–2014)",
+        "B": "La résistance primaire à la clarithromycine était de 23 % dans une étude algéroise de 2015–2016",
+        "C": "La résistance au métronidazole dépasse 40 % dans plusieurs séries",
+        "D": "La résistance à l'amoxicilline dépasse 20 %",
+        "E": "Ces chiffres justifient l'abandon de la trithérapie probabiliste à la clarithromycine"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Djennane-Hadibi 2016 : 33 % ; Raaf 2017 : 23 % (primaire), métronidazole 45 % ; Bachir 2018 : métronidazole 61,1 %, clarithromycine 22,8 % ; aucune résistance à l'amoxicilline ni à la tétracycline. Le seuil de 15 % de Maastricht VI est dépassé.",
+      "explications_par_proposition": {
+        "A": "Vrai (Djennane-Hadibi 2016).",
+        "B": "Vrai (Raaf 2017).",
+        "C": "Vrai : 45 % et 61,1 %.",
+        "D": "Faux : 0 % dans ces séries.",
+        "E": "Vrai : résistance > 15 %."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Helicobacter pylori — antibiorésistance en Algérie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Extrapoler ces séries hospitalières à la population générale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Djennane-Hadibi F et al. High-Level Primary Clarithromycin Resistance of Helicobacter pylori in Algiers, Algeria. Microb Drug Resist 2016;22(3):223-226. doi:10.1089/mdr.2015.0209",
+          "date": "2016"
+        },
+        {
+          "reference": "Raaf N et al. Prevalence, antibiotic resistance, and MLST typing of Helicobacter pylori in Algiers, Algeria. Helicobacter 2017;22(6):e12446. doi:10.1111/hel.12446",
+          "date": "2017"
+        },
+        {
+          "reference": "Bachir M et al. Primary antibiotic resistance ... Helicobacter pylori isolates from Algerian patients. Braz J Microbiol 2018;49(3):544-551. doi:10.1016/j.bjm.2017.11.003",
+          "date": "2018"
+        },
+        {
+          "reference": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0454",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la HAS (2021), traitement guidé d'une souche de H. pylori résistante à la clarithromycine et à la lévofloxacine :",
+      "propositions": {
+        "A": "Oméprazole 20 mg matin et soir",
+        "B": "Gélules associant sous-citrate de bismuth, métronidazole et tétracycline : 3 gélules 4 fois par jour",
+        "C": "Durée 10 jours",
+        "D": "Ajout de clarithromycine 500 mg × 2/j",
+        "E": "Contrôle de l'éradication par test respiratoire au moins 4 semaines après la fin des antibiotiques"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Pour une souche résistante à la clarithromycine et à la lévofloxacine, la HAS propose la quadrithérapie bismuthée de 10 jours, avec un contrôle par TRU dans les délais habituels.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai (HAS, gélule combinée).",
+        "D": "Faux : la souche est résistante.",
+        "E": "Vrai : et au moins 2 semaines après l'arrêt de l'IPP."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Helicobacter pylori — traitement guidé",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Choix et durées d'antibiothérapies : traitement guidé de l'infection par Helicobacter pylori chez l'adulte. Fiche mémo, juillet 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0455",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les arguments suivants, lesquels orientent vers un syndrome de Zollinger-Ellison chez un patient ulcéreux ?",
+      "propositions": {
+        "A": "Ulcère post-bulbaire",
+        "B": "Ulcères multiples",
+        "C": "Diarrhée chronique associée",
+        "D": "Récidive ulcéreuse après éradication contrôlée de H. pylori, sans AINS",
+        "E": "Ulcère bulbaire unique guéri après éradication"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le gastrinome entraîne une hypersécrétion acide massive : ulcères multiples, de siège atypique (post-bulbaire, jéjunal), réfractaires ou récidivants malgré l'éradication, diarrhée, œsophagite sévère ; rechercher une NEM1.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : diarrhée sécrétoire.",
+        "D": "Vrai.",
+        "E": "Faux : évolution typique d'un ulcère à H. pylori."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Ulcère — étiologies rares",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ne pas chercher d'autre cause devant un ulcère réfractaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-624. doi:10.1016/S0140-6736(16)32404-7",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0456",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 67 ans sous ibuprofène présente une douleur épigastrique brutale depuis 3 heures avec contracture. La radiographie ne montre pas de pneumopéritoine. Selon la WSES 2020 :",
+      "propositions": {
+        "A": "L'absence de pneumopéritoine élimine une perforation",
+        "B": "Le scanner est l'examen d'imagerie recommandé",
+        "C": "Une opacification aux hydrosolubles peut être utile si le doute persiste",
+        "D": "Un transit baryté est indiqué",
+        "E": "La lipasémie et l'ECG font partie du bilan différentiel"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Un pneumopéritoine peut manquer ; le scanner est recommandé, la radiographie n'étant que l'alternative si le scanner n'est pas rapidement disponible. Les hydrosolubles (pas la baryte) peuvent montrer une fuite.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai (recommandation forte).",
+        "C": "Vrai (suggestion).",
+        "D": "Faux : baryte contre-indiquée.",
+        "E": "Vrai : pancréatite, infarctus inférieur."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Ulcère perforé — diagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer une perforation faute de pneumopéritoine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tarasconi A et al. Perforated and bleeding peptic ulcer: WSES guidelines. World J Emerg Surg 2020;15:3. doi:10.1186/s13017-019-0283-9",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0457",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Traitement d'un ulcère duodénal perforé chez un patient stable de 38 ans (WSES 2020) :",
+      "propositions": {
+        "A": "Antibiothérapie à large spectre débutée dès que possible",
+        "B": "Cœlioscopie suggérée si l'expertise est disponible",
+        "C": "Suture simple d'une perforation de moins de 2 cm",
+        "D": "Antibiothérapie d'au moins 14 jours",
+        "E": "Recherche et éradication de H. pylori"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La WSES recommande l'antibiothérapie précoce à large spectre, de durée courte (3–5 jours ou jusqu'à normalisation des marqueurs), la cœlioscopie chez le patient stable et la réparation primaire des perforations < 2 cm ; l'éradication de H. pylori prévient la récidive.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (2B).",
+        "C": "Vrai (2C).",
+        "D": "Faux : durée courte suggérée.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Ulcère perforé — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prolonger l'antibiothérapie après contrôle de la source.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tarasconi A et al. Perforated and bleeding peptic ulcer: WSES guidelines. World J Emerg Surg 2020;15:3. doi:10.1186/s13017-019-0283-9",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0458",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel trouble acido-basique et électrolytique est typique d'une sténose pyloro-bulbaire ulcéreuse avec vomissements prolongés ?",
+      "propositions": {
+        "A": "Acidose métabolique hyperchlorémique",
+        "B": "Alcalose métabolique hypochlorémique hypokaliémique",
+        "C": "Acidose respiratoire",
+        "D": "Hyperkaliémie isolée",
+        "E": "Acidose lactique"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Les vomissements gastriques font perdre HCl et K+ ; la contraction volémique entretient l'alcalose (réabsorption de bicarbonates) et l'hypokaliémie.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux : hypokaliémie.",
+        "E": "Faux, sauf choc tardif."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Ulcère — sténose",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre avec l'acidose de la diarrhée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-624. doi:10.1016/S0140-6736(16)32404-7",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0459",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un patient ayant un ulcère gastrique de l'angle de 15 mm :",
+      "propositions": {
+        "A": "Des biopsies multiples des bords et du fond sont indispensables",
+        "B": "Un contrôle endoscopique de la cicatrisation est nécessaire",
+        "C": "Des biopsies antrales et fundiques recherchent H. pylori",
+        "D": "Un aspect endoscopique bénin dispense des biopsies",
+        "E": "La durée de l'IPP est en général plus longue que pour un ulcère duodénal"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Tout ulcère gastrique est un cancer jusqu'à preuve du contraire : biopsies multiples, contrôle de cicatrisation avec nouvelles biopsies ; IPP prolongé jusqu'à cicatrisation (durées selon RCP).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai (durées selon RCP, 4 semaines pour l'UD, jusqu'à 8 semaines pour l'UG)."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Ulcère gastrique — conduite",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Ne pas contrôler la cicatrisation d'un ulcère gastrique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-624. doi:10.1016/S0140-6736(16)32404-7",
+          "date": "2017"
+        },
+        {
+          "reference": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0460",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les selles noires apparues sous quadrithérapie bismuthée :",
+      "propositions": {
+        "A": "Elles sont attendues et liées au bismuth",
+        "B": "Elles imposent l'arrêt immédiat du traitement",
+        "C": "Elles se distinguent du méléna par l'absence d'aspect poisseux et de retentissement",
+        "D": "Il faut prévenir le patient avant le traitement",
+        "E": "Elles contre-indiquent un contrôle ultérieur par TRU"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le bismuth colore les selles en noir ; le méléna est poisseux, fétide, avec retentissement hémodynamique ou anémie. L'information préalable améliore l'observance.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : TRU 4 semaines après les antibiotiques/bismuth."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Helicobacter pylori — tolérance",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": "Confondre selles noires du bismuth et méléna.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Choix et durées d'antibiothérapies : traitement probabiliste de l'infection par Helicobacter pylori chez l'adulte. Fiche mémo, juillet 2021 (page mise à jour le 13/05/2025)",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0461",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Gastroprotection chez un patient devant recevoir un AINS au long cours :",
+      "propositions": {
+        "A": "Un antécédent d'ulcère compliqué justifie un IPP associé",
+        "B": "L'association à un anticoagulant majore le risque hémorragique",
+        "C": "La recherche et l'éradication de H. pylori sont recommandées chez le patient aux antécédents ulcéreux",
+        "D": "Les coxibs suppriment totalement le risque ulcéreux",
+        "E": "Le misoprostol est contre-indiqué pendant la grossesse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Facteurs de risque : âge, antécédent ulcéreux (surtout compliqué), association aspirine/anticoagulant/corticoïde. H. pylori et AINS sont des facteurs additifs. Les coxibs réduisent sans annuler le risque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai (Maastricht VI).",
+        "D": "Faux.",
+        "E": "Vrai (abortif)."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "AINS — prévention",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lanas A, Chan FKL. Peptic ulcer disease. Lancet 2017;390(10094):613-624. doi:10.1016/S0140-6736(16)32404-7",
+          "date": "2017"
+        },
+        {
+          "reference": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0462",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la méta-analyse de Savoldi (2018) et Maastricht VI (2022), concernant l'antibiorésistance de H. pylori :",
+      "propositions": {
+        "A": "La résistance à la clarithromycine multiplie le risque d'échec des schémas qui la contiennent",
+        "B": "Le seuil de 15 % de résistance à la clarithromycine sert à décider de l'usage empirique de la trithérapie",
+        "C": "Les résistances primaires étaient ≥ 15 % dans la plupart des régions de l'OMS",
+        "D": "L'OMS a classé H. pylori résistant à la clarithromycine parmi les pathogènes prioritaires",
+        "E": "La surveillance locale de la résistance est inutile"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Savoldi : OR d'échec ≈ 7 en cas de résistance à la clarithromycine ; résistances ≥ 15 % dans la plupart des régions ; l'OMS a fait de H. pylori résistant à la clarithromycine une priorité en 2017 ; les auteurs appellent à des réseaux de surveillance locaux.",
+      "explications_par_proposition": {
+        "A": "Vrai (OR 6,97).",
+        "B": "Vrai.",
+        "C": "Vrai, à quelques exceptions.",
+        "D": "Vrai (2017).",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Helicobacter pylori — antibiorésistance mondiale",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Savoldi A et al. Prevalence of Antibiotic Resistance in Helicobacter pylori. Gastroenterology 2018;155(5):1372-1382.e17. doi:10.1053/j.gastro.2018.07.007",
+          "date": "2018"
+        },
+        {
+          "reference": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0463",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 31 ans a une RCH étendue jusqu'à l'angle colique gauche, sans le dépasser. Selon la classification de Montréal :",
+      "propositions": {
+        "A": "Il s'agit d'une forme E2",
+        "B": "Il s'agit d'une forme E3",
+        "C": "La forme E1 correspond à une atteinte limitée au rectum",
+        "D": "L'extension peut progresser au cours de l'évolution",
+        "E": "L'extension n'a pas d'influence sur le risque de cancer colorectal"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Montréal : E1 rectite, E2 colite gauche (jusqu'à l'angle gauche), E3 au-delà de l'angle gauche. L'extension peut progresser et conditionne le risque de cancer.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : E3 dépasse l'angle gauche.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : le risque augmente avec l'étendue."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — classification de Montréal",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Silverberg MS et al. Montreal Working Party. Can J Gastroenterol 2005;19 Suppl A:5A-36A. doi:10.1155/2005/269076",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0464",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Score de Mayo de la RCH :",
+      "propositions": {
+        "A": "Il comprend la fréquence des selles, les rectorragies, le sous-score endoscopique et l'appréciation globale du médecin",
+        "B": "Le total va de 0 à 12",
+        "C": "Un sous-score endoscopique de 3 correspond à des ulcérations et à un saignement spontané",
+        "D": "La rémission est souvent définie par un score total ≤ 2 sans sous-score > 1",
+        "E": "Il inclut la CRP"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le score de Mayo (Schroeder 1987) comporte 4 items cotés 0–3 (total 0–12) ; la CRP n'en fait pas partie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai (définition d'usage, par exemple dans VARSITY).",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — score de Mayo",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Schroeder KW, Tremaine WJ, Ilstrup DM. Coated oral 5-ASA therapy for mildly to moderately active ulcerative colitis. N Engl J Med 1987;317(26):1625-1629",
+          "date": "1987"
+        },
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0465",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Jour 1 d'une hospitalisation pour poussée de RCH chez un homme de 26 ans : 8 évacuations sanglantes par 24 h, 38,1 °C, pouls 104/min, Hb 11,2 g/dL, CRP 54 mg/L. Parmi ces mesures et interprétations, lesquelles sont justifiées ?",
+      "propositions": {
+        "A": "Une hypokaliémie et une hypomagnésémie doivent être corrigées car elles favorisent la colectasie",
+        "B": "Une héparine de bas poids moléculaire prophylactique est indiquée malgré les rectorragies",
+        "C": "Un abdomen sans préparation ou un scanner recherche une dilatation colique",
+        "D": "Dans l'essai CYSIF, un score de Lichtiger > 10 définissait la colite sévère",
+        "E": "Une transfusion est systématique dès que l'hémoglobine est inférieure à 12 g/dL"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Il s'agit d'une colite aiguë grave (> 6 selles sanglantes + signes systémiques). Mesures associées à la corticothérapie IV : correction du potassium et du magnésium, HBPM, imagerie de la colectasie, surveillance médico-chirurgicale. Le score de Lichtiger (0–21) est utilisé dans les essais de traitement de secours.",
+      "explications_par_proposition": {
+        "A": "Vrai : facteurs favorisants de la colectasie.",
+        "B": "Vrai (BSG 2019, recommandation forte).",
+        "C": "Vrai : un transverse ≥ 5,5 cm est un facteur prédictif d'échec.",
+        "D": "Vrai (Laharie 2012).",
+        "E": "Faux : transfusion selon la tolérance et les seuils habituels, non systématique à 12 g/dL."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — colite aiguë grave",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la thromboprophylaxie au motif des rectorragies.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. BSG consensus guidelines on IBD in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        },
+        {
+          "reference": "Laharie D et al. CYSIF. Lancet 2012;380(9857):1909-1915. doi:10.1016/S0140-6736(12)61084-8",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0466",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans une colite aiguë grave, quelle est la corticothérapie IV recommandée par la BSG 2019 ?",
+      "propositions": {
+        "A": "Méthylprednisolone 1 g/j pendant 3 jours",
+        "B": "Méthylprednisolone 60 mg/24 h ou hydrocortisone 100 mg toutes les 6 heures",
+        "C": "Prednisolone orale 10 mg/j",
+        "D": "Budésonide 9 mg/j",
+        "E": "Dexaméthasone 40 mg/j"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Méthylprednisolone 60 mg/j ou hydrocortisone 100 mg × 4/j ; pas d'avantage à des doses plus fortes ; bolus aussi efficace que perfusion continue.",
+      "explications_par_proposition": {
+        "A": "Faux : pas de bénéfice des fortes doses.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — corticothérapie IV",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0467",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Au 3ᵉ jour de corticoïdes IV pour une CAG, la patiente a 6 selles/j et une CRP à 58 mg/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les critères d'Oxford prédisent un échec élevé (environ 85 %)",
+        "B": "Un traitement de secours par infliximab 5 mg/kg ou ciclosporine IV 2 mg/kg/j est indiqué",
+        "C": "Dans l'essai CYSIF, l'infliximab était nettement supérieur à la ciclosporine",
+        "D": "Une colectomie subtotale est indiquée en l'absence de réponse dans les 7 jours du traitement de secours",
+        "E": "Le bilan tuberculeux et VHB doit précéder l'infliximab"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Critères d'Oxford : 3–8 selles + CRP > 45 mg/L à J3. Secours par infliximab ou ciclosporine (CYSIF : pas de différence significative, échec 54 % vs 60 %). Colectomie subtotale si échec à J7 ou complication.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — traitement de secours",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Prolonger les corticoïdes IV au-delà de J7.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        },
+        {
+          "reference": "Laharie D et al. Ciclosporin versus infliximab in severe ulcerative colitis refractory to IV steroids (CYSIF). Lancet 2012;380(9857):1909-1915. doi:10.1016/S0140-6736(12)61084-8",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0468",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Traitement d'une rectite hémorragique légère (E1) :",
+      "propositions": {
+        "A": "Suppositoire de 5-ASA 1 g/j en première intention",
+        "B": "Corticoïdes systémiques en première intention",
+        "C": "Ajout du 5-ASA oral en cas d'échec",
+        "D": "Corticoïdes locaux en cas d'échec ou d'intolérance au 5-ASA",
+        "E": "Méthotrexate si rechute"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le suppositoire de 5-ASA 1 g est le traitement de référence (ECCO 2022, BSG 2019) ; escalade : 5-ASA oral, corticoïdes locaux, puis traitements systémiques. Le méthotrexate n'est pas recommandé dans la RCH.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — rectite",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Raine T et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. J Crohns Colitis 2022;16(1):2-17. doi:10.1093/ecco-jcc/jjab178 (remplacée en 2026 : doi:10.1093/ecco-jcc/jjag066)",
+          "date": "2022"
+        },
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0469",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Thiopurines dans la RCH (BSG 2019) :",
+      "propositions": {
+        "A": "Indiquées en entretien en cas de corticodépendance",
+        "B": "Dosage préalable de l'activité TPMT",
+        "C": "Azathioprine 2–2,5 mg/kg/j si TPMT normale",
+        "D": "Dose réduite de 50 % si TPMT intermédiaire",
+        "E": "Délai d'action de 48 heures, utiles dans la CAG"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les thiopurines sont un traitement d'entretien (corticodépendance), à délai d'action long ; TPMT avant traitement ; surveillance NFS et bilan hépatique aux semaines 2, 4, 8, 12 puis tous les 3 mois.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : délai de plusieurs semaines à mois."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — thiopurines",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0470",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Bilan avant un anti-TNF chez un patient algérien atteint de RCH :",
+      "propositions": {
+        "A": "Radiographie thoracique",
+        "B": "Test de libération de l'interféron gamma (IGRA)",
+        "C": "AgHBs, anti-HBc, anti-HBs",
+        "D": "Vaccination vivante possible la semaine précédant la perfusion",
+        "E": "Traitement d'une infection tuberculeuse latente selon l'OMS et le programme national"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Dépistage de la tuberculose (clinique, radiographie, IGRA) et des hépatites, VIH, VZV ; traitement de l'ITL (schémas OMS 2024 : 6H/9H, 3HP, 3HR, 1HP, 4R) ; vaccins vivants au moins 4 semaines avant.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "MICI — bilan pré-biothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Débuter un anti-TNF sans dépistage tuberculeux.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        },
+        {
+          "reference": "OMS. WHO consolidated guidelines on tuberculosis, Module 1: prevention — tuberculosis preventive treatment, 2nd ed. 2024 (ISBN 9789240096196)",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0471",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Cholangite sclérosante primitive (CSP) associée à une RCH :",
+      "propositions": {
+        "A": "Son évolution est indépendante de l'activité de la colite",
+        "B": "Elle majore le risque de cancer colorectal",
+        "C": "Elle expose au cholangiocarcinome",
+        "D": "Elle disparaît après colectomie",
+        "E": "Elle justifie une coloscopie de surveillance annuelle dès le diagnostic"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La CSP évolue pour son propre compte, persiste après colectomie, majore les risques de cancer colorectal et de cholangiocarcinome ; surveillance coloscopique annuelle (ECCO).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — manifestations extra-intestinales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0472",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Risque de cancer colorectal au cours de la RCH :",
+      "propositions": {
+        "A": "Probabilité cumulée d'environ 2 % à 10 ans, 8 % à 20 ans et 18 % à 30 ans dans la méta-analyse d'Eaden (2001)",
+        "B": "Coloscopie de dépistage 8 ans après le début des symptômes (BSG 2019)",
+        "C": "Le 5-ASA à au moins 2 g/j est recommandé dans les colites gauches ou étendues",
+        "D": "La rectite isolée expose au même risque que la pancolite",
+        "E": "La dysplasie justifie une prise en charge spécialisée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le risque dépend de la durée, de l'étendue, de l'inflammation et de la CSP ; les chiffres d'Eaden sont anciens et probablement surestimés aujourd'hui.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — cancer colorectal",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Eaden JA, Abrams KR, Mayberry JF. The risk of colorectal cancer in ulcerative colitis: a meta-analysis. Gut 2001;48(4):526-535. doi:10.1136/gut.48.4.526",
+          "date": "2001"
+        },
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0473",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Avant de débuter une corticothérapie pour une poussée de colite chez un patient vivant en Algérie, il faut :",
+      "propositions": {
+        "A": "Rechercher une amibiase (examen parasitologique des selles)",
+        "B": "Faire des coprocultures",
+        "C": "Rechercher les toxines de C. difficile",
+        "D": "Attendre systématiquement le résultat d'une sérologie amibienne avant toute prise en charge d'une colite grave",
+        "E": "Penser à la tuberculose intestinale devant une atteinte iléo-cæcale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les colites infectieuses (dont l'amibiase, aggravée par les corticoïdes) doivent être recherchées ; la BSG recommande coprocultures et C. difficile à chaque poussée. L'urgence de la CAG ne doit pas être retardée par une sérologie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : examens en parallèle.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — diagnostic différentiel",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Corticoïdes sur une colite amibienne.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0474",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chirurgie de la RCH :",
+      "propositions": {
+        "A": "La colectomie subtotale avec iléostomie et conservation du rectum est l'intervention d'urgence",
+        "B": "La coloproctectomie avec anastomose iléo-anale sur réservoir guérit la maladie colique",
+        "C": "Le réservoir peut être confectionné chez un patient sous corticoïdes à forte dose",
+        "D": "La pochite aiguë se traite en première intention par ciprofloxacine ou métronidazole pendant 2 semaines",
+        "E": "Les interventions sur réservoir doivent être réalisées dans des centres experts"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "BSG 2019 : colectomie subtotale en urgence ; AIA en centre expert ; pas de réservoir sous corticoïdes ; pochite : 2 semaines de ciprofloxacine ou métronidazole.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-024"
+      ],
+      "theme": "RCH — chirurgie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0475",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une patiente de 19 ans a une maladie de Crohn iléo-colique avec une fistule anale. Classification de Montréal :",
+      "propositions": {
+        "A": "A1",
+        "B": "A2",
+        "C": "L3",
+        "D": "Modificateur « p » pour l'atteinte périanale",
+        "E": "L4 obligatoirement associé"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "A2 = 17–40 ans ; L3 = iléocolique ; p = atteinte périanale ajoutée au phénotype B ; L4 (digestif haut) est un modificateur, présent seulement si atteinte haute.",
+      "explications_par_proposition": {
+        "A": "Faux : A1 ≤ 16 ans.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — classification de Montréal",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre âge au diagnostic A1 et A2.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Silverberg MS et al. Montreal Working Party. Can J Gastroenterol 2005;19 Suppl A:5A-36A. doi:10.1155/2005/269076",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0476",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Items du CDAI (Crohn's Disease Activity Index) :",
+      "propositions": {
+        "A": "Nombre de selles liquides sur 7 jours",
+        "B": "Douleurs abdominales",
+        "C": "Hématocrite",
+        "D": "Poids",
+        "E": "Calprotectine fécale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le CDAI (Best 1976) comprend 8 variables (selles liquides, douleurs, bien-être, complications, antidiarrhéiques, masse, hématocrite, poids) ; rémission < 150, forme sévère > 450.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — CDAI",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Best WR et al. Development of a Crohn's disease activity index. Gastroenterology 1976;70(3):439-444",
+          "date": "1976"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0477",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel traitement d'induction est recommandé par la BSG 2019 pour une maladie de Crohn iléo-cæcale légère à modérée ?",
+      "propositions": {
+        "A": "Mésalazine 4 g/j",
+        "B": "Budésonide à libération iléale 9 mg/j pendant 8 semaines",
+        "C": "Infliximab en monothérapie d'emblée",
+        "D": "Méthotrexate oral 7,5 mg/semaine",
+        "E": "Antibiothérapie au long cours"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Budésonide 9 mg/j pendant 8 semaines (efficacité proche de la prednisolone dans cette localisation) ; la mésalazine n'a pas de place dans la MC.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Faux : réservé aux formes modérées à sévères ou à mauvais pronostic.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — induction",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire du 5-ASA dans la maladie de Crohn.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0478",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Essai SONIC (2010), maladie de Crohn modérée à sévère naïve d'immunosuppresseurs et de biothérapies :",
+      "propositions": {
+        "A": "L'association infliximab + azathioprine a donné le plus fort taux de rémission sans corticoïdes à la semaine 26",
+        "B": "L'infliximab seul était supérieur à l'azathioprine seule",
+        "C": "Infliximab 5 mg/kg aux semaines 0, 2, 6 puis toutes les 8 semaines",
+        "D": "Azathioprine 2,5 mg/kg/j",
+        "E": "Les infections graves étaient nettement plus fréquentes avec l'association"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Rémission sans corticoïdes à la semaine 26 : 56,8 % (association) vs 44,4 % (infliximab) vs 30,0 % (azathioprine) ; infections graves 3,9 %, 4,9 %, 5,6 %.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — biothérapies",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Colombel JF et al. Infliximab, azathioprine, or combination therapy for Crohn's disease (SONIC). N Engl J Med 2010;362(15):1383-1395. doi:10.1056/NEJMoa0904492",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0479",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Abcès du psoas compliquant une maladie de Crohn iléale :",
+      "propositions": {
+        "A": "Antibiothérapie intraveineuse",
+        "B": "Drainage radiologique si possible",
+        "C": "Anti-TNF immédiat pour contrôler l'inflammation",
+        "D": "Résection immédiate systématique",
+        "E": "Traitement de fond après contrôle du sepsis"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "BSG 2019 : antibiotiques IV et drainage radiologique ; éviter la résection immédiate ; anti-TNF seulement après traitement de l'abcès.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — complications pénétrantes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Anti-TNF sur abcès non drainé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0480",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Lésions anopérinéales de la maladie de Crohn (BSG 2019) :",
+      "propositions": {
+        "A": "IRM pelvienne et examen sous anesthésie",
+        "B": "Séton pour éviter la récidive des abcès",
+        "C": "Infliximab en première ligne des fistules complexes, après drainage",
+        "D": "Une rectite associée améliore la cicatrisation",
+        "E": "La dérivation fécale est une option des formes réfractaires"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La présence d'une rectite diminue la cicatrisation des fistules ; la dérivation fécale a un faible taux de rétablissement.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — lésions anopérinéales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0481",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Méthotrexate dans la maladie de Crohn :",
+      "propositions": {
+        "A": "25 mg/semaine par voie intramusculaire en induction de la forme corticodépendante (Feagan 1995)",
+        "B": "Entretien à au moins 15 mg/semaine (BSG 2019)",
+        "C": "Voie sous-cutanée mieux absorbée que la voie orale",
+        "D": "Arrêt 6 mois avant une conception",
+        "E": "Prise quotidienne"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le méthotrexate est hebdomadaire ; une prise quotidienne par erreur est un accident grave.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : hebdomadaire."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — méthotrexate",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Erreur de prescription quotidienne du méthotrexate.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Feagan BG et al. Methotrexate for the treatment of Crohn's disease. N Engl J Med 1995;332(5):292-297",
+          "date": "1995"
+        },
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0482",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Après résection iléo-cæcale pour maladie de Crohn :",
+      "propositions": {
+        "A": "Iléocoloscopie à 6 mois",
+        "B": "Score de Rutgeerts ≥ i2 : escalade thérapeutique à envisager",
+        "C": "La mésalazine prévient efficacement la récidive",
+        "D": "L'arrêt du tabac réduit la récidive",
+        "E": "Une diarrhée cholérétique peut être traitée par colestyramine"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "BSG 2019 : iléocoloscopie à 6 mois, escalade si Rutgeerts ≥ i2, thiopurine chez les patients à risque, pas de mésalazine, sevrage tabagique, chélateurs des sels biliaires.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — récidive postopératoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        },
+        {
+          "reference": "Rutgeerts P et al. Predictability of the postoperative course of Crohn's disease. Gastroenterology 1990;99(4):956-963",
+          "date": "1990"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0483",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Éléments orientant vers une tuberculose iléo-cæcale plutôt qu'une maladie de Crohn :",
+      "propositions": {
+        "A": "Ulcérations transversales",
+        "B": "Granulomes confluents avec nécrose caséeuse",
+        "C": "Fistules anales complexes",
+        "D": "Adénopathies nécrotiques au scanner",
+        "E": "Ulcérations longitudinales avec aspect pavimenteux"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les fistules anales complexes et les ulcérations longitudinales avec aspect pavimenteux orientent vers la MC. Aucun élément n'est isolément discriminant : culture et PCR des biopsies, imagerie thoracique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : MC.",
+        "D": "Vrai.",
+        "E": "Faux : MC."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — diagnostic différentiel",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Corticoïdes sur une tuberculose intestinale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0484",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Conséquences d'une résection iléale étendue :",
+      "propositions": {
+        "A": "Carence en vitamine B12",
+        "B": "Lithiase biliaire",
+        "C": "Lithiase urinaire oxalique",
+        "D": "Stéatorrhée",
+        "E": "Hypercalcémie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La perte de l'iléon terminal réduit l'absorption de la B12 et des sels biliaires (diarrhée cholérétique, stéatorrhée, lithiase biliaire, hyperoxalurie entérique).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — conséquences métaboliques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0485",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Tabac et maladie de Crohn :",
+      "propositions": {
+        "A": "Le tabac augmente le risque de poussée",
+        "B": "Le tabac augmente le risque de chirurgie",
+        "C": "Le tabac augmente le risque de récidive postopératoire",
+        "D": "Le tabac a un effet protecteur comme dans la RCH",
+        "E": "L'arrêt du tabac est une mesure thérapeutique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Contrairement à la RCH, le tabac aggrave la maladie de Crohn (BSG 2019).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — facteurs environnementaux",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre l'effet du tabac dans la RCH et la MC.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0486",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chirurgie et endoscopie interventionnelle dans la maladie de Crohn (BSG 2019) :",
+      "propositions": {
+        "A": "Stricturoplastie pour des sténoses du grêle de moins de 10 cm",
+        "B": "Dilatation au ballonnet des sténoses anastomotiques de moins de 4 cm, sans composante pénétrante",
+        "C": "Résection iléo-cæcale cœlioscopique à envisager pour une atteinte localisée en échec du traitement médical",
+        "D": "Les résections larges préviennent la récidive",
+        "E": "Nutrition entérale préopératoire chez le patient dénutri"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Principe d'épargne intestinale : les résections étendues n'empêchent pas la récidive et exposent au grêle court.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-025"
+      ],
+      "theme": "Crohn — chirurgie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lamb CA et al. British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults. Gut 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0451",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une tumeur colique envahit la sous-séreuse sans perforer le péritoine viscéral ; 5 ganglions sur 16 sont envahis ; pas de métastase. Quelle est la classification TNM 8 ?",
+      "propositions": {
+        "A": "pT3 N1b M0",
+        "B": "pT3 N2a M0",
+        "C": "pT4a N2a M0",
+        "D": "pT2 N2b M0",
+        "E": "pT3 N1c M0"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Sous-séreuse = T3 ; 4 à 6 ganglions = N2a ; stade IIIB (T2–T3 N2a).",
+      "explications_par_proposition": {
+        "A": "Faux : N1b = 2–3 ganglions.",
+        "B": "Vrai.",
+        "C": "Faux : T4a = péritoine viscéral perforé.",
+        "D": "Faux.",
+        "E": "Faux : N1c = dépôts tumoraux sans ganglion."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — TNM 8",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Weiser MR. AJCC 8th Edition: Colorectal Cancer. Ann Surg Oncol 2018;25(6):1454-1455. doi:10.1245/s10434-018-6462-1",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0452",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'analyse IDEA (2018), chimiothérapie adjuvante des cancers du côlon de stade III :",
+      "propositions": {
+        "A": "La non-infériorité de 3 mois n'est pas démontrée dans la population globale",
+        "B": "La non-infériorité de 3 mois est démontrée avec CAPOX",
+        "C": "Elle n'est pas démontrée avec FOLFOX",
+        "D": "Chez les patients T4 et/ou N2, 6 mois sont supérieurs",
+        "E": "La neurotoxicité de l'oxaliplatine est indépendante de la durée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "HR global 1,07 (IC 1,00–1,15) ; CAPOX 0,95 ; FOLFOX 1,16 ; T4/N2 : survie sans maladie à 3 ans 64,4 % (6 mois) vs 62,7 %. La neuropathie est cumulative.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — durée de l'adjuvant",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Proposer 3 mois de FOLFOX aux stades III à faible risque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Grothey A et al. Duration of Adjuvant Chemotherapy for Stage III Colon Cancer (IDEA). N Engl J Med 2018;378(13):1177-1188. doi:10.1056/NEJMoa1713709",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0453",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Protocole FOLFOX (schéma de l'essai SCOT) :",
+      "propositions": {
+        "A": "Oxaliplatine 85 mg/m² à J1",
+        "B": "5-FU 400 mg/m² en bolus puis 2 400 mg/m² en perfusion de 46 heures",
+        "C": "Cycles toutes les 3 semaines",
+        "D": "12 cycles pour 6 mois de traitement",
+        "E": "Acide folinique associé"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "FOLFOX : cycles de 14 jours ; 12 cycles = 6 mois, 6 cycles = 3 mois. Le CAPOX est en cycles de 21 jours.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : toutes les 2 semaines.",
+        "D": "Vrai.",
+        "E": "Vrai (350 mg ou acide L-folinique 175 mg)."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — protocoles",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les rythmes FOLFOX (14 j) et CAPOX (21 j).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Iveson TJ et al. 3 versus 6 months of adjuvant oxaliplatin-fluoropyrimidine combination therapy (SCOT). Lancet Oncol 2018;19(4):562-578. doi:10.1016/S1470-2045(18)30093-7",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0454",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Stade II du cancer du côlon :",
+      "propositions": {
+        "A": "Une tumeur dMMR/MSI ne tire pas bénéfice d'une fluoropyrimidine seule",
+        "B": "T4 est un facteur de haut risque",
+        "C": "Moins de 12 ganglions examinés est un facteur de risque",
+        "D": "Une perforation révélatrice est un facteur de risque",
+        "E": "Une chimiothérapie de 6 mois est systématique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Sargent 2010 : absence de bénéfice (voire effet délétère) du 5-FU seul dans les stades II dMMR. Les stades II à haut risque justifient une discussion de chimiothérapie adjuvante en RCP.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — stade II",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sargent DJ et al. Defective mismatch repair as a predictive marker for lack of efficacy of fluorouracil-based adjuvant therapy in colon cancer. J Clin Oncol 2010;28(20):3219-3226",
+          "date": "2010"
+        },
+        {
+          "reference": "Argilés G et al. Localised colon cancer: ESMO Clinical Practice Guidelines. Ann Oncol 2020;31(10):1291-1305. doi:10.1016/j.annonc.2020.06.022",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0455",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Critères d'Amsterdam II du syndrome de Lynch :",
+      "propositions": {
+        "A": "Au moins 3 apparentés atteints d'un cancer du spectre HNPCC",
+        "B": "L'un est apparenté au 1ᵉʳ degré des deux autres",
+        "C": "Au moins 2 générations successives atteintes",
+        "D": "Au moins un cancer diagnostiqué avant 50 ans",
+        "E": "La présence d'une polypose adénomateuse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Règle 3-2-1, polypose adénomateuse familiale exclue, diagnostics confirmés histologiquement.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la PAF doit être exclue."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — syndrome de Lynch",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Vasen HF et al. New clinical criteria for HNPCC (Lynch syndrome) — Amsterdam II. Gastroenterology 1999;116(6):1453-1456",
+          "date": "1999"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0456",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une tumeur colique perd l'expression de MLH1 et PMS2 en immunohistochimie chez une femme de 74 ans sans antécédent familial :",
+      "propositions": {
+        "A": "Une mutation BRAF V600E orienterait vers un cancer sporadique",
+        "B": "Une hyperméthylation du promoteur de MLH1 orienterait vers un cancer sporadique",
+        "C": "Le diagnostic de Lynch est certain",
+        "D": "Le statut dMMR est utile pour la décision thérapeutique",
+        "E": "Le statut dMMR rend la tumeur potentiellement sensible à l'immunothérapie en situation métastatique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La perte de MLH1/PMS2 est souvent sporadique (méthylation de MLH1, BRAF V600E) chez le sujet âgé. Le statut dMMR a des implications adjuvantes (stade II) et métastatiques (pembrolizumab).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai (KEYNOTE-177)."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — MMR",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Conclure à un Lynch sur une perte de MLH1 isolée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Stjepanovic N et al. Hereditary gastrointestinal cancers: ESMO Clinical Practice Guidelines. Ann Oncol 2019;30(10):1558-1571. doi:10.1093/annonc/mdz233",
+          "date": "2019"
+        },
+        {
+          "reference": "André T et al. Pembrolizumab in MSI-H advanced colorectal cancer (KEYNOTE-177). N Engl J Med 2020;383(23):2207-2218",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0457",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Bilan préthérapeutique d'un adénocarcinome du côlon droit chez un homme de 60 ans :",
+      "propositions": {
+        "A": "Coloscopie totale à la recherche de lésions synchrones",
+        "B": "Scanner thoraco-abdomino-pelvien injecté",
+        "C": "Dosage de l'ACE préopératoire",
+        "D": "Immunohistochimie MMR",
+        "E": "Dosage de l'ACE pour confirmer le diagnostic"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'ACE a une valeur pronostique et de surveillance, pas diagnostique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — bilan",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Utiliser l'ACE comme test diagnostique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Argilés G et al. Localised colon cancer: ESMO Clinical Practice Guidelines. Ann Oncol 2020;31(10):1291-1305. doi:10.1016/j.annonc.2020.06.022",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0458",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Occlusion colique aiguë sur cancer du sigmoïde chez un patient de 70 ans stable :",
+      "propositions": {
+        "A": "Le scanner précise le siège, le diamètre cæcal et l'existence d'une perforation",
+        "B": "Un cæcum très dilaté et douloureux fait craindre une perforation diastatique",
+        "C": "La prothèse colique peut servir de pont vers la chirurgie chez des patients sélectionnés",
+        "D": "L'intervention de Hartmann est une option",
+        "E": "Le lavement baryté est l'examen de référence"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "ESGE 2020 : prothèse en pont vers la chirurgie à discuter en RCP ; options chirurgicales selon le terrain.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — occlusion",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van Hooft JE et al. SEMS for obstructing colonic and extracolonic cancer: ESGE Guideline – Update 2020. Endoscopy 2020;52(5):389-407",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0459",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Contexte algérien du cancer colorectal (données publiées) :",
+      "propositions": {
+        "A": "2ᵉ cancer incident après le sein selon GLOBOCAN 2020, cité par Herrag et al. (2024)",
+        "B": "Âge moyen d'environ 59–60 ans dans des séries de l'Ouest algérien",
+        "C": "Études pilotes de dépistage par test immunologique à Béjaïa, Annaba et Batna",
+        "D": "Programme national organisé généralisé depuis 2015",
+        "E": "Taux de participation des pilotes d'environ 26 %"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Herrag 2024 rapporte que le dépistage n'était pas une priorité initiale du Plan cancer 2015–2019, puis des pilotes avec une participation d'environ 26 % et 98 % de coloscopies chez les positifs ; pas de programme généralisé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer colorectal — Algérie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Herrag SEE et al. Epidemiological insights into colorectal cancer in northwestern Algeria. Ecancermedicalscience 2024;18:1684. doi:10.3332/ecancer.2024.1684",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0460",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chirurgie carcinologique du cancer du côlon :",
+      "propositions": {
+        "A": "Ligature des pédicules vasculaires à leur origine",
+        "B": "Exérèse en bloc du mésocôlon",
+        "C": "Analyse d'au moins 12 ganglions",
+        "D": "La cœlioscopie est acceptable si l'expertise est disponible",
+        "E": "Une simple tumorectomie suffit si la tumeur est petite"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La colectomie carcinologique emporte le drainage lymphatique ; la tumorectomie n'est pas carcinologique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer du côlon — chirurgie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Argilés G et al. Localised colon cancer: ESMO Clinical Practice Guidelines. Ann Oncol 2020;31(10):1291-1305. doi:10.1016/j.annonc.2020.06.022",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0461",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Cancer colorectal métastatique (ESMO 2023) :",
+      "propositions": {
+        "A": "Typage RAS et BRAF avant la première ligne",
+        "B": "Les anti-EGFR sont réservés aux tumeurs RAS sauvages",
+        "C": "Le pembrolizumab est une option de première ligne des tumeurs MSI-H/dMMR",
+        "D": "Des métastases hépatiques résécables peuvent être opérées à visée curative",
+        "E": "La mutation BRAF V600E est un facteur de bon pronostic"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "BRAF V600E est un facteur de mauvais pronostic des tumeurs MSS métastatiques ; il existe des options ciblées (encorafénib + cétuximab).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer colorectal — métastatique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cervantes A et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. Ann Oncol 2023;34(1):10-32. doi:10.1016/j.annonc.2022.10.003 (remplacée en 2026 : doi:10.1016/j.annonc.2026.03.005)",
+          "date": "2023"
+        },
+        {
+          "reference": "André T et al. Pembrolizumab in MSI-H advanced colorectal cancer (KEYNOTE-177). N Engl J Med 2020;383(23):2207-2218",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0462",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dépistage du cancer colorectal chez les sujets à risque moyen (USPSTF 2021) :",
+      "propositions": {
+        "A": "Dépistage recommandé de 50 à 75 ans",
+        "B": "Dépistage proposé dès 45 ans",
+        "C": "Décision individuelle au-delà de 75 ans",
+        "D": "Coloscopie systématique dès 30 ans",
+        "E": "Le test immunologique positif doit être suivi d'une coloscopie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "USPSTF 2021 : 50–75 ans (grade A), 45–49 ans (grade B), 76–85 ans sélectif ; tout test de selles positif impose une coloscopie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-003"
+      ],
+      "theme": "Cancer colorectal — dépistage",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "USPSTF. Screening for Colorectal Cancer: Recommendation Statement. JAMA 2021;325(19):1965-1977. doi:10.1001/jama.2021.6238",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0463",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Score d'Alvarado (MANTRELS) :",
+      "propositions": {
+        "A": "La migration de la douleur vers la fosse iliaque droite vaut 1 point",
+        "B": "La douleur provoquée de la fosse iliaque droite vaut 2 points",
+        "C": "La leucocytose vaut 2 points",
+        "D": "La CRP vaut 2 points",
+        "E": "Le total maximal est de 10"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "MANTRELS : migration 1, anorexie 1, nausées/vomissements 1, douleur FID 2, défense/décompression 1, température 1, leucocytose 2, polynucléose 1 ; la CRP n'y figure pas (elle figure dans l'AIR et l'AAS).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — score d'Alvarado",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Alvarado A. A practical score for the early diagnosis of acute appendicitis. Ann Emerg Med 1986;15(5):557-564",
+          "date": "1986"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0464",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Utilisation des scores cliniques selon la WSES 2020 :",
+      "propositions": {
+        "A": "Les scores servent à exclure l'appendicite et à identifier les patients à risque intermédiaire",
+        "B": "L'AIR et l'AAS sont les scores les plus performants chez l'adulte",
+        "C": "L'Alvarado est recommandé pour confirmer l'appendicite chez l'adulte",
+        "D": "Chez l'enfant, le diagnostic ne doit pas reposer sur un score seul",
+        "E": "Chez la femme enceinte, biologie et CRP doivent toujours être demandées"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Recommandations 1.2.1, 1.4 (1A), 1.5, 1.2.2 ; l'Alvarado n'est pas recommandé pour confirmer (1.3).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — scores",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confirmer une appendicite sur un score d'Alvarado.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0465",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Imagerie de l'appendicite selon la WSES 2020 :",
+      "propositions": {
+        "A": "Échographie en première intention si une imagerie est indiquée",
+        "B": "Scanner injecté à faible dose préféré au scanner standard après échographie négative",
+        "C": "IRM chez la femme enceinte après échographie non concluante",
+        "D": "Scanner systématique de première intention chez l'enfant",
+        "E": "Imagerie en coupes avant chirurgie en cas de douleur de la FID persistante avec bilan normal"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Recommandations 1.10, 1.11, 1.13.2, 1.14.2 (pas de scanner de routine chez l'enfant), 1.12.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — imagerie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0466",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Essai CODA (2020) :",
+      "propositions": {
+        "A": "Les antibiotiques étaient non inférieurs à l'appendicectomie sur l'état de santé à 30 jours",
+        "B": "Environ 29 % des patients du bras antibiotiques avaient été opérés à 90 jours",
+        "C": "Le taux d'appendicectomie à 90 jours atteignait 41 % en cas d'appendicolithe",
+        "D": "L'excès de complications sous antibiotiques concernait surtout les patients avec appendicolithe",
+        "E": "Les patients du bras chirurgie étaient opérés par laparotomie dans la majorité des cas"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "CODA : 1 552 adultes ; 96 % des appendicectomies par cœlioscopie ; complications 8,1 vs 3,5/100, dues aux appendicolithes (20,2 vs 3,6/100).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 96 % de cœlioscopies."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — antibiothérapie seule",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "CODA Collaborative. A Randomized Trial Comparing Antibiotics with Appendectomy for Appendicitis. N Engl J Med 2020;383(20):1907-1919. doi:10.1056/NEJMoa2014320",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0467",
+      "format": "QCS (réponse unique)",
+      "enonce": "Dans l'essai APPAC, quel était le schéma antibiotique du bras non opératoire ?",
+      "propositions": {
+        "A": "Amoxicilline-acide clavulanique 3 g/j pendant 8 à 15 jours",
+        "B": "Ertapénem IV 1 g/j pendant 3 jours puis lévofloxacine 500 mg/j + métronidazole 500 mg × 3/j pendant 7 jours",
+        "C": "Moxifloxacine orale 400 mg/j pendant 7 jours",
+        "D": "Ceftriaxone 2 g/j pendant 10 jours",
+        "E": "Dose unique de céfazoline"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "A = essai français de Vons (2011) ; C = bras oral d'APPAC II (2021).",
+      "explications_par_proposition": {
+        "A": "Faux (Vons 2011).",
+        "B": "Vrai.",
+        "C": "Faux (APPAC II).",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — essais",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Salminen P et al. Antibiotic Therapy vs Appendectomy for Uncomplicated Acute Appendicitis: APPAC. JAMA 2015;313(23):2340-2348. doi:10.1001/jama.2015.6154",
+          "date": "2015"
+        },
+        {
+          "reference": "Vons C et al. Amoxicillin plus clavulanic acid versus appendicectomy for acute uncomplicated appendicitis. Lancet 2011;377(9777):1573-1579",
+          "date": "2011"
+        },
+        {
+          "reference": "Sippola S et al. APPAC II Randomized Clinical Trial. JAMA 2021;325(4):353-362. doi:10.1001/jama.2020.23525",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0468",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Suivi à 5 ans de l'essai APPAC :",
+      "propositions": {
+        "A": "Probabilité de récidive tardive de 39,1 % après traitement antibiotique",
+        "B": "Les récidives opérées étaient rarement compliquées (2,3 %)",
+        "C": "Le taux global de complications était plus faible dans le groupe antibiotiques",
+        "D": "La récidive était exceptionnelle (< 5 %)",
+        "E": "Ces données doivent être présentées au patient lors de la décision partagée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Complications globales 6,5 % (antibiotiques) vs 24,4 % (appendicectomie, voie ouverte dans APPAC).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — récidive après antibiotiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Salminen P et al. Five-Year Follow-up of the APPAC Randomized Clinical Trial. JAMA 2018;320(12):1259-1265. doi:10.1001/jama.2018.13201",
+          "date": "2018"
+        },
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0469",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Antibiothérapie et appendicectomie (WSES 2020) :",
+      "propositions": {
+        "A": "Une dose unique préopératoire d'antibiotique à large spectre",
+        "B": "Pas d'antibiotique postopératoire pour une forme non compliquée",
+        "C": "Pour une forme compliquée avec contrôle de la source, pas plus de 3 à 5 jours",
+        "D": "Chez l'enfant opéré d'une forme compliquée, relais oral après 48 h et durée totale < 7 jours",
+        "E": "Pour une forme compliquée, 14 jours systématiques"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Recommandations 7.1–7.4 ; cohérent avec STOP-IT (environ 4 jours aussi efficaces qu'environ 8 jours après contrôle de la source).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — antibiothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prolonger les antibiotiques après une forme non compliquée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        },
+        {
+          "reference": "Sawyer RG et al. Trial of short-course antimicrobial therapy for intraabdominal infection (STOP-IT). N Engl J Med 2015;372(21):1996-2005. doi:10.1056/NEJMoa1411162",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0470",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Appendicite chez la femme enceinte :",
+      "propositions": {
+        "A": "L'échographie de compression graduée est l'imagerie initiale",
+        "B": "L'IRM est suggérée après échographie non concluante",
+        "C": "Le traitement non opératoire est recommandé pour éviter l'anesthésie",
+        "D": "La cœlioscopie est une option sûre si l'expertise existe",
+        "E": "La morbidité (péritonite, sepsis) est accrue par rapport à la femme non enceinte"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "WSES : 1.13.1, 1.13.2, 2.1.2 (pas de traitement non opératoire), 4.7 ; Abbasi 2014 : péritonite 20,3 %, complications environ doublées.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        },
+        {
+          "reference": "Abbasi N, Patenaude V, Abenhaim HA. Management and outcomes of acute appendicitis in pregnancy. BJOG 2014;121(12):1509-1514. doi:10.1111/1471-0528.12736",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0471",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Abcès appendiculaire chez un homme de 58 ans :",
+      "propositions": {
+        "A": "Cœlioscopie possible en première intention si expertise avancée",
+        "B": "Antibiotiques et drainage percutané si l'expertise cœlioscopique manque",
+        "C": "Coloscopie et scanner injecté à distance en cas de traitement non opératoire",
+        "D": "Le risque de néoplasie appendiculaire dans les formes compliquées après 40 ans est de 3 à 17 %",
+        "E": "Appendicectomie d'intervalle systématique dans tous les cas"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "WSES 6.1–6.4 : l'appendicectomie d'intervalle n'est pas systématique chez l'adulte jeune et l'enfant ; après 40 ans, bilan colique et scanner.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite compliquée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la coloscopie après 40 ans.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0472",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Délais opératoires (WSES 2020) :",
+      "propositions": {
+        "A": "Forme non compliquée de l'adulte : prochaine liste opératoire, dans les 24 heures",
+        "B": "Ne pas différer au-delà de 24 heures après l'admission",
+        "C": "Forme compliquée de l'enfant : dans les 8 heures",
+        "D": "Un délai de 72 heures est sans conséquence",
+        "E": "Une appendicectomie ambulatoire peut être organisée pour les formes non compliquées"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Recommandations 3.1, 3.2, 3.3 et 4.5.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai (circuit ERAS)."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — délais",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0473",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Traitement non opératoire de l'appendicite non compliquée de l'enfant :",
+      "propositions": {
+        "A": "Option à discuter en l'absence d'appendicolithe (WSES 2020)",
+        "B": "Succès à 1 an d'environ 67 % dans l'étude de Minneci (2020)",
+        "C": "Moins de jours d'incapacité qu'avec la chirurgie dans cette étude",
+        "D": "Recommandation forte de première intention",
+        "E": "Information de la famille sur le risque d'échec"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "WSES 2.2 = recommandation faible ; Minneci : 1 068 enfants, succès 67,1 %, 6,6 vs 10,9 jours d'incapacité.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        },
+        {
+          "reference": "Minneci PC et al. Nonoperative management vs laparoscopic appendectomy in children with uncomplicated appendicitis. JAMA 2020;324(6):581-593. doi:10.1001/jama.2020.10888",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0474",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Techniques opératoires recommandées par la WSES 2020 :",
+      "propositions": {
+        "A": "Cœlioscopie à trois trocarts préférée à l'incision unique",
+        "B": "Ligature simple du moignon plutôt qu'enfouissement",
+        "C": "Aspiration seule plutôt que lavage en cas de collection",
+        "D": "Drain systématique après forme compliquée chez l'adulte",
+        "E": "Examen histologique systématique de la pièce"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Recommandations 4.3, 4.11, 4.8, 4.12 (contre le drainage), 5.1.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "theme": "Appendicite — technique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg 2020;15:27. doi:10.1186/s13017-020-00306-3",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

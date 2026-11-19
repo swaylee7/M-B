@@ -4,7 +4,12 @@ titre: "Fiche — Lithiase urinaire : diagnostic et traitement (colique néphré
 specialite: UROL
 items_residanat: [RES-CHI-023, RES-CHI-030]
 dossier_source: DOS-UROL-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Imagerie de la CN simple : délai harmonisé (dans les 48 h, entre la 12e et la 48e heure selon la SFMU 2008 ; échographie + ASP ou scanner non injecté), comme DOS-UROL-0001 v1.2."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -183,7 +188,7 @@ sources:
 
 # Fiche — Lithiase urinaire et colique néphrétique (RES-CHI-023, RES-CHI-030)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-UROL-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Posologies à confronter au RCP et aux protocoles locaux. Cadre : EAU 2025 [S1] (édition en ligne 2026 [S2] non lue en texte intégral), CLAFU 2022 [S4–S8], conférence SFMU 2008 [S9], séries algériennes [S17–S20].
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-UROL-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Posologies à confronter au RCP et aux protocoles locaux. Cadre : EAU 2025 [S1] (édition en ligne 2026 [S2] non lue en texte intégral), CLAFU 2022 [S4–S8], conférence SFMU 2008 [S9], séries algériennes [S17–S20].
 
 ## 1. Définition (2 lignes)
 
@@ -219,7 +224,8 @@ Douleur lombaire aiguë évocatrice de CN
 │     hémocultures + lactates si fièvre ou sepsis
 └─ 4. Imagerie
       CN compliquée ou terrain à risque → EN URGENCE (scanner non injecté, sauf grossesse)
-      CN simple → dans les 24–48 h (scanner faible dose ; SFMU 2008 : échographie + ASP)
+      CN simple → dans les 48 h, entre la 12e et la 48e heure (SFMU 2008 : échographie + ASP
+      ou scanner non injecté) ; scanner faible dose privilégié (CLAFU 2022, EAU)
       doute diagnostique → scanner IMMÉDIAT
 ```
 

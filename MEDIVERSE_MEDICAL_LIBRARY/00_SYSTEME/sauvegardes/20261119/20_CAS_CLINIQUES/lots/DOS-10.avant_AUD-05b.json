@@ -1,0 +1,825 @@
+{
+  "agent": "DOS-10",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-PSYC-1001",
+      "titre": "Retrait social, voix et sentiment d'être espionné chez un étudiant de 22 ans",
+      "niveau": "residanat",
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 22 ans, étudiant en deuxième année de licence, célibataire, vit chez ses parents dans une grande ville du nord du pays.",
+      "motif_consultation": "Amené aux urgences psychiatriques d'un établissement public par son père et son frère pour « comportement étrange » et menaces envers un voisin.",
+      "antecedents": "Pas d'antécédent médical notable. Consommation quotidienne de cannabis depuis l'âge de 17 ans, tabac 15 cigarettes/j, pas d'alcool. Un oncle paternel « hospitalisé en psychiatrie » à plusieurs reprises. Développement normal, scolarité correcte jusqu'au baccalauréat.",
+      "symptomes": "Depuis environ huit mois : repli progressif, abandon des cours, inversion du rythme veille-sommeil, perte d'intérêt pour ses amis. Depuis trois mois : conviction que le voisin et « des services » l'espionnent par son téléphone, qu'ils « lisent ses pensées » ; il entend des voix d'hommes qui commentent ses gestes et l'insultent. Il a démonté son téléphone et menacé le voisin la veille avec un couteau de cuisine.",
+      "examen_clinique": "Patient méfiant, présentation négligée, attitudes d'écoute, rires immotivés, discours diffluent avec barrages, néologisme (« télécerveau »), affect émoussé et discordant. Délire de persécution et d'influence non systématisé, mécanismes hallucinatoire et interprétatif, adhésion totale, aucun insight. Pas d'idée suicidaire exprimée. Orienté, vigilance normale. Examen somatique et neurologique normal ; PA 125/75 mmHg, FC 88/min, T 36,8 °C, poids 64 kg, IMC 21 kg/m².",
+      "biologie": "Hémogramme normal (Hb 14,6 g/dL ; leucocytes 7 200/mm³ ; plaquettes 260 000/mm³). Na 140 mmol/L (135-145), K 4,1 mmol/L (3,5-5), créatinine 78 µmol/L (60-110), ASAT/ALAT normales, glycémie à jeun 0,88 g/L (0,70-1,10), cholestérol total 1,70 g/L, triglycérides 0,95 g/L, TSH 1,9 mUI/L (0,4-4). Dépistage urinaire : cannabinoïdes positifs, autres toxiques négatifs. Sérologies VIH et syphilis négatives.",
+      "imagerie": "IRM cérébrale normale. ECG : rythme sinusal, QTc 410 ms.",
+      "hypotheses_diagnostiques": [
+        "Schizophrénie (forme paranoïde) inaugurée par une phase prodromique de cinq mois",
+        "Trouble psychotique induit par le cannabis",
+        "Trouble schizophréniforme si la durée était inférieure à six mois"
+      ],
+      "diagnostics_differentiels": [
+        "Psychose induite par le cannabis (persistance des symptômes et phase prodromique antérieure plaident contre)",
+        "Épisode maniaque ou dépressif avec caractéristiques psychotiques (pas de syndrome thymique)",
+        "Cause organique (examen neurologique, biologie et IRM normaux)",
+        "Trouble délirant (désorganisation et symptômes négatifs présents)"
+      ],
+      "examens_a_demander": [
+        "Bilan biologique de référence et toxiques urinaires",
+        "IRM cérébrale",
+        "ECG avec QTc",
+        "Mesures métaboliques de référence (poids, IMC, tour de taille, PA, glycémie, lipides)",
+        "EEG uniquement si signes paroxystiques ou confusion"
+      ],
+      "diagnostic_final": "Schizophrénie selon le DSM-5-TR (symptômes du critère A depuis plus d'un mois, signes continus depuis environ huit mois, déclin fonctionnel), forme paranoïde ; trouble de l'usage du cannabis comorbide.",
+      "traitement": "Refus de soins avec troubles rendant le consentement impossible et nécessité de soins immédiats : présentation par le père au psychiatre de l'établissement public et mise en observation du fait d'un tiers en unité fermée (bulletin d'admission, durée maximale de 15 jours — loi 18-11, art. 137-139). Rispéridone en monothérapie, début 1 mg/j puis augmentation progressive vers 2 à 6 mg/j selon l'efficacité et la tolérance (mhGAP-IG 2.0). Pas d'anticholinergique systématique. Psychoéducation du patient et de la famille, information sur le rôle du cannabis, entretien motivationnel, aide au sevrage tabagique. Au 12e jour, amélioration nette ; le patient accepte de poursuivre les soins en service ouvert (art. 135-136).",
+      "surveillance": "Clinique hebdomadaire les 6 premières semaines (efficacité, effets extrapyramidaux, sédation, idées suicidaires). Poids mensuel pendant 3 mois puis trimestriel ; glycémie à jeun, lipides et PA à 3 et 6 mois puis annuellement (CANMAT-ISBD 2018). Prolactine si galactorrhée ou troubles sexuels. ECG de contrôle après titration.",
+      "evolution": "Rémission partielle à 6 semaines (disparition des hallucinations, persistance d'une méfiance et d'un émoussement). À 5 mois, arrêt du traitement de sa propre initiative et reprise du cannabis, suivis d'une rechute délirante. Une forme injectable à action prolongée est discutée avec lui et sa famille ; reprise des études aménagée avec un programme de réhabilitation.",
+      "explication_pedagogique": "Ce cas illustre la séquence typique prodromes → épisode aigu, la nécessité d'éliminer une cause organique malgré un dépistage positif au cannabis, le choix d'un antipsychotique en monothérapie avec posologie progressive, l'application du cadre légal algérien (mise en observation du fait d'un tiers, uniquement en structure publique) puis le passage aux soins libres, et le risque majeur de rechute à l'arrêt du traitement et à la reprise du cannabis, justifiant un traitement d'entretien d'au moins 7 à 12 mois (OMS) et la discussion d'une forme retard.",
+      "questions": [
+        {
+          "question": "Quels arguments permettent de retenir le diagnostic de schizophrénie plutôt qu'un trouble schizophréniforme ?",
+          "reponse": "La durée totale des signes (phase prodromique comprise) dépasse six mois, avec une phase active de plus d'un mois et un déclin fonctionnel net (abandon des études)."
+        },
+        {
+          "question": "Le dépistage positif au cannabis permet-il de conclure à une psychose induite ?",
+          "reponse": "Non : la phase prodromique ancienne, la persistance des symptômes et la présence de symptômes négatifs et de désorganisation orientent vers une schizophrénie ; le cannabis est un facteur de risque et de rechute, à prendre en charge."
+        },
+        {
+          "question": "Quel cadre légal utiliser devant le refus de soins ?",
+          "reponse": "La mise en observation du fait d'un tiers (loi 18-11, art. 137-140) dans un service ou une unité fermée d'une structure publique, au plus 15 jours (prolongeable une fois), sur présentation du patient par un membre de la famille ; elle peut ensuite être transformée en hospitalisation du fait d'un tiers ou laisser place aux soins libres."
+        },
+        {
+          "question": "Quelle posologie de rispéridone proposer ?",
+          "reponse": "Début à 1 mg/j puis augmentation progressive à 2-6 mg/j (maximum 10 mg/j) selon la réponse et la tolérance (mhGAP-IG 2.0) — à confronter au RCP."
+        },
+        {
+          "question": "Quelle durée de traitement d'entretien proposer ?",
+          "reponse": "Au moins 7 à 12 mois après la rémission d'un premier épisode (OMS 2023), avec réévaluation partagée ; la rechute survenue à l'arrêt incite à un traitement plus prolongé et à discuter une forme injectable à action prolongée."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        },
+        {
+          "reference": "OMS. mhGAP guideline 2023 (DOC-00049)",
+          "date": "2023"
+        },
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074), art. 128-164",
+          "date": "2018"
+        },
+        {
+          "reference": "NICE CG178 Psychosis and schizophrenia in adults, 2014 (mise à jour)",
+          "date": "2014"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-PSYC-1002",
+      "titre": "Fièvre et rigidité trois jours après une sédation par halopéridol",
+      "niveau": "dems",
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 34 ans, sans emploi, schizophrénie connue depuis 10 ans.",
+      "motif_consultation": "Appel du service de psychiatrie pour fièvre et altération de la conscience chez un patient hospitalisé d'office depuis 4 jours.",
+      "antecedents": "Schizophrénie paranoïde ; dernier traitement (rispéridone) arrêté depuis 3 mois. Pas d'allergie connue.",
+      "symptomes": "Admis pour agitation délirante, il a reçu sur 24 heures plusieurs injections intramusculaires d'halopéridol (dose cumulée 20 mg) avec une hydratation insuffisante (refus de boire). Depuis 24 heures : fièvre progressive, raideur, sueurs profuses, mutisme puis somnolence.",
+      "examen_clinique": "T 40,1 °C, FC 128/min, FR 28/min, PA fluctuante entre 150/95 et 105/60 mmHg, sueurs, rigidité « en tuyau de plomb » des quatre membres, tremblement, conscience altérée (répond de façon inadaptée). Pas de raideur méningée franche, pas de purpura, pas de foyer infectieux évident, pas de myosis ni de clonies spontanées.",
+      "biologie": "CPK 18 500 UI/L (N < 200). Leucocytes 15 800/mm³. Créatinine 165 µmol/L (60-110). Na 149 mmol/L (135-145), K 5,3 mmol/L. ASAT 180 UI/L (N < 40). Myoglobinurie positive. CRP 22 mg/L. Hémocultures en cours.",
+      "imagerie": "Scanner cérébral normal. Ponction lombaire (après imagerie) : liquide clair, 2 éléments/mm³, protéinorachie 0,35 g/L, glycorachie normale.",
+      "hypotheses_diagnostiques": [
+        "Syndrome malin des neuroleptiques",
+        "Méningo-encéphalite infectieuse",
+        "Catatonie maligne",
+        "Coup de chaleur"
+      ],
+      "diagnostics_differentiels": [
+        "Syndrome sérotoninergique (pas de sérotoninergique, pas de clonies ni d'hyperréflexie)",
+        "Hyperthermie maligne (pas d'anesthésie)",
+        "Intoxication anticholinergique (peau sèche habituellement, pas de rigidité)",
+        "Méningo-encéphalite (LCR normal)",
+        "Sevrage alcoolique compliqué (pas d'alcoolisme)"
+      ],
+      "examens_a_demander": [
+        "CPK répétées, ionogramme, créatinine, bilan hépatique, hémostase",
+        "Myoglobinurie, gaz du sang, lactates",
+        "Hémocultures, ECBU, radiographie thoracique",
+        "Imagerie cérébrale et ponction lombaire",
+        "ECG"
+      ],
+      "diagnostic_final": "Syndrome malin des neuroleptiques (exposition à un antagoniste dopaminergique, hyperthermie, rigidité, altération de l'état mental, élévation majeure des CPK, supérieure à 4 fois la normale, labilité tensionnelle, tachycardie et tachypnée, bilan infectieux négatif) compliqué de rhabdomyolyse et d'insuffisance rénale aiguë.",
+      "traitement": "Arrêt immédiat de tout antipsychotique. Transfert en réanimation : refroidissement externe, réhydratation intraveineuse abondante avec surveillance de la diurèse, correction de l'hypernatrémie, prévention thromboembolique, protection des voies aériennes. Traitements spécifiques discutés par la réanimation (benzodiazépines, agonistes dopaminergiques, dantrolène ; ECT dans les formes réfractaires) : usages hors AMM, niveau de preuve faible, doses divergentes selon les revues consultées [POSOLOGIE À VÉRIFIER — protocole de réanimation]. Information du patient et de la famille ; signalement de l'effet indésirable aux autorités sanitaires (pharmacovigilance, art. 177 de la loi 18-11). Les obligations de la mesure d'hospitalisation d'office continuent de s'appliquer (certificats transmis, art. 160).",
+      "surveillance": "Température, constantes, conscience, CPK et créatinine quotidiennes jusqu'à normalisation ; diurèse ; kaliémie ; signes de complications (insuffisance rénale, pneumopathie d'inhalation, thrombose).",
+      "evolution": "Apyrexie au 4e jour, normalisation des CPK au 9e jour, récupération de la fonction rénale. Après trois semaines, réintroduction d'un antipsychotique d'une autre classe, à faible dose, avec titration lente et surveillance quotidienne de la température et des CPK la première semaine, sans récidive.",
+      "explication_pedagogique": "Le SMN doit être évoqué devant toute fièvre avec rigidité et confusion sous antipsychotique, surtout après des injections répétées d'une molécule puissante chez un patient déshydraté. L'arrêt de l'antipsychotique et la réanimation priment ; les diagnostics différentiels infectieux doivent être éliminés. La réintroduction, si elle est nécessaire, se fait à distance, avec une autre molécule. Le cas rappelle aussi les limites posologiques de l'halopéridol en situation d'agitation (BETA : 5 mg IM, maximum 20 mg/24 h) et l'importance de l'hydratation.",
+      "questions": [
+        {
+          "question": "Quels éléments du consensus Delphi (Gurrera 2011) sont présents ?",
+          "reponse": "Exposition récente à un antagoniste dopaminergique, hyperthermie > 38 °C répétée, rigidité, altération de l'état mental, élévation des CPK, labilité sympathique (PA fluctuante, sueurs), tachycardie et tachypnée, bilan négatif pour d'autres causes."
+        },
+        {
+          "question": "Quelle est la première mesure thérapeutique ?",
+          "reponse": "L'arrêt immédiat de l'antipsychotique, puis la prise en charge en réanimation (refroidissement, réhydratation, prévention de l'insuffisance rénale)."
+        },
+        {
+          "question": "Quels facteurs favorisants identifiez-vous ?",
+          "reponse": "Injections répétées d'une molécule de forte puissance, augmentation rapide de la dose, voie intramusculaire, déshydratation, agitation."
+        },
+        {
+          "question": "Comment réintroduire un antipsychotique ?",
+          "reponse": "À distance (plusieurs semaines), avec une molécule différente, à faible dose, titration lente et surveillance de la température et des CPK ; éviter les formes retard au début."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Gurrera RJ et al. NMS diagnostic criteria, Delphi. J Clin Psychiatry 2011;72(9):1222-1228",
+          "date": "2011"
+        },
+        {
+          "reference": "Wilson MP et al. Project BETA psychopharmacology of agitation. West J Emerg Med 2012;13(1):26-34 (DOC-00098)",
+          "date": "2012"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074), art. 128-164",
+          "date": "2018"
+        }
+      ],
+      "statut": "audite_corrections_requises",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "vérifié : critères de Gurrera 2011 (CPK ≥ 4 × N) ; marqueur du traitement spécifique maintenu et précisé",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0001.md",
+        "reserve": "posologies hors AMM du traitement spécifique du SMN non sourçables (protocole de réanimation)"
+      }
+    },
+    {
+      "id": "CAS-PSYC-1003",
+      "titre": "Insomnie sans fatigue, dépenses et projets grandioses trois semaines après un antidépresseur",
+      "niveau": "residanat",
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 27 ans, ingénieur, marié, sans enfant.",
+      "motif_consultation": "Consultation demandée par son épouse et sa mère pour « changement de comportement » depuis dix jours.",
+      "antecedents": "Épisode dépressif caractérisé d'intensité moyenne il y a deux mois, après un conflit professionnel ; son médecin a prescrit de l'escitalopram 10 mg/j, il y a trois semaines. À l'interrogatoire de la mère : à 22 ans, une période d'environ cinq jours de bonne humeur inhabituelle avec peu de sommeil et beaucoup de projets, sans conséquence. Père traité au long cours pour un « trouble de l'humeur ». Pas de toxique, pas d'alcool.",
+      "symptomes": "Depuis dix jours : sommeil réduit à 3 heures par nuit sans fatigue, logorrhée, idées qui « fusent », projets de créer trois entreprises, achat d'une voiture à crédit, irritabilité, altercation avec son supérieur ayant entraîné une mise à pied, désinhibition. Il se dit « guéri et plus intelligent que jamais ».",
+      "examen_clinique": "Patient hypersthénique, familier, tachypsychie, fuite des idées, distractibilité, humeur expansive et irritable, idées de grandeur non délirantes, pas d'hallucinations, pas d'idée suicidaire. Aucune conscience du trouble. Examen somatique normal : PA 130/80 mmHg, FC 92/min, T 37 °C, poids 74 kg, IMC 23 kg/m².",
+      "biologie": "Hémogramme normal. Na 141 mmol/L (135-145), créatinine 82 µmol/L (60-110), DFG estimé > 90 mL/min/1,73 m², calcémie 2,38 mmol/L (2,20-2,60), TSH 2,1 mUI/L (0,4-4), glycémie à jeun 0,92 g/L, bilan lipidique normal, bilan hépatique normal. Toxiques urinaires négatifs.",
+      "imagerie": "ECG normal (QTc 400 ms). Pas d'imagerie cérébrale (patient jeune, sans signe neurologique ni atypie).",
+      "hypotheses_diagnostiques": [
+        "Épisode maniaque sans caractéristiques psychotiques d'un trouble bipolaire de type I",
+        "Virage maniaque induit par l'escitalopram",
+        "Manie secondaire (toxique, endocrinienne) — écartée par le bilan"
+      ],
+      "diagnostics_differentiels": [
+        "Hypomanie (écartée : altération marquée du fonctionnement)",
+        "Intoxication par les stimulants (toxiques négatifs)",
+        "Hyperthyroïdie (TSH normale)",
+        "Trouble de la personnalité (épisode nettement délimité, rupture avec l'état antérieur)"
+      ],
+      "examens_a_demander": [
+        "Toxiques urinaires, TSH",
+        "Bilan préthérapeutique du lithium : créatinine et DFG, ionogramme, calcémie, TSH, ECG",
+        "IMC, glycémie, lipides (si antipsychotique)",
+        "Recherche d'antécédents auprès de l'entourage"
+      ],
+      "diagnostic_final": "Épisode maniaque sans caractéristiques psychotiques apparu sous escitalopram, avec antécédent probable d'hypomanie et antécédent familial au premier degré. Selon le DSM-5-TR, un épisode maniaque apparu sous antidépresseur ne fonde le diagnostic de trouble bipolaire de type I que s'il persiste à un niveau pleinement syndromique au-delà de l'effet physiologique du traitement : diagnostic provisoire à l'admission (escitalopram en cours), confirmé par la persistance du syndrome maniaque plusieurs jours après l'arrêt. L'association d'une hypomanie antérieure et d'un épisode dépressif caractérisé situait déjà le patient dans le spectre bipolaire.",
+      "traitement": "Arrêt immédiat de l'escitalopram. Hospitalisation en service ouvert acceptée après discussion avec la famille (à défaut, en cas de refus avec danger, mise en observation du fait d'un tiers en structure publique — loi 18-11). Lithium (traitement de première ligne de CANMAT-ISBD) : début 300 mg/j, augmentation progressive tous les 7 jours (mhGAP-IG) ; lithiémie à la vallée environ 5 jours après chaque palier, cible 0,8-1,2 mEq/L en phase aiguë. Benzodiazépine sur une courte durée en cas d'agitation, par exemple lorazépam 2 mg per os, renouvelable, maximum 12 mg/24 h (consensus BETA, DOC-00098). En cas de réponse insuffisante ou de manie sévère, association d'un antipsychotique atypique (quétiapine, rispéridone, aripiprazole). Psychoéducation du patient et de l'épouse.",
+      "surveillance": "Lithiémies jusqu'à deux dosages consécutifs dans la cible, puis tous les 3 à 6 mois ; créatinine, TSH et calcémie à 6 mois puis annuellement ; poids ; signes de toxicité ; humeur (risque de bascule dépressive) ; information sur les interactions (AINS, IEC, ARA II, diurétiques) et la déshydratation.",
+      "evolution": "Lithiémie 0,62 mEq/L au premier contrôle, puis 0,91 mEq/L après augmentation de dose. Amélioration nette en trois semaines, sortie à J24. Maintien du lithium en entretien (cible 0,6-1,0 mEq/L), suivi conjoint psychiatre-médecin traitant, reprise du travail progressive.",
+      "explication_pedagogique": "Ce cas montre l'importance de rechercher systématiquement une bipolarité avant de prescrire un antidépresseur (antécédent d'hypomanie connu de la mère, antécédent familial) : l'antidépresseur en monothérapie a précipité une manie. Il illustre les critères de la manie (durée, altération marquée), la conduite à tenir (arrêt de l'antidépresseur, thymorégulateur de première ligne, hospitalisation) et la surveillance du lithium.",
+      "questions": [
+        {
+          "question": "Pourquoi parle-t-on de manie et non d'hypomanie ?",
+          "reponse": "Les symptômes durent depuis plus d'une semaine et entraînent une altération marquée du fonctionnement (mise à pied, dépenses inconsidérées)."
+        },
+        {
+          "question": "Quel élément de l'anamnèse aurait dû faire différer l'antidépresseur seul ?",
+          "reponse": "L'antécédent d'hypomanie (à rechercher auprès de l'entourage) et l'antécédent familial de trouble de l'humeur ; la HAS et CANMAT-ISBD recommandent de rechercher une bipolarité et d'éviter l'antidépresseur en monothérapie dans ce contexte."
+        },
+        {
+          "question": "Quel bilan avant lithium ?",
+          "reponse": "Créatinine et DFG, ionogramme, calcémie, TSH, ECG selon l'âge et les facteurs de risque, test de grossesse chez la femme ; IMC."
+        },
+        {
+          "question": "Comment surveiller la lithiémie ?",
+          "reponse": "Prélèvement à la vallée (12 h après la prise), 5 jours après chaque modification ; deux dosages consécutifs dans la cible en phase aiguë puis tous les 3 à 6 mois (CANMAT-ISBD 2018)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        },
+        {
+          "reference": "HAS. Patient avec un trouble bipolaire : repérage et prise en charge initiale en premier recours, 2015",
+          "date": "2015"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Wilson MP et al. Project BETA psychopharmacology of agitation. West J Emerg Med 2012;13(1):26-34 (DOC-00098)",
+          "date": "2012"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "corrigé (majeure) : raisonnement diagnostique DSM-5-TR (manie sous antidépresseur) ; marqueur de posologie levé (lorazépam, BETA)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0002.md"
+      }
+    },
+    {
+      "id": "CAS-PSYC-1004",
+      "titre": "Tremblement, ataxie et confusion chez une patiente de 64 ans traitée par lithium",
+      "niveau": "dems",
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 64 ans, retraitée de l'enseignement.",
+      "motif_consultation": "Amenée aux urgences pour confusion et troubles de la marche depuis 24 heures.",
+      "antecedents": "Trouble bipolaire de type I stabilisé sous lithium 800 mg/j depuis 12 ans (dernières lithiémies 0,6-0,7 mmol/L). Hypertension artérielle découverte il y a un mois : prescription par un autre médecin d'énalapril associé à l'hydrochlorothiazide. Ibuprofène depuis 10 jours pour une gonarthrose. Diarrhée depuis 3 jours par forte chaleur.",
+      "symptomes": "Nausées, vomissements, diarrhée, tremblement grossier des mains, démarche ébrieuse, difficultés d'élocution, somnolence et désorientation apparues progressivement.",
+      "examen_clinique": "Patiente somnolente, désorientée, dysarthrique ; tremblement grossier, ataxie cérébelleuse, hyperréflexie, myoclonies discrètes. Signes de déshydratation (muqueuses sèches, pli cutané). PA 105/60 mmHg, FC 52/min, T 37,2 °C. Pas de signe de localisation.",
+      "biologie": "Lithiémie 2,6 mmol/L (zone thérapeutique d'entretien de l'adulte 0,6-1,0 mmol/L selon CANMAT-ISBD ; cibles plus basses chez le sujet âgé). Créatinine 168 µmol/L (valeur antérieure 85 ; normes 45-90). Na 134 mmol/L, K 3,3 mmol/L. TSH 6,8 mUI/L (0,4-4). Calcémie 2,62 mmol/L (2,20-2,60). Glycémie 1,02 g/L.",
+      "imagerie": "ECG : bradycardie sinusale à 52/min, aplatissement des ondes T, QTc 470 ms. Scanner cérébral normal.",
+      "hypotheses_diagnostiques": [
+        "Intoxication au lithium (surdosage chronique) favorisée par la déshydratation et les interactions médicamenteuses",
+        "Insuffisance rénale aiguë fonctionnelle",
+        "Hypothyroïdie et hypercalcémie induites par le lithium"
+      ],
+      "diagnostics_differentiels": [
+        "Accident vasculaire cérébral (scanner normal, pas de signe focal)",
+        "Encéphalopathie métabolique d'autre cause",
+        "Épisode thymique mixte (signes neurologiques au premier plan)",
+        "Syndrome sérotoninergique ou malin (pas d'hyperthermie, pas de sérotoninergique)"
+      ],
+      "examens_a_demander": [
+        "Lithiémie répétée",
+        "Créatinine, ionogramme, calcémie, TSH",
+        "ECG et monitorage",
+        "Imagerie cérébrale si doute",
+        "Revue complète des médicaments"
+      ],
+      "diagnostic_final": "Intoxication chronique au lithium avec encéphalopathie, favorisée par une déshydratation (diarrhée, chaleur) et par l'association d'un IEC, d'un diurétique thiazidique et d'un AINS, compliquée d'insuffisance rénale aiguë ; hypothyroïdie et hypercalcémie à explorer.",
+      "traitement": "Arrêt du lithium, de l'ibuprofène, de l'hydrochlorothiazide et de l'énalapril. Réhydratation intraveineuse sous surveillance de la diurèse et de la natrémie. Monitorage cardiaque. Avis néphrologique et de réanimation sur l'indication d'une épuration extrarénale [À VÉRIFIER — protocole local]. Dosages répétés de la lithiémie et de la créatinine. Déclaration de pharmacovigilance aux autorités sanitaires (art. 177 de la loi 18-11). Information de la patiente et de la famille.",
+      "surveillance": "Conscience, état neurologique, ECG, diurèse, lithiémie et créatinine quotidiennes jusqu'à normalisation ; humeur (risque de rechute après l'arrêt) ; TSH et calcémie de contrôle.",
+      "evolution": "Amélioration neurologique en 4 jours, créatinine revenue à 98 µmol/L. Discussion en réunion pluridisciplinaire : antihypertenseur sans interaction majeure avec le lithium choisi avec le médecin traitant ; reprise éventuelle du lithium à dose réduite avec cibles adaptées au sujet âgé et surveillance rapprochée, ou relais par un autre traitement d'entretien (quétiapine, lamotrigine) ; substitution thyroïdienne à discuter ; éducation sur la déshydratation et les médicaments à éviter.",
+      "explication_pedagogique": "Le lithium a une marge thérapeutique étroite. La déshydratation et les interactions (AINS, IEC, ARA II, diurétiques) en sont les principaux facteurs d'intoxication, surtout chez le sujet âgé (CANMAT-ISBD 2018). Toute nouvelle prescription chez un patient sous lithium impose de vérifier les interactions et de contrôler la lithiémie. Les épisodes de toxicité majorent le risque d'atteinte rénale chronique.",
+      "questions": [
+        {
+          "question": "Quels facteurs ont favorisé l'intoxication ?",
+          "reponse": "Déshydratation (diarrhée, chaleur), diurétique thiazidique, IEC, AINS, âge, altération de la fonction rénale."
+        },
+        {
+          "question": "Quelle est la première mesure ?",
+          "reponse": "Arrêter le lithium et les médicaments en cause, réhydrater, doser la lithiémie et la créatinine, réaliser un ECG et demander un avis spécialisé (épuration extrarénale selon la gravité)."
+        },
+        {
+          "question": "Quelles anomalies liées au traitement au long cours rechercher ?",
+          "reponse": "Atteinte rénale (DFG), hypothyroïdie (TSH), hyperparathyroïdie (calcémie) — surveillance à 6 mois puis au moins annuelle selon CANMAT-ISBD."
+        },
+        {
+          "question": "Quelle obligation réglementaire en Algérie ?",
+          "reponse": "Déclarer l'effet indésirable médicamenteux aux autorités sanitaires (art. 177 de la loi 18-11)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "précisé (mineure) : cibles de lithiémie plus basses chez le sujet âgé",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0002.md"
+      }
+    },
+    {
+      "id": "CAS-MLEG-1001",
+      "titre": "Ecchymose orbitaire et marques au cou chez une femme de 34 ans",
+      "niveau": "generaliste",
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 34 ans, mère de deux enfants, sans profession, mariée.",
+      "motif_consultation": "Consultation dans un établissement public de santé de proximité pour « douleurs au visage » ; elle demande un certificat.",
+      "antecedents": "Aucun antécédent médical, pas de traitement anticoagulant. Deux consultations aux urgences dans l'année pour « chute dans l'escalier ».",
+      "symptomes": "Elle déclare avoir été frappée la veille vers 22 h à son domicile par son époux, à coups de poing au visage, et avoir été saisie au cou et aux bras. Douleur orbitaire gauche, douleur à la déglutition, insomnie, peur pour ses enfants.",
+      "examen_clinique": "Femme anxieuse, pleurs. Ecchymose violacée périorbitaire gauche de 4,5 × 3 cm avec œdème palpébral, sans trouble de l'oculomotricité ni diplopie, acuité visuelle conservée. Trois érosions linéaires parallèles de 2 à 3 cm, obliques, face latérale gauche du cou, et une ecchymose rougeâtre de 3 × 1,5 cm sous l'angle de la mandibule droite. Quatre ecchymoses ovalaires de 1 à 1,5 cm alignées sur la face interne du bras droit, à 8 cm au-dessus du pli du coude. Ecchymose verdâtre de 5 × 4 cm face postérieure de l'avant-bras gauche. Pas de pétéchies conjonctivales. Reste de l'examen normal.",
+      "biologie": "Non nécessaire au constat ; bilan d'hémostase non indiqué (pas de saignement anormal, lésions expliquées par le mécanisme allégué).",
+      "imagerie": "Radiographie ou scanner du massif facial à discuter selon l'examen ophtalmologique (fracture du plancher orbitaire à éliminer) ; ici examen ophtalmologique normal, scanner non réalisé en urgence.",
+      "hypotheses_diagnostiques": [
+        "Lésions récentes compatibles avec les violences alléguées",
+        "Violences conjugales répétées (antécédents de « chutes »)"
+      ],
+      "diagnostics_differentiels": [
+        "Chute accidentelle (sièges protégés et lésions de préhension peu compatibles)",
+        "Trouble de l'hémostase (aucun argument)"
+      ],
+      "examens_a_demander": [
+        "Examen ophtalmologique",
+        "Imagerie du massif facial si signe d'appel",
+        "Évaluation psychologique"
+      ],
+      "diagnostic_final": "Lésions traumatiques récentes (ecchymose périorbitaire, érosions cervicales, ecchymoses de préhension du bras) et une ecchymose d'aspect plus ancien de l'avant-bras, compatibles avec les violences alléguées, dans un contexte évocateur de violences conjugales répétées.",
+      "traitement": "Soins (antalgiques, froid local), avis ophtalmologique. Rédaction d'un certificat médical descriptif (art. 199 de la loi 18-11) : identité, date et heure de l'examen, déclarations rapportées au conditionnel, description lésion par lésion avec schéma, retentissement psychique, absence de qualification juridique et de désignation de l'auteur, signature et cachet ; photographies avec son accord ; double conservé. Remise en main propre à la patiente, jamais à l'époux. Information des services concernés des violences subies par une femme (art. 198), en expliquant la démarche à la patiente. Orientation vers le service de médecine légale pour la détermination des taux d'incapacité et des préjudices (art. 199). Évaluation du danger (menaces de mort, armes, enfants exposés), information sur les ressources d'aide, soutien psychologique.",
+      "surveillance": "Réexamen à 48-72 heures (apparition possible de nouvelles ecchymoses → certificat complémentaire), suivi psychologique, vigilance pour les enfants.",
+      "evolution": "Nouvelle consultation à J3 : apparition d'une ecchymose dorsale décrite dans un certificat complémentaire. La patiente a été examinée par le service de médecine légale et accompagnée par une association.",
+      "explication_pedagogique": "Ce cas illustre l'obligation pour tout médecin d'établir un certificat descriptif en cas de violence, les règles d'objectivité (propos rapportés, description sans interprétation, pas de désignation de l'auteur), la prudence quant à l'âge des lésions (ecchymose verdâtre d'aspect plus ancien, sans datation précise), l'obligation d'information des services concernés pour les violences subies par les femmes (art. 198) et le partage des rôles avec le médecin légiste (taux d'incapacité). Le secret médical interdit de remettre le certificat à l'époux.",
+      "questions": [
+        {
+          "question": "Le médecin généraliste peut-il se contenter d'orienter la patiente vers le légiste sans certificat ?",
+          "reponse": "Non : l'article 199 impose à tout médecin de constater les lésions et d'établir un certificat descriptif ; le manquement est puni d'une amende (art. 420)."
+        },
+        {
+          "question": "Comment rapporter les faits ?",
+          "reponse": "Au conditionnel ou entre guillemets (« Mme X déclare… »), sans désigner l'auteur comme établi ni qualifier juridiquement les faits."
+        },
+        {
+          "question": "Peut-on dater l'ecchymose verdâtre de l'avant-bras ?",
+          "reponse": "On peut seulement noter un aspect évoquant une lésion plus ancienne que les autres ; la datation précise par la couleur n'est pas fiable."
+        },
+        {
+          "question": "Quelle obligation d'information existe ?",
+          "reponse": "Informer les services concernés des violences subies, notamment par les femmes (loi 18-11, art. 198)."
+        },
+        {
+          "question": "À qui remettre le certificat ?",
+          "reponse": "En main propre à la patiente ; un double est conservé dans le dossier ; jamais au conjoint (secret médical)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992 (DOC-00107)",
+          "date": "1992"
+        },
+        {
+          "reference": "HAS. Certificat médical initial concernant une personne victime de violences, 2011",
+          "date": "2011"
+        },
+        {
+          "reference": "Simpson's Forensic Medicine, 15e éd., 2025 ; Knight's Forensic Pathology, 4e éd., 2016 (catalogue OUV-0689, OUV-0686)",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MLEG-1002",
+      "titre": "Nourrisson de 3 mois irritable après une « chute du canapé »",
+      "niveau": "residanat",
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nourrisson de sexe masculin, 3 mois, premier enfant.",
+      "motif_consultation": "Amené aux urgences pédiatriques par ses parents pour vomissements, irritabilité et somnolence depuis 24 heures ; ils évoquent une chute du canapé deux jours plus tôt.",
+      "antecedents": "Grossesse et accouchement sans particularité. Vitamine K reçue à la naissance. Vaccinations à jour. Pas d'antécédent familial de maladie hémorragique ni de fragilité osseuse.",
+      "symptomes": "Vomissements, pleurs incessants, refus du biberon, somnolence. Récit variable : chute du canapé selon le père, chute des bras selon la mère.",
+      "examen_clinique": "Nourrisson hypotonique, somnolent, fontanelle antérieure bombée, périmètre crânien au 97e percentile. Quatre ecchymoses ovalaires de 1 cm sur les faces latérales du thorax, disposées symétriquement. Ecchymose de 2 × 1 cm du pavillon de l'oreille droite. Pas de purpura diffus. Fond d'œil : hémorragies rétiniennes bilatérales.",
+      "biologie": "Hémoglobine 9,8 g/dL (N 10-13 à cet âge), plaquettes 310 000/mm³ (150 000-450 000), TP 92 %, TCA ratio 1,05, fibrinogène 2,6 g/L ; bilan phosphocalcique normal.",
+      "imagerie": "Scanner cérébral : hématomes sous-duraux bilatéraux de densités différentes. Bilan radiologique squelettique : fractures d'arcs costaux postérieurs droits en voie de consolidation.",
+      "hypotheses_diagnostiques": [
+        "Traumatisme crânien infligé (syndrome du bébé secoué) avec lésions d'âges différents",
+        "Maltraitance physique"
+      ],
+      "diagnostics_differentiels": [
+        "Chute accidentelle de faible hauteur (n'explique pas des lésions multiples d'âges différents)",
+        "Trouble de l'hémostase (bilan normal)",
+        "Ostéogenèse imparfaite, rachitisme (bilan et radiographies non évocateurs)",
+        "Méningite (contexte et imagerie)"
+      ],
+      "examens_a_demander": [
+        "Bilan d'hémostase complet",
+        "Imagerie cérébrale",
+        "Fond d'œil",
+        "Bilan radiologique squelettique complet",
+        "Bilan phosphocalcique",
+        "Examen de la fratrie si existante"
+      ],
+      "diagnostic_final": "Lésions intracrâniennes, rétiniennes, cutanées et osseuses d'âges différents, discordantes avec le mécanisme allégué, évocatrices de violences infligées (traumatisme crânien infligé).",
+      "traitement": "Hospitalisation en réanimation pédiatrique et avis neurochirurgical ; hospitalisation qui assure aussi la mise à l'abri. Information des autorités compétentes des sévices constatés chez un mineur (loi 18-11, art. 198 ; code de déontologie, art. 53-54) selon les procédures de protection de l'enfance (loi 15-12). Certificat médical descriptif détaillé (art. 199) ; recours au service de médecine légale ; photographies ; traçabilité des examens. Entretien avec les parents sans accusation, en recueillant leurs propos de manière neutre.",
+      "surveillance": "Neurologique, ophtalmologique, croissance du périmètre crânien ; suivi du développement ; coordination avec les services sociaux et judiciaires.",
+      "evolution": "Stabilisation neurologique ; mesure de protection décidée par l'autorité judiciaire ; suivi neurodéveloppemental à long terme organisé.",
+      "explication_pedagogique": "La discordance entre un mécanisme banal allégué et des lésions graves et d'âges différents (hématomes sous-duraux, hémorragies rétiniennes, fractures costales postérieures) impose d'évoquer une maltraitance. Le médecin doit protéger l'enfant (hospitalisation), éliminer les diagnostics différentiels (hémostase, maladies osseuses), informer les autorités (obligation légale et déontologique) et documenter précisément. Le secret médical ne s'oppose pas à cette information, prévue par la loi.",
+      "questions": [
+        {
+          "question": "Quels éléments sont évocateurs de lésions infligées ?",
+          "reponse": "Récit variable et discordant, retard de recours, ecchymoses chez un nourrisson qui ne se déplace pas, ecchymose du pavillon de l'oreille, hématomes sous-duraux d'âges différents, hémorragies rétiniennes, fractures costales postérieures."
+        },
+        {
+          "question": "Quels diagnostics différentiels éliminer ?",
+          "reponse": "Troubles de l'hémostase, maladies osseuses constitutionnelles ou métaboliques, causes infectieuses."
+        },
+        {
+          "question": "Quelles obligations du médecin ?",
+          "reponse": "Protéger (hospitalisation), informer les autorités compétentes (art. 198 de la loi 18-11 ; art. 54 du code de déontologie), établir un certificat descriptif (art. 199), demander l'avis du médecin légiste."
+        },
+        {
+          "question": "Le secret médical s'oppose-t-il à l'information des autorités ?",
+          "reponse": "Non : il s'agit d'un cas où la loi impose l'information ; seules les informations nécessaires sont transmises."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992 (DOC-00107)",
+          "date": "1992"
+        },
+        {
+          "reference": "Loi n° 15-12 du 15 juillet 2015 relative à la protection de l'enfant (intitulé confirmé)",
+          "date": "2015"
+        },
+        {
+          "reference": "Simpson's Forensic Medicine, 15e éd., 2025 ; Knight's Forensic Pathology, 4e éd., 2016 (catalogue OUV-0689, OUV-0686)",
+          "date": "2025"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MLEG-1003",
+      "titre": "Douleur thoracique renvoyée à domicile la nuit, décès le lendemain",
+      "niveau": "residanat",
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 52 ans, chauffeur, fumeur, hypertendu non traité.",
+      "motif_consultation": "Consultation à 2 h du matin aux urgences d'un établissement public hospitalier pour douleur thoracique.",
+      "antecedents": "Tabagisme 30 paquets-années, hypertension artérielle connue non traitée, père décédé d'infarctus à 55 ans.",
+      "symptomes": "Douleur rétrosternale constrictive depuis une heure, irradiant au bras gauche, avec sueurs. Le patient est vu par un médecin de garde seul aux urgences, sans senior joignable ; l'électrocardiographe du service est en panne depuis une semaine.",
+      "examen_clinique": "PA 165/95 mmHg, FC 98/min, auscultation normale. Le médecin conclut à une « douleur pariétale », prescrit un anti-inflammatoire et laisse sortir le patient à 2 h 40, sans ECG ni dosage de troponine, et sans que ces éléments soient tracés dans le dossier.",
+      "biologie": "Aucune biologie réalisée.",
+      "imagerie": "Aucun examen réalisé.",
+      "hypotheses_diagnostiques": [
+        "Syndrome coronarien aigu non diagnostiqué",
+        "Faute de diagnostic (absence d'examens élémentaires)",
+        "Faute d'organisation du service (ECG en panne, absence de senior)"
+      ],
+      "diagnostics_differentiels": [
+        "Aléa diagnostique non fautif (présentation atypique) — non retenu : tableau typique chez un patient à haut risque",
+        "Cause étrangère — non retenue"
+      ],
+      "examens_a_demander": [
+        "Expertise judiciaire (art. 353 de la loi 18-11) : analyse du dossier, des conditions de travail, du matériel, de l'organisation des gardes",
+        "Autopsie médico-légale si mort suspecte signalée"
+      ],
+      "diagnostic_final": "Décès par probable infarctus du myocarde (à confirmer par l'expertise) après un défaut de diagnostic aux urgences, associé à une désorganisation du service (absence de matériel et d'encadrement).",
+      "traitement": "Analyse des responsabilités : (1) responsabilité ADMINISTRATIVE de l'établissement pour faute de service (défaut d'examen élémentaire, matériel défaillant, absence de senior) devant les juridictions administratives ; (2) responsabilité PÉNALE personnelle possible du médecin pour homicide involontaire si une négligence ou faute professionnelle est avérée après expertise (art. 413 de la loi 18-11, renvoi à l'art. 288 du code pénal), l'organisation défaillante pouvant être prise en compte ; (3) responsabilité DISCIPLINAIRE devant le conseil régional de déontologie (saisine possible par la famille ou le chef d'établissement, art. 348) ; (4) responsabilité STATUTAIRE vis-à-vis de l'employeur. La famille peut aussi saisir la commission de conciliation et de médiation (art. 28). Côté établissement : déclaration et analyse de l'événement indésirable grave, réparation du matériel, organisation de la supervision des gardes.",
+      "surveillance": "Suivi des procédures ; mesures correctives (protocole douleur thoracique, ECG dans les 10 minutes, astreinte de senior).",
+      "evolution": "Après expertise, la faute de service est retenue (absence d'ECG, matériel défaillant connu, absence d'encadrement) ; indemnisation de la famille par l'établissement. L'appréciation pénale porte sur la part de négligence personnelle du médecin, compte tenu des conditions d'exercice.",
+      "explication_pedagogique": "Ce cas illustre la coexistence des responsabilités : réparation par l'établissement public (faute de service) et éventuelle responsabilité pénale personnelle (non assurable), disciplinaire et statutaire. Il montre le rôle central de l'expertise (faute « avérée, après expertise »), la notion de faute d'organisation, et l'importance de la traçabilité dans le dossier médical (art. 177).",
+      "questions": [
+        {
+          "question": "Devant quelle juridiction la famille demandera-t-elle réparation ?",
+          "reponse": "Devant les juridictions administratives : le médecin exerce dans un établissement public et la faute est une faute de service."
+        },
+        {
+          "question": "Le médecin peut-il être poursuivi pénalement ?",
+          "reponse": "Oui, la responsabilité pénale est personnelle : homicide involontaire par négligence ou faute professionnelle avérée (art. 413 de la loi 18-11, renvoi à l'art. 288 du code pénal), si l'expertise établit la faute et le lien de causalité."
+        },
+        {
+          "question": "Qu'apporte l'expertise ?",
+          "reponse": "Elle établit les faits techniques, la conformité des soins, la part de l'organisation, et le lien de causalité ; la loi exige une faute avérée après expertise (art. 353)."
+        },
+        {
+          "question": "Quels enseignements de prévention ?",
+          "reponse": "ECG systématique devant une douleur thoracique, traçabilité, supervision des gardes, maintenance du matériel, déclaration et analyse des événements indésirables."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (DOC-00108 ; modifications : DOC-00109 à DOC-00111)",
+          "date": "1966"
+        },
+        {
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (DOC-00112 ; loi 05-10 : DOC-00113)",
+          "date": "1975"
+        },
+        {
+          "reference": "Textbook of Patient Safety and Clinical Risk Management, 2021 (OUV-0700)",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-MLEG-1004",
+      "titre": "Paralysie faciale après parotidectomie en clinique privée : faute ou aléa ?",
+      "niveau": "dems",
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 41 ans, enseignante.",
+      "motif_consultation": "Consultation d'un avocat puis plainte après une paralysie faciale survenue au décours d'une parotidectomie pour tumeur bénigne, réalisée dans une clinique privée par un chirurgien libéral, avec un anesthésiste salarié de la clinique.",
+      "antecedents": "Adénome pléomorphe de la parotide droite. Pas d'autre antécédent.",
+      "symptomes": "Paralysie faciale périphérique droite partielle constatée au réveil, régressive en 8 mois avec une séquelle discrète de la branche marginale. La patiente affirme n'avoir jamais été informée du risque de lésion du nerf facial ; aucun document d'information ni mention d'information n'apparaît dans le dossier. Le compte rendu opératoire, détaillé, décrit une dissection difficile et un nerf identifié et préservé.",
+      "examen_clinique": "Séquelle motrice minime de la branche mandibulaire du nerf facial droit, cicatrice de bonne qualité.",
+      "biologie": "Non pertinent.",
+      "imagerie": "Électroneuromyographie : atteinte axonale partielle en voie de récupération.",
+      "hypotheses_diagnostiques": [
+        "Aléa thérapeutique (risque connu de l'intervention, réalisée selon les règles de l'art)",
+        "Faute technique (à apprécier par l'expertise)",
+        "Manquement au devoir d'information"
+      ],
+      "diagnostics_differentiels": [
+        "Faute technique caractérisée (section du nerf, absence d'identification) — non retenue au vu du compte rendu et de l'expertise"
+      ],
+      "examens_a_demander": [
+        "Expertise judiciaire : conformité de l'indication et de la technique, réalité de l'information, évaluation des préjudices après consolidation"
+      ],
+      "diagnostic_final": "Atteinte partielle du nerf facial correspondant à la réalisation d'un risque connu de la parotidectomie, sans faute technique selon l'expertise ; défaut d'information sur un risque grave normalement prévisible.",
+      "traitement": "Analyse : (1) l'atteinte nerveuse, risque inhérent à l'acte malgré une technique conforme, relève de l'aléa et n'engage pas, en elle-même, la responsabilité pour faute (obligation de moyens, art. 172 du code civil) ; (2) le défaut d'information sur un risque grave normalement prévisible constitue un manquement autonome (loi 18-11, art. 23 et 343 ; code de déontologie, art. 43-44), susceptible d'engager la responsabilité civile du chirurgien (préjudice lié à la perte de chance de refuser ou de différer l'intervention, selon l'appréciation du juge) ; (3) la clinique répondrait des fautes de son anesthésiste salarié en tant que commettant (art. 136 du code civil) — aucune n'est ici en cause ; (4) une plainte disciplinaire peut être examinée par le conseil régional de déontologie (art. 346-348 de la loi 18-11). Indemnisation éventuelle prise en charge par l'assurance obligatoire (art. 296).",
+      "surveillance": "Suivi de la récupération nerveuse ; consolidation avant évaluation définitive des préjudices.",
+      "evolution": "Le juge retient l'absence de faute technique mais sanctionne le défaut d'information ; le conseil régional prononce un avertissement pour manquement au devoir d'information.",
+      "explication_pedagogique": "Ce cas oppose l'aléa thérapeutique (non fautif) au défaut d'information (fautif). Il montre l'importance de tracer l'information donnée sur les risques fréquents ou graves normalement prévisibles (art. 343 de la loi 18-11), la distinction entre praticien libéral (responsabilité personnelle) et salarié (responsabilité du commettant), et l'indépendance des actions civile et disciplinaire.",
+      "questions": [
+        {
+          "question": "La paralysie faciale est-elle en soi une faute ?",
+          "reponse": "Non si elle résulte d'un risque connu réalisé malgré une technique conforme : c'est un aléa ; c'est l'expertise qui tranche."
+        },
+        {
+          "question": "Quel manquement est reproché ?",
+          "reponse": "Le défaut d'information sur un risque grave normalement prévisible (art. 23 et 343 de la loi 18-11 ; art. 43-44 du code de déontologie)."
+        },
+        {
+          "question": "Qui répond d'une éventuelle faute de l'anesthésiste salarié ?",
+          "reponse": "La clinique en tant que commettant (art. 136 du code civil) ; depuis la loi 05-10, elle n'a de recours contre le préposé qu'en cas de faute lourde de celui-ci (art. 137)."
+        },
+        {
+          "question": "Comment prévenir ce litige ?",
+          "reponse": "Information orale adaptée, complétée d'un document écrit, et traçabilité dans le dossier ; délai de réflexion avant une chirurgie programmée."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (DOC-00112 ; loi 05-10 : DOC-00113)",
+          "date": "1975"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992 (DOC-00107)",
+          "date": "1992"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "corrigé (mineure) : recours du commettant limité à la faute lourde du préposé (art. 137, loi 05-10)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MLEG-0002.md"
+      }
+    },
+    {
+      "id": "CAS-MTRA-1001",
+      "titre": "Chute d'échafaudage d'un maçon de 38 ans",
+      "niveau": "generaliste",
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 38 ans, maçon salarié d'une entreprise de bâtiment, droitier.",
+      "motif_consultation": "Amené aux urgences d'un établissement public à 10 h 30 après une chute d'environ 2,5 m d'un échafaudage sur le chantier, à 10 h, pendant le travail, devant deux collègues.",
+      "antecedents": "Aucun antécédent notable, pas de traitement. Vaccination antitétanique datant de plus de 10 ans.",
+      "symptomes": "Douleur et déformation du poignet droit, douleur de la hanche gauche, plaie du coude gauche. Pas de perte de connaissance.",
+      "examen_clinique": "Conscient, Glasgow 15. Poignet droit : déformation « en dos de fourchette », œdème, pas de trouble sensitivo-moteur distal. Ecchymose violacée de 8 × 6 cm de la face latérale de la hanche gauche, mobilisation douloureuse mais possible. Plaie contuse de 3 cm de la face postérieure du coude gauche, sans atteinte articulaire. Examen neurologique et abdominal normal.",
+      "biologie": "Non nécessaire.",
+      "imagerie": "Radiographies : fracture extra-articulaire de l'extrémité distale du radius droit avec déplacement postérieur ; bassin et hanche gauche sans fracture ; coude sans lésion osseuse.",
+      "hypotheses_diagnostiques": [
+        "Accident du travail (chute de hauteur au temps et au lieu du travail)"
+      ],
+      "diagnostics_differentiels": [
+        "Malaise préalable à la chute (non retrouvé)",
+        "Accident de la vie privée (non : survenue sur le chantier pendant le travail)"
+      ],
+      "examens_a_demander": [
+        "Radiographies ciblées",
+        "Vérification du statut vaccinal antitétanique"
+      ],
+      "diagnostic_final": "Accident du travail : fracture déplacée de l'extrémité distale du radius droit, contusion de la hanche gauche, plaie contuse du coude gauche.",
+      "traitement": "Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique : plaie contuse de chantier (plaie à risque) et dernière dose datant de plus de 10 ans → rappel anti-diphtérique et anti-tétanique (dT) ; immunoglobulines antitétaniques humaines (250 UI IM, site distinct) seulement si la primovaccination est incomplète ou inconnue (CDC ; MSF) — le protocole national prévaut ; antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.",
+      "surveillance": "Contrôles radiologiques, certificats de prolongation si nécessaire, rééducation. Visite de reprise par le médecin du travail avant la reprise (loi 88-07, art. 17).",
+      "evolution": "Consolidation à 4 mois avec raideur modérée du poignet. Certificat de consolidation (art. 24) : date de consolidation, description des séquelles, taux indicatif. Le médecin-conseil fixe le taux d'incapacité permanente selon le barème (art. 42) ; s'il est inférieur à 10 %, pas de rente mais un capital (art. 44). Le médecin du travail propose un aménagement temporaire du poste ; la commission d'hygiène et de sécurité analyse l'accident (absence de garde-corps).",
+      "explication_pedagogique": "Ce cas illustre la qualification d'AT (lésion corporelle, cause soudaine et extérieure, cadre du travail), la présomption d'imputabilité, la répartition des rôles (médecin traitant : certificats ; employeur : déclaration ; médecin-conseil : taux ; médecin du travail : reprise et prévention) et les règles de réparation (indemnités journalières, rente ou capital selon le taux).",
+      "questions": [
+        {
+          "question": "Qui déclare l'accident et dans quels délais ?",
+          "reponse": "La victime informe l'employeur dans les 24 heures ; l'employeur déclare à l'organisme de sécurité sociale dans les 48 heures (art. 13)."
+        },
+        {
+          "question": "Que contient le certificat initial ?",
+          "reponse": "La description de l'état de la victime, la durée probable de l'incapacité temporaire et les constatations utiles à la détermination de l'origine traumatique ou morbide des lésions (art. 23)."
+        },
+        {
+          "question": "Qui fixe le taux d'incapacité permanente ?",
+          "reponse": "Le médecin-conseil de l'organisme de sécurité sociale, selon le barème réglementaire, éventuellement majoré d'un taux social de 1 à 10 % (art. 42)."
+        },
+        {
+          "question": "Quelles mesures de prévention ?",
+          "reponse": "Analyse de l'accident par la commission paritaire d'hygiène et de sécurité, protections collectives (garde-corps) et individuelles (harnais), formation (loi 88-07)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (DOC-00103 ; ordonnance 96-19 : DOC-00104)",
+          "date": "1983"
+        },
+        {
+          "reference": "Loi n° 88-07 du 26 janvier 1988 relative à l'hygiène, à la sécurité et à la médecine du travail, JORADP n° 4/1988 (DOC-00105)",
+          "date": "1988"
+        },
+        {
+          "reference": "CDC, Clinical Guidance for Wound Management to Prevent Tetanus ; MSF, Médicaments essentiels (HTIG) — consultés par extraits le 2026-11-19 ; arrêté du 3 juillet 2018 (calendrier vaccinal), JORADP n° 49/2018 (DOC-00070)",
+          "date": "2024"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "marqueur de posologie levé (prophylaxie antitétanique) ; sources législatives complétées",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MTRA-0001.md"
+      }
+    },
+    {
+      "id": "CAS-MTRA-1002",
+      "titre": "Dyspnée chez un tailleur de pierre de 50 ans",
+      "niveau": "residanat",
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 50 ans, tailleur de pierre puis opérateur de concassage dans une carrière de granit pendant 22 ans ; a quitté ce poste il y a 2 ans pour un poste administratif.",
+      "motif_consultation": "Consultation en pneumologie pour dyspnée d'effort progressive depuis un an et toux sèche.",
+      "antecedents": "Non-fumeur. Pas d'antécédent de tuberculose. Plusieurs collègues de travail « malades des poumons ».",
+      "symptomes": "Dyspnée d'effort (stade 2), toux sèche, pas de fièvre, pas d'hémoptysie, pas d'amaigrissement.",
+      "examen_clinique": "Râles crépitants discrets aux bases, pas d'hippocratisme digital, SpO2 96 % au repos.",
+      "biologie": "Hémogramme normal, CRP 4 mg/L. Recherche de bacilles tuberculeux dans les crachats : négative (examens à compléter selon le protocole).",
+      "imagerie": "Radiographie thoracique : micronodules diffus prédominant aux sommets, adénopathies hilaires calcifiées « en coquille d'œuf ». Scanner : micronodules centrolobulaires et sous-pleuraux des lobes supérieurs. Épreuves fonctionnelles : trouble ventilatoire mixte modéré.",
+      "hypotheses_diagnostiques": [
+        "Silicose chronique (pneumoconiose due à la silice libre)",
+        "Tuberculose associée à éliminer",
+        "Sarcoïdose (diagnostic différentiel)"
+      ],
+      "diagnostics_differentiels": [
+        "Sarcoïdose",
+        "Tuberculose miliaire",
+        "Autres pneumoconioses",
+        "Pneumopathies d'hypersensibilité"
+      ],
+      "examens_a_demander": [
+        "Radiographie et scanner thoraciques",
+        "Épreuves fonctionnelles respiratoires",
+        "Recherche de tuberculose",
+        "Examens exigés par le tableau n° 25 de l'arrêté du 5 mai 1996 [contenu exact à vérifier dans le tableau]"
+      ],
+      "diagnostic_final": "Silicose chronique simple, compatible avec une maladie professionnelle du tableau n° 25 (pneumoconioses consécutives à l'inhalation de poussières minérales renfermant de la silice libre — groupe 1).",
+      "traitement": "Arrêt de l'exposition (déjà effectif), sevrage d'éventuels irritants, vaccinations selon les recommandations, dépistage et surveillance de la tuberculose (MDO si confirmée : loi 18-11, art. 39 ; décret 22-250). Vérification des conditions du tableau n° 25 : maladie désignée avec les examens exigés, travaux de la liste (indicative pour le groupe 1, pratiqués de façon habituelle), délai de prise en charge du tableau n° 25 : 20 ans entre la fin de l'exposition et la première constatation médicale — respecté ici (2 ans) ; affection caractérisée par des signes radiographiques spécifiques (arrêté du 5 mai 1996, annexe 1, tableau n° 25, DOC-00106). Certificat médical décrivant la maladie et son origine professionnelle présumée ; information du patient : déclaration à l'organisme de sécurité sociale dans un délai de 15 jours au minimum et 3 mois au maximum après la première constatation médicale (loi 83-13, art. 71). Déclaration par le médecin de la maladie à caractère professionnel (art. 68). Avec l'accord du patient, information du médecin du travail de l'entreprise pour la protection des collègues exposés.",
+      "surveillance": "Clinique, radiologique et fonctionnelle (évolution possible malgré l'arrêt de l'exposition), dépistage de la tuberculose et des complications ; révision du taux d'incapacité en cas d'aggravation (art. 58-59).",
+      "evolution": "Reconnaissance au titre du tableau n° 25 ; taux d'incapacité permanente fixé par le médecin-conseil. Dépistage organisé chez les collègues exposés et mesures de prévention à la carrière (humidification, captage des poussières, protection respiratoire).",
+      "explication_pedagogique": "Ce cas montre la démarche devant une maladie possiblement professionnelle : reconstituer le curriculum laboris, confirmer le diagnostic par les examens exigés, vérifier les conditions du tableau (maladie, travaux, délai de prise en charge), informer et aider le patient à déclarer dans les délais, déclarer au titre de l'article 68, rechercher une MDO associée et protéger les autres travailleurs. La présomption d'imputabilité dispense la victime de prouver la durée ou l'intensité de l'exposition (arrêté, art. 10).",
+      "questions": [
+        {
+          "question": "À quel groupe appartient le tableau des pneumoconioses dues à la silice ?",
+          "reponse": "Au groupe 1 (manifestations morbides d'intoxications aiguës ou chroniques) ; la liste des travaux y est indicative."
+        },
+        {
+          "question": "Comment se calcule le délai de prise en charge ?",
+          "reponse": "De la cessation de l'exposition au risque à la première constatation médicale de la maladie (arrêté, art. 11)."
+        },
+        {
+          "question": "Qui déclare la maladie et dans quel délai ?",
+          "reponse": "La victime, à l'organisme de sécurité sociale, dans un délai de 15 jours à 3 mois après la première constatation médicale (loi 83-13, art. 71)."
+        },
+        {
+          "question": "Quelle autre déclaration peut s'imposer ?",
+          "reponse": "La déclaration obligatoire d'une tuberculose associée si elle est confirmée (loi 18-11, art. 39 ; décret 22-250), et la déclaration de la maladie à caractère professionnel par le médecin (art. 68 de la loi 83-13)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle, JORADP n° 16/1997 (DOC-00106)",
+          "date": "1996"
+        },
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (DOC-00103 ; ordonnance 96-19 : DOC-00104)",
+          "date": "1983"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 (liste des MDO), JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        },
+        {
+          "reference": "Hunter's Diseases of Occupations, 10e éd., 2010 (OUV-0690) ; LaDou, Occupational & Environmental Medicine, 6e éd., 2021 (OUV-0692)",
+          "date": "2021"
+        }
+      ],
+      "statut": "audite_valide",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "vérifié : délai de prise en charge du tableau n° 25 (20 ans) ; marqueur levé",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MTRA-0001.md"
+      }
+    }
+  ]
+}

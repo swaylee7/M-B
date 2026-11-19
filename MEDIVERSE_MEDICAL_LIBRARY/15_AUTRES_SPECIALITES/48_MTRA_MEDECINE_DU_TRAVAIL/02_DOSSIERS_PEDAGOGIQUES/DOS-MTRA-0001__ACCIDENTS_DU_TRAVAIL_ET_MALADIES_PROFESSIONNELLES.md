@@ -6,7 +6,7 @@ sous_specialite: "Législation du travail et réparation des risques professionn
 items_residanat: [RES-MED-142]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-10 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_valide
     corrections: 13
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MTRA-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence avec DOS-MLEG-0001 : immunoglobulines antitétaniques humaines 250 UI IM, 500 UI au-delà de 24 heures (MSF, Médicaments essentiels ; même valeur dans le guide australien d'immunisation), en un site distinct."
 sources:
   - id: S1
     reference: "Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles, JORADP n° 28 du 5 juillet 1983, p. 1210-1217 (DOC-00103 ; rédaction d'origine, titres I à VIII relus par l'auditeur), modifiée par l'ordonnance n° 96-19 du 6 juillet 1996, JORADP n° 42 du 7 juillet 1996, p. 13-14 (DOC-00104 : articles 7, 8, 36, 37, 39, 42 al. 4, 53 et 83 réécrits)."
@@ -470,7 +476,7 @@ Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS
 
 **Diagnostic retenu** — Accident du travail : fracture déplacée de l'extrémité distale du radius droit, contusion de la hanche gauche, plaie contuse du coude gauche.
 
-**Prise en charge** — Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique : plaie contuse de chantier (plaie à risque) et dernière dose datant de plus de 10 ans → **rappel anti-diphtérique et anti-tétanique (dT)** ; immunoglobulines antitétaniques humaines (250 UI IM, en un site distinct) seulement si la primovaccination est incomplète ou inconnue (CDC ; MSF) [S12] — le protocole national prévaut, antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.
+**Prise en charge** — Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique : plaie contuse de chantier (plaie à risque) et dernière dose datant de plus de 10 ans → **rappel anti-diphtérique et anti-tétanique (dT)** ; immunoglobulines antitétaniques humaines (250 UI IM, 500 UI au-delà de 24 heures après la blessure, en un site distinct) seulement si la primovaccination est incomplète ou inconnue (CDC ; MSF) [S12] — le protocole national prévaut, antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.
 
 **Surveillance** — Contrôles radiologiques, certificats de prolongation si nécessaire, rééducation. Visite de reprise par le médecin du travail avant la reprise (loi 88-07, art. 17).
 

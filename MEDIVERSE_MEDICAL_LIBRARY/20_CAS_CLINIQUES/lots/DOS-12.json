@@ -627,7 +627,7 @@
         },
         {
           "question": "Quels objectifs hémodynamiques et ventilatoires fixez-vous ?",
-          "reponse": "PAS ≥ 110 mmHg chez un adulte de 31 ans (BTF), SpO2 ≥ 90 % (en pratique proche de 100 %), PaCO2 35-40 mmHg sans hyperventilation prophylactique, puis PPC 60-70 mmHg une fois la PIC monitorée."
+          "reponse": "PAS ≥ 110 mmHg chez un adulte de 31 ans (BTF), SpO2 ≥ 90 % au minimum (seuil de la 3e édition BTF 2007 ; la 4e édition ne fixe pas de seuil d'oxygénation ; en pratique proche de 100 %), PaCO2 35-40 mmHg sans hyperventilation prophylactique, puis PPC 60-70 mmHg une fois la PIC monitorée."
         },
         {
           "question": "Quelle est la place de l'acide tranexamique ici ?",
@@ -672,7 +672,15 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "verdict": "audite_corrections_requises",
         "remarque": "Objectifs BTF et classification de Marshall III vérifiés ; dose d'acide tranexamique = schéma de l'essai CRASH-3 ; correction de la coagulopathie (fibrinogène, plasma) non chiffrée : marqueur maintenu."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Seuil SpO2 ≥ 90 % rattaché à la BTF 2007 (pas de seuil d'oxygénation dans la BTF 4e édition), aligné sur DOS-NCHI-0001 v1.2.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "CAS-OPHT-1201",
@@ -709,7 +717,7 @@
       "traitement": "Arrêt de l'ipratropium nébulisé (avis du pneumologue ; adaptation du traitement bronchodilatateur, embout buccal plutôt que masque facial). Acétazolamide 10 mg/kg IV puis relais per os, avec supplémentation potassique (EGS 2017). Collyres hypotonisants en évitant les bêtabloquants (BPCO sévère) : α2-agoniste et inhibiteur topique de l'anhydrase carbonique ; corticoïde topique. Pilocarpine 1-2 % une fois la PIO en baisse. Mannitol réservé à une PIO restant très élevée, en l'absence de contre-indication. Iridotomie au laser Nd:YAG de l'œil gauche à 48 heures (cornée éclaircie) et de l'œil droit préventivement le même jour. Antalgiques et antiémétiques.",
       "surveillance": "PIO horaire initialement, kaliémie, tolérance respiratoire ; après laser : PIO à 1 heure, inflammation, perméabilité des iridotomies, gonioscopie ; fond d'œil, OCT et champ visuel à 1 mois ; suivi au long cours (épaississement du cristallin).",
       "evolution": "PIO à 22 mmHg à H6, puis 14 mmHg à J3. Gonioscopie après iridotomie : angles ouverts aux deux tiers, synéchies limitées à gauche. Acuité visuelle OG revenue à 6/10 ; légère atrophie sectorielle de l'iris. Pas de neuropathie optique au bilan à 1 mois. Discussion ultérieure d'une extraction du cristallin.",
-      "explication_pedagogique": "Une céphalée avec vomissements chez un patient hospitalisé recevant des nébulisations d'anticholinergique doit faire examiner les yeux. La crise aiguë associe semi-mydriase aréactive, cornée trouble, chambre étroite et PIO très élevée ; l'œil adelphe à angle étroit conforte le diagnostic. Le traitement médical doit respecter le terrain (bêtabloquants topiques contre-indiqués en cas de BPCO sévère ou d'asthme ; mannitol dangereux en cas d'insuffisance cardiaque). L'iridotomie bilatérale traite le mécanisme et protège l'œil adelphe ; l'extraction du cristallin est une option de fond (EAGLE).",
+      "explication_pedagogique": "Une céphalée avec vomissements chez un patient hospitalisé recevant des nébulisations d'anticholinergique doit faire examiner les yeux. La crise aiguë associe semi-mydriase aréactive, cornée trouble, chambre étroite et PIO très élevée ; l'œil adelphe à angle étroit conforte le diagnostic. Le traitement médical doit respecter le terrain (bêtabloquants topiques contre-indiqués en cas d'asthme ou d'antécédent de BPCO selon l'EGS, a fortiori chez ce patient atteint de BPCO sévère ; mannitol dangereux en cas d'insuffisance cardiaque). L'iridotomie bilatérale traite le mécanisme et protège l'œil adelphe ; l'extraction du cristallin est une option de fond (EAGLE).",
       "questions": [
         {
           "question": "Quels éléments cliniques permettent d'évoquer le diagnostic sans matériel spécialisé ?",
@@ -758,7 +766,15 @@
         "auditeur": "AUD-01/AUD-02 (IA)",
         "verdict": "audite_valide",
         "remarque": "Marqueur levé : acétazolamide 10 mg/kg (EGS 4e éd. 2017, texte intégral relu) ; contre-indication du timolol (BPCO) confirmée."
-      }
+      },
+      "audit_coherence": [
+        {
+          "date": "2026-11-19",
+          "auditeur": "AUD-05 (IA)",
+          "objet": "Contre-indication des bêtabloquants topiques harmonisée avec l'EGS (asthme, antécédent de BPCO), alignée sur DOS-OPHT-0001 v1.2.",
+          "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+        }
+      ]
     },
     {
       "id": "CAS-OPHT-1202",

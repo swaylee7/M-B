@@ -4,7 +4,12 @@ titre: "Fiche — États d'hypersensibilité de types I à IV : bases cellulaire
 specialite: IMMU
 items_residanat: [RES-SF-035]
 dossier_source: DOS-IMMU-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Bolus de 20 mL/kg (WAO) précisé « sans distinction d'âge » ; renvoi vers FIC-MINT_REA-0001 (DOS-IMMU-0002 v1.2)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -135,7 +140,7 @@ sources:
 
 # Fiche — États d'hypersensibilité I à IV et choc anaphylactique (RES-SF-035)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-IMMU-0002 (v1.1, statut `audite_valide`). Aucun fait nouveau ; doses identiques au dossier (adrénaline et remplissage : **WAO 2020** [S7]). Le texte de la SFMU 2016 et de son erratum relatif à la posologie de l'adrénaline n'a pas été relu [S12] : appliquer le RCP et le protocole local. Disponibilité des auto-injecteurs en Algérie non vérifiée.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-IMMU-0002 (v1.2, statut `audite_valide`). Aucun fait nouveau ; doses identiques au dossier (adrénaline et remplissage : **WAO 2020** [S7]). Le texte de la SFMU 2016 et de son erratum relatif à la posologie de l'adrénaline n'a pas été relu [S12] : appliquer le RCP et le protocole local. Disponibilité des auto-injecteurs en Algérie non vérifiée.
 
 ## 1. Définition (2 lignes)
 
@@ -151,7 +156,7 @@ sources:
 | Activation mastocytaire | **pic > 1,2 × basale + 2 µg/L** (« 20 % + 2 ») [S14] |
 | Adrénaline IM (WAO 2020) | **0,01 mg/kg** de la solution à **1 mg/mL** (1/1 000), **max 0,5 mg** par injection ; **répéter toutes les 5 à 15 minutes** (dès 5 minutes) [S7] |
 | Repères WAO (tableau 6) | < 10 kg : 0,01 mg/kg (0,01 mL/kg) ; **1 à 5 ans : 0,15 mg** ; **6 à 12 ans : 0,3 mg** ; adolescent et adulte : **0,5 mg** |
-| Remplissage | **bolus de 20 mL/kg** de cristalloïdes si instabilité cardiovasculaire [S7] |
+| Remplissage | **bolus de 20 mL/kg** de cristalloïdes si instabilité cardiovasculaire, sans distinction d'âge [S7] (volumes fixes de l'adulte selon d'autres référentiels : FIC-MINT_REA-0001) |
 | Biphasique | ≈ la moitié des récidives dans les **6 à 12 heures** [S7] |
 | Bilan allergologique | à **4-6 semaines** ; prick : lecture 15-20 min, papule **≥ 3 mm** vs témoin négatif |
 | Patch-tests (ESCD 2015) | occlusion **2 jours** ; lectures **J2, J3 ou J4**, ± **J7** [S17] |

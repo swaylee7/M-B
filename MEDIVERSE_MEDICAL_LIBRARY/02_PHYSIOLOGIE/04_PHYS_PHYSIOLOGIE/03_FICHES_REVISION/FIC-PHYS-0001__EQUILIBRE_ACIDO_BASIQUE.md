@@ -4,7 +4,12 @@ titre: "Fiche — Équilibre acido-basique : Henderson-Hasselbalch, tampons, ré
 specialite: PHYS
 items_residanat: [RES-SF-014]
 dossier_source: DOS-PHYS-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Delta ratio : valeur attendue ≈ 1 dans l'acidocétose ajoutée (cohérence tableau / cas clinique de DOS-PHYS-0001 v1.2)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -159,7 +164,7 @@ sources:
 
 # Fiche — Équilibre acido-basique (RES-SF-014)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PHYS-0001 (v1.1, statut `audite_valide`). Aucun fait nouveau. Sciences fondamentales : **aucune posologie** (le dossier n'en propose pas ; modalités du bicarbonate dans l'acidocétose : DOS-DIAB-0002). Valeurs de référence à confronter aux normes du laboratoire local.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PHYS-0001 (v1.2, statut `audite_valide`). Aucun fait nouveau. Sciences fondamentales : **aucune posologie** (le dossier n'en propose pas ; modalités du bicarbonate dans l'acidocétose : DOS-DIAB-0002). Valeurs de référence à confronter aux normes du laboratoire local.
 
 ## 1. Définition (2 lignes)
 
@@ -265,7 +270,7 @@ Coefficients chroniques variables selon les sources (0,35 à 0,4 ; 0,4 à 0,5) :
 | **Acidose à TA ↑** | lactique **type A** (choc, hypoxie) / **type B** (metformine, foie, hémopathies) ; acidocétose (diabétique, alcoolique, jeûne) ; insuffisance rénale avancée ; méthanol, éthylène glycol (**trou osmolaire ↑**) ; salicylés ; 5-oxoproline (paracétamol chronique) ; D-lactate ; propylène glycol |
 | Acidocétose diabétique (2024) | **D** glycémie ≥ 11,1 mmol/L ou diabète connu ; **K** β-hydroxybutyrate ≥ 3,0 mmol/L (ou cétonurie ≥ 2+) ; **A** pH < 7,30 et/ou HCO3- < 18 mmol/L [S19] |
 | **Acidose à TA normal** | diarrhée (**TAU négatif**, K+ bas) ; ATR proximale type 2 (Fanconi, acétazolamide) ; ATR distale type 1 (TAU positif, **pH u > 5,5**, K+ bas) ; type 4 (TAU positif, **K+ haut** : diabète, IEC/ARA2, spironolactone, triméthoprime) ; NaCl 0,9 % massif |
-| Delta ratio | **< 1** : acidose hyperchlorémique associée ; **1 – 2** : TA ↑ « pure » ; **> 2** : alcalose métabolique associée [S10] |
+| Delta ratio | **< 1** : acidose hyperchlorémique associée ; **1 – 2** : TA ↑ « pure » ; **> 2** : alcalose métabolique associée [S10] ; dans l'**acidocétose**, ≈ 1 attendu (fuite urinaire des cétoanions) : une valeur nettement > 1 y est un argument modéré pour une alcalose associée |
 | **Alcalose métabolique** | génération + **entretien** (déplétion chlorée/volémique, hypokaliémie, hyperaldostéronisme, DFG ↓) ; chlorurie **< 20 – 25 mmol/L** = **chlorosensible** (vomissements, diurétiques arrêtés, post-hypercapnie) ; élevée = **chlororésistante** avec HTA (hyperaldostéronisme, Cushing, réglisse, Liddle) ou sans HTA (diurétiques en cours, Bartter, Gitelman) [S14] |
 | TA bas | hypoalbuminémie, myélome à IgG, brome, lithium |
 

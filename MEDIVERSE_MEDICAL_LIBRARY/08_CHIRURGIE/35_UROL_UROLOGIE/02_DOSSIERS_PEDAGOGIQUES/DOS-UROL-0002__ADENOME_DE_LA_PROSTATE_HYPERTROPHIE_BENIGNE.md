@@ -6,7 +6,7 @@ sous_specialite: "Urologie fonctionnelle — HBP"
 items_residanat: [RES-CHI-025]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-11 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-UROL-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 4, point 2) : renvoi interne corrigé (alpha-bloquant avant épreuve de retrait de sonde → § 13.3.2, RAU). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Gravas S, Gacci M, Gratzke C, Herrmann TRW, Karavitakis M, Kyriazis I, Malde S, Mamoulakis C, Rieken M, Sakalis VI, Schouten N, Speakman MJ, Tikkinen KAO, Cornu JN. Summary Paper on the 2023 European Association of Urology Guidelines on the Management of Non-neurogenic Male Lower Urinary Tract Symptoms. Eur Urol. 2023;84(2):207-222."
@@ -417,7 +423,7 @@ Rétention aiguë d'urine, fièvre (prostatite, pyélonéphrite), hématurie, mi
 - **Efficacité** : amélioration des symptômes et du débit en **quelques jours**, **quel que soit le volume prostatique** ; pas de réduction du volume ni du PSA ; **pas de réduction du risque de RAU ou de chirurgie à long terme** en monothérapie [S1, S3, S9].
 - **Indication** : **première ligne** des STBAU modérés à sévères gênants [S1, S3].
 - **Effets indésirables** : vertiges, **hypotension orthostatique** (sujet âgé, association aux antihypertenseurs ou aux IPDE5), asthénie, congestion nasale, **troubles de l'éjaculation** (anéjaculation, éjaculation rétrograde), **syndrome de l'iris flasque peropératoire** (*floppy iris syndrome*) → **informer l'ophtalmologiste avant une chirurgie de la cataracte**.
-- **Utilisation particulière** : avant une **épreuve de retrait de sonde** après RAU (cf. 13.3.3) [S5].
+- **Utilisation particulière** : avant une **épreuve de retrait de sonde** après RAU (cf. 13.3.2) [S5].
 
 #### 13.2.3 Inhibiteurs de la 5-alpha-réductase (I5AR)
 | Molécule | Posologie usuelle (RCP) | Cible |

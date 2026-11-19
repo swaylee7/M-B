@@ -4,7 +4,12 @@ titre: "Fiche — Schizophrénies"
 specialite: PSYC
 items_residanat: [RES-MED-149]
 dossier_source: DOS-PSYC-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Alignement sur DOS-PSYC-0001 v1.2 (suicide ≈ 5 à 6 %, DSM-5-TR) : fiche déjà conforme."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -111,7 +116,7 @@ sources:
 
 # Fiche — Schizophrénies (RES-MED-149)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PSYC-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (mhGAP-IG 2.0 [S7], Project BETA [S8], RCP européens/britanniques [S13]), à confronter au RCP des spécialités enregistrées en Algérie. Cadre légal : **loi n° 18-11 du 2 juillet 2018 relative à la santé** (DOC-00074) [S11], articles tels que cités par le dossier. Prévalence algérienne `[À VÉRIFIER]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PSYC-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (mhGAP-IG 2.0 [S7], Project BETA [S8], RCP européens/britanniques [S13]), à confronter au RCP des spécialités enregistrées en Algérie. Cadre légal : **loi n° 18-11 du 2 juillet 2018 relative à la santé** (DOC-00074) [S11], articles tels que cités par le dossier. Prévalence algérienne `[À VÉRIFIER]`.
 
 ## 1. Définition (2 lignes)
 

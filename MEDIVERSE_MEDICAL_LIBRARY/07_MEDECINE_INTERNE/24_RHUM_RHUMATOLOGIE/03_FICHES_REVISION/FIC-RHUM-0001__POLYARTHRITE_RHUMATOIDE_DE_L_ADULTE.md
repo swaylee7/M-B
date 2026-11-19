@@ -4,7 +4,12 @@ titre: "Fiche — Polyarthrite rhumatoïde de l'adulte"
 specialite: RHUM
 items_residanat: [RES-MED-099]
 dossier_source: DOS-RHUM-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Alignement sur DOS-RHUM-0001 v1.2 (MTX du cas harmonisé à 20–30 mg/semaine ; libellé du seuil DAS28 de la série algérienne précisé) : la fiche, déjà conforme (< 2,6 ; 20–30 mg/semaine), n'est pas modifiée sur le fond."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -151,7 +156,7 @@ sources:
 
 # Fiche — Polyarthrite rhumatoïde de l'adulte (RES-MED-099)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-RHUM-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Cadre : critères ACR/EULAR 2010 [S1], EULAR 2022 [S2], SFR 2024 [S3], méthotrexate 3E [S5] ; posologies des biothérapies et inhibiteurs de JAK selon les RCP (non consultés en session [S14]). Instruction algérienne ITL 2024 [S11] **non relue** `[À VÉRIFIER]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-RHUM-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Cadre : critères ACR/EULAR 2010 [S1], EULAR 2022 [S2], SFR 2024 [S3], méthotrexate 3E [S5] ; posologies des biothérapies et inhibiteurs de JAK selon les RCP (non consultés en session [S14]). Instruction algérienne ITL 2024 [S11] **non relue** `[À VÉRIFIER]`.
 
 ## 1. Définition (2 lignes)
 

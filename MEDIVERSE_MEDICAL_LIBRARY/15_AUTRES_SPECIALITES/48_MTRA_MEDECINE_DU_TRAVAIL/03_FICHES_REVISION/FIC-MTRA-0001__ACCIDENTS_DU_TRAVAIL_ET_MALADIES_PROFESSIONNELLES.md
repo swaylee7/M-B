@@ -4,7 +4,12 @@ titre: "Fiche — Accidents du travail et maladies professionnelles : définitio
 specialite: MTRA
 items_residanat: [RES-MED-142]
 dossier_source: DOS-MTRA-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Immunoglobulines antitétaniques : 500 UI au-delà de 24 heures ajouté (MSF), comme dans DOS-MLEG-0001 et DOS-MTRA-0001 v1.2."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -111,7 +116,7 @@ sources:
 
 # Fiche — Accidents du travail et maladies professionnelles (RES-MED-142)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MTRA-0001 (v1.1, statut `audite_valide`). Aucun fait nouveau. Références juridiques reprises **telles qu'elles figurent dans le dossier** : loi n° 83-13 du 2 juillet 1983 (DOC-00103) modifiée par l'ordonnance n° 96-19 (DOC-00104) [S1] ; arrêté interministériel du 5 mai 1996 — liste des maladies professionnelles (DOC-00106) [S2] ; loi n° 88-07 — hygiène, sécurité et médecine du travail (DOC-00105) [S3] ; loi n° 18-11 (DOC-00074) [S4] ; code de déontologie médicale (DOC-00107) [S5] ; décret 22-250 (DOC-00072) [S7]. Sauf mention, « art. » = loi 83-13 ; « arrêté » = arrêté du 5 mai 1996. Montants, formulaires et barèmes actuels : CNAS `[À VÉRIFIER]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-MTRA-0001 (v1.2, statut `audite_valide`). Aucun fait nouveau. Références juridiques reprises **telles qu'elles figurent dans le dossier** : loi n° 83-13 du 2 juillet 1983 (DOC-00103) modifiée par l'ordonnance n° 96-19 (DOC-00104) [S1] ; arrêté interministériel du 5 mai 1996 — liste des maladies professionnelles (DOC-00106) [S2] ; loi n° 88-07 — hygiène, sécurité et médecine du travail (DOC-00105) [S3] ; loi n° 18-11 (DOC-00074) [S4] ; code de déontologie médicale (DOC-00107) [S5] ; décret 22-250 (DOC-00072) [S7]. Sauf mention, « art. » = loi 83-13 ; « arrêté » = arrêté du 5 mai 1996. Montants, formulaires et barèmes actuels : CNAS `[À VÉRIFIER]`.
 
 ## 1. Définition (2 lignes)
 
@@ -193,7 +198,7 @@ SUSPICION DE MP
 
 ### 4.3 Exemple (cas du dossier)
 
-Chute d'échafaudage, plaie contuse de chantier, dernière dose antitétanique > 10 ans : **rappel dT** ; **immunoglobulines 250 UI IM** seulement si primovaccination incomplète ou inconnue (CDC ; MSF [S12] — **protocole national prioritaire**) ; certificat initial avec durée probable d'IT ; consolidation → taux par le médecin-conseil (< 10 % = capital).
+Chute d'échafaudage, plaie contuse de chantier, dernière dose antitétanique > 10 ans : **rappel dT** ; **immunoglobulines 250 UI IM** (500 UI au-delà de 24 heures) seulement si primovaccination incomplète ou inconnue (CDC ; MSF [S12] — **protocole national prioritaire**) ; certificat initial avec durée probable d'IT ; consolidation → taux par le médecin-conseil (< 10 % = capital).
 
 ### 4.4 Particularités algériennes
 

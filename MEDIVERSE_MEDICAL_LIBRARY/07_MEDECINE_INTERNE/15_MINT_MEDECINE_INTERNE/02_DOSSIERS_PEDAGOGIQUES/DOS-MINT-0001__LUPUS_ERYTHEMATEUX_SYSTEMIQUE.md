@@ -6,7 +6,7 @@ sous_specialite: "Maladies auto-immunes systémiques"
 items_residanat: [RES-MED-101, RES-MED-154]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-09 (IA) — dossier pédagogique original"
@@ -24,6 +24,12 @@ audit:
     corrections: 6
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MINT-0001.md
     remarque: "Marqueurs levés (EULAR 2023, EULAR/ERA-EDTA 2019, PNDS 2024) : HCQ (schéma avec comprimés à 200 mg), bolus de méthylprednisolone, mycophénolate, cyclophosphamide (Euro-Lupus et NIH), azathioprine (TPMT), biothérapies. Reste 1 marqueur : posologie et cibles des inhibiteurs de la calcineurine."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence : prednisone du cas (0,3 à 0,5 mg/kg/j pour 56 kg) recalculée à environ 17 à 28 mg/j. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Aringer M, Costenbader K, Daikh D, et al. 2019 European League Against Rheumatism/American College of Rheumatology classification criteria for systemic lupus erythematosus. Ann Rheum Dis. 2019;78(9):1151-1159."
@@ -700,7 +706,7 @@ ou baisse inexpliquée du DFG
 2. *Gravité* : néphropathie proliférative avec syndrome néphrotique, HTA, hématurie : **atteinte menaçant l'organe**.
 3. *Traitement* :
    - **HCQ** à 5 mg/kg de poids réel/j (patiente de 56 kg : ≤ 280 mg/j ; avec des comprimés à 200 mg, par exemple 400 mg deux jours et 200 mg cinq jours par semaine, soit 1 800 mg/semaine ≈ 4,6 mg/kg/j) [S6] et examen ophtalmologique de référence [S2, S9] ;
-   - **bolus de méthylprednisolone** (500 à 1 000 mg/j pendant 3 jours) puis prednisone orale à dose modérée (0,3 à 0,5 mg/kg/j, soit environ 20 à 30 mg/j), décroissance jusqu'à 7,5 mg/j vers le 6e mois puis ≤ 5 mg/j [S2, S4, S6] ;
+   - **bolus de méthylprednisolone** (500 à 1 000 mg/j pendant 3 jours) puis prednisone orale à dose modérée (0,3 à 0,5 mg/kg/j, soit environ 17 à 28 mg/j pour 56 kg, dose arrondie selon les comprimés disponibles), décroissance jusqu'à 7,5 mg/j vers le 6e mois puis ≤ 5 mg/j [S2, S4, S6] ;
    - **mycophénolate** 2 à 3 g/j (ou cyclophosphamide IV faible dose, 500 mg toutes les 2 semaines × 6) [S2, S3, S4], avec discussion d'un **ajout de bélimumab** (ou d'un inhibiteur de la calcineurine) [S2, S3, S13] ; contraception efficace (mycophénolate tératogène) ;
    - **IEC**, objectif tensionnel strict, statine si dyslipidémie persistante, photoprotection, calcium-vitamine D, vaccinations (grippe, pneumocoque, VHB) [S17].
 4. *Prévention infectieuse* : IGRA négatif (pas de traitement de l'ITL), mais vigilance clinique ; prophylaxie de la pneumocystose à discuter selon la dose cortisonique [S15].
