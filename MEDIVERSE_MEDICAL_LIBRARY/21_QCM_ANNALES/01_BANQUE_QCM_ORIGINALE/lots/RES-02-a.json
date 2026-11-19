@@ -3115,6 +3115,1042 @@
       "statut": "brouillon_a_auditer",
       "auteur": "RES-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5031",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le réflexe myotatique (d'étirement), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "C'est un réflexe monosynaptique.",
+        "B": "Le récepteur sensoriel est le fuseau neuromusculaire, sensible à l'étirement du muscle.",
+        "C": "Le réflexe achilléen explore principalement les racines S1.",
+        "D": "Le réflexe myotatique entraîne la contraction du muscle antagoniste.",
+        "E": "Les motoneurones gamma innervent les fibres musculaires extrafusales."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le réflexe myotatique est le prototype du réflexe monosynaptique : l'étirement du muscle active le fuseau neuromusculaire, dont la fibre Ia excite directement le motoneurone alpha du même muscle, provoquant sa contraction. Il s'accompagne d'une inhibition réciproque des antagonistes. La boucle gamma règle la sensibilité du fuseau. Cliniquement, les réflexes ostéotendineux explorent des niveaux métamériques précis (bicipital C5-C6, rotulien L3-L4, achilléen S1) et renseignent sur l'intégrité de l'arc réflexe et des voies de contrôle supraspinal (réflexes vifs en cas de syndrome pyramidal).",
+      "explications_par_proposition": {
+        "A": "Vrai : Une seule synapse relie le neurone afférent Ia au motoneurone alpha dans la moelle.",
+        "B": "Vrai : Les fibres afférentes Ia naissent des terminaisons annulospiralées du fuseau.",
+        "C": "Vrai : Le réflexe rotulien explore principalement L3-L4.",
+        "D": "Faux : Il entraîne la contraction du muscle étiré lui-même ; il s'accompagne d'une inhibition réciproque des antagonistes, via un interneurone inhibiteur.",
+        "E": "Faux : Les motoneurones gamma innervent les fibres intrafusales du fuseau et règlent sa sensibilité ; les fibres extrafusales sont innervées par les motoneurones alpha."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-018"
+      ],
+      "theme": "Arc réflexe myotatique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre l'action des motoneurones alpha (fibres extrafusales) et gamma (fibres intrafusales).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5032",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les récepteurs proprioceptifs et leurs réflexes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'organe tendineux de Golgi est sensible à la tension (force) développée par le muscle.",
+        "B": "Ses afférences Ib exercent, via un interneurone inhibiteur, une inhibition du motoneurone alpha du muscle.",
+        "C": "Le fuseau neuromusculaire est disposé en série avec les fibres extrafusales.",
+        "D": "Le fuseau neuromusculaire informe principalement sur la longueur du muscle et sa vitesse de variation.",
+        "E": "Les afférences Ib sont monosynaptiques sur le motoneurone alpha homonyme."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La proprioception musculaire repose sur deux récepteurs complémentaires : le fuseau neuromusculaire, en parallèle, qui code la longueur et sa vitesse de variation (afférences Ia et II, réflexe myotatique), et l'organe tendineux de Golgi, en série, qui code la tension développée (afférences Ib, réflexe myotatique inverse, inhibiteur et protecteur). Ces informations participent à la régulation du tonus, à la coordination des mouvements et sont relayées vers le cervelet et le cortex. Leur étude éclaire la physiopathologie de la spasticité.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il est situé à la jonction musculo-tendineuse, en série avec les fibres musculaires.",
+        "B": "Vrai : C'est le réflexe myotatique inverse, qui protège le muscle d'une tension excessive.",
+        "C": "Faux : Le fuseau est disposé en parallèle des fibres extrafusales ; l'organe tendineux de Golgi, lui, est en série.",
+        "D": "Vrai : Les fibres Ia sont surtout sensibles à la vitesse (composante dynamique), les fibres II à la longueur statique.",
+        "E": "Faux : L'action de l'organe tendineux de Golgi est polysynaptique et inhibitrice, par l'intermédiaire d'un interneurone."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-018"
+      ],
+      "theme": "Organe tendineux de Golgi et réflexe myotatique inverse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser la disposition en série (Golgi) et en parallèle (fuseau) des récepteurs.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5033",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les réflexes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le réflexe nociceptif de flexion (de retrait) est un réflexe polysynaptique.",
+        "B": "Le réflexe de flexion s'accompagne souvent d'un réflexe d'extension croisée du membre controlatéral.",
+        "C": "Un réflexe végétatif comme le réflexe photomoteur met en jeu le système nerveux autonome.",
+        "D": "Les réflexes polysynaptiques ont une latence plus courte que les réflexes monosynaptiques.",
+        "E": "Le signe de Babinski (extension du gros orteil) est un réflexe normal chez l'adulte sain."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les réflexes se classent selon le nombre de synapses (mono- ou polysynaptiques), la nature de l'effecteur (somatique ou végétatif) et le type de récepteur. Les réflexes polysynaptiques (flexion nociceptive, extension croisée) permettent des réponses adaptatives plus complexes, au prix d'une latence plus longue. Les réflexes végétatifs (photomoteur, baroréflexe, mictionnel) régulent les fonctions viscérales. L'examen des réflexes, dont les réflexes cutanés (plantaire, abdominaux), a une grande valeur sémiologique pour localiser une atteinte du système nerveux.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il met en jeu plusieurs interneurones et fait intervenir plusieurs étages médullaires.",
+        "B": "Vrai : Ce dernier assure le soutien postural lors du retrait du membre stimulé.",
+        "C": "Vrai : La constriction pupillaire à la lumière emprunte une voie parasympathique (nerf oculomoteur).",
+        "D": "Faux : L'interposition d'interneurones allonge la latence des réflexes polysynaptiques.",
+        "E": "Faux : C'est un réflexe cutané plantaire en extension, pathologique chez l'adulte (syndrome pyramidal) ; il est normal chez le nourrisson avant la myélinisation."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-018"
+      ],
+      "theme": "Réflexes polysynaptiques et classification",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le signe de Babinski est normal chez l'adulte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5034",
+      "format": "QCS (réponse unique)",
+      "enonce": "Le réflexe achilléen explore principalement quelle racine nerveuse ?",
+      "propositions": {
+        "A": "L3.",
+        "B": "C7.",
+        "C": "S1.",
+        "D": "C5.",
+        "E": "L5."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Les réflexes ostéotendineux explorent l'intégrité d'un arc réflexe segmentaire et ont une valeur localisatrice : bicipital et stylo-radial (C5-C6), tricipital (C7), rotulien (L3-L4), achilléen (S1). Leur abolition oriente vers une atteinte de l'arc réflexe (racine, nerf, jonction, muscle) ; leur vivacité avec extension de la zone réflexogène, un réflexe polycinétique et un signe de Babinski orientent vers un syndrome pyramidal. La racine L5, dépourvue de réflexe ostéotendineux usuel, s'explore par la motricité et la sensibilité.",
+      "explications_par_proposition": {
+        "A": "Faux : L3-L4 correspond au réflexe rotulien.",
+        "B": "Faux : C7 correspond au réflexe tricipital.",
+        "C": "Vrai : Le réflexe achilléen (contraction du triceps sural après percussion du tendon calcanéen) explore surtout la racine S1.",
+        "D": "Faux : C5-C6 correspond au réflexe bicipital et stylo-radial.",
+        "E": "Faux : La racine L5 n'a pas de réflexe ostéotendineux fiable ; elle est explorée par la motricité (releveurs du pied) et la sensibilité."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-018"
+      ],
+      "theme": "Niveau radiculaire des réflexes ostéotendineux",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer le réflexe achilléen à L5 au lieu de S1.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Splittgerber R, Snell RS. Snell's Clinical Neuroanatomy. 8e éd. Wolters Kluwer ; 2019 [catalogue OUV-0161].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5035",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les rythmes électroencéphalographiques et les stades de vigilance, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le rythme alpha (8-13 Hz) prédomine en région occipitale chez l'adulte éveillé, les yeux fermés et au repos.",
+        "B": "Le sommeil lent profond est caractérisé par des ondes lentes de grande amplitude (ondes delta, moins de 4 Hz).",
+        "C": "Le sommeil paradoxal est caractérisé par une activité électroencéphalographique rapide proche de l'éveil, des mouvements oculaires rapides et une atonie musculaire.",
+        "D": "Le rythme bêta (plus de 13 Hz) caractérise le sommeil lent profond.",
+        "E": "Le sommeil lent profond prédomine dans la seconde moitié de la nuit."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'électroencéphalogramme reflète l'activité électrique corticale : bêta (éveil actif), alpha (éveil calme, yeux fermés, occipital), thêta et delta (sommeil lent). Le sommeil comprend des cycles d'environ 90 minutes alternant sommeil lent (stades N1 à N3, avec approfondissement et ralentissement des ondes) et sommeil paradoxal (activité rapide, mouvements oculaires rapides, atonie musculaire, rêves). Le sommeil lent profond prédomine en première partie de nuit, le sommeil paradoxal en fin de nuit. Ce déroulement est exploré par la polysomnographie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il est atténué (réaction d'arrêt) à l'ouverture des yeux ou lors d'une activité mentale.",
+        "B": "Vrai : Il correspond aux stades N3 ; c'est le sommeil le plus récupérateur sur le plan physique.",
+        "C": "Vrai : C'est la période où surviennent la plupart des rêves élaborés.",
+        "D": "Faux : Le rythme bêta, rapide et de faible amplitude, caractérise l'éveil actif et la concentration.",
+        "E": "Faux : Le sommeil lent profond prédomine en début de nuit ; les phases de sommeil paradoxal s'allongent en fin de nuit."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-019"
+      ],
+      "theme": "Rythmes de l'électroencéphalogramme et stades du sommeil",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer le rythme bêta ou les ondes rapides au sommeil profond.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Koeppen BM, Stanton BA. Berne & Levy Physiology. 7e éd. Elsevier ; 2018 [catalogue OUV-0173].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5036",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la régulation de l'état de veille et de sommeil, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La formation réticulée activatrice ascendante du tronc cérébral joue un rôle majeur dans le maintien de l'éveil.",
+        "B": "La mélatonine, sécrétée par la glande pinéale, favorise l'endormissement et sa sécrétion augmente à l'obscurité.",
+        "C": "Le noyau suprachiasmatique de l'hypothalamus est l'horloge circadienne principale.",
+        "D": "Le rythme veille-sommeil suit une périodicité circadienne d'environ 24 heures.",
+        "E": "L'adénosine, qui s'accumule pendant l'éveil prolongé, favorise l'éveil."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La vigilance résulte de l'équilibre entre des systèmes d'éveil (formation réticulée activatrice ascendante, systèmes noradrénergique, cholinergique, histaminergique, à orexine) et des systèmes promoteurs du sommeil. Deux processus la régulent : un processus homéostatique (pression de sommeil liée à l'accumulation d'adénosine pendant l'éveil) et un processus circadien (horloge du noyau suprachiasmatique, synchronisée par la lumière, relayée par la mélatonine pinéale). La narcolepsie, liée à un déficit en orexine, illustre l'importance de ces systèmes.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ses projections diffuses, relayées par le thalamus et l'hypothalamus, activent le cortex.",
+        "B": "Vrai : Sa sécrétion est inhibée par la lumière via la rétine et le noyau suprachiasmatique.",
+        "C": "Vrai : Il est synchronisé par la lumière (afférences rétiniennes) et contrôle de nombreux rythmes biologiques.",
+        "D": "Vrai : En l'absence de synchroniseurs externes, le rythme endogène (libre cours) est légèrement supérieur à 24 heures.",
+        "E": "Faux : L'adénosine favorise le sommeil (pression de sommeil homéostatique) ; la caféine, antagoniste des récepteurs de l'adénosine, favorise l'éveil."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-019"
+      ],
+      "theme": "Régulation veille-sommeil",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser le rôle de l'adénosine (sommeil) et de la caféine (éveil).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Koeppen BM, Stanton BA. Berne & Levy Physiology. 7e éd. Elsevier ; 2018 [catalogue OUV-0173].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5037",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les modifications physiologiques au cours du sommeil, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Au cours du sommeil lent, la fréquence cardiaque et la pression artérielle tendent à diminuer.",
+        "B": "La sécrétion d'hormone de croissance présente un pic lors du sommeil lent profond de début de nuit.",
+        "C": "Au cours du sommeil paradoxal, on observe une atonie des muscles squelettiques, à l'exception des muscles respiratoires et oculomoteurs.",
+        "D": "La température centrale augmente progressivement au cours de la nuit pour atteindre un maximum au petit matin.",
+        "E": "Le sommeil paradoxal se caractérise par une grande stabilité de la fréquence cardiaque et respiratoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le sommeil s'accompagne de modifications végétatives et endocriniennes caractéristiques. Le sommeil lent est marqué par une prédominance parasympathique (baisse de la fréquence cardiaque, de la pression artérielle et de la température centrale) et par un pic de sécrétion d'hormone de croissance. Le sommeil paradoxal associe une activité corticale proche de l'éveil, une atonie musculaire (sauf diaphragme et muscles oculomoteurs) et une instabilité végétative. La sécrétion de cortisol, elle, culmine en fin de nuit et au réveil. Ces variations expliquent la survenue préférentielle de certains événements (infarctus, crises) à des moments précis.",
+      "explications_par_proposition": {
+        "A": "Vrai : Prédominance du tonus parasympathique.",
+        "B": "Vrai : Lien entre sommeil profond et fonctions anaboliques.",
+        "C": "Vrai : Cette atonie empêche normalement la mise en acte des rêves.",
+        "D": "Faux : La température centrale diminue pendant la nuit et atteint son minimum en deuxième partie de nuit, selon le rythme circadien.",
+        "E": "Faux : Le sommeil paradoxal se caractérise au contraire par une instabilité végétative (variations de la fréquence cardiaque et respiratoire)."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-019"
+      ],
+      "theme": "Modifications physiologiques au cours du sommeil",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la température centrale est maximale la nuit.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Koeppen BM, Stanton BA. Berne & Levy Physiology. 7e éd. Elsevier ; 2018 [catalogue OUV-0173].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5038",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle hormone, impliquée dans la régulation du rythme veille-sommeil, est sécrétée par la glande pinéale ?",
+      "propositions": {
+        "A": "La sérotonine.",
+        "B": "La mélatonine.",
+        "C": "Le cortisol.",
+        "D": "L'orexine (hypocrétine).",
+        "E": "L'hormone de croissance."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La glande pinéale (épiphyse) sécrète la mélatonine à partir de la sérotonine, selon un rythme circadien commandé par le noyau suprachiasmatique : la sécrétion est maximale la nuit et inhibée par la lumière. La mélatonine favorise l'endormissement et participe à la synchronisation des rythmes biologiques. Elle est utilisée dans certains troubles du rythme veille-sommeil et le décalage horaire. Il ne faut pas la confondre avec l'orexine (éveil, hypothalamus), le cortisol (corticosurrénale, pic matinal) ou l'hormone de croissance (antéhypophyse).",
+      "explications_par_proposition": {
+        "A": "Faux : Elle est un précurseur de la mélatonine et un neurotransmetteur, mais n'est pas l'hormone sécrétée par la pinéale dans ce contexte.",
+        "B": "Vrai : Sécrétée surtout la nuit, sa production est inhibée par la lumière ; elle favorise l'endormissement.",
+        "C": "Faux : Il est sécrété par la corticosurrénale, avec un pic matinal.",
+        "D": "Faux : Elle est sécrétée par l'hypothalamus latéral et favorise l'éveil ; son déficit cause la narcolepsie.",
+        "E": "Faux : Elle est sécrétée par l'antéhypophyse, avec un pic lors du sommeil lent profond."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-019"
+      ],
+      "theme": "Substance sécrétée par la glande pinéale",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre la sérotonine (précurseur et neurotransmetteur) et la mélatonine (hormone pinéale).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Koeppen BM, Stanton BA. Berne & Levy Physiology. 7e éd. Elsevier ; 2018 [catalogue OUV-0173].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les mécanismes d'action des hormones, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hormones stéroïdes, liposolubles, agissent sur des récepteurs intracellulaires modulant la transcription génique.",
+        "B": "Les hormones peptidiques, hydrosolubles, agissent sur des récepteurs membranaires.",
+        "C": "Les hormones thyroïdiennes agissent sur des récepteurs nucléaires malgré leur nature d'acides aminés iodés.",
+        "D": "Les catécholamines agissent sur des récepteurs nucléaires.",
+        "E": "Une même hormone peut produire des effets différents selon le type de récepteur présent sur la cellule cible."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "On distingue deux grands modes d'action hormonale selon la solubilité. Les messagers hydrosolubles (hormones peptidiques, catécholamines) se lient à des récepteurs membranaires et déclenchent des cascades de seconds messagers, pour une action rapide et réversible. Les messagers liposolubles (hormones stéroïdes et thyroïdiennes) traversent la membrane et agissent sur des récepteurs intracellulaires ou nucléaires facteurs de transcription, pour une action plus lente mais durable. La réponse dépend du type de récepteur exprimé par la cellule cible, ce qui explique la diversité des effets d'une même hormone.",
+      "explications_par_proposition": {
+        "A": "Vrai : Leur délai d'action est relativement long (synthèse de nouvelles protéines).",
+        "B": "Vrai : Elles utilisent des seconds messagers (AMPc, Ca2+, IP3).",
+        "C": "Vrai : Leur caractère lipophile leur permet de pénétrer dans la cellule et d'agir comme les stéroïdes.",
+        "D": "Faux : Les catécholamines agissent sur des récepteurs membranaires couplés aux protéines G (récepteurs adrénergiques).",
+        "E": "Vrai : Exemple : l'adrénaline provoque une vasoconstriction (récepteurs α1) ou une vasodilatation (récepteurs β2) selon le territoire."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-020"
+      ],
+      "theme": "Classes d'hormones et mécanismes d'action",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Classer les hormones thyroïdiennes avec les hormones peptidiques : elles agissent comme les stéroïdes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la relation hormone-récepteur, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La liaison d'une hormone à son récepteur est spécifique, saturable et de haute affinité.",
+        "B": "Le nombre de récepteurs d'une cellule cible n'est pas fixe et peut varier.",
+        "C": "La sensibilité d'une cellule peut être modulée sans variation de la concentration hormonale, par régulation du nombre ou de l'affinité des récepteurs.",
+        "D": "Une hormone circule toujours sous forme entièrement libre dans le plasma.",
+        "E": "Un antagoniste se lie au récepteur et déclenche la réponse maximale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'action hormonale débute par la liaison réversible de l'hormone à un récepteur spécifique, de haute affinité et en nombre limité (saturabilité). La réponse dépend de la concentration d'hormone libre, du nombre de récepteurs et de leur affinité. La cellule cible peut moduler sa sensibilité en modifiant le nombre de récepteurs (up- ou down-regulation) ou leur couplage. De nombreuses hormones circulent liées à des protéines de transport, qui constituent un réservoir et prolongent leur demi-vie ; seule la fraction libre est active. Ces notions sous-tendent la pharmacologie des agonistes et antagonistes.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces propriétés caractérisent une liaison récepteur, par opposition à une liaison non spécifique.",
+        "B": "Vrai : La down-regulation (diminution du nombre de récepteurs) survient par exemple en cas d'exposition prolongée à une concentration élevée d'hormone.",
+        "C": "Vrai : Mécanisme d'adaptation important en endocrinologie.",
+        "D": "Faux : De nombreuses hormones (stéroïdes, thyroïdiennes) circulent liées à des protéines porteuses ; seule la fraction libre est biologiquement active.",
+        "E": "Faux : Un antagoniste se lie au récepteur sans déclencher de réponse et empêche l'action de l'agoniste ; c'est l'agoniste qui déclenche la réponse."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-020"
+      ],
+      "theme": "Relation hormone-récepteur",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier que seule la fraction libre d'une hormone liée à une protéine porteuse est active.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Brunton LL, Knollmann BC (éd.). Goodman & Gilman's The Pharmacological Basis of Therapeutics. 14e éd. McGraw Hill ; 2023 [catalogue OUV-0200].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOC-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les voies de signalisation des hormones hydrosolubles, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La fixation d'une hormone sur un récepteur couplé à une protéine Gs augmente l'AMPc, qui active la protéine kinase A.",
+        "B": "La protéine kinase A phosphoryle des protéines cibles sur des résidus sérine ou thréonine.",
+        "C": "L'insuline et de nombreux facteurs de croissance agissent via des récepteurs à activité tyrosine kinase.",
+        "D": "Le calcium peut agir comme second messager, notamment via la calmoduline.",
+        "E": "L'AMPc est dégradé par l'adénylate cyclase."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les hormones hydrosolubles transmettent leur signal par des récepteurs membranaires et des seconds messagers. Les récepteurs couplés aux protéines G activent l'adénylate cyclase (AMPc, protéine kinase A) ou la phospholipase C (IP3, diacylglycérol, Ca2+, protéine kinase C). Les récepteurs à activité tyrosine kinase (insuline, facteurs de croissance) déclenchent les voies PI3K-Akt et MAP kinases. Le calcium, souvent couplé à la calmoduline, est un messager majeur. L'amplification en cascade et l'arrêt du signal (phosphodiestérases, phosphatases) assurent une réponse rapide et finement régulée.",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemples : glucagon, ACTH, hormones agissant via l'AMPc.",
+        "B": "Vrai : Cette phosphorylation modifie leur activité (enzymes, canaux, facteurs de transcription).",
+        "C": "Vrai : L'autophosphorylation du récepteur recrute des protéines adaptatrices et active des voies telles que PI3K-Akt et MAP kinases.",
+        "D": "Vrai : Le complexe calcium-calmoduline active diverses kinases et enzymes.",
+        "E": "Faux : L'AMPc est dégradé par les phosphodiestérases ; l'adénylate cyclase le synthétise à partir de l'ATP."
+      },
+      "specialite": "BIOC",
+      "items_residanat": [
+        "RES-SF-020"
+      ],
+      "theme": "Voies de signalisation intracellulaire des hormones",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer la dégradation de l'AMPc à l'adénylate cyclase au lieu des phosphodiestérases.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        },
+        {
+          "reference": "Berg JM, Tymoczko JL, Gatto GJ, Stryer L. Biochemistry. 9e éd. W.H. Freeman / Macmillan Learning ; 2019 [catalogue OUV-0183].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5039",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une cellule qui sécrète une substance agissant sur elle-même exerce un effet qualifié de :",
+      "propositions": {
+        "A": "Endocrine.",
+        "B": "Paracrine.",
+        "C": "Autocrine.",
+        "D": "Neurocrine.",
+        "E": "Exocrine."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Selon la distance et le mode de transport du messager, on distingue plusieurs types de communication chimique : endocrine (hormone transportée par le sang vers des cibles éloignées), paracrine (action locale sur les cellules voisines), autocrine (action de la cellule sur elle-même), neurocrine ou synaptique (neurotransmetteur) et neuroendocrine (neurohormone libérée dans le sang). La sécrétion exocrine, elle, est déversée à l'extérieur via un canal. Ces notions sont essentielles pour comprendre la régulation locale (par exemple les facteurs de croissance) et la physiopathologie tumorale (boucles autocrines).",
+      "explications_par_proposition": {
+        "A": "Faux : L'action endocrine s'exerce à distance, via la circulation sanguine.",
+        "B": "Faux : L'action paracrine s'exerce sur les cellules voisines par diffusion locale.",
+        "C": "Vrai : La cellule répond à sa propre sécrétion, par exemple certains facteurs de croissance tumoraux.",
+        "D": "Faux : Un médiateur est libéré par un neurone dans une synapse.",
+        "E": "Faux : La sécrétion est déversée dans une cavité ou à la surface du corps via un canal excréteur."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-020"
+      ],
+      "theme": "Mode de communication hormonale",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre paracrine (cellules voisines) et autocrine (la cellule elle-même).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Nelson DL, Cox MM. Lehninger Principles of Biochemistry. 7e éd. W.H. Freeman / Macmillan Learning ; 2017 [catalogue OUV-0182].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'organisation d'un gène eucaryote codant une protéine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est constitué d'une alternance d'exons et d'introns.",
+        "B": "Le promoteur, situé en amont, contrôle l'initiation de la transcription.",
+        "C": "Les exons correspondent aux séquences conservées dans l'ARN messager mature.",
+        "D": "Les introns sont traduits en séquence protéique.",
+        "E": "Chez les eucaryotes, la transcription et la traduction ont lieu simultanément dans le même compartiment."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le gène eucaryote codant une protéine comprend une région régulatrice (promoteur, parfois amplificateurs) et une région transcrite faite d'exons et d'introns. L'ARN pré-messager subit une maturation nucléaire : ajout d'une coiffe en 5', polyadénylation en 3' et épissage (excision des introns, raccordement des exons). L'ARN messager mature gagne le cytoplasme pour être traduit. Cette organisation permet l'épissage alternatif, qui augmente la diversité protéique. La séparation nucléo-cytoplasmique distingue les eucaryotes des procaryotes.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les introns sont éliminés lors de l'épissage de l'ARN pré-messager.",
+        "B": "Vrai : Il comporte fréquemment des éléments tels que la boîte TATA.",
+        "C": "Vrai : Ils comprennent la séquence codante et les régions non traduites 5' et 3'.",
+        "D": "Faux : Les introns ne sont pas traduits : ils sont éliminés par épissage avant la traduction.",
+        "E": "Faux : Chez les eucaryotes, la transcription est nucléaire et la traduction cytoplasmique : elles sont séparées dans l'espace et le temps ; la simultanéité est le propre des procaryotes."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-021"
+      ],
+      "theme": "Organisation du gène eucaryote",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les introns sont traduits ou que transcription et traduction sont simultanées chez l'eucaryote.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Strachan T, Read AP. Human Molecular Genetics. 5e éd. CRC Press / Taylor & Francis ; 2019 [catalogue OUV-0196].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'expression des gènes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez les eucaryotes, l'ARN polymérase II transcrit les gènes codant les protéines.",
+        "B": "La maturation de l'ARN pré-messager comprend l'ajout d'une coiffe en 5' et d'une queue poly-A en 3'.",
+        "C": "L'épissage alternatif permet à un même gène de coder plusieurs protéines.",
+        "D": "L'épissage est réalisé par le splicéosome, complexe ribonucléoprotéique.",
+        "E": "Le code génétique est spécifique à chaque espèce."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'expression d'un gène comprend la transcription (synthèse d'ARN par les ARN polymérases, l'ARN polymérase II pour les ARN messagers), la maturation nucléaire (coiffe, polyadénylation, épissage par le splicéosome) puis la traduction au niveau des ribosomes selon le code génétique. Ce code, à triplets, est dégénéré (plusieurs codons par acide aminé) et quasi universel. L'épissage alternatif et les modifications post-traductionnelles diversifient les produits. La régulation de ces étapes détermine le profil d'expression propre à chaque type cellulaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les ARN polymérases I et III transcrivent respectivement les ARN ribosomiques et les ARN de transfert (et d'autres petits ARN).",
+        "B": "Vrai : Ces modifications stabilisent l'ARN messager et facilitent son export et sa traduction.",
+        "C": "Vrai : Il contribue à la diversité du protéome à partir d'un nombre limité de gènes.",
+        "D": "Vrai : Il reconnaît les sites d'épissage aux jonctions exon-intron.",
+        "E": "Faux : Le code génétique est quasi universel : les mêmes codons spécifient les mêmes acides aminés dans la grande majorité des organismes (à quelques exceptions, notamment mitochondriales)."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-021"
+      ],
+      "theme": "Expression des gènes : transcription et maturation de l'ARN",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le code génétique diffère selon les espèces.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Strachan T, Read AP. Human Molecular Genetics. 5e éd. CRC Press / Taylor & Francis ; 2019 [catalogue OUV-0196].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les méthodes d'exploration des gènes et de leur expression, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La PCR permet l'amplification sélective et exponentielle d'une séquence d'ADN définie par deux amorces.",
+        "B": "Le séquençage permet de déterminer l'ordre des nucléotides d'un fragment d'ADN.",
+        "C": "L'hybridation moléculaire repose sur la complémentarité des bases entre une sonde et une séquence cible.",
+        "D": "La RT-PCR permet d'étudier l'expression d'un gène en amplifiant l'ADN complémentaire obtenu à partir de l'ARN messager.",
+        "E": "Le caryotype standard permet de détecter une mutation ponctuelle d'un gène."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'exploration des gènes utilise des techniques complémentaires selon l'échelle. Au niveau chromosomique : caryotype, FISH, puces à ADN (CGH-array). Au niveau moléculaire : PCR et ses variantes (RT-PCR pour l'expression, PCR quantitative), hybridation (Southern, Northern), et séquençage (Sanger, séquençage haut débit pour panels, exome, génome). Le choix dépend du type d'anomalie recherchée : une mutation ponctuelle relève du séquençage, une anomalie chromosomique du caryotype ou de la FISH, une variation du nombre de copies de la CGH-array. Ces outils fondent le diagnostic génétique moderne.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle nécessite une ADN polymérase thermostable (Taq polymérase) et des cycles de dénaturation, hybridation et élongation.",
+        "B": "Vrai : Les techniques de séquençage haut débit (NGS) permettent l'analyse simultanée de nombreux gènes, voire de l'exome ou du génome.",
+        "C": "Vrai : Principe des techniques de Southern blot, Northern blot et hybridation in situ (FISH).",
+        "D": "Vrai : La transcription inverse convertit l'ARN en ADN complémentaire avant amplification.",
+        "E": "Faux : Le caryotype détecte les anomalies chromosomiques de nombre et de structure (résolution de l'ordre de plusieurs mégabases) ; une mutation ponctuelle nécessite le séquençage."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-021"
+      ],
+      "theme": "Méthodes d'exploration des gènes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre du caryotype la détection d'une mutation ponctuelle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Strachan T, Read AP. Human Molecular Genetics. 5e éd. CRC Press / Taylor & Francis ; 2019 [catalogue OUV-0196].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5004",
+      "format": "QCS (réponse unique)",
+      "enonce": "L'empreinte parentale (empreinte génomique) correspond à :",
+      "propositions": {
+        "A": "Une mutation acquise de la séquence d'ADN au cours de la vie.",
+        "B": "Une expression différentielle d'un gène selon qu'il est hérité du père ou de la mère.",
+        "C": "Une anomalie du nombre de chromosomes.",
+        "D": "Une transmission exclusivement liée au chromosome Y.",
+        "E": "Un phénomène touchant également les deux allèles de tous les gènes."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'empreinte génomique est un mécanisme épigénétique par lequel certains gènes ne s'expriment qu'à partir de l'allèle hérité d'un parent déterminé (paternel ou maternel), du fait de marques de méthylation apposées lors de la gamétogenèse. Elle ne modifie pas la séquence d'ADN. Les anomalies de l'empreinte ou de la région soumise à empreinte expliquent des pathologies comme les syndromes de Prader-Willi et d'Angelman (région 15q11-q13), dont le phénotype diffère selon l'origine parentale de l'anomalie. L'empreinte illustre la régulation épigénétique de l'expression des gènes.",
+      "explications_par_proposition": {
+        "A": "Faux : L'empreinte ne modifie pas la séquence d'ADN : c'est un mécanisme épigénétique.",
+        "B": "Vrai : Elle repose sur des marques épigénétiques (méthylation de l'ADN) apposées lors de la gamétogenèse.",
+        "C": "Faux : Il s'agit d'une aneuploïdie, sans rapport avec l'empreinte.",
+        "D": "Faux : L'empreinte concerne des gènes autosomiques ou liés à l'X soumis à méthylation différentielle.",
+        "E": "Faux : L'empreinte ne concerne qu'un petit nombre de gènes soumis à empreinte, pour lesquels un seul allèle (parental déterminé) s'exprime."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-021"
+      ],
+      "theme": "Anomalies d'expression des gènes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre empreinte génomique (épigénétique, réversible) et mutation de séquence.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le caryotype humain et son établissement, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le caryotype humain normal comporte 46 chromosomes, soit 22 paires d'autosomes et une paire de gonosomes.",
+        "B": "Les chromosomes sont analysés au stade de la métaphase mitotique.",
+        "C": "Le caryotype sanguin est réalisé à partir de lymphocytes stimulés par un agent mitogène.",
+        "D": "Le caryotype permet de détecter toutes les mutations ponctuelles.",
+        "E": "Les cellules sont analysées en phase G0 du cycle cellulaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le caryotype est l'analyse de l'ensemble des chromosomes d'une cellule, classés selon leur taille, la position du centromère et les bandes obtenues après marquage (bandes G notamment). Il se réalise sur des cellules en division, bloquées en métaphase par la colchicine, à partir de lymphocytes sanguins stimulés, de fibroblastes ou de cellules fœtales (amniocytes, villosités choriales). Il détecte les anomalies de nombre (aneuploïdies) et de structure visibles à l'échelle du chromosome, mais pas les mutations ponctuelles. Les techniques de cytogénétique moléculaire (FISH, CGH-array) en augmentent la résolution.",
+      "explications_par_proposition": {
+        "A": "Vrai : Formules : 46,XX (femme) et 46,XY (homme).",
+        "B": "Vrai : À ce stade, les chromosomes sont condensés et individualisables ; on bloque les cellules par un poison du fuseau (colchicine).",
+        "C": "Vrai : La phytohémagglutinine stimule la division des lymphocytes T mis en culture.",
+        "D": "Faux : Sa résolution (quelques mégabases) ne permet pas de détecter les mutations ponctuelles ni la plupart des microremaniements.",
+        "E": "Faux : L'analyse se fait en métaphase (mitose) ; en phase G0, les chromosomes sont décondensés et non analysables."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-022"
+      ],
+      "theme": "Caryotype et cycle cellulaire",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le caryotype détecte les mutations ponctuelles.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les anomalies chromosomiques de nombre, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La trisomie 21 libre résulte le plus souvent d'une non-disjonction méiotique, dont le risque augmente avec l'âge maternel.",
+        "B": "Le syndrome de Turner correspond le plus souvent à une monosomie X (45,X).",
+        "C": "Le syndrome de Klinefelter correspond classiquement à un caryotype 47,XXY.",
+        "D": "Une trisomie est toujours incompatible avec la vie.",
+        "E": "La triploïdie correspond à un caryotype à 47 chromosomes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les anomalies de nombre résultent d'une mauvaise répartition des chromosomes, surtout par non-disjonction méiotique (risque croissant avec l'âge maternel). Les aneuploïdies modifient un chromosome (trisomie, monosomie) ; les polyploïdies ajoutent des lots haploïdes entiers (triploïdie 69 chromosomes). Chez l'homme, les trisomies autosomiques viables sont essentiellement les trisomies 21 (Down), 18 (Edwards) et 13 (Patau) ; les anomalies des gonosomes (45,X Turner ; 47,XXY Klinefelter ; 47,XXX ; 47,XYY) sont souvent compatibles avec la vie. Le diagnostic repose sur le caryotype.",
+      "explications_par_proposition": {
+        "A": "Vrai : Caryotype 47,XX,+21 ou 47,XY,+21.",
+        "B": "Vrai : Phénotype féminin avec petite taille et dysgénésie gonadique.",
+        "C": "Vrai : Phénotype masculin avec hypogonadisme et grande taille.",
+        "D": "Faux : Les trisomies 21, 18 et 13 sont viables (au moins à la naissance), même si les trisomies 18 et 13 ont un pronostic très sévère ; la plupart des autres trisomies autosomiques entraînent une fausse couche.",
+        "E": "Faux : La triploïdie correspond à trois lots haploïdes complets, soit 69 chromosomes ; elle est généralement létale."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-022"
+      ],
+      "theme": "Anomalies chromosomiques de nombre",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Généraliser à tort la létalité des trisomies ou confondre triploïdie et trisomie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les anomalies chromosomiques de structure, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une translocation réciproque équilibrée n'entraîne habituellement pas de phénotype anormal chez le porteur.",
+        "B": "Une translocation robertsonienne implique deux chromosomes acrocentriques.",
+        "C": "Une délétion correspond à la perte d'un segment chromosomique.",
+        "D": "Un porteur sain de translocation équilibrée a un risque accru d'avoir des enfants porteurs d'anomalies déséquilibrées ou de faire des fausses couches.",
+        "E": "Une inversion modifie le nombre de chromosomes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les anomalies de structure résultent de cassures chromosomiques suivies de recollages anormaux : délétions, duplications, inversions, translocations (réciproques ou robertsoniennes), chromosomes en anneau, isochromosomes. Elles sont équilibrées (sans perte ni gain de matériel, phénotype souvent normal mais risque de gamètes déséquilibrés) ou déséquilibrées (perte ou gain, phénotype anormal). Les translocations robertsoniennes, impliquant les acrocentriques (13, 14, 15, 21, 22), peuvent transmettre une trisomie 21. Le conseil génétique et l'étude familiale sont essentiels chez les porteurs.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le matériel génétique est conservé ; en revanche, le risque est de produire des gamètes déséquilibrés.",
+        "B": "Vrai : Elle résulte de leur fusion au niveau centromérique ; elle peut être à l'origine d'une trisomie 21 par translocation.",
+        "C": "Vrai : Exemple : la délétion 5p (maladie du cri du chat).",
+        "D": "Vrai : D'où l'intérêt du conseil génétique.",
+        "E": "Faux : Une inversion ne modifie pas le nombre de chromosomes : un segment est retourné sur lui-même, sans perte de matériel si elle est équilibrée."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-022"
+      ],
+      "theme": "Anomalies chromosomiques de structure",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'une inversion ou une translocation équilibrée modifie le nombre de chromosomes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GENE-5008",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle formule chromosomique correspond le plus typiquement au syndrome de Turner ?",
+      "propositions": {
+        "A": "47,XXY.",
+        "B": "45,X.",
+        "C": "47,XX,+21.",
+        "D": "47,XYY.",
+        "E": "69,XXX."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Le syndrome de Turner est lié à l'absence totale ou partielle d'un chromosome X chez un sujet de phénotype féminin ; la formule la plus fréquente est 45,X, mais il existe des mosaïques (45,X/46,XX) et des anomalies de structure de l'X. Il associe petite taille, dysgénésie gonadique (insuffisance ovarienne, aménorrhée), parfois malformations cardiaques et rénales. Il ne faut pas le confondre avec le syndrome de Klinefelter (47,XXY, phénotype masculin). Le diagnostic repose sur le caryotype ; la prise en charge comprend hormone de croissance et traitement hormonal substitutif.",
+      "explications_par_proposition": {
+        "A": "Faux : C'est le syndrome de Klinefelter.",
+        "B": "Vrai : Monosomie du chromosome X, cause la plus fréquente du syndrome de Turner.",
+        "C": "Faux : C'est une trisomie 21 (syndrome de Down) chez une fille.",
+        "D": "Faux : C'est le syndrome du double Y, de phénotype masculin.",
+        "E": "Faux : C'est une triploïdie, généralement létale."
+      },
+      "specialite": "GENE",
+      "items_residanat": [
+        "RES-SF-022"
+      ],
+      "theme": "Caryotype du syndrome de Turner",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les formules de Turner (45,X) et de Klinefelter (47,XXY).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Nussbaum RL, McInnes RR, Willard HF. Thompson & Thompson Genetics in Medicine. 8e éd. Elsevier / Saunders ; 2016 [catalogue OUV-0194].",
+          "date": "2016"
+        },
+        {
+          "reference": "Turnpenny PD, Ellard S. Emery's Elements of Medical Genetics. 14e éd. Elsevier / Churchill Livingstone ; 2012 [catalogue OUV-0195].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }

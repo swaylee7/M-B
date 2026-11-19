@@ -320,6 +320,26 @@ HYPOKALIÉMIE
 5. **Hyperaldostéronisme primaire** : à rechercher devant toute **HTA avec hypokaliémie** (spontanée ou sous diurétique) par le rapport aldostérone/rénine, selon la recommandation de l'Endocrine Society actualisée en 2025 [S12] (qui élargit le dépistage à l'ensemble des hypertendus par rapport à la version 2016 [S13]).
 6. **ECG** dans tous les cas [S5] ; TSH si paralysie périodique ; recherche de diurétiques ou de laxatifs (dosages urinaires) si suspicion de prise cachée.
 
+### 9.4 Gradient transtubulaire de potassium (TTKG) — notion classique à manier avec prudence
+```text
+TTKG = (K urinaire / K plasmatique) / (Osm urinaire / Osm plasmatique)
+Conditions de validité classiquement admises : osmolalité urinaire > osmolalité plasmatique
+et natriurèse suffisante (apport distal de sodium non limitant).
+Hypokaliémie + TTKG élevé  → perte rénale (effet minéralocorticoïde)
+Hyperkaliémie + TTKG bas   → défaut d'action de l'aldostérone (hypoaldostéronisme, résistance)
+```
+Les hypothèses physiologiques du TTKG (absence de réabsorption d'osmoles dans le canal collecteur médullaire) ont été remises en cause ; le **rapport K/créatinine urinaire** est aujourd'hui préféré pour juger d'une perte rénale [S5]. Le TTKG reste néanmoins cité dans les questions d'examen.
+
+### 9.5 Exemples d'interprétation rapide
+| Profil | Hypothèse principale |
+|---|---|
+| K 2,6 ; HCO₃ 34 ; PA 160/100 ; kaliurèse 60 mmol/j ; rénine basse | Hyperaldostéronisme primaire (dépistage par rapport aldostérone/rénine) [S12] |
+| K 2,9 ; HCO₃ 17 ; kaliurèse 10 mmol/j ; diarrhée chronique | Pertes digestives basses |
+| K 3,0 ; HCO₃ 33 ; PA normale ; chlorurie 8 mmol/L | Vomissements (cachés ou non) |
+| K 6,3 ; DFGe 28 ; IEC + spironolactone ; HCO₃ 18 | Hyperkaliémie médicamenteuse sur MRC avec acidose |
+| K 6,1 ; Na 128 ; hypotension ; mélanodermie | Insuffisance surrénale primaire (cortisol, ACTH, rénine) |
+| K 6,8 sur tube hémolysé ; ECG normal ; plaquettes 250 000 | Pseudohyperkaliémie probable → contrôle immédiat |
+
 ---
 
 ## 10. Formes cliniques
@@ -389,6 +409,13 @@ HYPOKALIÉMIE
 | | Diurétique de l'anse | Si volémie conservée et diurèse résiduelle | Heures | Inefficace en anurie |
 | | **Épuration extrarénale (hémodialyse)** | Hyperkaliémie sévère réfractaire, IRA oligo-anurique, MRC terminale, lyse cellulaire massive | Immédiat (le plus efficace) | Rebond post-dialyse possible (transferts) |
 | **4. Surveiller** | Kaliémie, glycémie, ECG/scope | Kaliémie à **1–2 h**, puis selon l'évolution (jusqu'à 24 h) ; glycémie horaire pendant ≥ 6 h après insuline-glucose **[séquence exacte : protocole local / UKKA]** | — | Rechercher et traiter la cause |
+
+### 13.2 bis Conduite selon la gravité (repères pédagogiques inspirés de l'UKKA [S1])
+- **Légère (5,5–5,9 mmol/L) sans anomalie ECG** : pas de traitement d'urgence ; rechercher et corriger la cause (médicaments, apports, hypovolémie, acidose), contrôler la kaliémie dans un délai adapté au contexte (rapide si IRA ou tendance à la hausse).
+- **Modérée (6,0–6,4 mmol/L)** : insuline-glucose à discuter selon le contexte (IRA, tendance évolutive, ECG), traitement étiologique, chélateur, surveillance rapprochée.
+- **Sévère (≥ 6,5 mmol/L) ou anomalies ECG quelle que soit la valeur** : prise en charge en unité monitorée, séquence complète calcium → insuline-glucose → salbutamol → élimination, avis néphrologique.
+- **Patient hémodialysé chronique** : cause fréquente = séance manquée ou écart alimentaire ; traitement médical d'attente (calcium, insuline-glucose, salbutamol) puis **hémodialyse en urgence** ; les diurétiques sont inefficaces en anurie.
+- *Seuils exacts de déclenchement de chaque mesure : se référer au texte UKKA en vigueur (juillet 2026) et au protocole local.*
 
 ### 13.3 Hyperkaliémie en arrêt cardiaque [S2, S3]
 - Réanimation cardio-pulmonaire selon l'algorithme standard, recherche des causes réversibles.

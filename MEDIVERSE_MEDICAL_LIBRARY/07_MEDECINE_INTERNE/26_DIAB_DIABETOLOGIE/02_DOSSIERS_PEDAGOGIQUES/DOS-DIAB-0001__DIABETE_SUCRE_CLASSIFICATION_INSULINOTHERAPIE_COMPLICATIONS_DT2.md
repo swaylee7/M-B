@@ -171,10 +171,10 @@ mots_cles: [diabète sucré, diabète de type 1, diabète de type 2, HbA1c, insu
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Les recommandations citées sont datées ; la référence principale est l'édition 2026 des *Standards of Care* de l'ADA (publiée en décembre 2025, supplément de janvier 2026), dernière édition vérifiée au 19/11/2026.
+> Référence principale : ADA *Standards of Care* 2026 (supplément de janvier 2026), dernière édition vérifiée au 19/11/2026.
 
 **Items du programme couverts** : RES-MED-091 — « Diabète sucré : Définition - épidémiologie - classification du diabète type I et II - insuline et insulinothérapie - complications dégénératives du diabète et traitement du diabète type II. » (intitulé officiel, programme du concours de résidanat 2024-2025).
-Les complications **aiguës** (acidocétose, hypoglycémie, état hyperosmolaire) font l'objet du dossier lié **DOS-DIAB-0002** (RES-MED-092). La maladie rénale chronique est traitée plus largement dans l'item RES-MED-123, l'hyperkaliémie sous bloqueurs du SRAA dans **DOS-NEPH-0002**.
+Dossiers liés : **DOS-DIAB-0002** (complications aiguës), **DOS-NEPH-0002** (hyperkaliémie sous bloqueurs du SRAA) ; MRC : item RES-MED-123.
 
 **Objectifs pédagogiques** — à l'issue de ce dossier, l'apprenant doit être capable de :
 1. **Énoncer** les critères diagnostiques du diabète et du prédiabète et **expliquer** la nécessité d'un test de confirmation.
@@ -247,13 +247,13 @@ Le DT2 représente l'immense majorité des cas ; le DT1 prédomine chez l'enfant
 ### 3.2 Algérie
 Les données algériennes ont été synthétisées par une revue d'experts publiée en 2025 [S11] :
 - **Enquêtes STEPwise de l'OMS** : 8,9 % en 2003 (enquête pilote à Mostaganem et Sétif, 4 050 sujets de 25–64 ans, critère glycémie à jeun) puis **14,4 % en 2016–2017** (seconde enquête nationale, glycémie à jeun) — soit une hausse d'environ 1,6 fois en une décennie [S11].
-- Autres enquêtes nationales (MICS 3 en 2006, MICS 4 en 2013) : chiffres beaucoup plus bas (2–4 %), jugés incohérents avec les tendances et probablement liés à la méthodologie (auto-déclaration) [S11].
+- Les enquêtes MICS (2006, 2013) donnent des chiffres plus bas (2–4 %), jugés peu cohérents avec les tendances [S11].
 - **Âge moyen de début** ≈ 41 ans (étude DiabCare) ; la charge est plus lourde et plus précoce chez la femme [S11].
 - Surpoids/obésité : ≈ **56 %** de la population générale en 2016–2017 ; jusqu'à **74 %** des patients diabétiques en surpoids ou obèses et **93,5 %** avec obésité abdominale dans certaines séries [S11].
 - Contrôle glycémique : dans l'étude Baromètre (2013–2017, n = 14 609), **64,6 %** des patients avaient une HbA1c ≥ 7 % et **20,1 %** > 9 % [S11].
 - Diabète méconnu : 5,3 % dans une large campagne de dépistage, avec une fréquence élevée de complications déjà présentes au diagnostic [S11].
 
-**Implications pratiques** : diagnostic tardif, poids important de l'obésité, inertie thérapeutique, coût et couverture sociale des molécules récentes, et jeûne du Ramadan pratiqué par une majorité de patients musulmans (§ 13.4).
+**Implications pratiques** : diagnostic tardif, obésité, inertie thérapeutique, accès aux molécules récentes, jeûne du Ramadan (§ 13.4).
 
 ---
 
@@ -291,7 +291,7 @@ Maladie **hétérogène et progressive** associant deux anomalies :
 1. **Insulinorésistance** (muscle, foie, tissu adipeux), favorisée par l'obésité viscérale, la sédentarité, la stéatose hépatique métabolique (MASLD) et l'âge ;
 2. **Déficit insulinosécrétoire progressif** des cellules β, qualitatif (perte du pic précoce) puis quantitatif.
 
-Mécanismes contributifs : réduction de l'effet incrétine, hyperglucagonémie relative, augmentation de la réabsorption tubulaire du glucose, lipolyse excessive (acides gras libres), inflammation de bas grade, dysrégulation centrale de l'appétit. La **glucotoxicité** et la **lipotoxicité** aggravent la défaillance β — d'où l'intérêt d'un traitement précoce et efficace, et la réversibilité partielle de l'insulinorequérance après correction d'une hyperglycémie majeure.
+Mécanismes contributifs : effet incrétine réduit, hyperglucagonémie relative, réabsorption tubulaire du glucose accrue, lipolyse excessive, inflammation de bas grade. La **glucotoxicité** et la **lipotoxicité** aggravent la défaillance β, d'où l'intérêt d'un traitement précoce et la réversibilité partielle de l'insulinorequérance après correction d'une hyperglycémie majeure.
 
 ### 5.3 Physiopathologie des complications chroniques
 - **Microangiopathie** : l'hyperglycémie chronique active plusieurs voies délétères — accumulation de **produits de glycation avancée** (AGE) et de leurs récepteurs, voie des polyols (aldose réductase, sorbitol), activation de la protéine kinase C, voie des hexosamines — aboutissant au **stress oxydant**, à l'épaississement des membranes basales, à l'augmentation de la perméabilité capillaire et à l'ischémie tissulaire.
@@ -352,7 +352,7 @@ En cas de dépistage normal, répéter au minimum tous les 3 ans [S1, recommanda
 2. **Syndrome cardinal** : polyurie, polydipsie, amaigrissement malgré une polyphagie, asthénie — typique du DT1 ou d'un DT2 très déséquilibré.
 3. **Complication aiguë** inaugurale : acidocétose, état hyperosmolaire.
 4. **Complication chronique** révélatrice : baisse d'acuité visuelle, mal perforant plantaire, infarctus du myocarde, AVC, dysfonction érectile, protéinurie.
-5. **Infections** récidivantes ou traînantes : cutanées (furonculose), urinaires, génitales (candidose vulvovaginale, balanite), parodontales.
+5. **Infections** récidivantes (cutanées, urinaires, génitales, parodontales).
 
 ### 8.2 Examen clinique initial (bilan du diabète et du terrain)
 - Poids, taille, IMC, **tour de taille** ; pression artérielle (couché/debout pour l'hypotension orthostatique dysautonomique) ; fréquence cardiaque.
@@ -360,7 +360,7 @@ En cas de dépistage normal, répéter au minimum tous les 3 ans [S1, recommanda
 - Examen cardiovasculaire complet : pouls périphériques, souffles carotidiens et fémoraux.
 - **Examen des pieds** : inspection, déformations, hyperkératose, monofilament 10 g, diapason 128 Hz, réflexes achilléens, pouls [S6].
 - Recherche d'une endocrinopathie ou d'un diabète secondaire (signes de Cushing, d'acromégalie, de thyrotoxicose ; pancréatopathie).
-- Évaluation psychosociale, alimentaire, activité physique, tabac, alcool, contraception et projet de grossesse.
+- Évaluation psychosociale, mode de vie, tabac, alcool, projet de grossesse.
 
 ---
 
@@ -398,9 +398,8 @@ En cas de dépistage normal, répéter au minimum tous les 3 ans [S1, recommanda
 - **Diabète des immunothérapies anticancéreuses** : insulinopénie brutale, acidocétose possible → évaluer d'urgence le besoin d'insuline [S3, recommandation 9.33].
 
 ### 10.2 Selon le terrain
-- **Sujet âgé** : objectifs moins stricts si fragilité, troubles cognitifs ou comorbidités sévères ; désescalade des médicaments hypoglycémiants [S2, recommandations 6.5–6.7].
-- **Femme en âge de procréer** : contraception, programmation de la grossesse (HbA1c au plus près de l'objectif, arrêt des traitements non insuliniques selon le calendrier, arrêt des IEC/ARA2, statines) [S3, recommandation 9.32 ; S4, recommandations 10.12, 10.25].
-- **Diabète prégestationnel et gestationnel** : spécificités obstétricales hors du champ de ce dossier.
+- **Sujet âgé** : objectifs moins stricts si fragilité ou comorbidités ; désescalade des hypoglycémiants [S2, recommandations 6.5–6.7].
+- **Femme en âge de procréer** : contraception et programmation de la grossesse (arrêt préalable des IEC/ARA2 et des statines) [S3, recommandation 9.32 ; S4, recommandations 10.12, 10.25].
 
 ---
 
@@ -422,12 +421,7 @@ En cas de dépistage normal, répéter au minimum tous les 3 ans [S1, recommanda
 | Hypercalcémie, hypokaliémie | Normale | Basse (néphrogénique) | Calcémie, kaliémie (cf. DOS-NEPH-0002) |
 
 ### 11.3 Devant une classification incertaine
-| Élément | DT1 / LADA | DT2 | MODY | Diabète pancréatique |
-|---|---|---|---|---|
-| Auto-anticorps | + | − | − | − |
-| Peptide C | Bas | Normal/haut | Normal | Bas |
-| Hérédité | Rare | Fréquente, polygénique | Dominante, ≥ 2–3 générations | Variable |
-| Signes associés | Autres auto-immunités | Syndrome métabolique | Kystes rénaux, malformations génitales (HNF1B) | Stéatorrhée, calcifications pancréatiques |
+Voir le tableau comparatif DT1/DT2 (§ 7.1) et l'arbre de classification (§ 16.2) : auto-anticorps, peptide C, hérédité et contexte (pancréatopathie, médicaments) orientent entre DT1/LADA, DT2, MODY et diabète secondaire.
 
 ---
 
@@ -458,7 +452,7 @@ En cas de dépistage normal, répéter au minimum tous les 3 ans [S1, recommanda
 | A2 — modérément augmentée | 30–299 | 3–29 |
 | A3 — sévèrement augmentée | ≥ 300 | ≥ 30 |
 
-**Arguments devant faire douter d'une MRD et discuter une néphropathie non diabétique (et un avis néphrologique)** : absence de rétinopathie chez un DT1, hématurie active, déclin rapide du DFG, syndrome néphrotique brutal, durée courte du diabète, signes systémiques [S5, recommandation 11.12].
+**Doute sur une néphropathie non diabétique** (avis néphrologique) : absence de rétinopathie chez un DT1, hématurie active, déclin rapide du DFG, syndrome néphrotique brutal, signes systémiques [S5, recommandation 11.12].
 
 **Néphroprotection** (au-delà du contrôle glycémique) [S5, S9] :
 1. **Pression artérielle** < 130/80 mmHg si tolérée ; PAS < 120 mmHg encouragée chez les patients à haut risque [S5, recommandation 11.5].
@@ -500,7 +494,7 @@ En cas de dépistage normal, répéter au minimum tous les 3 ans [S1, recommanda
 - **iSGLT2 et/ou AR GLP-1 à bénéfice CV démontré** en cas de maladie CV athéromateuse ou de MRD, indépendamment de l'HbA1c [S4, recommandations 10.40a–b ; S3].
 
 ### 12.6 Autres complications et associations
-Infections (pyélonéphrite, otite externe maligne, mucormycose rhino-orbito-cérébrale lors d'acidocétose, infections des parties molles), atteinte parodontale, capsulite rétractile, maladie de Dupuytren, nécrobiose lipoïdique, MASLD/MASH, troubles cognitifs, dépression, détresse liée au diabète, fractures (glitazones, hypoglycémies → chutes).
+Infections (pyélonéphrite, otite externe maligne, mucormycose au cours d'une acidocétose), parodontite, capsulite rétractile, MASLD/MASH, troubles cognitifs, dépression et détresse liée au diabète, fractures.
 
 ### 12.7 Pronostic
 Le pronostic est dominé par la **mortalité cardiovasculaire** et rénale. Les déterminants modifiables sont l'équilibre glycémique **précoce** (mémoire métabolique), la PA, le LDL-cholestérol, le tabac et l'accès aux traitements à bénéfice cardio-rénal. La relation entre HbA1c et complications microvasculaires est **curvilinéaire** : le plus grand bénéfice populationnel provient du passage d'une HbA1c très élevée à une HbA1c modérée [S2]. Dans le DT2, les grands essais de contrôle quasi normal (ACCORD, ADVANCE, VADT) n'ont pas montré de bénéfice cardiovasculaire net et ACCORD a été arrêté prématurément pour excès de mortalité dans le bras intensif [S2] — d'où l'individualisation des objectifs.
@@ -558,11 +552,11 @@ Fréquence d'évaluation : au moins **deux HbA1c par an**, et tous les 3 mois si
 
 *Les valeurs pharmacocinétiques sont des ordres de grandeur pédagogiques ; se référer au RCP de chaque spécialité.* L'**insuline détémir** a été retirée du marché dans certains pays, nécessitant des conversions [S3]. Les conversions entre basales se font souvent unité pour unité, avec une réduction initiale de 10–20 % chez les patients très bien équilibrés ou à risque d'hypoglycémie et lors du passage depuis la NPH ou la glargine U300 [S3].
 
-**Technique et effets indésirables** : rotation des sites (abdomen, cuisses, bras, fesses) pour éviter les **lipohypertrophies** (absorption erratique, hypoglycémies), aiguilles courtes, conservation (stylos en cours d'utilisation à température ambiante, réserve au réfrigérateur, jamais congelée), hypoglycémies, prise de poids, rares allergies.
+**Technique et effets indésirables** : rotation des sites (prévention des **lipohypertrophies**), aiguilles courtes, conservation au réfrigérateur (jamais congelée), hypoglycémies, prise de poids.
 
 **Phénomènes à connaître** :
 - **Phénomène de l'aube** : hyperglycémie de fin de nuit liée aux hormones de contre-régulation matinales.
-- **Effet Somogyi** (hyperglycémie matinale réactionnelle à une hypoglycémie nocturne) : notion classique discutée ; vérifier par une glycémie nocturne ou la MCG avant d'augmenter la basale.
+- **Effet Somogyi** (notion classique discutée) : vérifier l'absence d'hypoglycémie nocturne (MCG) avant d'augmenter la basale.
 - **Sur-basalisation** : dose de basale excessive masquant une couverture prandiale insuffisante — signes : écart important coucher–réveil ou post-prandial–pré-prandial, hypoglycémies, forte variabilité ; impose une réévaluation [S3, recommandation 9.26].
 
 #### 13.2.4 Insulinothérapie du DT1
@@ -570,7 +564,7 @@ Fréquence d'évaluation : au moins **deux HbA1c par an**, et tous les 3 mois si
 - **Dose de départ** : environ **0,5 U/kg/j** chez l'adulte métaboliquement stable, dont ~**50 % en basale** et ~50 % en bolus prandiaux [S3] ; besoins accrus à la puberté, en phase lutéale, en cas de maladie intercurrente.
 - **Insulinothérapie fonctionnelle** : bolus adapté au contenu glucidique (ratio insuline/glucides), correction selon la glycémie (facteur de sensibilité), anticipation de l'activité physique [S3, recommandation 9.3].
 - **Technologies** : MCG dès le diagnostic et à tout moment chez les personnes sous insuline [S3, recommandation 9.25] ; **systèmes de délivrance automatisée d'insuline** à proposer aux adultes DT1 et DT2 sous insuline selon les besoins et préférences [S3, recommandation 9.27].
-- **Glucagon** prescrit à tout patient sous insuline (formes prêtes à l'emploi préférées) [S3, recommandation 9.28].
+- **Glucagon** prescrit à tout patient sous insuline [S3, recommandation 9.28].
 - Réévaluation du schéma tous les 3–6 mois [S3, recommandation 9.4].
 
 #### 13.2.5 Insulinothérapie du DT2
@@ -584,7 +578,7 @@ Fréquence d'évaluation : au moins **deux HbA1c par an**, et tous les 3 mois si
 - si insuline : **l'associer à un AR GLP-1** (ou au tirzépatide) pour l'efficacité, le poids et le risque d'hypoglycémie [S3, recommandation 9.22] ;
 - **poursuivre les antidiabétiques non insuliniques** à bénéfice métabolique (metformine, iSGLT2, AR GLP-1) ; limiter ou arrêter sulfamides, glinides et inhibiteurs de la DPP-4 lors de l'intensification [S3, recommandation 9.23].
 **Initiation pratique** :
-1. **Insuline basale** au coucher ou à heure fixe : **0,1–0,2 U/kg/j** selon le poids et le degré d'hyperglycémie [S3] (exemple : 10 U/j chez un patient de 70 kg modérément déséquilibré).
+1. **Insuline basale** au coucher ou à heure fixe : **0,1–0,2 U/kg/j** selon le poids et le degré d'hyperglycémie [S3].
 2. **Titration** sur la glycémie capillaire à jeun : exemple d'algorithme d'autotitration — +2 U tous les 3 jours tant que la GAJ dépasse l'objectif (par ex. 0,80–1,30 g/L), −10 à −20 % (ou −4 U) en cas d'hypoglycémie : **[POSOLOGIE À VÉRIFIER — protocole local ; l'autotitration est recommandée dans son principe par l'ADA [S3]]**.
 3. Si GAJ à l'objectif mais HbA1c au-dessus de l'objectif (ou sur-basalisation) : ajouter un AR GLP-1 (ou association fixe basale/AR GLP-1) **avant** l'insuline prandiale ; sinon ajouter **une injection prandiale de 4 U ou 10 % de la dose de basale** au repas le plus hyperglycémiant, puis étendre aux autres repas (« basal-plus » → « basal-bolus ») ; alternative : 2 injections de prémélange [S3].
 4. Les DT2 sont plus insulinorésistants et peuvent nécessiter ~1 U/kg/j, avec moins d'hypoglycémies que les DT1 [S3].
@@ -634,7 +628,7 @@ ALGORITHME DÉCISIONNEL — DT2 DE L'ADULTE (d'après ADA 2026 [S3] et ADA/EASD 
 ### 13.4 Particularités algériennes
 - **Pratiques de prescription** : dans l'étude Baromètre (2013–2017), 85,4 % des patients recevaient des antidiabétiques oraux ; l'association **metformine + insulinosécréteur** était la plus fréquente (46,4 %) et **aucun patient** ne recevait d'inhibiteur de la DPP-4, d'AR GLP-1 ou d'iSGLT2 [S11]. Dans la cohorte DISCOVER (patients algériens), 77,5 % recevaient la metformine en monothérapie de première ligne [S11].
 - **Organisation** : plus de 70 % des patients diabétiques sont suivis dans le secteur privé ; l'adoption des thérapeutiques récentes (pompes, nouvelles classes) reste lente, freinée par le coût et l'absence de remboursement [S11]. L'insuline est souvent débutée tardivement (mauvais contrôle ou complications) [S11] — situation propice à l'inertie thérapeutique.
-- **Hypoglycémies** : fréquentes sous insuline chez les patients algériens (une étude rapporte 30,5 événements non sévères et 0,3 événement sévère par patient-année) [S11] — voir DOS-DIAB-0002.
+- **Hypoglycémies** sous insuline fréquentes chez les patients algériens [S11] — voir DOS-DIAB-0002.
 - **Ramadan** : les recommandations IDF-DAR 2021 [S12] proposent une **stratification du risque** (score de risque attribuant des points au type de diabète, au traitement, aux antécédents d'hypoglycémie ou d'acidocétose, à l'équilibre glycémique, aux complications, à la grossesse, à l'âge et à la fragilité…) classant les patients en risque faible, modéré ou élevé, avec un **conseil médical sur la possibilité de jeûner**. Principes :
   - éducation pré-Ramadan structurée (seule la moitié environ des patients algériens interrogés en avait bénéficié dans une étude) [S11, S12] ;
   - adaptation des traitements : metformine répartie sur le *ftour* et le *shour*, préférence pour les molécules à faible risque d'hypoglycémie (iDPP-4, iSGLT2 avec hydratation suffisante, AR GLP-1 stabilisés avant le mois de jeûne), réduction de dose des sulfamides et des insulines selon le profil ; modalités chiffrées : **[POSOLOGIE À VÉRIFIER — IDF-DAR 2021, tableaux par classe]** [S12] ;
@@ -666,7 +660,7 @@ ALGORITHME DÉCISIONNEL — DT2 DE L'ADULTE (d'après ADA 2026 [S3] et ADA/EASD 
 
 ### 15.1 Prévention du DT2
 - Dépistage ciblé (§ 6.1) et prise en charge du prédiabète : **modification du mode de vie** (perte de poids, activité physique, alimentation), suivi annuel ; un traitement pharmacologique (metformine notamment) peut se discuter chez certains sujets à très haut risque selon les recommandations de prévention de l'ADA [référence de section non vérifiée dans cette session — À VÉRIFIER].
-- Santé publique : lutte contre l'obésité, politiques alimentaires (boissons sucrées, sel), promotion de l'activité physique — enjeux majeurs en Algérie compte tenu de la progression rapide de la prévalence [S11].
+- Santé publique : lutte contre l'obésité et la sédentarité, enjeu majeur en Algérie [S11].
 
 ### 15.2 Prévention du DT1 (secondaire)
 - Dépistage des auto-anticorps chez les apparentés ou sujets à haut risque génétique, orientation des sujets à auto-anticorps multiples vers un centre spécialisé pour stadification métabolique, éducation et participation éventuelle à des essais [S1, recommandations 2.6–2.9]. Des immunothérapies visant à retarder le passage au stade 3 sont disponibles dans certains pays : **[disponibilité et indications en Algérie : À VÉRIFIER]**.
@@ -705,24 +699,8 @@ Diabète confirmé
 └─ Adulte en surpoids, syndrome métabolique → DT2 (réévaluer si évolution atypique)
 ```
 
-### 16.3 Calendrier de dépistage des complications
-```text
-DT2 : au diagnostic → FO, RAC + DFGe, pieds/monofilament, neuropathie autonome, ECG, lipides
-DT1 : à 5 ans d'évolution → FO, RAC + DFGe, neuropathie (puis annuel)
-Puis chaque année : RAC + DFGe, pieds, neuropathie, lipides ; FO annuel (ou 1–2 ans si normal)
-À chaque visite : PA, poids, hypoglycémies, inspection des pieds si à risque
-```
-
-### 16.4 Initiation et titration de l'insuline basale dans le DT2
-```text
-Indication retenue (§ 13.2.5) → basale 0,1–0,2 U/kg/j (ou 10 U/j) [S3]
-→ autotitration sur GAJ (protocole local) jusqu'à l'objectif
-   ├─ GAJ à l'objectif + HbA1c à l'objectif → poursuivre
-   ├─ GAJ à l'objectif + HbA1c élevée ou signes de sur-basalisation
-   │     → ajouter AR GLP-1 / tirzépatide (ou association fixe), sinon
-   │       1 bolus prandial (4 U ou 10 % de la basale) au repas principal
-   └─ Hypoglycémie → réduire la dose (−10 à −20 %) et rechercher la cause
-```
+### 16.3 Calendrier de dépistage et titration de l'insuline
+Voir le tableau de surveillance (§ 14) et l'initiation de l'insuline basale (§ 13.2.5).
 
 ---
 
@@ -890,7 +868,7 @@ DT2 déséquilibré (HbA1c 9,1 %) avec **MRD stade G3a A2**, **RD non proliféra
 | Sujet | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
 |---|---|---|---|
 | Seuil de l'hyperglycémie modérée à jeun | **ADA 2026** : 1,00–1,25 g/L (5,6–6,9 mmol/L) [S1] | **OMS** : 1,10–1,25 g/L (6,1–6,9 mmol/L) [référence OMS non revérifiée dans cette session — À VÉRIFIER] | Le seuil ADA classe davantage de sujets en prédiabète ; préciser le référentiel utilisé. |
-| Place de la metformine | **ADA/EASD 2022** : metformine encore présentée comme option de base chez la plupart des patients sans comorbidité cardio-rénale, la priorité allant aux traitements cardio-rénaux en cas de comorbidité [S7] ; **SFD 2023** et **HAS** : metformine en 1re intention dans la majorité des cas [S16, S17 — non vérifiées] | **ADA 2026** : metformine décrite comme « historiquement » de première ligne ; choix guidé par les comorbidités, le poids et l'efficacité, association précoce encouragée [S3] | Évolution vers une stratégie « par objectifs » ; en contexte de contrainte d'accès (Algérie), la metformine reste centrale [S3, recommandation 9.30 ; S11]. |
+| Place de la metformine | **ADA/EASD 2022** : la metformine reste une option efficace et peu coûteuse, mais n'est plus un prérequis : les agents à bénéfice cardio-rénal sont recommandés indépendamment d'elle [S7] ; **SFD 2023** et **HAS** : metformine en 1re intention dans la majorité des cas [S16, S17 — non vérifiées] | **ADA 2026** : metformine décrite comme « historiquement » de première ligne ; choix guidé par les comorbidités, le poids et l'efficacité, association précoce encouragée [S3] | Évolution vers une stratégie « par objectifs » ; en contexte de contrainte d'accès (Algérie), la metformine reste centrale [S3, recommandation 9.30 ; S11]. |
 | Objectif tensionnel | **ADA 2026** : < 130/80 mmHg si tolérée ; PAS < 120 encouragée chez les patients à haut risque CV ou rénal [S4] | **ESC 2023** : objectif de PAS autour de 130 mmHg et plus bas si toléré, sans descendre sous 120 mmHg ; objectifs plus souples chez le sujet âgé [S8] | Les deux convergent vers < 130 mmHg ; divergence sur la PAS < 120 (encouragée par l'ADA, évitée par l'ESC). |
 | Stratification du risque CV pour le choix des iSGLT2/AR GLP-1 | **ADA 2026** : maladie CV athéromateuse ou facteurs de risque multiples [S3, S4] | **ESC 2023** : estimation du risque à 10 ans par le score SCORE2-Diabetes chez les patients sans maladie CV ni atteinte d'organe sévère [S8] | Outils différents ; résultats souvent concordants en pratique. |
 | Intensification en cas d'HbA1c élevée | **ADA 2026** : traitement à base de GLP-1 préféré à l'insuline en l'absence d'hyperglycémie sévère [S3] | **Pratique algérienne décrite** : insuline souvent introduite pour mauvais contrôle, accès limité aux AR GLP-1 [S11] | Divergence liée à l'accès et au coût plus qu'aux preuves. |
@@ -900,22 +878,24 @@ DT2 déséquilibré (HbA1c 9,1 %) avec **MRD stade G3a A2**, **RD non proliféra
 
 ## 22. Références
 
-1. **[S1]** ADA Professional Practice Committee. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S27-S49. doi:10.2337/dc26-S002. — vérifiée (PubMed, texte intégral PMC).
-2. **[S2]** ADA Professional Practice Committee. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S132-S149. doi:10.2337/dc26-S006. — vérifiée.
-3. **[S3]** ADA Professional Practice Committee. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S183-S215. doi:10.2337/dc26-S009. — vérifiée.
-4. **[S4]** ADA Professional Practice Committee. 10. Cardiovascular Disease and Risk Management: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S216-S245. doi:10.2337/dc26-S010. — vérifiée.
-5. **[S5]** ADA Professional Practice Committee. 11. Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S246-S260. doi:10.2337/dc26-S011. — vérifiée.
-6. **[S6]** ADA Professional Practice Committee. 12. Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S261-S276. doi:10.2337/dc26-S012. — vérifiée.
-7. **[S7]** Davies MJ, Aroda VR, Collins BS, et al. Management of Hyperglycemia in Type 2 Diabetes, 2022. A Consensus Report by the ADA and the EASD. *Diabetes Care*. 2022;45(11):2753-2786. doi:10.2337/dci22-0034. — vérifiée.
-8. **[S8]** Marx N, et al. 2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes. *Eur Heart J*. 2023;44(39):4043-4140. doi:10.1093/eurheartj/ehad192. — vérifiée (existence) ; contenu cité d'après connaissance du texte, à confronter au document.
-9. **[S9]** KDIGO Diabetes Work Group. KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. *Kidney Int*. 2022;102(5S):S1-S127. doi:10.1016/j.kint.2022.06.008. — vérifiée (existence).
-10. **[S10]** Genitsaridi I, et al. 11th edition of the IDF Diabetes Atlas: global, regional, and national diabetes prevalence estimates for 2024 and projections for 2050. *Lancet Diabetes Endocrinol*. 2026;14(2):149-156. doi:10.1016/S2213-8587(25)00299-2. — vérifiée (résumé PubMed).
-11. **[S11]** Belhadj M, et al. Perspectives of type 2 diabetes mellitus management in Algeria: a comprehensive expert review. *Front Clin Diabetes Healthc*. 2025;6:1495849. doi:10.3389/fcdhc.2025.1495849. — vérifiée (texte intégral).
-12. **[S12]** Hassanein M, et al. Diabetes and Ramadan: Practical guidelines 2021. *Diabetes Res Clin Pract*. 2022;185:109185. doi:10.1016/j.diabres.2021.109185. — vérifiée (existence) ; seuils de rupture du jeûne cités d'après le document, à confronter au texte.
-13. **[S13]** DCCT Research Group. *N Engl J Med*. 1993;329(14):977-986. doi:10.1056/NEJM199309303291401. — vérifiée.
-14. **[S14]** UKPDS Group. UKPDS 33. *Lancet*. 1998;352(9131):837-853. — vérifiée.
-15. **[S15]** ADA Professional Practice Committee. Summary of Revisions: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S6-S12. doi:10.2337/dc26-SREV. — vérifiée.
-16. **[S16]** SFD. Prise de position sur l'approche thérapeutique du patient avec DT2 (2023). — **NON vérifiée** dans cette session [À VÉRIFIER].
-17. **[S17]** HAS. Stratégie thérapeutique du patient vivant avec un DT2. — **NON vérifiée** dans cette session [À VÉRIFIER].
-18. **[S18]** KDIGO CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. *Kidney Int*. 2024;105(4S):S117-S314. doi:10.1016/j.kint.2023.10.018. — vérifiée.
-19. **[S19]** ADA Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S339-S355. doi:10.2337/dc26-S016. — vérifiée.
+*Statut de vérification : V = existence vérifiée dans la session (PubMed/PMC) ; T = texte intégral consulté ; NV = non vérifiée.*
+
+1. **[S1]** ADA. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S27-S49. doi:10.2337/dc26-S002. — V, T
+2. **[S2]** ADA. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises — 2026. *Diabetes Care*. 2026;49(Suppl 1):S132-S149. doi:10.2337/dc26-S006. — V, T
+3. **[S3]** ADA. 9. Pharmacologic Approaches to Glycemic Treatment — 2026. *Diabetes Care*. 2026;49(Suppl 1):S183-S215. doi:10.2337/dc26-S009. — V, T
+4. **[S4]** ADA. 10. Cardiovascular Disease and Risk Management — 2026. *Diabetes Care*. 2026;49(Suppl 1):S216-S245. doi:10.2337/dc26-S010. — V, T
+5. **[S5]** ADA. 11. Chronic Kidney Disease and Risk Management — 2026. *Diabetes Care*. 2026;49(Suppl 1):S246-S260. doi:10.2337/dc26-S011. — V, T
+6. **[S6]** ADA. 12. Retinopathy, Neuropathy, and Foot Care — 2026. *Diabetes Care*. 2026;49(Suppl 1):S261-S276. doi:10.2337/dc26-S012. — V, T
+7. **[S7]** Davies MJ, et al. Management of Hyperglycemia in Type 2 Diabetes, 2022 (ADA/EASD). *Diabetes Care*. 2022;45(11):2753-2786. doi:10.2337/dci22-0034. — V
+8. **[S8]** Marx N, et al. 2023 ESC Guidelines for the management of CVD in patients with diabetes. *Eur Heart J*. 2023;44(39):4043-4140. doi:10.1093/eurheartj/ehad192. — V (contenu cité à confronter au texte)
+9. **[S9]** KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. *Kidney Int*. 2022;102(5S):S1-S127. doi:10.1016/j.kint.2022.06.008. — V
+10. **[S10]** Genitsaridi I, et al. 11th edition of the IDF Diabetes Atlas. *Lancet Diabetes Endocrinol*. 2026;14(2):149-156. doi:10.1016/S2213-8587(25)00299-2. — V (résumé)
+11. **[S11]** Belhadj M, et al. Perspectives of T2DM management in Algeria. *Front Clin Diabetes Healthc*. 2025;6:1495849. doi:10.3389/fcdhc.2025.1495849. — V, T
+12. **[S12]** Hassanein M, et al. Diabetes and Ramadan: Practical guidelines 2021 (IDF-DAR). *Diabetes Res Clin Pract*. 2022;185:109185. doi:10.1016/j.diabres.2021.109185. — V
+13. **[S13]** DCCT Research Group. *N Engl J Med*. 1993;329(14):977-986. doi:10.1056/NEJM199309303291401. — V
+14. **[S14]** UKPDS Group. UKPDS 33. *Lancet*. 1998;352(9131):837-853. — V
+15. **[S15]** ADA. Summary of Revisions: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S6-S12. doi:10.2337/dc26-SREV. — V
+16. **[S16]** SFD. Prise de position sur l'approche thérapeutique du DT2 (2023). — NV [À VÉRIFIER]
+17. **[S17]** HAS. Stratégie thérapeutique du patient vivant avec un DT2. — NV [À VÉRIFIER]
+18. **[S18]** KDIGO 2024 CKD Guideline. *Kidney Int*. 2024;105(4S):S117-S314. doi:10.1016/j.kint.2023.10.018. — V
+19. **[S19]** ADA. 16. Diabetes Care in the Hospital — 2026. *Diabetes Care*. 2026;49(Suppl 1):S339-S355. doi:10.2337/dc26-S016. — V, T

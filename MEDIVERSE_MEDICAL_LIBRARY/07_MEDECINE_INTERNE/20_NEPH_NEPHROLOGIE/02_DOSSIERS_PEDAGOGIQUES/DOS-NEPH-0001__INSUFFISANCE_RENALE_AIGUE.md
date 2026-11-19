@@ -473,6 +473,22 @@ Mnémotechnique « AEIOU » (repère pédagogique) :
 - **Tampon** : bicarbonate plutôt que lactate, surtout en cas de choc ou d'insuffisance hépatique [S3, recommandations F19–F21].
 - **Sevrage** : arrêt quand la fonction rénale récupère suffisamment ou si l'EER n'est plus conforme aux objectifs de soins [S3, recommandation F3].
 
+### 13.5 bis Adaptation des médicaments pendant une IRA (principes)
+| Médicament / classe | Risque en IRA | Conduite |
+|---|---|---|
+| Metformine | Accumulation, acidose lactique | Suspendre pendant l'IRA ; reprise selon le DFGe stabilisé (pas d'initiation < 45, arrêt < 30) [S16] |
+| iSGLT2 | Déplétion volémique, acidocétose euglycémique | Suspendre en cas de déshydratation, de jeûne ou de chirurgie ; reprise après récupération |
+| IEC/ARA2, antagonistes minéralocorticoïdes | Baisse du DFG, hyperkaliémie | Suspendre temporairement ; reprise progressive avec contrôle créatinine/kaliémie |
+| AINS | Vasoconstriction afférente, NTIA | Arrêt ; éviction au long cours chez le patient à risque |
+| Aminoglycosides, vancomycine | Néphrotoxicité, accumulation | Éviter si alternative ; dosages plasmatiques ; adapter l'intervalle [S2] |
+| Héparines de bas poids moléculaire | Accumulation (risque hémorragique) | Adapter la dose ou préférer l'héparine non fractionnée si DFG très bas |
+| Opioïdes (morphine, tramadol), gabapentinoïdes | Accumulation de métabolites, sédation | Réduire les doses, préférer des molécules moins dépendantes du rein |
+| Antiviraux (aciclovir, ténofovir…), produits de contraste | Néphrotoxicité, cristallurie | Adapter, hydrater, éviter si possible |
+Les doses précises dépendent du RCP et du niveau de fonction rénale estimé (souvent par la clairance de Cockcroft-Gault ou une mesure directe, l'eDFG étant peu fiable en phase instable) : **[POSOLOGIE À VÉRIFIER — RCP / pharmacien clinicien]**.
+
+### 13.5 ter IRA chez la femme enceinte et en post-partum
+Les causes obstétricales (hémorragie de la délivrance, prééclampsie sévère et HELLP syndrome, sepsis du post-abortum, stéatose hépatique aiguë gravidique, MAT du post-partum) imposent une prise en charge conjointe obstétricale, anesthésique et néphrologique ; l'évacuation utérine est souvent le traitement étiologique ; les IEC/ARA2 sont contre-indiqués pendant la grossesse ; l'épuration extrarénale reste possible si nécessaire.
+
 ### 13.6 Particularités algériennes
 L'organisation de l'accès à l'hémodialyse aiguë (services de néphrologie, réanimation, centres d'hémodialyse publics et privés) et la disponibilité des techniques continues, des biomarqueurs et des solutés balancés varient selon les établissements : **[données nationales À VÉRIFIER]**. En pratique, l'orientation précoce vers un centre disposant de l'épuration est essentielle devant une IRA KDIGO 3, une hyperkaliémie réfractaire ou une surcharge résistante.
 

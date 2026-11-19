@@ -1,11 +1,9 @@
 {
   "id": "DOS-03",
-  "statut": "en_cours",
+  "statut": "termine_a_auditer",
   "derniere_execution": "2026-11-19",
   "taches_terminees": [
-    "lecture_contexte"
-  ],
-  "taches_suivantes": [
+    "lecture_contexte",
     "verification_references",
     "DOS-DIAB-0001",
     "DOS-DIAB-0002",
@@ -13,8 +11,43 @@
     "DOS-NEPH-0001",
     "DOS-NEPH-0002",
     "lot_QCM",
-    "lot_CAS"
+    "lot_CAS",
+    "audit_interne"
   ],
-  "objectifs": {},
-  "compteurs": {}
+  "taches_suivantes": [
+    "audit externe (AUD-xx) des 5 dossiers",
+    "vérifier UKKA 2026 et ERC 2025 (texte intégral)",
+    "vérifier référence finale KDIGO 2026 AKI/AKD",
+    "vérifier SFD 2023 / HAS DT2",
+    "lever les marqueurs [POSOLOGIE À VÉRIFIER]"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas": 10
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas": 10,
+    "mots": {
+      "DOS-DIAB-0001": 9352,
+      "DOS-DIAB-0002": 8362,
+      "DOS-ENDO-0001": 8181,
+      "DOS-NEPH-0001": 7393,
+      "DOS-NEPH-0002": 7170
+    },
+    "sources_total": 71,
+    "sources_verifiees": 69,
+    "sources_non_verifiees": 2
+  },
+  "fichiers": [
+    "07_MEDECINE_INTERNE/26_DIAB_DIABETOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-DIAB-0001__DIABETE_SUCRE_CLASSIFICATION_INSULINOTHERAPIE_COMPLICATIONS_DT2.md",
+    "07_MEDECINE_INTERNE/26_DIAB_DIABETOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-DIAB-0002__COMPLICATIONS_AIGUES_DU_DIABETE_ACIDOCETOSE_HYPOGLYCEMIE_ETAT_HYPEROSMOLAIRE.md",
+    "07_MEDECINE_INTERNE/25_ENDO_ENDOCRINOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-ENDO-0001__HYPERTHYROIDIES.md",
+    "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0001__INSUFFISANCE_RENALE_AIGUE.md",
+    "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0002__DYSKALIEMIES.md",
+    "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-03.json",
+    "20_CAS_CLINIQUES/lots/DOS-03.json"
+  ]
 }
