@@ -1,0 +1,46 @@
+{
+  "id": "AUD-01",
+  "session": "audit du lot DOS-08 (hématologie)",
+  "poste_conjoint": "AUD-02",
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T02:52:36+00:00",
+  "taches_terminees": [
+    "audit DOS-HEMA-0001 (lot DOS-08) : audite_corrections_requises, 16 corrections",
+    "audit DOS-HEMA-0002 (lot DOS-08) : audite_corrections_requises, 21 corrections",
+    "audit DOS-HEMA-0003 (lot DOS-08) : audite_valide, 13 corrections",
+    "audit DOS-HEMA-0004 (lot DOS-08) : audite_valide, 14 corrections",
+    "audit DOS-HEMA-0005 (lot DOS-08) : audite_valide, 16 corrections",
+    "lot QCM DOS-08 : 60 QCM audités, 7 corrigés, 60 audite_valide",
+    "lot cas DOS-08 : 10 cas audités, 8 modifiés, 7 audite_valide, 3 audite_corrections_requises"
+  ],
+  "taches_suivantes": [
+    "DOS-HEMA-0001 : schéma français de la cyanocobalamine (RCP Vitamine B12) ; doses des chélateurs (RCP Desféral, Ferriprox, Exjade/Jadenu) ; références des travaux algériens sur les hémoglobinopathies (S10) ; BSH 2022 (S3) auteurs/pagination ; KDIGO/ESC ferritine",
+    "DOS-HEMA-0002 : lire le texte complet du PNDS PTI de l'adulte 2024 (myélogramme selon l'âge, grille du score hémorragique, doses françaises) ; données algériennes",
+    "DOS-HEMA-0003 : registre algérien (publication complète du résumé ISPOR 2022) ; date du PNDS hémophilie A acquise ; statut de l'émicizumab dans l'hémophilie acquise",
+    "DOS-HEMA-0004 : texte intégral EHA-EMN 2025 (myélome indolent à haut risque) ; référence du modèle 20/2/20 ; séries d'autogreffe d'Oran ; statut du dénosumab dans l'hypercalcémie",
+    "DOS-HEMA-0005 : données algériennes d'incidence ; produits sanguins irradiés (BSH) ; titre exact du guide ALD 2013",
+    "CAS-HEMA-0801 (B12 France), CAS-HEMA-0802 (Hb post-transfusionnelle, à harmoniser avec DOS-HEMA-0006), CAS-HEMA-0808 (dose de dexaméthasone dans la compression médullaire)",
+    "Relecture enseignante (valide_enseignant) des dossiers DOS-HEMA-0003, 0004, 0005"
+  ],
+  "compteurs": {
+    "dossiers_audites": 5,
+    "corrections": 80,
+    "critiques": 0,
+    "majeures": 6,
+    "marqueurs_posologie_initiaux": 24,
+    "marqueurs_posologie_leves": 22,
+    "marqueurs_posologie_restants": 2,
+    "qcm_audites": 60,
+    "qcm_corriges": 7,
+    "cas_audites": 10,
+    "cas_modifies": 8,
+    "recherches_web": 10
+  },
+  "rapports": [
+    "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md",
+    "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0002.md",
+    "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0003.md",
+    "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0004.md",
+    "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0005.md"
+  ]
+}

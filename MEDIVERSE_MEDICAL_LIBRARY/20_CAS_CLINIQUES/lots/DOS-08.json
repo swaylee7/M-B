@@ -39,7 +39,7 @@
         "Kaliémie avant et pendant les premiers jours de traitement"
       ],
       "diagnostic_final": "Maladie de Biermer (anémie pernicieuse) révélée par une anémie macrocytaire arégénérative avec bicytopénie et un syndrome neuro-anémique (sclérose combinée de la moelle débutante), sur terrain auto-immun.",
-      "traitement": "Vitamine B12 par voie parentérale à vie : par exemple hydroxocobalamine 1 mg IM tous les deux jours tant que les signes neurologiques s'améliorent, puis 1 mg tous les 2 mois selon le schéma britannique cité par la BSH ; en France, cyanocobalamine 1 000 µg IM selon un schéma d'attaque puis d'entretien mensuel [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Pas de folates seuls. Pas de transfusion (tolérance acceptable). Surveillance de la kaliémie les premiers jours. Kinésithérapie de rééducation de l'équilibre.",
+      "traitement": "Vitamine B12 par voie parentérale à vie : par exemple hydroxocobalamine 1 mg IM tous les deux jours tant que les signes neurologiques s'améliorent, puis 1 mg tous les 2 mois selon le schéma britannique cité par la BSH ; en France, cyanocobalamine 1 000 µg IM selon un schéma d'attaque puis d'entretien (schéma exact : RCP de la spécialité) [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Pas de folates seuls. Pas de transfusion (tolérance acceptable). Surveillance de la kaliémie les premiers jours. Kinésithérapie de rééducation de l'équilibre.",
       "surveillance": "Réticulocytes à J5–J8 (crise réticulocytaire attendue), kaliémie à J2–J3, hémogramme à 1 et 2 mois, examen neurologique ; surveillance endoscopique gastrique selon les recommandations de gastro-entérologie (tumeurs neuroendocrines, adénocarcinome) ; dépistage d'une carence martiale secondaire lors de la régénération ; suivi thyroïdien.",
       "evolution": "Réticulocytes à 310 G/L à J7, Hb 104 g/L à 4 semaines puis 128 g/L à 8 semaines ; normalisation des leucocytes et des plaquettes ; régression partielle des paresthésies à 3 mois, persistance d'une discrète hypopallesthésie.",
       "explication_pedagogique": "La carence en B12 donne une anémie macrocytaire arégénérative, souvent avec atteinte des autres lignées et des signes d'hémolyse intramédullaire (LDH élevées, haptoglobine basse) liés à l'érythropoïèse inefficace : les réticulocytes bas la distinguent d'une hémolyse périphérique. L'atteinte neurologique peut être au premier plan et ne régresse complètement que si le traitement est précoce. La maladie de Biermer s'associe à d'autres maladies auto-immunes et impose un traitement à vie et une surveillance gastrique.",
@@ -67,9 +67,16 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "schéma BSH vérifié dans le dossier ; schéma français non vérifié",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md",
+        "reserve": "marqueur de posologie résiduel (schéma français de cyanocobalamine)"
+      }
     },
     {
       "id": "CAS-HEMA-0802",
@@ -135,9 +142,16 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "relu sans erreur",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md",
+        "reserve": "marqueur résiduel : seuil d'Hb post-transfusionnelle (relève du protocole transfusionnel, cf. DOS-HEMA-0006)"
+      }
     },
     {
       "id": "CAS-HEMA-0803",
@@ -153,7 +167,7 @@
       "antecedents": "Aucun antécédent personnel ou familial hémorragique. Vaccinations à jour selon le calendrier national. Gastro-entérite virale il y a 3 semaines. Aucun médicament en cours.",
       "symptomes": "Purpura pétéchial et ecchymoses ; pas de saignement des gencives ni du nez, pas de sang dans les urines ni les selles ; enfant en bon état général, joue normalement, pas de fièvre, pas de douleurs osseuses.",
       "examen_clinique": "Poids 19 kg, T 36,9 °C. Purpura pétéchial diffus non infiltré, 4 ecchymoses des membres inférieurs. Pas de bulle hémorragique buccale. Pas d'adénopathie, pas d'hépatosplénomégalie, pas de pâleur. Examen neurologique normal.",
-      "biologie": "Hb 124 g/L (VN 110–140), VGM 80 fL, leucocytes 7,8 G/L avec formule normale, plaquettes 9 G/L (150–400) confirmées sur tube citraté ; frottis : pas d'agrégat, pas de blaste, pas de schizocyte, plaquettes de grande taille ; TP et TCA normaux ; fibrinogène normal ; créatinine normale ; test direct à l'antiglobuline négatif.",
+      "biologie": "Hb 124 g/L (VN 110–140), VGM 80 fL, leucocytes 7,8 G/L avec formule normale, plaquettes 14 G/L (150–400) confirmées sur tube citraté ; frottis : pas d'agrégat, pas de blaste, pas de schizocyte, plaquettes de grande taille ; TP et TCA normaux ; fibrinogène normal ; créatinine normale ; test direct à l'antiglobuline négatif.",
       "imagerie": "Aucune imagerie nécessaire en l'absence de signe neurologique.",
       "hypotheses_diagnostiques": [
         "Purpura thrombopénique immunologique aigu post-infectieux de l'enfant",
@@ -177,10 +191,10 @@
         "Myélogramme non systématique ; à discuter en cas d'atypie ou avant corticothérapie selon les pratiques"
       ],
       "diagnostic_final": "Purpura thrombopénique immunologique nouvellement diagnostiqué de l'enfant, probablement post-viral, sans saignement muqueux (forme non sévère).",
-      "traitement": "Abstention thérapeutique et surveillance (recommandation ASH 2019 chez l'enfant sans saignement ou avec saignement cutané seul ; PNDS PTI de l'enfant 2025 : traitement guidé par le score hémorragique). Mesures de prévention : éviter aspirine, AINS et injections intramusculaires, éviter les activités à risque de traumatisme crânien, paracétamol si besoin. Information des parents sur les signes d'alerte (saignement muqueux, céphalées, vomissements, somnolence) imposant une consultation urgente. Traitement par IgIV ou corticoïdes courts réservé à l'apparition d'un saignement significatif [POSOLOGIE À VÉRIFIER — PNDS pédiatrique].",
+      "traitement": "Abstention thérapeutique et surveillance : position concordante de l'ASH 2019 (enfant sans saignement ou avec saignement cutané seul, quelle que soit la numération) et du PNDS PTI de l'enfant 2025 (plaquettes > 10 G/L, score hémorragique ≤ 2, sans facteur de risque hémorragique ; décision validée par un senior). Mesures de prévention : éviter aspirine, AINS et injections intramusculaires, éviter les activités à risque de traumatisme crânien, paracétamol si besoin. Information des parents sur les signes d'alerte (saignement muqueux, céphalées, vomissements, somnolence) imposant une consultation urgente. Si les plaquettes tombaient à 10 G/L ou moins, ou en cas de saignement muqueux (score 3a/3b), le PNDS 2025 recommande un traitement court : prednisone 4 mg/kg/j en 2 prises pendant 4 jours (maximum 120 mg/j, arrêt sans décroissance) ou IgIV 0,8 à 1 g/kg.",
       "surveillance": "Hémogramme à J7 puis selon l'évolution ; examen clinique ; réévaluation à 3 mois (PTI persistant) et 12 mois (chronique) ; si chronicité, bilan à la recherche d'une cause secondaire (lupus, déficit immunitaire).",
       "evolution": "Plaquettes à 35 G/L à J10, 120 G/L à 6 semaines, sans aucun saignement muqueux. Guérison spontanée.",
-      "explication_pedagogique": "Le PTI de l'enfant survient typiquement quelques semaines après une infection virale ; le purpura peut être spectaculaire mais les hémorragies graves sont rares et la guérison spontanée est la règle dans la majorité des cas. Le diagnostic repose sur une thrombopénie isolée avec hémogramme, frottis et examen normaux. La décision thérapeutique dépend du saignement, non du chiffre de plaquettes.",
+      "explication_pedagogique": "Le PTI de l'enfant survient typiquement quelques semaines après une infection virale ; le purpura peut être spectaculaire mais les hémorragies graves sont rares et la guérison spontanée est la règle dans la majorité des cas. Le diagnostic repose sur une thrombopénie isolée avec hémogramme, frottis et examen normaux. La décision thérapeutique dépend du saignement, non du chiffre de plaquettes. Attention : le PNDS français 2025 recommande un traitement court lorsque les plaquettes sont ≤ 10 G/L au diagnostic, même sans saignement muqueux, alors que l'ASH 2019 propose l'observation quelle que soit la numération.",
       "questions": [
         {
           "question": "Quels éléments rendent une leucémie aiguë peu probable ?",
@@ -207,11 +221,21 @@
         {
           "reference": "Rodeghiero F et al. Blood 2009;113:2386-2393",
           "date": "2009"
+        },
+        {
+          "reference": "HAS / CEREVANCE. PNDS PTI de l'enfant et de l'adolescent, version de janvier 2025 (tableau des indications et doses de 1re ligne)",
+          "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "majeure : prise en charge contraire au PNDS 2025 avec 9 G/L (traitement recommandé si ≤ 10 G/L) ; numération portée à 14 G/L, doses pédiatriques du PNDS 2025 ajoutées, marqueur levé",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md"
+      }
     },
     {
       "id": "CAS-HEMA-0804",
@@ -249,10 +273,10 @@
         "Évaluation des complications cortisoniques (glycémie, densitométrie)"
       ],
       "diagnostic_final": "PTI primaire chronique corticodépendant de l'adulte, avec infection à Helicobacter pylori associée, carence martiale par ménorragies et complications de la corticothérapie (diabète, prise de poids, ostéopénie).",
-      "traitement": "Éradication d'H. pylori selon le protocole local (une réponse plaquettaire est possible). Décroissance puis arrêt de la prednisone (corticothérapie prolongée non recommandée). Deuxième ligne par décision partagée : agoniste du récepteur de la TPO (eltrombopag oral à distance des produits laitiers, avec surveillance hépatique, ou romiplostim SC hebdomadaire) [POSOLOGIE À VÉRIFIER — RCP] ; alternatives : rituximab (après sérologie VHB et vaccinations) ou splénectomie (PTI > 12 mois, après vaccinations). Traitement des ménorragies (progestatifs, acide tranexamique) et fer oral ou intraveineux. Prise en charge du diabète et de l'ostéopénie.",
+      "traitement": "Éradication d'H. pylori selon le protocole local (une réponse plaquettaire est possible). Décroissance puis arrêt de la prednisone (corticothérapie prolongée non recommandée). Deuxième ligne par décision partagée : agoniste du récepteur de la TPO, recommandation forte de l'ASH 2026 (eltrombopag oral 50 mg/j en une prise, à distance des produits laitiers et des cations, paliers de 25 mg, maximum 75 mg/j, avec surveillance hépatique ; ou romiplostim SC 1 µg/kg/semaine, paliers de 1 µg/kg, maximum 10 µg/kg/semaine ; RCP) ; alternatives : rituximab (après sérologie VHB et vaccinations) ou splénectomie (PTI > 12 mois, après vaccinations). Traitement des ménorragies (progestatifs, acide tranexamique) et fer oral ou intraveineux. Prise en charge du diabète et de l'ostéopénie.",
       "surveillance": "Plaquettes hebdomadaires jusqu'à stabilisation de la dose d'AR-TPO, puis mensuelles ; transaminases ; signes de thrombose ; ferritine ; glycémie ; réévaluation des besoins thérapeutiques et possibilité de diminution progressive de l'AR-TPO en cas de réponse prolongée.",
       "evolution": "Après éradication d'H. pylori, plaquettes 32 G/L ; introduction d'eltrombopag : plaquettes stabilisées entre 70 et 130 G/L ; arrêt de la prednisone en 6 semaines, normalisation de la glycémie ; correction de la carence martiale.",
-      "explication_pedagogique": "Le PTI chronique corticodépendant est une situation fréquente chez l'adulte. La corticothérapie prolongée est délétère et doit être évitée (ASH : ≤ 6 semaines). La deuxième ligne (AR-TPO, rituximab, splénectomie après 12 mois) relève d'une décision partagée. Dans les régions de forte prévalence, la recherche et l'éradication d'H. pylori sont recommandées par le consensus international.",
+      "explication_pedagogique": "Le PTI chronique corticodépendant est une situation fréquente chez l'adulte. La corticothérapie prolongée est délétère et doit être évitée (ASH : ≤ 6 semaines). La deuxième ligne (AR-TPO, rituximab, splénectomie après 12 mois) relève d'une décision partagée. Dans les régions de forte prévalence, la recherche et l'éradication d'H. pylori sont recommandées par le consensus international. Depuis la mise à jour de 2026, l'ASH recommande fortement un AR-TPO après échec des corticoïdes et suggère le rituximab comme alternative ; la splénectomie, possible après 12 mois, est désormais réservée aux échecs de plusieurs lignes ou aux patients qui la souhaitent (HAS 2024).",
       "questions": [
         {
           "question": "Citez les trois grandes options de deuxième ligne du PTI de l'adulte.",
@@ -279,11 +303,21 @@
         {
           "reference": "HAS. Synthèse médecin traitant PTI de l'adulte, 2024",
           "date": "2024"
+        },
+        {
+          "reference": "Cuker A, et al. ASH 2026 guidelines for immune thrombocytopenia. Blood Adv. 2026;10(20):7076-7097 ; RCP de Revolade et de Nplate",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "posologies des AR-TPO ajoutées (RCP) et marqueur levé ; place des traitements actualisée selon l'ASH 2026 (mineure)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md"
+      }
     },
     {
       "id": "CAS-HEMA-0805",
@@ -322,7 +356,7 @@
         "Enquête familiale : statut de conductrice de la mère et des tantes maternelles"
       ],
       "diagnostic_final": "Hémophilie A sévère (FVIII < 1 UI/dL), révélée par un hématome musculaire après injection IM et un saignement prolongé post-circoncision, dans une famille avec antécédent évocateur en lignée maternelle.",
-      "traitement": "Injection IV de concentré de FVIII sans délai, à dose calculée selon la formule de la WFH (poids × élévation souhaitée × 0,5) pour un hématome musculaire, répétée selon l'évolution [POSOLOGIE À VÉRIFIER — protocole du CTH] ; repos, antalgiques (paracétamol), pas d'AINS ni d'aspirine ; aucune nouvelle injection IM (vaccins par voie sous-cutanée). Orientation vers un centre de traitement de l'hémophilie ; mise en place d'une prophylaxie primaire (FVIII ou émicizumab selon disponibilité) ; éducation des parents ; carte d'hémophile.",
+      "traitement": "Injection IV de concentré de FVIII sans délai, à dose calculée selon la formule de la WFH (poids × élévation souhaitée × 0,5) pour viser un pic de 40–60 UI/dL (hématome musculaire superficiel sans compression neurovasculaire, WFH 2020 / PNDS 2023), soit environ 9,5 × 50 × 0,5 ≈ 240 UI, arrondie au flacon disponible, répétée selon l'évolution sur 2 à 3 jours ; dose ajustée par le CTH ; repos, antalgiques (paracétamol), pas d'AINS ni d'aspirine ; aucune nouvelle injection IM (vaccins par voie sous-cutanée). Orientation vers un centre de traitement de l'hémophilie ; mise en place d'une prophylaxie primaire (FVIII ou émicizumab selon disponibilité) ; éducation des parents ; carte d'hémophile.",
       "surveillance": "Évolution de l'hématome (périmètre, compression), Hb ; dépistage régulier des inhibiteurs pendant les premiers jours d'exposition au FVIII ; suivi au CTH ; examen articulaire.",
       "evolution": "Régression de l'hématome en 10 jours. Prophylaxie débutée à 13 mois. Mère identifiée conductrice par analyse génétique (inversion de l'intron 22) ; conseil génétique proposé à la famille élargie.",
       "explication_pedagogique": "Un hématome après injection IM, un saignement prolongé après circoncision et des ecchymoses à l'âge de la marche à quatre pattes chez un garçon doivent faire évoquer une hémophilie. Le TCA isolément allongé et corrigé par un plasma témoin oriente vers un déficit en facteur, confirmé par les dosages. Les antécédents en lignée maternelle sont typiques d'une transmission récessive liée à l'X ; la consanguinité doit aussi faire penser aux déficits rares autosomiques.",
@@ -350,9 +384,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "niveau cible et calcul de dose explicités (WFH 2020 / PNDS 2023), marqueur levé (mineure)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md"
+      }
     },
     {
       "id": "CAS-HEMA-0806",
@@ -389,7 +429,7 @@
         "Imagerie des hématomes profonds (échographie, scanner)"
       ],
       "diagnostic_final": "Hémophilie A acquise avec inhibiteur à titre élevé (18 UB/mL), compliquée d'un hématome de l'avant-bras avec menace de syndrome des loges, chez un patient porteur d'un adénocarcinome prostatique.",
-      "traitement": "Hospitalisation en lien avec un centre de traitement de l'hémophilie. Traitement hémostatique par agent by-passant (facteur VII activé recombinant ou concentré de complexe prothrombinique activé) ou FVIII porcin recombinant selon disponibilité [POSOLOGIE À VÉRIFIER — RCP / protocole du CTH] ; surveillance de la loge et avis orthopédique (éviter une aponévrotomie sans couverture hémostatique). Éradication de l'auto-anticorps : corticoïdes ± cyclophosphamide ou rituximab selon le protocole. Pas d'injection IM, limitation des ponctions veineuses. Prise en charge oncologique de la néoplasie prostatique. Prophylaxie thromboembolique et anti-infectieuse à discuter sous immunosuppresseurs.",
+      "traitement": "Hospitalisation en lien avec un centre de traitement de l'hémophilie. Traitement hémostatique par agent by-passant — rFVIIa 90 µg/kg en bolus toutes les 2–3 heures jusqu'à l'hémostase, ou CCPa 50–100 U/kg toutes les 8–12 heures sans dépasser 200 U/kg/j — ou FVIII porcin recombinant (200 U/kg puis selon le taux de FVIII) selon disponibilité (recommandations internationales 2020) ; surveillance de la loge et avis orthopédique (éviter une aponévrotomie sans couverture hémostatique). Éradication de l'auto-anticorps : prednisone 1 mg/kg/j (4 à 6 semaines au maximum), seule ou associée au cyclophosphamide (1,5–2 mg/kg/j, 6 semaines au maximum) ou au rituximab ; l'association d'emblée est suggérée si FVIII < 1 UI/dL ou inhibiteur > 20 UB (recommandations internationales 2020). Pas d'injection IM, limitation des ponctions veineuses. Prise en charge oncologique de la néoplasie prostatique. Prophylaxie thromboembolique et anti-infectieuse à discuter sous immunosuppresseurs.",
       "surveillance": "Hb, état de la loge, FVIII et titre de l'inhibiteur hebdomadaires jusqu'à rémission (FVIII normalisé, inhibiteur indétectable) ; effets indésirables de l'immunosuppression (infections, glycémie, cytopénies) ; risque de rechute après l'arrêt.",
       "evolution": "Contrôle du saignement sous rFVIIa ; FVIII à 48 UI/dL et inhibiteur indétectable à 7 semaines sous corticoïdes et cyclophosphamide ; décroissance des corticoïdes ; surveillance prolongée.",
       "explication_pedagogique": "L'hémophilie A acquise touche surtout le sujet âgé ou la femme en post-partum, sans antécédent hémorragique ; elle se manifeste par des hématomes sous-cutanés et musculaires étendus, rarement par des hémarthroses. Le TCA allongé non corrigé après incubation (inhibiteur temps-dépendant) et le FVIII bas orientent ; le titrage Bethesda confirme. Le FVIII humain standard est neutralisé : les saignements se traitent par agents by-passants. Il faut toujours rechercher une cause (cancer, maladie auto-immune, médicaments).",
@@ -415,11 +455,21 @@
         {
           "reference": "Srivastava A et al. WFH Guidelines 3rd ed. Haemophilia 2020",
           "date": "2020"
+        },
+        {
+          "reference": "Tiede A, et al. International recommendations on the diagnosis and treatment of acquired hemophilia A. Haematologica. 2020;105(7):1791-1801",
+          "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "posologies des agents by-passants et de l'immunosuppression ajoutées (Tiede 2020), marqueur levé (mineure)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md"
+      }
     },
     {
       "id": "CAS-HEMA-0807",
@@ -486,9 +536,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "relu sans erreur",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md"
+      }
     },
     {
       "id": "CAS-HEMA-0808",
@@ -504,7 +560,7 @@
       "antecedents": "Ostéoporose supposée traitée par calcium-vitamine D depuis un an pour un tassement vertébral T12 « spontané » ; anémie modérée attribuée à l'âge ; deux pneumopathies dans l'année.",
       "symptomes": "Dorsalgie en ceinture aggravée en position couchée, paresthésies des membres inférieurs, faiblesse progressive, rétention urinaire.",
       "examen_clinique": "Paraparésie à 3/5, niveau sensitif T8, réflexes ostéotendineux vifs aux membres inférieurs, signe de Babinski bilatéral, globe vésical. Douleur à la percussion de T7–T8. Pâleur.",
-      "biologie": "Hb 92 g/L, VGM 94 fL, rouleaux au frottis ; plaquettes 182 G/L ; VS 110 mm ; protides 102 g/L ; EPP : pic de 52 g/L en zone bêta ; immunofixation IgA λ ; chaînes légères λ 980 mg/L, κ 9 mg/L (rapport λ/κ 109) ; calcémie 2,62 mmol/L ; créatinine 96 µmol/L ; albumine 33 g/L ; β2-microglobuline 4,2 mg/L ; LDH normales ; myélogramme : 34 % de plasmocytes dystrophiques ; FISH : gain 1q, pas de del(17p) ni de t(4;14).",
+      "biologie": "Hb 92 g/L, VGM 94 fL, rouleaux au frottis ; plaquettes 182 G/L ; VS 110 mm ; protides 102 g/L ; EPP : pic de 52 g/L en zone bêta ; immunofixation IgA λ ; chaînes légères λ 980 mg/L, κ 9 mg/L (rapport λ/κ 109) ; calcémie 2,40 mmol/L (calcémie corrigée par l'albumine ≈ 2,54 mmol/L) ; créatinine 96 µmol/L ; albumine 33 g/L ; β2-microglobuline 4,2 mg/L ; LDH normales ; myélogramme : 34 % de plasmocytes dystrophiques ; FISH : gain 1q, pas de del(17p) ni de t(4;14).",
       "imagerie": "IRM médullaire en urgence : tassement de T8 avec épidurite tumorale comprimant la moelle ; lésions focales multiples du rachis et du bassin. Scanner corps entier faible dose : lésions lytiques multiples (rachis, bassin, côtes, crâne).",
       "hypotheses_diagnostiques": [
         "Myélome multiple IgA λ révélé par une compression médullaire",
@@ -557,9 +613,16 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "calcémie modifiée : 2,62 mmol/L avec albumine 33 g/L donnait une calcémie corrigée > 2,75 mmol/L (critère C non cité par le corrigé) (mineure)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md",
+        "reserve": "marqueur résiduel : dose de dexaméthasone dans la compression médullaire (protocole local)"
+      }
     },
     {
       "id": "CAS-HEMA-0809",
@@ -597,7 +660,7 @@
         "Autoconservation de sperme"
       ],
       "diagnostic_final": "Lymphome de Hodgkin classique scléronodulaire, stade IA (une aire ganglionnaire cervicale), sans facteur de risque (VS < 50 mm, pas de masse médiastinale, pas d'atteinte extranodale, moins de 3 aires) : stade localisé favorable.",
-      "traitement": "Arrêt du traitement antituberculeux (pas de preuve de tuberculose). Autoconservation de sperme. ABVD × 2 puis radiothérapie des sites atteints à 20 Gy selon l'ESMO 2018, standard confirmé par l'EHA 2026 d'après les comptes rendus disponibles [POSOLOGIE À VÉRIFIER — protocole local / RCP].",
+      "traitement": "Arrêt du traitement antituberculeux (pas de preuve de tuberculose). Autoconservation de sperme. ABVD × 2 puis radiothérapie des sites atteints à 20 Gy selon l'ESMO 2018, standard confirmé par l'EHA 2026 (grade 1A) ; doses de chimiothérapie : protocole publié de l'essai de référence et protocole du service.",
       "surveillance": "Tolérance de la chimiothérapie (hémogramme, toxicité pulmonaire de la bléomycine, neuropathie) ; TEP de fin de traitement (score de Deauville) ; surveillance clinique prolongée ; TSH annuelle après irradiation cervicale ; dépistage des effets tardifs.",
       "evolution": "TEP de fin de traitement : Deauville 1 (réponse métabolique complète). Rémission complète maintenue à 2 ans.",
       "explication_pedagogique": "Au Maghreb, la tuberculose ganglionnaire est fréquente, mais un traitement d'épreuve sans preuve histologique retarde le diagnostic d'un lymphome ou d'un carcinome du nasopharynx. Toute adénopathie persistante doit être biopsiée (exérèse de préférence), avec analyse histologique et microbiologique. Le LH de stade localisé favorable est guéri chez la grande majorité des patients par une chimiothérapie courte suivie d'une radiothérapie à faible dose.",
@@ -625,13 +688,19 @@
           "date": "2014"
         },
         {
-          "reference": "EHA Clinical Practice Guidelines Hodgkin lymphoma. HemaSphere 2026 (contenu via sources secondaires)",
+          "reference": "Eichenauer DA, et al. Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up. HemaSphere. 2026;10(6):e70422",
           "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "référence EHA 2026 vérifiée sur texte intégral ; protocole nommé sans dose, marqueur converti (mineure)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md"
+      }
     },
     {
       "id": "CAS-HEMA-0810",
@@ -669,7 +738,7 @@
         "Calcul de l'IPS"
       ],
       "diagnostic_final": "Lymphome de Hodgkin classique à cellularité mixte (EBV+), stade IVB (atteintes osseuses et spléniques, signes B), IPS 6 (albumine < 40 g/L, Hb < 105 g/L, sexe masculin, stade IV, leucocytes ≥ 15 G/L, lymphocytes < 0,6 G/L).",
-      "traitement": "Patient de 41 ans en bon état général : chimiothérapie de stade avancé selon les ressources et la RCP — BrECADD guidé par la TEP intermédiaire (HD21), ou nivolumab-AVD × 6 (S1826), ou BV-AVD × 6 (ECHELON-1) ; à défaut, ABVD avec adaptation à la TEP intermédiaire [POSOLOGIE À VÉRIFIER — protocole local / RCP]. G-CSF avec BrECADD ; prophylaxies anti-infectieuses selon le protocole ; autoconservation de sperme ; arrêt du tabac ; radiothérapie des masses résiduelles TEP-positives en fin de traitement.",
+      "traitement": "Patient de 41 ans en bon état général : chimiothérapie de stade avancé selon les ressources et la RCP — BrECADD guidé par la TEP intermédiaire (HD21), ou nivolumab-AVD × 6 (S1826), ou BV-AVD × 6 (ECHELON-1) ; à défaut, ABVD avec adaptation à la TEP intermédiaire (doses : protocole publié de l'essai de référence et protocole du service). BrECADD = standard de l'EHA 2026 (grade 1A) chez les ≤ 60 ans, N-AVD × 6 en alternative moins intensive ; G-CSF et cotrimoxazole en prophylaxie primaire obligatoires avec BrECADD (comme avec eBEACOPP et BV-AVD) ; autoconservation de sperme ; arrêt du tabac ; radiothérapie des masses résiduelles TEP-positives en fin de traitement.",
       "surveillance": "Hémogramme avant chaque cycle, neutropénie fébrile, neuropathie (brentuximab vedotin), toxicités immunologiques (nivolumab : TSH, transaminases), TEP intermédiaire (Deauville) puis de fin de traitement ; suivi prolongé des effets tardifs (cardiovasculaires, seconds cancers, fertilité).",
       "evolution": "TEP après 2 cycles : Deauville 2 ; poursuite du protocole ; rémission métabolique complète en fin de traitement.",
       "explication_pedagogique": "Les stades avancés avec signes B et IPS élevé gardent un excellent pronostic avec les traitements modernes : BrECADD (SSP à 4 ans 94,3 %), nivolumab-AVD (SSP à 2 ans 92 %) et BV-AVD (gain de survie globale sur l'ABVD). En Algérie, la tuberculose, la brucellose et la leishmaniose viscérale doivent être éliminées devant une fièvre prolongée avec adénopathies et splénomégalie, mais seule l'histologie permet le diagnostic. La TEP intermédiaire, plus que l'IPS, guide désormais l'adaptation du traitement.",
@@ -701,13 +770,23 @@
           "date": "2022"
         },
         {
-          "reference": "Hasenclever D, Diehl V. IPS. N Engl J Med 1998 [à vérifier]",
+          "reference": "Hasenclever D, Diehl V. A prognostic score for advanced Hodgkin's disease. N Engl J Med. 1998;339(21):1506-1514",
           "date": "1998"
+        },
+        {
+          "reference": "Eichenauer DA, et al. Hodgkin lymphoma: EHA Clinical Practice Guidelines. HemaSphere. 2026;10(6):e70422",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-08",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "prophylaxies obligatoires (G-CSF + cotrimoxazole, EHA 2026) ajoutées ; référence IPS vérifiée ; marqueur converti (mineure)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0001.md"
+      }
     }
   ]
 }

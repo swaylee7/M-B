@@ -1,12 +1,13 @@
 {
   "id": "RES-03",
-  "statut": "en_cours",
+  "statut": "termine",
   "derniere_execution": "2026-11-19",
   "taches_terminees": [
-    "lot a MED-001→052 (126 QCM, RES-03-a.json)"
+    "lot a MED-001→052 (126 QCM, RES-03-a.json)",
+    "lot b MED-054→098 (99 QCM, RES-03-b.json)"
   ],
   "taches_suivantes": [
-    "lot b : MED-062→098 (RES-03-b.json, déjà 054/055/058/061)"
+    "audit des 225 QCM (statut brouillon_a_auditer) — voir points listés dans journal.md"
   ],
   "objectifs": {
     "items": 75,
@@ -14,6 +15,13 @@
     "qcm_total": 225
   },
   "compteurs": {
-    "qcm": 138
-  }
+    "qcm": 225,
+    "qcs": 37,
+    "difficulte": {
+      "1": 44,
+      "2": 138,
+      "3": 43
+    }
+  },
+  "plage_ids": "QCM-<CODE>-3001…3225"
 }

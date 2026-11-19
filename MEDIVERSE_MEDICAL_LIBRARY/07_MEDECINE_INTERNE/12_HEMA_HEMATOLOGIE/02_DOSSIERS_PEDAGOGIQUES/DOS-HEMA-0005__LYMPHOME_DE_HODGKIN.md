@@ -682,12 +682,12 @@ Patiente ≤ 60 ans : **eBEACOPP × 2 (ou eBEACOPDac) puis ABVD × 2**, avec **r
   - D : Vrai.
   - E : Faux : évaluation de la réponse (TEP2, fin de traitement).
 
-**QCM 7** — Réponses : **A, B, D, E**. Stade I–II sans facteur de risque = localisé favorable : ABVD × 2 + ISRT 20 Gy (ESMO 2018, maintenu par l'EHA 2026). Le BEACOPP escaladé est réservé aux formes défavorables/avancées. La préservation de la fertilité est systématiquement proposée.
+**QCM 7** — Réponses : **A, B, D, E**. Stade I–II sans facteur de risque = localisé favorable : ABVD × 2 + ISRT 20 Gy (ESMO 2018, confirmé par l'EHA 2026, grade 1A). Le BEACOPP escaladé est réservé aux formes défavorables/avancées. La préservation de la fertilité est systématiquement proposée.
   - A : Vrai.
   - B : Vrai.
   - C : Faux : surtraitement.
   - D : Vrai : information et proposition systématiques.
-  - E : Vrai : plus de 90 % de contrôle au long cours.
+  - E : Vrai : dans l'essai HD10 (ABVD × 2 + 20 Gy), survie sans progression à 10 ans ≈ 87 % et survie globale ≈ 94 %.
 
 **QCM 8** — Réponses : **A, B, C**. HD21 : BrECADD, SSP à 4 ans 94,3 % vs 90,9 %, morbidité moindre. S1826 : SSP à 2 ans 92 % vs 83 %. ECHELON-1 : SG à 6 ans 93,9 % vs 89,4 %. La radiothérapie est réservée aux masses résiduelles TEP-positives ; la bléomycine est évitée chez le sujet âgé.
   - A : Vrai.
@@ -697,7 +697,7 @@ Patiente ≤ 60 ans : **eBEACOPP × 2 (ou eBEACOPDac) puis ABVD × 2**, avec **r
   - E : Faux : toxicité pulmonaire accrue ; schémas sans bléomycine préférés.
 
 **QCM 9** — Réponses : **A, B, C, D**. Les survivants de LH sont exposés à des seconds cancers (sein chez les femmes irradiées jeunes), à des cardiopathies, à l'hypothyroïdie et à des séquelles pulmonaires ; le suivi est prolongé à vie.
-  - A : Vrai : dépistage précoce et renforcé.
+  - A : Vrai : mammographie et/ou IRM annuelles dès 8 ans après la radiothérapie (pas avant 25 ans) si les seins ont été exposés avant 36 ans (EHA 2026).
   - B : Vrai : TSH annuelle.
   - C : Vrai : anthracyclines et radiothérapie.
   - D : Vrai : bléomycine et radiothérapie.

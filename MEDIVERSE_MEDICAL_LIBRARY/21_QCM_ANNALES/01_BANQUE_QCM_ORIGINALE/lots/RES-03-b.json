@@ -1051,7 +1051,7 @@
         "B": "Vrai : Les besoins en eau sont proportionnellement très supérieurs à ceux de l'adulte, ce qui explique la vulnérabilité du nourrisson à la déshydratation.",
         "C": "Vrai : Le respect de la dilution (une mesurette rase pour 30 mL d'eau) évite les erreurs de concentration, sources de troubles hydro-électrolytiques ou de dénutrition.",
         "D": "Faux : Le lait de vache entier est trop riche en protéines et en sodium, pauvre en fer et en acides gras essentiels ; il est inadapté au jeune nourrisson.",
-        "E": "Vrai : Les deux positions coexistent : l'OMS 2023 juge les préparations de suite non nécessaires et admet le lait animal après 6 mois chez l'enfant non allaité ; l'ESPGHAN recommande de ne pas utiliser le lait de vache comme boisson principale avant 12 mois, en raison notamment du risque de carence martiale."
+        "E": "Vrai : Les deux positions coexistent : l'OMS 2023 juge les préparations de suite non nécessaires et admet le lait animal après 6 mois chez l'enfant non allaité ; l'ESPGHAN recommande de ne pas utiliser le lait de vache comme boisson principale avant 12 mois, en raison notamment du risque de carence martiale [À VÉRIFIER : position ESPGHAN 2017 sur la diversification, non inscrite au catalogue]."
       },
       "specialite": "PEDI",
       "items_residanat": [
@@ -1575,7 +1575,7 @@
       "explication_generale": "La prévention du rachitisme repose sur la supplémentation systématique en vitamine D du nourrisson (400 UI/j de 0 à 12 mois selon le consensus mondial), la supplémentation de la femme enceinte et des apports calciques adaptés. Le traitement curatif associe vitamine D et calcium, avec surveillance de la normalisation des phosphatases alcalines et de la minéralisation radiologique. Les surdosages en vitamine D exposent à l'hypercalcémie et à la néphrocalcinose. Un rachitisme résistant au traitement doit faire évoquer une forme non carentielle (vitamino-résistante, hypophosphatémique).",
       "explications_par_proposition": {
         "A": "Vrai : Cette supplémentation universelle, indépendante du mode d'alimentation, est la base de la prévention (Munns et al., 2016).",
-        "B": "Vrai : Le consensus recommande d'associer à la vitamine D un apport de calcium ; les modalités (traitement quotidien ou dose de charge) suivent le protocole local [posologie de traitement à vérifier selon le protocole].",
+        "B": "Vrai : Le consensus recommande d'associer à la vitamine D un apport de calcium ; les modalités (traitement quotidien ou dose de charge) suivent le protocole local [POSOLOGIE À VÉRIFIER — RCP / protocole local].",
         "C": "Vrai : Le statut vitaminique de la mère conditionne les réserves du nouveau-né ; les apports calciques alimentaires doivent être suffisants chez l'enfant.",
         "D": "Faux : La synthèse cutanée de vitamine D sous l'effet des UVB est une source majeure ; le défaut d'exposition est un facteur de risque.",
         "E": "Faux : Le suivi clinique, radiologique et biologique (calcémie, phosphatases alcalines) vérifie la guérison et dépiste un surdosage (hypercalcémie, hypercalciurie)."
@@ -2965,7 +2965,7 @@
       ],
       "explication_generale": "La corticothérapie est le traitement de référence du syndrome néphrotique idiopathique de l'enfant ; la réponse permet de classer la maladie (corticosensible, corticodépendante, corticorésistante). Les rechutes sont fréquentes et relèvent d'une nouvelle corticothérapie, puis d'agents d'épargne en cas de rechutes fréquentes. Les mesures associées comprennent la restriction sodée pendant les poussées, la prévention des infections et des thromboses, la surveillance de la croissance et de la densité osseuse, et les vaccinations adaptées.",
       "explications_par_proposition": {
-        "A": "Vrai : La prednisone orale, selon un schéma codifié (dose quotidienne puis dose alternée), est le traitement initial ; les modalités suivent le protocole IPNA/KDIGO [posologie à vérifier selon le protocole local].",
+        "A": "Vrai : La prednisone orale, selon un schéma codifié (dose quotidienne puis dose alternée), est le traitement initial ; les modalités suivent le protocole IPNA/KDIGO [POSOLOGIE À VÉRIFIER — RCP / protocole local].",
         "B": "Vrai : La réponse aux corticoïdes est le principal facteur pronostique ; la majorité des enfants sont corticosensibles.",
         "C": "Vrai : La corticorésistance oriente vers une hyalinose segmentaire et focale ou une forme génétique ; la biopsie et la génétique guident le traitement.",
         "D": "Vrai : Ces traitements limitent la toxicité cumulative des corticoïdes chez les enfants à rechutes fréquentes ou corticodépendants.",
@@ -4335,6 +4335,988 @@
         {
           "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
           "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3208",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 35 ans présente une polyurie de 6 litres par jour avec polydipsie. La glycémie est normale. Concernant le diagnostic de diabète insipide, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La polyurie du diabète insipide est hypotonique, avec une osmolalité urinaire basse.",
+        "B": "Un groupe de travail international propose de renommer le diabète insipide central « déficit en arginine-vasopressine » et le diabète insipide néphrogénique « résistance à l'arginine-vasopressine ».",
+        "C": "Au cours de l'épreuve de restriction hydrique, le diabète insipide central concentre normalement ses urines.",
+        "D": "Le lithium est une cause classique de déficit central en arginine-vasopressine.",
+        "E": "La potomanie s'accompagne typiquement d'une hypernatrémie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "Devant une polyurie, il faut distinguer polyurie osmotique (glycosurie) et polyurie hypotonique. Les causes de polyurie hypotonique sont le déficit en AVP (diabète insipide central), la résistance à l'AVP (néphrogénique) et la polydipsie primaire. L'épreuve de restriction hydrique suivie d'un test à la desmopressine, et le dosage de la copeptine stimulée, permettent de les distinguer. La natrémie de base oriente : plutôt haute dans le diabète insipide, plutôt basse dans la potomanie.",
+      "explications_par_proposition": {
+        "A": "Vrai : La polyurie hypotonique distingue le diabète insipide des polyuries osmotiques (diabète sucré, mannitol).",
+        "B": "Vrai : La prise de position de 2022 propose les termes AVP-D (déficit) et AVP-R (résistance) pour éviter la confusion avec le diabète sucré.",
+        "C": "Faux : Dans le diabète insipide, les urines restent diluées malgré la restriction hydrique ; l'injection de desmopressine les concentre dans la forme centrale, pas dans la forme néphrogénique.",
+        "D": "Faux : Le lithium entraîne une résistance rénale à l'AVP (diabète insipide néphrogénique), comme l'hypercalcémie et l'hypokaliémie.",
+        "E": "Faux : La potomanie (polydipsie primaire) tend à abaisser la natrémie ; une hypernatrémie oriente plutôt vers un diabète insipide avec accès à l'eau insuffisant."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-093"
+      ],
+      "theme": "Diabète insipide — diagnostic positif et terminologie",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Classer le diabète insipide induit par le lithium parmi les formes centrales.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Groupe de travail international (sociétés d'endocrinologie) — Changing the Name of Diabetes Insipidus: A Position Statement of the Working Group for Renaming Diabetes Insipidus (2022) [catalogue REC-0335]",
+          "date": "2022-12"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        },
+        {
+          "reference": "Feingold KR, Adler RA, Ahmed SF et al. Endotext. MDText.com, Inc. ; 2026 [catalogue OUV-0369].",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3209",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les étiologies du diabète insipide, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les causes de déficit central en AVP comprennent la chirurgie hypophysaire, les traumatismes crâniens, le craniopharyngiome, l'histiocytose langerhansienne, le germinome et la sarcoïdose.",
+        "B": "L'hypercalcémie et l'hypokaliémie peuvent entraîner une résistance rénale à l'AVP.",
+        "C": "Dans le déficit central en AVP, l'IRM montre fréquemment une disparition de l'hypersignal spontané en T1 de la posthypophyse.",
+        "D": "Un épaississement de la tige pituitaire chez l'enfant doit faire rechercher une histiocytose langerhansienne ou un germinome.",
+        "E": "Un déficit central en AVP masqué par une insuffisance corticotrope peut se révéler après l'instauration de l'hydrocortisone."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le déficit central en AVP est dû à des lésions hypothalamo-hypophysaires (tumorales, inflammatoires, infiltratives, traumatiques, post-chirurgicales) ou idiopathique. La résistance à l'AVP est d'origine génétique (chez l'enfant) ou acquise (lithium, troubles ioniques, néphropathies). L'IRM hypothalamo-hypophysaire est systématique dans les formes centrales. L'association à une insuffisance antéhypophysaire doit être recherchée.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces causes lésent la région hypothalamo-hypophysaire ; une part des formes reste idiopathique, et des formes génétiques existent.",
+        "B": "Vrai : Ces troubles ioniques altèrent la capacité de concentration rénale, au même titre que le lithium ou certaines néphropathies.",
+        "C": "Vrai : L'hypersignal T1 de la posthypophyse, lié au stockage de l'AVP, disparaît habituellement dans les formes centrales.",
+        "D": "Vrai : L'épaississement de la tige impose un bilan étiologique et une surveillance, car un germinome peut être initialement invisible.",
+        "E": "Vrai : Le cortisol est nécessaire à l'excrétion de l'eau libre ; sa substitution démasque la polyurie d'un déficit en AVP associé."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-093"
+      ],
+      "theme": "Diabète insipide — étiologies",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Être surpris par l'apparition d'une polyurie après la substitution d'une insuffisance corticotrope : c'est un déficit en AVP démasqué.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Groupe de travail international (sociétés d'endocrinologie) — Changing the Name of Diabetes Insipidus: A Position Statement of the Working Group for Renaming Diabetes Insipidus (2022) [catalogue REC-0335]",
+          "date": "2022-12"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        },
+        {
+          "reference": "Melmed Shlomo, Koenig Ronald J, Rosen Clifford J et al. Williams Textbook of Endocrinology. 14e éd. Elsevier ; 2020 [catalogue OUV-0366].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3210",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel est le traitement de référence du diabète insipide central (déficit en arginine-vasopressine) ?",
+      "propositions": {
+        "A": "La desmopressine.",
+        "B": "Un diurétique thiazidique en monothérapie.",
+        "C": "Une restriction hydrique stricte.",
+        "D": "Le furosémide.",
+        "E": "Le lithium."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le traitement du déficit central en AVP repose sur la desmopressine (voie orale, sublinguale, nasale ou injectable), à dose minimale efficace. Le patient doit boire selon sa soif et connaître les signes d'hyponatrémie ; une « fenêtre » de polyurie peut être ménagée pour limiter ce risque. La résistance rénale à l'AVP relève du traitement de la cause, des thiazidiques et d'un régime pauvre en sel et en protéines. Le traitement de la lésion causale est conduit en parallèle.",
+      "explications_par_proposition": {
+        "A": "Vrai : La desmopressine, analogue de l'AVP à effet antidiurétique prédominant, est le traitement de référence ; le risque principal est l'hyponatrémie par surdosage ou apports hydriques excessifs.",
+        "B": "Faux : Les thiazidiques ont un effet paradoxal utile surtout dans le diabète insipide néphrogénique.",
+        "C": "Faux : La restriction hydrique expose à une déshydratation grave ; la soif doit être respectée.",
+        "D": "Faux : Le furosémide aggraverait la polyurie.",
+        "E": "Faux : Le lithium est une cause de diabète insipide néphrogénique."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-093"
+      ],
+      "theme": "Diabète insipide central — traitement",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Négliger le risque d'hyponatrémie sous desmopressine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Groupe de travail international (sociétés d'endocrinologie) — Changing the Name of Diabetes Insipidus: A Position Statement of the Working Group for Renaming Diabetes Insipidus (2022) [catalogue REC-0335]",
+          "date": "2022-12"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3211",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la définition harmonisée du syndrome métabolique (déclaration conjointe IDF/AHA/NHLBI et al., 2009), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le diagnostic repose sur la présence d'au moins 3 critères sur 5.",
+        "B": "Les critères sont : tour de taille élevé, triglycérides ≥ 1,5 g/L, HDL-cholestérol bas, pression artérielle ≥ 130/85 mmHg et glycémie à jeun ≥ 1 g/L.",
+        "C": "L'obésité abdominale est un critère obligatoire.",
+        "D": "Un traitement en cours pour une hypertension, une hypertriglycéridémie ou une hyperglycémie équivaut à un critère rempli.",
+        "E": "Les seuils de tour de taille sont identiques pour toutes les populations."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le syndrome métabolique regroupe des facteurs de risque cardiométaboliques liés à l'adiposité viscérale et à l'insulinorésistance. La définition harmonisée de 2009 repose sur cinq critères, dont trois suffisent, avec des seuils de tour de taille adaptés aux populations. Il identifie des sujets à risque accru de diabète de type 2 et de maladie cardiovasculaire, chez qui chaque facteur de risque doit être pris en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai : Trois critères parmi les cinq suffisent, sans critère obligatoire.",
+        "B": "Vrai : Ces cinq critères définissent la version harmonisée ; le HDL est bas en dessous de 0,40 g/L chez l'homme et 0,50 g/L chez la femme.",
+        "C": "Faux : Contrairement à la définition IDF de 2005, l'obésité abdominale n'est plus obligatoire dans la définition harmonisée.",
+        "D": "Vrai : Un traitement médicamenteux spécifique d'une anomalie est considéré comme un critère rempli.",
+        "E": "Faux : Les seuils de tour de taille sont spécifiques des populations et des ethnies."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-094"
+      ],
+      "theme": "Syndrome métabolique — définition harmonisée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Faire de l'obésité abdominale un critère obligatoire dans la définition harmonisée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IDF / AHA / NHLBI / WHF / IAS / IASO — Harmonizing the metabolic syndrome: a joint interim statement of the International Diabetes Federation Task Force on Epidemiology and Prevention; National Heart, Lung, and Blood Institute; American Heart Association; World Heart Federation; International Atherosclerosis Society; and International Association for the Study of Obesity (2009) [catalogue REC-0334]",
+          "date": "2009-10"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3212",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiopathologie et les conséquences du syndrome métabolique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'insulinorésistance occupe une place centrale.",
+        "B": "L'adiponectine est augmentée dans le syndrome métabolique.",
+        "C": "Il est fréquemment associé à une stéatose hépatique métabolique (MASLD).",
+        "D": "Il augmente le risque de diabète de type 2 et de maladie cardiovasculaire.",
+        "E": "L'hyperinsulinisme compensateur protège durablement du diabète de type 2."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La physiopathologie du syndrome métabolique repose sur l'adiposité viscérale, l'insulinorésistance, l'inflammation de bas grade et la dysfonction endothéliale. Ses conséquences sont le diabète de type 2, les maladies cardiovasculaires, la stéatose hépatique, le syndrome des ovaires polykystiques, le syndrome d'apnées du sommeil et l'hyperuricémie. Il doit faire rechercher et évaluer ces complications.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'insulinorésistance hépatique et musculaire, liée à l'excès de tissu adipeux viscéral, explique l'hyperglycémie, la dyslipidémie et contribue à l'hypertension.",
+        "B": "Faux : L'adiponectine, adipokine insulino-sensibilisante et anti-inflammatoire, est diminuée ; le tissu adipeux viscéral libère des acides gras libres et des cytokines pro-inflammatoires.",
+        "C": "Vrai : La stéatose hépatique est la manifestation hépatique du syndrome métabolique ; elle peut évoluer vers la fibrose et la cirrhose (EASL-EASD-EASO 2024).",
+        "D": "Vrai : Le syndrome métabolique est associé à une augmentation du risque de diabète de type 2 et d'événements cardiovasculaires.",
+        "E": "Faux : L'hyperinsulinisme compense temporairement l'insulinorésistance ; l'épuisement progressif de la cellule β conduit au diabète de type 2."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-094"
+      ],
+      "theme": "Syndrome métabolique — physiopathologie et conséquences",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Penser que l'adiponectine augmente avec l'adiposité viscérale : elle diminue.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IDF / AHA / NHLBI / WHF / IAS / IASO — Harmonizing the metabolic syndrome: a joint interim statement of the International Diabetes Federation Task Force on Epidemiology and Prevention; National Heart, Lung, and Blood Institute; American Heart Association; World Heart Federation; International Atherosclerosis Society; and International Association for the Study of Obesity (2009) [catalogue REC-0334]",
+          "date": "2009-10"
+        },
+        {
+          "reference": "EASL / EASD / EASO — EASL-EASD-EASO Clinical Practice Guidelines on the Management of Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) (2024) [catalogue REC-0346]",
+          "date": "2024-06"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3213",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prise en charge du syndrome métabolique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les modifications du mode de vie (perte de poids, alimentation équilibrée, activité physique) en sont la base.",
+        "B": "L'OMS recommande à l'adulte au moins 150 à 300 minutes par semaine d'activité physique d'intensité modérée.",
+        "C": "Chaque facteur de risque (hypertension, dyslipidémie, hyperglycémie) est traité selon ses propres recommandations.",
+        "D": "Il existe un traitement médicamenteux unique et spécifique du syndrome métabolique en tant qu'entité.",
+        "E": "La recherche d'une stéatose hépatique et l'évaluation du risque de fibrose font partie du bilan."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La prise en charge du syndrome métabolique vise à réduire le risque cardiovasculaire et de diabète. Elle repose sur les modifications du mode de vie (alimentation, activité physique, sevrage tabagique), le traitement de chaque facteur de risque et, chez certains patients obèses, des traitements de l'obésité (pharmacologiques ou chirurgie bariatrique). Le dépistage des complications (diabète, stéatose hépatique, apnées du sommeil) est intégré au suivi.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une perte de poids modérée (de l'ordre de 5 à 10 %) améliore l'ensemble des composantes du syndrome.",
+        "B": "Vrai : Les recommandations OMS 2020 fixent ces seuils (ou 75 à 150 minutes d'activité intense), avec réduction de la sédentarité.",
+        "C": "Vrai : Le traitement repose sur la prise en charge de chaque composante : statine selon le risque, antihypertenseurs, metformine ou autres traitements si diabète.",
+        "D": "Faux : Aucun médicament ne traite le syndrome métabolique en tant que tel ; on traite les facteurs de risque et l'adiposité.",
+        "E": "Vrai : Les recommandations EASL-EASD-EASO 2024 proposent une évaluation non invasive de la fibrose (par exemple FIB-4) chez ces patients."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-094"
+      ],
+      "theme": "Syndrome métabolique — prise en charge",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Chercher un « traitement du syndrome métabolique » au lieu de traiter chacun des facteurs de risque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO guidelines on physical activity and sedentary behaviour (2020) [catalogue REC-0527]",
+          "date": "2020-11"
+        },
+        {
+          "reference": "ESC — 2021 ESC Guidelines on cardiovascular disease prevention in clinical practice (2021) [catalogue REC-0230]",
+          "date": "2021-09"
+        },
+        {
+          "reference": "EASL / EASD / EASO — EASL-EASD-EASO Clinical Practice Guidelines on the Management of Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) (2024) [catalogue REC-0346]",
+          "date": "2024-06"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3214",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la classification et les causes des dyslipidémies, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La classification de Fredrickson distingue des phénotypes selon les lipoprotéines en excès.",
+        "B": "L'hypercholestérolémie familiale, de transmission autosomique dominante, est le plus souvent liée à une mutation du gène du récepteur des LDL, et peut se manifester par des xanthomes tendineux.",
+        "C": "Une hypertriglycéridémie très sévère expose au risque de pancréatite aiguë.",
+        "D": "L'hyperthyroïdie est une cause classique d'hypercholestérolémie secondaire.",
+        "E": "Une lipoprotéine(a) élevée est un facteur de risque cardiovasculaire, qu'il est recommandé de doser au moins une fois dans la vie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les dyslipidémies sont primitives (génétiques, souvent polygéniques) ou secondaires (hypothyroïdie, syndrome néphrotique, cholestase, diabète, alcool, médicaments comme les corticoïdes, les rétinoïdes ou certains antirétroviraux). Le bilan lipidique (cholestérol total, HDL, triglycérides, LDL calculé ou mesuré) et la recherche des causes secondaires précèdent toute décision thérapeutique. L'évaluation du risque cardiovasculaire global guide la prise en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les types I à V de Fredrickson décrivent les profils lipoprotéiques ; la classification pratique distingue hypercholestérolémies, hypertriglycéridémies et dyslipidémies mixtes.",
+        "B": "Vrai : Les mutations de LDLR, APOB ou PCSK9 entraînent des LDL très élevés dès l'enfance ; xanthomes tendineux et arc cornéen précoce sont évocateurs ; un dépistage familial est indiqué.",
+        "C": "Vrai : Le risque de pancréatite aiguë devient important lorsque les triglycérides sont très élevés (chylomicronémie).",
+        "D": "Faux : C'est l'hypothyroïdie qui est une cause classique d'hypercholestérolémie secondaire, avec le syndrome néphrotique, la cholestase et certains médicaments.",
+        "E": "Vrai : Les recommandations ESC/EAS 2019 proposent un dosage de la Lp(a) au moins une fois pour repérer les valeurs très élevées."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-095"
+      ],
+      "theme": "Dyslipidémies — classification et causes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer une hypercholestérolémie à une hyperthyroïdie : c'est l'hypothyroïdie qui l'élève.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC / EAS — 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk (2020) [catalogue REC-0228]",
+          "date": "2020-01"
+        },
+        {
+          "reference": "ESC / EAS — 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias (2025) [catalogue REC-0229]",
+          "date": "2025-11"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3215",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de l'hypercholestérolémie selon les recommandations ESC/EAS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les statines sont le traitement de première intention.",
+        "B": "La stratégie est séquentielle : statine à dose maximale tolérée, puis ajout d'ézétimibe, puis d'un inhibiteur de PCSK9 si l'objectif n'est pas atteint.",
+        "C": "Chez les patients à très haut risque, l'objectif est un LDL-cholestérol < 1,4 mmol/L (0,55 g/L) avec une réduction d'au moins 50 %.",
+        "D": "Les fibrates sont le traitement de première intention de l'hypercholestérolémie isolée.",
+        "E": "Les statines sont contre-indiquées pendant la grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le traitement des dyslipidémies est guidé par le niveau de risque cardiovasculaire, qui fixe l'objectif de LDL-c. Les mesures hygiéno-diététiques sont toujours associées. Les statines sont la base du traitement, complétées si besoin par l'ézétimibe puis les inhibiteurs de PCSK9. Les hypertriglycéridémies sévères relèvent des mesures diététiques, du contrôle des causes secondaires et, selon le contexte, des fibrates ou des acides gras oméga-3.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les statines ont démontré une réduction de la morbi-mortalité cardiovasculaire proportionnelle à la baisse du LDL-c.",
+        "B": "Vrai : Cette stratégie séquentielle est celle des recommandations ESC/EAS 2019 ; la mise à jour 2025 intègre d'autres molécules (dont l'acide bempédoïque chez l'intolérant aux statines).",
+        "C": "Vrai : Les objectifs de 2019 (très haut risque < 1,4 mmol/L, haut risque < 1,8 mmol/L, risque modéré < 2,6 mmol/L) restent la référence dans la mise à jour 2025.",
+        "D": "Faux : Les fibrates agissent surtout sur les triglycérides ; ils ne sont pas le traitement de l'hypercholestérolémie isolée.",
+        "E": "Vrai : Les statines sont contre-indiquées pendant la grossesse et l'allaitement ; une contraception est nécessaire chez la femme en âge de procréer."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-095"
+      ],
+      "theme": "Dyslipidémies — traitement de l'hypercholestérolémie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser un fibrate en première intention pour une hypercholestérolémie pure.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC / EAS — 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk (2020) [catalogue REC-0228]",
+          "date": "2020-01"
+        },
+        {
+          "reference": "ESC / EAS — 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias (2025) [catalogue REC-0229]",
+          "date": "2025-11"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3216",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la tolérance et la surveillance d'un traitement par statine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Des symptômes musculaires associés à des CPK supérieures à 10 fois la normale imposent l'arrêt de la statine.",
+        "B": "Le risque de rhabdomyolyse est majoré par certaines associations, comme le gemfibrozil ou des inhibiteurs puissants du CYP3A4 avec la simvastatine.",
+        "C": "Une élévation isolée des transaminases inférieure à 3 fois la normale impose l'arrêt définitif de la statine.",
+        "D": "Les statines augmentent modestement le risque de diabète, sans remettre en cause leur bénéfice cardiovasculaire chez les patients à risque.",
+        "E": "Un dosage systématique et répété des CPK est recommandé chez tous les patients asymptomatiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les statines sont globalement bien tolérées. Les symptômes musculaires sont fréquemment rapportés mais rarement liés à une atteinte musculaire réelle ; leur gestion repose sur le dosage des CPK, la réévaluation, le changement de molécule ou de dose, et les alternatives (ézétimibe, acide bempédoïque, inhibiteurs de PCSK9). La surveillance biologique comprend les transaminases à l'instauration et les CPK selon le contexte. Les interactions médicamenteuses doivent être vérifiées.",
+      "explications_par_proposition": {
+        "A": "Vrai : Des CPK > 10 N avec symptômes font craindre une rhabdomyolyse : la statine est arrêtée et la fonction rénale contrôlée.",
+        "B": "Vrai : Les interactions pharmacocinétiques (gemfibrozil, macrolides, antifongiques azolés, certains antirétroviraux) majorent l'exposition à certaines statines.",
+        "C": "Faux : Une élévation modérée (< 3 N) des transaminases ne justifie pas l'arrêt ; un contrôle est réalisé.",
+        "D": "Vrai : L'augmentation du risque de diabète est faible et concerne surtout les patients déjà prédiabétiques ; le bénéfice cardiovasculaire l'emporte.",
+        "E": "Faux : Les CPK sont dosées avant traitement chez les patients à risque et en cas de symptômes ; leur surveillance systématique n'est pas recommandée."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-095"
+      ],
+      "theme": "Statines — tolérance et surveillance",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter une statine pour une élévation modérée des transaminases ou des myalgies sans élévation des CPK, sans réévaluation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESC / EAS — 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk (2020) [catalogue REC-0228]",
+          "date": "2020-01"
+        },
+        {
+          "reference": "ESC / EAS — 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias (2025) [catalogue REC-0229]",
+          "date": "2025-11"
+        },
+        {
+          "reference": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. NIDDK / NCBI Bookshelf ; 2012 [catalogue OUV-0338].",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3217",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 38 ans présente une prise de poids facio-tronculaire, des vergetures pourpres larges, une amyotrophie proximale, des ecchymoses faciles et une hypertension récente. Concernant le diagnostic d'hypercorticisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les vergetures pourpres larges, l'amyotrophie et la fragilité cutanée traduisent l'hypercatabolisme protidique.",
+        "B": "Le dépistage repose sur le cortisol libre urinaire des 24 heures, le cortisol salivaire de minuit et/ou le test de freinage minute à la dexaméthasone.",
+        "C": "Une prise de glucocorticoïdes exogènes, cause la plus fréquente de syndrome de Cushing, doit être éliminée en premier.",
+        "D": "Un cortisol plasmatique de 8 heures élevé, isolé, suffit au diagnostic.",
+        "E": "Un cortisol bien freiné le lendemain matin d'un test de freinage minute rend le diagnostic peu probable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le diagnostic positif d'hypercorticisme endogène repose sur des signes cliniques évocateurs et sur au moins deux tests biologiques anormaux : cortisol libre urinaire, cortisol salivaire de minuit, test de freinage minute. Les causes d'hypercorticisme fonctionnel (pseudo-Cushing : alcoolisme, dépression, obésité sévère) doivent être distinguées. Une fois le diagnostic posé, le dosage de l'ACTH oriente l'enquête étiologique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces signes sont les plus spécifiques de l'hypercorticisme, contrairement à l'obésité ou à l'HTA, très fréquentes dans la population générale.",
+        "B": "Vrai : Ces tests explorent la perte du rythme nycthéméral, l'excès de production et la perte du rétrocontrôle ; au moins deux tests concordants sont nécessaires (Pituitary Society 2021).",
+        "C": "Vrai : Le syndrome de Cushing iatrogène (corticoïdes oraux, inhalés, cutanés, infiltrations) est de loin le plus fréquent et doit être recherché à l'interrogatoire.",
+        "D": "Faux : Le cortisol de 8 heures est souvent normal et varie avec le stress ; il n'a pas de valeur diagnostique isolée.",
+        "E": "Vrai : Un freinage normal (cortisol effondré le lendemain matin) a une bonne valeur prédictive négative."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-096"
+      ],
+      "theme": "Syndrome de Cushing — diagnostic positif",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Poser le diagnostic sur un cortisol plasmatique matinal isolé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pituitary Society — Consensus on diagnosis and management of Cushing's disease: a guideline update (2021) [catalogue REC-0328]",
+          "date": "2021-10"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3218",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic étiologique d'un hypercorticisme endogène confirmé, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une ACTH basse oriente vers une origine surrénalienne (adénome ou corticosurrénalome).",
+        "B": "Une ACTH normale ou élevée oriente vers une origine ACTH-dépendante, dominée par la maladie de Cushing (adénome hypophysaire corticotrope).",
+        "C": "Un cathétérisme des sinus pétreux inférieurs est indiqué lorsque l'origine hypophysaire n'est pas évidente à l'IRM.",
+        "D": "Une hypokaliémie sévère, une mélanodermie et une installation rapide évoquent une sécrétion ectopique d'ACTH.",
+        "E": "Une IRM hypophysaire normale exclut une maladie de Cushing."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le dosage de l'ACTH est la première étape du diagnostic étiologique. Les formes ACTH-indépendantes relèvent de l'imagerie surrénalienne ; les formes ACTH-dépendantes de l'IRM hypophysaire, complétée si besoin par le cathétérisme des sinus pétreux inférieurs, et de la recherche d'une tumeur ectopique (scanner, imagerie fonctionnelle). Le corticosurrénalome, de pronostic sévère, est suspecté devant une tumeur volumineuse et des signes d'hyperandrogénie.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'hypercorticisme surrénalien freine l'ACTH ; le scanner surrénalien précise la lésion.",
+        "B": "Vrai : La maladie de Cushing représente la majorité des syndromes de Cushing ACTH-dépendants.",
+        "C": "Vrai : Le cathétérisme des sinus pétreux, avec stimulation, distingue une origine hypophysaire d'une sécrétion ectopique (Pituitary Society 2021).",
+        "D": "Vrai : Les sécrétions ectopiques (tumeurs neuroendocrines bronchiques, carcinome bronchique à petites cellules) entraînent un hypercorticisme intense, avec hypokaliémie et parfois mélanodermie.",
+        "E": "Faux : Les adénomes corticotropes sont souvent de très petite taille ; l'IRM est normale dans une proportion notable des maladies de Cushing."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-096"
+      ],
+      "theme": "Syndrome de Cushing — diagnostic étiologique",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Récuser une maladie de Cushing sur une IRM hypophysaire normale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pituitary Society — Consensus on diagnosis and management of Cushing's disease: a guideline update (2021) [catalogue REC-0328]",
+          "date": "2021-10"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3219",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de la maladie de Cushing, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La chirurgie hypophysaire par voie transsphénoïdale est le traitement de première intention.",
+        "B": "Après une exérèse réussie, une insuffisance corticotrope transitoire impose une substitution par hydrocortisone.",
+        "C": "Les anticortisoliques (métyrapone, kétoconazole, osilodrostat) sont utilisés en cas d'échec de la chirurgie ou dans l'attente de celle-ci.",
+        "D": "La surrénalectomie bilatérale est le traitement de première intention.",
+        "E": "Les anticortisoliques sont le traitement curatif de référence d'un adénome surrénalien cortisolique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le traitement de la maladie de Cushing repose sur la chirurgie transsphénoïdale. En cas d'échec ou de récidive, les options sont la reprise chirurgicale, les traitements médicaux (anticortisoliques, traitements ciblant l'hypophyse) et la radiothérapie. La surrénalectomie bilatérale est un traitement de dernier recours. Les comorbidités (HTA, diabète, ostéoporose, risque thromboembolique et infectieux) sont prises en charge en parallèle.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'adénomectomie sélective par un neurochirurgien expérimenté est le traitement de référence (Pituitary Society 2021).",
+        "B": "Vrai : L'effondrement du cortisol après chirurgie est un critère de rémission ; l'axe corticotrope sain, longtemps freiné, récupère en plusieurs mois.",
+        "C": "Vrai : Ils contrôlent l'hypercorticisme en préopératoire, après un échec chirurgical ou dans l'attente de l'effet de la radiothérapie.",
+        "D": "Faux : La surrénalectomie bilatérale est un traitement de recours, exposant au syndrome de Nelson (progression de l'adénome corticotrope avec mélanodermie) et à une insuffisance surrénale définitive.",
+        "E": "Faux : L'adénome surrénalien relève de la surrénalectomie unilatérale, le plus souvent par cœlioscopie."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-096"
+      ],
+      "theme": "Maladie de Cushing — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la substitution en hydrocortisone après une chirurgie réussie : insuffisance corticotrope attendue.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pituitary Society — Consensus on diagnosis and management of Cushing's disease: a guideline update (2021) [catalogue REC-0328]",
+          "date": "2021-10"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3220",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 28 ans présente une aménorrhée secondaire et une galactorrhée. La prolactinémie est élevée. Concernant le prolactinome, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le prolactinome est l'adénome hypophysaire sécrétant le plus fréquent.",
+        "B": "Chez l'homme, il est souvent découvert au stade de macroadénome, devant une baisse de la libido ou des troubles visuels.",
+        "C": "Les agonistes dopaminergiques, la cabergoline en particulier, sont le traitement de première intention, y compris des macroprolactinomes.",
+        "D": "Une hyperprolactinémie médicamenteuse, une hypothyroïdie et une grossesse doivent être éliminées avant de conclure.",
+        "E": "La chirurgie est le traitement de première intention d'un macroprolactinome entraînant une atteinte du champ visuel."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'hyperprolactinémie se manifeste par un hypogonadisme (troubles des règles, infertilité, baisse de la libido) et une galactorrhée. Avant de conclure à un prolactinome, il faut éliminer les causes médicamenteuses, l'hypothyroïdie, la grossesse, l'insuffisance rénale et la déconnexion de la tige par un autre processus. L'IRM hypophysaire confirme l'adénome. Le traitement médical par agoniste dopaminergique est la règle.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le prolactinome représente une part importante des adénomes hypophysaires ; il touche surtout la femme jeune sous forme de microadénome.",
+        "B": "Vrai : Les symptômes d'hypogonadisme sont moins évidents chez l'homme, d'où un diagnostic plus tardif au stade de macroadénome.",
+        "C": "Vrai : Les agonistes dopaminergiques normalisent la prolactine et réduisent le volume tumoral dans la grande majorité des cas (Pituitary Society 2023).",
+        "D": "Vrai : Neuroleptiques, métoclopramide, certains antidépresseurs, l'hypothyroïdie et la grossesse sont des causes fréquentes d'hyperprolactinémie ; une déconnexion de la tige doit aussi être évoquée.",
+        "E": "Faux : Même en cas d'atteinte visuelle, les agonistes dopaminergiques sont habituellement efficaces rapidement ; la chirurgie est réservée à l'intolérance, à la résistance ou à certaines situations."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-097"
+      ],
+      "theme": "Prolactinome — diagnostic et traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Opérer d'emblée un macroprolactinome avec atteinte visuelle, alors que le traitement médical est le plus souvent rapidement efficace.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pituitary Society — Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement (2023) [catalogue REC-0330]",
+          "date": "2023-09"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3221",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les adénomes hypophysaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un macroadénome comprimant le chiasma optique entraîne typiquement une hémianopsie bitemporale.",
+        "B": "L'acromégalie est confirmée par un dosage isolé et aléatoire de GH élevé.",
+        "C": "L'acromégalie expose à l'hypertension artérielle, à la cardiomyopathie, au syndrome d'apnées du sommeil, au diabète et aux polypes coliques.",
+        "D": "Une hyperprolactinémie modérée associée à un macroadénome non sécrétant peut traduire une déconnexion de la tige pituitaire.",
+        "E": "Un « effet crochet » peut faire sous-estimer la prolactinémie dans les très volumineux prolactinomes."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les adénomes hypophysaires se révèlent par un syndrome tumoral (céphalées, troubles visuels), un syndrome d'hypersécrétion (prolactine, GH, ACTH, plus rarement TSH) ou une insuffisance antéhypophysaire, ou sont découverts fortuitement. Le bilan comprend l'IRM, le champ visuel et un bilan hormonal complet. Le traitement dépend du type : médical pour le prolactinome, chirurgical en première intention pour la plupart des autres adénomes symptomatiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : La compression des fibres nasales croisées du chiasma donne une hémianopsie bitemporale ; le champ visuel est systématique devant un macroadénome.",
+        "B": "Faux : Le diagnostic repose sur un IGF-1 élevé et l'absence de freinage de la GH au cours d'une hyperglycémie provoquée par voie orale ; la GH aléatoire est pulsatile et peu interprétable.",
+        "C": "Vrai : Ces complications cardiovasculaires, respiratoires, métaboliques et néoplasiques font la gravité de l'acromégalie et justifient un dépistage systématique.",
+        "D": "Vrai : La compression de la tige lève l'inhibition dopaminergique : la prolactine s'élève modérément, ce qui ne doit pas faire conclure à tort à un prolactinome.",
+        "E": "Vrai : Une concentration très élevée de prolactine peut saturer les anticorps du dosage ; une mesure après dilution corrige ce piège."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-097"
+      ],
+      "theme": "Adénomes hypophysaires — syndrome tumoral et acromégalie",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à un prolactinome devant une hyperprolactinémie modérée avec un gros adénome : il s'agit souvent d'une déconnexion.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pituitary Society — Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement (2023) [catalogue REC-0330]",
+          "date": "2023-09"
+        },
+        {
+          "reference": "Pituitary Society — Consensus on diagnosis and management of Cushing's disease: a guideline update (2021) [catalogue REC-0328]",
+          "date": "2021-10"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-3222",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un homme de 52 ans, porteur d'un macroadénome hypophysaire non traité, présente une céphalée brutale intense, une baisse visuelle, une ophtalmoplégie et des vomissements, avec une pression artérielle à 85/50 mmHg. Quelle mesure thérapeutique est prioritaire ?",
+      "propositions": {
+        "A": "L'administration intraveineuse d'hydrocortisone.",
+        "B": "La cabergoline par voie orale.",
+        "C": "La lévothyroxine par voie orale.",
+        "D": "Une anticoagulation curative.",
+        "E": "Une radiothérapie hypophysaire en urgence."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "L'apoplexie hypophysaire est une urgence neuro-endocrinienne : céphalée brutale, troubles visuels, paralysies oculomotrices, troubles de conscience, insuffisance surrénale aiguë. Le traitement comprend l'hydrocortisone IV immédiate, l'IRM (ou le scanner) en urgence, la correction des troubles hydroélectrolytiques et une décompression chirurgicale en cas d'atteinte visuelle sévère ou d'aggravation. Le bilan hormonal complet et le suivi des déficits sont réalisés ensuite.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'apoplexie hypophysaire (hémorragie ou nécrose de l'adénome) entraîne fréquemment une insuffisance corticotrope aiguë, menaçant le pronostic vital : l'hydrocortisone IV est prioritaire, avant l'imagerie et la discussion neurochirurgicale.",
+        "B": "Faux : La cabergoline n'a pas de place dans l'urgence, sauf prolactinome identifié et stabilisé.",
+        "C": "Faux : La lévothyroxine ne doit pas précéder l'hydrocortisone.",
+        "D": "Faux : L'anticoagulation est dangereuse dans un contexte hémorragique.",
+        "E": "Faux : La radiothérapie n'a pas de place en urgence."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-097"
+      ],
+      "theme": "Apoplexie hypophysaire — urgence thérapeutique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Débuter la lévothyroxine ou attendre l'imagerie avant l'hydrocortisone chez un patient en collapsus.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Endocrine Society — Hormonal Replacement in Hypopituitarism in Adults: An Endocrine Society Clinical Practice Guideline (2016) [catalogue REC-0329]",
+          "date": "2016-10"
+        },
+        {
+          "reference": "Gardner David G, Shoback Dolores M. Greenspan's Basic & Clinical Endocrinology. 10e éd. McGraw-Hill Education ; 2018 [catalogue OUV-0367].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-3223",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 40 ans présente depuis 4 mois des dorsolombalgies d'horaire mixte, un amaigrissement et des sueurs nocturnes. Une spondylodiscite tuberculeuse (mal de Pott) est suspectée. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La jonction thoraco-lombaire est la localisation la plus fréquente.",
+        "B": "L'atteinte disco-vertébrale peut évoluer vers le tassement vertébral et une cyphose angulaire (gibbosité).",
+        "C": "Des abcès paravertébraux et du psoas sont fréquents.",
+        "D": "L'IRM est l'examen d'imagerie de référence.",
+        "E": "L'évolution est typiquement aiguë et très fébrile, comme dans une spondylodiscite à staphylocoque."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le mal de Pott est la localisation ostéo-articulaire la plus fréquente de la tuberculose. Il se révèle par des rachialgies d'évolution lente, des signes généraux et parfois une complication neurologique. L'imagerie (IRM surtout) montre une atteinte disco-vertébrale avec abcès des parties molles. En Algérie, les principaux diagnostics différentiels sont la spondylodiscite brucellienne, les spondylodiscites à pyogènes et les métastases vertébrales. La recherche d'une autre localisation tuberculeuse est systématique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les vertèbres dorsales basses et lombaires hautes sont les plus touchées ; l'atteinte de plusieurs étages, parfois non contigus, est possible.",
+        "B": "Vrai : La destruction des corps vertébraux antérieurs entraîne une cyphose angulaire, qui peut menacer la moelle.",
+        "C": "Vrai : Les abcès froids paravertébraux (aspect « en fuseau » sur la radiographie dorsale) et du psoas sont caractéristiques de la tuberculose rachidienne.",
+        "D": "Vrai : L'IRM détecte les lésions précoces, l'extension aux parties molles, les abcès et l'épidurite, et évalue le retentissement médullaire.",
+        "E": "Faux : L'évolution est habituellement insidieuse, subaiguë ou chronique, avec des signes généraux modérés ; c'est la spondylodiscite à pyogènes qui est aiguë."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-098"
+      ],
+      "theme": "Mal de Pott — diagnostic clinique et radiologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Écarter une tuberculose rachidienne en l'absence de fièvre élevée : l'évolution est habituellement insidieuse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO consolidated guidelines on tuberculosis: module 4: treatment and care (2nd edition, 2026) (2026) [catalogue REC-0261]",
+          "date": "2026-09"
+        },
+        {
+          "reference": "Firestein Gary S, Budd Ralph C, Gabriel Sherine E et al. Firestein & Kelley's Textbook of Rheumatology. 11e éd. Elsevier ; 2021 [catalogue OUV-0360].",
+          "date": "2021"
+        },
+        {
+          "reference": "Hodler J, Kubik-Huch RA, Roos JE et al. Musculoskeletal Diseases 2026-2029: Diagnostic Imaging. Springer ; 2026 [catalogue OUV-0676].",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-3224",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la confirmation du diagnostic de mal de Pott, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La ponction-biopsie disco-vertébrale sous contrôle scanographique permet l'examen histologique et bactériologique (culture, amplification génique).",
+        "B": "Une tuberculose pulmonaire associée doit être recherchée (radiographie thoracique, examens des expectorations).",
+        "C": "Une IDR à la tuberculine ou un test IGRA positif suffit à affirmer le diagnostic.",
+        "D": "La recherche d'une résistance à la rifampicine par test moléculaire est utile.",
+        "E": "La spondylodiscite brucellienne est un diagnostic différentiel important en zone d'endémie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La confirmation du mal de Pott repose idéalement sur la preuve bactériologique et/ou histologique obtenue par biopsie disco-vertébrale ou par ponction d'un abcès. Les tests moléculaires accélèrent le diagnostic et recherchent la résistance à la rifampicine. Lorsque la preuve ne peut être obtenue, un faisceau d'arguments cliniques, radiologiques et épidémiologiques peut conduire au traitement, après élimination des diagnostics différentiels (brucellose, pyogènes, métastases).",
+      "explications_par_proposition": {
+        "A": "Vrai : La biopsie recherche un granulome épithélioïde avec nécrose caséeuse et permet la culture et les tests moléculaires ; l'histologie et la bactériologie sont complémentaires.",
+        "B": "Vrai : Une localisation pulmonaire associée modifie la contagiosité et peut fournir un prélèvement plus accessible.",
+        "C": "Faux : L'IDR et les IGRA témoignent d'une infection tuberculeuse mais ne prouvent pas la localisation rachidienne.",
+        "D": "Vrai : Les tests moléculaires rapides (type Xpert MTB/RIF) détectent M. tuberculosis et la résistance à la rifampicine, recommandés par l'OMS.",
+        "E": "Vrai : La brucellose, endémique en Algérie, donne des spondylodiscites (surtout lombaires) ; sérologie et hémocultures sont nécessaires."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-098"
+      ],
+      "theme": "Mal de Pott — confirmation diagnostique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retenir le diagnostic sur une IDR positive, sans preuve histologique ou bactériologique et sans éliminer une brucellose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO consolidated guidelines on tuberculosis: module 3: diagnosis (2026) (2026) [catalogue REC-0262]",
+          "date": "2026-11"
+        },
+        {
+          "reference": "OMS — WHO consolidated guidelines on tuberculosis: module 4: treatment and care (2nd edition, 2026) (2026) [catalogue REC-0261]",
+          "date": "2026-09"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-3225",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement du mal de Pott, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il repose sur une polychimiothérapie antituberculeuse, dont la durée est souvent prolongée au-delà de 6 mois (jusqu'à 12 mois selon les recommandations et les programmes nationaux).",
+        "B": "Une immobilisation (repos, corset) peut être indiquée selon la douleur et la stabilité rachidienne.",
+        "C": "Une chirurgie est indiquée en cas de compression médullaire avec déficit neurologique, d'instabilité ou de déformation sévère.",
+        "D": "La chirurgie est systématique dans tous les cas.",
+        "E": "La corticothérapie constitue le traitement de fond."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le traitement du mal de Pott repose sur une polychimiothérapie antituberculeuse prolongée, l'immobilisation et la rééducation, et la chirurgie en cas de complication neurologique ou mécanique. La surveillance comprend l'évolution clinique, biologique et radiologique, la tolérance hépatique des antituberculeux et l'observance. La déclaration obligatoire et l'enquête autour du cas suivent les règles du programme national de lutte antituberculeuse.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le traitement associe isoniazide, rifampicine, pyrazinamide et éthambutol en phase initiale, puis isoniazide et rifampicine ; l'OMS (module 4, 2026) retient par exemple un schéma de 12 mois (2HRZE/10HR) pour la tuberculose ostéo-articulaire de l'enfant, et les durées chez l'adulte varient selon les recommandations.",
+        "B": "Vrai : L'immobilisation soulage et protège la stabilité rachidienne ; la rééducation suit.",
+        "C": "Vrai : La décompression et la stabilisation chirurgicales sont indiquées en cas de complication neurologique, d'instabilité, de cyphose évolutive ou d'abcès volumineux ne répondant pas au traitement.",
+        "D": "Faux : La majorité des patients guérissent sous traitement médical ; la chirurgie est réservée aux complications.",
+        "E": "Faux : La corticothérapie n'est pas un traitement du mal de Pott ; elle n'a de place que dans certaines formes particulières (méningite, péricardite tuberculeuses)."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-098"
+      ],
+      "theme": "Mal de Pott — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Opérer systématiquement un mal de Pott non compliqué.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO consolidated guidelines on tuberculosis: module 4: treatment and care (2nd edition, 2026) (2026) [catalogue REC-0261]",
+          "date": "2026-09"
+        },
+        {
+          "reference": "ATS / CDC / IDSA (avalisé par l'ERS) — Official American Thoracic Society/Centers for Disease Control and Prevention/Infectious Diseases Society of America Clinical Practice Guidelines: Treatment of Drug-Susceptible Tuberculosis (2016) [catalogue REC-0260]",
+          "date": "2016-08"
+        },
+        {
+          "reference": "Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé) — Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire (2022) [catalogue REC-0004]",
+          "date": "2022-07"
         }
       ],
       "statut": "brouillon_a_auditer",

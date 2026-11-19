@@ -686,7 +686,7 @@ Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholip
   - D : Faux : sensibilité insuffisante, non recommandé en routine.
   - E : Vrai : recherche d'une AHAI associée (syndrome d'Evans).
 
-**QCM 5** — Réponses : **A, B, D, E**. Le myélogramme n'est pas nécessaire dans une forme typique (ASH, ICR), mais le PNDS le recommande après 60 ans (myélodysplasie), en cas d'atypie, d'échec thérapeutique ou avant splénectomie. Dans le PTI, la moelle est riche en mégacaryocytes.
+**QCM 5** — Réponses : **A, B, D, E**. Le myélogramme n'est pas nécessaire dans une forme typique (ASH, ICR), mais le PNDS de 2017 le recommandait après 60 ans (myélodysplasie), en cas d'atypie, d'échec thérapeutique ou avant splénectomie (la synthèse 2024 le dit « non systématique »). Dans le PTI, la moelle est riche en mégacaryocytes.
   - A : Vrai : position du consensus international 2019.
   - B : Vrai : élimination d'une myélodysplasie (PNDS 2017 ; la synthèse de 2024 le dit « non systématique », indications à vérifier dans le texte complet).
   - C : Faux : les mégacaryocytes sont normaux ou augmentés (origine périphérique).
@@ -736,8 +736,8 @@ Sérologies VIH, VHB, VHC ; anticorps antinucléaires ; anticorps antiphospholip
 |---|---|---|---|
 | Seuil de traitement chez l'adulte nouvellement diagnostiqué | Observation si ≥ 30 G/L sans saignement significatif ; corticoïdes suggérés si < 30 G/L (seuils inchangés en 2026) | Décision individualisée selon saignement, terrain et préférences | Pas de traitement en général au-dessus de **20 G/L** sans saignement ni comorbidité (une courte corticothérapie au diagnostic reste utile) ; hospitalisation et traitement si < 20 G/L ou saignement, guidé par le **score hémorragique** ; seuil de 50 G/L sous anticoagulant |
 | Traitement initial | ASH 2026 : corticoïdes **+ AR-TPO ou + rituximab** plutôt que corticoïdes seuls (conditionnelle, faible certitude) [S8] | Corticoïdes ± IgIV | Corticoïdes (prednisone ou dexaméthasone) ± IgIV si score élevé |
-| Durée de la corticothérapie | ≤ 6 semaines au total (décroissance incluse) | Cures courtes ; éviter l'exposition prolongée | Prednisone 2–3 semaines puis arrêt rapide sans décroissance prolongée |
-| Myélogramme initial | Non nécessaire dans une forme typique | Non nécessaire en cas de thrombopénie isolée avec frottis normal | Recommandé après **60 ans**, en cas d'atypie, d'échec ou avant splénectomie |
+| Durée de la corticothérapie | ≤ 6 semaines au total (décroissance incluse) | Cures courtes ; éviter l'exposition prolongée | Prednisone 2–3 semaines puis arrêt rapide (habituellement en 3 semaines selon la HAS 2024) ; corticothérapie prolongée fortement déconseillée |
+| Myélogramme initial | Non nécessaire dans une forme typique | Non nécessaire en cas de thrombopénie isolée avec frottis normal | PNDS 2017 : recommandé après **60 ans**, en cas d'atypie, d'échec ou avant splénectomie ; synthèse 2024 : « n'est plus systématique » `[À VÉRIFIER : PNDS adulte 2024 complet]` |
 | Deuxième ligne de l'adulte | 2019 (recommandations désormais retirées) : AR-TPO ou splénectomie ; AR-TPO plutôt que rituximab ; rituximab plutôt que splénectomie. **2026** : AR-TPO (forte) ou rituximab (conditionnelle), puis inhibiteur de BTK, MMF ou inhibiteur de SYK ; splénectomie ≥ 1 an après le diagnostic [S8] | AR-TPO, rituximab, fostamatinib, splénectomie, selon le patient | AR-TPO et rituximab avant la splénectomie ; splénectomie après 12 mois |
 | Enfant sans saignement significatif | Observation quelle que soit la numération | Observation possible | PNDS enfant 2025 : traitement (corticoïdes 4 j ou IgIV) si plaquettes **≤ 10 G/L** quel que soit le score, ou si score 3a/3b ; abstention au-dessus de 10 G/L sans facteur de risque [S6] |
 | Recherche d'*H. pylori* | Éradication si infection documentée | À considérer chez l'adulte, surtout en région de forte prévalence | Selon le contexte |
