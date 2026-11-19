@@ -1,9 +1,9 @@
 {
   "id": "DOS-07",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "en_cours",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": ["DOS-OBST-0001 (RES-CHI-066)", "DOS-OBST-0002 (RES-CHI-056)", "DOS-GYNE-0001 (RES-CHI-057)", "DOS-GYNE-0002 (RES-CHI-058)"],
+  "taches_suivantes": ["DOS-GYNE-0003 (RES-CHI-062) — passes 2 et 3", "lot QCM DOS-07.json (60 QCM)", "lot cas cliniques DOS-07.json (10 cas)", "validation JSON + journal global"],
+  "objectifs": {"dossiers": 5, "qcm": 60, "cas_cliniques": 10},
+  "compteurs": {"dossiers": 4, "qcm": 48, "cas_cliniques": 0}
 }

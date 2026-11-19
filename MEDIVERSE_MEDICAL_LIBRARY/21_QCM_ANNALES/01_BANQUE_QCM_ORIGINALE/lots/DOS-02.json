@@ -1881,6 +1881,681 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les bactéries responsables de méningites purulentes, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "Nouveau-né — Streptococcus agalactiae, Escherichia coli, Listeria monocytogenes",
+        "B": "Adulte jeune — méningocoque et pneumocoque",
+        "C": "Femme enceinte — Listeria monocytogenes à évoquer",
+        "D": "Sujet de plus de 50 ans — Listeria à couvrir en probabiliste si l'examen direct est négatif et le contexte évocateur",
+        "E": "Enfant correctement vacciné — Haemophilus influenzae b au premier rang"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les germes dépendent de l'âge et du terrain : streptocoque B, E. coli, Listeria chez le nouveau-né ; méningocoque et pneumocoque chez l'enfant et l'adulte ; Listeria chez le sujet âgé, la femme enceinte, l'immunodéprimé. Hib est devenu rare chez l'enfant vacciné.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la vaccination a rendu Hib rare."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Étiologies selon l'âge et le terrain",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient fébrile présente un purpura comportant un élément ecchymotique de 5 mm. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une céphalosporine de 3e génération doit être injectée immédiatement, avant tout transfert.",
+        "B": "Il faut attendre le résultat de la ponction lombaire pour débuter l'antibiothérapie.",
+        "C": "La voie intramusculaire est acceptable si aucun accès veineux n'est disponible.",
+        "D": "L'agent le plus probable est Neisseria meningitidis.",
+        "E": "Une déclaration obligatoire et une chimioprophylaxie des contacts sont à prévoir si le méningocoque est confirmé."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Purpura fulminans = urgence absolue : C3G immédiate (IV, ou IM à défaut), transfert médicalisé. Le méningocoque est l'agent le plus fréquent ; la déclaration et la prophylaxie des contacts s'imposent.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : aucun examen ne doit retarder l'antibiothérapie.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Purpura fulminans",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Attendre un examen pour traiter un purpura fulminans.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations françaises (SPILF 2018), quelles situations justifient une imagerie cérébrale avant la ponction lombaire chez un patient suspect de méningite bactérienne ?",
+      "propositions": {
+        "A": "Signes de localisation neurologique",
+        "B": "Score de Glasgow ≤ 11",
+        "C": "Crises convulsives récentes ou persistantes",
+        "D": "Fièvre à 40 °C avec raideur de nuque isolée",
+        "E": "Âge supérieur à 60 ans sans autre signe"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La SPILF restreint l'imagerie préalable aux signes focaux, aux troubles de vigilance profonds (Glasgow ≤ 11) et aux convulsions. Dans ces cas, antibiotique et dexaméthasone sont administrés AVANT l'imagerie. Les listes de l'ESCMID et de l'IDSA diffèrent (à vérifier).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : c'est le tableau typique, qui impose une PL immédiate.",
+        "E": "Faux : l'âge seul n'est pas une indication."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Imagerie avant ponction lombaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retarder l'antibiothérapie pour obtenir un scanner.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        },
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "Tunkel AR et al. IDSA bacterial meningitis guidelines. Clin Infect Dis 2004;39:1267-84 [référence à vérifier]",
+          "date": "2004"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0004",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel profil de LCR est le plus évocateur d'une méningite bactérienne ?",
+      "propositions": {
+        "A": "LCR clair, 40 lymphocytes/mm3, protéinorachie 0,6 g/L, glycorachie/glycémie 0,65",
+        "B": "LCR trouble, 2 500 éléments/mm3 à 90 % de PNN, protéinorachie 2 g/L, glycorachie/glycémie 0,2",
+        "C": "LCR clair, 300 lymphocytes/mm3, protéinorachie 2,5 g/L, glycorachie/glycémie 0,3",
+        "D": "LCR hémorragique uniformément sur les 3 tubes, xanthochromie",
+        "E": "LCR normal"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "LCR bactérien : trouble, PNN, protéines > 1 g/L, rapport glycorachie/glycémie ≤ 0,4, lactates élevés. Le profil C (lymphocytaire hypoglycorachique) évoque une tuberculose, une listériose, une brucellose ou une cryptococcose.",
+      "explications_par_proposition": {
+        "A": "Faux : profil viral.",
+        "B": "Vrai.",
+        "C": "Faux : méningite lymphocytaire hypoglycorachique (tuberculose, brucellose, Listeria…).",
+        "D": "Faux : hémorragie méningée.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Interprétation du LCR",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Classer en « virale » toute méningite lymphocytaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 45 ans sans antécédent présente une méningite purulente ; l'examen direct du LCR est négatif ; aucun argument pour une listériose. Quelles propositions sont exactes selon les recommandations françaises ?",
+      "propositions": {
+        "A": "Une C3G à forte dose (céfotaxime ou ceftriaxone) est indiquée.",
+        "B": "La dexaméthasone est débutée avant ou avec la première injection d'antibiotique.",
+        "C": "L'ajout systématique de vancomycine est recommandé en France.",
+        "D": "L'amoxicilline serait ajoutée en cas d'arguments pour Listeria (terrain, rhombencéphalite).",
+        "E": "L'antibiothérapie est adaptée au résultat de la culture et de l'antibiogramme."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Probabiliste : C3G forte dose + dexaméthasone ; amoxicilline si Listeria possible. En France, pas de vancomycine systématique (pneumocoques résistants aux C3G rares) ; ESCMID et IDSA l'ajoutent dans les zones de résistance. En Algérie, décision selon les données locales.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux en France (position différente de l'ESCMID/IDSA dans les zones de résistance).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Antibiothérapie probabiliste",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        },
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la dexaméthasone au cours des méningites bactériennes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez l'adulte, la posologie usuelle est de 10 mg IV toutes les 6 heures pendant 4 jours.",
+        "B": "Elle doit être administrée juste avant ou en même temps que la première dose d'antibiotique.",
+        "C": "L'essai de de Gans et van de Beek a montré un bénéfice, surtout dans la méningite à pneumocoque.",
+        "D": "Elle doit être poursuivie même si le diagnostic de méningite bactérienne est écarté.",
+        "E": "Chez l'enfant, la posologie est de 0,15 mg/kg toutes les 6 heures."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La dexaméthasone atténue la réponse inflammatoire à la lyse bactérienne ; elle est d'autant plus utile qu'elle précède l'antibiotique. Elle est arrêtée si le diagnostic est écarté.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : arrêt si méningite bactérienne écartée.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Dexaméthasone",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Administrer la dexaméthasone plusieurs heures après l'antibiotique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "de Gans J, van de Beek D. Dexamethasone in adults with bacterial meningitis. N Engl J Med 2002;347:1549-56 [référence à vérifier]",
+          "date": "2002"
+        },
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la listériose neuroméningée, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Listeria monocytogenes est naturellement résistante aux céphalosporines.",
+        "B": "Le traitement repose sur l'amoxicilline à forte dose, associée à la gentamicine les premiers jours.",
+        "C": "Une rhombencéphalite avec paralysie de nerfs crâniens est évocatrice.",
+        "D": "Le LCR est souvent panaché.",
+        "E": "La durée habituelle du traitement est de 4 à 7 jours."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Listeria : bacille à Gram positif intracellulaire, terrain à risque, rhombencéphalite, LCR panaché, C3G inactives ; amoxicilline (± gentamicine) pendant au moins 21 jours.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : au moins 21 jours."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Listériose neuroméningée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter une suspicion de listériose par C3G seule.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prophylaxie autour d'un cas d'infection invasive à méningocoque, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La rifampicine est prescrite à 600 mg deux fois par jour pendant 2 jours chez l'adulte.",
+        "B": "La ciprofloxacine en dose unique est une alternative.",
+        "C": "Tous les soignants ayant pris en charge le patient doivent recevoir une prophylaxie.",
+        "D": "Les contacts d'une méningite à pneumocoque doivent recevoir la même prophylaxie.",
+        "E": "Une vaccination des contacts est proposée si le sérogroupe est couvert par un vaccin."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Prophylaxie des contacts proches dans les 10 jours précédents (rifampicine 2 jours, ciprofloxacine ou ceftriaxone dose unique), vaccination selon le sérogroupe. Soignants : seulement en cas d'exposition non protégée aux sécrétions. Pas de prophylaxie autour d'un pneumocoque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : seulement en cas d'exposition directe sans protection (bouche-à-bouche, intubation).",
+        "D": "Faux : aucune prophylaxie des contacts pour le pneumocoque.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Chimioprophylaxie autour d'un cas de méningococcie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prophylaxie autour d'une méningite à pneumocoque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels facteurs favorisent une méningite à pneumocoque ?",
+      "propositions": {
+        "A": "Brèche ostéoméningée après traumatisme crânien",
+        "B": "Asplénie",
+        "C": "Éthylisme chronique",
+        "D": "Implant cochléaire",
+        "E": "Déficit en fractions terminales du complément (C5–C9) comme facteur principal"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pneumocoque : brèche, infection ORL, asplénie, alcoolisme, implant cochléaire, immunodépression. Le déficit en complément terminal favorise surtout les infections à Neisseria (méningocoque).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : il favorise surtout les méningococcies récidivantes."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Méningite à pneumocoque — terrain et récidive",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les complications et le suivi des méningites bactériennes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La surdité de perception est une séquelle fréquente après méningite à pneumocoque.",
+        "B": "Une audiométrie précoce est indiquée, car l'ossification cochléaire peut compromettre un implant.",
+        "C": "Une hyponatrémie par sécrétion inappropriée d'ADH peut compliquer l'évolution.",
+        "D": "Une ponction lombaire de contrôle est systématique à 48 heures dans tous les cas.",
+        "E": "Une méningite à pneumocoque récidivante doit faire rechercher une brèche ostéoméningée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Séquelles : surdité, troubles cognitifs, épilepsie ; dépistage audiométrique précoce. La PL de contrôle n'est pas systématique (évolution défavorable, pneumocoque de sensibilité diminuée).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : non systématique.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Complications et suivi",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant une méningite à liquide clair, lymphocytaire, avec hyperprotéinorachie et hypoglycorachie, quels diagnostics faut-il évoquer en priorité en Algérie ?",
+      "propositions": {
+        "A": "Méningite tuberculeuse",
+        "B": "Neurobrucellose",
+        "C": "Listériose neuroméningée",
+        "D": "Méningite à entérovirus typique",
+        "E": "Cryptococcose neuroméningée chez un immunodéprimé"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le profil lymphocytaire hypoglycorachique évoque tuberculose, listériose, brucellose (zoonose endémique en Algérie) et cryptococcose. Les méningites virales ont une glycorachie normale.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : glycorachie normale.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Diagnostics différentiels en contexte algérien",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Conclure à une méningite virale sur la seule formule lymphocytaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la présentation clinique des méningites bactériennes de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La triade fièvre–raideur de nuque–troubles de conscience est présente chez moins de la moitié des patients dans une grande cohorte.",
+        "B": "L'absence de raideur de nuque élimine le diagnostic.",
+        "C": "Au moins deux des quatre signes (céphalées, fièvre, raideur de nuque, troubles de conscience) sont présents chez la quasi-totalité des patients.",
+        "D": "Chez le nourrisson, une hypotonie et un bombement de la fontanelle sont évocateurs.",
+        "E": "Les signes de Kernig et de Brudzinski sont très sensibles."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La cohorte néerlandaise de van de Beek (2004) montre la faible sensibilité de la triade (chiffres à vérifier). Kernig et Brudzinski sont spécifiques mais peu sensibles. Chez le nourrisson, les signes sont trompeurs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : peu sensibles."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Clinique — sensibilité des signes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer une méningite sur l'absence de raideur de nuque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. Clinical features and prognostic factors in adults with bacterial meningitis. N Engl J Med 2004;351:1849-59 [référence à vérifier]",
+          "date": "2004"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles durées d'antibiothérapie correspondent aux repères habituels des recommandations françaises et européennes ?",
+      "propositions": {
+        "A": "Méningocoque : 4 à 7 jours",
+        "B": "Pneumocoque : 10 à 14 jours",
+        "C": "Listeria : au moins 21 jours",
+        "D": "Haemophilus influenzae b : 21 jours",
+        "E": "Entérobactéries : au moins 21 jours"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Repères : méningocoque 4–7 jours (France) ou 7 jours (ESCMID) ; pneumocoque 10–14 jours ; Hib 7 jours (France) ou 7–10 jours ; Listeria ≥ 21 jours ; streptocoque B 14–21 jours ; entérobactéries ≥ 21 jours (à vérifier dans les textes).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : 7 à 10 jours.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "theme": "Durées de traitement selon le germe",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }

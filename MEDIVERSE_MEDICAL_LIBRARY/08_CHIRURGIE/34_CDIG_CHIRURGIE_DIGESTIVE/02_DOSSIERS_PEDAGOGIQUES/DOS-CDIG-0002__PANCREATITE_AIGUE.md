@@ -431,6 +431,19 @@ Après un premier bilan négatif (anamnèse, échographie, triglycérides, calc�
 
 ---
 
+### 10.4 Pancréatite aiguë récidivante et passage à la chronicité
+
+On parle de **pancréatite aiguë récidivante** après au moins deux épisodes distincts séparés par une guérison clinique. Les causes à rechercher sont les mêmes que pour un premier épisode, avec une attention particulière pour : la **lithiase méconnue** (microlithiase, sludge — d'où l'échoendoscopie), l'**alcool** et le **tabac** (cofacteur indépendant), l'**hypertriglycéridémie** mal contrôlée, les **anomalies canalaires** (pancreas divisum, sténose papillaire), les **tumeurs intracanalaires** (TIPMP) et les **prédispositions génétiques**. La répétition des épisodes, surtout d'origine alcoolique ou génétique, peut conduire à une **pancréatite chronique** (fibrose, calcifications, douleurs chroniques, insuffisances exocrine et endocrine). La prise en charge repose sur le traitement de la cause, le sevrage alcoolo-tabagique et une évaluation en centre spécialisé en cas de récidives inexpliquées.
+
+### 10.5 Pancréatite aiguë chez le patient de réanimation : points pratiques
+
+- **Monitorage** : pression artérielle invasive, diurèse horaire, lactates, gaz du sang, mesure de la **pression intra-abdominale** par voie vésicale (hypertension intra-abdominale > 12 mmHg ; syndrome du compartiment abdominal > 20 mmHg avec nouvelle défaillance d'organe) [S2].
+- **Ventilation** : l'épanchement pleural, la distension abdominale et le SDRA expliquent l'hypoxémie ; une ventilation protectrice est appliquée selon les règles générales du SDRA.
+- **Rein** : prévention de l'insuffisance rénale par un remplissage adapté (ni insuffisant ni excessif), éviction des néphrotoxiques ; épuration extrarénale si nécessaire.
+- **Glycémie** : hyperglycémie fréquente (stress, insuffisance endocrine) ; insulinothérapie selon les protocoles.
+- **Thromboprophylaxie** : héparine de bas poids moléculaire selon le risque hémorragique (risque de thrombose splanchnique).
+- **Infection** : surveillance des infections nosocomiales (cathéters, pneumopathies), qui sont plus fréquentes que l'infection de la nécrose dans la première semaine.
+
 ## 11. Diagnostics différentiels
 
 | Diagnostic | Arguments distinctifs | Examen décisif |
@@ -465,7 +478,11 @@ Après un premier bilan négatif (anamnèse, échographie, triglycérides, calc�
 - **Pseudokystes** persistants ;
 - **Récidives** de pancréatite aiguë.
 
-### 12.3 Facteurs pronostiques à retenir
+### 12.3 Syndrome du canal déconnecté
+
+Lorsque la nécrose détruit l'isthme ou le corps de la glande, le **canal de Wirsung** peut être interrompu : la queue du pancréas, restée viable, continue de sécréter dans la cavité nécrotique sans drainage vers le duodénum. Il en résulte des **collections récidivantes**, des **fistules pancréatiques externes** prolongées (après drainage percutané) ou une **ascite pancréatique**. Le diagnostic repose sur la bili-IRM (éventuellement avec sécrétine) ou la pancréatographie ; le traitement privilégie un **drainage endoscopique transmural prolongé** (prothèses laissées en place), la chirurgie (pancréatectomie gauche ou anastomose) étant réservée aux échecs [À VÉRIFIER — recommandations spécifiques].
+
+### 12.4 Facteurs pronostiques à retenir
 
 | Moment | Facteur |
 |---|---|

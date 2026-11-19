@@ -13,33 +13,33 @@ auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
 statut: brouillon_a_auditer
 sources:
   - id: S1
-    reference: "Ministère de la Santé (Algérie). Arrêté du 19 Chaoual 1439 correspondant au 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018. Existence, date et numéro du JO confirmés par recherche web (El Watan 15/09/2018 ; legal-doctrine.com ; INSP bilan 2019) ; texte primaire non consulté en session."
+    reference: "Ministère de la Santé, de la Population et de la Réforme hospitalière (Algérie). Arrêté du 19 Chaoual 1439 correspondant au 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018, p. 29-30. Document acquis DOC-00070 (texte lu)."
     organisme: MSPRH
     annee: 2018
     type: texte_officiel
     doi: ""
-    url: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018049.pdf"
     verifiee: true
   - id: S2
-    reference: "Ministère de la Santé (Algérie). Arrêté du 28 avril 2026 complétant l'arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire (intégration du vaccin anti-papillomavirus pour les élèves de 11 à 13 ans ; VPO dès 2 mois ; vaccin pneumococcique de valence élargie). JORADP n° 36 de 2026 — date de publication discordante selon les sources (28 avril ou 17 mai 2026). Existence confirmée par plusieurs sources secondaires concordantes (Algérie360, legal-doctrine.com, yadoct) ; texte primaire non consulté."
-    organisme: MSPRH
+    reference: "Ministère de la Santé (Algérie). Arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026 complétant l'arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 36 du 17 mai 2026, p. 39-40. Document acquis DOC-00071 (texte lu)."
+    organisme: Ministère de la Santé (Algérie)
     annee: 2026
     type: texte_officiel
     doi: ""
-    url: "https://www.algerie360.com/revision-du-calendrier-vaccinal-au-journal-officiel-ces-vaccins-deviennent-obligatoires-en-algerie/"
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2026/F2026036.pdf"
     verifiee: true
   - id: S3
-    reference: "Ministère de la Santé (Algérie). Arrêté du Aouel Safar 1436 correspondant au 24 novembre 2014 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (abrogeant l'arrêté de 2007). JORADP 2014. Existence confirmée par recherche web (dépôt documentaire OMS, copie numérisée) ; contenu non lu intégralement."
+    reference: "Ministère de la Santé, de la Population et de la Réforme hospitalière (Algérie). Arrêté du Aouel Safar 1436 correspondant au 24 novembre 2014 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles (abroge l'arrêté du 15 juillet 2007). JORADP n° 75 du 28 décembre 2014. REMPLACÉ par l'arrêté du 3 juillet 2018. Document acquis DOC-00076 (texte lu)."
     organisme: MSPRH
     annee: 2014
     type: texte_officiel
     doi: ""
-    url: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2014/F2014075.pdf"
     verifiee: true
   - id: S4
-    reference: "Décret n° 69-88 du 17 juin 1969 rendant obligatoires certaines vaccinations (Algérie), cité comme base juridique des arrêtés de 2014 et 2018 ; et loi n° 18-11 du 2 juillet 2018 relative à la santé. Existence confirmée indirectement par recherche web (visas des arrêtés)."
+    reference: "Décret n° 69-88 du 17 juin 1969, modifié, rendant obligatoires certaines vaccinations (cité dans les visas des arrêtés de 2014, 2018 et 2026) ; et loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46 du 29 juillet 2018 (art. 40, 41 et 80), document acquis DOC-00074 (articles lus)."
     organisme: Gouvernement algérien
-    annee: 1969
+    annee: 2018
     type: texte_officiel
     doi: ""
     url: ""
@@ -156,6 +156,22 @@ sources:
     doi: ""
     url: "https://www.tdmsanteinov.dz/3545-2-tdmsnteinov/"
     verifiee: true
+  - id: S19
+    reference: "Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire. JORADP n° 47 du 11 juillet 2022. Document acquis DOC-00072 (texte lu)."
+    organisme: Gouvernement algérien
+    annee: 2022
+    type: texte_officiel
+    doi: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2022/F2022047.pdf"
+    verifiee: true
+  - id: S20
+    reference: "Algérie360. « Révision du calendrier vaccinal au Journal officiel : ces vaccins deviennent obligatoires en Algérie » (2026) — article de presse sur l'arrêté du 28 avril 2026 (modalités rapportées : HPV pour les élèves de 11 à 13 ans, vaccin pneumococcique de valence élargie)."
+    organisme: Presse
+    annee: 2026
+    type: article
+    doi: ""
+    url: "https://www.algerie360.com/revision-du-calendrier-vaccinal-au-journal-officiel-ces-vaccins-deviennent-obligatoires-en-algerie/"
+    verifiee: true
 mots_cles: [vaccination, immunologie vaccinale, PEV, programme élargi de vaccination, calendrier vaccinal Algérie, hexavalent, BCG, ROR, VPO, VPI, pneumocoque, HPV, contre-indications, MAPI, chaîne du froid]
 ---
 
@@ -163,7 +179,7 @@ mots_cles: [vaccination, immunologie vaccinale, PEV, programme élargi de vaccin
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies et schémas doivent être confrontés au **texte officiel du JORADP**, au RCP des vaccins et aux instructions du MSPRH avant toute application.
-> **Avertissement de vérification (19/11/2026)** : les textes réglementaires algériens ont été **identifiés** par recherche web (dates, numéros de JO, contenu rapporté par la presse, l'INSP et le CNPM), mais **les PDF du JORADP n'ont pas pu être ouverts** dans cette session. Le calendrier présenté au §13.4 est une **synthèse reconstituée** à partir de ces sources secondaires concordantes ; les points discordants sont signalés. Les références internationales (OMS, CDC, Plotkin) n'ont pas pu être vérifiées (budget de recherche épuisé) : `verifiee: false`.
+> **Avertissement de vérification (19/11/2026, mise à jour)** : le calendrier vaccinal algérien présenté au §13.4 est désormais établi à partir des **textes officiels du JORADP acquis et lus** (DOC-00070 : arrêté du 3 juillet 2018 ; DOC-00071 : arrêté du 28 avril 2026 ; DOC-00076 : arrêté du 24 novembre 2014, remplacé ; DOC-00074 : loi n° 18-11 ; DOC-00072 : décret exécutif n° 22-250). Les informations de mise en œuvre (date d'application, forme hexavalente) proviennent de sources institutionnelles et de presse identifiées par recherche web. Les références internationales (OMS, CDC, Plotkin) n'ont pas pu être vérifiées (budget de recherche épuisé) : `verifiee: false`.
 
 **Items du programme couverts** : RES-MED-070 — « Vaccinations : Bases immunologiques - contre indications - programme élargi des vaccinations ».
 
@@ -209,20 +225,20 @@ mots_cles: [vaccination, immunologie vaccinale, PEV, programme élargi de vaccin
 | 2006 | Premiers vaccins contre les papillomavirus humains |
 | 2020 | Vaccins à ARNm (COVID-19) |
 
-### 2.2 Repères algériens (chronologie reconstituée, à confronter aux textes officiels)
+### 2.2 Repères algériens (textes officiels lus et sources de mise en œuvre)
 
 | Date | Événement | Source |
 |---|---|---|
 | **17 juin 1969** | Décret n° 69-88 rendant obligatoires certaines vaccinations — fondement juridique du calendrier | [S4] |
 | Années 2000 | Introduction de la vaccination contre l'**hépatite B** (schéma à 4 doses : naissance, 2, 4, 12 mois selon le CNPM ; une autre source de cours cite 2005) | [S9] **[date À VÉRIFIER]** |
-| 2007 | Arrêté fixant le calendrier vaccinal (abrogé en 2014) | [S3] |
-| **24 novembre 2014** | Arrêté fixant le calendrier de vaccination obligatoire : introduction de vaccins contre la **rubéole, les oreillons** (ROR), le **pneumocoque** et de la **poliomyélite inactivée (VPI)** | [S3] |
+| 15 juillet 2007 | Arrêté fixant le calendrier vaccinal (abrogé par l'arrêté de 2014) | [S3] |
+| **24 novembre 2014** | Arrêté fixant le calendrier de vaccination obligatoire (JORADP n° 75 du 28/12/2014, DOC-00076) : **ROR** à 11 et 18 mois, **pneumocoque** à 2, 4 et 12 mois, **VPI** (dose isolée à 3 mois), en plus de BCG, VPO (6 doses), hépatite B, DTCoq-Hib | [S3] |
 | Avril 2016 | Mise en œuvre effective du **vaccin pneumococcique conjugué 13-valent** (schéma 2+1 : 2, 4, 12 mois) d'après des experts algériens | [S10] |
 | 2015 | Introduction d'un vaccin **pentavalent**, retiré par précaution après deux décès de nourrissons dans une clinique privée de Rouiba (rapporté par la presse) | [S8] **[À VÉRIFIER]** |
-| **3 juillet 2018** | Arrêté fixant le **nouveau calendrier** (JORADP n° 49 du 8 août 2018) : vaccin **hexavalent** (diphtérie, tétanos, coqueluche acellulaire, poliomyélite inactivée, *Haemophilus influenzae* b, hépatite B) à 2, 4 et 12 mois, **réduction du nombre de doses de VPO**, coqueluche **acellulaire** ; mise en œuvre initialement annoncée pour la rentrée 2019 | [S1, S8, S9] |
+| **3 juillet 2018** | Arrêté fixant le **nouveau calendrier** (JORADP n° 49 du 8 août 2018, DOC-00070) : valences diphtérie, tétanos, **coqueluche acellulaire**, Hib, **VPI**, hépatite B et pneumocoque 13 à 2, 4 et 12 mois, **VPO limité à 4 et 12 mois**, DTCa-VPI à 6 ans ; mise en œuvre initialement annoncée pour la rentrée 2019 | [S1, S8, S9] |
 | **15 octobre 2023** | **Entrée en vigueur effective** du nouveau calendrier (hexavalent à 2, 4 et 12 mois) annoncée par la direction de la prévention du MSPRH ; calendrier protégeant contre **11 maladies** | [S7, S11] |
 | 2023–2024 | Vaccination scolaire : **DTCa-VPI** en première année primaire, retrait du VPO en milieu scolaire | [S18] |
-| **28 avril 2026** | Arrêté **complétant** celui de 2018 (JORADP n° 36 de 2026) : vaccin **anti-HPV** obligatoire pour les élèves de 11 à 13 ans, **VPO dès 2 mois**, vaccin pneumococcique de **valence élargie** remplaçant le 13-valent | [S2] **[détails À VÉRIFIER sur le JO]** |
+| **28 avril 2026** | Arrêté **complétant** celui de 2018 (JORADP n° 36 du 17 mai 2026, DOC-00071) : **VPO ajouté à 2 mois**, mention « anti-pneumococcique » sans valence, **vaccin anti-HPV à 11–13 ans** (la presse rapporte une vaccination des élèves et un vaccin pneumococcique de valence élargie [S20]) | [S2, S20] |
 
 ## 3. Épidémiologie
 
@@ -357,7 +373,7 @@ Un **corrélat de protection** est un marqueur immunologique (le plus souvent un
 
 ## 6. Maladies cibles du calendrier de l'enfant (« étiologies » de la vaccination)
 
-Le calendrier algérien en vigueur protège contre **11 maladies** selon la communication ministérielle de 2023 [S7] — tuberculose, diphtérie, tétanos, coqueluche, poliomyélite, infections invasives à *Haemophilus influenzae* b, hépatite B, infections à pneumocoque, rougeole, rubéole, oreillons — auxquelles s'ajoutent, depuis l'arrêté de 2026, les **infections à papillomavirus humains** [S2].
+Le calendrier algérien en vigueur protège contre **11 maladies** selon la communication ministérielle de 2023 [S7] — tuberculose, diphtérie, tétanos, coqueluche, poliomyélite, infections invasives à *Haemophilus influenzae* b, hépatite B, infections à pneumocoque, rougeole, rubéole, oreillons — auxquelles s'ajoutent, depuis l'arrêté du 28 avril 2026, les **infections à papillomavirus humains** [S2].
 
 | Maladie | Agent | Gravité chez l'enfant | Vaccin (type) |
 |---|---|---|---|
@@ -368,7 +384,7 @@ Le calendrier algérien en vigueur protège contre **11 maladies** selon la comm
 | **Coqueluche** | *Bordetella pertussis* | **Formes graves et mortelles du nourrisson < 3 mois** (apnées, coqueluche maligne) | **Acellulaire** (Ca) dans l'hexavalent |
 | **Poliomyélite** | Poliovirus 1, 2, 3 | Paralysies flasques | **VPI** (dans l'hexavalent) + **VPO** |
 | **Infections à Hib** | *Haemophilus influenzae* b | Méningite, épiglottite, arthrite (surtout < 5 ans) | **Conjugué** (dans l'hexavalent) |
-| **Infections à pneumocoque** | *Streptococcus pneumoniae* | Méningite, bactériémie, pneumonie, otite | **Conjugué** (13-valent puis valence élargie [S2, S10]) |
+| **Infections à pneumocoque** | *Streptococcus pneumoniae* | Méningite, bactériémie, pneumonie, otite | **Conjugué** (13-valent dans l'arrêté de 2018 [S1] ; valence non précisée dans l'arrêté de 2026 [S2]) |
 | **Rougeole** | Morbillivirus | Pneumonie, encéphalite, dénutrition, panencéphalite sclérosante subaiguë | **ROR** (vivant atténué) |
 | **Rubéole** | Rubivirus | Bénigne chez l'enfant ; **rubéole congénitale** (malformations) | **ROR** |
 | **Oreillons** | Paramyxovirus | Méningite, orchite, surdité | **ROR** |
@@ -615,41 +631,70 @@ Inscription sur le **carnet de santé** et le registre (vaccin, numéro de lot, 
 
 ### 13.4 Particularités algériennes : le calendrier vaccinal national
 
-#### Cadre réglementaire
+#### Cadre réglementaire (textes officiels lus)
 
-- La vaccination des enfants selon le calendrier est **obligatoire** (décret n° 69-88 du 17 juin 1969 ; loi n° 18-11 du 2 juillet 2018 relative à la santé) et **gratuite** dans les structures publiques [S1, S2, S4].
-- Le calendrier **en vigueur** est fixé par l'**arrêté du 3 juillet 2018** (JORADP n° 49 du **8 août 2018**) [S1], dont la **mise en œuvre effective** n'a débuté que le **15 octobre 2023** (annonce de la direction de la prévention du ministère de la Santé) [S7] — l'application avait été annoncée initialement pour la rentrée 2019 [S9], puis pour le printemps 2023.
-- Cet arrêté a été **complété par l'arrêté du 28 avril 2026** (JORADP n° 36 de 2026 ; date de publication indiquée comme le 28 avril ou le 17 mai 2026 selon les sources) [S2].
+- La vaccination des nouveau-nés et des enfants selon le calendrier est **obligatoire** (décret n° 69-88 du 17 juin 1969, modifié, rendant obligatoires certaines vaccinations [S4]) et **gratuite** : la loi n° 18-11 du 2 juillet 2018 relative à la santé (JORADP n° 46 du 29 juillet 2018, DOC-00074) charge les services de santé habilités d'assurer gratuitement les vaccinations obligatoires (art. 40), renvoie le calendrier à la voie réglementaire, prévoit des campagnes en cas de risque épidémique (art. 41) et dispose que les nouveau-nés, dès leur naissance, et les enfants bénéficient gratuitement de ces vaccinations (art. 80) [S4].
+- Le calendrier **en vigueur** est fixé par l'**arrêté du 19 Chaoual 1439 correspondant au 3 juillet 2018** (JORADP n° 49 du **8 août 2018**, DOC-00070) [S1], qui abroge l'arrêté du 24 novembre 2014.
+- Il a été **complété** par l'**arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026** (JORADP n° 36 du **17 mai 2026**, DOC-00071) [S2]. Les visas de cet arrêté mentionnent l'arrêté de 2018 « modifié » : une modification intermédiaire (entre 2018 et 2026) n'a pas été identifiée dans cette session **[À VÉRIFIER — ACQ-01]**.
+- **Mise en œuvre** : bien que publié en 2018 (application annoncée pour la rentrée 2019 [S9]), le calendrier de 2018 n'est entré **effectivement** en application que le **15 octobre 2023**, sous la forme d'un **vaccin combiné hexavalent** administré à 2, 4 et 12 mois (communication de la direction de la prévention du ministère [S7]).
 
-#### Calendrier en vigueur — synthèse reconstituée (à confronter au texte du JORADP)
+#### Calendrier en vigueur — arrêté du 3 juillet 2018 complété par l'arrêté du 28 avril 2026 (tableau reformulé)
 
-| Âge | Vaccins | Niveau de concordance des sources |
-|---|---|---|
-| **Naissance** | **BCG** + **hépatite B (HVB)** ± **VPO** (« dose zéro ») | BCG + HVB : concordant [S5, S6] ; VPO à la naissance : indiqué dans le guide pratique 2023 [S5], **non retrouvé** dans les descriptions de l'arrêté de 2018 (réduction du VPO à 2 doses) [S9] → **À VÉRIFIER** |
-| **2 mois** | **Hexavalent** (DTCa-VPI-Hib-HVB) + **pneumocoque conjugué** (+ **VPO** depuis l'arrêté de 2026) | Hexavalent + pneumocoque : concordant [S7, S8, S10] ; VPO à 2 mois : ajout rapporté pour 2026 [S2] |
-| **4 mois** | **Hexavalent** + **pneumocoque conjugué** + **VPO** | Concordant [S7, S9, S10] |
-| **11 mois** | **ROR** (1ʳᵉ dose) | Concordant [S6] |
-| **12 mois** | **Hexavalent** (rappel) + **pneumocoque conjugué** (rappel) + **VPO** | Concordant [S7, S9, S10] |
-| **18 mois** | **ROR** (2ᵉ dose) | Concordant [S6] |
-| **6 ans** (1ʳᵉ année primaire) | **DTCa-VPI** (rappel) | Concordant [S6, S18] |
-| **11–13 ans** | **dT** (diphtérie-tétanos, formulation « adulte ») + **HPV** (élèves, depuis l'arrêté de 2026) | dT : [S6] ; HPV : [S2] (calendrier de mise en œuvre — rentrée 2026-2027 selon certaines sources — **À VÉRIFIER**) |
-| **16–18 ans** | **dT** (rappel) | Sources secondaires **[À VÉRIFIER]** |
-| **Adulte : tous les 10 ans** | **dT** (rappel) | Hérité des calendriers antérieurs **[À VÉRIFIER]** |
+| Âge | Vaccins (valences fixées par l'arrêté) | Forme pratique | Modification de 2026 |
+|---|---|---|---|
+| **Naissance** | **BCG** ; **hépatite B** | 2 injections (BCG intradermique, VHB intramusculaire) | — |
+| **2 mois** | Diphtérie, tétanos, **coqueluche acellulaire**, *Haemophilus influenzae* b, **poliomyélite injectable**, hépatite B ; **pneumocoque** | Hexavalent (DTCa-VPI-Hib-VHB) + vaccin pneumococcique conjugué | **Ajout du VPO** ; mention « anti-pneumococcique » sans valence (« 13 » en 2018) |
+| **4 mois** | Mêmes valences + **poliomyélite orale** | Hexavalent + pneumococcique + VPO | Mention « anti-pneumococcique » sans valence |
+| **11 mois** | **Rougeole, oreillons, rubéole** | ROR (1ʳᵉ dose) | — |
+| **12 mois** | Mêmes valences qu'à 4 mois (rappel) | Hexavalent + pneumococcique + VPO | Mention « anti-pneumococcique » sans valence |
+| **18 mois** | **Rougeole, oreillons, rubéole** | ROR (2ᵉ dose) | — |
+| **6 ans** | Diphtérie, tétanos, coqueluche acellulaire (formulation **pédiatrique**) ; **poliomyélite injectable** | DTCa-VPI | — |
+| **11–13 ans** | Diphtérie, tétanos (formulation **adulte**, dT) | dT | **Ajout du vaccin anti-papillomavirus humain (HPV)** |
+| **16–18 ans** | Diphtérie, tétanos (adulte) | dT | — |
+| **Tous les 10 ans à partir de 18 ans** | Diphtérie, tétanos (adulte) | dT | — |
 
-**Comptage des doses** (d'après cette synthèse) : hépatite B = **4 doses** (naissance + 3 hexavalents) ; poliomyélite = **3 doses de VPI** dans l'hexavalent + **VPI à 6 ans** + doses de **VPO** ; Hib = 3 doses ; coqueluche acellulaire = 4 doses (2, 4, 12 mois, 6 ans) ; pneumocoque = schéma **2+1** (2, 4, 12 mois) [S10] ; rougeole-rubéole-oreillons = 2 doses (11 et 18 mois).
+*Sources : DOC-00070 [S1] et DOC-00071 [S2] (tableau reformulé, non reproduit mot à mot). Le texte de l'arrêté énumère des **valences** et non des spécialités : l'utilisation d'un vaccin **hexavalent** relève de la mise en œuvre [S7].*
 
-#### Le calendrier antérieur (appliqué jusqu'en octobre 2023) — pour comprendre les carnets anciens
+**Lecture et comptage des doses (calendrier 2018 complété en 2026)** :
 
-D'après le tableau comparatif de l'INSP [S6] et les sources de cours, le calendrier précédent (arrêté du 24 novembre 2014 [S3]) comportait schématiquement : BCG + VPO + HVB à la naissance ; vaccin **pentavalent** (DTCoq-Hib-HVB, coqueluche **à germes entiers**) + VPO + pneumocoque à 2 et 4 mois ; une dose de **VPI à 3 mois** ; ROR à 11 et 18 mois ; pentavalent + VPO + pneumocoque à 12 mois ; DTCoq + VPO à 6 ans ; dT + VPO à 11–13 ans ; dT à 16–18 ans et tous les 10 ans à l'âge adulte — soit **6 doses de VPO** **[reconstitution À VÉRIFIER sur le JORADP 2014]**.
+- **Hépatite B** : **4 doses** (naissance, 2, 4 et 12 mois).
+- **Poliomyélite** : **VPI** à 2, 4, 12 mois et 6 ans (4 doses) ; **VPO** à 4 et 12 mois dans le texte de 2018, **à 2, 4 et 12 mois** depuis l'arrêté de 2026 ; **pas de VPO à la naissance** dans les arrêtés de 2018 et 2026 (le guide pratique de mise en œuvre de 2023 [S5] mentionne une dose de VPO à la naissance d'après les extraits consultés : discordance à éclaircir avec les instructions ministérielles **[À VÉRIFIER]**).
+- **Coqueluche acellulaire** : 4 doses (2, 4, 12 mois, 6 ans) ; **Hib** : 3 doses (2, 4, 12 mois).
+- **Pneumocoque conjugué** : schéma **2 + 1** (2, 4, 12 mois) ; vaccin **13-valent** dans l'arrêté de 2018 ; l'arrêté de 2026 ne précise plus la valence (le remplacement par un vaccin de valence plus élevée est rapporté par la presse [S20] **[spécialité utilisée À VÉRIFIER]**).
+- **ROR** : 2 doses (11 et 18 mois).
+- **dT** : 11–13 ans, 16–18 ans, puis tous les 10 ans à partir de 18 ans.
+- **HPV** : à **11–13 ans** ; l'arrêté ne précise ni le sexe, ni le nombre de doses, ni les modalités (milieu scolaire) — ces modalités relèvent des instructions de mise en œuvre **[À VÉRIFIER — instructions MSPRH]**.
+- **Ne figurent pas** au calendrier obligatoire de l'enfant (arrêtés 2018 et 2026) : rotavirus, méningocoques, varicelle, hépatite A, grippe.
 
-**Principales modifications de 2018 (appliquées en 2023)** [S1, S7, S8, S9] :
+#### Le calendrier antérieur — arrêté du 24 novembre 2014 (JORADP n° 75 du 28 décembre 2014, DOC-00076, remplacé)
 
-1. remplacement du pentavalent et du VPI isolé par un **vaccin hexavalent** → **suppression du rendez-vous de 3 mois** et réduction du nombre d'injections (une seule injection combinée à 2, 4 et 12 mois au lieu de plusieurs) ;
-2. passage à la **coqueluche acellulaire** (moins réactogène) ;
-3. **réduction du nombre de doses de VPO** (de 6 à 2 selon le CNPM [S9]) ;
-4. rappel de 6 ans par **DTCa-VPI** et retrait du VPO en milieu scolaire [S18].
+Pour interpréter les **carnets anciens** (enfants nés avant octobre 2023, date de la mise en œuvre effective du calendrier de 2018) [S3] :
 
-**Modifications de 2026** [S2] : intégration du **vaccin anti-HPV** (élèves de 11 à 13 ans), **VPO à partir de 2 mois**, remplacement du pneumocoque 13-valent par un vaccin de **valence élargie** — modalités exactes (produit, nombre de doses HPV, sexes concernés, calendrier de déploiement) **[À VÉRIFIER sur le texte officiel et les instructions du MSPRH]**.
+| Âge | Vaccins (arrêté de 2014) |
+|---|---|
+| Naissance | BCG, **VPO**, hépatite B |
+| 2 mois | Diphtérie-tétanos-coqueluche (**à germes entiers**, sans mention « acellulaire »), Hib, hépatite B (forme combinée **pentavalente**), VPO, pneumocoque |
+| **3 mois** | **VPI** (dose isolée) |
+| 4 mois | Comme à 2 mois |
+| 11 mois | ROR |
+| 12 mois | Comme à 2 mois (rappel) |
+| 18 mois | ROR |
+| 6 ans | Diphtérie-tétanos-coqueluche, VPO |
+| 11–13 ans | dT, VPO |
+| 16–18 ans | dT |
+| Tous les 10 ans à partir de 18 ans | dT |
+
+*(Tableau reformulé d'après DOC-00076 ; l'arrêté de 2014 abrogeait lui-même un arrêté du 15 juillet 2007.)* Le calendrier de 2014 comportait donc **6 doses de VPO** et un rendez-vous à 3 mois.
+
+**Principales modifications de 2018 (appliquées en octobre 2023)** [S1, S3, S7] :
+
+1. **coqueluche acellulaire** à la place de la coqueluche à germes entiers ;
+2. **VPI à 2, 4 et 12 mois** (associé dans l'hexavalent) au lieu d'une dose isolée à 3 mois → **suppression du rendez-vous de 3 mois** ;
+3. **VPO réduit à 2 doses** (4 et 12 mois) au lieu de 6 (suppression des doses de la naissance, de 2 mois, de 6 ans et de 11–13 ans) ;
+4. rappel de 6 ans par **DTCa-VPI** (au lieu de DTCoq + VPO) ;
+5. **VPO supprimé** à 11–13 ans (seul le dT est maintenu).
+
+**Modifications de 2026** [S2] : **VPO ajouté à 2 mois** (soit 3 doses : 2, 4, 12 mois), valence du **pneumocoque** non précisée (au lieu de « 13 »), **vaccin anti-HPV à 11–13 ans**.
 
 #### Vaccinations hors calendrier de l'enfant (repères)
 
@@ -667,9 +712,10 @@ D'après le tableau comparatif de l'INSP [S6] et les sources de cours, le calend
 
 ### 14.2 Surveillance épidémiologique des maladies cibles
 
-- **Paralysies flasques aiguës (PFA)** chez l'enfant de moins de 15 ans : toute PFA doit être notifiée et investiguée (2 prélèvements de selles à 24–48 h d'intervalle dans les 14 jours) — indicateur clé de l'éradication de la poliomyélite.
+- La liste des **maladies transmissibles à déclaration obligatoire** est fixée par le **décret exécutif n° 22-250 du 30 juin 2022** (JORADP n° 47 du 11 juillet 2022, DOC-00072) [S19]. Parmi les maladies cibles de la vaccination de l'enfant, figurent en **catégorie 1** (surveillance nationale) : **coqueluche**, **diphtérie**, **hépatite virale B**, **méningite à *Haemophilus influenzae* b**, **méningite à pneumocoque**, **paralysie flasque aiguë (PFA)**, **rougeole**, **rubéole**, **tétanos néonatal** et **tétanos non néonatal**, **tuberculose** pulmonaire et extrapulmonaire ; la **poliomyélite** figure en **catégorie 2** (surveillance internationale) [S19].
+- **Paralysies flasques aiguës (PFA)** chez l'enfant de moins de 15 ans : toute PFA doit être notifiée et investiguée (classiquement 2 prélèvements de selles à 24–48 h d'intervalle dans les 14 jours suivant le début de la paralysie) — indicateur clé de l'éradication de la poliomyélite **[modalités nationales À VÉRIFIER]**.
 - **Rougeole et rubéole** : notification de tout cas suspect (fièvre + éruption maculopapuleuse ± toux, coryza, conjonctivite), confirmation sérologique (IgM).
-- Diphtérie, tétanos néonatal, coqueluche, méningites : maladies à déclaration obligatoire **[liste nationale À VÉRIFIER]**.
+- Les modalités de déclaration sont fixées par arrêté du ministre chargé de la santé (art. 3 du décret) **[arrêté d'application À VÉRIFIER]**.
 
 ### 14.3 Surveillance de l'enfant vacciné
 
@@ -751,8 +797,8 @@ Fièvre possible dans les 48 heures (hexavalent) et entre J5 et J12 (ROR) ; anti
 3. Les **anticorps maternels** neutralisent les vaccins vivants précoces : ROR à **11 mois** en Algérie.
 4. Contre-indications vraies : **anaphylaxie** à une dose ou un composant (tous vaccins) ; **immunodépression sévère** et **grossesse** (vaccins vivants) ; **encéphalopathie** dans les 7 jours d'une dose (coqueluche).
 5. Fausses contre-indications : maladie bénigne, antibiotiques, prématurité, malnutrition, allaitement, ictère, eczéma, antécédents familiaux, maladie neurologique stable.
-6. Calendrier algérien : **arrêté du 3 juillet 2018** (JORADP n° 49 du 8/08/2018), **appliqué depuis le 15 octobre 2023**, **complété le 28 avril 2026** (HPV, VPO dès 2 mois, pneumocoque de valence élargie).
-7. Schéma de base : **naissance BCG + HVB** ; **hexavalent + pneumocoque à 2, 4 et 12 mois** ; **ROR à 11 et 18 mois** ; **DTCa-VPI à 6 ans** ; **dT à 11–13 ans** (+ HPV) et **16–18 ans**.
+6. Calendrier algérien : **arrêté du 3 juillet 2018** (JORADP n° 49 du 8/08/2018), **appliqué depuis le 15 octobre 2023**, **complété par l'arrêté du 28 avril 2026** (JORADP n° 36 du 17/05/2026) : **VPO ajouté à 2 mois**, **HPV à 11–13 ans**.
+7. Schéma de base : **naissance BCG + VHB** ; **hexavalent + pneumocoque + VPO à 2, 4 et 12 mois** ; **ROR à 11 et 18 mois** ; **DTCa-VPI à 6 ans** ; **dT + HPV à 11–13 ans** ; **dT à 16–18 ans puis tous les 10 ans**.
 8. L'**hexavalent** = diphtérie, tétanos, coqueluche acellulaire, poliomyélite inactivée, Hib, hépatite B.
 9. **VPO** : immunité intestinale (éradication), mais risque de PPAV et de PVDV ; à éviter si l'enfant ou son entourage est immunodéprimé.
 10. Chaîne du froid **+2/+8 °C** ; ne **jamais congeler** les vaccins adsorbés ; pastille de contrôle ; test d'agitation.
@@ -770,7 +816,7 @@ Fièvre possible dans les 48 heures (hexavalent) et entre J5 et J12 (ROR) ; anti
 - Utiliser un vaccin adsorbé **congelé**.
 - Citer l'**allergie à l'œuf** comme contre-indication du ROR.
 - Penser que le tétanos bénéficie de l'**immunité de groupe**.
-- Attribuer au calendrier algérien un vaccin qui n'y figure pas (rotavirus, méningocoque, varicelle ne sont pas mentionnés dans les descriptions consultées) ou ignorer sa date d'entrée en vigueur effective (**15/10/2023**).
+- Attribuer au calendrier algérien un vaccin qui n'y figure pas (**rotavirus, méningocoques, varicelle** sont absents des arrêtés de 2018 et 2026), placer un **VPO à la naissance** (supprimé depuis l'arrêté de 2018) ou ignorer la date d'entrée en vigueur effective (**15/10/2023**).
 - Croire qu'une fièvre ou une éruption à **J7–J10** après le ROR impose d'arrêter le schéma (réaction attendue).
 
 ## 20. QCM d'auto-évaluation
@@ -815,24 +861,24 @@ A. Antihistaminique IV — B. Adrénaline IM 0,15 mg (0,01 mg/kg) — C. Cortico
 |---|---|---|---|
 | **BCG** | **Systématique à la naissance** [S1] | Recommandé uniquement aux enfants à risque élevé de tuberculose (obligation suspendue depuis 2007) **[À VÉRIFIER]** | À la naissance dans les pays à forte incidence de tuberculose [S16] |
 | **Primo-vaccination hexavalent** | 2 et 4 mois, rappel à **12 mois** | 2 et 4 mois, rappel à **11 mois** **[À VÉRIFIER]** | 3 doses à partir de 6 semaines (ex. 6-10-14 semaines) + rappels **[À VÉRIFIER]** |
-| **Poliomyélite** | **VPI + VPO** [S1, S2] | **VPI exclusif** | VPO bivalent + au moins une (souvent deux) doses de VPI dans les pays à risque **[À VÉRIFIER]** |
+| **Poliomyélite** | **VPI** (2, 4, 12 mois, 6 ans) **+ VPO** (2, 4, 12 mois depuis 2026) [S1, S2] | **VPI exclusif** | VPO bivalent + au moins une (souvent deux) doses de VPI dans les pays à risque **[À VÉRIFIER]** |
 | **ROR1** | **11 mois** | **12 mois** **[À VÉRIFIER]** | **9 mois** en zone de forte transmission, 12 mois sinon **[À VÉRIFIER]** |
 | **ROR2** | 18 mois | 16–18 mois **[À VÉRIFIER]** | ≥ 4 semaines après la 1ʳᵉ dose, souvent au cours de la 2ᵉ année |
 | **Hépatite B** | Dose de naissance + 3 doses (hexavalent) | Pas de dose de naissance systématique (sauf mère AgHBs+) ; 3 doses d'hexavalent **[À VÉRIFIER]** | Dose de naissance **universelle** dans les 24 h + 2 ou 3 doses |
-| **Pneumocoque** | 2+1 (2, 4, 12 mois), valence élargie depuis 2026 [S2, S10] | 2+1 (2, 4, 11 mois) **[À VÉRIFIER]** | 3+0 ou 2+1 |
-| **HPV** | Élèves de 11–13 ans (arrêté 2026) [S2] | 11–14 ans, filles **et garçons** **[À VÉRIFIER]** | Filles de 9–14 ans en priorité ; schéma à **une ou deux doses** possible (position 2022) **[À VÉRIFIER]** |
-| **Rotavirus** | Non mentionné dans les sources consultées | Recommandé **[À VÉRIFIER]** | Recommandé dans tous les pays **[À VÉRIFIER]** |
-| **Méningocoques** | Non mentionnés dans le calendrier de l'enfant (sources consultées) | Obligatoires chez le nourrisson (B et ACWY) selon les évolutions récentes **[À VÉRIFIER]** | Selon l'épidémiologie (ceinture africaine de la méningite) |
-| **VPO à la naissance (Algérie)** | Guide pratique 2023 : oui [S5] ; descriptions de l'arrêté de 2018 : VPO réduit à 2 doses (4 et 12 mois) [S9] ; arrêté 2026 : VPO dès 2 mois [S2] | — | Dose de naissance de VPO recommandée dans les pays d'endémie ou à haut risque d'importation |
+| **Pneumocoque** | 2+1 (2, 4, 12 mois) ; 13-valent en 2018, valence non précisée en 2026 [S1, S2] | 2+1 (2, 4, 11 mois) **[À VÉRIFIER]** | 3+0 ou 2+1 |
+| **HPV** | 11–13 ans (arrêté 2026 ; sexe et nombre de doses non précisés dans le texte) [S2] | 11–14 ans, filles **et garçons** **[À VÉRIFIER]** | Filles de 9–14 ans en priorité ; schéma à **une ou deux doses** possible (position 2022) **[À VÉRIFIER]** |
+| **Rotavirus** | **Absent** du calendrier obligatoire (arrêtés 2018 et 2026) [S1, S2] | Recommandé **[À VÉRIFIER]** | Recommandé dans tous les pays **[À VÉRIFIER]** |
+| **Méningocoques** | **Absents** du calendrier obligatoire de l'enfant [S1, S2] | Obligatoires chez le nourrisson (B et ACWY) selon les évolutions récentes **[À VÉRIFIER]** | Selon l'épidémiologie (ceinture africaine de la méningite) |
+| **VPO à la naissance (Algérie)** | Arrêté de 2014 : oui [S3] ; arrêtés de 2018 et 2026 : **non** (VPO à 4 et 12 mois, puis 2, 4 et 12 mois) [S1, S2] ; guide pratique 2023 : dose de naissance mentionnée d'après les extraits consultés [S5] **[À VÉRIFIER]** | — | Dose de naissance de VPO recommandée dans les pays d'endémie ou à haut risque d'importation **[À VÉRIFIER]** |
 
 **Lecture critique** : les différences entre calendriers ne sont pas des « erreurs » mais des adaptations à l'**épidémiologie** (tuberculose, VHB, risque d'importation de poliovirus), aux **ressources** et à l'**organisation** des soins. Pour l'examen et la pratique en Algérie, **le calendrier national fixé par arrêté fait foi** ; le texte exact du JORADP doit être consulté.
 
 ## 22. Références
 
-1. [S1] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **vérifiée** (existence, date, n° de JO ; texte primaire non lu).
-2. [S2] Arrêté du 28 avril 2026 complétant l'arrêté du 3 juillet 2018, JORADP n° 36 (2026) — **vérifiée** par sources secondaires concordantes ; date de publication à confirmer.
-3. [S3] Arrêté du 24 novembre 2014 fixant le calendrier de vaccination obligatoire — **vérifiée** (existence).
-4. [S4] Décret n° 69-88 du 17 juin 1969 ; loi n° 18-11 du 2 juillet 2018 relative à la santé — **vérifiée** (cités dans les visas).
+1. [S1] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **DOC-00070, texte lu**.
+2. [S2] Arrêté du 28 avril 2026 complétant l'arrêté du 3 juillet 2018, JORADP n° 36 du 17 mai 2026 — **DOC-00071, texte lu**.
+3. [S3] Arrêté du 24 novembre 2014 fixant le calendrier de vaccination obligatoire, JORADP n° 75 du 28 décembre 2014 (remplacé) — **DOC-00076, texte lu**.
+4. [S4] Décret n° 69-88 du 17 juin 1969, modifié (cité dans les visas) ; loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46 du 29 juillet 2018 — **DOC-00074, articles 40, 41, 80 lus**.
 5. [S5] MSPRH/CNPM. Guide pratique de mise en œuvre du nouveau calendrier national de vaccination, 2ᵉ éd., 2023 — **vérifiée** (existence ; extraits).
 6. [S6] INSP. Programme national de vaccination — bilan annuel 2019 — **vérifiée** (existence ; extraits).
 7. [S7] Radio Algérie/APS, octobre 2023 — entrée en vigueur du nouveau calendrier le 15/10/2023 — **vérifiée**.
@@ -847,3 +893,5 @@ A. Antihistaminique IV — B. Adrénaline IM 0,15 mg (0,01 mg/kg) — C. Cortico
 16. [S16] OMS. BCG vaccines: WHO position paper, février 2018 — non vérifiée en session.
 17. [S17] OMS. Immunization in practice (2015) ; multi-dose vial policy (2014) — non vérifiée en session.
 18. [S18] Tdmsanteinov. Vaccination en milieu scolaire 2023-2024 (DTCa-VPI) — **vérifiée** (existence de l'article).
+19. [S19] Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles à déclaration obligatoire, JORADP n° 47 du 11 juillet 2022 — **DOC-00072, texte lu**.
+20. [S20] Algérie360, article sur la révision 2026 du calendrier vaccinal — **vérifiée** (existence de l'article ; modalités de presse non officielles).

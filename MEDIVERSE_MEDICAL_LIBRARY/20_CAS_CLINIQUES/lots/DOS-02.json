@@ -428,6 +428,143 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-INFE-0001",
+      "titre": "Fièvre, céphalées et purpura chez une étudiante de 19 ans",
+      "niveau": "residanat",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 19 ans, étudiante en résidence universitaire.",
+      "motif_consultation": "Fièvre à 39,8 °C, céphalées violentes, vomissements et photophobie depuis 10 heures.",
+      "antecedents": "Aucun. Pas de traitement en cours. Vaccinations de l'enfance selon le calendrier.",
+      "symptomes": "Céphalées, vomissements, photophobie, confusion légère.",
+      "examen_clinique": "Raideur de nuque ; Glasgow 14 ; pas de signe de localisation ; FC 118/min, PA 108/64 mmHg, TRC 3 s ; purpura pétéchial des membres inférieurs avec un élément ecchymotique de 4 mm.",
+      "biologie": "LCR trouble : 2 800 éléments/mm3 (90 % PNN), protéinorachie 2,1 g/L (N < 0,45), glycorachie 0,9 mmol/L pour une glycémie de 5,8 mmol/L (rapport 0,16 ; N ≥ 0,5), lactates 9 mmol/L ; examen direct : diplocoques à Gram négatif ; PCR N. meningitidis sérogroupe W. Plaquettes 98 000/mm3 (N 150 000–400 000), TP 62 % (N > 70), CRP 180 mg/L, PCT 18 ng/mL (N < 0,5).",
+      "imagerie": "Aucune imagerie nécessaire avant la PL (pas de signe focal, pas de convulsion, Glasgow 14).",
+      "hypotheses_diagnostiques": [
+        "Méningite à méningocoque avec purpura (purpura fulminans débutant)"
+      ],
+      "diagnostics_differentiels": [
+        "Méningite à pneumocoque",
+        "Sepsis à méningocoque sans méningite",
+        "Méningite virale (éliminée par le LCR)"
+      ],
+      "examens_a_demander": [
+        "Hémocultures",
+        "Ponction lombaire",
+        "PCR méningocoque (LCR, sang)",
+        "NFS, hémostase, lactates, fonction rénale"
+      ],
+      "diagnostic_final": "Infection invasive à méningocoque W : méningite purulente avec purpura, sans choc.",
+      "traitement": "C3G immédiate devant le purpura (ceftriaxone IV), poursuivie 4 à 7 jours [POSOLOGIE À VÉRIFIER — SPILF 2018 / ESCMID 2016] ; surveillance en soins intensifs ; isolement gouttelettes 24 h ; déclaration obligatoire ; prophylaxie des contacts proches (rifampicine 600 mg × 2/j pendant 2 jours, ou ciprofloxacine 500 mg dose unique, ou ceftriaxone 250 mg IM) et vaccination ACWY des contacts.",
+      "surveillance": "Hémodynamique, extension du purpura, conscience, hémostase ; audiométrie à 4 semaines.",
+      "evolution": "Apyrexie à J2, sortie à J7, audiogramme normal.",
+      "explication_pedagogique": "Priorité absolue de l'antibiothérapie devant un purpura fébrile ; indications restreintes de l'imagerie ; interprétation d'un LCR purulent ; durée courte pour le méningocoque ; mesures autour du cas.",
+      "questions": [
+        {
+          "question": "Quelle est la première action ?",
+          "reponse": "Injection immédiate d'une C3G devant un purpura avec élément ecchymotique ≥ 3 mm."
+        },
+        {
+          "question": "Scanner avant PL ?",
+          "reponse": "Non : ni signe focal, ni convulsion, ni Glasgow ≤ 11."
+        },
+        {
+          "question": "La patiente a-t-elle besoin d'une prophylaxie à la sortie ?",
+          "reponse": "Non, si elle a été traitée par C3G (éradication du portage)."
+        },
+        {
+          "question": "Quelles mesures pour les contacts ?",
+          "reponse": "Prophylaxie antibiotique précoce et vaccination couvrant le sérogroupe W ; déclaration obligatoire."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        },
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-INFE-0002",
+      "titre": "Confusion fébrile et paralysie faciale chez un homme de 71 ans sous corticoïdes",
+      "niveau": "dems",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 71 ans, retraité, traité par prednisone 20 mg/j pour une pseudopolyarthrite rhizomélique.",
+      "motif_consultation": "Fièvre, céphalées et troubles de l'équilibre depuis 4 jours, confusion depuis 24 heures.",
+      "antecedents": "Diabète de type 2, pseudopolyarthrite rhizomélique sous corticoïdes depuis 6 mois. Consommation régulière de fromages frais artisanaux.",
+      "symptomes": "Fièvre progressive, céphalées, vomissements, instabilité à la marche, troubles de déglutition, confusion.",
+      "examen_clinique": "T 39 °C, Glasgow 13, raideur de nuque modérée, paralysie faciale périphérique droite, nystagmus, ataxie cérébelleuse ; pas de purpura.",
+      "biologie": "LCR légèrement trouble : 450 éléments/mm3 (55 % PNN, 45 % lymphocytes), protéinorachie 1,6 g/L, rapport glycorachie/glycémie 0,42 ; examen direct négatif. Hémocultures : bacille à Gram positif à 24 h. Na 131 mmol/L.",
+      "imagerie": "IRM cérébrale (réalisée après le début du traitement) : hypersignaux FLAIR du tronc cérébral (rhombencéphalite).",
+      "hypotheses_diagnostiques": [
+        "Rhombencéphalite à Listeria monocytogenes",
+        "Méningite tuberculeuse",
+        "Encéphalite virale"
+      ],
+      "diagnostics_differentiels": [
+        "Méningite tuberculeuse",
+        "Encéphalite herpétique",
+        "Neurobrucellose",
+        "AVC du tronc cérébral"
+      ],
+      "examens_a_demander": [
+        "Hémocultures",
+        "Ponction lombaire (cytologie, biochimie, Gram, culture, PCR Listeria)",
+        "IRM cérébrale",
+        "Recherche de BAAR/PCR tuberculose dans le LCR selon le contexte"
+      ],
+      "diagnostic_final": "Listériose neuroméningée avec rhombencéphalite chez un patient immunodéprimé (corticothérapie, diabète, âge).",
+      "traitement": "Amoxicilline IV à forte dose (de l'ordre de 200 mg/kg/j) pendant au moins 21 jours, associée à la gentamicine les premiers jours [POSOLOGIE À VÉRIFIER — SPILF 2018 / ESCMID 2016 / RCP] ; la C3G probabiliste initiale est inactive sur Listeria ; arrêt de la dexaméthasone si elle avait été débutée (position à vérifier) ; maintien de la corticothérapie de fond à dose adaptée (risque d'insuffisance surrénale) ; surveillance des troubles de déglutition.",
+      "surveillance": "Vigilance, déglutition, ventilation, fonction rénale et audition (gentamicine), natrémie.",
+      "evolution": "Amélioration lente sur 10 jours, séquelle de paralysie faciale partielle.",
+      "explication_pedagogique": "La listériose doit être couverte en probabiliste chez le sujet âgé ou immunodéprimé avec examen direct négatif ou rhombencéphalite ; les céphalosporines sont inactives ; la durée est longue.",
+      "questions": [
+        {
+          "question": "Quels arguments pour Listeria ?",
+          "reponse": "Âge, corticothérapie, diabète, aliment à risque, installation progressive, rhombencéphalite, LCR panaché, bacille à Gram positif en hémoculture."
+        },
+        {
+          "question": "Pourquoi la C3G seule est-elle insuffisante ?",
+          "reponse": "Résistance naturelle de Listeria aux céphalosporines."
+        },
+        {
+          "question": "Quelle durée de traitement ?",
+          "reponse": "Au moins 21 jours."
+        },
+        {
+          "question": "Quel piège lié à la corticothérapie de fond ?",
+          "reponse": "Ne pas l'interrompre brutalement (insuffisance surrénale)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "van de Beek D et al. ESCMID guideline acute bacterial meningitis. Clin Microbiol Infect 2016;22 Suppl 3:S37-62 [référence à vérifier]",
+          "date": "2016"
+        },
+        {
+          "reference": "SPILF. Méningites bactériennes aiguës communautaires — actualisation 2018 (Med Mal Infect 2019;49:367-98) [référence à vérifier]",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }

@@ -9,3 +9,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Pneumologie-infectiol
 - 2026-11-19T01:11:20+00:00 — DOS-PNEU-0001 (tuberculose) rédigé et assemblé ; 13 QCM (QCM-PNEU-0001…0013) et 2 cas (CAS-PNEU-0001, 0002) générés.
 - 2026-11-19T01:16:30+00:00 — DOS-PNEU-0002 (pneumonies) rédigé et assemblé ; 12 QCM, 2 cas.
 - 2026-11-19T01:22:07+00:00 — DOS-PNEU-0003 (asthme) rédigé et assemblé ; 12 QCM, 2 cas.
+- 2026-11-19T01:27:37+00:00 — DOS-INFE-0001 (méningites purulentes) rédigé et assemblé ; 13 QCM, 2 cas ; références non vérifiables (budget de recherche épuisé) → verifiee: false.

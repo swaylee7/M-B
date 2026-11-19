@@ -9,3 +9,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Gastro-hépatologie-c
 - 2026-11-19 — DOS-GAST-0001 rédigé (3 passes) ; DOS-HEPA-0001 rédigé (3 passes).
 - 2026-11-19 — DOS-HEPA-0002 rédigé (3 passes, correction QCM 1) ; DOS-CDIG-0001 rédigé (3 passes).
 - 2026-11-19 — DOS-CDIG-0002 rédigé (3 passes).
+- 2026-11-19 — 5 dossiers terminés (mots de corps, hors YAML et ponctuation isolée : GAST-0001 9422 ; HEPA-0001 8245 ; HEPA-0002 7946 ; CDIG-0001 7319 ; CDIG-0002 7245). Début du lot QCM.

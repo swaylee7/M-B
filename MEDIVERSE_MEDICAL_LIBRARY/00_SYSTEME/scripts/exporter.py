@@ -40,6 +40,63 @@ def soffice(fichiers: list[Path], fmt: str) -> None:
                            capture_output=True, text=True, timeout=900)
 
 
+CSS = RACINE / "00_SYSTEME/modeles/style_pdf.css"
+JS_PDF = RACINE / "00_SYSTEME/scripts/html_vers_pdf.js"
+
+
+def pdf_chromium(odts: list[Path]) -> None:
+    """PDF via HTML pandoc + Chromium (tableaux bordés, pagination). Repli LibreOffice si Chromium échoue."""
+    htmls = []
+    for odt in odts:
+        src = odt.with_suffix(".md")
+        html = odt.with_suffix(".html")
+        try:
+            corps, meta = preparer(src)
+            with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as t:
+                t.write(corps); tmp = t.name
+            subprocess.run(["pandoc", tmp, "-f", "markdown+pipe_tables+grid_tables", "-s", "--embed-resources", "--toc", "--toc-depth=2",
+                            "-c", str(CSS), "-o", str(html), "-M", "lang=fr", *meta], check=True, capture_output=True, text=True)
+            Path(tmp).unlink()
+            htmls.append(html)
+        except subprocess.CalledProcessError:
+            pass
+    if htmls:
+        r = subprocess.run(["node", str(JS_PDF), *map(str, htmls)], capture_output=True, text=True, timeout=3600)
+        if r.returncode != 0 or "ECHEC" in r.stderr:
+            print(r.stderr[:500], file=sys.stderr)
+    manquants = [o for o in odts if not o.with_suffix(".pdf").exists() or o.with_suffix(".pdf").stat().st_mtime < o.stat().st_mtime]
+    if manquants:
+        soffice(manquants, "pdf")
+    for h_ in htmls:
+        h_.unlink(missing_ok=True)
+
+
+def preparer(md: Path) -> tuple[str, list[str]]:
+    """Retourne (corps Markdown sans en-tête YAML, avec bandeau de métadonnées ; arguments -M pour pandoc)."""
+    import yaml
+    texte = md.read_text(encoding="utf-8")
+    m = RE_FM.match(texte)
+    fm, corps = {}, texte
+    if m:
+        try:
+            fm = yaml.safe_load(m.group(1)) or {}
+        except Exception:
+            fm = {}
+        corps = texte[m.end():]
+    if not fm:  # livrets générés : titre = premier H1
+        h1 = re.search(r"^#\s+(.+)$", corps, re.M)
+        titre = h1.group(1).strip() if h1 else md.stem
+        corps = corps.replace(h1.group(0), "", 1) if h1 else corps
+        return corps, ["-M", f"title={titre}", "-M", "subtitle=Bibliothèque médicale Mediverse"]
+    titre = str(fm.get("titre") or md.stem)
+    corps = re.sub(r"^\s*#\s+" + re.escape(titre) + r"\s*\n", "", corps, count=1)
+    items = ", ".join(fm.get("items_residanat") or []) or "—"
+    corps = (f"| Identifiant | Statut | Version | Items du résidanat | Révision |\n|---|---|---|---|---|\n"
+             f"| {fm.get('id', '')} | {fm.get('statut', '')} | {fm.get('version', '')} | {items} | {fm.get('date_revision', '')} |\n\n") + corps
+    return corps, ["-M", f"title={titre}", "-M", "subtitle=Bibliothèque médicale Mediverse — dossier pédagogique original",
+                   "-M", f"author={fm.get('auteur', 'Mediverse')}", "-M", f"date={fm.get('date_revision', '')}"]
+
+
 def md_vers_odt(md: Path, odt: Path) -> None:
     import yaml
     texte = md.read_text(encoding="utf-8")
@@ -180,7 +237,7 @@ def main() -> int:
             journaliser("exporteur", "echec_export_odt", cle, {"erreur": (e.stderr or b"")[:300].decode("utf-8", "ignore") if isinstance(e.stderr, bytes) else str(e.stderr)[:300]})
             print(f"ECHEC ODT {cle}", file=sys.stderr)
     if a_pdf and not a.sans_pdf:
-        soffice(a_pdf, "pdf")
+        pdf_chromium(a_pdf)
 
     # 3) tableaux ODS
     tab = []

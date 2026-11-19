@@ -496,6 +496,10 @@ Complications du percutané : **anaphylaxie** (rare mais à anticiper), **fistul
 
 **Complications postopératoires** : **fistule biliaire externe** (la plus fréquente ; tarit le plus souvent spontanément ; si débit élevé ou persistance → **CPRE avec sphinctérotomie** ± prothèse), suppuration de la cavité résiduelle (drainage percutané), hémorragie, abcès sous-phrénique, épanchement pleural, choc anaphylactique peropératoire, récidive.
 
+**Place de la cœlioscopie** : l'abord cœlioscopique est de plus en plus utilisé pour les kystes **périphériques**, **accessibles** (segments antérieurs II, III, IV, V, VI), **non compliqués** et de taille modérée ; il impose les mêmes règles de sécurité hydatique (protection du champ par des compresses imbibées de scolicide, aspiration au trocart à usage unique, extraction des membranes en sac). Ses avantages sont la diminution de la douleur postopératoire, de la durée d'hospitalisation et des complications pariétales. Ses limites sont les kystes **postérieurs** (segments VII et VIII), **centraux**, **multiples**, **calcifiés** ou **compliqués** (rupture biliaire), et le risque théorique de dissémination par le pneumopéritoine. La conversion en laparotomie doit être envisagée sans hésitation [À VÉRIFIER — séries et méta-analyses].
+
+**Cas particulier des kystes multiples et de l'hydatidose multiviscérale** : la stratégie est discutée en réunion multidisciplinaire ; on traite en général d'abord le kyste le plus menaçant (souvent pulmonaire chez l'enfant, ou le kyste hépatique compliqué), sous couverture d'albendazole prolongée. Les localisations associées foie-poumon droit peuvent parfois être traitées dans le même temps par voie transdiaphragmatique dans des équipes entraînées.
+
 #### 13.2.4 Abstention-surveillance (« watch and wait »)
 
 Pour les kystes **inactifs non compliqués** (CE4, CE5) : surveillance échographique prolongée, sans traitement [S1]. Elle évite des gestes inutiles chez des patients porteurs de kystes calcifiés asymptomatiques.

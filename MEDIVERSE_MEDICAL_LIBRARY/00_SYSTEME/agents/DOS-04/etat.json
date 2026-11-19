@@ -2,9 +2,33 @@
   "id": "DOS-04",
   "statut": "en_cours",
   "derniere_execution": "2026-11-19",
-  "taches_terminees": ["lecture_contexte", "verification_references"],
-  "taches_suivantes": ["DOS-GAST-0001", "DOS-HEPA-0001", "DOS-HEPA-0002", "DOS-CDIG-0001", "DOS-CDIG-0002", "lot_QCM", "lot_CAS"],
-  "objectifs": {"dossiers": 5, "qcm": 60, "cas": 10},
-  "compteurs": {"dossiers": 0, "qcm": 0, "cas": 0},
-  "plages_identifiants": {"qcm": "QCM-GAST/HEPA/CDIG-0401..0499", "cas": "CAS-GAST/HEPA/CDIG-0401..0499"}
+  "taches_terminees": [
+    "lecture_contexte",
+    "verification_references",
+    "DOS-GAST-0001",
+    "DOS-HEPA-0001",
+    "DOS-HEPA-0002",
+    "DOS-CDIG-0001",
+    "DOS-CDIG-0002"
+  ],
+  "taches_suivantes": [
+    "lot_QCM",
+    "lot_CAS",
+    "validation_json",
+    "rapport"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas": 10
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 0,
+    "cas": 0
+  },
+  "plages_identifiants": {
+    "qcm": "QCM-GAST/HEPA/CDIG-0401..0499",
+    "cas": "CAS-GAST/HEPA/CDIG-0401..0499"
+  }
 }
