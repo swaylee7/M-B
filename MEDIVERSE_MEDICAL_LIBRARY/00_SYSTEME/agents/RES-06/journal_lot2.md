@@ -7,3 +7,4 @@ Le lot 1 (cardio, pneumo-infectio, gastro, endocrino-néphro) est traité par un
 (`journal.md`, `etat.json`, fiches CARD/PNEU/…) ne sont pas modifiés.
 
 - 2026-11-19 — démarrage du lot 2. Lecture de `00_SYSTEME/CONVENTIONS.md` et de FIC-PNEU-0002 (lot 1) pour harmoniser le format.
+- 2026-11-19 — FIC-PEDI-0001 (déshydratations), FIC-PEDI-0002 (vaccinations/PEV), FIC-PEDI-0003 (malnutrition) créées depuis DOS-PEDI-0001…0003 v1.1 (sources YAML copiées à l'identique du dossier par script).

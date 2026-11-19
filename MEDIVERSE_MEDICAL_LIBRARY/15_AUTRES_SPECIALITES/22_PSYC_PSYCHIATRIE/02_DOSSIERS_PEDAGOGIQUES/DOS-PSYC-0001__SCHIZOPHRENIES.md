@@ -153,14 +153,10 @@ Le trouble appartient au **spectre de la schizophrénie et des autres troubles p
 
 ## 2. Historique (repères)
 
-L'histoire du concept éclaire les classifications actuelles :
-- **Fin du XIXe siècle** : Emil Kraepelin isole la *dementia praecox*, psychose débutant tôt et évoluant vers un affaiblissement, qu'il oppose à la folie maniaco-dépressive, d'évolution périodique.
-- **1911** : Eugen Bleuler forge le terme « schizophrénie » (scission de l'esprit), met l'accent sur la dissociation et décrit des symptômes fondamentaux (troubles des associations, de l'affectivité, ambivalence, autisme) distincts des symptômes accessoires (délires, hallucinations).
-- **Milieu du XXe siècle** : Kurt Schneider propose des **symptômes de premier rang** (écho de la pensée, voix qui commentent ou dialoguent, vécus d'influence, divulgation de la pensée, perception délirante) longtemps utilisés comme critères. La psychiatrie française décrit l'automatisme mental (de Clérambault).
-- **1952** : découverte des propriétés antipsychotiques de la chlorpromazine, qui ouvre l'ère des neuroleptiques ; puis halopéridol, et à partir des années 1970-1990 la clozapine et les antipsychotiques de « deuxième génération ».
-- **2013-2022** : le DSM-5 puis le DSM-5-TR et la CIM-11 suppriment les sous-types classiques (paranoïde, hébéphrénique, catatonique…) au profit de **spécificateurs dimensionnels et évolutifs** [S1, S2].
-
-Ces sous-types restent utiles en pratique et dans la littérature francophone ; ils sont présentés au § 10 comme des **formes cliniques**.
+- **Fin du XIXe siècle** : Kraepelin isole la *dementia praecox*, psychose précoce d'évolution déficitaire, qu'il oppose à la folie maniaco-dépressive.
+- **1911** : Bleuler forge le terme « schizophrénie » et met l'accent sur la dissociation ; plus tard, Schneider propose ses « symptômes de premier rang » et la psychiatrie française décrit l'automatisme mental (de Clérambault).
+- **1952** : la chlorpromazine ouvre l'ère des neuroleptiques ; la clozapine puis les antipsychotiques de deuxième génération suivent.
+- **2013-2022** : DSM-5, DSM-5-TR et CIM-11 suppriment les sous-types classiques au profit de spécificateurs dimensionnels et évolutifs [S1, S2] ; ces sous-types restent présentés au § 10 comme formes cliniques.
 
 ## 3. Épidémiologie
 
@@ -197,7 +193,7 @@ Des anomalies précoces du développement cérébral (migration neuronale, conne
 Elle repose sur deux constats : tous les antipsychotiques efficaces bloquent les récepteurs D2, et les agonistes dopaminergiques indirects (amphétamines, cocaïne) peuvent induire des tableaux psychotiques. La version actuelle situe le trouble au niveau d'une **synthèse et d'une libération présynaptiques excessives de dopamine** dans le striatum associatif, qui conférerait une « saillance aberrante » à des stimuli neutres, base des interprétations et du délire.
 
 ### 5.3 Hypothèse glutamatergique
-Les antagonistes du récepteur NMDA (phencyclidine, kétamine) reproduisent chez le sujet sain des symptômes positifs, négatifs et cognitifs. Une hypofonction NMDA sur les interneurones GABAergiques corticaux pourrait désinhiber les voies glutamatergiques et, secondairement, dérégler la dopamine. L'**encéphalite à anticorps anti-récepteur NMDA**, qui peut débuter par un tableau psychiatrique, illustre ce lien et constitue un diagnostic différentiel à ne pas manquer (§ 11).
+Les antagonistes du récepteur NMDA (phencyclidine, kétamine) reproduisent chez le sujet sain des symptômes positifs, négatifs et cognitifs. Une hypofonction NMDA corticale pourrait dérégler secondairement la dopamine ; l'**encéphalite à anticorps anti-récepteur NMDA**, parfois révélée par un tableau psychiatrique, est un diagnostic différentiel à ne pas manquer (§ 11).
 
 ### 5.4 Génétique
 L'agrégation familiale est forte : le risque augmente avec le degré de parenté, et les études de jumeaux montrent une concordance nettement plus élevée chez les monozygotes que chez les dizygotes, sans atteindre 100 %, ce qui prouve le rôle de l'environnement [S1, S12]. L'héritabilité est polygénique (nombreux variants fréquents de faible effet) avec quelques variants rares de plus fort effet (par exemple certaines microdélétions comme la délétion 22q11.2). Aucun test génétique n'a d'utilité diagnostique en routine.
@@ -276,12 +272,8 @@ Souvent plusieurs mois ou années avant le premier épisode : repli, baisse des 
 ### 8.6 Dimension cognitive
 Troubles de l'attention, de la mémoire de travail, des fonctions exécutives, de la vitesse de traitement et de la **cognition sociale** (théorie de l'esprit, reconnaissance des émotions). Ils sont présents dès le premier épisode, prédisent le pronostic fonctionnel mieux que les symptômes positifs et justifient la remédiation cognitive [S3, S12].
 
-### 8.7 Autres éléments à rechercher systématiquement
-- **Risque suicidaire** (idées, plan, antécédents, désespoir, phase post-psychotique, hallucinations impératives) et **risque hétéro-agressif** (antécédents de violence, délire de persécution avec désignation d'un persécuteur, consommation de substances, refus de soins).
-- **Insight** et adhésion aux soins.
-- **Consommations** (cannabis, alcool, stimulants, tabac).
-- **Comorbidités somatiques** (poids, tension artérielle, diabète, tabagisme, état dentaire).
-- **Retentissement** (scolarité, emploi, logement, famille, situation juridique).
+### 8.7 À rechercher systématiquement
+**Risque suicidaire** (idées, plan, antécédents, phase post-psychotique, hallucinations impératives), **risque hétéro-agressif** (persécuteur désigné, toxiques, antécédents de violence), **insight**, **consommations**, **comorbidités somatiques** et **retentissement** social, familial et juridique.
 
 ## 9. Examens complémentaires et interprétation
 
@@ -306,8 +298,7 @@ Le diagnostic de schizophrénie est **clinique** : aucun examen ne le confirme. 
 | EEG | Épilepsie temporale, encéphalite | Si épisodes paroxystiques, fluctuation de la vigilance |
 | Ponction lombaire, anticorps anti-NMDAR, bilan auto-immun | Encéphalite auto-immune ou infectieuse | Si fièvre, confusion, convulsions, dyskinésies, dysautonomie, aggravation sous antipsychotique |
 
-### 9.2 Évaluations standardisées
-Des échelles aident au suivi : PANSS ou BPRS (symptômes), échelles de dépression adaptées à la schizophrénie, échelles d'effets indésirables (mouvements anormaux, akathisie), évaluation neuropsychologique avant remédiation cognitive, échelles de fonctionnement social. Elles complètent l'examen clinique sans le remplacer.
+Des échelles (PANSS ou BPRS, échelles d'effets indésirables, évaluation neuropsychologique) aident au suivi sans remplacer l'examen clinique.
 
 ## 10. Formes cliniques
 
@@ -329,7 +320,6 @@ Le DSM-5-TR et la CIM-11 ne retiennent plus ces sous-types (§ 7) [S1, S2].
 
 ### 10.3 Formes selon le contexte
 - **Trouble schizoaffectif** : symptômes thymiques majeurs prolongés ; traitement associant antipsychotique et thymorégulateur ou antidépresseur selon la polarité.
-- **Schizophrénie et addictions** : la comorbidité aggrave le pronostic (rechutes, violence, mauvaise observance) ; prise en charge intégrée recommandée [S3].
 - **Schizophrénie résistante** : persistance de symptômes malgré deux antipsychotiques bien conduits (§ 13.3).
 - **Grossesse et post-partum** : risque de rechute à l'arrêt du traitement ; choix concerté ; le guide mhGAP-IG cite l'halopéridol ou la chlorpromazine à faible dose comme options chez la femme enceinte ou allaitante, et déconseille les formes retard dans ce contexte [S7].
 
@@ -361,12 +351,10 @@ L'évolution est hétérogène. Schématiquement :
 4. **Rémission et rétablissement** : la rémission symptomatique (symptômes faibles et stables pendant plusieurs mois) se distingue du **rétablissement** fonctionnel et personnel (vie sociale, emploi, autonomie), objectif actuel des soins.
 
 ### 12.2 Complications
-- **Suicide** : principale cause de mort prématurée évitable chez le sujet jeune ; risque maximal en début d'évolution, après une hospitalisation et dans les phases dépressives post-psychotiques [S1].
-- **Dépression post-psychotique**, à distinguer des symptômes négatifs et de l'akinésie induite.
-- **Addictions** (tabac, cannabis, alcool).
-- **Complications somatiques** : syndrome métabolique, diabète, maladies cardiovasculaires, BPCO liée au tabac, mauvais état dentaire, cancers dépistés tardivement.
-- **Complications iatrogènes** : extrapyramidales, métaboliques, cardiaques (QT), hématologiques (agranulocytose sous clozapine), syndrome malin.
-- **Complications sociales et médico-légales** : désinsertion, précarité, stigmatisation ; les patients sont plus souvent **victimes** de violences qu'auteurs, mais le risque de violence augmente en cas de délire de persécution non traité, de consommation de substances et d'antécédents de violence. L'irresponsabilité pénale relève du code pénal (articles 21 et 22 cités par l'article 158 de la loi 18-11 pour l'internement et le placement judiciaires) [S11].
+- **Suicide** : principale cause de mort prématurée évitable ; risque maximal en début d'évolution, après une hospitalisation et lors des phases dépressives post-psychotiques [S1].
+- **Somatiques** : syndrome métabolique, diabète, maladies cardiovasculaires, pathologies liées au tabac ; **iatrogènes** : extrapyramidales, métaboliques, QT, agranulocytose (clozapine), syndrome malin.
+- **Addictions** (tabac, cannabis, alcool) et **dépression post-psychotique** (à distinguer des symptômes négatifs et de l'akinésie).
+- **Sociales et médico-légales** : désinsertion, stigmatisation ; les patients sont plus souvent **victimes** qu'auteurs de violences, mais le risque augmente avec un délire de persécution non traité, les toxiques et les antécédents de violence. Internement et placement judiciaires : articles 21 et 22 du code pénal, cités par l'article 158 de la loi 18-11 [S11].
 
 ### 12.3 Facteurs pronostiques
 
@@ -440,8 +428,6 @@ Les formes injectables à action prolongée (fluphénazine, halopéridol, palip�
 | **Syndrome malin des neuroleptiques** | Voir § 14.3 | **Urgence** : arrêt de l'antipsychotique, soins intensifs |
 | **Syndrome métabolique** | Prise de poids, diabète, dyslipidémie, hypertension | Surveillance programmée [S10], mesures hygiéno-diététiques, changement de molécule |
 | **Hyperprolactinémie** | Galactorrhée, aménorrhée, gynécomastie, troubles sexuels, ostéoporose à long terme | Dosage si symptômes ; changement de molécule |
-| **Allongement du QT** | Torsades de pointes, mort subite | ECG avant et sous traitement, correction de la kaliémie |
-| **Sédation, hypotension orthostatique** | Chutes, somnolence | Titration progressive |
 | **Agranulocytose** (clozapine, plus rarement phénothiazines) | Fièvre, angine | Hémogramme en urgence, arrêt |
 
 #### 13.2.7 Interventions psychosociales [S3, S4, S6]
@@ -706,13 +692,11 @@ Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS
 - Conclure à la résistance sans avoir vérifié l'**observance**, la dose et la durée.
 - Oublier l'**ECG** avant l'halopéridol injectable ; utiliser la **voie IV** sans monitorage.
 - Associer **olanzapine IM et benzodiazépine parentérale** [S8].
-- Attribuer une fièvre sous clozapine à une « simple angine » sans **hémogramme** urgent.
-- Confondre **symptômes négatifs primaires** et symptômes secondaires (dépression, akinésie, sédation).
 - En droit algérien : croire qu'un médecin généraliste peut prononcer une hospitalisation d'office (c'est un **arrêté du wali**, sur certificat motivé du psychiatre de l'établissement) ou qu'un établissement privé peut accueillir un patient hospitalisé sans consentement (**uniquement structures publiques**, art. 128) [S11].
 
 ## 20. QCM d'auto-évaluation
 
-Les QCM ci-dessous sont les dix premiers de la banque structurée `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-10.json` (identifiants QCM-PSYC-1001 à QCM-PSYC-1010).
+Les huit QCM ci-dessous sont extraits de la banque structurée `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-10.json` (QCM-PSYC-1001 à QCM-PSYC-1008 ; quatre QCM supplémentaires, QCM-PSYC-1009 à 1012, y figurent). Le corrigé commente ici les propositions fausses (ou la bonne réponse des QCS) ; l'explication de chaque proposition figure dans la banque.
 
 **QCM 1 — Critères diagnostiques DSM-5-TR** (QCM (réponses multiples), difficulté 1/3)
 
@@ -725,11 +709,8 @@ Concernant les critères diagnostiques de la schizophrénie dans le DSM-5-TR, qu
 - **E.** Une baisse du fonctionnement par rapport au niveau antérieur fait partie des critères.
 
 > **Corrigé : A, B, E.** Le DSM-5-TR associe un critère symptomatique (deux symptômes sur cinq pendant un mois, dont un symptôme « positif » ou de désorganisation du discours), un critère fonctionnel et un critère de durée de six mois. La CIM-11 retient un mois de symptômes caractéristiques.
-> - A : Vrai : c'est la définition du critère A.
-> - B : Vrai : six mois au total, dont au moins un mois de phase active.
 > - C : Faux : il faut au moins un symptôme parmi les trois premiers (délire, hallucinations, discours désorganisé).
 > - D : Faux : la CIM-11 exige un mois de symptômes ; c'est une divergence classique entre les deux classifications.
-> - E : Vrai : critère B (déclin fonctionnel).
 >
 > *Piège* : Confondre la durée du DSM-5-TR (6 mois) et celle de la CIM-11 (1 mois).
 
@@ -744,11 +725,7 @@ Un homme de 20 ans présente un premier épisode psychotique. Parmi les examens 
 - **E.** Glycémie à jeun et bilan lipidique de référence.
 
 > **Corrigé : D.** Le bilan d'un premier épisode vise à éliminer une cause organique ou toxique et à établir des valeurs de référence avant antipsychotique. Aucun test génétique n'a d'utilité diagnostique en routine.
-> - A : Indiquée : recherche de lésion cérébrale, surtout en cas d'atypie.
-> - B : Indiquée : psychose induite par une substance.
-> - C : Indiqué : référence avant antipsychotique allongeant le QT.
 > - D : Non indiquée : l'héritabilité est polygénique ; aucun test ne confirme le diagnostic.
-> - E : Indiquées : référence métabolique avant antipsychotique.
 
 **QCM 3 — Voies dopaminergiques et effets des antipsychotiques** (QCM (réponses multiples), difficulté 2/3)
 
@@ -761,9 +738,6 @@ Concernant les voies dopaminergiques et les effets des antipsychotiques, quelles
 - **E.** Les antipsychotiques de première génération améliorent constamment les symptômes négatifs primaires.
 
 > **Corrigé : A, B, C.** Les quatre voies dopaminergiques expliquent l'effet thérapeutique (mésolimbique) et les effets indésirables (nigrostriée : extrapyramidaux ; tubéro-infundibulaire : hyperprolactinémie ; mésocorticale : déficit négatif et cognitif).
-> - A : Vrai.
-> - B : Vrai : la dopamine inhibe la sécrétion de prolactine ; son blocage la lève.
-> - C : Vrai.
 > - D : Faux : l'aripiprazole est un agoniste partiel D2, avec peu d'effet prolactinique.
 > - E : Faux : le blocage mésocortical peut au contraire aggraver le déficit.
 
@@ -778,11 +752,7 @@ Concernant les voies dopaminergiques et les effets des antipsychotiques, quelles
 - **E.** Une fièvre ou une angine sous clozapine impose un hémogramme en urgence.
 
 > **Corrigé : A, B, C, E.** La clozapine est le traitement de référence de la schizophrénie résistante (NICE, APA, WFSBP, OMS). Ses risques (agranulocytose, myocardite, convulsions, constipation sévère) la réservent à cette indication, sous surveillance spécialisée.
-> - A : Vrai.
-> - B : Vrai : la non-observance est la première cause de « pseudo-résistance ».
-> - C : Vrai.
 > - D : Faux : elle est réservée aux formes résistantes (et, selon l'APA, au risque suicidaire ou agressif persistant).
-> - E : Vrai : une agranulocytose doit être éliminée sans délai.
 >
 > *Piège* : Conclure à la résistance sans vérifier l'observance.
 
@@ -797,10 +767,7 @@ Un homme de 30 ans a reçu de l'halopéridol injectable pour une agitation. 48 h
 - **E.** L'halopéridol pourra être réintroduit à la même dose 48 heures après l'apyrexie.
 
 > **Corrigé : A, C, D.** Le tableau associe les éléments retenus par le consensus Delphi (exposition à un antagoniste dopaminergique, hyperthermie, rigidité, altération mentale, élévation des CPK, labilité sympathique). C'est une urgence : arrêt de l'antipsychotique, réanimation, recherche des diagnostics différentiels.
-> - A : Vrai.
 > - B : Faux : l'anticholinergique ne traite pas le SMN et la poursuite de l'antipsychotique est dangereuse.
-> - C : Vrai : risque de rhabdomyolyse et d'insuffisance rénale.
-> - D : Vrai : ainsi que l'hyperthermie maligne, la catatonie maligne, le coup de chaleur.
 > - E : Faux : une réintroduction éventuelle se fait à distance, avec une autre molécule, à faible dose et titration lente.
 >
 > *Piège* : Confondre SMN et dystonie aiguë (pas de fièvre ni d'élévation majeure des CPK dans la dystonie).
@@ -816,10 +783,7 @@ Selon le calendrier proposé par CANMAT-ISBD 2018 pour les patients sous antipsy
 - **E.** L'aripiprazole est la molécule au risque métabolique le plus élevé.
 
 > **Corrigé : A, B, D.** La surveillance métabolique est systématique, avec un bilan de référence puis un suivi rapproché la première année. L'olanzapine et la clozapine sont les molécules les plus à risque.
-> - A : Vrai.
-> - B : Vrai.
 > - C : Faux : le bilan initial est toujours recommandé.
-> - D : Vrai.
 > - E : Faux : son risque métabolique est faible.
 
 **QCM 7 — Agitation aiguë d'origine psychotique** (QCM (réponses multiples), difficulté 2/3)
@@ -833,11 +797,8 @@ Concernant la prise en charge d'une agitation aiguë chez un patient schizophrè
 - **E.** Si une première dose d'antipsychotique est insuffisante, l'ajout d'une benzodiazépine est préféré à un second antipsychotique.
 
 > **Corrigé : A, B, E.** Le consensus BETA privilégie les mesures non pharmacologiques, la voie orale lorsque c'est possible et un antipsychotique en cas d'agitation d'origine psychotique ; une benzodiazépine peut être ajoutée. Exemples de posologies (BETA) : halopéridol 5 mg IM (maximum 20 mg/24 h), olanzapine 10 mg IM (maximum 30 mg/24 h), lorazépam 2 mg (maximum 12 mg/24 h).
-> - A : Vrai.
-> - B : Vrai.
 > - C : Faux : cette association est à éviter (baisse de saturation rapportée, surtout en cas d'alcoolisation).
 > - D : Faux : la voie IV majore le risque d'allongement du QT ; elle impose une limitation de dose et un monitorage cardiaque.
-> - E : Vrai.
 >
 > *Piège* : Associer olanzapine IM et benzodiazépine parentérale.
 
@@ -852,50 +813,9 @@ Selon la loi algérienne n° 18-11 relative à la santé, quelles propositions s
 - **E.** L'hospitalisation à temps plein en psychiatrie d'un adolescent de 15 ans est soumise à l'approbation de la commission de santé mentale de wilaya.
 
 > **Corrigé : A, B, C, E.** Les articles 128 à 164 de la loi 18-11 organisent les soins sans consentement : structures publiques uniquement, mise en observation limitée à 15 jours, hospitalisation d'office par arrêté du wali (6 mois au plus), examen psychiatrique d'office décidé par le wali ou le procureur général, contrôle par la commission de santé mentale de wilaya.
-> - A : Vrai : article 128.
-> - B : Vrai : articles 139-140.
-> - C : Vrai : article 154.
 > - D : Faux : seuls le procureur général près la Cour ou le wali sont habilités (article 145).
-> - E : Vrai : article 130 (avant 16 ans et au-delà de 75 ans).
 >
 > *Piège* : Croire que le médecin ou un établissement privé peut décider d'une hospitalisation d'office.
-
-**QCM 9 — Facteurs pronostiques** (QCM (réponses multiples), difficulté 1/3)
-
-Parmi les éléments suivants, lesquels sont des facteurs de MAUVAIS pronostic d'une schizophrénie ?
-
-- **A.** Début insidieux.
-- **B.** Âge de début tardif.
-- **C.** Prédominance des symptômes négatifs.
-- **D.** Durée de psychose non traitée prolongée.
-- **E.** Bonne adaptation prémorbide.
-
-> **Corrigé : A, C, D.** Les facteurs défavorables sont le début précoce et insidieux, la prédominance des symptômes négatifs et cognitifs, une longue durée de psychose non traitée, une mauvaise adaptation prémorbide, l'addiction et la non-observance.
-> - A : Vrai.
-> - B : Faux : un début tardif est plutôt favorable.
-> - C : Vrai.
-> - D : Vrai.
-> - E : Faux : c'est un facteur favorable.
-
-**QCM 10 — Spectre de la schizophrénie : durées** (QCM (réponses multiples), difficulté 2/3)
-
-Concernant les critères de durée des troubles du spectre de la schizophrénie, quelles propositions sont exactes ?
-
-- **A.** Le trouble psychotique bref (DSM-5-TR) dure au moins un jour et moins d'un mois, avec retour à l'état antérieur.
-- **B.** Le trouble schizophréniforme (DSM-5-TR) dure au moins un mois et moins de six mois.
-- **C.** Le trouble psychotique aigu et transitoire de la CIM-11 ne dépasse pas trois mois.
-- **D.** Le trouble délirant de la CIM-11 exige seulement un mois d'évolution.
-- **E.** Dans le trouble schizoaffectif, des idées délirantes ou hallucinations existent au moins deux semaines en l'absence d'épisode thymique majeur.
-
-> **Corrigé : A, B, C, E.** Les seuils de durée structurent le diagnostic différentiel des psychoses et diffèrent entre DSM-5-TR et CIM-11.
-> - A : Vrai.
-> - B : Vrai.
-> - C : Vrai.
-> - D : Faux : la CIM-11 exige trois mois pour le trouble délirant (le DSM-5-TR un mois).
-> - E : Vrai.
->
-> *Piège* : Appliquer à la CIM-11 les seuils du DSM-5-TR.
-
 
 ## 21. Divergences entre recommandations
 
@@ -907,7 +827,6 @@ Concernant les critères de durée des troubles du spectre de la schizophrénie,
 | **Choix de première intention** | OMS 2023 : liste de molécules orales (aripiprazole, chlorpromazine, halopéridol, olanzapine, palipéridone, quétiapine, rispéridone), choix selon efficacité, tolérance et préférence [S6] | NICE CG178 : choix partagé selon le profil d'effets indésirables, sans hiérarchie stricte entre molécules [S3] | Pas de supériorité démontrée d'une molécule (hors clozapine en résistance) |
 | **Indication élargie de la clozapine** | APA 2020 : aussi en cas de risque suicidaire ou d'agressivité persistants [S4] | NICE CG178, OMS 2023 : indication centrée sur la résistance [S3, S6] | Indication suicidaire peu détaillée dans les autres textes |
 | **TCC des psychoses en phase aiguë** | NICE : recommandée en association [S3] | OMS 2023 : recommandation conditionnelle, si un encadrement spécialisé est disponible (PSY10) [S6] | Question de ressources |
-| **Seuils de surveillance métabolique** | CANMAT-ISBD 2018 : poids mensuel 3 mois puis trimestriel ; glycémie, lipides, PA à 3 et 6 mois puis annuellement [S10] | Autres calendriers proposés par d'autres sociétés `[À VÉRIFIER]` | Principe commun : bilan initial + surveillance rapprochée la première année |
 
 ## 22. Références
 

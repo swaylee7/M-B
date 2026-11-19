@@ -442,7 +442,7 @@ Le diagnostic d'OMA est **clinique, biologique et radiologique** ; la documentat
 - **Indications** [S1, S2] :
   - **abcès sous-périosté** ou intra-osseux collecté (drainage, lavage) ;
   - **arthrite septique** associée (ponction-lavage, arthrotomie ou arthroscopie selon l'articulation — la **hanche** du nourrisson est une urgence) ;
-  - **absence d'amélioration** sous antibiotiques à 48–72 h avec collection à l'IMR (réévaluation) ;
+  - **absence d'amélioration** sous antibiotiques à 48–72 h avec collection à l'IRM (réévaluation) ;
   - **séquestre** et forme chronique (séquestrectomie, curetage) ;
   - prélèvement diagnostique lorsque la ponction percutanée est impossible ou en cas de doute tumoral (**biopsie avec analyse histologique**).
 - **Pas de trépanation systématique** dans l'OMA non compliquée vue tôt : l'antibiothérapie seule suffit le plus souvent [S5].
@@ -514,3 +514,195 @@ Sources : [S1–S5].
 - **Néonatologie** : asepsie des cathéters, prévention des infections nosocomiales [S8].
 - **Prévention de la chronicité** : diagnostic précoce, antibiothérapie adaptée à forte dose, drainage des collections, durée suffisante.
 - **Bon usage des antibiotiques** : éviter les antibiothérapies « à l'aveugle » de courte durée sans prélèvement devant une boiterie fébrile, qui décapitent le tableau et retardent le diagnostic [S10].
+
+---
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Boiterie fébrile ou douleur osseuse fébrile de l'enfant
+```text
+1. Enfant fébrile qui boite / refuse d'appuyer / ne se sert plus d'un membre
+   │
+2. Examen : douleur métaphysaire exquise ? épanchement articulaire ? sepsis ?
+   porte d'entrée ? autres foyers ? thrombose ? hépato-splénomégalie, pâleur, purpura ?
+   │
+3. Radiographies du segment (+ côté opposé si besoin) ; NFS, CRP (± VS), hémocultures
+   │
+   ├── Cytopénies / blastes → LEUCÉMIE (hématologie)
+   ├── Lésion lytique/agressive atypique → TUMEUR (Ewing, ostéosarcome) → IRM + biopsie
+   ├── Hanche douloureuse + épanchement échographique
+   │      → critères de Kocher (fièvre > 38,5 °C, refus d'appui, VS > 40, GB > 12 000)
+   │         ├── ≥ 2–3 critères → PONCTION articulaire urgente (arthrite septique ?)
+   │         └── 0–1 critère, état général conservé → synovite transitoire probable, surveillance
+   └── Douleur métaphysaire + syndrome inflammatoire → OMA PROBABLE
+          → hospitalisation, IRM, ponction d'une collection, ATB IV (cf. 13.3)
+```
+
+### 16.2 Réévaluation à 48–72 heures
+```text
+Sous antibiothérapie IV probabiliste
+├── Apyrexie + douleur ↓ + CRP ↓ → relais oral (≈ J3), durée totale ≥ 3 semaines
+└── Fièvre persistante / douleur / CRP stable ou ↑
+      ├── IRM : abcès sous-périosté ou intra-osseux → DRAINAGE chirurgical
+      ├── Germe identifié résistant (SARM…) → adapter
+      ├── Thrombose, foyers multiples, endocardite → bilan, avis spécialisés
+      └── Doute diagnostique → biopsie (Ewing, leucémie, histiocytose)
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Énoncé (scénario fictif).** Yacine, 8 ans, est amené aux urgences pédiatriques de Sétif pour une fièvre à 39,5 °C depuis 36 heures et une douleur du genou gauche avec boiterie, puis refus d'appui depuis ce matin. Il s'était fait une plaie au genou en jouant au football il y a 10 jours ; sa mère signale une « croûte » au tibia. Examen : enfant fatigué, FC 128/min, TRC 2 s, PA normale ; **douleur exquise à la palpation de la métaphyse tibiale proximale gauche**, légère chaleur locale, genou mobilisable sans douleur majeure, pas d'épanchement net. Lésion croûteuse impétiginisée de la jambe. Biologie : GB 16 500/mm³ (PNN 82 %), Hb 12,1 g/dL, plaquettes 310 G/L, CRP 138 mg/L (N < 5), VS 62 mm/h. Radiographies du genou et de la jambe : **normales**.
+
+**Questions et réponses commentées**
+1. *Quel est votre diagnostic principal et pourquoi les radiographies sont-elles normales ?*
+   → **Ostéomyélite aiguë hématogène** de la métaphyse tibiale proximale gauche (fièvre, douleur métaphysaire exquise, impotence, syndrome inflammatoire, porte d'entrée cutanée). Les radiographies sont **normales au début** : les signes osseux n'apparaissent qu'après 10–15 jours ; leur intérêt est d'**éliminer une tumeur ou une fracture** et de servir de référence.
+2. *Quels examens demandez-vous avant de traiter ?*
+   → **Hémocultures** ; **IRM** du genou et de la jambe (œdème métaphysaire, abcès sous-périosté, atteinte articulaire) dès que possible sans retarder le traitement [S3, S4] ; échographie si l'IRM est indisponible (abcès, épanchement) ; prélèvement de la lésion cutanée.
+3. *L'IRM montre un œdème métaphysaire tibial avec un petit abcès sous-périosté de 6 mm d'épaisseur. Conduite à tenir ?*
+   → **Hospitalisation**, **ponction-drainage** de l'abcès sous-périosté sous anesthésie (prélèvements en flacon d'hémoculture, PCR *S. aureus* ± PVL) [S1, S9], puis **antibiothérapie IV** probabiliste : **céfazoline 150 mg/kg/j** (GPIP 2023) [S1] [POSOLOGIE À VÉRIFIER — fractionnement, dose maximale]. Antalgie, attelle de confort.
+4. *À J3, l'enfant est apyrétique, la douleur a nettement diminué, la CRP est à 52 mg/L. Les hémocultures et le pus poussent à* S. aureus *sensible à la méticilline, PVL négatif. Que faites-vous ?*
+   → **Relais oral** (évolution favorable) par une molécule active sur le SASM, bien absorbée, à forte dose — **céfalexine 150 mg/kg/j** ou **amoxicilline-acide clavulanique 80 mg/kg/j** [S1] [POSOLOGIE À VÉRIFIER — fractionnement] ; **durée totale minimale de 3 semaines** [S1] ; retour à domicile avec suivi clinique et CRP.
+5. *Quelle surveillance à distance ?*
+   → Consultation de fin de traitement (clinique, CRP), radiographies de contrôle (appositions périostées attendues, absence de séquestre), surveillance de la **croissance** et des **axes** du membre (proximité de la physe tibiale proximale).
+
+**Commentaire** : ce cas illustre la séquence **diagnostic clinique précoce → imagerie (IRM) → drainage d'une collection → antibiothérapie IV courte → relais oral précoce → durée totale de 3 semaines**. Une évolution défavorable à 48–72 h aurait imposé une nouvelle imagerie, la recherche d'un SARM ou d'une PVL, et la remise en cause du diagnostic.
+
+---
+
+## 18. Points clés à retenir
+1. L'OMA de l'enfant est **métaphysaire** (« près du genou, loin du coude ») ; chez le **nourrisson**, les vaisseaux transphysaires exposent à l'**ostéoarthrite** et aux troubles de croissance.
+2. ***S. aureus*** à tout âge ; ***Kingella kingae*** très fréquente entre **6 mois et 4 ans** (formes peu bruyantes, CRP parfois normale, diagnostic par **PCR**) ; streptocoque B et *E. coli* avant 3 mois [S1, S8, S9].
+3. Tableau : **fièvre + douleur métaphysaire exquise + impotence** ; radiographies **normales au début** mais **indispensables** (tumeur, fracture).
+4. **IRM** = examen de référence ; échographie pour les collections et épanchements [S3, S4].
+5. Toujours penser au **sarcome d'Ewing** et à la **leucémie** devant une « ostéomyélite » atypique ou résistante.
+6. Prélèvements (hémocultures ± ponction, culture en flacon + PCR) **avant** antibiotiques si cela ne retarde pas le traitement d'une forme grave.
+7. GPIP 2023 : **céfazoline IV 150 mg/kg/j**, **relais oral après ≈ 3 jours** si évolution favorable (**amoxicilline-acide clavulanique 80 mg/kg/j** ou **céfalexine 150 mg/kg/j**), durée **≥ 3 semaines** (ostéomyélite), **14 jours** (arthrite), **4–6 semaines** (formes sévères) [S1].
+8. Peltola : **20 jours** aussi efficaces que 30 jours avec une phase IV de 2 à 4 jours [S5].
+9. Chirurgie : **abcès sous-périosté**, **arthrite associée**, séquestre, échec à 48–72 h — pas de trépanation systématique.
+10. Formes graves (**PVL**) : sepsis, multifocalité, thromboses → association anti-toxinique, réanimation.
+
+## 19. Pièges classiques à l'examen
+- Attribuer la douleur fébrile au **traumatisme** récent (« entorse », « contusion »).
+- Conclure à l'absence d'OMA devant des **radiographies normales** à J2.
+- Exiger une **CRP élevée** pour évoquer une IOA à *Kingella* chez un enfant de 2 ans.
+- Débuter des antibiotiques **oraux à l'aveugle**, de courte durée et à faible dose, sans prélèvement, devant une boiterie fébrile (décapitation, chronicité).
+- Utiliser la **vancomycine seule** chez un jeune enfant (inactive sur *Kingella*).
+- Oublier l'**arthrite septique de hanche** du nourrisson (urgence chirurgicale) ou appliquer à tort les critères de Kocher à une autre articulation sans discernement.
+- Méconnaître un **sarcome d'Ewing** (fièvre et CRP élevée possibles) ou une **leucémie** (NFS).
+- Prolonger la **voie IV** inutilement (cathéters, complications) alors que le relais oral est possible.
+- Arrêter le traitement à la normalisation de la température sans respecter la **durée minimale**.
+- Oublier la **surveillance de la croissance** après une atteinte physaire ou une IOA du nourrisson.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+**QCM 1.** Concernant la localisation de l'OMA de l'enfant :
+A. Elle siège préférentiellement à la métaphyse des os longs.
+B. Le fémur distal et le tibia proximal sont des sièges fréquents.
+C. Chez le nourrisson, l'atteinte épiphysaire et articulaire est plus fréquente.
+D. Le flux sanguin rapide des sinusoïdes métaphysaires explique la localisation.
+E. Une métaphyse intra-articulaire expose à une arthrite associée.
+> **Réponses : A, B, C, E.** Le flux y est **lent**.
+
+**QCM 2.** Germes des infections ostéo-articulaires de l'enfant :
+A. *S. aureus* est impliqué à tous les âges.
+B. *Kingella kingae* est fréquent entre 6 mois et 4 ans.
+C. Le streptocoque B est le premier germe avant 3 mois dans une série parisienne.
+D. *Kingella kingae* est sensible à la vancomycine.
+E. Les salmonelles doivent être évoquées chez le drépanocytaire.
+> **Réponses : A, B, C, E.** [S1, S8, S9]
+
+**QCM 3.** Concernant l'imagerie de l'OMA :
+A. Les radiographies sont souvent normales au début.
+B. Les radiographies initiales sont inutiles.
+C. L'IRM est l'examen le plus fiable.
+D. L'échographie détecte un abcès sous-périosté ou un épanchement articulaire.
+E. La scintigraphie peut rechercher des foyers multiples si l'IRM est indisponible.
+> **Réponses : A, C, D, E.** [S3, S4]
+
+**QCM 4.** Selon les propositions du GPIP 2023 pour une IOA non compliquée chez un enfant de plus de 3 mois :
+A. La céfazoline IV est utilisée à forte dose (150 mg/kg/j).
+B. Le relais oral est possible après environ 3 jours si l'évolution est favorable.
+C. Le relais oral sans germe identifié peut se faire par amoxicilline-acide clavulanique 80 mg/kg/j.
+D. La durée minimale d'une ostéomyélite est de 6 semaines.
+E. La céfalexine 150 mg/kg/j est une alternative orale.
+> **Réponses : A, B, C, E.** Durée minimale de 3 semaines [S1].
+
+**QCM 5.** Essai de Peltola (2010) :
+A. Il comparait 20 et 30 jours de traitement.
+B. La phase IV durait 2 à 4 jours.
+C. *S. aureus* était responsable de la majorité des cas.
+D. De nombreux SARM étaient inclus.
+E. L'arrêt était possible avec une CRP ≤ 20 mg/L et une disparition des signes.
+> **Réponses : A, B, C, E.** Aucun SARM [S5].
+
+**QCM 6.** Indications chirurgicales au cours d'une OMA :
+A. Abcès sous-périosté collecté.
+B. Arthrite septique associée.
+C. Trépanation systématique de toute OMA.
+D. Séquestre.
+E. Échec clinique à 48–72 h avec collection à l'IRM.
+> **Réponses : A, B, D, E.** [S1, S5]
+
+**QCM 7.** Critères de Kocher (hanche de l'enfant) :
+A. Fièvre > 38,5 °C.
+B. Refus d'appui.
+C. VS > 40 mm/h.
+D. Leucocytes > 12 000/mm³.
+E. CRP > 100 mg/L.
+> **Réponses : A, B, C, D.** [S7]
+
+**QCM 8.** Diagnostics différentiels à évoquer devant une « ostéomyélite » atypique :
+A. Sarcome d'Ewing.
+B. Leucémie aiguë.
+C. Histiocytose langerhansienne.
+D. Ostéomyélite chronique récurrente multifocale.
+E. Synovite transitoire de hanche.
+> **Réponses : A, B, C, D, E.**
+
+**QCM 9.** Nourrisson de 5 semaines, pseudo-paralysie du membre inférieur droit, hanche gonflée, fièvre à 38 °C :
+A. Une ostéoarthrite de hanche doit être évoquée.
+B. Le streptocoque B fait partie des germes à couvrir.
+C. Une ponction articulaire est urgente.
+D. Le traitement est identique à celui d'un enfant de 8 ans.
+E. Le risque de séquelles orthopédiques justifie un suivi prolongé.
+> **Réponses : A, B, C, E.** [S1, S8]
+
+**QCM 10.** Forme grave à *S. aureus* producteur de PVL :
+A. Atteinte multifocale possible.
+B. Thromboses veineuses septiques.
+C. Association d'un antibiotique anti-toxinique discutée.
+D. Évolution toujours bénigne.
+E. Pneumopathie nécrosante possible.
+> **Réponses : A, B, C, E.**
+
+---
+
+## 21. Divergences entre recommandations
+
+| Sujet | Position A | Position B | Commentaire |
+|---|---|---|---|
+| **Antibiotique probabiliste** | GPIP 2023 : **céfazoline IV 150 mg/kg/j** (SARM rare en France) [S1] ; GPIP 2017 : amoxicilline-acide clavulanique, céfuroxime ou céfazoline [S2] | PIDS/IDSA 2021 : céfazoline si SARM rare, **vancomycine ou clindamycine** si SARM fréquent [S4] | L'**écologie locale** (SARM, clindamycine) détermine le choix ; *Kingella* résiste aux glycopeptides |
+| **Durée totale** | GPIP 2023 : ≥ 3 semaines (ostéomyélite), 14 jours (arthrite), 4–6 semaines (formes sévères) [S1] | PIDS/IDSA : souvent 3–4 semaines [S4] [À VÉRIFIER] ; Peltola : 20 jours suffisent si bonne réponse [S5] | Concordance sur la réduction des durées dans les formes non compliquées |
+| **Durée de la phase IV** | GPIP : ≈ 3 jours si évolution favorable [S1] | Peltola : 2–4 jours [S5] ; PIDS/IDSA : relais dès l'amélioration clinique [S4] | Concordance ; la CRP aide à la décision |
+| **Arthrite septique : durée** | GPIP 2017 : 10 jours [S2] | GPIP 2023 : 14 jours [S1] | Actualisation au sein du même groupe |
+| **Imagerie** | ESPID et PIDS/IDSA : IRM examen le plus fiable [S3, S4] | Pratique dans les contextes de ressources limitées : échographie + scintigraphie ou radiographies évolutives | L'IRM ne doit pas retarder les antibiotiques |
+| **Corticoïdes adjuvants (arthrite)** | Utilisés par certaines équipes | Non recommandés de façon consensuelle [À VÉRIFIER] | Données insuffisantes |
+
+---
+
+## 22. Références
+
+1. **[S1]** Lorrot M, et al. Antibiotic therapy for osteoarticular infections in 2023: Proposals from the Pediatric Infectious Pathology Group (GPIP). *Infect Dis Now*. 2023;53(8S):104789. doi:10.1016/j.idnow.2023.104789. — *vérifiée (PMID 37741341 ; résumé lu)*.
+2. **[S2]** Lorrot M, et al. Antibiotic therapy of bone and joint infections in children: proposals of the French Pediatric Infectious Disease Group. *Arch Pediatr*. 2017;24(12S):S36-S41. doi:10.1016/S0929-693X(17)30517-1. — *vérifiée (PMID 29290233 ; résumé lu)*.
+3. **[S3]** Saavedra-Lozano J, et al. Bone and Joint Infections (ESPID). *Pediatr Infect Dis J*. 2017;36(8):788-799. doi:10.1097/INF.0000000000001635. — *vérifiée (PMID 28708801)*.
+4. **[S4]** Woods CR, et al. PIDS/IDSA 2021 Guideline on Diagnosis and Management of Acute Hematogenous Osteomyelitis in Pediatrics. *J Pediatric Infect Dis Soc*. 2021;10(8):801-844. doi:10.1093/jpids/piab027. — *vérifiée (PMID 34350458)*.
+5. **[S5]** Peltola H, et al. Short- versus long-term antimicrobial treatment for acute hematogenous osteomyelitis of childhood. *Pediatr Infect Dis J*. 2010;29(12):1123-1128. doi:10.1097/INF.0b013e3181f55a89. — *vérifiée (PMID 20842069)*.
+6. **[S6]** Grimprel E, et al.; GPIP. Infections ostéo-articulaires : propositions thérapeutiques du GPIP. *Arch Pediatr*. 2008;15 Suppl 2:S74-S80. doi:10.1016/S0929-693X(08)74220-9. — *vérifiée (PMID 19000859)*.
+7. **[S7]** Kocher MS, Zurakowski D, Kasser JR. Differentiating between septic arthritis and transient synovitis of the hip in children. *J Bone Joint Surg Am*. 1999;81(12):1662-1670. doi:10.2106/00004623-199912000-00002. — *vérifiée (PMID 10608376)*.
+8. **[S8]** Mediamolle N, et al. Bone and joint infections in infants under three months of age. *Acta Paediatr*. 2019;108(5):933-939. doi:10.1111/apa.14569. — *vérifiée (PMID 30188592)*.
+9. **[S9]** De Marco G, et al. Bacteriological diagnosis of osteoarticular infections caused by *Kingella kingae*; a narrative review. *Front Pediatr*. 2024;12:1520636. doi:10.3389/fped.2024.1520636. — *vérifiée (PMID 39840323)*.
+10. **[S10]** OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book. Genève : OMS ; 2022 (catalogue REC-0281). — *vérifiée (catalogue) ; contenu spécifique aux IOA non vérifié*.

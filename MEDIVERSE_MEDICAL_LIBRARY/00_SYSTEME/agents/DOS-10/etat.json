@@ -1,20 +1,37 @@
 {
   "id": "DOS-10",
-  "statut": "en_cours",
-  "derniere_execution": "2026-11-19T02:50:00+00:00",
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19T07:05:00+00:00",
   "taches_terminees": [
-    "lecture brief/conventions/sources",
-    "verification des references (7 WebSearch)"
+    "DOS-PSYC-0001 schizophrénies (RES-MED-149)",
+    "DOS-PSYC-0002 troubles de l'humeur (RES-MED-153)",
+    "DOS-MLEG-0001 le médecin et les blessures (RES-MED-139)",
+    "DOS-MLEG-0002 responsabilité médicale (RES-MED-140)",
+    "DOS-MTRA-0001 accidents du travail et maladies professionnelles (RES-MED-142)",
+    "lot QCM DOS-10.json (61)",
+    "lot cas DOS-10.json (10)"
   ],
   "taches_suivantes": [
-    "DOS-PSYC-0001",
-    "DOS-PSYC-0002",
-    "DOS-MLEG-0001",
-    "DOS-MLEG-0002",
-    "DOS-MTRA-0001",
-    "lots QCM/cas",
-    "rapport"
+    "audit (AUD) des 5 dossiers : posologies, articles de loi en version consolidée",
+    "acquisition (ACQ) des textes JORADP consultés en ligne",
+    "vérifier seuils du code pénal en vigueur (art. 264, 269, 442) et textes d'application (déclaration de blessure suspecte, contentieux sécurité sociale)"
   ],
-  "objectifs": {},
-  "compteurs": {}
+  "objectifs": {
+    "dossiers": 5,
+    "qcm_par_item_min": 12,
+    "cas_par_item": 2
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 61,
+    "cas": 10,
+    "websearch": 7,
+    "mots_wc": {
+      "DOS-PSYC-0001": 11420,
+      "DOS-PSYC-0002": 10817,
+      "DOS-MLEG-0001": 9900,
+      "DOS-MLEG-0002": 9184,
+      "DOS-MTRA-0001": 9579
+    }
+  }
 }

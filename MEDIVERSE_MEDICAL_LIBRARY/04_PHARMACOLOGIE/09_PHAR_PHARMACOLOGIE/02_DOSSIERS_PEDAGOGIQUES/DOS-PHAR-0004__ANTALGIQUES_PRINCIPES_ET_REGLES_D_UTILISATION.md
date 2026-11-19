@@ -810,3 +810,34 @@ Morphine LP 120 mg + interdoses 4 × 20 mg = **200 mg/24 h** de morphine orale.
   - D : Faux : inefficace sur la douleur neuropathique.
   - E : Vrai.
 
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 (organisme, date) | Position 2 (organisme, date) | Commentaire |
+|---|---|---|---|
+| Place de l'échelle à trois paliers | OMS 1986/1996 : progression par paliers (enseignement classique) | OMS 2018 : outil pédagogique seulement ; non-opioïdes et opioïdes utilisables seuls ou associés dès l'initiation selon l'intensité [S1] | Les examens utilisent encore la terminologie des paliers |
+| Opioïdes « faibles » (codéine) en douleur cancéreuse | Liste OMS 2025 : codéine inscrite parmi les antalgiques opioïdes [S2] | OMS 2018 cite des autorités jugant la codéine inutile en douleur cancéreuse (faibles doses de morphine plus efficaces) ; CPIC 2021 : éviter chez les métaboliseurs ultrarapides et lents [S1, S7] | Particulièrement pertinent en Afrique du Nord |
+| Paracétamol dans la lombalgie chronique | OMS 2023 : pas de recommandation (absence d'essais) [S9] | Pratique courante et HAS 2019 : antalgiques possibles en accompagnement, l'activité physique restant le traitement principal [S12] | Faible niveau de preuve |
+| Opioïdes en douleur aiguë | CDC 2022 : non-opioïdes en premier ; opioïde LI, dose la plus faible, durée courte si nécessaire [S3] | HAS 2022 : opioïdes non recommandés en 1re intention dans la douleur aiguë non sévère ; 2e intention possible si douleur modérée non soulagée [S4] | Convergence sur une prescription restrictive |
+| Gabapentinoïdes en périopératoire | SFAR 2019 : recommandations spécifiques sur les antihyperalgésiques (kétamine, gabapentinoïdes), non systématiques [S5] | Usage plus large dans certains protocoles de réhabilitation améliorée `[À VÉRIFIER]` | Risque de sédation et de dépression respiratoire en association aux opioïdes |
+| Ratios d'équianalgésie | OMS 2018 (d'après Twycross) : oxycodone 1,5, fentanyl TD 100, hydromorphone 4–5 [S1] | Fabricants : oxycodone 2, fentanyl TD 150, hydromorphone 5–7,5 [S1] | Toujours prudence et retitration |
+
+---
+
+## 22. Références
+
+1. **[S1]** World Health Organization. *WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents*. Geneva: WHO; 2018. — vérifiée (document acquis, lu : recommandations, annexe 6 — doses, pharmacogénétique de la codéine, tables de conversion).
+2. **[S2]** World Health Organization. *WHO Model List of Essential Medicines, 24th list (2025)*, section 2. — vérifiée (document acquis, lu).
+3. **[S3]** Dowell D, Ragan KR, Jones CM, Baldwin GT, Chou R. CDC Clinical Practice Guideline for Prescribing Opioids for Pain — United States, 2022. *MMWR Recomm Rep*. 2022;71(3):1-95. doi:10.15585/mmwr.rr7103a1 — vérifiée (Europe PMC, PMID 36327391 ; résumé lu).
+4. **[S4]** HAS. *Bon usage des médicaments opioïdes : antalgie, prévention et prise en charge du trouble de l'usage et des surdoses*. Recommandation de bonne pratique, 10 mars 2022 (publication 24 mars 2022). https://www.has-sante.fr/jcms/p_3215131/ — vérifiée (recherche web : existence, date et messages principaux).
+5. **[S5]** Aubrun F, Nouette-Gaulain K, Fletcher D, et al. Revision of expert panel's guidelines on postoperative pain management. *Anaesth Crit Care Pain Med*. 2019;38(4):405-411. doi:10.1016/j.accpm.2019.02.011 — vérifiée (Europe PMC, PMID 30822542 ; résumé lu ; détail des recommandations non lu).
+6. **[S6]** Finnerup NB, Attal N, Haroutounian S, et al. Pharmacotherapy for neuropathic pain in adults: a systematic review and meta-analysis. *Lancet Neurol*. 2015;14(2):162-173. doi:10.1016/s1474-4422(14)70251-0 — vérifiée (Europe PMC, PMID 25575710).
+7. **[S7]** Crews KR, Monte AA, Huddart R, et al. CPIC Guideline for CYP2D6, OPRM1, and COMT Genotypes and Select Opioid Therapy. *Clin Pharmacol Ther*. 2021;110(4):888-896. doi:10.1002/cpt.2149 — vérifiée (Europe PMC, PMID 33387367).
+8. **[S8]** 2023 AGS Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria. *J Am Geriatr Soc*. 2023;71(7):2052-2081. doi:10.1111/jgs.18372 — vérifiée (Europe PMC, PMID 37139824 ; contenu détaillé non lu `[À VÉRIFIER]`).
+9. **[S9]** World Health Organization. *WHO guideline for non-surgical management of chronic primary low back pain in adults in primary and community care settings*. Geneva: WHO; 2023. — vérifiée (document acquis, lu : recommandations D.1).
+10. **[S10]** Raja SN, Carr DB, Cohen M, et al. The revised International Association for the Study of Pain definition of pain. *Pain*. 2020;161(9):1976-1982. doi:10.1097/j.pain.0000000000001939 — vérifiée (Europe PMC, PMID 32694387).
+11. **[S11]** Treede RD, Rief W, Barke A, et al. Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for ICD-11. *Pain*. 2019;160(1):19-27. doi:10.1097/j.pain.0000000000001384 — vérifiée (Europe PMC, PMID 30586067).
+12. **[S12]** HAS. *Prise en charge du patient présentant une lombalgie commune*. Fiche mémo, 2019. — vérifiée (catalogue REC-0521).
+
+*Points à auditer en priorité* : posologies de tramadol, oxycodone, hydromorphone, gabapentinoïdes et duloxétine (renvoyées au RCP) ; statut réglementaire de la codéine chez l'enfant en Algérie ; référence exacte de la contre-indication des AINS à partir de 24 SA ; seuil du DN4 ; réglementation algérienne des stupéfiants.

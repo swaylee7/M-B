@@ -8,3 +8,4 @@ Mission : Fiches mémo, tableaux de révision et pièges classiques
 - 2026-11-19 — FIC-CARD-0002 (HTA), FIC-CARD-0003 (SCA ST+), FIC-CARD-0004 (SCA ST−), FIC-CARD-0005 (endocardites) créées.
 - 2026-11-19 — FIC-PNEU-0001 (tuberculose), FIC-PNEU-0002 (pneumonies), FIC-PNEU-0003 (asthme) créées.
 - 2026-11-19 — FIC-INFE-0001 (méningites purulentes), FIC-INFE-0002 (brucellose) créées.
+- 2026-11-19 — FIC-GAST-0001 (hémorragies digestives), FIC-HEPA-0001 (hépatites A-B-C), FIC-HEPA-0002 (cirrhoses) créées.

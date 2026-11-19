@@ -9,3 +9,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Microbiologie-immunol
 - 2026-11-19 — DOS-PHAR-0001 (antibiotiques, RES-MED-166) rédigé : 22 sections, 18 sources vérifiées, 10 QCM intégrés (QCM-PHAR-1401→1410) + 2 supplémentaires pour le lot.
 - 2026-11-19 — DOS-PHAR-0002 (anticoagulants, RES-MED-173) rédigé : 22 sources vérifiées, posologies HNF (Raschke), HBPM/fondaparinux (ESC 2019 — à confronter au texte), AOD (ESC 2024/EHRA 2021/ESC 2019), surdosage AVK (HAS 2008), périopératoire (ACCP 2022/PAUSE/BRIDGE). QCM-PHAR-1413→1424.
 - 2026-11-19 — DOS-PHAR-0003 (corticoïdes, RES-MED-167) rédigé : équivalences et doses de stress tirées du texte intégral ESE/ES 2024. QCM-PHAR-1425→1436.
+- 2026-11-19 — DOS-PHAR-0004 (antalgiques, RES-MED-168) rédigé : doses et tables d'équianalgésie tirées de l'annexe 6 OMS 2018 (document acquis), CYP2D6 en Afrique du Nord, CDC/HAS 2022, NeuPSIG 2015, OMS lombalgie 2023. QCM-PHAR-1437→1448.

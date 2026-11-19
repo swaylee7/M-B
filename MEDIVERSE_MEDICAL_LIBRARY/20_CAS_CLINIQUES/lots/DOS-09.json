@@ -39,7 +39,7 @@
         "Échographie articulaire en cas de doute"
       ],
       "diagnostic_final": "Polyarthrite rhumatoïde débutante séropositive (ACR/EULAR 2010 : 5 + 3 + 1 + 1 = 10/10), forte activité.",
-      "traitement": "Information et décision partagée ; méthotrexate hebdomadaire 10 à 15 mg/semaine augmenté de 5 mg toutes les 2 à 4 semaines selon tolérance, acide folique ≥ 5 mg/semaine (3E) ; corticothérapie orale de courte durée à faible dose avec décroissance rapide [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; contraception poursuivie (MTX tératogène) ; vaccinations antigrippale, antipneumococcique et anti-VHB ; calcium et vitamine D ; activité physique et orthèses de repos.",
+      "traitement": "Information et décision partagée ; méthotrexate hebdomadaire 10 à 15 mg/semaine augmenté de 5 mg toutes les 2 à 4 semaines selon tolérance, acide folique ≥ 5 mg/semaine (3E) ; corticothérapie orale de courte durée (< 3 mois) à faible dose avec décroissance rapide (dose initiale non standardisée par l'EULAR) [POSOLOGIE À VÉRIFIER — protocole local] ; contraception poursuivie (MTX tératogène) ; vaccinations antigrippale, antipneumococcique et anti-VHB ; calcium et vitamine D ; activité physique et orthèses de repos.",
       "surveillance": "NFS, ALAT, créatinine toutes les 4 à 6 semaines jusqu'à dose stable, puis tous les 1 à 3 mois ; DAS28 ou CDAI tous les 1 à 3 mois ; radiographies des mains et des pieds à distance.",
       "evolution": "À 3 mois, DAS28 à 3,0 sous MTX 20 mg/semaine ; corticoïdes arrêtés au 3e mois. À 6 mois : rémission clinique (DAS28 2,2, 0 articulation gonflée). Pas de progression radiographique à 1 an.",
       "explication_pedagogique": "Cas typique de PR débutante : tableau clinique, sérologie fortement positive, élimination des polyarthrites virales et des connectivites, traitement de fond précoce par MTX optimisé dans une stratégie T2T.",
@@ -79,9 +79,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Score ACR/EULAR et stratégie conformes ; durée de la corticothérapie précisée ; dose initiale de la corticothérapie de pont non standardisée (marqueur maintenu)."
+      }
     },
     {
       "id": "CAS-RHUM-0902",
@@ -120,8 +126,8 @@
         "Bilan cardiovasculaire et glycémique",
         "Ostéodensitométrie (corticothérapie > 3 mois)"
       ],
-      "diagnostic_final": "PR séropositive érosive active en échec du MTX, compliquée d'une pneumopathie interstitielle diffuse ; infection tuberculeuse latente ; hépatite B résolue (anti-HBc isolés) ; corticodépendance.",
-      "traitement": "Décision en réunion multidisciplinaire rhumatologue-pneumologue. Sevrage tabagique impératif. Traitement de l'infection tuberculeuse latente selon l'instruction nationale ITL 2024 [schéma et durée À VÉRIFIER — protocole national], tuberculose active préalablement exclue. Choix d'une biothérapie à profil pulmonaire jugé favorable (abatacept ou rituximab, options privilégiées par la SFR 2024 en cas de PID) ; avec le rituximab, risque de réactivation du VHB chez un patient anti-HBc positif : prophylaxie antivirale ou surveillance de l'ADN viral selon avis hépatologique. Discussion d'un antifibrosant avec le pneumologue expert. Décroissance progressive de la prednisone, prévention de l'ostéoporose cortisonique. Vaccinations (grippe, pneumocoque, VHB). [Doses : POSOLOGIE À VÉRIFIER — RCP / protocole local]",
+      "diagnostic_final": "PR séropositive érosive active en échec du MTX, compliquée d'une pneumopathie interstitielle diffuse ; infection tuberculeuse latente ; infection ancienne par le VHB avec anti-HBc isolés (AgHBs et anti-HBs négatifs, ADN viral indétectable) ; corticodépendance.",
+      "traitement": "Décision en réunion multidisciplinaire rhumatologue-pneumologue. Sevrage tabagique impératif. Traitement de l'infection tuberculeuse latente, tuberculose active préalablement exclue : schémas de l'OMS 2024 (6H/9H, 3HP, 3HR, alternatives 1HP et 4R), biothérapie débutée après environ 4 semaines de traitement préventif (S3 allemande 2026) ; schéma et délai de l'instruction nationale ITL 2024 [À VÉRIFIER — protocole national]. Choix d'une biothérapie à profil pulmonaire jugé favorable (abatacept ou rituximab, options privilégiées par la SFR 2024 en cas de PID) ; avec le rituximab, risque de réactivation du VHB chez un patient anti-HBc positif : prophylaxie antivirale ou surveillance de l'ADN viral selon avis hépatologique. Discussion d'un antifibrosant avec le pneumologue expert. Décroissance progressive de la prednisone, prévention de l'ostéoporose cortisonique. Vaccinations (grippe, pneumocoque, VHB). Doses (RCP) : abatacept 125 mg SC par semaine ; rituximab 2 perfusions IV de 1 000 mg à 2 semaines d'intervalle (prémédication par 100 mg de méthylprednisolone).",
       "surveillance": "Activité de la PR (DAS28/CDAI) tous les 1 à 3 mois ; EFR et DLCO tous les 3 à 6 mois puis selon évolution ; surveillance clinique de la tuberculose sous biothérapie ; ADN VHB et transaminases selon l'avis hépatologique ; glycémie, tension, lipides ; dépistage du cancer bronchique selon le contexte.",
       "evolution": "À 6 mois : DAS28 à 3,1, prednisone réduite à 5 mg/j, arrêt du tabac obtenu, fonction respiratoire stable (CVF 70 %). Pas de réactivation tuberculeuse ni virale.",
       "explication_pedagogique": "Ce cas illustre la stratification EULAR (facteurs de mauvais pronostic → bDMARD), l'importance du bilan pré-biothérapie en pays d'endémie tuberculeuse, la gestion du statut VHB, et l'intégration de la PID dans le choix du traitement (SFR 2024).",
@@ -163,11 +169,29 @@
         {
           "reference": "Ministère de la Santé (Algérie)/INSP. Manuel de la lutte antituberculeuse à l'usage des personnels médicaux, 2011",
           "date": "2011"
+        },
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment, 2nd ed. Geneva: WHO; 2024",
+          "date": "2024"
+        },
+        {
+          "reference": "Nast A et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm – part 2. J Dtsch Dermatol Ges 2026;24(2):270-282 (chapitre tuberculose : délai de 4 semaines)",
+          "date": "2026"
+        },
+        {
+          "reference": "Résumés des caractéristiques du produit (RCP) des spécialités citées, versions en vigueur (non consultés pendant l'audit)",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Statut VHB reformulé (anti-HBc isolés, pas « hépatite résolue ») ; ITL documentée (OMS 2024, délai S3 2026) ; doses d'abatacept et de rituximab ajoutées (RCP). Reste : contenu de l'instruction nationale ITL 2024."
+      }
     },
     {
       "id": "CAS-RHUM-0903",
@@ -206,7 +230,7 @@
         "Sérologies brucelliennes si contexte d'exposition"
       ],
       "diagnostic_final": "Spondylarthrite ankylosante (pelvispondylite rhumatismale) : critères de New York modifiés remplis (sacro-iliite bilatérale de grade 3 + lombalgie inflammatoire + limitation lombaire), avec uvéites antérieures aiguës récidivantes et enthésite achilléenne.",
-      "traitement": "Éducation, auto-exercices quotidiens, kinésithérapie ; AINS à dose optimale en continu tant que symptomatique [POSOLOGIE À VÉRIFIER — RCP], surveillance tensionnelle et rénale. Consignes : consultation ophtalmologique en urgence devant tout œil rouge douloureux. Si échec de 2 AINS avec ASDAS ≥ 2,1 : biothérapie, en privilégiant un anticorps monoclonal anti-TNF du fait des uvéites récidivantes (après bilan pré-thérapeutique incluant tuberculose et VHB).",
+      "traitement": "Éducation, auto-exercices quotidiens, kinésithérapie ; AINS à dose optimale en continu tant que symptomatique (dose maximale du RCP, par exemple naproxène 500 mg × 2/j), surveillance tensionnelle et rénale. Consignes : consultation ophtalmologique en urgence devant tout œil rouge douloureux. Si échec de 2 AINS avec ASDAS ≥ 2,1 : biothérapie, en privilégiant un anticorps monoclonal anti-TNF du fait des uvéites récidivantes (après bilan pré-thérapeutique incluant tuberculose et VHB).",
       "surveillance": "ASDAS-CRP et BASDAI à chaque consultation ; BASMI, Schober, ampliation thoracique ; radiographies à distance ; surveillance des AINS ; uvéites.",
       "evolution": "Sous AINS en continu et exercices, ASDAS à 1,8 à 3 mois. Nouvelle uvéite 8 mois plus tard malgré l'AINS ; discussion d'un anti-TNF monoclonal en raison du caractère récidivant.",
       "explication_pedagogique": "Cas typique de SpA axiale radiographique révélée par des uvéites ; l'ophtalmologiste est un acteur du diagnostic précoce. Le choix d'une éventuelle biothérapie tient compte des manifestations extra-squelettiques.",
@@ -240,11 +264,21 @@
         {
           "reference": "van der Linden S et al. Modified New York criteria for ankylosing spondylitis. Arthritis Rheum 1984;27(4):361-368",
           "date": "1984"
+        },
+        {
+          "reference": "Résumés des caractéristiques du produit (RCP) des spécialités citées, versions en vigueur (non consultés pendant l'audit)",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Critères ASAS et New York modifiés conformes ; marqueur AINS levé (dose maximale du RCP)."
+      }
     },
     {
       "id": "CAS-RHUM-0904",
@@ -284,7 +318,7 @@
         "Déclaration obligatoire et enquête autour du cas"
       ],
       "diagnostic_final": "Brucellose aiguë localisée : sacro-iliite brucellienne droite (Brucella spp., hémocultures positives).",
-      "traitement": "Antibiothérapie prolongée associant deux antibiotiques actifs selon les recommandations en vigueur (par exemple doxycycline associée à un aminoside ou à la rifampicine, durée prolongée pour une forme ostéo-articulaire) [POSOLOGIE À VÉRIFIER — RCP / protocole national] ; antalgiques ; repos relatif puis rééducation ; déclaration obligatoire ; conseils d'hygiène (pasteurisation ou ébullition du lait) ; information des services vétérinaires.",
+      "traitement": "Antibiothérapie associant deux antibiotiques actifs (recommandations d'Ioannina) : doxycycline 100 mg × 2/j au moins 6 semaines, associée à un aminoside (streptomycine 15 mg/kg/j IM pendant 2 à 3 semaines, ou gentamicine 5 mg/kg/j pendant 7 jours) ou à la rifampicine (600 à 900 mg/j) ; durée prolongée pour une forme ostéo-articulaire (au moins 3 mois pour une spondylodiscite), selon l'évolution clinique et biologique ; confronter au protocole national ; antalgiques ; repos relatif puis rééducation ; déclaration obligatoire ; conseils d'hygiène (pasteurisation ou ébullition du lait) ; information des services vétérinaires.",
       "surveillance": "Courbe thermique, douleurs, CRP, bilan hépatique (tolérance), IRM de contrôle en cas d'évolution défavorable ; surveillance des rechutes pendant plusieurs mois.",
       "evolution": "Apyrexie en 10 jours, régression progressive des douleurs ; CRP normalisée à 6 semaines ; pas de rechute à 6 mois.",
       "explication_pedagogique": "Ce cas rappelle qu'en Algérie, une sacro-iliite unilatérale fébrile est une brucellose (ou une infection) jusqu'à preuve du contraire. Un traitement de SpA (a fortiori un anti-TNF) serait délétère. Le HLA-B27 n'a ici aucun intérêt diagnostique.",
@@ -312,13 +346,19 @@
           "date": "2023"
         },
         {
-          "reference": "Ariza J et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med 2007 [référence à vérifier]",
+          "reference": "Ariza J, Bosilkovski M, Cascio A, et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med 2007;4(12):e317. doi:10.1371/journal.pmed.0040317 (catalogue REC-0289, document DOC-00080)",
           "date": "2007"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Référence d'Ioannina complétée et vérifiée (PMID 18162038) : elle est citée pour le traitement de la brucellose, diagnostic différentiel infectieux de la SpA axiale traité dans ce cas ; posologies levées d'après ce texte (DOC-00080 relu)."
+      }
     },
     {
       "id": "CAS-MINT-0901",
@@ -358,7 +398,7 @@
         "Sérologies VHB, VHC, VIH"
       ],
       "diagnostic_final": "Lupus érythémateux systémique cutanéo-articulaire (score EULAR/ACR 2019 : lupus cutané aigu 6 + articulaire 6 + leucopénie 3 + anti-ADN 6 + C3 bas 3 = 24 ≥ 10), sans atteinte rénale.",
-      "traitement": "Hydroxychloroquine 5 mg/kg de poids réel/j (EULAR 2023) [arrondi selon formes disponibles — POSOLOGIE À VÉRIFIER — RCP] ; photoprotection stricte ; corticothérapie orale à faible dose de courte durée si arthrite gênante [POSOLOGIE À VÉRIFIER] ; arrêt de la contraception œstroprogestative au profit d'une méthode adaptée (dispositif intra-utérin ou progestatif) après évaluation ; vaccinations à jour ; éducation thérapeutique.",
+      "traitement": "Hydroxychloroquine 5 mg/kg de poids réel/j au plus (EULAR 2023, AAO 2016), avec des comprimés non sécables à 200 mg (pour 60 kg : 400 mg et 200 mg en alternance un jour sur deux) ; le PNDS 2024 prescrit habituellement 400 mg/j si la fonction rénale est normale ; photoprotection stricte ; corticothérapie orale si arthrite gênante, à dose < 0,3 mg/kg/j de prednisone et dégressive (PNDS 2024) ; arrêt de la contraception œstroprogestative au profit d'une méthode adaptée (dispositif intra-utérin ou progestatif) après évaluation ; vaccinations à jour ; éducation thérapeutique.",
       "surveillance": "Consultation à 1 mois puis tous les 3 mois : clinique, TA, bandelette urinaire et protéinurie à chaque visite, NFS, C3/C4, anti-ADN ; examen ophtalmologique de référence puis annuel après 5 ans d'HCQ.",
       "evolution": "Amélioration cutanée et articulaire en 3 mois ; leucocytes 4,1 G/L ; pas de protéinurie à 1 an.",
       "explication_pedagogique": "Forme typique de lupus cutanéo-articulaire de la femme jeune ; l'HCQ et la photoprotection en sont le socle ; la surveillance urinaire systématique dépiste une néphropathie silencieuse.",
@@ -373,7 +413,7 @@
         },
         {
           "question": "Pourquoi changer de contraception ?",
-          "reponse": "Les œstrogènes peuvent favoriser les poussées et sont contre-indiqués en cas d'antiphospholipides ; une méthode sans œstrogène est préférable chez la patiente lupique (EULAR 2017)."
+          "reponse": "Les œstrogènes peuvent favoriser les poussées et sont contre-indiqués en cas d'antiphospholipides ; chez cette patiente au lupus actif, une méthode sans œstrogène est préférable. Une contraception œstroprogestative peut être envisagée chez une patiente au lupus stable sans antiphospholipides (EULAR 2017)."
         },
         {
           "question": "Quel examen urinaire répéter à chaque consultation ?",
@@ -396,11 +436,21 @@
         {
           "reference": "Andreoli L et al. EULAR recommendations for women's health and pregnancy in SLE and/or APS. Ann Rheum Dis 2017;76(3):476-485",
           "date": "2017"
+        },
+        {
+          "reference": "HAS / FAI²R. PNDS Lupus systémique de l'adulte et de l'enfant, janvier 2024 (texte intégral relu par AUD-01)",
+          "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Score EULAR/ACR 2019 exact (24 points) ; marqueurs HCQ et corticoïdes levés (EULAR 2023, AAO 2016, PNDS 2024) ; réponse sur la contraception nuancée (EULAR 2017 : œstroprogestatifs possibles si lupus stable sans aPL)."
+      }
     },
     {
       "id": "CAS-MINT-0902",
@@ -480,9 +530,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Raisonnement exact (infection plutôt que poussée). Restent : posologies antituberculeuses (protocole national) et adaptation de la corticothérapie sous rifampicine (RCP)."
+      }
     },
     {
       "id": "CAS-MINT-0903",
@@ -518,7 +574,7 @@
         "Avis conjoint rhumatologue/interniste, obstétricien et hématologue"
       ],
       "diagnostic_final": "Projet de grossesse chez une patiente lupique en rémission prolongée, avec SAPL thrombotique triple positif et anti-SSA positifs.",
-      "traitement": "Grossesse autorisée car maladie inactive depuis plus de 6 mois (EULAR 2017). Arrêt du méthotrexate avant la conception (tératogène) et relais si besoin par azathioprine ; poursuite de l'HCQ ; corticothérapie à dose minimale. Anticoagulation : remplacement de la warfarine (tératogène) par une héparine de bas poids moléculaire à dose curative, idéalement dès le test de grossesse positif et avant la 6e semaine d'aménorrhée, en association à l'aspirine à faible dose selon l'avis spécialisé (EULAR SAPL 2019) [POSOLOGIES À VÉRIFIER — RCP / protocole local]. Pas d'anticoagulant oral direct (triple positivité). Contraception sans œstrogène en attendant.",
+      "traitement": "Grossesse autorisée car maladie inactive depuis plus de 6 mois (EULAR 2017). Arrêt du méthotrexate avant la conception (tératogène) et relais si besoin par azathioprine ; poursuite de l'HCQ ; corticothérapie à dose minimale. Anticoagulation : remplacement de la warfarine (tératogène) par une héparine de bas poids moléculaire à dose curative, idéalement dès le test de grossesse positif et avant la 6e semaine d'aménorrhée, (par exemple énoxaparine 100 UI/kg toutes les 12 heures selon le RCP, avec adaptation au poids au cours de la grossesse) en association à l'aspirine à faible dose (75 à 100 mg/j) selon l'avis spécialisé (EULAR SAPL 2019). Pas d'anticoagulant oral direct (triple positivité). Contraception sans œstrogène en attendant.",
       "surveillance": "Suivi mensuel conjoint : TA, protéinurie, NFS, complément, anti-ADN ; dépistage de la pré-éclampsie ; échocardiographie fœtale et surveillance du rythme cardiaque fœtal entre environ 16 et 26 SA du fait des anti-SSA [calendrier À VÉRIFIER — protocole local] ; échographies de croissance ; reprise des AVK en post-partum.",
       "evolution": "Grossesse menée à 37 SA, enfant sans bloc auriculo-ventriculaire ; poussée cutanée modérée du post-partum contrôlée par l'HCQ et une courte corticothérapie ; reprise de la warfarine en post-partum.",
       "explication_pedagogique": "Ce cas synthétise la préparation d'une grossesse lupique : planification en rémission, poursuite de l'HCQ, relais des médicaments tératogènes (méthotrexate, AVK), gestion du SAPL triple positif (pas d'AOD) et surveillance spécifique liée aux anti-SSA.",
@@ -552,11 +608,21 @@
         {
           "reference": "Fanouriakis A et al. EULAR recommendations for the management of SLE: 2023 update. Ann Rheum Dis 2024;83(1):15-29",
           "date": "2024"
+        },
+        {
+          "reference": "Résumés des caractéristiques du produit (RCP) des spécialités citées, versions en vigueur (non consultés pendant l'audit)",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Conduite conforme (EULAR 2017 et SAPL 2019) ; doses d'HBPM et d'aspirine précisées. Calendrier de la surveillance du rythme cardiaque fœtal laissé « à vérifier » (protocole local)."
+      }
     },
     {
       "id": "CAS-MINT-0904",
@@ -595,7 +661,7 @@
         "Test pathergique"
       ],
       "diagnostic_final": "Maladie de Behçet cutanéo-muqueuse et articulaire (ISG 1990 : aphtose buccale récidivante + aphtose génitale + lésions cutanées + pathergie ; ICBD 2014 : 2 + 2 + 1 + 1 = 6), sans atteinte oculaire ni vasculaire.",
-      "traitement": "Soins locaux (bains de bouche, corticoïde topique sur les aphtes) ; colchicine en première intention pour prévenir les récidives cutanéo-muqueuses et traiter l'arthrite [POSOLOGIE À VÉRIFIER — RCP] ; infiltration du genou possible ; soins dentaires et hygiène bucco-dentaire ; information sur les signes d'alerte (baisse de vision, œil rouge, céphalées, douleur de mollet, hémoptysie).",
+      "traitement": "Soins locaux (bains de bouche, corticoïde topique sur les aphtes) ; colchicine en première intention pour prévenir les récidives cutanéo-muqueuses et traiter l'arthrite (1 à 2 mg/j, adaptée à la fonction rénale, à juger après 3 à 6 mois — PNDS 2019) ; infiltration du genou possible ; soins dentaires et hygiène bucco-dentaire ; information sur les signes d'alerte (baisse de vision, œil rouge, céphalées, douleur de mollet, hémoptysie).",
       "surveillance": "Consultation à 1 puis 3 mois ; examen ophtalmologique de référence puis régulier ; tolérance digestive de la colchicine, NFS et créatinine.",
       "evolution": "Diminution de la fréquence des aphtes ; disparition de l'arthrite en 3 semaines ; examen ophtalmologique normal à 1 an.",
       "explication_pedagogique": "Forme typique de l'homme jeune, à ce stade sans atteinte grave. Le diagnostic est clinique après élimination des causes d'ulcérations (herpès, syphilis, carences, neutropénie). La colchicine est la base ; l'examen ophtalmologique doit être systématique et répété car l'atteinte oculaire est fréquente dans les séries maghrébines.",
@@ -637,11 +703,21 @@
         {
           "reference": "Ghembaza ME et al. Behçet disease in Western Algeria. Med Sante Trop 2017;27(1):101-104",
           "date": "2017"
+        },
+        {
+          "reference": "HAS / FAI²R. PNDS Maladie de Behçet, décembre 2019 (texte intégral relu par AUD-01)",
+          "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Critères ISG et ICBD exacts ; posologie de la colchicine levée (PNDS 2019)."
+      }
     },
     {
       "id": "CAS-MINT-0905",
@@ -679,7 +755,7 @@
         "Bilan pré-immunosuppresseur (IGRA, VHB, VHC, VIH)"
       ],
       "diagnostic_final": "Maladie de Behçet avec atteinte vasculaire majeure : anévrismes des artères pulmonaires compliqués d'hémoptysie, survenant après une thrombose veineuse profonde (ICBD : buccal 2 + génital 2 + peau 1 + vasculaire 1 = 6).",
-      "traitement": "Hospitalisation en soins intensifs ; arrêt de l'anticoagulation et antagonisation selon l'avis spécialisé ; glucocorticoïdes à forte dose (bolus IV puis relais oral) associés au cyclophosphamide IV (EULAR 2018) [POSOLOGIES À VÉRIFIER — protocole] ; anti-TNF monoclonal en cas de forme réfractaire après dépistage tuberculeux ; embolisation artérielle en urgence si hémoptysie grave ou persistante ; colchicine pour la composante cutanéo-muqueuse ; arrêt du tabac ; contraception non applicable ; préservation de la fertilité à discuter avant cyclophosphamide.",
+      "traitement": "Hospitalisation en soins intensifs ; arrêt de l'anticoagulation et antagonisation selon l'avis spécialisé ; glucocorticoïdes à forte dose (méthylprednisolone 500 mg/j pendant 3 jours puis prednisone 1 mg/kg/j sans dépasser 80 mg/j, décroissance progressive) associés au cyclophosphamide IV (0,7 g/m² toutes les 4 semaines, sans dépasser 1,2 g, 6 bolus, puis azathioprine 2 mg/kg/j) (EULAR 2018, PNDS 2019) ; anti-TNF monoclonal en cas de forme réfractaire après dépistage tuberculeux ; embolisation artérielle en urgence si hémoptysie grave ou persistante ; colchicine pour la composante cutanéo-muqueuse ; arrêt du tabac ; contraception non applicable ; préservation de la fertilité à discuter avant cyclophosphamide.",
       "surveillance": "Hémoptysies, hémoglobine ; angioscanner de contrôle à 3–6 mois ; tolérance du cyclophosphamide (NFS, urines) ; infections ; examen ophtalmologique ; relais par un immunosuppresseur d'entretien (azathioprine) selon l'évolution.",
       "evolution": "Arrêt des hémoptysies en 72 h sans embolisation ; réduction de taille des anévrismes à 6 mois ; relais par azathioprine ; pas de nouvelle thrombose.",
       "explication_pedagogique": "Ce cas illustre le piège majeur de la maladie de Behçet vasculaire : une hémoptysie chez un patient thrombosé n'est pas une embolie pulmonaire jusqu'à preuve du contraire ; l'anticoagulation peut être fatale en présence d'anévrismes artériels pulmonaires. Le traitement repose sur l'immunosuppression intensive (glucocorticoïdes + cyclophosphamide). Il souligne aussi l'intérêt de rechercher les signes de Behçet (aphtes, cicatrices scrotales) devant toute thrombose veineuse de l'homme jeune.",
@@ -711,17 +787,23 @@
           "date": "2018"
         },
         {
-          "reference": "HAS / FAI²R. PNDS Maladie de Behçet, décembre 2019",
-          "date": "2019"
-        },
-        {
           "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
           "date": "2023"
+        },
+        {
+          "reference": "HAS / FAI²R. PNDS Maladie de Behçet, décembre 2019 (texte intégral relu par AUD-01)",
+          "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Conduite conforme (EULAR 2018) ; posologies de la corticothérapie et du cyclophosphamide levées (PNDS 2019)."
+      }
     },
     {
       "id": "CAS-DERM-0901",
@@ -756,7 +838,7 @@
         "Biopsie seulement si doute"
       ],
       "diagnostic_final": "Psoriasis en gouttes déclenché par une angine streptococcique, sur terrain familial.",
-      "traitement": "Traitement de l'angine streptococcique selon les recommandations [POSOLOGIE À VÉRIFIER — protocole national] ; émollients ; topiques (dermocorticoïde ou association calcipotriol + bétaméthasone) sur les lésions les plus gênantes [POSOLOGIE À VÉRIFIER — RCP] ; photothérapie UVB à spectre étroit si éruption étendue et persistante ; information sur la nature chronique possible du psoriasis et les facteurs déclenchants.",
+      "traitement": "Traitement de l'angine streptococcique selon les recommandations [POSOLOGIE À VÉRIFIER — protocole national] ; émollients ; topiques (dermocorticoïde ou association calcipotriol + bétaméthasone) sur les lésions les plus gênantes (une application par jour selon le RCP) ; photothérapie UVB à spectre étroit si éruption étendue et persistante ; information sur la nature chronique possible du psoriasis et les facteurs déclenchants.",
       "surveillance": "Consultation à 6–8 semaines ; surveillance de l'évolution vers un psoriasis en plaques ; recherche ultérieure d'atteinte unguéale ou articulaire.",
       "evolution": "Régression quasi complète en 2 mois ; apparition, 2 ans plus tard, de plaques des coudes : psoriasis en plaques débutant.",
       "explication_pedagogique": "Forme classique de l'adolescent : diagnostic clinique, facteur déclenchant streptococcique, terrain génétique. Le diagnostic différentiel principal (pityriasis rosé, syphilis secondaire) se règle par l'examen et une sérologie.",
@@ -788,9 +870,15 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Diagnostic et démarche conformes ; posologie des topiques précisée. Reste : traitement de l'angine streptococcique selon le protocole national (marqueur maintenu)."
+      }
     },
     {
       "id": "CAS-DERM-0902",
@@ -828,7 +916,7 @@
         "Bilan pré-thérapeutique (tuberculose, VHB, VHC, VIH) avant traitement systémique"
       ],
       "diagnostic_final": "Psoriasis pustuleux généralisé (type von Zumbusch) déclenché par l'arrêt brutal d'une corticothérapie générale.",
-      "traitement": "Hospitalisation ; réhydratation, correction des troubles hydro-électrolytiques et de l'hypocalcémie, surveillance hémodynamique ; émollients et soins locaux ; pas de reprise d'une corticothérapie générale. Traitement systémique : spésolimab (anti-IL-36R) si disponible [S10] ; à défaut ciclosporine en induction courte, ou biothérapie (anti-TNF, anti-IL-17) après bilan infectieux [POSOLOGIES À VÉRIFIER — RCP]. L'acitrétine, efficace dans les formes pustuleuses, est ici peu adaptée en raison du projet de grossesse (tératogénicité prolongée après l'arrêt). Dépistage de l'ITL avant biothérapie selon l'instruction nationale [S12].",
+      "traitement": "Hospitalisation ; réhydratation, correction des troubles hydro-électrolytiques et de l'hypocalcémie, surveillance hémodynamique ; émollients et soins locaux ; pas de reprise d'une corticothérapie générale. Traitement systémique : spésolimab (anti-IL-36R) si disponible (900 mg IV en dose unique, seconde perfusion possible une semaine plus tard ; essai Effisayil 1) ; à défaut ciclosporine en induction courte (2,5 à 5 mg/kg/j), ou biothérapie (anti-TNF, anti-IL-17) après bilan infectieux, aux doses du RCP. L'acitrétine, efficace dans les formes pustuleuses, est ici peu adaptée en raison du projet de grossesse (contraception exigée pendant le traitement et 3 ans après l'arrêt, EMA 2018). Dépistage de l'ITL avant biothérapie selon l'instruction nationale ITL 2024 (contenu à confirmer).",
       "surveillance": "Courbe thermique, état hémodynamique, ionogramme, calcémie, albuminémie, fonction rénale (ciclosporine), tension artérielle ; réponse cutanée quotidienne ; plan de traitement d'entretien adapté au projet de grossesse.",
       "evolution": "Apyrexie en 72 heures et disparition des pustules en 1 semaine ; relais par un traitement d'entretien compatible avec un futur projet de grossesse (discussion d'une biothérapie adaptée, par exemple certolizumab pegol) en concertation.",
       "explication_pedagogique": "Ce cas illustre le danger majeur des corticoïdes généraux dans le psoriasis, la reconnaissance d'une urgence dermatologique (pustules amicrobiennes, fièvre, hyperleucocytose, hypocalcémie) et l'importance du terrain (projet de grossesse) dans le choix du traitement.",
@@ -843,7 +931,7 @@
         },
         {
           "question": "Pourquoi l'acitrétine est-elle problématique ici ?",
-          "reponse": "Tératogène, avec une contraception requise pendant et plusieurs années après l'arrêt : incompatible avec un projet de grossesse proche."
+          "reponse": "Tératogène, avec une contraception requise pendant le traitement et 3 ans après l'arrêt (programme de prévention de la grossesse, EMA 2018) : incompatible avec un projet de grossesse proche."
         },
         {
           "question": "Que retenir pour la pratique de ville ?",
@@ -866,11 +954,21 @@
         {
           "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
           "date": "2024"
+        },
+        {
+          "reference": "Résumés des caractéristiques du produit (RCP) des spécialités citées, versions en vigueur (non consultés pendant l'audit)",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-09",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Conduite conforme ; posologies du spésolimab et de la ciclosporine précisées (RCP) ; contraception de 3 ans après l'acitrétine précisée."
+      }
     }
   ]
 }

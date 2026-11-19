@@ -881,7 +881,7 @@ ou baisse inexpliquée du DFG
 **Réponse(s) : A, B, D, E.** L'HCQ est le traitement de base de tout lupus ; la toxicité rétinienne dépend de la dose et de la durée.
 
 - A : Vrai.
-- B : Vrai : dose cible 5 mg/kg de poids réel (EULAR 2023), plafond AAO 2016.
+- B : Vrai : dose cible 5 mg/kg de poids réel (EULAR 2023), plafond de l'AAO 2016. Nuance : le PNDS français 2024 prescrit habituellement 400 mg/j si la fonction rénale est normale (cf. § 21).
 - C : Faux : elle doit être poursuivie pendant la grossesse.
 - D : Vrai : après un examen de référence la première année.
 - E : Vrai : y compris dans la région MENA (facteur protecteur).
