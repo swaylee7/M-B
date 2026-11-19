@@ -10,7 +10,55 @@ date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent RES-06 (IA) — fiche dérivée du dossier audité"
 statut: brouillon_a_auditer
-sources: __SOURCES__
+sources:
+  - id: S1
+    reference: "Prabhakaran S, et al. 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: a guideline from the American Heart Association/American Stroke Association. Stroke. 2026 (publication en ligne le 26 janvier 2026)."
+    organisme: AHA/ASA
+    annee: 2026
+    type: recommandation
+    doi: "10.1161/STR.0000000000000513"
+    url: ""
+    verifiee: true
+  - id: S2
+    reference: "Berge E, Whiteley W, et al. European Stroke Organisation (ESO) guidelines on intravenous thrombolysis for acute ischaemic stroke. Eur Stroke J. 2021;6(1):I-LXII."
+    organisme: ESO
+    annee: 2021
+    type: recommandation
+    doi: "10.1177/2396987321989865"
+    url: ""
+    verifiee: true
+  - id: S3
+    reference: "Alamowitch S, Turc G, Palaiodimou L, et al. European Stroke Organisation (ESO) expedited recommendation on tenecteplase for acute ischaemic stroke. Eur Stroke J. 2023;8(1):8-54."
+    organisme: ESO
+    annee: 2023
+    type: recommandation
+    doi: "10.1177/23969873221150022"
+    url: ""
+    verifiee: true
+  - id: S4
+    reference: "Turc G, Bhogal P, Fischer U, et al. European Stroke Organisation (ESO) - European Society for Minimally Invasive Neurological Therapy (ESMINT) guidelines on mechanical thrombectomy in acute ischaemic stroke. Eur Stroke J. 2019;4(1):6-12."
+    organisme: ESO/ESMINT
+    annee: 2019
+    type: recommandation
+    doi: "10.1177/2396987319832140"
+    url: ""
+    verifiee: true
+  - id: S7
+    reference: "Greenberg SM, et al. 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage: a guideline from the American Heart Association/American Stroke Association. Stroke. 2022;53:e282-e361."
+    organisme: AHA/ASA
+    annee: 2022
+    type: recommandation
+    doi: "10.1161/STR.0000000000000407"
+    url: ""
+    verifiee: true
+  - id: S8
+    reference: "Hoh BL, et al. 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage: a guideline from the American Heart Association/American Stroke Association. Stroke. 2023;54:e314-e370."
+    organisme: AHA/ASA
+    annee: 2023
+    type: recommandation
+    doi: "10.1161/STR.0000000000000436"
+    url: ""
+    verifiee: true
 ---
 
 # Fiche — Accidents vasculaires cérébraux (RES-MED-030)
@@ -99,7 +147,7 @@ INFARCTUS
 | HIC sous HNF / antiplaquettaire | Protamine / **pas de transfusion plaquettaire** sans chirurgie ; **pas de prophylaxie antiépileptique** |
 | **Nimodipine** (HSA) | **60 mg /4 h per os pendant 21 jours** (réduire les prises si hypotension, RCP) ; euvolémie ; **pas de restriction hydrique** si hyponatrémie |
 | Infarctus sylvien malin | **Hémicraniectomie** précoce (≤ 48 h) ; > 60 ans : décision partagée |
-| Mesures générales | **UNV** ; O₂ seulement si SpO₂ ≤ 94 % ; **pas de contrôle glycémique intensif** (80–130 mg/dL) ; antipyrétique ; compression pneumatique ± HBPM ; **test de déglutition** avant toute prise orale |
+| Mesures générales | **UNV** ; O₂ seulement si hypoxémie (objectif SpO₂ > 94 %) ; **pas de contrôle glycémique intensif** (80–130 mg/dL) ; antipyrétique ; compression pneumatique ± HBPM ; **test de déglutition** avant toute prise orale |
 
 **Prévention secondaire** : antiplaquettaire (non cardio-embolique), **AOD/AVK si FA** (AVK pour prothèse mécanique), **statine haute intensité** (LDL ≤ 70 mg/dL, cibles nord-américaines), PA < 130/80 `[À VÉRIFIER — S11]`, **endartériectomie < 2 semaines** pour sténose symptomatique **70–99 %** (moindre 50–69 %), fermeture du FOP chez le jeune sélectionné.
 

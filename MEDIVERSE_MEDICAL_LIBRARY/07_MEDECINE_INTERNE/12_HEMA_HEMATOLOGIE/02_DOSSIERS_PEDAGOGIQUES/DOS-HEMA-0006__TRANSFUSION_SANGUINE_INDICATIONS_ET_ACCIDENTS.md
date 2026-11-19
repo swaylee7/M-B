@@ -525,3 +525,209 @@ Principe : **ne pas apporter d'anticorps dirigés contre les antigènes du recev
 
 - Après de nombreuses transfusions (thalassémie, myélodysplasie, drépanocytose sous programme) : atteinte hépatique, cardiaque, endocrinienne ; surveillance de la ferritine et de l'IRM (T2*) ; chélation [S12].
 
+---
+
+## 13. Traitement : règles d'indication et de conduite
+
+### 13.1 Objectifs
+
+1. Transfuser **à bon escient** (bonne indication, bon produit, bonne quantité, bon patient, bon moment).
+2. Préférer les **alternatives** chaque fois qu'elles suffisent (fer, vitamines, érythropoïétine dans des indications précises, acide tranexamique, hémostase chirurgicale) [S9].
+3. Garantir la **sécurité** de l'acte et la **traçabilité**.
+4. Reconnaître et traiter sans délai les accidents ; les déclarer.
+
+### 13.2 Concentrés de globules rouges : seuils (AABB 2023) [S1]
+
+| Population | Seuil d'hémoglobine pour envisager la transfusion | Force de la recommandation |
+|---|---|---|
+| Adulte hospitalisé, hémodynamiquement stable | **< 7 g/dL** | Forte, certitude modérée |
+| Chirurgie cardiaque | 7,5 g/dL | Option conforme aux essais |
+| Chirurgie orthopédique, maladie cardiovasculaire préexistante | **8 g/dL** | Option conforme aux essais |
+| Hémopathies et cancers (adulte hospitalisé) | < 7 g/dL | Conditionnelle, certitude faible |
+| Enfant en réanimation, stable (hors hémoglobinopathie, cardiopathie cyanogène, hypoxémie sévère) | < 7 g/dL | Forte, certitude modérée |
+| Cardiopathies congénitales de l'enfant | 7 g/dL (réparation biventriculaire), 9 g/dL (palliation univentriculaire), 7–9 g/dL (non corrigée) | Conditionnelle, faible |
+
+- Ces seuils **ne s'appliquent pas** à l'hémorragie active non contrôlée, où l'on transfuse selon la perte sanguine et l'hémodynamique [S13].
+- L'AABB souligne qu'il est de bonne pratique de **considérer le contexte clinique global et les alternatives** pour chaque patient [S1].
+- La HAS (2014) propose des seuils et des stratégies ciblées par population (anesthésie-réanimation-chirurgie-urgence, hématologie-oncologie, néonatologie) et insiste sur les **alternatives** (fer, acide tranexamique) [S3] `[À VÉRIFIER — seuils détaillés du texte HAS]`.
+- **Dose** : transfuser **une unité à la fois** chez le patient stable, puis réévaluer cliniquement et biologiquement (principe de la « transfusion unitaire ») `[À VÉRIFIER — formulation des recommandations]`.
+
+### 13.3 Plaquettes : seuils (AABB/ICTMG 2025) [S2]
+
+| Situation | Seuil plaquettaire pour transfuser (sauf saignement majeur) | Force |
+|---|---|---|
+| Thrombopénie centrale (chimiothérapie, allogreffe), patient non hémorragique | **< 10 G/L** | Forte |
+| Thrombopénie de consommation du nouveau-né sans hémorragie majeure | < 25 G/L | Forte |
+| **Ponction lombaire** | **< 20 G/L** | Forte |
+| Thrombopénie de consommation due à la **dengue** sans hémorragie majeure | **Pas de transfusion** | Forte |
+| Autogreffe de CSH, aplasie médullaire (non hémorragique) | Pas de prophylaxie systématique | Conditionnelle |
+| Thrombopénie de consommation de l'adulte sans hémorragie majeure | < 10 G/L | Conditionnelle |
+| Pose de cathéter veineux central en site compressible | < 10 G/L | Conditionnelle |
+| Radiologie interventionnelle | < 20 G/L (faible risque) ; < 50 G/L (haut risque) | Conditionnelle |
+| Chirurgie majeure non neuraxiale | < 50 G/L | Conditionnelle |
+| Chirurgie cardiovasculaire sans thrombopénie ni hémorragie majeure | Pas de transfusion | Conditionnelle |
+| Hémorragie intracrânienne non opératoire de l'adulte, plaquettes > 100 G/L (même sous antiagrégants) | Pas de transfusion | Conditionnelle |
+
+- **Contre-indications relatives** : purpura thrombotique thrombocytopénique et thrombopénie induite par l'héparine (risque thrombotique), sauf hémorragie grave ; **PTI** : transfusion réservée aux hémorragies graves (voir DOS-HEMA-0002) [S5].
+- Dose plaquettaire et produits : selon les standards nationaux `[POSOLOGIE À VÉRIFIER — dose plaquettaire selon le poids, protocole local]` [S4].
+
+### 13.4 Plasma, cryoprécipité, fibrinogène
+
+- **Plasma** : hémorragie avec coagulopathie (transfusion massive, CIVD hémorragique), échanges plasmatiques du PTT, déficits isolés en facteurs sans concentré disponible ; **pas** pour corriger un TP modérément abaissé sans saignement ni pour un remplissage vasculaire ; **pas** en première intention pour la réversion des AVK (préférer le **CCP + vitamine K** — voir DOS-PHAR-0002). Dose usuelle de l'ordre de 10–15 mL/kg `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **Fibrinogène** (concentré ou cryoprécipité) : hémorragie avec hypofibrinogénémie (trauma, obstétrique) [S13] `[POSOLOGIE À VÉRIFIER]`.
+
+### 13.5 Gestion du sang du patient (PBM) — conférence de Francfort 2018 [S9]
+
+Trois piliers :
+1. **Optimiser la masse sanguine du patient** : dépister et traiter l'**anémie préopératoire** (en particulier par carence martiale : fer, IV si délai court) ; éviter la chirurgie programmée majeure chez un patient anémique non corrigé.
+2. **Réduire les pertes** : hémostase chirurgicale, **acide tranexamique** dans les chirurgies hémorragiques, récupération de sang peropératoire, limitation des prélèvements biologiques.
+3. **Tolérer l'anémie** : seuils **restrictifs**, transfusion unitaire.
+
+### 13.6 Conduite à tenir devant un accident transfusionnel (synthèse)
+
+```text
+Signe anormal pendant ou après une transfusion
+(fièvre, frissons, malaise, douleur lombaire, hypotension, dyspnée, urticaire…)
+│
+1. ARRÊTER immédiatement la transfusion ; GARDER la voie veineuse (sérum salé)
+2. Évaluer la gravité : constantes, SpO2, diurèse ; appel du médecin
+3. Vérifier au lit : identité du patient ↔ poche ↔ documents (erreur ABO ?)
+4. Traiter selon le tableau :
+   ├─ Choc / hémolyse suspectée → réanimation, diurèse, bilan d'hémolyse et de CIVD
+   ├─ Anaphylaxie → ADRÉNALINE, remplissage, oxygène
+   ├─ Choc septique (plaquettes ++) → hémocultures + culture de la poche,
+   │   antibiothérapie large spectre
+   ├─ Détresse respiratoire → radiographie, BNP, échographie :
+   │     TACO → diurétique ; TRALI → oxygène/ventilation, pas de diurétique
+   └─ Fièvre isolée / urticaire isolée → traitement symptomatique après élimination
+       des causes graves
+5. CONSERVER la poche et la tubulure, les renvoyer avec les prélèvements
+   à la structure de transfusion
+6. DÉCLARER l'effet indésirable (hémovigilance) ; tracer dans le dossier
+7. Rechercher une seconde erreur (autre patient concerné ?)
+```
+
+### 13.7 Organisation algérienne (éléments sourcés)
+
+La **loi n° 18-11 du 2 juillet 2018 relative à la santé** fixe les principes suivants [S11] :
+- **art. 258** : la collecte du sang est assurée par des **structures sanitaires publiques**, chargées de la collecte, de la séparation, du contrôle, de la conservation et de la distribution du sang et des **produits sanguins labiles** ;
+- **art. 259** : l'activité transfusionnelle est une **activité médicale** (préparer les produits sanguins, analyser et qualifier les dons, conserver et distribuer) ;
+- **art. 260** : elle s'effectue conformément aux **bonnes pratiques** de collecte, de préparation, de qualification, de stockage et de distribution ;
+- **art. 261** : le sang prélevé est **contrôlé** (absence d'agents pathogènes ou contaminants) et soumis obligatoirement à des examens garantissant la **compatibilité transfusionnelle** ;
+- **art. 262** : l'État promeut la production des **hémodérivés** ;
+- **art. 263** : toute activité **lucrative** portant sur le sang humain, le plasma et leurs dérivés est **interdite** ;
+- **art. 264** : création d'une **Agence nationale du sang**, chargée du suivi et de la mise en œuvre de la politique nationale du sang, du contrôle, de la promotion du don et du respect des bonnes pratiques d'utilisation du sang ; ses missions et son organisation sont fixées par voie réglementaire ;
+- **art. 368-369** : le don est précédé d'un **entretien médical** et d'une information du donneur ; le donneur doit avoir **18 à 65 ans** (prélèvements à tout âge pour des raisons thérapeutiques ou diagnostiques) ;
+- **art. 428** : sanctions pénales en cas d'infraction aux dispositions de l'article 258.
+
+Points non vérifiés dans le cadre de ce dossier : texte réglementaire d'organisation de l'Agence nationale du sang et date de sa création initiale, organisation détaillée de l'hémovigilance nationale (déclaration, correspondants), liste réglementaire des tests de qualification biologique des dons, procédure nationale du contrôle ultime au lit `[À VÉRIFIER — JORADP et textes de l'Agence nationale du sang]`. Un reportage de Radio Algérie (2023) fait état d'environ **248 centres de transfusion sanguine** et d'un projet de **36 nouvelles structures** [S16].
+
+---
+
+## 14. Surveillance
+
+| Moment | Éléments |
+|---|---|
+| Avant | Constantes de référence, température, état respiratoire et cardiaque, risque de TACO |
+| 15 premières minutes | Présence soignante, constantes (la plupart des réactions graves surviennent tôt) [S6] |
+| Pendant | Constantes régulières, débit adapté au terrain, signes d'intolérance |
+| Fin et heures suivantes | Constantes ; surveillance respiratoire jusqu'à 6 h (TRALI) et 12 h (TACO) chez les patients à risque [S7, S8] |
+| À distance | Efficacité (hémoglobine, plaquettes à 1 h/24 h), RAI de contrôle, ferritine chez le polytransfusé |
+
+---
+
+## 15. Prévention
+
+- **Identito-vigilance** à chaque étape (prélèvement des échantillons, étiquetage au lit du patient, délivrance, pose) : principale prévention de l'incompatibilité ABO.
+- **Sélection des donneurs** (entretien médical) et **qualification biologique** des dons [S11].
+- **Déleucocytation** (RFNH, allo-immunisation HLA, transmission du CMV), **irradiation** ciblée (GVH), **réduction des pathogènes** (plasma, plaquettes, cryoprécipité) [S12, S17].
+- **Phénotypage** et respect des antigènes chez les femmes jeunes et les polytransfusés.
+- **PBM** : correction de l'anémie, épargne sanguine, seuils restrictifs [S9].
+- **Formation** des équipes et **culture de la déclaration** (hémovigilance).
+- **Prévention de l'allo-immunisation fœto-maternelle** par immunoglobulines anti-D [S12].
+
+---
+
+## 16. Algorithmes décisionnels
+
+### 16.1 Décision de transfusion de CGR chez un adulte
+
+```text
+Anémie chez un adulte
+│
+├─ Hémorragie active / choc hémorragique ?
+│     OUI → transfusion selon la perte et l'hémodynamique, contrôle du saignement,
+│           acide tranexamique (trauma < 3 h), stratégie de transfusion massive [S13, S14]
+│     NON ↓
+├─ Anémie carentielle bien tolérée ? → traiter la cause (fer, B12, folates) ; pas de CGR
+├─ Hb < 7 g/dL (stable) → transfusion d'1 unité puis réévaluation [S1]
+├─ Hb 7–8 g/dL + chirurgie orthopédique / cardiopathie / chirurgie cardiaque (7,5)
+│     → transfusion à discuter [S1]
+├─ Syndrome coronarien aigu → seuils débattus (MINT : effet délétère du restrictif
+│     non exclu) [S10]
+└─ Hb > 8 g/dL → transfusion seulement si signes d'intolérance (angor, dyspnée,
+      tachycardie, hypotension) non expliqués par une autre cause
+```
+
+### 16.2 Choisir le groupe des produits
+
+```text
+Receveur O  → CGR O            | Plasma O, A, B, AB
+Receveur A  → CGR A ou O       | Plasma A ou AB
+Receveur B  → CGR B ou O       | Plasma B ou AB
+Receveur AB → CGR AB, A, B, O  | Plasma AB
+Groupe inconnu en urgence vitale immédiate → CGR O (RhD−, Kell− chez la femme jeune)
+                                             + plasma AB
+RhD négatif → CGR RhD négatif (impératif chez la fille/femme en âge de procréer)
+RAI positive → CGR compatibilisés, dépourvus de l'antigène
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** Mme S., 78 ans, 52 kg, insuffisante cardiaque (FEVG 35 %), est hospitalisée pour une fracture du col fémoral. Hb 7,6 g/dL, bien tolérée, ferritine 12 µg/L. Le chirurgien demande 2 CGR « pour remonter l'hémoglobine avant l'intervention ». Les 2 CGR sont posés successivement en 1 heure 30. Deux heures après le début, elle devient dyspnéique, PA 178/95 mmHg, FC 112/min, SpO₂ 86 % en air ambiant, crépitants bilatéraux, turgescence jugulaire. Température 37,3 °C. NT-proBNP très élevé.
+
+**Question 1 — L'indication et les modalités étaient-elles appropriées ?**
+Le seuil de 8 g/dL est une option chez la patiente en chirurgie orthopédique avec maladie cardiovasculaire [S1] ; l'indication d'une transfusion pouvait se discuter, mais les **modalités** sont inadaptées : **deux unités d'emblée et un débit rapide** chez une insuffisante cardiaque âgée et de petit poids ; il fallait transfuser **une unité lentement**, réévaluer, et discuter un diurétique [S8]. La **carence martiale** devait aussi être traitée (fer IV en préopératoire selon le PBM) [S9].
+
+**Question 2 — Quel est le diagnostic de la complication ?**
+**TACO** : détresse respiratoire dans les 12 heures, hypertension, signes de surcharge, NT-proBNP élevé, absence de fièvre [S8]. Le TRALI est moins probable (hypotension et absence de surcharge attendues dans le TRALI) [S7].
+
+**Question 3 — Conduite ?**
+Arrêt de la transfusion, position assise, oxygène (ventilation non invasive si besoin), **diurétique de l'anse IV**, surveillance ; vérification de concordance ; **déclaration d'hémovigilance** ; adaptation des transfusions futures (débit lent, unité par unité, diurétique préventif) [S8].
+
+**Commentaire** : le TACO est l'une des complications transfusionnelles graves les plus fréquentes et les plus évitables ; il est favorisé par l'âge, l'insuffisance cardiaque ou rénale, le faible poids et les transfusions rapides ou multiples.
+
+---
+
+## 18. Points clés à retenir
+
+1. **PSL** (CGR, plaquettes, plasma, cryoprécipité) ≠ **MDS** (albumine, immunoglobulines, facteurs, CCP).
+2. Anticorps ABO **naturels** (IgM) → hémolyse **intravasculaire immédiate** ; anticorps irréguliers (IgG) → hémolyse **retardée**.
+3. CGR : O donneur universel ; **plasma : AB donneur universel** (compatibilité inversée).
+4. Bilan : **groupe ABO-RhD sur 2 déterminations**, **RAI** récente ; CGR compatibilisés si RAI positive [S15].
+5. **Seuils restrictifs** : Hb 7 g/dL (adulte stable), 7,5 (chirurgie cardiaque), 8 (orthopédie, cardiopathie) [S1].
+6. Plaquettes : **< 10 G/L** en prophylaxie (chimiothérapie/allogreffe), **< 20 G/L** avant ponction lombaire, **< 50 G/L** avant chirurgie majeure ; pas de transfusion systématique dans la dengue [S2].
+7. Accident le plus grave et le plus évitable : **incompatibilité ABO** par **erreur d'identification**.
+8. **TRALI** (≤ 6 h, œdème lésionnel, hypotension, pas de diurétique) vs **TACO** (≤ 12 h, surcharge, HTA, BNP élevé, diurétique) [S7, S8].
+9. Fièvre + choc pendant une transfusion de **plaquettes** → penser **contamination bactérienne** (culture de la poche).
+10. Devant tout incident : **arrêter, garder la voie, vérifier l'identité, traiter, conserver la poche, déclarer**.
+11. **PBM** : traiter l'anémie (fer), réduire les pertes (acide tranexamique), tolérer l'anémie [S9].
+12. Algérie : collecte par des **structures publiques**, interdiction de toute activité lucrative, **Agence nationale du sang**, donneurs de **18 à 65 ans** (loi 18-11) [S11].
+
+---
+
+## 19. Pièges classiques à l'examen
+
+- Appliquer pour le **plasma** la même règle de compatibilité que pour les globules rouges (le plasma O n'est **pas** universel ; c'est le plasma AB).
+- Transfuser une anémie ferriprive bien tolérée au lieu de traiter la carence.
+- Transfuser **deux CGR d'emblée** chez un sujet âgé insuffisant cardiaque (TACO).
+- Prescrire un **diurétique** dans un TRALI.
+- Considérer une fièvre isolée sous transfusion comme bénigne sans éliminer hémolyse et contamination.
+- Utiliser du **plasma** pour reverser un AVK alors que le **CCP + vitamine K** est recommandé.
+- Transfuser des **plaquettes** dans un PTT ou une TIH non hémorragiques, ou systématiquement dans un PTI.
+- Oublier l'**anti-D** chez une jeune femme RhD négative recevant des plaquettes RhD positives [S5].
+- Déterminer le groupe sanguin sur une seule détermination ou sur une carte de groupe présentée par le patient.
+- Oublier de **conserver la poche** et de **déclarer** l'incident.
+
