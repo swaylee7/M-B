@@ -193,7 +193,7 @@ Apnée / bradycardie → ventilation en pression positive ; intubation si échec
 O2 titré au mélangeur : FiO2 0,21 / 0,21–0,30 / 0,30 selon le terme ; SpO2 ≥ 80 % à 5 min
 Méconium + non vigoureux → VENTILER SANS DÉLAI ; pas d'aspiration trachéale systématique
 Hernie diaphragmatique → pas de curare initial, SpO2 pré-ductale 80–95 % ;
-  intubation, sonde gastrique, éviter le ballon-masque `[À VÉRIFIER]`
+  intubation, sonde gastrique, éviter le ballon-masque [À VÉRIFIER]
 ```
 
 ### 4.2 Support respiratoire et traitements spécifiques
