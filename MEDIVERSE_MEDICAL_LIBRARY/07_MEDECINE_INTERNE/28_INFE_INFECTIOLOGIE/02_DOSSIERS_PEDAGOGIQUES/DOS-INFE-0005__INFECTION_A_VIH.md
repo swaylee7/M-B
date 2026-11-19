@@ -97,7 +97,7 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
     remarque: "Citée de mémoire pour le concept « indétectable = intransmissible ». Audit 2026-11-19 : vérifiée par l'API PubMed (PMID 31056293 ; doi 10.1016/S0140-6736(19)30418-0) ; texte intégral non lu."
   - id: S10
     reference: "Groupe d'experts (CNS / ANRS-MIE). Prise en charge médicale des personnes vivant avec le VIH — recommandations du groupe d'experts (France, édition en vigueur)."

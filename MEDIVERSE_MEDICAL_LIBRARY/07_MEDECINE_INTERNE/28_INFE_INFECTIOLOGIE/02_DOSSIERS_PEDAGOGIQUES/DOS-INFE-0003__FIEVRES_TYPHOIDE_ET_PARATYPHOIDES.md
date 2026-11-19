@@ -88,7 +88,7 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
     remarque: "Référence classique citée de mémoire. Audit 2026-11-19 : vérifiée par l'API PubMed (PMID 12456854 ; doi 10.1056/NEJMra020201) ; texte intégral non lu."
   - id: S9
     reference: "Hoffman SL, Punjabi NH, Kumala S, et al. Reduction of mortality in chloramphenicol-treated severe typhoid fever by high-dose dexamethasone. N Engl J Med. 1984;310(2):82-88."
@@ -97,7 +97,7 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
     remarque: "Audit 2026-11-19 : vérifiée par l'API PubMed (PMID 6361558 ; doi 10.1056/NEJM198401123100203) ; résumé lu : 38 patients sous chloramphénicol, dose initiale de 3 mg/kg, létalité 10 % contre 55,6 % sous placebo ; dexaméthasone recommandée en cas de délire, d'obnubilation, de stupeur, de coma ou de choc."
   - id: S10
     reference: "Collège des universitaires de maladies infectieuses et tropicales (CMIT). E. Pilly / ECN.Pilly — chapitre « Fièvres typhoïde et paratyphoïdes » (édition en vigueur). Paris : Alinéa Plus."

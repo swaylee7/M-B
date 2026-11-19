@@ -6,11 +6,17 @@ sous_specialite: "Valvulopathies"
 items_residanat: [RES-MED-052]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-01 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CARD-0010.md
 sources:
   - id: S1
     reference: "Praz F, Borger MA, Lanz J, et al. 2025 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2025;46(44):4635-4736."
@@ -35,10 +41,10 @@ sources:
     organisme: ACC/AHA
     annee: 2020
     type: recommandation
-    doi: ""
+    doi: "10.1161/CIR.0000000000000923"
     url: ""
-    verifiee: false
-    remarque: "Citée de mémoire pour les divergences (stades A–D) ; référence non confirmée pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Vérifiée par l'audit (PubMed, PMID 33332150 ; résumé exécutif PMID 33332149). Texte intégral non lu."
   - id: S4
     reference: "Delgado V, Ajmone Marsan N, de Waha S, et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042."
     organisme: ESC

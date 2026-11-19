@@ -97,7 +97,7 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
     remarque: "Article de validation du qSOFA cité de mémoire. Audit 2026-11-19 : vérifié par l'API PubMed (PMID 26903335 ; doi 10.1001/jama.2016.0288) ; texte intégral non lu."
   - id: S10
     reference: "Weiss SL, Peters MJ, Oczkowski SJW, et al. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026. Pediatr Crit Care Med. 2026;27(4):379-434 (copublication : Intensive Care Med. 2026;52(5):937-983)."

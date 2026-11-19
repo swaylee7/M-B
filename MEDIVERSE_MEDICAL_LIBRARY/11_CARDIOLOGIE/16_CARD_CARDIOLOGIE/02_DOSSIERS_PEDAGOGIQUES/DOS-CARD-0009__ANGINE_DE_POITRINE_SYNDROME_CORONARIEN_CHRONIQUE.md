@@ -874,7 +874,7 @@ Pas d'anatomie à haut risque. Le **traitement médical optimal** est la base [S
 | **Premier examen** | ESC 2024 : coroscanner si vraisemblance faible à modérée, imagerie fonctionnelle si plus élevée [S1] | HAS 2021 : examens prescrits selon la clinique et le risque, **pas de coronarographie diagnostique en première intention** hors contexte aigu [S2] | Convergence sur l'abandon de la coronarographie diagnostique de première intention |
 | **ECG d'effort** | ESC 2019 et 2024 : place réduite pour le diagnostic, alternative si l'imagerie n'est pas disponible [S1, S10] | Pratique fréquente dans les pays où l'imagerie est peu accessible : premier examen | L'ECG d'effort conserve un intérêt pronostique et fonctionnel |
 | **Durée de la DAPT après angioplastie pour SCC** | ESC 2024 : 6 mois (1–3 mois si haut risque hémorragique) [S1] | AHA/ACC 2023 : schémas comparables, avec désescalade précoce possible **[À VÉRIFIER]** [S3] | |
-| **Colchicine** | ESC 2024 : classe IIa [S1] | AHA/ACC 2023 : recommandation de niveau inférieur (2b) **[À VÉRIFIER]** [S3] | Données de LoDoCo2 ; tolérance digestive et interactions à surveiller |
+| **Colchicine** | ESC 2024 : classe IIa [S1] | AHA/ACC 2023 : recommandation de niveau inférieur (classe 2b : « peut être envisagée ») [S3] | Données de LoDoCo2 ; tolérance digestive et interactions à surveiller |
 | **Bêtabloquant au long cours après infarctus à FEVG conservée** | ESC 2023–2024 : bénéfice discuté à distance de l'infarctus [S1, S6] | Essais récents (REDUCE-AMI, ABYSS, REBOOT, BETAMI-DANBLOCK) aux résultats divergents (voir DOS-CARD-0003) | Question en évolution |
 
 ---
