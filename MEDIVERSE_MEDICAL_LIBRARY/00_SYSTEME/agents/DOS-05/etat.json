@@ -1,9 +1,20 @@
 {
   "id": "DOS-05",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "en_cours",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "lecture_contexte",
+    "recherche_calendrier_vaccinal_algerie"
+  ],
+  "taches_suivantes": [
+    "DOS-PEDI-0001",
+    "DOS-PEDI-0002",
+    "DOS-PEDI-0003",
+    "DOS-NEON-0001",
+    "DOS-NEON-0002",
+    "lot_QCM",
+    "lot_CAS"
+  ],
   "objectifs": {},
   "compteurs": {}
 }

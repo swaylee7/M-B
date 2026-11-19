@@ -7,3 +7,38 @@
 {"date": "2026-11-19T00:45:36+00:00", "agent": "RES-01", "action": "acquisition", "cible": "16_RESIDANAT_ALGERIE/00_TEXTES_OFFICIELS/Reglement_interieur_concours_residanat__FMED_Mostaganem_2022.pdf", "details": {"id": "DOC-00003", "pages": 3}}
 {"date": "2026-11-19T00:46:16+00:00", "agent": "RES-01", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
 {"date": "2026-11-19T00:49:09+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/agents/registre_agents.json"}
+{"date": "2026-11-19T00:53:04+00:00", "agent": "DOS-06", "action": "demarrage", "cible": "00_SYSTEME/agents/DOS-06", "details": {"items": ["RES-MED-030", "RES-MED-106", "RES-MED-107", "RES-MED-109", "RES-MED-111"]}}
+{"date": "2026-11-19T00:53:04+00:00", "agent": "DOS-02", "action": "demarrage", "cible": "mission DOS-02", "details": {"items": ["RES-MED-042", "RES-MED-040", "RES-MED-045", "RES-MED-005", "RES-MED-008"]}}
+{"date": "2026-11-19T00:54:53+00:00", "agent": "ACQ-01", "action": "ecriture_json", "cible": "00_SYSTEME/registre_acquisitions.json"}
+{"date": "2026-11-19T00:54:53+00:00", "agent": "ACQ-01", "action": "acquisition", "cible": "16_RESIDANAT_ALGERIE/00_TEXTES_OFFICIELS/JORADP_2011-038_decret_executif_11-236_statut_resident_sciences_medicales_2011.pdf", "details": {"id": "DOC-00004", "pages": 20}}
+{"date": "2026-11-19T00:55:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T00:55:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T00:55:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T00:55:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T00:55:10+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 4, "dossiers": 0}}
+{"date": "2026-11-19T00:55:10+00:00", "agent": "tableau_de_bord", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/tableau_de_bord.json"}
+{"date": "2026-11-19T00:55:10+00:00", "agent": "tableau_de_bord", "action": "generation", "cible": "25_INDEX_GENERAL/TABLEAU_DE_BORD.md"}
+{"date": "2026-11-19T00:56:06+00:00", "agent": "exporteur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/manifeste_exports.json"}
+{"date": "2026-11-19T00:56:06+00:00", "agent": "exporteur", "action": "exports", "cible": "bibliotheque", "details": {"odt": 0, "pdf": 0, "ods": 3}}
+{"date": "2026-11-19T00:56:41+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "architecte", "action": "construire_architecture", "cible": "MEDIVERSE_MEDICAL_LIBRARY", "details": {"dossiers_crees": 0}}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 4, "dossiers": 0}}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/files_attente/dossiers_residanat.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/files_attente/qcm_residanat.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/files_attente/audits.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/files_attente/acquisitions.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "tableau_de_bord", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/tableau_de_bord.json"}
+{"date": "2026-11-19T00:57:09+00:00", "agent": "tableau_de_bord", "action": "generation", "cible": "25_INDEX_GENERAL/TABLEAU_DE_BORD.md"}
+{"date": "2026-11-19T00:57:11+00:00", "agent": "exporteur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/manifeste_exports.json"}
+{"date": "2026-11-19T00:57:11+00:00", "agent": "exporteur", "action": "exports", "cible": "bibliotheque", "details": {"odt": 0, "pdf": 0, "ods": 3}}
+{"date": "2026-11-19T00:57:11+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T00:57:11+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T00:57:11+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T00:57:11+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T00:57:11+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 4, "dossiers": 0}}
+{"date": "2026-11-19T00:58:32+00:00", "agent": "indexeur", "action": "page_recherche", "cible": "25_INDEX_GENERAL/recherche.html", "details": {"entrees": 4}}

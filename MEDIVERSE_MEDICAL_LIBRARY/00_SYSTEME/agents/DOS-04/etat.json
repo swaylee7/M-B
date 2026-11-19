@@ -1,9 +1,10 @@
 {
   "id": "DOS-04",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "en_cours",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": ["lecture_contexte", "verification_references"],
+  "taches_suivantes": ["DOS-GAST-0001", "DOS-HEPA-0001", "DOS-HEPA-0002", "DOS-CDIG-0001", "DOS-CDIG-0002", "lot_QCM", "lot_CAS"],
+  "objectifs": {"dossiers": 5, "qcm": 60, "cas": 10},
+  "compteurs": {"dossiers": 0, "qcm": 0, "cas": 0},
+  "plages_identifiants": {"qcm": "QCM-GAST/HEPA/CDIG-0401..0499", "cas": "CAS-GAST/HEPA/CDIG-0401..0499"}
 }
