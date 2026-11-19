@@ -453,6 +453,32 @@ SCA + FA (anticoagulation orale indiquée)
 - **Clopidogrel** = inhibiteur du P2Y12 de choix en association ; **prasugrel et ticagrélor ne sont pas recommandés** dans la triple thérapie [S1].
 - Une triple thérapie prolongée (jusqu'à 1 mois) peut se discuter si le risque thrombotique est très élevé.
 
+#### 13.3.5 Populations particulières [S1]
+
+| Population | Points d'attention |
+|---|---|
+| **Sujet âgé (≥ 75 ans)** | Présentation atypique, comorbidités, fragilité, troubles cognitifs ; **même stratégie diagnostique et thérapeutique** que chez le plus jeune lorsque le patient n'est pas fragile ; adapter les doses à la fonction rénale et au poids ; prasugrel à 5 mg/j ou préférer le clopidogrel/ticagrélor selon le risque hémorragique ; décision partagée tenant compte des préférences du patient |
+| **Femme** | Symptômes plus souvent atypiques, retard diagnostique ; seuils de troponine spécifiques au sexe proposés pour certains dosages ; même bénéfice de la stratégie invasive ; penser à la dissection coronaire spontanée et au Takotsubo |
+| **Insuffisance rénale chronique** | Troponine chroniquement élevée : interpréter la **cinétique** ; adapter l'énoxaparine (1 mg/kg/24 h si clairance < 30 mL/min) et éviter le fondaparinux en insuffisance rénale sévère ; limiter le volume de produit de contraste, hydratation ; bénéfice de la stratégie invasive conservé chez les patients sélectionnés |
+| **Diabétique** | Atteinte pluritronculaire et diffuse fréquente ; discuter le **pontage** ; contrôle glycémique sans hypoglycémie ; iSGLT2 ou agonistes du GLP-1 à bénéfice cardiovasculaire selon les recommandations diabétologiques |
+| **Anémie / hémorragie récente** | Rechercher une cause (digestive) ; envisager un infarctus de type 2 ; stratégie antithrombotique allégée ; transfusion selon des seuils individualisés `[À VÉRIFIER]` |
+| **Thrombopénie** | Contre-indications relatives à certains antithrombotiques ; rechercher une thrombopénie induite par l'héparine sous HNF |
+| **Patient fragile ou en fin de vie** | Stratégie conservatrice discutée avec le patient et ses proches |
+
+#### 13.3.6 Choix entre angioplastie et pontage
+
+La décision est prise en **équipe cardiologique** (cardiologue interventionnel, chirurgien cardiaque, cardiologue clinicien) lorsque l'anatomie est complexe [S1] :
+
+| Situation | Orientation habituelle |
+|---|---|
+| Atteinte monotronculaire ou bitronculaire simple, lésion coupable identifiable | **Angioplastie** de la lésion coupable, revascularisation complète des autres lésions significatives (en un ou plusieurs temps) |
+| **Tronc commun** de faible complexité anatomique | Angioplastie ou pontage selon l'anatomie et le terrain |
+| Tronc commun ou **pluritronculaire complexe** (score anatomique élevé), en particulier chez le **diabétique** ou en cas de **dysfonction ventriculaire gauche** | **Pontage** à privilégier |
+| Patient instable avec lésion coupable claire | Angioplastie de la lésion coupable en urgence, puis discussion des autres lésions |
+| Anatomie non revascularisable | Traitement médical optimal |
+
+**Principe** : la revascularisation de la **lésion coupable** est réalisée lors de la coronarographie si elle est techniquement adaptée ; les **lésions non coupables** sont évaluées (physiologie coronaire pour les sténoses intermédiaires) et traitées en vue d'une **revascularisation complète** [S1].
+
 ### 13.4 Particularités algériennes
 
 - **Troponine ultrasensible** : la disponibilité des dosages ultrasensibles (et donc l'applicabilité de l'algorithme 0 h/1 h) varie selon les établissements `[À VÉRIFIER]` ; avec une troponine conventionnelle, l'algorithme rapide ne s'applique pas et un prélèvement plus tardif (3–6 h) est nécessaire.
