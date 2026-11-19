@@ -1,0 +1,713 @@
+{
+  "agent": "DOS-08",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-HEMA-0801",
+      "titre": "Fourmillements des pieds et fatigue chez une femme de 62 ans",
+      "niveau": "residanat",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 62 ans, couturière retraitée, vit à Béjaïa, mariée, 3 enfants.",
+      "motif_consultation": "Asthénie progressive depuis 6 mois et sensations de fourmillements des pieds remontant aux mollets depuis 3 mois.",
+      "antecedents": "Hypothyroïdie auto-immune (thyroïdite de Hashimoto) sous lévothyroxine 75 µg/j ; vitiligo des mains. Pas d'alcool. Pas de traitement par IPP ni metformine. Alimentation variée. Ménopause à 51 ans.",
+      "symptomes": "Asthénie, dyspnée à la montée de deux étages, langue douloureuse au contact des aliments épicés, paresthésies distales des membres inférieurs, instabilité à la marche dans l'obscurité, perte d'appétit sans amaigrissement notable.",
+      "examen_clinique": "Pâleur cutanéo-muqueuse avec subictère conjonctival discret, langue lisse et rouge (glossite de Hunter). FC 98/min, PA 126/70 mmHg, souffle systolique 2/6 anorganique. Hypoesthésie vibratoire des membres inférieurs, réflexes achilléens abolis, signe de Romberg positif. Pas d'hépatosplénomégalie ni d'adénopathie.",
+      "biologie": "Hb 78 g/L (VN 120–160), VGM 121 fL (80–100), réticulocytes 22 G/L (25–100), leucocytes 3,4 G/L (PNN 1,6 G/L), plaquettes 112 G/L (150–400) ; frottis : macro-ovalocytes, polynucléaires hypersegmentés ; LDH 1 850 UI/L (< 250), haptoglobine < 0,1 g/L (0,3–2), bilirubine libre 32 µmol/L (< 17) ; vitamine B12 sérique 68 pmol/L (seuil local de carence < 150) ; folates sériques 14 nmol/L (normaux) ; ferritine 210 µg/L ; anticorps anti-facteur intrinsèque positifs ; anticorps anti-cellules pariétales positifs ; gastrine élevée ; TSH 2,1 mUI/L ; kaliémie 4,1 mmol/L.",
+      "imagerie": "Fibroscopie œso-gastro-duodénale : atrophie fundique ; biopsies : gastrite atrophique auto-immune du corps, hyperplasie endocrine, absence de dysplasie et de tumeur neuroendocrine. IRM médullaire non réalisée (examen neurologique compatible avec une atteinte cordonale postérieure).",
+      "hypotheses_diagnostiques": [
+        "Anémie mégaloblastique par carence en vitamine B12 (maladie de Biermer)",
+        "Atteinte neurologique de la carence en B12 (sclérose combinée de la moelle, neuropathie)",
+        "Terrain auto-immun associé (thyroïdite, vitiligo)"
+      ],
+      "diagnostics_differentiels": [
+        "Hémolyse périphérique (éliminée : réticulocytes bas)",
+        "Myélodysplasie (macrocytose arégénérative avec bicytopénie, à évoquer si absence de réponse à la B12)",
+        "Carence en folates (folates normaux)",
+        "Neuropathie diabétique ou alcoolique (absence de terrain)"
+      ],
+      "examens_a_demander": [
+        "Hémogramme avec réticulocytes et frottis",
+        "Vitamine B12, folates (± acide méthylmalonique si doute)",
+        "Bilan d'hémolyse (LDH, haptoglobine, bilirubine libre)",
+        "Anticorps anti-facteur intrinsèque et anti-cellules pariétales",
+        "Fibroscopie œso-gastro-duodénale avec biopsies",
+        "TSH, glycémie, bilan martial",
+        "Kaliémie avant et pendant les premiers jours de traitement"
+      ],
+      "diagnostic_final": "Maladie de Biermer (anémie pernicieuse) révélée par une anémie macrocytaire arégénérative avec bicytopénie et un syndrome neuro-anémique (sclérose combinée de la moelle débutante), sur terrain auto-immun.",
+      "traitement": "Vitamine B12 par voie parentérale à vie : par exemple hydroxocobalamine 1 mg IM tous les deux jours tant que les signes neurologiques s'améliorent, puis 1 mg tous les 2 mois selon le schéma britannique cité par la BSH ; en France, cyanocobalamine 1 000 µg IM selon un schéma d'attaque puis d'entretien mensuel [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Pas de folates seuls. Pas de transfusion (tolérance acceptable). Surveillance de la kaliémie les premiers jours. Kinésithérapie de rééducation de l'équilibre.",
+      "surveillance": "Réticulocytes à J5–J8 (crise réticulocytaire attendue), kaliémie à J2–J3, hémogramme à 1 et 2 mois, examen neurologique ; surveillance endoscopique gastrique selon les recommandations de gastro-entérologie (tumeurs neuroendocrines, adénocarcinome) ; dépistage d'une carence martiale secondaire lors de la régénération ; suivi thyroïdien.",
+      "evolution": "Réticulocytes à 310 G/L à J7, Hb 104 g/L à 4 semaines puis 128 g/L à 8 semaines ; normalisation des leucocytes et des plaquettes ; régression partielle des paresthésies à 3 mois, persistance d'une discrète hypopallesthésie.",
+      "explication_pedagogique": "La carence en B12 donne une anémie macrocytaire arégénérative, souvent avec atteinte des autres lignées et des signes d'hémolyse intramédullaire (LDH élevées, haptoglobine basse) liés à l'érythropoïèse inefficace : les réticulocytes bas la distinguent d'une hémolyse périphérique. L'atteinte neurologique peut être au premier plan et ne régresse complètement que si le traitement est précoce. La maladie de Biermer s'associe à d'autres maladies auto-immunes et impose un traitement à vie et une surveillance gastrique.",
+      "questions": [
+        {
+          "question": "Pourquoi les LDH sont-elles élevées et l'haptoglobine effondrée alors qu'il ne s'agit pas d'une hémolyse périphérique ?",
+          "reponse": "Par avortement intramédullaire des érythroblastes mégaloblastiques (érythropoïèse inefficace) : destruction des précurseurs dans la moelle, d'où la réticulocytopénie."
+        },
+        {
+          "question": "Quel risque comporte l'administration d'acide folique seul ?",
+          "reponse": "Une correction partielle de l'anémie avec aggravation possible de l'atteinte neurologique : la B12 doit être corrigée en premier."
+        },
+        {
+          "question": "Quel examen biologique surveiller dans les premiers jours du traitement d'une anémie mégaloblastique sévère ?",
+          "reponse": "La kaliémie (hypokaliémie liée à la reprise intense de l'érythropoïèse)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Devalia V, Hamilton MS, Molloy AM. Guidelines for the diagnosis and treatment of cobalamin and folate disorders. Br J Haematol 2014;166:496-513",
+          "date": "2014"
+        },
+        {
+          "reference": "WHO. Guideline on haemoglobin cutoffs to define anaemia. 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0802",
+      "titre": "Douleur thoracique fébrile chez un jeune drépanocytaire hospitalisé pour une crise douloureuse",
+      "niveau": "resident",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 21 ans, étudiant, originaire d'Adrar, drépanocytose SS connue.",
+      "motif_consultation": "Hospitalisé depuis 24 heures pour une crise vaso-occlusive des membres inférieurs et du rachis lombaire ; apparition d'une douleur thoracique droite et d'une fièvre.",
+      "antecedents": "Drépanocytose SS diagnostiquée à 2 ans ; 4 hospitalisations pour crise vaso-occlusive l'an dernier ; un syndrome thoracique aigu à 17 ans ; cholécystectomie pour lithiase pigmentaire à 16 ans ; pas de traitement de fond ; Hb de base 78 g/L ; vaccinations de l'enfance à jour, pas de rappel antipneumococcique récent.",
+      "symptomes": "Douleurs osseuses intenses (EVA 8/10) partiellement soulagées par la morphine titrée ; depuis 6 heures, douleur basithoracique droite augmentée par l'inspiration, toux sèche, fièvre à 38,7 °C, essoufflement.",
+      "examen_clinique": "FR 28/min, SpO2 89 % en air ambiant, FC 118/min, PA 118/66 mmHg, T 38,7 °C. Matité et crépitants de la base droite. Subictère conjonctival. Pas de signe neurologique. Pas de priapisme. Hypoventilation liée à la douleur.",
+      "biologie": "Hb 62 g/L (Hb de base 78 g/L), réticulocytes 280 G/L, leucocytes 21 G/L, plaquettes 210 G/L ; LDH 920 UI/L ; bilirubine libre 58 µmol/L ; CRP 145 mg/L ; créatinine 62 µmol/L ; gaz du sang en air ambiant : PaO2 56 mmHg, PaCO2 34 mmHg ; groupe sanguin O RhD+, phénotype RH-KEL et étendu connus ; RAI négative.",
+      "imagerie": "Radiographie thoracique : opacité alvéolaire nouvelle de la base droite avec petit épanchement pleural ; pas d'opacité à l'admission.",
+      "hypotheses_diagnostiques": [
+        "Syndrome thoracique aigu compliquant une crise vaso-occlusive",
+        "Pneumopathie infectieuse (pneumocoque, germes atypiques) déclenchante ou associée",
+        "Embolie pulmonaire / thrombose in situ (à discuter)"
+      ],
+      "diagnostics_differentiels": [
+        "Embolie pulmonaire",
+        "Pneumopathie bactérienne isolée",
+        "Infarctus costal avec hypoventilation",
+        "Insuffisance cardiaque à haut débit / surcharge hydrique"
+      ],
+      "examens_a_demander": [
+        "Gaz du sang artériel",
+        "Radiographie thoracique (à répéter)",
+        "Hémogramme, réticulocytes, bilan d'hémolyse",
+        "Hémocultures, antigénuries, PCR respiratoires selon disponibilité",
+        "Groupage, phénotype étendu, RAI (préparation transfusionnelle)",
+        "Angioscanner thoracique si suspicion d'embolie pulmonaire"
+      ],
+      "diagnostic_final": "Syndrome thoracique aigu sévère (hypoxémie < 60 mmHg, chute de l'Hb de 16 g/L) compliquant une crise vaso-occlusive chez un drépanocytaire SS.",
+      "traitement": "Oxygénothérapie pour SpO2 ≥ 95 % ; antibiothérapie couvrant le pneumocoque et les germes intracellulaires (céphalosporine de 3e génération + macrolide) ; analgésie par morphine titrée avec surveillance de la vigilance et de la fréquence respiratoire ; spirométrie incitative et kinésithérapie respiratoire ; hydratation sans excès ; anticoagulation préventive ; transfusion de concentrés de globules rouges phénotypés compatibles (ou échange transfusionnel si aggravation, en visant à réduire l'HbS) sans dépasser une Hb d'environ 100–110 g/L (hyperviscosité) [POSOLOGIE À VÉRIFIER — protocole local]. Pas de corticothérapie. Avis de réanimation si aggravation respiratoire.",
+      "surveillance": "SpO2 continue, FR, signes de détresse, vigilance (opioïdes), Hb et réticulocytes quotidiens, radiographie thoracique, recherche d'une hémolyse post-transfusionnelle retardée (J5–J15) et d'une allo-immunisation (RAI).",
+      "evolution": "Amélioration en 72 heures après transfusion de 2 CGR phénotypés (Hb 88 g/L), apyrexie à J3, sevrage en oxygène à J5. Sortie à J8. Proposition d'hydroxycarbamide (antécédent de STA, CVO fréquentes), mise à jour vaccinale (pneumocoque, grippe), éducation thérapeutique.",
+      "explication_pedagogique": "Le syndrome thoracique aigu, défini par des signes respiratoires, une fièvre et un infiltrat radiologique nouveau, complique souvent une CVO (hypoventilation douloureuse, morphiniques, embolies graisseuses, infection) et constitue une cause majeure de décès de l'adulte drépanocytaire. Sa prévention en cours de CVO repose sur la spirométrie incitative et une analgésie efficace sans dépression respiratoire. Les antécédents de STA et les CVO répétées sont des indications de l'hydroxycarbamide selon le panel NHLBI 2014.",
+      "questions": [
+        {
+          "question": "Quels critères définissent le syndrome thoracique aigu ?",
+          "reponse": "Un infiltrat pulmonaire radiologique nouveau associé à des signes respiratoires (douleur thoracique, toux, polypnée, hypoxémie) et/ou de la fièvre."
+        },
+        {
+          "question": "Pourquoi utiliser des concentrés phénotypés et éviter une Hb post-transfusionnelle trop élevée ?",
+          "reponse": "Pour prévenir l'allo-immunisation (et l'hémolyse post-transfusionnelle retardée) et éviter l'hyperviscosité liée à l'HbS restante."
+        },
+        {
+          "question": "Quel traitement de fond proposer à la sortie et pourquoi ?",
+          "reponse": "L'hydroxycarbamide, qui augmente l'HbF et réduit la fréquence des CVO et des STA ; indications : ≥ 3 CVO/an, STA sévère ou récidivant (NHLBI 2014)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Yawn BP et al. Management of sickle cell disease. JAMA 2014;312:1033-1048",
+          "date": "2014"
+        },
+        {
+          "reference": "HAS. PNDS Syndromes drépanocytaires majeurs de l'adulte, 2010 (actualisation 2013)",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0803",
+      "titre": "Taches rouges sur la peau d'un garçon de 5 ans après une gastro-entérite",
+      "niveau": "generaliste",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 5 ans, scolarisé en grande section, vit à Blida avec ses parents.",
+      "motif_consultation": "Apparition depuis la veille de petites taches rouges sur les jambes et le tronc, et de quelques « bleus » sans traumatisme notable.",
+      "antecedents": "Aucun antécédent personnel ou familial hémorragique. Vaccinations à jour selon le calendrier national. Gastro-entérite virale il y a 3 semaines. Aucun médicament en cours.",
+      "symptomes": "Purpura pétéchial et ecchymoses ; pas de saignement des gencives ni du nez, pas de sang dans les urines ni les selles ; enfant en bon état général, joue normalement, pas de fièvre, pas de douleurs osseuses.",
+      "examen_clinique": "Poids 19 kg, T 36,9 °C. Purpura pétéchial diffus non infiltré, 4 ecchymoses des membres inférieurs. Pas de bulle hémorragique buccale. Pas d'adénopathie, pas d'hépatosplénomégalie, pas de pâleur. Examen neurologique normal.",
+      "biologie": "Hb 124 g/L (VN 110–140), VGM 80 fL, leucocytes 7,8 G/L avec formule normale, plaquettes 9 G/L (150–400) confirmées sur tube citraté ; frottis : pas d'agrégat, pas de blaste, pas de schizocyte, plaquettes de grande taille ; TP et TCA normaux ; fibrinogène normal ; créatinine normale ; test direct à l'antiglobuline négatif.",
+      "imagerie": "Aucune imagerie nécessaire en l'absence de signe neurologique.",
+      "hypotheses_diagnostiques": [
+        "Purpura thrombopénique immunologique aigu post-infectieux de l'enfant",
+        "Leucémie aiguë (peu probable : hémogramme sinon normal, pas de syndrome tumoral)",
+        "Fausse thrombopénie (éliminée par le tube citraté et le frottis)"
+      ],
+      "diagnostics_differentiels": [
+        "Leucémie aiguë lymphoblastique",
+        "Aplasie médullaire",
+        "Syndrome hémolytique et urémique (pas d'anémie ni de schizocytes, fonction rénale normale)",
+        "Purpura rhumatoïde (vascularite à IgA : plaquettes normales, purpura infiltré)",
+        "Thrombopénie constitutionnelle (pas d'antécédent)",
+        "Maltraitance (bilan d'hémostase anormal ici)"
+      ],
+      "examens_a_demander": [
+        "Hémogramme complet avec frottis, contrôle sur citrate",
+        "Réticulocytes, bilan d'hémolyse si anémie",
+        "TP, TCA, fibrinogène",
+        "Groupe sanguin (si traitement par IgIV envisagé)",
+        "Dosage pondéral des immunoglobulines selon le PNDS pédiatrique",
+        "Myélogramme non systématique ; à discuter en cas d'atypie ou avant corticothérapie selon les pratiques"
+      ],
+      "diagnostic_final": "Purpura thrombopénique immunologique nouvellement diagnostiqué de l'enfant, probablement post-viral, sans saignement muqueux (forme non sévère).",
+      "traitement": "Abstention thérapeutique et surveillance (recommandation ASH 2019 chez l'enfant sans saignement ou avec saignement cutané seul ; PNDS PTI de l'enfant 2025 : traitement guidé par le score hémorragique). Mesures de prévention : éviter aspirine, AINS et injections intramusculaires, éviter les activités à risque de traumatisme crânien, paracétamol si besoin. Information des parents sur les signes d'alerte (saignement muqueux, céphalées, vomissements, somnolence) imposant une consultation urgente. Traitement par IgIV ou corticoïdes courts réservé à l'apparition d'un saignement significatif [POSOLOGIE À VÉRIFIER — PNDS pédiatrique].",
+      "surveillance": "Hémogramme à J7 puis selon l'évolution ; examen clinique ; réévaluation à 3 mois (PTI persistant) et 12 mois (chronique) ; si chronicité, bilan à la recherche d'une cause secondaire (lupus, déficit immunitaire).",
+      "evolution": "Plaquettes à 35 G/L à J10, 120 G/L à 6 semaines, sans aucun saignement muqueux. Guérison spontanée.",
+      "explication_pedagogique": "Le PTI de l'enfant survient typiquement quelques semaines après une infection virale ; le purpura peut être spectaculaire mais les hémorragies graves sont rares et la guérison spontanée est la règle dans la majorité des cas. Le diagnostic repose sur une thrombopénie isolée avec hémogramme, frottis et examen normaux. La décision thérapeutique dépend du saignement, non du chiffre de plaquettes.",
+      "questions": [
+        {
+          "question": "Quels éléments rendent une leucémie aiguë peu probable ?",
+          "reponse": "Hémoglobine et leucocytes normaux, formule normale, absence de blastes, absence d'adénopathie, d'hépatosplénomégalie et de douleurs osseuses."
+        },
+        {
+          "question": "Quels médicaments sont à éviter ?",
+          "reponse": "Aspirine, AINS, injections intramusculaires."
+        },
+        {
+          "question": "Quand parle-t-on de PTI chronique ?",
+          "reponse": "Lorsque la thrombopénie persiste au-delà de 12 mois après le diagnostic."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Neunert C et al. ASH 2019 guidelines for immune thrombocytopenia. Blood Adv 2019;3:3829-3866",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. PNDS PTI de l'enfant et de l'adolescent, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Rodeghiero F et al. Blood 2009;113:2386-2393",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0804",
+      "titre": "Thrombopénie récidivante sous corticoïdes chez une femme de 45 ans",
+      "niveau": "dems",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 45 ans, comptable, vit à Sétif, deux enfants.",
+      "motif_consultation": "Avis spécialisé pour un PTI évoluant depuis 14 mois, rechutant à chaque tentative de diminution de la prednisone.",
+      "antecedents": "PTI diagnostiqué il y a 14 mois (plaquettes 11 G/L avec gingivorragies) ; réponse aux corticoïdes (prednisone 1 mg/kg/j) mais rechute sous 15 mg/j à deux reprises ; une cure d'IgIV pour une épistaxis sévère ; prise de 8 kg, diabète cortico-induit récent (HbA1c 7,4 %), ostéopénie. Pas de thrombose. Pas de grossesse en projet.",
+      "symptomes": "Ecchymoses spontanées, ménorragies abondantes, fatigue marquée ; pas de saignement viscéral.",
+      "examen_clinique": "Faciès cushingoïde, PA 142/88 mmHg, quelques pétéchies des membres inférieurs, pas de splénomégalie ni d'adénopathie, pas de signe articulaire ni cutané de lupus.",
+      "biologie": "Plaquettes 18 G/L sous prednisone 10 mg/j ; Hb 112 g/L, ferritine 9 µg/L ; leucocytes normaux ; frottis sans anomalie ; sérologies VIH, VHB (Ag HBs négatif, anti-HBc négatif), VHC négatives ; AAN 1/80 non spécifiques, anticorps antiphospholipides négatifs ; TSH normale ; immunoglobulines normales ; test respiratoire à l'urée : infection à Helicobacter pylori ; myélogramme (fait à la 2e rechute) : moelle riche, mégacaryocytes nombreux, pas de dysplasie.",
+      "imagerie": "Échographie abdominale : rate de taille normale. Ostéodensitométrie : ostéopénie lombaire.",
+      "hypotheses_diagnostiques": [
+        "PTI chronique (> 12 mois) corticodépendant",
+        "PTI associé à Helicobacter pylori",
+        "Carence martiale secondaire aux ménorragies"
+      ],
+      "diagnostics_differentiels": [
+        "Myélodysplasie (myélogramme normal)",
+        "Lupus systémique débutant (AAN faibles, à surveiller)",
+        "Thrombopénie constitutionnelle (non : numération antérieure normale)",
+        "Hypersplénisme (rate normale)"
+      ],
+      "examens_a_demander": [
+        "Recherche d'Helicobacter pylori (test respiratoire, antigène fécal)",
+        "Bilan martial",
+        "Sérologie VHB complète avant rituximab",
+        "Statut vaccinal (pneumocoque, méningocoques, Haemophilus) avant splénectomie éventuelle",
+        "Bilan hépatique avant eltrombopag",
+        "Évaluation des complications cortisoniques (glycémie, densitométrie)"
+      ],
+      "diagnostic_final": "PTI primaire chronique corticodépendant de l'adulte, avec infection à Helicobacter pylori associée, carence martiale par ménorragies et complications de la corticothérapie (diabète, prise de poids, ostéopénie).",
+      "traitement": "Éradication d'H. pylori selon le protocole local (une réponse plaquettaire est possible). Décroissance puis arrêt de la prednisone (corticothérapie prolongée non recommandée). Deuxième ligne par décision partagée : agoniste du récepteur de la TPO (eltrombopag oral à distance des produits laitiers, avec surveillance hépatique, ou romiplostim SC hebdomadaire) [POSOLOGIE À VÉRIFIER — RCP] ; alternatives : rituximab (après sérologie VHB et vaccinations) ou splénectomie (PTI > 12 mois, après vaccinations). Traitement des ménorragies (progestatifs, acide tranexamique) et fer oral ou intraveineux. Prise en charge du diabète et de l'ostéopénie.",
+      "surveillance": "Plaquettes hebdomadaires jusqu'à stabilisation de la dose d'AR-TPO, puis mensuelles ; transaminases ; signes de thrombose ; ferritine ; glycémie ; réévaluation des besoins thérapeutiques et possibilité de diminution progressive de l'AR-TPO en cas de réponse prolongée.",
+      "evolution": "Après éradication d'H. pylori, plaquettes 32 G/L ; introduction d'eltrombopag : plaquettes stabilisées entre 70 et 130 G/L ; arrêt de la prednisone en 6 semaines, normalisation de la glycémie ; correction de la carence martiale.",
+      "explication_pedagogique": "Le PTI chronique corticodépendant est une situation fréquente chez l'adulte. La corticothérapie prolongée est délétère et doit être évitée (ASH : ≤ 6 semaines). La deuxième ligne (AR-TPO, rituximab, splénectomie après 12 mois) relève d'une décision partagée. Dans les régions de forte prévalence, la recherche et l'éradication d'H. pylori sont recommandées par le consensus international.",
+      "questions": [
+        {
+          "question": "Citez les trois grandes options de deuxième ligne du PTI de l'adulte.",
+          "reponse": "Agonistes du récepteur de la thrombopoïétine, rituximab, splénectomie (après 12 mois d'évolution)."
+        },
+        {
+          "question": "Quelles précautions avant rituximab ?",
+          "reponse": "Sérologie VHB (risque de réactivation), dosage des immunoglobulines, mise à jour des vaccinations."
+        },
+        {
+          "question": "Quelle surveillance biologique spécifique sous eltrombopag ?",
+          "reponse": "Le bilan hépatique (hépatotoxicité), en plus de la numération plaquettaire."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Provan D et al. Updated international consensus report on ITP. Blood Adv 2019;3:3780-3817",
+          "date": "2019"
+        },
+        {
+          "reference": "Neunert C et al. ASH 2019 ITP guidelines. Blood Adv 2019;3:3829-3866",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. Synthèse médecin traitant PTI de l'adulte, 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0805",
+      "titre": "Volumineux hématome de la cuisse après une vaccination chez un nourrisson de 11 mois",
+      "niveau": "etudiant",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 11 mois, vit à M'Sila avec ses parents (cousins germains).",
+      "motif_consultation": "Tuméfaction douloureuse de la cuisse gauche apparue 24 heures après un vaccin injecté par voie intramusculaire.",
+      "antecedents": "Grossesse et accouchement sans particularité. Saignement prolongé (2 jours) après la circoncision réalisée à 3 mois, ayant nécessité une compression. Oncle maternel décédé jeune « d'une hémorragie après un accident ». Pas de traitement.",
+      "symptomes": "Pleurs à la mobilisation du membre inférieur gauche, refus d'appui, ecchymoses multiples du tronc et des genoux depuis qu'il se déplace à quatre pattes.",
+      "examen_clinique": "Poids 9,5 kg, apyrétique, FC 140/min. Volumineux hématome tendu de la face antérolatérale de la cuisse gauche (périmètre augmenté de 3 cm), pouls distaux perçus. Ecchymoses d'âges différents aux genoux et au tronc. Pas de pétéchie. Pas d'hépatosplénomégalie. Fontanelle normotendue, examen neurologique normal.",
+      "biologie": "Hb 92 g/L (VN 105–135), plaquettes 345 G/L ; TP 95 % ; TCA 84 s (témoin 31 s), corrigé par le mélange avec un plasma témoin ; fibrinogène 2,8 g/L ; FVIII < 1 UI/dL ; FIX 72 UI/dL ; FXI normal ; facteur Willebrand antigène et activité normaux ; recherche d'inhibiteur (Bethesda) négative.",
+      "imagerie": "Échographie de la cuisse : hématome intramusculaire du vaste latéral de 6 cm, sans atteinte articulaire.",
+      "hypotheses_diagnostiques": [
+        "Hémophilie A sévère",
+        "Maladie de Willebrand de type 3 ou 2N (éliminée par les dosages)",
+        "Déficit en FIX ou FXI (éliminé)"
+      ],
+      "diagnostics_differentiels": [
+        "Maladie de Willebrand (type 3, type 2N)",
+        "Déficits rares en facteurs (fréquence accrue en cas de consanguinité)",
+        "Maltraitance (à évoquer devant des ecchymoses multiples, mais le bilan d'hémostase est anormal)",
+        "Thrombopénie (plaquettes normales)"
+      ],
+      "examens_a_demander": [
+        "NFS, plaquettes",
+        "TP, TCA, fibrinogène",
+        "Test de correction du TCA par plasma témoin",
+        "Dosages FVIII, FIX, FXI et facteur Willebrand",
+        "Recherche d'inhibiteur",
+        "Génotypage (inversion de l'intron 22 du gène F8)",
+        "Enquête familiale : statut de conductrice de la mère et des tantes maternelles"
+      ],
+      "diagnostic_final": "Hémophilie A sévère (FVIII < 1 UI/dL), révélée par un hématome musculaire après injection IM et un saignement prolongé post-circoncision, dans une famille avec antécédent évocateur en lignée maternelle.",
+      "traitement": "Injection IV de concentré de FVIII sans délai, à dose calculée selon la formule de la WFH (poids × élévation souhaitée × 0,5) pour un hématome musculaire, répétée selon l'évolution [POSOLOGIE À VÉRIFIER — protocole du CTH] ; repos, antalgiques (paracétamol), pas d'AINS ni d'aspirine ; aucune nouvelle injection IM (vaccins par voie sous-cutanée). Orientation vers un centre de traitement de l'hémophilie ; mise en place d'une prophylaxie primaire (FVIII ou émicizumab selon disponibilité) ; éducation des parents ; carte d'hémophile.",
+      "surveillance": "Évolution de l'hématome (périmètre, compression), Hb ; dépistage régulier des inhibiteurs pendant les premiers jours d'exposition au FVIII ; suivi au CTH ; examen articulaire.",
+      "evolution": "Régression de l'hématome en 10 jours. Prophylaxie débutée à 13 mois. Mère identifiée conductrice par analyse génétique (inversion de l'intron 22) ; conseil génétique proposé à la famille élargie.",
+      "explication_pedagogique": "Un hématome après injection IM, un saignement prolongé après circoncision et des ecchymoses à l'âge de la marche à quatre pattes chez un garçon doivent faire évoquer une hémophilie. Le TCA isolément allongé et corrigé par un plasma témoin oriente vers un déficit en facteur, confirmé par les dosages. Les antécédents en lignée maternelle sont typiques d'une transmission récessive liée à l'X ; la consanguinité doit aussi faire penser aux déficits rares autosomiques.",
+      "questions": [
+        {
+          "question": "Quelle est la sévérité de cette hémophilie et pourquoi ?",
+          "reponse": "Sévère, car le taux de FVIII est inférieur à 1 UI/dL."
+        },
+        {
+          "question": "Pourquoi doser le facteur Willebrand ?",
+          "reponse": "Pour éliminer une maladie de Willebrand de type 3 ou 2N, qui abaisse aussi le FVIII."
+        },
+        {
+          "question": "Quelle mesure préventive pour les prochaines vaccinations ?",
+          "reponse": "Les administrer par voie sous-cutanée (pas d'injection intramusculaire)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Srivastava A et al. WFH Guidelines for the Management of Hemophilia, 3rd ed. Haemophilia 2020;26(Suppl 6):1-158",
+          "date": "2020"
+        },
+        {
+          "reference": "HAS. PNDS Hémophilie (2019, mis en ligne 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0806",
+      "titre": "Ecchymoses géantes chez un homme de 76 ans sans antécédent hémorragique",
+      "niveau": "dems",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 76 ans, agriculteur retraité, vit à Mascara.",
+      "motif_consultation": "Apparition depuis 10 jours de vastes ecchymoses des bras et du flanc, puis d'un hématome douloureux de l'avant-bras droit après une prise de sang.",
+      "antecedents": "HTA traitée par amlodipine ; adénocarcinome de la prostate diagnostiqué il y a 4 mois, sous surveillance. Aucun antécédent hémorragique personnel ou familial (extraction dentaire et appendicectomie sans incident). Pas d'anticoagulant ni d'antiagrégant.",
+      "symptomes": "Ecchymoses spontanées étendues, hématome de l'avant-bras douloureux avec fourmillements des doigts, asthénie.",
+      "examen_clinique": "PA 136/78 mmHg, FC 104/min. Ecchymoses de 10 à 20 cm sur les bras et le flanc gauche. Avant-bras droit tendu, douloureux à l'extension passive des doigts, pouls radial présent. Pas d'hémarthrose. Pas de purpura pétéchial.",
+      "biologie": "Hb 86 g/L (VN 130–170), plaquettes 265 G/L ; TP 92 % ; TCA 72 s (témoin 30 s) ; mélange avec plasma témoin : correction partielle immédiate, allongement après incubation de 2 heures à 37 °C ; FVIII 2 UI/dL ; FIX et FXI normaux ; anticoagulant de type lupique négatif ; titre d'anti-FVIII 18 UB/mL (Bethesda) ; créatinine 98 µmol/L.",
+      "imagerie": "Échographie de l'avant-bras : volumineux hématome intramusculaire des loges antérieures. Scanner abdominal non injecté : pas d'hématome rétropéritonéal.",
+      "hypotheses_diagnostiques": [
+        "Hémophilie A acquise (auto-anticorps anti-FVIII)",
+        "Association possible à la néoplasie prostatique"
+      ],
+      "diagnostics_differentiels": [
+        "Hémophilie A constitutionnelle mineure méconnue (improbable : aucun antécédent, chirurgies sans incident)",
+        "Anticoagulant de type lupique (non hémorragique, négatif)",
+        "Maladie de Willebrand acquise",
+        "Surdosage en anticoagulant (non exposé)"
+      ],
+      "examens_a_demander": [
+        "TP, TCA, test de correction immédiat et après incubation",
+        "Dosages FVIII, FIX, FXI, facteur Willebrand",
+        "Titrage de l'inhibiteur en unités Bethesda",
+        "Recherche d'anticoagulant de type lupique",
+        "Bilan étiologique : cancer (bilan de la néoplasie connue), maladies auto-immunes, médicaments",
+        "Imagerie des hématomes profonds (échographie, scanner)"
+      ],
+      "diagnostic_final": "Hémophilie A acquise avec inhibiteur à titre élevé (18 UB/mL), compliquée d'un hématome de l'avant-bras avec menace de syndrome des loges, chez un patient porteur d'un adénocarcinome prostatique.",
+      "traitement": "Hospitalisation en lien avec un centre de traitement de l'hémophilie. Traitement hémostatique par agent by-passant (facteur VII activé recombinant ou concentré de complexe prothrombinique activé) ou FVIII porcin recombinant selon disponibilité [POSOLOGIE À VÉRIFIER — RCP / protocole du CTH] ; surveillance de la loge et avis orthopédique (éviter une aponévrotomie sans couverture hémostatique). Éradication de l'auto-anticorps : corticoïdes ± cyclophosphamide ou rituximab selon le protocole. Pas d'injection IM, limitation des ponctions veineuses. Prise en charge oncologique de la néoplasie prostatique. Prophylaxie thromboembolique et anti-infectieuse à discuter sous immunosuppresseurs.",
+      "surveillance": "Hb, état de la loge, FVIII et titre de l'inhibiteur hebdomadaires jusqu'à rémission (FVIII normalisé, inhibiteur indétectable) ; effets indésirables de l'immunosuppression (infections, glycémie, cytopénies) ; risque de rechute après l'arrêt.",
+      "evolution": "Contrôle du saignement sous rFVIIa ; FVIII à 48 UI/dL et inhibiteur indétectable à 7 semaines sous corticoïdes et cyclophosphamide ; décroissance des corticoïdes ; surveillance prolongée.",
+      "explication_pedagogique": "L'hémophilie A acquise touche surtout le sujet âgé ou la femme en post-partum, sans antécédent hémorragique ; elle se manifeste par des hématomes sous-cutanés et musculaires étendus, rarement par des hémarthroses. Le TCA allongé non corrigé après incubation (inhibiteur temps-dépendant) et le FVIII bas orientent ; le titrage Bethesda confirme. Le FVIII humain standard est neutralisé : les saignements se traitent par agents by-passants. Il faut toujours rechercher une cause (cancer, maladie auto-immune, médicaments).",
+      "questions": [
+        {
+          "question": "Qu'est-ce qui distingue une hémophilie acquise d'une hémophilie constitutionnelle ?",
+          "reponse": "Un auto-anticorps anti-FVIII apparu chez un sujet sans antécédent hémorragique personnel ni familial, souvent âgé ou en post-partum, avec hémorragies sous-cutanées et musculaires plutôt qu'articulaires."
+        },
+        {
+          "question": "Pourquoi le mélange avec un plasma témoin est-il incubé deux heures ?",
+          "reponse": "Parce que l'inhibiteur anti-FVIII est temps- et température-dépendant : l'absence de correction n'apparaît parfois qu'après incubation."
+        },
+        {
+          "question": "Quels traitements hémostatiques sont utilisables ?",
+          "reponse": "Agents by-passants (rFVIIa, CCPa) ou FVIII porcin recombinant."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "HAS. PNDS Hémophilie A acquise [date à préciser]",
+          "date": "2026"
+        },
+        {
+          "reference": "Srivastava A et al. WFH Guidelines 3rd ed. Haemophilia 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0807",
+      "titre": "Pic à l'électrophorèse des protéines chez un patient de 61 ans asymptomatique",
+      "niveau": "generaliste",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 61 ans, fonctionnaire, vit à Alger.",
+      "motif_consultation": "Découverte d'une VS à 48 mm et d'un pic monoclonal à l'électrophorèse demandée lors d'un bilan de santé.",
+      "antecedents": "Diabète de type 2 sous metformine, dyslipidémie. Tabagisme sevré. Pas d'infection récidivante.",
+      "symptomes": "Aucun symptôme : pas de douleur osseuse, pas d'asthénie inhabituelle, pas de perte de poids, pas de soif ni de constipation.",
+      "examen_clinique": "Examen normal : pas d'adénopathie, pas d'hépatosplénomégalie, pas de douleur à la palpation osseuse, pas de neuropathie, pas de macroglossie ni d'œdème.",
+      "biologie": "Protides 78 g/L ; EPP : pic en zone gamma à 12 g/L ; immunofixation : IgG κ ; chaînes légères libres κ 24 mg/L, λ 16 mg/L, rapport 1,5 (normal) ; Hb 141 g/L ; calcémie 2,38 mmol/L ; créatinine 84 µmol/L (DFG > 60) ; protéinurie des 24 h 0,1 g sans protéine de Bence Jones ; albumine 41 g/L ; β2-microglobuline 2,1 mg/L.",
+      "imagerie": "Scanner corps entier faible dose : pas de lésion lytique.",
+      "hypotheses_diagnostiques": [
+        "Gammapathie monoclonale de signification indéterminée (MGUS) IgG κ",
+        "Myélome indolent (à éliminer : pic < 30 g/L)",
+        "Myélome multiple (pas d'événement définissant le myélome)"
+      ],
+      "diagnostics_differentiels": [
+        "Myélome indolent",
+        "Myélome multiple",
+        "Hypergammaglobulinémie polyclonale (exclue : pic étroit, immunofixation monoclonale)",
+        "Lymphoprolifération B avec composant monoclonal",
+        "Amylose AL (pas d'albuminurie ni de signe d'organe)"
+      ],
+      "examens_a_demander": [
+        "Immunofixation sérique",
+        "Dosage des chaînes légères libres sériques",
+        "Protéinurie des 24 h avec immunofixation urinaire",
+        "Hémogramme, calcémie, créatinine, albumine, β2-microglobuline",
+        "Imagerie corps entier (scanner faible dose) selon le profil de risque",
+        "Myélogramme si pic ≥ 15 g/L, isotype non-IgG, rapport des chaînes libres anormal ou anomalie clinique ou biologique"
+      ],
+      "diagnostic_final": "MGUS IgG κ à faible risque de progression (pic < 15 g/L, isotype IgG, rapport des chaînes légères libres normal), sans événement définissant le myélome.",
+      "traitement": "Aucun traitement. Information du patient sur la nature non maligne de l'anomalie mais sur la nécessité d'une surveillance ; signes devant faire consulter (douleurs osseuses, asthénie, infections répétées, soif, œdèmes).",
+      "surveillance": "EPP, chaînes légères libres, hémogramme, calcémie, créatinine à 6 mois puis annuellement (ou de façon plus espacée selon le risque), et à tout symptôme nouveau.",
+      "evolution": "Stabilité du pic à 12–13 g/L sur 4 ans de suivi.",
+      "explication_pedagogique": "Selon l'IMWG (2014), la MGUS non-IgM associe un pic < 30 g/L, une plasmocytose médullaire < 10 % et l'absence d'événement définissant le myélome et d'amylose. Le risque de progression vers un myélome ou une hémopathie apparentée est d'environ 1 % par an, modulé par l'isotype, la taille du pic et le rapport des chaînes libres. Un myélogramme n'est pas systématique dans les MGUS à faible risque.",
+      "questions": [
+        {
+          "question": "Quels critères différencient MGUS et myélome indolent ?",
+          "reponse": "Le myélome indolent a un pic ≥ 30 g/L (ou une protéinurie monoclonale ≥ 500 mg/24 h) et/ou une plasmocytose médullaire de 10 à 60 %, sans événement définissant le myélome."
+        },
+        {
+          "question": "Quels sont les facteurs de risque de progression d'une MGUS ?",
+          "reponse": "Isotype non-IgG, pic ≥ 15 g/L, rapport des chaînes légères libres anormal."
+        },
+        {
+          "question": "Faut-il traiter une MGUS ?",
+          "reponse": "Non, sauf gammapathie de signification clinique (rénale, neurologique…) ; surveillance seule."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Rajkumar SV et al. IMWG updated criteria. Lancet Oncol 2014;15:e538-e548",
+          "date": "2014"
+        },
+        {
+          "reference": "Dimopoulos MA et al. EHA-ESMO myeloma guidelines. Ann Oncol 2021;32:309-322",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0808",
+      "titre": "Dorsalgie brutale et faiblesse des jambes chez une femme de 68 ans",
+      "niveau": "resident",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 68 ans, ancienne institutrice, vit à Oran.",
+      "motif_consultation": "Douleur dorsale intense depuis 5 jours, puis faiblesse des deux jambes et difficultés à uriner depuis 24 heures.",
+      "antecedents": "Ostéoporose supposée traitée par calcium-vitamine D depuis un an pour un tassement vertébral T12 « spontané » ; anémie modérée attribuée à l'âge ; deux pneumopathies dans l'année.",
+      "symptomes": "Dorsalgie en ceinture aggravée en position couchée, paresthésies des membres inférieurs, faiblesse progressive, rétention urinaire.",
+      "examen_clinique": "Paraparésie à 3/5, niveau sensitif T8, réflexes ostéotendineux vifs aux membres inférieurs, signe de Babinski bilatéral, globe vésical. Douleur à la percussion de T7–T8. Pâleur.",
+      "biologie": "Hb 92 g/L, VGM 94 fL, rouleaux au frottis ; plaquettes 182 G/L ; VS 110 mm ; protides 102 g/L ; EPP : pic de 52 g/L en zone bêta ; immunofixation IgA λ ; chaînes légères λ 980 mg/L, κ 9 mg/L (rapport λ/κ 109) ; calcémie 2,62 mmol/L ; créatinine 96 µmol/L ; albumine 33 g/L ; β2-microglobuline 4,2 mg/L ; LDH normales ; myélogramme : 34 % de plasmocytes dystrophiques ; FISH : gain 1q, pas de del(17p) ni de t(4;14).",
+      "imagerie": "IRM médullaire en urgence : tassement de T8 avec épidurite tumorale comprimant la moelle ; lésions focales multiples du rachis et du bassin. Scanner corps entier faible dose : lésions lytiques multiples (rachis, bassin, côtes, crâne).",
+      "hypotheses_diagnostiques": [
+        "Myélome multiple IgA λ révélé par une compression médullaire",
+        "Tassement vertébral pathologique méconnu (étiqueté ostéoporose)"
+      ],
+      "diagnostics_differentiels": [
+        "Métastase vertébrale d'un carcinome",
+        "Spondylodiscite (tuberculeuse ou brucellienne) avec épidurite",
+        "Lymphome",
+        "Tassement ostéoporotique bénin (non : épidurite et lésions lytiques multiples)"
+      ],
+      "examens_a_demander": [
+        "IRM médullaire en urgence",
+        "EPP, immunofixation, chaînes légères libres, protéinurie et immunofixation urinaires",
+        "Hémogramme, calcémie, créatinine, albumine, β2-microglobuline, LDH",
+        "Myélogramme avec FISH",
+        "Scanner corps entier faible dose",
+        "Bilan préthérapeutique (sérologies, dosage des immunoglobulines, bilan dentaire)"
+      ],
+      "diagnostic_final": "Myélome multiple IgA λ (plasmocytose 34 %, anémie, lésions lytiques, rapport des chaînes libres ≥ 100) révélé par une compression médullaire T8 ; ISS II (β2m 4,2 mg/L), gain 1q.",
+      "traitement": "Urgence : dexaméthasone à forte dose immédiate [POSOLOGIE À VÉRIFIER — protocole local], avis neurochirurgical et radiothérapeutique (radiothérapie décompressive ± chirurgie si instabilité), sondage vésical, prévention thromboembolique, nursing. Traitement antimyélomateux secondairement selon l'éligibilité (patiente de 68 ans à évaluer : quadruplet à base d'anti-CD38 si éligible à l'autogreffe ; Isa-VRd, Dara-Rd ou VRd sinon). Acide zolédronique ou dénosumab après bilan dentaire ; prophylaxie antivirale sous bortezomib ; vaccinations ; rééducation.",
+      "surveillance": "Examen neurologique pluriquotidien initialement, réponse biologique (EPP, chaînes libres) à chaque cycle, calcémie, créatinine, hémogramme, tolérance (neuropathie, infections, thromboses).",
+      "evolution": "Récupération partielle de la marche (aide technique) après radiothérapie ; très bonne réponse partielle après 4 cycles de traitement.",
+      "explication_pedagogique": "Un tassement vertébral « ostéoporotique » chez un sujet âgé anémique avec VS élevée doit faire rechercher un myélome (électrophorèse). La compression médullaire est une urgence : corticoïdes à forte dose, IRM, radiothérapie et/ou chirurgie, sans attendre la confirmation histologique. Le calcul R2-ISS intègre ici ISS II (1 point) et gain 1q (0,5 point) : 1,5 point, soit le groupe III (intermédiaire-élevé).",
+      "questions": [
+        {
+          "question": "Quels événements définissant le myélome sont présents ?",
+          "reponse": "Anémie (Hb < 100 g/L), lésions osseuses lytiques et rapport des chaînes légères libres ≥ 100 (biomarqueur), avec plasmocytose ≥ 10 %."
+        },
+        {
+          "question": "Quelle est la première mesure thérapeutique devant la compression médullaire ?",
+          "reponse": "Une corticothérapie à forte dose (dexaméthasone) immédiate, puis IRM et radiothérapie/chirurgie."
+        },
+        {
+          "question": "Quel est le groupe R2-ISS ?",
+          "reponse": "ISS II = 1 + gain 1q = 0,5 → 1,5 point : groupe III."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Rajkumar SV et al. Lancet Oncol 2014",
+          "date": "2014"
+        },
+        {
+          "reference": "D'Agostino M et al. R2-ISS. J Clin Oncol 2022;40:3406-3418",
+          "date": "2022"
+        },
+        {
+          "reference": "Dimopoulos MA et al. Ann Oncol 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0809",
+      "titre": "Adénopathie cervicale traitée comme une tuberculose chez un homme de 27 ans",
+      "niveau": "residanat",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 27 ans, technicien en informatique, vit à Annaba.",
+      "motif_consultation": "Persistance d'une adénopathie cervicale droite malgré 6 semaines de traitement antituberculeux débuté sans preuve histologique.",
+      "antecedents": "Aucun. Pas de contage tuberculeux connu. Non fumeur. Pas d'immunodépression connue.",
+      "symptomes": "Adénopathie cervicale droite indolore apparue il y a 3 mois, augmentant lentement ; prurit des membres depuis 2 mois ; pas de fièvre, pas de sueurs, pas d'amaigrissement.",
+      "examen_clinique": "Adénopathie jugulo-carotidienne moyenne droite de 3 cm, ferme, mobile, indolore, sans fistule ; petite adénopathie sous-mandibulaire homolatérale ; examen ORL et cavum normaux ; pas d'autre adénopathie ; pas d'hépatosplénomégalie.",
+      "biologie": "Hb 138 g/L ; leucocytes 9,1 G/L (éosinophiles 0,6 G/L, lymphocytes 1,6 G/L) ; plaquettes 330 G/L ; VS 28 mm ; CRP 12 mg/L ; LDH, albumine et bilan hépatique normaux ; sérologies VIH, VHB, VHC négatives ; IGRA négatif.",
+      "imagerie": "Biopsie-exérèse ganglionnaire : LH classique scléronodulaire (cellules de Reed-Sternberg CD30+, CD15+, CD20−, CD45−), pas de granulome. TEP-scanner : fixations cervicales droites (une aire ganglionnaire), pas d'atteinte médiastinale, pas d'atteinte sous-diaphragmatique ni extranodale ; scanner : pas de masse médiastinale.",
+      "hypotheses_diagnostiques": [
+        "Lymphome de Hodgkin classique de stade localisé",
+        "Tuberculose ganglionnaire (non confirmée : IGRA négatif, absence de granulome)"
+      ],
+      "diagnostics_differentiels": [
+        "Tuberculose ganglionnaire",
+        "Carcinome du nasopharynx (examen du cavum normal)",
+        "Lymphome non hodgkinien",
+        "Toxoplasmose, mononucléose infectieuse"
+      ],
+      "examens_a_demander": [
+        "Biopsie-exérèse ganglionnaire avec immunohistochimie (et cultures/PCR mycobactériennes)",
+        "Examen ORL avec nasofibroscopie",
+        "TEP-scanner et scanner",
+        "Hémogramme, VS, CRP, LDH, albumine, bilan hépatique et rénal",
+        "Sérologies VIH, VHB, VHC",
+        "Échocardiographie, EFR avec DLCO",
+        "Autoconservation de sperme"
+      ],
+      "diagnostic_final": "Lymphome de Hodgkin classique scléronodulaire, stade IA (une aire ganglionnaire cervicale), sans facteur de risque (VS < 50 mm, pas de masse médiastinale, pas d'atteinte extranodale, moins de 3 aires) : stade localisé favorable.",
+      "traitement": "Arrêt du traitement antituberculeux (pas de preuve de tuberculose). Autoconservation de sperme. ABVD × 2 puis radiothérapie des sites atteints à 20 Gy selon l'ESMO 2018, standard confirmé par l'EHA 2026 d'après les comptes rendus disponibles [POSOLOGIE À VÉRIFIER — protocole local / RCP].",
+      "surveillance": "Tolérance de la chimiothérapie (hémogramme, toxicité pulmonaire de la bléomycine, neuropathie) ; TEP de fin de traitement (score de Deauville) ; surveillance clinique prolongée ; TSH annuelle après irradiation cervicale ; dépistage des effets tardifs.",
+      "evolution": "TEP de fin de traitement : Deauville 1 (réponse métabolique complète). Rémission complète maintenue à 2 ans.",
+      "explication_pedagogique": "Au Maghreb, la tuberculose ganglionnaire est fréquente, mais un traitement d'épreuve sans preuve histologique retarde le diagnostic d'un lymphome ou d'un carcinome du nasopharynx. Toute adénopathie persistante doit être biopsiée (exérèse de préférence), avec analyse histologique et microbiologique. Le LH de stade localisé favorable est guéri chez la grande majorité des patients par une chimiothérapie courte suivie d'une radiothérapie à faible dose.",
+      "questions": [
+        {
+          "question": "Quelle erreur de prise en charge initiale ce cas illustre-t-il ?",
+          "reponse": "Un traitement antituberculeux d'épreuve sans preuve histologique ou microbiologique, retardant le diagnostic de lymphome."
+        },
+        {
+          "question": "Pourquoi s'agit-il d'un stade localisé favorable ?",
+          "reponse": "Stade IA sans facteur de risque : pas de masse médiastinale, pas d'atteinte extranodale, VS < 50 mm sans signes B, moins de 3 aires ganglionnaires."
+        },
+        {
+          "question": "Quel examen de l'extension rend la biopsie ostéomédullaire inutile ?",
+          "reponse": "La TEP-scanner au FDG."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Eichenauer DA et al. ESMO Hodgkin lymphoma guidelines. Ann Oncol 2018;29(Suppl 4):iv19-iv29",
+          "date": "2018"
+        },
+        {
+          "reference": "Cheson BD et al. Lugano classification. J Clin Oncol 2014;32:3059-3068",
+          "date": "2014"
+        },
+        {
+          "reference": "EHA Clinical Practice Guidelines Hodgkin lymphoma. HemaSphere 2026 (contenu via sources secondaires)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEMA-0810",
+      "titre": "Fièvre prolongée, sueurs et amaigrissement chez un homme de 41 ans",
+      "niveau": "dems",
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 41 ans, commerçant, vit à Ghardaïa.",
+      "motif_consultation": "Fièvre vespérale depuis 2 mois, sueurs nocturnes profuses et perte de 9 kg (11 % du poids corporel) en 4 mois.",
+      "antecedents": "Aucun antécédent notable. Tabagisme actif à 15 paquets-années. Pas de voyage récent hors d'Algérie.",
+      "symptomes": "Fièvre à 38,5–39 °C le soir, sueurs nocturnes imposant de changer de linge, amaigrissement, prurit, douleurs lombaires sourdes.",
+      "examen_clinique": "Adénopathies sus-claviculaires gauches et axillaires gauches (2–3 cm), splénomégalie à 3 cm sous le rebord costal, pas d'hépatomégalie ; état général OMS 1.",
+      "biologie": "Hb 98 g/L ; leucocytes 16,4 G/L (PNN 13,8 G/L, lymphocytes 0,5 G/L) ; plaquettes 520 G/L ; VS 95 mm ; CRP 120 mg/L ; albumine 31 g/L ; LDH 1,2 × normale ; phosphatases alcalines 2 × normale ; sérologies VIH, VHB, VHC négatives ; IGRA négatif ; hémocultures et sérologie de brucellose négatives.",
+      "imagerie": "Biopsie-exérèse d'une adénopathie sus-claviculaire : LH classique à cellularité mixte, EBER positif. TEP-scanner : fixations sus-claviculaires, axillaires, médiastinales, lombo-aortiques, spléniques (nodules) et osseuses multifocales (rachis, bassin) : stade IV.",
+      "hypotheses_diagnostiques": [
+        "Lymphome de Hodgkin classique de stade avancé avec signes B",
+        "Infection chronique (tuberculose, brucellose — fréquentes en Algérie) éliminée par les examens"
+      ],
+      "diagnostics_differentiels": [
+        "Tuberculose disséminée",
+        "Brucellose",
+        "Lymphome non hodgkinien",
+        "Leishmaniose viscérale (splénomégalie, fièvre)"
+      ],
+      "examens_a_demander": [
+        "Biopsie-exérèse ganglionnaire avec immunohistochimie et EBER",
+        "TEP-scanner",
+        "Hémogramme, VS, CRP, albumine, LDH, bilan hépatique et rénal",
+        "Sérologies VIH, VHB, VHC ; IGRA ; hémocultures ; sérologie de brucellose",
+        "Échocardiographie, EFR avec DLCO",
+        "Autoconservation de sperme",
+        "Calcul de l'IPS"
+      ],
+      "diagnostic_final": "Lymphome de Hodgkin classique à cellularité mixte (EBV+), stade IVB (atteintes osseuses et spléniques, signes B), IPS 6 (albumine < 40 g/L, Hb < 105 g/L, sexe masculin, stade IV, leucocytes ≥ 15 G/L, lymphocytes < 0,6 G/L).",
+      "traitement": "Patient de 41 ans en bon état général : chimiothérapie de stade avancé selon les ressources et la RCP — BrECADD guidé par la TEP intermédiaire (HD21), ou nivolumab-AVD × 6 (S1826), ou BV-AVD × 6 (ECHELON-1) ; à défaut, ABVD avec adaptation à la TEP intermédiaire [POSOLOGIE À VÉRIFIER — protocole local / RCP]. G-CSF avec BrECADD ; prophylaxies anti-infectieuses selon le protocole ; autoconservation de sperme ; arrêt du tabac ; radiothérapie des masses résiduelles TEP-positives en fin de traitement.",
+      "surveillance": "Hémogramme avant chaque cycle, neutropénie fébrile, neuropathie (brentuximab vedotin), toxicités immunologiques (nivolumab : TSH, transaminases), TEP intermédiaire (Deauville) puis de fin de traitement ; suivi prolongé des effets tardifs (cardiovasculaires, seconds cancers, fertilité).",
+      "evolution": "TEP après 2 cycles : Deauville 2 ; poursuite du protocole ; rémission métabolique complète en fin de traitement.",
+      "explication_pedagogique": "Les stades avancés avec signes B et IPS élevé gardent un excellent pronostic avec les traitements modernes : BrECADD (SSP à 4 ans 94,3 %), nivolumab-AVD (SSP à 2 ans 92 %) et BV-AVD (gain de survie globale sur l'ABVD). En Algérie, la tuberculose, la brucellose et la leishmaniose viscérale doivent être éliminées devant une fièvre prolongée avec adénopathies et splénomégalie, mais seule l'histologie permet le diagnostic. La TEP intermédiaire, plus que l'IPS, guide désormais l'adaptation du traitement.",
+      "questions": [
+        {
+          "question": "Calculez l'IPS de ce patient.",
+          "reponse": "6 points : albumine < 40 g/L, Hb < 105 g/L, sexe masculin, stade IV, leucocytes ≥ 15 G/L, lymphocytes < 0,6 G/L (âge < 45 ans : 0 point)."
+        },
+        {
+          "question": "Pourquoi ce patient est-il classé stade IV ?",
+          "reponse": "En raison d'atteintes extralymphatiques non contiguës (osseuses multifocales) ; la rate, elle, est une structure lymphatique."
+        },
+        {
+          "question": "Quelles options de première ligne sont validées par des essais de phase 3 récents ?",
+          "reponse": "BrECADD guidé par la TEP (HD21), nivolumab-AVD (S1826), BV-AVD (ECHELON-1)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Borchmann P et al. HD21. Lancet 2024;404:341-352",
+          "date": "2024"
+        },
+        {
+          "reference": "Herrera AF et al. S1826. N Engl J Med 2024;391:1379-1389",
+          "date": "2024"
+        },
+        {
+          "reference": "Ansell SM et al. ECHELON-1. N Engl J Med 2022;387:310-320",
+          "date": "2022"
+        },
+        {
+          "reference": "Hasenclever D, Diehl V. IPS. N Engl J Med 1998 [à vérifier]",
+          "date": "1998"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

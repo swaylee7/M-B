@@ -6,11 +6,24 @@ sous_specialite: "Thyroïde — thyrotoxicoses"
 items_residanat: [RES-MED-084]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-03 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-ENDO-0001.md
+    remarque: "Cas clinique : orbitopathie dite légère décrite avec des signes de forme modérée à sévère (erreur majeure de cohérence) ; CAS recalculé (4/7) ; « neutropénie » avec PNN normaux corrigée ; délai de décompression (≈ 2 semaines)."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-ENDO-0001.md
+    remarque: "Posologies ATA 2016 de la crise thyrotoxique et schéma EUGOGO 2021 de méthylprednisolone IV (4,5 g, maximum 8 g) : marqueurs levés ; marqueurs maintenus (JTA 2016, AIT, De Quervain, corticoprophylaxie de l'iode 131)."
 sources:
   - id: S1
     reference: "Kahaly GJ, Bartalena L, Hegedüs L, Leenhardt L, Poppe K, Pearce SH. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J. 2018;7(4):167-186."
@@ -114,7 +127,7 @@ mots_cles: [hyperthyroïdie, thyrotoxicose, maladie de Basedow, TRAb, goitre mul
 # Hyperthyroïdies : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Référentiels principaux : ETA 2018 (maladie de Basedow) [S1] — texte intégral consulté —, ATA 2016 (hyperthyroïdies et autres thyrotoxicoses) [S2], EUGOGO 2021 [S4] et consensus ATA/ETA 2022 [S11] (orbitopathie), ATA 2017 et 2026 (grossesse) [S7, S8].
 
 **Item du programme couvert** : RES-MED-084 — « Hyperthyroïdies : Diagnostic - traitement. »
@@ -454,7 +467,16 @@ Contrôler rapidement les symptômes adrénergiques ; restaurer et maintenir l'e
 4. **Glucocorticoïdes** (inhibent la conversion T4 → T3 et préviennent une insuffisance surrénalienne relative) : par exemple hydrocortisone IV ou méthylprednisolone (l'ETA cite la méthylprednisolone 50 mg IV dans l'approche japonaise) [S1].
 5. **Mesures générales** : refroidissement externe, paracétamol (**éviter l'aspirine**, qui déplace la T4 de ses protéines de liaison), remplissage, nutrition, oxygène/ventilation, traitement du facteur déclenchant, anticoagulation si FA.
 6. **Échec** à 24–48 h : plasmaphérèse, thyroïdectomie en urgence en centre expert.
-Posologies indicatives rapportées par les recommandations (à vérifier sur les textes intégraux et le protocole local) — l'ETA résume l'approche japonaise : ATS IV, méthylprednisolone 50 mg IV, propranolol 40 mg toutes les 6 h [S1] ; l'ATA 2016 propose des schémas à fortes doses de PTU ou de MMI, d'hydrocortisone et d'iodure : **[POSOLOGIE À VÉRIFIER — ATA 2016, tableau dédié ; JTA 2016]** [S2, S5].
+Posologies de l'**ATA 2016** (tableau consacré à la crise thyrotoxique) [S2] :
+| Médicament | Posologie (adulte) |
+|---|---|
+| **PTU** | **500–1 000 mg en dose de charge, puis 250 mg toutes les 4 h** |
+| ou **MMI (thiamazole)** | **60–80 mg/j** (en prises fractionnées) |
+| **Propranolol** | **60–80 mg toutes les 4 h** per os (bêtabloquant IV de courte durée d'action, comme l'esmolol, si instabilité ou insuffisance cardiaque) |
+| **Iode stable** (solution saturée d'iodure de potassium, SSKI) | **5 gouttes (0,25 mL, soit 250 mg) toutes les 6 h**, au moins 1 h après l'ATS |
+| **Hydrocortisone** | **300 mg IV en dose de charge, puis 100 mg toutes les 8 h** |
+
+*Posologies de l'ATA recoupées par recherche web pendant l'audit (tableau de l'ATA 2016 et synthèses concordantes). Le PTU est historiquement préféré ; des données comparatives récentes ne montrent pas sa supériorité sur le MMI.* L'ETA résume par ailleurs l'approche japonaise (ATS IV, méthylprednisolone 50 mg IV, propranolol 40 mg toutes les 6 h) [S1] ; les schémas propres de la **JTA/JES 2016** (molécules et doses, bêtabloquants β1-sélectifs IV en cas d'insuffisance cardiaque) sont à lire sur le texte intégral : **[POSOLOGIE À VÉRIFIER — JTA 2016 / protocole local]** [S5].
 
 #### 13.2.7 Grossesse et post-partum [S1, S7, S8]
 - **Avant la grossesse** : conseil préconceptionnel, euthyroïdie stable avant de concevoir (confirmée à 2 reprises sur 2 mois sous traitement stable) ; informer sur le risque malformatif des ATS, la possibilité d'arrêt des ATS entre 6 et 10 SA, la préférence pour le PTU au 1er trimestre ; grossesse différée de 6 mois après iode radioactif [S1].
@@ -472,8 +494,8 @@ Posologies indicatives rapportées par les recommandations (à vérifier sur les
 #### 13.2.8 Orbitopathie basedowienne [S1, S4, S11]
 - Pour tous : **arrêt du tabac**, **euthyroïdie stable** (éviter l'hypothyroïdie), soins locaux (larmes artificielles, verres teintés, prismes).
 - **Légère et active** : sélénium 6 mois ; si iode radioactif → corticoprophylaxie [S1, S4].
-- **Modérée à sévère et active** : priorité au traitement de l'orbitopathie ; **méthylprednisolone IV** en cures hebdomadaires (schéma EUGOGO de référence, dose cumulée ~4,5 g sur 12 semaines, associée au mycophénolate) [S4 — **POSOLOGIE À VÉRIFIER sur le texte intégral**] ; ATS pour une euthyroïdie stable [S1, recommandation 30]. Alternatives et 2ᵉ ligne : téprotumumab, rituximab, tocilizumab, radiothérapie orbitaire, ciclosporine ± corticoïdes [S4, S11, S12].
-- **Menaçant la vision** (neuropathie optique) : **urgence** — méthylprednisolone IV à forte dose, **décompression orbitaire** si réponse insuffisante en 2–4 semaines ; ATS [S1, S4].
+- **Modérée à sévère et active** : priorité au traitement de l'orbitopathie ; 1re ligne EUGOGO 2021 = **méthylprednisolone IV en 12 perfusions hebdomadaires, dose cumulée 4,5 g** (schéma habituel : **0,5 g/semaine × 6 puis 0,25 g/semaine × 6**), **associée au mycophénolate** (mycophénolate sodique 0,72 g/j pendant 24 semaines dans l'essai de référence) ; dans les formes les plus sévères (diplopie inconstante ou constante), des doses cumulées plus élevées **sans dépasser 8 g par cure** peuvent être utilisées en monothérapie [S4] ; surveillance hépatique, glycémique et tensionnelle (hépatotoxicité dose-dépendante). ATS pour une euthyroïdie stable [S1, recommandation 30]. Alternatives et 2ᵉ ligne : téprotumumab, rituximab, tocilizumab, radiothérapie orbitaire, ciclosporine ± corticoïdes [S4, S11, S12].
+- **Menaçant la vision** (neuropathie optique) : **urgence** — méthylprednisolone IV à très forte dose (plusieurs fortes doses dans la semaine), puis **décompression orbitaire en urgence** si la réponse est absente ou insuffisante après environ 2 semaines ; ATS [S1, S4].
 - **Inactive** : chirurgie de réhabilitation (décompression, puis strabisme, puis paupières).
 
 ### 13.3 Stratégie thérapeutique
@@ -579,10 +601,10 @@ Fièvre, angine, ulcérations buccales sous ATS
 *Scénario fictif à visée pédagogique.*
 
 **Présentation.** Mme A., 31 ans, enseignante à Tizi Ouzou, fumeuse (8 cigarettes/j), consulte pour palpitations, perte de 6 kg en 3 mois, nervosité, thermophobie et irritation oculaire. Elle souhaite une grossesse « dans un an ».
-**Examen** : FC 118/min régulière, PA 135/60 mmHg, tremblement fin, peau chaude et moite ; **goitre diffus, homogène, avec souffle** ; rétraction palpébrale bilatérale, rougeur conjonctivale et palpébrale, œdème palpébral modéré, douleur à la mobilisation oculaire (**CAS 3/7**), exophtalmie modérée sans diplopie, acuité visuelle et vision des couleurs normales.
+**Examen** : FC 118/min régulière, PA 135/60 mmHg, tremblement fin, peau chaude et moite ; **goitre diffus, homogène, avec souffle** ; rétraction palpébrale bilatérale discrète (< 2 mm), rougeur conjonctivale et palpébrale, œdème palpébral discret, douleur à la mobilisation oculaire (**CAS 4/7** : rougeur palpébrale, rougeur conjonctivale, œdème palpébral, douleur aux mouvements oculaires), exophtalmie discrète (< 3 mm au-dessus de la normale) sans diplopie, acuité visuelle et vision des couleurs normales.
 **Biologie** : **TSH < 0,01 mUI/L** ; **T4L 48 pmol/L** (N 12–22) ; **T3L 15 pmol/L** (N 3,1–6,8) ; **TRAb 9,8 UI/L** (seuil du laboratoire 1,75) ; NFS : PNN 2 300/mm³ ; transaminases 1,5 × N. **Échographie** : goitre diffus hypoéchogène, hypervascularisation diffuse au Doppler, pas de nodule.
 
-**Q1 — Diagnostic ?** Thyrotoxicose franche par **maladie de Basedow** (TRAb positifs, goitre diffus vasculaire) avec **orbitopathie légère et active** (CAS ≥ 3/7, sans critère de sévérité). Scintigraphie **inutile** (échographie typique + TRAb positifs, pas de nodule) [S1]. Une discrète cytolyse et une neutropénie modérée peuvent être liées à la thyrotoxicose : elles servent de **référence** avant ATS.
+**Q1 — Diagnostic ?** Thyrotoxicose franche par **maladie de Basedow** (TRAb positifs, goitre diffus vasculaire) avec **orbitopathie légère et active** (CAS 4/7 ≥ 3/7 ; aucun critère de forme modérée à sévère : rétraction < 2 mm, exophtalmie < 3 mm, atteinte des parties molles discrète, pas de diplopie) [S4]. Scintigraphie **inutile** (échographie typique + TRAb positifs, pas de nodule) [S1]. Une discrète cytolyse peut être liée à la thyrotoxicose ; la NFS (PNN 2 300/mm³, normaux) et le bilan hépatique servent de **référence** avant ATS.
 
 **Q2 — Traitement initial ?**
 1. **Propranolol** 20–40 mg toutes les 6 h (ou cardiosélectif) [S1].
@@ -770,16 +792,16 @@ Fièvre, angine, ulcérations buccales sous ATS
 | Passage PTU → MMI pendant la grossesse | **ETA 2018** : à envisager si ATS nécessaires après **16 SA** [S1, recommandation 40] | **ATA 2017** : le bénéfice d'un changement de molécule en cours de grossesse est incertain [S7 — à vérifier] ; **ATA 2026** : poids accru des TRAb pour décider d'un arrêt précoce des ATS chez les patientes à faible risque, préférence pour le PTU en début de grossesse [S8 — d'après résumés secondaires, à vérifier sur le texte] | Recommandation 2026 récente : confronter au texte intégral avant application. |
 | Orbitopathie active modérée à sévère — 1re ligne | **EUGOGO 2021** : méthylprednisolone IV + mycophénolate en 1re ligne ; téprotumumab parmi les options de 2e ligne [S4] | **ATA/ETA 2022** : téprotumumab proposé comme option privilégiée lorsque l'exophtalmie et/ou la diplopie dominent, corticoïdes IV si l'inflammation prédomine (selon la disponibilité et le coût) [S11] | Comparaison détaillée publiée en 2025 [S12]. Accès au téprotumumab limité en Algérie **[À VÉRIFIER]**. |
 | Activité d'iode 131 | **ETA 2018** : activité fixe acceptable, aucun calcul ne garantit l'euthyroïdie [S1] | **ATA 2016** : activité suffisante pour obtenir l'hypothyroïdie (fixe ou calculée) [S2 — à vérifier] | Convergence : l'objectif réaliste est l'hypothyroïdie substituée. |
-| Posologies de la crise aiguë | **JTA/JES 2016** : schémas propres (ATS IV/oraux, corticoïdes, bêtabloquants dont molécules IV de courte durée d'action) [S5] | **ATA 2016** : fortes doses de PTU ou MMI, iodure, hydrocortisone, propranolol [S2] | Schémas différents, principes identiques ; **[POSOLOGIE À VÉRIFIER — protocole local]**. |
+| Posologies de la crise aiguë | **JTA/JES 2016** : schémas propres (ATS IV/oraux, corticoïdes, bêtabloquants dont molécules IV de courte durée d'action) [S5 — doses **[POSOLOGIE À VÉRIFIER — texte intégral JTA]**] | **ATA 2016** : PTU 500–1 000 mg puis 250 mg/4 h ou MMI 60–80 mg/j ; SSKI 5 gouttes/6 h ; hydrocortisone 300 mg puis 100 mg/8 h ; propranolol 60–80 mg/4 h [S2] | Schémas différents, principes identiques ; confronter au protocole local. |
 
 ---
 
 ## 22. Références
 
 1. **[S1]** Kahaly GJ, Bartalena L, Hegedüs L, Leenhardt L, Poppe K, Pearce SH. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. *Eur Thyroid J*. 2018;7(4):167-186. doi:10.1159/000490384. — vérifiée (PubMed ; texte intégral PMC consulté).
-2. **[S2]** Ross DS, Burch HB, Cooper DS, et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. *Thyroid*. 2016;26(10):1343-1421. doi:10.1089/thy.2016.0229. — vérifiée (existence ; corrigendum 2025) ; texte intégral non consulté dans cette session.
+2. **[S2]** Ross DS, Burch HB, Cooper DS, et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. *Thyroid*. 2016;26(10):1343-1421. doi:10.1089/thy.2016.0229. — vérifiée (existence ; corrigendum 2025) ; texte intégral non consulté ; posologies du tableau de la crise thyrotoxique recoupées par recherche web pendant l'audit (2026-11-19).
 3. **[S3]** Bartalena L, et al. 2018 ETA Guidelines for the Management of Amiodarone-Associated Thyroid Dysfunction. *Eur Thyroid J*. 2018;7(2):55-66. doi:10.1159/000486957. — vérifiée (existence).
-4. **[S4]** Bartalena L, Kahaly GJ, Baldeschi L, et al. The 2021 EUGOGO clinical practice guidelines for the medical management of Graves' orbitopathy. *Eur J Endocrinol*. 2021;185(4):G43-G67. doi:10.1530/EJE-21-0479. — vérifiée (existence).
+4. **[S4]** Bartalena L, Kahaly GJ, Baldeschi L, et al. The 2021 EUGOGO clinical practice guidelines for the medical management of Graves' orbitopathy. *Eur J Endocrinol*. 2021;185(4):G43-G67. doi:10.1530/EJE-21-0479. — vérifiée (existence ; schéma de méthylprednisolone IV — 4,5 g en 12 perfusions hebdomadaires, maximum 8 g — recoupé par recherche web pendant l'audit).
 5. **[S5]** Satoh T, et al. 2016 Guidelines for the management of thyroid storm from the JTA and JES. *Endocr J*. 2016;63(12):1025-1064. doi:10.1507/endocrj.EJ16-0336. — vérifiée.
 6. **[S6]** Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Thyroid storm. *Endocrinol Metab Clin North Am*. 1993;22(2):263-277. — vérifiée.
 7. **[S7]** Alexander EK, et al. 2017 Guidelines of the ATA for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum. *Thyroid*. 2017;27(3):315-389. doi:10.1089/thy.2016.0457. — vérifiée (existence).

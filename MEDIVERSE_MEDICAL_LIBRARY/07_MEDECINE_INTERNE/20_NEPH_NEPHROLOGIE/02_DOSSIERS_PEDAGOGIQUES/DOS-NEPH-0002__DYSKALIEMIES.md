@@ -6,11 +6,24 @@ sous_specialite: "Troubles hydro-électrolytiques — potassium"
 items_residanat: [RES-MED-125]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-03 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEPH-0002.md
+    remarque: "Référence UKKA (S1) complétée (URL, modifications 2023 recoupées) ; ECG, gradation et démarche étiologique vérifiés sans erreur."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEPH-0002.md
+    remarque: "Insuline-glucose : 25 g de glucose (250 mL de G10 %), G10 % 50 mL/h × 5 h si glycémie initiale < 7 mmol/L, surveillance 6 h (UKKA 2023) — marqueur levé ; KCl IV : ≤ 40 mmol/L en périphérique ; marqueurs maintenus (nombre de doses de calcium, polystyrène sulfonate, KCl par voie centrale, paralysie périodique)."
 sources:
   - id: S1
     reference: "UK Kidney Association (UKKA). Clinical Practice Guideline: Management of Hyperkalaemia in Adults. Version finale octobre 2023 ; version mise à jour juillet 2026. [document institutionnel — pagination et auteurs À VÉRIFIER]"
@@ -18,7 +31,7 @@ sources:
     annee: 2023
     type: recommandation
     doi: ""
-    url: ""
+    url: "https://www.ukkidney.org/sites/default/files/documents/FINAL%20VERSION%20-%20UKKA%20CLINICAL%20PRACTICE%20GUIDELINE%20-%20MANAGEMENT%20OF%20HYPERKALAEMIA%20IN%20ADULTS%20-%20UPDATED%20JULY%202026_0.pdf"
     verifiee: true
   - id: S2
     reference: "Lott C, Truhlář A, Alfonzo A, et al. European Resuscitation Council Guidelines 2021: Cardiac arrest in special circumstances. Resuscitation. 2021;161:152-219."
@@ -122,7 +135,7 @@ mots_cles: [hyperkaliémie, hypokaliémie, potassium, ECG, gluconate de calcium,
 # Dyskaliémies : physiopathologie, diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. **Les doses et débits d'urgence (calcium, insuline-glucose, potassium IV) doivent être confrontés au protocole local et au RCP avant toute application.**
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). **Les doses et débits d'urgence (calcium, insuline-glucose, potassium IV) doivent être confrontés au protocole local et au RCP avant toute application.**
 > Références principales : recommandation britannique UKKA sur l'hyperkaliémie (version finale 2023, mise à jour en juillet 2026) [S1] ; ERC 2021 et 2025 (arrêt cardiaque en circonstances particulières) [S2, S3] ; conférence de controverses KDIGO 2020 [S4] ; revue clinique sur l'hypokaliémie [S5]. Le texte intégral de l'UKKA n'a pas pu être consulté dans cette session (accès réseau) : les éléments repris proviennent des résumés vérifiés de ses modifications et sont signalés.
 
 **Item du programme couvert** : RES-MED-125 — « Dyskaliémies : Physiopathologie - diagnostic - traitement. »
@@ -400,7 +413,7 @@ Les hypothèses physiologiques du TTKG (absence de réabsorption d'osmoles dans 
 |---|---|---|---|---|
 | **1. Protéger le myocarde** (si anomalies ECG) | **Gluconate de calcium 10 %** | **30 mL IV en 10 minutes** (UKKA 2023 : passage de 15 à 10 minutes) [S1] ; répéter si l'ECG reste anormal après 5–10 min **[nombre maximal de doses : protocole local]** | Quelques minutes ; 30–60 min | Ne baisse pas la kaliémie ; voie veineuse sûre ; incompatible avec le bicarbonate (précipitation) |
 | | ou **chlorure de calcium 10 %** | **10 mL IV** (préféré en arrêt cardiaque, idéalement voie centrale) [S2] | Idem | Veinotoxique |
-| **2. Transférer** | **Insuline rapide + glucose** | **10 UI d'insuline rapide (soluble) + 25 g de glucose IV en 15 min** [S1, S2] — présentation du glucose (G10 % ou G50 %) **[POSOLOGIE À VÉRIFIER — protocole local]** | 15–30 min ; 4–6 h ; baisse ≈ 0,6–1,0 mmol/L (ordre de grandeur) | **Hypoglycémie** : surveillance glycémique rapprochée pendant au moins 6 h ; glucose 10 % en relais si glycémie initiale basse (seuil < 7 mmol/L dans la recommandation UKKA) [S1 — modalités à vérifier sur la version 2026] |
+| **2. Transférer** | **Insuline rapide + glucose** | **10 UI d'insuline rapide (soluble) + 25 g de glucose IV en 15 min** [S1, S2] — par exemple **250 mL de glucose 10 %** (présentation de l'ERC 2021 [S2]) ; présentations équivalentes plus concentrées (125 mL de G20 %, 50 mL de G50 %) selon le protocole local, plus veinotoxiques | 15–30 min ; 4–6 h ; baisse ≈ 0,6–1,0 mmol/L (ordre de grandeur) | **Hypoglycémie** : surveillance glycémique pendant **6 h** (UKKA 2023, retour de 12 h à 6 h) ; si la **glycémie avant traitement est < 7 mmol/L** : **glucose 10 % à 50 mL/h pendant 5 h** [S1, S2] |
 | | **Salbutamol nébulisé** | **10–20 mg** en nébulisation (adjuvant, hyperkaliémie sévère) [S1, S2] | 15–30 min ; 2–4 h | Tachycardie, tremblements ; prudence en cas de coronaropathie ou de tachyarythmie |
 | | Bicarbonate de sodium | **Pas en routine** ; à discuter en cas d'acidose métabolique sévère ; en arrêt cardiaque hyperkaliémique selon l'ERC [S1, S2] | Variable | Surcharge sodée ; jamais dans la même voie que le calcium |
 | **3. Éliminer** | **Cyclosilicate de zirconium sodique (SZC)** | **10 g × 3/j** jusqu'à 72 h en correction, puis entretien (RCP) [S6] | Effet dès 1 h, significatif à 4 h (ordre de grandeur) | Œdèmes (charge sodée) ; disponibilité locale **[À VÉRIFIER]** |
@@ -408,7 +421,7 @@ Les hypothèses physiologiques du TTKG (absence de réabsorption d'osmoles dans 
 | | Résines de polystyrène sulfonate (sodium ou calcium) | **UKKA 2023 : plus de place pour la résine calcique en aigu** ; **UKKA 2026 : plus recommandée non plus en chronique** [S1] | Lent, imprévisible | Nécrose colique (avec sorbitol), constipation ; encore utilisées là où les nouveaux chélateurs sont indisponibles **[POSOLOGIE À VÉRIFIER — RCP]** |
 | | Diurétique de l'anse | Si volémie conservée et diurèse résiduelle | Heures | Inefficace en anurie |
 | | **Épuration extrarénale (hémodialyse)** | Hyperkaliémie sévère réfractaire, IRA oligo-anurique, MRC terminale, lyse cellulaire massive | Immédiat (le plus efficace) | Rebond post-dialyse possible (transferts) |
-| **4. Surveiller** | Kaliémie, glycémie, ECG/scope | Kaliémie à **1–2 h**, puis selon l'évolution (jusqu'à 24 h) ; glycémie horaire pendant ≥ 6 h après insuline-glucose **[séquence exacte : protocole local / UKKA]** | — | Rechercher et traiter la cause |
+| **4. Surveiller** | Kaliémie, glycémie, ECG/scope | Kaliémie à **1–2 h**, puis selon l'évolution (jusqu'à 24 h) ; glycémie rapprochée (au moins horaire) pendant 6 h après insuline-glucose [S1] ; horaires précis des contrôles : protocole local | — | Rechercher et traiter la cause |
 
 ### 13.2 bis Conduite selon la gravité (repères pédagogiques inspirés de l'UKKA [S1])
 - **Légère (5,5–5,9 mmol/L) sans anomalie ECG** : pas de traitement d'urgence ; rechercher et corriger la cause (médicaments, apports, hypovolémie, acidose), contrôler la kaliémie dans un délai adapté au contexte (rapide si IRA ou tendance à la hausse).
@@ -439,7 +452,7 @@ Les hypothèses physiologiques du TTKG (absence de réabsorption d'osmoles dans 
 Règles de sécurité [S5] :
 - **Jamais de KCl en bolus IV direct** (arrêt cardiaque) ; utiliser de préférence des **poches prémélangées** ; les ampoules concentrées doivent être diluées et stockées de façon sécurisée (pour mémoire : 1 g de KCl ≈ 13,4 mmol de K⁺ ; ampoule de 10 mL à 10 % ≈ 13,4 mmol ; à 15 % ≈ 20 mmol).
 - Préférer le **NaCl 0,9 %** comme soluté de dilution : le **glucose 5 %** stimule l'insuline et peut aggraver transitoirement l'hypokaliémie [S5].
-- Débits élevés et concentrations > 40 mmol/L : réservés à une **voie centrale** et à un environnement monitoré **[POSOLOGIE À VÉRIFIER — protocole local]**.
+- **Voie périphérique** : concentration **≤ 40 mmol/L** (repère concordant des politiques hospitalières) ; débit standard 10 mmol/h, jusqu'à 20 mmol/h sous **scope ECG** [S5]. **Concentrations > 40 mmol/L** : **voie centrale** et environnement monitoré ; les débits et concentrations maximaux par voie centrale varient selon les protocoles (débits de 20 à 40 mmol/h en réanimation) : **[POSOLOGIE À VÉRIFIER — protocole local]**.
 - Estimation grossière du déficit : chaque baisse de 1 mmol/L de la kaliémie représente ≈ **200–400 mmol** de déficit (estimation imprécise) [S5].
 - **Insuffisance rénale** : supplémentation très prudente, avis néphrologique [S5].
 - **Voie orale** : prise pendant ou après le repas avec un grand verre d'eau (irritation digestive) ; sels de KCl (le chlorure corrige aussi l'alcalose) ; citrate ou bicarbonate de potassium en cas d'acidose (acidose tubulaire).
@@ -559,7 +572,7 @@ Hyperkaliémie confirmée (prélèvement non hémolysé)
 
 **Q2 — Traitement immédiat ?**
 1. **Gluconate de calcium 10 % 30 mL IV en 10 min**, répété si l'ECG ne s'améliore pas après 5–10 min [S1].
-2. **Insuline rapide 10 UI + 25 g de glucose IV en 15 min** [S1, S2] ; **glycémie initiale < 7 mmol/L** → relais par glucose 10 % et surveillance glycémique rapprochée pendant au moins 6 h (risque majoré d'hypoglycémie : MRC, insuline basale) [S1 — modalités à vérifier].
+2. **Insuline rapide 10 UI + 25 g de glucose IV en 15 min** [S1, S2] ; **glycémie initiale < 7 mmol/L** → relais par **glucose 10 % à 50 mL/h pendant 5 h** et surveillance glycémique rapprochée pendant 6 h (risque majoré d'hypoglycémie : MRC, insuline basale) [S1, S2].
 3. **Salbutamol 10–20 mg nébulisé** en complément (pas de contre-indication majeure ; bradycardie) [S1].
 4. **Arrêt** du ramipril, de la spironolactone, du cotrimoxazole (relais par un antibiotique adapté), de l'ibuprofène.
 5. **Élimination** : **SZC 10 g × 3/j** si disponible [S6] ; furosémide IV (volémie conservée, diurèse présente) ; **avis néphrologique** pour une hémodialyse si persistance des signes ECG ou absence de baisse de la kaliémie.
@@ -748,7 +761,7 @@ M. T., 45 ans, HTA sous 3 antihypertenseurs dont un thiazidique, crampes : **K 2
 
 ## 22. Références
 
-1. **[S1]** UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults — version finale octobre 2023, mise à jour juillet 2026. — existence et principales modifications vérifiées (recherche web) ; **texte intégral non consulté** (hôte non accessible dans cette session) ; auteurs/pagination **À VÉRIFIER**.
+1. **[S1]** UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults — version finale octobre 2023, mise à jour juillet 2026. — existence et principales modifications vérifiées (recherche web ; audit du 2026-11-19 : gluconate de calcium 30 mL en 10 min au lieu de 15, surveillance glycémique ramenée de 12 h à 6 h, glucose 10 % sur 5 h si glycémie initiale < 7 mmol/L) ; **texte intégral non consulté** (hôte non accessible dans cette session) ; auteurs/pagination **À VÉRIFIER**.
 2. **[S2]** Lott C, Truhlář A, Alfonzo A, et al. European Resuscitation Council Guidelines 2021: Cardiac arrest in special circumstances. *Resuscitation*. 2021;161:152-219. doi:10.1016/j.resuscitation.2021.02.011. — vérifiée (existence ; corrigendum 2021).
 3. **[S3]** Lott C, et al. European Resuscitation Council Guidelines 2025 Special Circumstances in Resuscitation. *Resuscitation*. 2025;215 Suppl 1:110753. doi:10.1016/j.resuscitation.2025.110753. — vérifiée (existence).
 4. **[S4]** Clase CM, Carrero JJ, Ellison DH, et al. Potassium homeostasis and management of dyskalemia in kidney diseases: KDIGO Controversies Conference. *Kidney Int*. 2020;97(1):42-61. doi:10.1016/j.kint.2019.09.018. — vérifiée (existence).

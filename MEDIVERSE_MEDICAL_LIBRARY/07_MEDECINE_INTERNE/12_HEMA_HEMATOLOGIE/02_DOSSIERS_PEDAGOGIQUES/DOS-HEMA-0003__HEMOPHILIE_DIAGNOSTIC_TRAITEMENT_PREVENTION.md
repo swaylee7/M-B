@@ -45,7 +45,7 @@ sources:
     url: ""
     verifiee: false
   - id: S5
-    reference: "Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors (HAVEN 3). N Engl J Med. 2018;379(9):811-822 [pagination à vérifier]."
+    reference: "Mahlangu J, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors (HAVEN 3). N Engl J Med. 2018;379(9):811-822 [pagination à vérifier]."
     organisme: "Essai HAVEN 3"
     annee: 2018
     type: article
@@ -758,6 +758,6 @@ Un **inhibiteur** : titrage Bethesda. S'il est fort répondeur, les saignements 
 2. **[S2]** HAS / CRH-MHEMO. PNDS — Hémophilie (version 2019, document mis en ligne en 2023). — vérifiée (existence).
 3. **[S3]** HAS. Synthèse à destination du médecin traitant — Hémophilie. 2023. — vérifiée (existence).
 4. **[S4]** Blanchette VS, Key NS, Ljung LR, et al. Definitions in hemophilia: communication from the SSC of the ISTH. *J Thromb Haemost*. 2014;12(11):1935-1939. — **non vérifiée**.
-5. **[S5]** Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med*. 2018;379(9):811-822. — **non vérifiée** (essai HAVEN 3 confirmé par sources secondaires ; pagination à vérifier).
+5. **[S5]** Mahlangu J, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med*. 2018;379(9):811-822. — **non vérifiée** (essai HAVEN 3 confirmé par sources secondaires ; pagination à vérifier).
 6. **[S6]** First real-world evidence study of patients with hemophilia in Algeria (registre « Baromètre »). Résumé ISPOR Europe 2022. — vérifiée (existence du résumé ; auteurs à compléter).
 7. **[S7]** HAS. PNDS — Hémophilie A acquise. — vérifiée (existence ; date à préciser).

@@ -6,11 +6,17 @@ sous_specialite: "Cancérologie gynécologique"
 items_residanat: [RES-CHI-058]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-07 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 0
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0002.md
 sources:
   - id: S1
     reference: "Bhatla N, Berek JS, Cuello Fredes M, et al. Revised FIGO staging for carcinoma of the cervix uteri. Int J Gynaecol Obstet. 2019;145(1):129-135 (+ corrigendum 2019 : micrométastases ganglionnaires classées IIIC ; priorité à la stadification anatomopathologique)."
@@ -77,45 +83,45 @@ sources:
     url: ""
     verifiee: true
   - id: S9
-    reference: "Cibula D, Raspollini MR, Planchamp F, et al. ESGO/ESTRO/ESP Guidelines for the management of patients with cervical cancer — Update 2023. Int J Gynecol Cancer. 2023;33(5):649-666. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Cibula D, Raspollini MR, Planchamp F, et al. ESGO/ESTRO/ESP Guidelines for the management of patients with cervical cancer — Update 2023. Int J Gynecol Cancer. 2023;33(5):649-666. Document acquis DOC-00094 (18_RECOMMANDATIONS/03_SOCIETES_SAVANTES/ESGO-ESTRO-ESP_cancer_col_2023.pdf), consulté lors de l'audit."
     organisme: "ESGO / ESTRO / ESP"
     annee: 2023
     type: recommandation
-    doi: ""
+    doi: "10.1136/ijgc-2023-004429"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S10
-    reference: "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, 5th edition, volume 4. Lyon : IARC ; 2020. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, 5th edition, volume 4. Lyon : IARC ; 2020. (Édition citée comme référence histologique par ESGO/ESTRO/ESP 2023, DOC-00094.)"
     organisme: "OMS / CIRC"
     annee: 2020
     type: ouvrage
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
-    reference: "Lorusso D, Xiang Y, Hasegawa K, et al. Pembrolizumab or placebo with chemoradiotherapy followed by pembrolizumab or placebo for newly diagnosed, high-risk, locally advanced cervical cancer (ENGOT-cx11/GOG-3047/KEYNOTE-A18). Lancet. 2024. [références exactes À VÉRIFIER]"
+    reference: "Lorusso D, Xiang Y, Hasegawa K, et al. Pembrolizumab or placebo with chemoradiotherapy followed by pembrolizumab or placebo for newly diagnosed, high-risk, locally advanced cervical cancer (ENGOT-cx11/GOG-3047/KEYNOTE-A18): overall survival results from a randomised, double-blind, placebo-controlled, phase 3 trial. Lancet. 2024;404(10460):1321-1332. (Publication princeps sur la survie sans progression : Lancet 2024;403:1341-1350 [pagination À VÉRIFIER].)"
     organisme: "KEYNOTE-A18"
     annee: 2024
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(24)01808-7"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
-    reference: "Plante M, Kwon JS, Ferguson S, et al. Simple versus radical hysterectomy in women with low-risk cervical cancer (SHAPE). N Engl J Med. 2024;390(9):819-829. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Plante M, Kwon JS, Ferguson S, et al. Simple versus radical hysterectomy in women with low-risk cervical cancer (SHAPE). N Engl J Med. 2024;390(9):819-829 (PMID 38416430)."
     organisme: "SHAPE / CCTG CX.5"
     annee: 2024
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa2308900"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
-    reference: "McCormack M, Eminowicz G, Gallardo D, et al. Induction chemotherapy followed by standard chemoradiotherapy versus standard chemoradiotherapy alone in patients with locally advanced cervical cancer (GCIG INTERLACE). Lancet. 2024. [références exactes À VÉRIFIER]"
+    reference: "McCormack M, Eminowicz G, Gallardo D, et al. Induction chemotherapy followed by standard chemoradiotherapy versus standard chemoradiotherapy alone in patients with locally advanced cervical cancer (GCIG INTERLACE): an international, multicentre, randomised phase 3 trial. Lancet. 2024;404(10462):1525-1535."
     organisme: "INTERLACE"
     annee: 2024
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S14
     reference: "Nayar R, Wilbur DC (eds). The Bethesda System for Reporting Cervical Cytology. 3rd ed. Springer ; 2015. [À VÉRIFIER — non revérifié pendant la session]"
     organisme: ""
@@ -124,6 +130,22 @@ sources:
     doi: ""
     url: ""
     verifiee: false
+  - id: S15
+    reference: "Ministère de la Santé (Algérie). Arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026 complétant l'arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. Journal officiel de la République algérienne n° 36 du 17 mai 2026, p. 39-40. Document acquis DOC-00071."
+    organisme: "Ministère de la Santé (Algérie)"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: ""
+    verifiee: true
+  - id: S16
+    reference: "Organisation mondiale de la Santé. Human papillomavirus vaccines: WHO position paper, December 2022. Weekly Epidemiological Record. 2022;97(50):645-672."
+    organisme: OMS
+    annee: 2022
+    type: recommandation
+    doi: ""
+    url: "https://www.who.int/publications/i/item/who-wer9750-645-672"
+    verifiee: true
 mots_cles: [cancer du col de l'utérus, papillomavirus humain, HPV, frottis cervico-utérin, test HPV, colposcopie, CIN, HSIL, FIGO 2018, radiochimiothérapie, curiethérapie, hystérectomie élargie, vaccination HPV, Algérie]
 ---
 
@@ -156,7 +178,7 @@ mots_cles: [cancer du col de l'utérus, papillomavirus humain, HPV, frottis cerv
   - terminologie histologique : **CIN 1, 2, 3** (néoplasies intraépithéliales cervicales) regroupées en **LSIL (CIN 1)** et **HSIL (CIN 2-3)** ; **adénocarcinome in situ (AIS)** pour les lésions glandulaires.
 - **Cancer micro-invasif** : invasion stromale mesurable uniquement au microscope (stade IA de la FIGO).
 - **Cancer invasif** : stade IB et au-delà.
-- **Élimination** du cancer du col comme problème de santé publique (OMS) : incidence annuelle **≤ 4 cas pour 100 000 femmes** [S3].
+- **Élimination** du cancer du col comme problème de santé publique (OMS) : incidence annuelle **inférieure à 4 cas pour 100 000 femmes** [S3].
 
 ## 2. Historique (repères)
 
@@ -312,6 +334,8 @@ Infection HPV à haut risque des cellules basales de la zone de transformation
 - création du stade **IIIC** pour toute **atteinte ganglionnaire** (IIIC1 pelvienne, IIIC2 lombo-aortique), avec les notations **r** et **p** ; les **micrométastases** classent en IIIC (corrigendum) ;
 - la classification se veut applicable à **tous les niveaux de ressources**.
 
+> **Actualité (audit du 19/11/2026)** : aucune révision FIGO 2025 de la stadification du col n'a été identifiée ; la FIGO 2018 (publiée en 2019, avec corrigendum) reste la référence, à documenter avec le TNM selon l'ESGO 2023 [S1, S9]. Un rectificatif évoqué en 2024 dans la littérature secondaire n'a pas pu être consulté [À VÉRIFIER].
+
 ## 8. Diagnostic positif — clinique
 
 ### 8.1 Circonstances de découverte
@@ -343,16 +367,16 @@ Infection HPV à haut risque des cellules basales de la zone de transformation
 - **Biopsie** (cf. §8.3) : type histologique, grade, p16 si besoin.
 - **Colposcopie** : examen du col à la loupe binoculaire après application d'**acide acétique** (lésions **acidophiles** : blanchiment des zones riches en noyaux) et de **Lugol** (zones **iodonégatives** : épithélium pauvre en glycogène) ; elle repère la ZT, guide les biopsies et décrit les signes de gravité (mosaïque et ponctuation irrégulières, vaisseaux atypiques suggérant une invasion).
 
-### 9.2 Bilan d'extension (recommandations ESGO/ESTRO/ESP 2023, principes) [S9 — À VÉRIFIER]
+### 9.2 Bilan d'extension (recommandations ESGO/ESTRO/ESP 2023, principes) [S9]
 
 | Examen | Objectif | Indication |
 |---|---|---|
-| **IRM pelvienne** (séquences T2, diffusion, ± injection) | **Taille tumorale**, extension au **paramètre**, au vagin, à la vessie, au rectum, au corps utérin ; ganglions pelviens | **Examen de référence** de l'extension locorégionale, à partir du stade IB1 (et pour les IA si conservation de la fertilité) |
-| **TEP-TDM au 18F-FDG** | **Ganglions pelviens et lombo-aortiques**, métastases à distance | Tumeurs **localement avancées** (≥ IB3) ou ganglions suspects à l'IRM |
+| **IRM pelvienne** (séquences T2, diffusion, ± injection) | **Taille tumorale**, extension au **paramètre**, au vagin, à la vessie, au rectum, au corps utérin ; ganglions pelviens | **Obligatoire** pour le bilan initial de l'extension pelvienne (facultative pour une tumeur T1a à marges saines après conisation) ; l'échographie endovaginale/endorectale experte est une option [S9] |
+| **TEP-TDM au 18F-FDG** | **Ganglions pelviens et lombo-aortiques**, métastases à distance | Tumeurs **localement avancées** (T1b3 et au-delà, sauf T2a1) ou ganglions suspects à l'imagerie ; recommandée avant toute radiochimiothérapie à visée curative [S9] |
 | **TDM thoraco-abdomino-pelvienne** | Ganglions, métastases (poumon, foie), **hydronéphrose** | Alternative à la TEP si celle-ci n'est pas disponible |
 | **Échographie rénale** / uro-TDM | Retentissement urétéral (stade IIIB) | Si TDM non réalisée |
-| **Cystoscopie / rectoscopie** avec biopsie | Atteinte muqueuse vésicale ou rectale (IVA) | Si suspicion clinique ou radiologique |
-| **Stadification chirurgicale lombo-aortique** (cœlioscopie) | Détecter des métastases ganglionnaires occultes avant radiothérapie | Tumeurs localement avancées sans adénopathie lombo-aortique à la TEP, dans certains centres [S9 — À VÉRIFIER] |
+| **Cystoscopie / rectoscopie** avec biopsie | Atteinte muqueuse vésicale ou rectale (IVA) | Non recommandées en routine (ESGO 2023) ; seulement si suspicion clinique ou radiologique [S9] |
+| **Stadification chirurgicale lombo-aortique** (cœlioscopie) | Détecter des métastases ganglionnaires occultes avant radiothérapie | Peut être envisagée (au moins jusqu'à l'artère mésentérique inférieure) dans les tumeurs localement avancées sans adénopathie lombo-aortique à l'imagerie [S9] |
 | **Biologie** | NFS (anémie), **créatininémie** (insuffisance rénale obstructive), bilan hépatique, **sérologie VIH**, SCC-Ag (épidermoïde) | Systématique ; le **SCC-Ag** sert au suivi, pas au diagnostic |
 
 > Dans les contextes où l'IRM et la TEP ne sont pas accessibles, la **FIGO 2018** reste applicable avec l'**examen clinique** (± sous anesthésie), la radiographie thoracique, l'échographie et l'urographie ou le scanner [S1].
@@ -441,36 +465,36 @@ La survie à 5 ans dépend étroitement du stade : **très élevée** pour les s
 
 #### 13.2.2 Chirurgie du cancer invasif
 - **Conisation** (IA1 sans emboles, marges saines) : traitement suffisant si désir de fertilité.
-- **Hystérectomie simple** (IA1 chez une femme sans désir de grossesse ; certaines tumeurs à faible risque — cf. essai SHAPE [S12 — À VÉRIFIER]).
+- **Hystérectomie simple** (IA1 chez une femme sans désir de grossesse ; IA2 selon l'ESGO ; tumeurs à faible risque ≤ 2 cm à invasion stromale limitée : dans l'essai **SHAPE**, l'hystérectomie simple avec évaluation ganglionnaire était non inférieure à l'hystérectomie radicale pour la récidive pelvienne à 3 ans — 2,52 % contre 2,17 % — avec moins de troubles urinaires [S9, S12]).
 - **Trachélectomie élargie** (ablation du col et des paramètres proximaux, conservation du corps utérin) : préservation de la fertilité pour des tumeurs **< 2 cm** sélectionnées, ganglions négatifs.
-- **Hystérectomie élargie (radicale)** : ablation de l'utérus, des **paramètres**, d'une **collerette vaginale**, ± annexes (les ovaires peuvent être conservés chez la femme jeune pour l'épidermoïde) ; classification de Querleu-Morrow (types A à D) [À VÉRIFIER].
-- **Stadification ganglionnaire pelvienne** : **ganglion sentinelle** (technique combinée colorant-isotope ou vert d'indocyanine), complété ou remplacé par une lymphadénectomie pelvienne selon les situations [S9 — À VÉRIFIER].
-- **Voie d'abord** : l'essai **LACC** (631 femmes, stades IA1 avec emboles à IB1 FIGO 2009) a montré que la **chirurgie mini-invasive** (cœlioscopie ± robot) donnait une **survie sans maladie à 4,5 ans de 86,0 % contre 96,5 %** et une **survie globale à 3 ans de 93,8 % contre 99,0 %** par rapport à la **laparotomie** : la **voie ouverte** est depuis la voie de référence de l'hystérectomie radicale [S8].
+- **Hystérectomie élargie (radicale)** : ablation de l'utérus, des **paramètres**, d'une **collerette vaginale**, ± annexes (les ovaires peuvent être conservés chez la femme jeune pour l'épidermoïde) ; classification de Querleu-Morrow (types A à D ; modification de 2017 recommandée par l'ESGO) [S9].
+- **Stadification ganglionnaire pelvienne** (ESGO 2023) [S9] : premier temps de la chirurgie ; **ganglion sentinelle** (vert d'indocyanine préféré ; colorant + isotope en alternative) avec examen extemporané ; s'il est négatif, **lymphadénectomie pelvienne systématique** pour les tumeurs T1b1 à T2a1 ; ganglion sentinelle seul pour les T1a1 avec emboles et T1a2 ; en cas d'atteinte ganglionnaire peropératoire, **abandon de l'hystérectomie radicale** et radiochimiothérapie.
+- **Voie d'abord** : l'essai **LACC** (631 femmes, stades IA1 avec emboles à IB1 FIGO 2009) a montré que la **chirurgie mini-invasive** (cœlioscopie ± robot) donnait une **survie sans maladie à 4,5 ans de 86,0 % contre 96,5 %** et une **survie globale à 3 ans de 93,8 % contre 99,0 %** par rapport à la **laparotomie** : la **voie ouverte** est depuis la voie de référence de l'hystérectomie radicale [S8] ; l'ESGO 2023 n'admet la voie mini-invasive que pour des tumeurs à faible risque (< 2 cm, marges saines après conisation) dans des centres experts, après information de la patiente [S9].
 - **Exentération pelvienne** : pour certaines récidives centrales isolées après radiothérapie, en centre expert.
 
 #### 13.2.3 Radiothérapie et radiochimiothérapie
-- **Radiothérapie externe** pelvienne (≈ 45-50 Gy en 25 fractions de 1,8-2 Gy), étendue à la région **lombo-aortique** en cas d'atteinte ganglionnaire lombo-aortique (IIIC2) ou de risque élevé ; boosts ganglionnaires [doses À VÉRIFIER — S9].
-- **Chimiothérapie concomitante** radiosensibilisante : **cisplatine 40 mg/m² hebdomadaire** pendant la radiothérapie externe (5 à 6 cycles) [POSOLOGIE À VÉRIFIER — protocole du centre].
+- **Radiothérapie externe** pelvienne (ESGO 2023 : **45 Gy en 25 fractions** ou **46 Gy en 23 fractions**, en technique conformationnelle avec modulation d'intensité), étendue à la région **lombo-aortique** en cas d'atteinte ganglionnaire lombo-aortique (IIIC2) ou de risque élevé ; complément de dose sur les ganglions pathologiques (≈ 60 Gy EQD2 au total) ; pas de surimpression externe de la tumeur primitive ou des paramètres [S9].
+- **Chimiothérapie concomitante** radiosensibilisante : **cisplatine 40 mg/m² hebdomadaire** pendant la radiothérapie externe [S9] (habituellement 5 à 6 cycles, selon le protocole du centre) ; carboplatine hebdomadaire (AUC 2) en cas de contre-indication au cisplatine [S9].
 - **Curiethérapie utéro-vaginale** guidée par l'image (IRM) : **indispensable** au traitement curatif des tumeurs localement avancées ; elle délivre une forte dose au volume tumoral résiduel en épargnant vessie et rectum ; la radiothérapie externe **ne la remplace pas**.
-- **Durée totale** de l'association (externe + curiethérapie) idéalement **≤ 7-8 semaines** : chaque jour de prolongation diminue le contrôle local [S9 — À VÉRIFIER].
+- **Durée totale** de l'association (externe + curiethérapie) : **ne pas dépasser 7 semaines** (ESGO 2023) ; l'allongement diminue le contrôle local [S9].
 - **Radiothérapie postopératoire** (± chimiothérapie) : selon les facteurs de risque histologiques.
 
 #### 13.2.4 Traitements systémiques
-- **Chimiothérapie d'induction** : l'essai **INTERLACE** suggère qu'une courte chimiothérapie hebdomadaire **carboplatine-paclitaxel** avant la radiochimiothérapie améliore la survie dans les cancers localement avancés [S13 — À VÉRIFIER].
-- **Immunothérapie** : l'essai **KEYNOTE-A18** a évalué le **pembrolizumab** associé à la radiochimiothérapie puis en entretien dans les cancers localement avancés à haut risque [S11 — À VÉRIFIER] ; au stade métastatique ou en récidive, une chimiothérapie à base de **platine-paclitaxel ± bévacizumab ± pembrolizumab** (tumeurs PD-L1 positives) est utilisée [À VÉRIFIER — essais KEYNOTE-826, GOG-240].
+- **Chimiothérapie d'induction** : dans l'essai **INTERLACE** (500 patientes), 6 semaines de **carboplatine (AUC 2) + paclitaxel (80 mg/m²) hebdomadaires** avant la radiochimiothérapie ont amélioré la survie sans progression (72 % contre 64 % à 5 ans) et la survie globale (80 % contre 72 % à 5 ans ; HR 0,60), au prix d'une toxicité hématologique accrue [S13]. Ces données sont postérieures à l'ESGO 2023, qui déconseille la chimiothérapie néo-adjuvante suivie de chirurgie hors essai [S9].
+- **Immunothérapie** : dans l'essai **KEYNOTE-A18** (1 060 patientes, cancers localement avancés à haut risque), le **pembrolizumab** associé à la radiochimiothérapie (5 cycles) puis en entretien (15 cycles) a amélioré la survie sans progression puis la survie globale (82,6 % contre 74,8 % à 36 mois ; HR 0,67) [S11] ; au stade métastatique ou en récidive, l'ESGO 2023 recommande une chimiothérapie à base de **platine-paclitaxel ± bévacizumab**, avec ajout du **pembrolizumab** si PD-L1 CPS ≥ 1, et le cémiplimab en deuxième ligne [S9].
 - Ces thérapeutiques innovantes ont un **accès variable** selon les pays ; leur disponibilité en Algérie doit être vérifiée auprès des centres anticancer [À VÉRIFIER].
 
 ### 13.3 Indications — stratégie selon le stade (principes)
 
-| Stade | Stratégie de référence (principes ESGO 2023 / FIGO) [S1, S9 — À VÉRIFIER] |
+| Stade | Stratégie de référence (principes ESGO 2023 / FIGO) [S1, S9] |
 |---|---|
 | **HSIL (CIN 2-3)** | Exérèse (RAD/LEEP) ; ablation si critères ; surveillance par test HPV ± cytologie à 6-12 mois |
 | **AIS** | Conisation (marges saines) ; hystérectomie après désir de grossesse accompli (pratique fréquente) |
 | **IA1 sans emboles** | Conisation à marges saines (fertilité) ou hystérectomie simple |
-| **IA1 avec emboles, IA2** | Conisation ou trachélectomie simple + **stadification ganglionnaire pelvienne** (fertilité), ou hystérectomie simple/modifiée + ganglions |
+| **IA1 avec emboles, IA2** | Conisation à marges saines ou hystérectomie simple (pas de paramétrectomie) ; **ganglion sentinelle** : à envisager pour IA1 avec emboles et IA2 sans emboles, à réaliser pour IA2 avec emboles [S9] |
 | **IB1, IB2, IIA1** | **Hystérectomie élargie par laparotomie** + stadification ganglionnaire pelvienne (sentinelle ± curage) ; **trachélectomie élargie** si < 2 cm et désir de grossesse ; **alternative** : radiochimiothérapie exclusive + curiethérapie (si contre-indication opératoire ou facteurs de risque prévisibles d'irradiation postopératoire) |
 | **Après chirurgie** | Facteurs de **haut risque** (ganglions envahis, paramètres envahis, marges positives) → **radiochimiothérapie adjuvante** ; facteurs **intermédiaires** (taille, emboles, invasion stromale profonde) → radiothérapie adjuvante à discuter |
-| **IB3, IIA2, IIB, III, IVA** (localement avancés) | **Radiochimiothérapie concomitante** (pelvienne ± lombo-aortique, cisplatine hebdomadaire) **+ curiethérapie guidée par l'image** ; options récentes : chimiothérapie d'induction (INTERLACE), immunothérapie (KEYNOTE-A18) selon l'accès [S11, S13 — À VÉRIFIER] |
+| **IB3, IIA2, IIB, III, IVA** (localement avancés) | **Radiochimiothérapie concomitante** (pelvienne ± lombo-aortique, cisplatine hebdomadaire) **+ curiethérapie guidée par l'image** ; options récentes : chimiothérapie d'induction (INTERLACE), immunothérapie (KEYNOTE-A18) selon l'accès et les autorisations [S11, S13] |
 | **IVB / récidive métastatique** | Traitement systémique (platine-paclitaxel ± bévacizumab ± immunothérapie selon PD-L1), radiothérapie palliative (hémostatique, antalgique), **soins palliatifs** |
 | **Récidive centrale isolée après irradiation** | Exentération pelvienne en centre expert |
 
@@ -485,9 +509,9 @@ La survie à 5 ans dépend étroitement du stade : **très élevée** pour les s
 - **Test HPV** (± cytologie, co-test) **6 à 12 mois** après l'exérèse : un test négatif a une excellente valeur prédictive négative pour la récidive ; surveillance prolongée ensuite (risque persistant de récidive et de cancer, y compris vaginal) [À VÉRIFIER — intervalles selon les référentiels].
 
 ### 14.2 Après traitement d'un cancer invasif (principes)
-- **Examen clinique** (spéculum, TV, TR, aires ganglionnaires) **tous les 3 à 6 mois pendant 2 ans**, puis **tous les 6 à 12 mois jusqu'à 5 ans**, puis annuel [S9 — À VÉRIFIER].
-- **IRM pelvienne** à 3-6 mois après radiochimiothérapie pour évaluer la réponse ; TEP-TDM selon la situation.
-- Les **frottis** de surveillance après irradiation sont d'interprétation difficile (atypies radiques).
+- **Examen clinique** (interrogatoire, spéculum, TV, TR, aires ganglionnaires) : rythme **individualisé selon le risque de récidive** (ESGO 2023) [S9] ; schéma usuel : tous les 3 à 6 mois pendant 2 ans, puis tous les 6 à 12 mois jusqu'à 5 ans.
+- **Imagerie de réponse** après radiochimiothérapie (même technique qu'au diagnostic : IRM pelvienne ± TDM ou TEP-TDM) **pas avant 3 mois** ; biopsie systématique non recommandée ; imagerie et biologie ensuite seulement selon le risque, les symptômes ou les signes d'appel [S9].
+- La **cytologie** n'est **pas recommandée** pour détecter une récidive après radiothérapie (atypies radiques) [S9].
 - Prise en charge des **séquelles** : cystite et rectite radiques, sténose vaginale (**dilatateurs vaginaux**), lymphœdème, **insuffisance ovarienne prématurée** (traitement hormonal substitutif possible pour les épidermoïdes), troubles de la sexualité, retentissement psychologique.
 - **Éducation** : signes devant faire consulter (saignements, douleurs, œdème, signes urinaires).
 
@@ -496,10 +520,10 @@ La survie à 5 ans dépend étroitement du stade : **très élevée** pour les s
 ### 15.1 Prévention primaire : la vaccination anti-HPV
 - **Vaccins** : bivalent (16, 18), quadrivalent (6, 11, 16, 18), **nonavalent** (6, 11, 16, 18, 31, 33, 45, 52, 58) ; ce sont des vaccins **prophylactiques** (sans effet thérapeutique sur une infection établie).
 - **Cible prioritaire** : **filles de 9 à 14 ans**, avant le début de la vie sexuelle ; la cible de l'OMS est de **90 %** des filles entièrement vaccinées avant 15 ans [S3].
-- **Schéma** : l'OMS a reconnu en 2022 qu'un **schéma à une dose** pouvait être utilisé chez les filles et jeunes femmes [position OMS 2022 — À VÉRIFIER] ; les schémas nationaux varient (1 ou 2 doses chez les jeunes, 3 doses chez les immunodéprimés).
+- **Schéma** (position OMS de décembre 2022) : **1 ou 2 doses** de 9 à 20 ans (le schéma à une dose étant hors AMM), 2 doses à 6 mois d'intervalle après 21 ans, au moins 2 et si possible 3 doses chez les personnes immunodéprimées (dont VIH) [S16] ; les schémas nationaux varient.
 - **Efficacité** : réduction majeure des infections à HPV vaccinaux, des CIN 2-3 et, dans les cohortes vaccinées jeunes, des cancers invasifs [À VÉRIFIER — données de cohortes].
 - La vaccination **ne dispense pas** du dépistage (types non couverts, femmes vaccinées tardivement).
-- **Algérie** : le statut de l'introduction du vaccin HPV dans le calendrier vaccinal national doit être vérifié auprès du ministère de la Santé et de l'INSP [À VÉRIFIER].
+- **Algérie** : l'arrêté du 28 avril 2026 (JORADP n° 36 du 17 mai 2026), complétant l'arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, inscrit la vaccination **« anti human papilloma-virus » à l'âge de 11-13 ans** [S15]. Le texte ne précise ni le sexe des bénéficiaires, ni le nombre de doses, ni le vaccin utilisé : ces modalités relèvent des instructions techniques du ministère de la Santé [À VÉRIFIER].
 
 ### 15.2 Prévention secondaire : le dépistage
 
@@ -516,8 +540,8 @@ La survie à 5 ans dépend étroitement du stade : **très élevée** pour les s
 
 **Recommandations de l'OMS (2021)** [S2] :
 - **Test HPV-ADN** recommandé comme **test de dépistage primaire** pour la population générale ; le test HPV-ARNm peut être utilisé (recommandation conditionnelle).
-- **Population générale** : dépistage à partir de **30 ans**, **tous les 5 à 10 ans** ; **femmes vivant avec le VIH** : à partir de **25 ans**, **tous les 3 à 5 ans** [âges et intervalles À VÉRIFIER dans le texte intégral].
-- Deux stratégies : **« dépister et traiter »** (traitement de toute femme HPV positive éligible) ou **« dépister, trier et traiter »** (triage des HPV positives par génotypage partiel, colposcopie, IVA ou cytologie) ; l'approche avec **triage réduit de moitié** le nombre de traitements [S2].
+- **Population générale** : dépistage à partir de **30 ans**, **tous les 5 à 10 ans** ; **femmes vivant avec le VIH** : à partir de **25 ans**, **tous les 3 à 5 ans** (recommandations 5, 8, 25 et 28) [S2] ; en phase de transition, un dépistage même deux fois dans la vie est bénéfique [S2].
+- Deux stratégies : **« dépister et traiter »** (traitement de toute femme HPV positive éligible) ou **« dépister, trier et traiter »** (triage des HPV positives par génotypage partiel, colposcopie, IVA ou cytologie) ; l'approche avec **triage** réduit le nombre de traitements inutiles (surtraitement) [S2].
 - **Transition rapide** de l'IVA vers le test HPV [S2].
 
 **Exemple de pratique européenne (France)** : cytologie entre 25 et 29 ans (deux frottis à un an d'intervalle puis à trois ans), puis **test HPV tous les 5 ans de 30 à 65 ans** [HAS 2019 — À VÉRIFIER].
@@ -527,7 +551,8 @@ La survie à 5 ans dépend étroitement du stade : **très élevée** pour les s
 Test HPV haut risque POSITIF
 │
 ├─ Triage (cytologie réflexe / génotypage 16-18 / IVA selon le programme)
-│     ├─ Triage négatif ─► nouveau test HPV à 12 mois (ou selon le programme)
+│     ├─ Triage négatif ─► nouveau test HPV à 24 mois (OMS 2021, population générale ;
+│     │                    12 mois chez les femmes vivant avec le VIH) [S2]
 │     └─ Triage positif (≥ ASC-US, HPV 16/18…) ─► COLPOSCOPIE
 │
 COLPOSCOPIE ± biopsies dirigées
@@ -538,6 +563,7 @@ COLPOSCOPIE ± biopsies dirigées
 ```
 
 ### 15.3 Situation en Algérie
+- **Prévention primaire** : vaccination anti-HPV inscrite au calendrier vaccinal obligatoire à **11-13 ans** par l'arrêté du 28 avril 2026 [S15].
 - Dépistage historiquement **opportuniste**, fondé sur le **frottis cytologique**, avec des actions de dépistage renforcées dans le cadre du **Plan national cancer 2015-2019** (unités de dépistage fixes et mobiles) [S7].
 - Une évaluation externe a recommandé la transformation en **programme organisé** pour améliorer la couverture [S7].
 - Les recommandations OMS 2021 (test HPV primaire, auto-prélèvement) offrent une piste d'amélioration de la couverture dans les zones éloignées, sous réserve de capacités de laboratoire et de traitement des femmes positives [S2].
@@ -593,7 +619,7 @@ Les **métrorragies post-coïtales** sont le signe d'appel le plus évocateur ; 
 Tumeur > 4 cm avec envahissement paramétrial (IIB) **et** adénopathies pelviennes suspectes à l'imagerie → **stade IIIC1r** (le « r » signale une atteinte ganglionnaire retenue sur l'imagerie ; elle deviendrait IIIC1p si elle était prouvée histologiquement) [S1]. La douleur lombaire impose de vérifier l'absence d'hydronéphrose (stade IIIB si présente ; ici absente).
 
 **3. Quel est le traitement de référence ?**
-Tumeur **localement avancée** : **radiochimiothérapie concomitante** — radiothérapie externe pelvienne (≈ 45-50 Gy) avec **surimpression des ganglions envahis**, associée au **cisplatine hebdomadaire** (40 mg/m²), suivie d'une **curiethérapie utéro-vaginale guidée par l'IRM** ; durée totale idéalement **≤ 7-8 semaines** [S9 — À VÉRIFIER]. La chirurgie radicale n'est pas indiquée (cumul de morbidité avec une radiothérapie qui serait de toute façon nécessaire). Selon l'accès, une **chimiothérapie d'induction** (INTERLACE) ou une **immunothérapie** associée (KEYNOTE-A18) peuvent être discutées en RCP [S11, S13 — À VÉRIFIER].
+Tumeur **localement avancée** : **radiochimiothérapie concomitante** — radiothérapie externe pelvienne (45 Gy en 25 fractions) avec **complément de dose sur les ganglions envahis**, associée au **cisplatine hebdomadaire** (40 mg/m²), suivie d'une **curiethérapie utéro-vaginale guidée par l'IRM** ; durée totale **≤ 7 semaines** [S9]. La chirurgie radicale n'est pas indiquée (cumul de morbidité avec une radiothérapie qui serait de toute façon nécessaire). Selon l'accès, une **chimiothérapie d'induction** (INTERLACE) ou une **immunothérapie** associée (KEYNOTE-A18 : stade IIIC1 éligible) peuvent être discutées en RCP [S11, S13].
 
 **4. Quelles mesures associer ?**
 - **Correction de l'anémie** (fer, transfusion si nécessaire) : l'hypoxie tumorale diminue l'efficacité de la radiothérapie.
@@ -603,10 +629,10 @@ Tumeur **localement avancée** : **radiochimiothérapie concomitante** — radio
 - **Coordination** : la patiente vit loin du centre de radiothérapie ; l'organisation de l'hébergement et des transports conditionne le respect de la durée totale du traitement.
 
 **5. Quelle surveillance ?**
-IRM pelvienne à 3 mois pour évaluer la réponse ; examen clinique tous les 3-4 mois pendant 2 ans, puis tous les 6 mois jusqu'à 5 ans ; SCC-Ag (élevé au diagnostic) comme marqueur de suivi ; prise en charge des séquelles (rectite, cystite, sténose vaginale) [S9 — À VÉRIFIER].
+IRM pelvienne (même technique qu'au diagnostic) pas avant 3 mois pour évaluer la réponse ; examen clinique régulier, au rythme individualisé selon le risque (par exemple tous les 3-4 mois pendant 2 ans, puis tous les 6 mois jusqu'à 5 ans) ; SCC-Ag (élevé au diagnostic) comme marqueur de suivi ; pas de cytologie de surveillance ; prise en charge des séquelles (rectite, cystite, sténose vaginale) [S9].
 
 **6. Quelle leçon de santé publique ?**
-Cette femme aurait vraisemblablement bénéficié, avec un **dépistage** réalisé une fois ou deux entre 30 et 45 ans (cibles OMS : test de haute performance à 35 et 45 ans), du diagnostic et du traitement d'une **lésion précancéreuse** par une simple conisation [S2, S3]. Ses **filles** de 9 à 14 ans sont la cible de la **vaccination** anti-HPV (selon la disponibilité nationale [À VÉRIFIER]), et ses filles plus âgées doivent être orientées vers le dépistage.
+Cette femme aurait vraisemblablement bénéficié, avec un **dépistage** réalisé une fois ou deux entre 30 et 45 ans (cibles OMS : test de haute performance à 35 et 45 ans), du diagnostic et du traitement d'une **lésion précancéreuse** par une simple conisation [S2, S3]. Ses **filles** en âge d'être vaccinées relèvent de la **vaccination** anti-HPV (inscrite au calendrier vaccinal algérien à 11-13 ans depuis l'arrêté du 28 avril 2026 [S15]), et ses filles plus âgées doivent être orientées vers le dépistage.
 
 **Message pédagogique** : métrorragies post-coïtales → **spéculum** → **biopsie** de toute lésion ; la stadification FIGO 2018 intègre l'imagerie et les ganglions ; les stades localement avancés relèvent de la **radiochimiothérapie + curiethérapie**, et non de la chirurgie.
 
@@ -614,7 +640,7 @@ Cette femme aurait vraisemblablement bénéficié, avec un **dépistage** réali
 
 1. Cancer **évitable** : cause nécessaire = **HPV à haut risque persistant** (16 et 18 ≈ 70 %) ; long délai infection → cancer (10-20 ans).
 2. **Algérie (GLOBOCAN 2022)** : **1 799 nouveaux cas**, 4e cancer de la femme (5,1 %) ; le sein représente 41,3 % des cancers féminins [S4].
-3. **Cibles OMS 2030 « 90-70-90 »** : vaccination de 90 % des filles avant 15 ans, dépistage de 70 % des femmes par un test performant à 35 et 45 ans, traitement de 90 % des lésions ; seuil d'élimination : ≤ 4/100 000 [S3].
+3. **Cibles OMS 2030 « 90-70-90 »** : vaccination de 90 % des filles avant 15 ans, dépistage de 70 % des femmes par un test performant à 35 et 45 ans, traitement de 90 % des lésions ; seuil d'élimination : < 4/100 000 [S3].
 4. La **zone de transformation** est le siège des lésions ; E6 inactive **p53**, E7 inactive **pRb** (p16 surexprimée).
 5. Histologie : **épidermoïde ≈ 70-80 %**, **adénocarcinome ≈ 20-25 %** (moins bien dépisté par la cytologie) ; certains adénocarcinomes sont **HPV-indépendants**.
 6. **CIN 1 = LSIL** (régression fréquente) ; **CIN 2-3 = HSIL** (précancer → exérèse).
@@ -623,9 +649,10 @@ Cette femme aurait vraisemblablement bénéficié, avec un **dépistage** réali
 9. Bilan : **IRM pelvienne** (extension locale), **TEP-TDM** (ganglions, métastases) pour les formes avancées ; créatinine, Hb, VIH.
 10. **FIGO 2018** : IB1 < 2 cm, IB2 2-4 cm, IB3 ≥ 4 cm ; **IIIC** = ganglions (IIIC1 pelviens, IIIC2 lombo-aortiques ; « r »/« p ») ; IIIB = paroi pelvienne ou hydronéphrose [S1].
 11. Petits stades : chirurgie (conisation, hystérectomie élargie **par laparotomie** depuis LACC, trachélectomie pour la fertilité) [S8].
-12. Stades localement avancés : **radiochimiothérapie (cisplatine) + curiethérapie** ; éviter de cumuler chirurgie et radiothérapie.
+12. Stades localement avancés : **radiochimiothérapie (cisplatine 40 mg/m² hebdomadaire) + curiethérapie**, durée totale ≤ 7 semaines ; éviter de cumuler chirurgie et radiothérapie [S9].
 13. Décès par **insuffisance rénale obstructive**, hémorragie, infection, cachexie.
-14. Surveillance clinique rapprochée 2 ans, puis jusqu'à 5 ans ; gestion des séquelles (sténose vaginale, rectite, cystite, ménopause).
+14. Surveillance clinique individualisée (rapprochée les 2 premières années, puis jusqu'à 5 ans) ; gestion des séquelles (sténose vaginale, rectite, cystite, ménopause).
+15. **Algérie** : vaccination anti-HPV inscrite au calendrier vaccinal obligatoire à **11-13 ans** (arrêté du 28 avril 2026) [S15].
 
 ## 19. Pièges classiques à l'examen
 
@@ -650,7 +677,7 @@ Cette femme aurait vraisemblablement bénéficié, avec un **dépistage** réali
 
 - A. En Algérie, selon GLOBOCAN 2022, il se situe au 4e rang des cancers féminins
 - B. En Algérie, il représente le premier cancer de la femme
-- C. L'OMS définit son élimination par une incidence ≤ 4 cas pour 100 000 femmes par an
+- C. L'OMS définit son élimination par une incidence inférieure à 4 cas pour 100 000 femmes par an
 - D. La cible OMS 2030 prévoit 90 % de filles vaccinées contre le HPV avant 15 ans
 - E. La cible OMS 2030 prévoit 70 % de femmes dépistées par un test de haute performance à 35 ans puis à 45 ans
 
@@ -728,13 +755,13 @@ Cette femme aurait vraisemblablement bénéficié, avec un **dépistage** réali
 
 ### Corrigé commenté
 
-**QCM 1** — Réponse(s) : **A, C, D, E**. GLOBOCAN 2022 Algérie : 1 799 nouveaux cas, 5,1 % des cancers féminins, 4e rang ; le sein est le premier cancer féminin (41,3 %). Stratégie OMS 2020 : 90-70-90 ; élimination = ≤ 4/100 000. *Piège :* Confondre le rang du col et celui du sein en Algérie.
+**QCM 1** — Réponse(s) : **A, C, D, E**. GLOBOCAN 2022 Algérie : 1 799 nouveaux cas, 5,1 % des cancers féminins, 4e rang ; le sein est le premier cancer féminin (41,3 %). Stratégie OMS 2020 : 90-70-90 ; élimination = incidence < 4/100 000. *Piège :* Confondre le rang du col et celui du sein en Algérie.
 
 **QCM 2** — Réponse(s) : **A, B, C, D**. HPV à haut risque (16, 18 ≈ 70 %) ; clairance de la majorité des infections en 1-2 ans ; E6 → dégradation de p53 ; E7 → inactivation de pRb (surexpression de p16). Les HPV 6 et 11 sont à bas risque (condylomes). *Piège :* Confondre HPV à bas risque (6, 11) et à haut risque (16, 18).
 
 **QCM 3** — Réponse(s) : **A, B, D, E**. ZT = siège des lésions. Épidermoïde ≈ 70-80 %, adénocarcinome ≈ 20-25 % (endocervical, moins bien dépisté par le frottis). CIN 1 = LSIL ; CIN 2-3 = HSIL. Certains adénocarcinomes (type gastrique, à cellules claires) sont HPV-indépendants. *Piège :* Classer la CIN 1 en haut grade.
 
-**QCM 4** — Réponse(s) : **A, B, D, E**. OMS 2021 : HPV-ADN en dépistage primaire, transition rapide depuis l'IVA, stratégies « dépister et traiter » ou « dépister, trier et traiter » (le triage réduit de moitié les traitements), dépistage plus précoce et plus fréquent chez les femmes vivant avec le VIH. Un test HPV positif est un marqueur de risque, pas un diagnostic. *Piège :* Assimiler test HPV positif et lésion.
+**QCM 4** — Réponse(s) : **A, B, D, E**. OMS 2021 : HPV-ADN en dépistage primaire, transition rapide depuis l'IVA, stratégies « dépister et traiter » ou « dépister, trier et traiter » (le triage réduit les traitements inutiles), dépistage plus précoce et plus fréquent chez les femmes vivant avec le VIH. Un test HPV positif est un marqueur de risque, pas un diagnostic. *Piège :* Assimiler test HPV positif et lésion.
 
 **QCM 5** — Réponse(s) : **C**. Devant une lésion visible, seul l'examen histologique (biopsie) affirme le diagnostic. Le frottis peut être faussement négatif (nécrose, sang). L'IRM et le SCC-Ag interviennent après la preuve histologique (bilan d'extension, suivi). *Piège :* Faire un frottis devant une lésion visible.
 
@@ -746,19 +773,19 @@ Cette femme aurait vraisemblablement bénéficié, avec un **dépistage** réali
 
 **QCM 9** — Réponse(s) : **A, B, C, D**. Signes : métrorragies provoquées (post-coïtales, très évocatrices), spontanées ou post-ménopausiques, leucorrhées sales, douleurs pelviennes ou lombaires (hydronéphrose), œdème d'un membre inférieur (compression veineuse/lymphatique), signes urinaires ou rectaux. La galactorrhée n'a pas de lien. *Piège :* Ne pas examiner le col devant des métrorragies attribuées à une autre cause.
 
-**QCM 10** — Réponse(s) : **A, B, D, E**. Vaccins prophylactiques (bivalent, quadrivalent, nonavalent) ; cible 9-14 ans, avant l'exposition ; pas d'effet thérapeutique ; le dépistage reste nécessaire (types non couverts, vaccination tardive). *Piège :* Arrêter le dépistage chez les femmes vaccinées.
+**QCM 10** — Réponse(s) : **A, B, D, E**. Vaccins prophylactiques (bivalent, quadrivalent, nonavalent) ; cible 9-14 ans, avant l'exposition ; pas d'effet thérapeutique ; le dépistage reste nécessaire (types non couverts, vaccination tardive). En Algérie, la vaccination est inscrite au calendrier obligatoire à 11-13 ans (arrêté du 28 avril 2026). *Piège :* Arrêter le dépistage chez les femmes vaccinées.
 
 ## 21. Divergences entre recommandations
 
 | Thème | Position A | Position B | Commentaire |
 |---|---|---|---|
 | **Test de dépistage primaire** | OMS 2021 : test HPV-ADN primaire, transition rapide depuis l'IVA [S2] | Pratique encore répandue (dont en Algérie) : cytologie opportuniste [S7] | La performance du test HPV permet d'allonger les intervalles |
-| **Âge de début et intervalles** | OMS 2021 : 30 ans, tous les 5-10 ans (VIH : 25 ans, 3-5 ans) [S2 — À VÉRIFIER] | France (HAS 2019) : cytologie 25-29 ans puis HPV tous les 5 ans de 30 à 65 ans [À VÉRIFIER] | Adaptation aux ressources et à l'épidémiologie |
+| **Âge de début et intervalles** | OMS 2021 : 30 ans, tous les 5-10 ans (VIH : 25 ans, 3-5 ans) [S2] | France (HAS 2019) : cytologie 25-29 ans puis HPV tous les 5 ans de 30 à 65 ans [À VÉRIFIER] | Adaptation aux ressources et à l'épidémiologie |
 | **Stadification** | FIGO 2018 : imagerie et pathologie autorisées ; ganglions = IIIC [S1] | FIGO 2009 : clinique, ganglions sans effet sur le stade | Les essais anciens utilisent la FIGO 2009 : prudence dans les comparaisons |
 | **Voie d'abord de l'hystérectomie radicale** | Après LACC (2018) : **laparotomie** de référence [S8] | Avant 2018 : cœlioscopie/robot largement utilisés ; certaines équipes discutent la chirurgie mini-invasive pour les très petites tumeurs | Des essais complémentaires sont en cours [À VÉRIFIER] |
-| **Radicalité pour les tumeurs à faible risque** | SHAPE (2024) : hystérectomie simple non inférieure chez des tumeurs ≤ 2 cm à faible risque [S12 — À VÉRIFIER] | Hystérectomie radicale classique | Intégration progressive dans les référentiels |
-| **Traitement des stades localement avancés** | Standard : radiochimiothérapie cisplatine + curiethérapie [S9 — À VÉRIFIER] | Ajouts récents : chimiothérapie d'induction (INTERLACE), pembrolizumab (KEYNOTE-A18) [S11, S13 — À VÉRIFIER] | Accès et coût variables selon les pays |
-| **Schéma vaccinal** | OMS 2022 : une dose possible chez les jeunes [À VÉRIFIER] | Plusieurs pays : deux doses chez les 9-14 ans | |
+| **Radicalité pour les tumeurs à faible risque** | SHAPE (2024) : hystérectomie simple non inférieure chez des tumeurs ≤ 2 cm à faible risque [S12] | Hystérectomie radicale classique | Intégration progressive dans les référentiels |
+| **Traitement des stades localement avancés** | Standard ESGO 2023 : radiochimiothérapie cisplatine + curiethérapie guidée par l'image [S9] | Ajouts récents (2024) : chimiothérapie d'induction (INTERLACE), pembrolizumab (KEYNOTE-A18) [S11, S13] | Accès et coût variables selon les pays |
+| **Schéma vaccinal** | OMS 2022 : 1 ou 2 doses de 9 à 20 ans [S16] | Plusieurs pays : deux doses chez les 9-14 ans ; Algérie (2026) : âge de 11-13 ans, nombre de doses non précisé par l'arrêté [S15] | |
 | **Tendance de l'incidence à Sétif** | Étude 1986-2005 : taux stables [S6] | Atlas 1986-2016 (presse) : diminution [À VÉRIFIER] | Document primaire de l'atlas à consulter |
 
 ## 22. Références
@@ -771,11 +798,15 @@ Cette femme aurait vraisemblablement bénéficié, avec un **dépistage** réali
 6. **[S6]** Hamdi Cherif M, et al. Registre du cancer de Sétif : incidence, tendance et survie, 1986-2005. *J Afr Cancer.* 2010. doi:10.1007/s12558-010-0075-3. — *Vérifiée.*
 7. **[S7]** Ministère de la Santé (Algérie). Plan national cancer 2015-2019. — *Existence et axes vérifiés par sources secondaires ; texte non consulté.*
 8. **[S8]** Ramirez PT, et al. LACC. *N Engl J Med.* 2018;379(20):1895-1904. — *Vérifiée (résultats confirmés ; pagination à confirmer).*
-9. **[S9]** Cibula D, et al. ESGO/ESTRO/ESP guidelines — update 2023. *Int J Gynecol Cancer.* 2023. — *Non revérifiée [À VÉRIFIER].*
-10. **[S10]** OMS/CIRC. Female Genital Tumours, 5th ed. 2020. — *Non revérifiée [À VÉRIFIER].*
-11. **[S11]** Lorusso D, et al. KEYNOTE-A18. *Lancet.* 2024. — *Non revérifiée [À VÉRIFIER].*
-12. **[S12]** Plante M, et al. SHAPE. *N Engl J Med.* 2024. — *Non revérifiée [À VÉRIFIER].*
-13. **[S13]** McCormack M, et al. INTERLACE. *Lancet.* 2024. — *Non revérifiée [À VÉRIFIER].*
+9. **[S9]** Cibula D, et al. ESGO/ESTRO/ESP guidelines — update 2023. *Int J Gynecol Cancer.* 2023;33(5):649-666. doi:10.1136/ijgc-2023-004429. — *Document acquis DOC-00094, consulté lors de l'audit.*
+10. **[S10]** OMS/CIRC. Female Genital Tumours, 5th ed. 2020. — *Existence confirmée (citée par S9).*
+11. **[S11]** Lorusso D, et al. KEYNOTE-A18 (survie globale). *Lancet.* 2024;404(10460):1321-1332. doi:10.1016/S0140-6736(24)01808-7. — *Vérifiée (recherche web, audit).*
+12. **[S12]** Plante M, et al. SHAPE. *N Engl J Med.* 2024;390(9):819-829. doi:10.1056/NEJMoa2308900. — *Vérifiée (recherche web, audit).*
+13. **[S13]** McCormack M, et al. INTERLACE. *Lancet.* 2024;404(10462):1525-1535. — *Vérifiée (recherche web, audit).*
 14. **[S14]** Nayar R, Wilbur DC. The Bethesda System for Reporting Cervical Cytology, 3rd ed. 2015. — *Non revérifiée [À VÉRIFIER].*
+15. **[S15]** Ministère de la Santé (Algérie). Arrêté du 28 avril 2026 complétant le calendrier de vaccination obligatoire (vaccination anti-HPV à 11-13 ans). *JORADP* n° 36 du 17 mai 2026. — *Document acquis DOC-00071, lu lors de l'audit.*
+16. **[S16]** OMS. Human papillomavirus vaccines: WHO position paper, December 2022. *Wkly Epidemiol Rec.* 2022;97(50):645-672. — *Vérifiée (recherche web, audit).*
+
+> **Audit (AUD-01/AUD-02, 19/11/2026)** : ESGO 2023 lu dans le document acquis DOC-00094 (bilan, ganglion sentinelle, radiochimiothérapie, surveillance) ; OMS 2021 lu dans DOC-00044 (âges, intervalles, triage) ; vaccination HPV alignée sur l'arrêté algérien du 28/04/2026 (DOC-00071) ; essais KEYNOTE-A18, INTERLACE et SHAPE vérifiés. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0002.md`.
 
 > **Note de traçabilité** : S1 à S8 confirmées par recherche web le 19/11/2026 ; le budget de recherche de la session ayant été épuisé, les sources S9 à S14 (recommandations ESGO 2023, essais 2024, classification OMS 2020, Bethesda) n'ont pas pu être revérifiées et doivent l'être lors de l'audit.

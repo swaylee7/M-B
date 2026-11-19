@@ -1,0 +1,2881 @@
+{
+  "agent": "TRA-01",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-08000",
+      "fr": "cancer de l'œsophage",
+      "en": "esophageal cancer",
+      "ar": "سرطان المريء",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur maligne de l'œsophage, épidermoïde ou adénocarcinome.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "ONCO",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08001",
+      "fr": "cancer de l'estomac",
+      "en": "gastric cancer",
+      "ar": "سرطان المعدة",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur maligne de l'estomac, le plus souvent adénocarcinome.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "ONCO",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08002",
+      "fr": "cancer du côlon",
+      "en": "colon cancer",
+      "ar": "سرطان القولون",
+      "ar_variantes": [],
+      "definition_fr": "Adénocarcinome développé le plus souvent sur un polype adénomateux colique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "ONCO",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08003",
+      "fr": "cancer du rectum",
+      "en": "rectal cancer",
+      "ar": "سرطان المستقيم",
+      "ar_variantes": [],
+      "definition_fr": "Adénocarcinome du rectum, souvent révélé par des rectorragies.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "ONCO",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08004",
+      "fr": "cancer du pancréas",
+      "en": "pancreatic cancer",
+      "ar": "سرطان المُعَثْكَلة",
+      "ar_variantes": [
+        "سرطان البنكرياس"
+      ],
+      "definition_fr": "Adénocarcinome du pancréas exocrine, de pronostic sombre.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "ONCO",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08005",
+      "fr": "cholangiocarcinome",
+      "en": "cholangiocarcinoma",
+      "ar": "سرطانة الأقنية الصفراوية",
+      "ar_variantes": [],
+      "definition_fr": "Cancer des voies biliaires intra- ou extrahépatiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "ONCO",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08006",
+      "fr": "cancer de la vésicule biliaire",
+      "en": "gallbladder cancer",
+      "ar": "سرطان المرارة",
+      "ar_variantes": [],
+      "definition_fr": "Adénocarcinome de la vésicule biliaire, souvent associé à la lithiase.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08007",
+      "fr": "lithiase vésiculaire",
+      "en": "cholelithiasis",
+      "ar": "حصيات المرارة",
+      "ar_variantes": [
+        "الحصى الصفراوية"
+      ],
+      "definition_fr": "Présence de calculs dans la vésicule biliaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08008",
+      "fr": "colique hépatique",
+      "en": "biliary colic",
+      "ar": "المغص الصفراوي",
+      "ar_variantes": [],
+      "definition_fr": "Douleur de l'hypochondre droit liée à la mise en tension brutale des voies biliaires.",
+      "categorie": "symptome",
+      "specialites": [
+        "CDIG",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08009",
+      "fr": "lithiase de la voie biliaire principale",
+      "en": "choledocholithiasis",
+      "ar": "تحصّي القناة الصفراوية الرئيسية",
+      "ar_variantes": [],
+      "definition_fr": "Présence de calculs dans le canal cholédoque.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08010",
+      "fr": "cholécystite aiguë",
+      "en": "acute cholecystitis",
+      "ar": "التهاب المرارة الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation aiguë de la vésicule biliaire, le plus souvent lithiasique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08011",
+      "fr": "angiocholite",
+      "en": "acute cholangitis",
+      "ar": "التهاب الأقنية الصفراوية",
+      "ar_variantes": [],
+      "definition_fr": "Infection de la voie biliaire principale sur obstacle, associant douleur, fièvre puis ictère.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "GAST",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08012",
+      "fr": "pancréatite aiguë",
+      "en": "acute pancreatitis",
+      "ar": "التهاب المعثكلة الحادّ",
+      "ar_variantes": [
+        "التهاب البنكرياس الحاد"
+      ],
+      "definition_fr": "Inflammation aiguë du pancréas, surtout biliaire ou alcoolique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "GAST",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08013",
+      "fr": "kyste hydatique du foie",
+      "en": "hepatic hydatid cyst",
+      "ar": "الكيسة العُدارية الكبدية",
+      "ar_variantes": [
+        "الكيس المائي الكبدي"
+      ],
+      "definition_fr": "Localisation hépatique de l'hydatidose.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "PARA",
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08014",
+      "fr": "volvulus",
+      "en": "volvulus",
+      "ar": "الانفتال",
+      "ar_variantes": [],
+      "definition_fr": "Torsion d'un segment intestinal autour de son axe mésentérique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08015",
+      "fr": "ischémie mésentérique",
+      "en": "mesenteric ischemia",
+      "ar": "الإقفار المساريقي",
+      "ar_variantes": [],
+      "definition_fr": "Insuffisance de vascularisation de l'intestin, aiguë ou chronique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08016",
+      "fr": "diverticulite",
+      "en": "diverticulitis",
+      "ar": "التهاب الرَّتْج",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation ou infection d'un diverticule colique, souvent sigmoïdien.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CDIG",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08017",
+      "fr": "hernie inguinale",
+      "en": "inguinal hernia",
+      "ar": "الفتق الأُرْبي",
+      "ar_variantes": [],
+      "definition_fr": "Issue de viscères à travers le canal inguinal ou le fascia transversalis.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08018",
+      "fr": "hernie ombilicale",
+      "en": "umbilical hernia",
+      "ar": "الفتق السُّرّي",
+      "ar_variantes": [],
+      "definition_fr": "Hernie à travers l'anneau ombilical.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08019",
+      "fr": "éventration",
+      "en": "incisional hernia",
+      "ar": "فتق ما بعد الجراحة",
+      "ar_variantes": [],
+      "definition_fr": "Issue de viscères à travers une zone affaiblie de la paroi, souvent une cicatrice.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08020",
+      "fr": "hernie étranglée",
+      "en": "strangulated hernia",
+      "ar": "الفتق المختنق",
+      "ar_variantes": [],
+      "definition_fr": "Hernie dont le contenu est serré au collet avec risque de nécrose, urgence chirurgicale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08021",
+      "fr": "nodule thyroïdien",
+      "en": "thyroid nodule",
+      "ar": "العُقَيدة الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Hypertrophie localisée de la thyroïde, maligne dans une minorité de cas.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08022",
+      "fr": "appendicite aiguë",
+      "en": "acute appendicitis",
+      "ar": "التهاب الزائدة الدودية الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation aiguë de l'appendice, première urgence chirurgicale abdominale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08023",
+      "fr": "péritonite aiguë",
+      "en": "acute peritonitis",
+      "ar": "التهاب الصِّفاق الحادّ",
+      "ar_variantes": [
+        "التهاب البريتوان"
+      ],
+      "definition_fr": "Inflammation aiguë du péritoine, le plus souvent par perforation d'un organe creux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08024",
+      "fr": "occlusion intestinale aiguë",
+      "en": "acute intestinal obstruction",
+      "ar": "الانسداد المعوي الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Arrêt du transit intestinal par obstacle mécanique ou paralysie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08025",
+      "fr": "perforation d'ulcère",
+      "en": "perforated peptic ulcer",
+      "ar": "انثقاب القرحة الهضمية",
+      "ar_variantes": [],
+      "definition_fr": "Ouverture d'un ulcère gastroduodénal dans la cavité péritonéale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08026",
+      "fr": "abdomen aigu chirurgical",
+      "en": "acute abdomen",
+      "ar": "البطن الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Douleur abdominale aiguë relevant d'une prise en charge chirurgicale urgente.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08027",
+      "fr": "contusion abdominale",
+      "en": "blunt abdominal trauma",
+      "ar": "الرضّ البطني المغلق",
+      "ar_variantes": [],
+      "definition_fr": "Traumatisme fermé de l'abdomen pouvant léser organes pleins et creux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "TRAU",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08028",
+      "fr": "plaie pénétrante de l'abdomen",
+      "en": "penetrating abdominal wound",
+      "ar": "الجرح البطني النافذ",
+      "ar_variantes": [],
+      "definition_fr": "Traumatisme ouvert franchissant le péritoine pariétal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CGEN",
+        "TRAU",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08029",
+      "fr": "lithiase urinaire",
+      "en": "urolithiasis",
+      "ar": "التحصّي البولي",
+      "ar_variantes": [
+        "الحصى البولية"
+      ],
+      "definition_fr": "Présence de calculs dans les voies urinaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08030",
+      "fr": "colique néphrétique",
+      "en": "renal colic",
+      "ar": "القُولَنج الكلوي",
+      "ar_variantes": [
+        "المغص الكلوي"
+      ],
+      "definition_fr": "Douleur lombaire aiguë due à la mise en tension brutale des voies excrétrices, souvent lithiasique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08031",
+      "fr": "cancer de la prostate",
+      "en": "prostate cancer",
+      "ar": "سرطان الموثة",
+      "ar_variantes": [
+        "سرطان البروستات"
+      ],
+      "definition_fr": "Adénocarcinome prostatique, cancer fréquent de l'homme âgé.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08032",
+      "fr": "hypertrophie bénigne de la prostate",
+      "en": "benign prostatic hyperplasia",
+      "ar": "فرط التنسّج الموثي الحميد",
+      "ar_variantes": [
+        "تضخّم البروستات الحميد"
+      ],
+      "definition_fr": "Augmentation bénigne du volume prostatique, appelée aussi adénome de la prostate.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08033",
+      "fr": "cancer de la vessie",
+      "en": "bladder cancer",
+      "ar": "سرطان المثانة",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur maligne urothéliale de la vessie, favorisée par le tabac.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08034",
+      "fr": "cancer du rein",
+      "en": "renal cell carcinoma",
+      "ar": "سرطان الكلية",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur maligne du parenchyme rénal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08035",
+      "fr": "cancer du testicule",
+      "en": "testicular cancer",
+      "ar": "سرطان الخصية",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur germinale du testicule de l'adulte jeune.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08036",
+      "fr": "torsion du cordon spermatique",
+      "en": "testicular torsion",
+      "ar": "انفتال الحبل المنوي",
+      "ar_variantes": [
+        "التواء الخصية"
+      ],
+      "definition_fr": "Rotation du testicule sur son pédicule, urgence chirurgicale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "CPED",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08037",
+      "fr": "rétention aiguë d'urine",
+      "en": "acute urinary retention",
+      "ar": "الاحتباس البولي الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Impossibilité d'uriner malgré une vessie pleine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08038",
+      "fr": "anurie obstructive",
+      "en": "obstructive anuria",
+      "ar": "انقطاع البول الانسدادي",
+      "ar_variantes": [],
+      "definition_fr": "Arrêt de la diurèse par obstacle bilatéral ou sur rein unique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "NEPH",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08039",
+      "fr": "hydronéphrose",
+      "en": "hydronephrosis",
+      "ar": "مَوَه الكلية",
+      "ar_variantes": [
+        "استسقاء الكلية"
+      ],
+      "definition_fr": "Dilatation des cavités pyélocalicielles en amont d'un obstacle.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08040",
+      "fr": "varicocèle",
+      "en": "varicocele",
+      "ar": "القيلة الدوالية",
+      "ar_variantes": [
+        "دوالي الخصية"
+      ],
+      "definition_fr": "Dilatation des veines du cordon spermatique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08041",
+      "fr": "hydrocèle",
+      "en": "hydrocele",
+      "ar": "القيلة المائية",
+      "ar_variantes": [],
+      "definition_fr": "Épanchement liquidien dans la vaginale testiculaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08042",
+      "fr": "cryptorchidie",
+      "en": "cryptorchidism",
+      "ar": "الخصية الهاجرة",
+      "ar_variantes": [
+        "الخصية المعلّقة"
+      ],
+      "definition_fr": "Absence de descente d'un testicule dans la bourse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08043",
+      "fr": "phimosis",
+      "en": "phimosis",
+      "ar": "الشَّبَم",
+      "ar_variantes": [
+        "تضيّق القلفة"
+      ],
+      "definition_fr": "Étroitesse du prépuce empêchant de décalotter le gland.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08044",
+      "fr": "hypospadias",
+      "en": "hypospadias",
+      "ar": "المَبال التحتاني",
+      "ar_variantes": [],
+      "definition_fr": "Malformation avec abouchement du méat urétral à la face ventrale du pénis.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08045",
+      "fr": "dysfonction érectile",
+      "en": "erectile dysfunction",
+      "ar": "ضعف الانتصاب",
+      "ar_variantes": [
+        "العجز الجنسي"
+      ],
+      "definition_fr": "Incapacité persistante à obtenir ou maintenir une érection suffisante.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08046",
+      "fr": "fracture",
+      "en": "fracture",
+      "ar": "الكَسْر",
+      "ar_variantes": [],
+      "definition_fr": "Solution de continuité d'un os.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08047",
+      "fr": "fracture ouverte",
+      "en": "open fracture",
+      "ar": "الكسر المفتوح",
+      "ar_variantes": [],
+      "definition_fr": "Fracture communiquant avec l'extérieur par une plaie cutanée.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08048",
+      "fr": "fracture de l'extrémité inférieure du radius",
+      "en": "distal radius fracture",
+      "ar": "كسر النهاية السفلية للكعبرة",
+      "ar_variantes": [
+        "كسر كوليس"
+      ],
+      "definition_fr": "Fracture fréquente du poignet après chute sur la main.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08049",
+      "fr": "fracture du col du fémur",
+      "en": "femoral neck fracture",
+      "ar": "كسر عنق عظم الفخذ",
+      "ar_variantes": [],
+      "definition_fr": "Fracture de l'extrémité supérieure du fémur, fréquente chez le sujet âgé ostéoporotique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08050",
+      "fr": "fracture ouverte de jambe",
+      "en": "open tibial fracture",
+      "ar": "الكسر المفتوح لعظمي الساق",
+      "ar_variantes": [],
+      "definition_fr": "Fracture des os de la jambe avec ouverture cutanée, exposant à l'infection.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08051",
+      "fr": "luxation",
+      "en": "dislocation",
+      "ar": "الخَلْع",
+      "ar_variantes": [],
+      "definition_fr": "Perte complète et permanente du contact entre les surfaces articulaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08052",
+      "fr": "luxation traumatique de la hanche",
+      "en": "traumatic hip dislocation",
+      "ar": "خلع الورك الرضحي",
+      "ar_variantes": [],
+      "definition_fr": "Déplacement de la tête fémorale hors du cotyle après traumatisme violent.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08053",
+      "fr": "luxation de l'épaule",
+      "en": "shoulder dislocation",
+      "ar": "خلع الكتف",
+      "ar_variantes": [],
+      "definition_fr": "Luxation de la tête humérale, le plus souvent antéro-interne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08054",
+      "fr": "entorse",
+      "en": "sprain",
+      "ar": "الوَثْء",
+      "ar_variantes": [
+        "الالتواء"
+      ],
+      "definition_fr": "Lésion ligamentaire d'une articulation sans perte permanente des rapports articulaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08055",
+      "fr": "entorse de la cheville",
+      "en": "ankle sprain",
+      "ar": "وثء الكاحل",
+      "ar_variantes": [],
+      "definition_fr": "Lésion du ligament collatéral latéral de la cheville.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08056",
+      "fr": "rupture du ligament croisé antérieur",
+      "en": "anterior cruciate ligament tear",
+      "ar": "تمزّق الرباط الصليبي الأمامي",
+      "ar_variantes": [],
+      "definition_fr": "Lésion ligamentaire du genou fréquente chez le sportif.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08057",
+      "fr": "lésion méniscale",
+      "en": "meniscal tear",
+      "ar": "تمزّق الهلالة",
+      "ar_variantes": [],
+      "definition_fr": "Fissure ou rupture d'un ménisque du genou.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08058",
+      "fr": "polytraumatisme",
+      "en": "polytrauma",
+      "ar": "الرضوح المتعددة",
+      "ar_variantes": [],
+      "definition_fr": "Association de lésions traumatiques dont au moins une met en jeu le pronostic vital.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08059",
+      "fr": "traumatisme du rachis cervical",
+      "en": "cervical spine injury",
+      "ar": "رضح العمود الفقري الرقبي",
+      "ar_variantes": [],
+      "definition_fr": "Lésion traumatique ostéo-ligamentaire du rachis cervical avec risque médullaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "NCHI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08060",
+      "fr": "syndrome des loges",
+      "en": "compartment syndrome",
+      "ar": "متلازمة الحيّز",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de pression dans une loge musculaire inextensible compromettant la perfusion.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08061",
+      "fr": "pseudarthrose",
+      "en": "nonunion",
+      "ar": "المفصل الكاذب",
+      "ar_variantes": [
+        "عدم الالتئام"
+      ],
+      "definition_fr": "Absence de consolidation d'une fracture au-delà du délai habituel.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08062",
+      "fr": "cal vicieux",
+      "en": "malunion",
+      "ar": "الالتئام المَعيب",
+      "ar_variantes": [],
+      "definition_fr": "Consolidation d'une fracture en mauvaise position.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08063",
+      "fr": "ostéomyélite aiguë",
+      "en": "acute osteomyelitis",
+      "ar": "التهاب العظم والنِّقي الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Infection aiguë de l'os, surtout métaphysaire chez l'enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "INFE",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08064",
+      "fr": "tumeur osseuse",
+      "en": "bone tumor",
+      "ar": "الورم العظمي",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur bénigne ou maligne, primitive ou secondaire, du tissu osseux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08065",
+      "fr": "ostéosarcome",
+      "en": "osteosarcoma",
+      "ar": "الساركومة العظمية",
+      "ar_variantes": [
+        "الغرن العظمي"
+      ],
+      "definition_fr": "Tumeur osseuse maligne primitive productrice d'os, de l'adolescent.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08066",
+      "fr": "luxation congénitale de la hanche",
+      "en": "developmental dysplasia of the hip",
+      "ar": "خلع الورك الخلقي",
+      "ar_variantes": [],
+      "definition_fr": "Anomalie de développement de la hanche dépistée dès la naissance.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "CPED",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08067",
+      "fr": "scoliose",
+      "en": "scoliosis",
+      "ar": "الجَنَف",
+      "ar_variantes": [],
+      "definition_fr": "Déformation tridimensionnelle du rachis avec rotation vertébrale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "MPR",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08068",
+      "fr": "coxarthrose",
+      "en": "hip osteoarthritis",
+      "ar": "فُصال الورك",
+      "ar_variantes": [],
+      "definition_fr": "Arthrose de l'articulation coxo-fémorale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08069",
+      "fr": "gonarthrose",
+      "en": "knee osteoarthritis",
+      "ar": "فصال الركبة",
+      "ar_variantes": [],
+      "definition_fr": "Arthrose de l'articulation du genou.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08070",
+      "fr": "pied bot varus équin",
+      "en": "clubfoot",
+      "ar": "القدم الحَنفاء",
+      "ar_variantes": [],
+      "definition_fr": "Malformation congénitale du pied fixé en équin, varus et adduction.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "CPED"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08071",
+      "fr": "tendinopathie de la coiffe des rotateurs",
+      "en": "rotator cuff tendinopathy",
+      "ar": "اعتلال أوتار الكفّة المدوّرة",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte dégénérative ou mécanique des tendons de la coiffe.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORTH",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08072",
+      "fr": "traumatisme crânien",
+      "en": "traumatic brain injury",
+      "ar": "رَضْح الرأس",
+      "ar_variantes": [
+        "إصابة الدماغ الرضحية"
+      ],
+      "definition_fr": "Lésion de l'encéphale et/ou du crâne d'origine traumatique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08073",
+      "fr": "hématome extradural",
+      "en": "epidural hematoma",
+      "ar": "الورم الدموي خارج الجافية",
+      "ar_variantes": [],
+      "definition_fr": "Collection de sang entre l'os et la dure-mère, souvent par rupture de l'artère méningée moyenne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08074",
+      "fr": "hématome sous-dural",
+      "en": "subdural hematoma",
+      "ar": "الورم الدموي تحت الجافية",
+      "ar_variantes": [],
+      "definition_fr": "Collection de sang entre la dure-mère et l'arachnoïde.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08075",
+      "fr": "hypertension intracrânienne",
+      "en": "intracranial hypertension",
+      "ar": "فرط الضغط داخل القحف",
+      "ar_variantes": [
+        "ارتفاع الضغط داخل الجمجمة"
+      ],
+      "definition_fr": "Augmentation de la pression à l'intérieur de la boîte crânienne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08076",
+      "fr": "engagement cérébral",
+      "en": "brain herniation",
+      "ar": "انفتاق الدماغ",
+      "ar_variantes": [],
+      "definition_fr": "Déplacement de tissu cérébral à travers un orifice dural ou osseux, complication mortelle de l'hypertension intracrânienne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08077",
+      "fr": "hydrocéphalie",
+      "en": "hydrocephalus",
+      "ar": "مَوَه الرأس",
+      "ar_variantes": [
+        "استسقاء الرأس"
+      ],
+      "definition_fr": "Dilatation des ventricules cérébraux par accumulation de liquide cérébro-spinal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08078",
+      "fr": "abcès cérébral",
+      "en": "brain abscess",
+      "ar": "خُراج الدماغ",
+      "ar_variantes": [],
+      "definition_fr": "Collection suppurée intracérébrale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08079",
+      "fr": "hémorragie méningée",
+      "en": "subarachnoid hemorrhage",
+      "ar": "النزف تحت العنكبوتية",
+      "ar_variantes": [],
+      "definition_fr": "Irruption de sang dans les espaces sous-arachnoïdiens, souvent par rupture d'anévrisme.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "NEUR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08080",
+      "fr": "anévrisme intracrânien",
+      "en": "intracranial aneurysm",
+      "ar": "أمّ الدم داخل القحف",
+      "ar_variantes": [],
+      "definition_fr": "Dilatation sacciforme d'une artère intracrânienne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08081",
+      "fr": "tumeur cérébrale",
+      "en": "brain tumor",
+      "ar": "ورم الدماغ",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur primitive ou secondaire de l'encéphale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08082",
+      "fr": "gliome",
+      "en": "glioma",
+      "ar": "الورم الدِّبقي",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur cérébrale primitive développée aux dépens des cellules gliales.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08083",
+      "fr": "méningiome",
+      "en": "meningioma",
+      "ar": "الورم السحائي",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur généralement bénigne développée à partir des méninges.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08084",
+      "fr": "spina bifida",
+      "en": "spina bifida",
+      "ar": "السِّنْسِنة المشقوقة",
+      "ar_variantes": [],
+      "definition_fr": "Défaut de fermeture de l'arc postérieur vertébral, parfois avec atteinte médullaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "CPED",
+        "EMBR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08085",
+      "fr": "otite moyenne aiguë",
+      "en": "acute otitis media",
+      "ar": "التهاب الأذن الوسطى الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Infection aiguë de l'oreille moyenne, fréquente chez le jeune enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08086",
+      "fr": "otite séromuqueuse",
+      "en": "otitis media with effusion",
+      "ar": "التهاب الأذن الوسطى المصلي المخاطي",
+      "ar_variantes": [],
+      "definition_fr": "Épanchement non infecté de l'oreille moyenne, cause d'hypoacousie chez l'enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08087",
+      "fr": "cholestéatome",
+      "en": "cholesteatoma",
+      "ar": "الورم الكوليستيريني",
+      "ar_variantes": [],
+      "definition_fr": "Présence d'épiderme dans l'oreille moyenne, à potentiel destructeur.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08088",
+      "fr": "otite externe",
+      "en": "otitis externa",
+      "ar": "التهاب الأذن الظاهرة",
+      "ar_variantes": [],
+      "definition_fr": "Infection du conduit auditif externe.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08089",
+      "fr": "angine",
+      "en": "tonsillopharyngitis",
+      "ar": "التهاب اللوزتين",
+      "ar_variantes": [
+        "التهاب البلعوم واللوزتين"
+      ],
+      "definition_fr": "Inflammation infectieuse de l'oropharynx et des amygdales.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "INFE",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08090",
+      "fr": "phlegmon péri-amygdalien",
+      "en": "peritonsillar abscess",
+      "ar": "الخُراج حول اللوزة",
+      "ar_variantes": [],
+      "definition_fr": "Suppuration de l'espace péri-amygdalien, complication d'angine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08091",
+      "fr": "sinusite",
+      "en": "sinusitis",
+      "ar": "التهاب الجيوب",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la muqueuse des sinus paranasaux.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08092",
+      "fr": "rhinite allergique",
+      "en": "allergic rhinitis",
+      "ar": "التهاب الأنف الأرجي",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la muqueuse nasale médiée par les IgE.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "IMPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08093",
+      "fr": "cancer du cavum",
+      "en": "nasopharyngeal carcinoma",
+      "ar": "سرطان البلعوم الأنفي",
+      "ar_variantes": [],
+      "definition_fr": "Carcinome du nasopharynx lié au virus d'Epstein-Barr, fréquent au Maghreb.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08094",
+      "fr": "cancer du larynx",
+      "en": "laryngeal cancer",
+      "ar": "سرطان الحنجرة",
+      "ar_variantes": [],
+      "definition_fr": "Carcinome épidermoïde du larynx lié au tabac.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08095",
+      "fr": "dyspnée laryngée",
+      "en": "laryngeal dyspnea",
+      "ar": "الزلّة الحنجرية",
+      "ar_variantes": [],
+      "definition_fr": "Dyspnée inspiratoire avec stridor par obstacle laryngé.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "PEDI",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08096",
+      "fr": "corps étranger des voies aériennes",
+      "en": "airway foreign body",
+      "ar": "الجسم الغريب في المسالك الهوائية",
+      "ar_variantes": [],
+      "definition_fr": "Inhalation d'un objet dans le larynx, la trachée ou les bronches, surtout chez l'enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "PEDI",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08097",
+      "fr": "épiglottite",
+      "en": "epiglottitis",
+      "ar": "التهاب لسان المزمار",
+      "ar_variantes": [],
+      "definition_fr": "Infection grave de l'épiglotte avec risque d'obstruction aiguë des voies aériennes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "PEDI",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08098",
+      "fr": "vertige paroxystique positionnel bénin",
+      "en": "benign paroxysmal positional vertigo",
+      "ar": "الدُّوار الانتيابي الوضعي الحميد",
+      "ar_variantes": [],
+      "definition_fr": "Vertiges brefs déclenchés par les changements de position de la tête.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08099",
+      "fr": "maladie de Ménière",
+      "en": "Ménière's disease",
+      "ar": "داء منيير",
+      "ar_variantes": [],
+      "definition_fr": "Crises de vertige avec surdité fluctuante, acouphènes et plénitude d'oreille.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08100",
+      "fr": "névrite vestibulaire",
+      "en": "vestibular neuritis",
+      "ar": "التهاب العصب الدهليزي",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte aiguë unilatérale du nerf vestibulaire avec grand vertige prolongé.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08101",
+      "fr": "surdité",
+      "en": "deafness",
+      "ar": "الصَّمَم",
+      "ar_variantes": [],
+      "definition_fr": "Perte totale ou partielle de l'audition.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08102",
+      "fr": "presbyacousie",
+      "en": "presbycusis",
+      "ar": "الصمم الشيخوخي",
+      "ar_variantes": [],
+      "definition_fr": "Surdité de perception bilatérale liée au vieillissement.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08103",
+      "fr": "mastoïdite",
+      "en": "mastoiditis",
+      "ar": "التهاب الخُشاء",
+      "ar_variantes": [],
+      "definition_fr": "Infection des cellules mastoïdiennes compliquant une otite.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08104",
+      "fr": "glaucome aigu par fermeture de l'angle",
+      "en": "acute angle-closure glaucoma",
+      "ar": "الزَّرَق الحادّ بانغلاق الزاوية",
+      "ar_variantes": [],
+      "definition_fr": "Hypertonie oculaire brutale par blocage de l'angle irido-cornéen, urgence ophtalmologique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08105",
+      "fr": "glaucome primitif à angle ouvert",
+      "en": "primary open-angle glaucoma",
+      "ar": "الزَّرَق مفتوح الزاوية",
+      "ar_variantes": [],
+      "definition_fr": "Neuropathie optique chronique progressive souvent associée à une hypertonie oculaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08106",
+      "fr": "cataracte",
+      "en": "cataract",
+      "ar": "السَّاد",
+      "ar_variantes": [
+        "الماء الأبيض"
+      ],
+      "definition_fr": "Opacification du cristallin.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08107",
+      "fr": "rétinopathie diabétique",
+      "en": "diabetic retinopathy",
+      "ar": "اعتلال الشبكية السكري",
+      "ar_variantes": [],
+      "definition_fr": "Microangiopathie rétinienne liée au diabète.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08108",
+      "fr": "rétinopathie hypertensive",
+      "en": "hypertensive retinopathy",
+      "ar": "اعتلال الشبكية بفرط ضغط الدم",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte des vaisseaux rétiniens liée à l'hypertension artérielle.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08109",
+      "fr": "décollement de rétine",
+      "en": "retinal detachment",
+      "ar": "انفصال الشبكية",
+      "ar_variantes": [],
+      "definition_fr": "Séparation de la rétine neurosensorielle de l'épithélium pigmentaire, urgence chirurgicale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08110",
+      "fr": "dégénérescence maculaire liée à l'âge",
+      "en": "age-related macular degeneration",
+      "ar": "التنكّس البقعي المرتبط بالسن",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte dégénérative de la macula chez le sujet âgé.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08111",
+      "fr": "conjonctivite",
+      "en": "conjunctivitis",
+      "ar": "التهاب الملتحمة",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la conjonctive, infectieuse ou allergique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08112",
+      "fr": "kératite",
+      "en": "keratitis",
+      "ar": "التهاب القرنية",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la cornée.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08113",
+      "fr": "uvéite",
+      "en": "uveitis",
+      "ar": "التهاب العِنَبية",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de l'uvée (iris, corps ciliaire, choroïde).",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08114",
+      "fr": "trachome",
+      "en": "trachoma",
+      "ar": "الحَثَر",
+      "ar_variantes": [
+        "الرمد الحبيبي",
+        "التراخوما"
+      ],
+      "definition_fr": "Kératoconjonctivite chronique à Chlamydia trachomatis, cause de cécité évitable.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08115",
+      "fr": "myopie",
+      "en": "myopia",
+      "ar": "الحَسَر",
+      "ar_variantes": [
+        "قصر النظر"
+      ],
+      "definition_fr": "Amétropie où l'image se forme en avant de la rétine, rendant floue la vision de loin.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08116",
+      "fr": "hypermétropie",
+      "en": "hyperopia",
+      "ar": "مدّ البصر",
+      "ar_variantes": [
+        "طول النظر"
+      ],
+      "definition_fr": "Amétropie où l'image se forme en arrière de la rétine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08117",
+      "fr": "astigmatisme",
+      "en": "astigmatism",
+      "ar": "اللابُؤرية",
+      "ar_variantes": [],
+      "definition_fr": "Amétropie due à une courbure inégale de la cornée selon les méridiens.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08118",
+      "fr": "presbytie",
+      "en": "presbyopia",
+      "ar": "قُصْو البصر",
+      "ar_variantes": [
+        "طول النظر الشيخوخي"
+      ],
+      "definition_fr": "Diminution physiologique de l'accommodation avec l'âge.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08119",
+      "fr": "amétropie",
+      "en": "ametropia",
+      "ar": "سوء الانكسار",
+      "ar_variantes": [],
+      "definition_fr": "Défaut optique de l'œil empêchant la formation d'une image nette sur la rétine sans accommodation.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "BIOP"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08120",
+      "fr": "strabisme",
+      "en": "strabismus",
+      "ar": "الحَوَل",
+      "ar_variantes": [],
+      "definition_fr": "Défaut de parallélisme des axes visuels.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08121",
+      "fr": "amblyopie",
+      "en": "amblyopia",
+      "ar": "الغَمَش",
+      "ar_variantes": [
+        "كسل العين"
+      ],
+      "definition_fr": "Baisse de l'acuité visuelle par défaut de développement de la vision dans l'enfance.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08122",
+      "fr": "occlusion de l'artère centrale de la rétine",
+      "en": "central retinal artery occlusion",
+      "ar": "انسداد الشريان المركزي للشبكية",
+      "ar_variantes": [],
+      "definition_fr": "Interruption brutale de la vascularisation rétinienne avec baisse visuelle massive.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08123",
+      "fr": "rétinoblastome",
+      "en": "retinoblastoma",
+      "ar": "الورم الأرومي الشبكي",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur maligne rétinienne du jeune enfant, parfois héréditaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT",
+        "ONCO",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08124",
+      "fr": "hémorragie de la délivrance",
+      "en": "postpartum hemorrhage",
+      "ar": "النزف التالي للولادة",
+      "ar_variantes": [
+        "نزف ما بعد الولادة"
+      ],
+      "definition_fr": "Perte sanguine d'au moins 500 mL dans les 24 heures suivant l'accouchement.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08125",
+      "fr": "grossesse extra-utérine",
+      "en": "ectopic pregnancy",
+      "ar": "الحمل المُنتبِذ",
+      "ar_variantes": [
+        "الحمل خارج الرحم"
+      ],
+      "definition_fr": "Implantation de l'œuf en dehors de la cavité utérine, le plus souvent tubaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "OBST",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08126",
+      "fr": "hématome rétroplacentaire",
+      "en": "placental abruption",
+      "ar": "انفصال المشيمة الباكر",
+      "ar_variantes": [
+        "الورم الدموي خلف المشيمة"
+      ],
+      "definition_fr": "Décollement prématuré d'un placenta normalement inséré.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08127",
+      "fr": "placenta prævia",
+      "en": "placenta previa",
+      "ar": "المشيمة المنزاحة",
+      "ar_variantes": [
+        "المشيمة المتقدمة"
+      ],
+      "definition_fr": "Insertion de tout ou partie du placenta sur le segment inférieur de l'utérus.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08128",
+      "fr": "pré-éclampsie",
+      "en": "preeclampsia",
+      "ar": "ما قبل الارتعاج",
+      "ar_variantes": [
+        "تسمّم الحمل"
+      ],
+      "definition_fr": "Hypertension de la grossesse après 20 semaines avec protéinurie ou atteinte d'organe.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08129",
+      "fr": "éclampsie",
+      "en": "eclampsia",
+      "ar": "الارتعاج",
+      "ar_variantes": [],
+      "definition_fr": "Crise convulsive généralisée survenant dans un contexte de pré-éclampsie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08130",
+      "fr": "HELLP syndrome",
+      "en": "HELLP syndrome",
+      "ar": "متلازمة هيلب",
+      "ar_variantes": [],
+      "definition_fr": "Complication de la pré-éclampsie associant hémolyse, cytolyse hépatique et thrombopénie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08131",
+      "fr": "avortement spontané",
+      "en": "miscarriage",
+      "ar": "الإجهاض العفوي",
+      "ar_variantes": [
+        "الإسقاط"
+      ],
+      "definition_fr": "Expulsion spontanée de la grossesse avant la viabilité fœtale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08132",
+      "fr": "menace d'accouchement prématuré",
+      "en": "threatened preterm labor",
+      "ar": "خطر الولادة المبكّرة",
+      "ar_variantes": [],
+      "definition_fr": "Contractions utérines avec modifications cervicales avant 37 semaines d'aménorrhée.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08133",
+      "fr": "rupture prématurée des membranes",
+      "en": "premature rupture of membranes",
+      "ar": "تمزّق الأغشية الباكر",
+      "ar_variantes": [],
+      "definition_fr": "Rupture de la poche des eaux avant le début du travail.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08134",
+      "fr": "souffrance fœtale aiguë",
+      "en": "fetal distress",
+      "ar": "الضائقة الجنينية",
+      "ar_variantes": [],
+      "definition_fr": "Altération aiguë des échanges materno-fœtaux menaçant l'oxygénation fœtale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08135",
+      "fr": "retard de croissance intra-utérin",
+      "en": "fetal growth restriction",
+      "ar": "تأخّر النموّ داخل الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Croissance fœtale insuffisante par rapport au potentiel attendu.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08136",
+      "fr": "môle hydatiforme",
+      "en": "hydatidiform mole",
+      "ar": "الرحى العُدارية",
+      "ar_variantes": [],
+      "definition_fr": "Maladie trophoblastique gestationnelle avec villosités choriales vésiculeuses.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "GYNE",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08137",
+      "fr": "mort fœtale in utero",
+      "en": "intrauterine fetal death",
+      "ar": "موت الجنين داخل الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Décès du fœtus pendant la grossesse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08138",
+      "fr": "dystocie",
+      "en": "dystocia",
+      "ar": "عُسر الولادة",
+      "ar_variantes": [],
+      "definition_fr": "Accouchement difficile d'origine maternelle ou fœtale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08139",
+      "fr": "infection puerpérale",
+      "en": "puerperal infection",
+      "ar": "عدوى النِّفاس",
+      "ar_variantes": [
+        "حمّى النفاس"
+      ],
+      "definition_fr": "Infection du tractus génital survenant dans les suites de couches.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08140",
+      "fr": "mastite",
+      "en": "mastitis",
+      "ar": "التهاب الثدي",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la glande mammaire, souvent au cours de l'allaitement.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08141",
+      "fr": "grossesse",
+      "en": "pregnancy",
+      "ar": "الحَمْل",
+      "ar_variantes": [],
+      "definition_fr": "État de la femme portant un embryon puis un fœtus, de la fécondation à l'accouchement.",
+      "categorie": "physiologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08142",
+      "fr": "accouchement",
+      "en": "childbirth",
+      "ar": "الولادة",
+      "ar_variantes": [
+        "الوضع"
+      ],
+      "definition_fr": "Expulsion du fœtus et de ses annexes hors des voies génitales.",
+      "categorie": "physiologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08143",
+      "fr": "travail obstétrical",
+      "en": "labor",
+      "ar": "المَخاض",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des phénomènes conduisant à la dilatation du col et à l'expulsion fœtale.",
+      "categorie": "physiologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08144",
+      "fr": "post-partum",
+      "en": "puerperium",
+      "ar": "النِّفاس",
+      "ar_variantes": [],
+      "definition_fr": "Période allant de l'accouchement au retour de couches.",
+      "categorie": "physiologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08145",
+      "fr": "cancer du col de l'utérus",
+      "en": "cervical cancer",
+      "ar": "سرطان عنق الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Cancer lié aux papillomavirus oncogènes, accessible au dépistage par frottis.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08146",
+      "fr": "cancer de l'endomètre",
+      "en": "endometrial cancer",
+      "ar": "سرطان بطانة الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Adénocarcinome de l'endomètre révélé souvent par des métrorragies post-ménopausiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08147",
+      "fr": "fibrome utérin",
+      "en": "uterine fibroid",
+      "ar": "الورم الليفي الرحمي",
+      "ar_variantes": [
+        "الورم العضلي الأملس الرحمي"
+      ],
+      "definition_fr": "Tumeur bénigne du myomètre (léiomyome).",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08148",
+      "fr": "tumeur de l'ovaire",
+      "en": "ovarian tumor",
+      "ar": "ورم المبيض",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur bénigne ou maligne de l'ovaire, épithéliale, germinale ou stromale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08149",
+      "fr": "kyste ovarien",
+      "en": "ovarian cyst",
+      "ar": "كيسة المبيض",
+      "ar_variantes": [],
+      "definition_fr": "Formation liquidienne ovarienne, fonctionnelle ou organique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08150",
+      "fr": "cancer du sein",
+      "en": "breast cancer",
+      "ar": "سرطان الثدي",
+      "ar_variantes": [],
+      "definition_fr": "Cancer le plus fréquent de la femme, accessible au dépistage mammographique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08151",
+      "fr": "adénofibrome du sein",
+      "en": "breast fibroadenoma",
+      "ar": "الورم الغدي الليفي",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur bénigne fréquente du sein de la femme jeune.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08152",
+      "fr": "infertilité du couple",
+      "en": "couple infertility",
+      "ar": "العُقم",
+      "ar_variantes": [
+        "تأخر الإنجاب"
+      ],
+      "definition_fr": "Absence de grossesse après douze mois de rapports réguliers non protégés.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08153",
+      "fr": "endométriose",
+      "en": "endometriosis",
+      "ar": "الانتباذ البطاني الرحمي",
+      "ar_variantes": [
+        "بطانة الرحم المهاجرة"
+      ],
+      "definition_fr": "Présence de tissu endométrial hors de la cavité utérine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08154",
+      "fr": "syndrome des ovaires polykystiques",
+      "en": "polycystic ovary syndrome",
+      "ar": "متلازمة المبيض متعدّد الكيسات",
+      "ar_variantes": [],
+      "definition_fr": "Trouble endocrinien associant dysovulation, hyperandrogénie et ovaires multifolliculaires.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08155",
+      "fr": "infection génitale haute",
+      "en": "pelvic inflammatory disease",
+      "ar": "الداء الالتهابي الحوضي",
+      "ar_variantes": [],
+      "definition_fr": "Infection de l'utérus, des trompes et des ovaires, souvent sexuellement transmise.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08156",
+      "fr": "vaginite",
+      "en": "vaginitis",
+      "ar": "التهاب المهبل",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation du vagin, souvent infectieuse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08157",
+      "fr": "prolapsus génital",
+      "en": "pelvic organ prolapse",
+      "ar": "الهبوط التناسلي",
+      "ar_variantes": [
+        "هبوط الرحم"
+      ],
+      "definition_fr": "Descente d'un ou plusieurs organes pelviens dans le vagin.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08158",
+      "fr": "occlusion néonatale",
+      "en": "neonatal intestinal obstruction",
+      "ar": "الانسداد المعوي الوليدي",
+      "ar_variantes": [],
+      "definition_fr": "Obstacle au transit intestinal chez le nouveau-né.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08159",
+      "fr": "atrésie de l'œsophage",
+      "en": "esophageal atresia",
+      "ar": "رَتَق المريء",
+      "ar_variantes": [],
+      "definition_fr": "Interruption congénitale de la continuité de l'œsophage, souvent avec fistule trachéale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08160",
+      "fr": "hernie diaphragmatique congénitale",
+      "en": "congenital diaphragmatic hernia",
+      "ar": "الفتق الحجابي الخِلْقي",
+      "ar_variantes": [],
+      "definition_fr": "Passage de viscères abdominaux dans le thorax par un défaut du diaphragme.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08161",
+      "fr": "sténose hypertrophique du pylore",
+      "en": "hypertrophic pyloric stenosis",
+      "ar": "تضيّق البوّاب الضخامي",
+      "ar_variantes": [],
+      "definition_fr": "Hypertrophie du muscle pylorique du nourrisson provoquant des vomissements en jet.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08162",
+      "fr": "maladie de Hirschsprung",
+      "en": "Hirschsprung disease",
+      "ar": "داء هيرشسبرونغ",
+      "ar_variantes": [],
+      "definition_fr": "Absence congénitale de cellules ganglionnaires dans la paroi colique distale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08163",
+      "fr": "malformation anorectale",
+      "en": "anorectal malformation",
+      "ar": "رَتَق الشرج",
+      "ar_variantes": [
+        "الشرج غير المثقوب"
+      ],
+      "definition_fr": "Anomalie congénitale de la terminaison du tube digestif.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "NEON"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08164",
+      "fr": "invagination intestinale aiguë",
+      "en": "intussusception",
+      "ar": "الانغلاف المعوي",
+      "ar_variantes": [],
+      "definition_fr": "Pénétration d'un segment intestinal dans le segment d'aval, fréquente chez le nourrisson.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "PEDI",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08165",
+      "fr": "néphroblastome",
+      "en": "nephroblastoma",
+      "ar": "الورم الأرومي الكلوي",
+      "ar_variantes": [
+        "ورم ويلمز"
+      ],
+      "definition_fr": "Tumeur maligne rénale de l'enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "ONCO",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08166",
+      "fr": "neuroblastome",
+      "en": "neuroblastoma",
+      "ar": "الورم الأرومي العصبي",
+      "ar_variantes": [],
+      "definition_fr": "Tumeur maligne du système nerveux sympathique du jeune enfant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPED",
+        "ONCO",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08167",
+      "fr": "ischémie aiguë des membres",
+      "en": "acute limb ischemia",
+      "ar": "الإقفار الحادّ للطرف",
+      "ar_variantes": [],
+      "definition_fr": "Interruption brutale du flux artériel d'un membre menaçant sa viabilité.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CCVA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08168",
+      "fr": "embolie artérielle",
+      "en": "arterial embolism",
+      "ar": "الانصمام الشرياني",
+      "ar_variantes": [],
+      "definition_fr": "Occlusion artérielle par un embole, souvent d'origine cardiaque.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CCVA",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08169",
+      "fr": "brûlure",
+      "en": "burn",
+      "ar": "الحَرْق",
+      "ar_variantes": [
+        "الحروق"
+      ],
+      "definition_fr": "Destruction du revêtement cutané par la chaleur, l'électricité, un agent chimique ou les radiations.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPLA",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08170",
+      "fr": "brûlure grave",
+      "en": "major burn",
+      "ar": "الحروق الوخيمة",
+      "ar_variantes": [],
+      "definition_fr": "Brûlure dont l'étendue, la profondeur, la localisation ou le terrain menacent le pronostic vital ou fonctionnel.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CPLA",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08171",
+      "fr": "traumatisme thoracique",
+      "en": "chest trauma",
+      "ar": "الرَّضْح الصدري",
+      "ar_variantes": [],
+      "definition_fr": "Traumatisme du thorax, fermé ou pénétrant.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CTHO",
+        "TRAU",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08172",
+      "fr": "hémothorax",
+      "en": "hemothorax",
+      "ar": "تدمّي الصدر",
+      "ar_variantes": [],
+      "definition_fr": "Épanchement de sang dans la cavité pleurale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CTHO",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08173",
+      "fr": "volet costal",
+      "en": "flail chest",
+      "ar": "الصدر السائب",
+      "ar_variantes": [],
+      "definition_fr": "Segment de paroi thoracique désolidarisé par des fractures costales multiples, à mouvement paradoxal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "CTHO",
+        "TRAU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08174",
+      "fr": "cancer",
+      "en": "cancer",
+      "ar": "السَّرَطان",
+      "ar_variantes": [],
+      "definition_fr": "Maladie caractérisée par la prolifération incontrôlée de cellules capables d'envahir les tissus et de métastaser.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08175",
+      "fr": "syndrome paranéoplasique",
+      "en": "paraneoplastic syndrome",
+      "ar": "المتلازمة نظيرة الورمية",
+      "ar_variantes": [],
+      "definition_fr": "Manifestations à distance d'un cancer non liées à l'extension tumorale directe.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08176",
+      "fr": "neutropénie fébrile",
+      "en": "febrile neutropenia",
+      "ar": "قلّة العَدِلات الحُمّوية",
+      "ar_variantes": [],
+      "definition_fr": "Fièvre chez un patient neutropénique, urgence infectieuse en oncologie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ONCO",
+        "HEMA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08177",
+      "fr": "syndrome cave supérieur",
+      "en": "superior vena cava syndrome",
+      "ar": "متلازمة الوريد الأجوف العلوي",
+      "ar_variantes": [],
+      "definition_fr": "Obstruction de la veine cave supérieure avec œdème en pèlerine et circulation collatérale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ONCO",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08178",
+      "fr": "stadification",
+      "en": "cancer staging",
+      "ar": "تحديد المرحلة",
+      "ar_variantes": [],
+      "definition_fr": "Évaluation de l'extension d'un cancer guidant le traitement et le pronostic.",
+      "categorie": "general",
+      "specialites": [
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08179",
+      "fr": "réunion de concertation pluridisciplinaire",
+      "en": "multidisciplinary tumor board",
+      "ar": "الاجتماع التشاوري متعدّد التخصّصات",
+      "ar_variantes": [],
+      "definition_fr": "Réunion de spécialistes décidant collégialement de la stratégie thérapeutique d'un patient atteint de cancer.",
+      "categorie": "general",
+      "specialites": [
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null
+    },
+    {
+      "id": "GLO-08180",
+      "fr": "carie dentaire",
+      "en": "dental caries",
+      "ar": "نخر الأسنان",
+      "ar_variantes": [
+        "تسوّس الأسنان"
+      ],
+      "definition_fr": "Destruction progressive des tissus durs de la dent d'origine bactérienne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DENT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08181",
+      "fr": "gingivite",
+      "en": "gingivitis",
+      "ar": "التهاب اللثة",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation de la gencive.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DENT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08182",
+      "fr": "parodontite",
+      "en": "periodontitis",
+      "ar": "التهاب دواعم السنّ",
+      "ar_variantes": [],
+      "definition_fr": "Inflammation des tissus de soutien de la dent avec perte d'attache.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DENT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08183",
+      "fr": "abcès dentaire",
+      "en": "dental abscess",
+      "ar": "الخُراج السنّي",
+      "ar_variantes": [],
+      "definition_fr": "Collection purulente d'origine dentaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DENT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08184",
+      "fr": "cellulite d'origine dentaire",
+      "en": "odontogenic cellulitis",
+      "ar": "الالتهاب الخلوي سنّي المنشأ",
+      "ar_variantes": [],
+      "definition_fr": "Infection des espaces celluleux de la face et du cou à point de départ dentaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DENT",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    },
+    {
+      "id": "GLO-08185",
+      "fr": "aphte",
+      "en": "aphthous ulcer",
+      "ar": "القُلاع",
+      "ar_variantes": [
+        "القرحة القلاعية"
+      ],
+      "definition_fr": "Ulcération buccale douloureuse superficielle à fond jaunâtre.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DENT",
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)"
+    }
+  ]
+}

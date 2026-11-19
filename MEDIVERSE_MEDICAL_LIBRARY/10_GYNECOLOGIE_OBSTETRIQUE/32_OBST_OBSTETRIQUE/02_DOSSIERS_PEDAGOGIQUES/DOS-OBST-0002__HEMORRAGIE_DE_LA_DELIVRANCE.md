@@ -6,11 +6,17 @@ sous_specialite: "Urgences obstétricales — hémorragie du post-partum"
 items_residanat: [RES-CHI-056]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-07 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 0
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-OBST-0002.md
 sources:
   - id: S1
     reference: "Sentilhes L, Vayssière C, Mercier FJ, et al. Hémorragie du post-partum : recommandations pour la pratique clinique — Texte des recommandations (texte court). J Gynecol Obstet Biol Reprod (Paris). 2014;43(10):1170-1179."
@@ -61,12 +67,12 @@ sources:
     url: ""
     verifiee: true
   - id: S7
-    reference: "OMS, FIGO, ICM. Lignes directrices consolidées sur la prévention, le diagnostic et le traitement de l'hémorragie du post-partum (51 recommandations), lancées le 5 octobre 2025 au congrès mondial de la FIGO (Le Cap). Informations vérifiées via les communiqués FIGO/ICM ; texte intégral non consulté."
-    organisme: "OMS / FIGO / ICM"
+    reference: "World Health Organization. Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage. Genève : OMS ; 2025 (élaborées avec la FIGO et l'ICM ; 51 recommandations). ISBN 978-92-4-011563-7. Document acquis DOC-00035 (18_RECOMMANDATIONS/04_OMS/HPP_lignes_directrices_consolidees_2025.pdf), texte intégral consulté lors de l'audit."
+    organisme: "OMS (avec FIGO et ICM)"
     annee: 2025
     type: recommandation
     doi: ""
-    url: "https://www.figo.org/press-releases/global-health-agencies-issue-new-recommendations-help-end-deaths-postpartum-haemorrhage"
+    url: "https://iris.who.int/handle/10665/382923"
     verifiee: true
   - id: S8
     reference: "Widmer M, Piaggio G, Nguyen TMH, et al. Heat-stable carbetocin versus oxytocin to prevent hemorrhage after vaginal birth (CHAMPION). N Engl J Med. 2018;379(8):743-752."
@@ -93,37 +99,45 @@ sources:
     url: "https://www.unicef.org/algeria/documents/protocole-et-procedures-de-prise-en-charge-de-la-grossesse-de-laccouchement-et-de-la"
     verifiee: true
   - id: S11
-    reference: "Mavrides E, Allard S, Chandraharan E, et al. Prevention and management of postpartum haemorrhage. RCOG Green-top Guideline No. 52. BJOG. 2017;124:e106-e149. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Mavrides E, Allard S, Chandraharan E, et al. Prevention and management of postpartum haemorrhage. RCOG Green-top Guideline No. 52. BJOG. 2017;124:e106-e149. (Existence et pagination confirmées par la bibliographie de FIGO 2022, document acquis DOC-00096.)"
     organisme: RCOG
     annee: 2016
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
-    reference: "American College of Obstetricians and Gynecologists. Postpartum Hemorrhage. Practice Bulletin No. 183. Obstet Gynecol. 2017;130(4):e168-e186. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "American College of Obstetricians and Gynecologists. Postpartum Hemorrhage. Practice Bulletin No. 183. Obstet Gynecol. 2017;130(4):e168-e186. (Existence et pagination confirmées par la bibliographie de FIGO 2022, DOC-00096.)"
     organisme: ACOG
     annee: 2017
     type: recommandation
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
-    reference: "Organisation mondiale de la Santé. WHO recommendations: uterotonics for the prevention of postpartum haemorrhage. Genève : OMS ; 2018. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Organisation mondiale de la Santé. WHO recommendations: uterotonics for the prevention of postpartum haemorrhage. Genève : OMS ; 2018 (citée dans OMS 2025, DOC-00035 ; remplacée par les lignes directrices consolidées de 2025)."
     organisme: OMS
     annee: 2018
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://iris.who.int/handle/10665/277276"
+    verifiee: true
   - id: S14
-    reference: "B-Lynch C, Coker A, Lawal AH, Abu J, Cowen MJ. The B-Lynch surgical technique for the control of massive postpartum haemorrhage: an alternative to hysterectomy? Five cases reported. Br J Obstet Gynaecol. 1997;104(3):372-375. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "B-Lynch C, Coker A, Lawal AH, Abu J, Cowen MJ. The B-Lynch surgical technique for the control of massive postpartum haemorrhage: an alternative to hysterectomy? Five cases reported. Br J Obstet Gynaecol. 1997;104(3):372-375. (Citée dans FIGO 2022, DOC-00096.)"
     organisme: ""
     annee: 1997
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+  - id: S15
+    reference: "Escobar MF, Nassar AH, Theron G, et al. FIGO recommendations on the management of postpartum hemorrhage 2022. Int J Gynaecol Obstet. 2022;157(Suppl 1):3-50. Document acquis DOC-00096 (18_RECOMMANDATIONS/03_SOCIETES_SAVANTES/FIGO_hemorragie_post-partum_2022.pdf)."
+    organisme: FIGO
+    annee: 2022
+    type: recommandation
+    doi: "10.1002/ijgo.14116"
+    url: ""
+    verifiee: true
 mots_cles: [hémorragie du post-partum, hémorragie de la délivrance, atonie utérine, ocytocine, carbétocine, acide tranexamique, sulprostone, misoprostol, ballonnet de tamponnement, embolisation, hystérectomie d'hémostase]
 ---
 
@@ -155,8 +169,8 @@ mots_cles: [hémorragie du post-partum, hémorragie de la délivrance, atonie ut
 - **Définition « classique »** (OMS 2012, CNGOF 2014) : perte sanguine **≥ 500 mL** dans les **24 heures** qui suivent la naissance, **quelle que soit la voie d'accouchement** [S1, S2].
 - **HPP sévère** : perte sanguine **≥ 1 000 mL** [S1].
 - **HPP grave / massive** : définitions variables (≥ 1 500 mL, transfusion ≥ 4 culots, chute d'Hb ≥ 4 g/dL, recours à une procédure invasive, défaillance d'organe) — critères de « morbidité maternelle sévère » utilisés pour l'audit.
-- **ACOG (reVITALize, 2017)** : perte sanguine cumulée **≥ 1 000 mL**, ou perte sanguine accompagnée de signes d'hypovolémie, dans les 24 h, quelle que soit la voie [S12 — À VÉRIFIER].
-- **Évolution 2025** : les lignes directrices consolidées **OMS/FIGO/ICM** (octobre 2025) proposent un **diagnostic plus précoce**, à partir de **300 mL** de pertes **lorsque s'y associent des signes vitaux anormaux**, ou ≥ 500 mL, afin de déclencher plus tôt le traitement ; la formulation exacte doit être vérifiée dans le texte intégral [S7 — À VÉRIFIER].
+- **ACOG (reVITALize, 2017)** : perte sanguine cumulée **≥ 1 000 mL**, ou perte sanguine accompagnée de signes d'hypovolémie, dans les 24 h, quelle que soit la voie [S12].
+- **Évolution 2025** : les lignes directrices consolidées de l'**OMS** (élaborées avec la FIGO et l'ICM) recommandent de diagnostiquer l'HPP et de déclencher le traitement de première intention devant une perte sanguine **mesurée objectivement ≥ 300 mL associée à au moins un signe hémodynamique anormal** (pouls > 100/min, **index de choc > 1**, PAS < 100 mmHg ou PAD < 60 mmHg), **ou** une perte mesurée **≥ 500 mL**, selon le critère atteint en premier, dans les 24 h suivant la naissance et avec une vigilance particulière pendant les 2 premières heures (recommandation 22) [S7]. Le seuil de 500 mL n'est donc plus le seul critère diagnostique.
 
 ### 1.2 HPP primaire et secondaire
 
@@ -179,7 +193,7 @@ La **délivrance** est la troisième période de l'accouchement : expulsion du p
 
 - Le décollement placentaire et l'« hémostase par rétraction » sont décrits dès le XIXe siècle (Pinard parle de « ligatures vivantes » du myomètre).
 - 1950-1960 : diffusion de l'ocytocine de synthèse et de l'ergométrine.
-- Années 1990 : techniques chirurgicales conservatrices (triple ligature, capitonnage de **B-Lynch** publié en 1997 [S14 — À VÉRIFIER]), embolisation artérielle radiologique.
+- Années 1990 : techniques chirurgicales conservatrices (triple ligature, capitonnage de **B-Lynch** publié en 1997 [S14]), embolisation artérielle radiologique.
 - 2012 : recommandations OMS sur la prévention et le traitement de l'HPP [S2].
 - 2014 : recommandations françaises CNGOF [S1].
 - 2017 : essai **WOMAN** (20 060 femmes, 193 hôpitaux) : l'acide tranexamique réduit la mortalité par hémorragie, surtout s'il est administré **dans les 3 heures** [S4] ; l'OMS met à jour sa recommandation [S3].
@@ -247,7 +261,7 @@ Lésions traumatiques ─────────────► saignement addi
 ```
 
 - La **« triade létale »** — **hypothermie, acidose, coagulopathie** — entretient le saignement ; la réanimation doit la prévenir (réchauffement, transfusion équilibrée, correction du fibrinogène et du calcium).
-- Le **fibrinogène** chute précocement ; un taux bas (< 2 g/L) au début de l'HPP est associé à une évolution sévère ; il sert de cible de correction [seuil et source À VÉRIFIER — CNGOF/SFAR 2014, S1].
+- Le **fibrinogène** chute précocement ; un taux bas (< 2 g/L) au début de l'HPP est associé à une évolution sévère et constitue, selon la FIGO, une indication de substitution [S15] ; il sert de cible de correction.
 - Certaines situations entraînent une **coagulopathie primitive précoce** : hématome rétroplacentaire, embolie amniotique, mort fœtale prolongée, HELLP syndrome, stéatose hépatique aiguë gravidique.
 
 ## 6. Étiologies et facteurs de risque
@@ -289,7 +303,7 @@ Invasion anormale du myomètre par les villosités en l'absence de caduque basal
 > Repères dérivés de la classification du choc hémorragique, adaptés à la grossesse ; chiffres indicatifs [À VÉRIFIER — à confronter au protocole local].
 
 ### 7.2 L'index de choc (*shock index*)
-**Index de choc = fréquence cardiaque / PAS**. Une valeur **≥ 0,9-1** est un signal d'alerte précoce, plus sensible que la PA isolée chez la femme jeune [seuils À VÉRIFIER — S7, S11].
+**Index de choc = fréquence cardiaque / PAS**. Signal d'alerte précoce, plus sensible que la PA isolée chez la femme jeune : la FIGO (2022) retient une alerte au-delà de **0,9** [S15] ; l'OMS (2025) retient un index **> 1** parmi les signes hémodynamiques anormaux du diagnostic d'HPP [S7].
 
 ### 7.3 Classification étiologique (4 T) — cf. §6.1.
 
@@ -330,7 +344,7 @@ Le diagnostic est **clinique** ; les examens **ne doivent jamais retarder** le t
 |---|---|---|
 | **Groupe sanguin ABO-Rh, RAI** | Transfusion | RAI valides indispensables ; commande de culots |
 | **NFS-plaquettes** | Hb de référence, plaquettes | L'Hb initiale **sous-estime** la perte (hémodilution retardée) |
-| **TP, TCA, fibrinogène** | Coagulopathie | Fibrinogène bas (< 2 g/L) = gravité, cible de correction [S1 — seuil À VÉRIFIER] |
+| **TP, TCA, fibrinogène** | Coagulopathie | Fibrinogène bas (< 2 g/L) = gravité, indication de substitution [S15] |
 | **Hémoglobine capillaire (HemoCue)** | Délocalisée, répétable | Suivi rapide |
 | **Gaz du sang, lactates** | Hypoperfusion | Lactates > 2-4 mmol/L : choc |
 | **Ionogramme, calcium ionisé, créatinine** | Hypocalcémie (citrate des transfusions), IRA | Calcium ionisé à maintenir dans la norme |
@@ -398,7 +412,7 @@ Le diagnostic est **clinique** ; les examens **ne doivent jamais retarder** le t
 
 ### 12.3 Évaluation de la gravité (alerte précoce)
 - **Volume** : ≥ 1 000 mL, ou débit rapide.
-- **Index de choc** ≥ 0,9-1 [À VÉRIFIER].
+- **Index de choc** > 0,9 (FIGO 2022) ou > 1 (OMS 2025) [S7, S15].
 - **Signes cliniques** de choc.
 - **Fibrinogène** bas.
 - **Échec** des utérotoniques de première ligne.
@@ -440,46 +454,46 @@ Le bundle **MOTIVE** regroupe, appliqués **ensemble** dès le diagnostic [S5, S
 - **IV** — **Perfusion intraveineuse** (remplissage) ;
 - **E** — **Examen** de la filière génitale (et du placenta) et **Escalade** des soins si le saignement persiste.
 
-Dans E-MOTIVE (près de 100 000 accouchements voie basse analysés dans 78 hôpitaux de 4 pays africains), la combinaison **détection précoce par champ calibré + bundle** a réduit le critère principal (HPP sévère ≥ 1 L, laparotomie pour saignement ou décès) de **4,3 % à 1,6 %** (RR 0,40) ; l'adhésion au bundle est passée de 19,4 % à 91,2 % [S6].
+Dans E-MOTIVE (essai randomisé en grappes, 80 hôpitaux du Kenya, du Nigeria, d'Afrique du Sud et de Tanzanie, 210 132 accouchements par voie basse), la combinaison **détection précoce par champ calibré + bundle** a réduit le critère principal (HPP sévère ≥ 1 L, laparotomie pour saignement ou décès) de **4,3 % à 1,6 %** (RR 0,40) ; l'adhésion au bundle est passée de 19,4 % à 91,2 % [S6].
 
 #### 13.2.4 Utérotoniques
 
 | Molécule | Classe | Posologie (traitement) | Contre-indications / précautions | Source |
 |---|---|---|---|---|
-| **Ocytocine** | Analogue de l'hormone posthypophysaire | **5 à 10 UI en IV lente** (ou IM), puis **perfusion d'entretien** (ex. 5-10 UI/h, ou 20-40 UI dans 500-1 000 mL de cristalloïdes) pendant 2 h ; ne pas dépasser une dose cumulée de 40 UI [POSOLOGIE À VÉRIFIER — RCP / protocole local] | IV directe rapide : hypotension, tachycardie (prudence en cas de cardiopathie) ; effet antidiurétique (intoxication à l'eau à fortes doses) | [S1, S2] |
-| **Carbétocine** | Analogue de l'ocytocine de longue durée d'action | **100 µg** en injection unique IV lente ou IM ; indiquée en **prévention** (pas de recommandation de traitement curatif dans les textes cités) | Prudence en cas de pathologie cardiovasculaire, d'épilepsie ; contre-indiquée pendant la grossesse avant l'accouchement | [S8, S13 — À VÉRIFIER] |
+| **Ocytocine** | Analogue de l'hormone posthypophysaire | **OMS 2025** : **10 UI IV**, diluée, en 1-2 min (ou perfusée en 5-10 min dans un petit volume), puis perfusion d'entretien de **10-20 UI** dans des cristalloïdes sur les **4 heures** suivantes, titrée selon le tonus utérin [S7] ; **CNGOF 2014** : 5 à 10 UI IV lente ou IM, puis perfusion d'entretien (débit, durée et dose cumulée maximale de 40 UI à confirmer dans le texte intégral) [S1 — POSOLOGIE À VÉRIFIER — texte intégral CNGOF / RCP] | IV directe rapide : hypotension, tachycardie (prudence en cas de cardiopathie) ; effet antidiurétique (intoxication à l'eau à fortes doses) | [S1, S7] |
+| **Carbétocine** | Analogue de l'ocytocine de longue durée d'action | **100 µg** en injection unique IV lente ou IM ; indiquée en **prévention** (OMS 2025, recommandations 7.2 et 11) ; pas d'indication en traitement curatif (l'ocytocine IV est l'utérotonique de traitement recommandé, recommandation 24) | Prudence en cas de pathologie cardiovasculaire, d'épilepsie ; contre-indiquée pendant la grossesse avant l'accouchement | [S7, S8] |
 | **Sulprostone** | Prostaglandine E2 de synthèse (IV) | 2e ligne en France : **500 µg en perfusion IV sur 1 h** au pousse-seringue, puis relais éventuel sur plusieurs heures ; **dose maximale 1 500 µg/24 h** ; à débuter **dans les 30 min** suivant le diagnostic en cas d'échec de l'ocytocine [S1 — POSOLOGIE À VÉRIFIER — RCP] | Contre-indiqué en cas d'antécédents cardiovasculaires, d'asthme sévère, d'insuffisance hépatique ou rénale sévère ; risque d'**infarctus** et de **spasme coronaire** ; jamais en IM ni en intramyométrial | [S1] |
-| **Misoprostol** | Prostaglandine E1 (voie orale, sublinguale, rectale) | Traitement : **800 µg sublingual** si l'ocytocine est indisponible ou inefficace [S2] ; prévention : **600 µg per os** si l'ocytocine n'est pas disponible [S2] | Fièvre, frissons, diarrhée ; thermostable (utile hors chaîne du froid) ; moins efficace que l'ocytocine | [S2] |
-| **Méthylergométrine / ergométrine** | Alcaloïde de l'ergot de seigle | **0,2 mg IM** (ou IV lente), renouvelable selon le protocole [POSOLOGIE À VÉRIFIER — RCP / protocole local] | **Contre-indiquée : HTA, pré-éclampsie, cardiopathie, syndrome de Raynaud**, coronaropathie ; vomissements | [S2] |
+| **Misoprostol** | Prostaglandine E1 (voie orale, sublinguale, rectale) | Traitement : **800 µg sublingual** si l'ocytocine IV est indisponible ou inefficace [S2, S7] ; prévention : **400 ou 600 µg per os** (OMS 2025 ; 600 µg dans la recommandation de 2012) [S2, S7] | Fièvre, frissons, diarrhée ; thermostable (utile hors chaîne du froid) ; moins efficace que l'ocytocine | [S2] |
+| **Méthylergométrine / ergométrine** | Alcaloïde de l'ergot de seigle | **0,2 mg (200 µg) IM** (ou IV lente) [S15], renouvelable selon le protocole local | **Contre-indiquée : HTA, pré-éclampsie, cardiopathie, syndrome de Raynaud**, coronaropathie ; vomissements | [S2] |
 
-**Recommandation OMS 2012** : si l'ocytocine IV est indisponible ou si le saignement ne répond pas à l'ocytocine, utiliser l'ergométrine IV, l'association ocytocine-ergométrine ou une prostaglandine (dont le misoprostol 800 µg sublingual) [S2].
+**Recommandation OMS 2012, reprise en 2025 (recommandation 25)** : si l'ocytocine IV est indisponible ou si le saignement ne répond pas à l'ocytocine, utiliser l'ergométrine IV, l'association ocytocine-ergométrine ou une prostaglandine (dont le misoprostol 800 µg sublingual) [S2, S7].
 
 #### 13.2.5 Acide tranexamique (TXA)
 
 - **Mécanisme** : antifibrinolytique (bloque la liaison du plasminogène à la fibrine). La fibrinolyse est activée dès les premières minutes de l'HPP.
 - **Preuve** : essai **WOMAN** (20 060 femmes avec HPP) : réduction des décès par hémorragie (1,5 % versus 1,9 % ; RR 0,81) ; **bénéfice concentré sur l'administration dans les 3 heures** (RR 0,69 si < 3 h) ; **aucun bénéfice au-delà de 3 h** ; pas de réduction des hystérectomies ; pas d'augmentation des événements thromboemboliques [S4].
-- **Recommandation OMS 2017** : TXA IV **précoce (dans les 3 h suivant la naissance)**, en plus des soins standard, pour **toute HPP clinique**, après voie basse ou césarienne, **quelle que soit la cause** [S3] :
+- **Recommandation OMS 2017, intégrée aux lignes directrices consolidées de 2025 (recommandation 27)** : TXA IV **précoce (dans les 3 h suivant la naissance)**, en plus des soins standard, pour **toute HPP**, après voie basse ou césarienne, **quelle que soit la cause** [S3, S7] :
   - **1 g** (100 mg/mL, soit 10 mL) **IV en 10 minutes** (1 mL/min) ;
   - **seconde dose de 1 g IV** si le saignement **persiste après 30 minutes** ou **reprend dans les 24 heures** suivant la première dose ;
   - **pas d'administration au-delà de 3 heures** après la naissance (sauf indication autre que l'HPP) [S3].
 - **Contre-indications** : thrombose artérielle ou veineuse active, antécédent de convulsions (précaution), allergie ; prudence en cas d'insuffisance rénale (accumulation).
-- **Prévention** : le TXA **prophylactique** systématique n'est pas recommandé en routine dans les textes cités ici [À VÉRIFIER — positions 2025, S7].
+- **Prévention** : le TXA **prophylactique** n'est **pas recommandé** par l'OMS, ni après un accouchement par voie basse ni lors d'une césarienne (recommandations 14 et 15, 2025) [S7].
 
 #### 13.2.6 Réanimation et transfusion
 
 1. **Abords** : deux voies veineuses périphériques de **gros calibre** (14-16 G) ; voie intra-osseuse si échec.
 2. **Monitorage** : pouls, PA (non invasive puis invasive si HPP grave), SpO₂, diurèse (sonde), température, conscience.
 3. **Oxygénothérapie**.
-4. **Remplissage** : cristalloïdes réchauffés en quantité **raisonnée** (le remplissage excessif aggrave la coagulopathie de dilution et l'hypothermie) ; objectif d'une PA permettant la perfusion des organes en attendant l'hémostase [objectifs chiffrés À VÉRIFIER — S1].
+4. **Remplissage** : **cristalloïdes isotoniques** (préférés aux colloïdes, OMS 2025, recommandation 28) réchauffés, en quantité **raisonnée** (le remplissage excessif aggrave la coagulopathie de dilution et l'hypothermie) ; en réanimation « hypotensive », la FIGO propose une cible de PAS de 80-90 mmHg (ou de PAM de 50-60 mmHg) en attendant l'hémostase [S7, S15].
 5. **Vasopresseur** (noradrénaline) si hypotension persistante malgré le remplissage, en milieu de réanimation.
 6. **Transfusion de concentrés de globules rouges (CGR)** : objectif **Hb > 7-8 g/dL** tant que le saignement persiste (le CNGOF 2014 recommande de maintenir l'Hb > 8 g/dL pendant l'hémorragie) [S1 — selon source secondaire, À VÉRIFIER dans le texte] ; en urgence vitale, **CGR O négatif** sans attendre le groupage.
-7. **Plasma frais congelé (PFC)** : dans l'HPP massive, ratio **PFC/CGR entre 1:2 et 1:1** [À VÉRIFIER — S1].
-8. **Fibrinogène** : concentré de fibrinogène (ou cryoprécipité) pour maintenir un taux **≥ 1,5-2 g/L** [À VÉRIFIER — S1].
+7. **Plasma frais congelé (PFC)** : dans l'HPP massive, ratio **PFC/CGR entre 1:2 et 1:1** (FIGO 2022 ; l'ACOG propose 1:1:1 avec les plaquettes) [S15].
+8. **Fibrinogène** : concentré de fibrinogène (ou cryoprécipité) pour maintenir un taux **≥ 1,5-2 g/L** [S15].
 9. **Plaquettes** : si < 50 000/mm³ en cas de saignement actif [À VÉRIFIER].
 10. **Calcium** : correction de l'hypocalcémie (citrate).
 11. **Lutte contre l'hypothermie** : réchauffeurs de perfusion, couverture chauffante.
 12. **Facteur VII activé recombinant** : traitement d'exception, après échec des autres moyens et correction des paramètres (fibrinogène, plaquettes, pH, température), sur décision spécialisée [S1 — À VÉRIFIER].
-13. **Pantalon antichoc non pneumatique (NASG)** : mesure temporaire proposée par l'OMS dans l'attente d'un transfert ou d'un traitement définitif [S2 — À VÉRIFIER].
+13. **Pantalon antichoc non pneumatique (NASG)** : mesure temporaire recommandée par l'OMS dans l'attente d'un transfert ou d'un traitement définitif (recommandation 35, 2025) [S7].
 
 #### 13.2.7 Tamponnement intra-utérin par ballonnet
 
@@ -487,7 +501,8 @@ Dans E-MOTIVE (près de 100 000 accouchements voie basse analysés dans 78 hôpi
 - **Indication** : atonie **réfractaire aux utérotoniques**, en attente ou en alternative à l'embolisation ou à la chirurgie [S1, S2].
 - Le « **test de tamponnement** » : si le saignement s'arrête après le gonflement, la probabilité de succès est élevée ; s'il persiste, il faut passer sans délai à l'étape suivante.
 - Maintien habituellement 12 à 24 h, sous antibioprophylaxie et utérotoniques, avec surveillance du saignement en amont du ballonnet.
-- L'OMS a restreint son usage aux structures où un recours chirurgical et transfusionnel est accessible rapidement [recommandation OMS 2021 — À VÉRIFIER].
+- L'OMS (2021, repris en 2025, recommandation 36) le recommande pour l'atonie après voie basse ne répondant pas au traitement de première ligne, à condition qu'un recours chirurgical et transfusionnel immédiat soit possible, qu'un protocole de première ligne (utérotoniques, TXA, remplissage) soit appliqué, que les autres causes (rétention, traumatisme) soient raisonnablement exclues, que l'opérateur soit formé et que la surveillance maternelle soit assurée [S7].
+- Le **tamponnement par mèches** (gaze simple ou imprégnée d'agents hémostatiques) n'est **pas recommandé** (OMS 2025, recommandation 37) [S7].
 
 #### 13.2.8 Embolisation artérielle
 
@@ -503,7 +518,7 @@ Dans E-MOTIVE (près de 100 000 accouchements voie basse analysés dans 78 hôpi
 - **Ligatures vasculaires** :
   - **ligature bilatérale des artères utérines** (technique d'O'Leary), éventuellement complétée par la ligature des ligaments ronds et des pédicules utéro-ovariens (**triple ligature** de Tsirulnikov) ;
   - **ligature des artères iliaques internes** (hypogastriques), plus difficile, risque de lésion veineuse et urétérale.
-- **Capitonnages utérins** : **B-Lynch** (sutures en bretelles comprimant l'utérus) [S14 — À VÉRIFIER], capitonnages en carrés de Cho, Hayman.
+- **Capitonnages utérins** : **B-Lynch** (sutures en bretelles comprimant l'utérus) [S14], capitonnages en carrés de Cho, Hayman.
 - Ces techniques peuvent être **associées** (ligatures + capitonnage).
 
 **Radicale** :
@@ -517,13 +532,14 @@ Dans E-MOTIVE (près de 100 000 accouchements voie basse analysés dans 78 hôpi
 
 **Gestion active de la troisième période de l'accouchement (GATPA)** :
 - **Administration prophylactique d'un utérotonique** à **toutes** les parturientes :
-  - **ocytocine 10 UI IM ou IV** (OMS) [S2, S13] ; le CNGOF recommande **5 ou 10 UI en IV lente ou IM**, au dégagement de l'épaule antérieure ou dans les minutes suivant la naissance [S1] ;
-  - **carbétocine thermostable 100 µg** (IM ou IV) : **non inférieure** à l'ocytocine après voie basse dans CHAMPION (≈ 30 000 femmes, 23 hôpitaux, 10 pays) ; l'OMS l'envisage là où la **qualité de l'ocytocine** (chaîne du froid) ne peut être garantie et lorsque le coût est comparable [S8, S13 — À VÉRIFIER] ;
-  - **misoprostol 600 µg per os** si aucun utérotonique injectable n'est disponible [S2].
+  - **ocytocine 10 UI IM ou IV** (OMS), utérotonique de choix lorsque plusieurs options sont disponibles ; après un accouchement par voie basse avec voie veineuse en place, la voie **IV lente** (10 UI diluées, en 1-2 min) est préférée à la voie IM (OMS 2025, recommandations 7.1, 8 et 10) [S7] ; le CNGOF recommande **5 ou 10 UI en IV lente ou IM**, au dégagement de l'épaule antérieure ou dans les minutes suivant la naissance [S1] ;
+  - **carbétocine 100 µg** (IM ou IV) : recommandée pour toutes les naissances (OMS 2025, recommandation 7.2) ; la forme **thermostable** est le choix recommandé là où la **chaîne du froid** de l'ocytocine ne peut être garantie (recommandation 11) ; non inférieure à l'ocytocine après voie basse dans CHAMPION (≈ 30 000 femmes, 23 hôpitaux, 10 pays) [S7, S8] ;
+  - **misoprostol 400 ou 600 µg per os** (OMS 2025) si aucun utérotonique injectable n'est disponible [S7] ;
+  - un **seul** utérotonique prophylactique doit être utilisé ; l'ergométrine, l'association ocytocine-ergométrine et les prostaglandines injectables (sulprostone, carboprost) ne sont **pas recommandées en prévention** (OMS 2025, recommandations 7 et 9) [S7].
 - **Traction contrôlée du cordon** : facultative, par un professionnel formé [S2].
 - **Clampage retardé du cordon** (≥ 1 min) chez le nouveau-né qui n'a pas besoin de réanimation [S2].
 - **Massage utérin prophylactique** : non recommandé en continu si l'ocytocine a été administrée ; **surveillance du tonus** utérin recommandée [S2].
-- **Après césarienne** : ocytocine IV lente (5 UI selon les protocoles français) ou carbétocine 100 µg IV [S1 — À VÉRIFIER].
+- **Après césarienne** : ocytocine 10 UI ou carbétocine 100 µg (OMS 2025, toutes naissances) [S7] ; ocytocine IV lente (5 UI selon les protocoles français) [S1 — À VÉRIFIER] ; pas d'acide tranexamique prophylactique (recommandation 15) [S7].
 
 **Prévention anténatale** :
 - **Dépistage et traitement de l'anémie** (fer, acide folique) pendant la grossesse.
@@ -539,7 +555,7 @@ Dans E-MOTIVE (près de 100 000 accouchements voie basse analysés dans 78 hôpi
 NAISSANCE + ocytocine prophylactique + sac/champ de recueil
 │
 ▼
-PERTE ≥ 500 mL (ou ≥ 300 mL + signes vitaux anormaux, OMS/FIGO/ICM 2025*)
+PERTE ≥ 500 mL (ou ≥ 300 mL + signe hémodynamique anormal, OMS 2025*)
 ou saignement anormal = DIAGNOSTIC D'HPP — noter l'HEURE (T0)
 │
 ├─ ALERTE : sage-femme + obstétricien + anesthésiste
@@ -569,7 +585,7 @@ HPP GRAVE
 └─ Instable ou embolisation indisponible ─► LAPAROTOMIE :
        ligatures vasculaires ± capitonnage ─► échec ─► HYSTÉRECTOMIE D'HÉMOSTASE
 ```
-\* Seuil de 300 mL : à vérifier dans le texte intégral des lignes directrices 2025 [S7].
+\* OMS 2025, recommandation 22 : perte mesurée ≥ 300 mL avec un signe hémodynamique anormal (pouls > 100/min, index de choc > 1, PAS < 100 mmHg ou PAD < 60 mmHg), ou ≥ 500 mL, selon le critère atteint en premier [S7].
 
 #### 13.3.3 HPP pendant une césarienne
 - Ocytocine (ou carbétocine) et acide tranexamique, massage, révision de l'hystérotomie, **sulprostone** en deuxième ligne (France).
@@ -610,7 +626,7 @@ HPP GRAVE
 - **Tonus utérin** et saignements toutes les 15 min pendant 2 h, puis espacée.
 - Diurèse, fonction rénale, Hb à H6 et J1.
 - **Thromboprophylaxie** (HBPM) dès que l'hémostase est assurée (le risque thromboembolique est majoré après une HPP transfusée) [S1 — À VÉRIFIER délai].
-- **Traitement martial** : fer IV (carboxymaltose ferrique) en cas d'anémie significative du post-partum, ou fer oral [À VÉRIFIER — protocole local].
+- **Traitement martial** : fer oral (± acide folique) pendant 6 à 12 semaines là où l'anémie est un problème de santé publique (recommandation 42) ; **fer IV** préféré lorsque le fer oral est impossible ou mal toléré, ou en cas d'anémie ferriprive sévère à corriger rapidement, sous surveillance (recommandation 43) [S7] ; molécule et dose selon le protocole local.
 - **Recherche d'un syndrome de Sheehan** : absence de montée laiteuse, asthénie, hypotension, hypoglycémie → bilan hypophysaire.
 - **Information** de la patiente et débriefing ; soutien psychologique.
 - **Déclaration** comme événement de morbidité maternelle sévère et **revue de morbi-mortalité** (audit).
@@ -716,12 +732,12 @@ Ballonnet retiré à H+20 après dégonflage progressif, sans reprise du saignem
 
 ## 18. Points clés à retenir
 
-1. HPP = perte **≥ 500 mL** dans les 24 h (sévère ≥ 1 000 mL) quelle que soit la voie ; les lignes directrices OMS/FIGO/ICM 2025 abaissent le seuil d'action (≈ 300 mL avec signes vitaux anormaux — formulation à vérifier) [S1, S2, S7].
+1. HPP = perte **≥ 500 mL** dans les 24 h (sévère ≥ 1 000 mL) quelle que soit la voie ; l'OMS (2025) ajoute un seuil d'action : **≥ 300 mL mesurés + un signe hémodynamique anormal** (pouls > 100/min, index de choc > 1, PAS < 100 ou PAD < 60 mmHg) [S1, S2, S7].
 2. Hémorragie de la délivrance (sens strict) = saignement de la **zone d'insertion placentaire** (atonie, rétention, accreta).
 3. Première cause de mortalité maternelle dans le monde et en Algérie (**31,4 %** des décès de l'audit 2011) [S9].
 4. **4 T** : Tonus (atonie, la plus fréquente), Tissu, Traumatisme, Thrombine.
 5. La plupart des HPP surviennent **sans facteur de risque** : prévention **universelle**.
-6. **Prévention** : ocytocine prophylactique (5-10 UI ; 10 UI OMS) pour toutes ; carbétocine 100 µg non inférieure après voie basse (CHAMPION) ; misoprostol 600 µg per os à défaut [S1, S2, S8].
+6. **Prévention** : ocytocine prophylactique (5-10 UI ; 10 UI OMS) pour toutes ; carbétocine 100 µg non inférieure après voie basse (CHAMPION) ; misoprostol 400 ou 600 µg per os à défaut ; pas de TXA prophylactique [S1, S7, S8].
 7. **Mesurer** les pertes (sac de recueil, champ calibré) : l'estimation visuelle sous-estime (détection 93 % vs 51 % dans E-MOTIVE) [S6].
 8. **Bundle** de première intention simultané : **M**assage, **O**cytocine, **T**XA, **IV** (remplissage), **E**xamen/Escalade [S5, S6].
 9. **Acide tranexamique** : 1 g IV en 10 min **dans les 3 h**, 2e dose si persistance à 30 min ou reprise dans les 24 h ; inutile au-delà de 3 h [S3, S4].
@@ -838,7 +854,7 @@ Ballonnet retiré à H+20 après dégonflage progressif, sans reprise du saignem
 
 **QCM 3** — Réponse(s) : **A, B, C, D**. L'atonie est favorisée par la surdistension utérine (gémellaire, macrosomie, hydramnios), le travail prolongé et l'ocytocine prolongée (désensibilisation des récepteurs), l'infection (chorioamniotite), la multiparité, les tocolytiques et les halogénés. *Piège :* Oublier que la majorité des HPP surviennent sans facteur de risque.
 
-**QCM 4** — Réponse(s) : **A, B, C, D**. La prophylaxie utérotonique universelle est l'élément essentiel ; ocytocine 10 UI (OMS ; 5-10 UI CNGOF). Carbétocine thermostable 100 µg non inférieure (CHAMPION). Misoprostol 600 µg per os à défaut. La traction contrôlée du cordon est facultative. *Piège :* Surestimer la traction contrôlée du cordon par rapport à l'utérotonique.
+**QCM 4** — Réponse(s) : **A, B, C, D**. La prophylaxie utérotonique universelle est l'élément essentiel ; ocytocine 10 UI (OMS ; 5-10 UI CNGOF). Carbétocine thermostable 100 µg non inférieure (CHAMPION). Misoprostol per os à défaut (600 µg OMS 2012 ; 400 ou 600 µg OMS 2025). La traction contrôlée du cordon est facultative. *Piège :* Surestimer la traction contrôlée du cordon par rapport à l'utérotonique.
 
 **QCM 5** — Réponse(s) : **A, B, C**. OMS 2017 : TXA 1 g IV en 10 min dans les 3 h, pour toute HPP quelle que soit la cause ; 2e dose si persistance à 30 min ou reprise dans les 24 h. WOMAN : réduction des décès par hémorragie (RR 0,81 ; 0,69 si < 3 h), pas de réduction des hystérectomies, pas d'excès thromboembolique. *Piège :* Administrer le TXA tardivement (> 3 h) ou le limiter à l'atonie.
 
@@ -856,13 +872,13 @@ Ballonnet retiré à H+20 après dégonflage progressif, sans reprise du saignem
 
 | Thème | Position A | Position B | Commentaire |
 |---|---|---|---|
-| **Seuil diagnostique** | OMS 2012, CNGOF 2014 : ≥ 500 mL quelle que soit la voie [S1, S2] | ACOG 2017 : ≥ 1 000 mL ou perte avec signes d'hypovolémie [S12 — À VÉRIFIER] ; OMS/FIGO/ICM 2025 : action dès ≈ 300 mL avec signes vitaux anormaux [S7 — À VÉRIFIER] | Les seuils bas visent une action plus précoce |
+| **Seuil diagnostique** | OMS 2012, CNGOF 2014 : ≥ 500 mL quelle que soit la voie [S1, S2] | ACOG 2017 : ≥ 1 000 mL ou perte avec signes d'hypovolémie [S12] ; OMS 2025 : ≥ 300 mL mesurés + signe hémodynamique anormal, ou ≥ 500 mL [S7] | Les seuils bas visent une action plus précoce |
 | **Organisation du traitement** | CNGOF 2014 : étapes séquentielles chronométrées (initiale, 15-30 min, HPP grave) [S1] | OMS 2023 / E-MOTIVE : **bundle simultané** de première intention dès le diagnostic [S5, S6] | Les deux approches insistent sur le facteur temps |
 | **Place du TXA** | OMS 2017 : pour **toute** HPP, dès le diagnostic, dans les 3 h [S3] | CNGOF 2014 (avant WOMAN) : option thérapeutique en cas d'HPP persistante [S1 — formulation À VÉRIFIER] | Les pratiques françaises ont depuis intégré WOMAN ; vérifier les mises à jour |
 | **Révision utérine systématique** | CNGOF 2014 : recommandée en cas d'HPP, même si délivrance complète [S1] | Pratiques anglo-saxonnes : examen et exploration guidés par la clinique [S11, S12 — À VÉRIFIER] | Spécificité française classique |
-| **Utérotonique de 2e ligne** | France : **sulprostone** IV [S1] | OMS : ergométrine, ocytocine-ergométrine ou prostaglandine (misoprostol 800 µg SL) [S2] ; RCOG/ACOG : carboprost IM, misoprostol, ergométrine [S11, S12 — À VÉRIFIER] | Dépend de la disponibilité ; le carboprost n'est pas commercialisé en France |
-| **Utérotonique prophylactique** | OMS : ocytocine 10 UI IM/IV [S2] | CNGOF : 5 ou 10 UI IV lente ou IM [S1] ; carbétocine 100 µg possible (OMS 2018, contexte de chaîne du froid) [S8, S13 — À VÉRIFIER] | |
-| **Ballonnet intra-utérin** | OMS 2012 : recommandé pour l'atonie réfractaire [S2] | OMS 2021 : à réserver aux structures avec accès rapide à la chirurgie [À VÉRIFIER] | Évolution après des essais pragmatiques défavorables en contexte de faibles ressources [À VÉRIFIER] |
+| **Utérotonique de 2e ligne** | France : **sulprostone** IV [S1] | OMS : ergométrine, ocytocine-ergométrine ou prostaglandine (misoprostol 800 µg SL) [S2] ; RCOG/ACOG : carboprost 0,25 mg IM, misoprostol, ergométrine/méthylergométrine (synthèse comparative FIGO 2022) [S11, S12, S15] | Dépend de la disponibilité ; le carboprost n'est pas commercialisé en France |
+| **Utérotonique prophylactique** | OMS : ocytocine 10 UI IM/IV (choix préférentiel), carbétocine 100 µg ou misoprostol 400-600 µg per os (2025) [S7] | CNGOF : 5 ou 10 UI IV lente ou IM [S1] | Carbétocine thermostable : choix de l'OMS sans chaîne du froid fiable [S7, S8] |
+| **Ballonnet intra-utérin** | OMS 2012 : recommandé pour l'atonie réfractaire [S2] | OMS 2021, repris en 2025 : sous conditions (recours chirurgical et transfusionnel immédiat, protocole de première ligne, opérateur formé) [S7] | Motif de la restriction (résultats d'essais en contexte de faibles ressources) [À VÉRIFIER] |
 | **Mesure des pertes** | CNGOF 2014 : sac de recueil si saignement anormal [S1] | OMS 2023 : mesure objective systématique (champ calibré) après toute naissance par voie basse [S5] | |
 
 ## 22. Références
@@ -873,13 +889,16 @@ Ballonnet retiré à H+20 après dégonflage progressif, sans reprise du saignem
 4. **[S4]** WOMAN Trial Collaborators. *Lancet.* 2017;389(10084):2105-2116. doi:10.1016/S0140-6736(17)30638-4. — *Vérifiée.*
 5. **[S5]** OMS. WHO recommendations on the assessment of postpartum blood loss and use of a treatment bundle for postpartum haemorrhage. Genève ; 2023. https://www.who.int/publications/i/item/9789240085398 — *Vérifiée.*
 6. **[S6]** Gallos I, et al. Randomized trial of early detection and treatment of postpartum hemorrhage (E-MOTIVE). *N Engl J Med.* 2023;389(1):11-21. doi:10.1056/NEJMoa2303966. — *Vérifiée (pagination à confirmer).*
-7. **[S7]** OMS / FIGO / ICM. Lignes directrices consolidées sur l'HPP (51 recommandations), octobre 2025. — *Existence vérifiée via communiqués ; texte intégral non consulté.*
+7. **[S7]** OMS (avec FIGO et ICM). Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage. 2025 (51 recommandations). — *Document acquis DOC-00035 ; texte intégral consulté lors de l'audit.*
 8. **[S8]** Widmer M, et al. Heat-stable carbetocin versus oxytocin to prevent hemorrhage after vaginal birth (CHAMPION). *N Engl J Med.* 2018;379(8):743-752. doi:10.1056/NEJMoa1805489. — *Vérifiée (pagination à confirmer).*
 9. **[S9]** Keddad N, et al. A descriptive study of maternal deaths in Algeria in 2011. *Antimicrob Resist Infect Control.* 2013;2(Suppl 1):P357. — *Vérifiée (résumé).*
 10. **[S10]** Ministère de la Santé (Algérie). Protocoles et procédures de prise en charge de la grossesse, de l'accouchement et de la période postnatale. Édition 2025. — *Existence vérifiée ; contenu non consulté.*
-11. **[S11]** RCOG. Green-top Guideline No. 52 — Prevention and management of postpartum haemorrhage. *BJOG.* 2017. — *Non revérifiée [À VÉRIFIER].*
-12. **[S12]** ACOG. Practice Bulletin No. 183 — Postpartum Hemorrhage. 2017. — *Non revérifiée [À VÉRIFIER].*
-13. **[S13]** OMS. Uterotonics for the prevention of postpartum haemorrhage. 2018. — *Non revérifiée [À VÉRIFIER].*
-14. **[S14]** B-Lynch C, et al. *Br J Obstet Gynaecol.* 1997;104(3):372-375. — *Non revérifiée [À VÉRIFIER].*
+11. **[S11]** RCOG. Green-top Guideline No. 52 — Prevention and management of postpartum haemorrhage. *BJOG.* 2017;124:e106-e149. — *Existence confirmée (bibliographie de FIGO 2022, DOC-00096).*
+12. **[S12]** ACOG. Practice Bulletin No. 183 — Postpartum Hemorrhage. *Obstet Gynecol.* 2017;130(4):e168-e186. — *Existence confirmée (DOC-00096).*
+13. **[S13]** OMS. Uterotonics for the prevention of postpartum haemorrhage. 2018. — *Existence confirmée (citée dans DOC-00035) ; remplacée par S7.*
+14. **[S14]** B-Lynch C, et al. *Br J Obstet Gynaecol.* 1997;104(3):372-375. — *Existence confirmée (citée dans DOC-00096).*
+15. **[S15]** Escobar MF, et al. FIGO recommendations on the management of postpartum hemorrhage 2022. *Int J Gynaecol Obstet.* 2022;157(Suppl 1):3-50. doi:10.1002/ijgo.14116. — *Document acquis DOC-00096 ; consulté lors de l'audit.*
+
+> **Audit (AUD-01/AUD-02, 19/11/2026)** : définition 2025 de l'HPP, prévention, TXA, ballonnet, NASG, fer et cibles transfusionnelles vérifiés dans les textes acquis OMS 2025 (DOC-00035) et FIGO 2022 (DOC-00096). Marqueurs maintenus : schéma d'entretien français de l'ocytocine, sulprostone, ocytocine 5 UI après césarienne. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-OBST-0002.md`.
 
 > **Note de traçabilité** : références S1 à S10 confirmées par recherche web le 19/11/2026 ; les posologies du sulprostone, de l'ocytocine d'entretien et les cibles transfusionnelles doivent être confrontées au texte intégral CNGOF 2014, aux RCP et aux protocoles nationaux algériens [S10].

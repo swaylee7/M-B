@@ -6,11 +6,24 @@ sous_specialite: "Néphrologie aiguë"
 items_residanat: [RES-MED-122]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-03 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEPH-0001.md
+    remarque: "KDIGO 2026 AKI/AKD présenté comme projet (aucune publication définitive identifiée) ; prévention des IRA aux produits de contraste actualisée (ACR-NKF 2020) ; critères d'EER du bras retardé d'AKIKI ajoutés."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 0
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEPH-0001.md
+    remarque: "Posologies vérifiées sans modification (nutrition, dose d'EER, cibles glycémiques) ; marqueurs maintenus (syndrome hépato-rénal, NTIA, bicarbonate, adaptation des médicaments)."
 sources:
   - id: S1
     reference: "Kidney Disease: Improving Global Outcomes (KDIGO) Acute Kidney Injury Work Group. KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138."
@@ -140,13 +153,21 @@ sources:
     doi: "10.2337/dc26-S009"
     url: ""
     verifiee: true
+  - id: S17
+    reference: "Davenport MS, Perazella MA, Yee J, et al. Use of Intravenous Iodinated Contrast Media in Patients with Kidney Disease: Consensus Statements from the American College of Radiology and the National Kidney Foundation. Radiology. 2020;294(3):660-668."
+    organisme: ACR/NKF
+    annee: 2020
+    type: recommandation
+    doi: "10.1148/radiol.2019192094"
+    url: ""
+    verifiee: true
 mots_cles: [insuffisance rénale aiguë, atteinte rénale aiguë, AKI, KDIGO, nécrose tubulaire aiguë, obstacle, néphrotoxicité, produits de contraste, épuration extrarénale, hyperkaliémie, acidose métabolique, maladie rénale aiguë]
 ---
 
 # Insuffisance rénale aiguë : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > **Actualité** : la recommandation KDIGO de 2012 [S1] reste le texte de référence largement diffusé ; une **recommandation KDIGO 2026 « AKI/AKD »** a été soumise à relecture publique au printemps 2026 et ses grandes lignes ont été publiées dans la littérature secondaire [S4, S5]. Sa référence définitive n'a pas pu être vérifiée dans cette session : les nouveautés sont signalées comme telles.
 
 **Item du programme couvert** : RES-MED-122 — « Insuffisance rénale aiguë : Diagnostic - traitement. »
@@ -183,7 +204,7 @@ Le stade retenu est le plus sévère des deux critères (créatinine ou diurèse
 ### 1.3 Maladie rénale aiguë (AKD) et continuum avec la MRC
 - **AKD** : anomalies fonctionnelles ou structurelles rénales ayant des conséquences pour la santé, d'une durée **≤ 3 mois** ; elle inclut l'IRA (survenue en ≤ 7 jours) et les atteintes subaiguës ou persistantes (entre 7 et 90 jours) [S7].
 - **Maladie rénale chronique (MRC)** : anomalies persistant **> 3 mois** [S6].
-- La **recommandation KDIGO 2026** élargit le cadre à l'**AKI/AKD**, en combinant critères **fonctionnels** (créatinine, diurèse) et marqueurs d'**atteinte structurelle** (biomarqueurs urinaires), avec un accent sur la prédiction du risque, la détection précoce, la gestion des néphrotoxiques et le suivi à long terme [S4, S5] — **les seuils et définitions détaillés sont à confirmer sur le texte définitif**.
+- Le **projet de recommandation KDIGO 2026** (version soumise à relecture publique jusqu'au 11 mai 2026 ; publication définitive non confirmée au 19/11/2026) élargit le cadre à l'**AKI/AKD**, en combinant critères **fonctionnels** (créatinine, diurèse) et marqueurs d'**atteinte structurelle** (biomarqueurs urinaires), avec un accent sur la prédiction du risque, la détection précoce, la gestion des néphrotoxiques et le suivi à long terme [S4, S5] — **les seuils et définitions détaillés sont à confirmer sur le texte définitif**.
 
 ### 1.4 Terminologie clinique classique
 - **Oligurie** : diurèse < 500 mL/24 h (ou < 0,5 mL/kg/h) ; **anurie** : < 100 mL/24 h (une anurie vraie évoque d'abord un **obstacle** ou une atteinte vasculaire bilatérale).
@@ -195,7 +216,7 @@ Le stade retenu est le plus sévère des deux critères (créatinine ou diurèse
 - Terme d'« insuffisance rénale aiguë » popularisé au milieu du XXᵉ siècle (crush syndrome des bombardements de la Seconde Guerre mondiale : nécrose tubulaire et rhabdomyolyse).
 - **2004** : classification **RIFLE** (ADQI) ; **2007** : critères **AKIN** (hausse ≥ 0,3 mg/dL en 48 h) [S2].
 - **2012** : **KDIGO** unifie RIFLE et AKIN [S1, S2].
-- **2021** : harmonisation des définitions AKI/AKD/MRC [S7] ; **2026** : recommandation KDIGO AKI/AKD [S4, S5].
+- **2021** : harmonisation des définitions AKI/AKD/MRC [S7] ; **2026** : projet de recommandation KDIGO AKI/AKD soumis à relecture publique [S4, S5].
 
 ---
 
@@ -344,7 +365,7 @@ FeUrée (%) = (Urée urinaire × Créat plasmatique) / (Urée plasmatique × Cr�
 - **Ponction-biopsie rénale** : indiquée en cas d'IRA parenchymateuse **inexpliquée**, de suspicion de **GNRP** ou de NTIA sans cause évidente, ou d'absence de récupération inattendue — après contrôle de la PA et de l'hémostase.
 
 ### 9.5 Biomarqueurs d'atteinte tubulaire
-Des marqueurs urinaires (par exemple NGAL, TIMP-2·IGFBP7) détectent une atteinte structurelle avant l'élévation de la créatinine ; la **recommandation KDIGO 2026** intègre ces marqueurs structurels à la définition et à la stratification de l'AKI/AKD [S4, S5]. Leur disponibilité en Algérie est limitée **[À VÉRIFIER]**.
+Des marqueurs urinaires (par exemple NGAL, TIMP-2·IGFBP7) détectent une atteinte structurelle avant l'élévation de la créatinine ; le **projet KDIGO 2026** intègre ces marqueurs structurels à la définition et à la stratification de l'AKI/AKD [S4, S5]. Leur disponibilité en Algérie est limitée **[À VÉRIFIER]**.
 
 ---
 
@@ -463,6 +484,7 @@ Mnémotechnique « AEIOU » (repère pédagogique) :
 - **AKIKI** (2016) : chez des patients de réanimation en IRA KDIGO 3 sans complication urgente, une stratégie **retardée** (initiation sur critères de gravité) n'a pas modifié la mortalité à 60 jours et a permis d'éviter l'EER chez environ la moitié des patients du bras retardé [S8].
 - **STARRT-AKI** (2020) : l'initiation **accélérée** n'a pas réduit la mortalité à 90 jours et s'est accompagnée de davantage d'effets indésirables et d'une dépendance plus fréquente à l'EER à 90 jours [S9].
 - **AKIKI 2** (2021) : retarder **davantage** l'EER au-delà des critères de la stratégie « retardée » n'apporte pas de bénéfice et pourrait être délétère [S10].
+- **Critères d'initiation du bras « retardé » d'AKIKI** (repère utile en pratique) : kaliémie > 6 mmol/L (ou > 5,5 malgré le traitement médical), pH < 7,15, œdème pulmonaire de surcharge avec hypoxémie sévère (O₂ > 5 L/min ou FiO₂ > 50 %), urée > 40 mmol/L (≈ 2,4 g/L) ou oligo-anurie > 72 h [S8].
 - **Message** : pas d'EER « préventive » systématique, mais pas d'attentisme excessif quand une indication est présente.
 
 **Modalités** [S3] :
@@ -519,7 +541,8 @@ L'organisation de l'accès à l'hémodialyse aiguë (services de néphrologie, r
    - évaluer le risque (DFG) avant toute injection ; envisager une imagerie alternative ; **dose minimale** ; produits iso- ou basse-osmolaires (grade 1B) ;
    - **expansion volémique IV par cristalloïdes isotoniques** (NaCl 0,9 % ou bicarbonate isotonique) chez les patients à risque (grade 1A), pas d'hydratation orale seule (grade 1C) [S3, recommandations E3–E7] ;
    - **N-acétylcystéine** : suggérée par KDIGO 2012 (grade 2D) [S3, recommandation E8], mais l'essai **PRESERVE** (2018) n'a montré **aucun bénéfice** de l'acétylcystéine ni du bicarbonate par rapport au sérum salé [S13] ;
-   - pas d'hémodialyse prophylactique pour épurer le produit de contraste (grade 2C) [S3, recommandation E11].
+   - pas d'hémodialyse prophylactique pour épurer le produit de contraste (grade 2C) [S3, recommandation E11] ;
+   - **actualisation (consensus ACR-NKF 2020, injection IV)** : l'expansion volémique par NaCl 0,9 % IV est **indiquée si DFGe < 30 mL/min/1,73 m²** (patient non dialysé) ou en cas d'IRA, **envisageable au cas par cas entre 30 et 44**, **non indiquée si DFGe stable ≥ 45** ; un examen injecté utile ne doit pas être refusé ou retardé au seul motif d'une baisse modérée du DFG [S17]. KDIGO 2012 retenait un seuil plus large (prophylaxie pour un DFGe < 45 environ, d'après le tableau comparatif de l'ACR-NKF) ; les injections intra-artérielles à passage rénal direct relèvent de protocoles spécifiques **[À VÉRIFIER — recommandations ESUR/ESC en vigueur]**.
 6. **Chirurgie et réanimation** : stabilité hémodynamique, éviter l'hypotension prolongée ; l'acétylcystéine n'est pas recommandée pour prévenir l'IRA postopératoire (grade 1A) [S2, recommandation D25].
 7. **Rhabdomyolyse, lyse tumorale** : hydratation préventive et mesures spécifiques.
 
@@ -595,7 +618,7 @@ Après récupération : réévaluation à 3 mois (MRC ?)
 ## 18. Points clés à retenir
 
 1. **KDIGO** : créatinine + 0,3 mg/dL en 48 h, ou × 1,5 en 7 jours, ou diurèse < 0,5 mL/kg/h pendant 6 h ; 3 stades [S1, S2].
-2. AKD (≤ 3 mois) et MRC (> 3 mois) forment un continuum ; KDIGO 2026 intègre des marqueurs d'atteinte structurelle [S4, S5, S7].
+2. AKD (≤ 3 mois) et MRC (> 3 mois) forment un continuum ; le projet KDIGO 2026 (non encore publié dans sa version définitive) intègre des marqueurs d'atteinte structurelle [S4, S5, S7].
 3. Trois questions systématiques : **urgence vitale ? aigu ou chronique ? obstacle (échographie) ?** puis fonctionnelle ou parenchymateuse.
 4. **FeNa < 1 %** évoque une IRA fonctionnelle, mais elle est **faussée par les diurétiques** (préférer la **FeUrée < 35 %**).
 5. Cylindres hématiques + protéinurie + HTA = **GNRP** → biopsie et traitement urgents.
@@ -751,8 +774,9 @@ Après récupération : réévaluation à 3 mois (MRC ?)
 
 | Sujet | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
 |---|---|---|---|
-| Définition de l'IRA | **KDIGO 2012** : critères fonctionnels seuls (créatinine, diurèse) [S1, S2] | **KDIGO 2026 (AKI/AKD)** : critères fonctionnels **et** marqueurs d'atteinte structurelle, cadre AKI/AKD élargi [S4, S5] | Texte final à vérifier ; les biomarqueurs restent peu accessibles dans de nombreux contextes. |
-| Prévention de l'IRA aux produits de contraste par N-acétylcystéine | **KDIGO 2012** : acétylcystéine orale + cristalloïdes IV suggérée chez les patients à risque (grade 2D) [S3] | **PRESERVE 2018** : pas de bénéfice de l'acétylcystéine ni du bicarbonate vs NaCl 0,9 % [S13] ; revue de 2019 : expansion isotonique comme pierre angulaire [S14] | La pratique actuelle a abandonné l'acétylcystéine ; KDIGO 2026 à consulter. |
+| Définition de l'IRA | **KDIGO 2012** : critères fonctionnels seuls (créatinine, diurèse) [S1, S2] | **Projet KDIGO 2026 (AKI/AKD)**, soumis à relecture publique : critères fonctionnels **et** marqueurs d'atteinte structurelle, cadre AKI/AKD élargi [S4, S5] | Texte final à vérifier ; les biomarqueurs restent peu accessibles dans de nombreux contextes. |
+| Prévention de l'IRA aux produits de contraste par N-acétylcystéine | **KDIGO 2012** : acétylcystéine orale + cristalloïdes IV suggérée chez les patients à risque (grade 2D) [S3] | **PRESERVE 2018** : pas de bénéfice de l'acétylcystéine ni du bicarbonate vs NaCl 0,9 % [S13] ; revue de 2019 : expansion isotonique comme pierre angulaire [S14] | La pratique actuelle a abandonné l'acétylcystéine ; projet KDIGO 2026 à consulter. |
+| Population relevant d'une hydratation avant injection IV | **KDIGO 2012** : expansion IV isotonique chez les patients « à risque » (DFGe < 45 environ, d'après le tableau comparatif du consensus ACR-NKF) [S3, S17] | **ACR-NKF 2020** : NaCl 0,9 % IV si DFGe < 30 ou IRA ; au cas par cas entre 30 et 44 ; pas de prophylaxie si DFGe stable ≥ 45 [S17] | Restriction progressive des indications ; ne pas priver le patient d'un examen injecté nécessaire. |
 | Choix du cristalloïde | **KDIGO 2012** : cristalloïdes isotoniques plutôt que colloïdes, sans préférence entre cristalloïdes [S2] | **SMART 2018** : solutés balancés associés à moins d'événements rénaux majeurs que le NaCl 0,9 % en réanimation [S11] | Préférence croissante pour les solutés balancés en réanimation, sous réserve de disponibilité. |
 | Cible glycémique en réanimation | **KDIGO 2012** : 110–149 mg/dL (6,1–8,3 mmol/L) (grade 2C) [S2] | **ADA 2026** : 140–180 mg/dL (7,8–10,0 mmol/L) pour la plupart des patients de réanimation [S15] | Les données postérieures à 2012 ont conduit à des cibles moins strictes (risque d'hypoglycémie). |
 | Moment de l'EER | Pratiques antérieures d'**initiation précoce** (seuils d'urée/créatinine) | **AKIKI 2016, STARRT-AKI 2020** : pas de bénéfice de l'initiation précoce/accélérée ; **AKIKI 2 2021** : retarder davantage n'est pas bénéfique [S8, S9, S10] ; KDIGO 2012 : décision sur le contexte global [S3] | Convergence actuelle vers une stratégie « attentive » sur critères cliniques. |
@@ -765,7 +789,7 @@ Après récupération : réévaluation à 3 mois (MRC ?)
 1. **[S1]** KDIGO AKI Work Group. KDIGO Clinical Practice Guideline for Acute Kidney Injury. *Kidney Int Suppl*. 2012;2(1):1-138. — vérifiée (existence et pagination 1-138 confirmées par les synthèses KDIGO 2013 ; volume selon la citation usuelle).
 2. **[S2]** Kellum JA, Lameire N; KDIGO AKI Guideline Work Group. Diagnosis, evaluation, and management of acute kidney injury: a KDIGO summary (Part 1). *Crit Care*. 2013;17(1):204. doi:10.1186/cc11454. — vérifiée (texte intégral consulté).
 3. **[S3]** Lameire N, Kellum JA; KDIGO AKI Guideline Work Group. Contrast-induced acute kidney injury and renal support for acute kidney injury: a KDIGO summary (Part 2). *Crit Care*. 2013;17(1):205. doi:10.1186/cc11455. — vérifiée (texte intégral consulté).
-4. **[S4]** KDIGO. Clinical Practice Guideline for AKI and AKD — projet 2026 soumis à relecture publique (clôture prolongée au 11 mai 2026). — existence vérifiée (annonces KDIGO, recherche web) ; **référence bibliographique définitive À VÉRIFIER**.
+4. **[S4]** KDIGO. Clinical Practice Guideline for AKI and AKD — projet 2026 soumis à relecture publique (clôture prolongée au 11 mai 2026). — existence du projet vérifiée (annonces KDIGO, recherche web ; revérifiée pendant l'audit du 2026-11-19 : aucune publication définitive identifiée) ; **référence bibliographique définitive À VÉRIFIER**.
 5. **[S5]** Zhou FL, Wei W, Zhao YL, Fu P. [Highlights of the KDIGO 2026 clinical practice guideline for AKI/AKD]. *Zhonghua Nei Ke Za Zhi*. 2026;65(8):784-790. doi:10.3760/cma.j.cn112138-20260623-00385. — vérifiée (résumé PubMed).
 6. **[S6]** KDIGO CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. *Kidney Int*. 2024;105(4S):S117-S314. doi:10.1016/j.kint.2023.10.018. — vérifiée.
 7. **[S7]** Lameire NH, Levin A, Kellum JA, et al. Harmonizing acute and chronic kidney disease definition and classification: report of a KDIGO Consensus Conference. *Kidney Int*. 2021;100(3):516-526. doi:10.1016/j.kint.2021.06.028. — vérifiée (existence).
@@ -778,3 +802,4 @@ Après récupération : réévaluation à 3 mois (MRC ?)
 14. **[S14]** Mehran R, Dangas GD, Weisbord SD. Contrast-Associated Acute Kidney Injury. *N Engl J Med*. 2019;380(22):2146-2155. doi:10.1056/NEJMra1805256. — vérifiée.
 15. **[S15]** ADA Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S339-S355. doi:10.2337/dc26-S016. — vérifiée.
 16. **[S16]** ADA Professional Practice Committee. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S183-S215. doi:10.2337/dc26-S009. — vérifiée.
+17. **[S17]** Davenport MS, Perazella MA, Yee J, et al. Use of Intravenous Iodinated Contrast Media in Patients with Kidney Disease: Consensus Statements from the ACR and the NKF. *Radiology*. 2020;294(3):660-668. doi:10.1148/radiol.2019192094. — vérifiée (recherche web pendant l'audit : PubMed/RSNA ; seuils DFGe < 30 / 30–44 / ≥ 45 recoupés).

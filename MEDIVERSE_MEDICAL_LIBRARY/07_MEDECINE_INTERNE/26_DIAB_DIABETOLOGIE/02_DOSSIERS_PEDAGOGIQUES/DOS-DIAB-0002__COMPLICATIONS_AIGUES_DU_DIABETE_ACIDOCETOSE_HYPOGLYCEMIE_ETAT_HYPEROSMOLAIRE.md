@@ -6,11 +6,24 @@ sous_specialite: "Urgences métaboliques du diabète"
 items_residanat: [RES-MED-092]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-03 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 6
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-DIAB-0002.md
+    remarque: "Divergence JBDS erronée corrigée (le JBDS envisage aussi 0,05 U/kg/h sous 14 mmol/L, avec G10 % 125 mL/h — erreur majeure) ; seuil HCO₃ ≥ 15 de l'EHH confirmé ; critère glycémique de résolution clarifié (QCM-DIAB-0017 corrigé) ; critères JBDS de résolution de l'EHH ajoutés."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-DIAB-0002.md
+    remarque: "Insuline SC des ACD légères à modérées (0,1 U/kg toutes les heures ou 0,2 U/kg toutes les 2 h) ; piège d'unités du phosphate ; seuil de cétonémie JBDS 2012/2023 ; seuils potassiques JBDS ; marqueurs maintenus (bicarbonate, glucose IV de l'hypoglycémie, octréotide)."
 sources:
   - id: S1
     reference: "Umpierrez GE, Davis GM, ElSayed NA, et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care. 2024;47(8):1257-1275. (ADA, EASD, JBDS, AACE, DTS ; publication simultanée dans Diabetologia)"
@@ -106,7 +119,7 @@ mots_cles: [acidocétose diabétique, état hyperosmolaire hyperglycémique, hyp
 # Complications aiguës du diabète sucré : acidocétose, hypoglycémie et état hyperosmolaire
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. **Les protocoles d'urgence décrits (débits, doses d'insuline et de potassium) doivent être confrontés au protocole local validé de l'établissement avant toute application.**
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). **Les protocoles d'urgence décrits (débits, doses d'insuline et de potassium) doivent être confrontés au protocole local validé de l'établissement avant toute application.**
 > Référence centrale : consensus international ADA/EASD/JBDS/AACE/DTS de 2024 sur les crises hyperglycémiques de l'adulte [S1], qui remplace le consensus ADA de 2009.
 
 **Items du programme couverts** : RES-MED-092 — « Complications aiguës du diabète sucré : Diagnostic et traitement de l'acidocétose diabétique - Diagnostic et traitement du coma hypoglycémique - Diagnostic et traitement du coma hyperosmolaire. »
@@ -142,7 +155,7 @@ Hyperglycémie majeure et hyperosmolalité **sans cétose ni acidose significati
 1. glycémie **≥ 600 mg/dL (33,3 mmol/L)** ;
 2. **osmolalité efficace calculée > 300 mOsm/kg** [2 × Na + glucose, en mmol/L] **ou** osmolalité totale > 320 mOsm/kg [2 × Na + glucose + urée] ;
 3. **absence de cétonémie significative** (β-OHB < 3,0 mmol/L ou cétonurie < 2+) ;
-4. **absence d'acidose** (pH ≥ 7,30 et bicarbonates ≥ 15 mmol/L) [seuil de bicarbonates à confirmer sur la figure du consensus : le texte du même document emploie aussi ≥ 18 mmol/L pour qualifier l'absence d'acidose — À VÉRIFIER].
+4. **absence d'acidose** (pH ≥ 7,30 **et** bicarbonates ≥ 15 mmol/L) [S1 ; seuil de 15 mmol/L confirmé par une revue secondaire du consensus (Cleveland Clin J Med, 2025) — audit 2026-11-19]. Attention : le seuil de 18 mmol/L sert au **diagnostic** et à la **résolution** de l'ACD, pas à la définition de l'EHH.
 Le JBDS retient une glycémie habituellement ≥ 30 mmol/L et une osmolalité habituellement ≥ 320 mOsm/kg, en insistant pour **ne pas diagnostiquer l'EHH sur la seule biologie** [S5].
 
 Une **forme mixte ACD/EHH** est observée chez plus d'un tiers des crises hyperglycémiques [S1].
@@ -434,7 +447,7 @@ Restaurer la volémie et la perfusion des organes ; corriger l'hyperglycémie et
 - Quand la glycémie passe **sous 250 mg/dL (13,9 mmol/L)** (habituellement en 4–8 h, bien avant la résolution de la cétose) : **ajouter du glucose 5–10 %** et **réduire l'insuline à 0,05 U/kg/h**, puis ajuster pour maintenir la glycémie **autour de 200 mg/dL (11,1 mmol/L)** jusqu'à la résolution de l'ACD [S1].
 - **Ne jamais arrêter l'insuline IV parce que la glycémie est normalisée** : c'est la cétose qui guide la durée.
 - Patients sous insuline basale avant l'admission : la **poursuivre** à la dose habituelle [S1] ; la co-administration précoce d'une basale (0,15–0,3 U/kg) pendant la perfusion réduit la durée de perfusion et l'hyperglycémie de rebond sans majorer les hypoglycémies dans plusieurs études (pratique non universelle) [S1].
-- **ACD légère à modérée non compliquée** : alternative par **analogues rapides sous-cutanés toutes les 1–2 h**, possible aux urgences ou en unité intermédiaire ; **non recommandée** dans les formes sévères, compliquées ou l'EHH [S1].
+- **ACD légère à modérée non compliquée** : alternative par **analogues rapides sous-cutanés** (**0,1 U/kg toutes les heures ou 0,2 U/kg toutes les 2 h**), possible aux urgences ou en unité intermédiaire ; **non recommandée** dans les formes sévères, compliquées ou l'EHH [S1].
 
 **3) Potassium** [S1]
 | Kaliémie initiale | Conduite |
@@ -446,11 +459,11 @@ Kaliémie **2 h après le début de l'insuline puis toutes les 4 h** jusqu'à la
 
 **4) Bicarbonates** — non systématiques ; à envisager si **pH < 7,0** : par exemple **100 mmol de bicarbonate de sodium (solution à 8,4 %) dans 400 mL d'eau stérile** (solution isotonique), à répéter toutes les 2 h jusqu'à pH > 7,0 [S1]. Risques : hypokaliémie, acidose paradoxale du LCR, œdème cérébral [S1]. **[POSOLOGIE À VÉRIFIER — protocole local ; présentation des solutés de bicarbonate disponibles localement]**.
 
-**5) Phosphates** — pas de supplémentation systématique ; si phosphorémie < 1,0 mmol/L avec faiblesse musculaire, défaillance respiratoire ou cardiaque : **20–30 mmol de phosphate de potassium** ajoutés aux solutés [S1] ; attention à l'hypocalcémie.
+**5) Phosphates** — pas de supplémentation systématique ; si phosphorémie < 1,0 mmol/L avec faiblesse musculaire, défaillance respiratoire ou cardiaque : **20–30 mmol de phosphate de potassium** ajoutés aux solutés [S1] ; attention à l'hypocalcémie. *Piège d'unités* : le consensus ADA de 2009 exprimait son seuil en mg/dL (< 1,0 mg/dL, soit ≈ 0,32 mmol/L) ; ne pas confondre les deux seuils.
 
 **6) Traitement du facteur déclenchant** : antibiothérapie si infection documentée ou fortement suspectée (pas d'antibiothérapie « automatique » sur la seule hyperleucocytose), traitement d'un infarctus, d'une pancréatite…
 
-**7) Critères de résolution de l'ACD** [S1] : **cétonémie < 0,6 mmol/L ET pH veineux ≥ 7,3 ou bicarbonates ≥ 18 mmol/L** (idéalement glycémie < 200 mg/dL). Le **trou anionique** et la **cétonurie** ne doivent pas servir de critère de résolution.
+**7) Critères de résolution de l'ACD** [S1] : **cétonémie < 0,6 mmol/L ET pH veineux ≥ 7,3 ou bicarbonates ≥ 18 mmol/L**. La glycémie n'est plus un critère obligatoire depuis 2024 (le consensus de 2009 exigeait < 200 mg/dL) ; une glycémie < 200 mg/dL reste souhaitable lors du relais. Le **trou anionique** et la **cétonurie** ne doivent pas servir de critère de résolution.
 
 **8) Relais sous-cutané** [S1]
 - Lorsque l'ACD est résolue et que le patient s'alimente : **insuline basale SC 1–2 h avant l'arrêt de la perfusion** (chevauchement indispensable).
@@ -472,13 +485,13 @@ Kaliémie **2 h après le début de l'insuline puis toutes les 4 h** jusqu'à la
 
 **2) Insuline**
 - **Consensus 2024** : sans cétose significative (β-OHB < 3 mmol/L) ni acidose, **insuline IV à débit fixe 0,05 U/kg/h** ; si cétonémie ≥ 3 mmol/L ou acidose (forme mixte) : **0,1 U/kg/h** [S1]. Certains recommandent d'attendre que la glycémie cesse de baisser sous remplissage seul [S1].
-- **JBDS 2023** : pas d'insuline d'emblée sauf cétonémie > 3,0 mmol/L ; débuter l'insuline à faible débit **uniquement quand la glycémie ne baisse plus** sous remplissage seul, pour éviter une chute osmolaire brutale [S5].
+- **JBDS 2023** : pas d'insuline d'emblée sauf cétonémie > 3,0 mmol/L ; débuter l'insuline à faible débit (0,05 U/kg/h) **uniquement quand la glycémie ne baisse plus** sous remplissage seul, pour éviter une chute osmolaire brutale [S5]. La version JBDS de 2012, encore reprise par certains protocoles locaux, retenait un seuil de cétonémie plus bas (> 1 mmol/L) pour débuter l'insuline d'emblée : vérifier le protocole de l'établissement.
 
 **3) Potassium** : même logique que pour l'ACD ; hypokaliémie fréquente sous traitement [S1, S5].
 
 **4) Mesures associées** [S5] : **HBPM préventive pendant toute l'hospitalisation** sauf contre-indication (anticoagulation curative seulement si thrombose ou syndrome coronarien) ; **protection des talons et examen quotidien des pieds** (risque élevé d'escarres et d'ulcérations) ; surveillance neurologique ; recherche du facteur déclenchant.
 
-**5) Résolution de l'EHH** [S1] : osmolalité < 300 mOsm/kg, hyperglycémie corrigée (< 250 mg/dL), diurèse > 0,5 mL/kg/h, amélioration cognitive. Le relais SC n'impose pas toujours une insuline au long cours chez le DT2 (réévaluation à distance), mais une insulinothérapie temporaire est fréquente.
+**5) Résolution de l'EHH** [S1] : osmolalité < 300 mOsm/kg, hyperglycémie corrigée (< 250 mg/dL), diurèse > 0,5 mL/kg/h, amélioration cognitive. Le JBDS 2023 retient des critères proches, avec une glycémie < 15 mmol/L et un retour à l'état cognitif antérieur [S5]. Le relais SC n'impose pas toujours une insuline au long cours chez le DT2 (réévaluation à distance), mais une insulinothérapie temporaire est fréquente.
 
 ### 13.4 Hypoglycémie — traitement
 
@@ -702,11 +715,11 @@ ACD (D : diabète connu, glycémie ≥ 200 mg/dL ; K : β-OHB ≥ 3 ; A : pH < 7
 - **B.** pH veineux ≥ 7,3 ou bicarbonates ≥ 18 mmol/L
 - **C.** Normalisation du trou anionique
 - **D.** Négativation de la cétonurie
-- **E.** Glycémie idéalement < 200 mg/dL
+- **E.** Glycémie < 200 mg/dL, critère obligatoire pour déclarer la résolution
 
-> **Réponse(s) : A, B, E.** Résolution = β-OHB < 0,6 mmol/L ET (pH ≥ 7,3 ou HCO₃ ≥ 18), glycémie idéalement < 200 mg/dL. Le trou anionique (acidose hyperchlorémique) et la cétonurie (conversion du β-OHB en acéto-acétate) sont trompeurs.
+> **Réponse(s) : A, B.** Résolution = β-OHB < 0,6 mmol/L ET (pH ≥ 7,3 ou HCO₃ ≥ 18). Le trou anionique (acidose hyperchlorémique) et la cétonurie (conversion du β-OHB en acéto-acétate) sont trompeurs ; la glycémie n'est plus un critère obligatoire (elle l'était en 2009).
 >
-> *Propositions fausses* : **C** — Faux : faussé par l'acidose hyperchlorémique liée au NaCl 0,9 %. **D** — Faux : la cétonurie peut persister alors que la cétonémie est corrigée.
+> *Propositions fausses* : **C** — Faux : faussé par l'acidose hyperchlorémique liée au NaCl 0,9 %. **D** — Faux : la cétonurie peut persister alors que la cétonémie est corrigée. **E** — Faux : critère du consensus de 2009, non obligatoire en 2024 (une glycémie < 200 mg/dL reste souhaitable).
 
 **QCM 6** (QCM-DIAB-0018 — QCM (réponses multiples)). Une femme de 47 ans, DT2 sous metformine + dapagliflozine, consulte au 3e jour d'un jeûne prolongé pour nausées, douleurs abdominales et polypnée. Glycémie 1,85 g/L, pH 7,16, HCO₃ 9 mmol/L, β-OHB 5,1 mmol/L. Quelle(s) proposition(s) est(sont) exacte(s) ?
 
@@ -774,12 +787,13 @@ ACD (D : diabète connu, glycémie ≥ 200 mg/dL ; K : β-OHB ≥ 3 ; A : pH < 7
 | Sujet | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
 |---|---|---|---|
 | Seuil glycémique de l'ACD | **Consensus ADA 2009** : glycémie > 250 mg/dL (13,9 mmol/L) [cité par S1] | **Consensus international 2024** : ≥ 200 mg/dL **ou** diabète connu quelle que soit la glycémie [S1] | Le seuil 2024 intègre l'ACD euglycémique (iSGLT2). |
-| Insuline quand la glycémie passe sous ~14 mmol/L | **Consensus 2024** : réduire à **0,05 U/kg/h** et ajouter G5–10 %, cible ≈ 200 mg/dL [S1] | **JBDS 2022** : maintenir le débit fixe à 0,1 U/kg/h et ajouter du glucose 10 % pour poursuivre la suppression de la cétogenèse [S4 — modalités exactes à vérifier sur le texte intégral] | Deux stratégies visant le même but : éviter l'hypoglycémie sans interrompre la correction de la cétose. Suivre le protocole local. |
+| Insuline quand la glycémie passe sous ~14 mmol/L | **Consensus 2024** : réduire à **0,05 U/kg/h** et ajouter G5–10 %, cible ≈ 150–200 mg/dL [S1] | **JBDS (révision 2021, publiée en 2022)** : ajouter du **glucose 10 % à 125 mL/h** en parallèle du NaCl 0,9 % et **envisager** de réduire le débit fixe de 0,1 à **0,05 U/kg/h** quand la glycémie est < 14 mmol/L [S4] | Positions **convergentes** (la réduction est systématique dans le consensus, laissée au jugement clinique par le JBDS). Suivre le protocole local. |
+| Seuils de la supplémentation potassique | **Consensus 2024** : K < 3,5 → KCl ~10 mmol/h et insuline différée ; 3,5–5,0 → 20–30 mmol/L de soluté ; > 5,0 → pas de K⁺ [S1] | **JBDS** : K > 5,5 → pas de K⁺ ; 3,5–5,5 → 40 mmol/L de soluté (poches prémélangées) ; < 3,5 → avis senior et apport supplémentaire [S4] | Seuil supérieur différent (5,0 vs 5,5 mmol/L) ; la kaliémie de contrôle à H2 est commune. |
 | Bolus initial d'insuline | **Consensus 2024** : seulement si l'accès veineux est retardé [S1] | **ISPAD 2022** (enfant) : pas de bolus [S6] | Chez l'enfant, le bolus est associé à des complications ; protocoles pédiatriques distincts. |
-| Soluté de remplissage | **Consensus 2024** : NaCl 0,9 % ou cristalloïde balancé, selon disponibilité ; les balancés accélèrent la résolution [S1] | **JBDS** : NaCl 0,9 % privilégié (poches prémélangées de potassium) [S4 — à vérifier] ; **PECARN 2018** (enfant) : pas de différence neurologique entre NaCl 0,9 % et 0,45 % ni selon le débit [S7] | Choix pragmatique : disponibilité, coût, potassium prémélangé. |
+| Soluté de remplissage | **Consensus 2024** : NaCl 0,9 % ou cristalloïde balancé, selon disponibilité ; les balancés accélèrent la résolution [S1] | **JBDS** : NaCl 0,9 % privilégié (poches prémélangées de potassium) [S4] ; **PECARN 2018** (enfant) : pas de différence neurologique entre NaCl 0,9 % et 0,45 % ni selon le débit [S7] | Choix pragmatique : disponibilité, coût, potassium prémélangé. |
 | Début de l'insuline dans l'EHH | **Consensus 2024** : 0,05 U/kg/h sans cétose significative (certains attendent l'arrêt de la baisse glycémique sous remplissage) [S1] | **JBDS 2023** : pas d'insuline initiale (sauf cétonémie > 3 mmol/L) ; débuter quand la glycémie ne baisse plus sous remplissage seul [S5] | Le JBDS est plus conservateur pour limiter les variations osmotiques. |
 | Vitesse de baisse de la glycémie dans l'EHH | **Consensus 2024** : ≤ 90–120 mg/dL/h (5–6,7 mmol/L/h) [S1] | **JBDS 2023** : ≤ 5 mmol/L/h [S5] | Proches ; le JBDS est plus strict. |
-| Insuline basale pendant la perfusion IV | **Consensus 2024** : pratique débattue ; données favorables à une co-administration à faible dose (0,15–0,3 U/kg) [S1] | **JBDS 2022** : poursuite des analogues lents habituels pendant la perfusion [S4 — à vérifier] | Convergence vers le maintien d'une basale. |
+| Insuline basale pendant la perfusion IV | **Consensus 2024** : pratique débattue ; données favorables à une co-administration à faible dose (0,15–0,3 U/kg) [S1] | **JBDS 2022** : poursuite des analogues lents habituels pendant la perfusion [S4] | Convergence vers le maintien d'une basale. |
 | Quantité de glucose pour une hypoglycémie | **ADA 2026** : 15 g (5–10 g sous délivrance automatisée d'insuline) [S2] | Autres référentiels : 15–20 g [référence non vérifiée dans cette session — À VÉRIFIER] | Différence minime ; le contrôle à 15 min est commun. |
 
 ---
@@ -789,7 +803,7 @@ ACD (D : diabète connu, glycémie ≥ 200 mg/dL ; K : β-OHB ≥ 3 ; A : pH < 7
 1. **[S1]** Umpierrez GE, Davis GM, ElSayed NA, et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. *Diabetes Care*. 2024;47(8):1257-1275. doi:10.2337/dci24-0032. — vérifiée (PubMed, texte intégral PMC).
 2. **[S2]** ADA Professional Practice Committee. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S132-S149. doi:10.2337/dc26-S006. — vérifiée (texte intégral PMC).
 3. **[S3]** ADA Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S339-S355. doi:10.2337/dc26-S016. — vérifiée.
-4. **[S4]** Dhatariya KK, et al. The management of diabetic ketoacidosis in adults — An updated guideline from the JBDS for Inpatient Care. *Diabet Med*. 2022;39(6):e14788. doi:10.1111/dme.14788. — vérifiée (existence) ; texte intégral non consulté dans cette session.
+4. **[S4]** Dhatariya KK, et al. The management of diabetic ketoacidosis in adults — An updated guideline from the JBDS for Inpatient Care. *Diabet Med*. 2022;39(6):e14788. doi:10.1111/dme.14788. — vérifiée (existence) ; texte intégral non consulté ; la conduite quand la glycémie passe sous 14 mmol/L (glucose 10 % à 125 mL/h, réduction envisageable à 0,05 U/kg/h) a été recoupée pendant l'audit (parcours de soins JBDS et revues secondaires).
 5. **[S5]** Mustafa OG, et al. Management of HHS in Adults: An updated guideline from the JBDS for Inpatient Care Group. *Diabet Med*. 2023;40(3):e15005. doi:10.1111/dme.15005. — vérifiée (texte intégral PMC).
 6. **[S6]** Glaser N, et al. ISPAD clinical practice consensus guidelines 2022: DKA and HHS. *Pediatr Diabetes*. 2022;23(7):835-856. doi:10.1111/pedi.13406. — vérifiée (existence).
 7. **[S7]** Kuppermann N, et al. Clinical Trial of Fluid Infusion Rates for Pediatric Diabetic Ketoacidosis. *N Engl J Med*. 2018;378(24):2275-2287. doi:10.1056/NEJMoa1716816. — vérifiée.

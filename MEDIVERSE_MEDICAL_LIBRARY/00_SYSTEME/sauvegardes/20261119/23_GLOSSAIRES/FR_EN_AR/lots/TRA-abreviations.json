@@ -1,0 +1,3451 @@
+{
+  "agent": "TRA-01",
+  "date": "2026-11-19",
+  "termes": [
+    {
+      "id": "GLO-10000",
+      "fr": "AVC",
+      "developpement_fr": "accident vasculaire cérébral",
+      "en": "stroke",
+      "developpement_en": "stroke",
+      "ar": "السكتة الدماغية",
+      "ar_variantes": [
+        "الحادث الوعائي الدماغي"
+      ],
+      "definition_fr": "Abréviation désignant un déficit neurologique brutal d'origine vasculaire.",
+      "categorie": "general",
+      "specialites": [
+        "NEUR",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10001",
+      "fr": "AIT",
+      "developpement_fr": "accident ischémique transitoire",
+      "en": "TIA",
+      "developpement_en": "transient ischemic attack",
+      "ar": "النوبة الإقفارية العابرة",
+      "ar_variantes": [],
+      "definition_fr": "Épisode neurologique ischémique bref sans infarctus constitué.",
+      "categorie": "general",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10002",
+      "fr": "IDM",
+      "developpement_fr": "infarctus du myocarde",
+      "en": "MI",
+      "developpement_en": "myocardial infarction",
+      "ar": "احتشاء عضل القلب",
+      "ar_variantes": [],
+      "definition_fr": "Nécrose myocardique ischémique.",
+      "categorie": "general",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10003",
+      "fr": "SCA",
+      "developpement_fr": "syndrome coronarien aigu",
+      "en": "ACS",
+      "developpement_en": "acute coronary syndrome",
+      "ar": "المتلازمة الإكليلية الحادّة",
+      "ar_variantes": [],
+      "definition_fr": "Ischémie myocardique aiguë par thrombose coronaire.",
+      "categorie": "general",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10004",
+      "fr": "HTA",
+      "developpement_fr": "hypertension artérielle",
+      "en": "HTN",
+      "developpement_en": "hypertension",
+      "ar": "فرط ضغط الدم",
+      "ar_variantes": [
+        "ارتفاع ضغط الدم"
+      ],
+      "definition_fr": "Élévation permanente de la pression artérielle.",
+      "categorie": "general",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10005",
+      "fr": "IC",
+      "developpement_fr": "insuffisance cardiaque",
+      "en": "HF",
+      "developpement_en": "heart failure",
+      "ar": "قصور القلب",
+      "ar_variantes": [],
+      "definition_fr": "Incapacité du cœur à assurer un débit adapté.",
+      "categorie": "general",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10006",
+      "fr": "FA",
+      "developpement_fr": "fibrillation atriale",
+      "en": "AF",
+      "developpement_en": "atrial fibrillation",
+      "ar": "الرجفان الأذيني",
+      "ar_variantes": [],
+      "definition_fr": "Arythmie supraventriculaire désorganisée.",
+      "categorie": "general",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10007",
+      "fr": "ACR",
+      "developpement_fr": "arrêt cardiorespiratoire",
+      "en": "CA",
+      "developpement_en": "cardiac arrest",
+      "ar": "توقّف القلب والتنفس",
+      "ar_variantes": [],
+      "definition_fr": "Interruption de l'activité circulatoire efficace.",
+      "categorie": "general",
+      "specialites": [
+        "URGE",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10008",
+      "fr": "RCP",
+      "developpement_fr": "réanimation cardiopulmonaire",
+      "en": "CPR",
+      "developpement_en": "cardiopulmonary resuscitation",
+      "ar": "الإنعاش القلبي الرئوي",
+      "ar_variantes": [],
+      "definition_fr": "Gestes de suppléance circulatoire et ventilatoire de l'arrêt cardiaque.",
+      "categorie": "general",
+      "specialites": [
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10009",
+      "fr": "ECG",
+      "developpement_fr": "électrocardiogramme",
+      "en": "ECG",
+      "developpement_en": "electrocardiogram",
+      "ar": "مخطط كهربية القلب",
+      "ar_variantes": [
+        "تخطيط القلب"
+      ],
+      "definition_fr": "Enregistrement de l'activité électrique cardiaque.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10010",
+      "fr": "ETT",
+      "developpement_fr": "échocardiographie transthoracique",
+      "en": "TTE",
+      "developpement_en": "transthoracic echocardiography",
+      "ar": "تخطيط صدى القلب عبر الصدر",
+      "ar_variantes": [],
+      "definition_fr": "Échographie cardiaque réalisée à travers la paroi thoracique.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD",
+        "IMAG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10011",
+      "fr": "OAP",
+      "developpement_fr": "œdème aigu du poumon",
+      "en": "APE",
+      "developpement_en": "acute pulmonary edema",
+      "ar": "الوذمة الرئوية الحادة",
+      "ar_variantes": [],
+      "definition_fr": "Inondation alvéolaire aiguë.",
+      "categorie": "general",
+      "specialites": [
+        "CARD",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10012",
+      "fr": "EP",
+      "developpement_fr": "embolie pulmonaire",
+      "en": "PE",
+      "developpement_en": "pulmonary embolism",
+      "ar": "الانصمام الرئوي",
+      "ar_variantes": [],
+      "definition_fr": "Obstruction artérielle pulmonaire par un thrombus.",
+      "categorie": "general",
+      "specialites": [
+        "CARD",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10013",
+      "fr": "TVP",
+      "developpement_fr": "thrombose veineuse profonde",
+      "en": "DVT",
+      "developpement_en": "deep vein thrombosis",
+      "ar": "الخُثار الوريدي العميق",
+      "ar_variantes": [],
+      "definition_fr": "Thrombus dans une veine profonde.",
+      "categorie": "general",
+      "specialites": [
+        "CARD",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10014",
+      "fr": "MTEV",
+      "developpement_fr": "maladie thromboembolique veineuse",
+      "en": "VTE",
+      "developpement_en": "venous thromboembolism",
+      "ar": "الانصمام الخثاري الوريدي",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble TVP et embolie pulmonaire.",
+      "categorie": "general",
+      "specialites": [
+        "CARD",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10015",
+      "fr": "AOMI",
+      "developpement_fr": "artériopathie oblitérante des membres inférieurs",
+      "en": "PAD",
+      "developpement_en": "peripheral artery disease",
+      "ar": "الداء الشرياني الساد للطرفين السفليين",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte athéromateuse obstructive des artères des membres inférieurs.",
+      "categorie": "general",
+      "specialites": [
+        "CARD",
+        "CCVA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10016",
+      "fr": "TA",
+      "developpement_fr": "tension artérielle",
+      "en": "BP",
+      "developpement_en": "blood pressure",
+      "ar": "ضغط الدم",
+      "ar_variantes": [],
+      "definition_fr": "Pression exercée par le sang sur la paroi artérielle (PA, pression artérielle).",
+      "categorie": "general",
+      "specialites": [
+        "CARD",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10017",
+      "fr": "FC",
+      "developpement_fr": "fréquence cardiaque",
+      "en": "HR",
+      "developpement_en": "heart rate",
+      "ar": "معدّل القلب",
+      "ar_variantes": [],
+      "definition_fr": "Nombre de battements cardiaques par minute.",
+      "categorie": "general",
+      "specialites": [
+        "CARD",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10018",
+      "fr": "BPCO",
+      "developpement_fr": "bronchopneumopathie chronique obstructive",
+      "en": "COPD",
+      "developpement_en": "chronic obstructive pulmonary disease",
+      "ar": "الداء الرئوي الساد المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Maladie respiratoire chronique obstructive.",
+      "categorie": "general",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10019",
+      "fr": "SDRA",
+      "developpement_fr": "syndrome de détresse respiratoire aiguë",
+      "en": "ARDS",
+      "developpement_en": "acute respiratory distress syndrome",
+      "ar": "متلازمة الضائقة التنفسية الحادة",
+      "ar_variantes": [],
+      "definition_fr": "Œdème pulmonaire lésionnel hypoxémiant.",
+      "categorie": "general",
+      "specialites": [
+        "PNEU",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10020",
+      "fr": "SAOS",
+      "developpement_fr": "syndrome d'apnées obstructives du sommeil",
+      "en": "OSA",
+      "developpement_en": "obstructive sleep apnea",
+      "ar": "انقطاع النفس الانسدادي النومي",
+      "ar_variantes": [],
+      "definition_fr": "Obstructions répétées des voies aériennes supérieures pendant le sommeil.",
+      "categorie": "general",
+      "specialites": [
+        "PNEU",
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10021",
+      "fr": "EFR",
+      "developpement_fr": "explorations fonctionnelles respiratoires",
+      "en": "PFTs",
+      "developpement_en": "pulmonary function tests",
+      "ar": "اختبارات وظائف الرئة",
+      "ar_variantes": [],
+      "definition_fr": "Mesures des volumes, débits et échanges gazeux pulmonaires.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10022",
+      "fr": "VEMS",
+      "developpement_fr": "volume expiratoire maximal par seconde",
+      "en": "FEV1",
+      "developpement_en": "forced expiratory volume in one second",
+      "ar": "الحجم الزفيري الأقصى في الثانية الأولى",
+      "ar_variantes": [],
+      "definition_fr": "Volume expiré la première seconde d'une expiration forcée.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10023",
+      "fr": "CVF",
+      "developpement_fr": "capacité vitale forcée",
+      "en": "FVC",
+      "developpement_en": "forced vital capacity",
+      "ar": "السعة الحيوية القسرية",
+      "ar_variantes": [],
+      "definition_fr": "Volume total expiré lors d'une expiration forcée.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10024",
+      "fr": "DEP",
+      "developpement_fr": "débit expiratoire de pointe",
+      "en": "PEF",
+      "developpement_en": "peak expiratory flow",
+      "ar": "ذروة الجريان الزفيري",
+      "ar_variantes": [],
+      "definition_fr": "Débit maximal en début d'expiration forcée.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10025",
+      "fr": "GDS",
+      "developpement_fr": "gaz du sang",
+      "en": "ABG",
+      "developpement_en": "arterial blood gas",
+      "ar": "غازات الدم الشرياني",
+      "ar_variantes": [],
+      "definition_fr": "Mesure du pH, de la PaO2, de la PaCO2 et des bicarbonates.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10026",
+      "fr": "SpO2",
+      "developpement_fr": "saturation pulsée en oxygène",
+      "en": "SpO2",
+      "developpement_en": "peripheral oxygen saturation",
+      "ar": "تشبّع الأكسجين النبضي",
+      "ar_variantes": [],
+      "definition_fr": "Saturation de l'hémoglobine en oxygène mesurée par oxymétrie de pouls.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10027",
+      "fr": "IRA",
+      "developpement_fr": "insuffisance rénale aiguë",
+      "en": "AKI",
+      "developpement_en": "acute kidney injury",
+      "ar": "القصور الكلوي الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Altération rapide de la fonction rénale ; IRA désigne aussi l'insuffisance respiratoire aiguë selon le contexte.",
+      "categorie": "general",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10028",
+      "fr": "IRC",
+      "developpement_fr": "insuffisance rénale chronique",
+      "en": "CKD",
+      "developpement_en": "chronic kidney disease",
+      "ar": "القصور الكلوي المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Diminution permanente du débit de filtration glomérulaire.",
+      "categorie": "general",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10029",
+      "fr": "DFG",
+      "developpement_fr": "débit de filtration glomérulaire",
+      "en": "GFR",
+      "developpement_en": "glomerular filtration rate",
+      "ar": "معدّل الترشيح الكبيبي",
+      "ar_variantes": [],
+      "definition_fr": "Volume de filtrat glomérulaire formé par minute.",
+      "categorie": "examen",
+      "specialites": [
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10030",
+      "fr": "NFS",
+      "developpement_fr": "numération formule sanguine",
+      "en": "CBC",
+      "developpement_en": "complete blood count",
+      "ar": "تعداد الدم الكامل",
+      "ar_variantes": [],
+      "definition_fr": "Hémogramme complet.",
+      "categorie": "examen",
+      "specialites": [
+        "HEMA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10031",
+      "fr": "VS",
+      "developpement_fr": "vitesse de sédimentation",
+      "en": "ESR",
+      "developpement_en": "erythrocyte sedimentation rate",
+      "ar": "سرعة تثفّل الكريات الحمر",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur non spécifique d'inflammation.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10032",
+      "fr": "CRP",
+      "developpement_fr": "protéine C réactive",
+      "en": "CRP",
+      "developpement_en": "C-reactive protein",
+      "ar": "البروتين المتفاعل سي",
+      "ar_variantes": [],
+      "definition_fr": "Protéine de l'inflammation aiguë.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10033",
+      "fr": "TP",
+      "developpement_fr": "taux de prothrombine",
+      "en": "PT",
+      "developpement_en": "prothrombin time",
+      "ar": "زمن البروثرومبين",
+      "ar_variantes": [],
+      "definition_fr": "Test de la voie extrinsèque de la coagulation.",
+      "categorie": "examen",
+      "specialites": [
+        "HEMA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10034",
+      "fr": "INR",
+      "developpement_fr": "rapport normalisé international",
+      "en": "INR",
+      "developpement_en": "international normalized ratio",
+      "ar": "النسبة المعيارية الدولية",
+      "ar_variantes": [],
+      "definition_fr": "Expression standardisée du temps de Quick pour la surveillance des AVK.",
+      "categorie": "examen",
+      "specialites": [
+        "HEMA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10035",
+      "fr": "TCA",
+      "developpement_fr": "temps de céphaline activée",
+      "en": "aPTT",
+      "developpement_en": "activated partial thromboplastin time",
+      "ar": "زمن الثرومبوبلاستين الجزئي المنشَّط",
+      "ar_variantes": [],
+      "definition_fr": "Test de la voie intrinsèque de la coagulation.",
+      "categorie": "examen",
+      "specialites": [
+        "HEMA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10036",
+      "fr": "HbA1c",
+      "developpement_fr": "hémoglobine glyquée",
+      "en": "HbA1c",
+      "developpement_en": "glycated hemoglobin",
+      "ar": "الهيموغلوبين الغليكوزيلاتي",
+      "ar_variantes": [],
+      "definition_fr": "Reflet de l'équilibre glycémique sur deux à trois mois.",
+      "categorie": "examen",
+      "specialites": [
+        "DIAB",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10037",
+      "fr": "GAJ",
+      "developpement_fr": "glycémie à jeun",
+      "en": "FPG",
+      "developpement_en": "fasting plasma glucose",
+      "ar": "سكر الدم الصيامي",
+      "ar_variantes": [],
+      "definition_fr": "Glycémie mesurée après au moins huit heures de jeûne.",
+      "categorie": "examen",
+      "specialites": [
+        "DIAB",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10038",
+      "fr": "HGPO",
+      "developpement_fr": "hyperglycémie provoquée par voie orale",
+      "en": "OGTT",
+      "developpement_en": "oral glucose tolerance test",
+      "ar": "اختبار تحمّل الغلوكوز الفموي",
+      "ar_variantes": [],
+      "definition_fr": "Test de charge orale en glucose.",
+      "categorie": "examen",
+      "specialites": [
+        "DIAB",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10039",
+      "fr": "ASAT",
+      "developpement_fr": "aspartate aminotransférase",
+      "en": "AST",
+      "developpement_en": "aspartate aminotransferase",
+      "ar": "ناقلة أمين الأسبارتات",
+      "ar_variantes": [],
+      "definition_fr": "Transaminase hépatique, cardiaque et musculaire.",
+      "categorie": "examen",
+      "specialites": [
+        "HEPA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10040",
+      "fr": "ALAT",
+      "developpement_fr": "alanine aminotransférase",
+      "en": "ALT",
+      "developpement_en": "alanine aminotransferase",
+      "ar": "ناقلة أمين الألانين",
+      "ar_variantes": [],
+      "definition_fr": "Transaminase plus spécifique du foie.",
+      "categorie": "examen",
+      "specialites": [
+        "HEPA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10041",
+      "fr": "GGT",
+      "developpement_fr": "gamma-glutamyl-transférase",
+      "en": "GGT",
+      "developpement_en": "gamma-glutamyl transferase",
+      "ar": "غاما غلوتاميل ترانسفيراز",
+      "ar_variantes": [],
+      "definition_fr": "Enzyme de cholestase et d'induction.",
+      "categorie": "examen",
+      "specialites": [
+        "HEPA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10042",
+      "fr": "PAL",
+      "developpement_fr": "phosphatases alcalines",
+      "en": "ALP",
+      "developpement_en": "alkaline phosphatase",
+      "ar": "الفوسفاتاز القلوية",
+      "ar_variantes": [],
+      "definition_fr": "Enzymes hépatiques et osseuses.",
+      "categorie": "examen",
+      "specialites": [
+        "HEPA",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10043",
+      "fr": "LDH",
+      "developpement_fr": "lactate déshydrogénase",
+      "en": "LDH",
+      "developpement_en": "lactate dehydrogenase",
+      "ar": "نازعة هيدروجين اللاكتات",
+      "ar_variantes": [],
+      "definition_fr": "Enzyme ubiquitaire marqueur de lyse cellulaire.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10044",
+      "fr": "CPK",
+      "developpement_fr": "créatine phosphokinase",
+      "en": "CK",
+      "developpement_en": "creatine kinase",
+      "ar": "كيناز الكرياتين",
+      "ar_variantes": [],
+      "definition_fr": "Enzyme musculaire élevée dans les rhabdomyolyses et myopathies.",
+      "categorie": "examen",
+      "specialites": [
+        "BIOM",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10045",
+      "fr": "BNP",
+      "developpement_fr": "peptide natriurétique de type B",
+      "en": "BNP",
+      "developpement_en": "B-type natriuretic peptide",
+      "ar": "الببتيد المدرّ للصوديوم من النمط ب",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur biologique de l'insuffisance cardiaque.",
+      "categorie": "examen",
+      "specialites": [
+        "CARD",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10046",
+      "fr": "TSH",
+      "developpement_fr": "thyréostimuline",
+      "en": "TSH",
+      "developpement_en": "thyroid-stimulating hormone",
+      "ar": "الهرمون المنبّه للدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Hormone hypophysaire de régulation thyroïdienne.",
+      "categorie": "biologie",
+      "specialites": [
+        "ENDO",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10047",
+      "fr": "ACTH",
+      "developpement_fr": "corticotrophine",
+      "en": "ACTH",
+      "developpement_en": "adrenocorticotropic hormone",
+      "ar": "الهرمون الموجّه لقشر الكظر",
+      "ar_variantes": [],
+      "definition_fr": "Hormone hypophysaire de régulation surrénalienne.",
+      "categorie": "biologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10048",
+      "fr": "PTH",
+      "developpement_fr": "parathormone",
+      "en": "PTH",
+      "developpement_en": "parathyroid hormone",
+      "ar": "هرمون جارات الدرقية",
+      "ar_variantes": [],
+      "definition_fr": "Hormone hypercalcémiante parathyroïdienne.",
+      "categorie": "biologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10049",
+      "fr": "ADH",
+      "developpement_fr": "hormone antidiurétique",
+      "en": "ADH",
+      "developpement_en": "antidiuretic hormone",
+      "ar": "الهرمون المضاد لإدرار البول",
+      "ar_variantes": [],
+      "definition_fr": "Hormone de la réabsorption d'eau.",
+      "categorie": "biologie",
+      "specialites": [
+        "ENDO",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10050",
+      "fr": "GH",
+      "developpement_fr": "hormone de croissance",
+      "en": "GH",
+      "developpement_en": "growth hormone",
+      "ar": "هرمون النموّ",
+      "ar_variantes": [],
+      "definition_fr": "Hormone somatotrope antéhypophysaire.",
+      "categorie": "biologie",
+      "specialites": [
+        "ENDO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10051",
+      "fr": "PSA",
+      "developpement_fr": "antigène spécifique de la prostate",
+      "en": "PSA",
+      "developpement_en": "prostate-specific antigen",
+      "ar": "المستضد النوعي للموثة",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur sérique prostatique.",
+      "categorie": "examen",
+      "specialites": [
+        "UROL",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10052",
+      "fr": "ACE",
+      "developpement_fr": "antigène carcino-embryonnaire",
+      "en": "CEA",
+      "developpement_en": "carcinoembryonic antigen",
+      "ar": "المستضد السرطاني المضغي",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur de suivi des cancers colorectaux.",
+      "categorie": "examen",
+      "specialites": [
+        "ONCO",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10053",
+      "fr": "AFP",
+      "developpement_fr": "alpha-fœtoprotéine",
+      "en": "AFP",
+      "developpement_en": "alpha-fetoprotein",
+      "ar": "البروتين الجنيني ألفا",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur du carcinome hépatocellulaire et des tumeurs germinales.",
+      "categorie": "examen",
+      "specialites": [
+        "ONCO",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10054",
+      "fr": "hCG",
+      "developpement_fr": "hormone chorionique gonadotrope humaine",
+      "en": "hCG",
+      "developpement_en": "human chorionic gonadotropin",
+      "ar": "موجِّهة الغدد التناسلية المشيمائية البشرية",
+      "ar_variantes": [],
+      "definition_fr": "Hormone placentaire, marqueur de grossesse.",
+      "categorie": "biologie",
+      "specialites": [
+        "OBST",
+        "BIOM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10055",
+      "fr": "ECBU",
+      "developpement_fr": "examen cytobactériologique des urines",
+      "en": "UA/UC",
+      "developpement_en": "urinalysis and urine culture",
+      "ar": "الفحص الخلوي الجرثومي للبول",
+      "ar_variantes": [],
+      "definition_fr": "Analyse cytologique et culture des urines.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "NEPH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10056",
+      "fr": "LCR",
+      "developpement_fr": "liquide céphalo-rachidien",
+      "en": "CSF",
+      "developpement_en": "cerebrospinal fluid",
+      "ar": "السائل الدماغي الشوكي",
+      "ar_variantes": [],
+      "definition_fr": "Liquide entourant l'encéphale et la moelle (liquide cérébro-spinal).",
+      "categorie": "anatomie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10057",
+      "fr": "PL",
+      "developpement_fr": "ponction lombaire",
+      "en": "LP",
+      "developpement_en": "lumbar puncture",
+      "ar": "البزل القطني",
+      "ar_variantes": [],
+      "definition_fr": "Prélèvement de liquide cérébro-spinal par voie lombaire.",
+      "categorie": "examen",
+      "specialites": [
+        "NEUR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10058",
+      "fr": "IDR",
+      "developpement_fr": "intradermoréaction à la tuberculine",
+      "en": "TST",
+      "developpement_en": "tuberculin skin test",
+      "ar": "اختبار التوبركولين داخل الأدمة",
+      "ar_variantes": [],
+      "definition_fr": "Test cutané d'hypersensibilité retardée aux antigènes tuberculeux.",
+      "categorie": "examen",
+      "specialites": [
+        "PNEU",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10059",
+      "fr": "BK",
+      "developpement_fr": "bacille de Koch",
+      "en": "MTB",
+      "developpement_en": "Mycobacterium tuberculosis",
+      "ar": "المتفطّرة السلّية",
+      "ar_variantes": [
+        "عصيّة كوخ"
+      ],
+      "definition_fr": "Agent de la tuberculose.",
+      "categorie": "biologie",
+      "specialites": [
+        "PNEU",
+        "INFE",
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10060",
+      "fr": "BAAR",
+      "developpement_fr": "bacilles acido-alcoolo-résistants",
+      "en": "AFB",
+      "developpement_en": "acid-fast bacilli",
+      "ar": "العُصيّات الصامدة للحمض والكحول",
+      "ar_variantes": [],
+      "definition_fr": "Bacilles retenant la fuchsine après décoloration acide et alcoolique (mycobactéries).",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10061",
+      "fr": "VIH",
+      "developpement_fr": "virus de l'immunodéficience humaine",
+      "en": "HIV",
+      "developpement_en": "human immunodeficiency virus",
+      "ar": "فيروس العوز المناعي البشري",
+      "ar_variantes": [],
+      "definition_fr": "Rétrovirus responsable du sida.",
+      "categorie": "biologie",
+      "specialites": [
+        "INFE",
+        "MICR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10062",
+      "fr": "SIDA",
+      "developpement_fr": "syndrome d'immunodéficience acquise",
+      "en": "AIDS",
+      "developpement_en": "acquired immunodeficiency syndrome",
+      "ar": "متلازمة العوز المناعي المكتسب",
+      "ar_variantes": [
+        "الإيدز",
+        "السيدا"
+      ],
+      "definition_fr": "Stade avancé de l'infection à VIH.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10063",
+      "fr": "VHB",
+      "developpement_fr": "virus de l'hépatite B",
+      "en": "HBV",
+      "developpement_en": "hepatitis B virus",
+      "ar": "فيروس التهاب الكبد ب",
+      "ar_variantes": [],
+      "definition_fr": "Virus de l'hépatite B.",
+      "categorie": "biologie",
+      "specialites": [
+        "HEPA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10064",
+      "fr": "VHC",
+      "developpement_fr": "virus de l'hépatite C",
+      "en": "HCV",
+      "developpement_en": "hepatitis C virus",
+      "ar": "فيروس التهاب الكبد ج",
+      "ar_variantes": [],
+      "definition_fr": "Virus de l'hépatite C.",
+      "categorie": "biologie",
+      "specialites": [
+        "HEPA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10065",
+      "fr": "AgHBs",
+      "developpement_fr": "antigène de surface du virus de l'hépatite B",
+      "en": "HBsAg",
+      "developpement_en": "hepatitis B surface antigen",
+      "ar": "المستضد السطحي لفيروس التهاب الكبد ب",
+      "ar_variantes": [],
+      "definition_fr": "Marqueur sérologique de l'infection par le VHB.",
+      "categorie": "examen",
+      "specialites": [
+        "HEPA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10066",
+      "fr": "IST",
+      "developpement_fr": "infection sexuellement transmissible",
+      "en": "STI",
+      "developpement_en": "sexually transmitted infection",
+      "ar": "العدوى المنقولة جنسيّاً",
+      "ar_variantes": [],
+      "definition_fr": "Infection transmise lors des rapports sexuels.",
+      "categorie": "pathologie",
+      "specialites": [
+        "INFE",
+        "DERM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10067",
+      "fr": "IU",
+      "developpement_fr": "infection urinaire",
+      "en": "UTI",
+      "developpement_en": "urinary tract infection",
+      "ar": "عدوى المسالك البولية",
+      "ar_variantes": [],
+      "definition_fr": "Infection de l'arbre urinaire.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10068",
+      "fr": "PNA",
+      "developpement_fr": "pyélonéphrite aiguë",
+      "en": "APN",
+      "developpement_en": "acute pyelonephritis",
+      "ar": "التهاب الحويضة والكلية الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Infection du parenchyme rénal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEPH",
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10069",
+      "fr": "SARM",
+      "developpement_fr": "Staphylococcus aureus résistant à la méticilline",
+      "en": "MRSA",
+      "developpement_en": "methicillin-resistant Staphylococcus aureus",
+      "ar": "العنقودية الذهبية المقاومة للميثيسيلين",
+      "ar_variantes": [],
+      "definition_fr": "Staphylocoque doré multirésistant.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10070",
+      "fr": "BMR",
+      "developpement_fr": "bactérie multirésistante",
+      "en": "MDRO",
+      "developpement_en": "multidrug-resistant organism",
+      "ar": "الجرثومة متعددة المقاومة",
+      "ar_variantes": [],
+      "definition_fr": "Bactérie résistante à plusieurs familles d'antibiotiques.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10071",
+      "fr": "BLSE",
+      "developpement_fr": "bêta-lactamase à spectre étendu",
+      "en": "ESBL",
+      "developpement_en": "extended-spectrum beta-lactamase",
+      "ar": "البيتالاكتاماز واسعة الطيف",
+      "ar_variantes": [],
+      "definition_fr": "Enzyme conférant la résistance aux céphalosporines de troisième génération.",
+      "categorie": "biologie",
+      "specialites": [
+        "MICR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10072",
+      "fr": "IAS",
+      "developpement_fr": "infection associée aux soins",
+      "en": "HAI",
+      "developpement_en": "healthcare-associated infection",
+      "ar": "العدوى المرتبطة بالرعاية الصحية",
+      "ar_variantes": [],
+      "definition_fr": "Infection acquise au cours d'une prise en charge.",
+      "categorie": "pathologie",
+      "specialites": [
+        "EPID",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10073",
+      "fr": "CMI",
+      "developpement_fr": "concentration minimale inhibitrice",
+      "en": "MIC",
+      "developpement_en": "minimum inhibitory concentration",
+      "ar": "التركيز المثبّط الأدنى",
+      "ar_variantes": [],
+      "definition_fr": "Plus faible concentration d'antibiotique inhibant la croissance bactérienne.",
+      "categorie": "examen",
+      "specialites": [
+        "MICR",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10074",
+      "fr": "ATB",
+      "developpement_fr": "antibiotique",
+      "en": "ABX",
+      "developpement_en": "antibiotic",
+      "ar": "المضادّ الحيوي",
+      "ar_variantes": [],
+      "definition_fr": "Médicament antibactérien.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10075",
+      "fr": "AINS",
+      "developpement_fr": "anti-inflammatoire non stéroïdien",
+      "en": "NSAID",
+      "developpement_en": "nonsteroidal anti-inflammatory drug",
+      "ar": "مضادّ الالتهاب غير الستيرويدي",
+      "ar_variantes": [],
+      "definition_fr": "Inhibiteur des cyclo-oxygénases.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10076",
+      "fr": "IEC",
+      "developpement_fr": "inhibiteur de l'enzyme de conversion",
+      "en": "ACEI",
+      "developpement_en": "angiotensin-converting enzyme inhibitor",
+      "ar": "مثبّط الإنزيم المحوِّل للأنجيوتنسين",
+      "ar_variantes": [],
+      "definition_fr": "Antihypertenseur du système rénine-angiotensine.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10077",
+      "fr": "ARA II",
+      "developpement_fr": "antagoniste des récepteurs de l'angiotensine II",
+      "en": "ARB",
+      "developpement_en": "angiotensin II receptor blocker",
+      "ar": "حاصر مستقبلات الأنجيوتنسين الثاني",
+      "ar_variantes": [],
+      "definition_fr": "Antihypertenseur de type sartan.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "CARD"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10078",
+      "fr": "AVK",
+      "developpement_fr": "antivitamine K",
+      "en": "VKA",
+      "developpement_en": "vitamin K antagonist",
+      "ar": "مضادّ فيتامين ك",
+      "ar_variantes": [],
+      "definition_fr": "Anticoagulant oral surveillé par l'INR.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10079",
+      "fr": "AOD",
+      "developpement_fr": "anticoagulant oral direct",
+      "en": "DOAC",
+      "developpement_en": "direct oral anticoagulant",
+      "ar": "مضادّ التخثّر الفموي المباشر",
+      "ar_variantes": [],
+      "definition_fr": "Anti-Xa ou antithrombine direct oral.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10080",
+      "fr": "HBPM",
+      "developpement_fr": "héparine de bas poids moléculaire",
+      "en": "LMWH",
+      "developpement_en": "low-molecular-weight heparin",
+      "ar": "الهيبارين منخفض الوزن الجزيئي",
+      "ar_variantes": [],
+      "definition_fr": "Héparine fractionnée sous-cutanée.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10081",
+      "fr": "HNF",
+      "developpement_fr": "héparine non fractionnée",
+      "en": "UFH",
+      "developpement_en": "unfractionated heparin",
+      "ar": "الهيبارين غير المجزّأ",
+      "ar_variantes": [],
+      "definition_fr": "Héparine standard surveillée par le TCA ou l'anti-Xa.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10082",
+      "fr": "IPP",
+      "developpement_fr": "inhibiteur de la pompe à protons",
+      "en": "PPI",
+      "developpement_en": "proton pump inhibitor",
+      "ar": "مثبّط مضخة البروتون",
+      "ar_variantes": [],
+      "definition_fr": "Antisécrétoire gastrique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10083",
+      "fr": "ISRS",
+      "developpement_fr": "inhibiteur sélectif de la recapture de la sérotonine",
+      "en": "SSRI",
+      "developpement_en": "selective serotonin reuptake inhibitor",
+      "ar": "مثبّط استرداد السيروتونين الانتقائي",
+      "ar_variantes": [],
+      "definition_fr": "Antidépresseur sérotoninergique.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10084",
+      "fr": "ADO",
+      "developpement_fr": "antidiabétique oral",
+      "en": "OAD",
+      "developpement_en": "oral antidiabetic drug",
+      "ar": "مضادّ السكري الفموي",
+      "ar_variantes": [],
+      "definition_fr": "Médicament oral du diabète de type 2.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "PHAR",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10085",
+      "fr": "DCI",
+      "developpement_fr": "dénomination commune internationale",
+      "en": "INN",
+      "developpement_en": "international nonproprietary name",
+      "ar": "الاسم الدولي غير المسجَّل الملكية",
+      "ar_variantes": [],
+      "definition_fr": "Nom générique OMS d'une substance active.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10086",
+      "fr": "AMM",
+      "developpement_fr": "autorisation de mise sur le marché",
+      "en": "MA",
+      "developpement_en": "marketing authorization",
+      "ar": "ترخيص التسويق",
+      "ar_variantes": [],
+      "definition_fr": "Autorisation administrative de commercialisation d'un médicament.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10087",
+      "fr": "RCP",
+      "developpement_fr": "résumé des caractéristiques du produit",
+      "en": "SmPC",
+      "developpement_en": "summary of product characteristics",
+      "ar": "ملخّص خصائص المنتج",
+      "ar_variantes": [],
+      "definition_fr": "Document officiel décrivant les propriétés et conditions d'utilisation d'un médicament.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10088",
+      "fr": "PO",
+      "developpement_fr": "per os",
+      "en": "PO",
+      "developpement_en": "by mouth",
+      "ar": "عن طريق الفم",
+      "ar_variantes": [],
+      "definition_fr": "Administration par voie orale.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10089",
+      "fr": "IV",
+      "developpement_fr": "intraveineux",
+      "en": "IV",
+      "developpement_en": "intravenous",
+      "ar": "وريدي",
+      "ar_variantes": [],
+      "definition_fr": "Administration par voie intraveineuse.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10090",
+      "fr": "IM",
+      "developpement_fr": "intramusculaire",
+      "en": "IM",
+      "developpement_en": "intramuscular",
+      "ar": "عضلي",
+      "ar_variantes": [],
+      "definition_fr": "Administration par voie intramusculaire.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10091",
+      "fr": "SC",
+      "developpement_fr": "sous-cutané",
+      "en": "SC",
+      "developpement_en": "subcutaneous",
+      "ar": "تحت الجلد",
+      "ar_variantes": [],
+      "definition_fr": "Administration par voie sous-cutanée.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10092",
+      "fr": "cp",
+      "developpement_fr": "comprimé",
+      "en": "tab",
+      "developpement_en": "tablet",
+      "ar": "القُرص",
+      "ar_variantes": [
+        "الحبة"
+      ],
+      "definition_fr": "Forme galénique solide dosée.",
+      "categorie": "general",
+      "specialites": [
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10093",
+      "fr": "AEG",
+      "developpement_fr": "altération de l'état général",
+      "en": "general deterioration",
+      "developpement_en": "general health deterioration",
+      "ar": "تدهور الحالة العامة",
+      "ar_variantes": [],
+      "definition_fr": "Association d'asthénie, d'anorexie et d'amaigrissement.",
+      "categorie": "general",
+      "specialites": [
+        "MINT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10094",
+      "fr": "ATCD",
+      "developpement_fr": "antécédents",
+      "en": "PMH",
+      "developpement_en": "past medical history",
+      "ar": "السوابق المرضية",
+      "ar_variantes": [],
+      "definition_fr": "Événements de santé passés du patient et de sa famille.",
+      "categorie": "general",
+      "specialites": [
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10095",
+      "fr": "CAT",
+      "developpement_fr": "conduite à tenir",
+      "en": "management",
+      "developpement_en": "management plan",
+      "ar": "خطة التدبير",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des décisions diagnostiques et thérapeutiques face à une situation.",
+      "categorie": "general",
+      "specialites": [
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10096",
+      "fr": "RAS",
+      "developpement_fr": "rien à signaler",
+      "en": "NAD",
+      "developpement_en": "nothing abnormal detected",
+      "ar": "لا شيء يُذكر",
+      "ar_variantes": [],
+      "definition_fr": "Absence d'anomalie à l'examen.",
+      "categorie": "general",
+      "specialites": [
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10097",
+      "fr": "FR",
+      "developpement_fr": "fréquence respiratoire",
+      "en": "RR",
+      "developpement_en": "respiratory rate",
+      "ar": "معدّل التنفّس",
+      "ar_variantes": [],
+      "definition_fr": "Nombre de cycles respiratoires par minute.",
+      "categorie": "general",
+      "specialites": [
+        "PNEU",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10098",
+      "fr": "IMC",
+      "developpement_fr": "indice de masse corporelle",
+      "en": "BMI",
+      "developpement_en": "body mass index",
+      "ar": "منسب كتلة الجسم",
+      "ar_variantes": [
+        "مؤشر كتلة الجسم"
+      ],
+      "definition_fr": "Poids divisé par le carré de la taille.",
+      "categorie": "examen",
+      "specialites": [
+        "ENDO",
+        "MFAM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10099",
+      "fr": "SA",
+      "developpement_fr": "semaines d'aménorrhée",
+      "en": "GA",
+      "developpement_en": "gestational age (weeks)",
+      "ar": "أسابيع انقطاع الطمث",
+      "ar_variantes": [],
+      "definition_fr": "Unité de datation de la grossesse comptée depuis le premier jour des dernières règles.",
+      "categorie": "general",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10100",
+      "fr": "DDR",
+      "developpement_fr": "date des dernières règles",
+      "en": "LMP",
+      "developpement_en": "last menstrual period",
+      "ar": "تاريخ آخر طمث",
+      "ar_variantes": [],
+      "definition_fr": "Date du premier jour des dernières règles.",
+      "categorie": "general",
+      "specialites": [
+        "OBST",
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10101",
+      "fr": "HRP",
+      "developpement_fr": "hématome rétroplacentaire",
+      "en": "placental abruption",
+      "developpement_en": "placental abruption",
+      "ar": "انفصال المشيمة الباكر",
+      "ar_variantes": [],
+      "definition_fr": "Décollement prématuré du placenta normalement inséré.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10102",
+      "fr": "RPM",
+      "developpement_fr": "rupture prématurée des membranes",
+      "en": "PROM",
+      "developpement_en": "premature rupture of membranes",
+      "ar": "تمزّق الأغشية الباكر",
+      "ar_variantes": [],
+      "definition_fr": "Rupture de la poche des eaux avant le travail.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10103",
+      "fr": "MAP",
+      "developpement_fr": "menace d'accouchement prématuré",
+      "en": "TPL",
+      "developpement_en": "threatened preterm labor",
+      "ar": "خطر الولادة المبكرة",
+      "ar_variantes": [],
+      "definition_fr": "Contractions avec modifications cervicales avant terme.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10104",
+      "fr": "RCIU",
+      "developpement_fr": "retard de croissance intra-utérin",
+      "en": "FGR",
+      "developpement_en": "fetal growth restriction",
+      "ar": "تأخّر النموّ داخل الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Croissance fœtale insuffisante.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10105",
+      "fr": "GEU",
+      "developpement_fr": "grossesse extra-utérine",
+      "en": "EP",
+      "developpement_en": "ectopic pregnancy",
+      "ar": "الحمل المُنتبِذ",
+      "ar_variantes": [
+        "الحمل خارج الرحم"
+      ],
+      "definition_fr": "Grossesse implantée hors de la cavité utérine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GYNE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10106",
+      "fr": "DG",
+      "developpement_fr": "diabète gestationnel",
+      "en": "GDM",
+      "developpement_en": "gestational diabetes mellitus",
+      "ar": "سكّري الحمل",
+      "ar_variantes": [],
+      "definition_fr": "Trouble glucidique découvert pendant la grossesse.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OBST",
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10107",
+      "fr": "FCU",
+      "developpement_fr": "frottis cervico-utérin",
+      "en": "Pap smear",
+      "developpement_en": "Papanicolaou smear",
+      "ar": "لُطاخة عنق الرحم",
+      "ar_variantes": [],
+      "definition_fr": "Prélèvement cytologique du col utérin.",
+      "categorie": "examen",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10108",
+      "fr": "DIU",
+      "developpement_fr": "dispositif intra-utérin",
+      "en": "IUD",
+      "developpement_en": "intrauterine device",
+      "ar": "اللولب الرحمي",
+      "ar_variantes": [],
+      "definition_fr": "Contraceptif intra-utérin.",
+      "categorie": "traitement",
+      "specialites": [
+        "GYNE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10109",
+      "fr": "IVG",
+      "developpement_fr": "interruption volontaire de grossesse",
+      "en": "TOP",
+      "developpement_en": "termination of pregnancy",
+      "ar": "الإنهاء الإرادي للحمل",
+      "ar_variantes": [],
+      "definition_fr": "Interruption de grossesse pratiquée à la demande, dans le cadre légal applicable.",
+      "categorie": "traitement",
+      "specialites": [
+        "GYNE",
+        "MLEG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10110",
+      "fr": "PEV",
+      "developpement_fr": "programme élargi de vaccination",
+      "en": "EPI",
+      "developpement_en": "Expanded Programme on Immunization",
+      "ar": "البرنامج الموسّع للتمنيع",
+      "ar_variantes": [],
+      "definition_fr": "Programme national de vaccination systématique de l'enfant.",
+      "categorie": "general",
+      "specialites": [
+        "SPUB",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10111",
+      "fr": "BCG",
+      "developpement_fr": "bacille de Calmette et Guérin",
+      "en": "BCG",
+      "developpement_en": "bacillus Calmette-Guérin",
+      "ar": "عصيّة كالميت غيران",
+      "ar_variantes": [
+        "لقاح السل"
+      ],
+      "definition_fr": "Vaccin vivant atténué contre la tuberculose.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "SPUB",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10112",
+      "fr": "DTC",
+      "developpement_fr": "diphtérie-tétanos-coqueluche",
+      "en": "DTP",
+      "developpement_en": "diphtheria-tetanus-pertussis",
+      "ar": "الخناق والكزاز والشاهوق",
+      "ar_variantes": [],
+      "definition_fr": "Vaccin combiné de l'enfant.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "SPUB",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10113",
+      "fr": "ROR",
+      "developpement_fr": "rougeole-oreillons-rubéole",
+      "en": "MMR",
+      "developpement_en": "measles-mumps-rubella",
+      "ar": "الحصبة والنكاف والحصبة الألمانية",
+      "ar_variantes": [],
+      "definition_fr": "Vaccin vivant combiné.",
+      "categorie": "pharmacologie",
+      "specialites": [
+        "SPUB",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10114",
+      "fr": "PMI",
+      "developpement_fr": "protection maternelle et infantile",
+      "en": "MCH",
+      "developpement_en": "maternal and child health",
+      "ar": "حماية الأمومة والطفولة",
+      "ar_variantes": [],
+      "definition_fr": "Ensemble des actions de santé destinées aux mères et aux enfants.",
+      "categorie": "general",
+      "specialites": [
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10115",
+      "fr": "MDO",
+      "developpement_fr": "maladie à déclaration obligatoire",
+      "en": "notifiable disease",
+      "developpement_en": "notifiable disease",
+      "ar": "المرض الواجب التبليغ عنه",
+      "ar_variantes": [
+        "الأمراض ذات التصريح الإجباري"
+      ],
+      "definition_fr": "Maladie devant être signalée aux autorités sanitaires.",
+      "categorie": "general",
+      "specialites": [
+        "EPID",
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10116",
+      "fr": "OMS",
+      "developpement_fr": "Organisation mondiale de la santé",
+      "en": "WHO",
+      "developpement_en": "World Health Organization",
+      "ar": "منظمة الصحة العالمية",
+      "ar_variantes": [],
+      "definition_fr": "Institution spécialisée des Nations unies pour la santé.",
+      "categorie": "general",
+      "specialites": [
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10117",
+      "fr": "INSP",
+      "developpement_fr": "Institut national de santé publique",
+      "en": "INSP",
+      "developpement_en": "National Institute of Public Health (Algeria)",
+      "ar": "المعهد الوطني للصحة العمومية",
+      "ar_variantes": [],
+      "definition_fr": "Organisme algérien de référence en santé publique et en surveillance épidémiologique.",
+      "categorie": "general",
+      "specialites": [
+        "SPUB",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10118",
+      "fr": "CHU",
+      "developpement_fr": "centre hospitalo-universitaire",
+      "en": "UH",
+      "developpement_en": "university hospital",
+      "ar": "المركز الاستشفائي الجامعي",
+      "ar_variantes": [],
+      "definition_fr": "Établissement associant soins, enseignement et recherche.",
+      "categorie": "general",
+      "specialites": [
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10119",
+      "fr": "EPH",
+      "developpement_fr": "établissement public hospitalier",
+      "en": "public hospital",
+      "developpement_en": "public hospital",
+      "ar": "المؤسسة العمومية الاستشفائية",
+      "ar_variantes": [],
+      "definition_fr": "Hôpital public du système de santé algérien.",
+      "categorie": "general",
+      "specialites": [
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10120",
+      "fr": "EPSP",
+      "developpement_fr": "établissement public de santé de proximité",
+      "en": "primary care facility",
+      "developpement_en": "local public health facility",
+      "ar": "المؤسسة العمومية للصحة الجوارية",
+      "ar_variantes": [],
+      "definition_fr": "Structure algérienne de soins de base.",
+      "categorie": "general",
+      "specialites": [
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10121",
+      "fr": "SAMU",
+      "developpement_fr": "service d'aide médicale urgente",
+      "en": "EMS",
+      "developpement_en": "emergency medical services",
+      "ar": "خدمة المساعدة الطبية المستعجلة",
+      "ar_variantes": [],
+      "definition_fr": "Service de régulation et de prise en charge préhospitalière des urgences.",
+      "categorie": "general",
+      "specialites": [
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10122",
+      "fr": "USI",
+      "developpement_fr": "unité de soins intensifs",
+      "en": "ICU",
+      "developpement_en": "intensive care unit",
+      "ar": "وحدة العناية المركزة",
+      "ar_variantes": [],
+      "definition_fr": "Service de surveillance et de traitement des défaillances d'organes.",
+      "categorie": "general",
+      "specialites": [
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10123",
+      "fr": "AG",
+      "developpement_fr": "anesthésie générale",
+      "en": "GA",
+      "developpement_en": "general anesthesia",
+      "ar": "التخدير العام",
+      "ar_variantes": [],
+      "definition_fr": "Perte de conscience réversible induite pour un acte.",
+      "categorie": "traitement",
+      "specialites": [
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10124",
+      "fr": "ALR",
+      "developpement_fr": "anesthésie locorégionale",
+      "en": "RA",
+      "developpement_en": "regional anesthesia",
+      "ar": "التخدير الناحي",
+      "ar_variantes": [],
+      "definition_fr": "Anesthésie par blocage nerveux d'une région.",
+      "categorie": "traitement",
+      "specialites": [
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10125",
+      "fr": "VNI",
+      "developpement_fr": "ventilation non invasive",
+      "en": "NIV",
+      "developpement_en": "noninvasive ventilation",
+      "ar": "التهوية غير الباضعة",
+      "ar_variantes": [],
+      "definition_fr": "Ventilation mécanique au masque.",
+      "categorie": "traitement",
+      "specialites": [
+        "MINT_REA",
+        "PNEU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10126",
+      "fr": "IOT",
+      "developpement_fr": "intubation orotrachéale",
+      "en": "ETI",
+      "developpement_en": "endotracheal intubation",
+      "ar": "التنبيب الرغامي الفموي",
+      "ar_variantes": [],
+      "definition_fr": "Mise en place d'une sonde trachéale par la bouche.",
+      "categorie": "traitement",
+      "specialites": [
+        "ANES",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10127",
+      "fr": "VVP",
+      "developpement_fr": "voie veineuse périphérique",
+      "en": "PIV",
+      "developpement_en": "peripheral intravenous line",
+      "ar": "الخط الوريدي المحيطي",
+      "ar_variantes": [],
+      "definition_fr": "Cathéter court dans une veine superficielle.",
+      "categorie": "traitement",
+      "specialites": [
+        "URGE",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10128",
+      "fr": "VVC",
+      "developpement_fr": "voie veineuse centrale",
+      "en": "CVC",
+      "developpement_en": "central venous catheter",
+      "ar": "القِثطار الوريدي المركزي",
+      "ar_variantes": [],
+      "definition_fr": "Cathéter placé dans une veine centrale.",
+      "categorie": "traitement",
+      "specialites": [
+        "MINT_REA",
+        "ANES"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10129",
+      "fr": "SNG",
+      "developpement_fr": "sonde nasogastrique",
+      "en": "NGT",
+      "developpement_en": "nasogastric tube",
+      "ar": "الأنبوب الأنفي المعدي",
+      "ar_variantes": [],
+      "definition_fr": "Sonde introduite par le nez jusqu'à l'estomac.",
+      "categorie": "traitement",
+      "specialites": [
+        "CGEN",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10130",
+      "fr": "CGR",
+      "developpement_fr": "concentré de globules rouges",
+      "en": "PRBC",
+      "developpement_en": "packed red blood cells",
+      "ar": "مركّز الكريات الحمر",
+      "ar_variantes": [],
+      "definition_fr": "Produit sanguin labile érythrocytaire.",
+      "categorie": "traitement",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10131",
+      "fr": "PFC",
+      "developpement_fr": "plasma frais congelé",
+      "en": "FFP",
+      "developpement_en": "fresh frozen plasma",
+      "ar": "البلازما الطازجة المجمّدة",
+      "ar_variantes": [],
+      "definition_fr": "Produit sanguin labile plasmatique.",
+      "categorie": "traitement",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10132",
+      "fr": "TDM",
+      "developpement_fr": "tomodensitométrie",
+      "en": "CT",
+      "developpement_en": "computed tomography",
+      "ar": "التصوير المقطعي المحوسب",
+      "ar_variantes": [
+        "السكانير"
+      ],
+      "definition_fr": "Imagerie en coupes par rayons X.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10133",
+      "fr": "IRM",
+      "developpement_fr": "imagerie par résonance magnétique",
+      "en": "MRI",
+      "developpement_en": "magnetic resonance imaging",
+      "ar": "التصوير بالرنين المغناطيسي",
+      "ar_variantes": [],
+      "definition_fr": "Imagerie en coupes non irradiante.",
+      "categorie": "examen",
+      "specialites": [
+        "IMAG",
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10134",
+      "fr": "ASP",
+      "developpement_fr": "abdomen sans préparation",
+      "en": "AXR",
+      "developpement_en": "abdominal X-ray",
+      "ar": "الصورة الشعاعية البسيطة للبطن",
+      "ar_variantes": [],
+      "definition_fr": "Radiographie de l'abdomen sans contraste.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10135",
+      "fr": "Rx",
+      "developpement_fr": "radiographie",
+      "en": "X-ray",
+      "developpement_en": "radiograph",
+      "ar": "التصوير الشعاعي",
+      "ar_variantes": [],
+      "definition_fr": "Image obtenue par rayons X.",
+      "categorie": "examen",
+      "specialites": [
+        "RADI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10136",
+      "fr": "FOGD",
+      "developpement_fr": "fibroscopie œso-gastro-duodénale",
+      "en": "EGD",
+      "developpement_en": "esophagogastroduodenoscopy",
+      "ar": "تنظير المريء والمعدة والعفج",
+      "ar_variantes": [],
+      "definition_fr": "Endoscopie digestive haute.",
+      "categorie": "examen",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10137",
+      "fr": "CPRE",
+      "developpement_fr": "cholangiopancréatographie rétrograde endoscopique",
+      "en": "ERCP",
+      "developpement_en": "endoscopic retrograde cholangiopancreatography",
+      "ar": "تصوير القنوات الصفراوية والبنكرياسية بالتنظير الراجع",
+      "ar_variantes": [],
+      "definition_fr": "Opacification endoscopique biliopancréatique.",
+      "categorie": "examen",
+      "specialites": [
+        "GAST",
+        "CDIG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10138",
+      "fr": "TEP",
+      "developpement_fr": "tomographie par émission de positons",
+      "en": "PET",
+      "developpement_en": "positron emission tomography",
+      "ar": "التصوير المقطعي بالإصدار البوزيتروني",
+      "ar_variantes": [],
+      "definition_fr": "Imagerie métabolique de médecine nucléaire.",
+      "categorie": "examen",
+      "specialites": [
+        "MNUC",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10139",
+      "fr": "EEG",
+      "developpement_fr": "électroencéphalogramme",
+      "en": "EEG",
+      "developpement_en": "electroencephalogram",
+      "ar": "مخطط كهربية الدماغ",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement de l'activité électrique cérébrale.",
+      "categorie": "examen",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10140",
+      "fr": "EMG",
+      "developpement_fr": "électromyogramme",
+      "en": "EMG",
+      "developpement_en": "electromyogram",
+      "ar": "مخطط كهربية العضل",
+      "ar_variantes": [],
+      "definition_fr": "Enregistrement de l'activité électrique neuromusculaire.",
+      "categorie": "examen",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10141",
+      "fr": "SEP",
+      "developpement_fr": "sclérose en plaques",
+      "en": "MS",
+      "developpement_en": "multiple sclerosis",
+      "ar": "التصلّب المتعدّد",
+      "ar_variantes": [],
+      "definition_fr": "Maladie démyélinisante du système nerveux central.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10142",
+      "fr": "SLA",
+      "developpement_fr": "sclérose latérale amyotrophique",
+      "en": "ALS",
+      "developpement_en": "amyotrophic lateral sclerosis",
+      "ar": "التصلّب الجانبي الضموري",
+      "ar_variantes": [],
+      "definition_fr": "Maladie dégénérative des motoneurones.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10143",
+      "fr": "HTIC",
+      "developpement_fr": "hypertension intracrânienne",
+      "en": "raised ICP",
+      "developpement_en": "raised intracranial pressure",
+      "ar": "فرط الضغط داخل القحف",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de la pression intracrânienne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "NEUR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10144",
+      "fr": "TC",
+      "developpement_fr": "traumatisme crânien",
+      "en": "TBI",
+      "developpement_en": "traumatic brain injury",
+      "ar": "رضح الرأس",
+      "ar_variantes": [],
+      "definition_fr": "Lésion traumatique de l'encéphale ou du crâne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "NCHI",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10145",
+      "fr": "PR",
+      "developpement_fr": "polyarthrite rhumatoïde",
+      "en": "RA",
+      "developpement_en": "rheumatoid arthritis",
+      "ar": "التهاب المفاصل الرثياني",
+      "ar_variantes": [],
+      "definition_fr": "Rhumatisme inflammatoire chronique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10146",
+      "fr": "SpA",
+      "developpement_fr": "spondyloarthrite",
+      "en": "SpA",
+      "developpement_en": "spondyloarthritis",
+      "ar": "التهاب الفقار",
+      "ar_variantes": [],
+      "definition_fr": "Groupe de rhumatismes inflammatoires axiaux et enthésitiques.",
+      "categorie": "pathologie",
+      "specialites": [
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10147",
+      "fr": "LES",
+      "developpement_fr": "lupus érythémateux systémique",
+      "en": "SLE",
+      "developpement_en": "systemic lupus erythematosus",
+      "ar": "الذئبة الحمامية الجهازية",
+      "ar_variantes": [],
+      "definition_fr": "Connectivite auto-immune multisystémique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "RHUM"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10148",
+      "fr": "SAPL",
+      "developpement_fr": "syndrome des antiphospholipides",
+      "en": "APS",
+      "developpement_en": "antiphospholipid syndrome",
+      "ar": "متلازمة أضداد الشحميات الفوسفورية",
+      "ar_variantes": [],
+      "definition_fr": "Thromboses avec anticorps antiphospholipides.",
+      "categorie": "pathologie",
+      "specialites": [
+        "MINT",
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10149",
+      "fr": "AAN",
+      "developpement_fr": "anticorps antinucléaires",
+      "en": "ANA",
+      "developpement_en": "antinuclear antibodies",
+      "ar": "الأضداد المضادة للنوى",
+      "ar_variantes": [],
+      "definition_fr": "Autoanticorps des connectivites.",
+      "categorie": "examen",
+      "specialites": [
+        "MINT",
+        "IMMU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10150",
+      "fr": "PTI",
+      "developpement_fr": "purpura thrombopénique immunologique",
+      "en": "ITP",
+      "developpement_en": "immune thrombocytopenia",
+      "ar": "الفُرفُرية قليلة الصفيحات المناعية",
+      "ar_variantes": [],
+      "definition_fr": "Thrombopénie auto-immune.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10151",
+      "fr": "CIVD",
+      "developpement_fr": "coagulation intravasculaire disséminée",
+      "en": "DIC",
+      "developpement_en": "disseminated intravascular coagulation",
+      "ar": "التخثّر المنتثر داخل الأوعية",
+      "ar_variantes": [],
+      "definition_fr": "Activation diffuse de la coagulation avec consommation.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "MINT_REA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10152",
+      "fr": "LLC",
+      "developpement_fr": "leucémie lymphoïde chronique",
+      "en": "CLL",
+      "developpement_en": "chronic lymphocytic leukemia",
+      "ar": "ابيضاض الدم اللمفاوي المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Prolifération de lymphocytes B matures.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10153",
+      "fr": "LAM",
+      "developpement_fr": "leucémie aiguë myéloïde",
+      "en": "AML",
+      "developpement_en": "acute myeloid leukemia",
+      "ar": "ابيضاض الدم النِّقوي الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Prolifération maligne de blastes myéloïdes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10154",
+      "fr": "LMC",
+      "developpement_fr": "leucémie myéloïde chronique",
+      "en": "CML",
+      "developpement_en": "chronic myeloid leukemia",
+      "ar": "ابيضاض الدم النقوي المزمن",
+      "ar_variantes": [],
+      "definition_fr": "Syndrome myéloprolifératif à chromosome de Philadelphie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10155",
+      "fr": "LNH",
+      "developpement_fr": "lymphome non hodgkinien",
+      "en": "NHL",
+      "developpement_en": "non-Hodgkin lymphoma",
+      "ar": "اللمفومة اللاهودجكينية",
+      "ar_variantes": [],
+      "definition_fr": "Prolifération lymphoïde maligne hors Hodgkin.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEMA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10156",
+      "fr": "DT1",
+      "developpement_fr": "diabète de type 1",
+      "en": "T1D",
+      "developpement_en": "type 1 diabetes",
+      "ar": "السكري من النمط الأول",
+      "ar_variantes": [],
+      "definition_fr": "Diabète insulinoprive auto-immun.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10157",
+      "fr": "DT2",
+      "developpement_fr": "diabète de type 2",
+      "en": "T2D",
+      "developpement_en": "type 2 diabetes",
+      "ar": "السكري من النمط الثاني",
+      "ar_variantes": [],
+      "definition_fr": "Diabète par insulinorésistance et insulinopénie relative.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10158",
+      "fr": "ACD",
+      "developpement_fr": "acidocétose diabétique",
+      "en": "DKA",
+      "developpement_en": "diabetic ketoacidosis",
+      "ar": "الحماض الكيتوني السكري",
+      "ar_variantes": [],
+      "definition_fr": "Complication aiguë par carence insulinique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "DIAB",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10159",
+      "fr": "RGO",
+      "developpement_fr": "reflux gastro-œsophagien",
+      "en": "GERD",
+      "developpement_en": "gastroesophageal reflux disease",
+      "ar": "داء الجزر المعدي المريئي",
+      "ar_variantes": [],
+      "definition_fr": "Remontée pathologique du contenu gastrique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10160",
+      "fr": "UGD",
+      "developpement_fr": "ulcère gastroduodénal",
+      "en": "PUD",
+      "developpement_en": "peptic ulcer disease",
+      "ar": "القرحة الهضمية",
+      "ar_variantes": [],
+      "definition_fr": "Perte de substance de la muqueuse gastroduodénale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10161",
+      "fr": "MICI",
+      "developpement_fr": "maladies inflammatoires chroniques de l'intestin",
+      "en": "IBD",
+      "developpement_en": "inflammatory bowel diseases",
+      "ar": "داء الأمعاء الالتهابي",
+      "ar_variantes": [],
+      "definition_fr": "Maladie de Crohn et rectocolite hémorragique.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10162",
+      "fr": "RCH",
+      "developpement_fr": "rectocolite hémorragique",
+      "en": "UC",
+      "developpement_en": "ulcerative colitis",
+      "ar": "التهاب القولون التقرّحي",
+      "ar_variantes": [],
+      "definition_fr": "MICI rectocolique continue.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10163",
+      "fr": "SII",
+      "developpement_fr": "syndrome de l'intestin irritable",
+      "en": "IBS",
+      "developpement_en": "irritable bowel syndrome",
+      "ar": "متلازمة القولون المتهيّج",
+      "ar_variantes": [],
+      "definition_fr": "Trouble fonctionnel intestinal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10164",
+      "fr": "CHC",
+      "developpement_fr": "carcinome hépatocellulaire",
+      "en": "HCC",
+      "developpement_en": "hepatocellular carcinoma",
+      "ar": "سرطانة الخلايا الكبدية",
+      "ar_variantes": [],
+      "definition_fr": "Cancer primitif du foie.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "ONCO"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10165",
+      "fr": "HTP",
+      "developpement_fr": "hypertension portale",
+      "en": "PHT",
+      "developpement_en": "portal hypertension",
+      "ar": "فرط ضغط الدم البابي",
+      "ar_variantes": [],
+      "definition_fr": "Augmentation de la pression portale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10166",
+      "fr": "ISLA",
+      "developpement_fr": "infection spontanée du liquide d'ascite",
+      "en": "SBP",
+      "developpement_en": "spontaneous bacterial peritonitis",
+      "ar": "التهاب الصفاق الجرثومي العفوي",
+      "ar_variantes": [],
+      "definition_fr": "Infection de l'ascite sans foyer abdominal.",
+      "categorie": "pathologie",
+      "specialites": [
+        "HEPA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10167",
+      "fr": "OMA",
+      "developpement_fr": "otite moyenne aiguë",
+      "en": "AOM",
+      "developpement_en": "acute otitis media",
+      "ar": "التهاب الأذن الوسطى الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Infection aiguë de l'oreille moyenne.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10168",
+      "fr": "VPPB",
+      "developpement_fr": "vertige paroxystique positionnel bénin",
+      "en": "BPPV",
+      "developpement_en": "benign paroxysmal positional vertigo",
+      "ar": "الدُّوار الانتيابي الوضعي الحميد",
+      "ar_variantes": [],
+      "definition_fr": "Vertiges positionnels brefs.",
+      "categorie": "pathologie",
+      "specialites": [
+        "ORL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10169",
+      "fr": "DMLA",
+      "developpement_fr": "dégénérescence maculaire liée à l'âge",
+      "en": "AMD",
+      "developpement_en": "age-related macular degeneration",
+      "ar": "التنكّس البقعي المرتبط بالسن",
+      "ar_variantes": [],
+      "definition_fr": "Atteinte dégénérative maculaire du sujet âgé.",
+      "categorie": "pathologie",
+      "specialites": [
+        "OPHT"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10170",
+      "fr": "TOC",
+      "developpement_fr": "trouble obsessionnel compulsif",
+      "en": "OCD",
+      "developpement_en": "obsessive-compulsive disorder",
+      "ar": "اضطراب الوسواس القهري",
+      "ar_variantes": [],
+      "definition_fr": "Obsessions et compulsions envahissantes.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10171",
+      "fr": "TSPT",
+      "developpement_fr": "trouble de stress post-traumatique",
+      "en": "PTSD",
+      "developpement_en": "post-traumatic stress disorder",
+      "ar": "اضطراب الكرب التالي للرضح",
+      "ar_variantes": [],
+      "definition_fr": "Syndrome de reviviscence après un traumatisme.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10172",
+      "fr": "TDAH",
+      "developpement_fr": "trouble déficit de l'attention avec hyperactivité",
+      "en": "ADHD",
+      "developpement_en": "attention-deficit/hyperactivity disorder",
+      "ar": "اضطراب نقص الانتباه مع فرط النشاط",
+      "ar_variantes": [],
+      "definition_fr": "Trouble neurodéveloppemental.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10173",
+      "fr": "TSA",
+      "developpement_fr": "trouble du spectre de l'autisme",
+      "en": "ASD",
+      "developpement_en": "autism spectrum disorder",
+      "ar": "اضطراب طيف التوحّد",
+      "ar_variantes": [],
+      "definition_fr": "Trouble neurodéveloppemental de la communication sociale.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "PEDI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10174",
+      "fr": "EDC",
+      "developpement_fr": "épisode dépressif caractérisé",
+      "en": "MDE",
+      "developpement_en": "major depressive episode",
+      "ar": "النوبة الاكتئابية الكبرى",
+      "ar_variantes": [],
+      "definition_fr": "Épisode dépressif d'au moins deux semaines.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10175",
+      "fr": "TS",
+      "developpement_fr": "tentative de suicide",
+      "en": "SA",
+      "developpement_en": "suicide attempt",
+      "ar": "محاولة الانتحار",
+      "ar_variantes": [],
+      "definition_fr": "Geste autoagressif à visée suicidaire non abouti.",
+      "categorie": "pathologie",
+      "specialites": [
+        "PSYC",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10176",
+      "fr": "HBP",
+      "developpement_fr": "hypertrophie bénigne de la prostate",
+      "en": "BPH",
+      "developpement_en": "benign prostatic hyperplasia",
+      "ar": "فرط التنسّج الموثي الحميد",
+      "ar_variantes": [],
+      "definition_fr": "Adénome de la prostate.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10177",
+      "fr": "RAU",
+      "developpement_fr": "rétention aiguë d'urine",
+      "en": "AUR",
+      "developpement_en": "acute urinary retention",
+      "ar": "الاحتباس البولي الحادّ",
+      "ar_variantes": [],
+      "definition_fr": "Impossibilité d'uriner malgré une vessie pleine.",
+      "categorie": "pathologie",
+      "specialites": [
+        "UROL",
+        "URGE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10178",
+      "fr": "TR",
+      "developpement_fr": "toucher rectal",
+      "en": "DRE",
+      "developpement_en": "digital rectal examination",
+      "ar": "المسّ الشرجي",
+      "ar_variantes": [],
+      "definition_fr": "Examen digital du rectum.",
+      "categorie": "examen",
+      "specialites": [
+        "UROL",
+        "GAST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10179",
+      "fr": "TV",
+      "developpement_fr": "toucher vaginal",
+      "en": "VE",
+      "developpement_en": "vaginal examination",
+      "ar": "المسّ المهبلي",
+      "ar_variantes": [],
+      "definition_fr": "Examen digital du vagin et du col.",
+      "categorie": "examen",
+      "specialites": [
+        "GYNE",
+        "OBST"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10180",
+      "fr": "PTH",
+      "developpement_fr": "prothèse totale de hanche",
+      "en": "THA",
+      "developpement_en": "total hip arthroplasty",
+      "ar": "رأب الورك الكلّي",
+      "ar_variantes": [],
+      "definition_fr": "Remplacement de l'articulation coxo-fémorale par une prothèse ; PTH désigne aussi la parathormone en endocrinologie.",
+      "categorie": "traitement",
+      "specialites": [
+        "ORTH"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10181",
+      "fr": "LCA",
+      "developpement_fr": "ligament croisé antérieur",
+      "en": "ACL",
+      "developpement_en": "anterior cruciate ligament",
+      "ar": "الرباط الصليبي الأمامي",
+      "ar_variantes": [],
+      "definition_fr": "Ligament intra-articulaire du genou.",
+      "categorie": "anatomie",
+      "specialites": [
+        "ORTH",
+        "TRAU"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10182",
+      "fr": "FESF",
+      "developpement_fr": "fracture de l'extrémité supérieure du fémur",
+      "en": "PFF",
+      "developpement_en": "proximal femoral fracture",
+      "ar": "كسر النهاية العلوية لعظم الفخذ",
+      "ar_variantes": [],
+      "definition_fr": "Fracture du col ou du massif trochantérien, fréquente chez le sujet âgé.",
+      "categorie": "pathologie",
+      "specialites": [
+        "TRAU",
+        "GERI"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10183",
+      "fr": "AT-MP",
+      "developpement_fr": "accident du travail et maladie professionnelle",
+      "en": "occupational injury and disease",
+      "developpement_en": "occupational accident and occupational disease",
+      "ar": "حوادث العمل والأمراض المهنية",
+      "ar_variantes": [],
+      "definition_fr": "Risques professionnels couverts par la sécurité sociale.",
+      "categorie": "general",
+      "specialites": [
+        "MTRA"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10184",
+      "fr": "EPI",
+      "developpement_fr": "équipement de protection individuelle",
+      "en": "PPE",
+      "developpement_en": "personal protective equipment",
+      "ar": "معدّات الوقاية الشخصية",
+      "ar_variantes": [],
+      "definition_fr": "Dispositifs protégeant le travailleur.",
+      "categorie": "general",
+      "specialites": [
+        "MTRA",
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10185",
+      "fr": "AES",
+      "developpement_fr": "accident d'exposition au sang",
+      "en": "BBE",
+      "developpement_en": "blood and body fluid exposure",
+      "ar": "التعرّض المهني للدم",
+      "ar_variantes": [],
+      "definition_fr": "Contact percutané ou muqueux avec du sang potentiellement contaminant.",
+      "categorie": "general",
+      "specialites": [
+        "MTRA",
+        "INFE"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10186",
+      "fr": "ITT",
+      "developpement_fr": "incapacité totale de travail",
+      "en": "TIW",
+      "developpement_en": "total incapacity for work",
+      "ar": "العجز الكلّي عن العمل",
+      "ar_variantes": [],
+      "definition_fr": "Durée d'incapacité fixée par le certificat médical initial.",
+      "categorie": "general",
+      "specialites": [
+        "MLEG"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": null,
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10187",
+      "fr": "QALY",
+      "developpement_fr": "année de vie ajustée sur la qualité",
+      "en": "QALY",
+      "developpement_en": "quality-adjusted life year",
+      "ar": "سنة العمر المصحّحة بجودة الحياة",
+      "ar_variantes": [],
+      "definition_fr": "Unité d'évaluation économique combinant durée et qualité de vie.",
+      "categorie": "general",
+      "specialites": [
+        "SPUB"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10188",
+      "fr": "IC 95 %",
+      "developpement_fr": "intervalle de confiance à 95 %",
+      "en": "95% CI",
+      "developpement_en": "95% confidence interval",
+      "ar": "فاصل الثقة 95٪",
+      "ar_variantes": [],
+      "definition_fr": "Intervalle contenant la vraie valeur avec une probabilité de 95 %.",
+      "categorie": "general",
+      "specialites": [
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10189",
+      "fr": "RR",
+      "developpement_fr": "risque relatif",
+      "en": "RR",
+      "developpement_en": "relative risk",
+      "ar": "الاختطار النسبي",
+      "ar_variantes": [],
+      "definition_fr": "Rapport des incidences exposés/non exposés.",
+      "categorie": "general",
+      "specialites": [
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10190",
+      "fr": "OR",
+      "developpement_fr": "odds ratio",
+      "en": "OR",
+      "developpement_en": "odds ratio",
+      "ar": "نسبة الأرجحية",
+      "ar_variantes": [],
+      "definition_fr": "Rapport des cotes d'exposition.",
+      "categorie": "general",
+      "specialites": [
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10191",
+      "fr": "VPP",
+      "developpement_fr": "valeur prédictive positive",
+      "en": "PPV",
+      "developpement_en": "positive predictive value",
+      "ar": "القيمة التنبؤية الإيجابية",
+      "ar_variantes": [],
+      "definition_fr": "Probabilité d'être malade si le test est positif.",
+      "categorie": "general",
+      "specialites": [
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10192",
+      "fr": "VPN",
+      "developpement_fr": "valeur prédictive négative",
+      "en": "NPV",
+      "developpement_en": "negative predictive value",
+      "ar": "القيمة التنبؤية السلبية",
+      "ar_variantes": [],
+      "definition_fr": "Probabilité d'être indemne si le test est négatif.",
+      "categorie": "general",
+      "specialites": [
+        "EPID"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10193",
+      "fr": "ECR",
+      "developpement_fr": "essai contrôlé randomisé",
+      "en": "RCT",
+      "developpement_en": "randomized controlled trial",
+      "ar": "التجربة المضبوطة المعشّاة",
+      "ar_variantes": [],
+      "definition_fr": "Essai à répartition aléatoire avec groupe témoin.",
+      "categorie": "general",
+      "specialites": [
+        "EPID",
+        "PHAR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    },
+    {
+      "id": "GLO-10194",
+      "fr": "MPR",
+      "developpement_fr": "médecine physique et de réadaptation",
+      "en": "PM&R",
+      "developpement_en": "physical medicine and rehabilitation",
+      "ar": "الطب الفيزيائي وإعادة التأهيل",
+      "ar_variantes": [],
+      "definition_fr": "Spécialité de la rééducation et de la réadaptation.",
+      "categorie": "general",
+      "specialites": [
+        "MPR"
+      ],
+      "statut_ar": "a_relire_arabophone",
+      "source_terminologique": "Dictionnaire médical unifié (OMS/EMRO)",
+      "type_terme": "abreviation"
+    }
+  ]
+}

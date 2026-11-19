@@ -711,6 +711,642 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-09",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0915",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les critères ASAS (2009), quels éléments définissent une lombalgie inflammatoire chez un patient lombalgique chronique ?",
+      "propositions": {
+        "A": "Âge de début inférieur à 40 ans",
+        "B": "Début insidieux",
+        "C": "Amélioration par le repos",
+        "D": "Douleur nocturne avec amélioration au lever",
+        "E": "Amélioration par l'exercice"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les 5 critères ASAS sont : début < 40 ans, début insidieux, amélioration par l'exercice, absence d'amélioration par le repos, douleur nocturne. Au moins 4 sur 5 sont requis.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est l'absence d'amélioration par le repos qui est un critère.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — lombalgie inflammatoire",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inverser le rôle du repos et de l'exercice.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sieper J et al. ASAS criteria for inflammatory back pain. Ann Rheum Dis 2009;68(6):784-788",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0916",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'antigène HLA-B27, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "C'est un facteur de susceptibilité génétique de la SpA axiale",
+        "B": "Il est présent chez tous les patients atteints de spondylarthrite ankylosante",
+        "C": "Sa prévalence est plus faible dans la population générale des pays arabes que dans les pays occidentaux",
+        "D": "Sa positivité suffit à porter le diagnostic chez un lombalgique",
+        "E": "Il constitue l'entrée du bras « clinique » des critères de classification ASAS"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le HLA-B27 est un facteur de susceptibilité, ni nécessaire ni suffisant. Une revue systématique montre sa prévalence plus faible au Moyen-Orient et dans les pays arabes, y compris chez les patients atteints de SpA axiale.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : une proportion notable de patients est HLA-B27 négative, surtout au Maghreb.",
+        "C": "Vrai : 0,3 % (Oman) à 6,8 % (Turquie).",
+        "D": "Faux : la plupart des porteurs ne développent jamais de SpA.",
+        "E": "Vrai : HLA-B27 + ≥ 2 signes de SpA."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — HLA-B27",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer une SpA sur un HLA-B27 négatif chez un patient maghrébin.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rudwaleit M et al. ASAS classification criteria for axial spondyloarthritis (part II). Ann Rheum Dis 2009;68(6):777-783",
+          "date": "2009"
+        },
+        {
+          "reference": "Ziade NR. HLA-B27 in Middle Eastern and Arab countries: systematic review. BMC Musculoskelet Disord 2017;18:280",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0917",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos des critères de New York modifiés (1984) de la spondylarthrite ankylosante, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une sacro-iliite radiographique de grade 2 bilatérale satisfait le critère radiologique",
+        "B": "Une sacro-iliite unilatérale de grade 2 suffit",
+        "C": "La diminution de l'ampliation thoracique est un critère clinique",
+        "D": "La positivité du HLA-B27 est obligatoire",
+        "E": "Le diagnostic est certain avec le critère radiologique et au moins un critère clinique"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Critère radiologique : grade ≥ 2 bilatéral ou grade 3–4 unilatéral. Critères cliniques : lombalgie inflammatoire > 3 mois, limitation lombaire sagittale et frontale, diminution de l'ampliation thoracique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : en unilatéral, un grade 3 ou 4 est exigé.",
+        "C": "Vrai.",
+        "D": "Faux : le HLA-B27 ne fait pas partie de ces critères.",
+        "E": "Vrai."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — critères de New York modifiés",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van der Linden S et al. Modified New York criteria for ankylosing spondylitis. Arthritis Rheum 1984;27(4):361-368",
+          "date": "1984"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0918",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les critères de classification ASAS de la SpA axiale, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils s'appliquent aux patients lombalgiques depuis au moins 3 mois",
+        "B": "L'âge de début doit être inférieur à 45 ans",
+        "C": "Une sacro-iliite en IRM associée à un seul signe de SpA suffit",
+        "D": "HLA-B27 positif et un seul autre signe de SpA suffisent",
+        "E": "Une CRP élevée fait partie des signes de SpA"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Bras imagerie : sacro-iliite (IRM ou radiographie) + ≥ 1 signe de SpA. Bras clinique : HLA-B27 + ≥ 2 autres signes de SpA.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : bras imagerie.",
+        "D": "Faux : il faut au moins 2 autres signes.",
+        "E": "Vrai."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — critères ASAS",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier que le bras HLA-B27 exige deux autres signes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rudwaleit M et al. ASAS classification criteria for axial spondyloarthritis (part II). Ann Rheum Dis 2009;68(6):777-783",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0919",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les signes radiographiques suivants, lesquels sont évocateurs d'une spondylarthrite ankylosante ?",
+      "propositions": {
+        "A": "Syndesmophytes fins et verticaux",
+        "B": "Mise au carré des corps vertébraux",
+        "C": "Lésion de Romanus (coin vertébral antérieur)",
+        "D": "Ostéophytes horizontaux",
+        "E": "Colonne « bambou »"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les syndesmophytes ossifient l'anneau fibreux à partir des coins vertébraux ; ils sont fins et verticaux, à la différence des ostéophytes horizontaux de l'arthrose.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : lésion inflammatoire précoce du coin vertébral.",
+        "D": "Faux : signe d'arthrose.",
+        "E": "Vrai : stade évolué."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — radiologie rachidienne",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre syndesmophytes et ostéophytes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "van der Linden S et al. Modified New York criteria for ankylosing spondylitis. Arthritis Rheum 1984;27(4):361-368",
+          "date": "1984"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0920",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles manifestations extra-squelettiques sont associées aux spondyloarthrites ?",
+      "propositions": {
+        "A": "Uvéite antérieure aiguë unilatérale et récidivante",
+        "B": "Insuffisance aortique",
+        "C": "Maladie de Crohn",
+        "D": "Sclérite nécrosante avec nodules rhumatoïdes",
+        "E": "Psoriasis"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Uvéite antérieure aiguë, psoriasis et MICI sont des signes de SpA dans les critères ASAS ; l'insuffisance aortique et les troubles de conduction sont des atteintes cardiaques classiques. La sclérite nécrosante avec nodules évoque une PR.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : tableau de PR ancienne séropositive.",
+        "E": "Vrai."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — manifestations extra-squelettiques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rudwaleit M et al. ASAS classification criteria for axial spondyloarthritis (part II). Ann Rheum Dis 2009;68(6):777-783",
+          "date": "2009"
+        },
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0921",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles mesures font partie du traitement de première ligne d'une SpA axiale active selon l'ASAS-EULAR 2022 ?",
+      "propositions": {
+        "A": "AINS jusqu'à la dose maximale tolérée",
+        "B": "Exercices et kinésithérapie",
+        "C": "Corticothérapie générale au long cours",
+        "D": "Méthotrexate pour l'atteinte axiale",
+        "E": "Arrêt du tabac"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Les AINS associés à l'exercice sont le socle du traitement. Les corticoïdes systémiques prolongés et les csDMARD ne sont pas recommandés pour l'atteinte axiale pure.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : la kinésithérapie supervisée est plus efficace que les exercices non supervisés.",
+        "C": "Faux.",
+        "D": "Faux : inefficace sur l'atteinte axiale.",
+        "E": "Vrai : le tabac est associé à plus d'activité et de progression."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — traitement de première ligne",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Prescrire du méthotrexate pour une atteinte axiale pure.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0922",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'ASAS-EULAR 2022, quelles conditions sont requises pour envisager un bDMARD ou un tsDMARD dans une SpA axiale ?",
+      "propositions": {
+        "A": "ASDAS supérieur ou égal à 2,1",
+        "B": "Échec d'au moins deux AINS",
+        "C": "CRP élevée, ou inflammation sacro-iliaque en IRM, ou sacro-iliite radiographique",
+        "D": "Positivité obligatoire du HLA-B27",
+        "E": "Échec préalable obligatoire du méthotrexate"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La recommandation 9 associe activité (ASDAS ≥ 2,1), échec d'au moins deux AINS et un élément objectif d'inflammation ou de lésion (CRP, IRM, radiographie).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Faux : le méthotrexate n'est pas indiqué dans l'atteinte axiale."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — indication des biothérapies",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0923",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Pour le choix d'une biothérapie dans la SpA axiale, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "En cas d'uvéite récidivante, un anticorps monoclonal anti-TNF est préféré",
+        "B": "En cas de maladie de Crohn associée, un anti-IL-17 est le meilleur choix",
+        "C": "En cas de psoriasis important, un anti-IL-17 est à privilégier",
+        "D": "L'étanercept est efficace sur les MICI",
+        "E": "Les anti-IL-23 sont efficaces sur l'atteinte axiale"
+      },
+      "reponses_correctes": [
+        "A",
+        "C"
+      ],
+      "explication_generale": "Les anticorps monoclonaux anti-TNF couvrent uvéite et MICI ; les anti-IL-17 sont très efficaces sur le psoriasis mais peuvent aggraver une MICI ; les anti-IL-23 n'ont pas démontré d'efficacité axiale.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : les anti-IL-17 sont à éviter dans les MICI.",
+        "C": "Vrai.",
+        "D": "Faux : récepteur soluble inefficace dans les MICI.",
+        "E": "Faux."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — choix de la biothérapie",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Choisir l'étanercept ou un anti-IL-17 chez un patient atteint de MICI.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0924",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un éleveur de 35 ans, fébrile depuis 3 semaines, présente une fessalgie droite intense avec, en IRM, une sacro-iliite droite isolée. Quel examen est prioritaire ?",
+      "propositions": {
+        "A": "Typage HLA-B27",
+        "B": "Sérologie de Wright, test au rose Bengale et hémocultures",
+        "C": "Dosage des anti-CCP",
+        "D": "Calcul du BASDAI",
+        "E": "Radiographies du rachis cervical"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Une sacro-iliite unilatérale fébrile chez un sujet exposé au bétail évoque d'abord une brucellose, très fréquente en Algérie ; une sacro-iliite à pyogènes ou tuberculeuse est aussi à éliminer.",
+      "explications_par_proposition": {
+        "A": "Faux : n'aide pas à éliminer une infection.",
+        "B": "Vrai.",
+        "C": "Faux : hors sujet.",
+        "D": "Faux : score d'activité de SpA, non diagnostique.",
+        "E": "Faux : sans intérêt ici."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — diagnostic différentiel infectieux",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retenir une SpA devant une sacro-iliite unilatérale fébrile.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0925",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les complications d'une spondylarthrite ankylosante ancienne, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une fracture vertébrale peut survenir après un traumatisme minime",
+        "B": "L'ostéoporose est fréquente malgré l'ostéoformation",
+        "C": "Toute douleur rachidienne nouvelle sur rachis ankylosé doit faire rechercher une fracture par imagerie",
+        "D": "L'amylose AA est aujourd'hui la complication la plus fréquente",
+        "E": "Des troubles de la conduction cardiaque peuvent survenir"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le rachis ankylosé est rigide et fragile : fractures (surtout cervicales basses) avec risque neurologique. L'amylose AA est devenue rare.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : recommandation ASAS-EULAR sur les fractures.",
+        "D": "Faux : devenue rare.",
+        "E": "Vrai : BAV."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — complications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0926",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient atteint de SpA axiale a un ASDAS-CRP à 2,6. Comment qualifier son activité ?",
+      "propositions": {
+        "A": "Maladie inactive",
+        "B": "Activité faible",
+        "C": "Activité élevée",
+        "D": "Activité très élevée",
+        "E": "Rémission partielle"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Seuils ASDAS : < 1,3 inactive ; 1,3 à < 2,1 faible ; 2,1 à 3,5 élevée ; > 3,5 très élevée.",
+      "explications_par_proposition": {
+        "A": "Faux : < 1,3.",
+        "B": "Faux : 1,3 à < 2,1.",
+        "C": "Vrai.",
+        "D": "Faux : > 3,5.",
+        "E": "Faux : terme non utilisé pour l'ASDAS."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — ASDAS",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RHUM-0927",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Avant un anti-TNF chez un patient algérien atteint de SpA axiale, quelles mesures sont justifiées ?",
+      "propositions": {
+        "A": "Radiographie thoracique et IGRA (ou IDR)",
+        "B": "Traitement d'une infection tuberculeuse latente dépistée selon le protocole national",
+        "C": "Avoir formellement écarté une brucellose ou une tuberculose ostéo-articulaire",
+        "D": "Un IGRA négatif dispense de toute vigilance ultérieure vis-à-vis de la tuberculose",
+        "E": "Vacciner par un vaccin vivant atténué pendant le traitement"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le dépistage de la tuberculose active et latente est indispensable en pays d'endémie ; une infection prise à tort pour une SpA serait aggravée par l'anti-TNF ; la vigilance reste de mise pendant tout le traitement (contamination possible).",
+      "explications_par_proposition": {
+        "A": "Vrai : IGRA préféré là où il est disponible.",
+        "B": "Vrai : instruction ITL 2024.",
+        "C": "Vrai.",
+        "D": "Faux : une tuberculose peut être contractée sous traitement.",
+        "E": "Faux : vaccins vivants contre-indiqués sous anti-TNF."
+      },
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "theme": "SpA axiale — bilan pré-biothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of infections in AIIRD. Ann Rheum Dis 2023;82(6):742-753",
+          "date": "2023"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 [numéro à vérifier]",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
     }
   ]
 }

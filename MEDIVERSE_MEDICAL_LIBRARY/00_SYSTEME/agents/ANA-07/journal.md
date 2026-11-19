@@ -12,3 +12,4 @@ Mission : Catalogue vérifié des ouvrages de référence et structuration des c
 - Lot 2 écrit : `ENC-1-GAST-HEPA-NEPH.json` (GAST 49, HEPA 48, NEPH 52).
 - Lot 3 écrit : `ENC-1-NEUR-PSYC-GERI.json` (NEUR, PSYC, GERI).
 - Lot 4 écrit : `ENC-1-DERM-RHUM-GENE.json`.
+- Lot 5 écrit : `ENC-1-ENDO-DIAB-ONCO.json`.

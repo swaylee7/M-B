@@ -1,0 +1,3020 @@
+{
+  "agent": "DOS-08",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-HEMA-0801",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la ligne directrice de l'OMS de 2024 sur les seuils d'hémoglobine, quelles propositions sont exactes chez l'adulte ?",
+      "propositions": {
+        "A": "Un homme de 40 ans est anémique si son hémoglobine est inférieure à 130 g/L.",
+        "B": "Une femme non enceinte de 30 ans est anémique si son hémoglobine est inférieure à 120 g/L.",
+        "C": "Le seuil retenu au 2e trimestre de la grossesse est de 105 g/L.",
+        "D": "L'OMS recommande d'ajuster l'hémoglobine en fonction du niveau de CRP.",
+        "E": "L'OMS recommande d'ajuster l'hémoglobine chez les fumeurs."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La révision OMS 2024 conserve les seuils de l'adulte non enceinte (130 g/L chez l'homme, 120 g/L chez la femme), retient 105 g/L au 2e trimestre de la grossesse et recommande d'ajuster l'Hb au tabagisme et à l'altitude, mais pas à l'infection ou à l'inflammation.",
+      "explications_par_proposition": {
+        "A": "Vrai : seuil de 130 g/L chez l'homme de 15 ans et plus.",
+        "B": "Vrai : seuil de 120 g/L chez la femme non enceinte de 15 ans et plus.",
+        "C": "Vrai : le seuil du 2e trimestre (105 g/L) a été explicitement retenu en 2024.",
+        "D": "Faux : l'OMS recommande de ne pas ajuster l'Hb pour l'infection ou l'inflammation.",
+        "E": "Vrai : un ajustement pour le tabagisme (et l'altitude) est recommandé."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — définition OMS 2024",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que l'inflammation impose de corriger le chiffre d'hémoglobine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WHO. Guideline on haemoglobin cutoffs to define anaemia in individuals and populations. Geneva: WHO; 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0802",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 45 ans présente une Hb à 98 g/L, un VGM à 71 fL, une ferritine à 85 µg/L, un CST à 9 % et une CRP à 62 mg/L dans le cadre d'une polyarthrite rhumatoïde active traitée par AINS. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La ferritine normale élimine une carence martiale.",
+        "B": "L'OMS propose un seuil de ferritine inférieur à 70 µg/L pour évoquer une carence martiale chez l'adulte en contexte inflammatoire.",
+        "C": "Une carence martiale associée à l'anémie inflammatoire est plausible chez cette patiente.",
+        "D": "L'hepcidine est probablement élevée.",
+        "E": "Le fer sérique isolé permettrait de trancher."
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La ferritine est une protéine de l'inflammation : une valeur « normale » n'exclut pas une carence en présence d'une CRP élevée. L'OMS propose un seuil < 70 µg/L chez l'adulte en contexte inflammatoire ; ici la ferritine (85 µg/L) le dépasse, mais l'exposition aux AINS (saignement digestif occulte) et un CST très bas rendent une carence associée plausible. L'hepcidine est augmentée par l'IL-6.",
+      "explications_par_proposition": {
+        "A": "Faux : la ferritine est faussement rassurante en cas d'inflammation.",
+        "B": "Vrai : recommandation conditionnelle de l'OMS 2020 ; ici la ferritine (85 µg/L) dépasse ce seuil, ce qui rend la carence moins certaine sans l'exclure (CST très bas, AINS au long cours).",
+        "C": "Vrai : AINS au long cours, CST très bas, microcytose : une carence associée doit être recherchée (endoscopies, essai de fer).",
+        "D": "Vrai : l'inflammation (IL-6) induit l'hepcidine qui bloque la ferroportine.",
+        "E": "Faux : le fer sérique isolé n'a pas de valeur diagnostique (BSH)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — bilan martial et inflammation",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à l'absence de carence devant une ferritine normale avec CRP élevée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WHO guideline on use of ferritin concentrations to assess iron status. Geneva: WHO; 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "BSH. Guideline for the laboratory diagnosis of iron deficiency in adults (excluding pregnancy) and children. Br J Haematol 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0803",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 24 ans, originaire de Annaba, a un hémogramme de visite d'embauche : Hb 125 g/L, GR 6,1 T/L, VGM 64 fL, TCMH 20 pg, IDR 13 %, réticulocytes 95 G/L, ferritine 110 µg/L, CRP normale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le profil évoque en premier une β-thalassémie hétérozygote.",
+        "B": "Une électrophorèse (ou HPLC) de l'hémoglobine est indiquée.",
+        "C": "Une HbA2 supérieure à 3,5 % confirmerait une β-thalassémie hétérozygote.",
+        "D": "Un traitement martial d'épreuve est justifié.",
+        "E": "Un conseil génétique doit être proposé s'il envisage d'avoir des enfants."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Microcytose profonde disproportionnée à une anémie discrète, nombre de GR élevé, IDR normal et ferritine normale : profil typique de β-thalassémie hétérozygote, confirmée par une HbA2 > 3,5 %. Le fer est inutile. Le dépistage de la conjointe et le conseil génétique préviennent les formes majeures.",
+      "explications_par_proposition": {
+        "A": "Vrai : microcytose marquée avec GR > 6 T/L et ferritine normale.",
+        "B": "Vrai : c'est l'examen diagnostique.",
+        "C": "Vrai : l'élévation de l'HbA2 signe la β-thalassémie hétérozygote (en l'absence de carence martiale).",
+        "D": "Faux : la ferritine est normale ; le fer est inutile et peut favoriser une surcharge.",
+        "E": "Vrai : si la conjointe est aussi porteuse, le risque d'enfant atteint est de 1/4."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — microcytose et thalassémie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter par le fer toute microcytose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "TIF Guidelines for the management of transfusion dependent thalassaemia, 4th ed. 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0804",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prise en charge d'une anémie par carence martiale chez une femme ménopausée de 62 ans, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une fibroscopie œso-gastro-duodénale et une coloscopie sont indiquées.",
+        "B": "Des biopsies duodénales à la recherche d'une maladie cœliaque sont utiles.",
+        "C": "Le traitement martial oral doit être poursuivi environ 3 mois après normalisation de l'hémoglobine.",
+        "D": "Une crise réticulocytaire est attendue vers le 7e–10e jour de traitement efficace.",
+        "E": "Une transfusion est indiquée dès que l'Hb est inférieure à 90 g/L."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Chez la femme ménopausée comme chez l'homme, la carence martiale impose une exploration digestive haute et basse. Le traitement oral est poursuivi pour reconstituer les réserves ; son efficacité se juge sur la crise réticulocytaire et la remontée de l'Hb. La transfusion dépend de la tolérance, non d'un seuil isolé.",
+      "explications_par_proposition": {
+        "A": "Vrai : recherche d'une lésion digestive, notamment néoplasique.",
+        "B": "Vrai : la maladie cœliaque est une cause de carence par malabsorption.",
+        "C": "Vrai : jusqu'à normalisation des réserves (ferritine).",
+        "D": "Vrai : témoin précoce de l'efficacité.",
+        "E": "Faux : une anémie carentielle bien tolérée ne se transfuse pas."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — carence martiale : enquête et traitement",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter par le fer sans rechercher la cause.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Snook J et al. BSG guidelines for the management of iron deficiency anaemia in adults. Gut 2021 [à vérifier]",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0805",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la maladie de Biermer, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est due à une gastrite atrophique auto-immune fundique.",
+        "B": "Les anticorps anti-facteur intrinsèque sont très spécifiques mais peu sensibles.",
+        "C": "L'atteinte neurologique ne survient qu'en présence d'une anémie profonde.",
+        "D": "Le traitement par vitamine B12 est poursuivi à vie.",
+        "E": "Elle expose à un risque accru de tumeurs gastriques justifiant une surveillance endoscopique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La maladie de Biermer est une gastrite atrophique auto-immune avec perte du facteur intrinsèque. Les anticorps anti-FI sont spécifiques mais présents chez une partie seulement des patients. L'atteinte neurologique peut précéder l'anémie. Le traitement est à vie et la surveillance endoscopique recherche tumeurs neuroendocrines et adénocarcinome.",
+      "explications_par_proposition": {
+        "A": "Vrai : destruction des cellules pariétales fundiques.",
+        "B": "Vrai : les anticorps anti-cellules pariétales sont plus sensibles mais peu spécifiques.",
+        "C": "Faux : la sclérose combinée de la moelle peut exister sans anémie.",
+        "D": "Vrai : la cause (absence de FI) est définitive.",
+        "E": "Vrai : tumeurs neuroendocrines (hypergastrinémie) et adénocarcinome."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — maladie de Biermer",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Exclure une carence en B12 parce que l'hémogramme est normal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Devalia V et al. BSH guidelines for cobalamin and folate disorders. Br J Haematol 2014;166:496-513",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0806",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments biologiques plaident pour une hémolyse plutôt que pour une érythropoïèse inefficace (mégaloblastose) devant une anémie avec LDH élevées et haptoglobine basse ?",
+      "propositions": {
+        "A": "Réticulocytes à 280 G/L.",
+        "B": "VGM à 118 fL avec polynucléaires hypersegmentés.",
+        "C": "Sphérocytes nombreux au frottis.",
+        "D": "Test direct à l'antiglobuline positif de type IgG.",
+        "E": "Leuconeutropénie et thrombopénie associées."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Hémolyse périphérique et mégaloblastose partagent LDH élevées, bilirubine libre élevée et haptoglobine basse. La réticulocytose élevée, les sphérocytes et un TDA positif orientent vers une hémolyse ; la macrocytose majeure avec hypersegmentation et l'atteinte des trois lignées orientent vers une carence vitaminique.",
+      "explications_par_proposition": {
+        "A": "Vrai : anémie régénérative = périphérique.",
+        "B": "Faux : profil de mégaloblastose (la réticulocytose peut élever modérément le VGM, mais l'hypersegmentation est typique de la carence).",
+        "C": "Vrai : AHAI chaude ou sphérocytose héréditaire.",
+        "D": "Vrai : AHAI à anticorps chauds.",
+        "E": "Faux : l'atteinte des trois lignées oriente vers une cause centrale (mégaloblastose, atteinte médullaire)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — hémolyse versus mégaloblastose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à une hémolyse sur la seule baisse de l'haptoglobine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Jäger U et al. Diagnosis and treatment of AIHA in adults. Blood Rev 2020;41:100648",
+          "date": "2020"
+        },
+        {
+          "reference": "Devalia V et al. Br J Haematol 2014;166:496-513",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0807",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un garçon de 9 ans est amené aux urgences d'Oran en avril pour pâleur brutale, ictère et urines « couleur Coca » deux jours après avoir mangé des fèves crues. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un déficit en G6PD est l'hypothèse principale.",
+        "B": "L'hémolyse est principalement intravasculaire.",
+        "C": "Le dosage de G6PD réalisé pendant la crise peut être faussement normal.",
+        "D": "La transmission est autosomique dominante.",
+        "E": "Le traitement repose sur les corticoïdes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le favisme est l'expression typique du déficit en G6PD, fréquent au Maghreb : hémolyse intravasculaire aiguë déclenchée par un stress oxydant. Le dosage doit être répété à distance (réticulocytes riches en enzyme). La transmission est liée à l'X. Le traitement est symptomatique (éviction, hydratation, transfusion si besoin).",
+      "explications_par_proposition": {
+        "A": "Vrai : fèves + hémolyse aiguë chez un garçon.",
+        "B": "Vrai : hémoglobinurie, haptoglobine effondrée.",
+        "C": "Vrai : la réticulocytose élève l'activité mesurée.",
+        "D": "Faux : récessive liée à l'X.",
+        "E": "Faux : les corticoïdes n'ont pas de place ; éviction de l'agent oxydant et mesures symptomatiques."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — déficit en G6PD",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Doser la G6PD en pleine crise et conclure à tort à une activité normale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Données d'enseignement classiques ; contexte maghrébin (travaux algériens sur les hémoglobinopathies [à vérifier])",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0808",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'anémie hémolytique auto-immune (AHAI) de l'adulte selon le consensus international de 2020, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le test direct à l'antiglobuline monospécifique (anti-IgG, anti-C3d) est indispensable.",
+        "B": "Une AHAI à anticorps chauds doit faire rechercher une lymphoprolifération B (LLC, lymphome).",
+        "C": "Les corticoïdes sont le traitement de première ligne de l'AHAI à anticorps chauds.",
+        "D": "Les corticoïdes sont le traitement de première ligne de la maladie des agglutinines froides.",
+        "E": "Le rituximab, associé ou non à la bendamustine, est proposé en première ligne de la maladie des agglutinines froides nécessitant un traitement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le consensus de 2020 impose un TDA monospécifique et la recherche d'une cause secondaire. Les corticoïdes restent la première ligne de l'AHAI chaude ; ils sont inefficaces dans la maladie des agglutinines froides, où le rituximab ± bendamustine est recommandé.",
+      "explications_par_proposition": {
+        "A": "Vrai : il distingue les profils IgG ± C3d et C3d seul.",
+        "B": "Vrai : causes secondaires fréquentes chez l'adulte.",
+        "C": "Vrai : prednisone de l'ordre de 1 mg/kg/j puis décroissance.",
+        "D": "Faux : les corticoïdes sont inefficaces dans la maladie des agglutinines froides.",
+        "E": "Vrai : recommandation explicite du consensus."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — AHAI",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des corticoïdes dans une maladie des agglutinines froides.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Jäger U et al. Blood Rev 2020;41:100648",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0809",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 22 ans, drépanocytaire SS, est hospitalisé pour une crise vaso-occlusive. Au 2e jour, il présente une fièvre à 38,6 °C, une douleur thoracique, une SpO2 à 89 % et un infiltrat basal droit nouveau. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le diagnostic de syndrome thoracique aigu est retenu.",
+        "B": "Le syndrome thoracique aigu est une cause majeure de décès chez l'adulte drépanocytaire.",
+        "C": "L'oxygénothérapie, une antibiothérapie et la spirométrie incitative font partie de la prise en charge.",
+        "D": "Une transfusion ou un échange transfusionnel peut être nécessaire.",
+        "E": "Une corticothérapie à forte dose est recommandée pour limiter l'inflammation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le STA associe signes respiratoires, fièvre et infiltrat nouveau ; il complique souvent une CVO et constitue une cause majeure de mortalité. La prise en charge associe oxygène, antibiotiques (pneumocoque, germes atypiques), analgésie, spirométrie incitative et transfusion simple ou échange selon la gravité. Les corticoïdes exposent au rebond.",
+      "explications_par_proposition": {
+        "A": "Vrai : définition clinico-radiologique.",
+        "B": "Vrai : première cause de décès de l'adulte drépanocytaire.",
+        "C": "Vrai : mesures de base.",
+        "D": "Vrai : selon l'Hb et la gravité.",
+        "E": "Faux : pas de corticothérapie systématique (rebond vaso-occlusif)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — drépanocytose : syndrome thoracique aigu",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Méconnaître un STA chez un drépanocytaire hospitalisé pour CVO.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Yawn BP et al. Management of sickle cell disease. JAMA 2014;312:1033-1048",
+          "date": "2014"
+        },
+        {
+          "reference": "HAS. PNDS Syndromes drépanocytaires majeurs de l'adulte, 2010",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0810",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hydroxycarbamide (hydroxyurée) dans la drépanocytose de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle augmente le taux d'hémoglobine fœtale.",
+        "B": "Elle est indiquée en cas de crises vaso-occlusives modérées à sévères répétées (au moins 3 par an).",
+        "C": "Elle est indiquée en cas de syndrome thoracique aigu sévère ou récidivant.",
+        "D": "Elle ne nécessite aucune surveillance biologique.",
+        "E": "Elle doit être arrêtée en cas de grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'hydroxycarbamide augmente l'HbF et réduit CVO, STA et besoins transfusionnels. Le panel NHLBI 2014 la recommande chez l'adulte SS/S-β⁰ avec ≥ 3 CVO modérées à sévères par an, STA sévère ou récidivant, anémie symptomatique ou douleurs altérant la qualité de vie. Surveillance de l'hémogramme ; arrêt en cas de grossesse ou d'allaitement.",
+      "explications_par_proposition": {
+        "A": "Vrai : mécanisme principal.",
+        "B": "Vrai : indication du panel NHLBI.",
+        "C": "Vrai : indication du panel NHLBI.",
+        "D": "Faux : myélotoxicité : NFS régulière.",
+        "E": "Vrai : tératogène ; contraception efficace."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — drépanocytose : traitement de fond",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Yawn BP et al. JAMA 2014;312:1033-1048",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0811",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la β-thalassémie dépendante des transfusions (TDT) selon la Thalassaemia International Federation (2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'objectif d'Hb prétransfusionnelle est d'environ 95 à 105 g/L.",
+        "B": "La chélation du fer est indispensable chez le patient régulièrement transfusé.",
+        "C": "L'IRM T2* cardiaque permet d'évaluer la surcharge myocardique en fer.",
+        "D": "La défériprone expose à un risque d'agranulocytose nécessitant une surveillance de l'hémogramme.",
+        "E": "La ferritine suffit à elle seule à évaluer la surcharge cardiaque."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les transfusions régulières visent une Hb prétransfusionnelle de 95–105 g/L pour freiner l'érythropoïèse inefficace. La surcharge en fer est la principale cause de morbi-mortalité : chélation (déféroxamine, défériprone, déférasirox) guidée par la ferritine et l'IRM T2* cardiaque et hépatique. La ferritine ne reflète pas fidèlement le fer myocardique.",
+      "explications_par_proposition": {
+        "A": "Vrai : cible TIF.",
+        "B": "Vrai : chaque CGR apporte environ 200 mg de fer.",
+        "C": "Vrai : examen de référence non invasif du fer cardiaque.",
+        "D": "Vrai : surveillance hebdomadaire de l'hémogramme recommandée.",
+        "E": "Faux : la ferritine est un marqueur imparfait, influencé par l'inflammation ; l'IRM T2* est nécessaire."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — thalassémie majeure",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Se fier uniquement à la ferritine pour juger la surcharge cardiaque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cappellini MD et al. (eds). TIF Guidelines for TDT, 4th ed. 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0812",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 27 ans présente une pancytopénie : Hb 72 g/L, réticulocytes 18 G/L, PNN 0,15 G/L, plaquettes 9 G/L. La biopsie ostéomédullaire montre une cellularité de 10 % sans infiltration ni fibrose. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une aplasie médullaire très sévère selon les critères de Camitta.",
+        "B": "Une recherche de clone HPN et une étude cytogénétique sont indiquées.",
+        "C": "Une allogreffe de donneur familial HLA-identique est le traitement de choix si un donneur est disponible.",
+        "D": "En l'absence de donneur, l'association sérum antilymphocytaire de cheval, ciclosporine et eltrombopag est le traitement de référence.",
+        "E": "Une corticothérapie seule est le traitement de première ligne."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Cellularité < 25 % et ≥ 2 critères périphériques (PNN < 0,5 G/L, plaquettes < 20 G/L, réticulocytes < 60 G/L), avec PNN < 0,2 G/L : aplasie très sévère. Le bilan recherche un clone HPN et élimine une myélodysplasie hypoplasique et une insuffisance médullaire constitutionnelle. Chez le sujet jeune avec donneur familial HLA-identique : allogreffe ; sinon ATG de cheval + ciclosporine + eltrombopag (BSH 2024).",
+      "explications_par_proposition": {
+        "A": "Vrai : PNN < 0,2 G/L.",
+        "B": "Vrai : association aplasie–HPN et élimination d'une myélodysplasie.",
+        "C": "Vrai : traitement curatif de référence chez le jeune.",
+        "D": "Vrai : immunosuppression de référence selon la BSH 2024.",
+        "E": "Faux : les corticoïdes seuls n'ont pas de place."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-112"
+      ],
+      "theme": "Anémies — aplasie médullaire",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Oublier de rechercher une maladie de Fanconi chez le sujet jeune issu d'une union consanguine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kulasekararaj A et al. BSH guidelines for adult aplastic anaemia. Br J Haematol 2024;204:784-804",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0813",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la terminologie internationale du PTI (Rodeghiero 2009), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le PTI est défini par une numération plaquettaire inférieure à 100 G/L.",
+        "B": "Un PTI évoluant depuis 6 mois est dit « persistant ».",
+        "C": "Un PTI évoluant depuis plus de 12 mois est dit « chronique ».",
+        "D": "Une réponse complète correspond à des plaquettes ≥ 150 G/L.",
+        "E": "Le PTI secondaire est associé à une autre maladie ou à une cause identifiée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le groupe de travail international a fixé le seuil à 100 G/L, défini trois phases (nouvellement diagnostiqué < 3 mois, persistant 3–12 mois, chronique > 12 mois) et distingué PTI primaire et secondaire. La réponse complète correspond à des plaquettes ≥ 100 G/L.",
+      "explications_par_proposition": {
+        "A": "Vrai : seuil international de 100 G/L.",
+        "B": "Vrai : entre 3 et 12 mois.",
+        "C": "Vrai : au-delà de 12 mois.",
+        "D": "Faux : la réponse complète est définie par ≥ 100 G/L sans saignement.",
+        "E": "Vrai : lupus, LLC, VIH, VHC, médicaments, etc."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — définitions et terminologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Retenir le seuil de 150 G/L pour définir le PTI.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rodeghiero F et al. Blood 2009;113:2386-2393",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0814",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 45 ans, asymptomatique, a une numération plaquettaire à 18 G/L sur un bilan préopératoire ; l'examen clinique est normal. Quelle est la première démarche ?",
+      "propositions": {
+        "A": "Contrôler la numération sur un tube citraté.",
+        "B": "Réaliser un frottis sanguin à la recherche d'agrégats plaquettaires.",
+        "C": "Débuter immédiatement une corticothérapie.",
+        "D": "Transfuser des plaquettes avant l'intervention.",
+        "E": "Réaliser d'emblée une biopsie ostéomédullaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "Une thrombopénie profonde chez un sujet asymptomatique doit faire suspecter une fausse thrombopénie par agrégation plaquettaire in vitro induite par l'EDTA. Le frottis et la numération sur citrate la confirment ou l'éliminent avant toute décision.",
+      "explications_par_proposition": {
+        "A": "Vrai : le citrate évite l'agrégation EDTA-dépendante.",
+        "B": "Vrai : les agrégats sont visibles au frottis.",
+        "C": "Faux : pas avant d'avoir confirmé la thrombopénie.",
+        "D": "Faux : geste inutile et non justifié à ce stade.",
+        "E": "Faux : examen invasif non indiqué d'emblée."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — fausse thrombopénie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter une pseudothrombopénie à l'EDTA.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Provan D et al. Blood Adv 2019;3:3780-3817",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0815",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant une thrombopénie isolée à 25 G/L chez une femme de 28 ans, quels éléments de l'examen clinique doivent faire remettre en cause le diagnostic de PTI primaire ?",
+      "propositions": {
+        "A": "Une splénomégalie.",
+        "B": "Des adénopathies cervicales et axillaires.",
+        "C": "Un purpura pétéchial des membres inférieurs.",
+        "D": "Une fièvre à 39 °C avec purpura extensif.",
+        "E": "Des arthralgies inflammatoires et une éruption photosensible."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'examen d'un PTI primaire est normal en dehors du syndrome hémorragique. Splénomégalie, adénopathies, fièvre (purpura fébrile = purpura fulminans jusqu'à preuve du contraire) ou signes de lupus orientent vers une autre cause ou un PTI secondaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : hypersplénisme, hémopathie, infection.",
+        "B": "Vrai : lymphoprolifération, infection.",
+        "C": "Faux : c'est la manifestation typique du PTI.",
+        "D": "Vrai : urgence infectieuse (purpura fulminans) ou autre cause.",
+        "E": "Vrai : lupus systémique (PTI secondaire)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — examen clinique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. PNDS PTI de l'enfant et de l'adulte, 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0816",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels examens font partie du bilan initial recommandé chez un adulte suspect de PTI ?",
+      "propositions": {
+        "A": "Sérologies VIH, VHC et VHB.",
+        "B": "Dosage pondéral des immunoglobulines.",
+        "C": "Anticorps antinucléaires.",
+        "D": "Recherche systématique d'anticorps antiplaquettes (MAIPA) pour confirmer le diagnostic.",
+        "E": "Test direct à l'antiglobuline."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le bilan recherche une cause secondaire (VIH, VHC, VHB, lupus, déficit immunitaire) et un syndrome d'Evans. Le dosage des Ig est nécessaire avant IgIV ou rituximab. Les anticorps antiplaquettes ne sont pas recommandés en routine car un test négatif n'exclut pas le diagnostic.",
+      "explications_par_proposition": {
+        "A": "Vrai : PTI secondaires viraux et prérequis au rituximab (VHB).",
+        "B": "Vrai : DICV, déficit en IgA.",
+        "C": "Vrai : lupus systémique.",
+        "D": "Faux : sensibilité insuffisante, non recommandé en routine.",
+        "E": "Vrai : recherche d'une AHAI associée (syndrome d'Evans)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — bilan initial",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la recherche d'anticorps antiplaquettes est indispensable au diagnostic.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Provan D et al. Blood Adv 2019;3:3780-3817",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. PNDS PTI, 2017 ; synthèse adulte 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0817",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le myélogramme dans le bilan d'un PTI de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le consensus international de 2019 ne le juge pas nécessaire en cas de thrombopénie isolée typique avec frottis normal.",
+        "B": "Le PNDS français le recommande chez le sujet de plus de 60 ans.",
+        "C": "Il montre classiquement une moelle pauvre en mégacaryocytes dans le PTI.",
+        "D": "Il est indiqué en cas d'échec de la première ligne de traitement.",
+        "E": "Il est indiqué en cas d'anomalie des autres lignées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le myélogramme n'est pas nécessaire dans une forme typique (ASH, ICR), mais le PNDS le recommande après 60 ans (myélodysplasie), en cas d'atypie, d'échec thérapeutique ou avant splénectomie. Dans le PTI, la moelle est riche en mégacaryocytes.",
+      "explications_par_proposition": {
+        "A": "Vrai : position du consensus international 2019.",
+        "B": "Vrai : élimination d'une myélodysplasie.",
+        "C": "Faux : les mégacaryocytes sont normaux ou augmentés (origine périphérique).",
+        "D": "Vrai : remise en cause du diagnostic.",
+        "E": "Vrai : suspicion de cause centrale."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — indications du myélogramme",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Penser que la moelle est pauvre en mégacaryocytes dans le PTI.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Provan D et al. Blood Adv 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. PNDS PTI 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0818",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations ASH 2019, chez un adulte avec PTI nouvellement diagnostiqué, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Si les plaquettes sont ≥ 30 G/L sans saignement significatif, l'observation est recommandée plutôt que les corticoïdes.",
+        "B": "Si les plaquettes sont < 30 G/L, avec saignement mineur ou absent, une corticothérapie est suggérée plutôt que l'observation.",
+        "C": "La durée totale de prednisone ne doit pas dépasser 6 semaines.",
+        "D": "La dexaméthasone 40 mg/j pendant 4 jours est une alternative à la prednisone.",
+        "E": "L'objectif du traitement est de normaliser la numération plaquettaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'ASH 2019 recommande l'observation au-dessus de 30 G/L chez l'adulte peu symptomatique, suggère une corticothérapie en dessous, limite la prednisone à 6 semaines au total et admet la dexaméthasone. L'objectif est d'éviter les saignements graves, pas de normaliser la numération.",
+      "explications_par_proposition": {
+        "A": "Vrai : recommandation de l'ASH 2019.",
+        "B": "Vrai : suggestion de l'ASH 2019.",
+        "C": "Vrai : pour limiter la toxicité cumulative.",
+        "D": "Vrai : schéma alternatif.",
+        "E": "Faux : on vise une numération hémostatique, pas la normalisation."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — traitement de première ligne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Vouloir normaliser la numération.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Neunert C et al. ASH 2019 guidelines for ITP. Blood Adv 2019;3:3829-3866",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0819",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 70 ans sous aspirine présente un PTI avec plaquettes à 3 G/L, une hémorragie digestive extériorisée et des céphalées. Quelles mesures sont adaptées ?",
+      "propositions": {
+        "A": "Hospitalisation et arrêt de l'aspirine.",
+        "B": "Immunoglobulines intraveineuses associées à une corticothérapie intraveineuse à forte dose.",
+        "C": "Transfusion de plaquettes en association aux traitements spécifiques.",
+        "D": "Scanner cérébral en urgence.",
+        "E": "Splénectomie en première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Hémorragie grave chez une patiente âgée : urgence. Association IgIV + corticoïdes IV, transfusion de plaquettes (justifiée par l'hémorragie menaçante), arrêt des antiagrégants et recherche d'une hémorragie intracrânienne. La splénectomie d'urgence n'est qu'un recours exceptionnel.",
+      "explications_par_proposition": {
+        "A": "Vrai : mesure immédiate.",
+        "B": "Vrai : traitement de l'urgence hémorragique.",
+        "C": "Vrai : indication réservée aux hémorragies menaçantes, en association.",
+        "D": "Vrai : céphalées + thrombopénie profonde.",
+        "E": "Faux : recours exceptionnel, pas en première intention."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — urgence hémorragique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se contenter d'une transfusion isolée de plaquettes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Provan D et al. Blood Adv 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. PNDS PTI 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0820",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les agonistes du récepteur de la thrombopoïétine (AR-TPO) dans le PTI, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils stimulent la production plaquettaire par les mégacaryocytes.",
+        "B": "L'eltrombopag impose une surveillance du bilan hépatique.",
+        "C": "Le romiplostim s'administre par voie sous-cutanée hebdomadaire.",
+        "D": "Ils exposent à un risque thrombotique.",
+        "E": "Leur effet se maintient en général après arrêt brutal."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les AR-TPO corrigent la production insuffisante de plaquettes. Eltrombopag (oral, hépatotoxicité, interactions avec les cations), romiplostim (SC hebdomadaire), avatrombopag (oral). Effets indésirables : thromboses, fibrose réticulinique, rebond à l'arrêt ; l'effet est le plus souvent suspensif.",
+      "explications_par_proposition": {
+        "A": "Vrai : activation du récepteur c-MPL.",
+        "B": "Vrai : hépatotoxicité.",
+        "C": "Vrai : dose ajustée à la numération.",
+        "D": "Vrai : risque thrombotique à surveiller.",
+        "E": "Faux : rechute fréquente et rebond possible à l'arrêt brutal."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — AR-TPO",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Provan D et al. Blood Adv 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "Neunert C et al. Blood Adv 2019",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0821",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la splénectomie dans le PTI de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle doit être différée d'au moins 12 mois après le diagnostic.",
+        "B": "Les vaccinations antipneumococcique, antiméningococcique et anti-Haemophilus doivent être faites au moins 2 semaines avant.",
+        "C": "Elle expose à un risque thrombotique accru.",
+        "D": "Elle supprime définitivement le risque infectieux après 5 ans.",
+        "E": "Elle obtient une réponse prolongée chez une majorité de patients."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La splénectomie est différée de 12 mois (rémissions spontanées possibles). Elle nécessite des vaccinations préalables, une éducation (fièvre = urgence) et expose à un risque thrombotique. Le risque d'infection fulminante persiste à vie.",
+      "explications_par_proposition": {
+        "A": "Vrai : ASH 2019 et consensus international.",
+        "B": "Vrai : idéalement 2 à 4 semaines avant.",
+        "C": "Vrai : thromboses veineuses dont portales.",
+        "D": "Faux : risque à vie d'infection fulminante.",
+        "E": "Vrai : environ deux tiers de réponses prolongées (ordre de grandeur classique)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — splénectomie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Splénectomie précoce sans vaccination.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Neunert C et al. Blood Adv 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "Provan D et al. Blood Adv 2019",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0822",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le rituximab dans le PTI, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une sérologie de l'hépatite B est indispensable avant traitement.",
+        "B": "Il abolit la réponse vaccinale pendant plusieurs mois.",
+        "C": "Il expose à une hypogammaglobulinémie.",
+        "D": "Il est le traitement de première ligne du PTI nouvellement diagnostiqué non hémorragique.",
+        "E": "Un schéma de 375 mg/m² hebdomadaire pendant 4 semaines est couramment utilisé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le rituximab est un traitement de deuxième ligne du PTI. Il impose une sérologie VHB (réactivation), la mise à jour des vaccinations avant traitement et la surveillance des immunoglobulines.",
+      "explications_par_proposition": {
+        "A": "Vrai : risque de réactivation du VHB.",
+        "B": "Vrai : vacciner avant si possible.",
+        "C": "Vrai : surveillance des Ig.",
+        "D": "Faux : deuxième ligne.",
+        "E": "Vrai : schéma usuel (alternative : 1 000 mg à J1 et J15)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — rituximab",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la sérologie VHB avant rituximab.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Provan D et al. Blood Adv 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. PNDS PTI 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0823",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 29 ans enceinte de 34 semaines a des plaquettes à 85 G/L ; la numération était normale avant la grossesse ; la PA est normale et il n'y a pas de protéinurie. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une thrombopénie gestationnelle est l'hypothèse la plus probable.",
+        "B": "Une prééclampsie avec HELLP syndrome doit être éliminée.",
+        "C": "Une césarienne systématique est indiquée.",
+        "D": "La thrombopénie gestationnelle se corrige habituellement après l'accouchement.",
+        "E": "Une corticothérapie à forte dose est indispensable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Thrombopénie modérée du 3e trimestre, sans antécédent ni signe de prééclampsie : thrombopénie gestationnelle probable, bénigne et régressive après l'accouchement. Le HELLP doit être éliminé. Le mode d'accouchement repose sur des critères obstétricaux.",
+      "explications_par_proposition": {
+        "A": "Vrai : profil typique.",
+        "B": "Vrai : diagnostic différentiel urgent.",
+        "C": "Faux : aucune indication liée à la thrombopénie elle-même.",
+        "D": "Vrai : normalisation en post-partum.",
+        "E": "Faux : pas de traitement nécessaire à ce niveau."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Indiquer une césarienne pour une thrombopénie modérée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Provan D et al. Blood Adv 2019",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0824",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un garçon de 4 ans présente un purpura pétéchial diffus sans saignement muqueux, 3 semaines après une varicelle ; plaquettes 12 G/L, hémogramme sinon normal, examen normal. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le diagnostic de PTI aigu post-infectieux est le plus probable.",
+        "B": "Une guérison spontanée est l'évolution la plus fréquente.",
+        "C": "L'ASH 2019 propose une surveillance simple chez l'enfant sans saignement ou avec saignement cutané seul.",
+        "D": "Une splénectomie doit être programmée.",
+        "E": "Les injections intramusculaires et l'aspirine doivent être évitées."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le PTI de l'enfant succède souvent à une infection virale et guérit spontanément dans la majorité des cas. En l'absence de saignement muqueux, l'abstention-surveillance est recommandée (ASH 2019, PNDS enfant 2025). Mesures de prévention hémorragique.",
+      "explications_par_proposition": {
+        "A": "Vrai : tableau typique.",
+        "B": "Vrai : rémission spontanée majoritaire.",
+        "C": "Vrai : recommandation de l'ASH chez l'enfant.",
+        "D": "Faux : jamais dans un PTI aigu de l'enfant.",
+        "E": "Vrai : prévention des saignements."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-113"
+      ],
+      "theme": "PTI — enfant",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter systématiquement un enfant sur le seul chiffre de plaquettes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Neunert C et al. Blood Adv 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. PNDS PTI de l'enfant et de l'adolescent, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0825",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme atteint d'hémophilie A sévère a des enfants avec une femme non conductrice et non apparentée. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Tous ses fils seront indemnes.",
+        "B": "Toutes ses filles seront conductrices obligatoires.",
+        "C": "La moitié de ses fils seront hémophiles.",
+        "D": "Ses petits-fils nés de ses filles ont un risque de 50 % d'être hémophiles.",
+        "E": "La transmission est autosomique récessive."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Transmission récessive liée à l'X : le père transmet son X à toutes ses filles (conductrices obligatoires) et son Y à ses fils (indemnes). Chaque fils d'une conductrice a un risque de 1/2 d'être atteint.",
+      "explications_par_proposition": {
+        "A": "Vrai : ils reçoivent le chromosome Y paternel.",
+        "B": "Vrai : elles reçoivent l'X porteur.",
+        "C": "Faux : aucun fils n'est atteint par transmission paternelle.",
+        "D": "Vrai : chaque fils d'une conductrice a un risque de 50 %.",
+        "E": "Faux : récessive liée à l'X."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — transmission génétique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Penser qu'un père hémophile transmet la maladie à ses fils.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Srivastava A et al. WFH Guidelines, 3rd ed. Haemophilia 2020;26(Suppl 6):1-158",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0826",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la classification de sévérité de l'hémophilie (ISTH 2014, WFH 2020), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une hémophilie sévère correspond à un taux de facteur < 1 UI/dL.",
+        "B": "Une hémophilie modérée correspond à un taux de 1 à 5 UI/dL.",
+        "C": "Une hémophilie mineure correspond à un taux > 5 et < 40 UI/dL.",
+        "D": "Les hémarthroses spontanées sont typiques des formes mineures.",
+        "E": "Une conductrice ayant un taux < 40 UI/dL est considérée comme ayant une hémophilie mineure."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La sévérité se définit par le taux de facteur : sévère < 1, modérée 1–5, mineure > 5 à < 40 UI/dL. Les saignements spontanés caractérisent les formes sévères ; les formes mineures saignent après traumatisme ou chirurgie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : les saignements spontanés sont propres aux formes sévères.",
+        "E": "Vrai : selon la WFH 2020."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — sévérité",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "Blanchette VS et al. J Thromb Haemost 2014 [à vérifier]",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0827",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un garçon de 14 mois présente un volumineux hématome de la cuisse après une vaccination intramusculaire. TP 92 %, TCA 78 s (témoin 32 s), plaquettes 310 G/L. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un test de correction du TCA par plasma témoin est indiqué.",
+        "B": "Un dosage des facteurs VIII, IX et XI est indiqué.",
+        "C": "Le dosage du facteur Willebrand est utile au diagnostic différentiel.",
+        "D": "Une maltraitance doit être retenue en priorité.",
+        "E": "Un TP normal élimine un déficit en facteur IX."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "TCA isolément allongé chez un garçon avec hématome après IM : hémophilie jusqu'à preuve du contraire. Correction par plasma témoin, dosages des facteurs de la voie intrinsèque et du facteur Willebrand (type 3 ou 2N).",
+      "explications_par_proposition": {
+        "A": "Vrai : distingue déficit et anticoagulant circulant.",
+        "B": "Vrai : FVIII (hémophilie A), FIX (B), FXI.",
+        "C": "Vrai : Willebrand type 3 ou 2N peuvent abaisser le FVIII.",
+        "D": "Faux : le bilan d'hémostase est anormal ; la maltraitance se discute quand il est normal.",
+        "E": "Faux : le TP explore la voie extrinsèque ; il est normal dans l'hémophilie B."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — diagnostic biologique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire qu'un TP normal élimine une hémophilie B.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0828",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un hémophile A sévère de 60 kg présente une hémarthrose du genou. On souhaite un pic de FVIII d'environ 50 UI/dL. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dose à injecter est d'environ 1 500 UI de FVIII.",
+        "B": "La dose à injecter est d'environ 3 000 UI de FVIII.",
+        "C": "L'injection doit être réalisée le plus tôt possible.",
+        "D": "Un AINS est l'antalgique de choix.",
+        "E": "Une immobilisation courte suivie d'une rééducation précoce est recommandée."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Pour le FVIII, 1 UI/kg élève le taux d'environ 2 UI/dL : dose = poids × élévation × 0,5 = 60 × 50 × 0,5 = 1 500 UI. Traitement précoce, immobilisation courte, glace, antalgiques sans AINS classiques, puis rééducation.",
+      "explications_par_proposition": {
+        "A": "Vrai : 60 × 50 × 0,5.",
+        "B": "Faux : ce calcul correspondrait au FIX (coefficient 1).",
+        "C": "Vrai : idéalement dans les 2 heures.",
+        "D": "Faux : AINS classiques et aspirine sont contre-indiqués.",
+        "E": "Vrai : prévention de l'amyotrophie et de la raideur."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — calcul de dose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les coefficients FVIII (0,5) et FIX (1).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0829",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un hémophile A sévère de 19 ans fait une chute à moto avec traumatisme crânien ; il est conscient, se plaint de céphalées. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le FVIII doit être injecté avant la réalisation du scanner.",
+        "B": "Un scanner cérébral normal permet un retour immédiat à domicile sans surveillance.",
+        "C": "Le niveau initial visé est élevé (de l'ordre de 80–100 UI/dL).",
+        "D": "Une hémorragie intracrânienne peut survenir de façon retardée.",
+        "E": "Une ponction lombaire est indiquée pour éliminer une hémorragie méningée."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Chez l'hémophile, tout traumatisme crânien significatif impose l'injection immédiate de facteur à dose élevée avant l'imagerie. Le saignement peut être retardé : surveillance même si le scanner est normal. Les gestes invasifs non couverts sont proscrits.",
+      "explications_par_proposition": {
+        "A": "Vrai : « facteur d'abord ».",
+        "B": "Faux : surveillance nécessaire (hémorragie retardée).",
+        "C": "Vrai : niveaux WFH pour les saignements du SNC.",
+        "D": "Vrai : d'où la surveillance.",
+        "E": "Faux : geste invasif non indiqué et dangereux sans couverture."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — urgence neurologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre l'imagerie avant d'injecter le facteur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0830",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un hémophile A sévère présente une douleur de la fosse iliaque droite, une flexion irréductible de la hanche et une hypoesthésie de la face antérieure de la cuisse. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un hématome du psoas est le diagnostic le plus probable.",
+        "B": "Il s'agit d'un saignement grave pouvant entraîner une anémie aiguë.",
+        "C": "Une échographie ou un scanner confirme le diagnostic.",
+        "D": "Une appendicectomie en urgence est indiquée sans couverture de facteur.",
+        "E": "L'atteinte sensitive témoigne d'une compression du nerf fémoral."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'hématome du psoas associe douleur iliaque ou inguinale, psoïtis et souvent atteinte du nerf fémoral ; il peut mimer une appendicite à droite. C'est un saignement grave : hospitalisation, substitution à niveaux élevés et prolongée, imagerie.",
+      "explications_par_proposition": {
+        "A": "Vrai : tableau typique.",
+        "B": "Vrai : saignement rétropéritonéal abondant possible.",
+        "C": "Vrai : imagerie de confirmation et de suivi.",
+        "D": "Faux : erreur classique ; aucun geste sans substitution, et le diagnostic est différent.",
+        "E": "Vrai : déficit sensitif de la face antérieure de cuisse, réflexe rotulien diminué."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — hématome du psoas",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre hématome du psoas droit et appendicite.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0831",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les inhibiteurs chez l'hémophile, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ce sont des allo-anticorps dirigés contre le facteur perfusé.",
+        "B": "Ils sont plus fréquents dans l'hémophilie A sévère que dans l'hémophilie B.",
+        "C": "Ils sont titrés par la méthode Bethesda (modification de Nijmegen).",
+        "D": "Un titre ≥ 5 UB/mL définit un fort répondeur.",
+        "E": "Ils apparaissent surtout après plusieurs centaines de jours d'exposition."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les inhibiteurs sont des allo-anticorps neutralisants apparaissant surtout pendant les 50 premiers jours d'exposition, plus fréquents dans l'hémophilie A sévère. Le seuil de 5 UB/mL sépare faibles et forts répondeurs ; ces derniers relèvent des by-passants, de l'émicizumab et de l'ITI.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : méthode recommandée par la WFH.",
+        "D": "Vrai.",
+        "E": "Faux : le risque est maximal pendant les premiers jours d'exposition."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — inhibiteurs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0832",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'émicizumab, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "C'est un anticorps bispécifique rapprochant le FIXa et le FX.",
+        "B": "Il est indiqué en prophylaxie de l'hémophilie A, avec ou sans inhibiteur.",
+        "C": "Il est indiqué dans l'hémophilie B.",
+        "D": "Il normalise artificiellement le TCA, ce qui fausse les dosages chronométriques du FVIII.",
+        "E": "Il est le traitement de choix d'une hémarthrose aiguë."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'émicizumab mime la fonction cofacteur du FVIIIa ; il est utilisé en prophylaxie sous-cutanée de l'hémophilie A, y compris avec inhibiteur. Il interfère avec les tests fondés sur le TCA. Les saignements aigus se traitent par FVIII ou rFVIIa.",
+      "explications_par_proposition": {
+        "A": "Vrai : mécanisme d'action.",
+        "B": "Vrai : HAVEN 1 à 4.",
+        "C": "Faux : aucun effet sur le déficit en FIX (il nécessite le FIXa).",
+        "D": "Vrai : utiliser des méthodes chromogéniques bovines.",
+        "E": "Faux : pas d'usage pour traiter un saignement aigu."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — émicizumab",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": "Interpréter un TCA normal sous émicizumab comme une correction du déficit.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mahlangu J et al. HAVEN 3. N Engl J Med 2018 [pagination à vérifier]",
+          "date": "2018"
+        },
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0833",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la desmopressine (DDAVP) dans l'hémophilie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est utile dans l'hémophilie A mineure.",
+        "B": "Elle est efficace dans l'hémophilie B.",
+        "C": "Un test thérapeutique préalable est recommandé.",
+        "D": "Elle expose à une hyponatrémie par rétention hydrique.",
+        "E": "Son efficacité augmente avec la répétition rapprochée des doses."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La desmopressine libère le FVIII et le facteur Willebrand endothéliaux : utile dans l'hémophilie A mineure chez les répondeurs (test préalable). Inefficace dans l'hémophilie B et l'hémophilie A sévère. Risques : hyponatrémie, tachyphylaxie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : elle n'élève pas le FIX.",
+        "C": "Vrai : la réponse est individuelle.",
+        "D": "Vrai : restriction hydrique recommandée.",
+        "E": "Faux : tachyphylaxie (épuisement des stocks endothéliaux)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — desmopressine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire la desmopressine dans l'hémophilie B.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0834",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prophylaxie dans l'hémophilie sévère selon la WFH (2020), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est recommandée pour les hémophiles sévères A et B.",
+        "B": "La prophylaxie primaire débute avant 3 ans et avant la 2e hémarthrose cliniquement évidente.",
+        "C": "La prophylaxie à faible dose n'a aucun intérêt par rapport au traitement à la demande.",
+        "D": "Elle prévient l'arthropathie hémophilique.",
+        "E": "Elle peut reposer sur l'émicizumab dans l'hémophilie A."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La WFH 2020 recommande la prophylaxie (idéalement primaire) dans les formes sévères ; elle prévient l'arthropathie. Même à faible dose, elle reste préférable au traitement à la demande dans les pays à ressources limitées. L'émicizumab est une option dans l'hémophilie A.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : définition WFH de la prophylaxie primaire.",
+        "C": "Faux : la WFH reconnaît son bénéfice.",
+        "D": "Vrai : objectif principal.",
+        "E": "Vrai : avec ou sans inhibiteur."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — prophylaxie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0835",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 74 ans sans antécédent hémorragique présente de vastes ecchymoses des bras et du tronc. TP normal, TCA 68 s (témoin 30 s) non corrigé après incubation à 37 °C avec le plasma témoin, FVIII 3 UI/dL. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une hémophilie A acquise est le diagnostic le plus probable.",
+        "B": "Il s'agit d'un auto-anticorps anti-FVIII.",
+        "C": "Un cancer ou une maladie auto-immune doivent être recherchés.",
+        "D": "Le traitement des saignements repose sur les concentrés de FVIII à dose standard.",
+        "E": "Une immunosuppression est indiquée pour éradiquer l'anticorps."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Syndrome hémorragique récent chez une personne âgée sans antécédent, TCA non corrigé (inhibiteur temps-dépendant) et FVIII bas : hémophilie A acquise. Saignements traités par agents by-passants (ou FVIII porcin recombinant), éradication de l'auto-anticorps par immunosuppression, recherche d'une cause.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : auto-anticorps (et non allo-anticorps).",
+        "C": "Vrai : causes secondaires fréquentes.",
+        "D": "Faux : le FVIII est neutralisé ; by-passants en première intention.",
+        "E": "Vrai : corticoïdes ± cyclophosphamide ou rituximab."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — hémophilie acquise",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Évoquer une hémophilie constitutionnelle chez une femme âgée sans antécédent.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. PNDS Hémophilie A acquise [date à préciser]",
+          "date": "2026"
+        },
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0836",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme dont le frère est hémophile A sévère est enceinte d'un garçon. Quelles mesures sont adaptées ?",
+      "propositions": {
+        "A": "Déterminer son statut de conductrice (dosage du FVIII et analyse génétique).",
+        "B": "Un taux de FVIII normal suffit à éliminer le statut de conductrice.",
+        "C": "Éviter ventouse, forceps et électrodes de scalp si elle est conductrice.",
+        "D": "Doser le FVIII au sang du cordon à la naissance.",
+        "E": "Réaliser les vaccins du nouveau-né par voie intramusculaire profonde."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La sœur d'un hémophile est conductrice potentielle (risque 1/2). Le statut se détermine par analyse génétique (un taux normal ne l'élimine pas). L'accouchement d'un garçon potentiellement atteint évite les instruments ; dosage au cordon ; vaccinations SC en cas d'hémophilie confirmée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la lyonisation rend le taux variable ; seule la génétique tranche.",
+        "C": "Vrai : prévention de l'hémorragie intracrânienne néonatale.",
+        "D": "Vrai : diagnostic néonatal (FVIII fiable dès la naissance).",
+        "E": "Faux : voie SC à privilégier."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-114"
+      ],
+      "theme": "Hémophilie — conductrices et naissance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer le statut de conductrice sur un taux normal de FVIII.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "WFH Guidelines 3rd ed. 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "HAS. PNDS Hémophilie 2019/2023",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0837",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les critères de l'IMWG (2014), quels éléments constituent des événements définissant le myélome ?",
+      "propositions": {
+        "A": "Calcémie > 2,75 mmol/L attribuable à la prolifération plasmocytaire.",
+        "B": "Clairance de la créatinine < 40 mL/min attribuable au myélome.",
+        "C": "Plasmocytose médullaire clonale ≥ 60 %.",
+        "D": "Rapport chaînes légères libres impliquée/non impliquée ≥ 100.",
+        "E": "Pic monoclonal sérique ≥ 30 g/L isolé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les événements définissant le myélome comprennent les critères CRAB (hypercalcémie, insuffisance rénale, anémie, lésions osseuses) et trois biomarqueurs SLiM (plasmocytes ≥ 60 %, rapport des chaînes libres ≥ 100, > 1 lésion focale en IRM). Un pic ≥ 30 g/L isolé définit un myélome indolent, pas un myélome symptomatique.",
+      "explications_par_proposition": {
+        "A": "Vrai : critère C.",
+        "B": "Vrai : critère R (ou créatinine > 177 µmol/L).",
+        "C": "Vrai : biomarqueur S.",
+        "D": "Vrai : biomarqueur Li (chaîne impliquée ≥ 100 mg/L).",
+        "E": "Faux : critère de myélome indolent en l'absence d'événement."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — critères IMWG",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Considérer un pic ≥ 30 g/L comme un critère de traitement.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rajkumar SV et al. IMWG updated criteria. Lancet Oncol 2014;15:e538-e548",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0838",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 63 ans a un pic IgG κ à 18 g/L découvert fortuitement ; plasmocytose médullaire 6 % ; hémogramme, calcémie, créatinine et scanner corps entier normaux. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une MGUS.",
+        "B": "Un traitement par lénalidomide est indiqué.",
+        "C": "Une surveillance clinique et biologique est recommandée.",
+        "D": "Le risque de progression vers un myélome est d'environ 1 % par an.",
+        "E": "La normalité du rapport des chaînes légères libres est un élément pronostique favorable."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Pic < 30 g/L, plasmocytes < 10 %, aucun événement : MGUS non-IgM. Pas de traitement ; surveillance adaptée au risque (isotype, taille du pic, rapport des chaînes libres). Le risque moyen de progression est d'environ 1 % par an.",
+      "explications_par_proposition": {
+        "A": "Vrai : critères IMWG.",
+        "B": "Faux : la MGUS ne se traite pas.",
+        "C": "Vrai.",
+        "D": "Vrai : ordre de grandeur classique.",
+        "E": "Vrai : un rapport anormal augmente le risque de progression."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — MGUS",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter une MGUS.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rajkumar SV et al. Lancet Oncol 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0839",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le bilan protéique d'un myélome à chaînes légères, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'électrophorèse des protéines sériques peut ne pas montrer de pic.",
+        "B": "Une hypogammaglobulinémie est évocatrice.",
+        "C": "La bandelette urinaire détecte de façon fiable la protéinurie de Bence Jones.",
+        "D": "Le dosage des chaînes légères libres sériques est indispensable.",
+        "E": "L'immunofixation urinaire permet de typer la protéinurie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Dans le myélome à chaînes légères, l'EPP peut être normale ou montrer une hypogammaglobulinémie ; la protéinurie de Bence Jones est mal détectée par la bandelette (sensible à l'albumine). Le diagnostic repose sur les chaînes légères libres sériques et l'immunofixation.",
+      "explications_par_proposition": {
+        "A": "Vrai : les chaînes libres sont filtrées par le rein.",
+        "B": "Vrai : effondrement des Ig polyclonales.",
+        "C": "Faux : la bandelette détecte mal les chaînes légères.",
+        "D": "Vrai : diagnostic et suivi.",
+        "E": "Vrai : identification κ ou λ."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — bilan protéique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer un myélome sur une EPP sans pic.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dimopoulos MA et al. EHA-ESMO 2021. Ann Oncol 2021;32:309-322",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0840",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'imagerie du myélome multiple selon les recommandations européennes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le scanner corps entier faible dose est plus sensible que les radiographies standard pour détecter les lésions lytiques.",
+        "B": "La scintigraphie osseuse est l'examen de référence.",
+        "C": "L'IRM est l'examen de choix devant une suspicion de compression médullaire.",
+        "D": "Plus d'une lésion focale en IRM constitue un événement définissant le myélome.",
+        "E": "L'injection de produit de contraste iodé est sans risque rénal dans le myélome."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les lésions du myélome sont purement lytiques (activité ostéoblastique inhibée) : la scintigraphie est souvent négative. Scanner faible dose en première intention, IRM pour la moelle épinière et le myélome indolent, TEP pour l'activité et la maladie extramédullaire. Les produits de contraste iodés favorisent l'insuffisance rénale aiguë.",
+      "explications_par_proposition": {
+        "A": "Vrai : recommandation EHA-ESMO.",
+        "B": "Faux : faux négatifs fréquents.",
+        "C": "Vrai : urgence diagnostique.",
+        "D": "Vrai : critère M (SLiM).",
+        "E": "Faux : risque de néphropathie, surtout si déshydratation."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — imagerie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Demander une scintigraphie osseuse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dimopoulos MA et al. Ann Oncol 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Rajkumar SV et al. Lancet Oncol 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0841",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les systèmes pronostiques du myélome, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'ISS repose sur la β2-microglobuline et l'albumine.",
+        "B": "Le R-ISS intègre la cytogénétique de haut risque et les LDH.",
+        "C": "Dans le R-ISS, del(17p), t(4;14) et t(14;16) sont des anomalies de haut risque.",
+        "D": "Le R2-ISS attribue des points au gain/amplification 1q.",
+        "E": "Le R2-ISS a été construit à partir de moins de 500 patients."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "ISS (β2m, albumine) → R-ISS (+ cytogénétique haut risque, LDH ; survie à 5 ans 82/62/40 %) → R2-ISS (score additif : ISS II 1, ISS III 1,5, del17p 1, LDH 1, t(4;14) 1, 1q+ 0,5), construit sur 10 843 patients de 16 essais.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : 0,5 point.",
+        "E": "Faux : 10 843 patients (EMN/HARMONY)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — pronostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Palumbo A et al. J Clin Oncol 2015;33:2863-2869",
+          "date": "2015"
+        },
+        {
+          "reference": "D'Agostino M et al. J Clin Oncol 2022;40:3406-3418",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0842",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un myélomateux de 70 ans présente une créatinine passée de 110 à 410 µmol/L en 10 jours après la prise d'ibuprofène ; chaînes légères λ libres à 6 200 mg/L. Quelles mesures sont adaptées ?",
+      "propositions": {
+        "A": "Arrêt de l'ibuprofène.",
+        "B": "Hydratation abondante si l'état cardiaque le permet.",
+        "C": "Traitement antimyélomateux immédiat à base de bortezomib et de dexaméthasone.",
+        "D": "Scanner abdominal avec injection de produit de contraste iodé pour explorer les reins.",
+        "E": "Différer le traitement du myélome jusqu'à la récupération rénale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Insuffisance rénale aiguë probablement par néphropathie à cylindres myélomateux : urgence. Arrêt des néphrotoxiques, hydratation, correction d'une hypercalcémie, et réduction rapide des chaînes légères par un traitement à base de bortezomib et de dexaméthasone à forte dose.",
+      "explications_par_proposition": {
+        "A": "Vrai : AINS néphrotoxique.",
+        "B": "Vrai : réduit la précipitation des cylindres.",
+        "C": "Vrai : rapidité d'action, pas d'adaptation rénale du bortezomib.",
+        "D": "Faux : produit de contraste iodé à éviter.",
+        "E": "Faux : la récupération rénale dépend de la baisse rapide des chaînes légères."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — insuffisance rénale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre la récupération rénale avant de traiter le myélome.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dimopoulos MA et al. Ann Oncol 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0843",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un myélomateux présente des rachialgies dorsales intenses depuis 48 heures, une faiblesse des membres inférieurs et une rétention urinaire. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une compression médullaire doit être suspectée.",
+        "B": "Une IRM médullaire en urgence est indiquée.",
+        "C": "Une dexaméthasone à forte dose doit être débutée sans attendre.",
+        "D": "La radiothérapie et/ou la chirurgie décompressive sont des options thérapeutiques.",
+        "E": "Une scintigraphie osseuse est l'examen à demander en premier."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Déficit moteur et troubles sphinctériens chez un myélomateux : compression médullaire jusqu'à preuve du contraire. Corticothérapie à forte dose immédiate, IRM en urgence, radiothérapie et/ou chirurgie (instabilité, compression osseuse), puis traitement systémique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : effet anti-œdémateux et antimyélomateux.",
+        "D": "Vrai : selon le mécanisme et la stabilité.",
+        "E": "Faux : scintigraphie inadaptée et non urgente."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — compression médullaire",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dimopoulos MA et al. Ann Oncol 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0844",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de première ligne d'un myélome chez un patient de 58 ans éligible à l'autogreffe, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'essai PERSEUS a montré un bénéfice en survie sans progression de l'ajout du daratumumab au VRd.",
+        "B": "L'intensification repose sur le melphalan à haute dose suivi d'une autogreffe.",
+        "C": "Un entretien par lénalidomide est recommandé après l'autogreffe.",
+        "D": "L'objectif d'une réponse profonde (MRD négative) est associé à un meilleur pronostic.",
+        "E": "Le traitement de première ligne repose sur le melphalan–prednisone."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Chez le patient éligible : induction par quadruplet à base d'anti-CD38 (Dara-VRd, PERSEUS), MEL200 + autogreffe, consolidation, entretien lénalidomide (± daratumumab). La profondeur de la réponse et la négativité de la MRD sont pronostiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : Sonneveld NEJM 2024.",
+        "B": "Vrai.",
+        "C": "Vrai : jusqu'à progression ou durée définie.",
+        "D": "Vrai : critères IMWG 2016.",
+        "E": "Faux : schéma historique, abandonné chez le patient éligible."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — traitement du patient éligible",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sonneveld P et al. PERSEUS. N Engl J Med 2024;390:301-313",
+          "date": "2024"
+        },
+        {
+          "reference": "Dimopoulos MA et al. EHA-EMN 2025. Nat Rev Clin Oncol 2025;22:680-700",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0845",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement d'un myélome chez un patient de 78 ans non éligible à l'autogreffe, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'association daratumumab–lénalidomide–dexaméthasone (Dara-Rd) est une option de première ligne.",
+        "B": "L'essai IMROZ a montré un bénéfice de l'ajout de l'isatuximab au VRd.",
+        "C": "L'intensité du traitement doit être adaptée à la fragilité.",
+        "D": "Une autogreffe est systématique après 75 ans.",
+        "E": "Une thromboprophylaxie est nécessaire sous lénalidomide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Chez le patient non éligible : Dara-Rd (MAIA), Isa-VRd (IMROZ) ou VRd, en adaptant les doses à la fragilité. Thromboprophylaxie sous immunomodulateurs.",
+      "explications_par_proposition": {
+        "A": "Vrai : MAIA.",
+        "B": "Vrai : réduction d'environ 40 % du risque de progression ou de décès.",
+        "C": "Vrai : évaluation gériatrique.",
+        "D": "Faux : non éligible par définition.",
+        "E": "Vrai : risque thromboembolique des IMiD."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — patient non éligible",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Facon T et al. IMROZ. N Engl J Med 2024;391:1597-1609",
+          "date": "2024"
+        },
+        {
+          "reference": "Facon T et al. MAIA. N Engl J Med 2019 [à vérifier]",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0846",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les traitements de support du myélome, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un bisphosphonate ou le dénosumab est indiqué chez les patients traités pour un myélome symptomatique.",
+        "B": "Un bilan dentaire est recommandé avant leur instauration.",
+        "C": "Le dénosumab est utilisable en cas d'insuffisance rénale.",
+        "D": "Une prophylaxie antivirale contre le zona est recommandée sous bortezomib.",
+        "E": "Les AINS sont les antalgiques de choix des douleurs osseuses."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les antirésorptifs osseux réduisent les événements osseux ; leur principal risque est l'ostéonécrose de la mâchoire (bilan dentaire). Le dénosumab n'est pas éliminé par le rein. Prophylaxie antivirale sous inhibiteurs du protéasome et anti-CD38. Les AINS sont à proscrire (néphrotoxicité).",
+      "explications_par_proposition": {
+        "A": "Vrai : EHA-ESMO 2021.",
+        "B": "Vrai : prévention de l'ostéonécrose.",
+        "C": "Vrai : surveillance de l'hypocalcémie.",
+        "D": "Vrai : risque de réactivation du VZV.",
+        "E": "Faux : néphrotoxiques."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — traitements de support",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire un AINS à un myélomateux.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Dimopoulos MA et al. Ann Oncol 2021",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0847",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon une série de 2 121 gammapathies monoclonales diagnostiquées au CHU de Beni Messous (Alger) entre 1998 et 2016, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le myélome multiple représentait plus de la moitié des diagnostics.",
+        "B": "La MGUS représentait environ un tiers des diagnostics.",
+        "C": "L'isotype IgG était le plus fréquent.",
+        "D": "Les auteurs rapportent une fréquence plus élevée du myélome à chaînes légères que dans les séries occidentales.",
+        "E": "L'isotype IgM était plus fréquent que dans les séries occidentales."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La série de Belouni et al. (2020) retrouve MM 55,2 %, MGUS 34,1 %, IgG 60,9 %, IgA 17,9 %, chaînes légères 10,5 %, IgM 6,6 % ; les auteurs notent plus de myélomes à chaînes légères et moins d'IgM que dans les séries occidentales.",
+      "explications_par_proposition": {
+        "A": "Vrai : 55,2 %.",
+        "B": "Vrai : 34,1 %.",
+        "C": "Vrai : 60,9 %.",
+        "D": "Vrai.",
+        "E": "Faux : fréquence plus faible de l'IgM."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — données algériennes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Extrapoler une série hospitalière à la population générale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Belouni R et al. Curr Res Transl Med 2020;68:67-70",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0848",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'évaluation de la réponse au traitement du myélome (IMWG 2016), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La réponse complète exige une immunofixation sérique et urinaire négative.",
+        "B": "Une réduction d'au moins 50 % du pic sérique définit au minimum une réponse partielle (avec les critères urinaires).",
+        "C": "La maladie résiduelle minimale est évaluée avec une sensibilité d'au moins 10⁻⁵.",
+        "D": "Les anticorps anti-CD38 peuvent interférer avec l'immunofixation.",
+        "E": "La très bonne réponse partielle correspond à une protéine monoclonale indétectable par immunofixation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Réponse complète : immunofixation négative, plasmocytes < 5 %, disparition des plasmocytomes. TBRP : protéine détectable par immunofixation mais pas par électrophorèse (ou réduction ≥ 90 %). La MRD se mesure par cytométrie de nouvelle génération ou séquençage (≥ 10⁻⁵). Le daratumumab (IgG κ) peut créer une bande à l'immunofixation.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : interférence connue (IgG κ thérapeutique).",
+        "E": "Faux : en TBRP, la protéine reste détectable par immunofixation."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-115"
+      ],
+      "theme": "Myélome — critères de réponse",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar S et al. IMWG response criteria. Lancet Oncol 2016;17:e328-e346",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0849",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'immunophénotype des cellules de Reed-Sternberg du lymphome de Hodgkin classique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles expriment le CD30.",
+        "B": "Elles expriment le CD15 dans la majorité des cas.",
+        "C": "Elles expriment fortement le CD20 et le CD45.",
+        "D": "Elles expriment faiblement PAX5.",
+        "E": "Elles peuvent être infectées par l'EBV."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les cellules de Hodgkin/Reed-Sternberg sont CD30+, CD15+ (majorité), PAX5 faible, CD20 négatif ou hétérogène, CD45 négatif ; l'EBV est présent dans une partie des cas (surtout cellularité mixte). Le profil CD20+ CD45+ CD30− caractérise les cellules LP du LHNPL.",
+      "explications_par_proposition": {
+        "A": "Vrai : marqueur constant, cible du brentuximab vedotin.",
+        "B": "Vrai.",
+        "C": "Faux : profil du LHNPL.",
+        "D": "Vrai : témoin de l'origine B.",
+        "E": "Vrai : EBER/LMP1 positifs dans une fraction des cas."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — immunohistochimie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre LH classique et LHNPL.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Alaggio R et al. WHO-HAEM5 lymphoid. Leukemia 2022;36:1720-1748",
+          "date": "2022"
+        },
+        {
+          "reference": "Campo E et al. ICC 2022. Blood 2022;140:1229-1253",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0850",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les sous-types histologiques du lymphome de Hodgkin classique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La forme scléronodulaire est la plus fréquente dans les pays occidentaux.",
+        "B": "La forme scléronodulaire est fréquemment associée à une atteinte médiastinale chez l'adulte jeune.",
+        "C": "La forme à cellularité mixte est fréquemment associée à l'EBV.",
+        "D": "La forme à déplétion lymphocytaire est la plus fréquente chez la femme jeune.",
+        "E": "Le LH nodulaire à prédominance lymphocytaire est un sous-type du LH classique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le LHc comprend quatre sous-types : scléronodulaire (le plus fréquent, femme jeune, médiastin), cellularité mixte (EBV+, homme, enfant, sujet âgé, pays en développement, VIH), riche en lymphocytes, déplétion lymphocytaire (rare, sujet âgé, VIH). Le LHNPL est une entité distincte.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : forme rare, sujet âgé et VIH.",
+        "E": "Faux : entité distincte (lymphome B nodulaire à prédominance lymphocytaire dans l'ICC 2022)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — classification histologique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Alaggio R et al. Leukemia 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0851",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic du lymphome de Hodgkin, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La biopsie-exérèse ganglionnaire est l'examen de référence.",
+        "B": "Une cytoponction ganglionnaire suffit à poser le diagnostic.",
+        "C": "Une biopsie au trocart est acceptable si l'exérèse n'est pas réalisable.",
+        "D": "Une corticothérapie d'épreuve peut précéder la biopsie pour réduire une masse médiastinale non compressive.",
+        "E": "L'immunohistochimie est indispensable."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le diagnostic repose sur l'histologie (architecture + cellules de Reed-Sternberg) et l'immunohistochimie, idéalement sur une exérèse ganglionnaire complète. La cytoponction ne suffit jamais. Les corticoïdes avant biopsie peuvent rendre l'histologie ininterprétable.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : architecture et immunohistochimie nécessaires.",
+        "C": "Vrai : notamment pour une masse médiastinale isolée.",
+        "D": "Faux : à proscrire avant la biopsie.",
+        "E": "Vrai : CD30, CD15, CD20, PAX5, CD45."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — diagnostic histologique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Prescrire des corticoïdes avant la biopsie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Eichenauer DA et al. ESMO 2018. Ann Oncol 2018;29(Suppl 4):iv19-iv29",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0852",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la classification de Lugano (2014) appliquée au lymphome de Hodgkin, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La TEP-scanner au FDG est l'examen de référence du bilan d'extension.",
+        "B": "Une biopsie ostéomédullaire n'est pas nécessaire si une TEP-scanner est réalisée.",
+        "C": "Les signes B comprennent le prurit.",
+        "D": "Une atteinte ganglionnaire sus- et sous-diaphragmatique définit le stade III.",
+        "E": "La rate est considérée comme une structure lymphatique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Lugano 2014 : TEP-scanner pour les lymphomes avides de FDG ; BOM inutile dans le LH si TEP. Signes B : fièvre > 38 °C, sueurs nocturnes profuses, perte de poids > 10 % en 6 mois (pas le prurit). Stade III : atteinte des deux côtés du diaphragme ; la rate est lymphatique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : le prurit n'est pas un signe B.",
+        "D": "Vrai.",
+        "E": "Vrai : comme l'anneau de Waldeyer."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — stadification",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Compter le prurit parmi les signes B.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cheson BD et al. Lugano classification. J Clin Oncol 2014;32:3059-3068",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0853",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments sont des facteurs de risque des stades localisés du lymphome de Hodgkin selon le GHSG ?",
+      "propositions": {
+        "A": "Masse médiastinale ≥ 1/3 du diamètre thoracique transverse maximal.",
+        "B": "Atteinte extranodale.",
+        "C": "VS ≥ 50 mm sans signes B ou ≥ 30 mm avec signes B.",
+        "D": "Atteinte d'au moins 3 aires ganglionnaires.",
+        "E": "Âge ≥ 50 ans."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le GHSG retient quatre facteurs : masse médiastinale volumineuse, atteinte extranodale, VS élevée, ≥ 3 aires ganglionnaires. L'âge ≥ 50 ans est un facteur de l'EORTC (qui retient ≥ 4 aires et le rapport médiastino-thoracique ≥ 0,35).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : définition GHSG des aires.",
+        "E": "Faux : critère EORTC, pas GHSG."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — facteurs de risque",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Mélanger les critères GHSG et EORTC.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Eichenauer DA et al. Ann Oncol 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0854",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'échelle de Deauville utilisée pour l'interprétation de la TEP dans le lymphome de Hodgkin, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle compte 5 niveaux de fixation.",
+        "B": "Un score 3 correspond à une fixation supérieure au médiastin mais inférieure ou égale au foie.",
+        "C": "Les scores 1 à 3 correspondent en règle à une réponse métabolique complète.",
+        "D": "Un score 5 correspond à une fixation nettement supérieure au foie ou à de nouvelles lésions.",
+        "E": "Elle n'est utilisée qu'au diagnostic initial."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Échelle en 5 points comparant la fixation résiduelle au médiastin et au foie ; scores 1–3 = réponse métabolique complète en règle ; 4–5 = maladie active. Utilisée en TEP intermédiaire et de fin de traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai (plus le score X).",
+        "B": "Vrai.",
+        "C": "Vrai : interprétation selon le protocole.",
+        "D": "Vrai.",
+        "E": "Faux : évaluation de la réponse (TEP2, fin de traitement)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — TEP et Deauville",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cheson BD et al. J Clin Oncol 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0855",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 29 ans a un lymphome de Hodgkin classique de stade IA cervical, sans aucun facteur de risque. Quelles propositions sont exactes selon les recommandations européennes ?",
+      "propositions": {
+        "A": "Il s'agit d'un stade localisé favorable.",
+        "B": "Le standard est ABVD × 2 suivi d'une radiothérapie des sites atteints à 20 Gy.",
+        "C": "Le BEACOPP escaladé × 6 est le traitement de référence.",
+        "D": "Une autoconservation de sperme doit être proposée avant le traitement.",
+        "E": "La guérison est attendue chez la grande majorité des patients."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Stade I–II sans facteur de risque = localisé favorable : ABVD × 2 + ISRT 20 Gy (ESMO 2018, maintenu par l'EHA 2026). Le BEACOPP escaladé est réservé aux formes défavorables/avancées. La préservation de la fertilité est systématiquement proposée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : surtraitement.",
+        "D": "Vrai : information et proposition systématiques.",
+        "E": "Vrai : plus de 90 % de contrôle au long cours."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — stade localisé favorable",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Eichenauer DA et al. Ann Oncol 2018",
+          "date": "2018"
+        },
+        {
+          "reference": "EHA Clinical Practice Guidelines Hodgkin lymphoma. HemaSphere 2026",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0856",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement des stades avancés du lymphome de Hodgkin classique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Dans l'essai HD21, le BrECADD guidé par la TEP s'est révélé plus efficace et mieux toléré que l'eBEACOPP.",
+        "B": "Dans l'essai S1826, le nivolumab-AVD a amélioré la survie sans progression par rapport au BV-AVD.",
+        "C": "Dans l'essai ECHELON-1, le BV-AVD a amélioré la survie globale par rapport à l'ABVD.",
+        "D": "La radiothérapie de consolidation est systématique sur tous les sites initialement atteints.",
+        "E": "La bléomycine est indispensable chez le sujet de plus de 60 ans."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "HD21 : BrECADD, SSP à 4 ans 94,3 % vs 90,9 %, morbidité moindre. S1826 : SSP à 2 ans 92 % vs 83 %. ECHELON-1 : SG à 6 ans 93,9 % vs 89,4 %. La radiothérapie est réservée aux masses résiduelles TEP-positives ; la bléomycine est évitée chez le sujet âgé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : radiothérapie limitée aux résidus TEP-positifs.",
+        "E": "Faux : toxicité pulmonaire accrue ; schémas sans bléomycine préférés."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — stades avancés",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Borchmann P et al. HD21. Lancet 2024;404:341-352",
+          "date": "2024"
+        },
+        {
+          "reference": "Herrera AF et al. S1826. N Engl J Med 2024;391:1379-1389",
+          "date": "2024"
+        },
+        {
+          "reference": "Ansell SM et al. ECHELON-1 OS. N Engl J Med 2022;387:310-320",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0857",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels effets tardifs doivent être dépistés chez une femme traitée à 22 ans par ABVD et radiothérapie médiastinale pour un lymphome de Hodgkin ?",
+      "propositions": {
+        "A": "Cancer du sein.",
+        "B": "Hypothyroïdie (si l'irradiation a inclus la région cervicale).",
+        "C": "Cardiopathie (anthracyclines, radiothérapie).",
+        "D": "Fibrose pulmonaire.",
+        "E": "Aucun suivi n'est nécessaire au-delà de 5 ans."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les survivants de LH sont exposés à des seconds cancers (sein chez les femmes irradiées jeunes), à des cardiopathies, à l'hypothyroïdie et à des séquelles pulmonaires ; le suivi est prolongé à vie.",
+      "explications_par_proposition": {
+        "A": "Vrai : dépistage précoce et renforcé.",
+        "B": "Vrai : TSH annuelle.",
+        "C": "Vrai : anthracyclines et radiothérapie.",
+        "D": "Vrai : bléomycine et radiothérapie.",
+        "E": "Faux : risques tardifs, suivi à vie."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — effets tardifs",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter le suivi après 5 ans de rémission.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Eichenauer DA et al. Ann Oncol 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0858",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 32 ans consulte à Tlemcen pour une adénopathie cervicale de 3 cm évoluant depuis 2 mois, avec fébricule et sueurs nocturnes. Quels diagnostics doivent être évoqués avant toute décision thérapeutique ?",
+      "propositions": {
+        "A": "Tuberculose ganglionnaire.",
+        "B": "Lymphome de Hodgkin.",
+        "C": "Carcinome du nasopharynx (UCNT).",
+        "D": "Lymphome non hodgkinien.",
+        "E": "Adénite banale ne justifiant jamais de biopsie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Au Maghreb, une adénopathie cervicale persistante impose d'évoquer la tuberculose, les lymphomes (Hodgkin et non hodgkiniens) et le carcinome du nasopharynx (examen ORL). Une biopsie-exérèse est nécessaire si l'adénopathie persiste au-delà de quelques semaines ou s'accompagne de signes généraux.",
+      "explications_par_proposition": {
+        "A": "Vrai : fréquente en Algérie.",
+        "B": "Vrai.",
+        "C": "Vrai : endémie maghrébine, examen du cavum.",
+        "D": "Vrai.",
+        "E": "Faux : signes généraux + persistance = biopsie."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — diagnostic différentiel",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traitement antituberculeux d'épreuve sans histologie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Eichenauer DA et al. Ann Oncol 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0859",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiopathologie et les cibles thérapeutiques du lymphome de Hodgkin classique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'amplification 9p24.1 entraîne une surexpression de PD-L1 et PD-L2.",
+        "B": "Les anticorps anti-PD-1 sont très actifs dans les formes en rechute.",
+        "C": "Le brentuximab vedotin cible le CD30.",
+        "D": "Le rituximab est le traitement de référence du LH classique.",
+        "E": "La voie NF-κB est activée de façon constitutive dans les cellules tumorales."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les cellules de Reed-Sternberg échappent à l'immunité via PD-L1/PD-L2 (amplification 9p24.1), d'où l'efficacité des anti-PD-1. Le CD30 est la cible du brentuximab vedotin. NF-κB est constitutivement activé. Le rituximab (anti-CD20) concerne surtout le LHNPL (CD20+).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : conjugué à la MMAE.",
+        "D": "Faux : cellules de Reed-Sternberg CD20 négatives.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — physiopathologie et cibles",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Alaggio R et al. Leukemia 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "Herrera AF et al. N Engl J Med 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-0860",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le score pronostique international (IPS) des stades avancés du lymphome de Hodgkin, quels facteurs en font partie ?",
+      "propositions": {
+        "A": "Albumine < 40 g/L.",
+        "B": "Hémoglobine < 105 g/L.",
+        "C": "Sexe féminin.",
+        "D": "Âge ≥ 45 ans.",
+        "E": "Lymphopénie < 0,6 G/L ou < 8 %."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'IPS comporte sept facteurs : albumine < 40 g/L, Hb < 105 g/L, sexe masculin, âge ≥ 45 ans, stade IV, leucocytes ≥ 15 G/L, lymphocytes < 0,6 G/L ou < 8 %. Sa valeur discriminante a diminué avec les traitements modernes, au profit de la TEP intermédiaire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : c'est le sexe masculin.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-117"
+      ],
+      "theme": "Hodgkin — IPS",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hasenclever D, Diehl V. N Engl J Med 1998 [à vérifier]",
+          "date": "1998"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-08",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

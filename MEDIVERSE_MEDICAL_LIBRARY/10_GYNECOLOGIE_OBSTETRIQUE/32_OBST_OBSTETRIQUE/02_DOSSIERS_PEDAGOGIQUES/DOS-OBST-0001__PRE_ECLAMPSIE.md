@@ -6,11 +6,17 @@ sous_specialite: "Pathologie vasculaire de la grossesse — troubles hypertensif
 items_residanat: [RES-CHI-066]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-07 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 15
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-OBST-0001.md
 sources:
   - id: S1
     reference: "Magee LA, Brown MA, Hall DR, et al. The 2021 International Society for the Study of Hypertension in Pregnancy classification, diagnosis & management recommendations for international practice. Pregnancy Hypertens. 2022;27:148-169."
@@ -101,13 +107,13 @@ sources:
     url: "https://www.unicef.org/algeria/documents/protocole-et-procedures-de-prise-en-charge-de-la-grossesse-de-laccouchement-et-de-la"
     verifiee: true
   - id: S12
-    reference: "Magee LA, von Dadelszen P, Rey E, et al. Less-tight versus tight control of hypertension in pregnancy (CHIPS). N Engl J Med. 2015;372(5):407-417. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Magee LA, von Dadelszen P, Rey E, et al. Less-tight versus tight control of hypertension in pregnancy (CHIPS). N Engl J Med. 2015;372(5):407-417 (PMID 25629739)."
     organisme: "CHIPS"
     annee: 2015
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
     reference: "Koopmans CM, Bijlenga D, Groen H, et al. Induction of labour versus expectant monitoring for gestational hypertension or mild pre-eclampsia after 36 weeks' gestation (HYPITAT). Lancet. 2009;374(9694):979-988. [À VÉRIFIER — non revérifié pendant la session]"
     organisme: "HYPITAT"
@@ -178,7 +184,7 @@ La définition de la pré-éclampsie a évolué : historiquement fondée sur le 
   - *hépatique* : transaminases élevées (> 40 UI/L) avec ou sans douleur de l'hypochondre droit ou épigastrique ;
   - *neurologique* : éclampsie, altération de la conscience, cécité, accident vasculaire cérébral, clonus, céphalées sévères, scotomes persistants ;
   - *hématologique* : thrombopénie < 150 000/mm³, coagulation intravasculaire disséminée (CIVD), hémolyse ;
-- **dysfonction utéroplacentaire** : retard de croissance intra-utérin (RCIU), Doppler ombilical anormal, mort fœtale in utero, et — nouveauté de 2021 — **déséquilibre angiogénique** (par exemple sFlt-1/PlGF élevé ou PlGF bas) [S1].
+- **dysfonction utéroplacentaire** : hématome rétroplacentaire, retard de croissance intra-utérin (RCIU), Doppler ombilical anormal, mort fœtale in utero, et — nouveauté de 2021 — **déséquilibre angiogénique** (par exemple sFlt-1/PlGF élevé ou PlGF bas) [S1].
 
 **Définition ACOG 2020** [S2] : HTA ≥ 140/90 après 20 SA chez une femme auparavant normotendue **avec protéinurie** (≥ 300 mg/24 h, RPC ≥ 0,3 mg/mg, ou bandelette 2+ si méthode quantitative indisponible) ; **ou**, en l'absence de protéinurie, HTA de novo avec l'un des signes suivants : thrombopénie < 100 000/µL, créatininémie > 1,1 mg/dL ou doublement en l'absence d'autre néphropathie, transaminases au moins doublées, œdème pulmonaire, céphalées de novo résistantes aux antalgiques sans autre explication, troubles visuels.
 
@@ -328,7 +334,7 @@ Mêmes facteurs de **risque élevé** que le NICE (plus la grossesse multiple et
 | Système | Critères | Classes |
 |---|---|---|
 | **Tennessee** (Sibai) | Hémolyse (LDH ≥ 600 UI/L, schizocytes, bilirubine ≥ 12 mg/L), ASAT ≥ 70 UI/L, plaquettes < 100 000/mm³ | Complet (3 critères) / partiel (1-2 critères) |
-| **Mississippi** (Martin) | Selon le nadir plaquettaire + LDH ≥ 600 + ASAT ou ALAT ≥ 40 (classes 1-2) ou ≥ 70 (classe 1) | Classe 1 : ≤ 50 000 ; classe 2 : 50 000-100 000 ; classe 3 : 100 000-150 000 |
+| **Mississippi** (Martin) | Selon le nadir plaquettaire, avec LDH ≥ 600 UI/L et ASAT ou ALAT **≥ 70 UI/L pour les classes 1 et 2**, **≥ 40 UI/L pour la classe 3** | Classe 1 : ≤ 50 000 ; classe 2 : > 50 000 à ≤ 100 000 ; classe 3 : > 100 000 à ≤ 150 000 |
 
 > Les seuils de ces classifications varient selon les publications et les laboratoires ; ils sont donnés ici à titre pédagogique [seuils à confronter aux protocoles locaux — À VÉRIFIER].
 
@@ -369,7 +375,7 @@ Patiente assise au repos, **brassard adapté** (un brassard trop petit surestime
 |---|---|---|
 | Bandelette urinaire | ≥ 1+ fait quantifier ; ≥ 2+ si aucune autre méthode disponible [S1, S2] | Dépistage ; faux positifs (infection, contamination) et faux négatifs (urines diluées) |
 | **RPC** (protéinurie/créatininurie sur échantillon) | **≥ 30 mg/mmol** (≈ 0,3 mg/mg) | Rapide, recommandé par le NICE et l'ISSHP [S1, S3] |
-| Rapport albuminurie/créatininurie | ≥ 8 mg/mmol (seuil NICE) [À VÉRIFIER] | Alternative au RPC |
+| Rapport albuminurie/créatininurie | ≥ 8 mg/mmol (NICE, ISSHP) [S1, S3] | Alternative au RPC |
 | Protéinurie des 24 h | **≥ 0,3 g/24 h** | Méthode historique ; recueil long, souvent incomplet ; le NICE ne la recommande plus en routine [S3] |
 
 ## 9. Examens complémentaires et interprétation
@@ -514,15 +520,15 @@ Après l'accouchement, l'HTA se normalise habituellement en quelques jours à se
 
 **Principes**
 - **HTA sévère (≥ 160/110)** : urgence ; traitement **dans les 30 à 60 minutes** (ACOG) [S2], baisse **progressive** (pas de chute brutale).
-- **HTA non sévère** : traitement dès **140/90** — cible de PAD **85 mmHg** (ISSHP) [S1], ≤ **135/85** (NICE) [S3] ; dans l'essai **CHAP** (HTA chronique légère), viser < 140/90 a réduit le critère composite de 37,0 % à 30,2 % sans excès de petit poids pour l'âge gestationnel [S7] ; l'essai CHIPS allait dans le même sens [S12 — À VÉRIFIER].
+- **HTA non sévère** : traitement dès **140/90** — cible de PAD **85 mmHg** (ISSHP) [S1], ≤ **135/85** (NICE) [S3] ; dans l'essai **CHAP** (HTA chronique légère), viser < 140/90 a réduit le critère composite de 37,0 % à 30,2 % sans excès de petit poids pour l'âge gestationnel [S7] ; dans l'essai CHIPS (HTA chronique ou gravidique non sévère), un contrôle strict (cible de PAD 85 mmHg) n'a pas modifié les issues périnatales et a réduit la survenue d'une HTA sévère (27,5 % contre 40,6 % avec une cible de 100 mmHg) [S12].
 - **Contre-indiqués pendant la grossesse** : **IEC, ARA II**, antagonistes de l'aldostérone, aliskiren (fœtotoxicité) ; **diurétiques** (sauf OAP) ; **aténolol** (RCIU) ; **nifédipine sublinguale** (chute brutale).
 
 | Molécule | Voie et posologie usuelle | Remarques |
 |---|---|---|
-| **Labétalol** (α/β-bloquant) | Orale : 100-200 mg × 2-3/j (maximum variable selon les sources) ; IV (ACOG) : 20 mg en 2 min puis 40 puis 80 mg toutes les 10 min, dose cumulée ≈ 300 mg, ou 1-2 mg/min [S2, S3 — POSOLOGIE À VÉRIFIER — RCP / protocole local] | 1re intention NICE ; contre-indiqué si asthme, bloc AV ; surveillance néonatale (bradycardie, hypoglycémie) |
-| **Nifédipine** | Orale LI (urgence, ACOG) : 10-20 mg, à répéter après 20-30 min ; formes LP en traitement de fond [POSOLOGIE À VÉRIFIER] | Jamais sublinguale ; céphalées, tachycardie |
+| **Labétalol** (α/β-bloquant) | Orale : 100-200 mg × 2-3/j, à adapter (jusqu'à 2 400 mg/j selon l'ACOG) ; IV (ACOG) : 20 mg en 2 min, puis 40 mg puis 80 mg toutes les 10 min si la PA reste ≥ 160/110, **dose cumulée maximale 300 mg**, ou perfusion de 1-2 mg/min [S2] | 1re intention NICE ; contre-indiqué si asthme, bloc AV ; surveillance néonatale (bradycardie, hypoglycémie) |
+| **Nifédipine** | Orale LI (urgence, ACOG) : 10-20 mg, à répéter après 20 min si besoin, puis 10-20 mg toutes les 2-6 h, **maximum 180 mg/j** [S2] ; formes LP en traitement de fond [POSOLOGIE À VÉRIFIER — RCP] | Jamais sublinguale ; céphalées, tachycardie |
 | **Nicardipine** | IV au pousse-seringue (1re intention française dans la PE sévère) : titration puis 1-6 mg/h selon la PA [S4 — POSOLOGIE À VÉRIFIER] | Veinite ; association au MgSO₄ sous surveillance |
-| **Hydralazine** | IV (ACOG) : 5-10 mg en 2 min toutes les 20 min, maximum cumulé ≈ 20-30 mg [POSOLOGIE À VÉRIFIER] | Hypotension, tachycardie réflexe, céphalées |
+| **Hydralazine** | IV (ACOG) : 5 mg (IV ou IM) puis 5-10 mg IV toutes les 20-40 min ; dose cumulée maximale de 20 mg selon l'ACOG (jusqu'à 25-30 mg dans d'autres protocoles) [S2 — POSOLOGIE À VÉRIFIER — texte intégral ACOG / protocole local] | Hypotension, tachycardie réflexe, céphalées |
 | **Méthyldopa** | Orale : 250 mg × 2-3/j, jusqu'à 2-3 g/j [POSOLOGIE À VÉRIFIER] | Large recul ; somnolence, dépression ; **à remplacer dans le post-partum** [S3] ; très utilisée en Algérie |
 | **Urapidil** | IV (alternative française) [POSOLOGIE À VÉRIFIER] | Disponibilité variable |
 
@@ -546,11 +552,11 @@ Après l'accouchement, l'HTA se normalise habituellement en quelques jours à se
 |---|---|---|---|
 | **Zuspan** (IV exclusif) | **4 g IV** en 15-20 min (solution diluée, au pousse-seringue ou en perfusion) | **1 g/h** IV en continu | 24 h après l'accouchement ou la dernière crise |
 | **Pritchard** (IV + IM) | **4 g IV** en 15-20 min **+ 10 g IM** (5 g dans chaque fesse, solution à 50 %, éventuellement avec un anesthésique local) | **5 g IM toutes les 4 h**, en alternant les fesses | 24 h après l'accouchement ou la dernière crise |
-| ACOG (variante) | 4-6 g IV en 15-20 min | 1-2 g/h IV | Jusqu'à 24 h post-partum [S2] |
+| ACOG (variante) | 4-6 g IV en 20-30 min | 1-2 g/h IV | Jusqu'à 24 h post-partum [S2] |
 
 Ces schémas sont ceux décrits par l'OMS et la littérature [S9] ; le schéma de Pritchard est particulièrement adapté lorsque la surveillance d'une perfusion continue est difficile (maternités périphériques, transport).
 
-**Récidive convulsive sous MgSO₄** : bolus complémentaire de **2 g IV** (ou 2 à 4 g selon l'ACOG) en 5 à 15 min [POSOLOGIE À VÉRIFIER — protocole local] ; si échec, rechercher une autre cause et envisager un autre anticonvulsivant (benzodiazépine, en assurant la protection des voies aériennes).
+**Récidive convulsive sous MgSO₄** : bolus complémentaire de **2 g IV** (2 à 4 g selon l'ACOG) en 5 min environ [S2, S9] ; si échec, rechercher une autre cause et envisager un autre anticonvulsivant (benzodiazépine, en assurant la protection des voies aériennes).
 
 **Insuffisance rénale** : la dose de charge est inchangée ; la dose d'entretien doit être **réduite ou suspendue** et la magnésémie contrôlée, car le magnésium est éliminé par le rein.
 
@@ -673,7 +679,7 @@ En cas d'accouchement prévisible **avant 34 SA** (voire jusqu'à 34+6 SA selon 
 |---|---|---|---|---|
 | **NICE** [S3] | 1 facteur de risque élevé ou ≥ 2 modérés | **75-150 mg/j** | À partir de 12 SA | Jusqu'à l'accouchement |
 | **ACOG** [S2] | 1 facteur élevé ou > 1 modéré | **81 mg/j** | Entre 12 et 28 SA, idéalement avant 16 SA | Jusqu'à l'accouchement |
-| **ISSHP** [S1] | Risque élevé (facteurs cliniques ou dépistage combiné) | **75-162 mg/j**, idéalement le soir | Avant 16 SA | Selon le texte, entre 36 SA et l'accouchement [À VÉRIFIER] |
+| **ISSHP** [S1] | Risque élevé (facteurs cliniques ou dépistage combiné) | **75-162 mg/j**, idéalement le soir | Avant 16 SA | 36 SA selon les tableaux comparatifs publiés [formulation exacte du texte source À VÉRIFIER] |
 | **ASPRE** (essai) [S6] | Haut risque au dépistage combiné du 1er trimestre | **150 mg/j** le soir | 11-14 SA | 36 SA |
 
 **Résultat de l'essai ASPRE** : PE pré-terme 1,6 % sous aspirine versus 4,3 % sous placebo (odds ratio 0,38) [S6] ; le bénéfice porte sur la PE **pré-terme**, pas sur la PE à terme. Une analyse secondaire suggère un bénéfice moindre chez les femmes ayant une HTA chronique.
@@ -681,7 +687,7 @@ En cas d'accouchement prévisible **avant 34 SA** (voire jusqu'à 34+6 SA selon 
 **Contre-indications** : allergie à l'aspirine, ulcère évolutif, troubles de l'hémostase, asthme induit par l'aspirine.
 
 ### 15.2 Autres mesures préventives
-- **Calcium** si apports faibles (OMS : 1,5-2 g/j de calcium élément [S9 — dose À VÉRIFIER]) ; activité physique [S1] ; optimisation préconceptionnelle (relais des IEC/ARA II, contrôle du diabète, de la néphropathie, du lupus).
+- **Calcium** si apports faibles (OMS : 1,5-2 g/j de calcium élément là où les apports alimentaires sont faibles [S9]) ; activité physique [S1] ; optimisation préconceptionnelle (relais des IEC/ARA II, contrôle du diabète, de la néphropathie, du lupus).
 - Inefficaces : vitamines C et E, restriction sodée, diurétiques, repos strict.
 
 ### 15.3 Prévention secondaire et tertiaire
@@ -906,9 +912,11 @@ PE SÉVÈRE
 9. **[S9]** OMS. Recommendations for prevention and treatment of pre-eclampsia and eclampsia. 2011 — existence vérifiée.
 10. **[S10]** Keddad N, et al. Maternal deaths in Algeria in 2011. *Antimicrob Resist Infect Control.* 2013;2(Suppl 1):P357 — vérifiée.
 11. **[S11]** Ministère de la Santé (Algérie). Protocoles et procédures… grossesse, accouchement, période postnatale. Édition 2025 — existence vérifiée.
-12. **[S12]** Magee LA, et al. CHIPS. *N Engl J Med.* 2015 — [À VÉRIFIER].
+12. **[S12]** Magee LA, et al. CHIPS. *N Engl J Med.* 2015;372(5):407-417 (PMID 25629739) — vérifiée lors de l'audit (recherche web).
 13. **[S13]** Koopmans CM, et al. HYPITAT. *Lancet.* 2009 — [À VÉRIFIER].
 14. **[S14]** SFHTA/CNGOF. Désordres hypertensifs de la femme enceinte — [référence À VÉRIFIER].
 
+
+> **Audit (AUD-01/AUD-02, 19/11/2026)** : classification de Mississippi corrigée ; posologies IV du labétalol et de la nifédipine LI levées (ACOG PB 222) ; marqueurs maintenus pour la nicardipine, l'hydralazine, l'urapidil, la méthyldopa, la nifédipine LP et la neuroprotection fœtale. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-OBST-0001.md`.
 
 > **Note de l'auteur (traçabilité)** : les références S1 à S11 ont été confirmées par recherche web pendant la session de rédaction (19/11/2026) ; leur texte intégral n'a pas toujours été accessible, ce qui explique les mentions [À VÉRIFIER] portant sur des seuils précis. Les posologies sont des posologies standard publiées ; elles doivent être confrontées aux RCP et aux protocoles nationaux algériens [S11].

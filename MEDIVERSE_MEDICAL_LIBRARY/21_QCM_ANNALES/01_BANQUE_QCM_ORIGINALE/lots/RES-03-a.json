@@ -1,0 +1,2599 @@
+{
+  "agent": "RES-03",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-INFE-3001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 24 ans consulte pour une fièvre évoluant depuis 9 jours, d'installation progressive, actuellement en plateau à 40 °C, avec céphalées, insomnie, douleurs abdominales et prostration. Le pouls est à 84/min. La rate est palpable. L'hémogramme montre 3 800 leucocytes/mm³. Concernant ce tableau évocateur de fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dissociation pouls-température est un signe d'orientation classique.",
+        "B": "L'hémoculture est l'examen clé pour confirmer le diagnostic, surtout au cours des deux premières semaines.",
+        "C": "Le sérodiagnostic de Widal et Félix est positif dès les premiers jours de fièvre et suffit, à lui seul, à affirmer le diagnostic.",
+        "D": "Une hyperleucocytose à polynucléaires neutrophiles est attendue à ce stade.",
+        "E": "Les taches rosées lenticulaires, inconstantes, siègent classiquement à la base du thorax et sur l'abdomen."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "La fièvre typhoïde associe une fièvre progressive « en plateau » au 2e septénaire, des signes digestifs, un tuphos et une splénomégalie, avec une leuconeutropénie et une dissociation pouls-température. La confirmation repose sur l'isolement de Salmonella enterica sérotype Typhi ou Paratyphi, en premier lieu par hémocultures répétées avant toute antibiothérapie. Le sérodiagnostic de Widal et Félix n'a qu'une valeur d'orientation, tardive et peu spécifique. L'antibiogramme est indispensable car la sensibilité aux fluoroquinolones est variable selon l'origine de la souche.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une fréquence cardiaque relativement basse pour une fièvre à 40 °C (dissociation pouls-température) est classique, bien que non spécifique.",
+        "B": "Vrai : Salmonella Typhi/Paratyphi est isolée par hémoculture, plus souvent positive au début (1er–2e septénaire) ; la coproculture se positive plus tardivement et la myéloculture est la plus sensible.",
+        "C": "Faux : Les anticorps anti-O n'apparaissent qu'après une semaine environ ; le sérodiagnostic manque de sensibilité et de spécificité (réactions croisées, vaccination) et ne remplace pas l'isolement de la bactérie.",
+        "D": "Faux : La leuconeutropénie (ou une leucocytose normale contrastant avec la fièvre) est évocatrice ; une hyperleucocytose doit faire suspecter une complication (perforation, abcès).",
+        "E": "Vrai : Les taches rosées lenticulaires, papules roses fugaces s'effaçant à la vitropression, apparaissent au 2e septénaire sur le tronc."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Fièvre typhoïde — diagnostic clinique et biologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se contenter d'un sérodiagnostic de Widal positif (ou négatif) au lieu de réaliser des hémocultures.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        },
+        {
+          "reference": "Ryan Edward T, Hill David R, Solomon Tom et al. Hunter's Tropical Medicine and Emerging Infectious Diseases. 10e éd. Elsevier ; 2020 [catalogue OUV-0383].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les complications de la fièvre typhoïde, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'hémorragie intestinale est une complication classique, liée à l'ulcération des plaques de Peyer.",
+        "B": "La perforation intestinale siège typiquement sur l'iléon terminal et peut être pauci-symptomatique chez un patient en tuphos.",
+        "C": "La myocardite fait partie des complications décrites.",
+        "D": "La perforation intestinale survient surtout au cours du 1er septénaire, avant la phase d'état.",
+        "E": "Un portage chronique de Salmonella Typhi, favorisé par une lithiase vésiculaire, peut persister après la guérison."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les complications de la fièvre typhoïde surviennent surtout à partir du 2e–3e septénaire, y compris parfois sous traitement. Les plus graves sont digestives : hémorragie et perforation iléale, cette dernière pouvant être masquée par le tuphos. D'autres complications sont classiques : myocardite, encéphalite, cholécystite, ostéite ou spondylodiscite (notamment chez le drépanocytaire). Le portage chronique biliaire justifie, chez les manipulateurs de denrées alimentaires, un contrôle des coprocultures après traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les ulcérations des formations lymphoïdes iléales (plaques de Peyer) peuvent saigner, réalisant des rectorragies ou un méléna.",
+        "B": "Vrai : La perforation, le plus souvent iléale, est la complication la plus grave ; le tuphos et l'état général altéré peuvent masquer la péritonite, d'où une surveillance abdominale quotidienne.",
+        "C": "Vrai : Des complications cardiovasculaires (myocardite, collapsus) sont décrites, de même que des complications neuropsychiques, hépatobiliaires ou ostéo-articulaires.",
+        "D": "Faux : Les complications digestives (hémorragie, perforation) surviennent habituellement à partir du 2e–3e septénaire, à la phase d'état ou en fin d'évolution.",
+        "E": "Vrai : Le portage biliaire chronique, plus fréquent chez la femme et en cas de lithiase vésiculaire, entretient la transmission féco-orale."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Fièvre typhoïde — complications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre des signes péritonéaux francs : chez le patient en tuphos, la perforation peut se révéler par une simple dégradation de l'état général ou un météorisme.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        },
+        {
+          "reference": "Loscalzo J, Fauci AS, Kasper DL et al. Harrison's Principles of Internal Medicine. 22e éd. McGraw Hill ; 2025 [catalogue OUV-0300].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement et la prise en charge d'une fièvre typhoïde confirmée chez l'adulte en Algérie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les fluoroquinolones sont efficaces sur les souches sensibles, grâce notamment à leur bonne diffusion intracellulaire.",
+        "B": "La ceftriaxone est une option de première intention, en particulier dans les formes sévères ou en cas de diminution de sensibilité aux fluoroquinolones.",
+        "C": "Un aminoside en monothérapie constitue le traitement de référence en raison de sa bactéricidie rapide.",
+        "D": "La fièvre typhoïde figure sur la liste algérienne des maladies à déclaration obligatoire.",
+        "E": "Un traitement antibiotique bien conduit supprime tout risque de rechute."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le traitement repose sur une antibiothérapie active en intracellulaire, adaptée à l'antibiogramme : fluoroquinolone si la souche est sensible, céphalosporine de 3e génération (ceftriaxone) dans les formes graves ou résistantes, azithromycine en alternative orale. Les formes graves avec troubles de conscience ou choc peuvent justifier une corticothérapie selon les références classiques. Les complications chirurgicales (perforation) imposent une prise en charge chirurgicale urgente. En Algérie, la maladie est à déclaration obligatoire, ce qui déclenche l'enquête autour du cas (eau, aliments, porteurs).",
+      "explications_par_proposition": {
+        "A": "Vrai : Les fluoroquinolones (ofloxacine, ciprofloxacine) restent efficaces sur les souches pleinement sensibles ; leur usage dépend de l'antibiogramme et de l'épidémiologie de la résistance.",
+        "B": "Vrai : Les céphalosporines de 3e génération injectables sont utilisées dans les formes graves et lorsque la souche présente une sensibilité diminuée aux fluoroquinolones ; l'azithromycine est une alternative orale dans les formes non compliquées.",
+        "C": "Faux : Les aminosides, malgré une activité in vitro, diffusent mal en intracellulaire et sont cliniquement inefficaces sur les salmonelles systémiques.",
+        "D": "Vrai : Le décret exécutif n°22-250 du 30 juin 2022 inclut les fièvres typhoïde et paratyphoïdes dans la catégorie 1 des maladies à déclaration obligatoire.",
+        "E": "Faux : Des rechutes (quelques pourcents des cas) surviennent après l'arrêt d'un traitement efficace ; une surveillance clinique post-thérapeutique reste nécessaire."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-001"
+      ],
+      "theme": "Fièvre typhoïde — traitement et déclaration",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Choisir un aminoside sur la foi d'un antibiogramme « sensible » : l'activité in vitro ne préjuge pas de l'efficacité sur une bactérie intracellulaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé) — Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire (2022) [catalogue REC-0004]",
+          "date": "2022-07"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        },
+        {
+          "reference": "Ryan Edward T, Hill David R, Solomon Tom et al. Hunter's Tropical Medicine and Emerging Infectious Diseases. 10e éd. Elsevier ; 2020 [catalogue OUV-0383].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la parasitologie et la prévention du paludisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La transmission naturelle se fait par la piqûre de l'anophèle femelle.",
+        "B": "Plasmodium vivax et P. ovale peuvent être responsables d'accès de reviviscence tardifs à partir d'hypnozoïtes hépatiques.",
+        "C": "Plasmodium falciparum forme des hypnozoïtes responsables de rechutes plusieurs années après le séjour.",
+        "D": "Plasmodium falciparum est responsable de l'immense majorité des formes graves.",
+        "E": "La prise d'une chimioprophylaxie dispense le voyageur des mesures de protection contre les piqûres de moustiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le paludisme est dû à des Plasmodium transmis par l'anophèle femelle. Le cycle comporte une phase hépatique asymptomatique puis une phase érythrocytaire responsable des signes cliniques. P. vivax et P. ovale peuvent rester dormants dans le foie (hypnozoïtes), tandis que P. falciparum, sans hypnozoïte, est la principale cause de paludisme grave. L'Algérie a été certifiée exempte de paludisme par l'OMS en 2019, mais des cas importés (voyageurs, migrants venant des pays sahéliens) restent observés. La prévention associe protection personnelle antivectorielle et, selon la destination, chimioprophylaxie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le moustique vecteur est l'anophèle femelle, hématophage, qui pique surtout la nuit ; les transmissions transfusionnelle et congénitale sont plus rares.",
+        "B": "Vrai : Les hypnozoïtes, formes hépatiques dormantes, expliquent les reviviscences de P. vivax et P. ovale ; elles justifient l'usage d'un traitement hypnozoïticide (primaquine ou tafénoquine) après vérification de l'activité G6PD.",
+        "C": "Faux : P. falciparum ne forme pas d'hypnozoïtes ; ses accès surviennent le plus souvent dans les 2 mois suivant le retour.",
+        "D": "Vrai : P. falciparum, par la cytoadhérence des hématies parasitées, est à l'origine de la quasi-totalité des accès graves, même si P. vivax et P. knowlesi peuvent aussi en donner.",
+        "E": "Faux : Aucune chimioprophylaxie n'est efficace à 100 % : la protection contre les piqûres (moustiquaires imprégnées, répulsifs, vêtements couvrants) reste indispensable."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Paludisme — parasitologie et prévention",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Penser que la chimioprophylaxie protège totalement : toute fièvre au retour de zone d'endémie impose un frottis/goutte épaisse en urgence.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO guidelines for malaria, 10 September 2026 (2026) [catalogue REC-0279]",
+          "date": "2026-09"
+        },
+        {
+          "reference": "Belkaid M, Zenaidi N, Tabet-Derraz O et al. Cours de parasitologie. T. 1 : Protozooses. OPU [catalogue OUV-0016].",
+          "date": "s.d."
+        },
+        {
+          "reference": "Farrar Jeremy. Manson's Tropical Diseases. 23e éd. Elsevier/Saunders ; 2014 [catalogue OUV-0382].",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 35 ans, de retour d'un séjour professionnel au Niger il y a 10 jours, présente une fièvre à 39,8 °C et une confusion. Le frottis sanguin montre des trophozoïtes de Plasmodium falciparum. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le frottis mince permet l'identification de l'espèce et le calcul de la parasitémie.",
+        "B": "La goutte épaisse est plus sensible que le frottis mince pour détecter une faible parasitémie.",
+        "C": "Les troubles de conscience constituent un critère de paludisme grave.",
+        "D": "La thrombopénie, constante dans ce contexte, est à elle seule un critère de gravité de l'OMS.",
+        "E": "Un test de diagnostic rapide (TDR) négatif aurait permis d'exclure définitivement le paludisme sans examen microscopique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Toute fièvre au retour d'une zone d'endémie est un paludisme jusqu'à preuve du contraire. Le diagnostic repose en urgence sur la microscopie (frottis mince et goutte épaisse) et/ou un TDR, avec résultat rendu dans les heures qui suivent. Le frottis précise l'espèce et la parasitémie. La recherche de critères de gravité (neurologiques, respiratoires, hémodynamiques, ictère, hypoglycémie, acidose, anémie profonde, insuffisance rénale, hyperparasitémie) conditionne l'orientation en milieu de soins intensifs et le choix de l'artésunate injectable.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le frottis mince, coloré au May-Grünwald-Giemsa, conserve la morphologie des hématies et permet le diagnostic d'espèce et la quantification de la parasitémie (pourcentage d'hématies parasitées).",
+        "B": "Vrai : La goutte épaisse concentre les parasites (lyse des hématies) : elle est plus sensible mais l'identification d'espèce y est plus difficile.",
+        "C": "Vrai : Les troubles de conscience (paludisme cérébral) font partie des critères cliniques de paludisme grave à P. falciparum, au même titre que les convulsions répétées, le choc, la détresse respiratoire ou l'ictère.",
+        "D": "Faux : La thrombopénie est très fréquente et a une valeur d'orientation diagnostique, mais elle ne figure pas parmi les critères de gravité.",
+        "E": "Faux : Un TDR négatif n'exclut pas le diagnostic (faible parasitémie, délétion de HRP2 chez certaines souches) : la microscopie doit être répétée si la suspicion persiste."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Paludisme — diagnostic biologique et critères de gravité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Faire de la thrombopénie un critère de gravité, ou se rassurer sur un TDR négatif unique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO guidelines for malaria, 10 September 2026 (2026) [catalogue REC-0279]",
+          "date": "2026-09"
+        },
+        {
+          "reference": "Garcia Lynne Shore. Diagnostic Medical Parasitology (Garcia). 6e éd. ASM Press ; 2016 [catalogue OUV-0213].",
+          "date": "2016"
+        },
+        {
+          "reference": "Farrar Jeremy. Manson's Tropical Diseases. 23e éd. Elsevier/Saunders ; 2014 [catalogue OUV-0382].",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3006",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un adulte présentant un paludisme grave à Plasmodium falciparum avec troubles de conscience, quel est le traitement antipaludique de première intention recommandé par l'OMS ?",
+      "propositions": {
+        "A": "Artésunate par voie intraveineuse.",
+        "B": "Chloroquine par voie intraveineuse.",
+        "C": "Artéméther-luméfantrine par voie orale d'emblée.",
+        "D": "Méfloquine par voie orale.",
+        "E": "Primaquine par voie orale."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le paludisme grave est une urgence vitale : artésunate intraveineux (ou intramusculaire si la voie IV est impossible) pendant au moins 24 heures, puis relais par une CTA orale complète dès que le patient peut avaler. La quinine IV n'est qu'une alternative en l'absence d'artésunate. La prise en charge associe la correction de l'hypoglycémie, la surveillance hémodynamique, respiratoire et rénale, et la recherche d'une hémolyse retardée post-artésunate dans les semaines suivantes.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'artésunate injectable (IV, ou IM à défaut) est le traitement de référence du paludisme grave chez l'adulte et l'enfant ; il réduit la mortalité par rapport à la quinine. Un relais par une cure complète de combinaison thérapeutique à base d'artémisinine (CTA) suit dès que la voie orale est possible.",
+        "B": "Faux : P. falciparum est largement résistant à la chloroquine, qui n'a pas de place dans le paludisme grave.",
+        "C": "Faux : Les CTA orales sont réservées au paludisme non compliqué ou au relais de l'artésunate ; la voie orale n'est pas fiable chez un patient confus.",
+        "D": "Faux : La méfloquine orale n'est pas un traitement du paludisme grave (voie orale inadaptée, effets neuropsychiques).",
+        "E": "Faux : La primaquine agit sur les hypnozoïtes et les gamétocytes ; elle ne traite pas les formes érythrocytaires d'un accès grave."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Paludisme grave — traitement de première intention",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser une CTA orale chez un patient présentant des troubles de conscience au motif que le traitement est « plus rapide à obtenir ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO guidelines for malaria, 10 September 2026 (2026) [catalogue REC-0279]",
+          "date": "2026-09"
+        },
+        {
+          "reference": "Farrar Jeremy. Manson's Tropical Diseases. 23e éd. Elsevier/Saunders ; 2014 [catalogue OUV-0382].",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les aspects cliniques de la rage humaine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'incubation est variable, souvent de 1 à 3 mois, d'autant plus courte que la morsure est profonde et proche de l'extrémité céphalique.",
+        "B": "L'hydrophobie, avec spasmes pharyngés déclenchés par la tentative de boire, est caractéristique de la forme furieuse (encéphalitique).",
+        "C": "Des paresthésies ou douleurs au niveau de la cicatrice de morsure peuvent constituer un signe prodromique.",
+        "D": "Une vaccination administrée en urgence après l'apparition des signes neurologiques permet la guérison dans la majorité des cas.",
+        "E": "La forme paralytique, ascendante, peut simuler un syndrome de Guillain-Barré."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La rage est une encéphalomyélite virale (Lyssavirus) transmise principalement par la morsure de chien. L'incubation, longue et variable, est la fenêtre où la prophylaxie post-exposition est efficace. La maladie déclarée se présente sous forme furieuse (hydrophobie, agitation, dysautonomie) ou paralytique (paralysie ascendante), et évolue presque toujours vers le décès. Le diagnostic de confirmation repose sur des techniques virologiques (RT-PCR sur salive, biopsie cutanée de nuque, LCR). La rage est endémique chez le chien en Algérie et y est à déclaration obligatoire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le virus progresse le long des nerfs périphériques vers le système nerveux central ; la durée d'incubation dépend du siège, de la profondeur de la morsure et de l'inoculum (de quelques jours à plus d'un an).",
+        "B": "Vrai : L'hydrophobie et l'aérophobie, avec agitation, hallucinations et dysautonomie, caractérisent la forme furieuse.",
+        "C": "Vrai : Des paresthésies, prurit ou douleurs au site de la morsure sont des prodromes évocateurs, liés à l'atteinte des ganglions sensitifs.",
+        "D": "Faux : Une fois les signes cliniques déclarés, la rage est quasi constamment mortelle ; la prophylaxie post-exposition n'a d'intérêt qu'avant l'apparition des symptômes.",
+        "E": "Vrai : La rage paralytique (« muette ») réalise une paralysie flasque ascendante pouvant être confondue avec un syndrome de Guillain-Barré."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Rage — aspects cliniques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'une rage déclarée relève encore de la vaccination : la prévention doit intervenir pendant l'incubation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO expert consultation on rabies: third report (TRS 1012) (2018) [catalogue REC-0280]",
+          "date": "2018-04"
+        },
+        {
+          "reference": "Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé) — Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire (2022) [catalogue REC-0004]",
+          "date": "2022-07"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un enfant de 9 ans est mordu profondément à la joue par un chien errant, introuvable, dans une zone rurale. Il n'a jamais été vacciné contre la rage. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une exposition de catégorie III selon l'OMS.",
+        "B": "Le lavage immédiat et prolongé de la plaie à l'eau et au savon est le premier geste essentiel.",
+        "C": "La vaccination antirabique doit être différée jusqu'aux résultats de la surveillance vétérinaire de l'animal.",
+        "D": "Des immunoglobulines antirabiques doivent être infiltrées dans et autour de la plaie.",
+        "E": "Une suture primaire serrée de la plaie est recommandée pour limiter la pénétration du virus."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La prophylaxie post-exposition repose sur la classification OMS : catégorie I (contact ou léchage sur peau intacte) sans traitement ; catégorie II (mordillage de peau découverte, griffure superficielle sans saignement) : vaccination ; catégorie III (morsure ou griffure transdermique, contact salivaire muqueux ou sur peau lésée) : vaccination et immunoglobulines antirabiques. Le soin local de la plaie est fondamental. Une morsure de la face chez l'enfant est particulièrement à risque (incubation courte). La prophylaxie antitétanique et l'antibioprophylaxie de la morsure sont associées selon le cas.",
+      "explications_par_proposition": {
+        "A": "Vrai : Toute morsure transdermique, de même que la contamination d'une muqueuse par la salive, constitue une exposition de catégorie III.",
+        "B": "Vrai : Le lavage abondant (environ 15 minutes) à l'eau et au savon puis l'application d'un antiseptique virucide réduisent considérablement la charge virale.",
+        "C": "Faux : La prophylaxie débute sans délai ; l'animal étant introuvable, aucune surveillance n'est possible et le protocole doit être mené à son terme.",
+        "D": "Vrai : En catégorie III chez un sujet non vacciné, les immunoglobulines antirabiques sont infiltrées localement, en plus de la vaccination.",
+        "E": "Faux : La suture est évitée ou différée ; si elle est indispensable (face), elle est lâche et réalisée après l'infiltration des immunoglobulines."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Rage — prophylaxie post-exposition (catégories OMS)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre l'observation de l'animal pour débuter la vaccination, ou suturer serré une morsure contaminée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO expert consultation on rabies: third report (TRS 1012) (2018) [catalogue REC-0280]",
+          "date": "2018-04"
+        },
+        {
+          "reference": "OMS — Rabies vaccines: WHO position paper – April 2018 (2018) [catalogue REC-0531]",
+          "date": "2018-04"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prévention de la rage, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une personne ayant reçu une vaccination pré-exposition complète et mordue (catégorie III) ne reçoit pas d'immunoglobulines antirabiques.",
+        "B": "La prophylaxie post-exposition reste indiquée même lorsque la consultation est tardive par rapport à la morsure.",
+        "C": "Un léchage sur peau intacte (catégorie I) ne nécessite pas de prophylaxie post-exposition.",
+        "D": "Le vaccin antirabique actuel est un vaccin vivant atténué, contre-indiqué pendant la grossesse.",
+        "E": "La rage figure sur la liste algérienne des maladies à déclaration obligatoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les vaccins antirabiques modernes sont inactivés et bien tolérés, sans contre-indication en post-exposition. La prophylaxie pré-exposition, destinée aux personnes exposées (vétérinaires, personnels de laboratoire, voyageurs à risque), simplifie la conduite à tenir ultérieure en supprimant le recours aux immunoglobulines. Le retard de consultation ne contre-indique jamais la prophylaxie post-exposition. Les schémas OMS de post-exposition sont raccourcis (intradermique sur 1 semaine ou intramusculaire sur 2 à 4 semaines) ; les modalités pratiques suivent le protocole national.",
+      "explications_par_proposition": {
+        "A": "Vrai : Chez le sujet antérieurement vacciné, un rappel vaccinal abrégé suffit ; les immunoglobulines ne sont pas nécessaires.",
+        "B": "Vrai : En raison de l'incubation longue et variable, la prophylaxie garde un intérêt tant que la maladie n'est pas déclarée, quel que soit le délai depuis l'exposition.",
+        "C": "Vrai : La catégorie I (contact avec l'animal, léchage sur peau saine) ne constitue pas une exposition.",
+        "D": "Faux : Les vaccins antirabiques sur cultures cellulaires sont des vaccins inactivés ; la grossesse ne contre-indique pas la prophylaxie post-exposition, la rage étant mortelle.",
+        "E": "Vrai : Le décret exécutif n°22-250 du 30 juin 2022 classe la rage parmi les maladies à déclaration obligatoire (catégorie 1)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-003"
+      ],
+      "theme": "Rage — principes de la prévention vaccinale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Renoncer à la prophylaxie au motif que la morsure date de plusieurs semaines.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — Rabies vaccines: WHO position paper – April 2018 (2018) [catalogue REC-0531]",
+          "date": "2018-04"
+        },
+        {
+          "reference": "OMS — WHO expert consultation on rabies: third report (TRS 1012) (2018) [catalogue REC-0280]",
+          "date": "2018-04"
+        },
+        {
+          "reference": "Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé) — Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire (2022) [catalogue REC-0004]",
+          "date": "2022-07"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3010",
+      "format": "QCS (réponse unique)",
+      "enonce": "Selon les définitions internationales Sepsis-3, le choc septique est défini chez un patient en sepsis par :",
+      "propositions": {
+        "A": "Une pression artérielle systolique < 90 mmHg persistant malgré le remplissage.",
+        "B": "Le besoin de vasopresseurs pour maintenir une pression artérielle moyenne ≥ 65 mmHg et une lactatémie > 2 mmol/L malgré un remplissage adéquat.",
+        "C": "La présence d'au moins deux critères de syndrome de réponse inflammatoire systémique associés à une hypotension.",
+        "D": "Une lactatémie > 4 mmol/L, quelle que soit la pression artérielle.",
+        "E": "Un score quickSOFA ≥ 2."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Depuis 2016 (Sepsis-3), le sepsis est une dysfonction d'organe menaçant le pronostic vital, due à une réponse dérégulée de l'hôte à une infection, traduite par une augmentation du score SOFA ≥ 2 points. Le choc septique est un sous-groupe du sepsis avec anomalies circulatoires et métaboliques sévères : vasopresseurs nécessaires pour une PAM ≥ 65 mmHg et lactate > 2 mmol/L malgré un remplissage adéquat. Le quickSOFA (FR ≥ 22/min, altération de la conscience, PAS ≤ 100 mmHg) sert au repérage rapide au lit du malade. Ces définitions ont remplacé les notions de SIRS et de sepsis sévère.",
+      "explications_par_proposition": {
+        "A": "Faux : L'hypotension isolée corrigée ou non par le remplissage ne suffit pas à définir le choc septique selon Sepsis-3.",
+        "B": "Vrai : Sepsis-3 définit le choc septique par l'association d'un besoin en vasopresseurs pour une PAM ≥ 65 mmHg et d'une lactatémie > 2 mmol/L malgré un remplissage adéquat.",
+        "C": "Faux : Les critères de SIRS, trop peu spécifiques, ont été abandonnés dans les définitions de 2016.",
+        "D": "Faux : L'hyperlactatémie isolée est un marqueur de gravité mais ne définit pas le choc septique.",
+        "E": "Faux : Le qSOFA est un outil de repérage des patients infectés à risque d'évolution défavorable hors réanimation ; il ne définit ni le sepsis ni le choc."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Sepsis et choc septique — définitions Sepsis-3",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre l'outil de repérage (qSOFA) avec la définition du sepsis ou du choc septique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SCCM / ESICM (Sepsis-3 Task Force) — The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) (2016) [catalogue REC-0268]",
+          "date": "2016-02"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme diabétique de 68 ans présente depuis 24 heures une fièvre à 39,5 °C avec frissons et douleurs lombaires droites. Elle est confuse, la fréquence respiratoire est à 26/min et la pression artérielle à 95/60 mmHg. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le score quickSOFA est ici égal à 3.",
+        "B": "Les hémocultures doivent être prélevées avant l'antibiothérapie, sans en retarder l'administration.",
+        "C": "Le dosage de la lactatémie fait partie du bilan initial.",
+        "D": "L'antibiothérapie doit être différée jusqu'à l'identification du germe afin de ne pas décapiter l'infection.",
+        "E": "Une imagerie des voies urinaires doit être réalisée rapidement à la recherche d'un obstacle à drainer."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Devant une suspicion de sepsis, la démarche associe évaluation de la gravité (qSOFA au lit du malade, SOFA, lactate), prélèvements microbiologiques orientés et hémocultures avant l'antibiothérapie sans la retarder, et recherche immédiate de la porte d'entrée. Une pyélonéphrite obstructive est une urgence de drainage (sonde JJ ou néphrostomie). L'antibiothérapie probabiliste est adaptée au foyer présumé et à l'écologie, puis réévaluée à 48–72 heures selon les résultats.",
+      "explications_par_proposition": {
+        "A": "Vrai : Fréquence respiratoire ≥ 22/min, altération de la conscience et PAS ≤ 100 mmHg : les trois critères sont présents.",
+        "B": "Vrai : Deux paires d'hémocultures (et un ECBU ici) sont prélevées immédiatement ; le prélèvement ne doit jamais retarder l'antibiothérapie dans un état septique grave.",
+        "C": "Vrai : La lactatémie est un marqueur d'hypoperfusion et un élément de la définition du choc septique ; elle guide aussi la réanimation.",
+        "D": "Faux : Dans un sepsis, a fortiori un choc, l'antibiothérapie probabiliste est une urgence : chaque heure de retard aggrave le pronostic.",
+        "E": "Vrai : Une pyélonéphrite grave impose une imagerie précoce (échographie ou uroscanner) pour éliminer un obstacle ou une collection relevant d'un drainage en urgence."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "État septique — démarche diagnostique initiale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retarder l'antibiothérapie pour obtenir des prélèvements ou un examen d'imagerie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "SCCM / ESICM (Sepsis-3 Task Force) — The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) (2016) [catalogue REC-0268]",
+          "date": "2016-02"
+        },
+        {
+          "reference": "Surviving Sepsis Campaign (SCCM / ESICM) — Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock 2026 (2026) [catalogue REC-0266]",
+          "date": "2026-05"
+        },
+        {
+          "reference": "Loscalzo J, Fauci AS, Kasper DL et al. Harrison's Principles of Internal Medicine. 22e éd. McGraw Hill ; 2025 [catalogue OUV-0300].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prise en charge initiale d'un choc septique de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La noradrénaline est le vasopresseur de première intention.",
+        "B": "L'objectif initial de pression artérielle moyenne est d'au moins 65 mmHg.",
+        "C": "L'antibiothérapie probabiliste doit être administrée idéalement dans l'heure suivant la reconnaissance du choc.",
+        "D": "Les hydroxyéthylamidons sont les solutés de remplissage de première intention.",
+        "E": "La dopamine est préférée à la noradrénaline en raison d'un moindre risque de troubles du rythme."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le traitement du choc septique repose sur quatre piliers simultanés : antibiothérapie probabiliste précoce à large spectre, contrôle de la source infectieuse (drainage, ablation d'un matériel infecté, chirurgie), remplissage vasculaire par cristalloïdes et vasopresseurs (noradrénaline) pour une PAM ≥ 65 mmHg. La lactatémie et les signes cliniques de perfusion guident la réanimation. L'hydrocortisone est discutée en cas de besoin persistant en vasopresseurs. Les recommandations de la Surviving Sepsis Campaign ont été actualisées en 2026 ; les principes ci-dessus sont communs aux versions successives.",
+      "explications_par_proposition": {
+        "A": "Vrai : La noradrénaline est recommandée en première ligne ; la vasopressine ou l'adrénaline sont des options d'ajout.",
+        "B": "Vrai : Une PAM initiale ≥ 65 mmHg est l'objectif recommandé chez la plupart des patients, à individualiser ensuite.",
+        "C": "Vrai : Dans le choc septique, l'antibiothérapie à large spectre est une urgence absolue, idéalement dans la première heure.",
+        "D": "Faux : Les cristalloïdes sont les solutés de première intention ; les hydroxyéthylamidons sont déconseillés (insuffisance rénale, surmortalité).",
+        "E": "Faux : La dopamine expose à davantage d'arythmies que la noradrénaline et n'est plus recommandée en première intention."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Choc septique — principes du traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier le contrôle de la source : l'antibiothérapie seule ne suffit pas en présence d'un abcès ou d'un obstacle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Surviving Sepsis Campaign (SCCM / ESICM) — Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock 2026 (2026) [catalogue REC-0266]",
+          "date": "2026-05"
+        },
+        {
+          "reference": "SCCM / ESICM (Sepsis-3 Task Force) — The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) (2016) [catalogue REC-0268]",
+          "date": "2016-02"
+        },
+        {
+          "reference": "Loscalzo J, Fauci AS, Kasper DL et al. Harrison's Principles of Internal Medicine. 22e éd. McGraw Hill ; 2025 [catalogue OUV-0300].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'immunopathologie et l'histoire naturelle de l'infection par le VIH, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le VIH pénètre dans les lymphocytes T CD4+ grâce au récepteur CD4 et à un corécepteur (CCR5 ou CXCR4).",
+        "B": "La primo-infection survient habituellement 2 à 6 semaines après la contamination et peut réaliser un syndrome pseudo-grippal ou mononucléosique.",
+        "C": "Le stade sida est défini par la survenue d'une infection opportuniste ou d'une affection classante.",
+        "D": "La pneumocystose survient habituellement chez des patients dont le taux de lymphocytes CD4 est supérieur à 500/mm³.",
+        "E": "La transcriptase inverse permet la transcription de l'ADN proviral en ARN génomique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le VIH est un rétrovirus qui infecte les cellules porteuses de CD4 (lymphocytes T auxiliaires, monocytes-macrophages). Après la primo-infection, une phase asymptomatique prolongée s'accompagne d'une réplication virale continue et d'une déplétion progressive des CD4, aboutissant au déficit immunitaire et aux infections opportunistes. Le risque d'infection opportuniste est corrélé au taux de CD4 : pneumocystose et toxoplasmose cérébrale en dessous de 200/mm³, infections à CMV ou mycobactéries atypiques en dessous de 50/mm³. Les antirétroviraux ciblent les étapes du cycle : entrée, transcription inverse, intégration, maturation par la protéase.",
+      "explications_par_proposition": {
+        "A": "Vrai : La glycoprotéine gp120 se fixe sur CD4 puis sur un corécepteur chimiokinique (CCR5 pour les virus R5, CXCR4 pour les virus X4), ce qui permet la fusion membranaire via gp41.",
+        "B": "Vrai : La primo-infection symptomatique associe fièvre, pharyngite, adénopathies, éruption, parfois ulcérations buccales ou méningite lymphocytaire ; la charge virale y est très élevée.",
+        "C": "Vrai : Le sida (stade C de la classification CDC, stade 4 de l'OMS) correspond aux infections opportunistes et néoplasies classantes.",
+        "D": "Faux : La pneumocystose survient le plus souvent lorsque les CD4 sont < 200/mm³, seuil qui justifie la prophylaxie par cotrimoxazole.",
+        "E": "Faux : La transcriptase inverse rétro-transcrit l'ARN viral en ADN, qui est ensuite intégré dans le génome de la cellule hôte par l'intégrase."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "VIH — immunopathologie et histoire naturelle",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser le sens de la transcription inverse (ARN → ADN) ou les seuils de CD4 des infections opportunistes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        },
+        {
+          "reference": "Loscalzo J, Fauci AS, Kasper DL et al. Harrison's Principles of Internal Medicine. 22e éd. McGraw Hill ; 2025 [catalogue OUV-0300].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic biologique de l'infection par le VIH, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les tests de dépistage de 4e génération détectent simultanément les anticorps anti-VIH-1/2 et l'antigène p24.",
+        "B": "Un test de dépistage positif doit être confirmé par un test de confirmation, et un second prélèvement permet d'éliminer une erreur d'identité.",
+        "C": "Au cours de la primo-infection, l'ARN VIH plasmatique peut être détectable avant la séroconversion.",
+        "D": "Chez un nourrisson de 3 mois né de mère infectée, une sérologie positive suffit à affirmer l'infection.",
+        "E": "Une sérologie négative une semaine après un rapport à risque exclut l'infection."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le diagnostic de l'infection par le VIH repose chez l'adulte sur un test de dépistage combiné de 4e génération, confirmé par un test de confirmation et vérifié sur un second prélèvement. Pendant la fenêtre sérologique, la détection de l'ARN viral ou de l'antigène p24 permet le diagnostic de primo-infection. Chez l'enfant de moins de 18 mois, la sérologie est inutilisable du fait des anticorps maternels : le diagnostic repose sur des tests virologiques. Le bilan initial comprend notamment la numération des CD4, la charge virale et la recherche de co-infections.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les tests combinés (Ag p24 + anticorps) réduisent la fenêtre sérologique par rapport aux tests détectant les seuls anticorps.",
+        "B": "Vrai : Un dépistage positif est confirmé par un test de confirmation (immunoblot ou algorithme de tests successifs) ; un second prélèvement indépendant est requis avant l'annonce définitive.",
+        "C": "Vrai : L'ARN viral et l'antigène p24 sont détectables avant les anticorps ; une charge virale peut aider au diagnostic d'une primo-infection.",
+        "D": "Faux : Les anticorps maternels (IgG) traversent le placenta et persistent jusqu'à 18 mois : le diagnostic chez le nourrisson repose sur la détection du virus (PCR ADN ou ARN).",
+        "E": "Faux : Une sérologie précoce peut être faussement négative (fenêtre sérologique) ; un contrôle à distance est nécessaire."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "VIH — diagnostic biologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter une sérologie positive chez le nourrisson comme une infection (anticorps maternels).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach (2021) (2021) [catalogue REC-0285]",
+          "date": "2021-07"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement et la prévention de l'infection par le VIH chez l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le traitement antirétroviral est recommandé chez toute personne vivant avec le VIH, quel que soit le taux de lymphocytes CD4.",
+        "B": "Le schéma de première ligne privilégié par l'OMS associe le dolutégravir à deux inhibiteurs nucléos(t)idiques de la transcriptase inverse.",
+        "C": "Une charge virale durablement indétectable sous traitement rend le risque de transmission sexuelle négligeable.",
+        "D": "La prophylaxie post-exposition doit être débutée le plus tôt possible, au plus tard dans les 72 heures suivant l'exposition.",
+        "E": "La prophylaxie primaire de la pneumocystose repose sur l'amoxicilline."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le traitement antirétroviral, débuté chez toute personne vivant avec le VIH, vise une charge virale indétectable et une restauration immunitaire. Le schéma de première ligne recommandé par l'OMS repose sur le dolutégravir associé à deux INTI. Le suivi comporte la charge virale (efficacité) et la prévention des infections opportunistes (cotrimoxazole si CD4 < 200/mm³). La prévention combine préservatif, dépistage, traitement comme prévention, prophylaxies pré- et post-exposition et prévention de la transmission mère-enfant.",
+      "explications_par_proposition": {
+        "A": "Vrai : La stratégie « traiter tous » est recommandée par l'OMS depuis 2015 : le traitement est débuté dès le diagnostic, idéalement rapidement.",
+        "B": "Vrai : L'association ténofovir + lamivudine (ou emtricitabine) + dolutégravir est le schéma de première ligne privilégié dans les recommandations OMS.",
+        "C": "Vrai : Le principe « indétectable = intransmissible » est établi pour la transmission sexuelle lorsque la charge virale est durablement indétectable.",
+        "D": "Vrai : La prophylaxie post-exposition (trithérapie de 28 jours) est d'autant plus efficace qu'elle est précoce ; au-delà de 72 heures elle n'est plus recommandée.",
+        "E": "Faux : La prophylaxie de la pneumocystose et de la toxoplasmose repose sur le cotrimoxazole (triméthoprime-sulfaméthoxazole)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "VIH — traitement et prévention",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre une baisse des CD4 pour débuter le traitement : la stratégie actuelle est de traiter dès le diagnostic.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach (2021) (2021) [catalogue REC-0285]",
+          "date": "2021-07"
+        },
+        {
+          "reference": "OMS — WHO updated recommendations on HIV clinical management: recommendations for a public health approach (2025) [catalogue REC-0286]",
+          "date": "2025-12"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'orientation diagnostique d'une diarrhée aiguë infectieuse de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le syndrome dysentérique (selles glairo-sanglantes, épreintes, ténesme) traduit une atteinte invasive du côlon.",
+        "B": "Le choléra réalise une diarrhée hydrique profuse, sans fièvre importante, par un mécanisme toxinique.",
+        "C": "Shigella, Campylobacter jejuni et Entamoeba histolytica peuvent être responsables d'un syndrome dysentérique.",
+        "D": "Les toxi-infections à Staphylococcus aureus ont une incubation longue, de 2 à 5 jours.",
+        "E": "Une coproculture est systématique devant toute diarrhée aqueuse évoluant depuis 24 heures sans signe de gravité."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'analyse sémiologique oriente vers le mécanisme : syndrome cholériforme (diarrhée aqueuse sécrétoire, toxinique, risque de déshydratation) ou syndrome dysentérique/gastro-entérite fébrile (germes invasifs). Le délai d'incubation, le contexte (repas collectif, voyage, antibiothérapie récente, immunodépression) et les signes de gravité guident les examens. Les examens microbiologiques ne sont pas systématiques. La réhydratation reste le traitement fondamental dans tous les cas.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'invasion de la muqueuse colique (ulcérations, inflammation) donne des selles afécales glairo-sanglantes avec douleurs coliques (épreintes) et faux besoins (ténesme).",
+        "B": "Vrai : La toxine cholérique active l'adénylate cyclase des entérocytes et provoque une sécrétion hydro-électrolytique massive (selles « eau de riz »), avec risque de déshydratation rapide.",
+        "C": "Vrai : Ces trois agents (ainsi que certains E. coli entéro-invasifs ou entérohémorragiques) envahissent la muqueuse colique.",
+        "D": "Faux : La toxine staphylococcique est préformée dans l'aliment : l'incubation est courte (1 à 6 heures) avec vomissements prédominants.",
+        "E": "Faux : La majorité des diarrhées aiguës aqueuses sont spontanément résolutives ; la coproculture est réservée aux formes graves, fébriles, dysentériques, prolongées, aux immunodéprimés et aux contextes de TIAC."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-007"
+      ],
+      "theme": "Diarrhées infectieuses — orientation syndromique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire une coproculture systématique, même pour une diarrhée aqueuse bénigne de moins de 3 jours.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IDSA — 2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea (2017) [catalogue REC-0272]",
+          "date": "2017-11"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Au cours d'une fête familiale, 14 convives présentent, 3 heures après le repas, des vomissements incoercibles, des douleurs abdominales et une diarrhée, sans fièvre. Un gâteau à la crème préparé la veille et conservé à température ambiante est suspecté. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une toxi-infection alimentaire collective (TIAC), définie par au moins deux cas groupés d'une symptomatologie similaire rapportable à une même origine alimentaire.",
+        "B": "L'incubation courte et la prédominance des vomissements sans fièvre orientent vers une toxine préformée, notamment staphylococcique.",
+        "C": "Les TIAC figurent sur la liste algérienne des maladies à déclaration obligatoire.",
+        "D": "Une antibiothérapie systématique de tous les convives est indiquée.",
+        "E": "L'incubation de 3 heures oriente vers une salmonellose non typhique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Une TIAC impose la déclaration, l'enquête (liste des convives, aliments consommés, courbe épidémique) et la conservation des restes alimentaires pour analyse. La durée d'incubation est le premier élément d'orientation : quelques heures pour les toxines préformées (S. aureus, B. cereus), 12 à 48 heures pour Salmonella ou Clostridium perfringens, et un tableau neurologique doit faire évoquer le botulisme. Le traitement est surtout symptomatique ; l'antibiothérapie n'est indiquée que dans des situations particulières (forme invasive, terrain fragile).",
+      "explications_par_proposition": {
+        "A": "Vrai : La définition de la TIAC repose sur l'apparition d'au moins deux cas groupés, souvent digestifs, dont la cause peut être rapportée à une même origine alimentaire.",
+        "B": "Vrai : Staphylococcus aureus (et Bacillus cereus forme émétique) agissent par une toxine thermostable déjà présente dans l'aliment, d'où une incubation de quelques heures.",
+        "C": "Vrai : Le décret exécutif n°22-250 de 2022 inclut les TIAC dans la catégorie 1 des maladies à déclaration obligatoire, ce qui déclenche une enquête épidémiologique et vétérinaire.",
+        "D": "Faux : Une intoxination par toxine préformée ne relève pas d'une antibiothérapie : le traitement est symptomatique (réhydratation).",
+        "E": "Faux : Les salmonelloses non typhiques ont une incubation de 12 à 48 heures et s'accompagnent habituellement de fièvre."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-007"
+      ],
+      "theme": "Toxi-infection alimentaire collective",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter par antibiotiques une intoxination staphylococcique : la toxine est déjà formée et le germe n'intervient pas dans la maladie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé) — Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire (2022) [catalogue REC-0004]",
+          "date": "2022-07"
+        },
+        {
+          "reference": "IDSA — 2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea (2017) [catalogue REC-0272]",
+          "date": "2017-11"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-3018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement des diarrhées aiguës infectieuses de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La réhydratation, par voie orale de préférence (solutés de réhydratation orale), est le traitement essentiel.",
+        "B": "Le lopéramide est contre-indiqué en cas de syndrome dysentérique ou de fièvre élevée.",
+        "C": "Une shigellose confirmée relève d'une antibiothérapie.",
+        "D": "Une salmonellose non typhique non compliquée de l'adulte immunocompétent justifie systématiquement une antibiothérapie.",
+        "E": "Au cours du choléra, l'antibiothérapie réduit la durée et le volume de la diarrhée, en complément de la réhydratation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La réhydratation est le pilier du traitement de toute diarrhée aiguë. L'antibiothérapie n'est pas systématique : elle se discute devant un syndrome dysentérique, une forme fébrile sévère, un terrain fragile (immunodépression, âges extrêmes, prothèse vasculaire) ou certains agents (Shigella, choléra sévère). Les antisécrétoires (racécadotril) peuvent être utilisés, alors que les ralentisseurs du transit sont évités dans les formes invasives. Le choix de l'antibiotique tient compte des résistances locales.",
+      "explications_par_proposition": {
+        "A": "Vrai : La correction des pertes hydro-électrolytiques est prioritaire ; la voie veineuse est réservée aux déshydratations sévères ou aux vomissements incoercibles.",
+        "B": "Vrai : Les ralentisseurs du transit peuvent favoriser la pullulation et l'invasion bactériennes (risque de colectasie) dans les formes invasives.",
+        "C": "Vrai : L'antibiothérapie raccourcit la maladie et réduit la contagiosité de la shigellose, dont la dose infectante est très faible.",
+        "D": "Faux : Dans les salmonelloses non typhiques non compliquées, l'antibiothérapie n'accélère pas la guérison et peut prolonger le portage ; elle est réservée aux formes graves ou aux terrains à risque.",
+        "E": "Vrai : Dans le choléra, l'antibiothérapie (par exemple doxycycline ou azithromycine) est un complément de la réhydratation dans les formes avec déshydratation importante."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-007"
+      ],
+      "theme": "Diarrhées infectieuses — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire systématiquement un antibiotique ou du lopéramide devant toute diarrhée fébrile.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IDSA — 2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea (2017) [catalogue REC-0272]",
+          "date": "2017-11"
+        },
+        {
+          "reference": "OMS — The WHO AWaRe (Access, Watch, Reserve) antibiotic book (2022) [catalogue REC-0281]",
+          "date": "2022-12"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le lupus tuberculeux (lupus vulgaris), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une forme paucibacillaire de tuberculose cutanée survenant chez un sujet ayant une immunité antituberculeuse élevée.",
+        "B": "Il siège préférentiellement au visage, notamment au nez, aux joues et aux lobules des oreilles.",
+        "C": "La vitropression des lupomes révèle une coloration jaune-brun dite « gelée de pomme ».",
+        "D": "Les lésions régressent spontanément en quelques semaines sans laisser de cicatrice.",
+        "E": "Une évolution prolongée expose au risque de carcinome épidermoïde sur cicatrice."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le lupus tuberculeux est la forme la plus classique de tuberculose cutanée secondaire, de mécanisme paucibacillaire, survenant par voie hématogène, lymphatique ou par contiguïté chez un sujet immunisé. Il se traduit par une plaque faite de lupomes (aspect « gelée de pomme » à la vitropression), d'évolution lente, cicatricielle et potentiellement mutilante. Le diagnostic est histologique (granulome tuberculoïde) et bactériologique (culture, PCR). Le traitement est celui de la tuberculose, avec recherche d'un autre foyer.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le lupus tuberculeux survient chez un sujet préalablement sensibilisé, avec une forte réaction d'hypersensibilité retardée ; les bacilles y sont rares.",
+        "B": "Vrai : La face est le siège de prédilection, avec atteinte possible des muqueuses nasales et des cartilages.",
+        "C": "Vrai : Le lupome est une papule molle brun-rouge ; la vitropression fait apparaître des grains jaunâtres translucides « gelée de pomme ».",
+        "D": "Faux : L'évolution est chronique, extensive sur des années, avec cicatrices atrophiques et risque de mutilations (nez, oreilles).",
+        "E": "Vrai : La dégénérescence en carcinome épidermoïde est une complication classique des formes anciennes."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-009"
+      ],
+      "theme": "Lupus tuberculeux — clinique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre lupus tuberculeux et lupus érythémateux : le terme « lupus » désigne ici une lésion destructrice d'origine tuberculeuse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 45 ans présente depuis 4 ans une plaque infiltrée brun-rouge de la joue, lentement extensive, avec un centre cicatriciel atrophique. Un lupus tuberculeux est suspecté. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'intradermoréaction à la tuberculine est habituellement positive, voire fortement positive.",
+        "B": "L'histologie montre un granulome épithélioïde et gigantocellulaire, avec ou sans nécrose caséeuse.",
+        "C": "L'examen direct de la biopsie après coloration de Ziehl-Neelsen est habituellement très riche en bacilles acido-alcoolo-résistants.",
+        "D": "La culture et la PCR sur fragment biopsique peuvent apporter la confirmation bactériologique.",
+        "E": "Un bilan à la recherche d'un autre foyer tuberculeux (pulmonaire, ganglionnaire, osseux) est indiqué."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le diagnostic d'une tuberculose cutanée paucibacillaire repose sur un faisceau d'arguments : clinique évocatrice, IDR (ou test IGRA) positive, histologie granulomateuse, et confirmation bactériologique (culture, PCR) souvent difficile. La biopsie doit être envoyée à la fois en anatomopathologie et en bactériologie. Le diagnostic différentiel comprend la sarcoïdose, la leishmaniose cutanée chronique (lupoïde), les mycobactérioses atypiques et la lèpre tuberculoïde. Un bilan d'extension recherche un foyer profond.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le lupus tuberculeux survient chez un sujet à forte immunité cellulaire : l'IDR est positive, souvent intensément.",
+        "B": "Vrai : Le granulome tuberculoïde (cellules épithélioïdes, cellules géantes, couronne lymphocytaire) est l'aspect histologique attendu ; la nécrose caséeuse est inconstante.",
+        "C": "Faux : Forme paucibacillaire : l'examen direct est le plus souvent négatif.",
+        "D": "Vrai : La culture (longue) et les techniques d'amplification génique augmentent la rentabilité du prélèvement biopsique, qui doit être adressé en partie non fixé au laboratoire.",
+        "E": "Vrai : Une tuberculose cutanée peut être associée à une localisation viscérale qui modifie le bilan et la durée du traitement."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-009"
+      ],
+      "theme": "Tuberculose cutanée — diagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Éliminer le diagnostic sur un Ziehl négatif : les formes paucibacillaires ont un examen direct habituellement négatif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        },
+        {
+          "reference": "OMS — WHO consolidated guidelines on tuberculosis: module 3: diagnosis (2026) (2026) [catalogue REC-0262]",
+          "date": "2026-11"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3021",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez cette patiente atteinte d'un lupus tuberculeux confirmé de la joue, sans autre localisation, quel est le traitement de référence ?",
+      "propositions": {
+        "A": "Une polychimiothérapie antituberculeuse standard, selon le même schéma que pour une tuberculose pulmonaire à bacilles sensibles.",
+        "B": "Une exérèse chirurgicale isolée de la plaque.",
+        "C": "Une dermocorticothérapie de classe très forte.",
+        "D": "Une monothérapie par isoniazide pendant 6 mois.",
+        "E": "Une cryothérapie des lésions."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Les tuberculoses cutanées sont traitées comme les autres formes de tuberculose à bacilles sensibles, par une polychimiothérapie de 6 mois (2 mois de quadrithérapie puis 4 mois de bithérapie isoniazide-rifampicine). La réponse clinique est en général rapide, et l'absence d'amélioration doit faire reconsidérer le diagnostic ou rechercher une résistance. La chirurgie réparatrice des séquelles mutilantes est différée. La déclaration et l'enquête autour du cas suivent les règles du programme national.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le traitement repose sur l'association isoniazide, rifampicine, pyrazinamide et éthambutol pendant 2 mois, puis isoniazide et rifampicine pendant 4 mois, selon le programme national de lutte antituberculeuse.",
+        "B": "Faux : La chirurgie, éventuellement réparatrice, ne vient qu'en complément après stérilisation de l'infection.",
+        "C": "Faux : Les dermocorticoïdes aggraveraient une infection mycobactérienne.",
+        "D": "Faux : La monothérapie expose à la sélection de mutants résistants ; elle n'a de place que dans le traitement préventif de l'infection latente.",
+        "E": "Faux : Les traitements physiques locaux ne traitent pas l'infection et ne sont pas indiqués."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-009"
+      ],
+      "theme": "Lupus tuberculeux — traitement",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Proposer une exérèse chirurgicale isolée : la tuberculose cutanée est une maladie infectieuse relevant d'une polychimiothérapie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — WHO consolidated guidelines on tuberculosis: module 4: treatment and care (2nd edition, 2026) (2026) [catalogue REC-0261]",
+          "date": "2026-09"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les formes cliniques des teignes du cuir chevelu, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les teignes tondantes microsporiques réalisent de grandes plaques peu nombreuses, à cheveux cassés à quelques millimètres, avec fluorescence verte en lumière de Wood.",
+        "B": "Les teignes tondantes trichophytiques réalisent de multiples petites plaques avec cheveux cassés très courts, sans fluorescence en lumière de Wood.",
+        "C": "Le favus, dû à Trichophyton schoenleinii, se caractérise par des godets faviques et peut aboutir à une alopécie cicatricielle définitive.",
+        "D": "Le kérion est une teigne inflammatoire suppurée, due le plus souvent à des dermatophytes zoophiles ou telluriques.",
+        "E": "Les teignes tondantes de l'enfant persistent habituellement après la puberté en l'absence de traitement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "On distingue les teignes tondantes (microsporiques et trichophytiques), les teignes suppurées (kérion) et le favus. Les teignes tondantes atteignent surtout l'enfant d'âge scolaire et guérissent habituellement à la puberté. Le kérion, très inflammatoire, guérit généralement sans alopécie définitive, alors que le favus laisse une alopécie cicatricielle. L'examen en lumière de Wood oriente : fluorescence verte vive pour les microsporiques, terne pour le favus, absente pour les trichophytiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : Dues à Microsporum (M. canis, M. audouinii…), elles donnent de grandes plaques d'alopécie squameuses, cheveux cassés courts et engainés, fluorescents en vert.",
+        "B": "Vrai : Les Trichophyton anthropophiles (T. tonsurans, T. violaceum, T. soudanense) donnent de petites plaques multiples, cheveux cassés au ras du cuir chevelu, sans fluorescence.",
+        "C": "Vrai : Le favus est caractérisé par les godets (croûtes jaunâtres cupuliformes centrées par un cheveu), une odeur de souris et une alopécie cicatricielle.",
+        "D": "Vrai : Le kérion réalise un placard inflammatoire suppuré où les cheveux s'expulsent ; il est en général dû à des dermatophytes zoophiles (T. mentagrophytes, T. verrucosum) ou telluriques.",
+        "E": "Faux : Les teignes tondantes guérissent habituellement à la puberté (modification du sébum) ; le favus fait exception et peut persister chez l'adulte."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-010"
+      ],
+      "theme": "Teignes du cuir chevelu — formes cliniques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prendre un kérion pour un abcès à drainer et l'inciser : il s'agit d'une teigne inflammatoire relevant d'un traitement antifongique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        },
+        {
+          "reference": "Botterel Françoise. Parasitologie et mycologie médicales : guide des analyses et des pratiques diagnostiques. Elsevier Masson ; 2017 [catalogue OUV-0062].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un garçon de 7 ans présente plusieurs plaques squameuses du cuir chevelu avec cheveux cassés. Quelles propositions sont exactes concernant la démarche diagnostique ?",
+      "propositions": {
+        "A": "L'examen en lumière de Wood oriente vers le genre du dermatophyte.",
+        "B": "Le prélèvement mycologique (cheveux parasités et squames) comporte un examen direct et une culture sur milieu de Sabouraud.",
+        "C": "La culture permet l'identification de l'espèce en quelques semaines.",
+        "D": "Un parasitisme pilaire de type endothrix est caractéristique des Microsporum.",
+        "E": "L'identification d'une espèce anthropophile impose l'examen de l'entourage familial et scolaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le diagnostic de teigne est mycologique : examen en lumière de Wood, prélèvement avant traitement, examen direct (type de parasitisme pilaire) et culture sur milieu de Sabouraud avec identification de l'espèce. L'espèce oriente l'enquête : zoophile (chat, chien, bovins) ou anthropophile (contagion interhumaine). En Algérie comme dans l'ensemble du Maghreb, les teignes du cuir chevelu de l'enfant restent fréquentes. Le traitement est souvent débuté dès l'examen direct, puis adapté à la culture.",
+      "explications_par_proposition": {
+        "A": "Vrai : La fluorescence verte oriente vers Microsporum ; l'absence de fluorescence vers un Trichophyton (hors favus).",
+        "B": "Vrai : Le prélèvement est réalisé avant tout traitement antifongique ; l'examen direct confirme le parasitisme fongique et précise son type.",
+        "C": "Vrai : Les dermatophytes poussent lentement : l'identification de l'espèce nécessite en général 2 à 4 semaines de culture.",
+        "D": "Faux : Microsporum réalise un parasitisme ectothrix (spores en mosaïque autour du cheveu) ; le type endothrix (spores dans le cheveu) caractérise les Trichophyton anthropophiles responsables de teignes tondantes.",
+        "E": "Vrai : Les espèces anthropophiles se transmettent d'enfant à enfant : la recherche de cas dans la fratrie et la collectivité est nécessaire ; une espèce zoophile fait rechercher l'animal source."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-010"
+      ],
+      "theme": "Teignes — diagnostic mycologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser ectothrix (Microsporum) et endothrix (Trichophyton anthropophiles).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Botterel Françoise. Parasitologie et mycologie médicales : guide des analyses et des pratiques diagnostiques. Elsevier Masson ; 2017 [catalogue OUV-0062].",
+          "date": "2017"
+        },
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Garcia Lynne Shore. Diagnostic Medical Parasitology (Garcia). 6e éd. ASM Press ; 2016 [catalogue OUV-0213].",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement des teignes du cuir chevelu de l'enfant, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il associe un antifongique par voie orale et un traitement local.",
+        "B": "La griséofulvine est un traitement oral de référence, mieux absorbée lorsqu'elle est prise au cours d'un repas contenant des graisses.",
+        "C": "Un traitement local seul suffit habituellement à guérir une teigne tondante.",
+        "D": "Le kérion relève d'une antibiothérapie seule, sans antifongique.",
+        "E": "La griséofulvine est contre-indiquée pendant la grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Le traitement des teignes du cuir chevelu associe un antifongique oral (griséofulvine, ou terbinafine selon l'espèce et la disponibilité), d'une durée de plusieurs semaines jusqu'à guérison clinique et mycologique, et un traitement local. Les cheveux peuvent être coupés autour des plaques. Il faut traiter les sujets contacts atteints, dépister la fratrie et rechercher l'animal source si l'espèce est zoophile. Le contrôle mycologique en fin de traitement confirme la guérison.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le traitement local seul ne pénètre pas suffisamment le follicule pilaire ; l'association d'un antifongique systémique et d'un traitement local (imidazolé, ciclopiroxolamine) est la règle.",
+        "B": "Vrai : La griséofulvine, fongistatique, est absorbée de manière optimale avec un repas gras ; la terbinafine est une alternative, notamment pour les Trichophyton.",
+        "C": "Faux : Le traitement local seul expose à l'échec et à la persistance de la contagion.",
+        "D": "Faux : Le kérion est une infection fongique : le traitement est antifongique oral ; une surinfection bactérienne est rare.",
+        "E": "Vrai : La griséofulvine est tératogène ; elle est contre-indiquée pendant la grossesse et impose une contraception chez la femme en âge de procréer."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-010"
+      ],
+      "theme": "Teignes — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Se contenter d'un antifongique local pour une teigne du cuir chevelu.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3025",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'eczéma de contact allergique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il relève d'une hypersensibilité retardée de type IV, à médiation lymphocytaire T.",
+        "B": "La phase de sensibilisation initiale est cliniquement silencieuse.",
+        "C": "Le nickel, les chromates et les parfums font partie des allergènes de contact les plus fréquents.",
+        "D": "Les lésions restent strictement limitées à la zone de contact avec l'allergène.",
+        "E": "La dermatite d'irritation, comme l'eczéma allergique, nécessite une sensibilisation préalable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'eczéma de contact allergique est une hypersensibilité retardée à médiation cellulaire, en deux phases : sensibilisation silencieuse puis révélation lors d'un nouveau contact. Il se distingue de la dermatite d'irritation, non immunologique, dont les lésions restent limitées à la zone exposée. Les étiologies sont domestiques, cosmétiques, médicamenteuses ou professionnelles (ciment, coiffure, métiers de santé). L'identification de l'allergène par l'interrogatoire et les tests épicutanés conditionne la guérison.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'haptène, pénétrant la peau, est pris en charge par les cellules dendritiques qui activent des lymphocytes T spécifiques ; la réaction survient 24 à 72 heures après le contact chez un sujet sensibilisé.",
+        "B": "Vrai : La sensibilisation (phase afférente) dure de quelques jours à plusieurs années sans manifestation clinique ; seule la phase de révélation est symptomatique.",
+        "C": "Vrai : Nickel (bijoux fantaisie, boucles de ceinture), dichromate de potassium (ciment, cuir), parfums, conservateurs, caoutchouc et topiques médicamenteux sont des allergènes classiques.",
+        "D": "Faux : L'eczéma allergique déborde souvent la zone de contact et peut donner des lésions à distance, contrairement à la dermatite d'irritation, bien limitée.",
+        "E": "Faux : La dermatite d'irritation est une agression directe, non immunologique, pouvant survenir chez tout sujet dès le premier contact si l'irritant est suffisamment concentré."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-012"
+      ],
+      "theme": "Eczéma de contact — physiopathologie et étiologies",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un eczéma de contact allergique reste confiné à la zone de contact : il déborde et peut se généraliser.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3026",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un maçon de 38 ans présente depuis 6 mois un eczéma des mains et des avant-bras, aggravé pendant les semaines de travail et amélioré pendant les congés. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les tests épicutanés sont lus à 48 heures puis à 72–96 heures.",
+        "B": "Les tests épicutanés doivent être réalisés en pleine poussée d'eczéma pour en augmenter la sensibilité.",
+        "C": "Le dichromate de potassium, présent dans le ciment, est l'allergène classiquement en cause dans cette profession.",
+        "D": "L'eczéma aigu évolue en phases successives : érythème, vésicules, suintement, croûtes puis desquamation, avec prurit.",
+        "E": "Une biopsie cutanée est indispensable pour affirmer le diagnostic d'eczéma."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le diagnostic d'eczéma de contact est clinique, l'enquête étiologique reposant sur l'interrogatoire (chronologie, profession, loisirs, cosmétiques, topiques) et les tests épicutanés, dont la pertinence doit être confrontée à l'histoire. L'amélioration pendant les congés est un argument fort en faveur d'une origine professionnelle. La batterie standard européenne est complétée par les produits apportés par le patient. Un eczéma professionnel peut relever d'une reconnaissance en maladie professionnelle selon la réglementation en vigueur.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les tests sont appliqués sous occlusion 48 heures, puis lus au retrait et à nouveau à 72 ou 96 heures pour ne pas méconnaître des réactions tardives.",
+        "B": "Faux : Ils se pratiquent à distance d'une poussée, sur une peau saine du dos non traitée par dermocorticoïdes, pour éviter les faux positifs (« peau excitée ») et les faux négatifs.",
+        "C": "Vrai : Les chromates hexavalents du ciment sont la cause classique d'eczéma professionnel du maçon ; le caoutchouc des gants est un autre allergène possible.",
+        "D": "Vrai : L'évolution typique de l'eczéma aigu est stéréotypée ; le prurit est constant.",
+        "E": "Faux : Le diagnostic d'eczéma est clinique ; l'histologie (spongiose) n'est utile qu'en cas de doute diagnostique."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-012"
+      ],
+      "theme": "Eczéma de contact — diagnostic et tests épicutanés",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réaliser les tests épicutanés en poussée ou sur une peau traitée par dermocorticoïdes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3027",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un patient présentant un eczéma de contact allergique au nickel confirmé, quelle est la mesure la plus importante pour obtenir une guérison durable ?",
+      "propositions": {
+        "A": "L'éviction de l'allergène.",
+        "B": "Un antihistaminique H1 au long cours.",
+        "C": "Une corticothérapie générale prolongée.",
+        "D": "Une désensibilisation spécifique au nickel.",
+        "E": "Une antibiothérapie locale des lésions."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le traitement de l'eczéma de contact repose sur deux volets : traitement de la poussée par dermocorticoïdes (classe adaptée au siège et à l'intensité) et émollients, et prévention des récidives par l'éviction de l'allergène identifié. Cette éviction nécessite une information détaillée du patient sur les sources d'exposition. En milieu professionnel, des mesures de protection, voire un reclassement, peuvent être nécessaires.",
+      "explications_par_proposition": {
+        "A": "Vrai : Seule l'éviction de l'allergène identifié (bijoux, objets métalliques, choix d'alternatives) permet d'éviter les récidives.",
+        "B": "Faux : Les antihistaminiques ont un effet modeste sur le prurit de l'eczéma et n'empêchent pas les récidives.",
+        "C": "Faux : La corticothérapie générale n'a pas de place dans le traitement au long cours ; les dermocorticoïdes traitent la poussée.",
+        "D": "Faux : Il n'existe pas de désensibilisation validée pour l'eczéma de contact au nickel.",
+        "E": "Faux : L'antibiothérapie locale n'a pas d'indication, sauf surinfection avérée, et expose à de nouvelles sensibilisations."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-012"
+      ],
+      "theme": "Eczéma de contact — traitement",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des antihistaminiques comme traitement de fond de l'eczéma de contact.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3028",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un nourrisson de 5 mois présente depuis 2 mois des plaques érythémato-squameuses et suintantes, très prurigineuses, des joues et du front. Concernant la dermatite atopique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez le nourrisson, les lésions touchent les convexités du visage en respectant habituellement la région médio-faciale.",
+        "B": "Chez l'enfant plus grand, les lésions prédominent aux plis de flexion (coudes, creux poplités).",
+        "C": "La xérose cutanée est fréquente.",
+        "D": "Le prurit est habituellement absent avant l'âge de 1 an.",
+        "E": "Une élévation des IgE totales est nécessaire pour retenir le diagnostic."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La dermatite atopique est une dermatose inflammatoire chronique et prurigineuse, débutant souvent dans les premiers mois de vie, évoluant par poussées. Son diagnostic est clinique (prurit, topographie selon l'âge, chronicité, terrain atopique personnel ou familial). La physiopathologie associe une anomalie de la barrière cutanée et une inflammation à prédominance Th2. Aucun examen complémentaire n'est requis dans les formes typiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'atteinte des joues, du front et du menton avec respect du nez et de la région péribuccale est caractéristique chez le nourrisson ; les convexités des membres peuvent aussi être touchées.",
+        "B": "Vrai : Après 2 ans, la topographie devient flexurale (plis des coudes et des genoux, cou, poignets), avec lichénification dans les formes chroniques.",
+        "C": "Vrai : La xérose traduit l'altération de la barrière cutanée (notamment en cas de mutation de la filaggrine) et entretient le prurit.",
+        "D": "Faux : Le prurit est un critère majeur ; chez le nourrisson, il se traduit par des frottements, une agitation et des troubles du sommeil.",
+        "E": "Faux : Le diagnostic est clinique ; les IgE totales, inconstamment élevées, ne sont pas nécessaires."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-013"
+      ],
+      "theme": "Dermatite atopique — clinique selon l'âge",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Exiger un dosage des IgE ou des tests allergologiques pour poser le diagnostic de dermatite atopique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        },
+        {
+          "reference": "Paller Amy, Mancini Anthony J. Hurwitz Clinical Pediatric Dermatology. 5e éd. Elsevier ; 2016 [catalogue OUV-0359].",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3029",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les complications et associations de la dermatite atopique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La surinfection à Staphylococcus aureus est fréquente.",
+        "B": "La pustulose varioliforme de Kaposi-Juliusberg, due au virus herpès simplex, est une complication grave nécessitant un traitement antiviral urgent.",
+        "C": "Les formes sévères peuvent s'accompagner d'un retentissement sur la croissance et le sommeil.",
+        "D": "La dermatite atopique contre-indique les vaccins du calendrier vaccinal.",
+        "E": "Une association à l'asthme et à la rhinite allergique est fréquente."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les complications infectieuses (bactériennes, virales : herpès, molluscum) dominent l'évolution de la dermatite atopique. La pustulose de Kaposi-Juliusberg est une urgence thérapeutique. Le retentissement psychosocial et sur le sommeil est important dans les formes sévères. La dermatite atopique s'intègre souvent dans un terrain atopique (asthme, rhinoconjonctivite), sans contre-indiquer les vaccinations.",
+      "explications_par_proposition": {
+        "A": "Vrai : La colonisation par S. aureus est très fréquente et l'impétiginisation (croûtes jaunâtres, pustules) une complication classique.",
+        "B": "Vrai : L'éruption vésiculo-pustuleuse ombiliquée diffuse avec fièvre et altération de l'état général impose l'aciclovir en urgence.",
+        "C": "Vrai : Le prurit et les troubles du sommeil retentissent sur la qualité de vie de l'enfant et de la famille ; un retard de croissance est décrit dans les formes sévères.",
+        "D": "Faux : La dermatite atopique ne contre-indique pas les vaccinations ; elles peuvent être faites en dehors des zones lésionnelles.",
+        "E": "Vrai : La « marche atopique » associe successivement dermatite atopique, allergies alimentaires, asthme et rhinite allergique chez une partie des enfants."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-013"
+      ],
+      "theme": "Dermatite atopique — complications et associations",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Différer les vaccinations chez l'enfant atopique : c'est une fausse contre-indication.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        },
+        {
+          "reference": "Paller Amy, Mancini Anthony J. Hurwitz Clinical Pediatric Dermatology. 5e éd. Elsevier ; 2016 [catalogue OUV-0359].",
+          "date": "2016"
+        },
+        {
+          "reference": "Kliegman Robert, St. Geme Joseph W, Blum Nathan J et al. Nelson Textbook of Pediatrics. 22e éd. Elsevier ; 2025 [catalogue OUV-0386].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3030",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de la dermatite atopique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'application quotidienne d'émollients est la base du traitement d'entretien.",
+        "B": "Les dermocorticoïdes sont le traitement de première intention des poussées.",
+        "C": "Le tacrolimus topique est contre-indiqué sur le visage.",
+        "D": "La corticothérapie générale est le traitement de fond de référence des formes modérées.",
+        "E": "Le dupilumab, anticorps dirigé contre la sous-unité alpha du récepteur de l'IL-4, est une option dans les formes modérées à sévères insuffisamment contrôlées par les traitements locaux."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Le traitement de la dermatite atopique associe soins d'entretien (émollients, éviction des irritants), traitement des poussées par dermocorticoïdes ou inhibiteurs de la calcineurine topiques, et éducation thérapeutique. Les formes sévères ou résistantes relèvent de la photothérapie, de la ciclosporine ou des traitements ciblés (dupilumab, autres biothérapies, inhibiteurs de JAK), selon l'âge et les autorisations. La corticothérapie générale n'a pas de place dans le traitement de fond.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les émollients restaurent la barrière cutanée et réduisent la fréquence des poussées.",
+        "B": "Vrai : Les dermocorticoïdes, de classe adaptée à l'âge et au siège, appliqués une fois par jour jusqu'à amélioration, sont le traitement des poussées ; la corticophobie est une cause fréquente d'échec.",
+        "C": "Faux : Le tacrolimus topique est au contraire particulièrement utile sur le visage et les paupières, zones où l'atrophie cortico-induite est à craindre.",
+        "D": "Faux : La corticothérapie générale est déconseillée (rebond à l'arrêt, effets indésirables) ; les formes sévères relèvent de traitements systémiques spécifiques.",
+        "E": "Vrai : Le dupilumab bloque la signalisation IL-4/IL-13 ; d'autres biothérapies et les inhibiteurs de JAK font partie de l'arsenal des formes sévères."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-013"
+      ],
+      "theme": "Dermatite atopique — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire une corticothérapie générale pour une poussée de dermatite atopique : effet rebond garanti.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3031",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 28 ans consulte pour une ulcération du sillon balano-préputial apparue il y a 8 jours, unique, indolore, à fond propre et à base indurée, avec une adénopathie inguinale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les caractéristiques de l'ulcération sont typiques d'un chancre syphilitique.",
+        "B": "Une sérologie non tréponémique (VDRL) négative à ce stade exclut la syphilis.",
+        "C": "Le titre du VDRL sert au suivi de l'efficacité du traitement.",
+        "D": "Le chancre mou (Haemophilus ducreyi) réalise une ulcération douloureuse, à fond sale, souvent multiple.",
+        "E": "L'herpès génital se présente typiquement par une ulcération unique indurée et indolore."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Devant une ulcération génitale, les principales causes infectieuses sont l'herpès (la plus fréquente), la syphilis, et plus rarement le chancre mou, la lymphogranulomatose vénérienne ou la donovanose. Le diagnostic de syphilis associe tests directs sur la lésion (microscopie à fond noir, PCR) et sérologie combinant un test tréponémique et un test non tréponémique quantitatif. Toute IST impose un dépistage des autres IST (VIH, hépatites B et C, gonocoque, Chlamydia) et la prise en charge des partenaires. Syphilis et urétrite gonococcique figurent sur la liste algérienne des maladies à déclaration obligatoire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le chancre syphilitique est classiquement unique, indolore, propre, à base indurée, accompagné d'une adénopathie satellite non inflammatoire.",
+        "B": "Faux : Les sérologies peuvent être négatives au début du chancre ; le diagnostic peut reposer sur l'examen au microscope à fond noir ou une PCR sur la lésion, et la sérologie doit être contrôlée.",
+        "C": "Vrai : Le titre du test non tréponémique (VDRL/RPR) reflète l'activité de la maladie : sa décroissance (d'au moins 4 fois) témoigne de l'efficacité du traitement, alors que les tests tréponémiques restent habituellement positifs.",
+        "D": "Vrai : Le chancre mou donne des ulcérations douloureuses, molles, purulentes, avec adénopathie inflammatoire pouvant se fistuliser.",
+        "E": "Faux : L'herpès génital réalise des vésicules puis des érosions multiples, douloureuses, en bouquet."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-014"
+      ],
+      "theme": "Ulcérations génitales — syphilis primaire et diagnostic différentiel",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Exclure une syphilis sur une sérologie précoce négative au stade de chancre.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "CDC — Sexually Transmitted Infections Treatment Guidelines, 2021 (2021) [catalogue REC-0269]",
+          "date": "2021-07"
+        },
+        {
+          "reference": "OMS — Updated recommendations for the treatment of Neisseria gonorrhoeae, Chlamydia trachomatis and Treponema pallidum (syphilis), and new recommendations on syphilis testing and partner services (2024) [catalogue REC-0270]",
+          "date": "2024-07"
+        },
+        {
+          "reference": "Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé) — Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire (2022) [catalogue REC-0004]",
+          "date": "2022-07"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3032",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel est le traitement de référence d'une syphilis précoce (primaire, secondaire ou latente de moins d'un an) chez un adulte non allergique à la pénicilline ?",
+      "propositions": {
+        "A": "Benzathine benzylpénicilline, 2,4 millions d'unités en une injection intramusculaire unique.",
+        "B": "Amoxicilline orale pendant 7 jours.",
+        "C": "Ceftriaxone en dose unique de 250 mg intramusculaire.",
+        "D": "Ciprofloxacine orale pendant 10 jours.",
+        "E": "Métronidazole oral en dose unique."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La benzathine benzylpénicilline, forme retard, maintient des concentrations tréponémicides prolongées : une injection unique de 2,4 MUI traite la syphilis précoce, trois injections hebdomadaires la syphilis tardive. La réaction d'Herxheimer (fièvre, malaise dans les heures suivant la première injection) doit être annoncée au patient. Chez la femme enceinte allergique, une désensibilisation à la pénicilline est recommandée. Le suivi repose sur la décroissance du titre du VDRL/RPR.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une injection unique de 2,4 MUI de benzathine benzylpénicilline est le traitement de référence de la syphilis précoce dans les recommandations CDC 2021 et OMS 2024 ; la doxycycline pendant 14 jours est l'alternative en cas d'allergie (hors grossesse).",
+        "B": "Faux : L'amoxicilline orale n'est pas le traitement de référence de la syphilis.",
+        "C": "Faux : Ce schéma de dose unique de ceftriaxone est inadapté à la syphilis, qui nécessite des taux tréponémicides prolongés.",
+        "D": "Faux : Les fluoroquinolones ne sont pas actives sur Treponema pallidum.",
+        "E": "Faux : Le métronidazole traite la trichomonase, pas la syphilis."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-014"
+      ],
+      "theme": "Syphilis précoce — traitement de référence",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre la posologie de la syphilis précoce (injection unique) avec celle de la syphilis tardive (trois injections hebdomadaires).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "CDC — Sexually Transmitted Infections Treatment Guidelines, 2021 (2021) [catalogue REC-0269]",
+          "date": "2021-07"
+        },
+        {
+          "reference": "OMS — Updated recommendations for the treatment of Neisseria gonorrhoeae, Chlamydia trachomatis and Treponema pallidum (syphilis), and new recommendations on syphilis testing and partner services (2024) [catalogue REC-0270]",
+          "date": "2024-07"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3033",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 24 ans présente depuis 3 jours un écoulement urétral purulent abondant avec brûlures mictionnelles, 4 jours après un rapport non protégé. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'incubation courte et l'écoulement purulent abondant sont évocateurs d'une urétrite gonococcique.",
+        "B": "Les fluoroquinolones sont le traitement probabiliste de choix du gonocoque en raison d'un faible taux de résistance.",
+        "C": "Le traitement probabiliste doit couvrir à la fois Neisseria gonorrhoeae et Chlamydia trachomatis.",
+        "D": "La ceftriaxone injectable est le traitement de référence de la gonococcie.",
+        "E": "Le ou les partenaires n'ont pas à être traités s'ils sont asymptomatiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Devant un écoulement urétral, le prélèvement (examen direct, culture avec antibiogramme du gonocoque, amplification génique gonocoque/Chlamydia) est réalisé avant le traitement probabiliste, qui couvre les deux agents. La résistance du gonocoque aux fluoroquinolones et aux cyclines impose la ceftriaxone. La prise en charge comprend le dépistage des autres IST (VIH, syphilis, hépatites), le traitement des partenaires, l'abstinence ou le préservatif jusqu'à guérison, et la déclaration (urétrite gonococcique sur la liste algérienne des maladies à déclaration obligatoire).",
+      "explications_par_proposition": {
+        "A": "Vrai : L'urétrite gonococcique a une incubation de 2 à 7 jours et donne un écoulement purulent franc ; Chlamydia donne plus souvent un écoulement clair ou une infection asymptomatique.",
+        "B": "Faux : La résistance du gonocoque aux fluoroquinolones est élevée dans de nombreuses régions ; elles ne sont pas utilisées en probabiliste.",
+        "C": "Vrai : Les co-infections étant fréquentes, le traitement associe un anti-gonococcique (ceftriaxone) et un traitement actif sur Chlamydia (doxycycline, ou azithromycine selon les recommandations).",
+        "D": "Vrai : La ceftriaxone en injection unique reste le traitement recommandé par l'OMS (2024) et les CDC (2021).",
+        "E": "Faux : Les partenaires doivent être dépistés et traités, même asymptomatiques, pour éviter les recontaminations et la transmission."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-014"
+      ],
+      "theme": "Écoulements urétraux — diagnostic et traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Traiter le gonocoque sans couvrir Chlamydia, ou oublier le traitement des partenaires.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS — Updated recommendations for the treatment of Neisseria gonorrhoeae, Chlamydia trachomatis and Treponema pallidum (syphilis), and new recommendations on syphilis testing and partner services (2024) [catalogue REC-0270]",
+          "date": "2024-07"
+        },
+        {
+          "reference": "CDC — Sexually Transmitted Infections Treatment Guidelines, 2021 (2021) [catalogue REC-0269]",
+          "date": "2021-07"
+        },
+        {
+          "reference": "Gouvernement algérien (Premier ministre, sur rapport du ministre de la santé) — Décret exécutif n°22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire (2022) [catalogue REC-0004]",
+          "date": "2022-07"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3034",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'impétigo, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est dû à Staphylococcus aureus et/ou à Streptococcus pyogenes.",
+        "B": "La lésion initiale est une vésiculo-bulle fragile, rapidement remplacée par des croûtes jaunâtres « mélicériques ».",
+        "C": "Il est contagieux et auto-inoculable.",
+        "D": "Une glomérulonéphrite aiguë post-streptococcique peut le compliquer.",
+        "E": "L'ecthyma est une forme superficielle qui guérit sans cicatrice."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'impétigo est une infection épidermique superficielle, très contagieuse, fréquente chez l'enfant. Il peut être primitif ou secondaire à une dermatose prurigineuse (impétiginisation : gale, eczéma, pédiculose). Les formes peu étendues relèvent de soins locaux et d'un antibiotique topique (mupirocine ou acide fusidique) ; les formes étendues ou multiples d'une antibiothérapie orale antistaphylococcique. La glomérulonéphrite post-streptococcique est la principale complication à distance.",
+      "explications_par_proposition": {
+        "A": "Vrai : S. aureus est aujourd'hui l'agent le plus fréquent ; S. pyogenes est en cause seul ou associé.",
+        "B": "Vrai : La bulle sous-cornée, fragile, laisse place à une érosion recouverte de croûtes jaune miel, classiquement péri-orificielles chez l'enfant.",
+        "C": "Vrai : La contagiosité justifie l'éviction de collectivité selon les règles locales, l'hygiène des mains et l'examen de l'entourage.",
+        "D": "Vrai : Les impétigos streptococciques peuvent se compliquer de glomérulonéphrite aiguë post-streptococcique, mais pas de rhumatisme articulaire aigu, classiquement.",
+        "E": "Faux : L'ecthyma est une forme creusante (ulcération dermique) qui laisse une cicatrice."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-015"
+      ],
+      "theme": "Impétigo — diagnostic et complications",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à l'impétigo le risque de rhumatisme articulaire aigu, classiquement lié aux angines streptococciques.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IDSA — Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the infectious diseases society of America (2014) [catalogue REC-0271]",
+          "date": "2014-06"
+        },
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3035",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 60 ans, obèse, présente depuis 24 heures une fièvre à 39 °C avec frissons, puis un placard érythémateux, chaud, douloureux et œdémateux de la jambe gauche. Il existe un intertrigo interorteil. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le streptocoque β-hémolytique, principalement du groupe A, est l'agent habituellement en cause.",
+        "B": "Un écho-doppler veineux des membres inférieurs est systématique devant tout érysipèle.",
+        "C": "L'intertrigo interorteil constitue une porte d'entrée qu'il faut traiter.",
+        "D": "Les anti-inflammatoires non stéroïdiens sont recommandés pour accélérer la régression de l'œdème.",
+        "E": "L'amoxicilline est l'antibiotique de première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'érysipèle est une dermohypodermite bactérienne aiguë non nécrosante, le plus souvent streptococcique, siégeant typiquement à la jambe. Le diagnostic est clinique : début brutal fébrile, placard inflammatoire, parfois adénopathie et lymphangite. Les facteurs favorisants sont le lymphœdème, l'obésité et une porte d'entrée cutanée. Le traitement repose sur l'amoxicilline orale (7 jours en général selon les recommandations françaises), le repos avec jambe surélevée, le traitement de la porte d'entrée et la prévention des récidives.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'érysipèle (dermohypodermite bactérienne non nécrosante) est essentiellement streptococcique.",
+        "B": "Faux : Le diagnostic est clinique ; l'écho-doppler n'est indiqué que si une thrombose veineuse est suspectée (association rare).",
+        "C": "Vrai : Le traitement de la porte d'entrée (intertrigo mycosique, plaie, ulcère) fait partie de la prévention des récidives.",
+        "D": "Faux : Les AINS sont déconseillés : ils pourraient favoriser l'évolution vers une forme nécrosante et masquer l'aggravation.",
+        "E": "Vrai : L'amoxicilline par voie orale est le traitement de première intention de la dermohypodermite non nécrosante (pristinamycine ou clindamycine en cas d'allergie)."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-015"
+      ],
+      "theme": "Érysipèle — diagnostic et traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des AINS pour la douleur ou l'œdème d'une dermohypodermite.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS (Haute Autorité de santé) — Choix et durées d'antibiothérapies préconisées dans les infections bactériennes courantes (2021) [catalogue REC-0503]",
+          "date": "2021-08"
+        },
+        {
+          "reference": "IDSA — Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the infectious diseases society of America (2014) [catalogue REC-0271]",
+          "date": "2014-06"
+        },
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3036",
+      "format": "QCS (réponse unique)",
+      "enonce": "Chez un patient présentant une dermohypodermite bactérienne de jambe, lequel des éléments suivants doit faire suspecter une forme nécrosante et motiver un avis chirurgical urgent ?",
+      "propositions": {
+        "A": "Un placard érythémateux bien limité avec bourrelet périphérique.",
+        "B": "Une douleur intense disproportionnée, une hypoesthésie cutanée et des taches cyaniques ou livedoïdes.",
+        "C": "Une fièvre à 39 °C avec frissons précédant l'apparition du placard.",
+        "D": "Une traînée de lymphangite remontant vers la racine du membre.",
+        "E": "Une adénopathie inguinale sensible."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Les dermohypodermites bactériennes nécrosantes et fasciites nécrosantes sont des urgences vitales. Elles sont suspectées devant des signes locaux (douleur intense, hypoesthésie, nécrose, bulles hémorragiques, crépitation) et généraux (sepsis, choc). Le traitement associe chirurgie urgente de débridement, antibiothérapie à large spectre active sur streptocoques, anaérobies et parfois entérobactéries, et réanimation. L'imagerie ne doit pas retarder l'exploration chirurgicale.",
+      "explications_par_proposition": {
+        "A": "Faux : Le bourrelet périphérique est un aspect classique de l'érysipèle non nécrosant.",
+        "B": "Vrai : Douleur intense, hypoesthésie, taches cyaniques, nécrose, crépitation et signes de choc sont les signes d'alerte d'une dermohypodermite nécrosante (± fasciite), urgence médico-chirurgicale.",
+        "C": "Faux : Le début fébrile brutal est habituel dans l'érysipèle et ne signe pas une forme nécrosante.",
+        "D": "Faux : La lymphangite est fréquente dans l'érysipèle non compliqué.",
+        "E": "Faux : Une adénopathie inflammatoire satellite est fréquente au cours d'un érysipèle."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-015"
+      ],
+      "theme": "Dermohypodermite bactérienne nécrosante — signes d'alerte",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre une imagerie pour confirmer une fasciite nécrosante cliniquement suspectée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IDSA — Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the infectious diseases society of America (2014) [catalogue REC-0271]",
+          "date": "2014-06"
+        },
+        {
+          "reference": "Kang Sewon. Fitzpatrick's Dermatology. 9e éd. McGraw-Hill Education ; 2019 [catalogue OUV-0354].",
+          "date": "2019"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3037",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les candidoses cutanéo-muqueuses, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Candida albicans est une levure commensale des muqueuses digestives et génitales.",
+        "B": "L'intertrigo candidosique des grands plis associe un fond érythémateux suintant, une fissure au fond du pli et des pustules satellites.",
+        "C": "Le diabète, l'antibiothérapie à large spectre et la corticothérapie sont des facteurs favorisants.",
+        "D": "Un muguet buccal chez un adulte sans facteur favorisant évident doit faire rechercher une infection par le VIH.",
+        "E": "L'onyxis candidosique débute typiquement par le bord libre de l'ongle, sans atteinte du repli périunguéal."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les candidoses sont des infections opportunistes dues à des levures du genre Candida, commensales des muqueuses. Elles réalisent des atteintes muqueuses (muguet, perlèche, vulvovaginite, balanite), cutanées (intertrigos des grands et petits plis) et unguéales (périonyxis et onyxis). Le diagnostic est clinique et mycologique (examen direct, culture). Le traitement associe la correction des facteurs favorisants et un antifongique local, voire systémique dans les formes étendues ou récidivantes.",
+      "explications_par_proposition": {
+        "A": "Vrai : C. albicans n'est pas un hôte normal de la peau saine ; il devient pathogène à la faveur de facteurs locaux ou généraux.",
+        "B": "Vrai : La collerette desquamative et les pustules satellites en périphérie sont évocatrices de candidose.",
+        "C": "Vrai : Les facteurs généraux (diabète, immunodépression, antibiotiques, corticoïdes) et locaux (humidité, macération) favorisent la prolifération de Candida.",
+        "D": "Vrai : Le muguet inexpliqué de l'adulte est un signe classique d'immunodépression cellulaire.",
+        "E": "Faux : L'onyxis candidosique débute habituellement par un périonyxis (tuméfaction douloureuse du repli proximal) ; l'atteinte débutant par le bord libre est typique des dermatophytes."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-016"
+      ],
+      "theme": "Candidoses cutanéo-muqueuses",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser le mode de début des onyxis : périonyxis pour Candida, bord libre pour les dermatophytes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        },
+        {
+          "reference": "Botterel Françoise. Parasitologie et mycologie médicales : guide des analyses et des pratiques diagnostiques. Elsevier Masson ; 2017 [catalogue OUV-0062].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3038",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 25 ans présente, au retour de l'été, des macules hypopigmentées finement squameuses du tronc. Un pityriasis versicolor est suspecté. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'agent responsable est une levure lipophile du genre Malassezia.",
+        "B": "Le grattage des lésions fait apparaître une fine desquamation (« signe du copeau »).",
+        "C": "Les lésions peuvent présenter une fluorescence jaune-verdâtre en lumière de Wood.",
+        "D": "La contagiosité interhumaine élevée impose une éviction de la collectivité.",
+        "E": "La griséofulvine orale est le traitement de première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le pityriasis versicolor est une mycose superficielle bénigne due à la prolifération de Malassezia sur la peau séborrhéique du tronc. Les lésions sont hypo- ou hyperpigmentées, finement squameuses. Le diagnostic est clinique, aidé par la lumière de Wood et le scotch-test (aspect « spaghetti et boulettes de viande » à l'examen direct). Le traitement est local ; l'hypopigmentation persiste plusieurs semaines après guérison et les récidives sont fréquentes.",
+      "explications_par_proposition": {
+        "A": "Vrai : Malassezia est un commensal de la peau séborrhéique ; chaleur, humidité et séborrhée favorisent sa prolifération.",
+        "B": "Vrai : Le signe du copeau, desquamation furfuracée provoquée par le grattage, est évocateur.",
+        "C": "Vrai : La fluorescence jaune-verdâtre en lumière de Wood aide au diagnostic et à l'évaluation de l'étendue.",
+        "D": "Faux : Malassezia étant un commensal, la maladie n'est pas considérée comme contagieuse ; aucune éviction n'est justifiée.",
+        "E": "Faux : La griséofulvine est inactive sur Malassezia ; le traitement repose sur des antifongiques locaux (azolés, sulfure de sélénium), avec récidives fréquentes."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-016"
+      ],
+      "theme": "Pityriasis versicolor",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire de la griséofulvine : elle est sans effet sur Malassezia.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Botterel Françoise. Parasitologie et mycologie médicales : guide des analyses et des pratiques diagnostiques. Elsevier Masson ; 2017 [catalogue OUV-0062].",
+          "date": "2017"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DERM-3039",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme diabétique de 55 ans présente un épaississement jaunâtre de plusieurs ongles des orteils et un intertrigo du 4e espace interorteil. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Trichophyton rubrum est le dermatophyte le plus fréquemment isolé dans les onychomycoses des orteils.",
+        "B": "L'atteinte unguéale dermatophytique débute habituellement par le bord libre ou les bords latéraux de l'ongle.",
+        "C": "Un prélèvement mycologique est recommandé avant tout traitement antifongique systémique.",
+        "D": "La terbinafine orale est un traitement de référence des onychomycoses dermatophytiques avec atteinte de la matrice.",
+        "E": "L'intertrigo interorteil peut constituer la porte d'entrée d'une dermohypodermite bactérienne de jambe."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les dermatophyties des pieds (intertrigo interorteil, atteinte plantaire) et les onychomycoses sont dues surtout à des Trichophyton anthropophiles (T. rubrum). Le diagnostic doit être confirmé par un prélèvement mycologique (examen direct et culture) avant un traitement systémique. Le traitement associe antifongique local et, en cas d'atteinte matricielle, terbinafine orale pendant plusieurs mois, avec surveillance hépatique. Chez le diabétique, ces lésions sont des portes d'entrée infectieuses à traiter.",
+      "explications_par_proposition": {
+        "A": "Vrai : T. rubrum, anthropophile, est l'espèce la plus fréquente, suivie de T. interdigitale.",
+        "B": "Vrai : L'onychomycose sous-unguéale distolatérale est la forme la plus fréquente ; le début proximal évoque une immunodépression ou un Candida.",
+        "C": "Vrai : Les onychopathies non fongiques (psoriasis, traumatismes) sont fréquentes : la confirmation mycologique évite des traitements prolongés inutiles.",
+        "D": "Vrai : La terbinafine, fongicide, est le traitement oral de référence des onychomycoses à dermatophytes ; les formes distales limitées peuvent relever d'un traitement local (solution filmogène).",
+        "E": "Vrai : L'intertrigo interorteil, mycosique ou non, est une porte d'entrée classique de l'érysipèle, d'où l'intérêt de son traitement."
+      },
+      "specialite": "DERM",
+      "items_residanat": [
+        "RES-MED-016"
+      ],
+      "theme": "Dermatophyties des pieds et onychomycoses",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Traiter une onychopathie « présumée mycosique » pendant des mois sans confirmation mycologique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Saurat J H. Dermatologie et infections sexuellement transmissibles. 6e éd. Elsevier-Masson ; 2017 [catalogue OUV-0063].",
+          "date": "2017"
+        },
+        {
+          "reference": "Botterel Françoise. Parasitologie et mycologie médicales : guide des analyses et des pratiques diagnostiques. Elsevier Masson ; 2017 [catalogue OUV-0062].",
+          "date": "2017"
+        },
+        {
+          "reference": "Bolognia Jean, Schaffer Julie V, Cerroni Lorenzo et al. Dermatology (Bolognia, Schaffer, Cerroni). 5e éd. Elsevier ; 2025 [catalogue OUV-0356].",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3040",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic et les étiologies de la maladie ulcéreuse gastroduodénale, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Helicobacter pylori et la prise d'AINS ou d'aspirine en sont les deux principales causes.",
+        "B": "L'endoscopie œso-gastro-duodénale est l'examen de référence du diagnostic.",
+        "C": "Un ulcère gastrique impose des biopsies multiples et un contrôle endoscopique après traitement.",
+        "D": "La sérologie H. pylori est l'examen de choix pour contrôler l'éradication après traitement.",
+        "E": "Des ulcères multiples, récidivants ou post-bulbaires doivent faire évoquer un syndrome de Zollinger-Ellison."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'ulcère gastroduodénal est une perte de substance de la paroi atteignant la musculeuse. Il est principalement dû à H. pylori et aux AINS. Le diagnostic est endoscopique ; l'ulcère gastrique impose des biopsies systématiques et un contrôle de cicatrisation, ce qui n'est pas le cas de l'ulcère duodénal non compliqué. La recherche de H. pylori (biopsies, test respiratoire) et l'interrogatoire sur les AINS sont systématiques. Le contrôle de l'éradication ne se fait jamais par sérologie.",
+      "explications_par_proposition": {
+        "A": "Vrai : La grande majorité des ulcères est liée à H. pylori et/ou aux AINS (y compris l'aspirine à faible dose) ; les autres causes sont rares.",
+        "B": "Vrai : L'endoscopie visualise l'ulcère, précise son siège et permet les biopsies (recherche de H. pylori, de malignité).",
+        "C": "Vrai : Un cancer gastrique ulcéré peut simuler un ulcère bénin : biopsies des berges et du fond, puis contrôle endoscopique avec biopsies jusqu'à cicatrisation.",
+        "D": "Faux : Les anticorps persistent longtemps après l'éradication : le contrôle repose sur le test respiratoire à l'urée marquée (ou la recherche d'antigène fécal, ou des biopsies).",
+        "E": "Vrai : Le gastrinome entraîne une hypersécrétion acide responsable d'ulcères atypiques, souvent associés à une diarrhée."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Maladie ulcéreuse — étiologies et diagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Contrôler l'éradication de H. pylori par une sérologie, qui reste positive après guérison.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "European Helicobacter and Microbiota Study Group — Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report (2022) [catalogue REC-0349]",
+          "date": "2022-08"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3041",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 40 ans, traité par AINS pour une lombalgie, présente une douleur épigastrique brutale « en coup de poignard », avec une contracture abdominale généralisée. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le tableau évoque une perforation d'ulcère gastroduodénal.",
+        "B": "La tomodensitométrie abdominale (ou à défaut un cliché sans préparation) recherche un pneumopéritoine.",
+        "C": "Une endoscopie œso-gastro-duodénale doit être réalisée en urgence pour confirmer la perforation.",
+        "D": "Un traitement médical (aspiration gastrique, IPP intraveineux, antibiotiques) selon la méthode de Taylor peut se discuter dans des conditions strictes.",
+        "E": "L'hémorragie digestive est la complication la plus fréquente de la maladie ulcéreuse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les complications de l'ulcère sont l'hémorragie (la plus fréquente), la perforation, la sténose et, pour l'ulcère gastrique, la cancérisation possible. La perforation réalise une péritonite aiguë : le diagnostic est clinique et radiologique (pneumopéritoine au scanner), l'endoscopie étant contre-indiquée. Le traitement est le plus souvent chirurgical (suture, toilette péritonéale), associé aux IPP et à l'éradication de H. pylori ; un traitement médical selon Taylor reste une exception codifiée.",
+      "explications_par_proposition": {
+        "A": "Vrai : Douleur épigastrique brutale, contracture (« ventre de bois ») et terrain AINS évoquent une perforation en péritoine libre.",
+        "B": "Vrai : Le scanner est l'examen le plus sensible pour mettre en évidence un pneumopéritoine ; son absence n'élimine pas le diagnostic.",
+        "C": "Faux : L'endoscopie est contre-indiquée en cas de suspicion de perforation (insufflation aggravant la fuite).",
+        "D": "Vrai : La méthode de Taylor s'adresse à des patients sélectionnés (jeunes, à jeun, vus tôt, sans choc ni signe de gravité), sous surveillance chirurgicale étroite ; le traitement de référence reste chirurgical.",
+        "E": "Vrai : L'hémorragie est la complication la plus fréquente, devant la perforation et la sténose."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Maladie ulcéreuse — complications (perforation)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Demander une endoscopie devant une suspicion de perforation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESGE — Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline - Update 2021 (2021) [catalogue REC-0347]",
+          "date": "2021-02"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3042",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'éradication de Helicobacter pylori selon le consensus de Maastricht VI/Florence (2022), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La trithérapie probabiliste IPP-amoxicilline-clarithromycine n'est pas recommandée dans les régions où la résistance à la clarithromycine dépasse 15 %, en l'absence d'antibiogramme.",
+        "B": "La quadrithérapie bismuthée (IPP, bismuth, tétracycline, métronidazole) pendant 14 jours est une option de première ligne.",
+        "C": "Le contrôle de l'éradication par test respiratoire à l'urée marquée au 13C se fait au moins 4 semaines après la fin des antibiotiques et 2 semaines après l'arrêt des IPP.",
+        "D": "Une durée de traitement de 3 jours est suffisante pour la plupart des schémas.",
+        "E": "Un ulcère duodénal non compliqué, après éradication réussie, impose un traitement par IPP au long cours."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'éradication de H. pylori guérit la maladie ulcéreuse et prévient les récidives. Le choix du schéma dépend de la résistance à la clarithromycine, idéalement déterminée par antibiogramme ou PCR sur biopsie (traitement guidé). À défaut, en zone de résistance élevée, la quadrithérapie bismuthée est privilégiée. Le contrôle de l'éradication est obligatoire, par test respiratoire ou antigène fécal, en respectant les fenêtres sans IPP ni antibiotiques. La sérologie n'a pas de place dans ce contrôle.",
+      "explications_par_proposition": {
+        "A": "Vrai : La résistance à la clarithromycine est le principal facteur d'échec ; au-delà de 15 %, la trithérapie clarithromycine ne doit être utilisée que si la souche est sensible.",
+        "B": "Vrai : La quadrithérapie bismuthée de 14 jours est recommandée en première intention dans les zones de résistance élevée ou inconnue.",
+        "C": "Vrai : L'arrêt préalable des IPP et des antibiotiques évite les faux négatifs liés à la diminution de la charge bactérienne.",
+        "D": "Faux : Les schémas recommandés durent en général 14 jours (10 jours pour certaines quadrithérapies bismuthées en formulation combinée).",
+        "E": "Faux : Après éradication, un ulcère duodénal non compliqué ne nécessite pas de poursuite des IPP ; le traitement d'entretien concerne surtout les patients sous AINS ou antiagrégants."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-018"
+      ],
+      "theme": "Helicobacter pylori — éradication",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Contrôler l'éradication sous IPP ou trop tôt après les antibiotiques : risque de faux négatif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "European Helicobacter and Microbiota Study Group — Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report (2022) [catalogue REC-0349]",
+          "date": "2022-08"
+        },
+        {
+          "reference": "ACG — ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (2024) [catalogue REC-0350]",
+          "date": "2024-09"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3043",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant Entamoeba histolytica et l'amibiase, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La contamination se fait par voie féco-orale, par ingestion de kystes (eau, aliments, mains sales).",
+        "B": "Les trophozoïtes hématophages de E. histolytica sont responsables de l'invasion de la paroi colique.",
+        "C": "Entamoeba dispar, morphologiquement identique au kyste de E. histolytica, est non pathogène.",
+        "D": "Les kystes sont détruits par la chloration habituelle de l'eau de boisson.",
+        "E": "L'amibiase hépatique résulte d'une dissémination des amibes par voie portale à partir du côlon."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'amibiase est due à Entamoeba histolytica, protozoaire à transmission féco-orale. Le portage de kystes est souvent asymptomatique ; l'amibiase intestinale aiguë réalise un syndrome dysentérique, et l'amibiase hépatique un abcès secondaire à une dissémination portale. Le diagnostic intestinal repose sur l'examen parasitologique des selles fraîches, et le diagnostic hépatique sur l'imagerie et la sérologie. La prévention repose sur l'hygiène fécale, la qualité de l'eau et des aliments.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les kystes quadrinucléés, éliminés dans les selles, sont la forme de résistance et de transmission.",
+        "B": "Vrai : La forme histolytica, hématophage, envahit la muqueuse colique en réalisant des ulcérations « en bouton de chemise ».",
+        "C": "Vrai : La distinction E. histolytica / E. dispar repose sur des techniques moléculaires ou antigéniques ; la mise en évidence de trophozoïtes hématophages signe E. histolytica.",
+        "D": "Faux : Les kystes résistent aux concentrations habituelles de chlore ; la filtration ou l'ébullition sont nécessaires.",
+        "E": "Vrai : Les amibes franchissent la paroi colique et gagnent le foie par la veine porte, réalisant un abcès, le plus souvent du lobe droit."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-021"
+      ],
+      "theme": "Amibiase — parasitologie et transmission",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la chloration standard de l'eau élimine les kystes d'amibes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Belkaid M, Zenaidi N, Tabet-Derraz O et al. Cours de parasitologie. T. 1 : Protozooses. OPU [catalogue OUV-0016].",
+          "date": "s.d."
+        },
+        {
+          "reference": "John David T, Petri William A, Markell Edward K et al. Markell and Voge's Medical Parasitology. 9e éd. Saunders Elsevier ; 2006 [catalogue OUV-0212].",
+          "date": "2006"
+        },
+        {
+          "reference": "Farrar Jeremy. Manson's Tropical Diseases. 23e éd. Elsevier/Saunders ; 2014 [catalogue OUV-0382].",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3044",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 40 ans présente depuis 10 jours une fièvre à 39 °C, une douleur de l'hypochondre droit irradiant à l'épaule et une hépatomégalie douloureuse. L'échographie montre une lésion hypoéchogène de 7 cm du lobe droit. Une amibiase hépatique est suspectée. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La sérologie amibienne est positive dans la grande majorité des abcès amibiens du foie.",
+        "B": "L'examen parasitologique des selles est souvent négatif à ce stade.",
+        "C": "La ponction de l'abcès est systématique pour confirmer le diagnostic.",
+        "D": "Lorsqu'il est ponctionné, le pus est classiquement brun « chocolat », inodore et stérile en culture bactérienne.",
+        "E": "Une hyperéosinophilie importante est caractéristique de l'amibiase hépatique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'abcès amibien du foie associe classiquement la triade de Fontan : fièvre, douleur de l'hypochondre droit, hépatomégalie douloureuse. La biologie montre un syndrome inflammatoire et une polynucléose neutrophile. L'échographie montre une ou plusieurs collections hypoéchogènes, et la sérologie amibienne confirme le diagnostic. Le principal diagnostic différentiel est l'abcès à pyogènes ; le kyste hydatique, fréquent en Algérie, est à éliminer avant toute ponction.",
+      "explications_par_proposition": {
+        "A": "Vrai : La sérologie, très sensible au stade hépatique, est l'examen clé de confirmation.",
+        "B": "Vrai : Au stade hépatique, la phase intestinale est souvent ancienne ou passée inaperçue : la recherche d'amibes dans les selles est fréquemment négative.",
+        "C": "Faux : La ponction n'est pas nécessaire au diagnostic ; elle est réservée aux doutes diagnostiques (abcès à pyogènes), aux abcès volumineux menaçant de se rompre ou aux échecs du traitement médical.",
+        "D": "Vrai : Le pus amibien, fait de nécrose hépatocytaire, est brun-chocolat, sans odeur, et les amibes y sont rarement retrouvées.",
+        "E": "Faux : Les protozooses comme l'amibiase ne donnent pas d'hyperéosinophilie ; on observe une hyperleucocytose à polynucléaires neutrophiles."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-021"
+      ],
+      "theme": "Amibiase hépatique — diagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Rechercher une hyperéosinophilie dans une amibiase : c'est un piège classique (protozoose).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Belkaid M, Zenaidi N, Tabet-Derraz O et al. Cours de parasitologie. T. 1 : Protozooses. OPU [catalogue OUV-0016].",
+          "date": "s.d."
+        },
+        {
+          "reference": "Farrar Jeremy. Manson's Tropical Diseases. 23e éd. Elsevier/Saunders ; 2014 [catalogue OUV-0382].",
+          "date": "2014"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-3045",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel est le traitement de première intention d'un abcès amibien du foie non compliqué chez l'adulte ?",
+      "propositions": {
+        "A": "Un amoebicide tissulaire (métronidazole) suivi d'un amoebicide de contact.",
+        "B": "Un drainage chirurgical systématique de l'abcès.",
+        "C": "Un amoebicide de contact (paromomycine) seul.",
+        "D": "L'albendazole pendant 3 mois.",
+        "E": "Une corticothérapie associée à une antibiothérapie à large spectre."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Le traitement de l'amibiase invasive repose sur un nitro-imidazolé (métronidazole), actif sur les formes tissulaires, pendant 7 à 10 jours, relayé par un amoebicide de contact. L'évolution clinique est rapidement favorable (apyrexie en quelques jours) ; l'image échographique régresse lentement, sur plusieurs mois, sans que cela traduise un échec. Le drainage est réservé aux complications et aux échecs. La prévention repose sur l'hygiène et la qualité de l'eau.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le métronidazole (nitro-imidazolé, amoebicide diffusible) guérit l'abcès dans la grande majorité des cas ; il est suivi d'un amoebicide de contact pour éradiquer les formes intestinales et prévenir les rechutes.",
+        "B": "Faux : Le drainage (percutané le plus souvent) est réservé aux abcès menaçant de se rompre, aux formes compliquées ou aux échecs du traitement médical.",
+        "C": "Faux : L'amoebicide de contact seul, sans action tissulaire, est réservé au portage asymptomatique de kystes.",
+        "D": "Faux : L'albendazole traite certaines helminthoses (notamment l'hydatidose), pas l'amibiase.",
+        "E": "Faux : Les corticoïdes peuvent aggraver une amibiase invasive."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-021"
+      ],
+      "theme": "Amibiase hépatique — traitement",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter la persistance de l'image échographique comme un échec du traitement, alors que la régression est lente.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Belkaid M, Zenaidi N, Tabet-Derraz O et al. Cours de parasitologie. T. 1 : Protozooses. OPU [catalogue OUV-0016].",
+          "date": "s.d."
+        },
+        {
+          "reference": "Farrar Jeremy. Manson's Tropical Diseases. 23e éd. Elsevier/Saunders ; 2014 [catalogue OUV-0382].",
+          "date": "2014"
+        },
+        {
+          "reference": "Bennett John E, Dolin Raphael, Blaser Martin J. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9e éd. Elsevier ; 2020 [catalogue OUV-0381].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-3046",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'orientation devant un ictère, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un ictère à bilirubine non conjuguée s'accompagne d'urines claires et de selles normalement colorées.",
+        "B": "La maladie de Gilbert donne une hyperbilirubinémie non conjuguée modérée, majorée par le jeûne.",
+        "C": "Une hyperbilirubinémie non conjuguée isolée avec haptoglobine effondrée oriente vers une cholestase extra-hépatique.",
+        "D": "Des urines foncées et des selles décolorées sont caractéristiques d'un ictère à bilirubine non conjuguée.",
+        "E": "Le prurit est un signe caractéristique des ictères hémolytiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "La première étape devant un ictère est de distinguer, par le dosage de la bilirubine libre et conjuguée, un ictère à bilirubine non conjuguée (hémolyse, maladie de Gilbert, plus rarement Crigler-Najjar) d'un ictère à bilirubine conjuguée (cholestase intra- ou extra-hépatique, atteinte hépatocellulaire). La cholestase se traduit par des urines foncées, des selles décolorées, un prurit et une élévation des phosphatases alcalines et des GGT. L'échographie abdominale est l'examen de première intention devant un ictère cholestatique.",
+      "explications_par_proposition": {
+        "A": "Vrai : La bilirubine non conjuguée, liée à l'albumine, ne passe pas dans les urines : urines claires, selles colorées.",
+        "B": "Vrai : Le déficit partiel en glucuronyl-transférase (UGT1A1) de la maladie de Gilbert donne un subictère fluctuant, majoré par le jeûne, l'effort ou les infections, sans gravité.",
+        "C": "Faux : Haptoglobine effondrée et bilirubine non conjuguée élevée orientent vers une hémolyse, pas vers une cholestase.",
+        "D": "Faux : Urines foncées (bilirubine conjuguée hydrosoluble) et selles décolorées traduisent une cholestase, donc un ictère à bilirubine conjuguée.",
+        "E": "Faux : Le prurit est un signe de cholestase, lié à la rétention des sels biliaires."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-022"
+      ],
+      "theme": "Ictère — orientation physiopathologique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Associer prurit et urines foncées à un ictère hémolytique : ce sont des signes de cholestase.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        },
+        {
+          "reference": "Dooley James, Lok Anna S F, Garcia-Tsao Guadalupe et al. Sherlock's Diseases of the Liver and Biliary System. 13e éd. Wiley ; 2018 [catalogue OUV-0336].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-3047",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un homme de 70 ans présente un ictère progressif sans douleur ni fièvre, avec prurit, amaigrissement de 8 kg et une vésicule biliaire palpable. Quel est le diagnostic le plus probable ?",
+      "propositions": {
+        "A": "Lithiase de la voie biliaire principale.",
+        "B": "Adénocarcinome de la tête du pancréas.",
+        "C": "Hépatite virale aiguë.",
+        "D": "Cholangite biliaire primitive.",
+        "E": "Maladie de Gilbert."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'ictère nu, progressif, indolore et apyrétique, avec altération de l'état général chez un sujet âgé, est d'origine tumorale jusqu'à preuve du contraire. La vésicule palpable (loi de Courvoisier-Terrier) situe l'obstacle sous la jonction cystico-cholédocienne : cancer de la tête du pancréas, ampullome vatérien, cholangiocarcinome du bas cholédoque. L'échographie confirme la dilatation des voies biliaires ; le scanner thoraco-abdomino-pelvien est l'examen clé du diagnostic et du bilan d'extension.",
+      "explications_par_proposition": {
+        "A": "Faux : La lithiase de la voie biliaire principale donne plutôt un ictère fluctuant, précédé de douleurs, souvent fébrile (angiocholite), et la vésicule lithiasique est habituellement scléro-atrophique.",
+        "B": "Vrai : Ictère nu progressif, amaigrissement et grosse vésicule palpable (loi de Courvoisier-Terrier) évoquent un obstacle tumoral sous-cystique, au premier rang duquel l'adénocarcinome de la tête du pancréas.",
+        "C": "Faux : L'hépatite aiguë virale n'entraîne pas de distension vésiculaire et survient dans un contexte différent (prodromes, cytolyse importante).",
+        "D": "Faux : La cholangite biliaire primitive touche surtout la femme d'âge moyen et ne donne pas de distension vésiculaire.",
+        "E": "Faux : La maladie de Gilbert donne un subictère non conjugué isolé, sans prurit ni altération de l'état général."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-022"
+      ],
+      "theme": "Ictère cholestatique — orientation étiologique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Évoquer une lithiase devant une grosse vésicule palpable avec ictère nu : la vésicule lithiasique est habituellement scléro-atrophique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESMO — Pancreatic cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up (2023) [catalogue REC-0376]",
+          "date": "2023-09"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-3048",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 65 ans, porteuse d'une lithiase vésiculaire connue, présente une douleur de l'hypochondre droit, suivie le lendemain d'une fièvre à 39,5 °C avec frissons, puis d'un ictère. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La séquence douleur, fièvre puis ictère réalise la triade de Charcot de l'angiocholite.",
+        "B": "Des hémocultures doivent être prélevées dès la prise en charge.",
+        "C": "Un drainage biliaire, le plus souvent endoscopique (cathétérisme rétrograde avec sphinctérotomie), est indiqué en urgence dans les formes graves ou ne répondant pas au traitement médical.",
+        "D": "Une élévation des transaminases au-delà de 10 fois la normale exclut une origine lithiasique et doit faire rechercher une hépatite virale.",
+        "E": "Une cholangio-IRM doit être obtenue avant de débuter l'antibiothérapie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'angiocholite aiguë est une urgence médico-chirurgicale associant infection biliaire et obstacle, le plus souvent une lithiase de la voie biliaire principale. Le traitement associe antibiothérapie probabiliste active sur les germes digestifs, prise en charge du sepsis et drainage biliaire (endoscopique en première intention), dont le délai dépend de la gravité. La cholécystectomie est ensuite programmée pour prévenir les récidives. L'échographie montre souvent la dilatation des voies biliaires ; la cholangio-IRM ou l'écho-endoscopie précisent l'obstacle.",
+      "explications_par_proposition": {
+        "A": "Vrai : La triade de Charcot (douleur, fièvre avec frissons, ictère, classiquement en 24 à 48 heures) traduit l'infection de la bile en amont d'un obstacle, le plus souvent lithiasique.",
+        "B": "Vrai : L'angiocholite est fréquemment bactériémique (entérobactéries, entérocoques, anaérobies) ; les hémocultures sont prélevées sans retarder l'antibiothérapie.",
+        "C": "Vrai : La désobstruction biliaire est la clé du traitement ; elle est urgente dans les formes sévères (choc, insuffisance rénale, troubles de conscience) ou en l'absence d'amélioration rapide.",
+        "D": "Faux : Une migration lithiasique peut entraîner une cytolyse transitoire très élevée (parfois > 10 N) qui décroît rapidement ; ce piège peut faire évoquer à tort une hépatite.",
+        "E": "Faux : L'antibiothérapie probabiliste est débutée immédiatement ; l'imagerie (échographie, puis cholangio-IRM ou écho-endoscopie selon le cas) ne doit pas la retarder."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-022"
+      ],
+      "theme": "Ictère fébrile — angiocholite",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Récuser une origine lithiasique devant une cytolyse très élevée : elle est classique et transitoire lors d'une migration.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ESGE — Endoscopic management of common bile duct stones: European Society of Gastrointestinal Endoscopy (ESGE) guideline (2019) [catalogue REC-0364]",
+          "date": "2019-04"
+        },
+        {
+          "reference": "EASL — EASL Clinical Practice Guidelines on the prevention, diagnosis and treatment of gallstones (2016) [catalogue REC-0363]",
+          "date": "2016-04"
+        },
+        {
+          "reference": "Feldman Mark, Friedman Lawrence S, Brandt Lawrence J. Sleisenger and Fordtran's Gastrointestinal and Liver Disease. 11e éd. Elsevier ; 2021 [catalogue OUV-0331].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-03",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

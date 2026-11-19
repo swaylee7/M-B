@@ -1,9 +1,50 @@
 {
   "id": "DOS-08",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "DOS-HEMA-0001 — Anémies de l'adulte : diagnostic et traitement (RES-MED-112)",
+    "DOS-HEMA-0002 — Purpura thrombopénique immunologique (RES-MED-113)",
+    "DOS-HEMA-0003 — Hémophilie : diagnostic, traitement, prévention (RES-MED-114)",
+    "DOS-HEMA-0004 — Myélome multiple (RES-MED-115)",
+    "DOS-HEMA-0005 — Lymphome de Hodgkin (RES-MED-117)",
+    "Lot QCM 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-08.json (60 QCM, 12/item)",
+    "Lot cas cliniques 20_CAS_CLINIQUES/lots/DOS-08.json (10 cas, 2/item, 15 rubriques)"
+  ],
+  "taches_suivantes": [
+    "Audit (AUD) : vérifier les 9 sources verifiee:false (BSG 2021 Snook, travaux algériens hémoglobinopathies, Khellaf 2005, Blanchette/ISTH 2014, HAVEN 3 pagination, MAIA 2019, AMMR/SAHTS 2017, Greipp ISS 2005, Hasenclever IPS 1998)",
+    "Lire le texte intégral des recommandations EHA 2026 Hodgkin (HemaSphere, doi 10.1002/hem3.70422) : contenu actuellement repris de comptes rendus secondaires",
+    "Lever les marqueurs [POSOLOGIE À VÉRIFIER] (24) : fer oral/IV, B12 (schémas BSH vs France), hydroxycarbamide, chélateurs, corticoïdes AHAI, IgIV/corticoïdes/AR-TPO/rituximab du PTI, tableau des niveaux de facteur WFH 2020, émicizumab, desmopressine, acide tranexamique, acide zolédronique/dénosumab, dexaméthasone en urgence, protocoles de chimiothérapie",
+    "Lever les marqueurs [À VÉRIFIER] (70), notamment les données épidémiologiques algériennes et la disponibilité nationale des médicaments",
+    "Mettre à jour files_attente/dossiers_residanat.json et programme_residanat.json (rattachements dossiers/QCM/cas) — orchestrateur/RES-01 (hors périmètre DOS-08)"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas_cliniques": 10
+  },
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 60,
+    "cas_cliniques": 10,
+    "sources_citees": 47,
+    "sources_verifiees": 38,
+    "sources_non_verifiees": 9,
+    "websearch_requetes": 38,
+    "mots_wc": {
+      "DOS-HEMA-0001": 10985,
+      "DOS-HEMA-0002": 8015,
+      "DOS-HEMA-0003": 8380,
+      "DOS-HEMA-0004": 8622,
+      "DOS-HEMA-0005": 7800
+    }
+  },
+  "plages_identifiants": {
+    "qcm": [
+      "QCM-HEMA-0801..0860"
+    ],
+    "cas": [
+      "CAS-HEMA-0801..0810"
+    ]
+  }
 }

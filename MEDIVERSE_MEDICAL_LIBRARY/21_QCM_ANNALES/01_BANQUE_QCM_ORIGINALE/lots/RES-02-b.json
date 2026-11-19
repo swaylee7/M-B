@@ -4181,6 +4181,2888 @@
       "statut": "brouillon_a_auditer",
       "auteur": "RES-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les caractéristiques des cellules cancéreuses, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles présentent des atypies cytonucléaires (anisocaryose, hyperchromatisme, augmentation du rapport nucléo-cytoplasmique).",
+        "B": "Elles ont une capacité de prolifération autonome et échappent aux signaux de contrôle.",
+        "C": "Elles peuvent acquérir un pouvoir d'invasion et de métastase.",
+        "D": "Les mitoses y sont souvent nombreuses et parfois atypiques.",
+        "E": "Une tumeur bénigne se définit par sa capacité à donner des métastases."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les cellules cancéreuses se distinguent par des anomalies morphologiques (atypies cytonucléaires, mitoses nombreuses et atypiques) et fonctionnelles : prolifération autonome, insensibilité aux signaux inhibiteurs, résistance à l'apoptose, capacité de néoangiogenèse, invasion locale et pouvoir métastatique. Ces propriétés, acquises par l'accumulation d'altérations génétiques, définissent la malignité et distinguent les tumeurs malignes des tumeurs bénignes (bien limitées, non invasives, non métastatiques). L'examen anatomopathologique évalue ces critères pour affirmer la malignité, apprécier le grade et guider la prise en charge. La compréhension de ces caractéristiques est fondamentale en cancérologie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces anomalies morphologiques traduisent la transformation maligne.",
+        "B": "Vrai : Perte de l'inhibition de contact et indépendance vis-à-vis des facteurs de croissance.",
+        "C": "Vrai : Caractéristique majeure de la malignité, absente des tumeurs bénignes.",
+        "D": "Vrai : L'index mitotique élevé reflète la prolifération.",
+        "E": "Faux : La capacité métastatique caractérise la malignité ; les tumeurs bénignes ne métastasent pas."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-057"
+      ],
+      "theme": "Caractéristiques des cellules cancéreuses",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à une tumeur bénigne un pouvoir métastatique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le stroma tumoral, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le stroma est le tissu conjonctivo-vasculaire de soutien de la tumeur.",
+        "B": "L'angiogenèse tumorale est nécessaire à la croissance de la tumeur au-delà d'une petite taille.",
+        "C": "Le stroma participe aux interactions avec le système immunitaire et à l'invasion.",
+        "D": "Le stroma est constitué de cellules tumorales proprement dites.",
+        "E": "Une tumeur peut croître indéfiniment sans aucune néovascularisation."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Une tumeur comprend un parenchyme (cellules tumorales) et un stroma (tissu conjonctivo-vasculaire de soutien, non tumoral). Le stroma est indispensable : il apporte le support mécanique et, par l'angiogenèse tumorale, l'oxygène et les nutriments nécessaires à la croissance au-delà de quelques millimètres. Il participe aussi aux interactions avec le système immunitaire, à la réaction inflammatoire et aux processus d'invasion et de métastase (remaniement de la matrice, fibroblastes associés au cancer). L'importance de l'angiogenèse a conduit au développement des traitements anti-angiogéniques. L'analyse du stroma (réaction stromale, infiltrat immunitaire) a une valeur diagnostique et pronostique en anatomie pathologique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il n'est pas tumoral lui-même mais indispensable à la croissance de la tumeur.",
+        "B": "Vrai : Elle apporte oxygène et nutriments ; elle est une cible thérapeutique (anti-angiogéniques).",
+        "C": "Vrai : Il contient des cellules immunitaires, des fibroblastes et une matrice extracellulaire remaniée.",
+        "D": "Faux : Le stroma est fait de cellules et de matrice non tumorales (conjonctif, vaisseaux, cellules immunitaires) ; les cellules tumorales constituent le parenchyme tumoral.",
+        "E": "Faux : Au-delà d'une taille de l'ordre de 1 à 2 mm, la tumeur nécessite une néoangiogenèse pour poursuivre sa croissance."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-057"
+      ],
+      "theme": "Stroma tumoral et angiogenèse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre stroma (tissu de soutien non tumoral) et parenchyme tumoral.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le processus métastatique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dissémination métastatique peut se faire par voie lymphatique, hématogène ou par contiguïté/cavités.",
+        "B": "Le processus métastatique comporte des étapes successives (invasion, intravasation, survie circulatoire, extravasation, colonisation).",
+        "C": "Certains cancers ont des sites métastatiques préférentiels.",
+        "D": "La présence de métastases modifie le stade et le pronostic de la maladie.",
+        "E": "Une métastase a une structure histologique sans aucun rapport avec la tumeur primitive."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La métastase est le développement d'une tumeur secondaire à distance de la tumeur primitive, caractéristique de la malignité. Elle résulte d'une cascade d'étapes : invasion locale, intravasation, survie dans la circulation, extravasation et colonisation d'un organe à distance, chacune constituant un obstacle (inefficacité métastatique). La voie de dissémination (lymphatique, hématogène, séreuse) et les sites préférentiels dépendent du type tumoral et des interactions avec le microenvironnement (théorie « seed and soil »). La métastase conserve en général le phénotype de la tumeur primitive, ce qui aide à identifier l'origine. Sa présence aggrave le stade et le pronostic et oriente le traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les carcinomes métastasent souvent d'abord par voie lymphatique, les sarcomes volontiers par voie hématogène.",
+        "B": "Vrai : Chaque étape est un obstacle ; peu de cellules tumorales circulantes forment des métastases.",
+        "C": "Vrai : Exemple : métastases osseuses des cancers de la prostate et du sein ; théorie de la « graine et du sol ».",
+        "D": "Vrai : Elle correspond en général à un stade avancé.",
+        "E": "Faux : La métastase reproduit en général le type histologique de la tumeur primitive, ce qui aide à identifier l'origine d'un cancer de primitif inconnu."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-057"
+      ],
+      "theme": "Processus métastatique",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la métastase n'a aucun rapport histologique avec la tumeur primitive.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la distinction entre tumeurs bénignes et malignes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une tumeur bénigne est en général bien limitée, parfois encapsulée, et à croissance lente.",
+        "B": "Une tumeur maligne est mal limitée, infiltrante et peut récidiver et métastaser.",
+        "C": "Le caractère différencié ou non des cellules (grade) a une valeur pronostique.",
+        "D": "Toute tumeur bénigne évolue inéluctablement vers la malignité.",
+        "E": "Les tumeurs bénignes sont toujours sans aucune conséquence clinique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La distinction entre tumeurs bénignes et malignes repose sur plusieurs critères : limites (nettes, parfois encapsulées, pour les bénignes ; infiltrantes pour les malignes), vitesse de croissance, différenciation, atypies cytonucléaires, activité mitotique, et surtout capacité d'invasion et de métastase (propre aux tumeurs malignes). Les tumeurs bénignes n'engagent en règle pas le pronostic vital mais peuvent avoir des conséquences locales ou fonctionnelles (compression, sécrétion). Certaines lésions sont précancéreuses. L'examen anatomopathologique établit le diagnostic de nature, le type histologique et le grade, éléments déterminants pour la prise en charge et le pronostic.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle refoule les tissus voisins sans les envahir.",
+        "B": "Vrai : Sa croissance est souvent rapide.",
+        "C": "Vrai : Une tumeur peu différenciée est en général plus agressive.",
+        "D": "Faux : La plupart des tumeurs bénignes n'évoluent pas vers la malignité ; certaines lésions précancéreuses peuvent toutefois se transformer.",
+        "E": "Faux : Les tumeurs bénignes peuvent avoir des conséquences (compression, sécrétion hormonale, localisation dangereuse), même sans malignité."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-057"
+      ],
+      "theme": "Tumeurs bénignes et malignes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que toute tumeur bénigne se transforme en cancer ou qu'elle est toujours anodine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5025",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la classification histologique des tumeurs, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les tumeurs épithéliales malignes sont appelées carcinomes.",
+        "B": "Les tumeurs conjonctives malignes sont appelées sarcomes.",
+        "C": "Le suffixe « -ome » désigne souvent une tumeur bénigne.",
+        "D": "La dénomination d'une tumeur dérive en général du tissu d'origine et de sa nature bénigne ou maligne.",
+        "E": "Tous les cancers sont des carcinomes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La classification des tumeurs repose sur le tissu d'origine et la nature bénigne ou maligne. Les tumeurs épithéliales bénignes sont les adénomes (glandulaires) et papillomes ; malignes, les carcinomes (adénocarcinomes, carcinomes épidermoïdes). Les tumeurs conjonctives bénignes portent le nom du tissu suivi de « -ome » (lipome, léiomyome) ; malignes, les sarcomes. D'autres groupes existent : hémopathies (lymphomes, leucémies), tumeurs mélaniques (mélanome), tumeurs du système nerveux, tumeurs germinales et embryonnaires. Quelques dénominations en « -ome » désignent des tumeurs malignes (lymphome, mélanome, séminome). Cette nomenclature, fixée par les classifications de l'OMS, est essentielle au diagnostic et à la prise en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai : Un carcinome glandulaire est un adénocarcinome ; un carcinome malpighien dérive d'un épithélium malpighien.",
+        "B": "Vrai : Exemples : ostéosarcome, liposarcome, léiomyosarcome.",
+        "C": "Vrai : Exemples : adénome (épithélial glandulaire), lipome (adipeux), léiomyome (muscle lisse) ; certaines exceptions existent (lymphome, mélanome, qui sont malins).",
+        "D": "Vrai : Elle oriente le pronostic et le traitement.",
+        "E": "Faux : Les carcinomes sont les cancers d'origine épithéliale ; il existe d'autres cancers (sarcomes, hémopathies malignes, mélanomes, tumeurs du système nerveux)."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-058"
+      ],
+      "theme": "Classification histologique des tumeurs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Assimiler tous les cancers aux carcinomes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5026",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les tumeurs épithéliales, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'adénome est une tumeur épithéliale bénigne de type glandulaire.",
+        "B": "L'adénocarcinome est une tumeur épithéliale maligne de différenciation glandulaire.",
+        "C": "Le carcinome épidermoïde (malpighien) dérive d'un épithélium malpighien ou d'une métaplasie malpighienne.",
+        "D": "Tous les adénomes sont des tumeurs malignes.",
+        "E": "Un carcinome in situ a déjà franchi la membrane basale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les tumeurs épithéliales se classent selon la différenciation (glandulaire ou malpighienne) et la nature (bénigne ou maligne). Les tumeurs bénignes comprennent les adénomes (glandulaires) et papillomes ; certaines, comme l'adénome colique, sont des lésions précancéreuses (séquence adénome-carcinome). Les tumeurs malignes sont les carcinomes : adénocarcinomes (différenciation glandulaire) et carcinomes épidermoïdes (différenciation malpighienne). Une étape clé est le franchissement de la membrane basale : le carcinome in situ ne l'a pas franchie (pas de potentiel métastatique), le carcinome invasif l'a franchie. Cette distinction, établie par l'anatomopathologie, est fondamentale pour le pronostic et le traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemple : adénome colique (polype adénomateux), pouvant être une lésion précancéreuse.",
+        "B": "Vrai : Type histologique fréquent (côlon, estomac, poumon, sein, prostate).",
+        "C": "Vrai : Exemple : carcinome épidermoïde bronchique chez le fumeur.",
+        "D": "Faux : L'adénome est une tumeur bénigne ; certains adénomes peuvent toutefois être des lésions précancéreuses (séquence adénome-carcinome colique).",
+        "E": "Faux : Le carcinome in situ est une prolifération maligne n'ayant pas franchi la membrane basale ; le franchissement définit le carcinome invasif."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-058"
+      ],
+      "theme": "Tumeurs épithéliales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre carcinome in situ (membrane basale intacte) et carcinome invasif.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5027",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les tumeurs conjonctives, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les tumeurs conjonctives bénignes sont nommées d'après le tissu d'origine suivi du suffixe « -ome ».",
+        "B": "Les tumeurs conjonctives malignes sont les sarcomes.",
+        "C": "Les sarcomes disséminent volontiers par voie hématogène.",
+        "D": "Les sarcomes dérivent de l'épithélium de revêtement.",
+        "E": "Les tumeurs conjonctives sont toujours bénignes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les tumeurs conjonctives (mésenchymateuses) dérivent des tissus de soutien : adipeux, fibreux, musculaire, cartilagineux, osseux, vasculaire. Les tumeurs bénignes prennent le nom du tissu d'origine suivi de « -ome » (lipome, fibrome, léiomyome, chondrome, ostéome, angiome). Les tumeurs malignes sont les sarcomes (liposarcome, fibrosarcome, léiomyosarcome, rhabdomyosarcome, chondrosarcome, ostéosarcome, angiosarcome). Les sarcomes, plus rares que les carcinomes, disséminent surtout par voie hématogène (métastases pulmonaires fréquentes) et touchent aussi l'enfant et l'adulte jeune. Leur diagnostic et leur classification reposent sur l'histologie, l'immunohistochimie et la biologie moléculaire. Cette nomenclature oriente le pronostic et le traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemples : lipome (tissu adipeux), léiomyome (muscle lisse), chondrome (cartilage).",
+        "B": "Vrai : Exemples : liposarcome, ostéosarcome, léiomyosarcome, rhabdomyosarcome.",
+        "C": "Vrai : D'où une fréquence des métastases pulmonaires.",
+        "D": "Faux : Les sarcomes dérivent des tissus conjonctifs (mésenchymateux) ; les tumeurs épithéliales malignes sont les carcinomes.",
+        "E": "Faux : Il existe des tumeurs conjonctives malignes (sarcomes), souvent agressives."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-058"
+      ],
+      "theme": "Tumeurs conjonctives",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Rattacher les sarcomes à une origine épithéliale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5028",
+      "format": "QCS (réponse unique)",
+      "enonce": "Comment nomme-t-on une tumeur maligne d'origine épithéliale à différenciation glandulaire ?",
+      "propositions": {
+        "A": "Un adénocarcinome.",
+        "B": "Un adénome.",
+        "C": "Un sarcome.",
+        "D": "Un léiomyome.",
+        "E": "Un lymphome."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La nomenclature tumorale combine l'origine tissulaire et la nature. Une tumeur maligne d'origine épithéliale est un carcinome ; si elle présente une différenciation glandulaire, c'est un adénocarcinome (par exemple du côlon, de l'estomac, du poumon, du sein, de la prostate) ; si elle présente une différenciation malpighienne, c'est un carcinome épidermoïde. La forme bénigne glandulaire est l'adénome. Les tumeurs conjonctives malignes sont les sarcomes, les tumeurs lymphoïdes malignes les lymphomes. La maîtrise de cette nomenclature, codifiée par l'OMS, est indispensable pour comprendre les comptes rendus anatomopathologiques, le pronostic et les stratégies thérapeutiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : « Adéno » pour la différenciation glandulaire, « carcinome » pour l'origine épithéliale maligne.",
+        "B": "Faux : L'adénome est la tumeur épithéliale glandulaire bénigne.",
+        "C": "Faux : Le sarcome est une tumeur conjonctive maligne.",
+        "D": "Faux : C'est une tumeur bénigne du muscle lisse.",
+        "E": "Faux : C'est une tumeur maligne du tissu lymphoïde."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-058"
+      ],
+      "theme": "Dénomination d'un cancer d'origine épithéliale glandulaire",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre adénocarcinome (malin) et adénome (bénin).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5029",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'athérosclérose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'athérosclérose associe un remaniement de l'intima des artères de gros et moyen calibre avec dépôt de lipides.",
+        "B": "La plaque d'athérome comporte un centre lipidique (athérome) et une chape fibreuse.",
+        "C": "Les cellules spumeuses (macrophages chargés de lipides) participent à la constitution de la plaque.",
+        "D": "Les complications de la plaque comprennent la rupture, la thrombose et la sténose.",
+        "E": "L'athérosclérose touche principalement les veines."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'athérosclérose est une maladie de la paroi artérielle (artères de gros et moyen calibre) définie par l'OMS comme une association variable de remaniements de l'intima, de dépôts lipidiques, glucidiques, sanguins, fibreux et calcaires. La lésion caractéristique, la plaque d'athérome, comporte un centre lipidique riche en cellules spumeuses et une chape fibreuse ; son évolution (croissance, calcification, rupture, thrombose) détermine les complications ischémiques (infarctus du myocarde, accident vasculaire cérébral, artériopathie des membres). Les facteurs de risque (tabac, dyslipidémie, hypertension, diabète) favorisent son développement. Sa compréhension fonde la prévention cardiovasculaire et l'interprétation anatomopathologique.",
+      "explications_par_proposition": {
+        "A": "Vrai : La définition de l'OMS associe modifications de l'intima, lipides, glucides complexes, sang, tissu fibreux et dépôts calcaires.",
+        "B": "Vrai : L'équilibre entre ces composants conditionne la stabilité de la plaque.",
+        "C": "Vrai : Elles résultent de la captation des LDL oxydées.",
+        "D": "Vrai : La rupture d'une plaque instable peut provoquer un syndrome coronarien aigu.",
+        "E": "Faux : L'athérosclérose touche les artères (de gros et moyen calibre), non les veines."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-059"
+      ],
+      "theme": "Athérosclérose : définition et plaque",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'athérosclérose est une maladie veineuse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mach F, Baigent C, Catapano AL et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020;41(1):111-188.",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5030",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiopathologie de l'athérosclérose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dysfonction endothéliale et l'accumulation de LDL dans l'intima sont des étapes initiales.",
+        "B": "L'inflammation joue un rôle important dans la progression de la plaque.",
+        "C": "Une plaque instable (chape fibreuse fine, large centre lipidique, inflammation) est à risque de rupture.",
+        "D": "La thrombose sur plaque est un mécanisme majeur des syndromes coronariens aigus.",
+        "E": "Les stries lipidiques ne se forment qu'à un âge avancé, après 60 ans."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'athérosclérose débute par une dysfonction endothéliale et l'accumulation de LDL dans l'intima, oxydées puis captées par les macrophages (cellules spumeuses, stries lipidiques, précoces dès l'enfance). L'inflammation chronique, le recrutement de monocytes, la migration et la prolifération des cellules musculaires lisses et la synthèse de matrice aboutissent à la plaque mature (centre lipidique, chape fibreuse). L'évolution dépend de la stabilité : une plaque stable rétrécit progressivement la lumière (angor d'effort), une plaque vulnérable peut se rompre et déclencher une thrombose aiguë (syndrome coronarien aigu, accident vasculaire cérébral). Cette physiopathologie fonde la prévention (contrôle des facteurs de risque, statines) et le traitement antithrombotique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les LDL oxydées sont captées par les macrophages, formant les cellules spumeuses (stries lipidiques).",
+        "B": "Vrai : Recrutement de monocytes, sécrétion de cytokines, migration des cellules musculaires lisses.",
+        "C": "Vrai : La rupture expose le centre thrombogène et déclenche une thrombose.",
+        "D": "Vrai : L'occlusion aiguë d'une artère coronaire provoque un infarctus.",
+        "E": "Faux : Les stries lipidiques, lésions initiales réversibles, peuvent apparaître très tôt, dès l'enfance ou l'adolescence."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-059"
+      ],
+      "theme": "Physiopathologie et évolution de la plaque",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les stries lipidiques n'apparaissent qu'à un âge avancé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mach F, Baigent C, Catapano AL et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020;41(1):111-188.",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5031",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les facteurs de risque et les complications de l'athérosclérose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le tabagisme, l'hypertension artérielle, le diabète et les dyslipidémies sont des facteurs de risque majeurs.",
+        "B": "L'athérosclérose coronaire peut se compliquer d'angor et d'infarctus du myocarde.",
+        "C": "L'athérosclérose carotidienne et cérébrale expose à l'accident vasculaire cérébral ischémique.",
+        "D": "L'athérosclérose des membres inférieurs entraîne une artériopathie oblitérante.",
+        "E": "Le contrôle des facteurs de risque n'a aucun effet sur l'évolution de l'athérosclérose."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'athérosclérose est une maladie systémique favorisée par des facteurs de risque modifiables (tabac, hypertension, diabète, dyslipidémie, obésité, sédentarité) et non modifiables (âge, sexe masculin, héredité). Ses complications dépendent du territoire atteint : coronaire (angor, infarctus), cérébral (accident vasculaire ischémique), membres inférieurs (artériopathie oblitérante), rénal, aortique (anévrisme). Le contrôle rigoureux des facteurs de risque et les traitements (statines, antiagrégants, antihypertenseurs) réduisent la morbimortalité cardiovasculaire. La prévention cardiovasculaire, primaire et secondaire, est un enjeu majeur de santé publique. La connaissance de ces facteurs guide le dépistage et la prise en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'âge, le sexe masculin et les antécédents familiaux sont des facteurs non modifiables.",
+        "B": "Vrai : Par réduction du flux ou thrombose.",
+        "C": "Vrai : Par thrombose ou embolie.",
+        "D": "Vrai : Avec claudication intermittente, puis ischémie critique.",
+        "E": "Faux : Le contrôle des facteurs de risque (sevrage tabagique, traitement de l'hypertension, du diabète et des dyslipidémies) ralentit la progression et réduit les complications."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-059"
+      ],
+      "theme": "Facteurs de risque et complications de l'athérosclérose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le contrôle des facteurs de risque est sans effet sur l'évolution.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mach F, Baigent C, Catapano AL et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020;41(1):111-188.",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5035",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les localisations préférentielles et le terrain de l'athérosclérose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les plaques se développent préférentiellement aux zones de bifurcation et de turbulence du flux.",
+        "B": "L'aorte, les coronaires, les carotides et les artères des membres inférieurs sont des sites fréquents.",
+        "C": "L'athérosclérose épargne systématiquement l'aorte.",
+        "D": "Le diabète protège de l'athérosclérose.",
+        "E": "L'athérosclérose est une maladie exclusivement localisée à une seule artère."
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "L'athérosclérose est une maladie artérielle systémique dont les plaques se développent préférentiellement aux zones de contraintes hémodynamiques (bifurcations, courbures, ostiums), où la dysfonction endothéliale est favorisée. Les territoires les plus touchés sont l'aorte, les coronaires, les carotides et les artères des membres inférieurs, expliquant la fréquence des atteintes multiples chez un même patient. Le terrain (facteurs de risque : tabac, diabète, hypertension, dyslipidémie) conditionne la sévérité. Le caractère diffus justifie l'exploration de plusieurs territoires et une prise en charge globale des facteurs de risque. Cette distribution oriente le dépistage et la prévention cardiovasculaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les contraintes de cisaillement y favorisent la dysfonction endothéliale.",
+        "B": "Vrai : D'où les complications cardiaques, cérébrales et des membres.",
+        "C": "Faux : L'aorte est au contraire un site fréquent d'athérosclérose (plaques, anevrisme de l'aorte abdominale).",
+        "D": "Faux : Le diabète est au contraire un facteur de risque majeur, aggravant et accélérant l'athérosclérose.",
+        "E": "Faux : L'athérosclérose est une maladie systémique touchant souvent plusieurs territoires artériels simultanément."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-059"
+      ],
+      "theme": "Localisations et terrain de l'athérosclérose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'athérosclérose est localisée à une seule artère ou que le diabète en protège.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mach F, Baigent C, Catapano AL et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020;41(1):111-188.",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5032",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'amylose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'amylose est caractérisée par le dépôt extracellulaire de protéines fibrillaires anormales.",
+        "B": "Les dépôts amyloïdes sont colorés par le rouge Congo avec une biréfringence vert-jaune en lumière polarisée.",
+        "C": "Il existe plusieurs types d'amylose selon la protéine en cause (AL, AA, transthyrétine).",
+        "D": "L'amylose correspond à un dépôt intracellulaire de glycogène.",
+        "E": "Les dépôts amyloïdes sont toujours sans retentissement fonctionnel."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'amylose désigne un groupe de maladies caractérisées par le dépôt extracellulaire de protéines mal repliées, organisées en fibrilles à structure bêta plissée, insolubles. Les dépôts, hyalins et éosinophiles en coloration standard, sont identifiés par le rouge Congo (biréfringence vert-jaune en lumière polarisée) et typés par immunohistochimie. On distingue plusieurs types : AL (chaînes légères, associée aux dysglobulinémies), AA (sérum amyloïde A, compliquant les inflammations chroniques), à transthyrétine (héréditaire ou sénile), et d'autres. Les dépôts altèrent la fonction des organes (cœur, rein, système nerveux, foie, tube digestif). Le diagnostic repose sur la biopsie ; la prise en charge dépend du type et de l'atteinte.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces protéines adoptent une conformation en feuillets bêta plissés.",
+        "B": "Vrai : Coloration de référence pour le diagnostic.",
+        "C": "Vrai : L'amylose AL est liée aux chaînes légères d'immunoglobulines ; l'amylose AA complique les inflammations chroniques.",
+        "D": "Faux : L'amylose est un dépôt extracellulaire de protéines fibrillaires, non un dépôt intracellulaire de glycogène (qui définit les glycogénoses).",
+        "E": "Faux : Les dépôts amyloïdes peuvent gravement altérer la fonction des organes atteints (cœur, rein, nerfs, foie)."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-060"
+      ],
+      "theme": "Amylose : définition et structure",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre amylose (dépôt protéique extracellulaire) et glycogénose (surcharge glycogénique intracellulaire).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5033",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les aspects anatomopathologiques de l'amylose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Macroscopiquement, les organes atteints sont souvent augmentés de volume, fermes et d'aspect cireux.",
+        "B": "Microscopiquement, les dépôts apparaissent amorphes, hyalins et éosinophiles en coloration standard.",
+        "C": "Le diagnostic de certitude repose sur une biopsie (glandes salivaires accessoires, graisse abdominale, rectum, organe atteint).",
+        "D": "Les dépôts amyloïdes sont colorés spécifiquement par le bleu de Prusse (Perls).",
+        "E": "L'amylose peut être localisée ou systémique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'amylose se traduit, à l'échelle macroscopique, par des organes augmentés de volume, fermes et d'aspect cireux (grosse rate lardacée, gros rein, gros foie, cardiomégalie). À l'échelle microscopique, les dépôts sont amorphes, hyalins et éosinophiles en coloration standard, et deviennent caractéristiques après rouge Congo (biréfringence vert-jaune). Le diagnostic repose sur la biopsie, souvent d'accès facile (glandes salivaires accessoires, graisse sous-cutanée, rectum) ou de l'organe atteint, suivie du typage immunohistochimique. L'amylose peut être systémique (atteinte multiviscérale) ou localisée. L'identification du type (AL, AA, transthyrétine) conditionne le pronostic et le traitement. Cette démarche illustre l'apport de l'anatomopathologie au diagnostic.",
+      "explications_par_proposition": {
+        "A": "Vrai : Par exemple la « grosse rate lardacée ».",
+        "B": "Vrai : Aspect non spécifique nécessitant une coloration spéciale.",
+        "C": "Vrai : Suivie de la coloration au rouge Congo et du typage.",
+        "D": "Faux : Le bleu de Prusse colore le fer (hémosidérine) ; l'amylose est colorée par le rouge Congo.",
+        "E": "Faux : Les formes systémiques atteignent plusieurs organes ; il existe aussi des formes localisées (par exemple laryngée, cutanée)."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-060"
+      ],
+      "theme": "Aspects macroscopiques et microscopiques de l'amylose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à l'amylose la coloration de Perls, spécifique du fer.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5034",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les types d'amylose et leurs conséquences, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'amylose AL est liée au dépôt de chaînes légères d'immunoglobulines.",
+        "B": "L'amylose AA complique les maladies inflammatoires chroniques.",
+        "C": "L'atteinte rénale de l'amylose se manifeste souvent par un syndrome néphrotique.",
+        "D": "L'atteinte cardiaque de l'amylose peut entraîner une insuffisance cardiaque et des troubles de conduction.",
+        "E": "Tous les types d'amylose ont la même protéine précurseur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'amylose regroupe des entités distinctes selon la protéine précurseur, ce qui conditionne la prise en charge. L'amylose AL (chaînes légères d'immunoglobulines) est liée à une prolifération plasmocytaire (gammapathie monoclonale, myélome). L'amylose AA (sérum amyloïde A) complique les inflammations chroniques (polyarthrite rhumatoïde, infections chroniques, maladies auto-inflammatoires). Les amyloses à transthyrétine sont héréditaires ou séniles. Les atteintes d'organes déterminent le tableau : rein (syndrome néphrotique), cœur (cardiopathie restrictive, troubles de conduction), système nerveux périphérique, tube digestif, foie. Le typage précis (immunohistochimie, biologie moléculaire) est indispensable car le traitement diffère selon le type.",
+      "explications_par_proposition": {
+        "A": "Vrai : Souvent associée à une gammapathie monoclonale ou à un myélome.",
+        "B": "Vrai : Le précurseur est la protéine sérum amyloïde A, protéine de la phase aiguë.",
+        "C": "Vrai : Par dépôt glomérulaire.",
+        "D": "Vrai : Cardiopathie restrictive par infiltration myocardique.",
+        "E": "Faux : Chaque type d'amylose correspond à une protéine précurseur différente (chaînes légères pour l'AL, SAA pour l'AA, transthyrétine, etc.), d'où l'importance du typage."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-060"
+      ],
+      "theme": "Types et conséquences de l'amylose",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que tous les types d'amylose partagent la même protéine précurseur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAP-5036",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic des dépôts tissulaires, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un aspect hyalin en coloration standard n'est pas spécifique de l'amylose.",
+        "B": "Le rouge Congo avec biréfringence en lumière polarisée permet de confirmer l'amylose.",
+        "C": "L'aspect hyalin au microscope suffit à affirmer le diagnostic d'amylose.",
+        "D": "La hyalinose artériolaire du diabète correspond à un dépôt amyloïde.",
+        "E": "Toutes les colorations spéciales mettent en évidence l'amylose de la même façon."
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "De nombreux dépôts tissulaires prennent un aspect hyalin (homogène, éosinophile) en coloration standard : collagène condensé, protéines plasmatiques (hyalinose artériolaire du diabète et de l'hypertension), substance amyloïde. Cet aspect étant non spécifique, le diagnostic précis repose sur des colorations spéciales : le rouge Congo, avec sa biréfringence (dichroïsme) vert-jaune en lumière polarisée, identifie l'amylose ; le typage immunohistochimique en précise la nature. Il ne faut pas confondre amylose et hyalinose, de mécanismes différents. Le choix et l'interprétation des colorations spéciales sont une démarche essentielle de l'anatomie pathologique pour caractériser un dépôt.",
+      "explications_par_proposition": {
+        "A": "Vrai : D'autres dépôts (collagène, protéines) peuvent prendre un aspect hyalin.",
+        "B": "Vrai : Examen de référence pour distinguer l'amylose des autres dépôts hyalins.",
+        "C": "Faux : L'aspect hyalin est non spécifique ; une coloration spéciale (rouge Congo) est nécessaire pour affirmer l'amylose.",
+        "D": "Faux : La hyalinose artériolaire est un dépôt de matériel hyalin (protéines plasmatiques, matrice), non de substance amyloïde.",
+        "E": "Faux : Les colorations ont des spécificités différentes (rouge Congo pour l'amylose, Perls pour le fer, PAS pour les polysaccharides) : elles ne sont pas interchangeables."
+      },
+      "specialite": "ANAP",
+      "items_residanat": [
+        "RES-SF-060"
+      ],
+      "theme": "Diagnostic différentiel des dépôts hyalins",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Affirmer une amylose sur le seul aspect hyalin, sans rouge Congo.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10e éd. Elsevier ; 2021 [catalogue OUV-0220].",
+          "date": "2021"
+        },
+        {
+          "reference": "Strayer DS, Saffitz JE, Rubin E. Rubin's Pathology: Mechanisms of Human Disease. 8e éd. Wolters Kluwer ; 2020 [catalogue OUV-0224].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la production des rayons X dans un tube radiogène, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les rayons X sont produits par le freinage d'électrons accélérés heurtant une cible métallique (anode).",
+        "B": "Le spectre des rayons X comporte un rayonnement continu de freinage et des raies caractéristiques de l'anode.",
+        "C": "L'énergie maximale des photons X dépend de la tension (en kilovolts) appliquée au tube.",
+        "D": "L'intensité du faisceau dépend notamment du courant du tube (en milliampères).",
+        "E": "La majeure partie de l'énergie des électrons est convertie en rayons X."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Dans un tube radiogène, des électrons émis par la cathode (effet thermoélectronique) sont accélérés par une haute tension vers l'anode, où leur freinage produit les rayons X. Le spectre comprend un rayonnement continu de freinage (Bremsstrahlung) et des raies caractéristiques propres au matériau de l'anode (tungstène). La tension (kilovolts) détermine l'énergie maximale des photons et la pénétration du faisceau (dureté) ; le courant (milliampères) et le temps déterminent la quantité de photons. Seule une faible part de l'énergie des électrons devient des rayons X, l'essentiel se dissipant en chaleur (refroidissement de l'anode nécessaire). Ces paramètres règlent la qualité de l'image et la dose délivrée au patient.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le rayonnement de freinage (Bremsstrahlung) produit un spectre continu.",
+        "B": "Vrai : Les raies caractéristiques dépendent du matériau de l'anode (souvent le tungstène).",
+        "C": "Vrai : Elle fixe la « dureté » (pouvoir de pénétration) du faisceau.",
+        "D": "Vrai : Qui conditionne le nombre d'électrons et donc de photons produits.",
+        "E": "Faux : La majeure partie de l'énergie est convertie en chaleur ; seule une faible fraction est convertie en rayons X, d'où la nécessité de refroidir l'anode."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-061"
+      ],
+      "theme": "Production des rayons X",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'essentiel de l'énergie est converti en rayons X, alors qu'il l'est surtout en chaleur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les interactions des rayons X et la formation de l'image radiographique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'effet photoélectrique et la diffusion Compton sont les principales interactions aux énergies d'imagerie diagnostique.",
+        "B": "L'atténuation d'un faisceau de rayons X dépend de la densité, du numéro atomique et de l'épaisseur du milieu traversé.",
+        "C": "L'image radiographique résulte des différences d'atténuation des structures traversées.",
+        "D": "Le rayonnement diffusé dégrade le contraste de l'image.",
+        "E": "L'atténuation des rayons X est indépendante de l'énergie des photons."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'image radiographique repose sur l'atténuation différentielle du faisceau de rayons X par les structures traversées. L'atténuation dépend de la densité, du numéro atomique effectif, de l'épaisseur et de l'énergie des photons. Aux énergies diagnostiques, les interactions principales sont l'effet photoélectrique (fortement dépendant du numéro atomique, source du contraste, par exemple l'os riche en calcium) et la diffusion Compton (source de rayonnement diffusé dégradant le contraste, atténuée par les grilles). Les structures peu atténuantes (air) apparaissent noires, les très atténuantes (os, métal, produits de contraste iodés ou barytés) blanches. La maîtrise de ces paramètres optimise le contraste et limite la dose (principe ALARA).",
+      "explications_par_proposition": {
+        "A": "Vrai : L'effet photoélectrique dépend fortement du numéro atomique et contribue au contraste.",
+        "B": "Vrai : L'os (riche en calcium) atténue plus que les tissus mous, d'où le contraste osseux.",
+        "C": "Vrai : Les zones peu atténuantes apparaissent noires (air), les zones très atténuantes blanches (os, métal) sur le cliché.",
+        "D": "Vrai : Des dispositifs (grille anti-diffusante) réduisent son effet.",
+        "E": "Faux : L'atténuation dépend de l'énergie des photons (plus l'énergie est élevée, plus le faisceau est pénétrant et moins il est atténué) : elle n'en est pas indépendante."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-061"
+      ],
+      "theme": "Interactions des rayons X avec la matière et formation de l'image",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'atténuation est indépendante de l'énergie des photons.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les principes de la radiographie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "On distingue classiquement en radiologie conventionnelle plusieurs densités : air, graisse, hydrique (tissus mous), calcique (os) et métallique.",
+        "B": "Les rayons X sont des rayonnements ionisants susceptibles d'effets biologiques.",
+        "C": "Le principe ALARA vise à maintenir les doses aussi basses que raisonnablement possible.",
+        "D": "L'air apparaît blanc et l'os apparaît noir sur un cliché radiographique standard.",
+        "E": "Les rayons X utilisés en radiodiagnostic sont dépourvus de tout risque biologique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La radiographie conventionnelle distingue les structures selon leur atténuation, traduite par cinq densités radiologiques de base : air (noir), graisse, densité hydrique (tissus mous, liquides), calcique (os, calcifications) et métallique (blanc, métaux, produits de contraste). L'interprétation repose sur ces niveaux de gris et sur les limites (interfaces). Les rayons X étant des rayonnements ionisants, leur usage impose la radioprotection : justification de l'examen, optimisation des paramètres (principe ALARA), limitation et surveillance des doses, protection du patient et du personnel. Ces principes concilient la qualité diagnostique et la sécurité, et sont au cœur de la pratique de l'imagerie médicale.",
+      "explications_par_proposition": {
+        "A": "Vrai : Du plus radiotransparent (air, noir) au plus radio-opaque (métal, blanc).",
+        "B": "Vrai : D'où les principes de radioprotection (justification, optimisation, limitation des doses).",
+        "C": "Vrai : En optimisant les paramètres et en protégeant le patient et le personnel.",
+        "D": "Faux : C'est l'inverse : l'air, peu atténuant, apparaît noir, et l'os, très atténuant, apparaît blanc.",
+        "E": "Faux : Les rayons X sont des rayonnements ionisants comportant un risque biologique (stochastique et déterministe), justifiant la radioprotection."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-061"
+      ],
+      "theme": "Densités radiologiques et radioprotection de base",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser les densités radiologiques (air noir, os blanc).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        },
+        {
+          "reference": "ICRP. The 2007 Recommendations of the International Commission on Radiological Protection. ICRP Publication 103. Ann ICRP 2007;37(2-4).",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les paramètres d'acquisition en radiographie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Augmenter la tension (kilovolts) augmente la pénétration du faisceau et modifie le contraste.",
+        "B": "Le produit courant-temps (milliampères-secondes) influence la quantité de photons et la dose.",
+        "C": "Diminuer le produit courant-temps augmente systématiquement la dose délivrée au patient.",
+        "D": "La tension n'a aucune influence sur l'énergie des photons produits.",
+        "E": "La radiographie numérique ne permet aucune optimisation de la dose."
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "Les paramètres d'acquisition règlent la qualité de l'image et la dose. La tension (kilovolts) détermine l'énergie et la pénétration du faisceau et influence le contraste (une tension élevée réduit le contraste mais permet d'abaisser la dose). Le produit courant-temps (milliampères-secondes) fixe la quantité de photons, donc le noircissement, le bruit et la dose. L'optimisation (principe ALARA) consiste à choisir les paramètres offrant une image diagnostique à la dose la plus faible raisonnablement possible, ce que facilite l'imagerie numérique (post-traitement, systèmes d'exposition automatique). La compréhension de ces paramètres est indispensable pour concilier qualité diagnostique et radioprotection du patient et du personnel.",
+      "explications_par_proposition": {
+        "A": "Vrai : Une tension élevée donne un faisceau plus pénétrant et un contraste plus faible.",
+        "B": "Vrai : Il conditionne le « noircissement » et le bruit de l'image.",
+        "C": "Faux : Diminuer le produit courant-temps diminue le nombre de photons et donc la dose (au prix d'un bruit accru).",
+        "D": "Faux : La tension détermine l'énergie maximale des photons du spectre de freinage.",
+        "E": "Faux : La radiographie numérique permet au contraire d'optimiser et souvent de réduire la dose, tout en traitant l'image a posteriori."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-061"
+      ],
+      "theme": "Paramètres du tube et conséquences sur l'image et la dose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que réduire le produit courant-temps augmente la dose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        },
+        {
+          "reference": "ICRP. The 2007 Recommendations of the International Commission on Radiological Protection. ICRP Publication 103. Ann ICRP 2007;37(2-4).",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les principes physiques de l'échographie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'échographie utilise des ultrasons, ondes mécaniques de fréquence supérieure à 20 kHz.",
+        "B": "L'image est formée par la réception des échos réfléchis aux interfaces entre milieux d'impédances acoustiques différentes.",
+        "C": "Les sondes de haute fréquence offrent une meilleure résolution mais une moindre pénétration.",
+        "D": "L'échographie utilise des rayonnements ionisants.",
+        "E": "Les ultrasons se propagent aussi bien dans l'air que dans les tissus mous."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'échographie repose sur l'émission d'ultrasons (ondes mécaniques, 2 à 15 MHz en diagnostic) par une sonde piézoélectrique et la réception des échos réfléchis aux interfaces entre tissus d'impédances acoustiques différentes. Le délai de retour localise l'interface en profondeur, l'amplitude code le niveau de gris. La fréquence détermine un compromis entre résolution (élevée à haute fréquence) et pénétration (meilleure à basse fréquence). Les ultrasons, ondes non ionisantes, se propagent mal dans l'air et l'os, d'où l'emploi d'un gel et les limites pour les structures aériques ou osseuses. Non irradiante, accessible et dynamique, l'échographie est un examen de première intention dans de nombreuses indications.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les fréquences diagnostiques sont de l'ordre de 2 à 15 MHz.",
+        "B": "Vrai : Le temps de retour de l'écho permet de localiser l'interface en profondeur.",
+        "C": "Vrai : Les sondes de basse fréquence pénètrent plus profondément au prix d'une résolution moindre.",
+        "D": "Faux : L'échographie utilise des ultrasons (ondes mécaniques), non des rayonnements ionisants : elle est dénuée de risque d'irradiation.",
+        "E": "Faux : Les ultrasons se propagent mal dans l'air (forte réflexion aux interfaces) : d'où l'emploi d'un gel de couplage et les limites de l'échographie pour les structures aériques (poumon, intestin)."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-062"
+      ],
+      "theme": "Principes physiques de l'échographie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'échographie utilise des rayonnements ionisants.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Rumack CM, Levine D. Diagnostic Ultrasound. 5e éd. Elsevier ; 2018 [catalogue OUV-0677].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'effet Doppler en échographie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'effet Doppler correspond à la variation de fréquence d'une onde réfléchie par une cible en mouvement.",
+        "B": "Le Doppler permet d'étudier les flux sanguins (sens, vitesse).",
+        "C": "Il est utilisé pour explorer les vaisseaux (sténoses, thromboses) et la vascularisation des organes.",
+        "D": "La fréquence Doppler dépend de l'angle entre le faisceau ultrasonore et la direction du flux.",
+        "E": "L'effet Doppler ne permet d'étudier que les structures immobiles."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'effet Doppler est la variation de fréquence d'une onde réfléchie par une cible en mouvement ; en échographie vasculaire, les cibles sont les hématies circulantes. La mesure du décalage Doppler permet de déterminer le sens et la vitesse des flux sanguins, selon plusieurs modes (Doppler continu, pulsé, couleur, énergie). La fréquence Doppler dépend de la vitesse, de la fréquence émise et du cosinus de l'angle entre le faisceau et le flux : un angle proche de 90° annule le décalage et rend la mesure non fiable (correction d'angle nécessaire). Les applications sont nombreuses : exploration des sténoses, thromboses, de la vascularisation tumorale, du cœur (écho-Doppler cardiaque), du fœtus. L'écho-Doppler est un outil majeur, non irradiant, de l'exploration vasculaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : En échographie, la cible mobile est principalement constituée des hématies.",
+        "B": "Vrai : Doppler couleur, pulsé, continu selon les applications.",
+        "C": "Vrai : Par exemple l'écho-Doppler des troncs supra-aortiques ou des membres.",
+        "D": "Vrai : Un angle proche de 90° rend la mesure de vitesse peu fiable.",
+        "E": "Faux : L'effet Doppler étudie précisément les structures en mouvement (flux sanguins) : il ne concerne pas les structures immobiles."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-062"
+      ],
+      "theme": "Effet Doppler et applications",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Mesurer une vitesse avec un angle Doppler proche de 90°, ce qui fausse le résultat.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Rumack CM, Levine D. Diagnostic Ultrasound. 5e éd. Elsevier ; 2018 [catalogue OUV-0677].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les indications et limites de l'échographie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'échographie est l'examen de première intention pour l'exploration du foie, des voies biliaires, des reins et du pelvis.",
+        "B": "Elle est particulièrement utile chez la femme enceinte et l'enfant.",
+        "C": "Elle est opérateur-dépendante.",
+        "D": "L'échographie est l'examen idéal pour explorer le parenchyme pulmonaire aéré et les structures osseuses.",
+        "E": "L'échographie délivre une dose d'irradiation importante au patient."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'échographie, non irradiante, accessible, dynamique et peu coûteuse, est un examen de première intention pour de nombreux organes (foie, voies biliaires, reins, vessie, pelvis, thyroïde, parties molles, cœur, vaisseaux) et des situations particulières (grossesse, pédiatrie, urgence, repérage pour geste). Ses limites tiennent à la mauvaise propagation des ultrasons dans l'air et l'os (poumon aéré, structures osseuses, interposition digestive) et à son caractère opérateur-dépendant. Elle est souvent complémentaire de la tomodensitométrie ou de l'IRM. La connaissance de ses indications et de ses limites permet de l'intégrer rationnellement dans la stratégie diagnostique, en privilégiant les examens non irradiants quand ils sont adaptés.",
+      "explications_par_proposition": {
+        "A": "Vrai : Non irradiante, accessible et répétable.",
+        "B": "Vrai : Du fait de l'absence de rayonnements ionisants.",
+        "C": "Vrai : Sa qualité dépend de l'expérience de l'opérateur et des conditions d'examen.",
+        "D": "Faux : Les ultrasons sont fortement réfléchis par l'air et l'os : l'échographie est peu adaptée au poumon aéré et à l'os (la tomodensitométrie et l'IRM y sont plus performantes).",
+        "E": "Faux : L'échographie n'utilise pas de rayonnements ionisants et ne délivre aucune dose d'irradiation."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-062"
+      ],
+      "theme": "Indications et limites de l'échographie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Proposer l'échographie pour explorer le poumon aéré ou l'os.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rumack CM, Levine D. Diagnostic Ultrasound. 5e éd. Elsevier ; 2018 [catalogue OUV-0677].",
+          "date": "2018"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5010",
+      "format": "QCS (réponse unique)",
+      "enonce": "Les ultrasons utilisés en échographie sont :",
+      "propositions": {
+        "A": "Des ondes mécaniques de fréquence supérieure à 20 kHz.",
+        "B": "Des rayonnements électromagnétiques ionisants.",
+        "C": "Des rayons X de faible énergie.",
+        "D": "Des ondes capables de se propager dans le vide.",
+        "E": "Des ondes de fréquence inférieure à celle des sons audibles."
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Les ultrasons sont des ondes mécaniques de fréquence supérieure à 20 kHz (au-delà du seuil d'audition humaine), nécessitant un milieu matériel pour se propager. En échographie diagnostique, on utilise des fréquences de l'ordre de 2 à 15 MHz. Produits par effet piézoélectrique, ils se réfléchissent aux interfaces entre tissus d'impédances acoustiques différentes, permettant de former l'image. N'étant pas des rayonnements ionisants, ils ne comportent pas de risque d'irradiation, ce qui fait de l'échographie un examen de choix chez la femme enceinte et l'enfant. Leur mauvaise propagation dans l'air et l'os explique les limites de la technique. Leur nature mécanique distingue fondamentalement l'échographie des techniques utilisant des rayons X.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elles nécessitent un milieu matériel pour se propager et ne sont pas ionisantes.",
+        "B": "Faux : Les ultrasons sont des ondes mécaniques, non des rayonnements électromagnétiques ni ionisants.",
+        "C": "Faux : Les rayons X sont des rayonnements électromagnétiques ionisants, sans rapport avec les ultrasons.",
+        "D": "Faux : Les ultrasons, ondes mécaniques, ne se propagent pas dans le vide ; ils nécessitent un milieu matériel.",
+        "E": "Faux : Les ultrasons ont une fréquence supérieure au seuil audible (plus de 20 kHz) ; les infrasons sont en dessous."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-062"
+      ],
+      "theme": "Nature des ultrasons",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre ultrasons (ondes mécaniques) et rayonnements ionisants.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Rumack CM, Levine D. Diagnostic Ultrasound. 5e éd. Elsevier ; 2018 [catalogue OUV-0677].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le principe de la tomodensitométrie (scanner), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle utilise des rayons X et mesure l'atténuation du faisceau sous de multiples incidences.",
+        "B": "La densité des structures est exprimée en unités Hounsfield.",
+        "C": "La tomodensitométrie offre une excellente résolution spatiale et une bonne analyse osseuse et pulmonaire.",
+        "D": "La tomodensitométrie n'utilise pas de rayonnements ionisants.",
+        "E": "Sur une image tomodensitométrique, l'os apparaît en hypodensité (noir)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La tomodensitométrie (scanner) acquiert, grâce à un tube à rayons X et des détecteurs en rotation, de multiples mesures d'atténuation sous différentes incidences, reconstruites par calcul en images en coupes. L'atténuation est quantifiée en unités Hounsfield (eau = 0, air ≈ -1000, os et calcifications très positifs, graisse négative). Le scanner offre une excellente résolution spatiale, une analyse fine de l'os, du poumon et des structures profondes, et des acquisitions rapides (hélicoïdal, multibarrettes, avec reconstructions multiplanaires). C'est un examen irradiant, dont l'indication doit être justifiée et la dose optimisée. Les produits de contraste iodés améliorent l'analyse vasculaire et parenchymateuse. Il occupe une place centrale en imagerie diagnostique et en urgence.",
+      "explications_par_proposition": {
+        "A": "Vrai : Un traitement informatique reconstruit des images en coupes.",
+        "B": "Vrai : Par convention, l'eau vaut 0 UH et l'air environ -1000 UH.",
+        "C": "Vrai : Les acquisitions hélicoïdales multibarrettes sont rapides.",
+        "D": "Faux : La tomodensitométrie utilise des rayons X (rayonnements ionisants) et délivre une dose souvent supérieure à celle d'une radiographie standard.",
+        "E": "Faux : L'os, très atténuant, apparaît en hyperdensité (blanc, unités Hounsfield élevées) ; l'air apparaît en hypodensité (noir)."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-063"
+      ],
+      "theme": "Principe de la tomodensitométrie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le scanner n'est pas irradiant ou inverser les densités (os noir).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        },
+        {
+          "reference": "Webb WR, Brant WE, Major NM. Fundamentals of Body CT. 5e éd. Elsevier ; 2020 [catalogue OUV-0678].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les densités en tomodensitométrie et les produits de contraste, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Par convention, l'eau a une densité de 0 unité Hounsfield et l'air d'environ -1000 unités Hounsfield.",
+        "B": "La graisse a une densité négative (environ -50 à -100 unités Hounsfield).",
+        "C": "Les produits de contraste iodés augmentent la densité des structures vascularisées.",
+        "D": "Les produits de contraste iodés sont dénués de tout risque.",
+        "E": "Le sang frais (hématome récent) apparaît toujours en hypodensité au scanner."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La tomodensitométrie quantifie l'atténuation en unités Hounsfield (eau = 0, air ≈ -1000, graisse négative, tissus mous faiblement positifs, os et calcifications fortement positifs). Cette échelle permet de caractériser les structures (par exemple identifier de la graisse, du liquide, une calcification, un saignement : l'hématome récent est spontanément hyperdense). Les produits de contraste iodés, injectés par voie intraveineuse, rehaussent la densité des structures vascularisées et des prises de contraste pathologiques, précisant le diagnostic ; ils comportent des risques (réactions d'hypersensibilité, néphrotoxicité) nécessitant une évaluation préalable (fonction rénale, antécédents). La maîtrise des densités et du rehaussement est essentielle à l'interprétation du scanner.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'os cortical et les calcifications ont des valeurs très positives.",
+        "B": "Vrai : Ce qui permet de la caractériser.",
+        "C": "Vrai : Ils améliorent l'analyse des vaisseaux et des lésions (prise de contraste).",
+        "D": "Faux : Ils comportent des risques (réactions d'hypersensibilité, néphrotoxicité), imposant des précautions (fonction rénale, antécédents allergiques).",
+        "E": "Faux : Un hématome récent apparaît typiquement en hyperdensité spontanée au scanner (par exemple une hémorragie intracrânienne aiguë), non en hypodensité."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-063"
+      ],
+      "theme": "Unités Hounsfield et produits de contraste",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un hématome récent est hypodense au scanner.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Webb WR, Brant WE, Major NM. Fundamentals of Body CT. 5e éd. Elsevier ; 2020 [catalogue OUV-0678].",
+          "date": "2020"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les indications et la radioprotection en tomodensitométrie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le scanner est très utilisé en urgence (traumatismes, hémorragies, accidents vasculaires cérébraux, embolie pulmonaire).",
+        "B": "Toute indication doit respecter le principe de justification.",
+        "C": "La dose délivrée par un scanner est en général supérieure à celle d'une radiographie standard.",
+        "D": "Chez la femme enceinte et l'enfant, on privilégie quand c'est possible les techniques non irradiantes.",
+        "E": "Le scanner doit être l'examen de première intention dans toutes les situations cliniques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La tomodensitométrie, performante et rapide, a des indications larges, notamment en urgence (traumatismes, hémorragies, accidents vasculaires cérébraux, embolie pulmonaire, abdomens aigus) et en oncologie (bilan d'extension, suivi). Étant irradiante, son usage obéit aux principes de radioprotection : justification (bénéfice supérieur au risque), optimisation (dose aussi basse que raisonnablement possible, ALARA) et limitation. La dose, souvent supérieure à celle d'une radiographie, impose de privilégier, quand elles sont adaptées, les techniques non irradiantes (échographie, IRM), surtout chez l'enfant et la femme enceinte. Le choix de l'examen résulte d'une stratégie raisonnée intégrant performance diagnostique, risques et disponibilité.",
+      "explications_par_proposition": {
+        "A": "Vrai : Rapidité et performances diagnostiques.",
+        "B": "Vrai : Mettre en balance le bénéfice diagnostique et le risque lié à l'irradiation.",
+        "C": "Vrai : D'où l'importance de l'optimisation (principe ALARA).",
+        "D": "Vrai : Comme l'échographie ou l'IRM, selon l'indication.",
+        "E": "Faux : Le choix de l'examen dépend de l'indication ; des examens non irradiants (échographie, IRM) sont souvent préférés lorsqu'ils sont adaptés, notamment chez l'enfant et la femme enceinte."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-063"
+      ],
+      "theme": "Indications et radioprotection en tomodensitométrie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ériger le scanner en examen de première intention systématique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        },
+        {
+          "reference": "ICRP. The 2007 Recommendations of the International Commission on Radiological Protection. ICRP Publication 103. Ann ICRP 2007;37(2-4).",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les performances de la tomodensitométrie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les acquisitions hélicoïdales multibarrettes permettent des examens rapides et des reconstructions multiplanaires.",
+        "B": "La tomodensitométrie a une excellente résolution spatiale et une bonne résolution en densité.",
+        "C": "L'angioscanner permet d'explorer les vaisseaux après injection de produit de contraste iodé.",
+        "D": "La tomodensitométrie est dépourvue de tout rayonnement ionisant.",
+        "E": "La tomodensitométrie ne permet aucune reconstruction en dehors du plan axial."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La tomodensitométrie moderne, grâce aux acquisitions hélicoïdales multibarrettes, offre des examens rapides, des coupes fines et des reconstructions multiplanaires et tridimensionnelles à partir d'un volume acquis. Sa résolution spatiale est excellente et sa résolution en densité permet de détecter de faibles différences d'atténuation (unités Hounsfield). L'injection de produit de contraste iodé (angioscanner, temps artériel et veineux) élargit les indications (embolie pulmonaire, dissection aortique, bilan oncologique). Étant irradiante, elle impose justification et optimisation des doses. Ces performances en font un pilier de l'imagerie diagnostique, en particulier en urgence, à intégrer dans une stratégie tenant compte des alternatives non irradiantes.",
+      "explications_par_proposition": {
+        "A": "Vrai : Utiles pour l'imagerie vasculaire et en urgence.",
+        "B": "Vrai : Elle détecte de faibles différences d'atténuation.",
+        "C": "Vrai : Par exemple pour le diagnostic d'embolie pulmonaire ou de dissection aortique.",
+        "D": "Faux : La tomodensitométrie utilise des rayons X et délivre une dose d'irradiation non négligeable.",
+        "E": "Faux : Les acquisitions volumiques permettent des reconstructions multiplanaires (coronales, sagittales) et tridimensionnelles."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-063"
+      ],
+      "theme": "Reconstruction et performances du scanner",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le scanner ne permet que des coupes axiales.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Webb WR, Brant WE, Major NM. Fundamentals of Body CT. 5e éd. Elsevier ; 2020 [catalogue OUV-0678].",
+          "date": "2020"
+        },
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le principe de l'imagerie par résonance magnétique (IRM), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'IRM repose sur la résonance magnétique nucléaire des protons (noyaux d'hydrogène).",
+        "B": "Elle nécessite un champ magnétique intense et des ondes de radiofréquence.",
+        "C": "Les temps de relaxation T1 et T2 des tissus déterminent le contraste des images.",
+        "D": "L'IRM utilise des rayons X.",
+        "E": "L'IRM offre un contraste médiocre pour les tissus mous."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'IRM exploite la résonance magnétique nucléaire des protons (hydrogène de l'eau et de la graisse). Placés dans un champ magnétique intense, les protons sont excités par des ondes de radiofréquence puis émettent, lors de leur relaxation, un signal dont dépend l'image. Les temps de relaxation T1 et T2, propres à chaque tissu, et les paramètres des séquences déterminent le contraste (pondérations T1, T2, diffusion, etc.). L'IRM, non irradiante, offre un excellent contraste des tissus mous et une imagerie multiplanaire, particulièrement utile pour le système nerveux, l'appareil locomoteur, le pelvis et les vaisseaux. Elle comporte des contre-indications liées au champ magnétique (certains dispositifs implantés). C'est une technique majeure, complémentaire du scanner.",
+      "explications_par_proposition": {
+        "A": "Vrai : Abondants dans l'eau et la graisse des tissus.",
+        "B": "Vrai : Le signal provient de la relaxation des protons après excitation.",
+        "C": "Vrai : Selon les séquences (pondération T1, T2, etc.).",
+        "D": "Faux : L'IRM n'utilise pas de rayonnements ionisants : elle repose sur le magnétisme nucléaire et les ondes de radiofréquence.",
+        "E": "Faux : L'IRM offre au contraire un excellent contraste des tissus mous, supérieur à celui du scanner dans de nombreuses indications (système nerveux, articulations, pelvis)."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-064"
+      ],
+      "theme": "Principe physique de l'IRM",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à l'IRM l'usage de rayons X.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Westbrook C, Talbot J. MRI in Practice. 5e éd. Wiley ; 2019 [catalogue OUV-0679].",
+          "date": "2019"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les pondérations en IRM, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "En pondération T1, la graisse apparaît en hypersignal (blanc).",
+        "B": "En pondération T2, les liquides (œdème, liquide céphalorachidien) apparaissent en hypersignal.",
+        "C": "Le gadolinium est un produit de contraste utilisé en IRM.",
+        "D": "La séquence de diffusion est utile notamment au diagnostic précoce de l'accident vasculaire cérébral ischémique.",
+        "E": "En IRM, il n'existe qu'une seule séquence, donnant un seul type de contraste."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La richesse de l'IRM tient à la diversité de ses séquences, qui exploitent les temps de relaxation pour générer des contrastes variés. En pondération T1, la graisse est en hypersignal et les liquides en hyposignal (bonne résolution anatomique, étude après gadolinium) ; en pondération T2, les liquides et l'œdème sont en hypersignal (détection des lésions). D'autres séquences apportent des informations spécifiques : FLAIR (atténuation du liquide céphalorachidien), diffusion (ischémie cérébrale précoce, lésions cellulaires), angio-IRM, spectroscopie. Le gadolinium rehausse les prises de contraste. La combinaison des séquences permet de caractériser les lésions. Cette polyvalence fait de l'IRM un outil de référence pour de nombreuses pathologies.",
+      "explications_par_proposition": {
+        "A": "Vrai : Utile pour l'anatomie et l'étude après injection de gadolinium.",
+        "B": "Vrai : Utile pour détecter les lésions œdémateuses ou liquidiennes.",
+        "C": "Vrai : Il raccourcit le T1 et rehausse les structures où il se distribue.",
+        "D": "Vrai : L'ischémie récente apparaît en hypersignal de diffusion.",
+        "E": "Faux : L'IRM dispose de multiples séquences (T1, T2, FLAIR, diffusion, etc.) donnant des contrastes différents et complémentaires."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-064"
+      ],
+      "theme": "Pondérations et séquences en IRM",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'IRM ne dispose que d'un seul type de contraste.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Westbrook C, Talbot J. MRI in Practice. 5e éd. Wiley ; 2019 [catalogue OUV-0679].",
+          "date": "2019"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les indications et la sécurité de l'IRM, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'IRM est particulièrement performante pour l'exploration du système nerveux central.",
+        "B": "Elle est non irradiante.",
+        "C": "Le champ magnétique intense impose des précautions de sécurité strictes.",
+        "D": "Certains dispositifs implantés peuvent constituer une contre-indication.",
+        "E": "L'IRM est l'examen le plus rapide et le plus accessible en situation d'urgence vitale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'IRM, non irradiante et dotée d'un excellent contraste des tissus mous, est l'examen de référence pour le système nerveux central (encéphale, moelle, sclérose en plaques, tumeurs), l'appareil locomoteur, le pelvis et certaines explorations vasculaires et cardiaques. Son champ magnétique intense impose des règles de sécurité strictes (exclusion des objets ferromagnétiques, vérification des dispositifs implantés : certains stimulateurs cardiaques, clips, corps étrangers métalliques peuvent contre-indiquer l'examen). Elle est plus longue, moins disponible et moins adaptée à l'extrême urgence que le scanner. Le gadolinium a ses propres précautions. Le choix entre IRM et autres techniques dépend de l'indication, de la disponibilité et des contre-indications.",
+      "explications_par_proposition": {
+        "A": "Vrai : Encéphale, moelle épinière, sclérose en plaques, tumeurs.",
+        "B": "Vrai : Avantage important, notamment pour les examens répétés, chez l'enfant et la femme enceinte (sous réserve des précautions).",
+        "C": "Vrai : Interdiction d'objets ferromagnétiques dans la salle d'examen.",
+        "D": "Vrai : Comme certains stimulateurs cardiaques ou corps étrangers métalliques, à vérifier avant l'examen.",
+        "E": "Faux : L'IRM est généralement plus longue, moins disponible et moins adaptée en extrême urgence que le scanner ; sa durée et ses contraintes en limitent l'usage dans certaines urgences."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-064"
+      ],
+      "theme": "Indications, contre-indications et sécurité de l'IRM",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Considérer l'IRM comme l'examen de référence en extrême urgence vitale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Westbrook C, Talbot J. MRI in Practice. 5e éd. Wiley ; 2019 [catalogue OUV-0679].",
+          "date": "2019"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-IMAG-5012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le contraste et les applications avancées de l'IRM, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le contraste en IRM dépend de la densité de protons et des temps de relaxation T1 et T2 des tissus.",
+        "B": "La séquence FLAIR annule le signal du liquide céphalorachidien pour mieux détecter les lésions périventriculaires.",
+        "C": "L'IRM de diffusion est sensible aux mouvements microscopiques de l'eau.",
+        "D": "L'angio-IRM peut explorer les vaisseaux, parfois sans injection de produit de contraste.",
+        "E": "Le signal IRM provient essentiellement des noyaux de calcium des os."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le contraste en IRM résulte de la densité de protons et des temps de relaxation T1 et T2, modulés par les paramètres des séquences, ce qui permet une grande variété de pondérations et de techniques. Les séquences avancées élargissent les applications : FLAIR (suppression du liquide céphalorachidien, lésions de la substance blanche), diffusion (ischémie cérébrale précoce, caractérisation tumorale), perfusion, spectroscopie, angio-IRM (parfois sans contraste). Le signal provient des protons de l'eau et de la graisse ; l'os cortical, pauvre en protons mobiles, est mieux étudié par le scanner. Cette polyvalence, associée à l'absence d'irradiation et à l'excellent contraste des tissus mous, explique la place croissante de l'IRM, dans les limites de ses contre-indications et de sa disponibilité.",
+      "explications_par_proposition": {
+        "A": "Vrai : Modulables par les paramètres de séquence.",
+        "B": "Vrai : Utile par exemple dans la sclérose en plaques.",
+        "C": "Vrai : Elle détecte précocement l'ischémie cérébrale et caractérise certaines lésions.",
+        "D": "Vrai : Grâce à des séquences exploitant le flux.",
+        "E": "Faux : Le signal IRM provient surtout des protons (hydrogène de l'eau et de la graisse) ; l'os cortical, pauvre en protons mobiles, donne peu de signal (d'où la supériorité du scanner pour l'os cortical)."
+      },
+      "specialite": "IMAG",
+      "items_residanat": [
+        "RES-SF-064"
+      ],
+      "theme": "Contraste tissulaire et séquences avancées en IRM",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer le signal IRM au calcium osseux.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Westbrook C, Talbot J. MRI in Practice. 5e éd. Wiley ; 2019 [catalogue OUV-0679].",
+          "date": "2019"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RADI-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'abdomen sans préparation (ASP), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "C'est une radiographie de l'abdomen réalisée sans produit de contraste.",
+        "B": "Ses indications se sont restreintes avec l'essor de l'échographie et du scanner.",
+        "C": "Il peut montrer des niveaux hydro-aériques en cas d'occlusion intestinale.",
+        "D": "L'ASP est l'examen de référence le plus sensible pour détecter un pneumopéritoine minime.",
+        "E": "L'ASP nécessite systématiquement l'injection d'un produit de contraste iodé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'abdomen sans préparation est une radiographie standard de l'abdomen, sans produit de contraste, réalisée en décubitus et/ou debout (ou en décubitus latéral). Historiquement utilisé devant un syndrome abdominal aigu, ses indications se sont restreintes au profit de l'échographie et surtout du scanner, plus sensibles et spécifiques. Il peut encore montrer des niveaux hydro-aériques (occlusion), des calcifications, des corps étrangers radio-opaques, un pneumopéritoine (air sous les coupoles sur le cliché debout) ou des anomalies gazeuses, mais sa sensibilité est limitée. L'interprétation repose sur l'analyse de la répartition des gaz digestifs, des opacités et des densités. Sa place actuelle est restreinte, l'imagerie en coupes étant privilégiée dans la plupart des urgences abdominales.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle peut être réalisée en décubitus et/ou debout selon l'indication.",
+        "B": "Vrai : Le scanner est souvent plus performant pour les urgences abdominales.",
+        "C": "Vrai : Visibles sur le cliché debout ou en décubitus latéral.",
+        "D": "Faux : Le scanner est plus sensible ; le cliché debout ou en décubitus latéral peut montrer un pneumopéritoine, mais sa sensibilité est limitée pour les petites quantités.",
+        "E": "Faux : L'ASP est par définition réalisé sans préparation ni produit de contraste."
+      },
+      "specialite": "RADI",
+      "items_residanat": [
+        "RES-SF-065"
+      ],
+      "theme": "Abdomen sans préparation : technique et indications",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Surestimer la sensibilité de l'ASP pour un pneumopéritoine minime.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Goodman LR. Felson's Principles of Chest Roentgenology: A Programmed Text. 5e éd. Elsevier ; 2021 [catalogue OUV-0667].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RADI-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la sémiologie de l'abdomen sans préparation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Des niveaux hydro-aériques plus larges que hauts évoquent une occlusion du grêle.",
+        "B": "Un pneumopéritoine se traduit, sur le cliché debout, par un croissant gazeux sous les coupoles diaphragmatiques.",
+        "C": "Des calcifications peuvent être visibles (lithiases, calcifications vasculaires).",
+        "D": "Toute image aérique anormale impose de conclure immédiatement sans aucun autre examen.",
+        "E": "L'ASP permet une analyse fine des organes pleins (foie, rate, pancréas)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La sémiologie de l'abdomen sans préparation repose sur l'analyse des clartés gazeuses, des opacités, des calcifications et des contours. Les niveaux hydro-aériques (plus larges que hauts, centraux pour le grêle ; plus hauts que larges, périphériques pour le côlon) orientent vers une occlusion ; un croissant gazeux sous les coupoles (cliché debout) évoque un pneumopéritoine (perforation) ; des calcifications peuvent correspondre à des lithiases ou à des calcifications vasculaires. L'ASP ne permet pas d'analyser finement les organes pleins. Ses anomalies doivent le plus souvent être confirmées et complétées par l'échographie ou le scanner. Sa lecture systématique garde un intérêt pédagogique et, dans certains contextes, pratique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Alors que des niveaux plus hauts que larges orientent vers le côlon.",
+        "B": "Vrai : Il traduit une perforation d'organe creux.",
+        "C": "Vrai : Certaines lithiases urinaires ou biliaires sont radio-opaques.",
+        "D": "Faux : Les anomalies de l'ASP doivent le plus souvent être confirmées et précisées par d'autres examens (échographie, scanner).",
+        "E": "Faux : L'ASP n'analyse pas les organes pleins, qui relèvent de l'échographie, du scanner ou de l'IRM ; il renseigne surtout sur les gaz, les calcifications et certaines opacités."
+      },
+      "specialite": "RADI",
+      "items_residanat": [
+        "RES-SF-065"
+      ],
+      "theme": "Sémiologie de l'abdomen sans préparation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre de l'ASP une analyse des organes pleins.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Goodman LR. Felson's Principles of Chest Roentgenology: A Programmed Text. 5e éd. Elsevier ; 2021 [catalogue OUV-0667].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RADI-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la place actuelle de l'abdomen sans préparation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le scanner abdomino-pelvien est aujourd'hui l'examen de référence dans la plupart des urgences abdominales.",
+        "B": "L'échographie est souvent l'examen de première intention pour les douleurs abdominales, notamment biliaires et rénales.",
+        "C": "L'ASP conserve quelques indications ou un intérêt d'orientation dans certains contextes.",
+        "D": "L'ASP doit être réalisé systématiquement avant toute échographie ou tout scanner abdominal.",
+        "E": "L'irradiation n'entre jamais en compte dans le choix d'un examen d'imagerie abdominale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La place de l'abdomen sans préparation s'est réduite avec les progrès de l'imagerie en coupes. Dans la plupart des urgences abdominales, le scanner abdomino-pelvien est l'examen de référence (sensibilité et spécificité élevées), tandis que l'échographie, non irradiante, est souvent de première intention (pathologie biliaire, rénale, gynécologique, pédiatrie). L'ASP conserve quelques indications d'orientation (corps étrangers radio-opaques, certains suivis) mais n'est pas un préalable obligatoire. Le choix de l'examen intègre l'indication, la performance diagnostique, la disponibilité et l'irradiation (principe de justification et d'optimisation). Cette hiérarchisation rationnelle des examens est au cœur de la démarche d'imagerie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il est plus sensible et spécifique que l'ASP.",
+        "B": "Vrai : Non irradiante et accessible.",
+        "C": "Vrai : Par exemple la recherche de corps étrangers radio-opaques ou le suivi de certaines situations.",
+        "D": "Faux : L'ASP n'est pas un préalable obligatoire ; la stratégie dépend de l'indication, l'échographie ou le scanner étant souvent d'emblée privilégiés.",
+        "E": "Faux : L'irradiation est un critère important : on privilégie les examens non irradiants (échographie) quand ils sont adaptés, surtout chez l'enfant et la femme enceinte."
+      },
+      "specialite": "RADI",
+      "items_residanat": [
+        "RES-SF-065"
+      ],
+      "theme": "Place de l'ASP dans la stratégie d'imagerie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'ASP est un préalable obligatoire à l'échographie ou au scanner.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        },
+        {
+          "reference": "Goodman LR. Felson's Principles of Chest Roentgenology: A Programmed Text. 5e éd. Elsevier ; 2021 [catalogue OUV-0667].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RADI-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'analyse des clartés gazeuses sur l'abdomen sans préparation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La distension du grêle se reconnaît à sa position centrale et aux valvules conniventes traversant toute la lumière.",
+        "B": "La distension colique se reconnaît à sa position périphérique et aux haustrations incomplètes.",
+        "C": "En cas d'occlusion, la présence et la répartition des niveaux hydro-aériques orientent le siège.",
+        "D": "La présence de gaz dans le rectum élimine formellement toute occlusion.",
+        "E": "Les valvules conniventes et les haustrations donnent des images radiologiques identiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'analyse des gaz digestifs sur l'abdomen sans préparation permet d'orienter le diagnostic d'occlusion. Le grêle distendu occupe une position centrale et présente des valvules conniventes traversant toute la lumière (« pile d'assiettes ») ; le côlon distendu est périphérique, avec des haustrations incomplètes. Les niveaux hydro-aériques, leur nombre, leur taille et leur répartition orientent le siège de l'obstacle. Toutefois, la sensibilité de l'ASP est limitée et son interprétation doit tenir compte du contexte clinique ; le scanner abdomino-pelvien est aujourd'hui l'examen de référence pour confirmer l'occlusion, en préciser le siège, le mécanisme et la gravité. Cette sémiologie garde un intérêt d'orientation et pédagogique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Image dite en « pile d'assiettes ».",
+        "B": "Vrai : Les haustrations ne traversent pas toute la lumière.",
+        "C": "Vrai : Grêle (centraux, nombreux, larges) ou côlon (périphériques, hauts).",
+        "D": "Faux : La présence de gaz d'aval n'élimine pas une occlusion incomplète ou débutante ; l'interprétation doit tenir compte de la clinique et, souvent, du scanner.",
+        "E": "Faux : Les valvules conniventes du grêle traversent toute la lumière, les haustrations coliques ne la traversent pas : leurs images diffèrent."
+      },
+      "specialite": "RADI",
+      "items_residanat": [
+        "RES-SF-065"
+      ],
+      "theme": "Analyse des gaz digestifs sur l'ASP",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à l'absence d'occlusion sur la seule présence de gaz rectal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Goodman LR. Felson's Principles of Chest Roentgenology: A Programmed Text. 5e éd. Elsevier ; 2021 [catalogue OUV-0667].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RADI-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la radiographie thoracique (pulmonaire), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le cliché de face est classiquement réalisé en incidence postéro-antérieure, en inspiration profonde.",
+        "B": "Un cliché bien inspiré dégage habituellement au moins six arcs costaux antérieurs.",
+        "C": "La radiographie thoracique est un examen de première intention devant de nombreux symptômes respiratoires.",
+        "D": "La silhouette cardiaque est mieux évaluée sur un cliché de face en incidence antéro-postérieure couché.",
+        "E": "La radiographie thoracique délivre une dose d'irradiation très supérieure à celle d'un scanner thoracique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La radiographie thoracique standard, réalisée de face en incidence postéro-antérieure, debout, en inspiration profonde (rayon horizontal), est un examen de première intention peu irradiant et très informatif. La qualité technique (inspiration, centrage, pénétration, absence de rotation) conditionne l'interprétation : un cliché mal inspiré ou en incidence antéro-postérieure couché agrandit la silhouette médiastinale et peut simuler des anomalies. L'analyse systématique porte sur la paroi, les coupoles, le médiastin, les hiles, les champs pulmonaires et la silhouette cardiaque (index cardiothoracique sur le cliché postéro-antérieur). Le scanner thoracique, plus irradiant, complète l'exploration. La maîtrise de la technique et de la sémiologie est fondamentale en pratique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Debout, rayon horizontal, pour limiter l'agrandissement de la silhouette cardiaque.",
+        "B": "Vrai : Un cliché en expiration peut simuler une anomalie (élargissement médiastinal, surcharge).",
+        "C": "Vrai : Peu irradiant, accessible et informatif.",
+        "D": "Faux : L'incidence antéro-postérieure (par exemple au lit) agrandit la silhouette cardiaque ; l'évaluation de l'index cardiothoracique se fait sur un cliché postéro-antérieur debout.",
+        "E": "Faux : La radiographie thoracique délivre une dose faible, bien inférieure à celle d'un scanner thoracique."
+      },
+      "specialite": "RADI",
+      "items_residanat": [
+        "RES-SF-066"
+      ],
+      "theme": "Radiographie pulmonaire : technique et qualité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Évaluer l'index cardiothoracique sur un cliché antéro-postérieur couché.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Goodman LR. Felson's Principles of Chest Roentgenology: A Programmed Text. 5e éd. Elsevier ; 2021 [catalogue OUV-0667].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RADI-5005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la sémiologie de la radiographie thoracique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le signe de la silhouette permet de localiser une opacité selon l'effacement d'un contour normal.",
+        "B": "Un syndrome alvéolaire se traduit par des opacités à contours flous, confluentes, avec bronchogramme aérien.",
+        "C": "Un épanchement pleural liquidien de moyenne abondance donne une opacité déclive avec une ligne bordante concave vers le haut (ligne de Damoiseau).",
+        "D": "Un pneumothorax se traduit par une hyperclarté avec visualisation de la ligne pleurale et disparition de la trame vasculaire en périphérie.",
+        "E": "Le bronchogramme aérien est caractéristique d'un épanchement pleural."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La sémiologie radiographique thoracique repose sur l'analyse des opacités et des clartés anormales. Le signe de la silhouette localise une opacité selon le contour effacé. Les grands syndromes sont : alvéolaire (opacités floues, confluentes, bronchogramme aérien ; pneumonie, œdème), interstitiel (opacités réticulaires, nodulaires, lignes de Kerley), pleural (épanchement liquidien déclive avec ligne de Damoiseau, pneumothorax avec hyperclarté et ligne pleurale), médiastinal et de condensation rétractile (atélectasie). L'intégration de ces signes, dans un contexte clinique, oriente le diagnostic et les examens complémentaires (scanner). Cette sémiologie, enseignée de façon systématique, est fondamentale pour l'interprétation du cliché thoracique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Par exemple, l'effacement du bord droit du cœur évoque une atteinte du lobe moyen.",
+        "B": "Vrai : Évoquant par exemple une pneumonie.",
+        "C": "Vrai : Sur le cliché debout.",
+        "D": "Vrai : Parfois avec collapsus pulmonaire.",
+        "E": "Faux : Le bronchogramme aérien caractérise un syndrome alvéolaire (comblement alvéolaire autour de bronches aérées), non un épanchement pleural."
+      },
+      "specialite": "RADI",
+      "items_residanat": [
+        "RES-SF-066"
+      ],
+      "theme": "Sémiologie de la radiographie thoracique",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer le bronchogramme aérien à un épanchement pleural.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Goodman LR. Felson's Principles of Chest Roentgenology: A Programmed Text. 5e éd. Elsevier ; 2021 [catalogue OUV-0667].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RADI-5006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les indications et l'analyse de la radiographie thoracique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est indiquée devant de nombreux symptômes respiratoires et dans de nombreux bilans.",
+        "B": "Une analyse systématique et ordonnée du cliché est recommandée.",
+        "C": "La confrontation au contexte clinique est indispensable à l'interprétation.",
+        "D": "Le scanner thoracique complète la radiographie lorsque celle-ci est insuffisante.",
+        "E": "Une radiographie thoracique normale élimine formellement toute pathologie thoracique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La radiographie thoracique est un examen de première intention, peu irradiant et largement disponible, indiqué devant des symptômes respiratoires ou dans divers bilans. Son interprétation exige une analyse systématique (paroi, squelette, coupoles, médiastin, hiles, parenchyme, silhouette cardiaque) et une confrontation au contexte clinique, une même image pouvant avoir plusieurs causes. Elle a toutefois des limites : une radiographie normale n'élimine pas certaines pathologies (embolie pulmonaire, lésions de petite taille), et le scanner thoracique est souvent nécessaire pour caractériser ou préciser une anomalie. L'intégration raisonnée de la radiographie et du scanner, selon l'indication, est au cœur de la stratégie d'imagerie thoracique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Toux, dyspnée, douleur thoracique, fièvre, bilan préopératoire selon le contexte.",
+        "B": "Vrai : Paroi, parties molles, squelette, coupoles, médiastin, hiles, parenchyme, cœur.",
+        "C": "Vrai : Une même image peut avoir plusieurs significations.",
+        "D": "Vrai : Pour caractériser une anomalie ou en préciser l'extension.",
+        "E": "Faux : Une radiographie normale n'élimine pas toute pathologie (embolie pulmonaire, petites lésions, pathologie débutante) ; d'autres examens peuvent être nécessaires selon le contexte."
+      },
+      "specialite": "RADI",
+      "items_residanat": [
+        "RES-SF-066"
+      ],
+      "theme": "Indications et interprétation de la radiographie thoracique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'une radiographie thoracique normale élimine toute pathologie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Goodman LR. Felson's Principles of Chest Roentgenology: A Programmed Text. 5e éd. Elsevier ; 2021 [catalogue OUV-0667].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-RADI-5008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les grands syndromes de la radiographie thoracique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le syndrome interstitiel se traduit par des opacités réticulaires, nodulaires ou réticulo-nodulaires.",
+        "B": "Le syndrome de condensation alvéolaire comporte un bronchogramme aérien.",
+        "C": "L'atélectasie est une condensation rétractile avec attraction des structures de voisinage.",
+        "D": "Un épanchement pleural abondant peut refouler le médiastin du côté opposé.",
+        "E": "Le syndrome alvéolaire et l'atélectasie ont exactement la même traduction radiologique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La radiographie thoracique s'interprète selon de grands syndromes. Le syndrome interstitiel associe opacités réticulaires, nodulaires et lignes septales (lignes de Kerley). Le syndrome alvéolaire comporte des opacités floues confluentes avec bronchogramme aérien, sans rétraction. L'atélectasie est une condensation rétractile qui attire les structures voisines (médiastin, coupole, scissures). Les syndromes pleuraux comprennent l'épanchement liquidien (opacité déclive, refoulement si abondant) et le pneumothorax. Les syndromes médiastinaux et de la paroi complètent l'analyse. La distinction entre processus rétractiles (attraction) et non rétractiles (refoulement) est fondamentale. L'intégration de ces syndromes avec la clinique oriente le diagnostic et les examens complémentaires.",
+      "explications_par_proposition": {
+        "A": "Vrai : Avec parfois des lignes de Kerley.",
+        "B": "Vrai : Les alvéoles sont comblées autour de bronches restées aérées.",
+        "C": "Vrai : Par exemple, attraction du médiastin et surélévation de la coupole.",
+        "D": "Vrai : Alors qu'une atélectasie l'attire du même côté.",
+        "E": "Faux : Le syndrome alvéolaire est une opacité non rétractile (sans déplacement, voire refoulement) ; l'atélectasie est rétractile (attraction des structures) : leurs sémiologies diffèrent."
+      },
+      "specialite": "RADI",
+      "items_residanat": [
+        "RES-SF-066"
+      ],
+      "theme": "Grands syndromes radiologiques thoraciques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre opacité non rétractile (alvéolaire) et opacité rétractile (atélectasie).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Goodman LR. Felson's Principles of Chest Roentgenology: A Programmed Text. 5e éd. Elsevier ; 2021 [catalogue OUV-0667].",
+          "date": "2021"
+        },
+        {
+          "reference": "Mettler FA. Essentials of Radiology. 4e éd. Elsevier ; 2019 [catalogue OUV-0672].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le principe de base du laser, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le terme laser signifie amplification de la lumière par émission stimulée de rayonnement.",
+        "B": "La lumière laser est cohérente, monochromatique et directionnelle.",
+        "C": "Le fonctionnement nécessite une inversion de population dans un milieu actif et une cavité résonante.",
+        "D": "La lumière laser est polychromatique et diffuse comme celle d'une lampe à incandescence.",
+        "E": "L'émission stimulée produit un photon de longueur d'onde différente du photon incident."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Le laser repose sur l'émission stimulée de rayonnement : un photon incident induit la désexcitation d'un atome qui émet un second photon identique (même énergie, même phase, même direction). Pour amplifier la lumière, il faut une inversion de population (plus d'atomes excités que dans l'état fondamental), obtenue par pompage (optique, électrique), dans un milieu actif placé dans une cavité résonante (miroirs). La lumière laser en résulte cohérente, monochromatique et directionnelle (faible divergence), ce qui permet de concentrer l'énergie. Ces propriétés fondent les très nombreuses applications médicales et biologiques du laser, selon le milieu actif et la longueur d'onde.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le phénomène clé est l'émission stimulée décrite par Einstein.",
+        "B": "Vrai : Propriétés qui la distinguent de la lumière ordinaire.",
+        "C": "Vrai : L'inversion de population est obtenue par un pompage (optique, électrique).",
+        "D": "Faux : La lumière laser est au contraire monochromatique (une seule longueur d'onde) et directionnelle, non diffuse.",
+        "E": "Faux : L'émission stimulée produit un photon identique (même longueur d'onde, même phase et même direction) au photon incident : c'est la base de la cohérence."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-067"
+      ],
+      "theme": "Principe de base du laser",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Décrire la lumière laser comme diffuse et polychromatique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les lasers et leurs interactions avec les tissus, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il existe différents types de lasers selon le milieu actif (solide, gazeux, à semi-conducteurs).",
+        "B": "L'effet d'un laser sur les tissus dépend de la longueur d'onde, de la puissance et de la durée d'exposition.",
+        "C": "Les effets tissulaires peuvent être thermiques (coagulation, vaporisation), photochimiques ou photoablatifs.",
+        "D": "Le laser peut être utilisé pour couper, coaguler ou détruire des tissus de façon sélective.",
+        "E": "Tous les lasers ont la même longueur d'onde et les mêmes effets tissulaires."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les lasers se distinguent par leur milieu actif et leur longueur d'onde (laser CO2 absorbé par l'eau, Nd:YAG plus pénétrant, lasers à colorant ou à diode ciblant des chromophores spécifiques). L'interaction avec les tissus dépend de la longueur d'onde (et de son absorption par l'eau, l'hémoglobine, la mélanine), de la puissance, de la durée et du mode d'émission (continu ou pulsé). Les effets peuvent être thermiques (coagulation, vaporisation, section), photochimiques (thérapie photodynamique) ou photoablatifs (ablation précise sans échauffement, par exemple en ophtalmologie). Cette diversité explique le choix du laser selon l'application, qu'elle soit chirurgicale, dermatologique, ophtalmologique ou diagnostique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Exemples : laser CO2, laser Nd:YAG, lasers à diode.",
+        "B": "Vrai : Ainsi que de l'absorption par les chromophores tissulaires (eau, hémoglobine, mélanine).",
+        "C": "Vrai : Selon les paramètres et le type de laser.",
+        "D": "Vrai : D'où ses applications chirurgicales.",
+        "E": "Faux : Les lasers diffèrent par leur longueur d'onde et leurs interactions tissulaires, ce qui conditionne leurs indications spécifiques."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-067"
+      ],
+      "theme": "Types de laser et interactions avec les tissus",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que tous les lasers ont la même longueur d'onde et les mêmes effets.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les applications médicales et la sécurité des lasers, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le laser est utilisé en ophtalmologie (photocoagulation rétinienne, chirurgie réfractive).",
+        "B": "Il a des applications en dermatologie, chirurgie, urologie et autres spécialités.",
+        "C": "L'utilisation des lasers impose des règles de sécurité, notamment la protection oculaire.",
+        "D": "La thérapie photodynamique associe un photosensibilisant et une lumière d'activation.",
+        "E": "Les lasers médicaux sont sans danger pour les yeux et ne nécessitent aucune précaution."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les lasers ont de nombreuses applications médicales, déterminées par leur longueur d'onde et leurs effets tissulaires : ophtalmologie (photocoagulation rétinienne, chirurgie réfractive, capsulotomie), dermatologie (lésions vasculaires, pigmentaires, détatouage, épilation), chirurgie (section, coagulation), urologie (lithotritie, prostate), thérapie photodynamique (photosensibilisant activé par la lumière) et diagnostic. Leur usage impose des règles de sécurité strictes, en particulier la protection oculaire (lunettes adaptées à la longueur d'onde), car les lasers peuvent causer des lésions rétiniennes ou cornéennes, ainsi que des précautions contre les risques thermiques et les fumées. La connaissance des indications et des risques conditionne un emploi sûr et efficace de cette technologie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Par exemple le traitement de la rétinopathie diabétique.",
+        "B": "Vrai : Détatouage, traitement de lésions vasculaires, lithotritie, section tissulaire.",
+        "C": "Vrai : Risque de lésions rétiniennes ou cornéennes selon la longueur d'onde.",
+        "D": "Vrai : Pour détruire sélectivement certaines cellules (tumorales, par exemple).",
+        "E": "Faux : Les lasers peuvent provoquer des lésions oculaires graves ; des précautions (lunettes de protection adaptées, signalisation) sont obligatoires."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-067"
+      ],
+      "theme": "Applications médicales du laser et sécurité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les lasers médicaux ne présentent aucun danger oculaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Salmon JF. Kanski's Clinical Ophthalmology: A Systematic Approach. 9e éd. Elsevier ; 2020 [catalogue OUV-0534].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les propriétés physiques du rayonnement laser, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La cohérence temporelle et spatiale du faisceau laser permet de concentrer l'énergie sur une petite surface.",
+        "B": "La faible divergence du faisceau laser permet de le focaliser précisément.",
+        "C": "L'énergie d'un photon est proportionnelle à sa fréquence (E = hν).",
+        "D": "La lumière laser est incohérente, comme celle d'une ampoule classique.",
+        "E": "La densité de puissance d'un laser est indépendante de la surface sur laquelle le faisceau est focalisé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les propriétés physiques du laser découlent de l'émission stimulée : cohérence (ondes en phase, dans le temps et l'espace), monochromaticité (une longueur d'onde, donc une énergie de photon définie par E = hν) et directionnalité (faible divergence). Ces propriétés permettent de focaliser le faisceau sur une très petite surface, d'où une densité de puissance élevée (puissance par unité de surface), exploitée pour sectionner ou vaporiser les tissus. La longueur d'onde détermine l'absorption par les chromophores et donc l'effet tissulaire. La maîtrise de ces paramètres (longueur d'onde, puissance, durée, focalisation, mode continu ou pulsé) permet de choisir et de régler le laser selon l'application médicale, en optimisant l'efficacité et la sécurité.",
+      "explications_par_proposition": {
+        "A": "Vrai : D'où une forte densité de puissance, exploitée pour couper ou vaporiser des tissus.",
+        "B": "Vrai : Propriété utile pour les gestes de haute précision.",
+        "C": "Vrai : La longueur d'onde du laser détermine son interaction avec les tissus.",
+        "D": "Faux : La lumière laser est cohérente (ondes en phase), contrairement à la lumière incohérente d'une source classique.",
+        "E": "Faux : La densité de puissance augmente lorsque le faisceau est focalisé sur une surface plus petite (puissance par unité de surface) : elle en dépend directement."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-067"
+      ],
+      "theme": "Propriétés physiques du rayonnement laser",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la densité de puissance est indépendante de la focalisation.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Bushberg JT, Seibert JA, Leidholdt EM, Boone JM, Abbey CK. The Essential Physics of Medical Imaging. 4e éd. Lippincott Williams & Wilkins ; 2021 [catalogue OUV-0179].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la radioactivité, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La radioactivité est la transformation spontanée de noyaux instables avec émission de rayonnement.",
+        "B": "La désintégration alpha émet un noyau d'hélium (2 protons, 2 neutrons).",
+        "C": "La désintégration bêta-moins correspond à la transformation d'un neutron en proton avec émission d'un électron.",
+        "D": "L'émission gamma est un rayonnement électromagnétique accompagnant souvent une désintégration.",
+        "E": "La radioactivité dépend fortement de la température et de la pression."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La radioactivité est la transformation spontanée de noyaux instables vers des états plus stables, avec émission de particules ou de rayonnement. Les principales transformations sont : alpha (émission d'un noyau d'hélium, Z diminue de 2, A de 4), bêta-moins (un neutron devient un proton avec émission d'un électron et d'un antineutrino, Z augmente de 1), bêta-plus (un proton devient un neutron avec émission d'un positon) et capture électronique, souvent suivies d'une émission gamma (désexcitation). Ce phénomène nucléaire est indépendant des conditions physico-chimiques (température, pression). Il obéit à une loi de décroissance exponentielle (période radioactive). Ces notions fondent les applications médicales (médecine nucléaire, radiothérapie) et la radioprotection.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle aboutit à un noyau plus stable.",
+        "B": "Vrai : Elle diminue le numéro atomique de 2 et le nombre de masse de 4.",
+        "C": "Vrai : Le numéro atomique augmente de 1, le nombre de masse est inchangé.",
+        "D": "Vrai : Elle correspond à la désexcitation du noyau.",
+        "E": "Faux : La radioactivité est un phénomène nucléaire spontané, indépendant des conditions physico-chimiques usuelles (température, pression, état chimique)."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-068"
+      ],
+      "theme": "Radioactivité : stabilité et transformations",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la radioactivité dépend de la température ou de l'état chimique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cherry SR, Sorenson JA, Phelps ME. Physics in Nuclear Medicine. 4e éd. Saunders / Elsevier ; 2012 [catalogue OUV-0180].",
+          "date": "2012"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la décroissance radioactive, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'activité d'une source radioactive décroît de façon exponentielle avec le temps.",
+        "B": "La période radioactive (demi-vie) est le temps au bout duquel l'activité est réduite de moitié.",
+        "C": "Après deux périodes, il reste environ un quart de l'activité initiale.",
+        "D": "L'activité se mesure en becquerels (désintégrations par seconde).",
+        "E": "La période radioactive dépend de la quantité initiale de noyaux."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La décroissance radioactive suit une loi exponentielle : le nombre de noyaux et l'activité diminuent selon A(t) = A0 e^(-λt). La période radioactive (demi-vie) T, temps de réduction de moitié, est reliée à la constante de désintégration par T = ln2/λ ; elle est caractéristique du radionucléide, indépendante de la quantité initiale et des conditions physico-chimiques. Après n périodes, il reste (1/2)^n de l'activité initiale. L'activité se mesure en becquerels (une désintégration par seconde ; ancienne unité : le curie). Ces lois sont essentielles en médecine nucléaire (choix des radiotraceurs selon leur période, calcul des activités à injecter, décroissance des déchets) et en radioprotection.",
+      "explications_par_proposition": {
+        "A": "Vrai : A(t) = A0 e^(-λt), où λ est la constante de désintégration.",
+        "B": "Vrai : Elle est liée à λ par T = ln2 / λ.",
+        "C": "Vrai : Après n périodes, il reste (1/2)^n de l'activité initiale.",
+        "D": "Vrai : L'ancienne unité était le curie.",
+        "E": "Faux : La période radioactive est une caractéristique propre au radionucléide, indépendante de la quantité initiale."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-068"
+      ],
+      "theme": "Loi de décroissance et période radioactive",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la période radioactive dépend de la quantité initiale de produit.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cherry SR, Sorenson JA, Phelps ME. Physics in Nuclear Medicine. 4e éd. Saunders / Elsevier ; 2012 [catalogue OUV-0180].",
+          "date": "2012"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5025",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les transformations radioactives, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Dans la désintégration bêta-plus, un proton se transforme en neutron avec émission d'un positon.",
+        "B": "La capture électronique aboutit, comme la désintégration bêta-plus, à la transformation d'un proton en neutron.",
+        "C": "Le rayonnement alpha est peu pénétrant et arrêté par une feuille de papier ou la peau.",
+        "D": "Le rayonnement gamma est très pénétrant et nécessite des écrans denses (plomb, béton).",
+        "E": "Le rayonnement bêta est plus pénétrant que le rayonnement gamma."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les principales transformations radioactives sont : alpha (noyau d'hélium, peu pénétrant, arrêté par du papier ou la peau, mais dangereux en contamination interne), bêta-moins (neutron devenant proton, émission d'un électron, pénétration intermédiaire), bêta-plus (proton devenant neutron, émission d'un positon, exploité en TEP) et capture électronique, souvent suivies d'émission gamma (rayonnement électromagnétique très pénétrant, nécessitant des écrans denses). L'ordre de pénétration est alpha < bêta < gamma, ce qui conditionne la radioprotection (nature des écrans) et l'utilisation médicale (émetteurs gamma pour l'imagerie, émetteurs de particules pour la thérapie). Ces notions physiques fondent les applications et la sécurité en médecine nucléaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le numéro atomique diminue de 1 ; ce mode est utilisé en TEP.",
+        "B": "Vrai : Un électron du cortège est capturé par le noyau.",
+        "C": "Vrai : Mais dangereux en cas de contamination interne.",
+        "D": "Vrai : Pour la radioprotection.",
+        "E": "Faux : Le rayonnement gamma est beaucoup plus pénétrant que le rayonnement bêta (particules arrêtées par quelques millimètres de matière) : l'ordre de pénétration est alpha < bêta < gamma."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-068"
+      ],
+      "theme": "Types de transformations radioactives",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le rayonnement bêta est plus pénétrant que le rayonnement gamma.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cherry SR, Sorenson JA, Phelps ME. Physics in Nuclear Medicine. 4e éd. Saunders / Elsevier ; 2012 [catalogue OUV-0180].",
+          "date": "2012"
+        },
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MNUC-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les applications médicales de la radioactivité, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La médecine nucléaire utilise des radiopharmaceutiques pour l'imagerie fonctionnelle (scintigraphie, TEP).",
+        "B": "La tomographie par émission de positons (TEP) utilise des émetteurs de positons.",
+        "C": "La radiothérapie interne vectorisée délivre une dose à une cible grâce à un vecteur radioactif.",
+        "D": "Le choix d'un radionucléide dépend notamment de sa période et du type de rayonnement émis.",
+        "E": "Les rayonnements ionisants utilisés en médecine nucléaire sont dénués de tout risque et ne nécessitent aucune radioprotection."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La radioactivité est à la base de la médecine nucléaire. En diagnostic, des radiopharmaceutiques émetteurs gamma (technétium 99m) ou de positons (fluor 18 pour la TEP) permettent une imagerie fonctionnelle et métabolique (scintigraphie osseuse, myocardique, thyroïdienne, TEP en oncologie). En thérapie, la radiothérapie interne vectorisée utilise des émetteurs de particules (iode 131 pour la thyroïde, autres radionucléides). Le choix du radionucléide dépend de sa période, du type et de l'énergie du rayonnement et de la biodistribution du vecteur. L'usage de rayonnements ionisants impose une radioprotection rigoureuse (justification, optimisation, limitation, protection du patient, du personnel et de l'entourage). Ces applications illustrent l'intérêt médical de la radioactivité.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le technétium 99m est très utilisé en scintigraphie.",
+        "B": "Vrai : Comme le fluor 18 (FDG) pour l'imagerie métabolique en oncologie.",
+        "C": "Vrai : Par exemple l'iode 131 dans le cancer thyroïdien.",
+        "D": "Vrai : Émetteurs gamma pour l'imagerie, émetteurs de particules pour la thérapie.",
+        "E": "Faux : Les rayonnements ionisants comportent des risques et imposent des mesures de radioprotection (justification, optimisation, protection du patient, du personnel et de l'entourage)."
+      },
+      "specialite": "MNUC",
+      "items_residanat": [
+        "RES-SF-068"
+      ],
+      "theme": "Applications médicales de la radioactivité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Nier les risques et la nécessité de radioprotection en médecine nucléaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cherry SR, Sorenson JA, Phelps ME. Physics in Nuclear Medicine. 4e éd. Saunders / Elsevier ; 2012 [catalogue OUV-0180].",
+          "date": "2012"
+        },
+        {
+          "reference": "Mettler FA, Guiberteau MJ. Essentials of Nuclear Medicine and Molecular Imaging. 7e éd. Elsevier ; 2019 [catalogue OUV-0683].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la vascularisation artérielle du membre supérieur, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'artère axillaire fait suite à l'artère subclavière et se continue par l'artère brachiale (humérale).",
+        "B": "L'artère brachiale se divise au pli du coude en artères radiale et ulnaire.",
+        "C": "Les artères radiale et ulnaire participent à la formation des arcades palmaires.",
+        "D": "Le pouls radial est perçu à la face antéro-latérale du poignet.",
+        "E": "L'artère ulnaire naît directement de l'artère axillaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le membre supérieur est vascularisé par un axe artériel principal : artère subclavière, puis axillaire (sous la clavicule et dans le creux axillaire), puis brachiale (humérale, au bras), qui se divise au pli du coude en artères radiale et ulnaire. Celles-ci parcourent l'avant-bras et s'anastomosent au niveau de la main en arcades palmaires superficielle et profonde, d'où naissent les artères digitales. Les pouls (axillaire, brachial, radial, ulnaire) sont des repères cliniques. Le drainage veineux comprend un réseau profond (satellite des artères) et superficiel (veines céphalique et basilique). La connaissance de cette anatomie est utile pour les ponctions, les abords vasculaires et la sémiologie ischémique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Au bord inférieur du muscle grand pectoral puis du muscle grand rond.",
+        "B": "Vrai : Qui vascularisent l'avant-bras.",
+        "C": "Vrai : Arcades palmaires superficielle et profonde, à l'origine de la vascularisation de la main.",
+        "D": "Vrai : Repère clinique classique.",
+        "E": "Faux : L'artère ulnaire naît de la division de l'artère brachiale au coude, non directement de l'artère axillaire."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-069"
+      ],
+      "theme": "Vascularisation artérielle du membre supérieur",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Faire naître l'artère ulnaire directement de l'artère axillaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Dalley AF, Agur AMR, Moore KL. Moore's Clinically Oriented Anatomy. 9e éd. Wolters Kluwer ; 2023 [catalogue OUV-0155].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la vascularisation artérielle du membre inférieur, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'artère fémorale fait suite à l'artère iliaque externe sous le ligament inguinal.",
+        "B": "L'artère fémorale se poursuit par l'artère poplitée, puis se divise en artères tibiales.",
+        "C": "Le pouls pédieux et le pouls tibial postérieur sont recherchés pour évaluer la perfusion distale.",
+        "D": "L'artère fémorale donne l'artère fémorale profonde, importante pour la vascularisation de la cuisse.",
+        "E": "L'artère poplitée naît directement de l'artère iliaque interne."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le membre inférieur est vascularisé par la continuité artère iliaque externe, artère fémorale (sous le ligament inguinal, repère de ponction), qui donne l'artère fémorale profonde (cuisse, collatéralité) et se poursuit par l'artère poplitée (derrière le genou), laquelle se divise en artères tibiale antérieure (puis pédieuse) et tibiale postérieure (et fibulaire). Les pouls fémoral, poplité, pédieux et tibial postérieur évaluent la perfusion. Le drainage veineux comprend les réseaux profond et superficiel (veines grande et petite saphènes), avec des valvules. Cette anatomie est fondamentale pour l'examen vasculaire, le diagnostic de l'artériopathie oblitérante et de la thrombose veineuse, et les gestes d'abord vasculaire.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elle est un repère pour les ponctions et abords vasculaires.",
+        "B": "Vrai : Dans la région poplitée.",
+        "C": "Vrai : Dans le cadre de l'examen vasculaire des membres inférieurs.",
+        "D": "Vrai : Et pour la circulation collatérale.",
+        "E": "Faux : L'artère poplitée fait suite à l'artère fémorale (via le canal des adducteurs), elle ne naît pas directement de l'artère iliaque interne."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-069"
+      ],
+      "theme": "Vascularisation artérielle du membre inférieur",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Faire naître l'artère poplitée de l'artère iliaque interne.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Dalley AF, Agur AMR, Moore KL. Moore's Clinically Oriented Anatomy. 9e éd. Wolters Kluwer ; 2023 [catalogue OUV-0155].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'innervation du membre supérieur, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le plexus brachial est formé par les rameaux antérieurs des nerfs C5 à T1.",
+        "B": "Le nerf médian assure notamment la flexion des doigts et la sensibilité de la face palmaire des trois premiers doigts.",
+        "C": "Le nerf radial assure l'extension du poignet et des doigts.",
+        "D": "Le nerf ulnaire innerve la plupart des muscles intrinsèques de la main.",
+        "E": "Le nerf fémoral est un nerf du membre supérieur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le membre supérieur est innervé par le plexus brachial (rameaux antérieurs de C5 à T1), d'où naissent les nerfs principaux : musculo-cutané (flexion du coude), médian (flexion des doigts, pronation, sensibilité palmaire des trois premiers doigts ; syndrome du canal carpien), ulnaire (muscles intrinsèques de la main ; griffe ulnaire), radial (extension du poignet et des doigts ; main tombante) et axillaire (deltoïde). La connaissance des territoires moteurs et sensitifs de ces nerfs permet de localiser les atteintes (traumatismes, compressions) et d'interpréter la sémiologie. Elle se distingue de l'innervation du membre inférieur, assurée par les plexus lombaire (nerf fémoral, obturateur) et sacré (nerf sciatique).",
+      "explications_par_proposition": {
+        "A": "Vrai : Il donne les principaux nerfs du membre supérieur.",
+        "B": "Vrai : Sa compression au poignet réalise le syndrome du canal carpien.",
+        "C": "Vrai : Sa lésion entraîne une main tombante.",
+        "D": "Vrai : Sa lésion entraîne une griffe ulnaire.",
+        "E": "Faux : Le nerf fémoral est un nerf du membre inférieur (issu du plexus lombaire), non du membre supérieur."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-069"
+      ],
+      "theme": "Innervation du membre supérieur",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Rattacher le nerf fémoral au membre supérieur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Dalley AF, Agur AMR, Moore KL. Moore's Clinically Oriented Anatomy. 9e éd. Wolters Kluwer ; 2023 [catalogue OUV-0155].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'innervation du membre inférieur, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le nerf sciatique est le plus volumineux nerf de l'organisme.",
+        "B": "Le nerf fémoral assure l'extension du genou (muscle quadriceps) et la sensibilité de la face antérieure de la cuisse.",
+        "C": "Une atteinte du nerf fibulaire commun (sciatique poplité externe) entraîne un déficit de la dorsiflexion du pied (steppage).",
+        "D": "Le nerf tibial innerve les muscles de la loge postérieure de la jambe (flexion plantaire).",
+        "E": "Le membre inférieur est innervé par le plexus brachial."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le membre inférieur est innervé par les plexus lombaire (nerf fémoral : extension du genou, sensibilité antérieure de la cuisse ; nerf obturateur : adducteurs) et sacré (nerf sciatique, le plus volumineux, se divisant en nerf tibial et nerf fibulaire commun). Le nerf tibial commande la flexion plantaire et la sensibilité plantaire ; le nerf fibulaire commun la dorsiflexion et l'éversion (sa lésion donne un steppage). La connaissance de ces territoires moteurs et sensitifs permet de localiser les atteintes (hernies discales, compressions, traumatismes) et d'interpréter la sémiologie radiculaire et tronculaire. Elle complète l'anatomie vasculaire pour l'examen du membre inférieur.",
+      "explications_par_proposition": {
+        "A": "Vrai : Il se divise en nerfs tibial et fibulaire commun.",
+        "B": "Vrai : Il est issu du plexus lombaire.",
+        "C": "Vrai : Par paralysie des muscles de la loge antéro-latérale de la jambe.",
+        "D": "Vrai : Et la sensibilité plantaire.",
+        "E": "Faux : Le membre inférieur est innervé par les plexus lombaire et sacré, non par le plexus brachial (qui innerve le membre supérieur)."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-069"
+      ],
+      "theme": "Innervation du membre inférieur",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Rattacher l'innervation du membre inférieur au plexus brachial.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Dalley AF, Agur AMR, Moore KL. Moore's Clinically Oriented Anatomy. 9e éd. Wolters Kluwer ; 2023 [catalogue OUV-0155].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5026",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la mesure des volumes des compartiments liquidiens par la méthode de dilution, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le volume d'un compartiment est estimé par V = quantité de traceur injectée / concentration à l'équilibre.",
+        "B": "Le traceur utilisé doit se répartir uniquement dans le compartiment à mesurer.",
+        "C": "L'eau totale peut être mesurée par un traceur diffusant dans tout l'organisme (eau marquée).",
+        "D": "Le volume plasmatique peut être estimé par un traceur restant dans le compartiment vasculaire.",
+        "E": "Le volume d'un compartiment est proportionnel à la concentration du traceur à l'équilibre."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La mesure des volumes liquidiens repose sur le principe de dilution : on injecte une quantité connue d'un traceur qui se répartit dans le compartiment à mesurer, et l'on mesure sa concentration à l'équilibre ; le volume est V = quantité injectée / concentration (corrigée des pertes). Le choix du traceur détermine le compartiment mesuré : eau marquée (eau totale), traceurs restant dans le secteur extracellulaire (certains ions ou sucres), albumine ou hématies marquées (volume plasmatique ou sanguin). Les volumes non directement mesurables sont obtenus par différence (par exemple, intracellulaire = eau totale − extracellulaire). Cette approche biophysique, fondamentale, permet d'estimer les compartiments et d'étudier les troubles de la répartition de l'eau.",
+      "explications_par_proposition": {
+        "A": "Vrai : Après correction des pertes éventuelles du traceur.",
+        "B": "Vrai : Sa distribution sélective conditionne la validité de la mesure.",
+        "C": "Vrai : Comme l'eau deutérée ou tritiée.",
+        "D": "Vrai : Comme l'albumine marquée.",
+        "E": "Faux : Le volume est inversement proportionnel à la concentration (V = quantité / concentration) : plus la concentration à l'équilibre est faible, plus le volume de distribution est grand."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-070"
+      ],
+      "theme": "Mesure des volumes des compartiments liquidiens",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le volume est proportionnel (et non inversement proportionnel) à la concentration du traceur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5072",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les compartiments liquidiens de l'organisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le compartiment intracellulaire représente environ les deux tiers de l'eau totale.",
+        "B": "Le compartiment extracellulaire comprend le plasma et le liquide interstitiel (et les liquides transcellulaires).",
+        "C": "Le sodium est le principal cation extracellulaire et le potassium le principal cation intracellulaire.",
+        "D": "Le plasma représente la plus grande partie du secteur extracellulaire.",
+        "E": "Les compositions ioniques des secteurs intracellulaire et extracellulaire sont identiques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'eau corporelle (environ 60 % du poids chez l'homme) se répartit entre le compartiment intracellulaire (environ deux tiers de l'eau totale, 40 % du poids) et le compartiment extracellulaire (un tiers, 20 % du poids), lui-même divisé en liquide interstitiel (la plus grande part) et plasma (environ un quart), auxquels s'ajoutent les liquides transcellulaires. Les compositions ioniques diffèrent : sodium et chlore extracellulaires, potassium, magnésium, phosphates et protéines surtout intracellulaires, gradients entretenus par la pompe Na+/K+-ATPase. L'osmolalité est équilibrée entre les compartiments. Ces notions, mesurables par dilution, sont indispensables pour comprendre les échanges hydro-électrolytiques et les troubles de la répartition de l'eau.",
+      "explications_par_proposition": {
+        "A": "Vrai : Soit environ 40 % du poids corporel.",
+        "B": "Vrai : Il représente environ un tiers de l'eau totale.",
+        "C": "Vrai : Répartition maintenue par la pompe Na+/K+-ATPase.",
+        "D": "Faux : Le liquide interstitiel représente la plus grande part du secteur extracellulaire ; le plasma n'en représente qu'environ un quart.",
+        "E": "Faux : Les compositions diffèrent nettement (Na+ extracellulaire, K+ intracellulaire, protéines surtout intracellulaires et plasmatiques) : elles ne sont pas identiques."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-070"
+      ],
+      "theme": "Répartition et composition des compartiments",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le plasma constitue la plus grande part du secteur extracellulaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5073",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les troubles de la répartition de l'eau entre compartiments, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une hyponatrémie hypotonique s'accompagne d'un transfert d'eau vers le secteur intracellulaire.",
+        "B": "Une hypernatrémie entraîne une déshydratation intracellulaire.",
+        "C": "L'état d'hydratation du secteur extracellulaire dépend essentiellement du capital sodé.",
+        "D": "Une perfusion de soluté glucosé isotonique, une fois le glucose métabolisé, apporte de l'eau libre distribuée à tous les compartiments.",
+        "E": "La natrémie reflète directement le capital sodé de l'organisme."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les troubles de l'eau et du sodium se comprennent en séparant deux paramètres : la natrémie (reflet de l'osmolalité et de l'hydratation intracellulaire : une hyponatrémie hypotonique gonfle les cellules, une hypernatrémie les déshydrate) et le capital sodé (qui détermine le volume extracellulaire : déshydratation ou hyperhydratation extracellulaire). La natrémie ne mesure pas le capital sodé total mais un rapport sodium/eau. La nature des solutés perfusés détermine leur répartition : le soluté salé isotonique reste extracellulaire, le glucosé isotonique apporte de l'eau libre après métabolisation du glucose. Ce raisonnement en deux axes (osmolalité et volémie) est la base de l'analyse des troubles hydro-électrolytiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : Avec risque d'œdème cellulaire, notamment cérébral.",
+        "B": "Vrai : L'eau sort des cellules vers le secteur extracellulaire hypertonique.",
+        "C": "Vrai : Une perte de sodium entraîne une déshydratation extracellulaire, une rétention une hyperhydratation extracellulaire.",
+        "D": "Vrai : Contrairement au soluté salé isotonique, qui reste extracellulaire.",
+        "E": "Faux : La natrémie reflète le rapport entre le sodium et l'eau (état de l'hydratation intracellulaire), non le capital sodé total : une hyponatrémie peut coexister avec un capital sodé normal, bas ou élevé."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-070"
+      ],
+      "theme": "Troubles de la répartition de l'eau",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Confondre natrémie (rapport sodium/eau) et capital sodé total.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }

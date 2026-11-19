@@ -53,7 +53,7 @@ sources:
     url: "https://pubmed.ncbi.nlm.nih.gov/31839434/"
     verifiee: true
   - id: S6
-    reference: "Kulasekararaj A, Cavenagh J, Dokal I, et al. Guidelines for the diagnosis and management of adult aplastic anaemia: a British Society for Haematology Guideline. Br J Haematol. 2024;204(3):784-804."
+    reference: "Kulasekararaj A, et al. Guidelines for the diagnosis and management of adult aplastic anaemia: a British Society for Haematology Guideline. Br J Haematol. 2024;204(3):784-804."
     organisme: BSH
     annee: 2024
     type: recommandation

@@ -6,11 +6,17 @@ sous_specialite: "Urgences gynécologiques — pathologie du premier trimestre"
 items_residanat: [RES-CHI-057]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-07 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 0
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0001.md
 sources:
   - id: S1
     reference: "Kirk E, Ankum P, Jakab A, et al. (ESHRE working group on ectopic pregnancy). Terminology for describing normally sited and ectopic pregnancies on ultrasound: ESHRE recommendations for good practice. Hum Reprod Open. 2020;2020(4):hoaa055."
@@ -29,7 +35,7 @@ sources:
     url: ""
     verifiee: true
   - id: S3
-    reference: "National Institute for Health and Care Excellence. Ectopic pregnancy and miscarriage: diagnosis and initial management. NICE guideline NG126. 2019 (mises à jour ultérieures, dont 2021 et 2023)."
+    reference: "National Institute for Health and Care Excellence. Ectopic pregnancy and miscarriage: diagnosis and initial management. NICE guideline NG126. 2019 (mises à jour ultérieures, dont 2021, 2023 et juin 2026 — nouvelles recommandations sur l'immunoglobuline anti-D)."
     organisme: NICE
     annee: 2019
     type: recommandation
@@ -53,8 +59,8 @@ sources:
     url: ""
     verifiee: true
   - id: S6
-    reference: "Haute Autorité de santé. Recommandation temporaire d'utilisation (RTU) du méthotrexate dans le traitement médical de la grossesse extra-utérine. 2016."
-    organisme: HAS
+    reference: "ANSM. Recommandation temporaire d'utilisation (RTU) du méthotrexate injectable dans le traitement médical de la grossesse extra-utérine (protocole de mars 2016, renouvelé en juillet 2020), relayée depuis mai 2022 par un cadre de prescription compassionnelle (CPC) de l'ANSM (renouvelé en 2023) ; avis de la HAS sur la RTU (2016)."
+    organisme: "ANSM / HAS"
     annee: 2016
     type: texte_officiel
     doi: ""
@@ -119,7 +125,7 @@ mots_cles: [grossesse extra-utérine, GEU, hCG, échographie endovaginale, méth
 ## 1. Définitions et généralités
 
 - **Grossesse extra-utérine (GEU)** : implantation et développement de l'œuf **en dehors de la cavité utérine**. Le terme anglo-saxon *ectopic pregnancy* (grossesse ectopique) est plus large : il inclut des implantations **utérines** anormales (col, cicatrice de césarienne, myomètre, corne rudimentaire).
-- **Terminologie ESHRE 2020** : le groupe de travail propose de classer les grossesses ectopiques en **utérines** et **extra-utérines** et d'abandonner la dichotomie « tubaire / non tubaire » ; d'appeler **« GEU vivante »** (*live ectopic*) une GEU avec activité cardiaque embryonnaire ; de ne **pas** employer le terme « fausse couche » pour une GEU ; d'abandonner les termes « grossesse angulaire » et « GEU chronique » ; et d'appeler **« GEU résiduelle »** une masse ectopique persistante à l'échographie alors que le test de grossesse est devenu négatif [S1]. Ces 17 recommandations visent à réduire les erreurs diagnostiques et thérapeutiques ; une mise à jour est en cours [S1].
+- **Terminologie ESHRE 2020** : le groupe de travail propose de classer les grossesses ectopiques en **utérines** et **extra-utérines** et d'abandonner la dichotomie « tubaire / non tubaire » ; d'appeler **« GEU vivante »** (*live ectopic*) une GEU avec activité cardiaque embryonnaire ; de ne **pas** employer le terme « fausse couche » pour une GEU ; d'abandonner les termes « grossesse angulaire » et « GEU chronique » ; et d'appeler **« GEU résiduelle »** une masse ectopique persistante à l'échographie alors que le test de grossesse est devenu négatif [S1]. Ces 17 recommandations visent à réduire les erreurs diagnostiques et thérapeutiques [S1] ; une mise à jour a été annoncée par l'ESHRE [À VÉRIFIER].
 - **Grossesse de localisation indéterminée (GLI)** (*pregnancy of unknown location*) : test de grossesse positif sans grossesse visible, ni intra- ni extra-utérine, à l'échographie endovaginale. Ce n'est pas un diagnostic mais un **état transitoire** : l'évolution se fera vers une grossesse intra-utérine (GIU) évolutive, une GIU arrêtée (fausse couche), une GEU, ou une résolution spontanée.
 - **Grossesse hétérotopique** : coexistence d'une GIU et d'une GEU ; rare en conception spontanée, nettement plus fréquente après **assistance médicale à la procréation** (AMP).
 - **Trophoblaste persistant** : persistance de tissu trophoblastique actif (hCG stagnantes ou ascendantes) après un traitement conservateur (salpingotomie surtout).
@@ -184,7 +190,7 @@ Aucune donnée nationale publiée sur l'incidence de la GEU n'a pu être vérifi
 
 ### 4.3 L'hCG
 - Sécrétée par le syncytiotrophoblaste ; détectable dans le sang dès environ 8-10 jours après la fécondation.
-- Dans une GIU évolutive précoce, l'hCG **augmente** de façon prévisible ; mais l'augmentation **minimale** attendue sur 48 h dépend de la valeur initiale (par exemple, d'environ 49 % pour une valeur initiale < 1 500 UI/L à environ 33 % au-delà de 3 000 UI/L, selon les données reprises par l'ACOG) [S2, S10 — À VÉRIFIER].
+- Dans une GIU évolutive précoce, l'hCG **augmente** de façon prévisible ; mais l'augmentation **minimale** attendue sur 48 h dépend de la valeur initiale (49 % pour une valeur initiale < 1 500 UI/L, 40 % entre 1 500 et 3 000 UI/L, 33 % au-delà de 3 000 UI/L, selon les données de Barnhart reprises par l'ACOG) [S2 ; S10 non revérifiée].
 - Une GEU peut présenter **n'importe quelle cinétique** : ascension lente, plateau, décroissance lente, voire ascension « normale » dans une minorité de cas.
 
 ## 5. Physiopathologie
@@ -419,7 +425,7 @@ Douleur brutale, syncope, **choc hémorragique** (tachycardie, hypotension, extr
 
 **Mécanisme** : antagoniste de l'acide folique, **inhibiteur de la dihydrofolate réductase** ; il bloque la synthèse de l'ADN des cellules à division rapide (trophoblaste).
 
-**Statut réglementaire** : en France, usage **hors AMM** encadré par une **recommandation temporaire d'utilisation (RTU)** de la HAS (2016) : **1 mg/kg en IM**, injection unique [S6] ; le rapport du CNGOF retient une injection IM unique de **1 mg/kg ou 50 mg/m²** (grade A), renouvelable selon la décroissance de l'hCG [S5]. En Algérie, le statut réglementaire de cette indication doit être vérifié auprès des autorités et des protocoles hospitaliers [À VÉRIFIER].
+**Statut réglementaire** : en France, usage **hors AMM** encadré d'abord par une **recommandation temporaire d'utilisation (RTU)** établie par l'**ANSM** (protocole de 2016, avis de la HAS), puis, depuis 2022, par un **cadre de prescription compassionnelle (CPC)** de l'ANSM : **1 mg/kg en IM**, injection unique, une seconde injection pouvant être envisagée [S6] ; le rapport du CNGOF retient une injection IM unique de **1 mg/kg ou 50 mg/m²** (grade A), renouvelable selon la décroissance de l'hCG [S5]. En Algérie, le statut réglementaire de cette indication doit être vérifié auprès des autorités et des protocoles hospitaliers [À VÉRIFIER].
 
 **Critères d'éligibilité** (synthèse) [S2, S3, S5] :
 - hémodynamique **stable**, GEU **non rompue**, pas d'hémopéritoine significatif ;
@@ -438,8 +444,8 @@ Douleur brutale, syncope, **choc hémorragique** (tachycardie, hypotension, extr
 | Protocole | Schéma | Surveillance et conduite |
 |---|---|---|
 | **Monodose** (Stovall, ACOG) | **MTX 50 mg/m² IM** à J1 [S2, S9] ; en France **1 mg/kg IM** [S5, S6] | hCG à **J4 et J7** : si baisse **≥ 15 % entre J4 et J7** → dosage hebdomadaire jusqu'à négativation ; si baisse < 15 % → **2e dose** et nouveaux dosages [S2] |
-| **Deux doses** (ACOG) | 50 mg/m² IM à **J0 et J4** | hCG à J4 et J7 ; si baisse < 15 % entre J4 et J7 → 3e dose à J7 ; etc. ; échec après 4 doses → chirurgie [S2 — À VÉRIFIER] |
-| **Multidoses** (ACOG) | MTX **1 mg/kg IM à J1, J3, J5, J7** alternant avec **acide folinique 0,1 mg/kg IM à J2, J4, J6, J8** | hCG les jours de MTX ; arrêt dès une baisse de 15 % entre deux dosages consécutifs ; jusqu'à 4 doses [S2 — À VÉRIFIER] |
+| **Deux doses** (ACOG) | 50 mg/m² IM à **J0 et J4** | hCG à J4 et J7 ; si baisse < 15 % entre J4 et J7 → 3e dose à J7 et hCG à J11 ; si baisse < 15 % entre J7 et J11 → 4e dose à J11 et hCG à J14 ; échec persistant → chirurgie [S2] |
+| **Multidoses** (ACOG) | MTX **1 mg/kg IM à J1, J3, J5, J7** alternant avec **acide folinique 0,1 mg/kg IM à J2, J4, J6, J8** | hCG les jours de MTX ; arrêt dès une baisse ≥ 15 % entre deux dosages consécutifs ; jusqu'à 4 doses [S2] |
 
 > Les modalités françaises de surveillance (jours de dosage, critères de réinjection) varient selon les protocoles hospitaliers [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; le CNGOF précise que le MTX n'est **pas associé** à la mifépristone ni au chlorure de potassium en routine [S5].
 
@@ -447,7 +453,7 @@ Douleur brutale, syncope, **choc hémorragique** (tachycardie, hypotension, extr
 
 **Effets indésirables** : nausées, stomatite, conjonctivite, cytolyse transitoire, photosensibilité ; rarement alopécie, pneumopathie, aplasie. **Douleur « de séparation »** fréquente entre J3 et J7 (avortement tubaire) : à distinguer d'une rupture (examen, échographie, hémodynamique).
 
-**Consignes à la patiente** : éviter l'**alcool**, les **AINS** (diminution de l'élimination rénale du MTX), les **suppléments d'acide folique**, l'**exposition solaire** ; éviter les rapports sexuels et les examens pelviens vigoureux pendant la surveillance ; **contraception efficace** et délai avant une nouvelle conception d'au moins **3 mois** selon les recommandations britanniques [S3 — À VÉRIFIER] ; consulter en urgence en cas de douleur intense, malaise ou saignement abondant.
+**Consignes à la patiente** : éviter l'**alcool**, les **AINS** (diminution de l'élimination rénale du MTX), les **suppléments d'acide folique**, l'**exposition solaire** ; éviter les rapports sexuels et les examens pelviens vigoureux pendant la surveillance ; **contraception efficace** et délai avant une nouvelle conception d'au moins **3 mois** selon les recommandations britanniques (RCOG) [S4 — À VÉRIFIER] ; consulter en urgence en cas de douleur intense, malaise ou saignement abondant.
 
 **Efficacité** : la majorité des GEU sélectionnées sont résolues par une ou deux injections ; les taux de succès sont plus faibles lorsque l'hCG initiale est élevée [données chiffrées À VÉRIFIER].
 
@@ -473,10 +479,11 @@ Douleur brutale, syncope, **choc hémorragique** (tachycardie, hypotension, extr
 - souhait de la patiente (dont stérilisation tubaire concomitante).
 
 #### 13.2.4 Mesures associées
-- **Prévention de l'allo-immunisation Rhésus** :
-  - l'**ACOG** recommande l'immunoglobuline anti-D chez les femmes Rhésus négatif ayant une GEU [S2] ;
-  - le **NICE** recommande l'anti-D (250 UI) chez les femmes Rhésus négatif traitées **chirurgicalement**, mais **pas** en cas de traitement **exclusivement médical** [S3 — À VÉRIFIER] ;
-  - en France, la prophylaxie anti-D est habituellement administrée dans les 72 h chez les femmes Rhésus négatif [À VÉRIFIER — protocole local].
+- **Prévention de l'allo-immunisation Rhésus** (positions **divergentes et en évolution**) :
+  - l'**ACOG** (2018) recommande l'immunoglobuline anti-D chez les femmes Rhésus négatif ayant une GEU [S2] ;
+  - le **NICE** (NG126, mise à jour de **juin 2026**) ne propose **plus** d'anti-D pour une GEU ou une fausse couche **jusqu'à 11 SA + 6 j**, y compris en cas de traitement chirurgical ; entre 12 SA et 12 SA + 6 j, une prophylaxie d'au moins **250 UI (50 µg)** est envisagée en cas de traitement médical ou chirurgical [S3 — formulation finale À VÉRIFIER sur le texte NICE] ; la recommandation antérieure (250 UI en cas de traitement chirurgical, pas en cas de traitement exclusivement médical) est **remplacée** ;
+  - en **France**, le CNGOF a révisé ses recommandations du premier trimestre (pas d'anti-D systématique avant 12 SA en cas d'IVG, de fausse couche ou de métrorragies d'une grossesse évolutive) et juge les données **insuffisantes** pour trancher dans la GEU [référence et année exactes À VÉRIFIER] ;
+  - en pratique : suivre le **protocole national ou local** ; lorsque l'anti-D est administrée, elle l'est dans les **72 h**, à la dose prévue par le protocole et le RCP [POSOLOGIE À VÉRIFIER — protocole local / RCP].
 - **Réanimation** des formes rompues : deux voies veineuses, remplissage, transfusion selon les pertes, chirurgie immédiate.
 - **Soutien psychologique**, information sur la fertilité et la contraception.
 
@@ -503,7 +510,7 @@ Douleur brutale, syncope, **choc hémorragique** (tachycardie, hypotension, extr
 
 | Traitement | Surveillance |
 |---|---|
-| **Expectative** | hCG à J2, J4, J7 puis hebdomadaire jusqu'à négativation (< 5 UI/L ou test urinaire négatif selon les protocoles) ; consignes de reconsultation en urgence [S3] |
+| **Expectative** | hCG à J2, J4, J7 puis hebdomadaire jusqu'à négativation (< 20 UI/L selon le NICE ; < 5 UI/L ou test urinaire négatif selon d'autres protocoles) ; consignes de reconsultation en urgence [S3] |
 | **Méthotrexate** | hCG à J4 et J7 (protocole monodose) puis hebdomadaire jusqu'à négativation ; NFS, créatinine, transaminases selon le protocole ; clinique (douleur de séparation vs rupture) [S2] |
 | **Salpingotomie** | hCG à J7 puis hebdomadaire jusqu'à négativation (dépistage du trophoblaste persistant) [S3] |
 | **Salpingectomie** | Contrôle clinique ; un dosage d'hCG de contrôle est souvent réalisé pour s'assurer de la négativation (pratique variable) [À VÉRIFIER] |
@@ -590,11 +597,11 @@ GEU TUBAIRE
 Le diagnostic de GEU est ici **probable** mais non certain (pas de sac embryonné extra-utérin). L'hCG (2 400 UI/L) est au-dessus de la zone classique de 1 500-2 000 UI/L mais **en dessous** de la valeur haute citée par l'ACOG (3 500 UI/L) [S2]. Chez une femme qui **désire** cette grossesse, un **contrôle de l'hCG à 48 h** et une échographie de contrôle sont prudents, si la patiente est stable, asymptomatique au repos et joignable, afin d'exclure une GIU débutante viable avant d'administrer le méthotrexate (tératogène). À 48 h : hCG **2 650 UI/L** (+10 %, ascension très insuffisante), utérus toujours vide, masse inchangée : le diagnostic de **grossesse non évolutive ectopique** est retenu.
 
 **3. Quel traitement proposez-vous ?**
-La patiente est **stable**, la masse mesure **< 35 mm**, il n'y a **pas d'activité cardiaque**, l'hCG est comprise entre **1 500 et 5 000 UI/L**, la douleur est modérée, le bilan préthérapeutique est normal et elle est capable d'assurer la surveillance : selon le NICE, on peut proposer un **choix éclairé entre méthotrexate et chirurgie** [S3]. Après information, elle choisit le traitement médical : **méthotrexate en injection IM unique** (1 mg/kg selon la RTU française, ou 50 mg/m² selon le protocole de Stovall/ACOG) [S2, S5, S6].
+La patiente est **stable**, la masse mesure **< 35 mm**, il n'y a **pas d'activité cardiaque**, l'hCG est comprise entre **1 500 et 5 000 UI/L**, la douleur est modérée, le bilan préthérapeutique est normal et elle est capable d'assurer la surveillance : selon le NICE, on peut proposer un **choix éclairé entre méthotrexate et chirurgie** [S3]. Après information, elle choisit le traitement médical : **méthotrexate en injection IM unique** (1 mg/kg selon le protocole français [RTU puis CPC de l'ANSM], ou 50 mg/m² selon le protocole de Stovall/ACOG) [S2, S5, S6].
 
 **4. Quelles mesures associer ?**
-- **Prophylaxie anti-D** : elle est Rhésus négatif ; l'ACOG recommande l'anti-D, le NICE ne la recommande pas en cas de traitement exclusivement médical : suivre le protocole local [S2, S3 — divergence].
-- **Consignes** : pas d'AINS, pas d'alcool, pas d'acide folique, éviter le soleil, abstinence sexuelle pendant la surveillance, contraception efficace et délai avant conception d'au moins 3 mois [S3 — À VÉRIFIER].
+- **Prophylaxie anti-D** : elle est Rhésus négatif, à environ 6 SA ; l'ACOG recommande l'anti-D, alors que le NICE (2026) ne la propose plus avant 12 SA : suivre le protocole national ou local [S2, S3 — divergence].
+- **Consignes** : pas d'AINS, pas d'alcool, pas d'acide folique, éviter le soleil, abstinence sexuelle pendant la surveillance, contraception efficace et délai avant conception d'au moins 3 mois (RCOG) [S4 — À VÉRIFIER].
 - **Signes d'alerte** : douleur intense, malaise, scapulalgie, saignement abondant → urgences.
 - **Arrêt du tabac**.
 
@@ -624,9 +631,9 @@ Une **douleur de séparation** est fréquente entre J3 et J7 après MTX ; mais i
 8. Signe échographique de certitude : sac extra-utérin avec vésicule vitelline ou embryon ; signe le plus fréquent : **masse latéro-utérine** distincte de l'ovaire.
 9. **Instabilité = chirurgie** immédiate.
 10. **Expectative** : hCG ≤ 1 000-1 500 UI/L décroissantes, asymptomatique, masse < 35 mm [S3, S4].
-11. **Méthotrexate** : 50 mg/m² (ACOG) ou 1 mg/kg (France, RTU HAS) IM ; hCG **J4-J7**, succès si baisse ≥ 15 % ; contre-indiqué si GIU, rupture, instabilité, allaitement, insuffisance rénale/hépatique, cytopénies [S2, S5, S6].
+11. **Méthotrexate** : 50 mg/m² (ACOG) ou 1 mg/kg (France, RTU puis CPC de l'ANSM) IM ; hCG **J4-J7**, succès si baisse ≥ 15 % ; contre-indiqué si GIU, rupture, instabilité, allaitement, insuffisance rénale/hépatique, cytopénies [S2, S5, S6].
 12. **Chirurgie** : cœlioscopie ; **salpingectomie** si trompe controlatérale saine (ESEP : fertilité équivalente) ; salpingotomie si trompe controlatérale pathologique, avec **surveillance de l'hCG** (trophoblaste persistant) [S3, S7].
-13. **Anti-D** chez les femmes Rhésus négatif (modalités variables selon les recommandations) [S2, S3].
+13. **Anti-D** chez les femmes Rhésus négatif : recommandée par l'ACOG ; plus proposée avant 12 SA par le NICE (2026) ; suivre le protocole local [S2, S3].
 14. Grossesse suivante : **échographie précoce**.
 
 ## 19. Pièges classiques à l'examen
@@ -744,7 +751,7 @@ Une **douleur de séparation** est fréquente entre J3 et J7 après MTX ; mais i
 
 **QCM 7** — Réponse(s) : **A, B, C, D**. Contre-indications absolues (ACOG) : GIU, instabilité, rupture, allaitement, insuffisance rénale ou hépatique, cytopénies, immunodéficience, maladie pulmonaire active, ulcère évolutif, hypersensibilité, impossibilité de surveillance. La situation E est au contraire une bonne indication (voire une expectative). *Piège :* Oublier l'insuffisance rénale et l'allaitement parmi les contre-indications.
 
-**QCM 8** — Réponse(s) : **A, B, C**. Protocole monodose : MTX 50 mg/m² (ACOG) ou 1 mg/kg (HAS 2016) IM ; hCG J4 et J7 ; baisse ≥ 15 % entre J4 et J7 = succès, puis suivi hebdomadaire jusqu'à négativation ; sinon 2e dose. Une ascension initiale à J4 est fréquente. L'acide folique antagonise le MTX : à éviter. *Piège :* Interpréter l'ascension de l'hCG à J4 comme un échec.
+**QCM 8** — Réponse(s) : **A, B, C**. Protocole monodose : MTX 50 mg/m² (ACOG) ou 1 mg/kg (RTU française de l'ANSM, 2016) IM ; hCG J4 et J7 ; baisse ≥ 15 % entre J4 et J7 = succès, puis suivi hebdomadaire jusqu'à négativation ; sinon 2e dose. Une ascension initiale à J4 est fréquente. L'acide folique antagonise le MTX : à éviter. *Piège :* Interpréter l'ascension de l'hCG à J4 comme un échec.
 
 **QCM 9** — Réponse(s) : **A, B, C, E**. ESEP : grossesses évolutives 60,7 % (salpingotomie) vs 56,2 % (salpingectomie), NS ; récidive 8 % vs 5 % ; 20 % de conversions. La salpingotomie impose une surveillance de l'hCG jusqu'à négativation (trophoblaste persistant). Salpingectomie si trompe controlatérale saine ; salpingotomie si trompe controlatérale pathologique et désir de grossesse. *Piège :* Penser que conserver la trompe améliore toujours la fertilité.
 
@@ -755,25 +762,27 @@ Une **douleur de séparation** est fréquente entre J3 et J7 après MTX ; mais i
 | Thème | Position A | Position B | Commentaire |
 |---|---|---|---|
 | **Zone de discrimination** | Pratique classique : 1 500-2 000 UI/L | ACOG 2018 : jusqu'à 3 500 UI/L pour éviter d'interrompre une GIU viable [S2] | Ne jamais décider sur ce seul critère |
-| **Protocole de MTX** | ACOG : 50 mg/m² IM (monodose, deux doses, multidoses) [S2] | France : 1 mg/kg IM (RTU HAS 2016) ; CNGOF : 1 mg/kg ou 50 mg/m² [S5, S6] | Pharmacologiquement, aucune donnée ne permet de trancher entre 1 mg/kg et 50 mg/m² selon le CNGOF [S5] |
+| **Protocole de MTX** | ACOG : 50 mg/m² IM (monodose, deux doses, multidoses) [S2] | France : 1 mg/kg IM (RTU de l'ANSM 2016, puis CPC depuis 2022) ; CNGOF : 1 mg/kg ou 50 mg/m² [S5, S6] | Pharmacologiquement, aucune donnée ne permet de trancher entre 1 mg/kg et 50 mg/m² selon le CNGOF [S5] |
 | **Seuils d'hCG pour le MTX** | NICE : 1re intention < 1 500 UI/L ; choix 1 500-5 000 UI/L [S3] | ACOG : pas de seuil absolu, hCG élevée = contre-indication relative (taux d'échec plus élevés au-delà de 5 000 UI/L) [S2] | |
 | **Expectative** | NICE : recommandée si hCG ≤ 1 000 UI/L ; conditionnelle 1 000-1 500 [S3] | RCOG 2016 : option si hCG < 1 500 UI/L décroissante [S4] ; CNGOF : alternative au MTX pour les GEU peu actives asymptomatiques [À VÉRIFIER] | |
-| **Anti-D** | ACOG : pour toute femme Rhésus négatif avec GEU [S2] | NICE : seulement en cas de traitement chirurgical, pas pour un traitement médical exclusif [S3 — À VÉRIFIER] | Suivre le protocole national/local |
+| **Anti-D** | ACOG (2018) : pour toute femme Rhésus négatif avec GEU [S2] | NICE (2026) : pas d'anti-D jusqu'à 11 SA + 6 j, quel que soit le traitement ; ≥ 250 UI envisagée à 12 SA-12 SA + 6 j [S3 — formulation finale À VÉRIFIER] ; CNGOF : données jugées insuffisantes dans la GEU [À VÉRIFIER] | Suivre le protocole national/local |
 | **Salpingotomie vs salpingectomie** | NICE, ESEP : salpingectomie si trompe controlatérale saine [S3, S7] | Pratiques plus conservatrices (préservation tubaire systématique chez les femmes jeunes) dans certains centres | ESEP : 60,7 % vs 56,2 % de grossesses, NS [S7] |
-| **Terminologie** | ESHRE 2020 : utérine vs extra-utérine, abandon de « GEU chronique » et « angulaire » [S1] | Terminologie française classique : GEU tubaire / non tubaire, « hématocèle » | Mise à jour ESHRE en cours [S1] |
-| **Délai de conception après MTX** | NICE : au moins 3 mois [S3 — À VÉRIFIER] | Autres sources : délais variables | |
+| **Terminologie** | ESHRE 2020 : utérine vs extra-utérine, abandon de « GEU chronique » et « angulaire » [S1] | Terminologie française classique : GEU tubaire / non tubaire, « hématocèle » | Mise à jour ESHRE annoncée [À VÉRIFIER] |
+| **Délai de conception après MTX** | RCOG : au moins 3 mois [S4 — À VÉRIFIER] | Autres sources : délais variables | |
 
 ## 22. Références
 
 1. **[S1]** Kirk E, Ankum P, Jakab A, et al. Terminology for describing normally sited and ectopic pregnancies on ultrasound: ESHRE recommendations for good practice. *Hum Reprod Open.* 2020;2020(4):hoaa055. doi:10.1093/hropen/hoaa055. — *Vérifiée. Remarque : aucun document ESHRE « 2022 » sur la GEU n'a été trouvé ; la mise à jour de ce texte de 2020 est annoncée par l'ESHRE.*
 2. **[S2]** ACOG Practice Bulletin No. 193: Tubal Ectopic Pregnancy. *Obstet Gynecol.* 2018;131(3):e91-e103. doi:10.1097/AOG.0000000000002560. — *Vérifiée (texte intégral non consulté ; détails de protocoles À VÉRIFIER).*
-3. **[S3]** NICE. Ectopic pregnancy and miscarriage: diagnosis and initial management (NG126). 2019, mises à jour ultérieures. https://www.nice.org.uk/guidance/ng126 — *Vérifiée (seuils confirmés via sources secondaires).*
+3. **[S3]** NICE. Ectopic pregnancy and miscarriage: diagnosis and initial management (NG126). 2019, mises à jour ultérieures (dont juin 2026 : anti-D). https://www.nice.org.uk/guidance/ng126 — *Vérifiée (seuils confirmés via sources secondaires ; mise à jour 2026 identifiée lors de l'audit par recherche web, texte final non consulté).*
 4. **[S4]** Elson CJ, Salim R, Potdar N, et al. Diagnosis and management of ectopic pregnancy. RCOG Green-top Guideline No. 21. *BJOG.* 2016;123(13):e15-e55. — *Vérifiée (mise à jour annoncée).*
 5. **[S5]** Marret H, et al. Overview and guidelines of off-label use of methotrexate in ectopic pregnancy: report by CNGOF. *Eur J Obstet Gynecol Reprod Biol.* 2016;205:105-109. — *Vérifiée.*
-6. **[S6]** HAS. RTU du méthotrexate dans la GEU. 2016. — *Vérifiée.*
+6. **[S6]** ANSM. RTU du méthotrexate dans la GEU (2016, renouvelée en 2020), puis cadre de prescription compassionnelle (2022, renouvelé en 2023) ; avis HAS 2016. — *Vérifiée (recherche web lors de l'audit).*
 7. **[S7]** Mol F, et al. Salpingotomy versus salpingectomy in women with tubal pregnancy (ESEP). *Lancet.* 2014 (PMID 24499812). — *Vérifiée (pagination À VÉRIFIER).*
 8. **[S8]** Fernandez H, et al. DEMETER. *Hum Reprod.* 2013;28(5):1247-1253. — *Non revérifiée [À VÉRIFIER].*
 9. **[S9]** Stovall TG, Ling FW. Single-dose methotrexate. *Am J Obstet Gynecol.* 1993. — *Non revérifiée [À VÉRIFIER].*
 10. **[S10]** Barnhart KT, et al. hCG rise in early pregnancy. *Obstet Gynecol.* 2016. — *Non revérifiée [À VÉRIFIER].*
+
+> **Audit (AUD-01/AUD-02, 19/11/2026)** : terminologie ESHRE confrontée au texte acquis (DOC-00097) ; prophylaxie anti-D mise à jour (NICE 2026, CNGOF) ; statut réglementaire français du MTX corrigé (RTU de l'ANSM puis CPC) ; protocoles ACOG à deux doses et multidoses précisés. Marqueurs maintenus : modalités françaises de surveillance du MTX, dose d'anti-D, délai de conception. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0001.md`.
 
 > **Note de traçabilité** : références S1 à S7 confirmées par recherche web le 19/11/2026. Les protocoles de méthotrexate et les critères d'expectative doivent être confrontés aux textes intégraux et aux protocoles des services algériens.

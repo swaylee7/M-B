@@ -168,6 +168,157 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-09",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-RHUM-0903",
+      "titre": "Lombalgies nocturnes et œil rouge chez un étudiant de 23 ans",
+      "niveau": "etudiant",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 23 ans, étudiant en sciences à Tizi Ouzou, non fumeur.",
+      "motif_consultation": "Adressé par l'ophtalmologiste après un second épisode d'uvéite antérieure aiguë, pour des lombalgies chroniques.",
+      "antecedents": "Uvéite antérieure aiguë gauche il y a 1 an, droite il y a 3 semaines (traitées par collyres corticoïdes et mydriatiques). Pas de psoriasis, pas de diarrhée chronique. Père : « rhumatisme du dos ».",
+      "symptomes": "Lombalgies et fessalgies à bascule depuis 3 ans, réveils nocturnes en fin de nuit, raideur matinale de 1 heure, amélioration au sport, talalgie postérieure droite matinale. Ibuprofène très efficace en 2 jours.",
+      "examen_clinique": "Schober 10 → 13 cm ; distance occiput-mur 0 ; ampliation thoracique 3 cm ; douleur à la pression du tendon d'Achille droit ; pas d'arthrite périphérique ; examen cardiaque normal.",
+      "biologie": "CRP 16 mg/L (N < 5) ; VS 24 mm ; NFS normale ; créatinine 9 mg/L ; HLA-B27 positif ; FR et ACPA négatifs.",
+      "imagerie": "Radiographie du bassin : sacro-iliite bilatérale de grade 3 (érosions, condensation, pseudo-élargissement). Rachis lombaire de profil : mise au carré de L1-L2, pas de syndesmophyte.",
+      "hypotheses_diagnostiques": [
+        "Spondylarthrite ankylosante (SpA axiale radiographique)",
+        "SpA associée à une MICI",
+        "Rhumatisme psoriasique axial"
+      ],
+      "diagnostics_differentiels": [
+        "Lombalgie commune",
+        "Sacro-iliite infectieuse (brucellose, tuberculose)",
+        "Ostéite condensante iliaque (non applicable chez l'homme)",
+        "Maladie hyperostosique"
+      ],
+      "examens_a_demander": [
+        "CRP, VS, NFS",
+        "HLA-B27",
+        "Radiographie du bassin de face",
+        "Radiographies du rachis lombaire et dorso-lombaire de profil",
+        "IRM des sacro-iliaques si radiographie douteuse",
+        "ECG",
+        "Sérologies brucelliennes si contexte d'exposition"
+      ],
+      "diagnostic_final": "Spondylarthrite ankylosante (pelvispondylite rhumatismale) : critères de New York modifiés remplis (sacro-iliite bilatérale de grade 3 + lombalgie inflammatoire + limitation lombaire), avec uvéites antérieures aiguës récidivantes et enthésite achilléenne.",
+      "traitement": "Éducation, auto-exercices quotidiens, kinésithérapie ; AINS à dose optimale en continu tant que symptomatique [POSOLOGIE À VÉRIFIER — RCP], surveillance tensionnelle et rénale. Consignes : consultation ophtalmologique en urgence devant tout œil rouge douloureux. Si échec de 2 AINS avec ASDAS ≥ 2,1 : biothérapie, en privilégiant un anticorps monoclonal anti-TNF du fait des uvéites récidivantes (après bilan pré-thérapeutique incluant tuberculose et VHB).",
+      "surveillance": "ASDAS-CRP et BASDAI à chaque consultation ; BASMI, Schober, ampliation thoracique ; radiographies à distance ; surveillance des AINS ; uvéites.",
+      "evolution": "Sous AINS en continu et exercices, ASDAS à 1,8 à 3 mois. Nouvelle uvéite 8 mois plus tard malgré l'AINS ; discussion d'un anti-TNF monoclonal en raison du caractère récidivant.",
+      "explication_pedagogique": "Cas typique de SpA axiale radiographique révélée par des uvéites ; l'ophtalmologiste est un acteur du diagnostic précoce. Le choix d'une éventuelle biothérapie tient compte des manifestations extra-squelettiques.",
+      "questions": [
+        {
+          "question": "Quels critères de lombalgie inflammatoire sont présents ?",
+          "reponse": "Début < 40 ans, insidieux, amélioration par l'exercice, pas par le repos, douleurs nocturnes : 5/5."
+        },
+        {
+          "question": "Les critères de New York modifiés sont-ils remplis ?",
+          "reponse": "Oui : sacro-iliite bilatérale de grade 3 et au moins un critère clinique."
+        },
+        {
+          "question": "Pourquoi éviter l'étanercept si une biothérapie devient nécessaire ?",
+          "reponse": "Les anticorps monoclonaux anti-TNF sont préférés en cas d'uvéite récidivante (ASAS-EULAR 2022)."
+        },
+        {
+          "question": "Que faire devant un nouvel œil rouge douloureux ?",
+          "reponse": "Consultation ophtalmologique en urgence (lampe à fente), traitement local rapide."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        },
+        {
+          "reference": "Sieper J et al. ASAS criteria for inflammatory back pain. Ann Rheum Dis 2009;68(6):784-788",
+          "date": "2009"
+        },
+        {
+          "reference": "van der Linden S et al. Modified New York criteria for ankylosing spondylitis. Arthritis Rheum 1984;27(4):361-368",
+          "date": "1984"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-RHUM-0904",
+      "titre": "Sacro-iliite unilatérale fébrile chez un éleveur : SpA ou infection ?",
+      "niveau": "residanat",
+      "specialite": "RHUM",
+      "items_residanat": [
+        "RES-MED-100"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 34 ans, éleveur d'ovins dans la région de Djelfa.",
+      "motif_consultation": "Fessalgie droite intense et fièvre depuis 3 semaines.",
+      "antecedents": "Aucun antécédent. Consommation régulière de lait cru et de fromage frais artisanal.",
+      "symptomes": "Douleur fessière droite irradiant à la face postérieure de la cuisse, d'aggravation progressive, réveils nocturnes, boiterie ; fièvre vespérale à 39 °C avec sueurs abondantes ; arthralgies diffuses ; perte de 4 kg.",
+      "examen_clinique": "T 38,6 °C ; douleur exquise à la pression de la sacro-iliaque droite ; manœuvres sacro-iliaques douloureuses à droite ; hépatosplénomégalie discrète ; testicules normaux ; pas d'arthrite périphérique, pas d'uvéite.",
+      "biologie": "GB 5,1 G/L (N 4–10) avec lymphocytose relative ; CRP 64 mg/L ; VS 55 mm ; ALAT 62 UI/L (N < 40) ; test au rose Bengale positif ; sérologie de Wright 1/320 ; hémocultures (2 flacons sur 3) positives à Brucella spp. (culture prolongée) ; HLA-B27 négatif.",
+      "imagerie": "Radiographie du bassin : flou de l'interligne sacro-iliaque droit. IRM : sacro-iliite droite avec œdème osseux étendu des deux berges, épanchement articulaire et infiltration des parties molles adjacentes ; pas d'abcès.",
+      "hypotheses_diagnostiques": [
+        "Sacro-iliite brucellienne",
+        "Sacro-iliite à pyogènes",
+        "Sacro-iliite tuberculeuse",
+        "SpA axiale débutante"
+      ],
+      "diagnostics_differentiels": [
+        "SpA axiale (bilatérale le plus souvent, non fébrile)",
+        "Sacro-iliite à staphylocoque",
+        "Tuberculose ostéo-articulaire",
+        "Ostéite pubienne ou pyomyosite du psoas"
+      ],
+      "examens_a_demander": [
+        "Hémocultures prolongées (avant antibiotiques)",
+        "Test au rose Bengale et sérologie de Wright",
+        "NFS, CRP, bilan hépatique",
+        "IRM du bassin",
+        "Radiographie thoracique",
+        "Ponction-biopsie guidée si diagnostic incertain",
+        "Déclaration obligatoire et enquête autour du cas"
+      ],
+      "diagnostic_final": "Brucellose aiguë localisée : sacro-iliite brucellienne droite (Brucella spp., hémocultures positives).",
+      "traitement": "Antibiothérapie prolongée associant deux antibiotiques actifs selon les recommandations en vigueur (par exemple doxycycline associée à un aminoside ou à la rifampicine, durée prolongée pour une forme ostéo-articulaire) [POSOLOGIE À VÉRIFIER — RCP / protocole national] ; antalgiques ; repos relatif puis rééducation ; déclaration obligatoire ; conseils d'hygiène (pasteurisation ou ébullition du lait) ; information des services vétérinaires.",
+      "surveillance": "Courbe thermique, douleurs, CRP, bilan hépatique (tolérance), IRM de contrôle en cas d'évolution défavorable ; surveillance des rechutes pendant plusieurs mois.",
+      "evolution": "Apyrexie en 10 jours, régression progressive des douleurs ; CRP normalisée à 6 semaines ; pas de rechute à 6 mois.",
+      "explication_pedagogique": "Ce cas rappelle qu'en Algérie, une sacro-iliite unilatérale fébrile est une brucellose (ou une infection) jusqu'à preuve du contraire. Un traitement de SpA (a fortiori un anti-TNF) serait délétère. Le HLA-B27 n'a ici aucun intérêt diagnostique.",
+      "questions": [
+        {
+          "question": "Quels éléments s'opposent à une SpA axiale ?",
+          "reponse": "Caractère unilatéral et aigu, fièvre élevée, sueurs, hépatosplénomégalie, exposition au lait cru, syndrome inflammatoire important."
+        },
+        {
+          "question": "Quel est l'examen de certitude ?",
+          "reponse": "L'isolement de Brucella en hémoculture (ou dans un prélèvement ostéo-articulaire) ; les sérologies sont des arguments forts."
+        },
+        {
+          "question": "Pourquoi une biothérapie anti-TNF serait-elle dangereuse ?",
+          "reponse": "Elle aggraverait une infection granulomateuse non contrôlée (brucellose, tuberculose)."
+        },
+        {
+          "question": "Quelle mesure de santé publique est obligatoire ?",
+          "reponse": "La déclaration de la brucellose, maladie à déclaration obligatoire, et l'enquête sur l'origine (cheptel, produits laitiers)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34",
+          "date": "2023"
+        },
+        {
+          "reference": "Ariza J et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med 2007 [référence à vérifier]",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-09",
+      "date_creation": "2026-11-19"
     }
   ]
 }

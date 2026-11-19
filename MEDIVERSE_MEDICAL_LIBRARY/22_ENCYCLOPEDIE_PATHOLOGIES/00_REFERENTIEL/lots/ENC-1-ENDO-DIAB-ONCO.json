@@ -1,0 +1,5819 @@
+{
+  "agent": "ENC-1",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-ENDO-0001",
+      "nom_fr": "Maladie de Basedow (maladie de Graves)",
+      "nom_en": "Graves disease",
+      "synonymes": [
+        "goitre diffus toxique",
+        "maladie de Graves"
+      ],
+      "cim10": "E05.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "auto-immune"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "symptomes": [
+        "nervosité",
+        "palpitations",
+        "amaigrissement malgré un appétit conservé",
+        "thermophobie",
+        "sueurs",
+        "tremblements",
+        "diarrhée",
+        "femme jeune"
+      ],
+      "signes_cliniques": [
+        "goitre diffus homogène vasculaire (souffle)",
+        "tachycardie",
+        "tremblement fin des extrémités",
+        "exophtalmie et rétraction palpébrale (orbitopathie)",
+        "myxœdème prétibial"
+      ],
+      "examens_cles": [
+        "TSH effondrée",
+        "T4 et T3 libres élevées",
+        "anticorps anti-récepteurs de la TSH",
+        "échographie thyroïdienne Doppler",
+        "scintigraphie si doute (fixation diffuse)"
+      ],
+      "traitements_cles": [
+        "antithyroïdiens de synthèse (thiamazole, carbimazole, propylthiouracile au 1er trimestre de grossesse)",
+        "bêtabloquant",
+        "iode radioactif",
+        "thyroïdectomie totale",
+        "prise en charge de l'orbitopathie (sevrage tabagique, corticoïdes, téprotumumab)"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0007",
+        "PATH-CARD-0030",
+        "PATH-ENDO-0008",
+        "PATH-DERM-0015",
+        "PATH-NEUR-0026",
+        "PATH-RHUM-0015",
+        "PATH-ENDO-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0002",
+      "nom_fr": "Goitre multinodulaire toxique",
+      "nom_en": "Toxic multinodular goitre",
+      "synonymes": [],
+      "cim10": "E05.2",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "symptomes": [
+        "signes de thyrotoxicose souvent modérés",
+        "sujet âgé",
+        "troubles du rythme",
+        "amaigrissement"
+      ],
+      "signes_cliniques": [
+        "goitre multinodulaire",
+        "FA",
+        "signes de compression (goitre volumineux)"
+      ],
+      "examens_cles": [
+        "TSH effondrée",
+        "T4 et T3 libres",
+        "échographie",
+        "scintigraphie (nodules chauds et parenchyme éteint)"
+      ],
+      "traitements_cles": [
+        "antithyroïdiens de synthèse en préparation",
+        "iode radioactif",
+        "thyroïdectomie totale"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0012",
+        "PATH-CARD-0030",
+        "PATH-ENDO-0003",
+        "PATH-ENDO-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0003",
+      "nom_fr": "Adénome toxique de la thyroïde (nodule chaud)",
+      "nom_en": "Toxic thyroid adenoma",
+      "synonymes": [
+        "nodule thyroïdien toxique",
+        "maladie de Plummer"
+      ],
+      "cim10": "E05.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "symptomes": [
+        "signes de thyrotoxicose",
+        "nodule cervical"
+      ],
+      "signes_cliniques": [
+        "nodule thyroïdien unique",
+        "absence d'orbitopathie"
+      ],
+      "examens_cles": [
+        "TSH effondrée",
+        "scintigraphie (nodule chaud extinctif)",
+        "échographie"
+      ],
+      "traitements_cles": [
+        "iode radioactif",
+        "lobo-isthmectomie",
+        "antithyroïdiens en préparation"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0011",
+        "PATH-ENDO-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0004",
+      "nom_fr": "Thyroïdite subaiguë de De Quervain",
+      "nom_en": "Subacute (de Quervain) thyroiditis",
+      "synonymes": [
+        "thyroïdite granulomateuse"
+      ],
+      "cim10": "E06.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "symptomes": [
+        "douleur cervicale antérieure irradiant aux oreilles",
+        "fièvre",
+        "asthénie",
+        "signes de thyrotoxicose transitoire",
+        "contexte post-viral"
+      ],
+      "signes_cliniques": [
+        "goitre ferme très douloureux à la palpation"
+      ],
+      "examens_cles": [
+        "VS et CRP très élevées",
+        "TSH basse puis élevée",
+        "scintigraphie blanche (absence de fixation)",
+        "échographie (plages hypoéchogènes)"
+      ],
+      "traitements_cles": [
+        "AINS",
+        "corticothérapie si forme sévère",
+        "bêtabloquant transitoire",
+        "surveillance de l'hypothyroïdie"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0001",
+        "PATH-ENDO-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0005",
+      "nom_fr": "Thyroïdite silencieuse et thyroïdite du post-partum",
+      "nom_en": "Painless and postpartum thyroiditis",
+      "synonymes": [
+        "thyroïdite indolore lymphocytaire"
+      ],
+      "cim10": null,
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "auto-immune"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-084",
+        "RES-MED-085"
+      ],
+      "symptomes": [
+        "phase de thyrotoxicose transitoire puis hypothyroïdie",
+        "dans l'année suivant un accouchement (post-partum)"
+      ],
+      "signes_cliniques": [
+        "petit goitre indolore"
+      ],
+      "examens_cles": [
+        "TSH",
+        "anticorps anti-TPO positifs",
+        "scintigraphie blanche",
+        "anticorps anti-récepteurs de la TSH négatifs"
+      ],
+      "traitements_cles": [
+        "bêtabloquant en phase de thyrotoxicose",
+        "lévothyroxine si hypothyroïdie symptomatique",
+        "surveillance de l'évolution vers l'hypothyroïdie définitive"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0008",
+        "PATH-PSYC-0011",
+        "PATH-ENDO-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0006",
+      "nom_fr": "Dysthyroïdies induites par l'amiodarone",
+      "nom_en": "Amiodarone-induced thyroid dysfunction",
+      "synonymes": [
+        "hyperthyroïdie à l'amiodarone (types 1 et 2)",
+        "hypothyroïdie à l'amiodarone"
+      ],
+      "cim10": null,
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-084",
+        "RES-MED-085"
+      ],
+      "symptomes": [
+        "signes de thyrotoxicose (récidive d'arythmie) ou d'hypothyroïdie sous amiodarone"
+      ],
+      "signes_cliniques": [
+        "signes de thyrotoxicose ou d'hypothyroïdie",
+        "goitre préexistant (type 1)"
+      ],
+      "examens_cles": [
+        "TSH",
+        "T4 libre",
+        "échographie Doppler",
+        "scintigraphie (fixation basse)",
+        "iodurie élevée"
+      ],
+      "traitements_cles": [
+        "lévothyroxine (hypothyroïdie)",
+        "antithyroïdiens de synthèse (type 1)",
+        "corticothérapie (type 2)",
+        "thyroïdectomie si échec",
+        "discussion de l'arrêt de l'amiodarone"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0030",
+        "PATH-ENDO-0001",
+        "PATH-ENDO-0008",
+        "PATH-PNEU-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0007",
+      "nom_fr": "Crise aiguë thyrotoxique",
+      "nom_en": "Thyroid storm",
+      "synonymes": [
+        "orage thyroïdien"
+      ],
+      "cim10": "E05.5",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "symptomes": [
+        "fièvre élevée",
+        "agitation",
+        "confusion",
+        "diarrhée",
+        "vomissements",
+        "facteur déclenchant (chirurgie, infection, arrêt des antithyroïdiens, iode)"
+      ],
+      "signes_cliniques": [
+        "hyperthermie",
+        "tachycardie ou FA rapide",
+        "insuffisance cardiaque",
+        "troubles de conscience",
+        "ictère"
+      ],
+      "examens_cles": [
+        "TSH effondrée",
+        "T4 et T3 libres élevées",
+        "score de Burch-Wartofsky",
+        "bilan du facteur déclenchant"
+      ],
+      "traitements_cles": [
+        "réanimation",
+        "antithyroïdiens de synthèse à forte dose (propylthiouracile)",
+        "iode après les antithyroïdiens",
+        "bêtabloquant",
+        "corticoïdes",
+        "refroidissement",
+        "traitement du facteur déclenchant"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0001",
+        "PATH-CARD-0030",
+        "PATH-CARD-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0008",
+      "nom_fr": "Thyroïdite de Hashimoto (hypothyroïdie auto-immune)",
+      "nom_en": "Hashimoto thyroiditis",
+      "synonymes": [
+        "hypothyroïdie de l'adulte",
+        "thyroïdite chronique lymphocytaire"
+      ],
+      "cim10": "E06.3",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "auto-immune"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-085"
+      ],
+      "symptomes": [
+        "asthénie",
+        "frilosité",
+        "prise de poids",
+        "constipation",
+        "ralentissement psychomoteur",
+        "crampes",
+        "peau sèche",
+        "troubles des règles"
+      ],
+      "signes_cliniques": [
+        "goitre ferme irrégulier (ou atrophie)",
+        "bradycardie",
+        "infiltration cutanéo-muqueuse (myxœdème)",
+        "dépilation",
+        "voix rauque"
+      ],
+      "examens_cles": [
+        "TSH élevée",
+        "T4 libre basse ou normale (infraclinique)",
+        "anticorps anti-TPO",
+        "échographie thyroïdienne",
+        "hypercholestérolémie",
+        "hyponatrémie",
+        "anémie"
+      ],
+      "traitements_cles": [
+        "lévothyroxine à dose progressive (prudence chez le coronarien)",
+        "surveillance de la TSH",
+        "adaptation pendant la grossesse"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0010",
+        "PATH-ENDO-0009",
+        "PATH-ENDO-0001",
+        "PATH-ENDO-0053",
+        "PATH-DERM-0015",
+        "PATH-GAST-0020",
+        "PATH-DIAB-0001",
+        "PATH-GAST-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0009",
+      "nom_fr": "Hypothyroïdie congénitale",
+      "nom_en": "Congenital hypothyroidism",
+      "synonymes": [],
+      "cim10": "E03.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "congénitale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-085"
+      ],
+      "symptomes": [
+        "ictère néonatal prolongé",
+        "difficultés de succion",
+        "constipation",
+        "somnolence",
+        "retard des acquisitions sans traitement"
+      ],
+      "signes_cliniques": [
+        "hypotonie",
+        "macroglossie",
+        "hernie ombilicale",
+        "fontanelle postérieure large",
+        "peau sèche"
+      ],
+      "examens_cles": [
+        "dépistage néonatal systématique (TSH sur papier buvard à J3)",
+        "TSH et T4 libre sériques",
+        "échographie ou scintigraphie (athyréose, ectopie, trouble de l'hormonogenèse)"
+      ],
+      "traitements_cles": [
+        "lévothyroxine débutée le plus tôt possible",
+        "surveillance de la croissance et du développement"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0032",
+        "PATH-ENDO-0008",
+        "PATH-HEPA-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0010",
+      "nom_fr": "Coma myxœdémateux",
+      "nom_en": "Myxoedema coma",
+      "synonymes": [],
+      "cim10": "E03.5",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-085",
+        "RES-MED-107"
+      ],
+      "symptomes": [
+        "troubles de conscience progressifs",
+        "hypothermie",
+        "sujet âgé hypothyroïdien non traité",
+        "facteur déclenchant (froid, infection, sédatifs)"
+      ],
+      "signes_cliniques": [
+        "hypothermie",
+        "bradycardie",
+        "hypoventilation",
+        "infiltration myxœdémateuse",
+        "épanchements des séreuses"
+      ],
+      "examens_cles": [
+        "TSH très élevée",
+        "T4 libre effondrée",
+        "hyponatrémie",
+        "hypoglycémie",
+        "hypercapnie",
+        "CPK élevées",
+        "cortisol (insuffisance surrénale associée)"
+      ],
+      "traitements_cles": [
+        "réanimation",
+        "lévothyroxine IV",
+        "hydrocortisone avant la lévothyroxine",
+        "réchauffement progressif",
+        "ventilation si besoin"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0008",
+        "PATH-GERI-0017",
+        "PATH-ENDO-0026",
+        "PATH-NEPH-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0011",
+      "nom_fr": "Nodule thyroïdien",
+      "nom_en": "Thyroid nodule",
+      "synonymes": [],
+      "cim10": "E04.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-013"
+      ],
+      "symptomes": [
+        "souvent asymptomatique (découverte palpatoire ou échographique)",
+        "gêne cervicale",
+        "signes compressifs rares"
+      ],
+      "signes_cliniques": [
+        "nodule mobile à la déglutition",
+        "adénopathie cervicale (suspect)",
+        "dysphonie (suspect)"
+      ],
+      "examens_cles": [
+        "TSH",
+        "échographie thyroïdienne (score EU-TIRADS)",
+        "cytoponction à l'aiguille fine (classification de Bethesda)",
+        "calcitonine selon le contexte",
+        "scintigraphie si TSH basse"
+      ],
+      "traitements_cles": [
+        "surveillance des nodules bénins",
+        "chirurgie (lobo-isthmectomie ou thyroïdectomie totale) si suspicion de malignité ou compression",
+        "iode radioactif ou thermoablation des nodules chauds ou bénins symptomatiques"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0013",
+        "PATH-ENDO-0014",
+        "PATH-ENDO-0003",
+        "PATH-ENDO-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0012",
+      "nom_fr": "Goitre simple et goitre endémique par carence iodée",
+      "nom_en": "Simple and iodine-deficiency endemic goitre",
+      "synonymes": [
+        "goitre euthyroïdien",
+        "goitre plongeant"
+      ],
+      "cim10": "E04",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-013"
+      ],
+      "symptomes": [
+        "augmentation du volume du cou",
+        "gêne cervicale",
+        "signes compressifs (dysphagie, dyspnée) dans les goitres volumineux"
+      ],
+      "signes_cliniques": [
+        "goitre diffus ou multinodulaire",
+        "extension endothoracique"
+      ],
+      "examens_cles": [
+        "TSH normale",
+        "échographie thyroïdienne",
+        "scanner cervicothoracique (goitre plongeant)",
+        "iodurie (enquête épidémiologique)"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "supplémentation en iode à l'échelle de la population (sel iodé)",
+        "thyroïdectomie si compression ou suspicion de malignité"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0002",
+        "PATH-ENDO-0011",
+        "PATH-PNEU-0029",
+        "PATH-ENDO-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0013",
+      "nom_fr": "Cancer différencié de la thyroïde (papillaire et vésiculaire)",
+      "nom_en": "Differentiated thyroid cancer (papillary and follicular)",
+      "synonymes": [
+        "carcinome papillaire",
+        "carcinome vésiculaire"
+      ],
+      "cim10": "C73",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-086"
+      ],
+      "symptomes": [
+        "nodule thyroïdien",
+        "adénopathie cervicale",
+        "dysphonie (rare)"
+      ],
+      "signes_cliniques": [
+        "nodule dur",
+        "adénopathies jugulocarotidiennes"
+      ],
+      "examens_cles": [
+        "échographie cervicale",
+        "cytoponction (Bethesda)",
+        "thyroglobuline et anticorps anti-thyroglobuline (suivi)",
+        "scintigraphie post-thérapeutique à l'iode 131"
+      ],
+      "traitements_cles": [
+        "thyroïdectomie totale ou lobectomie selon le risque",
+        "curage ganglionnaire si atteinte",
+        "iode radioactif selon le risque",
+        "lévothyroxine à dose adaptée",
+        "suivi par thyroglobuline et échographie",
+        "inhibiteurs de kinases dans les formes réfractaires"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0011",
+        "PATH-ENDO-0014",
+        "PATH-ENDO-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0014",
+      "nom_fr": "Cancer médullaire de la thyroïde",
+      "nom_en": "Medullary thyroid carcinoma",
+      "synonymes": [],
+      "cim10": "C73",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "néoplasique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-086"
+      ],
+      "symptomes": [
+        "nodule thyroïdien",
+        "diarrhée motrice et flush (formes évoluées)",
+        "antécédents familiaux (NEM2)"
+      ],
+      "signes_cliniques": [
+        "nodule thyroïdien",
+        "adénopathies cervicales"
+      ],
+      "examens_cles": [
+        "calcitonine et ACE élevés",
+        "cytoponction",
+        "recherche de mutation RET constitutionnelle",
+        "métanéphrines (phéochromocytome associé avant chirurgie)"
+      ],
+      "traitements_cles": [
+        "thyroïdectomie totale avec curage",
+        "thyroïdectomie prophylactique chez les porteurs de mutation RET",
+        "inhibiteurs de RET dans les formes métastatiques"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0039",
+        "PATH-ENDO-0028",
+        "PATH-ENDO-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0015",
+      "nom_fr": "Cancer anaplasique de la thyroïde",
+      "nom_en": "Anaplastic thyroid carcinoma",
+      "synonymes": [],
+      "cim10": "C73",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "néoplasique",
+        "gériatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-086"
+      ],
+      "symptomes": [
+        "masse cervicale rapidement progressive",
+        "dysphagie",
+        "dyspnée",
+        "dysphonie",
+        "sujet âgé"
+      ],
+      "signes_cliniques": [
+        "masse cervicale dure, fixée, compressive"
+      ],
+      "examens_cles": [
+        "échographie et scanner cervicothoracique",
+        "biopsie",
+        "recherche de mutation BRAF"
+      ],
+      "traitements_cles": [
+        "prise en charge urgente multidisciplinaire",
+        "chirurgie si résécable",
+        "radiochimiothérapie",
+        "thérapie ciblée anti-BRAF et anti-MEK",
+        "trachéotomie ou soins palliatifs"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0013",
+        "PATH-ENDO-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0016",
+      "nom_fr": "Insuffisance antéhypophysaire",
+      "nom_en": "Hypopituitarism",
+      "synonymes": [
+        "hypopituitarisme",
+        "panhypopituitarisme"
+      ],
+      "cim10": "E23.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Hypophyse",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-083",
+        "RES-SF-054"
+      ],
+      "symptomes": [
+        "asthénie",
+        "frilosité",
+        "troubles sexuels (aménorrhée, baisse de la libido)",
+        "dépilation",
+        "pâleur",
+        "hypoglycémies"
+      ],
+      "signes_cliniques": [
+        "pâleur cireuse",
+        "dépilation axillo-pubienne",
+        "peau fine",
+        "hypotension"
+      ],
+      "examens_cles": [
+        "dosages hormonaux couplés (cortisol, ACTH, T4 libre et TSH, FSH, LH, œstradiol ou testostérone, IGF-1)",
+        "tests dynamiques (hypoglycémie insulinique, test au Synacthène)",
+        "IRM hypophysaire"
+      ],
+      "traitements_cles": [
+        "substitution hormonale (hydrocortisone en premier, puis lévothyroxine, hormones sexuelles, hormone de croissance)",
+        "éducation aux situations de stress",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0022",
+        "PATH-ENDO-0020",
+        "PATH-ENDO-0021",
+        "PATH-ENDO-0023",
+        "PATH-ENDO-0026",
+        "PATH-ENDO-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0017",
+      "nom_fr": "Prolactinome",
+      "nom_en": "Prolactinoma",
+      "synonymes": [
+        "adénome hypophysaire à prolactine"
+      ],
+      "cim10": "D35.2",
+      "specialite": "ENDO",
+      "sous_specialite": "Hypophyse",
+      "categories": [
+        "endocrinienne",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-097"
+      ],
+      "symptomes": [
+        "aménorrhée et galactorrhée chez la femme",
+        "infertilité",
+        "baisse de la libido et dysfonction érectile chez l'homme",
+        "céphalées et troubles visuels (macroadénome)"
+      ],
+      "signes_cliniques": [
+        "galactorrhée",
+        "hémianopsie bitemporale (macroadénome)"
+      ],
+      "examens_cles": [
+        "prolactinémie élevée (éliminer grossesse, médicaments, hypothyroïdie, macroprolactine)",
+        "IRM hypophysaire",
+        "champ visuel",
+        "bilan antéhypophysaire"
+      ],
+      "traitements_cles": [
+        "agonistes dopaminergiques (cabergoline)",
+        "chirurgie transsphénoïdale en cas d'intolérance ou de résistance"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0020",
+        "PATH-ENDO-0018",
+        "PATH-ENDO-0016",
+        "PATH-ENDO-0042",
+        "PATH-ENDO-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0018",
+      "nom_fr": "Acromégalie",
+      "nom_en": "Acromegaly",
+      "synonymes": [],
+      "cim10": "E22.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Hypophyse",
+      "categories": [
+        "endocrinienne",
+        "néoplasique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-097"
+      ],
+      "symptomes": [
+        "modification progressive du faciès",
+        "augmentation de la pointure",
+        "sueurs",
+        "céphalées",
+        "arthralgies",
+        "syndrome du canal carpien"
+      ],
+      "signes_cliniques": [
+        "prognathisme",
+        "épaississement des traits",
+        "mains et pieds élargis",
+        "macroglossie",
+        "HTA",
+        "goitre"
+      ],
+      "examens_cles": [
+        "IGF-1 élevée",
+        "GH non freinée lors de l'HGPO",
+        "IRM hypophysaire",
+        "champ visuel",
+        "bilan des complications (échocardiographie, polysomnographie, coloscopie, glycémie)"
+      ],
+      "traitements_cles": [
+        "chirurgie transsphénoïdale",
+        "analogues de la somatostatine",
+        "pegvisomant",
+        "radiothérapie hypophysaire"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0047",
+        "PATH-DIAB-0002",
+        "PATH-NEUR-0042",
+        "PATH-CARD-0012",
+        "PATH-CARD-0040",
+        "PATH-GAST-0033",
+        "PATH-ENDO-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0019",
+      "nom_fr": "Syndrome de Cushing",
+      "nom_en": "Cushing syndrome",
+      "synonymes": [
+        "hypercorticisme",
+        "maladie de Cushing (origine hypophysaire)"
+      ],
+      "cim10": "E24",
+      "specialite": "ENDO",
+      "sous_specialite": "Surrénales",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-096",
+        "RES-MED-167"
+      ],
+      "symptomes": [
+        "prise de poids facio-tronculaire",
+        "faiblesse musculaire",
+        "ecchymoses",
+        "troubles des règles",
+        "troubles psychiques",
+        "HTA"
+      ],
+      "signes_cliniques": [
+        "obésité facio-tronculaire",
+        "visage lunaire",
+        "bosse de bison",
+        "vergetures larges pourpres",
+        "amyotrophie proximale",
+        "peau fine",
+        "hirsutisme"
+      ],
+      "examens_cles": [
+        "cortisol libre urinaire des 24 h",
+        "test de freinage minute à la dexaméthasone",
+        "cortisol salivaire de minuit",
+        "ACTH (dépendant ou indépendant)",
+        "IRM hypophysaire",
+        "scanner surrénalien",
+        "cathétérisme des sinus pétreux"
+      ],
+      "traitements_cles": [
+        "traitement de la cause (chirurgie hypophysaire, surrénalectomie, exérèse d'une sécrétion ectopique)",
+        "anticortisoliques de synthèse (métyrapone, kétoconazole, osilodrostat)",
+        "décroissance progressive d'une corticothérapie (forme iatrogène)"
+      ],
+      "pathologies_liees": [
+        "PATH-RHUM-0016",
+        "PATH-DIAB-0002",
+        "PATH-CARD-0040",
+        "PATH-ENDO-0049",
+        "PATH-PNEU-0023",
+        "PATH-ENDO-0031",
+        "PATH-ENDO-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0020",
+      "nom_fr": "Adénome hypophysaire non fonctionnel",
+      "nom_en": "Non-functioning pituitary adenoma",
+      "synonymes": [
+        "macroadénome non sécrétant"
+      ],
+      "cim10": "D35.2",
+      "specialite": "ENDO",
+      "sous_specialite": "Hypophyse",
+      "categories": [
+        "endocrinienne",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-097"
+      ],
+      "symptomes": [
+        "céphalées",
+        "troubles visuels",
+        "signes d'insuffisance antéhypophysaire",
+        "découverte fortuite (incidentalome)"
+      ],
+      "signes_cliniques": [
+        "hémianopsie bitemporale",
+        "paralysie oculomotrice (envahissement du sinus caverneux)"
+      ],
+      "examens_cles": [
+        "IRM hypophysaire",
+        "champ visuel",
+        "bilan antéhypophysaire complet",
+        "prolactinémie"
+      ],
+      "traitements_cles": [
+        "surveillance (microadénome)",
+        "chirurgie transsphénoïdale si compression visuelle",
+        "radiothérapie en cas de reliquat évolutif",
+        "substitution hormonale"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0016",
+        "PATH-ENDO-0023",
+        "PATH-ENDO-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0021",
+      "nom_fr": "Craniopharyngiome",
+      "nom_en": "Craniopharyngioma",
+      "synonymes": [],
+      "cim10": "D44.4",
+      "specialite": "ENDO",
+      "sous_specialite": "Hypophyse",
+      "categories": [
+        "endocrinienne",
+        "néoplasique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-083"
+      ],
+      "symptomes": [
+        "céphalées",
+        "troubles visuels",
+        "retard de croissance chez l'enfant",
+        "polyurie-polydipsie"
+      ],
+      "signes_cliniques": [
+        "hémianopsie",
+        "signes d'hypertension intracrânienne",
+        "retard statural",
+        "obésité hypothalamique"
+      ],
+      "examens_cles": [
+        "IRM (tumeur kystique et calcifiée de la région sellaire)",
+        "scanner (calcifications)",
+        "bilan antéhypophysaire et posthypophysaire",
+        "champ visuel"
+      ],
+      "traitements_cles": [
+        "chirurgie",
+        "radiothérapie",
+        "substitution hormonale",
+        "prise en charge de l'obésité hypothalamique"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0016",
+        "PATH-ENDO-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0022",
+      "nom_fr": "Syndrome de Sheehan",
+      "nom_en": "Sheehan syndrome",
+      "synonymes": [
+        "nécrose hypophysaire du post-partum"
+      ],
+      "cim10": "E23.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Hypophyse",
+      "categories": [
+        "endocrinienne",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-083"
+      ],
+      "symptomes": [
+        "absence de montée laiteuse",
+        "absence de retour de couches",
+        "asthénie",
+        "après une hémorragie de la délivrance"
+      ],
+      "signes_cliniques": [
+        "signes d'insuffisance antéhypophysaire (dépilation, pâleur)"
+      ],
+      "examens_cles": [
+        "bilan antéhypophysaire",
+        "IRM (selle turcique vide)"
+      ],
+      "traitements_cles": [
+        "substitution hormonale (hydrocortisone, lévothyroxine, œstroprogestatifs)",
+        "prévention des hémorragies de la délivrance"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0016",
+        "PATH-ENDO-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0023",
+      "nom_fr": "Apoplexie hypophysaire",
+      "nom_en": "Pituitary apoplexy",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ENDO",
+      "sous_specialite": "Hypophyse",
+      "categories": [
+        "endocrinienne",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-083"
+      ],
+      "symptomes": [
+        "céphalée brutale intense",
+        "vomissements",
+        "troubles visuels",
+        "diplopie",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "baisse d'acuité visuelle",
+        "ophtalmoplégie",
+        "syndrome méningé",
+        "collapsus (insuffisance corticotrope aiguë)"
+      ],
+      "examens_cles": [
+        "IRM ou scanner hypophysaire en urgence",
+        "cortisol",
+        "ionogramme",
+        "champ visuel"
+      ],
+      "traitements_cles": [
+        "hydrocortisone en urgence",
+        "décompression chirurgicale si atteinte visuelle sévère",
+        "substitution hormonale"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0020",
+        "PATH-ENDO-0026",
+        "PATH-NEUR-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0024",
+      "nom_fr": "Diabète insipide central (déficit en arginine vasopressine)",
+      "nom_en": "Central diabetes insipidus (arginine vasopressin deficiency)",
+      "synonymes": [],
+      "cim10": "E23.2",
+      "specialite": "ENDO",
+      "sous_specialite": "Hypophyse",
+      "categories": [
+        "endocrinienne",
+        "hydro-électrolytique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-093",
+        "RES-SF-010"
+      ],
+      "symptomes": [
+        "polyurie hypotonique abondante",
+        "polydipsie",
+        "soif intense",
+        "nycturie"
+      ],
+      "signes_cliniques": [
+        "déshydratation si accès à l'eau limité"
+      ],
+      "examens_cles": [
+        "osmolalité urinaire basse",
+        "test de restriction hydrique avec test à la desmopressine",
+        "copeptine",
+        "IRM hypothalamo-hypophysaire (perte de l'hypersignal posthypophysaire, lésion de la tige)"
+      ],
+      "traitements_cles": [
+        "desmopressine",
+        "apports hydriques adaptés",
+        "traitement de la cause (craniopharyngiome, histiocytose, traumatisme, sarcoïdose)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEPH-0047",
+        "PATH-NEPH-0039",
+        "PATH-ENDO-0021",
+        "PATH-MINT-0005",
+        "PATH-MINT-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0025",
+      "nom_fr": "Insuffisance surrénale primaire (maladie d'Addison)",
+      "nom_en": "Primary adrenal insufficiency (Addison disease)",
+      "synonymes": [
+        "maladie d'Addison"
+      ],
+      "cim10": "E27.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Surrénales",
+      "categories": [
+        "endocrinienne",
+        "auto-immune"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-089"
+      ],
+      "symptomes": [
+        "asthénie croissante dans la journée",
+        "amaigrissement",
+        "anorexie",
+        "troubles digestifs",
+        "douleurs abdominales",
+        "appétence pour le sel"
+      ],
+      "signes_cliniques": [
+        "mélanodermie (plis, cicatrices, muqueuses)",
+        "hypotension orthostatique"
+      ],
+      "examens_cles": [
+        "cortisol matinal bas",
+        "ACTH élevée",
+        "test au Synacthène",
+        "hyponatrémie et hyperkaliémie",
+        "rénine élevée",
+        "anticorps anti-21-hydroxylase",
+        "scanner surrénalien (tuberculose, métastases)"
+      ],
+      "traitements_cles": [
+        "hydrocortisone et fludrocortisone à vie",
+        "éducation (adaptation des doses en situation de stress, carte d'insuffisant surrénalien, kit d'urgence)"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0026",
+        "PATH-ENDO-0053",
+        "PATH-PNEU-0016",
+        "PATH-ENDO-0008",
+        "PATH-NEPH-0038",
+        "PATH-NEPH-0040"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0026",
+      "nom_fr": "Insuffisance surrénale aiguë",
+      "nom_en": "Adrenal crisis",
+      "synonymes": [
+        "crise surrénalienne"
+      ],
+      "cim10": "E27.2",
+      "specialite": "ENDO",
+      "sous_specialite": "Surrénales",
+      "categories": [
+        "endocrinienne",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-089",
+        "RES-MED-106"
+      ],
+      "symptomes": [
+        "asthénie extrême",
+        "douleurs abdominales",
+        "vomissements",
+        "diarrhée",
+        "confusion",
+        "facteur déclenchant (infection, arrêt de la corticothérapie, chirurgie)"
+      ],
+      "signes_cliniques": [
+        "déshydratation",
+        "hypotension puis collapsus",
+        "fièvre"
+      ],
+      "examens_cles": [
+        "ne pas retarder le traitement",
+        "cortisol et ACTH prélevés avant traitement",
+        "hyponatrémie, hyperkaliémie, hypoglycémie"
+      ],
+      "traitements_cles": [
+        "hydrocortisone IV en urgence",
+        "remplissage par soluté salé et glucosé",
+        "traitement du facteur déclenchant",
+        "éducation ultérieure"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0025",
+        "PATH-ENDO-0016",
+        "PATH-ENDO-0027",
+        "PATH-ENDO-0019",
+        "PATH-ENDO-0022",
+        "PATH-ENDO-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0027",
+      "nom_fr": "Hyperplasie congénitale des surrénales (déficit en 21-hydroxylase)",
+      "nom_en": "Congenital adrenal hyperplasia (21-hydroxylase deficiency)",
+      "synonymes": [
+        "bloc en 21-hydroxylase"
+      ],
+      "cim10": "E25.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Surrénales",
+      "categories": [
+        "endocrinienne",
+        "génétique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-SF-055"
+      ],
+      "symptomes": [
+        "ambiguïté sexuelle chez la fille à la naissance",
+        "syndrome de perte de sel du nouveau-né (vomissements, déshydratation)",
+        "pseudo-puberté précoce",
+        "hirsutisme et troubles des règles (forme non classique)"
+      ],
+      "signes_cliniques": [
+        "virilisation des organes génitaux externes",
+        "déshydratation",
+        "hyperpigmentation",
+        "avance staturale et osseuse"
+      ],
+      "examens_cles": [
+        "17-hydroxyprogestérone élevée (dépistage néonatal)",
+        "test au Synacthène (forme non classique)",
+        "ionogramme",
+        "caryotype",
+        "génétique (gène CYP21A2, consanguinité fréquente)"
+      ],
+      "traitements_cles": [
+        "hydrocortisone et fludrocortisone",
+        "supplémentation sodée chez le nourrisson",
+        "chirurgie génitale discutée",
+        "conseil génétique et diagnostic prénatal"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0026",
+        "PATH-ENDO-0042",
+        "PATH-ENDO-0047"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0028",
+      "nom_fr": "Phéochromocytome et paragangliome",
+      "nom_en": "Phaeochromocytoma and paraganglioma",
+      "synonymes": [],
+      "cim10": "D35.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Surrénales",
+      "categories": [
+        "endocrinienne",
+        "néoplasique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-090"
+      ],
+      "symptomes": [
+        "triade céphalées, sueurs, palpitations",
+        "HTA paroxystique ou permanente",
+        "pâleur",
+        "anxiété"
+      ],
+      "signes_cliniques": [
+        "HTA sévère ou paroxystique",
+        "hypotension orthostatique",
+        "amaigrissement"
+      ],
+      "examens_cles": [
+        "métanéphrines et normétanéphrines plasmatiques libres ou urinaires",
+        "scanner ou IRM surrénalien",
+        "scintigraphie ou TEP fonctionnelle",
+        "génétique constitutionnelle systématique (NEM2, VHL, NF1, SDHx)"
+      ],
+      "traitements_cles": [
+        "préparation médicale par alphabloquant puis bêtabloquant",
+        "surrénalectomie par cœlioscopie",
+        "surveillance prolongée",
+        "dépistage familial"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0040",
+        "PATH-CARD-0041",
+        "PATH-ENDO-0039",
+        "PATH-GENE-0022",
+        "PATH-GENE-0019",
+        "PATH-ENDO-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0029",
+      "nom_fr": "Hyperaldostéronisme primaire (syndrome de Conn)",
+      "nom_en": "Primary aldosteronism (Conn syndrome)",
+      "synonymes": [],
+      "cim10": "E26.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Surrénales",
+      "categories": [
+        "endocrinienne",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "symptomes": [
+        "HTA souvent résistante",
+        "crampes",
+        "faiblesse musculaire",
+        "polyurie"
+      ],
+      "signes_cliniques": [
+        "HTA",
+        "absence d'œdèmes"
+      ],
+      "examens_cles": [
+        "hypokaliémie (inconstante)",
+        "rapport aldostérone/rénine élevé dans des conditions standardisées",
+        "test de confirmation",
+        "scanner surrénalien",
+        "cathétérisme des veines surrénaliennes"
+      ],
+      "traitements_cles": [
+        "surrénalectomie unilatérale (adénome de Conn)",
+        "antagonistes des minéralocorticoïdes (spironolactone, éplérénone) dans les formes bilatérales"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0040",
+        "PATH-NEPH-0041",
+        "PATH-NEPH-0043",
+        "PATH-ENDO-0030",
+        "PATH-CARD-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0030",
+      "nom_fr": "Incidentalome surrénalien",
+      "nom_en": "Adrenal incidentaloma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ENDO",
+      "sous_specialite": "Surrénales",
+      "categories": [
+        "endocrinienne",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "découverte fortuite sur une imagerie réalisée pour une autre raison"
+      ],
+      "signes_cliniques": [
+        "examen souvent normal",
+        "signes discrets d'hypersécrétion"
+      ],
+      "examens_cles": [
+        "scanner surrénalien sans injection (densité spontanée, lavage)",
+        "test de freinage à la dexaméthasone",
+        "métanéphrines",
+        "rapport aldostérone/rénine si HTA"
+      ],
+      "traitements_cles": [
+        "surveillance des lésions bénignes non sécrétantes",
+        "surrénalectomie si sécrétion ou suspicion de malignité"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0028",
+        "PATH-ENDO-0029",
+        "PATH-ENDO-0019",
+        "PATH-ENDO-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0031",
+      "nom_fr": "Carcinome corticosurrénalien",
+      "nom_en": "Adrenocortical carcinoma",
+      "synonymes": [
+        "corticosurrénalome malin"
+      ],
+      "cim10": "C74.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Surrénales",
+      "categories": [
+        "endocrinienne",
+        "néoplasique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "syndrome de Cushing rapidement progressif",
+        "virilisation",
+        "douleurs abdominales",
+        "masse"
+      ],
+      "signes_cliniques": [
+        "signes d'hypercorticisme et d'hyperandrogénie",
+        "masse lombaire"
+      ],
+      "examens_cles": [
+        "bilan hormonal complet (cortisol, androgènes, précurseurs)",
+        "scanner et IRM (masse > 4 cm hétérogène)",
+        "TEP-scanner"
+      ],
+      "traitements_cles": [
+        "surrénalectomie complète",
+        "mitotane",
+        "chimiothérapie",
+        "radiothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0019",
+        "PATH-GENE-0037",
+        "PATH-ENDO-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0032",
+      "nom_fr": "Hyperparathyroïdie primaire",
+      "nom_en": "Primary hyperparathyroidism",
+      "synonymes": [],
+      "cim10": "E21.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Parathyroïdes et métabolisme phosphocalcique",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-087"
+      ],
+      "symptomes": [
+        "souvent asymptomatique (découverte biologique)",
+        "asthénie",
+        "polyurie",
+        "douleurs osseuses",
+        "lithiases rénales",
+        "troubles neuropsychiques"
+      ],
+      "signes_cliniques": [
+        "examen souvent normal"
+      ],
+      "examens_cles": [
+        "hypercalcémie avec PTH inappropriée (normale ou élevée)",
+        "phosphorémie basse",
+        "calciurie des 24 h",
+        "25-OH vitamine D",
+        "ostéodensitométrie",
+        "échographie rénale",
+        "imagerie de localisation (échographie cervicale, scintigraphie au MIBI, TEP-choline)"
+      ],
+      "traitements_cles": [
+        "parathyroïdectomie (adénome) selon les critères",
+        "surveillance dans les formes asymptomatiques",
+        "calcimimétique (cinacalcet) si contre-indication chirurgicale",
+        "hydratation"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0035",
+        "PATH-NEPH-0032",
+        "PATH-RHUM-0015",
+        "PATH-GAST-0042",
+        "PATH-ENDO-0038",
+        "PATH-ENDO-0039",
+        "PATH-RHUM-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0033",
+      "nom_fr": "Hypoparathyroïdie",
+      "nom_en": "Hypoparathyroidism",
+      "synonymes": [],
+      "cim10": "E20",
+      "specialite": "ENDO",
+      "sous_specialite": "Parathyroïdes et métabolisme phosphocalcique",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-088"
+      ],
+      "symptomes": [
+        "paresthésies péribuccales et des extrémités",
+        "crampes",
+        "crises de tétanie",
+        "convulsions",
+        "antécédent de chirurgie cervicale"
+      ],
+      "signes_cliniques": [
+        "signes de Chvostek et de Trousseau",
+        "cataracte",
+        "calcifications des noyaux gris"
+      ],
+      "examens_cles": [
+        "hypocalcémie avec PTH basse ou inappropriée",
+        "hyperphosphorémie",
+        "magnésémie",
+        "ECG (allongement du QT)"
+      ],
+      "traitements_cles": [
+        "calcium et dérivés hydroxylés de la vitamine D",
+        "PTH recombinante dans certaines formes",
+        "correction de la magnésémie"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0036",
+        "PATH-GENE-0006",
+        "PATH-ENDO-0053",
+        "PATH-NEPH-0049"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0034",
+      "nom_fr": "Pseudohypoparathyroïdie",
+      "nom_en": "Pseudohypoparathyroidism",
+      "synonymes": [
+        "ostéodystrophie héréditaire d'Albright"
+      ],
+      "cim10": "E20.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Parathyroïdes et métabolisme phosphocalcique",
+      "categories": [
+        "endocrinienne",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-088"
+      ],
+      "symptomes": [
+        "signes d'hypocalcémie",
+        "retard des apprentissages"
+      ],
+      "signes_cliniques": [
+        "petite taille",
+        "visage rond",
+        "brachymétacarpie (4e et 5e métacarpiens courts)",
+        "ossifications sous-cutanées",
+        "obésité"
+      ],
+      "examens_cles": [
+        "hypocalcémie et hyperphosphorémie avec PTH élevée (résistance)",
+        "génétique (GNAS)"
+      ],
+      "traitements_cles": [
+        "calcium et dérivés hydroxylés de la vitamine D",
+        "traitement des autres résistances hormonales"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0033",
+        "PATH-ENDO-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0035",
+      "nom_fr": "Hypercalcémie",
+      "nom_en": "Hypercalcaemia",
+      "synonymes": [],
+      "cim10": "E83.5",
+      "specialite": "ENDO",
+      "sous_specialite": "Parathyroïdes et métabolisme phosphocalcique",
+      "categories": [
+        "endocrinienne",
+        "métabolique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-087"
+      ],
+      "symptomes": [
+        "asthénie",
+        "polyurie-polydipsie",
+        "constipation",
+        "nausées",
+        "douleurs abdominales",
+        "confusion",
+        "coma (forme sévère)"
+      ],
+      "signes_cliniques": [
+        "déshydratation",
+        "troubles de conscience",
+        "signes de la cause"
+      ],
+      "examens_cles": [
+        "calcémie corrigée ou ionisée",
+        "PTH (dépendante ou indépendante)",
+        "25-OH et 1,25-(OH)2 vitamine D",
+        "électrophorèse des protéines",
+        "PTHrp",
+        "ECG (QT court)",
+        "bilan de cancer"
+      ],
+      "traitements_cles": [
+        "réhydratation par soluté salé isotonique",
+        "bisphosphonates IV ou dénosumab",
+        "corticoïdes (granulomatoses, hémopathies, intoxication par la vitamine D)",
+        "calcitonine",
+        "dialyse si forme grave",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0032",
+        "PATH-ONCO-0025",
+        "PATH-MINT-0005",
+        "PATH-PNEU-0022",
+        "PATH-NEPH-0047",
+        "PATH-NEPH-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0036",
+      "nom_fr": "Hypocalcémie",
+      "nom_en": "Hypocalcaemia",
+      "synonymes": [],
+      "cim10": "E83.5",
+      "specialite": "ENDO",
+      "sous_specialite": "Parathyroïdes et métabolisme phosphocalcique",
+      "categories": [
+        "endocrinienne",
+        "métabolique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-088"
+      ],
+      "symptomes": [
+        "paresthésies des extrémités et péribuccales",
+        "crampes",
+        "tétanie",
+        "spasme laryngé",
+        "convulsions"
+      ],
+      "signes_cliniques": [
+        "signes de Chvostek et de Trousseau",
+        "troubles du rythme"
+      ],
+      "examens_cles": [
+        "calcémie corrigée ou ionisée",
+        "PTH",
+        "phosphorémie",
+        "magnésémie",
+        "25-OH vitamine D",
+        "créatininémie",
+        "ECG (QT long)"
+      ],
+      "traitements_cles": [
+        "gluconate de calcium IV en urgence si symptomatique",
+        "calcium oral et vitamine D",
+        "correction de la magnésémie",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0033",
+        "PATH-ENDO-0037",
+        "PATH-NEPH-0049",
+        "PATH-NEPH-0023",
+        "PATH-GAST-0042",
+        "PATH-CARD-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0037",
+      "nom_fr": "Carence en vitamine D et rachitisme carentiel",
+      "nom_en": "Vitamin D deficiency and nutritional rickets",
+      "synonymes": [
+        "rachitisme"
+      ],
+      "cim10": "E55",
+      "specialite": "ENDO",
+      "sous_specialite": "Parathyroïdes et métabolisme phosphocalcique",
+      "categories": [
+        "endocrinienne",
+        "nutritionnelle",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-068",
+        "RES-MED-088"
+      ],
+      "symptomes": [
+        "retard de la marche",
+        "douleurs osseuses",
+        "faiblesse musculaire",
+        "convulsions hypocalcémiques du nourrisson"
+      ],
+      "signes_cliniques": [
+        "chapelet costal",
+        "bourrelets épiphysaires des poignets",
+        "craniotabès",
+        "jambes arquées",
+        "retard de fermeture de la fontanelle"
+      ],
+      "examens_cles": [
+        "25-OH vitamine D basse",
+        "calcémie et phosphorémie basses ou normales",
+        "phosphatases alcalines élevées",
+        "PTH élevée",
+        "radiographies des poignets (métaphyses élargies en cupule)"
+      ],
+      "traitements_cles": [
+        "supplémentation en vitamine D et en calcium",
+        "prophylaxie systématique chez le nourrisson",
+        "exposition solaire raisonnée"
+      ],
+      "pathologies_liees": [
+        "PATH-RHUM-0017",
+        "PATH-ENDO-0036",
+        "PATH-RHUM-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0038",
+      "nom_fr": "Néoplasie endocrinienne multiple de type 1",
+      "nom_en": "Multiple endocrine neoplasia type 1",
+      "synonymes": [
+        "syndrome de Wermer"
+      ],
+      "cim10": "D44.8",
+      "specialite": "ENDO",
+      "sous_specialite": "Tumeurs neuroendocrines",
+      "categories": [
+        "endocrinienne",
+        "génétique",
+        "néoplasique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "symptômes liés aux tumeurs (hypercalcémie, ulcères, hypoglycémies, troubles hypophysaires)",
+        "antécédents familiaux"
+      ],
+      "signes_cliniques": [
+        "signes des hypersécrétions"
+      ],
+      "examens_cles": [
+        "calcémie et PTH",
+        "gastrinémie",
+        "glycémie et insulinémie",
+        "prolactine et IGF-1",
+        "imagerie pancréatique et hypophysaire",
+        "génétique (gène MEN1)"
+      ],
+      "traitements_cles": [
+        "parathyroïdectomie subtotale",
+        "traitement des tumeurs neuroendocrines pancréatiques et des adénomes hypophysaires",
+        "dépistage familial"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0032",
+        "PATH-GAST-0017",
+        "PATH-ENDO-0041",
+        "PATH-ENDO-0017",
+        "PATH-ENDO-0040",
+        "PATH-PNEU-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0039",
+      "nom_fr": "Néoplasie endocrinienne multiple de type 2",
+      "nom_en": "Multiple endocrine neoplasia type 2",
+      "synonymes": [
+        "syndrome de Sipple"
+      ],
+      "cim10": "D44.8",
+      "specialite": "ENDO",
+      "sous_specialite": "Tumeurs neuroendocrines",
+      "categories": [
+        "endocrinienne",
+        "génétique",
+        "néoplasique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "nodule thyroïdien",
+        "HTA paroxystique",
+        "antécédents familiaux"
+      ],
+      "signes_cliniques": [
+        "cancer médullaire de la thyroïde",
+        "phéochromocytome",
+        "hyperparathyroïdie (NEM2A)",
+        "habitus marfanoïde et névromes muqueux (NEM2B)"
+      ],
+      "examens_cles": [
+        "calcitonine",
+        "métanéphrines",
+        "calcémie et PTH",
+        "génétique (gène RET)"
+      ],
+      "traitements_cles": [
+        "thyroïdectomie prophylactique selon la mutation",
+        "surrénalectomie du phéochromocytome avant toute autre chirurgie",
+        "dépistage familial"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0014",
+        "PATH-ENDO-0028",
+        "PATH-ENDO-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0040",
+      "nom_fr": "Tumeurs neuroendocrines digestives et pancréatiques (syndrome carcinoïde)",
+      "nom_en": "Gastroenteropancreatic neuroendocrine tumours",
+      "synonymes": [
+        "tumeurs carcinoïdes du grêle",
+        "tumeurs neuroendocrines pancréatiques"
+      ],
+      "cim10": null,
+      "specialite": "ENDO",
+      "sous_specialite": "Tumeurs neuroendocrines",
+      "categories": [
+        "endocrinienne",
+        "néoplasique",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "flush",
+        "diarrhée motrice",
+        "douleurs abdominales",
+        "syndromes sécrétoires",
+        "découverte fortuite"
+      ],
+      "signes_cliniques": [
+        "hépatomégalie métastatique",
+        "atteinte cardiaque droite (cardiopathie carcinoïde)"
+      ],
+      "examens_cles": [
+        "chromogranine A",
+        "5-HIAA urinaire",
+        "scanner et IRM",
+        "TEP aux analogues de la somatostatine (68Ga-DOTATOC)",
+        "histologie avec Ki-67 (grade)"
+      ],
+      "traitements_cles": [
+        "chirurgie",
+        "analogues de la somatostatine",
+        "radiothérapie interne vectorisée (lutétium-177)",
+        "évérolimus",
+        "sunitinib",
+        "chimiothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0041",
+        "PATH-GAST-0017",
+        "PATH-ENDO-0038",
+        "PATH-HEPA-0044",
+        "PATH-PNEU-0024",
+        "PATH-CARD-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0041",
+      "nom_fr": "Insulinome",
+      "nom_en": "Insulinoma",
+      "synonymes": [],
+      "cim10": "D13.7",
+      "specialite": "ENDO",
+      "sous_specialite": "Tumeurs neuroendocrines",
+      "categories": [
+        "endocrinienne",
+        "néoplasique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-SF-027"
+      ],
+      "symptomes": [
+        "malaises hypoglycémiques à jeun ou à l'effort (sueurs, confusion, troubles du comportement)",
+        "prise de poids"
+      ],
+      "signes_cliniques": [
+        "triade de Whipple (symptômes, hypoglycémie documentée, correction par le resucrage)"
+      ],
+      "examens_cles": [
+        "épreuve de jeûne de 72 h (hypoglycémie avec insuline et peptide C inappropriés)",
+        "recherche de sulfamides",
+        "écho-endoscopie",
+        "IRM",
+        "TEP-GLP-1"
+      ],
+      "traitements_cles": [
+        "énucléation ou pancréatectomie partielle",
+        "diazoxide",
+        "analogues de la somatostatine",
+        "resucrage"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0014",
+        "PATH-ENDO-0038",
+        "PATH-ENDO-0040",
+        "PATH-PSYC-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0042",
+      "nom_fr": "Syndrome des ovaires polykystiques",
+      "nom_en": "Polycystic ovary syndrome",
+      "synonymes": [
+        "SOPK",
+        "syndrome de Stein-Leventhal"
+      ],
+      "cim10": "E28.2",
+      "specialite": "ENDO",
+      "sous_specialite": "Gonades",
+      "categories": [
+        "endocrinienne",
+        "gynécologique",
+        "métabolique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "troubles du cycle (oligo-aménorrhée)",
+        "hirsutisme",
+        "acné",
+        "alopécie",
+        "infertilité",
+        "surpoids"
+      ],
+      "signes_cliniques": [
+        "hyperandrogénie clinique",
+        "obésité abdominale",
+        "acanthosis nigricans"
+      ],
+      "examens_cles": [
+        "critères de Rotterdam",
+        "testostérone totale",
+        "AMH",
+        "échographie pelvienne (morphologie ovarienne multifolliculaire)",
+        "élimination des autres causes (17-OH-progestérone, prolactine, TSH)",
+        "bilan métabolique (HGPO, lipides)"
+      ],
+      "traitements_cles": [
+        "mesures hygiéno-diététiques et perte de poids",
+        "contraception œstroprogestative",
+        "antiandrogènes",
+        "metformine",
+        "inducteurs de l'ovulation (létrozole, citrate de clomifène) en cas de désir de grossesse"
+      ],
+      "pathologies_liees": [
+        "PATH-DERM-0006",
+        "PATH-ENDO-0027",
+        "PATH-DIAB-0002",
+        "PATH-ENDO-0050",
+        "PATH-ENDO-0049",
+        "PATH-DERM-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0043",
+      "nom_fr": "Insuffisance ovarienne prématurée",
+      "nom_en": "Premature ovarian insufficiency",
+      "synonymes": [
+        "ménopause précoce"
+      ],
+      "cim10": "E28.3",
+      "specialite": "ENDO",
+      "sous_specialite": "Gonades",
+      "categories": [
+        "endocrinienne",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "aménorrhée avant 40 ans",
+        "bouffées de chaleur",
+        "sécheresse vaginale",
+        "infertilité"
+      ],
+      "signes_cliniques": [
+        "signes de carence œstrogénique"
+      ],
+      "examens_cles": [
+        "FSH élevée à deux reprises",
+        "œstradiol bas",
+        "AMH effondrée",
+        "caryotype",
+        "recherche de prémutation FMR1",
+        "anticorps anti-surrénales et anti-thyroïdiens"
+      ],
+      "traitements_cles": [
+        "traitement hormonal substitutif jusqu'à l'âge de la ménopause",
+        "prévention de l'ostéoporose et du risque cardiovasculaire",
+        "don d'ovocytes"
+      ],
+      "pathologies_liees": [
+        "PATH-GENE-0004",
+        "PATH-GENE-0011",
+        "PATH-ENDO-0053",
+        "PATH-ENDO-0025",
+        "PATH-RHUM-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0044",
+      "nom_fr": "Hypogonadisme masculin",
+      "nom_en": "Male hypogonadism",
+      "synonymes": [
+        "déficit androgénique"
+      ],
+      "cim10": "E29.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Gonades",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse de la libido",
+        "dysfonction érectile",
+        "asthénie",
+        "infertilité",
+        "diminution de la pilosité"
+      ],
+      "signes_cliniques": [
+        "petits testicules",
+        "gynécomastie",
+        "diminution de la masse musculaire"
+      ],
+      "examens_cles": [
+        "testostérone totale matinale répétée",
+        "LH et FSH (hypogonadisme hypo- ou hypergonadotrope)",
+        "prolactine",
+        "caryotype",
+        "spermogramme",
+        "IRM hypophysaire si hypogonadotrope"
+      ],
+      "traitements_cles": [
+        "testostérone (en l'absence de désir de paternité et de contre-indication)",
+        "gonadotrophines si désir de fertilité (forme hypogonadotrope)",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-GENE-0005",
+        "PATH-ENDO-0045",
+        "PATH-ENDO-0017",
+        "PATH-RHUM-0015",
+        "PATH-ENDO-0048"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0045",
+      "nom_fr": "Syndrome de Kallmann",
+      "nom_en": "Kallmann syndrome",
+      "synonymes": [
+        "hypogonadisme hypogonadotrope congénital avec anosmie"
+      ],
+      "cim10": "E23.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Gonades",
+      "categories": [
+        "endocrinienne",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "absence de puberté",
+        "anosmie ou hyposmie"
+      ],
+      "signes_cliniques": [
+        "impubérisme",
+        "micropénis",
+        "cryptorchidie"
+      ],
+      "examens_cles": [
+        "testostérone ou œstradiol bas avec LH et FSH basses",
+        "test olfactif",
+        "IRM (agénésie des bulbes olfactifs)",
+        "génétique"
+      ],
+      "traitements_cles": [
+        "induction pubertaire par stéroïdes sexuels",
+        "gonadotrophines ou GnRH pulsatile pour la fertilité"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0046",
+        "PATH-ENDO-0044"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0046",
+      "nom_fr": "Retard pubertaire",
+      "nom_en": "Delayed puberty",
+      "synonymes": [],
+      "cim10": "E30.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Gonades",
+      "categories": [
+        "endocrinienne",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "absence de développement pubertaire à 13 ans chez la fille ou 14 ans chez le garçon"
+      ],
+      "signes_cliniques": [
+        "stade de Tanner prépubère",
+        "petite taille possible"
+      ],
+      "examens_cles": [
+        "âge osseux",
+        "LH, FSH, œstradiol ou testostérone",
+        "caryotype",
+        "IRM si hypogonadotrope",
+        "bilan d'une maladie chronique (cœliaque, MICI)"
+      ],
+      "traitements_cles": [
+        "surveillance (retard simple)",
+        "induction pubertaire courte",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0045",
+        "PATH-GENE-0004",
+        "PATH-GENE-0005",
+        "PATH-GAST-0020",
+        "PATH-PSYC-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0047",
+      "nom_fr": "Puberté précoce",
+      "nom_en": "Precocious puberty",
+      "synonymes": [],
+      "cim10": "E30.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Gonades",
+      "categories": [
+        "endocrinienne",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "apparition des caractères sexuels secondaires avant 8 ans chez la fille ou 9 ans chez le garçon",
+        "accélération de la croissance"
+      ],
+      "signes_cliniques": [
+        "développement mammaire ou testiculaire",
+        "pilosité pubienne",
+        "avance staturale"
+      ],
+      "examens_cles": [
+        "âge osseux",
+        "LH et FSH après test à la GnRH",
+        "échographie pelvienne",
+        "IRM hypothalamo-hypophysaire (formes centrales, surtout chez le garçon)",
+        "17-OH-progestérone"
+      ],
+      "traitements_cles": [
+        "analogues de la GnRH (puberté précoce centrale)",
+        "traitement de la cause (tumeur, hyperplasie surrénale)"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0027",
+        "PATH-RHUM-0020",
+        "PATH-ENDO-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0048",
+      "nom_fr": "Gynécomastie",
+      "nom_en": "Gynaecomastia",
+      "synonymes": [],
+      "cim10": "N62",
+      "specialite": "ENDO",
+      "sous_specialite": "Gonades",
+      "categories": [
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "augmentation de volume des seins chez l'homme",
+        "tension mammaire"
+      ],
+      "signes_cliniques": [
+        "tissu glandulaire rétroaréolaire palpable, souvent bilatéral"
+      ],
+      "examens_cles": [
+        "examen des testicules",
+        "testostérone, œstradiol, LH, FSH, hCG, prolactine, TSH",
+        "bilan hépatique et rénal",
+        "revue des médicaments",
+        "échographie testiculaire",
+        "mammographie si suspicion de cancer"
+      ],
+      "traitements_cles": [
+        "abstention (gynécomastie pubertaire)",
+        "arrêt du médicament en cause",
+        "traitement de la cause",
+        "chirurgie dans les formes persistantes"
+      ],
+      "pathologies_liees": [
+        "PATH-GENE-0005",
+        "PATH-ENDO-0044",
+        "PATH-ONCO-0006",
+        "PATH-HEPA-0010",
+        "PATH-ENDO-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0049",
+      "nom_fr": "Obésité",
+      "nom_en": "Obesity",
+      "synonymes": [],
+      "cim10": "E66",
+      "specialite": "ENDO",
+      "sous_specialite": "Obésité et nutrition",
+      "categories": [
+        "métabolique",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-094"
+      ],
+      "symptomes": [
+        "prise de poids",
+        "dyspnée d'effort",
+        "douleurs articulaires",
+        "retentissement psychologique et social"
+      ],
+      "signes_cliniques": [
+        "IMC ≥ 30 kg/m²",
+        "tour de taille élevé",
+        "acanthosis nigricans",
+        "vergetures"
+      ],
+      "examens_cles": [
+        "IMC et tour de taille",
+        "bilan des complications (glycémie, bilan lipidique, transaminases, polygraphie ventilatoire)",
+        "recherche d'une cause (hypothyroïdie, Cushing, génétique)"
+      ],
+      "traitements_cles": [
+        "mesures hygiéno-diététiques et activité physique",
+        "prise en charge psychologique",
+        "agonistes du GLP-1 et double agonistes GIP/GLP-1",
+        "chirurgie bariatrique selon les critères"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0050",
+        "PATH-DIAB-0002",
+        "PATH-CARD-0040",
+        "PATH-PNEU-0047",
+        "PATH-PNEU-0048",
+        "PATH-HEPA-0009",
+        "PATH-RHUM-0013",
+        "PATH-ENDO-0042",
+        "PATH-PSYC-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0050",
+      "nom_fr": "Syndrome métabolique",
+      "nom_en": "Metabolic syndrome",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ENDO",
+      "sous_specialite": "Obésité et nutrition",
+      "categories": [
+        "métabolique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-094"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "surpoids abdominal"
+      ],
+      "signes_cliniques": [
+        "obésité abdominale",
+        "HTA"
+      ],
+      "examens_cles": [
+        "tour de taille",
+        "glycémie à jeun",
+        "triglycérides",
+        "HDL-cholestérol",
+        "pression artérielle (critères IDF/NCEP)"
+      ],
+      "traitements_cles": [
+        "mesures hygiéno-diététiques",
+        "activité physique",
+        "perte de poids",
+        "traitement de chaque composante",
+        "prévention cardiovasculaire"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0049",
+        "PATH-DIAB-0002",
+        "PATH-CARD-0040",
+        "PATH-ENDO-0052",
+        "PATH-HEPA-0009",
+        "PATH-CARD-0001",
+        "PATH-ENDO-0042"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0051",
+      "nom_fr": "Hypercholestérolémie familiale",
+      "nom_en": "Familial hypercholesterolaemia",
+      "synonymes": [
+        "hypercholestérolémie primaire monogénique"
+      ],
+      "cim10": "E78.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Dyslipidémies",
+      "categories": [
+        "métabolique",
+        "génétique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-095",
+        "RES-SF-029"
+      ],
+      "symptomes": [
+        "antécédents familiaux d'accidents coronariens précoces",
+        "souvent asymptomatique"
+      ],
+      "signes_cliniques": [
+        "xanthomes tendineux (tendons d'Achille, extenseurs des doigts)",
+        "arc cornéen précoce",
+        "xanthélasma"
+      ],
+      "examens_cles": [
+        "LDL-cholestérol très élevé",
+        "score des Dutch Lipid Clinic",
+        "génétique (LDLR, APOB, PCSK9)",
+        "dépistage familial en cascade"
+      ],
+      "traitements_cles": [
+        "régime",
+        "statine à forte dose",
+        "ézétimibe",
+        "inhibiteurs de PCSK9",
+        "aphérèse des LDL (forme homozygote)"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0001",
+        "PATH-CARD-0002",
+        "PATH-CARD-0045",
+        "PATH-ENDO-0052"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0052",
+      "nom_fr": "Hypertriglycéridémie",
+      "nom_en": "Hypertriglyceridaemia",
+      "synonymes": [
+        "dyslipidémie mixte (formes associées)"
+      ],
+      "cim10": "E78.1",
+      "specialite": "ENDO",
+      "sous_specialite": "Dyslipidémies",
+      "categories": [
+        "métabolique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-095",
+        "RES-SF-029"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "douleurs abdominales (pancréatite aiguë) si très élevée"
+      ],
+      "signes_cliniques": [
+        "xanthomes éruptifs",
+        "lipémie rétinienne",
+        "hépatomégalie (stéatose)"
+      ],
+      "examens_cles": [
+        "triglycérides à jeun",
+        "bilan lipidique complet",
+        "glycémie",
+        "TSH",
+        "fonction rénale",
+        "recherche d'alcool et de médicaments"
+      ],
+      "traitements_cles": [
+        "mesures hygiéno-diététiques (alcool, sucres, poids)",
+        "fibrates",
+        "acides gras oméga-3",
+        "statine selon le risque cardiovasculaire",
+        "traitement des causes secondaires"
+      ],
+      "pathologies_liees": [
+        "PATH-GAST-0042",
+        "PATH-ENDO-0050",
+        "PATH-DIAB-0002",
+        "PATH-HEPA-0009",
+        "PATH-PSYC-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ENDO-0053",
+      "nom_fr": "Polyendocrinopathies auto-immunes",
+      "nom_en": "Autoimmune polyendocrine syndromes",
+      "synonymes": [
+        "syndrome APS-1 (APECED)",
+        "syndrome APS-2 (syndrome de Schmidt)"
+      ],
+      "cim10": "E31.0",
+      "specialite": "ENDO",
+      "sous_specialite": "Thyroïde",
+      "categories": [
+        "endocrinienne",
+        "auto-immune"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "association de plusieurs déficits endocriniens auto-immuns",
+        "candidose cutanéomuqueuse chronique (APS-1)"
+      ],
+      "signes_cliniques": [
+        "signes d'insuffisance surrénale, de dysthyroïdie, de diabète",
+        "vitiligo",
+        "candidose chronique",
+        "hypoparathyroïdie (APS-1)"
+      ],
+      "examens_cles": [
+        "dépistage des autres atteintes endocriniennes et de leurs anticorps",
+        "génétique (gène AIRE pour APS-1)"
+      ],
+      "traitements_cles": [
+        "substitution des déficits hormonaux",
+        "traitement antifongique",
+        "surveillance au long cours",
+        "dépistage familial"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0025",
+        "PATH-ENDO-0008",
+        "PATH-DIAB-0001",
+        "PATH-ENDO-0033",
+        "PATH-DERM-0015",
+        "PATH-ENDO-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0001",
+      "nom_fr": "Diabète de type 1",
+      "nom_en": "Type 1 diabetes mellitus",
+      "synonymes": [
+        "diabète insulinodépendant",
+        "diabète juvénile"
+      ],
+      "cim10": "E10",
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 1",
+      "categories": [
+        "endocrinienne",
+        "métabolique",
+        "auto-immune"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091",
+        "RES-MED-077",
+        "RES-SF-027"
+      ],
+      "symptomes": [
+        "syndrome polyuro-polydipsique",
+        "amaigrissement",
+        "asthénie",
+        "polyphagie",
+        "énurésie chez l'enfant",
+        "début souvent brutal"
+      ],
+      "signes_cliniques": [
+        "amaigrissement",
+        "déshydratation",
+        "acidocétose inaugurale"
+      ],
+      "examens_cles": [
+        "glycémie à jeun ≥ 1,26 g/L ou aléatoire ≥ 2 g/L avec symptômes",
+        "HbA1c",
+        "cétonémie ou cétonurie",
+        "auto-anticorps (anti-GAD, anti-IA2, anti-ZnT8, anti-insuline)",
+        "peptide C bas"
+      ],
+      "traitements_cles": [
+        "insulinothérapie basal-bolus ou pompe à insuline",
+        "autosurveillance glycémique et mesure continue du glucose",
+        "éducation thérapeutique (insulinothérapie fonctionnelle)",
+        "boucle fermée",
+        "dépistage des maladies auto-immunes associées"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0012",
+        "PATH-DIAB-0014",
+        "PATH-DIAB-0016",
+        "PATH-DIAB-0017",
+        "PATH-DIAB-0018",
+        "PATH-ENDO-0008",
+        "PATH-GAST-0020",
+        "PATH-ENDO-0053",
+        "PATH-DIAB-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0002",
+      "nom_fr": "Diabète de type 2",
+      "nom_en": "Type 2 diabetes mellitus",
+      "synonymes": [
+        "diabète non insulinodépendant"
+      ],
+      "cim10": "E11",
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 2",
+      "categories": [
+        "endocrinienne",
+        "métabolique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091",
+        "RES-SF-027"
+      ],
+      "symptomes": [
+        "souvent asymptomatique (découverte fortuite)",
+        "syndrome polyuro-polydipsique",
+        "infections récidivantes",
+        "terrain de surpoids et antécédents familiaux"
+      ],
+      "signes_cliniques": [
+        "surpoids abdominal",
+        "acanthosis nigricans",
+        "signes de complications"
+      ],
+      "examens_cles": [
+        "glycémie à jeun ≥ 1,26 g/L à deux reprises ou HbA1c ≥ 6,5 %",
+        "bilan des complications (fond d'œil, albuminurie, DFG, ECG, examen des pieds, bilan lipidique)"
+      ],
+      "traitements_cles": [
+        "mesures hygiéno-diététiques et activité physique",
+        "metformine",
+        "iSGLT2 et agonistes du GLP-1 (bénéfice cardiorénal)",
+        "inhibiteurs de la DPP-4",
+        "sulfamides",
+        "insulinothérapie",
+        "contrôle des facteurs de risque cardiovasculaire"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0009",
+        "PATH-ENDO-0050",
+        "PATH-ENDO-0049",
+        "PATH-DIAB-0013",
+        "PATH-DIAB-0016",
+        "PATH-DIAB-0017",
+        "PATH-DIAB-0018",
+        "PATH-DIAB-0020",
+        "PATH-DIAB-0021",
+        "PATH-HEPA-0009",
+        "PATH-DIAB-0015",
+        "PATH-DIAB-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0003",
+      "nom_fr": "Diabète MODY (diabète monogénique)",
+      "nom_en": "Maturity-onset diabetes of the young",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 2",
+      "categories": [
+        "endocrinienne",
+        "génétique",
+        "métabolique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "diabète d'apparition jeune (avant 25-35 ans) sans obésité",
+        "antécédents familiaux sur plusieurs générations (transmission autosomique dominante)"
+      ],
+      "signes_cliniques": [
+        "absence d'insulinorésistance",
+        "kystes rénaux et anomalies génitales (MODY HNF1B)"
+      ],
+      "examens_cles": [
+        "auto-anticorps négatifs",
+        "peptide C conservé",
+        "génétique (GCK, HNF1A, HNF4A, HNF1B)"
+      ],
+      "traitements_cles": [
+        "abstention (MODY-GCK)",
+        "sulfamides à faible dose (MODY-HNF1A et HNF4A)",
+        "insuline selon le cas",
+        "dépistage familial"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0001",
+        "PATH-DIAB-0002",
+        "PATH-DIAB-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0004",
+      "nom_fr": "Diabète auto-immun latent de l'adulte (LADA)",
+      "nom_en": "Latent autoimmune diabetes in adults",
+      "synonymes": [
+        "diabète de type 1 lent"
+      ],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 1",
+      "categories": [
+        "endocrinienne",
+        "auto-immune"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "diabète de l'adulte d'apparition progressive, sans obésité, avec évolution rapide vers l'insulinorequérance"
+      ],
+      "signes_cliniques": [
+        "poids normal",
+        "absence de signes d'insulinorésistance"
+      ],
+      "examens_cles": [
+        "anticorps anti-GAD positifs",
+        "peptide C diminuant progressivement"
+      ],
+      "traitements_cles": [
+        "insulinothérapie précoce",
+        "éviction des sulfamides"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0001",
+        "PATH-DIAB-0002",
+        "PATH-DIAB-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0005",
+      "nom_fr": "Diabète néonatal",
+      "nom_en": "Neonatal diabetes mellitus",
+      "synonymes": [],
+      "cim10": "P70.2",
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 1",
+      "categories": [
+        "endocrinienne",
+        "génétique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "hyperglycémie dans les 6 premiers mois de vie",
+        "retard de croissance intra-utérin",
+        "déshydratation"
+      ],
+      "signes_cliniques": [
+        "déshydratation",
+        "cassure pondérale",
+        "signes neurologiques (syndrome DEND)"
+      ],
+      "examens_cles": [
+        "glycémie",
+        "peptide C",
+        "génétique (KCNJ11, ABCC8, INS, 6q24)"
+      ],
+      "traitements_cles": [
+        "insulinothérapie",
+        "sulfamides à forte dose (mutations des canaux potassiques)",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0001",
+        "PATH-DIAB-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0006",
+      "nom_fr": "Diabète mitochondrial (MIDD)",
+      "nom_en": "Maternally inherited diabetes and deafness",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 2",
+      "categories": [
+        "endocrinienne",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "diabète associé à une surdité de perception",
+        "transmission maternelle"
+      ],
+      "signes_cliniques": [
+        "surdité",
+        "dystrophie maculaire",
+        "myopathie"
+      ],
+      "examens_cles": [
+        "génétique (mutation m.3243A>G de l'ADN mitochondrial)",
+        "audiogramme",
+        "examen ophtalmologique"
+      ],
+      "traitements_cles": [
+        "insulinothérapie progressive",
+        "éviction de la metformine",
+        "appareillage auditif"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0041",
+        "PATH-DIAB-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0007",
+      "nom_fr": "Diabète pancréatique (diabète de type 3c)",
+      "nom_en": "Pancreatogenic diabetes (type 3c)",
+      "synonymes": [
+        "diabète secondaire à une pathologie pancréatique exocrine"
+      ],
+      "cim10": "E13",
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 2",
+      "categories": [
+        "endocrinienne",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "diabète survenant après une pancréatite chronique, une pancréatectomie, une mucoviscidose ou une hémochromatose"
+      ],
+      "signes_cliniques": [
+        "dénutrition",
+        "stéatorrhée associée"
+      ],
+      "examens_cles": [
+        "glycémie et HbA1c",
+        "élastase fécale",
+        "imagerie pancréatique",
+        "recherche d'un cancer du pancréas si diabète récent du sujet âgé"
+      ],
+      "traitements_cles": [
+        "insulinothérapie souvent nécessaire (risque d'hypoglycémie)",
+        "extraits pancréatiques",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-GAST-0041",
+        "PATH-GENE-0024",
+        "PATH-HEPA-0026",
+        "PATH-GAST-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0008",
+      "nom_fr": "Diabète cortico-induit",
+      "nom_en": "Glucocorticoid-induced diabetes",
+      "synonymes": [],
+      "cim10": "E13",
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 2",
+      "categories": [
+        "endocrinienne",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "symptomes": [
+        "hyperglycémie survenant sous corticothérapie, prédominant l'après-midi"
+      ],
+      "signes_cliniques": [
+        "signes d'hypercorticisme"
+      ],
+      "examens_cles": [
+        "glycémies capillaires de l'après-midi",
+        "HbA1c"
+      ],
+      "traitements_cles": [
+        "insulinothérapie adaptée au rythme de la corticothérapie",
+        "dose minimale de corticoïdes",
+        "surveillance à l'arrêt"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0019",
+        "PATH-DIAB-0002",
+        "PATH-RHUM-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0009",
+      "nom_fr": "Prédiabète (hyperglycémie modérée à jeun et intolérance au glucose)",
+      "nom_en": "Prediabetes (impaired fasting glucose and impaired glucose tolerance)",
+      "synonymes": [],
+      "cim10": "R73.0",
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète de type 2",
+      "categories": [
+        "endocrinienne",
+        "métabolique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "asymptomatique"
+      ],
+      "signes_cliniques": [
+        "surpoids",
+        "obésité abdominale"
+      ],
+      "examens_cles": [
+        "glycémie à jeun entre 1,10 et 1,25 g/L",
+        "HGPO (glycémie à 2 h entre 1,40 et 1,99 g/L)",
+        "HbA1c entre 5,7 et 6,4 %"
+      ],
+      "traitements_cles": [
+        "mesures hygiéno-diététiques intensives (perte de poids, activité physique)",
+        "metformine dans certains cas",
+        "dépistage annuel du diabète"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0002",
+        "PATH-ENDO-0050",
+        "PATH-ENDO-0049"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0010",
+      "nom_fr": "Diabète gestationnel",
+      "nom_en": "Gestational diabetes mellitus",
+      "synonymes": [],
+      "cim10": "O24.4",
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète et grossesse",
+      "categories": [
+        "endocrinienne",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-067"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "dépistage systématique ou ciblé pendant la grossesse"
+      ],
+      "signes_cliniques": [
+        "macrosomie fœtale",
+        "hydramnios"
+      ],
+      "examens_cles": [
+        "glycémie à jeun au 1er trimestre",
+        "HGPO 75 g entre 24 et 28 semaines d'aménorrhée",
+        "autosurveillance glycémique"
+      ],
+      "traitements_cles": [
+        "mesures diététiques et activité physique",
+        "insulinothérapie si objectifs non atteints",
+        "surveillance obstétricale (macrosomie, prééclampsie)",
+        "dépistage du diabète de type 2 après l'accouchement"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0002",
+        "PATH-DIAB-0011",
+        "PATH-DIAB-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0011",
+      "nom_fr": "Diabète préexistant et grossesse",
+      "nom_en": "Pre-existing diabetes in pregnancy",
+      "synonymes": [
+        "diabète prégestationnel"
+      ],
+      "cim10": "O24",
+      "specialite": "DIAB",
+      "sous_specialite": "Diabète et grossesse",
+      "categories": [
+        "endocrinienne",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-067"
+      ],
+      "symptomes": [
+        "grossesse chez une patiente diabétique de type 1 ou 2",
+        "risque de malformations et de complications materno-fœtales"
+      ],
+      "signes_cliniques": [
+        "macrosomie",
+        "hydramnios",
+        "aggravation d'une rétinopathie"
+      ],
+      "examens_cles": [
+        "HbA1c préconceptionnelle",
+        "fond d'œil",
+        "albuminurie",
+        "échographies morphologiques et de croissance",
+        "échocardiographie fœtale"
+      ],
+      "traitements_cles": [
+        "programmation de la grossesse avec équilibre glycémique optimal",
+        "acide folique",
+        "insulinothérapie intensive",
+        "arrêt des médicaments tératogènes (IEC, statines)",
+        "surveillance obstétricale rapprochée"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0001",
+        "PATH-DIAB-0002",
+        "PATH-DIAB-0010",
+        "PATH-DIAB-0016",
+        "PATH-CARD-0063",
+        "PATH-DIAB-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0012",
+      "nom_fr": "Acidocétose diabétique",
+      "nom_en": "Diabetic ketoacidosis",
+      "synonymes": [],
+      "cim10": "E10.1",
+      "specialite": "DIAB",
+      "sous_specialite": "Complications aiguës",
+      "categories": [
+        "endocrinienne",
+        "métabolique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "symptomes": [
+        "syndrome polyuro-polydipsique",
+        "nausées",
+        "vomissements",
+        "douleurs abdominales",
+        "asthénie",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "déshydratation globale",
+        "dyspnée de Kussmaul",
+        "haleine cétonique (odeur de pomme)",
+        "troubles de conscience"
+      ],
+      "examens_cles": [
+        "glycémie > 2,5 g/L",
+        "cétonémie élevée ou cétonurie",
+        "gaz du sang (acidose métabolique à trou anionique élevé)",
+        "ionogramme (kaliémie)",
+        "recherche du facteur déclenchant"
+      ],
+      "traitements_cles": [
+        "réhydratation IV",
+        "insulinothérapie IV continue",
+        "supplémentation potassique",
+        "traitement du facteur déclenchant",
+        "éducation pour prévenir les récidives"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0001",
+        "PATH-NEPH-0042",
+        "PATH-NEPH-0041",
+        "PATH-NEPH-0040",
+        "PATH-DIAB-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0013",
+      "nom_fr": "Syndrome d'hyperglycémie hyperosmolaire",
+      "nom_en": "Hyperosmolar hyperglycaemic state",
+      "synonymes": [
+        "coma hyperosmolaire"
+      ],
+      "cim10": "E11.0",
+      "specialite": "DIAB",
+      "sous_specialite": "Complications aiguës",
+      "categories": [
+        "endocrinienne",
+        "métabolique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "symptomes": [
+        "polyurie",
+        "soif",
+        "déshydratation progressive",
+        "confusion",
+        "sujet âgé diabétique de type 2"
+      ],
+      "signes_cliniques": [
+        "déshydratation majeure",
+        "troubles de conscience",
+        "signes neurologiques focaux",
+        "absence de dyspnée de Kussmaul"
+      ],
+      "examens_cles": [
+        "glycémie très élevée (> 6 g/L)",
+        "osmolalité plasmatique > 320 mOsm/kg",
+        "absence de cétose significative",
+        "natrémie corrigée",
+        "créatininémie"
+      ],
+      "traitements_cles": [
+        "réhydratation prudente et prolongée",
+        "insulinothérapie IV à faible débit",
+        "correction de la kaliémie",
+        "prévention thromboembolique",
+        "traitement du facteur déclenchant"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0002",
+        "PATH-GERI-0007",
+        "PATH-DIAB-0012",
+        "PATH-NEPH-0039"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0014",
+      "nom_fr": "Hypoglycémie",
+      "nom_en": "Hypoglycaemia",
+      "synonymes": [
+        "coma hypoglycémique"
+      ],
+      "cim10": "E16.2",
+      "specialite": "DIAB",
+      "sous_specialite": "Complications aiguës",
+      "categories": [
+        "endocrinienne",
+        "métabolique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-092",
+        "RES-SF-027"
+      ],
+      "symptomes": [
+        "sueurs",
+        "tremblements",
+        "palpitations",
+        "faim",
+        "troubles du comportement",
+        "confusion",
+        "convulsions",
+        "coma"
+      ],
+      "signes_cliniques": [
+        "sueurs profuses",
+        "tachycardie",
+        "signes neurologiques",
+        "correction rapide par le resucrage"
+      ],
+      "examens_cles": [
+        "glycémie capillaire et veineuse < 0,70 g/L (diabétique) ou < 0,55 g/L (non diabétique)",
+        "en dehors du diabète : insuline, peptide C, recherche de sulfamides, cortisol"
+      ],
+      "traitements_cles": [
+        "resucrage oral si conscient",
+        "glucose IV ou glucagon si troubles de conscience",
+        "recherche et correction de la cause (erreur de dose, sulfamides, alcool, insuffisance rénale)",
+        "éducation"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0001",
+        "PATH-DIAB-0002",
+        "PATH-ENDO-0041",
+        "PATH-ENDO-0025",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0025",
+        "PATH-NEUR-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0015",
+      "nom_fr": "Acidose lactique (dont associée à la metformine)",
+      "nom_en": "Lactic acidosis (including metformin-associated)",
+      "synonymes": [],
+      "cim10": "E87.2",
+      "specialite": "DIAB",
+      "sous_specialite": "Complications aiguës",
+      "categories": [
+        "métabolique",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "symptomes": [
+        "douleurs abdominales",
+        "vomissements",
+        "asthénie",
+        "crampes",
+        "polypnée",
+        "confusion"
+      ],
+      "signes_cliniques": [
+        "polypnée",
+        "hypotension",
+        "état de choc",
+        "troubles de conscience"
+      ],
+      "examens_cles": [
+        "lactates > 5 mmol/L",
+        "acidose métabolique à trou anionique élevé",
+        "créatininémie",
+        "metforminémie"
+      ],
+      "traitements_cles": [
+        "traitement du choc et de la cause",
+        "épuration extrarénale si forme sévère liée à la metformine",
+        "respect des contre-indications de la metformine (insuffisance rénale sévère, hypoxie)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEPH-0042",
+        "PATH-DIAB-0002",
+        "PATH-NEPH-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0016",
+      "nom_fr": "Rétinopathie diabétique",
+      "nom_en": "Diabetic retinopathy",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Complications chroniques",
+      "categories": [
+        "endocrinienne",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-042",
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "longtemps asymptomatique",
+        "baisse d'acuité visuelle (œdème maculaire, hémorragie du vitré)"
+      ],
+      "signes_cliniques": [
+        "microanévrismes",
+        "hémorragies rétiniennes",
+        "exsudats",
+        "néovaisseaux (forme proliférante)",
+        "œdème maculaire"
+      ],
+      "examens_cles": [
+        "fond d'œil ou rétinographie annuelle",
+        "angiographie à la fluorescéine",
+        "OCT (œdème maculaire)"
+      ],
+      "traitements_cles": [
+        "équilibre glycémique et tensionnel progressif",
+        "photocoagulation panrétinienne au laser",
+        "injections intravitréennes d'anti-VEGF ou de corticoïdes",
+        "vitrectomie"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0001",
+        "PATH-DIAB-0002",
+        "PATH-DIAB-0017",
+        "PATH-CARD-0040",
+        "PATH-DIAB-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0017",
+      "nom_fr": "Maladie rénale diabétique (néphropathie diabétique)",
+      "nom_en": "Diabetic kidney disease",
+      "synonymes": [
+        "glomérulopathie diabétique"
+      ],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Complications chroniques",
+      "categories": [
+        "endocrinienne",
+        "rénale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091",
+        "RES-MED-123"
+      ],
+      "symptomes": [
+        "asymptomatique",
+        "œdèmes tardifs"
+      ],
+      "signes_cliniques": [
+        "HTA",
+        "syndrome néphrotique",
+        "rétinopathie associée"
+      ],
+      "examens_cles": [
+        "albuminurie (rapport albumine/créatinine urinaire)",
+        "DFG estimé",
+        "biopsie rénale si présentation atypique"
+      ],
+      "traitements_cles": [
+        "équilibre glycémique",
+        "IEC ou ARA2",
+        "iSGLT2",
+        "finérénone",
+        "agonistes du GLP-1",
+        "contrôle tensionnel",
+        "préparation à la suppléance"
+      ],
+      "pathologies_liees": [
+        "PATH-NEPH-0023",
+        "PATH-NEPH-0024",
+        "PATH-DIAB-0016",
+        "PATH-CARD-0040",
+        "PATH-NEPH-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0018",
+      "nom_fr": "Polyneuropathie diabétique",
+      "nom_en": "Diabetic peripheral neuropathy",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Complications chroniques",
+      "categories": [
+        "endocrinienne",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091",
+        "RES-MED-034"
+      ],
+      "symptomes": [
+        "paresthésies et douleurs distales des pieds, nocturnes, à type de brûlures",
+        "engourdissement",
+        "troubles de l'équilibre"
+      ],
+      "signes_cliniques": [
+        "hypoesthésie distale en chaussettes (test au monofilament)",
+        "abolition des réflexes achilléens",
+        "troubles trophiques"
+      ],
+      "examens_cles": [
+        "examen au monofilament et au diapason",
+        "EMG si atypie",
+        "recherche d'autres causes (B12, alcool, hypothyroïdie)"
+      ],
+      "traitements_cles": [
+        "équilibre glycémique",
+        "antalgiques neuropathiques (duloxétine, prégabaline, amitriptyline)",
+        "prévention des lésions des pieds"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0020",
+        "PATH-DIAB-0019",
+        "PATH-NEUR-0030",
+        "PATH-NEUR-0031",
+        "PATH-RHUM-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0019",
+      "nom_fr": "Neuropathie autonome diabétique",
+      "nom_en": "Diabetic autonomic neuropathy",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Complications chroniques",
+      "categories": [
+        "endocrinienne",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "malaises orthostatiques",
+        "troubles digestifs (gastroparésie, diarrhée)",
+        "troubles urinaires",
+        "dysfonction érectile",
+        "hypoglycémies non ressenties"
+      ],
+      "signes_cliniques": [
+        "hypotension orthostatique",
+        "tachycardie de repos",
+        "anhidrose"
+      ],
+      "examens_cles": [
+        "mesure tensionnelle couché-debout",
+        "tests cardiovasculaires (variabilité de la fréquence cardiaque)",
+        "scintigraphie de vidange gastrique",
+        "bilan urodynamique"
+      ],
+      "traitements_cles": [
+        "équilibre glycémique",
+        "traitement de l'hypotension orthostatique",
+        "prokinétiques",
+        "inhibiteurs de la phosphodiestérase 5",
+        "autosondages si rétention"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0042",
+        "PATH-GAST-0016",
+        "PATH-DIAB-0018",
+        "PATH-DIAB-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0020",
+      "nom_fr": "Pied diabétique",
+      "nom_en": "Diabetic foot",
+      "synonymes": [
+        "mal perforant plantaire",
+        "ostéite du pied diabétique"
+      ],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Pied diabétique",
+      "categories": [
+        "endocrinienne",
+        "infectieuse",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "symptomes": [
+        "plaie indolore du pied",
+        "écoulement",
+        "fièvre si infection"
+      ],
+      "signes_cliniques": [
+        "mal perforant plantaire",
+        "déformations (pied de Charcot)",
+        "ischémie (abolition des pouls)",
+        "signes d'infection",
+        "ostéite (contact osseux)"
+      ],
+      "examens_cles": [
+        "gradation du risque (neuropathie, artériopathie, déformations)",
+        "index de pression systolique et pression d'orteil",
+        "écho-Doppler artériel",
+        "radiographie et IRM (ostéite)",
+        "prélèvements bactériologiques profonds"
+      ],
+      "traitements_cles": [
+        "mise en décharge",
+        "soins locaux et débridement",
+        "antibiothérapie si infection",
+        "revascularisation",
+        "amputation si nécessaire",
+        "éducation et chaussage adapté",
+        "podologie"
+      ],
+      "pathologies_liees": [
+        "PATH-DIAB-0018",
+        "PATH-CARD-0045",
+        "PATH-DIAB-0021",
+        "PATH-DERM-0029",
+        "PATH-DERM-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DIAB-0021",
+      "nom_fr": "Macroangiopathie diabétique",
+      "nom_en": "Diabetic macrovascular disease",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "DIAB",
+      "sous_specialite": "Complications chroniques",
+      "categories": [
+        "endocrinienne",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-091",
+        "RES-SF-059"
+      ],
+      "symptomes": [
+        "souvent asymptomatique (ischémie silencieuse)",
+        "angor",
+        "claudication",
+        "déficit neurologique"
+      ],
+      "signes_cliniques": [
+        "abolition des pouls",
+        "souffles vasculaires",
+        "signes de cardiopathie ischémique"
+      ],
+      "examens_cles": [
+        "ECG",
+        "dépistage de l'ischémie myocardique silencieuse selon le risque",
+        "écho-Doppler des troncs supra-aortiques et des membres inférieurs",
+        "index de pression systolique"
+      ],
+      "traitements_cles": [
+        "contrôle global des facteurs de risque (statine, antihypertenseurs, sevrage tabagique)",
+        "iSGLT2 et agonistes du GLP-1 à bénéfice cardiovasculaire démontré",
+        "antiagrégant en prévention secondaire",
+        "revascularisation"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0001",
+        "PATH-CARD-0002",
+        "PATH-CARD-0045",
+        "PATH-NEUR-0001",
+        "PATH-CARD-0047",
+        "PATH-DIAB-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0001",
+      "nom_fr": "Cancer du sein",
+      "nom_en": "Breast cancer",
+      "synonymes": [
+        "carcinome mammaire",
+        "carcinome canalaire infiltrant",
+        "carcinome lobulaire infiltrant"
+      ],
+      "cim10": "C50",
+      "specialite": "ONCO",
+      "sous_specialite": "Sénologie",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-062"
+      ],
+      "symptomes": [
+        "nodule du sein",
+        "écoulement mamelonnaire sanglant",
+        "rétraction cutanée ou mamelonnaire",
+        "souvent découverte par dépistage mammographique"
+      ],
+      "signes_cliniques": [
+        "nodule dur, irrégulier, mal limité",
+        "peau d'orange",
+        "adénopathies axillaires",
+        "formes inflammatoires"
+      ],
+      "examens_cles": [
+        "mammographie et échographie (classification ACR/BI-RADS)",
+        "microbiopsie avec histologie (récepteurs hormonaux, HER2, Ki-67)",
+        "IRM mammaire selon les cas",
+        "bilan d'extension selon le stade",
+        "consultation d'oncogénétique selon les critères"
+      ],
+      "traitements_cles": [
+        "chirurgie conservatrice ou mastectomie avec exploration ganglionnaire (ganglion sentinelle)",
+        "radiothérapie",
+        "chimiothérapie néoadjuvante ou adjuvante",
+        "hormonothérapie (tamoxifène, inhibiteurs de l'aromatase)",
+        "thérapies anti-HER2",
+        "inhibiteurs de CDK4/6",
+        "inhibiteurs de PARP",
+        "immunothérapie (triple négatif)",
+        "dépistage organisé"
+      ],
+      "pathologies_liees": [
+        "PATH-GENE-0036",
+        "PATH-ONCO-0025",
+        "PATH-NEUR-0058",
+        "PATH-HEPA-0044",
+        "PATH-PNEU-0045",
+        "PATH-ONCO-0044",
+        "PATH-ONCO-0008",
+        "PATH-ONCO-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0002",
+      "nom_fr": "Adénocarcinome de la prostate",
+      "nom_en": "Prostate cancer",
+      "synonymes": [],
+      "cim10": "C61",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-024"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "troubles mictionnels",
+        "hématurie",
+        "douleurs osseuses (métastases)"
+      ],
+      "signes_cliniques": [
+        "prostate dure et irrégulière au toucher rectal",
+        "signes de compression médullaire (forme métastatique)"
+      ],
+      "examens_cles": [
+        "PSA",
+        "IRM prostatique multiparamétrique (score PI-RADS)",
+        "biopsies prostatiques (score de Gleason/ISUP)",
+        "scintigraphie osseuse ou TEP-PSMA (bilan d'extension)"
+      ],
+      "traitements_cles": [
+        "surveillance active (faible risque)",
+        "prostatectomie totale",
+        "radiothérapie avec ou sans hormonothérapie",
+        "hormonothérapie par suppression androgénique",
+        "hormonothérapies de nouvelle génération",
+        "chimiothérapie (docétaxel)",
+        "radiothérapie interne vectorisée (lutétium-PSMA)"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0025",
+        "PATH-NEUR-0060",
+        "PATH-NEPH-0019",
+        "PATH-GENE-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0003",
+      "nom_fr": "Cancer de la vessie",
+      "nom_en": "Bladder cancer",
+      "synonymes": [
+        "carcinome urothélial de la vessie"
+      ],
+      "cim10": "C67",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "urologique",
+        "professionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-026",
+        "RES-CHI-031",
+        "RES-MED-144"
+      ],
+      "symptomes": [
+        "hématurie macroscopique totale indolore",
+        "signes irritatifs vésicaux (pollakiurie, brûlures)",
+        "tabagisme",
+        "exposition professionnelle (amines aromatiques)",
+        "bilharziose urinaire"
+      ],
+      "signes_cliniques": [
+        "examen souvent normal",
+        "masse pelvienne (formes évoluées)"
+      ],
+      "examens_cles": [
+        "cytologie urinaire",
+        "uroscanner",
+        "cystoscopie avec résection transurétrale (diagnostic et stadification)",
+        "bilan d'extension si infiltrant"
+      ],
+      "traitements_cles": [
+        "résection transurétrale de vessie",
+        "instillations endovésicales (BCG, mitomycine)",
+        "cystectomie totale avec dérivation urinaire",
+        "chimiothérapie néoadjuvante",
+        "immunothérapie",
+        "radiochimiothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0042",
+        "PATH-ONCO-0005",
+        "PATH-NEPH-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0004",
+      "nom_fr": "Cancer du rein (carcinome à cellules rénales)",
+      "nom_en": "Renal cell carcinoma",
+      "synonymes": [],
+      "cim10": "C64",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-027",
+        "RES-CHI-031"
+      ],
+      "symptomes": [
+        "souvent découverte fortuite",
+        "hématurie",
+        "douleur lombaire",
+        "masse lombaire (triade rarement complète)"
+      ],
+      "signes_cliniques": [
+        "masse lombaire",
+        "varicocèle gauche",
+        "syndromes paranéoplasiques (polyglobulie, hypercalcémie, fièvre)"
+      ],
+      "examens_cles": [
+        "scanner thoraco-abdomino-pelvien injecté",
+        "IRM",
+        "biopsie selon les cas",
+        "bilan d'extension"
+      ],
+      "traitements_cles": [
+        "néphrectomie partielle ou totale",
+        "thermoablation des petites tumeurs",
+        "immunothérapie (anti-PD-1) associée aux inhibiteurs de tyrosine kinase anti-VEGF (formes métastatiques)",
+        "belzutifan (VHL)"
+      ],
+      "pathologies_liees": [
+        "PATH-GENE-0022",
+        "PATH-PNEU-0027",
+        "PATH-ONCO-0025",
+        "PATH-ONCO-0031",
+        "PATH-NEPH-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0005",
+      "nom_fr": "Tumeurs urothéliales de la voie excrétrice supérieure",
+      "nom_en": "Upper tract urothelial carcinoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-031"
+      ],
+      "symptomes": [
+        "hématurie macroscopique",
+        "colique néphrétique (caillot)"
+      ],
+      "signes_cliniques": [
+        "examen souvent normal"
+      ],
+      "examens_cles": [
+        "uroscanner",
+        "urétéroscopie avec biopsies",
+        "cytologie urinaire",
+        "recherche d'un syndrome de Lynch"
+      ],
+      "traitements_cles": [
+        "néphro-urétérectomie totale",
+        "traitement conservateur endoscopique des formes de bas risque",
+        "chimiothérapie adjuvante"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0003",
+        "PATH-GENE-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0006",
+      "nom_fr": "Tumeurs germinales du testicule",
+      "nom_en": "Testicular germ cell tumours",
+      "synonymes": [
+        "séminome",
+        "tumeur germinale non séminomateuse"
+      ],
+      "cim10": "C62",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "masse testiculaire indolore",
+        "pesanteur scrotale",
+        "homme jeune (15-35 ans)",
+        "gynécomastie"
+      ],
+      "signes_cliniques": [
+        "masse testiculaire dure intrascrotale",
+        "adénopathie sus-claviculaire",
+        "masse abdominale (adénopathies rétropéritonéales)"
+      ],
+      "examens_cles": [
+        "échographie scrotale",
+        "marqueurs (alphafœtoprotéine, hCG, LDH)",
+        "scanner thoraco-abdomino-pelvien",
+        "orchidectomie par voie inguinale",
+        "conservation de sperme"
+      ],
+      "traitements_cles": [
+        "orchidectomie inguinale",
+        "surveillance, chimiothérapie (BEP) ou radiothérapie selon le type et le stade",
+        "curage rétropéritonéal des masses résiduelles"
+      ],
+      "pathologies_liees": [
+        "PATH-ENDO-0048",
+        "PATH-PNEU-0029",
+        "PATH-GENE-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0007",
+      "nom_fr": "Cancer de la verge",
+      "nom_en": "Penile cancer",
+      "synonymes": [],
+      "cim10": "C60",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "lésion ulcérée ou bourgeonnante du gland ou du prépuce",
+        "phimosis"
+      ],
+      "signes_cliniques": [
+        "tumeur du gland",
+        "adénopathies inguinales"
+      ],
+      "examens_cles": [
+        "biopsie",
+        "échographie ou IRM pénienne",
+        "évaluation ganglionnaire inguinale (ganglion sentinelle)"
+      ],
+      "traitements_cles": [
+        "chirurgie (pénectomie partielle ou conservatrice)",
+        "curage inguinal",
+        "radiothérapie",
+        "chimiothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-DERM-0047",
+        "PATH-DERM-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0008",
+      "nom_fr": "Cancer de l'ovaire",
+      "nom_en": "Ovarian cancer",
+      "synonymes": [
+        "carcinome séreux de haut grade de l'ovaire"
+      ],
+      "cim10": "C56",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-061"
+      ],
+      "symptomes": [
+        "symptômes tardifs et peu spécifiques (ballonnement, augmentation du volume abdominal, douleurs pelviennes, troubles du transit)"
+      ],
+      "signes_cliniques": [
+        "masse pelvienne",
+        "ascite",
+        "nodule ombilical"
+      ],
+      "examens_cles": [
+        "échographie pelvienne",
+        "scanner thoraco-abdomino-pelvien",
+        "CA 125",
+        "cœlioscopie exploratrice avec biopsies (score de péritonectomie)",
+        "génétique BRCA systématique"
+      ],
+      "traitements_cles": [
+        "chirurgie de cytoréduction complète",
+        "chimiothérapie à base de carboplatine et de paclitaxel",
+        "bévacizumab",
+        "inhibiteurs de PARP en maintenance"
+      ],
+      "pathologies_liees": [
+        "PATH-GENE-0036",
+        "PATH-GENE-0035",
+        "PATH-HEPA-0011",
+        "PATH-PNEU-0045",
+        "PATH-ONCO-0043",
+        "PATH-MINT-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0009",
+      "nom_fr": "Cancer du col de l'utérus",
+      "nom_en": "Cervical cancer",
+      "synonymes": [],
+      "cim10": "C53",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "gynécologique",
+        "sexuellement transmissible"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-058",
+        "RES-SF-056"
+      ],
+      "symptomes": [
+        "métrorragies provoquées (post-coïtales)",
+        "leucorrhées",
+        "douleurs pelviennes (formes évoluées)",
+        "souvent asymptomatique (dépistage)"
+      ],
+      "signes_cliniques": [
+        "col ulcéré ou bourgeonnant",
+        "envahissement des paramètres au toucher rectal"
+      ],
+      "examens_cles": [
+        "frottis cervico-utérin et test HPV de dépistage",
+        "colposcopie avec biopsies",
+        "IRM pelvienne",
+        "TEP-scanner",
+        "classification FIGO"
+      ],
+      "traitements_cles": [
+        "conisation (lésions précancéreuses et stades très précoces)",
+        "hystérectomie élargie",
+        "radiochimiothérapie concomitante avec curiethérapie",
+        "immunothérapie",
+        "vaccination HPV et dépistage organisé"
+      ],
+      "pathologies_liees": [
+        "PATH-DERM-0047",
+        "PATH-NEPH-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0010",
+      "nom_fr": "Cancer de l'endomètre",
+      "nom_en": "Endometrial cancer",
+      "synonymes": [
+        "adénocarcinome endométrial"
+      ],
+      "cim10": "C54.1",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-059"
+      ],
+      "symptomes": [
+        "métrorragies post-ménopausiques",
+        "leucorrhées"
+      ],
+      "signes_cliniques": [
+        "utérus augmenté de volume",
+        "examen souvent normal"
+      ],
+      "examens_cles": [
+        "échographie pelvienne endovaginale (épaisseur endométriale)",
+        "biopsie endométriale (pipelle) ou hystéroscopie",
+        "IRM pelvienne",
+        "classification moléculaire (p53, MMR, POLE)"
+      ],
+      "traitements_cles": [
+        "hystérectomie totale avec annexectomie bilatérale",
+        "ganglion sentinelle",
+        "curiethérapie ou radiothérapie adjuvante",
+        "chimiothérapie",
+        "immunothérapie (MSI)",
+        "hormonothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-GENE-0035",
+        "PATH-ENDO-0049",
+        "PATH-DIAB-0002",
+        "PATH-ENDO-0042"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0011",
+      "nom_fr": "Cancer de la vulve",
+      "nom_en": "Vulvar cancer",
+      "synonymes": [],
+      "cim10": "C51",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "prurit vulvaire chronique",
+        "lésion vulvaire ulcérée ou bourgeonnante",
+        "femme âgée"
+      ],
+      "signes_cliniques": [
+        "tumeur vulvaire",
+        "adénopathies inguinales",
+        "lichen scléreux associé"
+      ],
+      "examens_cles": [
+        "biopsie",
+        "IRM pelvienne",
+        "évaluation ganglionnaire inguinale"
+      ],
+      "traitements_cles": [
+        "chirurgie (vulvectomie partielle ou totale) avec ganglion sentinelle ou curage",
+        "radiochimiothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-DERM-0011",
+        "PATH-DERM-0047"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0012",
+      "nom_fr": "Sarcomes utérins (léiomyosarcome)",
+      "nom_en": "Uterine sarcomas",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "métrorragies",
+        "augmentation rapide du volume utérin",
+        "douleurs pelviennes"
+      ],
+      "signes_cliniques": [
+        "masse utérine"
+      ],
+      "examens_cles": [
+        "échographie et IRM pelvienne",
+        "diagnostic souvent histologique sur pièce opératoire (myomectomie, hystérectomie)"
+      ],
+      "traitements_cles": [
+        "hystérectomie totale sans morcellement",
+        "chimiothérapie",
+        "radiothérapie selon le cas"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0021",
+        "PATH-ONCO-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0013",
+      "nom_fr": "Tumeurs trophoblastiques gestationnelles (môle hydatiforme, choriocarcinome)",
+      "nom_en": "Gestational trophoblastic disease",
+      "synonymes": [
+        "môle hydatiforme",
+        "choriocarcinome"
+      ],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "gynécologique",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "métrorragies au premier trimestre",
+        "vomissements gravidiques importants",
+        "hyperthyroïdie",
+        "métastases pulmonaires (choriocarcinome)"
+      ],
+      "signes_cliniques": [
+        "utérus plus gros que l'âge de la grossesse",
+        "kystes ovariens lutéiniques",
+        "prééclampsie précoce"
+      ],
+      "examens_cles": [
+        "hCG très élevée",
+        "échographie (aspect en flocons de neige)",
+        "histologie du produit d'aspiration",
+        "surveillance de la décroissance de l'hCG",
+        "score FIGO/OMS"
+      ],
+      "traitements_cles": [
+        "aspiration endo-utérine",
+        "surveillance hebdomadaire de l'hCG",
+        "chimiothérapie (méthotrexate, actinomycine D, protocoles combinés) des tumeurs persistantes",
+        "contraception pendant la surveillance"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0027",
+        "PATH-ENDO-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0014",
+      "nom_fr": "Cancer du cavum (carcinome du nasopharynx)",
+      "nom_en": "Nasopharyngeal carcinoma",
+      "synonymes": [
+        "UCNT",
+        "carcinome indifférencié du nasopharynx"
+      ],
+      "cim10": "C11",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-049",
+        "RES-SF-056"
+      ],
+      "symptomes": [
+        "adénopathie cervicale haute",
+        "obstruction nasale",
+        "épistaxis",
+        "otite séreuse unilatérale",
+        "céphalées",
+        "atteinte des nerfs crâniens",
+        "fréquent au Maghreb"
+      ],
+      "signes_cliniques": [
+        "adénopathie jugulo-digastrique ou spinale",
+        "otite séromuqueuse unilatérale de l'adulte",
+        "paralysies des nerfs crâniens"
+      ],
+      "examens_cles": [
+        "nasofibroscopie avec biopsie",
+        "IRM du cavum et de la base du crâne",
+        "scanner",
+        "sérologie EBV et ADN viral EBV plasmatique",
+        "TEP-scanner"
+      ],
+      "traitements_cles": [
+        "radiothérapie avec modulation d'intensité",
+        "chimiothérapie concomitante (cisplatine) et d'induction",
+        "immunothérapie dans les formes métastatiques"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0015",
+      "nom_fr": "Cancer du larynx",
+      "nom_en": "Laryngeal cancer",
+      "synonymes": [
+        "carcinome épidermoïde du larynx"
+      ],
+      "cim10": "C32",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-050"
+      ],
+      "symptomes": [
+        "dysphonie persistante (> 3 semaines)",
+        "dysphagie",
+        "dyspnée laryngée",
+        "otalgie réflexe",
+        "tabagisme et alcoolisme"
+      ],
+      "signes_cliniques": [
+        "adénopathies cervicales",
+        "dyspnée inspiratoire"
+      ],
+      "examens_cles": [
+        "laryngoscopie indirecte et nasofibroscopie",
+        "panendoscopie sous anesthésie générale avec biopsies",
+        "scanner cervicothoracique",
+        "TEP-scanner"
+      ],
+      "traitements_cles": [
+        "chirurgie (laryngectomie partielle ou totale)",
+        "radiothérapie",
+        "radiochimiothérapie (préservation laryngée)",
+        "sevrage tabagique et alcoolique",
+        "réhabilitation vocale"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0042",
+        "PATH-PSYC-0038",
+        "PATH-GAST-0007",
+        "PATH-PNEU-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0016",
+      "nom_fr": "Cancer de la cavité buccale",
+      "nom_en": "Oral cavity cancer",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "ulcération buccale persistante",
+        "douleur",
+        "otalgie",
+        "saignement",
+        "tabac et alcool"
+      ],
+      "signes_cliniques": [
+        "ulcération indurée saignant au contact",
+        "leucoplasie",
+        "adénopathies cervicales"
+      ],
+      "examens_cles": [
+        "biopsie",
+        "panendoscopie",
+        "scanner et IRM",
+        "TEP-scanner",
+        "bilan dentaire"
+      ],
+      "traitements_cles": [
+        "chirurgie avec curage ganglionnaire",
+        "radiothérapie ou radiochimiothérapie adjuvante",
+        "remise en état dentaire",
+        "soins de support"
+      ],
+      "pathologies_liees": [
+        "PATH-PSYC-0042",
+        "PATH-PSYC-0038",
+        "PATH-GAST-0007",
+        "PATH-DERM-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0017",
+      "nom_fr": "Cancer de l'oropharynx",
+      "nom_en": "Oropharyngeal cancer",
+      "synonymes": [
+        "cancer de l'amygdale et de la base de langue"
+      ],
+      "cim10": "C10",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-SF-056"
+      ],
+      "symptomes": [
+        "odynophagie",
+        "otalgie réflexe",
+        "adénopathie cervicale",
+        "tabac-alcool ou infection à HPV"
+      ],
+      "signes_cliniques": [
+        "ulcération amygdalienne",
+        "adénopathie cervicale souvent kystique (forme HPV)"
+      ],
+      "examens_cles": [
+        "biopsie",
+        "recherche de HPV (p16)",
+        "panendoscopie",
+        "scanner et IRM",
+        "TEP-scanner"
+      ],
+      "traitements_cles": [
+        "radiochimiothérapie",
+        "chirurgie transorale",
+        "curage ganglionnaire"
+      ],
+      "pathologies_liees": [
+        "PATH-DERM-0047",
+        "PATH-PSYC-0042",
+        "PATH-PSYC-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0018",
+      "nom_fr": "Cancer de l'hypopharynx",
+      "nom_en": "Hypopharyngeal cancer",
+      "synonymes": [
+        "cancer du sinus piriforme"
+      ],
+      "cim10": "C13",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dysphagie haute",
+        "otalgie réflexe",
+        "adénopathie cervicale",
+        "amaigrissement",
+        "tabac et alcool"
+      ],
+      "signes_cliniques": [
+        "adénopathies cervicales",
+        "dysphonie"
+      ],
+      "examens_cles": [
+        "nasofibroscopie",
+        "panendoscopie avec biopsies",
+        "scanner",
+        "TEP-scanner",
+        "bilan nutritionnel"
+      ],
+      "traitements_cles": [
+        "chirurgie (pharyngolaryngectomie)",
+        "radiochimiothérapie",
+        "préservation laryngée par chimiothérapie d'induction"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0015",
+        "PATH-GAST-0007",
+        "PATH-PSYC-0038",
+        "PATH-PSYC-0042"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0019",
+      "nom_fr": "Tumeurs malignes des glandes salivaires",
+      "nom_en": "Malignant salivary gland tumours",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction parotidienne ou sous-maxillaire",
+        "douleur",
+        "paralysie faciale (signe de malignité)"
+      ],
+      "signes_cliniques": [
+        "masse parotidienne dure fixée",
+        "paralysie faciale périphérique"
+      ],
+      "examens_cles": [
+        "échographie",
+        "IRM",
+        "cytoponction ou microbiopsie"
+      ],
+      "traitements_cles": [
+        "parotidectomie avec conservation du nerf facial si possible",
+        "radiothérapie adjuvante"
+      ],
+      "pathologies_liees": [
+        "PATH-NEUR-0043",
+        "PATH-MINT-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0020",
+      "nom_fr": "Cancers naso-sinusiens",
+      "nom_en": "Sinonasal cancers",
+      "synonymes": [
+        "adénocarcinome de l'ethmoïde"
+      ],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "professionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-144"
+      ],
+      "symptomes": [
+        "obstruction nasale unilatérale",
+        "épistaxis",
+        "rhinorrhée purulente",
+        "exposition professionnelle aux poussières de bois"
+      ],
+      "signes_cliniques": [
+        "masse endonasale",
+        "exophtalmie",
+        "troubles visuels"
+      ],
+      "examens_cles": [
+        "endoscopie nasale avec biopsie",
+        "scanner et IRM des sinus"
+      ],
+      "traitements_cles": [
+        "chirurgie endoscopique ou par voie externe",
+        "radiothérapie",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0021",
+      "nom_fr": "Sarcomes des tissus mous",
+      "nom_en": "Soft tissue sarcomas",
+      "synonymes": [],
+      "cim10": "C49",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "masse des parties molles augmentant de volume, profonde, souvent indolore"
+      ],
+      "signes_cliniques": [
+        "masse > 5 cm, profonde, fixée"
+      ],
+      "examens_cles": [
+        "IRM avant toute biopsie",
+        "microbiopsie en centre de référence",
+        "scanner thoracique",
+        "analyse moléculaire"
+      ],
+      "traitements_cles": [
+        "chirurgie d'exérèse large en centre de référence",
+        "radiothérapie",
+        "chimiothérapie (doxorubicine)"
+      ],
+      "pathologies_liees": [
+        "PATH-GENE-0037",
+        "PATH-GENE-0019",
+        "PATH-PNEU-0027",
+        "PATH-GAST-0014",
+        "PATH-DERM-0053"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0022",
+      "nom_fr": "Ostéosarcome",
+      "nom_en": "Osteosarcoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "douleur osseuse persistante, nocturne, chez l'adolescent",
+        "tuméfaction près du genou",
+        "fracture pathologique"
+      ],
+      "signes_cliniques": [
+        "masse dure au voisinage du genou ou de l'épaule"
+      ],
+      "examens_cles": [
+        "radiographies (ostéolyse et ostéocondensation, réaction périostée en feu d'herbe, triangle de Codman)",
+        "IRM",
+        "biopsie en centre spécialisé",
+        "scanner thoracique",
+        "scintigraphie osseuse"
+      ],
+      "traitements_cles": [
+        "chimiothérapie néoadjuvante et adjuvante",
+        "chirurgie d'exérèse carcinologique avec reconstruction"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0023",
+        "PATH-PNEU-0027",
+        "PATH-GENE-0037",
+        "PATH-RHUM-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0023",
+      "nom_fr": "Sarcome d'Ewing",
+      "nom_en": "Ewing sarcoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "douleur osseuse",
+        "fièvre",
+        "tuméfaction",
+        "enfant ou adolescent"
+      ],
+      "signes_cliniques": [
+        "masse douloureuse diaphysaire ou pelvienne",
+        "fièvre"
+      ],
+      "examens_cles": [
+        "radiographies (lyse en bulbe d'oignon)",
+        "IRM",
+        "biopsie avec recherche de la translocation EWSR1",
+        "TEP-scanner",
+        "myélogramme"
+      ],
+      "traitements_cles": [
+        "chimiothérapie",
+        "chirurgie",
+        "radiothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0022",
+        "PATH-RHUM-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0024",
+      "nom_fr": "Chondrosarcome",
+      "nom_en": "Chondrosarcoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "douleur osseuse progressive",
+        "masse",
+        "adulte de plus de 40 ans"
+      ],
+      "signes_cliniques": [
+        "masse du bassin, du fémur proximal ou de l'épaule"
+      ],
+      "examens_cles": [
+        "radiographies et scanner (calcifications en pop-corn)",
+        "IRM",
+        "biopsie en centre spécialisé"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale large (chimiorésistant et radiorésistant)"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0022",
+        "PATH-ONCO-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0025",
+      "nom_fr": "Métastases osseuses",
+      "nom_en": "Bone metastases",
+      "synonymes": [],
+      "cim10": "C79.5",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "douleurs osseuses inflammatoires",
+        "fracture pathologique",
+        "signes de compression médullaire"
+      ],
+      "signes_cliniques": [
+        "douleur à la pression",
+        "déficit neurologique",
+        "hypercalcémie"
+      ],
+      "examens_cles": [
+        "scintigraphie osseuse",
+        "scanner",
+        "IRM du rachis",
+        "TEP-scanner",
+        "biopsie si primitif inconnu",
+        "calcémie"
+      ],
+      "traitements_cles": [
+        "antalgiques",
+        "radiothérapie antalgique",
+        "bisphosphonates ou dénosumab",
+        "chirurgie de stabilisation",
+        "traitement du cancer primitif",
+        "radiothérapie interne vectorisée"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0001",
+        "PATH-ONCO-0002",
+        "PATH-PNEU-0022",
+        "PATH-ONCO-0004",
+        "PATH-ENDO-0013",
+        "PATH-NEUR-0060",
+        "PATH-ENDO-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0026",
+      "nom_fr": "Cancer de primitif inconnu",
+      "nom_en": "Cancer of unknown primary",
+      "synonymes": [],
+      "cim10": "C80",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "altération de l'état général",
+        "symptômes liés aux métastases (hépatiques, osseuses, ganglionnaires)"
+      ],
+      "signes_cliniques": [
+        "adénopathies",
+        "hépatomégalie",
+        "masses"
+      ],
+      "examens_cles": [
+        "biopsie d'une métastase avec immunohistochimie",
+        "scanner thoraco-abdomino-pelvien",
+        "TEP-scanner",
+        "marqueurs orientés",
+        "profil moléculaire"
+      ],
+      "traitements_cles": [
+        "traitement adapté au sous-groupe clinico-pathologique",
+        "chimiothérapie empirique",
+        "soins de support"
+      ],
+      "pathologies_liees": [
+        "PATH-HEPA-0044",
+        "PATH-ONCO-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0027",
+      "nom_fr": "Neuroblastome",
+      "nom_en": "Neuroblastoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "masse abdominale chez le jeune enfant",
+        "altération de l'état général",
+        "douleurs osseuses",
+        "ecchymoses périorbitaires"
+      ],
+      "signes_cliniques": [
+        "masse abdominale",
+        "hématome en lunettes",
+        "syndrome opso-myoclonique",
+        "HTA"
+      ],
+      "examens_cles": [
+        "catécholamines urinaires (VMA, HVA)",
+        "échographie et scanner ou IRM",
+        "scintigraphie à la MIBG",
+        "biopsie avec amplification de MYCN",
+        "myélogramme"
+      ],
+      "traitements_cles": [
+        "surveillance (formes favorables du nourrisson)",
+        "chirurgie",
+        "chimiothérapie",
+        "radiothérapie",
+        "immunothérapie anti-GD2 (haut risque)"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0028",
+        "PATH-ENDO-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0028",
+      "nom_fr": "Néphroblastome (tumeur de Wilms)",
+      "nom_en": "Nephroblastoma (Wilms tumour)",
+      "synonymes": [
+        "tumeur de Wilms"
+      ],
+      "cim10": "C64",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "masse abdominale découverte par les parents",
+        "hématurie",
+        "douleurs abdominales",
+        "enfant de 1 à 5 ans"
+      ],
+      "signes_cliniques": [
+        "masse lombaire unilatérale ferme ne franchissant pas la ligne médiane",
+        "HTA"
+      ],
+      "examens_cles": [
+        "échographie abdominale",
+        "scanner ou IRM",
+        "radiographie ou scanner thoracique",
+        "recherche d'un syndrome de prédisposition (Beckwith-Wiedemann, WAGR)"
+      ],
+      "traitements_cles": [
+        "chimiothérapie préopératoire (protocole SIOP)",
+        "néphrectomie élargie",
+        "chimiothérapie et radiothérapie postopératoires selon le stade"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0027",
+        "PATH-GENE-0014",
+        "PATH-HEPA-0048"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0029",
+      "nom_fr": "Rétinoblastome",
+      "nom_en": "Retinoblastoma",
+      "synonymes": [],
+      "cim10": "C69.2",
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "pédiatrique",
+        "génétique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "reflet blanc de la pupille (leucocorie)",
+        "strabisme",
+        "jeune enfant"
+      ],
+      "signes_cliniques": [
+        "leucocorie",
+        "strabisme",
+        "formes bilatérales héréditaires"
+      ],
+      "examens_cles": [
+        "fond d'œil sous anesthésie générale",
+        "échographie oculaire",
+        "IRM orbito-cérébrale",
+        "génétique (gène RB1)"
+      ],
+      "traitements_cles": [
+        "traitements conservateurs (chimiothérapie, laser, cryothérapie, curiethérapie)",
+        "énucléation",
+        "dépistage familial",
+        "surveillance des seconds cancers (ostéosarcome)"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0030",
+      "nom_fr": "Rhabdomyosarcome",
+      "nom_en": "Rhabdomyosarcoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "masse des tissus mous chez l'enfant (orbite, tête et cou, appareil génito-urinaire)",
+        "exophtalmie"
+      ],
+      "signes_cliniques": [
+        "masse",
+        "exophtalmie",
+        "masse vaginale en grappe (forme botryoïde)"
+      ],
+      "examens_cles": [
+        "IRM",
+        "biopsie avec analyse moléculaire (fusion PAX-FOXO1)",
+        "bilan d'extension"
+      ],
+      "traitements_cles": [
+        "chimiothérapie",
+        "chirurgie",
+        "radiothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0021",
+        "PATH-GENE-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0031",
+      "nom_fr": "Syndromes paranéoplasiques",
+      "nom_en": "Paraneoplastic syndromes",
+      "synonymes": [
+        "syndromes paranéoplasiques endocriniens, neurologiques, cutanés, hématologiques"
+      ],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "symptômes à distance de la tumeur (troubles neurologiques, endocriniens, cutanés, articulaires)",
+        "parfois révélateurs du cancer"
+      ],
+      "signes_cliniques": [
+        "hippocratisme digital",
+        "acanthosis nigricans maligne",
+        "dermatomyosite",
+        "syndrome cérébelleux",
+        "neuropathie sensitive"
+      ],
+      "examens_cles": [
+        "anticorps onconeuronaux (anti-Hu, anti-Yo, anti-Ri)",
+        "bilan endocrinien (SIADH, hypercalcémie par PTHrp, Cushing ectopique)",
+        "recherche du cancer (scanner, TEP-scanner)"
+      ],
+      "traitements_cles": [
+        "traitement du cancer",
+        "traitement symptomatique",
+        "immunothérapie (syndromes neurologiques)"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0023",
+        "PATH-NEUR-0027",
+        "PATH-NEPH-0046",
+        "PATH-ENDO-0035",
+        "PATH-MINT-0007",
+        "PATH-NEUR-0066"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0032",
+      "nom_fr": "Syndrome de lyse tumorale",
+      "nom_en": "Tumour lysis syndrome",
+      "synonymes": [],
+      "cim10": "E88.3",
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "métabolique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "oligurie",
+        "nausées",
+        "crampes",
+        "troubles du rythme",
+        "au début du traitement d'une hémopathie ou d'une tumeur à forte masse"
+      ],
+      "signes_cliniques": [
+        "insuffisance rénale aiguë",
+        "troubles du rythme",
+        "convulsions"
+      ],
+      "examens_cles": [
+        "hyperkaliémie",
+        "hyperphosphorémie",
+        "hypocalcémie",
+        "hyperuricémie",
+        "créatininémie",
+        "LDH"
+      ],
+      "traitements_cles": [
+        "hyperhydratation",
+        "rasburicase ou allopurinol",
+        "correction des troubles ioniques",
+        "épuration extrarénale si besoin",
+        "prévention chez les patients à risque"
+      ],
+      "pathologies_liees": [
+        "PATH-NEPH-0040",
+        "PATH-NEPH-0016",
+        "PATH-RHUM-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0033",
+      "nom_fr": "Neutropénie fébrile post-chimiothérapie",
+      "nom_en": "Febrile neutropenia",
+      "synonymes": [
+        "aplasie fébrile"
+      ],
+      "cim10": "D70",
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre ≥ 38,3 °C ou ≥ 38 °C prolongée",
+        "frissons",
+        "quelques jours après une chimiothérapie"
+      ],
+      "signes_cliniques": [
+        "foyer infectieux souvent absent",
+        "mucite",
+        "cathéter",
+        "signes de sepsis"
+      ],
+      "examens_cles": [
+        "polynucléaires neutrophiles < 0,5 G/L",
+        "hémocultures (périphériques et sur cathéter)",
+        "ECBU",
+        "radiographie thoracique",
+        "score MASCC"
+      ],
+      "traitements_cles": [
+        "antibiothérapie probabiliste urgente à large spectre (bêtalactamine antipyocyanique)",
+        "traitement ambulatoire possible si faible risque",
+        "G-CSF en prévention selon le risque",
+        "antifongique si fièvre persistante"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0038",
+        "PATH-GENE-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0034",
+      "nom_fr": "Syndrome cave supérieur",
+      "nom_en": "Superior vena cava syndrome",
+      "synonymes": [],
+      "cim10": "I87.1",
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-047"
+      ],
+      "symptomes": [
+        "œdème du visage et du cou (en pèlerine)",
+        "céphalées",
+        "dyspnée",
+        "toux",
+        "turgescence des veines du cou"
+      ],
+      "signes_cliniques": [
+        "œdème en pèlerine",
+        "circulation veineuse collatérale thoracique",
+        "cyanose faciale",
+        "turgescence jugulaire"
+      ],
+      "examens_cles": [
+        "scanner thoracique injecté",
+        "histologie de la tumeur causale",
+        "recherche d'une thrombose sur cathéter"
+      ],
+      "traitements_cles": [
+        "traitement de la cause (chimiothérapie, radiothérapie)",
+        "endoprothèse cave",
+        "anticoagulation si thrombose",
+        "corticoïdes selon la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0023",
+        "PATH-PNEU-0022",
+        "PATH-PNEU-0029",
+        "PATH-PNEU-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0035",
+      "nom_fr": "Méningite carcinomateuse",
+      "nom_en": "Leptomeningeal metastases",
+      "synonymes": [],
+      "cim10": "C79.3",
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "céphalées",
+        "atteinte des nerfs crâniens",
+        "douleurs radiculaires",
+        "troubles cognitifs",
+        "hydrocéphalie"
+      ],
+      "signes_cliniques": [
+        "paralysies des nerfs crâniens",
+        "syndrome de la queue de cheval",
+        "syndrome méningé"
+      ],
+      "examens_cles": [
+        "IRM cérébrale et médullaire (prise de contraste leptoméningée)",
+        "ponction lombaire (cytologie, hyperprotéinorachie, hypoglycorachie)"
+      ],
+      "traitements_cles": [
+        "chimiothérapie intrathécale",
+        "radiothérapie focale",
+        "traitements systémiques",
+        "soins palliatifs"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0001",
+        "PATH-PNEU-0022",
+        "PATH-DERM-0048",
+        "PATH-NEUR-0058"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0036",
+      "nom_fr": "Douleur du cancer",
+      "nom_en": "Cancer pain",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "symptomes": [
+        "douleur nociceptive, neuropathique ou mixte",
+        "accès douloureux paroxystiques",
+        "retentissement sur le sommeil et la qualité de vie"
+      ],
+      "signes_cliniques": [
+        "évaluation par échelles (EVA, EN, DN4)",
+        "douleur osseuse, viscérale ou neuropathique"
+      ],
+      "examens_cles": [
+        "évaluation régulière de la douleur",
+        "recherche d'une cause (métastases osseuses, compression)"
+      ],
+      "traitements_cles": [
+        "antalgiques selon les paliers de l'OMS",
+        "opioïdes forts avec prévention de la constipation",
+        "co-antalgiques (antiépileptiques, antidépresseurs, corticoïdes)",
+        "radiothérapie antalgique",
+        "techniques interventionnelles",
+        "soins palliatifs"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0025",
+        "PATH-NEUR-0060",
+        "PATH-PSYC-0040"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0037",
+      "nom_fr": "Cachexie cancéreuse",
+      "nom_en": "Cancer cachexia",
+      "synonymes": [],
+      "cim10": "R64",
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "anorexie",
+        "perte de poids",
+        "asthénie",
+        "fonte musculaire"
+      ],
+      "signes_cliniques": [
+        "perte de poids > 5 % en 6 mois",
+        "sarcopénie"
+      ],
+      "examens_cles": [
+        "poids et IMC",
+        "albuminémie",
+        "CRP",
+        "évaluation de la masse musculaire"
+      ],
+      "traitements_cles": [
+        "prise en charge nutritionnelle précoce (conseils, compléments, nutrition artificielle)",
+        "activité physique adaptée",
+        "traitement des symptômes",
+        "corticoïdes ou progestatifs à visée orexigène"
+      ],
+      "pathologies_liees": [
+        "PATH-GAST-0048",
+        "PATH-GERI-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0038",
+      "nom_fr": "Mucite chimio-induite ou radio-induite",
+      "nom_en": "Oral mucositis",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "iatrogène",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs buccales",
+        "dysphagie",
+        "odynophagie",
+        "difficultés alimentaires"
+      ],
+      "signes_cliniques": [
+        "érythème et ulcérations de la muqueuse buccale",
+        "surinfection candidosique ou herpétique"
+      ],
+      "examens_cles": [
+        "grade OMS",
+        "recherche de surinfection"
+      ],
+      "traitements_cles": [
+        "bains de bouche",
+        "antalgiques (dont morphiniques)",
+        "traitement des surinfections",
+        "soins dentaires préventifs",
+        "photobiomodulation"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0033",
+        "PATH-GENE-0038",
+        "PATH-DERM-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0039",
+      "nom_fr": "Pneumopathie radique",
+      "nom_en": "Radiation pneumonitis",
+      "synonymes": [],
+      "cim10": "J70.0",
+      "specialite": "ONCO",
+      "sous_specialite": "Radiothérapie",
+      "categories": [
+        "néoplasique",
+        "respiratoire",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "toux sèche",
+        "dyspnée",
+        "fièvre 1 à 6 mois après une radiothérapie thoracique"
+      ],
+      "signes_cliniques": [
+        "crépitants"
+      ],
+      "examens_cles": [
+        "scanner thoracique (opacités superposables au champ d'irradiation)",
+        "EFR"
+      ],
+      "traitements_cles": [
+        "corticothérapie",
+        "oxygénothérapie",
+        "évolution possible vers la fibrose"
+      ],
+      "pathologies_liees": [
+        "PATH-PNEU-0022",
+        "PATH-ONCO-0001",
+        "PATH-PNEU-0032",
+        "PATH-ONCO-0042"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0040",
+      "nom_fr": "Rectite radique",
+      "nom_en": "Radiation proctitis",
+      "synonymes": [],
+      "cim10": "K62.7",
+      "specialite": "ONCO",
+      "sous_specialite": "Radiothérapie",
+      "categories": [
+        "néoplasique",
+        "digestive",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "rectorragies",
+        "diarrhée",
+        "ténesme",
+        "douleurs rectales après radiothérapie pelvienne"
+      ],
+      "signes_cliniques": [
+        "saignement rectal"
+      ],
+      "examens_cles": [
+        "rectoscopie (télangiectasies, ulcérations)"
+      ],
+      "traitements_cles": [
+        "traitements locaux (sucralfate, corticoïdes)",
+        "coagulation au plasma argon",
+        "oxygénothérapie hyperbare"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0002",
+        "PATH-ONCO-0009",
+        "PATH-GAST-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0041",
+      "nom_fr": "Cardiotoxicité des traitements anticancéreux",
+      "nom_en": "Cancer therapy-related cardiac dysfunction",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "cardiovasculaire",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée",
+        "asthénie",
+        "palpitations",
+        "œdèmes pendant ou après le traitement (anthracyclines, trastuzumab, inhibiteurs de checkpoint)"
+      ],
+      "signes_cliniques": [
+        "signes d'insuffisance cardiaque",
+        "troubles du rythme"
+      ],
+      "examens_cles": [
+        "échocardiographie (FEVG, strain) avant et pendant le traitement",
+        "troponine",
+        "NT-proBNP",
+        "ECG"
+      ],
+      "traitements_cles": [
+        "surveillance cardio-oncologique",
+        "IEC et bêtabloquant",
+        "adaptation ou suspension du traitement anticancéreux"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0011",
+        "PATH-CARD-0008",
+        "PATH-CARD-0017",
+        "PATH-ONCO-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0042",
+      "nom_fr": "Toxicités immuno-induites des inhibiteurs de checkpoint",
+      "nom_en": "Immune-related adverse events of immune checkpoint inhibitors",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Oncologie médicale",
+      "categories": [
+        "néoplasique",
+        "iatrogène",
+        "auto-immune"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "diarrhée",
+        "éruption cutanée",
+        "dyspnée",
+        "asthénie",
+        "troubles endocriniens sous immunothérapie"
+      ],
+      "signes_cliniques": [
+        "colite",
+        "dermatite",
+        "pneumopathie",
+        "hépatite",
+        "myocardite",
+        "dysthyroïdie",
+        "hypophysite"
+      ],
+      "examens_cles": [
+        "bilan systématique avant et pendant le traitement (TSH, cortisol, glycémie, bilan hépatique, créatininémie)",
+        "imagerie et endoscopie orientées"
+      ],
+      "traitements_cles": [
+        "corticothérapie selon le grade",
+        "suspension ou arrêt de l'immunothérapie",
+        "immunosuppresseurs dans les formes réfractaires",
+        "substitution hormonale"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0017",
+        "PATH-PNEU-0036",
+        "PATH-ENDO-0016",
+        "PATH-ENDO-0008",
+        "PATH-GAST-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0043",
+      "nom_fr": "Maladie thromboembolique veineuse associée au cancer",
+      "nom_en": "Cancer-associated venous thromboembolism",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "cardiovasculaire",
+        "hématologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-058"
+      ],
+      "symptomes": [
+        "œdème de membre",
+        "dyspnée",
+        "douleur thoracique",
+        "souvent découverte fortuite"
+      ],
+      "signes_cliniques": [
+        "signes de TVP ou d'embolie pulmonaire"
+      ],
+      "examens_cles": [
+        "écho-Doppler veineux",
+        "angioscanner thoracique",
+        "scores de risque (Khorana)"
+      ],
+      "traitements_cles": [
+        "anticoagulation par HBPM ou AOD (selon le risque hémorragique et les interactions)",
+        "prophylaxie chez les patients à haut risque"
+      ],
+      "pathologies_liees": [
+        "PATH-CARD-0048",
+        "PATH-CARD-0049",
+        "PATH-GAST-0043",
+        "PATH-ONCO-0008",
+        "PATH-PNEU-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ONCO-0044",
+      "nom_fr": "Lymphœdème secondaire (après cancer du sein)",
+      "nom_en": "Secondary lymphoedema (after breast cancer)",
+      "synonymes": [],
+      "cim10": "I97.2",
+      "specialite": "ONCO",
+      "sous_specialite": "Soins de support et palliatifs",
+      "categories": [
+        "néoplasique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "gonflement du membre supérieur",
+        "lourdeur",
+        "gêne fonctionnelle après curage axillaire ou radiothérapie"
+      ],
+      "signes_cliniques": [
+        "œdème ferme du membre supérieur",
+        "signe de Stemmer",
+        "poussées d'érysipèle"
+      ],
+      "examens_cles": [
+        "mesures périmétriques",
+        "écho-Doppler (éliminer une thrombose)",
+        "lymphoscintigraphie"
+      ],
+      "traitements_cles": [
+        "drainage lymphatique manuel",
+        "bandages et manchon de compression",
+        "soins de peau",
+        "activité physique",
+        "prévention de l'érysipèle"
+      ],
+      "pathologies_liees": [
+        "PATH-ONCO-0001",
+        "PATH-DERM-0029",
+        "PATH-CARD-0048"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}

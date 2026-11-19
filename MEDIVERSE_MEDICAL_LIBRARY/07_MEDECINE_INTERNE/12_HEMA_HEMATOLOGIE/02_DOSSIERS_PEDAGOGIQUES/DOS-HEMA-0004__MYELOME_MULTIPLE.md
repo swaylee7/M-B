@@ -45,7 +45,7 @@ sources:
     url: ""
     verifiee: true
   - id: S5
-    reference: "Dimopoulos MA, Terpos E, Boccadoro M, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. Nat Rev Clin Oncol. 2025;22(9):680-700."
+    reference: "Dimopoulos MA, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. Nat Rev Clin Oncol. 2025;22(9):680-700."
     organisme: "EHA / EMN"
     annee: 2025
     type: recommandation
@@ -69,7 +69,7 @@ sources:
     url: ""
     verifiee: true
   - id: S8
-    reference: "Facon T, Dimopoulos MA, Leleu XP, et al.; IMROZ Study Group. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma. N Engl J Med. 2024;391(17):1597-1609."
+    reference: "Facon T, et al.; IMROZ Study Group. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma. N Engl J Med. 2024;391(17):1597-1609."
     organisme: "Essai IMROZ"
     annee: 2024
     type: article
@@ -77,7 +77,7 @@ sources:
     url: ""
     verifiee: true
   - id: S9
-    reference: "Facon T, Kumar S, Plesner T, et al.; MAIA Trial Investigators. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma. N Engl J Med. 2019;380(22):2104-2115 [référence à vérifier]."
+    reference: "Facon T, et al.; MAIA Trial Investigators. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma. N Engl J Med. 2019;380(22):2104-2115 [référence à vérifier]."
     organisme: "Essai MAIA"
     annee: 2019
     type: article
@@ -771,11 +771,11 @@ Patient de 66 ans sans comorbidité majeure : éligibilité à l'autogreffe à d
 2. **[S2]** Palumbo A, Avet-Loiseau H, Oliva S, et al. Revised International Staging System for multiple myeloma. *J Clin Oncol*. 2015;33(26):2863-2869. doi:10.1200/JCO.2015.61.2267 — vérifiée.
 3. **[S3]** D'Agostino M, Cairns DA, Lahuerta JJ, et al. Second Revision of the International Staging System (R2-ISS). *J Clin Oncol*. 2022;40(29):3406-3418. doi:10.1200/JCO.21.02614 — vérifiée.
 4. **[S4]** Dimopoulos MA, Moreau P, Terpos E, et al. Multiple myeloma: EHA-ESMO Clinical Practice Guidelines. *Ann Oncol*. 2021;32(3):309-322. doi:10.1016/j.annonc.2020.11.014 — vérifiée.
-5. **[S5]** Dimopoulos MA, Terpos E, Boccadoro M, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. *Nat Rev Clin Oncol*. 2025;22(9):680-700. doi:10.1038/s41571-025-01041-x — vérifiée.
+5. **[S5]** Dimopoulos MA, et al. EHA–EMN Evidence-Based Guidelines for diagnosis, treatment and follow-up of patients with multiple myeloma. *Nat Rev Clin Oncol*. 2025;22(9):680-700. doi:10.1038/s41571-025-01041-x — vérifiée.
 6. **[S6]** Kumar S, Paiva B, Anderson KC, et al. IMWG consensus criteria for response and minimal residual disease assessment in multiple myeloma. *Lancet Oncol*. 2016;17(8):e328-e346. doi:10.1016/S1470-2045(16)30206-6 — vérifiée.
 7. **[S7]** Sonneveld P, Dimopoulos MA, Boccadoro M, et al. Daratumumab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (PERSEUS). *N Engl J Med*. 2024;390(4):301-313. doi:10.1056/NEJMoa2312054 — vérifiée.
-8. **[S8]** Facon T, Dimopoulos MA, Leleu XP, et al. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (IMROZ). *N Engl J Med*. 2024;391(17):1597-1609. doi:10.1056/NEJMoa2400712 — vérifiée.
-9. **[S9]** Facon T, Kumar S, Plesner T, et al. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma (MAIA). *N Engl J Med*. 2019;380(22):2104-2115. — **non vérifiée**.
+8. **[S8]** Facon T, et al. Isatuximab, bortezomib, lenalidomide, and dexamethasone for multiple myeloma (IMROZ). *N Engl J Med*. 2024;391(17):1597-1609. doi:10.1056/NEJMoa2400712 — vérifiée.
+9. **[S9]** Facon T, et al. Daratumumab plus lenalidomide and dexamethasone for untreated myeloma (MAIA). *N Engl J Med*. 2019;380(22):2104-2115. — **non vérifiée**.
 10. **[S10]** Belouni R, et al. Epidemiological and immunochemical parameters of monoclonal plasma cell dyscrasias of 2121 cases in Algeria. *Curr Res Transl Med*. 2020;68(2):67-70. doi:10.1016/j.retram.2019.11.003 — vérifiée.
 11. **[S11]** SAHTS. Registre algérien du myélome multiple (AMMR), résumé de congrès (Blood, 2017) ; séries algériennes d'autogreffe. — **non vérifiée** (références complètes à établir).
 12. **[S12]** Greipp PR, San Miguel J, Durie BG, et al. International staging system for multiple myeloma. *J Clin Oncol*. 2005;23(15):3412-3420. — **non vérifiée**.

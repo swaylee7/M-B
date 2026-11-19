@@ -6,11 +6,24 @@ sous_specialite: "Diabète sucré — diagnostic, classification, complications 
 items_residanat: [RES-MED-091]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-03 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-DIAB-0001.md
+    remarque: "Références S16 (SFD 2023) et S17 (HAS 2024) vérifiées et complétées ; divergence sur la metformine actualisée (prise de position SFD de novembre 2025 signalée)."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-DIAB-0001.md
+    remarque: "Posologie de la metformine et adaptation au DFGe précisées (RCP européen, KDIGO 2022) ; titration de l'insuline basale (ADA) : marqueur levé ; marqueurs maintenus (autres classes, douleur neuropathique, Ramadan)."
 sources:
   - id: S1
     reference: "American Diabetes Association Professional Practice Committee for Diabetes. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. Diabetes Care. 2026;49(Suppl 1):S27-S49."
@@ -133,21 +146,21 @@ sources:
     url: ""
     verifiee: true
   - id: S16
-    reference: "Société Francophone du Diabète (SFD). Prise de position sur l'approche thérapeutique du patient avec diabète de type 2 (version 2023). Médecine des Maladies Métaboliques. [référence bibliographique exacte À VÉRIFIER]"
+    reference: "Darmon P, Bauduceau B, Bordier L, et al. Prise de position de la Société Francophone du Diabète (SFD) sur les stratégies d'utilisation des traitements antihyperglycémiants dans le diabète de type 2 – 2023. Médecine des Maladies Métaboliques. 2023;17(8):664-693. (actualisation SFD publiée le 13 novembre 2025, non consultée)"
     organisme: SFD
     annee: 2023
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.mmm.2023.10.007"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S17
-    reference: "Haute Autorité de Santé (HAS). Stratégie thérapeutique du patient vivant avec un diabète de type 2 — recommandation de bonne pratique. [année et intitulé exacts À VÉRIFIER — publication présumée 2024]"
+    reference: "Haute Autorité de santé (HAS). Stratégie thérapeutique du patient vivant avec un diabète de type 2. Recommandation de bonne pratique. Saint-Denis La Plaine : HAS ; 2024 (validation : 30 mai 2024)."
     organisme: HAS
     annee: 2024
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://www.has-sante.fr/jcms/p_3191108/fr/strategie-therapeutique-du-patient-vivant-avec-un-diabete-de-type-2"
+    verifiee: true
   - id: S18
     reference: "Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-S314."
     organisme: KDIGO
@@ -170,7 +183,7 @@ mots_cles: [diabète sucré, diabète de type 1, diabète de type 2, HbA1c, insu
 # Diabète sucré : définition, épidémiologie, classification, insuline et insulinothérapie, complications dégénératives et traitement du diabète de type 2
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Référence principale : ADA *Standards of Care* 2026 (supplément de janvier 2026), dernière édition vérifiée au 19/11/2026.
 
 **Items du programme couverts** : RES-MED-091 — « Diabète sucré : Définition - épidémiologie - classification du diabète type I et II - insuline et insulinothérapie - complications dégénératives du diabète et traitement du diabète type II. » (intitulé officiel, programme du concours de résidanat 2024-2025).
@@ -537,7 +550,7 @@ Fréquence d'évaluation : au moins **deux HbA1c par an**, et tous les 3 mois si
 | **Thiazolidinedione** (pioglitazone) | Insulinosensibilisation (PPAR-γ) | Élevée | Pas d'hypoglycémie, bénéfice dans la MASH [S3, recommandation 9.13] | Prise de poids, œdèmes, **insuffisance cardiaque** (contre-indiquée), fractures |
 | **Inhibiteurs des α-glucosidases** (acarbose) | Ralentissement de l'absorption des glucides | Faible | Pas d'hypoglycémie seuls | Flatulences ; en cas d'hypoglycémie sous association, **resucrer avec du glucose pur** [S2] |
 
-**Posologies** : la metformine se titre progressivement (par exemple départ 500 mg/j au cours du repas puis augmentation par paliers), jusqu'à la dose efficace tolérée dans la limite du RCP ; gliclazide, glimépiride, inhibiteurs de la DPP-4, iSGLT2, AR GLP-1 et tirzépatide ont des schémas d'escalade propres à chaque spécialité : **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
+**Posologies** : la metformine se titre progressivement (par exemple départ 500 mg/j au cours du repas puis augmentation par paliers), jusqu'à la dose efficace tolérée dans la limite du RCP (dose maximale européenne 3 000 mg/j en 2–3 prises) ; **adaptation au DFGe** : 45–59 mL/min/1,73 m² → 2 000 mg/j au maximum, **30–44 → 1 000 mg/j au maximum**, < 30 → contre-indiquée [RCP européen ; S9 pour le seuil de 1 000 mg/j entre 30 et 44] ; gliclazide, glimépiride, inhibiteurs de la DPP-4, iSGLT2, AR GLP-1 et tirzépatide ont des schémas d'escalade propres à chaque spécialité : **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
 
 #### 13.2.3 Insulines
 
@@ -579,7 +592,7 @@ Fréquence d'évaluation : au moins **deux HbA1c par an**, et tous les 3 mois si
 - **poursuivre les antidiabétiques non insuliniques** à bénéfice métabolique (metformine, iSGLT2, AR GLP-1) ; limiter ou arrêter sulfamides, glinides et inhibiteurs de la DPP-4 lors de l'intensification [S3, recommandation 9.23].
 **Initiation pratique** :
 1. **Insuline basale** au coucher ou à heure fixe : **0,1–0,2 U/kg/j** selon le poids et le degré d'hyperglycémie [S3].
-2. **Titration** sur la glycémie capillaire à jeun : exemple d'algorithme d'autotitration — +2 U tous les 3 jours tant que la GAJ dépasse l'objectif (par ex. 0,80–1,30 g/L), −10 à −20 % (ou −4 U) en cas d'hypoglycémie : **[POSOLOGIE À VÉRIFIER — protocole local ; l'autotitration est recommandée dans son principe par l'ADA [S3]]**.
+2. **Titration** sur la glycémie capillaire à jeun (objectif habituel 0,80–1,30 g/L) : algorithme proposé par l'ADA — **+2 U tous les 3 jours** jusqu'à l'objectif sans hypoglycémie ; en cas d'hypoglycémie, en rechercher la cause et, sans cause évidente, **réduire la dose de 10 à 20 %** [S3, figure de l'intensification vers les traitements injectables] ; l'autotitration par le patient éduqué est recommandée [S3].
 3. Si GAJ à l'objectif mais HbA1c au-dessus de l'objectif (ou sur-basalisation) : ajouter un AR GLP-1 (ou association fixe basale/AR GLP-1) **avant** l'insuline prandiale ; sinon ajouter **une injection prandiale de 4 U ou 10 % de la dose de basale** au repas le plus hyperglycémiant, puis étendre aux autres repas (« basal-plus » → « basal-bolus ») ; alternative : 2 injections de prémélange [S3].
 4. Les DT2 sont plus insulinorésistants et peuvent nécessiter ~1 U/kg/j, avec moins d'hypoglycémies que les DT1 [S3].
 5. L'insuline ne doit pas être présentée comme une menace ou un échec personnel [S3].
@@ -868,7 +881,7 @@ DT2 déséquilibré (HbA1c 9,1 %) avec **MRD stade G3a A2**, **RD non proliféra
 | Sujet | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
 |---|---|---|---|
 | Seuil de l'hyperglycémie modérée à jeun | **ADA 2026** : 1,00–1,25 g/L (5,6–6,9 mmol/L) [S1] | **OMS** : 1,10–1,25 g/L (6,1–6,9 mmol/L) [référence OMS non revérifiée dans cette session — À VÉRIFIER] | Le seuil ADA classe davantage de sujets en prédiabète ; préciser le référentiel utilisé. |
-| Place de la metformine | **ADA/EASD 2022** : la metformine reste une option efficace et peu coûteuse, mais n'est plus un prérequis : les agents à bénéfice cardio-rénal sont recommandés indépendamment d'elle [S7] ; **SFD 2023** et **HAS** : metformine en 1re intention dans la majorité des cas [S16, S17 — non vérifiées] | **ADA 2026** : metformine décrite comme « historiquement » de première ligne ; choix guidé par les comorbidités, le poids et l'efficacité, association précoce encouragée [S3] | Évolution vers une stratégie « par objectifs » ; en contexte de contrainte d'accès (Algérie), la metformine reste centrale [S3, recommandation 9.30 ; S11]. |
+| Place de la metformine | **ADA/EASD 2022** : la metformine reste une option efficace et peu coûteuse, mais n'est plus un prérequis : les agents à bénéfice cardio-rénal sont recommandés indépendamment d'elle [S7] ; **SFD 2023** et **HAS 2024** : metformine en 1re intention dans la majorité des cas [S16, S17 — références vérifiées ; une actualisation SFD a été publiée le 13 novembre 2025, contenu non consulté] | **ADA 2026** : metformine décrite comme « historiquement » de première ligne ; choix guidé par les comorbidités, le poids et l'efficacité, association précoce encouragée [S3] | Évolution vers une stratégie « par objectifs » ; en contexte de contrainte d'accès (Algérie), la metformine reste centrale [S3, recommandation 9.30 ; S11]. |
 | Objectif tensionnel | **ADA 2026** : < 130/80 mmHg si tolérée ; PAS < 120 encouragée chez les patients à haut risque CV ou rénal [S4] | **ESC 2023** : objectif de PAS autour de 130 mmHg et plus bas si toléré, sans descendre sous 120 mmHg ; objectifs plus souples chez le sujet âgé [S8] | Les deux convergent vers < 130 mmHg ; divergence sur la PAS < 120 (encouragée par l'ADA, évitée par l'ESC). |
 | Stratification du risque CV pour le choix des iSGLT2/AR GLP-1 | **ADA 2026** : maladie CV athéromateuse ou facteurs de risque multiples [S3, S4] | **ESC 2023** : estimation du risque à 10 ans par le score SCORE2-Diabetes chez les patients sans maladie CV ni atteinte d'organe sévère [S8] | Outils différents ; résultats souvent concordants en pratique. |
 | Intensification en cas d'HbA1c élevée | **ADA 2026** : traitement à base de GLP-1 préféré à l'insuline en l'absence d'hyperglycémie sévère [S3] | **Pratique algérienne décrite** : insuline souvent introduite pour mauvais contrôle, accès limité aux AR GLP-1 [S11] | Divergence liée à l'accès et au coût plus qu'aux preuves. |
@@ -895,7 +908,7 @@ DT2 déséquilibré (HbA1c 9,1 %) avec **MRD stade G3a A2**, **RD non proliféra
 13. **[S13]** DCCT Research Group. *N Engl J Med*. 1993;329(14):977-986. doi:10.1056/NEJM199309303291401. — V
 14. **[S14]** UKPDS Group. UKPDS 33. *Lancet*. 1998;352(9131):837-853. — V
 15. **[S15]** ADA. Summary of Revisions: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S6-S12. doi:10.2337/dc26-SREV. — V
-16. **[S16]** SFD. Prise de position sur l'approche thérapeutique du DT2 (2023). — NV [À VÉRIFIER]
-17. **[S17]** HAS. Stratégie thérapeutique du patient vivant avec un DT2. — NV [À VÉRIFIER]
+16. **[S16]** Darmon P, et al. Prise de position de la SFD sur les stratégies d'utilisation des traitements antihyperglycémiants dans le DT2 – 2023. *Méd Mal Métab*. 2023;17(8):664-693. doi:10.1016/j.mmm.2023.10.007. — V (référence vérifiée par recherche web pendant l'audit ; texte non consulté)
+17. **[S17]** HAS. Stratégie thérapeutique du patient vivant avec un diabète de type 2. Recommandation de bonne pratique, 2024 (validation 30 mai 2024). — V (catalogue Mediverse REC-0495, page HAS consultée)
 18. **[S18]** KDIGO 2024 CKD Guideline. *Kidney Int*. 2024;105(4S):S117-S314. doi:10.1016/j.kint.2023.10.018. — V
 19. **[S19]** ADA. 16. Diabetes Care in the Hospital — 2026. *Diabetes Care*. 2026;49(Suppl 1):S339-S355. doi:10.2337/dc26-S016. — V, T

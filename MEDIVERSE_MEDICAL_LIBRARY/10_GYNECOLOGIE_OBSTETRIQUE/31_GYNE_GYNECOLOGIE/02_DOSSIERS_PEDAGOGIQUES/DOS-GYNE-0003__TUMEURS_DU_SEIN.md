@@ -6,11 +6,17 @@ sous_specialite: "Sénologie — cancérologie mammaire"
 items_residanat: [RES-CHI-062]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-07 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 0
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0003.md
 sources:
   - id: S1
     reference: "Loibl S, André F, Bachelot T, et al., on behalf of the ESMO Guidelines Committee. Early breast cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. Ann Oncol. 2024;35(2):159-182."
@@ -101,21 +107,21 @@ sources:
     url: ""
     verifiee: false
   - id: S12
-    reference: "Schmid P, Cortes J, Pusztai L, et al. Pembrolizumab for early triple-negative breast cancer (KEYNOTE-522). N Engl J Med. 2020;382(9):810-821. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Schmid P, Cortes J, Pusztai L, et al. Pembrolizumab for early triple-negative breast cancer (KEYNOTE-522). N Engl J Med. 2020;382(9):810-821 (PMID 32101663). Survie sans événement : Schmid P, et al. N Engl J Med. 2022;386(6):556-567 (PMID 35139274)."
     organisme: "KEYNOTE-522"
     annee: 2020
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
-    reference: "Tutt ANJ, Garber JE, Kaufman B, et al. Adjuvant olaparib for patients with BRCA1- or BRCA2-mutated breast cancer (OlympiA). N Engl J Med. 2021;384(25):2394-2405. [À VÉRIFIER — non revérifié pendant la session]"
+    reference: "Tutt ANJ, Garber JE, Kaufman B, et al. Adjuvant olaparib for patients with BRCA1- or BRCA2-mutated breast cancer (OlympiA). N Engl J Med. 2021;384(25):2394-2405."
     organisme: "OlympiA"
     annee: 2021
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa2105215"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S14
     reference: "Modi S, Jacot W, Yamashita T, et al. Trastuzumab deruxtecan in previously treated HER2-low advanced breast cancer (DESTINY-Breast04). N Engl J Med. 2022;387(1):9-20. [À VÉRIFIER — non revérifié pendant la session]"
     organisme: "DESTINY-Breast04"
@@ -289,7 +295,7 @@ Total **3-5 = grade I** ; **6-7 = grade II** ; **8-9 = grade III**.
 
 | Marqueur | Méthode | Interprétation |
 |---|---|---|
-| **Récepteurs aux œstrogènes (RE)** et **à la progestérone (RP)** | Immunohistochimie (IHC) | **Positifs si ≥ 1 %** des cellules marquées ; la catégorie « **RE faiblement positif** » (1-10 %) a un comportement proche des triple négatifs [S11 — À VÉRIFIER] |
+| **Récepteurs aux œstrogènes (RE)** et **à la progestérone (RP)** | Immunohistochimie (IHC) | **Positifs si ≥ 1 %** des cellules marquées ; la catégorie « **RE faiblement positif** » (1-10 %) a un comportement proche des triple négatifs [recommandation ASCO/CAP 2020 sur les récepteurs hormonaux — référence À VÉRIFIER] |
 | **HER2** | IHC (score 0, 1+, 2+, 3+) ± hybridation in situ (ISH) | **3+** = positif ; **2+** = équivoque → **ISH** (amplification = positif) ; **0** = négatif ; **1+** ou **2+/ISH négatif** = « **HER2-low** », cible du trastuzumab deruxtécan au stade métastatique [S11, S14 — À VÉRIFIER] |
 | **Ki-67** | IHC | Index de prolifération ; seuils variables selon les laboratoires |
 | **Signatures génomiques** (Oncotype DX, MammaPrint…) | Biologie moléculaire | Aident à décider d'une chimiothérapie adjuvante dans les cancers **RH+/HER2−** de risque intermédiaire [S1] |
@@ -376,7 +382,7 @@ Total **3-5 = grade I** ; **6-7 = grade II** ; **8-9 = grade III**.
 | **5** | **Hautement évocateur** de malignité | **≥ 95 %** | **Prélèvement histologique** et prise en charge |
 | **6** | **Malignité prouvée** par biopsie | — | Prise en charge thérapeutique |
 
-> Les seuils de probabilité des sous-catégories 4A-4C et les intervalles de surveillance BI-RADS 3 sont ceux classiquement attribués à l'atlas ACR 2013 ; à confirmer dans l'atlas [S4 — À VÉRIFIER].
+> Les seuils de probabilité des catégories 3 à 5 et des sous-catégories 4A-4C sont ceux de l'atlas ACR 2013 [S4] ; pour BI-RADS 3, le schéma habituel de surveillance est un contrôle à 6 mois, puis à 12 et 24 mois (modalités selon le protocole local).
 
 ### 9.3 Preuve histologique : prélèvements percutanés **avant tout geste chirurgical**
 - **Microbiopsie** (« biopsie au trocart », 14 G) **échoguidée** : méthode de référence pour une **masse** ; plusieurs carottes ; pose d'un **clip** de repérage si une chimiothérapie néo-adjuvante est envisagée.
@@ -508,7 +514,7 @@ Total **3-5 = grade I** ; **6-7 = grade II** ; **8-9 = grade III**.
 **Cancer infiltrant opérable d'emblée (T1-T2, N0-N1)**
 - **RH+/HER2− (luminal)** : chirurgie première (conservatrice si possible + ganglion sentinelle) → décision de **chimiothérapie adjuvante** selon le risque (taille, ganglions, grade, Ki-67, **signature génomique**) → **radiothérapie** → **hormonothérapie** 5-10 ans (± inhibiteur de CDK4/6 si haut risque, ± olaparib si BRCA muté, ± bisphosphonate si ménopausée).
 - **HER2+** : si tumeur **> 2 cm (T2)** ou **N+** → **traitement néo-adjuvant** (chimiothérapie + trastuzumab ± pertuzumab) puis chirurgie ; en cas de **maladie résiduelle** → **T-DM1** ; sinon poursuite du trastuzumab (± pertuzumab) pour **1 an** au total ; petites tumeurs N0 → chirurgie puis chimiothérapie allégée + trastuzumab.
-- **Triple négatif** : si **T2** ou **N+** → **chimiothérapie néo-adjuvante** (anthracyclines, taxanes, carboplatine) **+ pembrolizumab** (KEYNOTE-522) puis chirurgie ; maladie résiduelle → capécitabine ou olaparib (si BRCA muté) ; petites tumeurs → chirurgie puis chimiothérapie adjuvante selon la taille [S1, S12 — À VÉRIFIER].
+- **Triple négatif** : si **T2** ou **N+** → **chimiothérapie néo-adjuvante** (paclitaxel-carboplatine puis anthracycline-cyclophosphamide) **+ pembrolizumab**, poursuivi en adjuvant (KEYNOTE-522 : stades II-III ; gain de réponse complète histologique puis de survie sans événement) puis chirurgie ; maladie résiduelle → capécitabine ou olaparib (si mutation constitutionnelle BRCA, essai OlympiA) ; petites tumeurs → chirurgie puis chimiothérapie adjuvante selon la taille [S1, S12, S13].
 
 **Cancer localement avancé ou inflammatoire**
 - **Traitement systémique premier** (néo-adjuvant), puis **chirurgie** (mastectomie + curage pour l'inflammatoire), puis **radiothérapie** et traitements adjuvants selon le sous-type.
@@ -797,9 +803,11 @@ Examen clinique tous les 3 à 6 mois pendant les premières années, **mammograp
 9. **[S9]** AJCC Cancer Staging Manual, 8th ed. 2017. — *Non revérifiée [À VÉRIFIER].*
 10. **[S10]** Elston CW, Ellis IO. *Histopathology.* 1991;19(5):403-410. — *Non revérifiée [À VÉRIFIER].*
 11. **[S11]** Wolff AC, et al. ASCO/CAP HER2 testing guideline. — *Non revérifiée [À VÉRIFIER].*
-12. **[S12]** Schmid P, et al. KEYNOTE-522. *N Engl J Med.* 2020. — *Non revérifiée [À VÉRIFIER].*
-13. **[S13]** Tutt ANJ, et al. OlympiA. *N Engl J Med.* 2021. — *Non revérifiée [À VÉRIFIER].*
+12. **[S12]** Schmid P, et al. KEYNOTE-522. *N Engl J Med.* 2020;382(9):810-821 ; survie sans événement : 2022;386(6):556-567. — *Vérifiée (PubMed, recherche web lors de l'audit).*
+13. **[S13]** Tutt ANJ, et al. OlympiA. *N Engl J Med.* 2021;384(25):2394-2405. doi:10.1056/NEJMoa2105215. — *Vérifiée (recherche web lors de l'audit).*
 14. **[S14]** Modi S, et al. DESTINY-Breast04. *N Engl J Med.* 2022. — *Non revérifiée [À VÉRIFIER].*
 15. **[S15]** Gennari A, et al. ESMO metastatic breast cancer guideline. *Ann Oncol.* 2021. — *Non revérifiée [À VÉRIFIER].*
+
+> **Audit (AUD-01/AUD-02, 19/11/2026)** : classification OMS 2019, grade de Nottingham, BI-RADS 5e édition, TNM AJCC 8, sous-types de substitution et stratégies ESMO 2024 relus ; aucune erreur critique. KEYNOTE-522 et OlympiA vérifiés ; S9-S11, S14, S15 restent à vérifier. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0003.md`.
 
 > **Note de traçabilité** : S1 à S8 confirmées par recherche web le 19/11/2026 ; S9 à S15 n'ont pas pu être revérifiées (budget de recherche de la session épuisé) et doivent être contrôlées lors de l'audit, de même que toutes les mentions [À VÉRIFIER].
