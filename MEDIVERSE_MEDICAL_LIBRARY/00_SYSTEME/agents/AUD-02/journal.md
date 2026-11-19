@@ -137,3 +137,13 @@ Mission : Audit des posologies et contre-indications
 - Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0001.md`, `DOS-ORL-0002.md`, `DOS-ORL-0003.md`, `DOS-NCHI-0001.md`, `DOS-OPHT-0001.md`. État : `00_SYSTEME/agents/AUD-01/etat_DOS-12.json` (etat.json non réécrit).
 - Traçabilité : une commande `git diff --stat` en lecture seule a été lancée par inadvertance pour vérifier un fichier (aucune modification) ; aucune autre commande git.
 - 2026-11-19T03:54:36+00:00 — Audit des posologies (AUD-02, conjointement avec AUD-01) des dossiers DOS-14 : DOS-PHAR-0001 à 0004 et DOS-HEMA-0006, lots QCM/cas DOS-14. Erreur critique corrigée : méropénème 1 g/8 h → 2 g/8 h dans le sepsis (livre AWaRe) ; posologies vérifiées sur l'OMS 2018 (antalgiques), le livre AWaRe, l'ACCP 2012, les recommandations HAS (plasma 10–15 mL/kg, plaquettes 0,5–0,7 × 10¹¹/10 kg, pédiatrie 2016) ; 15 marqueurs de posologie levés sur 21. Rapports et état : `00_SYSTEME/agents/AUD-01/rapports/` et `00_SYSTEME/agents/AUD-01/etat_DOS-14.json`.
+- 2026-11-19T04:00:22+00:00 — **Audit des posologies (AUD-02, conjointement avec AUD-01) du lot DOS-13** : DOS-PHYS-0001, DOS-PHYS-0002, DOS-HEMA-0007, DOS-IMMU-0001, DOS-IMMU-0002 et lots DOS-13 (65 QCM, 10 cas).
+  - Adrénaline IM de l'anaphylaxie (DOS-IMMU-0002, QCM et cas) vérifiée sur la WAO 2020 en texte intégral (DOC-00086, tableau 6) :
+    - 0,01 mg/kg, maximum 0,5 mg (adolescent et adulte), toutes les 5 à 15 min ;
+    - barème < 10 kg 0,01 mg/kg ; 1-5 ans 0,15 mg ; 6-12 ans 0,3 mg ; adolescent/adulte 0,5 mg.
+    Barème identique à DOS-MINT_REA-0001 et DOS-PEDI-0002 ; aucune divergence créée ; marqueur levé.
+  - Remplissage : bolus de 20 mL/kg (WAO 2020) ; marqueur levé. Écart avec DOS-MINT_REA-0001 (500-1 000 mL chez l'adulte, non vérifié) signalé pour harmonisation.
+  - Bicarbonate (DOS-PHYS-0001) : modalités de BICAR-ICU (4,2 %, pH ≥ 7,30) et seuil pH < 7,0 de l'acidocétose (consensus 2024) vérifiés. Aucune dose ajoutée ; renvoi à DOS-DIAB-0002.
+  - Autres marqueurs sans dose (dossiers et cas : hyperkaliémie, torsades, BAV, fomépizole, anticoagulation, CIVD, albendazole, dermocorticoïdes, conditionnement) remplacés par des renvois sourcés. Seuils transfusionnels de la CIVD précisés d'après BCSH 2009.
+  - Marqueurs `[POSOLOGIE À VÉRIFIER]` restants : 0. Aucune erreur de dose (aucune erreur critique).
+  - Détail : `00_SYSTEME/agents/AUD-01/rapports/` et `00_SYSTEME/agents/AUD-01/etat_DOS-13.json`. Aucune commande git.

@@ -6,11 +6,30 @@ sous_specialite: "Syndromes gériatriques — confusion aiguë"
 items_residanat: [RES-MED-165]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0002.md
+    remarque: "Textes relus : NICE CG103 (recommandations et contexte en ligne), HAS 2009 confusion aiguë (PDF), Beers 2023 (PMC), NICE CG100 (sevrage alcoolique). 4AT, CAM, critères NICE et HELP confirmés. Aucune erreur critique ou majeure."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0002.md
+    remarque: "Thiamine levée (200 mg × 3/j IV avant tout glucide, EFNS 2010 ; voie parentérale au moins 5 jours si Gayet-Wernicke suspecté, NICE CG100). Restent 2 marqueurs : dose de l'halopéridol (NICE et HAS ne donnent pas de dose absolue ; RCP non consultable) et dose de la benzodiazépine du sevrage (lorazépam oral en 1re intention selon NICE CG100, dose non fixée)."
+  - date: 2026-11-19
+    auditeur: "AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0002.md
+    remarque: "S3-S5, S7-S9, S13, S14, S16 vérifiées par PubMed ; S17 (NICE CG100) et S18 (EFNS 2010) ajoutées. Non revérifiées : DSM-5-TR (S2), SIGN 157 (S12, hôte inaccessible) ; formulation exacte de PADIS sur la prévention médicamenteuse non relue."
 sources:
   - id: S1
     reference: "National Institute for Health and Care Excellence. Delirium: prevention, diagnosis and management in hospital and long-term care. Clinical guideline CG103. Londres : NICE ; 2010, mise à jour janvier 2023."
@@ -20,7 +39,7 @@ sources:
     doi: ""
     url: "https://www.nice.org.uk/guidance/cg103"
     verifiee: true
-    remarque: "Mise à jour 2023 limitée à l'évaluation et au diagnostic (4AT par défaut ; CAM-ICU ou ICDSC en réanimation et en salle de réveil) confirmée par recherche web ; prévention et traitement non revus en 2023. Wording final des recommandations non relu intégralement."
+    remarque: "Recommandations et contexte relus en ligne par l'audit (nice.org.uk) : 4AT par défaut, CAM-ICU ou ICDSC en réanimation et salle de réveil (1.6.1, 2023) ; 4 facteurs de risque (1.2.1) ; intervention multicomposante dans les 24 h (1.4.2) ; halopéridol à court terme (habituellement ≤ 1 semaine), dose la plus faible, titration prudente, en tenant compte de l'avis de la MHRA sur les risques cardiaques et neurologiques (1.7.4, 2010) ; prévalence 20-30 % en médecine, 10-50 % en chirurgie, < 20 % en long séjour (contexte). CG103 ne traite pas des benzodiazépines."
   - id: S2
     reference: "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington, DC: APA; 2022."
     organisme: APA
@@ -53,9 +72,10 @@ sources:
     organisme: "Age and Ageing"
     annee: 2014
     type: article
-    doi: ""
+    doi: "10.1093/ageing/afu021"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 24590568."
   - id: S6
     reference: "Haute Autorité de santé. Confusion aiguë chez la personne âgée : prise en charge initiale de l'agitation. Recommandations de bonne pratique. Mai 2009."
     organisme: HAS
@@ -64,24 +84,25 @@ sources:
     doi: ""
     url: "https://www.has-sante.fr/jcms/c_819557/"
     verifiee: true
-    remarque: "Confirmée (recherche web) : confusion aiguë = urgence médicale ; mesures non médicamenteuses en premier ; traitement médicamenteux court et réévalué ; penser systématiquement aux médicaments ; scanner cérébral non systématique (indiqué si signes de localisation) ; confusion postopératoire hors champ."
+    remarque: "Texte des recommandations relu par l'audit (PDF has-sante.fr) : urgence médicale ; bilan initial systématique ; TDM non systématique, en 1re intention si signe de localisation, suspicion d'hémorragie méningée ou traumatisme crânien même mineur, en 2e intention si bilan négatif ; traitement médicamenteux de 24 à 48 h au maximum, en monothérapie, à 1/4-1/2 de la dose adulte ; benzodiazépine orale d'action courte (alprazolam, lorazépam, oxazépam) si anxiété prédominante, neuroleptique si troubles productifs ; CAM décrite, mais version française non validée ; confusion postopératoire hors champ."
   - id: S7
     reference: "Inouye SK, Westendorp RGJ, Saczynski JS. Delirium in elderly people. Lancet. 2014;383(9920):911-922."
     organisme: Lancet
     annee: 2014
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(13)60688-1"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 23992774."
   - id: S8
     reference: "Inouye SK, Bogardus ST Jr, Charpentier PA, et al. A multicomponent intervention to prevent delirium in hospitalized older patients. N Engl J Med. 1999;340(9):669-676."
     organisme: NEJM
     annee: 1999
     type: article
-    doi: ""
+    doi: "10.1056/NEJM199903043400901"
     url: ""
-    verifiee: false
-    remarque: "Essai HELP ; chiffres cités (9,9 % vs 15,0 %) non revérifiés pendant la session [À VÉRIFIER]."
+    verifiee: true
+    remarque: "Essai HELP ; PMID 10053175 ; résumé relu : confusion chez 9,9 % (intervention) contre 15,0 % (soins usuels), OR apparié 0,60."
   - id: S9
     reference: "Inouye SK, Charpentier PA. Precipitating factors for delirium in hospitalized elderly persons: predictive model and interrelationship with baseline vulnerability. JAMA. 1996;275(11):852-857."
     organisme: JAMA
@@ -89,7 +110,8 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 8596223."
   - id: S10
     reference: "2023 American Geriatrics Society Beers Criteria® Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults. J Am Geriatr Soc. 2023;71(7):2052-2081."
     organisme: "American Geriatrics Society"
@@ -119,17 +141,19 @@ sources:
     organisme: JAMA
     annee: 2001
     type: article
-    doi: ""
+    doi: "10.1001/jama.286.21.2703"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 11730446."
   - id: S14
     reference: "Wilson JE, Mart MF, Cunningham C, et al. Delirium. Nat Rev Dis Primers. 2020;6(1):90."
     organisme: "Nature Reviews Disease Primers"
     annee: 2020
     type: article
-    doi: ""
+    doi: "10.1038/s41572-020-00223-4"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 33184265."
   - id: S15
     reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé (art. 21, 23, 86-87, 198, 343). JORADP n° 46 du 29 juillet 2018."
     organisme: "République algérienne (JORADP)"
@@ -144,16 +168,35 @@ sources:
     organisme: "Society of Critical Care Medicine"
     annee: 2018
     type: recommandation
-    doi: ""
+    doi: "10.1097/CCM.0000000000003299"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 30113379 (existence vérifiée) ; formulation de la recommandation sur la prévention médicamenteuse non relue (texte intégral non accessible)."
+  - id: S17
+    reference: "National Institute for Health and Care Excellence. Alcohol-use disorders: diagnosis and management of physical complications. Clinical guideline CG100. Londres : NICE ; 2010 (mises à jour 2017)."
+    organisme: NICE
+    annee: 2010
+    type: recommandation
+    doi: ""
+    url: "https://www.nice.org.uk/guidance/cg100"
+    verifiee: true
+    remarque: "Relu en ligne par l'audit : delirium tremens, lorazépam oral en 1re intention, lorazépam parentéral ou halopéridol si persistance ou refus de la voie orale (1.1.4.1, hors AMM au Royaume-Uni en 2017) ; thiamine parentérale au moins 5 jours en cas de Gayet-Wernicke suspecté, puis orale (1.2.1.4)."
+  - id: S18
+    reference: "Galvin R, Bråthen G, Ivashynka A, Hillbom M, Tanasescu R, Leone MA; EFNS. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol. 2010;17(12):1408-1418."
+    organisme: EFNS
+    annee: 2010
+    type: recommandation
+    doi: "10.1111/j.1468-1331.2010.03153.x"
+    url: ""
+    verifiee: true
+    remarque: "PMID 20642790 ; résumé relu : thiamine 200 mg trois fois par jour, de préférence IV, avant tout apport glucidique (niveau C)."
 mots_cles: [confusion aiguë, syndrome confusionnel, delirium, sujet âgé, inattention, CAM, 4AT, DSM-5-TR, delirium hypoactif, iatrogénie, anticholinergiques, benzodiazépines, rétention urinaire, fécalome, prévention multicomposante, HELP, halopéridol, NICE CG103, HAS 2009]
 ---
 
 # Troubles confusionnels du sujet âgé : syndrome confusionnel aigu (delirium)
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage, ni les critères diagnostiques ou les échelles dans leur formulation protégée (ils sont reformulés).
-> Statut : brouillon à auditer. **Posologies** : aucune posologie n'est donnée comme validée ; toute prescription de psychotrope chez le sujet âgé confus doit suivre le RCP et le protocole local `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+> Statut : **audité par l'IA (AUD-01/AUD-02/AUD-04, 2026-11-19), corrections requises** — relecture par un enseignant qualifié nécessaire. **Posologies** : la dose de thiamine est sourcée (EFNS 2010) ; les doses d'antipsychotique et de benzodiazépine restent à confronter au RCP et au protocole local (marqueurs maintenus).
 
 **Item du programme couvert** : RES-MED-165 — « Troubles confusionnels chez le sujet âgé » (module Personnes âgées, DOC-00001).
 
@@ -186,7 +229,7 @@ Le **syndrome confusionnel aigu** (ou **confusion aiguë**, ou **état confusion
 | D | Les troubles A et C ne s'expliquent pas mieux par un trouble neurocognitif préexistant et ne surviennent pas dans un contexte de vigilance très abaissée (coma) |
 | E | Arguments (anamnèse, examen, examens complémentaires) indiquant qu'ils sont la **conséquence physiologique directe** d'une affection médicale, d'une intoxication ou d'un sevrage, d'une exposition toxique, ou de causes multiples |
 
-Spécifications : **aigu** (heures à jours) ou **persistant** (semaines à mois) ; selon l'activité psychomotrice : **hyperactif**, **hypoactif**, **mixte**. La CIM-11 classe le delirium parmi les troubles neurocognitifs (code 6D70) `[À VÉRIFIER]`.
+Spécifications : **aigu** (heures à jours) ou **persistant** (semaines à mois) ; selon l'activité psychomotrice : **hyperactif**, **hypoactif**, **mixte**. La CIM-11 classe le delirium parmi les troubles neurocognitifs (code 6D70, avec des sous-codes selon la cause : 6D70.0 affection classée ailleurs, 6D70.1 substance ou médicament, 6D70.2 causes multiples) ; code vérifié sur une source secondaire (portail CISMeF), le navigateur CIM-11 de l'OMS étant inaccessible pendant l'audit.
 
 ### 1.3 Notions associées
 
@@ -212,7 +255,7 @@ La confusion est une **urgence médicale** : elle est le mode d'expression non s
 
 ## 3. Épidémiologie
 
-- Fréquence élevée et **sous-diagnostic** majeur, en particulier de la forme hypoactive. Les ordres de grandeur couramment rapportés sont d'environ **20 à 30 %** des patients hospitalisés en services de médecine, **10 à 50 %** des patients opérés selon le type de chirurgie, et moins de 20 % des résidents d'établissements de long séjour [S1] `[chiffres à confronter au texte NICE]`. Les fréquences sont plus élevées encore en **réanimation**, notamment chez les patients ventilés [S13, S16], et en **soins palliatifs** de fin de vie [S7].
+- Fréquence élevée et **sous-diagnostic** majeur, en particulier de la forme hypoactive. Les ordres de grandeur couramment rapportés sont d'environ **20 à 30 %** des patients hospitalisés en services de médecine, **10 à 50 %** des patients opérés selon le type de chirurgie, et moins de 20 % des résidents d'établissements de long séjour (contexte de la recommandation NICE, relu) [S1]. Les fréquences sont plus élevées encore en **réanimation**, notamment chez les patients ventilés [S13, S16], et en **soins palliatifs** de fin de vie [S7].
 - Situations à très haut risque : **fracture de l'extrémité supérieure du fémur**, chirurgie cardiaque, AVC, sepsis, démence préexistante.
 - En Algérie, aucune donnée épidémiologique nationale sourcée sur la confusion du sujet âgé n'a été identifiée `[À VÉRIFIER]` ; le vieillissement de la population (espérance de vie de 79,6 ans en 2023 selon l'ONS, voir DOS-GERI-0001) laisse prévoir une augmentation du nombre de patients à risque.
 
@@ -362,7 +405,7 @@ Interprétation : **≥ 4** = confusion possible (± troubles cognitifs) ; **1 �
 | Troponine | Suspicion de syndrome coronarien (souvent atypique) |
 | Dosages médicamenteux | Digoxine, lithium, antiépileptiques |
 | TSH, vitamine B12, folates, ammoniémie | Selon le contexte |
-| **Scanner cérébral** | **Pas systématique** ; indiqué en cas de **signe de localisation**, de **traumatisme crânien** ou de chute (surtout sous anticoagulant), de troubles de la vigilance inexpliqués, ou d'absence de cause retrouvée après le bilan initial [S6] |
+| **Scanner cérébral** | **Pas systématique**. HAS 2009 : en 1re intention en cas de **signe de localisation**, de **suspicion d'hémorragie méningée** ou de **traumatisme crânien même mineur** (chute, surtout sous anticoagulant ou antiagrégant) ; en 2e intention si le bilan initial est négatif (AVC sans déficit moteur, hématome sous-dural) [S6]. Des troubles de la vigilance inexpliqués justifient aussi l'imagerie (avis d'expert) |
 | **Ponction lombaire** | Fièvre sans point d'appel, syndrome méningé, suspicion de méningo-encéphalite (après imagerie si indiquée) |
 | **EEG** | Suspicion d'**état de mal non convulsif** (fluctuations, myoclonies discrètes, antécédent d'épilepsie) ; ralentissement diffus non spécifique dans la plupart des confusions |
 
@@ -372,8 +415,8 @@ Interprétation : **≥ 4** = confusion possible (± troubles cognitifs) ; **1 �
 
 - **Confusion postopératoire** : fréquente après fracture du col du fémur et chirurgie cardiaque ; facteurs : douleur, anémie, hypoxie, opioïdes, anticholinergiques, sonde, privation de sommeil ; prévention par une prise en charge **orthogériatrique** (exclue du champ de la recommandation HAS 2009) [S6].
 - **Confusion superposée à une démence** : changement **par rapport à l'état habituel** décrit par l'aidant (le 4AT intègre cet item) ; ne pas attribuer l'aggravation à « l'évolution de la démence » sans bilan.
-- **Delirium tremens** (sevrage alcoolique, 48-72 h après l'arrêt) : confusion, agitation, hallucinations, tremblements, sueurs, fièvre, tachycardie ; urgence ; traitement par **benzodiazépines** et **thiamine** (avant tout apport glucosé) `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` ; c'est la principale situation où les benzodiazépines sont le traitement de choix [S1, S12].
-- **Encéphalopathie de Gayet-Wernicke** : confusion, troubles oculomoteurs, ataxie (triade souvent incomplète) chez un patient dénutri ou alcoolique ; thiamine en urgence.
+- **Delirium tremens** (sevrage alcoolique, 48-72 h après l'arrêt) : confusion, agitation, hallucinations, tremblements, sueurs, fièvre, tachycardie ; urgence ; traitement par **benzodiazépine** (NICE CG100 : lorazépam oral en 1re intention ; lorazépam parentéral ou halopéridol si persistance ou refus de la voie orale) [S17], dose titrée selon les symptômes `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`, et **thiamine** avant tout apport glucosé ; c'est la principale situation où les benzodiazépines sont le traitement de choix [S10, S17].
+- **Encéphalopathie de Gayet-Wernicke** : confusion, troubles oculomoteurs, ataxie (triade souvent incomplète) chez un patient dénutri ou alcoolique ; **thiamine 200 mg trois fois par jour, de préférence IV, avant tout apport glucidique** (EFNS 2010) [S18], par voie parentérale pendant au moins 5 jours, puis relais oral (NICE CG100) [S17].
 - **Syndrome anticholinergique** : confusion, mydriase, sécheresse cutanéo-muqueuse, tachycardie, rétention urinaire, constipation, hyperthermie.
 - **Syndrome sérotoninergique** (association d'antidépresseurs, tramadol, linézolide…) et **syndrome malin des neuroleptiques** (rigidité, hyperthermie, CPK élevées) : urgences.
 - **État de mal épileptique non convulsif** : confusion fluctuante inexpliquée, parfois myoclonies discrètes ; diagnostic par EEG.
@@ -450,15 +493,15 @@ La confusion est une urgence : l'**hospitalisation** est habituellement nécessa
 ### 12.5 Traitement médicamenteux symptomatique : place limitée
 
 - Il n'est **pas** un traitement de la confusion : il ne se discute que si le patient présente une **détresse importante** (hallucinations terrifiantes, angoisse majeure) ou un **danger** pour lui-même ou autrui, **après échec ou impossibilité** des mesures non médicamenteuses et de désescalade verbale [S1, S6].
-- **NICE (CG103)** : envisager un **halopéridol à court terme** (habituellement une semaine ou moins), à la **dose la plus faible** cliniquement appropriée, titrée prudemment ; **prudence ou abstention** en cas de maladie de Parkinson ou de démence à corps de Lewy [S1] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
-- **HAS (2009)** : si un traitement sédatif est nécessaire, choisir une molécule à **demi-vie courte**, à **faible dose**, pour une **durée brève**, avec réévaluation quotidienne ; selon la symptomatologie prédominante (anxiété versus symptômes psychotiques), la recommandation envisage une benzodiazépine à demi-vie courte ou un neuroleptique `[À VÉRIFIER — molécules et posologies exactes dans le texte HAS]` [S6].
-- **Benzodiazépines** : à éviter dans la confusion en général (elles peuvent l'aggraver), **sauf** sevrage alcoolique ou en benzodiazépines, où elles sont le traitement de choix [S1, S10, S12].
+- **NICE (CG103, 1.7.4)** : si les techniques de désescalade verbale et non verbale sont inefficaces ou inappropriées, envisager un **halopéridol à court terme** (habituellement une semaine ou moins), à la **dose la plus faible** cliniquement appropriée, titrée prudemment, en tenant compte de l'avis de l'agence britannique du médicament (MHRA) sur les risques cardiaques et neurologiques chez le sujet âgé, en particulier en cas de maladie de Parkinson ou de démence à corps de Lewy [S1]. Ni le NICE ni la HAS ne fixent de dose absolue `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **HAS (2009)** : aucun médicament n'a d'AMM dans cette indication ; si un traitement est nécessaire (agitation sévère, anxiété majeure, danger, soins indispensables impossibles), **monothérapie** pour **24 à 48 heures au maximum** ; administrer une première dose et en évaluer l'effet avant de renouveler ; débuter à **1/4 à 1/2 de la dose de l'adulte** ; si l'**anxiété** prédomine, benzodiazépine orale d'action rapide et de durée d'action courte (alprazolam, lorazépam, oxazépam) ; si des **troubles productifs** (hallucinations, délire) prédominent, neuroleptique adapté au profil du patient, de préférence par voie orale (buvable ou orodispersible), en évitant la forme injectable ; réintroduire à faible dose une benzodiazépine arrêtée brutalement si un sevrage est suspecté [S6].
+- **Benzodiazépines** : à éviter chez le sujet âgé confus ou à risque de confusion (Beers 2023 : elles peuvent la provoquer ou l'aggraver), **sauf** sevrage alcoolique ou en benzodiazépines, où elles peuvent être appropriées et sont le traitement de choix [S10, S17] ; la HAS 2009 admet toutefois, hors sevrage, une benzodiazépine de courte durée d'action quand l'anxiété prédomine (voir ci-dessus et § 20) [S6].
 - Surveillance de tout antipsychotique : sédation excessive, chutes, fausses routes, syndrome extrapyramidal, allongement du QT (ECG), hypotension.
 - **Prévention médicamenteuse** (antipsychotiques, mélatonine, etc.) : non recommandée de façon systématique en l'état des données ; en réanimation, les recommandations PADIS suggèrent de ne pas utiliser d'halopéridol ni d'antipsychotique atypique pour prévenir le delirium chez tous les patients [S16] `[À VÉRIFIER — formulation]`.
 
 ### 12.6 Révision de l'ordonnance : la charge anticholinergique
 
-Les effets anticholinergiques **s'additionnent** : plusieurs médicaments faiblement anticholinergiques, pris ensemble, peuvent provoquer une confusion. Les critères de Beers 2023 recommandent d'éviter les médicaments fortement anticholinergiques chez le sujet âgé, en particulier en cas de confusion ou de démence, et de limiter le nombre de médicaments anticholinergiques associés ; les critères STOPP/START v3 comportent des critères de même esprit [S10, S11] `[libellés exacts à confronter aux tableaux des critères]`.
+Les effets anticholinergiques **s'additionnent** : plusieurs médicaments faiblement anticholinergiques, pris ensemble, peuvent provoquer une confusion. Les critères de Beers 2023 recommandent d'éviter, chez le sujet âgé confus ou à haut risque de confusion, les **anticholinergiques**, les **antipsychotiques** (sauf échec des mesures non médicamenteuses et danger important), les **benzodiazépines**, les **hypnotiques apparentés** (« Z-drugs »), les **corticoïdes**, les **anti-H2** et les **opioïdes** (ajoutés en 2023), et de limiter le nombre de médicaments anticholinergiques associés (tableau relu dans le texte intégral) [S10] ; les critères STOPP/START v3 comportent des critères de même esprit [S11] `[libellés STOPP/START non relus]`.
 
 | Classe | Exemples (molécules courantes) | Piste de remplacement (à discuter au cas par cas) |
 |---|---|---|
@@ -506,7 +549,7 @@ Démarche : **lister** tous les médicaments, **identifier** ceux qui sont antic
 
 ## 14. Prévention
 
-La confusion est **évitable** dans une proportion importante des cas à l'hôpital grâce à des **interventions multicomposantes non médicamenteuses**. Dans l'essai HELP, une telle intervention a réduit l'incidence de la confusion chez des patients hospitalisés de 70 ans et plus (9,9 % contre 15,0 % dans le groupe soins usuels) [S8] `[chiffres à confronter à la publication]`.
+La confusion est **évitable** dans une proportion importante des cas à l'hôpital grâce à des **interventions multicomposantes non médicamenteuses**. Dans l'essai HELP, une telle intervention a réduit l'incidence de la confusion chez des patients hospitalisés de 70 ans et plus (9,9 % contre 15,0 % dans le groupe soins usuels ; OR apparié 0,60) [S8].
 
 Le NICE recommande, chez les patients à risque, une **évaluation dans les 24 heures** suivant l'admission et une **intervention multicomposante** adaptée, délivrée par une équipe formée, ciblant notamment [S1] :
 - désorientation et troubles cognitifs (orientation, activités stimulantes, visites) ;
@@ -545,7 +588,7 @@ Autres mesures : évaluation gériatrique et prise en charge **orthogériatrique
 4. Traiter chaque cause identifiée ; arrêter ou adapter les médicaments responsables
 5. Mesures non médicamenteuses pour tous ; éviter contention et sonde urinaire
 6. Détresse sévère ou danger persistant malgré ces mesures ?
-   → traitement médicamenteux bref, à faible dose, réévalué quotidiennement (halopéridol selon NICE ; benzodiazépine seulement si sevrage)
+   → traitement médicamenteux bref (24-48 h selon la HAS), à faible dose, réévalué au moins quotidiennement (halopéridol selon NICE ; benzodiazépine en cas de sevrage, ou d'anxiété prédominante selon la HAS)
    → prudence extrême si Parkinson / démence à corps de Lewy (avis spécialisé)
 7. Surveillance quotidienne ; à la sortie : information, transmission, réévaluation cognitive à distance
 ```
@@ -556,7 +599,7 @@ Autres mesures : évaluation gériatrique et prise en charge **orthogériatrique
 - Fièvre                         → infection (poumon, urine, peau, abdomen) ; méningite si signes méningés
 - Globe vésical / constipation   → rétention urinaire (anticholinergiques, adénome) ; fécalome (opioïdes)
 - Médicament récent              → iatrogénie ; syndrome anticholinergique ou sérotoninergique
-- Arrêt récent d'alcool / BZD    → sevrage (delirium tremens) → benzodiazépines + thiamine
+- Arrêt récent d'alcool / BZD    → sevrage (delirium tremens) → benzodiazépine + thiamine (avant tout glucide)
 - Chute / anticoagulant          → hématome sous-dural (scanner)
 - Signes de localisation         → AVC (imagerie urgente)
 - Somnolence + BPCO / opioïdes   → hypercapnie (gaz du sang)
@@ -582,7 +625,7 @@ Autres mesures : évaluation gériatrique et prise en charge **orthogériatrique
 2. *Causes probables, cumulées* : effet **anticholinergique** de l'oxybutynine (confusion + rétention urinaire), **tramadol** (confusiogène, constipant, abaisse le seuil épileptogène, risque sérotoninergique avec certains antidépresseurs), **rétention aiguë d'urine** et **fécalome** (aggravés par les deux médicaments), **déshydratation** modérée (insuffisance rénale fonctionnelle) ; l'association d'un **anticholinergique** et d'un **anticholinestérasique** (donépézil) est pharmacologiquement incohérente.
 3. *Mesures* : **arrêt** de l'oxybutynine et du tramadol ; **sondage évacuateur** (puis ablation de la sonde dès que possible, avec contrôle du résidu) ; évacuation du fécalome et laxatifs ; réhydratation ; antalgie par **paracétamol** ; la leucocyturie isolée sans fièvre ni signes urinaires n'impose pas d'antibiotique d'emblée (prélever un ECBU, réévaluer).
 4. *Environnement* : présence de la fille, lunettes, horloge, chambre calme et éclairée le jour, lever accompagné, pas de contention.
-5. *Psychotrope* : la première nuit, malgré les mesures, la patiente est très angoissée par ses hallucinations et tente d'enjamber les barrières : un antipsychotique à **très faible dose** est discuté et prescrit pour une durée brève, avec réévaluation le lendemain et ECG de contrôle `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+5. *Psychotrope* : la première nuit, malgré les mesures, la patiente est très angoissée par ses hallucinations et tente d'enjamber les barrières : un antipsychotique à **très faible dose** (1/4 à 1/2 de la dose de l'adulte, par voie orale, une première prise dont on évalue l'effet, 24 à 48 h au maximum selon la HAS 2009 [S6] ; halopéridol à la plus faible dose selon le NICE [S1]) est discuté et prescrit, avec réévaluation le lendemain et ECG de contrôle `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
 6. *Évolution* : amélioration nette en 72 heures ; 4AT à 2 au 5e jour (troubles cognitifs connus). Sortie avec une ordonnance révisée (pas d'anticholinergique ; prise en charge non médicamenteuse de l'incontinence), information de la famille et du médecin référent, **réévaluation cognitive à 3 mois**.
 
 **Message pédagogique** : chez le sujet âgé, la confusion est souvent **iatrogène** et **multifactorielle** ; l'examen de la **vessie** et du **rectum** et la **lecture de l'ordonnance** valent souvent plus qu'un scanner.
@@ -710,9 +753,9 @@ E. Les médicaments responsables doivent être signalés au médecin référent
 
 | Sujet | Position 1 (organisme, date) | Position 2 (organisme, date) | Commentaire |
 |---|---|---|---|
-| Outil de repérage | NICE 2023 : **4AT** par défaut ; CAM-ICU ou ICDSC en réanimation et salle de réveil [S1] | HAS 2009 : utilisation d'outils tels que la **CAM** dans l'évaluation de la confusion [S6] `[À VÉRIFIER — outil cité]` | Le 4AT, plus court et utilisable sans formation, s'est imposé dans les recommandations récentes |
-| Psychotropes en cas d'agitation | NICE : halopéridol à court terme si détresse ou danger, après échec de la désescalade ; benzodiazépines réservées au sevrage [S1] | HAS 2009 : molécule à demi-vie courte, dose faible, durée brève ; benzodiazépine à demi-vie courte envisageable quand l'anxiété prédomine, neuroleptique quand les symptômes psychotiques prédominent `[À VÉRIFIER]` [S6] | Accord sur le principe « le moins possible, le plus court possible » ; désaccord sur la place des benzodiazépines hors sevrage |
-| Prévention médicamenteuse | Pas de prévention médicamenteuse systématique (NICE, SIGN) [S1, S12] `[À VÉRIFIER — formulation]` | Réanimation (PADIS 2018) : suggestion de ne pas utiliser halopéridol ni antipsychotique atypique en prévention chez tous les patients [S16] | Priorité aux interventions multicomposantes non médicamenteuses [S8] |
+| Outil de repérage | NICE 2023 : **4AT** par défaut ; CAM-ICU ou ICDSC en réanimation et salle de réveil [S1] | HAS 2009 : décrit la **CAM**, mais en souligne les limites en pratique courante (traduction française non validée, formation formalisée nécessaire) et recommande sa validation ; MMSE dès que possible comme référence [S6] | Le 4AT, plus court et utilisable sans formation, s'est imposé dans les recommandations récentes |
+| Psychotropes en cas d'agitation | NICE CG103 : halopéridol à court terme (≤ 1 semaine) si détresse ou danger, après échec de la désescalade [S1] ; Beers 2023 : benzodiazépines à éviter en cas de confusion, sauf sevrage [S10] | HAS 2009 : monothérapie de 24 à 48 h au maximum, à 1/4-1/2 de la dose adulte ; benzodiazépine orale de courte durée d'action (alprazolam, lorazépam, oxazépam) quand l'anxiété prédomine, neuroleptique quand les troubles productifs prédominent [S6] | Accord sur le principe « le moins possible, le plus court possible » ; désaccord sur la place des benzodiazépines hors sevrage |
+| Prévention médicamenteuse | NICE CG103 : prévention par intervention multicomposante non médicamenteuse, sans prévention médicamenteuse recommandée [S1] ; SIGN 157 : position non relue `[À VÉRIFIER]` [S12] | Réanimation (PADIS 2018) : suggestion de ne pas utiliser halopéridol ni antipsychotique atypique en prévention chez tous les patients [S16] | Priorité aux interventions multicomposantes non médicamenteuses [S8] |
 | Champ des recommandations | HAS 2009 : exclut la confusion postopératoire [S6] | NICE : hôpital (y compris chirurgie) et établissements de long séjour [S1] | Pour la chirurgie, se référer aux recommandations spécifiques (orthogériatrie, anesthésie) |
 | Classification | DSM-5-TR : delirium dans les troubles neurocognitifs ; sous-types hyper/hypo/mixte [S2] | CIM-11 : delirium (6D70) `[À VÉRIFIER]` | Terminologie française : « syndrome confusionnel aigu » ≈ delirium |
 
@@ -736,3 +779,5 @@ E. Les médicaments responsables doivent être signalés au médecin référent
 14. [S14] Wilson JE et al. Delirium. Nat Rev Dis Primers 2020;6:90.
 15. [S15] Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074).
 16. [S16] Devlin JW et al. PADIS guidelines. Crit Care Med 2018;46(9):e825-e873.
+17. [S17] NICE. Alcohol-use disorders: diagnosis and management of physical complications (CG100). 2010, mises à jour 2017.
+18. [S18] Galvin R et al. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol 2010;17(12):1408-1418.

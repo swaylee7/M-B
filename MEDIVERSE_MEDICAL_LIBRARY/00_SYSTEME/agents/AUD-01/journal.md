@@ -198,3 +198,33 @@ Mission : Audit scientifique des dossiers (exactitude, cohérence, actualité)
 - Lots (écrits par `ecrire_json`, JSON validés avec python3, cohérence réponses/explications vérifiée par script) : 3 QCM corrigés (1424, 1423, 1436), 60/60 audite_valide ; 5 cas modifiés, 8 audite_valide, 2 audite_corrections_requises (CAS-PHAR-1401, CAS-PHAR-1404). `valider.py` : 0 erreur.
 - Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0001.md` à `DOS-PHAR-0004.md`, `DOS-HEMA-0006.md`. État : `00_SYSTEME/agents/AUD-01/etat_DOS-14.json` (etat.json non réécrit).
 - Traçabilité : une commande `git status` en lecture seule (sortie redirigée, aucune modification) a été lancée par inadvertance dans une commande de comptage ; aucune autre commande git.
+- 2026-11-19T04:00:22+00:00 — **Session d'audit scientifique et posologique (AUD-01, tenue conjointement avec AUD-02)** des dossiers du rédacteur DOS-13 (sciences fondamentales) :
+  - DOS-PHYS-0001 (équilibre acido-basique), DOS-PHYS-0002 (électrophysiologie cardiaque), DOS-HEMA-0007 (hémostase), DOS-IMMU-0001 (HLA), DOS-IMMU-0002 (hypersensibilités, anaphylaxie) ;
+  - lots `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-13.json` (65 QCM) et `20_CAS_CLINIQUES/lots/DOS-13.json` (10 cas).
+  J'ai d'abord lu PROTOCOLE_AUDIT.md et CONVENTIONS.md, puis les 5 dossiers et les 2 lots en entier.
+- Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/…/*.avant_audit_AUD-01` (5 dossiers, 2 lots).
+- Textes intégraux relus (PMC via eutils) :
+  - SRLF/SFMU 2019 (PMC6695455) ;
+  - consensus 2024 sur les crises hyperglycémiques (Diabetologia, PMC11343900) ;
+  - WAO 2020 anaphylaxie (PMC7607509 = DOC-00086, tableau 6) ;
+  - Elbatarny 2014 ISTH-BAT (PMC4251588) ;
+  - deux sources secondaires reproduisant l'ESC 2022 : Wang 2023, PMC11264164 ; Könemann 2023, PMC10228619.
+- Résumés PubMed relus : BICAR-ICU, BCSH 2009 CIVD, PREDICT-1, IPD-IMGT/HLA 2020, Bouali-Benhalima 2025, Dahmani 2018, Aribi 2004, Ouederni 2011, EAACI 2021, EAACI 2023, ESCD 2026, Fennouh 2026.
+- 4 recherches web : ESC 2022 QT long ; ESC 2022 Brugada ; EAACI 2021 répétition de l'adrénaline ; SFMU 2016 erratum.
+- Hôtes inaccessibles : academic.oup.com (ESC 2022), Europe PMC (délai), iris.univpm.it et eaaci.org (EAACI 2021), afpa.org et link.springer.com (SFMU 2016).
+- Résultats (tous en version 1.1, verdict `audite_valide`, aucun marqueur restant) :
+  - DOS-PHYS-0001 : 7 corrections (0 critique / 0 majeure / 7 mineures).
+  - DOS-PHYS-0002 : 11 corrections (0/1/10). Majeure : QRS normal « < 0,12 s » corrigé (110-119 ms = bloc incomplet). Seuils ESC 2022 vérifiés et intégrés.
+  - DOS-HEMA-0007 : 6 corrections (0/1/5). Majeure : corrigé du QCM 9 (score ISTH de CIVD, réponse B, C). Seuils ISTH-BAT sourcés.
+  - DOS-IMMU-0001 : 4 corrections (0/1/3). Majeure : réactions fébriles non hémolytiques (anticorps du receveur) et TRALI (anticorps du donneur).
+  - DOS-IMMU-0002 : 11 corrections (0/0/11).
+- Posologies (AUD-02) :
+  - adrénaline IM = WAO 2020 (0,01 mg/kg, max 0,5 mg, toutes les 5 à 15 min ; < 10 kg 0,01 mg/kg ; 1-5 ans 0,15 mg ; 6-12 ans 0,3 mg ; adolescent/adulte 0,5 mg), identique à DOS-MINT_REA-0001 et DOS-PEDI-0002 ; aucune divergence créée ;
+  - remplissage : 20 mL/kg (WAO) ; écart avec DOS-MINT_REA-0001 (500-1 000 mL, non vérifié) signalé pour harmonisation ;
+  - critères de l'acidocétose alignés sur DOS-DIAB-0002 (consensus 2024).
+  Marqueurs `[POSOLOGIE À VÉRIFIER]` : 16 levés sur 16 (7 dans les dossiers, 9 dans les cas). Deux étaient de vraies posologies vérifiées sur la WAO 2020 (adrénaline, remplissage) ; les autres, sans dose, ont été remplacés par des renvois sourcés vers les dossiers dédiés.
+- Lots (écrits par `ecrire_json`, JSON validé avec python3 ; `valider.py` : 0 erreur) :
+  - QCM-PHYS-1304 corrigé (gaz du sang incohérents) ; QCM-HEMA-1309 corrigé (corrigé faux) ; 65/65 `audite_valide` ;
+  - 9 cas modifiés ; 10/10 `audite_valide`.
+- Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-PHYS-0001.md`, `DOS-PHYS-0002.md`, `DOS-HEMA-0007.md`, `DOS-IMMU-0001.md`, `DOS-IMMU-0002.md`.
+- État : `00_SYSTEME/agents/AUD-01/etat_DOS-13.json` (etat.json non réécrit). Aucune commande git.

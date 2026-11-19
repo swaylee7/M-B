@@ -1,0 +1,99 @@
+{
+  "id": "AUD-01",
+  "perimetre": "Audit scientifique et posologique (AUD-01/AUD-02) des dossiers du rédacteur DOS-13 (sciences fondamentales)",
+  "derniere_execution": "2026-11-19T03:59:50+00:00",
+  "taches_terminees": [
+    "audit DOS-PHYS-0001 (lot DOS-13)",
+    "audit DOS-PHYS-0002 (lot DOS-13)",
+    "audit DOS-HEMA-0007 (lot DOS-13)",
+    "audit DOS-IMMU-0001 (lot DOS-13)",
+    "audit DOS-IMMU-0002 (lot DOS-13)",
+    "audit lot QCM DOS-13 (65 QCM)",
+    "audit lot cas DOS-13 (10 cas)"
+  ],
+  "resultats": {
+    "DOS-PHYS-0001": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 7
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-PHYS-0002": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 10
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-HEMA-0007": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 5
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-IMMU-0001": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 3
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-IMMU-0002": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 11
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "marqueurs_posologie": {
+      "initial_dossiers": 7,
+      "leves_dossiers": 7,
+      "initial_cas": 9,
+      "leves_cas": 9,
+      "restants": 0
+    },
+    "qcm": {
+      "total": 65,
+      "modifies": 2,
+      "modifies_ids": [
+        "QCM-PHYS-1304",
+        "QCM-HEMA-1309"
+      ],
+      "audite_valide": 65
+    },
+    "cas": {
+      "total": 10,
+      "modifies": 9,
+      "audite_valide": 10
+    }
+  },
+  "coherence_transversale": {
+    "adrenaline_IM": "DOS-IMMU-0002 = WAO 2020 tableau 6 (0,01 mg/kg, max 0,5 mg, 5-15 min ; <10 kg 0,01 mg/kg ; 1-5 ans 0,15 ; 6-12 ans 0,3 ; adolescent/adulte 0,5) — identique à DOS-MINT_REA-0001 et DOS-PEDI-0002 ; aucune divergence créée",
+    "criteres_ACD": "DOS-PHYS-0001 aligné sur DOS-DIAB-0002 (consensus 2024 : D ≥ 11,1 mmol/L ou diabète connu ; K β-OHB ≥ 3,0 ou cétonurie ≥ 2+ ; A pH < 7,30 et/ou HCO3 < 18) ; bicarbonate si pH < 7,0",
+    "remplissage_anaphylaxie": "Signalé : WAO 2020 = bolus 20 mL/kg (DOS-IMMU-0002) ; DOS-MINT_REA-0001 = 500-1 000 mL adulte [À VÉRIFIER] — à harmoniser par l'agent de cohérence"
+  },
+  "taches_suivantes": [
+    "Relire le texte intégral ESC 2022 (ventricular arrhythmias) quand academic.oup.com est accessible : recommandation IIa QTc 460-479 ms + syncope, classes exactes du Brugada induit (DOS-PHYS-0002)",
+    "Relire EAACI 2021 (texte intégral) et SFMU 2016 + erratum (DOS-IMMU-0002) ; vérifier la disponibilité des auto-injecteurs d'adrénaline en Algérie",
+    "Harmoniser le volume de remplissage de l'anaphylaxie entre DOS-MINT_REA-0001 et la WAO 2020",
+    "Auditer DOS-CARD-0007 (cible des renvois de posologie de DOS-PHYS-0002, CAS-PHYS-1303 et 1304)",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
+  ]
+}

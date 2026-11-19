@@ -6,11 +6,24 @@ sous_specialite: "Organisation du système de santé"
 items_residanat: [RES-MED-135]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 16
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-SPUB-0001.md
+    remarque: "Textes acquis et lus par l'audit : décret 07-140 (DOC-00114), décrets 97-465/97-466/97-467 (DOC-00115, OCR), ordonnance 20-02 (DOC-00116), ordonnance 73-65 (DOC-00117, OCR), décret 92-07 (DOC-00118, OCR). Conformité à la loi 18-11 vérifiée article par article. Restent : INSP, SEMEP, décret 11-379, modifications postérieures des décrets 07-140/97-465/97-467 et du décret 92-07, carte Chifa et taux de remboursement, chiffres ONS/STEPS de source secondaire."
+  - date: 2026-11-19
+    auditeur: "AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-SPUB-0001.md
+    remarque: "Sources S6-S9 rattachées aux documents acquis ; S24 (ordonnance 20-02) et S25 (décret 92-07) ajoutées ; S20 et S21 non revérifiées."
 sources:
   - id: S1
     reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (450 articles), modifiée et complétée."
@@ -20,7 +33,7 @@ sources:
     doi: ""
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018046.pdf"
     verifiee: true
-    remarque: "Document acquis DOC-00074, lu intégralement pour les titres I, II, IV, VI, VII (recherche) et IX. Les modifications ultérieures (ordonnance n° 20-02 du 30 août 2020 selon le registre d'acquisition) n'ont pas été consultées."
+    remarque: "Document acquis DOC-00074, lu intégralement pour les titres I, II, IV, VI, VII (recherche) et IX. Ordonnance n° 20-02 du 30 août 2020 acquise et lue par l'audit (DOC-00116, voir S24) : elle modifie 20 articles (177, 191, 217, 218, 224, 233, 238, 240, 245, 308, 379, 381, 384, 389, 390, 392, 394-396, 399) ; les autres articles cités ici sont dans leur rédaction de 2018. Modifications postérieures à 2020 non recherchées [À VÉRIFIER]."
   - id: S2
     reference: "Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire. JORADP n° 47 du 11 juillet 2022."
     organisme: "Ministère de la santé"
@@ -63,36 +76,36 @@ sources:
     annee: 2007
     type: texte_officiel
     doi: ""
-    url: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2007/F2007033.pdf"
     verifiee: true
-    remarque: "Existence, date et objet confirmés par recherche web (sources secondaires : publications universitaires, JORADP 2014). Texte intégral non consulté ; une abrogation partielle par un texte ultérieur est signalée par une source secondaire [À VÉRIFIER]."
+    remarque: "JORADP n° 33 du 20 mai 2007 acquis par l'audit (DOC-00114, 15_AUTRES_SPECIALITES/49_SPUB_SANTE_PUBLIQUE/00_PROGRAMME_OBJECTIFS/textes_officiels/JORADP_2007-033_decret_07-140_EPH_EPSP.pdf) et lu dans sa rédaction d'origine : EPH et EPSP = établissements publics à caractère administratif placés sous la tutelle du wali (art. 2 et 6) ; missions (art. 3-4 et 7-8) ; abrogation du décret 97-466 relatif aux secteurs sanitaires (art. 35). Modifications ultérieures (dont le décret 14-362) non consultées [À VÉRIFIER]."
   - id: S7
-    reference: "Décret exécutif n° 97-467 du 2 décembre 1997 fixant les règles de création, d'organisation et de fonctionnement des centres hospitalo-universitaires."
+    reference: "Décret exécutif n° 97-467 du 2 décembre 1997 fixant les règles de création, d'organisation et de fonctionnement des centres hospitalo-universitaires. JORADP n° 81 du 10 décembre 1997."
     organisme: "Gouvernement algérien"
     annee: 1997
     type: texte_officiel
     doi: ""
-    url: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1997/F1997081.pdf"
     verifiee: true
-    remarque: "Intitulé et date confirmés par les visas du décret exécutif n° 08-129 (recherche web) ; texte non consulté."
+    remarque: "JORADP n° 81/1997 acquis par l'audit (DOC-00115, numéro scanné, lu après OCR) : CHU = établissement public à caractère administratif, créé par décret exécutif sur proposition conjointe des ministres de la santé et de l'enseignement supérieur ; tutelle administrative du ministre de la santé, tutelle pédagogique du ministre de l'enseignement supérieur (art. 2) ; missions de diagnostic, d'exploration, de soins, de prévention, de formation, d'études et de recherche (art. 3-4). Rédaction d'origine ; modifications ultérieures non consultées."
   - id: S8
-    reference: "Décret exécutif n° 97-465 du 2 décembre 1997 fixant les règles de création, d'organisation et de fonctionnement des établissements hospitaliers spécialisés."
+    reference: "Décret exécutif n° 97-465 du 2 décembre 1997 fixant les règles de création, d'organisation et de fonctionnement des établissements hospitaliers spécialisés. JORADP n° 81 du 10 décembre 1997."
     organisme: "Gouvernement algérien"
     annee: 1997
     type: texte_officiel
     doi: ""
-    url: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1997/F1997081.pdf"
     verifiee: true
-    remarque: "Cité dans les mêmes visas (recherche web) ; intitulé exact [À VÉRIFIER] ; texte non consulté."
+    remarque: "Intitulé confirmé (DOC-00115, lu après OCR) : EHS = établissement public à caractère administratif créé par décret exécutif, sous la tutelle du wali (art. 2) ; prise en charge d'une maladie, d'un appareil ou d'un groupe d'âge (art. 3) ; missions (art. 5) ; agrément possible pour des activités hospitalo-universitaires (art. 7) ; trois catégories (art. 8). Le même numéro contient le décret 97-466 relatif aux secteurs sanitaires."
   - id: S9
-    reference: "Ordonnance n° 73-65 du 28 décembre 1973 portant institution de la médecine gratuite dans les secteurs sanitaires (application au 1er janvier 1974)."
+    reference: "Ordonnance n° 73-65 du 28 décembre 1973 portant institution de la médecine gratuite dans les secteurs sanitaires. JORADP n° 1 du 1er janvier 1974, p. 3."
     organisme: "République algérienne"
     annee: 1973
     type: texte_officiel
     doi: ""
-    url: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1974/F1974001.pdf"
     verifiee: true
-    remarque: "Existence et date confirmées par sources secondaires (recherche web) ; intitulé exact [À VÉRIFIER] ; texte non consulté."
+    remarque: "Acquise par l'audit (DOC-00117, numéro scanné, lu après OCR). Art. 1er : gratuité des actions de santé publique, des actes de diagnostic, du traitement et de l'hospitalisation dans l'ensemble des secteurs sanitaires ; art. 2 : budgets des secteurs sanitaires financés par l'État et les organismes publics. Le texte ne fixe pas de date d'application distincte de sa publication."
   - id: S10
     reference: "Loi n° 85-05 du 16 février 1985 relative à la protection et à la promotion de la santé (abrogée par l'art. 449 de la loi 18-11)."
     organisme: "République algérienne"
@@ -173,7 +186,7 @@ sources:
     doi: ""
     url: ""
     verifiee: true
-    remarque: "Existence confirmée ; chiffres via reprises de presse (juillet 2024), à confronter à l'original."
+    remarque: "Existence confirmée ; chiffres via reprises de presse (juillet 2024), à confronter à l'original : ons.dz et le miroir ambassade-algerie.ch étaient inaccessibles pendant l'audit [À VÉRIFIER — source primaire non consultée]."
   - id: S19
     reference: "MSPRH / OMS. Enquête nationale STEPwise sur les facteurs de risque des maladies non transmissibles — Algérie 2016-2017 (2018)."
     organisme: "MSPRH / OMS"
@@ -182,7 +195,7 @@ sources:
     doi: ""
     url: ""
     verifiee: true
-    remarque: "Chiffres clés confirmés par le communiqué OMS Afrique (recherche web)."
+    remarque: "Chiffres clés tirés d'un communiqué OMS Afrique (recherche web). La fiche officielle « 2016-2017 STEPS Fact Sheet Algeria » existe sur who.int, mais son PDF (cdn.who.int) n'a pas pu être ouvert [À VÉRIFIER — source primaire non consultée]."
   - id: S20
     reference: "World Health Organization. Everybody's business: strengthening health systems to improve health outcomes — WHO's framework for action. Geneva: WHO; 2007."
     organisme: OMS
@@ -217,13 +230,31 @@ sources:
     url: ""
     verifiee: true
     remarque: "DOC-00022 (registre)."
+  - id: S24
+    reference: "Ordonnance n° 20-02 du 30 août 2020 modifiant et complétant la loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 50 du 30 août 2020, p. 4-5."
+    organisme: "République algérienne (JORADP)"
+    annee: 2020
+    type: texte_officiel
+    doi: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2020/F2020050.pdf"
+    verifiee: true
+    remarque: "Acquise et lue par l'audit (DOC-00116). Transfère au ministre chargé de l'industrie pharmaceutique les compétences relatives aux produits pharmaceutiques (art. 217, 218, 224, 233, 238, 240, 245) et aux études cliniques (art. 379, 381, 384, 389, 390, 392, 394-396, 399) ; modifie aussi les art. 177, 191 et 308. Approuvée par la loi n° 20-12 (non acquise)."
+  - id: S25
+    reference: "Décret exécutif n° 92-07 du 4 janvier 1992 portant statut juridique des caisses de sécurité sociale et organisation administrative et financière de la sécurité sociale. JORADP n° 2 de 1992, p. 50 et suivantes."
+    organisme: "Gouvernement algérien"
+    annee: 1992
+    type: texte_officiel
+    doi: ""
+    url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1992/F1992002.pdf"
+    verifiee: true
+    remarque: "Acquis par l'audit (DOC-00118, numéro scanné, lu après OCR). Art. 1er : organismes de sécurité sociale = CNAS (assurances sociales des travailleurs salariés), CNR (retraites) et CASNOS (sécurité sociale des non-salariés) ; art. 2 : personnalité morale et autonomie financière ; art. 3 : tutelle du ministre chargé de la sécurité sociale. Rédaction d'origine ; modifications ultérieures non consultées."
 mots_cles: [système de santé, Algérie, loi 18-11, carte sanitaire, schéma d'organisation sanitaire, hiérarchisation des soins, médecin référent, CHU, EHS, EPH, EPSP, soins primaires, financement, sécurité sociale, système national d'information sanitaire, MDO, service civil, secteur privé]
 ---
 
 # Organisation sanitaire et fonctionnement du système de santé algérien
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir des textes officiels acquis (loi 18-11 et décrets de 2022, lus pendant la session) et de sources secondaires citées ; ne reproduit aucun ouvrage. Les articles de loi sont **reformulés**, jamais recopiés.
-> Statut : brouillon à auditer. Tout élément d'organisation dont le texte de base n'a pas été consulté est signalé `[À VÉRIFIER]`. Les textes cités peuvent avoir été modifiés après leur publication : toujours vérifier la version en vigueur au JORADP.
+> Statut : **audité par l'IA (AUD-01/AUD-04, 2026-11-19), corrections requises** — les décrets 07-140, 97-465, 97-466, 97-467, 92-07 et les ordonnances 73-65 et 20-02 ont été acquis et lus par l'audit ; relecture par un enseignant qualifié nécessaire. Tout élément d'organisation dont le texte de base n'a pas été consulté est signalé `[À VÉRIFIER]`. Les textes cités peuvent avoir été modifiés après leur publication : toujours vérifier la version en vigueur au JORADP.
 
 **Item du programme couvert** : RES-MED-135 — « Organisation sanitaire et fonctionnement du système de santé Algérien » (module Épidémiologie et médecine préventive, DOC-00001).
 
@@ -284,17 +315,17 @@ Le système algérien est **mixte** : financement par le **budget de l'État** (
 |---|---|---|
 | 1962 | Indépendance ; système hérité, très inégalement réparti, départ massif des praticiens | Repère historique général |
 | 1971 | Réforme des études médicales ; création du **DEMS** (décret n° 71-275) | [S23] |
-| 1973-1974 | **Médecine gratuite** dans les secteurs sanitaires (ordonnance n° 73-65 du 28 décembre 1973, appliquée au 1er janvier 1974) | [S9] |
+| 1973-1974 | **Médecine gratuite** dans l'ensemble des **secteurs sanitaires**, qui existaient donc déjà : actions de santé publique, diagnostic, traitement et hospitalisation gratuits (ordonnance n° 73-65 du 28 décembre 1973, art. 1er, publiée au JORADP du 1er janvier 1974) | [S9] |
 | 1983 | Loi n° 83-11 relative aux **assurances sociales** | [S11] |
 | 1984 | Loi n° 84-10 relative au **service civil** | [S12] |
 | 1985 | Loi n° 85-05 relative à la protection et à la promotion de la santé (cadre législatif général de la santé jusqu'en 2018) | [S10] |
-| Années 1980-1990 | Organisation en **secteurs sanitaires** (hôpital + structures extrahospitalières d'un territoire) ; ouverture à l'exercice privé `[À VÉRIFIER — textes]` | — |
-| 1997 | Décrets fixant les règles de création, d'organisation et de fonctionnement des **CHU** (n° 97-467) et des **EHS** (n° 97-465) | [S7, S8] |
-| 2007 | Décret n° 07-140 : les secteurs sanitaires sont remplacés par les **EPH** (hospitalier) et les **EPSP** (proximité), séparant hôpital et soins de proximité | [S6] |
+| Années 1980-1990 | Ouverture progressive à l'exercice privé `[À VÉRIFIER — textes]` | — |
+| 1997 | Décrets du 2 décembre 1997 fixant les règles de création, d'organisation et de fonctionnement des **EHS** (n° 97-465), des **secteurs sanitaires** (n° 97-466 : ensemble des structures publiques de prévention, de diagnostic, de soins, d'hospitalisation et de réadaptation couvrant un ensemble de communes) et des **CHU** (n° 97-467) | [S7, S8] |
+| 2007 | Décret n° 07-140 : les secteurs sanitaires sont remplacés par les **EPH** (hospitalier) et les **EPSP** (proximité), séparant hôpital et soins de proximité ; le décret 97-466 est abrogé (art. 35) | [S6] |
 | 2010 | Loi n° 10-12 relative à la **protection des personnes âgées** | [S13] |
 | 2011 | Statut du **résident** en sciences médicales (décret n° 11-236) | [S15] |
 | 2018 | **Loi n° 18-11 relative à la santé** (450 articles) : abroge la loi 85-05 (art. 449) | [S1] |
-| 2020 | Modification de la loi 18-11 (ordonnance n° 20-02 selon le registre d'acquisition) `[À VÉRIFIER — contenu]` | [S1] |
+| 2020 | **Ordonnance n° 20-02 du 30 août 2020** : modifie 20 articles de la loi 18-11 et confie au ministre chargé de l'**industrie pharmaceutique** les compétences relatives aux produits pharmaceutiques et aux **études cliniques** (autorisation, art. 381) | [S24] |
 | 2022 | Décrets d'application : liste des **MDO** (22-250), **dépistage anonyme et gratuit** (22-211), **certificat de décès** (22-178), **agence nationale de numérisation en santé** (22-251) | [S2-S5] |
 
 Lecture : on passe d'un système centré sur l'**hôpital** et la **gratuité** (années 1970) à un système qui cherche à organiser la **hiérarchisation**, la **contractualisation** du financement, la **complémentarité public-privé**, la **qualité** et la **numérisation** (loi de 2018).
@@ -361,7 +392,7 @@ NIVEAU LOCAL       Établissements publics : EPSP (polycliniques, salles de soin
 
 ### 4.1 Niveau central
 
-Le **ministre chargé de la santé** définit et met en œuvre la politique nationale de santé ; l'organisation, le fonctionnement et l'évaluation des services de santé relèvent de son autorité (art. 277). Il autorise la création, l'ouverture, l'extension, le transfert et la fermeture de toute structure de santé (art. 273, 307), délivre les autorisations d'études cliniques (art. 381) et contrôle le secteur privé (art. 310, 315). Les attributions détaillées du ministre ont été fixées par le décret exécutif n° 11-379 (à l'époque « ministre de la santé, de la population et de la réforme hospitalière ») ; l'intitulé du département ministériel a varié selon les gouvernements (les décrets de 2022 sont pris « sur le rapport du ministre de la santé ») [S2, S14]. L'organigramme de l'administration centrale (directions générales) relève de textes non consultés `[À VÉRIFIER]`.
+Le **ministre chargé de la santé** définit et met en œuvre la politique nationale de santé ; l'organisation, le fonctionnement et l'évaluation des services de santé relèvent de son autorité (art. 277). Il autorise la création, l'ouverture, l'extension, le transfert et la fermeture de toute structure de santé (art. 273, 307) et contrôle le secteur privé (art. 310, 315). Depuis l'ordonnance n° 20-02, l'autorisation des **études cliniques** (art. 381) et les compétences relatives aux produits pharmaceutiques (enregistrement, établissements pharmaceutiques, tutelle de l'agence nationale des produits pharmaceutiques) relèvent du **ministre chargé de l'industrie pharmaceutique** [S24]. Les attributions détaillées du ministre ont été fixées par le décret exécutif n° 11-379 (à l'époque « ministre de la santé, de la population et de la réforme hospitalière ») ; l'intitulé du département ministériel a varié selon les gouvernements (les décrets de 2022 sont pris « sur le rapport du ministre de la santé ») [S2, S14]. L'organigramme de l'administration centrale (directions générales) relève de textes non consultés `[À VÉRIFIER]`.
 
 ### 4.2 Niveau régional
 
@@ -369,7 +400,7 @@ La loi prévoit que la carte sanitaire détermine les moyens à mobiliser **au n
 
 ### 4.3 Niveau de la wilaya : les services extérieurs
 
-La loi fait des **services extérieurs** du secteur de la santé un pilier de l'organisation (art. 265) et fixait un délai maximal de deux ans pour leur mise en place (art. 446). Le décret 22-178 désigne la **direction de wilaya chargée de la santé** comme destinataire des volets médicaux des certificats de décès (art. 6) [S4]. Cette direction (couramment appelée direction de la santé et de la population, DSP — dénomination et texte d'organisation `[À VÉRIFIER]`) assure notamment, d'après la loi : la mise en œuvre des programmes de santé, la surveillance épidémiologique (réception des déclarations), le contrôle et l'inspection par les **praticiens inspecteurs** (art. 189-195), l'accueil de la commission de conciliation et de médiation (art. 28) et du **comité d'éthique médicale pour les études cliniques** (art. 382). Le **wali** et le président de l'APC mettent en œuvre, avec les services de santé, les mesures de lutte contre les endémies et les épidémies (art. 35) ; le wali peut prononcer la fermeture d'une structure privée pour 3 mois au plus (art. 315).
+La loi fait des **services extérieurs** du secteur de la santé un pilier de l'organisation (art. 265) ; elle leur confie notamment la répartition des ressources, la coordination et le suivi des programmes nationaux, régionaux et locaux de santé, et l'encadrement des activités de santé, leur organisation étant renvoyée à un texte réglementaire (art. 267) ; elle fixait un délai maximal de deux ans pour leur mise en place (art. 446). Le décret 22-178 désigne la **direction de wilaya chargée de la santé** comme destinataire des volets médicaux des certificats de décès (art. 6) [S4]. Cette direction (couramment appelée direction de la santé et de la population, DSP — dénomination et texte d'organisation `[À VÉRIFIER]`) assure notamment, d'après la loi : la mise en œuvre des programmes de santé, la surveillance épidémiologique (réception des déclarations), le contrôle et l'inspection par les **praticiens inspecteurs** (art. 189-195), l'accueil de la commission de conciliation et de médiation (art. 28) et du **comité d'éthique médicale pour les études cliniques** (art. 382). Le **wali** et le président de l'APC mettent en œuvre, avec les services de santé, les mesures de lutte contre les endémies et les épidémies (art. 35) ; le wali peut prononcer la fermeture d'une structure privée pour 3 mois au plus (art. 315). Le wali exerce aussi la **tutelle** des EPH, des EPSP et des EHS (décrets 07-140, art. 2 et 6 ; 97-465, art. 2) [S6, S8].
 
 ### 4.4 Niveau local
 
@@ -405,16 +436,16 @@ La loi de 2018 cite « notamment » quatre catégories d'établissements publics
 
 | Établissement | Texte de base | Missions principales (synthèse) |
 |---|---|---|
-| **CHU** (centre hospitalo-universitaire) | Décret 97-467 [S7] | Soins de haut niveau (tertiaires), **formation** graduée et post-graduée en sciences médicales (en lien avec la faculté de médecine), **recherche** ; double tutelle santé / enseignement supérieur `[À VÉRIFIER — détails]` |
-| **EHS** (établissement hospitalier spécialisé) | Décret 97-465 [S8] | Activité spécialisée (une ou plusieurs spécialités : psychiatrie, oncologie, réadaptation, mère-enfant, cardiologie…) ; peut être érigé en structure de référence `[À VÉRIFIER]` |
-| **EPH** (établissement public hospitalier) | Décret 07-140 [S6] | Hôpital général couvrant un bassin de population (une ou plusieurs communes) : diagnostic, soins, hospitalisation, urgences, réadaptation médicale `[À VÉRIFIER — libellé des missions]` |
-| **EPSP** (établissement public de santé de proximité) | Décret 07-140 [S6] | Ensemble de **polycliniques** et de **salles de soins** couvrant un bassin de population : prévention, soins de base, consultations de médecine générale et spécialisée de base, santé reproductive, mise en œuvre des programmes nationaux `[À VÉRIFIER — libellé des missions]` |
+| **CHU** (centre hospitalo-universitaire) | Décret 97-467 [S7] | Établissement public à caractère administratif ; diagnostic, exploration, soins, urgences médico-chirurgicales, prévention, **formation** graduée et post-graduée en sciences médicales (avec l'établissement d'enseignement supérieur), **études et recherche** (art. 3-4) ; **tutelle administrative** du ministre de la santé et **tutelle pédagogique** du ministre de l'enseignement supérieur (art. 2) ; assure aussi les missions de secteur sanitaire pour la population voisine non couverte (art. 4) |
+| **EHS** (établissement hospitalier spécialisé) | Décret 97-465 [S8] | Établissement public à caractère administratif sous la tutelle du wali (art. 2) ; prise en charge d'une maladie déterminée, de l'affection d'un appareil ou d'un système organique, ou d'un groupe d'âge (art. 3) : prévention, diagnostic, soins, réadaptation, hospitalisation, programmes de santé (art. 5) ; peut être agréé, en tout ou partie, pour des activités **hospitalo-universitaires** (art. 7) ; trois catégories (art. 8) |
+| **EPH** (établissement public hospitalier) | Décret 07-140 [S6] | Établissement public à caractère administratif sous la tutelle du wali (art. 2) ; structure de diagnostic, de soins, d'hospitalisation et de réadaptation médicale couvrant la population d'une ou de plusieurs communes (art. 3) ; prise en charge intégrée et hiérarchisée : soins curatifs, programmes nationaux, hygiène, perfectionnement des personnels (art. 4) |
+| **EPSP** (établissement public de santé de proximité) | Décret 07-140 [S6] | Établissement public à caractère administratif sous la tutelle du wali (art. 6) ; ensemble de **polycliniques** et de **salles de soins** couvrant un bassin de population (art. 7) : prévention et soins de base, diagnostic, soins de proximité, consultations de médecine générale et de médecine spécialisée de base, santé reproductive et planification familiale, programmes nationaux de santé et de population (art. 8) |
 | Établissement d'aide médicale d'urgence | Art. 298 de la loi 18-11 | Urgences pré-hospitalières `[À VÉRIFIER — texte d'application]` |
 | Circonscription sanitaire | Art. 298 de la loi 18-11 | Catégorie nouvelle ; texte d'application `[À VÉRIFIER]` |
 
-Le décret 07-140 a mis fin à l'organisation en **secteurs sanitaires** qui regroupaient, sur un territoire, l'hôpital et les structures extrahospitalières : il a séparé la gestion **hospitalière** (EPH) de celle des **soins de proximité** (EPSP), afin de renforcer le premier recours [S6]. La liste des EPH et EPSP annexée au décret a été complétée à plusieurs reprises (décret n° 14-362 du 15 décembre 2014 notamment) et des critères de classement ont été fixés par arrêté `[À VÉRIFIER — textes en vigueur]`.
+Le décret 07-140 a mis fin à l'organisation en **secteurs sanitaires** (décret 97-466, abrogé par son art. 35), qui regroupaient, sur un territoire, l'hôpital et les structures extrahospitalières : il a séparé la gestion **hospitalière** (EPH) de celle des **soins de proximité** (EPSP), afin de renforcer le premier recours [S6]. Le classement des EPH et des EPSP par catégorie relève d'un arrêté interministériel (art. 23 du décret) ; la liste annexée a été complétée à plusieurs reprises (décret n° 14-362 du 15 décembre 2014 notamment) `[À VÉRIFIER — textes en vigueur]`.
 
-Au sein des EPSP et EPH fonctionnent classiquement des **services d'épidémiologie et de médecine préventive** (SEMEP), qui reçoivent les déclarations, conduisent les investigations et suivent les programmes, et des **unités de dépistage et de suivi** en milieu scolaire — base réglementaire et dénomination actuelle `[À VÉRIFIER]`.
+Au sein des EPSP et EPH sont classiquement décrits des **services d'épidémiologie et de médecine préventive** (SEMEP), qui reçoivent les déclarations, conduisent les investigations et suivent les programmes : ni leur dénomination ni leur base réglementaire ne figurent dans les textes consultés (loi 18-11, décret 07-140) `[À VÉRIFIER — texte d'organisation]`. Pour la santé scolaire, la loi prévoit des **structures de dépistage et de suivi** mises en place par le ministère de la santé en coordination avec les ministères de l'éducation, de la formation professionnelle et de l'enseignement supérieur (art. 94-96) ; leur appellation courante (« unités de dépistage et de suivi ») relève de textes non consultés `[À VÉRIFIER]`.
 
 ### 5.5 Structures à vocation sanitaire
 
@@ -428,7 +459,7 @@ Au sein des EPSP et EPH fonctionnent classiquement des **services d'épidémiolo
 - **Définition** : structures d'exploration et/ou de soins et d'hospitalisation en relation avec la santé humaine (art. 305).
 - **Création** conforme aux normes de la carte sanitaire et aux priorités du schéma d'organisation sanitaire ; conditions techniques fixées par le ministre (art. 306).
 - **Autorisation du ministre** pour la réalisation, l'ouverture, l'exploitation, l'extension, le transfert, la fermeture, la conversion, le regroupement, ainsi que pour l'acquisition de certains équipements soumis à normes (art. 307).
-- **Formes d'exercice** : établissements hospitaliers privés, établissements de soins et/ou de diagnostic, structures d'exercice de groupe ou individuel, laboratoires d'analyses, officines et établissements pharmaceutiques, transport sanitaire agréé (art. 308) ; création possible par toute personne physique ou morale, notamment les **mutuelles sociales** (art. 309).
+- **Formes d'exercice** : établissements hospitaliers privés, établissements de soins et/ou de diagnostic, structures d'exercice de groupe ou individuel, laboratoires d'analyses, officines (les « établissements pharmaceutiques » ont été retirés de la liste par l'ordonnance 20-02), transport sanitaire agréé (art. 308 modifié) [S24] ; création possible par toute personne physique ou morale, notamment les **mutuelles sociales** (art. 309).
 - **Contrôle et évaluation** par les services du ministère (art. 310) ; **retrait** de l'autorisation en cas de non-respect des conditions, d'infraction ou d'insécurité des malades (art. 314) ; **fermeture** par le ministre, ou par le wali pour 3 mois au plus (art. 315).
 - **Mission de service public** : un établissement privé peut en être investi selon un **cahier des charges** (prestations, durée, modalités), notamment pour couvrir les **zones à couverture sanitaire insuffisante** dans le cadre de programmes nationaux ou régionaux ; les dépenses correspondantes sont régies par des **conventions** avec le ministère (art. 311-312).
 - Respect des règles d'**information du public** et de **tarification** (art. 313).
@@ -442,7 +473,7 @@ La loi organise donc une **complémentarité** encadrée (art. 16, 265) plutôt 
 | Organisme | Rôle (synthèse) | Base / statut de la vérification |
 |---|---|---|
 | Observatoire national de la santé | Analyse de l'état de santé, priorités, rapport annuel | Loi 18-11, art. 11 [S1] ; texte d'organisation `[À VÉRIFIER]` |
-| Agence nationale des produits pharmaceutiques | Enregistrement, homologation et contrôle des produits pharmaceutiques et dispositifs médicaux | Prévue par la loi (art. 448 : continuité des missions jusqu'à sa mise en place) [S1] ; organisation `[À VÉRIFIER]` |
+| Agence nationale des produits pharmaceutiques | Enregistrement, homologation et contrôle des produits pharmaceutiques et dispositifs médicaux | Prévue par la loi (art. 448 : continuité des missions jusqu'à sa mise en place) [S1] ; établissement public à gestion spécifique placé, depuis l'ordonnance 20-02, sous la tutelle du ministre chargé de l'industrie pharmaceutique (art. 224 modifié) [S24] ; organisation `[À VÉRIFIER]` |
 | Agence nationale de numérisation en santé | Numérisation du secteur (réorganisation de l'agence nationale de documentation de la santé créée en 1995) | Décret 22-251 [S5] ; missions détaillées non consultées |
 | Comité national multisectoriel de prévention et de lutte contre les maladies non transmissibles | Coordination intersectorielle MNT | Loi 18-11, art. 48 [S1] |
 | Service de contrôle sanitaire aux frontières | Postes sanitaires aux points d'entrée ; application du Règlement sanitaire international | Loi 18-11, art. 42-44 [S1] |
@@ -488,11 +519,11 @@ S'y ajoutent : la **nomenclature des actes professionnels** (art. 335), la fixat
 
 ### 9.2 La sécurité sociale
 
-La loi n° 83-11 relative aux assurances sociales (modifiée) fonde la couverture maladie des assurés [S11]. Deux caisses nationales sont classiquement décrites : la **CNAS** (travailleurs salariés) et la **CASNOS** (non-salariés) ; le remboursement des médicaments en officine s'appuie sur la carte électronique **Chifa** et sur le tiers payant pour certaines catégories (malades chroniques, retraités…) — détails, taux et catégories `[À VÉRIFIER — textes de la sécurité sociale]`. Historiquement, la contribution de la sécurité sociale aux hôpitaux publics a pris la forme d'une dotation globale (« forfait hospitalier ») ; la loi de 2018 prévoit une contribution **contractualisée** (art. 330) et un financement des établissements par **contrats d'objectifs et de performance** (art. 301) — état de mise en œuvre `[À VÉRIFIER]`.
+La loi n° 83-11 relative aux assurances sociales (modifiée) fonde la couverture maladie des assurés [S11]. Le décret exécutif n° 92-07 du 4 janvier 1992 désigne comme organismes de sécurité sociale la **CNAS** (caisse nationale des assurances sociales des travailleurs salariés), la **CNR** (caisse nationale des retraites) et la **CASNOS** (caisse nationale de sécurité sociale des non-salariés), dotées de la personnalité morale et de l'autonomie financière et placées sous la tutelle du **ministre chargé de la sécurité sociale** (art. 1er à 3, rédaction d'origine) [S25] ; le remboursement des médicaments en officine s'appuie sur la carte électronique **Chifa** et sur le tiers payant pour certaines catégories (malades chroniques, retraités…) — détails, taux et catégories `[À VÉRIFIER — textes de la sécurité sociale]`. Historiquement, la contribution de la sécurité sociale aux hôpitaux publics a pris la forme d'une dotation globale (« forfait hospitalier ») ; la loi de 2018 prévoit une contribution **contractualisée** (art. 330) et un financement des établissements par **contrats d'objectifs et de performance** (art. 301) — état de mise en œuvre `[À VÉRIFIER]`.
 
 ### 9.3 Gratuité des soins : principe et limites
 
-La gratuité des soins dans le secteur public, instituée en 1974 [S9], est réaffirmée par la loi (art. 13). Elle coexiste avec : la participation possible des bénéficiaires (art. 334), les dépenses des ménages dans le secteur privé (consultations, examens, cliniques) et l'achat de médicaments en officine (en partie remboursés). La **part des paiements directs des ménages** dans la dépense de santé est un indicateur clé d'équité ; sa valeur pour l'Algérie doit être recherchée dans les comptes nationaux de la santé ou les bases de l'OMS `[À VÉRIFIER — aucune valeur citée ici]`.
+La gratuité des soins dans le secteur public, instituée par l'ordonnance 73-65 (publiée le 1er janvier 1974) [S9], est réaffirmée par la loi (art. 13). Elle coexiste avec : la participation possible des bénéficiaires, étant précisé que la non-contribution ne peut faire obstacle à la délivrance des soins, notamment urgents (art. 334), les dépenses des ménages dans le secteur privé (consultations, examens, cliniques) et l'achat de médicaments en officine (en partie remboursés). La **part des paiements directs des ménages** dans la dépense de santé est un indicateur clé d'équité ; sa valeur pour l'Algérie doit être recherchée dans les comptes nationaux de la santé ou les bases de l'OMS `[À VÉRIFIER — aucune valeur citée ici]`.
 
 ---
 
@@ -510,7 +541,7 @@ La loi définit les **programmes de santé** comme l'ensemble des actions et des
 | Facteurs de risque | Art. 49 et suivants | Lutte contre le tabagisme (interdiction de la publicité, avertissements sanitaires), promotion des modes de vie sains |
 | Santé de la mère et de l'enfant | Art. 69 et suivants | Protection maternelle et infantile, périnatalité |
 | Adolescents, personnes âgées, personnes en difficulté | Art. 84-91 ; loi 10-12 [S13] | Programmes spécifiques ; soins et hospitalisation à domicile des personnes âgées (art. 86-87) ; gratuité pour les personnes en difficulté (art. 89-90) |
-| Santé au travail, milieu pénitentiaire, santé mentale | Art. 92 et suivants, 101, 103 | Programmes dédiés |
+| Victimes de violences, milieu éducatif, santé au travail, milieu pénitentiaire, santé mentale | Art. 92 (victimes de violences), 94-96 (milieu éducatif, universitaire et de formation), 97-100 (milieu du travail), 101 (milieu pénitentiaire), 103 (santé mentale) | Programmes dédiés |
 | Environnement, éducation pour la santé | Art. 106 et suivants, 120 et suivants | Hygiène du milieu ; éducation sanitaire |
 
 Les programmes verticaux historiques (lutte antituberculeuse, programme élargi de vaccination, lutte contre le paludisme…) sont traités dans les dossiers spécialisés (ex. DOS-PNEU-0001 pour la tuberculose).
@@ -521,7 +552,7 @@ Les programmes verticaux historiques (lutte antituberculeuse, programme élargi 
 
 - **Système national d'information sanitaire** : intègre toutes les données sanitaires, interopérable avec les autres secteurs ; adhésion **obligatoire** des structures publiques et privées ; confidentialité ; gestion sous la responsabilité des chefs d'établissement (art. 319-323) [S1]. L'**agence nationale de numérisation en santé** (2022) en est un outil institutionnel [S5].
 - **Déclaration obligatoire** des maladies de la liste du décret 22-250 : tout praticien, sans délai, cas suspects et confirmés (art. 39) [S1, S2].
-- **Certificat médical de décès** : établi par tout médecin (fonctionnaire, contractuel, militaire ou libéral) sur le modèle réglementaire ; partie supérieure nominative pour l'état civil, partie inférieure **anonyme** portant les causes médicales, close par le médecin et transmise par la commune à la direction de wilaya chargée de la santé ; en cas de mort violente ou suspecte, seule la partie supérieure est remplie et l'autorité compétente est avisée ; certificat numérique possible, interconnecté au registre national électronique de l'état civil (décret 22-178, art. 2-9) [S4].
+- **Certificat médical de décès** : établi par tout médecin (fonctionnaire, contractuel, militaire ou libéral) sur le modèle réglementaire ; partie supérieure nominative pour l'état civil, partie inférieure **anonyme** portant les causes médicales, close par le médecin et transmise par la commune à la direction de wilaya chargée de la santé ; en cas de mort violente ou indéterminée constituant un obstacle médico-légal, le médecin ne remplit que la partie supérieure et avise les autorités compétentes, la partie médicale étant ensuite renseignée par le médecin légiste après examen du corps (art. 6) ; certificat numérique possible, interconnecté au registre national électronique de l'état civil (décret 22-178, art. 2-9) [S4].
 - **Registres** de certaines maladies non transmissibles (art. 47) ; **dossier médical unique** (art. 26, 292).
 - **Comptes nationaux de la santé** (art. 338) et **rapport annuel** de l'observatoire national de la santé (art. 11).
 
@@ -539,13 +570,15 @@ Les programmes verticaux historiques (lutte antituberculeuse, programme élargi 
 
 | Indicateur | Valeur | Source |
 |---|---|---|
-| Population au 1er janvier 2024 | ≈ 46,7 millions | ONS (reprise de presse) [S18] |
-| Naissances vivantes 2023 | ≈ 895 000 | ONS [S18] |
-| Taux brut de mortalité 2023 | 4,15 ‰ | ONS [S18] |
-| Mortalité infantile 2023 | 19,9 ‰ | ONS [S18] |
-| Espérance de vie à la naissance 2023 | 79,6 ans (H 78,2 ; F 81,0) | ONS [S18] |
-| Diabète (18-69 ans) | 14,4 % | STEPS 2016-2017 [S19] |
-| Tabac fumé actuel (18-69 ans) | 16,5 % | STEPS 2016-2017 [S19] |
+| Population au 1er janvier 2024 | ≈ 46,7 millions | ONS, chiffre relayé par la presse [S18] |
+| Naissances vivantes 2023 | ≈ 895 000 | ONS, chiffre relayé par la presse [S18] |
+| Taux brut de mortalité 2023 | 4,15 ‰ | ONS, chiffre relayé par la presse [S18] |
+| Mortalité infantile 2023 | 19,9 ‰ | ONS, chiffre relayé par la presse [S18] |
+| Espérance de vie à la naissance 2023 | 79,6 ans (H 78,2 ; F 81,0) | ONS, chiffre relayé par la presse [S18] |
+| Diabète (18-69 ans) | 14,4 % | STEPS 2016-2017, chiffre du communiqué OMS Afrique [S19] |
+| Tabac fumé actuel (18-69 ans) | 16,5 % | STEPS 2016-2017, chiffre du communiqué OMS Afrique [S19] |
+
+Ces chiffres proviennent de sources secondaires (presse, communiqué) : ce ne sont pas des chiffres officiels vérifiés. Les publications primaires (ONS n° 1030 ; fiche OMS STEPS 2016-2017) n'ont pas pu être consultées pendant l'audit `[À VÉRIFIER — source primaire non consultée]`.
 
 Implications pour l'organisation : **vieillissement** (besoins gériatriques, maladies chroniques, soins à domicile, art. 86-87), **poids des maladies non transmissibles** (plans multisectoriels, art. 45-48), persistance de problèmes **transmissibles** et **périnatals** (MDO, vaccination, PMI) : c'est la **double charge** de morbidité qui oblige le système à renforcer à la fois les soins primaires et le niveau spécialisé. Les données sur les ressources (densité médicale, lits, dépense de santé) ne sont pas reprises faute de source vérifiée pendant la session `[À VÉRIFIER — annuaires statistiques du ministère, comptes nationaux de la santé]`.
 
@@ -737,7 +770,7 @@ E. Le décret 22-211 fixe la liste des maladies à dépistage anonyme et gratuit
 - **QCM 7 : A, B, C, D** (art. 307, 309, 311, 315). E faux (art. 310).
 - **QCM 8 : A, C, D, E.** B faux : cas suspects **et** confirmés (art. 39).
 - **QCM 9 : A, B, C, D** (art. 196-197). E faux : les praticiens **spécialistes**.
-- **QCM 10 : A, B, C, D, E** (art. 449, ordonnance 73-65, art. 321, art. 338, décret 22-211).
+- **QCM 10 : A, B, C, D, E** (art. 449 ; ordonnance 73-65, art. 1er ; art. 321 ; art. 338 ; décret 22-211).
 
 ---
 
@@ -750,7 +783,7 @@ E. Le décret 22-211 fixe la liste des maladies à dépistage anonyme et gratuit
 | Gratuité des soins | Principe constitutionnel et légal (art. 13) | Participation possible des bénéficiaires (art. 334) ; paiements directs dans le privé | Distinguer gratuité dans le public et dépense globale des ménages |
 | Hiérarchisation | Principe légal (art. 3, 22) | Recours direct fréquent aux urgences et aux CHU en pratique | Écart entre norme et pratique, dépend des textes d'application du médecin référent |
 | Cadre d'analyse | OMS 2007 : six piliers [S20] | Approche des soins de santé primaires (Alma-Ata 1978, Astana 2018) [S21] | Grilles complémentaires : structure du système vs orientation des soins |
-| Modifications de la loi 18-11 | Texte initial de 2018 [S1] | Modifications ultérieures (ordonnance 20-02 selon le registre) | Toujours citer « loi 18-11 modifiée et complétée » et vérifier la version consolidée |
+| Modifications de la loi 18-11 | Texte initial de 2018 [S1] | Ordonnance 20-02 du 30 août 2020 : produits pharmaceutiques et études cliniques confiés au ministre chargé de l'industrie pharmaceutique [S24] | Toujours citer « loi 18-11 modifiée et complétée » et vérifier la version consolidée (modifications postérieures à 2020 non recherchées) |
 
 ---
 
@@ -761,10 +794,10 @@ E. Le décret 22-211 fixe la liste des maladies à dépistage anonyme et gratuit
 3. [S3] Décret exécutif n° 22-211 du 5 juin 2022 (dépistage anonyme et gratuit). JORADP n° 40/2022 (DOC-00073).
 4. [S4] Décret exécutif n° 22-178 du 28 avril 2022 (certificat médical de décès). JORADP n° 32/2022 (DOC-00077).
 5. [S5] Décret exécutif n° 22-251 du 30 juin 2022 (agence nationale de numérisation en santé). JORADP n° 47/2022.
-6. [S6] Décret exécutif n° 07-140 du 19 mai 2007 (EPH et EPSP), modifié et complété.
-7. [S7] Décret exécutif n° 97-467 du 2 décembre 1997 (CHU).
-8. [S8] Décret exécutif n° 97-465 du 2 décembre 1997 (EHS).
-9. [S9] Ordonnance n° 73-65 du 28 décembre 1973 (médecine gratuite).
+6. [S6] Décret exécutif n° 07-140 du 19 mai 2007 (EPH et EPSP), modifié et complété. JORADP n° 33/2007 (DOC-00114).
+7. [S7] Décret exécutif n° 97-467 du 2 décembre 1997 (CHU). JORADP n° 81/1997 (DOC-00115).
+8. [S8] Décret exécutif n° 97-465 du 2 décembre 1997 (EHS). JORADP n° 81/1997 (DOC-00115).
+9. [S9] Ordonnance n° 73-65 du 28 décembre 1973 (médecine gratuite). JORADP n° 1/1974 (DOC-00117).
 10. [S10] Loi n° 85-05 du 16 février 1985 relative à la protection et à la promotion de la santé (abrogée).
 11. [S11] Loi n° 83-11 du 2 juillet 1983 relative aux assurances sociales.
 12. [S12] Loi n° 84-10 du 11 février 1984 relative au service civil.
@@ -779,3 +812,5 @@ E. Le décret 22-211 fixe la liste des maladies à dépistage anonyme et gratuit
 21. [S21] Déclaration d'Alma-Ata (1978) ; Déclaration d'Astana (2018).
 22. [S22] Décrets exécutifs n° 95-319 (1995) et n° 14-106 (2014).
 23. [S23] Décret n° 71-275 du 3 décembre 1971 portant création du DEMS (DOC-00022).
+24. [S24] Ordonnance n° 20-02 du 30 août 2020 modifiant et complétant la loi 18-11. JORADP n° 50/2020 (DOC-00116).
+25. [S25] Décret exécutif n° 92-07 du 4 janvier 1992 (caisses de sécurité sociale : CNAS, CNR, CASNOS). JORADP n° 2/1992 (DOC-00118).

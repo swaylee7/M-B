@@ -37,10 +37,10 @@
         "Hémocultures et ECBC selon le contexte"
       ],
       "diagnostic_final": "Trouble mixte : acidose respiratoire chronique décompensée sur exacerbation de BPCO, aggravée par une oxygénothérapie non titrée, associée à une alcalose métabolique induite par les diurétiques de l'anse (hypokaliémie, hypochlorémie).",
-      "traitement": "Titration de l'oxygène pour une SpO2 cible de 88-92 % ; ventilation non invasive en unité de soins continus/réanimation (acidose respiratoire avec pH < 7,35) ; bronchodilatateurs ; traitement de l'exacerbation selon les recommandations en vigueur ; réduction ou suspension temporaire du diurétique ; correction de l'hypokaliémie et de la déplétion chlorée par KCl selon le protocole local [POSOLOGIE À VÉRIFIER — protocole local].",
+      "traitement": "Titration de l'oxygène pour une SpO2 cible de 88-92 % ; ventilation non invasive en unité de soins continus/réanimation (acidose respiratoire avec pH < 7,35) ; bronchodilatateurs ; traitement de l'exacerbation selon les recommandations en vigueur ; réduction ou suspension temporaire du diurétique ; correction de l'hypokaliémie et de la déplétion chlorée par KCl (modalités et vitesses d'administration : dossier des dyskaliémies, DOS-NEPH-0002).",
       "surveillance": "Gaz du sang à 1-2 h puis selon l'évolution sous VNI, vigilance, FR, SpO2 ; kaliémie, chlorémie et bicarbonates quotidiens ; diurèse et poids.",
       "evolution": "Sous VNI et titration de l'O2, la vigilance se normalise en 24 h (pH 7,37, PaCO2 64 mmHg). La correction de la kaliémie et de la chlorémie fait baisser progressivement les bicarbonates vers 32 mmol/L, ce qui réduit la tendance à l'hypoventilation compensatrice.",
-      "explication_pedagogique": "Démarche : (1) pH 7,30 = acidémie ; PaCO2 élevée = acidose respiratoire. (2) Par rapport à la valeur de base (52 mmHg, HCO3- 30), ΔPaCO2 = 33 mmHg ; une décompensation aiguë sur chronique ajouterait ≈ +3 mmol/L (0,1 × 33) → ≈ 33 mmol/L ; une acidose respiratoire chronique « pure » à 85 mmHg à partir de 40 mmHg donnerait ≈ 24 + 0,35 × 45 ≈ 40 mmol/L. Les bicarbonates à 41 mmol/L sont plus élevés que ne le voudrait une simple décompensation aiguë et associés à une hypochlorémie et une hypokaliémie sous diurétique : il existe une alcalose métabolique surajoutée. (3) La chlorurie élevée sous diurétique en cours est attendue (alcalose « chlororésistante » tant que le diurétique agit). (4) L'alcalose métabolique aggrave l'hypoventilation et rend l'hypercapnie plus difficile à corriger. (5) L'oxygène à haut débit a aggravé l'hypercapnie (modification des rapports ventilation/perfusion, effet Haldane, baisse de la commande ventilatoire). Message : les règles de compensation doivent être appliquées par rapport à l'état de base du patient lorsqu'il est connu.",
+      "explication_pedagogique": "Démarche : (1) pH 7,30 = acidémie ; PaCO2 élevée = acidose respiratoire. (2) Par rapport à la valeur de base (52 mmHg, HCO3- 30), ΔPaCO2 = 33 mmHg ; une décompensation aiguë sur chronique ajouterait ≈ +3 mmol/L (0,1 × 33) → ≈ 33 mmol/L ; une acidose respiratoire chronique « pure » à 85 mmHg à partir de 40 mmHg donnerait ≈ 24 + 0,35 × 45 ≈ 40 mmol/L. Les bicarbonates à 41 mmol/L sont plus élevés que ne le voudrait une simple décompensation aiguë et associés à une hypochlorémie et une hypokaliémie sous diurétique : il existe une alcalose métabolique surajoutée. Après 4 jours d'exacerbation, une compensation rénale partielle a pu débuter : l'argument décisif est donc l'hypochlorémie (84 mmol/L) avec hypokaliémie sous furosémide récemment augmenté. (3) La chlorurie élevée sous diurétique en cours est attendue (alcalose « chlororésistante » tant que le diurétique agit). (4) L'alcalose métabolique aggrave l'hypoventilation et rend l'hypercapnie plus difficile à corriger. (5) L'oxygène à haut débit a aggravé l'hypercapnie (modification des rapports ventilation/perfusion, effet Haldane, baisse de la commande ventilatoire). Message : les règles de compensation doivent être appliquées par rapport à l'état de base du patient lorsqu'il est connu.",
       "questions": [
         {
           "question": "Quel est le trouble primaire ?",
@@ -77,9 +77,15 @@
           "date": "2001"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Gaz du sang cohérents (Henderson) ; nuance ajoutée sur la compensation rénale partielle après 4 jours ; marqueur de posologie sans dose remplacé par un renvoi (DOS-NEPH-0002)."
+      }
     },
     {
       "id": "CAS-PHYS-1302",
@@ -117,7 +123,7 @@
         "Avis du centre antipoison"
       ],
       "diagnostic_final": "Intoxication grave au méthanol : acidose métabolique à trou anionique très augmenté (formiate) avec trou osmolaire augmenté et atteinte visuelle.",
-      "traitement": "Prise en charge en réanimation avec le centre antipoison : antidote inhibant l'alcool déshydrogénase (fomépizole, ou éthanol à défaut selon disponibilité) [POSOLOGIE À VÉRIFIER — RCP / centre antipoison] ; épuration extrarénale, suggérée par le panel SRLF/SFMU en cas d'intoxication au méthanol si le trou anionique dépasse 20 mmol/L, s'il existe une insuffisance rénale ou des troubles visuels ; correction de l'acidémie selon le protocole local ; dépistage des autres consommateurs.",
+      "traitement": "Prise en charge en réanimation avec le centre antipoison : antidote inhibant l'alcool déshydrogénase (fomépizole, ou éthanol à défaut selon disponibilité ; posologies : RCP, centre antipoison et dossier des intoxications aiguës, DOS-URGE-0001) ; épuration extrarénale, suggérée par le panel SRLF/SFMU en cas d'intoxication au méthanol si le trou anionique dépasse 20 mmol/L, s'il existe une insuffisance rénale ou des troubles visuels ; correction de l'acidémie selon le protocole local ; dépistage des autres consommateurs.",
       "surveillance": "Gaz du sang, TA et trou osmolaire répétés ; méthanolémie ; vision ; état neurologique ; fonction rénale.",
       "evolution": "Après épuration extrarénale et antidote, l'acidose se corrige en 12 heures ; une baisse séquellaire de l'acuité visuelle persiste, justifiant un suivi ophtalmologique.",
       "explication_pedagogique": "Étapes : pH 7,14 et HCO3- 6 = acidose métabolique. Winter : 1,5 × 6 + 8 = 17 ± 2 → PaCO2 18 conforme (compensation maximale). TA = 141 − (103 + 6) = 32 mmol/L (albumine normale) : TA très augmenté, non expliqué par le lactate (2,6) ni par les cétones (0,3) ni par l'insuffisance rénale. Osmolalité calculée = 2 × 141 + 6 + 5 = 293 → trou osmolaire = 25 mOsm/kg (éthanol négatif). L'association TA augmenté inexpliqué + trou osmolaire augmenté + troubles visuels est très évocatrice du méthanol (métabolisé par l'alcool déshydrogénase en formaldéhyde puis en acide formique, toxique pour le nerf optique). Le trou osmolaire diminue à mesure que le méthanol est métabolisé, alors que le TA augmente : un trou osmolaire normal n'exclut pas une intoxication vue tardivement. La survenue de symptômes chez plusieurs consommateurs d'une même boisson oriente vers une intoxication collective.",
@@ -157,9 +163,15 @@
           "date": "1967"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Gaz du sang, Winter (17 ± 2), TA (32) et trou osmolaire (25) recalculés : exacts ; indications d'épuration conformes au texte intégral SRLF/SFMU 2019 (R3.12) ; marqueur remplacé par un renvoi."
+      }
     },
     {
       "id": "CAS-PHYS-1303",
@@ -195,7 +207,7 @@
         "ECG de contrôle après correction ; ECG des apparentés si le QT reste long"
       ],
       "diagnostic_final": "Torsades de pointes sur allongement acquis du QT, multifactoriel : association de médicaments bloquant IKr (macrolide, antiémétique, antidépresseur), hypokaliémie et hypomagnésémie (diurétique, diarrhée), bradycardie, sexe féminin et âge.",
-      "traitement": "Arrêt de tous les médicaments allongeant le QT ; correction de la kaliémie (objectif dans la moitié supérieure de la normale) et de la magnésémie ; sulfate de magnésium intraveineux en cas de torsades selon le protocole ; accélération de la fréquence (isoprénaline ou stimulation temporaire) en cas de récidives favorisées par les pauses ; choc électrique en cas de dégénérescence en fibrillation ventriculaire [POSOLOGIE À VÉRIFIER — protocole local].",
+      "traitement": "Arrêt de tous les médicaments allongeant le QT ; correction de la kaliémie (objectif dans la moitié supérieure de la normale) et de la magnésémie ; sulfate de magnésium intraveineux en cas de torsades selon le protocole ; accélération de la fréquence (isoprénaline ou stimulation temporaire) en cas de récidives favorisées par les pauses ; choc électrique en cas de dégénérescence en fibrillation ventriculaire (doses : dossier des troubles du rythme, DOS-CARD-0007).",
       "surveillance": "Monitorage continu jusqu'à normalisation du QTc ; ionogramme quotidien ; choix d'un antibiotique sans effet sur le QT.",
       "evolution": "Disparition des torsades après correction électrolytique et arrêt des médicaments ; QTc à 450 ms à J5. ECG des enfants normaux.",
       "explication_pedagogique": "La repolarisation ventriculaire dépend d'une « réserve » de courants potassiques (IKr, IKs). Les médicaments allongeant le QT bloquent pour la plupart le canal hERG (IKr) ; l'hypokaliémie diminue paradoxalement la conductance de IKr ; l'hypomagnésémie et la bradycardie accentuent l'allongement du potentiel d'action. Le potentiel d'action prolongé permet la réactivation des canaux calciques L : ce sont les post-dépolarisations précoces, qui déclenchent les torsades de pointes, typiquement après une séquence « cycle court – cycle long – cycle court » (pause). Le magnésium supprime les post-dépolarisations précoces même si la magnésémie est normale ; l'accélération de la fréquence raccourcit le potentiel d'action. Les mouvements cloniques au cours d'une syncope d'origine rythmique ne doivent pas faire conclure à une épilepsie.",
@@ -235,9 +247,15 @@
           "date": "2005"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "QTc de Bazett recalculé (≈ 560 ms) ; physiopathologie des torsades exacte ; marqueur sans dose remplacé par un renvoi (DOS-CARD-0007, en attente d'audit)."
+      }
     },
     {
       "id": "CAS-PHYS-1304",
@@ -272,7 +290,7 @@
         "Avis cardiologique pour stimulation cardiaque"
       ],
       "diagnostic_final": "Bloc auriculo-ventriculaire complet infranodal (échappement à QRS larges à 38/min) par dégénérescence du tissu de conduction, responsable de syncopes (syndrome d'Adams-Stokes).",
-      "traitement": "Hospitalisation sous monitorage ; si mauvaise tolérance, accélération temporaire de la fréquence (isoprénaline ou stimulation externe ou endocavitaire) en attendant l'implantation d'un stimulateur cardiaque définitif, indiqué dans le bloc AV complet symptomatique selon les recommandations de cardiologie ; l'atropine est peu efficace dans un bloc infranodal [POSOLOGIE À VÉRIFIER — protocole local].",
+      "traitement": "Hospitalisation sous monitorage ; si mauvaise tolérance, accélération temporaire de la fréquence (isoprénaline ou stimulation externe ou endocavitaire) en attendant l'implantation d'un stimulateur cardiaque définitif, indiqué dans le bloc AV complet symptomatique selon les recommandations de cardiologie ; l'atropine est peu efficace dans un bloc infranodal (doses d'atropine et d'isoprénaline : DOS-CARD-0007).",
       "surveillance": "Monitorage jusqu'à l'implantation ; contrôles du stimulateur.",
       "evolution": "Implantation d'un stimulateur double chambre ; disparition des malaises.",
       "explication_pedagogique": "Les P sont régulières à 80/min (automatisme sinusal préservé) et les QRS réguliers à 38/min, sans relation entre eux : c'est une dissociation auriculo-ventriculaire par bloc complet. Le niveau du bloc se déduit de l'échappement : un échappement jonctionnel (au-dessus de la bifurcation du His) donne des QRS fins à 40-60/min, sensible à l'atropine ; un échappement ventriculaire (bloc infra-hisien) donne des QRS larges à 20-40/min, instable et insensible à l'atropine, puisque le tissu sous-jacent est peu innervé par le vague. La préexistence d'un bloc de branche droit et d'un hémibloc antérieur gauche (bloc bifasciculaire) oriente vers une atteinte diffuse du tissu de conduction. La pression différentielle élargie traduit l'augmentation du volume d'éjection systolique lié à la bradycardie.",
@@ -308,9 +326,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Lecture du BAV complet infranodal exacte ; marqueur sans dose remplacé par un renvoi (DOS-CARD-0007, en attente d'audit)."
+      }
     },
     {
       "id": "CAS-HEMA-1301",
@@ -344,7 +368,7 @@
         "Avis spécialisé (médecine interne / hémostase) pour l'anticoagulation périopératoire"
       ],
       "diagnostic_final": "Anticoagulant lupique avec profil antiphospholipide « triple positif » (LA, anticardiolipine, anti-β2GPI) chez une patiente ayant des antécédents thrombotique et obstétrical : syndrome des antiphospholipides probable, à confirmer par la persistance à 12 semaines.",
-      "traitement": "L'allongement du TCA ne contre-indique pas la chirurgie sur le plan hémorragique ; le risque est thrombotique : prophylaxie antithrombotique périopératoire adaptée, mobilisation précoce, discussion d'une anticoagulation au long cours en milieu spécialisé selon la confirmation du diagnostic. Surveillance de l'héparine par activité anti-Xa (TCA ininterprétable). [POSOLOGIE À VÉRIFIER — protocole local]",
+      "traitement": "L'allongement du TCA ne contre-indique pas la chirurgie sur le plan hémorragique ; le risque est thrombotique : prophylaxie antithrombotique périopératoire adaptée, mobilisation précoce, discussion d'une anticoagulation au long cours en milieu spécialisé selon la confirmation du diagnostic. Surveillance de l'héparine par activité anti-Xa (TCA ininterprétable). Molécules, doses et surveillance : DOS-PHAR-0002 (anticoagulants) et DOS-MINT-0001 (syndrome des antiphospholipides).",
       "surveillance": "Plaquettes sous héparine ; contrôle biologique à 12 semaines ; suivi d'une future grossesse en centre spécialisé.",
       "evolution": "Cholécystectomie sans complication hémorragique ni thrombotique sous prophylaxie ; persistance du triple positif à 12 semaines.",
       "explication_pedagogique": "Le TCA isolément allongé sans saignement oriente d'emblée vers un anticoagulant lupique ou un déficit en facteur contact. L'absence de correction par le plasma normal, immédiate et non dépendante du temps, signe un inhibiteur ; l'augmentation des taux de facteurs avec la dilution traduit l'effet de l'inhibiteur dans les dosages chronométriques (faux déficits multiples). L'ISTH recommande deux tests de principes différents (dRVVT et TCA sensible) avec la séquence dépistage-mélange-confirmation. Le paradoxe est essentiel : un « anticoagulant » in vitro qui expose à la thrombose in vivo. Le TCA devenant ininterprétable, la surveillance d'une héparine non fractionnée doit reposer sur l'activité anti-Xa.",
@@ -380,9 +404,15 @@
           "date": "2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Démarche ISTH 2020 (dépistage-mélange-confirmation, deux tests) exacte ; marqueur sans dose remplacé par des renvois."
+      }
     },
     {
       "id": "CAS-HEMA-1302",
@@ -419,7 +449,7 @@
         "Groupe, RAI en vue de transfusion"
       ],
       "diagnostic_final": "CIVD patente (score ISTH 8) compliquant un choc septique à Escherichia coli sur pyélonéphrite obstructive.",
-      "traitement": "Traitement de la cause en urgence : antibiothérapie adaptée, drainage des urines (néphrostomie ou sonde urétérale), support hémodynamique. Support transfusionnel guidé par les saignements et les gestes invasifs : plaquettes, plasma, concentré de fibrinogène selon les seuils des protocoles et recommandations [POSOLOGIE À VÉRIFIER — protocole local]. Pas d'antifibrinolytique dans la CIVD septique (fibrinolyse « inhibée »).",
+      "traitement": "Traitement de la cause en urgence : antibiothérapie adaptée, drainage des urines (néphrostomie ou sonde urétérale), support hémodynamique. Support transfusionnel guidé par les saignements et les gestes invasifs, et non par les seuls résultats biologiques (BCSH 2009) : plaquettes si saignement ou risque hémorragique élevé avec plaquettes < 50 G/L ; plasma frais congelé si saignement avec TP et TCA allongés ; concentré de fibrinogène ou cryoprécipité si le fibrinogène reste < 1 g/L malgré le plasma (volumes : DOS-HEMA-0006). Prophylaxie de la maladie thromboembolique veineuse dès que le saignement est contrôlé. Pas d'antifibrinolytique dans la CIVD septique (fibrinolyse « inhibée »).",
       "surveillance": "Plaquettes, TQ, fibrinogène et D-dimères au moins quotidiens (score ISTH), saignements, fonction rénale, lactate.",
       "evolution": "Après drainage et antibiothérapie, amélioration hémodynamique en 48 heures ; remontée progressive des plaquettes et du fibrinogène en 4 à 5 jours.",
       "explication_pedagogique": "Score ISTH : plaquettes < 50 G/L (2) + marqueur de fibrine fortement augmenté (3) + allongement du TQ de 7 s, donc > 6 s (2) + fibrinogène < 1 g/L (1) = 8 points, compatible avec une CIVD patente. La baisse du facteur V traduit la consommation (et non spécifiquement l'insuffisance hépatique), la chute rapide des plaquettes et l'élévation massive des D-dimères signent la génération de thrombine et de plasmine. La CIVD du sepsis est de type « thrombotique » (PAI-1 élevé, fibrinolyse relativement inhibée), d'où le purpura nécrotique des extrémités et la défaillance d'organes ; l'acide tranexamique y est déconseillé. Le traitement est avant tout celui de la cause.",
@@ -455,9 +485,15 @@
           "date": "2009"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Score ISTH recalculé (8) ; seuils transfusionnels de la CIVD précisés d'après le résumé BCSH 2009 (PubMed 19222477) ; marqueur levé."
+      }
     },
     {
       "id": "CAS-IMMU-1301",
@@ -491,7 +527,7 @@
         "Typage des parents pour l'établissement des haplotypes"
       ],
       "diagnostic_final": "Donneur de référence : sœur aînée HLA-identique (génoïdentique, 10/10), sans anticorps anti-HLA chez le receveur.",
-      "traitement": "Allogreffe de cellules souches hématopoïétiques à partir de la sœur HLA-identique selon le protocole du centre (conditionnement, prophylaxie de la GVH) [POSOLOGIE À VÉRIFIER — protocole local].",
+      "traitement": "Allogreffe de cellules souches hématopoïétiques à partir de la sœur HLA-identique selon le protocole du centre (conditionnement, prophylaxie de la GVH), hors du champ de ce cas d'immunologie.",
       "surveillance": "Prise de greffe, chimérisme, GVH aiguë et chronique, infections (CMV), rechute.",
       "evolution": "Prise de greffe à J18 ; GVH cutanée aiguë de grade modéré contrôlée ; rémission maintenue.",
       "explication_pedagogique": "Dans une fratrie, chaque frère ou sœur a 25 % de probabilité d'être HLA-identique ; avec trois frères et sœurs, la probabilité qu'au moins un le soit est de 1 − (3/4)³ ≈ 58 %. La consanguinité parentale augmente la probabilité d'haplotypes partagés et peut rendre un parent quasi identique, d'où l'intérêt de typer les parents pour établir les haplotypes. Même avec une identité HLA génotypique, une GVH peut survenir, liée aux antigènes mineurs d'histocompatibilité. La recherche d'anticorps anti-HLA chez le receveur est indispensable, surtout si un donneur haplo-identique ou du sang placentaire est envisagé, car les DSA augmentent le risque d'échec de prise de greffe (recommandations NMDP/CIBMTR 2019).",
@@ -527,9 +563,15 @@
           "date": "2000"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Haplotypes, probabilité 1 − (3/4)³ ≈ 58 % et critères NMDP/CIBMTR exacts ; marqueur sans dose retiré."
+      }
     },
     {
       "id": "CAS-IMMU-1302",
@@ -601,9 +643,15 @@
           "date": "2004"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Mécanisme et chiffres de PREDICT-1 vérifiés (PubMed 18256392) ; aucune correction."
+      }
     },
     {
       "id": "CAS-IMMU-1303",
@@ -637,7 +685,7 @@
         "Sérologie et suivi de l'hydatidose (risque d'échinococcose secondaire)"
       ],
       "diagnostic_final": "Anaphylaxie de grade III de Ring et Messmer, avec activation mastocytaire confirmée, secondaire à la dissémination peropératoire de liquide hydatique chez un patient sensibilisé (IgE anti-Echinococcus) ; une cause médicamenteuse peropératoire reste à éliminer par le bilan allergo-anesthésique.",
-      "traitement": "Arrêt de la manipulation du kyste et protection du champ opératoire ; adrénaline titrée par voie intraveineuse par l'anesthésiste-réanimateur sous monitorage (contexte peropératoire), remplissage vasculaire, oxygène pur, bronchodilatateurs ; poursuite de l'intervention après stabilisation avec lavage par solution scolicide selon le protocole chirurgical ; traitement antiparasitaire complémentaire selon les recommandations [POSOLOGIE À VÉRIFIER — protocole local].",
+      "traitement": "Arrêt de la manipulation du kyste et protection du champ opératoire ; adrénaline titrée par voie intraveineuse par l'anesthésiste-réanimateur sous monitorage (contexte peropératoire), remplissage vasculaire, oxygène pur, bronchodilatateurs ; poursuite de l'intervention après stabilisation avec lavage par solution scolicide selon le protocole chirurgical ; traitement antiparasitaire complémentaire (albendazole, associé au praziquantel en cas de déversement) selon les lignes directrices OMS 2025 : schéma et durée dans DOS-CDIG-0001.",
       "surveillance": "Réanimation post-opératoire 24 heures ; hémodynamique ; réaction biphasique ; suivi échographique et sérologique de l'hydatidose.",
       "evolution": "Stabilisation en 20 minutes ; extubation le lendemain ; tests cutanés aux médicaments anesthésiques négatifs à 6 semaines, confortant l'origine hydatique.",
       "explication_pedagogique": "Le liquide hydatique contient des antigènes parasitaires très immunogènes. Une fissuration du kyste (urticaires antérieures inexpliquées) a pu sensibiliser le patient et induire des IgE spécifiques ; l'issue massive de liquide en peropératoire provoque le pontage des IgE fixées sur les mastocytes : c'est une hypersensibilité de type I. Le diagnostic d'anaphylaxie est conforté par la tryptase (46 µg/L > 1,2 × 6 + 2). En anesthésie, l'adrénaline est titrée par voie intraveineuse par une équipe entraînée et sous monitorage, alors que la voie intramusculaire est la règle hors de ce contexte. L'échinococcose kystique est endémique en Algérie, où les chiens et les ovins entretiennent le cycle : la prévention de la rupture du kyste fait partie des principes chirurgicaux. Le bilan allergo-anesthésique reste indispensable pour ne pas méconnaître une allergie à un curare ou à un antiseptique.",
@@ -681,9 +729,15 @@
           "date": "2012"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Seuil de tryptase (1,2 × 6 + 2 = 9,2 µg/L) et grade III exacts ; adrénaline IV titrée justifiée en peropératoire ; marqueur remplacé par un renvoi (DOS-CDIG-0001, OMS 2025)."
+      }
     },
     {
       "id": "CAS-IMMU-1304",
@@ -717,7 +771,7 @@
         "Lectures à J2 et J3-J4, et vers J7 si nécessaire"
       ],
       "diagnostic_final": "Eczéma allergique de contact (hypersensibilité retardée de type IV) à la paraphénylènediamine, sensibilisation primaire par le tatouage au « henné noir ».",
-      "traitement": "Dermocorticoïde d'activité forte sur une durée courte selon les recommandations de dermatologie, émollients ; éviction de la PPD et des molécules apparentées (teintures capillaires d'oxydation, certains colorants textiles) ; information écrite remise à la patiente [POSOLOGIE À VÉRIFIER — RCP / protocole local].",
+      "traitement": "Dermocorticoïde d'activité forte sur une durée courte selon les recommandations de dermatologie, émollients ; éviction de la PPD et des molécules apparentées (teintures capillaires d'oxydation, certains colorants textiles) ; information écrite remise à la patiente ; aucune posologie n'est nécessaire à ce cas d'immunologie.",
       "surveillance": "Cicatrisation, hypopigmentation ou hyperpigmentation résiduelle, risque de réaction sévère lors d'une future teinture capillaire.",
       "evolution": "Guérison en 2 semaines avec hypopigmentation transitoire ; patch-test à la PPD positif (++) à J3, pertinence clinique établie.",
       "explication_pedagogique": "Le henné naturel est rarement allergisant ; le « henné noir » contient souvent de la paraphénylènediamine ajoutée à forte concentration pour foncer et accélérer la coloration. La PPD est un haptène (prohaptène oxydé en dérivés réactifs) qui se lie aux protéines cutanées ; les cellules de Langerhans et les cellules dendritiques dermiques migrent vers les ganglions et sensibilisent des lymphocytes T. Lors d'une première exposition, la sensibilisation et le déclenchement peuvent se succéder sur la même exposition, d'où un délai d'environ une semaine ; lors des réexpositions, l'eczéma apparaît en 24 à 72 heures. Les patch-tests, réalisés à distance de la poussée selon les recommandations de l'ESCD, confirment le diagnostic ; le risque majeur est une réaction sévère lors d'une future teinture capillaire et des réactions croisées avec d'autres amines aromatiques.",
@@ -753,9 +807,15 @@
           "date": "2003"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Mécanisme (PPD, type IV) et lectures des patch-tests exacts ; marqueur sans dose retiré."
+      }
     }
   ]
 }

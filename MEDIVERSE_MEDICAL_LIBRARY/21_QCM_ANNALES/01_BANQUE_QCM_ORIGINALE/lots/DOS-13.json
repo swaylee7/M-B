@@ -50,9 +50,15 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1302",
@@ -103,9 +109,15 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1303",
@@ -155,14 +167,20 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1304",
       "format": "QCM (réponses multiples)",
-      "enonce": "Un patient a les gaz du sang artériels suivants : pH 7,25 ; PaCO2 32 mmHg ; HCO3- 12 mmol/L. Quelles propositions sont exactes ?",
+      "enonce": "Un patient a les gaz du sang artériels suivants : pH 7,20 ; PaCO2 32 mmHg ; HCO3- 12 mmol/L. Quelles propositions sont exactes ?",
       "propositions": {
         "A": "Le trouble primaire est une acidose métabolique.",
         "B": "La PaCO2 attendue selon la formule de Winter est comprise entre 24 et 28 mmHg.",
@@ -177,7 +195,7 @@
       ],
       "explication_generale": "PaCO2 attendue = 1,5 × 12 + 8 ± 2 = 26 ± 2 mmHg. Une PaCO2 mesurée à 32 mmHg est trop haute : la ventilation est insuffisante (épuisement, sédation, BPCO), d'où une acidose mixte métabolique et respiratoire.",
       "explications_par_proposition": {
-        "A": "Vrai : pH bas et bicarbonates bas.",
+        "A": "Vrai : pH bas et bicarbonates bas (contrôle de cohérence : [H+] = 24 × 32 / 12 = 64 nmol/L, soit un pH voisin de 7,19).",
         "B": "Vrai : 26 ± 2.",
         "C": "Faux : PaCO2 > 28.",
         "D": "Vrai : PaCO2 supérieure à la valeur attendue.",
@@ -207,9 +225,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Gaz du sang incohérents dans l'énoncé (pH 7,25 incompatible avec PaCO2 32 et HCO3- 12 : Henderson donne ≈ 7,19) : pH corrigé à 7,20 ; réponse inchangée (A, B, D)."
+      }
     },
     {
       "id": "QCM-PHYS-1305",
@@ -259,9 +283,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1306",
@@ -305,9 +335,15 @@
           "date": "2007"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1307",
@@ -357,9 +393,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1308",
@@ -409,9 +451,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1309",
@@ -462,9 +510,15 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1310",
@@ -514,9 +568,15 @@
           "date": "2001"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1311",
@@ -566,9 +626,15 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1312",
@@ -617,9 +683,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1313",
@@ -669,9 +741,15 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1314",
@@ -722,9 +800,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1315",
@@ -775,9 +859,15 @@
           "date": "2005"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1316",
@@ -828,9 +918,15 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1317",
@@ -874,9 +970,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1318",
@@ -923,9 +1025,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1319",
@@ -972,9 +1080,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1320",
@@ -1020,9 +1134,15 @@
           "date": "2007"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1321",
@@ -1069,9 +1189,15 @@
           "date": "2009"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1322",
@@ -1117,9 +1243,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1323",
@@ -1170,9 +1302,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1324",
@@ -1223,9 +1361,15 @@
           "date": "2009"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1325",
@@ -1272,9 +1416,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-PHYS-1326",
@@ -1321,9 +1471,15 @@
           "date": "2002"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1301",
@@ -1373,9 +1529,15 @@
           "date": "2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1302",
@@ -1422,9 +1584,15 @@
           "date": "2001"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1303",
@@ -1471,9 +1639,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1304",
@@ -1519,9 +1693,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1305",
@@ -1572,9 +1752,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1306",
@@ -1618,9 +1804,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1307",
@@ -1671,9 +1863,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1308",
@@ -1720,9 +1918,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1309",
@@ -1736,7 +1940,6 @@
         "E": "Le facteur V est inclus dans le score."
       },
       "reponses_correctes": [
-        "A",
         "B",
         "C"
       ],
@@ -1772,9 +1975,15 @@
           "date": "2009"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Corrigé erroné : la proposition A (« 8 points ») était marquée juste alors que le score ISTH vaut 2 + 3 + 1 + 1 = 7 (explication déjà juste) ; réponse corrigée en B, C."
+      }
     },
     {
       "id": "QCM-HEMA-1310",
@@ -1821,9 +2030,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1311",
@@ -1873,9 +2088,15 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1312",
@@ -1921,9 +2142,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-HEMA-1313",
@@ -1968,9 +2195,15 @@
           "date": "2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1301",
@@ -2021,9 +2254,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1302",
@@ -2070,9 +2309,15 @@
           "date": "1987"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1303",
@@ -2119,9 +2364,15 @@
           "date": "1993"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1304",
@@ -2172,9 +2423,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1305",
@@ -2218,9 +2475,15 @@
           "date": "2000"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1306",
@@ -2271,9 +2534,15 @@
           "date": "2008"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1307",
@@ -2320,9 +2589,15 @@
           "date": "1974"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1308",
@@ -2369,9 +2644,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1309",
@@ -2422,9 +2703,15 @@
           "date": "2013"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1310",
@@ -2470,9 +2757,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1311",
@@ -2523,9 +2816,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1312",
@@ -2576,9 +2875,15 @@
           "date": "2008"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1313",
@@ -2625,9 +2930,15 @@
           "date": "2011"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1314",
@@ -2674,9 +2985,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1315",
@@ -2723,9 +3040,15 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1316",
@@ -2772,9 +3095,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1317",
@@ -2825,9 +3154,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1318",
@@ -2878,9 +3213,15 @@
           "date": "2012"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1319",
@@ -2931,9 +3272,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1320",
@@ -2980,9 +3327,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1321",
@@ -3029,9 +3382,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1322",
@@ -3078,9 +3437,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1323",
@@ -3127,9 +3492,15 @@
           "date": "2003"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1324",
@@ -3176,9 +3547,15 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1325",
@@ -3229,9 +3606,15 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     },
     {
       "id": "QCM-IMMU-1326",
@@ -3275,9 +3658,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-13",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Réponse(s) correcte(s) et explications vérifiées ; aucune correction."
+      }
     }
   ]
 }

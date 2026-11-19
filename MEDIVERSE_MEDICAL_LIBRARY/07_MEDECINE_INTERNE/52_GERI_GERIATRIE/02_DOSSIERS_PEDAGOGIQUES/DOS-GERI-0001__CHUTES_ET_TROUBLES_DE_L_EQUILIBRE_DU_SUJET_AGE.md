@@ -6,11 +6,30 @@ sous_specialite: "Chutes — syndromes gériatriques"
 items_residanat: [RES-MED-159]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_valide
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0001.md
+    remarque: "Textes intégraux relus : World Falls Guidelines 2022 (PMC9523684), NICE NG249 (recommandations en ligne), HAS 2009 chutes répétées (PDF), Beers 2023 (PMC). Correction majeure : chiffres OMS de 2021 remplacés par l'aide-mémoire du 21 octobre 2026 (≈ 842 000 décès par chute en 2023)."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0001.md
+    remarque: "Marqueur posologique levé : calcium alimentaire 1 à 1,5 g/j et vitamine D ≥ 800 UI/j en cas de carence (HAS 2009, R18) ; 800 à 1 000 UI/j chez les sujets à risque de carence (WFG 2022). Aucun marqueur posologique restant."
+  - date: 2026-11-19
+    auditeur: "AUD-04 (IA)"
+    verdict: audite_valide
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0001.md
+    remarque: "S1, S5, S7-S13, S17, S18 vérifiées par PubMed (eutils) ; S6 actualisée (OMS, 21 octobre 2026)."
 sources:
   - id: S1
     reference: "Montero-Odasso M, van der Velde N, Martin FC, et al.; Task Force on Global Guidelines for Falls in Older Adults. World guidelines for falls prevention and management for older adults: a global initiative. Age Ageing. 2022;51(9):afac205."
@@ -20,7 +39,7 @@ sources:
     doi: "10.1093/ageing/afac205"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9523684"
     verifiee: true
-    remarque: "Référence, DOI et principes généraux (conseil à tous, repérage opportuniste, évaluation multifactorielle des sujets à haut risque, interventions multidomaines personnalisées) confirmés par recherche web ; le détail des seuils de l'algorithme n'a pas été relu dans le texte intégral."
+    remarque: "PMID 36178003. Texte intégral relu par l'audit (PMC9523684) : stratification en trois niveaux ; critères de risque élevé (blessure, ≥ 2 chutes en 12 mois, fragilité, incapacité à se relever sans aide pendant au moins 1 heure, perte de connaissance transitoire suspectée) ; vitesse de marche < 0,8 m/s (1A) ou TUG > 15 s (1B) ; trois questions clés ; exercice ≥ 3 séances par semaine pendant au moins 12 semaines (1A) ; vitamine D réservée aux sujets à risque de carence (800 à 1 000 UI/j), recommandée en établissement d'hébergement dans une intervention multidomaine (1B)."
   - id: S2
     reference: "National Institute for Health and Care Excellence. Falls: assessment and prevention in older people and in people 50 and over at higher risk. NICE guideline NG249. Londres : NICE ; avril 2025 (amendement mai 2025)."
     organisme: NICE
@@ -29,7 +48,7 @@ sources:
     doi: ""
     url: "https://www.nice.org.uk/guidance/ng249"
     verifiee: true
-    remarque: "Publication (29 avril 2025), remplacement de CG161 (2013) et amendement de la recommandation 1.2.1 (mai 2025) confirmés par recherche web."
+    remarque: "Publication (29 avril 2025), remplacement de CG161 (2013) et amendement de la recommandation 1.2.1 (mai 2025) confirmés par recherche web. Recommandations relues en ligne par l'audit (nice.org.uk) : 1.1.1 (pas d'outil de prédiction du risque), 1.1.3 (critères de l'évaluation complète), 1.2.1, 1.3.4 (vitamine D)."
   - id: S3
     reference: "Haute Autorité de santé / Société française de gériatrie et gérontologie. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Recommandations professionnelles. Avril 2009."
     organisme: "HAS / SFGG"
@@ -38,7 +57,7 @@ sources:
     doi: ""
     url: "https://www.has-sante.fr/jcms/c_793371/"
     verifiee: true
-    remarque: "Confirmée (recherche web) : chutes répétées = au moins 2 chutes sur 12 mois après 65 ans ; recherche des signes de gravité puis des facteurs de risque ; imagerie cérébrale non systématique."
+    remarque: "Texte des recommandations relu par l'audit (PDF has-sante.fr) : chutes répétées = au moins 2 chutes sur 12 mois ; signes de gravité (R3) ; risque de récidive élevé si station unipodale ≤ 5 s et TUG ≥ 20 s (R4) ; trois situations à risque de chute grave (R5) ; examens (R9, R15 : dont 25-OH-vitamine D) ; pas d'imagerie cérébrale sans indication clinique (R10, R16) ; calcium alimentaire 1-1,5 g/j et correction d'une carence en vitamine D par au moins 800 UI/j (R18)."
   - id: S4
     reference: "Société française de documentation et de recherche en médecine générale / HAS. Prévention des chutes accidentelles chez la personne âgée. Recommandations pour la pratique clinique. 2005."
     organisme: "SFDRMG / HAS"
@@ -53,25 +72,25 @@ sources:
     organisme: USPSTF
     annee: 2024
     type: recommandation
-    doi: ""
+    doi: "10.1001/jama.2024.8481"
     url: "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/falls-prevention-community-dwelling-older-adults-interventions"
     verifiee: true
     remarque: "Exercice : grade B (≥ 65 ans à risque accru) ; interventions multifactorielles : grade C ; la vitamine D n'est plus traitée dans cette recommandation (renvoyée à une revue distincte), alors que la version 2018 la déconseillait."
   - id: S6
-    reference: "Organisation mondiale de la santé. Chutes — aide-mémoire (26 avril 2021) ; Step safely: strategies for preventing and managing falls across the life-course. Genève : OMS ; 2021."
+    reference: "Organisation mondiale de la santé. Falls — fact sheet (mise à jour du 21 octobre 2026 ; version précédente du 26 avril 2021) ; Step safely: strategies for preventing and managing falls across the life-course. Genève : OMS ; 2021."
     organisme: OMS
-    annee: 2021
+    annee: 2026
     type: site_institutionnel
     doi: ""
     url: "https://www.who.int/news-room/fact-sheets/detail/falls"
     verifiee: true
-    remarque: "Chiffres confirmés : environ 684 000 décès par chute par an dans le monde, 2e cause de décès par traumatisme non intentionnel ; les plus de 60 ans paient le plus lourd tribut ; 37,3 millions de chutes nécessitant des soins chaque année."
+    remarque: "Version du 21 octobre 2026 relue par l'audit : environ 842 000 décès par chute en 2023 (Global Health Estimates), 2e cause de décès par traumatisme non intentionnel après les accidents de la route ; 71 % chez les 60 ans et plus ; 8e cause de DALY ; 62 % des décès dans les régions OMS Asie du Sud-Est et Pacifique occidental. Les chiffres de la version 2021 (684 000 décès, 37,3 millions de chutes nécessitant des soins) sont dépassés."
   - id: S7
     reference: "Sherrington C, Fairhall NJ, Wallbank GK, et al. Exercise for preventing falls in older people living in the community. Cochrane Database Syst Rev. 2019;1:CD012424."
     organisme: Cochrane
     annee: 2019
     type: article
-    doi: ""
+    doi: "10.1002/14651858.CD012424.pub2"
     url: "https://pubmed.ncbi.nlm.nih.gov/30703272/"
     verifiee: true
     remarque: "Rapport des taux de chutes 0,77 (IC 95 % 0,71-0,83 ; 59 études ; 12 981 participants) ; exercices d'équilibre et fonctionnels 0,76 ; programmes multicomposantes 0,66 ; tai-chi 0,81 (certitude plus faible) — confirmés par recherche web."
@@ -97,33 +116,37 @@ sources:
     organisme: NEJM
     annee: 1988
     type: article
-    doi: ""
+    doi: "10.1056/NEJM198812293192604"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 3205267."
   - id: S11
     reference: "Podsiadlo D, Richardson S. The timed \"Up & Go\": a test of basic functional mobility for frail elderly persons. J Am Geriatr Soc. 1991;39(2):142-148."
     organisme: JAGS
     annee: 1991
     type: article
-    doi: ""
+    doi: "10.1111/j.1532-5415.1991.tb01616.x"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 1991946."
   - id: S12
     reference: "Brignole M, Moya A, de Lange FJ, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018;39(21):1883-1948."
     organisme: ESC
     annee: 2018
     type: recommandation
-    doi: ""
+    doi: "10.1093/eurheartj/ehy037"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 29562304."
   - id: S13
     reference: "Freeman R, Wieling W, Axelrod FB, et al. Consensus statement on the definition of orthostatic hypotension, neurally mediated syncope and the postural tachycardia syndrome. Clin Auton Res. 2011;21(2):69-72."
     organisme: "AAS / EFAS"
     annee: 2011
     type: recommandation
-    doi: ""
+    doi: "10.1007/s10286-011-0119-5"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 21431947."
   - id: S14
     reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé (art. 86-90, 198, 281, 286-287). JORADP n° 46 du 29 juillet 2018."
     organisme: "République algérienne (JORADP)"
@@ -150,30 +173,32 @@ sources:
     doi: ""
     url: ""
     verifiee: true
-    remarque: "Espérance de vie 2023 (79,6 ans) via reprises de presse ; à confronter à l'original."
+    remarque: "Espérance de vie 2023 (79,6 ans) via reprises de presse ; publication primaire inaccessible pendant l'audit [À VÉRIFIER — source primaire non consultée]."
   - id: S17
     reference: "Lamb SE, Jørstad-Stein EC, Hauer K, Becker C; Prevention of Falls Network Europe and Outcomes Consensus Group. Development of a common outcome data set for fall injury prevention trials: the Prevention of Falls Network Europe consensus. J Am Geriatr Soc. 2005;53(9):1618-1622."
     organisme: ProFaNE
     annee: 2005
     type: article
-    doi: ""
+    doi: "10.1111/j.1532-5415.2005.53455.x"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 16137297."
   - id: S18
     reference: "Lundin-Olsson L, Nyberg L, Gustafson Y. \"Stops walking when talking\" as a predictor of falls in elderly people. Lancet. 1997;349(9052):617."
     organisme: Lancet
     annee: 1997
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(97)24009-2"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 9057736."
 mots_cles: [chute, sujet âgé, équilibre, marche, syndrome post-chute, hypotension orthostatique, Timed Up and Go, évaluation multifactorielle, exercice physique, médicaments à risque de chute, Beers 2023, STOPP/START v3, World Falls Guidelines 2022, NICE NG249, HAS 2009, ostéoporose, fracture du col du fémur]
 ---
 
 # Les chutes et les troubles de l'équilibre du sujet âgé
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni le texte des recommandations.
-> Statut : brouillon à auditer. Les posologies éventuelles doivent être confrontées au RCP et aux protocoles locaux ; aucun programme national algérien spécifique aux chutes n'a été identifié pendant la rédaction `[À VÉRIFIER]`.
+> Statut : **audité et validé par l'IA (AUD-01/AUD-02/AUD-04, 2026-11-19)** — relecture par un enseignant qualifié encore nécessaire. Les posologies doivent être confrontées au RCP et aux protocoles locaux ; aucun programme national algérien spécifique aux chutes n'a été identifié pendant la rédaction `[À VÉRIFIER]`.
 
 **Item du programme couvert** : RES-MED-159 — « Les chutes et les troubles de l'équilibre » (module Personnes âgées, DOC-00001).
 
@@ -218,13 +243,13 @@ La chute est un **syndrome gériatrique** typique : elle est rarement due à une
 
 ### 3.1 Dans le monde
 
-- Environ **684 000 décès par chute** chaque année dans le monde, ce qui fait des chutes la **2e cause de décès par traumatisme non intentionnel** après les accidents de la circulation ; plus de 80 % de ces décès surviennent dans les pays à revenu faible ou intermédiaire ; les personnes de **plus de 60 ans** paient le plus lourd tribut ; environ **37,3 millions** de chutes par an nécessitent des soins médicaux (OMS, 2021) [S6].
+- Environ **842 000 décès par chute** en 2023 dans le monde, ce qui fait des chutes la **2e cause de décès par traumatisme non intentionnel** après les accidents de la circulation ; environ **71 %** de ces décès concernent des personnes de **60 ans et plus** ; les chutes sont la **8e cause de DALY** dans le monde (OMS, aide-mémoire mis à jour le 21 octobre 2026, d'après les Global Health Estimates 2023) [S6]. La version 2021 de l'aide-mémoire citait environ 684 000 décès par an : ne pas comparer les deux chiffres sans tenir compte des changements de méthode d'estimation.
 - Classiquement, environ **un tiers** des personnes de 65 ans et plus vivant à domicile chutent chaque année, la proportion augmentant après 80 ans et en institution [S1, S3, S4].
 - Les chutes sont la première cause de **fracture** chez le sujet âgé (extrémité supérieure du fémur, poignet, humérus, bassin, vertèbres) et une cause majeure de perte d'autonomie et d'entrée en institution [S1].
 
 ### 3.2 En Algérie
 
-Aucune donnée nationale sourcée sur l'incidence des chutes du sujet âgé n'a été identifiée pendant la rédaction `[À VÉRIFIER — enquêtes nationales, registres hospitaliers de fractures du col]`. Le contexte démographique rend toutefois le problème croissant : l'**espérance de vie à la naissance** atteindrait **79,6 ans en 2023** (hommes 78,2 ans, femmes 81,0 ans) selon l'ONS [S16], ce qui annonce une augmentation rapide du nombre de personnes très âgées. La loi n° 18-11 prévoit des **programmes de protection de la santé des personnes âgées** et leur prise en charge, y compris par les soins et l'hospitalisation **à domicile** (art. 86-87), et la loi n° 10-12 est consacrée à la protection des personnes âgées [S14, S15].
+Aucune donnée nationale sourcée sur l'incidence des chutes du sujet âgé n'a été identifiée pendant la rédaction `[À VÉRIFIER — enquêtes nationales, registres hospitaliers de fractures du col]`. Le contexte démographique rend toutefois le problème croissant : l'**espérance de vie à la naissance** atteindrait **79,6 ans en 2023** (hommes 78,2 ans, femmes 81,0 ans) selon l'ONS, d'après des reprises de presse [S16] `[À VÉRIFIER — source primaire non consultée]`, ce qui annonce une augmentation rapide du nombre de personnes très âgées. La loi n° 18-11 prévoit des **programmes de protection de la santé des personnes âgées** et leur prise en charge, y compris par les soins et l'hospitalisation **à domicile** (art. 86-87), et la loi n° 10-12 est consacrée à la protection des personnes âgées [S14, S15].
 
 ---
 
@@ -311,7 +336,7 @@ La **polymédication** et certaines classes augmentent le risque de chute ; leur
 | Anticholinergiques (antihistaminiques de 1re génération, antispasmodiques urinaires, etc.) | Confusion, troubles visuels, sédation | Charge anticholinergique cumulée |
 | Anticoagulants | N'augmentent pas le risque de chute mais la **gravité** (hémorragie intracrânienne) | La chute isolée n'est pas en soi une contre-indication : évaluer le bénéfice-risque [S1, S3] |
 
-Les critères de **Beers 2023** recommandent d'éviter, chez le sujet âgé ayant des antécédents de chutes ou de fractures, les antiépileptiques, antipsychotiques, benzodiazépines, hypnotiques apparentés, antidépresseurs (tricycliques, ISRS, IRSN) et opioïdes, sauf si des alternatives plus sûres ne sont pas disponibles [S8] `[liste exacte à confronter au tableau des critères]`. Les critères **STOPP/START version 3** (2023, 190 critères) comportent une section consacrée aux médicaments qui augmentent de façon prévisible le risque de chute [S9].
+Les critères de **Beers 2023** recommandent d'éviter, chez le sujet âgé ayant des antécédents de chutes ou de fractures, les **anticholinergiques** (ajoutés en 2023), les antidépresseurs (tricycliques, ISRS, IRSN), les antiépileptiques (sauf épilepsie et troubles de l'humeur), les antipsychotiques, les benzodiazépines (les molécules à demi-vie courte ne sont pas plus sûres), les hypnotiques apparentés (« Z-drugs ») et les opioïdes (sauf douleur aiguë sévère), sauf si des alternatives plus sûres ne sont pas disponibles [S8] (tableau relu dans le texte intégral). Beers 2023 déconseille aussi **tous les sulfamides hypoglycémiants** (risque d'hypoglycémie, maximal avec le glibenclamide et le glimépiride). Les critères **STOPP/START version 3** (2023, 190 critères) comportent une section consacrée aux médicaments qui augmentent de façon prévisible le risque de chute [S9].
 
 ### 6.3 Facteurs environnementaux et comportementaux
 
@@ -323,31 +348,31 @@ Sols glissants, tapis, seuils, éclairage insuffisant (notamment nocturne), esca
 
 ### 7.1 Repérage opportuniste
 
-Les recommandations mondiales 2022 proposent que **toutes** les personnes âgées reçoivent des conseils de prévention des chutes et d'activité physique, et qu'un **repérage opportuniste** soit fait lors de tout contact avec le système de soins, notamment par trois questions : *Êtes-vous tombé au cours de l'année écoulée ? Vous sentez-vous instable debout ou en marchant ? Avez-vous peur de tomber ?* [S1] `[formulation exacte à confronter au texte]`. Une chute ayant motivé une consultation (urgences, fracture) constitue en soi une indication d'évaluation.
+Les recommandations mondiales 2022 proposent que **toutes** les personnes âgées reçoivent des conseils de prévention des chutes et d'activité physique, et qu'un **repérage opportuniste** soit fait lors de tout contact avec le système de soins, notamment par les « trois questions clés », recommandées sous condition que les ressources le permettent : *Êtes-vous tombé au cours de l'année écoulée ? Vous sentez-vous instable debout ou en marchant ? Avez-vous des inquiétudes à l'idée de tomber ?* [S1]. Une chute ayant motivé une consultation (urgences, fracture) constitue en soi une indication d'évaluation.
 
 ### 7.2 Algorithme de stratification (inspiré des recommandations mondiales 2022)
 
 ```text
 1. Personne âgée vue en consultation ou à l'occasion d'une chute
 2. A-t-elle chuté dans les 12 derniers mois (ou se présente-t-elle pour une chute) ?
-   2a. NON → si instabilité ou peur de tomber : évaluer marche/équilibre ; sinon RISQUE FAIBLE
-             → conseils, activité physique, réévaluation périodique
+   2a. NON → RISQUE FAIBLE selon le texte de 2022 → conseils, activité physique, réévaluation annuelle
+             (adaptation pédagogique : en cas d'instabilité ou d'inquiétude, évaluer aussi la marche et l'équilibre)
    2b. OUI → rechercher des critères de SÉVÉRITÉ :
              - chute avec traumatisme (blessure) ;
              - ≥ 2 chutes dans l'année ;
              - fragilité ;
-             - impossibilité de se relever seul / station prolongée au sol ;
-             - perte de connaissance ou syncope suspectée
+             - impossibilité de se relever sans aide pendant au moins 1 heure ;
+             - perte de connaissance transitoire (syncope) suspectée → bilan de syncope
        → au moins un critère : RISQUE ÉLEVÉ → évaluation MULTIFACTORIELLE complète
                                               + interventions personnalisées multidomaines
        → aucun critère : évaluer la marche et l'équilibre
-             (ex. vitesse de marche < 0,8 m/s ou TUG > 15 s)
+             (vitesse de marche < 0,8 m/s, critère préféré [1A] ; à défaut TUG > 15 s [1B])
              - anormal → RISQUE INTERMÉDIAIRE → programme d'exercices (équilibre + renforcement)
                                                   + révision de facteurs ciblés
              - normal  → RISQUE FAIBLE → éducation, activité physique
 ```
 
-Seuils et formulations d'après [S1] `[à confronter au texte intégral]`. Le NICE (NG249, 2025) recommande une **évaluation complète du risque de chute** pour les personnes repérées à risque et précise que les personnes hospitalisées ou vivant en établissement d'hébergement n'ont pas à remplir d'autre critère pour en bénéficier [S2]. La HAS (2009) structure la démarche en trois temps : signes de **gravité**, puis **facteurs de risque**, puis **interventions** [S3].
+Seuils et formulations d'après le texte intégral de [S1]. Le NICE (NG249, 2025) déconseille les outils de prédiction du risque de chute (1.1.1) et recommande une **évaluation complète** pour les personnes ayant chuté dans l'année et présentant au moins un critère (fragilité, blessure ayant nécessité des soins, perte de connaissance, incapacité à se relever seul, ≥ 2 chutes dans l'année), ce qui reproduit la logique de l'algorithme mondial (1.1.3) et précise que les personnes hospitalisées ou vivant en établissement d'hébergement n'ont pas à remplir d'autre critère pour en bénéficier [S2]. La HAS (2009) structure la démarche en trois temps : signes de **gravité**, puis **facteurs de risque**, puis **interventions** [S3].
 
 ---
 
@@ -394,7 +419,7 @@ La HAS met en avant trois situations à haut risque de complications : **ostéop
 | Test | Réalisation | Interprétation |
 |---|---|---|
 | **Timed Up and Go (TUG)** | Se lever d'un fauteuil, marcher 3 m, faire demi-tour, revenir s'asseoir ; chronométré [S11] | Allongé = risque accru ; seuils variables selon les sources (de 12 à 20 s) ; > 15 s dans l'algorithme mondial 2022 [S1] |
-| **Vitesse de marche** (sur 4 m, par exemple) | Marche à allure habituelle chronométrée | < 0,8 m/s : risque élevé de chute et de déclin fonctionnel [S1] |
+| **Vitesse de marche** (sur 4 m, par exemple) | Marche à allure habituelle chronométrée | < 0,8 m/s : risque élevé de chute et de déclin fonctionnel ; test de stratification préféré par l'algorithme mondial (1A) [S1] |
 | **Appui unipodal** | Tenir sur un pied | Impossibilité de tenir **5 secondes** : risque de chute traumatisante (repère classique) |
 | **Lever de chaise** (5 levers, ou 30 secondes) | Se lever de la chaise bras croisés | Mesure de la force des membres inférieurs |
 | **Double tâche** (« s'arrête de marcher quand il parle ») | Observer la marche pendant une conversation | Arrêt de la marche : risque accru [S18] |
@@ -437,7 +462,7 @@ L'évaluation est **avant tout clinique** ; les examens sont **orientés** et pe
 | **ECG** | Chute inexpliquée, malaise, syncope, cardiopathie, médicaments bradycardisants |
 | Ionogramme (natrémie), créatinine, NFS | Déshydratation, hyponatrémie (diurétiques, ISRS), anémie |
 | **CPK**, créatinine, kaliémie | Station prolongée au sol (rhabdomyolyse) |
-| 25-OH vitamine D, calcémie | Selon contexte (ostéoporose, dénutrition) ; place discutée |
+| 25-OH vitamine D, calcémie | HAS 2009 : dosage de la 25-OH-vitamine D dans le bilan des chutes répétées (R15) [S3] ; recommandations mondiales 2022 : selon les recommandations locales, et inutile chez les sujets à haut risque de carence (résidents d'établissement, personnes confinées à domicile), qui reçoivent d'emblée une supplémentation [S1] |
 | Radiographies ciblées | Douleur, impotence (bassin, hanche, poignet, épaule, rachis) ; scanner si radiographie normale et forte suspicion de fracture du col |
 | **Scanner cérébral** | Traumatisme crânien sous anticoagulant ou avec signe neurologique, troubles de conscience ; **pas systématique** en l'absence de signe d'orientation (HAS 2009) [S3] |
 | Holter ECG, échocardiographie, massage sino-carotidien, tilt-test | Chute inexpliquée ou syncope suspectée (avis cardiologique) [S12] |
@@ -524,7 +549,7 @@ Station au sol prolongée, incapacité à se relever, chutes répétées, fractu
 | **Aides techniques** | Canne, déambulateur adaptés et appris (kinésithérapeute) | [S3] |
 | **Apprendre à se relever du sol** et disposer d'un **moyen d'alerte** (téléassistance, téléphone portable) | Réduit la durée au sol | [S1, S3] |
 | **Troubles cardiaques** | Stimulateur cardiaque en cas d'hypersensibilité sino-carotidienne cardio-inhibitrice ou de trouble conductif symptomatique (indication spécialisée) | [S12] |
-| **Ostéoporose** | Évaluation du risque fracturaire, traitement anti-ostéoporotique après fracture de fragilité ou selon les recommandations ; apports calciques et vitaminiques adaptés `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` | [S3] |
+| **Ostéoporose** | Évaluation du risque fracturaire, traitement anti-ostéoporotique en cas d'ostéoporose avérée (R19) ; apport calcique **alimentaire** de 1 à 1,5 g/j et correction d'une carence en vitamine D par un apport d'au moins **800 UI/j** (HAS 2009, R18) ; chez les sujets à risque de carence, **800 à 1 000 UI/j** de vitamine D (recommandations mondiales 2022) ; la vitamine D n'est pas recommandée de façon universelle pour prévenir les chutes | [S1, S3] |
 | **Nutrition** | Dépistage et traitement de la dénutrition, apports protéiques suffisants | [S1] |
 | **Incontinence, nycturie** | Traitement étiologique, chaise percée ou urinal la nuit, éclairage | [S1] |
 | **Cognition et humeur** | Prise en charge des troubles cognitifs et de la dépression ; prudence avec les psychotropes | [S1] |
@@ -624,7 +649,7 @@ Station au sol prolongée, incapacité à se relever, chutes répétées, fractu
 ## 18. Points clés à retenir
 
 1. **Chute** = se retrouver involontairement au sol ou à un niveau inférieur ; **chutes répétées** = au moins 2 en 12 mois [S1, S3].
-2. Environ un tiers des personnes de 65 ans et plus à domicile chutent chaque année ; les chutes causent environ 684 000 décès par an dans le monde [S6].
+2. Environ un tiers des personnes de 65 ans et plus à domicile chutent chaque année ; les chutes ont causé environ 842 000 décès dans le monde en 2023, dont 71 % chez les 60 ans et plus (OMS, 2026) [S6].
 3. Le meilleur prédicteur d'une chute est une **chute antérieure** ; le risque augmente avec le **nombre de facteurs** cumulés.
 4. Toujours rechercher : **signes de gravité** (traumatisme, station au sol ≥ 1 h, impossibilité de se relever, cause grave), **terrain à risque** (ostéoporose, anticoagulant, isolement) et **syndrome post-chute** (urgence).
 5. Examen clé : **PA couché-debout** (hypotension orthostatique : baisse ≥ 20/10 mmHg dans les 3 min), **TUG**, vitesse de marche, appui unipodal, lever de chaise, examen neurologique, vision, pieds, cognition.
@@ -742,10 +767,11 @@ E. La HAS (2009) recommande une imagerie cérébrale systématique après toute 
 
 | Sujet | Position 1 (organisme, date) | Position 2 (organisme, date) | Commentaire |
 |---|---|---|---|
-| Vitamine D | HAS 2009 : supplémentation en vitamine D (± calcium) dans la prise en charge des chuteurs, en particulier en cas de carence [S3] | USPSTF 2018 : recommandation **contre** la vitamine D pour prévenir les chutes chez les sujets autonomes à domicile ; USPSTF 2024 : sujet retiré de la recommandation et renvoyé à une revue séparée [S5] ; recommandations mondiales 2022 : pas de vitamine D comme intervention isolée de prévention des chutes à domicile `[À VÉRIFIER — formulation exacte]` [S1] | Corriger une carence et traiter l'ostéoporose restent légitimes ; la vitamine D n'est pas un substitut à l'exercice |
+| Vitamine D | HAS 2009 : correction d'une carence par au moins 800 UI/j chez toute personne faisant des chutes répétées (R18) [S3] ; recommandations mondiales 2022 : supplémentation réservée aux sujets à risque de carence (800 à 1 000 UI/j), recommandée en établissement d'hébergement dans une intervention multidomaine (1B), pas de supplémentation universelle [S1] | USPSTF 2018 : recommandation **contre** la vitamine D pour prévenir les chutes chez les sujets autonomes à domicile ; USPSTF 2024 : sujet retiré de la recommandation et renvoyé à une revue séparée [S5] ; NICE NG249 (2025) : preuves insuffisantes pour prendre de la vitamine D dans le seul but de réduire les chutes, suivre les conseils nationaux pour la santé osseuse et musculaire (1.3.4) [S2] | Corriger une carence et traiter l'ostéoporose restent légitimes ; la vitamine D n'est pas un substitut à l'exercice |
 | Interventions multifactorielles | Recommandations mondiales 2022 et NICE 2025 : recommandées chez les sujets à risque élevé [S1, S2] | USPSTF 2024 : grade C (bénéfice net faible, décision individualisée) [S5] | L'efficacité dépend de la mise en œuvre effective des interventions |
 | Population cible | Recommandations mondiales 2022, HAS 2009 : personnes âgées (≥ 65 ans selon HAS) [S1, S3] | NICE NG249 (2025) : étend la démarche aux personnes de **50 ans et plus** à risque plus élevé [S2] | Approche fondée sur le risque plutôt que sur l'âge seul |
-| Seuil du TUG | Algorithme mondial 2022 : > 15 s [S1] | Autres sources : seuils de 12 à 20 s | Toujours préciser le seuil et la source |
+| Seuil du TUG | Algorithme mondial 2022 : > 15 s, en alternative à la vitesse de marche < 0,8 m/s, critère préféré [S1] | HAS 2009 : risque de récidive élevé si TUG ≥ 20 s avec station unipodale ≤ 5 s (R4) [S3] ; autres sources : 12 à 20 s | Toujours préciser le seuil et la source |
+| Outils de prédiction du risque | Recommandations mondiales 2022 : stratification par un algorithme (antécédent de chute, critères de sévérité, marche) [S1] | NICE NG249 (2025) : ne pas utiliser d'outil de prédiction du risque de chute ; questionner sur les chutes et évaluer selon des critères cliniques (1.1.1-1.1.3) [S2] | Les deux approches convergent en pratique sur les mêmes critères cliniques |
 | Hospitalisés et résidents d'établissements | NICE 2025 : évaluation complète sans autre critère d'entrée [S2] | Recommandations plus anciennes centrées sur le domicile | Prévention institutionnelle à organiser |
 
 ---
@@ -756,8 +782,8 @@ E. La HAS (2009) recommande une imagerie cérébrale systématique après toute 
 2. [S2] NICE. Falls: assessment and prevention in older people and in people 50 and over at higher risk (NG249). April 2025.
 3. [S3] HAS / SFGG. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. Avril 2009.
 4. [S4] SFDRMG / HAS. Prévention des chutes accidentelles chez la personne âgée. 2005.
-5. [S5] USPSTF. Interventions to prevent falls in community-dwelling older adults. JAMA 2024;332(1):51-57.
-6. [S6] OMS. Chutes — aide-mémoire (2021) ; Step safely (2021).
+5. [S5] USPSTF. Interventions to prevent falls in community-dwelling older adults. JAMA 2024;332(1):51-57. doi:10.1001/jama.2024.8481.
+6. [S6] OMS. Falls — aide-mémoire (mise à jour du 21 octobre 2026) ; Step safely (2021).
 7. [S7] Sherrington C et al. Exercise for preventing falls in older people living in the community. Cochrane Database Syst Rev 2019;1:CD012424.
 8. [S8] American Geriatrics Society. 2023 updated AGS Beers Criteria. J Am Geriatr Soc 2023;71(7):2052-2081. doi:10.1111/jgs.18372.
 9. [S9] O'Mahony D et al. STOPP/START criteria version 3. Eur Geriatr Med 2023;14(4):625-632. doi:10.1007/s41999-023-00777-y.

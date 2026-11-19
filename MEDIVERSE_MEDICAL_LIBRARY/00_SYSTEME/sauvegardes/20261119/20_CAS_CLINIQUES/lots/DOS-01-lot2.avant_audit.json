@@ -1,0 +1,723 @@
+{
+  "agent": "DOS-01",
+  "lot": "lot2",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-CARD-0101",
+      "titre": "Grosse jambe douloureuse après un long voyage en car chez une femme sous contraception orale",
+      "niveau": "generaliste",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-058"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 34 ans, enseignante à Ouargla, 68 kg.",
+      "motif_consultation": "Douleur et gonflement du mollet gauche depuis 3 jours.",
+      "antecedents": "Contraception œstroprogestative depuis 6 ans. Pas d'antécédent personnel ni familial de thrombose. Non fumeuse. Voyage en car de 14 heures (aller-retour vers Alger) il y a 6 jours.",
+      "symptomes": "Douleur du mollet gauche à la marche, sensation de lourdeur, œdème vespéral. Pas de dyspnée, pas de douleur thoracique, pas d'hémoptysie.",
+      "examen_clinique": "T 37,3 °C, PA 118/72 mmHg, FC 82/min, SaO2 98 %. Mollet gauche augmenté de 3,5 cm par rapport au droit (mesure à 10 cm sous la tubérosité tibiale), œdème prenant le godet, douleur à la palpation du trajet veineux poplité. Examen cardiopulmonaire normal.",
+      "biologie": "Créatinine 64 µmol/L (clairance estimée > 90 mL/min) ; hémoglobine 12,8 g/dL (N 12–16) ; plaquettes 245 G/L (N 150–400) ; TP 96 %, TCA ratio 1,0 ; bilan hépatique normal ; test de grossesse négatif.",
+      "imagerie": "Échographie veineuse de compression : thrombose de la veine poplitée gauche étendue aux veines tibiales postérieures, veine fémorale libre.",
+      "hypotheses_diagnostiques": [
+        "Thrombose veineuse profonde proximale (poplitée) du membre inférieur gauche",
+        "Facteurs favorisants : contraception œstroprogestative et voyage prolongé (facteurs transitoires mineurs)"
+      ],
+      "diagnostics_differentiels": [
+        "Kyste poplité rompu",
+        "Déchirure musculaire / hématome",
+        "Dermohypodermite",
+        "Thrombose veineuse superficielle isolée"
+      ],
+      "examens_a_demander": [
+        "Score de Wells TVP (ici ≥ 2 : TVP probable → échographie d'emblée, sans D-dimères)",
+        "Échographie veineuse de compression",
+        "Bilan pré-thérapeutique : NFS-plaquettes, créatinine, bilan hépatique, hémostase de base, β-hCG",
+        "Pas de bilan de thrombophilie en phase aiguë",
+        "Recherche clinique d'une EP (absente)"
+      ],
+      "diagnostic_final": "TVP proximale (poplitée) gauche provoquée par des facteurs transitoires mineurs (œstrogènes, voyage prolongé), sans embolie pulmonaire clinique.",
+      "traitement": "Traitement ambulatoire (pas de critère de gravité, entourage, accès aux soins) : AOD d'emblée, par exemple rivaroxaban 15 mg × 2/j pendant 21 jours au cours d'un repas, puis 20 mg/j (ou apixaban 10 mg × 2/j pendant 7 jours puis 5 mg × 2/j) [ESC 2019]. Arrêt de la contraception œstroprogestative et prescription d'une contraception non hormonale (dispositif intra-utérin au cuivre) ; les AOD sont contre-indiqués en cas de grossesse, d'où la nécessité d'une contraception efficace. Compression veineuse à visée symptomatique. Lever et marche autorisés.",
+      "surveillance": "Consultation à 1 semaine (tolérance, saignements, observance) puis à 3 mois ; NFS et créatinine selon le contexte ; éducation (signes d'EP, signes hémorragiques, interactions).",
+      "evolution": "Régression de l'œdème en 2 semaines. À 3 mois, la patiente est asymptomatique ; le facteur hormonal est supprimé. Décision partagée sur la durée : arrêt à 3 mois possible, la prolongation pouvant être envisagée après un premier épisode lié à un facteur transitoire mineur (classe IIa selon l'ESC 2019) en fonction du risque hémorragique et des préférences de la patiente.",
+      "explication_pedagogique": "Devant une suspicion de TVP, le score de Wells oriente : probabilité élevée → échographie d'emblée. Une TVP proximale non grave se traite en ambulatoire par AOD avec phase initiale renforcée. Les œstrogènes et les voyages prolongés sont des facteurs transitoires mineurs (ESC 2019) : la durée minimale est de 3 mois, puis une décision explicite est prise. La contraception œstroprogestative est contre-indiquée après une MTEV, et une contraception efficace est indispensable sous AOD (tératogénicité possible).",
+      "questions": [
+        {
+          "question": "Faut-il doser les D-dimères avant l'échographie ?",
+          "reponse": "Non : le score de Wells est ≥ 2 (TVP probable) ; on réalise directement l'échographie veineuse."
+        },
+        {
+          "question": "Quel schéma d'AOD proposer d'emblée ?",
+          "reponse": "Rivaroxaban 15 mg × 2/j pendant 21 jours puis 20 mg/j, ou apixaban 10 mg × 2/j pendant 7 jours puis 5 mg × 2/j (sans héparine préalable)."
+        },
+        {
+          "question": "Quelle contraception après l'épisode ?",
+          "reponse": "Arrêt définitif des œstroprogestatifs ; contraception non hormonale (DIU au cuivre) ; les options progestatives seules relèvent d'un avis spécialisé [À VÉRIFIER]."
+        },
+        {
+          "question": "Quelle durée d'anticoagulation ?",
+          "reponse": "Au moins 3 mois, puis décision partagée : arrêt possible ou prolongation à envisager (facteur transitoire mineur, IIa ESC 2019)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Konstantinides SV et al. 2019 ESC/ERS Guidelines on acute pulmonary embolism. Eur Heart J 2020;41(4):543-603",
+          "date": "2019"
+        },
+        {
+          "reference": "Kakkos SK et al. ESVS 2021 Clinical Practice Guidelines on the Management of Venous Thrombosis. Eur J Vasc Endovasc Surg 2021;61(1):9-82",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0102",
+      "titre": "Choc au dixième jour d'une césarienne",
+      "niveau": "dems",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-058"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 29 ans, 2e geste, accouchée par césarienne en urgence il y a 10 jours dans un EPH de wilaya.",
+      "motif_consultation": "Malaise avec perte de connaissance brève à domicile, dyspnée intense.",
+      "antecedents": "Obésité (IMC 33 kg/m²), pré-éclampsie modérée pendant cette grossesse. Pas de thromboprophylaxie après la sortie de la maternité (J3). Allaitement maternel.",
+      "symptomes": "Dyspnée brutale depuis 2 heures, douleur thoracique, syncope à domicile. Mollet droit douloureux depuis 3 jours.",
+      "examen_clinique": "PA 78/50 mmHg (persistante malgré 500 mL de cristalloïdes), FC 132/min, FR 32/min, SaO2 86 % en air ambiant, marbrures des genoux, extrémités froides, turgescence jugulaire. Cicatrice de césarienne propre. Œdème du membre inférieur droit.",
+      "biologie": "Lactates 4,8 mmol/L (N < 2) ; troponine T hs 98 ng/L (99e percentile du dosage local 14 ng/L) ; NT-proBNP 3 600 pg/mL ; hémoglobine 10,9 g/dL ; plaquettes 310 G/L ; créatinine 88 µmol/L ; gaz du sang sous 6 L/min d'O2 : pH 7,31, PaO2 61 mmHg, PaCO2 30 mmHg.",
+      "imagerie": "ETT au lit : VD très dilaté (VD/VG 1,4), septum paradoxal, TAPSE 11 mm, VCI dilatée ; VG petit et hyperkinétique ; pas d'épanchement péricardique ; pas de valvulopathie. Échographie veineuse : thrombose fémoro-poplitée droite. Angioscanner réalisé après stabilisation partielle : embolies bilatérales des artères pulmonaires principales.",
+      "hypotheses_diagnostiques": [
+        "Embolie pulmonaire à haut risque (choc obstructif) du post-partum",
+        "TVP fémoro-poplitée droite"
+      ],
+      "diagnostics_differentiels": [
+        "Cardiomyopathie du péripartum (VG altéré, non retrouvé)",
+        "Embolie amniotique (survient au cours de l'accouchement ou juste après)",
+        "Choc hémorragique (hémoglobine stable, pas de saignement)",
+        "Choc septique (endométrite, infection de paroi)",
+        "Dissection coronaire spontanée (ECG, troponine, cinétique VG)"
+      ],
+      "examens_a_demander": [
+        "ETT au lit immédiate (examen clé chez la patiente instable)",
+        "Échographie veineuse des membres inférieurs",
+        "Angioscanner thoracique dès que possible",
+        "Groupe sanguin, bilan d'hémostase, lactates, troponine, NT-proBNP",
+        "Appel de l'équipe de réanimation, de cardiologie et de chirurgie cardiaque (équipe multidisciplinaire EP)"
+      ],
+      "diagnostic_final": "EP à haut risque (choc obstructif) au 10e jour d'une césarienne, sur TVP fémoro-poplitée droite.",
+      "traitement": "Héparine non fractionnée IV (bolus puis perfusion selon le protocole local) ; oxygène à haut débit, éviter l'intubation si possible ; remplissage limité ; noradrénaline 0,2 à 1 µg/kg/min ; reperfusion en urgence. La chirurgie de moins de 3 semaines (césarienne) est une contre-indication absolue à la thrombolyse dans la liste de l'ESC 2019, mais dans une EP à haut risque menaçant le pronostic vital, les contre-indications sont pondérées : l'option préférée est l'embolectomie chirurgicale ou le traitement percutané par cathéter si disponibles rapidement (classe I et IIa) ; à défaut et en cas de collapsus imminent, une thrombolyse peut être discutée en connaissant le risque hémorragique (paroi, utérus). Ici, embolectomie chirurgicale sous CEC réalisée en urgence. Puis HNF, relais par HBPM puis AVK (warfarine compatible avec l'allaitement) ; AOD contre-indiqués pendant l'allaitement.",
+      "surveillance": "Réanimation : hémodynamique, lactates, saignement (cicatrice, lochies), plaquettes sous HNF ; INR au relais ; ETT de contrôle (récupération du VD) ; consultation à 3 mois (dyspnée résiduelle → ETT et scintigraphie de ventilation-perfusion).",
+      "evolution": "Amélioration hémodynamique rapide après embolectomie ; sevrage de la noradrénaline à H24. Anticoagulation poursuivie au moins 6 semaines après l'accouchement et au total au moins 3 mois (facteur transitoire majeur : césarienne et post-partum) [ESC 2019]. Pour une future grossesse : prophylaxie par HBPM pendant la grossesse et le post-partum, selon un avis spécialisé.",
+      "explication_pedagogique": "Le post-partum, la césarienne, l'obésité et la pré-éclampsie cumulent les facteurs de risque. Chez une patiente en choc, l'ETT au lit montrant une dysfonction VD suffit à décider de la reperfusion si le scanner n'est pas réalisable. La chirurgie récente contre-indique la thrombolyse et oriente vers l'embolectomie chirurgicale ou percutanée. Pendant l'allaitement, les AOD sont contre-indiqués ; HBPM et warfarine sont utilisables. Cette situation souligne l'importance de la thromboprophylaxie après une césarienne chez une femme à risque.",
+      "questions": [
+        {
+          "question": "Quelle est la classe de risque ESC 2019 ?",
+          "reponse": "Risque élevé : hypotension persistante avec hypoperfusion (choc obstructif)."
+        },
+        {
+          "question": "Pourquoi la thrombolyse n'est-elle pas l'option de première intention ici ?",
+          "reponse": "Chirurgie (césarienne) de moins de 3 semaines : contre-indication absolue dans la liste ESC 2019 ; l'embolectomie chirurgicale ou percutanée est préférée si elle est rapidement disponible."
+        },
+        {
+          "question": "Quel anticoagulant au long cours chez cette femme qui allaite ?",
+          "reponse": "HBPM puis AVK (warfarine compatible avec l'allaitement) ; AOD contre-indiqués pendant l'allaitement."
+        },
+        {
+          "question": "Quelle durée minimale ?",
+          "reponse": "Au moins 6 semaines après l'accouchement et au moins 3 mois au total."
+        },
+        {
+          "question": "Quelle prévention pour une grossesse ultérieure ?",
+          "reponse": "Prophylaxie par HBPM pendant la grossesse et le post-partum selon un avis spécialisé (antécédent de MTEV associée à la grossesse)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Konstantinides SV et al. 2019 ESC/ERS Guidelines on acute pulmonary embolism. Eur Heart J 2020;41(4):543-603",
+          "date": "2019"
+        },
+        {
+          "reference": "De Backer J et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J 2025;46(43):4462-4568 (texte intégral non lu)",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0103",
+      "titre": "Palpitations et dyspnée chez une jeune femme porteuse d'un rétrécissement mitral rhumatismal",
+      "niveau": "resident",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-063"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 36 ans, mère de trois enfants, Djelfa.",
+      "motif_consultation": "Palpitations irrégulières et dyspnée d'effort aggravée depuis 5 jours.",
+      "antecedents": "RAA dans l'enfance (prophylaxie secondaire irrégulière) ; rétrécissement mitral connu, suivi irrégulier. Pas de traitement en cours. Contraception par DIU au cuivre.",
+      "symptomes": "Palpitations permanentes, dyspnée pour des efforts modérés (NYHA II–III), toux nocturne. Pas de syncope, pas de déficit neurologique.",
+      "examen_clinique": "PA 112/70 mmHg, pouls irrégulier à 132/min, SaO2 95 %. Roulement diastolique apexien, éclat de B1. Crépitants aux deux bases. Pas d'œdème des membres inférieurs.",
+      "biologie": "TSH 1,6 mUI/L (N 0,4–4) ; kaliémie 4,1 mmol/L ; créatinine 58 µmol/L ; hémoglobine 12,1 g/dL ; NT-proBNP 1 450 pg/mL ; test de grossesse négatif.",
+      "imagerie": "ECG : fibrillation atriale à 130/min, QRS fins. ETT : rétrécissement mitral rhumatismal serré (surface 1,1 cm² en planimétrie, gradient moyen 12 mmHg à 130/min), fusion commissurale, valve peu calcifiée, insuffisance mitrale minime, OG dilatée (52 mm), PAPs 55 mmHg, FEVG 60 %, pas de thrombus visible en ETT.",
+      "hypotheses_diagnostiques": [
+        "FA récente compliquant un rétrécissement mitral rhumatismal serré",
+        "Décompensation cardiaque gauche liée à la tachycardie"
+      ],
+      "diagnostics_differentiels": [
+        "Flutter atrial à conduction variable",
+        "Tachycardie atriale multifocale",
+        "Hyperthyroïdie (TSH normale)",
+        "Grossesse (test négatif)"
+      ],
+      "examens_a_demander": [
+        "ECG 12 dérivations",
+        "ETT (sévérité du RM, score anatomique en vue d'une commissurotomie, PAPs)",
+        "ETO (thrombus de l'auricule, avant cardioversion ou commissurotomie)",
+        "TSH, ionogramme, créatinine, NFS, INR de base",
+        "Radiographie thoracique"
+      ],
+      "diagnostic_final": "FA récente (> 24 h) sur rétrécissement mitral rhumatismal serré, avec congestion pulmonaire modérée.",
+      "traitement": "Anticoagulation par AVK (INR cible 2–3) quel que soit le score CHA2DS2-VA, avec relais par héparine : les AOD ne sont pas recommandés dans le RM modéré à serré (ESC 2024, essai INVICTUS). Contrôle de la fréquence par bêtabloquant (allonge la diastole et améliore le remplissage VG), diurétique à faible dose pour la congestion. Pas de cardioversion immédiate : FA > 24 h → 3 semaines d'anticoagulation efficace ou ETO. Traitement de la valvulopathie : commissurotomie mitrale percutanée à discuter en Heart Team (anatomie favorable, après ETO éliminant un thrombus). Reprise et contrôle de la prophylaxie secondaire du RAA selon le programme national.",
+      "surveillance": "INR (hebdomadaire jusqu'à stabilisation puis mensuel), éducation (interactions, alimentation, signes hémorragiques), FC, signes congestifs, contraception efficace (AVK tératogènes), ETT après commissurotomie.",
+      "evolution": "Fréquence contrôlée à 85/min sous bêtabloquant ; INR dans la cible à J8. ETO à 3 semaines : pas de thrombus ; commissurotomie percutanée réussie (surface 1,9 cm²). Cardioversion électrique ensuite, maintien de l'AVK au long cours (RM et antécédent de FA).",
+      "explication_pedagogique": "Dans les pays d'endémie du RAA, la FA survient chez des femmes jeunes porteuses d'un RM. Le score CHA2DS2-VA ne s'applique pas : le RM modéré à serré impose un AVK, l'AOD étant inférieur (INVICTUS). Le bêtabloquant est particulièrement utile (allongement de la diastole). La cardioversion d'une FA de plus de 24 heures exige une anticoagulation préalable de 3 semaines ou une ETO (seuil abaissé de 48 à 24 h par l'ESC 2024). Le traitement de la valvulopathie fait partie de la prise en charge de la FA.",
+      "questions": [
+        {
+          "question": "Faut-il calculer le CHA2DS2-VA pour décider de l'anticoagulation ?",
+          "reponse": "Non : le RM modéré à serré impose l'anticoagulation par AVK quel que soit le score."
+        },
+        {
+          "question": "Pourquoi pas un AOD ?",
+          "reponse": "Non recommandé dans le RM modéré à serré (ESC 2024) ; l'essai INVICTUS a montré la supériorité de l'AVK sur le rivaroxaban dans la FA rhumatismale."
+        },
+        {
+          "question": "Peut-on cardioverser immédiatement ?",
+          "reponse": "Non (patiente stable, FA > 24 h) : 3 semaines d'anticoagulation efficace ou ETO éliminant un thrombus."
+        },
+        {
+          "question": "Quel traitement de la valvulopathie ?",
+          "reponse": "Commissurotomie mitrale percutanée si l'anatomie est favorable, en l'absence de thrombus de l'OG."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J 2024;45(36):3314-3414",
+          "date": "2024"
+        },
+        {
+          "reference": "Vahanian A et al. 2021 ESC/EACTS Guidelines for valvular heart disease. Eur Heart J 2022;43(7):561-632",
+          "date": "2021"
+        },
+        {
+          "reference": "Connolly SJ et al. INVICTUS. N Engl J Med 2022;387:978-988 [référence non vérifiée]",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0104",
+      "titre": "Syncopes à l'emporte-pièce chez un homme de 79 ans",
+      "niveau": "generaliste",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-063"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 79 ans, retraité, Tlemcen.",
+      "motif_consultation": "Deux syncopes brutales sans prodrome en 48 heures, dont une avec traumatisme facial.",
+      "antecedents": "HTA traitée par amlodipine et bisoprolol 5 mg (introduit il y a 6 mois), diabète de type 2 sous metformine. Bloc de branche droit connu sur un ECG de 2024.",
+      "symptomes": "Syncopes à l'emporte-pièce, en position assise, de quelques secondes, avec reprise rapide de la conscience ; asthénie, dyspnée d'effort récente.",
+      "examen_clinique": "PA 168/62 mmHg, FC 34/min régulière, SaO2 96 %. Ondes « a » en canon jugulaires intermittentes, B1 d'intensité variable. Hématome de l'arcade sourcilière. Examen neurologique normal.",
+      "biologie": "Kaliémie 4,4 mmol/L (N 3,5–5,0) ; créatinine 96 µmol/L ; TSH 2,1 mUI/L ; troponine T hs 18 ng/L sans cinétique (99e percentile local 14 ng/L) ; glycémie 7,8 mmol/L.",
+      "imagerie": "ECG : BAV du 3e degré (dissociation complète), ondes P à 78/min, échappement ventriculaire à 34/min à QRS larges (aspect de bloc de branche droit + hémibloc antérieur gauche). ETT : FEVG 55 %, pas de valvulopathie significative.",
+      "hypotheses_diagnostiques": [
+        "BAV complet infra-hissien (échappement à QRS larges, lent) responsable de syncopes d'Adams-Stokes",
+        "Rôle aggravant possible du bêtabloquant"
+      ],
+      "diagnostics_differentiels": [
+        "Hyperkaliémie (éliminée)",
+        "Intoxication médicamenteuse (bêtabloquant, digoxine)",
+        "Ischémie aiguë (troponine sans cinétique, pas de signe ECG)",
+        "Hypothyroïdie (éliminée)",
+        "Syncope réflexe (peu probable : pas de prodrome, BAV documenté)"
+      ],
+      "examens_a_demander": [
+        "ECG 12 dérivations et monitorage continu",
+        "Kaliémie, créatinine, TSH, troponine",
+        "Revue des médicaments bradycardisants",
+        "ETT",
+        "Pas d'exploration électrophysiologique nécessaire : le BAV complet est documenté"
+      ],
+      "diagnostic_final": "BAV complet dégénératif (maladie de Lenègre probable) à échappement infra-hissien, symptomatique (syncopes), sans cause réversible majeure ; bêtabloquant facteur aggravant.",
+      "traitement": "Hospitalisation en unité de soins intensifs avec monitorage et défibrillateur à proximité. Arrêt du bêtabloquant. Atropine 0,5 mg IV possible mais souvent inefficace sur un bloc infra-hissien ; isoprénaline IV (5 µg/min à adapter) ou stimulation transcutanée puis endocavitaire temporaire si mauvaise tolérance [ERC 2021]. Stimulation cardiaque définitive double chambre (DDD), indiquée dans le BAV complet sans cause réversible, indépendamment des symptômes (classe I, ESC 2021).",
+      "surveillance": "Contrôle du stimulateur avant la sortie puis selon le calendrier du centre (seuils, batterie, sondes) ; surveillance de la cicatrice (hématome, infection) ; éducation (carte de porteur, interférences) ; contrôle tensionnel.",
+      "evolution": "Implantation d'un stimulateur DDD à J2. Pas de récidive de syncope. La PA est contrôlée par l'amlodipine seule.",
+      "explication_pedagogique": "Une syncope sans prodrome chez un sujet âgé avec un trouble conductif connu doit faire rechercher un BAV paroxystique ou permanent (critère de haut risque ESC 2018). Un échappement lent à QRS larges signe un bloc infra-hissien, insensible à l'atropine et à risque de mort subite. Il faut toujours rechercher une cause réversible (hyperkaliémie, médicaments, ischémie, hypothyroïdie) avant d'implanter. Les ondes « a » en canon et le B1 variable traduisent la dissociation atrioventriculaire.",
+      "questions": [
+        {
+          "question": "Quels éléments orientent vers un bloc infra-hissien ?",
+          "reponse": "Échappement lent (34/min) à QRS larges, bloc de branche préexistant, syncopes ; l'atropine y est inefficace."
+        },
+        {
+          "question": "Le bêtabloquant suffit-il à expliquer le BAV ?",
+          "reponse": "Il peut aggraver la conduction, mais un BAV complet à QRS larges sur bloc bifasciculaire préexistant relève d'une atteinte dégénérative ; l'arrêt du bêtabloquant ne dispense pas de la stimulation si le BAV persiste."
+        },
+        {
+          "question": "Quelle indication de stimulation selon l'ESC 2021 ?",
+          "reponse": "BAV du 3e degré sans cause réversible : stimulation indiquée indépendamment des symptômes (classe I) ; mode double chambre en rythme sinusal."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Glikson M et al. 2021 ESC Guidelines on cardiac pacing and CRT. Eur Heart J 2021;42(35):3427-3520",
+          "date": "2021"
+        },
+        {
+          "reference": "Perkins GD et al. European Resuscitation Council Guidelines 2021: Executive summary. Resuscitation 2021;161:1-60",
+          "date": "2021"
+        },
+        {
+          "reference": "Brignole M et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J 2018;39(21):1883-1948",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0105",
+      "titre": "Douleur thoracique positionnelle chez un étudiant de 22 ans",
+      "niveau": "generaliste",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-054"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 22 ans, étudiant en sciences, joueur de football en club amateur, 72 kg.",
+      "motif_consultation": "Douleur thoracique depuis 36 heures.",
+      "antecedents": "Aucun. Syndrome grippal il y a 10 jours. Pas de traitement.",
+      "symptomes": "Douleur rétrosternale « en coup de poignard », majorée à l'inspiration profonde et en décubitus, soulagée en position assise penchée en avant, irradiant au bord du trapèze gauche. Pas de dyspnée de repos.",
+      "examen_clinique": "T 37,8 °C, PA 124/70 mmHg, FC 96/min, SaO2 98 %. Frottement péricardique au bord gauche du sternum, persistant en apnée. Pas de turgescence jugulaire, pas de pouls paradoxal.",
+      "biologie": "CRP 48 mg/L (N < 5) ; leucocytes 10,8 G/L ; troponine T hs 9 ng/L (< 99e percentile local de 14 ng/L, sans cinétique à H1) ; créatinine 78 µmol/L ; transaminases normales.",
+      "imagerie": "ECG : sus-décalage de ST diffus (D1, D2, aVL, aVF, V2–V6), concave, sans miroir, sous-décalage de PR, sus-décalage de PR en aVR. ETT : petit épanchement péricardique de 5 mm, FEVG 62 %, pas de trouble de la cinétique segmentaire. Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Péricardite aiguë présumée virale (idiopathique)"
+      ],
+      "diagnostics_differentiels": [
+        "SCA avec sus-décalage de ST (sus-décalage diffus concave sans miroir, sous-décalage de PR, troponine normale : non)",
+        "Myopéricardite (troponine normale : non)",
+        "Repolarisation précoce (pas de douleur, pas de PR)",
+        "Pneumothorax, pneumopathie (radiographie normale)",
+        "Embolie pulmonaire (peu probable)"
+      ],
+      "examens_a_demander": [
+        "ECG (et ECG répétés)",
+        "Troponine, CRP, NFS, créatinine, bilan hépatique",
+        "ETT (épanchement, tamponnade, fonction VG)",
+        "Radiographie thoracique",
+        "Pas de sérologies virales en routine"
+      ],
+      "diagnostic_final": "Péricardite aiguë présumée virale, sans critère de mauvais pronostic (fièvre < 38 °C, début aigu, petit épanchement, troponine normale, pas d'immunodépression, pas d'anticoagulant).",
+      "traitement": "Traitement ambulatoire : ibuprofène 600 mg toutes les 8 heures pendant 1 à 2 semaines puis décroissance de 200–400 mg toutes les 1 à 2 semaines après normalisation de la CRP, avec inhibiteur de la pompe à protons ; colchicine 0,5 mg × 2/j (poids ≥ 70 kg) pendant 3 mois, sans dose de charge ; pas de corticoïdes ; arrêt de l'activité sportive [ESC 2015].",
+      "surveillance": "Réévaluation à 1 semaine (douleur, fièvre, CRP) : en l'absence de réponse, hospitalisation et enquête étiologique. CRP pour guider la décroissance. Information sur les signes devant faire consulter (dyspnée, malaise, récidive).",
+      "evolution": "Disparition de la douleur à J4, CRP normalisée à J12 ; décroissance de l'ibuprofène sur 3 semaines ; colchicine poursuivie 3 mois. Reprise du football après au moins 3 mois (sportif de compétition) et normalisation des examens.",
+      "explication_pedagogique": "Le diagnostic repose sur au moins 2 critères sur 4 (ici les 4). L'ECG de la péricardite se distingue de celui de l'infarctus (sus-décalage diffus, concave, sans miroir, sous-décalage de PR). En l'absence de critère de mauvais pronostic, le traitement est ambulatoire par AINS à forte dose + colchicine (qui réduit de moitié les récidives) ; les corticoïdes ne sont pas indiqués en première intention. La reprise sportive est différée.",
+      "questions": [
+        {
+          "question": "Combien de critères diagnostiques ESC sont présents ?",
+          "reponse": "Quatre : douleur typique, frottement, modifications ECG, épanchement."
+        },
+        {
+          "question": "Faut-il hospitaliser ?",
+          "reponse": "Non : aucun critère majeur ni mineur de mauvais pronostic ; réévaluation à 1 semaine."
+        },
+        {
+          "question": "Quelle dose de colchicine ?",
+          "reponse": "0,5 mg deux fois par jour (poids ≥ 70 kg) pendant 3 mois, sans dose de charge."
+        },
+        {
+          "question": "Quand reprendre la compétition ?",
+          "reponse": "Après au moins 3 mois, une fois les symptômes disparus et la CRP, l'ECG et l'ETT normalisés (ESC 2015)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J 2015;36(42):2921-2964",
+          "date": "2015"
+        },
+        {
+          "reference": "Schulz-Menger J et al. 2025 ESC Guidelines for the management of myocarditis and pericarditis. Eur Heart J 2025;46(40):3952-4041 (texte intégral non lu)",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0106",
+      "titre": "Récidives de péricardite chez une femme de 38 ans sous corticoïdes",
+      "niveau": "residanat",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-054"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 38 ans, comptable, Annaba, 61 kg.",
+      "motif_consultation": "Quatrième épisode de douleur thoracique positionnelle en 10 mois.",
+      "antecedents": "Premier épisode de péricardite aiguë il y a 10 mois traité par prednisone 1 mg/kg/j d'emblée, sans colchicine, décrue en 3 semaines ; récidives à chaque passage sous 15 mg/j de prednisone. Pas d'antécédent familial connu. Pas de traitement anticoagulant.",
+      "symptomes": "Douleur thoracique typique de péricardite, fébricule, arthralgies des mains épisodiques, photosensibilité rapportée par la patiente.",
+      "examen_clinique": "T 37,9 °C, PA 118/76 mmHg, FC 92/min, pas de signe de tamponnade, frottement péricardique ; pas de synovite ; pas de lésion cutanée active.",
+      "biologie": "CRP 36 mg/L ; VS 52 mm à la 1re heure ; leucocytes 6,1 G/L ; lymphocytes 0,9 G/L ; créatinine 62 µmol/L ; troponine normale ; anticorps antinucléaires positifs au 1/640, anti-ADN natif positifs, complément C3 abaissé ; protéinurie 0,2 g/24 h ; IGRA négatif ; sérologie VIH négative.",
+      "imagerie": "ECG : sus-décalage de ST diffus discret. ETT : épanchement circonférentiel de 9 mm, sans compression. IRM cardiaque : rehaussement tardif péricardique (inflammation active), myocarde normal.",
+      "hypotheses_diagnostiques": [
+        "Péricardite récidivante cortico-dépendante",
+        "Lupus érythémateux systémique révélé par des sérites (péricardite)"
+      ],
+      "diagnostics_differentiels": [
+        "Péricardite récidivante idiopathique (auto-inflammatoire)",
+        "Fièvre méditerranéenne familiale",
+        "Tuberculose (IGRA négatif, pas d'épanchement abondant, mais à garder en mémoire en zone d'endémie)",
+        "Néoplasie (pas d'argument)"
+      ],
+      "examens_a_demander": [
+        "CRP, NFS, créatinine, bilan immunologique (AAN, anti-ADN, complément, anti-Sm), protéinurie",
+        "ETT et IRM cardiaque (inflammation péricardique)",
+        "Recherche d'une tuberculose (IGRA, radiographie) avant toute escalade immunosuppressive",
+        "Avis de médecine interne"
+      ],
+      "diagnostic_final": "Péricardite récidivante cortico-dépendante révélant un lupus érythémateux systémique (sérites, arthralgies, lymphopénie, anticorps anti-ADN natif, hypocomplémentémie).",
+      "traitement": "Prise en charge conjointe cardiologie-médecine interne : reprise d'un AINS à dose pleine si tolérance (ou maintien d'une corticothérapie à faible dose, 0,2–0,5 mg/kg/j, la corticothérapie ayant ici une indication spécifique : maladie systémique) ; colchicine 0,5 mg/j (poids < 70 kg) pendant au moins 6 mois ; hydroxychloroquine pour le lupus selon l'avis de médecine interne [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; décroissance très lente de la prednisone (paliers de 1,25–2,5 mg toutes les 2 à 6 semaines sous 15 mg/j) guidée par la CRP et l'IRM. En cas de cortico-dépendance persistante et de résistance à la colchicine malgré le traitement du lupus : anti-IL-1 (anakinra) ou autres immunosuppresseurs selon l'avis spécialisé [ESC 2015 ; place renforcée ESC 2025].",
+      "surveillance": "CRP mensuelle pendant la décroissance ; tolérance de la colchicine (digestive, NFS, fonction rénale) ; prévention de l'ostéoporose cortisonique ; suivi du lupus (protéinurie, complément, NFS) ; ETT à 3 mois.",
+      "evolution": "Rémission sous l'association colchicine + hydroxychloroquine + prednisone décroissante ; sevrage des corticoïdes en 9 mois sans récidive ; colchicine poursuivie 12 mois puis décroissance.",
+      "explication_pedagogique": "La corticothérapie à forte dose en première intention et l'absence de colchicine favorisent les récidives et la cortico-dépendance. Devant des récidives, il faut rechercher une cause (maladie systémique, fièvre méditerranéenne familiale, tuberculose), utiliser la colchicine pendant au moins 6 mois, décroître très lentement les corticoïdes et recourir aux anti-IL-1 dans les formes cortico-dépendantes résistantes à la colchicine.",
+      "questions": [
+        {
+          "question": "Quelles erreurs ont favorisé les récidives ?",
+          "reponse": "Prednisone à forte dose d'emblée, décroissance trop rapide, absence de colchicine, absence d'enquête étiologique."
+        },
+        {
+          "question": "Quelle durée de colchicine en cas de récidive ?",
+          "reponse": "Au moins 6 mois (ESC 2015), dose adaptée au poids (0,5 mg/j si < 70 kg)."
+        },
+        {
+          "question": "Quelle place des anti-IL-1 ?",
+          "reponse": "Péricardite récidivante cortico-dépendante et résistante à la colchicine (anakinra : IIb dans l'ESC 2015 ; place renforcée dans l'ESC 2025, classe exacte à vérifier)."
+        },
+        {
+          "question": "Pourquoi rechercher une tuberculose avant d'intensifier l'immunosuppression ?",
+          "reponse": "Pays d'endémie : risque de méconnaître une péricardite tuberculeuse ou de réactiver une infection latente sous immunosuppresseurs ou biothérapie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J 2015;36(42):2921-2964",
+          "date": "2015"
+        },
+        {
+          "reference": "Schulz-Menger J et al. 2025 ESC Guidelines for the management of myocarditis and pericarditis. Eur Heart J 2025;46(40):3952-4041 (texte intégral non lu)",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0107",
+      "titre": "Douleur thoracique d'effort chez un diabétique de 63 ans",
+      "niveau": "etudiant",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-055"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 63 ans, commerçant, Béjaïa.",
+      "motif_consultation": "Oppression thoracique à la marche rapide depuis 2 mois.",
+      "antecedents": "Diabète de type 2 depuis 8 ans (metformine 1 g × 2/j), HTA (ramipril 5 mg/j), tabagisme sevré il y a 5 ans (30 paquets-années), pas d'antécédent coronaire connu.",
+      "symptomes": "Oppression rétrosternale serrant le thorax, irradiant au bras gauche, à la marche rapide ou en côte, cédant en 2 à 4 minutes au repos ; stable depuis 2 mois (classe CCS II). Pas de douleur de repos.",
+      "examen_clinique": "PA 142/84 mmHg, FC 78/min, IMC 30 kg/m², tour de taille 108 cm. Auscultation cardiaque normale, pas de souffle aortique. Pouls pédieux présents. Pas de signe d'insuffisance cardiaque.",
+      "biologie": "HbA1c 7,9 % ; LDL-c 3,1 mmol/L (1,20 g/L) ; HDL-c 0,9 mmol/L ; triglycérides 2,1 mmol/L ; DFGe 72 mL/min/1,73 m² ; rapport albumine/créatinine urinaire 45 mg/g ; hémoglobine 14,2 g/dL ; TSH normale ; troponine non dosée (pas de suspicion de SCA).",
+      "imagerie": "ECG de repos : rythme sinusal, pas d'onde Q, pas de trouble de repolarisation. ETT : FEVG 58 %, pas de trouble de cinétique, pas de valvulopathie. Le coroscanner n'est pas disponible à court terme dans la wilaya ; une échographie de stress est possible au CHU dans un délai de 6 semaines.",
+      "hypotheses_diagnostiques": [
+        "Angor stable typique (syndrome coronarien chronique) chez un diabétique à haut risque"
+      ],
+      "diagnostics_differentiels": [
+        "SCA (non : angor stable, pas de douleur de repos)",
+        "Rétrécissement aortique (pas de souffle, ETT normale)",
+        "Reflux gastro-œsophagien",
+        "Douleur pariétale"
+      ],
+      "examens_a_demander": [
+        "ECG de repos et ETT (faits)",
+        "Estimation de la vraisemblance clinique (modèle RF-CL de l'ESC 2024) : homme de 63 ans, angor typique, plusieurs facteurs de risque → vraisemblance au moins modérée",
+        "Imagerie fonctionnelle de stress (échographie de stress) ou coroscanner selon la disponibilité ; ECG d'effort en alternative si l'imagerie n'est pas accessible (en connaissant ses limites)",
+        "Bilan des complications du diabète (rétinopathie, néphropathie déjà présente : microalbuminurie)"
+      ],
+      "diagnostic_final": "Angor stable typique (CCS II) ; échographie de stress : ischémie inférieure limitée (2 segments sur 16), sans critère de haut risque ; diagnostic de syndrome coronarien chronique.",
+      "traitement": "Traitement médical optimal : aspirine 75–100 mg/j ; atorvastatine 80 mg/j (objectif LDL-c < 1,4 mmol/L et baisse ≥ 50 %), ajout d'ézétimibe si non atteint ; bisoprolol à dose progressive (5 puis 10 mg/j) ; trinitrine sublinguale à la demande ; maintien du ramipril (HTA, diabète, albuminurie) ; ajout d'un iSGLT2 et/ou d'un agoniste du GLP-1 à bénéfice cardiovasculaire démontré (ESC 2023 diabète) ; activité physique, alimentation ; colchicine 0,5 mg/j à discuter (IIa).",
+      "surveillance": "Consultation à 4 semaines (symptômes, FC, PA, tolérance) ; bilan lipidique à 4–8 semaines ; HbA1c à 3 mois ; fonction rénale et kaliémie ; éducation sur les signes de SCA (douleur de repos ou prolongée → appel des secours).",
+      "evolution": "Disparition de l'angor pour les efforts habituels sous bisoprolol ; LDL-c à 1,3 mmol/L à 8 semaines sous atorvastatine + ézétimibe. Pas d'indication de coronarographie en l'absence de symptômes réfractaires et de critères de haut risque.",
+      "explication_pedagogique": "L'ESC 2024 recommande d'estimer la vraisemblance clinique par le modèle pondéré par les facteurs de risque, puis de choisir le premier examen selon cette vraisemblance et la disponibilité locale. En l'absence de critère de haut risque, le traitement médical optimal est la règle ; la revascularisation est réservée aux symptômes réfractaires ou aux anatomies à haut risque. Chez le diabétique, les iSGLT2 et les agonistes du GLP-1 complètent la prévention.",
+      "questions": [
+        {
+          "question": "La douleur est-elle typique ?",
+          "reponse": "Oui : constrictive rétrosternale, déclenchée par l'effort, soulagée en quelques minutes par le repos."
+        },
+        {
+          "question": "Quel examen si le coroscanner n'est pas disponible ?",
+          "reponse": "Imagerie fonctionnelle de stress (échographie de stress) ; ECG d'effort en alternative si aucune imagerie n'est accessible."
+        },
+        {
+          "question": "Quel objectif de LDL-c ?",
+          "reponse": "< 1,4 mmol/L (< 0,55 g/L) et baisse ≥ 50 % par rapport à la valeur initiale."
+        },
+        {
+          "question": "Faut-il une coronarographie systématique ?",
+          "reponse": "Non : pas de critère de haut risque, symptômes contrôlés par le traitement médical."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J 2024;45(36):3415-3537",
+          "date": "2024"
+        },
+        {
+          "reference": "Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J 2020;41(1):111-188",
+          "date": "2019"
+        },
+        {
+          "reference": "Marx N et al. 2023 ESC Guidelines for cardiovascular disease in patients with diabetes. Eur Heart J 2023;44(39):4043-4140",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0108",
+      "titre": "Douleurs thoraciques nocturnes avec sus-décalage transitoire de ST chez une femme fumeuse",
+      "niveau": "dems",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-055"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 45 ans, infirmière en poste de nuit, Alger.",
+      "motif_consultation": "Douleurs thoraciques au repos, vers 4–5 heures du matin, depuis 1 mois ; dernier épisode avec lipothymie.",
+      "antecedents": "Tabagisme actif (15 paquets-années), migraines traitées par sumatriptan, phénomène de Raynaud. Pas d'HTA ni de diabète. Un ECG fait aux urgences il y a 2 semaines entre deux crises était normal, troponine normale.",
+      "symptomes": "Douleurs constrictives de repos, de 5 à 15 minutes, nocturnes ou au réveil, parfois après une prise de sumatriptan, cédant à la trinitrine ; pas de douleur à l'effort ; un épisode avec palpitations et lipothymie.",
+      "examen_clinique": "PA 122/74 mmHg, FC 74/min, examen cardiovasculaire normal.",
+      "biologie": "Troponine T hs 11 ng/L (99e percentile local 14 ng/L) ; LDL-c 2,6 mmol/L ; HbA1c 5,4 % ; TSH normale ; kaliémie 4,0 mmol/L ; magnésémie normale.",
+      "imagerie": "Holter ECG de 48 h : épisode nocturne de sus-décalage de ST de 3 mm en inférieur pendant 6 minutes, régressif, avec salve de TV non soutenue de 6 complexes. Coronarographie : coronaires sans sténose significative. Test de provocation à l'acétylcholine : spasme occlusif de la coronaire droite reproduisant la douleur et le sus-décalage, levé par la trinitrine intracoronaire.",
+      "hypotheses_diagnostiques": [
+        "Angor vasospastique (de Prinzmetal)",
+        "Rôle favorisant du tabac et du sumatriptan"
+      ],
+      "diagnostics_differentiels": [
+        "SCA ST+ par occlusion athérothrombotique (coronaires saines, régression spontanée)",
+        "Angor microvasculaire",
+        "Dissection coronaire spontanée (femme jeune ; non retrouvée)",
+        "Péricardite (sus-décalage localisé, transitoire, sans PR)"
+      ],
+      "examens_a_demander": [
+        "ECG per-critique ou Holter (sus-décalage transitoire)",
+        "Troponine",
+        "Coronarographie pour éliminer une sténose",
+        "Test de provocation à l'acétylcholine (en centre expérimenté)",
+        "Bilan des facteurs de risque"
+      ],
+      "diagnostic_final": "Angor vasospastique de la coronaire droite, compliqué d'arythmie ventriculaire non soutenue, favorisé par le tabac et le sumatriptan.",
+      "traitement": "Arrêt du tabac (accompagnement) ; arrêt du sumatriptan (et des triptans), avis neurologique pour un traitement de fond de la migraine compatible ; inhibiteur calcique en traitement de fond (par exemple diltiazem LP ou amlodipine) [POSOLOGIE À VÉRIFIER — RCP / protocole local], associé si besoin à un dérivé nitré d'action prolongée ; trinitrine sublinguale en crise ; éviter les bêtabloquants non sélectifs. Statine selon le risque athéroscléreux. Pas de défibrillateur en l'absence d'arrêt cardiaque ou de TV soutenue, mais réévaluation si arythmies graves sous traitement [ESC 2024 SCC ; ESC 2022 arythmies].",
+      "surveillance": "Holter de contrôle sous traitement, évaluation des crises, observance, sevrage tabagique ; information sur les situations déclenchantes (froid, hyperventilation, cocaïne, travail de nuit).",
+      "evolution": "Disparition des crises sous diltiazem et sevrage tabagique ; Holter de contrôle sans sus-décalage ni arythmie à 3 mois.",
+      "explication_pedagogique": "L'angor vasospastique se distingue de l'angor d'effort : douleurs de repos, souvent en fin de nuit, avec sus-décalage transitoire de ST et coronaires sans sténose. Le test à l'acétylcholine confirme le diagnostic (ESC 2024 : exploration fonctionnelle des ANOCA/INOCA). Le tabac est le facteur majeur ; les triptans peuvent déclencher le spasme. Les inhibiteurs calciques sont le traitement de fond ; les bêtabloquants non sélectifs sont à éviter. Les arythmies ventriculaires et la syncope signent une forme grave.",
+      "questions": [
+        {
+          "question": "Quels arguments distinguent ce tableau d'un SCA athérothrombotique ?",
+          "reponse": "Douleurs de repos récurrentes nocturnes, sus-décalage transitoire régressif, troponine normale, coronaires sans sténose, spasme reproduit par l'acétylcholine."
+        },
+        {
+          "question": "Quel traitement de fond ?",
+          "reponse": "Inhibiteur calcique ± dérivé nitré d'action prolongée ; arrêt du tabac et des triptans ; éviter les bêtabloquants non sélectifs."
+        },
+        {
+          "question": "Quel signe de gravité est présent ?",
+          "reponse": "L'arythmie ventriculaire non soutenue pendant la crise (et la lipothymie)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J 2024;45(36):3415-3537",
+          "date": "2024"
+        },
+        {
+          "reference": "Zeppenfeld K et al. 2022 ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac death. Eur Heart J 2022;43(40):3997-4126",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0109",
+      "titre": "Dyspnée et souffle systolique peu intense chez un homme de 76 ans à FEVG altérée",
+      "niveau": "residanat",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-052"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 76 ans, retraité, Constantine.",
+      "motif_consultation": "Dyspnée d'effort progressive (NYHA III) depuis 4 mois, œdèmes des chevilles.",
+      "antecedents": "Infarctus inférieur il y a 12 ans (angioplastie de la coronaire droite), HTA, insuffisance rénale chronique modérée. Traitement : aspirine, atorvastatine, ramipril, furosémide 40 mg/j.",
+      "symptomes": "Dyspnée pour 100 mètres de marche, orthopnée à deux oreillers, asthénie ; pas d'angor ni de syncope.",
+      "examen_clinique": "PA 108/70 mmHg, FC 84/min régulière, SaO2 95 %. Souffle mésosystolique 2/6 au foyer aortique irradiant aux carotides, B2 diminué. Crépitants aux bases, œdèmes des chevilles, turgescence jugulaire modérée.",
+      "biologie": "NT-proBNP 4 800 pg/mL ; créatinine 132 µmol/L (DFGe 45 mL/min/1,73 m²) ; hémoglobine 12,9 g/dL ; kaliémie 4,6 mmol/L ; troponine T hs 26 ng/L stable (pas de cinétique).",
+      "imagerie": "ECG : rythme sinusal, HVG, séquelle de nécrose inférieure. ETT : valve aortique tricuspide calcifiée, Vmax 3,4 m/s, gradient moyen 28 mmHg, surface 0,75 cm² (0,40 cm²/m²), FEVG 32 % (hypokinésie diffuse et akinésie inférieure), volume d'éjection indexé 27 mL/m², insuffisance mitrale modérée fonctionnelle. Échocardiographie de stress à la dobutamine (jusqu'à 20 µg/kg/min) : volume d'éjection +28 % (réserve contractile présente), gradient moyen 44 mmHg, surface 0,85 cm².",
+      "hypotheses_diagnostiques": [
+        "Rétrécissement aortique serré à bas débit-bas gradient et FEVG réduite (« classique »), vraiment serré à l'échocardiographie de stress",
+        "Cardiopathie ischémique associée"
+      ],
+      "diagnostics_differentiels": [
+        "RA pseudo-sévère (la surface augmenterait nettement avec le débit : non)",
+        "Cardiomyopathie ischémique isolée avec RA modéré",
+        "Amylose cardiaque associée (à évoquer chez le sujet âgé : HVG, bas voltage discordant) [À VÉRIFIER — bilan si suspicion]"
+      ],
+      "examens_a_demander": [
+        "ETT complète avec calcul du volume d'éjection indexé",
+        "Échocardiographie de stress à la dobutamine à faible dose",
+        "Score calcique au scanner si absence de réserve de débit",
+        "Coronarographie (bilan coronaire avant intervention)",
+        "Angioscanner pré-TAVI (anneau, ostia, axes ilio-fémoraux)",
+        "Évaluation gériatrique et de la fonction rénale (produits de contraste)"
+      ],
+      "diagnostic_final": "Rétrécissement aortique vraiment serré à bas débit-bas gradient avec FEVG réduite et réserve contractile, symptomatique (insuffisance cardiaque), sur cardiopathie ischémique ancienne.",
+      "traitement": "Traitement de la congestion (diurétique de l'anse ajusté prudemment), pas de vasodilatateur puissant. Coronarographie : pas de nouvelle sténose significative. Discussion en Heart Team : patient de 76 ans, valve tricuspide, accès fémoral favorable, insuffisance rénale chronique et FEVG altérée → TAVI transfémoral (ESC/EACTS 2025 : TAVI possible à partir de 70 ans quel que soit le risque chirurgical). Après le TAVI : aspirine 75–100 mg/j seule (pas d'indication d'anticoagulation), optimisation du traitement de l'insuffisance cardiaque à FEVG réduite (selon DOS-CARD-0001), antibioprophylaxie avant les soins dentaires à risque.",
+      "surveillance": "ECG et télémétrie après le TAVI (troubles de conduction), ETT de référence, fonction rénale (produit de contraste), FEVG à 3–6 mois, titration du traitement de l'IC, suivi de la bioprothèse.",
+      "evolution": "TAVI sans complication ; gradient moyen résiduel 9 mmHg, fuite paravalvulaire minime. À 6 mois : NYHA I–II, FEVG 44 %.",
+      "explication_pedagogique": "Un gradient bas n'exclut pas un RA serré lorsque le débit est bas. Dans la forme « classique » à FEVG réduite, l'échocardiographie à la dobutamine distingue le RA vraiment serré (surface restant ≤ 1 cm² avec gradient ≥ 40 mmHg sous débit accru) du RA pseudo-sévère, et évalue la réserve contractile. Le RA vraiment serré symptomatique relève d'une intervention ; le choix TAVI/chirurgie se fait en Heart Team, avec le seuil d'âge de 70 ans de l'ESC/EACTS 2025.",
+      "questions": [
+        {
+          "question": "Pourquoi le gradient est-il bas malgré une surface de 0,75 cm² ?",
+          "reponse": "Parce que le débit est bas (VEi 27 mL/m², FEVG 32 %) : le gradient dépend du débit."
+        },
+        {
+          "question": "Que montre l'échocardiographie à la dobutamine ?",
+          "reponse": "Réserve contractile (VE +28 %) et RA vraiment serré (gradient 44 mmHg, surface 0,85 cm² sous débit accru)."
+        },
+        {
+          "question": "Que faire en l'absence de réserve de débit ?",
+          "reponse": "Score calcique valvulaire au scanner pour confirmer la sévérité (seuils selon le sexe)."
+        },
+        {
+          "question": "Quel traitement antithrombotique après le TAVI ?",
+          "reponse": "Antiagrégant unique à vie (aspirine 75–100 mg/j) en l'absence d'indication d'anticoagulation."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Praz F et al. 2025 ESC/EACTS Guidelines for valvular heart disease. Eur Heart J 2025;46(44):4635-4736",
+          "date": "2025"
+        },
+        {
+          "reference": "Vahanian A et al. 2021 ESC/EACTS Guidelines for valvular heart disease. Eur Heart J 2022;43(7):561-632",
+          "date": "2021"
+        },
+        {
+          "reference": "Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J 2023;44(39):3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0110",
+      "titre": "Souffle systolique chez un homme de 52 ans asymptomatique porteur d'une bicuspidie",
+      "niveau": "resident",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-052"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 52 ans, ingénieur, Oran, sportif de loisir.",
+      "motif_consultation": "Bilan d'un souffle systolique découvert lors d'une visite d'aptitude.",
+      "antecedents": "Souffle connu depuis l'enfance, jamais exploré. Pas d'HTA, pas de diabète. Son frère a été opéré d'une valve aortique à 55 ans.",
+      "symptomes": "Se déclare asymptomatique ; pratique la randonnée sans gêne.",
+      "examen_clinique": "PA 128/76 mmHg, FC 64/min. Souffle mésosystolique 3/6 au foyer aortique irradiant aux carotides, précédé d'un clic protosystolique ; B2 présent mais diminué. Pas de signe d'insuffisance cardiaque.",
+      "biologie": "NT-proBNP 110 pg/mL (normal pour l'âge et le sexe) ; créatinine 84 µmol/L ; NFS normale ; bilan lipidique : LDL-c 3,0 mmol/L.",
+      "imagerie": "ECG : HVG modérée. ETT : bicuspidie aortique (fusion des sigmoïdes coronaires droite et gauche), calcifications modérées, Vmax 4,3 m/s, gradient moyen 46 mmHg, surface 0,85 cm², FEVG 63 %, HVG concentrique ; aorte ascendante tubulaire 47 mm. Épreuve d'effort sur bicyclette : 150 W sans symptôme, PA de 130/78 à 186/84 mmHg, pas d'arythmie, pas de sous-décalage significatif. Angioscanner aortique : aorte ascendante 47 mm, pas de coarctation.",
+      "hypotheses_diagnostiques": [
+        "RA serré à haut gradient sur bicuspidie, asymptomatique (épreuve d'effort normale), FEVG conservée",
+        "Aortopathie bicuspide (dilatation de l'aorte ascendante)"
+      ],
+      "diagnostics_differentiels": [
+        "Cardiomyopathie hypertrophique obstructive",
+        "Sténose sous-aortique (membrane)",
+        "RA rhumatismal (pas d'atteinte mitrale ni d'antécédent de RAA)"
+      ],
+      "examens_a_demander": [
+        "ETT complète (sévérité, aorte)",
+        "Épreuve d'effort (patient asymptomatique)",
+        "BNP",
+        "Angioscanner ou IRM de l'aorte (diamètres, coarctation)",
+        "Bilan coronaire avant toute chirurgie (coroscanner chez un patient à faible probabilité de coronaropathie)",
+        "Bilan dentaire",
+        "ETT de dépistage des apparentés du 1er degré à discuter [À VÉRIFIER]"
+      ],
+      "diagnostic_final": "RA serré à haut gradient sur bicuspidie aortique, asymptomatique, FEVG conservée, avec dilatation de l'aorte ascendante (47 mm).",
+      "traitement": "Discussion en Heart Team. Selon l'ESC/EACTS 2025, une intervention précoce peut être envisagée (classe IIa, niveau A) chez un patient asymptomatique porteur d'un RA serré à haut gradient avec FEVG conservée et faible risque procédural. Chez ce patient de moins de 70 ans, porteur d'une bicuspidie et d'une aorte ascendante dilatée, le remplacement valvulaire aortique chirurgical est privilégié, avec discussion d'un remplacement associé de l'aorte ascendante (seuil de diamètre pour un geste aortique concomitant [À VÉRIFIER — ESC 2024 pathologies aortiques et ESC/EACTS 2025]). Choix de la prothèse après information du patient : prothèse mécanique (âge < 60 ans selon l'ESC 2021, AVK à vie, INR cible 2,5 pour une prothèse à faible thrombogénicité sans facteur de risque) ou bioprothèse (pas d'AVK, mais dégénérescence et réintervention probable). Statine selon le risque cardiovasculaire global (sans effet sur la progression du RA).",
+      "surveillance": "En cas de surveillance plutôt qu'intervention immédiate : clinique et ETT au moins tous les 6 mois, éducation sur les symptômes, imagerie de l'aorte. Après chirurgie : INR (valve mécanique), ETT de référence, antibioprophylaxie de l'endocardite, surveillance de l'aorte résiduelle.",
+      "evolution": "Le patient choisit, après information, une intervention précoce : remplacement valvulaire aortique par prothèse mécanique et remplacement de l'aorte ascendante. Suites simples ; INR stable dans la cible.",
+      "explication_pedagogique": "La bicuspidie est la principale cause de RA opéré avant 70 ans et s'associe à une aortopathie. Chez le patient asymptomatique, l'épreuve d'effort vérifie l'absence de symptômes. L'ESC/EACTS 2025 ouvre la possibilité d'une intervention précoce (IIa) chez l'asymptomatique à haut gradient, FEVG conservée et faible risque. Le jeune âge, la bicuspidie et la dilatation aortique orientent vers la chirurgie plutôt que vers le TAVI. Le choix de la prothèse intègre l'âge, le mode de vie et la préférence du patient.",
+      "questions": [
+        {
+          "question": "Le clic protosystolique a-t-il une signification ?",
+          "reponse": "Oui : il évoque une bicuspidie à valve encore mobile."
+        },
+        {
+          "question": "Pourquoi une épreuve d'effort ?",
+          "reponse": "Pour démasquer des symptômes ou une réponse tensionnelle anormale chez un patient qui se dit asymptomatique ; elle est contre-indiquée chez le symptomatique."
+        },
+        {
+          "question": "Quelle nouveauté de l'ESC/EACTS 2025 s'applique ici ?",
+          "reponse": "Intervention à envisager (IIa, niveau A) dans le RA serré asymptomatique à haut gradient avec FEVG conservée et faible risque procédural."
+        },
+        {
+          "question": "Pourquoi la chirurgie plutôt que le TAVI ?",
+          "reponse": "Âge < 70 ans, bicuspidie, aorte ascendante dilatée nécessitant un geste associé."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Praz F et al. 2025 ESC/EACTS Guidelines for valvular heart disease. Eur Heart J 2025;46(44):4635-4736",
+          "date": "2025"
+        },
+        {
+          "reference": "Vahanian A et al. 2021 ESC/EACTS Guidelines for valvular heart disease. Eur Heart J 2022;43(7):561-632",
+          "date": "2021"
+        },
+        {
+          "reference": "Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J 2023;44(39):3948-4042",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

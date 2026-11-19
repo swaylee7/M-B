@@ -6,11 +6,24 @@ sous_specialite: "Épidémiologie analytique — méthodologie des enquêtes, bi
 items_residanat: [RES-MED-132]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_valide
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-EPID-0002.md
+    remarque: "Calculs refaits par script (exacts). Correction majeure : autorisation des études cliniques transférée au ministre chargé de l'industrie pharmaceutique par l'ordonnance 20-02 (DOC-00116, lue). Attribution du caractère indispensable de la temporalité corrigée (Hill vs Rothman)."
+  - date: 2026-11-19
+    auditeur: "AUD-04 (IA)"
+    verdict: audite_valide
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-EPID-0002.md
+    remarque: "Références S3-S10, S16 et S17 vérifiées par PubMed (eutils) ; pagination de Dawber 1951 corrigée (279-281) ; Gordis 6e éd. confirmée (WorldCat). S11 et S15 non revérifiées (hors PubMed)."
 sources:
   - id: S1
     reference: "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Philadelphia: Wolters Kluwer; 2021."
@@ -28,41 +41,44 @@ sources:
     type: ouvrage
     doi: ""
     url: ""
-    verifiee: false
-    remarque: "Édition et année [À VÉRIFIER]. Ouvrage protégé, cité sans reproduction."
+    verifiee: true
+    remarque: "6e édition confirmée (WorldCat OCLC 1079273274, Elsevier 2019). Ouvrage protégé, cité sans reproduction."
   - id: S3
     reference: "Hill AB. The environment and disease: association or causation? Proc R Soc Med. 1965;58(5):295-300."
     organisme: "Royal Society of Medicine"
     annee: 1965
     type: article
-    doi: ""
+    doi: "10.1177/003591576505800503"
     url: ""
-    verifiee: false
-    remarque: "Article classique, non revérifié pendant la session."
+    verifiee: true
+    remarque: "PMID 14283879 (vérifié, audit AUD-04)."
   - id: S4
     reference: "Doll R, Hill AB. Smoking and carcinoma of the lung: preliminary report. Br Med J. 1950;2(4682):739-748."
     organisme: BMJ
     annee: 1950
     type: article
-    doi: ""
+    doi: "10.1136/bmj.2.4682.739"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 14772469."
   - id: S5
     reference: "Doll R, Hill AB. The mortality of doctors in relation to their smoking habits: a preliminary report. Br Med J. 1954;1(4877):1451-1455."
     organisme: BMJ
     annee: 1954
     type: article
-    doi: ""
+    doi: "10.1136/bmj.1.4877.1451"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 13160495."
   - id: S6
-    reference: "Dawber TR, Meadors GF, Moore FE. Epidemiological approaches to heart disease: the Framingham Study. Am J Public Health. 1951;41(3):279-286."
+    reference: "Dawber TR, Meadors GF, Moore FE. Epidemiological approaches to heart disease: the Framingham Study. Am J Public Health Nations Health. 1951;41(3):279-281."
     organisme: AJPH
     annee: 1951
     type: article
-    doi: ""
+    doi: "10.2105/ajph.41.3.279"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 14819398 ; pagination corrigée par l'audit (279-281 et non 279-286)."
   - id: S7
     reference: "Mantel N, Haenszel W. Statistical aspects of the analysis of data from retrospective studies of disease. J Natl Cancer Inst. 1959;22(4):719-748."
     organisme: JNCI
@@ -70,7 +86,8 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 13655060."
   - id: S8
     reference: "Rothman KJ. Causes. Am J Epidemiol. 1976;104(6):587-592."
     organisme: AJE
@@ -78,23 +95,26 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "Article réimprimé en 1995 (Am J Epidemiol 1995;141(2):90-95, PMID 7817976), ce qui confirme la référence originale."
   - id: S9
     reference: "Sackett DL. Bias in analytic research. J Chronic Dis. 1979;32(1-2):51-63."
     organisme: "J Chronic Dis"
     annee: 1979
     type: article
-    doi: ""
+    doi: "10.1016/0021-9681(79)90012-2"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 447779."
   - id: S10
     reference: "von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP; STROBE Initiative. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies. Lancet. 2007;370(9596):1453-1457."
     organisme: "STROBE / Lancet"
     annee: 2007
     type: recommandation
-    doi: ""
+    doi: "10.1016/S0140-6736(07)61602-X"
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 18064739."
   - id: S11
     reference: "Wasserstein RL, Lazar NA. The ASA statement on p-values: context, process, and purpose. Am Stat. 2016;70(2):129-133."
     organisme: "American Statistical Association"
@@ -104,14 +124,14 @@ sources:
     url: ""
     verifiee: false
   - id: S12
-    reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 — titre VII, section « Dispositions relatives à la recherche biomédicale » (art. 377-391) ; art. 293 et 343."
+    reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 — titre VII, section « Dispositions relatives à la recherche biomédicale » (art. 377-391) ; art. 293 et 343 ; modifiée notamment par l'ordonnance n° 20-02 du 30 août 2020 (JORADP n° 50/2020), qui a réécrit les art. 379, 381, 384, 389, 390, 392, 394-396 et 399."
     organisme: "République algérienne (JORADP)"
     annee: 2018
     type: texte_officiel
     doi: ""
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018046.pdf"
     verifiee: true
-    remarque: "Document acquis DOC-00074, lu pendant la session."
+    remarque: "Document acquis DOC-00074, lu pendant la session. Ordonnance 20-02 acquise par l'audit (DOC-00116) et lue : l'autorisation des études cliniques relève désormais du ministre chargé de l'industrie pharmaceutique (art. 381 modifié). Modifications postérieures à 2020 non recherchées."
   - id: S13
     reference: "Ministère de la Santé, de la Population et de la Réforme Hospitalière / OMS. Enquête nationale STEPwise sur les facteurs de risque des maladies non transmissibles — Algérie 2016-2017 (principaux résultats, 2018)."
     organisme: "MSPRH / OMS"
@@ -144,7 +164,8 @@ sources:
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+    remarque: "PMID 14861651."
   - id: S17
     reference: "Moussouni A et al. Prevalence and risk factors of prehypertension and hypertension in Algeria. BMC Public Health. 2022."
     organisme: "BMC Public Health"
@@ -153,14 +174,14 @@ sources:
     doi: "10.1186/s12889-022-13942-y"
     url: ""
     verifiee: true
-    remarque: "Exemple d'exploitation analytique d'une enquête transversale nationale (données STEPS)."
+    remarque: "Exemple d'exploitation analytique d'une enquête transversale nationale (données STEPS). PMID 35982441 ; résumé relu (audit)."
 mots_cles: [enquête transversale, cas-témoins, cohorte, odds ratio, risque relatif, biais de sélection, biais d'information, confusion, Mantel-Haenszel, interaction, Bradford Hill, causalité, taille d'échantillon, puissance, STROBE, Algérie]
 ---
 
 # Les enquêtes épidémiologiques : cas-témoins, cohortes exposés/non-exposés, transversales
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Tous les exemples chiffrés sont **fictifs** et ont été recalculés deux fois (les calculs intermédiaires sont donnés pour permettre la vérification).
+> Statut : **audité et validé par l'IA (AUD-01/AUD-04, 2026-11-19)** — relecture par un enseignant qualifié encore nécessaire. Tous les exemples chiffrés sont **fictifs** et ont été recalculés deux fois (les calculs intermédiaires sont donnés pour permettre la vérification).
 
 **Item du programme couvert** : RES-MED-132 — « Les enquêtes épidémiologiques : Cas témoins, cohortes exposés non exposés, transversales » (module Épidémiologie et médecine préventive, DOC-00001). Prérequis : DOS-EPID-0001 (mesures de fréquence, d'association et d'impact).
 
@@ -246,9 +267,9 @@ Cette hiérarchie est **indicative** : une étude cas-témoins bien conduite vau
 La loi n° 18-11 définit la **recherche biomédicale** comme des études sur l'être humain destinées à développer les connaissances épidémiologiques, diagnostiques, biologiques et thérapeutiques ; elle les dénomme « études cliniques » et précise qu'elles peuvent être **observationnelles ou interventionnelles** et porter notamment sur les études **épidémiologiques** (art. 377). Les principales règles (reformulées) :
 - respect des principes moraux, scientifiques, éthiques et déontologiques (art. 378) et des bonnes pratiques, dans des structures agréées (art. 379) ;
 - fondement sur l'état des connaissances, rapport bénéfice-risque favorable, direction par un **médecin investigateur** expérimenté (art. 380) ;
-- **autorisation du ministre** chargé de la santé, qui se prononce dans un délai de **3 mois** sur dossier (art. 381) ;
+- **autorisation ministérielle**, délivrée dans un délai de **3 mois** sur dossier : la rédaction initiale de l'art. 381 visait le ministre chargé de la santé ; depuis l'**ordonnance n° 20-02 du 30 août 2020**, elle relève du **ministre chargé de l'industrie pharmaceutique**, qui doit aussi approuver toute modification du dossier après autorisation (art. 381 modifié) ; il en va de même pour l'agrément des structures de réalisation (art. 379) et des prestataires promoteurs (art. 384) [S12] ;
 - avis d'un **comité d'éthique médicale pour les études cliniques**, organe indépendant institué au niveau des services extérieurs de santé (art. 382-383) ;
-- existence obligatoire d'un **promoteur** (art. 384) et d'un **protocole** signé par l'investigateur (art. 385) ;
+- existence obligatoire d'un **promoteur**, personne physique ou morale qui prend l'initiative de l'étude (art. 384) et d'un **protocole** signé par l'investigateur (art. 385) ;
 - **consentement libre, exprès et éclairé, écrit**, après information sur l'objectif, la méthode, la durée, les bénéfices, les contraintes et risques, et sur le droit de refuser ou de se retirer à tout moment sans préjudice (art. 386-387) ;
 - les études sans bénéfice individuel direct ne doivent comporter aucun risque prévisible sérieux (art. 391).
 
@@ -602,7 +623,7 @@ Avant de discuter la causalité, il faut éliminer les trois explications altern
 | **Preuve expérimentale** | La suppression de l'exposition réduit le risque (arrêt du tabac, essais) | Argument très fort quand disponible |
 | **Analogie** | Effet comparable d'un agent voisin | Critère faible |
 
-Hill présentait ces éléments comme des **points de vue** pour guider le jugement, et non comme une liste à cocher : aucun (sauf la temporalité) n'est nécessaire, aucun n'est suffisant.
+Hill présentait ces éléments comme des **points de vue** pour guider le jugement, et non comme une liste à cocher : selon lui, aucun ne constitue à lui seul une preuve, et aucun n'est exigé comme condition *sine qua non* [S3]. Le caractère **indispensable de la temporalité** est un ajout logique ultérieur (la cause doit précéder l'effet), souligné par Rothman et Greenland [S1] : c'est la seule condition logiquement nécessaire.
 
 ### 11.3 Le modèle des causes suffisantes et composantes (Rothman) [S8]
 
@@ -669,10 +690,10 @@ Les **postulats de Koch** (agent présent dans tous les cas, isolé, reproduisan
 
 **Contexte** : dans une wilaya, le service d'épidémiologie d'un établissement hospitalier constate une augmentation des cas de **cancer de la vessie** chez les hommes d'une commune industrielle. Un médecin résident est chargé de proposer et d'analyser une étude.
 
-**Étape 1 — choix du schéma.** Le cancer de la vessie est relativement **rare** et à **longue latence** ; on suspecte plusieurs expositions (tabac, colorants et amines aromatiques de l'industrie locale, eau de boisson). → **Étude cas-témoins** : cas incidents histologiquement confirmés sur 3 ans (registre ou services d'urologie et d'anatomopathologie), témoins de la **même population source** (hommes de la wilaya), appariés sur l'âge (± 5 ans). Dossier soumis à l'autorisation ministérielle et à l'avis du comité d'éthique, consentement écrit (art. 381-386 de la loi 18-11) [S12].
+**Étape 1 — choix du schéma.** Le cancer de la vessie est relativement **rare** et à **longue latence** ; on suspecte plusieurs expositions (tabac, colorants et amines aromatiques de l'industrie locale, eau de boisson). → **Étude cas-témoins** : cas incidents histologiquement confirmés sur 3 ans (registre ou services d'urologie et d'anatomopathologie), témoins de la **même population source** (hommes de la wilaya), avec un **appariement de fréquence** sur l'âge (même répartition par classes d'âge de 5 ans que les cas) ; l'analyse devra alors être stratifiée sur ces classes d'âge (un appariement individuel imposerait une analyse appariée, § 6.4). Dossier soumis à l'autorisation ministérielle (ministre chargé de l'industrie pharmaceutique depuis l'ordonnance 20-02) et à l'avis du comité d'éthique, consentement écrit (art. 381-386 de la loi 18-11 modifiée) [S12].
 
 **Étape 2 — analyse.** Sur 150 cas et 300 témoins, 75 cas et 60 témoins ont travaillé dans l'industrie des colorants.
-- OR brut = (75 × 240)/(75 × 60) = 18 000/4 500 = **4,0**.
+- OR brut (sans tenir compte des classes d'âge, pour l'exercice) = (75 × 240)/(75 × 60) = 18 000/4 500 = **4,0**.
 - Interprétation : l'odds d'exposition est 4 fois plus élevé chez les cas ; la maladie étant rare, le RR est d'environ 4.
 
 **Étape 3 — confusion par le tabac ?** Les ouvriers de l'usine fument davantage que la population générale ; le tabac est un facteur de risque connu du cancer de la vessie et n'est pas un intermédiaire entre l'exposition professionnelle et le cancer → **facteur de confusion potentiel**. On stratifie : OR = 3,6 chez les fumeurs et 3,4 chez les non-fumeurs (homogènes) → OR ajusté (Mantel-Haenszel) ≈ 3,5. La confusion existe mais est **modeste** ; l'association persiste après ajustement.
@@ -696,8 +717,8 @@ Les **postulats de Koch** (agent présent dans tous les cas, isolé, reproduisan
 7. Le classement **non différentiel** d'une exposition binaire biaise habituellement **vers 1** ; le différentiel peut biaiser dans les deux sens.
 8. **Confusion** : facteur lié à l'exposition **et** à la maladie, non intermédiaire → OR brut ≠ OR ajusté ; **interaction** : OR de strates différents → présenter par strate.
 9. Seule la **randomisation** contrôle les facteurs de confusion inconnus.
-10. Bradford Hill : **temporalité** indispensable ; force, dose-effet, constance, plausibilité, preuve expérimentale renforcent l'argument causal.
-11. En Algérie, les études cliniques (y compris épidémiologiques) relèvent des art. 377-391 de la loi 18-11 : autorisation ministérielle, comité d'éthique, promoteur, protocole, consentement écrit.
+10. Bradford Hill : neuf « points de vue », dont aucun n'est exigé par Hill comme condition *sine qua non* ; la **temporalité** est néanmoins la seule condition logiquement indispensable ; force, dose-effet, constance, plausibilité, preuve expérimentale renforcent l'argument causal.
+11. En Algérie, les études cliniques (y compris épidémiologiques) relèvent des art. 377-391 de la loi 18-11 modifiée : autorisation ministérielle (ministre chargé de l'industrie pharmaceutique depuis l'ordonnance 20-02), comité d'éthique, promoteur, protocole, consentement écrit.
 
 ---
 
@@ -791,7 +812,7 @@ E. Sont dispensées d'autorisation ministérielle lorsqu'elles sont observationn
 - **QCM 7 : A, C, D.** B faux (le tabac a des effets multiples) ; E faux (une association faible peut être causale).
 - **QCM 8 : A, C, D.** B faux ; E faux (c'est quand la maladie est **rare** que l'OR approche le RP).
 - **QCM 9 : C.** n = 1,96² × 0,5 × 0,5 / 0,05² = 3,8416 × 0,25 / 0,0025 = 384,2 → 385.
-- **QCM 10 : A, B, C, D.** E faux : l'article 381 subordonne les études cliniques à l'autorisation du ministre, sans distinction selon leur caractère observationnel (les modalités d'application restent à préciser par voie réglementaire) [S12].
+- **QCM 10 : A, B, C, D.** E faux : l'article 381 subordonne les études cliniques à une autorisation ministérielle (ministre chargé de l'industrie pharmaceutique depuis l'ordonnance 20-02), sans distinction selon leur caractère observationnel (les modalités d'application restent à préciser par voie réglementaire) [S12].
 
 ---
 
@@ -799,29 +820,29 @@ E. Sont dispensées d'autorisation ministérielle lorsqu'elles sont observationn
 
 | Sujet | Position 1 | Position 2 | Commentaire |
 |---|---|---|---|
-| Statut des « critères » de Hill | Grille de critères utilisée comme liste de contrôle dans l'enseignement | Hill lui-même (1965) : « points de vue » non obligatoires, seule la temporalité est indispensable [S3] | Utiliser comme aide au jugement, pas comme score |
+| Statut des « critères » de Hill | Grille de critères utilisée comme liste de contrôle dans l'enseignement | Hill lui-même (1965) : « points de vue » dont aucun n'est une condition *sine qua non* [S3] ; Rothman et Greenland : seule la temporalité est logiquement indispensable [S1] | Utiliser comme aide au jugement, pas comme score |
 | Seuil de significativité | Seuil fixe p < 0,05 largement utilisé | Déclaration de l'ASA (2016) : ne pas fonder une conclusion sur le seul franchissement d'un seuil ; rapporter les estimations et IC [S11] | Privilégier les intervalles de confiance |
 | Critère de confusion | Approche statistique (changement de l'estimation > 10 %) | Approche causale (DAG, connaissance a priori) [S1] | Le choix des variables d'ajustement doit reposer sur un modèle causal explicite |
 | Hiérarchie des preuves | Pyramide classique (essais > cohortes > cas-témoins) [S15] | Qualité méthodologique de chaque étude prioritaire sur le type de schéma | Une étude bien conduite d'un niveau « inférieur » peut être plus fiable |
 | Mesure à rapporter en transversale / cohorte à événement fréquent | OR issu de la régression logistique | RP ou RR (modèles log-binomiaux, Poisson robuste) | L'OR exagère l'effet perçu quand l'événement est fréquent |
-| Application de la réglementation algérienne aux enquêtes observationnelles | Art. 377 : les études épidémiologiques sont des études cliniques | Modalités pratiques (enquêtes anonymes, registres) renvoyées à des textes d'application | `[À VÉRIFIER — textes d'application]` |
+| Application de la réglementation algérienne aux enquêtes observationnelles | Art. 377 : les études épidémiologiques sont des études cliniques ; autorisation par le ministre chargé de l'industrie pharmaceutique depuis l'ordonnance 20-02 (art. 381 modifié) | Modalités pratiques (enquêtes anonymes, registres) renvoyées à des textes d'application | `[À VÉRIFIER — textes d'application]` |
 
 ---
 
 ## 19. Références
 
 1. [S1] Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Wolters Kluwer; 2021.
-2. [S2] Celentano DD, Szklo M. Gordis Epidemiology. 6th ed. Elsevier; 2019 `[À VÉRIFIER]`.
+2. [S2] Celentano DD, Szklo M. Gordis Epidemiology. 6th ed. Elsevier; 2019.
 3. [S3] Hill AB. The environment and disease: association or causation? Proc R Soc Med 1965;58(5):295-300.
 4. [S4] Doll R, Hill AB. Smoking and carcinoma of the lung. Br Med J 1950;2:739-748.
 5. [S5] Doll R, Hill AB. The mortality of doctors in relation to their smoking habits. Br Med J 1954;1:1451-1455.
-6. [S6] Dawber TR, Meadors GF, Moore FE. The Framingham Study. Am J Public Health 1951;41(3):279-286.
+6. [S6] Dawber TR, Meadors GF, Moore FE. The Framingham Study. Am J Public Health Nations Health 1951;41(3):279-281.
 7. [S7] Mantel N, Haenszel W. J Natl Cancer Inst 1959;22(4):719-748.
 8. [S8] Rothman KJ. Causes. Am J Epidemiol 1976;104(6):587-592.
 9. [S9] Sackett DL. Bias in analytic research. J Chronic Dis 1979;32:51-63.
 10. [S10] von Elm E et al. The STROBE statement. Lancet 2007;370(9596):1453-1457.
 11. [S11] Wasserstein RL, Lazar NA. The ASA statement on p-values. Am Stat 2016;70(2):129-133.
-12. [S12] Loi n° 18-11 du 2 juillet 2018 relative à la santé (art. 293, 343, 377-391). JORADP n° 46/2018 (DOC-00074).
+12. [S12] Loi n° 18-11 du 2 juillet 2018 relative à la santé (art. 293, 343, 377-391). JORADP n° 46/2018 (DOC-00074), modifiée par l'ordonnance n° 20-02 du 30 août 2020, JORADP n° 50/2020 (DOC-00116).
 13. [S13] MSPRH / OMS. Enquête STEPwise Algérie 2016-2017.
 14. [S14] MSPRH / UNICEF. MICS6 Algérie 2019, rapport final (2020).
 15. [S15] HAS. Niveau de preuve et gradation des recommandations de bonne pratique. 2013.
