@@ -133,7 +133,7 @@ mots_cles: [fibrillation atriale, CHA2DS2-VA, AF-CARE, anticoagulants oraux dire
 ### 1.1 Vocabulaire
 
 - **Trouble du rythme (arythmie)** : toute anomalie de la fréquence, de la régularité ou du site d'origine de l'activation cardiaque, ou de la conduction de l'influx.
-- **Tachycardie** : fréquence ventriculaire > 100/min. **Bradycardie** : fréquence < 50/min selon l'ESC 2021 (seuil classique < 60/min) [S4].
+- **Tachycardie** : fréquence ventriculaire > 100/min. **Bradycardie** : fréquence < 50/min dans les recommandations récentes sur la stimulation [S4] **[À VÉRIFIER — définition exacte de l'ESC 2021]** (seuil classique de l'enseignement : < 60/min).
 - **Supraventriculaire** : naissant au-dessus de la bifurcation du faisceau de His (oreillettes, nœud atrioventriculaire, voie accessoire). **Ventriculaire** : naissant sous la bifurcation hisienne.
 - **QRS fins** (< 120 ms) : activation ventriculaire par les voies normales → origine supraventriculaire. **QRS larges** (≥ 120 ms) : TV, ou tachycardie supraventriculaire avec bloc de branche (préexistant ou fonctionnel) ou avec pré-excitation.
 - **Soutenue / non soutenue** (TV) : durée ≥ 30 secondes (ou mal tolérée nécessitant une intervention) / < 30 secondes [S3].
@@ -1067,7 +1067,7 @@ ETT (cardiopathie, OG), **TSH**, kaliémie, fonction rénale, NFS, bilan hépati
 | **Classification de la FA** | ESC 2024 : FA paroxystique / persistante / permanente, avec un parcours AF-CARE [S1] | ACC/AHA 2023 : **stades** de la FA (de 1 « à risque » à 4 « permanente ») **[À VÉRIFIER]** [S9] | Approches complémentaires : la classification américaine intègre la prévention |
 | **Ablation de première intention** | ESC 2024 : option de première intention dans la FA paroxystique (classe I) [S1] | ESC 2020 : classe IIa en première intention [S6] | Montée en puissance après les essais d'ablation précoce |
 | **Fermeture de l'auricule gauche** | ESC 2024 : percutanée IIb si contre-indication à l'anticoagulation ; chirurgicale recommandée en complément lors d'une chirurgie cardiaque [S1] | ACC/AHA 2023 : percutanée de niveau supérieur chez certains patients à haut risque hémorragique **[À VÉRIFIER]** [S9] | Données randomisées encore limitées pour la fermeture percutanée |
-| **Définition de la bradycardie** | ESC 2021 : FC < 50/min [S4] | Seuil classique de l'enseignement : < 60/min | Seuil pratique ; c'est la corrélation symptômes-bradycardie qui guide la stimulation |
+| **Définition de la bradycardie** | Recommandations récentes de stimulation : FC < 50/min [S4] **[À VÉRIFIER]** | Seuil classique de l'enseignement : < 60/min | Seuil pratique ; c'est la corrélation symptômes-bradycardie qui guide la stimulation |
 | **Anticoagulation dans la FA rhumatismale** | ESC 2024 : AVK dans le rétrécissement mitral modéré à serré [S1] | Avant INVICTUS, certains proposaient les AOD par extrapolation | INVICTUS a montré la supériorité de l'AVK sur le rivaroxaban dans cette population [S10] |
 
 ---

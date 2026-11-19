@@ -339,7 +339,7 @@ Le diagnostic de diarrhée aiguë est clinique. L'enjeu de la consultation n'est
 | SHU | Pâleur, oligurie, ecchymoses après une diarrhée sanglante |
 | Social | Parents incapables d'assurer la réhydratation orale ou la surveillance, éloignement |
 
-L'ESPGHAN retient des critères voisins pour l'hospitalisation : choc, déshydratation sévère, troubles neurologiques, vomissements incoercibles ou bilieux, échec de la réhydratation orale, suspicion de pathologie chirurgicale et impossibilité de prise en charge à domicile [S4].
+L'ESPGHAN retient des critères d'hospitalisation voisins [S4].
 
 ## 9. Examens complémentaires et interprétation
 

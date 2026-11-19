@@ -481,7 +481,7 @@ Le traitement du SCC poursuit **deux objectifs distincts**, qu'il faut toujours 
 
 | Classe / molécule | Posologie usuelle chez l'adulte (RCP) | Contre-indications et précautions principales |
 |---|---|---|
-| **Trinitrine sublinguale** (comprimé ou spray) | 0,3 mg (comprimé) ou 0,4 mg par bouffée, en position assise ; **répéter après 5 min** si besoin | **Hypotension**, **association aux inhibiteurs de la PDE5** (sildénafil, tadalafil…) et au riociguat, **rétrécissement aortique serré**, CMH obstructive ; céphalées. Si la douleur persiste malgré la prise (au-delà de 15–20 min ou après 2 à 3 prises), **appeler les secours** (SCA possible) |
+| **Trinitrine sublinguale** (comprimé, capsule ou pulvérisation) | Une prise (dose unitaire selon la spécialité, de l'ordre de 0,15 à 0,6 mg) en position assise ; **répéter après 5 min** si besoin **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | **Hypotension**, **association aux inhibiteurs de la PDE5** (sildénafil, tadalafil…) et au riociguat, **rétrécissement aortique serré**, CMH obstructive ; céphalées. Si la douleur persiste malgré la prise (au-delà de 15–20 min ou après 2 à 3 prises), **appeler les secours** (SCA possible) |
 | **Bêtabloquants** — bisoprolol | 2,5 à 10 mg/j en une prise (titration selon la FC et la tolérance) | Asthme sévère, BAV de haut degré non appareillé, bradycardie sinusale symptomatique, IC aiguë décompensée, artériopathie sévère avec ischémie critique ; **angor vasospastique** ; prudence chez le diabétique (masquage des hypoglycémies) |
 | — métoprolol (succinate, LP) | 50 à 200 mg/j | Idem |
 | — aténolol | 50 à 100 mg/j (adapter à la fonction rénale) | Idem |

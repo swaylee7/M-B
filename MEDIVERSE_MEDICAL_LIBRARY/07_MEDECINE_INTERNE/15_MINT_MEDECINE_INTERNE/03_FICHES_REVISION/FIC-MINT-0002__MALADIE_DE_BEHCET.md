@@ -10,7 +10,111 @@ date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent RES-06 (IA) — fiche dérivée du dossier audité"
 statut: brouillon_a_auditer
-sources: __AUTO__
+sources:
+  - id: S1
+    reference: "International Study Group for Behçet's Disease. Criteria for diagnosis of Behçet's disease. Lancet. 1990;335(8697):1078-1080."
+    organisme: "International Study Group (ISG)"
+    annee: 1990
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: true
+  - id: S2
+    reference: "International Team for the Revision of the International Criteria for Behçet's Disease (ITR-ICBD). The International Criteria for Behçet's Disease (ICBD): a collaborative study of 27 countries on the sensitivity and specificity of the new criteria. J Eur Acad Dermatol Venereol. 2014;28(3):338-347."
+    organisme: "ITR-ICBD"
+    annee: 2014
+    type: recommandation
+    doi: "10.1111/jdv.12107"
+    url: "https://doi.org/10.1111/jdv.12107"
+    verifiee: true
+  - id: S3
+    reference: "Hatemi G, Christensen R, Bang D, et al. 2018 update of the EULAR recommendations for the management of Behçet's syndrome. Ann Rheum Dis. 2018;77(6):808-818."
+    organisme: EULAR
+    annee: 2018
+    type: recommandation
+    doi: "10.1136/annrheumdis-2018-213225"
+    url: "https://doi.org/10.1136/annrheumdis-2018-213225"
+    verifiee: true
+  - id: S4
+    reference: "Haute Autorité de santé ; CeRéMAIA, filière FAI²R (coord. Kone-Paut I, Saadoun D). Protocole national de diagnostic et de soins (PNDS) — Maladie de Behçet. HAS, décembre 2019 (mis en ligne en janvier 2020)."
+    organisme: "HAS / FAI²R"
+    annee: 2019
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/upload/docs/application/pdf/2020-01/pnds_behcet_vf_171219.pdf"
+    verifiee: true
+  - id: S6
+    reference: "Yazici Y, Hatemi G, Bodaghi B, et al. Behçet syndrome. Nat Rev Dis Primers. 2021;7(1):67."
+    organisme: "Revue de référence"
+    annee: 2021
+    type: article
+    doi: "10.1038/s41572-021-00301-1"
+    url: ""
+    verifiee: true
+  - id: S7
+    reference: "Mahr A, Maldini C. Épidémiologie de la maladie de Behçet [Epidemiology of Behçet's disease]. Rev Med Interne. 2014;35(2):81-89."
+    organisme: "Revue"
+    annee: 2014
+    type: article
+    doi: "10.1016/j.revmed.2013.12.005"
+    url: ""
+    verifiee: true
+  - id: S8
+    reference: "de Menthon M, Lavalley MP, Maldini C, Guillevin L, Mahr A. HLA-B51/B5 and the risk of Behçet's disease: a systematic review and meta-analysis of case-control genetic association studies. Arthritis Rheum. 2009;61(10):1287-1296."
+    organisme: "Méta-analyse"
+    annee: 2009
+    type: article
+    doi: "10.1002/art.24642"
+    url: ""
+    verifiee: true
+  - id: S9
+    reference: "Ghembaza ME, Bouabdallah N, Lounici A. Behçet disease in Western Algeria. Med Sante Trop. 2017;27(1):101-104."
+    organisme: "Série algérienne (Tlemcen)"
+    annee: 2017
+    type: article
+    doi: "10.1684/mst.2017.0656"
+    url: ""
+    verifiee: true
+  - id: S10
+    reference: "B'chir Hamzaoui S, Harmel A, Bouslama K, et al. La maladie de Behçet en Tunisie. Étude clinique de 519 cas. Rev Med Interne. 2006;27(10):742-750."
+    organisme: "Société tunisienne de médecine interne"
+    annee: 2006
+    type: article
+    doi: "10.1016/j.revmed.2006.07.019"
+    url: ""
+    verifiee: true
+  - id: S13
+    reference: "Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente (document diffusé en mars 2024 ; numéro et date exacts à vérifier). Existence signalée comme confirmée par le poste DOS-02 le 2026-11-19 ; non reconfirmée dans la session DOS-09 (hôte .dz inaccessible, recherche web infructueuse)."
+    organisme: "Ministère de la Santé (Algérie)"
+    annee: 2024
+    type: texte_officiel
+    doi: ""
+    url: "https://www.sapp.dz/wp-content/uploads/2024/03/Instrcution-tuberculose-latente.pdf"
+    verifiee: false
+  - id: S14
+    reference: "Résumés des caractéristiques du produit (RCP) des spécialités citées (AMM européennes, EPAR de l'EMA, ou AMM nationales), versions en vigueur."
+    organisme: "EMA / autorités nationales"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/medicines"
+    verifiee: false
+  - id: S15
+    reference: "World Health Organization. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment. 2nd ed. Geneva: WHO; 2024. ISBN 9789240096196."
+    organisme: "OMS"
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/378536"
+    verifiee: true
+  - id: S16
+    reference: "Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm - part 2: Specific clinical and comorbid situations. J Dtsch Dermatol Ges. 2026;24(2):270-282."
+    organisme: "DDG / BVDD (avec la DGP pour le chapitre tuberculose)"
+    annee: 2026
+    type: recommandation
+    doi: "10.1111/ddg.16001"
+    url: ""
+    verifiee: true
 ---
 
 # Fiche — Maladie de Behçet (RES-MED-158)

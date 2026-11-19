@@ -178,3 +178,23 @@ Mission : Audit scientifique des dossiers (exactitude, cohérence, actualité)
   - `valider.py` : 0 erreur (rapport commun de validation régénéré par le script).
 - Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0001.md`, `DOS-ORL-0002.md`, `DOS-ORL-0003.md`, `DOS-NCHI-0001.md`, `DOS-OPHT-0001.md`. État : `00_SYSTEME/agents/AUD-01/etat_DOS-12.json` (etat.json non réécrit).
 - Traçabilité : une commande `git diff --stat` en lecture seule a été lancée par inadvertance pour vérifier un fichier (aucune modification) ; aucune autre commande git.
+- 2026-11-19T03:54:36+00:00 — **Session d'audit scientifique et posologique (AUD-01, tenue conjointement avec AUD-02)** des dossiers du rédacteur DOS-14 :
+  - DOS-PHAR-0001 (antibiotiques), DOS-PHAR-0002 (anticoagulants), DOS-PHAR-0003 (corticoïdes), DOS-PHAR-0004 (antalgiques), DOS-HEMA-0006 (transfusion) ;
+  - lots `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-14.json` (60 QCM) et `20_CAS_CLINIQUES/lots/DOS-14.json` (10 cas).
+  Lecture préalable de PROTOCOLE_AUDIT.md, CONVENTIONS.md et du catalogue ; lecture intégrale des 5 dossiers et des 2 lots.
+- Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/` (5 dossiers `*.avant_audit_AUD-01.md`, lots `DOS-14.avant_audit_AUD-01.json`).
+- Textes lus : OMS AWaRe 2022 et liste modèle 2025 (sections 6.2 et 10.2), OMS douleur cancéreuse 2018 (annexe 6), loi 18-11 (art. 258–264, 368–369) — documents acquis ; HAS/ANSM 2014 (CGR), HAS 2015 (plaquettes), ANSM/HAS 2012 (plasma), HAS 2016 (douleur de l'enfant, codéine) — PDF téléchargés depuis has-sante.fr ; résumés PubMed (AABB 2023, AABB/ICTMG 2025, ACR 2022, ACCP 2012 ×2, NeuPSIG 2015, Buttgereit 2002, SSC 2026, ESC/EACTS 2025).
+- 7 recherches web : plasma (HAS/ANSM), ESC/EACTS 2025 (cibles d'INR non trouvées), andexanet (retrait du marché américain en décembre 2025), RCP harmonisé de l'énoxaparine (Vidal), rapport AARN (non trouvé), ESE/ES 2024 (doses physiologiques), Agence nationale du sang (décret exécutif n° 09-258 de 2009 repéré).
+- Hôtes inaccessibles : academic.oup.com, pmc.ncbi.nlm.nih.gov, ema.europa.eu, base-donnees-publique.medicaments.gouv.fr, vidal.fr, escardio.org, archive.gazettes.africa ; Europe PMC (texte intégral) en erreur 500.
+- **Erreur critique corrigée** : DOS-PHAR-0001, méropénème « 1 g/8 h » attribué au livre AWaRe pour le sepsis/choc septique (tableau 13.2 et cas commenté) alors que le livre indique **2 g/8 h** (1 g/8 h dans la neutropénie fébrile).
+- Erreurs majeures corrigées : énoxaparine en insuffisance rénale sévère (RCP européen harmonisé) et fondaparinux (pas de réduction curative à 30–50 mL/min) ; retrait de l'andexanet du marché américain (actualité) ; fosfomycine orale classée Access (non inscrite sur la liste 2025) — dossier et CAS-PHAR-1401 ; seuils HAS 2014 des CGR (divergence avec l'AABB) ; posologies pédiatriques absentes (HAS 2016) ; **corrigé erroné de QCM-PHAR-1424** (rifampicine marquée « augmente l'INR »).
+- Résultats (tous en version 1.1, verdict audite_corrections_requises) :
+  - DOS-PHAR-0001 : 10 corrections (2 critiques — même erreur en 2 endroits — / 1 majeure / 7 mineures) ; 1 marqueur restant (vancomycine).
+  - DOS-PHAR-0002 : 21 corrections (0/4/17) ; 2 marqueurs restants (anticoagulants de la TIH, warfarine initiale « pratique française »).
+  - DOS-PHAR-0003 : 12 corrections (0/0/12) ; 0 marqueur ; verdict maintenu (texte ESE/ES 2024 et SSC 2026 non relus).
+  - DOS-PHAR-0004 : 11 corrections (0/1/10) ; 2 marqueurs restants (titration IV aux urgences, méthylnaltrexone).
+  - DOS-HEMA-0006 : 11 corrections (0/1/10) ; 1 marqueur restant (fibrinogène).
+  - Marqueurs `[POSOLOGIE À VÉRIFIER]` : 15 levés sur 21.
+- Lots (écrits par `ecrire_json`, JSON validés avec python3, cohérence réponses/explications vérifiée par script) : 3 QCM corrigés (1424, 1423, 1436), 60/60 audite_valide ; 5 cas modifiés, 8 audite_valide, 2 audite_corrections_requises (CAS-PHAR-1401, CAS-PHAR-1404). `valider.py` : 0 erreur.
+- Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0001.md` à `DOS-PHAR-0004.md`, `DOS-HEMA-0006.md`. État : `00_SYSTEME/agents/AUD-01/etat_DOS-14.json` (etat.json non réécrit).
+- Traçabilité : une commande `git status` en lecture seule (sortie redirigée, aucune modification) a été lancée par inadvertance dans une commande de comptage ; aucune autre commande git.

@@ -470,7 +470,8 @@ Les **DSA** préformés chez le receveur sont associés à un risque d'échec de
 ### 11.2 Transfusion
 
 - **Allo-immunisation anti-HLA** (grossesses, transfusions) : responsable d'**états réfractaires aux transfusions plaquettaires** (les plaquettes expriment la classe I) ; recours à des plaquettes HLA-compatibles.
-- **Réactions transfusionnelles fébriles non hémolytiques** et **TRALI** (œdème pulmonaire lésionnel post-transfusionnel) : rôle des anticorps anti-HLA ou anti-HNA du donneur.
+- **Réactions transfusionnelles fébriles non hémolytiques** : anticorps anti-HLA (anti-leucocytaires) **du receveur** dirigés contre les leucocytes résiduels du produit, ou cytokines accumulées pendant la conservation ; la déleucocytation les a rendues moins fréquentes (voir DOS-HEMA-0006).
+- **TRALI** (œdème pulmonaire lésionnel post-transfusionnel) : le plus souvent anticorps anti-HLA de classe I ou II ou anti-HNA **du donneur** (donneuses multipares notamment), dirigés contre les leucocytes du receveur.
 - **GVH post-transfusionnelle** : prévenue par l'irradiation des produits chez les receveurs à risque (déficits immunitaires, greffés, dons intrafamiliaux) ; le risque est accru lorsque le donneur est homozygote pour un haplotype partagé par le receveur.
 
 ---
@@ -520,7 +521,7 @@ Les **DSA** préformés chez le receveur sont associés à un risque d'échec de
 | **HLA-B*58:01** | **allopurinol** | toxidermies graves (SJS/NET, DRESS) | dépistage proposé dans certaines populations asiatiques |
 | HLA-B*57:01 | flucloxacilline | hépatite médicamenteuse | |
 
-Mécanisme illustratif : l'abacavir se loge dans la poche F de HLA-B*57:01 et **modifie le répertoire des peptides présentés** ; des peptides du soi inhabituels sont alors présentés et reconnus comme étrangers par les T CD8 (modèle du « répertoire peptidique altéré ») [S1, S13]. Ces réactions sont des hypersensibilités retardées de type IV (voir DOS-IMMU-0002).
+Mécanisme illustratif : l'abacavir se loge dans la poche F de HLA-B*57:01 et **modifie le répertoire des peptides présentés** ; des peptides du soi inhabituels sont alors présentés et reconnus comme étrangers par les T CD8 (modèle du « répertoire peptidique altéré ») [S1] ; l'essai PREDICT-1 [S13] en établit l'intérêt clinique, non le mécanisme. Ces réactions sont des hypersensibilités retardées de type IV (voir DOS-IMMU-0002).
 
 ---
 
@@ -616,7 +617,7 @@ Anticorps anti-HLA (billes single antigen) : anticorps anti-A*24 (MFI élevée),
 **Questions et réponses commentées**
 
 1. *Quelle est la relation HLA entre la patiente et chacun de ses donneurs ?* En déduisant les haplotypes de l'étude familiale (A*01-B*08-DRB1*03 et A*02-B*51-DRB1*11 chez la patiente), la sœur partage les deux haplotypes (A*01-B*08-DRB1*03 et A*02-B*51-DRB1*11) : elle est **HLA-identique** (« 0 mismatch »). Le frère ne partage qu'un haplotype (A*01-B*08-DRB1*03) : il est **haplo-identique**, avec des incompatibilités A*24, B*35, DR4.
-2. *Pourquoi la patiente est-elle immunisée ?* Grossesses (antigènes HLA paternels des enfants) et transfusions sont des événements immunisants classiques. Les anticorps ciblent précisément les antigènes portés par l'haplotype du frère qu'elle ne possède pas, très probablement présents chez le père de ses enfants.
+2. *Pourquoi la patiente est-elle immunisée ?* Grossesses (antigènes HLA paternels des enfants) et transfusions sont des événements immunisants classiques. Les anticorps ciblent précisément les antigènes portés par l'haplotype du frère qu'elle ne possède pas ; ils peuvent provenir des grossesses (antigènes paternels des enfants) comme des transfusions, sans qu'on puisse attribuer chaque spécificité à un événement donné.
 3. *Le frère peut-il donner ?* Ses antigènes A*24, B*35 et DR4 sont la cible d'anticorps de la receveuse : ce sont des **DSA**. Le crossmatch virtuel est positif ; un crossmatch CDC T positif par IgG anti-HLA exposerait au **rejet hyperaigu** [S10, S11]. Sauf protocole de désimmunisation en centre expert, ce don n'est pas envisageable.
 4. *Et la sœur ?* HLA-identique, sans DSA attendu : crossmatch cellulaire à réaliser avant la greffe, qui devrait être négatif. C'est la situation immunologique la plus favorable.
 5. *Quelle est la probabilité qu'un frère ou une sœur soit HLA-identique ?* 25 % pour chacun.
@@ -856,7 +857,7 @@ Concernant la compatibilité HLA en greffe de cellules souches hématopoïétiqu
 | **Mécanisme de l'association HLA-B27** | Peptide « arthritogène » présenté aux T CD8 | Mauvais repliement / homodimères de chaînes lourdes, rôle du microbiote | Aucune hypothèse n'est démontrée à elle seule. |
 | **Dépistage HLA avant carbamazépine** | Recommandé dans les populations où HLA-B*15:02 est fréquent (Asie du Sud-Est) [S14] | Non systématique dans les populations où l'allèle est rare | Les données de fréquence locales sont déterminantes ; pour l'Algérie, voir [S17]. |
 
-Aucune recommandation algérienne publiée sur l'organisation du typage HLA n'a été consultée pendant la rédaction ; l'étude du CHU Mustapha (Alger) fournit une base de fréquences de référence [S17] [À VÉRIFIER — existence de référentiels nationaux de greffe].
+Aucun référentiel national algérien sur l'organisation du typage HLA ou de la greffe n'a été consulté pendant la rédaction ni pendant l'audit ; l'étude du CHU Mustapha (Alger) fournit une base de fréquences de référence [S17]. Les protocoles des centres de greffe font référence localement.
 
 ---
 
@@ -883,4 +884,4 @@ Aucune recommandation algérienne publiée sur l'organisation du typage HLA n'a 
 19. [S19] Aribi M, Moulessehoul S, Benabadji AB, Kendouci-Tani M. HLA DR phenotypic frequencies and genetic risk of Type 1 diabetes in west region of Algeria, Tlemcen. *BMC Genet*. 2004;5:24. doi:10.1186/1471-2156-5-24.
 20. [S20] Ouederni M, Vincent QB, Frange P, et al. Major histocompatibility complex class II expression deficiency caused by a RFXANK founder mutation: a survey of 35 patients. *Blood*. 2011;118(19):5108-5118. doi:10.1182/blood-2011-05-352716.
 
-*Références vérifiées pendant la session via l'API Europe PMC (dont lecture des résumés de [S9], [S12], [S13], [S16], [S17], [S18], [S19], [S20]) ; ouvrages vérifiés via le catalogue Mediverse. Aucun texte ni aucune figure n'est reproduit.*
+*Références vérifiées pendant la session via l'API Europe PMC (dont lecture des résumés de [S9], [S12], [S13], [S16], [S17], [S18], [S19], [S20]) ; ouvrages vérifiés via le catalogue Mediverse. Audit du 2026-11-19 : chiffres de [S9], [S13], [S17], [S18], [S19] et [S20] recontrôlés sur les résumés PubMed. Aucun texte ni aucune figure n'est reproduit.*
