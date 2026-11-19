@@ -424,7 +424,7 @@ maintien de la bithérapie antiplaquettaire si stent < 1-3 mois) ; transfusion s
 ### 13.4 Particularités algériennes
 
 - Les gestes de première intention (compression, vasoconstriction, cautérisation chimique, méchage antérieur) doivent être maîtrisés par **tout médecin généraliste et urgentiste**, y compris en structure sans ORL (polycliniques, EPSP).
-- L'**embolisation** dépend de la disponibilité d'un service de neuroradiologie interventionnelle (CHU) ; la **coagulation endoscopique de la sphénopalatine** est la solution de seconde intention la plus largement réalisable dans un service ORL équipé. **[À VÉRIFIER — cartographie des plateaux techniques]**.
+- L'**embolisation** dépend de la disponibilité d'un service de neuroradiologie interventionnelle, et la **coagulation endoscopique de la sphénopalatine** d'un service ORL équipé d'endoscopes ; aucune donnée publiée sur leur répartition en Algérie n'a été identifiée. **[À VÉRIFIER — cartographie des plateaux techniques]**.
 - La disponibilité des matériaux de méchage résorbables et des sondes à double ballonnet est variable : prévoir des **kits d'épistaxis** aux urgences.
 
 ## 14. Surveillance

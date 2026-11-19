@@ -381,7 +381,7 @@ mots_cles: [antalgiques, paliers OMS, paracétamol, AINS, opioïdes, morphine, c
 | Hématologique | Allongement du temps de saignement (aspirine irréversible) | Thrombopénie, anticoagulants |
 | Respiratoire | Bronchospasme chez l'asthmatique sensible à l'aspirine | Asthme avec polypose |
 | Allergique, cutané | Urticaire, toxidermies | — |
-| Grossesse | Contre-indiqués au 3e trimestre (≥ 24 SA) | — |
+| Grossesse | Contre-indiqués à partir du 6e mois (≥ 24 SA) | — |
 
 ### 12.3 Opioïdes
 
@@ -435,7 +435,9 @@ mots_cles: [antalgiques, paliers OMS, paracétamol, AINS, opioïdes, morphine, c
 | **Fentanyl transdermique** | 12 à 25 µg/h toutes les 72 h (en relais d'un opioïde, selon conversion) | Pas chez le patient cachectique, fébrile ou très sudoral ; pas de dose maximale | [S1] |
 | **Amitriptyline** (douleur neuropathique) | 10 à 25 mg le soir | Max 100 mg le soir (en l'absence de dosage plasmatique) ; effets anticholinergiques | [S1] |
 | **Naloxone** (surdosage) | 0,08 à 0,12 mg IV toutes les 2 à 3 minutes jusqu'à ventilation adéquate ; réinjections toutes les 20–60 min ou perfusion | Courte durée d'action | [S1] |
-| Tramadol, oxycodone, hydromorphone, gabapentine, prégabaline, duloxétine | Selon RCP | — | `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` |
+| **Oxycodone** (patient naïf) | LI : 2,5 à 5 mg toutes les 4 h si besoin ; LP : 10 mg toutes les 12 h + LI 2,5–5 mg en interdose | Insuffisance hépatique modérée à sévère : réduire de 50 % ou éviter ; insuffisance rénale : débuter à la dose la plus faible | [S1] |
+| **Hydromorphone** (patient naïf) | Orale : 1 à 4 mg toutes les 4 h si besoin ; SC/IV : 0,3 à 0,7 mg toutes les 3–4 h ; perfusion SC/IV 0,1–0,2 mg/h | Réduire en insuffisance rénale et hépatique | [S1] |
+| **Tramadol**, **gabapentine**, **prégabaline**, **duloxétine** (douleur neuropathique) | Doses efficaces des essais : tramadol 200–400 mg/j en 2 à 3 prises ; gabapentine 1 200–3 600 mg/j en 3 prises ; prégabaline 300–600 mg/j en 2 prises ; duloxétine 60–120 mg/j en 1 prise | Titration progressive ; réduction des gabapentinoïdes en insuffisance rénale selon le RCP ; tramadol : maximum 400 mg/j | [S6] |
 
 ### 13.4 Stratégie selon le contexte
 
@@ -618,7 +620,7 @@ Morphine LP 120 mg + interdoses 4 × 20 mg = **200 mg/24 h** de morphine orale.
 **Question 3 — Quelle conduite antalgique ?**
 **Rotation d'opioïde**, par exemple vers l'**oxycodone** :
 - équivalence : oxycodone ≈ 1,5 fois plus puissante que la morphine orale → 200 / 1,5 ≈ **133 mg/24 h** d'oxycodone orale [S1] ;
-- **réduction d'environ 50 %** en raison des effets indésirables (délire) et de la fonction rénale → environ **65–70 mg/24 h**, par exemple oxycodone LP 30–35 mg toutes les 12 h [S1] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` ;
+- **réduction d'environ 50 %** en raison des effets indésirables (délire) et de la fonction rénale → environ **65–70 mg/24 h**, par exemple oxycodone LP 30–35 mg toutes les 12 h (calcul indicatif d'après les ratios de l'OMS) [S1] ; l'excrétion de l'oxycodone étant elle aussi retardée en insuffisance rénale (clairance estimée ici à environ 35 mL/min), la retitration se fait sous surveillance rapprochée, avec avis de l'équipe de soins palliatifs ;
 - **interdoses** d'oxycodone LI (50–100 % de la dose des 4 heures, soit environ 5–10 mg) pour compenser pendant la retitration [S1] ;
 - surveillance rapprochée de la vigilance et de la fréquence respiratoire ; réévaluation à 24–48 h.
 
@@ -841,6 +843,8 @@ Morphine LP 120 mg + interdoses 4 × 20 mg = **200 mg/24 h** de morphine orale.
 | Opioïdes en douleur aiguë | CDC 2022 : non-opioïdes en premier ; opioïde LI, dose la plus faible, durée courte si nécessaire [S3] | HAS 2022 : opioïdes non recommandés en 1re intention dans la douleur aiguë non sévère ; 2e intention possible si douleur modérée non soulagée [S4] | Convergence sur une prescription restrictive |
 | Gabapentinoïdes en périopératoire | SFAR 2019 : recommandations spécifiques sur les antihyperalgésiques (kétamine, gabapentinoïdes), non systématiques [S5] | Usage plus large dans certains protocoles de réhabilitation améliorée `[À VÉRIFIER]` | Risque de sédation et de dépression respiratoire en association aux opioïdes |
 | Ratios d'équianalgésie | OMS 2018 (d'après Twycross) : oxycodone 1,5, fentanyl TD 100, hydromorphone 4–5 [S1] | Fabricants : oxycodone 2, fentanyl TD 150, hydromorphone 5–7,5 [S1] | Toujours prudence et retitration |
+| Morphine orale → voie parentérale | OMS 2018 : ratio **2:1** pour la voie SC **et** IV [S1] | Enseignement français classique : 2:1 pour la voie SC, **3:1** pour la voie IV `[À VÉRIFIER — référentiel français]` | Connaître les deux conventions ; toujours retitrer |
+| Codéine chez l'enfant | ANSM 2013 (reprise par la HAS 2016) : contre-indiquée avant 12 ans, après amygdalectomie et pendant l'allaitement [S13] | Liste modèle OMS 2025 : codéine inscrite parmi les antalgiques opioïdes [S2] | Statut algérien à vérifier ; prudence accrue en Afrique du Nord (CYP2D6) |
 
 ---
 

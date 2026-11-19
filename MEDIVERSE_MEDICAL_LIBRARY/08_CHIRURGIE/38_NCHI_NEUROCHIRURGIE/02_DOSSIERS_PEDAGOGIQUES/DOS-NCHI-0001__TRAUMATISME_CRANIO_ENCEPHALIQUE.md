@@ -592,7 +592,7 @@ PIC > 22 mmHg (ou signes cliniques/TDM d'HTIC sans monitorage)
 
 ### 13.4 Particularités algériennes
 
-- Les traumatismes de la voie publique (deux-roues, piétons) dominent ; l'**organisation préhospitalière** (SAMU, Protection civile), le **délai d'accès à la TDM** et à la **neurochirurgie** (services de CHU et d'EHS) conditionnent le pronostic. **[À VÉRIFIER — cartographie nationale des services de neurochirurgie et de neuro-réanimation]**.
+- Aucune donnée nationale publiée sur les causes et l'incidence du TCE n'a été identifiée ; à l'échelle de l'Afrique, les accidents de la circulation sont la première cause (56 %) [S15]. L'**organisation préhospitalière** (SAMU, Protection civile), le **délai d'accès à la TDM** et à la **neurochirurgie** conditionnent le pronostic. **[À VÉRIFIER — données nationales (sécurité routière, INSP) et cartographie des services de neurochirurgie et de neuro-réanimation]**.
 - En l'absence de monitorage de la PIC, un protocole structuré fondé sur l'examen clinique et les TDM répétées (approche de type BEST-TRIP) [S12] et le Doppler transcrânien [S2] est préférable à une prise en charge non protocolisée.
 - La disponibilité des **antidotes des AOD** et du **SSH concentré** doit être vérifiée localement. **[À VÉRIFIER — nomenclature et pharmacie hospitalière]**.
 

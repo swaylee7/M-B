@@ -404,7 +404,7 @@ Le diagnostic de crise aiguë est **clinique** et **tonométrique** ; il ne doit
 
 ### 13.4 Particularités algériennes
 
-- Le **laser Nd:YAG** est disponible dans les services d'ophtalmologie des CHU et de nombreux centres, mais l'accès peut être retardé hors des grandes villes : le médecin non ophtalmologiste doit savoir **débuter le traitement médical** et **organiser le transfert** sans délai. **[À VÉRIFIER — cartographie des plateaux techniques ophtalmologiques]**.
+- Aucune source publiée n'a été identifiée sur la répartition des **lasers Nd:YAG** en Algérie **[À VÉRIFIER — cartographie des plateaux techniques ophtalmologiques]**. Quel que soit l'accès au laser, le médecin non ophtalmologiste doit savoir **débuter le traitement médical** et **organiser le transfert** sans délai.
 - La disponibilité de l'**acétazolamide injectable**, du **mannitol** et des collyres (pilocarpine, apraclonidine) doit être vérifiée dans la pharmacie de l'établissement. **[À VÉRIFIER — nomenclature nationale]**.
 - La **sensibilisation des médecins des urgences et des services de médecine** (nébulisations d'anticholinergiques, prescriptions d'antidépresseurs, de topiramate) est un levier de prévention important.
 

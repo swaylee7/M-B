@@ -471,7 +471,7 @@ CARCINOME DU NASOPHARYNX PROUVÉ HISTOLOGIQUEMENT
 
 ### 13.4 Particularités algériennes
 
-- Le carcinome du nasopharynx, cancer fréquent des VADS en Algérie, est pris en charge dans les **centres anticancer** et les services de radiothérapie des CHU. Les **délais d'accès à la radiothérapie** et la **disponibilité de l'IMRT** sont des enjeux organisationnels majeurs. **[À VÉRIFIER — Plan national cancer, données MSPRH sur les capacités de radiothérapie]**.
+- Le carcinome du nasopharynx représente environ 5 % des cancers de l'homme dans le registre de Sétif [S15]. Aucune donnée publiée n'a été identifiée sur les **délais d'accès à la radiothérapie** ni sur la **disponibilité de l'IMRT** en Algérie, qui conditionnent pourtant la qualité du traitement. **[À VÉRIFIER — Plan national cancer, données du ministère de la Santé sur les capacités de radiothérapie]**.
 - Les **anti-PD-1** (toripalimab, camrélizumab, tislélizumab…) ne sont pas nécessairement disponibles ou remboursés ; aucune source algérienne n'a été identifiée sur ce point : **[À VÉRIFIER — nomenclature nationale et autorisation]**.
 - Dans un pays où la **tuberculose ganglionnaire** est fréquente, une adénopathie cervicale de l'adulte ne doit pas être étiquetée tuberculeuse **sans preuve** ni sans **examen du cavum** : le retard diagnostique du carcinome du nasopharynx est une perte de chance.
 - Prévention primaire possible : information sur les **aliments traditionnellement conservés** (harissa, conserves marinées, viande et graisse séchées-salées, beurre rance), les **fumées domestiques** du kanoun dans l'enfance, le tabac et le cannabis [S12, S13].
