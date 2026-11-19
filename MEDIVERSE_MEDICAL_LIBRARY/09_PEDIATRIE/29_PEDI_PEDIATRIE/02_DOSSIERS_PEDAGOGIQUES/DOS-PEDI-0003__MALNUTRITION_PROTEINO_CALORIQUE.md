@@ -117,7 +117,7 @@ sources:
     url: ""
     verifiee: false
   - id: S14
-    reference: "Ministère de la Santé (Algérie). Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (existence et date confirmées par recherche web ; texte primaire non consulté)."
+    reference: "Ministère de la Santé, de la Population et de la Réforme hospitalière (Algérie). Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018 (BCG et hépatite B à la naissance ; rotavirus absent du calendrier). Document acquis DOC-00070 (texte lu) ; complété par l'arrêté du 28 avril 2026, JORADP n° 36 du 17 mai 2026 (DOC-00071)."
     organisme: MSPRH
     annee: 2018
     type: texte_officiel
@@ -824,4 +824,4 @@ A. Poids/taille ≥ −2 z — B. Périmètre brachial ≥ 125 mm — C. Absence
 11. [S11] UNICEF/OMS/Banque mondiale. *Joint Child Malnutrition Estimates*, édition 2023 — non vérifiée en session.
 12. [S12] Black RE, et al. *Lancet* 2013;382(9890):427-451 — non vérifiée en session.
 13. [S13] Mehanna HM, Moledina J, Travis J. Refeeding syndrome. *BMJ* 2008;336(7659):1495-1498 — non vérifiée en session.
-14. [S14] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **vérifiée** (existence, date).
+14. [S14] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **DOC-00070, texte lu** (complété par l'arrêté du 28 avril 2026, DOC-00071).

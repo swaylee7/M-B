@@ -1,0 +1,1045 @@
+{
+  "agent": "RES-02",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-EMBR-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la gastrulation chez l'embryon humain, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle débute au cours de la 3e semaine du développement avec l'apparition de la ligne primitive à la face dorsale de l'épiblaste.",
+        "B": "Des cellules épiblastiques qui s'invaginent par la ligne primitive déplacent l'hypoblaste et forment l'endoblaste définitif.",
+        "C": "L'hypoblaste est à l'origine des trois feuillets embryonnaires définitifs.",
+        "D": "Au niveau de la membrane bucco-pharyngée et de la membrane cloacale, le mésoblaste ne s'interpose pas entre ectoblaste et endoblaste.",
+        "E": "La persistance anormale de reliquats de la ligne primitive est classiquement à l'origine du spina bifida."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La gastrulation (3e semaine) transforme le disque didermique (épiblaste + hypoblaste) en disque tridermique. Elle commence avec la ligne primitive et le nœud primitif (de Hensen). Les cellules épiblastiques s'invaginent : certaines remplacent l'hypoblaste (endoblaste définitif), d'autres s'étalent entre les deux feuillets (mésoblaste intra-embryonnaire, dont le prolongement céphalique médian forme la notochorde) ; celles restées en surface constituent l'ectoblaste. Tous les feuillets dérivent donc de l'épiblaste. La ligne primitive régresse normalement ; sa persistance est classiquement associée au tératome sacro-coccygien.",
+      "explications_par_proposition": {
+        "A": "Vrai : La ligne primitive apparaît vers le 15e–16e jour dans la région caudale de l'épiblaste ; elle marque le début de la gastrulation.",
+        "B": "Vrai : Les premières cellules invaginées constituent l'endoblaste définitif ; les suivantes s'étalent entre épiblaste et endoblaste pour former le mésoblaste intra-embryonnaire.",
+        "C": "Faux : C'est l'épiblaste qui fournit les trois feuillets (ectoblaste, mésoblaste intra-embryonnaire, endoblaste) ; l'hypoblaste est refoulé et participe aux structures extra-embryonnaires.",
+        "D": "Vrai : Ces deux zones restent didermiques : ectoblaste et endoblaste y sont directement accolés.",
+        "E": "Faux : Les reliquats de la ligne primitive sont classiquement à l'origine du tératome sacro-coccygien ; le spina bifida relève d'un défaut de fermeture du tube neural et des arcs vertébraux."
+      },
+      "specialite": "EMBR",
+      "items_residanat": [
+        "RES-SF-001"
+      ],
+      "theme": "Gastrulation et mise en place des trois feuillets",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'hypoblaste donne l'endoblaste définitif : c'est l'épiblaste qui fournit les trois feuillets.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sadler TW. Langman's Medical Embryology. 12e éd. Wolters Kluwer / Lippincott Williams & Wilkins ; 2012 [catalogue OUV-0166].",
+          "date": "2012"
+        },
+        {
+          "reference": "Moore KL, Persaud TVN, Torchia MG. The Developing Human: Clinically Oriented Embryology. 11e éd. Elsevier ; 2020 [catalogue OUV-0168].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EMBR-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les structures suivantes, lesquelles dérivent de l'ectoblaste (ectoblaste de surface, neuroectoblaste ou crêtes neurales) ?",
+      "propositions": {
+        "A": "L'épiderme et ses annexes (poils, ongles, glandes sudoripares).",
+        "B": "La médullosurrénale.",
+        "C": "Les mélanocytes.",
+        "D": "L'épithélium de revêtement de la vessie.",
+        "E": "L'adénohypophyse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'ectoblaste se divise en ectoblaste de surface (épiderme, phanères, glandes cutanées et mammaires, émail dentaire, cristallin, adénohypophyse, épithélium de l'oreille interne via la placode otique) et neuroectoblaste. Ce dernier forme le tube neural (système nerveux central, rétine, neurohypophyse) et les crêtes neurales (ganglions spinaux et végétatifs, cellules de Schwann, mélanocytes, médullosurrénale, une grande partie du mésenchyme céphalique). L'endoblaste fournit, lui, les épithéliums des voies digestives, respiratoires et urinaires basses.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'ectoblaste de surface donne l'épiderme, les phanères et les glandes cutanées (y compris la glande mammaire).",
+        "B": "Vrai : Ses cellules chromaffines dérivent des crêtes neurales, contrairement à la corticosurrénale, d'origine mésoblastique (épithélium cœlomique).",
+        "C": "Vrai : Ils dérivent des crêtes neurales puis colonisent l'épiderme et les follicules pileux.",
+        "D": "Faux : L'urothélium vésical dérive de l'endoblaste (sinus uro-génital).",
+        "E": "Vrai : Elle dérive de la poche de Rathke, évagination de l'ectoblaste du stomodéum ; la neurohypophyse dérive du neuroectoblaste (plancher du diencéphale)."
+      },
+      "specialite": "EMBR",
+      "items_residanat": [
+        "RES-SF-001"
+      ],
+      "theme": "Dérivés de l'ectoblaste et des crêtes neurales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre médullosurrénale (crêtes neurales) et corticosurrénale (mésoblaste).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sadler TW. Langman's Medical Embryology. 12e éd. Wolters Kluwer / Lippincott Williams & Wilkins ; 2012 [catalogue OUV-0166].",
+          "date": "2012"
+        },
+        {
+          "reference": "Moore KL, Persaud TVN, Torchia MG. The Developing Human: Clinically Oriented Embryology. 11e éd. Elsevier ; 2020 [catalogue OUV-0168].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EMBR-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le chordomésoblaste (notochorde et mésoblaste intra-embryonnaire) et sa différenciation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La notochorde participe à l'induction de la plaque neurale dans l'ectoblaste sus-jacent.",
+        "B": "Chez l'adulte, des vestiges de la notochorde persistent dans le nucleus pulposus des disques intervertébraux.",
+        "C": "Les somites dérivent du mésoblaste intermédiaire.",
+        "D": "Le sclérotome des somites est à l'origine des vertèbres et des côtes.",
+        "E": "Le myocarde dérive du mésoblaste para-axial."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le mésoblaste intra-embryonnaire se répartit de part et d'autre de la notochorde en trois contingents : para-axial (somitomères puis somites : sclérotome, myotome, dermatome), intermédiaire (néphrotomes, appareil uro-génital) et lame latérale, qui se clive en somatopleure (paroi du corps, membres) et splanchnopleure (paroi du tube digestif, cœur, vaisseaux). La notochorde définit l'axe de l'embryon et joue un rôle inducteur majeur (plaque neurale, polarité ventrale du tube neural). Elle ne persiste que dans le nucleus pulposus.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le nœud primitif et la notochorde sécrètent des facteurs inducteurs (inhibiteurs des BMP comme la chordine et la noggine) puis Sonic hedgehog, qui oriente la partie ventrale du tube neural.",
+        "B": "Vrai : La notochorde régresse au niveau des corps vertébraux et ne persiste qu'au centre des disques ; ses reliquats peuvent donner des chordomes.",
+        "C": "Faux : Les somites dérivent du mésoblaste para-axial ; le mésoblaste intermédiaire donne l'appareil urinaire et les gonades.",
+        "D": "Vrai : Chaque somite se divise en sclérotome (squelette axial), myotome (muscles squelettiques segmentaires) et dermatome (derme du dos).",
+        "E": "Faux : Le myocarde dérive du mésoblaste splanchnique (splanchnopleure) de l'aire cardiogénique, issu de la lame latérale."
+      },
+      "specialite": "EMBR",
+      "items_residanat": [
+        "RES-SF-001"
+      ],
+      "theme": "Chordomésoblaste : notochorde et différenciation du mésoblaste",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer les somites au mésoblaste intermédiaire, qui donne en réalité le rein et les gonades.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sadler TW. Langman's Medical Embryology. 12e éd. Wolters Kluwer / Lippincott Williams & Wilkins ; 2012 [catalogue OUV-0166].",
+          "date": "2012"
+        },
+        {
+          "reference": "Schoenwolf GC, Larsen WJ et al. Larsen's Human Embryology. 4e éd. Elsevier / Churchill Livingstone ; 2009 [catalogue OUV-0167].",
+          "date": "2009"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-EMBR-5004",
+      "format": "QCS (réponse unique)",
+      "enonce": "Parmi les structures suivantes, laquelle dérive de l'endoblaste ?",
+      "propositions": {
+        "A": "Le cristallin.",
+        "B": "L'épithélium des alvéoles pulmonaires.",
+        "C": "Le muscle lisse de la paroi intestinale.",
+        "D": "Le cortex surrénalien.",
+        "E": "L'émail dentaire."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'endoblaste forme le revêtement épithélial du tube digestif (sauf les extrémités stomodéale et proctodéale, ectoblastiques) et de ses glandes annexes (foie, pancréas), l'épithélium de l'arbre respiratoire, de la vessie et de la majeure partie de l'urètre, de la cavité tympanique et de la trompe auditive, ainsi que le parenchyme de la thyroïde et des parathyroïdes et l'épithélium du thymus. Le tissu conjonctif et musculaire de ces organes provient du mésoblaste splanchnique. Principe à retenir : épithélium et parenchyme glandulaire = endoblaste ; paroi = mésoblaste.",
+      "explications_par_proposition": {
+        "A": "Faux : Il dérive de la placode cristallinienne, épaississement de l'ectoblaste de surface.",
+        "B": "Vrai : Le bourgeon respiratoire naît de la paroi ventrale de l'intestin antérieur : l'épithélium de la trachée, des bronches et des alvéoles est endoblastique.",
+        "C": "Faux : Il dérive de la splanchnopleure (mésoblaste de la lame latérale).",
+        "D": "Faux : Il dérive du mésoblaste (épithélium cœlomique).",
+        "E": "Faux : Il est sécrété par les améloblastes d'origine ectoblastique ; la dentine provient du mésenchyme issu des crêtes neurales."
+      },
+      "specialite": "EMBR",
+      "items_residanat": [
+        "RES-SF-001"
+      ],
+      "theme": "Dérivés de l'endoblaste",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer à l'endoblaste toute la paroi d'un viscère : seul l'épithélium (et le parenchyme glandulaire) est endoblastique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sadler TW. Langman's Medical Embryology. 12e éd. Wolters Kluwer / Lippincott Williams & Wilkins ; 2012 [catalogue OUV-0166].",
+          "date": "2012"
+        },
+        {
+          "reference": "Moore KL, Persaud TVN, Torchia MG. The Developing Human: Clinically Oriented Embryology. 11e éd. Elsevier ; 2020 [catalogue OUV-0168].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'anatomie des voies visuelles, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Au niveau du chiasma optique, les fibres issues des hémirétines nasales croisent la ligne médiane.",
+        "B": "Une compression du chiasma par un adénome hypophysaire donne classiquement une hémianopsie bitemporale.",
+        "C": "Le corps genouillé médial est le relais thalamique de la voie visuelle.",
+        "D": "Le cortex visuel primaire (aire 17 de Brodmann) borde la scissure calcarine, à la face médiale du lobe occipital.",
+        "E": "Une lésion de la bandelette optique droite entraîne une cécité monoculaire droite."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La voie visuelle comprend : rétine, nerf optique, chiasma (décussation des fibres nasales), bandelettes optiques, corps genouillé latéral, radiations optiques et cortex strié (aire 17) au bord de la scissure calcarine. Le siège de la lésion se déduit du déficit : nerf optique = cécité monoculaire ; chiasma = hémianopsie bitemporale ; bandelette, radiations ou cortex = hémianopsie latérale homonyme controlatérale (quadranopsie si l'atteinte des radiations est partielle).",
+      "explications_par_proposition": {
+        "A": "Vrai : Les fibres nasales (qui perçoivent le champ visuel temporal) décussent ; les fibres temporales restent homolatérales.",
+        "B": "Vrai : La compression médiane interrompt les fibres nasales croisées des deux yeux, d'où la perte des deux champs temporaux.",
+        "C": "Faux : Le relais visuel est le corps genouillé latéral ; le corps genouillé médial est le relais de la voie auditive.",
+        "D": "Vrai : C'est le cortex strié, qui reçoit les radiations optiques.",
+        "E": "Faux : Une lésion rétrochiasmatique droite donne une hémianopsie latérale homonyme gauche ; la cécité monoculaire traduit une atteinte du nerf optique homolatéral."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-002"
+      ],
+      "theme": "Anatomie des voies visuelles",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre corps genouillé latéral (vision) et corps genouillé médial (audition).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Splittgerber R, Snell RS. Snell's Clinical Neuroanatomy. 8e éd. Wolters Kluwer ; 2019 [catalogue OUV-0161].",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'optique de l'œil emmétrope, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La puissance totale de l'œil au repos est d'environ 60 dioptries.",
+        "B": "La cornée assure environ les deux tiers de la puissance réfractive de l'œil.",
+        "C": "Le cristallin est le dioptre le plus puissant de l'œil au repos.",
+        "D": "L'accommodation correspond à une augmentation de la puissance du cristallin consécutive à la contraction du muscle ciliaire.",
+        "E": "La vergence d'une lentille mince de distance focale 0,5 m (dans l'air) vaut 0,5 dioptrie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le système optique de l'œil est un dioptre composé d'environ 60 dioptries, dues surtout à la cornée (≈ 2/3) et au cristallin (≈ 1/3). Dans l'air, la vergence d'une lentille mince (en dioptries, m⁻¹) est l'inverse de sa distance focale en mètres. L'accommodation, commandée par le parasympathique (nerf oculomoteur, muscle ciliaire), augmente la puissance du cristallin pour la vision de près ; son amplitude diminue avec l'âge (presbytie). L'œil emmétrope au repos forme sur la rétine l'image d'un objet situé à l'infini.",
+      "explications_par_proposition": {
+        "A": "Vrai : C'est la valeur classique de l'œil réduit (environ 58 à 60 dioptries selon les modèles).",
+        "B": "Vrai : Environ 40 à 43 dioptries, du fait de la grande différence d'indice entre l'air (1,00) et la cornée (≈ 1,376).",
+        "C": "Faux : Le cristallin (≈ 20 dioptries au repos) est moins puissant que la cornée car il baigne entre humeur aqueuse et vitré, d'indices proches du sien ; il est en revanche le seul dioptre de puissance variable.",
+        "D": "Vrai : La contraction du muscle ciliaire relâche la zonule ; le cristallin, élastique, se bombe.",
+        "E": "Faux : La vergence est l'inverse de la distance focale exprimée en mètres : 1/0,5 = 2 dioptries."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-002"
+      ],
+      "theme": "Optique de l'œil et accommodation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer au cristallin la plus grande puissance réfractive : c'est la cornée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'histologie de la rétine humaine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les photorécepteurs sont situés dans la partie la plus externe de la rétine neurale, au contact de l'épithélium pigmentaire.",
+        "B": "Les bâtonnets sont concentrés dans la fovéa.",
+        "C": "L'épithélium pigmentaire phagocyte les extrémités des segments externes des photorécepteurs.",
+        "D": "Les axones des cellules ganglionnaires convergent vers la papille pour former le nerf optique.",
+        "E": "Les cellules de Müller sont des neurones d'association à disposition horizontale."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La rétine neurale comprend, de dehors en dedans : couche des photorécepteurs, nucléaire externe, plexiforme externe, nucléaire interne (bipolaires, horizontales, amacrines, noyaux des cellules de Müller), plexiforme interne, couche des cellules ganglionnaires et couche des fibres optiques. La chaîne verticale de transmission est photorécepteur, cellule bipolaire, cellule ganglionnaire. La fovéa, riche en cônes, est la zone d'acuité maximale ; la papille est aveugle. L'épithélium pigmentaire, monocouche cubique riche en mélanine, est indispensable au renouvellement des segments externes.",
+      "explications_par_proposition": {
+        "A": "Vrai : La lumière traverse toute l'épaisseur de la rétine neurale avant d'atteindre les segments externes des photorécepteurs (rétine dite « inversée »).",
+        "B": "Faux : La fovéa centrale ne contient que des cônes ; les bâtonnets prédominent en périphérie.",
+        "C": "Vrai : Il assure aussi le recyclage du rétinal (cycle visuel), absorbe la lumière parasite et constitue la barrière hémato-rétinienne externe.",
+        "D": "Vrai : La papille est dépourvue de photorécepteurs, ce qui explique la tache aveugle (scotome physiologique).",
+        "E": "Faux : Ce sont des cellules gliales radiaires traversant toute l'épaisseur de la rétine ; les neurones d'association sont les cellules horizontales et amacrines."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-002"
+      ],
+      "theme": "Histologie de la rétine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la lumière frappe d'abord les photorécepteurs : ils sont dans la couche la plus profonde de la rétine neurale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Ross MH, Pawlina W. Histology: A Text and Atlas, with Correlated Cell and Molecular Biology. 8e éd. Wolters Kluwer Health ; 2020 [catalogue OUV-0163].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la phototransduction dans les bâtonnets, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "À l'obscurité, un courant entrant de cations (« courant d'obscurité ») maintient le bâtonnet relativement dépolarisé, autour de -40 mV.",
+        "B": "L'absorption d'un photon isomérise le 11-cis-rétinal en tout-trans-rétinal.",
+        "C": "La lumière dépolarise le photorécepteur.",
+        "D": "La transducine est une protéine G qui active une phosphodiestérase hydrolysant le GMPc.",
+        "E": "À la lumière, la libération de glutamate par le photorécepteur augmente."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les photorécepteurs ont un comportement paradoxal : relativement dépolarisés à l'obscurité (canaux cationiques dépendants du GMPc ouverts), ils s'hyperpolarisent à la lumière. La rhodopsine (opsine + 11-cis-rétinal, dérivé de la vitamine A) absorbe le photon ; la cascade transducine–phosphodiestérase amplifie fortement le signal. La baisse de libération de glutamate est interprétée par les cellules bipolaires ON (dépolarisées) et OFF (hyperpolarisées). La carence en vitamine A altère la régénération de la rhodopsine, d'où l'héméralopie.",
+      "explications_par_proposition": {
+        "A": "Vrai : Les canaux cationiques sont maintenus ouverts par le GMPc ; le photorécepteur libère alors continuellement du glutamate.",
+        "B": "Vrai : C'est l'unique étape photochimique ; elle active la rhodopsine (métarhodopsine II).",
+        "C": "Faux : La lumière hyperpolarise le photorécepteur : la transducine active la phosphodiestérase, le GMPc chute et les canaux cationiques se ferment.",
+        "D": "Vrai : Cascade : rhodopsine activée, transducine, phosphodiestérase, baisse du GMPc, fermeture des canaux cationiques.",
+        "E": "Faux : L'hyperpolarisation diminue la libération de glutamate ; cette diminution est le signal codé par les cellules bipolaires."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-002"
+      ],
+      "theme": "Phototransduction",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Penser que la lumière dépolarise le photorécepteur, comme un stimulus « excite » la plupart des récepteurs sensoriels.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la myopie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez le myope non corrigé au repos, l'image d'un objet situé à l'infini se forme en avant de la rétine.",
+        "B": "Elle se corrige par une lentille divergente (verre concave, de puissance négative).",
+        "C": "Le punctum remotum du myope est réel, situé à distance finie en avant de l'œil.",
+        "D": "La myopie axile est due à un œil trop court.",
+        "E": "Le myope non corrigé voit flou de près et net de loin."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La myopie est une amétropie sphérique par excès de convergence par rapport à la longueur axiale : œil trop long (myopie axile, la plus fréquente) ou dioptres trop puissants (myopie de courbure ou d'indice, par exemple cataracte nucléaire). Le punctum remotum est réel, à distance finie : sa distance en mètres est l'inverse de la valeur absolue de la myopie en dioptries. La correction par verres concaves (négatifs) fait coïncider le foyer image du verre avec le punctum remotum.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'œil est trop convergent pour sa longueur axiale : le foyer image est prérétinien.",
+        "B": "Vrai : La lentille négative diminue la vergence totale et ramène l'image sur la rétine.",
+        "C": "Vrai : Pour une myopie de -2 dioptries, le punctum remotum est à 0,5 m ; au-delà, la vision est floue.",
+        "D": "Faux : La myopie axile est due à un œil trop long ; l'œil trop court caractérise l'hypermétropie axile.",
+        "E": "Faux : C'est l'inverse : il voit net de près (jusqu'à son punctum remotum) et flou de loin."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-003"
+      ],
+      "theme": "Myopie",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre myopie (foyer en avant de la rétine, verre négatif) et hypermétropie (foyer en arrière, verre positif).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Salmon JF. Kanski's Clinical Ophthalmology: A Systematic Approach. 9e éd. Elsevier ; 2020 [catalogue OUV-0534].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hypermétropie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Au repos, l'image d'un objet situé à l'infini se forme en arrière de la rétine.",
+        "B": "Le sujet jeune peut compenser une hypermétropie modérée par un effort accommodatif permanent.",
+        "C": "Elle se corrige par une lentille divergente.",
+        "D": "Le punctum remotum de l'hypermétrope est virtuel, situé en arrière de l'œil.",
+        "E": "Hypermétropie et presbytie désignent le même trouble."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'hypermétropie est une amétropie sphérique par défaut de convergence : œil trop court (forme axile, la plus fréquente, physiologique chez le nouveau-né) ou dioptres insuffisamment puissants (aphakie par exemple). Le sujet doit accommoder même pour la vision de loin, et davantage encore de près. Le punctum remotum est virtuel. La correction repose sur des verres convexes (positifs). Chez l'enfant, la cycloplégie est nécessaire pour mesurer l'hypermétropie totale.",
+      "explications_par_proposition": {
+        "A": "Vrai : L'œil hypermétrope est insuffisamment convergent pour sa longueur axiale.",
+        "B": "Vrai : D'où une hypermétropie latente fréquente chez l'enfant, démasquée sous cycloplégique ; cet effort peut entraîner fatigue visuelle et céphalées.",
+        "C": "Faux : Elle se corrige par une lentille convergente (verre convexe, positif).",
+        "D": "Vrai : Les rayons incidents doivent converger vers un point situé derrière l'œil pour être focalisés sur la rétine sans accommodation.",
+        "E": "Faux : L'hypermétropie est une amétropie (défaut de réfraction statique) ; la presbytie est la diminution, liée à l'âge, de l'amplitude d'accommodation, qui touche aussi l'emmétrope et le myope."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-003"
+      ],
+      "theme": "Hypermétropie et distinction avec la presbytie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre hypermétropie et presbytie, qui se corrigent toutes deux par des verres positifs mais relèvent de mécanismes différents.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Salmon JF. Kanski's Clinical Ophthalmology: A Systematic Approach. 9e éd. Elsevier ; 2020 [catalogue OUV-0534].",
+          "date": "2020"
+        },
+        {
+          "reference": "Riordan-Eva P, Augsburger JJ. Vaughan & Asbury's General Ophthalmology. 19e éd. McGraw Hill Education ; 2018 [catalogue OUV-0536].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'astigmatisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il résulte le plus souvent d'une courbure cornéenne différente selon deux méridiens.",
+        "B": "L'image d'un point objet est formée de deux focales linéaires perpendiculaires, séparées par l'intervalle de Sturm.",
+        "C": "L'astigmatisme régulier se corrige par des verres cylindriques (ou sphéro-cylindriques).",
+        "D": "Dans l'astigmatisme régulier, les deux méridiens principaux forment entre eux un angle de 45°.",
+        "E": "L'astigmatisme dit « conforme à la règle » correspond à un méridien horizontal plus cambré que le méridien vertical."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'astigmatisme est une amétropie non sphérique : la puissance de l'œil diffère selon les méridiens, de sorte qu'un point objet donne deux focales linéaires et non un point image. Il est surtout d'origine cornéenne. On distingue l'astigmatisme régulier (méridiens principaux perpendiculaires, corrigé par un cylindre) et irrégulier (kératocône, cicatrices : lentilles rigides ou chirurgie). Selon la position des focales par rapport à la rétine, il est myopique, hypermétropique (simple ou composé) ou mixte.",
+      "explications_par_proposition": {
+        "A": "Vrai : La cornée a alors une forme torique : sa puissance varie selon le méridien considéré.",
+        "B": "Vrai : Entre ces deux focales se situe le cercle de moindre diffusion.",
+        "C": "Vrai : Le cylindre compense la différence de puissance entre les deux méridiens principaux, selon un axe déterminé.",
+        "D": "Faux : Dans l'astigmatisme régulier, les méridiens principaux sont perpendiculaires ; l'astigmatisme irrégulier (kératocône, cicatrice cornéenne) n'est pas corrigé correctement par des verres cylindriques.",
+        "E": "Faux : Dans l'astigmatisme conforme (direct), c'est le méridien vertical qui est le plus cambré ; la situation inverse définit l'astigmatisme inverse."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-003"
+      ],
+      "theme": "Astigmatisme",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un verre sphérique peut corriger complètement un astigmatisme.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Salmon JF. Kanski's Clinical Ophthalmology: A Systematic Approach. 9e éd. Elsevier ; 2020 [catalogue OUV-0534].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5005",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un sujet myope non corrigé a un punctum remotum situé à 25 cm en avant de l'œil. Quelle est la puissance du verre correcteur, supposé accolé à l'œil ?",
+      "propositions": {
+        "A": "+4 dioptries.",
+        "B": "-0,25 dioptrie.",
+        "C": "-4 dioptries.",
+        "D": "-25 dioptries.",
+        "E": "+0,25 dioptrie."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Pour corriger une myopie, le verre doit donner d'un objet à l'infini une image virtuelle située au punctum remotum, que l'œil voit nettement sans accommoder : le foyer image du verre coïncide donc avec le punctum remotum. Avec un verre accolé, C = -1/d = -1/0,25 = -4 dioptries. Le degré de myopie, en dioptries, est l'inverse de la distance du punctum remotum exprimée en mètres. En pratique, la distance verre-œil modifie légèrement la puissance nécessaire pour les fortes corrections.",
+      "explications_par_proposition": {
+        "A": "Faux : Un verre convergent aggraverait la myopie.",
+        "B": "Faux : Confusion entre la distance du punctum remotum (0,25 m) et la vergence, qui en est l'inverse.",
+        "C": "Vrai : Le foyer image du verre divergent doit coïncider avec le punctum remotum : f' = -0,25 m, donc C = 1/f' = -4 dioptries.",
+        "D": "Faux : Erreur d'unité : la distance doit être exprimée en mètres, non en centimètres.",
+        "E": "Faux : Erreur de signe et de calcul."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-003"
+      ],
+      "theme": "Calcul de la correction d'une myopie",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Oublier de convertir la distance en mètres ou se tromper de signe (myopie = verre négatif).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Riordan-Eva P, Augsburger JJ. Vaughan & Asbury's General Ophthalmology. 19e éd. McGraw Hill Education ; 2018 [catalogue OUV-0536].",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'anatomie de l'oreille, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La chaîne ossiculaire comprend, du tympan vers l'oreille interne, le marteau, l'enclume et l'étrier.",
+        "B": "La trompe auditive (d'Eustache) relie la caisse du tympan au rhinopharynx.",
+        "C": "Le muscle stapédien est innervé par le nerf mandibulaire (V3).",
+        "D": "La cochlée humaine décrit environ deux tours et demi à deux tours trois quarts de spire autour du modiolus.",
+        "E": "La fenêtre ronde est obturée par la platine de l'étrier."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "L'oreille externe (pavillon, conduit auditif externe) collecte le son ; l'oreille moyenne (caisse du tympan, osselets, trompe auditive, cavités mastoïdiennes) assure l'adaptation d'impédance ; l'oreille interne (labyrinthe osseux contenant le labyrinthe membraneux) comprend la cochlée (audition), le vestibule et les canaux semi-circulaires (équilibration). Deux muscles s'insèrent sur les osselets : le tenseur du tympan (V3) et le stapédien (VII), effecteur du réflexe stapédien.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le manche du marteau est inclus dans la membrane tympanique ; la platine de l'étrier s'encastre dans la fenêtre ovale (vestibulaire).",
+        "B": "Vrai : Elle assure l'équilibration des pressions de part et d'autre du tympan et le drainage de la caisse.",
+        "C": "Faux : Le muscle stapédien est innervé par le nerf facial (VII) ; c'est le muscle tenseur du tympan qui est innervé par le V3.",
+        "D": "Vrai : Valeur classique : 2,5 à 2,75 tours.",
+        "E": "Faux : La platine de l'étrier occupe la fenêtre ovale ; la fenêtre ronde (cochléaire) est fermée par une membrane (tympan secondaire) qui se déplace en opposition de phase."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-004"
+      ],
+      "theme": "Anatomie de l'oreille moyenne et interne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Inverser l'innervation des deux muscles de l'oreille moyenne.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Dalley AF, Agur AMR, Moore KL. Moore's Clinically Oriented Anatomy. 9e éd. Wolters Kluwer ; 2023 [catalogue OUV-0155].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la biophysique du son et de l'audition, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le niveau d'intensité sonore en décibels vaut L = 10 log10(I/I0), avec I0 = 10⁻¹² W/m².",
+        "B": "Une augmentation de 20 dB correspond à une multiplication de l'intensité sonore par 100.",
+        "C": "Doubler l'intensité sonore augmente le niveau de 10 dB.",
+        "D": "L'oreille moyenne compense en grande partie la différence d'impédance acoustique entre l'air et les liquides de l'oreille interne.",
+        "E": "La vitesse du son est plus faible dans l'eau que dans l'air."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le son est une onde mécanique longitudinale dont la vitesse dépend du milieu (≈ 340 m/s dans l'air, ≈ 1 540 m/s dans les tissus mous). L'intensité s'exprime sur une échelle logarithmique, adaptée à l'immense gamme de sensibilité de l'oreille : +3 dB = intensité multipliée par 2, +10 dB = par 10, +20 dB = par 100. L'oreille moyenne est un adaptateur d'impédance : le rapport des surfaces tympan/fenêtre ovale et le levier ossiculaire multiplient la pression d'environ 20 fois. La perte de cette fonction explique la surdité de transmission.",
+      "explications_par_proposition": {
+        "A": "Vrai : I0 est l'intensité de référence, proche du seuil d'audibilité à 1 000 Hz.",
+        "B": "Vrai : 20 dB = 10 log10(100) ; en pression acoustique, cela correspond à un facteur 10.",
+        "C": "Faux : Doubler l'intensité ajoute 10 log10(2) ≈ 3 dB ; +10 dB correspond à une intensité multipliée par 10.",
+        "D": "Vrai : Sans elle, l'essentiel de l'énergie serait réfléchi à l'interface air-liquide ; le rapport des surfaces tympan/platine de l'étrier et l'effet de levier ossiculaire assurent un gain de pression d'environ 20 fois.",
+        "E": "Faux : Elle est d'environ 340 m/s dans l'air et d'environ 1 500 m/s dans l'eau et les tissus mous."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-004"
+      ],
+      "theme": "Biophysique du son : décibels et adaptation d'impédance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Raisonner de façon linéaire sur les décibels : doubler l'intensité n'ajoute que 3 dB.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'histologie de la cochlée et de l'organe de Corti, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'organe de Corti repose sur la membrane basilaire, dans le canal cochléaire.",
+        "B": "Les cellules ciliées internes, disposées sur une seule rangée, sont à l'origine de la grande majorité des fibres afférentes du nerf cochléaire.",
+        "C": "Les cellules ciliées externes sont disposées sur une seule rangée.",
+        "D": "L'endolymphe, riche en potassium, remplit le canal cochléaire.",
+        "E": "Les stéréocils des cellules ciliées cochléaires sont des cils vibratiles à axonème 9+2."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le canal cochléaire contient l'endolymphe (riche en K+), sécrétée par la strie vasculaire, et est entouré de périlymphe (composition proche du liquide extracellulaire, riche en Na+). L'organe de Corti comprend une rangée de cellules ciliées internes (véritables récepteurs sensoriels, innervation afférente majoritaire) et trois rangées de cellules ciliées externes (amplificateur cochléaire par électromotilité), coiffées par la membrane tectoriale, ainsi que des cellules de soutien (piliers, cellules de Deiters). Les stéréocils sont des microvillosités d'actine reliées par des liens apicaux qui ouvrent les canaux de mécanotransduction.",
+      "explications_par_proposition": {
+        "A": "Vrai : Le canal cochléaire (rampe moyenne) est situé entre la rampe vestibulaire (séparée par la membrane de Reissner) et la rampe tympanique (séparée par la membrane basilaire).",
+        "B": "Vrai : Environ 90 à 95 % des fibres afférentes (type I) font synapse avec les cellules ciliées internes.",
+        "C": "Faux : Elles sont disposées sur trois (parfois quatre) rangées et sont plus nombreuses que les cellules ciliées internes.",
+        "D": "Vrai : Sa composition (K+ élevé, Na+ bas) est maintenue par la strie vasculaire.",
+        "E": "Faux : Les stéréocils sont de longues microvillosités rigides riches en actine ; chez l'adulte, les cellules ciliées cochléaires n'ont pas de kinocil."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-004"
+      ],
+      "theme": "Histologie de la cochlée et de l'organe de Corti",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les cellules ciliées externes transmettent l'essentiel de l'information auditive : ce sont les cellules ciliées internes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Ross MH, Pawlina W. Histology: A Text and Atlas, with Correlated Cell and Molecular Biology. 8e éd. Wolters Kluwer Health ; 2020 [catalogue OUV-0163].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHYS-5002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la physiologie de l'audition, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La base de la cochlée code les sons aigus et l'apex les sons graves.",
+        "B": "La déflexion des stéréocils vers le plus long ouvre des canaux mécanosensibles laissant entrer du K+, ce qui dépolarise la cellule ciliée.",
+        "C": "Les cellules ciliées externes amplifient les vibrations de la membrane basilaire grâce à leur électromotilité.",
+        "D": "Le potentiel endocochléaire est d'environ -80 mV.",
+        "E": "L'oreille humaine jeune perçoit les fréquences comprises entre 2 000 et 200 000 Hz."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'onde propagée le long de la membrane basilaire atteint un maximum d'amplitude en un point qui dépend de la fréquence (tonotopie : aigus à la base, graves à l'apex). La transduction est mécano-électrique : la déflexion des stéréocils ouvre des canaux cationiques, l'entrée de K+ dépolarise la cellule, qui libère du glutamate sur les fibres du nerf cochléaire. Les cellules ciliées externes, par leur électromotilité, amplifient les sons faibles et affinent la sélectivité fréquentielle. Les otoémissions acoustiques, produit de cette activité, sont utilisées pour le dépistage auditif néonatal.",
+      "explications_par_proposition": {
+        "A": "Vrai : La membrane basilaire est étroite et rigide à la base (hautes fréquences), large et souple à l'apex (basses fréquences) : c'est la tonotopie.",
+        "B": "Vrai : L'entrée de K+ est favorisée par le potentiel endocochléaire positif et la forte concentration de K+ de l'endolymphe.",
+        "C": "Vrai : Elles changent de longueur en fonction de leur potentiel membranaire (protéine prestine), à l'origine de l'amplificateur cochléaire et des otoémissions acoustiques.",
+        "D": "Faux : Il est positif, d'environ +80 mV ; associé au potentiel intracellulaire négatif, il crée un gradient électrique élevé à travers la membrane apicale des cellules ciliées.",
+        "E": "Faux : Le champ auditif humain s'étend d'environ 20 Hz à 20 000 Hz ; la sensibilité maximale se situe entre environ 1 000 et 4 000 Hz."
+      },
+      "specialite": "PHYS",
+      "items_residanat": [
+        "RES-SF-004"
+      ],
+      "theme": "Physiologie cochléaire : tonotopie et transduction",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Inverser la tonotopie (la base code les aigus) ou le signe du potentiel endocochléaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        },
+        {
+          "reference": "Boron WF, Boulpaep EL. Medical Physiology. 3e éd. Elsevier ; 2017 [catalogue OUV-0172].",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ANAT-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'anatomie du cœur et de sa vascularisation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les artères coronaires naissent de l'aorte ascendante, au niveau des sinus aortiques (de Valsalva).",
+        "B": "L'artère interventriculaire antérieure est une branche du tronc commun de la coronaire gauche.",
+        "C": "Le sinus coronaire se draine dans l'oreillette gauche.",
+        "D": "Le nœud sinusal est vascularisé, dans la majorité des cas, par une branche de la coronaire droite.",
+        "E": "La valve atrio-ventriculaire gauche est la valve tricuspide."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le cœur est vascularisé par deux artères coronaires nées des sinus aortiques. La coronaire gauche (tronc commun) se divise en interventriculaire antérieure et circonflexe ; la coronaire droite chemine dans le sillon atrio-ventriculaire droit et donne, en cas de dominance droite (la plus fréquente), l'interventriculaire postérieure. Le nœud sinusal est le plus souvent vascularisé par la coronaire droite. Le retour veineux se fait surtout par le sinus coronaire, qui s'ouvre dans l'oreillette droite.",
+      "explications_par_proposition": {
+        "A": "Vrai : Elles naissent juste au-dessus des valvules sigmoïdes aortiques ; leur remplissage est essentiellement diastolique.",
+        "B": "Vrai : Le tronc commun se divise en interventriculaire antérieure et circonflexe.",
+        "C": "Faux : Le sinus coronaire, principal collecteur veineux du cœur, s'abouche dans l'oreillette droite.",
+        "D": "Vrai : Environ 60 % des cas selon les séries classiques ; dans les autres cas, par une branche de la circonflexe.",
+        "E": "Faux : La valve atrio-ventriculaire gauche est la valve mitrale (bicuspide) ; la tricuspide est à droite."
+      },
+      "specialite": "ANAT",
+      "items_residanat": [
+        "RES-SF-005"
+      ],
+      "theme": "Anatomie coronaire et cavités cardiaques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre le sinus coronaire (veineux, oreillette droite) et les sinus aortiques (origine des coronaires).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Standring S (éd.). Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42e éd. Elsevier ; 2020 [catalogue OUV-0150].",
+          "date": "2020"
+        },
+        {
+          "reference": "Dalley AF, Agur AMR, Moore KL. Moore's Clinically Oriented Anatomy. 9e éd. Wolters Kluwer ; 2023 [catalogue OUV-0155].",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les lois physiques de l'écoulement sanguin, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "D'après la loi de Poiseuille, la résistance à l'écoulement est inversement proportionnelle à la puissance quatrième du rayon du vaisseau.",
+        "B": "La loi de Poiseuille suppose l'écoulement laminaire d'un fluide newtonien dans un tube rigide.",
+        "C": "Un nombre de Reynolds élevé favorise un écoulement laminaire.",
+        "D": "Les turbulences, par exemple en aval d'une sténose, peuvent être à l'origine de souffles audibles.",
+        "E": "Pour un débit donné, la vitesse moyenne du sang est plus élevée dans les capillaires que dans l'aorte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le débit obéit à Q = ΔP/R, analogue de la loi d'Ohm. La loi de Poiseuille montre l'influence majeure du rayon (puissance 4), base de la régulation des débits régionaux par les artérioles. L'équation de continuité (Q = S·v) explique la vitesse faible dans le lit capillaire, dont la section totale est la plus grande. Le nombre de Reynolds prédit l'apparition de turbulences, favorisées par une vitesse élevée, un grand diamètre et une viscosité basse (anémie), ce qui explique certains souffles fonctionnels.",
+      "explications_par_proposition": {
+        "A": "Vrai : R = 8ηL/(πr⁴) : diviser le rayon par 2 multiplie la résistance par 16.",
+        "B": "Vrai : Le sang (fluide non newtonien) et les vaisseaux (élastiques) ne la respectent qu'approximativement.",
+        "C": "Faux : Au-delà d'une valeur critique (de l'ordre de 2 000 pour un tube rectiligne), l'écoulement devient turbulent ; Re = ρvD/η augmente avec la vitesse et le diamètre et diminue avec la viscosité.",
+        "D": "Vrai : L'écoulement turbulent est bruyant (souffles, bruits de Korotkoff), contrairement à l'écoulement laminaire, silencieux.",
+        "E": "Faux : Q = S × v : la section totale du lit capillaire est très supérieure à celle de l'aorte, d'où une vitesse très faible (de l'ordre du mm/s), favorable aux échanges."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-005"
+      ],
+      "theme": "Lois de l'écoulement sanguin : Poiseuille, continuité, Reynolds",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que la vitesse est maximale dans les plus petits vaisseaux : c'est la section totale du lit vasculaire qui détermine la vitesse moyenne.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-BIOP-5008",
+      "format": "QCS (réponse unique)",
+      "enonce": "D'après la loi de Laplace appliquée à un vaisseau cylindrique, quelle relation lie la tension pariétale T à la pression transmurale P et au rayon r ?",
+      "propositions": {
+        "A": "T = P × r",
+        "B": "T = P / r",
+        "C": "T = P × r²",
+        "D": "T = 2P / r",
+        "E": "T = P × r⁴"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "La loi de Laplace relie la tension pariétale à la pression transmurale et au rayon : T = P·r pour un cylindre, T = P·r/2 pour une sphère. Elle explique qu'un anévrisme, dont le rayon augmente, subit une tension croissante qui favorise sa propre expansion ; qu'un ventricule dilaté doit développer une tension plus élevée pour générer la même pression (augmentation du travail et de la consommation d'oxygène) ; et que les capillaires, de très petit rayon, résistent à la pression malgré une paroi très mince. L'hypertrophie pariétale réduit la contrainte (P·r/e) en augmentant l'épaisseur.",
+      "explications_par_proposition": {
+        "A": "Vrai : Pour un cylindre, T = P·r (pour une sphère, T = P·r/2) ; la contrainte pariétale vaut P·r/e, e étant l'épaisseur de la paroi.",
+        "B": "Faux : Inversion : la tension pariétale augmente avec le rayon.",
+        "C": "Faux : Le rayon n'intervient pas au carré dans la loi de Laplace.",
+        "D": "Faux : Réarrangement erroné de la relation des sphères P = 2T/r, qui donne en réalité T = P·r/2.",
+        "E": "Faux : Confusion avec la loi de Poiseuille, où le rayon intervient à la puissance 4."
+      },
+      "specialite": "BIOP",
+      "items_residanat": [
+        "RES-SF-005"
+      ],
+      "theme": "Loi de Laplace et paroi vasculaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre la loi de Laplace (rayon à la puissance 1) et la loi de Poiseuille (rayon à la puissance 4).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hobbie RK, Roth BJ. Intermediate Physics for Medicine and Biology. 4e éd. Springer ; 2007 [catalogue OUV-0178].",
+          "date": "2007"
+        },
+        {
+          "reference": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14e éd. Elsevier ; 2021 [catalogue OUV-0170].",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HIST-5003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'histologie de la paroi vasculaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les artères élastiques (aorte) ont une média riche en lames élastiques fenêtrées concentriques.",
+        "B": "Les artères musculaires possèdent une limitante élastique interne bien individualisée.",
+        "C": "La paroi des capillaires comporte trois tuniques : intima, média et adventice.",
+        "D": "Les capillaires sinusoïdes (discontinus) se rencontrent notamment dans le foie, la rate et la moelle osseuse.",
+        "E": "À calibre égal, les veines ont une média plus épaisse que les artères."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La paroi vasculaire comporte trois tuniques : intima (endothélium et couche sous-endothéliale), média (cellules musculaires lisses, fibres élastiques) et adventice (tissu conjonctif, vasa vasorum, nerfs). On distingue artères élastiques (aorte et gros troncs), artères musculaires (artères de distribution) et artérioles (vaisseaux de résistance). Les capillaires sont continus (muscle, poumon, système nerveux central), fenêtrés (rein, glandes endocrines, intestin) ou sinusoïdes (foie, rate, moelle osseuse). Les veines, vaisseaux capacitifs, ont une paroi mince et souvent des valvules.",
+      "explications_par_proposition": {
+        "A": "Vrai : Ces lames permettent l'amortissement de la pulsatilité (effet Windkessel).",
+        "B": "Vrai : Elle sépare l'intima de la média, constituée surtout de cellules musculaires lisses.",
+        "C": "Faux : Le capillaire est fait d'un endothélium, d'une lame basale et de péricytes, sans média ni adventice.",
+        "D": "Vrai : Leur endothélium discontinu et leur lame basale incomplète permettent le passage de macromolécules, voire de cellules.",
+        "E": "Faux : La paroi veineuse est plus mince et sa média plus pauvre en muscle ; l'adventice est souvent la tunique la plus épaisse."
+      },
+      "specialite": "HIST",
+      "items_residanat": [
+        "RES-SF-005"
+      ],
+      "theme": "Histologie de la paroi vasculaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer une média au capillaire : il n'en possède pas.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mescher AL. Junqueira's Basic Histology: Text and Atlas. 17e éd. McGraw Hill ; 2024 [catalogue OUV-0162].",
+          "date": "2024"
+        },
+        {
+          "reference": "Ross MH, Pawlina W. Histology: A Text and Atlas, with Correlated Cell and Molecular Biology. 8e éd. Wolters Kluwer Health ; 2020 [catalogue OUV-0163].",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "RES-02",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

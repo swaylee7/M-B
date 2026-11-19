@@ -1,17 +1,22 @@
 {
   "id": "DOS-02",
-  "statut": "en_cours",
-  "derniere_execution": "2026-11-19T01:23:11+00:00",
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19T01:34:00+00:00",
   "taches_terminees": [
     "DOS-PNEU-0001",
     "DOS-PNEU-0002",
-    "DOS-PNEU-0003"
-  ],
-  "taches_suivantes": [
+    "DOS-PNEU-0003",
     "DOS-INFE-0001",
     "DOS-INFE-0002",
-    "lots QCM/cas finaux",
-    "validation JSON"
+    "lot QCM DOS-02 (62)",
+    "lot cas DOS-02 (10)",
+    "validation JSON/YAML"
+  ],
+  "taches_suivantes": [
+    "Audit (AUD-xx) : lire l'Instruction MS n°07/2024 et l'instruction ITL 2024 (sapp.dz) et corriger DOS-PNEU-0001",
+    "Vérifier en ligne les références méningites (ESCMID 2016, SPILF 2018, OMS 2025, NICE NG240) et brucellose (OMS 2006, Ioannina 2007, Cochrane 2012) → passer verifiee à true",
+    "Confronter toutes les posologies marquées [POSOLOGIE À VÉRIFIER] aux RCP/protocoles nationaux",
+    "Rechercher données algériennes : INSP brucellose et méningites, AARN (résistance pneumocoque), calendrier vaccinal, liste MDO"
   ],
   "objectifs": {
     "dossiers": 5,
@@ -19,8 +24,18 @@
     "cas": 10
   },
   "compteurs": {
-    "dossiers": 3,
-    "qcm": 37,
-    "cas": 6
+    "dossiers": 5,
+    "qcm": 62,
+    "cas": 10,
+    "mots": {
+      "DOS-PNEU-0001": 10963,
+      "DOS-PNEU-0002": 7835,
+      "DOS-PNEU-0003": 8168,
+      "DOS-INFE-0001": 7989,
+      "DOS-INFE-0002": 7499
+    },
+    "sources_verifiees": 27,
+    "sources_non_verifiees": 24,
+    "mots_methode": "wc -w (locale UTF-8) ; en locale C les valeurs sont plus basses (symboles non comptés)"
   }
 }

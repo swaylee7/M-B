@@ -10,3 +10,9 @@ Mission : Dossiers pédagogiques originaux approfondis — Gastro-hépatologie-c
 - 2026-11-19 — DOS-HEPA-0002 rédigé (3 passes, correction QCM 1) ; DOS-CDIG-0001 rédigé (3 passes).
 - 2026-11-19 — DOS-CDIG-0002 rédigé (3 passes).
 - 2026-11-19 — 5 dossiers terminés (mots de corps, hors YAML et ponctuation isolée : GAST-0001 9422 ; HEPA-0001 8245 ; HEPA-0002 7946 ; CDIG-0001 7319 ; CDIG-0002 7245). Début du lot QCM.
+- 2026-11-19 — Lot QCM écrit : `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-04.json` (60 QCM : 12 par item ; QCM-GAST-0401…0412, QCM-HEPA-0401…0424, QCM-CDIG-0401…0424 ; origine `originale_mediverse` ; 52 QCM multiples, 8 QCS). Générateurs conservés dans le scratchpad de session (non versionnés).
+- 2026-11-19 — Lot cas cliniques écrit : `20_CAS_CLINIQUES/lots/DOS-04.json` (10 cas fictifs : CAS-GAST-0401/0402, CAS-HEPA-0401…0404, CAS-CDIG-0401…0404 ; 2 par item, CAS-GAST-0401 rattaché aussi à RES-MED-020).
+- 2026-11-19 — Validation python3 : JSON conformes aux schémas (clés exactes, A–E, identifiants, sources non vides) ; YAML des 5 dossiers lisible ; toutes les sources déclarées sont citées dans le texte.
+- 2026-11-19 — Références : 35 sources sur 70 marquées `verifiee: true` (GAST 8/14, HEPA-0001 9/13, HEPA-0002 9/18, CDIG-0001 5/11, CDIG-0002 4/14). Budget WebSearch épuisé (limite partagée) : essais PONCHO/POINTER/APEC/TENSION/PYTHON/PANTER, scores historiques, AASLD 2021, EASL EH 2022/nutrition 2019, OMS PAIR 2001 non revérifiés.
+- 2026-11-19 — Non modifié volontairement : `files_attente/dossiers_residanat.json` et `programme_residanat.json` (fichiers partagés, risque d'écriture concurrente) — mise à jour laissée à `indexer.py`/orchestrateur. Aucune commande git.
+- 2026-11-19 — Mission DOS-04 (5 dossiers + 60 QCM + 10 cas) terminée ; statut de tous les livrables : brouillon_a_auditer.

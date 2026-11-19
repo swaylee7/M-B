@@ -1,0 +1,709 @@
+{
+  "agent": "DOS-01",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-CARD-0001",
+      "titre": "Essoufflement progressif chez une femme de 76 ans obèse et hypertendue",
+      "niveau": "generaliste",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 76 ans, veuve, vit avec sa fille, ancienne couturière.",
+      "motif_consultation": "Dyspnée d'effort progressive depuis 4 mois, gonflement des chevilles le soir.",
+      "antecedents": "HTA depuis 20 ans (amlodipine 10 mg/j, hydrochlorothiazide 12,5 mg/j), obésité (IMC 34 kg/m²), diabète de type 2 sous metformine, gonarthrose traitée par AINS en automédication depuis 2 mois. Non fumeuse.",
+      "symptomes": "Dyspnée à la montée d'un étage (NYHA III), orthopnée à deux oreillers depuis 3 semaines, prise de poids de 3 kg en un mois, palpitations irrégulières intermittentes.",
+      "examen_clinique": "PA 158/86 mmHg, FC 104/min irrégulière, SpO2 94 % en air ambiant, FR 20/min. Turgescence jugulaire, reflux hépato-jugulaire, crépitants aux deux bases, œdèmes bilatéraux prenant le godet jusqu'à mi-jambe. Pas de souffle. Pas de fièvre.",
+      "biologie": "NT-proBNP 1 450 pg/mL (exclusion en situation non aiguë si < 125 pg/mL) ; créatinine 98 µmol/L, DFGe 49 mL/min/1,73 m² ; K+ 3,6 mmol/L (3,5–5,0) ; Na+ 137 mmol/L ; Hb 12,1 g/dL ; ferritine 64 µg/L, CST 15 % ; HbA1c 7,4 % ; TSH 1,8 mUI/L.",
+      "imagerie": "ECG : fibrillation atriale à 100/min, QRS 90 ms, pas d'onde Q. Radiographie : cardiomégalie modérée, redistribution vasculaire, petits épanchements pleuraux. Échocardiographie : FEVG 58 %, HVG concentrique (masse VG indexée 112 g/m²), oreillette gauche dilatée (volume indexé 48 mL/m²), PAPs estimée 46 mmHg, pas de valvulopathie significative.",
+      "hypotheses_diagnostiques": [
+        "Insuffisance cardiaque à FEVG préservée décompensée",
+        "Fibrillation atriale rapide (facteur déclenchant et conséquence)",
+        "Rétention hydrosodée favorisée par les AINS"
+      ],
+      "diagnostics_differentiels": [
+        "Œdèmes induits par l'amlodipine (n'expliquent pas l'orthopnée ni la turgescence jugulaire)",
+        "Insuffisance rénale chronique avec surcharge",
+        "Amylose cardiaque à transthyrétine (HVG chez une personne âgée — à évoquer si signes d'appel)",
+        "BPCO/pathologie pulmonaire (non fumeuse, peu probable)"
+      ],
+      "examens_a_demander": [
+        "ECG",
+        "NT-proBNP",
+        "Échocardiographie transthoracique",
+        "Ionogramme, créatinine, NFS, bilan martial, TSH, HbA1c",
+        "Radiographie thoracique",
+        "Holter ECG si besoin pour évaluer le contrôle de la fréquence"
+      ],
+      "diagnostic_final": "Insuffisance cardiaque à FEVG préservée (FEVG 58 %), décompensée par une fibrillation atriale rapide et la prise d'AINS, sur cardiopathie hypertensive ; carence martiale associée.",
+      "traitement": "Arrêt des AINS (antalgique par paracétamol). Diurétique de l'anse (furosémide oral, dose adaptée à la réponse, par exemple 40 mg/j) avec surveillance du poids et de la kaliémie ; arrêt de l'hydrochlorothiazide. Contrôle de la fréquence de la FA (bêtabloquant, par exemple bisoprolol à faible dose titré). Anticoagulation orale (CHA2DS2-VASc élevé : âge, sexe, HTA, diabète, IC) par anticoagulant oral direct à dose adaptée à l'âge, au poids et à la fonction rénale [POSOLOGIE À VÉRIFIER — RCP]. Inhibiteur du SGLT2 (dapagliflozine ou empagliflozine 10 mg/j), recommandé en classe I dans l'ICFEp depuis la mise à jour ESC 2023 ; selon l'ESC 2026 (d'après les communiqués), un ARM fait aussi partie du traitement fondamental de l'ICFEp [À VÉRIFIER]. Fer IV à discuter (carence martiale). Contrôle tensionnel. Éducation : pesée quotidienne, sel < 5 g/j. Une hospitalisation de courte durée est justifiée si la diurèse orale est insuffisante ou la SpO2 se dégrade.",
+      "surveillance": "Poids et symptômes quotidiens ; consultation à 1–2 semaines ; ionogramme et créatinine à 1–2 semaines ; FC (objectif de contrôle de fréquence) ; réévaluation clinique et biologique à 3 mois ; dépistage d'une amylose si évolution atypique.",
+      "evolution": "À 3 semaines : perte de 4 kg, disparition de l'orthopnée, FC 78/min, NYHA II, kaliémie 4,2 mmol/L, créatinine 104 µmol/L.",
+      "explication_pedagogique": "L'ICFEp est fréquente chez la femme âgée hypertendue, obèse et diabétique. Le diagnostic associe symptômes, signes de congestion, peptides élevés (l'obésité peut les abaisser) et anomalies échographiques (HVG, OG dilatée, PAPs élevée). Les facteurs déclenchants classiques sont la FA rapide et les AINS. Le traitement associe décongestion, traitement des comorbidités et iSGLT2 ; le cadre ESC 2026 renforce la place des ARM.",
+      "questions": [
+        {
+          "question": "Quels arguments permettent de retenir une IC à FEVG préservée ?",
+          "reponse": "Symptômes et signes de congestion (orthopnée, turgescence jugulaire, œdèmes, crépitants), NT-proBNP élevé (1 450 pg/mL), FEVG ≥ 50 % avec anomalies structurelles (HVG, OG dilatée > 34 mL/m², PAPs > 35 mmHg)."
+        },
+        {
+          "question": "Quels facteurs déclenchants identifiez-vous ?",
+          "reponse": "La fibrillation atriale rapide et la prise d'AINS (rétention hydrosodée, altération de la fonction rénale)."
+        },
+        {
+          "question": "Quel traitement de fond à visée pronostique est recommandé (ESC 2023) ?",
+          "reponse": "Un inhibiteur du SGLT2 (dapagliflozine ou empagliflozine), classe I dans l'ICFEp, en plus des diurétiques pour la congestion et du traitement des comorbidités."
+        },
+        {
+          "question": "Faut-il anticoaguler cette patiente ?",
+          "reponse": "Oui : FA avec score CHA2DS2-VASc élevé ; un anticoagulant oral direct est préféré, à dose adaptée."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        },
+        {
+          "reference": "McDonagh TA et al. 2023 Focused Update ESC HF. Eur Heart J 2023;44:3627-3639",
+          "date": "2023"
+        },
+        {
+          "reference": "2026 ESC Guidelines for the management of heart failure, doi:10.1093/eurheartj/ehag100 (contenu via sources secondaires)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0002",
+      "titre": "Œdème aigu pulmonaire chez une femme de 34 ans porteuse d'une valvulopathie rhumatismale",
+      "niveau": "residanat",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-059"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 34 ans, mère de trois enfants, sans profession, originaire d'une zone rurale.",
+      "motif_consultation": "Dyspnée brutale nocturne avec toux et palpitations.",
+      "antecedents": "Rhumatisme articulaire aigu à 11 ans ; prophylaxie secondaire par benzathine-pénicilline interrompue à 16 ans. Suivi irrégulier pour un « souffle ». Pas de contraception. Pas d'autre antécédent.",
+      "symptomes": "Dyspnée d'effort croissante depuis 6 mois, palpitations depuis 3 jours, dyspnée de repos et orthopnée depuis la nuit, expectorations mousseuses rosées.",
+      "examen_clinique": "Polypnée 32/min, SpO2 85 % en air ambiant, PA 118/76 mmHg, FC 148/min irrégulière. Crépitants bilatéraux jusqu'aux sommets. À l'auscultation : éclat de B2 au foyer pulmonaire, roulement diastolique apexien difficile à entendre du fait de la tachycardie. Pas d'œdème des membres inférieurs. Apyrexie. Test de grossesse négatif.",
+      "biologie": "Troponine hs discrètement élevée sans cinétique ; NT-proBNP 3 200 pg/mL ; créatinine 64 µmol/L ; K+ 3,9 mmol/L ; Hb 11,8 g/dL ; TSH normale ; CRP 6 mg/L.",
+      "imagerie": "ECG : fibrillation atriale à 150/min, axe droit, pas de signe d'ischémie. Radiographie : œdème alvéolaire bilatéral, arc moyen gauche convexe, double contour de l'oreillette gauche. Échocardiographie : rétrécissement mitral rhumatismal serré (surface mitrale planimétrée 0,9 cm², gradient moyen élevé à fréquence rapide), valves souples peu calcifiées, insuffisance mitrale minime, OG très dilatée sans thrombus visible en ETT, FEVG 60 %, PAPs 62 mmHg.",
+      "hypotheses_diagnostiques": [
+        "OAP sur rétrécissement mitral rhumatismal serré décompensé par une fibrillation atriale rapide",
+        "Thrombus de l'auricule gauche (à rechercher)"
+      ],
+      "diagnostics_differentiels": [
+        "OAP sur cardiomyopathie (péripartum exclu, FEVG normale)",
+        "Pneumopathie infectieuse",
+        "Endocardite infectieuse sur valvulopathie rhumatismale (apyrexie, CRP basse — moins probable, mais hémocultures si fièvre)",
+        "Embolie pulmonaire"
+      ],
+      "examens_a_demander": [
+        "Échocardiographie transthoracique puis transœsophagienne (thrombus de l'auricule, score anatomique de la valve avant commissurotomie)",
+        "ECG",
+        "NT-proBNP, troponine, ionogramme, créatinine, NFS, TSH, bilan d'hémostase",
+        "Radiographie thoracique",
+        "Test de grossesse"
+      ],
+      "diagnostic_final": "Insuffisance cardiaque aiguë (OAP) sur rétrécissement mitral rhumatismal serré, déclenchée par une fibrillation atriale rapide.",
+      "traitement": "Phase aiguë : position assise, oxygène puis VNI si nécessaire, furosémide IV (20–40 mg chez la patiente naïve, selon ESC 2021), **ralentissement de la fréquence** (bêtabloquant IV ou oral si PA conservée ; digoxine possible ; la tachycardie raccourcit la diastole et majore le gradient transmitral) ; cardioversion électrique en urgence si instabilité hémodynamique. Anticoagulation : héparine puis **antivitamine K** (les anticoagulants oraux directs ne sont pas recommandés dans le rétrécissement mitral modéré à serré) [À VÉRIFIER — recommandations valvulaires ESC]. À distance : **commissurotomie mitrale percutanée** (anatomie favorable, absence de thrombus en ETO, insuffisance mitrale minime) ; reprise de la prophylaxie du RAA selon le programme national ; contraception et planification d'une éventuelle grossesse après traitement de la valvulopathie.",
+      "surveillance": "Diurèse, SpO2, FC, PA ; ionogramme quotidien ; INR ; ETO avant commissurotomie ; échocardiographie après le geste ; suivi cardiologique régulier ; observance de la benzathine-pénicilline.",
+      "evolution": "Amélioration en 48 h sous diurétique et contrôle de fréquence. ETO : pas de thrombus. Commissurotomie percutanée efficace (surface 1,9 cm²). Retour en NYHA I.",
+      "explication_pedagogique": "Dans le rétrécissement mitral, la tachycardie (FA rapide, grossesse, effort, fièvre) raccourcit la diastole et fait monter brutalement la pression auriculaire gauche : le contrôle de la fréquence est un traitement clé de l'OAP. La FEVG est normale : il ne s'agit pas d'une dysfonction systolique, et le traitement est mécanique. Le contexte algérien (RAA, prophylaxie interrompue) est typique.",
+      "questions": [
+        {
+          "question": "Pourquoi la fibrillation atriale rapide est-elle si mal tolérée dans le rétrécissement mitral ?",
+          "reponse": "Perte de la systole auriculaire et surtout raccourcissement de la diastole, ce qui augmente le gradient transmitral et la pression capillaire pulmonaire."
+        },
+        {
+          "question": "Quel anticoagulant au long cours ?",
+          "reponse": "Une antivitamine K : les anticoagulants oraux directs n'ont pas été validés et ne sont pas recommandés dans le rétrécissement mitral modéré à serré."
+        },
+        {
+          "question": "Quel traitement de la valvulopathie proposer ?",
+          "reponse": "Une commissurotomie mitrale percutanée si l'anatomie est favorable, en l'absence de thrombus auriculaire en ETO et d'insuffisance mitrale significative ; sinon chirurgie."
+        },
+        {
+          "question": "Quelle mesure de prévention ne doit pas être oubliée ?",
+          "reponse": "La reprise de la prophylaxie secondaire du RAA selon le programme national, et l'hygiène bucco-dentaire (prévention de l'endocardite)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie). Programme national de lutte contre le RAA (révisé en 2000)",
+          "date": "2000"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0003",
+      "titre": "Découverte d'une pression artérielle élevée chez un homme de 49 ans",
+      "niveau": "etudiant",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 49 ans, chauffeur de taxi, marié.",
+      "motif_consultation": "PA à 162/98 mmHg mesurée lors d'une visite de médecine du travail.",
+      "antecedents": "Tabagisme actif (20 paquets-années), père décédé d'un AVC à 64 ans. Pas de traitement. Consommation importante de pain, fromages et plats salés ; sédentarité.",
+      "symptomes": "Asymptomatique ; céphalées occipitales matinales occasionnelles.",
+      "examen_clinique": "Trois mesures au cabinet (assis, après 5 min de repos, brassard adapté) : 160/98, 156/96, 158/96 mmHg ; FC 78/min. Aux deux bras : différence < 10 mmHg. Debout à 1 et 3 min : pas d'hypotension orthostatique. Poids 92 kg, taille 1,74 m (IMC 30,4 kg/m²), tour de taille 106 cm. Pouls fémoraux perçus, pas de souffle abdominal. Examen cardiovasculaire et neurologique normal.",
+      "biologie": "Automesure (règle des 3) : moyenne 148/94 mmHg (HTA si ≥ 135/85). Créatinine 86 µmol/L, DFGe 92 mL/min/1,73 m² ; K+ 4,3 mmol/L ; Na+ 140 mmol/L ; glycémie à jeun 1,08 g/L ; LDL-c 1,62 g/L (4,2 mmol/L) ; HDL-c 0,38 g/L ; triglycérides 1,9 g/L ; rapport albumine/créatinine urinaire 18 mg/g (< 30) ; bandelette urinaire normale.",
+      "imagerie": "ECG : rythme sinusal, indice de Sokolow 30 mm, pas de trouble de repolarisation.",
+      "hypotheses_diagnostiques": [
+        "HTA essentielle grade 2 (ESH 2023) / hypertension (ESC 2024)"
+      ],
+      "diagnostics_differentiels": [
+        "Effet blouse blanche (écarté par l'automesure)",
+        "HTA secondaire (pas d'argument : âge > 40 ans, kaliémie normale, pas de signe d'appel)",
+        "Syndrome d'apnées du sommeil (obésité, profession — à rechercher à l'interrogatoire)"
+      ],
+      "examens_a_demander": [
+        "Automesure tensionnelle ou MAPA",
+        "Créatinine et DFGe, kaliémie, natrémie, glycémie, bilan lipidique, rapport albumine/créatinine urinaire, bandelette urinaire",
+        "ECG 12 dérivations",
+        "Évaluation du risque cardiovasculaire (SCORE2)"
+      ],
+      "diagnostic_final": "HTA essentielle confirmée (grade 2), avec tabagisme, obésité abdominale et dyslipidémie : risque cardiovasculaire élevé.",
+      "traitement": "Mesures hygiéno-diététiques : réduction du sel (< 5 g/j), alimentation de type méditerranéen, perte de poids, activité physique (≥ 150 min/semaine), arrêt du tabac avec aide, limitation de l'alcool. Traitement médicamenteux d'emblée (grade 2) : **bithérapie à faibles doses en association fixe**, par exemple IEC ou ARA II + inhibiteur calcique dihydropyridinique (ou + diurétique thiazidique) [posologies selon RCP]. Statine selon le risque global (recommandations sur les dyslipidémies). Rechercher un syndrome d'apnées du sommeil (questionnaire, polygraphie si positif).",
+      "surveillance": "Consultation à 1 mois avec automesure ; kaliémie et créatinine 1–2 semaines après l'introduction d'un IEC/ARA II ; objectif : PAS 120–129 mmHg si bien tolérée (ESC 2024) ou < 130/80 mmHg (ESH 2023, 18–64 ans) ; puis suivi tous les 3–6 mois ; bilan annuel.",
+      "evolution": "À 1 mois, automesure 132/84 mmHg sous association fixe : intensification de dose ; à 3 mois, 124/78 mmHg, sevrage tabagique en cours, perte de 3 kg.",
+      "explication_pedagogique": "Le diagnostic d'HTA repose sur des mesures répétées au cabinet confirmées hors cabinet (seuil de l'automesure : 135/85 mmHg). Le bilan initial est standardisé ; la recherche d'HTA secondaire est orientée. La bithérapie fixe initiale est la stratégie européenne de référence pour la plupart des patients. La prise en charge globale du risque (tabac, lipides, poids) est aussi importante que la baisse tensionnelle.",
+      "questions": [
+        {
+          "question": "Comment confirmer le diagnostic ?",
+          "reponse": "Par une mesure hors cabinet : automesure (moyenne ≥ 135/85 mmHg) ou MAPA (24 h ≥ 130/80 mmHg)."
+        },
+        {
+          "question": "Quel bilan initial ?",
+          "reponse": "Créatinine/DFGe, kaliémie, natrémie, glycémie, bilan lipidique, rapport albumine/créatinine urinaire, bandelette urinaire, ECG."
+        },
+        {
+          "question": "Quel traitement initial ?",
+          "reponse": "Mesures hygiéno-diététiques et bithérapie à faibles doses en association fixe (bloqueur du SRAA + inhibiteur calcique ou diurétique)."
+        },
+        {
+          "question": "Quelle cible tensionnelle ?",
+          "reponse": "PAS 120–129 mmHg si bien tolérée selon l'ESC 2024 ; < 130/80 mmHg chez la plupart des 18–64 ans selon l'ESH 2023."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        },
+        {
+          "reference": "McEvoy JW et al. 2024 ESC Guidelines elevated BP and hypertension. Eur Heart J 2024;45:3912-4018",
+          "date": "2024"
+        },
+        {
+          "reference": "HAS/SFHTA. Prise en charge de l'HTA de l'adulte. Fiche mémo 2016",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0004",
+      "titre": "Céphalées, baisse de la vision et insuffisance rénale aiguë chez un homme de 38 ans",
+      "niveau": "dems",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-060"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 38 ans, maçon, célibataire.",
+      "motif_consultation": "Céphalées intenses depuis 5 jours, vision floue, vomissements.",
+      "antecedents": "« Tension élevée » signalée il y a 3 ans, jamais traitée. Tabagisme. Pas d'autre antécédent connu. Pas de prise de toxiques déclarée.",
+      "symptomes": "Céphalées holocrâniennes, flou visuel bilatéral, nausées et vomissements, asthénie, dyspnée d'effort modérée ; pas de déficit neurologique, pas de convulsion.",
+      "examen_clinique": "PA 238/146 mmHg aux deux bras (symétrique), FC 96/min, SpO2 97 %. Conscience normale, examen neurologique normal. Galop présystolique. Pas de souffle abdominal ; pouls fémoraux normaux. Fond d'œil : hémorragies en flammèches, nodules cotonneux et **œdème papillaire bilatéral**.",
+      "biologie": "Créatinine 312 µmol/L (pas de valeur antérieure) ; urée 18 mmol/L ; K+ 3,4 mmol/L ; Hb 9,6 g/dL ; plaquettes 88 G/L ; **schizocytes 3 %** ; LDH 820 UI/L (élevée) ; haptoglobine effondrée ; bilirubine libre augmentée ; troponine hs modérément élevée ; protéinurie 1,8 g/24 h ; hématurie microscopique. Activité ADAMTS13 demandée.",
+      "imagerie": "ECG : HVG électrique avec surcharge systolique. Radiographie : pas d'œdème pulmonaire. Échocardiographie : HVG concentrique, FEVG 55 %. Scanner cérébral : normal. Échographie rénale : reins de taille normale, pas d'obstacle.",
+      "hypotheses_diagnostiques": [
+        "Urgence hypertensive : HTA maligne avec rétinopathie sévère, microangiopathie thrombotique et insuffisance rénale aiguë"
+      ],
+      "diagnostics_differentiels": [
+        "Purpura thrombotique thrombocytopénique (activité ADAMTS13 effondrée)",
+        "Syndrome hémolytique et urémique atypique",
+        "Glomérulonéphrite aiguë avec HTA sévère",
+        "Sclérodermie (crise rénale sclérodermique)",
+        "HTA secondaire : sténose des artères rénales, hyperaldostéronisme, phéochromocytome, prise de cocaïne"
+      ],
+      "examens_a_demander": [
+        "Fond d'œil",
+        "Créatinine, ionogramme, NFS avec schizocytes, LDH, haptoglobine, bilirubine, plaquettes",
+        "Activité ADAMTS13, complément (si doute avec un SHU atypique)",
+        "Protéinurie, sédiment urinaire",
+        "ECG, troponine, échocardiographie",
+        "Imagerie cérébrale si signes neurologiques",
+        "À distance : bilan d'HTA secondaire (rénine/aldostérone après stabilisation, écho-doppler des artères rénales, métanéphrines)"
+      ],
+      "diagnostic_final": "HTA maligne (urgence hypertensive) avec microangiopathie thrombotique et insuffisance rénale aiguë, sur HTA non traitée.",
+      "traitement": "Hospitalisation en soins intensifs. Antihypertenseur IV titrable : **labétalol** ou **nicardipine** (alternative : urapidil), objectif de baisse de la **PAM de 20–25 % en quelques heures** (pas de normalisation brutale) selon les recommandations ESC/ESH 2018 reprises en 2023–2024 ; exemples de posologies : nicardipine 5 mg/h augmentée de 2,5 mg/h toutes les 15–30 min jusqu'à 15 mg/h ; labétalol en bolus de 0,25–0,5 mg/kg ou perfusion 2–4 mg/min [À CONFRONTER AU RCP ET AU PROTOCOLE LOCAL]. Éviter les diurétiques initialement (déplétion volémique fréquente par natriurèse de pression) sauf surcharge. Relais oral progressif sur 24–48 h, en introduisant un bloqueur du SRAA prudemment (activation intense du SRAA, surveillance de la créatinine et de la kaliémie). Prise en charge néphrologique (épuration extrarénale si nécessaire). Si l'activité ADAMTS13 est effondrée : prise en charge spécifique d'un PTT (échanges plasmatiques).",
+      "surveillance": "PA toutes les 15 minutes pendant la titration ; état neurologique ; diurèse ; créatinine, plaquettes, LDH, schizocytes quotidiens ; fond d'œil de contrôle ; à distance, MAPA et bilan d'HTA secondaire.",
+      "evolution": "Baisse de la PA à 175/105 mmHg à H6 puis 150/95 mmHg à J2 ; régression de l'hémolyse et ascension des plaquettes en quelques jours ; créatinine stabilisée à 180 µmol/L à J10 ; ADAMTS13 normale. Relais par association IEC + inhibiteur calcique + bêtabloquant.",
+      "explication_pedagogique": "L'HTA maligne est définie par une PA très élevée avec rétinopathie sévère (hémorragies, nodules cotonneux, œdème papillaire), souvent associée à une microangiopathie thrombotique et à une insuffisance rénale aiguë. Il s'agit d'une urgence hypertensive : traitement IV titrable avec baisse progressive (PAM −20 à 25 % sur plusieurs heures), car l'autorégulation cérébrale et rénale est déplacée vers le haut. La microangiopathie de l'HTA maligne doit être distinguée d'un PTT ou d'un SHU atypique.",
+      "questions": [
+        {
+          "question": "Quels éléments définissent l'HTA maligne ?",
+          "reponse": "PA très élevée associée à une rétinopathie sévère (hémorragies, exsudats, œdème papillaire), souvent avec microangiopathie thrombotique et atteinte rénale aiguë."
+        },
+        {
+          "question": "Quel est l'objectif tensionnel initial ?",
+          "reponse": "Baisser la PAM de 20 à 25 % en quelques heures, sans normalisation brutale (risque d'ischémie cérébrale et rénale)."
+        },
+        {
+          "question": "Pourquoi éviter un diurétique d'emblée ?",
+          "reponse": "La natriurèse de pression entraîne souvent une hypovolémie relative ; le diurétique aggraverait l'activation du SRAA et l'insuffisance rénale, sauf surcharge avérée."
+        },
+        {
+          "question": "Quel diagnostic différentiel hématologique doit être éliminé ?",
+          "reponse": "Le purpura thrombotique thrombocytopénique (activité ADAMTS13 effondrée), et le syndrome hémolytique et urémique atypique."
+        },
+        {
+          "question": "Quel bilan à distance ?",
+          "reponse": "Bilan d'HTA secondaire (sujet jeune, HTA sévère) : rapport aldostérone/rénine, écho-doppler des artères rénales, métanéphrines, recherche de néphropathie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Williams B et al. 2018 ESC/ESH Guidelines. Eur Heart J 2018;39:3021-3104",
+          "date": "2018"
+        },
+        {
+          "reference": "Mancia G et al. 2023 ESH Guidelines. J Hypertens 2023;41:1874-2071",
+          "date": "2023"
+        },
+        {
+          "reference": "McEvoy JW et al. 2024 ESC Guidelines. Eur Heart J 2024;45:3912-4018",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0005",
+      "titre": "Douleur thoracique et arrêt cardiaque chez un homme de 52 ans",
+      "niveau": "resident",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 52 ans, cadre administratif, vit dans une grande ville disposant d'un centre d'angioplastie 24 h/24.",
+      "motif_consultation": "Douleur thoracique constrictive depuis 50 minutes, appel des secours par l'épouse.",
+      "antecedents": "Tabagisme (30 paquets-années), dyslipidémie non traitée, père coronarien à 50 ans.",
+      "symptomes": "Douleur rétrosternale intense, irradiant à la mâchoire et au bras gauche, sueurs, nausées.",
+      "examen_clinique": "À l'arrivée de l'équipe médicale : PA 128/80 mmHg, FC 94/min, SpO2 96 %, pas de signe d'IC (Killip I). Pendant l'enregistrement de l'ECG, perte de connaissance : **fibrillation ventriculaire** au scope.",
+      "biologie": "Au centre : troponine hs 85 ng/L à l'admission (sans attendre pour la décision) ; créatinine 88 µmol/L ; K+ 3,8 mmol/L ; LDL-c 1,74 g/L ; HbA1c 5,7 %.",
+      "imagerie": "ECG (après récupération) : sus-décalage de ST de 4 mm de V1 à V5, DI et aVL, miroir inférieur. Coronarographie : occlusion de l'IVA proximale (TIMI 0). Échocardiographie à J2 : FEVG 38 %, akinésie antéro-apicale, **thrombus apical de 14 mm**.",
+      "hypotheses_diagnostiques": [
+        "SCA ST+ antérieur étendu compliqué de fibrillation ventriculaire primaire"
+      ],
+      "diagnostics_differentiels": [
+        "Dissection aortique (douleur non migratrice, PA symétrique — peu probable)",
+        "Péricardite (sus-décalage localisé avec miroir — non)",
+        "Takotsubo (contexte et occlusion coronaire — non)"
+      ],
+      "examens_a_demander": [
+        "ECG dans les 10 minutes et répété",
+        "Coronarographie immédiate (angioplastie primaire)",
+        "Troponine, ionogramme, magnésium, créatinine, NFS, glycémie, bilan lipidique",
+        "Échocardiographie (FEVG, thrombus, complications)"
+      ],
+      "diagnostic_final": "Infarctus antérieur étendu (SCA ST+, occlusion de l'IVA proximale) compliqué de FV primaire réanimée et d'un thrombus apical ; FEVG 38 %.",
+      "traitement": "Choc électrique externe immédiat (récupération après un choc). Aspirine 150–300 mg ; héparine non fractionnée 70–100 UI/kg en salle ; angioplastie primaire par voie radiale avec stent actif (délai diagnostic–passage du guide < 90 min). Prasugrel 60 mg puis 10 mg/j (patient < 75 ans, > 60 kg, sans antécédent d'AVC) selon l'ESC 2023. Découverte d'un thrombus apical : anticoagulation orale nécessaire → le schéma antithrombotique est révisé : **triple thérapie courte** (anticoagulant + aspirine + **clopidogrel**, le prasugrel étant remplacé) puis double thérapie anticoagulant + clopidogrel ; durée de l'anticoagulation pour le thrombus de l'ordre de 3 à 6 mois avec contrôle par imagerie [À VÉRIFIER — ESC 2023]. Statine de forte intensité (objectif LDL-c < 1,4 mmol/L), bêtabloquant, IEC, ARM (FEVG ≤ 40 % — à confirmer avec IC ou diabète), arrêt du tabac, réadaptation.",
+      "surveillance": "USIC avec monitorage prolongé ; kaliémie et magnésémie ; échocardiographie de contrôle du thrombus ; réévaluation de la FEVG à 6–12 semaines (pas de défibrillateur en prévention primaire avant 40 jours ; la FV survenue dans les 48 premières heures d'un infarctus n'est pas, en elle-même, une indication de défibrillateur) ; bilan lipidique à 4–6 semaines.",
+      "evolution": "Disparition du thrombus à 3 mois ; FEVG 46 % à 3 mois ; pas de récidive rythmique ; sevrage tabagique.",
+      "explication_pedagogique": "La FV primaire survient surtout dans les premières heures de l'infarctus ; le défibrillateur doit être disponible dès le premier contact. L'angioplastie primaire est la stratégie de référence si elle est réalisable dans les délais. Le thrombus apical complique les infarctus antérieurs étendus et impose une anticoagulation, ce qui modifie le choix de l'inhibiteur du P2Y12 (clopidogrel en association à l'anticoagulant).",
+      "questions": [
+        {
+          "question": "Quelle est la conduite immédiate devant la FV ?",
+          "reponse": "Défibrillation électrique immédiate, réanimation cardiopulmonaire si nécessaire, puis coronarographie immédiate."
+        },
+        {
+          "question": "Quel délai cible pour l'angioplastie primaire ?",
+          "reponse": "Passage du guide dans les 60 minutes si le patient est dans un centre d'angioplastie, 90 minutes en cas de transfert, à partir du diagnostic (ESC 2023)."
+        },
+        {
+          "question": "Comment adapter le traitement antithrombotique en cas de thrombus ventriculaire gauche ?",
+          "reponse": "Ajouter un anticoagulant oral et utiliser le clopidogrel comme inhibiteur du P2Y12, avec une triple thérapie la plus courte possible puis une double thérapie."
+        },
+        {
+          "question": "Faut-il implanter un défibrillateur avant la sortie ?",
+          "reponse": "Non : la FV de la phase aiguë n'est pas une indication en soi ; la FEVG est réévaluée à distance (≥ 40 jours / 6–12 semaines)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        },
+        {
+          "reference": "McDonagh TA et al. 2021 ESC HF Guidelines. Eur Heart J 2021;42:3599-3726",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0006",
+      "titre": "Choc et souffle nouveau quatre jours après une douleur thoracique négligée",
+      "niveau": "residanat",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-056"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 67 ans, retraité, diabétique, vivant seul dans une commune rurale.",
+      "motif_consultation": "Dyspnée brutale et malaise, amené par un voisin.",
+      "antecedents": "Diabète de type 2 depuis 15 ans (neuropathie), HTA, tabagisme sevré. Il rapporte une « douleur d'estomac » intense avec sueurs il y a 4 jours, non consultée.",
+      "symptomes": "Dyspnée de repos apparue brutalement depuis 6 heures, orthopnée, asthénie extrême.",
+      "examen_clinique": "PA 82/54 mmHg, FC 118/min régulière, SpO2 86 %, FR 30/min, extrémités froides et marbrées, oligurie. Crépitants bilatéraux. **Souffle holosystolique nouveau**, maximal au bord gauche du sternum, irradiant « en rayon de roue », avec **frémissement** palpable. Turgescence jugulaire.",
+      "biologie": "Lactates 4,8 mmol/L ; troponine hs très élevée en phase de décroissance ; créatinine 168 µmol/L ; K+ 5,1 mmol/L ; glycémie 2,8 g/L ; Hb 13 g/dL.",
+      "imagerie": "ECG : ondes Q en DII, DIII, aVF avec sus-décalage résiduel de ST et ondes T négatives (infarctus inférieur d'environ 4 jours). Échocardiographie : akinésie inférieure et inféroseptale, **communication interventriculaire** inféroseptale basale avec shunt gauche-droite important, VD dilaté, FEVG 45 % ; pas de rupture de pilier, pas d'épanchement péricardique.",
+      "hypotheses_diagnostiques": [
+        "Choc cardiogénique par rupture septale (CIV) compliquant un infarctus inférieur vu tardivement"
+      ],
+      "diagnostics_differentiels": [
+        "Rupture de pilier mitral (insuffisance mitrale aiguë — souffle apexien, OAP)",
+        "Rupture de la paroi libre avec tamponnade (épanchement, dissociation électromécanique)",
+        "Infarctus du ventricule droit (pas de shunt)",
+        "Récidive ischémique / extension de l'infarctus"
+      ],
+      "examens_a_demander": [
+        "Échocardiographie en urgence (diagnostic de la complication mécanique)",
+        "ECG",
+        "Lactates, gaz du sang, créatinine, ionogramme, troponine",
+        "Coronarographie (bilan préopératoire, si l'état le permet)"
+      ],
+      "diagnostic_final": "Rupture septale post-infarctus inférieur (présentation tardive, douleur atypique chez un diabétique) avec choc cardiogénique.",
+      "traitement": "Transfert immédiat vers un centre médico-chirurgical. Stabilisation : oxygénation (ventilation selon l'état), noradrénaline si hypotension, dobutamine selon le débit, diurétiques prudents ; réduction de la postcharge si la PA le permet ; **assistance circulatoire mécanique** de courte durée en centre expert (pont vers la chirurgie). **Réparation chirurgicale** (ou fermeture percutanée chez des patients sélectionnés) ; coronarographie pour un éventuel pontage associé. Correction glycémique par insuline IV.",
+      "surveillance": "Réanimation : hémodynamique, lactates, diurèse, fonction rénale, gaz du sang ; échocardiographie répétée ; surveillance postopératoire (shunt résiduel).",
+      "evolution": "Opéré en urgence après stabilisation sous assistance ; fermeture de la CIV et pontage de la coronaire droite. Sortie de réanimation à J12.",
+      "explication_pedagogique": "Les complications mécaniques (rupture de paroi libre, de septum, de pilier) surviennent typiquement entre J2 et J7, pendant la phase de ramollissement de la nécrose ; elles sont favorisées par l'absence de reperfusion, fréquente chez les diabétiques à symptômes atypiques qui consultent tard. Un souffle holosystolique nouveau avec choc impose une échocardiographie immédiate. Le traitement est chirurgical, après stabilisation éventuellement sous assistance.",
+      "questions": [
+        {
+          "question": "Quelle complication suspecter devant un souffle holosystolique nouveau et un choc à J4 ?",
+          "reponse": "Une complication mécanique : rupture septale (CIV) ou rupture de pilier mitral ; l'échocardiographie tranche."
+        },
+        {
+          "question": "Pourquoi cette complication survient-elle à ce moment ?",
+          "reponse": "Entre J3 et J7, la nécrose est en phase de détersion macrophagique et de ramollissement maximal, avant la formation du tissu de granulation."
+        },
+        {
+          "question": "Quel facteur a favorisé la présentation tardive ?",
+          "reponse": "Le diabète (neuropathie, symptômes atypiques — « douleur d'estomac »), l'isolement et l'absence de recours aux soins."
+        },
+        {
+          "question": "Quel est le traitement définitif ?",
+          "reponse": "La réparation chirurgicale (ou fermeture percutanée chez des patients sélectionnés), après stabilisation, éventuellement sous assistance circulatoire mécanique."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0007",
+      "titre": "Douleur thoracique au cabinet du médecin généraliste",
+      "niveau": "generaliste",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 61 ans, commerçant.",
+      "motif_consultation": "Douleurs thoraciques à l'effort de plus en plus fréquentes, dont une au repos ce matin.",
+      "antecedents": "HTA traitée (périndopril), dyslipidémie (statine arrêtée par le patient), tabagisme actif, diabète de type 2 sous metformine.",
+      "symptomes": "Depuis 3 semaines, oppression rétrosternale à la marche rapide, cédant en 3 à 5 minutes au repos ; depuis 4 jours, douleurs pour des efforts minimes ; ce matin, douleur au repos de 25 minutes, spontanément résolutive. Actuellement asymptomatique.",
+      "examen_clinique": "PA 146/88 mmHg, FC 82/min, SpO2 97 %. Examen cardiovasculaire normal, pas de signe d'IC, pouls périphériques présents.",
+      "biologie": "Aucun examen biologique disponible au cabinet.",
+      "imagerie": "ECG au cabinet : rythme sinusal, ondes T négatives de V2 à V4, sans sus-décalage de ST ; aucun ECG antérieur disponible.",
+      "hypotheses_diagnostiques": [
+        "SCA sans sus-décalage de ST (angor instable crescendo puis de repos ; NSTEMI possible)"
+      ],
+      "diagnostics_differentiels": [
+        "Angor stable (non : aggravation récente et douleur de repos)",
+        "Péricardite",
+        "Reflux gastro-œsophagien",
+        "Douleur pariétale"
+      ],
+      "examens_a_demander": [
+        "ECG immédiat (fait) et comparaison aux tracés antérieurs",
+        "Orientation urgente vers une structure disposant de troponine ultrasensible, de surveillance et d'un accès à la coronarographie",
+        "Troponine ultrasensible H0/H1 (ou H0/H2) à l'hôpital"
+      ],
+      "diagnostic_final": "SCA ST− (angor crescendo puis de repos) ; à l'hôpital, la troponine ultrasensible s'élève entre H0 et H1 : NSTEMI.",
+      "traitement": "Au cabinet : appel du service d'urgence pour un transport médicalisé (ne pas laisser le patient conduire), aspirine per os en dose de charge en l'absence d'allergie (150–300 mg selon l'ESC 2023), trinitrine sublinguale en cas de récidive douloureuse (si PA conservée), ne pas réaliser un dosage de troponine « en ville » qui retarderait la prise en charge. À l'hôpital : anticoagulation parentérale, stratégie invasive selon le risque (NSTEMI = haut risque → coronarographie < 24 h à envisager), inhibiteur du P2Y12 après la coronarographie, puis prévention secondaire (statine de forte intensité, arrêt du tabac, réadaptation).",
+      "surveillance": "Après la sortie : suivi par le médecin généraliste de l'observance (DAPT 12 mois, statine), bilan lipidique à 4–6 semaines, contrôle tensionnel et glycémique, accompagnement du sevrage tabagique, réadaptation cardiaque.",
+      "evolution": "Coronarographie à H20 : sténose serrée de l'IVA moyenne traitée par angioplastie et stent actif. Sortie à J3.",
+      "explication_pedagogique": "Un angor d'aggravation récente ou de repos est un SCA ST− jusqu'à preuve du contraire, même si le patient est asymptomatique et l'ECG peu modifié. Le rôle du médecin généraliste est de reconnaître la situation, d'administrer l'aspirine et d'organiser un transfert médicalisé rapide, sans retarder par des examens de ville. Le diagnostic de NSTEMI repose sur la cinétique de la troponine ultrasensible.",
+      "questions": [
+        {
+          "question": "Pourquoi ne pas se contenter d'un rendez-vous de cardiologie programmé ?",
+          "reponse": "Il s'agit d'un SCA ST− (angor crescendo puis de repos) à risque de progression vers l'infarctus : une évaluation hospitalière urgente est nécessaire."
+        },
+        {
+          "question": "Quels gestes au cabinet ?",
+          "reponse": "ECG, aspirine en dose de charge, trinitrine si douleur, appel des secours pour un transport médicalisé."
+        },
+        {
+          "question": "Que signifie une élévation de troponine entre H0 et H1 ?",
+          "reponse": "Une lésion myocardique aiguë ; dans ce contexte d'ischémie, le diagnostic est un NSTEMI, critère de haut risque."
+        },
+        {
+          "question": "Quel rôle du généraliste après la sortie ?",
+          "reponse": "Suivi de l'observance de la DAPT et de la statine, contrôle des facteurs de risque, sevrage tabagique, orientation vers la réadaptation."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0008",
+      "titre": "Douleur thoracique, troponine élevée et coronaires normales chez une femme de 64 ans",
+      "niveau": "dems",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-057"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 64 ans, enseignante retraitée.",
+      "motif_consultation": "Douleur thoracique oppressante survenue quelques heures après l'annonce du décès brutal de son frère.",
+      "antecedents": "Ménopause à 50 ans, HTA légère, pas de diabète, non fumeuse.",
+      "symptomes": "Douleur rétrosternale de 40 minutes, dyspnée, malaise, sueurs.",
+      "examen_clinique": "PA 132/84 mmHg, FC 98/min, SpO2 96 %, crépitants discrets aux bases, pas de souffle.",
+      "biologie": "hs-cTnT H0 : 88 ng/L, H1 : 112 ng/L (cinétique significative) ; NT-proBNP 2 400 pg/mL ; créatinine 70 µmol/L ; CRP normale.",
+      "imagerie": "ECG : sus-décalage de ST de 1 mm de V2 à V4 puis, à H12, ondes T négatives profondes et allongement du QT. Coronarographie en urgence (doute avec un SCA ST+) : **absence de sténose coronaire ≥ 50 %**, pas de dissection ni de thrombus. Ventriculographie et échocardiographie : **akinésie de toute la région apicale** avec hyperkinésie basale (« ballonisation apicale »), FEVG 35 %. IRM à J5 : œdème myocardique apical, **pas de rehaussement tardif** ischémique ou myocarditique.",
+      "hypotheses_diagnostiques": [
+        "MINOCA (diagnostic de travail)",
+        "Syndrome de Takotsubo",
+        "Myocardite",
+        "Infarctus sur rupture de plaque non obstructive, spasme ou embolie"
+      ],
+      "diagnostics_differentiels": [
+        "SCA de type 1 sur coronaires non obstructives",
+        "Myocardite aiguë",
+        "Dissection coronaire spontanée",
+        "Spasme coronaire",
+        "Embolie coronaire"
+      ],
+      "examens_a_demander": [
+        "Coronarographie (± imagerie endocoronaire si suspicion de rupture de plaque)",
+        "Ventriculographie / échocardiographie",
+        "IRM cardiaque (diagnostic étiologique du MINOCA)",
+        "Suivi échographique de la récupération de la FEVG"
+      ],
+      "diagnostic_final": "Syndrome de Takotsubo (cardiomyopathie de stress) — le diagnostic de MINOCA, initialement retenu comme diagnostic de travail, est requalifié après l'IRM (le Takotsubo n'est pas un infarctus au sens strict).",
+      "traitement": "Surveillance en USIC (risque d'IC, d'obstruction intraventriculaire, de troubles du rythme liés à l'allongement du QT, de thrombus apical). Traitement de l'IC selon l'état (diurétiques ; IEC/bêtabloquant si tolérés et en l'absence d'obstruction) ; anticoagulation à discuter en cas de thrombus apical. Arrêt de la double antiagrégation débutée initialement, puisque l'hypothèse d'un SCA de type 1 n'est pas retenue. Soutien psychologique.",
+      "surveillance": "ECG (QT), échocardiographie jusqu'à la récupération (habituellement en quelques semaines), réévaluation clinique.",
+      "evolution": "FEVG 60 % à 6 semaines ; normalisation progressive de l'ECG.",
+      "explication_pedagogique": "Une troponine élevée avec cinétique et des symptômes ischémiques font évoquer un SCA ; la coronarographie sans lésion obstructive impose une démarche diagnostique de MINOCA : l'IRM distingue infarctus (rehaussement sous-endocardique), myocardite (rehaussement sous-épicardique ou intramyocardique) et Takotsubo (œdème sans rehaussement significatif, récupération). Le traitement dépend de la cause finale ; la DAPT n'est pas indiquée dans le Takotsubo.",
+      "questions": [
+        {
+          "question": "Qu'est-ce qu'un MINOCA ?",
+          "reponse": "Un infarctus sans lésion coronaire obstructive (sténose < 50 %) : c'est un diagnostic de travail qui impose de rechercher la cause (plaque, spasme, embolie, dissection) et d'éliminer les diagnostics différentiels (myocardite, Takotsubo)."
+        },
+        {
+          "question": "Quel examen est central pour le diagnostic étiologique ?",
+          "reponse": "L'IRM cardiaque."
+        },
+        {
+          "question": "Quelles complications surveiller dans le Takotsubo ?",
+          "reponse": "Insuffisance cardiaque, choc (dont obstruction intraventriculaire), troubles du rythme (QT long, torsades), thrombus apical."
+        },
+        {
+          "question": "Faut-il poursuivre la double antiagrégation ?",
+          "reponse": "Non, si le diagnostic de SCA de type 1 est écarté ; elle n'a pas d'indication dans le Takotsubo."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Byrne RA et al. 2023 ESC ACS Guidelines. Eur Heart J 2023;44:3720-3826",
+          "date": "2023"
+        },
+        {
+          "reference": "Thygesen K et al. Fourth universal definition of MI. Eur Heart J 2019;40:237-269",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0009",
+      "titre": "Fièvre chez un patient hémodialysé porteur d'un cathéter",
+      "niveau": "resident",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 58 ans, hémodialysé chronique depuis 3 ans par cathéter veineux central tunnelisé (fistule thrombosée).",
+      "motif_consultation": "Frissons et fièvre en cours de séance de dialyse.",
+      "antecedents": "Néphropathie diabétique, diabète de type 2 insulinotraité, HTA, insuffisance mitrale dégénérative légère connue.",
+      "symptomes": "Fièvre à 39,4 °C avec frissons depuis 48 h, douleurs lombaires depuis 3 jours, asthénie.",
+      "examen_clinique": "PA 104/62 mmHg, FC 112/min, SpO2 95 %. Orifice du cathéter inflammatoire avec écoulement purulent. Souffle holosystolique apexien **plus intense** qu'à l'échographie de l'an dernier. Douleur à la percussion des épineuses L3–L4. Pas de déficit neurologique. Hémorragies conjonctivales.",
+      "biologie": "Hémocultures (3 séries périphériques + 1 sur cathéter) : ***Staphylococcus aureus* sensible à la méticilline** dans toutes les séries ; hémocultures de contrôle à 72 h encore positives. CRP 210 mg/L, leucocytes 16 G/L, Hb 9,1 g/dL.",
+      "imagerie": "ETT : végétation de 9 mm sur la grande valve mitrale, insuffisance mitrale modérée. ETO : végétation mobile de 12 mm, perforation partielle, insuffisance mitrale sévère, pas d'abcès. IRM rachidienne : spondylodiscite L3–L4. Scanner abdominal : infarctus splénique. IRM cérébrale : micro-lésions ischémiques asymptomatiques.",
+      "hypotheses_diagnostiques": [
+        "Endocardite infectieuse mitrale à S. aureus associée aux soins (cathéter d'hémodialyse)",
+        "Spondylodiscite et embolies spléniques et cérébrales"
+      ],
+      "diagnostics_differentiels": [
+        "Bactériémie sur cathéter sans endocardite (écartée par l'ETO)",
+        "Spondylodiscite isolée"
+      ],
+      "examens_a_demander": [
+        "Hémocultures avant antibiotiques et hémocultures de contrôle à 48–72 h",
+        "ETT puis ETO",
+        "Imagerie rachidienne, abdominale et cérébrale",
+        "Retrait et culture du cathéter",
+        "Bilan préopératoire"
+      ],
+      "diagnostic_final": "Endocardite infectieuse mitrale certaine à S. aureus sensible à la méticilline, associée aux soins (cathéter de dialyse), compliquée d'insuffisance mitrale sévère, d'embolies (rate, cerveau) et de spondylodiscite, avec bactériémie persistante.",
+      "traitement": "Retrait du cathéter (accès temporaire controlatéral après négativation si possible). Antibiothérapie bactéricide IV : **(flu)cloxacilline 12 g/j** ou **céfazoline** (posologie à adapter à l'hémodialyse — avis infectiologique et pharmacologique) pendant 4 à 6 semaines, **sans aminoside** (ESC 2023) ; durée prolongée du fait de la spondylodiscite [POSOLOGIE À VÉRIFIER — adaptation à l'insuffisance rénale terminale]. Discussion en Endocarditis Team : **indication chirurgicale urgente** (végétation ≥ 10 mm avec régurgitation sévère et embolies, bactériémie persistante malgré une antibiothérapie adaptée et le retrait du cathéter). Les lésions ischémiques cérébrales asymptomatiques sans hémorragie ne retardent pas la chirurgie.",
+      "surveillance": "Hémocultures jusqu'à négativation ; ECG quotidien ; échocardiographie ; CRP ; tolérance des antibiotiques ; suivi neurologique ; création d'une nouvelle fistule artérioveineuse pour limiter les cathéters.",
+      "evolution": "Remplacement valvulaire mitral à J5 (prothèse mécanique discutée vs biologique selon l'âge, la dialyse et le risque hémorragique) ; négativation des hémocultures ; antibiothérapie poursuivie 6 semaines.",
+      "explication_pedagogique": "Les EI associées aux soins, en particulier chez l'hémodialysé porteur de cathéter, sont dominées par S. aureus. Toute bactériémie à S. aureus impose une échocardiographie (ETT puis ETO selon le risque). Les aminosides ne sont plus recommandés dans l'EI à staphylocoque sur valve native. La persistance des hémocultures positives malgré un traitement adapté et le retrait du matériel est une indication chirurgicale.",
+      "questions": [
+        {
+          "question": "Pourquoi une ETO est-elle nécessaire ici ?",
+          "reponse": "Bactériémie à S. aureus chez un patient à haut risque, souffle modifié : l'ETO précise la taille de la végétation, la perforation et recherche un abcès."
+        },
+        {
+          "question": "Quelle antibiothérapie ?",
+          "reponse": "Une pénicilline M (cloxacilline/flucloxacilline) ou la céfazoline IV, sans aminoside, adaptée à l'hémodialyse, 4 à 6 semaines (davantage pour la spondylodiscite)."
+        },
+        {
+          "question": "Quelles sont les indications chirurgicales ?",
+          "reponse": "Régurgitation mitrale sévère, végétation ≥ 10 mm avec embolies et bactériémie persistante malgré une antibiothérapie adaptée."
+        },
+        {
+          "question": "Quelle mesure préventive à long terme ?",
+          "reponse": "Limiter les cathéters de dialyse (fistule artérioveineuse), hygiène et asepsie rigoureuses lors des branchements."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        },
+        {
+          "reference": "Fowler VG et al. 2023 Duke-ISCVID criteria. Clin Infect Dis 2023;77:518-526",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CARD-0010",
+      "titre": "Fièvre et trouble conductif chez un porteur de prothèse aortique mécanique",
+      "niveau": "residanat",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 70 ans, retraité, porteur d'une prothèse aortique mécanique implantée il y a 8 ans pour un rétrécissement aortique sur bicuspidie.",
+      "motif_consultation": "Fièvre persistante depuis 3 semaines et malaise.",
+      "antecedents": "Remplacement valvulaire aortique mécanique (antivitamine K, INR cible selon la prothèse), adénome de la prostate avec sondage urinaire il y a 6 semaines lors d'une rétention aiguë d'urine.",
+      "symptomes": "Fièvre vespérale à 38,6 °C, asthénie, perte de 3 kg, lipothymie la veille.",
+      "examen_clinique": "PA 136/58 mmHg, FC 46/min, T 38,4 °C. Bruits de clic prothétique bien perçus ; **souffle diastolique** d'insuffisance aortique nouveau. Pas de signe d'IC. Pas de signe neurologique.",
+      "biologie": "Hémocultures (3 séries) : ***Enterococcus faecalis*** dans les 3 séries ; CRP 96 mg/L ; INR 2,8 ; créatinine 105 µmol/L ; ECBU antérieur positif à E. faecalis (non traité).",
+      "imagerie": "ECG : **BAV du 2e degré de type Mobitz II** (PR antérieurement normal). ETT : gradient prothétique normal, image de fuite paraprothétique. ETO : **abcès de l'anneau aortique** postérieur avec fuite paraprothétique modérée, petite végétation sur l'anneau. Scanner cardiaque : pseudo-anévrisme débutant. TEP-TDM : hyperfixation périprothétique ; pas d'autre foyer, fixation prostatique.",
+      "hypotheses_diagnostiques": [
+        "Endocardite infectieuse tardive sur prothèse aortique mécanique à E. faecalis, compliquée d'abcès de l'anneau et de BAV",
+        "Porte d'entrée urinaire (sondage, prostate)"
+      ],
+      "diagnostics_differentiels": [
+        "Thrombose de prothèse (gradient normal, contexte infectieux — non)",
+        "Trouble conductif dégénératif isolé (non : contexte infectieux et abcès)"
+      ],
+      "examens_a_demander": [
+        "Hémocultures × 3 avant antibiotiques",
+        "ECG quotidien (trouble conductif)",
+        "ETT, ETO, scanner cardiaque, TEP-TDM",
+        "ECBU, imagerie urologique",
+        "Coloscopie à discuter (les entérocoques peuvent avoir une porte d'entrée digestive)"
+      ],
+      "diagnostic_final": "Endocardite infectieuse tardive sur prothèse aortique mécanique à Enterococcus faecalis, avec abcès de l'anneau aortique, fuite paraprothétique et BAV de haut degré ; porte d'entrée urinaire probable.",
+      "traitement": "Prise en charge en centre de référence avec Endocarditis Team. Antibiothérapie : **amoxicilline 200 mg/kg/j IV + ceftriaxone 4 g/j IV en 2 injections pendant 6 semaines** (double bêtalactamine, d'après les recommandations ESC) [POSOLOGIE À VÉRIFIER — ESC 2023 / RCP / avis infectiologique]. **Indication chirurgicale urgente** : infection localement non contrôlée (abcès, pseudo-anévrisme, BAV) — réintervention avec débridement de l'abcès et remplacement prothétique. Stimulation temporaire pour le BAV de haut degré. Gestion de l'anticoagulation : relais de l'antivitamine K par **héparine** (non fractionnée) dans l'optique de la chirurgie. Traitement de la porte d'entrée urologique.",
+      "surveillance": "ECG continu (BAV complet possible), hémocultures de contrôle, CRP, fonction rénale ; échocardiographie postopératoire ; INR après reprise de l'AVK ; suivi à 1, 3, 6 et 12 mois [calendrier À VÉRIFIER] ; éducation (patient à haut risque, antibioprophylaxie dentaire).",
+      "evolution": "Réintervention à J4 ; culture valvulaire stérile, PCR positive à E. faecalis ; antibiothérapie poursuivie ; stimulateur définitif implanté pour un BAV complet persistant (après négativation et en dehors de la période infectieuse).",
+      "explication_pedagogique": "Toute fièvre chez un porteur de prothèse valvulaire impose des hémocultures et une ETO. Un trouble conductif nouveau au cours d'une EI aortique traduit une extension périannulaire (abcès) : c'est une infection localement non contrôlée, indication chirurgicale urgente. Les entérocoques sont fréquents chez le sujet âgé après un geste urologique ; la double bêtalactamine amoxicilline + ceftriaxone limite la toxicité des aminosides. Le scanner et la TEP-TDM sont particulièrement utiles dans l'EI sur prothèse.",
+      "questions": [
+        {
+          "question": "Quelle est la signification du BAV de type Mobitz II ?",
+          "reponse": "Une extension périvalvulaire de l'infection (abcès de l'anneau aortique) atteignant le tissu de conduction."
+        },
+        {
+          "question": "Quelle imagerie pour une EI sur prothèse ?",
+          "reponse": "ETO systématique, complétée par le scanner cardiaque (lésions périannulaires) et la TEP-TDM au FDG (activité périprothétique, foyers extracardiaques)."
+        },
+        {
+          "question": "Quelle antibiothérapie pour E. faecalis ?",
+          "reponse": "Amoxicilline + ceftriaxone (double bêtalactamine) pendant 6 semaines sur prothèse, selon les recommandations ESC, à confirmer par l'infectiologue."
+        },
+        {
+          "question": "Quelle est l'indication chirurgicale ?",
+          "reponse": "Infection localement non contrôlée (abcès, pseudo-anévrisme, BAV) : chirurgie urgente (dans les 3 à 5 jours)."
+        },
+        {
+          "question": "Comment gérer l'anticoagulation ?",
+          "reponse": "Relais de l'antivitamine K par héparine non fractionnée en prévision de la chirurgie ; arrêt en cas d'hémorragie intracrânienne."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Delgado V et al. 2023 ESC endocarditis Guidelines. Eur Heart J 2023;44:3948-4042",
+          "date": "2023"
+        },
+        {
+          "reference": "Habib G et al. 2015 ESC endocarditis Guidelines. Eur Heart J 2015;36:3075 (doi 10.1093/eurheartj/ehv319)",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-01",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

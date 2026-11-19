@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-11-19T01:24:43+00:00",
+  "genere_le": "2026-11-19T01:34:46+00:00",
   "dossiers": [
     {
       "id": "DOS-PNEU-0001",
@@ -12,11 +12,11 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0001__TUBERCULOSE_PULMONAIRE_PROGRAMME_NATIONAL.md",
-      "mots": 10601,
+      "mots": 10149,
       "nb_sources": 16,
       "nb_sources_verifiees": 13,
       "nb_citations_distinctes": 16,
-      "a_verifier": 28,
+      "a_verifier": 27,
       "posologie_a_verifier": 7,
       "erreur_yaml": null
     },
@@ -31,7 +31,7 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0002__PNEUMONIES_DIAGNOSTIC_TRAITEMENT.md",
-      "mots": 7233,
+      "mots": 7213,
       "nb_sources": 12,
       "nb_sources_verifiees": 9,
       "nb_citations_distinctes": 12,
@@ -50,7 +50,7 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/17_PNEU_PNEUMOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0003__ASTHME_ADULTE_ENFANT.md",
-      "mots": 7770,
+      "mots": 7750,
       "nb_sources": 7,
       "nb_sources_verifiees": 5,
       "nb_citations_distinctes": 7,
@@ -116,6 +116,44 @@
       "erreur_yaml": null
     },
     {
+      "id": "DOS-NEPH-0001",
+      "titre": "Insuffisance rénale aiguë (atteinte rénale aiguë) : diagnostic et traitement",
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0001__INSUFFISANCE_RENALE_AIGUE.md",
+      "mots": 7616,
+      "nb_sources": 16,
+      "nb_sources_verifiees": 16,
+      "nb_citations_distinctes": 16,
+      "a_verifier": 3,
+      "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-ENDO-0001",
+      "titre": "Hyperthyroïdies : diagnostic et traitement",
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/25_ENDO_ENDOCRINOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-ENDO-0001__HYPERTHYROIDIES.md",
+      "mots": 9692,
+      "nb_sources": 12,
+      "nb_sources_verifiees": 12,
+      "nb_citations_distinctes": 12,
+      "a_verifier": 6,
+      "posologie_a_verifier": 5,
+      "erreur_yaml": null
+    },
+    {
       "id": "DOS-DIAB-0001",
       "titre": "Diabète sucré : définition, épidémiologie, classification (types 1 et 2), insuline et insulinothérapie, complications dégénératives et traitement du diabète de type 2",
       "specialite": "DIAB",
@@ -154,6 +192,44 @@
       "erreur_yaml": null
     },
     {
+      "id": "DOS-INFE-0001",
+      "titre": "Méningites purulentes : diagnostic, pronostic, traitement",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-005"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0001__MENINGITES_PURULENTES.md",
+      "mots": 7583,
+      "nb_sources": 8,
+      "nb_sources_verifiees": 0,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 34,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-INFE-0002",
+      "titre": "Brucellose : diagnostic et traitement",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0002__BRUCELLOSE.md",
+      "mots": 7100,
+      "nb_sources": 8,
+      "nb_sources_verifiees": 0,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 27,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
       "id": "DOS-CDIG-0001",
       "titre": "Kyste hydatique du foie : diagnostic, traitement",
       "specialite": "CDIG",
@@ -164,11 +240,11 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0001__KYSTE_HYDATIQUE_DU_FOIE.md",
-      "mots": 8315,
+      "mots": 8494,
       "nb_sources": 11,
       "nb_sources_verifiees": 5,
       "nb_citations_distinctes": 11,
-      "a_verifier": 28,
+      "a_verifier": 29,
       "posologie_a_verifier": 1,
       "erreur_yaml": null
     },
@@ -183,11 +259,11 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0002__PANCREATITE_AIGUE.md",
-      "mots": 5492,
+      "mots": 8638,
       "nb_sources": 14,
       "nb_sources_verifiees": 4,
-      "nb_citations_distinctes": 13,
-      "a_verifier": 14,
+      "nb_citations_distinctes": 14,
+      "a_verifier": 16,
       "posologie_a_verifier": 1,
       "erreur_yaml": null
     },
@@ -202,11 +278,11 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0001__DESHYDRATATIONS_AIGUES_DU_NOURRISSON.md",
-      "mots": 11436,
+      "mots": 11425,
       "nb_sources": 13,
       "nb_sources_verifiees": 1,
       "nb_citations_distinctes": 13,
-      "a_verifier": 13,
+      "a_verifier": 11,
       "posologie_a_verifier": 5,
       "erreur_yaml": null
     },
@@ -221,11 +297,11 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0002__VACCINATIONS_BASES_IMMUNOLOGIQUES_CONTRE_INDICATIONS_PEV.md",
-      "mots": 10084,
-      "nb_sources": 18,
-      "nb_sources_verifiees": 13,
-      "nb_citations_distinctes": 18,
-      "a_verifier": 29,
+      "mots": 10756,
+      "nb_sources": 20,
+      "nb_sources_verifiees": 15,
+      "nb_citations_distinctes": 20,
+      "a_verifier": 31,
       "posologie_a_verifier": 1,
       "erreur_yaml": null
     },
@@ -240,7 +316,7 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/29_PEDI_PEDIATRIE/02_DOSSIERS_PEDAGOGIQUES/DOS-PEDI-0003__MALNUTRITION_PROTEINO_CALORIQUE.md",
-      "mots": 9256,
+      "mots": 9264,
       "nb_sources": 14,
       "nb_sources_verifiees": 1,
       "nb_citations_distinctes": 14,
@@ -259,12 +335,31 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0001__ICTERE_NEONATAL.md",
-      "mots": 8407,
+      "mots": 8415,
       "nb_sources": 12,
       "nb_sources_verifiees": 1,
       "nb_citations_distinctes": 12,
       "a_verifier": 17,
       "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-NEON-0002",
+      "titre": "Infections néonatales : diagnostic, prévention, traitement",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0002__INFECTIONS_NEONATALES.md",
+      "mots": 8273,
+      "nb_sources": 14,
+      "nb_sources_verifiees": 3,
+      "nb_citations_distinctes": 14,
+      "a_verifier": 24,
+      "posologie_a_verifier": 12,
       "erreur_yaml": null
     },
     {
@@ -297,11 +392,30 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GYNE-0002__CANCER_DU_COL_DE_L_UTERUS.md",
-      "mots": 5835,
+      "mots": 9148,
       "nb_sources": 14,
       "nb_sources_verifiees": 8,
-      "nb_citations_distinctes": 8,
-      "a_verifier": 11,
+      "nb_citations_distinctes": 14,
+      "a_verifier": 22,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-GYNE-0003",
+      "titre": "Tumeurs du sein : épidémiologie, anatomie pathologique, diagnostic, principes du traitement",
+      "specialite": "GYNE",
+      "items_residanat": [
+        "RES-CHI-062"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GYNE-0003__TUMEURS_DU_SEIN.md",
+      "mots": 9532,
+      "nb_sources": 15,
+      "nb_sources_verifiees": 8,
+      "nb_citations_distinctes": 15,
+      "a_verifier": 20,
       "posologie_a_verifier": 1,
       "erreur_yaml": null
     },
@@ -416,6 +530,25 @@
       "nb_sources_verifiees": 5,
       "nb_citations_distinctes": 6,
       "a_verifier": 7,
+      "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-CARD-0005",
+      "titre": "Endocardites infectieuses",
+      "specialite": "CARD",
+      "items_residanat": [
+        "RES-MED-053"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0005__ENDOCARDITES_INFECTIEUSES.md",
+      "mots": 10014,
+      "nb_sources": 8,
+      "nb_sources_verifiees": 7,
+      "nb_citations_distinctes": 8,
+      "a_verifier": 11,
       "posologie_a_verifier": 1,
       "erreur_yaml": null
     }

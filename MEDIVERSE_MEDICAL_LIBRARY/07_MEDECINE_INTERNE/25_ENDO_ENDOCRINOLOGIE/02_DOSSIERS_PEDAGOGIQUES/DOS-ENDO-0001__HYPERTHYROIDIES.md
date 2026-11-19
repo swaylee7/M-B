@@ -571,3 +571,220 @@ Fièvre, angine, ulcérations buccales sous ATS
    │     (iode 131 ou chirurgie après préparation par bêtabloquant ± iode/corticoïdes)
    └─ PNN normaux → reprise possible de l'ATS, traitement de l'infection
 ```
+
+---
+
+## 17. Cas clinique commenté
+
+*Scénario fictif à visée pédagogique.*
+
+**Présentation.** Mme A., 31 ans, enseignante à Tizi Ouzou, fumeuse (8 cigarettes/j), consulte pour palpitations, perte de 6 kg en 3 mois, nervosité, thermophobie et irritation oculaire. Elle souhaite une grossesse « dans un an ».
+**Examen** : FC 118/min régulière, PA 135/60 mmHg, tremblement fin, peau chaude et moite ; **goitre diffus, homogène, avec souffle** ; rétraction palpébrale bilatérale, rougeur conjonctivale et palpébrale, œdème palpébral modéré, douleur à la mobilisation oculaire (**CAS 3/7**), exophtalmie modérée sans diplopie, acuité visuelle et vision des couleurs normales.
+**Biologie** : **TSH < 0,01 mUI/L** ; **T4L 48 pmol/L** (N 12–22) ; **T3L 15 pmol/L** (N 3,1–6,8) ; **TRAb 9,8 UI/L** (seuil du laboratoire 1,75) ; NFS : PNN 2 300/mm³ ; transaminases 1,5 × N. **Échographie** : goitre diffus hypoéchogène, hypervascularisation diffuse au Doppler, pas de nodule.
+
+**Q1 — Diagnostic ?** Thyrotoxicose franche par **maladie de Basedow** (TRAb positifs, goitre diffus vasculaire) avec **orbitopathie légère et active** (CAS ≥ 3/7, sans critère de sévérité). Scintigraphie **inutile** (échographie typique + TRAb positifs, pas de nodule) [S1]. Une discrète cytolyse et une neutropénie modérée peuvent être liées à la thyrotoxicose : elles servent de **référence** avant ATS.
+
+**Q2 — Traitement initial ?**
+1. **Propranolol** 20–40 mg toutes les 6 h (ou cardiosélectif) [S1].
+2. **ATS** : thiamazole/MMI dans la fourchette ETA (10–30 mg/j selon la sévérité ; ici 20–30 mg/j) ou carbimazole équivalent ; **information écrite** sur l'agranulocytose et l'hépatotoxicité [S1].
+3. **Arrêt du tabac** (orbitopathie, rechute) ; **sélénium 6 mois** (orbitopathie légère et active) ; avis ophtalmologique [S1, S4].
+4. **Contraception efficace** et conseil préconceptionnel : pas de grossesse avant une euthyroïdie stable [S1].
+
+**Q3 — À 4 semaines** : T4L 21 pmol/L, T3L 6,2 pmol/L, **TSH toujours < 0,01**. Interprétation ? **Normal** : la TSH reste freinée plusieurs mois ; on titre sur T4L/T3L → réduction progressive du MMI (entretien 2,5–10 mg/j) [S1].
+
+**Q4 — À 7 semaines, fièvre à 38,8 °C et angine.** Conduite ? **Arrêt immédiat de l'ATS et NFS en urgence** : PNN 1 900/mm³ → pas d'agranulocytose ; angine virale ; reprise du MMI [S1]. Si les PNN avaient été < 500/mm³ : hospitalisation, contre-indication définitive des ATS, traitement radical après préparation.
+
+**Q5 — Quelle stratégie au regard du projet de grossesse ?** Options à discuter avec la patiente [S1, S4, S7] :
+- **Poursuivre les ATS 12–18 mois** puis arrêt si TRAb normalisés ; si la grossesse survient sous ATS : **passage au PTU** en préconception/1er trimestre, puis éventuellement retour au MMI après 16 SA (ETA) ; TRAb au début de la grossesse et à 18–22 SA ;
+- **Thyroïdectomie totale** (option intéressante : orbitopathie active, désir de grossesse, TRAb élevés — la chirurgie n'aggrave pas l'orbitopathie et les TRAb tendent à baisser), puis lévothyroxine et grossesse après euthyroïdie confirmée [S1] ;
+- **iode 131** : moins adapté ici — orbitopathie active chez une fumeuse (risque d'aggravation) [S1], délai de 6 mois avant conception [S1], et hausse possible des TRAb après iode 131, préoccupante en vue d'une grossesse (risque fœtal) [S7].
+
+**Évolution.** Euthyroïdie à 3 mois sous 7,5 mg/j de MMI, sevrage tabagique, CAS 1/7 à 6 mois. La patiente choisit une thyroïdectomie totale à 8 mois (TRAb encore à 6,1 UI/L) ; hypocalcémie transitoire ; grossesse débutée 5 mois après sous lévothyroxine, TSH dans la cible ; TRAb contrôlés à 18–22 SA, en décroissance.
+
+**Message pédagogique** : TRAb + échographie-Doppler suffisent au diagnostic de Basedow ; la TSH est un mauvais marqueur précoce sous ATS ; l'information écrite sur l'agranulocytose est obligatoire ; le projet de grossesse et l'orbitopathie orientent le choix du traitement radical.
+
+---
+
+## 18. Points clés à retenir
+
+1. Thyrotoxicose ≠ hyperthyroïdie : les **thyroïdites** et la prise d'hormones donnent une thyrotoxicose à **fixation nulle**, sans indication aux ATS.
+2. **TSH = test initial** ; TSH + T4L d'emblée si suspicion forte ; sous ATS, suivre **T4L/T3L** (TSH en retard) [S1].
+3. **TRAb** : sensibilité ~97 %, spécificité ~98 % pour le Basedow ; échographie-Doppler en 1re intention ; scintigraphie si nodules ou avant iode 131 [S1].
+4. Basedow (ETA 2018) : **MMI/CBZ 12–18 mois**, titration ; TRAb avant l'arrêt ; rechute ≈ 50 % ; rechute → traitement radical ou MMI faible dose au long cours [S1].
+5. **Agranulocytose** (0,1–1 %, surtout dans les 3 premiers mois) : arrêt de l'ATS et NFS en urgence devant fièvre ou angine ; contre-indication définitive [S1].
+6. **Iode 131** : contre-indiqué pendant la grossesse et l'allaitement, conception différée de 6 mois (femme et homme), ATS suspendus ~1 semaine avant/après, corticoprophylaxie si orbitopathie à risque [S1].
+7. **Chirurgie** : thyroïdectomie totale par chirurgien expérimenté, euthyroïdie préalable, iodure 10 jours, vitamine D [S1].
+8. **Crise aiguë thyrotoxique** : Burch-Wartofsky ≥ 45 ; ATS puis iode **≥ 1 h après**, bêtabloquant, corticoïdes, réanimation ; mortalité ~10 % [S1, S6].
+9. **Grossesse** : PTU au 1er trimestre, MMI après 16 SA (ETA), dose minimale, T4L à la limite supérieure, TRAb au début et à 18–22 SA ; pas de « block and replace » [S1].
+10. **Amiodarone** : type 1 (iode, ATS) vs type 2 (thyroïdite, corticoïdes) ; Doppler et fixation orientent [S3].
+
+---
+
+## 19. Pièges classiques à l'examen
+
+- Prescrire des **ATS dans une thyroïdite** (De Quervain, post-partum, AIT type 2).
+- **Augmenter l'ATS** parce que la TSH reste effondrée alors que la T4L est normalisée.
+- Donner l'**iode stable avant l'ATS** dans une crise aiguë (substrat pour la synthèse).
+- Traiter la fièvre d'une crise aiguë par **aspirine**.
+- Méconnaître une **agranulocytose** devant une « simple angine » sous ATS, ou réintroduire un autre ATS après une agranulocytose.
+- Proposer l'**iode 131** chez une femme enceinte ou allaitante, ou sans délai de conception.
+- Utiliser le **MMI au 1er trimestre** sans discussion (embryopathie) ou le schéma « block and replace » pendant la grossesse.
+- Confondre la **thyrotoxicose gestationnelle transitoire** (TRAb −) avec un Basedow.
+- Interpréter une TSH basse **isolée** chez un patient hospitalisé, sous corticoïdes, ou un profil discordant sous **biotine**.
+- Oublier l'**anticoagulation** discutée en cas de fibrillation atriale.
+- Ignorer une **neuropathie optique** dysthyroïdienne (baisse de la vision des couleurs) : urgence.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+*Questions originales Mediverse (5 propositions, une ou plusieurs réponses exactes). Version complète avec explications par proposition dans la banque `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-03.json`.*
+
+**QCM 1** (QCM-ENDO-0001 — QCM (réponses multiples)). Parmi les causes suivantes de thyrotoxicose, lesquelles s'accompagnent typiquement d'une fixation scintigraphique basse ou nulle ?
+
+- **A.** Thyroïdite subaiguë de De Quervain
+- **B.** Maladie de Basedow
+- **C.** Thyroïdite du post-partum
+- **D.** Thyrotoxicose factice par prise de lévothyroxine
+- **E.** Adénome toxique
+
+> **Réponse(s) : A, C, D.** Les thyroïdites (destruction folliculaire) et la prise exogène d'hormones donnent une thyrotoxicose sans hypersynthèse : fixation basse ou nulle. Le Basedow et les nodules autonomes sont des hyperthyroïdies vraies (fixation élevée).
+>
+> *Propositions fausses* : **B** — Faux : fixation élevée et homogène. **E** — Faux : nodule hyperfixant, parenchyme éteint.
+
+**QCM 2** (QCM-ENDO-0002 — QCM (réponses multiples)). Concernant le diagnostic étiologique d'une thyrotoxicose selon l'ETA 2018, quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Les TRAb mesurés par dosages de liaison de 2e–3e génération ont une sensibilité et une spécificité d'environ 97–98 % pour la maladie de Basedow
+- **B.** L'échographie avec Doppler est l'imagerie recommandée pour étayer le diagnostic de Basedow
+- **C.** La scintigraphie est indispensable chez tout patient basedowien
+- **D.** La scintigraphie est suggérée en cas de nodules associés et avant iode radioactif
+- **E.** Le scanner thyroïdien est utile en routine pour distinguer Basedow et thyroïdite
+
+> **Réponse(s) : A, B, D.** TRAb (Se ≈ 97 %, Sp ≈ 98 %) + échographie-Doppler typique dispensent le plus souvent de scintigraphie ; celle-ci est réservée aux nodules associés et au bilan pré-iode 131 ; pas de scanner/IRM/TEP en routine.
+>
+> *Propositions fausses* : **C** — Faux : souvent inutile si TRAb + et échographie typique. **E** — Faux : pas d'indication au scanner, à l'IRM ou au TEP.
+
+**QCM 3** (QCM-ENDO-0003 — QCS (réponse unique)). Une patiente basedowienne traitée par MMI 20 mg/j depuis 4 semaines a : T4L normale, T3L normale, TSH < 0,01 mUI/L, aucun symptôme. Quelle est la conduite la plus adaptée ?
+
+- **A.** Augmenter le MMI à 30 mg/j car la TSH reste effondrée
+- **B.** Réduire progressivement le MMI vers une dose d'entretien, en se guidant sur T4L/T3L
+- **C.** Ajouter de la lévothyroxine d'emblée
+- **D.** Arrêter le MMI et proposer de l'iode 131
+- **E.** Doser les TRAb pour décider de l'arrêt immédiat
+
+> **Réponse(s) : B.** Sous ATS, la TSH reste freinée plusieurs mois et n'est pas un bon indicateur précoce : la titration se fait sur T4L/T3L. T4L normale → réduction vers l'entretien (MMI 2,5–10 mg/j).
+>
+> *Propositions fausses* : **A** — Faux : risque d'hypothyroïdie iatrogène. **C** — Faux : le schéma « block and replace » n'est pas supérieur ; la titration est préférée. **D** — Faux : pas d'indication. **E** — Faux : l'arrêt se discute à 12–18 mois.
+
+**QCM 4** (QCM-ENDO-0004 — QCM (réponses multiples)). Concernant le traitement médical de la maladie de Basedow selon l'ETA 2018, quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Le MMI (ou le carbimazole) doit être utilisé chez toute patiente non enceinte choisissant les ATS
+- **B.** La dose initiale usuelle de MMI est de 10 à 30 mg/j en une prise
+- **C.** La durée optimale du schéma de titration est de 12 à 18 mois
+- **D.** Le schéma « block and replace » donne un taux de rémission nettement supérieur
+- **E.** Un traitement au long cours par faibles doses de MMI est une option chez les patients non en rémission qui la préfèrent
+
+> **Réponse(s) : A, B, C, E.** ETA 2018 : MMI/CBZ de première intention hors grossesse ; MMI 10–30 mg/j (CBZ 15–40 mg/j), PTU 100 mg × 3/j ; 12–18 mois ; block-and-replace non supérieur ; MMI faible dose au long cours possible.
+>
+> *Propositions fausses* : **D** — Faux : les résultats initialement favorables n'ont pas été reproduits.
+
+**QCM 5** (QCM-ENDO-0005 — QCM (réponses multiples)). Un patient sous carbimazole depuis 6 semaines consulte pour fièvre à 39 °C et odynophagie. Quelle(s) attitude(s) est(sont) appropriée(s) ?
+
+- **A.** Arrêt immédiat du carbimazole et NFS en urgence
+- **B.** Poursuite du carbimazole et antibiothérapie orale sans bilan
+- **C.** Si PNN < 500/mm³ : hospitalisation, hémocultures et antibiothérapie à large spectre
+- **D.** En cas d'agranulocytose confirmée, relais par le PTU
+- **E.** En cas d'agranulocytose confirmée, un traitement radical (iode 131 ou chirurgie) sera nécessaire
+
+> **Réponse(s) : A, C, E.** Fièvre ou angine sous ATS = agranulocytose jusqu'à preuve du contraire : arrêt, NFS urgente. Agranulocytose (PNN < 500/mm³) : hospitalisation, prise en charge de la neutropénie fébrile ; tous les ATS sont ensuite contre-indiqués → traitement radical.
+>
+> *Propositions fausses* : **B** — Faux : retard diagnostique potentiellement mortel. **D** — Faux : effet majeur → ne pas prescrire l'autre ATS.
+
+**QCM 6** (QCM-ENDO-0006 — QCM (réponses multiples)). Concernant l'iode radioactif (iode 131) dans la maladie de Basedow, quelle(s) proposition(s) est(sont) exacte(s) selon l'ETA 2018 ?
+
+- **A.** La grossesse et l'allaitement sont des contre-indications absolues
+- **B.** Une conception doit être différée d'au moins 6 mois, chez la femme comme chez l'homme
+- **C.** Les ATS doivent être interrompus environ une semaine avant et après le traitement
+- **D.** Une activité fixe est acceptable
+- **E.** L'iode 131 améliore habituellement une orbitopathie active
+
+> **Réponse(s) : A, B, C, D.** Iode 131 : contre-indiqué pendant la grossesse et l'allaitement ; délai de 6 mois avant conception (femme et homme) ; ATS suspendus ~1 semaine avant/après ; activité fixe acceptable ; risque d'aggravation de l'orbitopathie (15–33 %) → corticoprophylaxie si risque.
+>
+> *Propositions fausses* : **E** — Faux : il peut l'aggraver ou la déclencher, surtout chez les fumeurs.
+
+**QCM 7** (QCM-ENDO-0007 — QCM (réponses multiples)). Une thyroïdectomie totale est programmée pour une maladie de Basedow avec goitre volumineux. Quelle(s) mesure(s) préopératoire(s) est(sont) recommandée(s) par l'ETA 2018 ?
+
+- **A.** Restaurer l'euthyroïdie par ATS avant l'intervention
+- **B.** Administrer une solution d'iodure de potassium pendant environ 10 jours avant l'intervention
+- **C.** Corriger une carence en vitamine D
+- **D.** Arrêter les ATS 3 mois avant l'intervention
+- **E.** Préférer une thyroïdectomie subtotale pour réduire les complications
+
+> **Réponse(s) : A, B, C.** Euthyroïdie préalable (prévention de la crise thyrotoxique), iodure 10 jours (vascularisation), correction de la carence en vitamine D (hypocalcémie postopératoire) ; thyroïdectomie totale (même morbidité que la subtotale, moins de récidive).
+>
+> *Propositions fausses* : **D** — Faux : risque de crise thyrotoxique. **E** — Faux : la totale est la procédure de choix.
+
+**QCM 8** (QCM-ENDO-0008 — QCM (réponses multiples)). Concernant la crise aiguë thyrotoxique, quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Un score de Burch-Wartofsky ≥ 45 est compatible avec une crise thyrotoxique
+- **B.** L'iode stable doit être administré au moins une heure après la première dose d'ATS
+- **C.** L'aspirine est l'antipyrétique de choix
+- **D.** Les glucocorticoïdes font partie du traitement multimodal
+- **E.** La mortalité est estimée à environ 10 %
+
+> **Réponse(s) : A, B, D, E.** Crise thyrotoxique : diagnostic clinique (Burch-Wartofsky ≥ 45 ; 25–44 = imminente), traitement multimodal en réanimation : ATS, puis iode ≥ 1 h après, bêtabloquant, glucocorticoïdes, refroidissement, réanimation, traitement du déclencheur. L'aspirine déplace la T4 de sa protéine de liaison.
+>
+> *Propositions fausses* : **C** — Faux : préférer le paracétamol.
+
+**QCM 9** (QCM-ENDO-0009 — QCM (réponses multiples)). Concernant la maladie de Basedow et la grossesse (ETA 2018), quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Le PTU est préféré en préconception et au 1er trimestre
+- **B.** Le passage du PTU au MMI peut être envisagé au-delà de 16 SA
+- **C.** Le schéma « block and replace » est recommandé pendant la grossesse
+- **D.** Les TRAb doivent être dosés en début de grossesse puis à 18–22 SA s'ils sont élevés
+- **E.** La T4L maternelle est maintenue à la limite supérieure des normes spécifiques de la grossesse
+
+> **Réponse(s) : A, B, D, E.** PTU en préconception/T1 (embryopathie du MMI entre 6 et 10 SA), MMI envisageable après 16 SA (ETA), dose minimale, pas de block-and-replace, T4L à la limite supérieure, TRAb au début et à 18–22 SA (surveillance fœtale si > 3 fois le seuil).
+>
+> *Propositions fausses* : **C** — Faux : déconseillé (recommandation 38).
+
+**QCM 10** (QCM-ENDO-0010 — QCM (réponses multiples)). Un homme de 66 ans traité par amiodarone présente une thyrotoxicose ; thyroïde de volume normal, vascularisation Doppler absente, fixation scintigraphique nulle, TRAb négatifs. Quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Le tableau évoque une hyperthyroïdie à l'amiodarone de type 2 (thyroïdite destructrice)
+- **B.** Le traitement repose principalement sur les glucocorticoïdes oraux
+- **C.** Les ATS seuls sont le traitement de référence
+- **D.** La poursuite ou l'arrêt de l'amiodarone se discute avec le cardiologue
+- **E.** Une thyroïdectomie peut être discutée en cas d'échec ou d'urgence cardiaque
+
+> **Réponse(s) : A, B, D, E.** AIT de type 2 : thyroïdite destructrice sur thyroïde saine (Doppler pauvre, fixation nulle) → glucocorticoïdes ; type 1 : hyperthyroïdie iodo-induite sur thyroïde pathologique → ATS ± perchlorate. Décision cardiologique sur l'amiodarone ; chirurgie si échec.
+>
+> *Propositions fausses* : **C** — Faux : ATS pour le type 1 ; pas d'hypersynthèse dans le type 2.
+---
+
+## 21. Divergences entre recommandations
+
+| Sujet | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
+|---|---|---|---|
+| Traitement de 1re intention du Basedow | **ETA 2018** : **ATS** pour tout Basedow nouvellement diagnostiqué ; iode 131 ou chirurgie si le patient les préfère [S1, recommandation 5] | **ATA 2016** : ATS, iode 131 ou thyroïdectomie, choisis par **décision partagée** selon le profil et les préférences [S2] | Divergence historique transatlantique ; les ATS sont devenus majoritaires aussi aux États-Unis selon l'ETA [S1]. |
+| Bilan biologique avant/sous ATS | **ATA 2016** : NFS avec formule et bilan hépatique de référence avant ATS [S2 — formulation à vérifier sur le texte intégral] | **ETA 2018** : la surveillance hématologique et hépatique **systématique** n'est pas utile (début brutal) ; NFS en cas de fièvre/angine, bilan hépatique en cas d'ictère [S1, recommandations 10–11] | Compromis pratique : bilan de **référence** avant ATS, puis information écrite et bilans ciblés. |
+| Passage PTU → MMI pendant la grossesse | **ETA 2018** : à envisager si ATS nécessaires après **16 SA** [S1, recommandation 40] | **ATA 2017** : le bénéfice d'un changement de molécule en cours de grossesse est incertain [S7 — à vérifier] ; **ATA 2026** : poids accru des TRAb pour décider d'un arrêt précoce des ATS chez les patientes à faible risque, préférence pour le PTU en début de grossesse [S8 — d'après résumés secondaires, à vérifier sur le texte] | Recommandation 2026 récente : confronter au texte intégral avant application. |
+| Orbitopathie active modérée à sévère — 1re ligne | **EUGOGO 2021** : méthylprednisolone IV + mycophénolate en 1re ligne ; téprotumumab parmi les options de 2e ligne [S4] | **ATA/ETA 2022** : téprotumumab proposé comme option privilégiée lorsque l'exophtalmie et/ou la diplopie dominent, corticoïdes IV si l'inflammation prédomine (selon la disponibilité et le coût) [S11] | Comparaison détaillée publiée en 2025 [S12]. Accès au téprotumumab limité en Algérie **[À VÉRIFIER]**. |
+| Activité d'iode 131 | **ETA 2018** : activité fixe acceptable, aucun calcul ne garantit l'euthyroïdie [S1] | **ATA 2016** : activité suffisante pour obtenir l'hypothyroïdie (fixe ou calculée) [S2 — à vérifier] | Convergence : l'objectif réaliste est l'hypothyroïdie substituée. |
+| Posologies de la crise aiguë | **JTA/JES 2016** : schémas propres (ATS IV/oraux, corticoïdes, bêtabloquants dont molécules IV de courte durée d'action) [S5] | **ATA 2016** : fortes doses de PTU ou MMI, iodure, hydrocortisone, propranolol [S2] | Schémas différents, principes identiques ; **[POSOLOGIE À VÉRIFIER — protocole local]**. |
+
+---
+
+## 22. Références
+
+1. **[S1]** Kahaly GJ, Bartalena L, Hegedüs L, Leenhardt L, Poppe K, Pearce SH. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. *Eur Thyroid J*. 2018;7(4):167-186. doi:10.1159/000490384. — vérifiée (PubMed ; texte intégral PMC consulté).
+2. **[S2]** Ross DS, Burch HB, Cooper DS, et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. *Thyroid*. 2016;26(10):1343-1421. doi:10.1089/thy.2016.0229. — vérifiée (existence ; corrigendum 2025) ; texte intégral non consulté dans cette session.
+3. **[S3]** Bartalena L, et al. 2018 ETA Guidelines for the Management of Amiodarone-Associated Thyroid Dysfunction. *Eur Thyroid J*. 2018;7(2):55-66. doi:10.1159/000486957. — vérifiée (existence).
+4. **[S4]** Bartalena L, Kahaly GJ, Baldeschi L, et al. The 2021 EUGOGO clinical practice guidelines for the medical management of Graves' orbitopathy. *Eur J Endocrinol*. 2021;185(4):G43-G67. doi:10.1530/EJE-21-0479. — vérifiée (existence).
+5. **[S5]** Satoh T, et al. 2016 Guidelines for the management of thyroid storm from the JTA and JES. *Endocr J*. 2016;63(12):1025-1064. doi:10.1507/endocrj.EJ16-0336. — vérifiée.
+6. **[S6]** Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Thyroid storm. *Endocrinol Metab Clin North Am*. 1993;22(2):263-277. — vérifiée.
+7. **[S7]** Alexander EK, et al. 2017 Guidelines of the ATA for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum. *Thyroid*. 2017;27(3):315-389. doi:10.1089/thy.2016.0457. — vérifiée (existence).
+8. **[S8]** American Thyroid Association. 2026 Guidelines for thyroid disease in preconception, pregnancy, and the postpartum. *Thyroid*. 2026. doi:10.1177/10507256261445624. — existence vérifiée (annonce de l'ATA, recherche web) ; pagination et contenu détaillé **À VÉRIFIER**.
+9. **[S9]** Lee SY, Pearce EN. Hyperthyroidism: A Review. *JAMA*. 2023;330(15):1472-1483. doi:10.1001/jama.2023.19052. — vérifiée.
+10. **[S10]** Oudahmane-Akdader S, et al. Urinary iodine concentration and its associations with iodized table salt and thyroid parameters during pregnancy in Algeria. *Afr J Reprod Health*. 2025;29(8):123-130. doi:10.29063/ajrh2025/v29i8.12. — vérifiée (résumé PubMed).
+11. **[S11]** Burch HB, Perros P, Bednarczuk T, et al. Management of Thyroid Eye Disease: A Consensus Statement by the ATA and the ETA. *Thyroid*. 2022;32(12):1439-1470. doi:10.1089/thy.2022.0251. — vérifiée (existence).
+12. **[S12]** Bartalena L, et al. Comparison of the 2021 EUGOGO guidelines and the 2022 ATA/ETA consensus statement for the management of Graves' orbitopathy. *Eur Thyroid J*. 2025;14(6). doi:10.1530/ETJ-25-0318. — vérifiée (existence).

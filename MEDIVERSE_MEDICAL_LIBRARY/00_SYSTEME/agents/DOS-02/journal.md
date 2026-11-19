@@ -10,3 +10,7 @@ Mission : Dossiers pédagogiques originaux approfondis — Pneumologie-infectiol
 - 2026-11-19T01:16:30+00:00 — DOS-PNEU-0002 (pneumonies) rédigé et assemblé ; 12 QCM, 2 cas.
 - 2026-11-19T01:22:07+00:00 — DOS-PNEU-0003 (asthme) rédigé et assemblé ; 12 QCM, 2 cas.
 - 2026-11-19T01:27:37+00:00 — DOS-INFE-0001 (méningites purulentes) rédigé et assemblé ; 13 QCM, 2 cas ; références non vérifiables (budget de recherche épuisé) → verifiee: false.
+- 2026-11-19T01:32:57+00:00 — DOS-INFE-0002 (brucellose) rédigé et assemblé ; 12 QCM, 2 cas ; références non vérifiables (verifiee: false).
+- 2026-11-19T01:32:57+00:00 — Lots écrits : 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-02.json (62 QCM : QCM-PNEU-0001…0037, QCM-INFE-0001…0025) et 20_CAS_CLINIQUES/lots/DOS-02.json (10 cas : CAS-PNEU-0001…0006, CAS-INFE-0001…0004) ; JSON validés (python3), en-têtes YAML et sections 1–22 vérifiés.
+- 2026-11-19T01:32:57+00:00 — Mots (wc -w) : PNEU-0001 10971 ; PNEU-0002 7494 ; PNEU-0003 7843 ; INFE-0001 7677 ; INFE-0002 7272. Sources vérifiées 27/51 (TB 13/16, PAC 9/12, asthme 5/7, méningites 0/8, brucellose 0/8). Statut : brouillon_a_auditer. Mission terminée.
+- 2026-11-19T01:34:00+00:00 — Correction : comptage wc -w en locale UTF-8 (référence) → PNEU-0001 10963 (après resserrement) ; PNEU-0002 7835 ; PNEU-0003 8168 ; INFE-0001 7989 ; INFE-0002 7499 (locale C : 10535 / 7494 / 7843 / 7677 / 7272). etat.json mis à jour.

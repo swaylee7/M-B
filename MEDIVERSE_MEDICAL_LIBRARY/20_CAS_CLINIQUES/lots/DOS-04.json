@@ -1,0 +1,724 @@
+{
+  "agent": "DOS-04",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-GAST-0401",
+      "titre": "Hématémèse massive chez un cirrhotique viral C Child-Pugh C",
+      "niveau": "resident",
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017",
+        "RES-MED-020"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 57 ans, ancien mécanicien, marié, résidant en zone urbaine.",
+      "motif_consultation": "Deux hématémèses de sang rouge abondantes et un méléna depuis 3 heures.",
+      "antecedents": "Hépatite C découverte il y a 6 ans (transfusion en 1988), jamais traitée ; ascite traitée par diurétiques depuis 1 an (spironolactone 100 mg/j) ; pas d'alcool ; pas d'antithrombotique.",
+      "symptomes": "Malaise, sueurs, soif ; somnolence signalée par l'épouse depuis la veille.",
+      "examen_clinique": "FC 122/min, PA 86/52 mmHg, SpO2 96 %, T 37,4 °C ; pâleur, sueurs ; ictère conjonctival ; angiomes stellaires ; ascite de faible abondance ; splénomégalie ; astérixis ; désorientation temporelle (encéphalopathie grade II). Toucher rectal : méléna.",
+      "biologie": "Hb 7,2 g/dL (N 13–17) ; plaquettes 68 G/L (N 150–400) ; TP 41 % (N > 70 %), INR 1,9 ; bilirubine totale 56 µmol/L (N < 17) ; albumine 26 g/L (N 35–50) ; créatinine 104 µmol/L (N 60–110) ; urée 16 mmol/L (N 2,5–7,5) ; Na 131 mmol/L (N 135–145) ; lactates 3,1 mmol/L (N < 2).",
+      "imagerie": "Échographie au lit : foie dysmorphique à contours bosselés, ascite de faible abondance, splénomégalie 16 cm, tronc porte perméable, pas de nodule visible.",
+      "hypotheses_diagnostiques": [
+        "Rupture de varices œsophagiennes ou gastriques sur cirrhose virale C",
+        "Ulcère gastroduodénal hémorragique chez un cirrhotique",
+        "Gastropathie d'hypertension portale"
+      ],
+      "diagnostics_differentiels": [
+        "Ulcère peptique",
+        "Syndrome de Mallory-Weiss",
+        "Carcinome hépatocellulaire rompu (hémopéritoine) — à évoquer devant un choc",
+        "Lésion de Dieulafoy"
+      ],
+      "examens_a_demander": [
+        "Groupe ABO-Rh, RAI",
+        "EOGD dans les 12 heures après stabilisation",
+        "Ponction d'ascite exploratrice (PNN, culture)",
+        "Hémocultures, ECBU",
+        "Calcul du Child-Pugh et du MELD",
+        "ARN VHC (traitement ultérieur)"
+      ],
+      "diagnostic_final": "Rupture de varices œsophagiennes avec saignement actif en jet chez un cirrhotique viral C Child-Pugh C (bilirubine 3 + albumine 3 + TP 2 + ascite de faible abondance 2 + encéphalopathie 2 = 12 points), compliquée de choc hémorragique et d'encéphalopathie hépatique grade II.",
+      "traitement": "Réanimation : 2 voies veineuses, remplissage prudent, transfusion restrictive (seuil 7 g/dL, objectif 7–8 g/dL), protection des voies aériennes discutée (encéphalopathie + hématémèse : intubation avant l'endoscopie). Vasoactif immédiat (terlipressine 2 mg/4 h les 48 premières heures puis 1 mg/4 h, ou somatostatine/octréotide) poursuivi 2–5 jours. Ceftriaxone 1 g/24 h (≤ 7 jours). Érythromycine 250 mg IV 30–120 min avant l'EOGD. Lactulose. EOGD à H6 : varices œsophagiennes de grande taille avec saignement en jet → ligature élastique. Indication de TIPS préemptif (Child-Pugh C < 14) réalisé à H40 dans un centre de référence. Pas de correction de l'INR par plasma.",
+      "surveillance": "Hémodynamique, Hb toutes les 6–12 h, conscience (West Haven), diurèse, créatinine, natrémie ; après TIPS : encéphalopathie, bilirubine, échographie-Doppler du shunt.",
+      "evolution": "Absence de récidive hémorragique ; encéphalopathie résolutive sous lactulose ; sortie à J10. Traitement antiviral C programmé (sofosbuvir/velpatasvir + ribavirine selon la fonction hépatique, inhibiteurs de protéase contre-indiqués) ; orientation vers un centre de transplantation ; dépistage semestriel du CHC.",
+      "explication_pedagogique": "Chez tout cirrhotique qui saigne : vasoactif + antibioprophylaxie + transfusion restrictive avant même l'endoscopie, endoscopie ≤ 12 h avec ligature. Le Child-Pugh C < 14 (ou B > 7 avec saignement actif) identifie les patients à haut risque qui bénéficient d'un TIPS préemptif dans les 72 h (Baveno VII). L'INR n'est pas un reflet du risque hémorragique. L'encéphalopathie impose de discuter la protection des voies aériennes.",
+      "questions": [
+        {
+          "question": "Calculez le score de Child-Pugh.",
+          "reponse": "Bilirubine > 50 µmol/L = 3 ; albumine < 28 g/L = 3 ; TP 40–50 % = 2 ; ascite de faible abondance = 2 ; encéphalopathie grade II = 2 → 12 points, classe C."
+        },
+        {
+          "question": "Quels traitements doivent être débutés avant l'endoscopie ?",
+          "reponse": "Vasoactif splanchnique, ceftriaxone 1 g/j, transfusion restrictive, érythromycine 30–120 min avant l'EOGD, lactulose ; protection des voies aériennes si nécessaire."
+        },
+        {
+          "question": "Ce patient relève-t-il d'un TIPS préemptif ? Justifiez.",
+          "reponse": "Oui : Child-Pugh C à 12 points (< 14) — critère Baveno VII ; à réaliser dans les 72 h, idéalement < 24 h."
+        },
+        {
+          "question": "Pourquoi ne pas transfuser jusqu'à 10 g/dL ?",
+          "reponse": "La sur-transfusion augmente la pression portale et le risque de récidive et de décès ; objectif 7–8 g/dL."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "de Franchis R et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol 2022;76(4):959-974. doi:10.1016/j.jhep.2021.12.022",
+          "date": "2022"
+        },
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline: esophagogastric variceal hemorrhage. Endoscopy 2022;54(11):1094-1120. doi:10.1055/a-1939-4887",
+          "date": "2022"
+        },
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-GAST-0402",
+      "titre": "Rectorragies abondantes chez une patiente âgée sous anticoagulant",
+      "niveau": "residanat",
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 81 ans, retraitée, vit avec sa fille.",
+      "motif_consultation": "Émission de sang rouge et de caillots par l'anus, à trois reprises depuis le matin, avec un malaise.",
+      "antecedents": "Fibrillation atriale sous apixaban 5 mg × 2/j ; hypertension artérielle ; diverticulose sigmoïdienne et colique droite connue (coloscopie il y a 3 ans) ; insuffisance rénale chronique modérée (DFG 48 mL/min/1,73 m²).",
+      "symptomes": "Rectorragies indolores, abondantes ; pas de douleur abdominale, pas de vomissement, pas d'hématémèse.",
+      "examen_clinique": "FC 112/min, PA 92/58 mmHg, persistant à 88/54 après 1 L de cristalloïdes ; abdomen souple, indolore ; toucher rectal : sang rouge et caillots ; anuscopie : pas de lésion hémorroïdaire hémorragique.",
+      "biologie": "Hb 8,4 g/dL (N 12–16) ; plaquettes 210 G/L ; urée 6,9 mmol/L (N 2,5–7,5) ; créatinine 102 µmol/L ; TP 72 % ; dernière prise d'apixaban il y a 6 h ; lactates 2,6 mmol/L.",
+      "imagerie": "Angioscanner abdomino-pelvien : extravasation de produit de contraste dans le côlon droit, au niveau d'un diverticule ; nombreux diverticules sigmoïdiens et coliques droits.",
+      "hypotheses_diagnostiques": [
+        "Hémorragie diverticulaire colique",
+        "Angiodysplasie colique",
+        "Hémorragie digestive haute massive"
+      ],
+      "diagnostics_differentiels": [
+        "Colite ischémique (douleurs, terrain vasculaire)",
+        "Cancer colorectal",
+        "Hémorragie digestive haute massive (urée normale ici, rend l'hypothèse moins probable)",
+        "Pathologie proctologique"
+      ],
+      "examens_a_demander": [
+        "Groupe ABO-Rh, RAI",
+        "Angio-TDM en urgence (saignement actif avec instabilité)",
+        "EOGD si doute sur une origine haute",
+        "Coloscopie après préparation une fois la patiente stabilisée",
+        "ECG, troponine"
+      ],
+      "diagnostic_final": "Hémorragie digestive basse diverticulaire du côlon droit avec saignement actif, retentissement hémodynamique, sous apixaban.",
+      "traitement": "Réanimation, transfusion (seuil 7 g/dL ; plus libéral si ischémie myocardique) ; suspension de l'apixaban et, devant une hémorragie menaçante, antagonisation selon disponibilité (antidote spécifique ou concentré de complexe prothrombinique) ; angio-TDM puis artériographie avec embolisation supra-sélective de la branche colique droite. Coloscopie à J2 après préparation : diverticule cicatriciel, pas d'autre lésion.",
+      "surveillance": "Hémodynamique, Hb, recherche de signes d'ischémie colique après embolisation (douleurs, fièvre, lactates), fonction rénale (produit de contraste).",
+      "evolution": "Arrêt du saignement après embolisation. Reprise de l'apixaban à J5 après discussion collégiale (risque thromboembolique élevé), avec réévaluation de la dose selon les critères d'adaptation. Sortie à J7.",
+      "explication_pedagogique": "Devant une hématochézie persistante avec instabilité, l'ACG 2023 recommande l'angio-TDM en première intention puis l'embolisation en cas d'extravasation ; la coloscopie urgente n'améliore pas les critères majeurs. Une origine haute doit toujours être discutée (urée, EOGD). La reprise de l'anticoagulation après l'arrêt du saignement diminue le risque thromboembolique et la mortalité.",
+      "questions": [
+        {
+          "question": "Quel examen réaliser en premier après la réanimation ?",
+          "reponse": "Un angioscanner abdomino-pelvien (hématochézie persistante avec retentissement hémodynamique)."
+        },
+        {
+          "question": "Quelle conduite en cas d'extravasation ?",
+          "reponse": "Artériographie avec embolisation supra-sélective en radiologie interventionnelle."
+        },
+        {
+          "question": "Quelle conduite vis-à-vis de l'apixaban ?",
+          "reponse": "Suspension, antagonisation si hémorragie menaçante (antidote ou CCP selon disponibilité), puis reprise après contrôle du saignement (ESGE : de préférence dans les 7 jours)."
+        },
+        {
+          "question": "Comment éliminer une origine haute ?",
+          "reponse": "Urée normale (argument contre) ; en cas de doute, EOGD."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Sengupta N et al. Management of acute lower GI bleeding: updated ACG guideline. Am J Gastroenterol 2023;118(2):208-231. doi:10.14309/ajg.0000000000002130",
+          "date": "2023"
+        },
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEPA-0401",
+      "titre": "Ictère fébrile et TP à 42 % chez un homme de 35 ans",
+      "niveau": "resident",
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 35 ans, commerçant, marié, deux enfants.",
+      "motif_consultation": "Ictère, asthénie intense et nausées depuis 6 jours.",
+      "antecedents": "Aucun ; pas de vaccination contre l'hépatite B ; soins dentaires il y a 3 mois ; pas d'alcool ; pas de médicament hormis du paracétamol (≤ 2 g/j pendant 3 jours).",
+      "symptomes": "Phase prodromique 10 jours auparavant : fièvre modérée, arthralgies, urticaire ; puis urines foncées, selles décolorées, ictère.",
+      "examen_clinique": "T 37,6 °C ; ictère franc ; hépatomégalie sensible ; pas d'astérixis ; conscience normale ; pas d'ascite.",
+      "biologie": "ALAT 2 340 UI/L (N < 40) ; ASAT 1 870 UI/L ; bilirubine totale 168 µmol/L (N < 17) ; TP 42 % (N > 70 %) ; facteur V 45 % (N 70–120 %) ; glycémie 4,6 mmol/L ; créatinine 82 µmol/L ; AgHBs positif ; IgM anti-HBc positives ; AgHBe positif ; anti-VHD négatif ; IgM anti-VHA négatives ; anti-VHC négatif ; ARN VHC négatif ; IgM anti-VHE négatives ; VIH négatif.",
+      "imagerie": "Échographie : foie homogène, paroi vésiculaire épaissie, pas de dilatation des voies biliaires, veines sus-hépatiques et tronc porte perméables.",
+      "hypotheses_diagnostiques": [
+        "Hépatite B aiguë sévère",
+        "Réactivation d'une hépatite B chronique méconnue",
+        "Hépatite B aiguë avec surinfection delta"
+      ],
+      "diagnostics_differentiels": [
+        "Hépatite médicamenteuse (paracétamol, dose faible ici)",
+        "Hépatite A ou E",
+        "Hépatite auto-immune",
+        "Maladie de Wilson (âge < 40 ans)",
+        "Obstacle biliaire (écarté à l'échographie)"
+      ],
+      "examens_a_demander": [
+        "TP, facteur V, bilirubine, glycémie toutes les 12–24 h",
+        "ADN VHB quantitatif",
+        "Anti-VHD",
+        "Ammoniémie si troubles de conscience",
+        "Céruléoplasmine (âge < 40 ans) si doute"
+      ],
+      "diagnostic_final": "Hépatite B aiguë sévère (TP < 50 %, sans encéphalopathie), probablement acquise lors de soins dentaires, chez un sujet non vacciné.",
+      "traitement": "Hospitalisation, surveillance rapprochée ; arrêt du paracétamol et de tout hépatotoxique/sédatif ; analogue nucléos(t)idique (entécavir ou ténofovir) recommandé dans l'hépatite B aiguë sévère ; contact téléphonique précoce avec un centre de transplantation hépatique ; prévention de l'hypoglycémie.",
+      "surveillance": "Conscience (astérixis, confusion), TP/facteur V, bilirubine, glycémie quotidiennement ; critères de transfert (encéphalopathie, facteur V en chute) ; AgHBs à 6 mois pour juger de la guérison.",
+      "evolution": "Nadir du TP à 38 % à J3 puis remontée progressive ; pas d'encéphalopathie ; normalisation du TP à J15. À 6 mois : AgHBs négatif, anti-HBs positifs : guérison. Dépistage et vaccination de l'épouse (non immunisée) et des enfants (vaccinés).",
+      "explication_pedagogique": "La gravité d'une hépatite aiguë se juge sur le TP/facteur V et l'encéphalopathie, pas sur les transaminases. Une hépatite B aiguë sévère justifie un analogue nucléos(t)idique et un lien précoce avec un centre de transplantation. La prévention (vaccination, sécurité des soins) reste la mesure clé.",
+      "questions": [
+        {
+          "question": "Quels marqueurs affirment le caractère aigu de l'hépatite B ?",
+          "reponse": "AgHBs positif avec IgM anti-HBc positives (en contexte de cytolyse aiguë)."
+        },
+        {
+          "question": "Quels sont les critères de gravité ?",
+          "reponse": "TP < 50 % (hépatite sévère) ; encéphalopathie (forme fulminante) ; facteur V effondré, hypoglycémie, baisse rapide des transaminases avec chute du TP."
+        },
+        {
+          "question": "Faut-il un antiviral ?",
+          "reponse": "Oui, un analogue (entécavir ou ténofovir) est recommandé dans les hépatites B aiguës sévères."
+        },
+        {
+          "question": "Comment affirmer la guérison ?",
+          "reponse": "Disparition de l'AgHBs et apparition des anti-HBs, contrôle à 6 mois."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "EASL CPG on the management of hepatitis B virus infection. J Hepatol 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018",
+          "date": "2025"
+        },
+        {
+          "reference": "EASL 2017 CPG on the management of hepatitis B virus infection. J Hepatol 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEPA-0402",
+      "titre": "Hépatite C découverte lors d'un bilan, élastométrie à 14 kPa",
+      "niveau": "generaliste",
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 58 ans, institutrice retraitée.",
+      "motif_consultation": "Anti-VHC positif lors d'un bilan préopératoire (cataracte).",
+      "antecedents": "Transfusion lors d'un accouchement hémorragique en 1987 ; reflux gastro-œsophagien traité par oméprazole 20 mg/j ; hypertension sous amlodipine ; pas d'alcool.",
+      "symptomes": "Asthénie modérée ; aucun autre symptôme.",
+      "examen_clinique": "IMC 26 kg/m² ; pas de signe d'insuffisance hépatocellulaire ; pas d'hépatosplénomégalie ; pas d'ascite.",
+      "biologie": "ARN VHC 5,9 log10 UI/mL ; ALAT 74 UI/L (N < 35) ; ASAT 68 UI/L ; plaquettes 132 G/L (N 150–400) ; albumine 39 g/L ; bilirubine 14 µmol/L ; TP 88 % ; créatinine 70 µmol/L (DFG > 60) ; AgHBs négatif, anti-HBc positif, anti-HBs positif ; VIH négatif. FIB-4 calculé ≈ 3,5 (> 3,25 : fibrose avancée probable).",
+      "imagerie": "Échographie : foie de contours réguliers, pas de nodule, rate 12 cm. Élastométrie : 14,2 kPa (IQR/médiane 18 %).",
+      "hypotheses_diagnostiques": [
+        "Hépatite C chronique avec maladie chronique avancée du foie compensée (cACLD)"
+      ],
+      "diagnostics_differentiels": [
+        "Stéatose métabolique associée",
+        "Hépatopathie alcoolique (exclue par l'interrogatoire)",
+        "Hépatite auto-immune"
+      ],
+      "examens_a_demander": [
+        "Vérification des interactions médicamenteuses (oméprazole, amlodipine)",
+        "Bilan de la fibrose (élastométrie fait)",
+        "Ne pas demander de génotypage si schéma pangénotypique",
+        "Endoscopie de dépistage des varices selon Baveno VII (plaquettes < 150 G/L : les critères permettant de s'en dispenser ne sont pas réunis)"
+      ],
+      "diagnostic_final": "Hépatite C chronique virémique avec cACLD (élastométrie 10–15 kPa : suggestive), Child-Pugh A5, infection VHB ancienne guérie (anti-HBc+, anti-HBs+).",
+      "traitement": "Sofosbuvir/velpatasvir 400/100 mg/j pendant 12 semaines (ou glécaprévir/pibrentasvir 8 semaines). Gestion de l'interaction IPP–velpatasvir : arrêt de l'oméprazole si possible ou prise du comprimé avec un repas 4 h avant l'oméprazole 20 mg selon le RCP. Surveillance de l'ADN VHB non systématique chez une patiente AgHBs−/anti-HBc+ mais vigilance en cas de cytolyse.",
+      "surveillance": "Observance ; ARN VHC 12 semaines après la fin du traitement (RVS12) ; après guérison, dépistage du CHC par échographie tous les 6 mois compte tenu de la fibrose avancée probable ; réévaluation de l'élastométrie.",
+      "evolution": "RVS12 obtenue ; ALAT normalisées ; élastométrie à 1 an 9,8 kPa. Maintien de la surveillance échographique semestrielle (risque de CHC persistant).",
+      "explication_pedagogique": "Un anti-VHC positif impose la recherche de l'ARN. Les schémas pangénotypiques dispensent du génotypage. Les interactions (IPP, amiodarone, inducteurs) et le statut VHB doivent être vérifiés. Après RVS, une fibrose avancée justifie la poursuite du dépistage du CHC (EASL 2024).",
+      "questions": [
+        {
+          "question": "Quelle est la signification de l'élastométrie à 14,2 kPa ?",
+          "reponse": "Selon Baveno VII, une valeur entre 10 et 15 kPa suggère une cACLD (fibrose avancée/cirrhose compensée)."
+        },
+        {
+          "question": "Quel schéma proposer ?",
+          "reponse": "Sofosbuvir/velpatasvir 12 semaines ou glécaprévir/pibrentasvir 8 semaines (patiente naïve, compensée)."
+        },
+        {
+          "question": "Quelle interaction gérer ?",
+          "reponse": "IPP (oméprazole) qui diminue l'absorption du velpatasvir : arrêt ou adaptation selon le RCP."
+        },
+        {
+          "question": "Quel suivi après la guérison ?",
+          "reponse": "Échographie tous les 6 mois (fibrose avancée), réévaluation non invasive de la fibrose, prévention de la réinfection."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "EASL recommendations on treatment of hepatitis C: final update of the series. J Hepatol 2020;73(5):1170-1218. doi:10.1016/j.jhep.2020.08.018",
+          "date": "2020"
+        },
+        {
+          "reference": "Reiberger T, Lens S et al. EASL position paper on clinical follow-up after HCV cure. J Hepatol 2024;81(2):326-344. doi:10.1016/j.jhep.2024.04.007",
+          "date": "2024"
+        },
+        {
+          "reference": "de Franchis R et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol 2022;76(4):959-974. doi:10.1016/j.jhep.2021.12.022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEPA-0403",
+      "titre": "Thrombopénie isolée révélant une maladie chronique avancée du foie chez un diabétique",
+      "niveau": "generaliste",
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 62 ans, fonctionnaire retraité.",
+      "motif_consultation": "Thrombopénie à 112 G/L découverte sur un hémogramme de routine ; adressé par son médecin généraliste.",
+      "antecedents": "Diabète de type 2 depuis 15 ans (HbA1c 8,1 %), obésité (IMC 33 kg/m²), hypertension, dyslipidémie ; consommation d'alcool déclarée d'environ 2 verres standard par semaine ; AgHBs négatif, anti-VHC négatif.",
+      "symptomes": "Asymptomatique.",
+      "examen_clinique": "Tour de taille 112 cm ; foie palpable, ferme, à bord inférieur tranchant ; rate non palpable ; pas d'ascite ; quelques angiomes stellaires.",
+      "biologie": "Plaquettes 112 G/L ; ASAT 52 UI/L (N < 40) ; ALAT 48 UI/L ; GGT 96 UI/L ; albumine 38 g/L ; bilirubine 15 µmol/L ; TP 84 % ; créatinine 88 µmol/L ; ferritine 420 µg/L avec coefficient de saturation 32 % ; auto-anticorps négatifs ; FIB-4 ≈ 4,3.",
+      "imagerie": "Échographie : foie dysmorphique à contours bosselés, stéatose, rate 13,5 cm, pas de nodule, pas d'ascite. Élastométrie (sonde XL) : 28 kPa.",
+      "hypotheses_diagnostiques": [
+        "Cirrhose compensée associée à une stéatose métabolique (MASLD)",
+        "Hypertension portale cliniquement significative probable"
+      ],
+      "diagnostics_differentiels": [
+        "Thrombopénie d'origine hématologique (purpura thrombopénique immunologique)",
+        "Hémochromatose (CST < 45 %, argument contre)",
+        "MetALD (consommation d'alcool faible ici)",
+        "Hépatite auto-immune (auto-anticorps négatifs)"
+      ],
+      "examens_a_demander": [
+        "Bilan étiologique complet (fait)",
+        "Alpha-fœtoprotéine et échographie de dépistage du CHC",
+        "Évaluation cardiovasculaire",
+        "Sérologies VHA et VHB pour vaccination",
+        "Bilan nutritionnel"
+      ],
+      "diagnostic_final": "Cirrhose compensée (Child-Pugh A5) liée à une MASLD, avec hypertension portale cliniquement significative probable (élastométrie ≥ 25 kPa).",
+      "traitement": "Carvédilol 6,25 mg/j puis 12,5 mg/j si la PA le permet (prévention de la décompensation, Baveno VII) ; endoscopie de dépistage non indispensable puisque le patient est traité par BBNS pour HTPCS ; perte de poids progressive, activité physique, optimisation du diabète ; arrêt de l'alcool conseillé ; vaccinations VHA, VHB, grippe, pneumocoque ; éviter AINS et sédatifs.",
+      "surveillance": "Échographie (± AFP) tous les 6 mois ; tolérance du carvédilol (PA, FC) ; bilan hépatique, plaquettes tous les 6 mois ; élastométrie annuelle ; suivi diabétologique et cardiovasculaire.",
+      "evolution": "À 1 an : perte de 7 % du poids, HbA1c 7,0 %, pas de décompensation ; échographies de dépistage normales.",
+      "explication_pedagogique": "Une thrombopénie inexpliquée chez un patient métabolique doit faire calculer le FIB-4 et réaliser une élastométrie. Baveno VII : ≥ 25 kPa = HTPCS probable → BBNS (carvédilol) pour prévenir la décompensation. La nomenclature MASLD (2023) exige au moins un critère cardiométabolique.",
+      "questions": [
+        {
+          "question": "Comment interpréter l'élastométrie à 28 kPa ?",
+          "reponse": "cACLD très probable (> 15 kPa) et HTPCS probable (≥ 25 kPa) selon Baveno VII."
+        },
+        {
+          "question": "Quel traitement de fond de l'hypertension portale ?",
+          "reponse": "Carvédilol 6,25 → 12,5 mg/j pour prévenir la décompensation."
+        },
+        {
+          "question": "Quel est le terme actuel pour cette hépatopathie ?",
+          "reponse": "MASLD (stéatose associée à une dysfonction métabolique), au stade de cirrhose."
+        },
+        {
+          "question": "Quel dépistage organiser ?",
+          "reponse": "CHC : échographie tous les 6 mois (± AFP)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "de Franchis R et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol 2022;76(4):959-974. doi:10.1016/j.jhep.2021.12.022",
+          "date": "2022"
+        },
+        {
+          "reference": "Rinella ME et al. A multisociety Delphi consensus statement on new fatty liver disease nomenclature. J Hepatol 2023;79(6):1542-1556. doi:10.1016/j.jhep.2023.06.003",
+          "date": "2023"
+        },
+        {
+          "reference": "EASL CPG on the management of hepatocellular carcinoma. J Hepatol 2025;82(2):315-374. doi:10.1016/j.jhep.2024.08.028",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-HEPA-0404",
+      "titre": "Confusion chez un cirrhotique alcoolique ascitique",
+      "niveau": "resident",
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 55 ans, ancien ouvrier du bâtiment.",
+      "motif_consultation": "Confusion et somnolence depuis 48 heures, signalées par son fils.",
+      "antecedents": "Cirrhose alcoolique connue depuis 3 ans, abstinent depuis 8 mois ; ascite traitée par spironolactone 200 mg/j et furosémide 80 mg/j ; prise récente de bromazépam pour insomnie (prescrit 10 jours plus tôt) ; constipation depuis 5 jours.",
+      "symptomes": "Inversion du rythme veille-sommeil, désorientation, brûlures mictionnelles.",
+      "examen_clinique": "T 38,1 °C ; FC 94/min ; PA 104/62 mmHg ; désorientation temporo-spatiale, somnolence réveillable, astérixis (grade II–III de West Haven) ; ascite modérée ; pas de signe de localisation neurologique ; toucher rectal : selles dures, pas de méléna.",
+      "biologie": "Na 123 mmol/L (N 135–145) ; K 3,1 mmol/L (N 3,5–5) ; créatinine 132 µmol/L (base 85) ; glycémie 5,8 mmol/L ; Hb 11,4 g/dL ; bilirubine 42 µmol/L ; albumine 29 g/L ; TP 52 % ; ECBU : leucocyturie, *E. coli* ; ponction d'ascite : PNN 90/mm³.",
+      "imagerie": "Radiographie thoracique normale ; scanner cérébral sans injection : pas d'hématome sous-dural.",
+      "hypotheses_diagnostiques": [
+        "Encéphalopathie hépatique patente multifactorielle",
+        "Insuffisance rénale aiguë du cirrhotique"
+      ],
+      "diagnostics_differentiels": [
+        "Hématome sous-dural (écarté au scanner)",
+        "Hypoglycémie (écartée)",
+        "Encéphalopathie de Gayet-Wernicke",
+        "Sevrage ou intoxication (benzodiazépine)",
+        "Méningite",
+        "Hyponatrémie symptomatique"
+      ],
+      "examens_a_demander": [
+        "Glycémie capillaire",
+        "Scanner cérébral (chute, troubles de l'hémostase)",
+        "Ponction d'ascite (PNN)",
+        "ECBU, hémocultures, radiographie thoracique",
+        "Ionogramme, créatinine"
+      ],
+      "diagnostic_final": "Encéphalopathie hépatique grade II–III déclenchée par une benzodiazépine, une constipation, une infection urinaire, une hypokaliémie et une hyponatrémie liée aux diurétiques, avec IRA (créatinine × 1,55 : stade 1B ICA) chez un cirrhotique alcoolique Child-Pugh C.",
+      "traitement": "Arrêt du bromazépam et des diurétiques ; correction de l'hypokaliémie ; lactulose per os ou par sonde/lavement pour 2–3 selles molles/j ; antibiothérapie de l'infection urinaire ; albumine 1 g/kg/j pendant 2 jours (IRA) ; restriction hydrique (Na < 125 mmol/L) avec correction ≤ 8 mmol/L/24 h ; thiamine systématique chez l'alcoolique ; nutrition sans restriction protéique ; protection des voies aériennes si aggravation.",
+      "surveillance": "Conscience (West Haven) pluriquotidienne, nombre de selles, natrémie et kaliémie toutes les 12–24 h, créatinine, diurèse, température.",
+      "evolution": "Réveil complet à J3, créatinine 92 µmol/L à J4, natrémie 129 mmol/L à J5. Reprise prudente des diurétiques à demi-dose. Lactulose au long cours ; rifaximine 550 mg × 2/j ajoutée si récidive. Orientation vers un centre de transplantation (abstinence > 6 mois, Child-Pugh C).",
+      "explication_pedagogique": "L'encéphalopathie hépatique a presque toujours un facteur déclenchant : sédatifs, constipation, infection, troubles ioniques, diurétiques, IRA, hémorragie. Il faut éliminer les diagnostics différentiels (hypoglycémie, hématome sous-dural, Wernicke). Pas de restriction protéique ; correction lente de l'hyponatrémie.",
+      "questions": [
+        {
+          "question": "Citez les facteurs déclenchants présents.",
+          "reponse": "Benzodiazépine, constipation, infection urinaire, hypokaliémie, hyponatrémie, IRA liée aux diurétiques."
+        },
+        {
+          "question": "Pourquoi un scanner cérébral ?",
+          "reponse": "Éliminer un hématome sous-dural chez un patient à risque de chute et de troubles de l'hémostase."
+        },
+        {
+          "question": "Quelle est la vitesse maximale de correction de la natrémie ?",
+          "reponse": "8 mmol/L par 24 heures (risque de myélinolyse centropontine)."
+        },
+        {
+          "question": "Quand ajouter la rifaximine ?",
+          "reponse": "En prévention secondaire, en association au lactulose, après une récidive d'encéphalopathie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CDIG-0401",
+      "titre": "Kyste hépatique de découverte fortuite chez une jeune femme désirant une grossesse",
+      "niveau": "residanat",
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 27 ans, enseignante, originaire d'une commune rurale des hauts plateaux, mariée depuis 1 an.",
+      "motif_consultation": "Échographie réalisée pour des douleurs pelviennes : découverte d'un kyste hépatique de 6,5 cm.",
+      "antecedents": "Aucun ; contact dans l'enfance avec les chiens de garde du troupeau familial ; désir de grossesse ; test de grossesse négatif.",
+      "symptomes": "Aucun symptôme hépatique.",
+      "examen_clinique": "Pas d'hépatomégalie palpable, pas d'ictère ; examen thoracique normal.",
+      "biologie": "Bilan hépatique normal ; hémogramme normal (éosinophiles 0,3 G/L) ; β-hCG négatives ; sérologie hydatique : ELISA positif, confirmé par immunoblot.",
+      "imagerie": "Échographie : kyste uniloculaire anéchogène du segment VI, 6,5 cm, à paroi visible en double contour, avec fines particules échogènes mobiles (sable hydatique) — stade CE1 de l'OMS (Gharbi I). Bili-IRM : pas de dilatation ni de communication biliaire visible. Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Kyste hydatique du foie CE1 actif"
+      ],
+      "diagnostics_differentiels": [
+        "Kyste biliaire simple (paroi invisible, pas de sable)",
+        "Néoplasie kystique mucineuse (cloisons, végétations)",
+        "Abcès hépatique (contexte infectieux absent)"
+      ],
+      "examens_a_demander": [
+        "Sérologie avec confirmation (faite)",
+        "Bili-IRM (communication biliaire ?)",
+        "Radiographie thoracique",
+        "Bilan hépatique et hémogramme avant albendazole",
+        "Test de grossesse"
+      ],
+      "diagnostic_final": "Kyste hydatique hépatique CE1 de 6,5 cm, non compliqué, chez une femme jeune ayant un désir de grossesse.",
+      "traitement": "Selon le consensus OMS-IWGE : CE1 > 5 cm → PAIR + albendazole (alternative : chirurgie). Albendazole 400 mg × 2/j au cours d'un repas gras, débuté avant la PAIR et poursuivi après [durées À VÉRIFIER], sous contraception efficace et surveillance des transaminases et de l'hémogramme. PAIR échoguidée par une équipe entraînée (liquide clair, absence de bile → injection de sérum salé hypertonique puis réaspiration), réanimateur disponible (anaphylaxie). La grossesse est différée jusqu'à la fin de l'albendazole.",
+      "surveillance": "Échographie à 1, 3, 6, 12 mois puis annuelle pendant plusieurs années (évolution attendue vers CE3a puis CE4) ; sérologie à long terme ; transaminases et hémogramme sous albendazole.",
+      "evolution": "À 6 mois : kyste réduit à 3,8 cm, aspect hétérogène pseudo-solide (CE4) ; pas de complication. Grossesse autorisée après l'arrêt de l'albendazole et la contraception de sécurité recommandée par le RCP.",
+      "explication_pedagogique": "La classification OMS guide le traitement : CE1/CE3a > 5 cm = PAIR + albendazole. Vérifier l'absence de communication biliaire. L'albendazole est contre-indiqué pendant la grossesse : contraception et report du projet. Enquête familiale et vermifugation des chiens.",
+      "questions": [
+        {
+          "question": "Quel est le stade OMS et son équivalent de Gharbi ?",
+          "reponse": "CE1 (actif) ; Gharbi I."
+        },
+        {
+          "question": "Quelle stratégie thérapeutique ?",
+          "reponse": "PAIR + albendazole (kyste CE1 > 5 cm sans communication biliaire), chirurgie en alternative."
+        },
+        {
+          "question": "Quelle précaution liée au projet de grossesse ?",
+          "reponse": "Albendazole contre-indiqué pendant la grossesse : contraception efficace et report de la grossesse."
+        },
+        {
+          "question": "Que signifierait un liquide bilieux à la ponction ?",
+          "reponse": "Une communication kysto-biliaire : ne pas injecter de scolicide (risque de cholangite sclérosante) et réorienter vers la chirurgie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        },
+        {
+          "reference": "Gharbi HA et al. Ultrasound examination of the hydatic liver. Radiology 1981;139(2):459-463. doi:10.1148/radiology.139.2.7220891",
+          "date": "1981"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CDIG-0402",
+      "titre": "Choc et urticaire après une chute chez un adolescent berger",
+      "niveau": "resident",
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 16 ans, aide-berger, région steppique.",
+      "motif_consultation": "Douleur abdominale brutale après une chute d'un âne, suivie d'un malaise.",
+      "antecedents": "« Gros foie » signalé lors d'une visite médicale scolaire, non exploré ; chiens de troupeau non vermifugés.",
+      "symptomes": "Douleur abdominale diffuse intense, prurit généralisé, dyspnée.",
+      "examen_clinique": "FC 132/min, PA 78/40 mmHg, FR 28/min, SpO2 93 % ; urticaire généralisée, œdème des lèvres ; sibilants ; abdomen distendu, défense diffuse ; ecchymose de l'hypochondre droit.",
+      "biologie": "Hb 12,8 g/dL ; leucocytes 14 G/L, éosinophiles 0,9 G/L ; lactates 4,2 mmol/L ; bilirubine 22 µmol/L ; lipase normale ; tryptase sérique prélevée.",
+      "imagerie": "FAST échographie : épanchement péritonéal abondant ; après stabilisation, TDM : kyste hépatique de 12 cm du segment IV-V avec paroi rompue, membranes flottantes, épanchement péritonéal abondant, pas de pneumopéritoine ; kyste pulmonaire droit de 4 cm.",
+      "hypotheses_diagnostiques": [
+        "Rupture intrapéritonéale traumatique d'un kyste hydatique du foie avec choc anaphylactique",
+        "Hémopéritoine traumatique (rupture hépatique ou splénique)"
+      ],
+      "diagnostics_differentiels": [
+        "Rupture splénique",
+        "Plaie hépatique",
+        "Perforation d'organe creux",
+        "Choc hémorragique pur"
+      ],
+      "examens_a_demander": [
+        "Groupe ABO-Rh, RAI",
+        "FAST puis TDM après stabilisation",
+        "Tryptase sérique",
+        "Sérologie hydatique",
+        "Radiographie/TDM thoracique (kyste pulmonaire)"
+      ],
+      "diagnostic_final": "Rupture intrapéritonéale traumatique d'un kyste hydatique hépatique avec choc anaphylactique ; kyste pulmonaire droit associé (hydatidose multiviscérale).",
+      "traitement": "Traitement du choc anaphylactique : adrénaline IM puis IV titrée, remplissage, oxygène, antihistaminique et corticoïde en complément. Laparotomie en urgence : aspiration de l'épanchement et des membranes, lavage abondant de la cavité péritonéale (sérum salé hypertonique en respectant les précautions), traitement du kyste (résection du dôme saillant, recherche et suture des fistules biliaires, drainage). Albendazole prolongé en postopératoire pour prévenir l'échinococcose péritonéale secondaire [durée À VÉRIFIER]. Traitement du kyste pulmonaire en second temps.",
+      "surveillance": "Hémodynamique, drains (bile), température ; échographie et TDM répétées à la recherche d'une échinococcose péritonéale secondaire ; transaminases et hémogramme sous albendazole.",
+      "evolution": "Suites favorables ; kystectomie pulmonaire à 2 mois ; pas de récidive péritonéale à 2 ans. Dépistage échographique de la fratrie (un frère porteur d'un kyste CE1 de 3 cm traité par albendazole) ; vermifugation des chiens.",
+      "explication_pedagogique": "La rupture intrapéritonéale associe douleur brutale, anaphylaxie et risque d'échinococcose secondaire. Urgence médico-chirurgicale : adrénaline, laparotomie, lavage, albendazole prolongé. Rechercher systématiquement d'autres localisations (poumon) et organiser l'enquête familiale.",
+      "questions": [
+        {
+          "question": "Quel mécanisme explique le choc ?",
+          "reponse": "Anaphylaxie au liquide hydatique très antigénique (± composante hémorragique)."
+        },
+        {
+          "question": "Quelle complication à distance faut-il prévenir ?",
+          "reponse": "L'échinococcose péritonéale secondaire (ensemencement des protoscolex) : lavage, albendazole prolongé, surveillance."
+        },
+        {
+          "question": "Quel bilan d'extension ?",
+          "reponse": "Imagerie thoracique (kyste pulmonaire), échographie/TDM abdominale complète."
+        },
+        {
+          "question": "Quelle mesure de santé publique ?",
+          "reponse": "Dépistage échographique familial, vermifugation des chiens (praziquantel), éducation sur l'abattage et l'hygiène."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CDIG-0403",
+      "titre": "Douleur épigastrique et sérum lactescent chez un diabétique",
+      "niveau": "resident",
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 41 ans, chauffeur de taxi.",
+      "motif_consultation": "Douleur épigastrique transfixiante depuis 12 heures avec vomissements.",
+      "antecedents": "Diabète de type 2 déséquilibré (arrêt de son traitement depuis 3 mois), obésité (IMC 34 kg/m²), consommation d'alcool occasionnelle, hypertriglycéridémie connue non traitée ; pas de lithiase connue.",
+      "symptomes": "Douleur intense irradiant dans le dos, nausées, vomissements, polyurie-polydipsie depuis 2 semaines.",
+      "examen_clinique": "T 37,8 °C ; FC 108/min ; PA 132/80 mmHg ; FR 22/min ; SpO2 97 % ; sensibilité épigastrique ; xanthomes éruptifs sur les fesses et les coudes.",
+      "biologie": "Lipase 6 × LSN ; triglycérides 28 mmol/L (N < 1,7) ; sérum lactescent ; glycémie 21 mmol/L ; cétonémie 1,2 mmol/L ; pH 7,33 ; bicarbonates 19 mmol/L ; natrémie mesurée 129 mmol/L (pseudo-hyponatrémie possible) ; créatinine 108 µmol/L ; hématocrite 46 % ; calcémie 2,05 mmol/L ; ALAT normales ; CRP 45 mg/L.",
+      "imagerie": "Échographie : stéatose hépatique, vésicule alithiasique, pancréas mal visualisé.",
+      "hypotheses_diagnostiques": [
+        "Pancréatite aiguë hypertriglycéridémique",
+        "Cétose diabétique associée"
+      ],
+      "diagnostics_differentiels": [
+        "Acidocétose diabétique avec élévation non spécifique de la lipase",
+        "Pancréatite aiguë alcoolique",
+        "Perforation d'ulcère",
+        "Infarctus du myocarde inférieur"
+      ],
+      "examens_a_demander": [
+        "ECG, troponine",
+        "Gaz du sang, cétonémie",
+        "Calcémie, bilan hépatique",
+        "Scanner injecté à 72–96 h si évolution défavorable ou doute",
+        "Bilan lipidique de contrôle à distance"
+      ],
+      "diagnostic_final": "Pancréatite aiguë hypertriglycéridémique (TG 28 mmol/L > 11,3) sur diabète déséquilibré avec cétose modérée.",
+      "traitement": "Ringer lactate selon une stratégie modérée guidée par des objectifs ; insulinothérapie IV continue (contrôle glycémique et baisse des triglycérides, apport glucosé lorsque la glycémie baisse) [protocole local À VÉRIFIER] ; analgésie multimodale ; correction de la kaliémie sous insuline ; réalimentation orale précoce pauvre en graisses dès la sédation de la douleur ; plasmaphérèse discutée seulement en cas d'échec ou de forme sévère ; pas d'antibiotique.",
+      "surveillance": "Triglycérides quotidiens, glycémie horaire sous insuline, kaliémie, signes de défaillance d'organe (Marshall) à 48 h, hématocrite, urée.",
+      "evolution": "Triglycérides à 6 mmol/L à J3, réalimentation à J2, sortie à J5 sous insuline basale, metformine, fénofibrate, régime adapté ; éducation sur l'alcool. Pas de récidive à 1 an (TG 2,4 mmol/L).",
+      "explication_pedagogique": "Troisième cause de pancréatite aiguë, l'hypertriglycéridémie est retenue au-delà de 11,3 mmol/L (1 000 mg/dL). Doser les triglycérides précocement car ils diminuent rapidement. L'insuline est le traitement de base ; la prévention de la récidive repose sur le contrôle du diabète, les fibrates, le régime et l'arrêt de l'alcool.",
+      "questions": [
+        {
+          "question": "Quel seuil de triglycérides rend l'hypertriglycéridémie responsable ?",
+          "reponse": "> 11,3 mmol/L (1 000 mg/dL)."
+        },
+        {
+          "question": "Pourquoi doser rapidement les triglycérides ?",
+          "reponse": "Ils baissent vite avec le jeûne et la réhydratation, ce qui peut masquer la cause."
+        },
+        {
+          "question": "Quel est le traitement spécifique ?",
+          "reponse": "Insulinothérapie IV (± glucose), plasmaphérèse dans des cas sélectionnés."
+        },
+        {
+          "question": "Comment prévenir la récidive ?",
+          "reponse": "Contrôle du diabète, fibrates, régime pauvre en graisses et sucres rapides, perte de poids, arrêt de l'alcool."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        },
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        },
+        {
+          "reference": "de-Madaria E et al. Aggressive or moderate fluid resuscitation in acute pancreatitis (WATERFALL). N Engl J Med 2022;387:989-1000. doi:10.1056/NEJMoa2202884",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-CDIG-0404",
+      "titre": "Pancréatite aiguë biliaire avec angiocholite chez une femme de 68 ans",
+      "niveau": "residanat",
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 68 ans, mère au foyer.",
+      "motif_consultation": "Douleur épigastrique et de l'hypochondre droit depuis 24 heures, fièvre et ictère depuis le matin.",
+      "antecedents": "Lithiase vésiculaire connue depuis 2 ans, non opérée ; hypertension ; diabète de type 2.",
+      "symptomes": "Douleur intense transfixiante, frissons, urines foncées, vomissements.",
+      "examen_clinique": "T 39,2 °C ; FC 116/min ; PA 98/60 mmHg ; FR 24/min ; SpO2 95 % ; ictère ; sensibilité de l'hypochondre droit et de l'épigastre, signe de Murphy douteux.",
+      "biologie": "Lipase 18 × LSN ; leucocytes 18,5 G/L ; CRP 96 mg/L ; bilirubine totale 74 µmol/L (conjuguée 58) ; ALAT 8 × LSN ; PAL 3 × LSN ; GGT 9 × LSN ; créatinine 128 µmol/L (base 80) ; hématocrite 45 % ; lactates 2,4 mmol/L ; hémocultures : *Klebsiella pneumoniae* (résultat à H24) ; triglycérides et calcémie normaux.",
+      "imagerie": "Échographie : vésicule multilithiasique, voie biliaire principale dilatée à 11 mm, calcul enclavé du bas cholédoque suspecté.",
+      "hypotheses_diagnostiques": [
+        "Pancréatite aiguë biliaire compliquée d'angiocholite par calcul de la voie biliaire principale"
+      ],
+      "diagnostics_differentiels": [
+        "Cholécystite aiguë lithiasique",
+        "Abcès hépatique",
+        "Perforation d'ulcère",
+        "Infarctus du myocarde inférieur"
+      ],
+      "examens_a_demander": [
+        "Hémocultures (faites)",
+        "Gaz du sang, lactates",
+        "Calcul du score de Marshall à l'admission et à 48 h",
+        "CPRE en urgence (< 24 h)",
+        "Scanner injecté à 72–96 h si évolution défavorable"
+      ],
+      "diagnostic_final": "Pancréatite aiguë biliaire avec angiocholite (triade de Charcot, bactériémie à *Klebsiella*) et insuffisance rénale aiguë fonctionnelle (créatinine 128 µmol/L : Marshall rénal 0, mais élévation de 60 % par rapport à la base).",
+      "traitement": "Remplissage par Ringer lactate guidé par des objectifs (stratégie modérée, réévaluations rapprochées) ; antibiothérapie de l'angiocholite active sur les entérobactéries (adaptée à l'antibiogramme) ; analgésie ; CPRE en urgence (< 24 h) : sphinctérotomie et extraction d'un calcul de 8 mm. Réalimentation orale à J3. Cholécystectomie cœlioscopique au cours de la même hospitalisation (forme non nécrosante, évolution favorable).",
+      "surveillance": "Hémodynamique, diurèse, créatinine, bilirubine, signes de défaillance d'organe (Marshall) à 48 h ; douleur et tolérance alimentaire.",
+      "evolution": "Apyrexie à J2, normalisation de la créatinine à J3, pas de défaillance d'organe persistante : pancréatite légère à modérément sévère. Cholécystectomie à J6, sortie à J8. Antibiothérapie de 7 jours au total [durée À VÉRIFIER].",
+      "explication_pedagogique": "L'angiocholite associée est la seule indication consensuelle de CPRE urgente au cours de la pancréatite biliaire. En l'absence d'angiocholite, la CPRE précoce n'est pas recommandée. La cholécystectomie pendant la même hospitalisation prévient la récidive dans les formes légères ; elle est différée dans les formes nécrosantes.",
+      "questions": [
+        {
+          "question": "Quelle est l'indication de la CPRE et son délai ?",
+          "reponse": "Angiocholite associée : CPRE en urgence, dans les 24 heures."
+        },
+        {
+          "question": "Une antibioprophylaxie est-elle indiquée pour la pancréatite ?",
+          "reponse": "Non ; l'antibiothérapie est ici justifiée par l'angiocholite et la bactériémie."
+        },
+        {
+          "question": "Quand réaliser la cholécystectomie ?",
+          "reponse": "Au cours de la même hospitalisation (forme non nécrosante)."
+        },
+        {
+          "question": "Quel soluté de remplissage et quelle stratégie ?",
+          "reponse": "Ringer lactate, stratégie modérée guidée par des objectifs avec réévaluations (WATERFALL, ACG 2024)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        },
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        },
+        {
+          "reference": "Banks PA et al. Classification of acute pancreatitis—2012: revision of the Atlanta classification. Gut 2013;62(1):102-111. doi:10.1136/gutjnl-2012-302779",
+          "date": "2013"
+        },
+        {
+          "reference": "de-Madaria E et al. Aggressive or moderate fluid resuscitation in acute pancreatitis (WATERFALL). N Engl J Med 2022;387:989-1000. doi:10.1056/NEJMoa2202884",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

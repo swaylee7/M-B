@@ -1,9 +1,18 @@
 {
   "id": "RES-02",
-  "statut": "en_attente",
-  "derniere_execution": null,
+  "statut": "en_cours",
+  "derniere_execution": "2026-11-19",
   "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "taches_suivantes": [
+    "QCM SF-001…SF-036 (lot a)",
+    "QCM SF-037…SF-073 (lot b)"
+  ],
+  "objectifs": {
+    "items": 68,
+    "qcm_par_item": 4,
+    "qcm_total": 272
+  },
+  "compteurs": {
+    "qcm": 0
+  }
 }

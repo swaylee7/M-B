@@ -1,6 +1,6 @@
 {
   "id": "DOS-04",
-  "statut": "en_cours",
+  "statut": "termine_a_auditer",
   "derniere_execution": "2026-11-19",
   "taches_terminees": [
     "lecture_contexte",
@@ -9,13 +9,17 @@
     "DOS-HEPA-0001",
     "DOS-HEPA-0002",
     "DOS-CDIG-0001",
-    "DOS-CDIG-0002"
-  ],
-  "taches_suivantes": [
+    "DOS-CDIG-0002",
     "lot_QCM",
     "lot_CAS",
-    "validation_json",
-    "rapport"
+    "validation_json"
+  ],
+  "taches_suivantes": [
+    "audit_par_AUD (priorités : posologies, données algériennes à sourcer, références non vérifiées)",
+    "RES-MED-018 Maladie ulcéreuse",
+    "RES-MED-021 Amibiase",
+    "RES-MED-022 Ictère",
+    "RES-MED-023 Ascite"
   ],
   "objectifs": {
     "dossiers": 5,
@@ -24,11 +28,24 @@
   },
   "compteurs": {
     "dossiers": 5,
-    "qcm": 0,
-    "cas": 0
+    "qcm": 60,
+    "cas": 10,
+    "sources_verifiees": 35,
+    "sources_totales": 70
   },
   "plages_identifiants": {
     "qcm": "QCM-GAST/HEPA/CDIG-0401..0499",
     "cas": "CAS-GAST/HEPA/CDIG-0401..0499"
+  },
+  "livrables": {
+    "dossiers": [
+      "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0001__HEMORRAGIES_DIGESTIVES.md",
+      "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0001__HEPATITES_VIRALES_A_B_C.md",
+      "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0002__CIRRHOSES.md",
+      "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0001__KYSTE_HYDATIQUE_DU_FOIE.md",
+      "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0002__PANCREATITE_AIGUE.md"
+    ],
+    "qcm": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-04.json",
+    "cas": "20_CAS_CLINIQUES/lots/DOS-04.json"
   }
 }

@@ -524,7 +524,7 @@ SUSPICION DE PAC (toux, fièvre, dyspnée, douleur thoracique, crépitants)
 
 > 10 QCM originaux Mediverse (cinq propositions A–E ; QCM = une ou plusieurs réponses exactes, QCS = une seule). La banque complète de l'item (12 questions) figure dans `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-02.json`.
 
-### QCM 1 — Épidémiologie microbienne (QCS (réponse unique), difficulté 1/3)
+### QCM 1 — Épidémiologie microbienne (QCS, difficulté 1/3)
 
 Quel est l'agent bactérien le plus fréquemment responsable de pneumonie aiguë communautaire chez l'adulte ?
 
@@ -546,7 +546,7 @@ Quel est l'agent bactérien le plus fréquemment responsable de pneumonie aiguë
 
 *Banque : `QCM-PNEU-0014`*
 
-### QCM 2 — Score CURB-65 (QCM (réponses multiples), difficulté 1/3)
+### QCM 2 — Score CURB-65 (QCM, difficulté 1/3)
 
 Quels critères font partie du score CURB-65 ?
 
@@ -568,7 +568,7 @@ Quels critères font partie du score CURB-65 ?
 
 *Banque : `QCM-PNEU-0015`*
 
-### QCM 3 — Antibiothérapie ambulatoire (QCM (réponses multiples), difficulté 2/3)
+### QCM 3 — Antibiothérapie ambulatoire (QCM, difficulté 2/3)
 
 Un homme de 32 ans sans antécédent présente une PAC non grave (CRB-65 = 0) avec une opacité alvéolaire lobaire. Selon l'actualisation SPILF/SPLF 2025, quelles propositions sont exactes ?
 
@@ -590,7 +590,7 @@ Un homme de 32 ans sans antécédent présente une PAC non grave (CRB-65 = 0) av
 
 *Banque : `QCM-PNEU-0016`*
 
-### QCM 4 — Durée de l'antibiothérapie (QCM (réponses multiples), difficulté 2/3)
+### QCM 4 — Durée de l'antibiothérapie (QCM, difficulté 2/3)
 
 Concernant la durée de l'antibiothérapie d'une PAC non compliquée selon SPILF/SPLF 2025, quelles propositions sont exactes ?
 
@@ -612,7 +612,7 @@ Concernant la durée de l'antibiothérapie d'une PAC non compliquée selon SPILF
 
 *Banque : `QCM-PNEU-0017`*
 
-### QCM 5 — Légionellose (QCM (réponses multiples), difficulté 2/3)
+### QCM 5 — Légionellose (QCM, difficulté 2/3)
 
 Concernant la légionellose, quelles propositions sont exactes ?
 
@@ -634,7 +634,7 @@ Concernant la légionellose, quelles propositions sont exactes ?
 
 *Banque : `QCM-PNEU-0018`*
 
-### QCM 6 — Critères de gravité ATS/IDSA (QCM (réponses multiples), difficulté 2/3)
+### QCM 6 — Critères de gravité ATS/IDSA (QCM, difficulté 2/3)
 
 Quels éléments constituent des critères MAJEURS de PAC grave selon l'ATS/IDSA ?
 
@@ -656,7 +656,7 @@ Quels éléments constituent des critères MAJEURS de PAC grave selon l'ATS/IDSA
 
 *Banque : `QCM-PNEU-0019`*
 
-### QCM 7 — Corticothérapie dans la PAC (QCM (réponses multiples), difficulté 3/3)
+### QCM 7 — Corticothérapie dans la PAC (QCM, difficulté 3/3)
 
 Concernant la corticothérapie au cours des PAC, quelles propositions sont exactes ?
 
@@ -678,7 +678,7 @@ Concernant la corticothérapie au cours des PAC, quelles propositions sont exact
 
 *Banque : `QCM-PNEU-0020`*
 
-### QCM 8 — Échec à 72 heures (QCM (réponses multiples), difficulté 2/3)
+### QCM 8 — Échec à 72 heures (QCM, difficulté 2/3)
 
 Un patient traité par amoxicilline pour une PAC reste fébrile et dyspnéique à 72 heures. Quelles hypothèses doivent être envisagées ?
 
@@ -700,7 +700,7 @@ Un patient traité par amoxicilline pour une PAC reste fébrile et dyspnéique �
 
 *Banque : `QCM-PNEU-0021`*
 
-### QCM 9 — Pneumonie d'inhalation (QCM (réponses multiples), difficulté 2/3)
+### QCM 9 — Pneumonie d'inhalation (QCM, difficulté 2/3)
 
 Concernant les pneumonies d'inhalation, quelles propositions sont exactes ?
 
@@ -722,7 +722,7 @@ Concernant les pneumonies d'inhalation, quelles propositions sont exactes ?
 
 *Banque : `QCM-PNEU-0022`*
 
-### QCM 10 — Bilan microbiologique selon la gravité (QCM (réponses multiples), difficulté 2/3)
+### QCM 10 — Bilan microbiologique selon la gravité (QCM, difficulté 2/3)
 
 Chez un patient hospitalisé en médecine pour une PAC non grave, quels examens microbiologiques sont pertinents selon les recommandations françaises ?
 

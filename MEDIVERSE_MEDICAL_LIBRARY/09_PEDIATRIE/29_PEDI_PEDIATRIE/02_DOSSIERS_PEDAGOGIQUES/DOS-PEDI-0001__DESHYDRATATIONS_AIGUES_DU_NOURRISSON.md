@@ -109,7 +109,7 @@ sources:
     url: ""
     verifiee: false
   - id: S13
-    reference: "Ministère de la Santé (Algérie). Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018 (existence et date confirmées par recherche web ; texte primaire non consulté)."
+    reference: "Ministère de la Santé, de la Population et de la Réforme hospitalière (Algérie). Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018 (BCG et hépatite B à la naissance ; rotavirus absent du calendrier). Document acquis DOC-00070 (texte lu) ; complété par l'arrêté du 28 avril 2026, JORADP n° 36 du 17 mai 2026 (DOC-00071)."
     organisme: MSPRH
     annee: 2018
     type: texte_officiel
@@ -193,7 +193,7 @@ En Algérie comme dans l'ensemble du Maghreb, la lutte contre les maladies diarr
 ### 3.2 En Algérie et au Maghreb
 
 - La gastro-entérite aiguë du nourrisson présente un **pic estival** (bactéries entéropathogènes, chaleur favorisant les pertes insensibles et les formes hypernatrémiques) et un **pic hivernal** (rotavirus) — schéma classiquement décrit dans les pays méditerranéens. Des données nationales chiffrées récentes et sourcées n'ont pas pu être vérifiées au cours de cette session **[À VÉRIFIER — INSP, enquêtes MICS]**.
-- D'après les descriptions du calendrier national disponibles (arrêté du 3 juillet 2018 et ses compléments), **le vaccin antirotavirus ne figure pas parmi les vaccins obligatoires** du programme national [S13] — point à confirmer sur le texte du JORADP **[À VÉRIFIER]**.
+- Le **vaccin antirotavirus ne figure pas** parmi les vaccins du calendrier obligatoire national (arrêté du 3 juillet 2018, complété par l'arrêté du 28 avril 2026 — textes lus, DOC-00070 et DOC-00071) [S13].
 
 ### 3.3 Populations à risque
 
@@ -749,7 +749,7 @@ sans choc après un bolus initial de 20 mL/kg.
 
 - Les sachets de **SRO** sont disponibles dans les structures publiques et en officine ; la stratégie de prise en charge intégrée des maladies de l'enfant (**PCIME**) — fondée sur la classification et les plans de l'OMS — a été adoptée dans de nombreux pays de la région. Les documents nationaux algériens de PCIME et de lutte contre les maladies diarrhéiques (version, date, contenu) **n'ont pas pu être vérifiés au cours de cette session [À VÉRIFIER — MSPRH / INSP / UNICEF Algérie]**.
 - La **disponibilité du zinc** pédiatrique (formes dispersibles) dans les structures de soins de base n'a pas pu être vérifiée **[À VÉRIFIER]**.
-- La vaccination antirotavirus n'est pas mentionnée dans les descriptions du calendrier vaccinal national consultées [S13] **[À VÉRIFIER sur le texte officiel]**.
+- La vaccination antirotavirus **ne fait pas partie** du calendrier vaccinal obligatoire national (arrêtés de 2018 et 2026) [S13].
 
 ## 14. Surveillance
 
@@ -924,4 +924,4 @@ A. Le ReSoMal est le soluté recommandé — B. Environ 5 mL/kg toutes les 30 mi
 10. [S10] Gorelick MH, Shaw KN, Murphy KO. *Pediatrics* 1997;99(5):e6. — non vérifiée en session.
 11. [S11] Friedman JN, et al. Clinical dehydration scale. *J Pediatr* 2004;145(2):201-207. — non vérifiée en session.
 12. [S12] Freedman SB, et al. Oral ondansetron for gastroenteritis. *N Engl J Med* 2006;354(16):1698-1705. — non vérifiée en session.
-13. [S13] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — existence et date confirmées par recherche web (sources de presse et bases juridiques) ; texte primaire non consulté.
+13. [S13] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **DOC-00070, texte lu** (complété par l'arrêté du 28 avril 2026, JORADP n° 36 du 17 mai 2026, DOC-00071).

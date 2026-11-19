@@ -521,7 +521,7 @@ Examen : elle **parle par mots**, assise penchée en avant, **FR 32/min**, **FC 
 
 > 10 QCM originaux Mediverse (cinq propositions A–E ; QCM = une ou plusieurs réponses exactes, QCS = une seule). La banque complète de l'item (12 questions) figure dans `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-02.json`.
 
-### QCM 1 — Diagnostic — limitation variable du débit expiratoire (QCM (réponses multiples), difficulté 2/3)
+### QCM 1 — Diagnostic — limitation variable du débit expiratoire (QCM, difficulté 2/3)
 
 Chez un adulte présentant des symptômes évocateurs d'asthme, quels résultats confirment une limitation variable du débit expiratoire selon GINA ?
 
@@ -543,7 +543,7 @@ Chez un adulte présentant des symptômes évocateurs d'asthme, quels résultats
 
 *Banque : `QCM-PNEU-0026`*
 
-### QCM 2 — Réversibilité bronchique (QCS (réponse unique), difficulté 1/3)
+### QCM 2 — Réversibilité bronchique (QCS, difficulté 1/3)
 
 Chez l'adulte, quel critère définit classiquement une réversibilité significative de l'obstruction après bronchodilatateur (GINA, NICE) ?
 
@@ -565,7 +565,7 @@ Chez l'adulte, quel critère définit classiquement une réversibilité signific
 
 *Banque : `QCM-PNEU-0027`*
 
-### QCM 3 — Évaluation du contrôle (GINA) (QCM (réponses multiples), difficulté 1/3)
+### QCM 3 — Évaluation du contrôle (GINA) (QCM, difficulté 1/3)
 
 Quels items font partie de l'évaluation du contrôle des symptômes de l'asthme selon GINA (4 dernières semaines) ?
 
@@ -587,7 +587,7 @@ Quels items font partie de l'évaluation du contrôle des symptômes de l'asthme
 
 *Banque : `QCM-PNEU-0028`*
 
-### QCM 4 — Stratégie GINA — voie 1 (QCM (réponses multiples), difficulté 2/3)
+### QCM 4 — Stratégie GINA — voie 1 (QCM, difficulté 2/3)
 
 Concernant la stratégie GINA 2025 chez l'adulte et l'adolescent, quelles propositions sont exactes ?
 
@@ -609,7 +609,7 @@ Concernant la stratégie GINA 2025 chez l'adulte et l'adolescent, quelles propos
 
 *Banque : `QCM-PNEU-0029`*
 
-### QCM 5 — MART — dose maximale (QCS (réponse unique), difficulté 2/3)
+### QCM 5 — MART — dose maximale (QCS, difficulté 2/3)
 
 Chez un adulte traité par MART avec budésonide-formotérol 200/6 µg (dose mesurée), quel est le nombre maximal habituel d'inhalations par jour (traitement de fond + à la demande) selon GINA ?
 
@@ -631,7 +631,7 @@ Chez un adulte traité par MART avec budésonide-formotérol 200/6 µg (dose mes
 
 *Banque : `QCM-PNEU-0030`*
 
-### QCM 6 — Gravité de l'exacerbation (QCM (réponses multiples), difficulté 1/3)
+### QCM 6 — Gravité de l'exacerbation (QCM, difficulté 1/3)
 
 Quels signes définissent une exacerbation sévère chez l'adulte selon GINA ?
 
@@ -653,7 +653,7 @@ Quels signes définissent une exacerbation sévère chez l'adulte selon GINA ?
 
 *Banque : `QCM-PNEU-0031`*
 
-### QCM 7 — Traitement de l'exacerbation (QCM (réponses multiples), difficulté 2/3)
+### QCM 7 — Traitement de l'exacerbation (QCM, difficulté 2/3)
 
 Concernant le traitement d'une exacerbation d'asthme chez l'adulte, quelles propositions sont exactes ?
 
@@ -675,7 +675,7 @@ Concernant le traitement d'une exacerbation d'asthme chez l'adulte, quelles prop
 
 *Banque : `QCM-PNEU-0032`*
 
-### QCM 8 — Facteurs de risque de décès par asthme (QCM (réponses multiples), difficulté 2/3)
+### QCM 8 — Facteurs de risque de décès par asthme (QCM, difficulté 2/3)
 
 Quels éléments sont des facteurs de risque de décès par asthme selon GINA ?
 
@@ -697,7 +697,7 @@ Quels éléments sont des facteurs de risque de décès par asthme selon GINA ?
 
 *Banque : `QCM-PNEU-0033`*
 
-### QCM 9 — Asthme de l'enfant ≤ 5 ans (QCM (réponses multiples), difficulté 2/3)
+### QCM 9 — Asthme de l'enfant ≤ 5 ans (QCM, difficulté 2/3)
 
 Concernant l'asthme de l'enfant de 5 ans et moins, quelles propositions sont exactes selon GINA ?
 
@@ -719,7 +719,7 @@ Concernant l'asthme de l'enfant de 5 ans et moins, quelles propositions sont exa
 
 *Banque : `QCM-PNEU-0034`*
 
-### QCM 10 — Médicaments de l'asthme — tolérance (QCM (réponses multiples), difficulté 1/3)
+### QCM 10 — Médicaments de l'asthme — tolérance (QCM, difficulté 1/3)
 
 Concernant les médicaments de l'asthme, quelles propositions sont exactes ?
 

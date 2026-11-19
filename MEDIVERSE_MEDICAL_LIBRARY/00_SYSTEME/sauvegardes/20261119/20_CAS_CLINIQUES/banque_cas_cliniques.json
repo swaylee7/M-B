@@ -1,0 +1,439 @@
+{
+  "genere_le": "2026-11-19T01:24:43+00:00",
+  "total": 6,
+  "cas": [
+    {
+      "id": "CAS-PNEU-0001",
+      "titre": "Toux prolongée et hémoptysie chez un maçon de 34 ans",
+      "niveau": "generaliste",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 34 ans, maçon, marié, deux enfants (3 et 9 ans), fumeur 15 paquets-années.",
+      "motif_consultation": "Toux productive depuis 7 semaines, crachats striés de sang depuis 10 jours.",
+      "antecedents": "Aucun antécédent de tuberculose ni de traitement antituberculeux. Pas de diabète connu. BCG à la naissance (cicatrice présente).",
+      "symptomes": "Toux productive, hémoptysies minimes, sueurs nocturnes, fébricule vespérale, amaigrissement de 6 kg ; échec d'une amoxicilline 1 g × 3/j pendant 7 jours.",
+      "examen_clinique": "Poids 58 kg, T 38,1 °C le soir, FR 20/min, SpO2 96 % en air ambiant ; râles crépitants sous-claviculaires droits ; pas d'adénopathie ; examen neurologique normal.",
+      "biologie": "Microscopie de l'expectoration (Ziehl-Neelsen) : BAAR 2+ sur 2 échantillons. Test moléculaire rapide : MTB détecté, résistance à la rifampicine non détectée. Sérologie VIH négative. Glycémie à jeun 1,02 g/L (N 0,70–1,10). ALAT 28 UI/L (N < 40). Créatininémie 9 mg/L (N 7–13).",
+      "imagerie": "Radiographie thoracique : infiltrat nodulaire du lobe supérieur droit avec caverne de 3 cm, nodules du lobe supérieur gauche.",
+      "hypotheses_diagnostiques": [
+        "Tuberculose pulmonaire commune",
+        "Cancer bronchopulmonaire excavé",
+        "Abcès du poumon"
+      ],
+      "diagnostics_differentiels": [
+        "Cancer bronchopulmonaire (fumeur)",
+        "Abcès pulmonaire à germes banals",
+        "Mycobactériose non tuberculeuse",
+        "Kyste hydatique compliqué"
+      ],
+      "examens_a_demander": [
+        "Deux expectorations (dont une du matin) : microscopie + test moléculaire rapide",
+        "Culture ± antibiogramme selon disponibilité",
+        "Sérologie VIH",
+        "Glycémie",
+        "Bilan hépatique et rénal de référence",
+        "Examen des contacts"
+      ],
+      "diagnostic_final": "Tuberculose pulmonaire bactériologiquement confirmée (TPM+), nouveau cas, rifampicine sensible.",
+      "traitement": "Schéma national 2HRZE/4HR : 4 comprimés/jour de RHZE 150/75/400/275 mg pendant 2 mois puis 4 comprimés/jour de RH 150/75 mg pendant 4 mois, prise quotidienne à jeun, sous traitement directement observé [POSOLOGIE À VÉRIFIER — tranches de poids du protocole national]. Déclaration obligatoire. Mesures d'hygiène respiratoire. Sevrage tabagique.",
+      "surveillance": "Consultation mensuelle (poids, observance, tolérance) ; microscopie à la fin du 2e mois, au 5e et au 6e mois (calendrier national à vérifier) ; transaminases si symptômes.",
+      "evolution": "Nausées à la 3e semaine avec ALAT à 2,5 × LSN et bilirubine normale : poursuite sous surveillance rapprochée, normalisation spontanée. Microscopie négative à M2, M5 et M6 : guéri. Enfant de 3 ans : tuberculose active exclue, traitement préventif selon le protocole national.",
+      "explication_pedagogique": "Cas typique de tuberculose pulmonaire commune : suspect = tousseur > 2 semaines ; preuve bactériologique ; test moléculaire renseignant d'emblée sur la rifampicine ; traitement standardisé supervisé ; gestion d'une cytolyse modérée (< 3 × LSN) ; enquête autour du cas avec priorité à l'enfant de moins de 5 ans.",
+      "questions": [
+        {
+          "question": "Pourquoi éviter une fluoroquinolone avant les prélèvements ?",
+          "reponse": "Les fluoroquinolones sont actives sur le BK : elles améliorent transitoirement le patient, retardent le diagnostic et sélectionnent des résistances à une famille clé des schémas de deuxième ligne."
+        },
+        {
+          "question": "Comment classer ce cas pour le programme ?",
+          "reponse": "TP bactériologiquement confirmée (microscopie positive), nouveau cas, rifampicine sensible."
+        },
+        {
+          "question": "Quand arrêter les antituberculeux hépatotoxiques ?",
+          "reponse": "ALAT ≥ 5 × LSN, ou ≥ 3 × LSN avec symptômes, ou ictère (seuils ATS, à confronter au protocole national)."
+        },
+        {
+          "question": "Quel contact est prioritaire ?",
+          "reponse": "L'enfant de 3 ans : après exclusion d'une tuberculose active, traitement préventif."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ministère de la Santé (DGPPS). Instruction n°07 du 21 mars 2024 relative aux directives nationales du traitement de la tuberculose",
+          "date": "2024"
+        },
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis: module 4: treatment and care. WHO, 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "The Union. Prise en charge de la tuberculose — Guide des éléments essentiels. 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "Nahid P et al. ATS/CDC/IDSA drug-susceptible TB guidelines. Clin Infect Dis 2016 [référence à vérifier]",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-02.json"
+    },
+    {
+      "id": "CAS-PNEU-0002",
+      "titre": "Rechute tuberculeuse chez un diabétique avec résistance à la rifampicine",
+      "niveau": "resident",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-042"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 55 ans, commerçant, diabétique de type 2 depuis 10 ans.",
+      "motif_consultation": "Toux et amaigrissement depuis 6 semaines.",
+      "antecedents": "Tuberculose pulmonaire traitée en 2021 ; traitement interrompu à plusieurs reprises (prises irrégulières pendant la phase de continuation), déclaré « traitement achevé ». Diabète sous metformine, HbA1c récente 9,1 %.",
+      "symptomes": "Toux productive, fièvre vespérale, sueurs, perte de 7 kg.",
+      "examen_clinique": "Poids 61 kg, T 38,4 °C, FR 22/min, SpO2 94 % ; râles crépitants bilatéraux des sommets.",
+      "biologie": "Microscopie : BAAR 3+. Test moléculaire rapide : MTB détecté, résistance à la rifampicine DÉTECTÉE. Glycémie à jeun 2,10 g/L. VIH négatif. ALAT 35 UI/L (N < 40). Créatininémie 11 mg/L (N 7–13).",
+      "imagerie": "Radiographie : lésions excavées bilatérales des lobes supérieurs, rétraction séquellaire droite.",
+      "hypotheses_diagnostiques": [
+        "Rechute de tuberculose pulmonaire avec résistance à la rifampicine (TB-RR, probable multirésistance)"
+      ],
+      "diagnostics_differentiels": [
+        "Rechute à germe sensible avec faux positif de résistance (à confirmer)",
+        "Mycobactériose non tuberculeuse sur séquelles",
+        "Aspergillose pulmonaire chronique"
+      ],
+      "examens_a_demander": [
+        "Confirmation de la résistance selon l'algorithme national (culture, antibiogramme phénotypique et/ou tests génotypiques de deuxième ligne)",
+        "Recherche de résistance aux fluoroquinolones",
+        "Bilan pré-thérapeutique (ECG avec QT, kaliémie, magnésémie, hémogramme, fonction hépatique et rénale, audiogramme si aminoside envisagé)",
+        "Équilibre du diabète"
+      ],
+      "diagnostic_final": "Tuberculose pulmonaire, cas déjà traité (rechute), résistance à la rifampicine détectée (TB-RR) en attente de confirmation et de profil complet.",
+      "traitement": "Orientation sans délai vers la structure de référence de la tuberculose résistante ; pas de schéma de première ligne, pas de schéma 2SHRZE/1HRZE/5HRE (abandonné). Schéma de deuxième ligne choisi par le centre de référence selon les directives nationales et le profil de résistance (l'OMS 2025 privilégie des schémas oraux de 6 mois, ex. BPaLM ou BDLLfxC). Insulinothérapie transitoire pour l'équilibre glycémique. Isolement respiratoire.",
+      "surveillance": "Suivi spécialisé : culture mensuelle, ECG (allongement du QT avec bédaquiline, fluoroquinolones, clofazimine), hémogramme et neuropathie sous linézolide, vision, fonction hépatique.",
+      "evolution": "Résistance à la rifampicine et à l'isoniazide confirmée (TB-MR), fluoroquinolones sensibles ; mise sous schéma de deuxième ligne au centre de référence ; conversion des cultures au 2e mois.",
+      "explication_pedagogique": "Le cas illustre : (1) la classification « déjà traité » malgré l'étiquette « traitement achevé » ; (2) le rôle du test moléculaire dans la détection de la résistance à la rifampicine ; (3) l'abandon du schéma de retraitement de catégorie II ; (4) le diabète comme facteur de risque ; (5) l'enquête autour d'un cas résistant, où l'isoniazide seul n'a pas de place chez les contacts.",
+      "questions": [
+        {
+          "question": "Pourquoi ce patient n'est-il pas un nouveau cas ?",
+          "reponse": "Il a déjà reçu plus d'un mois de traitement antituberculeux : c'est un cas déjà traité (rechute), à haut risque de résistance."
+        },
+        {
+          "question": "Pourquoi ne pas prescrire 2SHRZE/1HRZE/5HRE ?",
+          "reponse": "Ce schéma revient à ajouter un seul médicament à un schéma en échec ; il est abandonné par l'instruction nationale de 2024 et par l'OMS."
+        },
+        {
+          "question": "Quelle surveillance spécifique sous schéma oral de deuxième ligne ?",
+          "reponse": "ECG (QT), hémogramme et neuropathies (linézolide), vision, bilan hépatique, cultures mensuelles."
+        },
+        {
+          "question": "Que faire pour les contacts ?",
+          "reponse": "Dépistage clinique et radiologique ; pas d'isoniazide seul ; avis spécialisé pour un éventuel traitement préventif adapté au profil de résistance."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ministère de la Santé (DGPPS). Instruction n°07 du 21 mars 2024 relative aux directives nationales du traitement de la tuberculose",
+          "date": "2024"
+        },
+        {
+          "reference": "WHO consolidated guidelines on tuberculosis: module 4: treatment and care. WHO, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-02.json"
+    },
+    {
+      "id": "CAS-PNEU-0003",
+      "titre": "Fièvre, frissons et douleur basithoracique chez un diabétique de 67 ans",
+      "niveau": "generaliste",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 67 ans, retraité, diabétique de type 2, hypertendu, ancien fumeur (30 paquets-années).",
+      "motif_consultation": "Fièvre à 39,4 °C avec frissons depuis 36 heures, douleur basithoracique droite.",
+      "antecedents": "Diabète de type 2 sous metformine, HTA sous IEC. Pas d'hospitalisation ni d'antibiothérapie depuis 3 mois.",
+      "symptomes": "Début brutal, frisson, toux avec crachats rouillés, douleur thoracique droite majorée à l'inspiration.",
+      "examen_clinique": "FR 26/min, FC 108/min, PA 128/76 mmHg, SpO2 91 % en air ambiant, conscience normale ; souffle tubaire et crépitants de la base droite.",
+      "biologie": "Leucocytes 17 200/mm3 (N 4 000–10 000), PNN 89 %, CRP 214 mg/L (N < 5), urée 8,4 mmol/L (N 2,5–7,5), créatinine 11 mg/L (N 7–13), Na 136 mmol/L, glycémie 2,05 g/L ; PaO2 61 mmHg en air ; antigénurie pneumocoque positive ; hémocultures en cours.",
+      "imagerie": "Radiographie thoracique : opacité alvéolaire systématisée du lobe inférieur droit avec bronchogramme aérien ; pas d'épanchement.",
+      "hypotheses_diagnostiques": [
+        "Pneumonie aiguë communautaire à pneumocoque"
+      ],
+      "diagnostics_differentiels": [
+        "Légionellose",
+        "Embolie pulmonaire avec infarctus",
+        "Tuberculose pulmonaire",
+        "Cancer bronchique avec pneumonie obstructive"
+      ],
+      "examens_a_demander": [
+        "Radiographie thoracique",
+        "NFS, CRP, ionogramme, urée, créatinine, glycémie, bilan hépatique",
+        "Gaz du sang",
+        "Hémocultures",
+        "ECBC",
+        "Antigénurie pneumocoque (± Legionella)"
+      ],
+      "diagnostic_final": "PAC à pneumocoque du lobe inférieur droit, CURB-65 = 2, non grave selon les critères ATS/IDSA, hospitalisation en médecine (hypoxémie, diabète déséquilibré).",
+      "traitement": "Oxygénothérapie, hydratation, insulinothérapie transitoire, prévention thrombo-embolique ; amoxicilline-acide clavulanique 1 g × 3/j IV (comorbidité) puis désescalade vers amoxicilline 1 g × 3/j après documentation pneumococcique [POSOLOGIE À VÉRIFIER — protocole local pour la dose en hospitalisation].",
+      "surveillance": "Critères de stabilité quotidiens (température, FC, FR, PAS, SpO2, conscience) ; glycémies ; relais oral dès stabilité.",
+      "evolution": "Stabilité à J4 : durée totale 5 jours (SPILF/SPLF 2025). Vaccinations antipneumococcique et antigrippale ; radiographie de contrôle vers 2 mois (ancien fumeur, > 50 ans) selon l'usage français.",
+      "explication_pedagogique": "Score de gravité et jugement clinique sont complémentaires ; documentation simple permettant la désescalade ; durée courte guidée par la stabilité ; prévention secondaire.",
+      "questions": [
+        {
+          "question": "Calculer le CURB-65.",
+          "reponse": "Urée > 7 (1) + âge ≥ 65 (1) = 2."
+        },
+        {
+          "question": "Pourquoi amoxicilline-acide clavulanique en probabiliste ?",
+          "reponse": "Présence d'une comorbidité (diabète) selon SPILF/SPLF 2025."
+        },
+        {
+          "question": "Quelle durée totale ?",
+          "reponse": "5 jours, la stabilité ayant été atteinte entre J3 et J5."
+        },
+        {
+          "question": "Quelle prévention ?",
+          "reponse": "Vaccins pneumococcique et antigrippal, équilibre du diabète."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Lim WS et al. CURB-65. Thorax 2003;58:377-82",
+          "date": "2003"
+        },
+        {
+          "reference": "Dinh A et al. PTC trial. Lancet 2021;397:1195-203",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-02.json"
+    },
+    {
+      "id": "CAS-PNEU-0004",
+      "titre": "PAC grave avec hyponatrémie et diarrhée chez un fumeur de 58 ans",
+      "niveau": "dems",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-040"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 58 ans, chauffeur, fumeur 40 paquets-années, retour d'un séjour en hôtel climatisé il y a 6 jours.",
+      "motif_consultation": "Fièvre à 40 °C, dyspnée et confusion depuis 24 heures.",
+      "antecedents": "BPCO non explorée. Pas d'immunodépression connue.",
+      "symptomes": "Fièvre élevée depuis 3 jours, toux peu productive, diarrhée, céphalées, myalgies, puis désorientation.",
+      "examen_clinique": "FR 34/min, FC 92/min (bradycardie relative), PA 85/50 mmHg après 2 L de cristalloïdes, SpO2 86 % sous 6 L/min d'O2, confusion ; crépitants bilatéraux.",
+      "biologie": "Na 124 mmol/L (N 135–145), créatinine 21 mg/L (N 7–13), ASAT 3 × LSN, CPK 2 400 UI/L (N < 200), leucocytes 15 000/mm3, plaquettes 95 000/mm3, lactates 4,1 mmol/L (N < 2), PaO2/FiO2 140 ; antigénurie Legionella positive ; antigénurie pneumocoque négative.",
+      "imagerie": "Radiographie : opacités alvéolaires bilatérales multilobaires.",
+      "hypotheses_diagnostiques": [
+        "Légionellose grave",
+        "Pneumococcie grave",
+        "Pneumonie virale grave (grippe)"
+      ],
+      "diagnostics_differentiels": [
+        "Pneumonie à pneumocoque",
+        "Grippe grave",
+        "SDRA d'autre origine"
+      ],
+      "examens_a_demander": [
+        "Hémocultures",
+        "Aspiration trachéale ou LBA (culture et PCR Legionella, PCR virales)",
+        "Antigénuries",
+        "Lactates, gaz du sang",
+        "Déclaration et enquête environnementale"
+      ],
+      "diagnostic_final": "PAC grave à Legionella pneumophila (critères ATS/IDSA : hypotension nécessitant des vasopresseurs = critère majeur ; mineurs : FR ≥ 30, PaO2/FiO2 ≤ 250, multilobaire, confusion, thrombopénie).",
+      "traitement": "Réanimation : vasopresseurs, oxygénation/ventilation selon l'évolution ; antibiothérapie probabiliste initiale C3G + macrolide dans l'heure, puis antibiothérapie anti-Legionella adaptée (macrolide et/ou fluoroquinolone selon le protocole) ; hydrocortisone IV précoce dans la PAC grave ; correction prudente de la natrémie.",
+      "surveillance": "Hémodynamique, oxygénation, natrémie (correction ≤ 8–10 mmol/L par 24 h, seuil à vérifier selon le protocole local), fonction rénale, CPK, QT si fluoroquinolone + macrolide.",
+      "evolution": "Sevrage des vasopresseurs à J3, amélioration progressive ; durée d'antibiothérapie prolongée adaptée à la gravité (à préciser selon le protocole).",
+      "explication_pedagogique": "Le cas illustre les éléments évocateurs de légionellose (exposition, signes extra-respiratoires, hyponatrémie, CPK), l'inactivité des bêta-lactamines, les critères de gravité et la place de l'hydrocortisone dans la PAC grave.",
+      "questions": [
+        {
+          "question": "Quels critères ATS/IDSA de gravité ?",
+          "reponse": "Un critère majeur (choc nécessitant des vasopresseurs) et plusieurs mineurs (FR ≥ 30, PaO2/FiO2 ≤ 250, atteinte multilobaire, confusion, thrombopénie)."
+        },
+        {
+          "question": "Pourquoi l'amoxicilline seule serait-elle une erreur ?",
+          "reponse": "Legionella est intracellulaire : les bêta-lactamines sont inactives."
+        },
+        {
+          "question": "Quelle limite de l'antigénurie ?",
+          "reponse": "Elle ne détecte que L. pneumophila sérogroupe 1."
+        },
+        {
+          "question": "Quel traitement adjuvant ?",
+          "reponse": "Hydrocortisone IV précoce dans la PAC grave (CAPE COD, SPILF/SPLF 2025)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Metlay JP et al. ATS/IDSA CAP guideline. Am J Respir Crit Care Med 2019;200:e45-e67",
+          "date": "2019"
+        },
+        {
+          "reference": "Dinh A et al. Actualisation des recommandations PAC de l'adulte, SPILF/SPLF. Méd Mal Infect Form 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "Dequin PF et al. Hydrocortisone in severe CAP (CAPE COD). N Engl J Med 2023;388:1931-41",
+          "date": "2023"
+        },
+        {
+          "reference": "Martin-Loeches I et al. ERS/ESICM/ESCMID/ALAT severe CAP guidelines. Intensive Care Med 2023;49:615-32",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-02.json"
+    },
+    {
+      "id": "CAS-PNEU-0005",
+      "titre": "Exacerbation sévère chez une jeune femme traitée par salbutamol seul",
+      "niveau": "resident",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 27 ans, enseignante, non fumeuse.",
+      "motif_consultation": "Dyspnée aggravée depuis 48 heures après une rhinopharyngite.",
+      "antecedents": "Asthme depuis l'enfance ; rhinite allergique perannuelle, sensibilisation aux acariens ; aucun traitement de fond ; salbutamol environ 3 flacons par mois.",
+      "symptomes": "Sifflements, toux nocturne, réveils 2 fois par semaine depuis plusieurs mois ; aggravation brutale depuis 48 h.",
+      "examen_clinique": "Parle par mots, assise penchée en avant, FR 32/min, FC 124/min, SpO2 89 % en air ambiant, sibilants diffus, tirage ; conscience normale ; DEP 40 % de la théorique.",
+      "biologie": "Gaz du sang en air : pH 7,44, PaO2 58 mmHg, PaCO2 34 mmHg (N 35–45) ; kaliémie 3,6 mmol/L après nébulisations (N 3,5–5).",
+      "imagerie": "Radiographie thoracique : distension, pas de pneumothorax ni de foyer.",
+      "hypotheses_diagnostiques": [
+        "Exacerbation sévère d'asthme non contrôlé"
+      ],
+      "diagnostics_differentiels": [
+        "Pneumothorax",
+        "Pneumonie",
+        "Obstruction laryngée induite",
+        "Embolie pulmonaire"
+      ],
+      "examens_a_demander": [
+        "DEP avant et après traitement",
+        "Gaz du sang",
+        "Radiographie thoracique",
+        "Kaliémie"
+      ],
+      "diagnostic_final": "Exacerbation sévère d'asthme allergique non contrôlé, déclenchée par une infection virale, chez une patiente sans traitement de fond contenant un CSI.",
+      "traitement": "O2 pour SpO2 93–95 % ; salbutamol 4–10 bouffées par chambre d'inhalation toutes les 20 min pendant 1 h (ou nébulisation) + ipratropium ; prednisolone 40–50 mg/j 5–7 jours ; MgSO4 2 g IV en 20 min si absence de réponse. À la sortie : MART budésonide-formotérol 200/6 µg, 2 inhalations × 2/j + à la demande, maximum 12/j [POSOLOGIE À VÉRIFIER — RCP] ; plan d'action écrit, technique d'inhalation, vaccination antigrippale.",
+      "surveillance": "DEP et SpO2 horaires initialement ; consultation à 2–7 jours ; réévaluation du contrôle à 1–3 mois.",
+      "evolution": "Amélioration en 1 heure (DEP 72 %), sortie le lendemain ; contrôle total à 3 mois → diminution à MART faible dose.",
+      "explication_pedagogique": "L'exacerbation révèle un asthme non contrôlé traité par BDCA seul ; la sortie impose un traitement contenant un CSI, l'éducation et un suivi rapproché.",
+      "questions": [
+        {
+          "question": "Pourquoi la PaCO2 à 34 mmHg est-elle rassurante ici ?",
+          "reponse": "Une hypocapnie est attendue (hyperventilation) ; une normocapnie ou une hypercapnie traduirait un épuisement."
+        },
+        {
+          "question": "Quels facteurs de risque de décès ?",
+          "reponse": "Absence de CSI, surconsommation de BDCA, asthme non contrôlé, exacerbation sévère."
+        },
+        {
+          "question": "Quel palier à la sortie ?",
+          "reponse": "Palier 4 de la voie 1 GINA : MART à dose moyenne."
+        },
+        {
+          "question": "Quand diminuer le traitement ?",
+          "reponse": "Après 3 mois de contrôle, d'un palier, sans arrêter le CSI."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-02.json"
+    },
+    {
+      "id": "CAS-PNEU-0006",
+      "titre": "Sifflements récidivants chez un enfant de 4 ans",
+      "niveau": "generaliste",
+      "specialite": "PNEU",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon, 4 ans, scolarisé en maternelle ; père fumeur à domicile.",
+      "motif_consultation": "Quatrième épisode de toux sifflante depuis l'automne.",
+      "antecedents": "Dermatite atopique dans la petite enfance ; mère asthmatique. Vaccinations à jour selon le calendrier national.",
+      "symptomes": "Épisodes de toux et sifflements lors des rhumes, mais aussi toux nocturne et sifflements au jeu et au rire entre les épisodes ; 2 passages aux urgences cette année.",
+      "examen_clinique": "Enfant eutrophe, apyrétique, FR 28/min, SpO2 97 %, quelques sibilants expiratoires ; pas de retard staturo-pondéral ; pas d'hippocratisme digital.",
+      "biologie": "Non nécessaire en première intention ; éosinophiles 650/mm3 (indicatif).",
+      "imagerie": "Radiographie thoracique (une fois) : distension modérée, pas de corps étranger, pas d'anomalie cardiaque ni parenchymateuse.",
+      "hypotheses_diagnostiques": [
+        "Asthme probable de l'enfant d'âge préscolaire"
+      ],
+      "diagnostics_differentiels": [
+        "Sifflements viro-induits isolés",
+        "Corps étranger inhalé",
+        "Mucoviscidose",
+        "Reflux gastro-œsophagien",
+        "Malformation des voies aériennes"
+      ],
+      "examens_a_demander": [
+        "Radiographie thoracique (une fois)",
+        "Bilan allergologique selon le contexte",
+        "Évaluation de la technique d'inhalation avec chambre et masque"
+      ],
+      "diagnostic_final": "Asthme probable de l'enfant ≤ 5 ans (symptômes intercritiques, atopie personnelle et familiale, exacerbations répétées).",
+      "traitement": "Palier 2 GINA : CSI faible dose quotidien (ex. fluticasone propionate 50 µg/j ou béclométasone 100 µg/j par aérosol doseur + chambre d'inhalation avec masque) pendant 3 mois [POSOLOGIE À VÉRIFIER — RCP] ; salbutamol à la demande par chambre ; plan d'action écrit pour les parents ; arrêt du tabagisme passif (aide au sevrage du père).",
+      "surveillance": "Réévaluation à 3 mois : contrôle, exacerbations, technique ; arrêt d'essai si doute diagnostique et réévaluation à l'arrêt.",
+      "evolution": "Disparition des symptômes intercritiques et aucune exacerbation en 3 mois, rechute à l'arrêt d'essai : diagnostic d'asthme conforté, reprise du CSI.",
+      "explication_pedagogique": "Chez l'enfant ≤ 5 ans, le diagnostic est probabiliste ; l'essai thérapeutique par CSI faible dose et la réponse à l'arrêt sont des arguments diagnostiques ; la chambre d'inhalation et l'éducation des parents sont essentielles.",
+      "questions": [
+        {
+          "question": "Quels arguments en faveur de l'asthme ?",
+          "reponse": "Symptômes en dehors des viroses (rire, jeu, nuit), atopie personnelle et familiale, exacerbations répétées."
+        },
+        {
+          "question": "Quel examen d'imagerie et pourquoi ?",
+          "reponse": "Radiographie thoracique une fois pour éliminer un corps étranger, une malformation ou une autre cause."
+        },
+        {
+          "question": "Quel traitement de fond ?",
+          "reponse": "CSI faible dose quotidien avec chambre d'inhalation et masque, essai de 3 mois."
+        },
+        {
+          "question": "Quelle mesure environnementale prioritaire ?",
+          "reponse": "Arrêt du tabagisme passif."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-02.json"
+    }
+  ]
+}

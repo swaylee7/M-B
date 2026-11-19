@@ -14,3 +14,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Neurologie-réanimati
 - 2026-11-19 — DOS-NEUR-0001 (AVC) rédigé en 4 passes + 12 QCM + 2 cas (brouillon scratchpad, 10 166 mots) ; assemblage par script build.py.
 - 2026-11-19 — DOS-MINT_REA-0001 (états de choc) rédigé en 4 passes + 12 QCM + 2 cas (9 387 mots).
 - 2026-11-19 — DOS-MINT_REA-0002 (comas) rédigé en 4 passes + 12 QCM + 2 cas.
+- 2026-11-19 — DOS-URGE-0001 (intoxications aiguës) rédigé en 4 passes + 12 QCM + 2 cas.

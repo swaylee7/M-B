@@ -101,7 +101,7 @@ sources:
     url: ""
     verifiee: false
   - id: S12
-    reference: "Ministère de la Santé (Algérie). Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (BCG et hépatite B à la naissance ; existence et date confirmées par recherche web ; texte primaire non consulté)."
+    reference: "Ministère de la Santé, de la Population et de la Réforme hospitalière (Algérie). Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n° 49 du 8 août 2018 (BCG et hépatite B à la naissance ; rotavirus absent du calendrier). Document acquis DOC-00070 (texte lu) ; complété par l'arrêté du 28 avril 2026, JORADP n° 36 du 17 mai 2026 (DOC-00071)."
     organisme: MSPRH
     annee: 2018
     type: texte_officiel
@@ -740,4 +740,4 @@ A. Transmission liée à l'X — B. Fréquent dans le bassin méditerranéen —
 9. [S9] Fawaz R, et al. NASPGHAN/ESPGHAN guideline on cholestatic jaundice in infants. *J Pediatr Gastroenterol Nutr* 2017;64(1):154-168 — non vérifiée en session.
 10. [S10] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013 — non vérifiée en session.
 11. [S11] Johnson L, Brown AK, Bhutani VK. BIND score. *Pediatrics* 1999;104(suppl 3):746-747 — non vérifiée en session.
-12. [S12] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **vérifiée** (existence, date).
+12. [S12] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 — **DOC-00070, texte lu** (complété par l'arrêté du 28 avril 2026, DOC-00071).

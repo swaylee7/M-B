@@ -565,6 +565,154 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-INFE-0003",
+      "titre": "Fièvre sudoro-algique et orchi-épididymite chez un berger",
+      "niveau": "generaliste",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 42 ans, berger dans une wilaya des Hauts-Plateaux, marié, 3 enfants.",
+      "motif_consultation": "Fièvre depuis 3 semaines, sueurs nocturnes, douleurs articulaires, douleur testiculaire gauche depuis 4 jours.",
+      "antecedents": "Aucun. Consommation quotidienne de lait de chèvre cru et de lben artisanal ; avortements dans le troupeau au printemps.",
+      "symptomes": "Fièvre ondulante, sueurs nocturnes profuses, arthromyalgies mobiles, lombalgies, asthénie, douleur scrotale gauche.",
+      "examen_clinique": "T 38,9 °C, FC 92/min ; hépatomégalie discrète, splénomégalie à un travers de doigt ; orchi-épididymite gauche ; pas de souffle cardiaque ; examen neurologique normal ; rachis souple.",
+      "biologie": "Leucocytes 3 900/mm3 (N 4 000–10 000), lymphocytes 52 % ; Hb 12,1 g/dL ; plaquettes 165 000/mm3 ; CRP 46 mg/L (N < 5) ; ALAT 1,8 × LSN ; rose Bengale positif ; séro-agglutination de Wright 1/640 ; hémocultures positives à J4 : Brucella melitensis (identification au laboratoire de référence).",
+      "imagerie": "Échographie scrotale : orchi-épididymite gauche sans abcès ; échographie abdominale : hépatosplénomégalie homogène ; radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Brucellose aiguë septicémique",
+        "Fièvre typhoïde",
+        "Tuberculose",
+        "Leishmaniose viscérale"
+      ],
+      "diagnostics_differentiels": [
+        "Fièvre typhoïde",
+        "Tuberculose",
+        "Leishmaniose viscérale",
+        "Lymphome",
+        "Fièvre Q"
+      ],
+      "examens_a_demander": [
+        "Hémocultures répétées (prévenir le laboratoire)",
+        "Rose Bengale puis Wright (± Coombs, ELISA)",
+        "NFS, CRP, bilan hépatique, créatinine",
+        "Échographie scrotale et abdominale",
+        "Radiographie thoracique"
+      ],
+      "diagnostic_final": "Brucellose aiguë à Brucella melitensis avec orchi-épididymite, forme non compliquée.",
+      "traitement": "Doxycycline 100 mg × 2/j pendant 6 semaines + gentamicine 5 mg/kg/j pendant 7 jours (ou streptomycine 1 g/j IM 2–3 semaines) ; alternative orale doxycycline + rifampicine 600–900 mg/j pendant 6 semaines après élimination d'une tuberculose [POSOLOGIE À VÉRIFIER — OMS 2006 / Ioannina 2007 / RCP / protocole national]. Déclaration obligatoire, enquête familiale, signalement vétérinaire.",
+      "surveillance": "Apyrexie, fonction rénale sous aminoside, observance de la doxycycline, suivi clinique pendant au moins 6 mois à 1 an après l'arrêt.",
+      "evolution": "Apyrexie à J6 ; arrêt prématuré de la doxycycline à la 4e semaine ; rechute au 4e mois avec spondylodiscite L4–L5 traitée pendant au moins 12 semaines.",
+      "explication_pedagogique": "Interrogatoire d'exposition, sécurité du laboratoire, bithérapie prolongée, rechute favorisée par l'observance incomplète, focalisation ostéo-articulaire, approche « Une seule santé ».",
+      "questions": [
+        {
+          "question": "Quels éléments d'exposition ?",
+          "reponse": "Berger, lait cru et lben, avortements dans le troupeau."
+        },
+        {
+          "question": "Pourquoi prévenir le laboratoire ?",
+          "reponse": "Brucella est une cause classique d'infection de laboratoire (niveau de sécurité biologique 3)."
+        },
+        {
+          "question": "Quel schéma de référence ?",
+          "reponse": "Doxycycline 6 semaines + aminoside (streptomycine 2–3 semaines ou gentamicine 7 jours)."
+        },
+        {
+          "question": "Cause probable de la rechute ?",
+          "reponse": "Arrêt prématuré du traitement ; pas de résistance attendue."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-INFE-0004",
+      "titre": "Lombalgies fébriles chez une femme de 58 ans consommatrice de fromage frais artisanal",
+      "niveau": "resident",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 58 ans, femme au foyer, vit en zone rurale.",
+      "motif_consultation": "Lombalgies inflammatoires depuis 2 mois, fébricule vespérale et sueurs.",
+      "antecedents": "Diabète de type 2. Consommation de jben (fromage frais) artisanal. Pas d'antécédent de tuberculose ; pas de contage connu.",
+      "symptomes": "Douleurs lombaires nocturnes, raideur, sueurs nocturnes, asthénie, perte de 3 kg ; pas de toux.",
+      "examen_clinique": "T 37,9 °C ; raideur lombaire, douleur à la percussion de L4–L5 ; pas de déficit neurologique ; pas d'hépatosplénomégalie.",
+      "biologie": "CRP 38 mg/L ; VS 62 mm à la 1re heure ; leucocytes 6 200/mm3 ; Wright 1/320, Coombs anti-Brucella 1/1 280 ; hémocultures négatives ; IDR à la tuberculine 8 mm ; radiographie thoracique normale.",
+      "imagerie": "IRM lombaire : spondylodiscite L4–L5 avec érosion du coin antéro-supérieur de L5, œdème des plateaux, pas d'abcès épidural ni paravertébral significatif, pas de tassement.",
+      "hypotheses_diagnostiques": [
+        "Spondylodiscite brucellienne",
+        "Spondylodiscite tuberculeuse (mal de Pott)",
+        "Spondylodiscite à pyogènes"
+      ],
+      "diagnostics_differentiels": [
+        "Mal de Pott",
+        "Spondylodiscite à staphylocoque",
+        "Métastase vertébrale",
+        "Tassement ostéoporotique"
+      ],
+      "examens_a_demander": [
+        "Hémocultures répétées",
+        "Sérologies (Wright, Coombs, ELISA)",
+        "IRM du rachis",
+        "Ponction-biopsie disco-vertébrale si doute (histologie, cultures, BAAR, test moléculaire, PCR Brucella)",
+        "Glycémie, HbA1c"
+      ],
+      "diagnostic_final": "Spondylodiscite brucellienne L4–L5 (arguments : siège lombaire, destruction modérée, absence d'abcès, Coombs très positif, exposition alimentaire).",
+      "traitement": "Doxycycline 100 mg × 2/j + aminoside (streptomycine 2–3 semaines ou gentamicine), ± rifampicine, pour une durée totale d'au moins 12 semaines selon l'évolution [POSOLOGIE À VÉRIFIER — Ioannina 2007 / protocole national] ; antalgiques, repos relatif ; équilibre du diabète ; biopsie en cas d'échec ou de doute avec la tuberculose.",
+      "surveillance": "Clinique (douleur, fièvre), CRP, fonction rénale et audition sous aminoside, IRM de contrôle à distance ; suivi prolongé (rechutes).",
+      "evolution": "Amélioration progressive des douleurs en 6 semaines ; IRM à 3 mois : régression de l'œdème ; arrêt à 4 mois ; pas de rechute à 1 an.",
+      "explication_pedagogique": "La spondylodiscite est la localisation focale la plus fréquente après 50 ans ; le diagnostic différentiel avec le mal de Pott est essentiel en Algérie ; la durée de traitement est prolongée (≥ 12 semaines).",
+      "questions": [
+        {
+          "question": "Arguments pour la brucellose plutôt que la tuberculose ?",
+          "reponse": "Siège lombaire, destruction modérée, absence d'abcès, Coombs très positif, exposition alimentaire."
+        },
+        {
+          "question": "Quand faire une biopsie disco-vertébrale ?",
+          "reponse": "En cas de doute diagnostique (sérologie non concluante, abcès, atteinte dorsale) ou d'échec du traitement."
+        },
+        {
+          "question": "Quelle durée de traitement ?",
+          "reponse": "Au moins 12 semaines."
+        },
+        {
+          "question": "Pourquoi les hémocultures sont-elles négatives ?",
+          "reponse": "Les formes focalisées et subaiguës sont moins souvent bactériémiques."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }

@@ -2556,6 +2556,628 @@
       "statut": "brouillon_a_auditer",
       "auteur": "DOS-02",
       "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'agent et la transmission de la brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Brucella melitensis, dont le réservoir est ovin et caprin, est l'espèce la plus fréquente et la plus virulente chez l'homme.",
+        "B": "La consommation de lait cru et de produits laitiers non pasteurisés est un mode majeur de contamination.",
+        "C": "La transmission interhumaine est le mode de contamination habituel.",
+        "D": "La brucellose est une cause classique d'infection acquise au laboratoire.",
+        "E": "Brucella est un coccobacille à Gram négatif à développement intracellulaire facultatif."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Zoonose transmise par voie digestive (lait cru), cutanéo-muqueuse ou respiratoire (contact avec les animaux, laboratoire). La transmission interhumaine est exceptionnelle.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : exceptionnelle (materno-fœtale, greffe, transfusion…).",
+        "D": "Vrai : prévenir le laboratoire, niveau de sécurité 3.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Agent et transmission",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0015",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments sont évocateurs d'une brucellose aiguë ?",
+      "propositions": {
+        "A": "Fièvre ondulante",
+        "B": "Sueurs nocturnes profuses",
+        "C": "Arthromyalgies mobiles",
+        "D": "Hyperleucocytose majeure à polynucléaires",
+        "E": "Orchi-épididymite"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Fièvre sudoro-algique, hépatosplénomégalie, adénopathies, orchi-épididymite ; la NFS montre plutôt une leucopénie avec lymphocytose relative.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : leucocytes normaux ou bas, lymphocytose relative.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Forme aiguë septicémique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        },
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic sérologique de la brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'épreuve à l'antigène tamponné (rose Bengale) est un test de dépistage rapide.",
+        "B": "Une réaction croisée avec Yersinia enterocolitica O:9 est possible.",
+        "C": "Le test de Coombs anti-Brucella détecte les anticorps incomplets non agglutinants.",
+        "D": "La négativation de la sérologie de Wright est le critère de guérison.",
+        "E": "Brucella canis est détectée par les antigènes usuels."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Rose Bengale (dépistage), Wright (titre ou ascension), Coombs (anticorps incomplets), ELISA. Pièges : réactions croisées, phénomène de zone, B. canis non détecté ; la sérologie ne juge pas la guérison.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : les anticorps persistent longtemps après guérison.",
+        "E": "Faux : LPS rugueux, non détecté par les tests usuels."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Sérodiagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Juger la guérison sur la sérologie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic bactériologique de la brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hémocultures doivent être prélevées avant toute antibiothérapie.",
+        "B": "Le laboratoire doit être prévenu de la suspicion clinique.",
+        "C": "La myéloculture est plus sensible que les hémocultures.",
+        "D": "Les hémocultures sont plus souvent positives dans les formes chroniques que dans la forme aiguë.",
+        "E": "L'isolement de Brucella constitue un diagnostic de certitude."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Hémocultures et myéloculture apportent la certitude ; leur rendement est maximal en phase aiguë. Le risque de contamination impose d'informer le laboratoire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : moins souvent positives dans les formes focalisées ou chroniques.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Diagnostic bactériologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement d'une brucellose aiguë non compliquée de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'association doxycycline (6 semaines) + streptomycine (2–3 semaines) est un schéma de référence du consensus d'Ioannina.",
+        "B": "L'association doxycycline (6 semaines) + gentamicine (7 jours) est une alternative.",
+        "C": "L'association doxycycline + rifampicine pendant 6 semaines est un schéma oral recommandé par l'OMS.",
+        "D": "Une monothérapie par doxycycline de 3 semaines suffit.",
+        "E": "Les fluoroquinolones sont le traitement de première intention."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Toujours une association prolongée (au moins 6 semaines). Les schémas avec aminoside exposent à moins de rechutes que doxycycline-rifampicine. Pas de monothérapie, pas de fluoroquinolone en première intention.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai (schéma OMS 1986, rechutes un peu plus fréquentes).",
+        "D": "Faux : monothérapie et durée courte → rechutes.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Traitement de la forme non compliquée",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Monothérapie ou durée de traitement trop courte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Yousefi-Nooraie R et al. Antibiotics for treating human brucellosis. Cochrane 2012;CD007179 [référence à vérifier]",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments orientent vers une spondylodiscite brucellienne plutôt que tuberculeuse ?",
+      "propositions": {
+        "A": "Atteinte lombaire L4–L5",
+        "B": "Érosion du coin antéro-supérieur du corps vertébral (signe de Pedro Pons)",
+        "C": "Volumineux abcès froids paravertébraux",
+        "D": "Gibbosité par tassement cunéiforme",
+        "E": "Ostéophytes réactionnels avec destruction modérée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Brucellose : lombaire, peu destructrice, reconstruction ostéophytique, abcès rares. Tuberculose : dorsale, destructrice, abcès froids, gibbosité. En cas de doute : biopsie disco-vertébrale.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : évocateur de tuberculose.",
+        "D": "Faux : évocateur de tuberculose.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Spondylodiscite brucellienne versus tuberculeuse",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Traiter une spondylodiscite sans avoir éliminé une tuberculose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        },
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de la brucellose chez la femme enceinte et l'enfant de moins de 8 ans, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les tétracyclines sont contre-indiquées pendant la grossesse.",
+        "B": "La rifampicine, seule ou associée au cotrimoxazole, est utilisée pendant la grossesse.",
+        "C": "La streptomycine est le traitement de choix de la femme enceinte.",
+        "D": "Chez l'enfant de moins de 8 ans, l'association cotrimoxazole + rifampicine est classique.",
+        "E": "Le cotrimoxazole doit être évité en fin de grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Grossesse : rifampicine ± cotrimoxazole (pas en fin de grossesse), ni tétracycline ni aminoside. Enfant < 8 ans : cotrimoxazole + rifampicine (ou + gentamicine).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : ototoxicité fœtale.",
+        "D": "Vrai.",
+        "E": "Vrai : risque d'ictère nucléaire."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Grossesse et enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        },
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les formes graves de brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'endocardite est la principale cause de décès de la brucellose.",
+        "B": "L'endocardite brucellienne nécessite souvent un remplacement valvulaire.",
+        "C": "La neurobrucellose réalise typiquement une méningite lymphocytaire avec hyperprotéinorachie et hypoglycorachie.",
+        "D": "La surdité par atteinte du nerf VIII est une manifestation possible de la neurobrucellose.",
+        "E": "Le traitement de la neurobrucellose dure 6 semaines au maximum."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Endocardite (souvent aortique) et neurobrucellose imposent des associations prolongées (plusieurs mois), la ceftriaxone faisant partie des associations de la neurobrucellose.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : plusieurs mois, jusqu'à normalisation du LCR."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Neurobrucellose et endocardite",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les rechutes de brucellose, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles surviennent surtout dans les 6 mois suivant l'arrêt du traitement.",
+        "B": "Elles sont le plus souvent dues à une résistance acquise aux antibiotiques.",
+        "C": "Une mauvaise observance et un traitement trop court les favorisent.",
+        "D": "Un foyer profond méconnu doit être recherché.",
+        "E": "Elles sont en général traitées par la reprise d'un schéma de référence."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La persistance intracellulaire explique les rechutes ; les souches restent habituellement sensibles.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la résistance est rare.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Rechutes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attribuer une rechute à une résistance.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles mesures contribuent à la prévention de la brucellose humaine ?",
+      "propositions": {
+        "A": "Faire bouillir le lait cru ou consommer du lait pasteurisé",
+        "B": "Vacciner les petits ruminants et dépister les troupeaux",
+        "C": "Porter des gants lors des mises bas et de la manipulation des avortons",
+        "D": "Vacciner systématiquement les éleveurs par un vaccin humain",
+        "E": "Déclarer les cas humains et informer les services vétérinaires"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La prévention repose sur le contrôle de la brucellose animale, l'hygiène alimentaire, la protection des professionnels et la déclaration. Il n'existe pas de vaccin humain.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : pas de vaccin humain disponible.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Prévention — Une seule santé",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Corbel MJ (coord.). Brucellosis in humans and animals. WHO/FAO/OIE 2006 [référence à vérifier]",
+          "date": "2006"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la brucellose chronique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est définie par une évolution de plus d'un an.",
+        "B": "Elle peut correspondre à un foyer persistant qu'il faut rechercher.",
+        "C": "Le syndrome post-brucellien justifie des cures répétées d'antibiotiques.",
+        "D": "Asthénie et troubles neuropsychiques sont fréquents.",
+        "E": "Le test de Coombs et l'ELISA IgG sont utiles pour documenter les anticorps incomplets."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Distinguer foyer persistant (à traiter), rechute (à retraiter) et syndrome post-brucellien (sans infection active, ne relève pas d'antibiotiques itératifs).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Brucellose chronique",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Retraiter un syndrome post-brucellien.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-INFE-0025",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un homme de 50 ans présente une spondylodiscite dorsale avec abcès paravertébral, sérologie de Wright à 1/80 et toux depuis 6 semaines. Quelle est la conduite la plus appropriée avant de débuter un traitement ?",
+      "propositions": {
+        "A": "Débuter doxycycline + rifampicine pendant 6 semaines",
+        "B": "Rechercher une tuberculose (imagerie thoracique, expectorations, ponction-biopsie disco-vertébrale) avant tout traitement",
+        "C": "Débuter une monothérapie par doxycycline en attendant",
+        "D": "Conclure à une brucellose sur la sérologie",
+        "E": "Prescrire une fluoroquinolone"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Spondylodiscite dorsale avec abcès, toux prolongée et sérologie faiblement positive : la tuberculose est probable. Une rifampicine ou une fluoroquinolone prescrite à l'aveugle exposerait à une monothérapie de fait sur M. tuberculosis.",
+      "explications_par_proposition": {
+        "A": "Faux : risque de sélectionner une résistance de M. tuberculosis.",
+        "B": "Vrai.",
+        "C": "Faux : monothérapie et retard diagnostique.",
+        "D": "Faux : un titre de 1/80 en zone d'endémie n'est pas significatif.",
+        "E": "Faux : masque une tuberculose et sélectionne des résistances."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-008"
+      ],
+      "theme": "Rifampicine en pays d'endémie tuberculeuse",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Prescrire de la rifampicine sans avoir éliminé une tuberculose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ariza J et al. The Ioannina recommendations. PLoS Med 2007;4(12):e317 [référence à vérifier]",
+          "date": "2007"
+        },
+        {
+          "reference": "Pappas G et al. Brucellosis. N Engl J Med 2005;352:2325-36 [référence à vérifier]",
+          "date": "2005"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19"
     }
   ]
 }

@@ -13,7 +13,7 @@
         "EMBR"
       ],
       "dossiers": [],
-      "qcm": 0,
+      "qcm": 4,
       "cas_cliniques": 0,
       "fiches": []
     },
@@ -30,7 +30,7 @@
         "BIOP"
       ],
       "dossiers": [],
-      "qcm": 0,
+      "qcm": 4,
       "cas_cliniques": 0,
       "fiches": []
     },
@@ -45,7 +45,7 @@
         "OPHT"
       ],
       "dossiers": [],
-      "qcm": 0,
+      "qcm": 4,
       "cas_cliniques": 0,
       "fiches": []
     },
@@ -62,7 +62,7 @@
         "BIOP"
       ],
       "dossiers": [],
-      "qcm": 0,
+      "qcm": 4,
       "cas_cliniques": 0,
       "fiches": []
     },
@@ -78,7 +78,7 @@
         "BIOP"
       ],
       "dossiers": [],
-      "qcm": 0,
+      "qcm": 4,
       "cas_cliniques": 0,
       "fiches": []
     },
@@ -1125,9 +1125,15 @@
       "specialites": [
         "INFE"
       ],
-      "dossiers": [],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "dossiers": [
+        {
+          "id": "DOS-INFE-0001",
+          "statut": "brouillon_a_auditer",
+          "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0001__MENINGITES_PURULENTES.md"
+        }
+      ],
+      "qcm": 13,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1167,9 +1173,15 @@
       "specialites": [
         "INFE"
       ],
-      "dossiers": [],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "dossiers": [
+        {
+          "id": "DOS-INFE-0002",
+          "statut": "brouillon_a_auditer",
+          "chemin": "07_MEDECINE_INTERNE/28_INFE_INFECTIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-INFE-0002__BRUCELLOSE.md"
+        }
+      ],
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1300,8 +1312,8 @@
           "chemin": "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0001__HEMORRAGIES_DIGESTIVES.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1335,8 +1347,8 @@
           "chemin": "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0001__HEPATITES_VIRALES_A_B_C.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1355,8 +1367,8 @@
           "chemin": "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0002__CIRRHOSES.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 3,
       "fiches": []
     },
     {
@@ -1839,9 +1851,15 @@
       "specialites": [
         "CARD"
       ],
-      "dossiers": [],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "dossiers": [
+        {
+          "id": "DOS-CARD-0005",
+          "statut": "brouillon_a_auditer",
+          "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0005__ENDOCARDITES_INFECTIEUSES.md"
+        }
+      ],
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1888,8 +1906,8 @@
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0003__INFARCTUS_DU_MYOCARDE_SCA_ST_PLUS.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1908,8 +1926,8 @@
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0004__SYNDROMES_CORONARIENS_SANS_SUS_DECALAGE_ST.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1942,8 +1960,8 @@
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0001__INSUFFISANCE_CARDIAQUE_AIGUE_ET_CHRONIQUE.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -1962,8 +1980,8 @@
           "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0002__HYPERTENSION_ARTERIELLE.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -2282,7 +2300,13 @@
         "NEON",
         "INFE"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-NEON-0002",
+          "statut": "brouillon_a_auditer",
+          "chemin": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0002__INFECTIONS_NEONATALES.md"
+        }
+      ],
       "qcm": 0,
       "cas_cliniques": 0,
       "fiches": []
@@ -2324,7 +2348,13 @@
       "specialites": [
         "ENDO"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-ENDO-0001",
+          "statut": "brouillon_a_auditer",
+          "chemin": "07_MEDECINE_INTERNE/25_ENDO_ENDOCRINOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-ENDO-0001__HYPERTHYROIDIES.md"
+        }
+      ],
       "qcm": 0,
       "cas_cliniques": 0,
       "fiches": []
@@ -2879,7 +2909,13 @@
       "specialites": [
         "NEPH"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-NEPH-0001",
+          "statut": "brouillon_a_auditer",
+          "chemin": "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0001__INSUFFISANCE_RENALE_AIGUE.md"
+        }
+      ],
       "qcm": 0,
       "cas_cliniques": 0,
       "fiches": []
@@ -3765,8 +3801,8 @@
           "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0002__PANCREATITE_AIGUE.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -3800,8 +3836,8 @@
           "chemin": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0001__KYSTE_HYDATIQUE_DU_FOIE.md"
         }
       ],
-      "qcm": 0,
-      "cas_cliniques": 0,
+      "qcm": 12,
+      "cas_cliniques": 2,
       "fiches": []
     },
     {
@@ -4544,7 +4580,13 @@
         "GYNE",
         "ONCO"
       ],
-      "dossiers": [],
+      "dossiers": [
+        {
+          "id": "DOS-GYNE-0003",
+          "statut": "brouillon_a_auditer",
+          "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GYNE-0003__TUMEURS_DU_SEIN.md"
+        }
+      ],
       "qcm": 0,
       "cas_cliniques": 0,
       "fiches": []
@@ -4627,5 +4669,5 @@
       "fiches": []
     }
   ],
-  "indexe_le": "2026-11-19T01:24:43+00:00"
+  "indexe_le": "2026-11-19T01:34:46+00:00"
 }

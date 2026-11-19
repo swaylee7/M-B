@@ -11,3 +11,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Gynécologie-obstétr
 - 2026-11-19 — DOS-OBST-0002 (hémorragie de la délivrance) rédigé en 3 passes + 10 QCM affichés (12 en banque) ; corps ≈ 9 000 mots ; 14 sources dont 10 vérifiées.
 - 2026-11-19 — DOS-GYNE-0001 (GEU) rédigé en 3 passes ; anatomie pathologique intégrée en §7.4 pour conserver la numérotation à 22 sections ; 10 QCM affichés (12 en banque) ; 10 sources dont 7 vérifiées.
 - 2026-11-19 — DOS-GYNE-0002 (cancer du col) rédigé en 3 passes ; 10 QCM affichés (12 en banque) ; 14 sources dont 8 vérifiées.
+- 2026-11-19 — DOS-GYNE-0003 (tumeurs du sein) rédigé en 3 passes ; 10 QCM affichés (12 en banque) ; 15 sources dont 8 vérifiées.

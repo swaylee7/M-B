@@ -507,7 +507,7 @@ Conseils alimentaires aux femmes enceintes et aux immunodéprimés (éviter from
 
 > 10 QCM originaux Mediverse (cinq propositions A–E ; QCM = une ou plusieurs réponses exactes, QCS = une seule). La banque complète de l'item (13 questions) figure dans `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-02.json`.
 
-### QCM 1 — Étiologies selon l'âge et le terrain (QCM (réponses multiples), difficulté 1/3)
+### QCM 1 — Étiologies selon l'âge et le terrain (QCM, difficulté 1/3)
 
 Concernant les bactéries responsables de méningites purulentes, quelles associations sont exactes ?
 
@@ -529,7 +529,7 @@ Concernant les bactéries responsables de méningites purulentes, quelles associ
 
 *Banque : `QCM-INFE-0001`*
 
-### QCM 2 — Purpura fulminans (QCM (réponses multiples), difficulté 1/3)
+### QCM 2 — Purpura fulminans (QCM, difficulté 1/3)
 
 Un patient fébrile présente un purpura comportant un élément ecchymotique de 5 mm. Quelles propositions sont exactes ?
 
@@ -551,7 +551,7 @@ Un patient fébrile présente un purpura comportant un élément ecchymotique de
 
 *Banque : `QCM-INFE-0002`*
 
-### QCM 3 — Imagerie avant ponction lombaire (QCM (réponses multiples), difficulté 2/3)
+### QCM 3 — Imagerie avant ponction lombaire (QCM, difficulté 2/3)
 
 Selon les recommandations françaises (SPILF 2018), quelles situations justifient une imagerie cérébrale avant la ponction lombaire chez un patient suspect de méningite bactérienne ?
 
@@ -573,7 +573,7 @@ Selon les recommandations françaises (SPILF 2018), quelles situations justifien
 
 *Banque : `QCM-INFE-0003`*
 
-### QCM 4 — Interprétation du LCR (QCS (réponse unique), difficulté 1/3)
+### QCM 4 — Interprétation du LCR (QCS, difficulté 1/3)
 
 Quel profil de LCR est le plus évocateur d'une méningite bactérienne ?
 
@@ -595,7 +595,7 @@ Quel profil de LCR est le plus évocateur d'une méningite bactérienne ?
 
 *Banque : `QCM-INFE-0004`*
 
-### QCM 5 — Antibiothérapie probabiliste (QCM (réponses multiples), difficulté 2/3)
+### QCM 5 — Antibiothérapie probabiliste (QCM, difficulté 2/3)
 
 Un homme de 45 ans sans antécédent présente une méningite purulente ; l'examen direct du LCR est négatif ; aucun argument pour une listériose. Quelles propositions sont exactes selon les recommandations françaises ?
 
@@ -617,7 +617,7 @@ Un homme de 45 ans sans antécédent présente une méningite purulente ; l'exam
 
 *Banque : `QCM-INFE-0005`*
 
-### QCM 6 — Dexaméthasone (QCM (réponses multiples), difficulté 2/3)
+### QCM 6 — Dexaméthasone (QCM, difficulté 2/3)
 
 Concernant la dexaméthasone au cours des méningites bactériennes, quelles propositions sont exactes ?
 
@@ -639,7 +639,7 @@ Concernant la dexaméthasone au cours des méningites bactériennes, quelles pro
 
 *Banque : `QCM-INFE-0006`*
 
-### QCM 7 — Listériose neuroméningée (QCM (réponses multiples), difficulté 2/3)
+### QCM 7 — Listériose neuroméningée (QCM, difficulté 2/3)
 
 Concernant la listériose neuroméningée, quelles propositions sont exactes ?
 
@@ -661,7 +661,7 @@ Concernant la listériose neuroméningée, quelles propositions sont exactes ?
 
 *Banque : `QCM-INFE-0007`*
 
-### QCM 8 — Chimioprophylaxie autour d'un cas de méningococcie (QCM (réponses multiples), difficulté 2/3)
+### QCM 8 — Chimioprophylaxie autour d'un cas de méningococcie (QCM, difficulté 2/3)
 
 Concernant la prophylaxie autour d'un cas d'infection invasive à méningocoque, quelles propositions sont exactes ?
 
@@ -683,7 +683,7 @@ Concernant la prophylaxie autour d'un cas d'infection invasive à méningocoque,
 
 *Banque : `QCM-INFE-0008`*
 
-### QCM 9 — Méningite à pneumocoque — terrain et récidive (QCM (réponses multiples), difficulté 2/3)
+### QCM 9 — Méningite à pneumocoque — terrain et récidive (QCM, difficulté 2/3)
 
 Quels facteurs favorisent une méningite à pneumocoque ?
 
@@ -705,7 +705,7 @@ Quels facteurs favorisent une méningite à pneumocoque ?
 
 *Banque : `QCM-INFE-0009`*
 
-### QCM 10 — Complications et suivi (QCM (réponses multiples), difficulté 2/3)
+### QCM 10 — Complications et suivi (QCM, difficulté 2/3)
 
 Concernant les complications et le suivi des méningites bactériennes, quelles propositions sont exactes ?
 

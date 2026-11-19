@@ -175,15 +175,12 @@ mots_cles: [tuberculose, Mycobacterium tuberculosis, BAAR, Ziehl-Neelsen, GeneXp
 
 La **tuberculose** est une maladie infectieuse transmissible due aux bacilles du **complexe *Mycobacterium tuberculosis*** (essentiellement *M. tuberculosis* ; plus rarement *M. bovis* et *M. africanum*). Elle atteint les poumons dans la majorité des formes contagieuses, mais peut toucher pratiquement tous les organes.
 
-Il est indispensable de distinguer plusieurs situations, qui n'ont ni la même signification ni la même conduite à tenir :
-
-| Situation | Définition opérationnelle | Contagiosité | Conduite générale |
+| Situation | Définition | Contagiosité | Conduite |
 |---|---|---|---|
-| **Infection tuberculeuse latente (ITL)** | Réponse immunitaire persistante aux antigènes mycobactériens (IDR ou IGRA positifs) **sans** signe clinique, radiologique ni bactériologique de maladie | Nulle | Traitement préventif chez les sujets à haut risque de progression [S3, S11] |
-| **Primo-infection tuberculeuse** | Premier contact infectant avec le bacille ; le plus souvent latente (virage tuberculinique isolé), parfois « patente » (fièvre, érythème noueux, adénopathie médiastinale) | Faible à nulle | Surveillance ou traitement selon la forme |
-| **Tuberculose maladie** | Infection avec manifestations cliniques et/ou radiologiques et/ou bactériologiques évolutives | Variable selon la localisation | Polychimiothérapie curative |
-| **Tuberculose pulmonaire (TP)** | Atteinte du parenchyme pulmonaire ou de l'arbre trachéobronchique (une miliaire est classée pulmonaire) | Élevée si l'examen microscopique de l'expectoration est positif | Traitement + isolement initial + enquête autour du cas |
-| **Tuberculose extrapulmonaire (TEP)** | Atteinte d'un autre organe (plèvre, ganglions, os, méninges, etc.) sans atteinte parenchymateuse | Faible (sauf atteinte laryngée ou pulmonaire associée) | Traitement ; durée selon la localisation [S2, S6] |
+| **Infection tuberculeuse latente (ITL)** | IDR ou IGRA positifs **sans** signe clinique, radiologique ni bactériologique | Nulle | Traitement préventif si haut risque [S3, S11] |
+| **Primo-infection** | Premier contact infectant ; latente (virage isolé) ou « patente » | Faible à nulle | Surveillance ou traitement |
+| **Tuberculose pulmonaire (TP)** | Atteinte du parenchyme ou de l'arbre trachéobronchique (miliaire incluse) | Élevée si microscopie positive | Traitement, isolement initial, enquête autour du cas |
+| **Tuberculose extrapulmonaire** | Autre organe, sans atteinte parenchymateuse | Faible | Traitement ; durée selon la localisation [S2, S6] |
 
 **Classification des cas utilisée par les programmes.** Les programmes nationaux, dont le programme algérien, classent les cas selon deux axes complémentaires [S1, S6, S10] :
 
@@ -250,10 +247,9 @@ Il faut les distinguer des **mycobactéries non tuberculeuses** (MNT, dites « a
 
 ### 4.2 Caractères morphologiques et tinctoriaux
 
-- Bacille fin, légèrement incurvé, immobile, non sporulé.
-- Paroi très riche en lipides (**acides mycoliques**), ce qui la rend imperméable aux colorants usuels : le bacille n'est pas coloré de façon fiable par la coloration de Gram.
-- Propriété d'**acido-alcoolo-résistance** : une fois coloré à chaud par la fuchsine phéniquée (**coloration de Ziehl-Neelsen**), il résiste à la décoloration par l'acide et l'alcool → **BAAR** (bacille acido-alcoolo-résistant), rouge sur fond bleu. La **coloration à l'auramine** (fluorescence) permet une lecture plus rapide à plus faible grossissement ; tout résultat positif à l'auramine se confirme classiquement par Ziehl-Neelsen.
-- **Attention** : la présence de BAAR prouve la présence d'une mycobactérie, **pas** qu'il s'agit de *M. tuberculosis*. Dans un pays d'incidence intermédiaire comme l'Algérie, un BAAR dans l'expectoration correspond cependant presque toujours au BK, ce qui justifie le traitement immédiat dans le cadre du programme [S1, S10].
+- Bacille fin, immobile, à paroi riche en **acides mycoliques**, mal coloré par le Gram.
+- **Acido-alcoolo-résistance** : coloré à chaud par la fuchsine (**Ziehl-Neelsen**), il résiste à la décoloration → **BAAR** rouge sur fond bleu ; l'**auramine** (fluorescence) permet une lecture plus rapide.
+- Un BAAR prouve une **mycobactérie**, pas forcément *M. tuberculosis* ; en Algérie, un BAAR dans l'expectoration correspond cependant presque toujours au BK, ce qui justifie le traitement immédiat [S1, S10].
 
 ### 4.3 Caractères culturaux
 
@@ -275,8 +271,8 @@ Le schéma de traitement découle directement de la biologie du bacille :
 
 Deux conséquences majeures :
 
-1. **Mutants résistants naturels** : dans toute population bacillaire sauvage, il existe spontanément, avant tout traitement, des mutants résistants à chaque antibiotique (ordre de grandeur classique : environ 1 sur 10⁶ pour l'isoniazide, 1 sur 10⁸ pour la rifampicine). Une caverne contenant 10⁸ bacilles renferme donc presque sûrement des mutants résistants à l'un des antibiotiques. Une **monothérapie** (ou une bithérapie insuffisante pendant la phase initiale) sélectionne ces mutants : c'est la **résistance acquise**. D'où la règle : **toujours associer au moins trois antibiotiques actifs en phase initiale, jamais d'ajout d'un seul médicament à un schéma qui échoue** [S6, S10].
-2. **Stérilisation lente** : les bacilles intracellulaires et dormants ne sont tués que lentement, ce qui impose une **phase de continuation** prolongée après la phase intensive, sous peine de rechute.
+1. **Mutants résistants naturels** (environ 1/10⁶ pour l'isoniazide, 1/10⁸ pour la rifampicine) : une caverne de 10⁸ bacilles en contient presque sûrement ; une **monothérapie** les sélectionne (**résistance acquise**) → **toujours au moins trois antibiotiques actifs en phase initiale, jamais un seul médicament ajouté à un schéma en échec** [S6, S10].
+2. **Stérilisation lente** des bacilles intracellulaires et dormants → **phase de continuation** prolongée.
 
 ### 4.5 Transmission
 
@@ -388,10 +384,7 @@ Aucune image n'est spécifique : la radiographie oriente, **la bactériologie co
 
 ### 9.2 Prélèvements bactériologiques — la pierre angulaire
 
-**Quels prélèvements ?**
-- **Expectoration spontanée** : au moins **deux échantillons** (dont un du matin au réveil), recueillis dans de bonnes conditions (crachoir stérile, effort de toux profonde, à l'extérieur ou dans un local ventilé) [S10] `[À VÉRIFIER : nombre d'échantillons exigé par le manuel national — historiquement 3, réduit à 2 dans de nombreux programmes]`.
-- En l'absence d'expectoration : **expectoration induite** (aérosol de sérum salé hypertonique), **tubage gastrique** à jeun le matin au réveil, 3 jours de suite (enfant, sujet qui ne crache pas), **fibroscopie bronchique** avec aspiration et lavage bronchoalvéolaire, et **aspiration post-fibroscopique** (expectoration recueillie après l'examen).
-- Prélèvements extrapulmonaires selon le contexte, avec **histologie** et culture d'un fragment non fixé.
+**Quels prélèvements ?** Au moins **deux expectorations** (dont une du matin) [S10] `[À VÉRIFIER : nombre exigé par le manuel national]` ; à défaut : **expectoration induite**, **tubage gastrique** à jeun 3 jours de suite (enfant), **fibroscopie** avec aspiration/LBA et **aspiration post-fibroscopique** ; prélèvements extrapulmonaires avec **histologie** et culture d'un fragment non fixé.
 
 **Quels examens ?**
 
@@ -546,7 +539,7 @@ L'**Instruction n°07 du 21 mars 2024** précise que ce schéma standard **doit 
 
 **b) Cas déjà traités (rechute, échec, reprise après interruption).**
 
-- Le schéma historique de retraitement **2SHRZE/1HRZE/5HRE** (8 mois, ancienne « catégorie II ») figurait dans le manuel de 2011 [S1] ; **il ne doit plus être utilisé** selon l'instruction de 2024 [S2], en cohérence avec l'abandon de ce schéma par l'OMS (ajout d'un seul médicament — la streptomycine — à un schéma qui a échoué, risque d'amplification des résistances) [S6].
+- Le schéma historique de retraitement **2SHRZE/1HRZE/5HRE** (8 mois, ancienne « catégorie II ») figurait dans le manuel de 2011 [S1] ; **il ne doit plus être utilisé** selon l'instruction de 2024 (d'après les extraits consultés) [S2], en cohérence avec l'abandon de ce schéma par l'OMS (ajout d'un seul médicament — la streptomycine — à un schéma qui a échoué, risque d'amplification des résistances) [S6].
 - La démarche actuelle repose sur la **recherche systématique d'une résistance** (test moléculaire rapide avec détection de la résistance à la rifampicine, culture et antibiogramme) **avant** de choisir le schéma :
   - **sensibilité à la rifampicine** (et, si disponible, à l'isoniazide) → retraitement par le schéma standard de première ligne, en adaptant selon l'antibiogramme ;
   - **résistance à la rifampicine (TB-RR/MR)** → orientation vers la structure de référence et schéma de deuxième ligne [S2, S6] `[À VÉRIFIER : schéma de retraitement exact et circuit de référence prévus par l'instruction 2024]`.
@@ -712,7 +705,7 @@ Voir §13.3 : nouveau cas → 2HRZE/4HR ; déjà traité → recherche de résis
 **Scénario fictif.** M. K., 34 ans, maçon, marié, père d'un enfant de 3 ans et d'une fille de 9 ans, consulte à l'unité de soins de proximité pour une **toux productive évoluant depuis 7 semaines**, des **crachats striés de sang** depuis 10 jours, des **sueurs nocturnes** et un **amaigrissement de 6 kg** (poids actuel 58 kg). Il fume 15 paquets-années. Il a reçu un sirop antitussif et une amoxicilline 1 g × 3/j pendant 7 jours sans amélioration. Aucun antécédent de tuberculose ni de traitement antituberculeux. Température 38,1 °C le soir, FR 20/min, SpO₂ 96 %. Quelques râles crépitants sous-claviculaires droits.
 
 **Question 1 — Quelle est votre hypothèse principale et quelle est la conduite immédiate ?**
-> Il s'agit d'un **suspect de tuberculose pulmonaire** (toux > 2 semaines, hémoptysie, sueurs, amaigrissement, échec d'une antibiothérapie non spécifique). La conduite immédiate est le **recueil d'au moins deux expectorations** (dont une du matin) pour **microscopie** et, si disponible, **test moléculaire rapide**, ainsi qu'une **radiographie thoracique**. On évite toute **fluoroquinolone**, qui masquerait la tuberculose et sélectionnerait des résistances. Le patient est orienté vers le **SCTMR** [S1, S10].
+> **Suspect de TP** (toux > 2 semaines, hémoptysie, sueurs, amaigrissement, échec de l'amoxicilline) → **au moins deux expectorations** (microscopie, test moléculaire si disponible), **radiographie thoracique**, **pas de fluoroquinolone** ; orientation vers le **SCTMR** [S1, S10].
 
 **Résultats.** Radiographie : infiltrat nodulaire du lobe supérieur droit avec **caverne** de 3 cm et nodules controlatéraux. Microscopie : **BAAR 2+** sur les deux échantillons. Test moléculaire : **MTB détecté, résistance à la rifampicine non détectée**. Sérologie VIH négative. Glycémie à jeun 1,02 g/L. ALAT 28 UI/L (N < 40). Créatininémie normale.
 
@@ -720,10 +713,10 @@ Voir §13.3 : nouveau cas → 2HRZE/4HR ; déjà traité → recherche de résis
 > **Tuberculose pulmonaire bactériologiquement confirmée (TPM+), nouveau cas, pharmacosensible présumée (rifampicine sensible)** — cas hautement contagieux (microscopie 2+, caverne). Déclaration obligatoire.
 
 **Question 3 — Rédigez le traitement.**
-> Schéma standard **2HRZE/4HR** [S2, S6] : pour 58 kg, **4 comprimés/jour de RHZE (150/75/400/275 mg)** pendant 2 mois, puis **4 comprimés/jour de RH (150/75 mg)** pendant 4 mois, en une prise matinale à jeun, en **traitement directement observé** au moins pendant la phase intensive `[POSOLOGIE À VÉRIFIER — tranches de poids du protocole national]`. Information sur la coloration orange des urines, les signes d'hépatite (nausées, ictère), les troubles visuels, la nécessité absolue de régularité. Éducation sur la toux (masque, aération) ; éviter le contact rapproché avec le jeune enfant pendant les premières semaines. Aide au sevrage tabagique.
+> **2HRZE/4HR** [S2, S6] : 58 kg → **4 comprimés/jour de RHZE 150/75/400/275 mg** pendant 2 mois puis **4 comprimés/jour de RH 150/75 mg** pendant 4 mois, à jeun, en **TDO** `[POSOLOGIE À VÉRIFIER — tranches de poids nationales]`. Information (urines orangées, signes d'hépatite, troubles visuels, régularité), hygiène de la toux, sevrage tabagique.
 
 **Question 4 — Que faites-vous pour l'entourage ?**
-> **Enquête autour du cas** : examen de l'épouse et des deux enfants. L'enfant de **3 ans** est prioritaire : examen clinique, radiographie, test immunologique. **S'il n'a pas de tuberculose active**, il reçoit un **traitement préventif** selon le protocole national [S3, S11]. La fille de 9 ans et l'épouse sont examinées ; un traitement préventif se discute selon le protocole (âge, résultat du test). Tout contact symptomatique est exploré comme un suspect.
+> **Enquête autour du cas** : l'enfant de **3 ans** est prioritaire (clinique, radiographie, test immunologique) ; **tuberculose active exclue → traitement préventif** selon le protocole national [S3, S11]. L'épouse et la fille de 9 ans sont examinées ; tout contact symptomatique est exploré comme un suspect.
 
 **Évolution.** À la **3ᵉ semaine**, le patient signale des nausées. ALAT à 2,5 × LSN, bilirubine normale.
 
@@ -759,8 +752,7 @@ Voir §13.3 : nouveau cas → 2HRZE/4HR ; déjà traité → recherche de résis
 - **Ajouter un seul médicament** à un schéma en échec (erreur à l'origine de la multirésistance).
 - **Suivre le traitement par le test moléculaire** : il peut rester positif sur des bacilles morts ; le suivi se fait par **microscopie** (et culture).
 - **Considérer une séquelle radiologique comme une tuberculose évolutive** sans preuve bactériologique.
-- **Oublier la contraception** chez une femme sous rifampicine (inefficacité des œstroprogestatifs).
-- **Prescrire de la streptomycine** chez la femme enceinte (ototoxicité fœtale).
+- Oublier l'interaction **rifampicine – contraception hormonale** ; prescrire de la **streptomycine** pendant la grossesse.
 - **Oublier *M. bovis*** et sa résistance naturelle au **pyrazinamide**.
 - **Mal classer un « reprise après interruption »** en nouveau cas : le patient déjà traité doit bénéficier d'une recherche de résistance.
 - **Confondre les indicateurs** : l'incidence « toutes formes » (~40/100 000 en 2024) et l'incidence de la TP contagieuse (~9/100 000 en 2023) ne sont pas comparables [S5].
@@ -772,7 +764,7 @@ Voir §13.3 : nouveau cas → 2HRZE/4HR ; déjà traité → recherche de résis
 
 > 8 QCM originaux Mediverse (cinq propositions A–E ; QCM = une ou plusieurs réponses exactes, QCS = une seule). La banque complète de l'item (13 questions) figure dans `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-02.json`.
 
-### QCM 1 — Bacille de la tuberculose — bactériologie (QCM (réponses multiples), difficulté 1/3)
+### QCM 1 — Bacille de la tuberculose — bactériologie (QCM, difficulté 1/3)
 
 Concernant Mycobacterium tuberculosis et le complexe tuberculosis, quelles propositions sont exactes ?
 
@@ -794,7 +786,7 @@ Concernant Mycobacterium tuberculosis et le complexe tuberculosis, quelles propo
 
 *Banque : `QCM-PNEU-0001`*
 
-### QCM 2 — Transmission et histoire naturelle (QCM (réponses multiples), difficulté 1/3)
+### QCM 2 — Transmission et histoire naturelle (QCM, difficulté 1/3)
 
 À propos de la transmission et de l'histoire naturelle de la tuberculose, quelles propositions sont exactes ?
 
@@ -816,7 +808,7 @@ Concernant Mycobacterium tuberculosis et le complexe tuberculosis, quelles propo
 
 *Banque : `QCM-PNEU-0002`*
 
-### QCM 3 — Tests immunologiques (IDR, IGRA) (QCS (réponse unique), difficulté 2/3)
+### QCM 3 — Tests immunologiques (IDR, IGRA) (QCS, difficulté 2/3)
 
 Concernant l'intradermoréaction à la tuberculine (IDR) et les tests de libération d'interféron gamma (IGRA), quelle proposition est exacte ?
 
@@ -838,7 +830,7 @@ Concernant l'intradermoréaction à la tuberculine (IDR) et les tests de libéra
 
 *Banque : `QCM-PNEU-0003`*
 
-### QCM 4 — Lecture de la microscopie (QCS (réponse unique), difficulté 1/3)
+### QCM 4 — Lecture de la microscopie (QCS, difficulté 1/3)
 
 À la lecture d'un frottis d'expectoration coloré par Ziehl-Neelsen (objectif à immersion), le technicien compte 15 BAAR sur 100 champs. Selon l'échelle OMS/Union, comment le résultat est-il rendu ?
 
@@ -860,7 +852,7 @@ Concernant l'intradermoréaction à la tuberculine (IDR) et les tests de libéra
 
 *Banque : `QCM-PNEU-0004`*
 
-### QCM 5 — Classification des cas — cas déjà traité (QCM (réponses multiples), difficulté 2/3)
+### QCM 5 — Classification des cas — cas déjà traité (QCM, difficulté 2/3)
 
 Un homme de 48 ans, traité en 2019 pour une tuberculose pulmonaire et déclaré guéri, présente en 2026 une toux avec expectoration à microscopie positive. Quelles propositions sont exactes ?
 
@@ -882,7 +874,7 @@ Un homme de 48 ans, traité en 2019 pour une tuberculose pulmonaire et déclaré
 
 *Banque : `QCM-PNEU-0005`*
 
-### QCM 6 — Schéma standard de première ligne (QCM (réponses multiples), difficulté 2/3)
+### QCM 6 — Schéma standard de première ligne (QCM, difficulté 2/3)
 
 Un nouveau cas de tuberculose pulmonaire confirmée, pharmacosensible, pèse 62 kg. Quelles propositions concernant son traitement sont exactes ?
 
@@ -904,7 +896,7 @@ Un nouveau cas de tuberculose pulmonaire confirmée, pharmacosensible, pèse 62 
 
 *Banque : `QCM-PNEU-0006`*
 
-### QCM 7 — Effets indésirables des antituberculeux (QCM (réponses multiples), difficulté 1/3)
+### QCM 7 — Effets indésirables des antituberculeux (QCM, difficulté 1/3)
 
 Concernant les effets indésirables des antituberculeux, quelles associations sont exactes ?
 
@@ -926,7 +918,7 @@ Concernant les effets indésirables des antituberculeux, quelles associations so
 
 *Banque : `QCM-PNEU-0007`*
 
-### QCM 8 — Hépatotoxicité des antituberculeux (QCM (réponses multiples), difficulté 3/3)
+### QCM 8 — Hépatotoxicité des antituberculeux (QCM, difficulté 3/3)
 
 À la 3e semaine d'un traitement 2HRZE, un patient asymptomatique présente des ALAT à 6 fois la limite supérieure de la normale, bilirubine normale. Quelles propositions sont exactes ?
 
@@ -961,7 +953,6 @@ Concernant les effets indésirables des antituberculeux, quelles associations so
 | **Test diagnostique initial** | Microscopie de l'expectoration comme examen de base du programme (manuel 2011) [S1] | **Test moléculaire rapide** recommandé comme test initial chez tout suspect (OMS, module 3) [S14] | En Algérie, le GeneXpert est disponible mais son accès systématique à tous les suspects n'est pas documenté [S12] ; priorité aux déjà traités et aux suspects de résistance |
 | **Calendrier des contrôles bactériologiques** | M2, M5, M6 (OMS, Union) [S6, S10] | M2, M4, M6 dans certains supports nationaux `[À VÉRIFIER dans S1/S2]` | Se conformer au texte national en vigueur ; l'échec reste défini par une positivité à **M5 ou au-delà** (OMS) |
 | **Traitement préventif** | Isoniazide 6 mois (6H) — pratique historique des programmes, dont l'algérien `[À VÉRIFIER]` | Schémas courts à base de rifamycines (**3HR, 3HP, 1HP, 4R**) — OMS [S11] ; instruction algérienne ITL 2024 (contenu non consulté) [S3] | Les schémas courts améliorent l'achèvement du traitement ; la rifapentine n'est pas documentée en Algérie |
-| **Diagnostic de l'ITL** | IDR à la tuberculine, peu coûteuse, accessible | IGRA privilégiés dans plusieurs pays à faible incidence (meilleure spécificité chez le vacciné BCG) | En Algérie, choix selon disponibilité et protocole [S3] `[À VÉRIFIER]` |
 
 ---
 

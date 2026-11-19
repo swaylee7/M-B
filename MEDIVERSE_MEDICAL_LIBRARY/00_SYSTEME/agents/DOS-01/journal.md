@@ -8,3 +8,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Cardiologie-angiologi
 - 2026-11-19T — DOS-CARD-0002 (RES-MED-060, hypertension artérielle) terminé : 11 409 mots (wc -w), 10 QCM intégrés, 10 sources (8 vérifiées, 2 non vérifiées). Divergences ESH 2023 / ESC 2024 / AHA-ACC 2025 détaillées.
 - 2026-11-19T — DOS-CARD-0003 (RES-MED-056, infarctus du myocarde / SCA ST+) terminé : 10 QCM intégrés, 7 sources (6 vérifiées, 1 non vérifiée) ; posologies antithrombotiques/fibrinolytiques à auditer en priorité.
 - 2026-11-19T — DOS-CARD-0004 (RES-MED-057, SCA sans sus-décalage de ST) terminé : 10 QCM intégrés, 6 sources (5 vérifiées, 1 non vérifiée : ESC 2020 SCA ST−).
+- 2026-11-19T — DOS-CARD-0005 (RES-MED-053, endocardites infectieuses) terminé : 10 QCM intégrés, 8 sources (7 vérifiées, 1 non vérifiée) ; schémas d'antibiothérapie à auditer en priorité.
