@@ -163,7 +163,7 @@ mots_cles: [tuberculose, Mycobacterium tuberculosis, BAAR, Ziehl-Neelsen, GeneXp
 # Tuberculose pulmonaire : bacille de la tuberculose, critères diagnostiques, programme national algérien de lutte contre la tuberculose
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, aux directives nationales en vigueur (Instruction MS n°07 du 21 mars 2024) et aux protocoles locaux avant tout usage clinique.
+> Statut : audité (2026-11-19), corrections requises. Les posologies doivent être confrontées au RCP, aux directives nationales en vigueur (Instruction MS n°07 du 21 mars 2024) et aux protocoles locaux avant tout usage clinique.
 > **Audit (AUD-01/02/04, 2026-11-19)** : corrections requises (voir le rapport). **Avertissement de traçabilité** : le manuel national 2011 [S1] et l'instruction 2024 [S2] ont été identifiés et leur existence confirmée, mais leur texte intégral n'a pu être lu ni pendant la rédaction ni pendant l'audit (hôte inaccessible) : leur contenu est rapporté **selon les extraits disponibles, à confirmer** (état au 19/11/2026). Toute affirmation sur le programme algérien marquée `[À VÉRIFIER]` doit être confrontée au texte officiel.
 
 **Items du programme couverts** : RES-MED-042 — « Tuberculose pulmonaire : Bacille de la tuberculose - critères diagnostiques - programme national de lutte contre la tuberculose ».
