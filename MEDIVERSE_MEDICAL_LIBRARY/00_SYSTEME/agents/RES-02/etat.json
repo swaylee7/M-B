@@ -1,13 +1,13 @@
 {
   "id": "RES-02",
-  "statut": "en_cours",
+  "statut": "termine",
   "derniere_execution": "2026-11-19",
   "taches_terminees": [
-    "lot a SF-001→036"
+    "lot a SF-001->036 (124 QCM)",
+    "lot b SF-037->073 (148 QCM)"
   ],
   "taches_suivantes": [
-    "QCM SF-001…SF-036 (lot a)",
-    "QCM SF-037…SF-073 (lot b)"
+    "audit AUD"
   ],
   "objectifs": {
     "items": 68,
@@ -15,6 +15,7 @@
     "qcm_total": 272
   },
   "compteurs": {
-    "qcm": 172
+    "qcm": 272,
+    "items": 68
   }
 }

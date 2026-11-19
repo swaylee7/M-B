@@ -682,3 +682,10 @@
 {"date": "2026-11-19T02:19:51+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
 {"date": "2026-11-19T02:19:58+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "00_SYSTEME/agents/AUD-01/etat.json"}
 {"date": "2026-11-19T02:19:58+00:00", "agent": "AUD-02", "action": "ecriture_json", "cible": "00_SYSTEME/agents/AUD-02/etat.json"}
+{"date": "2026-11-19T02:20:27+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-DIAB-0001", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-DIAB-0001.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:20:27+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-DIAB-0002", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-DIAB-0002.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:20:27+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-ENDO-0001", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-ENDO-0001.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:20:27+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-NEPH-0001", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-NEPH-0001.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:20:27+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-NEPH-0002", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-NEPH-0002.md", "co_auditeur": "AUD-02"}}
+{"date": "2026-11-19T02:20:27+00:00", "agent": "AUD-01", "action": "audit_lot", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-03.json", "details": {"qcm": 60, "corriges": 3, "audite_valide": 60}}
+{"date": "2026-11-19T02:20:27+00:00", "agent": "AUD-01", "action": "audit_lot", "cible": "20_CAS_CLINIQUES/lots/DOS-03.json", "details": {"cas": 10, "corriges": 3, "audite_valide": 10}}

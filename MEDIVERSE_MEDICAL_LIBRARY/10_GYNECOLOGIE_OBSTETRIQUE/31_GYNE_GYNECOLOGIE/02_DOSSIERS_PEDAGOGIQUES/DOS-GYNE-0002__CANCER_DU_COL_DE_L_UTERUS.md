@@ -10,12 +10,12 @@ version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-07 (IA) — dossier pédagogique original"
-statut: audite_corrections_requises
+statut: audite_valide
 audit:
   - date: 2026-11-19
     auditeur: "AUD-01 / AUD-02 (IA)"
-    verdict: audite_corrections_requises
-    corrections: 0
+    verdict: audite_valide
+    corrections: 22
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0002.md
 sources:
   - id: S1

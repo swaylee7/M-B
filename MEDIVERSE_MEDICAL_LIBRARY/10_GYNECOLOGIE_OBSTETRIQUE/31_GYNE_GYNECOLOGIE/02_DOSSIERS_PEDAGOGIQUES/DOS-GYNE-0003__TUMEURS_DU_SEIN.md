@@ -15,7 +15,7 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-01 / AUD-02 (IA)"
     verdict: audite_corrections_requises
-    corrections: 0
+    corrections: 8
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GYNE-0003.md
 sources:
   - id: S1
