@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-11-19T01:34:46+00:00",
+  "genere_le": "2026-11-19T01:39:57+00:00",
   "dossiers": [
     {
       "id": "DOS-PNEU-0001",
@@ -126,12 +126,31 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0001__INSUFFISANCE_RENALE_AIGUE.md",
-      "mots": 7616,
+      "mots": 8401,
       "nb_sources": 16,
       "nb_sources_verifiees": 16,
       "nb_citations_distinctes": 16,
       "a_verifier": 3,
       "posologie_a_verifier": 2,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-NEPH-0002",
+      "titre": "Dyskaliémies (hyperkaliémies et hypokaliémies) : physiopathologie, diagnostic et traitement",
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0002__DYSKALIEMIES.md",
+      "mots": 7331,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 13,
+      "nb_citations_distinctes": 13,
+      "a_verifier": 7,
+      "posologie_a_verifier": 4,
       "erreur_yaml": null
     },
     {
@@ -430,12 +449,12 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/02_DOSSIERS_PEDAGOGIQUES/DOS-OBST-0001__PRE_ECLAMPSIE.md",
-      "mots": 12546,
+      "mots": 10277,
       "nb_sources": 14,
       "nb_sources_verifiees": 11,
       "nb_citations_distinctes": 14,
-      "a_verifier": 16,
-      "posologie_a_verifier": 8,
+      "a_verifier": 14,
+      "posologie_a_verifier": 6,
       "erreur_yaml": null
     },
     {
@@ -525,11 +544,11 @@
       "version": "1.0",
       "date_revision": "2026-11-19",
       "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0004__SYNDROMES_CORONARIENS_SANS_SUS_DECALAGE_ST.md",
-      "mots": 7480,
+      "mots": 7917,
       "nb_sources": 6,
       "nb_sources_verifiees": 5,
       "nb_citations_distinctes": 6,
-      "a_verifier": 7,
+      "a_verifier": 8,
       "posologie_a_verifier": 1,
       "erreur_yaml": null
     },
@@ -550,6 +569,101 @@
       "nb_citations_distinctes": 8,
       "a_verifier": 11,
       "posologie_a_verifier": 1,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-NEUR-0001",
+      "titre": "Accidents vasculaires cérébraux : épidémiologie, physiopathologie, diagnostic, pronostic, traitement",
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "12_NEUROLOGIE/21_NEUR_NEUROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEUR-0001__ACCIDENTS_VASCULAIRES_CEREBRAUX.md",
+      "mots": 11643,
+      "nb_sources": 15,
+      "nb_sources_verifiees": 10,
+      "nb_citations_distinctes": 15,
+      "a_verifier": 12,
+      "posologie_a_verifier": 4,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-URGE-0001",
+      "titre": "Conduite à tenir devant une intoxication aiguë",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0001__CONDUITE_A_TENIR_DEVANT_UNE_INTOXICATION_AIGUE.md",
+      "mots": 10106,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 7,
+      "nb_citations_distinctes": 13,
+      "a_verifier": 20,
+      "posologie_a_verifier": 22,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-URGE-0002",
+      "titre": "Morsures et envenimations : diagnostic, traitement, prévention (envenimation scorpionique, morsures de serpents, morsures animales et prophylaxie antirabique)",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0002__MORSURES_ET_ENVENIMATIONS.md",
+      "mots": 10110,
+      "nb_sources": 17,
+      "nb_sources_verifiees": 7,
+      "nb_citations_distinctes": 17,
+      "a_verifier": 22,
+      "posologie_a_verifier": 4,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-MINT_REA-0001",
+      "titre": "États de choc : hypovolémique, cardiogénique, septique et anaphylactique — définitions, classification, diagnostic, évolution, traitement",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md",
+      "mots": 10818,
+      "nb_sources": 15,
+      "nb_sources_verifiees": 12,
+      "nb_citations_distinctes": 15,
+      "a_verifier": 11,
+      "posologie_a_verifier": 3,
+      "erreur_yaml": null
+    },
+    {
+      "id": "DOS-MINT_REA-0002",
+      "titre": "Comas : étiologies, physiopathologie, conduite à tenir",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "statut": "brouillon_a_auditer",
+      "version": "1.0",
+      "date_revision": "2026-11-19",
+      "chemin": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0002__COMAS.md",
+      "mots": 9921,
+      "nb_sources": 13,
+      "nb_sources_verifiees": 8,
+      "nb_citations_distinctes": 13,
+      "a_verifier": 6,
+      "posologie_a_verifier": 3,
       "erreur_yaml": null
     }
   ],

@@ -387,3 +387,13 @@
 {"date": "2026-11-19T01:38:53+00:00", "agent": "DOS-05", "action": "creation_dossier", "cible": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEON-0002__INFECTIONS_NEONATALES.md", "details": {"id": "DOS-NEON-0002", "item": "RES-MED-081", "mots": 7065, "statut": "brouillon_a_auditer"}}
 {"date": "2026-11-19T01:38:53+00:00", "agent": "DOS-05", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05.json", "details": {"qcm": 60, "plages": ["QCM-PEDI-0001..0036", "QCM-NEON-0001..0024"]}}
 {"date": "2026-11-19T01:38:53+00:00", "agent": "DOS-05", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/lots/DOS-05.json", "details": {"cas": 10, "plages": ["CAS-PEDI-0001..0006", "CAS-NEON-0001..0004"]}}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/catalogue_ouvrages.json"}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "18_RECOMMANDATIONS/00_CATALOGUE/catalogue_recommandations.json"}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/banque_cas_cliniques.json"}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T01:39:57+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 1018, "dossiers": 35}}
+{"date": "2026-11-19T01:39:58+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}

@@ -1,6 +1,6 @@
 {
-  "genere_le": "2026-11-19T01:34:46+00:00",
-  "total": 782,
+  "genere_le": "2026-11-19T01:39:57+00:00",
+  "total": 1018,
   "entrees": [
     {
       "type": "dossier",
@@ -57,6 +57,14 @@
       "specialite": "NEPH",
       "specialite_nom": "Néphrologie",
       "chemin": "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0001__INSUFFISANCE_RENALE_AIGUE.md"
+    },
+    {
+      "type": "dossier",
+      "id": "DOS-NEPH-0002",
+      "titre": "Dyskaliémies (hyperkaliémies et hypokaliémies) : physiopathologie, diagnostic et traitement",
+      "specialite": "NEPH",
+      "specialite_nom": "Néphrologie",
+      "chemin": "07_MEDECINE_INTERNE/20_NEPH_NEPHROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEPH-0002__DYSKALIEMIES.md"
     },
     {
       "type": "dossier",
@@ -233,6 +241,46 @@
       "specialite": "CARD",
       "specialite_nom": "Cardiologie",
       "chemin": "11_CARDIOLOGIE/16_CARD_CARDIOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-CARD-0005__ENDOCARDITES_INFECTIEUSES.md"
+    },
+    {
+      "type": "dossier",
+      "id": "DOS-NEUR-0001",
+      "titre": "Accidents vasculaires cérébraux : épidémiologie, physiopathologie, diagnostic, pronostic, traitement",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "12_NEUROLOGIE/21_NEUR_NEUROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-NEUR-0001__ACCIDENTS_VASCULAIRES_CEREBRAUX.md"
+    },
+    {
+      "type": "dossier",
+      "id": "DOS-URGE-0001",
+      "titre": "Conduite à tenir devant une intoxication aiguë",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0001__CONDUITE_A_TENIR_DEVANT_UNE_INTOXICATION_AIGUE.md"
+    },
+    {
+      "type": "dossier",
+      "id": "DOS-URGE-0002",
+      "titre": "Morsures et envenimations : diagnostic, traitement, prévention (envenimation scorpionique, morsures de serpents, morsures animales et prophylaxie antirabique)",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/02_DOSSIERS_PEDAGOGIQUES/DOS-URGE-0002__MORSURES_ET_ENVENIMATIONS.md"
+    },
+    {
+      "type": "dossier",
+      "id": "DOS-MINT_REA-0001",
+      "titre": "États de choc : hypovolémique, cardiogénique, septique et anaphylactique — définitions, classification, diagnostic, évolution, traitement",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0001__ETATS_DE_CHOC.md"
+    },
+    {
+      "type": "dossier",
+      "id": "DOS-MINT_REA-0002",
+      "titre": "Comas : étiologies, physiopathologie, conduite à tenir",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-MINT_REA-0002__COMAS.md"
     },
     {
       "type": "qcm",
@@ -1692,6 +1740,1446 @@
     },
     {
       "type": "qcm",
+      "id": "QCM-PEDI-0001",
+      "titre": "Déshydratation — signes de choc",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0002",
+      "titre": "Déshydratation — SRO",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0003",
+      "titre": "Déshydratation — plan B OMS",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0004",
+      "titre": "Déshydratation — plan C OMS",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0005",
+      "titre": "Déshydratation — hypernatrémie",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0006",
+      "titre": "Déshydratation — zinc",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0007",
+      "titre": "Déshydratation — étiologies non digestives",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0008",
+      "titre": "Déshydratation — traitements adjuvants",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0009",
+      "titre": "Déshydratation — enfant malnutri",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0010",
+      "titre": "Déshydratation — hyponatrémie",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0011",
+      "titre": "Déshydratation — potassium",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0012",
+      "titre": "Déshydratation — scores cliniques",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0013",
+      "titre": "Vaccination — bases immunologiques",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0014",
+      "titre": "Vaccination — vaccins conjugués",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0015",
+      "titre": "Vaccination — types de vaccins",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0016",
+      "titre": "Vaccination — contre-indications",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0017",
+      "titre": "Vaccination — fausses contre-indications",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0018",
+      "titre": "Vaccination — calendrier algérien",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0019",
+      "titre": "Vaccination — calendrier algérien",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0020",
+      "titre": "Vaccination — cadre réglementaire algérien",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0021",
+      "titre": "Vaccination — poliomyélite",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0022",
+      "titre": "Vaccination — chaîne du froid",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0023",
+      "titre": "Vaccination — anaphylaxie",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0024",
+      "titre": "Vaccination — épidémiologie",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0025",
+      "titre": "Malnutrition — définitions OMS",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0026",
+      "titre": "Malnutrition — formes cliniques",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0027",
+      "titre": "Malnutrition — physiopathologie",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0028",
+      "titre": "Malnutrition — F-75",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0029",
+      "titre": "Malnutrition — micronutriments",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0030",
+      "titre": "Malnutrition — complications",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0031",
+      "titre": "Malnutrition — antibiothérapie",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0032",
+      "titre": "Malnutrition — syndrome de renutrition",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0033",
+      "titre": "Malnutrition — critères de sortie",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0034",
+      "titre": "Malnutrition — orientation",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0035",
+      "titre": "Malnutrition — diagnostic différentiel",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PEDI-0036",
+      "titre": "Malnutrition — prévention",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0001",
+      "titre": "Ictère — ictère pathologique",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0002",
+      "titre": "Ictère — physiologie",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0003",
+      "titre": "Ictère — encéphalopathie bilirubinique",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0004",
+      "titre": "Ictère — incompatibilité ABO",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0005",
+      "titre": "Ictère — photothérapie",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0006",
+      "titre": "Ictère — cholestase",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0007",
+      "titre": "Ictère — unités",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0008",
+      "titre": "Ictère — exsanguinotransfusion",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0009",
+      "titre": "Ictère — allaitement",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0010",
+      "titre": "Ictère — déficit en G6PD",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0011",
+      "titre": "Ictère — facteurs de neurotoxicité",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0012",
+      "titre": "Ictère — prévention Rhésus",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0013",
+      "titre": "Infections néonatales — germes",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0014",
+      "titre": "Infections néonatales — facteurs de risque",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0015",
+      "titre": "Infections néonatales — clinique",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0016",
+      "titre": "Infections néonatales — biologie",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0017",
+      "titre": "Infections néonatales — antibiothérapie",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0018",
+      "titre": "Infections néonatales — durées",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0019",
+      "titre": "Infections néonatales — prévention SGB",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0020",
+      "titre": "Infections néonatales — listériose",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0021",
+      "titre": "Infections néonatales — herpès",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0022",
+      "titre": "Infections néonatales — infections tardives",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0023",
+      "titre": "Infections néonatales — diagnostic différentiel",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEON-0024",
+      "titre": "Infections néonatales — prévention",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0001",
+      "titre": "AVC ischémique — prérequis de la thrombolyse",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0002",
+      "titre": "AVC ischémique — thrombolytiques",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0003",
+      "titre": "AVC ischémique — syndromes topographiques vertébro-basilaires",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0004",
+      "titre": "AVC — gestion tensionnelle",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0005",
+      "titre": "AIT — définition et prise en charge",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0006",
+      "titre": "AVC ischémique — thrombolyse et thrombectomie",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0007",
+      "titre": "Hémorragie intracérébrale — antagonisation des anticoagulants",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0008",
+      "titre": "Hémorragie sous-arachnoïdienne",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0009",
+      "titre": "AVC du réveil — sélection par imagerie",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0010",
+      "titre": "Infarctus sylvien malin",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0011",
+      "titre": "Infarctus mineur — bithérapie antiplaquettaire",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-NEUR-0012",
+      "titre": "AVC — étiologies du sujet jeune et contexte algérien",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0001",
+      "titre": "Choc septique — définitions",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0002",
+      "titre": "États de choc — diagnostic positif",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0003",
+      "titre": "Anaphylaxie — adrénaline",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0004",
+      "titre": "Anaphylaxie — diagnostic et pièges",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0005",
+      "titre": "Choc septique — première heure",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0006",
+      "titre": "Choc septique — choc réfractaire",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0007",
+      "titre": "Choc hémorragique traumatique",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0008",
+      "titre": "Choc cardiogénique",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0009",
+      "titre": "Remplissage vasculaire — réponse au remplissage",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0010",
+      "titre": "États de choc — profils hémodynamiques",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0011",
+      "titre": "États de choc — diagnostic différentiel (choc obstructif)",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0012",
+      "titre": "Choc septique — monitorage",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0013",
+      "titre": "Coma — échelle de Glasgow",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0014",
+      "titre": "Coma — bases neuro-anatomiques",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0015",
+      "titre": "Coma — examen pupillaire",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0016",
+      "titre": "Coma — traitements correctifs immédiats",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0017",
+      "titre": "Coma toxique — monoxyde de carbone",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0018",
+      "titre": "Coma — diagnostic différentiel",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0019",
+      "titre": "Coma — localisation lésionnelle",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0020",
+      "titre": "Coma fébrile — urgences infectieuses",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0021",
+      "titre": "Coma épileptique",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0022",
+      "titre": "Coma post-anoxique — pronostic",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0023",
+      "titre": "Coma — diagnostic différentiel psychogène",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-MINT_REA-0024",
+      "titre": "Mort encéphalique",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0001",
+      "titre": "Intoxications — décontamination digestive",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0002",
+      "titre": "Intoxication au paracétamol",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0003",
+      "titre": "Intoxications — toxidromes",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0004",
+      "titre": "Intoxication aux antidépresseurs tricycliques",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0005",
+      "titre": "Intoxication aux opioïdes — naloxone",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0006",
+      "titre": "Antidotes — flumazénil",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0007",
+      "titre": "Intoxication aux organophosphorés",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0008",
+      "titre": "Intoxication au monoxyde de carbone",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0009",
+      "titre": "Ingestion de caustiques",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0010",
+      "titre": "Alcools toxiques",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0011",
+      "titre": "Intoxications — évaluation de la gravité",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0012",
+      "titre": "Intoxications — suites, prévention, contexte algérien",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0013",
+      "titre": "Envenimation scorpionique — épidémiologie algérienne",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0014",
+      "titre": "Envenimation scorpionique — programme national",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0015",
+      "titre": "Envenimation scorpionique — physiopathologie",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0016",
+      "titre": "Envenimation scorpionique — classification",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0017",
+      "titre": "Envenimation scorpionique — premiers secours",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0018",
+      "titre": "Envenimation scorpionique — classe III",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0019",
+      "titre": "Envenimation vipérine",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0020",
+      "titre": "Envenimations ophidiennes — élapidés et premiers secours",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0021",
+      "titre": "Rage — catégories d'exposition",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0022",
+      "titre": "Rage — prophylaxie post-exposition",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0023",
+      "titre": "Morsures animales — morsure de chat",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-URGE-0024",
+      "titre": "Envenimations — hyménoptères et tétanos",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0701",
+      "titre": "Pré-éclampsie — définitions",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0702",
+      "titre": "Pré-éclampsie — physiopathologie",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0703",
+      "titre": "Pré-éclampsie — prévention par aspirine",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0704",
+      "titre": "Pré-éclampsie — antihypertenseurs",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0705",
+      "titre": "Pré-éclampsie — sulfate de magnésium",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0706",
+      "titre": "Pré-éclampsie — surdosage en magnésium",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0707",
+      "titre": "Pré-éclampsie — HELLP syndrome",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0708",
+      "titre": "Pré-éclampsie — moment de l'accouchement",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0709",
+      "titre": "Pré-éclampsie — biomarqueurs",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0710",
+      "titre": "Pré-éclampsie — éclampsie",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0711",
+      "titre": "Pré-éclampsie — diagnostics différentiels",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0712",
+      "titre": "Pré-éclampsie — post-partum et suivi",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0713",
+      "titre": "Hémorragie de la délivrance — définitions",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0714",
+      "titre": "Hémorragie de la délivrance — physiologie",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0715",
+      "titre": "Hémorragie de la délivrance — étiologies",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0716",
+      "titre": "Hémorragie de la délivrance — prévention",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0717",
+      "titre": "Hémorragie de la délivrance — acide tranexamique",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0718",
+      "titre": "Hémorragie de la délivrance — conduite initiale",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0719",
+      "titre": "Hémorragie de la délivrance — utérotoniques",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0720",
+      "titre": "Hémorragie de la délivrance — bundle et détection précoce",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0721",
+      "titre": "Hémorragie de la délivrance — inversion utérine",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0722",
+      "titre": "Hémorragie de la délivrance — stratégie d'escalade",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0723",
+      "titre": "Hémorragie de la délivrance — réanimation et biologie",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-OBST-0724",
+      "titre": "Hémorragie de la délivrance — épidémiologie algérienne et suites",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0701",
+      "titre": "GEU — épidémiologie et facteurs de risque",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0702",
+      "titre": "GEU — anatomie pathologique",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0703",
+      "titre": "GEU — rupture selon la localisation",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0704",
+      "titre": "GEU — hCG et zone de discrimination",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0705",
+      "titre": "GEU — échographie",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0706",
+      "titre": "GEU — forme rompue",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0707",
+      "titre": "GEU — méthotrexate (indications)",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0708",
+      "titre": "GEU — méthotrexate (protocole et surveillance)",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0709",
+      "titre": "GEU — chirurgie et essai ESEP",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0710",
+      "titre": "GEU — expectative",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0711",
+      "titre": "GEU — terminologie et formes particulières",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0712",
+      "titre": "GEU — suivi et prévention",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0713",
+      "titre": "Cancer du col — épidémiologie",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0714",
+      "titre": "Cancer du col — HPV et carcinogenèse",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0715",
+      "titre": "Cancer du col — anatomie et anatomie pathologique",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0716",
+      "titre": "Cancer du col — dépistage (OMS 2021)",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0717",
+      "titre": "Cancer du col — démarche diagnostique",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0718",
+      "titre": "Cancer du col — stadification FIGO 2018",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0719",
+      "titre": "Cancer du col — bilan d'extension",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0720",
+      "titre": "Cancer du col — principes de traitement",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0721",
+      "titre": "Cancer du col — clinique",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0722",
+      "titre": "Cancer du col — vaccination HPV",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0723",
+      "titre": "Cancer du col — évolution et pronostic",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0724",
+      "titre": "Cancer du col — lésions précancéreuses",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0725",
+      "titre": "Tumeurs du sein — épidémiologie",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0726",
+      "titre": "Tumeurs du sein — facteurs de risque",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0727",
+      "titre": "Tumeurs du sein — tumeurs bénignes",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0728",
+      "titre": "Tumeurs du sein — anatomie pathologique",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0729",
+      "titre": "Tumeurs du sein — biomarqueurs et sous-types",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0730",
+      "titre": "Tumeurs du sein — démarche diagnostique",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0731",
+      "titre": "Tumeurs du sein — BI-RADS",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0732",
+      "titre": "Tumeurs du sein — traitement locorégional",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0733",
+      "titre": "Tumeurs du sein — traitements systémiques",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0734",
+      "titre": "Tumeurs du sein — stratégie selon le sous-type",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0735",
+      "titre": "Tumeurs du sein — sein inflammatoire",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-GYNE-0736",
+      "titre": "Tumeurs du sein — surveillance",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
       "id": "QCM-EMBR-5001",
       "titre": "Gastrulation et mise en place des trois feuillets",
       "specialite": "EMBR",
@@ -1848,6 +3336,166 @@
       "titre": "Histologie de la paroi vasculaire",
       "specialite": "HIST",
       "specialite_nom": "Histologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5003",
+      "titre": "Cycle cardiaque : phases et bruits du cœur",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5004",
+      "titre": "Débit cardiaque : précharge, postcharge, contractilité",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5005",
+      "titre": "Boucle pression-volume du ventricule gauche",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5006",
+      "titre": "Pressions intracardiaques normales",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5007",
+      "titre": "Déterminants de la pression artérielle",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5008",
+      "titre": "Baroréflexe artériel",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5009",
+      "titre": "Système rénine-angiotensine-aldostérone",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5010",
+      "titre": "Mesure auscultatoire de la pression artérielle",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-ANAT-5004",
+      "titre": "Anatomie de l'appareil respiratoire et muscles respiratoires",
+      "specialite": "ANAT",
+      "specialite_nom": "Anatomie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5011",
+      "titre": "Mécanique ventilatoire : pression pleurale, compliance, surfactant",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5012",
+      "titre": "Volumes et débits pulmonaires",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5013",
+      "titre": "Ventilation alvéolaire et espace mort",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-HIST-5004",
+      "titre": "Histologie de l'hypophyse",
+      "specialite": "HIST",
+      "specialite_nom": "Histologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5014",
+      "titre": "Contrôle hypothalamique de l'antéhypophyse",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5015",
+      "titre": "Hormone antidiurétique (posthypophyse)",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5016",
+      "titre": "Ocytocine et lactation",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-ANAT-5005",
+      "titre": "Vascularisation de l'appareil génital",
+      "specialite": "ANAT",
+      "specialite_nom": "Anatomie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-HIST-5005",
+      "titre": "Histologie du testicule et spermatogenèse",
+      "specialite": "HIST",
+      "specialite_nom": "Histologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-HIST-5006",
+      "titre": "Follicule ovarien : modèle deux cellules – deux gonadotrophines",
+      "specialite": "HIST",
+      "specialite_nom": "Histologie",
+      "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
+    },
+    {
+      "type": "qcm",
+      "id": "QCM-PHYS-5017",
+      "titre": "Physiologie du cycle menstruel",
+      "specialite": "PHYS",
+      "specialite_nom": "Physiologie",
       "chemin": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"
     },
     {
@@ -2088,6 +3736,246 @@
       "titre": "Pancréatite aiguë biliaire avec angiocholite chez une femme de 68 ans",
       "specialite": "CDIG",
       "specialite_nom": "Chirurgie digestive",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-PEDI-0001",
+      "titre": "Diarrhée aiguë et somnolence chez un nourrisson de 9 mois en été",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-PEDI-0002",
+      "titre": "Irritabilité et convulsion chez un nourrisson de 2 mois déshydraté en période de canicule",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-PEDI-0003",
+      "titre": "Rattrapage vaccinal d'une enfant de 13 mois dont le frère est sous chimiothérapie",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-PEDI-0004",
+      "titre": "BCG à la maternité chez un nouveau-né dont le frère est décédé d'une infection disséminée",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-PEDI-0005",
+      "titre": "Œdèmes et lésions cutanées chez une enfant de 22 mois sevrée brutalement",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-PEDI-0006",
+      "titre": "Marasme d'un nourrisson de 10 mois et détresse respiratoire au troisième jour de renutrition",
+      "specialite": "PEDI",
+      "specialite_nom": "Pédiatrie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-NEON-0001",
+      "titre": "Ictère à 20 heures de vie chez un nouveau-né à terme",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-NEON-0002",
+      "titre": "Nouveau-né de 5 jours très ictérique et hypertonique après une sortie précoce",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-NEON-0003",
+      "titre": "Geignement et tachycardie à 5 heures de vie chez un nouveau-né de mère porteuse de streptocoque B",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-NEON-0004",
+      "titre": "Fièvre et bombement de la fontanelle chez un nourrisson de 3 semaines",
+      "specialite": "NEON",
+      "specialite_nom": "Néonatologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-NEUR-0001",
+      "titre": "Aphasie et hémiplégie droite brutales chez un homme de 66 ans",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-NEUR-0002",
+      "titre": "Hémiparésie gauche et céphalées sous antivitamine K chez une femme de 74 ans",
+      "specialite": "NEUR",
+      "specialite_nom": "Neurologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-MINT_REA-0001",
+      "titre": "Fièvre, douleur lombaire et marbrures chez une diabétique de 67 ans",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-MINT_REA-0002",
+      "titre": "Malaise brutal pendant une perfusion d'antibiotique aux urgences",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-MINT_REA-0003",
+      "titre": "Une famille retrouvée somnolente un matin d'hiver",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-MINT_REA-0004",
+      "titre": "Coma hypoglycémique chez un homme alcoolo-dépendant de 47 ans",
+      "specialite": "MINT_REA",
+      "specialite_nom": "Médecine intensive",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-URGE-0001",
+      "titre": "Intoxication volontaire au paracétamol vue à la 10e heure",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-URGE-0002",
+      "titre": "Sueurs, hypersalivation et détresse respiratoire après ingestion d'un pesticide",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-URGE-0003",
+      "titre": "Piqûre de scorpion chez une fillette de 4 ans une nuit d'août",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-URGE-0004",
+      "titre": "Morsures de la joue et de la main par un chien errant chez un enfant de 9 ans",
+      "specialite": "URGE",
+      "specialite_nom": "Médecine d'urgence",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-OBST-0701",
+      "titre": "Céphalées et douleur épigastrique à 33 SA chez une primigeste",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-OBST-0702",
+      "titre": "Convulsions à J3 du post-partum chez une jeune accouchée",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-OBST-0703",
+      "titre": "Saignement abondant 25 minutes après l'accouchement d'une grande multipare",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-OBST-0704",
+      "titre": "Placenta praevia antérieur sur utérus bicicatriciel à 32 SA",
+      "specialite": "OBST",
+      "specialite_nom": "Obstétrique",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-GYNE-0701",
+      "titre": "Douleur de la fosse iliaque gauche et retard de règles chez une femme de 29 ans",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-GYNE-0702",
+      "titre": "Malaise et douleur abdominale brutale chez une femme porteuse d'un DIU",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-GYNE-0703",
+      "titre": "Métrorragies post-coïtales chez une femme de 47 ans jamais dépistée",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-GYNE-0704",
+      "titre": "Test HPV positif lors d'un dépistage chez une femme de 34 ans",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-GYNE-0705",
+      "titre": "Nodule du sein gauche avec adénopathie axillaire chez une femme de 41 ans",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
+      "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
+    },
+    {
+      "type": "cas_clinique",
+      "id": "CAS-GYNE-0706",
+      "titre": "Masse mammaire à croissance rapide chez une femme de 45 ans",
+      "specialite": "GYNE",
+      "specialite_nom": "Gynécologie",
       "chemin": "20_CAS_CLINIQUES/banque_cas_cliniques.json"
     },
     {

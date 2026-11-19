@@ -578,3 +578,159 @@ M. T., 45 ans, HTA sous 3 antihypertenseurs dont un thiazidique, crampes : **K 2
 - Ne pas corriger une **hypomagnésémie** (hypokaliémie réfractaire).
 - Supplémenter massivement une **paralysie périodique thyrotoxique** (hyperkaliémie de rebond).
 - Oublier que la kaliémie normale ou haute d'une **acidocétose** masque un **déficit total** important.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+*Questions originales Mediverse (5 propositions, une ou plusieurs réponses exactes). Version complète avec explications par proposition dans la banque `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-03.json`.*
+
+**QCM 1** (QCM-NEPH-0013 — QCM (réponses multiples)). Quelles situations peuvent être responsables d'une fausse hyperkaliémie (pseudohyperkaliémie) ?
+
+- **A.** Hémolyse lors du prélèvement
+- **B.** Thrombocytose majeure avec dosage sur sérum
+- **C.** Contraction répétée du poing pendant le prélèvement
+- **D.** Contamination du tube par l'EDTA
+- **E.** Traitement par spironolactone
+
+> **Réponse(s) : A, B, C, D.** Pseudohyperkaliémies : hémolyse, poing serré/garrot prolongé, thrombocytose ou hyperleucocytose (libération lors de la coagulation, plasma normal), contamination EDTA, retard d'analyse. La spironolactone cause une vraie hyperkaliémie (défaut d'excrétion).
+>
+> *Propositions fausses* : **E** — Faux : vraie hyperkaliémie par antagonisme de l'aldostérone.
+
+**QCM 2** (QCM-NEPH-0014 — QCM (réponses multiples)). Quelles anomalies ECG sont évocatrices d'une hyperkaliémie ?
+
+- **A.** Ondes T amples, pointues et symétriques
+- **B.** Élargissement des QRS
+- **C.** Ondes U proéminentes
+- **D.** Disparition des ondes P
+- **E.** Aspect sinusoïdal pré-terminal
+
+> **Réponse(s) : A, B, D, E.** Hyperkaliémie : T amples et pointues, allongement de PR, aplatissement/disparition des P, QRS larges, aspect sinusoïdal, FV/asystolie. Les ondes U sont un signe d'hypokaliémie. La sensibilité de l'ECG est faible.
+>
+> *Propositions fausses* : **C** — Faux : hypokaliémie.
+
+**QCM 3** (QCM-NEPH-0015 — QCS (réponse unique)). Un patient a une kaliémie à 7,0 mmol/L avec QRS élargis. Quelle est la première mesure thérapeutique à administrer ?
+
+- **A.** Résine échangeuse d'ions par voie orale
+- **B.** Gluconate de calcium 10 % IV
+- **C.** Furosémide IV
+- **D.** Bicarbonate de sodium IV systématique
+- **E.** Kayexalate par lavement
+
+> **Réponse(s) : B.** En présence d'anomalies ECG, la priorité est la protection myocardique par les sels de calcium (effet en quelques minutes), avant le transfert (insuline-glucose ± salbutamol) puis l'élimination.
+>
+> *Propositions fausses* : **A** — Faux : lent et imprévisible. **C** — Faux : délai d'action et efficacité insuffisants en urgence. **D** — Faux : non systématique. **E** — Faux : lent.
+
+**QCM 4** (QCM-NEPH-0016 — QCM (réponses multiples)). Concernant les sels de calcium dans l'hyperkaliémie, quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Ils abaissent rapidement la kaliémie
+- **B.** La recommandation UKKA 2023 préconise 30 mL de gluconate de calcium 10 % en 10 minutes
+- **C.** L'injection peut être répétée si l'ECG reste anormal
+- **D.** Ils ne doivent pas être administrés dans la même voie que le bicarbonate de sodium
+- **E.** Leur effet dure plusieurs jours
+
+> **Réponse(s) : B, C, D.** Le calcium stabilise la membrane myocardique sans modifier la kaliémie ; effet rapide mais transitoire (30–60 min) ; UKKA 2023 : 30 mL de gluconate 10 % en 10 min ; répétition possible ; précipitation avec le bicarbonate.
+>
+> *Propositions fausses* : **A** — Faux : il ne modifie pas la kaliémie. **E** — Faux : 30–60 minutes.
+
+**QCM 5** (QCM-NEPH-0017 — QCM (réponses multiples)). Concernant l'insuline-glucose dans l'hyperkaliémie, quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Le schéma de référence associe 10 UI d'insuline rapide et 25 g de glucose IV
+- **B.** L'hypoglycémie est une complication fréquente, majorée en cas d'insuffisance rénale
+- **C.** Une surveillance glycémique de 30 minutes suffit
+- **D.** L'effet hypokaliémiant est un transfert intracellulaire, sans élimination du potassium
+- **E.** Un relais par glucose 10 % est préconisé si la glycémie initiale est basse
+
+> **Réponse(s) : A, B, D, E.** Insuline 10 UI + glucose 25 g en 15 min ; transfert intracellulaire transitoire (4–6 h) ; hypoglycémie fréquente (MRC, faible poids, glycémie initiale basse) → surveillance ≥ 6 h et relais glucosé si glycémie initiale < 7 mmol/L (UKKA).
+>
+> *Propositions fausses* : **C** — Faux : hypoglycémies tardives possibles ; surveillance prolongée.
+
+**QCM 6** (QCM-NEPH-0018 — QCM (réponses multiples)). Concernant les chélateurs du potassium, quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Le cyclosilicate de zirconium sodique s'utilise en correction à 10 g trois fois par jour (jusqu'à 72 h)
+- **B.** Le patiromer a un délai d'action plus long et convient surtout au traitement d'entretien
+- **C.** Selon l'UKKA 2023, la résine calcique (Calcium Resonium) n'a plus de place dans le traitement aigu
+- **D.** Les chélateurs permettent de maintenir les bloqueurs du SRAA chez certains patients hyperkaliémiques
+- **E.** Les chélateurs remplacent la protection myocardique par le calcium
+
+> **Réponse(s) : A, B, C, D.** SZC (HARMONIZE) : 10 g × 3/j en correction ; patiromer (OPAL-HK) : entretien ; UKKA 2023 : plus de résine calcique en aigu (et plus en chronique depuis 2026) ; objectif chronique : préserver les bloqueurs du SRAA. Ils ne remplacent jamais le calcium ni le transfert en urgence.
+>
+> *Propositions fausses* : **E** — Faux.
+
+**QCM 7** (QCM-NEPH-0019 — QCM (réponses multiples)). Un patient diabétique en MRC G3b, traité par IEC à dose maximale, a une kaliémie stable à 5,6 mmol/L. Quelle(s) attitude(s) est(sont) appropriée(s) ?
+
+- **A.** Arrêt définitif de l'IEC
+- **B.** Recherche et éviction des facteurs aggravants (AINS, triméthoprime, sels de régime à base de KCl)
+- **C.** Correction d'une acidose métabolique éventuelle
+- **D.** Discussion d'un diurétique kaliurétique ou d'un chélateur pour poursuivre le bloqueur du SRAA
+- **E.** Conseils diététiques individualisés plutôt qu'une restriction drastique en végétaux
+
+> **Réponse(s) : B, C, D, E.** Hyperkaliémie chronique modérée sous SRAA : mesures hypokaliémiantes (médicaments, acidose, diurétiques, chélateurs, diététique) pour maintenir le traitement cardio-néphroprotecteur, plutôt que l'arrêter.
+>
+> *Propositions fausses* : **A** — Faux : perte du bénéfice néphroprotecteur ; à réserver aux hyperkaliémies non contrôlables.
+
+**QCM 8** (QCM-NEPH-0020 — QCM (réponses multiples)). Une femme de 34 ans a une kaliémie à 2,9 mmol/L, des bicarbonates à 18 mmol/L (acidose), une kaliurèse à 8 mmol/24 h et une PA normale. Quelle(s) cause(s) est(sont) compatible(s) ?
+
+- **A.** Diarrhées chroniques
+- **B.** Abus de laxatifs
+- **C.** Hyperaldostéronisme primaire
+- **D.** Syndrome de Gitelman
+- **E.** Adénome villeux
+
+> **Réponse(s) : A, B, E.** Hypokaliémie + acidose + kaliurèse basse (< 15 mmol/j) = pertes digestives basses (diarrhées, laxatifs, adénome villeux). L'hyperaldostéronisme et le Gitelman donnent une perte rénale avec alcalose.
+>
+> *Propositions fausses* : **C** — Faux : perte rénale, alcalose, HTA. **D** — Faux : perte rénale, alcalose, hypomagnésémie.
+
+**QCM 9** (QCM-NEPH-0021 — QCM (réponses multiples)). Un homme de 48 ans a une HTA résistante et une hypokaliémie à 3,1 mmol/L avec kaliurèse élevée et alcalose. Quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Un hyperaldostéronisme primaire doit être recherché par le rapport aldostérone/rénine
+- **B.** Une rénine basse avec aldostérone élevée oriente vers un hyperaldostéronisme primaire
+- **C.** Une rénine et une aldostérone toutes deux basses peuvent évoquer une prise de réglisse ou un syndrome de Liddle
+- **D.** Le traitement peut reposer sur un antagoniste minéralocorticoïde ou une surrénalectomie selon la latéralisation
+- **E.** L'hypokaliémie élimine le diagnostic d'HTA essentielle compliquée par un diurétique
+
+> **Réponse(s) : A, B, C, D.** HTA + hypokaliémie avec perte rénale : excès minéralocorticoïde. Rénine ↓ aldostérone ↑ = hyperaldostéronisme primaire ; rénine ↓ aldostérone ↓ = réglisse, Liddle, excès apparent ; rénine ↑ aldostérone ↑ = secondaire. L'Endocrine Society 2025 suggère le dépistage chez tous les hypertendus. Une hypokaliémie sous diurétique reste possible.
+>
+> *Propositions fausses* : **E** — Faux : un diurétique peut suffire à l'expliquer, mais n'exclut pas un hyperaldostéronisme.
+
+**QCM 10** (QCM-NEPH-0022 — QCM (réponses multiples)). Concernant les syndromes de Gitelman et de Bartter, quelle(s) proposition(s) est(sont) exacte(s) ?
+
+- **A.** Ils associent hypokaliémie et alcalose métabolique avec PA normale ou basse
+- **B.** Le syndrome de Gitelman s'accompagne typiquement d'une hypocalciurie et d'une hypomagnésémie
+- **C.** Le syndrome de Bartter s'accompagne typiquement d'une hypocalciurie marquée
+- **D.** La chlorurie y est élevée
+- **E.** Le traitement du Gitelman associe supplémentation en potassium et en magnésium
+
+> **Réponse(s) : A, B, D, E.** Tubulopathies avec perte de sel : hypokaliémie, alcalose, PA basse/normale, chlorurie élevée. Gitelman (cotransporteur NaCl distal) : hypocalciurie, hypomagnésémie, révélation chez l'adolescent/adulte ; Bartter (anse) : calciurie normale ou élevée, révélation précoce.
+>
+> *Propositions fausses* : **C** — Faux : calciurie normale ou élevée.
+---
+
+## 21. Divergences entre recommandations
+
+| Sujet | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
+|---|---|---|---|
+| Sel de calcium de première intention | **UKKA 2023** : gluconate de calcium 10 %, 30 mL en 10 min (auparavant 15 min) [S1] | **ERC 2021** : chlorure de calcium 10 % (10 mL) ou gluconate 10 % (30 mL) ; chlorure en arrêt cardiaque [S2] | Le chlorure apporte ~3 fois plus de calcium élémentaire par mL mais est plus veinotoxique ; choix selon la voie et la situation. |
+| Résines échangeuses d'ions | **UKKA 2023** : plus de place pour la résine calcique en aigu ; **UKKA 2026** : plus recommandée non plus en chronique [S1] | Pratique encore répandue dans de nombreux pays où le SZC et le patiromer sont indisponibles ou coûteux **[données algériennes À VÉRIFIER]** | Les nouveaux chélateurs ont des données d'essais contrôlés [S6, S7] ; les résines anciennes ont un effet lent et un risque digestif. |
+| Bicarbonate de sodium | **UKKA** : pas d'usage systématique ; à réserver à l'acidose sévère [S1 — à vérifier sur le texte] | **ERC 2021** : 50 mmol IV en cas d'arrêt hyperkaliémique avec acidose sévère ou insuffisance rénale [S2] | Contextes différents (patient non en arrêt vs arrêt cardiaque). |
+| Gestion des bloqueurs du SRAA en cas d'hyperkaliémie | **KDIGO 2020 (controverses) et KDIGO 2024 (MRC)** : privilégier les mesures hypokaliémiantes et les chélateurs pour **maintenir** les bloqueurs du SRAA [S4, S11] | Pratique fréquente : **réduction ou arrêt** des IEC/ARA2/ARM dès une hyperkaliémie modérée | L'arrêt prive le patient d'un bénéfice cardio-rénal démontré ; décision individualisée. |
+| Dépistage de l'hyperaldostéronisme primaire | **Endocrine Society 2016** : dépistage ciblé (HTA résistante, hypokaliémie, incidentalome, etc.) [S13] | **Endocrine Society 2025** : dépistage suggéré chez **tous** les hypertendus [S12] | Changement majeur de 2025 : impact organisationnel important. |
+| Arrêt cardiaque hyperkaliémique | **ERC 2021** : calcium, insuline-glucose, bicarbonate selon le contexte, dialyse en cas de réfractarité [S2] | **ERC 2025** : version actualisée des circonstances particulières [S3] — texte intégral non consulté dans cette session | Vérifier les éventuelles modifications 2025 avant enseignement. |
+
+---
+
+## 22. Références
+
+1. **[S1]** UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults — version finale octobre 2023, mise à jour juillet 2026. — existence et principales modifications vérifiées (recherche web) ; **texte intégral non consulté** (hôte non accessible dans cette session) ; auteurs/pagination **À VÉRIFIER**.
+2. **[S2]** Lott C, Truhlář A, Alfonzo A, et al. European Resuscitation Council Guidelines 2021: Cardiac arrest in special circumstances. *Resuscitation*. 2021;161:152-219. doi:10.1016/j.resuscitation.2021.02.011. — vérifiée (existence ; corrigendum 2021).
+3. **[S3]** Lott C, et al. European Resuscitation Council Guidelines 2025 Special Circumstances in Resuscitation. *Resuscitation*. 2025;215 Suppl 1:110753. doi:10.1016/j.resuscitation.2025.110753. — vérifiée (existence).
+4. **[S4]** Clase CM, Carrero JJ, Ellison DH, et al. Potassium homeostasis and management of dyskalemia in kidney diseases: KDIGO Controversies Conference. *Kidney Int*. 2020;97(1):42-61. doi:10.1016/j.kint.2019.09.018. — vérifiée (existence).
+5. **[S5]** Kardalas E, Paschou SA, Anagnostis P, et al. Hypokalemia: a clinical update. *Endocr Connect*. 2018;7(4):R135-R146. doi:10.1530/EC-18-0109. — vérifiée (texte intégral consulté).
+6. **[S6]** Kosiborod M, et al. Effect of sodium zirconium cyclosilicate on potassium lowering for 28 days among outpatients with hyperkalemia: the HARMONIZE randomized clinical trial. *JAMA*. 2014;312(21):2223-2233. doi:10.1001/jama.2014.15688. — vérifiée.
+7. **[S7]** Weir MR, et al. Patiromer in patients with kidney disease and hyperkalemia receiving RAAS inhibitors. *N Engl J Med*. 2015;372(3):211-221. doi:10.1056/NEJMoa1410853. — vérifiée.
+8. **[S8]** Blanchard A, et al. Gitelman syndrome: consensus and guidance from a KDIGO Controversies Conference. *Kidney Int*. 2017;91(1):24-33. doi:10.1016/j.kint.2016.09.046. — vérifiée (existence).
+9. **[S9]** Umpierrez GE, et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. *Diabetes Care*. 2024;47(8):1257-1275. doi:10.2337/dci24-0032. — vérifiée (texte intégral consulté).
+10. **[S10]** ADA Professional Practice Committee. 11. Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes—2026. *Diabetes Care*. 2026;49(Suppl 1):S246-S260. doi:10.2337/dc26-S011. — vérifiée.
+11. **[S11]** KDIGO CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. *Kidney Int*. 2024;105(4S):S117-S314. doi:10.1016/j.kint.2023.10.018. — vérifiée (existence).
+12. **[S12]** Adler GK, Stowasser M, Correa RR, et al. Primary Aldosteronism: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab*. 2025;110(9):2453-2495. doi:10.1210/clinem/dgaf284. — vérifiée (résumé PubMed).
+13. **[S13]** Funder JW, et al. The Management of Primary Aldosteronism: Case Detection, Diagnosis, and Treatment: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab*. 2016;101(5):1889-1916. doi:10.1210/jc.2015-4061. — vérifiée ; remplacée par S12.

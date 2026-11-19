@@ -1,6 +1,6 @@
 {
-  "genere_le": "2026-11-19T01:34:45+00:00",
-  "total": 30,
+  "genere_le": "2026-11-19T01:39:57+00:00",
+  "total": 60,
   "cas": [
     {
       "id": "CAS-CARD-0001",
@@ -2164,6 +2164,2119 @@
       "auteur": "DOS-04",
       "date_creation": "2026-11-19",
       "_lot": "DOS-04.json"
+    },
+    {
+      "id": "CAS-PEDI-0001",
+      "titre": "Diarrhée aiguë et somnolence chez un nourrisson de 9 mois en été",
+      "niveau": "residanat",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon de 9 mois, nourri au lait artificiel, vivant en zone urbaine.",
+      "motif_consultation": "Diarrhée liquide et vomissements depuis 48 heures, enfant « mou » depuis le matin.",
+      "antecedents": "Né à terme, 3 200 g. Vaccinations à jour selon le carnet. Poids de 8,6 kg mesuré 10 jours auparavant. Depuis la veille, la mère a remplacé les biberons de lait par de l'eau sucrée et du thé.",
+      "symptomes": "8 à 10 selles liquides par jour sans sang, vomissements alimentaires, fièvre à 38,8 °C, diminution nette des couches mouillées.",
+      "examen_clinique": "Poids 7,8 kg. Somnolent mais réactif, hypotonique. Yeux très enfoncés, fontanelle déprimée, pli cutané persistant > 2 s, muqueuses sèches. FC 178/min, TRC 4 s, extrémités froides, pouls filants. FR 52/min, respiration ample. Pas de purpura, nuque souple, abdomen souple.",
+      "biologie": "Glycémie capillaire 3,6 mmol/L (N 3,9–5,5). Na 126 mmol/L (N 135–145), K 3,1 mmol/L (N 3,5–5), Cl 98 mmol/L, HCO3- 12 mmol/L (N 22–26), urée 11 mmol/L (N 2–6), créatinine 58 µmol/L (N 15–35 à cet âge).",
+      "imagerie": "Aucune imagerie nécessaire en première intention.",
+      "hypotheses_diagnostiques": [
+        "Déshydratation aiguë sévère avec signes de choc compliquant une gastro-entérite aiguë",
+        "Forme hyponatrémique (apports hypotoniques)"
+      ],
+      "diagnostics_differentiels": [
+        "Sepsis ou méningite",
+        "Invagination intestinale aiguë",
+        "Acidocétose diabétique",
+        "Insuffisance surrénale aiguë"
+      ],
+      "examens_a_demander": [
+        "Ionogramme sanguin, glycémie, urée-créatinine, gaz du sang",
+        "Bandelette urinaire",
+        "Contrôles ioniques à H4–H6"
+      ],
+      "diagnostic_final": "Déshydratation aiguë sévère hyponatrémique avec choc hypovolémique et insuffisance rénale fonctionnelle, sur gastro-entérite aiguë probablement virale.",
+      "traitement": "Oxygène, voie veineuse (intra-osseuse si échec), remplissage par Ringer lactate selon le plan C de l'OMS (30 mL/kg en 1 h puis 70 mL/kg en 5 h chez le nourrisson < 12 mois) avec réévaluation toutes les 15 minutes ; apport glucosé ; potassium après reprise de la diurèse ; relais par SRO à osmolarité réduite dès que l'enfant boit ; zinc 20 mg/j pendant 10 à 14 jours ; reprise du lait habituel non dilué.",
+      "surveillance": "Conscience, FC, TRC, FR, diurèse, poids à H4–H6, ionogramme à H4–H6 puis toutes les 6–12 h, signes de surcharge.",
+      "evolution": "TRC à 2 s et FC à 150/min après 1 h ; miction à H2 ; SRO bu à H4 ; à H6 : 8,4 kg, natrémie 133 mmol/L, plus de signe de déshydratation : passage au plan A.",
+      "explication_pedagogique": "La perte de poids calculée (≈ 9 %) sous-estime la gravité : les signes de choc imposent le plan C. Les boissons hypotoniques (eau sucrée, thé) pendant une diarrhée riche en sodium favorisent l'hyponatrémie, qui majore la déshydratation extracellulaire. Il faut réévaluer et reclasser à chaque étape.",
+      "questions": [
+        {
+          "question": "Quelle est la gravité de la déshydratation ?",
+          "reponse": "Sévère avec choc (TRC 4 s, extrémités froides, somnolence) : plan C."
+        },
+        {
+          "question": "Quel mécanisme explique l'hyponatrémie ?",
+          "reponse": "Pertes sodées digestives compensées par des boissons hypotoniques (eau sucrée, thé)."
+        },
+        {
+          "question": "Quand ajouter le potassium ?",
+          "reponse": "Après la reprise de la diurèse."
+        },
+        {
+          "question": "Quels messages éducatifs donner ?",
+          "reponse": "SRO après chaque selle liquide (50–100 mL), ne pas remplacer le lait par de l'eau sucrée ou du thé, signes d'alerte."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. The treatment of diarrhoea, 4e révision (non vérifiée en session)",
+          "date": "2005"
+        },
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-PEDI-0002",
+      "titre": "Irritabilité et convulsion chez un nourrisson de 2 mois déshydraté en période de canicule",
+      "niveau": "dems",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille de 2 mois, nourrie au lait artificiel.",
+      "motif_consultation": "Diarrhée depuis 3 jours, fièvre, cri inhabituel et un épisode de mouvements cloniques du membre supérieur droit.",
+      "antecedents": "Née à terme, 3 000 g. Pour « mieux la nourrir », les parents ajoutent une mesurette supplémentaire dans chaque biberon depuis 2 semaines. Canicule, enfant couverte.",
+      "symptomes": "Selles liquides (6/j), fièvre à 39 °C, boit avidement, irritabilité, cri aigu.",
+      "examen_clinique": "Poids 4,3 kg (4,8 kg 5 jours avant). Irritable, hypertonique, cri aigu ; fontanelle normotendue à légèrement déprimée ; muqueuses très sèches ; peau pâteuse ; pli cutané peu marqué ; FC 170/min ; TRC 2 s ; température 38,9 °C.",
+      "biologie": "Na 164 mmol/L (N 135–145), K 4,6 mmol/L, Cl 128 mmol/L, HCO3- 17 mmol/L, glycémie 9,2 mmol/L, calcémie 2,02 mmol/L (N 2,2–2,6), urée 14 mmol/L, créatinine 62 µmol/L. Osmolalité calculée ≈ 351 mOsm/kg.",
+      "imagerie": "Échographie transfontanellaire : pas d'hémorragie visible ; IRM à discuter si signes focaux persistants.",
+      "hypotheses_diagnostiques": [
+        "Déshydratation hypernatrémique (≈ 10 %) avec convulsion",
+        "Rôle des biberons trop concentrés, de la fièvre et de la chaleur"
+      ],
+      "diagnostics_differentiels": [
+        "Méningite bactérienne",
+        "Thrombose veineuse cérébrale",
+        "Hémorragie intracrânienne (y compris traumatique)",
+        "Hypocalcémie, hypoglycémie"
+      ],
+      "examens_a_demander": [
+        "Ionogramme toutes les 4 h au début",
+        "Calcémie, glycémie",
+        "Ponction lombaire si l'état le permet (fièvre + convulsion)",
+        "Imagerie cérébrale si signes focaux"
+      ],
+      "diagnostic_final": "Déshydratation aiguë hypernatrémique (Na 164 mmol/L) compliquée d'une convulsion, favorisée par des biberons trop concentrés.",
+      "traitement": "Pas de choc : correction lente du déficit sur 48 heures, de préférence par voie entérale (SRO par sonde nasogastrique à débit régulier) ou par soluté isotonique glucosé IV ; objectif de baisse de la natrémie ≤ 10–12 mmol/L par 24 h ; correction de l'hypocalcémie si symptomatique ; antibiothérapie probabiliste jusqu'aux résultats de la PL si elle est indiquée ; reprise d'un lait correctement reconstitué.",
+      "surveillance": "Natrémie, glycémie, calcémie toutes les 4–6 h, poids, diurèse, état neurologique (toute convulsion pendant la correction fait suspecter un œdème cérébral).",
+      "evolution": "Natrémie 157 à H12, 152 à H24, 144 à H48 ; pas de nouvelle convulsion ; examen neurologique normal à la sortie ; suivi neurodéveloppemental programmé.",
+      "explication_pedagogique": "Dans l'hypernatrémie, le pli cutané est peu marqué et les signes neurologiques dominent. Le cerveau s'est adapté (osmoles idiogéniques) : une correction rapide expose à l'œdème cérébral. L'erreur de reconstitution des biberons est une cause classique à rechercher par l'interrogatoire.",
+      "questions": [
+        {
+          "question": "Pourquoi la gravité est-elle sous-estimée ?",
+          "reponse": "Le secteur extracellulaire est relativement préservé ; le pli est peu marqué."
+        },
+        {
+          "question": "Quelle vitesse de correction ?",
+          "reponse": "Baisse de la natrémie ≤ 10–12 mmol/L par 24 h, déficit corrigé sur 48 h."
+        },
+        {
+          "question": "Quelle erreur de puériculture rechercher ?",
+          "reponse": "Biberons trop concentrés (une mesurette rase pour 30 mL d'eau pour la plupart des laits)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "ESPGHAN/ESPID — gastro-entérite aiguë de l'enfant, JPGN 2014;59:132-152 (non vérifiée en session)",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-PEDI-0003",
+      "titre": "Rattrapage vaccinal d'une enfant de 13 mois dont le frère est sous chimiothérapie",
+      "niveau": "generaliste",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille de 13 mois.",
+      "motif_consultation": "Rhinopharyngite fébrile ; vaccins de 11 et 12 mois non faits.",
+      "antecedents": "BCG et hépatite B à la naissance ; hexavalent + pneumocoque (+ VPO à 4 mois) faits à 2 et 4 mois. Fièvre à 38,5 °C et douleur de cuisse 24 h après la dose de 4 mois. Frère de 5 ans traité par chimiothérapie pour leucémie aiguë lymphoblastique.",
+      "symptomes": "Rhinorrhée claire, fièvre à 38,2 °C depuis 24 h, bon état général.",
+      "examen_clinique": "Enfant joueuse, tympans normaux, auscultation normale, cicatrice de BCG présente, croissance harmonieuse.",
+      "biologie": "Aucune biologie nécessaire.",
+      "imagerie": "Aucune.",
+      "hypotheses_diagnostiques": [
+        "Rhinopharyngite virale bénigne",
+        "Retard de calendrier vaccinal"
+      ],
+      "diagnostics_differentiels": [
+        "Otite moyenne aiguë (éliminée par l'examen)"
+      ],
+      "examens_a_demander": [
+        "Aucun examen avant vaccination"
+      ],
+      "diagnostic_final": "Enfant en retard de calendrier, sans contre-indication vraie, vivant au contact d'un immunodéprimé.",
+      "traitement": "Vacciner le jour même (co-administration, sites différents) : ROR (1re dose), rappel hexavalent (DTCa-VPI-Hib-VHB) et pneumococcique de 12 mois ; ne pas administrer le VPO (excrétion du virus vaccinal, risque pour le frère immunodéprimé), la protection antipoliomyélitique étant assurée par le VPI ; ROR2 programmé à 18 mois (≥ 4 semaines d'intervalle) ; antipyrétique si fièvre mal tolérée.",
+      "surveillance": "Observation 15–30 min ; information sur la fièvre possible à 48 h (hexavalent) et entre J5 et J12 (ROR).",
+      "evolution": "Fièvre à 38,4 °C le lendemain, résolutive ; éruption discrète à J8 sans complication ; ROR2 fait à 18 mois.",
+      "explication_pedagogique": "Rhinopharyngite fébrile, réaction locale antérieure et « enfant souvent malade » sont de fausses contre-indications. Le VPO est contre-indiqué en cas d'immunodépression de l'enfant ou de son entourage ; le ROR de l'enfant est au contraire recommandé pour protéger le frère (cocooning).",
+      "questions": [
+        {
+          "question": "La rhinopharyngite contre-indique-t-elle la vaccination ?",
+          "reponse": "Non, maladie bénigne : vacciner."
+        },
+        {
+          "question": "Quels vaccins sont dus à 13 mois selon le calendrier algérien ?",
+          "reponse": "ROR1 (11 mois) et rappel hexavalent + pneumocoque + VPO (12 mois)."
+        },
+        {
+          "question": "Pourquoi éviter le VPO ici ?",
+          "reponse": "Le virus vaccinal est excrété et peut infecter le frère immunodéprimé."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "Arrêté du 28 avril 2026 complétant l'arrêté du 3 juillet 2018, JORADP n° 36 du 17 mai 2026 (DOC-00071)",
+          "date": "2026"
+        },
+        {
+          "reference": "CDC/ACIP. General Best Practice Guidelines for Immunization (non vérifiée en session)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-PEDI-0004",
+      "titre": "BCG à la maternité chez un nouveau-né dont le frère est décédé d'une infection disséminée",
+      "niveau": "residanat",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-070"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nouveau-né de sexe masculin, J1, parents cousins germains.",
+      "motif_consultation": "Vaccinations de naissance avant la sortie de maternité.",
+      "antecedents": "Un frère aîné décédé à 7 mois d'une « tuberculose généralisée » apparue après le BCG, avec infections pulmonaires répétées et diarrhée chronique ; aucune exploration immunologique réalisée. Grossesse normale, mère AgHBs négative.",
+      "symptomes": "Aucun.",
+      "examen_clinique": "Nouveau-né à terme, eutrophe, examen normal.",
+      "biologie": "NFS de contrôle demandée : lymphocytes 1 100/mm3 (valeurs usuelles néonatales nettement plus élevées, > 2 500–3 000/mm3).",
+      "imagerie": "Aucune.",
+      "hypotheses_diagnostiques": [
+        "Déficit immunitaire primitif familial (déficit immunitaire combiné sévère ou déficit de l'axe IL-12/IFN-γ)",
+        "BCGite disséminée chez le frère"
+      ],
+      "diagnostics_differentiels": [
+        "Lymphopénie transitoire (stress, infection)",
+        "Tuberculose congénitale (contexte maternel)"
+      ],
+      "examens_a_demander": [
+        "Immunophénotypage lymphocytaire (CD3, CD4, CD8, CD19, NK)",
+        "Dosage pondéral des immunoglobulines",
+        "Avis d'immunologie pédiatrique",
+        "Enquête génétique familiale"
+      ],
+      "diagnostic_final": "Suspicion de déficit immunitaire primitif sévère : contre-indication du BCG et des vaccins vivants dans l'attente du bilan.",
+      "traitement": "Différer le BCG (et ne pas administrer de VPO) ; administrer le vaccin contre l'hépatite B (inactivé, recombinant) ; vaccins inactivés selon le calendrier ; orientation vers un centre d'immunologie ; information de la famille ; signaler le contexte dans le carnet.",
+      "surveillance": "Croissance, infections, résultats du bilan immunologique ; produits sanguins irradiés si transfusion nécessaire.",
+      "evolution": "L'immunophénotypage confirme un déficit immunitaire combiné sévère ; l'enfant est orienté vers une greffe de cellules souches hématopoïétiques ; le BCG est définitivement contre-indiqué jusqu'à la reconstitution immunitaire.",
+      "explication_pedagogique": "Le BCG systématique à la naissance (arrêté du 3 juillet 2018) ne doit pas faire oublier ses contre-indications : un antécédent familial de déficit immunitaire ou de BCGite disséminée, surtout en contexte de consanguinité, impose de différer le BCG et les vaccins vivants et d'explorer l'immunité.",
+      "questions": [
+        {
+          "question": "Quel vaccin de naissance administrer ?",
+          "reponse": "Le vaccin contre l'hépatite B (inactivé) ; différer le BCG."
+        },
+        {
+          "question": "Quel examen simple oriente vers un déficit combiné sévère ?",
+          "reponse": "La lymphocytose totale (lymphopénie profonde)."
+        },
+        {
+          "question": "Quelle complication du BCG est évocatrice d'un déficit immunitaire ?",
+          "reponse": "La BCGite disséminée."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. BCG vaccines: WHO position paper (non vérifiée en session)",
+          "date": "2018"
+        },
+        {
+          "reference": "CDC/ACIP. General Best Practice Guidelines for Immunization (non vérifiée en session)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-PEDI-0005",
+      "titre": "Œdèmes et lésions cutanées chez une enfant de 22 mois sevrée brutalement",
+      "niveau": "residanat",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille de 22 mois.",
+      "motif_consultation": "Œdèmes des membres inférieurs depuis 10 jours.",
+      "antecedents": "Sevrage brutal à 18 mois à la naissance d'un cadet ; alimentation depuis à base de pain trempé dans du thé sucré et de bouillies de semoule ; diarrhée il y a 3 semaines ; ROR de 18 mois non fait.",
+      "symptomes": "Apathie, anorexie, irritabilité au toucher, œdèmes.",
+      "examen_clinique": "Poids 8,9 kg, taille 79 cm, PB 118 mm, température rectale 35,8 °C, FC 128/min, FR 34/min. Œdèmes bilatéraux prenant le godet des pieds, jambes et avant-bras (++), visage bouffi ; cheveux clairsemés et décolorés ; plaques hyperpigmentées desquamatives des cuisses et du siège ; hépatomégalie à 3 cm ; refus de l'ATPE au test d'appétit.",
+      "biologie": "Glycémie capillaire 2,8 mmol/L (N > 3,9). Albumine 18 g/L (N 35–50). Na 131 mmol/L, K 2,9 mmol/L (N 3,5–5), phosphore 1,1 mmol/L (N 1,3–2,1), Mg 0,62 mmol/L (N 0,7–1). Hb 8,9 g/dL. CRP 24 mg/L. Bandelette urinaire : protéinurie négative.",
+      "imagerie": "Radiographie thoracique : pas de foyer.",
+      "hypotheses_diagnostiques": [
+        "Malnutrition aiguë sévère œdémateuse (kwashiorkor) compliquée"
+      ],
+      "diagnostics_differentiels": [
+        "Syndrome néphrotique (protéinurie négative)",
+        "Insuffisance cardiaque",
+        "Entéropathie exsudative",
+        "Insuffisance hépatocellulaire"
+      ],
+      "examens_a_demander": [
+        "Hémoculture, ECBU",
+        "Recherche de tuberculose",
+        "Examen parasitologique des selles",
+        "Sérologie VIH selon le contexte",
+        "Surveillance phosphore, potassium, magnésium"
+      ],
+      "diagnostic_final": "Kwashiorkor (MAS œdémateuse ++) compliqué d'hypoglycémie, d'hypothermie limite et d'échec du test d'appétit.",
+      "traitement": "Protocole OMS en 10 étapes : 50 mL de glucose 10 % per os/sonde puis F-75 toutes les 2 h jour et nuit (130 mL/kg/j ; 100 mL/kg/j si les œdèmes deviennent +++) ; réchauffement (peau à peau) ; antibiothérapie systématique (ampicilline puis amoxicilline + gentamicine, posologies à vérifier) ; pas de diurétique, pas de perfusion, pas de fer en stabilisation ; acide folique, micronutriments ; vaccination ROR ; transition F-100/ATPE au retour de l'appétit.",
+      "surveillance": "Poids quotidien, stade des œdèmes, température, FC/FR toutes les 4 h, glycémie, ionogramme, phosphore, apports à chaque repas.",
+      "evolution": "Appétit revenu à J4, fonte des œdèmes (poids 8,3 kg à J5) ; gain de 12 g/kg/j en réhabilitation ; sortie vers le suivi ambulatoire avec ATPE ; guérison (PB ≥ 125 mm, absence d'œdèmes depuis 2 semaines) à S7.",
+      "explication_pedagogique": "Les œdèmes définissent la MAS quel que soit le P/T ; hypoglycémie et hypothermie sont des urgences silencieuses ; la perte de poids initiale par fonte des œdèmes n'est pas un échec ; la bandelette urinaire écarte le syndrome néphrotique.",
+      "questions": [
+        {
+          "question": "Pourquoi le poids est-il trompeur ?",
+          "reponse": "Les œdèmes majorent le poids."
+        },
+        {
+          "question": "Pourquoi pas de diurétique ?",
+          "reponse": "Les œdèmes se résorbent avec la renutrition ; les diurétiques aggravent les troubles électrolytiques et l'hypovolémie."
+        },
+        {
+          "question": "Quel examen simple élimine un syndrome néphrotique ?",
+          "reponse": "La bandelette urinaire (protéinurie)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "OMS. Updates on the management of severe acute malnutrition (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "OMS. Pocket book of hospital care for children, 2e éd. (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire, JORADP n° 49 du 8 août 2018 (DOC-00070)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-PEDI-0006",
+      "titre": "Marasme d'un nourrisson de 10 mois et détresse respiratoire au troisième jour de renutrition",
+      "niveau": "dems",
+      "specialite": "PEDI",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon de 10 mois, famille en grande précarité.",
+      "motif_consultation": "Amaigrissement important et diarrhée prolongée.",
+      "antecedents": "Allaitement arrêté à 2 mois ; laits artificiels dilués « pour faire durer la boîte » ; diarrhées répétées.",
+      "symptomes": "Diarrhée depuis 3 semaines, enfant affamé, pleurs.",
+      "examen_clinique": "Poids 5,4 kg, longueur 70 cm (P/T < −3 z), PB 104 mm, pas d'œdème ; fonte musculaire et graisseuse extrême, « fesses en culotte flottante », faciès de vieillard ; température rectale 35,3 °C ; FC 132/min ; FR 36/min ; enfant éveillé.",
+      "biologie": "Glycémie 2,9 mmol/L (N > 3,9). Na 133 mmol/L, K 3,0 mmol/L, phosphore 1,0 mmol/L (N 1,3–2,1), Mg 0,66 mmol/L. Hb 9,4 g/dL. À J3 : phosphore 0,45 mmol/L, K 2,6 mmol/L.",
+      "imagerie": "Radiographie thoracique à J3 : cardiomégalie modérée, surcharge vasculaire discrète.",
+      "hypotheses_diagnostiques": [
+        "Marasme (MAS non œdémateuse) compliqué d'hypothermie et d'hypoglycémie",
+        "À J3 : syndrome de renutrition inappropriée avec surcharge"
+      ],
+      "diagnostics_differentiels": [
+        "Malnutrition secondaire (maladie cœliaque, mucoviscidose, infection chronique, VIH, tuberculose)",
+        "Pneumopathie nosocomiale",
+        "Insuffisance cardiaque d'autre origine"
+      ],
+      "examens_a_demander": [
+        "Phosphore, potassium, magnésium quotidiens les premiers jours",
+        "Hémoculture, ECBU",
+        "Recherche de tuberculose, sérologie VIH selon contexte",
+        "Test de la sueur à distance si suspicion",
+        "Anticorps anti-transglutaminase si gluten introduit"
+      ],
+      "diagnostic_final": "Marasme compliqué ; syndrome de renutrition (hypophosphatémie, hypokaliémie) avec surcharge volémique à J3, favorisé par une augmentation trop rapide des apports.",
+      "traitement": "Stabilisation : correction de l'hypoglycémie, réchauffement, F-75, antibiothérapie, ReSoMal si déshydratation. À J3 : réduction des apports au niveau F-75 de départ, arrêt des apports liquidiens supplémentaires, supplémentation en phosphore et potassium selon protocole, thiamine (posologies à vérifier), puis reprise progressive ; transition F-100/ATPE une fois stabilisé.",
+      "surveillance": "FR et FC toutes les 4 h (alerte : FR + 5/min, FC + 25/min), poids, œdèmes, électrolytes quotidiens, glycémie.",
+      "evolution": "Normalisation du phosphore à J5 ; reprise de la progression ; gain de 11 g/kg/j en réhabilitation ; éducation nutritionnelle et orientation sociale.",
+      "explication_pedagogique": "L'adaptation réductive impose une renutrition prudente : une augmentation trop rapide provoque un syndrome de renutrition (hypophosphatémie, hypokaliémie, rétention hydrosodée, insuffisance cardiaque). La surveillance de la FR et de la FC pendant la transition est un outil simple de détection.",
+      "questions": [
+        {
+          "question": "Quels signes cliniques alertent sur une surcharge pendant la transition ?",
+          "reponse": "Augmentation de la FR ≥ 5/min et de la FC ≥ 25/min, œdèmes, hépatomégalie, crépitants."
+        },
+        {
+          "question": "Quel trouble biologique caractérise le syndrome de renutrition ?",
+          "reponse": "L'hypophosphatémie (avec hypokaliémie, hypomagnésémie)."
+        },
+        {
+          "question": "Quelle cause secondaire de marasme rechercher au Maghreb ?",
+          "reponse": "Notamment la maladie cœliaque (et mucoviscidose, tuberculose, VIH)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Management of severe malnutrition (non vérifiée en session)",
+          "date": "1999"
+        },
+        {
+          "reference": "OMS. Updates on the management of severe acute malnutrition (non vérifiée en session)",
+          "date": "2013"
+        },
+        {
+          "reference": "Mehanna HM et al. Refeeding syndrome, BMJ 2008 (non vérifiée en session)",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-NEON-0001",
+      "titre": "Ictère à 20 heures de vie chez un nouveau-né à terme",
+      "niveau": "residanat",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nouveau-né de sexe masculin, 39 SA, 3 350 g, allaitement exclusif.",
+      "motif_consultation": "Ictère du visage et du thorax noté à 20 heures de vie.",
+      "antecedents": "Mère O Rh positif, RAI négatives ; grossesse et accouchement normaux ; Apgar 9/10.",
+      "symptomes": "Ictère ; tétées efficaces.",
+      "examen_clinique": "Ictère jusqu'à l'ombilic, pas de pâleur, foie à 2 cm, rate non palpable, pas de céphalhématome, examen neurologique normal.",
+      "biologie": "Bilirubine totale 10,5 mg/dL (≈ 180 µmol/L) à 20 h. Enfant A Rh positif. Coombs direct faiblement positif. Hb 14,2 g/dL (N 14–22), réticulocytes 9 % (N 3–7), microsphérocytes. G6PD normale (à recontrôler à distance). Bilirubine conjuguée 0,4 mg/dL.",
+      "imagerie": "Aucune.",
+      "hypotheses_diagnostiques": [
+        "Maladie hémolytique par incompatibilité ABO"
+      ],
+      "diagnostics_differentiels": [
+        "Déficit en G6PD",
+        "Sphérocytose héréditaire",
+        "Infection néonatale",
+        "Autre allo-immunisation (anticorps irréguliers)"
+      ],
+      "examens_a_demander": [
+        "Bilirubine sérique à 4–6 h",
+        "NFS, réticulocytes de contrôle",
+        "Albuminémie",
+        "G6PD à distance"
+      ],
+      "diagnostic_final": "Hyperbilirubinémie non conjuguée précoce par incompatibilité ABO (mère O, enfant A), facteur de risque de neurotoxicité.",
+      "traitement": "Photothérapie intensive immédiate (≥ 30 µW/cm²/nm, surface maximale, protection oculaire), allaitement maintenu ; contrôle de la bilirubine à 4–6 h ; IgIV 0,5–1 g/kg en 2 h si la bilirubine continue de monter et atteint le seuil d'escalade (posologie à vérifier) ; préparation d'une exsanguinotransfusion si le seuil est atteint.",
+      "surveillance": "Bilirubine sérique selon la cinétique, température, hydratation, poids ; contrôle du rebond après arrêt ; NFS à 2–3 semaines (anémie tardive).",
+      "evolution": "Bilirubine 11,2 mg/dL à 26 h puis 10,1 à 40 h ; arrêt à 60 h (8,6 mg/dL) ; rebond à 9,4 mg/dL ; sortie à J4 avec consultation à J5–J6.",
+      "explication_pedagogique": "Tout ictère avant 24 h est pathologique et impose un bilan d'hémolyse. L'incompatibilité ABO peut survenir dès le premier enfant, avec un Coombs direct faiblement positif. Les seuils dépendent de l'âge en heures, de l'âge gestationnel et des facteurs de neurotoxicité (iso-immunisation).",
+      "questions": [
+        {
+          "question": "L'ictère est-il physiologique ?",
+          "reponse": "Non : apparu avant 24 h."
+        },
+        {
+          "question": "Quels arguments pour l'incompatibilité ABO ?",
+          "reponse": "Mère O, enfant A, Coombs faiblement positif, microsphérocytes, réticulocytose."
+        },
+        {
+          "question": "Quand discuter les IgIV ?",
+          "reponse": "Si la bilirubine augmente malgré la photothérapie intensive et approche du seuil d'exsanguinotransfusion."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "AAP. Hyperbilirubinemia ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Kemper AR et al. AAP 2022 revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-NEON-0002",
+      "titre": "Nouveau-né de 5 jours très ictérique et hypertonique après une sortie précoce",
+      "niveau": "dems",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nouveau-né de sexe masculin, 38 SA, 3 050 g, sorti de maternité à 36 heures de vie.",
+      "motif_consultation": "Ictère intense, refus de téter et cri inhabituel à J5.",
+      "antecedents": "Allaitement exclusif ; un oncle maternel « allergique aux fèves » ; la mère a consommé des fèves la veille ; vêtements de l'enfant rangés avec de la naphtaline. Aucune mesure de bilirubine avant la sortie.",
+      "symptomes": "Ictère généralisé, somnolence alternant avec irritabilité, cri aigu, refus de téter depuis quelques heures.",
+      "examen_clinique": "Ictère jusqu'aux paumes et plantes, pâleur modérée ; hypertonie des extenseurs avec rétrocolis intermittent ; température 38,2 °C ; perte de poids 9 % ; selles colorées.",
+      "biologie": "Bilirubine totale 27,5 mg/dL (≈ 470 µmol/L), conjuguée 0,6 mg/dL. Hb 11,8 g/dL, réticulocytes 6 %. Coombs direct négatif. Albumine 2,9 g/dL. Groupes mère et enfant O Rh positif. Activité G6PD dans les limites basses de la normale (prélevée en pleine hémolyse).",
+      "imagerie": "IRM cérébrale à distance si séquelles suspectées (hypersignal des globus pallidus).",
+      "hypotheses_diagnostiques": [
+        "Hyperbilirubinémie sévère avec encéphalopathie bilirubinique aiguë de phase intermédiaire",
+        "Hémolyse sur déficit en G6PD (fèves, naphtaline)"
+      ],
+      "diagnostics_differentiels": [
+        "Méningite/sepsis",
+        "Sphérocytose héréditaire",
+        "Crigler-Najjar",
+        "Déshydratation par apports insuffisants associée"
+      ],
+      "examens_a_demander": [
+        "Bilirubine sérique toutes les 2–3 h",
+        "Bilan infectieux (hémoculture, CRP ; PL après stabilisation)",
+        "Dosage quantitatif de la G6PD à distance (≥ 2–3 mois)",
+        "Potentiels évoqués auditifs avant la sortie"
+      ],
+      "diagnostic_final": "Encéphalopathie bilirubinique aiguë sur hyperbilirubinémie extrême par hémolyse liée à un déficit probable en G6PD, aggravée par des apports insuffisants et une sortie précoce sans dépistage.",
+      "traitement": "Photothérapie intensive immédiate et continue, hydratation (IV si nécessaire), exsanguinotransfusion en urgence (double masse sanguine, sang irradié compatible) devant les signes neurologiques, sans attendre la baisse de la bilirubine ; antibiothérapie probabiliste jusqu'aux résultats du bilan infectieux en évitant la ceftriaxone ; éducation sur les facteurs déclenchants du déficit en G6PD.",
+      "surveillance": "Bilirubine, glycémie, calcémie, plaquettes pendant et après l'exsanguinotransfusion ; examen neurologique ; dépistage auditif ; suivi neurodéveloppemental prolongé.",
+      "evolution": "Bilirubine 13 mg/dL après l'exsanguinotransfusion ; disparition progressive de l'hypertonie ; PEA anormaux à droite ; suivi en neuropédiatrie et ORL ; déficit en G6PD confirmé à 3 mois.",
+      "explication_pedagogique": "L'absence d'évaluation du risque avant une sortie précoce et de suivi rapproché est la principale cause évitable d'ictère nucléaire. Les signes d'encéphalopathie intermédiaire imposent l'exsanguinotransfusion. Le dosage de G6PD peut être faussement normal pendant l'hémolyse.",
+      "questions": [
+        {
+          "question": "Quels signes d'encéphalopathie bilirubinique sont présents ?",
+          "reponse": "Cri aigu, hypertonie avec rétrocolis, fièvre, refus de téter (phase intermédiaire)."
+        },
+        {
+          "question": "Pourquoi l'exsanguinotransfusion est-elle indiquée ?",
+          "reponse": "Bilirubine au-dessus du seuil et signes neurologiques d'encéphalopathie aiguë."
+        },
+        {
+          "question": "Quelles mesures auraient pu prévenir cette situation ?",
+          "reponse": "Mesure de la bilirubine avant la sortie, évaluation du risque (antécédent familial de G6PD), suivi dans les 24–72 h, information sur les facteurs déclenchants."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "AAP. Hyperbilirubinemia ≥35 weeks, Pediatrics 2004;114:297-316 (non vérifiée en session)",
+          "date": "2004"
+        },
+        {
+          "reference": "Kemper AR et al. AAP 2022 revision, Pediatrics 2022;150(3):e2022058859 (non vérifiée en session)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-NEON-0003",
+      "titre": "Geignement et tachycardie à 5 heures de vie chez un nouveau-né de mère porteuse de streptocoque B",
+      "niveau": "residanat",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : nouveau-né de sexe masculin, 38 SA, 3 200 g.",
+      "motif_consultation": "Geignement et polypnée à H5.",
+      "antecedents": "Mère primipare, prélèvement vaginal positif à SGB à 36 SA ; amoxicilline IV débutée 45 minutes avant la naissance ; rupture des membranes depuis 20 heures ; température maternelle maximale 38,4 °C.",
+      "symptomes": "Geignement, polypnée, difficultés à téter.",
+      "examen_clinique": "FR 72/min, tirage modéré, SpO2 91 % en air, FC 178/min, TRC 3 s, température 38,1 °C, tonus correct, fontanelle normotendue.",
+      "biologie": "CRP 8 mg/L à H0 (N < 10), 64 mg/L à H24, 21 mg/L à J4. Hémoculture positive à SGB à H18. LCR à H20 : 8 éléments/mm3, protéines 0,9 g/L, glucose normal, culture et PCR négatives. Glycémie 3,1 mmol/L.",
+      "imagerie": "Radiographie thoracique : opacités alvéolaires bilatérales discrètes.",
+      "hypotheses_diagnostiques": [
+        "Infection néonatale précoce à streptocoque du groupe B (pneumopathie, bactériémie)"
+      ],
+      "diagnostics_differentiels": [
+        "Retard de résorption du liquide pulmonaire",
+        "Maladie des membranes hyalines (peu probable à 38 SA)",
+        "Inhalation méconiale",
+        "Cardiopathie congénitale"
+      ],
+      "examens_a_demander": [
+        "Hémoculture (≥ 1 mL) avant antibiotiques",
+        "CRP H0 et H24–H48",
+        "Ponction lombaire dès stabilisation",
+        "Radiographie thoracique",
+        "Glycémie, gaz du sang"
+      ],
+      "diagnostic_final": "Bactériémie précoce à streptocoque B avec pneumopathie, sans méningite, chez un nouveau-né dont la mère porteuse de SGB n'a pas reçu d'antibioprophylaxie adéquate.",
+      "traitement": "Oxygénothérapie/ventilation non invasive, voie veineuse, apports glucosés ; hémoculture puis antibiothérapie immédiate amoxicilline + gentamicine (HAS 2017), céfotaxime discuté si aggravation ; après documentation : amoxicilline seule pour une durée totale d'environ 10 jours (à vérifier selon protocole) ; arrêt de la gentamicine.",
+      "surveillance": "Clinique rapprochée, SpO2, CRP, hémoculture de contrôle si nécessaire, taux résiduels de gentamicine, dépistage auditif.",
+      "evolution": "Amélioration en 48 heures, sevrage de l'oxygène à J3, sortie à J11.",
+      "explication_pedagogique": "Antibioprophylaxie inadéquate (< 4 h), rupture prolongée et fièvre maternelle forment un contexte à haut risque. La CRP initiale normale ne rassure pas ; l'hémoculture est l'examen clé et la PL est indispensable en cas de bactériémie. L'antécédent d'enfant infecté justifiera une antibioprophylaxie lors des accouchements suivants.",
+      "questions": [
+        {
+          "question": "L'antibioprophylaxie était-elle adéquate ?",
+          "reponse": "Non : débutée moins de 4 heures avant la naissance."
+        },
+        {
+          "question": "Pourquoi réaliser une PL ?",
+          "reponse": "Hémoculture positive : rechercher une méningite qui modifierait la posologie et la durée."
+        },
+        {
+          "question": "Quelle conséquence pour une grossesse ultérieure ?",
+          "reponse": "Antibioprophylaxie per partum systématique (antécédent d'enfant infecté par le SGB)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "HAS. Risque infectieux néonatal bactérien précoce ≥ 34 SA (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "NICE NG195. Neonatal infection (non vérifiée en session)",
+          "date": "2021"
+        },
+        {
+          "reference": "CDC. Prevention of perinatal GBS disease, MMWR 2010 (non vérifiée en session)",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-NEON-0004",
+      "titre": "Fièvre et bombement de la fontanelle chez un nourrisson de 3 semaines",
+      "niveau": "dems",
+      "specialite": "NEON",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fille de 21 jours, née à terme, sortie de maternité à J2.",
+      "motif_consultation": "Fièvre à 38,9 °C, refus de téter, irritabilité depuis 12 heures.",
+      "antecedents": "Grossesse non suivie en fin de terme (pas de dépistage du SGB) ; accouchement par voie basse sans antibioprophylaxie ; allaitement maternel ; pas d'herpès connu dans l'entourage.",
+      "symptomes": "Fièvre, irritabilité, gémissements, deux épisodes de vomissements.",
+      "examen_clinique": "Température 38,9 °C, FC 190/min, TRC 3 s, fontanelle bombante, hypotonie axiale, cri plaintif, pas de lésion cutanée ni de purpura.",
+      "biologie": "CRP 142 mg/L (N < 10), PCT 18 ng/mL (N < 0,5), GB 4 200/mm3, plaquettes 110 000/mm3. LCR : 850 éléments/mm3 (85 % polynucléaires), protéines 2,1 g/L, glycorachie 0,8 mmol/L (glycémie 5,6 mmol/L), cocci Gram positif en chaînettes à l'examen direct ; culture : SGB. ECBU stérile. PCR HSV dans le LCR négative.",
+      "imagerie": "Échographie transfontanellaire à J3 : pas d'abcès ni de dilatation ventriculaire ; IRM à discuter selon l'évolution.",
+      "hypotheses_diagnostiques": [
+        "Méningite bactérienne néonatale tardive à streptocoque B",
+        "Méningo-encéphalite herpétique (à éliminer)"
+      ],
+      "diagnostics_differentiels": [
+        "Méningite à E. coli",
+        "Méningite à Listeria",
+        "Méningite à entérovirus/paréchovirus",
+        "Infection urinaire avec réaction méningée"
+      ],
+      "examens_a_demander": [
+        "Hémocultures avant antibiotiques",
+        "PL (cytologie, biochimie, culture, PCR SGB/E. coli/entérovirus/HSV)",
+        "ECBU par sondage",
+        "Ionogramme (SIADH), glycémie",
+        "Imagerie cérébrale",
+        "Dépistage auditif à distance"
+      ],
+      "diagnostic_final": "Méningite tardive à streptocoque du groupe B.",
+      "traitement": "Antibiothérapie immédiate après prélèvements : amoxicilline à posologie méningée + céfotaxime à posologie méningée (± aminoside initial), avec aciclovir IV jusqu'au résultat négatif de la PCR HSV (posologies à vérifier) ; adaptation au germe : amoxicilline (ou pénicilline) pour au moins 14 jours ; restriction hydrique prudente si SIADH ; traitement des convulsions si besoin.",
+      "surveillance": "Clinique neurologique, périmètre crânien quotidien, natrémie, PL de contrôle selon l'évolution, imagerie cérébrale, potentiels évoqués auditifs, suivi neurodéveloppemental.",
+      "evolution": "Apyrexie à J3 ; échographie de contrôle normale ; arrêt du traitement à J14 ; dépistage auditif normal ; suivi neurodéveloppemental prévu jusqu'à l'âge scolaire.",
+      "explication_pedagogique": "Le SGB tardif (7 jours à 3 mois) se présente fréquemment sous forme de méningite et n'est pas prévenu par l'antibioprophylaxie per partum. L'antibiothérapie probabiliste doit couvrir SGB, E. coli et Listeria, et l'herpès néonatal doit être évoqué tant que la PCR n'est pas revenue.",
+      "questions": [
+        {
+          "question": "Pourquoi associer amoxicilline et céfotaxime en probabiliste ?",
+          "reponse": "Couvrir SGB, Listeria (amoxicilline) et E. coli (céfotaxime) à posologie méningée."
+        },
+        {
+          "question": "Quelle durée pour une méningite à SGB ?",
+          "reponse": "Au moins 14 jours."
+        },
+        {
+          "question": "Quelles séquelles dépister ?",
+          "reponse": "Surdité, épilepsie, hydrocéphalie, troubles du développement."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "NICE NG195. Neonatal infection (non vérifiée en session)",
+          "date": "2021"
+        },
+        {
+          "reference": "HAS. Risque infectieux néonatal bactérien précoce ≥ 34 SA (non vérifiée en session)",
+          "date": "2017"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 (MDO), JORADP n° 47 (DOC-00072)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-05",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-05.json"
+    },
+    {
+      "id": "CAS-NEUR-0001",
+      "titre": "Aphasie et hémiplégie droite brutales chez un homme de 66 ans",
+      "niveau": "residanat",
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme de 66 ans, retraité, droitier, 80 kg, vivant avec son épouse, autonome (mRS 0).",
+      "motif_consultation": "Installation brutale à 9 h 40, devant son épouse, d'un trouble de la parole et d'une faiblesse du côté droit. Appel immédiat des secours ; arrivée aux urgences d'un centre disposant d'une unité neurovasculaire à 10 h 35.",
+      "antecedents": "Hypertension artérielle traitée par amlodipine ; diabète de type 2 sous metformine ; tabagisme sevré depuis 10 ans. Palpitations épisodiques non explorées. Aucun anticoagulant ni antiagrégant.",
+      "symptomes": "Aphasie globale, impossibilité de lever le bras droit, chute à la marche ; pas de céphalée ni de vomissement ; pas de mouvement anormal.",
+      "examen_clinique": "Vigilant (GCS 13 : Y4 V3 M6 du fait de l'aphasie). PA 192/104 mmHg, FC 112/min irrégulière, SpO2 96 % en air ambiant, température 36,8 °C. Déviation conjuguée du regard vers la gauche, hémianopsie latérale homonyme droite, paralysie faciale centrale droite, hémiplégie droite à prédominance brachio-faciale, aphasie globale. NIHSS 17.",
+      "biologie": "Glycémie capillaire 1,32 g/L (7,3 mmol/L). Plaquettes 245 000/mm³ (150 000–400 000) ; INR 1,0 ; TCA ratio 1,05 ; créatininémie 9 mg/L (88 µmol/L) ; troponine dans les normes. Ces résultats (hors glycémie) sont rendus après le début du traitement.",
+      "imagerie": "Scanner sans injection à 10 h 44 : pas d'hémorragie, perte de différenciation du ruban insulaire gauche, ASPECTS 8, artère sylvienne gauche hyperdense. Angioscanner : occlusion du segment M1 de l'artère cérébrale moyenne gauche, collatéralité correcte. ECG : fibrillation atriale à 110/min.",
+      "hypotheses_diagnostiques": [
+        "Infarctus cérébral sylvien gauche par occlusion M1",
+        "Mécanisme cardio-embolique sur fibrillation atriale méconnue"
+      ],
+      "diagnostics_differentiels": [
+        "Hémorragie intracérébrale (éliminée par le scanner)",
+        "Hypoglycémie (éliminée par la glycémie capillaire)",
+        "Crise d'épilepsie avec déficit post-critique (pas d'argument)"
+      ],
+      "examens_a_demander": [
+        "Scanner sans injection et angioscanner en urgence",
+        "Glycémie capillaire",
+        "ECG",
+        "Bilan d'hémostase, NFS, ionogramme, troponine (sans retarder)",
+        "Scanner de contrôle à 24 h",
+        "Échocardiographie transthoracique",
+        "Monitorage ECG continu"
+      ],
+      "diagnostic_final": "Infarctus cérébral sylvien gauche par occlusion du segment M1, d'origine cardio-embolique sur fibrillation atriale non connue.",
+      "traitement": "Abaissement de la PA sous 185/110 mmHg par un antihypertenseur IV titrable (urapidil ou nicardipine selon protocole). Thrombolyse par ténectéplase 0,25 mg/kg soit 20 mg en bolus unique à 10 h 58 (délai porte-aiguille 23 min). Transfert immédiat vers la neuroradiologie interventionnelle : thrombectomie avec recanalisation complète à 12 h 05. Admission en unité neurovasculaire : PA < 180/105 mmHg pendant 24 h, à jeun jusqu'au test de déglutition, glycémie et température surveillées, compression pneumatique intermittente. Scanner à 24 h : infarctus limité, pas d'hémorragie. Anticoagulant oral direct introduit précocement (délai modulé par la taille de l'infarctus), statine de haute intensité, rééducation.",
+      "surveillance": "NIHSS et PA toutes les 15 minutes pendant 2 h, toutes les 30 minutes pendant 6 h puis toutes les heures jusqu'à 24 h ; arrêt et scanner devant toute aggravation ; monitorage ECG ; glycémie, température, déglutition ; point de ponction fémorale.",
+      "evolution": "NIHSS 6 à 24 h, 3 à la sortie ; aphasie résiduelle légère. mRS 2 à 3 mois sous anticoagulant oral direct.",
+      "explication_pedagogique": "Ce cas illustre la chaîne de survie de l'AVC : reconnaissance par l'entourage, appel des secours, orientation directe vers un centre capable de thrombolyser, imagerie immédiate, thrombolyse rapide puis thrombectomie sans attendre. Seule la glycémie capillaire était indispensable avant la thrombolyse. La fibrillation atriale découverte oriente vers une anticoagulation précoce, préférée aux antiplaquettaires en prévention secondaire. Le ténectéplase en bolus simplifie le transfert.",
+      "questions": [
+        {
+          "question": "Quels éléments rendent ce patient éligible à la thrombolyse ?",
+          "reponse": "Infarctus avec déficit invalidant, délai inférieur à 4,5 heures, absence d'hémorragie, pas d'anticoagulant, glycémie normale, PA ramenée sous 185/110 mmHg."
+        },
+        {
+          "question": "Pourquoi ne pas attendre l'effet de la thrombolyse avant la thrombectomie ?",
+          "reponse": "La recanalisation par la seule thrombolyse est peu fréquente dans les occlusions M1 ; tout délai réduit le bénéfice de la thrombectomie. Les deux traitements sont complémentaires."
+        },
+        {
+          "question": "Quel traitement antithrombotique en prévention secondaire ?",
+          "reponse": "Un anticoagulant oral direct pour la fibrillation atriale, introduit précocement après contrôle de l'imagerie, plutôt qu'un antiplaquettaire."
+        },
+        {
+          "question": "Quel est l'objectif tensionnel après la thrombectomie réussie ?",
+          "reponse": "Maintenir la PA sous 180/105 mmHg (thrombolyse) sans viser une PAS inférieure à 140 mmHg, cible basse non recommandée par l'AHA/ASA 2026."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "AHA/ASA 2026 acute ischemic stroke guideline (Prabhakaran et al.)",
+          "date": "2026"
+        },
+        {
+          "reference": "ESO tenecteplase recommendation (Alamowitch et al.)",
+          "date": "2023"
+        },
+        {
+          "reference": "ESO-ESMINT IVT before MT recommendation",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-NEUR-0002",
+      "titre": "Hémiparésie gauche et céphalées sous antivitamine K chez une femme de 74 ans",
+      "niveau": "residanat",
+      "specialite": "NEUR",
+      "items_residanat": [
+        "RES-MED-030"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme de 74 ans, 62 kg, porteuse d'une prothèse valvulaire mitrale mécanique pour une valvulopathie rhumatismale opérée à 45 ans.",
+      "motif_consultation": "Céphalée brutale suivie en 30 minutes d'une faiblesse du côté gauche et de deux vomissements.",
+      "antecedents": "Cardiopathie rhumatismale, remplacement valvulaire mitral mécanique, fibrillation atriale permanente ; traitement par acénocoumarol (INR cible selon prothèse) ; hypertension artérielle mal contrôlée.",
+      "symptomes": "Céphalées intenses, vomissements, faiblesse de l'hémicorps gauche, somnolence progressive.",
+      "examen_clinique": "GCS 13 (Y3 V4 M6), PA 210/115 mmHg, FC 88/min irrégulière, clic de prothèse audible. Hémiparésie gauche proportionnelle, déviation du regard vers la droite, héminégligence gauche. NIHSS 12.",
+      "biologie": "INR 3,8 (cible thérapeutique selon la prothèse) ; plaquettes 210 000/mm³ ; hémoglobine 12,8 g/dL ; créatininémie 10 mg/L ; glycémie 1,18 g/L.",
+      "imagerie": "Scanner sans injection : hématome putaminal droit de 25 mL (méthode ABC/2), sans inondation ventriculaire ni hydrocéphalie, effet de masse modéré.",
+      "hypotheses_diagnostiques": [
+        "Hémorragie intracérébrale profonde hypertensive aggravée par le traitement anticoagulant"
+      ],
+      "diagnostics_differentiels": [
+        "Infarctus avec transformation hémorragique",
+        "Malformation vasculaire sous-jacente",
+        "Tumeur hémorragique"
+      ],
+      "examens_a_demander": [
+        "Angioscanner (spot sign, malformation)",
+        "Bilan d'hémostase répété après antagonisation",
+        "Scanner de contrôle à 6–24 h ou en cas d'aggravation",
+        "ECG, échocardiographie (fonction de prothèse)"
+      ],
+      "diagnostic_final": "Hémorragie intracérébrale putaminale droite sous AVK chez une patiente porteuse d'une prothèse mitrale mécanique ; score ICH 0.",
+      "traitement": "Antagonisation immédiate : concentré de complexe prothrombinique (dose selon poids et INR, protocole local) + vitamine K 10 mg IV ; contrôle de l'INR après administration. Abaissement précoce de la PAS vers 140 mmHg (zone 130–150) par antihypertenseur IV titrable. Hospitalisation en unité neurovasculaire ou soins intensifs ; tête à 30° ; pas de prophylaxie antiépileptique ; compression pneumatique intermittente. Avis neurochirurgical (hématome supratentoriel sans indication chirurgicale d'emblée). Concertation cardio-neurologique sur le moment de reprise de l'anticoagulation (prothèse mécanique mitrale à haut risque thrombotique) [À VÉRIFIER — délai selon recommandations et avis spécialisé].",
+      "surveillance": "GCS et pupilles horaires, PA continue, INR, natrémie, glycémie, température ; scanner en cas d'aggravation (expansion, hydrocéphalie).",
+      "evolution": "Hématome stable au scanner de contrôle ; reprise de l'anticoagulation décidée en concertation ; hémiparésie en régression lente sous rééducation.",
+      "explication_pedagogique": "L'HIC sous anticoagulant est une urgence hémostatique : l'antagonisation doit être immédiate, car l'expansion de l'hématome survient dans les premières heures. Le CCP associé à la vitamine K est préféré au plasma. La baisse tensionnelle précoce vers 140 mmHg limite l'expansion. Le score ICH (ici 0) aide à estimer le pronostic mais ne doit pas conduire à une limitation thérapeutique précoce. La reprise de l'anticoagulation chez un porteur de valve mécanique est un arbitrage délicat entre risque thrombotique et risque de récidive hémorragique.",
+      "questions": [
+        {
+          "question": "Calculez le score ICH de cette patiente.",
+          "reponse": "GCS 13 : 0 ; volume 25 mL (< 30) : 0 ; pas d'inondation ventriculaire : 0 ; supratentoriel : 0 ; âge 74 ans (< 80) : 0. Score ICH = 0."
+        },
+        {
+          "question": "Quelle antagonisation proposer ?",
+          "reponse": "Concentré de complexe prothrombinique adapté au poids et à l'INR, associé à la vitamine K IV ; contrôle de l'INR."
+        },
+        {
+          "question": "Quel objectif tensionnel ?",
+          "reponse": "PAS proche de 140 mmHg, dans une zone d'environ 130–150 mmHg, atteinte précocement et sans baisse brutale."
+        },
+        {
+          "question": "Faut-il prescrire un antiépileptique préventif ?",
+          "reponse": "Non, la prophylaxie systématique n'est pas recommandée ; on traite les crises si elles surviennent."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "AHA/ASA 2022 spontaneous ICH guideline (Greenberg et al., Stroke 2022;53:e282-e361)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-MINT_REA-0001",
+      "titre": "Fièvre, douleur lombaire et marbrures chez une diabétique de 67 ans",
+      "niveau": "residanat",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme de 67 ans, 70 kg, diabétique de type 2, retraitée.",
+      "motif_consultation": "Fièvre à 39,6 °C avec frissons depuis 24 h, douleur lombaire droite, puis confusion et malaise ; amenée aux urgences par sa famille.",
+      "antecedents": "Diabète de type 2 sous metformine et insuline basale ; lithiase urinaire droite connue ; hypertension sous périndopril. Pas d'hospitalisation ni d'antibiothérapie dans les 3 derniers mois.",
+      "symptomes": "Fièvre, frissons, douleur lombaire droite, vomissements, confusion depuis quelques heures, urines rares.",
+      "examen_clinique": "PA 78/42 mmHg (PAM 54 mmHg), FC 128/min, FR 28/min, SpO2 94 % en air, température 39,4 °C. Confusion (GCS 14). Marbrures dépassant les genoux, temps de recoloration capillaire 5 s, extrémités froides. Fosse lombaire droite très douloureuse. Pas de purpura. Échographie au lit : VG hyperkinétique, VCI fine et collabable, poumons sans lignes B.",
+      "biologie": "Lactate 5,2 mmol/L (< 2) ; leucocytes 21 000/mm³ ; plaquettes 92 000/mm³ ; créatinine 24 mg/L (212 µmol/L) ; glycémie 3,1 g/L ; CRP 310 mg/L ; bilirubine 18 mg/L ; bandelette urinaire : leucocytes +++, nitrites +.",
+      "imagerie": "Échographie rénale au lit puis scanner sans injection : dilatation pyélocalicielle droite en amont d'un calcul urétéral de 9 mm.",
+      "hypotheses_diagnostiques": [
+        "Choc septique compliquant une pyélonéphrite aiguë obstructive droite"
+      ],
+      "diagnostics_differentiels": [
+        "Choc cardiogénique (éliminé par l'échographie)",
+        "Acidocétose ou syndrome hyperosmolaire associé (à rechercher)",
+        "Acidose lactique liée à la metformine (contributive possible)"
+      ],
+      "examens_a_demander": [
+        "Hémocultures (2 paires) et ECBU avant antibiotiques",
+        "Lactate re-dosé à 2–4 h",
+        "Gaz du sang, ionogramme, cétonémie",
+        "Imagerie urinaire en urgence (échographie, scanner)",
+        "Bilan d'hémostase"
+      ],
+      "diagnostic_final": "Choc septique (noradrénaline nécessaire, lactate > 2 mmol/L) sur pyélonéphrite aiguë obstructive droite par calcul urétéral.",
+      "traitement": "Oxygène, deux voies veineuses, hémocultures puis antibiothérapie IV dans l'heure associant une céphalosporine de 3e génération et un aminoside selon les protocoles locaux et l'écologie (élargissement si facteurs de risque de bactérie multirésistante). Cristalloïdes équilibrés par bolus de 500 mL réévalués : 2 100 mL (30 mL/kg) dans les 3 premières heures. Noradrénaline débutée sur voie périphérique dès la 30e minute (PAM 56 mmHg malgré le premier litre), relayée par un cathéter central ; cible PAM 65 mmHg. Drainage urinaire en urgence (sonde endo-urétérale ou néphrostomie) pour contrôle de la source. Arrêt de la metformine et du périndopril ; insuline IV. Noradrénaline montée à 0,28 µg/kg/min à H5 : hydrocortisone 200 mg/j. Désescalade selon l'antibiogramme.",
+      "surveillance": "PA invasive, diurèse horaire, temps de recoloration, marbrures, lactate toutes les 2–4 h, glycémie horaire, créatinine, SOFA quotidien, tolérance du remplissage (échographie, oxygénation).",
+      "evolution": "Lactate 2,4 mmol/L à H6 puis normalisé à H18 ; sevrage de la noradrénaline à J3 ; récupération rénale progressive. Escherichia coli sensible aux C3G ; relais oral et traitement total de 7 à 10 jours après drainage [durée selon protocole local].",
+      "explication_pedagogique": "Ce cas réunit les éléments de la première heure du choc septique : reconnaissance (hypotension, marbrures, lactate), hémocultures sans retard, antibiothérapie dans l'heure, remplissage par cristalloïdes équilibrés, noradrénaline précoce (y compris sur voie périphérique) et surtout contrôle de la source : un obstacle urinaire infecté doit être drainé en urgence, aucun antibiotique ne le remplace. L'hydrocortisone est suggérée lorsque les besoins en noradrénaline dépassent 0,25 µg/kg/min depuis au moins 4 heures.",
+      "questions": [
+        {
+          "question": "Sur quels critères retenez-vous un choc septique ?",
+          "reponse": "Infection avec dysfonctions d'organes, nécessité de noradrénaline pour une PAM ≥ 65 mmHg et lactate > 2 mmol/L malgré un remplissage adéquat (Sepsis-3)."
+        },
+        {
+          "question": "Quel est le geste étiologique prioritaire en dehors des antibiotiques ?",
+          "reponse": "Le drainage en urgence des urines infectées en amont de l'obstacle (contrôle de la source)."
+        },
+        {
+          "question": "Pourquoi débuter la noradrénaline avant la fin du remplissage ?",
+          "reponse": "Une PAM très basse prolongée aggrave l'hypoperfusion ; la noradrénaline peut être débutée tôt, sur voie périphérique, pendant que le remplissage se poursuit et en attendant la voie centrale."
+        },
+        {
+          "question": "Quand introduire l'hydrocortisone ?",
+          "reponse": "Quand la noradrénaline atteint au moins 0,25 µg/kg/min depuis au moins 4 heures (SSC 2021 ; certitude jugée faible en 2026)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Surviving Sepsis Campaign 2021 (Evans et al.)",
+          "date": "2021"
+        },
+        {
+          "reference": "Surviving Sepsis Campaign 2026",
+          "date": "2026"
+        },
+        {
+          "reference": "Sepsis-3 (Singer et al., JAMA 2016)",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-MINT_REA-0002",
+      "titre": "Malaise brutal pendant une perfusion d'antibiotique aux urgences",
+      "niveau": "residanat",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme de 52 ans, 85 kg, enseignant.",
+      "motif_consultation": "Hospitalisé aux urgences pour une pneumonie ; cinq minutes après le début d'une perfusion d'amoxicilline-acide clavulanique, il signale un prurit, une gêne respiratoire puis un malaise.",
+      "antecedents": "Hypertension artérielle traitée par bisoprolol ; asthme dans l'enfance ; aucune allergie connue ; éruption cutanée « sous antibiotique » dans l'enfance non explorée.",
+      "symptomes": "Prurit généralisé, urticaire, sensation de gorge serrée, dyspnée sifflante, nausées, sensation de malaise intense.",
+      "examen_clinique": "PA 68/35 mmHg, FC 84/min (sous bêtabloquant), FR 30/min, SpO2 88 %. Urticaire généralisée, œdème des lèvres, sibilants diffus, voix normale. Conscient mais angoissé.",
+      "biologie": "Tryptase prélevée à 30 minutes : 38 µg/L ; à 2 h : 24 µg/L ; valeur de base à 48 h : 4,5 µg/L.",
+      "imagerie": "Aucun examen ne doit retarder le traitement. ECG : rythme sinusal, pas de trouble de repolarisation.",
+      "hypotheses_diagnostiques": [
+        "Choc anaphylactique (grade III) à l'amoxicilline-acide clavulanique chez un patient sous bêtabloquant"
+      ],
+      "diagnostics_differentiels": [
+        "Aggravation septique de la pneumonie (cinétique incompatible)",
+        "Malaise vagal (pas d'urticaire, bradycardie, récupération rapide)",
+        "Angio-œdème bradykinique (pas d'urticaire)"
+      ],
+      "examens_a_demander": [
+        "Tryptase sérique (dès que possible, à 1–2 h, et valeur de base ≥ 24 h)",
+        "Monitorage continu",
+        "Bilan allergologique à distance (4–6 semaines)"
+      ],
+      "diagnostic_final": "Choc anaphylactique à une bêtalactamine, rendu partiellement réfractaire par le traitement bêtabloquant.",
+      "traitement": "Arrêt immédiat de la perfusion, appel à l'aide. Adrénaline IM 0,5 mg à la face antérolatérale de la cuisse, décubitus jambes surélevées, oxygène à haut débit, remplissage par 1 000 mL de cristalloïde en débit libre. À 5 minutes : PA 74/40 mmHg, seconde injection IM de 0,5 mg. Toujours hypotendu : perfusion IV continue d'adrénaline titrée par l'équipe de réanimation sous monitorage, et glucagon IV en raison du bêtabloquant [POSOLOGIE À VÉRIFIER — protocole local]. Salbutamol nébulisé pour le bronchospasme. Antihistaminique H1 pour l'urticaire une fois l'état hémodynamique stabilisé ; pas de corticoïde en première ligne. Remplacement de l'antibiotique par une molécule d'une autre classe selon le protocole local.",
+      "surveillance": "Monitorage continu en unité de surveillance pendant au moins 24 h (forme sévère, plusieurs doses d'adrénaline) : PA, FC, SpO2, signes respiratoires, récidive biphasique.",
+      "evolution": "Sevrage de l'adrénaline en 4 heures, pas de réaction biphasique. Allergie inscrite dans le dossier, carte remise ; consultation d'allergologie programmée pour explorer l'allergie aux bêtalactamines ; réévaluation du bêtabloquant avec le médecin traitant.",
+      "explication_pedagogique": "L'anaphylaxie est un diagnostic clinique ; l'adrénaline IM est le traitement de première ligne et doit être répétée sans hésiter. Le bêtabloquant atténue la tachycardie (piège diagnostique) et l'efficacité de l'adrénaline : le glucagon est alors une option. La cinétique de la tryptase (pic puis retour à la valeur de base) confirme a posteriori le mécanisme mastocytaire. Antihistaminiques et corticoïdes ne sont jamais prioritaires.",
+      "questions": [
+        {
+          "question": "Pourquoi la fréquence cardiaque n'est-elle que de 84/min malgré le choc ?",
+          "reponse": "Le traitement par bêtabloquant limite la tachycardie réflexe ; c'est un piège diagnostique et un facteur de gravité."
+        },
+        {
+          "question": "Quel est le traitement de première ligne et sa posologie ?",
+          "reponse": "Adrénaline IM 0,01 mg/kg (maximum 0,5 mg chez l'adulte), à la cuisse, renouvelable après 5 minutes."
+        },
+        {
+          "question": "Que faire si l'hypotension persiste après deux injections IM ?",
+          "reponse": "Perfusion IV d'adrénaline titrée par une équipe entraînée sous monitorage, remplissage, glucagon chez le patient sous bêtabloquant, vasopresseur additionnel si nécessaire."
+        },
+        {
+          "question": "Comment interpréter les tryptases ?",
+          "reponse": "Élévation nette à 30 minutes et 2 heures avec retour à une valeur de base basse à 48 heures : argument fort pour une dégranulation mastocytaire (anaphylaxie)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "EAACI anaphylaxis guideline 2021 (Muraro et al.)",
+          "date": "2021"
+        },
+        {
+          "reference": "WAO Anaphylaxis Guidance 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "Resuscitation Council UK 2021 — non vérifiée",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-MINT_REA-0003",
+      "titre": "Une famille retrouvée somnolente un matin d'hiver",
+      "niveau": "residanat",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme de 38 ans (la mère), 60 kg, et ses deux enfants de 6 et 9 ans, vivant dans un appartement chauffé par un poêle à gaz et équipé d'un chauffe-eau à gaz dans la salle de bain.",
+      "motif_consultation": "Le père, rentré d'un poste de nuit à 7 h, trouve son épouse inconsciente et les enfants somnolents et vomissants ; appel à la Protection civile.",
+      "antecedents": "Aucun antécédent notable chez la mère ; pas de traitement. Les enfants se plaignaient de céphalées depuis plusieurs soirs.",
+      "symptomes": "Mère : coma. Enfants : céphalées, nausées, vomissements, somnolence. Le père, qui a passé la nuit dehors, est asymptomatique.",
+      "examen_clinique": "Mère : GCS 7 (Y1 V2 M4), pupilles intermédiaires réactives, pas de signe de localisation, hypertonie diffuse, PA 105/60 mmHg, FC 118/min, FR 26/min, SpO2 affichée 98 % sous oxygène au masque, température 36,9 °C. Enfants : GCS 14 et 15, examen neurologique normal.",
+      "biologie": "Mère, gaz du sang avec CO-oxymétrie à l'arrivée après 40 minutes d'oxygène : HbCO 24 % (< 3 % chez le non-fumeur), pH 7,29, lactate 4,8 mmol/L, PaO2 410 mmHg sous oxygène ; troponine 0,09 ng/mL (< 0,04) ; CPK 1 250 UI/L ; glycémie 1,25 g/L. Enfants : HbCO 12 % et 14 %.",
+      "imagerie": "ECG de la mère : tachycardie sinusale, sous-décalage diffus du ST. Scanner cérébral : normal.",
+      "hypotheses_diagnostiques": [
+        "Intoxication collective au monoxyde de carbone par appareil de chauffage ou chauffe-eau défectueux"
+      ],
+      "diagnostics_differentiels": [
+        "Intoxication médicamenteuse",
+        "Autre gaz (fumées d'incendie avec cyanures — pas d'incendie)",
+        "Méningo-encéphalite (pas de fièvre, victimes multiples)"
+      ],
+      "examens_a_demander": [
+        "CO-oxymétrie (HbCO) pour toutes les victimes",
+        "Gaz du sang, lactate",
+        "ECG, troponine",
+        "CPK, créatinine",
+        "β-hCG chez toute femme en âge de procréer",
+        "Scanner cérébral chez la patiente comateuse"
+      ],
+      "diagnostic_final": "Intoxication oxycarbonée collective ; forme grave chez la mère (coma, acidose lactique, atteinte myocardique) ; formes modérées chez les enfants.",
+      "traitement": "Soustraction immédiate de l'atmosphère toxique par les secours, oxygène à haut débit au masque à haute concentration pour toutes les victimes. Mère : intubation pour coma avec FiO2 1, puis discussion avec un centre d'oxygénothérapie hyperbare en raison du coma et de l'atteinte myocardique (indications et disponibilité selon le protocole régional). Enfants : oxygène normobare au masque à haute concentration pendant plusieurs heures, surveillance. Signalement aux autorités et recherche de la source (poêle, chauffe-eau, ventilation obstruée) avant tout retour au domicile ; information de la famille sur les mesures de prévention.",
+      "surveillance": "État neurologique, ECG et troponine, lactate, CPK et fonction rénale ; consultation à distance pour dépister un syndrome post-intervallaire (troubles cognitifs, mnésiques ou du comportement survenant après un intervalle libre de quelques jours à semaines).",
+      "evolution": "Réveil de la mère en 24 h, extubation à J2, normalisation de la troponine. Enfants sortis après 12 h d'observation. Consultation neurologique à 1 mois : pas de syndrome post-intervallaire.",
+      "explication_pedagogique": "L'intoxication au CO est une cause majeure de coma en Algérie l'hiver. Les indices sont contextuels : saison froide, appareil à combustion, victimes multiples, céphalées des jours précédents, asymptomatique hors du domicile. La SpO2 du saturomètre standard est faussement rassurante : seule la CO-oxymétrie mesure la carboxyhémoglobine, dont le taux dépend du délai et de l'oxygène reçu. L'oxygène est le traitement immédiat ; l'oxygénothérapie hyperbare se discute dans les formes graves (coma, signes neurologiques, atteinte cardiaque, grossesse). La prévention de la récidive (source, ventilation) fait partie du traitement.",
+      "questions": [
+        {
+          "question": "Quels éléments du contexte orientent vers le CO ?",
+          "reponse": "Saison froide, poêle et chauffe-eau à gaz, plusieurs victimes du même foyer, céphalées vespérales répétées, père asymptomatique car absent la nuit."
+        },
+        {
+          "question": "Pourquoi la SpO2 à 98 % est-elle trompeuse ?",
+          "reponse": "Le saturomètre standard ne distingue pas la carboxyhémoglobine de l'oxyhémoglobine ; la CO-oxymétrie est indispensable."
+        },
+        {
+          "question": "Quel est le traitement de première intention ?",
+          "reponse": "Oxygène à haut débit au masque à haute concentration (FiO2 1 si intubé), immédiatement ; discussion d'oxygénothérapie hyperbare dans les formes graves."
+        },
+        {
+          "question": "Quelle complication différée faut-il dépister ?",
+          "reponse": "Le syndrome post-intervallaire (troubles neuropsychologiques retardés), par un suivi neurologique à distance."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Protection civile (Algérie) — bilans CO relayés par Radio Algérie",
+          "date": "2023"
+        },
+        {
+          "reference": "Edlow JA et al. Lancet 2014",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-MINT_REA-0004",
+      "titre": "Coma hypoglycémique chez un homme alcoolo-dépendant de 47 ans",
+      "niveau": "residanat",
+      "specialite": "MINT_REA",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme de 47 ans, 55 kg, sans domicile stable, alcoolo-dépendant.",
+      "motif_consultation": "Retrouvé inconscient sur la voie publique par la Protection civile, au petit matin, en hiver.",
+      "antecedents": "Alcoolo-dépendance ancienne, dénutrition, crises convulsives de sevrage rapportées ; pas de diabète connu.",
+      "symptomes": "Coma de profondeur variable ; pas de témoin.",
+      "examen_clinique": "GCS 7 (Y1 V2 M4), pupilles symétriques et réactives, pas de signe de localisation, pas de raideur de nuque, hématome frontal superficiel. Température 34,8 °C, PA 100/60 mmHg, FC 104/min, FR 14/min, SpO2 95 %. Haleine œnolique.",
+      "biologie": "Glycémie capillaire 0,30 g/L (1,7 mmol/L). Alcoolémie 1,9 g/L. Natrémie 131 mmol/L ; kaliémie 3,1 mmol/L ; phosphorémie basse ; lactate 3,5 mmol/L ; CPK 2 900 UI/L ; ASAT 140 UI/L, ALAT 60 UI/L ; TP 72 %.",
+      "imagerie": "Scanner cérébral (après correction de la glycémie, en raison de l'hématome frontal et du terrain) : pas d'hématome intracrânien, atrophie cortico-sous-corticale.",
+      "hypotheses_diagnostiques": [
+        "Coma hypoglycémique chez un alcoolique dénutri (inhibition de la néoglucogenèse par l'alcool, stocks de glycogène épuisés)",
+        "Intoxication alcoolique aiguë associée",
+        "Hypothermie accidentelle"
+      ],
+      "diagnostics_differentiels": [
+        "Hématome sous-dural traumatique",
+        "Coma post-critique (crise de sevrage)",
+        "Encéphalopathie de Gayet-Wernicke",
+        "Encéphalopathie hépatique"
+      ],
+      "examens_a_demander": [
+        "Glycémie capillaire immédiate puis répétée",
+        "Scanner cérébral (traumatisme, terrain)",
+        "Ionogramme, phosphorémie, magnésémie",
+        "Bilan hépatique, TP, ammoniémie",
+        "CPK, créatinine",
+        "EEG si réveil incomplet"
+      ],
+      "diagnostic_final": "Coma hypoglycémique d'origine alcoolique avec hypothermie modérée et rhabdomyolyse, compliqué d'une encéphalopathie de Gayet-Wernicke démasquée au réveil.",
+      "traitement": "Liberté des voies aériennes, oxygène, position latérale de sécurité (rachis protégé jusqu'à l'imagerie en raison de l'hématome frontal). Thiamine IV à forte dose administrée avant le glucose, puis glucosé à 30 % IV et perfusion de glucosé à 10 % ; réchauffement externe ; correction de la kaliémie, de la phosphorémie et de la magnésémie ; hydratation pour la rhabdomyolyse. Réveil partiel en 20 minutes (GCS 13) puis persistance d'une confusion avec nystagmus, paralysie bilatérale de l'abduction et ataxie : poursuite de la thiamine IV à forte dose pluriquotidienne [POSOLOGIE À VÉRIFIER — protocole local]. Prévention du syndrome de sevrage par benzodiazépine selon un score clinique.",
+      "surveillance": "Glycémie horaire au début, température, état neurologique, ionogramme, phosphorémie (syndrome de renutrition inappropriée), CPK et créatinine, signes de sevrage.",
+      "evolution": "Normalisation de l'oculomotricité en quelques jours ; troubles mnésiques persistants imposant un suivi ; orientation vers une prise en charge addictologique et sociale.",
+      "explication_pedagogique": "Chez tout comateux, la glycémie capillaire est le premier examen. L'alcool inhibe la néoglucogenèse et le jeûne épuise le glycogène : l'hypoglycémie est fréquente et le glucagon inefficace. La thiamine doit précéder ou accompagner le glucose chez un patient à risque, car l'apport de glucose consomme la thiamine résiduelle et peut précipiter une encéphalopathie de Gayet-Wernicke, dont la triade (confusion, ophtalmoplégie, ataxie) est souvent incomplète. Le terrain impose aussi d'éliminer un hématome sous-dural.",
+      "questions": [
+        {
+          "question": "Pourquoi le glucagon n'est-il pas adapté ici ?",
+          "reponse": "Il agit en mobilisant le glycogène hépatique, épuisé chez l'alcoolique dénutri à jeun ; la néoglucogenèse est en outre inhibée par l'alcool."
+        },
+        {
+          "question": "Dans quel ordre administrer thiamine et glucose ?",
+          "reponse": "Thiamine avant ou en même temps que le glucose, sans jamais retarder la correction d'une hypoglycémie grave."
+        },
+        {
+          "question": "Quels signes au réveil évoquent une encéphalopathie de Gayet-Wernicke ?",
+          "reponse": "Confusion, troubles oculomoteurs (nystagmus, paralysie de l'abduction), ataxie — triade souvent incomplète."
+        },
+        {
+          "question": "Pourquoi réaliser un scanner cérébral malgré la cause métabolique évidente ?",
+          "reponse": "Terrain alcoolique, traumatisme crânien (hématome frontal) et risque d'hématome sous-dural ; une cause peut en cacher une autre."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Edlow JA et al. Lancet 2014",
+          "date": "2014"
+        },
+        {
+          "reference": "EFNS Wernicke encephalopathy guidelines 2010 — non vérifiée",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-URGE-0001",
+      "titre": "Intoxication volontaire au paracétamol vue à la 10e heure",
+      "niveau": "residanat",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : étudiante de 19 ans, 55 kg.",
+      "motif_consultation": "Amenée par sa sœur pour nausées et vomissements ; elle avoue avoir avalé la veille au soir, vers 22 h, « une trentaine » de comprimés de paracétamol à 500 mg et quelques comprimés de bromazépam après une dispute familiale. Arrivée aux urgences à 8 h.",
+      "antecedents": "Aucun antécédent somatique ; pas de consommation d'alcool ; pas de traitement au long cours ; un épisode dépressif non suivi.",
+      "symptomes": "Nausées, deux vomissements, douleur épigastrique modérée ; somnolence légère.",
+      "examen_clinique": "Consciente (GCS 15), légèrement ralentie. PA 112/70 mmHg, FC 96/min, FR 16/min, SpO2 99 %, température 37 °C. Abdomen souple, sensibilité de l'hypochondre droit. Pas d'ictère, pas d'astérixis.",
+      "biologie": "À 10 h de l'ingestion : paracétamolémie 85 mg/L ; ALAT 140 UI/L (< 40) ; ASAT 120 UI/L ; TP 82 % ; INR 1,1 ; créatinine 7 mg/L ; glycémie 0,92 g/L ; pH 7,40 ; lactate 1,4 mmol/L ; alcoolémie nulle. ECG normal.",
+      "imagerie": "Aucune imagerie nécessaire.",
+      "hypotheses_diagnostiques": [
+        "Intoxication volontaire au paracétamol à dose potentiellement toxique (environ 15 g, soit environ 270 mg/kg), vue tardivement, avec début de cytolyse"
+      ],
+      "diagnostics_differentiels": [
+        "Hépatite virale aiguë (contexte peu évocateur)",
+        "Co-ingestion d'autres toxiques (benzodiazépines déclarées)"
+      ],
+      "examens_a_demander": [
+        "Paracétamolémie immédiate (patiente vue après la 4e heure)",
+        "Transaminases, TP/INR, créatinine, glycémie, gaz du sang, lactate",
+        "β-hCG",
+        "ECG",
+        "Contrôle biologique à la fin du protocole de NAC"
+      ],
+      "diagnostic_final": "Intoxication volontaire au paracétamol à risque d'hépatotoxicité (paracétamolémie au-dessus de la droite de traitement), associée à une prise de bromazépam.",
+      "traitement": "N-acétylcystéine IV débutée immédiatement à l'arrivée, sans attendre le résultat (délai > 8 h) : schéma en deux poches, 200 mg/kg sur 4 h puis 100 mg/kg sur 16 h, ou schéma local en trois poches. Pas de charbon activé (délai dépassé). Antiémétique, hydratation. Pas de flumazénil (somnolence légère, ventilation efficace). Surveillance en unité d'hospitalisation de courte durée. À la fin du protocole : ALAT 980 UI/L, INR 1,4 → poursuite de la NAC jusqu'à l'amélioration biologique, avec avis d'un centre hépatologique. Évaluation psychiatrique dès que l'état le permet ; information de la famille.",
+      "surveillance": "Transaminases, TP/INR, créatinine, glycémie, lactate et pH toutes les 12 h ; vigilance (encéphalopathie) ; critères de transfert vers un centre de transplantation (acidose, INR très élevé, insuffisance rénale, encéphalopathie).",
+      "evolution": "Pic d'ALAT à 2 800 UI/L à 48 h, INR maximal 1,8, sans encéphalopathie ; normalisation progressive. Sortie à J5 avec un suivi psychiatrique organisé.",
+      "explication_pedagogique": "Le paracétamol est un toxique lésionnel : la phase initiale est pauvre et faussement rassurante. Le pronostic dépend du délai d'administration de la NAC, idéalement avant la 8e heure ; au-delà, on la débute sans attendre la paracétamolémie. Ici, la droite de traitement (150 mg/L à 4 h, demi-vie de 4 h) correspond à environ 53 mg/L à 10 h : la valeur de 85 mg/L est au-dessus. Une cytolyse en fin de protocole impose la poursuite de la NAC. L'évaluation psychiatrique fait partie du traitement.",
+      "questions": [
+        {
+          "question": "Pourquoi débuter la NAC avant le résultat de la paracétamolémie ?",
+          "reponse": "Parce que l'ingestion date de plus de 8 heures : chaque heure de retard augmente le risque d'hépatotoxicité, et la NAC est bien tolérée."
+        },
+        {
+          "question": "Comment interpréter la paracétamolémie de 85 mg/L à la 10e heure ?",
+          "reponse": "La droite de traitement passe par 150 mg/L à 4 h et diminue de moitié toutes les 4 heures (environ 53 mg/L à 10 h) : la valeur est au-dessus, la NAC est indiquée."
+        },
+        {
+          "question": "Faut-il donner du charbon activé ?",
+          "reponse": "Non : le délai (10 h) rend le bénéfice nul ; il est réservé aux patients vus précocement."
+        },
+        {
+          "question": "Que faire si les transaminases sont élevées à la fin du protocole ?",
+          "reponse": "Poursuivre la NAC, surveiller INR, créatinine, pH et lactate, et prendre l'avis d'un centre hépatologique en cas d'aggravation."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Chiew AL et al. Med J Aust 2020;212:175-183",
+          "date": "2020"
+        },
+        {
+          "reference": "SRLF-SFMU 2020 (Mégarbane et al.)",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-URGE-0002",
+      "titre": "Sueurs, hypersalivation et détresse respiratoire après ingestion d'un pesticide",
+      "niveau": "residanat",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : agriculteur de 42 ans, 70 kg, vivant en zone rurale.",
+      "motif_consultation": "Transporté par la Protection civile 90 minutes après l'ingestion volontaire d'environ 100 mL d'un insecticide agricole organophosphoré, à la suite de difficultés financières.",
+      "antecedents": "Aucun antécédent médical ; tabagisme ; aucun traitement.",
+      "symptomes": "Vomissements, diarrhée, sueurs profuses, hypersalivation, gêne respiratoire croissante, fasciculations des mollets.",
+      "examen_clinique": "GCS 12, myosis serré bilatéral, sueurs profuses, hypersalivation, bronchorrhée avec râles diffus, SpO2 84 % sous oxygène, FR 32/min, FC 46/min, PA 90/55 mmHg, fasciculations diffuses, odeur alliacée. Vêtements souillés de vomissements.",
+      "biologie": "Activité cholinestérasique plasmatique effondrée (< 10 % de la normale) ; lactate 3,2 mmol/L ; glycémie 1,6 g/L ; amylase élevée ; kaliémie 3,4 mmol/L.",
+      "imagerie": "Radiographie thoracique : opacités alvéolaires bilatérales (bronchorrhée, possible inhalation). ECG : bradycardie sinusale, QTc 480 ms.",
+      "hypotheses_diagnostiques": [
+        "Intoxication volontaire grave aux organophosphorés : syndrome cholinergique muscarinique, nicotinique et central"
+      ],
+      "diagnostics_differentiels": [
+        "Intoxication aux carbamates (prise en charge proche)",
+        "Pneumopathie d'inhalation associée",
+        "Co-ingestion d'autres toxiques"
+      ],
+      "examens_a_demander": [
+        "Activité cholinestérasique plasmatique et érythrocytaire",
+        "Gaz du sang, lactate, ionogramme, glycémie, lipase",
+        "ECG répétés (QT)",
+        "Radiographie thoracique",
+        "Paracétamolémie (intoxication volontaire)"
+      ],
+      "diagnostic_final": "Crise cholinergique grave par ingestion volontaire d'un organophosphoré, compliquée d'une détresse respiratoire.",
+      "traitement": "Protection des soignants (gants, blouse), déshabillage et lavage cutané à l'eau et au savon. Oxygène, aspiration. Atropine IV à doses croissantes (doublement toutes les 5 minutes) jusqu'à l'atropinisation : auscultation sèche, FC > 80/min, PAS > 80 mmHg, aisselles sèches, pupilles non punctiformes, obtenue après une dose cumulée importante, puis perfusion d'entretien [POSOLOGIE À VÉRIFIER — protocole local]. Intubation avec un curare non dépolarisant (pas de succinylcholine) en raison de la détresse respiratoire et de la baisse de vigilance. Pralidoxime selon le schéma OMS si disponible [POSOLOGIE À VÉRIFIER]. Benzodiazépine pour la sédation et la prévention des convulsions. Pas de charbon activé avant la protection des voies aériennes ; décision après intubation selon le délai. Évaluation psychiatrique après réveil.",
+      "surveillance": "Signes d'atropinisation et d'intoxication atropinique (agitation, hyperthermie, iléus) ; sécrétions bronchiques ; force des muscles cervicaux et capacité vitale pendant au moins 4–5 jours ; ECG (QT) ; glycémie ; lipase.",
+      "evolution": "Amélioration initiale puis, à J3, faiblesse de la flexion du cou et des muscles proximaux avec échec d'un premier sevrage ventilatoire : syndrome intermédiaire. Extubation à J9. Prise en charge psychiatrique et sociale ; pas de neuropathie retardée à 1 mois.",
+      "explication_pedagogique": "L'intoxication aux organophosphorés est une cause majeure de décès toxique dans les zones agricoles. Le décès précoce est respiratoire (bronchorrhée, bronchospasme, paralysie) ; l'atropine est titrée rapidement et largement sur l'assèchement pulmonaire, sans craindre la tachycardie. La succinylcholine est proscrite. Le syndrome intermédiaire impose une surveillance prolongée de la force musculaire. La protection des soignants est indispensable.",
+      "questions": [
+        {
+          "question": "Quels sont les critères d'atropinisation ?",
+          "reponse": "Auscultation pulmonaire sèche (critère principal), FC > 80/min, PAS > 80 mmHg, aisselles sèches, pupilles non punctiformes."
+        },
+        {
+          "question": "Pourquoi éviter la succinylcholine ?",
+          "reponse": "Elle est hydrolysée par les cholinestérases plasmatiques, inhibées par l'organophosphoré : paralysie prolongée."
+        },
+        {
+          "question": "Qu'est-ce que le syndrome intermédiaire ?",
+          "reponse": "Une faiblesse des muscles cervicaux, proximaux, des nerfs crâniens et respiratoires survenant entre 24 et 96 heures, pouvant imposer une ventilation prolongée."
+        },
+        {
+          "question": "Quelle précaution pour l'équipe soignante ?",
+          "reponse": "Protection individuelle et décontamination cutanée du patient (déshabillage, lavage) pour éviter une contamination secondaire."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Eddleston M et al. Lancet 2008 — non vérifiée pendant la session",
+          "date": "2008"
+        },
+        {
+          "reference": "SRLF-SFMU 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-URGE-0003",
+      "titre": "Piqûre de scorpion chez une fillette de 4 ans une nuit d'août",
+      "niveau": "residanat",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : fillette de 4 ans, 16 kg, vivant dans une habitation rurale d'une wilaya des Hauts-Plateaux.",
+      "motif_consultation": "Piquée à la main vers 23 h en dormant à même le sol ; la mère a vu un scorpion jaune qu'elle a tué. Un voisin a posé un garrot au bras ; arrivée à la polyclinique à 23 h 50.",
+      "antecedents": "Aucun antécédent ; vaccinations à jour selon le carnet.",
+      "symptomes": "Pleurs, douleur intense de la main ; puis sueurs, vomissements répétés et agitation.",
+      "examen_clinique": "À l'arrivée : garrot en place (retiré immédiatement), main douloureuse sans nécrose. Sueurs profuses, hypersialorrhée, trois vomissements, FC 160/min, PA 125/80 mmHg, FR 34/min, SpO2 95 %, température 38,3 °C. Classée en classe II, transférée à l'hôpital. À 1 h 30 : polypnée à 50/min, crépitants bilatéraux, SpO2 86 %, PA 75/45 mmHg, extrémités froides, temps de recoloration 4 s, somnolence.",
+      "biologie": "Glycémie 2,8 g/L ; leucocytes 24 000/mm³ ; troponine élevée ; lactate 4,1 mmol/L ; gaz du sang : hypoxémie et acidose métabolique ; lipase modérément élevée.",
+      "imagerie": "Radiographie thoracique : œdème pulmonaire alvéolaire bilatéral. Échocardiographie : hypokinésie globale du ventricule gauche, fraction d'éjection estimée à 30 %. ECG : tachycardie sinusale, troubles diffus de la repolarisation.",
+      "hypotheses_diagnostiques": [
+        "Envenimation scorpionique de classe III : choc cardiogénique avec œdème pulmonaire par dysfonction myocardique aiguë"
+      ],
+      "diagnostics_differentiels": [
+        "Anaphylaxie (pas d'urticaire ni de bronchospasme, cinétique et signes neurovégétatifs typiques de l'envenimation)",
+        "Sepsis (contexte non évocateur)",
+        "Intoxication aux organophosphorés (pas de myosis, contexte de piqûre)"
+      ],
+      "examens_a_demander": [
+        "Glycémie, gaz du sang, lactate",
+        "ECG, troponine",
+        "Échocardiographie",
+        "Radiographie thoracique",
+        "NFS, ionogramme, créatinine, lipase"
+      ],
+      "diagnostic_final": "Envenimation scorpionique de classe III chez une enfant de 4 ans : œdème pulmonaire et choc cardiogénique par dysfonction ventriculaire gauche aiguë.",
+      "traitement": "Ablation immédiate du garrot ; antisepsie ; antalgiques. Transfert en réanimation pédiatrique : oxygène puis ventilation (non invasive puis intubation devant l'épuisement), dobutamine titrée pour la dysfonction ventriculaire gauche, remplissage prudent limité, noradrénaline ajoutée transitoirement devant une hypotension persistante, diurétique après restauration de la pression ; benzodiazépine prête en cas de convulsions ; contrôle de la glycémie. Sérum antiscorpionique administré selon le protocole du guide national en vigueur, adrénaline à portée de main [POSOLOGIE ET INDICATION À VÉRIFIER — guide national]. Déclaration du cas dans le cadre de la surveillance épidémiologique.",
+      "surveillance": "Monitorage continu, diurèse horaire, lactate, glycémie, échocardiographie quotidienne, radiographie thoracique, troponine ; tolérance du sérum (anaphylaxie, maladie sérique à J5–J15).",
+      "evolution": "Extubation à J3, sevrage de la dobutamine à J3, fraction d'éjection normalisée à J6. Sortie à J7 ; éducation de la famille aux mesures de prévention (habitat, lit surélevé, moustiquaire, secouer vêtements et chaussures).",
+      "explication_pedagogique": "Ce cas illustre la gravité de l'envenimation scorpionique chez le jeune enfant, groupe qui concentre les décès en Algérie. La classe peut évoluer en quelques heures de II à III, d'où la surveillance hospitalière systématique de l'enfant. La défaillance est d'abord cardiaque (cardiomyopathie catécholaminergique) : le remplissage massif aggrave l'œdème pulmonaire, l'inotrope et la ventilation sont la clé, et la dysfonction est réversible. Le garrot est un geste interdit. La place du SAS se lit dans le guide national ; il ne remplace pas la réanimation.",
+      "questions": [
+        {
+          "question": "Quelle était la classe à l'arrivée à la polyclinique et pourquoi ?",
+          "reponse": "Classe II : signes généraux (sueurs, hypersialorrhée, vomissements, tachycardie, agitation) sans défaillance vitale."
+        },
+        {
+          "question": "Quel est le mécanisme de l'œdème pulmonaire ?",
+          "reponse": "Principalement une dysfonction ventriculaire gauche aiguë d'origine catécholaminergique, avec une composante lésionnelle."
+        },
+        {
+          "question": "Pourquoi éviter le remplissage massif ?",
+          "reponse": "Le choc est cardiogénique avec œdème pulmonaire : le remplissage aggraverait l'hypoxémie ; le traitement repose sur l'inotrope et la ventilation."
+        },
+        {
+          "question": "Quels conseils de prévention donner à la famille ?",
+          "reponse": "Ne pas dormir à même le sol, surélever et éloigner les lits des murs, moustiquaire bordée, secouer vêtements, draps et chaussures, colmater les murs, éliminer les gravats, participer aux campagnes de collecte, consulter immédiatement en cas de piqûre, sans garrot ni incision."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Laïd Y et al. J Venom Anim Toxins incl Trop Dis 2012;18:399-410",
+          "date": "2012"
+        },
+        {
+          "reference": "INSP — rapport envenimation scorpionique (données 2009)",
+          "date": "2009"
+        },
+        {
+          "reference": "Guide national 2003 — non consulté",
+          "date": "2003"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-URGE-0004",
+      "titre": "Morsures de la joue et de la main par un chien errant chez un enfant de 9 ans",
+      "niveau": "residanat",
+      "specialite": "URGE",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : garçon de 9 ans, 28 kg.",
+      "motif_consultation": "Mordu il y a 2 heures par un chien errant inconnu, au comportement agressif, qui s'est enfui ; amené par son père aux urgences.",
+      "antecedents": "Aucun ; vaccinations du calendrier national à jour selon le carnet (dernière dose antitétanique à 6 ans) ; jamais vacciné contre la rage.",
+      "symptomes": "Douleur de la joue gauche et de la main droite, saignement arrêté.",
+      "examen_clinique": "Plaie transfixiante de 3 cm de la joue gauche ; deux plaies punctiformes profondes du dos de la main droite ; pas d'atteinte tendineuse, nerveuse ou vasculaire ; mobilité des doigts normale. Constantes normales, apyrétique.",
+      "biologie": "Aucun examen biologique nécessaire.",
+      "imagerie": "Radiographie de la main : pas de fracture ni de corps étranger.",
+      "hypotheses_diagnostiques": [
+        "Morsures de chien à risque rabique de catégorie III (morsures transdermiques par un animal suspect non observable)",
+        "Plaies à risque infectieux (main, plaies punctiformes)"
+      ],
+      "diagnostics_differentiels": [
+        "Sans objet (diagnostic évident) ; évaluer les lésions associées"
+      ],
+      "examens_a_demander": [
+        "Radiographie de la main",
+        "Vérification du carnet de vaccination (tétanos)",
+        "Bilan infectieux uniquement si infection secondaire"
+      ],
+      "diagnostic_final": "Morsures de chien errant (visage et main) : exposition rabique de catégorie III chez un enfant non vacciné ; plaies à risque infectieux.",
+      "traitement": "Lavage immédiat et prolongé (environ 15 minutes) de toutes les plaies à l'eau et au savon, puis antiseptique. Prophylaxie antirabique de catégorie III : vaccination débutée le jour même selon le schéma du protocole national (par exemple schéma OMS) et immunoglobulines antirabiques infiltrées dans et autour de chaque plaie, autant que l'anatomie le permet (20 UI/kg pour les immunoglobulines humaines, 40 UI/kg pour les équines) [POSOLOGIE ET SCHÉMA À VÉRIFIER — protocole national]. Parage et suture de la plaie de la joue après lavage et infiltration, par un opérateur expérimenté (enjeu esthétique) ; plaies punctiformes de la main laissées ouvertes. Antibioprophylaxie par amoxicilline–acide clavulanique adaptée au poids pendant quelques jours [POSOLOGIE À VÉRIFIER]. Tétanos : statut à jour pour l'âge, pas de rappel nécessaire selon le calendrier (à vérifier). Signalement du cas aux services de santé et vétérinaires.",
+      "surveillance": "Contrôle des plaies à 48 h ; respect strict des dates des injections vaccinales ; information des parents sur les signes d'infection.",
+      "evolution": "Cicatrisation sans infection ; schéma vaccinal complété.",
+      "explication_pedagogique": "La rage est mortelle une fois déclarée mais évitable par une prophylaxie précoce et complète. Une morsure transdermique par un chien errant non observable en zone d'endémie est une exposition de catégorie III : lavage prolongé, vaccination et immunoglobulines infiltrées localement, sans aucun délai. Les morsures du visage ont une incubation potentiellement plus courte. Les plaies du visage peuvent être suturées après un nettoyage soigneux ; les plaies punctiformes de la main ne le sont pas, et justifient une antibioprophylaxie.",
+      "questions": [
+        {
+          "question": "Quelle est la catégorie d'exposition OMS et pourquoi ?",
+          "reponse": "Catégorie III : morsures transdermiques par un animal suspect (errant, agressif, non observable)."
+        },
+        {
+          "question": "Comment administrer les immunoglobulines antirabiques ?",
+          "reponse": "Infiltration dans et autour de chaque plaie, autant que possible anatomiquement, au plus tard dans les 7 jours suivant la première dose de vaccin."
+        },
+        {
+          "question": "Peut-on suturer la plaie de la joue ?",
+          "reponse": "Oui, après lavage, parage et infiltration des immunoglobulines, compte tenu de l'enjeu esthétique ; les plaies punctiformes de la main restent ouvertes."
+        },
+        {
+          "question": "Faut-il attendre de retrouver le chien ?",
+          "reponse": "Non : la prophylaxie est débutée immédiatement ; l'animal n'est de toute façon pas observable."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Rabies vaccines position paper 2018 — non vérifiée pendant la session",
+          "date": "2018"
+        },
+        {
+          "reference": "IDSA SSTI 2014 — non vérifiée pendant la session",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-06",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-06.json"
+    },
+    {
+      "id": "CAS-OBST-0701",
+      "titre": "Céphalées et douleur épigastrique à 33 SA chez une primigeste",
+      "niveau": "residanat",
+      "specialite": "OBST",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-066"
+      ],
+      "identite": "Scénario fictif : Mme S., 24 ans, primigeste, sans antécédent, adressée par une sage-femme de polyclinique à l'urgence d'une maternité d'EPH de wilaya.",
+      "motif_consultation": "Céphalées frontales résistantes au paracétamol depuis le matin et douleur épigastrique en barre depuis 3 heures, à 33 SA + 2 jours.",
+      "antecedents": "Aucun antécédent médical ni familial notable. Grossesse sans particularité jusqu'à 28 SA (PA 125/80 mmHg à la dernière consultation). Pas de traitement en cours.",
+      "symptomes": "Céphalées frontales, douleur épigastrique en barre, deux vomissements, œdèmes du visage apparus en 48 h ; pas de troubles visuels ; mouvements actifs fœtaux perçus.",
+      "examen_clinique": "PA 168/112 mmHg puis 172/114 mmHg à 15 min ; FC 96/min ; SpO2 98 % ; œdèmes du visage et des membres inférieurs ; ROT vifs diffusés sans clonus ; conscience normale ; hauteur utérine 28 cm ; utérus souple, pas de métrorragies ; col long fermé (Bishop 2) ; bandelette urinaire : protéines 3+.",
+      "biologie": "Hb 13,8 g/dL (N 11-14) ; plaquettes 86 000/mm³ (N 150 000-400 000) ; ASAT 142 UI/L (N < 35) ; ALAT 118 UI/L (N < 35) ; LDH 720 UI/L (N < 250) ; bilirubine totale 18 mg/L (N < 12) ; haptoglobine < 0,1 g/L (N 0,3-2) ; schizocytes présents ; créatininémie 98 µmol/L (N en grossesse 40-70) ; TP 88 % (N > 70) ; fibrinogène 3,1 g/L (N grossesse 4-6) ; rapport protéinurie/créatininurie 210 mg/mmol (N < 30).",
+      "imagerie": "Échographie obstétricale : estimation de poids fœtal au 8e percentile, liquide amniotique diminué, Doppler ombilical avec index de résistance augmenté et diastole présente, vasodilatation modérée de l'artère cérébrale moyenne. Échographie hépatique : pas d'hématome sous-capsulaire. RCF : 140 bpm, variabilité normale, accélérations présentes.",
+      "hypotheses_diagnostiques": [
+        "Pré-éclampsie sévère compliquée de HELLP syndrome",
+        "Pré-éclampsie sévère avec retentissement fœtal (RCIU débutant)"
+      ],
+      "diagnostics_differentiels": [
+        "Stéatose hépatique aiguë gravidique (pas d'hypoglycémie ni d'insuffisance hépatocellulaire)",
+        "Purpura thrombotique thrombocytopénique (ADAMTS13 à doser si doute)",
+        "Syndrome hémolytique et urémique atypique",
+        "Gastrite ou cholécystite (diagnostic d'élimination dangereux)",
+        "Hépatite virale"
+      ],
+      "examens_a_demander": [
+        "NFS-plaquettes, bilan hépatique, LDH, haptoglobine, schizocytes répétés toutes les 6 à 12 h",
+        "Hémostase complète (TP, TCA, fibrinogène)",
+        "Créatininémie, ionogramme, diurèse horaire",
+        "Groupe sanguin, RAI",
+        "Glycémie",
+        "RCF pluriquotidien, Doppler ombilical et cérébral",
+        "Échographie hépatique si douleur persistante"
+      ],
+      "diagnostic_final": "Pré-éclampsie sévère compliquée d'un HELLP syndrome complet à 33 SA + 2 j, avec atteinte rénale, signes neurologiques et retentissement fœtal (RCIU débutant, oligoamnios).",
+      "traitement": "Appel du senior et de l'anesthésiste ; 2 voies veineuses ; sonde urinaire ; antihypertenseur IV dans les 30-60 min (nicardipine au pousse-seringue ou labétalol IV selon protocole) avec cible PAS < 160 et PAD < 110 sans chute brutale ; MgSO4 4 g IV en 20 min puis 1 g/h (Zuspan) ou schéma de Pritchard ; restriction hydrique (≈ 80 mL/h) ; bétaméthasone 12 mg IM (2 doses à 24 h) ; transfert médicalisé vers une maternité de niveau III après stabilisation ; césarienne décidée à H+10 devant la baisse des plaquettes (71 000/mm³), sous anesthésie générale ; MgSO4 poursuivi 24 h post-partum ; relais par nifédipine LP puis énalapril (compatible avec l'allaitement), sans méthyldopa.",
+      "surveillance": "PA toutes les 15 min en phase aiguë puis horaire ; ROT, fréquence respiratoire, diurèse horaire sous MgSO4 ; bilan biologique toutes les 6-12 h ; RCF ; dans le post-partum, PA pluriquotidienne (pic J3-J6), plaquettes et transaminases jusqu'à normalisation ; consultation à 6-8 semaines.",
+      "evolution": "Naissance d'une fille de 1 650 g transférée en néonatologie. Nadir plaquettaire à 58 000/mm³ à J1 puis remontée à J3. PA à 150/100 mmHg à J4, contrôlée par nifédipine LP + énalapril. Sortie à J7. Normalisation tensionnelle à 6 semaines.",
+      "explication_pedagogique": "Une douleur épigastrique au 3e trimestre chez une femme hypertendue est un HELLP jusqu'à preuve du contraire. L'HTA sévère (≥ 160/110) expose à l'AVC et doit être traitée en urgence. Le MgSO4 prévient l'éclampsie mais ne traite pas l'HTA. La stabilisation maternelle précède le transfert et l'extraction. L'aggravation biologique transitoire dans les 24-48 h post-partum est classique. Le suivi à long terme (risque cardiovasculaire, récidive, aspirine lors de la grossesse suivante) fait partie de la prise en charge.",
+      "questions": [
+        {
+          "question": "Quels critères permettent de retenir un HELLP syndrome complet ?",
+          "reponse": "Hémolyse (LDH ≥ 600 UI/L, schizocytes, haptoglobine effondrée, bilirubine ≥ 12 mg/L), cytolyse (ASAT ≥ 70 UI/L) et thrombopénie < 100 000/mm³ (classification de Tennessee)."
+        },
+        {
+          "question": "Pourquoi la créatininémie à 98 µmol/L est-elle pathologique ?",
+          "reponse": "Parce que le débit de filtration glomérulaire augmente d'environ 50 % pendant la grossesse ; une créatininémie ≥ 90 µmol/L traduit une dysfonction rénale selon l'ISSHP 2021."
+        },
+        {
+          "question": "Quels paramètres surveiller sous MgSO4 et quel est l'antidote ?",
+          "reponse": "ROT, fréquence respiratoire (> 12/min), diurèse (> 25-30 mL/h), conscience, ± magnésémie ; antidote : gluconate de calcium 10 %, 10 mL (1 g) IV lente."
+        },
+        {
+          "question": "Quels conseils donner pour une future grossesse ?",
+          "reponse": "Consultation préconceptionnelle, aspirine 75-150 mg/j débutée avant 16 SA (dès 12 SA), suivi en maternité adaptée, dépistage précoce de l'HTA et du RCIU."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Magee LA et al. ISSHP 2021. Pregnancy Hypertens 2022;27:148-169",
+          "date": "2022"
+        },
+        {
+          "reference": "ACOG Practice Bulletin No. 222. Obstet Gynecol 2020;135(6):e237-e260",
+          "date": "2020"
+        },
+        {
+          "reference": "Bonnet MP et al. SFAR-CNGOF severe pre-eclampsia. Anaesth Crit Care Pain Med 2021;40:100901",
+          "date": "2021"
+        },
+        {
+          "reference": "NICE NG133 (2019, mise à jour 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-OBST-0702",
+      "titre": "Convulsions à J3 du post-partum chez une jeune accouchée",
+      "niveau": "residanat",
+      "specialite": "OBST",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-066"
+      ],
+      "identite": "Scénario fictif : Mme R., 19 ans, primipare, accouchée par voie basse il y a 3 jours d'un garçon de 3 100 g à terme, sortie de maternité à J1.",
+      "motif_consultation": "Amenée par sa famille aux urgences pour une crise convulsive généralisée survenue à domicile, précédée de céphalées intenses et de « flou visuel » depuis la veille.",
+      "antecedents": "Aucun antécédent. Grossesse suivie irrégulièrement (3 consultations). Une PA à 145/95 mmHg notée au dossier lors de l'accouchement, non recontrôlée ; protéinurie non recherchée.",
+      "symptomes": "Céphalées occipitales depuis 24 h, vision floue, nausées ; crise tonico-clonique généralisée d'environ 2 minutes, suivie d'une confusion.",
+      "examen_clinique": "À l'arrivée : patiente confuse (Glasgow 13), sans déficit moteur focal ; PA 175/115 mmHg ; FC 110/min ; SpO2 95 % à l'air ; température 37,2 °C ; ROT vifs ; pas de raideur méningée ; utérus bien involué, lochies normales ; seins normaux.",
+      "biologie": "Glycémie capillaire 0,98 g/L (N 0,70-1,10) ; Hb 11,9 g/dL ; plaquettes 132 000/mm³ (N 150 000-400 000) ; ASAT 48 UI/L (N < 35) ; créatininémie 84 µmol/L (N 45-90 hors grossesse) ; natrémie 137 mmol/L ; calcémie 2,28 mmol/L ; LDH 410 UI/L (N < 250) ; RPC 85 mg/mmol (N < 30) ; CRP 8 mg/L.",
+      "imagerie": "IRM cérébrale réalisée après stabilisation : hypersignaux FLAIR cortico-sous-corticaux pariéto-occipitaux bilatéraux évocateurs d'un syndrome d'encéphalopathie postérieure réversible (PRES) ; pas d'hémorragie ; angio-IRM veineuse sans thrombose des sinus.",
+      "hypotheses_diagnostiques": [
+        "Éclampsie du post-partum (pré-éclampsie méconnue)",
+        "Thrombophlébite cérébrale du post-partum",
+        "Hémorragie cérébrale"
+      ],
+      "diagnostics_differentiels": [
+        "Thrombose veineuse cérébrale",
+        "Hémorragie méningée ou intraparenchymateuse",
+        "Épilepsie révélée par le post-partum",
+        "Hypoglycémie, hyponatrémie",
+        "Méningo-encéphalite",
+        "Toxicité des anesthésiques locaux (contexte non compatible)"
+      ],
+      "examens_a_demander": [
+        "Glycémie capillaire immédiate",
+        "NFS-plaquettes, transaminases, LDH, créatininémie, ionogramme, calcémie, hémostase",
+        "Protéinurie (RPC)",
+        "Imagerie cérébrale (IRM avec angio-IRM veineuse, ou scanner) après stabilisation car crise du post-partum",
+        "Magnésémie selon l'évolution"
+      ],
+      "diagnostic_final": "Éclampsie du post-partum à J3 avec PRES, sur pré-éclampsie méconnue (HTA et protéinurie significative).",
+      "traitement": "PLS, libération des voies aériennes, O2 ; voie veineuse ; MgSO4 4 g IV en 15-20 min puis 1 g/h pendant 24 h après la dernière crise ; traitement de l'HTA sévère (labétalol IV ou nicardipine IV selon protocole) ; surveillance en unité de soins intensifs ; relais oral par nifédipine LP ± énalapril, compatibles avec l'allaitement ; poursuite de l'allaitement possible.",
+      "surveillance": "Conscience, PA, ROT, fréquence respiratoire, diurèse sous MgSO4 ; bilan biologique quotidien ; PA à domicile après la sortie ; consultation à 6-8 semaines ; IRM de contrôle si signes persistants.",
+      "evolution": "Pas de récidive convulsive. Récupération complète de la vision en 48 h. PA normalisée sous traitement en 3 semaines, arrêt progressif. Protéinurie négative à 8 semaines.",
+      "explication_pedagogique": "L'éclampsie peut survenir après l'accouchement (environ un tiers des cas, ordre de grandeur classique), parfois chez une femme sortie précocement sans contrôle tensionnel. Toute crise convulsive du post-partum avec HTA doit être traitée comme une éclampsie (MgSO4 + antihypertenseur) tout en recherchant une thrombophlébite cérébrale ou une hémorragie par l'imagerie. Le PRES est l'aspect radiologique typique. La mesure de la PA et la recherche de protéinurie avant la sortie de maternité, ainsi que l'information sur les signes d'alerte, sont des mesures de prévention simples.",
+      "questions": [
+        {
+          "question": "Quel élément du dossier aurait dû alerter avant la sortie ?",
+          "reponse": "La PA à 145/95 mmHg à l'accouchement, qui imposait un contrôle répété, une recherche de protéinurie et un bilan avant la sortie."
+        },
+        {
+          "question": "Pourquoi une imagerie cérébrale est-elle indiquée ?",
+          "reponse": "Parce que la crise survient dans le post-partum, période à risque de thrombophlébite cérébrale et d'hémorragie, et devant la confusion persistante ; elle se fait après stabilisation."
+        },
+        {
+          "question": "Quelle est la durée du MgSO4 ?",
+          "reponse": "24 heures après la dernière crise (ou après l'accouchement)."
+        },
+        {
+          "question": "L'allaitement est-il compatible avec le traitement ?",
+          "reponse": "Oui : nifédipine, labétalol et énalapril sont compatibles avec l'allaitement selon le NICE ; la méthyldopa est à éviter dans le post-partum."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "ACOG Practice Bulletin No. 222, 2020",
+          "date": "2020"
+        },
+        {
+          "reference": "OMS. Recommendations for prevention and treatment of pre-eclampsia and eclampsia, 2011",
+          "date": "2011"
+        },
+        {
+          "reference": "NICE NG133 (2019, mise à jour 2023)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-OBST-0703",
+      "titre": "Saignement abondant 25 minutes après l'accouchement d'une grande multipare",
+      "niveau": "residanat",
+      "specialite": "OBST",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-056"
+      ],
+      "identite": "Scénario fictif : Mme K., 35 ans, G5P4, accouchée par voie basse dans la maternité d'un EPH de wilaya.",
+      "motif_consultation": "Caillots abondants dans le lit, soif et vertiges 25 minutes après la naissance.",
+      "antecedents": "Quatre accouchements par voie basse sans complication. Anémie du 3e trimestre (Hb 10,2 g/dL) traitée par fer oral mal pris.",
+      "symptomes": "Travail de 14 h avec ocytocine pendant 9 h ; naissance d'un garçon de 4 250 g avec dystocie des épaules modérée ; ocytocine 10 UI IM au dégagement ; délivrance spontanée complète à 12 min ; pas de sac de recueil. À H+25 min : caillots, soif, vertiges.",
+      "examen_clinique": "Pouls 118/min ; PA 98/60 mmHg (index de choc ≈ 1,2) ; SpO2 97 % ; pâleur ; utérus mou, ombilical ; expression utérine ramenant 400 mL de caillots ; perte estimée par pesée ≈ 1 100 mL.",
+      "biologie": "Hb capillaire 8,6 g/dL ; plaquettes 168 000/mm³ ; TP 78 % (N > 70) ; TCA ratio 1,1 ; fibrinogène 2,4 g/L puis 1,6 g/L à H+45 (N fin de grossesse 4-6) ; lactates 3,1 mmol/L (N < 2) ; groupe O Rh+, RAI négatives.",
+      "imagerie": "Échographie au lit : cavité utérine contenant des caillots, pas d'épanchement intrapéritonéal.",
+      "hypotheses_diagnostiques": [
+        "Hémorragie du post-partum sévère par atonie utérine",
+        "Rétention de cotylédon",
+        "Déchirure cervico-vaginale associée"
+      ],
+      "diagnostics_differentiels": [
+        "Rupture utérine (cavité intacte à la révision)",
+        "Inversion utérine (fond utérin palpable)",
+        "Coagulopathie primitive",
+        "Thrombus vaginal"
+      ],
+      "examens_a_demander": [
+        "Groupe sanguin, RAI, commande de CGR",
+        "NFS, hémostase avec fibrinogène, répétés",
+        "Lactates, gaz du sang, calcium ionisé",
+        "Hb capillaire répétée"
+      ],
+      "diagnostic_final": "Hémorragie du post-partum sévère (≥ 1 000 mL puis 1 600 mL) par atonie utérine, sur terrain de multiparité, macrosomie, travail prolongé sous ocytocine et anémie.",
+      "traitement": "Alerte et heure notée ; 2 VVP 14-16 G ; O2, réchauffement, sonde urinaire ; massage utérin et compression bimanuelle ; ocytocine 5-10 UI IV lente puis perfusion d'entretien ; acide tranexamique 1 g IV en 10 min (< 3 h), 2e dose à 30 min devant la persistance ; révision utérine sous anesthésie avec antibioprophylaxie ; examen sous valves (éraillure vaginale non hémorragique) ; 2e ligne : sulprostone IV si disponible (sinon misoprostol 800 µg sublingual ou ergométrine en l'absence d'HTA) ; transfusion 4 CGR et 2 PFC, concentré de fibrinogène ; ballonnet de tamponnement intra-utérin (test positif) ; bloc opératoire prévenu pour ligatures/capitonnage/hystérectomie en cas d'échec.",
+      "surveillance": "Pouls, PA, saignement, tonus utérin, diurèse toutes les 15 min puis horaire ; Hb et hémostase répétées ; retrait progressif du ballonnet à H+20 ; HBPM dès H+24 en l'absence de saignement ; fer IV ; recherche d'un syndrome de Sheehan (montée laiteuse) ; revue de morbidité.",
+      "evolution": "Arrêt du saignement après ballonnet ; Hb 8,1 g/dL à J1 ; montée laiteuse normale à J3 ; sortie à J4 avec fer et information sur le risque de récidive.",
+      "explication_pedagogique": "La gravité d'une HPP dépend surtout du délai de prise en charge. Mesurer les pertes (sac, champ calibré) permet un diagnostic à 500 mL au lieu de 1 100 mL. Le bundle de première intention (massage, ocytocine, acide tranexamique, remplissage, examen et escalade) doit être appliqué simultanément. L'escalade est guidée par le temps (15-30 min). En l'absence d'embolisation, la laparotomie (ligatures, capitonnage, hystérectomie) se fait sur place chez une patiente instable.",
+      "questions": [
+        {
+          "question": "Citez les facteurs de risque d'atonie présents.",
+          "reponse": "Multiparité, macrosomie (surdistension), travail prolongé, perfusion prolongée d'ocytocine ; l'anémie diminue la tolérance."
+        },
+        {
+          "question": "Quelles sont les modalités de l'acide tranexamique ?",
+          "reponse": "1 g IV en 10 min dans les 3 h suivant la naissance, 2e dose de 1 g si le saignement persiste à 30 min ou reprend dans les 24 h (OMS 2017, essai WOMAN)."
+        },
+        {
+          "question": "Pourquoi l'ergométrine est-elle utilisable ici ?",
+          "reponse": "Parce que la patiente n'est ni hypertendue ni pré-éclamptique ni cardiopathe (contre-indications)."
+        },
+        {
+          "question": "Quelle complication tardive rechercher ?",
+          "reponse": "Le syndrome de Sheehan (absence de montée laiteuse, aménorrhée, asthénie, hypotension) ; ainsi que la thrombose veineuse et l'anémie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Sentilhes L et al. CNGOF — HPP. J Gynecol Obstet Biol Reprod 2014;43:1170-1179",
+          "date": "2014"
+        },
+        {
+          "reference": "OMS. Recommendation on tranexamic acid for PPH, 2017",
+          "date": "2017"
+        },
+        {
+          "reference": "OMS. Assessment of postpartum blood loss and treatment bundle, 2023",
+          "date": "2023"
+        },
+        {
+          "reference": "Gallos I et al. E-MOTIVE. N Engl J Med 2023",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-OBST-0704",
+      "titre": "Placenta praevia antérieur sur utérus bicicatriciel à 32 SA",
+      "niveau": "dems",
+      "specialite": "OBST",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-056"
+      ],
+      "identite": "Scénario fictif : Mme D., 33 ans, G3P2, deux césariennes antérieures, suivie dans une polyclinique de wilaya.",
+      "motif_consultation": "Échographie du 3e trimestre (32 SA) : placenta praevia recouvrant, antérieur, inséré sur la cicatrice ; orientation vers le service de gynécologie-obstétrique d'un CHU.",
+      "antecedents": "Deux césariennes (2018 pour présentation du siège, 2021 itérative). Aucun antécédent médical. Groupe A Rh+.",
+      "symptomes": "Un épisode de métrorragies indolores de faible abondance à 29 SA, spontanément résolutif.",
+      "examen_clinique": "PA 115/70 mmHg ; pouls 82/min ; utérus souple, hauteur utérine conforme ; pas de métrorragies actives ; pas de toucher vaginal (placenta praevia).",
+      "biologie": "Hb 10,6 g/dL (N 11-14) ; ferritine 9 µg/L (N > 30) ; plaquettes 210 000/mm³ ; hémostase normale ; RAI négatives.",
+      "imagerie": "Échographie spécialisée : perte de la zone hypoéchogène rétroplacentaire, lacunes placentaires multiples, amincissement myométrial < 1 mm en regard de la cicatrice, hypervascularisation de l'interface utéro-vésicale au Doppler couleur. IRM placentaire : suspicion d'invasion de la séreuse au contact de la vessie (placenta percreta focal).",
+      "hypotheses_diagnostiques": [
+        "Placenta accreta spectrum (accreta à percreta) sur placenta praevia et utérus bicicatriciel"
+      ],
+      "diagnostics_differentiels": [
+        "Placenta praevia sans anomalie d'invasion",
+        "Hématome de la cicatrice",
+        "Lacunes placentaires isolées sans accreta"
+      ],
+      "examens_a_demander": [
+        "Échographie spécialisée avec Doppler",
+        "IRM placentaire si doute ou pour la cartographie de l'invasion",
+        "Cystoscopie selon l'avis urologique",
+        "Bilan martial, groupe-RAI, réserve de produits sanguins",
+        "Consultation d'anesthésie"
+      ],
+      "diagnostic_final": "Placenta praevia recouvrant avec suspicion forte de placenta accreta spectrum (percreta focal vésical) sur utérus bicicatriciel.",
+      "traitement": "Correction de l'anémie (fer IV) ; corticothérapie anténatale si menace ; planification multidisciplinaire (obstétricien expérimenté, anesthésiste, urologue, radiologue interventionnel si disponible, banque de sang) ; césarienne programmée vers 34-36 SA (terme selon le protocole du centre) par incision corporéale à distance du placenta, sans tenter de délivrance ; hystérectomie avec placenta en place ; acide tranexamique ; récupération de sang peropératoire si disponible ; protocole de transfusion massive prêt (CGR, PFC, fibrinogène, plaquettes) ; alternative conservatrice (placenta laissé en place) discutée selon le désir de grossesse et le plateau technique.",
+      "surveillance": "Avant l'accouchement : consignes de reconsultation immédiate en cas de saignement, résidence proche du CHU. Après : soins intensifs, Hb, hémostase, diurèse (lésion vésicale), thromboprophylaxie, fer IV, soutien psychologique.",
+      "evolution": "Césarienne-hystérectomie programmée à 35 SA ; brèche vésicale réparée ; pertes 2 300 mL ; transfusion de 4 CGR, 3 PFC et 3 g de fibrinogène ; nouveau-né de 2 600 g en bonne santé ; suites favorables.",
+      "explication_pedagogique": "L'association placenta praevia + cicatrice(s) de césarienne est le principal facteur de risque du placenta accreta spectrum, cause majeure d'hémorragie de la délivrance massive. Le diagnostic anténatal et l'accouchement programmé dans un centre de niveau III avec banque de sang réduisent la morbidité. Il ne faut jamais forcer la délivrance d'un placenta accreta. Cette situation illustre la prévention de l'HPP par l'identification anténatale des femmes à risque (CNGOF 2014).",
+      "questions": [
+        {
+          "question": "Quel est le principal facteur de risque de placenta accreta ?",
+          "reponse": "Un placenta praevia (surtout antérieur) sur un utérus cicatriciel ; le risque croît avec le nombre de césariennes."
+        },
+        {
+          "question": "Que faire si un placenta accreta est découvert de façon inattendue lors d'une délivrance artificielle ?",
+          "reponse": "Ne pas forcer l'arrachement, appeler le senior, préparer la transfusion et choisir entre traitement conservateur (placenta laissé en place) et hystérectomie selon l'hémorragie et le contexte."
+        },
+        {
+          "question": "Pourquoi l'accouchement doit-il être programmé dans un centre de niveau III ?",
+          "reponse": "Parce qu'il nécessite une équipe chirurgicale expérimentée, une réanimation, une banque de sang et parfois la radiologie interventionnelle et l'urologie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Sentilhes L et al. CNGOF — HPP. J Gynecol Obstet Biol Reprod 2014;43:1170-1179",
+          "date": "2014"
+        },
+        {
+          "reference": "OMS. Recommendation on tranexamic acid for PPH, 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-GYNE-0701",
+      "titre": "Douleur de la fosse iliaque gauche et retard de règles chez une femme de 29 ans",
+      "niveau": "residanat",
+      "specialite": "GYNE",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-057"
+      ],
+      "identite": "Scénario fictif : Mme B., 29 ans, G2P1, mariée, fumeuse (10 cigarettes/j), consultant aux urgences gynécologiques d'un CHU.",
+      "motif_consultation": "Douleurs de la fosse iliaque gauche depuis 3 jours et saignements brunâtres, dernières règles il y a 6 semaines.",
+      "antecedents": "Un accouchement par voie basse il y a 4 ans ; épisode de douleurs pelviennes fébriles traité par antibiotiques il y a 6 ans (probable infection génitale haute) ; désir de grossesse, sans contraception depuis 1 an.",
+      "symptomes": "Douleur latéralisée gauche modérée, métrorragies sépia peu abondantes, pas de malaise, pas de scapulalgie.",
+      "examen_clinique": "Pouls 84/min, PA 118/72 mmHg, apyrexie ; abdomen souple, sensibilité de la fosse iliaque gauche ; spéculum : saignement endo-utérin minime, col fermé ; TV : utérus de taille normale, sensibilité annexielle gauche, pas de cri du Douglas.",
+      "biologie": "hCG plasmatique 2 400 UI/L à J0 puis 2 650 UI/L à 48 h (+10 %) ; Hb 12,6 g/dL ; plaquettes 245 000/mm³ ; leucocytes 7 800/mm³ ; créatininémie 62 µmol/L (N 45-90) ; ASAT 22 UI/L, ALAT 19 UI/L (N < 35) ; groupe O Rhésus négatif, RAI négatives.",
+      "imagerie": "Échographie endovaginale : cavité utérine vide (endomètre 9 mm), masse latéro-utérine gauche hétérogène de 22 mm, mobile indépendamment de l'ovaire, sans sac embryonné ni activité cardiaque ; corps jaune ovarien gauche ; faible épanchement non échogène du Douglas.",
+      "hypotheses_diagnostiques": [
+        "Grossesse extra-utérine tubaire gauche non rompue",
+        "Grossesse intra-utérine débutante non visualisée",
+        "Fausse couche précoce"
+      ],
+      "diagnostics_differentiels": [
+        "Grossesse intra-utérine évolutive précoce",
+        "Grossesse intra-utérine arrêtée",
+        "Corps jaune hémorragique",
+        "Salpingite",
+        "Torsion d'annexe"
+      ],
+      "examens_a_demander": [
+        "hCG plasmatique répétée à 48 h",
+        "Échographie endovaginale de contrôle",
+        "NFS, créatininémie, transaminases (bilan pré-méthotrexate)",
+        "Groupe sanguin, Rhésus, RAI"
+      ],
+      "diagnostic_final": "Grossesse extra-utérine tubaire gauche non rompue, peu active (hCG 2 400-2 650 UI/L en plateau, masse de 22 mm sans activité cardiaque), chez une patiente stable.",
+      "traitement": "Après information et choix éclairé (hCG entre 1 500 et 5 000 UI/L : méthotrexate ou chirurgie selon le NICE) : méthotrexate IM en dose unique (1 mg/kg selon la RTU française ou 50 mg/m² selon l'ACOG) ; prophylaxie anti-D selon le protocole local (ACOG : recommandée ; NICE : non requise en cas de traitement exclusivement médical) ; consignes : pas d'AINS, d'alcool, d'acide folique ni d'exposition solaire, abstinence pendant la surveillance, contraception efficace et délai avant conception d'au moins 3 mois (NICE) ; arrêt du tabac.",
+      "surveillance": "hCG à J4 et J7 puis hebdomadaire jusqu'à négativation ; consultation en urgence si douleur intense, malaise, saignement abondant ; échographie en cas de douleur (douleur de séparation vs rupture).",
+      "evolution": "Douleur modérée à J5 sans épanchement significatif (douleur de séparation). hCG : J4 2 900 UI/L, J7 2 300 UI/L (baisse de 21 % entre J4 et J7) ; négativation à 6 semaines.",
+      "explication_pedagogique": "Le diagnostic de GEU repose sur l'association hCG quantitative + échographie endovaginale. Chez une femme qui désire sa grossesse, un second dosage à 48 h évite d'administrer du méthotrexate sur une grossesse intra-utérine débutante (zone de discrimination pouvant atteindre 3 500 UI/L selon l'ACOG). Le méthotrexate exige une patiente stable, une GEU non rompue de petite taille sans activité cardiaque, un bilan préthérapeutique normal et une surveillance fiable. L'ascension de l'hCG à J4 est fréquente ; le critère de succès est une baisse ≥ 15 % entre J4 et J7.",
+      "questions": [
+        {
+          "question": "Quels facteurs de risque de GEU présente la patiente ?",
+          "reponse": "Antécédent probable d'infection génitale haute et tabagisme."
+        },
+        {
+          "question": "Quelles sont les contre-indications au méthotrexate à vérifier ?",
+          "reponse": "Grossesse intra-utérine, instabilité, rupture, allaitement, insuffisance rénale ou hépatique, cytopénies, immunodéficience, ulcère évolutif, maladie pulmonaire active, hypersensibilité, impossibilité de surveillance."
+        },
+        {
+          "question": "Quelle aurait été la conduite si l'hCG avait été de 7 500 UI/L avec activité cardiaque ?",
+          "reponse": "Cœlioscopie ; salpingectomie si la trompe controlatérale est saine (essai ESEP)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "ACOG Practice Bulletin No. 193. Obstet Gynecol 2018;131(3):e91-e103",
+          "date": "2018"
+        },
+        {
+          "reference": "NICE NG126",
+          "date": "2019"
+        },
+        {
+          "reference": "HAS. RTU méthotrexate GEU, 2016",
+          "date": "2016"
+        },
+        {
+          "reference": "Marret H et al. CNGOF. Eur J Obstet Gynecol Reprod Biol 2016;205:105-109",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-GYNE-0702",
+      "titre": "Malaise et douleur abdominale brutale chez une femme porteuse d'un DIU",
+      "niveau": "generaliste",
+      "specialite": "GYNE",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-057"
+      ],
+      "identite": "Scénario fictif : Mme F., 34 ans, G3P2, porteuse d'un DIU au cuivre depuis 2 ans, amenée par la protection civile aux urgences d'un EPH.",
+      "motif_consultation": "Douleur abdominale brutale avec malaise et perte de connaissance brève à domicile.",
+      "antecedents": "Deux accouchements par voie basse ; DIU au cuivre ; pas d'antécédent chirurgical.",
+      "symptomes": "Retard de règles d'une semaine attribué au stress ; spotting depuis 5 jours ; douleur pelvienne droite brutale il y a 2 heures, puis douleur diffuse et scapulalgie droite, lipothymie.",
+      "examen_clinique": "Pâleur, sueurs, extrémités froides ; pouls 128/min ; PA 82/50 mmHg ; abdomen distendu, défense diffuse, matité des flancs ; spéculum : fils du DIU visibles, saignement minime ; TV : cri du Douglas.",
+      "biologie": "Test urinaire de grossesse positif ; hCG plasmatique 3 800 UI/L (prélevée sans attendre le résultat) ; Hb 7,8 g/dL (N 12-16) ; plaquettes 198 000/mm³ ; TP 72 % ; groupe A Rhésus négatif.",
+      "imagerie": "Échographie au lit (réalisée en 2 minutes pendant la réanimation) : utérus vide avec DIU en place, épanchement échogène abondant du Douglas remontant dans l'espace de Morison.",
+      "hypotheses_diagnostiques": [
+        "Grossesse extra-utérine rompue avec hémopéritoine et choc hémorragique"
+      ],
+      "diagnostics_differentiels": [
+        "Rupture de corps jaune hémorragique",
+        "Rupture splénique",
+        "Perforation d'organe creux",
+        "Torsion d'annexe compliquée"
+      ],
+      "examens_a_demander": [
+        "Groupe sanguin, RAI, commande de CGR en urgence",
+        "NFS, hémostase",
+        "Les examens ne doivent pas retarder la chirurgie"
+      ],
+      "diagnostic_final": "GEU tubaire droite rompue avec hémopéritoine massif et choc hémorragique, sur grossesse survenue sous DIU.",
+      "traitement": "Réanimation : 2 VVP de gros calibre, remplissage, transfusion de CGR (O négatif si nécessaire) ; chirurgie immédiate : laparotomie (ou cœlioscopie si équipe entraînée et état le permettant après réanimation) avec aspiration de l'hémopéritoine et salpingectomie droite ; examen de la trompe gauche ; immunoglobuline anti-D (Rhésus négatif, traitement chirurgical) ; examen anatomopathologique de la pièce ; retrait du DIU discuté.",
+      "surveillance": "Hémodynamique, Hb postopératoire, diurèse ; contrôle de la négativation de l'hCG selon la pratique du service ; information sur la fertilité et la contraception ; échographie précoce lors d'une grossesse ultérieure.",
+      "evolution": "Hémopéritoine de 1 800 mL ; salpingectomie droite ; trompe gauche saine ; transfusion de 3 CGR ; histologie : villosités choriales dans la trompe avec lésions de salpingite chronique ; sortie à J3.",
+      "explication_pedagogique": "Le DIU diminue le risque absolu de grossesse mais toute grossesse sous DIU doit faire évoquer une GEU. Le choc hémorragique avec test de grossesse positif impose une chirurgie immédiate sans attendre d'autres examens. La prophylaxie anti-D est indiquée chez la femme Rhésus négatif opérée. L'examen anatomopathologique confirme le diagnostic (villosités choriales) et documente les lésions tubaires.",
+      "questions": [
+        {
+          "question": "Quelle est la signification de la scapulalgie ?",
+          "reponse": "Irritation phrénique par l'hémopéritoine."
+        },
+        {
+          "question": "Le méthotrexate est-il envisageable ?",
+          "reponse": "Non : rupture et instabilité hémodynamique sont des contre-indications absolues."
+        },
+        {
+          "question": "Quel geste chirurgical privilégier ?",
+          "reponse": "Salpingectomie (trompe rompue, hémorragie ; trompe controlatérale saine)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "ACOG Practice Bulletin No. 193, 2018",
+          "date": "2018"
+        },
+        {
+          "reference": "RCOG Green-top Guideline No. 21. BJOG 2016;123:e15-e55",
+          "date": "2016"
+        },
+        {
+          "reference": "NICE NG126",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-GYNE-0703",
+      "titre": "Métrorragies post-coïtales chez une femme de 47 ans jamais dépistée",
+      "niveau": "residanat",
+      "specialite": "GYNE",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-058"
+      ],
+      "identite": "Scénario fictif : Mme H., 47 ans, mère de six enfants, résidant dans une commune rurale des Hauts-Plateaux.",
+      "motif_consultation": "Saignements après les rapports depuis 5 mois, pertes rosées malodorantes depuis 2 mois, douleur lombaire droite depuis 3 semaines.",
+      "antecedents": "Six accouchements ; contraception orale pendant 12 ans ; aucun frottis ni test HPV antérieur ; non fumeuse.",
+      "symptomes": "Métrorragies post-coïtales, leucorrhées rosées fétides, lombalgie droite sourde, asthénie.",
+      "examen_clinique": "Indice OMS 1 ; pâleur ; spéculum : lésion bourgeonnante et ulcérée de la lèvre antérieure du col d'environ 5 cm, saignant au contact, envahissant le cul-de-sac vaginal antérieur ; TV-TR : col tumoral de 5-6 cm, paramètre droit infiltré jusqu'à mi-distance de la paroi, paramètre gauche souple, extension aux 2/3 supérieurs du vagin ; aires ganglionnaires inguinales et sus-claviculaires libres.",
+      "biologie": "Hb 9,4 g/dL (N 12-16) ; créatininémie 78 µmol/L (N 45-90) ; sérologie VIH négative ; SCC-Ag élevé ; bilan hépatique normal.",
+      "imagerie": "IRM pelvienne : tumeur cervicale de 55 mm, envahissement paramétrial droit, pas d'atteinte de la paroi pelvienne, de la vessie ni du rectum, adénopathies iliaques externes droites de 15 et 18 mm (petit axe), pas d'hydronéphrose. TEP-TDM : fixation tumorale et des deux adénopathies iliaques droites, pas de fixation lombo-aortique ni à distance.",
+      "hypotheses_diagnostiques": [
+        "Cancer invasif du col de l'utérus localement avancé"
+      ],
+      "diagnostics_differentiels": [
+        "Cervicite sévère",
+        "Polype ou fibrome accouché",
+        "Cancer de l'endomètre étendu au col",
+        "Tuberculose cervicale"
+      ],
+      "examens_a_demander": [
+        "Biopsie de la lésion",
+        "IRM pelvienne",
+        "TEP-TDM (ou TDM TAP)",
+        "NFS, créatininémie, bilan hépatique, sérologie VIH, SCC-Ag",
+        "Cystoscopie/rectoscopie si suspicion clinique ou radiologique"
+      ],
+      "diagnostic_final": "Carcinome épidermoïde non kératinisant du col de l'utérus, stade FIGO 2018 IIIC1r (tumeur de 5,5 cm avec envahissement paramétrial et adénopathies pelviennes à l'imagerie).",
+      "traitement": "RCP ; radiochimiothérapie concomitante : radiothérapie externe pelvienne (≈ 45-50 Gy) avec surimpression ganglionnaire et cisplatine hebdomadaire (40 mg/m²), suivie d'une curiethérapie utéro-vaginale guidée par l'IRM ; durée totale idéalement ≤ 7-8 semaines ; correction de l'anémie ; options discutées selon l'accès : chimiothérapie d'induction (INTERLACE) ou pembrolizumab (KEYNOTE-A18) ; soins de support (nutrition, douleur, psychologie, hébergement près du centre).",
+      "surveillance": "IRM pelvienne à 3 mois ; examen clinique tous les 3-4 mois pendant 2 ans puis tous les 6 mois jusqu'à 5 ans ; SCC-Ag ; prise en charge des séquelles (dilatateurs vaginaux, rectite, cystite, ménopause radio-induite).",
+      "evolution": "Réponse complète à l'IRM de 3 mois ; sténose vaginale modérée prévenue par dilatateurs ; suivi en cours.",
+      "explication_pedagogique": "Les métrorragies post-coïtales imposent un examen au spéculum et la biopsie de toute lésion. La FIGO 2018 intègre l'imagerie et les ganglions (stade IIIC, notation r/p). Les stades localement avancés relèvent de la radiochimiothérapie suivie de curiethérapie, et non de la chirurgie. Le retard au dépistage explique la fréquence des formes avancées ; la vaccination des filles et le dépistage des femmes de la famille sont des messages de prévention.",
+      "questions": [
+        {
+          "question": "Pourquoi ne pas faire de frottis devant cette lésion ?",
+          "reponse": "Le frottis est un test de dépistage, possiblement faussement négatif sur une lésion nécrotique ; seule la biopsie affirme le diagnostic."
+        },
+        {
+          "question": "Quel serait le stade en présence d'une hydronéphrose droite sans adénopathie ?",
+          "reponse": "IIIB."
+        },
+        {
+          "question": "Pourquoi corriger l'anémie avant la radiothérapie ?",
+          "reponse": "L'hypoxie tumorale réduit la radiosensibilité et le contrôle local."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Bhatla N et al. Revised FIGO staging. Int J Gynaecol Obstet 2019;145:129-135",
+          "date": "2019"
+        },
+        {
+          "reference": "OMS. Guideline for screening and treatment of cervical pre-cancer lesions, 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Cibula D et al. ESGO/ESTRO/ESP 2023 [À VÉRIFIER]",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-GYNE-0704",
+      "titre": "Test HPV positif lors d'un dépistage chez une femme de 34 ans",
+      "niveau": "residanat",
+      "specialite": "GYNE",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-058"
+      ],
+      "identite": "Scénario fictif : Mme A., 34 ans, G2P2, fonctionnaire, consultant dans une unité de dépistage des cancers féminins.",
+      "motif_consultation": "Dépistage du cancer du col proposé lors d'une campagne de sensibilisation ; asymptomatique.",
+      "antecedents": "Deux accouchements ; tabagisme actif (15 paquets-années) ; aucun dépistage antérieur ; contraception par DIU au cuivre ; non vaccinée contre le HPV.",
+      "symptomes": "Aucun.",
+      "examen_clinique": "Col macroscopiquement normal au spéculum, pas de lésion visible ; examen gynécologique normal.",
+      "biologie": "Test HPV haut risque positif, génotypage partiel : HPV 16 positif ; cytologie réflexe : HSIL ; sérologie VIH négative.",
+      "imagerie": "Colposcopie : zone de transformation de type 2 ; lésion acidophile dense de la lèvre antérieure avec mosaïque irrégulière, iodonégative ; biopsies dirigées : CIN 3 (HSIL), p16 positif en bloc.",
+      "hypotheses_diagnostiques": [
+        "Lésion intraépithéliale malpighienne de haut grade (CIN 3) liée à HPV 16",
+        "Carcinome micro-invasif associé à éliminer"
+      ],
+      "diagnostics_differentiels": [
+        "Lésion de bas grade (CIN 1) surestimée",
+        "Métaplasie immature",
+        "Carcinome invasif débutant"
+      ],
+      "examens_a_demander": [
+        "Colposcopie avec biopsies dirigées",
+        "Conisation à l'anse diathermique (diagnostique et thérapeutique)",
+        "Examen anatomopathologique de la pièce avec analyse des marges"
+      ],
+      "diagnostic_final": "CIN 3 (HSIL) étendue avec, sur la pièce de conisation, un foyer de carcinome épidermoïde micro-invasif de 1,8 mm de profondeur, sans emboles lymphovasculaires, marges saines : stade FIGO 2018 IA1 sans emboles.",
+      "traitement": "Conisation à l'anse diathermique sous anesthésie locale, adaptée au type de ZT ; la conisation à marges saines constitue un traitement suffisant pour un IA1 sans emboles chez une femme qui pourrait souhaiter une grossesse (alternative : hystérectomie simple en l'absence de désir de grossesse) ; arrêt du tabac ; information sur le risque obstétrical (accouchement prématuré) des conisations profondes.",
+      "surveillance": "Test HPV ± cytologie (co-test) à 6-12 mois puis surveillance prolongée selon le référentiel ; examen clinique régulier ; consultation rapide en cas de saignement.",
+      "evolution": "Co-test négatif à 6 mois et à 18 mois ; poursuite de la surveillance.",
+      "explication_pedagogique": "Le test HPV est un test de dépistage très sensible (recommandé en première intention par l'OMS 2021) ; un résultat positif nécessite un triage (génotypage, cytologie) puis une colposcopie. La CIN 3 est une lésion précancéreuse traitée par exérèse. Le stade IA est défini par la profondeur d'invasion mesurée au microscope (< 3 mm pour IA1). Le tabac est un cofacteur de persistance. Cette femme illustre le bénéfice du dépistage : diagnostic à un stade curable par un geste simple et conservateur.",
+      "questions": [
+        {
+          "question": "Quelle est la différence entre LSIL et HSIL ?",
+          "reponse": "LSIL (CIN 1) : lésion de bas grade, régression fréquente, surveillance ; HSIL (CIN 2-3) : lésion précancéreuse, traitement par exérèse ou ablation."
+        },
+        {
+          "question": "Pourquoi une conisation plutôt qu'une ablation thermique ici ?",
+          "reponse": "ZT de type 2 et lésion étendue avec suspicion de micro-invasion : l'exérèse permet l'analyse histologique et des marges ; l'ablation est réservée aux ZT entièrement visibles sans suspicion d'invasion."
+        },
+        {
+          "question": "Quel est le stade si l'invasion mesurait 4 mm ?",
+          "reponse": "IA2 (≥ 3 mm et < 5 mm)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Guideline for screening and treatment of cervical pre-cancer lesions, 2nd ed., 2021",
+          "date": "2021"
+        },
+        {
+          "reference": "Bhatla N et al. Revised FIGO staging. Int J Gynaecol Obstet 2019;145:129-135",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-GYNE-0705",
+      "titre": "Nodule du sein gauche avec adénopathie axillaire chez une femme de 41 ans",
+      "niveau": "residanat",
+      "specialite": "GYNE",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-062"
+      ],
+      "identite": "Scénario fictif : Mme L., 41 ans, enseignante, deux enfants, non ménopausée.",
+      "motif_consultation": "Nodule du sein gauche découvert il y a 2 mois, qui semble avoir grossi.",
+      "antecedents": "Premier enfant à 31 ans, allaitements courts (3 mois) ; tante maternelle traitée pour un cancer du sein à 52 ans ; pas de traitement hormonal ; IMC 27 kg/m².",
+      "symptomes": "Nodule indolore ; pas d'écoulement ; pas de douleur osseuse ni de dyspnée.",
+      "examen_clinique": "Sein gauche : nodule du quadrant supéro-externe de 3,5 cm, dur, irrégulier, peu mobile, sans adhérence cutanée ni pectorale, sans peau d'orange ; aisselle gauche : adénopathie dure et mobile de 1,5 cm ; sein et aisselle droits normaux ; aires sus-claviculaires libres ; examen général normal.",
+      "biologie": "NFS, bilan hépatique, calcémie et créatininémie normaux ; FEVG 62 % à l'échocardiographie.",
+      "imagerie": "Mammographie : opacité spiculée de 32 mm du QSE gauche avec microcalcifications associées, densité c. Échographie : masse hypoéchogène irrégulière non parallèle avec atténuation postérieure (BI-RADS 5) ; ganglion axillaire gauche à cortex épaissi, hile effacé. TEP-TDM : pas de métastase à distance.",
+      "hypotheses_diagnostiques": [
+        "Carcinome infiltrant du sein gauche avec atteinte ganglionnaire axillaire"
+      ],
+      "diagnostics_differentiels": [
+        "Fibroadénome (contours irréguliers et âge non compatibles)",
+        "Tumeur phyllode",
+        "Cytostéatonécrose",
+        "Lymphome"
+      ],
+      "examens_a_demander": [
+        "Microbiopsies échoguidées de la tumeur et du ganglion avec pose de clips",
+        "Type histologique, grade, RE, RP, HER2, Ki-67",
+        "Bilan d'extension systémique (atteinte ganglionnaire)",
+        "Échocardiographie (FEVG)",
+        "IRM mammaire (densité c, évaluation de la réponse)",
+        "Consultation d'oncogénétique selon les critères",
+        "Préservation de la fertilité à discuter"
+      ],
+      "diagnostic_final": "Carcinome infiltrant de type non spécifique du sein gauche, grade III, RE 0 %, RP 0 %, HER2 3+, Ki-67 60 %, cT2 cN1 M0 (sous-type HER2-enrichi).",
+      "traitement": "RCP ; traitement néo-adjuvant : chimiothérapie + double blocage anti-HER2 (trastuzumab + pertuzumab) ; chirurgie conservatrice guidée par le clip et geste axillaire adapté à la réponse ; radiothérapie du sein ± aires ganglionnaires ; poursuite du trastuzumab (± pertuzumab) pour compléter 1 an ; T-DM1 en cas de maladie résiduelle ; pas d'hormonothérapie (RH négatifs).",
+      "surveillance": "FEVG tous les 3 mois sous anti-HER2 ; examen clinique tous les 3-6 mois les premières années ; mammographie annuelle ; pas de marqueurs ni d'imagerie systémique systématiques ; contraception non hormonale.",
+      "evolution": "Réponse histologique complète (ypT0 ypN0) après traitement néo-adjuvant ; radiothérapie et anti-HER2 complétés sans cardiotoxicité ; suivi en cours.",
+      "explication_pedagogique": "Un nodule dur et irrégulier après 35 ans est un cancer jusqu'à preuve du contraire. La triple évaluation se termine par une microbiopsie avant toute chirurgie. Le profil RE/RP/HER2 détermine la stratégie : les cancers HER2+ T2 ou N+ relèvent d'un traitement néo-adjuvant associant chimiothérapie et anti-HER2, qui permet la conservation mammaire et l'adaptation du traitement adjuvant à la réponse (T-DM1 si résidu).",
+      "questions": [
+        {
+          "question": "Pourquoi poser un clip lors de la biopsie ?",
+          "reponse": "Pour repérer le site tumoral (et le ganglion) en cas de réponse complète au traitement néo-adjuvant et guider la chirurgie."
+        },
+        {
+          "question": "Quelle surveillance spécifique sous trastuzumab ?",
+          "reponse": "La fonction cardiaque (FEVG tous les 3 mois)."
+        },
+        {
+          "question": "Que faire en cas de maladie résiduelle après le traitement néo-adjuvant ?",
+          "reponse": "Remplacer le trastuzumab par le T-DM1 en adjuvant (principes ESMO 2024)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Loibl S et al. ESMO early breast cancer guideline. Ann Oncol 2024;35:159-182",
+          "date": "2024"
+        },
+        {
+          "reference": "ACR BI-RADS Atlas, 5th ed., 2013",
+          "date": "2013"
+        },
+        {
+          "reference": "WHO Classification of Tumours — Breast Tumours, 5th ed., 2019",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
+    },
+    {
+      "id": "CAS-GYNE-0706",
+      "titre": "Masse mammaire à croissance rapide chez une femme de 45 ans",
+      "niveau": "residanat",
+      "specialite": "GYNE",
+      "scenario": "fictif",
+      "items_residanat": [
+        "RES-CHI-062"
+      ],
+      "identite": "Scénario fictif : Mme M., 45 ans, G3P3, commerçante, non ménopausée.",
+      "motif_consultation": "Masse du sein droit apparue il y a 6 mois, ayant rapidement augmenté de volume.",
+      "antecedents": "Un « fibroadénome » du sein droit non biopsié signalé à 30 ans ; pas d'antécédent familial de cancer ; allaitements de 12 mois pour chaque enfant.",
+      "symptomes": "Masse indolore, sensation de tension cutanée ; pas d'écoulement ; pas d'altération de l'état général.",
+      "examen_clinique": "Sein droit déformé par une masse de 7 cm, ferme, polylobée, bien limitée, mobile sur le plan profond ; peau tendue et luisante avec veines dilatées, sans peau d'orange ni ulcération ; mamelon normal ; aires ganglionnaires libres.",
+      "biologie": "NFS normale ; bilan hépatique normal.",
+      "imagerie": "Mammographie : opacité ovalaire polylobée de 70 mm à contours circonscrits, sans microcalcifications suspectes. Échographie : masse hétérogène lobulée avec fentes liquidiennes, grand axe parallèle à la peau, vascularisée (BI-RADS 4B devant la taille et la croissance rapide).",
+      "hypotheses_diagnostiques": [
+        "Tumeur phyllode",
+        "Fibroadénome géant",
+        "Carcinome (forme circonscrite)",
+        "Sarcome"
+      ],
+      "diagnostics_differentiels": [
+        "Fibroadénome géant",
+        "Carcinome infiltrant à contours circonscrits (mucineux, triple négatif)",
+        "Sarcome mammaire",
+        "Lymphome",
+        "Hamartome"
+      ],
+      "examens_a_demander": [
+        "Microbiopsies échoguidées multiples (l'analyse stromale est essentielle)",
+        "Imagerie thoracique si phyllode maligne ou sarcome",
+        "Discussion en RCP"
+      ],
+      "diagnostic_final": "Tumeur phyllode borderline du sein droit (hypercellularité stromale modérée, atypies modérées, activité mitotique intermédiaire, bords focalement infiltrants), confirmée sur la pièce d'exérèse.",
+      "traitement": "Exérèse chirurgicale complète avec marges saines (tumorectomie large avec technique oncoplastique ; mastectomie si le rapport volume tumoral/volume mammaire ne permet pas une exérèse satisfaisante) ; pas de geste axillaire ; reprise chirurgicale si marges atteintes ; radiothérapie discutée en RCP pour les formes malignes ou récidivantes.",
+      "surveillance": "Examen clinique et échographie tous les 6 mois pendant 2-3 ans puis annuellement (récidives locales surtout dans les 2-3 premières années) ; mammographie annuelle selon l'âge.",
+      "evolution": "Exérèse large avec marges saines ; pas de récidive à 2 ans.",
+      "explication_pedagogique": "Une tumeur fibroépithéliale à croissance rapide après 40 ans doit faire évoquer une tumeur phyllode : la biopsie est indispensable, mais elle peut sous-estimer le grade (hétérogénéité). Le traitement est chirurgical (exérèse complète avec marges saines) sans geste axillaire, car la diffusion des formes malignes est hématogène. Elle se distingue du fibroadénome de la femme jeune, qui peut être simplement surveillé lorsqu'il est typique (BI-RADS 3).",
+      "questions": [
+        {
+          "question": "Quels critères histologiques classent une tumeur phyllode ?",
+          "reponse": "Cellularité et atypies stromales, activité mitotique, envahissement stromal (overgrowth), caractère des bords (refoulants ou infiltrants) : bénigne, borderline ou maligne (OMS 2019)."
+        },
+        {
+          "question": "Faut-il un ganglion sentinelle ?",
+          "reponse": "Non, les métastases ganglionnaires sont exceptionnelles ; les formes malignes diffusent par voie hématogène."
+        },
+        {
+          "question": "Quelle est la principale complication évolutive ?",
+          "reponse": "La récidive locale, surtout en cas de marges insuffisantes et de formes borderline ou malignes."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "WHO Classification of Tumours — Breast Tumours, 5th ed., IARC 2019",
+          "date": "2019"
+        },
+        {
+          "reference": "ACR BI-RADS Atlas, 5th ed., 2013",
+          "date": "2013"
+        },
+        {
+          "reference": "Loibl S et al. ESMO early breast cancer guideline. Ann Oncol 2024;35:159-182",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-07",
+      "date_creation": "2026-11-19",
+      "_lot": "DOS-07.json"
     }
   ]
 }
