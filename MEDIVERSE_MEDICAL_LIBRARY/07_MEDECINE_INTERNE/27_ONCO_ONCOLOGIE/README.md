@@ -6,10 +6,10 @@
 
 ## État
 
-- Items du résidanat rattachés : **21** — couverture brute 0 %, auditée 0 %
+- Items du résidanat rattachés : **21** — couverture brute 5 %, auditée 0 %
 - Dossiers pédagogiques : 0 (audités : 0)
 - QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
-- Ouvrages catalogués : 0 — recommandations : 0
+- Ouvrages catalogués : 13 — recommandations : 0
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
 
 ## Items du programme du résidanat
@@ -33,7 +33,7 @@
 | RES-CHI-039 | Tumeurs osseuses : Classification - diagnostic - traitement. | — | 0 | 0 |
 | RES-CHI-049 | Cancer du cavum : Diagnostic - traitement. | — | 0 | 0 |
 | RES-CHI-050 | Cancer du larynx : Diagnostic - traitement. | — | 0 | 0 |
-| RES-CHI-058 | Cancer du col de l'utérus : Epidémiologie - anatomie pathologique - dépistage - diagnostic - évolution – princ | — | 0 | 0 |
+| RES-CHI-058 | Cancer du col de l'utérus : Epidémiologie - anatomie pathologique - dépistage - diagnostic - évolution – princ | DOS-GYNE-0002 | 0 | 0 |
 | RES-CHI-059 | Cancer de l'endomètre : Epidémiologie - anatomie pathologique - diagnostic - évolution - principe de traitemen | — | 0 | 0 |
 | RES-CHI-061 | Tumeurs de l'ovaire : Anatomie pathologique - diagnostic - complications- traitement. | — | 0 | 0 |
 | RES-CHI-062 | Tumeurs du sein : Epidémiologie - anatomie pathologique - diagnostic - principe du traitement. | — | 0 | 0 |

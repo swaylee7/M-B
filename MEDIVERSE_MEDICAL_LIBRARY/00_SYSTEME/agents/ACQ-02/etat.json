@@ -1,9 +1,16 @@
 {
   "id": "ACQ-02",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "session_terminee_aucun_polycopie_accessible",
+  "derniere_execution": "2026-11-19T01:24:02+00:00",
+  "taches_terminees": [
+    "Exploration fmed.univ-tlemcen.dz et www.univ-mosta.dz/medecine (aucun polycopié libre)"
+  ],
+  "taches_suivantes": [
+    "Après ouverture des hôtes : elearn.univ-tlemcen.dz (vérifier l'accès sans authentification), univ-blida.dz, univ-bejaia.dz, facmed.univ-alger.dz",
+    "Ne rien acquérir derrière authentification ; polycopiés → local_uniquement"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "documents_acquis": 0
+  }
 }

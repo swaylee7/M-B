@@ -1,9 +1,18 @@
 {
   "id": "REC-01",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "lot_cree",
+  "derniere_execution": "2026-11-19T01:24:02+00:00",
+  "taches_terminees": [
+    "lots/REC-01.json : REC-0001 à REC-0008"
+  ],
+  "taches_suivantes": [
+    "Ajouter les guides techniques nationaux dès qu'ils sont acquis (plage REC-0009 à REC-0199)",
+    "Arrêté sur les modalités de déclaration des MDO (non retrouvé)"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "recommandations": 8,
+    "verifiees": 7,
+    "partielles": 1
+  }
 }

@@ -6,10 +6,10 @@
 
 ## État
 
-- Items du résidanat rattachés : **15** — couverture brute 0 %, auditée 0 %
+- Items du résidanat rattachés : **15** — couverture brute 7 %, auditée 0 %
 - Dossiers pédagogiques : 0 (audités : 0)
 - QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
-- Ouvrages catalogués : 0 — recommandations : 0
+- Ouvrages catalogués : 8 — recommandations : 0
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
 
 ## Items du programme du résidanat
@@ -24,7 +24,7 @@
 | RES-MED-088 | Hypocalcémies : Diagnostic et traitement. | — | 0 | 0 |
 | RES-MED-089 | Insuffisance surrénalienne : Diagnostic - traitement. | — | 0 | 0 |
 | RES-MED-090 | Phéochromocytomes : diagnostic - traitement. | — | 0 | 0 |
-| RES-MED-091 | Diabète sucré : Définition - épidémiologie - classification du diabète type I et Il - insuline et insulinothér | — | 0 | 0 |
+| RES-MED-091 | Diabète sucré : Définition - épidémiologie - classification du diabète type I et Il - insuline et insulinothér | DOS-DIAB-0001 | 0 | 0 |
 | RES-MED-093 | Diabète insipide : Diagnostic - traitement. | — | 0 | 0 |
 | RES-MED-094 | Syndrome métabolique : Physiopathologie - diagnostic et prise en charge. | — | 0 | 0 |
 | RES-MED-095 | Dyslipidémies : Classification et traitement. | — | 0 | 0 |

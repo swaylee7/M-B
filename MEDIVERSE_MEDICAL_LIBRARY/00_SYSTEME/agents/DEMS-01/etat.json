@@ -1,9 +1,17 @@
 {
   "id": "DEMS-01",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "etat_des_sources_redige",
+  "derniere_execution": "2026-11-19T01:24:02+00:00",
+  "taches_terminees": [
+    "ETAT_DES_SOURCES_DEMS.md",
+    "Liste des spécialités et durées (arrêté 1137/2015 + arrêtés 2023-2026)"
+  ],
+  "taches_suivantes": [
+    "Obtenir l'arrêté 173/2012 consolidé et les annexes-programmes (services.mesrs.dz)",
+    "Rédiger les fiches parcours par spécialité médicale (01_PARCOURS_PAR_SPECIALITE) à partir des textes acquis"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "textes_dems_acquis": 11
+  }
 }

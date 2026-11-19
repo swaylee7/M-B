@@ -6,21 +6,29 @@
 
 ## État
 
-- Items du résidanat rattachés : **8** — couverture brute 0 %, auditée 0 %
-- Dossiers pédagogiques : 0 (audités : 0)
-- QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
-- Ouvrages catalogués : 0 — recommandations : 0
+- Items du résidanat rattachés : **8** — couverture brute 38 %, auditée 0 %
+- Dossiers pédagogiques : 3 (audités : 0)
+- QCM : 37 — cas cliniques : 6 — pathologies référencées : 0
+- Ouvrages catalogués : 13 — recommandations : 0
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
+
+## Dossiers pédagogiques
+
+| ID | Titre | Statut | Mots |
+|---|---|---|---|
+| DOS-PNEU-0001 | [Tuberculose pulmonaire : bacille de la tuberculose, critères diagnostiques, programme national algérien de lutte contre la tuberculose](02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0001__TUBERCULOSE_PULMONAIRE_PROGRAMME_NATIONAL.md) | brouillon_a_auditer | 10601 |
+| DOS-PNEU-0002 | [Pneumonies : diagnostic et traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0002__PNEUMONIES_DIAGNOSTIC_TRAITEMENT.md) | brouillon_a_auditer | 7233 |
+| DOS-PNEU-0003 | [Asthme de l'adulte et de l'enfant : diagnostic et principes de traitement](02_DOSSIERS_PEDAGOGIQUES/DOS-PNEU-0003__ASTHME_ADULTE_ENFANT.md) | brouillon_a_auditer | 7770 |
 
 ## Items du programme du résidanat
 
 | Item | Intitulé | Dossier | QCM | Cas |
 |---|---|---|---|---|
-| RES-MED-040 | Pneumonie : Diagnostic - traitement. | — | 0 | 0 |
+| RES-MED-040 | Pneumonie : Diagnostic - traitement. | DOS-PNEU-0002 | 12 | 2 |
 | RES-MED-041 | Epanchements pleuraux liquidiens : Diagnostic - étiologie - traitement. | — | 0 | 0 |
-| RES-MED-042 | Tuberculose pulmonaire : Bacille de la tuberculose - critères diagnostiques - programme national de lutte cont | — | 0 | 0 |
+| RES-MED-042 | Tuberculose pulmonaire : Bacille de la tuberculose - critères diagnostiques - programme national de lutte cont | DOS-PNEU-0001 | 13 | 2 |
 | RES-MED-043 | Bronchite chronique : Classification - diagnostic - principes de traitement. | — | 0 | 0 |
 | RES-MED-044 | Insuffisance respiratoire chronique : Etiopathogénie - diagnostic - traitement. | — | 0 | 0 |
-| RES-MED-045 | Asthme de l'adulte et de l'enfant : Diagnostic - principes de traitement. | — | 0 | 0 |
+| RES-MED-045 | Asthme de l'adulte et de l'enfant : Diagnostic - principes de traitement. | DOS-PNEU-0003 | 12 | 2 |
 | RES-MED-046 | Cancers bronchiques primitifs : Classification et nosologie - indications thérapeutiques. | — | 0 | 0 |
 | RES-MED-047 | Syndrome médiastinaux : Diagnostic - étiologies - répartition. | — | 0 | 0 |

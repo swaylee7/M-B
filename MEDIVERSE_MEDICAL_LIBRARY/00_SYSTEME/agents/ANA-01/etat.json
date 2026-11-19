@@ -1,9 +1,87 @@
 {
   "id": "ANA-01",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "postes_couverts": [
+    "ANA-01",
+    "ANA-02",
+    "ANA-03",
+    "ANA-04",
+    "ANA-05",
+    "ANA-06",
+    "ANA-07",
+    "ANA-08",
+    "ANA-09",
+    "ANA-10",
+    "ANA-11",
+    "ANA-12",
+    "ANA-13",
+    "ANA-14",
+    "ANA-15",
+    "ANA-16",
+    "ANA-17",
+    "ANA-18",
+    "ANA-19",
+    "ANA-20"
+  ],
+  "statut": "lot_initial_termine_verification_a_completer",
+  "derniere_execution": "2026-11-19T01:25:21+00:00",
+  "taches_terminees": [
+    "Catalogue initial de 440 ouvrages (59 spécialités, >= 6 par spécialité) en 5 lots",
+    "Vérification NLM Catalog (NCBI E-utilities) des éditions/années/ISBN internationaux",
+    "Repérage d'ouvrages algériens (OPU, FOREM, ANEP, ENAG, Dahlab, Dar El Gharb) via catalogues de BU algériennes et NLM",
+    "Repérage de 26 ouvrages en accès ouvert légal (licences lues dans les paquets NCBI Bookshelf Open Access) + 2 en lecture gratuite non redistribuable"
+  ],
+  "taches_suivantes": [
+    "Vérifier sur les sites éditeurs (WebSearch) les 48 notices 'non_verifie' (surtout référentiels des Collèges français : édition EDN, année, éditeur, ISBN)",
+    "Confirmer les éditions plus récentes signalées dans 'notes' des 139 notices 'partiel' (ex. Sabiston 21e, Braunwald 12e/13e, Murray & Nadel 7e, Guyton 15e, Langman 15e) sans remplacer silencieusement",
+    "Interroger le catalogue OPU (www.opu.dz / www.udl.opu.dz) — hôtes non autorisés dans le réseau de la session — pour dernières éditions et ISBN des ouvrages algériens ; identifier le titre exact du manuel OPU de rhumatologie en anglais (2026) et des ouvrages Bougherbal et al. (traumatologie, 2016) et Fedala (hyperparathyroïdie, 2016)",
+    "Vérifier l'existence et les éditions des traductions françaises (Guyton, Netter, Gray's pour les étudiants, Harrison, Kanski, DSM-5-TR)",
+    "Renseigner 'dossiers_mediverse_associes' quand les dossiers DOS-* seront produits"
+  ],
+  "objectifs": {
+    "ouvrages_min": 300,
+    "specialites": 59,
+    "min_par_specialite": 4
+  },
+  "compteurs": {
+    "ouvrages": 440,
+    "par_lot": {
+      "ANA-algerie-france.json": 112,
+      "ANA-chirurgicales.json": 70,
+      "ANA-fondamentales.json": 80,
+      "ANA-medicales.json": 116,
+      "ANA-transversales.json": 62
+    },
+    "par_origine": {
+      "algerie": 56,
+      "france": 58,
+      "internationale": 326
+    },
+    "verification": {
+      "partiel": 139,
+      "verifie": 253,
+      "non_verifie": 48
+    },
+    "taux_verifie": 0.575,
+    "taux_verifie_ou_partiel": 0.891,
+    "acces_ouvert": 28,
+    "avec_isbn": 348,
+    "plages_id": {
+      "ANA-algerie-france.json": "OUV-0001..0112",
+      "ANA-fondamentales.json": "OUV-0150..0229",
+      "ANA-medicales.json": "OUV-0300..0415",
+      "ANA-chirurgicales.json": "OUV-0500..0569",
+      "ANA-transversales.json": "OUV-0650..0711"
+    }
+  },
+  "limites_session": [
+    "Budget WebSearch épuisé après ~21 requêtes (limite de 200 par tour partagée entre agents)",
+    "Réseau sortant restreint : seuls les hôtes NCBI (eutils, ftp, www) sont joignables ; sites éditeurs, OPU, BnF, SUDOC, Wikipedia inaccessibles"
+  ],
+  "lots": [
+    "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-algerie-france.json",
+    "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-chirurgicales.json",
+    "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-fondamentales.json",
+    "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-medicales.json",
+    "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-transversales.json"
+  ]
 }

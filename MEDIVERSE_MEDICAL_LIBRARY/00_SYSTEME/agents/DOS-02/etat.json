@@ -1,9 +1,26 @@
 {
   "id": "DOS-02",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "en_cours",
+  "derniere_execution": "2026-11-19T01:23:11+00:00",
+  "taches_terminees": [
+    "DOS-PNEU-0001",
+    "DOS-PNEU-0002",
+    "DOS-PNEU-0003"
+  ],
+  "taches_suivantes": [
+    "DOS-INFE-0001",
+    "DOS-INFE-0002",
+    "lots QCM/cas finaux",
+    "validation JSON"
+  ],
+  "objectifs": {
+    "dossiers": 5,
+    "qcm_min": 60,
+    "cas": 10
+  },
+  "compteurs": {
+    "dossiers": 3,
+    "qcm": 37,
+    "cas": 6
+  }
 }

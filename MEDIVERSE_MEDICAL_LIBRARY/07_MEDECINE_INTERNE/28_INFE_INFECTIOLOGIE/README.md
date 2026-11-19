@@ -6,10 +6,10 @@
 
 ## État
 
-- Items du résidanat rattachés : **15** — couverture brute 0 %, auditée 0 %
+- Items du résidanat rattachés : **15** — couverture brute 13 %, auditée 0 %
 - Dossiers pédagogiques : 0 (audités : 0)
 - QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
-- Ouvrages catalogués : 0 — recommandations : 0
+- Ouvrages catalogués : 11 — recommandations : 6
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
 
 ## Items du programme du résidanat
@@ -24,9 +24,9 @@
 | RES-MED-006 | Infection à VIH : Immuno-pathologie - diagnostic - évolution - complication - prévention - traitement. | — | 0 | 0 |
 | RES-MED-007 | Diarrhées infectieuses : Signes - diagnostic - traitement. | — | 0 | 0 |
 | RES-MED-008 | Brucellose : Diagnostic - traitement. | — | 0 | 0 |
-| RES-MED-019 | Hépatites virales (A, B, C) : Epidémiologie - diagnostic - évolution - traitement - prévention. | — | 0 | 0 |
+| RES-MED-019 | Hépatites virales (A, B, C) : Epidémiologie - diagnostic - évolution - traitement - prévention. | DOS-HEPA-0001 | 0 | 0 |
 | RES-MED-021 | Amibiase : Parasitologie - étiologie - évolution - prévention - traitement. | — | 0 | 0 |
-| RES-MED-042 | Tuberculose pulmonaire : Bacille de la tuberculose - critères diagnostiques - programme national de lutte cont | — | 0 | 0 |
+| RES-MED-042 | Tuberculose pulmonaire : Bacille de la tuberculose - critères diagnostiques - programme national de lutte cont | DOS-PNEU-0001 | 13 | 2 |
 | RES-MED-081 | Infections néonatales : Diagnostic - prévention - traitement. | — | 0 | 0 |
 | RES-MED-098 | Mal de Pott : Diagnostic et traitement. | — | 0 | 0 |
 | RES-CHI-038 | Ostéomyélite aiguë : Diagnostic - traitement. | — | 0 | 0 |
