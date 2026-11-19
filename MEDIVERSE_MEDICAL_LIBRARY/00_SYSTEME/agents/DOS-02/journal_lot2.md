@@ -7,3 +7,5 @@ Mission : DOS-INFE-0003 à 0007 (RES-MED-001, 002, 006, 004, 003) ; QCM-INFE-020
 - 2026-11-19 — WebSearch (15 requêtes) : certification OMS de l'Algérie (22/05/2019) ; Klemm mBio 2018 (XDR) ; note OMS vaccins typhoïde 2018 ; rage en Algérie (IPA, WOAH 2025) ; SSC 2021 (Evans, ICM) ; lénacapavir OMS 14/07/2025 ; paludisme d'importation Sud algérien 2020 (presse) ; SPILF paludisme 2017 ; Shakya NEJM 2019 ; Phoenix JAMA 2024 ; OMS cryptococcose 2022 ; Crump CMR 2015 ; données VIH Algérie (presse).
 - 2026-11-19 — DOS-INFE-0003 (fièvres typhoïde et paratyphoïdes) rédigé ; 13 QCM (QCM-INFE-0201…0213) et 2 cas (CAS-INFE-0201, 0202) générés par build.py (scratchpad) et insérés (§17, §20).
 - 2026-11-19 — DOS-INFE-0004 (paludisme) rédigé ; 13 QCM (QCM-INFE-0214…0226) et 2 cas (CAS-INFE-0203, 0204).
+- 2026-11-19 — DOS-INFE-0005 (infection à VIH) rédigé ; 13 QCM (QCM-INFE-0227…0239) et 2 cas (CAS-INFE-0205, 0206).
+- 2026-11-19 — DOS-INFE-0006 (états septicémiques / sepsis) rédigé ; 13 QCM (QCM-INFE-0240…0252) et 2 cas (CAS-INFE-0207, 0208). SSC 2026 citée d'après l'audit DOS-MINT_REA-0001 (texte non lu).

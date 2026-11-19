@@ -6,11 +6,17 @@ sous_specialite: "Législation du travail et réparation des risques professionn
 items_residanat: [RES-MED-142]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-10 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 13
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MTRA-0001.md
 sources:
   - id: S1
     reference: "Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles, JORADP n° 28 du 5 juillet 1983, p. 1210-1217 (DOC-00103 ; rédaction d'origine, titres I à VIII relus par l'auditeur), modifiée par l'ordonnance n° 96-19 du 6 juillet 1996, JORADP n° 42 du 7 juillet 1996, p. 13-14 (DOC-00104 : articles 7, 8, 36, 37, 39, 42 al. 4, 53 et 83 réécrits)."
@@ -689,7 +695,7 @@ Concernant les rôles respectifs des médecins dans le domaine des AT/MP, quelle
 | **Définition de l'AT** | Lésion corporelle imputable à une **cause soudaine, extérieure**, dans le cadre de la relation de travail (loi 83-13, art. 6) [S1] | France : accident survenu « par le fait ou à l'occasion du travail » (C. séc. soc., art. L.411-1), définition précisée par la jurisprudence [S11] | Formulations différentes, logique de présomption commune |
 | **Maladies hors tableaux** | Pas de prise en charge au titre des AT/MP (arrêté de 1996, art. 4) [S2] | France : système complémentaire de reconnaissance par un comité régional pour les maladies hors tableau ou ne remplissant pas toutes les conditions (C. séc. soc., art. L.461-1) [S11] ; OIT : liste ouverte avec point « autres maladies » [S10] | Différence majeure pour le patient |
 | **Liste des travaux** | Indicative (groupe 1) / limitative (groupes 2-3) [S2] | France : listes indicatives ou limitatives selon les tableaux [S11] | Vérifier chaque tableau |
-| **Délais et montants** | Rédaction de 1983 consultée (24 h, 48 h, 20 jours, 15 jours-3 mois, IJ, taux social 1-10 %, seuil de 10 %) [S1] | — | Vérifier la version consolidée et les textes ultérieurs `[À VÉRIFIER]` |
+| **Délais et montants** | Délais de 1983 inchangés par l'ordonnance 96-19 (24 h, 48 h, 4 ans, 20 jours, 15 jours-3 mois) ; IJ, salaire de référence et taux social (1-10 %, si IP ≥ 10 %) réécrits en 1996 [S1] | — | Modifications postérieures à 1996 non recherchées exhaustivement ; montants actuels auprès de la CNAS `[À VÉRIFIER]` |
 | **Contentieux médical** | Loi 83-15 (1983) [S6] ; texte actuellement en vigueur `[À VÉRIFIER]` | — | Expertise médicale en cas de désaccord sur l'état de la victime |
 
 ## 22. Références

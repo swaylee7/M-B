@@ -274,7 +274,7 @@ Elle repose sur l'**orientation des travées osseuses de compression** de la tê
 | **Garden III** | Fracture **complète, déplacement partiel en adduction (varus)** ; la tête bascule, ses travées sont **horizontalisées** et ne sont pas alignées avec celles du cotyle ; la corticale postérieure (charnière avec le pédicule rétinaculaire) est en partie conservée | Déplacée | Risque d'ostéonécrose et de pseudarthrose **élevé** |
 | **Garden IV** | Fracture **complète, déplacement total** ; la tête, libérée de toute attache au col, reprend sa place dans le cotyle : ses travées redeviennent **parallèles à celles du cotyle** | Déplacée | Risque **maximal** |
 
-- **En pratique**, la reproductibilité inter-observateurs entre les quatre stades est médiocre ; on raisonne surtout en **fractures non déplacées (I–II)** et **déplacées (III–IV)**, distinction qui guide le traitement [S1, S2].
+- **Limites** : la classification se lit sur le seul cliché de face et ignore la bascule postérieure de la tête, visible au profil ; la reproductibilité inter-observateurs entre les quatre stades est médiocre. **En pratique**, on raisonne surtout en **fractures non déplacées (I–II)** et **déplacées (III–IV)**, distinction qui guide le traitement [S1, S2].
 - Le **profil** (cliché de hanche de profil ou incidence « cross-table ») est indispensable : une bascule postérieure de la tête, invisible de face, peut faire sous-estimer le déplacement.
 
 ### 7.3 Classification de Pauwels (1935) — orientation du trait [S14]
@@ -286,7 +286,15 @@ Elle mesure l'**angle entre le trait de fracture et l'horizontale** (sur un clic
 | **Pauwels II** | 30–50° | Mixte | Intermédiaire |
 | **Pauwels III** | > 50° (trait proche de la verticale) | **Cisaillement** dominant | **Mauvais** : déplacement secondaire, pseudarthrose |
 
+Les seuils ci-dessus (I ≤ 30°, II 30–50°, III ≥ 50°) sont ceux de la publication originale ; des valeurs différentes, issues de mauvaises interprétations, circulent dans la littérature [S17].
+
 Intérêt : surtout chez le **sujet jeune** (fractures à haute énergie) traité par ostéosynthèse, pour choisir un montage résistant au cisaillement.
+
+**Limites** [S17, S18] :
+- l'angle se mesure sur un cliché de face ; il dépend de la rotation du membre et de la réduction, et se détermine mal avant la réduction ;
+- la reproductibilité inter- et intra-observateur est médiocre ;
+- la valeur pronostique n'est pas démontrée pour la majorité des fractures du sujet âgé, et les recommandations thérapeutiques d'origine sont datées.
+La classification garde une valeur **biomécanique** (cisaillement des traits verticaux), qui guide le choix du montage chez le sujet jeune.
 
 ### 7.4 Classification AO/OTA (compendium 2018) [S12]
 Région **31** = fémur proximal :
@@ -304,12 +312,12 @@ Les sous-groupes (déplacement, comminution, orientation du trait) sont détaill
 | **II** | **Transcervicale** | Élevé |
 | **III** | **Cervico-trochantérienne** (basicervicale) | Intermédiaire |
 | **IV** | **Intertrochantérienne** | Le plus faible |
-Le risque d'ostéonécrose est d'autant plus élevé que la fracture est **proximale** et **déplacée** [S11] [À VÉRIFIER — pourcentages par type].
+Le risque d'ostéonécrose est d'autant plus élevé que la fracture est **proximale** et **déplacée** [S11]. Dans une méta-analyse de 360 cas, il était de **38 %** (type I), **28 %** (type II), **18 %** (type III) et **5 %** (type IV) ; le type de fracture et l'âge en étaient les seuls facteurs prédictifs indépendants [S19].
 
 ### 7.6 Classifications fonctionnelles du patient (orientation thérapeutique)
 Le choix du traitement ne dépend pas seulement de la fracture mais aussi du **patient** :
 - **âge physiologique** (plutôt que civil) ;
-- **autonomie antérieure** : capacité de **marcher à l'extérieur seul, avec au plus une canne** (critère NICE pour proposer une prothèse totale) [S1] ;
+- **autonomie antérieure** : capacité de **marcher à l'extérieur seul, avec au plus une canne** (critère NICE pour envisager une prothèse totale ; cf. § 13.2.4) [S1] ;
 - **état cognitif** ;
 - **comorbidités** (score ASA) ;
 - **état de l'articulation** (coxarthrose, polyarthrite) ;
@@ -447,7 +455,7 @@ Le choix du traitement ne dépend pas seulement de la fracture mais aussi du **p
 
 #### 13.2.1 Analgésie préopératoire
 - **Évaluation de la douleur dès l'arrivée**, y compris chez le patient dément (échelles comportementales), et réévaluation régulière [S1].
-- **Paracétamol** systématique (toutes les 6 heures sauf contre-indication) [S1] ; posologie adaptée au poids et à la fonction hépatique [POSOLOGIE À VÉRIFIER — RCP].
+- **Paracétamol** systématique (toutes les 6 heures sauf contre-indication) [S1] : 1 g toutes les 6 heures chez l'adulte de plus de 50 kg (4 g/j au maximum) ; 15 mg/kg par prise (60 mg/kg/j, sans dépasser 3 g/j) si le poids est inférieur à 50 kg ; 3 g/j au maximum en cas d'insuffisance hépatocellulaire, de dénutrition ou de déshydratation (RCP).
 - **Opioïdes** en complément si nécessaire, avec titration prudente chez le sujet âgé (risque de délire, de dépression respiratoire, de constipation) [S1].
 - **AINS déconseillés** (insuffisance rénale, saignement digestif, rétention hydrosodée) [S1].
 - **Blocs nerveux périphériques** (bloc ilio-fascial, bloc fémoral, bloc péricapsulaire) : recommandés pour l'analgésie préopératoire et l'épargne morphinique [S1, S2] ; ils peuvent être réalisés aux urgences par un opérateur formé [posologie des anesthésiques locaux : POSOLOGIE À VÉRIFIER — protocole local].
@@ -456,13 +464,14 @@ Le choix du traitement ne dépend pas seulement de la fracture mais aussi du **p
 #### 13.2.2 Délai opératoire
 - **NICE** : opérer **le jour de l'admission ou le lendemain**, en identifiant et corrigeant sans délai les comorbidités qui peuvent l'être (anémie, anticoagulation, déshydratation, troubles électrolytiques, diabète déséquilibré, insuffisance cardiaque décompensée, arythmie corrigeable, infection aiguë) [S1].
 - **AAOS 2021** : une chirurgie dans les **24 à 48 heures** suivant l'admission peut être associée à de meilleurs résultats [S2] [À VÉRIFIER — force exacte de la recommandation].
-- **HIP ATTACK** (Lancet 2020) : une chirurgie accélérée (objectif ≤ 6 heures après le diagnostic) n'a pas réduit le critère composite mortalité / complications majeures à 90 jours par rapport aux soins standard ; certains critères secondaires (délire, délai de mobilisation, durée de séjour) étaient en faveur de la stratégie accélérée [S6] [À VÉRIFIER — détail des critères secondaires].
+- Le délai de **36 heures** souvent cité correspond à un indicateur d'audit britannique (délai depuis l'arrivée aux urgences), et non au libellé de la recommandation NICE, qui parle du jour de l'admission ou du lendemain [À VÉRIFIER — indicateur en vigueur].
+- **HIP ATTACK** (Lancet 2020) : 2 970 patients de 45 ans ou plus ; délai médian de 6 h dans le groupe accéléré contre 24 h. La chirurgie accélérée n'a réduit aucun des deux critères principaux à 90 jours : la mortalité (9 % contre 10 %) et le critère composite de complications majeures (22 % dans les deux groupes) [S6]. Certains critères secondaires (délire, délai de mobilisation, durée de séjour) étaient en faveur de la stratégie accélérée [À VÉRIFIER — détail des critères secondaires].
 - **Message** : il ne faut **pas retarder** la chirurgie pour des examens non indispensables ni pour une anomalie non corrigeable ; il faut **la retarder brièvement** pour corriger ce qui peut l'être rapidement.
 
 #### 13.2.3 Anesthésie
 - **Rachianesthésie** ou **anesthésie générale** : résultats comparables ; choix selon le patient et l'équipe [S2].
 - **Gestion des antithrombotiques** : antiagrégants en monothérapie (aspirine) ne contre-indiquent pas la chirurgie ; anticoagulants (AVK, AOD) : adaptation selon les protocoles (antagonisation des AVK, délai ou dosage des AOD) [À VÉRIFIER — protocoles SFAR/GIHP en vigueur].
-- **Acide tranexamique** : réduit les pertes sanguines et les transfusions [S2] [POSOLOGIE À VÉRIFIER — protocole local].
+- **Acide tranexamique** : réduit les pertes sanguines et les transfusions [S2] — par exemple 1 g IV lente à l'induction ; le RCP indique 0,5 à 1 g IV lente, 2 à 3 fois par jour, avec une dose réduite en insuffisance rénale, et une contre-indication en cas de thrombose veineuse ou artérielle aiguë.
 - **Transfusion** : stratégie restrictive ; pas de transfusion systématique au-dessus de **8 g/dL** chez le patient asymptomatique [S2].
 
 #### 13.2.4 Techniques chirurgicales
@@ -471,13 +480,14 @@ Le choix du traitement ne dépend pas seulement de la fracture mais aussi du **p
 | **Vissage cervical** (2–3 vis canulées parallèles) | Ostéosynthèse percutanée | Fracture **non déplacée** (Garden I–II) du sujet âgé ; fracture du sujet jeune réduite | Peu invasif, conserve la tête | Ostéonécrose, pseudarthrose, déplacement secondaire ; appui parfois différé chez le jeune |
 | **Vis-plaque dynamique (DHS / vis-plaque à compression)** ± vis anti-rotatoire | Vis céphalique glissant dans un canon | Fracture **basicervicale**, Pauwels III du jeune, fractures trochantériennes stables | Compression dynamique, résistance au cisaillement | Abord plus large |
 | **Prothèse céphalique / intermédiaire (hémiarthroplastie)** | Remplacement de la tête (prothèse unipolaire ou bipolaire) avec tige fémorale | Fracture **déplacée** du sujet âgé peu actif, cognitivement altéré ou fragile | Mise en charge immédiate, pas de risque de nécrose ni de pseudarthrose | Luxation, infection, usure cotyloïdienne chez l'actif ; résultats équivalents unipolaire vs bipolaire [S2] |
-| **Prothèse totale de hanche (PTH)** | Remplacement de la tête et du cotyle | Fracture **déplacée** chez un patient **actif, autonome, sans trouble cognitif, apte à l'anesthésie** ; **coxarthrose** préexistante [S1, S2] | Meilleure fonction chez le patient actif | **Luxation plus fréquente**, intervention plus longue |
-| **Clou céphalo-médullaire** | Enclouage avec vis céphalique | Fractures trochantériennes instables, sous-trochantériennes, trait oblique inversé [S1, S2] | Biomécanique favorable | — |
+| **Prothèse totale de hanche (PTH)** | Remplacement de la tête et du cotyle | Fracture **déplacée** chez un patient **actif, autonome, sans trouble cognitif, apte à l'anesthésie** ; **coxarthrose** préexistante [S1, S2] | Gain fonctionnel modeste chez le patient actif [S4] | **Luxation plus fréquente**, intervention plus longue |
+| **Clou céphalo-médullaire** | Enclouage avec vis céphalique | Fractures **sous-trochantériennes** et à **trait oblique inversé** [S1, S2] ; fractures trochantériennes instables selon les équipes (NICE préfère la vis-plaque pour les fractures trochantériennes A1–A2) [S1] | Biomécanique favorable | — |
 | **Traitement fonctionnel** (sans chirurgie) | Antalgie, lever précoce selon douleur | Exceptionnel : patient moribond, non ambulant dont la douleur est contrôlée, contre-indication anesthésique absolue | Évite l'anesthésie | Douleur, décubitus, déplacement secondaire (Garden I) |
 
 **Points de technique fondés sur des recommandations** :
-- Pour les **arthroplasties**, une **tige fémorale cimentée** est recommandée [S1, S2] ; NICE 2023 recommande que les hôpitaux utilisent un **type unique de tige cimentée** comme standard pour les prothèses intermédiaires [S1].
-- **FAITH** (Lancet 2017) : chez les patients ≥ 50 ans avec fracture du col traitée par ostéosynthèse, **pas de différence globale** de réintervention entre **vis canulées** et **vis-plaque dynamique** ; des analyses de sous-groupes suggéraient un bénéfice de la vis-plaque chez les fumeurs, les fractures déplacées et les fractures basicervicales [S5] [À VÉRIFIER — sous-groupes exploratoires].
+- **PTH ou prothèse intermédiaire (NICE, mise à jour de 2023)** : NICE recommande d'**envisager** (« consider ») une PTH plutôt qu'une prothèse intermédiaire chez le patient qui marchait seul à l'extérieur avec au plus une canne [S1]. Les autres conditions de la version 2023 sont à relire dans le texte en vigueur [À VÉRIFIER]. La version antérieure recommandait de **proposer** (« offer ») la PTH au patient autonome à l'extérieur, **sans trouble cognitif** et apte à l'anesthésie ; la mise à jour fait suite à l'essai HEALTH [S4].
+- Pour les **arthroplasties**, une **tige fémorale cimentée** est recommandée [S1, S2]. Le projet de mise à jour NICE de 2022 proposait que les hôpitaux utilisent un **type unique de tige cimentée** comme standard pour les prothèses intermédiaires [S1] [À VÉRIFIER — libellé final].
+- **FAITH** (Lancet 2017) : 1 108 patients de 50 ans ou plus avec fracture de faible énergie traitée par ostéosynthèse. Il n'y avait **pas de différence globale** de réintervention à 24 mois entre **vis canulées** et **vis-plaque dynamique** (22 % contre 20 %). L'ostéonécrose était plus fréquente avec la vis-plaque (9 % contre 5 %). Selon les auteurs, les fumeurs, les fractures déplacées et les fractures basicervicales pourraient tirer bénéfice de la vis-plaque ; ce sont des analyses de sous-groupes exploratoires [S5].
 - **HEALTH** (NEJM 2019) : chez des patients ≥ 50 ans, ambulants, avec fracture déplacée du col, la **PTH** n'a pas réduit le risque de **réintervention** à 24 mois par rapport à la prothèse intermédiaire ; elle donnait un **gain fonctionnel modeste** et davantage de **luxations** [S4].
 
 #### 13.2.5 Prise en charge postopératoire et orthogériatrique
@@ -491,13 +501,16 @@ Le choix du traitement ne dépend pas seulement de la fracture mais aussi du **p
 #### 13.2.6 Thromboprophylaxie
 - **Indication** : systématique après fracture de l'extrémité supérieure du fémur (risque élevé) [S7–S9].
 - **Moyens** : héparine de bas poids moléculaire (HBPM) ou fondaparinux ; contention mécanique si contre-indication des anticoagulants [S7, S9].
-- **Posologies usuelles** : énoxaparine **4 000 UI (40 mg) SC une fois par jour** (posologie « risque élevé » du RCP) ; fondaparinux **2,5 mg SC une fois par jour**, première injection 6 heures après la fin de l'intervention (RCP) — adaptation à la fonction rénale obligatoire [POSOLOGIE À VÉRIFIER — RCP / protocole local].
-- **Durée** : prolongée, de l'ordre de **4 à 5 semaines** après chirurgie de fracture de hanche [S9] [À VÉRIFIER — durée exacte selon SFAR 2011 et ESA 2018].
-- Si la chirurgie est retardée, la prophylaxie est débutée dès l'admission et interrompue avant l'intervention selon le délai propre à la molécule [S9].
+- **Posologies usuelles** (RCP), après calcul de la clairance de la créatinine :
+  - énoxaparine **4 000 UI (40 mg) SC une fois par jour** (posologie « risque élevé ») ; **2 000 UI/j** si la ClCr est comprise entre 15 et 30 mL/min ;
+  - fondaparinux **2,5 mg SC une fois par jour**, première injection 6 heures après la fin de l'intervention si l'hémostase est assurée ; 1,5 mg/j si la ClCr est comprise entre 20 et 50 mL/min ; contre-indiqué si la ClCr est inférieure à 20 mL/min.
+- **Délais selon NICE NG89** [S16] : HBPM débutée 6 à 12 heures après l'intervention, ou fondaparinux 6 heures après si le risque hémorragique est faible.
+- **Durée** : **1 mois** après une fracture de fragilité de l'extrémité supérieure du fémur, si le risque thromboembolique l'emporte sur le risque hémorragique (NICE NG89 [S16]) ; la SFAR 2011 recommande aussi une prophylaxie prolongée [S9] [À VÉRIFIER — durée exacte du texte SFAR].
+- **Si la chirurgie est retardée** au-delà du lendemain de l'admission, une prophylaxie préopératoire peut être débutée [S16]. La dernière dose est administrée au moins 12 heures avant l'intervention pour une HBPM et 24 heures avant pour le fondaparinux [S16].
 - Les recommandations européennes de l'ESA consacrent un chapitre au sujet âgé [S8] et un chapitre à l'aspirine [À VÉRIFIER — place de l'aspirine dans la fracture de hanche].
 
 #### 13.2.7 Prévention secondaire de la fracture (« fracture liaison »)
-- Toute FESF de faible énergie après 50 ans est une **fracture de fragilité** : elle justifie un **traitement anti-ostéoporotique** (le plus souvent un bisphosphonate, voie orale ou intraveineuse) **sans attendre** systématiquement une ostéodensitométrie, ainsi qu'une supplémentation en **vitamine D** et un apport calcique suffisant [S10] [POSOLOGIE À VÉRIFIER — RCP].
+- Toute FESF de faible énergie après 50 ans est une **fracture de fragilité** : elle justifie un **traitement anti-ostéoporotique** (le plus souvent un bisphosphonate, voie orale ou intraveineuse) **sans attendre** systématiquement une ostéodensitométrie, ainsi qu'une supplémentation en **vitamine D** et un apport calcique suffisant [S10]. Exemples (RCP) : **acide zolédronique 5 mg IV une fois par an**, perfusé au moins 2 semaines après la chirurgie de la fracture de hanche, après correction d'une carence en vitamine D, et contre-indiqué si la ClCr est inférieure à 35 mL/min ; ou **alendronate 70 mg une fois par semaine** per os.
 - **Évaluation et prévention des chutes** : révision des médicaments, rééducation de l'équilibre, aménagement du domicile, traitement de l'hypotension orthostatique, des troubles visuels, apprentissage du relever du sol [S15].
 - Organisation d'une **filière de prévention secondaire** (infirmière ou médecin coordinateur) [S10].
 
@@ -511,7 +524,7 @@ FRACTURE DU COL DU FÉMUR
 │     │        (prothèse discutée si coxarthrose, très grand âge, fracture à risque de déplacement)
 │     └── DÉPLACÉE (Garden III–IV)
 │            ├── Actif, marche seul à l'extérieur (≤ 1 canne), pas de trouble cognitif, apte
-│            │      → PROTHÈSE TOTALE (cimentée) [NICE]
+│            │      → PROTHÈSE TOTALE (cimentée) à envisager [NICE 2023]
 │            ├── Peu actif, troubles cognitifs, fragile
 │            │      → PROTHÈSE INTERMÉDIAIRE / CÉPHALIQUE CIMENTÉE
 │            └── Coxarthrose préexistante → PROTHÈSE TOTALE
@@ -595,7 +608,7 @@ Fracture du col
 └── Déplacée (Garden III–IV)
       ├── < 60–65 ans → réduction anatomique urgente + ostéosynthèse
       └── Âgé
-            ├── Actif, autonome à l'extérieur, cognition normale, apte → PTH cimentée
+            ├── Actif, autonome à l'extérieur, cognition normale, apte → PTH cimentée (à envisager)
             └── Autres → prothèse intermédiaire cimentée
 ```
 
@@ -611,7 +624,7 @@ Fracture du col
 2. *Quels problèmes médicaux identifiez-vous avant la chirurgie ?*
    → **Séjour prolongé au sol** : hypothermie modérée, **rhabdomyolyse** (CPK 2 400), **insuffisance rénale aiguë fonctionnelle** probable (urée/créatinine), hyponatrémie modérée ; **délire** (désorientation) ; chute favorisée par la **benzodiazépine**, la **nycturie** et possiblement une **hypotension orthostatique** (bisoprolol, amlodipine) [S15].
 3. *Quelle prise en charge préopératoire ?*
-   → Réchauffement, **réhydratation IV** prudente, surveillance de la diurèse et de la créatinine ; **paracétamol** systématique, **bloc ilio-fascial**, opioïde titré si besoin, **pas d'AINS** [S1, S2] ; pas de traction ; HBPM préventive adaptée à la fonction rénale [POSOLOGIE À VÉRIFIER — RCP] ; prévention du délire (arrêt progressif à discuter du bromazépam pour éviter un sevrage, orientation, lunettes) ; avis gériatrique ; **chirurgie dès que l'insuffisance rénale et l'hydratation sont corrigées, idéalement dans les 24–48 h** [S1, S2].
+   → Réchauffement, **réhydratation IV** prudente, surveillance de la diurèse et de la créatinine ; **paracétamol** systématique, **bloc ilio-fascial**, opioïde titré si besoin, **pas d'AINS** [S1, S2] ; pas de traction ; HBPM préventive adaptée à la clairance de la créatinine, à calculer (énoxaparine 4 000 UI/j, ou 2 000 UI/j si la ClCr est comprise entre 15 et 30 mL/min ; cf. § 13.2.6) ; prévention du délire (arrêt progressif à discuter du bromazépam pour éviter un sevrage, orientation, lunettes) ; avis gériatrique ; **chirurgie dès que l'insuffisance rénale et l'hydratation sont corrigées, idéalement dans les 24–48 h** [S1, S2].
 4. *Quel traitement chirurgical ?*
    → Fracture déplacée chez une patiente **autonome à l'extérieur sans aide** : une **prothèse totale de hanche cimentée** se discute selon NICE, **à condition** que les troubles cognitifs soient un délire transitoire et non une démence et qu'elle soit apte à l'intervention [S1] ; à défaut (doute cognitif persistant, fragilité), **prothèse intermédiaire cimentée** [S1, S2, S4]. L'ostéosynthèse est déconseillée (risque élevé de nécrose et de pseudarthrose, mise en charge impossible).
 5. *Quelles mesures postopératoires et à la sortie ?*
@@ -627,10 +640,10 @@ Fracture du col
 3. **Pauwels** : angle du trait > 50° (type III) = cisaillement = risque d'échec de l'ostéosynthèse chez le jeune [S14].
 4. **Delbet** (enfant) : I transépiphysaire → IV intertrochantérienne ; risque de nécrose décroissant de I à IV [S11].
 5. Clinique : raccourcissement, **rotation externe**, adduction ; piège de la fracture **engrenée en valgus** qui permet la marche. Radiographies normales + suspicion → **IRM** [S1].
-6. Sujet âgé : **ostéosynthèse** si non déplacée, **arthroplastie cimentée** si déplacée (PTH si actif et autonome, cognition normale ; prothèse intermédiaire sinon) [S1, S2, S4].
+6. Sujet âgé : **ostéosynthèse** si non déplacée, **arthroplastie cimentée** si déplacée (PTH à envisager si actif et autonome, cognition normale ; prothèse intermédiaire sinon) [S1, S2, S4].
 7. Sujet jeune : **urgence**, réduction anatomique et **ostéosynthèse** conservatrice.
 8. **Chirurgie le jour même ou le lendemain** (NICE) / dans les 24–48 h (AAOS) ; **paracétamol + blocs nerveux**, pas d'AINS, pas de traction [S1, S2].
-9. **Mise en charge complète dès J1**, filière **orthogériatrique**, thromboprophylaxie prolongée [S1, S9].
+9. **Mise en charge complète dès J1**, filière **orthogériatrique**, thromboprophylaxie prolongée (1 mois selon NICE NG89) [S1, S9, S16].
 10. **Prévention secondaire** : traitement de l'ostéoporose et prévention des chutes [S10, S15].
 
 ## 19. Pièges classiques à l'examen
@@ -736,10 +749,10 @@ E. Programme de prévention des chutes.
 | Sujet | Position A | Position B | Commentaire |
 |---|---|---|---|
 | **Délai opératoire** | NICE CG124 (MAJ 2023) : le jour de l'admission ou le lendemain [S1] | AAOS 2021 : dans les 24–48 h [S2] ; HIP ATTACK : la chirurgie ultra-précoce (≤ 6 h) ne réduit pas le critère principal [S6] | Concordance sur l'idée « tôt, après correction rapide de ce qui est corrigeable » |
-| **PTH vs prothèse intermédiaire** | NICE : PTH si marche autonome à l'extérieur (≤ 1 canne), pas de trouble cognitif, apte [S1] | AAOS : la PTH peut être bénéfique chez des patients correctement sélectionnés [S2] ; HEALTH : pas de différence de réintervention, gain fonctionnel modeste, plus de luxations [S4] | Indication de PTH plus restrictive qu'auparavant pour certains auteurs ; décision partagée |
+| **PTH vs prothèse intermédiaire** | NICE (avant 2023) : proposer une PTH si marche autonome à l'extérieur (≤ 1 canne), pas de trouble cognitif, apte ; NICE 2023 : PTH à envisager (« consider ») chez le patient autonome à l'extérieur [S1] | AAOS : la PTH peut être bénéfique chez des patients correctement sélectionnés [S2] ; HEALTH : pas de différence de réintervention, gain fonctionnel modeste, plus de luxations [S4] | Indication de PTH plus restrictive qu'auparavant pour certains auteurs ; décision partagée |
 | **Fracture non déplacée du sujet très âgé** | Ostéosynthèse (pratique majoritaire) | Arthroplastie discutée (risque de déplacement secondaire et de réintervention) [S2] [À VÉRIFIER — option AAOS] | Données randomisées limitées |
 | **Implant d'ostéosynthèse** | Vis canulées (moins invasives) | Vis-plaque (meilleure dans certains sous-groupes de FAITH) [S5] | Pas de différence globale |
-| **Thromboprophylaxie** | SFAR 2011 : HBPM ou fondaparinux, durée prolongée [S9] | ESA 2018 : chapitres sujet âgé et aspirine (place de l'aspirine discutée) [S7, S8] [À VÉRIFIER] | Pratique française : HBPM ou fondaparinux |
+| **Thromboprophylaxie** | SFAR 2011 : HBPM ou fondaparinux, durée prolongée [S9] ; NICE NG89 (2018, mise à jour 2019) : HBPM ou fondaparinux pendant 1 mois [S16] | ESA 2018 : chapitres sujet âgé et aspirine (place de l'aspirine discutée) [S7, S8] [À VÉRIFIER] | Pratique française : HBPM ou fondaparinux |
 | **Transfusion** | AAOS : stratégie restrictive (pas au-dessus de 8 g/dL si asymptomatique) [S2] | Seuils plus élevés chez le coronarien selon certains protocoles [À VÉRIFIER] | Individualiser selon la tolérance |
 
 ---

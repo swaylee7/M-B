@@ -6,11 +6,17 @@ sous_specialite: "Otologie — infections ORL de l'enfant et de l'adulte"
 items_residanat: [RES-CHI-044]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 6
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0001.md
 sources:
   - id: S1
     reference: "Haute Autorité de santé (HAS), SPILF, GPIP. Choix et durées d'antibiothérapies : otite moyenne aiguë purulente de l'enfant. Fiche mémo — recommandation de bonne pratique. Validée le 15 juillet 2021, mise à jour le 14 mai 2025."
@@ -100,13 +106,21 @@ sources:
     doi: ""
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018049.pdf"
     verifiee: true
+  - id: S12
+    reference: "Ramdani-Bouguessa N, Ziane H, Bekhoucha S, et al. Evolution of antimicrobial resistance and serotype distribution of Streptococcus pneumoniae isolated from children with invasive and noninvasive pneumococcal diseases in Algeria from 2005 to 2012. New Microbes New Infect. 2015;6:42-48 (PMID 26106481, PMC4475694 ; texte intégral lu)."
+    organisme: ""
+    annee: 2015
+    type: article
+    doi: "10.1016/j.nmni.2015.02.008"
+    url: ""
+    verifiee: true
 mots_cles: [otite moyenne aiguë, OMA purulente, otoscopie, tympan bombé, amoxicilline, Streptococcus pneumoniae, Haemophilus influenzae, mastoïdite, otite séromuqueuse, enfant]
 ---
 
 # Otite moyenne aiguë : définition, diagnostic, évolution, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 2026-11-19, v1.1) — relecture enseignant non encore réalisée. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-044 — « Otite moyenne aiguë : Définition - diagnostic - évolution - traitement » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -156,7 +170,7 @@ Autres définitions utiles :
 - **Pic d'incidence entre 6 mois et 2 ans** ; la fréquence diminue nettement après 6-7 ans, en lien avec la maturation de la trompe auditive et du système immunitaire. L'OMA de l'adulte est beaucoup plus rare [S6].
 - **Saisonnalité hivernale**, parallèle à la circulation des virus respiratoires (VRS, rhinovirus, grippe, adénovirus), qui précèdent et favorisent la surinfection bactérienne.
 - **Facteurs de risque** reconnus : garde en collectivité (crèche), fratrie nombreuse, **tabagisme passif**, absence d'allaitement maternel, usage prolongé de la tétine, antécédents familiaux, fente palatine, trisomie 21, déficits immunitaires [S6].
-- **Algérie / Maghreb** : nous n'avons pas identifié, pendant la session, de données nationales publiées et vérifiables sur l'incidence de l'OMA ou sur les résistances du pneumocoque isolé d'otites en Algérie. **[À VÉRIFIER — données INSP / réseau algérien de surveillance de la résistance aux antibiotiques]**. En pratique, l'OMA est un motif très fréquent de consultation en pédiatrie et en médecine générale, et le calendrier vaccinal algérien de 2018 inclut le vaccin pneumococcique conjugué 13-valent (voir § 15) [S11].
+- **Algérie / Maghreb** : aucune donnée nationale publiée sur l'incidence de l'OMA n'a été identifiée. Pour la résistance du pneumocoque, une étude prospective algérienne (Alger et Oran, 2005-2012, période antérieure à l'introduction du VPC) portant sur 270 souches pédiatriques retrouve une sensibilité diminuée à la pénicilline dans 48 % des souches (I 20,6 %, R 27,5 %), contre environ 3 % de sensibilité diminuée à l'amoxicilline (I 2,6 %, R 0,4 %) ; pour les 47 souches d'**otites**, pénicilline I 25,5 % et R 10,6 %, aucune souche de sensibilité diminuée à l'amoxicilline ni au céfotaxime [S12]. Ces données justifient la forte dose d'amoxicilline ; elles précèdent la généralisation du VPC (inscrit au calendrier national par les arrêtés de 2014 puis 2018). **[À VÉRIFIER — données de surveillance postérieures à la vaccination (réseau algérien de surveillance de la résistance)]**. En pratique, l'OMA est un motif très fréquent de consultation en pédiatrie et en médecine générale, et le calendrier vaccinal algérien de 2018 inclut le vaccin pneumococcique conjugué 13-valent (voir § 15) [S11].
 
 ## 4. Rappels anatomiques et physiologiques
 
@@ -362,7 +376,7 @@ Excellent dans l'immense majorité des cas. La vigilance porte sur le **nourriss
 | **Amoxicilline–acide clavulanique** (syndrome otite-conjonctivite) | **80 mg/kg/j** (dose exprimée en amoxicilline) en 2 prises, sans dépasser 3 g/j | — | Cible *H. influenzae* producteur de β-lactamase |
 | **Cefpodoxime proxétil** (allergie documentée aux pénicillines sans contre-indication aux céphalosporines) | **8 mg/kg/j en 2 prises**, sans dépasser 400 mg/j | 400 mg/j en 2 prises | Céphalosporine orale de 3e génération |
 | **Céfuroxime axétil** (même indication) | — | 500 mg/j en 2 prises | Alternative de l'adulte [S2] |
-| **Sulfaméthoxazole–triméthoprime** (contre-indication à toutes les β-lactamines) | **30 mg/kg/j + 6 mg/kg/j en 2 prises**, sans dépasser 800/160 mg/j | 800 mg + 160 mg, 2 fois par jour selon la fiche adulte [POSOLOGIE À VÉRIFIER — RCP / protocole local] | Efficacité moindre sur le pneumocoque ; surveiller la tolérance |
+| **Sulfaméthoxazole–triméthoprime** (contre-indication à toutes les β-lactamines) | **30 mg/kg/j + 6 mg/kg/j en 2 prises**, sans dépasser 800/160 mg/j | **800 mg + 160 mg, 2 fois par jour** (soit 1 600/320 mg/j), 5 jours [S2] — le libellé de la fiche (« 800 mg par jour + 160 mg par jour, 2 fois par jour ») est ambigu ; il correspond à la posologie adulte usuelle d'un comprimé dosé à 800/160 mg deux fois par jour | Efficacité moindre sur le pneumocoque ; surveiller la tolérance (cutanée, hématologique, kaliémie) et les interactions (AVK) |
 | **Pristinamycine** (contre-indication aux β-lactamines) | — | 2 g/j en 2 prises | Adulte uniquement [S2] |
 
 > **Remarque Algérie** : la disponibilité et les formes galéniques (cefpodoxime en suspension pédiatrique, pristinamycine) doivent être vérifiées dans la nomenclature nationale des produits pharmaceutiques. **[À VÉRIFIER — nomenclature MSPRH / disponibilité locale]**.
@@ -435,8 +449,9 @@ Persistance / aggravation des signes 48-72 h après le début du traitement
 │
 ├─ 3. Si échec sous amoxicilline
 │     → changement d'antibiotique selon l'avis du spécialiste ; les recommandations SPILF 2011
-│       proposaient amoxicilline–acide clavulanique ou cefpodoxime [S9]
-│       [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; chez l'adulte : avis spécialisé [S2]
+│       proposaient amoxicilline–acide clavulanique ou cefpodoxime [S9] (texte non relu),
+│       aux posologies pédiatriques de la fiche HAS : 80 mg/kg/j d'amoxicilline (max 3 g/j)
+│       ou 8 mg/kg/j de cefpodoxime (max 400 mg/j), en 2 prises [S1] ; chez l'adulte : avis spécialisé [S2]
 │
 └─ 4. Nouvel échec, ou nourrisson jeune, ou immunodépression
       → PARACENTÈSE avec prélèvement bactériologique (antibiogramme) et avis ORL
@@ -780,7 +795,7 @@ Otalgie et/ou fièvre et/ou irritabilité
 | AINS | 2e intention, douleur seulement, pas en cas de varicelle | Antalgiques (paracétamol ou ibuprofène) recommandés | La France encadre plus strictement les AINS chez l'enfant |
 | Prévention | Vaccination (calendrier national) | VPC, grippe annuelle, allaitement ≥ 6 mois, éviction du tabac ; pas d'antibioprophylaxie | Convergence sur l'absence d'antibioprophylaxie |
 
-**Données de synthèse** : la revue Cochrane 2023 [S7] confirme un bénéfice modeste des antibiotiques sur la douleur et certaines complications locales, contrebalancé par les effets indésirables, ce qui soutient les deux stratégies d'abstention ciblée. **En contexte algérien**, en l'absence de recommandation nationale identifiée et de données publiées sur la résistance du pneumocoque otologique, nous proposons de suivre le schéma français, en veillant à la qualité de l'otoscopie et à la possibilité réelle de réévaluation à 48-72 h avant de choisir l'abstention. **[À VÉRIFIER — données nationales de résistance]**.
+**Données de synthèse** : la revue Cochrane 2023 [S7] confirme un bénéfice modeste des antibiotiques sur la douleur et certaines complications locales, contrebalancé par les effets indésirables, ce qui soutient les deux stratégies d'abstention ciblée. **En contexte algérien**, en l'absence de recommandation nationale identifiée, nous proposons de suivre le schéma français, en veillant à la qualité de l'otoscopie et à la possibilité réelle de réévaluation à 48-72 h avant de choisir l'abstention. Les seules données algériennes publiées identifiées (2005-2012, avant le VPC13) montrent une sensibilité diminuée à la pénicilline fréquente mais une amoxicilline restée active, y compris sur les souches d'otites [S12]. **[À VÉRIFIER — données de résistance postérieures à la généralisation du VPC]**.
 
 ## 22. Références
 
@@ -794,4 +809,5 @@ Otalgie et/ou fièvre et/ou irritabilité
 8. **[S8]** de Sévaux JLH, Damoiseaux RA, van de Pol AC, et al. Paracetamol or NSAIDs, alone or combined, for pain relief in acute otitis media in children. Cochrane Database Syst Rev. 2023;8:CD011534. doi:10.1002/14651858.CD011534.pub3.
 9. **[S9]** SPILF, SFP, GPIP. Antibiothérapie par voie générale en pratique courante dans les infections respiratoires hautes de l'enfant et de l'adulte. 2011 (référence citée par les fiches HAS ; texte non consulté pendant la session).
 10. **[S10]** Wintenberger C, Guery B, Bonnet E, et al. Proposal for shorter antibiotic therapies. Med Mal Infect. 2017;47(2):92-141. doi:10.1016/j.medmal.2017.01.007.
-11. **[S11]** Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n°49 du 8 août 2018 (complété par l'arrêté du 28 avril 2026).
+11. **[S11]** Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles. JORADP n°49 du 8 août 2018 (complété par l'arrêté du 28 avril 2026). Le texte de 2018 (DOC-00070, relu) mentionne l'« anti-pneumococcique 13 » à 2, 4 et 12 mois.
+12. **[S12]** Ramdani-Bouguessa N, Ziane H, Bekhoucha S, et al. Evolution of antimicrobial resistance and serotype distribution of Streptococcus pneumoniae isolated from children with invasive and noninvasive pneumococcal diseases in Algeria from 2005 to 2012. New Microbes New Infect. 2015;6:42-48. doi:10.1016/j.nmni.2015.02.008.

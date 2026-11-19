@@ -4,7 +4,12 @@ titre: "Fiche — Malnutrition protéino-calorique de l'enfant"
 specialite: PEDI
 items_residanat: [RES-MED-067]
 dossier_source: DOS-PEDI-0003
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-PEDI-0003 v1.2 : seuils d'alerte FR/FC selon le contexte (Pocket book OMS 2013) et polypnée par âge."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -55,7 +60,7 @@ sources:
 
 # Fiche — Malnutrition protéino-calorique (RES-MED-067)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PEDI-0003 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Référentiel : **OMS** (manuel 1999 [S1], mises à jour 2013 [S2], Pocket book 2013 [S6], **ligne directrice 2023** [S3]). Protocole national algérien et disponibilité des produits (F-75, F-100, ATPE, ReSoMal) `[À VÉRIFIER — MSPRH, Pharmacie centrale des hôpitaux, UNICEF Algérie]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PEDI-0003 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Référentiel : **OMS** (manuel 1999 [S1], mises à jour 2013 [S2], Pocket book 2013 [S6], **ligne directrice 2023** [S3]). Protocole national algérien et disponibilité des produits (F-75, F-100, ATPE, ReSoMal) `[À VÉRIFIER — MSPRH, Pharmacie centrale des hôpitaux, UNICEF Algérie]`.
 
 ## 1. Définition (2 lignes)
 
@@ -148,7 +153,7 @@ STABILISATION (J1–J7)                       RÉHABILITATION (semaines 2–6)
 
 ## 5. Surveillance et complications
 
-- Quotidiens : poids (même balance), œdèmes, appétit, apports (≥ 80 %) ; FR/FC **toutes les 4 h** en stabilisation/transition ; température 2–4/j ; PB hebdomadaire ; taille mensuelle.
+- Quotidiens : poids (même balance), œdèmes, appétit, apports (≥ 80 %) ; FR/FC **toutes les 4 h** en stabilisation/transition (alerte : FR + 5 et FC + 25/min sous ReSoMal ou en transition ; FR + 5 et FC + 15/min sous perfusion ; FR + 5 ou FC + 25/min en transfusion) ; polypnée OMS : ≥ 60/min < 2 mois, ≥ 50/min 2–11 mois, ≥ 40/min 1–5 ans ; température 2–4/j ; PB hebdomadaire ; taille mensuelle.
 - **Perte de poids initiale** du kwashiorkor = fonte des œdèmes, **pas un échec**.
 - **Échec** primaire (pas d'appétit à J4, œdèmes persistants) ou secondaire (perte de poids en réhabilitation) → erreurs de préparation, **infection cachée** (tuberculose, ECBU, VIH, parasitose), malnutrition secondaire, problème psychosocial.
 - Complications : hypoglycémie (souvent asymptomatique), hypothermie, sepsis sans fièvre, choc mixte, hypo-K/Mg/P, **insuffisance cardiaque** (surcharge, anémie, thiamine), **syndrome de renutrition** (hypophosphatémie, Gayet-Wernicke), kératomalacie.

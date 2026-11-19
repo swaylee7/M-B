@@ -6,11 +6,17 @@ sous_specialite: "Traumatologie médico-légale et droit médical"
 items_residanat: [RES-MED-139]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-10 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MLEG-0001.md
 sources:
   - id: S1
     reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46 du 29 juillet 2018 (DOC-00074 ; articles 21-28, 38-39, 165-184, 198-204, 292-296, 343-344, 413-421 lus)."

@@ -761,3 +761,160 @@ La **constriction** (risque de l'ordre de 20 à 30 % dans les formes bactérienn
 11. Prescrire de l'**aspirine** à un enfant (syndrome de Reye) ou des AINS après 20 SA.
 12. Demander des **sérologies virales** systématiques.
 
+---
+
+## 20. QCM d'auto-évaluation
+
+> Ces QCM sont repris dans la banque structurée (lot DOS-01-lot2) avec les mêmes identifiants. Réponses multiples possibles sauf mention QCS.
+
+**QCM 1** (QCM-CARD-0125 — QCM) — Chez un homme de 31 ans souffrant d'une douleur thoracique depuis 24 heures, quels aspects de l'ECG orientent vers une péricardite aiguë plutôt que vers un infarctus avec sus-décalage de ST ?
+
+- A. Un sus-décalage de ST diffus, ne correspondant pas à un territoire coronaire.
+- B. Un sus-décalage de ST concave vers le haut.
+- C. Un sous-décalage du segment PR.
+- D. Un sous-décalage de ST en miroir dans les dérivations opposées au territoire du sus-décalage.
+- E. L'apparition d'ondes Q de nécrose.
+
+**QCM 2** (QCM-CARD-0126 — QCS) — Selon les critères de l'ESC 2015, quelle association suffit à retenir le diagnostic de péricardite aiguë ?
+
+- A. Une élévation isolée de la CRP et de la VS.
+- B. Une douleur thoracique de type péricardique associée à un sous-décalage de PR et un sus-décalage de ST diffus récent.
+- C. Un épanchement péricardique de 5 mm isolé chez un patient asymptomatique en insuffisance cardiaque chronique.
+- D. Une fièvre isolée à 38,5 °C.
+- E. Une élévation isolée de la troponine.
+
+**QCM 3** (QCM-CARD-0127 — QCM) — Selon l'ESC 2015, lesquels des éléments suivants sont des critères MAJEURS de mauvais pronostic d'une péricardite aiguë, imposant l'hospitalisation ?
+
+- A. Fièvre supérieure à 38 °C.
+- B. Début subaigu, sur plusieurs jours ou semaines.
+- C. Épanchement péricardique de plus de 20 mm en télédiastole.
+- D. Absence de réponse à l'aspirine ou aux AINS après au moins une semaine de traitement.
+- E. Élévation de la troponine.
+
+**QCM 4** (QCM-CARD-0128 — QCM) — Une femme de 29 ans, 62 kg, présente un premier épisode de péricardite aiguë sans critère de gravité. Concernant la colchicine, quelles propositions sont exactes ?
+
+- A. La posologie est de 0,5 mg une fois par jour.
+- B. Une dose de charge de 2 mg le premier jour est recommandée.
+- C. La durée est de 3 mois pour un premier épisode.
+- D. Elle réduit environ de moitié le risque de récidive.
+- E. L'association à la clarithromycine expose à une toxicité grave.
+
+**QCM 5** (QCM-CARD-0130 — QCM) — Concernant la corticothérapie dans les péricardites aiguës, quelles propositions sont exactes ?
+
+- A. Elle est un traitement de deuxième intention, après échec ou contre-indication de l'aspirine/des AINS et de la colchicine.
+- B. Elle impose d'avoir exclu une cause infectieuse, en particulier tuberculeuse ou bactérienne.
+- C. Une dose de prednisone de 1 mg/kg/j est recommandée pour limiter les récidives.
+- D. Elle est associée à la colchicine.
+- E. Sa décroissance doit être lente, après normalisation de la CRP.
+
+**QCM 6** (QCM-CARD-0131 — QCM) — Quels signes échocardiographiques ou cliniques sont en faveur d'une tamponnade ?
+
+- A. Collapsus diastolique de l'oreillette droite et du ventricule droit.
+- B. Veine cave inférieure dilatée sans variation respiratoire.
+- C. Pouls paradoxal (baisse de la PA systolique de plus de 10 mmHg à l'inspiration).
+- D. Bradycardie avec hypertension artérielle.
+- E. Alternance électrique sur l'ECG.
+
+**QCM 7** (QCM-CARD-0132 — QCM) — Un patient présente une tamponnade confirmée à l'échocardiographie. Quelles propositions sont exactes ?
+
+- A. Un drainage péricardique en urgence est indiqué.
+- B. Un diurétique de l'anse IV est utile pour réduire la congestion veineuse.
+- C. Un hémopéricarde compliquant une dissection aortique de type A relève de la chirurgie aortique plutôt que d'une ponction percutanée.
+- D. Une péricardite purulente avec tamponnade relève de préférence d'un drainage chirurgical.
+- E. La ventilation en pression positive peut aggraver l'état hémodynamique.
+
+**QCM 8** (QCM-CARD-0133 — QCM) — Concernant la péricardite tuberculeuse, dans le contexte d'un pays d'endémie comme l'Algérie, quelles propositions sont exactes ?
+
+- A. Une adénosine désaminase élevée dans un exsudat lymphocytaire oriente fortement vers la tuberculose.
+- B. Le risque d'évolution vers la péricardite constrictive est plus élevé que dans les formes virales.
+- C. La corticothérapie adjuvante est recommandée en routine chez les patients infectés par le VIH.
+- D. Une péricardectomie est indiquée si l'état ne s'améliore pas ou s'aggrave après 4 à 8 semaines de traitement antituberculeux.
+- E. Le traitement antituberculeux suit le schéma du programme national et le cas est déclaré.
+
+### Corrigé commenté
+
+**QCM 1 — réponse(s) : A, B, C.** Le sus-décalage de la péricardite est diffus, concave, sans image en miroir (hormis aVR et V1), associé à un sous-décalage de PR, sans onde Q. L'image en miroir et les ondes Q orientent vers un infarctus : en cas de doute, la coronarographie prime, et la fibrinolyse d'une péricardite expose à l'hémopéricarde.
+- A : Vrai.
+- B : Vrai.
+- C : Vrai : avec un sus-décalage de PR en aVR.
+- D : Faux : le miroir oriente vers un infarctus.
+- E : Faux : pas d'onde Q dans la péricardite.
+
+**QCM 2 — réponse(s) : B.** Le diagnostic exige au moins 2 des 4 critères : douleur péricardique, frottement, modifications ECG (sus-décalage de ST diffus récent ou sous-décalage de PR), épanchement nouveau ou majoré. La CRP et l'imagerie de l'inflammation sont des éléments d'appui, non des critères.
+- A : Faux : élément d'appui seulement.
+- B : Vrai : deux critères (douleur + ECG).
+- C : Faux : un seul critère, et l'épanchement n'est ni nouveau ni inflammatoire dans ce contexte.
+- D : Faux.
+- E : Faux : la troponine signe une atteinte myocardique, pas une péricardite.
+
+**QCM 3 — réponse(s) : A, B, C, D.** Critères majeurs : fièvre > 38 °C, début subaigu, épanchement abondant (> 20 mm), tamponnade, échec des AINS après au moins 1 semaine. Critères mineurs : myopéricardite (troponine élevée), immunodépression, traumatisme, anticoagulants oraux. Un seul critère, majeur ou mineur, justifie l'hospitalisation.
+- A : Vrai.
+- B : Vrai.
+- C : Vrai.
+- D : Vrai.
+- E : Faux : la myopéricardite est un critère MINEUR (qui justifie aussi l'hospitalisation).
+
+**QCM 4 — réponse(s) : A, C, D, E.** ESC 2015 : 0,5 mg × 1/j si poids < 70 kg (× 2/j si ≥ 70 kg), sans dose de charge, pendant 3 mois (6 mois en cas de récidive). La colchicine est métabolisée par le CYP3A4 et transportée par la P-gp : les inhibiteurs puissants (clarithromycine, ciclosporine, vérapamil…) augmentent sa toxicité.
+- A : Vrai : poids < 70 kg.
+- B : Faux : pas de dose de charge.
+- C : Vrai.
+- D : Vrai : essais COPE, ICAP.
+- E : Vrai : interaction CYP3A4/P-gp.
+
+**QCM 5 — réponse(s) : A, B, D, E.** Les corticoïdes favorisent les récidives et la corticodépendance, surtout à forte dose et en première intention. L'ESC 2015 propose une faible à moyenne dose (prednisone 0,2–0,5 mg/kg/j) avec la colchicine, après exclusion d'une infection, et une décroissance très progressive.
+- A : Vrai : classe IIa.
+- B : Vrai.
+- C : Faux : faible dose (0,2–0,5 mg/kg/j).
+- D : Vrai.
+- E : Vrai.
+
+**QCM 6 — réponse(s) : A, B, C, E.** La tamponnade associe une tachycardie, une hypotension, une turgescence jugulaire et un pouls paradoxal ; l'ETT montre la compression des cavités droites et une VCI pléthorique ; l'ECG peut montrer un microvoltage et une alternance électrique.
+- A : Vrai.
+- B : Vrai.
+- C : Vrai.
+- D : Faux : tachycardie et hypotension.
+- E : Vrai : balancement du cœur dans l'épanchement.
+
+**QCM 7 — réponse(s) : A, C, D, E.** La tamponnade est une urgence de drainage. Diurétiques et vasodilatateurs réduisent la précharge et aggravent la compression. La ponction est contre-indiquée dans la dissection aortique (chirurgie) ; les épanchements purulents, cloisonnés ou post-chirurgicaux relèvent du drainage chirurgical.
+- A : Vrai.
+- B : Faux : délétère.
+- C : Vrai.
+- D : Vrai.
+- E : Vrai : baisse du retour veineux.
+
+**QCM 8 — réponse(s) : A, B, D, E.** La tuberculose est une cause majeure de péricardite dans les régions d'endémie. ESC 2015 : corticothérapie adjuvante envisageable chez le patient VIH négatif (IIb) ; l'essai IMPI a montré moins de constrictions mais plus de cancers associés au VIH sous prednisolone. Constriction : risque de l'ordre de 20–30 % dans les formes bactériennes.
+- A : Vrai : seuil souvent retenu ≥ 40 U/L.
+- B : Vrai.
+- C : Faux : à éviter chez le patient VIH positif.
+- D : Vrai.
+- E : Vrai : schéma 2HRZE/4HR, déclaration obligatoire.
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 | Position 2 | Commentaire |
+|---|---|---|---|
+| **Cadre nosologique** | **ESC 2015** : maladies du péricarde ; distinction myopéricardite / périmyocardite [S2] | **ESC 2025** : recommandation commune myocardite-péricardite ; concept de **syndrome inflammatoire myopéricardique** (IMPS) englobant formes isolées et mixtes [S1] | Rapprochement fondé sur la continuité physiopathologique et l'apport de l'IRM |
+| **Anti-IL-1 dans les récidives** | ESC 2015 : anakinra en classe IIb (avec azathioprine et immunoglobulines) [S2] | ESC 2025 : place renforcée, classe I selon des revues de synthèse, dans les récidives à CRP élevée résistantes à la colchicine et cortico-dépendantes [S1] **[À VÉRIFIER — texte intégral]** | Évolution fondée sur les essais AIRTRIP (anakinra) et RHAPSODY (rilonacept) [S10] |
+| **Colchicine dans la myopéricardite / myocardite** | ESC 2015 : prudence ; données insuffisantes pour l'atteinte myocardique prédominante [S2] | ESC 2025 : colchicine ajoutée au traitement symptomatique dans les formes non fulminantes sans cause spécifique (IIa selon une source secondaire) [S1] **[À VÉRIFIER]** | À confirmer sur le texte original |
+| **Colchicine pendant la grossesse** | ESC 2015 : contre-indiquée [S2] | Données plus récentes rassurantes ; position actuelle de l'ESC 2025 **[À VÉRIFIER]** | Ne pas appliquer sans vérification |
+| **Corticothérapie adjuvante de la péricardite tuberculeuse** | ESC 2015 : à envisager chez le patient VIH négatif (IIb), à éviter chez le patient VIH positif [S2, S8] | OMS : recommandation conditionnelle en faveur d'une corticothérapie adjuvante initiale [S7] **[À VÉRIFIER — 2e édition 2026]** ; position du programme national algérien sur la forme péricardique non vérifiée **[À VÉRIFIER — manuel 2011 et instruction de 2024]** [S3, S4] | Convergence sur le principe, nuances sur le VIH et le niveau de preuve |
+| **Traitement antituberculeux empirique** | ESC 2015 : recommandé dans les zones d'endémie devant un épanchement exsudatif après exclusion des autres causes [S2] | En zone de faible incidence : traitement seulement après preuve ou forte présomption | L'Algérie (incidence intermédiaire) impose une décision au cas par cas, après prélèvements |
+
+---
+
+## 22. Références
+
+1. **[S1]** Schulz-Menger J, Collini V, Gröschel J, et al. 2025 ESC Guidelines for the management of myocarditis and pericarditis. *Eur Heart J.* 2025;46(40):3952-4041. doi:10.1093/eurheartj/ehaf192. — vérifiée (texte intégral non lu).
+2. **[S2]** Adler Y, Charron P, Imazio M, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. *Eur Heart J.* 2015;36(42):2921-2964. doi:10.1093/eurheartj/ehv318. — vérifiée (remplacée par S1).
+3. **[S3]** MSPRH / INSP. Programme national de lutte contre la tuberculose — Manuel de la lutte antituberculeuse à l'usage des personnels médicaux. Alger, 2011. — existence vérifiée (poste DOS-02), texte non consulté.
+4. **[S4]** Ministère de la Santé (DGPPS). Instruction n°07 du 21 mars 2024 relative aux directives nationales du traitement de la tuberculose. — existence vérifiée (poste DOS-02), contenu par extraits.
+5. **[S5]** INSP. Situation épidémiologique de la tuberculose en Algérie — Année 2023. — existence vérifiée (poste DOS-02).
+6. **[S6]** Horizons (Alger). Baisse de l'incidence de la tuberculose et des maladies respiratoires en Algérie. Août 2025. — source de presse.
+7. **[S7]** World Health Organization. WHO consolidated guidelines on tuberculosis: module 4: treatment and care. 2nd ed. Geneva: WHO; 2026. — vérifiée (chapitre non lu).
+8. **[S8]** Mayosi BM, Ntsekhe M, Bosch J, et al. Prednisolone and *Mycobacterium indicus pranii* in tuberculous pericarditis. *N Engl J Med.* 2014;371(12):1121-1130. — **non vérifiée**.
+9. **[S9]** Imazio M, Brucato A, Cemin R, et al. A randomized trial of colchicine for acute pericarditis. *N Engl J Med.* 2013;369(16):1522-1528. — **non vérifiée**.
+10. **[S10]** Klein AL, Imazio M, Cremer P, et al. Phase 3 Trial of Interleukin-1 Trap Rilonacept in Recurrent Pericarditis. *N Engl J Med.* 2021;384(1):31-41. — **non vérifiée**.
+
+*Posologies : tableaux de l'ESC 2015 [S2] (aspirine, ibuprofène, indométacine, colchicine, prednisone, anakinra) ; les marqueurs `[POSOLOGIE À VÉRIFIER]` concernent le rilonacept, l'azathioprine, les immunoglobulines et la prednisolone adjuvante de la péricardite tuberculeuse.*

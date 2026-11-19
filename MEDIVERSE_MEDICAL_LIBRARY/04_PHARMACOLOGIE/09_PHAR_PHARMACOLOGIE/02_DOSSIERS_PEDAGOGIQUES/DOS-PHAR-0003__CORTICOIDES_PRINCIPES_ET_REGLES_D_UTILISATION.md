@@ -6,11 +6,17 @@ sous_specialite: "Anti-inflammatoires stéroïdiens — glucocorticoïdes"
 items_residanat: [RES-MED-167]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-14 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auteur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0003.md
 sources:
   - id: S1
     reference: "Beuschlein F, Else T, Bancos I, et al. European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab. 2024;109(7):1657-1683."
@@ -108,13 +114,29 @@ sources:
     doi: "10.1183/13993003.00239-2023"
     url: ""
     verifiee: true
+  - id: S13
+    reference: "Buttgereit F, da Silva JA, Boers M, et al. Standardised nomenclature for glucocorticoid dosages and glucocorticoid treatment regimens: current questions and tentative answers in rheumatology. Ann Rheum Dis. 2002;61(8):718-722."
+    organisme: "EULAR (groupe d'experts)"
+    annee: 2002
+    type: article
+    doi: ""
+    url: ""
+    verifiee: true
+  - id: S14
+    reference: "Fanouriakis A, Kostopoulou M, Andersen J, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29."
+    organisme: EULAR
+    annee: 2024
+    type: recommandation
+    doi: "10.1136/ard-2023-224762"
+    url: ""
+    verifiee: true
 mots_cles: [corticoïdes, glucocorticoïdes, prednisone, hydrocortisone, dexaméthasone, équivalences, insuffisance surrénale cortico-induite, sevrage, ostéoporose cortisonique, effets indésirables]
 ---
 
 # Corticoïdes : principes et règles d'utilisation
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01 (IA) le 2026-11-19, corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Item du programme couvert** : RES-MED-167 — « Corticoïdes : principes et règles d'utilisation ».
 
@@ -140,8 +162,8 @@ mots_cles: [corticoïdes, glucocorticoïdes, prednisone, hydrocortisone, dexamé
 - Dans l'usage médical courant, « corticoïdes » désigne les **glucocorticoïdes de synthèse** (prednisone, prednisolone, méthylprednisolone, dexaméthasone, bétaméthasone…), dont l'effet minéralocorticoïde est réduit ou nul.
 - **Corticothérapie substitutive** : apport de doses **physiologiques** (hydrocortisone ± fludrocortisone) dans l'insuffisance surrénale [S2].
 - **Corticothérapie pharmacologique** (anti-inflammatoire, immunosuppressive, antiœdémateuse, antiémétique) : doses **supraphysiologiques** ; elle freine **toujours** l'axe HHS lorsqu'elle est prolongée [S1].
-- **Dose physiologique** : production endogène de cortisol de l'ordre de 15 à 25 mg/j d'hydrocortisone (doses de substitution recommandées) [S2], soit environ **4 à 6 mg/j d'équivalent prednisone** (seuil vers lequel l'ESE/ES 2024 recommande de décroître avant d'envisager l'arrêt) [S1].
-- **Niveaux de dose** (convention pédagogique largement utilisée, en équivalent prednisone `[À VÉRIFIER — définitions selon les sociétés]`) : faible ≤ 7,5 mg/j ; moyenne > 7,5 à ≤ 30 mg/j ; forte > 30 à ≤ 100 mg/j ; très forte > 100 mg/j ; **bolus** (« pulse ») ≥ 250 mg/j, en pratique méthylprednisolone 500 mg à 1 g IV.
+- **Dose physiologique** : production endogène de cortisol de l'ordre de 15 à 25 mg/j d'hydrocortisone (doses de substitution recommandées) [S2], soit environ **4 à 6 mg/j d'équivalent prednisone** (≈ 3–5 mg de méthylprednisolone, ≈ 0,25–0,5 mg de dexaméthasone), seuil vers lequel l'ESE/ES 2024 recommande de décroître avant d'envisager l'arrêt [S1].
+- **Niveaux de dose** (nomenclature standardisée proposée par un groupe d'experts de l'EULAR, en équivalent prednisone) [S13] : faible ≤ 7,5 mg/j ; moyenne > 7,5 à ≤ 30 mg/j ; forte > 30 à ≤ 100 mg/j ; très forte > 100 mg/j ; **bolus** (« pulse ») ≥ 250 mg/j pendant un ou quelques jours, en pratique méthylprednisolone IV (§ 13.2).
 - **Corticothérapie prolongée** : au-delà de **3 à 4 semaines**, durée à partir de laquelle la question du freinage de l'axe HHS et des mesures préventives se pose réellement [S1, S3].
 
 ---
@@ -248,7 +270,7 @@ Le tableau ci-dessous reprend les équivalences proposées par la recommandation
 |---|---|---|---|---|---|
 | **Hydrocortisone** | 20 mg | 1 | 8–12 (courte) | Présent | Substitution, insuffisance surrénale aiguë, choc septique |
 | Cortisone (acétate) | 25 mg | 0,8 | 8–12 | Présent | Substitution |
-| Déflazacort | 7,5 mg | 1 | non défini | Faible | Myopathie de Duchenne |
+| Déflazacort | 7,5 mg (6 mg dans d'autres tables) `[À VÉRIFIER — tableau ESE/ES 2024]` | ≈ 3 (déduite de l'équivalence) | non défini | Faible | Myopathie de Duchenne |
 | **Prednisone** | 5 mg | 4 | 12–36 (intermédiaire) | Faible | Anti-inflammatoire, immunosuppresseur |
 | **Prednisolone** | 5 mg | 4 | 12–36 | Faible | Idem ; forme active de la prednisone |
 | **Méthylprednisolone** | 4 mg | 5 | 12–36 | Très faible | Voie IV, bolus |
@@ -372,7 +394,7 @@ Lors de la décroissance, trois situations se ressemblent (ESE/ES 2024, tableau 
 | Situation | Symptômes | Signes | Contexte |
 |---|---|---|---|
 | **Syndrome de sevrage en glucocorticoïdes** | Malaise, fatigue, nausées, douleurs musculaires et articulaires, troubles du sommeil, troubles de l'humeur | Aspect cushingoïde souvent présent | Survient même à doses **encore supraphysiologiques** (baisse brutale d'une exposition à laquelle l'organisme s'est habitué) |
-| **Insuffisance surrénale cortico-induite** | Malaise, fatigue, nausées, douleurs | Perte de poids, hypotension, hypotension orthostatique ; hypoglycémie, hyponatrémie possibles | Surtout quand la dose devient **inférieure à la dose physiologique** (≈ 5–7,5 mg/j de prednisone) [S1] |
+| **Insuffisance surrénale cortico-induite** | Malaise, fatigue, nausées, douleurs | Perte de poids, hypotension, hypotension orthostatique ; hypoglycémie, hyponatrémie possibles | Surtout quand la dose devient **inférieure à la dose physiologique** (≈ 4–6 mg/j de prednisone) [S1] |
 | **Rechute de la maladie sous-jacente** | Symptômes propres (arthrites, céphalées de l'artérite temporale, signes cutanés…) | Signes spécifiques, syndrome inflammatoire | À n'importe quel palier |
 
 Conduite proposée par l'ESE/ES 2024 : en cas de syndrome de sevrage sévère, revenir temporairement à la dernière dose bien tolérée et ralentir la décroissance [S1].
@@ -422,14 +444,14 @@ Conduite proposée par l'ESE/ES 2024 : en cas de syndrome de sevrage sévère, r
 |---|---|---|
 | **Substitution** de l'insuffisance surrénale primaire | Hydrocortisone **15 à 25 mg/j** en 2 à 3 prises (dose la plus forte le matin) + fludrocortisone si déficit minéralocorticoïde | [S2] |
 | **Insuffisance surrénale aiguë** / crise surrénale | Hydrocortisone **100 mg IV ou IM** immédiatement, puis **200 mg/24 h** IV continue (ou 50 mg IV toutes les 6 h) + sérum salé isotonique | [S1, S2] |
-| **Choc septique** nécessitant des vasopresseurs | Corticoïdes IV suggérés ; schéma usuel : hydrocortisone **200 mg/j** (50 mg IV toutes les 6 h ou perfusion continue) ; l'essai APROCCHSS associait fludrocortisone 50 µg/j | [S4, S5] `[À VÉRIFIER — seuil de vasopresseur selon SSC 2021/2026]` |
+| **Choc septique** nécessitant des vasopresseurs | Corticoïdes IV suggérés ; schéma usuel : hydrocortisone **200 mg/j** (50 mg IV toutes les 6 h ou perfusion continue), débutée selon la SSC 2021 pour une dose de noradrénaline ou d'adrénaline ≥ 0,25 µg/kg/min depuis au moins 4 heures ; l'essai APROCCHSS associait fludrocortisone 50 µg/j | [S4, S5] ; mise à jour SSC 2026 non analysée `[À VÉRIFIER]` |
 | **COVID-19** nécessitant oxygène ou ventilation | Dexaméthasone **6 mg/j** (orale ou IV) jusqu'à **10 jours** (bénéfice sur la mortalité ; pas de bénéfice sans oxygène) | [S6] |
 | **Méningite bactérienne** de l'adulte | Dexaméthasone avant ou avec la première injection d'antibiotique, selon le schéma du référentiel (voir DOS-INFE-0001) | [S11] |
 | **Syndrome néphrotique idiopathique de l'enfant** (première poussée) | Prednisone **60 mg/m²/j (ou 2 mg/kg/j)** pendant **4 semaines**, puis **40 mg/m² (1,5 mg/kg) un jour sur deux** pendant **4 semaines** | [S10] |
-| **Exacerbation de BPCO** | Corticothérapie orale courte (le rapport GOLD propose 40 mg d'équivalent prednisone pendant 5 jours) | [S12] `[POSOLOGIE À VÉRIFIER — rapport GOLD en vigueur]` |
+| **Exacerbation de BPCO** | Corticothérapie orale courte : **40 mg/j d'équivalent prednisone pendant 5 jours** | [S12] (GOLD 2023, schéma repris par les rapports suivants ; rapport GOLD 2026 non relu `[À VÉRIFIER]`) |
 | **Doses de stress** (patient freiné ou à risque) | Voir tableau 13.5 | [S1] |
-| **Bolus** (poussées sévères de maladies auto-immunes) | Méthylprednisolone 500 mg à 1 g IV par jour pendant 1 à 3 jours | `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` |
-| **Maladies inflammatoires** (PR, lupus, vascularites, PPR, artérite à cellules géantes) | Doses initiales spécifiques à chaque maladie et à sa gravité | Voir dossiers spécialisés ; `[POSOLOGIE À VÉRIFIER — recommandations de la maladie]` |
+| **Bolus** (poussées sévères de maladies auto-immunes) | Méthylprednisolone IV : **125 à 1 000 mg/j pendant 1 à 3 jours** dans le lupus selon l'EULAR 2023 (500 à 1 000 mg/j pendant 3 jours dans le PNDS lupus 2024, voir DOS-MINT-0001) ; schémas propres aux autres maladies (sclérose en plaques, vascularites) selon leurs recommandations | [S14] |
+| **Maladies inflammatoires** (PR, lupus, vascularites, PPR, artérite à cellules géantes) | Doses initiales spécifiques à chaque maladie et à sa gravité (aucune dose générique n'est proposée ici) | Voir les dossiers spécialisés : PR (DOS-RHUM-0001), lupus (DOS-MINT-0001), Behçet (DOS-MINT-0002), PTI (DOS-HEMA-0002) |
 
 ### 13.3 Stratégie : règles pratiques de prescription
 
@@ -488,7 +510,7 @@ Conduite proposée par l'ESE/ES 2024 : en cas de syndrome de sevrage sévère, r
 
 - Hydrocortisone injectable, prednisolone et dexaméthasone font partie des **médicaments essentiels** de l'OMS [S8] ; la disponibilité nationale de l'hydrocortisone orale, de la fludrocortisone et des formes injectables doit être vérifiée `[À VÉRIFIER — nomenclature nationale]`.
 - **Automédication** et usage non encadré de corticoïdes (y compris dermocorticoïdes à visée cosmétique) : phénomène décrit dans de nombreux pays ; aucune donnée algérienne publiée n'a été identifiée pour ce dossier `[À VÉRIFIER]`.
-- **Jeûne du Ramadan** : la prise matinale unique peut être déplacée au repas de l'aube (shour) ; les patients sous substitution ou à risque d'insuffisance surrénale doivent recevoir un avis médical individualisé `[À VÉRIFIER — absence de recommandation spécifique identifiée]`.
+- **Jeûne du Ramadan** : la prise matinale unique peut être déplacée au repas de l'aube (sahour) ; les patients sous substitution ou à risque d'insuffisance surrénale doivent recevoir un avis médical individualisé `[À VÉRIFIER — absence de recommandation spécifique identifiée]`.
 - **Tuberculose** : la prévalence de la tuberculose en Algérie justifie une vigilance particulière avant une corticothérapie prolongée ou associée à d'autres immunosuppresseurs (voir DOS-PNEU-0001) `[À VÉRIFIER — protocole national de dépistage de l'infection latente]`.
 
 ---
@@ -591,7 +613,7 @@ Une **crise surrénale** (insuffisance surrénale aiguë cortico-induite) décle
 4. **Prise matinale unique**, dose minimale efficace, durée la plus courte, épargne cortisonique [S7].
 5. Tout traitement **> 3 mois à ≥ 2,5 mg/j** de prednisone justifie une **évaluation et une prévention de l'ostéoporose** (ACR 2022) [S3].
 6. Une corticothérapie **< 3–4 semaines** peut être arrêtée sans décroissance [S1].
-7. Décroissance rapide en zone supraphysiologique, lente sous ~5–7,5 mg/j ; cortisol matinal > 300 nmol/L = axe récupéré [S1].
+7. Décroissance rapide en zone supraphysiologique, lente à l'approche de la dose physiologique (≈ 4–6 mg/j de prednisone) ; cortisol matinal > 300 nmol/L = axe récupéré [S1].
 8. L'insuffisance surrénale cortico-induite est **centrale** : **pas de fludrocortisone** [S1].
 9. **Crise surrénale** = hydrocortisone **100 mg IV/IM** immédiate + sérum salé, puis **200 mg/24 h** [S1].
 10. Doses de stress : maladie mineure → hydrocortisone 40 mg/j (ou prednisone 10 mg/j) 2–5 jours ; chirurgie → hydrocortisone 100 mg à l'induction [S1].
@@ -807,6 +829,8 @@ Une **crise surrénale** (insuffisance surrénale aiguë cortico-induite) décle
 9. **[S9]** World Health Organization. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents. 2018. — vérifiée (document acquis, lu : recommandation sur les stéroïdes adjuvants).
 10. **[S10]** Trautmann A, Boyer O, Hodson E, et al. IPNA clinical practice recommendations for the diagnosis and management of children with steroid-sensitive nephrotic syndrome. *Pediatr Nephrol*. 2023;38(3):877-919. doi:10.1007/s00467-022-05739-3 — vérifiée (catalogue REC-0308).
 11. **[S11]** Hoen B, Varon E, Debroucker T, et al. Management of acute community-acquired bacterial meningitis (excluding newborns). Short text. *Med Mal Infect*. 2019;49(6):367-398. doi:10.1016/j.medmal.2019.03.008 — vérifiée (catalogue REC-0277).
-12. **[S12]** Agustí A, Celli BR, Criner GJ, et al. GOLD 2023 Executive Summary. *Eur Respir J*. 2023;61(4):2300239. doi:10.1183/13993003.00239-2023 — vérifiée (catalogue REC-0242) ; la posologie de la corticothérapie des exacerbations est à confirmer dans le rapport en vigueur.
+12. **[S12]** Agustí A, Celli BR, Criner GJ, et al. GOLD 2023 Executive Summary. *Eur Respir J*. 2023;61(4):2300239. doi:10.1183/13993003.00239-2023 — vérifiée (catalogue REC-0242) ; **remplacée** par les rapports GOLD 2025 puis 2026 (catalogue), non relus pendant l'audit.
+13. **[S13]** Buttgereit F, da Silva JA, Boers M, et al. Standardised nomenclature for glucocorticoid dosages and glucocorticoid treatment regimens. *Ann Rheum Dis*. 2002;61(8):718-722. — vérifiée (PubMed, PMID 12117678) [audit AUD-01].
+14. **[S14]** Fanouriakis A, Kostopoulou M, Andersen J, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. *Ann Rheum Dis*. 2024;83(1):15-29. doi:10.1136/ard-2023-224762 — vérifiée (catalogue REC-0461 ; schéma de bolus vérifié lors de l'audit de DOS-MINT-0001) [audit AUD-01].
 
-*Points à auditer en priorité* : équivalence de la dexaméthasone (0,5 vs 0,75 mg) ; seuils de prophylaxie de la pneumocystose et de contre-indication des vaccins vivants ; dépistage de l'anguillulose et de la tuberculose latente selon les protocoles algériens ; schémas de bolus ; posologie GOLD des exacerbations.
+*Points restant à vérifier après audit (AUD-01, 2026-11-19)* : tableau des équivalences de l'ESE/ES 2024 sur le texte intégral (déflazacort ; dexaméthasone 0,5 mg) et référence française de l'équivalence 0,75 mg ; seuils de prophylaxie de la pneumocystose et de contre-indication des vaccins vivants ; dépistage de l'anguillulose et de la tuberculose latente selon les protocoles algériens ; SSC 2026 (corticoïdes du choc septique) ; rapport GOLD 2026.

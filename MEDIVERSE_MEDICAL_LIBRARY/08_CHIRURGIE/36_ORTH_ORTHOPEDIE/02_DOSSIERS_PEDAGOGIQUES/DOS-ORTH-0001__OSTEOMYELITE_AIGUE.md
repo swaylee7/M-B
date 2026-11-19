@@ -92,6 +92,14 @@ sources:
     doi: ""
     url: "https://iris.who.int/handle/10665/365237"
     verifiee: true
+  - id: S11
+    reference: "Groupe de pathologie infectieuse pédiatrique (GPIP). L'antibiothérapie des infections ostéoarticulaires en 2023 : propositions du GPIP. J Pédiatr Puéric. 2024;37:174-181 (version française de [S1]). Existence et extraits du tableau posologique vus par recherche web (audit AUD-01, 2026-11-19) ; texte intégral non lu."
+    organisme: "GPIP — Société française de pédiatrie"
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [ostéomyélite aiguë hématogène, infection ostéo-articulaire, enfant, métaphyse, Staphylococcus aureus, Kingella kingae, leucocidine de Panton-Valentine, abcès sous-périosté, ostéoarthrite, arthrite septique, IRM, PCR, céfazoline, amoxicilline-acide clavulanique, céfalexine, relais oral, Ewing, critères de Kocher, GPIP, ESPID, PIDS/IDSA]
 ---
 
@@ -99,7 +107,8 @@ mots_cles: [ostéomyélite aiguë hématogène, infection ostéo-articulaire, en
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Les posologies d'antibiotiques citées comme « GPIP 2023 » sont issues du **résumé** vérifié de la publication [S1] ; les détails (nombre d'injections, doses maximales, schémas néonataux et formes graves) n'ont pas été lus en texte intégral et sont signalés `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+> Les posologies d'antibiotiques citées comme « GPIP 2023 » sont issues du **résumé** vérifié de la publication [S1]. À l'audit (2026-11-19), le fractionnement et les schémas du nourrisson ont été complétés à partir de la version française du texte [S11] et de la PIDS/IDSA [S4] ; les points non confirmés (dose maximale de la céfazoline, formes graves, SARM, drépanocytose, allergie) restent signalés par un marqueur de posologie.
+> **Actualité** : une actualisation 2026 des propositions du GPIP a été repérée lors de la recherche (*J Pédiatr Puéric*, 2026) ; elle n'a pas pu être lue. Il faut la comparer à ce dossier [À VÉRIFIER].
 
 **Items du programme couverts** : RES-CHI-038 — « Ostéomyélite aiguë : Diagnostic - traitement. » (Item rattaché à l'orthopédie et à l'infectiologie.)
 
@@ -248,7 +257,7 @@ Utiles pour distinguer **arthrite septique** et **synovite transitoire** de hanc
 2. **Refus d'appui** ;
 3. **VS > 40 mm/h** ;
 4. **Leucocytes > 12 000/mm³**.
-La probabilité d'arthrite septique augmente avec le nombre de critères présents (très faible si aucun, élevée si 3 ou 4) [S7] [À VÉRIFIER — probabilités exactes de l'étude de dérivation]. La **CRP** est souvent ajoutée en pratique.
+La probabilité d'arthrite septique augmente avec le nombre de critères présents : dans l'étude de dérivation, elle était < 0,2 % sans critère, 3 % avec un, 40 % avec deux, 93,1 % avec trois et 99,6 % avec quatre [S7]. Ces valeurs viennent d'une étude rétrospective monocentrique ; la performance des critères a été moindre dans les études de validation ultérieures. La **CRP** est souvent ajoutée en pratique.
 
 ---
 
@@ -390,7 +399,7 @@ Le diagnostic d'OMA est **clinique, biologique et radiologique** ; la documentat
 
 #### 13.2.1 Mesures générales
 - **Hospitalisation** au début du traitement pour tout enfant suspect d'IOA [S1, S2].
-- **Analgésie** adaptée (paracétamol, autres antalgiques selon l'intensité) [POSOLOGIE À VÉRIFIER — RCP] ; **immobilisation antalgique** de courte durée par attelle (confort), sans immobilisation prolongée.
+- **Analgésie** adaptée : paracétamol 15 mg/kg toutes les 6 heures, soit 60 mg/kg/j, par voie orale ou IV (RCP), puis autres antalgiques selon l'intensité ; **immobilisation antalgique** de courte durée par attelle (confort), sans immobilisation prolongée.
 - Prise en charge d'un **sepsis** (remplissage, réanimation), d'une **thrombose** (anticoagulation selon avis spécialisé), d'une porte d'entrée.
 - **Mise en décharge** du membre inférieur tant que la douleur l'impose et en cas de fragilisation osseuse (risque de fracture pathologique).
 
@@ -404,14 +413,15 @@ Le diagnostic d'OMA est **clinique, biologique et radiologique** ; la documentat
 #### 13.2.3 Propositions du GPIP (France) [S1, S2, S6]
 | Situation | Antibiothérapie probabiliste IV | Relais oral (en l'absence d'identification bactérienne) | Durée totale minimale |
 |---|---|---|---|
-| **Enfant > 3 mois, IOA non compliquée** (GPIP 2023) | **Céfazoline IV 150 mg/kg/j** (forte dose) [S1] — répartition en plusieurs injections quotidiennes [POSOLOGIE À VÉRIFIER — nombre d'injections et dose maximale] | **Amoxicilline-acide clavulanique 80 mg/kg/j** (dose exprimée en amoxicilline) **ou céfalexine 150 mg/kg/j** [S1] — en plusieurs prises [POSOLOGIE À VÉRIFIER — fractionnement et dose maximale] | **3 semaines** pour une ostéomyélite ; **14 jours** pour une arthrite septique [S1] |
+| **Enfant > 3 mois, IOA non compliquée** (GPIP 2023) | **Céfazoline IV 150 mg/kg/j** (forte dose) [S1], en 3 à 4 injections par jour (toutes les 6 à 8 heures ; la PIDS/IDSA donne une fourchette de 100 à 150 mg/kg/j toutes les 8 heures [S4]) [POSOLOGIE À VÉRIFIER — dose maximale journalière : protocole local] | **Amoxicilline-acide clavulanique 80 mg/kg/j** (dose exprimée en amoxicilline) en 3 prises, avec une forme pédiatrique de rapport 8/1 (100 mg/12,5 mg par mL) qui limite l'acide clavulanique à 10 mg/kg/j (RCP) ; **ou céfalexine 150 mg/kg/j** en 3 prises [S1, S11]. Ne pas dépasser la posologie maximale de l'adulte (céfalexine : 4 g/j selon le RCP) | **3 semaines** pour une ostéomyélite ; **14 jours** pour une arthrite septique [S1] |
 | Durée de la voie IV (forme non compliquée d'évolution favorable) | **≈ 3 jours** puis relais oral [S1, S2] | — | — |
 | **Formes sévères** (bassin, rachis, évolution lente, terrain particulier : nouveau-né, nourrisson < 3 mois, immunodéprimé) | Schémas spécifiques, avis spécialisé [S1] [POSOLOGIE À VÉRIFIER — protocole GPIP / local] | Selon l'évolution | **4 à 6 semaines** [S1] |
 | Version 2017 (rappel) | Amoxicilline-acide clavulanique, céfuroxime ou céfazoline **150 mg/kg/j IV** chez l'enfant > 3 mois [S2] | — | 10 jours (arthrite), 3 semaines (ostéomyélite) [S2] |
 
 **Commentaires** :
 - La céfazoline (céphalosporine de 1re génération) est active sur le SASM et sur *K. kingae* ; l'amoxicilline-acide clavulanique et la céfalexine couvrent également ces germes, ce qui permet un relais oral sans identification bactérienne [S1].
-- *K. kingae* est **naturellement résistant aux glycopeptides** (vancomycine) et souvent peu sensible à la clindamycine : ces molécules ne conviennent pas en monothérapie probabiliste chez le jeune enfant [S9] [À VÉRIFIER — profil de sensibilité].
+- *K. kingae* est **naturellement résistant aux glycopeptides** (vancomycine) et sa sensibilité à la clindamycine est inconstante : ces molécules ne conviennent pas en monothérapie probabiliste chez le jeune enfant [S9] [À VÉRIFIER — taux de sensibilité à la clindamycine].
+- **Forme d'amoxicilline-acide clavulanique** : à 80 mg/kg/j d'amoxicilline, une forme de rapport 4/1 apporterait 20 mg/kg/j d'acide clavulanique, ce qui majore les troubles digestifs. Il faut donc utiliser une forme pédiatrique de rapport 8/1 et vérifier les formes disponibles dans la nomenclature nationale (RCP).
 - Le passage de 10 à **14 jours** pour l'arthrite septique entre les versions 2017 et 2023 du GPIP illustre l'actualisation régulière de ces propositions [S1, S2].
 
 #### 13.2.4 Recommandations européennes (ESPID 2017) [S3]
@@ -432,8 +442,8 @@ Le diagnostic d'OMA est **clinique, biologique et radiologique** ; la documentat
 #### 13.2.7 Situations particulières (schémas à valider localement)
 | Situation | Principes | Posologies |
 |---|---|---|
-| **Nourrisson < 3 mois** | Couvrir streptocoque B, *E. coli* et *S. aureus* [S8] ; traitement plus long (4–6 semaines) [S1] | [POSOLOGIE À VÉRIFIER — protocole GPIP / néonatal local] |
-| **Forme grave, sepsis, suspicion de PVL** | Bêtalactamine antistaphylococcique à forte dose **associée** à un antibiotique **anti-toxinique** (clindamycine ou linézolide) ; avis infectiologique et réanimation | [POSOLOGIE À VÉRIFIER — protocole GPIP / local] |
+| **Nourrisson < 3 mois** | Couvrir streptocoque B, *E. coli* et *S. aureus* [S8] ; traitement plus long (4–6 semaines) [S1] | **Céfotaxime 200 mg/kg/j IV en 4 injections**, associé à la **gentamicine pendant 48 h** (GPIP 2023, version française [S11]) [POSOLOGIE À VÉRIFIER — dose de gentamicine et adaptation au terme : protocole néonatal local] |
+| **Forme grave, sepsis, suspicion de PVL** | Bêtalactamine antistaphylococcique à forte dose **associée** à un antibiotique **anti-toxinique** (clindamycine ou linézolide) ; avis infectiologique et réanimation | Clindamycine 30–40 mg/kg/j IV en 3–4 injections (PIDS/IDSA : toutes les 6–8 h, maximum 2,7 g/j [S4]) ; linézolide 10 mg/kg toutes les 8 h avant 12 ans, 600 mg × 2/j à partir de 12 ans (AMM américaine ; hors AMM chez l'enfant en Europe) [POSOLOGIE À VÉRIFIER — choix et dose de la bêtalactamine des formes graves : protocole GPIP / local] |
 | **SARM** | Selon antibiogramme : vancomycine, clindamycine (si sensible), linézolide… [S4] | [POSOLOGIE À VÉRIFIER — RCP / protocole local] |
 | **Drépanocytose** | Couverture des **salmonelles** (céphalosporine de 3e génération) en plus de *S. aureus* | [POSOLOGIE À VÉRIFIER — RCP / protocole local] |
 | **Allergie aux bêtalactamines** | Selon le type d'allergie et l'âge : clindamycine (enfant plus âgé, *S. aureus* sensible), autres molécules sur avis | [POSOLOGIE À VÉRIFIER — RCP] |
@@ -561,9 +571,9 @@ Sous antibiothérapie IV probabiliste
 2. *Quels examens demandez-vous avant de traiter ?*
    → **Hémocultures** ; **IRM** du genou et de la jambe (œdème métaphysaire, abcès sous-périosté, atteinte articulaire) dès que possible sans retarder le traitement [S3, S4] ; échographie si l'IRM est indisponible (abcès, épanchement) ; prélèvement de la lésion cutanée.
 3. *L'IRM montre un œdème métaphysaire tibial avec un petit abcès sous-périosté de 6 mm d'épaisseur. Conduite à tenir ?*
-   → **Hospitalisation**, **ponction-drainage** de l'abcès sous-périosté sous anesthésie (prélèvements en flacon d'hémoculture, PCR *S. aureus* ± PVL) [S1, S9], puis **antibiothérapie IV** probabiliste : **céfazoline 150 mg/kg/j** (GPIP 2023) [S1] [POSOLOGIE À VÉRIFIER — fractionnement, dose maximale]. Antalgie, attelle de confort.
+   → **Hospitalisation**, **ponction-drainage** de l'abcès sous-périosté sous anesthésie (prélèvements en flacon d'hémoculture, PCR *S. aureus* ± PVL) [S1, S9], puis **antibiothérapie IV** probabiliste : **céfazoline 150 mg/kg/j en 3 à 4 injections** (GPIP 2023) [S1, S4] (cf. § 13.2.3). Antalgie, attelle de confort.
 4. *À J3, l'enfant est apyrétique, la douleur a nettement diminué, la CRP est à 52 mg/L. Les hémocultures et le pus poussent à* S. aureus *sensible à la méticilline, PVL négatif. Que faites-vous ?*
-   → **Relais oral** (évolution favorable) par une molécule active sur le SASM, bien absorbée, à forte dose — **céfalexine 150 mg/kg/j** ou **amoxicilline-acide clavulanique 80 mg/kg/j** [S1] [POSOLOGIE À VÉRIFIER — fractionnement] ; **durée totale minimale de 3 semaines** [S1] ; retour à domicile avec suivi clinique et CRP.
+   → **Relais oral** (évolution favorable) par une molécule active sur le SASM, bien absorbée, à forte dose — **céfalexine 150 mg/kg/j en 3 prises** ou **amoxicilline-acide clavulanique 80 mg/kg/j en 3 prises** (forme 8/1) [S1, S11] ; avec un SASM identifié, la céfalexine est un choix logique ; **durée totale minimale de 3 semaines** [S1] ; retour à domicile avec suivi clinique et CRP.
 5. *Quelle surveillance à distance ?*
    → Consultation de fin de traitement (clinique, CRP), radiographies de contrôle (appositions périostées attendues, absence de séquestre), surveillance de la **croissance** et des **axes** du membre (proximité de la physe tibiale proximale).
 
@@ -685,7 +695,7 @@ E. Pneumopathie nécrosante possible.
 
 | Sujet | Position A | Position B | Commentaire |
 |---|---|---|---|
-| **Antibiotique probabiliste** | GPIP 2023 : **céfazoline IV 150 mg/kg/j** (SARM rare en France) [S1] ; GPIP 2017 : amoxicilline-acide clavulanique, céfuroxime ou céfazoline [S2] | PIDS/IDSA 2021 : céfazoline si SARM rare, **vancomycine ou clindamycine** si SARM fréquent [S4] | L'**écologie locale** (SARM, clindamycine) détermine le choix ; *Kingella* résiste aux glycopeptides |
+| **Antibiotique probabiliste** | GPIP 2023 : **céfazoline IV 150 mg/kg/j** (SARM rare en France) [S1] ; GPIP 2017 : amoxicilline-acide clavulanique, céfuroxime ou céfazoline [S2] ; actualisation GPIP 2026 non lue [À VÉRIFIER] | PIDS/IDSA 2021 : céfazoline si SARM rare, **vancomycine ou clindamycine** si SARM fréquent [S4] | L'**écologie locale** (SARM, clindamycine) détermine le choix ; *Kingella* résiste aux glycopeptides |
 | **Durée totale** | GPIP 2023 : ≥ 3 semaines (ostéomyélite), 14 jours (arthrite), 4–6 semaines (formes sévères) [S1] | PIDS/IDSA : souvent 3–4 semaines [S4] [À VÉRIFIER] ; Peltola : 20 jours suffisent si bonne réponse [S5] | Concordance sur la réduction des durées dans les formes non compliquées |
 | **Durée de la phase IV** | GPIP : ≈ 3 jours si évolution favorable [S1] | Peltola : 2–4 jours [S5] ; PIDS/IDSA : relais dès l'amélioration clinique [S4] | Concordance ; la CRP aide à la décision |
 | **Arthrite septique : durée** | GPIP 2017 : 10 jours [S2] | GPIP 2023 : 14 jours [S1] | Actualisation au sein du même groupe |
@@ -706,3 +716,4 @@ E. Pneumopathie nécrosante possible.
 8. **[S8]** Mediamolle N, et al. Bone and joint infections in infants under three months of age. *Acta Paediatr*. 2019;108(5):933-939. doi:10.1111/apa.14569. — *vérifiée (PMID 30188592)*.
 9. **[S9]** De Marco G, et al. Bacteriological diagnosis of osteoarticular infections caused by *Kingella kingae*; a narrative review. *Front Pediatr*. 2024;12:1520636. doi:10.3389/fped.2024.1520636. — *vérifiée (PMID 39840323)*.
 10. **[S10]** OMS. The WHO AWaRe (Access, Watch, Reserve) antibiotic book. Genève : OMS ; 2022 (catalogue REC-0281). — *vérifiée (catalogue) ; contenu spécifique aux IOA non vérifié*.
+11. **[S11]** GPIP. L'antibiothérapie des infections ostéoarticulaires en 2023 : propositions du GPIP. *J Pédiatr Puéric*. 2024;37:174-181 (version française de [S1]). — *ajoutée à l'audit ; existence et extraits du tableau posologique vus par recherche web ; texte intégral non lu*.

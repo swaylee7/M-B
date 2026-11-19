@@ -4,7 +4,12 @@ titre: "Fiche — Hémophilie : diagnostic, traitement, prévention"
 specialite: HEMA
 items_residanat: [RES-MED-114]
 dossier_source: DOS-HEMA-0003
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Version source mise à jour (DOS-HEMA-0003 v1.2 : attributions de sources corrigées, sans changement de contenu repris dans la fiche)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Hémophilie (RES-MED-114)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-HEMA-0003 (v1.1, statut `audite_valide`). Aucun fait nouveau ; doses identiques au dossier. Références : **WFH 2020** [S1], **PNDS HAS 2023** [S2] et synthèse médecin traitant [S3], **ISTH** (sévérité) [S4], **HAVEN 3** [S5], PNDS hémophilie A acquise [S7] et recommandations internationales 2020 [S8] ; Algérie : registre « Baromètre » [S6]. Disponibilité des produits en Algérie `[À VÉRIFIER]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-HEMA-0003 (v1.2, statut `audite_valide`). Aucun fait nouveau ; doses identiques au dossier. Références : **WFH 2020** [S1], **PNDS HAS 2023** [S2] et synthèse médecin traitant [S3], **ISTH** (sévérité) [S4], **HAVEN 3** [S5], PNDS hémophilie A acquise [S7] et recommandations internationales 2020 [S8] ; Algérie : registre « Baromètre » [S6]. Disponibilité des produits en Algérie `[À VÉRIFIER]`.
 
 ## 1. Définition (2 lignes)
 

@@ -6,7 +6,7 @@ sous_specialite: "Gastro-entérologie pédiatrique — urgences pédiatriques"
 items_residanat: [RES-MED-074]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 9
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : plan B par sonde nasogastrique — « 20 mL/kg/h pendant 4 heures » (= 80 mL/kg) remplacé par le volume du plan B (≈ 75 mL/kg sur 4 h) ; le Pocket book OMS 2013 (DOC-00063, tableau 14 relu) ne fixe pas de débit propre au plan B par sonde, le débit de 20 mL/kg/h × 6 h (120 mL/kg) étant celui du plan C sans perfusion possible. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Organisation mondiale de la Santé. The treatment of diarrhoea: a manual for physicians and other senior health workers. 4e révision. Genève : OMS ; 2005. (Existence confirmée par la bibliographie de deux documents OMS acquis : AWaRe antibiotic book 2022, DOC-00039, réf. 145 ; Pocket book 2013, DOC-00063.)"
@@ -708,7 +714,7 @@ Les **quatre règles** à enseigner à la mère :
 *(Tableau reformulé d'après [S1] ; à confronter à la source.)*
 
 - Si l'enfant vomit : attendre **10 minutes** puis reprendre plus lentement (une cuillerée toutes les 2–3 minutes).
-- **Sonde nasogastrique** si l'enfant ne parvient pas à boire mais n'est pas en choc : même volume (20 mL/kg/h pendant 4 heures environ). L'ESPGHAN considère la réhydratation **entérale par sonde** comme une alternative efficace à la voie intraveineuse, avec moins d'effets indésirables [S4].
+- **Sonde nasogastrique** si l'enfant ne parvient pas à boire mais n'est pas en choc : **même volume que par la bouche, soit environ 75 mL/kg répartis sur 4 heures** (≈ 19 mL/kg/h). Le Pocket book OMS (tableau du plan B) ne fixe pas de débit propre à la sonde dans le plan B ; le débit de **20 mL/kg/h pendant 6 heures (120 mL/kg)** est celui du **plan C** lorsque la perfusion est impossible [S3]. L'ESPGHAN considère la réhydratation **entérale par sonde** comme une alternative efficace à la voie intraveineuse, avec moins d'effets indésirables [S4].
 - **Réévaluer après 4 heures** et reclasser : plan A si plus de signe de déshydratation ; poursuivre le plan B si signes évidents persistants ; plan C si aggravation.
 - Poursuivre l'allaitement pendant le plan B ; réintroduire l'alimentation à la fin des 4 heures.
 

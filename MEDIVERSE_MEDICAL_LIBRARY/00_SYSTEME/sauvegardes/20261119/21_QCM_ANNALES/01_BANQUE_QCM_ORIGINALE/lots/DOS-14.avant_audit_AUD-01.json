@@ -1,0 +1,3050 @@
+{
+  "agent": "DOS-14",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-PHAR-1401",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la liste modèle OMS des médicaments essentiels (24e liste, 2025), quels classements AWaRe sont exacts ?",
+      "propositions": {
+        "A": "Amoxicilline : groupe Access",
+        "B": "Ceftriaxone : groupe Watch",
+        "C": "Colistine : groupe Reserve",
+        "D": "Ciprofloxacine : groupe Access",
+        "E": "Méropénème : groupe Reserve"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Access = spectre étroit et premier choix des infections courantes ; Watch = spectre plus large, cible du bon usage ; Reserve = dernier recours contre les BMR. Les fluoroquinolones et les carbapénèmes sont dans le groupe Watch.",
+      "explications_par_proposition": {
+        "A": "Vrai : amoxicilline = Access, premier choix de nombreuses infections communautaires.",
+        "B": "Vrai : les C3G injectables sont classées Watch.",
+        "C": "Vrai : la colistine est un antibiotique Reserve de dernier recours.",
+        "D": "Faux : la ciprofloxacine appartient au groupe Watch.",
+        "E": "Faux : le méropénème figure dans le groupe Watch (liste complémentaire) ; les nouvelles associations (ceftazidime-avibactam, méropénème-vaborbactam) sont Reserve."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Classification OMS AWaRe",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les carbapénèmes sont classés Reserve.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO Model List of Essential Medicines, 24th list (section 6.2, AWaRe). 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1402",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la pharmacocinétique et la pharmacodynamie des antibiotiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'efficacité des β-lactamines dépend surtout du temps passé au-dessus de la CMI",
+        "B": "Les aminosides sont administrés en une injection journalière en raison de leur bactéricidie concentration-dépendante et de leur effet post-antibiotique",
+        "C": "La vancomycine est active sur Escherichia coli",
+        "D": "La première dose d'un aminoside doit être réduite de moitié chez l'insuffisant rénal",
+        "E": "L'absorption digestive des fluoroquinolones est diminuée par les sels de calcium, de fer ou d'aluminium"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "β-lactamines temps-dépendantes (fractionnement), aminosides concentration-dépendants (dose unique journalière). Les glycopeptides ne traversent pas la membrane externe des Gram négatif. La dose de charge n'est pas réduite en insuffisance rénale.",
+      "explications_par_proposition": {
+        "A": "Vrai : paramètre T > CMI.",
+        "B": "Vrai : pic/CMI élevé et effet post-antibiotique justifient la dose unique journalière.",
+        "C": "Faux : les glycopeptides sont inactifs sur les bacilles à Gram négatif (membrane externe).",
+        "D": "Faux : on ne réduit pas la dose initiale ; on espace les doses suivantes et on surveille la résiduelle.",
+        "E": "Vrai : chélation par les cations di- et trivalents."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Pharmacocinétique et pharmacodynamie des antibiotiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réduire la dose de charge chez l'insuffisant rénal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1403",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les entérobactéries productrices de β-lactamase à spectre étendu (BLSE), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elles hydrolysent les céphalosporines de 3e génération",
+        "B": "Les carbapénèmes restent habituellement actifs",
+        "C": "L'activité de l'enzyme est inhibée par l'acide clavulanique, ce qui est utilisé pour sa détection",
+        "D": "Les gènes de BLSE de type CTX-M sont essentiellement chromosomiques et non transférables",
+        "E": "La pipéracilline-tazobactam est le traitement de référence des bactériémies graves à E. coli BLSE"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les BLSE (surtout CTX-M, plasmidiques) hydrolysent pénicillines, C1G-C4G et aztréonam mais pas les carbapénèmes ; elles sont inhibées par le clavulanate (image de synergie). Dans les infections graves, un carbapénème est préféré.",
+      "explications_par_proposition": {
+        "A": "Vrai : c'est la définition fonctionnelle.",
+        "B": "Vrai : les BLSE n'hydrolysent pas les carbapénèmes.",
+        "C": "Vrai : test de synergie C3G/clavulanate.",
+        "D": "Faux : CTX-M est plasmidique, transférable par conjugaison, souvent avec des co-résistances.",
+        "E": "Faux : les recommandations (IDSA 2024, ESCMID 2022) privilégient un carbapénème dans les infections graves à BLSE."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Entérobactéries productrices de BLSE",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre BLSE et carbapénémase.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "Tamma PD et al. IDSA 2024 Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections. Clin Infect Dis 2024",
+          "date": "2024"
+        },
+        {
+          "reference": "Paul M et al. ESCMID guidelines for the treatment of infections caused by MDR Gram-negative bacilli. Clin Microbiol Infect 2022;28:521-547",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1404",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les carbapénémases des entérobactéries, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "OXA-48 est une carbapénémase de classe D considérée comme endémique en Afrique du Nord",
+        "B": "NDM hydrolyse l'aztréonam",
+        "C": "KPC est une carbapénémase de classe A",
+        "D": "L'avibactam inhibe les métallo-β-lactamases de type NDM",
+        "E": "La détection d'OXA-48 peut être difficile car les CMI des carbapénèmes sont parfois peu élevées"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Classe A : KPC ; classe B (métallo-enzymes) : NDM, VIM, IMP, qui épargnent l'aztréonam mais ne sont pas inhibées par l'avibactam ; classe D : OXA-48 et variants, fréquentes au Maghreb, parfois de bas niveau.",
+      "explications_par_proposition": {
+        "A": "Vrai : revue systématique algérienne 2020.",
+        "B": "Faux : les métallo-β-lactamases épargnent l'aztréonam (souvent inactivé par une BLSE associée, d'où l'association avec ceftazidime-avibactam).",
+        "C": "Vrai.",
+        "D": "Faux : l'avibactam n'inhibe pas les métallo-β-lactamases.",
+        "E": "Vrai : d'où les tests phénotypiques/moléculaires spécifiques."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Carbapénémases",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Penser que la ceftazidime-avibactam seule est active sur NDM.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Touati A, Mairi A. Carbapenemase-Producing Enterobacterales in Algeria: A Systematic Review. Microb Drug Resist 2020;26:475-482",
+          "date": "2020"
+        },
+        {
+          "reference": "Tamma PD et al. IDSA 2024 Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections. Clin Infect Dis 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1405",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant Staphylococcus aureus résistant à la méticilline (SARM), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La résistance est liée à une PLP de faible affinité (PLP2a) codée par le gène mecA",
+        "B": "Le SARM est résistant à l'oxacilline et à la céfazoline",
+        "C": "La vancomycine est une option thérapeutique des infections graves",
+        "D": "Un clone communautaire ST80-SCCmec IV producteur de leucocidine de Panton-Valentine a été décrit en milieu hospitalier à Alger",
+        "E": "Le test à la céfoxitine est inutile pour détecter la résistance à la méticilline"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "mecA → PLP2a → résistance à toutes les β-lactamines anti-staphylococciques classiques. Traitement des formes graves par glycopeptide (ou daptomycine, linézolide). La céfoxitine est le marqueur de dépistage de référence.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : résistance croisée à toutes les pénicillines M et céphalosporines classiques.",
+        "C": "Vrai.",
+        "D": "Vrai : étude 2006-2011, remplacement d'un clone hospitalier.",
+        "E": "Faux : la céfoxitine est le meilleur marqueur phénotypique de la résistance à la méticilline."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Staphylococcus aureus résistant à la méticilline",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Basset P et al. Changing molecular epidemiology of MRSA in an Algerian hospital. J Infect Dev Ctries 2015;9:206-209",
+          "date": "2015"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1406",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Lors de la réévaluation d'une antibiothérapie probabiliste à 48–72 heures, quelles décisions sont conformes au bon usage ?",
+      "propositions": {
+        "A": "Arrêter l'antibiotique si le diagnostic d'infection bactérienne n'est pas retenu",
+        "B": "Passer à une molécule de spectre plus étroit active sur la bactérie isolée",
+        "C": "Relayer par voie orale si l'état clinique et la voie digestive le permettent",
+        "D": "Ajouter systématiquement un aminoside pour renforcer la bactéricidie",
+        "E": "Prolonger systématiquement la durée totale à 14 jours pour éviter les rechutes"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La réévaluation à 48–72 h permet l'arrêt, la désescalade, le relais oral et la fixation de la durée la plus courte efficace.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : désescalade.",
+        "C": "Vrai : relais oral précoce encouragé par l'OMS.",
+        "D": "Faux : les associations ont des indications restreintes et courtes.",
+        "E": "Faux : les durées courtes sont aussi efficaces dans la plupart des infections et sélectionnent moins de résistances."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Réévaluation de l'antibiothérapie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "HAS/SPILF/GPIP. Choix et durées d'antibiothérapies préconisées dans les infections bactériennes courantes (fiches mémo). 2021, mises à jour",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1407",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une bactériurie asymptomatique doit être traitée par antibiotique dans quelle(s) situation(s) ?",
+      "propositions": {
+        "A": "Femme enceinte",
+        "B": "Avant une intervention urologique invasive",
+        "C": "Sujet âgé vivant en institution",
+        "D": "Patient porteur d'une sonde urinaire à demeure",
+        "E": "Femme diabétique de type 2 non enceinte"
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "Hors grossesse et geste urologique invasif, la bactériurie asymptomatique ne se traite pas : le traitement n'apporte pas de bénéfice et sélectionne des résistances.",
+      "explications_par_proposition": {
+        "A": "Vrai : risque de pyélonéphrite gravidique.",
+        "B": "Vrai : prévention de l'infection post-opératoire.",
+        "C": "Faux : colonisation fréquente, traitement inutile.",
+        "D": "Faux : colonisation quasi constante, on ne traite pas.",
+        "E": "Faux : le diabète n'est pas une indication."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Bactériurie asymptomatique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter un ECBU positif sans symptômes chez la personne âgée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS/SPILF/GPIP. Choix et durées d'antibiothérapies préconisées dans les infections bactériennes courantes (fiches mémo). 2021, mises à jour",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1408",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez la femme enceinte, quels antibiotiques sont à éviter (ou contre-indiqués) en dehors d'une absence d'alternative ?",
+      "propositions": {
+        "A": "Doxycycline après le premier trimestre",
+        "B": "Ciprofloxacine",
+        "C": "Amoxicilline",
+        "D": "Cotrimoxazole au premier trimestre",
+        "E": "Céfixime"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Cyclines (dents, os), fluoroquinolones (prudence), cotrimoxazole au 1er trimestre (antifolique) et en fin de grossesse (ictère néonatal) sont à éviter ; β-lactamines utilisables.",
+      "explications_par_proposition": {
+        "A": "Vrai : dyschromies dentaires et atteinte osseuse fœtale.",
+        "B": "Vrai : à éviter par prudence.",
+        "C": "Faux : utilisable.",
+        "D": "Vrai : effet antifolique.",
+        "E": "Faux : les céphalosporines sont utilisables."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Antibiotiques et grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS/SPILF/GPIP. Choix et durées d'antibiothérapies préconisées dans les infections bactériennes courantes (fiches mémo). 2021, mises à jour",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1409",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations mondiales de l'OMS sur la prévention des infections du site opératoire (2018), quelles propositions concernant l'antibioprophylaxie sont exactes ?",
+      "propositions": {
+        "A": "Elle est administrée dans les 120 minutes qui précèdent l'incision",
+        "B": "Elle doit être prolongée 48 heures après l'intervention pour réduire les infections",
+        "C": "Un carbapénème est la molécule de choix",
+        "D": "La céfazoline est la molécule la plus utilisée pour la plupart des chirurgies propres",
+        "E": "Elle est indiquée notamment en chirurgie propre avec pose de matériel"
+      },
+      "reponses_correctes": [
+        "A",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Antibioprophylaxie courte, ciblée, avant l'incision ; l'OMS recommande de ne pas la prolonger après la fin de l'intervention.",
+      "explications_par_proposition": {
+        "A": "Vrai : fenêtre de 120 min avant l'incision.",
+        "B": "Faux : la prolongation n'est pas recommandée.",
+        "C": "Faux : spectre étroit ciblant les germes cutanés (C1G).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Antibioprophylaxie chirurgicale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prolonger l'antibioprophylaxie « par sécurité ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Global guidelines for the prevention of surgical site infection, 2nd ed. 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1410",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles associations entre mécanisme et résistance sont exactes ?",
+      "propositions": {
+        "A": "Perte de la porine OprD de Pseudomonas aeruginosa — résistance à l'imipénème",
+        "B": "Gène vanA (précurseur D-Ala-D-Lac) — résistance des entérocoques aux glycopeptides",
+        "C": "Méthylation ribosomique par les gènes erm — résistance aux macrolides et lincosamides",
+        "D": "Pompes d'efflux — résistances croisées à plusieurs familles",
+        "E": "Production de β-lactamase — résistance de haut niveau aux fluoroquinolones"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Quatre mécanismes : inactivation enzymatique, modification de cible, imperméabilité, efflux. Les fluoroquinolones sont touchées par mutations de la gyrase/topo IV, efflux et protéines Qnr, pas par les β-lactamases.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : phénotype MLSB, parfois inductible.",
+        "D": "Vrai.",
+        "E": "Faux : les β-lactamases n'agissent que sur les β-lactamines."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Mécanismes biochimiques de résistance",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1411",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans quelles situations une association d'antibiotiques est-elle justifiée ?",
+      "propositions": {
+        "A": "Tuberculose",
+        "B": "Endocardite à entérocoque (β-lactamine + aminoside ou double β-lactamine selon référentiel)",
+        "C": "Infection staphylococcique sur matériel traitée par rifampicine seule",
+        "D": "Cystite aiguë simple de la femme jeune",
+        "E": "Choc septique probabiliste, de façon brève (β-lactamine + aminoside)"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Objectifs des associations : prévenir les mutants résistants (tuberculose, rifampicine), synergie (endocardite), élargir le spectre en probabiliste grave (courte durée).",
+      "explications_par_proposition": {
+        "A": "Vrai : prévention de la sélection de mutants.",
+        "B": "Vrai : synergie bactéricide.",
+        "C": "Faux : la rifampicine ne doit jamais être utilisée seule (sélection rapide de mutants).",
+        "D": "Faux : monothérapie courte.",
+        "E": "Vrai : association courte puis réévaluation."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Indications des associations d'antibiotiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier que la rifampicine en monothérapie sélectionne des résistances.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "Evans L et al. Surviving Sepsis Campaign 2021. Crit Care Med 2021;49:e1063-e1143",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1412",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles associations entre antibiotique et effet indésirable sont exactes ?",
+      "propositions": {
+        "A": "Fluoroquinolones — tendinopathie et rupture tendineuse",
+        "B": "Aminosides — ototoxicité possiblement irréversible",
+        "C": "Linézolide prolongé — myélosuppression",
+        "D": "Clindamycine — colite à Clostridioides difficile",
+        "E": "Ceftriaxone — association sans risque avec le calcium intraveineux chez le nouveau-né"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Effets classiques à connaître pour chaque famille ; la ceftriaxone peut précipiter avec le calcium chez le nouveau-né.",
+      "explications_par_proposition": {
+        "A": "Vrai : surtout sujet âgé et corticothérapie associée.",
+        "B": "Vrai : surveillance auditive, durée courte.",
+        "C": "Vrai : surtout au-delà de 2 semaines.",
+        "D": "Vrai.",
+        "E": "Faux : précipitations ceftriaxone-calcium décrites chez le nouveau-né (mise en garde de la liste OMS)."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-166"
+      ],
+      "theme": "Effets indésirables des antibiotiques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO Model List of Essential Medicines, 24th list (section 6.2, AWaRe). 2025",
+          "date": "2025"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1413",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le mécanisme d'action des anticoagulants, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'HNF potentialise l'antithrombine et inhibe de façon équivalente la thrombine et le facteur Xa",
+        "B": "Le fondaparinux est un inhibiteur direct du facteur Xa, indépendant de l'antithrombine",
+        "C": "Le dabigatran est un inhibiteur direct de la thrombine",
+        "D": "Les AVK inhibent la vitamine K époxyde réductase (VKORC1)",
+        "E": "L'activité des HBPM est complètement neutralisée par la protamine"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "HNF, HBPM et fondaparinux sont des anticoagulants indirects (via l'antithrombine). Le dabigatran (anti-IIa) et les xabans (anti-Xa) sont directs. Les AVK bloquent le recyclage de la vitamine K. La protamine ne neutralise que partiellement les HBPM.",
+      "explications_par_proposition": {
+        "A": "Vrai : rapport anti-Xa/anti-IIa ≈ 1.",
+        "B": "Faux : le fondaparinux agit via l'antithrombine (anti-Xa indirect).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : neutralisation partielle (≈ 60 % de l'activité anti-Xa)."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Mécanismes d'action des anticoagulants",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Classer le fondaparinux parmi les anti-Xa directs.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Steffel J et al. 2021 EHRA Practical Guide on the Use of NOAC in Patients with AF. Europace 2021;23:1612-1676",
+          "date": "2021"
+        },
+        {
+          "reference": "Stevens SM et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline. Chest 2021;160:e545-e608",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1414",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient traité par HBPM pour une thrombose veineuse profonde doit être relayé par warfarine. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'AVK peut être débuté dès le premier jour du traitement",
+        "B": "Le chevauchement héparine–AVK doit durer au moins 5 jours",
+        "C": "L'HBPM est arrêtée dès le premier INR supérieur à 2",
+        "D": "L'HBPM est arrêtée après deux INR consécutifs dans la cible à 24 heures d'intervalle",
+        "E": "Une dose de charge de 20 mg de warfarine permet d'accélérer l'équilibre"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le relais commence tôt ; le chevauchement couvre la période où l'INR s'allonge (baisse du VII) avant que l'effet antithrombotique (baisse du II et du X) soit complet.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : délai nécessaire à la baisse des facteurs II et X.",
+        "C": "Faux : un seul INR ne suffit pas.",
+        "D": "Vrai.",
+        "E": "Faux : pas de dose de charge élevée (risque hémorragique, chute précoce de la protéine C)."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Relais héparine–AVK",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter l'héparine au premier INR dans la cible.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Konstantinides SV et al. 2019 ESC Guidelines for acute pulmonary embolism. Eur Heart J 2020;41:543-603",
+          "date": "2019"
+        },
+        {
+          "reference": "Stevens SM et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline. Chest 2021;160:e545-e608",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1415",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans quelle(s) situation(s) un anticoagulant oral direct (AOD) est-il contre-indiqué ou à éviter ?",
+      "propositions": {
+        "A": "Prothèse valvulaire mécanique",
+        "B": "Fibrillation atriale avec rétrécissement mitral serré",
+        "C": "Grossesse",
+        "D": "Fibrillation atriale non valvulaire chez un patient de 85 ans à fonction rénale normale",
+        "E": "Dabigatran chez un patient dont la clairance de la créatinine est de 25 mL/min"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les AOD sont contre-indiqués sur valve mécanique et dans le rétrécissement mitral modéré à serré (AVK obligatoires), pendant la grossesse, et le dabigatran l'est si la clairance est < 30 mL/min. L'âge n'est pas une contre-indication.",
+      "explications_par_proposition": {
+        "A": "Vrai : AVK seuls.",
+        "B": "Vrai : ESC 2024.",
+        "C": "Vrai : HBPM de choix.",
+        "D": "Faux : l'AOD est préféré, l'âge n'est pas une contre-indication.",
+        "E": "Vrai : élimination rénale majeure."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Contre-indications des AOD",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le grand âge contre-indique les AOD.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J 2024;45:3314-3414",
+          "date": "2024"
+        },
+        {
+          "reference": "Steffel J et al. 2021 EHRA Practical Guide on the Use of NOAC in Patients with AF. Europace 2021;23:1612-1676",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1416",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 82 ans, 70 kg, créatininémie 95 µmol/L, a une fibrillation atriale non valvulaire. Un apixaban est décidé. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dose adaptée est 5 mg deux fois par jour",
+        "B": "La dose adaptée est 2,5 mg deux fois par jour car elle a plus de 80 ans",
+        "C": "Un poids ≤ 60 kg fait partie des critères de réduction de dose",
+        "D": "Une créatininémie ≥ 133 µmol/L fait partie des critères de réduction de dose",
+        "E": "La dose doit être réduite chez tout patient de plus de 75 ans"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La dose réduite d'apixaban (2,5 mg × 2) n'est justifiée que si au moins 2 critères sur 3 sont présents : âge ≥ 80 ans, poids ≤ 60 kg, créatininémie ≥ 133 µmol/L. Ici, un seul critère (âge).",
+      "explications_par_proposition": {
+        "A": "Vrai : un seul critère présent.",
+        "B": "Faux : un critère isolé ne suffit pas.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : sous-dosage injustifié, risque d'AVC."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Posologie de l'apixaban dans la fibrillation atriale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réduire la dose d'AOD sur l'âge seul.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J 2024;45:3314-3414",
+          "date": "2024"
+        },
+        {
+          "reference": "Steffel J et al. 2021 EHRA Practical Guide on the Use of NOAC in Patients with AF. Europace 2021;23:1612-1676",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1417",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la thrombopénie induite par l'héparine (TIH) de type immunologique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle survient typiquement entre le 5e et le 10e jour de traitement",
+        "B": "Elle est due à des anticorps dirigés contre le complexe facteur 4 plaquettaire–héparine",
+        "C": "Elle expose surtout à des thromboses veineuses et artérielles",
+        "D": "Une transfusion de plaquettes est systématique",
+        "E": "Un AVK doit être débuté immédiatement pour remplacer l'héparine"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La TIH est un syndrome prothrombotique : arrêt de toute héparine, anticoagulant non hépariné à dose curative, pas de transfusion plaquettaire sauf hémorragie, pas d'AVK avant remontée des plaquettes (risque de gangrène).",
+      "explications_par_proposition": {
+        "A": "Vrai : plus tôt si exposition récente.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : réservée aux hémorragies.",
+        "E": "Faux : risque de nécrose/gangrène veineuse ; attendre la normalisation des plaquettes."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Thrombopénie induite par l'héparine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Transfuser des plaquettes ou débuter un AVK en phase aiguë.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Cuker A et al. ASH 2018 guidelines: heparin-induced thrombocytopenia. Blood Adv 2018;2:3360-3392",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1418",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient sous warfarine pour fibrillation atriale (cible 2–3) a un INR à 7,2 sans aucun saignement. Selon la HAS (2008), quelles mesures sont adaptées ?",
+      "propositions": {
+        "A": "Arrêt de l'AVK",
+        "B": "Vitamine K 1 à 2 mg per os",
+        "C": "Concentré de complexe prothrombinique",
+        "D": "Contrôle de l'INR le lendemain",
+        "E": "Transfusion de plasma frais congelé"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "INR 6–10 sans saignement : arrêt, vitamine K orale 1–2 mg, INR le lendemain, recherche de la cause. Le CCP est réservé aux hémorragies graves.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pas d'hémorragie.",
+        "D": "Vrai.",
+        "E": "Faux : non indiqué."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Surdosage asymptomatique en AVK",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS/GEHT. Prise en charge des surdosages en AVK, des situations à risque hémorragique et des accidents hémorragiques. 2008",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1419",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient sous acénocoumarol présente un hématome intracérébral. Quelles mesures sont recommandées ?",
+      "propositions": {
+        "A": "Administration de concentré de complexe prothrombinique",
+        "B": "Vitamine K 10 mg",
+        "C": "Objectif d'INR inférieur à 1,5",
+        "D": "Sulfate de protamine",
+        "E": "Idarucizumab"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Hémorragie grave sous AVK : CCP (≈ 25 UI/kg) + vitamine K 10 mg, objectif INR < 1,5, contrôle de l'INR à 30 min puis 6–8 h (HAS 2008).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : prolonge l'effet du CCP.",
+        "C": "Vrai.",
+        "D": "Faux : antidote des héparines.",
+        "E": "Faux : antidote du dabigatran."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Hémorragie grave sous AVK",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la vitamine K avec le CCP.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS/GEHT. Prise en charge des surdosages en AVK, des situations à risque hémorragique et des accidents hémorragiques. 2008",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1420",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la surveillance biologique des anticoagulants, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'HNF à dose curative est surveillée par le TCA ou l'activité anti-Xa",
+        "B": "Les HBPM nécessitent un dosage anti-Xa systématique chez tous les patients",
+        "C": "Les AOD ne nécessitent pas de surveillance biologique d'efficacité en routine",
+        "D": "Un TP normal permet d'exclure la présence d'apixaban",
+        "E": "Une numération plaquettaire doit être faite avant de débuter une héparine"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Seule l'HNF (TCA/anti-Xa) et les AVK (INR) ont une surveillance d'efficacité systématique. L'anti-Xa des HBPM est réservé à des situations ciblées. TP et TCA sont peu fiables pour les AOD.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : situations ciblées (insuffisance rénale, poids extrêmes, grossesse).",
+        "C": "Vrai : mais fonction rénale à surveiller.",
+        "D": "Faux : l'apixaban modifie peu le TP.",
+        "E": "Vrai : valeur de référence pour dépister une TIH."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Surveillance biologique des anticoagulants",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un bilan d'hémostase standard normal exclut un AOD.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Steffel J et al. 2021 EHRA Practical Guide on the Use of NOAC in Patients with AF. Europace 2021;23:1612-1676",
+          "date": "2021"
+        },
+        {
+          "reference": "Cuker A et al. ASH 2018 guidelines: heparin-induced thrombocytopenia. Blood Adv 2018;2:3360-3392",
+          "date": "2018"
+        },
+        {
+          "reference": "Witt DM et al. ASH 2018 guidelines: optimal management of anticoagulation therapy. Blood Adv 2018;2:3257-3291",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1421",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'utilisation des AOD dans le traitement d'une embolie pulmonaire à risque faible, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'apixaban est débuté à 10 mg deux fois par jour pendant 7 jours",
+        "B": "Le rivaroxaban est débuté à 15 mg deux fois par jour pendant 21 jours",
+        "C": "Le dabigatran peut être débuté d'emblée sans anticoagulant parentéral",
+        "D": "L'édoxaban est débuté après au moins 5 jours d'anticoagulant parentéral",
+        "E": "La durée minimale du traitement anticoagulant est de 3 mois"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Apixaban et rivaroxaban : stratégie orale d'emblée avec phase d'attaque ; dabigatran et édoxaban : après ≥ 5 jours d'héparine. Durée minimale 3 mois.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : 5 jours d'héparine préalables.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "AOD dans la maladie thromboembolique veineuse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Débuter le dabigatran sans héparine préalable.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Konstantinides SV et al. 2019 ESC Guidelines for acute pulmonary embolism. Eur Heart J 2020;41:543-603",
+          "date": "2019"
+        },
+        {
+          "reference": "Stevens SM et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline. Chest 2021;160:e545-e608",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1422",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la gestion périopératoire des anticoagulants oraux, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La warfarine est arrêtée 5 jours avant une chirurgie programmée",
+        "B": "Un relais par HBPM est recommandé chez tout patient en fibrillation atriale sous AVK",
+        "C": "Dans l'essai BRIDGE, le relais par HBPM augmentait les hémorragies majeures sans réduire les thromboembolies",
+        "D": "Pour une chirurgie à haut risque hémorragique, un AOD anti-Xa est interrompu 2 jours avant (dernière prise à J-3)",
+        "E": "Chez un patient sous dabigatran avec clairance < 50 mL/min, l'interruption doit être plus longue"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "ACCP 2022 et PAUSE : interruptions standardisées des AOD sans relais ; AVK arrêtés 5 jours avant, relais réservé aux très hauts risques thrombotiques.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : relais réservé aux très hauts risques (valve mécanique mitrale, AVC récent…).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai : élimination rénale du dabigatran."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Gestion périopératoire des anticoagulants",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Le « bridging » systématique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Douketis JD et al. Perioperative Management of Antithrombotic Therapy: ACCP Guideline. Chest 2022;162:e207-e243",
+          "date": "2022"
+        },
+        {
+          "reference": "Douketis JD et al. Perioperative Bridging Anticoagulation in Patients with Atrial Fibrillation (BRIDGE). N Engl J Med 2015;373:823-833",
+          "date": "2015"
+        },
+        {
+          "reference": "Douketis JD et al. PAUSE. JAMA Intern Med 2019;179:1469-1478",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1423",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient ayant une clairance de la créatinine à 20 mL/min présente une thrombose veineuse profonde proximale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'HNF est l'héparine de choix",
+        "B": "Une HBPM à dose curative est à éviter",
+        "C": "Le dabigatran est contre-indiqué",
+        "D": "Le rivaroxaban est prescrit à 20 mg par jour sans précaution",
+        "E": "Le fondaparinux à dose curative est adapté"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "En insuffisance rénale sévère, les molécules à élimination rénale (HBPM curatives, fondaparinux, dabigatran) s'accumulent ; l'HNF puis un AVK sont privilégiés.",
+      "explications_par_proposition": {
+        "A": "Vrai : pas d'accumulation rénale significative.",
+        "B": "Vrai : accumulation.",
+        "C": "Vrai : clairance < 30 mL/min.",
+        "D": "Faux : prudence/dose et données limitées ; les AOD sont à éviter dans cette situation.",
+        "E": "Faux : contre-indiqué en curatif si clairance < 30 mL/min (selon RCP)."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Anticoagulants et insuffisance rénale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Steffel J et al. 2021 EHRA Practical Guide on the Use of NOAC in Patients with AF. Europace 2021;23:1612-1676",
+          "date": "2021"
+        },
+        {
+          "reference": "Stevens SM et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline. Chest 2021;160:e545-e608",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1424",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels médicaments exposent à une augmentation de l'INR chez un patient sous AVK ?",
+      "propositions": {
+        "A": "Amiodarone",
+        "B": "Fluconazole",
+        "C": "Rifampicine",
+        "D": "Cotrimoxazole",
+        "E": "Carbamazépine"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les inhibiteurs enzymatiques (amiodarone, azolés, cotrimoxazole, métronidazole) augmentent l'INR ; les inducteurs (rifampicine, carbamazépine, phénobarbital) le diminuent.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : inducteur, diminue l'INR.",
+        "D": "Vrai.",
+        "E": "Faux : inducteur."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-173"
+      ],
+      "theme": "Interactions médicamenteuses des AVK",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Witt DM et al. ASH 2018 guidelines: optimal management of anticoagulation therapy. Blood Adv 2018;2:3257-3291",
+          "date": "2018"
+        },
+        {
+          "reference": "HAS/GEHT. Prise en charge des surdosages en AVK, des situations à risque hémorragique et des accidents hémorragiques. 2008",
+          "date": "2008"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1425",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les équivalences approximatives de dose entre glucocorticoïdes systémiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Prednisone 5 mg ≈ hydrocortisone 20 mg",
+        "B": "Prednisone 5 mg ≈ méthylprednisolone 4 mg",
+        "C": "Prednisone 5 mg ≈ dexaméthasone 0,5 à 0,75 mg",
+        "D": "Prednisone 5 mg ≈ méthylprednisolone 10 mg",
+        "E": "L'hydrocortisone conserve un effet minéralocorticoïde"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Hydrocortisone 20 ≈ prednisone/prednisolone 5 ≈ méthylprednisolone 4 ≈ dexaméthasone 0,5–0,75 mg (valeur variable selon les tables). L'hydrocortisone a un effet minéralocorticoïde, utile en substitution.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : 0,5 mg selon l'ESE/ES 2024, 0,75 mg dans les tables françaises classiques.",
+        "D": "Faux : 4 mg.",
+        "E": "Vrai."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Équivalences des glucocorticoïdes",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les équivalences sont exactes : ce sont des estimations.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1426",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le mécanisme d'action et les effets biologiques des glucocorticoïdes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils se lient à un récepteur intracellulaire (GR) qui migre dans le noyau",
+        "B": "Ils inhibent l'activité de facteurs de transcription pro-inflammatoires comme NF-κB (transrépression)",
+        "C": "Ils entraînent une lymphopénie",
+        "D": "Ils entraînent une neutropénie",
+        "E": "Ils induisent l'annexine A1, qui inhibe la phospholipase A2"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Effets génomiques via le GR : transrépression (NF-κB, AP-1) et transactivation (annexine A1…). Hémogramme : polynucléose neutrophile, lymphopénie, éosinopénie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : redistribution et apoptose.",
+        "D": "Faux : polynucléose neutrophile (démargination).",
+        "E": "Vrai."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Mécanismes d'action des glucocorticoïdes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter la polynucléose sous corticoïdes comme une infection certaine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1427",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la recommandation ESE/Endocrine Society 2024, quelles propositions concernant l'arrêt d'une corticothérapie systémique sont exactes ?",
+      "propositions": {
+        "A": "Une corticothérapie de moins de 3 à 4 semaines peut être arrêtée sans décroissance",
+        "B": "La décroissance vise d'abord une dose proche de la dose physiologique (environ 4 à 6 mg/j de prednisone)",
+        "C": "Un test au Synacthène est recommandé de façon systématique avant l'arrêt",
+        "D": "Un cortisol matinal supérieur à 300 nmol/L (10 µg/dL) indique une récupération probable de l'axe",
+        "E": "La dexaméthasone doit être remplacée par une molécule plus courte lorsque sa longue durée d'action n'est plus nécessaire"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Pas de décroissance si < 3–4 semaines ; décroissance jusqu'à la dose physiologique ; cortisol matinal comme premier test ; pas de test dynamique systématique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : les tests dynamiques ne sont pas recommandés en routine.",
+        "D": "Vrai.",
+        "E": "Vrai : favorise la récupération de l'axe."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Arrêt d'une corticothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Imposer une décroissance après une cure courte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1428",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient sous prednisone 7,5 mg/j depuis un an présente un collapsus au cours d'une gastro-entérite. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Hydrocortisone 100 mg IV ou IM doit être injectée immédiatement",
+        "B": "Il faut attendre le résultat du cortisol plasmatique avant de traiter",
+        "C": "Un remplissage par sérum salé isotonique est indiqué",
+        "D": "La fludrocortisone est indispensable car l'insuffisance surrénale est périphérique",
+        "E": "La gastro-entérite est un déclencheur classique de crise surrénale"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Crise surrénale : traitement immédiat par hydrocortisone 100 mg puis 200 mg/24 h et sérum salé ; insuffisance surrénale cortico-induite = centrale, sans déficit minéralocorticoïde.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : ne jamais retarder le traitement.",
+        "C": "Vrai.",
+        "D": "Faux : atteinte centrale, pas de fludrocortisone.",
+        "E": "Vrai : vomissements et diarrhée empêchent l'absorption et constituent un stress."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Crise surrénale chez un patient sous corticoïdes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre la biologie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        },
+        {
+          "reference": "Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: Endocrine Society Guideline. J Clin Endocrinol Metab 2016;101:364-389",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1429",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la recommandation de l'ACR (2022) sur l'ostéoporose cortico-induite, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle concerne les adultes recevant plus de 3 mois de glucocorticoïdes à au moins 2,5 mg/j",
+        "B": "L'évaluation initiale du risque fracturaire doit être faite le plus tôt possible après le début du traitement",
+        "C": "Un traitement anti-ostéoporotique est fortement recommandé chez les adultes à risque fracturaire moyen, élevé ou très élevé",
+        "D": "Les fractures n'apparaissent qu'après 5 ans de traitement",
+        "E": "Le calcium et la vitamine D seuls suffisent quel que soit le risque fracturaire"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Évaluation précoce (fractures, densitométrie avec analyse vertébrale, FRAX ≥ 40 ans) et traitement pharmacologique dès un risque moyen.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : le risque augmente dès les premiers mois.",
+        "E": "Faux : traitement spécifique si risque moyen ou plus."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Ostéoporose cortisonique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre une fracture pour prévenir.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Humphrey MB et al. 2022 ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis. Arthritis Care Res 2023;75:2405-2419",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1430",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels effets indésirables sont classiquement associés à une corticothérapie générale prolongée ?",
+      "propositions": {
+        "A": "Cataracte sous-capsulaire postérieure",
+        "B": "Myopathie proximale",
+        "C": "Hypoglycémie",
+        "D": "Ostéonécrose aseptique de la tête fémorale",
+        "E": "Hyperkaliémie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les corticoïdes entraînent hyperglycémie et hypokaliémie (effet minéralocorticoïde), cataracte, glaucome, myopathie, ostéoporose, ostéonécrose.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : hyperglycémie.",
+        "D": "Vrai.",
+        "E": "Faux : hypokaliémie."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Effets indésirables des corticoïdes",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        },
+        {
+          "reference": "Humphrey MB et al. 2022 ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis. Arthritis Care Res 2023;75:2405-2419",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1431",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient sous prednisone 5 mg/j depuis 2 ans (axe HHS non testé) doit être pris en charge dans différentes situations. Selon l'ESE/ES 2024, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "En cas de syndrome grippal fébrile traité à domicile, la prednisone est portée à 10 mg/j pendant 2 à 5 jours",
+        "B": "Pour une chirurgie sous anesthésie générale, hydrocortisone 100 mg IV à l'induction puis 200 mg/24 h",
+        "C": "En cas de vomissements persistants, une injection IM de 100 mg d'hydrocortisone est indiquée",
+        "D": "Un patient sous prednisone 60 mg/j doit recevoir en plus des doses de stress pour toute chirurgie",
+        "E": "La fludrocortisone doit être ajoutée pendant les périodes de stress"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Doses de stress : orales en cas de stress mineur, parentérales en cas de stress modéré ou majeur, chirurgie ou vomissements. Inutile d'augmenter si la dose est déjà forte (prednisone ≥ 50 mg/j).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : renouvelable à 6 h, hospitalisation si persistance.",
+        "D": "Faux : au-delà de ≈ 50 mg/j de prednisone, pas d'augmentation nécessaire en général.",
+        "E": "Faux : pas de fludrocortisone dans l'insuffisance surrénale cortico-induite."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Doses de stress",
+      "difficulte": 2,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1432",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans quelles situations une corticothérapie a-t-elle démontré un intérêt ou est-elle recommandée ?",
+      "propositions": {
+        "A": "Méningite bactérienne de l'adulte, dexaméthasone débutée avant ou avec la première dose d'antibiotique",
+        "B": "COVID-19 hospitalisée nécessitant de l'oxygène : dexaméthasone 6 mg/j jusqu'à 10 jours",
+        "C": "COVID-19 hospitalisée sans aucun besoin d'oxygène",
+        "D": "Choc septique nécessitant des vasopresseurs malgré le remplissage",
+        "E": "Sepsis sans hypotension, de façon systématique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "RECOVERY : bénéfice sur la mortalité sous oxygène ou ventilation, pas sans oxygène. SSC 2021 : corticoïdes IV suggérés dans le choc septique avec besoin persistant de vasopresseurs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pas de bénéfice, tendance défavorable.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Corticoïdes en infectiologie et réanimation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire de la dexaméthasone à tout patient COVID.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hoen B et al. Management of acute community-acquired bacterial meningitis (SPILF). Med Mal Infect 2019;49:367-398",
+          "date": "2019"
+        },
+        {
+          "reference": "RECOVERY Collaborative Group. Dexamethasone in Hospitalized Patients with Covid-19. N Engl J Med 2021;384:693-704",
+          "date": "2021"
+        },
+        {
+          "reference": "Evans L et al. Surviving Sepsis Campaign 2021. Crit Care Med 2021;49:e1063-e1143",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1433",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le choix d'un glucocorticoïde selon la situation, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La bétaméthasone est utilisée pour la maturation pulmonaire fœtale car elle traverse le placenta",
+        "B": "La prednisolone est préférée pour traiter une maladie maternelle pendant la grossesse car elle est largement inactivée par le placenta",
+        "C": "L'hydrocortisone est la molécule de choix de la substitution surrénalienne",
+        "D": "La dexaméthasone est utilisée dans l'œdème cérébral péritumoral",
+        "E": "La dexaméthasone est indiquée dans l'œdème cérébral de l'AVC ischémique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le choix tient compte de la puissance, de la durée d'action, de l'effet minéralocorticoïde et du passage placentaire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : 11β-HSD2 placentaire.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : non indiquée (pas de bénéfice démontré)."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Choix de la molécule",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        },
+        {
+          "reference": "Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: Endocrine Society Guideline. J Clin Endocrinol Metab 2016;101:364-389",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1434",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'insuffisance surrénale induite par les glucocorticoïdes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une insuffisance surrénale d'origine centrale (freinage de l'ACTH)",
+        "B": "Une hyperkaliémie est habituelle",
+        "C": "Elle peut survenir avec des corticoïdes inhalés à forte dose",
+        "D": "Une infiltration intra-articulaire dans les 2 mois précédents est un facteur à prendre en compte",
+        "E": "L'introduction de rifampicine peut la démasquer"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le freinage porte sur l'axe CRH-ACTH ; la zone glomérulée est préservée (pas d'hyperkaliémie, pas de fludrocortisone). Toutes les voies peuvent freiner ; les inducteurs du CYP3A4 accélèrent le métabolisme des corticoïdes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : l'aldostérone est préservée.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai : inducteur puissant du CYP3A4."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Insuffisance surrénale cortico-induite",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Croire que seules les corticothérapies orales freinent l'axe.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1435",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions concernant les interactions des corticoïdes sont exactes ?",
+      "propositions": {
+        "A": "L'association ritonavir–fluticasone inhalée peut entraîner un syndrome de Cushing iatrogène",
+        "B": "La rifampicine augmente l'efficacité de la prednisolone",
+        "C": "L'association fluoroquinolone–corticoïde augmente le risque de rupture tendineuse",
+        "D": "L'association à un diurétique de l'anse majore le risque d'hypokaliémie",
+        "E": "Les vaccins vivants atténués peuvent être administrés sans restriction sous corticothérapie à dose immunosuppressive"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Interactions pharmacocinétiques (CYP3A4) et pharmacodynamiques (hypokaliémie, tendons) ; vaccins vivants contre-indiqués sous doses immunosuppressives.",
+      "explications_par_proposition": {
+        "A": "Vrai : inhibition du CYP3A4.",
+        "B": "Faux : induction, baisse d'efficacité.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : contre-indiqués."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Interactions des corticoïdes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1436",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Au cours de la décroissance d'une corticothérapie prolongée, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un syndrome de sevrage peut survenir alors que la dose est encore supraphysiologique",
+        "B": "Les symptômes d'insuffisance surrénale apparaissent surtout lorsque la dose devient inférieure à la dose physiologique",
+        "C": "Une perte de poids et une hypotension orthostatique orientent vers une insuffisance surrénale",
+        "D": "En cas de syndrome de sevrage sévère, il faut arrêter immédiatement les corticoïdes",
+        "E": "La réapparition de signes spécifiques de la maladie oriente vers une rechute"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "ESE/ES 2024 : sevrage = baisse brutale d'une exposition élevée ; insuffisance surrénale = dose < physiologique ; en cas de sevrage sévère, revenir à la dernière dose tolérée et ralentir.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : autour de 5–7,5 mg de prednisone.",
+        "C": "Vrai.",
+        "D": "Faux : revenir au palier toléré et ralentir la décroissance.",
+        "E": "Vrai."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-167"
+      ],
+      "theme": "Sevrage, insuffisance surrénale et rechute",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Beuschlein F et al. ESE/Endocrine Society Joint Clinical Guideline: Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109:1657-1683",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1437",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les lignes directrices de l'OMS (2018) sur la douleur cancéreuse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les antalgiques doivent être donnés par voie orale chaque fois que possible",
+        "B": "Ils doivent être donnés à intervalles fixes, la dose suivante avant la fin de l'effet de la précédente",
+        "C": "L'échelle à trois paliers est un protocole strict qu'il faut suivre palier par palier",
+        "D": "Les antalgiques faibles ne doivent pas être donnés seuls pour initier le traitement d'une douleur modérée ou sévère",
+        "E": "La voie intramusculaire est préférée à la voie sous-cutanée quand la voie orale est impossible"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "OMS 2018 : « by mouth, by the clock, for the individual, with attention to detail » ; l'échelle est un outil pédagogique ; SC préférée à IM.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : outil pédagogique et guide général.",
+        "D": "Vrai : on peut débuter par un opioïde (morphine) associé ou non aux non-opioïdes.",
+        "E": "Faux : la SC est moins douloureuse et préférée."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Principes OMS du traitement de la douleur cancéreuse",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Monter palier par palier devant une douleur sévère.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1438",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le paracétamol chez l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dose maximale usuelle est de 4 g par 24 heures",
+        "B": "Chez l'adulte de plus de 50 kg présentant un facteur de risque d'hépatotoxicité, la dose maximale est réduite à 3 g par 24 heures",
+        "C": "Il a une activité anti-inflammatoire comparable à celle des AINS",
+        "D": "Son hépatotoxicité en cas de surdosage est liée à un métabolite réactif (NAPQI)",
+        "E": "Par voie IV, l'intervalle entre deux doses est d'au moins 6 heures si la clairance de la créatinine est inférieure à 30 mL/min"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Paracétamol : antalgique-antipyrétique sans effet anti-inflammatoire, dose maximale 4 g/24 h (3 g si facteur de risque), intervalle allongé en insuffisance rénale sévère (OMS 2018).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : l'OMS ne le recommande pas comme anti-inflammatoire.",
+        "D": "Vrai : antidote N-acétylcystéine.",
+        "E": "Vrai."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Paracétamol",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Cumuler plusieurs spécialités contenant du paracétamol.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. WHO Model List of Essential Medicines, 24th list, section 2. 2025",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1439",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les anti-inflammatoires non stéroïdiens (AINS), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Ils inhibent les cyclo-oxygénases et la synthèse des prostaglandines",
+        "B": "Ils sont contre-indiqués à partir de 24 semaines d'aménorrhée",
+        "C": "L'association AINS + IEC + diurétique expose à l'insuffisance rénale aiguë, surtout en cas de déshydratation",
+        "D": "Ils sont efficaces en monothérapie sur la douleur neuropathique",
+        "E": "Ils sont le traitement antalgique de choix chez le patient cirrhotique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les AINS inhibent COX-1/COX-2 ; leurs risques sont digestifs, rénaux, cardiovasculaires et obstétricaux. Ils sont peu efficaces sur la douleur neuropathique et à éviter dans la cirrhose.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : toxicité fœtale (canal artériel, rein).",
+        "C": "Vrai : « triple whammy ».",
+        "D": "Faux.",
+        "E": "Faux : risque rénal, hémorragique et de décompensation."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "AINS",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        },
+        {
+          "reference": "AGS 2023 Beers Criteria Update Expert Panel. J Am Geriatr Soc 2023;71:2052-2081",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1440",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la codéine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "C'est une prodrogue transformée en morphine par le CYP2D6",
+        "B": "Selon l'OMS, 16 à 28 % des populations arabes et nord-africaines seraient des métaboliseurs ultrarapides",
+        "C": "Les métaboliseurs lents n'en retirent pas ou peu d'effet antalgique",
+        "D": "La dose maximale usuelle chez l'adulte est de 240 mg par jour",
+        "E": "Elle est recommandée chez la femme qui allaite car elle ne passe pas dans le lait"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Effet imprévisible selon le génotype CYP2D6 : inefficace chez les métaboliseurs lents, toxique (dépression respiratoire) chez les ultrarapides. Le CPIC recommande de l'éviter chez ces deux phénotypes ; prudence chez l'enfant et pendant l'allaitement.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : contre 1–10 % chez les Caucasiens.",
+        "C": "Vrai.",
+        "D": "Vrai : 30–60 mg toutes les 4 h, max 240 mg/j.",
+        "E": "Faux : toxicité décrite chez des nourrissons allaités par des mères métaboliseuses ultrarapides."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Codéine et pharmacogénétique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Considérer la codéine comme un antalgique « doux » sans risque.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        },
+        {
+          "reference": "Crews KR et al. CPIC Guideline for CYP2D6, OPRM1, and COMT Genotypes and Select Opioid Therapy. Clin Pharmacol Ther 2021;110:888-896",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1441",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un adulte naïf d'opioïdes ayant une douleur cancéreuse sévère, quelles propositions concernant la morphine orale sont exactes ?",
+      "propositions": {
+        "A": "Une dose de départ typique est de 5 mg de morphine à libération immédiate toutes les 4 heures",
+        "B": "Une interdose de 50 à 100 % de la dose régulière des 4 heures peut être proposée en cas d'accès douloureux",
+        "C": "La dose maximale journalière est de 60 mg",
+        "D": "Après stabilisation, la dose journalière peut être convertie en morphine à libération prolongée toutes les 12 heures",
+        "E": "Les comprimés à libération prolongée peuvent être écrasés pour accélérer leur effet"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "OMS 2018 : titration par morphine LI à heures fixes, interdoses de LI, puis relais LP ; pas de dose maximale théorique ; ne jamais écraser une forme LP.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pas de dose maximale, la bonne dose est celle qui soulage.",
+        "D": "Vrai.",
+        "E": "Faux : risque de surdosage."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Titration de la morphine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1442",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les tables de conversion reproduites par l'OMS (2018), quelles équivalences approximatives sont exactes ?",
+      "propositions": {
+        "A": "Morphine orale 60 mg/24 h ≈ morphine SC ou IV 30 mg/24 h",
+        "B": "L'oxycodone orale est environ 1,5 fois plus puissante que la morphine orale",
+        "C": "L'hydromorphone orale est environ 4 à 5 fois plus puissante que la morphine orale",
+        "D": "Le fentanyl transdermique a une puissance relative d'environ 100 par rapport à la morphine orale",
+        "E": "La codéine est environ 2 fois moins puissante que la morphine orale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Ratios indicatifs : morphine PO/parentérale 2:1 ; oxycodone 1,5 (2 selon les fabricants) ; hydromorphone 4–5 ; fentanyl TD 100 (150) ; codéine 1/10.",
+      "explications_par_proposition": {
+        "A": "Vrai : ratio 2:1.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 1/10."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Équianalgésie des opioïdes",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Utiliser les tables comme des équivalences exactes.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1443",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la rotation des opioïdes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une réduction d'environ 50 % de la dose calculée est prudente lors d'une conversion à forte dose ou chez un patient âgé ou fragile",
+        "B": "Les tables de conversion sont exactes et ne nécessitent pas de surveillance particulière",
+        "C": "La conversion vers la méthadone doit être guidée par un spécialiste",
+        "D": "Des effets indésirables intolérables malgré une analgésie correcte sont une indication de rotation",
+        "E": "Une insuffisance rénale contre-indique toute rotation d'opioïde"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les ratios sont approximatifs ; réduire de ~50 % dans les situations à risque et compenser par des interdoses ; méthadone réservée aux équipes spécialisées.",
+      "explications_par_proposition": {
+        "A": "Vrai (OMS 2018).",
+        "B": "Faux : variabilité interindividuelle, absence d'essais randomisés.",
+        "C": "Vrai : puissance réelle très supérieure en administration répétée.",
+        "D": "Vrai.",
+        "E": "Faux : l'insuffisance rénale est au contraire une raison fréquente de rotation."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Rotation des opioïdes",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1444",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les effets indésirables des opioïdes, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La constipation ne fait pas l'objet d'une tolérance et justifie un laxatif systématique",
+        "B": "Les nausées surviennent surtout en début de traitement",
+        "C": "La dépression respiratoire est habituellement précédée d'une somnolence",
+        "D": "Une hyperalgésie peut être induite par les opioïdes à fortes doses",
+        "E": "La diarrhée est un effet indésirable fréquent des opioïdes"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Constipation constante sans tolérance ; nausées et somnolence initiales ; la sédation précède la dépression respiratoire ; hyperalgésie possible.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : surveiller la sédation.",
+        "D": "Vrai.",
+        "E": "Faux : constipation."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Effets indésirables des opioïdes",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1445",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient sous morphine LP pour une douleur cancéreuse est retrouvé somnolent, avec une fréquence respiratoire à 6/min et un myosis serré. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La naloxone est administrée par petites doses IV (0,08 à 0,12 mg) toutes les 2 à 3 minutes jusqu'à ventilation adéquate",
+        "B": "La durée d'action de la naloxone est plus longue que celle de la morphine LP",
+        "C": "Des réinjections ou une perfusion de naloxone peuvent être nécessaires",
+        "D": "Le myosis serré est un signe évocateur",
+        "E": "Un bolus de 2 mg de naloxone est recommandé d'emblée pour réveiller rapidement le patient"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Titration de la naloxone pour restaurer la ventilation sans provoquer de sevrage brutal ni de douleur ; durée d'action courte, d'où les réinjections (OMS 2018).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : plus courte, risque de re-sédation.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : risque de sevrage aigu et de douleur intense chez le patient dépendant."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Surdosage en opioïdes",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Bolus massif de naloxone chez le patient dépendant.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1446",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la méta-analyse du NeuPSIG (2015), quels traitements sont recommandés en première ligne de la douleur neuropathique, ou spécifiquement indiqués ?",
+      "propositions": {
+        "A": "Amitriptyline (antidépresseur tricyclique)",
+        "B": "Gabapentine ou prégabaline",
+        "C": "Duloxétine",
+        "D": "Paracétamol à dose maximale",
+        "E": "Carbamazépine dans la névralgie du trijumeau"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "1re ligne : tricycliques, IRSNa, gabapentinoïdes ; 2e ligne : lidocaïne et capsaïcine topiques, tramadol ; 3e ligne : opioïdes forts, toxine botulique. La carbamazépine reste le traitement de la névralgie du trijumeau.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : inefficace sur la douleur neuropathique.",
+        "E": "Vrai."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Douleur neuropathique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Finnerup NB et al. Pharmacotherapy for neuropathic pain in adults. Lancet Neurol 2015;14:162-173",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1447",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'usage des opioïdes en dehors du cancer, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'OMS (2023) recommande de ne pas utiliser les opioïdes en routine dans la lombalgie chronique primaire",
+        "B": "L'OMS (2023) indique que les AINS peuvent être proposés dans la lombalgie chronique primaire",
+        "C": "La HAS (2022) place les opioïdes en dernière intention dans la douleur chronique non cancéreuse",
+        "D": "La HAS (2022) propose les opioïdes en seconde intention dans la crise migraineuse",
+        "E": "Le CDC (2022) recommande de privilégier les non-opioïdes dans la douleur aiguë et, si un opioïde est nécessaire, une forme à libération immédiate à la dose la plus faible et pour une durée courte"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les recommandations convergent vers une prescription restrictive des opioïdes en dehors du cancer et des soins palliatifs.",
+      "explications_par_proposition": {
+        "A": "Vrai : recommandation conditionnelle contre.",
+        "B": "Vrai : recommandation conditionnelle pour.",
+        "C": "Vrai.",
+        "D": "Faux : opioïdes non recommandés, même en seconde intention, dans la migraine.",
+        "E": "Vrai."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Opioïdes et douleur non cancéreuse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guideline for non-surgical management of chronic primary low back pain in adults. 2023",
+          "date": "2023"
+        },
+        {
+          "reference": "HAS. Bon usage des médicaments opioïdes : antalgie, prévention et prise en charge du trouble de l'usage et des surdoses. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "Dowell D et al. CDC Clinical Practice Guideline for Prescribing Opioids for Pain. MMWR Recomm Rep 2022;71(3):1-95",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PHAR-1448",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles propositions concernant les antalgiques dans les populations particulières sont exactes ?",
+      "propositions": {
+        "A": "Chez le sujet âgé, les AINS au long cours sont des médicaments potentiellement inappropriés",
+        "B": "En insuffisance rénale, les métabolites actifs de la morphine s'accumulent",
+        "C": "Pendant la grossesse, le paracétamol est l'antalgique de premier choix",
+        "D": "La fièvre élevée augmente l'absorption du fentanyl transdermique",
+        "E": "La codéine est l'antalgique de choix après amygdalectomie chez l'enfant"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Adapter la molécule et la dose au terrain : AINS à éviter chez le sujet âgé et l'insuffisant rénal, morphine à réduire en insuffisance rénale, codéine à éviter chez l'enfant.",
+      "explications_par_proposition": {
+        "A": "Vrai : critères de Beers 2023.",
+        "B": "Vrai : morphine-3- et -6-glucuronides.",
+        "C": "Vrai.",
+        "D": "Vrai (OMS 2018 : fièvre > 40 °C).",
+        "E": "Faux : décès décrits chez des métaboliseurs ultrarapides."
+      },
+      "specialite": "PHAR",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "theme": "Antalgiques et populations particulières",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "AGS 2023 Beers Criteria Update Expert Panel. J Am Geriatr Soc 2023;71:2052-2081",
+          "date": "2023"
+        },
+        {
+          "reference": "OMS. WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents (annexe 6 : profils et tables de conversion). 2018",
+          "date": "2018"
+        },
+        {
+          "reference": "Crews KR et al. CPIC Guideline for CYP2D6, OPRM1, and COMT Genotypes and Select Opioid Therapy. Clin Pharmacol Ther 2021;110:888-896",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1401",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la compatibilité ABO pour la transfusion de concentrés de globules rouges (CGR), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un receveur de groupe A peut recevoir des CGR de groupe O",
+        "B": "Un receveur de groupe AB peut recevoir des CGR de groupe A, B, AB ou O",
+        "C": "Un receveur de groupe O peut recevoir des CGR de groupe A",
+        "D": "Un receveur de groupe B peut recevoir des CGR de groupe AB",
+        "E": "Les CGR de groupe O sont dits « donneurs universels »"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "On n'apporte jamais d'antigène contre lequel le receveur a un anticorps naturel : O ne reçoit que O ; AB reçoit tout.",
+      "explications_par_proposition": {
+        "A": "Vrai : les hématies O ne portent ni A ni B.",
+        "B": "Vrai : le receveur AB n'a pas d'anti-A ni d'anti-B.",
+        "C": "Faux : le sujet O possède des anti-A.",
+        "D": "Faux : le sujet B possède des anti-A.",
+        "E": "Vrai (pour les hématies)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Compatibilité ABO des concentrés de globules rouges",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "BCSH, Milkins C et al. Guidelines for pre-transfusion compatibility procedures in blood transfusion laboratories. Transfus Med 2013;23:3-35",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1402",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la compatibilité ABO pour la transfusion de plasma, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le plasma de groupe AB est « donneur universel »",
+        "B": "Un receveur de groupe O peut recevoir du plasma de groupe A",
+        "C": "Un receveur de groupe A peut recevoir du plasma de groupe O",
+        "D": "Un receveur de groupe AB ne peut recevoir que du plasma AB",
+        "E": "Le plasma de groupe O peut être transfusé à tous les receveurs"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Règle inversée : on n'apporte pas d'anticorps dirigés contre les antigènes du receveur. Le plasma AB ne contient ni anti-A ni anti-B.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : le plasma A contient des anti-B, sans cible chez un receveur O.",
+        "C": "Faux : le plasma O contient des anti-A.",
+        "D": "Vrai.",
+        "E": "Faux : il contient des anti-A et anti-B."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Compatibilité ABO du plasma",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer au plasma la règle des globules rouges.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "BCSH, Milkins C et al. Guidelines for pre-transfusion compatibility procedures in blood transfusion laboratories. Transfus Med 2013;23:3-35",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1403",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le bilan immuno-hématologique avant une transfusion de CGR programmée, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le groupe ABO-RhD repose sur deux déterminations",
+        "B": "Une recherche d'agglutinines irrégulières (RAI) récente est nécessaire",
+        "C": "Une RAI positive impose l'identification de l'anticorps et des CGR compatibilisés",
+        "D": "Une carte de groupe présentée par le patient dispense du groupage",
+        "E": "La RAI a une validité illimitée chez un patient récemment transfusé"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Groupage sur deux déterminations, RAI de validité courte chez les patients transfusés ou enceintes, compatibilisation si anticorps.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : le groupe doit être déterminé par le laboratoire selon les règles.",
+        "E": "Faux : validité courte (une allo-immunisation peut apparaître rapidement)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Bilan immuno-hématologique prétransfusionnel",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "BCSH, Milkins C et al. Guidelines for pre-transfusion compatibility procedures in blood transfusion laboratories. Transfus Med 2013;23:3-35",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1404",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations internationales de l'AABB (2023) sur la transfusion de globules rouges, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Chez l'adulte hospitalisé hémodynamiquement stable, une transfusion est envisagée si l'hémoglobine est inférieure à 7 g/dL",
+        "B": "Un seuil de 8 g/dL peut être retenu en chirurgie orthopédique ou en cas de maladie cardiovasculaire préexistante",
+        "C": "Un seuil de 7,5 g/dL peut être retenu en chirurgie cardiaque",
+        "D": "Un seuil de 10 g/dL est recommandé chez tout patient de plus de 65 ans",
+        "E": "Ces seuils s'appliquent aussi à l'hémorragie active non contrôlée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Stratégie restrictive (recommandation forte) ; seuils de 7,5 et 8 g/dL dans certaines populations ; l'hémorragie active relève d'une logique différente.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Faux : on transfuse selon la perte et l'hémodynamique."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Seuils de transfusion de globules rouges",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Carson JL et al. Red Blood Cell Transfusion: 2023 AABB International Guidelines. JAMA 2023;330:1892-1902",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1405",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations AABB/ICTMG 2025, quelles propositions concernant la transfusion de plaquettes sont exactes ?",
+      "propositions": {
+        "A": "Chez un patient non hémorragique sous chimiothérapie, transfusion prophylactique si plaquettes < 10 G/L",
+        "B": "Avant une ponction lombaire, transfusion si plaquettes < 20 G/L",
+        "C": "Dans la thrombopénie de la dengue sans hémorragie majeure, la transfusion n'est pas recommandée",
+        "D": "Avant une chirurgie majeure non neuraxiale, transfusion si plaquettes < 50 G/L",
+        "E": "Dans un hématome intracérébral non opéré, il faut transfuser des plaquettes même si elles sont > 100 G/L chez un patient sous antiagrégant"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Stratégies restrictives avec seuils selon le contexte ; pas de transfusion dans la dengue non hémorragique ni dans l'hématome intracérébral sous antiagrégant avec plaquettes > 100 G/L.",
+      "explications_par_proposition": {
+        "A": "Vrai (recommandation forte).",
+        "B": "Vrai (recommandation forte).",
+        "C": "Vrai.",
+        "D": "Vrai (conditionnelle).",
+        "E": "Faux : non recommandée."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Seuils de transfusion plaquettaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Metcalf RA et al. Platelet Transfusion: 2025 AABB and ICTMG International Clinical Practice Guidelines. JAMA 2025;334:606-617",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1406",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'accident hémolytique aigu par incompatibilité ABO, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est dû aux anticorps naturels du système ABO, principalement de type IgM",
+        "B": "L'hémolyse est intravasculaire avec activation du complément",
+        "C": "Sa cause principale est une erreur d'identification",
+        "D": "Il survient typiquement 7 à 10 jours après la transfusion",
+        "E": "La transfusion doit être arrêtée immédiatement en conservant la voie veineuse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Accident immédiat, grave (choc, CIVD, insuffisance rénale), presque toujours lié à une erreur d'identification ; arrêt, voie veineuse maintenue, réanimation, déclaration.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : immédiat, dès les premiers millilitres ; c'est l'hémolyse retardée qui survient en 5–15 jours.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Hémolyse aiguë par incompatibilité ABO",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Robinson S et al. The administration of blood components: a BSH Guideline. Transfus Med 2018;28:3-21",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1407",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le TRALI et le TACO, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le TRALI survient pendant ou dans les 6 heures suivant la transfusion",
+        "B": "Un BNP élevé oriente vers un TACO",
+        "C": "Le TRALI s'améliore nettement sous diurétiques",
+        "D": "Une hypertension artérielle est plus évocatrice de TACO",
+        "E": "Des anticorps anti-HLA ou anti-HNA du donneur sont souvent impliqués dans le TRALI"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "TRALI : œdème lésionnel ≤ 6 h, hypotension, pas de surcharge, anticorps du donneur. TACO : œdème hydrostatique ≤ 12 h, HTA, BNP élevé, réponse aux diurétiques.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : le diurétique est inefficace, voire délétère.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "TRALI et TACO",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Prescrire un diurétique dans un TRALI.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Vlaar APJ et al. A consensus redefinition of transfusion-related acute lung injury. Transfusion 2019;59:2465-2476",
+          "date": "2019"
+        },
+        {
+          "reference": "Wiersum-Osselton JC et al. Revised international surveillance case definition of TACO. Lancet Haematol 2019;6:e350-e358",
+          "date": "2019"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1408",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient présente des frissons intenses, une fièvre à 40 °C et une hypotension 20 minutes après le début d'une transfusion de plaquettes. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les plaquettes, conservées à température ambiante, sont les produits les plus exposés au risque de contamination bactérienne",
+        "B": "Des hémocultures du patient et une culture de la poche doivent être réalisées",
+        "C": "La poche doit être jetée immédiatement pour éviter toute contamination de l'environnement",
+        "D": "Ce tableau évoque un choc septique transfusionnel",
+        "E": "Il suffit de ralentir le débit de la transfusion"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Arrêt de la transfusion, réanimation, antibiothérapie à large spectre, hémocultures et culture de la poche conservée, alerte de la structure de transfusion et déclaration.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : la poche doit être conservée et renvoyée pour analyse.",
+        "D": "Vrai.",
+        "E": "Faux : arrêt immédiat."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Contamination bactérienne des produits sanguins",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Jeter la poche.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Robinson S et al. The administration of blood components: a BSH Guideline. Transfus Med 2018;28:3-21",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1409",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la réaction du greffon contre l'hôte post-transfusionnelle (GVH-T), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est due à des lymphocytes T viables du donneur",
+        "B": "Elle associe fièvre, éruption, diarrhée, hépatite et pancytopénie",
+        "C": "Elle est prévenue par l'irradiation des produits sanguins dans des indications ciblées",
+        "D": "Elle est prévenue par une antibioprophylaxie",
+        "E": "Les dons intrafamiliaux font partie des situations à risque"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "GVH-T : complication rare mais presque toujours mortelle, prévenue par l'irradiation (indications revues depuis la déleucocytation).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : l'atteinte médullaire fait la gravité.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai : partage d'haplotypes HLA."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "GVH transfusionnelle et irradiation",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Wiersum-Osselton JC et al. Guideline development for prevention of TA-GvHD. Br J Haematol 2021;195:681-688",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1410",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi algérienne n° 18-11 du 2 juillet 2018 relative à la santé, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La collecte du sang est assurée par des structures sanitaires publiques",
+        "B": "Toute activité dans un but lucratif portant sur le sang humain, le plasma et leurs dérivés est interdite",
+        "C": "Une Agence nationale du sang est créée pour suivre la politique nationale du sang et promouvoir le don",
+        "D": "Le donneur de sang doit être âgé de 16 à 70 ans",
+        "E": "Le don de sang doit être précédé d'un entretien médical"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Articles 258 à 264 (structures du sang, Agence nationale du sang, interdiction du lucre) et 368-369 (entretien médical, âge de 18 à 65 ans).",
+      "explications_par_proposition": {
+        "A": "Vrai (art. 258).",
+        "B": "Vrai (art. 263).",
+        "C": "Vrai (art. 264).",
+        "D": "Faux : 18 à 65 ans (art. 369).",
+        "E": "Vrai (art. 368)."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Organisation de la transfusion en Algérie",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi algérienne n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46 du 29 juillet 2018 (art. 258-264, 368-369)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1411",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 25 ans, de groupe inconnu, arrive en choc hémorragique après un accident de la route. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Des CGR O RhD négatif (et Kell négatif) peuvent être transfusés sans attendre le groupage",
+        "B": "Le plasma de groupe AB peut être utilisé en attendant le groupe",
+        "C": "Il faut attendre le résultat de la RAI avant toute transfusion",
+        "D": "Les tubes de groupage doivent être prélevés si possible avant la première transfusion",
+        "E": "Le plasma O est le plasma de choix quand le groupe est inconnu"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Urgence vitale immédiate : CGR O (RhD− et Kell− chez la femme jeune) et plasma AB, prélèvements de groupage avant transfusion si possible, acide tranexamique dans les 3 heures.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : on ne retarde pas la transfusion.",
+        "D": "Vrai.",
+        "E": "Faux : le plasma universel est AB."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Transfusion en urgence vitale immédiate",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "BCSH, Milkins C et al. Guidelines for pre-transfusion compatibility procedures in blood transfusion laboratories. Transfus Med 2013;23:3-35",
+          "date": "2013"
+        },
+        {
+          "reference": "CRASH-2 trial collaborators. Lancet 2010;376:23-32",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEMA-1412",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la gestion du sang du patient (patient blood management) et les alternatives à la transfusion, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une anémie ferriprive préopératoire doit être dépistée et traitée",
+        "B": "L'acide tranexamique administré dans les 3 heures réduit la mortalité du traumatisé hémorragique",
+        "C": "Les seuils transfusionnels restrictifs font partie des piliers de cette approche",
+        "D": "Le plasma frais congelé est le traitement de première intention de la réversion d'un AVK",
+        "E": "Chez un patient stable, il est recommandé de transfuser une unité à la fois puis de réévaluer"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Trois piliers : optimiser la masse sanguine (fer), réduire les pertes (acide tranexamique, hémostase), tolérer l'anémie (seuils restrictifs, transfusion unitaire). La réversion des AVK repose sur le CCP + vitamine K.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (CRASH-2).",
+        "C": "Vrai.",
+        "D": "Faux : CCP + vitamine K.",
+        "E": "Vrai."
+      },
+      "specialite": "HEMA",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "theme": "Gestion du sang du patient et alternatives",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Mueller MM et al. Patient Blood Management: Recommendations From the 2018 Frankfurt Consensus Conference. JAMA 2019;321:983-997",
+          "date": "2019"
+        },
+        {
+          "reference": "CRASH-2 trial collaborators. Lancet 2010;376:23-32",
+          "date": "2010"
+        },
+        {
+          "reference": "Carson JL et al. Red Blood Cell Transfusion: 2023 AABB International Guidelines. JAMA 2023;330:1892-1902",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-14",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

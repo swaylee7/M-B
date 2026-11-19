@@ -4,7 +4,12 @@ titre: "Fiche — Pré-éclampsie : diagnostic et prise en charge"
 specialite: OBST
 items_residanat: [RES-CHI-066]
 dossier_source: DOS-OBST-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-OBST-0001 v1.2 et DOS-CARD-0002 : cible de l'HTA sévère < 160/110 (dossier) vs < 160/105 (ESC/ESH 2018)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Pré-éclampsie (RES-CHI-066)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-OBST-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **ISSHP 2021** [S1], **ACOG 2020** [S2], **NICE NG133** [S3], **SFAR-CNGOF 2020** [S4], **Magpie** [S5], **OMS 2011** [S9]. En Algérie, les **Protocoles nationaux 2025** du ministère de la Santé font référence [S11] (contenu non consulté `[À VÉRIFIER]`).
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-OBST-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **ISSHP 2021** [S1], **ACOG 2020** [S2], **NICE NG133** [S3], **SFAR-CNGOF 2020** [S4], **Magpie** [S5], **OMS 2011** [S9]. En Algérie, les **Protocoles nationaux 2025** du ministère de la Santé font référence [S11] (contenu non consulté `[À VÉRIFIER]`).
 
 ## 1. Définition (2 lignes)
 
@@ -124,7 +129,7 @@ PA ≥ 140/90 (brassard adapté, assise, confirmée)
 | Urapidil | IV (alternative française) `[POSOLOGIE À VÉRIFIER]` |
 | **Contre-indiqués** | **IEC, ARA II**, antialdostérone, aliskiren, **diurétiques** (sauf OAP), **aténolol**, nifédipine sublinguale |
 
-Cibles : HTA non sévère traitée dès **140/90** (PAD **85** ISSHP ; ≤ **135/85** NICE ; CHAP : < 140/90) ; HTA sévère : PAS < 160 et PAD < 110, **sans chute brutale**.
+Cibles : HTA non sévère traitée dès **140/90** (PAD **85** ISSHP ; ≤ **135/85** NICE ; CHAP : < 140/90) ; HTA sévère : PAS < 160 et PAD < 110, **sans chute brutale** (ESC/ESH 2018 : < 160/105, cf. FIC-CARD-0002).
 
 **Sulfate de magnésium** (pas un antihypertenseur) — éclampsie (traitement + récidive ; supérieur au diazépam et à la phénytoïne) et prévention dans la PE sévère (**Magpie : éclampsie 0,8 % vs 1,9 %, ≈ −58 %**) ; France : stratégie ciblée (signes neurologiques) `[S4 — À VÉRIFIER]` :
 

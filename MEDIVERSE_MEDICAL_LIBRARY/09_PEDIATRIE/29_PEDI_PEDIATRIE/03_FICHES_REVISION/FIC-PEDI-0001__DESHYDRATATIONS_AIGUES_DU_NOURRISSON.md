@@ -4,7 +4,12 @@ titre: "Fiche — Déshydratations aiguës du nourrisson"
 specialite: PEDI
 items_residanat: [RES-MED-074]
 dossier_source: DOS-PEDI-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-PEDI-0001 v1.2 : plan B par sonde nasogastrique = même volume (≈ 75 mL/kg sur 4 h), et non 20 mL/kg/h × 4 h."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Déshydratations aiguës du nourrisson (RES-MED-074)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PEDI-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Référentiel principal : **OMS** (manuel 2005 [S1], Pocket book 2013 [S3], ligne directrice 2023 [S14]), confronté à l'**ESPGHAN/ESPID 2014** [S4]. Documents nationaux algériens (PCIME, lutte contre les maladies diarrhéiques) `[À VÉRIFIER — MSPRH / INSP / UNICEF Algérie]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-PEDI-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Référentiel principal : **OMS** (manuel 2005 [S1], Pocket book 2013 [S3], ligne directrice 2023 [S14]), confronté à l'**ESPGHAN/ESPID 2014** [S4]. Documents nationaux algériens (PCIME, lutte contre les maladies diarrhéiques) `[À VÉRIFIER — MSPRH / INSP / UNICEF Algérie]`.
 
 ## 1. Définition (2 lignes)
 
@@ -117,7 +122,7 @@ PLAN A (pas de déshydratation, domicile) — 4 règles :
   + zinc + poursuite de l'alimentation/allaitement + signes de retour
 PLAN B (signes évidents) — SRO 75 mL/kg en 4 h sous surveillance
   vomissement → attendre 10 min, reprendre plus lentement
-  ne boit pas (sans choc) → sonde nasogastrique (20 mL/kg/h ≈ 4 h)
+  ne boit pas (sans choc) → sonde nasogastrique, même volume (≈ 75 mL/kg sur 4 h)
   réévaluer à H4 et reclasser ; alimentation à la fin des 4 h
 PLAN C (sévère) — Ringer lactate (à défaut NaCl 0,9 %) 100 mL/kg :
   < 12 mois : 30 mL/kg en 1 h puis 70 mL/kg en 5 h

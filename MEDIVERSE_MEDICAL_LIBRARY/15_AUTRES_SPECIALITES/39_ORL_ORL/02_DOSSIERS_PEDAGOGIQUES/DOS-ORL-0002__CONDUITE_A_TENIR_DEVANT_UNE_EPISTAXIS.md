@@ -6,11 +6,17 @@ sous_specialite: "Rhinologie — urgences ORL"
 items_residanat: [RES-CHI-046]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0002.md
 sources:
   - id: S1
     reference: "Bequignon E, Vérillaud B, Robard L, Michel J, Prulière Escabasse V, Crampette L, et al. Guidelines of the French Society of Otorhinolaryngology (SFORL). First-line treatment of epistaxis in adults. Eur Ann Otorhinolaryngol Head Neck Dis. 2017;134(3):185-189."
@@ -68,13 +74,29 @@ sources:
     doi: "10.1016/j.annemergmed.2020.12.013"
     url: ""
     verifiee: true
+  - id: S8
+    reference: "Haute Autorité de santé (HAS), GEHT. Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par antivitamines K en ville et en milieu hospitalier. Recommandations professionnelles, avril 2008 (synthèse relue en texte intégral le 2026-11-19)."
+    organisme: HAS/GEHT
+    annee: 2008
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/jcms/c_682188/"
+    verifiee: true
+  - id: S9
+    reference: "Galli M, Simeone B, ten Berg J, Capodanno D, Valgimigli M, et al. Managing bleeds on anticoagulant therapy: a practical guide for clinicians. Eur Heart J Acute Cardiovasc Care. 2026;15(7):557-572 (PMID 41818678, PMC13344178 ; texte intégral lu)."
+    organisme: ""
+    annee: 2026
+    type: article
+    doi: "10.1093/ehjacc/zuag035"
+    url: ""
+    verifiee: true
 mots_cles: [épistaxis, tache vasculaire, Kiesselbach, compression bidigitale, méchage, tamponnement antéro-postérieur, artère sphénopalatine, embolisation, Rendu-Osler, antithrombotiques, HTA]
 ---
 
 # Conduite à tenir devant une épistaxis
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-046 — « Conduite à tenir devant une épistaxis » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -224,7 +246,7 @@ Aucun examen n'est nécessaire devant une épistaxis antérieure bénigne, isol�
 | **NFS-plaquettes** | Épistaxis abondante, prolongée, récidivante ; terrain à risque | Anémie aiguë (l'hémoglobine peut être initialement faussement normale avant l'hémodilution), thrombopénie |
 | **Groupe sanguin, Rhésus, RAI** | Épistaxis grave, transfusion possible | — |
 | **TP/INR, TCA** | Antithrombotiques, hépatopathie, saignement diffus | Surdosage en AVK (INR au-dessus de la cible) ; allongement du TCA (hémophilie, Willebrand, héparine) |
-| **Dosage spécifique des AOD / activité anti-Xa** | Patient sous AOD avec épistaxis grave | Guide la discussion d'un antagonisation [À VÉRIFIER — protocole local] |
+| **Dosage spécifique des AOD / activité anti-Xa calibrée** | Patient sous AOD avec épistaxis grave | Guide la discussion d'une antagonisation : un taux > 50 ng/mL est le seuil habituellement retenu en cas d'hémorragie majeure [S9] ; un TCA ou un TP normal n'exclut pas un taux significatif d'AOD |
 | **Bilan d'hémostase spécialisé** (facteur Willebrand, fonctions plaquettaires) | Épistaxis récidivantes de l'enfant, antécédents personnels/familiaux hémorragiques | Maladie de Willebrand, thrombopathie |
 | **Endoscopie nasale** | Origine non antérieure, récidive, unilatéralité persistante, suspicion tumorale | Site du saignement, télangiectasies, tumeur |
 | **TDM / IRM du massif facial** | Épistaxis unilatérale récidivante avec obstruction nasale (adolescent : **fibrome nasopharyngien**), suspicion tumorale | Masse prenant le contraste, extension à la fosse ptérygopalatine |
@@ -246,7 +268,7 @@ Plus volontiers **postérieure**, abondante, sur terrain d'HTA, d'athéroscléro
 
 ### 10.3 Épistaxis et hypertension artérielle
 
-La SFORL recommande [S3] : de **mesurer la pression artérielle** à la phase aiguë ; de **contrôler médicalement l'HTA** pendant le saignement pour en réduire la durée ; de **surveiller la PA** à la décroissance de l'épistaxis et de la traiter pour limiter le risque de récidive ; en cas d'HTA persistante après une épistaxis sévère, de prescrire une **évaluation cardiovasculaire** à la recherche d'une maladie hypertensive. En pratique : calmer le patient, traiter la douleur et l'anxiété, puis traiter l'HTA persistante sans chercher une baisse brutale (risque ischémique chez le sujet âgé) [POSOLOGIE À VÉRIFIER — protocole local pour le choix de l'antihypertenseur].
+La SFORL recommande [S3] : de **mesurer la pression artérielle** à la phase aiguë ; de **contrôler médicalement l'HTA** pendant le saignement pour en réduire la durée ; de **surveiller la PA** à la décroissance de l'épistaxis et de la traiter pour limiter le risque de récidive ; en cas d'HTA persistante après une épistaxis sévère, de prescrire une **évaluation cardiovasculaire** à la recherche d'une maladie hypertensive. En pratique : calmer le patient, traiter la douleur et l'anxiété, puis traiter l'HTA persistante sans chercher une baisse brutale (risque ischémique chez le sujet âgé). La SFORL ne recommande ni molécule ni posologie : le choix de l'antihypertenseur relève du protocole local [À VÉRIFIER — protocole local].
 
 ### 10.4 Épistaxis sous antithrombotiques
 
@@ -255,9 +277,12 @@ Principes SFORL [S4] et AAO-HNSF [S5] :
 - **Commencer par les gestes locaux** (compression, cautérisation, méchage, de préférence **résorbable**) avant toute modification du traitement antithrombotique [S5].
 - Avant de modifier un antithrombotique, **rechercher un surdosage** (INR) et **évaluer le risque thrombotique** (indication : valve mécanique, fibrillation atriale avec CHA₂DS₂-VASc élevé, thrombose récente, stent coronaire récent) [S4].
 - Chez le patient porteur d'un **stent coronaire**, la **bithérapie antiplaquettaire doit être maintenue durant le mois suivant la pose et, si possible, pendant 3 mois** [S4].
-- **AVK** : si l'épistaxis est contrôlée par le méchage, la correction repose sur l'**INR** (adaptation de dose, vitamine K selon le niveau de surdosage) ; si l'épistaxis **n'est pas contrôlée**, **arrêt de l'AVK**, administration d'**antidotes** (vitamine K et concentré de complexe prothrombinique) et surveillance répétée de l'INR [S4] [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+- **AVK** : si l'épistaxis est contrôlée par le méchage, la correction repose sur l'**INR** [S4] (hémorragie « non grave » : rechercher et corriger un surdosage [S8]). Pour un INR cible de 2,5 (2-3), la HAS prévoit : INR < 4, pas de saut de prise ; 4 ≤ INR < 6, saut d'une prise ; 6 ≤ INR < 10, arrêt de l'AVK et **vitamine K 1 à 2 mg per os** ; INR ≥ 10, arrêt et **vitamine K 5 mg per os** ; INR de contrôle le lendemain [S8].
+- Si l'épistaxis **n'est pas contrôlée** (critère de gravité HAS : absence de contrôle par les moyens usuels, retentissement hémodynamique, nécessité d'une transfusion ou d'un geste hémostatique hospitalier), **arrêt de l'AVK** et administration d'**antidotes** [S4] : **concentré de complexe prothrombinique (CCP)** à dose adaptée à l'INR selon le RCP, ou **25 UI/kg (1 mL/kg)** si l'INR n'est pas disponible, **et vitamine K 10 mg** (voie orale à privilégier) ; INR 30 minutes après le CCP (objectif < 1,5 ; nouvelle dose de CCP selon le RCP si INR > 1,5), puis à 6-8 heures [S8]. Un guide pratique européen de 2026 propose des fourchettes voisines (vitamine K 5-10 mg IV, CCP 4 facteurs 25-50 UI/kg) [S9].
 - En cas d'**embolisation**, il n'est pas recommandé de modifier le traitement anticoagulant [S4].
-- **AOD** : discussion multidisciplinaire (cardiologue, hémostase) ; antagonistes spécifiques réservés aux hémorragies graves [À VÉRIFIER — protocole local].
+- **AOD** : discussion multidisciplinaire (cardiologue, hémostase) ; heure de la dernière prise, fonction rénale, dosage spécifique si disponible ; antagonistes réservés aux hémorragies graves non contrôlées [S9] :
+  - **dabigatran** : **idarucizumab 5 g IV** (2 × 2,5 g) [S9] ;
+  - **anti-Xa** (apixaban, rivaroxaban, édoxaban) : **andexanet alfa** (bolus puis perfusion, schéma selon la molécule, la dose et le délai depuis la dernière prise, d'après le RCP), à manier avec prudence (événements thrombotiques ; produit retiré du marché américain, encore autorisé en Europe) ; **à défaut, CCP 4 facteurs**, alternative largement utilisée [S9] [POSOLOGIE À VÉRIFIER — protocole local pour le CCP dans cette indication].
 
 ### 10.5 Maladie de Rendu-Osler (télangiectasie hémorragique héréditaire, THH)
 
@@ -352,7 +377,7 @@ Après chirurgie endonasale ou sinusienne, septoplastie, turbinectomie ; sondes 
 #### 13.2.3 Traitements généraux
 
 - **Remplissage vasculaire** et **transfusion** de concentrés érythrocytaires selon la tolérance et l'hémoglobine.
-- **Correction d'un trouble de l'hémostase** : plaquettes, facteurs (hémophilie), desmopressine (Willebrand, selon type), antagonisation des anticoagulants si épistaxis grave non contrôlée [S4] [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+- **Correction d'un trouble de l'hémostase** : antagonisation des anticoagulants si épistaxis grave non contrôlée (doses au § 10.4) [S4, S8, S9] ; plaquettes, facteurs (hémophilie), desmopressine (Willebrand, selon le type et après test de réponse) selon le centre de traitement de l'hémophilie [POSOLOGIE À VÉRIFIER — protocole du centre].
 - **Contrôle de l'HTA** [S3].
 - **Acide tranexamique** :
   - **topique** : l'essai randomisé multicentrique britannique **NoPAC** (496 patients, 26 services d'urgences) n'a montré **aucune différence** par rapport au placebo sur la nécessité d'un méchage antérieur (43,7 % vs 41,3 %), ni sur les critères secondaires [S7] ;
@@ -491,7 +516,7 @@ Sinon : retour à domicile avec consignes, ablation du méchage programmée, end
 
 **Question 2.** Position assise penchée en avant, mouchage, compression bidigitale ; anesthésie locale avec vasoconstricteur et rhinoscopie ; méchage antérieur (résorbable sous AVK) ; tamponnement antéro-postérieur en cas d'épistaxis postérieure persistante ; puis seconde intention : coagulation endoscopique de la sphénopalatine ou embolisation.
 
-**Question 3.** Rechercher la cause du surdosage (interaction avec le cotrimoxazole), évaluer le risque thrombotique ; l'épistaxis n'étant pas contrôlée, arrêt de l'AVK, vitamine K et concentré de complexe prothrombinique selon le protocole, INR répétés ; reprise de l'anticoagulation en concertation avec le cardiologue dès l'hémostase obtenue.
+**Question 3.** Rechercher la cause du surdosage (interaction avec le cotrimoxazole), évaluer le risque thrombotique ; l'épistaxis n'étant pas contrôlée, arrêt de l'AVK, CCP (dose adaptée à l'INR selon le RCP) et vitamine K 10 mg, INR à 30 minutes puis à 6-8 heures (objectif < 1,5) [S8] ; reprise de l'anticoagulation en concertation avec le cardiologue dès l'hémostase obtenue.
 
 **Question 4.** La mesurer et la surveiller ; traiter la douleur et l'anxiété ; contrôler médicalement l'HTA persistante pour réduire la durée du saignement, sans baisse brutale ; évaluation cardiovasculaire si l'HTA persiste à distance (SFORL).
 
@@ -517,7 +542,7 @@ Sinon : retour à domicile avec consignes, ablation du méchage programmée, end
 
 **Diagnostic final.** Épistaxis postérieure droite grave par saignement de branches de l'artère sphénopalatine, entretenue par un surdosage en AVK (interaction avec le cotrimoxazole) et une poussée hypertensive.
 
-**Traitement.** Voie veineuse, remplissage prudent, transfusion de 2 culots globulaires compte tenu de la cardiopathie et de la mauvaise tolérance. Méchage antérieur résorbable inefficace → tamponnement antéro-postérieur par sonde à double ballonnet, hospitalisation avec surveillance de la SpO2. Épistaxis non contrôlée sous AVK : arrêt de l'acénocoumarol, vitamine K et concentré de complexe prothrombinique selon le protocole local [POSOLOGIE À VÉRIFIER — RCP / protocole local], contrôle de l'INR. Antalgie, anxiolyse, contrôle progressif de la PA. Récidive à l'ablation du tamponnement (H48) → coagulation endoscopique de l'artère sphénopalatine droite sous anesthésie générale.
+**Traitement.** Voie veineuse, remplissage prudent, transfusion de 2 culots globulaires compte tenu de la cardiopathie et de la mauvaise tolérance. Méchage antérieur résorbable inefficace → tamponnement antéro-postérieur par sonde à double ballonnet, hospitalisation avec surveillance de la SpO2. Épistaxis non contrôlée sous AVK (hémorragie grave au sens de la HAS : échec des moyens usuels, retentissement hémodynamique, transfusion) : arrêt de l'acénocoumarol, CCP à dose adaptée à l'INR selon le RCP (25 UI/kg, soit environ 2 000 UI pour 78 kg, si l'INR n'était pas disponible) et vitamine K 10 mg ; INR à 30 minutes (objectif < 1,5) puis à 6-8 heures [S8]. Antalgie, anxiolyse, contrôle progressif de la PA. Récidive à l'ablation du tamponnement (H48) → coagulation endoscopique de l'artère sphénopalatine droite sous anesthésie générale.
 
 **Surveillance.** Pouls, PA, SpO2, saignement pharyngé, hémoglobine, INR quotidien ; recherche de signes d'ischémie myocardique ; réintroduction de l'anticoagulation discutée avec le cardiologue dès que l'hémostase est acquise (risque embolique de la fibrillation atriale).
 
@@ -749,5 +774,7 @@ Sinon : retour à domicile avec consignes, ablation du méchage programmée, end
 5. **[S5]** Tunkel DE, Anne S, Payne SC, et al. Clinical Practice Guideline: Nosebleed (Epistaxis). Otolaryngol Head Neck Surg. 2020;162(1_suppl):S1-S38. doi:10.1177/0194599819890327.
 6. **[S6]** Faughnan ME, Mager JJ, Hetts SW, et al. Second International Guidelines for the Diagnosis and Management of Hereditary Hemorrhagic Telangiectasia. Ann Intern Med. 2020;173(12):989-1001. doi:10.7326/M20-1443.
 7. **[S7]** Reuben A, Appelboam A, Stevens KN, et al. The use of tranexamic acid to reduce the need for nasal packing in epistaxis (NoPAC): randomized controlled trial. Ann Emerg Med. 2021;77(6):631-640. doi:10.1016/j.annemergmed.2020.12.013.
+8. **[S8]** HAS, GEHT. Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par antivitamines K en ville et en milieu hospitalier. Recommandations professionnelles, avril 2008. https://www.has-sante.fr/jcms/c_682188/ — synthèse relue le 2026-11-19.
+9. **[S9]** Galli M, Simeone B, ten Berg J, et al. Managing bleeds on anticoagulant therapy: a practical guide for clinicians. Eur Heart J Acute Cardiovasc Care. 2026;15(7):557-572. doi:10.1093/ehjacc/zuag035.
 
-*Vérification : références contrôlées dans Europe PMC (titre, revue, année, DOI) le 2026-11-19 ; seuls les résumés ont été lus.*
+*Vérification : références contrôlées dans Europe PMC (titre, revue, année, DOI) le 2026-11-19 ; seuls les résumés de S1-S7 ont été lus (résumés de S3, S4 et NoPAC relus par l'audit) ; S8 (synthèse HAS) et S9 lus en texte intégral par l'audit.*

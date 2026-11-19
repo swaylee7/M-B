@@ -463,7 +463,7 @@ Un calcul rénal non obstructif est souvent **asymptomatique**, découvert sur u
 5. **Complications chroniques** : destruction rénale (rein muet), pyélonéphrite xanthogranulomateuse, pyonéphrose, fistules, insuffisance rénale chronique, carcinome épidermoïde (rare, sur calcul ancien et infection chronique).
 
 ### 10.3 Formes selon le terrain
-- **Grossesse** : la dilatation physiologique des cavités (surtout à droite) rend l'échographie moins discriminante ; échographie en première intention, IRM ensuite ; **AINS contre-indiqués** (au minimum à partir de 24 SA selon le RCP ; à éviter tout au long de la grossesse) ; dérivation par sonde JJ ou néphrostomie si complication ; urétéroscopie possible par une équipe entraînée [S1, S4] [À VÉRIFIER — modalités selon le RCP et la version en vigueur].
+- **Grossesse** : la dilatation physiologique des cavités (surtout à droite) rend l'échographie moins discriminante ; échographie en première intention, IRM ensuite ; **AINS contre-indiqués** (au minimum à partir de 24 SA selon le RCP ; la FDA met en garde dès 20 SA (oligoamnios) ; à éviter tout au long de la grossesse) ; dérivation par sonde JJ ou néphrostomie si complication ; urétéroscopie possible par une équipe entraînée [S1, S4] [À VÉRIFIER — modalités selon le RCP et la version en vigueur].
 - **Enfant** : rechercher systématiquement une cause métabolique, génétique ou malformative ; échographie en première intention ; en Algérie, part importante de la lithiase vésicale et de l'urate d'ammonium dans l'ancienne série de l'Ouest [S20].
 - **Rein transplanté** : rein dénervé — la colique peut être **indolore** ; révélation par une dégradation de la créatinine ou une infection.
 - **Sujet âgé** : penser au diagnostic différentiel vasculaire, aux comorbidités qui contre-indiquent les AINS.
@@ -499,7 +499,7 @@ Un calcul rénal non obstructif est souvent **asymptomatique**, découvert sur u
 ## 12. Évolution, complications, pronostic
 
 ### 12.1 Évolution de la colique néphrétique
-- La majorité des calculs urétéraux de **petite taille** s'éliminent **spontanément** en quelques jours à quelques semaines. La probabilité d'expulsion **diminue avec la taille** et lorsque le calcul est **proximal** [S6]. À titre d'ordre de grandeur, les calculs ≤ 4–5 mm sont éliminés dans la grande majorité des cas, alors que l'expulsion devient improbable au-delà de 10 mm [À VÉRIFIER — pourcentages exacts selon la version EAU en vigueur].
+- La majorité des calculs urétéraux de **petite taille** s'éliminent **spontanément** en quelques jours à quelques semaines. La probabilité d'expulsion **diminue avec la taille** et lorsque le calcul est **proximal** [S6]. À titre d'ordre de grandeur, la méta-analyse reprise par les recommandations AUA/EAU retrouvait une expulsion spontanée d'environ **68 %** des calculs urétéraux ≤ 5 mm et de **47 %** des calculs de 5 à 10 mm ; au-delà de 10 mm, l'expulsion est peu probable [À VÉRIFIER — source primaire : méta-analyse AUA/EAU 2007, non relue].
 - Une **surveillance** (clinique et imagerie) est nécessaire jusqu'à preuve de l'expulsion (calcul récupéré au tamisage, imagerie de contrôle), car une obstruction **silencieuse** peut détruire un rein.
 
 ### 12.2 Complications
@@ -530,9 +530,9 @@ Un calcul rénal non obstructif est souvent **asymptomatique**, découvert sur u
 #### 13.2.1 Antalgiques de la colique néphrétique
 | Molécule | Place | Posologie indicative et source | Précautions |
 |---|---|---|---|
-| **AINS** (kétoprofène IV, diclofénac IM, ibuprofène PO…) | **Première intention** [S1, S3, S9] | Kétoprofène 100 mg IV en 20 min, renouvelable, durée courte (≤ 48 h) [S9] [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; diclofénac 75 mg IM (bras de l'essai de Pathan [S14]) | Contre-indiqués : insuffisance rénale, grossesse (au moins ≥ 24 SA), ulcère évolutif, insuffisance cardiaque sévère, allergie ; prudence sujet âgé, déshydratation, association aux IEC/ARA2/diurétiques |
+| **AINS** (kétoprofène IV, diclofénac IM, ibuprofène PO…) | **Première intention** [S1, S3, S9] | Kétoprofène 100 mg IV en perfusion de 20 min, jusqu'à 3 fois par 24 h (maximum 300 mg/j), voie IV limitée à 48 h (RCP du kétoprofène injectable ; conférence SFMU [S9]) ; diclofénac 75 mg IM (bras de l'essai de Pathan [S14]) | Contre-indiqués : insuffisance rénale, grossesse (au moins ≥ 24 SA), ulcère évolutif, insuffisance cardiaque sévère, allergie ; prudence sujet âgé, déshydratation, association aux IEC/ARA2/diurétiques |
 | **Paracétamol** | En association ou si AINS contre-indiqués | 1 g IV (bras de l'essai [S14]), sans dépasser 4 g/24 h chez l'adulte sans facteur de risque (RCP) | Insuffisance hépatocellulaire, poids < 50 kg (adapter) |
-| **Morphine** | Seconde intention ou d'emblée si douleur très intense, en association | Titration IV : 0,1 mg/kg dans l'essai de Pathan [S14] ; titration par bolus successifs selon les protocoles d'urgence [POSOLOGIE À VÉRIFIER — RCP / protocole local] | Surveillance sédation, fréquence respiratoire ; antiémétique |
+| **Morphine** | Seconde intention ou d'emblée si douleur très intense, en association | Dose unique de 0,1 mg/kg IV dans l'essai de Pathan [S14] ; en pratique, titration IV par bolus successifs selon les protocoles d'urgence [POSOLOGIE À VÉRIFIER — modalités de titration : protocole local] | Surveillance sédation, fréquence respiratoire ; antiémétique ; accumulation des métabolites actifs en insuffisance rénale (doses réduites, surveillance renforcée) |
 | **Antispasmodiques** (phloroglucinol…) | **Pas de bénéfice démontré** en monothérapie | — | Ne remplacent pas les AINS [S9] |
 
 Données clés : dans l'essai randomisé en double aveugle de Pathan (Lancet 2016), le **diclofénac IM** et le **paracétamol IV** ont donné une analgésie au moins équivalente à la **morphine IV**, avec moins d'effets indésirables pour les AINS que pour la morphine [S14] ; l'EAU recommande les AINS en première ligne, les opioïdes en seconde intention [S1].
@@ -542,8 +542,8 @@ Données clés : dans l'essai randomisé en double aveugle de Pathan (Lancet 201
 #### 13.2.2 Traitement médical expulsif (TME)
 - **Alpha-bloquants** (tamsulosine) : relâchement du muscle lisse urétéral distal.
 - Les grandes études pragmatiques ont nuancé leur intérêt : l'essai **SUSPEND** (Lancet 2015) n'a pas montré de bénéfice de la tamsulosine ou de la nifédipine sur l'absence de recours à une intervention à 4 semaines dans une population non sélectionnée [S12] ; l'essai **STONE** (JAMA Intern Med 2018) n'a pas montré d'augmentation significative de l'expulsion des calculs < 9 mm [S13]. Les méta-analyses suggèrent cependant un bénéfice pour les **calculs de l'uretère distal > 5 mm**.
-- **Position EAU** : le TME par alpha-bloquant **peut être proposé chez des patients sélectionnés** porteurs d'un calcul urétéral (en pratique distal, > 5 mm), après information (usage hors AMM dans de nombreux pays) [S1, S3].
-- **Posologie** : tamsulosine 0,4 mg/j pendant au plus quelques semaines (habituellement ≤ 4 semaines), avec réévaluation [S1, S3] [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+- **Position EAU** : selon le résumé de 2025, le TME par alpha-bloquant **peut être envisagé chez des patients sélectionnés** porteurs d'un calcul urétéral [S1] ; les éditions antérieures le recommandaient (recommandation forte) comme l'une des options pour les calculs de l'**uretère distal > 5 mm** [S3]. Il se prescrit après information (usage hors AMM dans de nombreux pays). La section sur le TME a été révisée dans l'édition 2026 [S2] : la formulation actuelle reste à relire [À VÉRIFIER].
+- **Posologie** : tamsulosine 0,4 mg une fois par jour (dose de l'AMM dans l'HBP, RCP), pendant 4 semaines au plus (durée de l'essai SUSPEND [S12]), avec réévaluation clinique et radiologique.
 - **Conditions** : douleur contrôlée, absence de fièvre, fonction rénale normale, rein controlatéral fonctionnel, suivi organisé ; arrêt et intervention si complication ou absence de progression.
 
 #### 13.2.3 Dérivation urinaire en urgence
@@ -573,10 +573,10 @@ Les deux techniques ont une **efficacité équivalente** pour drainer une obstru
 | Situation | Mesures |
 |---|---|
 | **Toutes lithiases** | **Diurèse ≥ 2–2,5 L/24 h** (boissons réparties sur le nycthémère, y compris la nuit), alimentation équilibrée, **apport calcique normal** (≈ 1 000–1 200 mg/j, pas de restriction), **limiter le sel** et les **protéines animales**, réduire les sucres rapides et les boissons sucrées, lutter contre le surpoids [S1, S7] [À VÉRIFIER — seuils chiffrés selon la version en vigueur] |
-| **Hypercalciurie** | Réduction du sel et des protéines animales ; **thiazidique** en cas d'hypercalciurie persistante et de récidive [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; rechercher une hyperparathyroïdie |
+| **Hypercalciurie** | Réduction du sel et des protéines animales ; **thiazidique** en cas d'hypercalciurie persistante et de récidive, par exemple hydrochlorothiazide 25 mg/j, jusqu'à 50 mg/j (RCP), avec surveillance de la kaliémie ; rechercher une hyperparathyroïdie |
 | **Hyperoxalurie** | Apport calcique normal au cours des repas (lie l'oxalate intestinal), limiter les aliments riches en oxalate ; formes entériques et primaires : prise en charge spécialisée |
 | **Hypocitraturie** | **Citrate de potassium** (alcalinisant et inhibiteur) [POSOLOGIE À VÉRIFIER — RCP / protocole local] |
-| **Acide urique** | **Alcalinisation** (citrate de potassium ou bicarbonate de sodium) avec cible de pH urinaire ≈ 6,2–6,8 pour la prévention et plus élevée pour la dissolution [S1] [À VÉRIFIER — cibles exactes selon la version en vigueur] ; **allopurinol** si hyperuricosurie/hyperuricémie ; réduction des protéines animales |
+| **Acide urique** | **Alcalinisation** (citrate de potassium ou bicarbonate de sodium) avec une cible de pH urinaire de 6,2–6,8 pour la prévention et de 7,0–7,2 pour la dissolution (EAU) [S1] ; **allopurinol** si hyperuricosurie/hyperuricémie ; réduction des protéines animales |
 | **Cystine** | Diurèse très abondante (> 3 L/j), alcalinisation forte, réduction du sel ; thiols (tiopronine) en cas d'échec — prise en charge spécialisée |
 | **Struvite / infection** | **Extraction complète** du calcul + traitement de l'infection + correction de la cause urologique ; antibioprophylaxie selon le contexte |
 | **Phosphates calciques** | Rechercher acidose tubulaire distale et hyperparathyroïdie ; éviter l'alcalinisation excessive |
@@ -587,7 +587,7 @@ Les deux techniques ont une **efficacité équivalente** pour drainer une obstru
 1. Antalgie : **AINS** (si pas de contre-indication) ± paracétamol ; morphine titrée si échec [S1, S9, S14].
 2. Imagerie dans les 24–48 h (scanner non injecté faible dose ou, selon les pratiques, échographie ± ASP) [S4, S5, S9].
 3. **Retour à domicile** si douleur contrôlée, pas de fièvre, diurèse conservée, patient fiable et compréhension des consignes.
-4. Ordonnance : AINS per os sur une courte durée [POSOLOGIE À VÉRIFIER — RCP], paracétamol, ± tamsulosine si calcul de l'uretère distal > 5 mm [S1] ; tamisage des urines.
+4. Ordonnance : AINS per os sur une courte durée (quelques jours), à la dose minimale efficace — par exemple ibuprofène 400 mg × 3/j ou diclofénac 50 mg × 2 à 3/j (150 mg/j au maximum) selon le RCP —, paracétamol, ± tamsulosine si calcul de l'uretère distal > 5 mm [S1] ; tamisage des urines.
 5. **Consignes de reconsultation immédiate** : fièvre ≥ 38 °C ou frissons, douleur non contrôlée, diminution des urines, vomissements empêchant les prises orales.
 6. Consultation urologique programmée avec imagerie de contrôle (vérifier l'expulsion) ; intervention si pas d'expulsion dans un délai raisonnable (souvent 4 à 6 semaines) ou si la douleur récidive [S1, S6] [À VÉRIFIER — délai selon la version en vigueur].
 
@@ -724,7 +724,7 @@ Traitement définitif du calcul après stérilisation des urines
 1. *Quel est votre diagnostic et quels critères de gravité recherchez-vous ?*
    → **Colique néphrétique droite** probable, sans critère de gravité à ce stade : apyrexie, diurèse conservée, fonction rénale normale, pas de terrain à risque. Il faut néanmoins s'assurer de l'absence de rein unique et réévaluer la douleur après traitement [S9].
 2. *Quel traitement antalgique prescrivez-vous ?*
-   → **AINS** en première intention (pas de contre-indication : fonction rénale normale, pas d'ulcère), par exemple kétoprofène IV ou diclofénac IM [S1, S9, S14] [POSOLOGIE À VÉRIFIER — RCP], ± paracétamol ; morphine titrée si la douleur persiste. Pas d'hyperhydratation pendant la crise.
+   → **AINS** en première intention (pas de contre-indication : fonction rénale normale, pas d'ulcère), par exemple kétoprofène 100 mg IV en 20 min ou diclofénac 75 mg IM [S1, S9, S14] (cf. § 13.2.1), ± paracétamol ; morphine titrée si la douleur persiste. Pas d'hyperhydratation pendant la crise.
 3. *Le scanner non injecté faible dose réalisé 6 heures plus tard montre un calcul de 7 mm de l'uretère pelvien droit, densité 1 150 UH, dilatation modérée des cavités, sans infiltration ni extravasation. Que proposez-vous ?*
    → Douleur contrôlée, pas de complication : **retour à domicile** avec AINS per os de courte durée, paracétamol, **tamsulosine** (calcul distal > 5 mm, prescription hors AMM à expliquer) [S1], tamisage des urines, consignes de retour immédiat (fièvre, anurie, douleur non contrôlée) et consultation urologique avec imagerie de contrôle.
 4. *Douze jours plus tard, il revient avec une température à 39,4 °C, des frissons, une PA à 95/60 mmHg et une douleur lombaire droite. Conduite à tenir ?*
@@ -851,7 +851,7 @@ E. Analyse infrarouge du calcul lorsqu'il est disponible.
 | Sujet | Position A | Position B | Commentaire |
 |---|---|---|---|
 | **Imagerie de la CN simple** | SFMU/AFU 2008 : échographie + ASP dans les 12–48 h ; scanner en cas de doute ou de CN compliquée [S9] | CLAFU 2022 : scanner non injecté = référence [S4, S5] ; EAU 2025 : échographie en première ligne puis scanner faible dose pour l'évaluation précise [S1] | Évolution vers le scanner faible dose ; stratégie « échographie d'abord » validée par l'essai de Smith-Bindman [S15] ; la disponibilité locale guide le choix |
-| **Traitement médical expulsif** | EAU : alpha-bloquant possible pour des patients sélectionnés (uretère distal > 5 mm) [S1, S3] | Essais pragmatiques SUSPEND et STONE négatifs en population non sélectionnée [S12, S13] | Usage hors AMM ; ne pas l'utiliser pour les petits calculs (< 5 mm), qui s'éliminent spontanément |
+| **Traitement médical expulsif** | EAU 2025 : alpha-bloquant à envisager chez des patients sélectionnés [S1] ; éditions antérieures : option fortement recommandée pour l'uretère distal > 5 mm [S3] ; section révisée dans l'édition 2026 [S2] [À VÉRIFIER] | Essais pragmatiques SUSPEND et STONE négatifs en population non sélectionnée [S12, S13] | Usage hors AMM ; ne pas l'utiliser pour les petits calculs (< 5 mm), qui s'éliminent spontanément |
 | **Place relative LEC / URS** | EAU et AUA : LEC et URS sont toutes deux de première ligne pour de nombreux calculs < 20 mm [S1, S11] | CLAFU 2022 : choix fondé sur la composition, la densité, le contexte et l'objectif « sans fragment » avec la technique la moins invasive [S6] | Tendance à la progression de l'URS souple ; en Algérie, l'accès aux deux techniques est inégal [S17, S19] |
 | **Délai avant intervention pour un calcul urétéral non compliqué** | Pratiques variables (surveillance de quelques semaines) | EAU : intervention si pas d'expulsion, douleur persistante ou obstruction [S1] | Délais exacts [À VÉRIFIER] dans la version en vigueur |
 | **Bilan métabolique** | CLAFU : bilan de première intention pour tout lithiasique [S7] | AUA 2026 : évaluation de base pour tous, bilan approfondi (urines de 24 h) pour les patients à haut risque ou intéressés [S10] [À VÉRIFIER — formulation exacte] | Dans tous les cas, l'analyse du calcul est prioritaire |

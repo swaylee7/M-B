@@ -6,11 +6,17 @@ sous_specialite: "Anti-infectieux — antibiothérapie et antibiorésistance"
 items_residanat: [RES-MED-166]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-14 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auteur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0001.md
 sources:
   - id: S1
     reference: "World Health Organization. The WHO AWaRe (Access, Watch, Reserve) antibiotic book. Geneva: WHO; 2022. ISBN 9789240062382."
@@ -92,6 +98,22 @@ sources:
     doi: ""
     url: "https://www.who.int/news/item/26-09-2024-world-leaders-commit-to-decisive-action-on-antimicrobial-resistance"
     verifiee: true
+  - id: S19
+    reference: "Radio Algérie. « L'Algérie assure une assistance aux pays africains pour un bon usage des antimicrobiens » (adhésion de l'Algérie au système mondial de surveillance GLASS de l'OMS en 2020)."
+    organisme: "Radio Algérie (média public)"
+    annee: "[À VÉRIFIER — date de l'article]"
+    type: site_institutionnel
+    doi: ""
+    url: "https://news.radioalgerie.dz/fr/node/17644"
+    verifiee: true
+  - id: S20
+    reference: "Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock 2026. Intensive Care Med. 2026;52(5):863-936."
+    organisme: "SCCM / ESICM"
+    annee: 2026
+    type: recommandation
+    doi: "10.1007/s00134-026-08361-1"
+    url: ""
+    verifiee: true
   - id: S11
     reference: "Algérie. Plan stratégique national de lutte contre la résistance aux antimicrobiens 2024-2028 (version française), répertorié par l'OMS (publication du 10 septembre 2024)."
     organisme: "MSPRH / Ministère de la Santé — Algérie"
@@ -162,7 +184,7 @@ mots_cles: [antibiotiques, AWaRe, antibiorésistance, BLSE, carbapénémases, OX
 # Antibiotiques : classification, principes et règles d'utilisation, résistances bactériennes
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, à l'antibiogramme et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01 (IA) le 2026-11-19, corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP, à l'antibiogramme et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-166 — « Antibiotiques : classification, principes et règles d'utilisation et résistances bactériennes ».
 
@@ -186,7 +208,7 @@ mots_cles: [antibiotiques, AWaRe, antibiorésistance, BLSE, carbapénémases, OX
 - **Antimicrobien** : terme plus large (antibactériens, antiviraux, antifongiques, antiparasitaires). La **résistance aux antimicrobiens (RAM)** désigne la capacité d'un micro-organisme à survivre à un médicament qui le détruisait ou l'inhibait auparavant [S1].
 - **Spectre d'activité** : ensemble des espèces bactériennes habituellement sensibles à une molécule. Un spectre « étroit » cible peu d'espèces (pénicilline G, oxacilline) ; un spectre « large » couvre de nombreux bacilles à Gram négatif et cocci à Gram positif (carbapénèmes, pipéracilline-tazobactam).
 - **Concentration minimale inhibitrice (CMI)** : plus faible concentration inhibant la croissance visible d'une souche in vitro après 18–24 h. **Concentration minimale bactéricide (CMB)** : plus faible concentration tuant ≥ 99,9 % de l'inoculum. Une molécule est dite bactéricide si le rapport CMB/CMI est faible (≤ 4 environ).
-- **Catégorisation clinique** : sensible (S), sensible à forte posologie (« I » dans la terminologie EUCAST actuelle), résistant (R), selon des concentrations critiques (*breakpoints*) définies par les comités d'antibiogramme. L'interprétation d'un antibiogramme dépend toujours du référentiel utilisé par le laboratoire `[À VÉRIFIER — référentiel en vigueur dans le laboratoire]`.
+- **Catégorisation clinique** : sensible (S), sensible à forte posologie (« I » dans la terminologie EUCAST actuelle ; dans la terminologie du CLSI, « I » signifie « intermédiaire »), résistant (R), selon des concentrations critiques (*breakpoints*) définies par les comités d'antibiogramme. L'interprétation d'un antibiogramme dépend toujours du référentiel utilisé par le laboratoire `[À VÉRIFIER — référentiel en vigueur dans le laboratoire]`.
 - **Résistance naturelle** (intrinsèque) : caractère d'espèce, présent chez toutes les souches (ex. : entérocoques et céphalosporines ; *Pseudomonas aeruginosa* et amoxicilline ; *Klebsiella pneumoniae* et amoxicilline par pénicillinase chromosomique). **Résistance acquise** : n'affecte qu'une partie des souches d'une espèce, par mutation ou acquisition de gènes [S1].
 - **Multirésistance** : définitions internationales standardisées [S6] :
   - **MDR** (*multidrug-resistant*) : non-sensibilité à au moins un agent dans au moins trois catégories d'antibiotiques ;
@@ -230,7 +252,7 @@ mots_cles: [antibiotiques, AWaRe, antibiorésistance, BLSE, carbapénémases, OX
 
 ### 3.3 Algérie (données sourcées uniquement)
 
-- **Surveillance** : la surveillance de la résistance bactérienne repose sur un réseau national de laboratoires hospitaliers coordonné par l'Institut Pasteur d'Algérie (réseau algérien de surveillance de la résistance des bactéries aux antibiotiques, *AARN*), qui publie des rapports périodiques ; le présent dossier n'a pas pu consulter directement le dernier rapport, et **aucun taux national n'est donc cité** `[À VÉRIFIER — rapport AARN le plus récent]`.
+- **Surveillance** : la surveillance de la résistance bactérienne repose sur un réseau national de laboratoires hospitaliers coordonné par l'Institut Pasteur d'Algérie (réseau algérien de surveillance de la résistance des bactéries aux antibiotiques, *AARN*), qui publie des rapports périodiques ; l'Algérie participe depuis 2020 au système mondial de surveillance de la RAM de l'OMS (GLASS) [S19]. Aucun rapport AARN récent n'a pu être consulté ni localisé en accès public pendant l'audit (2026) : **aucun taux national n'est donc cité** `[À VÉRIFIER — rapport AARN le plus récent]`.
 - **Plan national** : l'Algérie dispose d'un **plan stratégique national de lutte contre la résistance aux antimicrobiens 2024-2028**, répertorié par l'OMS (septembre 2024), qui inclut un axe de surveillance [S11]. Le contenu détaillé (indicateurs, cibles) doit être consulté dans le document original `[À VÉRIFIER]`.
 - **Carbapénémases** : une revue systématique des entérobactéries productrices de carbapénémases en Algérie rappelle que **OXA-48** est considérée comme endémique en Afrique du Nord, à côté de NDM et, plus rarement, KPC [S12]. Dans un CHU de l'Est algérien (2018-2019, 124 isolats cliniques de *K. pneumoniae*), **49,1 %** des souches produisaient une BLSE (gènes CTX-M, TEM, SHV), **9,6 %** étaient résistantes à l'ertapénème, dont **75 %** porteuses du gène *bla*OXA-48 ; **5,6 %** étaient résistantes à la colistine [S13]. Ces chiffres sont monocentriques et ne doivent pas être extrapolés à l'ensemble du pays.
 - **BLSE communautaires/urinaires** : dans une étude de la région de Tébessa (2022-2024) portant sur des *E. coli* et *K. pneumoniae* urinaires résistants aux céphalosporines de 3e génération, CTX-M-15 était l'enzyme dominante (87,5 % des *E. coli* sélectionnés), avec circulation du clone à haut risque CC131 et coexistence ponctuelle d'OXA-48 ou de NDM [S15].
@@ -342,7 +364,7 @@ mots_cles: [antibiotiques, AWaRe, antibiorésistance, BLSE, carbapénémases, OX
 | **Céphalosporines 1re génération** (céfazoline, céfalexine) | PLP | Cocci Gram + (SASM, streptocoques), quelques entérobactéries | Antibioprophylaxie chirurgicale, infections cutanées | Allergie | Access |
 | **C2G** (céfuroxime) | PLP | Intermédiaire | Antibioprophylaxie, infections respiratoires | Allergie | Watch |
 | **C3G injectables** (ceftriaxone, céfotaxime) ; **C3G orale** (céfixime) | PLP | Entérobactéries (hors BLSE/AmpC hyperproduite), pneumocoque, méningocoque, *H. influenzae*, gonocoque | Méningite, pneumonie grave, pyélonéphrite, sepsis communautaire | Allergie, lithiase biliaire (ceftriaxone), précipitation avec le calcium chez le nouveau-né, *C. difficile* | Watch |
-| **C3G antipyocyanique** (ceftazidime) ; **C4G** (céfépime) | PLP | + *P. aeruginosa* | Infections nosocomiales | Neurotoxicité du céfépime en insuffisance rénale | Watch (liste complémentaire) |
+| **C3G antipyocyanique** (ceftazidime) ; **C4G** (céfépime) | PLP | + *P. aeruginosa* | Infections nosocomiales | Neurotoxicité du céfépime en insuffisance rénale | Watch (ceftazidime : liste complémentaire 2025 ; céfépime : non inscrit sur la liste modèle 2025) [S2] |
 | **Carbapénèmes** (méropénème, imipénème, ertapénème) | PLP | Très large, y compris BLSE et AmpC ; ertapénème inactif sur *P. aeruginosa* | Infections graves à BLSE, infections nosocomiales sévères, neutropénie fébrile à haut risque | Convulsions (imipénème), sélection de carbapénémases | Watch (méropénème, liste complémentaire) |
 | **Monobactame** (aztréonam) | PLP3 | Gram négatif aérobies uniquement | Allergie grave aux β-lactamines (pas de réaction croisée sauf ceftazidime) ; associé à ceftazidime-avibactam contre les métallo-β-lactamases | Bien toléré | Non inscrit sur la liste modèle 2025 [S2] |
 | **Nouvelles associations** (ceftazidime-avibactam, ceftolozane-tazobactam, méropénème-vaborbactam, céfidérocol) | PLP + inhibiteurs de nouvelle génération | BGN résistants aux carbapénèmes selon mécanisme | Infections à BGN multirésistants documentées | Coût, émergence de résistances | **Reserve** [S2] |
@@ -357,7 +379,7 @@ mots_cles: [antibiotiques, AWaRe, antibiorésistance, BLSE, carbapénémases, OX
 | **Sulfamides + triméthoprime** (cotrimoxazole) | Voie des folates | Entérobactéries, *S. aureus* (y compris SARM communautaire), *Pneumocystis*, *Toxoplasma*, *Nocardia*, *Listeria* | Prophylaxie et traitement de la pneumocystose, infections urinaires selon sensibilité | Allergies cutanées graves (Lyell, Stevens-Johnson), hyperkaliémie, cytopénies, hémolyse si déficit en G6PD | Access |
 | **Nitro-imidazolés** (métronidazole) | ADN (anaérobies) | Anaérobies stricts, protozoaires (*Giardia*, *Entamoeba*, *Trichomonas*) | Infections intra-abdominales (association), amœbose, *C. difficile* non grave (selon référentiels) | Effet antabuse, goût métallique, neuropathie si prolongé | Access |
 | **Nitrofuranes** (nitrofurantoïne) | Multiples cibles | Entérobactéries urinaires (dont BLSE) | **Cystite aiguë** | Pneumopathies et hépatites en traitement prolongé ; contre-indiquée en insuffisance rénale sévère | Access |
-| **Fosfomycine** (trométamol oral ; disodique IV) | Paroi (MurA) | Entérobactéries urinaires, staphylocoques | Cystite (dose unique orale) ; IV en association pour BMR | Diarrhée ; charge sodée (IV) | Access (orale) / Reserve (IV) [S2] |
+| **Fosfomycine** (trométamol oral ; disodique IV) | Paroi (MurA) | Entérobactéries urinaires, staphylocoques | Cystite (dose unique orale) ; IV en association pour BMR | Diarrhée ; charge sodée (IV) | **Reserve (IV)** [S2] ; forme orale (trométamol) **non inscrite** sur la liste modèle 2025 ni traitée dans le livre AWaRe [S1, S2] (classée Watch dans la base de classification AWaRe `[À VÉRIFIER — classification AWaRe en vigueur]`) |
 | **Polymyxines** (colistine, polymyxine B) | Membrane externe | BGN (hors *Proteus*, *Serratia*, *Providencia*) | Infections à BGN résistants aux carbapénèmes (dernier recours) | **Néphrotoxicité**, neurotoxicité | Reserve [S2] |
 | **Rifamycines** (rifampicine) | ARN polymérase | Mycobactéries, staphylocoques (association), *Brucella*, *Legionella* | Tuberculose, infections sur matériel (association), brucellose | **Inducteur enzymatique**, coloration orangée des liquides, hépatotoxicité ; jamais en monothérapie | — (antituberculeux) |
 
@@ -389,7 +411,7 @@ La classification **AWaRe** a été introduite par l'OMS en 2017 dans la liste m
 1. **Y a-t-il une infection ?** Fièvre, syndrome inflammatoire et foyer clinique ; penser aux causes non infectieuses de fièvre (maladies inflammatoires, thromboses, médicaments, néoplasies).
 2. **Est-elle bactérienne ?** La majorité des infections respiratoires hautes (rhinopharyngite, laryngite, bronchite aiguë du sujet sain, la plupart des sinusites et des otites congestives) sont virales et ne justifient pas d'antibiotique [S1, S3].
 3. **Le bénéfice attendu dépasse-t-il le risque ?** Beaucoup d'infections bactériennes bénignes guérissent spontanément ; l'OMS insiste sur la stratégie « **pas d'antibiotique** » (*no antibiotic care*) avec information sur les signes d'alerte [S1].
-4. **Faut-il traiter immédiatement ?** Urgence absolue dans le **sepsis/choc septique** (antibiothérapie idéalement dans l'heure après reconnaissance du choc septique ou d'un sepsis probable) [S18], le **purpura fulminans**, la **méningite bactérienne** (voir DOS-INFE-0001), la **neutropénie fébrile**, la **fasciite nécrosante**. Ailleurs, on prend le temps des prélèvements.
+4. **Faut-il traiter immédiatement ?** Urgence absolue dans le **sepsis/choc septique** (antibiothérapie idéalement dans l'heure après reconnaissance du choc septique ou d'un sepsis probable selon la SSC 2021 [S18] ; la mise à jour SSC 2026 [S20] n'a pas été analysée pendant l'audit `[À VÉRIFIER]`), le **purpura fulminans**, la **méningite bactérienne** (voir DOS-INFE-0001), la **neutropénie fébrile**, la **fasciite nécrosante**. Ailleurs, on prend le temps des prélèvements.
 
 ### 8.2 Infection, colonisation, contamination
 
@@ -526,11 +548,11 @@ Les posologies ci-dessous sont celles du livre AWaRe de l'OMS (2022) pour des sy
 | Cotrimoxazole oral | Cystite (si sensibilité connue / faible résistance locale) | 800 mg + 160 mg toutes les 12 h, **3 jours** | [S1] |
 | Amoxicilline-acide clavulanique orale | Cystite (alternative) | 500 mg + 125 mg toutes les 8 h, 3–5 jours | [S1] |
 | Ceftriaxone IV | Sepsis, pneumonie grave, méningite (dose plus élevée selon référentiel) | 2 g toutes les 24 h (sepsis/pneumonie) | [S1] |
-| Méropénème IV | Infections graves à BMR, neutropénie fébrile à haut risque | 1 g toutes les 8 h (doses supérieures en méningite) | [S1] |
+| Méropénème IV | Sepsis de l'adulte (second choix, forte prévalence de BLSE) ; neutropénie fébrile à haut risque ; infections intra-abdominales graves | **Sepsis : 2 g toutes les 8 h** ; neutropénie fébrile et infections intra-abdominales : 1 g toutes les 8 h (méningite de l'adulte : 2 g toutes les 8 h selon le RCP ; le livre AWaRe ne le retient en méningite qu'en second choix chez le nouveau-né) | [S1] |
 | Gentamicine IV | Sepsis (en association) | 5 mg/kg en une injection toutes les 24 h | [S1] |
 | Amikacine IV | Sepsis à risque de BMR (en association) | 15 mg/kg en une injection toutes les 24 h | [S1] |
 | Vancomycine IV | Suspicion de SARM | 15–20 mg/kg toutes les 12 h (adapter aux dosages) | [S1] |
-| Céfazoline IV | Antibioprophylaxie chirurgicale | `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` (dose unique avant l'incision) | [S16] |
+| Céfazoline IV | Antibioprophylaxie chirurgicale | **2 g en dose unique** dans les 120 minutes précédant l'incision ; réinjection seulement si intervention prolongée ou pertes sanguines importantes | [S1, S16] |
 
 > Les durées de traitement recommandées par l'OMS correspondent au **nombre de jours le plus faible** soutenu par les données ; une durée plus courte, lorsqu'elle est cliniquement adaptée, s'accompagne de moins de toxicité et de moins de sélection de résistances, à efficacité équivalente [S1].
 
@@ -709,7 +731,7 @@ Entérobactérie isolée
 Pyélonéphrite aiguë obstructive compliquée de **choc septique** (hypotension, hyperlactatémie, défaillances). Urgence : hémocultures (2 paires) et ECBU **immédiats**, antibiothérapie IV **dans l'heure**, remplissage vasculaire, noradrénaline si hypotension persistante, et **drainage des urines** en urgence (sonde JJ ou néphrostomie) [S18].
 
 **Question 2 — Quelle antibiothérapie probabiliste ?**
-Facteurs de risque de BLSE : antibiothérapie récente par C3G et fluoroquinolone, hospitalisation récente. En situation de choc septique avec facteur de risque de BLSE, une couverture par **carbapénème** (méropénème) associé à un **aminoside** (amikacine, dose unique journalière) est justifiée [S4, S5]. Posologies du livre AWaRe : méropénème 1 g/8 h, amikacine 15 mg/kg/24 h, à adapter à la fonction rénale après la première dose [S1].
+Facteurs de risque de BLSE : antibiothérapie récente par C3G et fluoroquinolone, hospitalisation récente. En situation de choc septique avec facteur de risque de BLSE, une couverture par **carbapénème** (méropénème) associé à un **aminoside** (amikacine, dose unique journalière) est justifiée [S4, S5]. Posologies du livre AWaRe pour le sepsis : méropénème **2 g/8 h**, amikacine 15 mg/kg/24 h ; la première dose n'est pas réduite, les suivantes sont adaptées à la fonction rénale [S1].
 
 **Question 3 — À J3, l'ECBU et les hémocultures retrouvent *E. coli* producteur de BLSE, sensible aux carbapénèmes, à la témocilline, à l'amikacine et à la fosfomycine ; résistant aux fluoroquinolones et au cotrimoxazole. La patiente est apyrétique, la noradrénaline a été arrêtée, le rein est drainé. Que faites-vous ?**
 - Arrêt de l'amikacine (association courte suffisante) ;
@@ -953,6 +975,8 @@ Précautions complémentaires contact (BMR), hygiène des mains, information du 
 15. **[S15]** Ziadi H, Chougrani F, Cheriguene A, et al. Phenotypic and Genotypic Characterization of ESBL-, AmpC-, and Carbapenemase-Producing *Klebsiella pneumoniae* and High-Risk *Escherichia coli* CC131 ... in Algeria. *Antibiotics (Basel)*. 2025;14(5):485. doi:10.3390/antibiotics14050485 — vérifiée (Europe PMC, PMID 40426551 ; résumé lu).
 16. **[S16]** World Health Organization. *Global guidelines for the prevention of surgical site infection*, 2nd edition. Geneva: WHO; 2018. — vérifiée (document acquis, lu : administration dans les 120 min avant l'incision, pas de prolongation).
 17. **[S17]** Ouidri MA. Screening of nasal carriage of methicillin-resistant *Staphylococcus aureus* during admission of patients to Frantz Fanon Hospital, Blida, Algeria. *New Microbes New Infect*. 2018;23:52-60. doi:10.1016/j.nmni.2018.02.006 — vérifiée (Europe PMC, PMID 29692907 ; résumé lu).
-18. **[S18]** Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. *Crit Care Med*. 2021;49(11):e1063-e1143. doi:10.1097/ccm.0000000000005337 — vérifiée (Europe PMC, PMID 34605781).
+18. **[S18]** Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. *Crit Care Med*. 2021;49(11):e1063-e1143. doi:10.1097/ccm.0000000000005337 — vérifiée (Europe PMC, PMID 34605781) ; **remplacée** par la SSC 2026 [S20] (catalogue REC-0265 → REC-0266).
+19. **[S19]** Radio Algérie. « L'Algérie assure une assistance aux pays africains pour un bon usage des antimicrobiens » (adhésion au GLASS en 2020). https://news.radioalgerie.dz/fr/node/17644 — vérifiée (recherche web) [audit AUD-01].
+20. **[S20]** Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock 2026. *Intensive Care Med*. 2026;52(5):863-936. doi:10.1007/s00134-026-08361-1 — vérifiée (PubMed, PMID 41870560 ; catalogue REC-0266 ; contenu non lu) [audit AUD-01].
 
-*Points à auditer en priorité* : posologies du tableau 13.2 (issues du livre AWaRe ; à confronter aux RCP et aux protocoles algériens) ; classement AWaRe de l'aztréonam et de la daptomycine (non inscrits sur la liste modèle 2025 ; consulter la classification AWaRe complète) ; données AARN nationales à intégrer dès consultation du dernier rapport ; disponibilité en Algérie des molécules Reserve et de la témocilline.
+*Points restant à vérifier après audit (AUD-01, 2026-11-19)* : dernier rapport AARN et taux nationaux ; contenu de la SSC 2026 (délai de l'antibiothérapie, associations) ; classement AWaRe de la fosfomycine orale, de l'aztréonam et de la daptomycine dans la base de classification AWaRe en vigueur (non inscrits sur la liste modèle 2025) ; cibles de dosage de la vancomycine (résiduelle ou ASC) selon le protocole local ; disponibilité en Algérie des molécules Reserve et de la témocilline ; contenu du plan stratégique national RAM 2024-2028.

@@ -6,7 +6,7 @@ sous_specialite: "Hyperbilirubinémies néonatales"
 items_residanat: [RES-MED-069]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 7
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : avertissement « toutes les sources internationales non vérifiées » périmé, remplacé par le statut réel (S2, S3, S10, S12, S13 vérifiées). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "American Academy of Pediatrics, Subcommittee on Hyperbilirubinemia. Management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. Pediatrics. 2004;114(1):297-316."
@@ -129,7 +135,7 @@ mots_cles: [ictère néonatal, hyperbilirubinémie, bilirubine libre, ictère nu
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies et les seuils doivent être confrontés aux courbes officielles (AAP 2022, NICE, SFN) et aux protocoles locaux avant usage clinique.
-> **Avertissement de vérification (19/11/2026)** : le budget de recherche web de la session était épuisé avant la vérification des références de ce dossier ; toutes les sources internationales sont `verifiee: false`. **Les seuils chiffrés de photothérapie et d'exsanguinotransfusion présentés ici sont des repères pédagogiques approximatifs** ; la décision clinique doit s'appuyer sur les **courbes ou calculateurs officiels** de la recommandation retenue par le service.
+> **État de vérification des sources (mis à jour par l'audit de cohérence AUD-05, 19/11/2026)** : la rédaction initiale n'avait pu vérifier aucune référence ; l'audit a depuis confirmé [S2] (AAP 2022), [S3] (NICE CG98), [S10] (Pocket book OMS 2013, DOC-00063), [S12] (texte algérien) et [S13] (rapport technique AAP). Restent **non vérifiées** : [S1] (AAP 2004, remplacée par S2), [S4]–[S9] et [S11]. **Les seuils chiffrés de photothérapie et d'exsanguinotransfusion présentés ici sont des repères pédagogiques approximatifs** ; la décision clinique doit s'appuyer sur les **courbes ou calculateurs officiels** de la recommandation retenue par le service.
 > **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : AAP 2022 (citation, posologie des IgIV), NICE CG98 et Pocket book OMS 2013 (seuils OMS, DOC-00063) vérifiés ; repères AAP 2004 jugés cohérents (écart photothérapie/exsanguinotransfusion précisé). Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0001.md`.
 
 **Items du programme couverts** : RES-MED-069 — « Ictère néonatal : Diagnostic - prévention - traitement ».

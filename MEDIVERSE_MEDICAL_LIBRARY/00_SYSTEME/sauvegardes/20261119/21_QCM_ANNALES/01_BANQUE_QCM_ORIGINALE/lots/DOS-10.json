@@ -1,0 +1,3180 @@
+{
+  "agent": "DOS-10",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-PSYC-1001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les critères diagnostiques de la schizophrénie dans le DSM-5-TR, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le critère A exige au moins deux symptômes caractéristiques présents une part significative du temps pendant un mois, dont au moins un parmi idées délirantes, hallucinations et discours désorganisé.",
+        "B": "La durée totale des signes du trouble doit atteindre au moins six mois, phases prodromique et résiduelle comprises.",
+        "C": "Des symptômes négatifs isolés pendant un mois suffisent à remplir le critère A.",
+        "D": "La CIM-11 exige elle aussi six mois d'évolution pour poser le diagnostic.",
+        "E": "Une baisse du fonctionnement par rapport au niveau antérieur fait partie des critères."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Le DSM-5-TR associe un critère symptomatique (deux symptômes sur cinq pendant un mois, dont un symptôme « positif » ou de désorganisation du discours), un critère fonctionnel et un critère de durée de six mois. La CIM-11 retient un mois de symptômes caractéristiques.",
+      "explications_par_proposition": {
+        "A": "Vrai : c'est la définition du critère A.",
+        "B": "Vrai : six mois au total, dont au moins un mois de phase active.",
+        "C": "Faux : il faut au moins un symptôme parmi les trois premiers (délire, hallucinations, discours désorganisé).",
+        "D": "Faux : la CIM-11 exige un mois de symptômes ; c'est une divergence classique entre les deux classifications.",
+        "E": "Vrai : critère B (déclin fonctionnel)."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Critères diagnostiques DSM-5-TR",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Confondre la durée du DSM-5-TR (6 mois) et celle de la CIM-11 (1 mois).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "OMS. CIM-11, chapitre 06 (en vigueur 2022)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1002",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un homme de 20 ans présente un premier épisode psychotique. Parmi les examens suivants, lequel N'a PAS sa place dans le bilan de routine ?",
+      "propositions": {
+        "A": "Imagerie cérébrale (IRM de préférence).",
+        "B": "Recherche urinaire de toxiques.",
+        "C": "ECG avec mesure du QTc.",
+        "D": "Recherche de variants génétiques de susceptibilité pour confirmer le diagnostic.",
+        "E": "Glycémie à jeun et bilan lipidique de référence."
+      },
+      "reponses_correctes": [
+        "D"
+      ],
+      "explication_generale": "Le bilan d'un premier épisode vise à éliminer une cause organique ou toxique et à établir des valeurs de référence avant antipsychotique. Aucun test génétique n'a d'utilité diagnostique en routine.",
+      "explications_par_proposition": {
+        "A": "Indiquée : recherche de lésion cérébrale, surtout en cas d'atypie.",
+        "B": "Indiquée : psychose induite par une substance.",
+        "C": "Indiqué : référence avant antipsychotique allongeant le QT.",
+        "D": "Non indiquée : l'héritabilité est polygénique ; aucun test ne confirme le diagnostic.",
+        "E": "Indiquées : référence métabolique avant antipsychotique."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Bilan d'un premier épisode psychotique",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE CG178 Psychosis and schizophrenia in adults, 2014 (mise à jour)",
+          "date": "2014"
+        },
+        {
+          "reference": "Keepers GA et al. APA Practice Guideline for Schizophrenia. Am J Psychiatry 2020;177(9):868-872",
+          "date": "2020"
+        },
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les voies dopaminergiques et les effets des antipsychotiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'hyperactivité dopaminergique mésolimbique est associée aux symptômes positifs.",
+        "B": "Le blocage D2 de la voie tubéro-infundibulaire explique la galactorrhée et l'aménorrhée.",
+        "C": "Le blocage D2 de la voie nigrostriée explique les dystonies aiguës et le parkinsonisme.",
+        "D": "L'aripiprazole est un antagoniste D2 complet, ce qui explique son fort effet hyperprolactinémiant.",
+        "E": "Les antipsychotiques de première génération améliorent constamment les symptômes négatifs primaires."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Les quatre voies dopaminergiques expliquent l'effet thérapeutique (mésolimbique) et les effets indésirables (nigrostriée : extrapyramidaux ; tubéro-infundibulaire : hyperprolactinémie ; mésocorticale : déficit négatif et cognitif).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : la dopamine inhibe la sécrétion de prolactine ; son blocage la lève.",
+        "C": "Vrai.",
+        "D": "Faux : l'aripiprazole est un agoniste partiel D2, avec peu d'effet prolactinique.",
+        "E": "Faux : le blocage mésocortical peut au contraire aggraver le déficit."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Voies dopaminergiques et effets des antipsychotiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Keepers GA et al. APA Practice Guideline for Schizophrenia. Am J Psychiatry 2020;177(9):868-872",
+          "date": "2020"
+        },
+        {
+          "reference": "Hasan A et al. WFSBP Guidelines Schizophrenia Part 1, update 2012. World J Biol Psychiatry 2012;13(5):318-378",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos de la schizophrénie résistante et de la clozapine, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La résistance se définit après l'échec d'au moins deux antipsychotiques différents prescrits à dose et durée adéquates.",
+        "B": "L'observance doit être vérifiée avant de conclure à une résistance.",
+        "C": "La clozapine impose une surveillance hématologique en raison du risque d'agranulocytose.",
+        "D": "La clozapine est le traitement de première intention de tout premier épisode psychotique.",
+        "E": "Une fièvre ou une angine sous clozapine impose un hémogramme en urgence."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La clozapine est le traitement de référence de la schizophrénie résistante (NICE, APA, WFSBP, OMS). Ses risques (agranulocytose, myocardite, convulsions, constipation sévère) la réservent à cette indication, sous surveillance spécialisée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : la non-observance est la première cause de « pseudo-résistance ».",
+        "C": "Vrai.",
+        "D": "Faux : elle est réservée aux formes résistantes (et, selon l'APA, au risque suicidaire ou agressif persistant).",
+        "E": "Vrai : une agranulocytose doit être éliminée sans délai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Schizophrénie résistante et clozapine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à la résistance sans vérifier l'observance.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE CG178 Psychosis and schizophrenia in adults, 2014 (mise à jour)",
+          "date": "2014"
+        },
+        {
+          "reference": "Keepers GA et al. APA Practice Guideline for Schizophrenia. Am J Psychiatry 2020;177(9):868-872",
+          "date": "2020"
+        },
+        {
+          "reference": "Hasan A et al. WFSBP Guidelines Schizophrenia Part 1, update 2012. World J Biol Psychiatry 2012;13(5):318-378",
+          "date": "2012"
+        },
+        {
+          "reference": "OMS. mhGAP guideline 2023 (DOC-00049)",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 30 ans a reçu de l'halopéridol injectable pour une agitation. 48 heures plus tard, il présente une température à 39,6 °C, une rigidité généralisée, une confusion, une tachycardie, des sueurs et des CPK très élevées. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'antipsychotique doit être arrêté immédiatement.",
+        "B": "Il faut poursuivre l'halopéridol en ajoutant un anticholinergique.",
+        "C": "Une surveillance en réanimation avec prévention de l'insuffisance rénale est indiquée.",
+        "D": "Le syndrome sérotoninergique et une infection du système nerveux central font partie des diagnostics différentiels.",
+        "E": "L'halopéridol pourra être réintroduit à la même dose 48 heures après l'apyrexie."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le tableau associe les éléments retenus par le consensus Delphi (exposition à un antagoniste dopaminergique, hyperthermie, rigidité, altération mentale, élévation des CPK, labilité sympathique). C'est une urgence : arrêt de l'antipsychotique, réanimation, recherche des diagnostics différentiels.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : l'anticholinergique ne traite pas le SMN et la poursuite de l'antipsychotique est dangereuse.",
+        "C": "Vrai : risque de rhabdomyolyse et d'insuffisance rénale.",
+        "D": "Vrai : ainsi que l'hyperthermie maligne, la catatonie maligne, le coup de chaleur.",
+        "E": "Faux : une réintroduction éventuelle se fait à distance, avec une autre molécule, à faible dose et titration lente."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Syndrome malin des neuroleptiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre SMN et dystonie aiguë (pas de fièvre ni d'élévation majeure des CPK dans la dystonie).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gurrera RJ et al. NMS diagnostic criteria, Delphi. J Clin Psychiatry 2011;72(9):1222-1228",
+          "date": "2011"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le calendrier proposé par CANMAT-ISBD 2018 pour les patients sous antipsychotique atypique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le poids est contrôlé chaque mois pendant les trois premiers mois, puis tous les trois mois.",
+        "B": "La glycémie à jeun, le bilan lipidique et la pression artérielle sont contrôlés à 3 et 6 mois, puis une fois par an.",
+        "C": "Aucun bilan initial n'est nécessaire chez un sujet jeune sans antécédent.",
+        "D": "L'olanzapine fait partie des molécules au risque métabolique le plus élevé.",
+        "E": "L'aripiprazole est la molécule au risque métabolique le plus élevé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La surveillance métabolique est systématique, avec un bilan de référence puis un suivi rapproché la première année. L'olanzapine et la clozapine sont les molécules les plus à risque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : le bilan initial est toujours recommandé.",
+        "D": "Vrai.",
+        "E": "Faux : son risque métabolique est faible."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Surveillance métabolique sous antipsychotique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "NICE CG178 Psychosis and schizophrenia in adults, 2014 (mise à jour)",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prise en charge d'une agitation aiguë chez un patient schizophrène connu (consensus Project BETA), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La désescalade verbale et la réduction des stimulations sont tentées en premier si possible.",
+        "B": "La voie orale est préférée si le patient accepte le traitement.",
+        "C": "L'association d'olanzapine intramusculaire et d'une benzodiazépine parentérale est recommandée en première intention.",
+        "D": "L'halopéridol intraveineux peut être administré sans surveillance cardiaque.",
+        "E": "Si une première dose d'antipsychotique est insuffisante, l'ajout d'une benzodiazépine est préféré à un second antipsychotique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Le consensus BETA privilégie les mesures non pharmacologiques, la voie orale lorsque c'est possible et un antipsychotique en cas d'agitation d'origine psychotique ; une benzodiazépine peut être ajoutée. Exemples de posologies (BETA) : halopéridol 5 mg IM (maximum 20 mg/24 h), olanzapine 10 mg IM (maximum 30 mg/24 h), lorazépam 2 mg (maximum 12 mg/24 h).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : cette association est à éviter (baisse de saturation rapportée, surtout en cas d'alcoolisation).",
+        "D": "Faux : la voie IV majore le risque d'allongement du QT ; elle impose une limitation de dose et un monitorage cardiaque.",
+        "E": "Vrai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Agitation aiguë d'origine psychotique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Associer olanzapine IM et benzodiazépine parentérale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Wilson MP et al. Project BETA psychopharmacology of agitation. West J Emerg Med 2012;13(1):26-34 (DOC-00098)",
+          "date": "2012"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi algérienne n° 18-11 relative à la santé, quelles propositions sont exactes concernant l'hospitalisation des malades atteints de troubles mentaux ?",
+      "propositions": {
+        "A": "L'hospitalisation sans consentement ne peut se faire que dans des structures de santé publiques.",
+        "B": "La mise en observation du fait d'un tiers dure au plus quinze jours, prolongeable une fois de quinze jours.",
+        "C": "L'hospitalisation d'office est prise par arrêté du wali pour une durée maximale de six mois, renouvelable.",
+        "D": "L'examen psychiatrique d'office peut être décidé par le médecin généraliste traitant.",
+        "E": "L'hospitalisation à temps plein en psychiatrie d'un adolescent de 15 ans est soumise à l'approbation de la commission de santé mentale de wilaya."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les articles 128 à 164 de la loi 18-11 organisent les soins sans consentement : structures publiques uniquement, mise en observation limitée à 15 jours, hospitalisation d'office par arrêté du wali (6 mois au plus), examen psychiatrique d'office décidé par le wali ou le procureur général, contrôle par la commission de santé mentale de wilaya.",
+      "explications_par_proposition": {
+        "A": "Vrai : article 128.",
+        "B": "Vrai : articles 139-140.",
+        "C": "Vrai : article 154.",
+        "D": "Faux : seuls le procureur général près la Cour ou le wali sont habilités (article 145).",
+        "E": "Vrai : article 130 (avant 16 ans et au-delà de 75 ans)."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Cadre légal algérien des soins sans consentement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le médecin ou un établissement privé peut décider d'une hospitalisation d'office.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074), art. 128-164",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les éléments suivants, lesquels sont des facteurs de MAUVAIS pronostic d'une schizophrénie ?",
+      "propositions": {
+        "A": "Début insidieux.",
+        "B": "Âge de début tardif.",
+        "C": "Prédominance des symptômes négatifs.",
+        "D": "Durée de psychose non traitée prolongée.",
+        "E": "Bonne adaptation prémorbide."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les facteurs défavorables sont le début précoce et insidieux, la prédominance des symptômes négatifs et cognitifs, une longue durée de psychose non traitée, une mauvaise adaptation prémorbide, l'addiction et la non-observance.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : un début tardif est plutôt favorable.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : c'est un facteur favorable."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Facteurs pronostiques",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "NICE CG178 Psychosis and schizophrenia in adults, 2014 (mise à jour)",
+          "date": "2014"
+        },
+        {
+          "reference": "Keepers GA et al. APA Practice Guideline for Schizophrenia. Am J Psychiatry 2020;177(9):868-872",
+          "date": "2020"
+        },
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les critères de durée des troubles du spectre de la schizophrénie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le trouble psychotique bref (DSM-5-TR) dure au moins un jour et moins d'un mois, avec retour à l'état antérieur.",
+        "B": "Le trouble schizophréniforme (DSM-5-TR) dure au moins un mois et moins de six mois.",
+        "C": "Le trouble psychotique aigu et transitoire de la CIM-11 ne dépasse pas trois mois.",
+        "D": "Le trouble délirant de la CIM-11 exige seulement un mois d'évolution.",
+        "E": "Dans le trouble schizoaffectif, des idées délirantes ou hallucinations existent au moins deux semaines en l'absence d'épisode thymique majeur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les seuils de durée structurent le diagnostic différentiel des psychoses et diffèrent entre DSM-5-TR et CIM-11.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : la CIM-11 exige trois mois pour le trouble délirant (le DSM-5-TR un mois).",
+        "E": "Vrai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Spectre de la schizophrénie : durées",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer à la CIM-11 les seuils du DSM-5-TR.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "OMS. CIM-11, chapitre 06 (en vigueur 2022)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les effets indésirables des antipsychotiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une dystonie aiguë se traite par un anticholinergique.",
+        "B": "Les anticholinergiques sont le traitement de référence de l'akathisie.",
+        "C": "Les dyskinésies tardives sont favorisées par une exposition prolongée.",
+        "D": "L'hyperprolactinémie est plus fréquente sous rispéridone que sous aripiprazole.",
+        "E": "La prescription systématique d'un anticholinergique avec tout antipsychotique est recommandée."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les anticholinergiques (bipéridène, trihexyphénidyle) se prescrivent en curatif des dystonies et du parkinsonisme, non en systématique ; ils n'améliorent pas l'akathisie et peuvent aggraver les dyskinésies tardives et les troubles cognitifs.",
+      "explications_par_proposition": {
+        "A": "Vrai : par exemple bipéridène (mhGAP-IG : début 1 mg deux fois par jour).",
+        "B": "Faux : l'akathisie se gère par réduction de dose ou changement de molécule.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : prescription curative uniquement."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Effets indésirables extrapyramidaux et endocriniens",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire un correcteur anticholinergique « par principe ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        },
+        {
+          "reference": "Keepers GA et al. APA Practice Guideline for Schizophrenia. Am J Psychiatry 2020;177(9):868-872",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la phase d'entretien après un premier épisode de schizophrénie en rémission, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'OMS (mhGAP 2023) recommande un traitement d'entretien d'au moins 7 à 12 mois.",
+        "B": "L'arrêt brutal de l'antipsychotique est recommandé dès la rémission pour limiter les effets indésirables.",
+        "C": "Un antipsychotique injectable à action prolongée est une alternative en cas d'observance incertaine.",
+        "D": "La psychoéducation et les interventions familiales réduisent le risque de rechute.",
+        "E": "La poursuite du cannabis n'influence pas le risque de rechute."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La prévention de la rechute combine traitement d'entretien (au moins 7 à 12 mois après un premier épisode selon l'OMS, souvent plus), formes retard si besoin, psychoéducation, interventions familiales et sevrage du cannabis.",
+      "explications_par_proposition": {
+        "A": "Vrai : recommandation PSY2 (forte).",
+        "B": "Faux : tout arrêt doit être progressif et surveillé.",
+        "C": "Vrai : recommandation PSY4.",
+        "D": "Vrai.",
+        "E": "Faux : le cannabis augmente le risque de rechute."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-149"
+      ],
+      "theme": "Phase d'entretien et prévention de la rechute",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. mhGAP guideline 2023 (DOC-00049)",
+          "date": "2023"
+        },
+        {
+          "reference": "NICE CG178 Psychosis and schizophrenia in adults, 2014 (mise à jour)",
+          "date": "2014"
+        },
+        {
+          "reference": "Keepers GA et al. APA Practice Guideline for Schizophrenia. Am J Psychiatry 2020;177(9):868-872",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'épisode dépressif caractérisé (EDC) selon le DSM-5-TR, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il faut au moins cinq symptômes sur neuf, présents presque tous les jours pendant au moins deux semaines.",
+        "B": "L'humeur dépressive ou la perte d'intérêt ou de plaisir fait obligatoirement partie des symptômes.",
+        "C": "Les idées suicidaires ne font pas partie des critères.",
+        "D": "Un antécédent d'épisode maniaque exclut le diagnostic de trouble dépressif caractérisé (unipolaire).",
+        "E": "Le ralentissement psychomoteur doit être observable par autrui."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'EDC associe au moins 5 symptômes sur 9 pendant 2 semaines, dont l'humeur dépressive ou l'anhédonie, avec détresse ou altération du fonctionnement. Un antécédent de manie ou d'hypomanie fait porter le diagnostic de trouble bipolaire.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : les pensées de mort et idées suicidaires sont le 9e critère.",
+        "D": "Vrai : il s'agit alors d'un trouble bipolaire.",
+        "E": "Vrai : il ne suffit pas que le patient le ressente."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Critères de l'épisode dépressif caractérisé",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les épisodes maniaque et hypomaniaque (DSM-5-TR), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'épisode maniaque dure au moins une semaine, ou moins si une hospitalisation est nécessaire.",
+        "B": "L'épisode hypomaniaque dure au moins quatre jours consécutifs.",
+        "C": "La présence de caractéristiques psychotiques est compatible avec une hypomanie.",
+        "D": "Lorsque l'humeur est seulement irritable, quatre symptômes supplémentaires sont exigés pour la manie.",
+        "E": "Une hypomanie apparue sous antidépresseur et persistant au-delà de l'effet pharmacologique compte pour le diagnostic de trouble bipolaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La manie se distingue de l'hypomanie par la durée, l'altération marquée du fonctionnement, la nécessité d'hospitaliser ou la présence de caractéristiques psychotiques.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : des caractéristiques psychotiques font requalifier l'épisode en manie.",
+        "D": "Vrai : trois symptômes si l'humeur est élevée ou expansive, quatre si elle est seulement irritable.",
+        "E": "Vrai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Manie et hypomanie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre hypomanie et manie : psychose ou hospitalisation = manie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR. 2022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1015",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une femme de 32 ans a présenté deux épisodes dépressifs caractérisés et, il y a deux ans, une période de six jours d'euphorie avec réduction du besoin de sommeil et projets multiples, sans retentissement majeur ni hospitalisation. Quel est le diagnostic le plus probable ?",
+      "propositions": {
+        "A": "Trouble dépressif caractérisé récurrent.",
+        "B": "Trouble bipolaire de type I.",
+        "C": "Trouble bipolaire de type II.",
+        "D": "Trouble cyclothymique.",
+        "E": "Trouble dépressif persistant."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "L'association d'au moins un épisode hypomaniaque et d'au moins un EDC, sans épisode maniaque, définit le trouble bipolaire de type II.",
+      "explications_par_proposition": {
+        "A": "Faux : l'hypomanie exclut le diagnostic unipolaire.",
+        "B": "Faux : pas d'épisode maniaque (pas d'altération marquée, pas d'hospitalisation, pas de psychose).",
+        "C": "Vrai.",
+        "D": "Faux : les épisodes remplissent ici les critères d'EDC et d'hypomanie.",
+        "E": "Faux : il n'y a pas d'humeur dépressive chronique de 2 ans."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Classification des troubles bipolaires",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Retenir un trouble unipolaire faute d'avoir recherché l'hypomanie auprès de l'entourage.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "American Psychiatric Association. DSM-5-TR. 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "OMS. CIM-11, chapitre 06 (en vigueur 2022)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon CANMAT 2023, concernant le bilan d'un épisode dépressif chez l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un hémogramme et une TSH sont proposés comme examens peu coûteux pour éliminer une anémie ou une dysthyroïdie.",
+        "B": "Un ECG est systématique chez tout patient déprimé.",
+        "C": "Une imagerie cérébrale est à considérer devant une première dépression d'apparition tardive.",
+        "D": "Une imagerie est à considérer en présence de signes neurologiques ou d'un changement brutal de la personnalité.",
+        "E": "Le suivi par échelles validées aide à repérer l'absence d'amélioration précoce."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le bilan somatique repose sur l'anamnèse et l'examen ; les examens complémentaires sont ciblés. L'ECG est indiqué chez le patient cardiaque recevant un médicament allongeant le QTc.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : il n'est pas systématique.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai : par exemple le PHQ-9 (« measurement-based care »)."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Bilan d'un épisode dépressif",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lam RW et al. CANMAT 2023 Update MDD. Can J Psychiatry 2024;69(9):641-687 (DOC-00099)",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement d'un épisode dépressif caractérisé de l'adulte, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Dans une forme légère, un antidépresseur n'est pas systématique en première intention.",
+        "B": "Dans une forme modérée, CANMAT 2023 place psychothérapie structurée et antidépresseur au même niveau.",
+        "C": "Dans une forme sévère avec caractéristiques psychotiques, l'association antidépresseur + antipsychotique est recommandée.",
+        "D": "L'électroconvulsivothérapie est réservée aux patients ayant épuisé tous les traitements médicamenteux.",
+        "E": "L'absence d'amélioration après 2 à 4 semaines à dose efficace doit faire envisager une augmentation de dose ou un changement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La sévérité guide le choix : psychothérapie dans les formes légères, psychothérapie ou antidépresseur dans les formes modérées, association dans les formes sévères, antidépresseur + antipsychotique ou ECT si caractéristiques psychotiques ; l'ECT est aussi indiquée d'emblée dans les situations à risque vital.",
+      "explications_par_proposition": {
+        "A": "Vrai (HAS 2017, NICE NG222).",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : elle peut être indiquée d'emblée (risque vital, refus alimentaire, catatonie, mélancolie sévère).",
+        "E": "Vrai : une amélioration inférieure à 20 % à 2-4 semaines prédit la non-réponse."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Stratégie selon la sévérité de l'EDC",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lam RW et al. CANMAT 2023 Update MDD. Can J Psychiatry 2024;69(9):641-687 (DOC-00099)",
+          "date": "2024"
+        },
+        {
+          "reference": "NICE NG222 Depression in adults: treatment and management, 2022",
+          "date": "2022"
+        },
+        {
+          "reference": "HAS. Épisode dépressif caractérisé de l'adulte : prise en charge en premier recours, 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les fourchettes de doses quotidiennes suivantes, lesquelles correspondent au tableau des antidépresseurs de CANMAT 2023 ?",
+      "propositions": {
+        "A": "Sertraline 50-200 mg.",
+        "B": "Escitalopram 40-60 mg.",
+        "C": "Venlafaxine LP 75-225 mg.",
+        "D": "Mirtazapine 30-60 mg.",
+        "E": "Fluoxétine 20-60 mg."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le tableau 3.3 de CANMAT 2023 donne des fourchettes issues des monographies : sertraline 50-200 mg, escitalopram 10-20 mg, venlafaxine LP 75-225 mg, mirtazapine 30-60 mg, fluoxétine 20-60 mg. Toute prescription doit être confrontée au RCP local.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : 10-20 mg/j.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Posologies des antidépresseurs (CANMAT 2023)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lam RW et al. CANMAT 2023 Update MDD. Can J Psychiatry 2024;69(9):641-687 (DOC-00099)",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la tolérance des antidépresseurs, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le risque d'hyponatrémie et de saignements sous ISRS/IRSNa est surtout marqué après 65 ans.",
+        "B": "Chez les moins de 25 ans, les ISRS et IRSNa sont associés à un risque accru d'akathisie, d'agitation et d'agressivité.",
+        "C": "Les tricycliques sont préférés chez le patient à haut risque suicidaire car ils sont peu toxiques en surdosage.",
+        "D": "L'arrêt brutal d'un antidépresseur peut entraîner un syndrome d'arrêt.",
+        "E": "L'association de plusieurs médicaments sérotoninergiques expose au syndrome sérotoninergique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les effets indésirables dépendent de l'âge et de la classe ; les tricycliques sont dangereux en surdosage (troubles de conscience, cardiotoxicité, convulsions), d'où la préférence pour les ISRS chez le patient à risque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : ils sont potentiellement létaux en surdosage.",
+        "D": "Vrai : décroissance progressive recommandée.",
+        "E": "Vrai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Effets indésirables des antidépresseurs",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des tricycliques en grande quantité à un patient suicidaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lam RW et al. CANMAT 2023 Update MDD. Can J Psychiatry 2024;69(9):641-687 (DOC-00099)",
+          "date": "2024"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la surveillance d'un traitement par lithium (CANMAT-ISBD 2018), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La lithiémie est prélevée à la vallée, environ 12 heures après la dernière prise.",
+        "B": "Un contrôle est réalisé environ 5 jours après chaque modification de dose.",
+        "C": "La cible en phase maniaque aiguë est de 0,8 à 1,2 mEq/L chez l'adulte.",
+        "D": "Fonction rénale, TSH et calcémie sont contrôlées à 6 mois puis au moins une fois par an.",
+        "E": "Chez le sujet âgé, la cible en phase aiguë est plus élevée que chez l'adulte jeune."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La surveillance du lithium associe des dosages à la vallée et un suivi rénal, thyroïdien et calcique ; la marge thérapeutique est étroite.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : en entretien, 0,6-1,0 mEq/L peut suffire.",
+        "D": "Vrai.",
+        "E": "Faux : elle est plus basse (0,4-0,8 mEq/L)."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Surveillance du lithium",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter une lithiémie prélevée juste après la prise.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une patiente de 66 ans traitée par lithium depuis 10 ans présente, après plusieurs jours de diarrhée, un tremblement grossier, une ataxie et une confusion. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La déshydratation est un facteur favorisant classique d'intoxication.",
+        "B": "L'introduction récente d'un AINS ou d'un diurétique doit être recherchée.",
+        "C": "Les IEC et ARA II augmentent la lithiémie.",
+        "D": "Il faut doubler la dose de lithium pour prévenir une rechute thymique.",
+        "E": "Un dosage de la lithiémie, de la créatinine et un ECG sont indiqués en urgence."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le tableau évoque une intoxication au lithium favorisée par la déshydratation et les interactions (AINS, IEC, ARA II, diurétiques). Conduite : arrêt du lithium, dosages, ECG, réhydratation, avis spécialisé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : le lithium doit être arrêté.",
+        "E": "Vrai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Intoxication au lithium",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. mhGAP Intervention Guide 2.0, 2016",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 30 ans présente un épisode maniaque sous escitalopram. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'antidépresseur doit être arrêté.",
+        "B": "Le lithium, la quétiapine, le divalproex, la rispéridone et l'aripiprazole font partie des traitements de première ligne de CANMAT-ISBD 2018.",
+        "C": "Une association antipsychotique atypique + lithium ou divalproex est privilégiée en cas de manie psychotique ou si une réponse rapide est nécessaire.",
+        "D": "S'il refuse les soins et présente un danger, il peut être hospitalisé sans consentement dans une clinique privée.",
+        "E": "En cas d'agitation, l'association olanzapine IM + benzodiazépine parentérale est recommandée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Devant une manie : arrêt des antidépresseurs, traitement antimaniaque de première ligne, hospitalisation si nécessaire dans le cadre légal (loi 18-11 : soins sans consentement uniquement en structure publique).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'hospitalisation sans consentement ne peut se faire que dans des structures publiques (art. 128).",
+        "E": "Faux : association à éviter (BETA)."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Épisode maniaque : prise en charge",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Wilson MP et al. Project BETA. West J Emerg Med 2012;13(1):26-34 (DOC-00098)",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement d'un épisode dépressif chez un patient bipolaire de type I, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La quétiapine, le lithium, la lamotrigine et la lurasidone sont des options de première ligne selon CANMAT-ISBD 2018.",
+        "B": "Un antidépresseur en monothérapie est recommandé en première intention.",
+        "C": "Pour la quétiapine, CANMAT-ISBD conseille une dose cible de 300 mg/j.",
+        "D": "L'OMS (2023) admet la fluoxétine ou la venlafaxine à condition de les associer à un thymorégulateur.",
+        "E": "La lamotrigine expose à des éruptions cutanées graves, justifiant une titration lente."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La dépression bipolaire se traite par quétiapine, lithium, lamotrigine ou lurasidone ; l'antidépresseur seul expose au virage et n'est pas recommandé dans le type I.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : non recommandé dans le bipolaire de type I.",
+        "C": "Vrai : pas de différence d'efficacité entre 300 et 600 mg/j dans les essais.",
+        "D": "Vrai : recommandation PSY9.",
+        "E": "Vrai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Dépression bipolaire",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Traiter une dépression bipolaire par antidépresseur seul.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. mhGAP guideline 2023 (DOC-00049)",
+          "date": "2023"
+        },
+        {
+          "reference": "HAS. Patient avec un trouble bipolaire : repérage et prise en charge initiale en premier recours, 2015",
+          "date": "2015"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-PSYC-1024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement d'entretien du trouble bipolaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le lithium est considéré comme le traitement de référence.",
+        "B": "Le valproate ne doit pas être utilisé chez la femme en âge de procréer (OMS 2023, recommandation forte).",
+        "C": "L'OMS recommande un traitement d'entretien d'au moins six mois chez l'adulte en rémission.",
+        "D": "L'olanzapine est classée en première ligne d'entretien par CANMAT-ISBD sans réserve.",
+        "E": "La psychoéducation fait partie du traitement de première ligne."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'entretien repose sur le lithium (référence), d'autres thymorégulateurs ou antipsychotiques selon le profil, et la psychoéducation. Le valproate est proscrit chez la femme en âge de procréer.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : PSY7.2 et PSY8.2.",
+        "C": "Vrai : PSY3.",
+        "D": "Faux : 2e ligne en raison du risque métabolique.",
+        "E": "Vrai."
+      },
+      "specialite": "PSYC",
+      "items_residanat": [
+        "RES-MED-153"
+      ],
+      "theme": "Traitement d'entretien et grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire du valproate à une jeune femme sans évaluation du risque de grossesse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Yatham LN et al. CANMAT-ISBD 2018. Bipolar Disord 2018;20(2):97-170 (DOC-00100)",
+          "date": "2018"
+        },
+        {
+          "reference": "OMS. mhGAP guideline 2023 (DOC-00049)",
+          "date": "2023"
+        },
+        {
+          "reference": "NICE CG185 Bipolar disorder: assessment and management, 2014 (mise à jour)",
+          "date": "2014"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'article 199 de la loi algérienne n° 18-11 relative à la santé, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "En cas de violence sur une personne, tout médecin est tenu de constater les lésions et blessures et d'établir un certificat descriptif.",
+        "B": "Seul un médecin légiste est autorisé à établir un certificat descriptif de coups et blessures.",
+        "C": "Les taux d'incapacité et les autres préjudices sont déterminés par un médecin spécialiste en médecine légale.",
+        "D": "Toute blessure suspecte doit faire l'objet d'une déclaration obligatoire selon les modalités réglementaires.",
+        "E": "Le manquement à l'obligation d'établir le certificat descriptif est passible d'une amende."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'article 199 impose à tout médecin le constat et le certificat descriptif, confie au légiste l'évaluation des taux d'incapacité et des préjudices, et prévoit la déclaration obligatoire des blessures suspectes ; l'article 420 sanctionne le manquement d'une amende de 20 000 à 40 000 DA.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : l'obligation pèse sur tout médecin.",
+        "C": "Vrai.",
+        "D": "Vrai : alinéa 2.",
+        "E": "Vrai : article 420."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Article 199 de la loi 18-11",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le généraliste peut renvoyer la victime vers le légiste sans rédiger de certificat.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Lors de la rédaction d'un certificat médical descriptif pour une victime de violences, quelles formulations ou pratiques sont correctes ?",
+      "propositions": {
+        "A": "« Mme X déclare avoir été frappée à coups de poing le 3 mars vers 21 h à son domicile. »",
+        "B": "« Ecchymose violacée de 4 × 3 cm de la paupière supérieure gauche. »",
+        "C": "« Victime de coups et blessures volontaires de la part de son mari. »",
+        "D": "Réalisation de photographies avec échelle métrique, avec l'accord de la patiente.",
+        "E": "Conservation d'un double du certificat dans le dossier médical."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Le certificat rapporte les dires au conditionnel ou entre guillemets, décrit objectivement les lésions (nature, siège, dimensions, couleur), ne désigne pas l'auteur et n'utilise pas de qualification juridique. Les photographies sont faites avec consentement ; un double est conservé.",
+      "explications_par_proposition": {
+        "A": "Correct : propos rapportés et attribués.",
+        "B": "Correct : description précise.",
+        "C": "Incorrect : qualification juridique et désignation de l'auteur.",
+        "D": "Correct.",
+        "E": "Correct."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Règles de rédaction du certificat descriptif",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Employer la qualification juridique « coups et blessures volontaires ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Certificat médical initial concernant une personne victime de violences, 2011",
+          "date": "2011"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la morphologie des lésions traumatiques, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une plaie par instrument tranchant est habituellement plus longue que profonde, à bords nets.",
+        "B": "Une plaie par instrument piquant est habituellement plus profonde que longue.",
+        "C": "Une plaie contuse a des bords nets et réguliers, sans pont tissulaire.",
+        "D": "Des érosions en forme de croissant peuvent correspondre à des marques d'ongles.",
+        "E": "Une ecchymose figurée peut reproduire la forme de l'agent vulnérant (doigts, ceinture, semelle)."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La morphologie oriente vers le mécanisme : tranchant (bords nets, longueur > profondeur), piquant (profondeur > longueur), contondant (bords irréguliers, ponts tissulaires) ; les lésions figurées et les érosions unguéales sont évocatrices de violences.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : la gravité dépend des organes profonds.",
+        "C": "Faux : bords irréguliers, contus, ponts tissulaires.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Morphologie des lésions élémentaires",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Simpson's Forensic Medicine, 15e éd., 2025 ; Knight's Forensic Pathology, 4e éd., 2016 (catalogue OUV-0689, OUV-0686)",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1004",
+      "format": "QCS (réponse unique)",
+      "enonce": "À propos de la datation d'une ecchymose par sa couleur, quelle proposition est exacte ?",
+      "propositions": {
+        "A": "Une ecchymose jaune date toujours de plus de 7 jours.",
+        "B": "Une ecchymose rouge date toujours de moins de 24 heures.",
+        "C": "La couleur permet de dater une ecchymose au jour près chez l'adulte sain.",
+        "D": "L'évolution de la couleur dépend de nombreux facteurs, et la datation précise par la couleur n'est pas fiable.",
+        "E": "Les ecchymoses évoluent de la même façon chez l'enfant et le sujet âgé sous anticoagulant."
+      },
+      "reponses_correctes": [
+        "D"
+      ],
+      "explication_generale": "La couleur d'une ecchymose évolue avec la dégradation de l'hémoglobine, mais la vitesse dépend de la profondeur, de la taille, du siège, de l'âge et de la coagulation : le certificat doit rester prudent.",
+      "explications_par_proposition": {
+        "A": "Faux : affirmation trop catégorique.",
+        "B": "Faux.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Faux : le terrain modifie l'aspect et l'évolution."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Datation des ecchymoses",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Affirmer l'âge d'une lésion d'après sa couleur.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Simpson's Forensic Medicine, 15e éd., 2025 ; Knight's Forensic Pathology, 4e éd., 2016 (catalogue OUV-0689, OUV-0686)",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les éléments suivants, lesquels doivent faire suspecter une maltraitance chez un enfant ?",
+      "propositions": {
+        "A": "Ecchymoses chez un nourrisson de 3 mois qui ne se déplace pas seul.",
+        "B": "Fractures de côtes postérieures d'âges différents.",
+        "C": "Ecchymoses des crêtes tibiales chez un enfant de 4 ans qui court et joue.",
+        "D": "Récit changeant et discordant avec les lésions.",
+        "E": "Brûlures à contours nets « en chaussette » des deux pieds."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les signes d'alerte sont la discordance récit/lésions, le retard de recours, les lésions d'âges différents, les sièges inhabituels, les ecchymoses avant l'âge de la marche, les fractures évocatrices et les brûlures par immersion.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : siège exposé typique des chutes accidentelles de l'enfant qui marche.",
+        "D": "Vrai.",
+        "E": "Vrai : aspect d'immersion forcée."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Signes d'alerte de maltraitance de l'enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Simpson's Forensic Medicine, 15e éd., 2025 ; Knight's Forensic Pathology, 4e éd., 2016 (catalogue OUV-0689, OUV-0686)",
+          "date": "2025"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un médecin est appelé pour constater le décès d'un homme retrouvé sur la voie publique avec une plaie thoracique. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il délivre uniquement un certificat de constat de décès et avise les autorités compétentes.",
+        "B": "Il remplit la partie inférieure du certificat (causes médicales du décès) en indiquant « hémorragie par plaie thoracique ».",
+        "C": "Il ne remplit que la partie supérieure du certificat médical de décès (obstacle médico-légal).",
+        "D": "La partie relative aux causes du décès sera renseignée par le médecin légiste après examen du corps.",
+        "E": "L'autopsie médico-légale est réalisée par le médecin légiste désigné par la juridiction compétente."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "En cas de mort suspecte, violente ou sur la voie publique, la loi 18-11 (art. 200) limite le rôle du médecin au constat et à l'information des autorités ; le décret 22-178 prévoit que seule la partie supérieure est remplie et que le légiste complète les causes ; l'autopsie est faite par un légiste désigné par la juridiction (art. 201).",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 200.",
+        "B": "Faux : obstacle médico-légal.",
+        "C": "Vrai : décret 22-178, art. 6.",
+        "D": "Vrai.",
+        "E": "Vrai : art. 201."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Mort suspecte ou violente",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Délivrer un certificat de décès complet en cas de mort violente.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 22-178 du 28 avril 2022 relatif au certificat médical de décès, JORADP n° 32/2022 (DOC-00077)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la réquisition d'un médecin par l'autorité judiciaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le professionnel de santé est tenu de déférer aux réquisitions de l'autorité publique.",
+        "B": "Le refus de déférer à une réquisition établie et notifiée dans les formes est pénalement sanctionné.",
+        "C": "Le médecin peut invoquer le secret médical pour refuser d'examiner la personne.",
+        "D": "Le médecin doit exiger une réquisition écrite et répondre uniquement aux questions posées.",
+        "E": "Le rapport est remis à l'autorité requérante."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La loi 18-11 impose de déférer aux réquisitions (art. 178) et sanctionne le refus par renvoi à l'article 187 bis du code pénal (art. 418). Le médecin limite sa réponse à la mission.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 178.",
+        "B": "Vrai : art. 418.",
+        "C": "Faux : le secret limite le contenu du rapport à la mission, il ne justifie pas le refus.",
+        "D": "Vrai (HAS 2011 ; principe de limitation à la mission).",
+        "E": "Vrai."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Réquisition judiciaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "HAS. Certificat médical initial concernant une personne victime de violences, 2011",
+          "date": "2011"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le secret médical en droit algérien, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il couvre l'ensemble des informations parvenues à la connaissance des professionnels de santé.",
+        "B": "Il peut être levé par la juridiction compétente.",
+        "C": "Les informations peuvent être partagées au sein de l'équipe de soins dans l'intérêt médical du malade.",
+        "D": "Il est totalement aboli par le décès du patient.",
+        "E": "Sa violation expose aux sanctions prévues par l'article 301 du code pénal."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le secret est défini par les articles 24 et 169 de la loi 18-11 ; sa violation est sanctionnée par renvoi à l'article 301 du code pénal (art. 417). Le code de déontologie précise que le décès n'abolit pas le secret, sauf pour faire valoir des droits (art. 41).",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 24.",
+        "B": "Vrai : art. 24.",
+        "C": "Vrai : art. 169.",
+        "D": "Faux : code de déontologie, art. 41 ; loi 18-11, art. 25 (information de la famille dans des conditions limitées).",
+        "E": "Vrai : art. 417."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Secret médical",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        },
+        {
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (rédaction d'origine)",
+          "date": "1966"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les situations suivantes rencontrées en consultation, lesquelles imposent au médecin une déclaration ou une information des autorités ?",
+      "propositions": {
+        "A": "Ecchymoses multiples évoquant des sévices chez un enfant de 6 ans.",
+        "B": "Blessure suspecte par arme blanche chez un adulte qui refuse de s'expliquer.",
+        "C": "Tétanos chez un agriculteur blessé.",
+        "D": "Morsure de chien avec suspicion de rage chez l'animal.",
+        "E": "Entorse de cheville lors d'un match de football."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les violences sur mineurs (art. 198), les blessures suspectes (art. 199 al. 2) et les maladies à déclaration obligatoire (art. 39 ; tétanos et rage figurent au décret 22-250) imposent une déclaration ; une entorse sportive n'en relève pas.",
+      "explications_par_proposition": {
+        "A": "Vrai : information des services concernés.",
+        "B": "Vrai : déclaration obligatoire de la blessure suspecte.",
+        "C": "Vrai : MDO.",
+        "D": "Vrai : la rage est une MDO ; mise en route de la prophylaxie selon le protocole national.",
+        "E": "Faux."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Situations à déclaration obligatoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 du 30 juin 2022 (liste des MDO), JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'incapacité totale de travail (ITT) au sens pénal, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle correspond à la gêne importante pour accomplir les actes ordinaires de la vie, et non à l'arrêt de travail.",
+        "B": "Un enfant ou un retraité peuvent se voir reconnaître une ITT.",
+        "C": "Sa durée contribue à la qualification pénale des violences.",
+        "D": "Elle est identique à la durée de l'arrêt de travail prescrit.",
+        "E": "Le retentissement psychologique peut être pris en compte."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'ITT pénale mesure le retentissement fonctionnel global ; elle influence la qualification (contravention ou délit). En Algérie, l'évaluation des taux d'incapacité relève du médecin légiste (art. 199).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : code pénal, art. 264 et 442.",
+        "D": "Faux : notion différente.",
+        "E": "Vrai."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Notion d'incapacité totale de travail",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre ITT et arrêt de travail.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HAS. Certificat médical initial concernant une personne victime de violences, 2011",
+          "date": "2011"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (rédaction d'origine)",
+          "date": "1966"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans la rédaction d'origine (1966) du code pénal algérien, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les violences volontaires suivies d'une infirmité permanente (perte d'un œil, amputation…) sont punies de la réclusion.",
+        "B": "L'article 288 réprime l'homicide involontaire par maladresse, imprudence, inattention, négligence ou inobservation des règlements.",
+        "C": "L'article 289 vise les blessures involontaires ayant entraîné une incapacité totale de travail de plus de trois mois.",
+        "D": "L'article 301 réprime les blessures involontaires.",
+        "E": "Les violences volontaires ayant entraîné la mort sans intention de la donner sont un crime."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les articles 264 (violences volontaires et leurs conséquences), 288-289 (homicide et blessures involontaires) et 301 (secret professionnel) sont les plus utiles au médecin. Les seuils et peines doivent être vérifiés dans la version consolidée.",
+      "explications_par_proposition": {
+        "A": "Vrai : article 264 al. 3.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'article 301 concerne la violation du secret professionnel.",
+        "E": "Vrai : article 264 al. 4."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Code pénal (rédaction de 1966)",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer sans vérification des seuils issus d'une ancienne rédaction.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (rédaction d'origine)",
+          "date": "1966"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le code de déontologie médicale algérien (décret exécutif 92-276), quelles propositions sont exactes concernant le médecin expert ?",
+      "propositions": {
+        "A": "Il informe la personne examinée de sa mission avant toute opération d'expertise.",
+        "B": "Il peut être à la fois médecin traitant et expert pour le même malade si le juge l'accepte.",
+        "C": "Il doit se récuser s'il estime que les questions posées sont étrangères à la technique médicale.",
+        "D": "Dans son rapport, il ne révèle que les éléments de nature à répondre aux questions posées.",
+        "E": "Il ne doit pas accepter une mission où sont en jeu les intérêts d'un de ses proches."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les articles 95 à 99 du code de déontologie encadrent l'expertise : information de la personne, incompatibilité avec la fonction de médecin traitant, récusation, limitation du rapport à la mission, absence de conflit d'intérêts.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 96.",
+        "B": "Faux : art. 97, incompatibilité.",
+        "C": "Vrai : art. 98.",
+        "D": "Vrai : art. 99.",
+        "E": "Vrai : art. 97."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "theme": "Expertise médicale (code de déontologie)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les différentes formes de responsabilité médicale, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La responsabilité civile a pour finalité la réparation du dommage subi par le patient.",
+        "B": "La responsabilité pénale a pour finalité de punir l'auteur d'une infraction.",
+        "C": "La responsabilité disciplinaire sanctionne un manquement aux règles de déontologie.",
+        "D": "Une sanction disciplinaire empêche toute poursuite pénale pour les mêmes faits.",
+        "E": "Le praticien d'un établissement public de santé peut voir engagée la responsabilité de son établissement devant les juridictions administratives."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les responsabilités civile et administrative réparent, la pénale punit, la disciplinaire sanctionne professionnellement. Elles sont indépendantes et peuvent se cumuler (loi 18-11, art. 347 ; code de déontologie, art. 221).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : les actions sont indépendantes.",
+        "E": "Vrai : faute de service."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Les différentes responsabilités",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'une sanction disciplinaire éteint l'action pénale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les conditions de la responsabilité médicale pour faute, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle exige une faute, un dommage et un lien de causalité.",
+        "B": "Selon la loi 18-11, la faute médicale doit être avérée après expertise.",
+        "C": "La survenue d'une complication suffit à établir la faute.",
+        "D": "Le défendeur peut s'exonérer en prouvant une cause étrangère (force majeure, fait de la victime ou d'un tiers).",
+        "E": "Un accident médical non fautif (aléa) engage la responsabilité pour faute du médecin."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "La responsabilité pour faute repose sur la trilogie faute-dommage-causalité ; l'expertise est centrale (art. 353 de la loi 18-11) ; la cause étrangère exonère (code civil, art. 127) ; l'aléa n'est pas une faute.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : art. 353.",
+        "C": "Faux : une complication peut être un aléa.",
+        "D": "Vrai : art. 127 du code civil.",
+        "E": "Faux."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Conditions de la responsabilité pour faute",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Assimiler complication et faute.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (rédaction d'origine)",
+          "date": "1975"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1015",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel article du code civil algérien (rédaction de 1975) fonde classiquement l'obligation de moyens du médecin, en libérant le débiteur qui a apporté à l'exécution de son obligation la diligence d'un bon père de famille, même si le résultat n'est pas obtenu ?",
+      "propositions": {
+        "A": "Article 124.",
+        "B": "Article 136.",
+        "C": "Article 172.",
+        "D": "Article 182.",
+        "E": "Article 301."
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "L'article 172 du code civil (1975) pose la règle de diligence du « bon père de famille » pour l'obligation de faire : c'est le fondement de l'obligation de moyens. L'article 124 fonde la responsabilité délictuelle, l'article 136 celle du commettant, l'article 182 l'étendue de la réparation ; l'article 301 est un article du code pénal (secret professionnel).",
+      "explications_par_proposition": {
+        "A": "Faux : responsabilité du fait personnel.",
+        "B": "Faux : responsabilité du commettant.",
+        "C": "Vrai.",
+        "D": "Faux : réparation (perte subie, gain manqué).",
+        "E": "Faux : code pénal."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Obligation de moyens",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (rédaction d'origine)",
+          "date": "1975"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient est victime d'une faute de diagnostic commise par un praticien d'un établissement public hospitalier dans l'exercice de ses fonctions. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La faute de service engage en principe la responsabilité de l'établissement.",
+        "B": "L'action en réparation relève des juridictions administratives.",
+        "C": "Une faute personnelle détachable du service peut engager la responsabilité personnelle du praticien.",
+        "D": "Le patient peut saisir la commission de conciliation et de médiation en cas de violation de ses droits.",
+        "E": "Le praticien public n'encourt aucune responsabilité pénale pour les actes accomplis à l'hôpital."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "En exercice public, la faute de service est réparée par l'établissement devant le juge administratif ; la faute personnelle détachable engage le praticien. La responsabilité pénale, personnelle, demeure. La commission de conciliation et de médiation est prévue par l'article 28 de la loi 18-11.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : art. 28.",
+        "E": "Faux : la responsabilité pénale est personnelle (art. 413)."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Exercice public : responsabilité administrative",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (rédaction d'origine)",
+          "date": "1975"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la responsabilité civile en exercice privé, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Tout fait quelconque de l'homme qui cause à autrui un dommage par sa faute oblige son auteur à le réparer (code civil, art. 124).",
+        "B": "La clinique répond, en tant que commettant, des dommages causés par ses préposés salariés dans l'exercice de leurs fonctions.",
+        "C": "Les professionnels de santé libéraux sont tenus de souscrire une assurance couvrant leur responsabilité civile et professionnelle.",
+        "D": "Une clause exonérant le médecin de toute responsabilité délictuelle est valable si le patient l'a signée.",
+        "E": "La réparation couvre la perte subie et le gain manqué qui sont la suite normale du fait dommageable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La responsabilité civile repose sur les articles 124 (fait personnel), 136 (commettant), 176-182 (contractuelle) du code civil ; l'assurance est obligatoire (loi 18-11, art. 296) ; les clauses exonérant de la responsabilité délictuelle sont nulles (art. 178 du code civil).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : art. 136.",
+        "C": "Vrai : art. 296 de la loi 18-11.",
+        "D": "Faux : nullité (art. 178).",
+        "E": "Vrai : art. 182."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Exercice privé : responsabilité civile",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (rédaction d'origine)",
+          "date": "1975"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la responsabilité pénale du professionnel de santé en droit algérien, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est personnelle.",
+        "B": "Les amendes pénales sont prises en charge par l'assurance responsabilité civile professionnelle.",
+        "C": "L'article 413 de la loi 18-11 renvoie aux articles 288, 289 et 442 (alinéa 2) du code pénal pour les atteintes causées par négligence ou faute professionnelle avérée.",
+        "D": "La nécessité médicale justifiée est expressément réservée par l'article 413.",
+        "E": "Une personne morale (clinique) peut être pénalement sanctionnée pour les infractions prévues par la loi 18-11."
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La responsabilité pénale est personnelle et non assurable. La loi 18-11 réprime les atteintes involontaires par négligence ou faute avérée (art. 413) et prévoit la responsabilité des personnes morales (art. 441).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : les sanctions pénales ne sont pas assurables.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai : art. 441."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Responsabilité pénale : caractères",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Penser que l'assurance couvre les condamnations pénales.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (rédaction d'origine)",
+          "date": "1966"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles correspondances entre comportement et texte sont exactes (loi 18-11 relative à la santé) ?",
+      "propositions": {
+        "A": "Violation du secret médical : article 417, avec renvoi à l'article 301 du code pénal.",
+        "B": "Refus de déférer à une réquisition de l'autorité publique : article 418, avec renvoi à l'article 187 bis du code pénal.",
+        "C": "Absence de certificat descriptif en cas de violence : article 420, amende de 20 000 à 40 000 DA.",
+        "D": "Exercice illégal des professions de santé : article 416, avec renvoi à l'article 243 du code pénal.",
+        "E": "Défaut d'information du patient : peine de réclusion criminelle prévue par l'article 343."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le titre VIII de la loi 18-11 prévoit des peines propres ou des renvois au code pénal. L'article 343 pose l'obligation d'information et de consentement mais ne fixe pas de peine.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : l'article 343 ne contient pas de sanction pénale ; le défaut d'information relève surtout des responsabilités civile et disciplinaire."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Infractions prévues par la loi 18-11",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (rédaction d'origine)",
+          "date": "1966"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi 18-11, quelles propositions sont exactes concernant les conseils de déontologie médicale ?",
+      "propositions": {
+        "A": "Ils sont composés exclusivement de membres élus par leurs pairs.",
+        "B": "Ils peuvent être saisis par les malades, les usagers ou leurs représentants légaux.",
+        "C": "Les décisions des conseils régionaux sont susceptibles de recours devant le conseil national dans un délai de deux mois.",
+        "D": "Les décisions des conseils nationaux sont susceptibles de recours devant le Conseil d'État dans un délai de quatre mois.",
+        "E": "L'inscription au conseil de déontologie est facultative pour le médecin libéral."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les articles 346 à 351 organisent les conseils : composition élective, pouvoir disciplinaire, saisine large, recours gradués, inscription obligatoire.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 346.",
+        "B": "Vrai : art. 348.",
+        "C": "Vrai : art. 350.",
+        "D": "Vrai : art. 350.",
+        "E": "Faux : obligatoire (art. 349)."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Conseils de déontologie médicale (loi 18-11)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le code de déontologie médicale (décret 92-276), quelles propositions sont exactes concernant la procédure disciplinaire ?",
+      "propositions": {
+        "A": "La plainte est notifiée à l'intéressé dans les quinze jours.",
+        "B": "Aucune décision ne peut être prise sans que l'intéressé ait été entendu ou appelé à comparaître.",
+        "C": "Le médecin peut se faire assister par un confrère inscrit au tableau ou par un avocat.",
+        "D": "Le conseil régional peut prononcer l'avertissement ou le blâme et proposer l'interdiction d'exercer.",
+        "E": "La section régionale dispose d'un délai de deux ans pour statuer."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les articles 210 à 221 du code de déontologie garantissent les droits de la défense (notification, audition, assistance) et fixent les sanctions du conseil régional (avertissement, blâme, proposition d'interdiction d'exercer ou de fermeture).",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 212.",
+        "B": "Vrai : art. 213.",
+        "C": "Vrai : art. 215.",
+        "D": "Vrai : art. 217.",
+        "E": "Faux : quatre mois (art. 216)."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Procédure disciplinaire (code de déontologie 1992)",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le conseil régional prononce lui-même l'interdiction d'exercer (il la propose, selon le code de 1992).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi 18-11, quelles propositions sont exactes concernant l'information et le consentement ?",
+      "propositions": {
+        "A": "Aucun acte médical ni traitement ne peut être pratiqué sans le consentement libre et éclairé du patient.",
+        "B": "L'information porte notamment sur les risques fréquents ou graves normalement prévisibles et sur les alternatives.",
+        "C": "En cas de refus de soins, une déclaration écrite peut être exigée.",
+        "D": "En cas d'urgence avec menace vitale, le professionnel doit prodiguer les soins et peut passer outre le consentement.",
+        "E": "Les droits du mineur sont exercés par le mineur lui-même dès l'âge de 12 ans."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les articles 23, 343 et 344 de la loi 18-11 définissent l'information, le consentement et la conduite en cas de refus ; les droits des mineurs et incapables sont exercés par les parents ou le représentant légal.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 343.",
+        "B": "Vrai : art. 343.",
+        "C": "Vrai : art. 344.",
+        "D": "Vrai : art. 344.",
+        "E": "Faux : par les parents ou le représentant légal (art. 343)."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Information et consentement",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un médecin libéral révèle à l'employeur d'un patient, sans son accord, que celui-ci est séropositif. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'expose à des poursuites pénales pour violation du secret (art. 417 de la loi 18-11, renvoi à l'art. 301 du code pénal).",
+        "B": "Le patient peut demander réparation de son préjudice devant le juge civil.",
+        "C": "Une plainte disciplinaire peut être déposée devant le conseil régional de déontologie.",
+        "D": "Les trois actions sont incompatibles : le patient doit choisir.",
+        "E": "L'assurance responsabilité civile peut indemniser le préjudice civil mais ne couvre pas la sanction pénale."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Un même fait peut engager les responsabilités pénale, civile et disciplinaire, de façon indépendante (art. 347 de la loi 18-11 ; art. 221 du code de déontologie).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : art. 348 (saisine par les malades).",
+        "D": "Faux : elles sont indépendantes et cumulables.",
+        "E": "Vrai."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Indépendance et cumul des actions",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        },
+        {
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (rédaction d'origine)",
+          "date": "1966"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MLEG-1024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un médecin libéral prescrit de l'amoxicilline à une patiente dont le dossier mentionne une allergie grave aux pénicillines ; elle présente un choc anaphylactique avec séquelles. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une faute de prescription, et non d'un aléa thérapeutique.",
+        "B": "Le lien de causalité entre la prescription et le dommage est direct.",
+        "C": "La responsabilité civile du médecin peut être engagée, l'indemnisation étant prise en charge par son assurance obligatoire.",
+        "D": "Une poursuite pénale est impossible car il n'y avait pas d'intention de nuire.",
+        "E": "L'événement doit être déclaré au titre de la pharmacovigilance."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'allergie connue rend le risque prévisible et évitable : la faute est caractérisée. Les responsabilités civile, pénale (atteinte involontaire, art. 413 de la loi 18-11) et disciplinaire peuvent être engagées ; l'effet indésirable doit être déclaré (art. 177).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : art. 296 de la loi 18-11.",
+        "D": "Faux : les infractions non intentionnelles (négligence, imprudence) sont punissables.",
+        "E": "Vrai : art. 177."
+      },
+      "specialite": "MLEG",
+      "items_residanat": [
+        "RES-MED-140"
+      ],
+      "theme": "Analyse d'une faute de prescription",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que l'absence d'intention exclut la responsabilité pénale.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé, JORADP n° 46/2018 (DOC-00074)",
+          "date": "2018"
+        },
+        {
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (rédaction d'origine)",
+          "date": "1975"
+        },
+        {
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (rédaction d'origine)",
+          "date": "1966"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi algérienne n° 83-13, quelles situations relèvent de la législation sur les accidents du travail (au sens strict ou par assimilation) ?",
+      "propositions": {
+        "A": "Chute d'un maçon d'un échafaudage sur le chantier pendant ses heures de travail.",
+        "B": "Accident de la route d'un commercial au cours d'une mission confiée par son employeur.",
+        "C": "Blessure d'un travailleur qui porte secours à une personne en danger (acte de sauvetage).",
+        "D": "Blessure lors d'une activité sportive organisée dans le cadre d'une association.",
+        "E": "Entorse survenue en jardinant chez soi un jour de congé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'AT est l'accident ayant entraîné une lésion corporelle imputable à une cause soudaine et extérieure, survenu dans le cadre de la relation de travail (art. 6) ; les articles 7 et 8 y assimilent notamment les accidents de mission, les activités sportives organisées et les actes de dévouement ou de sauvetage.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 6.",
+        "B": "Vrai : art. 7 (mission).",
+        "C": "Vrai : art. 8.",
+        "D": "Vrai : art. 8.",
+        "E": "Faux : accident de la vie privée."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Définition de l'accident du travail",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "date": "1983"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'accident de trajet selon la loi 83-13, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est assimilé à un accident du travail.",
+        "B": "Il est couvert quel que soit le mode de transport utilisé.",
+        "C": "Le trajet vers le lieu où le travailleur prend habituellement ses repas est protégé.",
+        "D": "Un détour pour convenance personnelle sans urgence ni nécessité fait perdre la protection.",
+        "E": "Seul le trajet effectué dans un véhicule de l'employeur est protégé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'article 12 protège le parcours entre le lieu de travail et la résidence, le lieu habituel des repas ou un lieu fréquenté pour motifs familiaux, quel que soit le mode de transport, s'il n'a pas été interrompu ou détourné sauf urgence, nécessité, cas fortuit ou force majeure.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Accident de trajet",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le détour personnel reste couvert.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "date": "1983"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi 83-13 (rédaction de 1983), quelles propositions sont exactes concernant la déclaration de l'accident du travail ?",
+      "propositions": {
+        "A": "La victime informe l'employeur dans les 24 heures, sauf force majeure.",
+        "B": "L'employeur déclare l'accident à l'organisme de sécurité sociale dans les 48 heures après en avoir eu connaissance.",
+        "C": "C'est le médecin traitant qui doit déclarer l'accident à l'organisme à la place de l'employeur.",
+        "D": "En cas de carence de l'employeur, la victime peut déclarer l'accident dans un délai de quatre ans.",
+        "E": "L'employeur doit déclarer l'accident même s'il n'a pas entraîné d'incapacité de travail, quitte à émettre des réserves."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Les articles 13 à 15 organisent la déclaration : victime → employeur (24 h), employeur → organisme (48 h), organisme → inspecteur du travail ; déclaration subsidiaire de la victime ou des syndicats en cas de carence (4 ans) ; déclaration même sans incapacité, avec réserves si l'imputabilité paraît douteuse. Le médecin adresse ses certificats.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 13.",
+        "B": "Vrai : art. 13 (jours non ouvrables non comptés).",
+        "C": "Faux : la déclaration incombe à l'employeur ; le médecin établit les certificats.",
+        "D": "Vrai : art. 14.",
+        "E": "Vrai : art. 15."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Déclaration de l'accident du travail",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre le rôle du médecin (certificat) et celui de l'employeur (déclaration).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "date": "1983"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les certificats médicaux d'accident du travail (loi 83-13, art. 22-25), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le certificat initial est établi lors du premier examen médical qui suit l'accident par un praticien choisi par la victime.",
+        "B": "Le certificat initial décrit l'état de la victime et indique, le cas échéant, la durée probable de l'incapacité temporaire.",
+        "C": "Le certificat de consolidation fixe la date de consolidation et décrit l'état de la victime à cette date.",
+        "D": "Chaque certificat est établi en deux exemplaires : l'un pour l'organisme de sécurité sociale, l'autre pour la victime.",
+        "E": "Le médecin traitant fixe le taux définitif d'incapacité permanente opposable à l'organisme."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le médecin traitant établit un certificat initial puis un certificat de guérison ou de consolidation, chacun en deux exemplaires. Il peut indiquer un taux d'incapacité à titre indicatif ; le taux est fixé par le médecin-conseil selon le barème (art. 42).",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 22.",
+        "B": "Vrai : art. 23.",
+        "C": "Vrai : art. 24.",
+        "D": "Vrai : art. 25.",
+        "E": "Faux : taux indicatif seulement ; fixation par le médecin-conseil."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Certificats du médecin traitant",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "date": "1983"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la présomption d'imputabilité de l'accident du travail, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La lésion survenue au lieu et au temps du travail est considérée, sauf preuve contraire, comme résultant du travail.",
+        "B": "La présomption s'étend aux lésions survenant au cours du traitement consécutif à l'accident.",
+        "C": "Une affection préexistante, dont il est prouvé qu'elle n'a été ni aggravée, ni provoquée, ni révélée par l'accident, n'est pas prise en charge.",
+        "D": "Le refus d'autopsie par les ayants droit fait tomber la présomption, sauf s'ils prouvent le lien entre l'accident et le décès.",
+        "E": "La présomption est irréfragable : l'organisme ne peut jamais apporter la preuve contraire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La présomption (art. 9) est simple : elle admet la preuve contraire ; l'état antérieur non aggravé ni révélé est exclu (art. 10) ; le refus d'autopsie a des conséquences (art. 11).",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 9.",
+        "B": "Vrai : art. 9.",
+        "C": "Vrai : art. 10.",
+        "D": "Vrai : art. 11.",
+        "E": "Faux : présomption simple."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Présomption d'imputabilité de l'AT",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "date": "1983"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les maladies sont classées en trois groupes : intoxications, infections microbiennes, ambiances ou attitudes particulières.",
+        "B": "La liste des travaux est indicative pour le groupe 1 et limitative pour les groupes 2 et 3.",
+        "C": "La silicose (tableau n° 25) et les affections dues à l'amiante (tableau n° 30) relèvent du groupe 1.",
+        "D": "La brucellose (tableau n° 24) et les hépatites virales (tableau n° 45) relèvent du groupe 2.",
+        "E": "Les affections provoquées par les bruits (tableau n° 42) relèvent du groupe 2."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'annexe 2 classe les tableaux en trois groupes ; l'article 6 précise le caractère indicatif (groupe 1) ou limitatif (groupes 2 et 3) des listes de travaux.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 5.",
+        "B": "Vrai : art. 6.",
+        "C": "Vrai : annexe 2.",
+        "D": "Vrai : annexe 2.",
+        "E": "Faux : groupe 3 (ambiances)."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Tableaux des maladies professionnelles",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle, JORADP n° 16/1997",
+          "date": "1996"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'arrêté du 5 mai 1996, quelles propositions sont exactes concernant la reconnaissance d'une maladie professionnelle ?",
+      "propositions": {
+        "A": "La maladie est présumée imputable au travail si elle figure à un tableau, si les travaux exercés y correspondent et si le délai de prise en charge est respecté.",
+        "B": "La présomption tombe si les examens prévus par le tableau n'ont pas été effectués.",
+        "C": "La victime doit prouver la durée et l'intensité de son exposition, sauf disposition contraire.",
+        "D": "Pour les maladies des groupes 1 et 2, les travaux doivent avoir été pratiqués de façon habituelle.",
+        "E": "Une maladie hors tableau dont l'imputabilité au travail est établie est prise en charge au titre des maladies professionnelles."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les articles 7 à 10 fixent les conditions de la présomption ; l'article 4 exclut des AT/MP les maladies hors tableaux ne résultant pas d'un AT ou de son traitement, même si leur imputabilité est établie.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 8.",
+        "B": "Vrai : art. 9.",
+        "C": "Faux : la victime n'a pas à prouver la durée ou l'intensité de l'exposition (art. 10).",
+        "D": "Vrai : art. 7.",
+        "E": "Faux : art. 4 (prise en charge au titre des seules assurances sociales)."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Présomption d'origine des maladies professionnelles",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Transposer le système français de reconnaissance hors tableau.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle, JORADP n° 16/1997",
+          "date": "1996"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la déclaration des maladies professionnelles (loi 83-13), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La victime déclare la maladie à l'organisme de sécurité sociale dans un délai de quinze jours au minimum et de trois mois au maximum suivant la première constatation médicale.",
+        "B": "La date de la première constatation médicale de la maladie est assimilée à la date de l'accident.",
+        "C": "Tout médecin est tenu de déclarer toute maladie ayant, à son avis, un caractère professionnel.",
+        "D": "L'employeur utilisant des procédés susceptibles de provoquer des maladies professionnelles doit les déclarer, notamment à l'organisme de sécurité sociale et à l'inspecteur du travail.",
+        "E": "Une déclaration faite par erreur au titre des assurances sociales est irrecevable."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les articles 68 à 71 fixent les obligations de déclaration : victime (15 jours-3 mois), tout médecin (déclaration à visée de prévention et de révision des tableaux), employeur (procédés de travail).",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 71.",
+        "B": "Vrai : art. 71.",
+        "C": "Vrai : art. 68.",
+        "D": "Vrai : art. 69.",
+        "E": "Faux : elle est prise en considération (art. 71)."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Déclaration de la maladie professionnelle",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre délai de déclaration et délai de prise en charge.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "date": "1983"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1009",
+      "format": "QCS (réponse unique)",
+      "enonce": "Selon l'arrêté du 5 mai 1996, le délai de prise en charge mentionné dans chaque tableau correspond à :",
+      "propositions": {
+        "A": "Le délai entre la première exposition et l'apparition des symptômes.",
+        "B": "Le délai entre la cessation de l'exposition au risque et la première constatation médicale de la maladie.",
+        "C": "Le délai dont dispose la victime pour déclarer la maladie.",
+        "D": "La durée minimale d'exposition exigée.",
+        "E": "Le délai dont dispose l'organisme pour statuer."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'article 11 de l'arrêté fixe le point de départ du délai de prise en charge à la date de cessation du travail exposant au risque et son terme à la date de la première constatation médicale.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai : art. 11.",
+        "C": "Faux : c'est le délai de déclaration (15 jours-3 mois, art. 71 de la loi).",
+        "D": "Faux : notion distincte, précisée par certains tableaux.",
+        "E": "Faux."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Délai de prise en charge",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle, JORADP n° 16/1997",
+          "date": "1996"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les rôles respectifs des médecins dans le domaine des AT/MP, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le médecin-conseil de l'organisme fixe le taux d'incapacité permanente selon un barème.",
+        "B": "Le médecin du travail transmet à l'employeur un avis d'aptitude, et non le diagnostic.",
+        "C": "Un même médecin peut être médecin traitant et médecin contrôleur du même malade.",
+        "D": "Le médecin contrôleur est tenu au secret vis-à-vis de l'organisme qui l'emploie.",
+        "E": "L'avis du contrôle médical est obligatoire lorsque l'accident a entraîné ou est susceptible d'entraîner la mort ou une incapacité permanente."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La loi 83-13 (art. 26, 42) et le code de déontologie (art. 85-93) répartissent les rôles et encadrent le secret ; les fonctions de médecin traitant et de médecin contrôleur sont incompatibles pour un même malade (art. 93).",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 42.",
+        "B": "Vrai : secret (loi 18-11, art. 24).",
+        "C": "Faux : art. 93 du code de déontologie.",
+        "D": "Vrai : art. 91.",
+        "E": "Vrai : art. 26."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Rôles des médecins et secret",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "date": "1983"
+        },
+        {
+          "reference": "Décret exécutif n° 92-276 portant code de déontologie médicale, JORADP n° 52/1992",
+          "date": "1992"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi n° 88-07 relative à l'hygiène, à la sécurité et à la médecine du travail, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La médecine du travail constitue une obligation de l'organisme employeur, qui en assume la charge.",
+        "B": "Sa mission est essentiellement préventive et accessoirement curative.",
+        "C": "Tout travailleur est soumis aux examens médicaux d'embauchage, périodiques, spéciaux et de reprise.",
+        "D": "L'employeur est libre de ne pas tenir compte des avis du médecin du travail.",
+        "E": "Des commissions paritaires d'hygiène et de sécurité sont obligatoires dans les organismes employant plus de neuf travailleurs en relation de travail à durée indéterminée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La loi 88-07 (art. 12-17, 23) et la loi 18-11 (art. 99-100) fondent l'obligation de médecine du travail et ses missions.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 13 ; loi 18-11, art. 99.",
+        "B": "Vrai : art. 12 ; loi 18-11, art. 100.",
+        "C": "Vrai : art. 17.",
+        "D": "Faux : il est tenu de les prendre en considération (art. 17).",
+        "E": "Vrai : art. 23."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Médecine du travail (loi 88-07)",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 88-07 du 26 janvier 1988 relative à l'hygiène, à la sécurité et à la médecine du travail, JORADP n° 4/1988",
+          "date": "1988"
+        },
+        {
+          "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074)",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la loi 83-13 dans sa rédaction de 1983, quelles propositions sont exactes concernant les prestations ?",
+      "propositions": {
+        "A": "Les soins sont dus avec ou sans interruption de travail et sans limitation de durée.",
+        "B": "La journée de travail au cours de laquelle l'accident s'est produit est intégralement à la charge de l'employeur.",
+        "C": "Les indemnités journalières sont versées à partir du premier jour suivant l'arrêt de travail consécutif à l'accident.",
+        "D": "Aucune rente n'est allouée si le taux d'incapacité est inférieur à 10 %, la victime pouvant prétendre à un capital.",
+        "E": "Le taux social ajouté au taux médical est compris entre 15 et 30 %."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les articles 29 à 46 décrivent les prestations : soins sans limitation, journée de l'accident payée par l'employeur, indemnités journalières dès le lendemain, rente si le taux atteint 10 % (capital en dessous), taux social de 1 à 10 %, majoration tierce personne de 40 %. Montants et seuils à vérifier dans la version en vigueur.",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 29.",
+        "B": "Vrai : art. 35.",
+        "C": "Vrai : art. 36.",
+        "D": "Vrai : art. 44.",
+        "E": "Faux : entre 1 et 10 % (art. 42)."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "Prestations AT/MP (rédaction de 1983)",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "date": "1983"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-MTRA-1013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon l'arrêté du 5 mai 1996, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Lorsque l'action de l'agent nocif est soudaine, la maladie figurant à un tableau est prise en charge au titre des accidents du travail.",
+        "B": "Une maladie occasionnée par le traitement médical prescrit après un accident du travail est prise en charge au titre des accidents du travail.",
+        "C": "Une intoxication aiguë massive au monoxyde de carbone sur un poste de travail relève de la procédure des maladies professionnelles uniquement.",
+        "D": "La brucellose d'un vétérinaire peut à la fois relever d'un tableau de maladie professionnelle et d'une déclaration obligatoire au titre des maladies transmissibles.",
+        "E": "Une maladie hors tableau peut être reconnue professionnelle par un comité régional, comme en France."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les articles 2 à 4 de l'arrêté articulent AT et MP. La brucellose figure au tableau n° 24 et à la liste des MDO (décret 22-250).",
+      "explications_par_proposition": {
+        "A": "Vrai : art. 2.",
+        "B": "Vrai : art. 3.",
+        "C": "Faux : action soudaine → AT (art. 2).",
+        "D": "Vrai.",
+        "E": "Faux : art. 4 ; pas de système complémentaire identifié dans les textes lus."
+      },
+      "specialite": "MTRA",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "theme": "AT ou MP ?",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle, JORADP n° 16/1997",
+          "date": "1996"
+        },
+        {
+          "reference": "Décret exécutif n° 22-250 (liste des MDO), JORADP n° 47/2022 (DOC-00072)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-10",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

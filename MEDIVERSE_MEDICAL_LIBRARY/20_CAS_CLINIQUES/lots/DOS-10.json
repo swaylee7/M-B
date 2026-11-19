@@ -89,7 +89,7 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
       "date_creation": "2026-11-19"
     },
@@ -129,8 +129,8 @@
         "Imagerie cérébrale et ponction lombaire",
         "ECG"
       ],
-      "diagnostic_final": "Syndrome malin des neuroleptiques (exposition à un antagoniste dopaminergique, hyperthermie, rigidité, altération de l'état mental, élévation majeure des CPK, labilité tensionnelle, tachycardie et tachypnée, bilan infectieux négatif) compliqué de rhabdomyolyse et d'insuffisance rénale aiguë.",
-      "traitement": "Arrêt immédiat de tout antipsychotique. Transfert en réanimation : refroidissement externe, réhydratation intraveineuse abondante avec surveillance de la diurèse, correction de l'hypernatrémie, prévention thromboembolique, protection des voies aériennes. Traitements spécifiques discutés par la réanimation (benzodiazépines, agonistes dopaminergiques, dantrolène) [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Information du patient et de la famille ; signalement de l'effet indésirable aux autorités sanitaires (pharmacovigilance, art. 177 de la loi 18-11). Les obligations de la mesure d'hospitalisation d'office continuent de s'appliquer (certificats transmis, art. 160).",
+      "diagnostic_final": "Syndrome malin des neuroleptiques (exposition à un antagoniste dopaminergique, hyperthermie, rigidité, altération de l'état mental, élévation majeure des CPK, supérieure à 4 fois la normale, labilité tensionnelle, tachycardie et tachypnée, bilan infectieux négatif) compliqué de rhabdomyolyse et d'insuffisance rénale aiguë.",
+      "traitement": "Arrêt immédiat de tout antipsychotique. Transfert en réanimation : refroidissement externe, réhydratation intraveineuse abondante avec surveillance de la diurèse, correction de l'hypernatrémie, prévention thromboembolique, protection des voies aériennes. Traitements spécifiques discutés par la réanimation (benzodiazépines, agonistes dopaminergiques, dantrolène ; ECT dans les formes réfractaires) : usages hors AMM, niveau de preuve faible, doses divergentes selon les revues consultées [POSOLOGIE À VÉRIFIER — protocole de réanimation]. Information du patient et de la famille ; signalement de l'effet indésirable aux autorités sanitaires (pharmacovigilance, art. 177 de la loi 18-11). Les obligations de la mesure d'hospitalisation d'office continuent de s'appliquer (certificats transmis, art. 160).",
       "surveillance": "Température, constantes, conscience, CPK et créatinine quotidiennes jusqu'à normalisation ; diurèse ; kaliémie ; signes de complications (insuffisance rénale, pneumopathie d'inhalation, thrombose).",
       "evolution": "Apyrexie au 4e jour, normalisation des CPK au 9e jour, récupération de la fonction rénale. Après trois semaines, réintroduction d'un antipsychotique d'une autre classe, à faible dose, avec titration lente et surveillance quotidienne de la température et des CPK la première semaine, sans récidive.",
       "explication_pedagogique": "Le SMN doit être évoqué devant toute fièvre avec rigidité et confusion sous antipsychotique, surtout après des injections répétées d'une molécule puissante chez un patient déshydraté. L'arrêt de l'antipsychotique et la réanimation priment ; les diagnostics différentiels infectieux doivent être éliminés. La réintroduction, si elle est nécessaire, se fait à distance, avec une autre molécule. Le cas rappelle aussi les limites posologiques de l'halopéridol en situation d'agitation (BETA : 5 mg IM, maximum 20 mg/24 h) et l'importance de l'hydratation.",
@@ -170,9 +170,16 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-10",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "vérifié : critères de Gurrera 2011 (CPK ≥ 4 × N) ; marqueur du traitement spécifique maintenu et précisé",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0001.md",
+        "reserve": "posologies hors AMM du traitement spécifique du SMN non sourçables (protocole de réanimation)"
+      }
     },
     {
       "id": "CAS-PSYC-1003",
@@ -207,8 +214,8 @@
         "IMC, glycémie, lipides (si antipsychotique)",
         "Recherche d'antécédents auprès de l'entourage"
       ],
-      "diagnostic_final": "Trouble bipolaire de type I, épisode actuel maniaque sans caractéristiques psychotiques (les symptômes persistent après l'arrêt de l'antidépresseur, au-delà de son effet pharmacologique), avec antécédent probable d'hypomanie et antécédent familial au premier degré.",
-      "traitement": "Arrêt immédiat de l'escitalopram. Hospitalisation en service ouvert acceptée après discussion avec la famille (à défaut, en cas de refus avec danger, mise en observation du fait d'un tiers en structure publique — loi 18-11). Lithium (traitement de première ligne de CANMAT-ISBD) : début 300 mg/j, augmentation progressive tous les 7 jours (mhGAP-IG) ; lithiémie à la vallée environ 5 jours après chaque palier, cible 0,8-1,2 mEq/L en phase aiguë. Benzodiazépine sur une courte durée pour l'agitation et l'insomnie [POSOLOGIE À VÉRIFIER — RCP / protocole local]. En cas de réponse insuffisante ou de manie sévère, association d'un antipsychotique atypique (quétiapine, rispéridone, aripiprazole). Psychoéducation du patient et de l'épouse.",
+      "diagnostic_final": "Épisode maniaque sans caractéristiques psychotiques apparu sous escitalopram, avec antécédent probable d'hypomanie et antécédent familial au premier degré. Selon le DSM-5-TR, un épisode maniaque apparu sous antidépresseur ne fonde le diagnostic de trouble bipolaire de type I que s'il persiste à un niveau pleinement syndromique au-delà de l'effet physiologique du traitement : diagnostic provisoire à l'admission (escitalopram en cours), confirmé par la persistance du syndrome maniaque plusieurs jours après l'arrêt. L'association d'une hypomanie antérieure et d'un épisode dépressif caractérisé situait déjà le patient dans le spectre bipolaire.",
+      "traitement": "Arrêt immédiat de l'escitalopram. Hospitalisation en service ouvert acceptée après discussion avec la famille (à défaut, en cas de refus avec danger, mise en observation du fait d'un tiers en structure publique — loi 18-11). Lithium (traitement de première ligne de CANMAT-ISBD) : début 300 mg/j, augmentation progressive tous les 7 jours (mhGAP-IG) ; lithiémie à la vallée environ 5 jours après chaque palier, cible 0,8-1,2 mEq/L en phase aiguë. Benzodiazépine sur une courte durée en cas d'agitation, par exemple lorazépam 2 mg per os, renouvelable, maximum 12 mg/24 h (consensus BETA, DOC-00098). En cas de réponse insuffisante ou de manie sévère, association d'un antipsychotique atypique (quétiapine, rispéridone, aripiprazole). Psychoéducation du patient et de l'épouse.",
       "surveillance": "Lithiémies jusqu'à deux dosages consécutifs dans la cible, puis tous les 3 à 6 mois ; créatinine, TSH et calcémie à 6 mois puis annuellement ; poids ; signes de toxicité ; humeur (risque de bascule dépressive) ; information sur les interactions (AINS, IEC, ARA II, diurétiques) et la déshydratation.",
       "evolution": "Lithiémie 0,62 mEq/L au premier contrôle, puis 0,91 mEq/L après augmentation de dose. Amélioration nette en trois semaines, sortie à J24. Maintien du lithium en entretien (cible 0,6-1,0 mEq/L), suivi conjoint psychiatre-médecin traitant, reprise du travail progressive.",
       "explication_pedagogique": "Ce cas montre l'importance de rechercher systématiquement une bipolarité avant de prescrire un antidépresseur (antécédent d'hypomanie connu de la mère, antécédent familial) : l'antidépresseur en monothérapie a précipité une manie. Il illustre les critères de la manie (durée, altération marquée), la conduite à tenir (arrêt de l'antidépresseur, thymorégulateur de première ligne, hospitalisation) et la surveillance du lithium.",
@@ -250,11 +257,21 @@
         {
           "reference": "Loi n° 18-11 du 2 juillet 2018 relative à la santé (DOC-00074)",
           "date": "2018"
+        },
+        {
+          "reference": "Wilson MP et al. Project BETA psychopharmacology of agitation. West J Emerg Med 2012;13(1):26-34 (DOC-00098)",
+          "date": "2012"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "corrigé (majeure) : raisonnement diagnostique DSM-5-TR (manie sous antidépresseur) ; marqueur de posologie levé (lorazépam, BETA)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0002.md"
+      }
     },
     {
       "id": "CAS-PSYC-1004",
@@ -270,7 +287,7 @@
       "antecedents": "Trouble bipolaire de type I stabilisé sous lithium 800 mg/j depuis 12 ans (dernières lithiémies 0,6-0,7 mmol/L). Hypertension artérielle découverte il y a un mois : prescription par un autre médecin d'énalapril associé à l'hydrochlorothiazide. Ibuprofène depuis 10 jours pour une gonarthrose. Diarrhée depuis 3 jours par forte chaleur.",
       "symptomes": "Nausées, vomissements, diarrhée, tremblement grossier des mains, démarche ébrieuse, difficultés d'élocution, somnolence et désorientation apparues progressivement.",
       "examen_clinique": "Patiente somnolente, désorientée, dysarthrique ; tremblement grossier, ataxie cérébelleuse, hyperréflexie, myoclonies discrètes. Signes de déshydratation (muqueuses sèches, pli cutané). PA 105/60 mmHg, FC 52/min, T 37,2 °C. Pas de signe de localisation.",
-      "biologie": "Lithiémie 2,6 mmol/L (zone thérapeutique d'entretien 0,6-1,0 mmol/L). Créatinine 168 µmol/L (valeur antérieure 85 ; normes 45-90). Na 134 mmol/L, K 3,3 mmol/L. TSH 6,8 mUI/L (0,4-4). Calcémie 2,62 mmol/L (2,20-2,60). Glycémie 1,02 g/L.",
+      "biologie": "Lithiémie 2,6 mmol/L (zone thérapeutique d'entretien de l'adulte 0,6-1,0 mmol/L selon CANMAT-ISBD ; cibles plus basses chez le sujet âgé). Créatinine 168 µmol/L (valeur antérieure 85 ; normes 45-90). Na 134 mmol/L, K 3,3 mmol/L. TSH 6,8 mUI/L (0,4-4). Calcémie 2,62 mmol/L (2,20-2,60). Glycémie 1,02 g/L.",
       "imagerie": "ECG : bradycardie sinusale à 52/min, aplatissement des ondes T, QTc 470 ms. Scanner cérébral normal.",
       "hypotheses_diagnostiques": [
         "Intoxication au lithium (surdosage chronique) favorisée par la déshydratation et les interactions médicamenteuses",
@@ -327,9 +344,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "précisé (mineure) : cibles de lithiémie plus basses chez le sujet âgé",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0002.md"
+      }
     },
     {
       "id": "CAS-MLEG-1001",
@@ -393,7 +416,7 @@
           "date": "2018"
         },
         {
-          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992 (DOC-00107)",
           "date": "1992"
         },
         {
@@ -405,7 +428,7 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
       "date_creation": "2026-11-19"
     },
@@ -472,7 +495,7 @@
           "date": "2018"
         },
         {
-          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992 (DOC-00107)",
           "date": "1992"
         },
         {
@@ -484,7 +507,7 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
       "date_creation": "2026-11-19"
     },
@@ -546,11 +569,11 @@
           "date": "2018"
         },
         {
-          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (rédaction d'origine)",
+          "reference": "Ordonnance n° 66-156 portant code pénal, JORADP n° 49/1966 (DOC-00108 ; modifications : DOC-00109 à DOC-00111)",
           "date": "1966"
         },
         {
-          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (rédaction d'origine)",
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (DOC-00112 ; loi 05-10 : DOC-00113)",
           "date": "1975"
         },
         {
@@ -558,7 +581,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
       "date_creation": "2026-11-19"
     },
@@ -605,7 +628,7 @@
         },
         {
           "question": "Qui répond d'une éventuelle faute de l'anesthésiste salarié ?",
-          "reponse": "La clinique en tant que commettant (art. 136 du code civil), avec recours possible contre le préposé (art. 137)."
+          "reponse": "La clinique en tant que commettant (art. 136 du code civil) ; depuis la loi 05-10, elle n'a de recours contre le préposé qu'en cas de faute lourde de celui-ci (art. 137)."
         },
         {
           "question": "Comment prévenir ce litige ?",
@@ -618,17 +641,23 @@
           "date": "2018"
         },
         {
-          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (rédaction d'origine)",
+          "reference": "Ordonnance n° 75-58 portant code civil, JORADP n° 78/1975 (DOC-00112 ; loi 05-10 : DOC-00113)",
           "date": "1975"
         },
         {
-          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992",
+          "reference": "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52/1992 (DOC-00107)",
           "date": "1992"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "corrigé (mineure) : recours du commettant limité à la faute lourde du préposé (art. 137, loi 05-10)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MLEG-0002.md"
+      }
     },
     {
       "id": "CAS-MTRA-1001",
@@ -658,7 +687,7 @@
         "Vérification du statut vaccinal antitétanique"
       ],
       "diagnostic_final": "Accident du travail : fracture déplacée de l'extrémité distale du radius droit, contusion de la hanche gauche, plaie contuse du coude gauche.",
-      "traitement": "Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique selon le protocole national [POSOLOGIE À VÉRIFIER — RCP / protocole local], antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.",
+      "traitement": "Réduction et immobilisation (avis orthopédique), parage et suture de la plaie, prophylaxie antitétanique : plaie contuse de chantier (plaie à risque) et dernière dose datant de plus de 10 ans → rappel anti-diphtérique et anti-tétanique (dT) ; immunoglobulines antitétaniques humaines (250 UI IM, site distinct) seulement si la primovaccination est incomplète ou inconnue (CDC ; MSF) — le protocole national prévaut ; antalgiques. Certificat médical initial (loi 83-13, art. 22-23) : description précise des lésions, durée probable de l'incapacité temporaire (par exemple 45 jours, sous réserve de complications), constatations utiles à l'origine traumatique, établi en deux exemplaires (l'un adressé immédiatement à l'organisme de sécurité sociale, l'autre remis au patient, art. 25). Information du patient : prévenir l'employeur dans les 24 heures (art. 13) ; l'employeur déclare à l'organisme dans les 48 heures.",
       "surveillance": "Contrôles radiologiques, certificats de prolongation si nécessaire, rééducation. Visite de reprise par le médecin du travail avant la reprise (loi 88-07, art. 17).",
       "evolution": "Consolidation à 4 mois avec raideur modérée du poignet. Certificat de consolidation (art. 24) : date de consolidation, description des séquelles, taux indicatif. Le médecin-conseil fixe le taux d'incapacité permanente selon le barème (art. 42) ; s'il est inférieur à 10 %, pas de rente mais un capital (art. 44). Le médecin du travail propose un aménagement temporaire du poste ; la commission d'hygiène et de sécurité analyse l'accident (absence de garde-corps).",
       "explication_pedagogique": "Ce cas illustre la qualification d'AT (lésion corporelle, cause soudaine et extérieure, cadre du travail), la présomption d'imputabilité, la répartition des rôles (médecin traitant : certificats ; employeur : déclaration ; médecin-conseil : taux ; médecin du travail : reprise et prévention) et les règles de réparation (indemnités journalières, rente ou capital selon le taux).",
@@ -682,17 +711,27 @@
       ],
       "sources": [
         {
-          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (DOC-00103 ; ordonnance 96-19 : DOC-00104)",
           "date": "1983"
         },
         {
-          "reference": "Loi n° 88-07 du 26 janvier 1988 relative à l'hygiène, à la sécurité et à la médecine du travail, JORADP n° 4/1988",
+          "reference": "Loi n° 88-07 du 26 janvier 1988 relative à l'hygiène, à la sécurité et à la médecine du travail, JORADP n° 4/1988 (DOC-00105)",
           "date": "1988"
+        },
+        {
+          "reference": "CDC, Clinical Guidance for Wound Management to Prevent Tetanus ; MSF, Médicaments essentiels (HTIG) — consultés par extraits le 2026-11-19 ; arrêté du 3 juillet 2018 (calendrier vaccinal), JORADP n° 49/2018 (DOC-00070)",
+          "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "marqueur de posologie levé (prophylaxie antitétanique) ; sources législatives complétées",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MTRA-0001.md"
+      }
     },
     {
       "id": "CAS-MTRA-1002",
@@ -728,7 +767,7 @@
         "Examens exigés par le tableau n° 25 de l'arrêté du 5 mai 1996 [contenu exact à vérifier dans le tableau]"
       ],
       "diagnostic_final": "Silicose chronique simple, compatible avec une maladie professionnelle du tableau n° 25 (pneumoconioses consécutives à l'inhalation de poussières minérales renfermant de la silice libre — groupe 1).",
-      "traitement": "Arrêt de l'exposition (déjà effectif), sevrage d'éventuels irritants, vaccinations selon les recommandations, dépistage et surveillance de la tuberculose (MDO si confirmée : loi 18-11, art. 39 ; décret 22-250). Vérification des conditions du tableau n° 25 : maladie désignée avec les examens exigés, travaux de la liste (indicative pour le groupe 1, pratiqués de façon habituelle), délai de prise en charge entre la fin de l'exposition (il y a 2 ans) et la première constatation médicale [À VÉRIFIER sur le tableau]. Certificat médical décrivant la maladie et son origine professionnelle présumée ; information du patient : déclaration à l'organisme de sécurité sociale dans un délai de 15 jours au minimum et 3 mois au maximum après la première constatation médicale (loi 83-13, art. 71). Déclaration par le médecin de la maladie à caractère professionnel (art. 68). Avec l'accord du patient, information du médecin du travail de l'entreprise pour la protection des collègues exposés.",
+      "traitement": "Arrêt de l'exposition (déjà effectif), sevrage d'éventuels irritants, vaccinations selon les recommandations, dépistage et surveillance de la tuberculose (MDO si confirmée : loi 18-11, art. 39 ; décret 22-250). Vérification des conditions du tableau n° 25 : maladie désignée avec les examens exigés, travaux de la liste (indicative pour le groupe 1, pratiqués de façon habituelle), délai de prise en charge du tableau n° 25 : 20 ans entre la fin de l'exposition et la première constatation médicale — respecté ici (2 ans) ; affection caractérisée par des signes radiographiques spécifiques (arrêté du 5 mai 1996, annexe 1, tableau n° 25, DOC-00106). Certificat médical décrivant la maladie et son origine professionnelle présumée ; information du patient : déclaration à l'organisme de sécurité sociale dans un délai de 15 jours au minimum et 3 mois au maximum après la première constatation médicale (loi 83-13, art. 71). Déclaration par le médecin de la maladie à caractère professionnel (art. 68). Avec l'accord du patient, information du médecin du travail de l'entreprise pour la protection des collègues exposés.",
       "surveillance": "Clinique, radiologique et fonctionnelle (évolution possible malgré l'arrêt de l'exposition), dépistage de la tuberculose et des complications ; révision du taux d'incapacité en cas d'aggravation (art. 58-59).",
       "evolution": "Reconnaissance au titre du tableau n° 25 ; taux d'incapacité permanente fixé par le médecin-conseil. Dépistage organisé chez les collègues exposés et mesures de prévention à la carrière (humidification, captage des poussières, protection respiratoire).",
       "explication_pedagogique": "Ce cas montre la démarche devant une maladie possiblement professionnelle : reconstituer le curriculum laboris, confirmer le diagnostic par les examens exigés, vérifier les conditions du tableau (maladie, travaux, délai de prise en charge), informer et aider le patient à déclarer dans les délais, déclarer au titre de l'article 68, rechercher une MDO associée et protéger les autres travailleurs. La présomption d'imputabilité dispense la victime de prouver la durée ou l'intensité de l'exposition (arrêté, art. 10).",
@@ -752,11 +791,11 @@
       ],
       "sources": [
         {
-          "reference": "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle, JORADP n° 16/1997",
+          "reference": "Arrêté interministériel du 5 mai 1996 fixant la liste des maladies présumées d'origine professionnelle, JORADP n° 16/1997 (DOC-00106)",
           "date": "1996"
         },
         {
-          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (rédaction d'origine)",
+          "reference": "Loi n° 83-13 du 2 juillet 1983 relative aux AT et MP, JORADP n° 28/1983 (DOC-00103 ; ordonnance 96-19 : DOC-00104)",
           "date": "1983"
         },
         {
@@ -772,9 +811,15 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-10",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "vérifié : délai de prise en charge du tableau n° 25 (20 ans) ; marqueur levé",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MTRA-0001.md"
+      }
     }
   ]
 }

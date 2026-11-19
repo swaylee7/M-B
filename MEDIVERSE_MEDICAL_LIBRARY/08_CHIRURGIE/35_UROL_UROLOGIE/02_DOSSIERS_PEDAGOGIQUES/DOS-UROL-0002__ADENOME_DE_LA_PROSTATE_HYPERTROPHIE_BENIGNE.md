@@ -321,7 +321,7 @@ Rétention aiguë d'urine, fièvre (prostatite, pyélonéphrite), hématurie, mi
 | **Échographie rénale** | Si RPM élevé, hématurie, antécédent de lithiase, insuffisance rénale | Dilatation du haut appareil |
 
 ### 9.2 Examens de seconde intention
-- **Étude pression-débit (urodynamique)** : seule méthode de diagnostic formel de l'obstruction ; proposée **avant un traitement interventionnel** dans les situations où le mécanisme est incertain — par exemple homme jeune (< 50 ans) ou très âgé (> 80 ans), volume uriné < 150 mL, Qmax ≥ 10 mL/s, RPM très élevé (> 300 mL), suspicion de vessie neurologique, dilatation bilatérale du haut appareil, antécédent de chirurgie pelvienne radicale ou d'échec d'un traitement invasif [S1] [À VÉRIFIER — liste exacte selon la version en vigueur].
+- **Étude pression-débit (urodynamique)** : seule méthode de diagnostic formel de l'obstruction ; proposée **avant un traitement interventionnel** dans les situations où le mécanisme est incertain — par exemple homme jeune (< 50 ans) ou très âgé (> 80 ans), volume uriné < 150 mL, Qmax ≥ 10 mL/s, RPM très élevé (> 300 mL), suspicion de vessie neurologique, dilatation bilatérale du haut appareil, antécédent de chirurgie pelvienne radicale ou d'échec d'un traitement invasif (liste de l'EAU) [S1].
 - **Urétrocystoscopie** : non systématique ; indiquée en cas d'hématurie, de suspicion de sténose urétrale ou de tumeur vésicale, ou avant certaines techniques mini-invasives (évaluer le lobe médian et l'urètre prostatique).
 - **Uroscanner** : bilan d'hématurie.
 - **IRM prostatique et biopsies** : si suspicion de cancer (PSA élevé, toucher rectal suspect) selon le parcours du cancer de prostate [S14].
@@ -405,8 +405,8 @@ Rétention aiguë d'urine, fièvre (prostatite, pyélonéphrite), hématurie, mi
 |---|---|---|
 | **Alfuzosine LP** | 10 mg/j, après un repas | Uro-sélectivité fonctionnelle |
 | **Tamsulosine LP** | 0,4 mg/j | α1A/α1D ; troubles de l'éjaculation plus fréquents |
-| **Silodosine** | 8 mg/j (dose réduite en insuffisance rénale modérée [POSOLOGIE À VÉRIFIER — RCP]) | Très sélective α1A ; **anéjaculation** fréquente ; peu d'hypotension |
-| **Doxazosine** (forme LP), **térazosine** | Titration progressive [POSOLOGIE À VÉRIFIER — RCP / protocole local] | Moins sélectives : **hypotension orthostatique** plus fréquente |
+| **Silodosine** | 8 mg/j en une prise, au cours d'un repas. Insuffisance rénale modérée (ClCr 30–50 mL/min) : 4 mg/j la première semaine, puis 8 mg/j si bien toléré ; déconseillée si ClCr < 30 mL/min ou insuffisance hépatique sévère (RCP européen) | Très sélective α1A ; **anéjaculation** fréquente ; peu d'hypotension |
+| **Doxazosine** (forme LP), **térazosine** | Doxazosine LP 4 mg/j, jusqu'à 8 mg/j ; térazosine 1 mg au coucher, puis augmentation progressive par paliers jusqu'à 5 mg/j, voire 10 mg/j (RCP) | Moins sélectives : **hypotension orthostatique** plus fréquente (première dose au coucher) |
 
 - **Efficacité** : amélioration des symptômes et du débit en **quelques jours**, **quel que soit le volume prostatique** ; pas de réduction du volume ni du PSA ; **pas de réduction du risque de RAU ou de chirurgie à long terme** en monothérapie [S1, S3, S9].
 - **Indication** : **première ligne** des STBAU modérés à sévères gênants [S1, S3].
@@ -419,7 +419,7 @@ Rétention aiguë d'urine, fièvre (prostatite, pyélonéphrite), hématurie, mi
 | **Finastéride** | 5 mg/j | 5-alpha-réductase de type 2 |
 | **Dutastéride** | 0,5 mg/j | Types 1 et 2 |
 
-- **Mécanisme** : baisse de la DHT intraprostatique → **réduction du volume prostatique** (de l'ordre de 20–30 % après 6 à 12 mois [À VÉRIFIER]) → amélioration lente des symptômes.
+- **Mécanisme** : baisse de la DHT intraprostatique → **réduction du volume prostatique** (de l'ordre de 18 à 28 % après 6 à 12 mois selon l'EAU [S1]) → amélioration lente des symptômes.
 - **Indication** : STBAU modérés à sévères **et prostate > 40 mL** [S3] ; intérêt particulier chez les patients à **risque de progression**. Ils **réduisent le risque de RAU et de chirurgie** à long terme [S9, S10].
 - **Délai d'action** : **3 à 6 mois** minimum ; bénéfice conditionné par une **prise prolongée** [S3].
 - **Effets indésirables** : baisse de la libido, dysfonction érectile, diminution du volume de l'éjaculat, gynécomastie/mastodynie ; signalements de troubles de l'humeur sous finastéride [À VÉRIFIER — mise en garde des autorités de santé].
@@ -430,19 +430,19 @@ Rétention aiguë d'urine, fièvre (prostatite, pyélonéphrite), hématurie, mi
 - **MTOPS** (doxazosine + finastéride, NEJM 2003) : l'association réduit davantage le risque de **progression clinique** que chaque monothérapie ; le finastéride (seul ou associé) réduit le risque de RAU et de chirurgie invasive [S9].
 - **CombAT** (dutastéride + tamsulosine, 4 ans) : supériorité de l'association sur la tamsulosine seule pour réduire le risque de RAU ou de chirurgie, et sur chaque monothérapie pour les symptômes [S10].
 - **Indication** : STBAU modérés à sévères avec **prostate > 40 mL** et/ou risque de progression [S1, S3] ; **plus d'effets indésirables** qu'une monothérapie [S1].
-- Après quelques mois, l'arrêt de l'alpha-bloquant peut être discuté chez certains patients stabilisés [À VÉRIFIER — recommandation exacte].
+- Après environ 6 mois d'association, l'arrêt de l'alpha-bloquant peut être discuté chez les patients stabilisés dont les symptômes sont modérés (position de l'EAU) [À VÉRIFIER — formulation exacte].
 
 #### 13.2.5 Traitement des symptômes de remplissage
-- **Antimuscariniques** (solifénacine, fésotérodine, oxybutynine, trospium…) et **agonistes β3-adrénergiques** (mirabégron, vibégron) : en **deuxième intention** pour les STBAU **modérés à sévères à prédominance de remplissage**, seuls ou en association avec un alpha-bloquant [S3] ; **prudence si RPM élevé** (risque de rétention) — l'EAU les déconseille lorsque le RPM dépasse environ 150 mL [À VÉRIFIER — seuil exact]. Posologies [POSOLOGIE À VÉRIFIER — RCP].
+- **Antimuscariniques** (solifénacine, fésotérodine, oxybutynine, trospium…) et **agonistes β3-adrénergiques** (mirabégron, vibégron) : en **deuxième intention** pour les STBAU **modérés à sévères à prédominance de remplissage**, seuls ou en association avec un alpha-bloquant [S3] ; **prudence si RPM élevé** (risque de rétention) — l'EAU recommande la prudence lorsque le RPM dépasse environ 150 mL [À VÉRIFIER — seuil exact]. Posologies usuelles (RCP) : solifénacine 5 mg/j (10 mg au maximum), fésotérodine 4 mg/j (8 mg au maximum), oxybutynine 5 mg × 2 à 3/j, trospium 20 mg × 2/j ; mirabégron 50 mg/j (25 mg/j en cas d'insuffisance rénale sévère ou hépatique modérée ; contre-indiqué en cas d'HTA sévère non contrôlée), vibégron 75 mg/j.
 - Antimuscariniques : sécheresse buccale, constipation, **troubles cognitifs chez le sujet âgé** (charge anticholinergique) — préférer les agonistes β3 chez le patient âgé fragile [À VÉRIFIER — position des recommandations].
-- **Desmopressine** : réservée à la **polyurie nocturne** documentée ; risque d'**hyponatrémie**, surtout après 65 ans (contrôle de la natrémie) [S1] [POSOLOGIE À VÉRIFIER — RCP].
+- **Desmopressine** : réservée à la **polyurie nocturne** documentée ; risque d'**hyponatrémie**, surtout après 65 ans (natrémie avant traitement, puis dans la première semaine et à 1 mois) [S1]. La dose, la forme et la limite d'âge **varient selon la spécialité** : certaines spécialités européennes sont contre-indiquées après 65 ans dans la nycturie, d'autres (lyophilisat oral faiblement dosé) sont utilisables avec une surveillance renforcée de la natrémie [POSOLOGIE À VÉRIFIER — RCP de la spécialité disponible en Algérie].
 
 #### 13.2.6 Inhibiteurs de la phosphodiestérase de type 5
-- **Tadalafil 5 mg/j** (RCP) : recommandé dans les STBAU modérés à sévères, **en particulier en cas de dysfonction érectile associée**, seul ou combiné à un alpha-bloquant [S3].
-- Contre-indications : **dérivés nitrés**, donneurs de NO, insuffisance cardiaque ou coronaropathie instable ; prudence avec les alpha-bloquants (hypotension).
+- **Tadalafil 5 mg/j** (RCP) : recommandé dans les STBAU modérés à sévères, **en particulier en cas de dysfonction érectile associée**, seul ou combiné à un alpha-bloquant [S3]. L'association a été déconseillée par l'AUA en 2021 (pas de gain sur les symptômes) [S6], puis admise comme option conditionnelle par l'amendement AUA de 2023 [S8].
+- Contre-indications : **dérivés nitrés**, donneurs de NO, insuffisance cardiaque ou coronaropathie instable ; prise quotidienne déconseillée si ClCr < 30 mL/min (RCP) ; prudence avec les alpha-bloquants (hypotension).
 
 #### 13.2.7 Phytothérapie
-- **Extrait hexanique de *Serenoa repens*** : peut être envisagé dans les STBAU **légers à modérés** selon le CTMH 2025 [S3] ; les autres extraits végétaux n'ont pas de place validée [POSOLOGIE À VÉRIFIER — RCP].
+- **Extrait hexanique de *Serenoa repens*** : peut être envisagé dans les STBAU **légers à modérés** selon le CTMH 2025 [S3], à la dose de 320 mg/j (160 mg × 2/j, RCP) ; les autres extraits végétaux n'ont pas de place validée.
 
 #### 13.2.8 Traitements chirurgicaux et interventionnels [S4, S7, S8]
 | Technique | Principe | Indication préférentielle (volume) | Points forts | Limites / complications |
@@ -705,7 +705,7 @@ B. Il est particulièrement indiqué en cas de dysfonction érectile associée.
 C. Il est contre-indiqué avec les dérivés nitrés.
 D. Il réduit le volume prostatique.
 E. Il peut être associé à un alpha-bloquant.
-> **Réponses : A, B, C, E.** [S3]
+> **Réponses : A, B, C, E.** Association admise par le CTMH 2025 et par l'amendement AUA 2023, après avoir été déconseillée par l'AUA en 2021 [S3, S6, S8].
 
 ---
 
@@ -713,7 +713,8 @@ E. Il peut être associé à un alpha-bloquant.
 
 | Sujet | Position A | Position B | Commentaire |
 |---|---|---|---|
-| **Seuil de volume pour les I5AR** | CTMH/AFU 2025 : prostate **> 40 mL** [S3] | AUA 2021 : I5AR pour une prostate augmentée de volume, appréciée par un volume > 30 mL, un PSA > 1,5 ng/mL ou un toucher rectal [S6] [À VÉRIFIER — formulation exacte] | Seuil de 30 ou 40 mL selon l'organisme ; l'idée commune est que l'I5AR n'est utile que sur une prostate volumineuse |
+| **Seuil de volume pour les I5AR** | CTMH/AFU 2025 : prostate **> 40 mL** [S3] | AUA 2021 : I5AR pour une prostate augmentée de volume, appréciée par un volume > 30 mL à l'imagerie, un PSA > 1,5 ng/mL ou une augmentation palpable au toucher rectal [S6] | Seuil de 30 ou 40 mL selon l'organisme ; l'idée commune est que l'I5AR n'est utile que sur une prostate volumineuse |
+| **Tadalafil + alpha-bloquant** | AUA 2021 : association déconseillée (pas de gain symptomatique par rapport à chaque molécule seule) [S6] | Amendement AUA 2023 : association possible (recommandation conditionnelle) [S8] ; CTMH 2025 : tadalafil seul ou associé [S3] | Évolution datée au sein de l'AUA ; surveiller l'hypotension orthostatique |
 | **Place de la phytothérapie** | CTMH 2025 : extrait hexanique de *Serenoa repens* envisageable (STBAU légers à modérés) [S3] | AUA 2021 : pas de recommandation en faveur des extraits végétaux [S6] [À VÉRIFIER] | Divergence d'appréciation des preuves |
 | **Embolisation des artères prostatiques** | CTMH 2025 : option si le patient accepte des résultats inférieurs à la RTUP ; volume ≥ 40 mL, meilleure efficacité > 80 mL ; décision conjointe urologue/radiologue [S4] | AUA amendement 2023 : statement mis à jour sur l'EAP (place dans des conditions définies) [S8] [À VÉRIFIER — formulation exacte] | Concordance sur une technique de seconde ligne, dans un cadre pluridisciplinaire |
 | **PSA dans l'évaluation initiale** | EAU 2023 : si le diagnostic de cancer modifie la prise en charge ou si le PSA aide à la décision [S1] | Pratique française : dosage fréquent après information, dans le cadre de la détection individuelle du cancer [S14] | Toujours après information éclairée du patient |

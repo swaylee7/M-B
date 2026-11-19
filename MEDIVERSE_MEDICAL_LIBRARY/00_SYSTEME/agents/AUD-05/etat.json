@@ -1,9 +1,35 @@
 {
   "id": "AUD-05",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "termine_avec_points_ouverts",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "A1 EI à Brucella (DOS-CARD-0005, DOS-INFE-0002 + fiches)",
+    "A2 clindamycine ESC 2023 (DOS-CARD-0005, FIC-CARD-0005, QCM-CARD-0058)",
+    "A3 agranulocytose sous ATS (DOS-ENDO-0001, FIC-ENDO-0001)",
+    "A4 cible glycémique ACD / EHH (DOS-DIAB-0002, FIC-DIAB-0002)",
+    "A5 critères OMS 2024 VHB (DOS-HEPA-0001, FIC-HEPA-0001)",
+    "B1 adrénaline IM enfant (DOS-MINT_REA-0001, DOS-PEDI-0002 + fiches)",
+    "B2 plan B par sonde (DOS-PEDI-0001, FIC-PEDI-0001)",
+    "B3 seuils FR/FC (DOS-PEDI-0003, FIC-PEDI-0003)",
+    "B4 avertissements de vérification (DOS-PEDI-0003, DOS-NEON-0001, DOS-NEON-0002)",
+    "B5 VPO à la naissance (DOS-PEDI-0002, FIC-PEDI-0002)",
+    "B6 attributions de sources (DOS-OBST-0002, DOS-HEMA-0003, DOS-NEON-0002 + fiches)",
+    "C recherche systématique des discordances ; HTA sévère gravidique (DOS-OBST-0001, FIC-OBST-0001)"
+  ],
+  "taches_suivantes": [
+    "Relire ESC 2023 (endocardite) : tableau Brucella, doses rifampicine/aminoside",
+    "Relire RCUK 2021 (barème adrénaline par âge)",
+    "Guide pratique 2023 du calendrier vaccinal (VPO naissance)",
+    "NEON-0002 : vérifier S3-S7, S10 et la source primaire de la triple I",
+    "HEMA-0003 : dates d'autorisation des thérapies géniques",
+    "PNEU-0001 : calendrier des microscopies (instruction nationale 07/2024) ; HEPA-0001 : date du vaccin VHB en Algérie"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "dossiers_modifies": 14,
+    "fiches_modifiees": 14,
+    "qcm_modifies": 1,
+    "cas_modifies": 0
+  },
+  "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md"
 }

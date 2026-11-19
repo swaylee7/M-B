@@ -6,7 +6,7 @@ sous_specialite: "Urgences obstétricales — hémorragie du post-partum"
 items_residanat: [RES-CHI-056]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-07 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 22
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-OBST-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 5
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Contrôle des attributions de sources : citations groupées en fin de phrase redistribuées affirmation par affirmation (seuil OMS 2025 attribué à tort au CNGOF 2014 et à l'OMS 2012 ; TXA prophylactique attribué à CHAMPION ; ergométrine attribuée au CNGOF 2014 ; cible de réanimation hypotensive attribuée à l'OMS 2025 alors que la FIGO 2022 rapporte celle de la recommandation européenne du traumatisé — PDF FIGO acquis relu). Aucune valeur modifiée. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Sentilhes L, Vayssière C, Mercier FJ, et al. Hémorragie du post-partum : recommandations pour la pratique clinique — Texte des recommandations (texte court). J Gynecol Obstet Biol Reprod (Paris). 2014;43(10):1170-1179."
@@ -484,7 +490,7 @@ Dans E-MOTIVE (essai randomisé en grappes, 80 hôpitaux du Kenya, du Nigeria, d
 1. **Abords** : deux voies veineuses périphériques de **gros calibre** (14-16 G) ; voie intra-osseuse si échec.
 2. **Monitorage** : pouls, PA (non invasive puis invasive si HPP grave), SpO₂, diurèse (sonde), température, conscience.
 3. **Oxygénothérapie**.
-4. **Remplissage** : **cristalloïdes isotoniques** (préférés aux colloïdes, OMS 2025, recommandation 28) réchauffés, en quantité **raisonnée** (le remplissage excessif aggrave la coagulopathie de dilution et l'hypothermie) ; en réanimation « hypotensive », la FIGO propose une cible de PAS de 80-90 mmHg (ou de PAM de 50-60 mmHg) en attendant l'hémostase [S7, S15].
+4. **Remplissage** : **cristalloïdes isotoniques** (préférés aux colloïdes, OMS 2025, recommandation 28) réchauffés, en quantité **raisonnée** (le remplissage excessif aggrave la coagulopathie de dilution et l'hypothermie) ; en réanimation « hypotensive », la FIGO rapporte la cible de la recommandation européenne sur l'hémorragie du traumatisé — PAS de 80-90 mmHg (PAM de 50-60 mmHg) jusqu'au contrôle du saignement — en soulignant que les données proviennent surtout du traumatisme [S15] ; la préférence pour les cristalloïdes relève de l'OMS 2025 [S7].
 5. **Vasopresseur** (noradrénaline) si hypotension persistante malgré le remplissage, en milieu de réanimation.
 6. **Transfusion de concentrés de globules rouges (CGR)** : objectif **Hb > 7-8 g/dL** tant que le saignement persiste (le CNGOF 2014 recommande de maintenir l'Hb > 8 g/dL pendant l'hémorragie) [S1 — selon source secondaire, À VÉRIFIER dans le texte] ; en urgence vitale, **CGR O négatif** sans attendre le groupage.
 7. **Plasma frais congelé (PFC)** : dans l'HPP massive, ratio **PFC/CGR entre 1:2 et 1:1** (FIGO 2022 ; l'ACOG propose 1:1:1 avec les plaquettes) [S15].
@@ -710,7 +716,7 @@ Hémorragie du post-partum **sévère** (≥ 1 000 mL) avec **retentissement hé
 
 **3. La révision utérine retrouve des caillots mais une cavité vide et intacte ; l'examen sous valves montre une petite éraillure vaginale non hémorragique. Malgré l'ocytocine, le saignement persiste à H+45 min (perte cumulée 1 600 mL ; pouls 128/min, PA 85/50 mmHg). Que faites-vous ?**
 C'est une **HPP persistante** (échec de la première ligne après 15-30 min) [S1] :
-- **Deuxième ligne utérotonique** : **sulprostone** en perfusion IV (500 µg/h) si disponible et en l'absence de contre-indication cardiovasculaire ; à défaut, **misoprostol 800 µg sublingual** ; l'ergométrine 0,2 mg IM est possible car la patiente n'est pas hypertendue [S1, S2].
+- **Deuxième ligne utérotonique** : **sulprostone** en perfusion IV (500 µg/h) si disponible et en l'absence de contre-indication cardiovasculaire ; à défaut, **misoprostol 800 µg sublingual** [S2, S7] ; l'ergométrine 0,2 mg IM est une option de l'OMS (non retenue par le CNGOF, qui privilégie la sulprostone [S1]), possible ici car la patiente n'est pas hypertendue [S2].
 - **Deuxième dose de TXA** (saignement persistant après 30 min) [S3].
 - **Transfusion** de CGR (O négatif si le groupe n'est pas disponible), **PFC** et correction du **fibrinogène** (résultat : 1,6 g/L → concentré de fibrinogène si disponible) [S1].
 - **Ballonnet de tamponnement intra-utérin** (atonie réfractaire) : rempli de 400 mL ; le saignement se tarit (test de tamponnement positif).
@@ -732,17 +738,17 @@ Ballonnet retiré à H+20 après dégonflage progressif, sans reprise du saignem
 
 ## 18. Points clés à retenir
 
-1. HPP = perte **≥ 500 mL** dans les 24 h (sévère ≥ 1 000 mL) quelle que soit la voie ; l'OMS (2025) ajoute un seuil d'action : **≥ 300 mL mesurés + un signe hémodynamique anormal** (pouls > 100/min, index de choc > 1, PAS < 100 ou PAD < 60 mmHg) [S1, S2, S7].
+1. HPP = perte **≥ 500 mL** dans les 24 h (sévère ≥ 1 000 mL) quelle que soit la voie [S1, S2] ; l'OMS (2025) ajoute un seuil d'action : **≥ 300 mL mesurés + un signe hémodynamique anormal** (pouls > 100/min, index de choc > 1, PAS < 100 ou PAD < 60 mmHg) [S7].
 2. Hémorragie de la délivrance (sens strict) = saignement de la **zone d'insertion placentaire** (atonie, rétention, accreta).
 3. Première cause de mortalité maternelle dans le monde et en Algérie (**31,4 %** des décès de l'audit 2011) [S9].
 4. **4 T** : Tonus (atonie, la plus fréquente), Tissu, Traumatisme, Thrombine.
 5. La plupart des HPP surviennent **sans facteur de risque** : prévention **universelle**.
-6. **Prévention** : ocytocine prophylactique (5-10 UI ; 10 UI OMS) pour toutes ; carbétocine 100 µg non inférieure après voie basse (CHAMPION) ; misoprostol 400 ou 600 µg per os à défaut ; pas de TXA prophylactique [S1, S7, S8].
+6. **Prévention** : ocytocine prophylactique pour toutes (5-10 UI selon le CNGOF [S1] ; 10 UI selon l'OMS [S7]) ; carbétocine 100 µg non inférieure après voie basse (CHAMPION [S8]) ; misoprostol 400 ou 600 µg per os à défaut ; pas de TXA prophylactique [S7].
 7. **Mesurer** les pertes (sac de recueil, champ calibré) : l'estimation visuelle sous-estime (détection 93 % vs 51 % dans E-MOTIVE) [S6].
 8. **Bundle** de première intention simultané : **M**assage, **O**cytocine, **T**XA, **IV** (remplissage), **E**xamen/Escalade [S5, S6].
 9. **Acide tranexamique** : 1 g IV en 10 min **dans les 3 h**, 2e dose si persistance à 30 min ou reprise dans les 24 h ; inutile au-delà de 3 h [S3, S4].
 10. Placenta non délivré + hémorragie → **délivrance artificielle** ; délivrance à 30 min au plus tard ; **révision utérine** recommandée en France pour toute HPP [S1].
-11. Deuxième ligne : **sulprostone** (France, dans les 30 min) ; **misoprostol 800 µg SL**, **ergométrine** (contre-indiquée si HTA/PE) [S1, S2].
+11. Deuxième ligne : **sulprostone** (France, dans les 30 min) [S1] ; **misoprostol 800 µg SL**, **ergométrine** (contre-indiquée si HTA/PE) [S2, S7].
 12. Escalade : ballonnet → embolisation (stable, voie basse) → ligatures/capitonnage → **hystérectomie d'hémostase** sans retard.
 13. Réanimation : 2 VVP, CGR (Hb > 7-8 g/dL), PFC, **fibrinogène** (marqueur précoce de gravité), calcium, réchauffement ; éviter l'hémodilution.
 14. Suites : thromboprophylaxie, fer, recherche d'un **syndrome de Sheehan**, revue de cas, prévention à la grossesse suivante.

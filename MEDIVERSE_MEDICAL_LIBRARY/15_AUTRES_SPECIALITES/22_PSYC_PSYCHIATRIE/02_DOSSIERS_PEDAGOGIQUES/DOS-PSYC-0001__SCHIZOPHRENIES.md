@@ -6,11 +6,17 @@ sous_specialite: "Troubles psychotiques"
 items_residanat: [RES-MED-149]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-10 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0001.md
 sources:
   - id: S1
     reference: "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington, DC: American Psychiatric Association Publishing; 2022. ISBN 978-0-89042-575-6."
@@ -122,7 +128,7 @@ mots_cles: [schizophrénie, psychose, antipsychotiques, clozapine, syndrome mali
 # Schizophrénies : définition, étiopathogénie, diagnostic, évolution, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01, 2026-11-19) — corrections requises : posologies du traitement spécifique du syndrome malin non sourcées. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Les posologies chiffrées proviennent du guide d'intervention mhGAP 2.0 de l'OMS [S7], du consensus Project BETA [S8], de CANMAT-ISBD 2018 pour la surveillance métabolique [S10] et, depuis l'audit du 2026-11-19, des résumés des caractéristiques du produit (RCP) européens ou britanniques [S13] pour l'olanzapine, l'aripiprazole, la quétiapine, l'amisulpride, la palipéridone, le zuclopenthixol et la clozapine. Elles doivent être confrontées au RCP des spécialités enregistrées en Algérie et aux protocoles locaux.
 
 **Items du programme couverts** : RES-MED-149 — « Schizophrénies : Définition - étiopathogénie - diagnostic - évolution - traitement ».

@@ -294,6 +294,298 @@
       "auteur": "DOS-02",
       "date_creation": "2026-11-19",
       "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "CAS-INFE-0205",
+      "titre": "Toux, amaigrissement et muguet chez un homme de 34 ans",
+      "niveau": "residanat",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 34 ans, chauffeur, marié, vivant dans une grande ville de l'Ouest algérien.",
+      "motif_consultation": "Toux productive et fièvre vespérale depuis 6 semaines, perte de 9 kg.",
+      "antecedents": "Zona thoracique il y a 2 ans. Rapports sexuels non protégés hors du couple rapportés. Aucun traitement.",
+      "symptomes": "Toux, sueurs nocturnes, fièvre, dysphagie haute, asthénie ; pas de céphalées ni de trouble neurologique.",
+      "examen_clinique": "T 38,4 °C, poids 58 kg (67 kg il y a 3 mois), FR 22/min, SpO2 95 % ; muguet buccal étendu ; adénopathies cervicales bilatérales ; crépitants de l'apex droit ; examen neurologique normal ; pas de raideur méningée.",
+      "biologie": "Test rapide VIH réactif, confirmé par un deuxième puis un troisième test réactifs (algorithme national) ; CD4 85/mm3 (12 %) ; charge virale 380 000 copies/mL ; test moléculaire rapide sur crachat : M. tuberculosis détecté, sans résistance à la rifampicine ; LF-LAM urinaire positif ; antigène cryptococcique sérique négatif ; AgHBs négatif ; Hb 10,8 g/dL ; créatinine 8 mg/L (DFG normal) ; ALAT normale.",
+      "imagerie": "Radiographie thoracique : infiltrats et cavité de l'apex droit.",
+      "hypotheses_diagnostiques": [
+        "Tuberculose pulmonaire révélant une infection à VIH au stade de maladie avancée"
+      ],
+      "diagnostics_differentiels": [
+        "Pneumocystose (associée possible)",
+        "Pneumonie bactérienne",
+        "Lymphome",
+        "Histoplasmose ou autre mycose disséminée"
+      ],
+      "examens_a_demander": [
+        "Confirmation du VIH selon l'algorithme national et retest avant TAR",
+        "CD4 et charge virale",
+        "Test moléculaire rapide sur crachat, LF-LAM",
+        "Antigène cryptococcique sérique (CD4 < 100)",
+        "AgHBs, VHC, syphilis",
+        "Créatinine, bilan hépatique, NFS"
+      ],
+      "diagnostic_final": "Infection à VIH-1 au stade de maladie avancée (CD4 85/mm3, stade OMS 3) révélée par une tuberculose pulmonaire sensible à la rifampicine et une candidose buccale.",
+      "traitement": "Traitement antituberculeux standard immédiat ; TAR le plus tôt possible dans les 2 semaines suivantes (pas de méningite) : TDF + 3TC + DTG avec dolutégravir 50 mg deux fois par jour pendant la rifampicine (et 2 semaines après son arrêt) ; cotrimoxazole prophylactique [POSOLOGIE À VÉRIFIER] ; fluconazole pour la candidose [POSOLOGIE À VÉRIFIER] ; CrAg négatif : pas de traitement préemptif ; déclaration obligatoire ; annonce, éducation thérapeutique, proposition de dépistage à l'épouse ; isolement respiratoire tant que la contagiosité persiste.",
+      "surveillance": "Tolérance hépatique et cutanée (antituberculeux, cotrimoxazole) ; IRIS dans les semaines suivant le TAR ; observance ; charge virale à 6 mois ; CD4 ; examens de crachats selon le programme antituberculeux.",
+      "evolution": "Aggravation fébrile transitoire à S3 du TAR avec adénopathies inflammatoires (IRIS tuberculeux paradoxal), résolutive ; charge virale < 50 copies/mL à 6 mois ; CD4 260/mm3 à 12 mois ; épouse dépistée négative, orientée vers la prévention.",
+      "explication_pedagogique": "Le cas illustre la tuberculose comme porte d'entrée fréquente du VIH, la définition de la maladie avancée, l'algorithme de confirmation à plusieurs tests, le paquet de soins (LF-LAM, CrAg, cotrimoxazole), le délai d'initiation du TAR (≤ 2 semaines), l'interaction rifampicine–dolutégravir et l'IRIS.",
+      "questions": [
+        {
+          "question": "Quand débuter le TAR ?",
+          "reponse": "Le plus tôt possible dans les 2 semaines suivant le début du traitement antituberculeux, puisqu'il n'y a pas de méningite tuberculeuse (OMS)."
+        },
+        {
+          "question": "Quel schéma et quelle adaptation ?",
+          "reponse": "TDF + 3TC + DTG, avec dolutégravir 50 mg × 2/j tant que le patient reçoit de la rifampicine et 2 semaines après son arrêt."
+        },
+        {
+          "question": "Pourquoi rechercher l'antigène cryptococcique ?",
+          "reponse": "CD4 < 100/mm3 : le dépistage avant TAR, suivi d'un traitement préemptif s'il est positif, prévient la méningite cryptococcique."
+        },
+        {
+          "question": "Comment interpréter l'aggravation à la 3e semaine ?",
+          "reponse": "IRIS tuberculeux paradoxal : poursuivre TAR et antituberculeux, éliminer une résistance ou une autre infection, corticoïdes selon la gravité [À VÉRIFIER]."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "CAS-INFE-0206",
+      "titre": "Découverte d'une séropositivité au 6e mois de grossesse",
+      "niveau": "resident",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 29 ans, deuxième grossesse, 26 semaines d'aménorrhée.",
+      "motif_consultation": "Résultat positif du dépistage VIH proposé lors du suivi prénatal.",
+      "antecedents": "Premier enfant de 4 ans en bonne santé, non testé. Mari non testé. Aucune pathologie connue.",
+      "symptomes": "Asymptomatique.",
+      "examen_clinique": "Examen normal ; grossesse évolutive, hauteur utérine conforme au terme.",
+      "biologie": "Algorithme de dépistage : trois tests réactifs ; retest positif. CD4 430/mm3 ; charge virale 46 000 copies/mL ; AgHBs négatif ; syphilis négative ; Hb 11,2 g/dL ; créatinine normale. Charge virale à 36 SA : < 50 copies/mL.",
+      "imagerie": "Échographie obstétricale morphologique normale.",
+      "hypotheses_diagnostiques": [
+        "Infection à VIH-1 chronique découverte pendant la grossesse"
+      ],
+      "diagnostics_differentiels": [
+        "Résultat faussement positif (éliminé par l'algorithme et le retest)"
+      ],
+      "examens_a_demander": [
+        "Confirmation et retest selon l'algorithme",
+        "CD4, charge virale",
+        "AgHBs, syphilis, toxoplasmose, rubéole",
+        "Créatinine",
+        "Dépistage du conjoint et de l'enfant aîné"
+      ],
+      "diagnostic_final": "Infection à VIH-1 chez une femme enceinte à 26 SA, mise sous TAR avec suppression virale avant l'accouchement.",
+      "traitement": "TAR en urgence : TDF + 3TC + DTG (TLD) dès la confirmation (OMS) ; éducation à l'observance ; à l'accouchement (39 SA, plus de 4 semaines de TAR, charge virale < 50 copies/mL) : nourrisson non à haut risque → névirapine pendant 6 semaines (OMS 2025) [POSOLOGIE À VÉRIFIER — dose néonatale] ; mode d'alimentation discuté selon la politique nationale, l'OMS recommandant de proposer l'allaitement aux mères en suppression virale avec soutien à l'observance ; diagnostic précoce du nourrisson par TAN ; cotrimoxazole chez le nourrisson dès 4–6 semaines jusqu'au diagnostic final ; dépistage du conjoint et de l'enfant aîné ; déclaration obligatoire.",
+      "surveillance": "Charge virale maternelle (objectif < 50 copies/mL avant l'accouchement et pendant l'allaitement), tolérance, observance ; tests virologiques du nourrisson selon le calendrier national ; contraception du post-partum.",
+      "evolution": "Accouchement par voie basse à 39 SA ; nouveau-né sous névirapine 6 semaines ; tests virologiques négatifs ; conjoint dépisté positif, mis sous TAR ; aîné négatif.",
+      "explication_pedagogique": "Le cas montre l'intérêt du dépistage prénatal systématique, l'urgence du TAR maternel (moyen le plus efficace de PTME), les critères de haut risque du nourrisson qui conditionnent sa prophylaxie, l'évolution de la position de l'OMS sur l'allaitement (2025) et le dépistage familial (conjoint, enfants).",
+      "questions": [
+        {
+          "question": "Quel traitement maternel ?",
+          "reponse": "TAR immédiat (TLD), sans attendre les CD4, pour obtenir une charge virale indétectable avant l'accouchement."
+        },
+        {
+          "question": "Le nouveau-né est-il à haut risque ?",
+          "reponse": "Non : la mère a reçu plus de 4 semaines de TAR et sa charge virale est < 50 copies/mL avant l'accouchement ; prophylaxie par névirapine seule pendant 6 semaines."
+        },
+        {
+          "question": "Quelle position sur l'allaitement ?",
+          "reponse": "L'OMS (2025) recommande de proposer l'allaitement aux mères sous TAR en suppression virale, avec un soutien renforcé, même si la politique nationale prône l'alimentation de substitution ; position algérienne à vérifier."
+        },
+        {
+          "question": "Qui d'autre dépister ?",
+          "reponse": "Le conjoint et l'enfant aîné (enfants d'un parent vivant avec le VIH)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "CAS-INFE-0207",
+      "titre": "Fièvre, ictère et hypotension chez un diabétique de 64 ans",
+      "niveau": "residanat",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 64 ans, retraité, diabétique de type 2 sous metformine, porteur d'une lithiase vésiculaire connue.",
+      "motif_consultation": "Amené aux urgences pour fièvre à 39,8 °C avec frissons, douleur de l'hypochondre droit et confusion depuis 12 heures.",
+      "antecedents": "Diabète de type 2, HTA traitée par IEC. Hospitalisé il y a 2 mois (antibiothérapie par amoxicilline-acide clavulanique pour pneumonie).",
+      "symptomes": "Douleur de l'hypochondre droit depuis 3 jours, puis fièvre avec frissons, urines foncées, ictère apparu la veille, somnolence.",
+      "examen_clinique": "T 39,6 °C, FC 122/min, PA 82/46 mmHg (PAM 58), FR 26/min, SpO2 93 % en air ambiant, Glasgow 13 ; marbrures des genoux, TRC 4 s ; ictère cutanéo-muqueux ; défense de l'hypochondre droit ; diurèse 20 mL sur la première heure.",
+      "biologie": "Lactate 4,8 mmol/L (N < 2) ; leucocytes 18 600/mm3 ; plaquettes 88 000/mm3 ; bilirubine totale 82 µmol/L (4,8 mg/dL) ; ALAT 4 × N ; GGT 9 × N ; lipase normale ; créatinine 196 µmol/L (2,2 mg/dL ; base 80 µmol/L) ; PaO2/FiO2 290 ; CRP 280 mg/L ; glycémie 14 mmol/L. Hémocultures (2 paires) : E. coli producteur de BLSE à H20, résistant à la ceftriaxone, sensible à l'amikacine et au méropénem.",
+      "imagerie": "Échographie au lit : voie biliaire principale dilatée (12 mm) avec calcul enclavé dans le bas cholédoque ; vésicule lithiasique.",
+      "hypotheses_diagnostiques": [
+        "Angiocholite aiguë lithiasique compliquée de choc septique"
+      ],
+      "diagnostics_differentiels": [
+        "Cholécystite aiguë compliquée",
+        "Abcès hépatique",
+        "Pancréatite aiguë biliaire (lipase normale)",
+        "Pyélonéphrite"
+      ],
+      "examens_a_demander": [
+        "Hémocultures avant antibiotiques",
+        "Lactate, gaz du sang",
+        "NFS, hémostase, bilirubine, enzymes hépatiques, lipase, créatinine",
+        "Échographie abdominale puis bili-IRM ou scanner selon l'état"
+      ],
+      "diagnostic_final": "Choc septique (vasopresseur nécessaire pour PAM ≥ 65 mmHg et lactate > 2 mmol/L) compliquant une angiocholite lithiasique à E. coli BLSE ; SOFA augmenté de ≥ 2 points (hémodynamique, rein, plaquettes, foie, conscience).",
+      "traitement": "Dans l'heure : hémocultures puis antibiothérapie IV probabiliste ; compte tenu d'une antibiothérapie récente et d'un risque de BLSE, une option active sur les BLSE est justifiée d'emblée (par exemple méropénem, ou C3G + métronidazole associée à l'amikacine 15 mg/kg selon l'écologie locale) [POSOLOGIE À VÉRIFIER — protocole local] ; cristalloïdes balancés 30 mL/kg dans les 3 premières heures, puis noradrénaline pour PAM ≥ 65 mmHg ; drainage biliaire en urgence (CPRE avec sphinctérotomie et extraction ou prothèse) dès la stabilisation ; arrêt de la metformine et de l'IEC ; insuline si glycémie ≥ 10 mmol/L ; hydrocortisone 200 mg/j si la noradrénaline dépasse 0,25 µg/kg/min au-delà de 4 h ; adaptation à l'antibiogramme (méropénem ou relais selon la sensibilité) ; déclaration de l'infection à BMR.",
+      "surveillance": "PAM, lactate à 2–4 h, diurèse horaire, Glasgow, SOFA quotidien, bilan hépatique et rénal, hémocultures, tolérance de l'amikacine ou des carbapénèmes ; réévaluation de l'antibiothérapie à 48–72 h.",
+      "evolution": "CPRE à H8 : extraction d'un calcul et issue de bile purulente ; sevrage de la noradrénaline à H36 ; lactate normalisé à H24 ; méropénem poursuivi puis durée totale courte (environ 7 jours après le drainage) ; cholécystectomie programmée à distance.",
+      "explication_pedagogique": "Le cas illustre les définitions de Sepsis-3 (sepsis et choc septique), la recherche de la porte d'entrée, l'urgence du contrôle de la source (drainage biliaire), la prise en compte du risque de BLSE (antibiothérapie récente) et la séquence de réanimation (cristalloïdes, noradrénaline, hydrocortisone selon la dose), ainsi que la désescalade et la déclaration des BMR en Algérie.",
+      "questions": [
+        {
+          "question": "Ce patient est-il en choc septique ?",
+          "reponse": "Oui après remplissage : hypotension persistante nécessitant de la noradrénaline pour une PAM ≥ 65 mmHg avec un lactate > 2 mmol/L (Sepsis-3)."
+        },
+        {
+          "question": "Quel est le geste clé en dehors des antibiotiques ?",
+          "reponse": "Le drainage biliaire en urgence (CPRE) : contrôle de la source dès que possible sur le plan médical et logistique (SSC 2021)."
+        },
+        {
+          "question": "Pourquoi envisager d'emblée une molécule active sur les BLSE ?",
+          "reponse": "Antibiothérapie récente et hospitalisation récente augmentent le risque d'entérobactérie BLSE, et le choc rend toute inadéquation initiale très délétère ; la stratégie dépend de l'écologie locale."
+        },
+        {
+          "question": "Quand ajouter l'hydrocortisone ?",
+          "reponse": "Si le besoin en noradrénaline (ou adrénaline) atteint au moins 0,25 µg/kg/min au moins 4 h après le début du vasopresseur : hydrocortisone 200 mg/j."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Singer M, et al. Sepsis-3. JAMA 2016;315(8):801-810",
+          "date": "2016"
+        },
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "CAS-INFE-0208",
+      "titre": "Furoncle de la lèvre manipulé et frissons chez un homme de 28 ans",
+      "niveau": "dems",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 28 ans, sans antécédent, ouvrier.",
+      "motif_consultation": "Fièvre à 40 °C, frissons et œdème de l'hémiface droite depuis 24 heures.",
+      "antecedents": "Aucun. Pas d'usage de drogues IV. Pas de diabète connu.",
+      "symptomes": "Furoncle de la lèvre supérieure « pressé » il y a 4 jours ; depuis, tuméfaction douloureuse, puis fièvre, frissons, céphalées ; depuis ce matin, gêne visuelle et douleur orbitaire droite.",
+      "examen_clinique": "T 40,1 °C, FC 118/min, PA 104/62 mmHg, FR 24/min, Glasgow 15 ; placard inflammatoire induré de la lèvre et de la joue droites, cordon veineux angulaire palpable ; œdème palpébral, chémosis et ophtalmoplégie droite débutante ; pas de souffle cardiaque.",
+      "biologie": "Leucocytes 21 000/mm3, plaquettes 112 000/mm3, CRP 310 mg/L, lactate 2,6 mmol/L, créatinine 105 µmol/L ; glycémie 6,1 mmol/L. Hémocultures : S. aureus dans 3 flacons sur 4 à H14, sensible à la méticilline (SASM).",
+      "imagerie": "IRM cérébrale et orbitaire injectée : thrombose du sinus caverneux droit, cellulite orbitaire sans abcès. Échocardiographie transthoracique : pas de végétation (ETO à discuter).",
+      "hypotheses_diagnostiques": [
+        "Staphylococcie maligne de la face avec thrombophlébite du sinus caverneux et bactériémie à S. aureus"
+      ],
+      "diagnostics_differentiels": [
+        "Érysipèle de la face",
+        "Cellulite orbitaire d'origine sinusienne",
+        "Zona ophtalmique surinfecté"
+      ],
+      "examens_a_demander": [
+        "Hémocultures (au moins 2 paires) avant antibiotiques",
+        "IRM cérébrale et orbitaire",
+        "Échocardiographie (bactériémie à S. aureus)",
+        "NFS, hémostase, lactate, créatinine",
+        "Glycémie (diabète méconnu)"
+      ],
+      "diagnostic_final": "Sepsis (SOFA augmenté : plaquettes) à S. aureus sensible à la méticilline compliquant une staphylococcie maligne de la face, avec thrombose du sinus caverneux.",
+      "traitement": "Antibiothérapie IV immédiate antistaphylococcique à forte dose ; en probabiliste, couverture du SARM si risque élevé (vancomycine 15–20 mg/kg/12 h selon l'OMS) associée à une molécule anti-SASM, puis, après l'antibiogramme (SASM), pénicilline M (cloxacilline) ou céfazoline IV à forte dose pour une durée prolongée [POSOLOGIE ET DURÉE À VÉRIFIER — protocole local] ; ne jamais manipuler le furoncle ; anticoagulation de la thrombose du sinus caverneux discutée avec les spécialistes [À VÉRIFIER] ; avis ophtalmologique et ORL ; hémocultures de contrôle ; échocardiographie.",
+      "surveillance": "Hémocultures de contrôle jusqu'à négativation, examen ophtalmologique et neurologique pluriquotidien, signes d'extension (méningite, abcès), localisations secondaires (endocardite, ostéo-articulaires, pulmonaires), fonction rénale.",
+      "evolution": "Hémocultures négatives à J3 ; régression progressive de l'ophtalmoplégie ; pas de localisation secondaire ; traitement IV prolongé puis relais selon l'avis infectiologique.",
+      "explication_pedagogique": "Le cas illustre une bactériémie à S. aureus avec porte d'entrée cutanée (staphylococcie maligne de la face), la notion de foyer et de localisations secondaires propre aux « états septicémiques », la valeur systématique d'une hémoculture à S. aureus, l'échocardiographie obligatoire, la couverture du SARM selon le risque, puis l'adaptation à une pénicilline M.",
+      "questions": [
+        {
+          "question": "Pourquoi parle-t-on de staphylococcie maligne de la face ?",
+          "reponse": "Infection staphylococcique d'un furoncle de la face (zone centrale) manipulé, avec cellulite extensive, thrombophlébite veineuse faciale pouvant atteindre le sinus caverneux et bactériémie."
+        },
+        {
+          "question": "Quel bilan devant une bactériémie à S. aureus ?",
+          "reponse": "Hémocultures de contrôle, recherche de localisations secondaires et échocardiographie systématique (endocardite)."
+        },
+        {
+          "question": "Quelle antibiothérapie ?",
+          "reponse": "Antistaphylococcique IV précoce, couvrant le SARM si le risque est élevé (vancomycine), puis adaptée à l'antibiogramme : pénicilline M ou céfazoline pour un SASM, durée prolongée."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Singer M, et al. Sepsis-3. JAMA 2016;315(8):801-810",
+          "date": "2016"
+        },
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
     }
   ]
 }

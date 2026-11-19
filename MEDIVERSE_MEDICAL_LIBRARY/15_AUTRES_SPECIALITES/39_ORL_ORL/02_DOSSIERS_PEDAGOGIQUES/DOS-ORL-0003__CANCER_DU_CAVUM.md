@@ -6,11 +6,17 @@ sous_specialite: "Cancérologie cervico-faciale"
 items_residanat: [RES-CHI-049]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-ORL-0003.md
 sources:
   - id: S1
     reference: "Bossi P, Chan AT, Licitra L, Trama A, Orlandi E, Hui EP, et al. Nasopharyngeal carcinoma: ESMO-EURACAN Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2021;32(4):452-465 (catalogue : REC-0394)."
@@ -37,7 +43,7 @@ sources:
     url: ""
     verifiee: true
   - id: S4
-    reference: "Pan JJ, Mai HQ, Ng WT, Hu CS, Li JG, Chen XZ, et al. Ninth version of the AJCC and UICC nasopharyngeal cancer TNM staging classification. JAMA Oncol. 2024 (mise en application internationale en janvier 2025)."
+    reference: "Pan JJ, Mai HQ, Ng WT, Hu CS, Li JG, Chen XZ, et al. Ninth version of the AJCC and UICC nasopharyngeal cancer TNM staging classification. JAMA Oncol. 2024;10(12):1627-1635 (erratum : 2024;10(12):1736) ; mise en application internationale en janvier 2025 (PMC11581663, texte intégral et tableau 2 lus par l'audit)."
     organisme: AJCC/UICC
     annee: 2024
     type: article
@@ -45,13 +51,13 @@ sources:
     url: ""
     verifiee: true
   - id: S5
-    reference: "Amin MB, Edge SB, Greene FL, et al. (dir.). AJCC Cancer Staging Manual. 8e édition. New York : Springer ; 2017 — chapitre Nasopharynx (TNM-8)."
+    reference: "Amin MB, Edge SB, Greene FL, et al. (dir.). AJCC Cancer Staging Manual. 8e édition. New York : Springer ; 2017 — chapitre Nasopharynx (TNM-8). Ouvrage non consulté ; définitions T, N, M et groupes de stades de la TNM-8 contrôlés dans le tableau 2 de S4."
     organisme: AJCC
     annee: 2017
     type: ouvrage
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S6
     reference: "Zhang Y, Chen L, Hu GQ, Zhang N, Zhu XD, Yang KY, et al. Gemcitabine and cisplatin induction chemotherapy in nasopharyngeal carcinoma. N Engl J Med. 2019;381(12):1124-1135."
     organisme: ""
@@ -124,13 +130,29 @@ sources:
     doi: "10.3322/caac.21834"
     url: ""
     verifiee: true
+  - id: S15
+    reference: "Hamdi Cherif M, Serraino D, Mahnane A, Laouamri S, Zaidi Z, et al. Time trends of cancer incidence in Setif, Algeria, 1986-2010: an observational study. BMC Cancer. 2014;14:637 (PMID 25175348, PMC4164767 ; texte intégral lu)."
+    organisme: "Registre du cancer de Sétif"
+    annee: 2014
+    type: article
+    doi: "10.1186/1471-2407-14-637"
+    url: ""
+    verifiee: true
+  - id: S16
+    reference: "Lee JY, Sun JM, Oh DR, et al. Comparison of weekly versus triweekly cisplatin delivered concurrently with radiation therapy in patients with locally advanced nasopharyngeal cancer: a multicenter randomized phase II trial (KCSG-HN10-02). Radiother Oncol. 2016;118(2):244-250 (PMID 26705681 ; résumé lu)."
+    organisme: ""
+    annee: 2016
+    type: article
+    doi: "10.1016/j.radonc.2015.11.030"
+    url: ""
+    verifiee: true
 mots_cles: [cancer du cavum, carcinome du nasopharynx, UCNT, virus d'Epstein-Barr, ADN EBV plasmatique, adénopathie cervicale, otite séromuqueuse unilatérale, IRM, TNM-8, TNM-9, radiothérapie conformationnelle avec modulation d'intensité, cisplatine, gemcitabine, Maghreb]
 ---
 
 # Cancer du cavum (carcinome du nasopharynx) : diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-049 — « Cancer du cavum : Diagnostic - traitement » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -181,7 +203,8 @@ Le terme « UCNT » (*undifferentiated carcinoma of nasopharyngeal type*) reste 
 - L'Algérie, le Maroc et la Tunisie appartiennent à la zone d'**incidence intermédiaire** ; le carcinome du nasopharynx y est **l'un des cancers des VADS les plus fréquents** et l'un des sujets classiques des concours [S2, S12].
 - Histologie : prédominance du **carcinome non kératinisant indifférencié (UCNT)**, fortement associé à l'EBV [S12].
 - **Distribution d'âge bimodale** classiquement décrite en Afrique du Nord, avec un **pic juvénile (adolescents et adultes jeunes)** en plus du pic de la quarantaine–cinquantaine [S2]. **[À VÉRIFIER — données des registres algériens du cancer (Sétif, Alger, Oran…) pour les proportions locales]**.
-- Une étude cas-témoins menée dans la région de **Sétif** a associé le risque à la consommation d'aliments traditionnellement conservés (harissa, fruits et légumes marinés, viande séchée et salée, graisse séchée et salée, **beurre rance**), avec des risques multipliés de 4 à 7 pour le beurre rance et de 4 à 12 pour certains aliments marinés selon le type [S13].
+- **Données de registre** : dans le registre de population de **Sétif**, l'incidence standardisée (population mondiale) du carcinome du nasopharynx était de **5,0 pour 100 000 chez l'homme** (5 % des cancers masculins) et de **2,1 pour 100 000 chez la femme** en 2006-2010, avec une **baisse significative chez l'homme** entre 1996 et 2010 (−3,4 % par an), après un maximum de 7,3/100 000 en 1996-2000 [S15]. Ces chiffres régionaux ne peuvent pas être extrapolés à tout le pays **[À VÉRIFIER — données nationales des registres (réseau national des registres du cancer)]**.
+- Une étude cas-témoins menée dans la région de **Sétif** (72 cas, 72 témoins) a associé le risque à la consommation d'aliments traditionnellement conservés (harissa, fruits et légumes marinés, viande séchée et salée, graisse séchée et salée, **beurre rance**), avec des risques multipliés de 4 à 7 pour le beurre rance et de 4 à 12 pour certains aliments marinés selon le type [S13].
 - Une étude multicentrique (Algérie, Maroc, Tunisie ; 636 cas, 615 témoins) a montré que l'exposition aux **fumées domestiques du kanoun** (petit four à charbon) **pendant l'enfance**, le **cannabis** et le **tabac** sont associés au risque ; le tabac (cigarette, tabac à priser) était associé aux formes **différenciées** mais pas à l'UCNT ; l'alcool et la chicha n'étaient pas associés [S12].
 
 ## 4. Rappels anatomiques et physiologiques
@@ -259,7 +282,7 @@ L'**hybridation in situ EBER** sur la biopsie confirme l'association à l'EBV et
 - Analyse de 4 914 patients : l'**extension extraganglionnaire radiologique avancée** (envahissement des muscles adjacents, de la peau et/ou des pédicules vasculo-nerveux) est un facteur pronostique indépendant et devient un **critère de N3**.
 - Les formes **non métastatiques** sont regroupées en **stades I à III** : **IA = T1-2N0**, **IB = T1-2N1**, **II = T3 ou N2**, **III = T4 ou N3**.
 - Les formes **métastatiques** constituent le **stade IV**, subdivisé en **IVA (M1a : ≤ 3 lésions métastatiques)** et **IVB (M1b : > 3 lésions)**.
-- Une revue radiologique de 2026 souligne aussi l'exigence d'une **destruction corticale osseuse franche ou d'une infiltration médullaire** pour classer T3 [référence secondaire : Lee DH, Bae YJ, J Korean Soc Radiol 2026, non listée dans les sources principales].
+- Les **catégories T sont inchangées** sur le fond, mais leur libellé est précisé : T3 exige une infiltration osseuse **non équivoque** (base du crâne, structures ptérygoïdiennes, sinus, vertèbres cervicales) ; T4 comprend l'atteinte **non équivoque, radiologique et/ou clinique**, des nerfs crâniens, l'**orbite (y compris la fissure orbitaire inférieure)** et l'infiltration au-delà de la face **antérolatérale** du muscle ptérygoïdien latéral [S4].
 - **Conséquence pratique** : bien préciser l'édition utilisée dans le dossier du patient et lors de la lecture des essais (les essais d'induction de 2016-2019 utilisent les stades III-IVA de la 7e/8e édition).
 
 ## 8. Diagnostic positif — clinique
@@ -397,10 +420,10 @@ Toute décision est prise en **RCP** et fait l'objet d'un **programme personnali
 
 | Modalité | Schéma de référence (essais) | Indications |
 |---|---|---|
-| **Concomitante** à la radiothérapie | **Cisplatine 100 mg/m² toutes les 3 semaines** (J1, J22, J43) ou **40 mg/m² hebdomadaire** ; une **dose cumulée d'au moins 200 mg/m²** est l'objectif retenu par les recommandations [S1, S3, S8] [POSOLOGIE À VÉRIFIER — RCP / protocole local] | Stades II (selon facteurs de risque) à IVA (TNM-8) |
-| **Induction** (néoadjuvante) | **Gemcitabine 1 000 mg/m² J1 et J8 + cisplatine 80 mg/m² J1, toutes les 3 semaines, 3 cycles** [S6] ; ou **TPF : docétaxel 60 mg/m² J1 + cisplatine 60 mg/m² J1 + 5-fluorouracile 600 mg/m²/j J1-J5, toutes les 3 semaines, 3 cycles** [S7] [POSOLOGIE À VÉRIFIER — RCP / protocole local] | Stades III-IVA (TNM-8), en particulier à haut risque métastatique |
-| **Adjuvante** | Cisplatine–5-FU après radiochimiothérapie (schéma historique de l'essai Intergroup 0099) [S8] ; d'autres stratégies adjuvantes existent [À VÉRIFIER] | Alternative à l'induction dans certaines recommandations [S1] |
-| **Métastatique, 1re ligne** | **Gemcitabine–cisplatine** (supérieur au 5-FU–cisplatine dans un essai de phase 3) [S9], associé à un **anti-PD-1** (toripalimab dans l'essai JUPITER-02) [S10] | Stade IVB (TNM-8) / IV (TNM-9) |
+| **Concomitante** à la radiothérapie | **Cisplatine 100 mg/m² toutes les 3 semaines** (J1, J22, J43 : schéma de l'essai Intergroup 0099 [S8], repris dans les bras de radiochimiothérapie des essais d'induction [S6, S7]) ou **40 mg/m² hebdomadaire** (7 administrations dans l'essai randomisé de phase II KCSG-HN10-02, non inférieur en efficacité et mieux toléré [S16]) ; une **dose cumulée d'au moins 200 mg/m²** est l'objectif retenu par les recommandations [S1, S3] | Stades II (selon facteurs de risque) à IVA (TNM-8) |
+| **Induction** (néoadjuvante) | **Gemcitabine–cisplatine (GP)** : gemcitabine 1 000 mg/m² J1 et J8 + cisplatine 80 mg/m² J1, toutes les 3 semaines, 3 cycles [S6] ; ou **TPF** : docétaxel 60 mg/m² J1 + cisplatine 60 mg/m² J1 + 5-fluorouracile 600 mg/m²/j en perfusion continue J1-J5, toutes les 3 semaines, 3 cycles [S7] — doses des essais de phase 3 (résumés relus), à adapter à la clairance, à l'audition et à l'état général selon le RCP et le protocole du centre | Stades III-IVA (TNM-8), en particulier à haut risque métastatique |
+| **Adjuvante** | Cisplatine 80 mg/m² J1 + 5-FU 1 000 mg/m²/j J1-J4, toutes les 4 semaines, 3 cycles après la radiochimiothérapie (schéma historique de l'essai Intergroup 0099) [S8] ; d'autres stratégies adjuvantes existent [À VÉRIFIER] | Alternative à l'induction dans certaines recommandations [S1] |
+| **Métastatique, 1re ligne** | **Gemcitabine–cisplatine** (gemcitabine 1 000 mg/m² J1 et J8 + cisplatine 80 mg/m² J1, toutes les 3 semaines, 6 cycles au plus ; supérieur au 5-FU–cisplatine dans un essai de phase 3) [S9], associé à un **anti-PD-1** (toripalimab dans l'essai JUPITER-02) [S10] | Stade IVB (TNM-8) / IV (TNM-9) |
 
 **Toxicités et précautions du cisplatine** : néphrotoxicité (hyperhydratation, magnésium), ototoxicité (audiogramme), neurotoxicité, émétisation (antiémétiques), myélotoxicité. Contre-indications relatives : insuffisance rénale, surdité préexistante, mauvais état général ; alternatives selon l'avis oncologique (carboplatine…) [À VÉRIFIER — RCP].
 
@@ -449,7 +472,7 @@ CARCINOME DU NASOPHARYNX PROUVÉ HISTOLOGIQUEMENT
 ### 13.4 Particularités algériennes
 
 - Le carcinome du nasopharynx, cancer fréquent des VADS en Algérie, est pris en charge dans les **centres anticancer** et les services de radiothérapie des CHU. Les **délais d'accès à la radiothérapie** et la **disponibilité de l'IMRT** sont des enjeux organisationnels majeurs. **[À VÉRIFIER — Plan national cancer, données MSPRH sur les capacités de radiothérapie]**.
-- Les **anti-PD-1** (toripalimab, camrélizumab, tislélizumab…) ne sont pas nécessairement disponibles ou remboursés : **[À VÉRIFIER — nomenclature nationale et autorisation]**.
+- Les **anti-PD-1** (toripalimab, camrélizumab, tislélizumab…) ne sont pas nécessairement disponibles ou remboursés ; aucune source algérienne n'a été identifiée sur ce point : **[À VÉRIFIER — nomenclature nationale et autorisation]**.
 - Dans un pays où la **tuberculose ganglionnaire** est fréquente, une adénopathie cervicale de l'adulte ne doit pas être étiquetée tuberculeuse **sans preuve** ni sans **examen du cavum** : le retard diagnostique du carcinome du nasopharynx est une perte de chance.
 - Prévention primaire possible : information sur les **aliments traditionnellement conservés** (harissa, conserves marinées, viande et graisse séchées-salées, beurre rance), les **fumées domestiques** du kanoun dans l'enfance, le tabac et le cannabis [S12, S13].
 
@@ -566,7 +589,7 @@ OSM unilatérale chez l'adulte
 
 **Diagnostic final.** Carcinome non kératinisant indifférencié du nasopharynx T4 N2 M0 : stade IVA selon la TNM-8 (stade III selon la TNM-9).
 
-**Traitement.** Décision en RCP. Remise en état dentaire et gouttières fluorées avant l'irradiation. Chimiothérapie d'induction par gemcitabine–cisplatine (3 cycles, schéma de l'essai de Zhang et al.) puis radiochimiothérapie concomitante en IMRT (environ 70 Gy sur la tumeur et les adénopathies) avec cisplatine (dose cumulée visée ≥ 200 mg/m²) [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Soins de support : nutrition (gastrostomie discutée), antiémétiques, hydratation, bains de bouche, antalgiques, sevrage tabagique.
+**Traitement.** Décision en RCP. Remise en état dentaire et gouttières fluorées avant l'irradiation. Chimiothérapie d'induction par gemcitabine–cisplatine (3 cycles, schéma de l'essai de Zhang et al.) puis radiochimiothérapie concomitante en IMRT (environ 70 Gy sur la tumeur et les adénopathies) avec cisplatine 100 mg/m² toutes les 3 semaines (dose cumulée visée ≥ 200 mg/m²) [S1, S3, S6] ; doses à adapter à la clairance et à l'audition selon le protocole du centre. Soins de support : nutrition (gastrostomie discutée), antiémétiques, hydratation, bains de bouche, antalgiques, sevrage tabagique.
 
 **Surveillance.** Pendant le traitement : poids, mucite, fonction rénale, magnésémie, NFS, audition. Après : examen clinique et nasofibroscopie tous les 3 mois pendant 2 ans puis tous les 6 mois, IRM à 3 mois, ADN de l'EBV, TSH tous les 6-12 mois, suivi dentaire à vie, audiogramme.
 
@@ -791,8 +814,8 @@ OSM unilatérale chez l'adulte
 1. **[S1]** Bossi P, Chan AT, Licitra L, et al. Nasopharyngeal carcinoma: ESMO-EURACAN Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2021;32(4):452-465. doi:10.1016/j.annonc.2020.12.007.
 2. **[S2]** Chen YP, Chan ATC, Le QT, Blanchard P, Sun Y, Ma J. Nasopharyngeal carcinoma. Lancet. 2019;394(10192):64-80. doi:10.1016/S0140-6736(19)30956-0.
 3. **[S3]** Chen YP, Ismaila N, Chua MLK, et al. Chemotherapy in combination with radiotherapy for definitive-intent treatment of stage II-IVA nasopharyngeal carcinoma: CSCO and ASCO guideline. J Clin Oncol. 2021;39(7):840-859. doi:10.1200/JCO.20.03237.
-4. **[S4]** Pan JJ, Mai HQ, Ng WT, et al. Ninth version of the AJCC and UICC nasopharyngeal cancer TNM staging classification. JAMA Oncol. 2024. doi:10.1001/jamaoncol.2024.4354.
-5. **[S5]** Amin MB, Edge SB, Greene FL, et al. (dir.). AJCC Cancer Staging Manual. 8e éd. New York : Springer ; 2017 (référence non vérifiée pendant la session).
+4. **[S4]** Pan JJ, Mai HQ, Ng WT, et al. Ninth version of the AJCC and UICC nasopharyngeal cancer TNM staging classification. JAMA Oncol. 2024;10(12):1627-1635. doi:10.1001/jamaoncol.2024.4354.
+5. **[S5]** Amin MB, Edge SB, Greene FL, et al. (dir.). AJCC Cancer Staging Manual. 8e éd. New York : Springer ; 2017 (ouvrage non consulté ; définitions de la TNM-8 contrôlées dans S4).
 6. **[S6]** Zhang Y, Chen L, Hu GQ, et al. Gemcitabine and cisplatin induction chemotherapy in nasopharyngeal carcinoma. N Engl J Med. 2019;381(12):1124-1135. doi:10.1056/NEJMoa1905287.
 7. **[S7]** Sun Y, Li WF, Chen NY, et al. Induction chemotherapy plus concurrent chemoradiotherapy versus concurrent chemoradiotherapy alone in locoregionally advanced nasopharyngeal carcinoma. Lancet Oncol. 2016;17(11):1509-1520. doi:10.1016/S1470-2045(16)30410-7.
 8. **[S8]** Al-Sarraf M, LeBlanc M, Giri PG, et al. Chemoradiotherapy versus radiotherapy in patients with advanced nasopharyngeal cancer: phase III randomized Intergroup study 0099. J Clin Oncol. 1998;16(4):1310-1317. doi:10.1200/JCO.1998.16.4.1310.
@@ -802,5 +825,7 @@ OSM unilatérale chez l'adulte
 12. **[S12]** Feng BJ, Khyatti M, Ben-Ayoub W, et al. Cannabis, tobacco and domestic fumes intake are associated with nasopharyngeal carcinoma in North Africa. Br J Cancer. 2009;101(7):1207-1212. doi:10.1038/sj.bjc.6605281.
 13. **[S13]** Laouamri S, Hamdi-Cherif M, Sekfali N, Mokhtari L, Kharchi R. Facteurs de risque alimentaires du carcinome du nasopharynx dans la région de Sétif (Algérie). Rev Epidemiol Sante Publique. 2001;49(2):145-156.
 14. **[S14]** Bray F, Laversanne M, Sung H, et al. Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2024;74(3):229-263. doi:10.3322/caac.21834.
+15. **[S15]** Hamdi Cherif M, Serraino D, Mahnane A, et al. Time trends of cancer incidence in Setif, Algeria, 1986-2010: an observational study. BMC Cancer. 2014;14:637. doi:10.1186/1471-2407-14-637.
+16. **[S16]** Lee JY, Sun JM, Oh DR, et al. Comparison of weekly versus triweekly cisplatin delivered concurrently with radiation therapy in patients with locally advanced nasopharyngeal cancer: a multicenter randomized phase II trial (KCSG-HN10-02). Radiother Oncol. 2016;118(2):244-250. doi:10.1016/j.radonc.2015.11.030.
 
-*Vérification : S1-S4 et S6-S14 contrôlées dans Europe PMC (titre, revue, année, DOI) le 2026-11-19 ; seuls les résumés ont été lus. S5 non vérifiée.*
+*Vérification : S1-S4 et S6-S14 contrôlées dans Europe PMC (titre, revue, année, DOI) le 2026-11-19 ; seuls les résumés ont été lus par le rédacteur. Audit : S4 (tableau 2), S12 et S15 lus en texte intégral ; résumés de S6-S9, S13 et S16 relus (doses des essais confirmées) ; textes intégraux de S1 (ESMO 2021) et S3 (CSCO-ASCO 2021) non consultés.*

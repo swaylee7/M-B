@@ -6,7 +6,7 @@ sous_specialite: "Hémostase — déficits constitutionnels de la coagulation"
 items_residanat: [RES-MED-114]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-08 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_valide
     corrections: 13
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0003.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Contrôle des attributions de sources : deux affirmations postérieures à la WFH 2020 lui étaient attribuées (premières autorisations de thérapie génique en 2022–2023 ; ITI associée à l'émicizumab selon des « protocoles récents ») — citation [S1] retirée de ces deux affirmations, signalées « source non incluse ». Aucune erreur de fond ni de posologie ; verdict antérieur maintenu."
 sources:
   - id: S1
     reference: "Srivastava A, Santagostino E, Dougall A, et al.; WFH Guidelines for the Management of Hemophilia panelists and co-authors. WFH Guidelines for the Management of Hemophilia, 3rd edition. Haemophilia. 2020;26(Suppl 6):1-158."
@@ -134,7 +140,7 @@ mots_cles: [hémophilie A, hémophilie B, facteur VIII, facteur IX, TCA, hémart
 - **1952** : distinction de l'hémophilie A et de l'hémophilie B (« maladie de Christmas »).
 - **1964** : découverte du **cryoprécipité** (Judith Pool) ; années 1970 : concentrés plasmatiques lyophilisés et autotraitement à domicile.
 - **Années 1980** : contamination massive des hémophiles par le **VIH** et le **VHC** via les concentrés plasmatiques (drame transfusionnel) ; inactivation virale puis **facteurs recombinants** (années 1990).
-- **2010–2020** : facteurs à **demi-vie prolongée**, **émicizumab** (anticorps bispécifique, 2017–2018), premières **thérapies géniques** autorisées en 2022–2023 [S1] `[À VÉRIFIER : dates d'autorisation selon les agences]`.
+- **2010–2020** : facteurs à **demi-vie prolongée**, **émicizumab** (anticorps bispécifique, 2017–2018) [S1] ; premières **thérapies géniques** autorisées en 2022–2023, donc postérieures à la WFH 2020 (source non incluse dans ce dossier) `[À VÉRIFIER : dates d'autorisation selon les agences]`.
 
 ---
 
@@ -404,7 +410,7 @@ Groupe sanguin, sérologies VIH, VHB, VHC (et statut vaccinal VHA/VHB), bilan h�
 - Pas de test biologique simple pour monitorer leur efficacité : surveillance clinique.
 
 #### 13.2.4 Induction de tolérance immune (ITI)
-- Administration **régulière et prolongée** de FVIII (plusieurs mois à années) pour éradiquer l'inhibiteur ; meilleure réussite si titre bas au début, chez l'enfant, et si débutée tôt ; possible en association avec l'émicizumab selon des protocoles récents [S1].
+- Administration **régulière et prolongée** de FVIII (plusieurs mois à années) pour éradiquer l'inhibiteur ; meilleure réussite si titre bas au début, chez l'enfant, et si débutée tôt [S1] ; des protocoles associant l'ITI à une prophylaxie par émicizumab ont été proposés depuis (source non incluse dans ce dossier) `[À VÉRIFIER]`.
 
 #### 13.2.5 Desmopressine (DDAVP)
 - Analogue de la vasopressine qui **libère le FVIII et le facteur Willebrand** endothéliaux (élévation de 2 à 5 fois du taux de base en 30–60 minutes, retour au taux de base en 6–9 heures [S2]) : utile dans l'**hémophilie A mineure** (et chez certaines conductrices), **inefficace dans l'hémophilie B et l'hémophilie A sévère** [S1].

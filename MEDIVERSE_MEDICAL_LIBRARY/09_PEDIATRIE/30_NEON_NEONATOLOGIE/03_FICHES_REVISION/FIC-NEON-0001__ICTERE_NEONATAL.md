@@ -4,7 +4,12 @@ titre: "Fiche — Ictère néonatal"
 specialite: NEON
 items_residanat: [RES-MED-069]
 dossier_source: DOS-NEON-0001
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Version source mise à jour (DOS-NEON-0001 v1.2 : avertissement de vérification des sources actualisé ; aucun contenu de la fiche modifié)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Ictère néonatal (RES-MED-069)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-NEON-0001 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **AAP 2022** [S2] (remplace l'AAP 2004 [S1]), **NICE CG98** [S3], SFN 2017 [S6], NASPGHAN/ESPGHAN 2017 [S9], **OMS Pocket book 2013** [S10]. **Les seuils chiffrés sont des repères pédagogiques** : décider sur les **courbes officielles** de la recommandation retenue par le service. Protocole national algérien `[À VÉRIFIER — MSPRH, sociétés savantes]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-NEON-0001 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **AAP 2022** [S2] (remplace l'AAP 2004 [S1]), **NICE CG98** [S3], SFN 2017 [S6], NASPGHAN/ESPGHAN 2017 [S9], **OMS Pocket book 2013** [S10]. **Les seuils chiffrés sont des repères pédagogiques** : décider sur les **courbes officielles** de la recommandation retenue par le service. Protocole national algérien `[À VÉRIFIER — MSPRH, sociétés savantes]`.
 
 ## 1. Définition (2 lignes)
 

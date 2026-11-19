@@ -477,7 +477,46 @@ Source : [S1].
 
 ## 17. Cas clinique commenté
 
-<!--CAS17-->
+<!--CAS17:start-->
+> Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-02-lot2.json` (un second cas, `CAS-INFE-0206`, y figure également).
+
+**Toux, amaigrissement et muguet chez un homme de 34 ans** — *scénario fictif* (`CAS-INFE-0205`, niveau residanat)
+
+**Présentation.** Scénario fictif : homme, 34 ans, chauffeur, marié, vivant dans une grande ville de l'Ouest algérien. Toux productive et fièvre vespérale depuis 6 semaines, perte de 9 kg.
+
+**Antécédents.** Zona thoracique il y a 2 ans. Rapports sexuels non protégés hors du couple rapportés. Aucun traitement.
+
+**Histoire et symptômes.** Toux, sueurs nocturnes, fièvre, dysphagie haute, asthénie ; pas de céphalées ni de trouble neurologique.
+
+**Examen clinique.** T 38,4 °C, poids 58 kg (67 kg il y a 3 mois), FR 22/min, SpO2 95 % ; muguet buccal étendu ; adénopathies cervicales bilatérales ; crépitants de l'apex droit ; examen neurologique normal ; pas de raideur méningée.
+
+**Biologie.** Test rapide VIH réactif, confirmé par un deuxième puis un troisième test réactifs (algorithme national) ; CD4 85/mm3 (12 %) ; charge virale 380 000 copies/mL ; test moléculaire rapide sur crachat : M. tuberculosis détecté, sans résistance à la rifampicine ; LF-LAM urinaire positif ; antigène cryptococcique sérique négatif ; AgHBs négatif ; Hb 10,8 g/dL ; créatinine 8 mg/L (DFG normal) ; ALAT normale.
+
+**Imagerie.** Radiographie thoracique : infiltrats et cavité de l'apex droit.
+
+**Question 1 — Quand débuter le TAR ?**
+> Le plus tôt possible dans les 2 semaines suivant le début du traitement antituberculeux, puisqu'il n'y a pas de méningite tuberculeuse (OMS).
+
+**Question 2 — Quel schéma et quelle adaptation ?**
+> TDF + 3TC + DTG, avec dolutégravir 50 mg × 2/j tant que le patient reçoit de la rifampicine et 2 semaines après son arrêt.
+
+**Question 3 — Pourquoi rechercher l'antigène cryptococcique ?**
+> CD4 < 100/mm3 : le dépistage avant TAR, suivi d'un traitement préemptif s'il est positif, prévient la méningite cryptococcique.
+
+**Question 4 — Comment interpréter l'aggravation à la 3e semaine ?**
+> IRIS tuberculeux paradoxal : poursuivre TAR et antituberculeux, éliminer une résistance ou une autre infection, corticoïdes selon la gravité [À VÉRIFIER].
+
+**Diagnostic retenu.** Infection à VIH-1 au stade de maladie avancée (CD4 85/mm3, stade OMS 3) révélée par une tuberculose pulmonaire sensible à la rifampicine et une candidose buccale.
+
+**Traitement.** Traitement antituberculeux standard immédiat ; TAR le plus tôt possible dans les 2 semaines suivantes (pas de méningite) : TDF + 3TC + DTG avec dolutégravir 50 mg deux fois par jour pendant la rifampicine (et 2 semaines après son arrêt) ; cotrimoxazole prophylactique [POSOLOGIE À VÉRIFIER] ; fluconazole pour la candidose [POSOLOGIE À VÉRIFIER] ; CrAg négatif : pas de traitement préemptif ; déclaration obligatoire ; annonce, éducation thérapeutique, proposition de dépistage à l'épouse ; isolement respiratoire tant que la contagiosité persiste.
+
+**Surveillance.** Tolérance hépatique et cutanée (antituberculeux, cotrimoxazole) ; IRIS dans les semaines suivant le TAR ; observance ; charge virale à 6 mois ; CD4 ; examens de crachats selon le programme antituberculeux.
+
+**Évolution.** Aggravation fébrile transitoire à S3 du TAR avec adénopathies inflammatoires (IRIS tuberculeux paradoxal), résolutive ; charge virale < 50 copies/mL à 6 mois ; CD4 260/mm3 à 12 mois ; épouse dépistée négative, orientée vers la prévention.
+
+**Commentaire pédagogique.** Le cas illustre la tuberculose comme porte d'entrée fréquente du VIH, la définition de la maladie avancée, l'algorithme de confirmation à plusieurs tests, le paquet de soins (LF-LAM, CrAg, cotrimoxazole), le délai d'initiation du TAR (≤ 2 semaines), l'interaction rifampicine–dolutégravir et l'IRIS.
+
+<!--CAS17:end-->
 
 ---
 
@@ -511,7 +550,232 @@ Source : [S1].
 
 ## 20. QCM d'auto-évaluation (corrigés commentés)
 
-<!--QCM20-->
+<!--QCM20:start-->
+> 10 QCM originaux Mediverse (cinq propositions A–E ; QCM = une ou plusieurs réponses exactes, QCS = une seule). La banque complète de l'item (13 questions : `QCM-INFE-0227` à `QCM-INFE-0239`) figure dans `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-02-lot2.json`.
+
+### QCM 1 — Cycle viral et cibles thérapeutiques (QCM, difficulté 1/3)
+
+Concernant le cycle de réplication du VIH et les cibles des antirétroviraux, quelles associations sont exactes ?
+
+- **A.** Transcriptase inverse — ténofovir, lamivudine, éfavirenz.
+- **B.** Intégrase — dolutégravir, raltégravir, cabotégravir.
+- **C.** Protéase — darunavir boosté par le ritonavir.
+- **D.** Capside — lénacapavir.
+- **E.** Corécepteur CCR5 — névirapine.
+
+**Réponse(s) exacte(s) : A, B, C, D**
+
+*Corrigé commenté.* Les INTI (ténofovir, lamivudine) et les INNTI (éfavirenz, névirapine, rilpivirine) inhibent la transcriptase inverse ; les INI (dolutégravir, raltégravir, cabotégravir) l'intégrase ; les IP (darunavir/r) la protéase ; le lénacapavir la capside. L'antagoniste de CCR5 est le maraviroc, pas la névirapine (INNTI).
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Vrai : inhibiteur de capside utilisé notamment en PrEP injectable.
+- E — Faux : la névirapine est un INNTI ; l'anti-CCR5 est le maraviroc.
+
+*Banque : `QCM-INFE-0227`*
+
+### QCM 2 — Immunopathologie (QCM, difficulté 2/3)
+
+Concernant l'immunopathologie de l'infection par le VIH, quelles propositions sont exactes ?
+
+- **A.** La primo-infection s'accompagne d'une déplétion précoce et massive des lymphocytes CD4 du tissu lymphoïde digestif.
+- **B.** La charge virale d'équilibre (« set point ») après la primo-infection a une valeur pronostique.
+- **C.** Les réservoirs de cellules CD4 mémoire porteuses d'un provirus intégré expliquent le rebond viral à l'arrêt du traitement.
+- **D.** Sous traitement efficace, l'activation immunitaire chronique disparaît complètement.
+- **E.** Le syndrome inflammatoire de reconstitution immunitaire peut démasquer une tuberculose après le début du traitement.
+
+**Réponse(s) exacte(s) : A, B, C, E**
+
+*Corrigé commenté.* La déplétion des CD4 muqueux est précoce ; le set point est pronostique ; les réservoirs latents ne sont pas accessibles au TAR, qui contrôle sans guérir ; une inflammation résiduelle persiste sous TAR (comorbidités) ; l'IRIS peut révéler ou aggraver une infection opportuniste.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Faux : une activation et une inflammation résiduelles persistent.
+- E — Vrai : d'où les délais d'initiation dans la tuberculose et la cryptococcose.
+
+*Banque : `QCM-INFE-0228`*
+
+### QCM 3 — Maladie VIH avancée (QCS, difficulté 1/3)
+
+Selon l'OMS, quelle définition de la maladie VIH avancée chez l'adulte est exacte ?
+
+- **A.** CD4 < 350/mm3 quel que soit le stade clinique.
+- **B.** CD4 < 200/mm3 ou stade clinique OMS 3 ou 4.
+- **C.** Charge virale > 100 000 copies/mL.
+- **D.** Présence d'une infection opportuniste classant sida exclusivement.
+- **E.** CD4 < 50/mm3 avec une rétinite à CMV.
+
+**Réponse(s) exacte(s) : B**
+
+*Corrigé commenté.* La maladie VIH avancée correspond, chez l'adulte et l'adolescent, à des CD4 < 200/mm3 ou à un stade clinique 3 ou 4 ; tout enfant de moins de 5 ans vivant avec le VIH est considéré comme ayant une maladie avancée. Elle justifie un paquet de soins (dépistage, prophylaxies, TAR rapide).
+
+- A — Faux : 350 est le seuil du cotrimoxazole.
+- B — Vrai.
+- C — Faux : critère non retenu.
+- D — Faux : définition plus large que le sida.
+- E — Faux : situation de maladie avancée, mais non la définition.
+
+*Banque : `QCM-INFE-0229`*
+
+### QCM 4 — Stratégie de dépistage (OMS) (QCM, difficulté 2/3)
+
+Concernant les stratégies de dépistage et de diagnostic de l'infection par le VIH recommandées par l'OMS, quelles propositions sont exactes ?
+
+- **A.** Lorsque la positivité des tests est inférieure à 5 %, trois tests consécutifs réactifs sont nécessaires pour poser le diagnostic.
+- **B.** Le premier test de l'algorithme doit être le plus sensible.
+- **C.** Toute personne nouvellement diagnostiquée doit être re-testée avant de débuter le traitement.
+- **D.** Le Western blot est recommandé en confirmation dans les stratégies nationales.
+- **E.** Le re-test d'une personne déjà sous traitement est recommandé pour vérifier le diagnostic.
+
+**Réponse(s) exacte(s) : A, B, C**
+
+*Corrigé commenté.* L'OMS recommande des algorithmes combinant des tests de sensibilité ≥ 99 % et de spécificité ≥ 98 %, le premier étant le plus sensible ; trois tests réactifs lorsque la positivité < 5 % ; un retest avant TAR. Le Western blot et l'immunoblot ne doivent pas être utilisés ; le retest sous TAR peut donner des résultats faussement négatifs.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Faux : déconseillé par l'OMS (divergence avec la pratique française).
+- E — Faux : risque de résultat faussement négatif sous TAR.
+
+*Banque : `QCM-INFE-0230`*
+
+### QCM 5 — Cadre réglementaire algérien (QCM, difficulté 1/3)
+
+Selon le décret exécutif algérien n°22-211 du 5 juin 2022, quelles infections sont concernées par le dépistage anonyme et gratuit ?
+
+- **A.** Infection à VIH/sida.
+- **B.** Hépatites virales B et C.
+- **C.** Syphilis.
+- **D.** Infection à papillomavirus humain.
+- **E.** Urétrite gonococcique et infection à Chlamydia.
+
+**Réponse(s) exacte(s) : A, B, C, E**
+
+*Corrigé commenté.* L'annexe du décret 22-211 liste : hépatite virale B, hépatite virale C, infection à Chlamydia, infection à VIH/sida, urétrite gonococcique et syphilis. Le dépistage se fait sous la responsabilité des structures publiques, le résultat étant remis par un médecin lors d'un entretien individuel. Le VIH est par ailleurs une MDO (décret 22-250).
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Faux : non listée.
+- E — Vrai.
+
+*Banque : `QCM-INFE-0231`*
+
+### QCM 6 — Délai d'initiation du TAR (QCM, difficulté 2/3)
+
+Concernant le moment d'initiation du traitement antirétroviral selon l'OMS, quelles propositions sont exactes ?
+
+- **A.** Le TAR est proposé à toute personne vivant avec le VIH, quel que soit son taux de CD4.
+- **B.** L'initiation rapide est définie par un début dans les 7 jours suivant le diagnostic.
+- **C.** En cas de tuberculose (hors méningite), le TAR débute le plus tôt possible dans les 2 semaines suivant le traitement antituberculeux.
+- **D.** En cas de méningite cryptococcique, le TAR est débuté immédiatement.
+- **E.** La personne peut être encouragée mais non contrainte à débuter le traitement.
+
+**Réponse(s) exacte(s) : A, B, C, E**
+
+*Corrigé commenté.* « Traiter tout le monde » ; initiation rapide (≤ 7 jours), le jour même si la personne est prête ; tuberculose : ≤ 2 semaines (sauf méningite) ; cryptococcose : différer de 4 à 6 semaines (surmortalité en cas d'initiation immédiate) ; soins centrés sur la personne.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Faux : différé de 4 à 6 semaines.
+- E — Vrai : bonne pratique de l'OMS.
+
+> Piège : Appliquer le délai de la tuberculose à la cryptococcose (et inversement).
+
+*Banque : `QCM-INFE-0232`*
+
+### QCM 7 — Schéma de première ligne (QCM, difficulté 2/3)
+
+Concernant le traitement antirétroviral de première ligne de l'adulte selon l'OMS, quelles propositions sont exactes ?
+
+- **A.** Le schéma préféré associe le dolutégravir à deux INTI, par exemple ténofovir + lamivudine + dolutégravir.
+- **B.** La combinaison TLD contient ténofovir 300 mg, lamivudine 300 mg et dolutégravir 50 mg, en une prise par jour.
+- **C.** Sous rifampicine, le dolutégravir est porté à 50 mg deux fois par jour.
+- **D.** L'éfavirenz à 400 mg est une alternative, à éviter si la résistance prétraitement aux INNTI atteint 10 %.
+- **E.** Le ténofovir alafénamide est contre-indiqué en première ligne.
+
+**Réponse(s) exacte(s) : A, B, C, D**
+
+*Corrigé commenté.* Première ligne préférée : DTG + 2 INTI (TLD) ; DTG 50 mg × 2/j sous rifampicine (et 2 semaines après son arrêt) ; EFV 400 mg en alternative en l'absence de résistance élevée aux INNTI. En 2025, l'OMS fait du TAF une alternative au TDF, le choix reposant sur des critères cliniques et programmatiques.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Vrai.
+- E — Faux : alternative au TDF (2025).
+
+*Banque : `QCM-INFE-0233`*
+
+### QCM 8 — Suivi virologique (QCM, difficulté 2/3)
+
+Un patient sous TLD depuis 8 mois a une charge virale à 4 200 copies/mL. Quelles propositions sont exactes selon l'OMS ?
+
+- **A.** Un renforcement de l'observance doit précéder un nouveau contrôle à 3 mois.
+- **B.** L'échec virologique est défini par une charge virale > 1 000 copies/mL sur deux mesures consécutives à 3 mois d'intervalle.
+- **C.** En cas d'échec confirmé sous dolutégravir, un IP boosté (darunavir/ritonavir de préférence) est recommandé.
+- **D.** Le ténofovir doit obligatoirement être remplacé par la zidovudine en deuxième ligne.
+- **E.** Chez un patient stable, la charge virale est contrôlée à 6 mois, à 12 mois puis tous les 12 mois.
+
+**Réponse(s) exacte(s) : A, B, C, E**
+
+*Corrigé commenté.* Une première charge virale > 1 000 copies/mL conduit à un soutien renforcé à l'observance puis à un contrôle à 3 mois ; l'échec est confirmé si elle reste > 1 000. Après échec d'un schéma à base de DTG : IP boosté, DRV/r préféré (2025), le TDF/TAF pouvant être recyclé. Rythme de suivi : 6 mois, 12 mois, puis annuel.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai : recommandation de 2025.
+- D — Faux : le ténofovir peut être réutilisé (OMS 2025).
+- E — Vrai.
+
+*Banque : `QCM-INFE-0234`*
+
+### QCM 9 — Co-infection VIH–VHB et simplification (QCM, difficulté 3/3)
+
+Concernant la co-infection VIH–VHB et les stratégies de simplification (OMS 2025), quelles propositions sont exactes ?
+
+- **A.** Le schéma doit comporter du ténofovir (TDF ou TAF) associé à la lamivudine ou à l'emtricitabine.
+- **B.** La bithérapie dolutégravir + lamivudine est une option de simplification uniquement en l'absence d'hépatite B active.
+- **C.** L'association injectable cabotégravir + rilpivirine est une option de relais en l'absence d'hépatite B active.
+- **D.** La bithérapie dolutégravir + lamivudine est recommandée en première intention chez tout patient naïf avec hépatite B.
+- **E.** L'arrêt du ténofovir chez un co-infecté expose à une réactivation de l'hépatite B.
+
+**Réponse(s) exacte(s) : A, B, C, E**
+
+*Corrigé commenté.* Le ténofovir (TDF ou TAF) et la 3TC/FTC sont actifs sur le VHB et indispensables chez le co-infecté. Les stratégies DTG + 3TC et CAB + RPV sont réservées aux personnes stables sans hépatite B active ; l'arrêt du ténofovir expose à une réactivation (flare) du VHB.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Faux : contre-indiquée dans cette situation.
+- E — Vrai.
+
+*Banque : `QCM-INFE-0235`*
+
+### QCM 10 — Cryptococcose neuroméningée (QCM, difficulté 3/3)
+
+Concernant la cryptococcose chez une personne vivant avec le VIH, quelles propositions sont exactes selon l'OMS ?
+
+- **A.** Le dépistage de l'antigène cryptococcique est recommandé avant le TAR si les CD4 sont < 100/mm3.
+- **B.** Le traitement d'induction préféré (2022) associe une dose unique d'amphotéricine B liposomale à 10 mg/kg, de la flucytosine et du fluconazole pendant 14 jours.
+- **C.** Une corticothérapie adjuvante systématique est recommandée pendant l'induction.
+- **D.** La consolidation repose sur le fluconazole pendant 8 semaines.
+- **E.** La ponction lombaire avec mesure de la pression d'ouverture et antigène cryptococcique dans le LCR est l'approche diagnostique préférée.
+
+**Réponse(s) exacte(s) : A, B, D, E**
+
+*Corrigé commenté.* CrAg si CD4 < 100 (à envisager < 200) avec traitement préemptif ; induction préférée 2022 : AmB liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j + fluconazole 1 200 mg/j pendant 14 jours ; consolidation fluconazole 400–800 mg/j 8 semaines, entretien 200 mg/j ; pas de corticoïdes ; TAR différé de 4 à 6 semaines.
+
+- A — Vrai.
+- B — Vrai.
+- C — Faux : non recommandée (recommandation forte).
+- D — Vrai.
+- E — Vrai.
+
+*Banque : `QCM-INFE-0236`*
+
+<!--QCM20:end-->
 
 ---
 

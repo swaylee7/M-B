@@ -1,0 +1,122 @@
+{
+  "id": "AUD-01",
+  "lot": "DOS-10",
+  "statut": "lot_audite",
+  "derniere_execution": "2026-11-19T03:45:17+00:00",
+  "dossiers": {
+    "DOS-PSYC-0001": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 9
+      },
+      "marqueurs_posologie_restants": 1,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0001.md"
+    },
+    "DOS-PSYC-0002": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 6
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0002.md"
+    },
+    "DOS-MLEG-0001": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 2,
+        "mineures": 10
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MLEG-0001.md"
+    },
+    "DOS-MLEG-0002": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 8
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MLEG-0002.md"
+    },
+    "DOS-MTRA-0001": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 3,
+        "mineures": 9
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-MTRA-0001.md"
+    }
+  },
+  "lots": {
+    "qcm": {
+      "fichier": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-10.json",
+      "total": 61,
+      "corriges": [
+        "QCM-MLEG-1009",
+        "QCM-MLEG-1010",
+        "QCM-MLEG-1011",
+        "QCM-MTRA-1001",
+        "QCM-MTRA-1003",
+        "QCM-MTRA-1012"
+      ],
+      "audite_valide": 61
+    },
+    "cas": {
+      "fichier": "20_CAS_CLINIQUES/lots/DOS-10.json",
+      "total": 10,
+      "corriges": [
+        "CAS-PSYC-1002",
+        "CAS-PSYC-1003",
+        "CAS-PSYC-1004",
+        "CAS-MLEG-1004",
+        "CAS-MTRA-1001",
+        "CAS-MTRA-1002"
+      ],
+      "audite_valide": 9,
+      "audite_corrections_requises": [
+        "CAS-PSYC-1002"
+      ]
+    }
+  },
+  "acquisitions_associees": [
+    "DOC-00103",
+    "DOC-00104",
+    "DOC-00105",
+    "DOC-00106",
+    "DOC-00107",
+    "DOC-00108",
+    "DOC-00109",
+    "DOC-00110",
+    "DOC-00111",
+    "DOC-00112",
+    "DOC-00113"
+  ],
+  "marqueurs": {
+    "leves": 11,
+    "restants": [
+      "DOS-PSYC-0001 § 14.3 : traitement spécifique du syndrome malin",
+      "CAS-PSYC-1002 : idem"
+    ]
+  },
+  "verification_DOC-00077": "aucune désignation erronée trouvée (décret exécutif 22-178)",
+  "taches_suivantes": [
+    "Sourcer les posologies du traitement spécifique du syndrome malin des neuroleptiques (référence de réanimation ou revue de référence lisible)",
+    "Confronter les posologies issues des RCP européens/britanniques aux RCP des spécialités enregistrées en Algérie",
+    "Acquérir le mhGAP-IG 2.0 (iris.who.int bloqué par contrôle anti-robot pendant la session) et le protocole national rage/tétanos",
+    "Vérifier les éventuelles modifications du code pénal postérieures à avril 2024 et de la loi 83-13 postérieures à 1996",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
+  ]
+}

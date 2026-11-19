@@ -1339,6 +1339,1355 @@
       "auteur": "DOS-02",
       "date_creation": "2026-11-19",
       "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0227",
+      "format": "QCM",
+      "enonce": "Concernant le cycle de réplication du VIH et les cibles des antirétroviraux, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "Transcriptase inverse — ténofovir, lamivudine, éfavirenz.",
+        "B": "Intégrase — dolutégravir, raltégravir, cabotégravir.",
+        "C": "Protéase — darunavir boosté par le ritonavir.",
+        "D": "Capside — lénacapavir.",
+        "E": "Corécepteur CCR5 — névirapine."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les INTI (ténofovir, lamivudine) et les INNTI (éfavirenz, névirapine, rilpivirine) inhibent la transcriptase inverse ; les INI (dolutégravir, raltégravir, cabotégravir) l'intégrase ; les IP (darunavir/r) la protéase ; le lénacapavir la capside. L'antagoniste de CCR5 est le maraviroc, pas la névirapine (INNTI).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : inhibiteur de capside utilisé notamment en PrEP injectable.",
+        "E": "Faux : la névirapine est un INNTI ; l'anti-CCR5 est le maraviroc."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Cycle viral et cibles thérapeutiques",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0228",
+      "format": "QCM",
+      "enonce": "Concernant l'immunopathologie de l'infection par le VIH, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La primo-infection s'accompagne d'une déplétion précoce et massive des lymphocytes CD4 du tissu lymphoïde digestif.",
+        "B": "La charge virale d'équilibre (« set point ») après la primo-infection a une valeur pronostique.",
+        "C": "Les réservoirs de cellules CD4 mémoire porteuses d'un provirus intégré expliquent le rebond viral à l'arrêt du traitement.",
+        "D": "Sous traitement efficace, l'activation immunitaire chronique disparaît complètement.",
+        "E": "Le syndrome inflammatoire de reconstitution immunitaire peut démasquer une tuberculose après le début du traitement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "La déplétion des CD4 muqueux est précoce ; le set point est pronostique ; les réservoirs latents ne sont pas accessibles au TAR, qui contrôle sans guérir ; une inflammation résiduelle persiste sous TAR (comorbidités) ; l'IRIS peut révéler ou aggraver une infection opportuniste.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : une activation et une inflammation résiduelles persistent.",
+        "E": "Vrai : d'où les délais d'initiation dans la tuberculose et la cryptococcose."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Immunopathologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0229",
+      "format": "QCS",
+      "enonce": "Selon l'OMS, quelle définition de la maladie VIH avancée chez l'adulte est exacte ?",
+      "propositions": {
+        "A": "CD4 < 350/mm3 quel que soit le stade clinique.",
+        "B": "CD4 < 200/mm3 ou stade clinique OMS 3 ou 4.",
+        "C": "Charge virale > 100 000 copies/mL.",
+        "D": "Présence d'une infection opportuniste classant sida exclusivement.",
+        "E": "CD4 < 50/mm3 avec une rétinite à CMV."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La maladie VIH avancée correspond, chez l'adulte et l'adolescent, à des CD4 < 200/mm3 ou à un stade clinique 3 ou 4 ; tout enfant de moins de 5 ans vivant avec le VIH est considéré comme ayant une maladie avancée. Elle justifie un paquet de soins (dépistage, prophylaxies, TAR rapide).",
+      "explications_par_proposition": {
+        "A": "Faux : 350 est le seuil du cotrimoxazole.",
+        "B": "Vrai.",
+        "C": "Faux : critère non retenu.",
+        "D": "Faux : définition plus large que le sida.",
+        "E": "Faux : situation de maladie avancée, mais non la définition."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Maladie VIH avancée",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0230",
+      "format": "QCM",
+      "enonce": "Concernant les stratégies de dépistage et de diagnostic de l'infection par le VIH recommandées par l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Lorsque la positivité des tests est inférieure à 5 %, trois tests consécutifs réactifs sont nécessaires pour poser le diagnostic.",
+        "B": "Le premier test de l'algorithme doit être le plus sensible.",
+        "C": "Toute personne nouvellement diagnostiquée doit être re-testée avant de débuter le traitement.",
+        "D": "Le Western blot est recommandé en confirmation dans les stratégies nationales.",
+        "E": "Le re-test d'une personne déjà sous traitement est recommandé pour vérifier le diagnostic."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'OMS recommande des algorithmes combinant des tests de sensibilité ≥ 99 % et de spécificité ≥ 98 %, le premier étant le plus sensible ; trois tests réactifs lorsque la positivité < 5 % ; un retest avant TAR. Le Western blot et l'immunoblot ne doivent pas être utilisés ; le retest sous TAR peut donner des résultats faussement négatifs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : déconseillé par l'OMS (divergence avec la pratique française).",
+        "E": "Faux : risque de résultat faussement négatif sous TAR."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Stratégie de dépistage (OMS)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0231",
+      "format": "QCM",
+      "enonce": "Selon le décret exécutif algérien n°22-211 du 5 juin 2022, quelles infections sont concernées par le dépistage anonyme et gratuit ?",
+      "propositions": {
+        "A": "Infection à VIH/sida.",
+        "B": "Hépatites virales B et C.",
+        "C": "Syphilis.",
+        "D": "Infection à papillomavirus humain.",
+        "E": "Urétrite gonococcique et infection à Chlamydia."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'annexe du décret 22-211 liste : hépatite virale B, hépatite virale C, infection à Chlamydia, infection à VIH/sida, urétrite gonococcique et syphilis. Le dépistage se fait sous la responsabilité des structures publiques, le résultat étant remis par un médecin lors d'un entretien individuel. Le VIH est par ailleurs une MDO (décret 22-250).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : non listée.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Cadre réglementaire algérien",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Décret exécutif n°22-211 du 5 juin 2022 (dépistage anonyme et gratuit), JORADP n°40/2022 — DOC-00073",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0232",
+      "format": "QCM",
+      "enonce": "Concernant le moment d'initiation du traitement antirétroviral selon l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le TAR est proposé à toute personne vivant avec le VIH, quel que soit son taux de CD4.",
+        "B": "L'initiation rapide est définie par un début dans les 7 jours suivant le diagnostic.",
+        "C": "En cas de tuberculose (hors méningite), le TAR débute le plus tôt possible dans les 2 semaines suivant le traitement antituberculeux.",
+        "D": "En cas de méningite cryptococcique, le TAR est débuté immédiatement.",
+        "E": "La personne peut être encouragée mais non contrainte à débuter le traitement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "« Traiter tout le monde » ; initiation rapide (≤ 7 jours), le jour même si la personne est prête ; tuberculose : ≤ 2 semaines (sauf méningite) ; cryptococcose : différer de 4 à 6 semaines (surmortalité en cas d'initiation immédiate) ; soins centrés sur la personne.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : différé de 4 à 6 semaines.",
+        "E": "Vrai : bonne pratique de l'OMS."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Délai d'initiation du TAR",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Appliquer le délai de la tuberculose à la cryptococcose (et inversement).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0233",
+      "format": "QCM",
+      "enonce": "Concernant le traitement antirétroviral de première ligne de l'adulte selon l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le schéma préféré associe le dolutégravir à deux INTI, par exemple ténofovir + lamivudine + dolutégravir.",
+        "B": "La combinaison TLD contient ténofovir 300 mg, lamivudine 300 mg et dolutégravir 50 mg, en une prise par jour.",
+        "C": "Sous rifampicine, le dolutégravir est porté à 50 mg deux fois par jour.",
+        "D": "L'éfavirenz à 400 mg est une alternative, à éviter si la résistance prétraitement aux INNTI atteint 10 %.",
+        "E": "Le ténofovir alafénamide est contre-indiqué en première ligne."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Première ligne préférée : DTG + 2 INTI (TLD) ; DTG 50 mg × 2/j sous rifampicine (et 2 semaines après son arrêt) ; EFV 400 mg en alternative en l'absence de résistance élevée aux INNTI. En 2025, l'OMS fait du TAF une alternative au TDF, le choix reposant sur des critères cliniques et programmatiques.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : alternative au TDF (2025)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Schéma de première ligne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0234",
+      "format": "QCM",
+      "enonce": "Un patient sous TLD depuis 8 mois a une charge virale à 4 200 copies/mL. Quelles propositions sont exactes selon l'OMS ?",
+      "propositions": {
+        "A": "Un renforcement de l'observance doit précéder un nouveau contrôle à 3 mois.",
+        "B": "L'échec virologique est défini par une charge virale > 1 000 copies/mL sur deux mesures consécutives à 3 mois d'intervalle.",
+        "C": "En cas d'échec confirmé sous dolutégravir, un IP boosté (darunavir/ritonavir de préférence) est recommandé.",
+        "D": "Le ténofovir doit obligatoirement être remplacé par la zidovudine en deuxième ligne.",
+        "E": "Chez un patient stable, la charge virale est contrôlée à 6 mois, à 12 mois puis tous les 12 mois."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Une première charge virale > 1 000 copies/mL conduit à un soutien renforcé à l'observance puis à un contrôle à 3 mois ; l'échec est confirmé si elle reste > 1 000. Après échec d'un schéma à base de DTG : IP boosté, DRV/r préféré (2025), le TDF/TAF pouvant être recyclé. Rythme de suivi : 6 mois, 12 mois, puis annuel.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : recommandation de 2025.",
+        "D": "Faux : le ténofovir peut être réutilisé (OMS 2025).",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Suivi virologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0235",
+      "format": "QCM",
+      "enonce": "Concernant la co-infection VIH–VHB et les stratégies de simplification (OMS 2025), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le schéma doit comporter du ténofovir (TDF ou TAF) associé à la lamivudine ou à l'emtricitabine.",
+        "B": "La bithérapie dolutégravir + lamivudine est une option de simplification uniquement en l'absence d'hépatite B active.",
+        "C": "L'association injectable cabotégravir + rilpivirine est une option de relais en l'absence d'hépatite B active.",
+        "D": "La bithérapie dolutégravir + lamivudine est recommandée en première intention chez tout patient naïf avec hépatite B.",
+        "E": "L'arrêt du ténofovir chez un co-infecté expose à une réactivation de l'hépatite B."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le ténofovir (TDF ou TAF) et la 3TC/FTC sont actifs sur le VHB et indispensables chez le co-infecté. Les stratégies DTG + 3TC et CAB + RPV sont réservées aux personnes stables sans hépatite B active ; l'arrêt du ténofovir expose à une réactivation (flare) du VHB.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : contre-indiquée dans cette situation.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Co-infection VIH–VHB et simplification",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0236",
+      "format": "QCM",
+      "enonce": "Concernant la cryptococcose chez une personne vivant avec le VIH, quelles propositions sont exactes selon l'OMS ?",
+      "propositions": {
+        "A": "Le dépistage de l'antigène cryptococcique est recommandé avant le TAR si les CD4 sont < 100/mm3.",
+        "B": "Le traitement d'induction préféré (2022) associe une dose unique d'amphotéricine B liposomale à 10 mg/kg, de la flucytosine et du fluconazole pendant 14 jours.",
+        "C": "Une corticothérapie adjuvante systématique est recommandée pendant l'induction.",
+        "D": "La consolidation repose sur le fluconazole pendant 8 semaines.",
+        "E": "La ponction lombaire avec mesure de la pression d'ouverture et antigène cryptococcique dans le LCR est l'approche diagnostique préférée."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "CrAg si CD4 < 100 (à envisager < 200) avec traitement préemptif ; induction préférée 2022 : AmB liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j + fluconazole 1 200 mg/j pendant 14 jours ; consolidation fluconazole 400–800 mg/j 8 semaines, entretien 200 mg/j ; pas de corticoïdes ; TAR différé de 4 à 6 semaines.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : non recommandée (recommandation forte).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Cryptococcose neuroméningée",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. Guidelines for diagnosing, preventing and managing cryptococcal disease among people living with HIV (2022)",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0237",
+      "format": "QCM",
+      "enonce": "Concernant la prophylaxie pré-exposition (PrEP) du VIH, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La PrEP orale contenant du ténofovir disoproxil est recommandée aux personnes à risque substantiel d'infection.",
+        "B": "Le schéma « 2+1+1 » comporte 2 comprimés 2 à 24 h avant le rapport puis 1 comprimé à 24 h et 1 à 48 h après la première prise.",
+        "C": "Le schéma « 2+1+1 » est validé pour les hommes cisgenres ayant des rapports avec des hommes.",
+        "D": "Chez une femme cisgenre, la PrEP orale à la demande est le schéma recommandé.",
+        "E": "Depuis juillet 2025, l'OMS recommande le lénacapavir injectable deux fois par an comme option additionnelle de PrEP."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "PrEP orale TDF (quotidienne) ; schéma événementiel 2+1+1 réservé aux HSH cisgenres ; les autres populations doivent prendre la PrEP 7 jours consécutifs pour atteindre une protection ; anneau à la dapivirine pour les femmes cisgenres ; cabotégravir et lénacapavir injectables (OMS, 14 juillet 2025).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : prise quotidienne (pas de schéma à la demande validé pour les rapports vaginaux).",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Prophylaxie pré-exposition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO recommends injectable lenacapavir for HIV prevention (communiqué du 14 juillet 2025)",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0238",
+      "format": "QCM",
+      "enonce": "Une infirmière se pique profondément avec une aiguille creuse ayant servi chez un patient vivant avec le VIH non traité. Quelles propositions sont exactes (OMS) ?",
+      "propositions": {
+        "A": "La PPE doit débuter le plus tôt possible, au plus tard 72 heures après l'exposition.",
+        "B": "La durée de la PPE est de 28 jours.",
+        "C": "Le schéma préféré de l'adulte associe ténofovir + lamivudine (ou emtricitabine) + dolutégravir.",
+        "D": "Une bithérapie est préférée à une trithérapie pour limiter les effets indésirables.",
+        "E": "Un test VIH initial de la personne exposée est nécessaire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "PPE : le plus tôt possible, ≤ 72 h, 28 jours ; trithérapie préférée (TDF + 3TC/FTC + DTG) ; test VIH initial et suivi ; évaluation des risques VHB et VHC.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : la trithérapie est préférée (la bithérapie est efficace mais non préférée).",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Prophylaxie post-exposition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0239",
+      "format": "QCM",
+      "enonce": "Concernant la prévention de la transmission mère-enfant du VIH selon l'OMS (2021, mise à jour 2025), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le TAR doit être débuté en urgence chez toute femme enceinte ou allaitante vivant avec le VIH, même diagnostiquée tard.",
+        "B": "Un nourrisson dont la mère est sous TAR et qui n'est pas à haut risque reçoit 6 semaines de névirapine.",
+        "C": "Un nourrisson né d'une mère ayant reçu moins de 4 semaines de TAR avant l'accouchement est considéré à haut risque.",
+        "D": "Une mère sous TAR en suppression virale doit se voir proposer l'option d'allaiter, même là où la politique nationale prône l'alimentation de substitution.",
+        "E": "Le cotrimoxazole est contre-indiqué chez le nourrisson exposé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "TAR maternel urgent ; prophylaxie du nourrisson par une molécule (névirapine de préférence) 6 semaines si risque non élevé ; trithérapie de 6 semaines si haut risque (moins de 4 semaines de TAR maternel, charge virale > 1 000 copies/mL dans les 4 semaines avant l'accouchement, infection maternelle récente, diagnostic post-partum) ; allaitement soutenu chez la mère en suppression virale ; cotrimoxazole dès 4–6 semaines chez le nourrisson exposé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : névirapine préférée (DTG ou 3TC en alternatives).",
+        "C": "Vrai.",
+        "D": "Vrai : mise à jour 2025.",
+        "E": "Faux : recommandé dès 4 à 6 semaines jusqu'au diagnostic final."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-006"
+      ],
+      "theme": "Prévention de la transmission mère-enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring (2021) — DOC-00029",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. WHO updated recommendations on HIV clinical management (2025) — DOC-00057",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0005"
+    },
+    {
+      "id": "QCM-INFE-0240",
+      "format": "QCM",
+      "enonce": "Concernant la terminologie des états infectieux graves, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une bactériémie correspond à la présence de bactéries viables dans le sang, attestée par une hémoculture positive.",
+        "B": "Selon Sepsis-3, le sepsis est une dysfonction d'organe menaçant le pronostic vital liée à une réponse dérégulée de l'hôte à une infection.",
+        "C": "Le terme « sepsis sévère » a été conservé par Sepsis-3 pour désigner le sepsis avec hypotension.",
+        "D": "Les critères du SRIS ne définissent plus le sepsis mais peuvent servir au dépistage.",
+        "E": "Une bactériémie transitoire peut être asymptomatique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Sepsis-3 (2016) définit le sepsis par la dysfonction d'organe (ΔSOFA ≥ 2) liée à une réponse dérégulée de l'hôte ; le terme « sepsis sévère » est abandonné ; le SRIS reste un outil de repérage. La bactériémie est un constat microbiologique, parfois transitoire et sans conséquence.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : terme abandonné.",
+        "D": "Vrai.",
+        "E": "Vrai : par exemple après des soins dentaires."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Définitions — bactériémie, septicémie, sepsis",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Singer M, et al. Sepsis-3. JAMA 2016;315(8):801-810",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0241",
+      "format": "QCM",
+      "enonce": "Quels paramètres font partie du score SOFA utilisé pour définir le sepsis ?",
+      "propositions": {
+        "A": "Rapport PaO2/FiO2.",
+        "B": "Numération plaquettaire.",
+        "C": "Bilirubinémie.",
+        "D": "Lactatémie.",
+        "E": "Créatininémie ou diurèse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le SOFA explore six systèmes : respiratoire (PaO2/FiO2), coagulation (plaquettes), foie (bilirubine), cardiovasculaire (PAM, catécholamines), neurologique (Glasgow), rénal (créatinine ou diurèse). Le lactate n'en fait pas partie ; il intervient dans la définition du choc septique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : critère du choc septique, non du SOFA.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Score SOFA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre les composantes du SOFA avec les critères du choc septique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Singer M, et al. Sepsis-3. JAMA 2016;315(8):801-810",
+          "date": "2016"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0242",
+      "format": "QCM",
+      "enonce": "Concernant le qSOFA et les outils de repérage du sepsis, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le qSOFA comprend une fréquence respiratoire ≥ 22/min, une altération de la conscience et une PAS ≤ 100 mmHg.",
+        "B": "Un qSOFA ≥ 2 hors réanimation identifie des patients à risque accru de mauvaise évolution.",
+        "C": "La SSC 2021 recommande de ne pas utiliser le qSOFA comme outil de dépistage unique, en comparaison du SIRS, du NEWS ou du MEWS.",
+        "D": "Un qSOFA à 0 permet d'exclure un sepsis.",
+        "E": "Le NICE recommande le score NEWS2 pour stratifier le risque chez l'adulte hospitalisé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Le qSOFA est un outil pronostique simple, peu sensible : il ne doit pas être utilisé seul pour dépister (SSC 2021, position renforcée en 2026). Le NICE utilise le NEWS2. Un qSOFA négatif n'exclut pas un sepsis.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : sensibilité insuffisante.",
+        "E": "Vrai : mise à jour 2024 de la NG51."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Outils de dépistage",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Singer M, et al. Sepsis-3. JAMA 2016;315(8):801-810",
+          "date": "2016"
+        },
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "NICE. Suspected sepsis: recognition, diagnosis and early management (NG51), mise à jour 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0243",
+      "format": "QCM",
+      "enonce": "Concernant les prélèvements microbiologiques au cours d'un sepsis, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les hémocultures doivent être prélevées avant les antibiotiques si cela ne retarde pas leur administration.",
+        "B": "Une hémoculture positive à Staphylococcus aureus doit toujours être considérée comme significative.",
+        "C": "Une bactériémie à S. aureus, à streptocoque ou à entérocoque doit faire rechercher une endocardite.",
+        "D": "Un staphylocoque à coagulase négative dans une seule paire chez un patient sans matériel est le plus souvent une contamination.",
+        "E": "La sensibilité des hémocultures est indépendante du volume de sang prélevé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Hémocultures (au moins 2 paires) avant les antibiotiques sans les retarder ; S. aureus n'est jamais un contaminant ; streptocoques, entérocoques et S. aureus imposent la recherche d'une endocardite ; les staphylocoques à coagulase négative isolés une seule fois sont souvent des contaminants ; le rendement dépend du volume prélevé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : échocardiographie.",
+        "D": "Vrai.",
+        "E": "Faux : le volume est un déterminant majeur du rendement."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Prélèvements microbiologiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0244",
+      "format": "QCM",
+      "enonce": "Selon la Surviving Sepsis Campaign 2021, quelles propositions concernant le délai d'administration des antibiotiques sont exactes ?",
+      "propositions": {
+        "A": "En cas de choc septique possible ou de sepsis probable, les antibiotiques sont administrés immédiatement, idéalement dans l'heure.",
+        "B": "En cas de sepsis possible sans choc, une évaluation rapide est réalisée et, si la suspicion persiste, les antibiotiques sont donnés dans les 3 heures.",
+        "C": "Chez un patient sans choc avec une faible probabilité d'infection, il est suggéré de différer les antibiotiques en poursuivant la surveillance.",
+        "D": "La procalcitonine est recommandée pour décider du début de l'antibiothérapie.",
+        "E": "Les résultats de l'imagerie doivent être obtenus avant la première dose d'antibiotique."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "La SSC 2021 propose une approche graduée selon la probabilité d'infection et la présence d'un choc : ≤ 1 h (choc ou sepsis probable), ≤ 3 h (sepsis possible sans choc), report possible si faible probabilité. Elle suggère de ne pas utiliser la PCT pour décider du début des antibiotiques ; l'imagerie ne doit pas retarder le traitement.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : utilisation suggérée pour l'arrêt, non pour le début.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Délai de l'antibiothérapie (SSC 2021)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0245",
+      "format": "QCM",
+      "enonce": "Un patient présente un choc septique sur péritonite communautaire. Parmi les options proposées par l'OMS (livre AWaRe 2022), lesquelles sont exactes ?",
+      "propositions": {
+        "A": "Céfotaxime 2 g toutes les 8 h IV + métronidazole 500 mg toutes les 8 h IV.",
+        "B": "Ceftriaxone 2 g/24 h IV + métronidazole 500 mg toutes les 8 h IV.",
+        "C": "Pipéracilline-tazobactam 4 g/0,5 g toutes les 6 h IV.",
+        "D": "Méropénem en deuxième choix lorsque des entérobactéries productrices de BLSE sont à craindre.",
+        "E": "Amoxicilline orale seule."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pour les infections intra-abdominales graves, l'OMS propose C3G + métronidazole ou pipéracilline-tazobactam en premier choix, et le méropénem en second choix (activité sur les BLSE). Le contrôle chirurgical de la source reste indispensable.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : inadaptée à une péritonite avec choc."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Antibiothérapie probabiliste — foyer intra-abdominal",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0246",
+      "format": "QCM",
+      "enonce": "Selon l'OMS (AWaRe 2022), quelle est l'approche probabiliste d'un sepsis de l'adulte sans foyer identifié (fonction rénale normale) ?",
+      "propositions": {
+        "A": "Céfotaxime 2 g/8 h ou ceftriaxone 2 g/24 h IV.",
+        "B": "Associée à l'amikacine 15 mg/kg/24 h ou à la gentamicine 5 mg/kg/24 h IV.",
+        "C": "L'amikacine conserve une activité sur de nombreuses souches productrices de BLSE et constitue une option d'épargne des carbapénèmes.",
+        "D": "Durée indicative de 7 jours.",
+        "E": "La vancomycine doit être associée systématiquement."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pour le sepsis sans foyer, l'OMS propose une C3G associée à un aminoside en dose unique journalière, 7 jours ; la vancomycine n'est ajoutée qu'en cas de suspicion de SARM (par exemple infection cutanée).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : seulement si SARM suspecté."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Sepsis sans foyer identifié",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0247",
+      "format": "QCS",
+      "enonce": "Une femme de 55 ans présente un choc septique sur pyélonéphrite avec une dilatation pyélocalicielle droite due à un calcul urétéral. En plus de l'antibiothérapie et de la réanimation, quelle mesure est prioritaire ?",
+      "propositions": {
+        "A": "Une échographie de contrôle à J7.",
+        "B": "Le drainage urgent des urines en amont de l'obstacle (sonde JJ ou néphrostomie).",
+        "C": "La lithotritie extracorporelle immédiate.",
+        "D": "L'attente des résultats de l'antibiogramme avant tout geste.",
+        "E": "Une corticothérapie à forte dose."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La pyélonéphrite obstructive est une urgence de contrôle de la source : drainage des urines (sonde double J ou néphrostomie percutanée) dès que possible, le traitement du calcul étant différé.",
+      "explications_par_proposition": {
+        "A": "Faux : retard inacceptable.",
+        "B": "Vrai.",
+        "C": "Faux : contre-indiquée en phase infectieuse.",
+        "D": "Faux.",
+        "E": "Faux : hors indication (l'hydrocortisone ne concerne que le choc réfractaire)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Contrôle de la source",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que les antibiotiques suffisent en présence d'un obstacle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0248",
+      "format": "QCM",
+      "enonce": "Concernant le remplissage initial au cours d'un sepsis avec hypoperfusion selon la SSC 2021, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il est suggéré d'administrer au moins 30 mL/kg de cristalloïdes dans les 3 premières heures.",
+        "B": "Les solutés balancés sont suggérés de préférence au sérum salé isotonique.",
+        "C": "Les hydroxyéthylamidons sont recommandés en cas de choc.",
+        "D": "L'albumine peut être utilisée chez les patients ayant reçu de grands volumes de cristalloïdes.",
+        "E": "La réévaluation repose sur des indices dynamiques, le temps de recoloration capillaire et l'évolution du lactate."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "SSC 2021 : ≥ 30 mL/kg de cristalloïdes en 3 h (suggestion, certitude faible ; maintenue en 2026 avec un poids ajusté si IMC > 30), solutés balancés, albumine si grands volumes, pas d'hydroxyéthylamidons (recommandation forte), réévaluation dynamique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : proscrits (recommandation forte contre).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Remplissage vasculaire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "Prescott HC, et al. Surviving Sepsis Campaign guidelines 2026. Intensive Care Med 2026;52(5):863-936 (texte non lu)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0249",
+      "format": "QCM",
+      "enonce": "Concernant le traitement du choc septique de l'adulte (SSC 2021), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La cible initiale de PAM est de 65 mmHg.",
+        "B": "La noradrénaline est le vasopresseur de première intention.",
+        "C": "L'ajout de vasopressine est suggéré plutôt que l'escalade de la noradrénaline.",
+        "D": "L'hydrocortisone 200 mg/j est suggérée si la noradrénaline ou l'adrénaline atteint au moins 0,25 µg/kg/min au moins 4 heures après le début du vasopresseur.",
+        "E": "La dopamine est préférée à la noradrénaline chez le sujet âgé."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "PAM 65 mmHg ; noradrénaline en première ligne ; vasopressine ajoutée (en pratique vers 0,25–0,5 µg/kg/min de noradrénaline) ; dobutamine ou adrénaline en cas de dysfonction cardiaque ; hydrocortisone 200 mg/j (50 mg/6 h ou continu) si besoin persistant de vasopresseurs. La dopamine n'est pas recommandée en première intention.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : certitude abaissée en 2026 selon les synthèses.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Vasopresseurs et corticoïdes",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "Prescott HC, et al. Surviving Sepsis Campaign guidelines 2026. Intensive Care Med 2026;52(5):863-936 (texte non lu)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0250",
+      "format": "QCS",
+      "enonce": "Selon la SSC 2021, quelle est la place de la procalcitonine au cours du sepsis ?",
+      "propositions": {
+        "A": "Décider seule de débuter ou non l'antibiothérapie.",
+        "B": "Aider, avec l'évaluation clinique, à décider de l'arrêt des antibiotiques.",
+        "C": "Remplacer les hémocultures.",
+        "D": "Définir le choc septique.",
+        "E": "Choisir la molécule antibiotique probabiliste."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "La SSC 2021 suggère de ne pas utiliser la PCT avec la clinique pour décider du début des antibiotiques, mais de l'utiliser avec l'évaluation clinique pour décider de leur arrêt lorsque la durée optimale est incertaine.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux : PAM, vasopresseur et lactate.",
+        "E": "Faux."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Procalcitonine",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0251",
+      "format": "QCM",
+      "enonce": "Concernant les critères internationaux du sepsis de l'enfant publiés en 2024 (critères de Phoenix), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le sepsis est défini chez un enfant suspect d'infection par un score de Phoenix ≥ 2.",
+        "B": "Le score explore notamment les dysfonctions respiratoire, cardiovasculaire, de la coagulation et neurologique.",
+        "C": "Le choc septique est un sepsis avec au moins un point cardiovasculaire.",
+        "D": "Ces critères reprennent à l'identique les critères pédiatriques de 2005 fondés sur le SRIS.",
+        "E": "Le score a été développé à partir de données de plus de 3 millions de prises en charge pédiatriques."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les critères de Phoenix (JAMA 2024) remplacent les critères de 2005 fondés sur le SRIS : sepsis = score ≥ 2 chez l'enfant suspect d'infection ; choc septique = sepsis avec ≥ 1 point cardiovasculaire ; développement sur plus de 3 millions de prises en charge.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : ils les remplacent.",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Sepsis de l'enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Schlapbach LJ, et al. International consensus criteria for pediatric sepsis and septic shock. JAMA 2024;331(8):665-674",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
+    },
+    {
+      "id": "QCM-INFE-0252",
+      "format": "QCM",
+      "enonce": "Au troisième jour d'un sepsis à Escherichia coli sensible à la ceftriaxone, d'origine urinaire, chez un patient amélioré, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'antibiothérapie doit être réévaluée chaque jour en vue d'une désescalade.",
+        "B": "Une durée courte est suggérée plutôt qu'une durée longue lorsque le foyer est contrôlé.",
+        "C": "Un relais oral adapté à l'antibiogramme peut être envisagé si le patient est stable et tolère la voie orale.",
+        "D": "L'aminoside associé doit être poursuivi pendant toute la durée du traitement.",
+        "E": "En Algérie, les infections à bactéries multirésistantes sont à déclaration obligatoire."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Réévaluation quotidienne et désescalade, durée courte (7 jours pour un sepsis urinaire selon l'OMS), relais oral adapté ; l'aminoside n'a d'intérêt qu'en probabiliste et doit être arrêté dès que possible (néphrotoxicité). Le décret 22-250 a rendu à déclaration obligatoire les infections à BMR.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : arrêt après 1 à quelques jours selon l'antibiogramme [À VÉRIFIER — durée].",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-004"
+      ],
+      "theme": "Réévaluation et santé publique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Evans L, et al. Surviving Sepsis Campaign guidelines 2021. Intensive Care Med 2021;47(11):1181-1247",
+          "date": "2021"
+        },
+        {
+          "reference": "OMS. The WHO AWaRe antibiotic book (2022), chap. 24 « Sepsis in adults » — DOC-00039",
+          "date": "2022"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0006"
     }
   ]
 }

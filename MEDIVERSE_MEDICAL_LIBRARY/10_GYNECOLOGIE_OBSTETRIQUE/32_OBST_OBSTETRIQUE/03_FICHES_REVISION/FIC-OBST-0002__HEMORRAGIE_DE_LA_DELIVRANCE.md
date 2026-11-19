@@ -4,7 +4,12 @@ titre: "Fiche — Hémorragie de la délivrance (hémorragie du post-partum)"
 specialite: OBST
 items_residanat: [RES-CHI-056]
 dossier_source: DOS-OBST-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Harmonisation avec DOS-OBST-0002 v1.2 (attributions) : la cible PAS 80–90 / PAM 50–60 est rapportée par la FIGO d'après la recommandation européenne du traumatisé."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Hémorragie de la délivrance (RES-CHI-056)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-OBST-0002 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **CNGOF 2014** [S1], **OMS 2012/2017** [S2, S3], **WOMAN** [S4], **E-MOTIVE** [S6], **lignes directrices consolidées OMS 2025** [S7]. En Algérie, les **Protocoles nationaux 2025** font référence [S10] (contenu non consulté `[À VÉRIFIER]`).
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-OBST-0002 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier. Références : **CNGOF 2014** [S1], **OMS 2012/2017** [S2, S3], **WOMAN** [S4], **E-MOTIVE** [S6], **lignes directrices consolidées OMS 2025** [S7]. En Algérie, les **Protocoles nationaux 2025** font référence [S10] (contenu non consulté `[À VÉRIFIER]`).
 
 ## 1. Définition (2 lignes)
 
@@ -122,7 +127,7 @@ EXAMEN ÉTIOLOGIQUE (en parallèle du traitement)
 | **Méthylergométrine/ergométrine** | **0,2 mg IM** (ou IV lente) ; **CI : HTA, pré-éclampsie**, cardiopathie, Raynaud, coronaropathie |
 | Carbétocine | Prévention seulement (pas d'indication curative) |
 
-**Réanimation** : 2 VVP **14–16 G** (IO si échec), O₂, monitorage, sonde urinaire ; **cristalloïdes réchauffés en quantité raisonnée** (FIGO : PAS 80–90 / PAM 50–60 en attendant l'hémostase) ; noradrénaline si hypotension persistante ; **CGR O négatif** en urgence vitale ; PFC, **fibrinogène**, plaquettes si < 50 000 et saignement `[À VÉRIFIER]` ; **calcium** ; réchauffement ; rFVIIa d'exception `[S1 — À VÉRIFIER]` ; **pantalon antichoc non pneumatique** en attente de transfert (OMS 2025).
+**Réanimation** : 2 VVP **14–16 G** (IO si échec), O₂, monitorage, sonde urinaire ; **cristalloïdes réchauffés en quantité raisonnée** (PAS 80–90 / PAM 50–60 en attendant l'hémostase : cible du traumatisé rapportée par la FIGO) ; noradrénaline si hypotension persistante ; **CGR O négatif** en urgence vitale ; PFC, **fibrinogène**, plaquettes si < 50 000 et saignement `[À VÉRIFIER]` ; **calcium** ; réchauffement ; rFVIIa d'exception `[S1 — À VÉRIFIER]` ; **pantalon antichoc non pneumatique** en attente de transfert (OMS 2025).
 
 ```text
 T0 → alerte équipe ; 2 VVP ; bilan ; placenta non délivré : DÉLIVRANCE ARTIFICIELLE ;

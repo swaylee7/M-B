@@ -4,7 +4,12 @@ titre: "Fiche — Infections néonatales"
 specialite: NEON
 items_residanat: [RES-MED-081]
 dossier_source: DOS-NEON-0002
-version_dossier_source: "1.1"
+version_dossier_source: "1.2"
+revisions:
+  - date: 2026-11-19
+    auteur: "AUD-05 (IA)"
+    objet: "Version source mise à jour (DOS-NEON-0002 v1.2 : avertissement de vérification actualisé, attribution de la définition « triple I » corrigée)."
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
 langue: fr
 date_creation: 2026-11-19
 date_revision: 2026-11-19
@@ -63,7 +68,7 @@ sources:
 
 # Fiche — Infections néonatales (RES-MED-081)
 
-> Fiche de révision **dérivée exclusivement** du dossier audité DOS-NEON-0002 (v1.1, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (doses dépendant de l'âge gestationnel, de l'âge postnatal et du poids). Références : **SFN/SFP-HAS 2017** [S1], **NICE NG195 (2021)** [S2], **AAP 2018** [S3], **OMS** (Pocket book 2013 [S8], recommandations 2024 [S15]). Recommandations nationales algériennes non identifiées `[À VÉRIFIER — ACQ-01, ACQ-03, REC-01]`.
+> Fiche de révision **dérivée exclusivement** du dossier audité DOS-NEON-0002 (v1.2, statut `audite_corrections_requises`). Aucun fait nouveau ; doses identiques au dossier (doses dépendant de l'âge gestationnel, de l'âge postnatal et du poids). Références : **SFN/SFP-HAS 2017** [S1], **NICE NG195 (2021)** [S2], **AAP 2018** [S3], **OMS** (Pocket book 2013 [S8], recommandations 2024 [S15]). Recommandations nationales algériennes non identifiées `[À VÉRIFIER — ACQ-01, ACQ-03, REC-01]`.
 
 ## 1. Définition (2 lignes)
 

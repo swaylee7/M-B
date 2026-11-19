@@ -6,7 +6,7 @@ sous_specialite: "Infectiologie néonatale"
 items_residanat: [RES-MED-081]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0002.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : avertissement « toutes les sources internationales non vérifiées » périmé, remplacé par le statut réel (S1, S2, S8, S9, S11–S16 vérifiées) ; attribution de la définition de la « triple I » à l'avis ACOG n° 797 (dépistage du SGB, S7) retirée — définition issue d'un atelier NICHD et de l'avis ACOG n° 712, sources primaires non incluses. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Société française de néonatologie, Société française de pédiatrie. Prise en charge du nouveau-né à risque d'infection néonatale bactérienne précoce (≥ 34 SA). Recommandation de bonne pratique, septembre 2017, ayant reçu le label méthodologique de la HAS (décision n° 2017.0098/DC/SBPP du 12 juillet 2017) ; actualise les recommandations ANAES 2002. Existence confirmée par recherche web (audit AUD-01) ; désignée « HAS 2017 » dans le texte."
@@ -153,7 +159,7 @@ mots_cles: [infection néonatale, sepsis néonatal, infection néonatale précoc
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, aux protocoles du service et à l'écologie bactérienne locale avant usage clinique.
-> **Avertissement de vérification (19/11/2026)** : le budget de recherche web de la session était épuisé avant la vérification des références de ce dossier ; toutes les sources internationales sont `verifiee: false`. Les posologies néonatales dépendent de l'âge gestationnel, de l'âge postnatal et du poids : toutes les doses citées étaient accompagnées d'un marqueur de vérification de posologie et devaient être contrôlées par l'agent d'audit des posologies (AUD-02).
+> **État de vérification des sources (mis à jour par l'audit de cohérence AUD-05, 19/11/2026)** : la rédaction initiale n'avait pu vérifier aucune référence ; l'audit a depuis confirmé [S1] (RBP SFN/SFP 2017 labellisée HAS), [S2] (NICE NG195), [S8] (Pocket book OMS 2013), [S9] et [S15] (OMS 2015 et 2024), [S11] (Kimberlin 2001), [S16] (PCIME 2019) et les textes algériens [S12]–[S14]. Restent **non vérifiées** : [S3]–[S4] (AAP 2018), [S5] (calculateur de Kaiser), [S6] (CDC 2010), [S7] (ACOG 2020) et [S10] (revue du Lancet). Les posologies néonatales dépendent de l'âge gestationnel, de l'âge postnatal et du poids : toutes les doses citées étaient accompagnées d'un marqueur de vérification de posologie et devaient être contrôlées par l'agent d'audit des posologies (AUD-02).
 > **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : posologies d'ampicilline/amoxicilline, gentamicine, céfotaxime et glucosé confrontées au Pocket book OMS 2013 (DOC-00063) et aux recommandations OMS 2024 (DOC-00052) ; benzylpénicilline, gentamicine et drapeaux rouges NICE NG195, aciclovir (Kimberlin 2001) et RBP SFN/SFP 2017 vérifiés par recherche web. Les marqueurs levés le sont avec leur source ; ceux qui restent concernent des doses non vérifiées (doses méningées, vancomycine, carbapénèmes, antifongiques, amines, antibioprophylaxie obstétricale). Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0002.md`.
 
 **Items du programme couverts** : RES-MED-081 — « Infections néonatales : Diagnostic - prévention - traitement ».
@@ -261,7 +267,7 @@ La bactérie (souvent **encapsulée** : antigène capsulaire du SGB, *E. coli* *
 
 ### 5.3 La chorioamniotite (« triple I »)
 
-Le terme d'**inflammation ou infection intra-amniotique (« triple I »)** est proposé pour décrire le tableau maternel : **fièvre maternelle** ≥ 39 °C, ou entre 38 et 38,9 °C persistante associée à une tachycardie fœtale, une hyperleucocytose maternelle, un liquide purulent… Elle constitue le facteur de risque le plus fort d'infection néonatale précoce [S3, S7] **[définitions exactes À VÉRIFIER]**.
+Le terme d'**inflammation ou infection intra-amniotique (« triple I »)** est proposé pour décrire le tableau maternel : **fièvre maternelle** ≥ 39 °C, ou entre 38 et 38,9 °C persistante associée à une tachycardie fœtale, une hyperleucocytose maternelle, un liquide purulent… Elle constitue le facteur de risque le plus fort d'infection néonatale précoce [S3]. Cette définition provient d'un atelier du NICHD et de l'avis ACOG n° 712 (2017), sources primaires non incluses dans ce dossier (l'avis ACOG n° 797 [S7] porte sur la prévention du SGB) **[définitions exactes À VÉRIFIER]**.
 
 ## 6. Étiologies et facteurs de risque
 

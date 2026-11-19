@@ -6,7 +6,7 @@ sous_specialite: "Pathologie vasculaire de la grossesse — troubles hypertensif
 items_residanat: [RES-CHI-066]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-07 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 12
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-OBST-0001.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale avec DOS-CARD-0002 : cible tensionnelle de l'HTA sévère gravidique — la divergence < 160/110 (ce dossier) / < 160/105 mmHg (ESC/ESH 2018, tableau des urgences hypertensives, repris dans DOS-CARD-0002) est désormais présentée explicitement. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Magee LA, Brown MA, Hall DR, et al. The 2021 International Society for the Study of Hypertension in Pregnancy classification, diagnosis & management recommendations for international practice. Pregnancy Hypertens. 2022;27:148-169."
@@ -532,7 +538,7 @@ Après l'accouchement, l'HTA se normalise habituellement en quelques jours à se
 | **Méthyldopa** | Orale : 250 mg × 2-3/j, jusqu'à 2-3 g/j [POSOLOGIE À VÉRIFIER] | Large recul ; somnolence, dépression ; **à remplacer dans le post-partum** [S3] ; très utilisée en Algérie |
 | **Urapidil** | IV (alternative française) [POSOLOGIE À VÉRIFIER] | Disponibilité variable |
 
-**Stratégie** : fond = labétalol, nifédipine LP ou méthyldopa ; urgence = labétalol IV, nifédipine orale LI ou hydralazine IV (ACOG) [S2], **nicardipine IV** ± labétalol ou urapidil (France) [S4] ; PA toutes les 5-15 min pendant la titration, RCF continu ; objectif PAS < 160 et PAD < 110 puis stabilisation sans chute brutale (cibles françaises exactes [S4 — À VÉRIFIER]).
+**Stratégie** : fond = labétalol, nifédipine LP ou méthyldopa ; urgence = labétalol IV, nifédipine orale LI ou hydralazine IV (ACOG) [S2], **nicardipine IV** ± labétalol ou urapidil (France) [S4] ; PA toutes les 5-15 min pendant la titration, RCF continu ; objectif PAS < 160 et PAD < 110 puis stabilisation sans chute brutale (cibles françaises exactes [S4 — À VÉRIFIER]) ; l'ESC/ESH 2018 retient, pour l'éclampsie et la pré-éclampsie sévère, une cible immédiate **PAS < 160 et PAD < 105 mmHg** (voir DOS-CARD-0002, tableau des urgences hypertensives) — écart de référentiels, non d'erreur.
 
 #### 13.2.3 Sulfate de magnésium (MgSO₄)
 

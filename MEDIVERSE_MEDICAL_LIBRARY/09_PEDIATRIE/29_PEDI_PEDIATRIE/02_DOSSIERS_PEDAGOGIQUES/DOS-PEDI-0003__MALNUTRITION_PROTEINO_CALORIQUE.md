@@ -6,7 +6,7 @@ sous_specialite: "Nutrition pédiatrique"
 items_residanat: [RES-MED-067]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 16
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0003.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 3
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_2026-11-19.md
+    remarque: "Audit de cohérence transversale : seuils d'alerte FR/FC explicités selon le contexte d'après le Pocket book OMS 2013 (DOC-00063 relu : perfusion IV FR +5 et FC +15/min ; ReSoMal et transition FR +5 et FC +25/min ; transfusion FR +5 ou FC +25/min) ; seuils de polypnée par âge de l'OMS ajoutés ; avertissement « toutes les sources non vérifiées » remplacé par le statut réel (S2, S3, S5, S6, S14 vérifiées). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Organisation mondiale de la Santé. Management of severe malnutrition: a manual for physicians and other senior health workers. Genève : OMS ; 1999."
@@ -137,7 +143,7 @@ mots_cles: [malnutrition protéino-calorique, malnutrition aiguë sévère, éma
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> **Avertissement de vérification (19/11/2026)** : le budget de recherche web de la session était épuisé avant la vérification des références de ce dossier. Toutes les sources internationales sont marquées `verifiee: false` ; les repères chiffrés (seuils, volumes, compositions) correspondent aux protocoles OMS classiques et doivent être contrôlés lors de l'audit (AUD-02, AUD-04), en particulier pour les mises à jour de la ligne directrice OMS de 2023 [S3].
+> **État de vérification des sources (mis à jour par l'audit de cohérence AUD-05, 19/11/2026)** : la rédaction initiale n'avait pu vérifier aucune référence, mais l'audit a depuis confirmé les sources OMS structurantes — [S3] ligne directrice OMS 2023 et [S6] Pocket book 2013 (textes lus, DOC-00033/DOC-00061 et DOC-00063), [S2] OMS 2013 et [S5] OMS/UNICEF 2009 (existence), ainsi que le texte algérien [S14]. Restent **non vérifiées** : [S1] (manuel OMS 1999), [S4] (normes de croissance 2006) et les références historiques ou de revue [S7]–[S13] ; les repères chiffrés qui en dépendent restent à contrôler.
 > **Audit AUD-01/AUD-02 (19/11/2026, v1.1)** : posologies et volumes confrontés au Pocket book OMS 2013 (DOC-00063) ; critères d'orientation, de sortie, ration d'ATPE, MAM et nourrisson < 6 mois mis à jour selon la ligne directrice OMS 2023 (DOC-00033). Correction critique : dose d'amoxicilline orale en relais de la MAS compliquée. Rapport : `00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0003.md`.
 
 **Items du programme couverts** : RES-MED-067 — « Malnutrition protéino-calorique : Diagnostic - évolution - traitement ».
@@ -515,7 +521,7 @@ Distinguer : **petite taille constitutionnelle ou familiale** (poids proportionn
 |---|---|
 | **Hypoglycémie** | Fréquente, souvent asymptomatique ; liée au jeûne, à l'infection |
 | **Hypothermie** | Signe de gravité (souvent associée à hypoglycémie et infection) |
-| **Infections, sepsis** | **Sans fièvre ni hyperleucocytose** ; pneumonie, infection urinaire, bactériémies à Gram négatif |
+| **Infections, sepsis** | **Sans fièvre ni hyperleucocytose** ; pneumonie (polypnée selon les seuils OMS par âge : ≥ 60/min avant 2 mois, ≥ 50/min de 2 à 11 mois, ≥ 40/min de 1 à 5 ans [S6]), infection urinaire, bactériémies à Gram négatif |
 | **Déshydratation, choc** | Difficiles à évaluer ; choc souvent septique et hypovolémique mêlés |
 | **Troubles électrolytiques** | Hypokaliémie, hypomagnésémie, hypophosphatémie |
 | **Insuffisance cardiaque** | Par surcharge (perfusion, transfusion, apports sodés), anémie, carence en thiamine |
@@ -603,7 +609,7 @@ Distinguer : **petite taille constitutionnelle ou familiale** (poids proportionn
 
 **Étape 2 — Hypothermie.** Température rectale < 35,5 °C (axillaire < 35 °C) : nourrir immédiatement, réchauffer (méthode « **kangourou** » peau à peau avec la mère, couvertures, bonnet, pièce chauffée, lampe à distance), traiter l'hypoglycémie et l'infection associées. Éviter les bouillottes (brûlures).
 
-**Étape 3 — Déshydratation.** Diagnostic difficile (§8.3 et DOS-PEDI-0001 §10.6). Réhydratation **orale ou par sonde** au **ReSoMal** : **5 mL/kg toutes les 30 minutes pendant 2 heures**, puis **5 à 10 mL/kg/h** pendant 4 à 10 heures, en alternant avec F-75 ; arrêter dès que l'enfant est réhydraté (ou si signes de surcharge). Si le ReSoMal n'est pas disponible, l'OMS 2023 admet le **SRO à osmolarité réduite** (recommandation B7) [S3]. **Choc** (léthargie + extrémités froides + TRC allongé + pouls faible) : **15 mL/kg en 1 heure** de Ringer lactate glucosé à 5 %, de Darrow demi-concentré glucosé ou de NaCl 0,45 % glucosé à 5 % ; si amélioration, répéter 15 mL/kg en 1 heure puis relais par ReSoMal 10 mL/kg/h (jusqu'à 10 h) ; en l'absence d'amélioration après deux bolus : choc septique probable → soluté d'entretien 4 mL/kg/h en attendant le sang, **transfusion de sang total frais 10 mL/kg en 3 heures** (culot si insuffisance cardiaque), antibiothérapie IV ; arrêter la perfusion si la FR augmente de 5/min et la FC de 15/min, si le foie augmente ou si des crépitants apparaissent [S6, tableau 8].
+**Étape 3 — Déshydratation.** Diagnostic difficile (§8.3 et DOS-PEDI-0001 §10.6). Réhydratation **orale ou par sonde** au **ReSoMal** : **5 mL/kg toutes les 30 minutes pendant 2 heures**, puis **5 à 10 mL/kg/h** pendant 4 à 10 heures, en alternant avec F-75 ; arrêter dès que l'enfant est réhydraté, ou si des signes de surcharge apparaissent (signes précoces : **FR + 5/min et FC + 25/min** → arrêt du ReSoMal et réévaluation après 1 heure [S6]). Si le ReSoMal n'est pas disponible, l'OMS 2023 admet le **SRO à osmolarité réduite** (recommandation B7) [S3]. **Choc** (léthargie + extrémités froides + TRC allongé + pouls faible) : **15 mL/kg en 1 heure** de Ringer lactate glucosé à 5 %, de Darrow demi-concentré glucosé ou de NaCl 0,45 % glucosé à 5 % ; si amélioration, répéter 15 mL/kg en 1 heure puis relais par ReSoMal 10 mL/kg/h (jusqu'à 10 h) ; en l'absence d'amélioration après deux bolus : choc septique probable → soluté d'entretien 4 mL/kg/h en attendant le sang, **transfusion de sang total frais 10 mL/kg en 3 heures** (culot si insuffisance cardiaque), antibiothérapie IV ; arrêter la perfusion si la FR augmente de 5/min et la FC de 15/min, si le foie augmente ou si des crépitants apparaissent [S6, tableau 8].
 
 **Étape 4 — Électrolytes.** Apport de **potassium** et de **magnésium** (inclus dans F-75 et ReSoMal) ; **ne pas traiter les œdèmes par des diurétiques** ; **ne pas apporter de sodium** en excès (le sodium total est en excès malgré une natrémie basse).
 
@@ -658,7 +664,7 @@ Hospitalisation si signe de danger, problème médical aigu, œdème ou perte de
 | **Poids** | Quotidien (même balance, même heure) | Courbe ; gain > 10 g/kg/j en réhabilitation ; perte initiale attendue si œdèmes |
 | **Œdèmes** | Quotidien (stade) | Disparition progressive ; aggravation = surcharge sodée/hydrique ou complication |
 | **Température** | 2 à 4 fois par jour (plus si hypothermie) | Hypothermie, fièvre |
-| **FR, FC** | Toutes les 4 h en stabilisation et transition | Augmentation (FR + 5/min, FC + 25/min) = alerte surcharge |
+| **FR, FC** | Toutes les 4 h en stabilisation et transition (toutes les 15 min pendant une transfusion) | Alerte de surcharge selon le contexte (Pocket book OMS [S6]) : **ReSoMal et transition** — FR + 5/min **et** FC + 25/min (transition : sur 2 mesures à 4 h) ; **perfusion IV du choc** — FR + 5/min **et** FC + 15/min → arrêter ; **transfusion** — FR + 5/min **ou** FC + 25/min → ralentir |
 | **Glycémie** | Admission puis selon l'état | Hypoglycémie |
 | **Apports** | Chaque repas (quantité proposée / prise / vomie) | ≥ 80 % de la ration ; sinon sonde |
 | **Selles, vomissements** | Chaque épisode | Diarrhée persistante, déshydratation |

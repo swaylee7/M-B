@@ -6,11 +6,17 @@ sous_specialite: "Troubles de l'humeur"
 items_residanat: [RES-MED-153]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-10 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PSYC-0002.md
 sources:
   - id: S1
     reference: "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington, DC: American Psychiatric Association Publishing; 2022. ISBN 978-0-89042-575-6."
@@ -122,7 +128,7 @@ mots_cles: [épisode dépressif caractérisé, trouble bipolaire, manie, antidé
 # Troubles de l'humeur : épisode dépressif caractérisé et trouble bipolaire
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01, 2026-11-19). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Les posologies chiffrées proviennent de documents lus pendant la session : tableau 3.3 et tableau 7.2 de CANMAT 2023 [S4] (fourchettes issues des monographies canadiennes), section 8 de CANMAT-ISBD 2018 [S5], tableaux du mhGAP-IG 2.0 [S10], tableau du consensus BETA [S11] et, depuis l'audit du 2026-11-19, RCP européens ou britanniques de la lamotrigine, de l'olanzapine, de l'aripiprazole et de la quétiapine [S13]. Elles doivent être confrontées au RCP des spécialités enregistrées en Algérie et aux protocoles locaux.
 > Remarque de traçabilité : la mission mentionnait « CANMAT 2023 (bipolaire) ». La mise à jour CANMAT 2023 lue ici concerne le **trouble dépressif majeur** [S4] ; pour le trouble bipolaire, la recommandation complète disponible et lue est **CANMAT-ISBD 2018** [S5]. L'existence d'une mise à jour bipolaire plus récente reste `[À VÉRIFIER]`.
 

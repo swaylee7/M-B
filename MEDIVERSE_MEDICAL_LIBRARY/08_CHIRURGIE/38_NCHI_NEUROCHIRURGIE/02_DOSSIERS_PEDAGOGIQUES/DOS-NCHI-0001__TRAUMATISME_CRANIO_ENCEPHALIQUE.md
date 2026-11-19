@@ -6,11 +6,17 @@ sous_specialite: "Neurotraumatologie"
 items_residanat: [RES-CHI-051]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-12 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 / AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NCHI-0001.md
 sources:
   - id: S1
     reference: "Carney N, Totten AM, O'Reilly C, Ullman JS, Hawryluk GW, Bell MJ, et al. Guidelines for the Management of Severe Traumatic Brain Injury, Fourth Edition. Neurosurgery. 2017;80(1):6-15 (catalogue : REC-0425)."
@@ -141,20 +147,44 @@ sources:
     url: ""
     verifiee: true
   - id: S17
-    reference: "Marshall LF, Marshall SB, Klauber MR, et al. A new classification of head injury based on computerized tomography. J Neurosurg. 1991;75(Suppl):S14-S20."
+    reference: "Marshall LF, Marshall SB, Klauber MR, van Berkum Clark M. A new classification of head injury based on computerized tomography. J Neurosurg. 1991;75(Suppl):S14-S20 (article de supplément non indexé dans PubMed ; métadonnées confirmées par sa citation dans une revue de 2026 en accès libre, PMC13221341)."
     organisme: ""
     annee: 1991
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
+  - id: S18
+    reference: "Brain Trauma Foundation, AANS, CNS, Joint Section on Neurotrauma and Critical Care. Guidelines for the management of severe traumatic brain injury. II. Hyperosmolar therapy. J Neurotrauma. 2007;24 Suppl 1:S14-S20 (3e édition, remplacée par la 4e édition [S1] ; PMID 17511539)."
+    organisme: Brain Trauma Foundation
+    annee: 2007
+    type: recommandation
+    doi: "10.1089/neu.2007.9994"
+    url: ""
+    verifiee: true
+  - id: S19
+    reference: "Haute Autorité de santé (HAS), GEHT. Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par antivitamines K en ville et en milieu hospitalier. Recommandations professionnelles, avril 2008 (synthèse relue en texte intégral le 2026-11-19)."
+    organisme: HAS/GEHT
+    annee: 2008
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/jcms/c_682188/"
+    verifiee: true
+  - id: S20
+    reference: "Galli M, Simeone B, ten Berg J, Capodanno D, Valgimigli M, et al. Managing bleeds on anticoagulant therapy: a practical guide for clinicians. Eur Heart J Acute Cardiovasc Care. 2026;15(7):557-572 (PMID 41818678, PMC13344178 ; texte intégral lu)."
+    organisme: ""
+    annee: 2026
+    type: article
+    doi: "10.1093/ehjacc/zuag035"
+    url: ""
+    verifiee: true
 mots_cles: [traumatisme crânien, score de Glasgow, hématome extradural, hématome sous-dural aigu, contusion, lésions axonales diffuses, ACSOS, pression intracrânienne, pression de perfusion cérébrale, osmothérapie, mannitol, sérum salé hypertonique, craniectomie décompressive, Canadian CT Head Rule, PECARN, NICE NG232, acide tranexamique]
 ---
 
 # Traumatisme crânio-encéphalique : diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité avec corrections requises (AUD-01/AUD-02, 2026-11-19, v1.1). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-051 — « Traumatisme crânio-encéphalique : Diagnostic - traitement » (programme du concours de résidanat, FMED Tlemcen, DOC-00001).
 
@@ -291,7 +321,7 @@ Règles d'utilisation :
 - Chez l'enfant préverbal, utiliser l'**échelle pédiatrique** (grimace, pleurs) [S3].
 - **GCS-P** : soustraction du score de réactivité pupillaire (0 = deux pupilles réactives ; 1 = une aréactive ; 2 = deux aréactives) au GCS, ce qui donne un indice de 1 à 15 améliorant l'estimation pronostique [S14].
 
-### 7.2 Classification tomodensitométrique de Marshall [S17] (référence non vérifiée)
+### 7.2 Classification tomodensitométrique de Marshall [S17]
 
 | Catégorie | Définition |
 |---|---|
@@ -490,9 +520,9 @@ Sujet âgé, alcoolique ou anticoagulé ; traumatisme souvent minime ou oublié 
 #### 13.2.2 Osmothérapie
 
 - **Indications** : signes d'engagement (mydriase aréactive, aggravation neurologique) **avant** le monitorage de la PIC, ou HTIC monitorée [S1, S2].
-- **Mannitol 20 %** : posologie classiquement citée de **0,25 à 1 g/kg** en perfusion de 15 à 20 minutes (3e édition BTF, 2007 ; la 4e édition ne retient pas de posologie de niveau de preuve suffisant) [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; effet diurétique (risque d'hypovolémie, à compenser), surveillance de l'osmolarité et de la fonction rénale.
+- **Mannitol 20 %** : **0,25 à 1 g/kg** en bolus IV (soit 1,25 à 5 mL/kg de la solution à 20 %), renouvelable selon la PIC (3e édition BTF, 2007 [S18] ; la 4e édition ne formule plus de posologie faute de preuves suffisantes [S1]) ; durée de perfusion selon le RCP et le protocole local ; effet diurétique (risque d'hypovolémie et d'hypotension, à compenser), surveillance de l'osmolarité et de la fonction rénale.
 - **Sérum salé hypertonique (SSH)** : alternative, notamment chez le patient hypovolémique ; concentrations et volumes variables selon les protocoles (par exemple NaCl 3 %, 7,5 % ou 20 % en bolus équi-osmolaires) [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; surveillance de la natrémie.
-- **Enfant** : le BTF pédiatrique recommande le **SSH 3 %** en bolus (doses efficaces de l'ordre de **2 à 5 mL/kg en 10-20 min**) pour l'HTIC, avec possibilité de perfusion continue, en évitant les natrémies très élevées prolongées [S7] [POSOLOGIE À VÉRIFIER — texte intégral et protocole local].
+- **Enfant** : le BTF pédiatrique (3e édition, 2019) recommande le **SSH 3 %** en bolus (niveau II ; doses efficaces de **2 à 5 mL/kg en 10-20 min**) pour l'HTIC, avec possibilité de perfusion continue de SSH 3 % à **0,1-1 mL/kg/h** (niveau III), en évitant les natrémies très élevées prolongées [S7] (doses confirmées par une publication secondaire en accès libre ; texte intégral de S7 non relu).
 - La 4e édition BTF ne conclut pas à la supériorité d'un agent sur l'autre [S1].
 
 #### 13.2.3 Neurochirurgie
@@ -513,7 +543,11 @@ Sujet âgé, alcoolique ou anticoagulé ; traumatisme souvent minime ou oublié 
 
 #### 13.2.6 Antagonisation des antithrombotiques
 
-En cas d'hémorragie intracrânienne traumatique chez un patient anticoagulé : **antagonisation urgente** (concentré de complexe prothrombinique et vitamine K pour les AVK ; idarucizumab pour le dabigatran ; antidotes ou CCP pour les anti-Xa selon disponibilité) [S3] [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+En cas d'hémorragie intracrânienne traumatique chez un patient anticoagulé : **antagonisation urgente** [S3, S19, S20] :
+
+- **AVK** : arrêt ; **CCP** à dose adaptée à l'INR selon le RCP, ou **25 UI/kg (1 mL/kg)** si l'INR n'est pas disponible, **+ vitamine K 10 mg** ; INR à 30 minutes (objectif < 1,5 ; nouvelle dose de CCP si INR > 1,5) puis à 6-8 heures [S19] ;
+- **dabigatran** : **idarucizumab 5 g IV** (2 × 2,5 g) [S20] ;
+- **anti-Xa** (apixaban, rivaroxaban, édoxaban) : **andexanet alfa** (bolus puis perfusion, schéma selon la molécule, la dose et le délai depuis la dernière prise, d'après le RCP ; excès d'événements thrombotiques dans l'essai ANNEXA-I ; produit retiré du marché américain, encore autorisé en Europe) ou, à défaut, **CCP 4 facteurs** [S20] [POSOLOGIE À VÉRIFIER — protocole local pour le CCP dans cette indication].
 
 #### 13.2.7 Autres mesures (BTF 4e édition) [S1]
 
@@ -670,7 +704,7 @@ Mydriase aréactive unilatérale + troubles de conscience
 
 **Réponses commentées**
 
-**Question 1.** Pris à la lettre, les critères de NICE NG232 (un seul vomissement, âge < 65 ans, mécanisme non listé) et de la règle canadienne n'imposaient pas de TDM dans l'heure ; ce patient relevait au minimum d'une observation neurologique rapprochée (toutes les 30 minutes) et le jugement clinique (choc temporal direct avec plaie, motard sans casque, perte de connaissance) justifiait une TDM précoce. Toute aggravation impose une TDM en extrême urgence : les règles de décision ne remplacent pas la surveillance.
+**Question 1.** Aucun critère de TDM « dans l'heure » de NICE NG232 n'était présent (GCS 15, un seul vomissement, pas de signe de fracture ni de déficit). En revanche, la perte de connaissance associée à un mécanisme pouvant être assimilé à un mécanisme dangereux (motard projeté de son véhicule, que NICE et la règle canadienne désignent comme « occupant éjecté d'un véhicule à moteur ») imposait au minimum une TDM dans les 8 heures selon NICE (risque moyen de la règle canadienne), avec une observation neurologique toutes les 30 minutes ; le jugement clinique (choc temporal direct avec plaie, absence de casque) justifiait une TDM sans attendre. Toute aggravation impose une TDM en extrême urgence : les règles de décision ne remplacent pas la surveillance.
 
 **Question 2.** Baisse du GCS de 15 à 9, mydriase droite et hémiparésie gauche : engagement temporal droit par une lésion expansive homolatérale ; la bradycardie relative avec élévation de la PA évoque une HTIC sévère (début de réaction de Cushing).
 
@@ -699,7 +733,7 @@ Mydriase aréactive unilatérale + troubles de conscience
 
 **Diagnostic final.** Hématome extradural temporo-pariétal droit de 45 cm³ avec engagement temporal débutant (forme typique avec intervalle libre).
 
-**Traitement.** Intubation en séquence rapide avec maintien du rachis en ligne, ventilation en normocapnie, tête à 30°, PAS maintenue ≥ 110 mmHg, osmothérapie (mannitol 20 % ou sérum salé hypertonique) en attendant le bloc [POSOLOGIE À VÉRIFIER — RCP / protocole local]. Transfert sans délai au bloc de neurochirurgie : craniotomie temporo-pariétale droite, évacuation de l'hématome, hémostase de l'artère méningée moyenne, suspension durale. Pas de corticoïdes.
+**Traitement.** Intubation en séquence rapide avec maintien du rachis en ligne, ventilation en normocapnie, tête à 30°, PAS maintenue ≥ 110 mmHg, osmothérapie en attendant le bloc : mannitol 20 % 0,25 à 1 g/kg (soit 18 à 72 g pour 72 kg) [S18] ou sérum salé hypertonique [POSOLOGIE À VÉRIFIER — protocole local pour le SSH]. Transfert sans délai au bloc de neurochirurgie : craniotomie temporo-pariétale droite, évacuation de l'hématome, hémostase de l'artère méningée moyenne, suspension durale. Pas de corticoïdes.
 
 **Surveillance.** Réanimation : réveil précoce et examen neurologique (GCS, pupilles, motricité) horaire, TDM de contrôle à 24 h ou en cas d'aggravation, PA, SpO2, natrémie, glycémie, température ; prophylaxie anticomitiale précoce à discuter.
 
@@ -915,6 +949,7 @@ Mydriase aréactive unilatérale + troubles de conscience
 | Agent d'osmothérapie | **BTF adulte** : pas d'agent préféré (preuves insuffisantes) [S1] | **BTF pédiatrique 2019** : SSH 3 % recommandé chez l'enfant [S7] | Le choix dépend du terrain (hypovolémie, natrémie) et des protocoles locaux |
 | Monitorage de la PIC | **BTF** : recommandé dans le TC grave pour réduire la mortalité [S1] | **BEST-TRIP** : pas de supériorité d'une stratégie guidée par la PIC sur un protocole clinique et radiologique [S12] | Le monitorage reste recommandé là où il est disponible ; protocole structuré sinon |
 | TDM après TC léger de l'adulte | **NICE NG232 (2023)** : critères « dans l'heure » et « dans les 8 h », TDM à envisager sous anticoagulants/antiagrégants (hors aspirine seule) [S3] | **Règle canadienne (2001)** : exclut les patients anticoagulés ; âge ≥ 65 ans = haut risque [S4] ; **Scandinavian (2013)** et **SFMU (2012)** : stratifications proches, avec place des biomarqueurs (S100B) dans le texte scandinave [S6, S16] | Seuils d'âge (65 ans) et gestion des antithrombotiques variables ; vérifier l'actualisation SFMU 2022 [À VÉRIFIER] |
+| TC sous AVK | **HAS 2008** : hospitalisation systématique d'au moins 24 h ; TDM immédiate en cas de symptômes neurologiques, différée de 4 à 6 h dans les autres cas [S19] | **NICE NG232 (2023)** : en l'absence d'autre critère, envisager une TDM dans les 8 h (anticoagulant ou antiagrégant hors aspirine seule) [S3] | La recommandation française, plus ancienne, est plus directive (hospitalisation systématique) |
 | Enfant | **PECARN (2009)** : groupes à risque très faible sans TDM [S5] | **NICE NG232** : critères pédiatriques propres (observation de 4 h si un seul facteur) [S3] | Les deux visent à réduire l'irradiation inutile |
 | Acide tranexamique | **CRASH-3 (2019)** : bénéfice dans les TC légers à modérés traités dans les 3 h [S9] | La BTF 4e édition (antérieure) ne le traite pas | Intégration progressive dans les protocoles préhospitaliers [À VÉRIFIER — recommandations postérieures à 2019] |
 | Craniectomie décompressive | **BTF** : large volet recommandé ; bifrontale précoce non recommandée [S1] | **RESCUEicp (2016)** : mortalité réduite, handicaps sévères accrus [S11] | Décision au cas par cas, information des proches |
@@ -937,6 +972,9 @@ Mydriase aréactive unilatérale + troubles de conscience
 14. **[S14]** Brennan PM, Murray GD, Teasdale GM. Simplifying the use of prognostic information in traumatic brain injury. Part 1: The GCS-Pupils score. J Neurosurg. 2018;128(6):1612-1620. doi:10.3171/2017.12.JNS172780.
 15. **[S15]** Dewan MC, Rattani A, Gupta S, et al. Estimating the global incidence of traumatic brain injury. J Neurosurg. 2019;130(4):1080-1097. doi:10.3171/2017.10.JNS17352.
 16. **[S16]** Undén J, Ingebrigtsen T, Romner B. Scandinavian guidelines for initial management of minimal, mild and moderate head injuries in adults. BMC Med. 2013;11:50. doi:10.1186/1741-7015-11-50.
-17. **[S17]** Marshall LF, Marshall SB, Klauber MR, et al. A new classification of head injury based on computerized tomography. J Neurosurg. 1991;75(Suppl):S14-S20 (référence non vérifiée pendant la session).
+17. **[S17]** Marshall LF, Marshall SB, Klauber MR, van Berkum Clark M. A new classification of head injury based on computerized tomography. J Neurosurg. 1991;75(Suppl):S14-S20 (métadonnées confirmées par citation, PMC13221341).
+18. **[S18]** Brain Trauma Foundation, AANS, CNS. Guidelines for the management of severe traumatic brain injury. II. Hyperosmolar therapy. J Neurotrauma. 2007;24 Suppl 1:S14-S20. doi:10.1089/neu.2007.9994 (3e édition, remplacée).
+19. **[S19]** HAS, GEHT. Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par antivitamines K. Avril 2008. https://www.has-sante.fr/jcms/c_682188/.
+20. **[S20]** Galli M, Simeone B, ten Berg J, et al. Managing bleeds on anticoagulant therapy: a practical guide for clinicians. Eur Heart J Acute Cardiovasc Care. 2026;15(7):557-572. doi:10.1093/ehjacc/zuag035.
 
-*Vérification : S1, S2, S4, S5, S7-S16 contrôlées dans Europe PMC le 2026-11-19 (résumés lus) ; S3 : page des recommandations NICE lue ; S6 : métadonnées confirmées par recherche web ; S17 non vérifiée.*
+*Vérification : S1, S2, S4, S5, S7-S16 contrôlées dans Europe PMC le 2026-11-19 (résumés lus) ; S3 : page des recommandations NICE lue (relue par l'audit) ; S6 : métadonnées confirmées par recherche web ; S17 : métadonnées confirmées par citation (audit) ; S18 : notice PubMed ; S19 et S20 lus en texte intégral par l'audit. Le texte intégral des RFE SFAR 2016 [S2] n'a pas pu être consulté (hôtes inaccessibles).*

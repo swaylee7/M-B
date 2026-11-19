@@ -6,11 +6,17 @@ sous_specialite: "Médicaments de l'hémostase — anticoagulants"
 items_residanat: [RES-MED-173]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-14 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auteur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 21
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PHAR-0002.md
 sources:
   - id: S1
     reference: "Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J. 2024;45(36):3314-3414."
@@ -188,13 +194,45 @@ sources:
     doi: ""
     url: "https://has-sante.fr/upload/docs/application/pdf/2024-07/flash_securite_patient_gestion_perioperatoire_des_anticoagulants__patients__aidants__soignants_coagulez-vous.pdf"
     verifiee: true
+  - id: S23
+    reference: "Garcia DA, Baglin TP, Weitz JI, Samama MM. Parenteral anticoagulants: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest. 2012;141(2 Suppl):e24S-e43S."
+    organisme: "ACCP / CHEST"
+    annee: 2012
+    type: recommandation
+    doi: "10.1378/chest.11-2291"
+    url: ""
+    verifiee: true
+  - id: S24
+    reference: "Praz F, Borger MA, Lanz J, et al. 2025 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2025;46(44):4635-4736."
+    organisme: "ESC / EACTS"
+    annee: 2025
+    type: recommandation
+    doi: "10.1093/eurheartj/ehaf194"
+    url: ""
+    verifiee: true
+  - id: S25
+    reference: "AABB. AstraZeneca withdraws factor Xa reversal agent from U.S. market (andexanet alfa), 23 décembre 2025, après la communication de sécurité de la FDA du 18 décembre 2025."
+    organisme: "AABB / FDA"
+    annee: 2025
+    type: site_institutionnel
+    doi: ""
+    url: "https://www.aabb.org/news-resources/news/article/2025/12/23/astrazeneca-withdraws-factor-xa-reversal-agent-from-u.s.-market"
+    verifiee: true
+  - id: S26
+    reference: "Résumés des caractéristiques du produit (RCP) européens : énoxaparine (Lovenox, RCP harmonisé au niveau européen — unités de dosage et conditions d'utilisation, dont l'insuffisance rénale sévère) ; fondaparinux (Arixtra, EMA)."
+    organisme: "EMA / ANSM (RCP)"
+    annee: "[À VÉRIFIER — version du RCP en vigueur]"
+    type: texte_officiel
+    doi: ""
+    url: "https://www.vidal.fr/actualites/21634-lovenox-enoxaparine-sodique-harmonisation-europeenne-des-unites-de-dosage-et-des-conditions-d-utilisation.html"
+    verifiee: false
 mots_cles: [anticoagulants, héparine, HBPM, fondaparinux, AVK, INR, AOD, antidotes, thrombopénie induite par l'héparine, relais, périopératoire, insuffisance rénale]
 ---
 
 # Anticoagulants : principes, modalités de surveillance, règles d'utilisation
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01 (IA) le 2026-11-19, corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Item du programme couvert** : RES-MED-173 — « Anticoagulants : principes, modalités de surveillance, règles d'utilisation ».
 
@@ -246,7 +284,7 @@ Le **risque iatrogène** des anticoagulants est majeur : les accidents hémorrag
 
 - Les anticoagulants figurent parmi les médicaments les plus prescrits chez le sujet âgé, du fait de la prévalence de la **fibrillation atriale** (FA), qui augmente fortement avec l'âge [S1], et de la **MTEV**.
 - Les recommandations récentes privilégient les **AOD** par rapport aux AVK dans la FA non valvulaire et la MTEV, à l'exception des **prothèses valvulaires mécaniques** et du **rétrécissement mitral modéré à serré** (AVK obligatoires) [S1, S2, S8].
-- La liste modèle OMS 2025 inscrit au chapitre 10.2 : le **dabigatran** (avec apixaban, édoxaban et rivaroxaban comme alternatives thérapeutiques), l'**énoxaparine** (avec daltéparine et nadroparine en alternatives), l'**héparine sodique**, la **warfarine** (acénocoumarol en alternative), la **phytoménadione** (vitamine K), le **sulfate de protamine** et l'**acide tranexamique** [S21].
+- La liste modèle OMS 2025 inscrit à la section 10.2 : le **dabigatran** (avec apixaban, édoxaban et rivaroxaban comme alternatives thérapeutiques), l'**énoxaparine** (avec daltéparine et nadroparine en alternatives), l'**héparine sodique**, la **warfarine** (acénocoumarol en alternative), la **phytoménadione** (vitamine K), le **sulfate de protamine** et l'**acide tranexamique** [S21].
 - **Algérie** : aucune donnée nationale publiée sur la consommation d'anticoagulants ou la iatrogénie associée n'a été identifiée pour ce dossier `[À VÉRIFIER]` ; la disponibilité et le remboursement des AOD et des antidotes spécifiques doivent être vérifiés dans la nomenclature nationale `[À VÉRIFIER]`.
 
 ---
@@ -286,8 +324,8 @@ Le **risque iatrogène** des anticoagulants est majeur : les accidents hémorrag
 
 - **Exemples** : énoxaparine, daltéparine, nadroparine, tinzaparine.
 - **Mécanisme** : chaînes plus courtes → activité **anti-Xa prédominante** (rapport anti-Xa/anti-IIa 2 à 4 selon la molécule).
-- **Pharmacocinétique** : biodisponibilité SC élevée (≈ 90 %), réponse dose-effet prévisible → **doses fixes ou ajustées au poids sans surveillance de routine** ; élimination **rénale** → **accumulation en insuffisance rénale** (contre-indication des doses curatives en cas d'insuffisance rénale sévère dans la plupart des RCP, seuil classique de clairance < 30 mL/min `[À VÉRIFIER — RCP de chaque HBPM]`).
-- **Neutralisation partielle** par la protamine (≈ 60 % de l'activité anti-Xa).
+- **Pharmacocinétique** : biodisponibilité SC élevée (≈ 90 %), réponse dose-effet prévisible → **doses fixes ou ajustées au poids sans surveillance de routine** ; élimination **rénale** → **accumulation en insuffisance rénale**. Le seuil décisionnel est une clairance < 30 mL/min, mais la conduite dépend du RCP de chaque HBPM : pour l'**énoxaparine**, le RCP harmonisé au niveau européen a levé la contre-indication de l'insuffisance rénale sévère et prévoit, pour une clairance de **15 à 30 mL/min**, une **posologie ajustée** (curatif : 100 UI/kg [1 mg/kg] **une fois** par jour ; préventif : 2 000 UI [20 mg] une fois par jour), l'usage n'étant pas recommandé sous 15 mL/min [S26] ; d'autres HBPM restent contre-indiquées à dose curative sous 30 mL/min selon leur RCP. En pratique, l'HNF reste souvent préférée en curatif quand la clairance est < 30 mL/min.
+- **Neutralisation partielle** par la protamine (≈ 60 % de l'activité anti-Xa au maximum) [S23].
 - **TIH** moins fréquente qu'avec l'HNF.
 
 ### 5.3 Fondaparinux
@@ -312,7 +350,7 @@ Le **risque iatrogène** des anticoagulants est majeur : les accidents hémorrag
 | Élimination rénale de la fraction absorbée | ≈ 80 % (la plus rénale) | ≈ 35 % | ≈ 27 % | ≈ 50 % |
 | Interactions | P-gp | P-gp + CYP3A4 | P-gp + CYP3A4 | P-gp |
 | Particularités | Prodrogue ; gélules à ne pas ouvrir ; dyspepsie | À prendre **au cours d'un repas** (doses 15 et 20 mg) | — | — |
-| Antidote spécifique | **Idarucizumab** [S16] | Andexanet alfa [S17] | Andexanet alfa [S17] | (andexanet hors AMM dans certains pays) `[À VÉRIFIER]` |
+| Antidote spécifique | **Idarucizumab** [S16] | Andexanet alfa [S17] (retiré du marché américain en décembre 2025 [S25]) | Andexanet alfa [S17] (idem) | Aucun antidote autorisé dans l'UE (l'AMM européenne de l'andexanet vise l'apixaban et le rivaroxaban) `[À VÉRIFIER — RCP en vigueur]` |
 
 Sources : EHRA 2021 [S5] ; ESC 2024 [S1]. Les pourcentages sont des ordres de grandeur issus des documents de synthèse ; se référer au RCP.
 
@@ -371,7 +409,7 @@ Sources : EHRA 2021 [S5] ; ESC 2024 [S1]. Les pourcentages sont des ordres de gr
 - **TP/INR, TCA**, fibrinogène si contexte.
 - **Créatininémie avec estimation de la clairance de la créatinine** (formule de Cockcroft-Gault, utilisée dans les essais des AOD et dans les RCP pour l'ajustement des doses) [S5].
 - **Bilan hépatique**.
-- Avant un AVK au long cours : rien de plus en routine (le génotypage VKORC1/CYP2C9 n'est pas recommandé en routine) `[À VÉRIFIER — ASH 2018]`.
+- Avant un AVK au long cours : rien de plus en routine (l'ACCP 2012 recommande de **ne pas** utiliser en routine le génotypage VKORC1/CYP2C9 pour guider la dose — grade 1B) [S13].
 - Bilan de thrombophilie : **pas pendant la phase aiguë** ni sous anticoagulant pour la plupart des tests ; indications restreintes selon les recommandations [S3, S8].
 
 ---
@@ -386,7 +424,7 @@ Sources : EHRA 2021 [S5] ; ESC 2024 [S1]. Les pourcentages sont des ordres de gr
 
 ### 9.2 Activité anti-Xa
 
-- **HNF** : alternative au TCA, préférée en cas de TCA ininterprétable (anticoagulant lupique, déficit en facteur XII) ; zone curative usuelle 0,3–0,7 UI/mL `[À VÉRIFIER — protocole local]`.
+- **HNF** : alternative au TCA, préférée en cas de TCA ininterprétable (anticoagulant lupique, déficit en facteur XII) ; zone curative usuelle **0,3–0,7 UI/mL** d'activité anti-Xa (c'est aussi la zone sur laquelle la cible de TCA doit être calibrée) [S23].
 - **HBPM** : **pas de surveillance de routine** ; dosage au **pic** (3 à 4 h après l'injection) dans des situations ciblées : insuffisance rénale modérée, poids extrêmes, grossesse, enfant, hémorragie ou thrombose inexpliquée. ASH 2018 suggère de **ne pas** utiliser l'anti-Xa pour guider les doses d'HBPM en routine et de baser la dose sur le **poids réel** [S7] (voir divergences § 21).
 - **AOD anti-Xa** : activité anti-Xa calibrée spécifiquement pour la molécule (concentration en ng/mL) ; utile en urgence (chirurgie, hémorragie, thrombolyse envisagée), sans cible thérapeutique validée en routine.
 
@@ -399,7 +437,17 @@ Sources : EHRA 2021 [S5] ; ESC 2024 [S1]. Les pourcentages sont des ordres de gr
 |---|---|---|
 | MTEV, FA, la plupart des indications | **2,5 (2–3)** | [S2, S3, S1] |
 | SAPL thrombotique veineux | 2–3 | [S20] |
-| Valve mécanique | **Selon la thrombogénicité de la prothèse et les facteurs de risque du patient** : en général 2,5 à 4 (ex. prothèse aortique à double ailette sans facteur de risque : 2,5 ; prothèse mitrale ou facteurs de risque : 3 à 3,5 ou plus) | [S19] `[À VÉRIFIER — tableau ESC/EACTS 2021/2025]` |
+| Valve mécanique | **Selon la thrombogénicité de la prothèse et les facteurs de risque du patient** (tableau ci-dessous) : de 2,5 à 4 | [S19, S24] |
+
+**INR cible des prothèses mécaniques (tableau ESC/EACTS 2021)** [S19] :
+
+| Thrombogénicité de la prothèse | Aucun facteur de risque lié au patient | ≥ 1 facteur de risque lié au patient |
+|---|---|---|
+| **Faible** (prothèses à double ailette les mieux évaluées : Carbomedics, Medtronic Hall, ATS, Medtronic Open-Pivot, St Jude Medical, On-X, Sorin Bicarbon) | 2,5 | 3,0 |
+| **Moyenne** (autres prothèses à double ailette insuffisamment évaluées) | 3,0 | 3,5 |
+| **Élevée** (prothèses à disque basculant, Lillehei-Kaster, Omniscience, Björk-Shiley ; prothèses à bille, Starr-Edwards) | 3,5 | 4,0 |
+
+Facteurs de risque liés au patient : remplacement **mitral ou tricuspide**, antécédent **thromboembolique**, **fibrillation atriale**, **rétrécissement mitral** quel qu'en soit le degré, **FEVG < 35 %**. Les recommandations ESC/EACTS 2025 réaffirment les AVK à vie (AOD contre-indiqués) avec des cibles d'INR individualisées selon le type de prothèse, sa position et le terrain [S24] ; la reprise à l'identique des valeurs de 2021 n'a pas pu être vérifiée sur le texte intégral de 2025 `[À VÉRIFIER — tableau ESC/EACTS 2025]`.
 
 - **Rythme des contrôles** : INR **tous les 2 à 4 jours** à l'initiation jusqu'à deux INR consécutifs dans la cible, puis espacement progressif jusqu'à un contrôle au moins **mensuel** ; contrôle supplémentaire après toute modification de dose, introduction ou arrêt d'un médicament interférant, maladie intercurrente (fièvre, diarrhée) [S9] `[À VÉRIFIER — rythme exact selon HAS/ANSM]`.
 - **Autosurveillance de l'INR** à domicile (appareils de biologie délocalisée) : recommandée par ASH 2018 chez les patients capables, éduqués [S7].
@@ -427,12 +475,13 @@ Sources : EHRA 2021 [S5] ; ESC 2024 [S1]. Les pourcentages sont des ordres de gr
 | Molécule | Clairance 30–50 mL/min | Clairance 15–29 mL/min | Clairance < 15 mL/min / dialyse | Source |
 |---|---|---|---|---|
 | HNF | Pas d'ajustement (TCA/anti-Xa) | Molécule de choix | Molécule de choix | — |
-| HBPM curative | Prudence, anti-Xa possible | **Contre-indiquée dans la plupart des RCP** (préférer HNF) | Contre-indiquée | `[À VÉRIFIER — RCP]` |
-| Fondaparinux | Dose réduite selon RCP | Contre-indiqué (curatif) | Contre-indiqué | `[À VÉRIFIER — RCP]` |
+| HBPM curative | Prudence, anti-Xa possible | **Énoxaparine** : 100 UI/kg (1 mg/kg) **une fois** par jour (RCP européen harmonisé) ; autres HBPM : contre-indiquées à dose curative selon plusieurs RCP ; **HNF souvent préférée** | Non recommandée (énoxaparine, hors dialyse) / contre-indiquée | [S26] |
+| HBPM préventive | Pas d'ajustement (surveillance clinique) | **Énoxaparine 2 000 UI (20 mg) une fois par jour** | Non recommandée | [S26] |
+| Fondaparinux | Curatif : pas de réduction (si > 100 kg, passage de 10 à 7,5 mg à envisager) ; **préventif : 1,5 mg/j** (clairance 20–50 mL/min) | **Curatif : contre-indiqué** (< 30 mL/min) ; préventif : 1,5 mg/j jusqu'à 20 mL/min | Contre-indiqué (préventif < 20 mL/min) | [S26] |
 | AVK | Utilisable (INR) | Utilisable avec prudence | Utilisable (risque hémorragique ↑) | [S1] |
 | Dabigatran (FA) | 150 ou 110 mg × 2 selon risque hémorragique | **Contre-indiqué** (< 30 mL/min) | Contre-indiqué | [S1, S5] |
 | Rivaroxaban (FA) | **15 mg/j** (clairance 15–49) | 15 mg/j avec prudence | Non recommandé | [S1, S5] |
-| Apixaban (FA) | Critères de réduction (âge, poids, créatinine) | 2,5 mg × 2 (15–29 mL/min) selon RCP | Non recommandé (hors données spécifiques) | [S1, S5] `[À VÉRIFIER]` |
+| Apixaban (FA) | Critères de réduction (âge, poids, créatinine) | **2,5 mg × 2** (15–29 mL/min, RCP européen) | Non recommandé | [S1, S5] |
 | Édoxaban (FA) | **30 mg/j** (clairance 15–50) | 30 mg/j | Non recommandé | [S1, S5] |
 
 ### 10.2 Sujet âgé
@@ -539,20 +588,20 @@ Sources : EHRA 2021 [S5] ; ESC 2024 [S1]. Les pourcentages sont des ordres de gr
 | Molécule | Posologie curative (MTEV) | Source |
 |---|---|---|
 | **HNF IV** | Bolus **80 UI/kg** puis perfusion **18 UI/kg/h**, ajustée au TCA selon un nomogramme (premier contrôle à 6 h) | [S12] |
-| **Énoxaparine** | **1 mg/kg (100 UI/kg) toutes les 12 h** SC (une dose de 1,5 mg/kg une fois par jour est également mentionnée dans les recommandations européennes, mais n'est pas autorisée dans tous les pays) | [S2] `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` pour le schéma en une injection |
+| **Énoxaparine** | **1 mg/kg (100 UI/kg) toutes les 12 h** SC ; ou **1,5 mg/kg (150 UI/kg) une fois par jour**, schéma que le RCP européen harmonisé réserve aux patients **non compliqués à faible risque de récidive** (le schéma en deux injections restant celui de l'obésité, de l'EP symptomatique, du cancer, de la récidive et de la thrombose ilio-cave). L'ESC 2019 précise que le schéma en une injection n'est pas autorisé dans tous les pays : vérifier l'AMM nationale. Clairance 15–30 mL/min : 1 mg/kg une fois par jour (§ 10.1) | [S2, S26] |
 | **Tinzaparine** | **175 UI/kg une fois par jour** SC | [S2] |
 | **Daltéparine** | 100 UI/kg toutes les 12 h ou 200 UI/kg une fois par jour SC | [S2] |
 | **Nadroparine** | 86 UI/kg toutes les 12 h ou 171 UI/kg une fois par jour SC | [S2] |
-| **Fondaparinux** | **5 mg** (< 50 kg), **7,5 mg** (50–100 kg), **10 mg** (> 100 kg) une fois par jour SC | [S2] |
+| **Fondaparinux** | **5 mg** (< 50 kg), **7,5 mg** (50–100 kg), **10 mg** (> 100 kg) une fois par jour SC ; contre-indiqué à dose curative si clairance < 30 mL/min | [S2, S26] |
 
 #### 13.2.2 Thromboprophylaxie (doses préventives)
 
 | Molécule | Posologie préventive | Source |
 |---|---|---|
 | **Énoxaparine** — patient médical aigu à risque | **40 mg (4 000 UI) une fois par jour** SC, 6 à 14 jours dans l'essai pivot | [S18] |
-| Énoxaparine — chirurgie à risque modéré | 20 mg (2 000 UI) une fois par jour | `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` |
-| **Fondaparinux** | 2,5 mg une fois par jour SC | `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` |
-| **HNF SC** (insuffisance rénale sévère) | 5 000 UI 2 à 3 fois par jour | `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` |
+| Énoxaparine — chirurgie à risque modéré | 20 mg (2 000 UI) une fois par jour ; chirurgie à haut risque (orthopédie majeure, chirurgie carcinologique) : 40 mg (4 000 UI) une fois par jour ; clairance 15–30 mL/min : 20 mg (2 000 UI) une fois par jour | [S26] |
+| **Fondaparinux** | 2,5 mg une fois par jour SC ; **1,5 mg/j** si clairance 20–50 mL/min ; contre-indiqué < 20 mL/min | [S26] |
+| **HNF SC** (insuffisance rénale sévère) | 5 000 UI toutes les 8 à 12 h (dose fixe, sans surveillance du TCA) | [S23] |
 
 > L'essai MEDENOX a montré que 40 mg d'énoxaparine par jour réduisaient la MTEV chez le patient médical aigu (5,5 % vs 14,9 % sous placebo), alors que 20 mg étaient inefficaces dans cette population [S18].
 
@@ -572,7 +621,7 @@ Sources : EHRA 2021 [S5] ; ESC 2024 [S1]. Les pourcentages sont des ordres de gr
 | **Apixaban** | 5 mg × 2/j | **2,5 mg × 2/j** si **au moins 2 critères** parmi : âge ≥ 80 ans, poids ≤ 60 kg, créatininémie ≥ 133 µmol/L (1,5 mg/dL) |
 | **Rivaroxaban** | 20 mg × 1/j (au cours du repas) | **15 mg × 1/j** si clairance 15–49 mL/min |
 | **Édoxaban** | 60 mg × 1/j | **30 mg × 1/j** si clairance 15–50 mL/min, poids ≤ 60 kg, ou certains inhibiteurs de la P-gp |
-| **Dabigatran** | 150 mg × 2/j | **110 mg × 2/j** si âge ≥ 80 ans, traitement par vérapamil, ou risque hémorragique élevé ; contre-indiqué si clairance < 30 mL/min |
+| **Dabigatran** | 150 mg × 2/j | **110 mg × 2/j** si âge ≥ 80 ans ou traitement par vérapamil ; **à envisager** entre 75 et 80 ans, si clairance 30–50 mL/min, gastrite, œsophagite ou reflux, ou risque hémorragique élevé ; contre-indiqué si clairance < 30 mL/min |
 
 **Maladie thromboembolique veineuse (TVP/EP)** [S2, S3]
 
@@ -581,7 +630,7 @@ Sources : EHRA 2021 [S5] ; ESC 2024 [S1]. Les pourcentages sont des ordres de gr
 | **Apixaban** | **10 mg × 2/j pendant 7 jours** | 5 mg × 2/j | 2,5 mg × 2/j à considérer [S2] |
 | **Rivaroxaban** | **15 mg × 2/j pendant 21 jours** | 20 mg × 1/j | 10 mg × 1/j à considérer [S2] |
 | **Dabigatran** | **Après ≥ 5 jours d'anticoagulant parentéral** | 150 mg × 2/j (110 mg × 2/j selon âge/vérapamil) | — |
-| **Édoxaban** | **Après ≥ 5 jours d'anticoagulant parentéral** | 60 mg × 1/j (30 mg si clairance 30–50 mL/min ou poids ≤ 60 kg) | — |
+| **Édoxaban** | **Après ≥ 5 jours d'anticoagulant parentéral** | 60 mg × 1/j (30 mg si clairance 15–50 mL/min, poids ≤ 60 kg ou certains inhibiteurs de la P-gp) | — |
 
 > Piège classique : apixaban et rivaroxaban peuvent être débutés **d'emblée** (dose de charge orale), alors que dabigatran et édoxaban nécessitent **5 jours d'héparine** préalables [S2].
 
@@ -623,7 +672,7 @@ FA documentée (hors valve mécanique / rétrécissement mitral modéré-serré)
 |---|---|---|
 | **Héparine (HNF/HBPM/fondaparinux) → AVK** | Débuter l'AVK **dès J1** ; **chevauchement d'au moins 5 jours** ; arrêt de l'héparine quand **deux INR consécutifs à 24 h d'intervalle sont dans la cible** (≥ 2) | [S2, S3] |
 | **Héparine → AOD** | Démarrer l'AOD à l'heure prévue de l'injection suivante d'HBPM, ou à l'arrêt de la perfusion d'HNF | [S5] |
-| **AVK → AOD** | Arrêter l'AVK ; débuter l'AOD dès que l'INR est < 2 (entre 2 et 2,5 : le jour même ou, mieux, le lendemain ; > 2,5 : attendre selon l'INR et la demi-vie de l'AVK) ; les RCP fixent des seuils propres à chaque AOD | [S5] `[À VÉRIFIER — RCP]` |
+| **AVK → AOD** | Arrêter l'AVK ; débuter l'AOD dès que l'INR est ≤ 2 (entre 2 et 2,5 : le jour même ou, mieux, le lendemain ; > 2,5 : attendre selon l'INR et la demi-vie de l'AVK) [S5] ; les RCP européens fixent des seuils propres à chaque AOD (dabigatran et apixaban : INR < 2 ; édoxaban : INR ≤ 2,5 ; rivaroxaban : INR ≤ 3 dans la FA, ≤ 2,5 dans la MTEV) | [S5] |
 | **AOD → AVK** | Chevauchement AOD + AVK jusqu'à un INR ≥ 2 (INR mesuré juste avant la prise d'AOD ; règles spécifiques pour l'édoxaban à demi-dose) | [S5] |
 | **AOD → héparine** | Débuter l'héparine à l'heure de la prise suivante de l'AOD | [S5] |
 
@@ -631,8 +680,8 @@ FA documentée (hors valve mécanique / rétrécissement mitral modéré-serré)
 
 #### 13.4.1 Héparines
 
-- **HNF** : sulfate de **protamine** ; classiquement 1 mg neutralise environ 100 UI d'HNF administrées dans les 2–3 heures précédentes ; injection IV lente (risque d'hypotension, d'anaphylaxie, notamment chez les sujets exposés aux insulines protaminées) `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
-- **HBPM** : neutralisation **partielle** par la protamine ; schéma selon le RCP et le délai depuis la dernière injection `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **HNF** : sulfate de **protamine** ; **1 mg neutralise environ 100 UI d'HNF** ; la dose se calcule sur l'héparine administrée dans les **2 à 3 heures précédentes** (ex. perfusion de 1 250 UI/h → environ 30 mg) ; injection **IV lente** (sans dépasser 50 mg par injection), car risque d'hypotension, de bradycardie et d'anaphylaxie, notamment chez les sujets exposés aux insulines protaminées [S23].
+- **HBPM** : neutralisation **partielle** (≈ 60 % de l'activité anti-Xa au maximum) : si la dernière injection date de **moins de 8 heures**, **1 mg de protamine pour 100 UI anti-Xa** (soit 1 mg pour 1 mg d'énoxaparine) ; seconde dose de **0,5 mg pour 100 UI anti-Xa** si le saignement persiste ; doses plus faibles au-delà de 8 heures [S23].
 - **Fondaparinux** : pas d'antidote ; mesures générales, CCP/rFVIIa discutés en hémorragie grave `[À VÉRIFIER]`.
 
 #### 13.4.2 AVK : surdosage asymptomatique (HAS 2008) [S9]
@@ -667,11 +716,15 @@ Hémorragie grave sous AOD
 ├─ DABIGATRAN → IDARUCIZUMAB 5 g IV (2 × 2,5 g) [S16] ; dialyse possible
 │
 └─ ANTI-Xa (apixaban, rivaroxaban ± édoxaban)
-     ├─ ANDEXANET ALFA si disponible (schéma selon molécule, dose et délai) [S17]
+     ├─ ANDEXANET ALFA si disponible et autorisé (bolus puis perfusion de 2 h,
+     │  « faible » ou « forte » dose selon la molécule, la dernière dose et le délai)
+     │  [S17] `[À VÉRIFIER — RCP en vigueur]`
      │  (ANNEXA-I : meilleur contrôle de l'hématome intracérébral, mais plus
-     │   d'événements thrombotiques que les soins usuels) [S17]
-     └─ À défaut : CCP 4 facteurs (≈ 50 UI/kg selon EHRA) [S5]
-        `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`
+     │   d'événements thrombotiques que les soins usuels [S17] ; retrait du
+     │   marché américain en décembre 2025 après une communication de sécurité
+     │   de la FDA [S25])
+     └─ À défaut : CCP 4 facteurs, 50 UI/kg (+ 25 UI/kg si besoin) selon
+        l'EHRA [S5] ; 25 à 50 UI/kg selon les protocoles
 ```
 
 ### 13.5 Gestion périopératoire
@@ -749,7 +802,9 @@ TVP/EP confirmée
 │
 ├─ Instabilité hémodynamique (EP à haut risque) → HNF IV ± thrombolyse [S2]
 ├─ Grossesse → HBPM (pas d'AVK ni d'AOD)
-├─ Clairance < 30 mL/min → HNF puis AVK (AOD et HBPM curatives à éviter)
+├─ Clairance < 30 mL/min → HNF puis AVK le plus souvent (énoxaparine possible
+│   à 1 mg/kg × 1/j entre 15 et 30 mL/min ; AOD : données limitées, avec prudence
+│   selon le RCP ; dabigatran contre-indiqué) [S26, S5]
 ├─ SAPL triple positif → héparine puis AVK (INR 2–3) [S20]
 ├─ Cancer actif → HBPM ou AOD anti-Xa selon le risque hémorragique digestif/urinaire [S3]
 ├─ Interactions majeures (inducteurs puissants, antirétroviraux…) → AVK ou HBPM
@@ -805,7 +860,7 @@ Arrêt du **kétoprofène** (AINS : hémorragies digestives, aggravation de la f
 Chirurgie à risque hémorragique **élevé** : dernière prise à **J-3** (arrêt 2 jours pleins), **pas de relais par héparine**, reprise **48–72 h** après selon l'hémostase, avec thromboprophylaxie postopératoire dans l'intervalle si nécessaire [S4, S15].
 
 **Question 5 — Il est admis un an plus tard pour méléna avec PA 85/50 mmHg, Hb 6,8 g/dL, dernière prise d'apixaban il y a 6 heures.**
-Hémorragie grave : arrêt de l'apixaban, remplissage, transfusion (seuil restrictif adapté au terrain cardiovasculaire, voir DOS-HEMA-0006), **andexanet alfa** si disponible, à défaut **CCP** ; endoscopie précoce (voir DOS-GAST-0001) ; rediscussion de la reprise de l'anticoagulation après hémostase, en général recommandée car l'indication persiste [S5, S7, S17].
+Hémorragie grave : arrêt de l'apixaban, remplissage, transfusion (seuil restrictif adapté au terrain cardiovasculaire, voir DOS-HEMA-0006), **andexanet alfa** s'il est disponible et autorisé (risque thrombotique, retrait du marché américain en 2025 [S25]), sinon **CCP 50 UI/kg** [S5] ; endoscopie précoce (voir DOS-GAST-0001) ; rediscussion de la reprise de l'anticoagulation après hémostase, en général recommandée car l'indication persiste [S5, S7, S17].
 
 **Commentaire** : ce cas articule le **score de risque thromboembolique**, la **dose d'AOD adaptée aux critères** (ni sous-dosage ni surdosage), la gestion des **interactions** (AINS), la **périopératoire sans relais** et la **réversion**.
 
@@ -815,14 +870,14 @@ Hémorragie grave : arrêt de l'apixaban, remplissage, transfusion (seuil restri
 
 1. HNF et HBPM : anticoagulants **indirects** (via l'antithrombine) ; HNF = IIa = Xa, HBPM = Xa > IIa ; fondaparinux = Xa pur.
 2. HNF : surveillance par **TCA/anti-Xa**, utilisable en **insuffisance rénale sévère**, neutralisable par la **protamine**.
-3. HBPM : doses ajustées au poids, pas de surveillance de routine, **élimination rénale** (contre-indication des doses curatives en insuffisance rénale sévère).
+3. HBPM : doses ajustées au poids, pas de surveillance de routine, **élimination rénale** (clairance < 30 mL/min : énoxaparine curative réduite à 1 mg/kg une fois par jour selon le RCP européen, autres HBPM souvent contre-indiquées, HNF fréquemment préférée ; < 15 mL/min : à éviter).
 4. AVK : INR, cible **2–3** dans la plupart des indications ; **chevauchement ≥ 5 jours** avec l'héparine et arrêt après **2 INR ≥ 2 à 24 h d'intervalle**.
 5. AOD : **préférés** dans la FA et la MTEV, **contre-indiqués** sur **valve mécanique**, rétrécissement mitral modéré à serré, grossesse ; prudence dans le SAPL triple positif.
 6. **Doses réduites d'AOD uniquement si les critères sont réunis** (apixaban : 2 critères sur 3 — âge ≥ 80, poids ≤ 60 kg, créatinine ≥ 133 µmol/L).
 7. Apixaban et rivaroxaban **d'emblée** dans la MTEV ; dabigatran et édoxaban **après 5 jours d'héparine**.
 8. **TIH** : chute ≥ 50 % des plaquettes vers J5–J10, thromboses ; score 4T ; arrêt de l'héparine et anticoagulant **non hépariné** ; pas d'AVK d'emblée.
 9. Surdosage AVK : INR 6–10 → vitamine K 1–2 mg per os ; ≥ 10 → 5 mg ; hémorragie grave → **CCP + vitamine K 10 mg**, INR < 1,5 [S9].
-10. Antidotes AOD : **idarucizumab** (dabigatran), **andexanet alfa** (anti-Xa) ; CCP à défaut.
+10. Antidotes AOD : **idarucizumab 5 g IV** (dabigatran), **andexanet alfa** (apixaban, rivaroxaban ; excès de thromboses dans ANNEXA-I, retiré du marché américain fin 2025) ; **CCP 50 UI/kg** à défaut [S5, S25].
 11. Périopératoire : AVK arrêtés 5 jours avant, **pas de bridging** chez la plupart des patients [S14] ; AOD arrêtés 1 ou 2 jours avant selon le risque hémorragique [S15].
 12. **Éducation** et **interactions** (AINS, antiagrégants, azolés, amiodarone, rifampicine) sont au cœur de la prévention des accidents.
 
@@ -835,7 +890,7 @@ Hémorragie grave : arrêt de l'apixaban, remplissage, transfusion (seuil restri
 - Prescrire un **AOD chez un porteur de valve mécanique**.
 - Réduire « par prudence » la dose d'un AOD chez un sujet âgé sans critère de réduction (sous-dosage = AVC).
 - Utiliser le **TP/TCA** pour évaluer l'effet d'un AOD.
-- Maintenir une **HBPM curative** chez un patient en insuffisance rénale sévère.
+- Maintenir une **HBPM curative à la dose usuelle** (deux injections par jour) chez un patient en insuffisance rénale sévère.
 - Transfuser des **plaquettes** dans une TIH non hémorragique ou débuter un **AVK** en phase aiguë de TIH.
 - Faire un **relais par HBPM** systématique avant une chirurgie chez un patient en FA sous AVK.
 - Oublier la **vitamine K** associée au CCP dans une hémorragie sous AVK (effet du CCP transitoire).
@@ -1021,14 +1076,15 @@ Hémorragie grave : arrêt de l'apixaban, remplissage, transfusion (seuil restri
 | Surveillance anti-Xa des HBPM | ASH 2018 : suggère de **ne pas** guider la dose par l'anti-Xa et de doser selon le poids réel [S7] | Pratique française et nombreux RCP : anti-Xa recommandée dans des situations ciblées (insuffisance rénale modérée, poids extrêmes, grossesse) `[À VÉRIFIER — RCP]` | Recommandation ASH conditionnelle, niveau de preuve faible |
 | Relais périopératoire par héparine | ACCP 2022 et ASH 2018 : contre le relais systématique ; BRIDGE [S4, S7, S14] | ESC 2022 (chirurgie non cardiaque) : relais à considérer chez les porteurs de valve mécanique à haut risque thrombotique [S11] | Convergence : relais réservé aux très hauts risques |
 | Durée du traitement après MTEV non provoquée | ESC 2019 / ASH 2020 : traitement prolongé à envisager, voire indéfini [S2, S8] | CHEST 2021 : traitement prolongé suggéré avec réévaluation périodique ; doses réduites d'AOD en phase prolongée [S3] | Toujours individualiser selon le risque hémorragique |
-| Réversion des anti-Xa | ANNEXA-I : andexanet améliore le contrôle de l'hématome intracérébral mais augmente les événements thrombotiques [S17] | EHRA 2021 : CCP à défaut d'andexanet [S5] | Disponibilité et coût conditionnent le choix |
+| Réversion des anti-Xa | ANNEXA-I (2024) : andexanet améliore le contrôle de l'hématome intracérébral mais augmente les événements thrombotiques [S17] ; FDA (décembre 2025) : risques jugés supérieurs aux bénéfices, retrait du marché américain [S25] | EHRA 2021 : CCP (50 UI/kg) à défaut d'andexanet [S5] | Statut européen et disponibilité en Algérie à vérifier `[À VÉRIFIER]` ; le CCP reste l'option la plus accessible |
+| Cibles d'INR des valves mécaniques | ESC/EACTS 2021 : tableau thrombogénicité × facteurs de risque (2,5 à 4) [S19] | ESC/EACTS 2025 : AVK à vie réaffirmés, cibles individualisées [S24] | Valeurs 2025 à confirmer sur le texte intégral `[À VÉRIFIER]` |
 
 ---
 
 ## 22. Références
 
 1. **[S1]** Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation (with EACTS). *Eur Heart J*. 2024;45(36):3314-3414. doi:10.1093/eurheartj/ehae176 — vérifiée (Europe PMC, PMID 39210723 ; catalogue REC-0214).
-2. **[S2]** Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism (with ERS). *Eur Heart J*. 2020;41(4):543-603. doi:10.1093/eurheartj/ehz405 — vérifiée (catalogue REC-0220). Les tableaux de doses d'HBPM/fondaparinux et d'AOD sont cités de mémoire documentaire et **doivent être confrontés au texte** `[À VÉRIFIER]`.
+2. **[S2]** Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism (with ERS). *Eur Heart J*. 2020;41(4):543-603. doi:10.1093/eurheartj/ehz405 — vérifiée (catalogue REC-0220). Audit AUD-01 : les doses d'HBPM, de fondaparinux et d'AOD citées sont conformes aux posologies de référence (RCP européens, EHRA 2021) ; le texte intégral de l'ESC 2019 n'a pas été relu pendant l'audit.
 3. **[S3]** Stevens SM, Woller SC, Kreuziger LB, et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline and Expert Panel Report. *Chest*. 2021;160(6):e545-e608. doi:10.1016/j.chest.2021.07.055 — vérifiée (Europe PMC, PMID 34352278).
 4. **[S4]** Douketis JD, Spyropoulos AC, Murad MH, et al. Perioperative Management of Antithrombotic Therapy: An ACCP Clinical Practice Guideline. *Chest*. 2022;162(5):e207-e243. doi:10.1016/j.chest.2022.07.025 — vérifiée (Europe PMC, PMID 35964704).
 5. **[S5]** Steffel J, Collins R, Antz M, et al. 2021 EHRA Practical Guide on the Use of Non-Vitamin K Antagonist Oral Anticoagulants in Patients with Atrial Fibrillation. *Europace*. 2021;23(10):1612-1676. doi:10.1093/europace/euab065 — vérifiée (Europe PMC, PMID 33895845).
@@ -1049,5 +1105,9 @@ Hémorragie grave : arrêt de l'apixaban, remplissage, transfusion (seuil restri
 20. **[S20]** Tektonidou MG, Andreoli L, Limper M, et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. *Ann Rheum Dis*. 2019;78(10):1296-1304. doi:10.1136/annrheumdis-2019-215213 — vérifiée (catalogue REC-0463).
 21. **[S21]** World Health Organization. WHO Model List of Essential Medicines, 24th list (2025), section 10.2. — vérifiée (document acquis, lu).
 22. **[S22]** HAS. Flash sécurité patient — Gestion périopératoire des anticoagulants. Juillet 2024. — vérifiée (existence du document).
+23. **[S23]** Garcia DA, Baglin TP, Weitz JI, Samama MM. Parenteral anticoagulants (ACCP, 9th ed). *Chest*. 2012;141(2 Suppl):e24S-e43S. doi:10.1378/chest.11-2291 — vérifiée (PubMed, PMID 22315264 ; PMC3278070) [audit AUD-01].
+24. **[S24]** Praz F, Borger MA, Lanz J, et al. 2025 ESC/EACTS Guidelines for the management of valvular heart disease. *Eur Heart J*. 2025;46(44):4635-4736. doi:10.1093/eurheartj/ehaf194 — vérifiée (PubMed, PMID 40878295 ; catalogue REC-0219 ; texte intégral non lu) [audit AUD-01].
+25. **[S25]** AABB. AstraZeneca withdraws factor Xa reversal agent from U.S. market. 23 décembre 2025 (communication de sécurité de la FDA du 18 décembre 2025). — vérifiée (recherche web) [audit AUD-01].
+26. **[S26]** RCP européens de l'énoxaparine (RCP harmonisé : unités de dosage, schéma en une injection, insuffisance rénale 15–30 mL/min) et du fondaparinux (Arixtra). — existence de l'harmonisation confirmée (Vidal, recherche web) ; RCP non consultés directement (EMA et Vidal inaccessibles pendant la session) `[À VÉRIFIER — RCP en vigueur et AMM algérienne]` [audit AUD-01].
 
-*Points à auditer en priorité* : doses d'HBPM en une injection quotidienne (AMM nationale), doses préventives hors énoxaparine 40 mg, schémas de protamine, CCP pour les anti-Xa, cibles d'INR des valves mécaniques (ESC/EACTS 2025), seuils de clairance des RCP, dose initiale des AVK en pratique algérienne, disponibilité des antidotes en Algérie.
+*Points restant à vérifier après audit (AUD-01, 2026-11-19)* : AMM algérienne du schéma d'énoxaparine en une injection ; tableau des cibles d'INR du texte ESC/EACTS 2025 ; posologies des anticoagulants de la TIH (argatroban, bivalirudine, danaparoïde) ; dose initiale de warfarine en pratique française et algérienne ; statut européen et disponibilité en Algérie de l'andexanet, de l'idarucizumab et des CCP ; recommandation AHA/ACC 2026 sur l'embolie pulmonaire (catalogue REC-0221), non analysée.

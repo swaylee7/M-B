@@ -41,7 +41,7 @@ sources:
     doi: "10.1371/journal.pmed.0040317"
     url: ""
     verifiee: true
-    remarque: "Audit AUD-04 : référence et DOI confirmés ; message principal confirmé (forme non compliquée : doxycycline 6 semaines + streptomycine 2–3 semaines ou + rifampicine 6 semaines ; gentamicine alternative acceptable à la streptomycine ; risque de résistance mycobactérienne lié à la rifampicine là où brucellose et tuberculose coexistent). Durées des formes focalisées non confirmées." Texte intégral relu par AUD-05 (2026-11-19, PDF acquis 18_RECOMMANDATIONS/03_SOCIETES_SAVANTES/Brucellose_recommandations_Ioannina_PLoSMed_2007.pdf) : spondylite — données en faveur d'au moins 3 mois ; neurobrucellose — aucune recommandation possible faute de données ; endocardite — choix des antibiotiques empirique, chirurgie dans la majorité des cas ; grossesse — cotrimoxazole seul ou associé à la rifampicine.
+    remarque: "Audit AUD-04 : référence et DOI confirmés ; message principal confirmé (forme non compliquée : doxycycline 6 semaines + streptomycine 2–3 semaines ou + rifampicine 6 semaines ; gentamicine alternative acceptable à la streptomycine ; risque de résistance mycobactérienne lié à la rifampicine là où brucellose et tuberculose coexistent). Durées des formes focalisées non confirmées. Texte intégral relu par AUD-05 (2026-11-19, PDF acquis 18_RECOMMANDATIONS/03_SOCIETES_SAVANTES/Brucellose_recommandations_Ioannina_PLoSMed_2007.pdf) : spondylite — données en faveur d'au moins 3 mois ; neurobrucellose — aucune recommandation possible faute de données ; endocardite — choix des antibiotiques empirique, chirurgie dans la majorité des cas ; grossesse — cotrimoxazole seul ou associé à la rifampicine."
   - id: S3
     reference: "Pappas G, Akritidis N, Bosilkovski M, Tsianos E. Brucellosis. N Engl J Med. 2005;352(22):2325-2336."
     organisme: "Revue"
@@ -422,9 +422,11 @@ La revue Cochrane de 2012 conclut que **doxycycline + rifampicine est moins effi
 **d) Neurobrucellose** : associations comportant des antibiotiques à bonne diffusion méningée — par exemple **ceftriaxone** (les premières semaines) + **doxycycline** + **rifampicine** — pendant **plusieurs mois** (au moins 3 à 6 mois, jusqu'à normalisation du LCR) `[À VÉRIFIER — source à identifier]` ; le consensus d'Ioannina estime que la rareté des données thérapeutiques **ne permet aucune recommandation** pour la neurobrucellose [S2].
 
 **e) Endocardite** (synthèse harmonisée avec DOS-CARD-0005 § 13.2.2 — audit de cohérence AUD-05, 2026-11-19) : association **doxycycline + rifampicine (± cotrimoxazole) + aminoside les premières semaines**, durée prolongée (**au moins 3 à 6 mois**), **avis chirurgical précoce** (remplacement valvulaire fréquemment nécessaire). Sources et divergences :
+
 - le **consensus d'Ioannina (2007)** ne recommande **aucun schéma** pour l'endocardite (moins de 200 cas publiés, aucun essai : choix des antibiotiques empirique) et note qu'une **chirurgie** a été nécessaire dans la majorité des cas rapportés [S2] ;
 - le tableau des EI à hémocultures négatives de l'**ESC 2015** propose doxycycline 200 mg/j + cotrimoxazole 960 mg × 2/j + rifampicine **300–600 mg/j** per os pendant au moins 3 à 6 mois, certains auteurs ajoutant la **gentamicine les 3 premières semaines** [S10] (reprise par l'ESC 2023 non vérifiée `[À VÉRIFIER]`) ; la rifampicine y est donc moins dosée que dans les schémas de la brucellose non compliquée (**600–900 mg/j**, OMS 1986 / Ioannina 2007 [S2]) ;
 - revues systématiques de cas : mortalité de 6,7 % avec traitement médico-chirurgical contre 32,7 % avec traitement médical seul (308 cas [S11]) ; aminosides et chirurgie associés à une mortalité plus faible (273 cas, 2025, niveau de preuve faible [S12]).
+
 Doses de rifampicine et d'aminoside dans l'endocardite : `[POSOLOGIE À VÉRIFIER — avis infectiologique / protocole local]`.
 
 **f) Orchi-épididymite, formes viscérales** : bithérapie de 6 semaines ; drainage des abcès volumineux.
