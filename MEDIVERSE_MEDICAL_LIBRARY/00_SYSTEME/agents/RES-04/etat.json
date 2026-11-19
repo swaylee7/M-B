@@ -1,9 +1,19 @@
 {
   "id": "RES-04",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {}
+  "statut": "en_cours",
+  "derniere_execution": "2026-11-19",
+  "taches_terminees": [
+    "lot a CHI-001→032 (90 QCM)"
+  ],
+  "taches_suivantes": [
+    "lot b CHI-033→067 (90 QCM, ids 4091→4180)"
+  ],
+  "objectifs": {
+    "items": 60,
+    "qcm_par_item": 3,
+    "qcm_total": 180
+  },
+  "compteurs": {
+    "qcm": 90
+  }
 }
