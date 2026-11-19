@@ -85,21 +85,21 @@ sources:
     url: ""
     verifiee: true
   - id: S10
-    reference: "Frykman G. Fracture of the distal radius including sequelae — shoulder-hand-finger syndrome, disturbance in the distal radio-ulnar joint and impairment of nerve function. A clinical and experimental study. Acta Orthop Scand. 1967;Suppl 108:1-153."
+    reference: "Frykman G. Fracture of the distal radius including sequelae — shoulder-hand-finger syndrome, disturbance in the distal radio-ulnar joint and impairment of nerve function. A clinical and experimental study. Acta Orthop Scand. 1967;Suppl 108:3+ (PMID 4175195)."
     organisme: "Acta Orthop Scand"
     annee: 1967
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
-    reference: "Castaing J; Club des Dix. Les fractures récentes de l'extrémité inférieure du radius chez l'adulte. Rev Chir Orthop Reparatrice Appar Mot. 1964;50:581-696."
+    reference: "Castaing J; Club des Dix. Les fractures récentes de l'extrémité inférieure du radius chez l'adulte. Rev Chir Orthop Reparatrice Appar Mot. 1964;50:581-696 (PMID 14198868)."
     organisme: "Rev Chir Orthop (SOFCOT)"
     annee: 1964
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
     reference: "Conley RB, Adib G, Adler RA, et al. Secondary Fracture Prevention: Consensus Clinical Recommendations From a Multistakeholder Coalition. J Bone Miner Res. 2020;35(1):36-52."
     organisme: "ASBMR (coalition multipartite)"
@@ -116,6 +116,22 @@ sources:
     doi: ""
     url: "https://www.has-sante.fr/jcms/c_793371/fr/prevention-des-chutes-accidentelles-chez-la-personne-agee"
     verifiee: true
+  - id: S14
+    reference: "Lichtman DM, Bindra RR, Boyer MI, Putnam MD, Ring D, Slutsky DJ, Taras JS, et al. Treatment of distal radius fractures (recommandations AAOS 2009). J Am Acad Orthop Surg. 2010;18(3):180-189."
+    organisme: AAOS
+    annee: 2010
+    type: recommandation
+    doi: "10.5435/00124635-201003000-00007"
+    url: ""
+    verifiee: true
+  - id: S15
+    reference: "Ekrol I, Duckworth AD, Ralston SH, Court-Brown CM, McQueen MM. The influence of vitamin C on the outcome of distal radial fractures: a double-blind, randomized controlled trial. J Bone Joint Surg Am. 2014;96(17):1451-1459."
+    organisme: "J Bone Joint Surg Am"
+    annee: 2014
+    type: article
+    doi: "10.2106/JBJS.M.00268"
+    url: ""
+    verifiee: true
 mots_cles: [fracture de l'extrémité inférieure du radius, fracture du poignet, Pouteau-Colles, Goyrand-Smith, Barton, fracture cunéenne externe, Castaing, AO/OTA 2R3, Frykman, Older, Lafontaine, bascule postérieure, embrochage intrafocal de Kapandji, plaque palmaire verrouillée, fixateur externe, syndrome douloureux régional complexe, cal vicieux, rupture du long extenseur du pouce, ostéoporose]
 ---
 
@@ -123,7 +139,7 @@ mots_cles: [fracture de l'extrémité inférieure du radius, fracture du poignet
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
 > Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Les publications princeps de Castaing (1964) et Frykman (1967) n'ont pas pu être vérifiées dans une base bibliographique pendant la session (`verifiee: false`) ; les recommandations AAOS 2020 n'ont été consultées que par leur résumé et une fiche de synthèse — les formulations exactes et les niveaux de preuve sont signalés `[À VÉRIFIER]`.
+> Les publications princeps de Castaing (1964) et Frykman (1967) ont été retrouvées dans PubMed (via Europe PMC) lors de l'audit du 2026-11-19 ; leur texte n'a pas été lu. Les recommandations AAOS 2020 n'ont été consultées que par leur résumé et des synthèses : les formulations exactes et les niveaux de preuve restent signalés `[À VÉRIFIER]`.
 
 **Items du programme couverts** : RES-CHI-033 — « Fracture de l'extrémité inférieure du radius : Anatomie pathologique - diagnostic - traitement. »
 
@@ -354,7 +370,7 @@ Classiquement, la présence de **trois facteurs ou plus** signe une fracture **i
 - Ostéodensitométrie, calcémie, phosphorémie, 25-OH-vitamine D, créatinine, électrophorèse des protéines selon le contexte ; évaluation du risque de chute [S12, S13].
 
 ### 9.5 Critères radiologiques d'acceptabilité après réduction (repères)
-Classiquement, une réduction est jugée satisfaisante chez l'adulte actif si : **raccourcissement radial ≤ 3 mm**, **bascule dorsale ≤ 10°** (ou retour à une inclinaison neutre ou palmaire), **marche d'escalier articulaire ≤ 2 mm** ; au-delà, un traitement chirurgical est discuté chez le patient actif [critères classiques issus des recommandations AAOS antérieures (2009) — À VÉRIFIER ; les recommandations 2020 insistent davantage sur l'âge et la demande fonctionnelle [S1, S2]].
+Classiquement, une réduction est jugée satisfaisante chez l'adulte actif si : **raccourcissement radial ≤ 3 mm**, **bascule dorsale ≤ 10°** (ou retour à une inclinaison neutre ou palmaire), **marche d'escalier articulaire ≤ 2 mm**. Les recommandations AAOS de 2009 suggéraient, avec une force modérée, une fixation chirurgicale plutôt qu'un plâtre au-delà de ces seuils après réduction [S14]. Les recommandations de 2020 insistent davantage sur l'âge et la demande fonctionnelle [S1, S2].
 
 ---
 
@@ -447,7 +463,7 @@ La consolidation est habituellement obtenue en **6 semaines environ** chez l'adu
 
 #### 13.2.1 Analgésie et mesures immédiates
 - **Immobilisation provisoire** (attelle), surélévation, glace ; retrait des bagues.
-- **Analgésie multimodale** avec **épargne opioïde** : l'AAOS 2020 retient, par consensus, l'intérêt des stratégies multimodales limitant les opioïdes [S2] ; paracétamol, AINS de courte durée en l'absence de contre-indication [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+- **Analgésie multimodale** avec **épargne opioïde** : l'AAOS 2020 retient, par consensus, l'intérêt des stratégies multimodales limitant les opioïdes [S2] ; paracétamol 1 g toutes les 6 heures (4 g/j au maximum ; 3 g/j si le poids est inférieur à 50 kg ou en cas de facteur de risque hépatique), AINS de courte durée en l'absence de contre-indication, par exemple ibuprofène 400 mg × 3/j (RCP).
 - **Anesthésie pour la réduction** : bloc du foyer (« hematoma block »), anesthésie locorégionale intraveineuse, bloc plexique, anesthésie générale [posologies des anesthésiques locaux : POSOLOGIE À VÉRIFIER — protocole local].
 
 #### 13.2.2 Traitement orthopédique
@@ -480,11 +496,12 @@ La consolidation est habituellement obtenue en **6 semaines environ** chez l'adu
 - Pas de différence significative des résultats radiologiques ou rapportés par les patients entre les techniques de fixation pour les fractures **articulaires complètes ou instables**, mais **récupération fonctionnelle plus précoce** avec la plaque palmaire verrouillée [S2].
 - **Pas de différence** avec ou sans **assistance arthroscopique** [S2].
 - **Analgésie multimodale avec épargne opioïde** (recommandation de consensus) [S2].
-- Chez les patients âgés, le traitement opératoire n'améliorerait pas les résultats à long terme rapportés par les patients par rapport au traitement non opératoire [À VÉRIFIER — formulation, seuil d'âge (65 ans ?) et force de la recommandation dans le texte intégral].
+- Le texte comporte **sept recommandations** [S1]. L'âge de **65 ans** y sert de repère de la demande fonctionnelle : chez les patients de 65 ans et plus, le traitement opératoire n'a pas montré d'amélioration des résultats à long terme rapportés par les patients par rapport au traitement non opératoire, et la fixation chirurgicale systématique est déconseillée [S1, S2] [À VÉRIFIER — libellé exact et force de la recommandation].
+- **Rééducation** : pas de différence de résultats démontrée entre un programme d'exercices à domicile et une rééducation supervisée [S2].
 
 #### 13.2.6 Rééducation
 - **Mobilisation active des doigts dès J1** et des articulations sus-jacentes.
-- Après ablation du plâtre ou dès la stabilité obtenue par la chirurgie : récupération des amplitudes (flexion-extension, prono-supination), puis de la force ; programme à domicile ou supervisé selon le patient [À VÉRIFIER — position AAOS sur la rééducation supervisée].
+- Après ablation du plâtre ou dès la stabilité obtenue par la chirurgie : récupération des amplitudes (flexion-extension, prono-supination), puis de la force ; programme à domicile ou supervisé selon le patient ; l'AAOS 2020 ne retrouve pas de différence entre les deux [S2].
 
 ### 13.3 Stratégie / indications
 ```text
@@ -711,7 +728,7 @@ E. Immobilisation de l'épaule associée.
 |---|---|---|---|
 | **Chirurgie chez le sujet âgé** | Pratique répandue des plaques palmaires dans les années 2000–2010 | AAOS 2020 et essais CROSSFIRE/WRIST : pas de bénéfice fonctionnel durable démontré de la chirurgie chez les patients âgés [S1, S2, S5, S6] [À VÉRIFIER — formulation et seuil d'âge AAOS] | La chirurgie reste discutée chez les âgés actifs ; décision partagée |
 | **Broches vs plaque** | Plaque : stabilité, mobilisation précoce, récupération plus rapide à court terme [S2] | DRAFFT : équivalence fonctionnelle à 1 et 5 ans, broches moins coûteuses [S3, S4] | Choix selon le type de fracture, l'expertise et les ressources |
-| **Vitamine C et SDRC** | Recommandation AAOS 2009 (vitamine C quotidienne pendant ~50 jours) — selon la littérature secondaire, non vérifiée | Littérature ultérieure : preuves jugées insuffisantes ; position AAOS 2020 non confirmée pendant la session [À VÉRIFIER] | Ne pas présenter la vitamine C comme une recommandation établie sans vérification |
+| **Vitamine C et SDRC** | AAOS 2009 : « suggère » une vitamine C adjuvante pour prévenir les douleurs disproportionnées (force modérée) [S14] | Essai randomisé en double aveugle d'Ekrol (2014, 336 patients, 500 mg/j pendant 50 jours) : aucun bénéfice sur la fonction, le taux de SDRC ni la consolidation [S15] ; position exacte de l'AAOS 2020 non relue [À VÉRIFIER] | Ne pas présenter la vitamine C comme une recommandation actuelle établie |
 | **Critères radiologiques de réduction acceptable** | Seuils classiques (raccourcissement ≤ 3 mm, bascule dorsale ≤ 10°, marche ≤ 2 mm) issus des recommandations antérieures [À VÉRIFIER] | Recommandations 2020 centrées sur l'âge et les résultats rapportés par les patients [S1, S2] | Seuils utiles chez le sujet actif ; plus tolérants chez le sujet âgé |
 | **Classifications** | Castaing (enseignement francophone) [S11] | AO/OTA (recherche, internationale) [S9] ; Frykman (anglo-saxonne) [S10] | Connaître les trois pour l'examen ; l'AO/OTA est la plus reproductible pour la communication scientifique [À VÉRIFIER] |
 | **Assistance arthroscopique** | Utile pour contrôler la réduction articulaire et dépister les lésions ligamentaires | AAOS 2020 : pas de différence de résultats [S2] | Indication au cas par cas |
@@ -729,7 +746,9 @@ E. Immobilisation de l'épaule associée.
 7. **[S7]** Lafontaine M, Hardy D, Delince P. Stability assessment of distal radius fractures. *Injury*. 1989;20(4):208-210. doi:10.1016/0020-1383(89)90113-7. — *vérifiée (PMID 2592094)*.
 8. **[S8]** Older TM, Stabler EV, Cassebaum WH. Colles fracture: evaluation and selection of therapy. *J Trauma*. 1965;5:469-476. doi:10.1097/00005373-196507000-00004. — *vérifiée (PMID 14308382)*.
 9. **[S9]** Meinberg EG, et al. Fracture and Dislocation Classification Compendium-2018. *J Orthop Trauma*. 2018;32 Suppl 1:S1-S170. doi:10.1097/BOT.0000000000001063. — *vérifiée (PMID 29256945)*.
-10. **[S10]** Frykman G. Fracture of the distal radius including sequelae. *Acta Orthop Scand*. 1967;Suppl 108:1-153. — *non vérifiée pendant la session*.
-11. **[S11]** Castaing J. Les fractures récentes de l'extrémité inférieure du radius chez l'adulte. *Rev Chir Orthop*. 1964;50:581-696. — *non vérifiée pendant la session*.
+10. **[S10]** Frykman G. Fracture of the distal radius including sequelae. *Acta Orthop Scand*. 1967;Suppl 108:3+. — *vérifiée à l'audit (PMID 4175195 ; texte non lu)*.
+11. **[S11]** Castaing J. Les fractures récentes de l'extrémité inférieure du radius chez l'adulte. *Rev Chir Orthop*. 1964;50:581-696. — *vérifiée à l'audit (PMID 14198868 ; texte non lu)*.
 12. **[S12]** Conley RB, et al. Secondary Fracture Prevention: Consensus Clinical Recommendations From a Multistakeholder Coalition. *J Bone Miner Res*. 2020;35(1):36-52. doi:10.1002/jbmr.3877. — *vérifiée (PMID 31538675)*.
 13. **[S13]** HAS. Évaluation et prise en charge des personnes âgées faisant des chutes répétées. 2009 (catalogue REC-0524). — *vérifiée (catalogue)*.
+14. **[S14]** Lichtman DM, et al. Treatment of distal radius fractures (recommandations AAOS 2009). *J Am Acad Orthop Surg*. 2010;18(3):180-189. doi:10.5435/00124635-201003000-00007. — *ajoutée à l'audit ; vérifiée (PMID 20190108, résumé lu)*.
+15. **[S15]** Ekrol I, et al. The influence of vitamin C on the outcome of distal radial fractures: a double-blind, randomized controlled trial. *J Bone Joint Surg Am*. 2014;96(17):1451-1459. doi:10.2106/JBJS.M.00268. — *ajoutée à l'audit ; vérifiée (PMID 25187584, résumé lu)*.
