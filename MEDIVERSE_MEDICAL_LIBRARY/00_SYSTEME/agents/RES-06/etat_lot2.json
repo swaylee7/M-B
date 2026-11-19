@@ -1,0 +1,204 @@
+{
+  "id": "RES-06",
+  "lot": 2,
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T03:32:27+00:00",
+  "perimetre": "Fiches de révision dérivées des dossiers v1.1 audités — pédiatrie, néonatologie, neurologie, réanimation, urgences, obstétrique, gynécologie, hématologie",
+  "taches_terminees": [
+    "FIC-HEMA-0001",
+    "FIC-HEMA-0002",
+    "FIC-HEMA-0003",
+    "FIC-HEMA-0004",
+    "FIC-HEMA-0005",
+    "FIC-PEDI-0001",
+    "FIC-PEDI-0002",
+    "FIC-PEDI-0003",
+    "FIC-NEON-0001",
+    "FIC-NEON-0002",
+    "FIC-GYNE-0001",
+    "FIC-GYNE-0002",
+    "FIC-GYNE-0003",
+    "FIC-OBST-0001",
+    "FIC-OBST-0002",
+    "FIC-NEUR-0001",
+    "FIC-URGE-0001",
+    "FIC-URGE-0002",
+    "FIC-MINT_REA-0001",
+    "FIC-MINT_REA-0002",
+    "PIEGES_CLASSIQUES_LOT2"
+  ],
+  "taches_suivantes": [
+    "Audit des 20 fiches FIC lot 2 par AUD (statut brouillon_a_auditer)",
+    "Transmission des 8 incohérences des dossiers sources à l'agent d'audit (correction des dossiers hors périmètre RES-06)",
+    "Indexation (indexer.py) et exports (exporter.py) par l'orchestrateur"
+  ],
+  "fiches": [
+    {
+      "id": "FIC-HEMA-0001",
+      "fichier": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0001__ANEMIES_DE_L_ADULTE_DIAGNOSTIC_ET_TRAITEMENT.md",
+      "dossier_source": "DOS-HEMA-0001",
+      "item": "RES-MED-112",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-HEMA-0002",
+      "fichier": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0002__PURPURA_THROMBOPENIQUE_IMMUNOLOGIQUE.md",
+      "dossier_source": "DOS-HEMA-0002",
+      "item": "RES-MED-113",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-HEMA-0003",
+      "fichier": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0003__HEMOPHILIE_DIAGNOSTIC_TRAITEMENT_PREVENTION.md",
+      "dossier_source": "DOS-HEMA-0003",
+      "item": "RES-MED-114",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-HEMA-0004",
+      "fichier": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0004__MYELOME_MULTIPLE.md",
+      "dossier_source": "DOS-HEMA-0004",
+      "item": "RES-MED-115",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-HEMA-0005",
+      "fichier": "07_MEDECINE_INTERNE/12_HEMA_HEMATOLOGIE/03_FICHES_REVISION/FIC-HEMA-0005__LYMPHOME_DE_HODGKIN.md",
+      "dossier_source": "DOS-HEMA-0005",
+      "item": "RES-MED-117",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PEDI-0001",
+      "fichier": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0001__DESHYDRATATIONS_AIGUES_DU_NOURRISSON.md",
+      "dossier_source": "DOS-PEDI-0001",
+      "item": "RES-MED-074",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PEDI-0002",
+      "fichier": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0002__VACCINATIONS_BASES_IMMUNOLOGIQUES_CONTRE_INDICATIONS_PEV.md",
+      "dossier_source": "DOS-PEDI-0002",
+      "item": "RES-MED-070",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PEDI-0003",
+      "fichier": "09_PEDIATRIE/29_PEDI_PEDIATRIE/03_FICHES_REVISION/FIC-PEDI-0003__MALNUTRITION_PROTEINO_CALORIQUE.md",
+      "dossier_source": "DOS-PEDI-0003",
+      "item": "RES-MED-067",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-NEON-0001",
+      "fichier": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/03_FICHES_REVISION/FIC-NEON-0001__ICTERE_NEONATAL.md",
+      "dossier_source": "DOS-NEON-0001",
+      "item": "RES-MED-069",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-NEON-0002",
+      "fichier": "09_PEDIATRIE/30_NEON_NEONATOLOGIE/03_FICHES_REVISION/FIC-NEON-0002__INFECTIONS_NEONATALES.md",
+      "dossier_source": "DOS-NEON-0002",
+      "item": "RES-MED-081",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-GYNE-0001",
+      "fichier": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/03_FICHES_REVISION/FIC-GYNE-0001__GROSSESSE_EXTRA_UTERINE.md",
+      "dossier_source": "DOS-GYNE-0001",
+      "item": "RES-CHI-057",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-GYNE-0002",
+      "fichier": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/03_FICHES_REVISION/FIC-GYNE-0002__CANCER_DU_COL_DE_L_UTERUS.md",
+      "dossier_source": "DOS-GYNE-0002",
+      "item": "RES-CHI-058",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-GYNE-0003",
+      "fichier": "10_GYNECOLOGIE_OBSTETRIQUE/31_GYNE_GYNECOLOGIE/03_FICHES_REVISION/FIC-GYNE-0003__TUMEURS_DU_SEIN.md",
+      "dossier_source": "DOS-GYNE-0003",
+      "item": "RES-CHI-062",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-OBST-0001",
+      "fichier": "10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/03_FICHES_REVISION/FIC-OBST-0001__PRE_ECLAMPSIE.md",
+      "dossier_source": "DOS-OBST-0001",
+      "item": "RES-CHI-066",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-OBST-0002",
+      "fichier": "10_GYNECOLOGIE_OBSTETRIQUE/32_OBST_OBSTETRIQUE/03_FICHES_REVISION/FIC-OBST-0002__HEMORRAGIE_DE_LA_DELIVRANCE.md",
+      "dossier_source": "DOS-OBST-0002",
+      "item": "RES-CHI-056",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-NEUR-0001",
+      "fichier": "12_NEUROLOGIE/21_NEUR_NEUROLOGIE/03_FICHES_REVISION/FIC-NEUR-0001__ACCIDENTS_VASCULAIRES_CEREBRAUX.md",
+      "dossier_source": "DOS-NEUR-0001",
+      "item": "RES-MED-030",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-URGE-0001",
+      "fichier": "13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/03_FICHES_REVISION/FIC-URGE-0001__CONDUITE_A_TENIR_DEVANT_UNE_INTOXICATION_AIGUE.md",
+      "dossier_source": "DOS-URGE-0001",
+      "item": "RES-MED-109",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-URGE-0002",
+      "fichier": "13_URGENCES_REANIMATION/42_URGE_MEDECINE_D_URGENCE/03_FICHES_REVISION/FIC-URGE-0002__MORSURES_ET_ENVENIMATIONS.md",
+      "dossier_source": "DOS-URGE-0002",
+      "item": "RES-MED-111",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-MINT_REA-0001",
+      "fichier": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/03_FICHES_REVISION/FIC-MINT_REA-0001__ETATS_DE_CHOC.md",
+      "dossier_source": "DOS-MINT_REA-0001",
+      "item": "RES-MED-106",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-MINT_REA-0002",
+      "fichier": "13_URGENCES_REANIMATION/43_MINT_REA_MEDECINE_INTENSIVE/03_FICHES_REVISION/FIC-MINT_REA-0002__COMAS.md",
+      "dossier_source": "DOS-MINT_REA-0002",
+      "item": "RES-MED-107",
+      "statut": "brouillon_a_auditer"
+    }
+  ],
+  "compilation_pieges": {
+    "fichier": "16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT2.md",
+    "nombre_pieges": 200,
+    "par_module": {
+      "Neurologie": 10,
+      "Pédiatrie": 50,
+      "Réanimation": 40,
+      "Hématologie clinique": 50,
+      "Chirurgie (gynécologie-obstétrique)": 50
+    }
+  },
+  "incoherences_dossiers_signalees": [
+    "1. DOS-PEDI-0001 §13.3 (plan B) — sonde nasogastrique « même volume (20 mL/kg/h pendant 4 heures environ) » = 80 mL/kg, alors que le volume du plan B est de 75 mL/kg (écart mineur, à expliciter).",
+    "2. DOS-PEDI-0002 §13.4/§21 — VPO à la naissance absent des arrêtés de 2018 et 2026 mais mentionné par le guide pratique 2023 (S5) : discordance déjà signalée par le dossier, toujours non tranchée.",
+    "3. DOS-PEDI-0003 §13.2/§13.3/§14 — seuils d'alerte de surcharge non harmonisés : choc « FR +5/min et FC +15/min » ; transfusion « FR +5 ou FC +25/min » ; transition « FR ≥ +5 et FC ≥ +25 » (contextes OMS distincts, à expliciter) ; suivi ambulatoire « chaque semaine ou toutes les deux semaines » (§13.3) vs « suivi hebdomadaire » (§16).",
+    "4. DOS-PEDI-0003, DOS-NEON-0001, DOS-NEON-0002 — avertissement d'en-tête « toutes les sources internationales sont verifiee: false » devenu inexact après l'audit v1.1 (plusieurs sources vérifiées) ; NEON-0002 : titre de tableau « posologies … toutes à vérifier » également dépassé.",
+    "5. DOS-NEON-0002 — la source S1 (RBP SFN/SFP 2017, label HAS) est citée « HAS 2017 » dans le texte : libellé à harmoniser.",
+    "6. DOS-MINT_REA-0001 vs DOS-PEDI-0002 — adrénaline IM de l'anaphylaxie chez l'enfant : maximum 0,3 mg (MINT_REA-0001 §13.2c, §16.2) vs 0,5 mg (PEDI-0002 §12.3) ; renouvellement « après 5 min » vs « toutes les 5 à 15 min ».",
+    "7. DOS-OBST-0002 §13.2.4 — posologie de la méthylergométrine (0,2 mg IM) attribuée à [S15] dans la cellule, alors que la colonne « Source » indique [S2].",
+    "8. DOS-HEMA-0003 — S7 (PNDS hémophilie A acquise) marquée verifiee: true avec « [date de publication à préciser] » ; S2 datée « 2019, mise en ligne juin 2023 » mais citée « PNDS 2023 » dans le texte."
+  ],
+  "compteurs": {
+    "fiches_creees": 20,
+    "pieges": 200,
+    "incoherences_signalees": 8
+  },
+  "remarque": "Fichiers du lot 1 (journal.md, etat.json, fiches et PIEGES_CLASSIQUES_LOT1.md) non modifiés."
+}

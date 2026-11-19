@@ -216,3 +216,6 @@ Surveillance prolongée (biphasique), déclaration MAPI au CNPM, contre-indicati
 - [S16] OMS. BCG vaccines: WHO position paper, février 2018. REH 2018;93(8):73-96.
 - [S19] Décret exécutif n° 22-250 du 30 juin 2022 (maladies à déclaration obligatoire), JORADP n° 47 (DOC-00072).
 - [S21] OMS. *Pocket book of hospital care for children*, 2ᵉ éd., 2013, §4.6.4 (DOC-00063).
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S5] Ministère de la Santé (Algérie) — Guide pratique de mise en œuvre du nouveau calendrier national de vaccination (2e édition, 2023), diffusé par le Centre national de pharmacovigilance et …

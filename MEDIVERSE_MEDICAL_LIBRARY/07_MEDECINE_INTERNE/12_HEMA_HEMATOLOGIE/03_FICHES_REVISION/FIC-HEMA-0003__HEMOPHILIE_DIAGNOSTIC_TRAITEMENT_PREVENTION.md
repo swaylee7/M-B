@@ -210,3 +210,7 @@ TRAUMATISME CRÂNIEN : facteur à dose « HIC » AVANT le scanner ; scanner norm
 - [S4] Blanchette VS, et al. ISTH — définitions de la sévérité, 2014.
 - [S5] Mahlangu J, et al. HAVEN 3 — émicizumab sans inhibiteur. *N Engl J Med* 2018.
 - [S7] HAS. PNDS — Hémophilie A acquise.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S6] First real-world evidence study of patients with hemophilia in Algeria (registre « Baromètre » du ministère de la Santé). Résumé ISPOR Europe 2022 [auteurs à compléter].
+- [S8] Tiede A, Collins P, Knoebl P, Teitel J, Kessler C, Shima M, et al. International recommendations on the diagnosis and treatment of acquired hemophilia A. Haematologica. …

@@ -153,6 +153,147 @@
       "auteur": "DOS-02",
       "date_creation": "2026-11-19",
       "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "CAS-INFE-0203",
+      "titre": "Coma fébrile chez un chauffeur routier revenant du Niger",
+      "niveau": "residanat",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 38 ans, 72 kg, chauffeur routier à Tamanrasset, effectuant régulièrement des trajets vers Agadez (Niger) ; dernier retour il y a 12 jours.",
+      "motif_consultation": "Amené aux urgences en septembre pour fièvre depuis 4 jours puis confusion apparue ce matin.",
+      "antecedents": "Aucun. Pas de chimioprophylaxie. Pas de moustiquaire.",
+      "symptomes": "Fièvre irrégulière avec frissons, céphalées, vomissements depuis 4 jours ; automédication par paracétamol ; ce matin, propos incohérents puis somnolence ; une crise convulsive généralisée dans l'ambulance.",
+      "examen_clinique": "T 40,1 °C, FC 124/min, PA 96/58 mmHg, FR 30/min, SpO2 95 % en air ambiant ; Glasgow 9 (Y2 V2 M5) ; pas de raideur de nuque ; subictère conjonctival ; splénomégalie à 1 travers de doigt ; pas de purpura.",
+      "biologie": "Glycémie capillaire 2,0 mmol/L (0,36 g/L) ; frottis : trophozoïtes de P. falciparum, parasitémie 6 % ; Hb 9,8 g/dL ; plaquettes 42 000/mm3 ; leucocytes 6 100/mm3 ; créatinine 210 µmol/L (N 60–110) ; bilirubine totale 58 µmol/L (N < 17) ; bicarbonates 14 mmol/L (N 22–26) ; lactate 5,6 mmol/L (N < 2) ; CRP 140 mg/L. LCR (après TDM) : clair, 2 éléments/mm3, protéinorachie 0,35 g/L, glycorachie normale. Hémocultures prélevées.",
+      "imagerie": "TDM cérébrale avant PL (coma et convulsion) : pas de lésion focale. Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Paludisme grave à P. falciparum (neuropaludisme) importé du Niger"
+      ],
+      "diagnostics_differentiels": [
+        "Méningo-encéphalite bactérienne ou virale (LCR normal)",
+        "Sepsis bactérien associé",
+        "Fièvre typhoïde",
+        "Hypoglycémie d'autre cause"
+      ],
+      "examens_a_demander": [
+        "Frottis + goutte épaisse avec parasitémie",
+        "Glycémie, gaz du sang, lactate",
+        "NFS, créatinine, bilirubine, hémostase",
+        "Hémocultures",
+        "PL (après imagerie si coma avec convulsions)",
+        "Groupe sanguin"
+      ],
+      "diagnostic_final": "Paludisme grave d'importation à P. falciparum : troubles de conscience (Glasgow 9), convulsion, hypoglycémie, acidose (bicarbonates 14 mmol/L, lactate 5,6 mmol/L).",
+      "traitement": "Réanimation : position latérale, voie veineuse, correction immédiate de l'hypoglycémie (glucosé hypertonique IV) puis glucosé en entretien ; artésunate IV 2,4 mg/kg (≈ 170 mg) sans délai, renouvelé selon le schéma du RCP (H12, H24 puis /24 h) [À VÉRIFIER — schéma horaire], au moins 24 h et jusqu'à reprise de la voie orale, puis CTA complète de 3 jours (artéméther-luméfantrine 4 comprimés × 2/j ; éviter les CTA contenant de la méfloquine après troubles de conscience) ; antibiothérapie empirique jusqu'aux hémocultures (sepsis non éliminé) ; gestion prudente des apports hydriques ; benzodiazépine en cas de convulsion ; déclaration obligatoire et investigation du cas.",
+      "surveillance": "Glasgow et signes vitaux rapprochés ; glycémie toutes les 4 h au minimum ; diurèse, créatinine, lactate ; parasitémie toutes les 12 h pendant 2 à 3 jours ; Hb après la sortie (hémolyse retardée post-artésunate).",
+      "evolution": "Reprise de conscience à H36 ; parasitémie à 0,1 % à H48 ; relais oral par artéméther-luméfantrine à J2 ; créatinine normalisée à J5 ; à J14, Hb 8,1 g/dL avec LDH élevée : hémolyse retardée post-artésunate, résolutive sans transfusion.",
+      "explication_pedagogique": "Le cas illustre le paludisme d'importation du Sud algérien (trajets vers le Sahel, saison post-pluies), l'intrication de plusieurs critères de gravité OMS, la priorité de la glycémie et de l'artésunate IV, l'exclusion d'une méningite par la PL, le relais par CTA et la surveillance de l'hémolyse retardée ; il rappelle aussi la déclaration et l'investigation exigées en phase de prévention de la réintroduction.",
+      "questions": [
+        {
+          "question": "Quels critères de gravité (OMS) sont présents ?",
+          "reponse": "Troubles de conscience (Glasgow 9 < 11), hypoglycémie (< 2,2 mmol/L), acidose (bicarbonates < 15 mmol/L, lactate ≥ 5 mmol/L) et ictère (bilirubine > 50 µmol/L avec une parasitémie de 6 %, soit bien plus de 100 000/µL). Une seule convulsion ne remplit pas le critère « convulsions multiples » (> 2/24 h) et la créatinine (210 µmol/L) reste sous le seuil de 265 µmol/L ; un seul critère suffit pour parler de paludisme grave."
+        },
+        {
+          "question": "Quel traitement antipaludique ?",
+          "reponse": "Artésunate IV 2,4 mg/kg, au moins 24 h et jusqu'à tolérance orale, puis CTA complète de 3 jours."
+        },
+        {
+          "question": "Pourquoi une ponction lombaire ?",
+          "reponse": "L'OMS recommande une PL chez le patient inconscient pour éliminer une méningite bactérienne, les tableaux pouvant se superposer."
+        },
+        {
+          "question": "Quelles mesures de santé publique ?",
+          "reponse": "Déclaration obligatoire (catégorie 1) et investigation du cas (lieu d'acquisition, compagnons de voyage, recherche de cas introduits)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie), communiqués de septembre 2020 relayés par la presse [chiffres à vérifier]",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "CAS-INFE-0204",
+      "titre": "Fièvre quatre mois après un séjour au Mali",
+      "niveau": "resident",
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 27 ans, 58 kg, ingénieure, de retour à Alger depuis 4 mois après une mission de 6 mois à Bamako (Mali).",
+      "motif_consultation": "Accès fébriles depuis 3 jours, survenant un jour sur deux.",
+      "antecedents": "Sous doxycycline pendant la mission, arrêtée le jour du retour. Pas de grossesse en cours (test négatif). Aucun antécédent hémolytique connu.",
+      "symptomes": "Frissons intenses suivis de chaleur puis de sueurs, céphalées ; asymptomatique entre les accès.",
+      "examen_clinique": "T 39,6 °C pendant l'accès, FC 108/min, PA 118/72 mmHg ; Glasgow 15 ; pointe de rate ; pas d'ictère ; pas de signe de gravité.",
+      "biologie": "Frottis : trophozoïtes et schizontes de P. ovale, parasitémie 0,3 % ; goutte épaisse positive ; TDR HRP2 négatif. Hb 12,1 g/dL ; plaquettes 98 000/mm3 ; créatinine et bilirubine normales ; glycémie 5,2 mmol/L. Activité G6PD (test semi-quantitatif) > 70 % de la normale.",
+      "imagerie": "Aucune.",
+      "hypotheses_diagnostiques": [
+        "Paludisme à P. ovale (accès de rechute ou primo-accès tardif)"
+      ],
+      "diagnostics_differentiels": [
+        "Paludisme à P. falciparum (TDR HRP2 négatif, morphologie)",
+        "Infection mixte",
+        "Pyélonéphrite",
+        "Infection virale"
+      ],
+      "examens_a_demander": [
+        "Frottis + goutte épaisse",
+        "TDR",
+        "NFS, créatinine, bilirubine, glycémie",
+        "Test de grossesse",
+        "Dosage de l'activité G6PD"
+      ],
+      "diagnostic_final": "Paludisme non compliqué à P. ovale, révélé 4 mois après le retour.",
+      "traitement": "Traitement de l'accès : CTA de 3 jours (par exemple artéméther-luméfantrine 4 comprimés × 2/j) ou chloroquine 25 mg base/kg au total sur 3 jours selon la disponibilité (OMS) ; puis prévention des rechutes par primaquine après contrôle du G6PD : activité > 70 % → 0,5 mg/kg/j pendant 14 jours (ou 7 jours), ou 1 mg/kg/j pendant 7 jours (OMS 2024) ; contraception ou absence de grossesse à vérifier ; déclaration obligatoire.",
+      "surveillance": "Courbe thermique, tolérance digestive, frottis de contrôle ; signes d'hémolyse sous primaquine (urines foncées, ictère) ; information sur le risque de rechute en cas de traitement incomplet.",
+      "evolution": "Apyrexie en 48 h ; frottis négatif à J3 ; primaquine bien tolérée ; pas de rechute à 6 mois.",
+      "explication_pedagogique": "Le cas rappelle que la doxycycline (suppressive) ne prévient pas les rechutes à P. ovale/vivax, que la fièvre peut survenir des mois après le retour, que le TDR HRP2 ne détecte pas les espèces non falciparum, et que la primaquine exige un dosage préalable du G6PD et l'exclusion d'une grossesse.",
+      "questions": [
+        {
+          "question": "Pourquoi cet accès malgré la chimioprophylaxie ?",
+          "reponse": "La doxycycline, schizonticide sanguin, n'agit pas sur les hypnozoïtes hépatiques de P. ovale ; de plus, elle a été arrêtée le jour du retour au lieu d'être poursuivie 4 semaines."
+        },
+        {
+          "question": "Pourquoi le TDR est-il négatif ?",
+          "reponse": "L'antigène HRP2 est spécifique de P. falciparum ; seul un TDR pan-espèces (pLDH, aldolase) ou la microscopie détecte P. ovale."
+        },
+        {
+          "question": "Quel traitement complet ?",
+          "reponse": "CTA (ou chloroquine) pour l'accès, puis primaquine anti-hypnozoïte après vérification du G6PD et de l'absence de grossesse."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
     }
   ]
 }

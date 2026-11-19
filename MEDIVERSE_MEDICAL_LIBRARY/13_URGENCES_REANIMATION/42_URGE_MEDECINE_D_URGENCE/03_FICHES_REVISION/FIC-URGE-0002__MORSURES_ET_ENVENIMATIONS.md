@@ -221,3 +221,8 @@ Animal (chien/chat) observable : **observation vétérinaire de 10 jours** ; s'i
 - [S8] Abroug F, et al. Serotherapy in scorpion envenomation: a randomised controlled trial. *Lancet* 1999.
 - [S11] OMS. Rabies vaccines: WHO position paper, avril 2018. REH 2018;93(16):201-219.
 - [S13] OMS SEARO. Guidelines for the management of snakebites, 2ᵉ éd., 2016.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S9] Bawaskar HS, Bawaskar PH. Essai randomisé prazosine ± sérum antiscorpionique dans les piqûres de Mesobuthus tamulus (Inde). BMJ. 2011. [À VÉRIFIER — non confirmée pendant la session] — non vérifiée en session
+- [S15] Stevens DL, et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the IDSA. Clin Infect Dis. 2014. [À VÉRIFIER — non confirmée … — non vérifiée en session
+- [S16] Classification clinique des envenimations vipérines en grades 0 à 3 (Audebert et al., Toxicon, 1992), utilisée en France. [À VÉRIFIER — non confirmée pendant la session] — non vérifiée en session

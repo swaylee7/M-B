@@ -193,3 +193,6 @@ Formes atypiques : **interstitielle** (rupture tardive, MTX ou résection cornua
 - [S5] Marret H, et al. CNGOF — méthotrexate dans la GEU.
 - [S6] ANSM — RTU puis cadre de prescription compassionnelle du méthotrexate dans la GEU.
 - [S7] Mol F, et al. ESEP — salpingotomie vs salpingectomie. *Lancet* 2014.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S4] Elson CJ, Salim R, Potdar N, Chetty M, Ross JA, Kirk EJ, on behalf of the Royal College of Obstetricians and Gynaecologists. Diagnosis and management of ectopic pregnancy. Green-top …

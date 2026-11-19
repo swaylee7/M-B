@@ -222,3 +222,8 @@ Algérie : **ABVD** largement utilisé ; accès à la **TEP**, au BV et aux anti
 - [S4] Alaggio R, et al. WHO-HAEM5 — lymphoid neoplasms, 2022.
 - [S6] Borchmann P, et al. HD21 — BrECADD vs eBEACOPP.
 - [S7] Herrera AF, et al. Nivolumab-AVD (S1826). *N Engl J Med* 2024.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S5] Campo E, Jaffe ES, Cook JR, et al. The International Consensus Classification of Mature Lymphoid Neoplasms: a report from the Clinical Advisory Committee. Blood. 2022;140(11):1229-1253.
+- [S8] Ansell SM, et al. Overall survival with brentuximab vedotin in stage III or IV Hodgkin's lymphoma (ECHELON-1). N Engl J Med. 2022;387(4):310-320.
+- [S10] Hasenclever D, Diehl V. A prognostic score for advanced Hodgkin's disease. International Prognostic Factors Project on Advanced Hodgkin's Disease. N Engl J Med. 1998;339(21):1506-1514. …

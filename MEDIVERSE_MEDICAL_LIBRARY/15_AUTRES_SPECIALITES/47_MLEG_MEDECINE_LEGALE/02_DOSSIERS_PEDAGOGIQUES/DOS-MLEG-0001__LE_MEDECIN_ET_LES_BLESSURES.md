@@ -21,7 +21,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018046.pdf"
     verifiee: true
   - id: S2
-    reference: "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52 du 8 juillet 1992, p. 1160-1175 (consulté sur joradp.dz pendant la session : articles 7-58, 85-103, 204-221 ; non inscrit au registre des acquisitions)."
+    reference: "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52 du 8 juillet 1992, p. 1160-1175 (DOC-00107, acquis le 2026-11-19 ; articles 7-58, 85-103, 204-221 relus par l'auditeur)."
     organisme: "Gouvernement algérien"
     annee: 1992
     type: texte_officiel
@@ -29,7 +29,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1992/F1992052.pdf"
     verifiee: true
   - id: S3
-    reference: "Ordonnance n° 66-156 du 8 juin 1966 portant code pénal, JORADP n° 49 du 11 juin 1966 — version d'origine consultée (articles 264-301) ; le texte a été modifié et complété depuis (version consolidée à consulter)."
+    reference: "Ordonnance n° 66-156 du 8 juin 1966 portant code pénal, JORADP n° 49 du 11 juin 1966 (DOC-00108, rédaction d'origine : articles 182, 226, 264-301, 442) ; modifiée notamment par les lois 06-23 [S13], 15-19 [S14] et 24-06 [S15]. Aucune version consolidée officielle n'est publiée au JORADP."
     organisme: "République algérienne"
     annee: 1966
     type: texte_officiel
@@ -53,7 +53,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2022/F2022032.pdf"
     verifiee: true
   - id: S6
-    reference: "Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles, JORADP n° 28 du 5 juillet 1983, p. 1210-1217 (version d'origine consultée sur joradp.dz ; loi modifiée et complétée depuis)."
+    reference: "Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles, JORADP n° 28 du 5 juillet 1983, p. 1210-1217 (DOC-00103), modifiée par l'ordonnance n° 96-19 du 6 juillet 1996, JORADP n° 42 du 7 juillet 1996 (DOC-00104) ; articles 22-25 et 68 non modifiés par l'ordonnance 96-19."
     organisme: "République algérienne"
     annee: 1983
     type: texte_officiel
@@ -108,13 +108,61 @@ sources:
     doi: ""
     url: ""
     verifiee: true
+  - id: S13
+    reference: "Loi n° 06-23 du 20 décembre 2006 modifiant et complétant l'ordonnance n° 66-156 portant code pénal, JORADP n° 84 du 24 décembre 2006, p. 10-24 (DOC-00109 ; art. 27 : articles 264 et 266 ; art. 58 : article 442)."
+    organisme: "République algérienne"
+    annee: 2006
+    type: texte_officiel
+    doi: ""
+    url: "https://www.joradp.dz/FTP/jo-francais/2006/F2006084.pdf"
+    verifiee: true
+  - id: S14
+    reference: "Loi n° 15-19 du 30 décembre 2015 modifiant et complétant l'ordonnance n° 66-156 portant code pénal, JORADP n° 71 du 30 décembre 2015 (DOC-00110 ; articles 266 bis et 266 bis 1 : violences conjugales)."
+    organisme: "République algérienne"
+    annee: 2015
+    type: texte_officiel
+    doi: ""
+    url: "https://www.joradp.dz/FTP/jo-francais/2015/F2015071.pdf"
+    verifiee: true
+  - id: S15
+    reference: "Loi n° 24-06 du 28 avril 2024 modifiant et complétant l'ordonnance n° 66-156 portant code pénal, JORADP n° 30 du 30 avril 2024 (DOC-00111 ; art. 19 : articles 264-265 ; art. 21 : articles 269, 272, 275-276 ; art. 23 : articles 288-289)."
+    organisme: "République algérienne"
+    annee: 2024
+    type: texte_officiel
+    doi: ""
+    url: "https://www.joradp.dz/FTP/jo-francais/2024/F2024030.pdf"
+    verifiee: true
+  - id: S16
+    reference: "World Health Organization. WHO Expert Consultation on Rabies: third report. WHO Technical Report Series 1012. Genève : OMS ; 2018 (DOC-00038 ; catégories d'exposition, tableau 9 des schémas de prophylaxie post-exposition, dose maximale des immunoglobulines antirabiques)."
+    organisme: OMS
+    annee: 2018
+    type: recommandation
+    doi: ""
+    url: ""
+    verifiee: true
+  - id: S17
+    reference: "Centers for Disease Control and Prevention. Clinical Guidance for Wound Management to Prevent Tetanus (page web, cdc.gov/tetanus/hcp/clinical-guidance) ; Médecins Sans Frontières. Médicaments essentiels — Human tetanus immunoglobulin (HTIG) (medicalguidelines.msf.org) — consultés par extraits via moteur de recherche le 2026-11-19, non acquis."
+    organisme: "CDC ; MSF"
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://www.cdc.gov/tetanus/hcp/clinical-guidance/"
+    verifiee: true
+  - id: S18
+    reference: "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire contre certaines maladies transmissibles, JORADP n° 49/2018 (DOC-00070 ; rappels anti-diphtérique et anti-tétanique de l'adulte tous les 10 ans)."
+    organisme: "Ministère de la santé (Algérie)"
+    annee: 2018
+    type: texte_officiel
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [certificat médical descriptif, coups et blessures, ITT, incapacité, violences, réquisition, déclaration obligatoire, secret médical, loi 18-11, code de déontologie médicale]
 ---
 
 # Le médecin et les blessures : classification, approche médico-légale, certificat médical descriptif et déclarations obligatoires
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage ni aucun texte juridique (les textes algériens sont **reformulés** ; seuls de très brefs fragments sont cités entre guillemets).
-> Statut : brouillon à auditer. Les références juridiques doivent être vérifiées sur la **version consolidée en vigueur** des textes (le code pénal de 1966 et la loi 83-13 de 1983 ont été consultés dans leur rédaction d'origine).
+> Statut : audité (AUD-01, 2026-11-19). Le code pénal a été vérifié sur sa rédaction d'origine (DOC-00108) **et** sur les lois modificatives 06-23, 15-19 et 24-06 (DOC-00109 à DOC-00111) ; la loi 83-13 sur sa rédaction d'origine et l'ordonnance 96-19 (DOC-00103, DOC-00104). Aucune version consolidée officielle n'étant publiée au JORADP, une modification postérieure non repérée reste possible : vérifier avant tout usage professionnel.
 
 **Items du programme couverts** : RES-MED-139 — « Le médecin et les blessures : classification des blessures - approche médicolégale - réflexes médicolégaux face aux blessures - rédaction du certificat médical descriptif selon la loi relative à la santé - situations à déclaration obligatoire ».
 
@@ -137,8 +185,8 @@ Le médecin, quel que soit son mode d'exercice, est **régulièrement confronté
 | Terme | Définition opérationnelle |
 |---|---|
 | **Blessure (lésion traumatique)** | Altération de l'intégrité corporelle produite par une énergie extérieure (mécanique, thermique, électrique, chimique, rayonnement) ou par privation (asphyxie). |
-| **Coups et blessures volontaires (violences volontaires)** | Atteintes à l'intégrité physique commises intentionnellement par un tiers ; leur qualification pénale dépend notamment de la durée de l'incapacité de travail et des séquelles (code pénal, art. 264 et suivants) [S3]. |
-| **Blessures involontaires** | Atteintes résultant d'une maladresse, imprudence, inattention, négligence ou inobservation des règlements (code pénal, art. 288-289) [S3]. |
+| **Coups et blessures volontaires (violences volontaires)** | Atteintes à l'intégrité physique commises intentionnellement par un tiers ; leur qualification pénale dépend notamment de la durée de l'incapacité totale de travail (seuil de **15 jours**) et des séquelles (code pénal, art. 264 et suivants, 442) [S3, S13, S15]. |
+| **Blessures involontaires** | Atteintes résultant d'une maladresse, imprudence, inattention, négligence ou inobservation des règlements (code pénal, art. 288-289 et 442-2°) [S3, S13, S15]. |
 | **Certificat médical descriptif** | Écrit par lequel un médecin constate et décrit objectivement les lésions et blessures d'une personne victime de violence ; il est **obligatoire** pour tout médecin en cas de violence (loi 18-11, art. 199) [S1]. |
 | **Incapacité totale de travail (ITT)** | Notion **pénale** : durée pendant laquelle la victime est gênée de façon importante pour accomplir les actes ordinaires de la vie (manger, se déplacer, se laver, s'habiller…), sans rapport avec la notion d'arrêt de travail ; elle contribue à la qualification de l'infraction [S7, S10]. |
 | **Incapacité permanente (partielle ou totale)** | Réduction définitive du potentiel physique ou psychique, évaluée après **consolidation** et exprimée en taux selon un barème. |
@@ -230,20 +278,24 @@ Le médecin **décrit** et peut indiquer la **compatibilité** des lésions avec
 
 **Gravité médicale** : lésions superficielles ; lésions nécessitant des soins (sutures, immobilisation) ; lésions graves (fractures, atteintes viscérales, vasculaires, nerveuses) ; urgence vitale.
 
-**Gravité pénale (droit algérien)** — la qualification dépend notamment de la durée de l'incapacité de travail, des séquelles, du décès, du caractère volontaire ou non, de la qualité de la victime et des circonstances. Dans la **rédaction d'origine** du code pénal (1966) consultée [S3] :
+**Gravité pénale (droit algérien)** — la qualification dépend notamment de la durée de l'incapacité totale de travail (ITT), des séquelles, du décès, du caractère volontaire ou non, de la qualité de la victime et des circonstances. Le tableau ci-dessous donne la **rédaction en vigueur vérifiée** dans les lois modificatives publiées au JORADP, avec la rédaction d'origine (1966) pour mémoire [S3, S13, S14, S15] :
 
-| Situation | Article (rédaction 1966) | Principe (reformulé) |
-|---|---|---|
-| Violences volontaires entraînant une maladie ou une incapacité totale de travail **de plus de dix jours** | 264 al. 1 | Délit (emprisonnement et amende) |
-| Violences volontaires suivies de mutilation, amputation, perte de l'usage d'un membre, cécité, perte d'un œil ou autres infirmités permanentes | 264 al. 3 | Crime (réclusion) |
-| Violences volontaires ayant entraîné la mort sans intention de la donner | 264 al. 4 | Crime (réclusion) |
-| Violences sur ascendants légitimes | 267 | Aggravation |
-| Violences sur un **mineur** (seuil d'âge fixé par le texte) ou privation volontaire d'aliments ou de soins compromettant sa santé | 269-271 | Délit puis crimes selon les conséquences |
-| Homicide involontaire | 288 | Délit |
-| Blessures involontaires entraînant une ITT **de plus de trois mois** | 289 | Délit ; en deçà, contravention (art. 442) |
-| Violations du secret professionnel | 301 | Délit |
+| Situation | Article | Rédaction en vigueur (reformulée) | Rédaction de 1966 |
+|---|---|---|---|
+| Violences volontaires entraînant une maladie ou une ITT **de plus de quinze (15) jours** | 264 al. 1 | **Délit** : emprisonnement d'un à cinq ans et amende (loi 06-23, art. 27, puis loi 24-06, art. 19) [S13, S15] | Seuil de **plus de dix jours** [S3] |
+| Mêmes violences suivies de mutilation, perte de l'usage d'un membre, cécité, perte d'un œil ou autre infirmité permanente | 264 al. 2 | Emprisonnement de cinq à dix ans (loi 24-06) [S15] | Crime (réclusion à temps de cinq à dix ans) [S3] |
+| Violences volontaires ayant entraîné la mort sans intention de la donner | 264 dernier al. | **Crime** : réclusion à temps de dix à vingt ans (loi 24-06) [S15] | Réclusion à temps de dix à vingt ans [S3] |
+| Préméditation, guet-apens ou arme | 265, 266 | Aggravation, y compris lorsque l'ITT n'excède pas quinze jours (art. 266, loi 06-23) [S13, S15] | Seuil de dix jours à l'art. 266 [S3] |
+| Violences sur le **conjoint** (ou l'ex-conjoint, si liées au mariage) | 266 bis, 266 bis 1 | Peines graduées selon que l'ITT dépasse ou non **quinze jours**, l'infirmité ou le décès ; violences conjugales répétées (art. 266 bis 1) ; le pardon de la victime met fin aux poursuites lorsque les violences n'ont entraîné ni infirmité permanente ni décès (loi 15-19) [S14] | Absent |
+| Violences sur ascendants légitimes | 267 | Aggravation | Idem [S3] |
+| Violences sur un **mineur de moins de dix-huit ans** ou privation volontaire d'aliments ou de soins compromettant sa santé | 269-272 | Délit, puis crimes selon les conséquences ; aggravation si l'auteur est un parent ou une personne ayant autorité (loi 24-06) [S15] | Seuil d'âge : mineur de quinze ans (lecture OCR du JO de 1966) [S3] |
+| Violences légères **sans ITT supérieure à quinze jours**, sans préméditation, guet-apens ni arme | 442-1° | **Contravention** ; le pardon de la victime met fin aux poursuites (loi 06-23, art. 58) [S13] | Seuil de dix jours [S3] |
+| Homicide involontaire | 288 | Délit : emprisonnement d'un à cinq ans et amende (loi 24-06) [S15] | Six mois à trois ans [S3] |
+| Blessures involontaires entraînant une ITT **de plus de trois mois** | 289 | Délit (loi 24-06) [S15] | Idem (seuil de trois mois) [S3] |
+| Blessures involontaires **sans ITT supérieure à trois mois** | 442-2° | Contravention ; poursuite **uniquement sur plainte de la victime** ; le pardon met fin aux poursuites (loi 06-23) [S13] | Contravention [S3] |
+| Violation du secret professionnel | 301 | Délit, hors les cas où la loi oblige ou autorise à dénoncer [S3] | Idem |
 
-> ⚠ **Seuils à vérifier sur la version consolidée** : le code pénal a été modifié à plusieurs reprises depuis 1966 (le seuil d'ITT de l'article 264, le seuil d'âge des articles 269 et suivants et le contenu de l'article 442 peuvent avoir changé). Le seuil d'ITT de **quinze jours**, fréquemment enseigné, est `[À VÉRIFIER]` dans le texte en vigueur. Les montants des peines ne sont pas reproduits ici. La loi 18-11 renvoie elle-même aux articles 288, 289 et 442 (alinéa 2) du code pénal pour les atteintes à l'intégrité causées par négligence ou faute professionnelle d'un professionnel de santé (art. 413) [S1, S3].
+> **État de la vérification (audit du 2026-11-19).** Le seuil de **quinze jours** de l'article 264 n'est plus seulement « enseigné » : il figure dans le texte de l'article réécrit par la loi n° 06-23 du 20 décembre 2006 (DOC-00109, art. 27) puis par la loi n° 24-06 du 28 avril 2024 (DOC-00111, art. 19). La rédaction de 1966 (« plus de dix jours », DOC-00108) est **remplacée**. L'article 442 en vigueur est celui de la loi 06-23 ; la loi 24-06 ne le modifie pas. Faute de version consolidée officielle au JORADP, une modification postérieure à avril 2024 n'a pas pu être exclue. Les montants des amendes ne sont pas reproduits ici. La loi 18-11 renvoie elle-même aux articles 288, 289 et 442 (alinéa 2) du code pénal pour les atteintes à l'intégrité causées par négligence ou faute professionnelle d'un professionnel de santé (art. 413) [S1].
 
 La conséquence pratique est majeure : **la durée d'incapacité mentionnée par le médecin pèse directement sur la qualification de l'infraction** (contravention, délit) et sur la peine encourue ; elle doit donc être évaluée avec rigueur, sans complaisance ni sous-estimation [S7].
 
@@ -311,10 +363,14 @@ Examen par un médecin formé (gynécologue, légiste, pédiatre), dans les meil
 Ne pas couper les vêtements au niveau des orifices, les conserver ; décrire les orifices avant tout parage ; conserver les projectiles extraits dans un contenant identifié, remis à l'autorité requérante (chaîne de traçabilité) [S8, S9].
 
 ### 10.7 Accident de la circulation et accident du travail
-L'accident du travail obéit à un régime propre : le praticien choisi par la victime établit un **certificat initial** décrivant l'état de la victime et indiquant la durée probable de l'incapacité temporaire, ainsi que les constatations utiles à la détermination de l'origine traumatique ou morbide des lésions, puis un certificat de guérison ou de consolidation (loi 83-13, art. 22-25) [S6] (voir le dossier DOS-MTRA-0001).
+L'accident du travail obéit à un régime propre : le praticien choisi par la victime établit un **certificat initial** décrivant l'état de la victime et indiquant la durée probable de l'incapacité temporaire, ainsi que les constatations utiles à la détermination de l'origine traumatique ou morbide des lésions, puis un certificat de guérison ou de consolidation (loi 83-13, art. 22-25, non modifiés par l'ordonnance 96-19) [S6] (voir le dossier DOS-MTRA-0001).
 
 ### 10.8 Morsures animales
-Soins locaux, prophylaxie antitétanique et antirabique selon les protocoles nationaux `[POSOLOGIE À VÉRIFIER — RCP / protocole local]` ; la rage et le tétanos figurent sur la liste des maladies à déclaration obligatoire [S4].
+Soins locaux (lavage prolongé et abondant de la plaie à l'eau et au savon), puis prophylaxies, en appliquant en priorité le **protocole national** en vigueur (centres antirabiques) `[À VÉRIFIER — protocole national algérien]` ; à défaut, les références internationales sont les suivantes :
+- **Rage (OMS 2018)** [S16] : exposition de **catégorie I** (contact, léchage sur peau saine) → pas de prophylaxie ; **catégorie II** (mordillement de peau découverte, griffure ou érosion sans saignement) → vaccination ; **catégorie III** (morsure ou griffure transdermique, léchage sur peau lésée ou muqueuse) → vaccination **et** immunoglobulines antirabiques. Schémas vaccinaux recommandés chez le sujet non immunisé : intradermique 2 sites à J0, J3, J7, ou intramusculaire 1 site à J0, J3, J7 et entre J14 et J28 (ou J0 [2 sites], J7, J21). Immunoglobulines : **une seule fois**, au plus tard à J7 de la vaccination, à la dose maximale de **20 UI/kg** (humaines) ou **40 UI/kg** (équines), infiltrées au maximum dans et autour de la plaie.
+- **Tétanos** [S17, S18] : vérifier le statut vaccinal (calendrier algérien : rappel anti-diphtérique et anti-tétanique de l'adulte tous les 10 ans). Plaie propre et mineure : rappel si vaccination incomplète ou inconnue, ou dernière dose datant de 10 ans ou plus ; autre plaie (souillée, profonde, morsure) : rappel si vaccination incomplète ou inconnue, ou dernière dose datant de 5 ans ou plus, **et** immunoglobulines antitétaniques humaines si la vaccination est incomplète ou inconnue — **250 UI** IM (500 UI au-delà de 24 heures), en un site distinct du vaccin.
+
+La rage et le tétanos (néonatal et non néonatal) figurent sur la liste des maladies à déclaration obligatoire ; la morsure elle-même n'y figure pas [S4].
 
 ## 11. Diagnostics différentiels
 
@@ -441,7 +497,7 @@ Fait à ………, le ……… — Signature et cachet
 
 - **Repérage systématique des violences** (questions simples et bienveillantes en consultation, notamment pendant la grossesse et devant des plaintes somatiques répétées).
 - **Protection de l'enfance** : sensibilisation des professionnels de la petite enfance, signalement précoce [S12].
-- **Prévention des complications** des plaies : vaccination antitétanique à jour (calendrier vaccinal obligatoire), prophylaxie antirabique après morsure selon les protocoles nationaux.
+- **Prévention des complications** des plaies : vaccination antitétanique à jour (calendrier vaccinal obligatoire : rappel de l'adulte tous les 10 ans) [S18], prophylaxie antirabique après morsure selon le protocole national (références OMS au § 10.8) [S16].
 - **Sécurité des soignants** : prévention des violences dans les structures (art. 27, 183 et 295 de la loi 18-11 : les établissements assurent l'ordre et la sécurité dans leur enceinte) [S1].
 - **Formation** des médecins à la rédaction des certificats et aux procédures médico-légales.
 
@@ -549,7 +605,7 @@ Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-10.json` ; un second cas (CAS
 7. En cas de **mort suspecte ou violente**, le médecin ne délivre que le **constat de décès** et avise les autorités (art. 200 ; décret 22-178) [S1, S5].
 8. Le médecin **défère aux réquisitions** (art. 178), sous peine de sanction (art. 418), et répond aux seules questions posées [S1, S7].
 9. Le **secret médical** est la règle ; il ne cède que dans les cas prévus par la loi (art. 24, 169, 417 ; code pénal, art. 301) [S1, S3].
-10. La **qualification pénale** dépend de la durée d'incapacité (code pénal, art. 264, 289, 442) : seuils à vérifier sur la version consolidée [S3].
+10. La **qualification pénale** dépend de la durée d'incapacité : violences volontaires — délit si ITT **> 15 jours** (art. 264), contravention en deçà (art. 442-1°) ; blessures involontaires — délit si ITT **> 3 mois** (art. 289), contravention en deçà, poursuivie seulement sur plainte (art. 442-2°) (lois 06-23 et 24-06) [S13, S15].
 
 ## 19. Pièges classiques à l'examen
 
@@ -719,14 +775,14 @@ Parmi les situations suivantes rencontrées en consultation, lesquelles imposent
 - **A.** Ecchymoses multiples évoquant des sévices chez un enfant de 6 ans.
 - **B.** Blessure suspecte par arme blanche chez un adulte qui refuse de s'expliquer.
 - **C.** Tétanos chez un agriculteur blessé.
-- **D.** Morsure de chien avec suspicion de rage chez l'animal.
+- **D.** Encéphalite rabique chez un homme mordu deux mois plus tôt par un chien errant.
 - **E.** Entorse de cheville lors d'un match de football.
 
-> **Corrigé : A, B, C, D.** Les violences sur mineurs (art. 198), les blessures suspectes (art. 199 al. 2) et les maladies à déclaration obligatoire (art. 39 ; tétanos et rage figurent au décret 22-250) imposent une déclaration ; une entorse sportive n'en relève pas.
+> **Corrigé : A, B, C, D.** Les violences sur mineurs (art. 198), les blessures suspectes (art. 199 al. 2) et les maladies à déclaration obligatoire (art. 39 ; tétanos et rage figurent au décret 22-250) imposent une déclaration ; une entorse sportive n'en relève pas. La morsure en tant que telle ne figure pas sur la liste des MDO : c'est la rage humaine qui est à déclaration obligatoire.
 > - A : Vrai : information des services concernés.
 > - B : Vrai : déclaration obligatoire de la blessure suspecte.
 > - C : Vrai : MDO.
-> - D : Vrai : la rage est une MDO ; mise en route de la prophylaxie selon le protocole national.
+> - D : Vrai : la rage (humaine) est une MDO (décret 22-250) ; déclaration sans délai de tout cas suspect ou confirmé (art. 39).
 > - E : Faux.
 
 **QCM 10 — Notion d'incapacité totale de travail** (QCM (réponses multiples), difficulté 2/3)
@@ -742,7 +798,7 @@ Concernant l'incapacité totale de travail (ITT) au sens pénal, quelles proposi
 > **Corrigé : A, B, C, E.** L'ITT pénale mesure le retentissement fonctionnel global ; elle influence la qualification (contravention ou délit). En Algérie, l'évaluation des taux d'incapacité relève du médecin légiste (art. 199).
 > - A : Vrai.
 > - B : Vrai.
-> - C : Vrai : code pénal, art. 264 et 442.
+> - C : Vrai : code pénal, art. 264 et 442 (seuil de quinze jours, lois 06-23 et 24-06).
 > - D : Faux : notion différente.
 > - E : Vrai.
 >
@@ -754,21 +810,27 @@ Concernant l'incapacité totale de travail (ITT) au sens pénal, quelles proposi
 | Question | Algérie | France / international | Commentaire |
 |---|---|---|---|
 | **Qui fixe la durée d'incapacité ?** | Loi 18-11 (2018), art. 199 : les **taux d'incapacité** et autres préjudices sont déterminés par un **médecin spécialiste en médecine légale** [S1] | HAS (2011) : le certificat médical initial, établi par tout médecin, se conclut par une proposition de durée d'**ITT** [S7] | La pratique algérienne de mention d'une durée dans le certificat initial du non-légiste est à préciser `[À VÉRIFIER]` |
-| **Seuil d'ITT délit/contravention (violences volontaires)** | Code pénal, art. 264 : « plus de dix jours » dans la rédaction de 1966 ; seuil actuel `[À VÉRIFIER]` [S3] | France : seuil de 8 jours (droit français, non revérifié pendant la session) `[À VÉRIFIER]` | Ne pas transposer les seuils d'un pays à l'autre |
+| **Seuil d'ITT délit/contravention (violences volontaires)** | Code pénal, art. 264 et 442 : **plus de quinze jours** depuis la loi 06-23 (2006), confirmé par la loi 24-06 (2024) ; « plus de dix jours » dans la rédaction de 1966, remplacée [S3, S13, S15] | France : seuil de 8 jours (droit français, non revérifié pendant la session) `[À VÉRIFIER]` | Ne pas transposer les seuils d'un pays à l'autre |
 | **Signalement des violences sur adulte** | Information des services concernés pour les femmes, personnes âgées, incapables, personnes privées de liberté (art. 198) [S1] | En France, le signalement d'un adulte non vulnérable requiert en principe son accord (droit français, non revérifié) `[À VÉRIFIER]` | Le droit algérien prévoit une obligation plus large |
 | **Torture et mauvais traitements** | Code de déontologie, art. 12 : information de l'autorité judiciaire [S2] | Protocole d'Istanbul (ONU, 2022) : méthodologie d'examen et de documentation [S11] | Complémentaires |
 
 ## 22. Références
 
 1. [S1] Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (DOC-00074).
-2. [S2] Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale. JORADP n° 52 du 8 juillet 1992, p. 1160-1175.
-3. [S3] Ordonnance n° 66-156 du 8 juin 1966 portant code pénal. JORADP n° 49 du 11 juin 1966 (rédaction d'origine ; modifiée et complétée depuis).
+2. [S2] Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale. JORADP n° 52 du 8 juillet 1992, p. 1160-1175 (DOC-00107).
+3. [S3] Ordonnance n° 66-156 du 8 juin 1966 portant code pénal. JORADP n° 49 du 11 juin 1966 (DOC-00108 ; rédaction d'origine, modifiée notamment par [S13], [S14], [S15]).
 4. [S4] Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire. JORADP n° 47 du 11 juillet 2022 (DOC-00072).
 5. [S5] Décret exécutif n° 22-178 du 28 avril 2022 relatif au certificat médical de décès. JORADP n° 32 du 14 mai 2022 (DOC-00077).
-6. [S6] Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles. JORADP n° 28 du 5 juillet 1983 (rédaction d'origine ; modifiée et complétée depuis).
+6. [S6] Loi n° 83-13 du 2 juillet 1983 relative aux accidents du travail et aux maladies professionnelles. JORADP n° 28 du 5 juillet 1983 (DOC-00103), modifiée par l'ordonnance n° 96-19 du 6 juillet 1996, JORADP n° 42/1996 (DOC-00104).
 7. [S7] HAS. *Certificat médical initial concernant une personne victime de violences*. Recommandation de bonne pratique, octobre 2011.
 8. [S8] *Simpson's Forensic Medicine*, 15e éd., 2025 (OUV-0689).
 9. [S9] *Knight's Forensic Pathology*, 4e éd., 2016 (OUV-0686).
 10. [S10] *Médecine légale clinique : médecine de la violence*, 2014 (OUV-0072).
 11. [S11] HCDH. *Protocole d'Istanbul*, Série sur la formation professionnelle n° 8/Rév. 2, 2022 (non revérifié).
 12. [S12] Loi n° 15-12 du 15 juillet 2015 relative à la protection de l'enfant (intitulé confirmé par les visas de la loi 18-11).
+13. [S13] Loi n° 06-23 du 20 décembre 2006 modifiant et complétant le code pénal. JORADP n° 84 du 24 décembre 2006 (DOC-00109).
+14. [S14] Loi n° 15-19 du 30 décembre 2015 modifiant et complétant le code pénal. JORADP n° 71 du 30 décembre 2015 (DOC-00110).
+15. [S15] Loi n° 24-06 du 28 avril 2024 modifiant et complétant le code pénal. JORADP n° 30 du 30 avril 2024 (DOC-00111).
+16. [S16] OMS. *WHO Expert Consultation on Rabies: third report*. TRS 1012, 2018 (DOC-00038).
+17. [S17] CDC. *Clinical Guidance for Wound Management to Prevent Tetanus* ; MSF. *Médicaments essentiels — immunoglobuline antitétanique humaine* (consultés par extraits, 2026-11-19).
+18. [S18] Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire. JORADP n° 49/2018 (DOC-00070).

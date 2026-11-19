@@ -209,3 +209,6 @@ VD (infarctus) : turgescence + poumons clairs → éviter les dérivés nitrés
 - [S5] Muraro A, et al. EAACI — Anaphylaxis (2021 update). *Allergy* 2022;77(2):357-377.
 - [S10] McDonagh TA, et al. ESC 2021 — insuffisance cardiaque. *Eur Heart J* 2021;42(36):3599-3726.
 - [S12] Rossaint R, et al. Guide européen — hémorragie et coagulopathie traumatique, 6ᵉ éd.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S13] Resuscitation Council UK. Emergency treatment of anaphylaxis: guidelines for healthcare providers. 2021. [À VÉRIFIER — non confirmée pendant la session] — non vérifiée en session

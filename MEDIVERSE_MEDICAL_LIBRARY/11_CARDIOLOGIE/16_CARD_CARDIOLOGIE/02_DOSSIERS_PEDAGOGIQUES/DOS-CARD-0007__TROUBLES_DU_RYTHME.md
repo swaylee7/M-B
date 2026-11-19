@@ -819,3 +819,270 @@ Bradycardie
 - **Prévention des torsades de pointes** : éviter les associations de médicaments allongeant le QT, surveiller la kaliémie et la magnésémie, ECG avant et sous traitement à risque.
 - **Prévention de la mort subite** : traitement de la cardiopathie ischémique, DAI selon les indications, **dépistage familial** des canalopathies et cardiomyopathies héréditaires, formation à la RCP et défibrillateurs publics [S3].
 - **Prévention de l'endocardite et du RAA** chez les patients rhumatismaux (voir DOS-CARD-0005).
+
+---
+
+## 16. Algorithmes décisionnels et arbres diagnostiques
+
+Les algorithmes thérapeutiques d'urgence (tachycardies, bradycardies), de l'anticoagulation de la FA et de la cardioversion figurent au § 13.3. Deux arbres diagnostiques complémentaires :
+
+### 16.1 Lecture d'une tachycardie à l'ECG
+
+```text
+FC > 100/min
+ │
+ 1. QRS < 120 ms ?
+ │   ├─ OUI (QRS fins) → supraventriculaire
+ │   │     ├─ Irrégulière → FA (pas d'ondes P), flutter à conduction variable,
+ │   │     │                 tachycardie atriale multifocale
+ │   │     └─ Régulière → activité atriale ?
+ │   │            ├─ P sinusales, début progressif → tachycardie sinusale (chercher la cause)
+ │   │            ├─ Ondes F en dents de scie, ~150/min → flutter 2:1
+ │   │            ├─ P invisibles ou pseudo-r' en V1 → réentrée intranodale
+ │   │            └─ P rétrograde après le QRS (RP > 70 ms) → réentrée par voie accessoire
+ │   │            (en cas de doute : manœuvre vagale / adénosine sous enregistrement)
+ │   └─ NON (QRS larges) → TV jusqu'à preuve du contraire
+ │         ├─ Dissociation AV, captures, fusions, concordance → TV
+ │         ├─ Même QRS qu'en rythme sinusal (bloc connu) → TSV avec bloc
+ │         ├─ Irrégulière, QRS variables, pré-excitation connue → FA pré-excitée
+ │         └─ Polymorphe « tournante », QT long → torsades de pointes
+```
+
+### 16.2 Syncope et suspicion d'arythmie (d'après l'ESC 2018 [S5])
+
+```text
+Syncope
+ ├─ Évaluation initiale : interrogatoire, examen (PA couché-debout), ECG 12 dérivations
+ ├─ Critères de HAUT RISQUE : cardiopathie structurelle ou coronaire, syncope d'effort ou en décubitus,
+ │     palpitations brutales précédant la syncope, antécédent familial de mort subite jeune,
+ │     ECG anormal (BAV de haut degré, bloc bifasciculaire, QT long, Brugada, pré-excitation,
+ │     TV non soutenue, bradycardie sinusale < 40/min)
+ │     → évaluation rapide, souvent hospitalière ; monitorage ECG ; ETT ; ± EEP
+ └─ Faible risque (syncope réflexe typique) → éducation, prise en charge ambulatoire
+```
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** M. B., 71 ans, retraité à Tizi Ouzou, consulte son médecin généraliste pour des **palpitations** et une **dyspnée d'effort** depuis 4 jours. Antécédents : **HTA** traitée par amlodipine, **diabète de type 2** sous metformine. Pas d'antécédent d'AVC. Clairance de la créatinine (Cockcroft-Gault) : 68 mL/min ; poids 78 kg.
+
+**Examen** : PA 142/86 mmHg, pouls irrégulier à 128/min, pas de signe d'insuffisance cardiaque, pas de souffle. **ECG** : FA à 125/min, QRS fins, pas de signe d'ischémie.
+
+**Question 1 — Le patient est-il stable ? Quelle urgence ?**
+Oui : pas de choc, pas de syncope, pas de douleur ischémique, pas d'IC aiguë. Pas d'indication à une cardioversion électrique en urgence.
+
+**Question 2 — Quel est son risque thromboembolique ?**
+CHA2DS2-VA : HTA (1) + diabète (1) + âge 65–74 ans (1) = **3** → anticoagulation **recommandée** (classe I) [S1]. L'ETT ne montre **pas de rétrécissement mitral** ni de valve mécanique : un **AOD** est préféré, par exemple **apixaban 5 mg × 2/j** (aucun critère de réduction : âge < 80 ans, poids > 60 kg, créatinine normale).
+
+**Question 3 — Contrôle de la fréquence ?**
+Bêtabloquant (par exemple bisoprolol à dose progressive) ; l'ETT retrouve une **FEVG à 55 %**, un diltiazem serait aussi possible. Cible initiale de FC de repos < 110/min [S1].
+
+**Question 4 — Peut-on réaliser une cardioversion dès maintenant ?**
+**Non** : la FA dure depuis **plus de 24 heures** ; il faut soit **3 semaines d'anticoagulation efficace**, soit une **ETO** éliminant un thrombus, puis une anticoagulation d'au moins 4 semaines après la cardioversion et au long cours selon le CHA2DS2-VA (ici, à vie) [S1].
+
+**Question 5 — Quels examens et quelles mesures de fond ?**
+ETT (cardiopathie, OG), **TSH**, kaliémie, fonction rénale, NFS, bilan hépatique ; dépistage d'un **syndrome d'apnées du sommeil** ; optimisation de l'HTA ; activité physique, réduction de l'alcool. C'est le volet « C » du parcours **AF-CARE** [S1].
+
+**Question 6 — Trois mois plus tard, après une cardioversion réussie, le patient demande l'arrêt de l'anticoagulant. Que répondre ?**
+**Non** : l'anticoagulation dépend du **risque thromboembolique** (CHA2DS2-VA = 3), pas du rythme constaté ; les récidives de FA sont fréquentes et souvent asymptomatiques [S1].
+
+**Commentaire.** Les erreurs fréquentes sont : cardioverser une FA de plus de 24 heures sans anticoagulation préalable ; prescrire une dose réduite d'AOD « par prudence » ; arrêter l'anticoagulant après le retour en rythme sinusal. Si le patient avait eu un **rétrécissement mitral rhumatismal serré**, l'anticoagulant aurait été un **AVK** quel que soit le score [S1, S10].
+
+---
+
+## 18. Points clés à retenir
+
+1. Trois mécanismes : **automatisme, activité déclenchée, réentrée**.
+2. Toute arythmie mal tolérée → **choc électrique** (synchronisé si un QRS est présent).
+3. **QRS larges = TV jusqu'à preuve du contraire** ; jamais de vérapamil devant une tachycardie à QRS larges de mécanisme incertain.
+4. **CHA2DS2-VA** (ESC 2024) : sans le sexe ; ≥ 2 → anticoagulation recommandée ; 1 → à envisager.
+5. **AOD préférés** sauf **valve mécanique** et **rétrécissement mitral modéré à serré** (AVK).
+6. Ni l'aspirine ni un score hémorragique élevé ne sont des raisons de ne pas anticoaguler.
+7. Cardioversion programmée : FA > **24 h** → 3 semaines d'anticoagulation ou ETO ; puis ≥ 4 semaines.
+8. Contrôle de la fréquence : bêtabloquant, digoxine (toute FEVG), diltiazem/vérapamil (FEVG > 40 %) ; cible initiale < 110/min.
+9. Classe IC (flécaïnide, propafénone) **contre-indiquée** en cas de cardiopathie ischémique ou structurelle ; associer un freinateur du NAV.
+10. Flutter typique : dents de scie, 150/min, **ablation de l'isthme cavotricuspide** ; anticoagulation comme la FA.
+11. TSV : **Valsalva modifiée → adénosine** → inhibiteur calcique/bêtabloquant ; **ablation** curative.
+12. **FA pré-excitée** : pas de freinateur du NAV ; choc électrique ; ablation.
+13. **Torsades** : magnésium, potassium, accélération de la FC, arrêt des médicaments allongeant le QT.
+14. **DAI** : prévention secondaire (FV/TV sans cause réversible) ; primaire si FEVG ≤ 35 % ischémique malgré le traitement optimal.
+15. **BAV 3e degré, Mobitz II, haut degré** : stimulation même sans symptôme, après exclusion d'une cause réversible ; atropine inefficace en infra-hissien.
+
+---
+
+## 19. Pièges classiques à l'examen
+
+1. Compter le **sexe féminin** dans le score (ancien CHA2DS2-VASc).
+2. Prescrire un **AOD dans un rétrécissement mitral serré** ou chez un porteur de **valve mécanique**.
+3. **Sous-doser un AOD** sans critère ou, à l'inverse, oublier une réduction obligatoire (dabigatran si clairance < 30 mL/min : contre-indiqué).
+4. Cardioverser une FA de durée inconnue **sans anticoagulation préalable ni ETO** chez un patient stable.
+5. Arrêter l'anticoagulant **parce que le rythme sinusal est revenu** (cardioversion, ablation).
+6. Donner du **diltiazem ou du vérapamil** dans une IC à FEVG réduite ou devant une tachycardie à QRS larges.
+7. Donner de la **digoxine, de l'adénosine ou du vérapamil** dans une **FA pré-excitée**.
+8. Prescrire de la **flécaïnide** chez un coronarien ou dans un syndrome de Brugada.
+9. Prendre une **TV bien tolérée** pour une TSV.
+10. Traiter des torsades de pointes par de l'**amiodarone**.
+11. Attendre l'effet de l'**atropine** dans un BAV complet à QRS larges.
+12. Implanter un stimulateur sans corriger une **hyperkaliémie** ou arrêter un **bêtabloquant** responsable.
+13. Confondre **FA paroxystique** (≤ 7 jours) et **persistante** (> 7 jours).
+14. Méconnaître un **flutter 2:1** devant une tachycardie régulière à 150/min.
+
+---
+
+## 20. QCM d'auto-évaluation
+
+> Ces QCM sont repris dans la banque structurée (lot DOS-01-lot2) avec les mêmes identifiants. Réponses multiples possibles sauf mention QCS.
+
+**QCM 1** (QCM-CARD-0113 — QCS) — Une femme de 72 ans, hypertendue et diabétique, sans antécédent d'AVC, d'insuffisance cardiaque ni de maladie vasculaire, a une fibrillation atriale paroxystique sans valvulopathie. Quel est son score CHA2DS2-VA selon l'ESC 2024 ?
+
+- A. 1
+- B. 2
+- C. 3
+- D. 4
+- E. 5
+
+**QCM 2** (QCM-CARD-0114 — QCM) — Concernant le choix et la dose de l'anticoagulant oral dans la fibrillation atriale selon l'ESC 2024, quelles propositions sont exactes ?
+
+- A. Un rétrécissement mitral rhumatismal serré associé à une FA relève d'un AVK.
+- B. L'apixaban est réduit à 2,5 mg deux fois par jour chez tout patient de plus de 80 ans.
+- C. L'aspirine n'est pas une alternative à l'anticoagulation pour prévenir l'AVC.
+- D. Un score HAS-BLED élevé ne doit pas, à lui seul, faire renoncer à une anticoagulation indiquée.
+- E. Une dose réduite d'AOD prescrite sans que le patient en remplisse les critères n'est pas recommandée.
+
+**QCM 3** (QCM-CARD-0115 — QCM) — Un homme de 64 ans, stable, est en fibrillation atriale depuis une date inconnue. Une cardioversion est envisagée. Selon l'ESC 2024, quelles propositions sont exactes ?
+
+- A. Une cardioversion immédiate sans anticoagulation préalable est la règle chez ce patient stable.
+- B. Une anticoagulation efficace d'au moins 3 semaines avant la cardioversion est une option.
+- C. Une ETO éliminant un thrombus de l'auricule gauche permet une cardioversion plus précoce sous anticoagulation.
+- D. L'anticoagulation est poursuivie au moins 4 semaines après la cardioversion.
+- E. Après une cardioversion réussie, l'anticoagulation au long cours dépend du score CHA2DS2-VA et non du maintien du rythme sinusal.
+
+**QCM 4** (QCM-CARD-0118 — QCM) — Une femme de 26 ans présente une tachycardie régulière à QRS fins à 190/min, bien tolérée, à début brutal. Elle n'a pas d'antécédent particulier. Selon l'ESC 2019, quelles propositions sont exactes ?
+
+- A. Les manœuvres vagales sont le premier geste, la manœuvre de Valsalva modifiée étant la plus efficace.
+- B. En cas d'échec, l'adénosine est administrée en bolus IV rapide de 6 mg, puis 12 mg si besoin.
+- C. L'adénosine est à éviter en cas d'asthme sévère.
+- D. En cas de récidives symptomatiques, l'ablation par cathéter est un traitement curatif de première intention.
+- E. Un choc électrique externe est le traitement de première intention de cette patiente stable.
+
+**QCM 5** (QCM-CARD-0119 — QCM) — Un homme de 24 ans, porteur d'une pré-excitation ventriculaire connue, présente des palpitations. L'ECG montre une tachycardie irrégulière à QRS larges de morphologie variable, à 240/min ; PA 105/65 mmHg. Quelles propositions sont exactes ?
+
+- A. Le diagnostic le plus probable est une fibrillation atriale pré-excitée.
+- B. La digoxine IV est indiquée pour ralentir la fréquence ventriculaire.
+- C. Le vérapamil IV est contre-indiqué.
+- D. Un choc électrique synchronisé est indiqué en cas d'instabilité.
+- E. L'ablation de la voie accessoire est indiquée à distance.
+
+**QCM 6** (QCM-CARD-0120 — QCM) — Un homme de 68 ans aux antécédents d'infarctus antérieur présente une tachycardie régulière à QRS larges (160 ms) à 170/min, avec une PA de 120/70 mmHg. Quels éléments orientent vers une tachycardie ventriculaire ?
+
+- A. La présence d'une dissociation atrioventriculaire.
+- B. La présence de complexes de capture ou de fusion.
+- C. La concordance des QRS de V1 à V6.
+- D. La bonne tolérance hémodynamique, qui exclut une TV.
+- E. L'antécédent d'infarctus du myocarde.
+
+**QCM 7** (QCM-CARD-0121 — QCM) — Une femme de 74 ans, traitée par sotalol, diurétique thiazidique et clarithromycine, fait des syncopes. L'ECG montre une bradycardie sinusale à 48/min, un QTc à 560 ms et des salves de tachycardie ventriculaire polymorphe à QRS « tournants ». Quelles propositions sont exactes ?
+
+- A. Il s'agit de torsades de pointes sur QT long acquis.
+- B. Le sulfate de magnésium IV (2 g) est le traitement de première intention.
+- C. L'amiodarone IV est le traitement de choix pour prévenir les récidives.
+- D. L'accélération de la fréquence cardiaque (isoprénaline ou stimulation temporaire) prévient les récidives.
+- E. La kaliémie doit être corrigée et les médicaments allongeant le QT arrêtés.
+
+**QCM 8** (QCM-CARD-0123 — QCM) — Concernant les blocs atrioventriculaires et la stimulation cardiaque selon l'ESC 2021, quelles propositions sont exactes ?
+
+- A. Un BAV 2:1 ne permet pas, sur le seul ECG, de préciser si le bloc est nodal ou infra-hissien.
+- B. Un BAV complet sans cause réversible justifie une stimulation définitive même chez un patient asymptomatique.
+- C. L'atropine est efficace sur un bloc infra-hissien à QRS larges.
+- D. Un BAV complet compliquant un infarctus inférieur est souvent transitoire.
+- E. Une syncope inexpliquée avec bloc de branche et un intervalle HV ≥ 70 ms à l'exploration électrophysiologique justifie une stimulation.
+
+### Corrigé commenté
+
+**QCM 1 — réponse(s) : C.** Âge 65–74 ans (1) + HTA (1) + diabète (1) = 3. Le sexe féminin n'est plus compté dans le CHA2DS2-VA (il valait 1 point dans l'ancien CHA2DS2-VASc, qui aurait donné 4). Un score ≥ 2 rend l'anticoagulation recommandée (classe I).
+- A : Faux.
+- B : Faux : un des trois critères a été oublié.
+- C : Vrai.
+- D : Faux : c'est le résultat du CHA2DS2-VASc, qui compte le sexe féminin.
+- E : Faux : l'âge de 72 ans vaut 1 point, pas 2.
+
+**QCM 2 — réponse(s) : A, C, D, E.** Les AOD sont préférés aux AVK sauf valve mécanique et rétrécissement mitral modéré à serré. La dose réduite d'apixaban exige au moins deux critères parmi âge ≥ 80 ans, poids ≤ 60 kg, créatinine ≥ 133 µmol/L (ou une clairance de 15 à 29 mL/min). Le score hémorragique sert à corriger les facteurs modifiables.
+- A : Vrai : AOD non recommandés (INVICTUS).
+- B : Faux : l'âge seul ne suffit pas ; il faut deux critères.
+- C : Vrai : classe III.
+- D : Vrai.
+- E : Vrai : le sous-dosage expose aux AVC.
+
+**QCM 3 — réponse(s) : B, C, D, E.** Au-delà de 24 heures (ou durée inconnue), la cardioversion programmée exige 3 semaines d'anticoagulation ou une ETO. L'ESC 2024 a abaissé ce seuil de 48 à 24 heures. Après la cardioversion : au moins 4 semaines, puis selon le risque thromboembolique.
+- A : Faux : uniquement en cas d'instabilité hémodynamique.
+- B : Vrai.
+- C : Vrai : stratégie guidée par l'ETO.
+- D : Vrai.
+- E : Vrai : le risque d'AVC persiste malgré le rythme sinusal.
+
+**QCM 4 — réponse(s) : A, B, C, D.** Tachycardie jonctionnelle probable (réentrée intranodale) : manœuvres vagales, puis adénosine (bolus rapide suivi d'un rinçage), puis inhibiteur calcique ou bêtabloquant IV ; choc électrique si instabilité. L'ablation est le traitement de référence des formes récidivantes.
+- A : Vrai.
+- B : Vrai : doses croissantes de 6 à 18 mg.
+- C : Vrai : risque de bronchospasme (RCP).
+- D : Vrai : classe I pour la réentrée intranodale symptomatique récidivante.
+- E : Faux : réservé à l'instabilité ou à l'échec.
+
+**QCM 5 — réponse(s) : A, C, D, E.** Dans la FA pré-excitée, les freinateurs du NAV (adénosine, vérapamil, diltiazem, digoxine) favorisent la conduction par la voie accessoire et peuvent provoquer une FV. Traitement : choc électrique si instabilité ; sinon ibutilide ou procaïnamide (IIa), flécaïnide ou propafénone (IIb) ; amiodarone IV non recommandée (III) ; puis ablation (I).
+- A : Vrai.
+- B : Faux : contre-indiquée (accélère la conduction par la voie accessoire).
+- C : Vrai.
+- D : Vrai.
+- E : Vrai : classe I.
+
+**QCM 6 — réponse(s) : A, B, C, E.** Une tachycardie à QRS larges est une TV jusqu'à preuve du contraire, surtout après un infarctus. La dissociation AV, les captures et les fusions sont spécifiques ; la concordance précordiale et un QRS très large sont des arguments supplémentaires. Une TV peut être bien tolérée.
+- A : Vrai : signe spécifique.
+- B : Vrai : signes spécifiques.
+- C : Vrai.
+- D : Faux : la tolérance ne permet pas d'exclure une TV.
+- E : Vrai : argument clinique majeur.
+
+**QCM 7 — réponse(s) : A, B, D, E.** Torsades de pointes favorisées par l'association de médicaments allongeant le QT (sotalol, macrolide), l'hypokaliémie probable (thiazidique), la bradycardie et le sexe féminin. Traitement : magnésium, potassium, accélération de la fréquence, arrêt des médicaments en cause ; défibrillation si dégénérescence en FV.
+- A : Vrai.
+- B : Vrai : ERC 2021.
+- C : Faux : l'amiodarone allonge le QT et peut aggraver les torsades.
+- D : Vrai : la bradycardie favorise les post-dépolarisations précoces.
+- E : Vrai.
+
+**QCM 8 — réponse(s) : A, B, D, E.** BAV 3e degré, Mobitz II, 2:1 infranodal et de haut degré : stimulation indépendamment des symptômes (classe I) après exclusion d'une cause réversible. L'atropine agit sur le nœud AV, pas sur les tissus infra-hissiens. Le BAV de l'IDM inférieur est nodal et souvent régressif.
+- A : Vrai.
+- B : Vrai : classe I.
+- C : Faux : inefficace, voire aggravante (accélère la fréquence atriale).
+- D : Vrai : attendre avant d'implanter.
+- E : Vrai : classe I.
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 | Position 2 | Commentaire |
+|---|---|---|---|
+| **Score de risque thromboembolique de la FA** | **ESC 2024** : **CHA2DS2-VA** (sexe exclu) ; anticoagulation recommandée si ≥ 2, à envisager si 1 [S1] | **ESC 2020** et **HAS 2014** : CHA2DS2-VASc (sexe féminin = 1 point ; seuils différents selon le sexe) [S6, S8] ; **ACC/AHA 2023** : maintien du CHA2DS2-VASc (ou autre score validé), seuil de risque annuel d'AVC **[À VÉRIFIER]** [S9] | Le sexe féminin est un modificateur de risque plutôt qu'un facteur indépendant ; la suppression simplifie et évite les seuils différenciés |
+| **Délai de cardioversion sans anticoagulation préalable** | ESC 2024 : **24 heures** [S1] | ESC 2020 et recommandations antérieures : **48 heures** [S6] | Abaissement du seuil par prudence (données observationnelles d'embolies entre 24 et 48 h) |
+| **Classification de la FA** | ESC 2024 : FA paroxystique / persistante / permanente, avec un parcours AF-CARE [S1] | ACC/AHA 2023 : **stades** de la FA (de 1 « à risque » à 4 « permanente ») **[À VÉRIFIER]** [S9] | Approches complémentaires : la classification américaine intègre la prévention |
+| **Ablation de première intention** | ESC 2024 : option de première intention dans la FA paroxystique (classe I) [S1] | ESC 2020 : classe IIa en première intention [S6] | Montée en puissance après les essais d'ablation précoce |
+| **Fermeture de l'auricule gauche** | ESC 2024 : percutanée IIb si contre-indication à l'anticoagulation ; chirurgicale recommandée en complément lors d'une chirurgie cardiaque [S1] | ACC/AHA 2023 : percutanée de niveau supérieur chez certains patients à haut risque hémorragique **[À VÉRIFIER]** [S9] | Données randomisées encore limitées pour la fermeture percutanée |
+| **Définition de la bradycardie** | ESC 2021 : FC < 50/min [S4] | Seuil classique de l'enseignement : < 60/min | Seuil pratique ; c'est la corrélation symptômes-bradycardie qui guide la stimulation |
+| **Anticoagulation dans la FA rhumatismale** | ESC 2024 : AVK dans le rétrécissement mitral modéré à serré [S1] | Avant INVICTUS, certains proposaient les AOD par extrapolation | INVICTUS a montré la supériorité de l'AVK sur le rivaroxaban dans cette population [S10] |
+
+---
+
+## 22. Références
+
+1. **[S1]** Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS. *Eur Heart J.* 2024;45(36):3314-3414. doi:10.1093/eurheartj/ehae176. — vérifiée.
+2. **[S2]** Brugada J, Katritsis DG, Arbelo E, et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. *Eur Heart J.* 2020;41(5):655-720. doi:10.1093/eurheartj/ehz467. — vérifiée.
+3. **[S3]** Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. *Eur Heart J.* 2022;43(40):3997-4126. doi:10.1093/eurheartj/ehac262. — vérifiée.
+4. **[S4]** Glikson M, Nielsen JC, Kronborg MB, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. *Eur Heart J.* 2021;42(35):3427-3520. doi:10.1093/eurheartj/ehab364. — vérifiée.
+5. **[S5]** Brignole M, Moya A, de Lange FJ, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. *Eur Heart J.* 2018;39(21):1883-1948. doi:10.1093/eurheartj/ehy037. — vérifiée.
+6. **[S6]** Hindricks G, Potpara T, Dagres N, et al. 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation. *Eur Heart J.* 2021;42(5):373-498. doi:10.1093/eurheartj/ehaa612. — vérifiée (remplacée par S1).
+7. **[S7]** Perkins GD, Graesner JT, Semeraro F, et al. European Resuscitation Council Guidelines 2021: Executive summary. *Resuscitation.* 2021;161:1-60. doi:10.1016/j.resuscitation.2021.02.003. — vérifiée.
+8. **[S8]** Haute Autorité de santé. Guide du parcours de soins — Fibrillation atriale. HAS ; 2014. — vérifiée (document ancien).
+9. **[S9]** Joglar JA, Chung MK, Armbruster AL, et al. 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. *Circulation.* 2024;149(1):e1-e156. — **non vérifiée**.
+10. **[S10]** Connolly SJ, Karthikeyan G, Ntsekhe M, et al. Rivaroxaban in Rheumatic Heart Disease-Associated Atrial Fibrillation. *N Engl J Med.* 2022;387(11):978-988. — **non vérifiée**.
+
+*Posologies : tableaux de l'ESC 2019 (TSV) [S2], de l'ESC 2020 (FA) [S6] repris par l'ESC 2024 [S1], de l'ERC 2021 [S7] et RCP ; les marqueurs `[POSOLOGIE À VÉRIFIER]` signalent les schémas non confirmés (procaïnamide/amiodarone dans la TV, glucagon, aminophylline).*

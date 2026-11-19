@@ -675,6 +675,670 @@
       "auteur": "DOS-02",
       "date_creation": "2026-11-19",
       "dossier": "DOS-INFE-0003"
+    },
+    {
+      "id": "QCM-INFE-0214",
+      "format": "QCM",
+      "enonce": "Concernant le cycle des Plasmodium, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les sporozoïtes sont inoculés par la piqûre d'un anophèle femelle.",
+        "B": "La phase hépatique est asymptomatique et correspond à l'incubation.",
+        "C": "Les hypnozoïtes hépatiques de P. vivax et P. ovale expliquent les rechutes.",
+        "D": "P. falciparum possède des hypnozoïtes responsables de rechutes tardives.",
+        "E": "Les gamétocytes sont les formes ingérées par le moustique, chez qui se déroule le cycle sexué."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Après l'inoculation des sporozoïtes, la phase hépatique (silencieuse) libère des mérozoïtes qui envahissent les hématies (phase symptomatique). P. vivax et P. ovale forment des hypnozoïtes (rechutes). Les gamétocytes, ingérés par l'anophèle, assurent le cycle sexué (sporogonie de 7 à 10 jours environ).",
+      "explications_par_proposition": {
+        "A": "Vrai : seules les femelles d'anophèles transmettent.",
+        "B": "Vrai : la phase hépatique correspond à l'incubation.",
+        "C": "Vrai : d'où le traitement anti-hypnozoïte (primaquine).",
+        "D": "Faux : P. falciparum n'a pas d'hypnozoïtes.",
+        "E": "Vrai : base de la transmission et de l'effet gamétocytocide de la primaquine."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Cycle parasitaire",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0215",
+      "format": "QCM",
+      "enonce": "Concernant les espèces de Plasmodium, quelles associations sont exactes ?",
+      "propositions": {
+        "A": "P. falciparum — séquestration microvasculaire et formes graves.",
+        "B": "P. malariae — fièvre quarte et recrudescences possibles plusieurs années plus tard.",
+        "C": "P. knowlesi — cycle érythrocytaire de 24 heures, Asie du Sud-Est.",
+        "D": "P. vivax — aucune forme grave décrite.",
+        "E": "P. ovale — rechutes par hypnozoïtes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "P. falciparum est responsable de la majorité des formes graves (cytoadhérence, séquestration). P. malariae donne une fièvre quarte et des recrudescences tardives ; P. knowlesi, zoonose d'Asie du Sud-Est, a un cycle de 24 h ; P. vivax peut donner des formes graves (critères OMS sans seuil de parasitémie) ; P. ovale donne des rechutes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'OMS définit un paludisme grave à P. vivax (sans seuil de parasitémie).",
+        "E": "Vrai."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Espèces plasmodiales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0216",
+      "format": "QCM",
+      "enonce": "Concernant le paludisme en Algérie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'Algérie a été certifiée exempte de paludisme par l'OMS en 2019.",
+        "B": "La certification exige l'interruption de la transmission autochtone pendant au moins 3 années consécutives.",
+        "C": "Le paludisme n'est plus une maladie à déclaration obligatoire depuis la certification.",
+        "D": "Une recrudescence de cas importés est observée dans les wilayas du Sud après les pluies de la fin de l'été.",
+        "E": "La présence de vecteurs expose au risque de cas introduits à partir de cas importés."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "L'OMS a certifié l'Algérie le 22 mai 2019 (derniers cas autochtones en 2013). Le paludisme reste une MDO de catégorie 1 (décret 22-250). Les cas importés du Sahel augmentent dans le Sud en septembre ; la prévention de la réintroduction repose sur la surveillance et l'investigation de chaque cas.",
+      "explications_par_proposition": {
+        "A": "Vrai : 22 mai 2019.",
+        "B": "Vrai : critère de certification.",
+        "C": "Faux : catégorie 1 du décret 22-250 (2022).",
+        "D": "Vrai : par exemple 1 110 cas en septembre 2020 dans cinq wilayas du Sud selon le ministère (chiffres de presse).",
+        "E": "Vrai : d'où la vigilance entomologique et l'investigation des cas."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Situation algérienne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre « exempt de transmission autochtone » et « sans cas de paludisme ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Algeria and Argentina certified malaria-free by WHO (communiqué du 22 mai 2019)",
+          "date": "2019"
+        },
+        {
+          "reference": "Décret exécutif n°22-250 du 30 juin 2022 (liste des MDO), JORADP n°47/2022 — DOC-00072",
+          "date": "2022"
+        },
+        {
+          "reference": "Ministère de la Santé (Algérie), communiqués de septembre 2020 relayés par la presse [chiffres à vérifier]",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0217",
+      "format": "QCM",
+      "enonce": "Concernant le diagnostic biologique du paludisme, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le frottis mince permet d'identifier l'espèce et de calculer la parasitémie.",
+        "B": "La goutte épaisse est plus sensible que le frottis mince.",
+        "C": "Un TDR détectant l'antigène HRP2 permet de suivre l'efficacité du traitement à J3.",
+        "D": "Si le premier frottis est négatif chez un patient évocateur, il faut le répéter toutes les 6 à 12 heures ou réaliser un TDR.",
+        "E": "Un frottis peut être faussement négatif chez un patient ayant reçu un dérivé de l'artémisinine, alors que le TDR HRP2 reste positif."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Frottis (espèce, parasitémie) et goutte épaisse (sensibilité) sont complémentaires ; les TDR sont utiles si la microscopie de qualité n'est pas disponible. HRP2 persiste plusieurs semaines après traitement : pas d'usage pour le suivi. L'OMS recommande de répéter les frottis toutes les 6 à 12 h si la suspicion persiste.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : l'antigène HRP2 persiste plusieurs semaines.",
+        "D": "Vrai : recommandation OMS.",
+        "E": "Vrai : intérêt du TDR HRP2 en cas de traitement incomplet."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Diagnostic parasitologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        },
+        {
+          "reference": "SPILF. Prise en charge et prévention du paludisme d'importation — mise à jour 2017 des RPC 2007",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0218",
+      "format": "QCM",
+      "enonce": "Chez un adulte présentant une infection à P. falciparum, quels éléments constituent des critères de paludisme grave selon l'OMS ?",
+      "propositions": {
+        "A": "Score de Glasgow à 10.",
+        "B": "Glycémie à 1,9 mmol/L.",
+        "C": "Hémoglobine à 6,5 g/dL avec une parasitémie de 50 000/µL.",
+        "D": "Parasitémie à 4 % sans autre anomalie.",
+        "E": "Créatinine à 320 µmol/L."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Critères OMS : Glasgow < 11, glycémie < 2,2 mmol/L, Hb < 7 g/dL chez l'adulte avec parasitémie > 10 000/µL, créatinine > 265 µmol/L, hyperparasitémie > 10 %. Une parasitémie de 4 % isolée ne répond pas au seuil OMS (certains référentiels nationaux retiennent des seuils plus bas chez le voyageur).",
+      "explications_par_proposition": {
+        "A": "Vrai : Glasgow < 11.",
+        "B": "Vrai : < 2,2 mmol/L.",
+        "C": "Vrai : anémie sévère de l'adulte.",
+        "D": "Faux selon l'OMS (seuil > 10 %) ; à rapprocher des critères nationaux.",
+        "E": "Vrai : > 265 µmol/L."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Critères de gravité (OMS)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Ignorer qu'un seul critère suffit à définir la gravité.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        },
+        {
+          "reference": "SPILF. Prise en charge et prévention du paludisme d'importation — mise à jour 2017 des RPC 2007",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0219",
+      "format": "QCM",
+      "enonce": "Concernant l'artésunate injectable dans le paludisme grave selon l'OMS, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La dose est de 2,4 mg/kg par administration chez l'adulte.",
+        "B": "L'enfant de moins de 20 kg reçoit 3 mg/kg par administration.",
+        "C": "Le traitement parentéral dure au moins 24 heures, puis une CTA orale complète de 3 jours est administrée.",
+        "D": "La dose doit être réduite en cas d'insuffisance rénale aiguë.",
+        "E": "Il est contre-indiqué au premier trimestre de la grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "L'artésunate IV ou IM (2,4 mg/kg ; 3 mg/kg si < 20 kg) est recommandé chez l'adulte, l'enfant, le nourrisson et la femme enceinte à tous les trimestres, pendant au moins 24 h et jusqu'à tolérance orale, suivi d'une CTA de 3 jours. Les dérivés de l'artémisinine ne nécessitent pas d'adaptation en cas de défaillance rénale ou hépatique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : exposition équivalente chez le petit enfant.",
+        "C": "Vrai.",
+        "D": "Faux : pas d'adaptation (contrairement à la quinine).",
+        "E": "Faux : recommandé à tous les trimestres, le bénéfice maternel l'emportant."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Artésunate injectable",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0220",
+      "format": "QCS",
+      "enonce": "Selon l'OMS, en l'absence d'artésunate pour traiter un paludisme grave chez l'adulte, quel traitement parentéral faut-il préférer ?",
+      "propositions": {
+        "A": "Chloroquine intraveineuse.",
+        "B": "Artéméther intramusculaire, de préférence à la quinine.",
+        "C": "Quinine en bolus intraveineux rapide.",
+        "D": "Artésunate rectal 10 mg/kg.",
+        "E": "Méfloquine par sonde gastrique."
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Si l'artésunate est indisponible, l'OMS recommande l'artéméther IM (3,2 mg/kg puis 1,6 mg/kg/j) de préférence à la quinine. La quinine ne doit jamais être injectée en bolus IV. L'artésunate rectal est réservé au pré-transfert de l'enfant de moins de 6 ans.",
+      "explications_par_proposition": {
+        "A": "Faux : pas de place dans le paludisme grave à falciparum.",
+        "B": "Vrai : recommandation conditionnelle de l'OMS.",
+        "C": "Faux : hypotension mortelle ; perfusion lente uniquement.",
+        "D": "Faux : enfant < 6 ans, en pré-transfert.",
+        "E": "Faux : non recommandé."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Alternative à l'artésunate",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0221",
+      "format": "QCM",
+      "enonce": "Lorsqu'il faut recourir à la quinine intraveineuse dans un paludisme grave, quelles propositions sont exactes (OMS) ?",
+      "propositions": {
+        "A": "Une dose de charge de 20 mg de sel/kg est administrée en perfusion lente.",
+        "B": "La dose d'entretien est de 10 mg de sel/kg toutes les 8 heures.",
+        "C": "La dose est réduite d'un tiers en l'absence d'amélioration à 48 heures ou en cas d'insuffisance rénale persistante.",
+        "D": "Le débit ne doit pas dépasser 5 mg de sel/kg/h.",
+        "E": "L'hyperglycémie est la principale complication métabolique à surveiller."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Quinine : charge 20 mg sel/kg (sur environ 4 h), entretien 10 mg sel/kg/8 h à partir de la 8e heure, réduction d'un tiers (10 mg/kg/12 h) si pas d'amélioration à 48 h ou insuffisance rénale ; jamais de bolus IV ; risque d'hypoglycémie (hyperinsulinisme).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : vitesse maximale.",
+        "E": "Faux : c'est l'hypoglycémie."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Quinine intraveineuse",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0222",
+      "format": "QCM",
+      "enonce": "Un homme de 70 kg présente un accès palustre simple à P. falciparum au retour du Niger. Concernant l'artéméther-luméfantrine (OMS), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le traitement comporte 6 prises réparties sur 3 jours.",
+        "B": "Chaque prise correspond à 80 mg d'artéméther et 480 mg de luméfantrine (4 comprimés à 20/120 mg).",
+        "C": "Les deux premières prises sont idéalement espacées de 8 heures.",
+        "D": "La durée de 3 jours de dérivé de l'artémisinine est recommandée pour toutes les CTA.",
+        "E": "L'artéméther-luméfantrine est contre-indiquée au premier trimestre de la grossesse."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "AL : 2 prises par jour pendant 3 jours (6 prises), 80/480 mg par prise à partir de 35 kg, les deux premières à 8 h d'intervalle ; toutes les CTA comportent 3 jours de dérivé de l'artémisinine. Depuis 2022, l'OMS recommande l'AL au 1er trimestre de grossesse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : tranche ≥ 35 kg.",
+        "C": "Vrai.",
+        "D": "Vrai : recommandation forte de l'OMS.",
+        "E": "Faux : c'est la CTA recommandée au 1er trimestre (2022)."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Accès simple à P. falciparum",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0223",
+      "format": "QCM",
+      "enonce": "Concernant le traitement d'un accès à P. vivax et la prévention des rechutes (OMS), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "En zone de chloroquinosensibilité, la chloroquine est donnée à 25 mg base/kg au total sur 3 jours (10, 10 puis 5 mg/kg).",
+        "B": "Le statut G6PD doit guider l'administration de primaquine ou de tafénoquine.",
+        "C": "Si l'activité G6PD est ≥ 30 %, la primaquine peut être donnée à 0,5 mg/kg/j pendant 14 jours ou pendant 7 jours.",
+        "D": "En cas de déficit en G6PD, la primaquine à 0,75 mg/kg une fois par semaine pendant 8 semaines peut être donnée sous surveillance.",
+        "E": "La primaquine est recommandée pendant la grossesse pour éviter les rechutes."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Chloroquine 25 mg base/kg sur 3 jours (ou CTA) ; G6PD avant toute primaquine ; 0,5 mg/kg/j sur 14 ou 7 jours si G6PD ≥ 30 % ; 1 mg/kg/j sur 7 jours si ≥ 70 % ; schéma hebdomadaire de 8 semaines en cas de déficit. Pendant la grossesse : chloroquine hebdomadaire jusqu'à l'accouchement et la fin de l'allaitement, puis primaquine.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai : recommandation conditionnelle.",
+        "E": "Faux : contre-indiquée ; chimioprophylaxie par chloroquine à la place."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "P. vivax et P. ovale — prévention des rechutes",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire la primaquine sans dosage du G6PD ou chez une femme enceinte.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0224",
+      "format": "QCM",
+      "enonce": "Concernant l'hémolyse retardée après traitement d'un paludisme grave par artésunate, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle survient plus d'une semaine après le traitement.",
+        "B": "Elle concerne surtout les patients hyperparasitémiques, notamment les voyageurs non immuns.",
+        "C": "Elle est liée au retour dans la circulation d'hématies débarrassées de leurs parasites par la rate, à durée de vie raccourcie.",
+        "D": "Elle traduit une résistance du parasite à l'artésunate.",
+        "E": "Elle justifie un contrôle de l'hémoglobine après la sortie."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "L'OMS décrit une hémolyse retardée (au-delà d'une semaine), rapportée chez 19 voyageurs européens (2010–2012) et chez 7 % d'enfants africains hyperparasitémiques. Elle est un effet prévisible de l'action rapide de l'artésunate (élimination splénique des parasites intra-érythrocytaires), et non une résistance.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai : mécanisme décrit par l'OMS.",
+        "D": "Faux : sans rapport avec une résistance.",
+        "E": "Vrai : surveillance de l'anémie tardive."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Hémolyse retardée post-artésunate",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0225",
+      "format": "QCM",
+      "enonce": "Un transporteur de Tamanrasset doit se rendre pour 3 semaines au Niger. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Les mesures de protection contre les piqûres sont essentielles du crépuscule à l'aube (moustiquaire imprégnée, répulsifs).",
+        "B": "Une chimioprophylaxie par atovaquone-proguanil se poursuit classiquement 7 jours après le retour.",
+        "C": "Une chimioprophylaxie par doxycycline peut être arrêtée le jour du retour.",
+        "D": "Toute fièvre au cours du séjour ou dans les mois suivant le retour impose une consultation urgente avec recherche de paludisme.",
+        "E": "La vaccination antipaludique dispense de toute autre mesure chez l'adulte voyageur."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Protection antivectorielle nocturne, chimioprophylaxie adaptée (atovaquone-proguanil poursuivie environ 7 jours après le retour car active sur les formes hépatiques ; doxycycline et méfloquine poursuivies plusieurs semaines) et consultation urgente en cas de fièvre. Les vaccins antipaludiques sont recommandés chez l'enfant en zone de transmission modérée à forte, non chez le voyageur adulte.",
+      "explications_par_proposition": {
+        "A": "Vrai : activité nocturne des anophèles.",
+        "B": "Vrai : prophylaxie causale (schéma usuel à confronter aux recommandations aux voyageurs).",
+        "C": "Faux : les molécules suppressives se poursuivent au moins 4 semaines après le retour (OMS).",
+        "D": "Vrai : règle d'or.",
+        "E": "Faux : pas d'indication chez le voyageur adulte à ce jour."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Conseils au voyageur",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        },
+        {
+          "reference": "HCSP. Recommandations sanitaires aux voyageurs (édition annuelle) [non vérifiée]",
+          "date": ""
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
+    },
+    {
+      "id": "QCM-INFE-0226",
+      "format": "QCM",
+      "enonce": "Une femme enceinte de 10 semaines d'aménorrhée, revenant du Mali, présente un paludisme à P. falciparum. Quelles propositions sont exactes (OMS) ?",
+      "propositions": {
+        "A": "En l'absence de critère de gravité, l'artéméther-luméfantrine est recommandée.",
+        "B": "En présence d'un critère de gravité, l'artésunate injectable est indiqué malgré le premier trimestre.",
+        "C": "L'artésunate + sulfadoxine-pyriméthamine est une bonne option au premier trimestre.",
+        "D": "La glycémie doit être surveillée de près, la grossesse exposant à l'hypoglycémie.",
+        "E": "La primaquine en dose unique anti-transmission est indiquée chez elle."
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Au 1er trimestre : AL pour l'accès simple (2022) ; artésunate injectable pour le paludisme grave à tous les trimestres. Les antifolates (SP) sont contre-indiqués au 1er trimestre. La grossesse expose à l'hypoglycémie et aux formes graves. La primaquine est exclue pendant la grossesse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : le bénéfice maternel l'emporte.",
+        "C": "Faux : antifolate contre-indiqué au 1er trimestre.",
+        "D": "Vrai.",
+        "E": "Faux : exclue chez la femme enceinte."
+      },
+      "specialite": "INFE",
+      "items_residanat": [
+        "RES-MED-002"
+      ],
+      "theme": "Paludisme et grossesse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. WHO guidelines for malaria, 10 September 2026 — DOC-00024",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-02",
+      "date_creation": "2026-11-19",
+      "dossier": "DOS-INFE-0004"
     }
   ]
 }

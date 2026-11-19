@@ -209,3 +209,8 @@ COMATEUX : ABC → glycémie (+ thiamine si à risque) → Glasgow/pupilles/T°/
 - [S5] Mégarbane B, et al. RFE SRLF-SFMU — intoxications médicamenteuses et récréatives.
 - [S12] Galvin R, et al. EFNS — encéphalopathie de Gayet-Wernicke. *Eur J Neurol* 2010;17(12).
 - [S14] Spasovski G, et al. ESE/ESICM/ERA-EDTA — hyponatrémie, 2014.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S9] Données Protection civile sur les intoxications au monoxyde de carbone en Algérie (156 décès de janvier à décembre 2023), relayées par Radio Algérie ; étude de l'Université de Sétif …
+- [S11] Recommandations sur l'état de mal épileptique (SRLF/SFMU, 2018) et essai ESETT (2019). [Non vérifiés pendant la session] — non vérifiée en session
+- [S13] Consensus international sur la détermination de la mort encéphalique (World Brain Death Project, 2020) ; cadre légal algérien du prélèvement d'organes sur donneur décédé (loi sanitaire … — non vérifiée en session

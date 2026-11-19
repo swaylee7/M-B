@@ -203,3 +203,10 @@ Ajustement au **tabac** et à l'**altitude**, pas à l'inflammation.
 - [S4] Devalia V, et al. BCSH — cobalamine et folates, 2014.
 - [S5] Jäger U, et al. Diagnostic et traitement des AHAI de l'adulte (consensus international).
 - [S11] Snook J, et al. BSG — iron deficiency anaemia in adults, 2021.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S6] Kulasekararaj A, et al. Guidelines for the diagnosis and management of adult aplastic anaemia: a British Society for Haematology Guideline. Br J Haematol. 2024;204(3):784-804.
+- [S7] Cappellini MD, Farmakis D, Porter J, Taher A (eds). Guidelines for the management of transfusion dependent thalassaemia (TDT). 4th edition (version 2.0). Nicosia: Thalassaemia …
+- [S8] Yawn BP, Buchanan GR, Afenyi-Annan AN, et al. Management of sickle cell disease: summary of the 2014 evidence-based report by expert panel members. JAMA. 2014;312(10):1033-1048.
+- [S9] Haute Autorité de santé. ALD n° 10 — Syndromes drépanocytaires majeurs de l'adulte. Protocole national de diagnostic et de soins. Saint-Denis : HAS ; janvier 2010 (paragraphe 3.7.3 …
+- [S12] Musallam KM, Cappellini MD, Porter JB, Farmakis D, Eleftheriou A, Angastiniotis M, Taher AT. TIF Guidelines for the Management of Transfusion-Dependent β-Thalassemia. HemaSphere. …

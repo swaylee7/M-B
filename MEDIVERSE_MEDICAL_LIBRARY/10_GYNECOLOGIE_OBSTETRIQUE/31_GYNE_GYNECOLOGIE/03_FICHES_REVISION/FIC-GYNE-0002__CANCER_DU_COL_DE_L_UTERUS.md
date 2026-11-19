@@ -214,3 +214,7 @@ Algérie : centres anticancer (CAC) ; orientation précoce vers un centre de **c
 - [S4] CIRC. GLOBOCAN 2022 — fiche Algérie.
 - [S8] Ramirez PT, et al. LACC. *N Engl J Med* 2018.
 - [S9] Cibula D, et al. ESGO/ESTRO/ESP Guidelines — cervical cancer, 2023.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S7] Ministère de la Santé (Algérie). Plan national cancer 2015-2019 (axes prioritaires : prévention et dépistage des cancers du sein, du col de l'utérus, colorectal et du poumon). Existence …
+- [S15] Ministère de la Santé (Algérie). Arrêté du 10 Dhou El Kaâda 1447 correspondant au 28 avril 2026 complétant l'arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire …

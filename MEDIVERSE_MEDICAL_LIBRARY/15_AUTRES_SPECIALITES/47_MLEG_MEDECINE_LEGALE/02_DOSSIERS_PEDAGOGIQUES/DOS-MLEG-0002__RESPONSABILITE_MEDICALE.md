@@ -21,7 +21,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018046.pdf"
     verifiee: true
   - id: S2
-    reference: "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52 du 8 juillet 1992, p. 1160-1175 (consulté sur joradp.dz : articles 7-58, 85-103, 204-221 ; non inscrit au registre)."
+    reference: "Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale, JORADP n° 52 du 8 juillet 1992, p. 1160-1175 (DOC-00107 ; articles 7-58, 85-103, 204-221 relus par l'auditeur)."
     organisme: "Gouvernement algérien"
     annee: 1992
     type: texte_officiel
@@ -29,7 +29,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1992/F1992052.pdf"
     verifiee: true
   - id: S3
-    reference: "Ordonnance n° 75-58 du 26 septembre 1975 portant code civil, JORADP n° 78 du 30 septembre 1975 — rédaction d'origine consultée (articles 124-138 et 161-184) ; texte modifié et complété depuis."
+    reference: "Ordonnance n° 75-58 du 26 septembre 1975 portant code civil, JORADP n° 78 du 30 septembre 1975 (DOC-00112, rédaction d'origine : articles 124-138 et 161-184), modifiée notamment par la loi n° 05-10 du 20 juin 2005, JORADP n° 44 du 26 juin 2005 (DOC-00113 : articles 124, 124 bis, 125, 126, 129, 131-134, 136, 137, 140 bis, 140 ter, 182 bis). Les articles 127, 172, 176, 178 et 182 ne sont pas modifiés par cette loi."
     organisme: "République algérienne"
     annee: 1975
     type: texte_officiel
@@ -37,7 +37,7 @@ sources:
     url: "https://www.joradp.dz/FTP/JO-FRANCAIS/1975/F1975078.pdf"
     verifiee: true
   - id: S4
-    reference: "Ordonnance n° 66-156 du 8 juin 1966 portant code pénal, JORADP n° 49 du 11 juin 1966 — rédaction d'origine consultée (articles 264-301) ; texte modifié et complété depuis."
+    reference: "Ordonnance n° 66-156 du 8 juin 1966 portant code pénal, JORADP n° 49 du 11 juin 1966 (DOC-00108, rédaction d'origine : articles 182, 226, 264-301, 304) ; modifiée notamment par la loi n° 06-23 du 20 décembre 2006, JORADP n° 84/2006 (DOC-00109 : article 442) et par la loi n° 24-06 du 28 avril 2024, JORADP n° 30/2024 (DOC-00111 : articles 288, 289, 304, 314, 316). Aucune version consolidée officielle n'est publiée au JORADP."
     organisme: "République algérienne"
     annee: 1966
     type: texte_officiel
@@ -74,7 +74,7 @@ mots_cles: [responsabilité médicale, faute, obligation de moyens, aléa théra
 # Responsabilité médicale : principes et différentes responsabilités (civile, administrative, pénale, disciplinaire)
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage. Les textes juridiques algériens sont **reformulés** ; les rares mots cités entre guillemets sont des expressions brèves.
-> Statut : brouillon à auditer. Le code civil (1975) et le code pénal (1966) ont été consultés dans leur **rédaction d'origine** : toute utilisation professionnelle impose de vérifier la **version consolidée en vigueur**.
+> Statut : audité (AUD-01, 2026-11-19). Le code civil a été vérifié sur sa rédaction d'origine (DOC-00112) et sur la loi 05-10 (DOC-00113) ; le code pénal sur sa rédaction d'origine (DOC-00108) et sur les lois 06-23 et 24-06 (DOC-00109, DOC-00111). Aucune version consolidée officielle n'étant publiée au JORADP, une modification postérieure non repérée reste possible.
 
 **Items du programme couverts** : RES-MED-140 — « Responsabilité médicale : Principes de la responsabilité médicale - différentes responsabilités médicales : civile, administrative, pénale et disciplinaire ».
 
@@ -110,7 +110,7 @@ La loi 18-11 rappelle ce principe de pluralité : les manquements aux obligation
 | **Obligation de moyens** | Le débiteur s'engage à mettre en œuvre tous les moyens raisonnables (diligence, prudence) sans garantir le résultat ; c'est l'obligation habituelle du médecin. |
 | **Obligation de résultat** | Le débiteur garantit le résultat ; en médecine, elle est admise pour certaines obligations (sécurité de certains produits ou matériels, examens de biologie standard…) selon la jurisprudence `[À VÉRIFIER — jurisprudence algérienne]`. |
 
-**Obligation de moyens en droit civil algérien.** L'article 172 du code civil (rédaction de 1975) dispose, en substance, que le débiteur d'une obligation de faire qui doit agir avec prudence est libéré s'il y apporte la diligence d'un **bon père de famille**, même si le résultat voulu n'est pas atteint ; il reste responsable de son dol et de sa faute lourde [S3]. C'est le fondement classique de l'**obligation de moyens** du médecin.
+**Obligation de moyens en droit civil algérien.** L'article 172 du code civil (rédaction de 1975, non modifiée par la loi 05-10 ; DOC-00112) dispose, en substance, que le débiteur d'une obligation de faire qui doit agir avec prudence est libéré s'il y apporte la diligence d'un **bon père de famille**, même si le résultat voulu n'est pas atteint ; il reste responsable de son dol et de sa faute lourde [S3]. C'est le fondement classique de l'**obligation de moyens** du médecin.
 
 **La faute « avérée, après expertise ».** La loi 18-11 prévoit que toute erreur ou faute médicale avérée après **expertise**, susceptible de mettre en cause la responsabilité de l'établissement et/ou du praticien, commise dans l'exercice ou à l'occasion des fonctions, et qui porte atteinte à l'intégrité physique ou à la santé du malade, cause une incapacité permanente, met sa vie en danger ou provoque son décès, entraîne l'application des sanctions légales et réglementaires (art. 353) [S1]. L'expertise est donc la pièce centrale de toute mise en cause.
 
@@ -132,8 +132,8 @@ La loi 18-11 rappelle ce principe de pluralité : les manquements aux obligation
 |---|---|
 | **Loi 18-11 relative à la santé** (2018) [S1] | Droits des patients (art. 21-28), devoirs des professionnels (art. 165-184), consentement et refus de soins (art. 343-344), déontologie et conseils (art. 345-351), compétence (art. 352), faute médicale avérée après expertise (art. 353), assurance (art. 296), dispositions pénales (art. 400-441) |
 | **Code de déontologie médicale** (décret 92-276, 1992) [S2] | Devoirs généraux, secret (art. 36-41), devoirs envers le malade (art. 42-58), médecine de contrôle et d'expertise (art. 90-99), discipline (art. 210-221) |
-| **Code civil** (ordonnance 75-58, 1975) [S3] | Responsabilité du fait personnel (art. 124), solidarité (art. 126), cause étrangère (art. 127), fonctionnaires agissant sur ordre (art. 129), réparation (art. 131-132), prescription (art. 133), responsabilité du fait d'autrui (art. 134-137) et des choses (art. 138), obligation de moyens (art. 172), responsabilité contractuelle (art. 176-182) |
-| **Code pénal** (ordonnance 66-156, 1966) [S4] | Homicide et blessures involontaires (art. 288-289), secret professionnel (art. 301), et autres articles auxquels renvoie la loi 18-11 |
+| **Code civil** (ordonnance 75-58, 1975, modifiée par la loi 05-10 de 2005) [S3] | Responsabilité du fait personnel (art. 124), abus de droit (art. 124 bis), solidarité (art. 126), cause étrangère (art. 127), fonctionnaires agissant sur ordre (art. 129), réparation (art. 131-132), prescription (art. 133), responsabilité du fait d'autrui (art. 134-137) et des choses (art. 138), obligation de moyens (art. 172), responsabilité contractuelle (art. 176-182) |
+| **Code pénal** (ordonnance 66-156, 1966, modifiée notamment en 2006 et 2024) [S4] | Homicide et blessures involontaires (art. 288-289, 442-2°), omission de porter secours (art. 182 al. 2), faux certificat médical (art. 226), secret professionnel (art. 301), et autres articles auxquels renvoie la loi 18-11 |
 | **Code de procédure civile et administrative** (loi 08-09), **statut général de la fonction publique** (ordonnance 06-03), **loi sur les assurances** (ordonnance 95-07) [S5] | Compétence juridictionnelle, discipline statutaire des agents publics, assurance — contenus à consulter `[À VÉRIFIER]` |
 
 ## 5. Principes généraux de la responsabilité pour faute
@@ -167,14 +167,15 @@ Elle concerne le médecin **libéral** et les **établissements privés** (et le
 - **Délictuelle** (en l'absence de contrat, par exemple patient inconscient ou action des ayants droit en leur nom propre) : tout fait quelconque de l'homme qui cause un dommage à autrui oblige celui par la faute duquel il est arrivé à le réparer (code civil, art. 124) [S3]. Les clauses exonérant de la responsabilité délictuelle sont nulles (art. 178) [S3].
 
 ### 6.3 Responsabilité du fait d'autrui et des choses
-- Le **commettant** (clinique, employeur) répond du dommage causé par son **préposé** (médecin ou infirmier salarié) dans l'exercice ou à l'occasion de ses fonctions (code civil, art. 136), avec un recours possible contre l'auteur (art. 137) [S3].
+- Le **commettant** (clinique, employeur) répond du dommage causé par son **préposé** (médecin ou infirmier salarié) dans l'exercice ou à l'occasion de ses fonctions (code civil, art. 136, rédaction de 2005 : le lien de préposition existe même si le commettant n'a pas choisi librement son préposé) ; depuis la loi 05-10, le commettant n'a de **recours contre le préposé qu'en cas de faute lourde** de celui-ci (art. 137) [S3].
 - Celui qui est tenu de surveiller une personne en raison de son état **mental** ou physique répond du dommage causé par elle, sauf preuve qu'il a satisfait à son devoir de surveillance (art. 134) — disposition pertinente pour les établissements accueillant des patients psychiatriques [S3].
 - Le gardien d'une **chose** (matériel, appareil) en est présumé responsable (art. 138) [S3].
 - Plusieurs responsables d'un même dommage sont tenus **solidairement** (art. 126) [S3].
 
 ### 6.4 Réparation et prescription
 - Le juge fixe l'étendue de la réparation selon les circonstances, éventuellement sous forme de rente, avec possibilité de réserver une révision (code civil, art. 131-132) [S3].
-- Dans la rédaction de 1975, l'action en réparation se prescrit par **quinze ans** à partir du jour de l'acte dommageable (art. 133) ; ce délai, comme le reste du code, doit être vérifié dans la version en vigueur `[À VÉRIFIER]` [S3].
+- L'action en réparation se prescrit par **quinze ans** à partir du jour où l'acte dommageable a été commis (art. 133, rédaction de 1975 reprise à l'identique par la loi 05-10) [S3].
+- Le **préjudice moral** comprend toute atteinte à la liberté, à l'honneur ou à la notoriété (art. 182 bis, loi 05-10) ; le juge fixe l'étendue de la réparation conformément aux articles 182 et 182 bis (art. 131) [S3].
 
 ## 7. Responsabilité administrative (exercice public)
 
@@ -184,7 +185,7 @@ Le praticien exerçant dans une **structure ou un établissement public de sant�
 ### 7.2 Faute de service et faute personnelle
 - **Faute de service** : commise dans l'exercice des fonctions, non détachable du service (erreur de diagnostic, défaut d'organisation, défaut de surveillance) ; elle est réparée par l'établissement.
 - **Faute personnelle détachable** : faute d'une particulière gravité ou étrangère au service (acte intentionnel, ivresse, abandon délibéré, intérêt personnel) ; elle peut engager la responsabilité personnelle du praticien devant les juridictions ordinaires. La distinction est jurisprudentielle `[À VÉRIFIER — jurisprudence algérienne]`.
-- Le code civil prévoit que les fonctionnaires et agents publics ne sont pas personnellement responsables des actes dommageables accomplis en exécution d'ordres obligatoires reçus d'un supérieur (art. 129, rédaction de 1975) [S3].
+- Le code civil prévoit que les fonctionnaires et agents publics ne sont pas personnellement responsables des actes dommageables accomplis en exécution d'ordres obligatoires reçus d'un supérieur (art. 129, rédaction de 1975 reprise par la loi 05-10) [S3].
 
 ### 7.3 Voies non contentieuses
 - La **commission de conciliation et de médiation** placée auprès de chaque service extérieur de santé peut être saisie par le patient ou son représentant en cas de violation de ses droits (loi 18-11, art. 28) [S1].
@@ -216,11 +217,11 @@ Le praticien exerçant dans une **structure ou un établissement public de sant�
 | Étude clinique sans **consentement** de la personne | 439 | 2 à 5 ans d'emprisonnement et amende |
 | Infractions relatives aux prélèvements et greffes, au sang, à l'AMP | 429-436 | Amendes élevées et emprisonnement (jusqu'à 10 à 20 ans pour le trafic de produits du corps humain, art. 435) |
 
-D'autres infractions du code pénal peuvent concerner le médecin (par exemple l'omission de porter secours à une personne en péril, la délivrance de faux certificats, l'avortement) ; leurs numéros d'articles dans la version en vigueur sont `[À VÉRIFIER]`, à l'exception de l'avortement (art. 304, cité par l'art. 409 de la loi 18-11) [S1, S4].
+D'autres infractions du code pénal peuvent concerner le médecin : l'**omission de porter secours** à une personne en péril (art. 182 al. 2), le **faux certificat** du médecin qui, pour favoriser quelqu'un, certifie faussement ou dissimule une maladie, une infirmité ou une grossesse, ou fournit des indications mensongères sur l'origine d'une maladie ou la cause d'un décès (art. 226), l'**avortement** (art. 304, réécrit par la loi 24-06 et cité par l'art. 409 de la loi 18-11) [S1, S4]. Les articles 182 et 226 ont été vérifiés dans la rédaction de 1966 (DOC-00108) ; leur éventuelle modification ultérieure n'a pas été recherchée de façon exhaustive.
 
 ### 8.3 Le délit non intentionnel du médecin
 - **Élément matériel** : le dommage corporel (décès, incapacité) et la faute (maladresse, imprudence, inattention, négligence, inobservation des règlements — termes de l'article 288 du code pénal) [S4].
-- **Gravité** : dans la rédaction de 1966, l'article 289 réprime les blessures involontaires ayant entraîné une ITT **supérieure à trois mois** ; en deçà, l'infraction relève des contraventions (renvoi de l'art. 413 de la loi 18-11 à l'article 442 al. 2) [S1, S4].
+- **Gravité** (rédaction en vigueur) : l'homicide involontaire (art. 288) et les blessures involontaires ayant entraîné une ITT **supérieure à trois mois** (art. 289) sont des **délits**, dont les peines ont été relevées par la loi 24-06 (art. 288 : emprisonnement d'un à cinq ans et amende ; art. 289 : six mois à trois ans et/ou amende) ; en deçà de trois mois d'ITT, l'infraction est une **contravention** (art. 442-2°, loi 06-23), que l'action publique ne peut poursuivre **que sur plainte de la victime** et dont les poursuites s'éteignent par le **pardon** de celle-ci (renvoi de l'art. 413 de la loi 18-11 aux articles 288, 289 et 442 al. 2) [S1, S4]. L'article 290 double les peines des articles 288 et 289 en cas d'ivresse ou de tentative de se soustraire à sa responsabilité (rédaction de 1966) [S4].
 - **Fait justificatif** : la loi 18-11 exclut explicitement la « nécessité médicale justifiée » (art. 413) [S1] ; un acte médical conforme, consenti et justifié porte atteinte à l'intégrité sans être fautif (art. 21 : pas d'atteinte à l'intégrité physique hors nécessité médicale dûment prouvée) [S1].
 - **Causalité** : l'expertise judiciaire est déterminante (art. 353) [S1].
 
@@ -296,7 +297,7 @@ D'autres infractions du code pénal peuvent concerner le médecin (par exemple l
 
 ## 12. Accident médical non fautif (aléa) : approche comparée
 
-- En droit algérien, la responsabilité médicale reste fondée sur la **faute** « avérée, après expertise » (loi 18-11, art. 353) [S1] ; un dispositif général d'indemnisation de l'aléa thérapeutique par la solidarité nationale n'a pas été identifié dans les textes lus `[À VÉRIFIER]`.
+- En droit algérien, la responsabilité médicale reste fondée sur la **faute** « avérée, après expertise » (loi 18-11, art. 353) [S1] ; aucun dispositif **spécifique** d'indemnisation de l'aléa thérapeutique n'a été identifié dans les textes lus. Le code civil prévoit toutefois, depuis la loi 05-10, qu'**à défaut de responsable** des dommages corporels, et si la victime n'en est pas la cause, **l'État prend en charge la réparation** (art. 140 ter) [S3] ; son application aux accidents médicaux non fautifs relève de la jurisprudence `[À VÉRIFIER — jurisprudence algérienne]`.
 - La loi 18-11 prévoit en revanche une **indemnisation sans faute** dans un domaine spécifique : pour les études cliniques sans bénéfice individuel direct, le promoteur assume, même sans faute, l'indemnisation des conséquences dommageables pour la personne qui s'y prête (art. 393) [S1].
 - En France, la loi du 4 mars 2002 a créé un mécanisme d'indemnisation des accidents médicaux graves non fautifs par la solidarité nationale (ONIAM) et des commissions de conciliation et d'indemnisation [S7] — mentionné à titre comparatif.
 
@@ -644,15 +645,15 @@ Selon la loi 18-11, quelles propositions sont exactes concernant l'information e
 | **Code de déontologie applicable** | Décret 92-276 (1992), pris sous la loi 85-05 [S2] | Loi 18-11 (2018) : un nouveau code doit être fixé par voie réglementaire (art. 347), anciens conseils maintenus à titre transitoire (art. 447) [S1] | Vérifier la publication d'un nouveau code `[À VÉRIFIER]` |
 | **Sanction d'interdiction d'exercer** | CD 1992 : proposée par le conseil régional aux autorités administratives (art. 217, renvoi à l'art. 17 de la loi 85-05) [S2] | Loi 18-11 : conseils « investis du pouvoir disciplinaire et de sanction » (art. 347) [S1] | Portée exacte à préciser par le nouveau code |
 | **Indemnisation de l'aléa** | Algérie : responsabilité fondée sur la faute avérée après expertise (art. 353) ; indemnisation sans faute limitée aux études cliniques sans bénéfice direct (art. 393) [S1] | France : indemnisation par la solidarité nationale (loi du 4 mars 2002) [S7] | Différence majeure de philosophie |
-| **Prescription de l'action civile** | Code civil 1975 : 15 ans à partir de l'acte dommageable (art. 133) [S3] | Version en vigueur `[À VÉRIFIER]` | Ne pas transposer les délais français |
-| **Seuil des blessures involontaires** | CP 1966, art. 289 : ITT > 3 mois → délit [S4] | Version en vigueur `[À VÉRIFIER]` | La loi 18-11 renvoie aux art. 288, 289 et 442 al. 2 (art. 413) |
+| **Prescription de l'action civile** | Code civil, art. 133 : 15 ans à partir du jour où l'acte dommageable a été commis (1975, repris par la loi 05-10) [S3] | Droit français : délais différents (non revérifiés) | Ne pas transposer les délais français |
+| **Seuil des blessures involontaires** | CP, art. 289 : ITT > 3 mois → délit (seuil inchangé depuis 1966, peines relevées par la loi 24-06) [S4] | CP, art. 442-2° : ITT ≤ 3 mois → contravention, poursuite sur plainte de la victime (loi 06-23) [S4] | La loi 18-11 renvoie aux art. 288, 289 et 442 al. 2 (art. 413) |
 
 ## 22. Références
 
 1. [S1] Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (DOC-00074).
-2. [S2] Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale. JORADP n° 52 du 8 juillet 1992, p. 1160-1175.
-3. [S3] Ordonnance n° 75-58 du 26 septembre 1975 portant code civil. JORADP n° 78 du 30 septembre 1975 (rédaction d'origine ; modifiée et complétée).
-4. [S4] Ordonnance n° 66-156 du 8 juin 1966 portant code pénal. JORADP n° 49 du 11 juin 1966 (rédaction d'origine ; modifiée et complétée).
+2. [S2] Décret exécutif n° 92-276 du 6 juillet 1992 portant code de déontologie médicale. JORADP n° 52 du 8 juillet 1992, p. 1160-1175 (DOC-00107).
+3. [S3] Ordonnance n° 75-58 du 26 septembre 1975 portant code civil. JORADP n° 78 du 30 septembre 1975 (DOC-00112), modifiée notamment par la loi n° 05-10 du 20 juin 2005, JORADP n° 44 du 26 juin 2005 (DOC-00113).
+4. [S4] Ordonnance n° 66-156 du 8 juin 1966 portant code pénal. JORADP n° 49 du 11 juin 1966 (DOC-00108), modifiée notamment par la loi n° 06-23 (JORADP n° 84/2006, DOC-00109) et la loi n° 24-06 (JORADP n° 30/2024, DOC-00111).
 5. [S5] Loi n° 08-09 du 25 février 2008 (code de procédure civile et administrative) ; ordonnance n° 06-03 du 15 juillet 2006 (statut général de la fonction publique) ; ordonnance n° 95-07 du 25 janvier 1995 (assurances) — intitulés confirmés par les visas de la loi 18-11.
 6. [S6] *Textbook of Patient Safety and Clinical Risk Management*, 2021 (OUV-0700). https://www.ncbi.nlm.nih.gov/books/NBK585609/
 7. [S7] France, loi n° 2002-303 du 4 mars 2002 relative aux droits des malades et à la qualité du système de santé (comparaison ; non revérifiée).

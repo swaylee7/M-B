@@ -203,3 +203,6 @@ INFARCTUS
 - [S4] Turc G, et al. ESO-ESMINT — thrombectomie mécanique.
 - [S7] Greenberg SM, et al. AHA/ASA 2022 — hémorragie intracérébrale spontanée.
 - [S8] Hoh BL, et al. AHA/ASA 2023 — hémorragie sous-arachnoïdienne anévrismale.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S11] Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack (AHA/ASA). Stroke. …

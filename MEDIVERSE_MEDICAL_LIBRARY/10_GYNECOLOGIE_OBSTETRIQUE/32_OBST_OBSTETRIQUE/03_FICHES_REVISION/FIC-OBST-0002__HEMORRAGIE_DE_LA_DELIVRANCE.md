@@ -197,3 +197,7 @@ Ballonnet : 300–500 mL, 12–24 h, sous antibiotiques ; OMS : sous conditions 
 - [S4] WOMAN Trial Collaborators. *Lancet* 2017.
 - [S6] Gallos I, et al. E-MOTIVE. *N Engl J Med* 2023.
 - [S7] OMS/FIGO/ICM. Consolidated guidelines on postpartum haemorrhage, 2025.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S9] Keddad N, et al. P357: A descriptive study of maternal deaths in Algeria in 2011. Antimicrob Resist Infect Control. 2013;2(Suppl 1):P357 (résumé de communication).
+- [S10] Ministère de la Santé (Algérie), DGSSRH, avec l'appui de l'UNICEF. Protocoles et procédures de prise en charge de la grossesse, de l'accouchement et de la période postnatale. Édition 2025.

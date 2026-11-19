@@ -209,3 +209,9 @@ ACCOUCHEMENT
 - [S4] Bonnet MP, et al. SFAR-CNGOF 2020 — pré-éclampsie sévère.
 - [S5] Magpie Trial Collaborative Group. *Lancet* 2002.
 - [S9] OMS. Recommendations for prevention and treatment of pre-eclampsia and eclampsia, 2011.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S6] Rolnik DL, Wright D, Poon LC, et al. Aspirin versus placebo in pregnancies at high risk for preterm preeclampsia (ASPRE). N Engl J Med. 2017;377(7):613-622.
+- [S8] Zeisler H, Llurba E, Chantraine F, et al. Predictive value of the sFlt-1:PlGF ratio in women with suspected preeclampsia (PROGNOSIS). N Engl J Med. 2016;374(1):13-22.
+- [S10] Keddad N, et al. P357: A descriptive study of maternal deaths in Algeria in 2011. Antimicrob Resist Infect Control. 2013;2(Suppl 1):P357 (résumé de communication).
+- [S11] Ministère de la Santé (Algérie), Direction générale des services de santé et de la réforme hospitalière, avec l'appui de l'UNICEF. Protocoles et procédures de prise en charge de la …

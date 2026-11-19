@@ -192,3 +192,8 @@ Mesures générales : **pas d'aspirine ni d'AINS** (paracétamol), pas d'IM, pas
 - [S4] HAS / CeReCAI. PNDS — PTI de l'adulte.
 - [S5] HAS / CeReCAI. Synthèse à destination du médecin traitant — PTI de l'adulte, 2024.
 - [S8] Cuker A, et al. ASH 2026 guideline update on ITP.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S6] Haute Autorité de santé / CEREVANCE. PNDS — Purpura thrombopénique immunologique de l'enfant et de l'adolescent. HAS ; 2025.
+- [S7] Khellaf M, Michel M, Schaeffer A, Bierling P, Godeau B. Assessment of a therapeutic strategy for adults with severe autoimmune thrombocytopenic purpura based on a bleeding score rather …
+- [S9] Résumés des caractéristiques du produit (RCP, versions EMA/MHRA consultées en novembre 2026) : Revolade (eltrombopag), Nplate (romiplostim), Doptelet (avatrombopag) — rubrique 4.2 ; …

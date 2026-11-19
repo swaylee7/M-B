@@ -201,3 +201,9 @@ INTOXICATION SUSPECTÉE
 - [S4] Chiew AL, et al. Paracétamol — recommandations ANZ. *Med J Aust* 2020.
 - [S5] Protection civile (Algérie) — bilans des intoxications au CO (156 décès en 2023).
 - [S8] Eddleston M, et al. Organophosphorés. *Lancet* 2008;371(9612):597-607.
+
+Autres références du dossier source citées ponctuellement dans cette fiche (non reprises dans l'en-tête) :
+- [S6] Étude sur les intoxications au monoxyde de carbone en Algérie, publiée dans une revue de l'Université de Sétif (fichier « Benboudiaf-CO ») — plus de 2 000 victimes déclarées par an selon …
+- [S9] Mathieu D, Marroni A, Kot J. Tenth European Consensus Conference on Hyperbaric Medicine: recommendations for accepted and non-accepted clinical indications and practice of hyperbaric …
+- [S10] EXTRIP Workgroup. Recommandations sur l'épuration extrarénale dans les intoxications (lithium, salicylés, alcools toxiques, metformine, etc.). [À VÉRIFIER — non confirmées pendant la … — non vérifiée en session
+- [S11] Rumack BH, Matthew H. Acetaminophen poisoning and toxicity. Pediatrics. 1975 ; et modification britannique du seuil du nomogramme (MHRA, 2012). [À VÉRIFIER — non confirmées pendant la … — non vérifiée en session
